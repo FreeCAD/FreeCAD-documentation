@@ -1,6 +1,8 @@
 # Getting started/fr
 {{TOCright}}
 
+
+
 ## Avant-propos 
 
 FreeCAD est une [application de modélisation paramétrique](About_FreeCAD/fr.md) 3D. Elle est principalement destinée à la conception mécanique, mais sert aussi à toutes les utilisations où vous avez besoin de modéliser des objets de précision et de contrôler l\'historique de la modélisation 3D.
@@ -12,12 +14,17 @@ Comme tous les projets de logiciels libres, FreeCAD dépend de sa communauté po
 Voir aussi :
 
 -   [Migrer vers FreeCAD depuis Fusion360](Migrating_to_FreeCAD_from_Fusion360/fr.md)
+-   [Quel atelier dois-je choisir ?](Which_workbench_should_I_choose/fr.md)
 -   [Tutoriels](Tutorials/fr.md)
 -   [Tutoriels vidéo](Video_tutorials/fr.md)
+
+
 
 ## Installation
 
 Tout d\'abord (si ce n\'est pas déjà fait) téléchargez et installez FreeCAD. Consultez la page de [téléchargements](Download/fr.md) pour plus d\'informations sur les mises à jour et versions actuelles et les instructions d\'installation pour votre système d\'exploitation ([Windows](Installing_on_Windows/fr.md), [Linux](Installing_on_Linux/fr.md) ou [Mac](Installing_on_Mac/fr.md)). Il y a des paquets d\'installation pour Windows (.msi), pour Debian et Ubuntu (.deb), openSUSE (.rpm) et Mac OSX. FreeCAD est disponible dans les gestionnaires de paquets de plusieurs autres distributions Linux. Une [AppImage](AppImage/fr.md) autonome exécutable est également disponible et fonctionne sur la plupart des systèmes 64 bits Linux récents. FreeCAD est open source et donc vous pouvez également récupérer le code source et le [compiler](Compiling/fr.md) vous-même.
+
+
 
 ## Explorer l\'interface 
 
@@ -51,11 +58,15 @@ Lorsque vous démarrez FreeCAD pour la première fois, la page Start s\'affiche.
 
 La page Start permet de passer rapidement à l\'un des ateliers les plus usuels, ouvrir un des fichiers récents ou voir les dernières nouvelles du monde de FreeCAD. Vous pouvez modifier l\'atelier par défaut dans l\'[éditeur de préférences](Preferences_Editor/fr.md).
 
+
+
 ## Naviguer dans l\'espace 3D 
 
 FreeCAD propose différents [modes de navigation](Mouse_navigation/fr.md), qui changent la façon dont vous utilisez votre souris pour interagir avec les objets de la vue 3D et la vue elle-même. L\'un d\'eux est spécialement conçu pour les [touchpads](Mouse_navigation/fr#Mode_Touchpad.md) où le bouton central de la souris n\'est pas utilisé. Le mode de navigation par défaut est le [mode CAD](Mouse_navigation/fr#Mode_CAD.md). Vous pouvez rapidement changer le mode de navigation utilisé par le bouton **[<img src=images/NavigationCAD_dark.svg style="width:16px">** dans la [barre d\'état](Status_bar/fr.md) ou en cliquant avec le bouton droit de la souris sur une zone vide de la [Vue_3D](3D_view/fr.md).
 
 Plusieurs vue prédéfinies (vue de dessus, vue de face, etc.) sont disponibles dans le menu Affichage, dans la barre d\'outils ainsi que par des raccourcis numériques (**1**, **2**, etc\...). Un clic droit sur un objet ou sur une zone vide de la vue 3D vous donne un accès rapide à certaines opérations courantes, telles que la définition d\'une vue particulière, ou localiser un objet dans l\'arborescence.
+
+
 
 ## Premiers pas avec FreeCAD 
 
@@ -64,6 +75,8 @@ L\'objectif de FreeCAD est de vous permettre de créer des modèles 3D de haute 
 L\'atelier que vous utiliserez à l\'aide de FreeCAD dépend du type de travail à effectuer : Si vous travaillez sur des modèles mécaniques, ou plus généralement tous les petits objets, vous aurez probablement envie d\'essayer l\'[atelier PartDesign](PartDesign_Workbench/fr.md). Si vous voulez travailler en 2D, passez à l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md) si vous avez besoin de contraintes. Si vous voulez faire de la modélisation BIM, lancez l\'[atelier Arch](Arch_Workbench/fr.md). Et si vous venez du monde OpenSCAD, essayez l\'[atelier OpenSCAD](OpenSCAD_Workbench/fr.md). Il existe également de nombreux ateliers développés par la communauté, les [ateliers externes](External_workbenches/fr.md).
 
 Vous pouvez changer d\'atelier à tout moment et aussi changer les [préférences](Interface_Customization/fr.md) de votre atelier favori pour ajouter des outils d\'autres ateliers.
+
+
 
 ## Travailler avec PartDesign et l\'atelier Sketcher 
 
@@ -89,6 +102,8 @@ Ce qui vous donne un objet comme ceci :
 
 À tout moment, vous pouvez sélectionner les esquisses originales et les modifier, ou changer les paramètres d\'extrusion des opérations de protrusion ou de cavité, qui mettront automatiquement à jour l\'objet final.
 
+
+
 ## Travailler avec les ateliers Draft et Arch 
 
 Les ateliers [Draft](Draft_Workbench/fr.md) et [Arch](Arch_Workbench/fr.md) se comportent un peu différemment des autres ateliers ci-dessus, bien qu\'ils suivent les mêmes règles communes à l\'ensemble de FreeCAD. En bref, alors que le Sketcher (esquisse) et PartDesign sont faits principalement pour concevoir des pièces uniques, Draft et Arch sont faits pour faciliter votre travail lorsque vous travaillez avec plusieurs objets simples.
@@ -113,6 +128,8 @@ Le résultat sera :
 
 Plus d\'informations sur la page [tutoriels](Tutorials/fr.md).
 
+
+
 ## Addons, Macro et ateliers externe 
 
 FreeCAD, en tant que logiciel open source, offre la possibilité de compléter ses ateliers avec des addons.
@@ -124,9 +141,13 @@ Il existe deux types d\'addons :
 1.  [Macros](Macros/fr.md) : courts extraits de code Python fournissant un nouvel outil ou de nouvelles fonctionnalités. Les macros commencent généralement par simplifier ou automatiser la tâche de dessin ou d\'édition d\'un objet particulier. Si plusieurs de ces macros sont collectées dans un répertoire, l\'intégralité du répertoire peut être distribué en tant que nouveau plan de travail.
 2.  [Ateliers externes](External_workbenches/fr.md) : un ensemble d\'outils programmés en Python ou en C++ qui étend FreeCAD de manière importante. Si un atelier est suffisamment développé et bien documenté, il peut être inclus comme l'un des ateliers de base de FreeCAD. Sous [Ateliers externes](External_workbenches/fr.md), vous trouverez le principe et une liste des bibliothèques existantes.
 
+
+
 ## Script
 
 Et enfin, une des caractéristiques les plus puissantes de FreeCAD est l\'environnement de [programmation de macros](scripting/fr.md). À partir de la console Python intégrée (ou depuis n\'importe quel autre éditeur de macro Python), vous pouvez accéder à presque n\'importe quelle partie de FreeCAD, créer ou modifier la géométrie, modifier la représentation de ces objets dans la scène 3D ou accéder et modifier l\'interface de FreeCAD. Les scripts Python peuvent aussi s\'utiliser par [des Macros](Macros/fr.md), lesquelles fournissent une méthode simple pour créer des commandes personnalisées.
+
+
 
 ## Nouveautés
 

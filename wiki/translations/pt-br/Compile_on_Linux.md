@@ -4,6 +4,8 @@
 
 {{TOCright}}
 
+
+
 ## Visão geral 
 
 On recent linux distributions, FreeCAD is generally easy to build, since all dependencies are usually provided by the package manager. It basically involves 3 steps:
@@ -19,6 +21,8 @@ Below, you\'ll find detailed explanations of the whole process, some [build scri
 
 
 *General workflow to compile FreeCAD from source. The third party dependencies must be in the system, as well as the FreeCAD source code itself. CMake configures the system so that with a single make instruction the entire project is compiled.*
+
+
 
 ## Obtendo a fonte 
 
@@ -549,7 +553,7 @@ And optionally:
 -   python3-markdown (for the Addon Manager to display native markdown)
 -   python3-GitPython (for the Addon Manager to use git to checkout and update workbenches and macros)
 
-To install all dependencies at once (tested on fedora 36):
+To install all dependencies at once (tested on fedora 36 and 37):
 
 
 {{Code|lang=bash|code=

@@ -13,12 +13,16 @@
 
 
 
+
+
 ## Einleitung
 
 This example is meant to show how to simulate the 6th example of [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf), **Electrostatic equation -- Capacitance of two balls**, using the new [FEM Examples](FEM_Examples.md). It illustrates how to setup the example, study it\'s various parts, solve it using the [Elmer Solver](FEM_SolverElmer.md) and visualize the results using [Clip Filter](FEM_PostFilterClipRegion.md).
 
 <img alt="" src=images/Two_balls_result_2.png  style="width:1000px;"> 
 *The final result of this tutorial*
+
+
 
 ## Voraussetzungen
 
@@ -28,12 +32,18 @@ This example is meant to show how to simulate the 6th example of [Elmer GUI Tuto
 -   No external software is needed for loading the example, viewing the mesh and geometry as well as for visualizing the results.
 -   For solving the finite element analysis (FEA), the solver software Elmer must be installed on your computer. See [this page](FEM_SolverElmer#Installation.md) for how to install Elmer.
 
+
+
 ## Das Beispiel vorbereiten 
+
+
 
 ### Arbeitsbereich FEM laden 
 
 -   FreeCAD starten, Der Arbeitsbereich Start sollte geladen werden.
 -   Zum Arbeitsbereich <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [FEM](FEM_Workbench/de.md) wechseln.
+
+
 
 ### Das Beispiel laden 
 
@@ -42,9 +52,13 @@ This example is meant to show how to simulate the 6th example of [Elmer GUI Tuto
 
 <img alt="" src=images/Two_balls_selection.png  style="width:300px;">
 
+
+
 ## Den Simulationsfall verstehen 
 
 This case presents the solution of the capacitance of perfectly conducting balls in free space. A voltage difference between the balls results to electric charge being introduced to the system. The balls have also self-capacitance that comes from the voltage difference with the far field. Therefore a symmetric capacitance matrix with of size 2 × 2 needs to be solved. The capacitances may be computed from two different voltage configurations.
+
+
 
 ## Das Modell verstehen 
 
@@ -58,6 +72,8 @@ This case presents the solution of the capacitance of perfectly conducting balls
 <img alt="" src=images/Two_balls_model_full.png  style="width:1000px;"> 
 *The initial model*
 
+
+
 ## Der Analyse-Container und seine Objekte 
 
 The objects used in this electrostatic analysis:
@@ -67,12 +83,14 @@ The objects used in this electrostatic analysis:
 3.  <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> Electrostatic, the electrostatics equation
 4.  <img alt="" src=images/FEM_MaterialFluid.svg  style="width:24px;"> FemMaterial, a fluid material to represent the surrounding air
 5.  <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> ElectrostaticPotential, constraints (3 of them)
-6.  <img alt="" src=images/Fem-thermomechanical-analysis.svg  style="width:24px;"> ConstantVaccumPermittivity, optional
+6.  <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:24px;"> ConstantVaccumPermittivity, optional
 7.  <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:24px;"> Mesh, a [Gmsh](FEM_MeshGmshFromShape.md) mesh
 8.  <img alt="" src=images/FEM_MeshRegion.svg  style="width:24px;"> MeshRegion, a mesh region for the smaller spheres
 
 ![](images/Two_balls_analysis.png ) 
 *The objects as they appear in the [Tree view](Tree_view.md)*
+
+
 
 ## Die FEA durchführen 
 
@@ -84,6 +102,8 @@ The objects used in this electrostatic analysis:
 
 If you get an error message on solver binary or similar when triggering the analysis, check [the installation](FEM_SolverElmer#Installation.md) of Elmer.
 
+
+
 ## Ergebnisse darstellen 
 
 -   Make sure the mesh is invisible. If not, select the <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:24px;"> Mesh object and press **Space** to toggle the visibility.
@@ -94,15 +114,17 @@ If you get an error message on solver binary or similar when triggering the anal
 
 <img alt="" src=images/Two_balls_potential.png  style="width:1000px;">
 
+
+
 ## Die Ergebnisse nachbearbeiten 
 
 -   While we have successfully visualised the potential result, currently we are only seeing the zero potential in the air surrounding the two balls. To view the potential on the balls we need to apply a [clip filter](FEM_PostFilterClipRegion.md).
 -   In the tree view select the <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> SolverElmerResult object and then from the tool bar click on the button **<img src="images/FEM_PostFilterClipRegion.svg" width=20px> Region Clip Filter**.
--   This will open a dialog with the filter configurations. Click there on the button **<img src="images/list-add.svg" width=16px> Create** and choose <img alt="" src=images/Fem-post-geo-plane.svg  style="width:24px;"> Plane. This adds a plane through the center of the sphere at which the result mesh is cut. To smooth the cut face, check the option **Cut Cells**. Eventually click **Apply**.
+-   This will open a dialog with the filter configurations. Click there on the button **<img src="images/list-add.svg" width=16px> Create** and choose <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> Plane. This adds a plane through the center of the sphere at which the result mesh is cut. To smooth the cut face, check the option **Cut Cells**. Eventually click **Apply**.
 
 <img alt="" src=images/Two_balls_postcreate.png  style="width:300px;">
 
--   In the tree view there is a new entry called Functions. It contains the created <img alt="" src=images/Fem-post-geo-plane.svg  style="width:24px;"> Plane. Make it invisible using **Space**.
+-   In the tree view there is a new entry called Functions. It contains the created <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> Plane. Make it invisible using **Space**.
 -   Double-click on the <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:24px;"> Clip object in the tree view.
 -   Change the \"Field\" to \"potential\" and press **OK**.
 -   Toggle the visibility of the <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> SolverElmerResult object using **Space** and you should see something like this:

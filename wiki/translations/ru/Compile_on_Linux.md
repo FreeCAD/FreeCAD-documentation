@@ -4,6 +4,8 @@
 
 {{TOCright}}
 
+
+
 ## Обзор
 
 В последних дистрибутивах Linux, FreeCAD, как правило, собирается легко, поскольку все зависимости обычно предоставляются менеджером пакетов. В основном сборка включает 3 этапа:
@@ -19,6 +21,8 @@
 
 
 *Общий рабочий процесс для компиляции FreeCAD из исходников. В систем должны быть как сторонние зависимости, так и исходные коды самого FreeCAD. CMake конфигурирует систему так чтобы весь проект скомпилировался одной инструкцией make.*
+
+
 
 ## Получение исходных кодов 
 
@@ -42,9 +46,13 @@ git clone https://github.com/FreeCAD/FreeCAD.git freecad-source
 
 Дополнительная информация о применении Git и внесении кода в проект изложена на странице [управление исходным кодом](Source_code_management/ru.md).
 
+
+
 ### Архив с исходным кодом 
 
 Кроме того, вы можете загрузить исходники непосредственно с [GitHub](https://github.com/FreeCAD/FreeCAD/releases/latest), в качестве `.zip` или `.tar.gz` архива, и распаковать его в заданный каталог.
+
+
 
 ## Установка зависимостей (Dependencies) 
 
@@ -56,6 +64,8 @@ git clone https://github.com/FreeCAD/FreeCAD.git freecad-source
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 ### Debian и Ubuntu 
 
@@ -166,6 +176,8 @@ Boost библиотеки должны быть обязательно уста
 
 <div class="mw-collapsible mw-collapsed" style="background-color:#e0e0e0">
 
+
+
 #### Python 2 и Qt4 
 
 Python 2 и Qt4 уже устарели и не рекомендуются к применению. Начиная с версии 0.20, в FreeCAD они больше не поддерживаются.
@@ -216,6 +228,8 @@ Python 2 и Qt4 уже устарели и не рекомендуются к п
 
 
 </div>
+
+
 
 #### Python 3 и Qt5 
 
@@ -301,6 +315,8 @@ Python 2 и Qt4 уже устарели и не рекомендуются к п
 -    `python3-pyside2uic`
     
 
+
+
 #### Ядро OpenCascade 
 
 Ядро OpenCascade - это основная графическая библиотека для создания 3D-фигур. Она существует в виде официальной версии OCCT и виде версии для сообщества OCE. Версия для сообщества к применению больше не рекомендуется, так как она устарела.
@@ -370,6 +386,8 @@ Python 2 и Qt4 уже устарели и не рекомендуются к п
 sudo apt install libocct*-dev
 ```
 
+
+
 #### Необязательные к установке пакеты 
 
 
@@ -388,6 +406,8 @@ sudo apt install libocct*-dev
 
 </div>
 
+
+
 #### Устаовка Python 3 и Qt5 одной командой 
 
 Требуется, чтобы Pyside2 был доступен в Debian buster и [freecad-stable/freecad-daily PPAs](Installing_on_Linux#Official_Ubuntu_repository.md).
@@ -401,6 +421,8 @@ sudo apt install cmake cmake-gui libboost-date-time-dev libboost-dev libboost-fi
 
 
 <div class="mw-collapsible mw-collapsed" style="background-color:#e0e0e0">
+
+
 
 #### Установка Python 2 и Qt4 одной коммандой 
 
@@ -588,7 +610,7 @@ This trivial change needs to be made inside the build directory once cmake has b
 
 </div>
 
-To install all dependencies at once (tested on fedora 36):
+To install all dependencies at once (tested on fedora 36 and 37):
 
 
 {{Code|lang=bash|code=
@@ -717,6 +739,8 @@ sudo pacman -S boost curl desktop-file-utils glew hicolor-icon-theme jsoncpp lib
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
+
+
 ### Более старые и нетрадиционные дистрибутивы 
 
 
@@ -740,11 +764,15 @@ sudo pacman -S boost curl desktop-file-utils glew hicolor-icon-theme jsoncpp lib
 
 К ноябрю 2015 года устаревшая версия Pivy, включенная в исходный код FreeCAD, больше не будет компилироваться во многих системах. Это не большая проблема, так как обычно вы должны получить Pivy от менеджера пакетов вашего дистрибутива; если вы не можете найти Pivy, вам, возможно, придется скомпилировать его самостоятельно, см. Инструкции по компиляции Pivy.
 
+
+
 ### Отладочные символы 
 
 Для устранения неполадок в FreeCAD полезно иметь отладочные символы важных библиотек зависимостей, таких как Qt. Для этого попробуйте установить пакеты зависимостей, которые заканчиваются на `-dbg`, `-dbgsym`, `-debuginfo` или аналогичные, в зависимости от вашего дистрибутива Linux.
 
 Для Ubuntu вам, возможно, потребуется включить специальные репозитории, чтобы иметь возможность просматривать и устанавливать эти отладочные пакеты с помощью диспетчера пакетов. См.[Debug Symbol Packages](https://wiki.ubuntu.com/Debug_Symbol_Packages) для получения дополнительной информации.
+
+
 
 ## Сборка FreeCAD 
 
@@ -759,6 +787,8 @@ FreeCAD использует CMake в качестве основной сист
 Поскольку FreeCAD - это крупное приложение, компиляция всего исходного кода может занять от 10 минут до одного часа, в зависимости от вашего процессора и количества ядер процессора, используемых для компиляции.
 
 Вы можете создать код либо в исходном каталоге, либо из него. Строительство вне источника, как правило, является лучшим вариантом.
+
+
 
 ### Сборка вне папки исходников 
 
@@ -806,6 +836,8 @@ sudo ln -s /usr/lib/x86_64-linux-gnu/libdl.so.2 /usr/lib/x86_64-linux-gnu/libdl.
 
 Adapt the command for the structure of your system by searching for libdl.so\* and linking it to the appropriate location.
 
+
+
 ### Сборка в папке исходников 
 
 Сборки с исходным кодом подходят, если вы хотите быстро скомпилировать версию FreeCAD и не собираетесь часто обновлять исходный код. В этом случае вы можете удалить скомпилированную программу и исходный код, только удалив одну папку.
@@ -821,6 +853,8 @@ make -j$(nproc --ignore=2)
 
 Исполняемый файл FreeCAD будет находиться в каталоге `freecad-source/bin`
 
+
+
 ### Как восстановить папку с исходными кодами 
 
 Если вы случайно выполнили компиляцию в каталоге исходного кода или добавили странные файлы и хотели бы восстановить содержимое только в исходном исходном коде, вы можете выполнить следующие действия.
@@ -835,6 +869,8 @@ git reset --hard HEAD
 Первая строка очищает файл `.gitignore`. Это гарантирует, что следующие команды clean и reset будут влиять на все в каталоге и не будут игнорировать элементы, соответствующие выражениям в `.gitignore`. Вторая строка удаляет все файлы и каталоги, которые не отслеживаются репозиторием git, затем последняя команда сбрасывает все изменения в отслеживаемых файлах, включая первую команду, которая очистила файл `.gitignore`.
 
 Если вы не очистите исходный каталог, следующие запуски `cmake` могут не включить новые параметры в систему, если код изменится.
+
+
 
 ### Конфигурирование
 
@@ -869,6 +905,8 @@ cmake -DBUILD_FEM=OFF ../freecad-source
 
 В качестве альтернативы используйте команду `cmake-LH` для отображения текущей конфигурации и, следовательно, всех переменных, которые можно изменить. Вы также можете установить и использовать `cmake-gui` для запуска графического интерфейса, отображающего все переменные, которые можно изменить. В следующих разделах мы перечислим некоторые из наиболее важных опций, которые вы, возможно, захотите использовать.
 
+
+
 #### Для Debug сборки 
 
 Создайте сборку `Debug` для устранения неполадок в FreeCAD. Имейте в виду, что при такой сборке [Sketcher](Sketcher_Workbench.md) становится очень медленным при работе со сложными эскизами.
@@ -878,6 +916,8 @@ cmake -DBUILD_FEM=OFF ../freecad-source
 cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Debug ../freecad-source
 }}
 
+
+
 #### Для Release сборки 
 
 Создайте сборку `Release` для тестирования кода, который не завершается сбоем. Сборка `Release` будет выполняться намного быстрее, чем сборка `Debug`.
@@ -886,6 +926,8 @@ cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Debug ../freecad-s
 {{Code|lang=bash|code=
 cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Release ../freecad-source
 }}
+
+
 
 #### Сборка на основе Python 3 и Qt5 
 
@@ -917,6 +959,8 @@ cmake ../freecad-source
 
 
 </div>
+
+
 
 #### Сборка с применением особых версий Python 
 
@@ -960,6 +1004,8 @@ Some components of FreeCAD, such as PySide, try to autodetect the most recent Py
 -DPython3_FIND_STRATEGY=LOCATION
 }}
 
+
+
 #### Сборка в Qt Creator на основе Python 3 и Qt5 
 
 1\. Запустите Qt Creator.
@@ -997,6 +1043,8 @@ PYTHON_PACKAGES_PATH:STRING=/usr/lib/python3.7/site-packages
 
 9\. Наконец, перейдите в меню **Сборка → Проект сборки "FreeCAD"**. Если это новая компиляция, она должна занять несколько минут, включительно часов, в зависимости от количества доступных процессоров.
 
+
+
 #### Плагин Qt designer 
 
 Если Вы хотите разрабатывать Qt-код для FreeCAD, Вам понадобится плагин к Qt Designer, который обеспечивает все пользовательские виджеты FreeCAD.
@@ -1028,15 +1076,21 @@ make
 sudo cp libFreeCAD_widgets.so $QT_DIR/plugins/designer
 }}
 
+
+
 #### Внешний или встроенный Pivy 
 
 В прошлом, версия Pivy была включена в исходный код FreeCAD (internal). Если вы хотели использовать системную копию Pivy (external), вам нужно было использовать -DFREECAD_USE_EXTERNAL_PIVY=1.
 
 Использование внешнего Pivy стало по умолчанию во время разработки FreeCAD 0.16, поэтому эту опцию больше не нужно устанавливать вручную.
 
+
+
 #### Документирование посредством Doxygen 
 
 Если у вас установлен Doxygen, вы можете создать документацию по исходному коду. См. инструкции в [source documentation](source_documentation.md).
+
+
 
 ### Дополнительная документация 
 
@@ -1053,6 +1107,8 @@ sudo cp libFreeCAD_widgets.so $QT_DIR/plugins/designer
 -   [Learn CMake\'s Scripting Language in 15 Minutes](https://preshing.com/20170522/learn-cmakes-scripting-language-in-15-minutes/)
 
 (блог) , предварительно изучив программирование.
+
+
 
 ### Создание пакета debian 
 
@@ -1105,6 +1161,8 @@ cd freecad-source/freecad-build
  sudo dpkg -r freecad-test1                        # uninstall by name
 }}
 
+
+
 ## Обновление исходного кода 
 
 Система CMake позволяет разумно обновлять исходный код и перекомпилировать только то, что изменилось, что ускоряет следующие компиляции.
@@ -1136,7 +1194,11 @@ cd freecad-source/freecad-build
 xargs sudo rm < install_manifest.txt
 }}
 
+
+
 ## Разрешение проблем 
+
+
 
 ### Примечание для 64-битных систем 
 
@@ -1148,6 +1210,8 @@ xargs sudo rm < install_manifest.txt
 }}
 
 Для систем на базе Debian эта опция не требуется при использовании готовых пакетов OpenCASCADE, поскольку эти пакеты устанавливают правильно `CXXFLAGS` внутри.
+
+
 
 ## Скрипты автоматической компиляции 
 
@@ -1384,6 +1448,8 @@ make -j$(nproc)
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 ### Arch с использованием AUR 
 

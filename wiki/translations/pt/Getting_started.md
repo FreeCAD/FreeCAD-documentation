@@ -1,6 +1,8 @@
 # Getting started/pt
 {{TOCright}}
 
+
+
 ## Introdução
 
 
@@ -29,9 +31,17 @@ Tal como todos os projetos \"open-source\", O projeto FreeCAD não é um trabalh
 
 Ver também:
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Migrar para o FreeCAD do Fusion360](Migrating_to_FreeCAD_from_Fusion360/pt.md)
 -   [Tutoriais](Tutorials/pt.md)
 -   [Tutoriais em video](Video_tutorials/pt.md)
+
+
+</div>
+
+
 
 ## Instalação
 
@@ -42,6 +52,8 @@ Antes de mais (se ainda não o fez) transfira e instale o FreeCAD. Veja a págin
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -96,6 +108,8 @@ A página inicial do FreeCAD permite saltar rapidamente para uma das bancada de 
 
 </div>
 
+
+
 ## Navegação no espaço 3D 
 
 O FreeCAD tem disponíveis vários [modos de navegação](Mouse_Model.md), que alteram a forma como usa o seu rato para interagir com os objetos nas vista 3D ou com a própria vista. Um deles foi especificamente feito para [touchpads](Mouse_Model#Touchpad_Navigation/pt.md), onde o botão do meio do rato não é utilizado. A tabela seguinte descreve o modo predefinido, chamado **Navegação CAD** (Pode mudar rapidamente o modo de navegação clicando com o botão direito do rato numa área vazia da vista 3D):
@@ -107,6 +121,8 @@ Existem também diversas vistas predefinidas (vista de cima, vista de frente, et
 
 
 </div>
+
+
 
 ## Primeiros passos com o FreeCAD 
 
@@ -133,6 +149,8 @@ Pode alternar bancadas de trabalho a qualquer altura, e também [personalizar](I
 
 
 </div>
+
+
 
 ## Trabalhar com as bancadas de trabalho PartDesign (desenho de peças) Sketcher (esboço) 
 
@@ -169,6 +187,8 @@ Obtendo um objeto como este:
 <img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
 
 A qualquer altura, pode selecionar o sketch (esboço) original e modificá-lo, ou alterar os parâmetros de extrusão das operações \"pad\" ou \"pocket\", atualizando assim o objeto final.
+
+
 
 ## Trabalhando com as bancadas de trabalho \"Draft\" (traço) e \"Arch\"(Arquitetura) 
 
@@ -218,6 +238,8 @@ Mais em[ Tuturials](Tutorials.md).
 
 </div>
 
+
+
 ## Addons, Macros e bancadas de trabalho externas 
 
 O Freecad, sendo um software open source, dá a possibilidade de complementar as suas bancadas de trabalho com addons.
@@ -229,9 +251,13 @@ Existem dois tipos de addons:
 1.  [Macros](Macros/pt.md): pequenos trechos de código Python que adicionam uma nova ferramenta ou funcionalidade. As macros normalmente começam como uma forma de simplificar ou automatizar a tarefa de desenhar ou editar um objecto em particular. Se muitas dessas macros são agrupadas dentro de um directório, o directório inteiro pode ser distribuído como uma nova bancada de trabalho.
 2.  [Bancadas de trabalho externas](External_workbenches/pt.md): colecções de ferramentas programadas em Python ou C++ que ampliam de forma importante o Freecad . Se uma bancada de trabalho está suficientemente desenvolvida e bem documentada, pode até ser incluída como uma das bancadas de trabalho base dentro do Freecad. Em [Bancadas de trabalho externas](External_workbenches/pt.md), irá encontrar o fundamento de cada uma e uma lista das várias bancadas externas.
 
+
+
 ## Programação (Scripting) 
 
 E finalmente, um dos recursos mais poderosos do FreeCAD é o ambiente de [ programação (scripting)](scripting.md). Desde da consola python integrada (ou a partir de qualquer outro script Python externo), pode obter acesso a praticamente qualquer parte do FreeCAD, criar ou modificar geometria, modificar a apresentação desses objetos na cena 3D ou aceder e modificar a interface do FreeCAD. A programação Python pode também ser usada em [ macros](macros/pt.md), que proporcionam um método fácil de criar comandos personalizados.
+
+
 
 
 <div class="mw-translate-fuzzy">

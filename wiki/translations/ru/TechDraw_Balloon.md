@@ -10,11 +10,15 @@
 
 # TechDraw Balloon/ru
 
+
+
 ## Описание
 
 The Balloon tool can add balloons with leader line in a drawing.
 
 <img alt="" src=images/Techdraw_balloon.png  style="width:600px;">
+
+
 
 ## Применение
 
@@ -41,6 +45,8 @@ To change the properties of a Balloon double-click it on the page or in the [Tre
 When using a rectangle shape, separators can be added using \"\|\" in the text. For example \"AAA\|TEST\|111\" gives:
 
 <img alt="" src=images/balloon_separator.png  style="width:300px;">
+
+
 
 ## Свойства
 
@@ -82,6 +88,8 @@ When using a rectangle shape, separators can be added using \"\|\" in the text. 
 
 -    **Line Width**: Balloon line width
 
+
+
 ## Программирование
 
 
@@ -98,7 +106,13 @@ rc = page.addView(bal1)
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

@@ -1,22 +1,27 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:TechDraw ProjectShape
+   Name/de:TechDraw FormProjizieren
    MenuLocation:TechDraw → Project shape...
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[Draft Shape2DView](Draft_Shape2DView/de.md)
+   SeeAlso:[Draft Form2DAnsicht](Draft_Shape2DView/de.md)
 ---
 
 # TechDraw ProjectShape/de
 
+
+
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_ProjectShape.svg  style="width:24px;"> **TechDraw ProjectShape** Werkzeug erzeugt Projektionen von Formstücken. Die Projektionen werden in [3D view](3D_view.md), und nicht in [TechDraw Page](TechDraw_PageDefault.md) erzeugt.
+Das Werkzeug <img alt="" src=images/TechDraw_ProjectShape.svg  style="width:24px;"> **TechDraw FormProjizieren** erzeugt Projektionen von Formen. Die Projektionen werden in der [3D-Ansicht](3D_view/de.md) erzeugt und nicht auf einem [TechDraw Zeichnungsblatt](TechDraw_PageDefault/de.md).
 
 ![](images/ProjectShape1_it.png )
 
-## Verwendung
+
+
+## Anwendung
 
 1.  Wähle eines oder mehrere Objekte. Für jedes Objekt wird eine eigene Projektion erzeugt.
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
@@ -27,9 +32,13 @@ Das <img alt="" src=images/TechDraw_ProjectShape.svg  style="width:24px;"> **Tec
 5.  Die gewählten Optionen sollten nicht zu einer leeren Projektion führen, weil das einen Fehler verursacht. Bei einem Objekt mit scharfen Kanten, wie etwa [Part Box](Part_Box.md), muss die **Visible sharp edges** und/oder die **Hidden sharp edges** Option gewählt werden.
 6.  Wähle die **OK** Schaltfläche.
 
+
+
 ## Eigenschaften
 
 Die Projektion wird von einem [Part Feature](Part_Feature.md) abgeleitet und erbt alle Eigenschaften. Sie hat zusätzlich folgende Eigenschaften:
+
+
 
 ### Daten
 
@@ -60,9 +69,11 @@ Die Projektion wird von einem [Part Feature](Part_Feature.md) abgeleitet und erb
 
 -    **Iso Line HCompound|Bool**: Wenn `True`, dann werden unsichtbare Isoparameter gezeigt. Dies funktioniert derzeit nicht.
 
+
+
 ## Hinweise
 
-Dieses Werkzeug gab es früher im Drawing Workbench.
+Dieses Werkzeug befand sich früher im Arbeitsbereich Drawing.
 
 
 

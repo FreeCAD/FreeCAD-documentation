@@ -610,7 +610,7 @@ Und optional:
 
 </div>
 
-To install all dependencies at once (tested on fedora 36):
+To install all dependencies at once (tested on fedora 36 and 37):
 
 
 {{Code|lang=bash|code=

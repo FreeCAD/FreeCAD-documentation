@@ -1,13 +1,4 @@
 # Manual:Creating interface tools/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{Manual:TOC/it}}
 
 Negli ultimi due capitoli, abbiamo visto come [creare della geometria Parte](Manual:Creating_and_manipulating_geometry/it.md) e [creare oggetti parametrici](Manual:Creating_parametric_objects/it.md). Manca un ultimo pezzo per avere il pieno controllo su FreeCAD: creare strumenti che interagiscono con l\'utente.
@@ -31,35 +22,17 @@ Nel prossimo esercizio, inizieremo usando Qt Creator per creare un pannello che 
 
 ![](images/Exercise_python_07.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
-Cominciamo creando il widget. Avviare Qt Creator, quindi nel menu **File -\> New File or Project -\> Files and Classes -\> Qt -\> Qt Designer Form** scegliere **Dialog without buttons**. Cliccare **Next**, dare un nome per salvare il file, fare clic su **Next**, lasciare tutti i campi del progetto al loro valore di default (\"\"), e poi clic su **Create**. Il sistema Azioni di FreeCAD aggiungerà automaticamente i pulsanti OK e Annulla, è per questo che abbiamo scelto un dialogo senza pulsanti.
-
-
-</div>
+Cominciamo creando il widget. Avviare Qt Creator, quindi nel menu **File → New File or Project → Files and Classes → Qt → Qt Designer Form** scegliere **Dialog without buttons**. Cliccare **Next**, dare un nome per salvare il file, fare clic su **Next**, lasciare tutti i campi del progetto al loro valore di default (\"\"), e poi clic su **Create**. Il sistema Azioni di FreeCAD aggiungerà automaticamente i pulsanti OK e Annulla, è per questo che abbiamo scelto un dialogo senza pulsanti.
 
 ![](images/Exercise_python_06.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
 -   Trovare **Label** nell\'elenco degli oggetti del pannello di sinistra, e trascinarla sulla tela del widget. Fare doppio clic sulla Label appena inserita, e cambiare il suo testo in **Length**.
--   Fare clic destro sulla tela del widget, e selezionare **Lay out-\> Lay out in a Grid**. Questo trasforma il widget in una griglia con attualmente una sola cella, occupata dalla prima etichetta. Ora possiamo aggiungere le voci successive a sinistra, a destra, in alto o in basso rispetto alla prima etichetta, e la griglia si espande automaticamente.
+-   Fare clic destro sulla tela del widget, e selezionare **Lay out → Lay out in a Grid**. Questo trasforma il widget in una griglia con attualmente una sola cella, occupata dalla prima etichetta. Ora possiamo aggiungere le voci successive a sinistra, a destra, in alto o in basso rispetto alla prima etichetta, e la griglia si espande automaticamente.
 -   Aggiungere altre due etichette sotto la prima, e cambiare il loro testo in Width e Height:
-
-
-</div>
 
 ![](images/Exercise_python_08.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
--   Ora inserire 3 widget **Double Spin Box** vicino alle etichette Length, Width e Height. Per ciascuno di essi, nel pannello inferiore di sinistra, che mostra tutte le impostazioni disponibili per il widget selezionato, individuare **Suffix** e impostare come loro suffisso **mm**. FreeCAD ha un widget più avanzato, in grado di gestire diverse unità, ma che non è disponibile di default in Qt Creator (ma che può essere [compilato](Compile_on_Linux#Qt_designer_plugin.md)), quindi per ora usiamo un Doppio Spin Box standard, e aggiungiamo il suffisso \"mm\" per essere sicuri che l\'utente sappia con quale unità sta lavorando:
-
-
-</div>
+-   Ora inserire 3 widget **Double Spin Box** vicino alle etichette Length, Width e Height. Per ciascuno di essi, nel pannello inferiore di destra, che mostra tutte le impostazioni disponibili per il widget selezionato, individuare **Suffix** e impostare come loro suffisso **mm**. FreeCAD ha un widget più avanzato, in grado di gestire diverse unità, ma che non è disponibile di default in Qt Creator (ma che può essere [compilato](Compile_on_Linux#Qt_designer_plugin.md)), quindi per ora usiamo un Doppio Spin Box standard, e aggiungiamo il suffisso \"mm\" per essere sicuri che l\'utente sappia con quale unità sta lavorando:
 
 ![](images/Exercise_python_09.jpg )
 
@@ -67,15 +40,9 @@ Cominciamo creando il widget. Avviare Qt Creator, quindi nel menu **File -\> New
 
 ![](images/Exercise_python_10.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
 -   Salvare il file, e chiudere Qt Creator, il resto sarà fatto in Python.
--   Aprire FreeCAD e creare una nuova macro dal menù **Macro -\> Macro -\> Crea**
+-   Aprire FreeCAD e creare una nuova macro dal menù **Macro → Macro → Crea**
 -   Incollare il codice seguente. Assicurarsi di modificare il percorso del file in modo che corrisponda a quello con cui è stato salvato il file .ui creato in Qt Creator:
-
-
-</div>
 
 
 ```python
@@ -152,15 +119,6 @@ Infine, non dimenticate che c\'è molta altra documentazione sull\'utilizzo dei 
 -   [Tutorial per creare dialoghi in FreeCAD](Dialog_creation/it.md)
 -   [Tutorial su PySide in FreeCAD](PySide/it.md)
 -   [Documentazione di PySide](http://srinikom.github.io/pyside-docs/index.html)
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

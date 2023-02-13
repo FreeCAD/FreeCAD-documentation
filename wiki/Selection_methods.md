@@ -59,7 +59,7 @@ More methods are available by opening the context menu (right-click), depending 
 
 Selecting objects is inherently a graphical task and therefore it is only available when the graphical user interface is loaded.
 
-These commands can be used in [macros](Macros.md) or from the [Python console](Python_console.md).
+These methods can be used in [macros](Macros.md) or from the [Python console](Python_console.md):
 
  
 ```python
@@ -70,11 +70,24 @@ Gui.Selection.addSelectionGate
 Gui.Selection.Filter
 ```
 
-The command `addSelectionGate` restricts the user from selecting objects not specified in the selection string. A symbol appears when the pointer is over an item not in the specified group.
+The `addSelectionGate` method prevents the user from selecting objects not specified in the selection string. A <img alt="" src=images/Button_invalid.svg  style="width:16px;"> symbol appears when the pointer is over an item not in the specified group.
 
  
 ```python
 Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Edge")
+
+#### or
+Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Face")
+
+#### or
+Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Vertex")
+```
+
+To remove `SelectionGate()`:
+
+ 
+```python
+Gui.Selection.removeSelectionGate()
 ```
 
 See the [Source documentation](Source_documentation.md) and [Std PythonHelp](Std_PythonHelp.md) for more help on using these tools.

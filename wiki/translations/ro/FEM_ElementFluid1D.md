@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -14,6 +16,8 @@ Creează o MEF în secțiunea de fluid pentru rețele aerodinamice și hidraulic
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -35,9 +39,13 @@ Creează o MEF în secțiunea de fluid pentru rețele aerodinamice și hidraulic
 
 </div>
 
+
+
 ## Limite
 
 1.  Tabelul funcționează numai cu o rețea tip cu 3 noduri. Informația poate fi găsită aici: <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node54.html>
+
+
 
 ## Note
 

@@ -1,6 +1,8 @@
 # Getting started/zh-cn
 {{TOCright}}
 
+
+
 ## 前言
 
 
@@ -32,8 +34,11 @@ FreeCAD已经开发了一段时间，它提供了大量（并且不断增长）�
 See also:
 
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
+-   [Which workbench should I choose?](Which_workbench_should_I_choose.md)
 -   [Tutorials](Tutorials.md)
 -   [Video tutorials](Video_tutorials.md)
+
+
 
 ## 安装
 
@@ -44,6 +49,8 @@ See also:
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -102,6 +109,8 @@ FreeCAD接口背后的主要概念是将它分成[工作台](workbenches/zh-cn.m
 
 </div>
 
+
+
 ## 在3D空间中导航
 
 
@@ -119,6 +128,8 @@ FreeCAD有几种不同的[导航模式可用](Mouse_Model/zh-cn.md)，改变了�
 
 
 </div>
+
+
 
 ## 与 FreeCAD 的第一步 
 
@@ -145,6 +156,8 @@ FreeCAD的重点是允许您制作高精度3D模型，以便对这些模型进�
 
 
 </div>
+
+
 
 ## 在零件设计工作台和构图工作台 中工作 
 
@@ -181,6 +194,8 @@ FreeCAD的重点是允许您制作高精度3D模型，以便对这些模型进�
 <img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
 
 在任何时候，您可以选择原始素描并进行修改，或更改垫或挤压操作的缩放参数，这将更新最终对象。
+
+
 
 ## 在草图和建筑工作台中工作
 
@@ -231,6 +246,8 @@ More on the [指南](Tutorials/zh-cn.md) page.
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## 脚本
@@ -256,6 +273,8 @@ There are two types of addons:
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

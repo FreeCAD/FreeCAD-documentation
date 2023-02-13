@@ -360,8 +360,8 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
   Results                                                                                                       Menue header     Results                           Menü-Überschrift (übersetzen?)
   <img alt="" src=images/FEM_ResultsPurge.svg  style="width:16px;"> Purge results                                    Command          **Ergebnisse löschen**            
   <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Filter functions                                             Generic term     Filter functions                  Übersetzen?
-  <img alt="" src=images/Fem-post-geo-plane.svg  style="width:16px;"> Plane                                        Command          **Ebene**                         
-  <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:16px;"> Sphere                                     Command          **Kugel**                         
+  <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:16px;"> Plane                      Command          **Ebene**                         
+  <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:16px;"> Sphere                   Command          **Kugel**                         
   Utilities                                                                                                     Menue header     Dienstprogramme                   
   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width:16px;"> Clipping plane on face                   Command          **Schnittebene auf Fläche**       
   <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width:16px;"> Remove all clipping planes   Command          Entferne alle Schnittebenen       Alle Schnittebenen entfernen?

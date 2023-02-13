@@ -9,19 +9,13 @@
 
 # TechDraw LinkDimension/de
 
-**TechDraw LinkDimension** is expected to be deprecated in the future. The [TechDraw DimensionRepair](TechDraw_DimensionRepair.md) tool can be used to change both 2D and 3D references.
+**TechDraw MaßVerknüpfen** wird zukünftig als überholt gelten. Das Werkzeug [TechDraw Maßreparatur](TechDraw_DimensionRepair/de.md) kann zum Ändern von sowohl 2D- als auch 3D-Referenzen verwendet werden.
 
 
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug MaßVerknüpfen erstellt eine Verknüpfung zwischen einer 3D-Geometrie und einem oder mehreren projizierten Maß(en) auf einer (Zeichnungs-)Seite. Diese Verknüpfung ermöglicht es dem Maß den tatsächlichen 3D-Wert anstelle des projizierten 2D-Wertes zu verwenden.
-
-
-</div>
+Das Werkzeug **TechDraw MaßVerknüpfen** erstellt eine Verknüpfung zwischen einer 3D-Geometrie und einem oder mehreren projizierten Maß(en) auf einem Zeichnungsblatt. Diese Verknüpfung ermöglicht es dem Maß den tatsächlichen 3D-Wert anstelle des projizierten 2D-Wertes zu verwenden.
 
 Dieses Werkzeug wird meistens dafür verwendet, isometrische Ansichten einer Projektionsgruppe zu bemaßen. Die projizierte Länge (angezeigte Länge) einer Linie in einer isometrischen Zeichnungsansicht muss nicht zwangsläufig der tatsächlichen Länge dieser Linie im 3D-Bauteil entsprechen. In einer rechtwinkligen Ansicht sind die projizierten und tatsächlichen Längen immer gleich.
 
@@ -37,7 +31,13 @@ Diese Verknüpfung veranlasst das Maß seinen Wert direkt von der 3D-Geometrie a
 4.  Ein Dialog öffnet sich. Ein oder mehrere Maß(e) auswählen, die mit der ausgewählten 3D-Geometrie verknüpft werden sollen.
 5.  Drücke **OK**.
 
-Nachdem die Verknüpfungsoperation abgeschlossen ist, ändert sich die **MeasureType** Eigenschaft der Bemaßung von `Projected` in `True`.
+
+<div class="mw-translate-fuzzy">
+
+Nachdem die Verknüpfungsoperation abgeschlossen ist, ändert sich die {{PropertyData/de|MeasureType}} des Maßes von `Projected` (projiziertes Maß) auf `True` (tatsächliche Länge).
+
+
+</div>
 
 
 
@@ -53,23 +53,11 @@ Beachte, dass, wenn die zu verknüpfende Bemaßung auf zwei Eckpunkten basiert, 
 
 
 
-## Eigenschaften
-
-
-<div class="mw-translate-fuzzy">
-
-1.  Der Eigenschaftwert einer verknüpften Abmessung kann von \"Projected\" auf »True« gesetzt werden um zur perspektivischen Ansicht zu wechseln.
-
-
-</div>
-
-
-
 ## Programmierung
 
 Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-The TechDraw LinkDimension tool is not directly usable in macros, but changing the **References 3D** property can accomplish the same result.
+Das Werkzeug TechDraw MaßVerknüpfen kann nicht direkt in Makros verwendet werden, aber durch das Ändern der {{PropertyData/de|References3 D}} kann das gleiche Ergebnis erreicht werden.
 
 
 

@@ -2,9 +2,13 @@
 ---
 - GuiCommand:/it   Name:FEM_ElementFluid1D   Name/it:Elemento Fluido 1D   MenuLocation:Modello → Sezione del fluido per il flusso 1D   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|FEM tutorial](FEM_Workbench/it___FEM]].md)---
 
+
+
 ## Descrizione
 
 Crea un elemento FEM di sezione del fluido per le reti pneumatiche e idrauliche
+
+
 
 ## Utilizzo
 
@@ -20,9 +24,13 @@ Crea un elemento FEM di sezione del fluido per le reti pneumatiche e idrauliche
 
 </div>
 
+
+
 ## Limitazioni
 
 1.  Funziona solo con un elemento di rete a 3 nodi. Le informazioni possono essere trovate in: <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node54.html>
+
+
 
 ## Note
 
@@ -36,7 +44,13 @@ Crea un elemento FEM di sezione del fluido per le reti pneumatiche e idrauliche
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{FEM Tools navi

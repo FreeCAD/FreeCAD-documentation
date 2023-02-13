@@ -1,7 +1,6 @@
 ---
 - GuiCommand:
    Name:FEM PostCreateFunctionSphere
-   Icon:Fem-post-geo-sphere.svg
    MenuLocation:Results → Filter Functions → Sphere
    Workbenches:[FEM](FEM_Workbench.md)
    SeeAlso:[FEM tutorial](FEM_tutorial.md)
@@ -11,22 +10,22 @@
 
 ## Description
 
-The <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:24px;"> **FEM PostCreateFunctionSphere** function defines how a mesh is cut geometrically. It is used by <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:16px;"> [Function cut filter](FEM_PostFilterCutFunction.md) and <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:16px;"> [Region clip filter](FEM_PostFilterClipRegion.md).
+The <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:24px;"> **FEM PostCreateFunctionSphere** function defines how a mesh is cut geometrically. It is used by <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:16px;"> [Function cut filter](FEM_PostFilterCutFunction.md) and <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:16px;"> [Region clip filter](FEM_PostFilterClipRegion.md).
 
 ## Usage
 
 ### Create a sphere function 
 
 1.  There are several ways to create a function:
-    -   Press the **<img src="images/Fem-post-geo-sphere.svg" width=16px> [Sphere](FEM_PostCreateFunctionSphere.md)** button.
-    -   Select the **Results → Filter functions → <img src="images/Fem-post-geo-sphere.svg" width=16px> Sphere** option from the menu.
+    -   Press the **<img src="images/FEM_PostCreateFunctionSphere.svg" width=16px> [Sphere](FEM_PostCreateFunctionSphere.md)** button.
+    -   Select the **Results → Filter functions → <img src="images/FEM_PostCreateFunctionSphere.svg" width=16px> Sphere** option from the menu.
 2.  The Implicit function [task panel](Task_panel.md) is opened.
 3.  Optionally set the values for the origin and the radius of the section sphere.
 4.  Press the **OK** button to finish.
 
 ### Edit a sphere function 
 
-If the Sphere object in the [tree view](Tree_view.md) is hidden, select the <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:24px;"> Sphere object in the [3D view](3D_view.md) and press **Space** to make it visible, like in this example:
+If the Sphere object in the [tree view](Tree_view.md) is hidden, select the <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:24px;"> Sphere object in the [3D view](3D_view.md) and press **Space** to make it visible, like in this example:
 
 <img alt="" src=images/FEM_Sphere-Cut-Function-Example.png  style="width:400px;">
 

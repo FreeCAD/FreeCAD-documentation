@@ -9,12 +9,16 @@
 
 # TechDraw Symbol/de
 
+
+
 ## Beschreibung
 
-Das Symbolwerkzeug fügt eine [SVG](SVG/de.md)-Datei als Ansicht auf dem Zeichnungsblatt ein. Dieses Symbol kann alles sein, was als Erläuterung zur Zeichnung beiträgt und nicht weiter verändert werden muss.
+Das Werkzeug *Symbol* fügt eine [SVG](SVG/de.md)-Datei als Ansicht auf dem Zeichnungsblatt ein. Dieses Symbol kann alles sein, was als Erläuterung zur Zeichnung beiträgt und nicht weiter verändert werden muss.
 
 <img alt="" src=images/TechDraw_SymbolSVG_sample.png  style="width:250px;"> 
 *Kompassrose zum Zeichnungsblatt hinzugefügt; dieses Symbol erhält man durch Installation der Erweiterung "symbols_library" mit dem [Addon-Manager](Std_AddonMgr/de.md)*
+
+
 
 ## Anwendung
 
@@ -29,18 +33,24 @@ Das Symbolwerkzeug fügt eine [SVG](SVG/de.md)-Datei als Ansicht auf dem Zeichnu
 
 Wenn das Symbol größer als erwartet dargestellt wird, kann die Eigenschaft Scale (Skalierung) genutzt werden, um die Größe anzupassen.
 
+
+
 ## Hinweise
 
 -    **Scale Type**für Symbole wird bei der Erstellung immer auf *Custom* (benutzerdefiniert) gesetzt. Dies dient der Bequemlichkeit, da Symbole fast immer anders skaliert werden als der Rest der Objekte auf dem Blatt.
 
+
+
 ## Eigenschaften
 
-See also [TechDraw View](TechDraw_View#Properties.md).
+Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md).
 
 
 {{TitleProperty|Drawing view}}
 
 -    {{PropertyData/de|Editable Texts}}: Liste der editierbaren Texte, falls vorhanden.
+
+
 
 ## Skripten
 

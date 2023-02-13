@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -26,6 +28,8 @@ Da fare
 <img alt="" src=images/FEM_Region-Cut-Filter-Example.png  style="width:400px;">
 
 *A region cut filter with a sphere as cut function.The original pipeline is the semi-transparent object.*
+
+
 
 ## Utilizzo
 

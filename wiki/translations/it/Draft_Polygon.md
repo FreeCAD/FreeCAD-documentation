@@ -2,186 +2,126 @@
 - GuiCommand:/it
    Name:Draft Polygon
    Name/it:Poligono
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation:Draft → Poligono    Shortcut:**P** **G**
-   SeeAlso:[Cerchio](Draft_Circle/it.md), [Campitura](Draft_Pattern/it.md)
+   MenuLocation:Drafting → Poligono
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut:**P** **G**
    Version:0.7
 ---
 
 # Draft Polygon/it
 
 
-</div>
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_Polygon.svg  style="width:24px;"> **Poligono** crea un poligono regolare nel [piano di lavoro](Draft_SelectPlane/it.md) corrente da un centro e un raggio. Il raggio può essere definito selezionando un punto.
 
-<div class="mw-translate-fuzzy">
+Un Poligono può essere cambiato da inscritto a circoscritto modificando la sua proprietà **Draw Mode**. Gli angoli di un poligono possono essere raccordati (arrotondati) o smussati modificandone rispettivamente **Fillet Radius** o **Chamfer Size**.
 
-Lo strumento Poligono crea un poligono regolare inscritto in una circonferenza selezionando due punti, il centro e il raggio. Il poligono assume [il tipo di linea e il colore](Draft_Linestyle/it.md) impostati nella [barra di Draft](Draft_Tray/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Il poligono viene creato inscritto in un cerchio di raggio specificato; dopo la creazione può essere convertito in circoscritto cambiando la proprietà della sua modalità di disegno.
+<img alt="" src=images/Draft_polygon_example.jpg  style="width:400px;"> 
+*Poligono regolare definito da due punti, centro e raggio*
 
 
-</div>
-
-<img alt="" src=images/Draft_polygon_example.jpg  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Poligono regolare definito dal punto centrale e dal raggio*
-
-
-</div>
 
 ## Utilizzo
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
+
+1.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_Polygon.svg" width=16px> [Draft Polygon](Draft_Polygon/it.md)**.
+    -   Selezionare l\'opzione **Drafting → <img src="images/Draft_Polygon.svg" width=16px> Poligono** dal menu.
+    -   Usare la scorciatoia da tastiera: **P** poi **G**.
+2.  Si apre il pannello attività **Poligono**. Vedere [Opzioni](#Options.md) per maggiori informazioni.
+3.  Regolare il numero desiderato di **Lati**.
+4.  Scegliere il primo punto, il centro del poligono, nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
+5.  Scegliere il secondo punto nella [Vista 3D](3D_view/it.md), o inserire un **Raggio**.
 
 
-<div class="mw-translate-fuzzy">
-
-1.  Premere il pulsante **<img src="images/Draft_Polygon.svg" width=16px> Poligono**, o premere i tasti **P** e poi **G**.
-2.  Definire il numero di lati desiderato nella finestra di dialogo delle opzioni.
-3.  Selezionare un primo punto nella vista 3D per stabilire il centro, oppure digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
-4.  Fare clic su un altro punto nella vista 3D o digitare un valore di raggio per definire il raggio del poligono.
-
-
-</div>
-
-## Options
-
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
-
-
-<div class="mw-translate-fuzzy">
 
 ## Opzioni
 
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando si hanno i valori desiderati per inserire il punto.
--   Premere il tasto **T** oppure fare clic sulla casella di controllo per attivare la modalità \"continua\". Se la modalità continua è attiva, lo strumento Poligono si riavvia dopo aver terminato la forma in costruzione, e consente di disegnare un nuovo poligono senza premere nuovamente il pulsante dello strumento.
--   Premere il tasto **L** oppure fare clic sulla casella di controllo per attivare la modalità *riempito*. Se la modalità di riempimento è attiva, il poligono crea una faccia piena (**Make Face** `True`); in caso contrario, il poligono non crea una faccia (**Make Face** `False`).
--   Tenere premuto **Ctrl** mentre si disegna per forzare [l\'aggancio](Draft_Snap.md) del proprio punto alla posizione di aggancio più vicina, indipendentemente dalla distanza.
--   Tenere premuto **Maiusc** mentre si disegna per [vincolare](Draft_Constrain.md) il prossimo punto in orizzontale o in verticale rispetto all\'ultimo.
--   Premere il tasto **Esc** o il pulsante {{button|Chiudi}} per interrompere il comando corrente.
+Le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività possono essere modificate. Vedere [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md). Le scorciatoie menzionate qui sono le scorciatoie predefinite.
+
+-   Per inserire manualmente le coordinate del centro, inserire le componenti X, Y e Z, e premere **Enter** dopo ciascuna. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
+-   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **L** o fare clic sulla casella di controllo **Riempito** per attivare o disattivare la modalità riempimento. Se la modalità riempimento è attiva, il poligono creato avrà **Make Face** impostato su `True` e avrà una faccia piena.
+-   Premere **T** o fare clic sulla casella di controllo **Continua** per attivare o disattivare la modalità continua. Se la modalità continua è attiva, il comando si riavvierà al termine, consentendo di continuare a creare poligoni.
+-   Premere **S** per attivare o disattivare [Aggancia](Draft_Snap/it.md).
+-   Premere **Esc** o il pulsante **Chiudi** per interrompere il comando.
 
 
-</div>
 
-## Notes
+## Note
 
-
-<div class="mw-translate-fuzzy">
-
-Il poligono può essere modificato facendo doppio clic sull\'elemento nella vista ad albero o premendo il pulsante **<img src="images/Draft_Edit.svg" width=16px> [Modifica](Draft_Edit/it.md)**. Quindi si può spostare il il centro e il raggio in una nuova posizione.
+-   Un Poligono può essere modificato con il comando [Modifica](Draft_Edit/it.md).
 
 
-</div>
 
-## Preferences
+## Preferenze
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
 
--   To change the number of decimals used for the input of coordinates and radii: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
--   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part RegularPolygon](Part_RegularPolygon.md) instead of a Draft Polygon.
+-   Per modificare il numero di decimali utilizzati per l\'inserimento di coordinate e raggi: **Modifica → Preferenze... → Generale → Unità → Impostazioni unità → Numero di cifre decimali**.
+-   Per modificare il valore iniziale della modalità riempimento: **Modifica → Preferenze... → Draft → Impostazioni generali → Opzioni strumenti Draft → Riempi gli oggetti con le facce quando possibile**. La modifica della modalità di riempimento in un pannello delle attività sovrascriverà questa preferenza per la sessione corrente di FreeCAD.
+-   Se l\'opzione **Modifica → Preferenze... → Draft → Impostazioni generali → Opzioni strumenti Draft → Usa le primitive Part quando disponibili** è selezionata, il comando creerà un [Part Poligono regolare](Part_RegularPolygon/it.md) invece di un Draft Poligono.
+
+
 
 ## Proprietà
 
-See also: [Property editor](Property_editor.md).
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
 
-A Draft Polygon object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
-
-### Data
+Un oggetto Draft Poligono è derivato da un [Part Part2DObject](Part_Part2DObject/it.md) e ne eredita tutte le proprietà. Ha anche le seguenti proprietà aggiuntive:
 
 
-{{TitleProperty|Draft}}
-
-
-<div class="mw-translate-fuzzy">
 
 ### Dati
 
--    **Radius**: specifica il raggio del cerchio che definisce il poligono.
 
--    **Draw Mode**: specifica se il poligono è inscritto in un cerchio o circoscritto attorno a un cerchio.
+{{TitleProperty|Draft}}
 
--    **Faces Number**: specifica il numero di lati del poligono.
+-    **Area|Area**: (sola lettura) specifica l\'area della faccia del poligono. Il valore sarà {{value|0.0}} se **Make Face** se `False`.
 
--    **Chamfer Size**: specifica la dimensione degli smussi (segmenti retti) creati agli angoli del poligono.
+-    **Chamfer Size|Length**: specifica la lunghezza degli smussi agli angoli del poligono.
 
--    **Fillet Radius**: specifica il raggio dei raccordi (segmenti di arco) creati agli angoli del poligono.
+-    **Draw Mode|Enumeration**: specifica se il poligono è {{value|inscritto}} in un cerchio o {{value|circoscritto}} attorno a un cerchio.
 
--    **Make Face**: specifica se la forma è una faccia o no. Se è `True` viene creata una faccia, altrimenti solo il perimetro è considerato parte dell\'oggetto.
+-    **Faces Number|Integer**: specifica il numero di lati del poligono.
+
+-    **Fillet Radius|Length**: specifica il raggio dei raccordi agli angoli del poligono.
+
+-    **Make Face|Bool**: specifica se il poligono forma o meno una faccia. Se è `True` viene creata una faccia, altrimenti solo il perimetro è considerato parte dell\'oggetto.
+
+-    **Radius|Length**: specifica il raggio del cerchio che definisce il poligono.
 
 
-</div>
 
-### View
+### Viste
 
 
 {{TitleProperty|Draft}}
 
+-    **Pattern|Enumeration**: specifica la [Campitura](Draft_Pattern/it.md) con cui riempire la faccia del poligono. Questa proprietà funziona solo se **Make Face** è `True` e se **Display Mode** è {{value|Flat Lines}}.
 
-<div class="mw-translate-fuzzy">
-
-### Vista
-
--    **Pattern**: specifica un [Modello](Draft_Pattern/it.md) con cui riempire la faccia del poligono. Questa proprietà funziona solo se **Make Face** è `True`, e se **Display Mode** è \"Flat Lines\".
-
--    **Pattern Size**: specifica la dimensione del [Modello](Draft_Pattern/it.md).
+-    **Pattern Size|Float**: specifica la dimensione della [Campitura](Draft_Pattern/it.md).
 
 
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-**Vedere anche:**
-
-[Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Poligono può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
+Per creare un Draft Poligono utilizzare il metodo `make_polygon` ({{Version/it|0.19}}) del modulo Draft. Questo metodo sostituisce il metodo deprecato `makePolygon`.
 
 
 ```python
 polygon = make_polygon(nfaces, radius=1, inscribed=True, placement=None, face=None, support=None)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
--   Crea un oggetto `Polygon` con il dato numero di lati (`nfaces`), e basato su un cerchio di `radius` in millimettri.
--   Se `inscribed` è `True`, il poligono è inscritto nel cerchio, altrimenti è circoscritto.
-    -   Uno dei vertici del poligono giace sull\'asse X se non viene assegnato nessun altro posizionamento.
--   Se è dato un `placement`, esso viene usato; altrimenti la forma viene creata all\'origine.
--   Se `face` è `True`, la forma crea una faccia, cioè appare riempita.
-
-
-</div>
+-   Crea un oggetto `polygon` con il numero specificato di facce (`nfaces`) e basato su un cerchio di `radius` in millimetri.
+-   Se `inscribed` è `True`, il poligono è inscritto nel cerchio, altrimenti sarà circoscritto.
+-   Se `placement` è `None` il poligono viene creato all\'origine e uno dei suoi vertici giace sull\'asse X.
+-   Se `face` è `True`, il poligono formerà una faccia, cioè apparirà pieno.
 
 Esempio: 
 ```python
@@ -201,15 +141,6 @@ Polygon3 = Draft.make_polygon(6, radius=1450, placement=place3)
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

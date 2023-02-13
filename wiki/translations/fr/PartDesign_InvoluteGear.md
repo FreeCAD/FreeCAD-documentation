@@ -2,6 +2,7 @@
 - GuiCommand:/fr
    Name:PartDesign InvoluteGear
    Name/fr:PartDesign Engrenage à développante
+   Icon:PartDesign_InternalExternalGear.svg
    MenuLocation:Part Design → Engrenage à développante...
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    SeeAlso:[Atelier FCGear](FCGear_Workbench/fr.md)
@@ -11,7 +12,7 @@
 
 ## Description
 
-Cet outil permet de créer un profil 2D d\'une roue d\'engrenage à développante. Ce profil 2D est pleinement paramétrique et peut être extrudé avec la fonction [PartDesign Protrusion](PartDesign_Pad/fr.md) ou [PartDesign Hélice additive](PartDesign_AdditiveHelix/fr.md).
+Cet outil permet de créer un profil 2D d\'une roue d\'engrenage à développante ou un arbre cannelé. Ce profil 2D est pleinement paramétrique et peut être extrudé avec la fonction [PartDesign Protrusion](PartDesign_Pad/fr.md) ou [PartDesign Hélice additive](PartDesign_AdditiveHelix/fr.md).
 
 Pour des informations plus détaillées, voir également [Engrenage](https://fr.wikipedia.org/wiki/Engrenage) et [Involute Gear](https://en.wikipedia.org/wiki/Involute_gear)
 
@@ -74,6 +75,50 @@ Conseil : pour faire de l\'angle d\'hélice un paramètre accessible, utilisez u
 
 
 
+### Créer un moyeu pour un arbre cannelé en développante 
+
+
+{{Version/fr|1.0}}
+
+1.  Activez le corps.
+2.  Créez un profil d\'engrenage à développante interne avec le nombre requis de rainures et adaptez les valeurs de l\'angle de pression, du coefficient de l\'addendum, du dedendum et du congé. Voir également le tableau dans les [Remarques](#Remarques.md) ci-dessous pour les valeurs réalisables. Par exemple :
+    -   
+        **External Gear**
+        
+        : faux
+
+    -   
+        **Number Of Teeth**
+        
+        : 12
+
+    -   
+        **Pressure Angle**
+        
+        : 37.5°
+
+    -   
+        **Addendum Coefficient**
+        
+        : 0.45
+
+    -   
+        **Dedendum Coefficient**
+        
+        : 0.7
+
+    -   
+        **Root Fillet Coefficient**
+        
+        : 0.3
+3.  Sélectionnez le profil d\'engrenage dans la [vue en arborescence](Tree_view/fr.md).
+4.  Appuyez sur le bouton **<img src="images/PartDesign_Pocket.svg" width=16px> '''Cavité'''**.
+5.  Définissez **Type** de la cavité à **A travers tout**.
+6.  Vérifiez l\'option **Symmetric To Plane** de la cavité.
+7.  Cliquez sur **OK**.
+
+
+
 ## Propriétés
 
 -    **External Gear**: vrai ou faux
@@ -84,7 +129,33 @@ Conseil : pour faire de l\'angle d\'hélice un paramètre accessible, utilisez u
 
 -    **Number Of Teeth**: définit le nombre de dents désirées.
 
--    **Pressure Angle**: angle aigu entre la ligne d\'action et une normale à la ligne reliant les centres d\'engrenage. La valeur par défaut est de 20 degrés. ([plus d\'info](https://fr.wikipedia.org/wiki/Roue_dent%C3%A9e))
+-    **Pressure Angle**: angle aigu entre la ligne d\'action et une normale à la ligne reliant les centres d\'engrenage. La valeur par défaut est de 20 degrés. Voir [Involute gear](https://en.wikipedia.org/wiki/Involute_gear).
+
+-    **Addendum Coefficient**: hauteur de la dent depuis le cercle primitif jusqu\'à sa pointe, normalisée par le module. La valeur par défaut est de 1,0 pour le système standard de pleine profondeur. {{Version/fr|1.0}}
+
+-    **Dedendum Coefficient**: hauteur de la dent depuis le cercle primitif jusqu\'à sa racine, normalisée par le module. La valeur par défaut est 1,25 pour le système standard de pleine profondeur. {{Version/fr|1.0}}
+
+-    **Root Fillet Coefficient**: rayon du congé à la racine de la dent, normalisé par le module. La valeur par défaut est 0,38 comme défini par le rack ISO. {{Version/fr|1.0}}
+
+
+
+## Remarques
+
+-   Pour que deux engrenages puissent s\'engrener, ils doivent partager le même module et le même angle de pression. Des [expressions](Expressions/fr.md) peuvent aider à assurer la cohérence. Leur entraxe doit être `(NumberOfTeeth + OtherGear.NumberOfTeeth) * Modules / 2`. (soustraire le nombre de dents dans le cas d\'un engrenage interne).
+
+-   Lors de la vérification visuelle d\'un engrenage ou des interférences, une valeur beaucoup plus faible de **Deviation** est utile, par exemple 0,05 au lieu de la valeur par défaut 0,5. Sinon, la représentation dans la [vue 3D](3D_view/fr.md) peut être trop grossière.
+
+-   Pour les engrenages standard, l\'angle de pression le plus courant est de 20°, suivi de 14,5°. D\'autres applications, notamment les [arbres cannelés (en)](https://en.wikipedia.org/wiki/Spline_(mechanical)), utilisent des angles plus élevés.
+
+-   Le système standard de pleine profondeur utilise un coefficient de tête de 1,0 et un coefficient de pied de 1,25, ce qui donne un jeu de 0,25 (la différence entre la tête d\'un engrenage et le pied de l\'autre). La longueur réelle des dents est la somme des deux coefficients, multipliée par le module.
+
+-   Une réduction de la longueur des dents peut être nécessaire pour éviter la contre-dépouille ou pour renforcer les dents (voir [stub teeth](https://khkgears.net/new/gear_knowledge/gear-nomenclature/stub-teeth.html)). Pour les engrenages internes, il peut être nécessaire de raccourcir la denture (ici pointant vers l\'intérieur) pour éviter certaines interférences ou des flancs non-involutifs, si cela est indiqué en combinaison avec des dents plus longues du pignon.
+
+-   Pour les arbres et les moyeux cannelés, la norme ISO 4156 définit les paramètres suivants :
+
+:   {\| class=\"wikitable\"
+
+\|- ! Angle de pression !! 30° (racine plate) !! 30° (racine avec congé) !! 37,5° !! 45° \|- \| Coefficient addendum \|\| 0,5 \|\| 0,5 \|\| 0,45 \|\| 0,4 \|- \| Coefficient dedendum \|\| 0,75 \|\| 0,9 \|\| 0,7 \|\| 0,6 \|- \| Coefficient du congé à la racine \|\| 0.2 \|\| 0.4 \|\| 0.3 \|\| 0.25 \|}
 
 ## Limitations
 
@@ -95,7 +166,7 @@ Conseil : pour faire de l\'angle d\'hélice un paramètre accessible, utilisez u
 
 ## Tutoriels
 
-[How to make gears in FreeCAD](https://www.youtube.com/watch?v=8VNhTrnFMfE)
+Vidéo : [How to make gears in FreeCAD](https://www.youtube.com/watch?v=8VNhTrnFMfE)
 
 
 

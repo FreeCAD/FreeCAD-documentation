@@ -14,7 +14,11 @@
 
 Le **Lissage soustractif** crée un solide soustractif dans le corps actif en effectuant une transition entre deux esquisses ou plus (également appelés coupes transversales). Sa forme est ensuite soustraite du solide existant.
 
+
+
 ## Utilisation
+
+
 
 ### Processus de travail basé sur la boîte de dialogue 
 
@@ -24,6 +28,8 @@ Le **Lissage soustractif** crée un solide soustractif dans le corps actif en ef
 3.  Dans **Paramètres de lissage**, appuyez sur le bouton **Ajouter une section**.
 4.  Sélectionnez l\'esquisse suivante dans la [vue 3D](3D_view/fr.md). Répétez pour sélectionner d\'autres esquisses dans l\'ordre dans lequel vous voulez qu\'elles soient lissées. (Vous pouvez modifier l\'ordre des sections à tout moment ultérieurement dans la boîte de dialogue de lissage en faisant glisser les sections de la liste vers la position souhaitée. {{Version/fr|0.19}})
 5.  Définissez les options si nécessaire et cliquez sur **OK**.
+
+
 
 ### Processus de travail basé sur la sélection 
 
@@ -42,6 +48,8 @@ Le **Lissage soustractif** crée un solide soustractif dans le corps actif en ef
 -   **Surface réglée** : effectue des transitions droites entre les sections. Ne s\'applique pas à un lissage avec deux sections transversales. Si cette case n\'est pas cochée, les transitions seront lisses.
 -   **Fermé** : effectue une transition de la dernière section à la première, en créant une boucle.
 
+
+
 ## Propriétés
 
 -    **Label**: nom donné à l\'opération, ce nom peut être changé à la convenance.
@@ -58,18 +66,22 @@ Le **Lissage soustractif** crée un solide soustractif dans le corps actif en ef
 
 -    **Refine**: vrai ou faux. Si la valeur est \"true\" (vrai), nettoie le solide des bords résiduels laissés par les entités. Voir [Affiner la forme](Part_RefineShape/fr.md) pour plus de détails.
 
+
+
 ## Remarques
 
 -   Pour mieux contrôler la forme du lissage, il est recommandé que toutes les sections transversales aient le même nombre de segments. Par exemple, pour un lissage entre un rectangle et un cercle, le cercle doit être décomposé en 4 arcs connectés.
 -   Vous pouvez effectuer un lissage depuis ou vers un seul [vertex (ou point)](Glossary/fr#V.md) d\'une esquisse ou du corps. {{Version/fr|0.20}}
--   Dans la plupart des cas, les [Vertices](Glossary/fr#V.md) ne peuvent être que le début ou la fin d\'un loft.
+-   Dans la plupart des cas, les [points](Glossary/fr#V.md) ne peuvent être que le début ou la fin d\'un loft.
 -   Une section transversale ne peut pas se trouver sur le même plan que celle qui la précède immédiatement.
--   Si l\'esquisse a une géométrie interne, c\'est-à-dire que le lissage est censé avoir des trous, l\'ordre dans lequel la géométrie de l\'esquisse est créée doit être le même pour toutes les sections : Soit vous commencez toutes les sections par la géométrie intérieure, soit vous les commencez toutes par la géométrie extérieure. Sinon, un lissage invalide peut être créé là où les murs intérieurs et extérieurs se croisent.
+-   Si l\'esquisse a une géométrie interne, c\'est-à-dire que le lissage est censé avoir des trous, l\'ordre dans lequel la géométrie de l\'esquisse est créée doit être le même pour toutes les sections : soit vous commencez toutes les sections par la géométrie intérieure, soit vous les commencez toutes par la géométrie extérieure. Sinon, un lissage invalide peut être créé là où les murs intérieurs et extérieurs se croisent.
 -   Il n\'est pas possible de lotir des boucles disjointes ou croisées.
+
+
 
 ## Liens
 
--   [Part Détails techniques du lissage](Part_Loft_Technical_Details/fr.md) explique comment un [Lissage](Part_Loft/fr.md) est créé, une grande partie de son contenu est pertinente pour le Lissage soustractif de PartDesign.
+-   [Part Détails techniques du lissage](Part_Loft_Technical_Details/fr.md) explique comment un [Part Lissage](Part_Loft/fr.md) est créé, une grande partie de son contenu est pertinente pour le Lissage soustractif de PartDesign.
 
 
 

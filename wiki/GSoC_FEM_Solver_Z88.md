@@ -41,6 +41,10 @@ If this project is finished successfully futher work on the FEM workbench can be
 
 Easy-Medium
 
+### Project size 
+
+175h
+
 ### Additional Information
 
 

@@ -10,32 +10,40 @@
 
 # TechDraw ComplexSection/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug <img alt="" src=images/TechDraw_ComplexSection.svg  style="width:24px;"> **TechDraw KomplexerSchnitt** fügt einem Zeichnungsblatt eine Schnittansicht hinzu, die auf einer vorhandenen Bauteilansicht und einem Schnittprofil basiert.
 
 <img alt="" src=images/TechDraw_QuarterSection_example.png  style="width:350px;"> 
-*A Quarter section view created with the Complex Section tool*
+*Halbschnitt, mit dem Werkzeug Komplexe Schnittansicht erstellt*
 
 <img alt="" src=images/TechDraw_AlignedSection_example.png  style="width:350px;"> 
-*An Aligned section view created with the Complex Section tool*
+*Abgewinkelter Schnitt, mit dem Werkzeug Komplexe Schnittansicht erstellt*
 
 <img alt="" src=images/TechDraw_OffsetSection_example.png  style="width:350px;"> 
-*An Offset section view created with the Complex Section tool*
+*Abgesetzter Schnitt, mit dem Werkzeug Komplexe Schnittansicht erstellt*
+
+
 
 ## Anwendung
 
-1.  Wähle die Ansicht eines Teiles und ein Profilobjekt im [3D view](3D_view/de.md) oder [Tree view](Tree_view/de.md). Profile sind normalerweise Skizzen, aber jedes Objekt dessen Form in einen Draht (wire) umgewandelt werden kann funktioniert.
-2.  Es gibt mehrere Möglichkeiten das Werkzeug zu starten:
-    -   Betätige die **<img src="images/TechDraw_ComplexSection.svg" width=16px> [Insert Complex Section](TechDraw_ComplexSection.md)** Schaltfläche.
-    -   Wähle die **TechDraw → <img src="images/TechDraw_ComplexSection.svg" width=16px> Insert Complex Section** Option aus dem Menü.
-3.  Ein Arbeitsfenster öffnet, mit dessen Hilfe die verschiedenen Einstellungen durchgeführt werden können. Für die Blickrichtung werden sinnvolle Werte ermittelt, diese können aber verändert werden.
+1.  Eine Bauteilansicht und ein Profilobjekt in der [3D-Ansicht](3D_view/de.md) oder der [Baumansicht](Tree_view/de.md) auswählen. Profile sind normalerweise Skizzen, aber jedes Objekt, dessen Form in einen Draht (wire) umgewandelt werden kann, funktioniert.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_ComplexSection.svg" width=16px> [Komplexe Schnittansicht](TechDraw_ComplexSection/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → <img src="images/TechDraw_ComplexSection.svg" width=16px> Komplexe Schnittansicht** auswählen.
+3.  Im Aufgabenbereich wird ein Dialog geöffnet, der bei der Berechnung verschiedener Eigenschaften hilft. Für die Blickrichtung werden sinnvolle Werte ermittelt, diese können aber verändert werden.
 
 <img alt="" src=images/TechDraw_ComplexSection_Taskview1.png  style="width:" height="380px;"> <img alt="" src=images/TechDraw_ComplexSection_Taskview2.png  style="width:" height="380px;">
+
+
 
 ## Eigenschaften KomplexerSchnitt 
 
 Siehe auch [TechDraw Schnittansicht](TechDraw_SectionView/de#Eigenschaften.md).
+
+
 
 ### Daten
 
@@ -61,9 +69,13 @@ Siehe auch [TechDraw Schnittansicht](TechDraw_SectionView/de#Eigenschaften.md).
         
         : Wie Aligned, aber jene Segmente des Schnittprofiles die parallel zur Blickrichtung sind, werden übersprungen.
 
+
+
 ## Hinweise
 
 Siehe [TechDraw Schnittansicht](TechDraw_SectionView/de#Hinweise.md)
+
+
 
 ## Skripten
 

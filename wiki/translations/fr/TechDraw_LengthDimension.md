@@ -11,7 +11,13 @@
 
 ## Description
 
+
+<div class="mw-translate-fuzzy">
+
 L\'outil <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:24px;"> **TechDraw Cote de longueur** ajoute une cote linéaire à une vue. La cote peut être la distance entre deux sommets, la longueur d\'un bord ou la distance entre deux arêtes. La distance sera initialement la distance projetée (c.-à-d. comme indiqué sur le dessin). Si la cote est basée sur des références 3D, la distance peut être remplacée par la distance 3D réelle en changeant la valeur de **Measure Type** à `True`.
+
+
+</div>
 
 <img alt="" src=images/TechDraw_Dimension_Length_example.png  style="width:220px;"> 
 *Cote de longueur prise à partir de deux nœuds arbitraires de la vue*

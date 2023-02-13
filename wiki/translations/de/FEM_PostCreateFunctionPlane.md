@@ -10,46 +10,89 @@
 
 # FEM PostCreateFunctionPlane/de
 
+
+</div>
+
+
+
 ## Beschreibung
 
-The <img alt="" src=images/Fem-post-geo-plane.svg  style="width:24px;"> **FEM PostCreateFunctionPlane** function defines how a mesh is cut geometrically. It is used by <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:16px;"> [Function cut filter](FEM_PostFilterCutFunction.md) and <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:16px;"> [Region clip filter](FEM_PostFilterClipRegion.md).
+
+<div class="mw-translate-fuzzy">
+
+Die Funktion <img alt="" src=images/Fem-post-geo-plane.svg  style="width:24px;"> **FEM NachbearbeitungFunktionEbene** legt die Geometrie fest, mit der ein Netzobjekt geschnitten wird. Sie wird von den Werkzeugen <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:16px;"> [Funktion Schnitt-Filter](FEM_PostFilterCutFunction/de.md) und <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:16px;"> [Region Ausschnitt-Filter](FEM_PostFilterClipRegion/de.md) verwendet.
+
+
+</div>
+
+
 
 ## Anwendung
 
+
+
 ### Ebenenfunktion erstellen 
 
-1.  There are several ways to create a function:
-    -   Press the **<img src="images/Fem-post-geo-plane.svg" width=16px> [Plane](FEM_PostCreateFunctionPlane.md)** button.
-    -   Select the **Results → Filter functions → <img src="images/Fem-post-geo-plane.svg" width=16px> Plane** option from the menu.
-2.  The Implicit function [task panel](Task_panel.md) is opened.
-3.  Optionally set the values for the origin and the direction of the section plane.
-4.  Press the **OK** button to finish.
+
+<div class="mw-translate-fuzzy">
+
+1.  Es gibt mehrere Möglichkeiten eine Funktion zu erstellen:
+    -   Die Schaltfläche **<img src="images/Fem-post-geo-plane.svg" width=16px> [Ebene](FEM_PostCreateFunctionPlane/de.md)** drücken.
+    -   Den Menüeintrag **Ergebnisse → Filterfunktionen → <img src="images/Fem-post-geo-plane.svg" width=16px> Ebene** auswählen.
+2.  Der [Aufgabenbereich](Task_panel.md) Implizite Funktion wird geöffnet.
+3.  Wahlweise Werte für den Ursprung und die Ausrichtung der Schnittebene eingeben.
+4.  Zum Beenden die Schaltfläche **OK** drücken.
+
+
+</div>
+
+
 
 ### Ebenenfunktion bearbeiten 
 
-If the Plane object in the [3D view](3D_view.md) is hidden, select the <img alt="" src=images/Fem-post-geo-plane.svg  style="width:24px;"> Plane object in the [tree view](Tree_view.md) and press **Space** to make it visible, like in this example:
+
+<div class="mw-translate-fuzzy">
+
+Wenn das Plane-Objekt in der [Baumansicht](Tree_view/de.md) ausgeblendet ist, wählt man das <img alt="" src=images/Fem-post-geo-plane.svg  style="width:24px;"> Plane-Objekt in der [3D-Ansicht](3D_view/de.md) aus und drückt die **Leertaste**, um es anzuzeigen, so wie in diesem Beispiel:
+
+
+</div>
 
 <img alt="" src=images/FEM_Plane-Cut-Function-Example.png  style="width:300px;">
 
+
+
 #### Die Ebene bewegen 
 
--   Click and drag the big white cuboid to move the plane along its normal vector.
--   Click and drag the white grid .
+-   Den großen weißen Quader anklicken und ziehen um die Ebene entlang ihres Normalenvektors zu verschieben.
+-   Das weiße Gitter anklicken und ziehen.
+
+
 
 #### Die Ebene drehen und neigen 
 
--   Click and drag a line that connects the small cubes with the the big white cuboid to rotate and tilt the plane around its origin.
+-   Eine der Linien die die kleinen Würfel mit dem großen weißen Quader verbinden anklicken, um die Ebene um ihren Ursprung herum zu drehen und zu kippen.
+
+
 
 #### Die Ebenengröße anpassen 
 
--   Click and drag one of the 6 small cubes are handles to adjust the size to scale the plane. However, since the object is an infinite plane, the size does not matter.
+-   Einen der 6 kleinen Würfel, die Anfasser für die Einstellung der Größe sind, anklicken und ziehen, um die Ebene zu skalieren. Die Größe spielt allerdings keine Rolle, da das Objekt eine unendliche Ebene ist.
+
+
 
 ## Hinweise
 
--   Existing functions can be used for different filters and even for different <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:16px;"> [result pipelines](FEM_PostPipelineFromResult.md). It is nevertheless recommended to use a separate set of functions for each pipeline to keep track of the elements in the [tree view](Tree_view.md).
+-   Vorhandene Funktionen können für unterschiedliche Filter und für unterschiedliche <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:16px;"> [Ergebnis-Pipelines](FEM_PostPipelineFromResult/de.md) genutzt werden. Es wird allerdings dazu geraten, für jede Pipeline einen separaten Satz von Funktionen zu verwenden, um den Überblick über die Elemente in der [Baumansicht](Tree_view/de.md) zu behalten.
+
+
+<div class="mw-translate-fuzzy">
 
 
 
+
+
+</div>
 
 
 {{FEM Tools navi

@@ -1,24 +1,9 @@
 # Manual:Creating and manipulating geometry/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{Manual:TOC/it}}
 
 Nei capitoli precedenti, abbiamo imparato a conoscere i diversi ambienti di FreeCAD, e come ciascuno di essi implementa i suoi propri strumenti e tipi di geometria. Gli stessi concetti si applicano quando si lavora con il codice Python.
 
-
-<div class="mw-translate-fuzzy">
-
 Abbiamo anche visto che la grande maggioranza degli ambienti di FreeCAD dipendono da uno fondamentale: l\'ambiente [Part](Part_Workbench/it.md). Infatti, molti altri ambienti di lavoro, come ad esempio [Draft](Draft_Workbench/it.md) e [Arch](Arch_Workbench/it.md), fanno esattamente quello che faremo in questo capitolo: usano del codice Python per creare e manipolare della geometria Part.
-
-
-</div>
 
 Quindi la prima cosa da fare per lavorare con la geometria Part, è di fare l\'equivalente in Python passando all\'ambiente Parte: importare il modulo Parte:
 
@@ -55,13 +40,7 @@ FreeCAD.ActiveDocument.recompute()
 
 Notare come abbiamo gestito myObj.Shape, vedere che abbiamo fatto esattamente come abbiamo fatto nel capitolo precedente, quando abbiamo cambiato altre proprietà di un oggetto, come ad esempio box.Height = 5. Infatti, **Shape** è anche una proprietà, proprio come **Height**. Solo che prende una Part Shape, non un numero. Nel prossimo capitolo daremo uno sguardo più approfondito su come sono costruiti tali oggetti parametrici.
 
-
-<div class="mw-translate-fuzzy">
-
-Per il momento, esploriamo la Part Shape più in dettaglio. Alla fine del capitolo in merito alla \[Manual:Traditional modeling, the CSG way/it\|modellazione tradizionale con l\'ambiente Parte\] abbiamo mostrato una tabella che spiega come sono costruiti le forme Parte, e le loro diverse componenti (vertici, spigoli, facce, ecc). Quì esistono gli stessi esatti componenti e possono essere recuperati da Python. Tutte le Part Shape hanno sempre i seguenti attributi: Vertici, Bordi, Wire, Facce, Shell e Solid. Sono tutti elenchi, che possono contenere qualsiasi numero di elementi o essere vuoti:
-
-
-</div>
+Per il momento, esploriamo la Part Shape più in dettaglio. Alla fine del capitolo in merito alla [modellazione tradizionale con l\'ambiente Parte](Manual:Traditional_modeling,_the_CSG_way/it.md) abbiamo mostrato una tabella che spiega come sono costruiti le forme Parte, e le loro diverse componenti (vertici, spigoli, facce, ecc). Quì esistono gli stessi esatti componenti e possono essere recuperati da Python. Tutte le Part Shape hanno sempre i seguenti attributi: Vertici, Bordi, Wire, Facce, Shell e Solid. Sono tutti elenchi, che possono contenere qualsiasi numero di elementi o essere vuoti:
 
 
 ```python
@@ -73,13 +52,7 @@ print(boxShape.Shells)
 print(boxShape.Solids)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Per esempio, troviamo l\'area di ogni faccia della nostra forma box:
-
-
-</div>
+Per esempio, troviamo l\'area di ogni faccia della nostra forma box: (Assicuratevi di rientrare la seconda riga, come appare sotto. Premete Invio due volte dopo l\'ultima riga per eseguire il comando Python).
 
 
 ```python
@@ -169,13 +142,7 @@ E3 = Part.Edge(C1)
 E4 = Part.Edge(C2)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
 In alternativa, le geometrie di base hanno anche una funzione toShape() che fa esattamente la stessa cosa:
-
-
-</div>
 
 
 ```python
@@ -184,13 +151,7 @@ E2 = L2.toShape()
  ...
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Ottenuta una serie di bordi, si può formare un contorno, dandogli un elenco di bordi. Bisogna stare attenti all\'ordine.
-
-
-</div>
+Ottenuta una serie di bordi, si può formare un contorno, dandogli un elenco di bordi. Bisogna stare attenti all\'ordine. Inoltre, notare le parentesi.
 
 
 ```python
@@ -257,15 +218,6 @@ Tutto quanto detto sopra, e molto altro ancora, è spiegato in dettaglio nella p
 
 -   [L\'ambiente Parte](Part_Workbench/it.md)
 -   [Script di Parti](Topological_data_scripting/it.md)
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

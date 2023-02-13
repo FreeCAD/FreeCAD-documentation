@@ -9,11 +9,15 @@
 
 # TechDraw Balloon/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug Ballon kann einer Zeichnung Hinweisfelder mit zugehöriger Hinweislinie hinzufügen. (Voreingestellt ist ein kreisförmiges Hinweisfeld, das u.a. zur Kennzeichnung der Elemente einer Stückliste dienen kann)
 
 <img alt="" src=images/Techdraw_balloon.png  style="width:600px;">
+
+
 
 ## Anwendung
 
@@ -35,13 +39,19 @@ Um die Eigenschaften eines Hinweisfeldes zu ändern, wählt man es per Doppelkli
 
 *Hinweis:*\' Die Position eines Hinweisfeldes ist relativ zu seiner Ursprungsansicht und verwendet den gleichen Maßstabsfaktor.
 
+
+
 ## Verwendung von Trennzeichen 
 
 Bei Verwendung einer Rechteckform können Trennzeichen mit \"\|\" im Text hinzugefügt werden. Zum Beispiel \"AAA\|TEST\|111\" ergibt:
 
 <img alt="" src=images/balloon_separator.png  style="width:300px;">
 
+
+
 ## Eigenschaften
+
+
 
 ### Daten
 
@@ -71,6 +81,8 @@ Optionen: <img alt="" src=images/Circular.svg  style="width:20px;"> Kreisförmig
 
 -    {{PropertyData/de|Y}}: Vertikale Lage des Hinweisfeldes relativ zur Ansicht.
 
+
+
 ### Ansicht
 
 -    {{PropertyView/de|Color}}: Farbe des Textes im Hinweisfeld.
@@ -82,6 +94,8 @@ Optionen: <img alt="" src=images/Circular.svg  style="width:20px;"> Kreisförmig
 -    {{PropertyView/de|Line Visible}}: Ob die Linie des Hinweisfeldes sichtbar ist.
 
 -    {{PropertyView/de|Line Width}}: Strichstärke der Linie des Hinweisfeldes
+
+
 
 ## Skripten
 
@@ -96,7 +110,13 @@ rc = page.addView(bal1)
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

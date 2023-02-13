@@ -19,6 +19,8 @@ Tento Výukový program základního modelování Vám ukáže jak vymodelovat o
 
 </div>
 
+This tutorial was written with version 0.15 of FreeCAD.
+
 ## Než začneme 
 
 Mějte na mysli, že FreeCAD je stále v ranné fázi vývoje a proto nemůže být zatím tak produktivní jako jiné CAD aplikace a určitě se setkáte s chybami nebo si vyzkoušíte pády aplikace. FreeCAD už má možnost ukládat záložní soubory. Počet těchto záložních souborů může být specifikován v dialogovém okně předvoleb. Neváhejte použít 2 až 3 záložní soubory dokud nebudete umět s FreeCADem dobře pracovat.

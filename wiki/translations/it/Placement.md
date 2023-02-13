@@ -568,6 +568,8 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
   Part.Torus                       center of the torus
   Features derived from Sketches   the Feature inherits the Position of the underlying Sketch. Sketches always start with Position = (0,0,0). This position corresponds to the origin in the sketch.
 
+
+
 ## Limitazioni
 
 
@@ -581,6 +583,8 @@ Pertanto, il posizionamento di un solido creato in PartDesign da uno schizzo pu√
 
 
 </div>
+
+
 
 ## Per saperne di pi√π 
 

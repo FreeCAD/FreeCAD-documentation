@@ -1,5 +1,5 @@
 # Unified Measurement Facility
-This page is describes a potential 2018 Google Summer of Code project regarding upgrades to FreeCAD\'s measurement functions.
+This page is describes a potential Google Summer of Code project regarding upgrades to FreeCAD\'s measurement functions.
 
 ## Outline
 
@@ -33,6 +33,10 @@ This work will provide an introduction to the FreeCAD code base and the use of s
 ### Difficulty
 
 Medium
+
+### Project size 
+
+175h
 
 ### Additional Information
 

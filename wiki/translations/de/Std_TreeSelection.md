@@ -10,11 +10,15 @@
 
 # Std TreeSelection/de
 
+
+
 ## Beschreibung
 
 Der **Std BaumAnsichtSelektion**-Befehl verschiebt die [Baumansicht](Tree_view/de.md) auf das erste erstellte Objekt in einer [3D-Ansicht](3D_view/de.md)-Auswahl.
 
 Falls der Baumansicht [Sync-Auswahl](Std_TreeSyncSelection/de.md)-Modus ausgeschaltet ist, wird die Baumansicht auf das erste erstellte Objekt in der Auswahl verschoben, dessen Eltern-Objekt bereits in der Baumansicht erweitert wurde. Falls keines der Eltern-Objekte dieses Objekts erweitert wurde, hat der Befehl keine Auswirkungen.
+
+
 
 ## Anwendung
 

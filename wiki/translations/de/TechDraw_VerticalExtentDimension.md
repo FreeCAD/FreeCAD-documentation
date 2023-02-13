@@ -16,17 +16,8 @@
 
 Das Werkzeug MaßVertikaleAusdehnung fügt einer Ansicht ein lineares Maß hinzu. Das Maß erstreckt sich vom tiefsten Punkt der ausgewählten Objekte bis zum höchsten Punkt. An beiden Stellen wird ein Hilfspunkt gesetzt.
 
-<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Vertikale Ausdehnung Bemaßung von BSpline Fläche*
-
-
-</div>
+<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
+*Maß für die vertikale Ausdehnung einer B-Spline-Fläche (193,54)*
 
 
 

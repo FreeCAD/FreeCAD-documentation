@@ -16,17 +16,8 @@
 
 Das Werkzeug MaßHorizontaleAusdehnung fügt einer Ansicht ein lineares Maß hinzu. Das Maß erstreckt sich vom äußersten linken Punkt der ausgewählten Objekte bis zum äußersten rechten Punkt. An beiden Stellen wird ein Hilfspunkt gesetzt.
 
-<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Horizontale Ausdehnung Bemaßen von BSpline Fläche*
-
-
-</div>
+<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
+*Maß für die horizontale Ausdehnung einer B-Spline-Fläche (292,50)*
 
 
 
@@ -52,7 +43,7 @@ Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de#Eigenschaften.md). Ausn
 
 ### Daten
 
--    {{PropertyData/de|MeasureType}}: `True` - basierend auf 3D Geometrie oder \"Projizierter Geometrie\" auf der Zeichnung. Normalerweise nicht direkt vom Endbenutzer beeinflusst. Noch nicht implementiert für Bemaßung Horizontale Ausdehnung.
+-    {{PropertyData/de|MeasureType}}: `True` - basierend auf 3D-Geometrie oder \"Projected\" (Projiziert) basierend auf der Zeichnung. Normalerweise nicht direkt vom Endbenutzer beeinflusst. Noch nicht implementiert für MaßHorizontaleAusdehnung.
 
 
 

@@ -16,11 +16,15 @@ Cette équation décrit les propriétés mécaniques des corps rigides.
 
 Pour plus d\'informations sur les mathématiques de l\'équation, voir [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Linear Elasticity*.
 
+
+
 ## Utilisation
 
 1.  Après avoir ajouté un solveur Elmer comme décrit [ici](FEM_SolverElmer/fr#.C3.89quations.md), sélectionnez-le dans la [Vue en arborescence](Tree_view/fr.md)
 2.  Utilisez maintenant le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationElasticity.svg  style="width:24px;"> ou le menu **Solveur → Equation d'élasticité**.
 3.  Modifiez les [paramètres du solveur de l\'équation](#Param.C3.A8tres_du_solveur.md) ou les [paramètres généraux du solveur](FEM_SolverElmer_SolverSettings/fr.md) si nécessaire.
+
+
 
 ## Paramètres du solveur 
 
@@ -78,6 +82,8 @@ Valeurs propres :
 
 -    **Contrainte plane**: calcule la solution en fonction de la situation de contrainte plane. S\'applique uniquement à la géométrie 2D.
 
+
+
 ## Informations sur les contraintes 
 
 L\'équation d\'élasticité prend en compte les contraintes suivantes si elles sont définies :
@@ -89,9 +95,13 @@ L\'équation d\'élasticité prend en compte les contraintes suivantes si elles 
 -   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Contrainte de poids propre](FEM_ConstraintSelfWeight/fr.md)
 -   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Contrainte de température initiale](FEM_ConstraintInitialTemperature/fr.md)
 
+
+
 ### Remarque
 
 Sauf pour les calculs en 2D, pour toutes les contraintes ci-dessus, il est important qu\'elles agissent sur une face. Les contraintes pour la 3D définies sur des lignes ou des sommets ne sont pas reconnues par le solveur Elmer.
+
+
 
 ## Analyse en mode propre 
 
@@ -105,11 +115,15 @@ Pour effectuer une analyse en mode propre (calcul des modes et fréquences propr
 
 **Remarque** : si vous utilisez plus d\'un cœur de CPU pour le solveur (Notez également que la résolution itérative n\'est pas recommandée pour l\'analyse des modes propres. Par conséquent, soit vous n\'utilisez qu\'un seul cœur de processeur, soit vous installez le module *MUMPS* sur Elmer.
 
+
+
 ## Analyse de flambage 
 
 Pour effectuer une analyse de flambage, vous devez procéder de la même manière que pour une [Analyse en mode propre](#Analyse_en_mode_propre.md), et en plus :
 
 -   Définir **Analyse de stabilité** à *true*.
+
+
 
 ## Résultats
 
@@ -125,7 +139,13 @@ $\quad
 alors que $\vec{u}$ est le vecteur propre et $c$ est un nombre complexe.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{FEM Tools navi

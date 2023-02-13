@@ -9,9 +9,13 @@
 
 # Mesh PolyCut/pl
 
+
+
 ## Opis
 
 Polecenie **Przetnij** wycina z obiektów siatkowych całe ściany.
+
+
 
 ## Użycie
 

@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Описание
 
 This equation describes the mechanical properties of rigid bodies.
@@ -129,7 +131,13 @@ $\quad
 whereas $\vec{u}$ is the eigenvector and $c$ is a complex number.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{FEM Tools navi

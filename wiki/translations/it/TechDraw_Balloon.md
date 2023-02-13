@@ -13,11 +13,15 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Lo strumento Pallinatura aggiunge le bolle con una linea guida in un disegno.
 
 <img alt="" src=images/Techdraw_balloon.png  style="width:600px;">
+
+
 
 ## Utilizzo
 
@@ -39,6 +43,8 @@ To change the properties of a Balloon double-click it on the page or in the [Tre
 
 **Note:** The position of a Balloon is relative to its Source View and uses the same scale factor.
 
+
+
 ## Utilizzo dei separatori 
 
 Quando si utilizza una forma rettangolare, si possono aggiungere i separatori utilizzando \"\|\" nel testo. Ad esempio \"AAA\|TEST\|111\" restituisce:
@@ -50,6 +56,8 @@ Quando si utilizza una forma rettangolare, si possono aggiungere i separatori ut
 
 
 </div>
+
+
 
 ## Proprietà
 
@@ -102,6 +110,8 @@ Quando si utilizza una forma rettangolare, si possono aggiungere i separatori ut
 
 
 </div>
+
+
 
 ## Script
 

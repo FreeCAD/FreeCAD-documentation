@@ -10,6 +10,8 @@
 
 {{TOCright}}
 
+
+
 ## 前言
 
 FreeCAD是一种3D[参数化建模程序](About_FreeCAD/zh.md)。它主要用于机械设计，对所有需要精确建模3D物体并能够控制建模过程的情况都适用。
@@ -20,13 +22,23 @@ FreeCAD自2002年起开始开发，它可以提供很多的[功能](Feature_list
 
 查看其他：
 
+
+<div class="mw-translate-fuzzy">
+
 -   [将Fusion360集成到FreeCAD](Migrating_to_FreeCAD_from_Fusion360.md)
 -   [教程](Tutorials/zh.md)
 -   [视频教程](Video_tutorials.md)
 
+
+</div>
+
+
+
 ## 安装
 
 首先，下载并安装FreeCAD。参见[下载页面获取当前的版本和更新信息](Download.md)，以及适用于你的操作系统的安装说明([Windows](Installing_on_Windows.md), [Linux](Installing_on_Linux.md) or [Mac](Installing_on_Mac.md))。有可用的安装包支持Windows(.msi)，Debian和Ubuntu (.deb), openSUSE (.rpm)以及Mac OSX环境。FreeCAD也可以通过许多Linux发行版的安装包管理器获取。同时还有可以在最新64位Linux系统上运行的独立[AppImage可执行文件](AppImage.md)。FreeCAD是开源的，你也可以获取源代码并且自己[编译它](Compiling.md)。
+
+
 
 ## 浏览界面
 
@@ -83,6 +95,8 @@ FreeCAD界面背后的主要概念是它被分成 [工作台](workbenches.md)。
 
 </div>
 
+
+
 ## 3D空间操控
 
 
@@ -94,6 +108,8 @@ FreeCAD有许多不同的[鼠标操控模式可用](Mouse_Model.md), 选择不�
 </div>
 
 预设的视图(顶视图、前视图等)，可以通过试图菜单、视图工具栏和数字快捷键(**1**, **2**, 等等)进行使用。通过右键单击对象或三维视图的空白区域，可以快速使用一些常见操作，例如设置特定视图或在树视图中定位对象。
+
+
 
 ## 和FreeCAD一起迈进的第一步
 
@@ -114,6 +130,8 @@ Freecad的关注点是让你能够制作高精度的3D模型，对这些模型�
 
 
 </div>
+
+
 
 ## 使用零件设计和草图工作台
 
@@ -150,6 +168,8 @@ Freecad的关注点是让你能够制作高精度的3D模型，对这些模型�
 <img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
 
 你随时可以选择原始草图并对其进行修改，或者更改"填充"或"挖槽"操作的拉伸参数以更新最终对象。
+
+
 
 ## 使用绘图和建筑工作台
 
@@ -193,6 +213,8 @@ Freecad的关注点是让你能够制作高精度的3D模型，对这些模型�
 
 更多信息见[指南页面](Tutorials.md).
 
+
+
 ## 插件，宏文件和外部工作台
 
 
@@ -213,9 +235,13 @@ Freecad作为一种开放源代码软件，提供了使用插件补充其工作�
 
 </div>
 
+
+
 ## 脚本编写
 
 最后，FreeCad最强大的功能之一是[脚本编写环境](scripting.md)。从集成的python控制台（或任何其他外部python脚本），您可以控制FreeCAD的几乎任何部分。创建或修改几何图形、修改3D场景中这些对象的表现形式、或控制和修改FreeCAD界面。python脚本也可以用于[宏脚本](Macros.md)，它提供了一种创建自定义命令的简单方法。
+
+
 
 ## 新特性
 

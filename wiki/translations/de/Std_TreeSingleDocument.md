@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/de
    Name:Std TreeSingleDocument
-   Name/de:Std TreeSingleDocument
+   Name/de:Std BaumEinzeldokument
    MenuLocation:Ansicht → Baumansicht-Aktionen → Einzeldokument
    Workbenches:Alle
    Version:0.19

@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -126,7 +128,13 @@ $\quad
 whereas $\vec{u}$ is the eigenvector and $c$ is a complex number.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{FEM Tools navi

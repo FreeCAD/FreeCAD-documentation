@@ -10,6 +10,8 @@
 
 {{TOCright}}
 
+
+
 ## Prefácio
 
 FreeCAD é uma aplicação de modelagem 3D [aplicação de modelagem paramétrica](About_FreeCAD/pt-br.md). Ele é feito principalmente para projetos mecânicos, mas também serve a todos os outros usos onde você precisa modelar objetos 3D com precisão e controle sobre o histórico da modelagem.
@@ -20,13 +22,23 @@ Como todos os projetos de software livre, o FreeCAD depende de sua comunidade pa
 
 Veja também:
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Migrando para o FreeCAD do Fusion360](Migrating_to_FreeCAD_from_Fusion360/pt-br.md)
 -   [Tutoriais](Tutorials/pt-br.md)
 -   [Tutorials em video](Video_tutorials/pt-br.md)
 
+
+</div>
+
+
+
 ## Instalação
 
 Primeiramente, baixe e instale o FreeCAD. Consulte a página [Download](Download/pt-br.md) para obter informações sobre versões e atualizações atuais e a instruções de instalação para seu sistema operacional ([Windows](Installing_on_Windows/pt-br.md), [Linux](Installing_on_Linux/pt-br.md) ou [Mac](Installing_on_Mac/pt-br.md)). Existem pacotes de instalação prontos para Windows (.msi), Debian e Ubuntu (.deb), openSUSE (.rpm) e Mac OSX. O FreeCAD está disponível nos gerenciadores de pacotes de muitas outras distribuições Linux. Também está disponível um executável [AppImage](AppImage/pt-br.md) independente, que será executado nos sistemas Linux de 64 bits mais recentes. Como o FreeCAD é de código aberto, você também pode pegar o código-fonte e [compilá-lo](Compiling.md).
+
+
 
 ## Explorando a interface 
 
@@ -85,6 +97,8 @@ O Start Center te permite saltar rapidamente para as bancadas de trabalho mais c
 
 </div>
 
+
+
 ## Navegando no espaço 3D 
 
 
@@ -96,6 +110,8 @@ FreeCAD tem vários modos diferentes [estilos de navegação](Mouse_Model/pt-br.
 </div>
 
 Você também tem várias predefinições de visualização (vista superior, vista frontal, etc.) disponíveis no menu Ver, na barra de ferramentas Ver, e por atalhos numéricos (**1**, **2**, etc\...). Clicando com o botão direito do mouse em um objeto ou em uma área vazia da visualização 3D, você tem acesso rápido a algumas operações comuns, tais como definir uma determinada visualização, ou localizar um objeto na visualização em árvore.
+
+
 
 ## Primeiros passos com FreeCAD 
 
@@ -116,6 +132,8 @@ Você pode trocar de bancada de trabalho a qualquer momento, e também [customiz
 
 
 </div>
+
+
 
 ## Trabalhando com as bancadas PartDesign e Sketcher 
 
@@ -152,6 +170,8 @@ O que lhe dá um objeto como este:
 <img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
 
 A qualquer momento, você pode selecionar os esboços originais e modificá-los, ou alterar os parâmetros de extrusão das operações de bloco ou bolso, o que atualizará o objeto final.
+
+
 
 ## Trabalhando com as bancadas Draft e Arch 
 
@@ -195,6 +215,8 @@ O que lhe dará isto:
 
 Para mais informações, visite a página [Tutoriais](Tutorials.md) .
 
+
+
 ## Addons, Macro e Bancadas Externas 
 
 
@@ -221,6 +243,8 @@ Há dois tipos de extensões:
 ## Scripting
 
 E, finalmente, um dos recursos mais poderosos do FreeCAD é o ambiente [ scripting](scripting.md). No console python integrado (ou em qualquer outro script Python externo) você pode acessar quase qualquer parte do FreeCAD, criar ou modificar geometria, modificar a representação desses objetos na cena 3D ou acessar e modificar a interface do FreeCAD. O script Python também pode ser usado em [ macros](macros.md), que fornece um método fácil para criar comandos personalizados.
+
+
 
 ## Novidades
 

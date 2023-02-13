@@ -1,8 +1,9 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:Std TreeRecordSelection
-   MenuLocation:View → TreeView actions → Record selection
-   Workbenches:All
+   Name/de:Std BaumAuswahlAufzeichnen
+   MenuLocation:Ansicht → Baumansicht-Aktionen → Auswahl aufzeichnen
+   Workbenches:Alle
    Shortcut:**T** **5**
    Version:0.19
 ---
@@ -13,22 +14,22 @@
 
 ## Beschreibung
 
-The **Std TreeRecordSelection** command toggles the [Tree view](Tree_view.md) RecordSelection mode. If this mode is on, each Tree view selection is stored for future use. With the **<img src="images/Std_SelBack.svg" width=16px>** and **<img src="images/Std_SelForward.svg" width=16px>** buttons you can go backwards and forwards through these selections and restore them.
+Der Befehl **Std BaumAuswahlAufzeichnen** schaltet den Auswahl-Aufzeichnen-Modus der [Baumansicht](Tree_view/de.md) ein bzw. aus. Ist dieser Modus aktiviert, wird jede Auswahl in der Baumansicht für eine spätere Verwendung gespeichert. MIt den Schaltflächen **<img src="images/Std_SelBack.svg" width=16px>** und **<img src="images/Std_SelForward.svg" width=16px>** kann man sich vor und zurück durch die Auswahlen bewegen und sie wiederherstellen.
 
 
 
 ## Anwendung
 
-1.  There are several ways to invoke the command:
-    -   Click on the black down arrow to the right of the **<img src="images/Std_TreeSyncView.svg" width=16px>** button and select the **Record selection** option from the flyout. Note: the button image will change depending on the selected option.
-    -   Select the **View → TreeView actions → <img src="images/Std_TreeRecordSelection.svg" width=16px> Record selection** option from the menu.
-    -   Use the keyboard shortcut: **T** then **5**.
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Den nach unten weisenden Pfeil rechts neben der Schaltfläche **<img src="images/Std_TreeSyncView.svg" width=16px>** anklicken und den Eintrag **Auswahl aufzeichnen** in der angezeigten Liste auswählen. Hinweis: Das Bild der Schaltfläche ändert sich entsprechend der Auswahl.
+    -   Den Menüeintrag **Ansicht → Baumansicht-Aktionen → <img src="images/Std_TreeRecordSelection.svg" width=16px> Auswahl aufzeichnen** auswählen.
+    -   Das Tastaturkürzel **T** dann **5**.
 
 
 
 ## Einstellungen
 
-The Tree view RecordSelection mode can also be set in the [Preferences editor](Preferences_Editor#Selection.md): **Edit→ Preferences → General → Selection**.
+-   Der Modus Auswahl aufzeichnen der Baumansicht kann auch im [Voreinstellungseditor](Preferences_Editor/de#Auswahl.md) ausgewählt werden: **Bearbeiten→ Einstellungen... → Allgemein → Auswahl**.
 
 
 

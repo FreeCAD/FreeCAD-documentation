@@ -1,34 +1,23 @@
 ---
 - GuiCommand:/de
-   Name:Mesh PolyCut   Name/de:Mesh PolyCut
-   MenuLocation:Netze → Netz schneiden
-   Workbenches:[Netze](Mesh_Workbench/de.md)
-   Shortcut:
-   SeeAlso:
+   Name:Mesh PolyCut
+   Name/de:Mesh PolygonSchnitt
+   MenuLocation:Netze → Schneiden → Netz schneiden
+   Workbenches:[Mesh](Mesh_Workbench.md)
+   SeeAlso:[Mesh PolygonTrim](Mesh_PolyTrim/de.md), [Mesh EbenenTrim](Mesh_TrimByPlane/de.md)
 ---
 
 # Mesh PolyCut/de
 
 
-</div>
+
+## Beschreibung
+
+Der Befehl **Mesh PolygonSchnitt** schneidet ganze Facetten (Dreiecke) von einem Mesh-Objekt ab.
 
 
-<div class="mw-translate-fuzzy">
-
-## Einleitung
-
-
-</div>
-
-The **Mesh PolyCut** command cuts whole faces from mesh objects.
-
-
-<div class="mw-translate-fuzzy">
 
 ## Anwendung
-
-
-</div>
 
 1.  During the command the [3D view](3D_view.md) cannot be changed. It is advisable to properly line up the 3d view first.
 2.  Select one or more mesh objects.
@@ -58,13 +47,7 @@ The **Mesh PolyCut** command cuts whole faces from mesh objects.
         : cancels the command.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Mesh Tools navi

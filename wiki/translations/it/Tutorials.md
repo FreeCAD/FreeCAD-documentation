@@ -3,22 +3,15 @@
 
 Questa pagina presenta una selezione di tutorial di alta qualità. Un elenco completo e non ordinato di esercitazioni si trova nella pagina: [:Category:Tutorials/it](:Category:Tutorials/it.md), uno elenco completo e ordinabile si trova nella [tabella sottostante](Tutorials/it#Tutorial_-_Elenco_completo.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Se desiderate contribuire alla stesura di documentazione e tutorial wiki, consultate le linee guida generali del wiki in [WikiPages](WikiPages.md), e leggete [tutorial guidelines](tutorial_guidelines.md).
-
-
-</div>
+Se desiderate contribuire alla stesura di documentazione e tutorial wiki, consultate le linee guida generali del wiki in [WikiPages](WikiPages.md), e leggete [Tutorial guidelines](Tutorial_guidelines.md).
 
 Si prega di notare la versione di FreeCAD utilizzata nel tutorial in quanto alcuni tutorial potrebbero utilizzare una vecchia versione del programma. Sebbene il processo di modellazione generale possa ancora funzionare, alcuni strumenti potrebbero essere cambiati.
 
 Si vedano anche i [tutorial video](Video_tutorials/it.md) e i [libri](Books.md).
 
+
+
 ## Architettura e BIM 
-
-
-<div class="mw-translate-fuzzy">
 
 <File:Arch> tutorial 00.jpg\|link=[Arch tutorial/it](Arch_tutorial/it.md)\|[Tutorial di Architettura](Arch_tutorial/it.md) (v0.14)
 Questo tutorial è una essenziale introduzione all\'ambiente Arch. È ampio e mostra un tipico flusso di lavoro, dall\'importazione di piani in formato DXF alla costruzione del modello 3D. <File:Exercise> arch 01.jpg\|link=[Manual:BIM_modeling/it](Manual:BIM_modeling/it.md)\|[Modellazione BIM](Manual:BIM_modeling/it.md)
@@ -29,7 +22,6 @@ Modellazione di un pannello per il tetto di una microhouse utilizzando Sketcher,
 Rimodellazione del progetto WikiHouse con schizzi e pannelli, a partire dall\'importazione di un modello mesh creato in SketchUp.
 
 
-</div>
 
 ## Modellazione di parti 
 
@@ -71,6 +63,8 @@ Il progetto Raspberry Pi ha realizzato tutorial semplici e facili da seguire, in
 -   [freecad-chess-set](https://projects.raspberrypi.org/en/projects/freecad-chess-set), modellare un set completo di scacchi in stile modernista Bauhaus.
 -   [raspberrypilearning](https://github.com/raspberrypilearning?utf8=%E2%9C%93&q=freecad&type=source&language=) repository (CC-BY 4.0) con altri esempi.
 
+
+
 ## Disegni e schizzi 
 
 Exercise cabin 01.jpg\|link=[Manual:Traditional 2D drafting/it](Manual:Traditional_2D_drafting/it.md)\|[Disegno tradizionale 2D](Manual:Traditional_2D_drafting/it.md)
@@ -87,6 +81,8 @@ Questa è un\'introduzione di base agli strumenti di Sketcher Workbench: modalit
 
 03d_Sk02_Sketcher_Rectangle_constrained_length.png\|link=[Sketcher_Micro_Tutorial\_-\_Constraint_Practices/it](Sketcher_Micro_Tutorial_-_Constraint_Practices/it.md)\|[Esercitazioni sui vincoli di Sketcher](Sketcher_Micro_Tutorial_-_Constraint_Practices/it.md) (v0.19)
 Impara a vincolare in modo efficiente uno schizzo. Preferisci i vincoli geometrici ai vincoli di Riferimento.
+
+
 
 ## Disegno Tecnico 
 
@@ -115,6 +111,8 @@ Questo esempio mostra come simulare una capacità. Illustra come impostare l\'es
 FEM_post-processing_Paraview.png\|link=[Post-Processing_of_FEM_Results_with_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)\|[Post-elaborazione dei risultati FEM con Paraview](Post-Processing_of_FEM_Results_with_Paraview.md) (v0.19)
 Questo tutorial spiega le basi del trasferimento dei dati dall\'Ambiente FEM a Paraview e mostra alcune delle opzioni e delle impostazioni per la visualizzazione dei dati.
 
+
+
 ## CNC & Stampa 3D 
 
 Path-WalkThroughResult.gif\|link=[Path Walkthrough for the Impatient/it](Path_Walkthrough_for_the_Impatient/it.md)\|[Guida a Path per impazienti](Path_Walkthrough_for_the_Impatient/it.md)
@@ -129,6 +127,8 @@ Descrive il flusso di lavoro di base di Raytracing usando POV-Ray o LuxRender: i
 Flusso di lavoro per produrre un rendering migliore con POV-Ray: creare un progetto, aggiungere gli oggetti, impostare la fotocamera, salvare il file .pov, modificare manualmente il file per migliorare le informazioni su trame, piani, fotocamera, luci e quindi eseguire il renderer dalla riga di comando. 07_T03_FreeCAD_Blender_EEVEE_render.png\|link=[Tutorial_Render_with_Blender/it](Tutorial_Render_with_Blender/it.md)\|[Tutorial Rendering con Blender](Tutorial_Render_with_Blender/it.md) (v0.18)
 Esportare i corpi da FreeCAD a Wavefront.obj, importare il file in Blender, impostare una semplice luce solare, assegnare i materiali di base con lo shader di base BSDF e produrre un\'immagine renderizzata con EEVEE e Cycles
 
+
+
 ## Ambiente Robot 
 
 
@@ -137,6 +137,8 @@ Esportare i corpi da FreeCAD a Wavefront.obj, importare il file in Blender, impo
 Robot Tutorial RobotSimulation.gif\|link=[Robot_tutorial/it](Robot_tutorial/it.md)\|[Tutorial di Robot](Robot_tutorial/it.md) (v0.17)
 Simula il movimento di un robot industriale: imposta una traiettoria, imposta la posizione di partenza, modifica la posizione del robot, inserisce vari punti di passaggio e simula il movimento del robot.
 
+
+
 ## Script
 
 Questi sono tutorial relativi allo scripting o alla programmazione. Sono rivolti agli utenti più esperti, che hanno già una certa familiarità con il programma.
@@ -144,6 +146,8 @@ Questi sono tutorial relativi allo scripting o alla programmazione. Sono rivolti
 -   [Guida agli Script Python](Python_scripting_tutorial/it.md)
 -   [Come installare le macro](How_to_install_macros/it.md)
 -   [Come installare ambienti di lavoro aggiuntivi](How_to_install_additional_workbenches/it.md)
+
+
 
 ## Tutorial - Elenco completo 
 

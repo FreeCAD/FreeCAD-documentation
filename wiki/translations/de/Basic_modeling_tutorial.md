@@ -9,9 +9,13 @@
    Dateien:keine
 }}
 
+
+
 ## Einführung
 
 Dieses Tutorium grundlegende Modellierung zeigt dir, wie du einen Eisenwinkel modellierst. Eine Sache, die du wissen solltest, ist, dass FreeCAD modular aufgebaut ist, und wie bei vielen anderen CAD Programmen gibt es immer mehr als eine Möglichkeit, Dinge zu tun. Wir werden hier zwei Methoden untersuchen.
+
+This tutorial was written with version 0.15 of FreeCAD.
 
 ## Bevor wir beginnen 
 

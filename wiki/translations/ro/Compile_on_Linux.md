@@ -549,7 +549,7 @@ And optionally:
 -   python3-markdown (for the Addon Manager to display native markdown)
 -   python3-GitPython (for the Addon Manager to use git to checkout and update workbenches and macros)
 
-To install all dependencies at once (tested on fedora 36):
+To install all dependencies at once (tested on fedora 36 and 37):
 
 
 {{Code|lang=bash|code=

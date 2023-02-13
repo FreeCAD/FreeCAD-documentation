@@ -1,6 +1,8 @@
 # Getting started/sv
 {{TOCright}}
 
+
+
 ## Förord
 
 
@@ -30,8 +32,11 @@ Och om du efter att ha testat den har kommentarer, ideer eller åsikter, var vä
 See also:
 
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
+-   [Which workbench should I choose?](Which_workbench_should_I_choose.md)
 -   [Tutorials](Tutorials.md)
 -   [Video tutorials](Video_tutorials.md)
+
+
 
 ## Installation
 
@@ -42,6 +47,8 @@ Först av allt (om det inte redan är gjort), ladda ned och installera FreeCAD. 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -90,6 +97,8 @@ When you start FreeCAD for the first time, you are presented with the Start page
 <img alt="" src=images/Start_center_0.19_screenshot.png  style="width:600px;">
 
 The Start page allows you to quickly jump to one of the most common workbenches, open one of the recent files, or see the latest news from the FreeCAD world. You can change the default workbench in the [preferences](Preferences_Editor.md).
+
+
 
 ### Navigera i 3D rymden 
 

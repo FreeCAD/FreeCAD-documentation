@@ -8,9 +8,13 @@
 
 # FEM ElementFluid1D/pt-br
 
+
+
 ## Descrição
 
 Creates a FEM fluid section element for pneumatic and hydraulic networks
+
+
 
 ## Utilização
 
@@ -22,9 +26,13 @@ Creates a FEM fluid section element for pneumatic and hydraulic networks
 4.  Enter Section type parameters.
 5.  Select and add edge.
 
+
+
 ## Limitações
 
 1.  The card only works with a 3 noded network element type. Information can be found here: <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node54.html>
+
+
 
 ## Notas
 

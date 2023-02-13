@@ -1,10 +1,11 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:Std TreeMultiDocument
-   MenuLocation:View → TreeView actions → Multi document
-   Workbenches:All
+   Name/de:Std BaumMehrfachdokument
+   MenuLocation:Ansicht → Baumansicht-Aktionen → Mehrfachdokument
+   Workbenches:Alle
    Version:0.19
-   SeeAlso:[Std TreeSingleDocument](Std_TreeSingleDocument.md), [Std TreeCollapseDocument](Std_TreeCollapseDocument.md)
+   SeeAlso:[Std BaumEinfachdokument](Std_TreeSingleDocument/de.md), [Std BaumDokumentReduzieren](Std_TreeCollapseDocument/de.md)
 ---
 
 # Std TreeMultiDocument/de
@@ -13,21 +14,21 @@
 
 ## Beschreibung
 
-The **Std TreeMultiDocument** command switches the [Tree view](Tree_view.md) DocumentMode to MultiDocument. In this mode all documents are visible in the Tree view and multiple documents can be expanded. The other modes are [SingleDocument](Std_TreeSingleDocument.md) and [CollapseDocument](Std_TreeCollapseDocument.md).
+Der Befehl **Std BaumMehrfachdokument** ändert den Dokument-Modus der [Baumansicht](Tree_view/de.md) auf Mehrfachdokument. In diesem Modus sind alle Dokumente in der Baumansicht sichtbar und können erweitert werden. Die anderen Modi sind [BaumEinzeldokument](Std_TreeMultiDocument/de.md) und [BaumDokumentReduzieren](Std_TreeCollapseDocument/de.md).
 
 
 
 ## Anwendung
 
-1.  There are several ways to invoke the command:
-    -   Click on the black down arrow to the right of the **<img src="images/Std_TreeSyncView.svg" width=16px>** button and select the **Multi document** option from the flyout. Note: the button image will change depending on the selected option.
-    -   Select the **View → TreeView actions → <img src="images/Std_TreeMultiDocument.svg" width=16px> Multi document** option from the menu.
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Den nach unten weisenden Pfeil rechts neben der Schaltfläche **<img src="images/Std_TreeSyncView.svg" width=16px>** anklicken und den Eintrag **Mehrfachdokument** in der angezeigten Liste auswählen. Hinweis: Das Bild der Schaltfläche ändert sich entsprechend der Auswahl.
+    -   Den Menüeintrag **Ansicht → Baumansicht-Aktionen → <img src="images/_Std_TreeMultiDocument.svg" width=16px> Mehrfachdokument** auswählen.
 
 
 
 ## Einstellungen
 
-The Tree view DocumentMode mode is stored: **Tools → Edit parameters... → BaseApp → Preferences → TreeView → DocumentMode**. It is an integer value. Possible values are `0` (SingleDocument), `1` (MultiDocument) or `2` (CollapseDocument). The default is `2`.
+Die Einstellung Dokument-Modus der Baumansicht wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → TreeView → DocumentMode** (Parametereditor). Es ist ein ganzzahliger Wert. Die möglichen Werte sind `0` (Einzeldokument), `1` (Mehrfachdokument) oder `2` (DokumentReduzieren). Standardwert ist `2`.
 
 
 

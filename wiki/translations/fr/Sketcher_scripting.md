@@ -1,6 +1,8 @@
 # Sketcher scripting/fr
 {{TOCright}}
 
+
+
 ## Créer un SketchObject en utilisant Python 
 
 Nous créons un SketchObject comme ceci :
@@ -24,7 +26,9 @@ sketch.addGeometry(Part.LineSegment(App.Vector(12.2, 1.0, 0),
 doc.recompute()
 ```
 
-Cela ajoute également trois lignes dans l\'Esquisse juste créée.
+Cela ajoute également trois lignes dans l\'esquisse juste créée.
+
+
 
 ## Créer une contrainte en Python 
 
@@ -49,6 +53,8 @@ par exemple
 Le premier argument `ConstraintType` est décrit ci-dessous dans les [Types de contraintes](#Types_de_contraintes.md).
 
 Une contrainte peut prendre jusqu\'à six arguments qui sont des arêtes ou indiquent quelle sous-partie d\'une arête est utilisée par la contrainte. Consultez la documentation des contraintes individuelles pour plus de détails sur les combinaisons d\'arêtes et de sous-parties d\'arêtes pouvant être passées en arguments. Le principal problème avec cette fonction est d\'identifier correctement le numéro de ligne et le numéro de sommet des lignes que vous souhaitez traiter. Les sections ci-dessous décrivent comment [identifier le numéro d\'une ligne](#Identifier_le_num.C3.A9ro_d.27une_ligne.md) et comment [Identifier le numéro des sous-parties d\'une ligne](#Identifier_le_num.C3.A9ro_des_sous-parties_d.27une_ligne.md).
+
+
 
 ## Types de contraintes 
 
@@ -166,6 +172,8 @@ Les contraintes de la <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  st
 
 La contrainte <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [fixe](Sketcher_ConstrainLock/fr.md) est une commande de l\'interface graphique qui crée une contrainte <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [distance horizontale](Sketcher_ConstrainDistanceX/fr.md) et une <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [distance verticale](Sketcher_ConstrainDistanceY/fr.md), ce n\'est pas une contrainte en soi.
 
+
+
 ## Identifier le numéro d\'une ligne 
 
 J\'ai dessiné trois lignes comme indiqué dans la figure suivante.
@@ -185,6 +193,8 @@ Les nombres positifs indiquent les arêtes d\'esquisse (lignes droites, cercles,
 -    `-2`désigne l\'axe vertical y
 
 -    `-n`désigne le numéro de l\'élément de géométrie externe `n-3` (par exemple, l\'élément de géométrie externe avec l\'indice 0 dans la liste aplatie `sketch.ExternalGeometry` serait désigné par -3, l\'élément suivant dans la liste aplatie serait -4 et ainsi de suite).
+
+
 
 ## Identifier le numéro des sous-parties d\'une ligne 
 
@@ -206,6 +216,8 @@ Les sommets indiqués par 1 et 2 sont numérotés selon leur ordre de création.
 
 Si vous lisez par exemple 4 et 5, cela signifie que le sommet avec le numéro le plus bas (4 dans cet exemple) sera référencé en utilisant le numéro 1 (en premier dans la commande de script et le sommet avec le numéro le plus élevé (5 dans cet exemple) sera référencé par en utilisant le numéro 2 dans la commande de script.
 
+
+
 ## Exemple
 
 Prenons l\'exemple précédent des trois lignes. La figure suivante indique la numérotation de chaque ligne et de leurs sommets selon la convention de script.
@@ -214,7 +226,7 @@ Prenons l\'exemple précédent des trois lignes. La figure suivante indique la n
 
 
 
-*<b>text en bleu:</b> numéro de ligne, <b>text en noir:</b> numéro de sommets*
+*<b>Text en bleu :</b> numérotation des lignes, <b>text en noir :</b> numérotation des sommets*
 
 La commande `sketch.addConstraint(Sketcher.Constraint("Coincident", 1, 2, 2, 1))` donne le résultat suivant :
 

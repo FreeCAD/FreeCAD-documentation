@@ -110,7 +110,7 @@ The page has 4 benefits:
 
         
   **Ver.**   **Item**    **Type**   **Current**                                                          **Wish**                                         **Additional**                                                                **Fixed in**
-  0.20       Cut-plane   Bug        Transparency and color of cut-plane is transferred to final solid.   Object appearance should be unaffected by cut.   [forum thread](https://forum.freecadweb.org/viewtopic.php?p=628242#p628242)   
+  0.20       Cut-plane   Bug        Transparency and color of cut-plane is transferred to final solid.   Object appearance should be unaffected by cut.   [forum thread](https://forum.freecadweb.org/viewtopic.php?p=628242#p628242)   0.20.2: [PR7859](https://github.com/FreeCAD/FreeCAD/pull/7859)
         
 
 

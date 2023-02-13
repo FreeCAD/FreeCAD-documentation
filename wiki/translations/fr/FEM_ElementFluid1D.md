@@ -13,6 +13,8 @@
 
 Crée un élément FEM de section de fluide pour les réseaux pneumatiques et hydrauliques.
 
+
+
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
@@ -27,13 +29,21 @@ Crée un élément FEM de section de fluide pour les réseaux pneumatiques et hy
 
 1.  La carte ne fonctionne qu\'avec un type d\'élément de réseau à 3 nœuds. Les informations peuvent être trouvées ici : <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node54.html>
 
+
+
 ## Remarques
 
 1.  Un exemple de la mise en place d\'un réseau hydraulique peut être trouvé ici : <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node13.html>
 2.  La fonction \*FLUID SECTION est utilisée pour modéliser les éléments fluides pour un écoulement 1D. Des informations sur la fonction sont disponibles ici : <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node205.html>
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{FEM Tools navi

@@ -1,9 +1,13 @@
 # Selection methods/ru
 {{TOCright}}
 
+
+
 ## Обзор
 
 [Методы выбора](Selection_methods/ru.md) в FreeCAD позволяют выбирать объекты в [интерфейсе FreeCAD](Interface/ru.md): таких как [3D view](3D_view/ru.md), [древе проекта](Tree_view/ru.md), [вид выбора](Selection_view/ru.md) и других диалогах. Некоторые методы выбора зависят от конкретной рабочей среды и задокументированы в соответствующей документации по рабочей среде.
+
+
 
 ## Трёхмерный вид 
 
@@ -15,6 +19,8 @@
 
 </div>
 
+
+
 ### Простое выделение 
 
 
@@ -25,11 +31,15 @@
 
 </div>
 
+
+
 ### Повторные клики 
 
 Первый щелчок выбирает подэлемент (вершину, кромку или грань) объекта под курсором мыши. Второй щелчок выделяет весь объект. <small>(v0.18)</small> 
 
 Третий щелчок расширяет выделение на объект-контейнер ([PartDesign Body](PartDesign_Body/ru.md), [Std Part](Std_Part/ru.md) и другие). Дальнейшие щелчки расширяют выбор вверх по цепочке контейнеров. <small>(v0.19)</small> 
+
+
 
 ### Команды выделения 
 
@@ -41,11 +51,15 @@
 
 </div>
 
+
+
 ## Панель выделения 
 
 [Панель выделения](Selection_view/ru.md) показывает имена выбираемых объектов, включая их полное имя внутри объекта, например `Unnamed#Body.Box001.Face17`.
 
 It also allows to perform some actions like [Std ViewFitSelection](Std_ViewFitSelection.md), and sending the object to the [Python console](Python_console.md).
+
+
 
 ### Экспорт объектов 
 
@@ -61,6 +75,8 @@ It also allows to perform some actions like [Std ViewFitSelection](Std_ViewFitSe
 
 *Диалог выбора объекта, запускаемый из [панель выделения](Selection_view/ru.md).*
 
+
+
 ## Древо проекта 
 
 В [древе проекта](tree_view/ru.md) элементы можно выбирать или отменять по одному, удерживая клавишу **Ctrl** и щелкая мышью.
@@ -73,11 +89,19 @@ It also allows to perform some actions like [Std ViewFitSelection](Std_ViewFitSe
 
 Дополнительные методы доступны при открытии контекстного меню (щелчок правой кнопкой мыши), в зависимости от выбранного объекта или активной рабочей среды; см. информацию в [древе проекта](tree_view/ru.md).
 
+
+
 ## Программирование
 
 Выбор объектов по своей сути является графической задачей и поэтому доступен только тогда, когда графический интерфейс пользователя загружен.
 
+
+<div class="mw-translate-fuzzy">
+
 Эти команды можно использовать в [макросе](Macros/ru.md) или из [консоли Python](Python_console/ru.md).
+
+
+</div>
 
 
 ```python
@@ -88,11 +112,30 @@ Gui.Selection.addSelectionGate
 Gui.Selection.Filter
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Команда `addSelectionGate` запрещает пользователю выбирать объекты, не указанные в строке выбора. Символ появляется, когда указатель находится над элементом, не входящим в указанную группу.
+
+
+</div>
 
 
 ```python
 Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Edge")
+
+#### or
+Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Face")
+
+#### or
+Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Vertex")
+```
+
+To remove `SelectionGate()`:
+
+
+```python
+Gui.Selection.removeSelectionGate()
 ```
 
 Смотрите [Документацию по исходным кодам](Source_documentation/ru.md) и [Std PythonHelp](Std_PythonHelp/ru.md) для получения дополнительной помощи по использованию этих инструментов.

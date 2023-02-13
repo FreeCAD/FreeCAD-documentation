@@ -11,7 +11,13 @@ Si necesitas ayuda o tienes cuestiones relativas a una página particular de est
 
 ## Internet Relay Chat (IRC) 
 
+
+<div class="mw-translate-fuzzy">
+
 También existe un [IRC #freecad sala de chat en Freenode](irc://chat.freenode.net/freecad). #openFOAM-IRC también está en Freenode.
+
+
+</div>
 
 ## Reddit
 
@@ -20,6 +26,8 @@ Si estás en Reddit puedes usar el [r/FreeCAD](https://www.reddit.com/r/FreeCAD/
 ## Telegram
 
 If you are on Telegram you may use the [t.me/FreeCAD_EN](https://t.me/FreeCAD_EN).
+
+
 
 ## Twitter y Mastodon 
 

@@ -26,13 +26,19 @@ Les murs peuvent également avoir des ajouts ou des soustractions. Les ajouts so
 
 Lorsque plusieurs murs doivent se croiser, vous devez les placer sur un [niveau](Arch_Floor/fr.md) pour avoir leurs géométries entrecoupées.
 
+
+
 ## Utilisation
+
+
 
 ### Dessiner un mur de zéro 
 
 1.  Pressez le bouton **<img src="images/Arch_Wall.svg" width=16px> [Mur](Arch_Wall/fr.md)** ou pressez les touches **W** puis **A**.
 2.  Cliquez le premier point dans la vue 3D ou rentrez des coordonnées.
 3.  Cliquez le second point dans la vue 3D ou rentrez des coordonnées.
+
+
 
 ### Dessinez un mur sur un objet sélectionné 
 
@@ -55,12 +61,16 @@ Lorsque plusieurs murs doivent se croiser, vous devez les placer sur un [niveau]
 -   Les murs peuvent également utiliser [Arch Matériaux multiples](Arch_MultiMaterial/fr.md). Lors de l\'utilisation d\'un multi-matériau, le mur deviendra multi-couche, en utilisant les épaisseurs spécifiées par le multi-matériau. Toute couche d\'épaisseur zéro verra son épaisseur définie automatiquement par l\'espace restant défini par la valeur Largeur du mur, après avoir soustrait les autres couches.
 -   Les murs peuvent être conçus pour afficher des blocs, au lieu d\'un seul solide, en activant leur propriété **Make Blocks**. La taille et le décalage des blocs peuvent être configurés avec différentes propriétés, et la quantité de blocs est automatiquement calculée. {{Version/fr|0.18}}
 
+
+
 ## Aimantation
 
 L\'aimantation fonctionne un peu différemment avec les murs Arch par rapport aux autres objets Arch et Draft. Si un mur a un objet de ligne de base, l\'aimantation s\'ancrera à l\'objet de base, au lieu de la géométrie de mur, permettant d\'aligner facilement les murs par leur ligne de base. Si, cependant, vous souhaitez spécifiquement accrocher à la géométrie du mur, appuyez sur **Ctrl** pour basculer l\'aimantation à l\'objet mur.
 
 <img alt="" src=images/Arch_wall_snap.jpg  style="width:780px;"> 
 *Le deuxième mur s'aimante perpendiculairement au premier*
+
+
 
 ## Propriétés
 
@@ -103,10 +113,12 @@ Les objets mur héritent des propriétés de [Part](Part_Workbench/fr.md), et on
 
 -    **Count Broken**: nombre de blocs coupés (lecture seule)
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 

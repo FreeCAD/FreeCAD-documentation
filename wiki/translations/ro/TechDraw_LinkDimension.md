@@ -35,7 +35,7 @@ The link instructs the Dimension to compute it\'s value directly from the 3D geo
 4.  A dialog will open. Select one or more Dimensions to be linked to the selected 3D geometry.
 5.  Press **OK**.
 
-After the link operation is completed the **MeasureType** property of the dimension changes from `Projected` to `True`.
+The link operation changes the **MeasureType** property of the dimension from `Projected` to `True`.
 
 
 
@@ -52,14 +52,6 @@ The link tool will not stop you from making illogical links, so you need to choo
 There is currently no way to break a link; you can change the **MeasureType** back to `Projected` so that the dimension will use the projected value instead of the linked value.
 
 Note that if the Dimension to be linked is based on two vertices, you should select two vertices in the 3D view. Similarly if the Dimension is based on an edge, you should select an edge in the 3D view.
-
-
-
-## Proprietăți
-
-1.  Proprietatea MeasureType a Dimensiunii legate a fi schimbată din \"Projected\" în \"True\".
-
--   The **Measure Type** property of a linked Dimension will be changed from {{Value|Projected}} to {{Value|True}}.
 
 
 

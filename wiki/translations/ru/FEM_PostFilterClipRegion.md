@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Описание
 
 Clips a field using a sphere or a plane cutting through the model.
@@ -19,6 +21,8 @@ Clips a field using a sphere or a plane cutting through the model.
 <img alt="" src=images/FEM_Region-Cut-Filter-Example.png  style="width:400px;">
 
 *A region cut filter with a sphere as cut function.The original pipeline is the semi-transparent object.*
+
+
 
 ## Применение
 
@@ -29,7 +33,7 @@ Clips a field using a sphere or a plane cutting through the model.
 3.  Adjust the **Result display options** like for the [result pipeline](FEM_PostPipelineFromResult.md). You might need to hide the pipeline to see the effect of the filter in the preview.
 4.  Either
     -   If there is no [filter function](FEM_PostCreateFunctions.md) defined yet, press the **<img src="images/List-add.svg" width=16px> Create
-** button and select **<img src="images/Fem-post-geo-plane.svg" width=16px> Plane** or **<img src="images/Fem-post-geo-sphere.svg" width=16px> Sphere**
+** button and select **<img src="images/FEM_PostCreateFunctionPlane.svg" width=16px> Plane** or **<img src="images/FEM_PostCreateFunctionSphere.svg" width=16px> Sphere**
     -   Choose an existing filter function from the list. If needed, adjust the cut parameters to make sure that it intersects the model. Note that changed cut parameters will also change the parameters of the used filter function.
 5.  The model will be clipped using the filter function. Select the **Inside Out** option to invert the cut. Select the **Cut Cells** option to smooth the clipped region by eliminating parts of finite elements that are sticking out.
 6.  Click the **OK** button to finish the command.

@@ -17,7 +17,12 @@ Filtre un champ à l\'aide d\'une sphère ou d\'un plan coupant le modèle.
 
 *Un filtre d\'écrêtage selon une région avec une sphère comme fonction de découpe.Le pipeline original est l\'objet semi-transparent.*
 
+
+
 ## Utilisation
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Sélectionnez un [pipeline de résultats](FEM_PostPipelineFromResult/fr.md) précédemment créé.
 2.  Lancez la commande soit en :
@@ -30,6 +35,9 @@ Filtre un champ à l\'aide d\'une sphère ou d\'un plan coupant le modèle.
     -   Choisissez une fonction de filtrage existante dans la liste. Si nécessaire, ajustez les paramètres de coupe pour vous assurer qu\'elle intersecte le modèle. Notez que les paramètres de coupe modifiés changeront également les paramètres de la fonction de filtre utilisée.
 5.  Le modèle sera coupé à l\'aide de la fonction de filtrage. Sélectionnez l\'option **Inverser** pour inverser la coupe. Sélectionnez l\'option **Couper des cellules** pour lisser la région découpée en éliminant les parties des éléments finis qui dépassent.
 6.  Cliquez sur le bouton **OK** pour terminer la commande.
+
+
+</div>
 
 **Remarque** : s\'il n\'existe pas encore de fonction de filtrage, vous ne pouvez définir directement un **champ** après sa création que lorsque <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:24px;"> [Appliquer les modifications](FEM_PostApplyChanges/fr.md) est activé. Sinon, vous pouvez le faire d\'abord après avoir rouvert le menu du dialogue du filtre.
 

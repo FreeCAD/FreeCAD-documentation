@@ -19,6 +19,8 @@ Este Tutorial de Modelagem Básica mostrar-te-á como modelar um ângulo de ferr
 
 </div>
 
+This tutorial was written with version 0.15 of FreeCAD.
+
 ## Dantes de começar 
 
 Recorda que FreeCAD ainda está num estado inicial de desenvolvimento, de modo que possivelmente não sejas tão produtivo como com outras aplicações de CAD, e encontrarás alguns erros, ou experimentes alguns pendures da aplicação. FreeCAD agora dispõe da opção de realizar cópias de respaldo. O numero de arquivos de respaldo pode-se especificar menu do diálogo de Preferências. Não duvides em permitir 2 ou 3 arquivos de respaldo até que conheças bem como trabalhar com FreeCAD.

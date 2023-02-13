@@ -1,6 +1,8 @@
 # Getting started/ja
 {{TOCright}}
 
+
+
 ## 序文
 
 
@@ -30,12 +32,17 @@ Like all open-source projects, the FreeCAD project is not a one-way work deliver
 See also:
 
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
+-   [Which workbench should I choose?](Which_workbench_should_I_choose.md)
 -   [Tutorials](Tutorials.md)
 -   [Video tutorials](Video_tutorials.md)
+
+
 
 ## インストール
 
 First of all, download and install FreeCAD. See the [Download](Download.md) page for information on current versions and updates, and the installation instructions for you operating system ([Windows](Installing_on_Windows.md), [Linux](Installing_on_Linux.md) or [Mac](Installing_on_Mac.md)). There are install packages ready for Windows (.msi), Debian and Ubuntu (.deb), openSUSE (.rpm), and Mac OSX. FreeCAD is available from the package managers of many other Linux distributions. A standalone [AppImage](AppImage.md) executable is also available, which will run on most recent 64-bit Linux systems. As FreeCAD is open-source, you can also grab the source code and [compile](Compiling.md) it yourself.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -95,6 +102,8 @@ FreeCADは汎用の3Dモデリングアプリケーションです。機械工�
 
 
 </div>
+
+
 
 ### 3次元空間での操作
 
@@ -183,6 +192,8 @@ A typical workflow with Arch and Draft workbenches might be:
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## [スクリプト](Scripting/ja.md)
@@ -208,6 +219,8 @@ There are two types of addons:
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

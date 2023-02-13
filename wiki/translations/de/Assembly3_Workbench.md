@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Einführung
 
 <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/de.md) ist ein [externer Arbeitsbereich](External_workbenches/de.md), der dem Zusammenbau von verschiedenen Körpern dient, die entweder in einem einzigen oder in mehreren separaten Dokumenten gespeichert sind. Der Arbeitsbereich basiert auf einigen Änderungen der Kernfunktionen, die mit FreeCAD 0.19 eingeführt wurden (z.B. [App-Link](App_Link/de.md)), sodass der Assembly3 Arbeitsbereich nicht mit früheren Versionen verwendet werden kann.
@@ -19,9 +21,19 @@ Die Hauptmerkmale des Assembly3-Arbeitsbereichs sind
 
 [Anfang](#top.md)
 
+### Toolbars
+
+
+<div class="mw-translate-fuzzy">
+
 ### Werkzeugleisten
 
 Seit 2020 enthält der Assembly3-Arbeitsbereich die folgenden Werkzeugleisten.
+
+
+</div>
+
+
 
 #### Hauptwerkzeugleiste
 
@@ -107,6 +119,8 @@ Seit 2020 enthält der Assembly3-Arbeitsbereich die folgenden Werkzeugleisten.
 
 
 </div>
+
+
 
 #### Hauptwerkzeugleiste für Bedingungen 
 
@@ -201,6 +215,8 @@ Seit 2020 enthält der Assembly3-Arbeitsbereich die folgenden Werkzeugleisten.
 
 </div>
 
+
+
 #### Zusatzwerkzeugleisten für Bedingungen 
 
 :   <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width:28px;"> (Assembly3 Constraints2)
@@ -285,9 +301,17 @@ Seit 2020 enthält der Assembly3-Arbeitsbereich die folgenden Werkzeugleisten.
     :   ob 2D / 3D oder ob mehr als 2 Elemente zusammengefügt werden können.
 :   Eine ausführliche Beschreibung ist im GitHub-Wiki zu finden.
 
+#### Navigation Toolbar 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Navigationswerkzeugleiste
 
 :   <img alt="" src=images/Assembly_GotoRelation.svg‎‎  style="width:28px;"> <img alt="" src=images/LinkSelect.svg‎‎  style="width:28px;"> <img alt="" src=images/LinkSelectFinal.svg‎‎  style="width:28px;">
+
+
+</div>
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -309,6 +333,8 @@ Seit 2020 enthält der Assembly3-Arbeitsbereich die folgenden Werkzeugleisten.
 
 
 </div>
+
+
 
 #### Messwerkzeugleiste
 
@@ -345,9 +371,17 @@ Wie gewohnt, kann die Werkzeugleiste geändert und einzelne Werkzeuge hinzugefü
 
 [Anfang](#top.md)
 
+### Constraints
+
+
+<div class="mw-translate-fuzzy">
+
 ### Bedingungen
 
 Der Konstrukteur benutzt Bedingungen um zwei Teile zueinander auszurichten. Die Kunst besteht darin, die Bedingungen zu wählen, die am besten zu den jeweiligen Anforderungen passen. Jeder bestimmte Freiheitsgrad (**D**egree **O**f **F**reedom) sollte theoretisch nur einmal zwischen zwei Objekten festgelegt sein, aber in der Praxis vieler CAD-Werkzeuge erzeugen die ausgewählten Bedingungen überbestimmte Kombinationen, die oft durch komplexe Algorithmen ausgeglichen werden können, manchmal aber auch nicht. Assembly3 benutzt solche Algorithmen, um überzählige Bedingungen zu entdecken und auszugleichen, aber sie sind bisher noch nicht besonders ausgereift. Am besten vermeidet man Schwierigkeiten im Umgang mit Assembly3-Bedingungen, indem man darauf achtet, wieviele Freiheitsgrade schon bestimmt sind und welche durch weitere Bedingungen noch festzulegen sind. Kein Teil sollte durch Bedingungen so verbunden werden, dass mehr als 6 Freiheitsgrade festlegt werden.
+
+
+</div>
 
 Hinweis: Wenn der Gleichungslöser auf eine Kombination trifft, die nicht gelöst werden kann, gibt er eine Fehlermeldung aus. Es ist für den Löser sehr schwierig, die Ursache des Problems herauszufinden, sodass man normalerweise aus dem angegebenen Fehler nicht klar erkennen kann, *wo* sich das Problem befindet. Bei größeren Baugruppen kann dies zu aufwändigen Fehlersuchen führen. Leider gibt es keinen einfachen Weg, diese zu vermeiden. Allerdings hilft es, im Blick zu behalten, wie das System funktioniert (siehe z.B. [Elemente](#Elemente.md) weiter unten), eindeutige Namen für alle beteiligten Komponenten zu verwenden und nur dann weitere Bedingungen hinzuzufügen, wenn der Gleichungslöser die aktuelle Baugruppe erfolgreich berechnen kann. Sehr hilfreich, um ein Problem zu finden, ist die Funktion \"ContexMenu/Deactivate\" der jeweiligen Bedingung.
 
@@ -382,9 +416,17 @@ Other
 
 [Zum Anfang](#top.md)
 
+### Elements
+
+
+<div class="mw-translate-fuzzy">
+
 ### Elemente
 
 Elemente wird in der Assembly3-Arbeitsumgebung als besonderer Begriff benutzt, und Elemente zu verstehen ist wichtig für das Verständnis, wie Assembly3 benutzt werden sollte.
+
+
+</div>
 
 Es ist hilfreich ein Element als einen generellen Begriff für \'auswählbarer Bestandteil\' eines Teiles zu sehen wie z.B. eine Fläche , eine Kante, ein Kreis, eine Ecke oder ein Punkt. Dies sind die Elemente, die ausgewählt werden, um Teile zueinander in Beziehung zu setzen. Im Baum hat ein \'Assembly\'-Ordner drei Unterordner. Neben \'Parts\' und \'Constraints\' gibt es einen Ordner namens \'Elements\', der leer bleibt, solange keine Einschränkungen hinzugefügt werden. Wenn eine Einschränkungen hinzugefügt wird, erhält sie selbst zwei (oder mehr) Blätter, dies sind die ausgewählten Elemente. Auch werden diese Elemente dem \'Elements\'-Ordner hinzugefügt, der eine Liste aller im Zusammenbau benutzten Elemente darstellt. Es ist eine gute Idee, ihre Namen zu ändern (mit der F2-Taste), besonders in größeren Zusammenbauten.
 
@@ -410,6 +452,8 @@ Das Beispiel zeigt, dass man die zur Randbedingung gehörenden Elemente austausc
 
 [Zum Anfang](#top.md)
 
+
+
 ## Kompatibilität
 
 Assembly3 wurde vom [Assembly2](Assembly2_Workbench.md) inspiriert, ist aber nicht mit diesem kompatibel. Wenn du ältere Modelle in Assembly2 erstellt hast, solltest du bei FreeCAD 0.16 bleiben und Assembly2 dort verwenden.
@@ -424,6 +468,11 @@ Obwohl sie möglicherweise ähnliche Werkzeuge haben, ist Assembly3 nicht kompat
 
 Der Arbeitsbereich [Assembly3](Assembly3_Workbench/de.md) ist (seit März 2022) über den [Addon-Manager](Std_AddonMgr/de.md) verfügbar. Jede Abhängigkeit von Assembly3 zu (Modulen von) Drittanbietern sollte automatisch durch den Addon_Manager verwaltet werden.
 
+#### Alternate installations 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Alternative Installationen 
 
 Es gibt 2 alternative Wege Assembly3 zu installieren:
@@ -431,15 +480,29 @@ Es gibt 2 alternative Wege Assembly3 zu installieren:
 -   Eine spezielle Abspaltung von FreeCAD von realthunder; siehe [FreeCAD_assembly3 releases](https://github.com/realthunder/FreeCAD_assembly3/releases). Dieser Fork basiert auf einem bestimmten Commit des Master-Zweiges von FreeCAD, hat aber auch zusätzliche Funktionen, die derzeit im Master-Zweig nicht vorhanden sind. Da dieser Fork auf einem bestimmten Entwicklungs-Snapshot basiert, verfügt er nicht über die neuesten Funktionen, die täglich in den Master-Zweig eingebunden werden.
 -   Das Entwicklungs-[App-Image](AppImage/de.md); dieses basiert auf dem aktuellen Master-Zweig und beinhaltet die Abhängigkeiten, die für die Arbeit mit Assembly3 benötigt werden, wie z.B. den SolveSpace Solver.
 
+
+</div>
+
 Da das App-Image nur unter Linux funktioniert, ist für Windows-Benutzer (die gerne eine alternative Assembly3-Installation hätten) die erste Option die einzige Möglichkeit, Assembly3 zu testen (realthunder\'s fork) .
 
 [Zum Anfang](#top.md)
 
+
+
 ## GewusstWie
+
+### Get Started 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Loslegen
 
 Es gibt viele Wege einen Zusammenbau mit Assembly3 zu erstellen. Hier ist der einfachste, den du machen kannst.
+
+
+</div>
+
 
 :   <img alt="" src=images/Assembly3_Example-GettingStarted.jpg  style="width:600px;">
 :   *Endergebnis des \'Wie man startet\'-Beispiels. In dem Bild ist die Arbeitsumgebung Assembly3 ausgewählt, sodass ihre unterschiedlichen Werkzeugleisten sichtbar sind. Beachte, dass die vertikale \'TabBar\'-Leiste links neben der Baumansicht eine zusätzliche Arbeitsumgebung ist und nicht Bestandteil von Standard-FreeCAD (aber mit dem Addon-Manager installiert werden kann).*
@@ -491,9 +554,17 @@ Wenn du möchtest, kannst du die **Gesperrt** Beschränkung im Baum nach oben ve
 
 [Anfang](#top.md)
 
+### Add an Offset 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Hinzufügen eines Versatzes 
 
 Assembly3 bietet keinen Versatz mit den Beschränkungen, wie es der [A2plus Arbeitsbereich](A2plus_Workbench/de.md) oder andere CAD Werkzeuge tun. Stattdessen bietet er ein allgemeineres und flexibleres System um Versätze, Übersetzungen, aber auch von Winkeln hinzuzufügen.
+
+
+</div>
 
 -   Füge einen Versatz in den Eigenschaften eines [Elemente](#Elemente.md) einer [Beschränkung](#Beschränkung.md) hinzu.
 
@@ -510,9 +581,17 @@ Teste mit anderen Achsen oder den Feldern Winkel/Achse. Prüfe auch , dass du da
 
 [Anfang](#top.md)
 
+### Solve a Solver Failure 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Löse einen Löserfehler 
 
 Dies geschieht häufig, wenn Teile über-beschränkt sind, d.h. mehr als 6 Freiheitsgrade sind gesperrt.
+
+
+</div>
 
 Der einfachste Weg das Problem zu finden, ist das Anklicken der entsprechenden Einschränkungen, die Auswahl von *ContextMenu/Disable* und anschließender Neuberechnung. Es ist hilfreich zu wissen, welche Einschränkungen als letzte hinzugefügt wurden, bevor die Berechnung des Gleichungslösers fehlgeschlagen ist, um diese einfach zurückzunehmen.
 
@@ -520,9 +599,17 @@ Achtung: Da Assembly3 hinter den Kulissen versucht überbestimmte Teile auszugle
 
 [Anfang](#top.md)
 
+### Replace a part or rename a filename 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Ersetze ein Teil oder benenne einen Dateinamen um 
 
 Wenn ein Teil entfernt wird oder wenn sich ein Dateiname ändert, bricht die Baugruppe, sie kann nicht mehr gelöst werden und der Löser gibt die Meldung \"Widersprüchliche Beschränkungen\" aus. Der Löser kennzeichnet ungültige Elemente und Beschränkungen mit einem Fragezeichen im Baum.
+
+
+</div>
 
 Ein Weg, dieses zu lösen ist, einfach alle ungültigen Beschränkungen und Elemente zu löschen, das neue Teil zu importieren und alles neu zu machen. Aber es gibt einen besseren Weg:
 
@@ -559,6 +646,11 @@ Ein Weg, dieses zu lösen ist, einfach alle ungültigen Beschränkungen und Elem
 
 [Zum Anfang](#top.md)
 
+### Tips & Tricks 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Tipps & Tricks 
 
 -   Hierarchisch aufgebaute Zusammenbauten helfen dabei, Probleme des Gleichnungslösers zu vermeiden und das Modell schlank zu halten. Man kann eine Unterbaugruppe mit einem Klick einfrieren und so ohne Aufwand CPU-Resourcen einsparen (Im Kontextmenü des Baumes). Wenn ein Zusammenbau geladen wird, muss Assembly3 die externen Dateien der eingefrorenen Unterbaugruppen nicht öffnen, wodurch der Baum kompakt gehalten wird.
@@ -572,9 +664,14 @@ Ein Weg, dieses zu lösen ist, einfach alle ungültigen Beschränkungen und Elem
 -   Mehrfach verknüpfte Dateien. Wenn man eine Dateiverknüpfung zu einem Zusammenbau hinzufügt, wird eine Eigenschaft \"Element Count\" angelegt mit Standardwert 0. Wenn man diesen auf 3 setzt, erhält man 3 Instanzen dieses Teils. Sie werden in einem Unterordner hinzugefügt und können wie vollständig unabhängige Teile verwendet werden. Diese Einstellung kann genutzt werden, um den Speicherplatzverbrauch der Datei klein zu halten, da das Teil nur einmal gespeichert wird. Die Instanzen enthalten nur die Unterschiede.
 -   Einsetzen mehrfacher Teile, wie z.B. Schrauben, mit einem Klick. Siehe [Assembly3 Wiki](https://github.com/realthunder/FreeCAD_assembly3/wiki/Constraints-and-Solvers) auf der Github-Seite. Dies ist nicht nur eine erstaunliche Funktion (vielleicht ein bisschen magisch), sondern auch sehr sehr nützlich.
 
+
+</div>
+
 -   Die Benutzung der [TabBar-Arbeitsumgebung](https://github.com/triplus/TabBar) beschleunigt die Arbeit mit Zusammenbauten. Es wird eine Werkzeugleiste mit je einem Knopf für jede Arbeitsumgebung hinzugefügt. Man kann die Reihenfolge ändern und man kann die Werkzeugleiste nach belieben platzieren. Veile Leute legen sie vertikal an den linken Rand direkt neben der Baumansicht. Wenn man Assembly3, Part, PartDesign und andere oft genutzte Arbeitsumgebungen am oberen Ende platziert, macht es das Umschalten zwischen den Arbeitsumgebungen extrem einfach.
 
 [Zum Anfang](#top.md)
+
+
 
 ## Verweise
 

@@ -11,7 +11,7 @@ If you need help or have questions related to a particular page of this wiki doc
 
 ## Internet Relay Chat (IRC) 
 
-There is an [IRC #freecad chat room on Freenode](irc://chat.freenode.net/freecad). #openFOAM-IRC is also on Freenode.
+There is an [IRC #freecad chat room on Libera Chat](https://web.libera.chat/#freecad).
 
 ## Reddit
 

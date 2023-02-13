@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:FEM EquationElectrostatic
-   MenuLocation:Solve → Electrostatic equation
+   MenuLocation:Solve → Electromagnetic Equations → Electrostatic equation
    Workbenches:[FEM](FEM_Workbench.md)
    Version:0.19
    SeeAlso:[FEM Electricforce equation](FEM_EquationElectricforce.md), [FEM Example Capacitance Two Balls](FEM_Example_Capacitance_Two_Balls.md)
@@ -16,7 +16,7 @@ For info about the math of the equation, see the [Elmer models manual](http://ww
 ## Usage
 
 1.  After adding an Elmer solver as described [here](FEM_SolverElmer#Equations.md), select it in the [tree view](Tree_view.md).
-2.  Now either use the toolbar button <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> or the menu **Solve → Electrostatic equation**.
+2.  Now either use the toolbar button <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> or the menu **Solve → Electromagnetic Equations → Electrostatic equation**.
 3.  Change the [equation\'s solver settings](#Solver_Settings.md) or the [general solver settings](FEM_SolverElmer_SolverSettings.md) if necessary.
 
 ## Solver Settings 
@@ -27,13 +27,13 @@ The electrostatic equation provides these special settings:
 
 -    **Calculate Capacitance Matrix**: Calculates the capacitance matrix. The matrix contains the the point charges of the mesh knots.
 
--    **Calculate Electric Energy**: Calculates the electric energy.
+-    **Calculate Electric Energy**: Calculates the [electric potential energy](https://en.wikipedia.org/wiki/Electric_potential_energy).
 
--    **Calculate Electric Field**: Calculates the electric field.
+-    **Calculate Electric Field**: Calculates the [electric field](https://en.wikipedia.org/wiki/Electric_field).
 
--    **Calculate Electric Flux**: Calculates the electric flux.
+-    **Calculate Electric Flux**: Calculates the [electric flux](https://en.wikipedia.org/wiki/Electric_flux).
 
--    **Calculate Surface Charge**: Calculates the surface charge.
+-    **Calculate Surface Charge**: Calculates the [surface charge](https://en.wikipedia.org/wiki/Surface_charge).
 
 -    **Capacitance Matrix Filename**: File in which the capacitance matrix is being saved. It is only used if **Calculate Capacitance Matrix** is set to *true*.
 
@@ -45,8 +45,8 @@ The electrostatic equation provides these special settings:
 
 The electrostatic equation takes the following constraints into account if they are set:
 
--   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Electrostatic potential constraint](FEM_ConstraintElectrostaticPotential.md)
--   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md)
+-   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [Electrostatic potential constraint](FEM_ConstraintElectrostaticPotential.md)
+-   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:24px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md)
 
 ### Note
 

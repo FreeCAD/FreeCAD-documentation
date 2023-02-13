@@ -18,7 +18,11 @@ Les transformations disponibles sont : <img alt="lien=PartDesign_Mirrored/fr" sr
 <img alt="" src=images/multitransform_example.png  style="width:600px;"> 
 *Une transformation de trous créée à partir d'une seule fonction trou en appliquant une transformation linéaire à 2 occurrences, suivi d'une transformation circulaire à 8 occurrences.*
 
+
+
 ## Utilisation
+
+
 
 ### Créer
 
@@ -32,24 +36,28 @@ Les transformations disponibles sont : <img alt="lien=PartDesign_Mirrored/fr" sr
 6.  Le [Panneau des tâches](Task_panel/fr.md) **Paramètres de la transformation multiple** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 7.  Appuyez sur le bouton **OK** pour terminer.
 
-### Éditer
+
+
+### Modifier
 
 1.  Effectuez l\'une des opérations suivantes :
-    -   Double-cliquez sur l\'objet Mirrored dans la [Vue en arborescence](Tree_view/fr.md).
-    -   Cliquez avec le bouton droit de la souris sur l\'objet MultiTransform dans la [Vue en arborescence](Tree_view/fr.md) et sélectionnez **Modifier la transformation multiple** dans le menu contextuel.
-2.  Le [Panneau des tâches](Task_panel/fr.md) des **Paramètres de la transformation multiple** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+    -   Double-cliquez sur l\'objet MultiTransform dans la [vue en arborescence](Tree_view/fr.md).
+    -   Cliquez avec le bouton droit de la souris sur l\'objet MultiTransform dans la [vue en arborescence](Tree_view/fr.md) et sélectionnez **Modifier la transformation multiple** dans le menu contextuel.
+2.  Le [panneau des tâches](Task_panel/fr.md) des **Paramètres de la transformation multiple** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Appuyez sur le bouton **OK** pour terminer.
+
+
 
 ### Combiner des transformations existantes 
 
 Il est possible de créer un objet MultiTransform à partir de transformations existantes [Symétrie](PartDesign_Mirrored/fr.md), [Répétition linéaire](PartDesign_LinearPattern/fr.md) et [Répétition circulaire](PartDesign_PolarPattern/fr.md)
 
 1.  Vérifiez la propriété **Originals** des transformations existantes pour vous assurer qu\'elles ont été appliquées aux mêmes fonctions.
-2.  Sélectionnez ces fonctions dans la [Vue en arborescence](Tree_view/fr.md).
+2.  Sélectionnez ces fonctions dans la [vue en arborescence](Tree_view/fr.md).
 3.  Il y a plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/PartDesign_MultiTransform.svg" width=16px> [Transformation multiple ](PartDesign_MultiTransform/fr.md)**.
     -   Sélectionnez l\'option **Part Design → Appliquer une transformation → <img src="images/PartDesign_MultiTransform.svg" width=16px> Transformation multiple** dans le menu.
-4.  Le [Panneau des tâches](Task_panel/fr.md) de **Paramètres de la transformation multiple** s\'ouvre.
+4.  Le [panneau des tâches](Task_panel/fr.md) de **Paramètres de la transformation multiple** s\'ouvre.
 5.  Appuyez sur le bouton {{button|OK}} en haut.
 6.  Modifiez la propriété **Tranformations** de l\'objet MultiTransform créé :
     1.  Cliquez dans le champ.
@@ -57,7 +65,7 @@ Il est possible de créer un objet MultiTransform à partir de transformations e
     3.  La boîte de dialogue **Lien** s\'ouvre.
     4.  Maintenez la touche **Ctrl** enfoncée et sélectionnez les transformations existantes.
     5.  Appuyez sur le bouton **OK**.
-7.  Eventuellement, [Editer](#.C3.89diter.md) l\'objet MultiTransform, voir ci-dessus.
+7.  Vous pouvez [Modifier](#Modifier.md) l\'objet MultiTransform, voir ci-dessus.
 
 ## Options
 
@@ -113,6 +121,8 @@ Il est possible de créer un objet MultiTransform à partir de transformations e
 ## Limitations
 
 Voir [PartDesign Répétition circulaire](PartDesign_PolarPattern/fr#Limitations.md).
+
+
 
 ## Exemple
 

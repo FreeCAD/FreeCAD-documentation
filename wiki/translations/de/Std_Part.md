@@ -1,14 +1,16 @@
 ---
 - GuiCommand:/de
    Name:Std Part
-   Name/de:Std Baugruppe
-   MenuLocation:None
-   Workbenches:All
+   Name/de:Std Teil
+   MenuLocation:Keine
+   Workbenches:Alle
    Version:0.17
    SeeAlso:[Std Gruppe](Std_Group/de.md), [PartDesign Körper](PartDesign_Body/de.md)
 ---
 
 # Std Part/de
+
+
 
 ## Beschreibung
 
@@ -21,7 +23,7 @@ Das \'Std Part\'-Element wurde entwickelt, um als Grundbaustein zur Zusammenstel
 
 Obwohl es hauptsächlich für Festkörper gedacht ist, kann das \'Std Part\' zur Handhabung aller Objekte verwendet werden, die die Eigenschaft [Placement](Placement/de.md) besitzen. Daher kann es auch [Mesh Formelemente](Mesh_Feature/de.md), [Skizzen](Sketch/de.md) und andere Objekte enthalten, die von der Klasse [App-GeoFeature](App_GeoFeature/de.md) abgeleitet werden.
 
-Die **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Körper](PartDesign_Body/de.md)**-Schaltfläche darf nicht mit der **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/de.md)**-Schaltfläche verwechselt werden. Das erste ist ein entsprechendes Objekt aus dem <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md), um ein [einzeln zusammenhängenden Körper](PartDesign_Body/de#Einzeln_zusammenhängender_Körper.md) als [PartDesign Formelemente](PartDesign_Feature/de.md) zu erstellen. Beim anderen wird [Standard Teil](Std_Part/de.md) nicht zur Erstellung von Objekten verwendet, sondern um unterschiedliche Objekte zur Erzeugung von [Baugruppen](assembly/de.md) im Raum zu positionieren.
+Ein **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Körper](PartDesign_Body/de.md)** darf nicht mit einem **[<img src=images/Std_Part.svg style="width:16px"> [Std Teil](Std_Part/de.md)** verwechselt werden. Das erste ist ein entsprechendes Objekt aus dem Arbeitsbereich <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md), zum Erstellen [einteiliger, zusammenhängender Festkörper](PartDesign_Body/de#Einzeln_zusammenhängender_Körper.md) aus [PartDesign Formelementen](PartDesign_Feature/de.md). Das [Std Teil](Std_Part/de.md) wird im Gegensatz dazu nicht zur Erstellung von Objekten verwendet, sondern um unterschiedliche Objekte im Raum anzuordnen, mit der Absicht [Baugruppen](assembly/de.md) zu erstellen.
 
 Das Werkzeug **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/de.md)** wird nicht durch einen bestimmten Arbeitsbereich festgelegt, sondern durch das Grundsystem. Daher befindet es sich in der **structure toolbar**, die es in allen [Arbeitsbereichen](Workbenches/de.md) gibt. Mit der Schaltfläche **[<img src=images/Std_Group.svg style="width:16px"> [Std Gruppe](Std_Group/de.md)** können Objekte in der Baumansicht frei gruppiert werden, ohne ihre Position zu berücksichtigen. Dieses Objekt beeinflußt die Positionen seiner Elemente nicht. Es ist im wesentlichen nur ein Ordner mit dem die [Baumansicht](Tree_view/de.md) geordnet werden kann.
 
@@ -29,7 +31,9 @@ Das Werkzeug **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_
 
 
 
-*Links: Elemente innerhalb eines 'Std Part's in der [Baumansicht](Tree_view/de.md). Rechts: Objekte im Raum positioniert, bezogen auf den Ursprung von 'Std Part'.*
+*Links: Elemente innerhalb eines Std Teils (Part-Objekt) in der [Baumansicht](Tree_view/de.md). Rechts: Objekte im Raum positioniert, bezogen auf den Ursprung des Std Teils.*
+
+
 
 ## Anwendung
 
@@ -39,16 +43,22 @@ Das Werkzeug **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_
 4.  Um Objekte aus einem Teil zu entfernen, zieht man es per Drag & Drop aus dem Teil auf die Dokumentenbeschriftung oben in der [Baumansicht](Tree_view/de.md).
 5.  Objekte können durch Bearbeiten der {{PropertyData/de|Group}} Teileigenschaft auch hinzugefügt oder entfernt werden.
 
+
+
 ## Hinweise
 
--   Ein Objekt kann nur zu einer einzigen Baugruppe gehören.
--   3D-Bearbeitungen, wie [Part Boolean](Part_Boolean/de.md) können nicht auf Teile angewendet werden. Beispielsweise können keine zweit Teile markiert und [Part Vereinigung](Part_Fuse/de.md) oder [Part Differenz](Part_Cut/de.md) angewendet werden.
+-   Ein Objekt kann nur zu einem einzigen Std Teil (Baugruppe) gehören.
+-   3D-Bearbeitungen, wie [Part Boolean](Part_Boolean/de.md) können nicht auf Std Teile angewendet werden. Beispielsweise können keine zweit Std Teile markiert und [Part Vereinigung](Part_Fuse/de.md) oder [Part Differenz](Part_Cut/de.md) angewendet werden.
+
+
 
 ## Eigenschaften
 
-Ein [Std Teil](Std_Part/de.md) wird intern [App Part](App_Part.md)(`App::Part` Klasse) genannt und stammt aus einer [App GeoFeature](App_GeoFeature/de.md) (`App::GeoFeature` Klasse) und erbt alle Eigenschaften. Sie hat weitere, zusätzliche Eigenschaften, vor allem Eigenschaften die ihr helfen Informationen im Zusammenhang einer Baugruppe / eines Zusammenbaus zu verwalten, z.B. die Eigenschaften **Type**, **Id**, **License**, **LicenseURL** und **Group**.
+Ein [Std Teil](Std_Part/de.md) wird intern [App Part](App_Part/de.md)(Klasse `App::Part`) genannt und ist von einem [App GeoFeature](App_GeoFeature/de.md) (Klasse `App::GeoFeature`) abgeleitet und erbt alle seiner Eigenschaften. Es hat weitere zusätzliche Eigenschaften, vor allem Eigenschaften die ihm helfen, Informationen im Zusammenhang mit Baugruppen/Zusammenbauten zu verwalten, z.B. die {{PropertyData/de|Type}}, {{PropertyData/de|Id}}, {{PropertyData/de|License}}, {{PropertyData/de|LicenseURL}} und {{PropertyData/de|Group}}.
 
-Diese Eigenschaften stehen im [Eigenschaftseditor](property_editor/de.md) zur Verfügung. Versteckte Eigenschaften werden durch den Befehl **Alle anzeigen** im Kontextmenü des [Eigenschaftseditors](property_editor/de.md) angezeigt.
+Diese Eigenschaften stehen im [Eigenschafteneditor](property_editor/de.md) zur Verfügung. Versteckte Eigenschaften werden durch den Befehl **Alle anzeigen** im Kontextmenü des [Eigenschafteneditors](property_editor/de.md) angezeigt.
+
+
 
 ### Daten
 
@@ -92,6 +102,8 @@ Diese Eigenschaften stehen im [Eigenschaftseditor](property_editor/de.md) zur Ve
 
 </div>
 
+
+
 ### Ansicht
 
 
@@ -110,7 +122,11 @@ Diese Eigenschaften stehen im [Eigenschaftseditor](property_editor/de.md) zur Ve
 
 -    **Selection Style|Enumeration**: {{value|Shape}} (default), {{value|BoundBox}}. If the option is {{value|Shape}}, the entire shape (vertices, edges, and faces) will be highlighted in the [3D view](3D_view.md); if it is {{value|BoundBox}} only the bounding box will be highlighted.
 
+
+
 ## Detaillierte Beschreibung 
+
+
 
 ### Aktiver Status 
 
@@ -127,9 +143,11 @@ Eine Zusammenstellung aktivieren oder deaktivieren:
 
 *Dokument mit zwei Std Teilen, in der das zweite aktiv ist.*
 
+
+
 ### Ursprung
 
-Der Ursprung besteht aus den drei Standardachsen (X, Y, Z) und drei Standardebenen (XY, XZ und YZ). An diese können [Skizzen](Sketch/de.md) und andere Ojekte angehängt werden, wenn sie erstellt werden.
+Der Ursprung besteht aus den drei Standardachsen (X, Y, Z) und drei Standardebenen (XY, XZ und YZ). An diese können [Skizzen](Sketch/de.md) und andere Objekte angehängt werden, wenn sie erstellt werden.
 
 ![](images/Part_Origin_tree.png ) ![](images/Part_Origin_view.png )
 
@@ -140,19 +158,23 @@ Der Ursprung besteht aus den drei Standardachsen (X, Y, Z) und drei Standardeben
 
 **Hinweis:**
 
-der Ursprung ist ein [App-Origin](App_OriginGroupExtension/de.md)-Objekt (`App::OriginGroupExtension` Klasse), während die Achsen und Ebenen Objekte des Typs `App::Line` bzw. `App::Plane` sind. Jedes dieser Elemente kann mit der **Leertaste** individuell versteckt und wieder angezeigt werden. Damit kann sicher die korrekte Referenz gewählt werden, wenn andere Objekte erzeugt werden.
+der Ursprung ist ein [App-Origin](App_OriginGroupExtension/de.md)-Objekt (Klasse `App::OriginGroupExtension`), während die Achsen und Ebenen Objekte des Typs `App::Line` bzw. `App::Plane` sind. Jedes dieser Elemente kann mit der **Leertaste** individuell ausgeblendet und wieder angezeigt werden. Damit kann sicher die korrekte Referenz gewählt werden, wenn andere Objekte erzeugt werden.
 
 
 **Hinweis 2:**
 
-alle Elemente innerhalb einer Zusammenstellung beziehen sich auf den Ursprung der Zusammenstellung. Das bedeutet, dass die Zusammenstellung bezogen auf das globale Koordinatensystem verschoben oder gedreht werden kann, ohne Auswirkung auf die Positionierung der Elemente in der Zusammenstellung.
+alle Elemente innerhalb einer Baugruppe beziehen sich auf den Ursprung der Baugruppe. Das bedeutet, dass die Baugruppe bezogen auf das globale Koordinatensystem verschoben oder gedreht werden kann, ohne die Positionierung der Elemente innerhalb der Baugruppe zu beeinflussen.
+
+
 
 ### Anzeigeverwaltung
 
-Die Sichtbarkeit der Zusammenstellung verdrängt die Sichtbarkeit jedes darin enthaltenen Objekts. Wenn die Zusammenstellung ausgeblendet ist, werden auch die darin enthaltenen Objekte ausgeblendet, auch wenn ihre jeweilige Eigenschaft **Sichtbarkeit** auf `True` (wahr) gesetzt ist. Ist die Zusammenstellung sichtbar, entscheidet die Eigenschaft **Sichtbarkeit** jedes Objektes, ob das Objekt angezeigt wird oder nicht.
+Die Sichtbarkeit der Baugruppe überlagert die Sichtbarkeit jedes darin enthaltenen Objekts. Wenn die Baugruppe ausgeblendet ist, werden auch die darin enthaltenen Objekte ausgeblendet, auch wenn ihre jeweilige {{PropertyView/de|Sichtbarkeit}} auf `True` (wahr) gesetzt ist. Ist die Baugruppe sichtbar, entscheidet die {{PropertyView/de|Sichtbarkeit}} des jeweiligen Objekts, ob das Objekt angezeigt wird oder nicht.
 
 ![](images/Part_Visibility_off.png ) ![](images/Part_Visibility_on.png ) 
-*Die Sichtbarkeitseigenschaft von 'Std Part' entscheidet, ob die Objekte, die unter der Zusammenstellung zusammengestellt sind, in der [3D-Ansicht](3D_view/de.md) angezeigt werden oder nicht. Links: die Zusammenstellung ist verborgen und keines der Objekte wird in der [3D-Ansicht](3D_view/de.md) angezeigt. Rechts: die Zusammenstellung ist sichtbar und jedes Objekt kontrolliert seine Sichtbarkeit selbst.*
+*Die Sichtbarkeit des Std Teils (Part-Objekt) bestimmt, ob die Objekte, die in der Baugruppe zusammengestellt sind, in der [3D-Ansicht](3D_view/de.md) angezeigt werden oder nicht. Links: die Baugruppe ist ausgeblendet und keines der Objekte wird in der [3D-Ansicht](3D_view/de.md) angezeigt. Rechts: die Baugruppe ist sichtbar und jedes Objekt bestimmt seine Sichtbarkeit selbst.*
+
+
 
 ## Skripten
 
@@ -161,15 +183,9 @@ Die Sichtbarkeit der Zusammenstellung verdrängt die Sichtbarkeit jedes darin en
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md) und [Skriptgenerierte Objekte](Scripted_objects/de.md).
 
-Zu allgemeinen Informationen zum Hinzufügen von Objekten in das Dokument, siehe [Part Formelement](Part_Feature/de.md).
+Siehe [Part Formelement](Part_Feature/de.md) für allgemeine Informationen zum Hinzufügen von Objekten zu einem Dokument.
 
-
-<div class="mw-translate-fuzzy">
-
-Eine \'Std Part\' ([Anwendung Teil](App_Part/de.md))-Zusammenstellung wird mit der `addObject()`-Methode des Dokumentes erstellt. Sobald eine Zusammenstellung existiert, können andere Objekte mit der `addObject()`- oder der `addObjects()`-Methode der Zusammenstellung hinzugefügt werden.
-
-
-</div>
+Ein Std Teil ([App Part](App_Part/de.md)) wird mit der Methode `addObject()` des Dokuments erstellt. Sobald eine Baugruppe (Part-Objekt) existiert, können andere Objekte mit den Methoden `addObject()` oder `addObjects()` zur Baugruppe hinzugefügt werden.
 
 
 ```python
@@ -185,7 +201,7 @@ part.addObjects([obj1, obj2])
 App.ActiveDocument.recompute()
 ```
 
-Ein mit einem Skript erzeugtes `App::Part` kann nicht erstellt werden. Es kann aber ein `App::Part`-Verhalten zu einem mit einem Skript erzeugten `Part::FeaturePython`-Objekt durch folgenden Codes hinzugefügt werden:
+Es kann kein skriptgeneriertes `App::Part` erstellt werden. Es kann aber das Verhalten eines `App::Parts` zu einem skriptgenerierten `Part::FeaturePython`-Objekt durch folgende Codes hinzugefügt werden:
 
 
 ```python

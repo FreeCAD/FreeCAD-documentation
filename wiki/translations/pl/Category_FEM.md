@@ -27,18 +27,19 @@ This category lists pages related to the [FEM Workbench/pl](FEM_Workbench/pl.md)
 | [FEM MaterialSolid/pl](wiki/FEM MaterialSolid/pl.md) | [FEM Mesh CalculiX/pl](wiki/FEM Mesh CalculiX/pl.md) | [FEM Mesh/pl](wiki/FEM Mesh/pl.md) |
 | [FEM MeshBoundaryLayer/pl](wiki/FEM MeshBoundaryLayer/pl.md) | [FEM MeshClear/pl](wiki/FEM MeshClear/pl.md) | [FEM MeshDisplayInfo/pl](wiki/FEM MeshDisplayInfo/pl.md) |
 | [FEM MeshGmshFromShape/pl](wiki/FEM MeshGmshFromShape/pl.md) | [FEM MeshGroup/pl](wiki/FEM MeshGroup/pl.md) | [FEM MeshNetgenFromShape/pl](wiki/FEM MeshNetgenFromShape/pl.md) |
-| [FEM MeshRegion/pl](wiki/FEM MeshRegion/pl.md) | [FEM PostApplyChanges/pl](wiki/FEM PostApplyChanges/pl.md) | [FEM PostCreateFunctions/pl](wiki/FEM PostCreateFunctions/pl.md) |
-| [FEM PostFilterClipRegion/pl](wiki/FEM PostFilterClipRegion/pl.md) | [FEM PostFilterClipScalar/pl](wiki/FEM PostFilterClipScalar/pl.md) | [FEM PostFilterCutFunction/pl](wiki/FEM PostFilterCutFunction/pl.md) |
-| [FEM PostFilterDataAlongLine/pl](wiki/FEM PostFilterDataAlongLine/pl.md) | [FEM PostFilterDataAtPoint/pl](wiki/FEM PostFilterDataAtPoint/pl.md) | [FEM PostFilterLinearizedStresses/pl](wiki/FEM PostFilterLinearizedStresses/pl.md) |
-| [FEM PostFilterWarp/pl](wiki/FEM PostFilterWarp/pl.md) | [FEM PostPipelineFromResult/pl](wiki/FEM PostPipelineFromResult/pl.md) | [FEM Preferences/pl](wiki/FEM Preferences/pl.md) |
-| [FEM ResultShow/pl](wiki/FEM ResultShow/pl.md) | [FEM ResultsPurge/pl](wiki/FEM ResultsPurge/pl.md) | [FEM Shear of a Composite Block/pl](wiki/FEM Shear of a Composite Block/pl.md) |
-| [FEM Solver/pl](wiki/FEM Solver/pl.md) | [FEM SolverCalculiX/pl](wiki/FEM SolverCalculiX/pl.md) | [FEM SolverCalculixCxxtools/pl](wiki/FEM SolverCalculixCxxtools/pl.md) |
-| [FEM SolverControl/pl](wiki/FEM SolverControl/pl.md) | [FEM SolverElmer SolverSettings/pl](wiki/FEM SolverElmer SolverSettings/pl.md) | [FEM SolverElmer/pl](wiki/FEM SolverElmer/pl.md) |
-| [FEM SolverMystran/pl](wiki/FEM SolverMystran/pl.md) | [FEM SolverRun/pl](wiki/FEM SolverRun/pl.md) | [FEM SolverZ88/pl](wiki/FEM SolverZ88/pl.md) |
-| [Template:FEM Tools navi/pl](wiki/Template_FEM Tools navi/pl.md) | [FEM Tutorial Python/pl](wiki/FEM Tutorial Python/pl.md) | [FEM tutorial/pl](wiki/FEM tutorial/pl.md) |
-| [FEM Workbench/pl](wiki/FEM Workbench/pl.md) | [IfcOpenShell/pl](wiki/IfcOpenShell/pl.md) | [IfcPlusPlus/pl](wiki/IfcPlusPlus/pl.md) |
-| [Mesh/pl](wiki/Mesh/pl.md) | [Onboarding FEM Devs/pl](wiki/Onboarding FEM Devs/pl.md) | [Post-Processing of FEM Results with Paraview/pl](wiki/Post-Processing of FEM Results with Paraview/pl.md) |
-| [Transient FEM analysis/pl](wiki/Transient FEM analysis/pl.md) |
+| [FEM MeshRegion/pl](wiki/FEM MeshRegion/pl.md) | [FEM PostApplyChanges/pl](wiki/FEM PostApplyChanges/pl.md) | [FEM PostCreateFunctionPlane/pl](wiki/FEM PostCreateFunctionPlane/pl.md) |
+| [FEM PostCreateFunctions/pl](wiki/FEM PostCreateFunctions/pl.md) | [FEM PostCreateFunctionSphere/pl](wiki/FEM PostCreateFunctionSphere/pl.md) | [FEM PostFilterClipRegion/pl](wiki/FEM PostFilterClipRegion/pl.md) |
+| [FEM PostFilterClipScalar/pl](wiki/FEM PostFilterClipScalar/pl.md) | [FEM PostFilterCutFunction/pl](wiki/FEM PostFilterCutFunction/pl.md) | [FEM PostFilterDataAlongLine/pl](wiki/FEM PostFilterDataAlongLine/pl.md) |
+| [FEM PostFilterDataAtPoint/pl](wiki/FEM PostFilterDataAtPoint/pl.md) | [FEM PostFilterLinearizedStresses/pl](wiki/FEM PostFilterLinearizedStresses/pl.md) | [FEM PostFilterWarp/pl](wiki/FEM PostFilterWarp/pl.md) |
+| [FEM PostPipelineFromResult/pl](wiki/FEM PostPipelineFromResult/pl.md) | [FEM Preferences/pl](wiki/FEM Preferences/pl.md) | [FEM ResultShow/pl](wiki/FEM ResultShow/pl.md) |
+| [FEM ResultsPurge/pl](wiki/FEM ResultsPurge/pl.md) | [FEM Shear of a Composite Block/pl](wiki/FEM Shear of a Composite Block/pl.md) | [FEM Solver/pl](wiki/FEM Solver/pl.md) |
+| [FEM SolverCalculiX/pl](wiki/FEM SolverCalculiX/pl.md) | [FEM SolverCalculixCxxtools/pl](wiki/FEM SolverCalculixCxxtools/pl.md) | [FEM SolverControl/pl](wiki/FEM SolverControl/pl.md) |
+| [FEM SolverElmer SolverSettings/pl](wiki/FEM SolverElmer SolverSettings/pl.md) | [FEM SolverElmer/pl](wiki/FEM SolverElmer/pl.md) | [FEM SolverMystran/pl](wiki/FEM SolverMystran/pl.md) |
+| [FEM SolverRun/pl](wiki/FEM SolverRun/pl.md) | [FEM SolverZ88/pl](wiki/FEM SolverZ88/pl.md) | [Template:FEM Tools navi/pl](wiki/Template_FEM Tools navi/pl.md) |
+| [FEM Tutorial Python/pl](wiki/FEM Tutorial Python/pl.md) | [FEM tutorial/pl](wiki/FEM tutorial/pl.md) | [FEM Workbench/pl](wiki/FEM Workbench/pl.md) |
+| [IfcOpenShell/pl](wiki/IfcOpenShell/pl.md) | [IfcPlusPlus/pl](wiki/IfcPlusPlus/pl.md) | [Mesh/pl](wiki/Mesh/pl.md) |
+| [Onboarding FEM Devs/pl](wiki/Onboarding FEM Devs/pl.md) | [Post-Processing of FEM Results with Paraview/pl](wiki/Post-Processing of FEM Results with Paraview/pl.md) | [Transient FEM analysis/pl](wiki/Transient FEM analysis/pl.md) |
+|
 
 
 

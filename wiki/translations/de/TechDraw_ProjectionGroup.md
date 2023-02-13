@@ -9,6 +9,8 @@
 
 # TechDraw ProjectionGroup/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:24px;"> [Ansichtengruppe](TechDraw_ProjectionGroup/de.md) erstellt eine Mehrtafelprojektion eines oder mehrerer 3D-Objekte (Siehe [Normalprojektion](https://de.wikipedia.org/wiki/Normalprojektion)). Die isometrischen Ansichten der vier Frontecken können ebenfalls enthalten sein.
@@ -17,6 +19,8 @@ Soll nur eine einzige Ansicht erzeugt werden, bringt die Verwendung von Ansichte
 
 <img alt="" src=images/TechDraw_ProjGroup_example.png  style="width:400px;"> 
 *Drei orthogonale Ansichten und eine isometrische Ansicht eines Festkörperobjekts*
+
+
 
 ## Anwendung
 
@@ -38,12 +42,16 @@ Soll nur eine einzige Ansicht erzeugt werden, bringt die Verwendung von Ansichte
 ![](images/TaskProjGroup.png ) 
 *[Aufgabenbereich](Task_panel/de.md) Ansichtengruppe. Das Feld ''Anpassen der Hauptrichtung'' zeigt die aktuelle Blickrichtung an.*
 
+
+
 ## Eigenschaften
 
-### Data
 
 
-{{TitleProperty|Base}}
+### Daten
+
+
+{{TitleProperty|Basis}}
 
 -    **Source|LinkList**: Links to the drawable objects to be depicted.
 
@@ -72,11 +80,13 @@ For the other properties in this group see [TechDraw View](TechDraw_View#Propert
 ### View
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Basis}}
 
-See [TechDraw View](TechDraw_View#Properties.md).
+Siehe [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
 
-## Notes
+
+
+## Hinweise
 
 Die Ansichtengruppe als Ganzes erbt X, Y, Scale Type, Scale und Rotation aus der Basisansicht.
 
@@ -86,11 +96,13 @@ Die Eigenschaft RotationVector einzelner Ansichten innerhalb der Gruppe ist vera
 
 Beachte, dass der mittlere Kasten die aktuelle Projektionsrichtung der primären Ansicht anzeigt. Sie kann nicht dazu benutzt werden, die Richtung zu ändern.
 
+
+
 ## Skripten
 
 Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das NeueProjGruppe Werkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md) Konsole aus verwendet werden. Ein vollständiges Skript ist in der Quellverteilung in \"source-dir/src/Mod/TechDraw/TDTest/DProjGroupTest.py\" verfügbar.
+Das Werkzeug Ansichtengruppe kann in [Makros](Macros/de.md) und von der [Python](Python/de.md) Konsole aus verwendet werden. Ein vollständiges Skript ist im Installationspaket im Verzeichnis \"source-dir/src/Mod/TechDraw/TDTest/DProjGroupTest.py\" enthalten.
 
 
 ```python

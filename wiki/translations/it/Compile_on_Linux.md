@@ -574,7 +574,7 @@ E facoltativamente:
 -   python3-markdown (affinché Addon Manager visualizzi il markdown nativo)
 -   python3-GitPython (affinché Addon Manager utilizzi git per il checkout e l\'aggiornamento di workbench e macro)
 
-Per installare tutte le dipendenze contemporaneamente (testato su fedora 36):
+Per installare tutte le dipendenze contemporaneamente (testato su fedora 36 e 37):
 
 
 {{Code|lang=bash|code=

@@ -537,6 +537,8 @@ Para hacer que la ubicación del \"Boceto\" sea la misma que la del \"Cilindro\"
 
 **NOTE:** It\'s also possible to *create* Placement objects in expressions. See the [Expressions](Expressions#Placement.md) page for details.
 
+
+
 ## Notas
 
 
@@ -567,13 +569,23 @@ Para hacer que la ubicación del \"Boceto\" sea la misma que la del \"Cilindro\"
   Part.Torus                       center of the torus
   Features derived from Sketches   the Feature inherits the Position of the underlying Sketch. Sketches always start with Position = (0,0,0). This position corresponds to the origin in the sketch.
 
+
+
 ## Otros
 
 -   La Ubicación relativa de los objetos será tratada con posterioridad en el banco de trabajo Assembly (Ensamblaje).
 
+
+
 ## Más
 
+
+<div class="mw-translate-fuzzy">
+
 -   Este tutorial: [Aeroplano](Aeroplane/es.md) abarca los mecanismos del cambio de ubicación de un objeto extensivamente.
+
+
+</div>
 
 
 

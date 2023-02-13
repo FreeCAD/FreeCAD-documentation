@@ -67,7 +67,7 @@ The objects used in this electrostatic analysis:
 3.  <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> Electrostatic, the electrostatics equation
 4.  <img alt="" src=images/FEM_MaterialFluid.svg  style="width:24px;"> FemMaterial, a fluid material to represent the surrounding air
 5.  <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> ElectrostaticPotential, constraints (3 of them)
-6.  <img alt="" src=images/Fem-thermomechanical-analysis.svg  style="width:24px;"> ConstantVaccumPermittivity, optional
+6.  <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:24px;"> ConstantVaccumPermittivity, optional
 7.  <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:24px;"> Mesh, a [Gmsh](FEM_MeshGmshFromShape.md) mesh
 8.  <img alt="" src=images/FEM_MeshRegion.svg  style="width:24px;"> MeshRegion, a mesh region for the smaller spheres
 
@@ -98,11 +98,11 @@ If you get an error message on solver binary or similar when triggering the anal
 
 -   While we have successfully visualised the potential result, currently we are only seeing the zero potential in the air surrounding the two balls. To view the potential on the balls we need to apply a [clip filter](FEM_PostFilterClipRegion.md).
 -   In the tree view select the <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> SolverElmerResult object and then from the tool bar click on the button **<img src="images/FEM_PostFilterClipRegion.svg" width=20px> Region Clip Filter**.
--   This will open a dialog with the filter configurations. Click there on the button **<img src="images/list-add.svg" width=16px> Create** and choose <img alt="" src=images/Fem-post-geo-plane.svg  style="width:24px;"> Plane. This adds a plane through the center of the sphere at which the result mesh is cut. To smooth the cut face, check the option **Cut Cells**. Eventually click **Apply**.
+-   This will open a dialog with the filter configurations. Click there on the button **<img src="images/list-add.svg" width=16px> Create** and choose <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> Plane. This adds a plane through the center of the sphere at which the result mesh is cut. To smooth the cut face, check the option **Cut Cells**. Eventually click **Apply**.
 
 <img alt="" src=images/Two_balls_postcreate.png  style="width:300px;">
 
--   In the tree view there is a new entry called Functions. It contains the created <img alt="" src=images/Fem-post-geo-plane.svg  style="width:24px;"> Plane. Make it invisible using **Space**.
+-   In the tree view there is a new entry called Functions. It contains the created <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> Plane. Make it invisible using **Space**.
 -   Double-click on the <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:24px;"> Clip object in the tree view.
 -   Change the \"Field\" to \"potential\" and press **OK**.
 -   Toggle the visibility of the <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> SolverElmerResult object using **Space** and you should see something like this:

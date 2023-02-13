@@ -10,6 +10,8 @@
 
 # Std Part/ru
 
+
+
 ## Описание
 
 
@@ -31,6 +33,8 @@ The **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)*
 
 *Left: elements inside a Std Part in the [Tree view](Tree_view.md). Right: objects positioned in space, referred to the Origin of the Std Part.*
 
+
+
 ## Применение
 
 1.  Press the **[<img src=images/Std_Part.svg style="width:16px"> [Create part](Std_Part.md)** button.
@@ -38,6 +42,8 @@ The **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)*
 3.  To add objects to the Part, select them in [Tree view](Tree_view.md), and drag and drop them onto the Part.
 4.  To remove objects from the Part, drag them out of the Part, and onto the document label at the top of the [Tree view](Tree_view.md).
 5.  Objects can also be added and removed by editing the **Group** property of the Part.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -50,11 +56,15 @@ The **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)*
 -   An object can only belong to a single Part.
 -   3D operations like [Part Boolean](Part_Boolean.md) cannot be applied to Parts. For example, you cannot select two Parts, and perform a [Part Fuse](Part_Fuse.md) or [Part Cut](Part_Cut.md).
 
+
+
 ## Свойства
 
 The [Std Part](Std_Part.md), internally called [App Part](App_Part.md) (`App::Part` class), is derived from the [App GeoFeature](App_GeoFeature.md) (`App::GeoFeature` class) and inherits all its properties. It also has several additional properties. Notably properties that help it manage information in the context of an assembly, for example, **Type**, **Id**, **License**, **LicenseURL** and **Group**.
 
 These are the properties available in the [property editor](Property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](Property_editor.md).
+
+
 
 ### Данные
 
@@ -108,6 +118,8 @@ These are the properties available in the [property editor](Property_editor.md).
 
 -    **_ Group Touched|Bool|Hidden**: whether the group is touched or not.
 
+
+
 ### Вид
 
 
@@ -126,7 +138,11 @@ These are the properties available in the [property editor](Property_editor.md).
 
 -    **Selection Style|Enumeration**: {{value|Shape}} (default), {{value|BoundBox}}. If the option is {{value|Shape}}, the entire shape (vertices, edges, and faces) will be highlighted in the [3D view](3D_view.md); if it is {{value|BoundBox}} only the bounding box will be highlighted.
 
+
+
 ## Подробное описание 
+
+
 
 ### Активное состояние 
 
@@ -142,6 +158,8 @@ To activate or de-activate a Part:
 
 
 *Document with two Std Parts, of which the second one is active.*
+
+
 
 ### Начало координат 
 
@@ -169,6 +187,8 @@ The Part\'s visibility supersedes the visibility of any object it contains. If t
 
 ![](images/Part_Visibility_off.png ) ![](images/Part_Visibility_on.png ) 
 *The visibility of the Std Part determines whether the objects grouped under it are shown in the [3D view](3D_view.md) or not. Left: the Part is hidden, so none of the objects will be shown in the [3D view](3D_view.md). Right: the Part is visible, so each object controls its own visibility.*
+
+
 
 ## Программирование
 

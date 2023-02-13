@@ -2,133 +2,83 @@
 - GuiCommand:/it
    Name:Draft Arc
    Name/it:Arco
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation:Draft → Arco
+   MenuLocation:Drafting → Strumenti Arco → Arco
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**A** **R**
-   SeeAlso:[Circonferenza](Draft_Circle/it.md), [Ellipse](Draft_Ellipse/it.md), [Arco da 3 punti](Draft_Arc_3Points/it.md)
    Version:0.7
+   SeeAlso: [Arco da 3 punti](Draft_Arc_3Points/it.md),
+[Cerchio](Draft_Circle/it.md)
 ---
 
 # Draft Arc/it
 
 
-</div>
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> **Arco** crea un arco circolare nel [piano di lavoro](Draft_SelectPlane/it.md) corrente da un centro, un raggio, un angolo iniziale e un angolo di apertura . Il raggio e gli angoli possono essere definiti selezionando i punti.
 
-<div class="mw-translate-fuzzy">
+Un Arco è infatti una [Circonferenza](Draft_Circle/it.md) con un **First Angle** diverso dal suo **Last Angle**.
 
-Crea un arco nel [piano di lavoro](Draft_SelectPlane/it.md). Si può definire l\'arco inserendo quattro punti, il centro, il raggio, il primo punto e l\'ultimo punto, oppure selezionando le tangenti, oppure con qualsiasi combinazione di questi elementi. L\'arco assume [il tipo di linea e il colore](Draft_Linestyle/it.md) impostati in precedenza nella [barra di Draft](Draft_Tray/it.md).
-
-
-</div>
-
-A Draft Arc is in fact a [Draft Circle](Draft_Circle.md) with a **First Angle** that is not the same as its **Last Angle**.
-
-<img alt="" src=images/Draft_Arc_example.jpg  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
+<img alt="" src=images/Draft_Arc_example.jpg  style="width:400px;"> 
+*Arco definito da quattro punti: centro, raggio, punto iniziale dell'arco e punto finale dell'arco*
 
 
 
-*Arco definito da quattro punti: centro, raggio, punto iniziale dell'arco e punto finale dell'arco.*
+## Utilizzo
+
+Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
+
+1.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_Arc.svg" width=16px> [Arco](Draft_Arc/it.md)**.
+    -   Seleziona l\'opzione **Drafting → Strumenti arco → <img src="images/Draft_Arc.svg" width=16px> Arco** dal menu.
+    -   Usa la scorciatoia da tastiera: **A** poi **R**. <small>(v0.20)</small> 
+2.  Si apre il pannello attività **Arco**. Vedere [Opzioni](#Options.md) per maggiori informazioni.
+3.  Scegliere il primo punto, il centro dell\'arco, nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
+4.  Scegliere il secondo punto nella [Vista 3D](3D_view/it.md), o inserire un **Raggio**.
+5.  Scegliere il terzo punto nella [Vista 3D](3D_view/it.md), o inserire un **Angolo iniziale**.
+6.  Scegliere il quarto punto nella [Vista 3D](3D_view/it.md), o inserire un **Angolo di apertura**.
 
 
-</div>
-
-## Usage
-
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
-
-
-<div class="mw-translate-fuzzy">
-
-### Utilizzo
-
-1.  Premere il pulsante **<img src="images/Draft_Arc.svg" width=16px> [Arco](Draft_Arc/it.md)
-**, o premere i tasti **A** e **R**
-2.  Selezionare un primo punto nella vista 3D per stabilire il centro, oppure digitare le sue coordinate poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**.
-3.  Selezionare un secondo punto nella vista 3D, o introdurre il valore del raggio.
-4.  Selezionare un terzo punto nella vista 3D, o introdurre l\'angolo iniziale
-5.  Selezionare un quarto punto nella vista 3D, o introdurre l\'angolo di apertura
-
-
-</div>
-
-## Options
-
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
-
-
-<div class="mw-translate-fuzzy">
 
 ## Opzioni
 
--   L\'uso principale dello strumento arco è selezionando quattro punti: il centro, un punto sulla circonferenza, l\'inizio dell\'arco e la sua fine.
-    -   Premendo **Alt**, si può selezionare una tangente invece diselezionare un punto, per definire il cerchio di base dell\'arco. È quindi possibile costruire diversi tipi di cerchi selezionando una, due o tre tangenti.
--   La direzione dell\'arco dipende dal movimento che si sta facendo con il mouse. Se si inizia il movimento in senso orario dopo aver inserito il terzo punto, l\'arco va in senso orario. Per andare in senso antiorario, spostare semplicemente il mouse indietro sul terzo punto, finché l\'arco inizia a disegnare nell\'altra direzione.
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando si hanno i valori desiderati per inserire il punto.
--   Premere il tasto **T** oppure fare clic sulla casella di controllo per attivare la modalità \"continua\". Se la modalità continua è attiva, lo strumento Arco si riavvia dopo aver terminato l\'arco in costruzione, e consente di disegnarne un nuovo arco senza premere nuovamente il pulsante dello strumento.
--   Tenere premuto **Ctrl** mentre si disegna per forzare [l\'aggancio](Draft_Snap.md) del proprio punto alla posizione di aggancio più vicina, indipendentemente dalla distanza.
--   Tenere premuto **Maiusc** mentre si disegna per [vincolare](Draft_Constrain.md) il prossimo punto in orizzontale o in verticale rispetto all\'ultimo.
--   Premere il tasto **Esc** o il pulsante {{button|Chiudi}} per interrompere il comando corrente.
+Le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività possono essere modificate. Vedere [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md). Le scorciatoie menzionate qui sono le scorciatoie predefinite.
+
+-   Per inserire manualmente le coordinate del centro, inserire le componenti X, Y e Z, e premere **Enter** dopo ciascuna. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
+-   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate del [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **T** o fare clic sulla casella di controllo **Continua** per attivare o disattivare la modalità continua. Se la modalità continua è attiva, il comando si riavvierà al termine, consentendo di continuare a creare archi.
+-   Premere **S** per attivare o disattivare lo [Snap](Draft_Snap/it.md).
+-   Premere **Esc** o il pulsante **Chiudi** per interrompere il comando.
 
 
-</div>
 
-## Notes
+## Note
 
-
-<div class="mw-translate-fuzzy">
-
-L\'arco può essere modificato facendo doppio clic sull\'elemento nella vista ad albero o premendo il pulsante **<img src="images/Draft_Edit.svg" width=16px> [Modifica](Draft_Edit/it.md)**. Quindi si può spostare il punto centrale in una nuova posizione.
+-   Un Arco può essere modificato con il comando [Modifica](Draft_Edit/it.md).
 
 
-</div>
 
-## Preferences
+## Preferenze
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
 
--   To change the number of decimals used for the input of coordinates, radii and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
-
-## Properties
+-   Per modificare il numero di decimali utilizzati per l\'inserimento di coordinate, raggi e angoli: **Modifica → Preferenze... → Generale → Unità → Impostazioni unità → Numero di cifre decimali**.
+-   Se l\'opzione **Modifica → Preferenze... → Draft → Impostazioni generali → Opzioni strumenti Draft → Usa le primitive di Part quando disponibili** è selezionata, il comando creerà un [Part Cerchio](Part_Circle/it.md) invece di un Draft Cerchio.
 
 
-<div class="mw-translate-fuzzy">
 
 ## Proprietà
 
-Un oggetto Arco condivide tutte le proprietà di un [Cerchio](Draft_Circle/it.md), ma alcune proprietà hanno senso solo per il cerchio.
+Vedere [Draft Circonferenza](Draft_Circle/it#Propertietà.md).
 
 
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-**Vedere anche:**
-
-[Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Arco può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](FreeCAD_Scripting_Basics/it.md) utilizzando la stessa funzione per creare cerchi, con argomenti aggiuntivi. Vedi le informazioni in [Cerchio](Draft_Circle/it.md).
-
-
-</div>
+Per creare un Draft Arco usare il metodo `make_circle` ({{Version/it|0.19}}) del modulo Draft. Questo metodo sostituisce il metodo deprecato `makeCircle`.
 
 Esempio:
 

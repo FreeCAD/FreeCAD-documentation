@@ -1,17 +1,25 @@
 # Selection methods/de
 {{TOCright}}
 
+
+
 ## Überblick
 
 [Auswahlmethoden](Selection_methods/de.md) in FreeCAD ermöglichen das Auswählen von Objekten in der [FreeCAD-Oberfläche](Interface/de.md): z. B. [3D Ansicht](3D_view/de.md), [Baumansicht](Tree_view/de.md), [Auswahlansicht](Selection_view/de.md) und anderen Dialogen. Einige Auswahlmethoden sind Arbeitsbereich-spezifisch und in der jeweiligen Arbeitsbereich-Dokumentation dokumentiert.
+
+
 
 ## 3D Ansicht 
 
 In der [3D Ansicht](3D_view/de.md) gibt es verschiedene Möglichkeiten, Objekte auszuwählen.
 
+
+
 ### Einfache Auswahl 
 
 Die einfache Auswahl mit der Maus (standardmäßig Linksklick) und die Vorauswahl (Hover) werden auf der Seite [Mausnavigation](Mouse_navigation/de.md) beschrieben.
+
+
 
 ### Wiederholte Klicks 
 
@@ -19,17 +27,23 @@ Mit dem ersten Klick wird ein Unterelement (Punkt, Kante oder Fläche) des Objek
 
 Der dritte Klick erweitert die Auswahl auf das Containerobjekt [Körper](PartDesign_Body/de.md), [Standard Teil](Std_Part/de.md) und andere. Weitere Klicks erweitern die Auswahl in der Containerkette. {{Version/de|0.19}}
 
+
+
 ### Auswahl Befehle 
 
 -   Um alle Objekte auszuwählen: [Std AllesAuswählen](Std_SelectAll/de.md).
 -   Um mehrere Hauptobjekte in einem Kasten auszuwählen: [Std KastenAuswahl](Std_BoxSelection/de.md).
 -   Um mehrere Flächen zu auszuwählen: [Std KastenElementAuswahl](Std_BoxElementSelection/de.md) oder [Part KastenAuswahl](Part_BoxSelection/de.md).
 
+
+
 ## Auswahlansicht
 
 In der [Auswahlansicht](Selection_view/de.md) werden die Namen der ausgewählten Objekte angezeigt, einschließlich ihres vollständigen Namens innerhalb eines Objekts, z. B. `Unnamed#Body.Box001.Face17`.
 
 Sie erlaubt auch einige Aktionen wie [Std AnsichtAuswahlEinpassen](Std_ViewFitSelection/se.md), und das Senden des Objekts an die [Python Konsole](Python_console/de.md).
+
+
 
 ### Objekt export 
 
@@ -45,6 +59,8 @@ Nachdem **OK** drücken, werden die ausgewählten Objekte in den Speicher kopier
 
 *Objektauswahldialog, der aus der [Auswahlansicht](Selection_view/de.md) heraus gestartet wird.*
 
+
+
 ## Baumansicht
 
 In der [Baumansicht](tree_view/de.md) können Elemente eins nach dem anderen ausgewählt oder abgewählt werden, durch gedrückt halten der **Strg** Taste und mit der Maus klicken.
@@ -57,11 +73,13 @@ Double clicking will open any associated [task panel](task_panel.md) containing 
 
 More methods are available by opening the context menu (right-click), depending on the object selected or the active workbench; see the information in [tree view](tree_view.md).
 
+
+
 ## Skripterstellung
 
 Selecting objects is inherently a graphical task and therefore it is only available when the graphical user interface is loaded.
 
-These commands can be used in [macros](Macros.md) or from the [Python console](Python_console.md).
+These methods can be used in [macros](Macros.md) or from the [Python console](Python_console.md):
 
 
 ```python
@@ -72,11 +90,24 @@ Gui.Selection.addSelectionGate
 Gui.Selection.Filter
 ```
 
-The command `addSelectionGate` restricts the user from selecting objects not specified in the selection string. A symbol appears when the pointer is over an item not in the specified group.
+The `addSelectionGate` method prevents the user from selecting objects not specified in the selection string. A <img alt="" src=images/Button_invalid.svg  style="width:16px;"> symbol appears when the pointer is over an item not in the specified group.
 
 
 ```python
 Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Edge")
+
+#### or
+Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Face")
+
+#### or
+Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Vertex")
+```
+
+To remove `SelectionGate()`:
+
+
+```python
+Gui.Selection.removeSelectionGate()
 ```
 
 See the [Source documentation](Source_documentation.md) and [Std PythonHelp](Std_PythonHelp.md) for more help on using these tools.

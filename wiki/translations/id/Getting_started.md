@@ -1,6 +1,8 @@
 # Getting started/id
 {{TOCright}}
 
+
+
 ## Pendahuluan
 
 
@@ -30,8 +32,11 @@ Dan jika setelah mencoba kamu punya saran, ide atau opini, silahkan dibagi denga
 See also:
 
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
+-   [Which workbench should I choose?](Which_workbench_should_I_choose.md)
 -   [Tutorials](Tutorials.md)
 -   [Video tutorials](Video_tutorials.md)
+
+
 
 ## Instalasi
 
@@ -42,6 +47,8 @@ Pertama (jika belum) unduh dan instal FreeCAD. Lihat halaman [Download](Download
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -92,6 +99,8 @@ When you start FreeCAD for the first time, you are presented with the Start page
 <img alt="" src=images/Start_center_0.19_screenshot.png  style="width:600px;">
 
 The Start page allows you to quickly jump to one of the most common workbenches, open one of the recent files, or see the latest news from the FreeCAD world. You can change the default workbench in the [preferences](Preferences_Editor.md).
+
+
 
 ### Navigasi di Area 3D 
 
@@ -168,6 +177,8 @@ Which will give you this:
 More on the [Tutorials](Tutorials.md) page.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## [Scripting](Scripting.md)
@@ -189,6 +200,8 @@ There are two types of addons:
 ## Scripting 
 
 And finally, one of the most powerful features of FreeCAD is the [scripting](scripting.md) environment. From the integrated python console (or from any other external Python script), you can gain access to almost any part of FreeCAD, create or modify geometry, modify the representation of those objects in the 3D scene or access and modify the FreeCAD interface. Python scripting can also be used in [macros](macros.md), which provide an easy method to create custom commands.
+
+
 
 
 <div class="mw-translate-fuzzy">

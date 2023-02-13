@@ -1,9 +1,13 @@
 # TechDraw LineGroup/fr
 {{TOCright}}
 
+
+
 ## Présentation
 
 Les Groupes de lignes sont utilisés pour contrôler l\'apparence de différents types de lignes.
+
+
 
 ### Utilisation
 
@@ -15,11 +19,13 @@ Pour modifier le fichier de définition LineGroups
 1.  Allez dans l\'onglet des préférences *[Général](TechDraw_Preferences/fr#G.C3.A9n.C3.A9ralit.C3.A9s.md)*.
 2.  Sélectionnez dans le champ **Fichier des groupes de lignes** un fichier de définition de groupe de lignes.
 
-### Personnaliser les groupes de lignes 
 
-Si vous avez les droits en écriture, vous pouvez éditer `LineGroup.csv` pour ajouter vos propres groupes de lignes.
 
-Ce fichier est généralement dans:
+### Personnaliser des groupes de lignes 
+
+Si vous avez les droits en écriture, vous pouvez modifier `LineGroup.csv` pour ajouter vos propres groupes de lignes.
+
+Ce fichier est généralement dans :
 
 
 ```python
@@ -35,14 +41,16 @@ Où `$INSTALL_DIR` est le dossier d\'installation de FreeCAD, par exemple
 
 Vous pouvez spécifier vos valeurs préférées par défaut dans [TechDraw Préférences](TechDraw_Preferences/fr.md).
 
+
+
 ## Chemin de LineGroup 
 
--   **Windows**: `C:\Program Files\FreeCAD\data\Mod\TechDraw\LineGroup\`
--   **Mac**: `/Applications/FreeCAD.app/Contents/Mod/TechDraw/LineGroup/`
--   **Linux**: `/usr/share/freecad/Mod/TechDraw/LineGroup/`
-    -   ***freecad-daily PPA***: `/usr/share/freecad-daily/Mod/TechDraw/LineGroup/`
+-   **Windows** : `C:\Program Files\FreeCAD\data\Mod\TechDraw\LineGroup\`
+-   **Mac** : `/Applications/FreeCAD.app/Contents/Mod/TechDraw/LineGroup/`
+-   **Linux** : `/usr/share/freecad/Mod/TechDraw/LineGroup/`
+    -   ***freecad-daily PPA*** : `/usr/share/freecad-daily/Mod/TechDraw/LineGroup/`
 
-Remarque: une nouvelle préférence a été ajoutée pour vous permettre d\'utiliser votre propre fichier personnel LineGroup.
+Remarque : une nouvelle préférence a été ajoutée pour vous permettre d\'utiliser votre propre fichier personnel LineGroup.
 
 
 ```python
@@ -63,9 +71,11 @@ Remarque: une nouvelle préférence a été ajoutée pour vous permettre d\'util
 *FC 1.00mm,0.50,0.70,1.00,2.00
 ```
 
+
+
 ## Remarque
 
--   La largeur de trait dans TechDraw est toujours en mm, même lorsque vous utilisez d\'autres systèmes d\'unités.
+-   La largeur de trait dans TechDraw est toujours spécifiée en mm, même lorsque vous utilisez d\'autres systèmes d\'unités.
 
 
 

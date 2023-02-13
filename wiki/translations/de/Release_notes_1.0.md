@@ -27,15 +27,9 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 
 ## Benutzeroberfläche
 
-
-<div class="mw-translate-fuzzy">
-
    
-  ![](images/Navi_Cube_relnotes_1.0.gif )   Die Ecken des Navigationswürfels sind jetzt sechseckig und größer, dadurch sind sie einfacher anzuklicken. Schriftart und Schrifthöhe können jetzt auch in den [Voreinstellungen](Preferences_Editor/de#Navigation.md) angepasst werden. [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876) und [#8266](https://github.com/FreeCAD/FreeCAD/pull/8266).
+  ![](images/Navi_Cube_relnotes_1.0.gif )   Die Ecken des Navigationswürfels sind jetzt sechseckig und größer, dadurch sind sie einfacher anzuklicken. Schriftart und Schrifthöhe können jetzt auch in den [Voreinstellungen](Preferences_Editor/de#Navigation.md) angepasst werden. [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876) und [Pull request #8266](https://github.com/FreeCAD/FreeCAD/pull/8266).
    
-
-
-</div>
 
    
   <img alt="" src=images/Measurement-Part_relnotes_1.0.png  style="width:384px;">   Die Darstellungsart von [Messergebnissen](Part_Workbench/de#Messung.md), die in den Arbeitsbereichen [Part](Part_Workbench/de.md) oder [PartDesign](PartDesign_Workbench/de.md) erstellt wurden, können jetzt in den [Einstellungen](PartDesign_Preferences/de#Measure.md) angepasst werden. [Pull request #7148](https://github.com/FreeCAD/FreeCAD/pull/7148)
@@ -315,17 +309,19 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 
 ### Ship
 
-## Compilation
 
-Since this release FreeCAD can only be compiled using Qt 5.x and Python 3.x. The lowest supported Python version is 3.8 according to the [FreeCAD 1.0 development goals](FreeCAD_1.0_Development_Cycle.md).
 
-To compile FreeCAD see the instructions for [Windows](Compile_on_Windows.md), [Linux](Compile_on_Linux.md) and [MacOS](Compile_on_MacOS.md).
+## Kompilieren
 
-The supported operating systems are:
+Seit dieser Ausgabe kann FreeCAD nur unter Verwendung von Qt 5.x und Python 3.x. kompiliert werden. Die niedrigste unterstützte Python-Version ist 3.8, entsprechend den [FreeCAD 1.0 development goals](FreeCAD_1.0_Development_Cycle.md).
 
--   Windows 7, 8, 10 and 11
--   Linux Ubuntu Focal Fossa (20.04) and newer
--   MacOS: 10.12 Sierra or newer
+Die Anleitungen zum Kompilieren von FreeCAD gibt es für [Windows](Compile_on_Windows/de.md), [Linux](Compile_on_Linux/de.md) und [MacOS](Compile_on_MacOS/de.md).
+
+Die unterstützten Betriebssysteme sind:
+
+-   Windows 7, 8, 10 und 11
+-   Linux Ubuntu Focal Fossa (20.04) und newer
+-   MacOS: 10.12 Sierra oder neuer
 
 
 

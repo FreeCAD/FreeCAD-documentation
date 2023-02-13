@@ -8,20 +8,22 @@ This category lists pages related to the [FEM Workbench](FEM_Workbench.md) and F
 | [Add Button to FEM Toolbar Tutorial](wiki/Add Button to FEM Toolbar Tutorial.md) | [Add FEM Constraint Tutorial](wiki/Add FEM Constraint Tutorial.md) | [Add FEM Equation Tutorial](wiki/Add FEM Equation Tutorial.md) |
 | [Analysis of reinforced concrete with FEM](wiki/Analysis of reinforced concrete with FEM.md) | [Artwork Fem](wiki/Artwork Fem.md) | [Extend FEM Module](wiki/Extend FEM Module.md) |
 | [FEM Analysis](wiki/FEM Analysis.md) | [FEM CalculiX](wiki/FEM CalculiX.md) | [FEM CalculiX Cantilever 3D](wiki/FEM CalculiX Cantilever 3D.md) |
-| [FEM ClippingPlaneAdd](wiki/FEM ClippingPlaneAdd.md) | [FEM ClippingPlaneRemoveAll](wiki/FEM ClippingPlaneRemoveAll.md) | [FEM Concrete](wiki/FEM Concrete.md) |
-| [FEM ConstantVacuumPermittivity](wiki/FEM ConstantVacuumPermittivity.md) | [FEM ConstraintBearing](wiki/FEM ConstraintBearing.md) | [FEM ConstraintBodyHeatSource](wiki/FEM ConstraintBodyHeatSource.md) |
-| [FEM ConstraintCentrif](wiki/FEM ConstraintCentrif.md) | [FEM ConstraintContact](wiki/FEM ConstraintContact.md) | [FEM ConstraintDisplacement](wiki/FEM ConstraintDisplacement.md) |
+| [FEM ClippingPlaneAdd](wiki/FEM ClippingPlaneAdd.md) | [FEM ClippingPlaneRemoveAll](wiki/FEM ClippingPlaneRemoveAll.md) | [FEM CompEmConstraints](wiki/FEM CompEmConstraints.md) |
+| [FEM CompEmEquations](wiki/FEM CompEmEquations.md) | [FEM Concrete](wiki/FEM Concrete.md) | [FEM ConstantVacuumPermittivity](wiki/FEM ConstantVacuumPermittivity.md) |
+| [FEM ConstraintBearing](wiki/FEM ConstraintBearing.md) | [FEM ConstraintBodyHeatSource](wiki/FEM ConstraintBodyHeatSource.md) | [FEM ConstraintCentrif](wiki/FEM ConstraintCentrif.md) |
+| [FEM ConstraintContact](wiki/FEM ConstraintContact.md) | [FEM ConstraintCurrentDensity](wiki/FEM ConstraintCurrentDensity.md) | [FEM ConstraintDisplacement](wiki/FEM ConstraintDisplacement.md) |
 | [FEM ConstraintElectrostaticPotential](wiki/FEM ConstraintElectrostaticPotential.md) | [FEM ConstraintFixed](wiki/FEM ConstraintFixed.md) | [FEM ConstraintFlowVelocity](wiki/FEM ConstraintFlowVelocity.md) |
 | [FEM ConstraintFluidBoundary](wiki/FEM ConstraintFluidBoundary.md) | [FEM ConstraintForce](wiki/FEM ConstraintForce.md) | [FEM ConstraintGear](wiki/FEM ConstraintGear.md) |
 | [FEM ConstraintHeatflux](wiki/FEM ConstraintHeatflux.md) | [FEM ConstraintInitialFlowVelocity](wiki/FEM ConstraintInitialFlowVelocity.md) | [FEM ConstraintInitialPressure](wiki/FEM ConstraintInitialPressure.md) |
-| [FEM ConstraintInitialTemperature](wiki/FEM ConstraintInitialTemperature.md) | [FEM ConstraintPlaneRotation](wiki/FEM ConstraintPlaneRotation.md) | [FEM ConstraintPressure](wiki/FEM ConstraintPressure.md) |
-| [FEM ConstraintPulley](wiki/FEM ConstraintPulley.md) | [FEM ConstraintSectionPrint](wiki/FEM ConstraintSectionPrint.md) | [FEM ConstraintSelfWeight](wiki/FEM ConstraintSelfWeight.md) |
-| [FEM ConstraintSpring](wiki/FEM ConstraintSpring.md) | [FEM ConstraintTemperature](wiki/FEM ConstraintTemperature.md) | [FEM ConstraintTie](wiki/FEM ConstraintTie.md) |
-| [FEM ConstraintTransform](wiki/FEM ConstraintTransform.md) | [FEM CreateNodesSet](wiki/FEM CreateNodesSet.md) | [FEM Element Types](wiki/FEM Element Types.md) |
-| [FEM ElementFluid1D](wiki/FEM ElementFluid1D.md) | [FEM ElementGeometry1D](wiki/FEM ElementGeometry1D.md) | [FEM ElementGeometry2D](wiki/FEM ElementGeometry2D.md) |
-| [FEM ElementRotation1D](wiki/FEM ElementRotation1D.md) | [FEM EquationElasticity](wiki/FEM EquationElasticity.md) | [FEM EquationElectricforce](wiki/FEM EquationElectricforce.md) |
-| [FEM EquationElectrostatic](wiki/FEM EquationElectrostatic.md) | [FEM EquationFlow](wiki/FEM EquationFlow.md) | [FEM EquationFlux](wiki/FEM EquationFlux.md) |
-| [FEM EquationHeat](wiki/FEM EquationHeat.md) | [FEM Example Capacitance Two Balls](wiki/FEM Example Capacitance Two Balls.md) | [FEM Examples](wiki/FEM Examples.md) |
+| [FEM ConstraintInitialTemperature](wiki/FEM ConstraintInitialTemperature.md) | [FEM ConstraintMagnetization](wiki/FEM ConstraintMagnetization.md) | [FEM ConstraintPlaneRotation](wiki/FEM ConstraintPlaneRotation.md) |
+| [FEM ConstraintPressure](wiki/FEM ConstraintPressure.md) | [FEM ConstraintPulley](wiki/FEM ConstraintPulley.md) | [FEM ConstraintSectionPrint](wiki/FEM ConstraintSectionPrint.md) |
+| [FEM ConstraintSelfWeight](wiki/FEM ConstraintSelfWeight.md) | [FEM ConstraintSpring](wiki/FEM ConstraintSpring.md) | [FEM ConstraintTemperature](wiki/FEM ConstraintTemperature.md) |
+| [FEM ConstraintTie](wiki/FEM ConstraintTie.md) | [FEM ConstraintTransform](wiki/FEM ConstraintTransform.md) | [FEM CreateNodesSet](wiki/FEM CreateNodesSet.md) |
+| [FEM Element Types](wiki/FEM Element Types.md) | [FEM ElementFluid1D](wiki/FEM ElementFluid1D.md) | [FEM ElementGeometry1D](wiki/FEM ElementGeometry1D.md) |
+| [FEM ElementGeometry2D](wiki/FEM ElementGeometry2D.md) | [FEM ElementRotation1D](wiki/FEM ElementRotation1D.md) | [FEM EquationElasticity](wiki/FEM EquationElasticity.md) |
+| [FEM EquationElectricforce](wiki/FEM EquationElectricforce.md) | [FEM EquationElectrostatic](wiki/FEM EquationElectrostatic.md) | [FEM EquationFlow](wiki/FEM EquationFlow.md) |
+| [FEM EquationFlux](wiki/FEM EquationFlux.md) | [FEM EquationHeat](wiki/FEM EquationHeat.md) | [FEM EquationMagnetodynamic](wiki/FEM EquationMagnetodynamic.md) |
+| [FEM EquationMagnetodynamic2D](wiki/FEM EquationMagnetodynamic2D.md) | [FEM Example Capacitance Two Balls](wiki/FEM Example Capacitance Two Balls.md) | [FEM Examples](wiki/FEM Examples.md) |
 | [FEM FemMesh2Mesh](wiki/FEM FemMesh2Mesh.md) | [FEM Install](wiki/FEM Install.md) | [FEM MaterialEditor](wiki/FEM MaterialEditor.md) |
 | [FEM MaterialFluid](wiki/FEM MaterialFluid.md) | [FEM MaterialMechanicalNonlinear](wiki/FEM MaterialMechanicalNonlinear.md) | [FEM MaterialReinforced](wiki/FEM MaterialReinforced.md) |
 | [FEM MaterialSolid](wiki/FEM MaterialSolid.md) | [FEM Mesh](wiki/FEM Mesh.md) | [FEM Mesh CalculiX](wiki/FEM Mesh CalculiX.md) |

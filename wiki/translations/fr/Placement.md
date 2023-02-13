@@ -3,6 +3,8 @@
 
 **Placement** (positionnement en français) est la manière dont FreeCAD spécifie l\'emplacement et la position (orientation) d\'un objet dans l\'espace. Le placement peut être spécifié sous plusieurs formes et manipulé via un [script](Python_scripting_tutorial/fr#Vecteurs_et_placements.md), l\'[Éditeur de propriétés](Property_editor/fr.md) ou en sélectionnant **Édition → Positionnement...** pour ouvrir le [Panneau des tâches de placement](Std_Placement/fr.md).
 
+
+
 ### Accès aux propriétés de Placement 
 
 Les attributs de la fonction Placement d\'un objet peuvent être accessibles et modifiables de 3 façons :
@@ -13,9 +15,13 @@ Les attributs de la fonction Placement d\'un objet peuvent être accessibles et 
 
 ![Panneau des tâches de Placement](images/PlacementDialogv10.png ) 
 
+
+
 ## Formes de Placement 
 
 Le placement est stocké en interne sous la forme d\'une position et d\'une rotation (axe et angle de rotation transformés en un [quaternion](https://fr.wikipedia.org/wiki/Quaternions_et_rotation_dans_l'espace)). Bien qu\'il existe plusieurs façons de spécifier une rotation, par exemple avec un centre de rotation, celui-ci n\'est utilisé que pour affecter le calcul de la rotation et n\'est pas stocké pour des opérations ultérieures. De même, si un axe de rotation de (1,1,1) est spécifié, il peut être normalisé lorsqu\'il est stocké dans le quaternion et apparaître sous la forme (0.58, 0.58, 0.58) lorsque l\'on parcourt l\'objet ultérieurement.
+
+
 
 ### Angle, axe et position 
 
@@ -35,6 +41,8 @@ La première forme de **Placement** fixe l\'emplacement d\'un objet dans l\'espa
 Notez qu\'il est également possible de translater (déplacer) un objet le long de cet axe de rotation (mouvement axial) en entrant la distance à déplacer dans la boîte de dialogue {{SpinBox|Axial: 0.0mm}} et en cliquant sur **Appliquer l'axe**. (Une façon d'envisager un mouvement axial consiste à penser à un avion avec une hélice en train de tourner sur son nez. L'hélice tourne autour d'un axe de rotation tandis que l'avion se déplace le long du même axe.) Les valeurs du vecteur peuvent être considérées comme la quantité relative de mouvement qui sera appliquée dans cette direction. Par exemple, dans le cas y = x (0.71,0.71,0), la valeur contenue dans le spinbox Axial est appliquée de la même manière aux directions X et Y, mais aucun mouvement ne se produit dans la direction Z.
 
 **Position = (x,y,z)** est un vecteur décrivant le point à partir duquel la géométrie de l\'objet sera calculée (en fait, une \"origine locale\" de l\'objet). Notez que dans les scripts, Placement.Base est utilisé pour désigner le composant Position d\'un emplacement. L\'éditeur de propriétés appelle cette valeur **Position** et le panneau des tâches Placement l\'appelle **Translation**.
+
+
 
 ### Position avec Lacet, Tangage et Roulis 
 
@@ -70,6 +78,8 @@ App.Rotation(10,20,30) = angle d\'Euler
 ![](images/Tache_Placement_Roulis_fr_Mini.gif )**Roll** est la rotation sur l**\'axe X**, tangage latéral de gauche à droite. (Roulis)
 (L\'angle Roll est représenté par **Thêta θ**). 
 
+
+
 ### Matrice
 
 **Placement = Matrice**
@@ -82,6 +92,8 @@ La troisième forme de **Placement**, décrit la position de l\'objet et l\'orie
    (r21,r22,r23,t2),
    (r31,r32,r33,t3),
    (0,0,0,1)), spécifie la rotation et la translation. 
+
+
 
 
 
@@ -120,6 +132,8 @@ Considérons maintenant le cas de la sélection de 2 points. Vous sélectionneri
 
 Considérons maintenant le cas de la sélection de 3 points. Vous sélectionneriez les 3 points désirés, puis cliquez sur le bouton **Points sélectionnés**. Les coordonnées du premier point sélectionné (l\'ordre de sélection est très important ici) sont placées dans les boîtes de sélection X, Y et Z de la section **Centre**. Puisque 3 points définissent un plan, FreeCAD peut en tirer parti et utiliser ces 3 points pour créer un nouvel axe de rotation personnalisé (défini par l\'utilisateur) qui est normal (perpendiculaire) à ce plan défini. Comme avec 2 points sélectionnés, la distance entre les points est également affichée dans la Vue rapport, mais cette fois, il s'agit de la distance entre les 2e et 3e points sélectionnés. (Remarque: maintenez la touche Maj enfoncée tout en cliquant sur le bouton **Points sélectionnés** \-- Maj + clic \-- pour copier la mesure de l\'angle dans le presse-papiers.) De plus, l\'angle entre les deuxième et troisième points est également mesuré et affiché dans la vue du rapport. En entrant cet angle dans la zone de sélection **Angle** de la section **Rotation**, nous pouvons faire pivoter l\'objet de manière très précise, de sorte que le deuxième point sélectionné est maintenant aligné sur les coordonnées occupées par le troisième point sélectionné. (Remarque : vous pouvez augmenter le nombre de chiffres utilisés, dans le menu Édition -\> Préférences -\> Général -\> Unités -\> Nombre de décimales si vous désirez plus de précision).
 
+
+
 ## Exemples
 
 Rotations autour d\'un seul axe :
@@ -141,6 +155,8 @@ Rotation en utilisant les angles d\'Euler :
 <img alt="Avant rotation" src=images/RotationEulerBefore.png  style="width:600px;"> Avant rotation 
 
 <img alt="Après rotation" src=images/RotationEulerAfter.png  style="width:600px;"> Après rotation 
+
+
 
 ## Placement.Base versus Définition d\'une forme 
 
@@ -175,6 +191,8 @@ Les deux cubes ont la même valeur de Placement, mais sont à des emplacements d
  >>>
 
 Les sommets (ou vecteurs) qui définissent la forme utilisent l\'attribut Placement.Base comme origine. leur origine. Ainsi, si vous souhaitez déplacer une forme de 10 unités le long de l\'axe **X**, vous pourriez ajouter 10 aux coordonnées **X** de tous les sommets ou vous pouvez définir Placement.Base à (10,0,0).
+
+
 
 ## Utiliser \"Center\" pour contrôler l\'axe de rotation 
 
@@ -218,6 +236,8 @@ newplace = FreeCAD.Placement(pos,rot,centre)        # make a new Placement objec
 obj.Placement = newplace                            # spin the box
 ```
 
+
+
 ## Utilisation du placement dans les expressions 
 
 Dans les expressions, il est possible d\'utiliser les composants du placement par exemple pour accéder au composant x de l\'objet nommé \"Cube\" :
@@ -258,6 +278,8 @@ Pour rendre le placement de \"Sketch\" égal à celui de \"Cylinder\", vous deve
 
 **REMARQUE :** Il est également possible de *créer* des objets Placement dans les expressions. Voir la page [Expressions](Expressions/fr#Placement.md) pour plus de détails.
 
+
+
 ## Remarques
 
 -   Les propriétés de Placement de l\'onglet Données sont désactivées pour les objets qui sont attachés à un autre objet. Le décalage de rattachement doit être modifié à la place.
@@ -273,13 +295,18 @@ Pour rendre le placement de \"Sketch\" égal à celui de \"Cylinder\", vous deve
   Part.Torus                              centre du tore
   Fonctionnalités dérivées d\'esquisses   la fonction hérite de la position de l\'esquisse sous-jacente. Les esquisses commencent toujours par Position = (0,0,0). Cette position correspond à l\'origine dans l\'esquisse.
 
+
+
 ## Limitations
 
 -   Le placement relatif des objets sera éventuellement traité dans l\'atelier Assembly.
 
+
+
 ## En savoir plus 
 
 -   Ce tutoriel : [Aéroplane](Aeroplane/fr.md) traite largement des mécanismes de modifications de position d\'un objet.
+-   Cet article de [FreeCAD News](https://blog.freecad.org/2023/01/16/the-rotation-api-in-freecad/?preview_id=343) traite de l\'API Rotation.
 
 
 

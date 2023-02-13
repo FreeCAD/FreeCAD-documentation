@@ -1,43 +1,28 @@
 # Third Party Libraries/it
 {{TOCright}}
 
+## Panoramica
 
-<div class="mw-translate-fuzzy">
+Si tratta di librerie che FreeCAD utilizza come dipendenze di terze parti durante la compilazione. Di solito sono [librerie collegate dinamicamente](https://en.wikipedia.org/wiki/Dynamic_loading) e hanno un\'estensione `.so` in Linux/MacOS e `.dll` in Windows, e sono accompagnati dai loro file di intestazione `.h` o `.hpp` o simili. Se è necessaria una libreria modificata o una classe wrapper, il codice della libreria modificata, o wrapper, deve diventare parte del codice sorgente di FreeCAD e compilato insieme ad esso.
 
-### Panoramica
+Le dipendenze devono essere installate nel sistema prima di procedere con la compilazione; vedi [Compilazione in Linux](Compile_on_Linux/it.md), [Compilazione in Windows](Compile_on_Windows/it.md) e [Compilazione in MacOS](Compile_on_MacOS/it.md) per maggiori informazioni.
 
-Si tratta di librerie che nel progetto di FreeCAD non vengono modificate. Sono utilizzate sostanzialmente senza modifiche come librerie a collegamento dinamico (\*.so o \*.dll). Se è necessario modificarle o è necessaria una classe wrapper (classe involucro), allora il codice della wrapper o il codice della libreria modificata deve essere spostato nel pacchetto base di FreeCAD.
-
-
-</div>
-
-The dependencies need to be installed in the system before proceeding with compilation; see [compile on Linux](Compile_on_Linux.md), [compile on Windows](Compile_on_Windows.md), and [compile on MacOS](Compile_on_MacOS.md) for more information.
+Se stai compilando usando Windows, prendi in considerazione l\'utilizzo di [LibPack](#LibPack.md) invece di provare a installare le librerie singolarmente.
 
 
-<div class="mw-translate-fuzzy">
-
-Per l\'ambiente Windows, considerare la possibilità di usare [LibPack](#LibPack/it.md) invece di scaricare e installare tutto da soli.
-
-Le librerie utilizzate sono:
-
-
-</div>
 
 ## Link
-
-
-<div class="mw-translate-fuzzy">
 
 ++++
 | Nome della libreria | Versione necessaria     | Link per ottenerla                                                            |
 +=====================+=========================+===============================================================================+
-| Python              | \>= 3.4                 | <http://www.python.org/>                                                      |
+| Python              | \>= 3.6                 | <http://www.python.org/>                                                      |
 ++++
 | Boost               | \>= 1.33                | <http://www.boost.org/>                                                       |
 ++++
-| OpenCASCADE         | \>= 6.7                 | <http://www.opencascade.org>                                                  |
+| OpenCASCADE         | \>= 7.3                 | <http://www.opencascade.org>                                                  |
 ++++
-| Qt                  | \>= 4.1                 | <https://www.qt.io/>                                                          |
+| Qt                  | \>= 5.4                 | <https://www.qt.io/>                                                          |
 ++++
 | Shiboken2           |          | <https://wiki.qt.io/Qt_for_Python/Shiboken>                                   |
 |                     | **same as Qt** |                                                                               |
@@ -47,23 +32,27 @@ Le librerie utilizzate sono:
 |                     | **same as Qt** |                                                                               |
 |                     |                      |                                                                               |
 ++++
-| Coin3D              | \>= 3.x                 | <https://bitbucket.org/Coin3D/coin/wiki/Home>                                 |
+| Coin3D              | \>= 3.x                 | <https://github.com/coin3d/coin>                                              |
 ++++
-| SoQt (deprecated)   | \>= 1.2                 | <https://bitbucket.org/Coin3D/soqt/src/default/>                              |
+| SoQt (deprecated)   | \>= 1.2                 | <https://github.com/coin3d/soqt>                                              |
 ++++
-| Quarter             | \>= 1.0                 | <https://bitbucket.org/Coin3D/quarter/src/default/>                           |
+| Quarter             | \>= 1.0                 | <https://github.com/coin3d/quarter>                                           |
+++++
+| Pivy                | \>= 0.6.5               | <https://github.com/coin3d/pivy/>                                             |
 ++++
 | FreeType            | \>= XXX                 | XXX                                                                           |
 ++++
 | PyCXX               | \>= XXX                 | XXX                                                                           |
 ++++
-| KDL                 | \>= XXX                 | XXX                                                                           |
+| KDL                 | \>= XXX                 | <https://orocos.org/wiki/orocos/kdl-wiki.html>                                |
 ++++
 | Point Cloud Library | \>= XXX                 | XXX                                                                           |
 ++++
 | Salome SMESH        | \>= XXX                 | XXX                                                                           |
 ++++
 | VTK                 | \>= 6.0                 | XXX                                                                           |
+++++
+| Ply                 | \>= 3.11                | <https://www.dabeaz.com/ply/>                                                 |
 ++++
 | Xerces-C++          | \>= 3.0                 | <https://xerces.apache.org/xerces-c/>                                         |
 ++++
@@ -79,7 +68,6 @@ Le librerie utilizzate sono:
 ++++
 
 
-</div>
 
 ## Dettagli
 
@@ -90,34 +78,28 @@ Le librerie utilizzate sono:
 **Licenza:** licenza Python 3.3
 
 
-**Python 2 became obsolete in 2019. Further development of FreeCAD will use exclusively Python 3; compatibility with Python 2 won't be tested, so old workbenches and macros that use this version will have to be updated or they may stop working. Please post on the [https://forum.freecadweb.org/ FreeCAD forum] if you encounter problems with Python 3.**
+**Python 2 è diventato obsoleto nel 2019. L'ulteriore sviluppo di FreeCAD utilizzerà esclusivamente Python 3; la compatibilità con Python 2 non verrà testata, quindi i vecchi ambienti di lavoro e le macro che utilizzano questa versione dovranno essere aggiornati o potrebbero smettere di funzionare. Si prega di avvisare sul [https://forum.freecadweb.org/ forum di FreeCAD] se si riscontrano problemi con Python 3.**
 
-Python is a popular all-purpose scripting language that is widely used in Linux and open source software. In FreeCAD, Python is used during compilation and also at runtime in different ways. It is used
+Python è un popolare linguaggio di scripting per tutti gli usi ampiamente utilizzato in Linux e nel software open source. In FreeCAD, Python viene utilizzato durante la compilazione e anche in fase di esecuzione in diversi modi. È utilizzato
 
--   to write test scripts to test for different conditions, such as memory leaks, to ensure functionality of the software after changes, for post build checks, and test coverage tests,
--   to write [macros](macros.md) and macro recording,
--   to implement application logic for standard packages,
--   to implement auxiliary tools such as the [Addon Manager](Std_AddonMgr.md),
--   to implement entire workbenches like [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md),
--   to dynamically load packages,
--   to implement rules for design (knowledge engineering),
--   to do fancy Internet interactions like work groups and PDM
+-   per scrivere script di test per testare condizioni diverse, come perdite di memoria, per garantire la funzionalità del software dopo le modifiche, per controlli post-compilazione e test di copertura dei test,
+-   per scrivere [macro](Macros/it.md) e registrazione di macro,
+-   per implementare la logica dell\'applicazione per i pacchetti standard,
+-   per implementare strumenti ausiliari come [Addon Manager](Std_AddonMgr/it.md),
+-   per implementare interi ambienti di lavoro come [Draft](Draft_Workbench/it.md) e [Arch](Arch_Workbench/it.md),
+-   per caricare dinamicamente i pacchetti,
+-   implementare regole per la progettazione (ingegneria della conoscenza),
+-   per creare interazioni fantasiose su Internet come gruppi di lavoro e PDM
 
+Su Linux, Python è solitamente già installato nella propria distribuzione. Per Windows è possibile ottenere un binario precompilato da [1](http://www.python.org/Python.org) o usare [ActiveState Python](http://www.activestate.com/), anche se è più difficile ottenere le librerie di debug da quest\'ultimo.
 
-<div class="mw-translate-fuzzy">
+Python è stato scelto come linguaggio di scripting per FreeCAD per diversi motivi:
 
-È possibile utilizzare il codice sorgente o i binari forniti da <http://www.python.org/> oppure, in alternativa, utilizzare ActiveState Python fornito da <http://www.activestate.com/> anche se è un po\' difficile ottenere le librerie di debug da ActiveState.
+-   È più orientato agli oggetti rispetto a Perl e Tcl.
+-   Il codice è più leggibile di Perl e Visual Basic.
+-   È più facile da incorporare in un\'altra applicazione, a differenza, ad esempio, di Java.
 
-
-</div>
-
-Python was chosen as the scripting language for FreeCAD for different reasons:
-
--   It is more object oriented than Perl and Tcl.
--   The code is more readable than Perl and Visual Basic.
--   It is easier to embed in another application, unlike, say, Java.
-
-In summary, Python is well documented, and it\'s easy to embed and extend in a C++ application. It is also well tested and has strong support from the open source community. Read more about Python and browse the official documentation at [Python.org](http://www.python.org).
+In sintesi, Python è ben documentato ed è facile da incorporare ed estendere in un\'applicazione C++. È anche ben testato e gode di un forte sostegno da parte della comunità open source. Letture ulteriori su Python sfogliando la documentazione ufficiale su [Python.org](http://www.python.org).
 
 ### Boost
 
@@ -125,39 +107,15 @@ In summary, Python is well documented, and it\'s easy to embed and extend in a C
 
 **Licenza:** Boost Software License - Versione 1.0
 
+Le librerie Boost C++ sono raccolte di librerie open source sottoposte a revisione paritaria che estendono le funzionalità di C++. Sono pensate per essere ampiamente utili in un ampio spettro di applicazioni e per funzionare bene con la libreria standard C++. La licenza Boost è progettata per incoraggiarne l\'uso in progetti open source e closed source.
 
-<div class="mw-translate-fuzzy">
+A causa della loro popolarità e stabilità, molte librerie Boost sono state accettate per l\'incorporazione nello standard C++11 e altre sono pianificate per l\'inclusione nei successivi standard C++.
 
-Le librerie Boost C++ sono un insieme di librerie open source sottoposte a revisione paritaria, librerie che estendono le funzionalità di C++. Le librerie sono rilasciate sotto Licenza Boost Software, progettate per consentire a Boost di essere utilizzato sia con progetti aperti che chiusi. Molti dei fondatori di Boost fanno parte della commissione C++ standard e diverse librerie di Boost sono state accettate per l\'incorporazione nel Technical Report 1 di C++0x.
+Al fine di garantire efficienza e flessibilità, Boost fà ampio uso di modelli. Boost è stata una fonte di intenso lavoro e di ricerca nella programmazione generica e nella meta-programmazione in C++. Maggiori informazioni su Boost visitando la [home page di Boost](http://www.boost.org/).
 
+### OpenCASCADE Technology 
 
-</div>
-
-Due to their popularity and stability, many Boost libraries have been accepted for incorporation into the C++11 standard, and more are planned for inclusion in subsequent C++ standards.
-
-
-<div class="mw-translate-fuzzy">
-
-Al fine di garantire efficienza e flessibilità, Boost fà ampio uso di modelli. Boost è stata una fonte di intenso lavoro e di ricerca nella programmazione generica e nella meta-programmazione in C++.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-#### OpenCasCade
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-**Versione:** 5.2 o superiore
-
-
-</div>
+**Versione:** 6.7 o superiore
 
 
 <div class="mw-translate-fuzzy">
@@ -198,6 +156,8 @@ Per saperne di più su OpenCascade visitare la pagina di OpenCascade o consultar
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -246,6 +206,8 @@ Further information about Qt libraries and their programming documentation are a
 The original Shiboken and PySide packages were meant to be used with Python 2 and Qt4; since these two versions are considered obsolete in 2019, please use Shiboken2 and PySide2, which work with Python 3 and Qt5. New development of FreeCAD is done with Python 3 and Qt5, so compatibility with Python 2 and Qt4 is not guaranteed after FreeCAD 0.18.
 
 Read more about Shiboken and Pyside on [Qt for Python](https://wiki.qt.io/Qt_for_Python/Shiboken).
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -312,6 +274,8 @@ Coin è portabile su un\'ampia gamma di piattaforme: qualsiasi piattaforma UNIX 
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### SoQt
@@ -366,6 +330,8 @@ If you are not going to use these workbenches, you won\'t need Pivy.
 Ply is the Python-Lex-Yacc parser. It is used as a runtime dependency by the [OpenSCAD Workbench](OpenSCAD_Workbench.md). If you don\'t use this workbench, you may not need this package.
 
 For more information see [Ply homepage](https://www.dabeaz.com/ply/)
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -460,6 +426,8 @@ zlib è una libreria di compressione usabile praticamente su qualsiasi hardware 
 </div>
 
 A copy of this library is included in the source code of FreeCAD so it is compiled together with it.
+
+
 
 
 <div class="mw-translate-fuzzy">

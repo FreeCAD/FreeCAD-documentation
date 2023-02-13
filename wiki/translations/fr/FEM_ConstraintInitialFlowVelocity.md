@@ -13,6 +13,8 @@
 
 Crée une contrainte de vitesse initiale d\'écoulement pour une analyse d\'écoulement de fluide.
 
+
+
 ## Utilisation
 
 1.  Vous pouvez soit appuyer sur le bouton de la barre d\'outils **<img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> '''Contrainte de vitesse initiale d'écoulement'''** soit sélectionner le menu **Modèle → Contraintes du fluide → <img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> Contrainte de vitesse initiale d'écoulement**.
@@ -23,12 +25,20 @@ Crée une contrainte de vitesse initiale d\'écoulement pour une analyse d\'éco
 
 -   La contrainte ne peut pas être orientée autrement qu\'en utilisant les composantes cartésiennes principales. Il s\'agit d\'une limitation d\'Elmer.
 
+
+
 ## Remarques
 
 Dans les analyses les plus simples, il n\'est pas nécessaire de spécifier la vitesse d\'écoulement initiale, mais cela est recommandé comme une bonne pratique.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{FEM Tools navi

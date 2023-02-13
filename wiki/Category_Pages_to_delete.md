@@ -7,10 +7,7 @@ See [:Template:Delete](:Template_Delete.md) on how to use the deletion template.
 
 |     |     |     |
 | --- | --- | --- |
-| [File:Pd tut rect edc.png](wiki/File_Pd tut rect edc.png.md) | [File:Pd tut rect01.png](wiki/File_Pd tut rect01.png.md) | [File:Pd tut rect02..png](wiki/File_Pd tut rect02..png.md) |
-| [File:Pd tut rect05.png](wiki/File_Pd tut rect05.png.md) | [File:Pd tut side start.png](wiki/File_Pd tut side start.png.md) | [File:Pd tut sk2 eg02.png](wiki/File_Pd tut sk2 eg02.png.md) |
-| [File:Pd tut sk2 eg03.png](wiki/File_Pd tut sk2 eg03.png.md) | [File:Pd tut sp02.png](wiki/File_Pd tut sp02.png.md) | [File:Pd tut sp03.png](wiki/File_Pd tut sp03.png.md) |
-| [File:Pd tut sp04.png](wiki/File_Pd tut sp04.png.md) |
+|
 
 
 

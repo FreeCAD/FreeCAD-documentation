@@ -1,6 +1,8 @@
 # Getting started/es
 {{TOCright}}
 
+
+
 ## Prólogo
 
 FreeCAD es una 3D [aplicación de modelado paramétrico](About_FreeCAD/es.md). Esta primeramente hecha para diseño mecánico, pero también sirve a muchos otros usos donde donde necesitas modelado 3D con precisión y control sobre historial de modelado.
@@ -11,13 +13,23 @@ Como todos los proyectos de software libre, FreeCAD depende de su comunidad para
 
 Ver también:
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Migrando a FreeCAD desde Fusion360](Migrating_to_FreeCAD_from_Fusion360/es.md)
 -   [Tutoriales](Tutorials/es.md)
 -   [Video Tutoriales](Video_tutorials/es.md)
 
+
+</div>
+
+
+
 ## Instalación
 
 En primer lugar, descarga e instala FreeCAD. Consulte la página [Descargar](Download/es.md) para obtener información sobre las versiones y actualizaciones actuales, y las instrucciones de instalación para tu sistema operativo ([Windows](Installing_on_Windows/es.md), [Linux](Installing_on_Linux/es.md) o [Mac](Installing_on_Mac/es.md)). Hay paquetes de instalación listos para Windows (.msi), Debian y Ubuntu (.deb), openSUSE (.rpm), y Mac OSX. FreeCAD está disponible en los gestores de paquetes de muchas otras distribuciones de Linux. También está disponible un ejecutable [AppImage](AppImage/es.md) independiente, que se ejecutará en los sistemas Linux de 64 bits más recientes. Como FreeCAD es de código abierto, también puedes obtener el código fuente y [compilar](Compiling/es.md) por ti mismo.
+
+
 
 ## Explorando la interfaz 
 
@@ -63,6 +75,8 @@ Cuando comienzas FreeCAD por primera vez, se te presenta la página de inicio. E
 
 La página de inicio te permite saltar rápidamente a uno de los ambientes de trabajo más comunes, abrir uno de los archivos recientes, o ver las últimas noticias del mundo de FreeCAD. Puedes cambiar el ambientes de trabajo por defecto en las [preferencias](Preferences_Editor/es.md).
 
+
+
 ## Navegando en el espacio 3D 
 
 
@@ -75,6 +89,8 @@ FreeCAD tiene tres diferentes [Modos de navegación](Mouse_navigation/es.md) dis
 
 También tiene varias vistas preconfiguradas (vista superior, vista frontal, etc.) disponibles en el menú Ver, en la barra de herramientas Ver, y, por atajos numéricos (**1**, **2**, etc\...). Dado clic derecho sobre un objeto o sobre un area vacia de la vista 3D, tienes acceso directo a algunas operaciones comunes, tal como configurar una vista particular, o ubicar un objeto en la vista de árbol.
 
+
+
 ## Primeros paso con FreeCAD 
 
 El enfoque de FreeCAD es permitirte hacer modelos 3D de alta presición, para mantener un control ajustado sobre estos modelos(ser capaz de retroceder dentro del historial de modelado y cambiar parametros), y eventualmente construir estos modelos (impresion 3D, mecanizado CNC o incluso sitio de construción). Es por lo tanto muy diferente de algunas otras aplicaciones 3D hechas para otros propositos, tal como animacion o juegos. Su curva de aprendizaje puede ser doloroza, especialmente si este es tu primer contacto con modelado 3D. Si esta atorado en algun punto, no olvides que la amigable comunidad de usuarios en el [Foro de FreeCAD](http://forum.freecadweb.org/index.php) podrian sacarte en poco tiempo.
@@ -82,6 +98,8 @@ El enfoque de FreeCAD es permitirte hacer modelos 3D de alta presición, para ma
 El ambiente de trabajo que empezaras a utilizar depende sobre el tipo de trabajo que necesitas hacer: Si tu vas a trabajar sobre modelos mecanicos, o más generalmente hablando cualquier objecto de pequeña escala, tu podrias probablemente querer probar el [Ambiente de trabajo DiseñoPiezas](PartDesign_Workbench/es.md). Si vas a trabajar en 2D, entonces cambia a el [Ambiente de trabajo Borrador](Draft_Workbench/es.md) o el [Ambiente de trabajo Croquizador](Sketcher_Workbench/es.md) si necesitas acotaciones. si tu quieres hacer BIM, ejecuta el [Ambiente de trabajo Arquitectura](Arch_Workbench/es.md). Si estas trabajando con diseño de barcos, allí esta un [Ambiente de trabajo Navío](Ship_Workbench/es.md) para tí. Y si tu vienes del mundo de OpenSCAD prueba el [Ambiente de trabajo OpenSCAD](OpenSCAD_Workbench/es.md). También hay disponibles muchos [Ambientes de trabajo externos](External_workbenches/es.md) desarrollados por la comunidad.
 
 Tú puedes cambiar de ambiente de trabajo en el momento que quieras, y también [personalizar](Interface_Customization/es.md) tu Ambiente de trabajo favoritos agregando herramientas de otros Ambiente de trabajos.
+
+
 
 ## Trabajando con el Ambiente de trabajo DiseñoPiezas y Ambiente de trabajo Croquizador 
 
@@ -107,6 +125,8 @@ El cual te da un objeto como este:
 
 En cualquier momento, puedes seleccionar el origen del croquis y modificarlo, o cambiar los parametros de extrusión de la plataforma u operaciones de baciado, las cuales actualizarán el objeto final.
 
+
+
 ## Trabajando con el Ambiente de trabajo Borrador y el Ambiente de trabajo Arquitectura 
 
 El [Ambiente de trabajo Borrador](Draft_Workbench/es.md) y [Ambiente de trabajo Arquitectura](Arch_Workbench/es.md) se comportan un poco diferente que los otros bancos de trabajo de arriba, a pesar que ellos siguen las mismas reglas, las cuales son comunes de todo FreeCAD. En breve, mientras el Boceto y diseño de parte están hechas primeramente para diseñar piezas sencillas, borrador y arquitectura son hechos para facilitar tu trabajo cuando están trabajando con varios, objetos sencillos.
@@ -131,6 +151,8 @@ El cual te dará esto:
 
 Más en la [Tutorialespágina](Tutorials/es.md).
 
+
+
 ## Complementos, Macro y Ambiente de trabajo Externos 
 
 
@@ -148,9 +170,13 @@ Hay dos tipos de complementos:
 1.  [Macros](Macros/es.md): breves fragmentos de código Python que proporcionan una nueva herramienta o funcionalidad. Las macros suelen empezar como una forma de simplificar o automatizar la tarea de dibujar o editar un objeto concreto. Si muchas de estas macros se reúnen dentro de un directorio, todo el directorio puede ser distribuido como un nuevo ambiente de trabajo.
 2.  [Ambientes de trabajo externos](External_workbenches/es.md): colecciones de herramientas programadas en Python o C++ que extienden FreeCAD de forma importante. Si un ambiente de trabajo está suficientemente desarrollado y está bien documentado, puede ser incluido como uno de los ambientes de trabajo base en FreeCAD. En [Ambientes de trabajo externos](External_workbenches/es.md), encontrarás el principio y una lista de las bibliotecas existentes.
 
+
+
 ## Guión
 
 Y finalmente, una de las características más poderosas de FreeCAD es el entorno [scripting](scripting/es.md). Desde la consola python integrada (o desde cualquier otro script python externo), se puede acceder a casi cualquier parte de FreeCAD, crear o modificar la geometría, modificar la representación de esos objetos en la escena 3D o acceder y modificar la interfaz de FreeCAD. El script Python también se puede utilizar en [macros](macros/es.md), que proporcionan un método sencillo para crear comandos personalizados.
+
+
 
 ## ¿Qué hay de nuevo 
 

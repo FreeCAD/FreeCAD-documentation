@@ -3,6 +3,8 @@
 
 **Umiejscowienie** to sposób w jaki FreeCAD określa położenie i pozycję *(orientację)* obiektu w przestrzeni. Umiejscowienie może być określone w wielu formach i manipulowane poprzez [skrypty](Python_scripting_tutorial#Vectors_and_placements.md), [Edytor właściwości](Property_editor/pl.md) lub wybierając **Edycja → Umiejscowienie...** aby otworzyć [Panel zadań umiejscowienie](Std_Placement/pl.md).
 
+
+
 ### Dostęp do atrybutu Umiejscowienie 
 
 Atrybuty Umiejscowienia obiektu mogą być dostępne i modyfikowane na 3 sposoby:
@@ -13,9 +15,13 @@ Atrybuty Umiejscowienia obiektu mogą być dostępne i modyfikowane na 3 sposoby
 
 ![Panel zadań umiejscowienia](images/PlacementDialogv10.png ) 
 
+
+
 ## Formy umiejscowienia 
 
 Umiejscowienie jest przechowywane wewnętrznie jako pozycja i obrót (oś obrotu i kąt przekształcone w [quaternion](https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation)). Chociaż istnieje kilka form określania obrotu, na przykład środek obrotu, jest on używany tylko do wpływania na obliczanie obrotu i nie jest przechowywany do późniejszych operacji. Podobnie, jeśli określona jest oś obrotu o wartości (1,1,1), może ona zostać znormalizowana podczas przechowywania w kwaternionie i pojawić się jako (0.58, 0.58, 0.58) podczas późniejszego przeglądania obiektu.
+
+
 
 ### Kąt, oś i pozycja 
 
@@ -35,6 +41,8 @@ Pierwsza forma **Umiejscowienia** ustala położenie obiektu w przestrzeni za po
 Zauważ, że możliwe jest również translacja *(przemieszczanie)* obiektu wzdłuż tej osi obrotu (ruch osiowy) poprzez wpisanie odległości do przemieszczenia w polu {{SpinBox|Osiowo: 0.0mm}} i kliknięcie **Zastosuj osiowo**. *(Jednym ze sposobów wyobrażenia sobie ruchu osiowego jest samolot ze śmigłem obracającym się na dziobie - śmigło obraca się*wokół*osi obrotu, podczas gdy samolot porusza się*wzdłuż*tej samej osi)*. Wartości w wektorze można traktować jako względną wielkość ruchu, który zostanie wykonany w danym kierunku. Na przykład w przypadku y=x *(0,71,0,71,0)* wartość zawarta w polu wyboru osi zostanie zastosowana w równej mierze w kierunkach X i Y, ale w kierunku Z nie nastąpi żaden ruch.
 
 **Pozycja = (x,y,z)** to wektor opisujący punkt, od którego będzie obliczana geometria obiektu *(w efekcie jest to \"lokalny początek\" obiektu)*. Należy zauważyć, że w skryptach do oznaczenia składowej położenia obiektu Placement.Base jest używana wartość Placement.Base. Edytor właściwości nazywa tę wartość **pozycją**, a panel zadań Umiejscowienia - przesunięciem.
+
+
 
 ### Pozycja i odchylenie, pochylenie oraz obrót 
 
@@ -70,6 +78,8 @@ App.Rotation(10,20,30) = Kąt Eulera
 ![](images/Tache_Placement_Roulis_fr_Mini.gif )**Obrót** to obrót wokół osi X, czyli w górę i w dół skrzydła.
 *(Kąt obrotu to **Thêta θ**)*. 
 
+
+
 ### Macierz
 
 **Umiejscowienie = Macierz**
@@ -82,6 +92,8 @@ Trzecia forma **Umiejscowienia** opisuje położenie i orientację obiektu za po
    (r21,r22,r23,t2),
    (r31,r32,r33,t3),
    (0,0,0,1)) , gdzie r*ij* określa obrót, a t*i* - przesunięcie. 
+
+
 
 
 
@@ -118,6 +130,8 @@ Rozważmy teraz przypadek wybrania dwóch punktów. Wybieramy dwa żądane punkt
 
 Rozważmy teraz przypadek wybrania trzech punktów. Wybieramy trzy żądane punkty, a następnie klikamy przycisk **Wybrane punkty**. Współrzędne pierwszego wybranego punktu *(kolejność wyboru jest tu bardzo ważna)* zostaną umieszczone w polach X, Y i Z w sekcji **Środek**. Ponieważ te trzy punkty definiują płaszczyznę, FreeCAD może to wykorzystać i użyć tych punktów do utworzenia nowej niestandardowej *(zdefiniowanej przez użytkownika)* osi obrotu, która jest normalną *(prostopadła)* do tej zdefiniowanej płaszczyzny. Podobnie jak w przypadku dwuch wybranych punktów, odległość między punktami jest również wyświetlana w widoku raportu, ale tym razem jest to odległość między drugim i trzecim wybranym punktem. *(Uwaga: Przytrzymaj klawisz **Shift** podczas klikania przycisku **Wybrane punkty** \-- Shift + Kliknij \-- aby skopiować miarę kąta do schowka)*. Dodatkowo, kąt między drugim i trzecim punktem jest również mierzony i wyświetlany w widoku raportu. Wprowadzając ten kąt do pola wyboru **Kąt** w sekcji **Obrót** możemy bardzo precyzyjnie obrócić obiekt tak, aby teraz drugi zaznaczony punkt był w jednej linii ze współrzędnymi trzeciego zaznaczonego punktu. *(Uwaga: jeśli chcesz uzyskać większą precyzję, możesz zwiększyć liczbę cyfr w menu Edycja → Preferencje → Ogólne → Jednostki → Liczba miejsc po przecinku)*.
 
+
+
 ## Przykłady
 
 Obroty wokół jednej osi:
@@ -139,6 +153,8 @@ Obrót z użyciem kątów Eulera:
 <img alt="Przed obrotem" src=images/RotationEulerBefore.png  style="width:600px;"> Przed obrotem 
 
 <img alt="Po obrocie" src=images/RotationEulerAfter.png  style="width:600px;"> Po obrocie 
+
+
 
 ## Placement.Base a definicja kształtu 
 
@@ -173,6 +189,8 @@ Oba prostopadłościany mają taką samą wartość dla Umiejscowienia, ale ró�
  >>>
 
 Wierzchołki *(lub wektory)* definiujące kształt używają atrybutu Placement.Base jako ich punktu odniesienia położenia. Jeśli chcemy przesunąć kształt o 10 jednostek wzdłuż osi X, możemy dodać 10 do współrzędnych **X** wszystkich wierzchołków lub ustawić wartość atrybutu Placement.Base na (10,0,0).
+
+
 
 ## Używanie \"środka\" do kontroli osi obrotu 
 
@@ -216,6 +234,8 @@ newplace = FreeCAD.Placement(pos,rot,centre)        # make a new Placement objec
 obj.Placement = newplace                            # spin the box
 ```
 
+
+
 ## Używanie umiejscowienia w wyrażeniach 
 
 W wyrażeniach można używać składowych umiejscowienia. W wyrażeniach możliwe jest użycie składowych umiejscowienia, na przykład w celu uzyskania dostępu do składowej x obiektu oznaczonego jako \"Cube\":
@@ -256,6 +276,8 @@ Aby zrównać umiejscowienie \"Szkicu\" z umiejscowieniem \"Cylindra\", należa�
 
 **UWAGA:** Możliwe jest również *tworzenie* obiektów Umiejscowienie w wyrażeniach. Zobacz stronę [Wyrażenia](Expressions/pl#Umiejscowienie.md), aby dowiedzieć się więcej.
 
+
+
 ## Uwagi
 
 -   Właściwości Umiejscowienie w zakładce Dane są nieaktywne dla obiektów, które są dołączone do innego obiektu. Zamiast tego należy edytować Przesunięcie dołączenia.
@@ -271,13 +293,23 @@ Aby zrównać umiejscowienie \"Szkicu\" z umiejscowieniem \"Cylindra\", należa�
   Part.Torus                    środek torusa
   Obiekty pochodne od szkiców   obiekty dziedziczą pozycję bazowego szkicu. Szkice zawsze zaczynają się w pozycji = (0,0,0). Pozycja ta odpowiada punktowi położenia odniesienia w szkicu.
 
+
+
 ## Problemy
 
 -   Względne rozmieszczanie obiektów będzie docelowo obsługiwane w środowisku pracy Złożenie.
 
+
+
 ## Więcej
 
+
+<div class="mw-translate-fuzzy">
+
 -   Ten poradnik: [Aeroplan](Aeroplane/pl.md) obszernie omawia mechanikę zmiany położenia obiektu.
+
+
+</div>
 
 
 

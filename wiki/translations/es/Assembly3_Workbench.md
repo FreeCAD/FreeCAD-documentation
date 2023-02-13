@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introducción
 
 <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/es.md) es un [Ambiente de trabajo externo](External_workbenches/es.md) que se utiliza para realizar el ensamblaje de diferentes cuerpos contenidos en un único archivo o en múltiples documentos. El ambiente de trabajo se basa en varios cambios en las funciones principales realizados para la versión de FreeCAD 0.19 (por ejemplo, [Enlace Aplicación](App_Link/es.md)), por lo que el ambiente de trabajo Assembly3 no puede utilizarse con versiones anteriores.
@@ -25,9 +27,19 @@ Las principales características del Assembly3 Ambiente de trabajo son
 
 [inicio](#top.md)
 
+### Toolbars
+
+
+<div class="mw-translate-fuzzy">
+
 ### Barras Herramienta 
 
 A partir de 2020, el ambiente de trabajo Assembly3 cuenta con las siguientes barras herramienta.
+
+
+</div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -124,6 +136,8 @@ La **Barra Herramienta principal** contiene herramientas que cubren las funcione
 
 </div>
 
+
+
 #### Barra Herramienta Restricciones Principales 
 
 :   <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width:28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width:14px;"><img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width:28px;">
@@ -217,6 +231,8 @@ La **Barra Herramienta principal** contiene herramientas que cubren las funcione
 
 </div>
 
+
+
 #### Barras Herramienta Restricciones Adicionales 
 
 :   <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width:28px;"> (Assembly3 Constraints2)
@@ -305,9 +321,17 @@ La **Barra Herramienta principal** contiene herramientas que cubren las funcione
     :   whether 2D/3D or if more than 2 Elements can be added.
 :   A detailed description can be found in the GitHub wiki.
 
+#### Navigation Toolbar 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Barra Herramienta de navegación 
 
 :   <img alt="" src=images/Assembly_GotoRelation.svg‎‎  style="width:28px;"> <img alt="" src=images/LinkSelect.svg‎‎  style="width:28px;"> <img alt="" src=images/LinkSelectFinal.svg‎‎  style="width:28px;">
+
+
+</div>
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -329,6 +353,8 @@ La **Barra Herramienta principal** contiene herramientas que cubren las funcione
 
 
 </div>
+
+
 
 #### Barra Herramienta de medición 
 
@@ -364,6 +390,8 @@ La **Barra Herramienta principal** contiene herramientas que cubren las funcione
 As usual you can modify the tool bars and add or remove single tools. Be sure to check the menu Assembly3 for functions that may not be present in the tool bars.
 
 [inicio](#top.md)
+
+### Constraints
 
 
 <div class="mw-translate-fuzzy">
@@ -409,9 +437,17 @@ Other
 
 [inicio](#top.md)
 
+### Elements
+
+
+<div class="mw-translate-fuzzy">
+
 ### Elementos
 
 Elementos es un término específico utilizado en el banco de trabajo de Assembly3 y es importante entender los elementos para comprender cómo se debe utilizar Assembly3.
+
+
+</div>
 
 It is helpul to think of an Element as a general word for a \'selectable item\' of a part, i.e. a face, an edge, a circle or a corner or other point. The items you select to constrain them, are those Elements. In the tree an Assembly folder has three sub-folders. Beside \'Parts\' and \'Constraints\' there is a folder named \'Elements\', which is emtpy as long as there are no constraints added. When adding a constraint the constraint itself gets two (or more) leafs, these are the selected \'Elements\'. Also these get added in the \'Elements\' folder which is just a list of all Elements used in the assembly. Its a good idea to change their names (with F2 key), especially in bigger assemblies.
 
@@ -437,6 +473,8 @@ The example showed that without removing the constraint we can change the Elemen
 
 [inicio](#top.md)
 
+
+
 ## Compatibilidad
 
 Assembly3 se inspiró en [Assembly2](Assembly2_Workbench/es.md), pero no es compatible con él. Si tienes modelos más antiguos hechos en Assembly2, deberías quedarte con FreeCAD 0.16 y usar Assembly2 allí.
@@ -446,6 +484,8 @@ Los nuevos modelos desarrollados con Assembly3 sólo deben abrirse y editarse co
 Aunque tengan herramientas similares, Assembly3 no es compatible con [A2plus](A2plus_Workbench/es.md) ni con [Assembly4](Assembly4_Workbench/es.md). Los modelos creados con estos ambientes de trabajo deben abrirse sólo con su respectivo ambiente de trabajo.
 
 [inicio](#top.md)
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -467,18 +507,29 @@ El [ Ambiente de trabajo Assembly3](Assembly3_Workbench/es.md) está en desarrol
 
 There are 2 alternate ways to install Assembly3:
 
--   A special fork of FreeCAD made by realthunder; see [FreeCAD_assembly3 releases](https://github.com/realthunder/FreeCAD_assembly3/releases). This fork is based on a particular commit of the master branch of FreeCAD, but it also has additional features currently not present in the master branch. Due to this fork being based on a particular development snapshot, it does not have the latest features merged daily to the master branch.
+-   A special fork of FreeCAD made by realthunder; see [here](https://github.com/realthunder/FreeCAD/releases). This fork is based on a particular commit of the master branch of FreeCAD, but it also has additional features currently not present in the master branch. Due to this fork being based on a particular development snapshot, it does not have the latest features merged daily to the master branch.
 -   The development [AppImage](AppImage.md); this is based on the current master branch, and includes the dependencies needed for working with Assembly3 such as the SolveSpace solver.
 
 Since the AppImage only works for Linux, for Windows users (who want an alternate install of Assembly3) option to test Assembly3 is the first option (realthunder\'s fork).
 
 [inicio](#top.md)
 
+
+
 ## Instrucción
+
+### Get Started 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Empezar
 
 Hay muchas maneras de crear un ensamblaje con Assembly3. Esta es la más sencilla que puedes hacer.
+
+
+</div>
+
 
 :   <img alt="" src=images/Assembly3_Example-GettingStarted.jpg  style="width:600px;">
 :   *Final Result of the Getting Started Example. In the image the Assembly3 Workbench is selected, so its multiple toolbars are visible. Note that the vertical \"TabBar\" left of the tree view is an AddOn Workbench that is not contained in standard FreeCAD (but can be installed with the Addon-Manager).*
@@ -550,9 +601,17 @@ Example:
 
 [inicio](#top.md)
 
+### Solve a Solver Failure 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Resolver un fallo de solucionador 
 
 Esto sucede a menudo cuando las piezas están sobre-restringidas, es decir, más de 6 DOF están bloqueados.
+
+
+</div>
 
 The easiest way to find the problem is to click relevant constraints in the tree and select *ContextMenu/Disable* and re-calculate. It is helpful to know the last added constraints before the solver failed and just undo them.
 
@@ -617,6 +676,8 @@ One way to solve this is to just delete all invalid constraints and elements, im
 -   Using the [TabBar Workbench](https://github.com/triplus/TabBar) speeds up working with assembly. This adds a Toolbar with one button for each workbench. You can sort the toolbar and can put it where every you want it. Many people put it vertically on the left side just beside the tree view. Of you have Assembly3, Part, PartDesign and other often used workbenches close to the top switching between them becomes extremely easy.
 
 [inicio](#top.md)
+
+
 
 ## Enlaces
 

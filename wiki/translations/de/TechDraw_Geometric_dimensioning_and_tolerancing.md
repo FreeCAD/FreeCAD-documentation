@@ -1,6 +1,8 @@
 # TechDraw Geometric dimensioning and tolerancing/de
 {{TOCright}}
 
+
+
 ## Konzept
 
 Der Hauptzweck einer technischen Zeichnung besteht darin, dass andere verstehen, was der Konstrukteur mit welchen Toleranzen entworfen hat UND wie der Entwurf zu fertigen ist. Da die meisten Teile zu Baugruppen passen müssen, sind auch die geometrischen Beziehungen zu anderen Teilen wichtig. Um dies zu erreichen, wurde das System der [Form- und Lagetoleranz](https://de.wikipedia.org/wiki/Form-_und_Lagetoleranz) (GD&T engl. Geometric Dimensioning and Tolerancing) entwickelt.
@@ -23,9 +25,13 @@ GD&T is normed in the norms [ISO 1101](http://geo-dim-tol.ir/files/iso1101.pdf) 
 
 TechDraws\' capabilities to fulfill the common GD&T standards is limited (as of FreeCAD 0.20) but you can achieve already many things. This Wiki page explains what is implemented and what tricks can be used for non-implemented features. **Note:** this Wiki page is not about to teach GD&T!
 
+
+
 ## Bemaßung
 
-TechDraw provides several tools to create different types of dimension. Please have a look at the [different dimensions](TechDraw_Workbench#Dimensions.md) on how to create and modify them.
+TechDraw enthält mehrere Werkzeuge zum Erstellen unterschiedlicher Maße. Bitte bei den [unterschiedlichen Maßen](TechDraw_Workbench/de#Maße.md) nachsehen, wie sie erstellt und bearbeitet werden.
+
+
 
 ### Formatierung
 
@@ -47,24 +53,32 @@ The syntax of the format specifier is [explained here](https://www.cplusplus.com
 
 With the property **Inverted** you can make length dimensions negative and flip angles from the range 0 - 180° to the the reflex range 180° - 360°.
 
-Setting the option **Theoretically Exact** in the dimension dialog will mark the dimension as theoretically exact by adding a frame around it.
+Wird die Option **Theoretisch genau** im Dialog Maßeintrag aktiviert, wird das Maß mit einem rechteckigen Rahmen umgeben, um es als theoretisch genau zu kennzeichnen.
 
 You can use your own text instead of a formatted number by setting the option **Arbitrary Text** in the dimension dialog. Then the content of the field **Format Specifier** will be printed as dimension.
 
 With the properties **X** and **Y** you can change the horizontal and vertical position of the dimension text relative to the view. Alternatively you can change the position by dragging the dimension number or text.
 
+
+
 ### Toleranzen
 
-#### Erstellung
 
-1.  Create a [dimension](TechDraw_Workbench#Dimensions.md) in your drawing
-2.  Either double-click on the dimension in the drawing or onto the dimension object in the model tree
-3.  In the appearing dimension dialog specify as **Overtolerance** the amount by which the dimension can be exceeded.This will result in an equal tolerance like this: <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">
-4.  If you have unequal tolerances, specify as **Undertolerance** the amount by which the dimension can be smaller and uncheck the option **Equal Tolerance**.This will result in an unequal tolerance like this: <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">
 
-#### Löschung
+#### Erstellen
 
-To get rid of a tolerance, change **Overtolerance** and **Undertolerance** to each zero.
+1.  Ein [Maß](TechDraw_Workbench/de#Maße.md) in der Zeichnung eintragen.
+2.  Entweder das Maß in der Zeichnung oder das Dimension-Objekt in der Baumansicht doppelklicken.
+3.  In dem geöffneten Dialog Maßeintrag wird unter Oberes Abmaß der Wert angegeben, um den eine Abmessung das (Nenn-) Maß überschreiten darf.Dies ergibt eine symmetrische Toleranz, wie diese: <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">
+4.  Für unterschiedliche Abmaße wird unter Unteres Abmaß der Wert angegeben, um den eine Abmessung das (Nenn-) Maß unterschreiten darf und die Option \"Symmetrische Toleranz\" wird deaktiviert.Dies ergibt eine Toleranz mit unterschiedlichen Abmaßen, wie diese: <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">
+
+
+
+#### Entfernen
+
+Um eine Toleranzangabe zu entfernen, werden sowohl \"Oberes Abmaß\" als auch \"Unteres Abmaß\" auf Null gesetzt
+
+
 
 ### Formatierung 
 
@@ -74,9 +88,13 @@ The default number format for new tolerances is by default the same format than 
 
 You can also use your own text instead of a formatted number by checking the option **Arbitrary Tolerance Text** in the dimension dialog. Then the content of **Tolerance Format Specifier** will be used as tolerance text.
 
+
+
 ## Geometrische Tolerierung 
 
 Tolerances are created by using the [Balloon](TechDraw_Balloon.md) feature of TechDraw. Since for most features a frame is required, it is helpful to change in the [TechDraw preferences](TechDraw_Preferences#Annotation.md) the **Balloon Shape** to **Rectangle**.
+
+
 
 ### Toleranzindikator
 
@@ -95,6 +113,8 @@ There is no rule that defines if or how the tolerance indicator must have a lead
 
 The example at the right side shows the two possible tolerance indicator layouts.
 
+
+
 ### Bezüge
 
 Datums in the GD&T sense of the meaning are surfaces your tolerance is relative to. They are created as Balloon:
@@ -105,6 +125,8 @@ Datums in the GD&T sense of the meaning are surfaces your tolerance is relative 
 -   since it is common to have a straight line for datums unless the datum surface is not perpendicular to X or Y, assure that either the properties **X** and **Origin X** or **Y** and **Origin Y** are equal to get a straight Balloon line.
 
 ![Example of a datum in a drawing](images/TechDraw_GD&T-Datum.png ) 
+
+
 
 ### Symbolreferenz
 

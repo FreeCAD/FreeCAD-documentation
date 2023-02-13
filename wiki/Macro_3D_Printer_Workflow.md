@@ -90,7 +90,7 @@ ToolBar Icon ![](images/Macro_3D_Printer_Workflow.png )
     # ==================================================================
     __author__ = "2cv001"
     __title__   = "Macro_3D_Printer_Workflow"
-    __date__    = "2023/02/03"    #YYYY/MM/DD
+    __date__    = "2023/02/05"    #YYYY/MM/DD
     __version__ = __date__
     __icon__    = "https://wiki.freecadweb.org/images/b/b4/Macro_3D_Printer_Workflow.png"
     __Wiki__    = "http://www.freecadweb.org/wiki/Macro_3D_Printer_Workflow"

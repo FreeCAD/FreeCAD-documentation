@@ -1,10 +1,11 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:Std TreeCollapseDocument
-   MenuLocation:View → TreeView actions → Collapse/Expand
-   Workbenches:All
+   Name/de:Std BaumDokumentReduzieren
+   MenuLocation:Ansicht → Baumansicht-Aktionen → Reduzieren/Erweitern
+   Workbenches:Alle
    Version:0.19
-   SeeAlso:[Std TreeSingleDocument](Std_TreeSingleDocument.md), [Std TreeMultiDocument](Std_TreeMultiDocument.md)
+   SeeAlso:[Std BaumEinzeldokument](Std_TreeSingleDocument/de.md), [Std BaumMehrfachdokument](Std_TreeMultiDocument/de.md)
 ---
 
 # Std TreeCollapseDocument/de
@@ -13,21 +14,21 @@
 
 ## Beschreibung
 
-The **Std TreeCollapseDocument** command switches the [Tree view](Tree_view.md) DocumentMode to CollapseDocument. In this mode activating a document's [3D view](3D_view.md) will automatically expand that document in the Tree view and collapse all other documents. The other modes are [SingleDocument](Std_TreeSingleDocument.md) and [MultiDocument](Std_TreeMultiDocument.md).
+Der Befehl **Std BaumDokumentReduzieren** wechselt den Dokument-Modus der [Baumansicht](Tree_view/de.md) auf Dokument reduzieren. In diesem Modus bewirkt das Aktivieren der [3D-Ansicht](3D_view/de.md) eines Dokuments automatisch ein Erweitern des Dokuments in der Baumansicht und das Reduzieren sämtlicher anderer Dokumente. Die anderen Modi sind [Einzeldokument](Std_TreeSingleDocument/de.md) and [Mehrfachdokument](Std_TreeMultiDocument/de.md).
 
 
 
 ## Anwendung
 
-1.  There are several ways to invoke the command:
-    -   Click on the black down arrow to the right of the **<img src="images/Std_TreeSyncView.svg" width=16px>** button and select the **Collapse/Expand** option from the flyout. Note: the button image will change depending on the selected option.
-    -   Select the **View → TreeView actions → <img src="images/Std_TreeCollapseDocument.svg" width=16px> Collapse/Expand** option from the menu.
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Den nach unten weisenden Pfeil rechts neben der Schaltfläche **<img src="images/Std_TreeSyncView.svg" width=16px>** anklicken und den Eintrag **Reduzieren/Erweitern** in der angezeigten Liste auswählen. Hinweis: Das Bild der Schaltfläche ändert sich entsprechend der Auswahl.
+    -   Den Menüeintrag **Ansicht → Baumansicht-Aktionen → <img src="images/Std_TreeCollapseDocument.svg" width=16px> Reduzieren/Erweitern** auswählen.
 
 
 
 ## Einstellungen
 
-The Tree view DocumentMode mode is stored: **Tools → Edit parameters... → BaseApp → Preferences → TreeView → DocumentMode**. It is an integer value. Possible values are `0` (SingleDocument), `1` (MultiDocument) or `2` (CollapseDocument). The default is `2`.
+Die Einstellung Dokument-Modus der Baumansicht wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → TreeView → DocumentMode** (Parametereditor). Es ist ein ganzzahliger Wert. Die möglichen Werte sind `0` (Einzeldokument), `1` (Mehrfachdokument) oder `2` (DokumentReduzieren). Standardwert ist `2`.
 
 
 

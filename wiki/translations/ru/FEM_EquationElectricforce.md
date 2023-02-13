@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:FEM EquationElectricforce
-   MenuLocation:Solve → Electricforce equation
+   MenuLocation:Solve → Electromagnetic Equations → Electricforce equation
    Workbenches:[FEM](FEM_Workbench.md)
    Version:0.19
    SeeAlso:[FEM Electrostatic equation](FEM_EquationElectrostatic.md)
@@ -18,8 +18,8 @@ For info about the math of the equation, see the [Elmer models manual](http://ww
 ## Usage
 
 1.  After adding an Elmer solver as described [here](FEM_SolverElmer#Equations.md), select it in the [tree view](Tree_view.md).
-2.  Either use the toolbar button <img alt="" src=images/FEM_EquationElectricforce.svg  style="width:24px;"> or the menu **Solve → Electricforce equation**.
-3.  Now either use the toolbar button <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> or the menu **Solve → [Electrostatic equation](FEM_EquationElectrostatic.md)**. This is important because the electricforce equation needs the potential field calculated by the Electrostatic equation.
+2.  Either use the toolbar button <img alt="" src=images/FEM_EquationElectricforce.svg  style="width:24px;"> or the menu **Solve → Electromagnetic Equations → Electricforce equation**.
+3.  Now either use the toolbar button <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> or the menu **Solve → Electromagnetic Equations → [Electrostatic equation](FEM_EquationElectrostatic.md)**. This is important because the electricforce equation needs the potential field calculated by the Electrostatic equation.
 4.  Change the [equation\'s solver settings](#Solver_Settings.md) or the [general solver settings](FEM_SolverElmer_SolverSettings.md) if necessary.
 
 The electricforce equation only calculates the force for faces with a <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [electrostatic potential constraint](FEM_ConstraintElectrostaticPotential.md) if the constraint\'s option **Calculate Electric Force** is used.
@@ -41,7 +41,13 @@ The electricforce equation does not have own constraints. It takes the <img alt=
 The result is the electric force density in $\rm N/m^2$.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{FEM Tools navi

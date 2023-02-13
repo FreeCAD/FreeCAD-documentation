@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/de
    Name:Std ViewStatusBar
-   Name/de:Std AnzeigeStatusleiste
+   Name/de:Std StatusleisteAnzeigen
    Empty:1
    MenuLocation:Ansicht → Statusleiste
    Workbenches:Alle
@@ -9,13 +9,17 @@
 
 # Std ViewStatusBar/de
 
+
+
 ## Beschreibung
 
--   Der **Std AnzeigeStatusleiste**-Befehl schaltet die Anzeige der [Statusleiste](Status_bar/de.md) ein/aus.
+-   Der Befehl **Std StatusleisteAnzeigen** schaltet die Anzeige der [Statusleiste](Status_bar/de.md) ein bzw. aus.
+
+
 
 ## Anwendung
 
-1.  Wähle die **Ansicht → Statusleiste**-Option aus dem Menü.
+1.  Den Menüeintrag **Ansicht → Statusleiste** auswählen.
 
 
 

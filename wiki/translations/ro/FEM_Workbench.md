@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introducere
 
 
@@ -14,6 +16,8 @@
 </div>
 
 <img alt="" src=images/FemWorkbench.jpg  style="width:300px;">
+
+
 
 ## Plan de lucru 
 
@@ -42,9 +46,13 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 *Workflow of the FEM Workbench; the workbench calls two external programs to perform meshing of a solid object, and perform the actual solution of the finite element problem*
 
+
+
 ## Meniu: Model 
 
 -   <img alt="" src=images/Fem-analysis.svg  style="width:32px;"> [Analysis container](FEM_Analysis/ro.md): Creează un nou container pentru analiza mecanică. Dacă un solid este selectat în vederea arborescentă înainte de a face click pe el dialogul plasei de discretizare va fi deschis alături
+
+
 
 ### Materiale
 
@@ -80,6 +88,8 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 </div>
 
+
+
 ### Constrângeri Electrostatice 
 
 
@@ -89,6 +99,8 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 
 </div>
+
+
 
 ### Fluid constraints 
 
@@ -112,6 +124,8 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/Fem-constraint-transform.svg  style="width:32px;"> [Constraint transform](FEM_ConstraintTransform.md):
 
+
+
 ### Constrângeri Mecanice 
 
 -   <img alt="" src=images/Fem-constraint-fixed.svg  style="width:32px;"> [Constraint fixed](FEM_ConstraintFixed/ro.md):Se utilizează pentru a defini o constrângere fixă pe punct/margine/fațetă (e)..
@@ -131,6 +145,8 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 -   <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Constraint centrif](FEM_ConstraintCentrif.md): Used to define a centrifugal body load constraint. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/Fem-constraint-selfweight.svg  style="width:32px;"> [Constraint self weight](FEM_ConstraintSelfWeight/ro.md): Utilizat pentru a defini accelerația gravitațională care acționează asupra modelului.
+
+
 
 ### Constrângeri termice 
 
@@ -162,6 +178,8 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md): Used to overwrite the [permittivity of vacuum](https://en.wikipedia.org/wiki/Vacuum_permittivity) with a custom value. <small>(v0.19)</small> 
 
+
+
 ## Meniu plase/Mesh 
 
 
@@ -189,6 +207,8 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 -   <img alt="" src=images/Fem-femmesh-create-node-by-poly.svg  style="width:32px;"> [Nodes set](FEM_CreateNodesSet.md): Creates/defines a node set from FEM mesh.
 
 -   <img alt="" src=images/Fem-femmesh-to-mesh.svg  style="width:32px;"> [FEM mesh to mesh](FEM_FemMesh2Mesh.md): Convert the surface of a FEM mesh to a mesh.
+
+
 
 ## Meniu Rezolvitori 
 
@@ -259,6 +279,8 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 -   <img alt="" src=images/Fem-control-solver.svg  style="width:32px;"> [Solver job control](FEM_SolverControl/ro.md): Deschide meniul pentru a ajusta și porni rezolvitorul selectat.
 
 -   <img alt="" src=images/Fem-run-solver.svg  style="width:32px;"> [Solver run calculation](FEM_SolverRun/ro.md): Rulează rezolvitorul selectat al analizei active.
+
+
 
 ## Meniu Rezultate 
 
@@ -341,7 +363,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Fem-sphere.svg  style="width:32px;"> [Post Create functions](FEM_PostCreateFunctions.md):
+-   <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:32px;"> [Post Create functions](FEM_PostCreateFunctions.md):
 
 
 </div>
@@ -349,6 +371,8 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
   - <img alt="" src=images/Fem-post-geo-plane.svg  style="width:32px;"> [Filter function plane](FEM_PostCreateFunctionPlane.md): Defines that the result mesh is cut with a plane.
 
   - <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:32px;"> [Filter function sphere](FEM_PostCreateFunctionSphere.md): Defines that the result mesh is cut with a sphere.
+
+
 
 ## Meniu: Utilități 
 
@@ -370,15 +394,21 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/FEM_Examples.svg  style="width:32px;"> [Open FEM examples](FEM_Examples.md): Open the GUI to access FEM examples.
 
+
+
 ## Meniu de Context 
 
 -   <img alt="" src=images/Fem-femmesh-clear-mesh.svg  style="width:32px;"> [FEM mesh clear](FEM_MeshClear.md):
 
 -   <img alt="" src=images/FEM_MeshDisplayInfo.svg  style="width:32px;"> [Display FEM mesh info](FEM_MeshDisplayInfo/ro.md): Displays basic statistics of existing mesh - number of nodes and elements of each type.
 
+
+
 ## Preferințe
 
 !!FUZZY!!\* <img alt="" src=images/Std_DlgParameter.svg  style="width:32px;"> [Preferences\...](FEM_Preferences.md): Preferințe disponibile în Instrumentele MEF.
+
+
 
 ## Links
 

@@ -8,9 +8,13 @@
 
 # FEM ElementFluid1D/de
 
+
+
 ## Beschreibung
 
 Erstellt einen FEM-Strömungsabschnitt für pneumatische oder Hydraulische Anlagen
+
+
 
 ## Anwendung
 
@@ -25,6 +29,8 @@ Erstellt einen FEM-Strömungsabschnitt für pneumatische oder Hydraulische Anlag
 ## Limitations
 
 1.  The card only works with a 3 noded network element type. Information can be found here: <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node54.html>
+
+
 
 ## Hinweise
 

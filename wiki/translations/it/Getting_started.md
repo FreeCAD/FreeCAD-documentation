@@ -14,6 +14,7 @@ Come tutti i progetti di software libero, FreeCAD dipende dalla sua comunità pe
 Vedi anche:
 
 -   [Migrare a FreeCAD da Fusion360](Migrating_to_FreeCAD_from_Fusion360/it.md)
+-   [Which workbench should I choose?](Which_workbench_should_I_choose.md)
 -   [Tutorials](Tutorials/it.md)
 -   [Video tutorials](Video_tutorials/it.md)
 

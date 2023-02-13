@@ -18,7 +18,13 @@ Elmer comprend des modèles physiques de dynamique des fluides, de mécanique de
 
 La création de l\'objet SolverElmer dans le conteneur Analysis de FreeCAD donne accès aux équations Elmer pour une analyse simple ou multiphysique.
 
+
+<div class="mw-translate-fuzzy">
+
 Dans la mesure où FreeCAD dispose déjà d\'une intégration poussée de <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:24px;"> [Calculix](FEM_SolverCalculixCxxtools/fr.md) et <img alt="" src=images/FEM_SolverZ88.svg  style="width:24px;"> [Z88](FEM_SolverZ88/fr.md) comme solveurs pour l\'analyse mécanique et thermomécanique, Elmer sera préféré pour la dynamique des fluides numérique (CFD), la chaleur, l\'électrostatique, la magnétostatique et les forces électriques. Il peut également être utilisé pour la FEA mécanique à travers l\'équation d\'élasticité ou toute combinaison des équations susmentionnées.
+
+
+</div>
 
 ## Installation
 
@@ -81,6 +87,9 @@ Vous êtes prêt à utiliser Elmer dans FreeCAD.
 -   Disambiguation : Le terme *Équation* est utilisé dans FreeCAD pour décrire les différents mécanismes physiques, le terme *Solveur* est utilisé dans tous les documents Elmer. Ainsi, lorsqu\'on utilise dans FreeCAD l\'\"Équation d\'écoulement\", en réalité Elmer utilise le \"Solveur d\'écoulement\" pour trouver une solution à l\'équation de Navier-Stokes.
 -   Une ou plusieurs équations peuvent être utilisées en même temps avec Elmer en ajoutant simplement l\'objet équation sous l\'objet SolverElmer, réalisant ainsi des analyses multi-physiques :
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Cliquez sur l\'objet **<img src="images/FEM_SolverElmer.svg" width=22px> SolverElmer** dans le modèle de la [vue en arborescence](Tree_view/fr.md)
 2.  Sélectionnez une équation :
     -   <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Equation d\'élasticité](FEM_EquationElasticity/fr.md)
@@ -89,6 +98,9 @@ Vous êtes prêt à utiliser Elmer dans FreeCAD.
     -   <img alt="" src=images/FEM_EquationFlow.svg  style="width:32px;"> [Équation d\'écoulement](FEM_EquationFlow/fr.md)
     -   <img alt="" src=images/FEM_EquationFlux.svg  style="width:32px;"> [Equation de flux](FEM_EquationFlux/fr.md)
     -   <img alt="" src=images/FEM_EquationHeat.svg  style="width:32px;"> [Equation de chaleur](FEM_EquationHeat/fr.md)
+
+
+</div>
 
 
 

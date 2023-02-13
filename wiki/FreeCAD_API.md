@@ -10,6 +10,20 @@ file the document should be stored to.
 
 
 
+### Attributes
+
+#### <img src="images/type_class.svg" style="width:16px;"> PropertyType <small>(value, names=None, *, module=None, qualname=None, type=None, start=1, boundary=None)</small>
+
+
+
+
+
+#### <img src="images/type_class.svg" style="width:16px;"> ScaleType <small>(value, names=None, *, module=None, qualname=None, type=None, start=1, boundary=None)</small>
+
+
+
+
+
 ### Functions
 
 #### <img src="images/type_method.svg" style="width:16px;"> ConfigDump
@@ -646,12 +660,6 @@ App.PropertyContainer class.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> PropertyType <small>(value, names=None, *, module=None, qualname=None, type=None, start=1)</small>
-
-An enumeration.
-
-
-
 #### <img src="images/Type_enum.svg" style="width:16px;"> Rotation
 
 Base.Rotation class.
@@ -718,12 +726,6 @@ Rotation(*coef)
 Define from 16 or 9 elements which represent the rotation in the 4D matrix
 representation or in the 3D matrix representation, respectively.
 coef : sequence of float
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> ScaleType <small>(value, names=None, *, module=None, qualname=None, type=None, start=1)</small>
-
-An enumeration.
 
 
 

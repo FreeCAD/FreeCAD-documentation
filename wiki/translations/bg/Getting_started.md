@@ -1,6 +1,8 @@
 # Getting started/bg
 {{TOCright}}
 
+
+
 ## Увод
 
 
@@ -30,8 +32,11 @@ FreeCAD е все още в ранен стадии на своето разви
 See also:
 
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
+-   [Which workbench should I choose?](Which_workbench_should_I_choose.md)
 -   [Tutorials](Tutorials.md)
 -   [Video tutorials](Video_tutorials.md)
+
+
 
 ## Инсталация
 
@@ -42,6 +47,8 @@ See also:
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -100,6 +107,8 @@ See also:
 
 </div>
 
+
+
 ## Навигация в тримерното пространство 
 
 
@@ -117,6 +126,8 @@ FreeCAD има няколко различни режима за [навигац
 
 
 </div>
+
+
 
 ## Първи стъпки с FreeCAD 
 
@@ -143,6 +154,8 @@ FreeCAD има няколко различни режима за [навигац
 
 
 </div>
+
+
 
 ## Работа с работните пловоте за дезайн на елементи и скициране 
 
@@ -179,6 +192,8 @@ FreeCAD има няколко различни режима за [навигац
 <img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
 
 Във всеки един момент може да изберете и промените оригиналната скица, или височината на издигнатия елемент(pad extrusion parameters), или дълбочината на дупката която сте създали. Вашите промени веднага ще бъдат отразени върху крайния обект.
+
+
 
 ## Работния плот Draft и Архитектурния работен плот(Arch) 
 
@@ -229,6 +244,8 @@ FreeCAD има няколко различни режима за [навигац
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Скриптиране
@@ -254,6 +271,8 @@ There are two types of addons:
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

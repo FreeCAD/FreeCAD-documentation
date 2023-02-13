@@ -16,7 +16,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Das Werkzeug <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:24px;"> **TechDraw Längenmaß** fügt einer Ansicht ein lineares Maß hinzu. Das Längenmaß kann der Abstand zwischen zwei Eckpunkten, die Länge einer Kante oder der Abstand zwischen zwei Kanten sein. Der Abstand ist zuerst der projizierte Abstand (wie in der Zeichnung dargestellt), kann aber unter Verwendung des Werkzeugs **<img src="images/TechDraw_LinkDimension.svg" width=16px> [MaßVerknüpfen](TechDraw_LinkDimension/de.md)** auf den eigentlichen 3D-Abstand geändert werden.
+Das Werkzeug <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:24px;"> **TechDraw Längenmaß** fügt einer Ansicht ein lineares Maß hinzu. Das Längenmaß kann der Abstand zwischen zwei Eckpunkten, die Länge einer Kante oder der Abstand zwischen zwei Kanten sein. Das Maß stellt zunächst den projizierten Abstand dar (wie in der Zeichnung abgebildet). Wenn das Maß auf 3D-Referenzen basiert, kann es auf die tatsächliche Länge geändert werden, indem die {{PropertyData/de|Measure Type}} auf {{True}} gesetzt wird.
 
 
 </div>
@@ -28,40 +28,34 @@ Das Werkzeug <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:2
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Die Punkte oder die Kante auswählen, die die Messung definieren.
+1.  Die Punkte oder die Kante auswählen, die die Messung definieren. Die Geometrie kann in der Zeichnung oder in der [3D-Ansicht](3D_view/de.md) ausgewählt werden.
 2.  Es gibt verschiedene Möglichkeiten das Werkzeug aufzurufen:
     -   Die Schaltfläche **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Längenmaß einfügen](TechDraw_LengthDimension/de.md)** drücken.
     -   Den Menüeintrag **TechDraw → <img src="images/TechDraw_LengthDimension.svg" width=16px> Längenmaß einfügen** auswählen.
 3.  Ein Maß wird der Ansicht hinzugefügt. Das Maß kann an die gewünschte Position gezogen werden.
 4.  Falls erforderlich, können Toleranzen, wie auf der [GD&T-Seite](TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen.md) beschrieben, hinzugefügt werden.
 
-
-</div>
-
-Um die Eigenschaften eines Bemaßungsobjekts zu ändern, doppel-klicke sie entweder in der Zeichnung oder in der [Baumansicht](Tree_view/de.md). Dadurch wird der Bemaßungsdialog geöffnet.
+Um die Eigenschaften eines Maßes (Dimension-Objekt) zu ändern, wird es in der Zeichnung oder in der [Baumansicht](Tree_view/de.md) doppelt angeklickt. Dadurch wird der Dialog Maßeintrag geöffnet.
 
 
 
-## Bemaßungsdialog
+## Dialog Maßeintrag 
 
-Der Bemaßungsdialog bietet die folgenden Einstellungen:
+Der Dialog Maßeintrag ermöglicht die folgenden Einstellungen:
 
 ![](images/TechDraw_DimensionDialog.png )
 
 
 
-### Tolerierung
+### Toleranzen
 
 -   **Theoretisch genau**: Wenn diese Option aktiviert ist, wird das Maß als theoretisch genaues Maß angegeben. Als solches darf es keine Toleranzen aufweisen. Das Maß wird durch einen Rahmen um den Wert dargestellt: <img alt="" src=images/TechDraw_theoretically_exact.png  style="width:100px;">
 
--   **Gleiche Toleranz**: Falls aktiviert, sind Über- und Untertoleranz gleich und der negierte Wert der Übertoleranz wird als Untertoleranz benutzt. Die Anzeige zeigt <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">, anderenfalls <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">.
+-   **Symmetrische Toleranz**: Falls aktiviert, sind das obere und das untere Abmaß gleich und der negierte Wert des oberen Abmaßes wird für das untere Abmaß benutzt. Dargestellt wird es <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">, anderenfalls <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">.
 
--   **Übertoleranz**: Der Wert, um den die Abmessung größer sein kann.
+-   **Oberes Abmaß**: Der Wert, um den die Abmessung größer sein darf.
 
--   **Untertoleranz**: Der Wert, um den die Abmessung kleiner sein kann.
+-   **Unteres Abmaß**: Der Wert, um den die Abmessung kleiner sein darf.
 
 
 
@@ -118,23 +112,20 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
 
 {{Properties_Title/de|Basis}}
 
+-    {{PropertyData/de|References 2D|LinkSubList}}: 2D-Objekt(e) der Zeichnungsansicht, auf denen das Maß basiert. Wird verwendet, wenn die {{PropertyData/de|Measure Type}} auf {{Value|Projected}} gesetzt ist.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|References 3D|LinkSubList}}: 3D Objekt(e) auf denen das Maß basiert. Wird verwendet, wenn die {{PropertyData/de|Measure Type}} auf {{Value|True}} gesetzt ist.
 
--    {{PropertyData/de|X}}: Horizontale Position des Maßtexts relativ zur Ansicht.
+-    {{PropertyData/de|Type|Enumeration}}: Länge, Radius, Durchmesser usw. Wird normalerweise nicht vom Endanwender geändert.
 
--    {{PropertyData/de|Y}}: Vertikale Position des Maßtexts relativ zur Ansicht.
-
--    {{PropertyData/de|Typ}}: Länge, Radius, Durchmesser usw. Wird normalerweise vom Endanwender nicht geändert.
-
--    {{PropertyData/de|MessungsTyp}}: Wie die Messung durchgeführt wird. Wird normalerweise nicht direkt durch den Endbenutzer geändert.
+-    {{PropertyData/de|MeasureType|Enumeration}}: Wie die Messung durchgeführt wird.
 
 :   
 
     :   True - basierend auf 3D-Geometrie
-    :   Projected - basierend auf der Zeichung
+    :   Projected - basierend auf 2D-Geometrie der Zeichnungsansicht.
 
--    {{PropertyData/de|TheoretischExakt}}: Gibt ein theoretisch genaues (oder grundlegende) Maß an.
+-    {{PropertyData/de|Theoretical Exact|Bool}}: Gibt ein theoretisch genaues Maß (Nennmaß ohne Toleranzen) an.
 
 :   
 
@@ -146,27 +137,27 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
     :   
         `True`
         
-        \- ein theoretischer Wert. Als solcher darf er keine Toleranzen aufweisen. Der Wert ist durch einen Rahmen um den Wert gekennzeichnet.
+        \- ein theoretischer Wert. Als solcher darf er keine Toleranzen aufweisen. Der Wert ist durch einen rechteckigen Rahmen um die Maßzahl gekennzeichnet.
 
--    {{PropertyData/de|GleicheToleranz}}: Falls oberes und unteres Abmaß gleich sind. Dann wird der negative Wert des oberen Abmaßes als unteres Abmaß benutzt
+-    {{PropertyData/de|Equal Tolerance|Bool}}(Symmetrische Toleranz): Falls oberes und unteres Abmaß gleich sind, wird der negative Wert des oberen Abmaßes als unteres Abmaß benutzt.
 
 :   
 
     :   
         `True`
         
-        \- der negierte Wert von {{PropertyData/de|ObereToleranz}} wird als {{PropertyData/de|UntereToleranz}} benutzt. Die Anzeige zeigt <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">
+        \- der negierte Wert von {{PropertyData/de|Over Tolerance}} (oberes Abmaß) wird als {{PropertyData/de|Under Tolerance}} (unteres Abmaß) benutzt. Die Anzeige zeigt <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">.
 
     :   
         `False`
         
-        \- der Wert von {{PropertyData/de|UntereToleranz}} wird benutzt. Die Anzeige zeigt <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">
+        \- der Wert von {{PropertyData/de|Under Tolerance}} wird benutzt. Die Anzeige zeigt <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">.
 
--    {{PropertyData/de|ObereToleranz}}: Der Betrag, um den das Maß größer sein darf.
+-    {{PropertyData/de|Over Tolerance|QuantityConstraint}}(oberes Abmaß): Der Betrag, um den das Maß größer sein darf.
 
--    {{PropertyData/de|UntereToleranz}}: Der Betrag, um den das Maß kleiner sein darf.
+-    {{PropertyData/de|Under Tolerance|QuantityConstraint}}(unteres Abmaß): Der Betrag, um den das Maß kleiner sein darf.
 
--    {{PropertyData/de|Umgekehrt}}: Hebt hervor, ob das Maß einen üblichen oder einen invertierten Wert darstellt.
+-    {{PropertyData/de|Inverted|Bool}}: Gibt an, ob das Maß einen üblichen oder einen invertierten Wert darstellt.
 
 :   
 
@@ -180,22 +171,30 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
         
         \- der umgekehrte Wert wird verwendet. Für Länge eine negative Zahl, für Winkel der Reflexwert (180° - 360°).
 
+-    {{PropertyData/de|X}}: Horizontale Position des Maßtexts relativ zur Ansicht.
 
-</div>
+-    {{PropertyData/de|Y}}: Vertikale Position des Maßtexts relativ zur Ansicht.
+
+-    {{PropertyData/de|Lock Position|Bool|Hidden}}: Wenn `True`, wird die Position des Maßtextes fixiert.
+
+-    {{PropertyData/de|Rotation|Angle|Hidden}}: Schreibgeschützt.
+
+-    {{PropertyData/de|Scale Type|Enumeration|Hidden}}: Schreibgeschützt.
+
+-    {{PropertyData/de|Scale|FloatConstant|Hidden}}: Schreibgeschützt.
+
+-    {{PropertyData/de|Caption|String|Hidden}}: Nicht verwendet.
 
 
 {{Properties_Title/de|Format}}
 
+-    {{PropertyData/de|Format Spec|String}}: Wie die Maßzahl formatiert sein wird. Siehe [Formatierung](#Formatierung.md).
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Format Spec Over Tolerance|String}}: Wie {{PropertyData/de|Format Spec}}, aber für obere Abmaße.
 
--    {{PropertyData/de|FormatAngabe}}: Wie die Bemaßung formatiert sein wird. Siehe [Formatierung](#Formatierung.md).
+-    {{PropertyData/de|Format Spec Under Tolerance|String}}: Wie {{PropertyData/de|Format Spec}}, aber für untere Abmaße.
 
--    {{PropertyData/de|FormatAngabeObereToleranz}}: Wie {{PropertyData/de|FormatAngabe}}, aber für obere Abmaße.
-
--    {{PropertyData/de|FormatAngabeUntereToleranz}}: Wie {{PropertyData/de|FormatAngabe}}, aber für untere Abmaße.
-
--    {{PropertyData/de|frei wählbar}}: Gibt an, ob **FormatAngabe** als Vorlage oder als aktueller Text behandelt werden soll.
+-    **Arbitrary|Bool**: Gibt an, ob die Maßzahl durch den Inhalt von **Format Spec** ersetzt wird.
 
 :   
 
@@ -209,18 +208,12 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
         
         \- der Inhalt von **Format Spec** wird anstatt der Maßzahl als Text angezeigt.
 
--    {{PropertyData/de|frei wählbare Toleranzen}}: Wie {{PropertyData/de|frei wählbar}}, aber für die Toleranz.
-
-
-</div>
+-    {{PropertyData/de|Arbitrary Tolerances|Bool}}: Wie {{PropertyData/de|Arbitrary}}, aber für die Toleranz.
 
 
 {{Properties_Title/de|Override}}
 
-
-<div class="mw-translate-fuzzy">
-
--    {{PropertyData/de|AngleOverride}}: Ob die Richtung der Maßlinien und Maßhilfslinien überschrieben wird.
+-    {{PropertyData/de|AngleOverride|Bool}}: Ob die Richtung der Maßlinien und Maßhilfslinien überschrieben wird.
 
 :   
 
@@ -234,12 +227,9 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
         
         \- die Richtungen werden mit den Werten der Eigenschaften LineAngle und ExtensionAngle überschrieben.
 
--    {{PropertyData/de|LineAngle}}: Winkel zwischen Maßlinie und der X-Achse der Ansicht (in Grad).
+-    {{PropertyData/de|LineAngle|Angle}}: Winkel zwischen Maßlinie und der X-Achse der Ansicht (in Grad).
 
--    {{PropertyData/de|ExtensionAngle}}: Winkel zwischen Maßlinie(n) und der X-Achse der Ansicht (in Grad).
-
-
-</div>
+-    {{PropertyData/de|ExtensionAngle|Angle}}: Winkel zwischen Maßlinie(n) und der X-Achse der Ansicht (in Grad).
 
 
 

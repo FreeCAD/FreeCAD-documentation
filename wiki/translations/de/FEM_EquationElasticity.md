@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Beschreibung
 
 This equation describes the mechanical properties of rigid bodies.

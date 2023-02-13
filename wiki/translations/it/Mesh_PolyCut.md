@@ -9,9 +9,13 @@
 
 # Mesh PolyCut/it
 
+
+
 ## Descrizione
 
 Il comando **Taglia la mesh** taglia intere facce da oggetti mesh.
+
+
 
 ## Utilizzo
 

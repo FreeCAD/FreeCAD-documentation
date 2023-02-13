@@ -39,6 +39,10 @@ Future contributions can include new comparators, e.g. for meshes. Also creating
 
 Medium
 
+### Project size 
+
+175h
+
 ### Additional Information
 
 

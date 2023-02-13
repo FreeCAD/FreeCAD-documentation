@@ -34,32 +34,32 @@ This category list pages related to the [Std Base](Std_Base/it.md), which collec
 | [Std PerspectiveCamera/it](wiki/Std PerspectiveCamera/it.md) | [Std Placement/it](wiki/Std Placement/it.md) | [Std Print/it](wiki/Std Print/it.md) |
 | [Std PrintPdf/it](wiki/Std PrintPdf/it.md) | [Std PrintPreview/it](wiki/Std PrintPreview/it.md) | [Std ProjectInfo/it](wiki/Std ProjectInfo/it.md) |
 | [Std ProjectUtil/it](wiki/Std ProjectUtil/it.md) | [Std PythonHelp/it](wiki/Std PythonHelp/it.md) | [Std Quit/it](wiki/Std Quit/it.md) |
-| [Std RandomColor/it](wiki/Std RandomColor/it.md) | [Std RecentFiles/it](wiki/Std RecentFiles/it.md) | [Std Redo/it](wiki/Std Redo/it.md) |
-| [Std Refresh/it](wiki/Std Refresh/it.md) | [Std Revert/it](wiki/Std Revert/it.md) | [Std Save/it](wiki/Std Save/it.md) |
-| [Std SaveAll/it](wiki/Std SaveAll/it.md) | [Std SaveAs/it](wiki/Std SaveAs/it.md) | [Std SaveCopy/it](wiki/Std SaveCopy/it.md) |
-| [Std SceneInspector/it](wiki/Std SceneInspector/it.md) | [Std SelBoundingBox/it](wiki/Std SelBoundingBox/it.md) | [Std SelectAll/it](wiki/Std SelectAll/it.md) |
-| [Std SelectVisibleObjects/it](wiki/Std SelectVisibleObjects/it.md) | [Std SendToPythonConsole/it](wiki/Std SendToPythonConsole/it.md) | [Std SetAppearance/it](wiki/Std SetAppearance/it.md) |
-| [Std ShowObjects/it](wiki/Std ShowObjects/it.md) | [Std ShowSelection/it](wiki/Std ShowSelection/it.md) | [Std TextDocument/it](wiki/Std TextDocument/it.md) |
-| [Std TextureMapping/it](wiki/Std TextureMapping/it.md) | [Std TileWindows/it](wiki/Std TileWindows/it.md) | [Std ToggleBreakpoint/it](wiki/Std ToggleBreakpoint/it.md) |
-| [Std ToggleClipPlane/it](wiki/Std ToggleClipPlane/it.md) | [Std ToggleNavigation/it](wiki/Std ToggleNavigation/it.md) | [Std ToggleObjects/it](wiki/Std ToggleObjects/it.md) |
-| [Std ToggleSelectability/it](wiki/Std ToggleSelectability/it.md) | [Std ToggleVisibility/it](wiki/Std ToggleVisibility/it.md) | [Std Tools Menu/it](wiki/Std Tools Menu/it.md) |
-| [Std TransformManip/it](wiki/Std TransformManip/it.md) | [Std TreeCollapseDocument/it](wiki/Std TreeCollapseDocument/it.md) | [Std TreeDrag/it](wiki/Std TreeDrag/it.md) |
-| [Std TreeMultiDocument/it](wiki/Std TreeMultiDocument/it.md) | [Std TreePreSelection/it](wiki/Std TreePreSelection/it.md) | [Std TreeRecordSelection/it](wiki/Std TreeRecordSelection/it.md) |
-| [Std TreeSelection/it](wiki/Std TreeSelection/it.md) | [Std TreeSingleDocument/it](wiki/Std TreeSingleDocument/it.md) | [Std TreeSyncPlacement/it](wiki/Std TreeSyncPlacement/it.md) |
-| [Std TreeSyncSelection/it](wiki/Std TreeSyncSelection/it.md) | [Std TreeSyncView/it](wiki/Std TreeSyncView/it.md) | [Std Undo/it](wiki/Std Undo/it.md) |
-| [Std UnitsCalculator/it](wiki/Std UnitsCalculator/it.md) | [Std View Menu/it](wiki/Std View Menu/it.md) | [Std ViewBottom/it](wiki/Std ViewBottom/it.md) |
-| [Std ViewBoxZoom/it](wiki/Std ViewBoxZoom/it.md) | [Std ViewCreate/it](wiki/Std ViewCreate/it.md) | [Std ViewDimetric/it](wiki/Std ViewDimetric/it.md) |
-| [Std ViewDockUndockFullscreen/it](wiki/Std ViewDockUndockFullscreen/it.md) | [Std ViewFitAll/it](wiki/Std ViewFitAll/it.md) | [Std ViewFitSelection/it](wiki/Std ViewFitSelection/it.md) |
-| [Std ViewFront/it](wiki/Std ViewFront/it.md) | [Std ViewFullscreen/it](wiki/Std ViewFullscreen/it.md) | [Std ViewIsometric/it](wiki/Std ViewIsometric/it.md) |
-| [Std ViewIvIssueCamPos/it](wiki/Std ViewIvIssueCamPos/it.md) | [Std ViewIvStereoInterleavedColumns/it](wiki/Std ViewIvStereoInterleavedColumns/it.md) | [Std ViewIvStereoInterleavedRows/it](wiki/Std ViewIvStereoInterleavedRows/it.md) |
-| [Std ViewIvStereoOff/it](wiki/Std ViewIvStereoOff/it.md) | [Std ViewIvStereoQuadBuff/it](wiki/Std ViewIvStereoQuadBuff/it.md) | [Std ViewIvStereoRedGreen/it](wiki/Std ViewIvStereoRedGreen/it.md) |
-| [Std ViewLeft/it](wiki/Std ViewLeft/it.md) | [Std ViewRear/it](wiki/Std ViewRear/it.md) | [Std ViewRight/it](wiki/Std ViewRight/it.md) |
-| [Std ViewRotateLeft/it](wiki/Std ViewRotateLeft/it.md) | [Std ViewRotateRight/it](wiki/Std ViewRotateRight/it.md) | [Std ViewScreenShot/it](wiki/Std ViewScreenShot/it.md) |
-| [Std ViewStatusBar/it](wiki/Std ViewStatusBar/it.md) | [Std ViewTop/it](wiki/Std ViewTop/it.md) | [Std ViewTrimetric/it](wiki/Std ViewTrimetric/it.md) |
-| [Std ViewZoomIn/it](wiki/Std ViewZoomIn/it.md) | [Std ViewZoomOut/it](wiki/Std ViewZoomOut/it.md) | [Std WhatsThis/it](wiki/Std WhatsThis/it.md) |
-| [Std Windows Menu/it](wiki/Std Windows Menu/it.md) | [Std Windows/it](wiki/Std Windows/it.md) | [Std Workbench/it](wiki/Std Workbench/it.md) |
-| [Tree view/it](wiki/Tree view/it.md) | [View Measure Clear All/it](wiki/View Measure Clear All/it.md) | [View Measure Toggle All/it](wiki/View Measure Toggle All/it.md) |
-|
+| [Std RandomColor/it](wiki/Std RandomColor/it.md) | [Std RecallWorkingView/it](wiki/Std RecallWorkingView/it.md) | [Std RecentFiles/it](wiki/Std RecentFiles/it.md) |
+| [Std Redo/it](wiki/Std Redo/it.md) | [Std Refresh/it](wiki/Std Refresh/it.md) | [Std Revert/it](wiki/Std Revert/it.md) |
+| [Std Save/it](wiki/Std Save/it.md) | [Std SaveAll/it](wiki/Std SaveAll/it.md) | [Std SaveAs/it](wiki/Std SaveAs/it.md) |
+| [Std SaveCopy/it](wiki/Std SaveCopy/it.md) | [Std SceneInspector/it](wiki/Std SceneInspector/it.md) | [Std SelBoundingBox/it](wiki/Std SelBoundingBox/it.md) |
+| [Std SelectAll/it](wiki/Std SelectAll/it.md) | [Std SelectVisibleObjects/it](wiki/Std SelectVisibleObjects/it.md) | [Std SendToPythonConsole/it](wiki/Std SendToPythonConsole/it.md) |
+| [Std SetAppearance/it](wiki/Std SetAppearance/it.md) | [Std ShowObjects/it](wiki/Std ShowObjects/it.md) | [Std ShowSelection/it](wiki/Std ShowSelection/it.md) |
+| [Std StoreWorkingView/it](wiki/Std StoreWorkingView/it.md) | [Std TextDocument/it](wiki/Std TextDocument/it.md) | [Std TextureMapping/it](wiki/Std TextureMapping/it.md) |
+| [Std TileWindows/it](wiki/Std TileWindows/it.md) | [Std ToggleBreakpoint/it](wiki/Std ToggleBreakpoint/it.md) | [Std ToggleClipPlane/it](wiki/Std ToggleClipPlane/it.md) |
+| [Std ToggleNavigation/it](wiki/Std ToggleNavigation/it.md) | [Std ToggleObjects/it](wiki/Std ToggleObjects/it.md) | [Std ToggleSelectability/it](wiki/Std ToggleSelectability/it.md) |
+| [Std ToggleVisibility/it](wiki/Std ToggleVisibility/it.md) | [Std Tools Menu/it](wiki/Std Tools Menu/it.md) | [Std TransformManip/it](wiki/Std TransformManip/it.md) |
+| [Std TreeCollapseDocument/it](wiki/Std TreeCollapseDocument/it.md) | [Std TreeDrag/it](wiki/Std TreeDrag/it.md) | [Std TreeMultiDocument/it](wiki/Std TreeMultiDocument/it.md) |
+| [Std TreePreSelection/it](wiki/Std TreePreSelection/it.md) | [Std TreeRecordSelection/it](wiki/Std TreeRecordSelection/it.md) | [Std TreeSelection/it](wiki/Std TreeSelection/it.md) |
+| [Std TreeSingleDocument/it](wiki/Std TreeSingleDocument/it.md) | [Std TreeSyncPlacement/it](wiki/Std TreeSyncPlacement/it.md) | [Std TreeSyncSelection/it](wiki/Std TreeSyncSelection/it.md) |
+| [Std TreeSyncView/it](wiki/Std TreeSyncView/it.md) | [Std Undo/it](wiki/Std Undo/it.md) | [Std UnitsCalculator/it](wiki/Std UnitsCalculator/it.md) |
+| [Std View Menu/it](wiki/Std View Menu/it.md) | [Std ViewBottom/it](wiki/Std ViewBottom/it.md) | [Std ViewBoxZoom/it](wiki/Std ViewBoxZoom/it.md) |
+| [Std ViewCreate/it](wiki/Std ViewCreate/it.md) | [Std ViewDimetric/it](wiki/Std ViewDimetric/it.md) | [Std ViewDockUndockFullscreen/it](wiki/Std ViewDockUndockFullscreen/it.md) |
+| [Std ViewFitAll/it](wiki/Std ViewFitAll/it.md) | [Std ViewFitSelection/it](wiki/Std ViewFitSelection/it.md) | [Std ViewFront/it](wiki/Std ViewFront/it.md) |
+| [Std ViewFullscreen/it](wiki/Std ViewFullscreen/it.md) | [Std ViewIsometric/it](wiki/Std ViewIsometric/it.md) | [Std ViewIvIssueCamPos/it](wiki/Std ViewIvIssueCamPos/it.md) |
+| [Std ViewIvStereoInterleavedColumns/it](wiki/Std ViewIvStereoInterleavedColumns/it.md) | [Std ViewIvStereoInterleavedRows/it](wiki/Std ViewIvStereoInterleavedRows/it.md) | [Std ViewIvStereoOff/it](wiki/Std ViewIvStereoOff/it.md) |
+| [Std ViewIvStereoQuadBuff/it](wiki/Std ViewIvStereoQuadBuff/it.md) | [Std ViewIvStereoRedGreen/it](wiki/Std ViewIvStereoRedGreen/it.md) | [Std ViewLeft/it](wiki/Std ViewLeft/it.md) |
+| [Std ViewRear/it](wiki/Std ViewRear/it.md) | [Std ViewRight/it](wiki/Std ViewRight/it.md) | [Std ViewRotateLeft/it](wiki/Std ViewRotateLeft/it.md) |
+| [Std ViewRotateRight/it](wiki/Std ViewRotateRight/it.md) | [Std ViewScreenShot/it](wiki/Std ViewScreenShot/it.md) | [Std ViewStatusBar/it](wiki/Std ViewStatusBar/it.md) |
+| [Std ViewTop/it](wiki/Std ViewTop/it.md) | [Std ViewTrimetric/it](wiki/Std ViewTrimetric/it.md) | [Std ViewZoomIn/it](wiki/Std ViewZoomIn/it.md) |
+| [Std ViewZoomOut/it](wiki/Std ViewZoomOut/it.md) | [Std WhatsThis/it](wiki/Std WhatsThis/it.md) | [Std Windows Menu/it](wiki/Std Windows Menu/it.md) |
+| [Std Windows/it](wiki/Std Windows/it.md) | [Std Workbench/it](wiki/Std Workbench/it.md) | [Tree view/it](wiki/Tree view/it.md) |
+| [View Measure Clear All/it](wiki/View Measure Clear All/it.md) | [View Measure Toggle All/it](wiki/View Measure Toggle All/it.md) |
 
 
 

@@ -2,8 +2,9 @@
 - GuiCommand:/it
    Name:Draft Fillet
    Name/it:Raccordo
-   MenuLocation:Draft → Raccordo
-   Workbenches:[Draft](Draft_Workbench/it.md)
+   MenuLocation:Drafting → Raccordo
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut:**F** **I**
    Version:0.19
    SeeAlso:[Linea](Draft_Line/it.md), [Polilinea](Draft_Wire/it.md)
 ---
@@ -11,120 +12,90 @@
 # Draft Fillet/it
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento [Raccordo](Draft_Fillet/it.md) crea un raccordo, un angolo arrotondato, tra due semplici [Linee](Draft_Line/it.md). In alternativa, può creare uno smusso, un bordo dritto, tra queste due linee.
-
-
-</div>
+Il comando <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Raccordo** crea un raccordo, un angolo arrotondato o smusso, tra due [Linee](Draft_Line/it.md).
 
 <img alt="" src=images/Draft_Fillet_example.png  style="width:400px;"> 
 *Diversi raccordi e smussi creati tra due linee*
 
+
+
 ### Utilizzo
 
+1.  Selezionare due [Linee](Draft_Line/it.md) che si incontrano in un unico punto.
+2.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_Fillet.svg" width=16px> [Raccordo](Draft_Fillet/it.md)**.
+    -   Selezionare l\'opzione **Drafting → <img src="images/Draft_Fillet.svg" width=16px> Raccordo** dal menu.
+    -   Usare la scorciatoia da tastiera: **F** poi **I**.
+3.  Inserire il **Raggio raccordo**. Se l\'opzione **Crea smusso** è selezionata, questa sarà la dimensione dello smusso (la lunghezza del bordo dritto). Si noti che il comando non avrà successo se il raggio o la dimensione dello smusso è troppo grande per le linee selezionate.
+4.  Facoltativamente selezionare l\'opzione **Elimina gli oggetti originali**.
+5.  Facoltativamente selezionare l\'opzione **Crea smusso**.
+6.  Se è stata selezionata una delle due opzioni precedenti: Fare clic nella casella di immissione **Raggio raccordo**.
+7.  Premere **Enter**.
 
-<div class="mw-translate-fuzzy">
 
-1.  Selezionare due [linee](Draft_Line/it.md) già inserite nel documento e che si incontrano in un punto.
-2.  Premere il pulsante **<img src="images/Draft_Fillet.svg" width=16px> [Raccordo](Draft_Fillet/it.md)**.
-3.  Scegliere il raggio del raccordo, quindi premere **Invio**.
-
-
-</div>
 
 ## Opzioni
 
-
-<div class="mw-translate-fuzzy">
-
--   Selezionare la casella di controllo \"Elimina oggetti originali\" se si desidera eliminare le due linee originali e lasciare solo il nuovo oggetto raccordo.
--   Selezionare la casella di controllo \"Crea smusso\" se si desidera creare un bordo dritto, anziché un bordo arrotondato, tra le due linee.
--   Premere **Esc** o **Chiudi** per annullare il comando corrente.
+-   Premere **Esc** o il pulsante **Chiudi** per interrompere il comando.
 
 
-</div>
 
-## Notes
+## Note
 
-
-<div class="mw-translate-fuzzy">
-
-Note:
-
--   Se il raggio è troppo grande in modo che l\'arco prodotto non sia tangente a una delle linee, l\'operazione non avrà un esito positivo.
--   Al momento sono supportate solo singole linee; le [polilinee](Draft_Wire/it.md), ovvero linee con più punti, potrebbero non produrre il risultato desiderato.
+-   Un raccordo non può essere modificato né è collegato alle linee utilizzate per crearlo.
+-   Al momento sono supportate solo linee, cioè [Polilinee](Draft_Wire/it.md) con solo due punti.
+-   Una [Polilinea](Draft_Wire/it.md) che ha almeno tre punti può essere raccordata o smussata modificandone rispettivamente **Fillet Radius** o **Chamfer Size**. Poiché [Linee](Draft_Line/it.md) e [Polilinee](Draft_Wire.md), possono essere unite con il comando [Polilinea](Draft_Wire/it.md), il comando [Unisci](Draft_Join/it.md) o il comando [Promuovi](Draft_Upgrade/it.md) forniscono un metodo alternativo per creare raccordi e smussi.
 
 
-</div>
 
 ## Proprietà
 
-See also: [Property editor](Property_editor.md).
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
 
-A Draft Fillet object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
+Un oggetto Raccordo deriva da un [Part Part2DObject](Part_Part2DObject/it.md) e ne eredita tutte le proprietà. Ha anche le seguenti proprietà aggiuntive:
+
+
 
 ### Dati
 
 
 {{TitleProperty|Draft}}
 
+-    **End|VectorDistance**: (sola lettura) specifica il punto finale del raccordo.
 
-<div class="mw-translate-fuzzy">
+-    **Fillet Radius|Lenght**: (sola lettura) raggio con cui è stato creato il raccordo.
 
--    **Start**: (sola lettura) specifica il punto iniziale.
+-    **Length|Length**: (sola lettura) specifica la lunghezza totale del raccordo.
 
--    **End**: (sola lettura) specifica il punto finale.
-
--    **Length**: (sola lettura) specifica la lunghezza dell\'intero segmento.
-
--    **Fillet Radius**: (sola lettura) raggio con cui è stato creato il raccordo.
+-    **Start|VectorDistance**: (sola lettura) specifica il punto iniziale del raccordo.
 
 
-</div>
 
 ### Vista
 
 
 {{TitleProperty|Draft}}
 
+-    **Arrow Size|Length**: specifica la dimensione del simbolo visualizzato alla fine del raccordo.
 
-<div class="mw-translate-fuzzy">
+-    **Arrow Type|Enumeration**: specifica il tipo di simbolo visualizzato alla fine del raccordo, che può essere {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} o {{value|Tick-2}}.
 
--    **End Arrow**: se è `True` verrà visualizzato un simbolo nell\'ultimo punto della linea, quindi può essere usata come una linea di annotazione.
+-    **End Arrow|Bool**: specifica se mostrare un simbolo alla fine del raccordo, in modo che possa essere utilizzato come linea di annotazione.
 
--    **Arrow Size**: specifica la dimensione del simbolo visualizzato alla fine della linea.
+-    **Pattern|Enumeration**: non utilizzato.
 
--    **Arrow Type**: specifica il tipo di simbolo visualizzato alla fine della linea, che può essere \"Dot\", \"Circle\", \"Arrow\", o \"Tick\", or \"Tick-2\" (\"Punto\", \"Cerchio\", \"Freccia\", o \"Tratto\").
+-    **Pattern Size|Float**: non utilizzato.
 
 
-</div>
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-<div class="mw-translate-fuzzy">
-
-
-**Vedere anche:**
-
-[Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Fillet può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
+Per creare un Raccordo Draft usare il metodo `make_fillet` del modulo Draft:
 
 
 ```python
@@ -157,15 +128,6 @@ fillet = Draft.make_fillet([line1, line2], radius=500)
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

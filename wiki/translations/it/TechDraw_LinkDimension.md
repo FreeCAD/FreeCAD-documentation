@@ -59,7 +59,13 @@ Il link alla geomtria 3D indica alla quota di calcolare il valore direttamente d
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Al termine dell\'operazione di collegamento, la proprietà **MeasureType** della dimensione cambia da `Projected` a `True`.
+
+
+</div>
 
 
 
@@ -78,18 +84,6 @@ Lo strumento Link alla dimensione non impedisce di creare collegamenti errati, q
 Al momento non c\'è modo di interrompere un link; si può però ripristinare la proprietà **MeasureType** in `Projected` in modo che la dimensione utilizzi il valore proiettato invece del valore collegato.
 
 Notare che se la dimensione da collegare si basa su due vertici, si devono selezionare due vertici nella vista 3D. Allo stesso modo se la dimensione si basa su un bordo, è necessario selezionare un bordo nella vista 3D.
-
-
-
-## Proprietà
-
-
-<div class="mw-translate-fuzzy">
-
-1.  La proprietà MeasureType di una dimensione collegata cambia da \"Projected\" a \"True\".
-
-
-</div>
 
 
 

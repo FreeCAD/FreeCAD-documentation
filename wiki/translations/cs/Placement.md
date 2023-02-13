@@ -527,6 +527,7 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 ## More
 
 -   This tutorial: [Aeroplane](Aeroplane.md) covers the mechanics of changing an object\'s Placement extensively.
+-   This [FreeCAD News article](https://blog.freecad.org/2023/01/16/the-rotation-api-in-freecad/?preview_id=343) discusses the Rotation API.
 
 
 

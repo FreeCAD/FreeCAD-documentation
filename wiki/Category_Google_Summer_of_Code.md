@@ -10,11 +10,12 @@ Google Summer of Code
 | [FEM Post Processing based on VTK](wiki/FEM Post Processing based on VTK.md) | [FreeCAD Configuration Management Project](wiki/FreeCAD Configuration Management Project.md) | [FreeCAD-BRLCAD integration](wiki/FreeCAD-BRLCAD integration.md) |
 | [Give graphical access to a wide range of available ElmerSolver setting from within FreeCAD](wiki/Give graphical access to a wide range of available ElmerSolver setting from within FreeCAD.md) | [Google Summer of Code 2017](wiki/Google Summer of Code 2017.md) | [Google Summer of Code 2018](wiki/Google Summer of Code 2018.md) |
 | [Google Summer of Code 2019](wiki/Google Summer of Code 2019.md) | [Google Summer of Code 2020](wiki/Google Summer of Code 2020.md) | [Google Summer of Code 2022](wiki/Google Summer of Code 2022.md) |
-| [GSoC FEM Solver Z88](wiki/GSoC FEM Solver Z88.md) | [GSoC FEM Unit Tests](wiki/GSoC FEM Unit Tests.md) | [GSoC Path/Robot Integration](wiki/GSoC Path/Robot Integration.md) |
-| [Integrate Cycles renderer](wiki/Integrate Cycles renderer.md) | [IPython notebook integration](wiki/IPython notebook integration.md) | [Mapping of main ElmerSolver setting for mechanical simulations](wiki/Mapping of main ElmerSolver setting for mechanical simulations.md) |
-| [New solver object for handling ElmerFEM execution in FEM-workbench](wiki/New solver object for handling ElmerFEM execution in FEM-workbench.md) | [PartDesign Updates](wiki/PartDesign Updates.md) | [Swept-path Analysis GSoC Project](wiki/Swept-path Analysis GSoC Project.md) |
-| [TechDraw Enhancement Project](wiki/TechDraw Enhancement Project.md) | [Topological Naming Project](wiki/Topological Naming Project.md) | [Unified Measurement Facility](wiki/Unified Measurement Facility.md) |
-| [Upgrade the documentation system](wiki/Upgrade the documentation system.md) |
+| [Google Summer of Code 2023](wiki/Google Summer of Code 2023.md) | [GSoC Checklist](wiki/GSoC Checklist.md) | [GSoC FEM Solver Z88](wiki/GSoC FEM Solver Z88.md) |
+| [GSoC FEM Unit Tests](wiki/GSoC FEM Unit Tests.md) | [GSoC Path/Robot Integration](wiki/GSoC Path/Robot Integration.md) | [Integrate Cycles renderer](wiki/Integrate Cycles renderer.md) |
+| [IPython notebook integration](wiki/IPython notebook integration.md) | [Mapping of main ElmerSolver setting for mechanical simulations](wiki/Mapping of main ElmerSolver setting for mechanical simulations.md) | [New solver object for handling ElmerFEM execution in FEM-workbench](wiki/New solver object for handling ElmerFEM execution in FEM-workbench.md) |
+| [PartDesign Updates](wiki/PartDesign Updates.md) | [Swept-path Analysis GSoC Project](wiki/Swept-path Analysis GSoC Project.md) | [TechDraw Enhancement Project](wiki/TechDraw Enhancement Project.md) |
+| [Topological Naming Project](wiki/Topological Naming Project.md) | [Unified Measurement Facility](wiki/Unified Measurement Facility.md) | [Upgrade the documentation system](wiki/Upgrade the documentation system.md) |
+|
 
 
 

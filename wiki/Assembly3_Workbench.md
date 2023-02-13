@@ -1,7 +1,6 @@
 # <img alt="Assembly3 workbench icon" src=images/Assembly3_workbench_icon.svg  style="width:64px;"> Assembly3 Workbench
 
-
-{{TOCright}}
+ 
 
 ## Introduction
 
@@ -450,7 +449,7 @@ The [Assembly3 Workbench](Assembly3_Workbench.md) is available (as of March 2022
 
 There are 2 alternate ways to install Assembly3:
 
--   A special fork of FreeCAD made by realthunder; see [FreeCAD_assembly3 releases](https://github.com/realthunder/FreeCAD_assembly3/releases). This fork is based on a particular commit of the master branch of FreeCAD, but it also has additional features currently not present in the master branch. Due to this fork being based on a particular development snapshot, it does not have the latest features merged daily to the master branch.
+-   A special fork of FreeCAD made by realthunder; see [here](https://github.com/realthunder/FreeCAD/releases). This fork is based on a particular commit of the master branch of FreeCAD, but it also has additional features currently not present in the master branch. Due to this fork being based on a particular development snapshot, it does not have the latest features merged daily to the master branch.
 -   The development [AppImage](AppImage.md); this is based on the current master branch, and includes the dependencies needed for working with Assembly3 such as the SolveSpace solver.
 
 Since the AppImage only works for Linux, for Windows users (who want an alternate install of Assembly3) option to test Assembly3 is the first option (realthunder\'s fork).

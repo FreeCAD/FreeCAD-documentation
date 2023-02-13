@@ -1,6 +1,8 @@
 # Getting started/ro
 {{TOCright}}
 
+
+
 ## Cuvânt înainte 
 
 
@@ -30,8 +32,11 @@ Ca toate proiectele open source, proiectul FreeCAD nu este doar o modalitate de 
 See also:
 
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
+-   [Which workbench should I choose?](Which_workbench_should_I_choose.md)
 -   [Tutorials](Tutorials.md)
 -   [Video tutorials](Video_tutorials.md)
+
+
 
 ## Instalare
 
@@ -42,6 +47,8 @@ Mai întâi de toate, descărcați și instalați FreeCAD. Consultați pagina [D
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -100,6 +107,8 @@ Pagina de Start vă permite să vă îndreptaţi rapid către unul atelierele ob
 
 </div>
 
+
+
 ## Navigarea în spatiul 3D 
 
 
@@ -111,6 +120,8 @@ FreeCAD vă oferă mai multe [moduri de navigare cu mouse-ul](Mouse_Model.md) di
 </div>
 
 Exista moduri de vizualizare predefinite (de sus, din fata, etc) ce se schimba folosind meniul Vizualizare, comenzile din bara de unelte Vizualizare sau scurtaturile numerice (**1**, **2**, etc\...) . Făcând clic dreapta pe un obiect sau pe o zonă goală a vizualizării 3D, aveți acces rapid la unele operații comune, cum ar fi setarea unei anumite vizualizări sau localizarea unui obiect în vizualizarea tip Arbore.
+
+
 
 ## Primii paşi în FreeCAD 
 
@@ -131,6 +142,8 @@ Puteți comuta atelirele în orice moment, și de asemenea [customize](Interface
 
 
 </div>
+
+
 
 ## Folosirea panourilor Proiectare componente (PartDesign) şi Schiţă 
 
@@ -167,6 +180,8 @@ Care vă dă un obiect ca acesta:
 <img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
 
 În orice moment, puteți selecta schițele originale și le puteți modifica sau puteți schimba parametrii de extrudare ai operațiilor de blocare sau buzunar, care vor actualiza obiectul final.
+
+
 
 ## Lucrând cu atelierele Desen 2D și Arhitectură 
 
@@ -217,6 +232,8 @@ Mai mult în pagina [Tutorials](Tutorials.md).
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Script
@@ -242,6 +259,8 @@ Iar, la sfârşit, să remarcăm că una dintre cele mai puternice caracteristic
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

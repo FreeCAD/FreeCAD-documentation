@@ -14,9 +14,13 @@
 L\'outil <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:24px;"> **PartDesign Répétition circulaire** crée une transformation circulaire d\'une ou plusieurs fonctions.
 
 ![](images/PartDesign_PolarPattern_example.png ) 
-*Une poche en forme oblongue (B) réalisée sur une protrusion (A, également appelé support) est utilisée par une transformation circulaire. Le résultat (C) est illustré à droite.*
+*Une cavité de forme oblongue (B) réalisée sur une protrusion (A, également appelé support) est utilisée par une transformation circulaire. Le résultat (C) est illustré à droite.*
+
+
 
 ## Utilisation
+
+
 
 ### Créer
 
@@ -30,24 +34,26 @@ L\'outil <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:24px;"
 6.  Le [Panneau des tâches](Task_panel/fr.md) **Paramètres de la répétition circulaire** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 7.  Appuyez sur le bouton **OK** pour terminer.
 
-### Éditer
+
+
+### Modifier
 
 1.  Faites l\'une des choses suivantes :
-    -   Double-cliquez sur l\'objet Draft dans la [Vue en arborescence](Tree_view/fr.md).
-    -   Cliquez avec le bouton droit de la souris sur l\'objet Draft dans la [Vue en arborescence](Tree_view/fr.md) et sélectionnez **Paramètres de la répétition circulaire** dans le menu contextuel.
-2.  Le [Panneau des tâches](Task_panel/fr.md) des **Paramètres de la répétition circulaire** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+    -   Double-cliquez sur l\'objet PolarPattern dans la [vue en arborescence](Tree_view/fr.md).
+    -   Cliquez avec le bouton droit de la souris sur l\'objet PolarPattern dans la [vue en arborescence](Tree_view/fr.md) et sélectionnez **Paramètres de la répétition circulaire** dans le menu contextuel.
+2.  Le [panneau des tâches](Task_panel/fr.md) des **Paramètres de la répétition circulaire** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Appuyez sur le bouton **OK** pour terminer.
 
 ## Options
 
 -   Pour ajouter des fonctions :
     1.  Appuyez sur le bouton **Ajouter une fonction**.
-    2.  Sélectionnez une fonction dans la [Vue en arborescence](Tree_view/fr.md) ou la [Vue 3D](3D_view/fr.md).
+    2.  Sélectionnez une fonction dans la [vue en arborescence](Tree_view/fr.md) ou la [vue 3D](3D_view/fr.md).
     3.  Répétez l\'opération pour ajouter d\'autres fonctions.
 -   Pour supprimer des fonctions :
     1.  Appuyez sur le bouton **Supprimer une fonction**.
     2.  Effectuez l\'une des opérations suivantes :
-        -   Sélectionnez une fonction dans la [Vue en arborescence](Tree_view/fr.md) ou la [Vue 3D](3D_view/fr.md).
+        -   Sélectionnez une fonction dans la [vue en arborescence](Tree_view/fr.md) ou la [vue 3D](3D_view/fr.md).
         -   Sélectionnez une fonction dans la liste et appuyez sur la touche **Suppr**.
         -   Cliquez avec le bouton droit de la souris sur une fonction de la liste et sélectionnez **Enlever** dans le menu contextuel.
     3.  Répétez l\'opération pour supprimer d\'autres fonctions.
@@ -56,46 +62,48 @@ L\'outil <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:24px;"
     -   
         **Axe normal à l'esquisse**
         
-        : L\'axe Z de l\'esquisse (disponible uniquement pour les fonctions basées sur l\'esquisse).
+        : axe Z de l\'esquisse (disponible uniquement pour les fonctions basées sur l\'esquisse).
 
     -   
         **Axe d'esquisse vertical**
         
-        : L\'axe Y de l\'esquisse (idem).
+        : axe Y de l\'esquisse (idem).
 
     -   
         **Axe d'esquisse horizontal**
         
-        : L\'axe X de l\'esquisse (idem).
+        : axe X de l\'esquisse (idem).
 
     -   
         **Ligne de construction #**
         
-        : Une entrée séparée pour chaque ligne de construction dans l\'esquisse (idem).
+        : entrée séparée pour chaque ligne de construction dans l\'esquisse (idem).
 
     -   
         **Axe X**
         
-        : L\'axe X du corps.
+        : axe X du corps.
 
     -   
         **Axe Y**
         
-        : L\'axe Y du corps.
+        : axe Y du corps.
 
     -   
         **Axe Z**
         
-        : L\'axe Z du corps.
+        : axe Z du corps.
 
     -   
         **Sélectionnez une référence...**
         
-        : Sélectionnez une [PartDesign Ligne de référence](PartDesign_Line/fr.md) dans la [Vue en arborescence](Tree_view/fr.md) ou une [PartDesign Ligne de référence](PartDesign_Line/fr.md) ou une arête dans la [Vue 3D](3D_view/fr.md).
+        : sélectionnez une [PartDesign Ligne de référence](PartDesign_Line/fr.md) dans la [vue en arborescence](Tree_view/fr.md) ou une [PartDesign Ligne de référence](PartDesign_Line/fr.md) ou une arête dans la [vue 3D](3D_view/fr.md).
 -   Cochez la case **Inverser la direction** pour inverser la transformation.
 -   Spécifiez l\'**Angle** à couvrir par la transformation. Si l\'angle est inférieur à 360°, les instances sont réparties uniformément de 0° (première instance) à l\'angle donné (dernière instance). Si l\'angle est un cercle complet de 360°, les instances sont réparties uniformément autour du cercle. Cela signifie que pour n instances, un angle de 360° est équivalent à un angle de 360°\*(1-1/n).
 -   Spécifiez le nombre d\'occurrences **Occurrences** (y compris la fonction d\'origine).
 -   Si la case **Réactualiser la vue** est cochée, la vue sera mise à jour en temps réel.
+
+
 
 ## Organiser les fonctions 
 

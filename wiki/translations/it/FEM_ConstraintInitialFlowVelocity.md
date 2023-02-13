@@ -5,9 +5,13 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Crea un vincolo di velocità iniziale del flusso per un\'analisi del flusso del fluido.
+
+
 
 ## Utilizzo
 
@@ -19,6 +23,8 @@ Crea un vincolo di velocità iniziale del flusso per un\'analisi del flusso del 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -36,6 +42,8 @@ Crea un vincolo di velocità iniziale del flusso per un\'analisi del flusso del 
 
 
 </div>
+
+
 
 ## Note
 

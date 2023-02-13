@@ -1,35 +1,29 @@
 ---
 - GuiCommand:/it
    Name:Arch Truss
-   Name/it:Arch Truss
-   Workbenches:[Arch](Arch_Workbench/it.md)
+   Name/it:Travatura
    MenuLocation:Arch → Travatura
+   Workbenches:[Arch](Arch_Workbench/it.md)
    Version:0.19
 ---
 
 # Arch Truss/it
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
 Lo strumento [Travatura](Arch_Truss/it.md) crea un oggetto [travatura](https://en.wikipedia.org/wiki/Truss), sia da un oggetto lineare selezionato (posta su una [Linea di Draft](Draft_Line/it.md) o uno \[\[Sketcher_NewSketch/it\|Schizzo\] \]), o da zero se non viene selezionato alcun oggetto all\'avvio del comando.
-
-
-</div>
 
 <img alt="" src=images/Arch_Truss_example.png  style="width:600px;">
 
+
+
 ## Utilizzo
 
+
+
 ### Creare da un oggetto selezionato 
-
-
-<div class="mw-translate-fuzzy">
 
 1.  Utilizzare un ambiente di lavoro a scelta per creare un\'unica linea
 2.  Selezionare quella linea
@@ -38,12 +32,8 @@ Lo strumento [Travatura](Arch_Truss/it.md) crea un oggetto [travatura](https://e
 4.  Regolare le proprietà della capriata a proprio piacimento
 
 
-</div>
 
 ### Creare dall\'inizio 
-
-
-<div class="mw-translate-fuzzy">
 
 1.  Assicurarsi che non sia selezionato nulla
 2.  Premere il pulsante **<img src="images/Arch_Truss.svg" width=16px> [Travatura](Arch_Truss/it.md)
@@ -53,9 +43,10 @@ Lo strumento [Travatura](Arch_Truss/it.md) crea un oggetto [travatura](https://e
 5.  Regolare le proprietà della capriata a proprio piacimento
 
 
-</div>
 
 ## Proprietà
+
+
 
 ### Dati
 
@@ -89,15 +80,11 @@ Lo strumento [Travatura](Arch_Truss/it.md) crea un oggetto [travatura](https://e
 
 -    **RodMode**: Come disegnare le aste
 
+
+
 ## Script
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Travatura può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
-
-
-</div>
+Lo strumento Travatura può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
 
 
 ```python
@@ -120,15 +107,6 @@ truss.HeightStart = 200
 truss.HeightEnd = 400
 # adjust other needed properties
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

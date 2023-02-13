@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 Środowisko pracy <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Złożenie 3](Assembly3_Workbench/pl.md) jest [zewnętrznym środowiskiem pracy](External_workbenches/pl.md), które jest używane do wykonywania złożeń różnych części zawartych w jednym lub wielu dokumentach. Środowisko to bazuje na kilku zmianach funkcji rdzenia FreeCAD w wersji 0.19 *(np. [App Link](App_Link/pl.md))*. Dlatego środowisko Złożenie 3 nie może być używane ze starszymi wersjami programu.
@@ -20,9 +22,13 @@ Głównymi cechami środowiska **Złożenie 3** są:
 
 {{top}}
 
+
+
 ### Paski narzędzi 
 
-Środowisko Złożenie 3 zawiera następujące paski narzędzi - stan na rok 2020.
+Środowisko Złożenie 3 zawiera następujące paski narzędzi.
+
+
 
 #### Główny pasek narzędzi 
 
@@ -110,6 +116,8 @@ Głównymi cechami środowiska **Złożenie 3** są:
 
 
 </div>
+
+
 
 #### Główny pasek wiązań 
 
@@ -204,6 +212,8 @@ Głównymi cechami środowiska **Złożenie 3** są:
 
 </div>
 
+
+
 #### Dodatkowe paski narzędziowe wiązań 
 
 :   <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width:28px;"> (Assembly3 Constraints2)
@@ -292,7 +302,11 @@ Głównymi cechami środowiska **Złożenie 3** są:
     :   czy to 2D / 3D albo czy więcej niż dwa Elementy mogą zostać dodane.
 :   Dokładny opis znajduje się w Wiki Githuba.
 
+
+
 #### Pasek narzędzi nawigacji 
+
+:   <img alt="" src=images/Assembly_GotoRelation.svg‎‎  style="width:28px;"> <img alt="" src=images/LinkSelect.svg‎‎  style="width:28px;"> <img alt="" src=images/LinkSelectFinal.svg‎‎  style="width:28px;">
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -314,6 +328,8 @@ Głównymi cechami środowiska **Złożenie 3** są:
 
 
 </div>
+
+
 
 #### Pasek narzędzi pomiarowych 
 
@@ -350,6 +366,8 @@ Jak zwykle możesz modyfikować paski narzędzi i dodawać lub usuwać poszczeg�
 
 
 {{top}}
+
+
 
 ### Wiązania
 
@@ -389,6 +407,8 @@ Inne
 
 {{top}}
 
+
+
 ### Elementy
 
 Elementy są specyficznym terminem w środowisku Assembly3 i ważne jest zrozumienie Elementów by zrozumieć jak Assembly3 powinno być używane.
@@ -418,6 +438,8 @@ Wcześniejszy przykład pokazał, że możliwa jest zmiana Elementów wykorzysty
 
 {{top}}
 
+
+
 ## Zgodność
 
 Złożenie 3 zostało zainspirowane przez [Złożenie 2](Assembly2_Workbench/pl.md), ale nie jest z nim kompatybilne. Jeśli masz starsze modele wykonane w środowisku Złożenie2, powinieneś zostać przy FreeCAD 0.16 i używać środowiska Złożenie 2.
@@ -429,9 +451,16 @@ Mimo, że mogą mieć podobne narzędzia, środowisko Złożenie 3 nie jest zgod
 
 {{top}}
 
+
+
 ## Instalacja
 
 Środowisko pracy [Złożenie 3](Assembly3_Workbench/pl.md) jest dostępne *(od marca 2022)* poprzez [Menadżer dodatków](Std_AddonMgr/pl.md). Wszelkie zależności Złożenie 3 od stron trzecich powinny być zarządzane automatycznie przez menedżera dodatków.
+
+#### Alternate installations 
+
+
+<div class="mw-translate-fuzzy">
 
 #### Instalacje alternatywne 
 
@@ -440,16 +469,30 @@ Istnieją dwa alternatywne sposoby instalacji środowiska pracy Złożenie 3:
 -   Specjalny fork programu FreeCAD wykonany przez użytkownika realthunder; zobacz [FreeCAD_assembly3 releases](https://github.com/realthunder/FreeCAD_assembly3/releases). Ten fork jest oparty o konkretnym commit z głównej gałęzi FreeCAD, ale posiada również dodatkowe funkcje, które obecnie nie są obecne w głównej gałęzi. Ze względu na to, że to rozwidlenie jest oparte na konkretnym zrzucie rozwojowym, nie posiada najnowszych funkcji scalanych codziennie do gałęzi głównej.
 -   Rozwojowy [AppImage](AppImage/pl.md), jest oparty na aktualnej gałęzi głównej i zawiera zależności potrzebne do pracy ze środowiskiem Złożenie 3, takie jak solver SolveSpace.
 
+
+</div>
+
 Ponieważ AppImage działa tylko dla Linuksa, dla użytkowników Windows *(którzy chcą alternatywnie zainstalować to środowisko pracy)* jedyną możliwością przetestowania Złożenie 3 jest pierwsza opcja *(fork realthunder-a)*.
 
 
 {{top}}
 
+
+
 ## Jak
+
+### Get Started 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Zaczynamy
 
 Istnieje wiele sposobów na stworzenie złożenia za pomocą środowiska Złożenie 3. Oto najprostszy z nich, który możesz zastosować.
+
+
+</div>
+
 
 :   <img alt="" src=images/Assembly3_Example-GettingStarted.jpg  style="width:600px;">
 :   *Wynik końcowy przykładu wprowadzającego. Na obrazku zaznaczono środowisko pracy Złożenie 3, więc widoczne są jego liczne paski narzędzi. Zwróć uwagę, że pionowy \"Pasek zakładek\" po lewej stronie widoku drzewa jest dodatkiem, który nie jest zawarty w standardowym FreeCAD (ale może być zainstalowany za pomocą Menadżera dodatków).*
@@ -503,9 +546,17 @@ Jeśli chcesz, możesz przesunąć wiązanie **Zablokowania** w górę drzewa. U
 
 {{top}}
 
+### Add an Offset 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Dodaj odsunięcie 
 
 Złożenie 3 nie oferuje funkcji przesunięcia w stosunku do stałych w sposób, w jaki robi to środowisko [A2plus](A2plus_Workbench/pl.md) lub inne narzędzia CAD. Zamiast tego oferuje bardziej ogólny i elastyczny system do dodawania odsunięć, przemieszczeń, ale także kątów.
+
+
+</div>
 
 -   Dodaj odsunięcie we właściwościach jednego [elementu](#Elementy.md) [wiązania](#Wiązania.md).
 
@@ -523,9 +574,17 @@ Przetestuj z innymi osiami lub polami kąta / osi. Sprawdź również, czy uzysk
 
 {{top}}
 
+### Solve a Solver Failure 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Rozwiąż niepowodzenie solvera 
 
 = Zdarza się to często, gdy części są nadmiernie związane, tzn. mają zablokowanych więcej niż 6 stopni swobody.
+
+
+</div>
 
 Najprostszym sposobem na znalezienie problemu jest kliknięcie odpowiednich wiązań w drzewie i wybranie z *menu podręcznego / Wyłącz* i ponowne obliczenie. Dobrze jest znać ostatnio dodane wiązania przed niepowodzeniem solvera i po prostu je wycofać.
 
@@ -534,9 +593,17 @@ Uwaga: ponieważ Złożenie 3 próbuje kompensować nadmiernie związane element
 
 {{top}}
 
+### Replace a part or rename a filename 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Zastępowanie części lub zmiana nazwy pliku 
 
 W przypadku usunięcia części lub zmiany nazwy pliku, złożenie ulega uszkodzeniu i nie może być rozwiązane, a solver wyświetli komunikat \" Niespójne wiązania\". Solver oznacza niepoprawne Elementy i Wiązania znakiem zapytania w drzewie.
+
+
+</div>
 
 Jednym ze sposobów rozwiązania tego problemu jest po prostu usunięcie wszystkich niepoprawnych wiązań i elementów, zaimportowanie nowej części i ponowne wykonanie wszystkiego. Ale jest też lepszy sposób:
 
@@ -576,6 +643,11 @@ Jednym ze sposobów rozwiązania tego problemu jest po prostu usunięcie wszystk
 
 {{top}}
 
+### Tips & Tricks 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Wskazówki i porady 
 
 -   Używanie hierarchicznych złożeń pomaga uniknąć problemów z solverami i zachować płynność modelu. Można zamrozić podzespół jednym kliknięciem i w ten sposób łatwo zaoszczędzić zasoby procesora *(użyj menu kontekstowego w drzewie)*. Podczas wczytywania zespołu Assembly3 nie musi otwierać zewnętrznych plików dla zamrożonych podzespołów, dzięki czemu drzewo jest zwarte.
@@ -589,10 +661,15 @@ Jednym ze sposobów rozwiązania tego problemu jest po prostu usunięcie wszystk
 -   Mnożenie połączonych części. Jeśli dodałeś link do złożenia, będzie on miał wartość właściwości o nazwie \"Liczba elementów\", domyślnie 0. Jeśli ustawisz ją na wartość 3, otrzymasz 3 wystąpienia tej części. Będą one dodane do katalogu podrzędnego i mogą być używane jak w pełni oddzielne części. Użyj tej funkcji, aby utrzymać niski ślad danych w pliku, ponieważ część jest zapisywana tylko raz. Każde wystąpienie zawiera tylko różnice.
 -   Wstawianie wielu części, np. śrub, za pomocą jednego kliknięcia. Sprawdź [Assembly3 Wiki](https://github.com/realthunder/FreeCAD_assembly3/wiki/Constraints-and-Solvers) na stronie Github. Jest to nie tylko oszałamiająca funkcja (nawet trochę magiczna), ale naprawdę bardzo przydatna.
 
+
+</div>
+
 -   Użycie [Paska zakładek](https://github.com/triplus/TabBar) przyspiesza pracę z montażem. Dzięki temu dodajemy pasek narzędzi z jednym przyciskiem dla każdego środowiska pracy. Możesz sortować pasek narzędzi i umieścić go gdziekolwiek chcesz. Wielu ludzi umieszcza go pionowo po lewej stronie, tuż obok widoku drzewa. Jeśli masz Złożenie 3, Część, Projekt Części i inne często używane narzędzia blisko góry, przełączanie się pomiędzy nimi staje się niezwykle proste.
 
 
 {{top}}
+
+
 
 ## Odnośniki internetowe 
 

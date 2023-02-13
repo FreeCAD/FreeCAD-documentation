@@ -21,7 +21,11 @@ S\'il n\'y a pas eu une transformation au préalable lors de la <img alt="" src=
 <img alt="" src=images/PartDesign_Scaled-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/PartDesign_Scaled-04.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/PartDesign_Scaled-05.png  style="width:200px;"> 
 *Un élément de base avec un trou → Objet mis à l'échelle avec 2 occurrences → Objet mis à l'échelle avec 4 occurrences*
 
+
+
 ## Utilisation
+
+
 
 ### Mise à l\'échelle d\'une fonction transformée 
 
@@ -34,13 +38,15 @@ S\'il n\'y a pas eu une transformation au préalable lors de la <img alt="" src=
 5.  Appuyez sur **OK** de la barre en bas.
 6.  Appuyez sur le bouton **OK** en haut pour terminer.
 
+
+
 ### Mise à l\'échelle d\'un seul élément 
 
-1.  Sélectionnez un élément du corps actuel dans la [Vue en arborescence](Tree_view/fr.md).
+1.  Sélectionnez un élément du corps actif dans la [vue en arborescence](Tree_view/fr.md).
 2.  Effectuez l\'une des opérations suivantes :
     -   Appuyez sur le bouton **<img src="images/PartDesign_MultiTransform.svg" width=16px> [Transformation multiple](PartDesign_MultiTransform/fr.md)**.
-    -   Sélectionnez l\'option **Part Design → Appliquer une transformation → <img src="images/PartDesign_MultiTransform.svg" width=16px> Transformation multiple** dans le menu.
-3.  Le [Panneau des tâches](Task_panel/fr.md) **Paramètres de la transformation multiple** s\'ouvre. Voir ci-dessus.
+    -   Sélectionnez l\'option **Part Design → Appliquer une transformation → <img src="images/PartDesign_MultiTransform.svg" width=16px> Transformation multiple** du menu.
+3.  Le [panneau des tâches](Task_panel/fr.md) **Paramètres de la transformation multiple** s\'ouvre. Voir ci-dessus.
 
 ## Options
 
@@ -50,6 +56,8 @@ S\'il n\'y a pas eu une transformation au préalable lors de la <img alt="" src=
 
     -   Une transformation de mise à l\'échelle accepte le nombre d\'occurrences de la transformation précédente comme valeur maximale ou tout diviseur entier de ce nombre retournant un résultat entier. Ainsi, {{Value|12}}, {{Value|6}}, {{Value|4}}, {{Value|3}} et {{Value|2}} sont valides pour une répétition linéaire ou polaire avec 12 occurrences.
     -   Une fonction unique de mise à l\'échelle accepte tout nombre entier supérieur à 1.
+
+
 
 ## Remarques
 

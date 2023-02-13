@@ -13,6 +13,8 @@
 
 Ce **tutoriel d\'introduction à la modélisation** vous montrera comment modéliser un fer angle (cornière). Une chose à savoir, FreeCAD est modulaire, et comme pour plusieurs autres logiciels de CAO, il y a souvent plus d\'une façon de faire les choses. Ici, nous explorerons deux méthodes.
 
+Ce tutoriel a été écrit avec la version 0.15 de FreeCAD.
+
 ## Avant de commencer 
 
 Gardez en tête que FreeCAD est toujours à un stade précoce de développement, il est donc possible que vous ne soyez pas aussi productif qu\'avec une autre application de CAO, et il est fort probable que vous rencontriez des bogues, ou subissiez des plantages. FreeCAD offre maintenant la possiblité de créer des fichiers de sauvegarde. Le nombre de ces fichiers peut être réglé dans le menu *Édition \> Préférences*, onglet *Document*. N\'hésitez pas à allouer deux ou trois fichiers de sauvegarde jusqu\'à ce que vous soyez à l\'aise avec FreeCAD.

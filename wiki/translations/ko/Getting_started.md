@@ -10,6 +10,8 @@
 
 {{TOCright}}
 
+
+
 ## 머리말
 
 
@@ -39,8 +41,11 @@ FreeCAD는 현재 개발 중에 있으며 많은 [features](Feature_list.md) 목
 See also:
 
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
+-   [Which workbench should I choose?](Which_workbench_should_I_choose.md)
 -   [Tutorials](Tutorials.md)
 -   [Video tutorials](Video_tutorials.md)
+
+
 
 ## 설치
 
@@ -51,6 +56,8 @@ See also:
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -103,11 +110,15 @@ FreeCAD를 처음 시작하면, start center에 있습니다. 여기는 버전 0
 
 The Start page allows you to quickly jump to one of the most common workbenches, open one of the recent files, or see the latest news from the FreeCAD world. You can change the default workbench in the [preferences](Preferences_Editor.md).
 
+
+
 ## 3D 공간 항해하기 
 
 FreeCAD has several [navigation modes](Mouse_navigation.md) available, that change the way you use your mouse to interact with the objects in the 3D view and the view itself. One of them is specifically made for [touchpads](Mouse_navigation#Touchpad_navigation.md), where the middle mouse button is not used. The default navigation mode is [CAD navigation](Mouse_navigation#CAD_navigation.md). You can quickly change the current navigation mode by using the **[<img src=images/NavigationCAD_dark.svg style="width:16px">** button in the [Status bar](Status_bar.md) or by right-clicking an empty area of the [3D view](3D_view.md).
 
 You also have several view presets (top view, front view, etc) available in the View menu, on the View toolbar, and by numeric shortcuts (**1**, **2**, etc\...). By right-clicking on an object or on an empty area of the 3D view, you have quick access to some common operations, such as setting a particular view, or locating an object in the Tree view.
+
+
 
 ## FreeCAD와 함께하는 첫 단계 
 
@@ -122,6 +133,8 @@ The workbench you will start using in FreeCAD depends on the type of job you nee
 
 
 </div>
+
+
 
 ## PartDesign 및 Sketcher workbenches와 함께 일하기 
 
@@ -178,6 +191,8 @@ Which will give you this:
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Scripting
@@ -203,6 +218,8 @@ There are two types of addons:
 
 
 </div>
+
+
 
 ## 새로운 점 
 

@@ -9,9 +9,13 @@
    Files:nessuno
 }}
 
+
+
 ## Introduzione
 
 In questa guida introduttiva alla modellazione si mostra come modellare un profilo angolare. Si deve sapere che FreeCAD è composto da diversi moduli di disegno, e come in molti altri software CAD, sovente ci sono più modi di fare le cose. Qui, esploreremo due metodi.
+
+Questo tutorial è stato scritto con la versione 0.15 di FreeCAD.
 
 ## Prima di iniziare 
 

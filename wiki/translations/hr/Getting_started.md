@@ -1,6 +1,8 @@
 # Getting started/hr
 {{TOCright}}
 
+
+
 ## Predgovor
 
 FreeCAD je CAD/CAE [aplikacija parametarskog modeliranja](About_FreeCAD/hr.md).Prvenstveno je napravljen za dizajn mehanike, ali podržava sve druge primjene gdje je potrebno 3D modeliranje objekata sa velikom preciznošću i kontrolom zabilješki modeliranja.
@@ -12,12 +14,17 @@ Kao svaki slobodni softver projekt, FreeCAD je ovisan o zajednici da bi mogao ra
 See also:
 
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
+-   [Which workbench should I choose?](Which_workbench_should_I_choose.md)
 -   [Tutorials](Tutorials.md)
 -   [Video tutorials](Video_tutorials.md)
+
+
 
 ## Instalacija
 
 Prvo preuzmite i instalirajte FreeCAD. Pogledaj [Preuzimanja](Download/hr.md) stranicu za informacije o preuzimanju, trenutnoj verziji programa, i o nadopunama, i instrukcije [Instalacija](Installing/hr.md) za vaš operacijski sustav ([Windows](Installing_on_Windows/hr.md), [Linux](Installing_on_Linux/hr.md) or [Mac](Installing_on_Mac/hr.md)). Postoje spremni instalacijski paketi za Windows (.msi), Debian i Ubuntu (.deb), openSUSE (.rpm) i Mac OSX. FreeCAD je dostupan od upravitelja paketa mnogih drugih distribucija Linuxa. Dostupna je i samostalna izvršna datoteka [AppImage](AppImage/hr.md) koja će se izvoditi na najnovijim 64-bitnim Linux sustavima. Budući da je FreeCAD otvorenog koda, također možete preuzeti izvorni kod i [kompilirati](Compiling/hr.md) ga sami.
+
+
 
 ## Istraživanje sučelja 
 
@@ -63,6 +70,8 @@ Kada otvorite FreeCAD prvi puta otvorit če se Start stranica Ovdje je izgled od
 
 Start stranica omogućuje brzi prijelaz na uobičajene radne ploče, otvara uobičajeni dokument ili pregled zadnjih vijesti iz FreeCAD svijeta. Vi možete promijeniti početnu radnu ploču u [Uređivač postavki](Preferences_Editor/hr.md).
 
+
+
 ## Navigacija u 3D prostoru 
 
 
@@ -75,6 +84,8 @@ FreeCAD ima na raspolaganju nekoliko različitih [navigacijski načini](Mouse_na
 
 Vi imate nekoliko pogleda koji su predefinirani (pogled odozgo, pogled sprijeda itd.) koji se nalaze u izborniku pregleda, a imate i brojevne prečice (**1**, **2**, itd\...). Sa klikom na objekt ili prazno područje sa desnom tipkom miša možete dobiti brzi pristup nekim osnovnim operacijama kao postavljanje pogleda, ili položaj objekta u stablu pregleda.
 
+
+
 ## Prvi koraci sa FreeCAD-om 
 
 Fokus FreeCAD-a vam je omogućiti izradu 3D preciznih 3D modela, strogu kontrolu nad tim modelima (mogućnost vraćanja u povijest modeliranja i izmjenu parametara) i na kraju izradu tih modela (putem 3D ispisa, CNC obrade ili čak gradilišta). Stoga se vrlo razlikuje od nekih drugih 3D aplikacija napravljenih u druge svrhe, poput animacijskog filma ili igranja. Njegova krivulja učenja može biti strma, posebno ako je ovo vaš prvi kontakt s 3D modeliranjem. Ako u nekom trenutku imate poteškoće, nemojte zaboraviti da će vas prijateljska zajednica korisnika na [FreeCAD forumu](http://forum.freecadweb.org/index.php) uspjeti pomoći u bilo kojem trenutku.
@@ -82,6 +93,8 @@ Fokus FreeCAD-a vam je omogućiti izradu 3D preciznih 3D modela, strogu kontrolu
 Radna ploča koju ćete početi koristiti u FreeCAD-u ovisi o vrsti posla koji trebate obaviti: Ako radite na mehaničkim modelima ili općenito nekim objektima manjeg opsega, vjerojatno ćete željeti isprobati [Dizajniranje dijelova radna ploča](PartDesign_Workbench/hr.md). Ako radite u 2D-u, prebacite se na [ Nacrt radna ploča](Draft_Workbench/hr.md) ili na [Skiciraj radna ploča](Sketcher_Workbench/hr.md) ako su vam potrebna ograničenja. Ako želite učiniti BIM, pokrenite [Arhitekt radna ploča](Arch_Workbench/hr.md). Ako radite s dizajnom brodova, za vas postoji poseban [Brod radna ploča](Ship_Workbench/hr.md). A ako stižete iz svijeta OpenSCAD, pokušajte [OpenSCAD radna ploča](OpenSCAD_Workbench/hr.md).
 
 Radne ploče možete prebaciti u bilo koje vrijeme i također [Prilagodba sučelja](Interface_Customization/hr.md) svoju omiljenu radnu ploču koristiti za dodavanje alata s drugih radnih ploča.
+
+
 
 ## Rad sa radnim pločama Dizajniranje dijelova i Skiciraj 
 
@@ -107,6 +120,8 @@ Ti 2D oblici napravljeni pomoću Skiciraj puno se koriste na radnoj ploči PartD
 
 U bilo kojem trenutku možete odabrati originalne skice i modificirati ih ili promijeniti parametre ekstruzije padova ili džepnih operacija, što će ažurirati konačni objekt.
 
+
+
 ## Rad s radnim pločama Nacrt i Arhitekt 
 
 [Nacrt](Draft_Workbench/hr.md) i [Arhitekt](Arch_Workbench/hr.md) ponašaju se malo drugačije od ostalih radnih radnih ploča gore, iako slijede ista pravila, koja su zajednička svima FreeCAD-u. Ukratko, dok su Sketcher (Skiciraj) i PartDesign (Dizajniranje dijelova) primarno dizajnirani za pojedinačne komade, Nacrt i Arhitekt su napravljeni da olakšaju vaš rad kada radite s nekoliko jednostavnijih objekata.
@@ -131,6 +146,8 @@ Tipičan tijek rada s Arch ( Arhitekt) i Drafts (Nacrt)radnim pločama može bit
 
 Više informacija na stranici [Vježbe](Tutorials/hr.md).
 
+
+
 ## Dodatci, Makronaredbe i Vanjske radne ploče 
 
 
@@ -148,9 +165,13 @@ Postoje dvije vrste dodataka:
 1.  [Makronaredbe](Macros/hr.md): kratki isječci Python koda koji pružaju novi alat ili funkcionalnost. Makronaredbe obično počinju kao način pojednostavljenja ili automatizacije zadatka crtanja ili uređivanja određenog objekta. Ako se mnogo makronaredbi sakuplja unutar mape, cijeli se direktorij može distribuirati kao nova radna ploča.
 2.  [Vanjskie radne ploče](External_workbenches/hr.md): zbirka alata programiranih u Pythonu ili C ++ koji na važan način proširuju FreeCAD. Ako je radna ploča dovoljno razvijena i dobro je dokumentirana, može biti uključena kao jedana od osnovnih radnih ploča u FreeCAD. Pod [ Vanjske radne ploče](External_workbenches/hr.md) naći ćete principe i popis postojeće knjižnice.
 
+
+
 ## Skriptiranje
 
 I na kraju, jedna od najmoćnijih značajki FreeCAD-a je [skriptiranje](scripting/hr.md) okruženje. Iz integrirane python konzole (ili iz bilo koje druge vanjske Python skripte) možete dobiti pristup gotovo bilo kojem dijelu FreeCAD-a, stvoriti ili izmijeniti geometriju, modificirati reprezentaciju tih objekata na 3D sceni ili pristupiti i izmijeniti FreeCAD sučelje. Python skripti mogu se koristiti i u [makronaredbe](macros/hr.md), koje pružaju jednostavan način stvaranja prilagođenih naredbi.
+
+
 
 ## Šta ima novoga 
 

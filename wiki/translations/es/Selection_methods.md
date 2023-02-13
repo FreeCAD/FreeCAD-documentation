@@ -10,23 +10,33 @@
 
 {{TOCright}}
 
+
+
 ## Vista general 
 
 [Selection methods](Selection_methods.md) in FreeCAD allow picking objects in the [FreeCAD Interface](Interface.md): such as [3D view](3D_view.md), [tree view](Tree_view.md), [selection view](Selection_view.md), and other dialogs. Some selection methods are workbench specific and are documented in the particular workbench documentation.
+
+
 
 ### Vista 3D 
 
 In the [3D view](3D_view.md) there are various ways of selecting objects.
 
+
+
 ### Selección simple 
 
 Simple selection with the mouse (by default left-click) and pre-selection (hover) are described in the [mouse navigation](Mouse_navigation.md) page.
+
+
 
 ### Clices repetidos 
 
 The first click selects a sub-element (vertex, edge or face) of the object under the mouse. A second click selects the whole object. <small>(v0.18)</small> 
 
 The third click extends the selection to its container object ([PartDesign Body](PartDesign_Body.md), [Std Part](Std_Part.md), and others). Further clicks expand the selection up the container chain. <small>(v0.19)</small> 
+
+
 
 ### Comandos de selección 
 
@@ -70,7 +80,7 @@ More methods are available by opening the context menu (right-click), depending 
 
 Selecting objects is inherently a graphical task and therefore it is only available when the graphical user interface is loaded.
 
-These commands can be used in [macros](Macros.md) or from the [Python console](Python_console.md).
+These methods can be used in [macros](Macros.md) or from the [Python console](Python_console.md):
 
 
 ```python
@@ -81,11 +91,24 @@ Gui.Selection.addSelectionGate
 Gui.Selection.Filter
 ```
 
-The command `addSelectionGate` restricts the user from selecting objects not specified in the selection string. A symbol appears when the pointer is over an item not in the specified group.
+The `addSelectionGate` method prevents the user from selecting objects not specified in the selection string. A <img alt="" src=images/Button_invalid.svg  style="width:16px;"> symbol appears when the pointer is over an item not in the specified group.
 
 
 ```python
 Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Edge")
+
+#### or
+Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Face")
+
+#### or
+Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Vertex")
+```
+
+To remove `SelectionGate()`:
+
+
+```python
+Gui.Selection.removeSelectionGate()
 ```
 
 See the [Source documentation](Source_documentation.md) and [Std PythonHelp](Std_PythonHelp.md) for more help on using these tools.

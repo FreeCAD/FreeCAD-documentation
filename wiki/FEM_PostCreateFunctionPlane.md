@@ -1,7 +1,6 @@
 ---
 - GuiCommand:
    Name:FEM PostCreateFunctionPlane
-   Icon:Fem-post-geo-plane.svg
    MenuLocation:Results → Filter Functions → Plane
    Workbenches:[FEM](FEM_Workbench.md)
    SeeAlso:[FEM tutorial](FEM_tutorial.md)
@@ -11,22 +10,22 @@
 
 ## Description
 
-The <img alt="" src=images/Fem-post-geo-plane.svg  style="width:24px;"> **FEM PostCreateFunctionPlane** function defines how a mesh is cut geometrically. It is used by <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:16px;"> [Function cut filter](FEM_PostFilterCutFunction.md) and <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:16px;"> [Region clip filter](FEM_PostFilterClipRegion.md).
+The <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> **FEM PostCreateFunctionPlane** function defines how a mesh is cut geometrically. It is used by <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:16px;"> [Function cut filter](FEM_PostFilterCutFunction.md) and <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:16px;"> [Region clip filter](FEM_PostFilterClipRegion.md).
 
 ## Usage
 
 ### Create a plane function 
 
 1.  There are several ways to create a function:
-    -   Press the **<img src="images/Fem-post-geo-plane.svg" width=16px> [Plane](FEM_PostCreateFunctionPlane.md)** button.
-    -   Select the **Results → Filter functions → <img src="images/Fem-post-geo-plane.svg" width=16px> Plane** option from the menu.
+    -   Press the **<img src="images/FEM_PostCreateFunctionPlane.svg" width=16px> [Plane](FEM_PostCreateFunctionPlane.md)** button.
+    -   Select the **Results → Filter functions → <img src="images/FEM_PostCreateFunctionPlane.svg" width=16px> Plane** option from the menu.
 2.  The Implicit function [task panel](Task_panel.md) is opened.
 3.  Optionally set the values for the origin and the direction of the section plane.
 4.  Press the **OK** button to finish.
 
 ### Edit a plane function 
 
-If the Plane object in the [3D view](3D_view.md) is hidden, select the <img alt="" src=images/Fem-post-geo-plane.svg  style="width:24px;"> Plane object in the [tree view](Tree_view.md) and press **Space** to make it visible, like in this example:
+If the Plane object in the [3D view](3D_view.md) is hidden, select the <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> Plane object in the [tree view](Tree_view.md) and press **Space** to make it visible, like in this example:
 
  <img alt="" src=images/FEM_Plane-Cut-Function-Example.png  style="width:300px;"> 
 

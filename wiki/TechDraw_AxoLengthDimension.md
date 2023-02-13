@@ -16,7 +16,7 @@ The **Axonometric Length Dimension** tool adds a length dimension to an axonomet
 
 ## Usage
 
-1.  Select two edges. (e1 and e2 in the image). The first one defines the direction and length of the dimension line, the second one defines the (in 3D orthogonal) direction of the reference lines.
+1.  Select two edges, e1 and e2 in the image. The first one defines the direction and length of the dimension line, the second one defines the (in 3D orthogonal) direction of the reference lines.
 2.  Press the **<img src="images/TechDraw_AxoLengthDimension.svg" width=16px> [Axonometric Length Dimension](TechDraw_AxoLengthDimension.md)** button.
 3.  An axonometric dimension (blue in the image) will be added to the view. The dimension may be dragged to the desired position.
 4.  If needed, add tolerances as described in [this page](TechDraw_Geometric_dimensioning_and_tolerancing#Tolerances.md).

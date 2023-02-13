@@ -30,7 +30,13 @@ Le lien indique à Dimension de calculer sa valeur directement à partir de la g
 4.  Une boîte de dialogue va s\'ouvrir. Sélectionnez 1 ou plusieurs dimensions à associer à la géométrie 3D sélectionnée.
 5.  Appuyer sur **OK**.
 
+
+<div class="mw-translate-fuzzy">
+
 Une fois l\'opération de liaison terminée, la propriété {{PropertyData/fr|MeasureType}} de la dimension passe de `Projected` à `True`.
+
+
+</div>
 
 ## Limitations
 
@@ -44,12 +50,6 @@ Les objets Dimension sont vulnérables au \"[problème de nommage topologique](T
 1.  Il n\'y a actuellement aucun moyen de rompre un lien; vous pouvez redéfinir {{PropertyData/fr|MeasureType}} (type de dimension) sur `Projected`(projetée) et la dimension utilisera la valeur projetée au lieu de la valeur liée.
 
 Notez que si la dimension à lier est basée sur deux sommets, vous devez en sélectionner deux dans la vue 3D. De même, si la dimension est basée sur une arête, vous devez sélectionner une arête dans la vue 3D.
-
-
-
-## Propriétés
-
--   La propriété **Measure Type** d\'une cote liée sera changée de {{Value|Projected}} à {{Value|True}}.
 
 
 

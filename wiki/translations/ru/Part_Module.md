@@ -1,11 +1,13 @@
-# <img alt="Логотип верстака Part" src=images/Workbench_Part.svg  style="width:64px;"> Part Module/ru
+# <img alt="Иконка верстака Part" src=images/Workbench_Part.svg  style="width:64px;"> Part Module/ru
 
 
 {{TOCright}}
 
+
+
 ## Введение
 
-Возможности твердотельного моделирования FreeCAD основаны на ядре [Технологии OpenCASCADE](OpenCASCADE/ru.md) (OCCT), профессиональной САПР-системы, которая обеспечивает создание 3D-геометрии и манипулирование ею с помощью **функций** (features). <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Верстак Part](Part_Workbench/ru.md) - это слой, расположенный поверх библиотек OCCT, который даёт пользователю доступ к геометрическим примитивам и функциям OCCT. По существу, все функции 2D и 3D проектирования в каждом верстаке (<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/ru.md), <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/ru.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/ru.md) и т.д.), базируются на этих функциях, предоставляемых Верстаком Part. Поэтому Верстак Part считается центральным компонентом возможностей моделирования FreeCAD.
+Возможности твердотельного моделирования FreeCAD основаны на ядре [Технологии OpenCASCADE](OpenCASCADE/ru.md) (OCCT), CAD-системе профессионального уровня, в которой реализованы расширенные возможности создания и обработки трехмерной геометрии. <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Верстак Part](Part_Workbench/ru.md) - это слой, расположенный поверх библиотек OCCT, который даёт пользователю доступ к геометрическим примитивам и функциям OCCT. Практически все функции 2D- и 3D-проектирования в каждом верстаке (<img alt="" src=images/Workbench_Draft.svg  style="width:24px;">[Draft](Draft_Workbench/ru.md), <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/ru.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/ru.md) и т.д.), основаны на этих функциях, предоставляемых Верстаком Part. Поэтому Верстак Part считается центральным компонентом возможностей моделирования FreeCAD.
 
 Более подробное обсуждение сравнения Верстака Part с Верстаком Part Design можно найти здесь: [Part и PartDesign](Part_and_PartDesign/ru.md)
 
@@ -19,9 +21,13 @@
 
 *Верстак Part Workbench это базовый слой, предоставляющий чертёжные функции OCCT всем верстакам FreeCAD.*
 
+
+
 ## Инструменты
 
 Инструменты модуля расположены в меню **Деталь** или в меню **Measure**.
+
+
 
 ### Примитивы
 
@@ -59,6 +65,8 @@
 
 -   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Построитель](Part_Builder/ru.md): Создаёт формы из разнообразных примитивов.
 
+
+
 ### Создание и изменение 
 
 Эти инструменты служат для создания новых и изменения существующих объектов.
@@ -95,6 +103,8 @@
 
 -   <img alt="" src=images/Part_EditAttachment.svg  style="width:32px;"> [Прикрепить (Attachment)](Part_EditAttachment/ru.md): Прикрепляет/фиксирует расположение одного объекта относительно другого.
 
+
+
 ### Булевы операции 
 
 Следующие инструменты выполняют логические (Булевы) операции.
@@ -123,27 +133,25 @@
     -   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Обрезать](Part_Slice/ru.md): Обрезает объект, пересекая его с другими объектами образуя объединение.
     -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [Булева XOR](Part_XOR/ru.md): Удаляет пространство, общее для пересекаемых объектов.
 
+
+
 ### Измерение
 
--   <img alt="" src=images/Part_Measure_Linear.svg  style="width:32px;"> [Measure Linear (Линейные измерения)](Part_Measure_Linear/ru.md) Делает линейные изменения.
+-   <img alt="" src=images/Part_Measure_Linear.svg  style="width:32px;"> [Измерить Длину](Part_Measure_Linear/ru.md) Создаёт линейное изменение.
 
--   <img alt="" src=images/Part_Measure_Angular.svg  style="width:32px;"> [Measure Angular (Угловые измерения)](Part_Measure_Angular/ru.md): Делает угловые измерения.
+-   <img alt="" src=images/Part_Measure_Angular.svg  style="width:32px;"> [Измерить Угол](Part_Measure_Angular/ru.md): Создаёт угловое измерение.
 
--   <img alt="" src=images/Part_Measure_Refresh.svg  style="width:32px;"> [Measure Refresh (Обновить измерения)](Part_Measure_Refresh/ru.md): Обновляет все измерения.
+-   <img alt="" src=images/Part_Measure_Refresh.svg  style="width:32px;"> [Обновить Измерение](Part_Measure_Refresh/ru.md): Обновляет все измерения.
 
--   <img alt="" src=images/Part_Measure_Clear_All.svg  style="width:32px;"> [Clear All(Удалить всё)](Part_Measure_Clear_All/ru.md): Удаляет все измерения.
+-   <img alt="" src=images/Part_Measure_Clear_All.svg  style="width:32px;"> [Очистить Всё](Part_Measure_Clear_All/ru.md): Удаляет все измерения.
 
--   <img alt="" src=images/Part_Measure_Toggle_All.svg  style="width:32px;"> [Toggle All (Переключить всё)](Part_Measure_Toggle_All/ru.md): Показать или скрыть все измерения.
+-   <img alt="" src=images/Part_Measure_Toggle_All.svg  style="width:32px;"> [Переключить Всё](Part_Measure_Toggle_All/ru.md): Показать или скрыть все измерения.
+
+-   <img alt="" src=images/Part_Measure_Toggle_3D.svg  style="width:32px;"> [Переключить 3D](Part_Measure_Toggle_3D/ru.md): Показать или скрыть трёхмерные измерения.
+
+-   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width:32px;"> [Переключить Дельту](Part_Measure_Toggle_Delta/ru.md): Показывает или скрывает результаты разностных измерений.
 
 
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Part_Measure_Toggle_3D.svg  style="width:32px;"> [Toggle 3D (Переключить 3D)](Part_Measure_Toggle_3D/ru.md): Показать или скрыть трёхмерные измерения.
-
-
-</div>
-
--   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width:32px;"> [Toggle Delta (Переключить координаты)](Part_Measure_Toggle_Delta/ru.md): Показывает или скрывает измерения в ортогональной системе.
 
 ### Прочие инструменты 
 
@@ -171,11 +179,15 @@
 
 -   <img alt="" src=images/Part_Defeaturing.svg  style="width:32px;"> [Удаление элемента](Part_Defeaturing/ru.md): Удаляет применённые функции (features) построения из объекта.
 
+
+
 ### Элементы контекстного меню 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Внешний вид\...](Std_SetAppearance/ru.md): Определяет внешний вид всего объекта (цвет, прозрачность и т.д.).
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Установить цвета](Part_FaceColors/ru.md): Позволяет назначить цвета для граней детали.
+
+
 
 ## Настройки
 
@@ -183,9 +195,13 @@
 -   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Import Export Preferences](Import_Export_Preferences/ru.md): Настройки, доступные для импорта и экспорта в различные форматы файлов.
 -   [Fine-tuning](Fine-tuning/ru.md): Некоторые дополнительные параметры для тонкой настройки поведения модуля Part.
 
+
+
 ## Программирование
 
 Смотри [Создание сценариев (скриптов) модуля Part](Part_scripting/ru.md)
+
+
 
 ## Учебники
 

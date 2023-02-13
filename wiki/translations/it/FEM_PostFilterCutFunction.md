@@ -12,8 +12,7 @@
 
 </div>
 
-
-{{FEM Tools navi/it}}
+ {{FEM Tools navi/it}}
 
 
 <div class="mw-translate-fuzzy">
@@ -27,8 +26,7 @@ Da fare
 
 *A function cut filter with a sphere as cut function.The original pipeline is the semi-transparent object.*
 
-
-{{Userdocnavi/it}}
+ {{Userdocnavi/it}}
 
 
 <div class="mw-translate-fuzzy">

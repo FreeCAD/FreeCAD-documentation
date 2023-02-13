@@ -10,9 +10,13 @@
 
 # Std TreeSyncView/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std BaumSyncAnsicht** schaltet den SyncView-Modus der [Baumansicht](Tree_view/de.md) ein/aus. Wenn der Modus eingeschaltet ist, aktiviert die Auswahl eines Objektes aus einem anderen Dokument in der Baumansicht automatisch die letzte mit dem Dokument verbundene [3D-Ansicht](3D_view/de.md).
+
+
 
 ## Anwendung
 
@@ -21,9 +25,11 @@ Der Befehl **Std BaumSyncAnsicht** schaltet den SyncView-Modus der [Baumansicht]
     -   Den Menüeintrag **Ansicht → BaumAnsicht-Aktionen → <img src="images/Std_TreeSyncView.svg" width=16px> Sync-Ansicht** auswählen.
     -   Das Tastaturkürzel **T** dann **1**.
 
+
+
 ## Einstellungen
 
--   Der SyncView-Modus der Baumansicht kann auch im [Eigenschafteneditor](Property_editor/de#Selection.md) ausgewähltwerden: **Bearbeiten→ Einstellungen... → Allgemein → Auswahl**.
+-   Der Modus Sync-View der Baumansicht kann auch im [Voreinstellungseditor](Preferences_Editor/de#Auswahl.md) ausgewählt werden: **Bearbeiten→ Einstellungen... → Allgemein → Auswahl**.
 
 
 

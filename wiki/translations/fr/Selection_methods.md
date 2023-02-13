@@ -79,7 +79,7 @@ D\'autres méthodes sont disponibles en ouvrant le menu contextuel (clic droit) 
 
 La sélection d\'objets est en soi une tâche graphique et n\'est donc disponible que lorsque l\'interface utilisateur graphique est chargée.
 
-Ces commandes peuvent être utilisées dans des [macros](Macros/fr.md) ou depuis la [Console Python](Python_console/fr.md).
+Ces méthodes peuvent être utilisées dans des [macros](Macros/fr.md) ou depuis la [Console Python](Python_console/fr.md).
 
 
 ```python
@@ -90,11 +90,24 @@ Gui.Selection.addSelectionGate
 Gui.Selection.Filter
 ```
 
-La commande `addSelectionGate` empêche l\'utilisateur de sélectionner des objets non spécifiés dans la chaîne de sélection. Un symbole apparaît lorsque le pointeur se trouve sur un élément ne faisant pas partie du groupe spécifié.
+La méthode `addSelectionGate` empêche l\'utilisateur de sélectionner des objets non spécifiés dans la chaîne de sélection. Un symbole <img alt="" src=images/Button_invalid.svg  style="width:16px;"> apparaît lorsque le pointeur se trouve sur un élément ne faisant pas partie du groupe spécifié.
 
 
 ```python
 Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Edge")
+
+#### or
+Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Face")
+
+#### or
+Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Vertex")
+```
+
+Pour quitter la commande `SelectionGate()` :
+
+
+```python
+Gui.Selection.removeSelectionGate()
 ```
 
 Voir la [Documentation du code source](Source_documentation/fr.md) et la [Std Documentation des modules Python](Std_PythonHelp/fr.md) pour plus d\'aide sur l\'utilisation de ces outils.

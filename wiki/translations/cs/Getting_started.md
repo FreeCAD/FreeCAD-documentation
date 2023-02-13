@@ -1,6 +1,8 @@
 # Getting started/cs
 {{TOCright}}
 
+
+
 ## Předmluva
 
 
@@ -30,8 +32,11 @@ Jako všechny open-source projekty, projekt FreeCAD není jednosměrná práce v
 See also:
 
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
+-   [Which workbench should I choose?](Which_workbench_should_I_choose.md)
 -   [Tutorials](Tutorials.md)
 -   [Video tutorials](Video_tutorials.md)
+
+
 
 ## Instalace
 
@@ -42,6 +47,8 @@ Nejprve (jestliže už to někdo neudělal) stáhněte a nainstalujte FreeCAD. P
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -100,6 +107,8 @@ Startovní centrum Vám umožňuje rychlý přechod do některé z nejužívaně
 
 </div>
 
+
+
 ## Navigace ve 3D prostoru 
 
 
@@ -117,6 +126,8 @@ Máte také přednastaveno několik pohledů (pohled shora, pohled zepředu, atd
 
 
 </div>
+
+
 
 ## První kroky s FreeCADem 
 
@@ -143,6 +154,8 @@ Pracovní plochy můžete přepínat kdykoliv a také můžete [uživatelsky nas
 
 
 </div>
+
+
 
 ## Práce s pracovními plochami Návrh dílu a Náčrt 
 
@@ -179,6 +192,8 @@ Výsledkem je takovýto objekt:
 <img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
 
 Kdykoliv můžete vybrat původní náčrty a modifikovat je nebo změnit parametry vysunutí operací Blok (Pad) a Kapsa (Pocket), což pak aktualizuje výsledný objekt.
+
+
 
 ## Práce s pracovními plochami Kreslení a Architektura 
 
@@ -229,6 +244,8 @@ Víc na stránce [Výukový program](Tutorials/cs.md).
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Skriptování
@@ -254,6 +271,8 @@ A nakonec jedna z nejmocnějších vlastností FreeCADu je prostředí pro [skri
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

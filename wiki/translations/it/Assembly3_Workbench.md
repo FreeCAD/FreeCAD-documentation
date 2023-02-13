@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introduzione
 
 
@@ -31,9 +33,19 @@ Le caratteristiche principali del banco da lavoro Assembly3 sono
 
 [Torna all\'inizio](#top.md)
 
+### Toolbars
+
+
+<div class="mw-translate-fuzzy">
+
 ### Barre degli strumenti 
 
 A partire dal 2020 il banco da lavoro Assembly3 è dotato delle seguenti barre degli strumenti.
+
+
+</div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -164,6 +176,8 @@ A partire dal 2020 il banco da lavoro Assembly3 è dotato delle seguenti barre d
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -353,6 +367,8 @@ A partire dal 2020 il banco da lavoro Assembly3 è dotato delle seguenti barre d
 
 </div>
 
+#### Navigation Toolbar 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -387,6 +403,8 @@ A partire dal 2020 il banco da lavoro Assembly3 è dotato delle seguenti barre d
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -433,6 +451,8 @@ A partire dal 2020 il banco da lavoro Assembly3 è dotato delle seguenti barre d
 Come al solito è possibile modificare le barre degli strumenti e aggiungere o rimuovere singoli strumenti. Accertarsi di controllare nel menu Assembly3 le funzioni che potrebbero non essere presenti nelle barre degli strumenti.
 
 [Torna all\'inizio](#top.md)
+
+### Constraints
 
 
 <div class="mw-translate-fuzzy">
@@ -490,7 +510,15 @@ Altro
 
 [Torna all\'inizio](#top.md)
 
+### Elements
+
+
+<div class="mw-translate-fuzzy">
+
 Elements è un termine specifico usato nel banco di lavoro Assembly3 ed è importante capire Elements per capire come Assembly3 deve essere usato.
+
+
+</div>
 
 È utile pensare a un elemento come parola generale per un \"elemento selezionabile\" di una parte, cioè una faccia, un bordo, un cerchio o un angolo o un altro punto. Gli elementi che si selezionano per vincolarli, sono quegli elementi. Nell\'albero una cartella Assembly ha tre sottocartelle. Accanto a \'Parts\' e \'Constraints\' c\'è una cartella chiamata \'Elements\', che è vuota finché non vengono aggiunti vincoli. Quando si aggiunge un vincolo il vincolo stesso ottiene due (o più) linee, questi sono gli \'Elementi\' selezionati. Anche questi vengono aggiunti nella cartella \'Elements\' che è solo un elenco di tutti gli elementi utilizzati nell\'assieme. E\' una buona idea cambiare i loro nomi (con il tasto F2), specialmente negli assemblaggi più grandi.
 
@@ -540,6 +568,8 @@ L\'esempio ha mostrato che senza rimuovere il vincolo possiamo cambiare gli Elem
 
 [Torna all\'inizio](#top.md)
 
+
+
 ## Compatibilità
 
 Assembly3 è stato ispirato da [Assembly2](Assembly2_Workbench.md), ma non è con questo compatibile . Se avete modelli precedenti realizzati in Assembly2, dovreste rimanere con FreeCAD 0.16 e usare Assembly2.
@@ -549,6 +579,8 @@ I nuovi modelli sviluppati con Assembly3 devono essere aperti e modificati solo 
 Anche se possono avere strumenti simili, Assembly3 non è compatibile con [A2plus](A2plus_Workbench.md) né con [Assembly4](Assembly4_Workbench.md). I modelli creati con questi workbenches devono essere aperti solo con il rispettivo workbench.
 
 [Torna all\'inizio](#top.md)
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -565,6 +597,8 @@ Il [Assembly3 Workbench](Assembly3_Workbench.md) è in fase di sviluppo e non è
 
 
 </div>
+
+#### Alternate installations 
 
 
 <div class="mw-translate-fuzzy">
@@ -587,11 +621,21 @@ Dato che l\'AppImage funziona solo per Linux, per gli utenti Windows al momento 
 
 [Torna all\'inizio](#top.md)
 
+
+
 ## Come fare 
+
+### Get Started 
+
+
+<div class="mw-translate-fuzzy">
 
 #### Cominciamo
 
 Ci sono molti modi per creare un assemblaggio con Assembly3. Ecco il più semplice che si possa fare.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -707,9 +751,17 @@ Nota: tutti i nuovi file esterni devono essere salvati, chiusi e riaperti almeno
 
 [Torna all\'inizio](#top.md)
 
+### Add an Offset 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Aggiungete un Offset 
 
 Il montaggio3 non offre l\'Offset con i vincoli nel modo in cui lo fanno [A2plus Workbench](A2plus_Workbench.md) o altri strumenti CAD. Offre invece un sistema più generale e flessibile per aggiungere traslazioni offset ma anche angoli.
+
+
+</div>
 
 -   Aggiungere l\'offset nelle proprietà [Vincolo](#Constraint.md) di un [Elemento](#Elements.md).
 
@@ -725,6 +777,8 @@ Esempio:
 Test con altri assi o con i campi angolo/asse. Verificare anche che si ottenga lo stesso risultato quando si utilizza l\'altro Elemento. Questo è lo stesso approccio per tutti gli altri vincoli
 
 [Torna all\'inizio](#top.md)
+
+### Solve a Solver Failure 
 
 
 <div class="mw-translate-fuzzy">
@@ -742,9 +796,17 @@ Nota: poiché l\'Assemblaggio3 cerca di compensare le parti eccessivamente vinco
 
 [Torna all\'inizio](#top.md)
 
+### Replace a part or rename a filename 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Sostituire una parte o rinominare un nome di file 
 
 Quando una parte viene rimossa o quando un nome di file cambia, l\'assemblaggio si rompe, non può più essere risolto e il risolutore emetterà il messaggio \"Vincoli incoerenti\". Il risolutore contrassegnerà nell\'albero Elementi e Vincoli non validi con un punto interrogativo.
+
+
+</div>
 
 Un modo per risolvere questo problema è quello di eliminare tutti i vincoli e gli elementi non validi, importare la nuova parte e rifare tutto. Ma c\'è un modo migliore:
 
@@ -789,6 +851,11 @@ Un modo per risolvere questo problema è quello di eliminare tutti i vincoli e g
 
 [Torna all\'inizio](#top.md)
 
+### Tips & Tricks 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Consigli e suggerimenti 
 
 -   L\'utilizzo di assemblaggi gerarchici aiuta ad evitare problemi di risoluzione e a mantenere il modello fluido. È possibile congelare un sottoassieme con un clic e risparmiare facilmente le risorse della CPU (utilizzare il menu contestuale nell\'albero). Quando si carica un assemblaggio l\'assieme3 non ha bisogno di aprire file esterni per i sottoinsiemi congelati, il che mantiene l\'albero compatto.
@@ -802,9 +869,14 @@ Un modo per risolvere questo problema è quello di eliminare tutti i vincoli e g
 -   Moltiplicare le parti collegate. Se si aggiunge un collegamento nell\'insieme, questo avrà un valore di proprietà denominato \"Element Count\", predefinito 0. Se lo si imposta a 3 si ottengono 3 istanze di quella parte. Saranno aggiunte in una sottocartella e possono essere usate come parti completamente separate. Usate questa funzione per mantenere bassa l\'impronta dei dati del vostro file, perché la parte viene salvata solo una volta. Ogni istanza contiene solo le differenze.
 -   Inserire più parti, ad es. viti, con un clic. Consultare il [Assembly3 Wiki3 Wiki](https://github.com/realthunder/FreeCAD_assembly3/wiki/Constraints-and-Solvers) sul sito di Github. Questa non è solo una funzione sbalorditiva (anche un po\' magica), ma davvero molto utile.
 
+
+</div>
+
 -   L\'utilizzo del [TabBar Workbench](https://github.com/triplus/TabBar) accelera il lavoro con il montaggio. Questo aggiunge una barra degli strumenti con un pulsante per ogni banco di lavoro. È possibile ordinare la barra degli strumenti e metterla dove si vuole. Molte persone la mettono in verticale sul lato sinistro, proprio accanto alla vista ad albero. Avere Assembly3, Part, PartDesign e altri banchi da lavoro, spesso usati, vicino alla parte superiore, passare da uno all\'altro diventa estremamente facile.
 
 [Torna all\'inizio](#top.md)
+
+
 
 ## Link
 

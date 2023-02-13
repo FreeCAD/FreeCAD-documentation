@@ -1,13 +1,19 @@
 # Selection methods/pt-br
 {{TOCright}}
 
+
+
 ## Visão geral 
 
 Os métodos de seleção no FreeCAD permitem a seleção de objetos no [FreeCAD Interface](Interface/pt-br.md): tais como [vista 3D](3D_view/pt-br.md), [vista em árvore](Tree_view/pt-br.md), [métodos de seleção](Selection_view/pt-br.md), [vista de seleção](Selection_view/pt-br.md), e outros diálogos. Alguns métodos de seleção são específicos das bancadas de trabalho e estão documentados na documentação específica das bancadas de trabalho.
 
+
+
 ## Vista 3D 
 
 Na [vista 3D](3D_view/pt-br.md) há várias maneiras de selecionar objetos.
+
+
 
 ### Seleção simples 
 
@@ -19,11 +25,15 @@ A seleção simples com o mouse (por padrão, clique com o botão esquerdo do mo
 
 </div>
 
+
+
 ### Cliques repetidos 
 
 O primeiro clique seleciona um sub-elemento (vértice, borda ou face) do objeto sob o mouse. Um segundo clique seleciona o objeto inteiro. <small>(v0.18)</small> 
 
 O terceiro clique estende a seleção a seu objeto \'container\' ([PartDesign Body](PartDesign_Body.md), [Std Part](Std_Part.md), e outros). Outros cliques expandem a seleção até a cadeia de \'contêineres\'. <small>(v0.19)</small> 
+
+
 
 ### Comandos de seleção 
 
@@ -31,11 +41,15 @@ O terceiro clique estende a seleção a seu objeto \'container\' ([PartDesign Bo
 -   Para encaixotar selecione vários objetos principais: [Std Std BoxSelection](Std_BoxSelection/pt-br.md).
 -   Para encaixotar selecione várias faces: [Std BoxElementSelection](Std_BoxElementSelection/pt-br.md) ou [Part BoxSelection](Part_BoxSelection/pt-br.md).
 
+
+
 ## Vista de seleção 
 
 A [vista de seleção](Selection_view/pt-br.md) mostra os nomes dos objetos selecionados, incluindo seu nome completo de um objeto, por exemplo, {`Unnamed#Body.Box001.Face17`}.
 
 Também permite realizar algumas ações como [Std ViewFitSelection](Std_ViewFitSelection/pt-br.md), e enviar o objeto para o [Python console](Python_console/pt-br.md).
+
+
 
 ### Exportação de objeto 
 
@@ -50,6 +64,8 @@ Após pressionar **OK**, os objetos selecionados são copiados para a memória, 
 
 
 *Diálogo de seleção de objetos que é lançado a partir do [vista de seleção](Selection_view/pt-br.md).*
+
+
 
 ## Vista em árvore 
 
@@ -67,7 +83,13 @@ Mais métodos estão disponíveis abrindo o menu de contexto (clique com o botã
 
 A seleção de objetos é inerentemente uma tarefa gráfica e, portanto, só está disponível quando a 'interface' gráfica do usuário é carregada.
 
+
+<div class="mw-translate-fuzzy">
+
 Estes comandos podem ser usados em [macros](Macros/pt-br.md) ou a partir do [console Python](Python_console/pt-br.md).
+
+
+</div>
 
 
 ```python
@@ -78,11 +100,30 @@ Gui.Selection.addSelectionGate
 Gui.Selection.Filter
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 O comando `addSelectionGate` restringe o usuário de selecionar objetos não especificados na cadeia de seleção. Um símbolo aparece quando o ponteiro está sobre um item que não está no grupo especificado.
+
+
+</div>
 
 
 ```python
 Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Edge")
+
+#### or
+Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Face")
+
+#### or
+Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Vertex")
+```
+
+To remove `SelectionGate()`:
+
+
+```python
+Gui.Selection.removeSelectionGate()
 ```
 
 Consulte a [Documentação do código-fonte](Source_documentation/pt-br.md) e [Ajuda Padrão do Python](Std_PythonHelp/pt-br.md) para obter mais ajuda sobre o uso dessas ferramentas.

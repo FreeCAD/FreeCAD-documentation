@@ -2,180 +2,124 @@
 - GuiCommand:/it
    Name:Draft Ellipse
    Name/it:Ellisse
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation:Draft → Ellisse
+   MenuLocation:Drafting → Ellisse
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**E** **L**
-   SeeAlso:[Circonferenza](Draft_Circle/it.md), [Arco](Draft_Arc/it.md)
    Version:0.7
 ---
 
 # Draft Ellipse/it
 
 
-</div>
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_Ellipse.svg  style="width:24px;"> **Ellisse** crea un\'ellisse nel [piano di lavoro](Draft_SelectPlane/it.md) corrente da due punti che definiscono un rettangolo in cui si adatterà l\'ellisse.
 
-<div class="mw-translate-fuzzy">
+Un Draft Ellisse può essere trasformata in un arco ellittico impostando le sue proprietà **First Angle** e **Last Angle** su valori diversi.
 
-Crea nel corrente [piano di lavoro](Draft_SelectPlane/it.md) una ellisse inscritta in un rettangolo. Per definire il rettangolo di contenimento inserire due vertici opposti. L\'ellisse assume [il tipo di linea e il colore](Draft_Linestyle/it.md) impostati in precedenza nella [barra di Draft](Draft_Tray/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Questo strumento può essere utilizzato anche per creare archi ellittici specificando l\'angolo di inizio e di fine. Per creare cerchi e archi circolari usare gli strumenti [Cerchio](Draft_Circle/it.md) e [Arco](Draft_Arc/it.md). Si può anche approssimare un arco ellittico o circolare usando gli strumenti [B-spline](Draft_BSpline/it.md) e [Curva di Bezier](Draft_BezCurve/it.md).
+<img alt="" src=images/Draft_ellipse_example.jpg  style="width:400px;"> 
+*Ellisse definita dagli angoli di un rettangolo*
 
 
-</div>
-
-<img alt="" src=images/Draft_ellipse_example.jpg  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Ellisse definita dagli angoli del rettangolo*
-
-
-</div>
 
 ## Utilizzo
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
+
+1.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_Ellipse.svg" width=16px> [Ellisse](Draft_Ellipse/it.md)**.
+    -   Selezionare l\'opzione **Drafting → <img src="images/Draft_Ellipse.svg" width=16px> Ellisse** dal menu.
+    -   Usare la scorciatoia da tastiera: **E** poi **L**.
+2.  Si apre il pannello delle attività **Ellisse**. Vedere [Opzioni](#Options.md) per maggiori informazioni.
+3.  Scegliere il primo punto nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
+4.  Scegliere il secondo punto nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**. Questo punto non deve essere vincolato all\'asse X, Y o Z.
 
 
-<div class="mw-translate-fuzzy">
-
-1.  Premere il pulsante **<img src="images/Draft_Ellipse.svg" width=16px> [Ellisse](Draft_Ellipse/it.md)**, o premere i tasti **E** e poi **L**.
-2.  Selezionare un primo punto nella vista 3D, oppure digitare le sue coordinate poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**.
-3.  Selezionare un secondo punto nella vista 3D, oppure digitare le sue coordinate poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**.
-
-
-</div>
 
 ## Opzioni
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+Le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività possono essere modificate. Vedere [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md). Le scorciatoie menzionate qui sono le scorciatoie predefinite.
+
+-   Per inserire manualmente le coordinate, inserire le componenti X, Y e Z e premere **Enter** dopo ognuna di esse. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
+-   Premere **R** o fare clic sulla casella di controllo **Relativo** per attivare o disattivare la modalità relativa. Se la modalità relativa è attiva, le coordinate del secondo punto sono relative al primo punto, altrimenti sono relative all\'origine del sistema di coordinate.
+-   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **L** o fare clic sulla casella di controllo **Riempimento** per attivare o disattivare la modalità riempimento. Se la modalità riempimento è attiva, l\'ellisse creata avrà **Make Face** impostato su `True` e avrà una faccia piena.
+-   Premere **T** o fai clic sulla casella di controllo **Continua** per attivare o disattivare la modalità continua. Se la modalità continua è attiva, il comando verrà riavviato al termine, consentendo di continuare a creare ellissi.
+-   Premere **S** per attivare o disattivare [Aggancia](Draft_Snap/it.md).
+-   Premere **Esc** o il pulsante **Chiudi** per interrompere il comando.
 
 
-<div class="mw-translate-fuzzy">
 
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando si hanno i valori desiderati per inserire il punto.
--   Premere il tasto **R** oppure fare clic sulla casella di controllo per attivare la modalità \"relativo\". Se la modalità relativo è attiva, le coordinate del punto successivo sono relative all\'ultimo; in caso contrario, sono assolute, prese dall\'origine (0,0,0).
--   Premere il tasto **T** oppure fare clic sulla casella di controllo per attivare la modalità \"continua\". Se la modalità continua è attiva, lo strumento Ellisse si riavvia dopo aver terminato la figura in costruzione, e consente di disegnare una nuova ellisse senza premere nuovamente il pulsante dello strumento.
--   Premere il tasto **L** oppure fare clic sulla casella di controllo per attivare la modalità *riempito*. Se la modalità di riempimento è attiva, l\'ellisse chiusa crea una faccia piena (**Make Face** `True`); in caso contrario, l\'ellisse chiusa non crea una faccia (**Make Face** `False`).
--   Tenere premuto **Ctrl** mentre si disegna per forzare [l\'aggancio](Draft_Snap.md) del proprio punto alla posizione di aggancio più vicina, indipendentemente dalla distanza.
--   Tenere premuto **Maiusc** mentre si disegna per [vincolare](Draft_Constrain.md) il prossimo punto in orizzontale o in verticale rispetto all\'ultimo.
--   Premere il tasto **Esc** o il pulsante {{button|Chiudi}} per interrompere il comando corrente.
+## Note
+
+-   Un\'Ellisse può essere modificata con il comando [Modifica](Draft_Edit/it.md).
 
 
-</div>
 
-## Notes
+## Preferenze
 
--   A Draft Ellipse can be edited with the [Draft Edit](Draft_Edit.md) command.
+Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
 
-## Preferences
+-   Per modificare il numero di decimali utilizzati per l\'inserimento delle coordinate: **Modifica → Preferenze... → Generale → Unità → Impostazioni unità → Numero di cifre decimali**.
+-   Per modificare il valore iniziale della modalità riempimento: **Modifica → Preferenze... → Draft → Impostazioni generali → Opzioni strumenti Draft → Riempi gli oggetti con le facce quando possibile**. La modifica della modalità di riempimento in un pannello delle attività sovrascriverà questa preferenza per la sessione corrente di FreeCAD.
+-   Se l\'opzione **Modifica → Preferenze... → Draft → Impostazioni generali → Opzioni strumenti di Draft → Usa le primitive di Part quando disponibili** è selezionata, il comando creerà una [Part Ellisse](Part_Ellipse/it.md) invece di una Draft Ellisse.
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
--   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Ellipse](Part_Ellipse.md) instead of a Draft Ellipse.
 
 ## Proprietà
 
-See also: [Property editor](Property_editor.md).
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
 
-A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
-
-### Data
+Un oggetto Draft Ellisse è derivato da un [Part Part2DObject](Part_Part2DObject/it.md) e ne eredita tutte le proprietà. Ha anche le seguenti proprietà aggiuntive:
 
 
-{{TitleProperty|Draft}}
-
-
-<div class="mw-translate-fuzzy">
 
 ### Dati
 
--    **First Angle**: specifica l\'angolo del primo punto dell\'ellisse; normalmente 0°.
 
--    **Last Angle**: specifica l\'angolo dell\'ultimo punto dell\'ellisse; normalmente 0°.
+{{TitleProperty|Draft}}
 
--    **Major Radius**: specifica il raggio maggiore dell\'ellisse.
+-    **Area|Area**: (sola lettura) specifica l\'area della faccia dell\'ellisse. Il valore sarà {{value|0.0}} se **Make Face** se `False` o la faccia non può essere creata.
 
--    **Minor Radius**: specifica il raggio minore dell\'ellisse.
+-    **First Angle|Angle**: specifica l\'angolo del primo punto dell\'ellisse, normalmente {{value|0&#176;}}.
 
-:   Se entrambi i raggi hanno lo stesso valore, l\'ellisse ha lo stesso aspetto di un [Cerchio](Draft_Circle/it.md).
+-    **Last Angle|Angle**: specifica l\'angolo dell\'ultimo punto dell\'ellisse, normalmente {{value|0&#176;}}.
 
--    **Make Face**: specifica se l\'ellisse crea una faccia o no. Se è `True` viene creata una faccia, altrimenti solo il perimetro è considerato parte dell\'oggetto. Questa proprietà funziona solo se la forma è un\'ellisse completa.
+-    **Major Radius|Length**: specifica il raggio maggiore dell\'ellisse.
 
-:   Per avere un\'ellisse completa le proprietà **First Angle** e **Last Angle** devono avere lo stesso valore; in caso contrario, viene visualizzato un arco ellittico. I valori 0° e 360° sono considerati uguali.
+-    **Make Face|Bool**: specifica se l\'ellisse crea o meno una faccia. Se è `True` viene creata una faccia, altrimenti solo il perimetro è considerato parte dell\'oggetto. Questa proprietà funziona solo se la forma è un\'ellisse completa.
+
+-    **Minor Radius|Length**: specifica il raggio minore dell\'ellisse.
 
 
-</div>
 
-### View
+### Vista
 
 
 {{TitleProperty|Draft}}
 
+-    **Pattern|Enumeration**: specifica la [Campitura](Draft_Pattern/it.md) con cui riempire la faccia dell\'ellisse. Questa proprietà funziona solo se **Make Face** è `True` e se **Display Mode** è {{value|Flat Lines}}.
 
-<div class="mw-translate-fuzzy">
-
-### Vista
-
--    **Pattern**: specifica un [Modello](Draft_Pattern/it.md) di disegno con cui riempire la faccia della forma. Questa proprietà funziona solo se **Make Face** è `True`, e se **Display Mode** è \"Flat Lines\".
-
--    **Pattern Size**: specifica la dimensione del [Modello](Draft_Pattern/it.md) di disegno.
+-    **Pattern Size|Float**: specifica la dimensione della [Campitura](Draft_Pattern/it.md).
 
 
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-**Vedere anche:**
-
-[Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Ellisse può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
+Per creare una Draft Ellisse usare il metodo `make_ellipse` ({{Version/it|0.19}}) del modulo Draft. Questo metodo sostituisce il metodo deprecato `makeEllipse`.
 
 
 ```python
 ellipse = make_ellipse(majradius, minradius, placement=None, face=True, support=None)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
--   Crea un oggetto `Ellipse` dai dati di (`majradius`) e (`minradius`) in millimetri.
+-   Crea un oggetto `ellipse` dai dati di (`majradius`) e (`minradius`) in millimetri.
     -   Il valore più grande viene utilizzato per il raggio maggiore (asse X) se non viene fornito nessun altro posizionamento.
--   Se viene dato un `placement`, esso viene utilizzato; altrimenti la forma viene creata all\'origine.
+-   Se `placement` è `None` l\'ellisse viene creata all\'origine.
 -   Se `face` è `True`, l\'ellisse crea una faccia, cioè appare riempita.
-
-
-</div>
 
 Esempio:
 
@@ -197,15 +141,6 @@ ellipse3 = Draft.make_ellipse(700, 1000, placement=place3)
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

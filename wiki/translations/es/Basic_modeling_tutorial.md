@@ -9,9 +9,13 @@
    Files:ninguno
 }}
 
+
+
 ## Introducción
 
 Este Tutorial de Modelado Básico te mostrará cómo modelar un ángulo de hierro. Una cosa que hay que saber es que FreeCAD es modular por diseño, y como para muchos otros programas de CAD, siempre hay más de una manera de hacer las cosas. Exploraremos dos métodos aquí.
+
+This tutorial was written with version 0.15 of FreeCAD.
 
 ## Antes de empezar 
 

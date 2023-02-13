@@ -19,9 +19,13 @@ Les principales fonctions de l\'Atelier Assembly3 sont les suivantes :
 
 [En haut](#top.md)
 
+
+
 ### Barres d\'outils 
 
 À partir de 2020, l\'atelier Assembly3 comprend les barres d\'outils suivantes.
+
+
 
 #### Barre d\'outils principale 
 
@@ -108,6 +112,8 @@ La **Barre d\'outils principale** contient des outils qui couvrent les fonctions
 
 
 </div>
+
+
 
 #### Barre d\'outils des contraintes principales 
 
@@ -201,6 +207,8 @@ Certains outils sont en fait un menu pour d\'autres outils.
 
 </div>
 
+
+
 #### Barres d\'outils des contraintes supplémentaires 
 
 :   <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width:28px;"> (Assembly3 Constraints2)
@@ -288,6 +296,8 @@ Vous pouvez les activer en sélectionnant le bouton **<img src="images/Assembly_
     :   si des 2D/3D ou si plus de 2 éléments peuvent être ajoutés.
 :   Une description détaillée peut être trouvée dans le wiki GitHub.
 
+
+
 #### Barre d\'outils de navigation 
 
 :   <img alt="" src=images/Assembly_GotoRelation.svg‎‎  style="width:28px;"> <img alt="" src=images/LinkSelect.svg‎‎  style="width:28px;"> <img alt="" src=images/LinkSelectFinal.svg‎‎  style="width:28px;">
@@ -312,6 +322,8 @@ Vous pouvez les activer en sélectionnant le bouton **<img src="images/Assembly_
 
 
 </div>
+
+
 
 #### Barre d\'outils de mesure 
 
@@ -355,6 +367,8 @@ Comme d\'habitude, vous pouvez modifier les barres d\'outils et ajouter ou suppr
 
 [En haut](#top.md)
 
+
+
 ### Contraintes
 
 Le concepteur utilise des contraintes pour obtenir le résultat souhaité pour la relation de deux parties. Tout l\'art consiste à sélectionner les contraintes les mieux adaptées à chaque problème. Chaque DOF (Degree of Freedom) éliminé ne devrait en théorie être éliminé qu\'une seule fois entre deux objets, mais en pratique, avec de nombreux outils de CAO, les contraintes sélectionnées provoquent des combinaisons surcontraintes, souvent compensées par des algorithmes complexes, parfois non. Assembly3 utilise des algorithmes pour détecter et compenser les surcontraintes, mais il est clair qu\'ils ne sont pas encore très au point. En pratique, pour Assembly3, les contraintes évitent les problèmes en sachant combien de degrés de liberté (DOF) ont été utilisés et lesquels doivent encore être verrouillés par des contraintes. Aucune pièce ne devrait avoir une connexion par des contraintes utilisant plus de 6 DOF.
@@ -388,7 +402,7 @@ Autre
 
 -   **Points on Circle**: bloque Tz et partiellement Tx, Ty. Impose la translation de points (ou plusieurs points) sur un cercle ou une zone de disque. Vous devez choisir le cercle en second. Cela laisse toutes les rotations libres et donne une translation limitée dans le plan de référence du cercle.
 
-*:Remarque : dans la liste suivante, Tx, Ty, Tz et Rx, Ry, Rz sont utilisés pour décrire les translations et les rotations concernant les systèmes de coordonnées de référence des éléments impliqués. Ce n\'est pas toujours exact ou entièrement défini, par ex., lorsqu\'il s\'agit d\'une ligne, elle n\'est pas définie si elle s\'étend en X, Y ou tout angle entre les deux. Le système est utilisé pour la convivialité et la comparaison facile en faveur d\'une définition correcte mais plus complexe. Donc Z est généralement la direction normale de toutes les faces impliquées. N\'hésitez pas à modifier cela avec une meilleure approche avec une meilleure lisibilité.*
+*: Remarque : dans la liste suivante, Tx, Ty, Tz et Rx, Ry, Rz sont utilisés pour décrire les translations et les rotations concernant les systèmes de coordonnées de référence des éléments impliqués. Ce n\'est pas toujours exact ou entièrement défini, par ex., lorsqu\'il s\'agit d\'une ligne, elle n\'est pas définie si elle s\'étend en X, Y ou tout angle entre les deux. Le système est utilisé pour la convivialité et la comparaison facile en faveur d\'une définition correcte mais plus complexe. Donc Z est généralement la direction normale de toutes les faces impliquées. N\'hésitez pas à modifier cela avec une meilleure approche avec une meilleure lisibilité.*
 
 [En haut](#top.md)
 
@@ -420,6 +434,8 @@ L\'exemple a montré que sans supprimer la contrainte, nous pouvons changer les 
 
 [En haut](#top.md)
 
+
+
 ## Compatibilité
 
 Assembly3 a été inspiré par [Assembly2](Assembly2_Workbench/fr.md) mais il n\'est pas compatible avec lui. Si vous avez des modèles plus anciens fabriqués dans Assembly2, vous devriez rester avec FreeCAD 0.16 et utiliser Assembly2.
@@ -434,18 +450,24 @@ Bien qu\'ils puissent avoir des outils similaires, Assembly3 n\'est pas compatib
 
 L\'[atelier Assembly3](Assembly3_Workbench/fr.md) est disponible (à partir de mars 2022) via le [Gestionnaire des extensions](Std_AddonMgr/fr.md). Toutes les dépendances d\'Assembly3 devraient être gérées automatiquement par le gestionnaire des extensions.
 
+
+
 #### Installations alternatives 
 
 Il existe deux autres façons d\'installer Assembly3 :
 
--   Un fork spécial de FreeCAD fait par realthunder ; voir [FreeCAD_assembly3 releases](https://github.com/realthunder/FreeCAD_assembly3/releases). Ce fork est basé sur un commit particulier de la branche master de FreeCAD, mais il a également des fonctionnalités supplémentaires qui ne sont actuellement pas présentes dans la branche master. Étant donné que ce fork est basé sur un instantané de développement particulier, il n\'a pas les dernières fonctionnalités fusionnées quotidiennement à la branche principale.
--   Le développement [AppImage](AppImage/fr.md) est basé sur la branche principale en cours et inclut les dépendances nécessaires pour travailler avec Assembly3, comme le solveur SolveSpace.
+-   Un fork spécial de FreeCAD fait par realthunder ; voir [ici](https://github.com/realthunder/FreeCAD/releases). Ce fork est basé sur un commit particulier de la branche master de FreeCAD, mais il a également des fonctionnalités supplémentaires qui ne sont actuellement pas présentes dans la branche master. Étant donné que ce fork est basé sur un instantané de développement particulier, il n\'a pas les dernières fonctionnalités fusionnées quotidiennement à la branche principale.
+-   Le développement d\'[AppImage](AppImage/fr.md) est basé sur la branche principale en cours et inclut les dépendances nécessaires pour travailler avec Assembly3, comme le solveur SolveSpace.
 
 Comme l\'AppImage ne fonctionne que pour Linux, pour les utilisateurs de Windows (qui veulent une installation alternative d\'Assembly3) l\'option pour tester Assembly3 est la première option (fork de realthunder).
 
 [En haut](#top.md)
 
+
+
 ## Utilisation
+
+
 
 ### Commencez
 
@@ -502,6 +524,8 @@ Si vous le souhaitez, vous pouvez déplacer la contrainte *Verrouillé* vers le 
 
 [En haut](#top.md)
 
+
+
 ### Ajouter un décalage 
 
 Assembly3 n\'offre pas de décalage avec les contraintes comme le font l\'[atelier A2plus](A2plus_Workbench/fr.md) ou d\'autres outils de CAO. Au lieu de cela, il offre un système plus général et plus flexible pour ajouter des traductions de décalages mais aussi des angles.
@@ -521,6 +545,8 @@ Exemple :
 
 [En haut](#top.md)
 
+
+
 ### Résoudre un échec du solveur 
 
 Cela se produit souvent lorsque les pièces sont sur-contraintes, c\'est-à-dire que plus de 6 DOF sont verrouillés.
@@ -530,6 +556,8 @@ Le moyen le plus simple de trouver le problème est de cliquer sur les contraint
 Remarque : comme Assembly3 essaie de compenser les pièces de sur-contrainte dans les coulisses, il arrive que le problème soit simplement déclenché par une nouvelle contrainte mais que la cause première soit différente. Avant de tout supprimer et de recommencer, n\'oubliez pas que vous pouvez réutiliser Elements. Si vous les avez nommés, vous pouvez identifier les éléments requis et recréer les contraintes sans utiliser la vue 3D. Voir la section [Elements](#Elements.md) ci-dessus.
 
 [En haut](#top.md)
+
+
 
 ### Remplacer une pièce ou renommer un nom de fichier 
 
@@ -572,6 +600,8 @@ Une façon de résoudre ce problème consiste simplement à supprimer toutes les
 
 [En haut](#top.md)
 
+
+
 ### Trucs et astuces 
 
 -   L\'utilisation d\'assemblages hiérarchiques permet d\'éviter les problèmes de solveur et de maintenir la fluidité du modèle. Vous pouvez figer un sous-assemblage en un seul clic et enregistrer facilement les ressources CPU (utilisez le menu contextuel dans l\'arborescence). Lors du chargement d\'un assemblage, Assembly3 n\'a pas besoin d\'ouvrir les fichiers externes pour les sous-assemblages figés, ce qui maintient l\'arborescence compacte.
@@ -585,11 +615,11 @@ Une façon de résoudre ce problème consiste simplement à supprimer toutes les
 -   Multipliez les pièces liées. Si vous avez ajouté un lien dans l\'assemblage, il aura une valeur de propriété nommée \"Element Count\", par défaut 0. Si vous définissez ceci sur 3, vous obtenez 3 instances de cette pièce. Elles seront ajoutées dans un sous-dossier et pourront être utilisées comme des pièces entièrement séparées. Utilisez cette fonction pour réduire l\'encombrement des données de votre fichier, car la pièce n\'est enregistrée qu\'une seule fois. Chaque instance ne contient que les différences.
 -   Insérez plusieurs pièces, par ex. des vis, en un seul clic. Consultez le [Wiki Assembly3](https://github.com/realthunder/FreeCAD_assembly3/wiki/Constraints-and-Solvers) sur le site Github. Ce n\'est pas seulement une fonction étonnante (même un peu magique), mais vraiment très utile.
 
-\'\'
-
 -   L\'utilisation de l\'[atelier TabBar](https://github.com/triplus/TabBar) accélère le travail avec l\'assemblage. Cela ajoute une barre d\'outils avec un bouton pour chaque atelier. Vous pouvez trier la barre d\'outils et la placer où vous le souhaitez. Beaucoup de gens le placent verticalement sur le côté gauche juste à côté de la vue de l\'arbre. Si vous disposez de Assembly3, Part, PartDesign et d\'autres ateliers souvent utilisés à proximité du premier, il devient extrêmement facile de passer de l\'un à l\'autre.
 
 [En haut](#top.md)
+
+
 
 ## Liens
 

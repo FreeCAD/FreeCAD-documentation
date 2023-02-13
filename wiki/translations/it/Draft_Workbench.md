@@ -302,7 +302,7 @@ Per un [Piano di lavoro proxy](Draft_WorkingPlaneProxy/it.md) queste opzioni agg
 
 ## Menu contestuale vista 3D 
 
-Le seguenti opzioni aggiuntive sono disponibili nel menu contestuale della [Vista 3D](Vista_3D/it.md):
+Le seguenti opzioni aggiuntive sono disponibili nel menu contestuale della [Vista 3D](3D_view/it.md):
 
 
 

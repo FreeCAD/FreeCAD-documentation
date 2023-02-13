@@ -10,6 +10,8 @@ There are different subforums for FreeCAD users and developers. Make sure you se
 Se serve un aiuto o si hanno domande relative a una determinata pagina di questa documentazione wiki, si può sempre lasciare le proprie idee o commenti nella scheda \"discussione\" di ogni pagina. Per caricare un file per il Wiki, utilizzare [questa pagina](https://www.freecadweb.org/wiki/Special:Upload).
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Chat
@@ -41,8 +43,7 @@ Si può anche seguire il [official Twitter account for FreeCAD](https://twitter.
 
 Potete unirvi al [FreeCAD\'s Facebook public group](https://www.facebook.com/groups/416491481766626)
 
-
-{{Userdocnavi/it}}
+ {{Userdocnavi/it}}
 
 
 <div class="mw-translate-fuzzy">

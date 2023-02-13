@@ -1,6 +1,8 @@
 # Getting started/tr
 {{TOCright}}
 
+
+
 ## Önsöz
 
 
@@ -30,8 +32,11 @@ Tüm açık kaynak kodlu projelerde olduğu gibi, FreeCAD projesi de geliştiric
 See also:
 
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
+-   [Which workbench should I choose?](Which_workbench_should_I_choose.md)
 -   [Tutorials](Tutorials.md)
 -   [Video tutorials](Video_tutorials.md)
+
+
 
 ## Yükleme
 
@@ -42,6 +47,8 @@ Her şeyden önce, FreeCAD\'i indirin ve kurun. Güncel sürüm ve güncellemele
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -100,6 +107,8 @@ Başlangıç Merkezi ile yaygın olarak kullanılan tezgahları kolayca seçebil
 
 </div>
 
+
+
 ## 3D alanında gezinme 
 
 
@@ -111,6 +120,8 @@ FreeCAD\'in, farenizi, 3D görünümdeki nesnelerle ve görünümün kendisi ile
 </div>
 
 Ayrıca Görünüm menüsünde, Görünüm araç çubuğunda ve sayı kısayol tuşlarıyla (**1**, **2**, vb\...). kullanılabilen ön tanımlı(üstten görünüm, önden görünüm vb.) görünümleri kullanabilirsiniz. Bir nesne üzerinde veya 3D görünümde boş alanda sağ tıklayarak, özel görünüm seçebilir veya Ağaç görünümünde bir nesnenin yerini bulma gibi bazı genel işlemlere hızlı bir şekilde ulaşabilirsiniz.
+
+
 
 ## FreeCAD\'le İlk Adımlar 
 
@@ -131,6 +142,8 @@ FreeCAD\'de kullanmaya başlayacağınız çalışma tezgahı, yapacağınız i�
 
 
 </div>
+
+
 
 ## Parça Dizaynı ve Eskiz tezgahlarıyla çalışma 
 
@@ -167,6 +180,8 @@ Yapılan işlemler sonucunda elde edilen nesne şuna benzer:
 <img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
 
 İstediğiniz zaman, özgün eskizi seçerek ve yeniden şekillendirerek, kalınlık veya cep işlem parametrelerini değiştirerek, istenen nesneyi elde edilebilirsiniz.
+
+
 
 ## Taslak ve Yapı tezgahlarıyla çalışma 
 
@@ -217,6 +232,8 @@ Daha fazlası için [Kullanım Kılavuzu](Tutorials/tr.md) sayfasına bakınız.
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Betik
@@ -242,6 +259,8 @@ Son olarak, FreeCAD\'in en güçlü özelliklerinden biri [betik](Power_users_hu
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

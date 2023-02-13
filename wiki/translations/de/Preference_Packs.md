@@ -1,9 +1,13 @@
 # Preference Packs/de
 {{TOCright}}
 
+
+
 ## Einleitung
 
-A **Preference Pack** is a distributable collection of user preferences (<small>(v0.20)</small> ) that can be installed as an add-on and applied as a single set. Any user parameter that can be set in the user.cfg file can be included in a Preference Pack. Applying a preference pack sets all of the variables in the supplied CFG file without modifying any other user settings. For example, these packs can be used to create \"Themes\" by bundling together a custom stylesheet along with a set of user preferences that sets the various colors and styles of items in FreeCAD that aren\'t controlled by the stylesheet.
+Ein **Voreinstellungspaket** (Preference Pack) stellt eine Sammlung von Benutzervoreinstellungen, zum Verteilen zur Verfügung ({{Version/de|0.20}}); es kann als Addon installiert und die Einstellungen so als kompletter Satz angewendet werden. Jede Benutzereinstellung, die in der user.cfg festgelegt werden kann, kann auch in einem Voreinstellungspaket verwendet werden. Die Anwendung eines Voreinstellungspakets setzt alle die Variablen, die in der mitgelieferten CFG-Datei vorhanden sind und lässt alle anderen Einstellungen unverändert. Diese Pakete können z.B. verwendet werden, um Themen (Themes) zu erstellen, indem man ein selbsterstelltes Stylesheet zusammen mit einem Satz Benutzereinstellungen bündelt, die unterschiedliche Farben und Ausführungsarten von Elementen in FreeCAD steuern, die nicht von dem Stylesheet festgelegt werden.
+
+
 
 ## Hauptbenutzerschnittstelle für Voreinstellungspakete 
 
@@ -11,9 +15,13 @@ Most user interaction with installed Preference Packs is via the **General** tab
 
 <img alt="" src=images/PreferencePacks_MainInterface.png  style="width:400px;">
 
+
+
 ## Anwendung eines installierten Pakets 
 
 To apply a Preference Pack, click the **Apply** button next to its name in the **General** tab of the [Preferences editor](Preferences_Editor.md). The core of a Preference Pack is a set of user preferences. When applying a pack each of these preferences is changed to the value defined in the pack. Optionally, the pack author may have included a pre- and/or post-application macro that may also be run. Because packs can potentially make large (and possibly undesirable) changes to your user preferences, a timestamped backup of your original preferences is taken, and stored in **FREECAD_USER_DATA/SavedPreferencePacks/Backups**. These backups are retained for one week.
+
+
 
 ## Ein neues Paket erstellen 
 
@@ -303,6 +311,8 @@ These sections list all preferences contained in the built-in templates. Right n
 
 
 </div>
+
+
 
 ### Struktur der Voreinstellungspakete 
 

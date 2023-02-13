@@ -111,19 +111,21 @@ This category contains the help pages of each of FreeCAD [Command](Command.md).
 | [FCGear GearConnector](wiki/FCGear GearConnector.md) | [FCGear HypoCycloidGear](wiki/FCGear HypoCycloidGear.md) | [FCGear InternalInvoluteGear](wiki/FCGear InternalInvoluteGear.md) |
 | [FCGear InvoluteGear](wiki/FCGear InvoluteGear.md) | [FCGear InvoluteRack](wiki/FCGear InvoluteRack.md) | [FCGear LanternGear](wiki/FCGear LanternGear.md) |
 | [FCGear TimingGear](wiki/FCGear TimingGear.md) | [FCGear WormGear](wiki/FCGear WormGear.md) | [FEM Analysis](wiki/FEM Analysis.md) |
-| [FEM ClippingPlaneAdd](wiki/FEM ClippingPlaneAdd.md) | [FEM ClippingPlaneRemoveAll](wiki/FEM ClippingPlaneRemoveAll.md) | [FEM ConstantVacuumPermittivity](wiki/FEM ConstantVacuumPermittivity.md) |
-| [FEM ConstraintBearing](wiki/FEM ConstraintBearing.md) | [FEM ConstraintBodyHeatSource](wiki/FEM ConstraintBodyHeatSource.md) | [FEM ConstraintCentrif](wiki/FEM ConstraintCentrif.md) |
-| [FEM ConstraintContact](wiki/FEM ConstraintContact.md) | [FEM ConstraintDisplacement](wiki/FEM ConstraintDisplacement.md) | [FEM ConstraintElectrostaticPotential](wiki/FEM ConstraintElectrostaticPotential.md) |
+| [FEM ClippingPlaneAdd](wiki/FEM ClippingPlaneAdd.md) | [FEM ClippingPlaneRemoveAll](wiki/FEM ClippingPlaneRemoveAll.md) | [FEM CompEmConstraints](wiki/FEM CompEmConstraints.md) |
+| [FEM CompEmEquations](wiki/FEM CompEmEquations.md) | [FEM ConstantVacuumPermittivity](wiki/FEM ConstantVacuumPermittivity.md) | [FEM ConstraintBearing](wiki/FEM ConstraintBearing.md) |
+| [FEM ConstraintBodyHeatSource](wiki/FEM ConstraintBodyHeatSource.md) | [FEM ConstraintCentrif](wiki/FEM ConstraintCentrif.md) | [FEM ConstraintContact](wiki/FEM ConstraintContact.md) |
+| [FEM ConstraintCurrentDensity](wiki/FEM ConstraintCurrentDensity.md) | [FEM ConstraintDisplacement](wiki/FEM ConstraintDisplacement.md) | [FEM ConstraintElectrostaticPotential](wiki/FEM ConstraintElectrostaticPotential.md) |
 | [FEM ConstraintFixed](wiki/FEM ConstraintFixed.md) | [FEM ConstraintFlowVelocity](wiki/FEM ConstraintFlowVelocity.md) | [FEM ConstraintFluidBoundary](wiki/FEM ConstraintFluidBoundary.md) |
 | [FEM ConstraintForce](wiki/FEM ConstraintForce.md) | [FEM ConstraintGear](wiki/FEM ConstraintGear.md) | [FEM ConstraintHeatflux](wiki/FEM ConstraintHeatflux.md) |
 | [FEM ConstraintInitialFlowVelocity](wiki/FEM ConstraintInitialFlowVelocity.md) | [FEM ConstraintInitialPressure](wiki/FEM ConstraintInitialPressure.md) | [FEM ConstraintInitialTemperature](wiki/FEM ConstraintInitialTemperature.md) |
-| [FEM ConstraintPlaneRotation](wiki/FEM ConstraintPlaneRotation.md) | [FEM ConstraintPressure](wiki/FEM ConstraintPressure.md) | [FEM ConstraintPulley](wiki/FEM ConstraintPulley.md) |
-| [FEM ConstraintSectionPrint](wiki/FEM ConstraintSectionPrint.md) | [FEM ConstraintSelfWeight](wiki/FEM ConstraintSelfWeight.md) | [FEM ConstraintSpring](wiki/FEM ConstraintSpring.md) |
-| [FEM ConstraintTemperature](wiki/FEM ConstraintTemperature.md) | [FEM ConstraintTie](wiki/FEM ConstraintTie.md) | [FEM ConstraintTransform](wiki/FEM ConstraintTransform.md) |
-| [FEM CreateNodesSet](wiki/FEM CreateNodesSet.md) | [FEM ElementFluid1D](wiki/FEM ElementFluid1D.md) | [FEM ElementGeometry1D](wiki/FEM ElementGeometry1D.md) |
-| [FEM ElementGeometry2D](wiki/FEM ElementGeometry2D.md) | [FEM ElementRotation1D](wiki/FEM ElementRotation1D.md) | [FEM EquationElasticity](wiki/FEM EquationElasticity.md) |
-| [FEM EquationElectricforce](wiki/FEM EquationElectricforce.md) | [FEM EquationElectrostatic](wiki/FEM EquationElectrostatic.md) | [FEM EquationFlow](wiki/FEM EquationFlow.md) |
-| [FEM EquationFlux](wiki/FEM EquationFlux.md) | [FEM EquationHeat](wiki/FEM EquationHeat.md) | [FEM Examples](wiki/FEM Examples.md) |
+| [FEM ConstraintMagnetization](wiki/FEM ConstraintMagnetization.md) | [FEM ConstraintPlaneRotation](wiki/FEM ConstraintPlaneRotation.md) | [FEM ConstraintPressure](wiki/FEM ConstraintPressure.md) |
+| [FEM ConstraintPulley](wiki/FEM ConstraintPulley.md) | [FEM ConstraintSectionPrint](wiki/FEM ConstraintSectionPrint.md) | [FEM ConstraintSelfWeight](wiki/FEM ConstraintSelfWeight.md) |
+| [FEM ConstraintSpring](wiki/FEM ConstraintSpring.md) | [FEM ConstraintTemperature](wiki/FEM ConstraintTemperature.md) | [FEM ConstraintTie](wiki/FEM ConstraintTie.md) |
+| [FEM ConstraintTransform](wiki/FEM ConstraintTransform.md) | [FEM CreateNodesSet](wiki/FEM CreateNodesSet.md) | [FEM ElementFluid1D](wiki/FEM ElementFluid1D.md) |
+| [FEM ElementGeometry1D](wiki/FEM ElementGeometry1D.md) | [FEM ElementGeometry2D](wiki/FEM ElementGeometry2D.md) | [FEM ElementRotation1D](wiki/FEM ElementRotation1D.md) |
+| [FEM EquationElasticity](wiki/FEM EquationElasticity.md) | [FEM EquationElectricforce](wiki/FEM EquationElectricforce.md) | [FEM EquationElectrostatic](wiki/FEM EquationElectrostatic.md) |
+| [FEM EquationFlow](wiki/FEM EquationFlow.md) | [FEM EquationFlux](wiki/FEM EquationFlux.md) | [FEM EquationHeat](wiki/FEM EquationHeat.md) |
+| [FEM EquationMagnetodynamic](wiki/FEM EquationMagnetodynamic.md) | [FEM EquationMagnetodynamic2D](wiki/FEM EquationMagnetodynamic2D.md) | [FEM Examples](wiki/FEM Examples.md) |
 | [FEM FemMesh2Mesh](wiki/FEM FemMesh2Mesh.md) | [FEM MaterialEditor](wiki/FEM MaterialEditor.md) | [FEM MaterialFluid](wiki/FEM MaterialFluid.md) |
 | [FEM MaterialMechanicalNonlinear](wiki/FEM MaterialMechanicalNonlinear.md) | [FEM MaterialReinforced](wiki/FEM MaterialReinforced.md) | [FEM MaterialSolid](wiki/FEM MaterialSolid.md) |
 | [FEM MeshBoundaryLayer](wiki/FEM MeshBoundaryLayer.md) | [FEM MeshClear](wiki/FEM MeshClear.md) | [FEM MeshDisplayInfo](wiki/FEM MeshDisplayInfo.md) |
@@ -169,9 +171,7 @@ This category contains the help pages of each of FreeCAD [Command](Command.md).
 | [Part Line](wiki/Part Line.md) | [Part Loft](wiki/Part Loft.md) | [Part MakeFace](wiki/Part MakeFace.md) |
 | [Part MakeSolid](wiki/Part MakeSolid.md) | [Part Measure Angular](wiki/Part Measure Angular.md) | [Part Measure Clear All](wiki/Part Measure Clear All.md) |
 | [Part Measure Linear](wiki/Part Measure Linear.md) | [Part Measure Refresh](wiki/Part Measure Refresh.md) | [Part Measure Toggle 3D](wiki/Part Measure Toggle 3D.md) |
-| [Part Measure Toggle All](wiki/Part Measure Toggle All.md) | [Part Measure Toggle Delta](wiki/Part Measure Toggle Delta.md) | [Part Mirror](wiki/Part Mirror.md) |
-| [Part Offset](wiki/Part Offset.md) | [Part Offset2D](wiki/Part Offset2D.md) | [Part Plane](wiki/Part Plane.md) |
-| [Part Point](wiki/Part Point.md) | [Part PointsFromMesh](wiki/Part PointsFromMesh.md) |
+| [Part Measure Toggle All](wiki/Part Measure Toggle All.md) | [Part Measure Toggle Delta](wiki/Part Measure Toggle Delta.md) |
 
 
 

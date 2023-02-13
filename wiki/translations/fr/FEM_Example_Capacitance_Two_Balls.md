@@ -21,6 +21,8 @@ Cet exemple est destiné à montrer comment simuler le 6ème exemple de [Elmer G
 <img alt="" src=images/Two_balls_result_2.png  style="width:1000px;"> 
 *Le résultat final de ce tutoriel*
 
+
+
 ## Conditions
 
 -   Une version compatible de FreeCAD mentionnée dans l\'aperçu du tutoriel.
@@ -29,12 +31,18 @@ Cet exemple est destiné à montrer comment simuler le 6ème exemple de [Elmer G
 -   Aucun logiciel externe n\'est nécessaire pour charger l\'exemple, visualiser le maillage et la géométrie ainsi que pour visualiser les résultats.
 -   Pour résoudre l\'analyse par éléments finis (FEM), le solveur Elmer doit être installé sur votre ordinateur. Voir [cette page](FEM_SolverElmer/fr#Installation.md) pour savoir comment installer Elmer.
 
+
+
 ## Configurer l\'exemple 
+
+
 
 ### Charger l\'atelier FEM 
 
 -   Démarrez FreeCAD, l\'atelier Start doit être chargé.
 -   Basculez vers l\'<img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [Atelier FEM](FEM_Workbench/fr.md).
+
+
 
 ### Charger l\'exemple 
 
@@ -43,9 +51,13 @@ Cet exemple est destiné à montrer comment simuler le 6ème exemple de [Elmer G
 
 <img alt="" src=images/Two_balls_selection.png  style="width:300px;">
 
+
+
 ## Comprendre le cas de simulation 
 
 Ce cas présente la solution de la capacité de sphères parfaitement conductrices en espace libre. Une différence de tension entre les sphères entraîne l\'introduction d\'une charge électrique dans le système. Les sphères ont également une capacité propre qui provient de la différence de tension avec le champ lointain. Par conséquent, une matrice de capacité symétrique de taille 2 × 2 doit être résolue. Les capacités peuvent être calculées à partir de deux configurations de tension différentes.
+
+
 
 ## Comprendre le modèle 
 
@@ -59,7 +71,12 @@ Ce cas présente la solution de la capacité de sphères parfaitement conductric
 <img alt="" src=images/Two_balls_model_full.png  style="width:1000px;"> 
 *Le modèle initial*
 
+
+
 ## Conteneur d\'analyse et ses objets 
+
+
+<div class="mw-translate-fuzzy">
 
 Les objets utilisés dans cette analyse électrostatique :
 
@@ -68,12 +85,17 @@ Les objets utilisés dans cette analyse électrostatique :
 3.  <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> Electrostatic, l\'équation de l\'électrostatique
 4.  <img alt="" src=images/FEM_MaterialFluid.svg  style="width:24px;"> FemMaterial, un matériau fluide pour représenter l\'air environnant.
 5.  <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> ElectrostaticPotential, des contraintes (3 d\'entre elles)
-6.  <img alt="" src=images/Fem-thermomechanical-analysis.svg  style="width:24px;"> ConstantVaccumPermittivity, optionnel
+6.  <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:24px;"> ConstantVaccumPermittivity, optionnel
 7.  <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:24px;"> Mesh, un maillage [Gmsh](FEM_MeshGmshFromShape/fr.md)
 8.  <img alt="" src=images/FEM_MeshRegion.svg  style="width:24px;"> MeshRegion, une région maillée pour les petites sphères
 
+
+</div>
+
 ![](images/Two_balls_analysis.png ) 
 *Les objets tels qu'ils apparaissent dans la [vue en arborescence](Tree_view/fr.md)*
+
+
 
 ## Exécution de l\'Analyse des éléments finis (FEA) 
 
@@ -85,6 +107,8 @@ Les objets utilisés dans cette analyse électrostatique :
 
 Si vous obtenez un message d\'erreur sur le binaire du solveur ou similaire lors du déclenchement de l\'analyse, vérifiez [l\'installation](FEM_SolverElmer/fr#Installation.md) d\'Elmer.
 
+
+
 ## Visualisation des résultats 
 
 -   Assurez-vous que le maillage est invisible. Si ce n\'est pas le cas, sélectionnez l\'objet <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:24px;"> Mesh et appuyez sur **Espace** pour activer la visibilité.
@@ -95,24 +119,40 @@ Si vous obtenez un message d\'erreur sur le binaire du solveur ou similaire lors
 
 <img alt="" src=images/Two_balls_potential.png  style="width:1000px;">
 
+
+
 ## Post-traitement du résultat 
+
+
+<div class="mw-translate-fuzzy">
 
 -   Bien que nous ayons réussi à visualiser le résultat du potentiel, nous ne voyons actuellement que le potentiel nul dans l\'air entourant les deux boules. Pour visualiser le potentiel sur les boules, nous devons appliquer un [filtre d\'écrêtage selon une région](FEM_PostFilterClipRegion/fr.md).
 -   Dans la vue arborescente, sélectionnez <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> SolverElmerResult, puis dans la barre d\'outils cliquez sur le bouton **<img src="images/FEM_PostFilterClipRegion.svg" width=20px> Filtre d'écrêtage selon une région**.
 -   Cela ouvrira un dialogue avec les configurations du filtre. Cliquez sur le bouton **<img src="images/list-add.svg" width=16px> Créer** et choisissez <img alt="" src=images/Fem-post-geo-plane.svg  style="width:24px;"> Plan. Cela ajoute un plan passant par le centre de la sphère et au niveau duquel le maillage résultant est coupé. Pour lisser la face coupée, cochez l\'option **Cut Cells**. Cliquez ensuite sur **Appliquer**.
 
+
+</div>
+
 <img alt="" src=images/Two_balls_postcreate.png  style="width:300px;">
+
+
+<div class="mw-translate-fuzzy">
 
 -   Dans l\'arborescence, il y a une nouvelle entrée appelée Functions. Elle contient le <img alt="" src=images/Fem-post-geo-plane.svg  style="width:24px;"> plan créé. Rendez-le invisible en utilisant **Espace**.
 -   Double-cliquez sur l\'objet <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:24px;"> Clip dans l\'arborescence.
 -   Changez \"Field\" en \"potential\" et appuyez sur **OK**.
 -   Activez la visibilité de l\'objet <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> SolverElmerResult en utilisant **Espace** et vous devriez voir quelque chose comme ceci :
 
+
+</div>
+
 <img alt="" src=images/Two_balls_result.png  style="width:1000px;">
 
 Maintenant, nous pouvons clairement voir la distribution des potentiels dans et autour des sphères.
 
 Remarquez que lorsque <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:24px;"> [Appliquer les modifications](FEM_PostApplyChanges/fr.md) est activé, vous auriez pu sélectionner directement le \"Field\" dans la boîte de dialogue du filtre et ne pas avoir à la rouvrir après la création du plan.
+
+
 
 ## Recherche de la capacité 
 

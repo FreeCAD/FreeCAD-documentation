@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Введение
 
 <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;">[Верстак PartDesign](PartDesign_Workbench/ru.md) предоставляет расширенные инструменты для моделирования сложных твердотельных деталей. Он в основном ориентирован на создание механических деталей, которые можно изготовить и собрать в готовое изделие. Тем не менее, созданные твёрдые тела можно использовать повсеместно для любых других целей, таких как [архитектурное проектирование](Arch_Workbench/ru.md), [анализ методом конечных элементов](FEM_Workbench/ru.md) или [механическая обработка и 3D-печать](Path_Workbench/ru.md).
@@ -17,9 +19,13 @@
 
 <img alt="" src=images/PartDesign_Example.png  style="width:500px;">
 
+
+
 ## Инструменты
 
 Все инструменты проектирования деталей находятся в меню **Part Design** и на панели инструментов Part Design, которая появляется при загрузке верстака Part Design.
+
+
 
 ### Инструменты структуры 
 
@@ -28,6 +34,8 @@
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Создать деталь](Std_Part/ru.md): создает новую Деталь в текущем документе и делает её активной.
 
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Создать группу](Std_Group/ru.md): добавляет в текущий документ контейнер группы, который позволяет организовать объекты в [древовидном представлении](Tree_view.md).
+
+
 
 ### Вспомогательные инструменты Part Design 
 
@@ -39,9 +47,13 @@
 
 -   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Разместить эскиз на грани](Sketcher_MapSketch/ru.md): сопоставляет эскиз с ранее выбранной плоскостью или гранью активного тела.
 
--   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Validate sketch](Sketcher_ValidateSketch.md): verifies the tolerance of different points and adjusts them.
+-   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Проверить эскиз](Sketcher_ValidateSketch/ru.md): проверяет допуски различных точек и корректирует их.
+
+
 
 ### Инструменты моделирования Part Design 
+
+
 
 #### Инструменты создания опорных элементов 
 
@@ -58,6 +70,8 @@
 -   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Создать новую под-объектную связующую форму](PartDesign_SubShapeBinder/ru.md): создаёт геометрию привязки формы из одного или нескольких родительских объектов. {{Version/ru|0.19}}
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Создать клон](PartDesign_Clone/ru.md): клонирует выбранное тело.
+
+
 
 #### Аддитивные инструменты 
 
@@ -90,6 +104,8 @@
   -<img alt="" src=images/PartDesign_AdditivePrism.svg  style="width:32px;"> [Аддитивная призма](PartDesign_AdditivePrism/ru.md): создает аддитивную призму.
 
   -<img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [Аддитивный клин](PartDesign_AdditiveWedge/ru.md): создает аддитивный клин.
+
+
 
 #### Инструменты вычитания (съёма) материала (Субтрактивные инструменты) 
 
@@ -125,6 +141,8 @@
 
   -<img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> ‎[Субтрактивный клин](PartDesign_SubtractiveWedge/ru.md): создает субтрактивный клин и отнимает его от активного тела.
 
+
+
 #### Инструменты преобразования 
 
 Это инструменты для преобразования существующих элементов.
@@ -138,6 +156,8 @@
 -   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [Множественное преобразование](PartDesign_MultiTransform/ru.md): создаёт массив, комбинируя любое из вышеупомянутых преобразований, а также преобразование [Масштабирование](PartDesign_Scaled/ru.md).
     -   <img alt="" src=images/PartDesign_Scaled.svg  style="width:32px;"> [Масштабирование](PartDesign_Scaled/ru.md): масштабирует один или несколько элементов. Этот инструмент недоступен как отдельный инструмент преобразования.
 
+
+
 #### Инструменты обработки граней тела 
 
 Данные инструменты предназначены для создания кромок и обработки граней.
@@ -150,9 +170,13 @@
 
 -   <img alt="" src=images/PartDesign_Thickness.svg  style="width:32px;"> [Преобразовать в полое тело](PartDesign_Thickness/ru.md): создает толстостенную полую оболочку из активного твердого тела и убирая выбранные грани.
 
+
+
 #### Логические операции 
 
 -   <img alt="" src=images/PartDesign_Boolean.svg  style="width:32px;"> [Булева операция](PartDesign_Boolean/ru.md): импортирует одно или несколько тел или клонов PartDesign в активное тело и применяет логическую операцию.
+
+
 
 #### Дополнительные
 
@@ -166,6 +190,8 @@
 
 -   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Мастер проектирования вала](PartDesign_WizardShaft/ru.md): Создает вал из таблицы значений и позволяет анализировать силы и моменты. Вал создается как фигура вращения из эскиза, который можно редактировать.
 
+
+
 ### Инструменты контекстного меню 
 
 <img alt="" src=images/PartDesign_MoveTip.svg  style="width:32px;"> [Установить конечную точку расчета](PartDesign_MoveTip/ru.md): переопределяет положение конечной точки расчета детали.
@@ -174,16 +200,22 @@
 
 -   <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:32px;"> [Переместить объект следом за другим объектом](PartDesign_MoveFeatureInTree/ru.md): позволяет изменить порядок операций в древе построения тела, с помощью перемещения выбранного эскиза, базовой геометрии или объекта в другое положение в списке операций.
 
+
+
 #### Комманды, используемые совместно с верстаком Part 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Внешний вид](Std_SetAppearance/ru.md): определяет внешний вид всей детали (прозрачность, цвет и т.д.).
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Установить цвета](Part_FaceColors/ru.md): позволяет назначить цвета для граней детали.
 
+
+
 ## Настройки
 
 -   <img alt="" src=images/Preferences-part_design.svg  style="width:32px;"> [Настройки](PartDesign_Preferences/ru.md): настройки, доступные для инструментов проектирования деталей.
 -   [Точная настройка](Fine-tuning/ru.md): некоторые дополнительные параметры для точной настройки при проектировании деталей.
+
+
 
 ## Учебники
 

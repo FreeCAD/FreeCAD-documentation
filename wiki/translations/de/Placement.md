@@ -3,6 +3,8 @@
 
 Mit **Positionierung** legt FreeCAD die Lage (Position) und die Ausrichtung (Orientierung) eines Objekts im Raum fest. Die Positionierung kann in verschiedenen Formen angegeben und über [Skripte](Python_scripting_tutorial/de#Vektoren_und_Positionierungen.md), den [Eigenschafteneditor](Property_editor/de.md) oder durch Auswahl von **Bearbeiten → Positionierung...** zum Öffnen des Aufgabenbereichs [Positionierung](Std_Placement/de.md) verändert werden.
 
+
+
 ### Zugriff auf das Positionierungsattribut 
 
 Auf die Positionierungsattribute eines Objekts kann auf 3 Arten zugegriffen und diese verändert werden:
@@ -13,9 +15,13 @@ Auf die Positionierungsattribute eines Objekts kann auf 3 Arten zugegriffen und 
 
 ![Aufgabenbereich Positionierung](images/PlacementDialogv10.png ) 
 
+
+
 ## Formen der Positionierung 
 
 Die Positionierung wird intern als eine Position und eine Drehung (Drehachse und Winkel in ein Quaternion [Quaternionen und räumliche Rotation](https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation) umgewandelt) gespeichert. Während es mehrere Formen gibt, um eine Drehung festzulegen, z.B. mit einem Rotationszentrum, wird dies nur zur Beeinflussung der Drehungsberechnung verwendet und nicht für spätere Operationen gespeichert. Wenn eine Drehachse von (1,1,1,1) angegeben ist, kann sie ebenfalls normalisiert werden, wenn sie im Quaternion gespeichert ist und als (0.58, 0.58, 0.58, 0.58, 0.58) erscheinen, wenn das Objekt später durchsucht wird.
+
+
 
 ### Winkel, Achse und Position 
 
@@ -35,6 +41,8 @@ Die erste Form von **Positionierung** legt die Lage eines Objekts im Raum mit ei
 Beachte, dass es auch möglich ist, ein Objekt entlang dieser Drehachse (Axialbewegung) zu verschieben (bewegen), indem du den Bewegungsabstand im {{SpinBox|Axial: 0.0mm}}-Drehfeld eingibst und auf die Schaltfläche **Apply axial** klickst. (Eine Möglichkeit, sich eine axiale Bewegung vorzustellen, ist, an ein Flugzeug zu denken, bei dem sich ein Propeller auf der Nase dreht - der Propeller dreht sich um eine Drehachse, während sich das Flugzeug entlang derselben Achse bewegt.) Die Werte im Vektor können als die relative Bewegungsgröße betrachtet werden, die in dieser Richtung angewendet wird. So wird beispielsweise im Fall y=x (0.71,0.71,71,0) der in der Axialspinbox enthaltene Wert gleichermaßen auf die X- und Y-Richtung angewendet, aber es findet keine Bewegung in der Z-Richtung statt.
 
 **Position = (x,y,z)** ist ein Vektor, der den Punkt beschreibt, von dem aus die Geometrie des Objekts berechnet wird (tatsächlich ein \"lokaler Ursprung\" für das Objekt). Beachte, dass in Skripten Placement.Base verwendet wird, zur Bezeichnung der Positionskomponente einer Positionierung. Der Eigenschaftseditor ruft diesen Wert \"Position\" und der Positionierungsdialog nennt ihn \"Translation\".
+
+
 
 ### Position und Gieren, Nicken und Rollen 
 
@@ -86,6 +94,8 @@ Die dritte Form der **Positionierung** beschreibt die Position und Orientierung 
 
 
 
+
+
 ## Der Positionierungsdialog 
 
 Der Positinierungsdialog wird über das Menü **Bearbeiten** aufgerufen. Er wird zum präzisen Drehen/Übersetzen von Objekten verwendet. Er wird auch verwendet, wenn wir eine Skizze auf einer \"Nicht Standard\" Ebene erstellen oder die Ausrichtung einer Skizze auf eine neue Ebene ändern müssen.
@@ -120,6 +130,8 @@ Betrachten wir nun den Fall der Auswahl von 2 Punkten. Nun würden 2 gewünschte
 
 Betrachten wir nun den Fall der Auswahl von 3 Punkten. Nun würden 3 gewünschte Punkte ausgewählt und dann auf die Schaltfläche **Ausgewählte Punkte** geklickt werden. Die Koordinaten des ersten ausgewählten Punktes (die Reihenfolge der Auswahl ist hier sehr wichtig) werden in die X-, Y- und Z-Rotationsboxen innerhalb des Abschnitts **Zentrum** geschrieben. Da 3 Punkte eine Ebene definieren, ist FreeCAD in der Lage, diese 3 Punkte zu verwenden, um eine neue benutzerdefinierte Drehachse zu erstellen. Sie ist normal, senkrecht, zu dieser definierten Ebene. Wie bei 2 ausgewählten Punkten wird auch in der Berichtsansicht der Abstand zwischen den Punkten angezeigt. Aber diesmal ist es der Abstand zwischen dem 2. und 3. ausgewählten Punkt. **Hinweis:** Bleibt die Umschalttaste gedrückt, während auf die Schaltfläche **Ausgewählte Punkte** geklickt wird, dann wird die Winkelmessung in die Zwischenablage kopiert. Zusätzlich wird auch der Winkel zwischen dem 2. und 3. Punkt gemessen und in der Berichtsansicht angezeigt. Durch Eingabe dieses Winkels in die Rotationsbox **Winkel** innerhalb des Abschnittes **Drehung** kann das Objekt genau gedreht werden, so dass jetzt der 2. ausgewählte Punkt zu den Koordinaten, die der 3. ausgewählte Punkt einnimmt, ausgerichtet ist. **Hinweis:** die Anzahl der verwendeten Ziffern im Menü Bearbeiten -\> Voreinstellungen -\> Allgemein -\> Einheiten -\> Anzahl der Dezimalstellen kann erhöht werden, wenn die Präzision erhöht werden soll.
 
+
+
 ## Beispiele
 
 Rotationen um eine einzelne Achse:
@@ -141,6 +153,8 @@ Rotation mit Euler-Winkeln:
 <img alt="Vor der Rotation" src=images/RotationEulerBefore.png  style="width:600px;"> Vor der Rotation 
 
 <img alt="Nach der Rotation" src=images/RotationEulerAfter.png  style="width:600px;"> Nach der Rotation 
+
+
 
 ## Placement.Base verglichen mit Shape Definition 
 
@@ -175,6 +189,8 @@ Beide Würfel haben den selben Wert zur Positionierung, befinden sich aber an ve
  >>>
 
 Die Scheitelpunkte (oder Vektoren), die die Form bestimmen verwenden das Placement.Base Attribut als deren Ursprung. Wenn also eine Form um 10 Einheiten entlang der **X** Achse verschoben werden soll, könnten die 10 zu den **X** Koordinaten aller Scheitelpunkte hinzugefügt werden, oder Placement.Base kann auf (10,0,0) gesetzt werden.
+
+
 
 ## Verwendung von \"Mitte\" zur Steuerung der Rotationsachse 
 
@@ -218,6 +234,8 @@ newplace = FreeCAD.Placement(pos,rot,centre)        # make a new Placement objec
 obj.Placement = newplace                            # spin the box
 ```
 
+
+
 ## Verwendung der Positionierung in Ausdrücken 
 
 In Ausdrücken ist es möglich, die Komponenten der Positionierung zu verwenden, um zum Beispiel den X-Wert eines Objektes mit der Benennung \"Cube\" anzusprechen:
@@ -258,6 +276,8 @@ Um die Positionierung von \"Sketch\" mit der von \"Cylinder\" gleichzusetzen, w�
 
 **Hinweis:** Es ist auch möglich Positionierungsobjekte in Ausdrücken zu *erstellen*. Siehe hierzu auch [Ausdrücke / Placement](Expressions/de#Placement.md).
 
+
+
 ## Hinweise
 
 -   Die Positionierungseigenschaften unter dem Datenreiter sind bei Objekten, die an andere Objekte angeheftet sind, deaktiviert.
@@ -273,13 +293,23 @@ Um die Positionierung von \"Sketch\" mit der von \"Cylinder\" gleichzusetzen, w�
   Part.Torus                         Zentrum eines Torus
   Von Skizzen abgeleitete Merkmale   das Merkmal erbt die Position der zugrundeliegenden Skizze. Skizzen beginnen immer mit der Position = (0,0,0). Diese Position entspricht dem Ursprung in der Skizze.
 
+
+
 ## Probleme
 
 -   Die relative Positionierung von Objekten wird letztendlich im Arbeitsbereich Zusammenbau durchgeführt.
 
+
+
 ## Weiteres
 
+
+<div class="mw-translate-fuzzy">
+
 -   Dieses Tutorium: [Flugzeug](Aeroplane/de.md) deckt die Mechanik der Änderung der Positionierung eines Objekts ausführlich ab.
+
+
+</div>
 
 
 

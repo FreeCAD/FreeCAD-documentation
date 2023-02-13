@@ -11,6 +11,8 @@ The first place you can ask for help is the [FreeCAD forum](https://forum.freeca
 There are different subforums for FreeCAD users and developers. Make sure you search the internet, and read through existing questions before you ask for help. There are subforums where you can discuss more specific topics, give your impressions of FreeCAD, discuss new ideas, etc. The forums are very active and you should get a reply very quickly.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 Yardıma ihtiyacınız varsa veya bu wiki belgelerinin belirli bir sayfasıyla ilgili sorularınız varsa, her sayfanın \"tartışma\" sekmesinde fikirlerinizi veya yorumlarınızı her zaman bırakabilirsiniz.
@@ -21,6 +23,8 @@ Yardıma ihtiyacınız varsa veya bu wiki belgelerinin belirli bir sayfasıyla i
 If you need help or have questions related to a particular page of this wiki documentation, you can always leave ideas or comments on the \"discussion\" tab of each page. To upload files for Wiki please use [this page](https://www.freecadweb.org/wiki/Special:Upload).
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 Ayrıca freenode üzerinde bir IRC #freecad sohbet odası var
@@ -28,7 +32,7 @@ Ayrıca freenode üzerinde bir IRC #freecad sohbet odası var
 
 </div>
 
-There is an [IRC #freecad chat room on Freenode](irc://chat.freenode.net/freecad). #openFOAM-IRC is also on Freenode.
+There is an [IRC #freecad chat room on Libera Chat](https://web.libera.chat/#freecad).
 
 ## Reddit
 

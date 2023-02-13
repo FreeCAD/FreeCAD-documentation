@@ -141,7 +141,7 @@ Le dimensioni lineari possono essere basate su due punti, su una linea o su due 
 
 -   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Quota da punti di riferimento - SPERIMENTALE](TechDraw_LandmarkDimension/it.md): aggiunge una quota basata su punti di riferimento. {{Version/it|0.19}}
 
--   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Dimension Repair](TechDraw_DimensionRepair.md): can adjust the 2D or 3D geometry references of a dimension. <small>(v1.0)</small> 
+-   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Ripara quota](TechDraw_DimensionRepair/it.md): può regolare i riferimenti geometrici 2D o 3D di una quota. {{Versione|1.0}}
 
 
 

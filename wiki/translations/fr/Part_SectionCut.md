@@ -12,7 +12,13 @@
 
 ## Description
 
+
+<div class="mw-translate-fuzzy">
+
 La fonction **Coupe persistante** est disponible pour tous les ateliers, mais elle ne fonctionne que pour les objets Part et PartDesign et leurs assemblages. Elle crée une coupe persistante des objets et des assemblages. Comme le résultat de la coupe est un objet ordinaire de [Part Soustraction](Part_Cut/fr.md), il peut être modifié ultérieurement ou, par exemple, imprimé en 3D. Voir ci-dessous les applications possibles.
+
+
+</div>
 
 <img alt="" src=images/Part_SectionCut_example.png  style="width:300px;"> 
 *Un assemblage de coupe. Certaines faces coupées ont été colorées manuellement. La partie jaune n'est pas coupée car elle a été volontairement déplacée d'un micron dans une autre partie.*
@@ -23,7 +29,13 @@ La fonction **Coupe persistante** est disponible pour tous les ateliers, mais el
 
 ![La boîte de dialogue Coupe persistante](images/Part_SectionCut_Dialog.png )
 
+
+<div class="mw-translate-fuzzy">
+
 La boîte de dialogue **Coupe persistante** s\'ouvre via le menu **Affichage → <img src="images/Part_SectionCut.svg" width=16px> Coupe persistante**. Elle est indépendante du plan de travail actuel et du document actuellement ouvert. Elle peut être détachée de sa position d\'ouverture en appuyant sur le bouton en haut à droite de la boîte de dialogue.
+
+
+</div>
 
 La fonction **Coupe persistante** prend en compte tous les objets Part visibles dans le document actif. Vous pouvez donc contrôler ce qui sera coupé, en rendant une partie visible ou non. En cochant l\'une des options **Coupe** dans la boîte de dialogue, la fonction est activée. Vous pouvez alors soit saisir une position (en coordonnées du document), soit utiliser les curseurs pour définir la position de la coupe. Il est également possible de combiner des coupes, par exemple pour couper dans les directions X et Z. Les boutons **Retourner** permettent de retourner le côté qui est coupé.
 
@@ -37,16 +49,24 @@ En décochant toutes les options **Coupe**, le bouton **Rafraîchir la vue** dev
 
 Si l\'option **Auto** dans la section face coupée est cochée, la couleur et la transparence des objets coupés seront prises pour la face coupée. Cela ne fonctionne que si tous les objets coupés ont la même couleur ou la même transparence.
 
+The option **Cut intersecting objects** allows to cut also objects that intersects each other. I assemblies intersections happen sometimes for object that are designed to only touch each other due to numerical precision issues. The drawback of the option is that all visible objects will get the same color. This color can be specified like in the cut face section of the dialog. If you need the cut for e.g. a nice picture with several face colors, you can change the face colors using the tool <img alt="" src=images/Part_FaceColors.svg  style="width:24px;"> [Set face colors](Part_FaceColors.md).
+
 **Remarque :** pour les assemblages, les curseurs de la boîte de dialogue sont désactivés (sauf celui de la transparence). La raison en est qu\'un mouvement de curseur entraîne de nombreuses opérations de coupe dans un court laps de temps. Pour les assemblages, cela consomme rapidement toute la puissance de l\'unité centrale et un mouvement du curseur n\'est pas utile.
 
 Lorsque vous sélectionnez un objet coupé dans l\'arborescence et que vous ouvrez ensuite la boîte de dialogue Coupe persistante, les positions de la coupe seront lues dans la boîte de dialogue.
 
 ## Applications
 
+
+<div class="mw-translate-fuzzy">
+
 -   Un cas d\'utilisation important est que Coupe persistante crée de vraies coupes, pas des coupes creuses comme la fonction **[Std Basculer le plan de coupe](Std_ToggleClipPlane/fr.md)**.
 -   Le découpage de section est utile pour les assemblages afin de visualiser, par exemple, le principe de fonctionnement d\'un appareil. Vous pouvez ainsi vouloir colorer certaines faces de coupe en utilisant l\'outil **[Part Définir les couleurs](Part_FaceColors/fr.md)**. Pour utiliser cet outil, passez dans l\'atelier Part ou PartDesign, cliquez avec le bouton droit de la souris sur l\'objet coupé dans l\'arborescence et sélectionnez dans le menu contextuel **Définir les couleurs**.
 -   La limitation selon laquelle seules les pièces qui ne se croisent pas peuvent être coupées, voir ci-dessous, peut être utilisée comme test de collision.
 -   La fonction de coupe de section peut être utilisée pour les dessins techniques pour mettre en évidence certaines zones ou pour pouvoir dessiner dans les dimensions. L\'image ci-dessous montre un exemple d\'utilisation des fonctions de [TechDraw](TechDraw_Workbench/fr.md) que sont [Vue active](TechDraw_ActiveView/fr.md) et [Vue](TechDraw_View/fr.md).
+
+
+</div>
 
 <img alt="" src=images/Part_SectionCut_TD-example.png  style="width:400px;"> 
 *Un dessin technique où un résultat de Coupe persistante est utilisé. (Cliquez sur l'image pour l'agrandir.)*
@@ -71,6 +91,9 @@ Lorsque vous sélectionnez un objet coupé dans l\'arborescence et que vous ouvr
 
 <img alt="Un assemblage où deux parties se croisent et qui ne sont donc pas coupées. Notez les artefacts de couleur au niveau de la face coupée." src=images/Part_SectionCut_Color-artifact.png  style="width:200px;">
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Important:** La fonction Coupe persistante fonctionne mal avec [OpenCASCADE](OpenCASCADE/fr.md) 7.4 et plus anciens en raison de bogues. Il est donc recommandé d\'utiliser OpenCASCADE 7.5 ou plus récent (toutes les versions de FreeCAD {{VersionPlus/fr|0.20}} l\'assurent).
 -   Dans les assemblages, **les pièces qui se croisent ne peuvent pas être coupées**. Normalement les objets qui se croisent ne seront pas découpés alors que les autres le seront. Cependant, parfois la découpe peut produire des résultats étranges, ce qui est un bug dans les bibliothèques OpenCASCADE.Pour obtenir une vue en coupe également pour les objets qui se croisent, vous pouvez utiliser la [Macro Cross Section](Macro_cross_section/fr.md).
 -   En particulier lorsque vous utilisez l\'[atelier A2plus](A2plus_Workbench/fr.md), certaines pièces assemblées peuvent se chevaucher d\'un micron seulement en raison d\'erreurs d\'arrondi internes. Pour résoudre ce problème, ajoutez un micron comme espace dans les paramètres des contraintes.
@@ -82,14 +105,21 @@ Lorsque vous sélectionnez un objet coupé dans l\'arborescence et que vous ouvr
 
 
 
+</div>
+
+
 
 ## Informations contextuelles 
 
 **Coupe persistante** s\'inspire de la macro [Cross Section](Macro_cross_section/fr.md) et fonctionne techniquement de cette manière :
 
+
+<div class="mw-translate-fuzzy">
+
 Tous les objets visibles sont placés dans un conteneur [Part Composé](Part_Compound/fr.md), puis le composé est découpé à l\'aide d\'un objet [Part Cube](Part_Box/fr.md). Le cube doit être aussi grand que nécessaire pour couvrir l\'ensemble du volume de tous les objets visibles. Pour ce faire, le cube englobant des objets est déterminé. Lorsque vous modifiez la vue en ajoutant/supprimant des objets ou en modifiant le document, le cube englobant doit être mis à jour. Cela se fait en cliquant sur le bouton **Rafraîchir la vue**.
 
-Pour permettre la découpe d\'objets qui se croisent, au lieu du conteneur Part Composé, un conteneur [Part Fragments booléens](Part_BooleanFragments/fr.md) est nécessaire. Cet ajout de fonctionnalité est prévu pour la prochaine version de FreeCAD.
+
+</div>
 
 
 

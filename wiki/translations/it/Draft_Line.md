@@ -2,16 +2,16 @@
 - GuiCommand:/it
    Name:Draft_Line
    Name/it:Linea
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation:Draft → Linea   Shortcut:**L** **I**
-   SeeAlso:[DWire](Draft_Wire/it.md), [Punto](Draft_Point/it.md)
+   MenuLocation:Drafting → Linea
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut:**L** **I**
    Version:0.7
+   SeeAlso:[Polilinea](Draft_Wire/it.md)
 ---
 
 # Draft Line/it
 
 
-</div>
 
 ## Descrizione
 
@@ -22,96 +22,66 @@ Una Draft Linea è di fatto una [Polilinea](Draft_Wire/it.md) con solo due punti
 <img alt="" src=images/Draft_Line_example.jpg  style="width:400px;"> 
 *Linea definita da due punti*
 
+
+
 ## Utilizzo
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
+
+1.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_Line.svg" width=16px> [Linea](Draft_Line/it.md)**.
+    -   Selezionare l\'opzione **Drafting → <img src="images/Draft_Line.svg" width=16px> Linea** dal menu.
+    -   Usare la scorciatoia da tastiera: **L** poi **I**.
+2.  Si apre il pannello attività **Linea**. Vedi [Opzioni](#Options.md) per maggiori informazioni.
+3.  Scegliere il primo punto nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
+4.  Scegliere il secondo punto nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
 
 
-<div class="mw-translate-fuzzy">
-
-1.  Premere il pulsante **<img src="images/Draft_Line.svg" width=16px> [Linea](Draft_Line/it.md)
-** o premere i tasti **L** e **I**
-2.  Fare clic su un primo punto nella vista 3D, o digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> inserisci punto**.
-3.  Fare clic su un secondo punto nella vista 3D, o digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> inserisci punto**.
-
-
-</div>
-
-## Options
-
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
-
-
-<div class="mw-translate-fuzzy">
 
 ## Opzioni
 
--   Premere **X**, o **Y**, o **Z** dopo il primo punto per vincolare il secondo punto su un dato asse.
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** tra ciascun componente X, Y e Z.
-    -   Si possono anche definire le coordinate polari del punto dando un valore a \"Lunghezza\" e \"Angolo\". Fare clic sulla casella accanto a \"Angolo\" per vincolare il puntatore all\'angolo specificato.
-    -   È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> inserisci punto** quando si hanno i valori desiderati per inserire il punto.
--   Premere il tasto **R** oppure fare clic sulla casella di controllo per attivare la modalità \"relativo\". Se la modalità relativo è attiva, le coordinate del punto successivo sono relative all\'ultimo; in caso contrario, sono assolute, prese dall\'origine (0,0,0).
--   Premere il tasto **T** oppure fare clic sulla casella di controllo per attivare la modalità \"continua\". Se la modalità continua è attiva, lo strumento Linea si riavvia dopo aver terminato la linea in costruzione, e consente di disegnarne una nuova linea senza premere nuovamente il pulsante dello strumento
--   Tenere premuto **Ctrl** mentre si disegna per forzare [l\'aggancio](Draft_Snap.md) del proprio punto alla posizione di aggancio più vicina, indipendentemente dalla distanza.
--   Tenere premuto **Maiusc** mentre si disegna per [vincolare](Draft_Constrain.md) il prossimo punto in orizzontale o in verticale rispetto all\'ultimo.
--   Premere i tasti **Ctrl**+**Z** o premere il pulsante {{button|<img src="images/Draft_UndoLine.svg" width=12px> Undo}} per annullare l\'ultimo punto.
--   Premere il tasto **Esc** o il pulsante {{button|Chiudi}} per interrompere il comando corrente.
+Le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività possono essere modificate. Vedere [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md). Le scorciatoie menzionate qui sono le scorciatoie predefinite.
+
+-   Per inserire manualmente le coordinate, inserire le componenti X, Y e Z e premere **Enter** dopo ognuna di esse. Oppure è possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando si hanno i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
+-   Per usare le coordinate polari inserire un valore per **Lunghezza** e un valore per **Anglo**, e premere **Enter** dopo ciascuno.
+-   Selezionare la casella **Anglo** per vincolare il puntatore all\'angolo specificato.
+-   Premere **H** per cambiare il focus dalla casella di input **X** alla casella di input **Lunghezza** e viceversa. A seconda della casella di input che riceve il focus, la casella di controllo **Anglo** è selezionata o deselezionata.
+-   Premere **R** o fare clic sulla casella di controllo **Relativo** per attivare o disattivare la modalità relativa. Se la modalità relativa è attiva, le coordinate del secondo punto sono relative al primo punto, altrimenti sono relative all\'origine del sistema di coordinate.
+-   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate del [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **T** o fare clic sulla casella di controllo **Continua** per attivare o disattivare la modalità continua. Se la modalità continua è attiva, il comando verrà riavviato al termine, consentendo di continuare a creare linee.
+-   Premere **S** per attivare o disattivare l\'[Aggancio](Draft_Snap/it.md).
+-   Premere **Esc** o il pulsante **Chiudi** per interrompere il comando.
 
 
-</div>
 
-## Notes
+## Note
 
-
-<div class="mw-translate-fuzzy">
-
-La linea può essere modificata facendo doppio clic sull\'elemento nella vista ad albero o premendo il pulsante **<img src="images/Draft_Edit.svg" width=16px> [Modifica](Draft_Edit/it.md)**. Quindi si possono spostare i punti in una nuova posizione.
+-   Una linea può essere modificata con il comando [Draft Modifica](Draft_Edit/it.md).
+-   Linee e [Polilinee](Draft_Wire/it.md) possono essere unite con il comando [Polilinea](Draft_Wire/it.md), con il comando [Unisci](Draft_Join/it.md) o il comando [Promuovi](Draft_Upgrade/it.md).
 
 
-</div>
 
-## Preferences
+## Preferenze
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
 
--   To change the number of decimals used for the input of coordinates, lengths and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial focus of the task panel to the **Length** input box: **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
--   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Line](Part_Line.md) instead of a Draft Line.
-
-## Properties
+-   Per modificare il numero di decimali utilizzati per l\'inserimento di coordinate, lunghezze e angoli: **Modifica → Preferenze... → Generale → Unità → Impostazioni unità → Numero di cifre decimali**.
+-   Per modificare il focus iniziale del pannello delle attività nella casella di immissione **Lunghezza**: **Modifica → Preferenze... → Draft → Impostazioni generali di Draft → Opzioni strumenti di Draft → Imposta la Lunghezza invece che sulla coordinata X **. Si tenga presente che bisogna spostare il puntatore nella [Vista 3D](3D_view/it.md) affinché la modifica abbia effetto.
+-   Se l\'opzione **Modifica → Preferenze... → Bozza → Impostazioni generali → Opzioni strumenti di Draft → Usa le primitive di Part quando disponibili** è selezionata, il comando creerà una [Part Linea](Part_Line/it.md) invece di una Draft Linea.
 
 
-<div class="mw-translate-fuzzy">
 
 ## Proprietà
 
-Un oggetto Linea condivide tutte le proprietà di una <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Polilinea](Draft_Wire/it.md), tuttavia solo alcune di queste proprietà sono applicabili alla Linee.
+Vedere [Polilinea](Draft_Wire#Proprietà/it.md).
 
 
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-**Vedere anche:**
-
-[Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Linea può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
+Per creare una Draft Linea usare il metodo `make_line` (<small>(v0.19)</small> ) del modulo Draft. Questo metodo sostituisce il metodo deprecato `makeLine`.
 
 
 ```python
@@ -143,15 +113,6 @@ line2 = Draft.make_line(p3, p4)
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

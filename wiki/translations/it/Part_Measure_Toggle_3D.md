@@ -2,27 +2,27 @@
 - GuiCommand:/it
    Name:Part Measure Toggle 3D
    Name/it:Attiva o Disattiva 3D
-   MenuLocation:[Misure](Std_Measure_Menu/it.md) → Attiva/Disattiva 3D‏‎
+   MenuLocation:Misura → Attiva/disattiva 3D
    Workbenches:[Part](Part_Workbench/it.md)
-   SeeAlso:[Attiva o Disattiva le misure Delta](Part_Measure_Toggle_Delta/it.md)
+   SeeAlso:[Attiva o disattiva tutte le misure](Part_Measure_Toggle_All/it.md), [Attiva o Disattiva le misure Delta](Part_Measure_Toggle_Delta/it.md)
 ---
 
 # Part Measure Toggle 3D/it
 
 
-</div>
-
-## Description
 
 ## Descrizione
 
-Attiva o Disattiva le misure 3D in corso.
+Questo comando attiva/disattiva la visibilità delle misure lineari e angolari nella [Vista 3D](3D_view/it.md).
 
-## Usage
+
 
 ## Utilizzo
 
-1.  Premere il pulsante **[<img src=images/Part_Measure_Toggle_3D.svg style="width:24px"> '''Attiva/Disattiva 3D'''**.
+1.  Esistono diversi modi per invocare il comando:
+    -   Premiere il pulsante **<img src="images/Part_Measure_Toggle_3D.svg" width=16px> [Attiva/disattiva 3D](Part_Measure_Toggle_3D/it.md)
+**
+    -   Seleziona l\'opzione **Misura → <img src="images/Part_Measure_Toggle_3D.svg" width=16px> Attiva/disattiva 3D** dal menu.
 
 
 

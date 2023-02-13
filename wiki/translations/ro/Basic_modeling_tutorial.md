@@ -19,6 +19,8 @@ Acest tutorial de bază de modelare vă va arăta cum să modelați un profil co
 
 </div>
 
+This tutorial was written with version 0.15 of FreeCAD.
+
 ## Înainte de a începe 
 
 Rețineți că FreeCAD se află încă într-un stadiu incipient de dezvoltare, astfel încât este posibil să nu fiți la fel de productiv ca și cu o altă aplicație CAD și veți întâlni cu siguranță bug-uri sau veți experienta diverse accidente. FreeCAD are acum posibilitatea de a salva fișierele de rezervă. Numărul fișierelor de rezervă poate fi specificat în dialogul de preferințe. Nu ezitați să permiteți 2 sau 3 fișiere de rezervă până când știți cum să rezolvați problema cu FreeCAD.
