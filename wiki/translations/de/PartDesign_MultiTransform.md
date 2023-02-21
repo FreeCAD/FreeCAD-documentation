@@ -138,11 +138,13 @@ Es ist möglich ein MultiTransform-Objekt von vorhandenen Transformationen wie [
 
 Siehe [PartDesign PolaresMuster](PartDesign_PolarPattern/de#Einschränkungen.md).
 
-## Example
 
-You can use this tool to create a fully parametric part that is symmetrical about two axes from a sketch.
 
-This could be a 150x100x10mm large mounting plate for a motor with symmetric holes.
+## Beispiel
+
+Dieses Werkzeug kann zur Erstellung eines vollparametrischen Teils, symetrisch über zwei Achsen aus einer Skizze heraus, verwendet werden.
+
+Das kann eine 150x100x10mm große Montageplatte für einen Motor mit symetrisch angeordneten Bohrungen sein.
 
 <img alt="" src=images/PartDesign_MultiTransform_Example2.png  style="width:400px;">
 
@@ -162,7 +164,7 @@ This could be a 150x100x10mm large mounting plate for a motor with symmetric hol
 12. Press the **OK** button to finish.
 13. To remove the edges along the axes of symmetry in the final result, set the **Refine** property of the new feature to {{Value|true}} in the [Property editor](Property_editor.md).
 
-To verify that the part is fully parametric open the initial sketch with the quarter part and change one dimension, say a hole diameter. After closing the sketch the three other holes will have changed accordingly. This works with all other dimensions as well. A sketch modelling the full part with a single extrusion and no mirroring would be a lot more complex and all later changes would be more complicated.
+Um zu gewährleisten, dass das Teil vollparametrisch ist, öffnet man die Ursprungsskizze mit dem Viertelteil und ändert ein Maß, z.B. den Bohrungsdurchmesser. Nach dem Schließen der Skizze werden die drei anderen Bohrungen entsprechend geändert sein. Das funktioniert für alle anderen Maße gleichermaßen. Eine Skizze die ein vollständiges Teil durch eine einfache Formung ohne Spiegelung erstellt, wäre sehr viel komplizierter und alle möglichen Änderungen wäre sehr viel komplizierter.
 
 
 

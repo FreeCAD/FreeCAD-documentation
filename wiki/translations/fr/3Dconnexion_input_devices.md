@@ -3,11 +3,15 @@
 
 {{TOCright}}
 
+
+
 ## Installation des drivers 
 
 ### Linux
 
 FreeCAD prend en charge les drivers du projet [Spacenav](http://spacenav.sourceforge.net/). Il s\'agit d\'un projet visant à créer un pilote open-source, qui est compatible avec les pilotes propriétaires de 3Dconnexion.
+
+
 
 #### Installer à partir d\'un dépôt 
 
@@ -74,6 +78,8 @@ apt-get install spacenavd libspnav-dev
 ```python
 sudo zypper install spacenavd
 ```
+
+
 
 #### Compilation des sources Spacenav 
 
@@ -178,6 +184,8 @@ Ceci est recommandé si votre distribution est une version obsolète.
 
 -   Suivez la même procédure pour compiler, et, installer **spnavcfg**. Lancez **spnavcfg** en tant que root, sinon, aucuns réglages ne seront sauvegardés !
 
+
+
 #### Démarrage de spacenavd en tant que service systemd au démarrage 
 
 Si vous souhaitez démarrer spacenavd au démarrage en utilisant systemd, procédez comme suit :
@@ -188,6 +196,8 @@ Si vous souhaitez démarrer spacenavd au démarrage en utilisant systemd, procé
 -   \"sudo systemctl start spacenavd-local.service\", si vous voulez le démarrer tout de suite.
 
 Ceci n\'est nécessaire que pour l\'installation à partir de la source.
+
+
 
 #### Redémarrez spacenavd 
 
@@ -200,6 +210,8 @@ sudo /etc/init.d/spacenavd restart
 ```
 
 Après ceci, redémarrez FreeCAD. Sur certaines distributions, cela est nécessaire à chaque démarrage (boot).
+
+
 
 ### Problèmes connus 
 
@@ -222,13 +234,15 @@ sudo spnavd_ctl x11 start
 sudo systemctl restart spacenavd 
 ```
 
-### OSX
+### macOS
 
-Les périphériques d\'entrée 3Dconnexion sont pris en charge sur OS X à condition que FreeCAD soit construit et utilisé sur un système sur lequel les pilotes 3Dconnexion sont installés. Vous pouvez avoir besoin de 3DxWare 10.7.2 ou plus pour Mac OSX Monterey.
+Les périphériques d\'entrée 3Dconnexion sont pris en charge sous macOS, à condition que FreeCAD soit compilé et utilisé avec un système sur lequel les pilotes 3Dconnexion sont installés. Vous pouvez avoir besoin de 3DxWare 10.7.2 ou plus pour macOS 12 Monterey.
 
 ### Windows
 
 Depuis la version 0.13, la souris 3D est prise en charge sous windows. Vous devez avoir les pilotes 3Dconnexion installés.
+
+
 
 #### Problème connu 
 
@@ -241,6 +255,8 @@ Il existe un problème en raison duquel 3Dconnexion envoie les événements de d
 5.  Décochez toutes les cases de la page.
 
 ref: <https://freecadweb.org/tracker/view.php?id=1893>
+
+
 
 ## Mise en place de FreeCAD 
 
@@ -274,6 +290,8 @@ Lorsque vous ouvrez cet onglet pour la première fois, il sera vide, et, non dis
 
 Pour connecter certaines commandes à un bouton, sélectionnez le bouton sur le panneau de **gauche**, et, la commande sur le panneau de **droite**. Pour effacer la commande d\'un bouton, appuyez sur \"Clear\".
 
+
+
 ### Dépannage
 
 Vérifiez si votre installation de FreeCAD est liée à la bibliothèque spacenav. La meilleure façon de le vérifier est de lancer FreeCAD à partir de la ligne de commande du terminal `FreeCAD --log-file /tmp/freecad.log` et refermez-le immédiatement. Ouvrez ensuite le fichier **/tmp/freecad.log** et recherchez les messages suivants :
@@ -287,6 +305,8 @@ ou
 `Couldn't connect to spacenav daemon. Please ignore if you don't have a spacemouse.`
 
 Si aucun de ces messages n\'apparaît, c\'est que votre version de FreeCAD n\'est pas liée à la bibliothèque spacenav. Si le premier message apparaît, cela fonctionne. Le dernier message signifie qu\'il y a probablement un problème avec le démon spacenav.
+
+
 
 ## En relation 
 

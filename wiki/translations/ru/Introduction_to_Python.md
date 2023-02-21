@@ -1,6 +1,8 @@
 # Introduction to Python/ru
 {{TOCright}}
 
+
+
 ## Введение
 
 Это небольшой учебник, созданный для новичков в [Python](http://ru.wikipedia.org/wiki/Python). Python - это язык с открытым исходным кодом, многоплатформенный [язык програмирования](http://ru.wikipedia.org/wiki/%D0%92%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D0%B5%D0%B2%D1%8B%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F). Он имеет некоторые функции, которые отличают его от других языков программирования и легко доступны для новых пользователей:
@@ -11,6 +13,8 @@
 -   Он расширяемый, вы можете легко подключить новые модули к вашей установке Python и расширить его функциональность. Например, есть модули, которые позволяют Python читать и писать изображения, общаться с Твиттером, планировать задачи, которые будут выполняться вашей операционной системой, и т. Д.
 
 Нижеследующее является базовым введением и ни в коем случае не полным учебником. Но есть надежда, что это даст хорошую стартовую точку для более глубокого изучения FreeCad и его механизмов. Мы настоятельно рекомендуем вам вводить фрагменты кода ниже в интерпретатор Python.
+
+
 
 ## Интерпретатор
 
@@ -51,7 +55,7 @@ help("print")
 
 You\'ll get a long and complete description of everything the `print()` command can do.
 
-Now that you understand the Python interpreter, we can continue with the more serious stuff. {{Top}}
+Now that you understand the Python interpreter, we can continue with the more serious stuff. 
 
 ## Переменные
 
@@ -92,7 +96,7 @@ print(var2)
 
 It is advisable to give meaningful names to your variables. After a while you won\'t remember what your variable named `a` represents. But if you named it, for example, `myWelcomeMessage` you\'ll easily remember its purpose. Plus your code is a step closer to being self-documenting.
 
-Case is very important, `myVariable` is not the same as `myvariable`. If you were to enter `print(myvariable)` it would come back with an error as not defined. {{Top}}
+Case is very important, 
 
 ## Числа
 
@@ -196,6 +200,8 @@ myVar
 
 
 {{Top}}
+
+
 
 ## Списки
 
@@ -339,6 +345,8 @@ else:
 
 {{Top}}
 
+
+
 ## Функции
 
 There are very few [standard Python commands](https://docs.python.org/3/reference/lexical_analysis.html#identifiers) and we already know several of them. But you can create your own commands. In fact, most of the additional modules that you can plug into your Python installation do just that, they add commands that you can use. A custom command in Python is called a function and is made like this:
@@ -371,7 +379,7 @@ def sum(val1, val2):
 myTotal = sum(45, 34)
 ```
 
-Here we made a function that receives two arguments, sums them, and returns that value. Returning something is very useful, because we can do something with the result, such as store it in the `myTotal` variable. {{Top}}
+Here we made a function that receives two arguments, sums them, and returns that value. Returning something is very useful, because we can do something with the result, such as store it in the 
 
 ## Модули
 
@@ -383,7 +391,7 @@ There are several of ways to execute a Python program. In Windows, simply right-
 
 -   On Linux it is usually **/home/<username>/.local/share/FreeCAD/Mod/** (<small>(v0.20)</small> ) or **/home/<username>/.FreeCAD/Mod/** ({{VersionMinus|0.19}}).
 -   On Windows it is **%APPDATA%\FreeCAD\Mod\**, which is usually **C:\Users\<username>\Appdata\Roaming\FreeCAD\Mod\**.
--   On Mac OSX it is usually **/Users/<username>/Library/Preferences/FreeCAD/Mod/**.
+-   On macOS it is usually **/Users/<username>/Library/Application Support/FreeCAD/Mod/**.
 
 Let\'s add a subfolder there called **scripts** and then write a file like this:
 
@@ -481,6 +489,8 @@ dir()
 
 
 {{Top}}
+
+
 
 ## Примечания
 

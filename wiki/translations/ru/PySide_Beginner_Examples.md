@@ -1,7 +1,7 @@
 # PySide Beginner Examples/ru
 ## Введение
 
-The purpose of this page is to cover beginner level examples of the [PySide](PySide.md) GUI manager (there are accompanying pages [Intermediate PySide Examples](PySide_Intermediate_Examples.md) and [Advanced PySide Examples](PySide_Advanced_Examples.md)).
+The purpose of this page is to cover beginner level examples of the [PySide](PySide.md) GUI manager (there are accompanying pages [PySide Intermediate Examples](PySide_Intermediate_Examples.md) and [PySide Advanced Examples](PySide_Advanced_Examples.md)).
 
 Newcomers to GUI programming may stumble over the word \"widget\". It\'s meaning outside of computing is usually given as
 
@@ -19,17 +19,23 @@ This guide is a shortcut list for getting a PySide program working quickly under
 
 ## Import statement 
 
-PySide is not loaded with Python by default, it must be requested prior to using it. The following command: 
+PySide is not loaded with Python by default, it must be requested prior to using it. The following command:
+
+
 ```python
 from PySide import QtCore
 from PySide import QtGui
-``` causes the 2 parts of PySide to be loaded - QtGui holds classes for managing the Graphic User Interface while QtCore contains classes that do not directly relate to management of the GUI (e.g. timers and geometry). Although it is possible to only import the one that is needed, generally they are both needed and both imported.
+```
+
+causes the 2 parts of PySide to be loaded - QtGui holds classes for managing the Graphic User Interface while QtCore contains classes that do not directly relate to management of the GUI (e.g. timers and geometry). Although it is possible to only import the one that is needed, generally they are both needed and both imported.
 
 The import statements are not repeated in the snippets below; it is assumed that it is done at the beginning in each case.
 
 ## Simplest Example 
 
-The simplest interaction with PySide is to present a message to the user which they can only accept: 
+The simplest interaction with PySide is to present a message to the user which they can only accept:
+
+
 ```python
 reply = QtGui.QMessageBox.information(None,"","Houston, we have a problem")
 ```
@@ -38,10 +44,14 @@ reply = QtGui.QMessageBox.information(None,"","Houston, we have a problem")
 
 ## Yes or No Query 
 
-The next most simple interaction is to ask for a yes/no answer: 
+The next most simple interaction is to ask for a yes/no answer:
+
+
 ```python
 reply = QtGui.QMessageBox.question(None, "", "This is your chance to answer, what do you think?",
-         QtGui.QMessageBox.Yes {{!``` QtGui.QMessageBox.No, QtGui.QMessageBox.No) if reply == QtGui.QMessageBox.Yes:
+         QtGui.QMessageBox.Yes {{!```
+
+QtGui.QMessageBox.No, QtGui.QMessageBox.No) if reply == QtGui.QMessageBox.Yes:
 
         # this is where the code relevant to a 'Yes' answer goes
         pass
@@ -57,7 +67,9 @@ if reply == QtGui.QMessageBox.No:
 
 ## Enter Text Query 
 
-The next code snippet asks the user for a piece of text - note this can be any key on the keyboard really: 
+The next code snippet asks the user for a piece of text - note this can be any key on the keyboard really:
+
+
 ```python
 reply = QtGui.QInputDialog.getText(None, "Ouija Central","Enter your thoughts for the day:")
 if reply[1]:
@@ -70,7 +82,9 @@ else:
 
 ![](images/PySideScreenSnapshot7.jpg )
 
-Remember that even if the user enters only digits, \"1234\" for example, they are strings and must be converted to number representation with either of the following: 
+Remember that even if the user enters only digits, \"1234\" for example, they are strings and must be converted to number representation with either of the following:
+
+
 ```python
 anInteger = int(userInput) # to convert to an integer from a string representation
 
@@ -79,7 +93,9 @@ aFloat = float(userInput) # to convert to a float from a string representation
 
 ## More Than 2 Buttons 
 
-The final Beginner Level example is of how to build a dialog with an arbitrary number of buttons. This example is programmatically too complex to be invoked from a single Python statement so in some ways it should be on the next page which is PySide Medium examples. But on the other hand this is often all that is needed without getting into complex GUI definitions, so the code is placed at the end of the page of this Beginner PySide page rather than the beginning of the following Medium PySide page. 
+The final Beginner Level example is of how to build a dialog with an arbitrary number of buttons. This example is programmatically too complex to be invoked from a single Python statement so in some ways it should be on the next page which is [PySide Intermediate Examples](PySide_Intermediate_Examples.md). But on the other hand this is often all that is needed without getting into complex GUI definitions, so the code is placed at the end of this page rather than the beginning of the next.
+
+
 ```python
 from PySide import QtGui, QtCore
 
@@ -132,7 +148,7 @@ class MyButtons(QtGui.QDialog):
         self.close()
 
 def routine1():
-    print 'routine 1'
+    print ('routine 1')
 
 form = MyButtons()
 form.exec_()
@@ -146,15 +162,22 @@ elif form.retStatus==4:
     routine4()
 elif form.retStatus==5:
     routine5()
+```
 
-``` Each piece of code under test would be in a function with the name \'routine1()\', \'routine2()\', etc. As many buttons as you can fit on the screen may be used. Follow the patterns in the code sample and add extra buttons as needed - the Dialog box will set it\'s width accordingly, up to the width of the screen.
+Each piece of code under test would be in a function with the name \'routine1()\', \'routine2()\', etc. As many buttons as you can fit on the screen may be used. Follow the patterns in the code sample and add extra buttons as needed - the Dialog box will set it\'s width accordingly, up to the width of the screen.
 
 ![](images/PySideScreenSnapshot8.jpg )
 
-There is a line of code: 
+There is a line of code:
+
+
 ```python
 buttonBox = QtGui.QDialogButtonBox(QtCore.Qt.Horizontal)
-``` which causes the buttons to be in a horizontal line. To put them into a vertical line, change the line of code to read: 
+```
+
+which causes the buttons to be in a horizontal line. To put them into a vertical line, change the line of code to read:
+
+
 ```python
 buttonBox = QtGui.QDialogButtonBox(QtCore.Qt.Vertical)
 ```

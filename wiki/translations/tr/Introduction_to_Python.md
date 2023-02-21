@@ -39,6 +39,8 @@ Aşağıdaki kod parçacıklarını bir Python yorumlayıcısına girmenizi kesi
 
 </div>
 
+
+
 ## Yorumlayıcı
 
 
@@ -141,6 +143,8 @@ Artık yorumlayıcıya hükmettiğimize göre, ciddi şeylerle başlayabiliriz.
 
 {{Top}}
 
+
+
 ## Değişkenler
 
 
@@ -220,6 +224,8 @@ Harf boyutu çok önemli. myVariable, myvariable ile aynı değildir; büyük / 
 
 
 {{Top}}
+
+
 
 ## Sayılar
 
@@ -396,6 +402,8 @@ myVar
 
 {{Top}}
 
+
+
 ## Listeler
 
 
@@ -482,6 +490,8 @@ Dizeler, ints, floats ve listeler dışında, [sözlükleri](http://www.diveinto
 
 
 {{Top}}
+
+
 
 ## Girinti
 
@@ -660,6 +670,8 @@ else:
 
 {{Top}}
 
+
+
 ## Fonksiyonlar
 
 
@@ -726,6 +738,8 @@ myTotal = sum(45, 34)
 
 
 {{Top}}
+
+
 
 ## Modüller
 
@@ -915,6 +929,8 @@ exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 
 
 {{Top}}
+
+
 
 ## FreeCAD ile Başlamak 
 

@@ -1,6 +1,8 @@
 # Part and PartDesign/pl
 {{TOCright}}
 
+
+
 ## Informacje ogólne 
 
 Przez lata było wiele dyskusji o różnicach i konsekwencjach używania środowisk pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) i <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md).
@@ -8,6 +10,8 @@ Przez lata było wiele dyskusji o różnicach i konsekwencjach używania środow
 Dobrym pomysłem jest używanie jednego lub drugiego, dopóki użytkownik nie będzie czuł się komfortowo z jednym, a następnie nauczy się drugiego. Zazwyczaj zaleca się również, aby nowi użytkownicy nie mieszali ich ze sobą, dopóki nie zrozumieją konsekwencji takiego postępowania.
 
 Porozmawiajmy o tych konsekwencjach.
+
+
 
 ## Koncepcje środowiska Część 
 
@@ -18,6 +22,8 @@ Porozmawiajmy o tych konsekwencjach.
 Ten stan utrzymuje się do momentu, gdy operator użyje jakiejś operacji do ich połączenia *(zazwyczaj jest to operacja typu logicznego)*. Każda początkowa bryła pozostaje dostępna osobno, a operacja tworzy nowy obiekt.
 
 Chodzi o pojedyncze elementy brył i ich łączenie.
+
+
 
 ## Koncepcje środowiska Projekt Części 
 
@@ -49,6 +55,8 @@ Jeżeli czubek jest na **wyciągnięciu**, to wyciągnięcie może istnieć oddz
 
 *(Inną rzeczą, o której często się wspomina jest to, że bryła ***musi*** być pojedynczą spójną bryłą. Oznacza to, że cała geometria utworzona przez element w Zawartości*musi*dotykać jego poprzednika)*.
 
+
+
 ## Następstwa
 
 Chociaż nie jest to zalecane dla początkujących, możliwe jest połączenie narzędzi środowiska Część i Projekt Części, pod warunkiem, że wiesz co robisz. Na przykład:
@@ -58,6 +66,8 @@ Ludzie łapią się na tym, że próbują użyć jakiegoś elementu pod bryłą 
 W pewnym sensie, z punktu widzenia środowiska Część, Zawartość reprezentuje inna bryła pierwotna. Tak więc, użycie Zawartość *(pamiętaj, że jest to pośrednik dla czubka)* i obiektu środowiska Część do wykonania operacji logicznej jest poprawne. Ale wynikowy obiekt jest obiektem środowiska Część. I dlatego narzędzia środowiska Projekt Części nie mogą być już na nim użyte.
 
 I, to może być jeszcze bardziej skomplikowane. Jeśli utworzysz nową bryłę i przeciągniesz do niej wynik z poprzedniego akapitu, powstanie obiekt bazowy *(BaseObject)*. I możesz użyć na nim narzędzi środowiska Projekt Części.
+
+
 
 ## Ograniczenia
 
@@ -72,6 +82,8 @@ W tym przykładzie, lustrzane odbicie czubka *(który jest kieszenią)* jest wyk
 ![centre\|Jednolite bryły](images/MirroredSlot.png )
 
 Zobacz stronę wiki narzędzia <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> [Odbicie lustrzane](PartDesign_Mirrored/pl.md), aby uzyskać więcej informacji.
+
+
 
 ## Porównanie
 
@@ -162,6 +174,8 @@ Porównaj drzewa konstrukcji w obu środowiskach pracy, jak również ich organi
   ![](images/PartvsPartDesign_TreePartDesignWB.jpg )       ![](images/PartvsPartDesign_TreePartWB.jpg )
                                                                                            
    
+
+
 
 ## Rozważania
 

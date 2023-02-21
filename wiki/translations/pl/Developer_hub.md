@@ -7,9 +7,13 @@ To jest miejsce, które należy odwiedzić, jeśli chcesz przyczynić się do ro
 
 Te strony są we wczesnej fazie rozwoju. Jeśli nie możesz znaleźć informacji, której szukasz, lub znalazłeś przydatne informacje gdzieś, gdzie nie zamieściliśmy linków, zostaw komentarz na [forum](http://forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff), a ktoś się tym zajmie *(lub jeśli jesteś odważny, dlaczego nie edytować tej strony bezpośrednio!)*.
 
+
+
 ## Dokumentacja programisty 
 
 Dokumentacja dla programisty składa się z następujących części:
+
+
 
 ### Kompilacja programu FreeCAD 
 
@@ -105,16 +109,26 @@ The sketcher solver isn\'t perfect, as there are some issues with numerical prec
 
 The development of a new solver architecture could improve the way the solver is used both in the [Sketcher Workbench](Sketcher_Workbench.md), and for assembly of 3D bodies. See [Reimplementing constraint solver](https://forum.freecadweb.org/viewtopic.php?f=20&t=40525).
 
+
+
 ## Plan rozwoju 
 
 FreeCAD, choć użyteczny w pewnych obszarach, jest na początku długiej drogi do głównego nurtu CAD. Jest jeszcze wiele do zrobienia aby osiągnąć stan, w którym będziemy mogli konkurować z oprogramowaniem komercyjnym.
 
 [FreeCAD 1.0 Development Cycle](FreeCAD_1.0_Development_Cycle.md)
 
+
+
 ## Społeczność
+
+
+<div class="mw-translate-fuzzy">
 
 -   [IRC channel](irc://chat.freenode.net/freecad) ,zsynchronizowany z [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
 -   [Forum programistów](https://forum.freecadweb.org/viewforum.php?f=6)
+
+
+</div>
 
 -   [Plan rozwoju](Development_roadmap/pl.md)
 

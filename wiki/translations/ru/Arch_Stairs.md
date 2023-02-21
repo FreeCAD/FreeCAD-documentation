@@ -11,6 +11,8 @@
 
 # Arch Stairs/ru
 
+
+
 ## Описание
 
 Инструмент [Лестница](Arch_Stairs/ru.md) позволяет автоматически создавать несколько типов лестниц. инструмент позволяет автоматически создавать несколько типов лестниц. На данный момент поддерживаются только прямые лестницы (лестничной площадкой или без нее). Лестница может быть построена с нуля или вдоль [Линии (верстак Draft)](Draft_Line/ru.md). Если линия не горизонтальна, а имеет наклон по вертикали, лестница также будет иметь наклон.
@@ -20,16 +22,24 @@
 <img alt="" src=images/Arch_Stairs_example.jpg  style="width:640px;"> 
 *Изображение двух сконструированных лестниц, одна с массивной конструкцией и лестничной площадкой, а другая с одним косоуром.*
 
+
+
 ## Опции
 
 -   Лестницы обладают таким же свойствами и моделью поведения, как и все остальные [компоненты верстака Arch](Arch_Component/ru.md)
+
+
 
 ## Применение
 
 1.  Нажмите кнопку **<img src="images/Arch_Stairs.svg" width=16px> [Лестница](Arch_Stairs.md)** или нажмите клавиши **S**, **R**.
 2.  Настройте нужные свойства. Некоторые части лестницы, такие как конструкция, могут изначально отсутствовать, если какое-либо из свойств делает это невозможным, например, толщина конструкции равна 0.
 
+
+
 ## Свойства
+
+
 
 ### Данные
 
@@ -52,13 +62,13 @@
 
 -    **Railing Height Right|Length**: Height of the right railing of the stairs or landing.
 
--    **Railing Left|String**: Name of the left railing object.
+-    **Railing Left|LinkHidden**: The left railing object. <small>(v0.20)</small> : Property type updated from {{Incode|String}} to {{Incode|LinkHidden}}.
 
 -    **Railing Offset Left|Length**: Offset of the left railing from the edge of the stairs or landing.
 
 -    **Railing Offset Right|Length**: Offset of the right railing from the edge of the stairs or landing.
 
--    **Railing Right|String**: Name of the right railing object.
+-    **Railing Right|LinkHidden**: The right railing object. <small>(v0.20)</small> : Property type updated from {{Incode|String}} to {{Incode|LinkHidden}}.
 
 
 {{TitleProperty|Stairs}}
@@ -127,11 +137,15 @@
 
 -    **Winders|Enumeration**: The type of winders. Not implemented.
 
+
+
 ## Ограничения
 
 -   На данный момент доступны только прямые лестницы
 -   См. [тему на форуме](http://forum.freecadweb.org/viewtopic.php?f=23&t=6534) про круговые лестницы.
 -   См. [уведомления](http://forum.freecadweb.org/viewtopic.php?f=9&t=4564) о данном инструменте на форуме.
+
+
 
 ## Программирование
 

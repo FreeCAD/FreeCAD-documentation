@@ -7,9 +7,13 @@
 
 Этот раздел находятся в стадии разработки. Если вы не можете найти информацию, которую ищете, или нашли полезную информацию, на которую мы не сослались, пожалуйста, оставьте комментарий на [форуме](http://forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff) и кто-нибудь заглянет в него (или, если вы уверены в своих знаниях, почему бы не отредактировать эту страницу самостоятельно!).
 
+
+
 ## Документация для Разработчиков 
 
 Документация для разработчиков включает в себя следующие разделы:
+
+
 
 ### Компиляция FreeCAD 
 
@@ -25,6 +29,8 @@
 -   [Документирование исходников](Source_documentation/ru.md)
 -   Используйте [Систему отслеживания Багов](Tracker/ru.md) когда у вас есть проблема или вы думаете, что, возможно, нашли ошибку
 
+
+
 ### Упаковывание
 
 [Упаковка](Packaging.md) заключается в том, чтобы взять скомпилированные двоичные файлы и исходные файлы Python FreeCAD и распространить их для использования в определенной системе.
@@ -35,6 +41,8 @@
     -   [Git build пакет](Git_buildpackage/ru.md)
 -   [Упаковывание в Windows](Windows_packaging/ru.md)
 -   [Упаковывание в MacOS](MacOS_packaging/ru.md)
+
+
 
 ### Инструменты Поддержки Сборки 
 
@@ -51,6 +59,8 @@
 
 </div>
 
+
+
 ### Модифицирование FreeCAD 
 
 -   Объяснение структуры [исходного кода FreeCAD](The_FreeCAD_source_code/ru.md)
@@ -66,6 +76,8 @@
 -   [Обертывание C++ класса в Python](Wrapping_a_Cplusplus_class_in_Python/ru.md) содержит информацию о том, как создать Python обертку для C++ класса
 
 -   [Перевод внешних верстаков](Translating_an_external_workbench/ru.md)
+
+
 
 ### Руководство для разработчика модуля 
 
@@ -86,6 +98,8 @@ Chapters:
 
 Latest pdf preview can be downoaded from [pdf folder](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide/tree/master/pdf) of this git repo
 
+
+
 ### Внутренние устройство 
 
 #### OpenCascade Documentation 
@@ -97,6 +111,8 @@ OpenCascade is a software development platform for 3D surface and solid modeling
 -   [Reference Manual](https://dev.opencascade.org/doc/refman/html/index.html)
 -   [The openCascade wiki](http://opencascade.wikidot.com) (currently containing ?? Chinese spam)
 
+
+
 #### Про формат файла 
 
 
@@ -106,6 +122,8 @@ OpenCascade is a software development platform for 3D surface and solid modeling
 
 
 </div>
+
+
 
 #### Решатель Эскизов (Sketcher solver) 
 
@@ -117,16 +135,20 @@ The sketcher solver isn\'t perfect, as there are some issues with numerical prec
 
 The development of a new solver architecture could improve the way the solver is used both in the [Sketcher Workbench](Sketcher_Workbench.md), and for assembly of 3D bodies. See [Reimplementing constraint solver](https://forum.freecadweb.org/viewtopic.php?f=20&t=40525).
 
+
+
 ## Дорожная карта проекта 
 
 FreeCAD, though usable in certain areas, is at the beginning of a long way into the CAD mainstream. There is still a lot to do to reach a state where we can compete with commercial software.
 
 [FreeCAD 1.0 Development Cycle](FreeCAD_1.0_Development_Cycle.md)
 
+
+
 ## Сообщество
 
--   [IRC channel](irc://chat.freenode.net/freecad) ,synchronized with [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
--   [Development forum](https://forum.freecadweb.org/viewforum.php?f=6)
+-   [IRC channel](ircs://irc.libera.chat:6697/freecad) ,synchronized with [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
+-   [Development forum](https://forum.freecad.org/viewforum.php?f=6)
 
 -   [Development roadmap](Development_roadmap.md)
 

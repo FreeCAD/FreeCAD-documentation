@@ -1,6 +1,8 @@
 # Part and PartDesign/it
 {{TOCright}}
 
+
+
 ## Descrizione
 
 Ci sono state molte discussioni nel corso degli anni sulle differenze e le ramificazioni dell\'uso degli ambienti <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/it.md) e <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md).
@@ -8,6 +10,8 @@ Ci sono state molte discussioni nel corso degli anni sulle differenze e le ramif
 È una buona idea usare l\'uno o l\'altro finché l\'utente non è a suo agio con uno, poi impara l\'altro. È anche tipicamente raccomandato che i nuovi utenti non li confondano finché non hanno capito le differenze.
 
 Parliamo di queste differenze.
+
+
 
 ## Concetti dell\'ambiente Part 
 
@@ -18,6 +22,8 @@ L\'ambiente Part è essenzialmente un modellatore di [Geometrie solide](Construc
 Questa condizione rimane tale fino a quando l\'operatore usa delle operazioni per combinarli (tipicamente un booleano che li aggiunge o li sottrae). Ogni solido di partenza rimane accessibile separatamente e l\'operazione crea un nuovo oggetto.
 
 Il risultato è la parte solida singola e la combinazione delle parti.
+
+
 
 ## Concetti dell\'ambiente PartDesign 
 
@@ -55,6 +61,8 @@ Se Tip su *Pad*, il solido estruso può esistere separatamente, ma se Tip su *Co
 
 (Un\'altra cosa menzionata spesso è che un Corpo ***DEVE*** essere un singolo solido contiguo. Questo significa che tutta la geometria creata da una caratteristica nel Corpo *deve* toccare il suo predecessore).
 
+
+
 ## Le conseguenze 
 
 
@@ -77,6 +85,8 @@ In un certo senso, dal punto di vista dell\'ambiente Part, il corpo rappresenta 
 
 E può diventare ancora più complicato. Se si crea un nuovo corpo e vi si trascina il risultato del paragrafo precedente, si crea un BaseObject. E su questo si può andare ad usare gli strumenti dell\'ambiente PartDesign.
 
+
+
 ## Le avvertenze 
 
 C\'è un\'avvertenza con la Punta (ultima funzione sul solido) e la sua rappresentazione del singolo solido nel Corpo. Se la punta è una caratteristica sottrattiva ed è usata in un\'operazione estetica, per esempio uno Specchio, lo Specchio sta operando sulla caratteristica sottostante (una tasca per esempio). Così il solido cumulativo non viene specchiato, ma la caratteristica sottrattiva sì. Il risultato di questo deve creare un unico solido.
@@ -90,6 +100,8 @@ In questo esempio, uno specchio della punta (che è la tasca della cavità) vien
 ![centre\|Solidi isolati](images/MirroredSlot.png )
 
 Vedere la pagina <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> [PartDesign Simmetria](PartDesign_Mirrored/it.md) wiki dello strumento per maggiori informazioni.
+
+
 
 ## Confronto
 
@@ -216,6 +228,8 @@ Confrontare gli alberi di costruzione nei due banchi di lavoro così come la lor
 
 
 </div>
+
+
 
 ## Conclusione
 

@@ -17,7 +17,7 @@ L\'outil [Arch Structure](Arch_Structure/fr.md) vous permet de construire les é
 Si aucun profil n\'est fourni, un ensemble de préréglages est disponible pour construire rapidement un élément structurel à partir d\'un profil standard prédéfini.
 
 ![](images/Arch_Structure_example.jpg ) 
-*Colonne basée sur un profil de base 2D; une colonne et une poutre définies par leur hauteur, leur longueur et leur largeur, sans profil de base; une structure métallique basée sur une face 2D*
+*Colonne basée sur un profil de base 2D ; une colonne et une poutre définies par leur hauteur, leur longueur et leur largeur, sans profil de base ; une structure métallique basée sur une face 2D*
 
 
 
@@ -108,7 +108,7 @@ L\'objet structurel a également la possibilité d\'afficher les nœuds structur
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 

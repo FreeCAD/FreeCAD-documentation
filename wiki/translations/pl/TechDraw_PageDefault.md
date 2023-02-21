@@ -9,6 +9,8 @@
 
 # TechDraw PageDefault/pl
 
+
+
 ## Opis
 
 Narzędzie **Wstaw nową domyślna stronę rysunku** tworzy nowy obiekt Strony używając pliku szablonu określonego w [Ustawieniach](TechDraw_Preferences/pl.md) dla środowiska pracy Rysunek Techniczny.
@@ -16,9 +18,13 @@ Narzędzie **Wstaw nową domyślna stronę rysunku** tworzy nowy obiekt Strony u
 <img alt="" src=images/A4_LandscapeTD.svg  style="width:400px;"> 
 *Domyślny szablon dołączony do środowiska pracy Rysunek Techniczny: Strona A4 w orientacji poziomej, z edytowalnymi polami tekstowymi*
 
+
+
 ## Użycie
 
 -   Naciśnij przycisk **<img src="images/TechDraw_PageDefault.svg" width=16px> [Wstaw nową domyślna stronę rysunku](TechDraw_PageDefault/pl.md)** *(Musi istnieć aktywny dokument)*.
+
+
 
 ## Uwagi
 
@@ -44,7 +50,11 @@ Narzędzie **Wstaw nową domyślna stronę rysunku** tworzy nowy obiekt Strony u
 ```
     
 
+
+
 ## Właściwości
+
+
 
 ### Dane
 
@@ -66,6 +76,8 @@ Narzędzie **Wstaw nową domyślna stronę rysunku** tworzy nowy obiekt Strony u
 
 -    **Następny numer dymka**: Autonumeracja dla dymków.
 
+
+
 ### Widok
 
 
@@ -75,11 +87,15 @@ Narzędzie **Wstaw nową domyślna stronę rysunku** tworzy nowy obiekt Strony u
 
 -    **Rozstaw siatki**: Odległość między liniami siatki w mm. {{Version/pl|0.20}}
 
+
+
 ## Tworzenie skryptów 
 
 Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-Narzędzie Wstaw nową domyślna stronę rysunku może być używane w [makrodefinicjach](macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji: 
+Narzędzie Wstaw nową domyślna stronę rysunku może być używane w [makrodefinicjach](macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
+
+
 ```python
 page = FreeCAD.ActiveDocument.addObject('TechDraw::DrawPage','Page')
 template = FreeCAD.ActiveDocument.addObject('TechDraw::DrawSVGTemplate','Template')
@@ -88,6 +104,8 @@ page.Template = FreeCAD.ActiveDocument.Template
 ```
 
 -   Tworzy nową stronę w bieżącym dokumencie
+
+
 
 ### Pola tekstowe do edycji 
 

@@ -73,7 +73,7 @@ A titre de comparaison, vous pouvez regarder les post-processeurs qui sont fourn
 
 
 
-## Programmation de votre propre post-processeur 
+## Programmer votre propre post-processeur 
 
 Ce paragraphe traite de certains éléments internes des postprocesseurs linuxcnc. La même structure est également utilisée dans d\'autres postprocesseurs.
 

@@ -9,6 +9,8 @@ Untenable werden mehrere Möglichkeiten dargestellt, die zurzeit vom Projekt unt
 
 Es gibt auch immer andere Wege zu helfen, anstatt Geld zu spenden oder zu programmieren, wie z.B. Mitarbeit an der Dokumentation, der Übersetzung oder daran neuen Anwendern zu helfen ihren Weg zu finden. Siehe Seite [FreeCAD Unterstützen](Help_FreeCAD/de.md), um mehr zu erfahren.
 
+
+
 ## Weitere Details zu den verschiedenen Möglichkeiten 
 
 -   <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> FreeCAD hat ein offiziellen [LiberaPay-Team-Konto](https://liberapay.com/FreeCAD). Dort kann man jeden Betrag per Kreditkarte, Paypal oder SEPA-Überweisung spenden, einmalig oder als Daueraftrag. Alles hier eingehen Beträge werden direkt zu gleichen Teilen unter den gelisteten Entwicklern aufgeteilt. Die Liberapay-Platform ist auch Open-Source und behält nichts ein von der geleisteten Spende. Das LiberaPay-Konto wird direkt durch die Mitglieder verwaltet.
@@ -39,6 +41,8 @@ Es gibt auch immer andere Wege zu helfen, anstatt Geld zu spenden oder zu progra
 
 </div>
 
+
+
 ## Einen bestimmten Entwickler Unterstützen 
 
 -   Einige Entwickler erledigen für Geld eine bestimmte Aufgabe oder können gesponsert werden, um Zeit für die Arbeit an FreeCAD aufzuwenden. Es gab in der Vergangenheit einige erfolgreiche Experimente, wie der Arbeitsbereich [Pfad](Path_Workbench/de.md) oder [Ian Rees\' Finanzierungsexperiment](https://opendeveloperfunding.wordpress.com/). Die folgenden Entwickler können individuell gefördert werden. Einen Entwickler direkt zu unterstützen kann eine gute Möglichkeit sein, eine Spende zielgerichtet einem bestimmten Entwicklungsbereich von FreeCAD zukommen zu lassen, zu dem man ein besonderes Interesse hat:
@@ -50,6 +54,8 @@ Es gibt auch immer andere Wege zu helfen, anstatt Geld zu spenden oder zu progra
     -   Amritpal Singh aka amrit3701 via <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/amrit3701) oder <img alt="Patreon" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/amrit3701) ([Rebar addon](https://github.com/amrit3701/FreeCAD-Reinforcement))
     -   Brad Collette aka sliptonic via <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/sliptonic/donate) oder <img alt="Patreon" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/sliptonic) ([Path Workbench](Path_Workbench.md))
     -   Ajinkya Dahale via <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/ajinkyadahale/) oder <img alt="" src=images/_GitHub.svg  style="width:24px;"> [GitHub](https://github.com/sponsors/AjinkyaDahale/) ([B-Spline constraints project](https://forum.freecadweb.org/viewtopic.php?f=9&t=71130) and general FreeCAD bugfixing/enhancing)
+
+
 
 ## Aufträge
 
@@ -78,8 +84,6 @@ The **FreeCAD project association** (FPA) is a non-profit association created in
 ## Tax deductions 
 
 The FPA, although it is a non-profit organization, is not a charity organization. People and companies donating to the FPA are therefore [not entitled to a tax deduction](https://finances.belgium.be/fr/particuliers/avantages_fiscaux/dons) by Belgian law. Each country, however, has its own rules and laws to decide upon what gives their citizen right to tax reduction or not. You are always advised to consult the laws of your own country.
-
-U.S. citizens and companies can however benefit from tax deductions when donating to FreeCAD. For this, you need to choose the **OpenCollective** platform above. OpenCollective is a [501(c)3](https://en.wikipedia.org/wiki/501(c)(3)_organization) organization, and provides [tax deductions receipts](https://docs.opencollective.com/help/financial-contributors/receipts).
 
 The FPA can anyway always issue a donation receipt. [Mail us](mailto:fpa@freecad.org) with your donation details and we will gladly send you a receipt.
 

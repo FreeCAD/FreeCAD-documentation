@@ -4,7 +4,7 @@
    MenuLocation: Model → Electromagnetic Constraints → Constraint magnetization
    Workbenches:[FEM](FEM_Workbench.md)
    Version:1.0
-   SeeAlso:[FEM Magnetodynamic equation](FEM_EquationMagnetodynamic.md), [FEM Magnetodynamic 2D equation](FEM_EquationMagnetodynamic2D.md)
+   SeeAlso:[Magnetodynamic equation](FEM_EquationMagnetodynamic.md), [Magnetodynamic 2D equation](FEM_EquationMagnetodynamic2D.md)
 ---
 
 # FEM ConstraintMagnetization
@@ -15,7 +15,7 @@ Creates a FEM constraint for the magnetization. To be used together with the [Ma
 
 ## Usage
 
-1.  Press the **<img src="images/FEM_ConstraintMagnetization.svg" width=16px> [FEM ConstraintMagnetization](FEM_ConstraintMagnetization.md)** button or use the menu **Model → Electromagnetic Constraints → <img src="images/FEM_EquationMagnetodynamic.svg" width=16px> Constraint magnetization**.
+1.  Press the **<img src="images/FEM_ConstraintMagnetization.svg" width=16px> [FEM ConstraintMagnetization](FEM_ConstraintMagnetization.md)** button or use the menu **Model → Electromagnetic Constraints → <img src="images/FEM_ConstraintMagnetization.svg" width=16px> Constraint magnetization**.
 2.  In the [3D view](3D_view.md) select the object the constraint should be applied to.
 3.  Press the **Add** button.
 
@@ -24,7 +24,7 @@ Creates a FEM constraint for the magnetization. To be used together with the [Ma
 -   **Magnetization\_\*\_1**: The real/imaginary part of the magnetization in x-direction in A/m. For other coordinate systems than Cartesian 3D, this will be the first coordinate of the system instead of x.
 -   **Magnetization\_\*\_2**: The real/imaginary part of the magnetization in y-direction in A/m. For other coordinate systems than Cartesian 3D, this will be the second coordinate of the system instead of y.
 -   **Magnetization\_\*\_3**: The real/imaginary part of the magnetization in z-direction in A/m. For other coordinate systems than Cartesian 3D, this will be the third coordinate of the system instead of z. If the coordinate system has no third coordinate, this setting will be ignored.
--   **Magnetization\_\*\_\*\_Disabled**: Whether the corresponding parameter is disabled (assumes as unknown for the solver).
+-   **Magnetization\_\*\_\*\_Disabled**: Whether the corresponding parameter is disabled (assumed as unknown by the solver).
 
 
 

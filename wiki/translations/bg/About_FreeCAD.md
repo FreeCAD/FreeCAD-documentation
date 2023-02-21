@@ -48,6 +48,8 @@ FreeCAD е независим от плаформата си([multi-platform](ht
 
 </div>
 
+
+
 ### За проекта FreeCAD 
 
 

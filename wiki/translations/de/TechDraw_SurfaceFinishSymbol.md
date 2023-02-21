@@ -9,6 +9,8 @@
 
 # TechDraw SurfaceFinishSymbol/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:24px;"> **TechDraw Oberflächensymbol** fügt dem Zeichnungsblatt (Page-Objekt) ein Oberflächensymbol hinzu.
@@ -18,6 +20,8 @@ Das Werkzeug <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="wid
 
 <img alt="" src=images/TechDraw_SurfaceFinishSymbolExample2.png  style="width:330px;"> 
 *Der Aufgabenbereich, Darstellungsart ASME ausgewählt. Rechts das erstellte Symbol.*
+
+
 
 ## Anwendung
 

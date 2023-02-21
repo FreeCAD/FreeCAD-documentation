@@ -30,6 +30,8 @@ Vă recomandăm cu tărie să introduceți fragmentele de cod de mai jos într-u
 
 </div>
 
+
+
 ## Interpretorul
 
 
@@ -132,6 +134,8 @@ Acum că stăpânim total interpretorul nostru , putem începe lucrurile serioas
 
 {{Top}}
 
+
+
 ## Varibile
 
 
@@ -211,6 +215,8 @@ Cazul este foarte important. myVariable nu este aceeași cu myvariable, diferen�
 
 
 {{Top}}
+
+
 
 ## Numere
 
@@ -386,6 +392,8 @@ myVar
 
 
 {{Top}}
+
+
 
 ## Liste/matrici
 
@@ -653,6 +661,8 @@ else:
 
 {{Top}}
 
+
+
 ## Funcții
 
 
@@ -719,6 +729,8 @@ Am făcut o funcție care primește două argumente, le însumează și returnea
 
 
 {{Top}}
+
+
 
 ## Module
 
@@ -908,6 +920,8 @@ exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 
 
 {{Top}}
+
+
 
 ## Începeți cu FreeCAD 
 

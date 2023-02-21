@@ -70,13 +70,7 @@ L\'équation électrostatique prend en compte les contraintes suivantes si elles
 Les résultats sont la vitesse en $\rm m/s$ et la pression en $\rm Pa$. Si aucune valeur pour la <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [Contrainte de pression initiale](FEM_ConstraintInitialPressure/fr.md) et la <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [Contrainte de pression](FEM_ConstraintPressure/fr.md) n\'ait donnée, la pression résultante sera relative et non absolue. Comme une pression doit agir sur une face, les résultats de pression absolue ne peuvent pas être obtenus dans les simulations 2D.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

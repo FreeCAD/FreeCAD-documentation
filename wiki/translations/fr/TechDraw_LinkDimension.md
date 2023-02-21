@@ -30,13 +30,7 @@ Le lien indique à Dimension de calculer sa valeur directement à partir de la g
 4.  Une boîte de dialogue va s\'ouvrir. Sélectionnez 1 ou plusieurs dimensions à associer à la géométrie 3D sélectionnée.
 5.  Appuyer sur **OK**.
 
-
-<div class="mw-translate-fuzzy">
-
-Une fois l\'opération de liaison terminée, la propriété {{PropertyData/fr|MeasureType}} de la dimension passe de `Projected` à `True`.
-
-
-</div>
+L\'opération de liaison change la propriété **MeasureType** de la cote de `Projected` à `True`.
 
 ## Limitations
 

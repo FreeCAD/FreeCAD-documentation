@@ -13,9 +13,13 @@
 
 </div>
 
+
+
 ## Descripción
 
 El Arquitectura Ubicación es un objeto especial que combina propiedades de un objeto de grupo estándar de FreeCAD y objetos de Arch. Es particularmente adecuado para representar un sitio de proyecto completo o terreno. En trabajos arquitectónicos basados en IFC, se usa principalmente para organizar su modelo, al contener objetos [Edificio](Arch_Building/es.md). El sitio también se usa para administrar y mostrar un terreno físico, y puede calcular volúmenes de tierra para agregar o eliminar.
+
+
 
 ## Utilización
 
@@ -23,7 +27,12 @@ El Arquitectura Ubicación es un objeto especial que combina propiedades de un o
 2.  Pulse el botón **<img src="images/Arch_Site.svg" width=16px> [Arquitectura Ubicación](Arch_Site/es.md)
 **, o pulsar las teclas **S** y **I**
 
+
+
 ## Opciones
+
+
+<div class="mw-translate-fuzzy">
 
 -   Después de la creación de una ubicación, puedes añadirle más objetos arrastrando y soltándolos en la vista en árbol o utilizando la herramienta **<img src="images/Arch_Add.svg" width=16px> [Arquitectura Añadir](Arch_Add/es.md)**. Esto solo determina qué objeto forma parte del sitio determinado y no tiene ningún efecto en el terreno en sí.
 -   Puedes eliminar objetos de una ubicación arrastrando y soltándolos fuera en la vista de árbol o utilizando la herramienta **<img src="images/Arch_Remove.png" width=16px> [Arquitectura Eliminar](Arch_Remove/es.md)
@@ -32,6 +41,11 @@ El Arquitectura Ubicación es un objeto especial que combina propiedades de un o
 -   Puede agregar volúmenes para agregar o restar del terreno base, haciendo doble clic en el Sitio y agregando objetos a sus grupos Resta o Adiciones. Los objetos deben ser sólidos.
 
 -   La propiedad **Vector Extrusión** se puede usar para resolver algunos problemas que pueden aparecer al trabajar con sustracciones y adiciones. Para realizar esas adiciones / sustracciones, la superficie del terreno se extruye en un sólido, que luego se une / resta apropiadamente. Dependiendo de la topología del terreno, esta extrusión puede fallar con el vector de extrusión predeterminado. Por lo tanto, es posible que pueda solucionar el problema cambiando este a un valor diferente.
+
+
+</div>
+
+
 
 ## Propiedades
 
@@ -87,9 +101,17 @@ El Arquitectura Ubicación es un objeto especial que combina propiedades de un o
 
 -    **Wind Rose**: Shows or hides the wind rose diagram (requires the **EPW File** data property filled, and the Ladybug Python module installed (see below)
 
+
+
 ## Flujo de trabajo típico 
 
+
+<div class="mw-translate-fuzzy">
+
 Comienza creando un objeto que represente tu terreno. Debe ser una superficie abierta, no un sólido. Por ejemplo, es fácil importar datos de malla, que se pueden convertir en una Forma de Parte desde el menú **Pieza → Crear Forma desde Malla**. A continuación, cree un objeto Sitio, y establezca su propiedad **Terreno** a la Pieza que acabamos de crear:
+
+
+</div>
 
 ![](images/Arch_site_example_01.jpg )
 
@@ -100,6 +122,8 @@ Cree algunos volúmenes (deben ser sólidos) que representen las áreas que dese
 La geometría del sitio se volverá a calcular y se volverán a calcular las áreas, el perímetro y las propiedades de volúmenes.
 
 ![](images/Arch_site_example_03.jpg )
+
+
 
 ## Diagramas solares y eólicos 
 
@@ -162,6 +186,8 @@ FreeCAD.ActiveDocument.recompute()
 FreeCAD.Gui.ActiveDocument.ActiveView.viewIsometric()
 ```
 
+
+
 ### Diagrama solar 
 
 Siempre que el módulo `pysolar` esté presente, se puede añadir un diagrama solar al sitio. Establezca los ángulos de longitud, latitud y declinación según corresponda, así como una escala adecuada para el tamaño de su modelo.
@@ -179,6 +205,8 @@ Site.ViewObject.SolarDiagram = True
 Site.ViewObject.SolarDiagramScale = 10000
 FreeCAD.ActiveDocument.recompute()
 ```
+
+
 
 ### Diagrama solar independiente del ubicación 
 

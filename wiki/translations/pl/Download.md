@@ -25,7 +25,7 @@ Poprzednie wersje można pobrać ze strony [wydań](https://github.com/FreeCAD/F
 -   Wersja portable nie wymaga instalacji i jest dostępna na stronie [wydania](https://github.com/FreeCAD/FreeCAD/releases/).
 -   Pakiet można również zainstalować za pomocą menedżera [Chocolatey](https://chocolatey.org/packages/freecad).
 
-### Uwagi dla użytkowników systemu Mac OS X 
+### Uwagi dla użytkowników systemu Mac OS 
 
 Mac OS X 10.12 **Sierra** jest wersją wymaganą jako minimalna.
 

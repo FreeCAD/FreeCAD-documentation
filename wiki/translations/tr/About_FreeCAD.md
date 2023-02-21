@@ -48,6 +48,8 @@ FreeCAD\'in yetenekleri hakkında daha fazla bilgi için, [Özellik listesine](F
 
 </div>
 
+
+
 ### FreeCAD projesi hakkında 
 
 FreeCAD projesi, [geçmiş](history.md) sayfasında açıklandığı gibi, 2001 yılında kadar başlamıştır .

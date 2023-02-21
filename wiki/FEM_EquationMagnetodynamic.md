@@ -3,8 +3,8 @@
    Name:FEM EquationMagnetodynamic
    MenuLocation:Solve → Electromagnetic Equations → Magnetodynamic equation
    Workbenches:[FEM](FEM_Workbench.md)
-   Version:1.0.
-   SeeAlso:[FEM Magnetodynamic 2D equation](FEM_EquationMagnetodynamic2D.md)
+   Version:1.0
+   SeeAlso:[Magnetodynamic 2D equation](FEM_EquationMagnetodynamic2D.md)
 ---
 
 # FEM EquationMagnetodynamic
@@ -44,7 +44,7 @@ The magnetodynamic equation provides these special settings:
 
 -    **Lagrange Gauge Penalization Coefficient**: See Elmer [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Computation of Magnetic Fields in 3D* for info.
 
--    **Quadratic Approximation**: Enables second-order approximation of driving current.
+-    **Quadratic Approximation**: Enables second-order approximation of driving current.**Note:** The default order of [Gmsh meshes](FEM_MeshGmshFromShape.md) in FreeCAD is 2nd order. When using 2nd order meshes, it is mandatory to set this option to *true*. Otherwise you will get this error: *ERROR:: GetEdgeBasis: Can\'t handle but linear elements, sorry.*However, for most applications, a 1st order mesh is sufficient. An exception is the case when an Isocontour filter should be applied to visualize the results. In this case using a 2nd order mesh and thus setting **Quadratic Approximation** to *true* is recommended.
 
 -    **Static Conductivity**: See Elmer [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Computation of Magnetic Fields in 3D* for info.
 

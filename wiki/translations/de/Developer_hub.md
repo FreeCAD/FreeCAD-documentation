@@ -7,9 +7,13 @@ Dies ist die Stelle, wenn Du zur Entwicklung der FreeCAD-Software beitragen möc
 
 Diese Seiten sind in einem frühen Stadium. Wenn Du nicht die Informationen findest, nach denen Du suchst oder hilfreiche Informationen an anderer Stelle gefunden hast, auf die wir nicht verwiesen haben, dann hinterlasse bitte einen Kommentar im [Forum](http://forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff) und jemand wird danach gucken (oder wenn Du magst, kannst Du diese Seite selbst ändern!).
 
+
+
 ## Entwicklerdokumentation
 
 Die Entwicklerdokumentation umfasst die folgenden Abschnitte:
+
+
 
 ### FreeCAD kompilieren 
 
@@ -25,6 +29,8 @@ Die Entwicklerdokumentation umfasst die folgenden Abschnitte:
 -   [Quellcode Dokumentation](Source_documentation/de.md)
 -   Verwende den [Fehlerverfolger](Tracker/de.md), wenn du ein Problem hast oder glaubst, einen Fehler gefunden zu haben
 
+
+
 ### Paketerstellung
 
 [Paketerstellung](Packaging/de.md) besteht darin, die kompilierten Binärdateien und Python Quelldateien von FreeCAD zu übernehmen und für die Verwendung in einem bestimmten System zu verteilen.
@@ -36,6 +42,8 @@ Die Entwicklerdokumentation umfasst die folgenden Abschnitte:
 -   [Windows Paketerstellung](Windows_packaging/de.md)
 -   [MacOS Paketerstellung](MacOS_packaging/de.md)
 
+
+
 ### Bau Unterstützungswerkzeuge 
 
 -   Das [FreeCAD Bau Werkzeug](FreeCAD_Build_Tool/de.md)
@@ -44,6 +52,8 @@ Die Entwicklerdokumentation umfasst die folgenden Abschnitte:
 -   [Testen](Testing/de.md) FreeCAD
 -   [Kompilieren (beschleunigen)](Compiling_(Speeding_up)/de.md) FreeCAD
 -   [Fortlaufende Integration](Continuous_Integration/de.md)
+
+
 
 ### FreeCAD ändern 
 
@@ -59,6 +69,8 @@ Die Entwicklerdokumentation umfasst die folgenden Abschnitte:
 -   [Feinabstimmung](Fine-tuning/de.md) zeigt verschiedene Optionen und Parameterschalter, die Probleme lösen können.
 
 -   [Übersetzen eines externen Arbeitsbereichs](Translating_an_external_workbench/de.md)
+
+
 
 ### Modul Entwicklerhandbuch 
 
@@ -79,7 +91,11 @@ Kapitel:
 
 Die neueste pdf Vorschau kann aus dem [pdf-Ordner](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide/tree/master/pdf) dieses Git Repos heruntergeladen werden.
 
+
+
 ### Internas
+
+
 
 #### OpenCascade Dokumentation 
 
@@ -90,9 +106,13 @@ OpenCascade ist eine Software Entwicklungsplattform für 3D Oberflächen- und Vo
 -   [Referenzhandbuch](https://dev.opencascade.org/doc/refman/html/index.html)
 -   [The openCascade wiki](http://opencascade.wikidot.com) (Enthält gegenwärtig ?? Chinesischen Spam)
 
+
+
 #### Dateiformat
 
 [File Format FCStd](File_Format_FCStd/de.md). Bei den mit FreeCAD erstellten Dateien handelt es sich um `.zip` Dateien, die die [BREP](https://de.wikipedia.org/wiki/Boundary_Representation/de.md)-Geometrie sowie XML-Daten zur Beschreibung des Dokuments enthalten.
+
+
 
 #### Skizzierer Löser 
 
@@ -104,16 +124,26 @@ Der Skizzierer Löser ist nicht perfekt, da es einige Probleme mit numerischer P
 
 Die Entwicklung einer neuen Löserarchitektur könnte die Verwendung des Lösers sowohl in der [Sketcher Arbeitsbereich](Sketcher_Workbench/de.md) als auch für die Montage von 3D Körpern verbessern. Siehe [Reimplementieren des Beschränkungslösers](https://forum.freecadweb.org/viewtopic.php?f=20&t=40525).
 
+
+
 ## Fahrplan
 
 FreeCAD, obwohl in bestimmten Bereichen verwendbar, steht am Anfang eines langen Weges in den CAD Mainstream. Es gibt noch viel zu tun um einen Stand zu erreichen, in dem wir mit kommerzieller Software konkurrieren können.
 
 [FreeCAD 1.0 Development Cycle](FreeCAD_1.0_Development_Cycle.md)
 
+
+
 ## Gemeinschaft
+
+
+<div class="mw-translate-fuzzy">
 
 -   [IRC Kanal](irc://chat.freenode.net/freecad) ,synchronisiert mit [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
 -   [Entwicklungsforum](https://forum.freecadweb.org/viewforum.php?f=6)
+
+
+</div>
 
 -   [Entwicklungsfahrplan](Development_roadmap/de.md)
 

@@ -1,12 +1,9 @@
 # Macro Copy3DViewToClipboard/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro Copy3DViewToClipboard
 |Translate=Copia la vista 3D negli appunti
 |Icon=Macro_Copy3DViewToClipboard.png
-|Description=Copia il contenuto della vista 3D negli appunti
+|Description=|La macro copierà il contenuto della vista 3D negli appunti in un'immagine bitmap (BMP).<br/>La copia in Gimp non è possibile. Gimp usa il proprio metodo per la funzione di copia.
 |Author=Mario52
 |Version=00.01
 |Date=2016-09-14
@@ -17,20 +14,15 @@
 }}
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-La macro copia il contenuto della vista 3D negli appunti in immagine bitmap (BMP). La copia dentro Gimp no è possibile Gimp utilizza il suo metodo.
-
-
-</div>
+Macro copierà il contenuto della vista 3D negli appunti in un\'immagine bitmap (BMP). La copia in Gimp non è possibile. Gimp usa il proprio metodo per la funzione di copia.
 
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/f5c3738f858f7b058897c6c235232cbe/raw/a10bc3b8789badc1e405541d4697d7286d9f0fd3/Macro_Copy3DViewToClipboard.FCMacro}}
+
+
 
 ## Uso
 
@@ -38,13 +30,7 @@ La macro copia il contenuto della vista 3D negli appunti in immagine bitmap (BMP
 -   Premere **G** per catturare il contenuto della vista 3D e copiarlo negli appunti.
 -   Premere **Q** pr uscire.
 
-
-<div class="mw-translate-fuzzy">
-
-Per avere un formato diverso modificare i valori nella riga 33 ad esempio:
-
-
-</div>
+PS: se si vogliono altri formati, modificare i valori della riga numero 33 es:
 
 line 33 : ***glw.resize(640, 480) \# reduce the SubWindow***
 
@@ -52,9 +38,13 @@ in
 
 line 33 : ***glw.resize(800, 600) \# reduce the SubWindow***
 
+
+
 ## Discussione
 
 Vedere la discussione nel [forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=16731).
+
+
 
 ## Codice
 

@@ -1,6 +1,8 @@
 # Introduction to Python/pt-br
 {{TOCright}}
 
+
+
 ## Introdução
 
 Este é um pequeno tutorial para aqueles que ainda não conhecem [Python](https://pt.wikipedia.org/wiki/Python). Python é uma [linguagem de programação](https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o) multiplataforma de código aberto que possui vários recursos que o diferenciam de outras linguagens, tornado seu aprendizado muito acessível aos novos usuários:
@@ -11,6 +13,8 @@ Este é um pequeno tutorial para aqueles que ainda não conhecem [Python](https:
 -   É extensível, você pode facilmente conectar novos módulos à sua instalação do Python e estender sua funcionalidade. Por exemplo, existem módulos que permitem que o Python leia e escreva imagens, se comunique com o Twitter, agende tarefas a serem executadas pelo seu sistema operacional etc.
 
 Esse texto é uma introdução muito básica e não um tutorial completo. Mas esperamos que seja um ponto de partida e ajude a aprofundar seus conhecimento do FreeCAD e seus mecanismos. Recomendamos que você experimente os trechos de código abaixo em um interpretador Python.
+
+
 
 ## O interpretador 
 
@@ -383,7 +387,7 @@ There are several of ways to execute a Python program. In Windows, simply right-
 
 -   On Linux it is usually **/home/<username>/.local/share/FreeCAD/Mod/** (<small>(v0.20)</small> ) or **/home/<username>/.FreeCAD/Mod/** ({{VersionMinus|0.19}}).
 -   On Windows it is **%APPDATA%\FreeCAD\Mod\**, which is usually **C:\Users\<username>\Appdata\Roaming\FreeCAD\Mod\**.
--   On Mac OSX it is usually **/Users/<username>/Library/Preferences/FreeCAD/Mod/**.
+-   On macOS it is usually **/Users/<username>/Library/Application Support/FreeCAD/Mod/**.
 
 Let\'s add a subfolder there called **scripts** and then write a file like this:
 

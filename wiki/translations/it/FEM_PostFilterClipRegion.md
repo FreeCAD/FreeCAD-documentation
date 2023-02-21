@@ -43,7 +43,13 @@ Da fare
 **Note**: If there exist not yet a filter function, you can only directly set a **Field** after its creation when <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:24px;"> [Apply Changes](FEM_PostApplyChanges.md) is on. Otherwise you can first do this after reopening the filter dialog.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{FEM Tools navi

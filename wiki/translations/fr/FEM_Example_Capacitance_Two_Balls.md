@@ -75,9 +75,6 @@ Ce cas présente la solution de la capacité de sphères parfaitement conductric
 
 ## Conteneur d\'analyse et ses objets 
 
-
-<div class="mw-translate-fuzzy">
-
 Les objets utilisés dans cette analyse électrostatique :
 
 1.  <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> Containeur d\'analyse
@@ -88,9 +85,6 @@ Les objets utilisés dans cette analyse électrostatique :
 6.  <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:24px;"> ConstantVaccumPermittivity, optionnel
 7.  <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:24px;"> Mesh, un maillage [Gmsh](FEM_MeshGmshFromShape/fr.md)
 8.  <img alt="" src=images/FEM_MeshRegion.svg  style="width:24px;"> MeshRegion, une région maillée pour les petites sphères
-
-
-</div>
 
 ![](images/Two_balls_analysis.png ) 
 *Les objets tels qu'ils apparaissent dans la [vue en arborescence](Tree_view/fr.md)*
@@ -123,28 +117,16 @@ Si vous obtenez un message d\'erreur sur le binaire du solveur ou similaire lors
 
 ## Post-traitement du résultat 
 
-
-<div class="mw-translate-fuzzy">
-
 -   Bien que nous ayons réussi à visualiser le résultat du potentiel, nous ne voyons actuellement que le potentiel nul dans l\'air entourant les deux boules. Pour visualiser le potentiel sur les boules, nous devons appliquer un [filtre d\'écrêtage selon une région](FEM_PostFilterClipRegion/fr.md).
 -   Dans la vue arborescente, sélectionnez <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> SolverElmerResult, puis dans la barre d\'outils cliquez sur le bouton **<img src="images/FEM_PostFilterClipRegion.svg" width=20px> Filtre d'écrêtage selon une région**.
--   Cela ouvrira un dialogue avec les configurations du filtre. Cliquez sur le bouton **<img src="images/list-add.svg" width=16px> Créer** et choisissez <img alt="" src=images/Fem-post-geo-plane.svg  style="width:24px;"> Plan. Cela ajoute un plan passant par le centre de la sphère et au niveau duquel le maillage résultant est coupé. Pour lisser la face coupée, cochez l\'option **Cut Cells**. Cliquez ensuite sur **Appliquer**.
-
-
-</div>
+-   Cela ouvrira un dialogue avec les configurations du filtre. Cliquez sur le bouton **<img src="images/list-add.svg" width=16px> Créer** et choisissez <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> Plan. Cela ajoute un plan passant par le centre de la sphère et au niveau duquel le maillage résultant est coupé. Pour lisser la face coupée, cochez l\'option **Cut Cells**. Cliquez ensuite sur **Appliquer**.
 
 <img alt="" src=images/Two_balls_postcreate.png  style="width:300px;">
 
-
-<div class="mw-translate-fuzzy">
-
--   Dans l\'arborescence, il y a une nouvelle entrée appelée Functions. Elle contient le <img alt="" src=images/Fem-post-geo-plane.svg  style="width:24px;"> plan créé. Rendez-le invisible en utilisant **Espace**.
+-   Dans l\'arborescence, il y a une nouvelle entrée appelée Functions. Elle contient le <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> plan créé. Rendez-le invisible en utilisant **Espace**.
 -   Double-cliquez sur l\'objet <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:24px;"> Clip dans l\'arborescence.
 -   Changez \"Field\" en \"potential\" et appuyez sur **OK**.
 -   Activez la visibilité de l\'objet <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> SolverElmerResult en utilisant **Espace** et vous devriez voir quelque chose comme ceci :
-
-
-</div>
 
 <img alt="" src=images/Two_balls_result.png  style="width:1000px;">
 

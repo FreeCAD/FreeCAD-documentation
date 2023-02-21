@@ -16,6 +16,8 @@ Vedi altri modi per [aiutare il progetto](Help_FreeCAD/it.md) (documentazione, t
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Opzioni
@@ -81,6 +83,8 @@ Vedi altri modi per [aiutare il progetto](Help_FreeCAD/it.md) (documentazione, t
     -   Brad Collette aka sliptonic via <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/sliptonic/donate) or <img alt="Patreon" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/sliptonic) ([Path Workbench](Path_Workbench.md))
     -   Ajinkya Dahale via <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/ajinkyadahale/) or <img alt="" src=images/_GitHub.svg  style="width:24px;"> [GitHub](https://github.com/sponsors/AjinkyaDahale/) ([B-Spline constraints project](https://forum.freecadweb.org/viewtopic.php?f=9&t=71130) and general FreeCAD bugfixing/enhancing)
 
+
+
 ## Lavori
 
 -   Ci potrebbero essere altri sviluppatori interessati a fare un lavoro specifico per il progetto; se volete accelerare lo sviluppo di un\'idea o di una caratteristica, considerate di assumere uno sviluppatore. Sta a te costruire un\'idea, discuterla sul forum e trovare sviluppatori interessati a farlo. Puoi offrire un lavoro nel [Job offers subforum](https://forum.freecadweb.org/viewforum.php?f=31).
@@ -108,8 +112,6 @@ The **FreeCAD project association** (FPA) is a non-profit association created in
 ## Tax deductions 
 
 The FPA, although it is a non-profit organization, is not a charity organization. People and companies donating to the FPA are therefore [not entitled to a tax deduction](https://finances.belgium.be/fr/particuliers/avantages_fiscaux/dons) by Belgian law. Each country, however, has its own rules and laws to decide upon what gives their citizen right to tax reduction or not. You are always advised to consult the laws of your own country.
-
-U.S. citizens and companies can however benefit from tax deductions when donating to FreeCAD. For this, you need to choose the **OpenCollective** platform above. OpenCollective is a [501(c)3](https://en.wikipedia.org/wiki/501(c)(3)_organization) organization, and provides [tax deductions receipts](https://docs.opencollective.com/help/financial-contributors/receipts).
 
 The FPA can anyway always issue a donation receipt. [Mail us](mailto:fpa@freecad.org) with your donation details and we will gladly send you a receipt.
 

@@ -8,6 +8,8 @@
 
 # Std DependencyGraph/es
 
+
+
 ## Descripción
 
 El comando **Std GrafoDependencia** muestra las dependencias entre los objetos del documento activo en un \"gráfico de dependencias\". A diferencia de la [Vista de árbol](Tree_view/es.md), los objetos se enumeran en orden cronológico inverso, con el primer objeto creado en la parte inferior.
@@ -25,6 +27,8 @@ El gráfico de dependencias es una mera herramienta de visualización, por lo qu
 <img alt="" src=images/Std_DependencyGraph_example.svg  style="width:400px;"> 
 *Ejemplo de un gráfico de dependencia con un cuerpo de DiseñoPiezas a la izquierda y un objeto creado con operaciones de Pieza a la derecha*
 
+
+
 ## Instalación
 
 Para utilizar el comando es necesario instalar un software de terceros llamado [Graphviz](http://graphviz.org/). Si no lo tienes preinstalado o está instalado en una ubicación no convencional, FreeCAD mostrará el siguiente diálogo:
@@ -35,9 +39,23 @@ Para utilizar el comando es necesario instalar un software de terceros llamado [
 
 Descarga el instalador **graphviz-2.xx** de la página [Graphviz Download page](https://graphviz.org/download/#windows) y ejecútalo para instalarlo. Algunas versiones anteriores parecen tener problemas para mostrar el gráfico; se sabe que la versión 2.38 y las más recientes son fiables. Puedes encontrar todas las versiones de graphviz en [Gitlab](https://gitlab.com/graphviz/graphviz/-/releases).
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ### Mac/OSX
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Puedes instalar graphviz usando [Homebrew](https://brew.sh/). (Mientras instalas Homebrew, no te pongas nervioso, si MacOS te pide que instales actualizaciones, por ejemplo, para las herramientas de línea de comandos de Xcode. Estas actualizaciones se realizan posteriormente por el proceso de instalación).
+
+
+</div>
 
 
 {{Code|lang=text|code=
@@ -84,7 +102,13 @@ Y por lo tanto puedes decirle a FreeCAD que busque en ese directorio.
 
 ### Linux
 
+
+<div class="mw-translate-fuzzy">
+
 En la mayoría de las distribuciones de Linux (Debian/Ubuntu, Fedora, OpenSUSE), basta con instalar el paquete Graphviz desde los repositorios. Sin embargo, al igual que en Mac/OSX, en los casos en los que los binarios de Graphviz están instalados en una ubicación no estándar, intente encontrar el programa con el comando:
+
+
+</div>
 
 
 {{Code|lang=text|code=
@@ -100,12 +124,16 @@ dot is /usr/local/bin/dot
 
 Y por tanto puedes indicar a FreeCAD que busque en ese directorio.
 
+
+
 ## Utilización
 
 1.  Seleccione la opción **Hierramentas → <img src="images/Std_DependencyGraph.svg" width=16px> Gráfico dependencia...** en el menú.
 2.  Se abre una nueva pestaña titulada **Gráfico dependencia** en la [Área de vista principal](Main_view_area/es.md).
 3.  Utilice la rueda de desplazamiento del ratón para acercarse o alejarse.
 4.  Utiliza los deslizadores de la parte inferior y de la derecha de la pantalla para desplazar la vista. Alternativamente ({{Version/es|0.19}}) mantenga pulsado el botón izquierdo del ratón y mueva el ratón.
+
+
 
 ## Guardar
 
@@ -115,6 +143,8 @@ Puede guardar un gráfico dependencia:
 2.  Seleccione la opción **Archivo → [Guardar](Std_Save/es.md)** o **Archivo → [Guardar como](Std_SaveAs.md)** del menú.
 3.  Introduzca un nombre de archivo y seleccione el tipo de archivo (\*.png, \*.bmp, \*.gif, \*.jpg, \*.svg o \*.pdf).
 4.  Pulse el botón **Guardar**.
+
+
 
 ## Principios generales 
 
@@ -131,6 +161,8 @@ Puede guardar un gráfico dependencia:
 
 
 </div>
+
+
 
 ## Limitaciones
 

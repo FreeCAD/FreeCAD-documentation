@@ -8,21 +8,19 @@
 
 # Part Mirror/de
 
+
+
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-\'Objekt spiegeln\' - Dieses Werkzeug erzeugt ein neues Objekt (Bild), das eine Spiegelung des ursprünglichen Objekts (Quelle) ist. Das Bildobjekt wird hinter einer Spiegelebene erzeugt. Die Spiegelebene kann eine Standardebene (**XY**, **YZ** oder **XZ**) oder eine beliebige Ebene parallel zu einer Standardebene sein.
-
-
-</div>
+**Objekt spiegeln** erzeugt ein neues Objekt (Bild), das eine Spiegelung des ursprünglichen Objekts (Quelle) ist. Das Bildobjekt wird hinter einer Spiegelebene erzeugt. Die Spiegelebene kann eine Standardebene (**XY**, **YZ** oder **XZ**) oder eine beliebige Ebene parallel zu einer Standardebene sein.
 
 Ein Beispiel:
 
 ![Vorher](images/PARTMirrorBeforev11.png )
 
 ![Nachher (gespiegelt an der **YZ** Ebene)](images/PARTMirrorAfterv11.png ) 
+
+
 
 ## Anwendung
 
@@ -31,6 +29,8 @@ Ein Beispiel:
 1.  Wähle das Quellobjekt aus der Spiegelungspaneel Liste aus.
 2.  Wähle eine Standard **Spiegelebene** aus dem Aufklappmenü.
 3.  Drücke **OK**, um das Bildobjekt zu erstellen.
+
+
 
 
 
@@ -48,17 +48,12 @@ Die **Basispunkt** Felder können verwendet werden, um die Spiegelebene parallel
   **YZ**          **X**             Verschiebt die Spiegelebene entlang der **X**-Achse.
   **YZ**          **Y**, **Z**      Keine Auswirkung.
 
-## Notes
 
 
-<div class="mw-translate-fuzzy">
+## Hinweise
 
-## Begrenzungen
-
+-   [App Link](App_Link.md)-Objekte, die mit den zugehörigen Objekttypen und [App Part](App_Part.md)-Behältern mit deren zugehörigen, sichtbaren, Objekten innerhalb verknüpft sind, können auch als Quellobjekte verwendet werden. <small>(v0.20)</small> 
 -   Beliebige Spiegelebenen (d.h. nicht parallel zu einer Standardebene) werden nicht unterstützt
-
-
-</div>
 
 
 

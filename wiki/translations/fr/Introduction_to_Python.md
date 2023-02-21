@@ -12,6 +12,8 @@ Ceci est un petit tutoriel créé pour ceux qui veulent débuter en programmatio
 
 Ce qui suit est une introduction très basique et en aucun cas un tutoriel complet. Mais espérons le, il fournira un bon point de départ pour une exploration plus approfondie dans FreeCAD et ses mécanismes. Nous vous encourageons fortement à saisir les extraits de code ci-dessous dans un interpréteur Python.
 
+
+
 ## L'interpréteur
 
 Habituellement, lors de l\'écriture d\'un programme informatique, vous ouvrez un éditeur de texte ou votre environnement de programmation préféré (qui est essentiellement un éditeur de texte avec quelques outils supplémentaires), vous écrivez votre programme, puis vous le compilez et l\'exécutez. Souvent une ou plusieurs erreurs ont été commises lors de la saisie, votre programme ne fonctionnera donc pas. Vous pouvez même recevoir un message d\'erreur vous indiquant ce qui n\'a pas fonctionné. Ensuite, vous revenez à votre éditeur de texte, corrigez les erreurs, exécutez à nouveau et ainsi de suite jusqu\'à ce que votre programme fonctionne comme prévu.
@@ -51,7 +53,7 @@ help("print")
 
 Vous obtiendrez une description longue et complète de tout ce que la commande `print()` peut faire.
 
-Maintenant que vous comprenez l\'interpréteur Python, nous pouvons continuer avec des choses plus sérieuses. {{Top}}
+Maintenant que vous comprenez l\'interpréteur Python, nous pouvons continuer avec des choses plus sérieuses. 
 
 ## Les Variables 
 
@@ -92,7 +94,7 @@ print(var2)
 
 Il est conseillé de donner des noms significatifs à vos variables. Après un certain temps, vous ne vous souviendrez plus de ce que représente votre variable nommée `a`. Mais si vous l\'avez nommée, par exemple, `myWelcomeMessage` vous vous souviendrez facilement de son objectif. De plus, votre code est un pas supplémentaire vers l\'auto-documentation.
 
-La casse est très importante, `myVariable` n\'est pas la même chose que `myvariable`. Si vous deviez entrer `print(myvariable)`, il produirait une erreur \"not defined\" (non défini). {{Top}}
+La casse est très importante, 
 
 ## Les Nombres 
 
@@ -197,6 +199,8 @@ myVar
 
 {{Top}}
 
+
+
 ## Les Listes (Tableaux) 
 
 Un autre type de données utile est le type **list**. Une liste est une collection d\'autres données. Pour définir une liste nous utilisons `[ ]` :
@@ -237,7 +241,7 @@ myvar[2]
 
 Habituellement ce que vous pouvez faire avec des listes peut également être fait avec les chaînes de caractères. En fait, les listes et les chaînes de caractères sont des séquences.
 
-Outre les chaînes de caractères, les entiers, les flottants et les listes, il existe davantage de types de données intégrés, tels que les dictionnaires et vous pouvez même créer vos propres types de données avec des classes. {{Top}}
+Outre les chaînes de caractères, les entiers, les flottants et les listes, il existe davantage de types de données intégrés, tels que les dictionnaires et vous pouvez même créer vos propres types de données avec des classes. 
 
 ## L\'indentation
 
@@ -339,6 +343,8 @@ else:
 
 {{Top}}
 
+
+
 ## Les Fonctions 
 
 Il existe très peu de [commandes Python standard](https://docs.python.org/3/reference/lexical_analysis.html#identifiers) et nous en connaissons déjà plusieurs. Mais vous pouvez créer vos propres commandes. En fait, la plupart des modules supplémentaires que vous pouvez connecter à votre installation Python le font déjà, ils ajoutent des commandes que vous pouvez utiliser. Une commande personnalisée en Python s\'appelle une fonction et se présente comme suit :
@@ -371,7 +377,7 @@ def sum(val1, val2):
 myTotal = sum(45, 34)
 ```
 
-Ici nous avons créé une fonction qui reçoit deux arguments, les additionne et renvoie cette valeur. Renvoyer quelque chose est très utile, car nous pouvons faire quelque chose avec le résultat, comme le stocker dans la variable `myTotal`. {{Top}}
+Ici nous avons créé une fonction qui reçoit deux arguments, les additionne et renvoie cette valeur. Renvoyer quelque chose est très utile, car nous pouvons faire quelque chose avec le résultat, comme le stocker dans la variable 
 
 ## Les Modules 
 
@@ -379,13 +385,13 @@ Maintenant que vous avez une bonne idée du fonctionnement de Python, vous aurez
 
 Jusqu\'à présent, nous avons écrit les instructions Python ligne par ligne dans l\'interpréteur. Cette méthode n\'est évidemment pas adaptée aux programmes plus importants. Normalement le code des programmes Python est stocké dans des fichiers avec l\'extension **.py**. Ce ne sont que des fichiers de texte brut et n\'importe quel éditeur de texte (Linux gedit, emacs, vi ou même le bloc-notes Windows) peut être utilisé pour les créer et les modifier.
 
-Il existe plusieurs façons d\'exécuter un programme Python. Sous Windows, faites simplement un clic droit sur votre fichier, ouvrez-le avec Python et exécutez-le. Mais vous pouvez également l\'exécuter à partir de l\'interpréteur Python lui-même. Pour cela, l\'interprète doit savoir où se trouve votre programme. Dans FreeCAD, le moyen le plus simple consiste à placer votre programme dans un dossier que l\'interpréteur Python de FreeCAD connaît par défaut, tel que le dossier utilisateur **Mod** de FreeCAD:
+Il existe plusieurs façons d\'exécuter un programme Python. Sous Windows, faites simplement un clic droit sur votre fichier, ouvrez-le avec Python et exécutez-le. Mais vous pouvez également l\'exécuter à partir de l\'interpréteur Python lui-même. Pour cela, l\'interprète doit savoir où se trouve votre programme. Dans FreeCAD, le moyen le plus simple consiste à placer votre programme dans un dossier que l\'interpréteur Python de FreeCAD connaît par défaut, tel que le dossier utilisateur **Mod** de FreeCAD :
 
 -   Sous Linux, il s\'agit généralement de **/home/<username>/.local/share/FreeCAD/Mod/** ({{VersionPlus/fr|0.20}}) ou **/home/<username>/.FreeCAD/Mod/** ({{VersionMinus/fr|0.19}}).
--   Sous Windows il s\'agit de **%APPDATA%\FreeCAD\Mod\**, qui est généralement **C:\Utilisateurs\<nom_utilisateur>\Appdata\ Roaming\FreeCAD\Mod\**.
--   Sous Mac OSX il s\'agit généralement de **/Utilisateurs/<nom_utilisateur>/Bibliothèque/Preferences/FreeCAD/Mod/**.
+-   Sous Windows, il s\'agit de **%APPDATA%\FreeCAD\Mod\**, qui est généralement **C:\Utilisateurs\<nom_utilisateur>\Appdata\ Roaming\FreeCAD\Mod\**.
+-   Sous macOS, il s\'agit généralement de **/Users/<username>/Library/Application Support/FreeCAD/Mod/**.
 
-Ajoutons un sous-dossier appelé **scripts** puis écrivons un fichier comme celui-ci:
+Ajoutons un sous-dossier appelé **scripts** puis écrivons un fichier comme celui-ci :
 
 
 ```python
@@ -469,6 +475,8 @@ exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 
 
 {{Top}}
+
+
 
 ## Démarrer avec FreeCAD 
 

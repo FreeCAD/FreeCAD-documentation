@@ -7,9 +7,13 @@
 
 **Std Base** n\'est pas vraiment un atelier, mais plutôt une catégorie de commandes et d\'outils \'standard\' qui peuvent être utilisés dans tous les ateliers.
 
+
+
 ## Outils
 
 La plupart des outils **Std Base** sont accessibles depuis le [menu standard](Standard_Menu/fr.md) et les barres d\'outils. Ceux qui ne sont disponibles que via une barre d\'outils ou un menu contextuel sont répertoriés sous [Outils supplémentaires](#Additional_tools.md).
+
+
 
 ### Outils de menu standard 
 
@@ -20,7 +24,7 @@ Le menu standard est composé de 7 sous-menus. Chaque sous-menu a une page dédi
 |
 [Fichier](Std_File_Menu/fr.md)
 &nbsp;&nbsp;&nbsp;
-[Edition](Std_Edit_Menu/fr.md)
+[Édition](Std_Edit_Menu/fr.md)
 &nbsp;&nbsp;&nbsp;
 [Affichage](Std_View_Menu/fr.md)
 &nbsp;&nbsp;&nbsp;
@@ -32,6 +36,8 @@ Le menu standard est composé de 7 sous-menus. Chaque sous-menu a une page dédi
 &nbsp;&nbsp;&nbsp;
 [Aide](Std_Help_Menu/fr.md)
 }}
+
+
 
 ### Outils supplémentaires 
 

@@ -49,9 +49,9 @@ O instalador do windows deve funcionar também em plataformas Windows mais antig
 
 </div>
 
-### Notes for Mac OS X users 
+### Notes for macOS users 
 
-Mac OS X 10.12 Sierra is the minimum supported version.
+macOS 10.12 Sierra is the minimum supported version.
 
 ### Notes for GNU/Linux users 
 

@@ -13,6 +13,8 @@ Cela favorise:
 
 Sur cette page, nous allons construire un exemple de travail d\'une classe personnalisée FeaturePython, en identifiant tous les composants principaux et en comprenant comment tout fonctionne au fur et à mesure.
 
+
+
 ## Comment ça marche? 
 
 FreeCAD est livré avec un certain nombre de types d\'objets par défaut pour gérer différents types de géométrie. Certains d\'entre eux ont des alternatives \"FeaturePython\" qui permettent une personnalisation avec une classe Python définie par l\'utilisateur.
@@ -23,15 +25,17 @@ Lorsque vous travaillez avec des classes personnalisées et des objets FeaturePy
 
 [En haut](#top.md)
 
+
+
 ## Mise en place 
 
 Les classes d\'objets FeaturePython doivent agir comme des modules importables dans FreeCAD. Cela signifie que vous devez les placer dans un chemin qui existe dans votre environnement Python (ou l\'ajouter spécifiquement). Pour les besoins de ce tutoriel, nous allons utiliser le dossier Macro utilisateur FreeCAD, mais si vous avez une autre idée en tête, n\'hésitez pas à l\'utiliser à la place!
 
-Si vous ne savez pas où se trouve le dossier Macro de FreeCAD, tapez `FreeCAD.getUserMacroDir(True)` dans la [console Python](Python_console/fr.md) de FreeCAD :
+Si vous ne savez pas où se trouve le dossier des Macro de FreeCAD, tapez `FreeCAD.getUserMacroDir(True)` dans la [console Python](Python_console/fr.md) de FreeCAD :
 
 -   Sous Linux, il s\'agit généralement de **/home/<username>/.local/share/FreeCAD/Mod/** ({{VersionPlus/fr|0.20}}) ou **/home/<username>/.FreeCAD/Mod/** ({{VersionMinus/fr|0.19}}).
--   Sous Windows, c\'est **%APPDATA%\FreeCAD\Macro\**, ce qui est généralement **C:\Users\<username>\Appdata\Roaming\FreeCAD\Macro\**.
--   Sous Mac OSX, il s\'agit généralement de **/Users/<username>/Library/Preferences/FreeCAD/Macro/**.
+-   Sous Windows, c\'est **%APPDATA%\FreeCAD\Macro\**, généralement **C:\Users\<username>\Appdata\Roaming\FreeCAD\Macro\**.
+-   Sous macOS, il s\'agit généralement de **/Users/<username>/Library/Application Support/FreeCAD/Macro/**.
 
 Maintenant, nous devons créer des fichiers :
 
@@ -60,6 +64,8 @@ Une fois nos chemins et fichiers de module créés, nous assurons que FreeCAD es
 Enfin, naviguez jusqu\'au dossier **Macro/fpo/box** et ouvrez **box.py** dans votre éditeur de code préféré. Nous ne modifierons que ce fichier.
 
 [En haut](#top.md)
+
+
 
 ## Un objet FeaturePython 
 
@@ -137,6 +143,8 @@ La méthode `create()` n\'est pas requise mais elle fournit un bon moyen d\'enca
 
 [En haut](#top.md)
 
+
+
 ### Test du code 
 
 Nous pouvons maintenant tester notre nouvel objet. Enregistrez votre code et revenez à FreeCAD. Assurez-vous que vous avez ouvert un nouveau document, vous pouvez le faire en appuyant sur **Ctrl**+**N** ou en sélectionnant **Fichier → Nouveau**.
@@ -213,6 +221,8 @@ Il s\'agit bien de la valeur assignée, nous savons donc que nous accédons à l
 Voyons maintenant si nous pouvons rendre notre classe un peu plus intéressante, et peut-être aussi plus utile.
 
 [En haut](#top.md)
+
+
 
 ### Ajout de propriétés 
 
@@ -299,6 +309,8 @@ Vous avez sans doute remarqué que trois valeurs différentes ont été saisies 
 
 [En haut](#top.md)
 
+
+
 ### Piège à événements 
 
 Le dernier élément requis pour un objet FeaturePython de base est le recouvrement d\'événements. Un objet FeaturePython peut réagir aux événements avec des fonctions de rappel. Dans notre cas, nous voulons que l\'objet réagisse chaque fois qu\'il est recalculé. En d\'autres termes, nous voulons intercepter les recalculs. Pour ce faire, nous devons ajouter une fonction avec un nom spécifique, `execute()`, à la classe d\'objets. Il existe plusieurs autres événements qui peuvent être piégés, à la fois dans l\'objet FeaturePython lui-même et dans le [ViewProvider](Viewprovider/fr.md), que nous aborderons dans la [Création d\'une boîte FeaturePython, partie II](Create_a_FeaturePython_object_part_II/fr.md).
@@ -328,6 +340,8 @@ Vous devriez voir la sortie imprimée dans la console Python, grâce à l\'appel
 Voilà, vous savez maintenant comment construire un objet FeaturePython basique et fonctionnel !
 
 [En haut](#top.md)
+
+
 
 ### Le code terminé 
 

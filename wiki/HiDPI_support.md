@@ -83,7 +83,7 @@ But the reality is that if you use raster graphics, it becomes pixelized, blurry
 
 ## Issue testing/demonstration 
 
-### OS X 
+### macOS
 
 1.  Open \"Display\"
 2.  Choose \"Scaled\"
@@ -154,16 +154,16 @@ Qt doesn\'t provide the functionality to retrieve that value. So we have to eith
 
 -   [Improve support of high DPI displays](https://forum.freecadweb.org/viewtopic.php?t=34916) - general Qt support
 -   [News: Qt 5.14 Is Bringing Significantly Better HiDPI Support](https://forum.freecadweb.org/viewtopic.php?t=39325) - general Qt support
--   [Custom cursors and high dpi (Windows and MacOS testers needed)](https://forum.freecadweb.org/viewtopic.php?&t=48719) - raster cursor image issue
+-   [Custom cursors and high dpi (Windows and macOS testers needed)](https://forum.freecadweb.org/viewtopic.php?&t=48719) - raster cursor image issue
 -   [HiDPI Support in Sketcher View](https://forum.freecadweb.org/viewtopic.php?t=34853) - selection distance issue
 -   [High DPI Improvements](https://forum.freecadweb.org/viewtopic.php?t=10512) - PR \"High DPI Fixes\" <https://github.com/FreeCAD/FreeCAD/pull/54>, bad quality, 2015
 -   [High dpi](https://forum.freecadweb.org/viewtopic.php?t=12123) - experimental build with \"High DPI Improvements\" PR
 -   [GUI font size](https://forum.freecadweb.org/viewtopic.php?t=41656) - font size issue and the QT_SCALE_FACTOR workaround
 -   [BUG? Cropped icons](https://forum.freecadweb.org/viewtopic.php?t=28838) - issues with HiDPI on multiple displays
--   [FreeCAD 0.17 on macOS Update (Qt 5 builds now available)](https://forum.freecadweb.org/viewtopic.php?t=20977) - issues with HiDPI on OS X after upgrade to Qt5
--   [Ticket #3537 - Draft Edit mode not working on MacOS X (HiDPi issue)](https://forum.freecadweb.org/viewtopic.php?f=3&t=29743) - OS X + HiDPI, Qt5
--   [Menu distorted on MAC external display](https://forum.freecadweb.org/viewtopic.php?t=39975) - OS X + HiDPI, external display
--   [macOS Qt5 plan and status](https://forum.freecadweb.org/viewtopic.php?t=19724&start=60) - OS X dropped support for Qt4, HiDPI issues
+-   [FreeCAD 0.17 on macOS Update (Qt 5 builds now available)](https://forum.freecadweb.org/viewtopic.php?t=20977) - issues with HiDPI on macOS after upgrade to Qt5
+-   [Ticket #3537 - Draft Edit mode not working on macOS (HiDPi issue)](https://forum.freecadweb.org/viewtopic.php?f=3&t=29743) - macOS + HiDPI, Qt5
+-   [Menu distorted on MAC external display](https://forum.freecadweb.org/viewtopic.php?t=39975) - macOS + HiDPI, external display
+-   [macOS Qt5 plan and status](https://forum.freecadweb.org/viewtopic.php?t=19724&start=60) - macOS dropped support for Qt4, HiDPI issues
 -   <https://www.google.com/search?q=freecad+hidpi+site:forum.freecadweb.org>
 -   [A suggestion to disable \"dump\" scaling before tackling the font size issues](https://forum.freecadweb.org/viewtopic.php?f=10&t=52307)
 -   [Navigation cube scaling](https://forum.freecadweb.org/viewtopic.php?f=3&t=42835)

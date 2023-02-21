@@ -31,6 +31,11 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
   ![](images/Navi_Cube_relnotes_1.0.gif )   Die Ecken des Navigationswürfels sind jetzt sechseckig und größer, dadurch sind sie einfacher anzuklicken. Schriftart und Schrifthöhe können jetzt auch in den [Voreinstellungen](Preferences_Editor/de#Navigation.md) angepasst werden. [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876) und [Pull request #8266](https://github.com/FreeCAD/FreeCAD/pull/8266).
    
 
++++
+| <img alt="" src=images/Part_SectionCut_example_relnotes_1.0.gif  style="width:384px;">Persistent section cut of intersecting objects.Click on the image to see the animation. | The [Section Cut](Part_SectionCut.md) tool now allows to cut intersecting objects. This is useful for assemblies where intersections of touching objects can sometimes not be avoided due to numerical issues. |
+|                                                                                                                                                                                                                          | [Pull request #8252](https://github.com/FreeCAD/FreeCAD/pull/8252).                                                                                                                                                    |
++++
+
    
   <img alt="" src=images/Measurement-Part_relnotes_1.0.png  style="width:384px;">   Die Darstellungsart von [Messergebnissen](Part_Workbench/de#Messung.md), die in den Arbeitsbereichen [Part](Part_Workbench/de.md) oder [PartDesign](PartDesign_Workbench/de.md) erstellt wurden, können jetzt in den [Einstellungen](PartDesign_Preferences/de#Measure.md) angepasst werden. [Pull request #7148](https://github.com/FreeCAD/FreeCAD/pull/7148)
    
@@ -122,7 +127,9 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 
 ### Weitere Arch-Verbesserungen 
 
--   [Profile](Arch_Profile/de.md)-Objekte unterstützen jetzt die Änderung der Profilart nach der Erstellung. [Pull request #7217](https://github.com/FreeCAD/FreeCAD/pull/7217)
+-   [Arch Profile](Arch_Profile/de.md)-Objekte unterstützen jetzt die Änderung der Profilart nach der Erstellung. [Pull request #7217](https://github.com/FreeCAD/FreeCAD/pull/7217)
+-   Das Gelände eines [Arch Grundstücks](Arch_Site/de.md) kann jetzt auch ein Festkörper sein. [Pull request #8444](https://github.com/FreeCAD/FreeCAD/pull/8444)
+-   Ein [Arch Grundstück](Arch_Site.md) zeigt nicht länger eine Phantomdarstellung der Objekte in seiner Gruppe. [Pull request #8444](https://github.com/FreeCAD/FreeCAD/pull/8444)
 
 
 
@@ -132,8 +139,8 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 -   Um das Arbeiten mit [Layern](Draft_Layer/de.md) zu vereinfachen, wurde ihr Drag-and-Drop-Verhalten geändert. Wenn jetzt ein Objekt aus einer [Std Gruppe](Std_Group/de.md) oder ein gruppenartiges Objekt, wie ein [Arch Gebäudeteilauf](Arch_BuildingPart/de.md) einen Layer abgelegt wird, wird es nicht mehr aus der Gruppe entfernt und umgekehrt. Dies funktioniert ohne das Gedrückthalten der **Ctrl**-Taste [Pull request #7462](https://github.com/FreeCAD/FreeCAD/pull/7462)
 -   Der Befehl [Draft PointArray](Draft_PointArray/de.md) unterstützt jetzt mehr Punkt-Objektarten. Jedes Objekt mit einer Form und Knoten sowie [Netze](Mesh_Workbench/de.md) und [Punktewolken](Points_Workbench/de.md) kann verwendet werden. [Pull request #7597](https://github.com/FreeCAD/FreeCAD/pull/7597)
 -   Die Kontextmenüs der [Baumansicht](Tree_view/de.md) von Draft-Objekten wurden verbessert. Objekte die mit dem Befehl [Draft Bearbeiten](Draft_Edit/de.md) bearbeitet werden können oder eine eigenes Bearbeitungswerkzeug besitzen, haben jetzt die Option **Bearbeiten** in ihrem Menü. Die Option **Set colors** für Objekte, die keine Flächen besitzen oder die nur eine einzige Fläche besitzen können, wurde entfernt. [Pull request #7970](https://github.com/FreeCAD/FreeCAD/pull/7970)
-
 -   Die Eigenschaften der Draft-Annotation-Objekte wurden vereinheitlicht. Die Objekte [Draft Text](Draft_Text/de.md), [Draft Dimension](Draft_Dimension/de.md) und [Draft Label](Draft_Label/de.md) besitzen jetzt alle die Eigenschaften Schriftname (Font Name), Schrifthöhe (Font Size) und Textfarbe (Text Color). Die Optionen für den Ansichtsmodus wurden auch angeglichen und sind jetzt: Screen und World. [Issue #7861](https://github.com/FreeCAD/FreeCAD/issues/7861) und [Pull request #8081](https://github.com/FreeCAD/FreeCAD/pull/8081)
+-   Rückgängig/Wiederherstellen (Undo/Redo) funktionierte nicht vernünftig mit den Draft Änderungsbefehlen Windows. [Pull request #8267](https://github.com/FreeCAD/FreeCAD/pull/8267)
 
 
 
@@ -143,24 +150,41 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 -   The [Draft Edit](Draft_Edit.md) command has received several improvements. For [wires](Draft_Wire.md), [B-splines](Draft_BSpline.md) and [Bézier curves](Draft_BezCurve.md) a Close/Open option has been added to the edge context menu. For B-splines and Bézier curves a Reverse option has been added to the same menu as well. The task panels have been cleaned up. [Pull request #7527](https://github.com/FreeCAD/FreeCAD/pull/7527) and [Pull request #7541](https://github.com/FreeCAD/FreeCAD/pull/7541)
 -   The [Draft Snap](Draft_Snap.md) toolbar was changed to a standard toolbar. Keyboard shortcuts can now be assigned to snaps. But using them during a command only works if none of the input boxes in the task panel has the focus as they \'catch\' the so-called in-command shortcuts. [Pull request #7656](https://github.com/FreeCAD/FreeCAD/pull/7656)
 -   In the task panel of the [Draft SetStyle](Draft_SetStyle.md) command the \"Texts/dims\" button has been replaced by the \"Annotations\" button. Pressing this button will process all annotations, including [Draft Labels](Draft_Label.md). Several minor additional issues were also fixed. [Pull request #8190](https://github.com/FreeCAD/FreeCAD/pull/8190), [Pull request #8195](https://github.com/FreeCAD/FreeCAD/pull/8195) and [Pull request #8196](https://github.com/FreeCAD/FreeCAD/pull/8196)
+-   Several [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md) bugs have been fixed and a separate Text color button has been added. [Pull request #8207](https://github.com/FreeCAD/FreeCAD/pull/8207)
+-   A Count property has been added to the arrays that lacked this property: the non-Link versions of [Draft OrthoArray](Draft_OrthoArray.md), [Draft PolarArray](Draft_PolarArray.md) and [Draft CircularArray](Draft_CircularArray.md). [Pull request #8433](https://github.com/FreeCAD/FreeCAD/pull/8433)
 
 
 
 ## Arbeitsbereich FEM 
 
    
-  <img alt="" src=images/FEM_Elmer-Multithread_relnotes_1.0.png  style="width:384px;">Simulation result where 8 mesh regions are visible (one for every CPU core used).   It is now possible to run the solver [Elmer](FEM_SolverElmer.md) using multiple CPU cores. For more info about the caveats, see [this forum post](https://forum.freecadweb.org/viewtopic.php?p=610617#p610617) [Pull request #7159](https://github.com/FreeCAD/FreeCAD/pull/7159)
+  <img alt="" src=images/FEM_PostFilterContours_relnotes_1.0.png  style="width:384px;">Iso-contours, depicting the y-component of the absolute magneticflux density in and around a copper wire that is flown through byelectric current at a frequency of 100 kHz.For more info about this model, see section 14 of the [Elmer Tutorials](https://www.nic.funet.fi/index/elmer/doc/ElmerTutorials.pdf).   There is the new <img alt="" src=images/FEM_PostFilterContours.svg  style="width:24px;"> [Contours filter](FEM_PostFilterContours.md) filter that allows to draw iso-lines or iso-contours. Iso-contours are connected mesh nodes that have the same result field value. A typical example are electric field lines. [Pull request #8462](https://github.com/FreeCAD/FreeCAD/pull/8462)
+   
+
+   
+  <img alt="" src=images/FEM_Elmer-Multithread_relnotes_1.0.png  style="width:384px;">Simulation result where 8 mesh regions are visible (one for everyCPU core used).   It is now possible to run the solver [Elmer](FEM_SolverElmer.md) using multiple CPU cores. For more info about the caveats, see [this forum post](https://forum.freecadweb.org/viewtopic.php?p=610617#p610617) [Pull request #7159](https://github.com/FreeCAD/FreeCAD/pull/7159)
+   
+
+   
+  <img alt="" src=images/FEM_EquationMagnetodynamic2D_relnotes_1.0.png  style="width:300px;">Simulation result of the imaginary part of the current density ina crucible that was heated electrically by a surrounding coil.For more info about this model, see section 16 of the [Elmer Tutorials](https://www.nic.funet.fi/index/elmer/doc/ElmerTutorials.pdf).   The <img alt="" src=images/FEM_EquationMagnetodynamic2D.svg  style="width:24px;"> [magnetodynamic 2D equation](FEM_EquationMagnetodynamic2D.md) was added. With this it is possible to perform electromagnetic simulations in 2D. [Pull request #8355](https://github.com/FreeCAD/FreeCAD/pull/8355)
+   
+
+   
+  <img alt="" src=images/FEM_EquationMagnetodynamic_relnotes_1.0.png  style="width:384px;">Simulation result of the imaginary part of the magnetic flux density inand around a copper wire that is flown through by electric current ata frequency of 100 kHz.For more info about this model, see section 14 of the [Elmer Tutorials](https://www.nic.funet.fi/index/elmer/doc/ElmerTutorials.pdf).   The <img alt="" src=images/FEM_EquationMagnetodynamic.svg  style="width:24px;"> [magnetodynamic equation](FEM_EquationMagnetodynamic.md) was added. With this it is possible to perform electromagnetic simulations. [Pull request #8380](https://github.com/FreeCAD/FreeCAD/pull/8380)
    
 
 
 
 ### Weitere FEM-Verbesserungen 
 
--   There is now an <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [initial pressure constraint](FEM_ConstraintInitialPressure.md) to set the initial internal pressure of fluids. [Pull request #7364](https://github.com/FreeCAD/FreeCAD/pull/7364)
+-   The <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [initial pressure constraint](FEM_ConstraintInitialPressure.md) was added to set the initial internal pressure of fluids. [Pull request #7364](https://github.com/FreeCAD/FreeCAD/pull/7364)
+-   The <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:24px;"> [current density constraint](FEM_ConstraintCurrentDensity.md) was added to set current densities for bodies and faces. [Pull request #8348](https://github.com/FreeCAD/FreeCAD/pull/8348)
+-   The <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:24px;"> [magnetization constraint](FEM_ConstraintMagnetization.md) was added to set magnetizations for bodies and faces. [Pull request #8393](https://github.com/FreeCAD/FreeCAD/pull/8393)
 -   The <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:24px;"> [body heat source constraint](FEM_ConstraintBodyHeatSource.md) now has a task panel and it is possible to set the heat for several bodies or to use several constraints for different bodies in one analysis. [Pull request #7367](https://github.com/FreeCAD/FreeCAD/pull/7367)
 -   It is now possible to open (and this way visualize) \*.pvtu files (partitioned VTK unstructured grid data). A \*.pvtu file is also the result of an [Elmer](FEM_SolverElmer.md) simulation, when more than one CPU core was used. [Pull request #7159](https://github.com/FreeCAD/FreeCAD/pull/7159)
 -   Critical Strain Ratio has been added to the VTK result pipeline. It gives an indication of ductile rupture for materials with a \"MaterialMechanicalNonlinear\" object. [Pull request #7467](https://github.com/FreeCAD/FreeCAD/pull/7467)
--   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:24px;"> [FEM mesh to mesh](FEM_FemMesh2Mesh.md) enables to define the scale of deformed mesh using Python. [Forum thread](https://forum.freecadweb.org/viewtopic.php?f=18&t=71936) and [Pull request #7715](https://github.com/FreeCAD/FreeCAD/pull/7715)
+-   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:24px;"> [FEM mesh to mesh](FEM_FemMesh2Mesh.md) has the new parameter *scale* to define the scale of deformed mesh using Python. [Forum thread](https://forum.freecadweb.org/viewtopic.php?f=18&t=71936) and [Pull request #7715](https://github.com/FreeCAD/FreeCAD/pull/7715)
+-   New material card for carbon dioxide. [Pull request #8332](https://github.com/FreeCAD/FreeCAD/pull/8332)
 
 ## Export
 
@@ -272,8 +296,8 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 ## Arbeitsbereich TechDraw 
 
    
-  <img alt="" src=images/TechDraw_SurfaceFinishExample_relnotes_1.0.png  style="width:250px;">   The [SurfaceFinishSymbol](TechDraw_SurfaceFinishSymbol.md) tool was added to allow for the creation of surface finish symbols describing roughness, lay and waviness, but also denoting the type of surface treatment. It supports both ISO and ASME styles. As shown in the image, the existing [LeaderLine](TechDraw_LeaderLine.md) tool can be used to properly refer oriented symbols to the edges of an object. [Pull request #7227](https://github.com/FreeCAD/FreeCAD/pull/7227)
-  <img alt="" src=images/TechDraw_ComplexSection_relnotes_1.0.png  style="width:250px;">               The [ComplexSection](TechDraw_ComplexSection.md) tool was added. [Pull request #7658](https://github.com/FreeCAD/FreeCAD/pull/7658)
+  <img alt="" src=images/TechDraw_SurfaceFinishExample_relnotes_1.0.png  style="width:250px;">   Das Werkzeug [Oberflächensymbol](TechDraw_SurfaceFinishSymbol/de.md) wurde hinzugefügt, um das Erstellen von Oberflächensymbolen zu ermöglichen, die Rauheit, ? (lay) und Welligkeit beschreiben aber auch die Angaben zur Oberflächenbehandlung. Es unterstützt sowohl ISO- als auch ASME-Ausführungen. Wie im Bild gezeigt, kann das vorhandene Werkzeug [Hinweislinie](TechDraw_LeaderLine/de.md) verwendet werden, um ausgerichtete Symbole auf die Kanten eines Objekts zu beziehen. [Pull request #7227](https://github.com/FreeCAD/FreeCAD/pull/7227)
+  <img alt="" src=images/TechDraw_ComplexSection_relnotes_1.0.png  style="width:250px;">               Das Werkzeug [KomplexerSchnitt](TechDraw_ComplexSection/de.md) wurde hinzugefügt, um das Erstellen von Halbschnitten, versetzten Schnitten und abgewinkelten Schnitten zu ermöglichen. [Pull request #7658](https://github.com/FreeCAD/FreeCAD/pull/7658)
                                                                                                                       
    
 
@@ -281,17 +305,20 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 
 ### Weitere TechDraw-Verbesserungen 
 
--   Navigation modes have been updated to match those used in the 3D view. [Pull request #7081](https://github.com/FreeCAD/FreeCAD/pull/7081) and [Pull request #7107](https://github.com/FreeCAD/FreeCAD/pull/7107)
--   Bitmap hatching was fixed. [Issue #6582](https://github.com/FreeCAD/FreeCAD/issues/6582) and [Pull request #7121](https://github.com/FreeCAD/FreeCAD/pull/7121)
--   Support for adjustable gaps for extension lines of [dimensions](TechDraw_Preferences#Dimensions.md) was added. [Pull request #7133](https://github.com/FreeCAD/FreeCAD/pull/7133)
--   Multithreading was introduced for hidden line removal and face finding. [Pull request #7377](https://github.com/FreeCAD/FreeCAD/pull/7377)
--   The face detection algorithm was improved. [Pull request #7448](https://github.com/FreeCAD/FreeCAD/pull/7448)
--   The [PrintAll](TechDraw_PrintAll.md) tool was added. [Pull request #7460](https://github.com/FreeCAD/FreeCAD/pull/7460)
--   [Four tools](TechDraw_StackGroup.md) to control the stacking order of views were added. [Issue #6012](https://github.com/FreeCAD/FreeCAD/issues/6012) and [Pull request #7460](https://github.com/FreeCAD/FreeCAD/pull/7460)
--   [ActiveView](TechDraw_ActiveView.md) now creates a screen capture instead of an SVG image. [Pull request #7471](https://github.com/FreeCAD/FreeCAD/pull/7471)
--   All Latin script templates have been converted to \"plain svg\". [Pull request #7472](https://github.com/FreeCAD/FreeCAD/pull/7472)
--   A preview was added to the task panel of the [SectionView](TechDraw_SectionView.md) tool. [Pull request #7658](https://github.com/FreeCAD/FreeCAD/pull/7658)
--   Removed deprecated functions: DrawViewPart::replaceCenterLine, DrawViewPart::replaceCosmeticEdge, DrawViewPart::replaceCosmeticVertex and DrawViewPart::replaceGeomFormat.
+-   Die Navigations-Modi wurden aktualisiert und entsprechen den in der 3D-Ansicht benutzten.[Pull request #7081](https://github.com/FreeCAD/FreeCAD/pull/7081) und [Pull request #7107](https://github.com/FreeCAD/FreeCAD/pull/7107)
+-   Bitmap-Schraffur wurde repariert. [Issue #6582](https://github.com/FreeCAD/FreeCAD/issues/6582) und [Pull request #7121](https://github.com/FreeCAD/FreeCAD/pull/7121)
+-   Unterstützung für einstellbare Lücken der Maßhilfslinien von [Maßen](TechDraw_Preferences/de#Maßeinträge.md) wurde hinzugefügt. [Pull request #7133](https://github.com/FreeCAD/FreeCAD/pull/7133)
+-   Multithreading wurde eingeführt für das Ausblenden verdeckter Kanten und das Finden von Flächen.[Pull request #7377](https://github.com/FreeCAD/FreeCAD/pull/7377)
+-   Der Algorithmus zum Aufspühren von Flächen wurde verbessert. [Pull request #7448](https://github.com/FreeCAD/FreeCAD/pull/7448)
+-   Das Werkzeug [AllesDrucken](TechDraw_PrintAll/de.md) wurde hinzugefügt. [Pull request #7460](https://github.com/FreeCAD/FreeCAD/pull/7460)
+-   Vier Werkzeuge zur Steuerung der [Stapelreihenfolge](TechDraw_Workbench/de#Stapeln.md) von Ansichten wurden hinzugefügt.[Issue #6012](https://github.com/FreeCAD/FreeCAD/issues/6012) und [Pull request #7460](https://github.com/FreeCAD/FreeCAD/pull/7460)
+-   Das Werkzeug [AktiveAnsicht](TechDraw_ActiveView/de.md) erstellt jetzt einen Screenshot anstatt einer SVG-Darstellung. [Pull request #7471](https://github.com/FreeCAD/FreeCAD/pull/7471)
+-   Alle Vorlagen, die auf lateinischen Schriften basieren, wurden in \"plain svg\" konvertiert. [Pull request #7472](https://github.com/FreeCAD/FreeCAD/pull/7472)
+-   Eine Vorschaufunktion wurde im Aufgabenbereich des Werkzeugs [Schnittansicht](TechDraw_SectionView/de.md) hinzugefügt. [Pull request #7658](https://github.com/FreeCAD/FreeCAD/pull/7658)
+-   Veraltete DrawViewPart-Funktionen wurden entfernt: replaceCenterLine, replaceCosmeticEdge, replaceCosmeticVertex and replaceGeomFormat.
+-   Das Werkzeug [Passungen](TechDraw_HoleShaftFit/de.md) wurde hinzugefügt. [Pull request #8455](https://github.com/FreeCAD/FreeCAD/pull/8455)
+-   Das Werkzeug [AxonometrischesLängenmaß](TechDraw_AxoLengthDimension/de.md) wurde hinzugefügt. [Pull request #8359](https://github.com/FreeCAD/FreeCAD/pull/8359)
+-   3D-Maße können jetzt auf die gleiche Art erstellt werden, wie 2D-Maße, wodurch das manuelle Verknüpfen mit der 3D-Geometrie entfällt. Außerdem wurden das Werkzeug [MaßReparieren](TechDraw_DimensionRepair/de.md) hinzugefügt. [Pull request #8141](https://github.com/FreeCAD/FreeCAD/pull/8141)
 
 ## Web
 

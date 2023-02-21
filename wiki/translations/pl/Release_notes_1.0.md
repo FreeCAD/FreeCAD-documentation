@@ -31,6 +31,11 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
   ![](images/Navi_Cube_relnotes_1.0.gif )   Ściany narożników kostki nawigacyjnej są teraz sześciokątne i większe, dzięki czemu łatwiej je kliknąć. [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876) oraz [Pull request #8266](https://github.com/FreeCAD/FreeCAD/pull/8266).
    
 
++++
+| <img alt="" src=images/Part_SectionCut_example_relnotes_1.0.gif  style="width:384px;">Trwały przekrój przecinających się obiektów.Kliknij w obraz, aby zobaczyć animację. | Narzędzie [Wycinek z przekroju](Part_SectionCut/pl.md) umożliwia teraz wycięcie przecinających się obiektów. Jest to przydatne w przypadku złożeń, w których czasami nie można uniknąć przecięć stykających się obiektów ze względu na problemy numeryczne. |
+|                                                                                                                                                                                                                      | [Pull request #8252](https://github.com/FreeCAD/FreeCAD/pull/8252).                                                                                                                                                                                                 |
++++
+
    
   <img alt="" src=images/Measurement-Part_relnotes_1.0.png  style="width:384px;">   Styl wyświetlania wyników [pomiarów](Part_Module/pl#Pomiary.md) utworzonych przy użyciu środowiska [Część](Part_Workbench/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md) może być teraz zmieniony w [preferencjach](PartDesign_Preferences/pl#Pomiary.md). [Pull request #7148](https://github.com/FreeCAD/FreeCAD/pull/7148)
    
@@ -124,7 +129,7 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 
 ### Planowane ulepszenie dla środowiska Architektura 
 
--   Obiekty [Profilu](Arch_Profile/pl.md) obsługują teraz modyfikację typu profilu po jego utworzeniu. [Pull request #7217](https://github.com/FreeCAD/FreeCAD/pull/7217)
+-   Obiekty [profilu architektonicznego](Arch_Profile/pl.md) obsługują teraz modyfikację typu profilu po jego utworzeniu. [Pull request #7217](https://github.com/FreeCAD/FreeCAD/pull/7217)
 
 
 
@@ -135,6 +140,7 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 -   Polecenie [Szyk punktów](Draft_PointArray/pl.md) obsługuje teraz więcej typów obiektów punktowych. Można użyć dowolnego obiektu o kształcie i wierzchołkach, a także [siatki](Mesh_Workbench/pl.md) i [chmury punktów](Points_Workbench/pl.md). [Żądanie ściągnięcia #7597](https://github.com/FreeCAD/FreeCAD/pull/7597)
 -   Poprawiono menu podręczne [Widoku Drzewa](Tree_view/pl.md) dla obiektów Rysunku Roboczego. Obiekty, które mogą być edytowane za pomocą polecenia [Edycja](Draft_Edit/pl.md), lub które mają dedykowane rozwiązanie do edycji, mają teraz opcję **Edytuj** w tym menu. Opcja **Ustaw kolor** została usunięta dla obiektów bez ściany lub mogących mieć tylko jedną ścianę. [Pull request #7970](https://github.com/FreeCAD/FreeCAD/pull/7970)
 -   Ujednolicono właściwości obiektów adnotacji Rysunku Roboczego. Obiekty [tekst](Draft_Text/pl.md), [Wymiary](Draft_Dimension/pl.md) i [Etykieta](Draft_Label/pl.md) mają teraz wszystkie właściwości Nazwa czcionki, Rozmiar czcionki i Kolor tekstu. Uspójniono również opcje Tryb wyświetlania i są to teraz: Ekran i Świat. [Issue #7861](https://github.com/FreeCAD/FreeCAD/issues/7861) oraz [Pull request #8081](https://github.com/FreeCAD/FreeCAD/pull/8081).
+-   Narzędzie Cofnij / Przywróć nie działało poprawnie dla poleceń modyfikacji Rysunku Roboczego w systemie Windows. [Pull request #8267](https://github.com/FreeCAD/FreeCAD/pull/8267)
 
 
 
@@ -144,13 +150,27 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 -   Polecenie [Edycja](Draft_Edit/pl.md) otrzymało kilka ulepszeń. Dla [linii łamanej](Draft_Wire/pl.md), [krzywej złożonej](Draft_BSpline/pl.md) i [krzywej Béziera](Draft_BezCurve/pl.md) dodano opcję Zamknij / Otwórz do menu podręcznego krawędzi. W przypadku krzywych złożonych i krzywych Béziera do tego samego menu dodano również opcję Odwróć. Panele zadań zostały wyczyszczone. [Żądanie ściągnięcia #7527](https://github.com/FreeCAD/FreeCAD/pull/7527) i [Pull request #7541](https://github.com/FreeCAD/FreeCAD/pull/7541).
 -   Pasek narzędzi [Przyciągania](Draft_Snap/pl.md) został zmieniony na standardowy pasek narzędzi. Skróty klawiaturowe mogą być teraz przypisane do narzędzi przyciągania. Ale używanie ich podczas polecenia działa tylko wtedy, gdy żadne z pól wejściowych w panelu zadań nie jest aktywne, ponieważ \"łapią\" one tak zwane skróty wewnątrz polecenia. [Pull request #7656](https://github.com/FreeCAD/FreeCAD/pull/7656)
 -   W panelu zadań polecenie [Ustaw styl](Draft_SetStyle/pl.md) przycisk \"Tekst / wymiary\" został zastąpiony przyciskiem \"Adnotacje\". Naciśnięcie tego przycisku spowoduje przetworzenie wszystkich adnotacji, w tym [Etykieta](Draft_Label/pl.md). Naprawiono także kilka drobnych błędów. [Pull request #8190](https://github.com/FreeCAD/FreeCAD/pull/8190), [Pull request #8195](https://github.com/FreeCAD/FreeCAD/pull/8195) oraz [Pull request #8196](https://github.com/FreeCAD/FreeCAD/pull/8196).
+-   Naprawiono kilka błędów narzędzia [Edytor stylów adnotacji](Draft_AnnotationStyleEditor/pl.md) i dodano osobny przycisk Kolor tekstu. [Pull request #8207](https://github.com/FreeCAD/FreeCAD/pull/8207)
+-   Właściwość Licznik została dodana do tablic, które jej nie posiadały: nieliniowe wersje [Szyk ortogonalny](Draft_OrthoArray/pl.md), [Szyk biegunowy](Draft_PolarArray/pl.md) i [Szyk kołowy](Draft_CircularArray/pl.md). [Pull request #8433](https://github.com/FreeCAD/FreeCAD/pull/8433)
 
 
 
 ## Środowisko pracy MES 
 
    
+  <img alt="" src=images/FEM_PostFilterContours_relnotes_1.0.png  style="width:384px;">Izokontury przedstawiające składową Y bezwzględnego strumienia magnetycznego w przewodzie miedzianym i wokół niego, przez który przepływa prąd elektryczny o częstotliwości 100 kHz.Więcej informacji o tym modelu, zobacz sekcję 14 [poradnika Elmer](https://www.nic.funet.fi/index/elmer/doc/ElmerTutorials.pdf).   Dostępny jest nowy filtr <img alt="" src=images/FEM_PostFilterContours.svg  style="width:24px;"> [Conturów](FEM_PostFilterContours/pl.md), który umożliwia rysowanie izolinii lub izokonturów. Izokontury to połączone węzły siatki, które mają tę samą wartość zmiennej wynikowej. Typowym przykładem są linie pola elektrycznego. [Pull request #8462](https://github.com/FreeCAD/FreeCAD/pull/8462)
+   
+
+   
   <img alt="" src=images/FEM_Elmer-Multithread_relnotes_1.0.png  style="width:384px;">Wynik symulacji, w której widocznych jest osiem obszarów siatki *(jeden na każdy użyty rdzeń CPU)*.   Możliwe jest teraz uruchomienie solvera [Elmer](FEM_SolverElmer/pl.md) przy użyciu wielu rdzeni procesora. Więcej informacji o zastrzeżeniach można znaleźć w [tym wątku na forum](https://forum.freecadweb.org/viewtopic.php?p=610617#p610617). [Pull request #7159](https://github.com/FreeCAD/FreeCAD/pull/7159)
+   
+
+   
+  <img alt="" src=images/FEM_EquationMagnetodynamic2D_relnotes_1.0.png  style="width:300px;">Wynik symulacji urojonej części gęstości prądu w tyglu, który był ogrzewany elektrycznie przez otaczającą go cewkę. Więcej informacji o tym modelu można znaleźć w sekcji 16 [poradnika Elmer](https://www.nic.funet.fi/index/elmer/doc/ElmerTutorials.pdf).   Dodano narzędzie <img alt="" src=images/FEM_EquationMagnetodynamic2D.svg  style="width:24px;"> [Równanie magnetodynamiki 2D](FEM_EquationMagnetodynamic2D/pl.md). Dzięki temu możliwe jest przeprowadzenie symulacji elektromagnetycznych w 2D. [Pull request #8355](https://github.com/FreeCAD/FreeCAD/pull/8355)
+   
+
+   
+  <img alt="" src=images/FEM_EquationMagnetodynamic_relnotes_1.0.png  style="width:384px;">Wynik symulacji urojonej części gęstości strumienia magnetycznego w przewodzie miedzianym i wokół niego, przez który przepływa prąd elektryczny o częstotliwości 100 kHz.Więcej informacji na temat tego modelu można znaleźć w sekcji 14 [poradnika Elmer](https://www.nic.funet.fi/index/elmer/doc/ElmerTutorials.pdf).   Dodano narzędzie <img alt="" src=images/FEM_EquationMagnetodynamic.svg  style="width:24px;"> [równanie magnetodynamiczne](FEM_EquationMagnetodynamic/pl.md). Dzięki niemu możliwe jest przeprowadzenie symulacji elektromagnetycznych. [Pull request #8380](https://github.com/FreeCAD/FreeCAD/pull/8380)
    
 
 
@@ -161,7 +181,7 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 -   Narzędzie <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:24px;"> [Objętościowe źródło ciepła](FEM_ConstraintBodyHeatSource/pl.md) ma teraz panel zadań i możliwe jest ustawienie ciepła dla kilku ciał lub użycie kilku wiązań dla różnych ciał w jednej analizie. [Pull request #7367](https://github.com/FreeCAD/FreeCAD/pull/7367)
 -   Teraz można otwierać *(i w ten sposób wizualizować)* pliki \*.pvtu *(partycjonowane niestrukturalne dane siatki VTK)*. Plik \*.pvtu jest również wynikiem symulacji [Elmer](FEM_SolverElmer/pl.md), w której zastosowano więcej niż jeden rdzeń procesora. [Pull request #7159](https://github.com/FreeCAD/FreeCAD/pull/7159)
 -   Critical Strain Ratio został dodany do potoku wyników VTK. Daje wskazanie rozerwania ciągliwego dla materiałów z obiektem „MaterialMechanicalNonlinear". [Pull request #7467](https://github.com/FreeCAD/FreeCAD/pull/7467)
--   Narzędzie <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:24px;"> [Siatka MES na obiekt środowiska Siatka](FEM_FemMesh2Mesh/pl.md) umożliwia określenie skali deformowanej siatki przy użyciu środowiska Python. [Wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=71936) oraz [Pull request #7715](https://github.com/FreeCAD/FreeCAD/pull/7715).
+-   Narzędzie <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:24px;"> [Siatka MES na obiekt środowiska Siatka](FEM_FemMesh2Mesh/pl.md) posiadx nowy parametr *Skala* umożliwiający określenie skali deformowanej siatki przy użyciu środowiska Python. [Wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=71936) oraz [Pull request #7715](https://github.com/FreeCAD/FreeCAD/pull/7715).
 
 
 
@@ -279,8 +299,8 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 ## Środowisko pracy Rysunek Techniczny 
 
    
-  <img alt="" src=images/TechDraw_SurfaceFinishExample_relnotes_1.0.png  style="width:250px;">   Dodano nowe narzędzie [Symbol wykończenia powierzchnii](TechDraw_SurfaceFinishSymbol/pl.md) pozwalające na tworzenie symboli wykończenia powierzchni opisujących chropowatość, ułożenie i falistość, ale także oznaczających rodzaj obróbki powierzchni. Obsługuje ono zarówno style ISO jak i ASME. Jak pokazano na obrazku, istniejące narzędzie [Linia odniesienia](TechDraw_LeaderLine/pl.md) może być użyte do prawidłowego odniesienia zorientowanych symboli do krawędzi obiektu. [Pull request #7227](https://github.com/FreeCAD/FreeCAD/pull/7227)
-  <img alt="" src=images/TechDraw_ComplexSection_relnotes_1.0.png  style="width:250px;">               Dodano narzędzie [Przekrój złożony](TechDraw_ComplexSection/pl.md). [Pull request #7658](https://github.com/FreeCAD/FreeCAD/pull/7658)
+  <img alt="" src=images/TechDraw_SurfaceFinishExample_relnotes_1.0.png  style="width:250px;">   Dodano nowe narzędzie [Symbol wykończenia powierzchni](TechDraw_SurfaceFinishSymbol/pl.md) pozwalające na tworzenie symboli wykończenia powierzchni opisujących chropowatość, ułożenie i falistość, ale także oznaczających rodzaj obróbki powierzchni. Obsługuje ono zarówno style ISO jak i ASME. Jak pokazano na obrazku, istniejące narzędzie [Linia odniesienia](TechDraw_LeaderLine/pl.md) może być użyte do prawidłowego odniesienia zorientowanych symboli do krawędzi obiektu. [Pull request #7227](https://github.com/FreeCAD/FreeCAD/pull/7227)
+  <img alt="" src=images/TechDraw_ComplexSection_relnotes_1.0.png  style="width:250px;">               Dodano narzędzie [Przekrój złożony](TechDraw_ComplexSection/pl.md) umożliwiające tworzenie półprzekrojów oraz ich przesuwania i wyrównywania. [Pull request #7658](https://github.com/FreeCAD/FreeCAD/pull/7658)
                                                                                                                       
    
 
@@ -300,7 +320,11 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 -   Dodano podgląd do panelu zadań narzędzia [Widok przekroju](TechDraw_SectionView/pl.md). [Pull request #7658](https://github.com/FreeCAD/FreeCAD/pull/7658)
 -   Usunięto przestarzałe funkcje:
 
-DrawViewPart::replaceCenterLine, DrawViewPart::replaceCosmeticEdge, DrawViewPart::replaceCosmeticVertex oraz DrawViewPart::replaceGeomFormat.
+replaceCenterLine, replaceCosmeticEdge, replaceCosmeticVertex oraz replaceGeomFormat.
+
+-   Dodano narzędzie [Otwór - pasowanie wału](TechDraw_HoleShaftFit/pl.md). [Pull request #8455](https://github.com/FreeCAD/FreeCAD/pull/8455)
+-   Dodano narzędzie [Wymiar długości w aksonometrii](TechDraw_AxoLengthDimension/pl.md). [Pull request #8359](https://github.com/FreeCAD/FreeCAD/pull/8359)
+-   Wymiary 3D mogą być teraz tworzone w taki sam sposób jak wymiary 2D usuwając konieczność ręcznego łączenia ich z geometrią 3D. Ponadto dodano narzędzie [Napraw wymiar](TechDraw_DimensionRepair/pl.md). [Pull request #8141](https://github.com/FreeCAD/FreeCAD/pull/8141)
 
 
 

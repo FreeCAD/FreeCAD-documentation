@@ -27,10 +27,10 @@ Well, your shell seems to have errors, maybe it is not closed (has holes). Since
 
 -   [Meshlab](http://meshlab.sourceforge.net/)
     -   License: Open Source (GPL V2)
-    -   Runs on Windows 32/64 bit, Linux and Mac OS X
+    -   Runs on Windows 32/64 bit, Linux and macOS
 -   [netFabb basic](http://www.netfabb.com/downloadcenter.php?basic=1)
     -   License: Freeware
-    -   Runs on Windows XP/7/8, Linux and Mac OS X
+    -   Runs on Windows XP/7/8, Linux and macOS
 
 ## Tutorials
 

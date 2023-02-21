@@ -1,6 +1,8 @@
 # Introduction to Python/de
 {{TOCright}}
 
+
+
 ## Einführung
 
 Dies ist ein kurzes Tutorium für diejenigen, die neu bei [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29) sind. Python ist eine quelloffene, plattformübergreifende [Programmiersprache](https://en.wikipedia.org/wiki/Programming_language). Sie verfügt über mehrere Funktionen, die sie von anderen Programmiersprachen unterscheidet, und ist für neue Benutzer sehr zugänglich:
@@ -11,6 +13,8 @@ Dies ist ein kurzes Tutorium für diejenigen, die neu bei [Python](https://en.wi
 -   Sie ist erweiterbar, du kannst einfach neue Module in deine Python Installation einbauen und deren Funktionalität erweitern. Zum Beispiel gibt es Module, die es Python erlauben, Bilder zu lesen und zu schreiben, mit Twitter zu kommunizieren, Aufgaben zu planen, die von deinem Betriebssystem ausgeführt werden sollen, usw.
 
 Das Folgende ist eine sehr grundlegende Einführung und keineswegs ein vollständiges Tutorium. Aber sie wird hoffentlich einen guten Ausgangspunkt für die weitere Erforschung von FreeCAD und seinen Mechanismen bieten. Wir empfehlen dir dringend, die untenstehenden Code Schnipsel in einen Python Interpreter einzugeben.
+
+
 
 ## Der Interpreter 
 
@@ -51,7 +55,7 @@ help("print")
 
 Du erhältst eine lange und vollständige Beschreibung von allem, was der `print()` Befehl tun kann.
 
-Jetzt, da du den Python Interpreter verstehst, können wir mit den ernsteren Dingen fortfahren. {{Top}}
+Jetzt, da du den Python Interpreter verstehst, können wir mit den ernsteren Dingen fortfahren. 
 
 ## Variablen
 
@@ -92,7 +96,7 @@ print(var2)
 
 Es ist ratsam, deinen Variablen aussagekräftige Namen zu geben. Nach einer Weile wirst du dich nicht mehr daran erinnern, was deine Variable mit dem Namen `a` darstellt. Aber wenn du sie zum Beispiel `myWelcomeMessage` genannt hast, wirst du dich leicht an ihren Zweck erinnern. Außerdem ist dein Code einen Schritt näher an der Selbst-erklärend.
 
-Der Fall ist sehr wichtig, `myVariable` ist nicht dasselbe wie `myvariable`. Wenn du `print(myvariable)` eingeben würdest, würde es mit einem Fehler als nicht definiert zurückgegeben werden. {{Top}}
+Der Fall ist sehr wichtig, 
 
 ## Zahlen
 
@@ -197,6 +201,8 @@ myVar
 
 {{Top}}
 
+
+
 ## Listen
 
 Ein weiterer nützlicher Datentyp ist eine Liste. Eine Liste ist eine Sammlung von anderen Daten. Um eine Liste zu definieren, verwenden wir `[ ]`:
@@ -237,7 +243,7 @@ myvar[2]
 
 Normalerweise kann das, was du mit Listen machen kannst, auch mit Zeichenketten gemacht werden. Tatsächlich sind sowohl Listen als auch Zeichenketten Sequenzen.
 
-Neben Zeichenketten, Ganzzahlen, Gleitkommazahlen und Listen gibt es weitere eingebaute Datentypen, wie z.B. Wörterbücher, und du kannst sogar eigene Datentypen mit Klassen erstellen. {{Top}}
+Neben Zeichenketten, Ganzzahlen, Gleitkommazahlen und Listen gibt es weitere eingebaute Datentypen, wie z.B. Wörterbücher, und du kannst sogar eigene Datentypen mit Klassen erstellen. 
 
 ## Einrückung
 
@@ -339,6 +345,8 @@ else:
 
 {{Top}}
 
+
+
 ## Funktionen
 
 Es gibt nur sehr wenige [Standard Python Befehle](https://docs.python.org/3/reference/lexical_analysis.html#identifiers) und wir kennen bereits einige davon. Aber du kannst deine eigenen Befehle erstellen. Tatsächlich tun die meisten Zusatzmodule, die du in deine Python Installation einbinden kannst, genau das, sie fügen Befehle hinzu, die du verwenden kannst. Ein benutzerdefinierter Befehl wird in Python als Funktion bezeichnet und ist wie folgt aufgebaut:
@@ -371,13 +379,16 @@ def sum(val1, val2):
 myTotal = sum(45, 34)
 ```
 
-Hier haben wir eine Funktion erstellt, die zwei Argumente empfängt, sie summiert und diesen Wert zurückgibt. Etwas zurückzugeben ist sehr nützlich, da wir mit dem Ergebnis etwas tun können, wie es z.B. in der Variablen `myTotal` speichern können. {{Top}}
+Hier haben wir eine Funktion erstellt, die zwei Argumente empfängt, sie summiert und diesen Wert zurückgibt. Etwas zurückzugeben ist sehr nützlich, da wir mit dem Ergebnis etwas tun können, wie es z.B. in der Variablen 
 
 ## Module
 
 Nun, da du eine gute Vorstellung davon hast, wie Python funktioniert, musst du noch eine weitere Sache wissen: Wie man mit Dateien und Modulen arbeitet.
 
 Bis jetzt haben wir Python Anweisungen Zeile für Zeile in den Interpreter geschrieben. Diese Methode ist für größere Programme offensichtlich nicht geeignet. Normalerweise wird der Code für Python Programme in Dateien mit der Erweiterung **.py** gespeichert. Dabei handelt es sich nur um einfache Textdateien, die mit einem beliebigen Texteditor (Linux gedit, emacs, vi oder sogar Windows Notepad) erstellt und bearbeitet werden können.
+
+
+<div class="mw-translate-fuzzy">
 
 Es gibt mehrere Möglichkeiten, ein Python Programm auszuführen. Unter Windows klicke einfach mit der rechten Maustaste auf deine Datei, öffne sie mit Python und führe sie aus. Du kannst sie aber auch aus dem Python Interpreter selbst heraus ausführen. Dazu muss der Interpreter wissen, wo sich dein Programm befindet. In FreeCAD ist es am einfachsten, dein Programm in einem Ordner abzulegen, den der Python Interpreter von FreeCAD standardmäßig kennt, z.B. im Ordner **Mod** des FreeCAD Anwenders:
 
@@ -386,6 +397,9 @@ Es gibt mehrere Möglichkeiten, ein Python Programm auszuführen. Unter Windows 
 -   Unter Mac OSX ist dies normalerweise **/Users/<username>/Library/Preferences/FreeCAD/Mod/**.
 
 Fügen wir dort einen Unterordner namens **scripts** hinzu und schreiben dann eine Datei wie diese:
+
+
+</div>
 
 
 ```python
@@ -470,6 +484,8 @@ exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 
 {{Top}}
 
+
+
 ## Loslegen mit FreeCAD 
 
 Hoffentlich hast du nun eine gute Vorstellung davon, wie Python funktioniert, und du kannst damit beginnen, zu erkunden, was FreeCAD zu bieten hat. Die Python Funktionen von FreeCAD sind alle gut in verschiedenen Modulen organisiert. Einige von ihnen sind bereits geladen (importiert), wenn du FreeCAD startest. Probiere einfach:
@@ -481,6 +497,8 @@ dir()
 
 
 {{Top}}
+
+
 
 ## Hinweise
 

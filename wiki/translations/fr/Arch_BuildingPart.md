@@ -14,10 +14,14 @@
 
 Partie de bâtiment (BuildingPart) remplace les anciens [Arch Niveaux](Arch_Floor/fr.md) et [Arch Bâtiment](Arch_Building/fr.md) par une version plus performante qui peut être utilisée non seulement pour créer un plancher/étage/niveaux mais également pour toutes sortes de situations dans lesquelles différents objets Arch/BIM doivent être groupés. Ce groupe pourra être traité comme un seul objet ou répliqué.
 
+
+
 ## Utilisation
 
 1.  En option, vous pouvez également sélectionner un ou plusieurs objets à inclure dans votre nouvelle Partie de bâtiment.
 2.  Appuyez sur le bouton **<img src="images/Arch_BuildingPart.svg" width=16px> [Partie de bâtiment](Arch_BuildingPart/fr.md)**.
+
+
 
 ### Remarques
 
@@ -36,11 +40,15 @@ Ce plan est toujours parallèle au plan de base du BuildingPart, mais vous pouve
 -   Les Parties de bâtiment peuvent prendre n'importe quel type d'IFC. Leur propriété **IFC Type** détermine son utilisation. Si vous la définissez sur **Building Storey**, ce sera comme un niveau. Si vous la définissez sur **Building**, ce sera comme un bâtiment et si vous la définissez sur **Element Assembly**, ce sera comme un assemblage. Son icône changera pour refléter ce paramètre mais à part cela, cela n'a aucun autre impact dans FreeCAD. Toutefois, le fait d\'être exporté vers IFC sous un type ou un autre peut avoir un impact sur d\'autres applications BIM.
 -   Les Parties de bâtiment permettent de définir une **boîte de capture de groupe automatique**. Les objets Draft et Arch suivants, ou tout autre objet qui utilise Draft.autogroup(), seront automatiquement ajoutés à cet objet Partie de bâtiment s\'ils se trouvent entièrement à l\'intérieur de la boîte de capture. {{Version/fr|0.20}}
 
+
+
 ## Propriétés
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
 Une Arch Partie de bâtiment est dérivé d\'un objet [App GeoFeature](App_GeoFeature/fr.md) et hérite de toutes ses propriétés. Elle possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 
@@ -110,6 +118,8 @@ Une Arch Partie de bâtiment est dérivé d\'un objet [App GeoFeature](App_GeoFe
 
 -    **User Defined Partitioning Type|String**
     
+
+
 
 ### Vue
 
@@ -186,10 +196,12 @@ Une Arch Partie de bâtiment est dérivé d\'un objet [App GeoFeature](App_GeoFe
 
 -    **View Data|FloatList|Hidden**: Données de position de la caméra associées à cet objet.
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 

@@ -139,13 +139,7 @@ $\quad
 alors que $\vec{u}$ est le vecteur propre et $c$ est un nombre complexe.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

@@ -18,6 +18,12 @@ file the document should be stored to.
 
 
 
+#### <img src="images/type_class.svg" style="width:16px;"> ReturnType <small>(value, names=None, *, module=None, qualname=None, type=None, start=1, boundary=None)</small>
+
+
+
+
+
 #### <img src="images/type_class.svg" style="width:16px;"> ScaleType <small>(value, names=None, *, module=None, qualname=None, type=None, start=1, boundary=None)</small>
 
 
@@ -600,6 +606,11 @@ Metadata(file)
 Reads the XML file and provides access to the metadata it specifies.
 file : str
     XML file name.
+
+Metadata(bytes)
+Treats the bytes as UTF-8-encoded XML data and provides access to the metadata it specifies.
+bytes : bytes
+    Python bytes-like object.
 
 
 

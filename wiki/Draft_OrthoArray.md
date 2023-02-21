@@ -119,7 +119,7 @@ The properties in this group are hidden for orthogonal arrays and polar arrays.
 
 -    **Base|Link**: specifies the object to duplicate in the array.
 
--    **Count|Integer**: (read-only) specifies the total number of elements in the array. Only available for Link arrays.
+-    **Count|Integer**: (read-only) specifies the total number of elements in the array. {{VersionMinus|0.20}}: Only available for Link arrays.
 
 -    **Expand Array|Bool**: specifies whether to expand the array in the [Tree view](Tree_view.md) to enable the selection of its individual elements. Only available for Link arrays.
 

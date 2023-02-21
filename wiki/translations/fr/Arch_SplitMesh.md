@@ -4,7 +4,7 @@
    Name/fr:Arch Diviser un maillage
    MenuLocation:Arch → Utilitaires → Diviser un maillage
    Workbenches:[Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Arch Sélection de maillages non-manifold](Arch_SelectNonSolidMeshes/fr.md), [Arch Maillage vers un objet shape](Arch_MeshToShape/fr.md)
+   SeeAlso:[Arch Sélection de maillages non-manifold](Arch_SelectNonSolidMeshes/fr.md), [Arch Maillage vers une forme](Arch_MeshToShape/fr.md)
 ---
 
 # Arch SplitMesh/fr
@@ -13,10 +13,14 @@
 
 Cet outil sépare les composants d\'un objet [Mesh](Mesh_Workbench/fr.md) sélectionné.
 
+
+
 ## Utilisation
 
-1.  Sélectionnez un objet mesh.
+1.  Sélectionnez un objet maillé.
 2.  Cliquez sur le bouton **<img src="images/Arch_SplitMesh.svg" width=16px>  [Diviser un maillage](Arch_SplitMesh/fr.md)** dans **Arch → Utilitaires → Diviser un maillage**.
+
+
 
 ## Script
 
@@ -25,7 +29,7 @@ Cet outil sépare les composants d\'un objet [Mesh](Mesh_Workbench/fr.md) sélec
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Séparer un objet Mesh est utilisable dans une [macro](Macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante :
+L\'outil Diviser un maillage est utilisable dans une [macro](Macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante :
 
 
 ```python
@@ -34,11 +38,11 @@ new_list = splitMesh(obj, mark=True)
 
 -   Divise l\'objet maillé donné (`obj`) en composants séparés.
 
--   Si `mark` est mis à `True`, les composants [Variété non-manifold](https://fr.wikipedia.org/wiki/Vari%C3%A9t%C3%A9_(g%C3%A9om%C3%A9trie)) seront peints en rouge.
+-   Si `mark` est mis à `True`, les composants [non-manifolds](https://fr.wikipedia.org/wiki/Vari%C3%A9t%C3%A9_(g%C3%A9om%C3%A9trie)) seront peints en rouge.
 
 -    `new_list`est une liste de tous les composants individuels qui composent le maillage.
 
-Exemple:
+Exemple :
 
 
 ```python

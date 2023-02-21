@@ -48,6 +48,8 @@ Pentru mai multe informații despre capabilitățile FreeCAD, aruncați o privir
 
 </div>
 
+
+
 ### Despre proiectul FreeCAD 
 
 Proiectul FreeCAD a început tocmai din anul 2001, după cum se descrie pagina sa de istorie [history](history.md) .

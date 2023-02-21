@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Il **Grafico delle dipendenze** mostra sotto forma di grafico le dipendenze tra gli oggetti presenti nel documento attivo. A differenza della [Vista ad albero](Tree_view/it.md), gli oggetti sono elencati in ordine cronologico inverso, con il primo oggetto creato situato nella parte inferiore.
@@ -29,6 +31,8 @@ Il grafico delle dipendenze è uno strumento di pura visualizzazione, quindi non
 <img alt="" src=images/Std_DependencyGraph_example.svg  style="width:400px;"> 
 *Esempio di grafico delle dipendenze con un corpo di PartDesign a sinistra e un oggetto creato con le operazioni di Parte a destra*
 
+
+
 ## Installazione
 
 Per utilizzare il grafico delle dipendenze, si deve prima installare un software di terze parti chiamato [Graphviz](http://graphviz.org/). Se Graphviz non è installato in precedenza o è installato in una posizione non convenzionale, FreeCAD visualizza il seguente dialogo:
@@ -45,7 +49,15 @@ Scaricare l\'installatore **graphviz-2.xx.msi** dalla pagina [Graphviz Download]
 
 </div>
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ### Mac/OSX
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -102,7 +114,13 @@ Quindi si può dire a FreeCAD di cercare in quella directory.
 
 ### Linux
 
+
+<div class="mw-translate-fuzzy">
+
 Sulla maggior parte delle distribuzioni Linux (Debian/Ubuntu, Fedora, OpenSUSE), è sufficiente installare il pacchetto graphviz dai repository. Nel caso in cui i binari di Graphviz non siano installati nella posizione standard, cercare di trovare il programma con il comando:
+
+
+</div>
 
 
 {{Code|lang=text|code=
@@ -118,6 +136,8 @@ dot is /usr/local/bin/dot
 
 Quindi si può dire a FreeCAD di cercare in quella directory.
 
+
+
 ## Utilizzo
 
 
@@ -131,6 +151,8 @@ Quindi si può dire a FreeCAD di cercare in quella directory.
 
 </div>
 
+
+
 ## Salva
 
 È possibile salvare un grafico delle dipendenze:
@@ -139,6 +161,8 @@ Quindi si può dire a FreeCAD di cercare in quella directory.
 2.  Selezionare l\'opzione **File → [Salva](Std_Save/it.md)** o **File → [Salva con nome](Std_SaveAs/it.md)** dal menu.
 3.  Immettere un nome per il file e selezionare il tipo di file (\*.png, \*.bmp, \*.gif, \*.jpg, \*.svg or \*.pdf).
 4.  Premere il pulsante **Salva**.
+
+
 
 ## Principi generali 
 
@@ -155,6 +179,8 @@ Quindi si può dire a FreeCAD di cercare in quella directory.
 
 
 </div>
+
+
 
 ## Limitazioni
 

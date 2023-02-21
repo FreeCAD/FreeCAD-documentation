@@ -11,19 +11,11 @@
 |Download=[https://www.freecadweb.org/wiki/images/a/af/Macro_Animated_Constrain.png ToolBar Icon]<br/>Not file for testing [https://www.youtube.com/watch?v=kmqDcomLnk0 See the animation on YouTube.]
 }}
 
-## Description
 
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
-Macro semplice per animare i vincoli di angolo in Sketcher.
-Basata su un lavoro di \@microelly.
-Anima un vincolo e permette di vedere gli effetti derivanti.
-
-
-</div>
+Semplice Macro per animare i vincoli angolari nello sketcher. Basato sul lavoro di \@microelly. Anima un vincolo e permette di vedere gli effetti derivanti.
 
 
 {{Codeextralink|https://raw.githubusercontent.com/psicofil/Macros_FreeCAD/master/Macros/AnimatedConstrain.FCMacro}}
@@ -32,7 +24,7 @@ Anima un vincolo e permette di vedere gli effetti derivanti.
 
 La macro può essere prelevata dal seguente repositorio github: [Macro_Animated_Constrain.FCMacro](https://github.com/psicofil/Macros_FreeCAD/blob/master/Macros/AnimatedConstrain.FCMacro)
 
-ToolBar Icon ![](images/Macro_Animated_Constrain.png )
+Icona barra strumenti ![](images/Macro_Animated_Constrain.png )
 
 **AnimatedConstrain.FCMacro**
 

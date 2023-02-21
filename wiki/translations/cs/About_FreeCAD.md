@@ -48,6 +48,8 @@ Pro další informace o možnostech FreeCADu se podívejte na [Seznam funkcí](F
 
 </div>
 
+
+
 ### O projektu FreeCAD 
 
 

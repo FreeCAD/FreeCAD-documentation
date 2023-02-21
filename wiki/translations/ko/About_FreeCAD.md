@@ -29,9 +29,17 @@ FreeCAD는 [과학 컴퓨팅](http://en.wikipedia.org/wiki/Scientific_Computatio
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD 는 [multi-platform](http://en.wikipedia.org/wiki/Cross-platform)이며, 현재 Linux/Unix, Windows, 및 Mac OSX 에서 돌아가며 똑같은 보기와 기능을 모든 플랫폼에서 똑같은 보기와 기능을 갖고 있습니다.
 
+
+</div>
+
 For more information about FreeCAD\'s capabilities, take a look at the [feature list](Feature_list.md), the [latest release notes](Feature_list#Release_notes.md), and the [getting started](Getting_started.md) articles, or see more [screenshots](Screenshots.md).
+
+
 
 ### FreeCAD 프로젝트에 대해 
 

@@ -10,6 +10,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -52,12 +54,12 @@ Descărcați programul **graphviz-2.xx.msi** de instalare de la [Graphviz Downlo
 
 </div>
 
-### Mac/OSX
+### macOS
 
 
 <div class="mw-translate-fuzzy">
 
-### Mac/OSX 
+### Mac/OSX
 
 Puteți instala graphviz folosind [Homebrew](https://brew.sh/):
 
@@ -109,9 +111,15 @@ dot is /usr/local/bin/dot
 
 ### Linux
 
+
+<div class="mw-translate-fuzzy">
+
 ### Linux 
 
 Sub cele mai multe distribuții Linux (Debian / Ubuntu, Fedora, OpenSUSE), trebuie doar să instalați pachetul grafic din colecțiile de depozitare. Cu toate acestea, în mod similar cu MacOSX, în cazurile în care binarele Graphviz sunt instalate într-o locație nestandardă, încercați să găsiți programul cu comanda:
+
+
+</div>
 
 
 {{Code|lang=text|code=
@@ -154,6 +162,8 @@ Puteți salva / exporta graficul de dependență afișat ca fișier imagine. În
 -   Just choose **File** → [Save As](Std_SaveAs.md) to save the graph as a picture (PNG/BMP/GIF/JPG), a vector graphic (SVG) or as a PDF document.
 -   **File** → [Export](Std_Export.md) or **Tools** → [Save picture](Std_ViewScreenShot.md) will **NOT** work.
 
+
+
 ## Principii Generale 
 
 
@@ -169,6 +179,8 @@ Puteți salva / exporta graficul de dependență afișat ca fișier imagine. În
 
 
 </div>
+
+
 
 ## Limite
 

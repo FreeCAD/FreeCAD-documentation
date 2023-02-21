@@ -1,6 +1,8 @@
 # Part and PartDesign/de
 {{TOCright}}
 
+
+
 ## Übersicht
 
 Im Laufe der Jahre gab es viele Diskussionen über die Unterschiede und Auswirkungen der Verwendung des <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) und des <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md) Arbeitsbereichs.
@@ -8,6 +10,8 @@ Im Laufe der Jahre gab es viele Diskussionen über die Unterschiede und Auswirku
 Es ist eine gute Idee, den einen oder den anderen zu verwenden, bis der Benutzer mit dem einen vertraut ist, und dann das andere zu lernen. In der Regel wird auch empfohlen, dass neue Benutzer die beiden nicht mischen, bis sie die Auswirkungen verstanden haben.
 
 Lass uns über diese Auswirkungen sprechen.
+
+
 
 ## Part Arbeitsbereich Konzepte 
 
@@ -18,6 +22,8 @@ Part Arbeitsbereich ist im Wesentlichen [CSG style modeling](Constructive_solid_
 This condition remains so, until, the operator uses some operation to combine them (typically a Boolean that adds or subtracts them). Each starting solid remains accessible separately and the operation creates a new object.
 
 The take away is the single solitary solid bit and the combining them bit.
+
+
 
 ## PartDesign Arbeitsbereich Konzepte 
 
@@ -49,6 +55,8 @@ If Tip on **Pad**, the pad can exist separately, but if Tip on **Cone**, the con
 
 (Another thing mentioned often is a Body ***MUST*** be a single contiguous solid. This means all geometry created by a feature in the Body *must* touch it\'s predecessor.)
 
+
+
 ## Die Auswirkungen 
 
 Although not recommended for newcomers, it is possible to combine tools from Part workbench and PartDesign workbench, provided you know what you are doing. For example :
@@ -58,6 +66,8 @@ People get caught when they attempt to use some feature under the Body (rather t
 In a sense, from a Part Workbench standpoint, the Body represents another primitive. So, using a Body (remember it is a proxy for the tip) and a Part Workbench object to do a Boolean is valid. But the resulting object is a Part Workbench object. And, thus PartDesign Workbench tools can\'t be used on it any longer.
 
 And, it can get even more complicated. If you create a new Body and drag the result from the previous paragraph into it, a BaseObject is created. And you can go off an use the PartDesign Workbench tools on it.
+
+
 
 ## Die Vorbehalte 
 
@@ -72,6 +82,8 @@ In this example, a mirror of the tip (which is the pocket of the slot) is perfor
 ![centre\|Solitary solids](images/MirroredSlot.png )
 
 See the <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> [PartDesign Mirrored](PartDesign_Mirrored.md) tool wiki page for more information.
+
+
 
 ## Vergleich
 
@@ -162,6 +174,8 @@ Compare the construction trees in the two workbenches as well as their organizat
   ![](images/PartvsPartDesign_TreePartDesignWB.jpg )   ![](images/PartvsPartDesign_TreePartWB.jpg )
                                                                                        
    
+
+
 
 ## Schlussfolgerung
 

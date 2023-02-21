@@ -29,7 +29,7 @@ Placeholder for an eye-catching image selected by the admins from the [user show
    
 
 +++
-| <img alt="" src=images/Part_SectionCut_example_relnotes_1.0.gif  style="width:384px;">Persistent section cut of intersecting objects.Click on the image to see the animation. | The [Section Cut](Part_SectionCut.md) tool allows now to cut intersecting objects. This is useful for assemblies where intersections of touching objects can sometimes not be avoided due to numerical issues. |
+| <img alt="" src=images/Part_SectionCut_example_relnotes_1.0.gif  style="width:384px;">Persistent section cut of intersecting objects.Click on the image to see the animation. | The [Section Cut](Part_SectionCut.md) tool now allows to cut intersecting objects. This is useful for assemblies where intersections of touching objects can sometimes not be avoided due to numerical issues. |
 |                                                                                                                                                                                                                          | [Pull request #8252](https://github.com/FreeCAD/FreeCAD/pull/8252).                                                                                                                                                    |
 +++
 
@@ -121,7 +121,9 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 
 ### Further Arch improvements 
 
--   [Profile](Arch_Profile.md) objects now support modification of the profile type after creation. [Pull request #7217](https://github.com/FreeCAD/FreeCAD/pull/7217)
+-   [Arch Profile](Arch_Profile.md) objects now support modification of the profile type after creation. [Pull request #7217](https://github.com/FreeCAD/FreeCAD/pull/7217)
+-   The Terrain of an [Arch Site](Arch_Site.md) can now also be a solid. [Pull request #8444](https://github.com/FreeCAD/FreeCAD/pull/8444)
+-   An [Arch Site](Arch_Site.md) no longer shows a phantom representation of the objects in its Group. [Pull request #8444](https://github.com/FreeCAD/FreeCAD/pull/8444)
 
 ## Draft Workbench 
 
@@ -130,6 +132,7 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 -   The [Draft PointArray](Draft_PointArray.md) command now supports more point object types. Any object with a shape and vertices, as well as a [mesh](Mesh_Workbench.md) and a [point cloud](Points_Workbench.md) can be used. [Pull request #7597](https://github.com/FreeCAD/FreeCAD/pull/7597)
 -   The [Tree view](Tree_view.md) context menus for Draft objects have been improved. Objects that can be edited with the [Draft Edit](Draft_Edit.md) command, or that have a dedicated edit solution, now have an **Edit** option in that menu. The **Set colors** option was removed for objects without a face or that can only have a single face. [Pull request #7970](https://github.com/FreeCAD/FreeCAD/pull/7970)
 -   The properties of Draft annotation objects have been unified. [Draft Text](Draft_Text.md), [Draft Dimension](Draft_Dimension.md) and [Draft Label](Draft_Label.md) objects now all have a Font Name, a Font Size and a Text Color property. The Display Mode options have been made consistent as well and are now: Screen and World. [Issue #7861](https://github.com/FreeCAD/FreeCAD/issues/7861) and [Pull request #8081](https://github.com/FreeCAD/FreeCAD/pull/8081)
+-   Undo/Redo did not work properly for the Draft modification commands on Windows. [Pull request #8267](https://github.com/FreeCAD/FreeCAD/pull/8267)
 
 ### Further Draft improvements 
 
@@ -137,19 +140,25 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 -   The [Draft Edit](Draft_Edit.md) command has received several improvements. For [wires](Draft_Wire.md), [B-splines](Draft_BSpline.md) and [Bézier curves](Draft_BezCurve.md) a Close/Open option has been added to the edge context menu. For B-splines and Bézier curves a Reverse option has been added to the same menu as well. The task panels have been cleaned up. [Pull request #7527](https://github.com/FreeCAD/FreeCAD/pull/7527) and [Pull request #7541](https://github.com/FreeCAD/FreeCAD/pull/7541)
 -   The [Draft Snap](Draft_Snap.md) toolbar was changed to a standard toolbar. Keyboard shortcuts can now be assigned to snaps. But using them during a command only works if none of the input boxes in the task panel has the focus as they \'catch\' the so-called in-command shortcuts. [Pull request #7656](https://github.com/FreeCAD/FreeCAD/pull/7656)
 -   In the task panel of the [Draft SetStyle](Draft_SetStyle.md) command the \"Texts/dims\" button has been replaced by the \"Annotations\" button. Pressing this button will process all annotations, including [Draft Labels](Draft_Label.md). Several minor additional issues were also fixed. [Pull request #8190](https://github.com/FreeCAD/FreeCAD/pull/8190), [Pull request #8195](https://github.com/FreeCAD/FreeCAD/pull/8195) and [Pull request #8196](https://github.com/FreeCAD/FreeCAD/pull/8196)
+-   Several [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md) bugs have been fixed and a separate Text color button has been added. [Pull request #8207](https://github.com/FreeCAD/FreeCAD/pull/8207)
+-   A Count property has been added to the arrays that lacked this property: the non-Link versions of [Draft OrthoArray](Draft_OrthoArray.md), [Draft PolarArray](Draft_PolarArray.md) and [Draft CircularArray](Draft_CircularArray.md). [Pull request #8433](https://github.com/FreeCAD/FreeCAD/pull/8433)
 
 ## FEM Workbench 
 
    
-  <img alt="" src=images/FEM_Elmer-Multithread_relnotes_1.0.png  style="width:384px;">Simulation result where 8 mesh regions are visible (one for every CPU core used).   It is now possible to run the solver [Elmer](FEM_SolverElmer.md) using multiple CPU cores. For more info about the caveats, see [this forum post](https://forum.freecadweb.org/viewtopic.php?p=610617#p610617) [Pull request #7159](https://github.com/FreeCAD/FreeCAD/pull/7159)
+  <img alt="" src=images/FEM_PostFilterContours_relnotes_1.0.png  style="width:384px;">Iso-contours, depicting the y-component of the absolute magneticflux density in and around a copper wire that is flown through byelectric current at a frequency of 100 kHz.For more info about this model, see section 14 of the [Elmer Tutorials](https://www.nic.funet.fi/index/elmer/doc/ElmerTutorials.pdf).   There is the new <img alt="" src=images/FEM_PostFilterContours.svg  style="width:24px;"> [Contours filter](FEM_PostFilterContours.md) filter that allows to draw iso-lines or iso-contours. Iso-contours are connected mesh nodes that have the same result field value. A typical example are electric field lines. [Pull request #8462](https://github.com/FreeCAD/FreeCAD/pull/8462)
    
 
    
-  <img alt="" src=images/FEM_EquationMagnetodynamic2D_relnotes_1.0.png  style="width:300px;">Simulation result if the imaginary part of the current density ina crucible that was heated electrically by a surrounding coil.For more info about this model, see section 16 of the [Elmer Tutorials](https://www.nic.funet.fi/index/elmer/doc/ElmerTutorials.pdf).   The <img alt="" src=images/FEM_EquationMagnetodynamic2D.svg  style="width:24px;"> [magnetodynamic 2D equation](FEM_EquationMagnetodynamic2D.md) was added. With this it is possible to perform electromagnetic simulations in 2D. [Pull request #8355](https://github.com/FreeCAD/FreeCAD/pull/8355)
+  <img alt="" src=images/FEM_Elmer-Multithread_relnotes_1.0.png  style="width:384px;">Simulation result where 8 mesh regions are visible (one for everyCPU core used).   It is now possible to run the solver [Elmer](FEM_SolverElmer.md) using multiple CPU cores. For more info about the caveats, see [this forum post](https://forum.freecadweb.org/viewtopic.php?p=610617#p610617) [Pull request #7159](https://github.com/FreeCAD/FreeCAD/pull/7159)
    
 
    
-  <img alt="" src=images/FEM_EquationMagnetodynamic_relnotes_1.0.png  style="width:384px;">Simulation result if the imaginary part of the magnetic flux density inand around a copper wire that is flown through by electric current at a frequency of 100 kHz.For more info about this model, see section 14 of the [Elmer Tutorials](https://www.nic.funet.fi/index/elmer/doc/ElmerTutorials.pdf).   The <img alt="" src=images/FEM_EquationMagnetodynamic.svg  style="width:24px;"> [magnetodynamic equation](FEM_EquationMagnetodynamic.md) was added. With this it is possible to perform electromagnetic simulations. [Pull request #8380](https://github.com/FreeCAD/FreeCAD/pull/8380)
+  <img alt="" src=images/FEM_EquationMagnetodynamic2D_relnotes_1.0.png  style="width:300px;">Simulation result of the imaginary part of the current density ina crucible that was heated electrically by a surrounding coil.For more info about this model, see section 16 of the [Elmer Tutorials](https://www.nic.funet.fi/index/elmer/doc/ElmerTutorials.pdf).   The <img alt="" src=images/FEM_EquationMagnetodynamic2D.svg  style="width:24px;"> [magnetodynamic 2D equation](FEM_EquationMagnetodynamic2D.md) was added. With this it is possible to perform electromagnetic simulations in 2D. [Pull request #8355](https://github.com/FreeCAD/FreeCAD/pull/8355)
+   
+
+   
+  <img alt="" src=images/FEM_EquationMagnetodynamic_relnotes_1.0.png  style="width:384px;">Simulation result of the imaginary part of the magnetic flux density inand around a copper wire that is flown through by electric current ata frequency of 100 kHz.For more info about this model, see section 14 of the [Elmer Tutorials](https://www.nic.funet.fi/index/elmer/doc/ElmerTutorials.pdf).   The <img alt="" src=images/FEM_EquationMagnetodynamic.svg  style="width:24px;"> [magnetodynamic equation](FEM_EquationMagnetodynamic.md) was added. With this it is possible to perform electromagnetic simulations. [Pull request #8380](https://github.com/FreeCAD/FreeCAD/pull/8380)
    
 
 ### Further FEM improvements 
@@ -248,7 +257,7 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 
    
   <img alt="" src=images/TechDraw_SurfaceFinishExample_relnotes_1.0.png  style="width:250px;">   The [SurfaceFinishSymbol](TechDraw_SurfaceFinishSymbol.md) tool was added to allow for the creation of surface finish symbols describing roughness, lay and waviness, but also denoting the type of surface treatment. It supports both ISO and ASME styles. As shown in the image, the existing [LeaderLine](TechDraw_LeaderLine.md) tool can be used to properly refer oriented symbols to the edges of an object. [Pull request #7227](https://github.com/FreeCAD/FreeCAD/pull/7227)
-  <img alt="" src=images/TechDraw_ComplexSection_relnotes_1.0.png  style="width:250px;">               The [ComplexSection](TechDraw_ComplexSection.md) tool was added. [Pull request #7658](https://github.com/FreeCAD/FreeCAD/pull/7658)
+  <img alt="" src=images/TechDraw_ComplexSection_relnotes_1.0.png  style="width:250px;">               The [ComplexSection](TechDraw_ComplexSection.md) tool was added to allow for the creation of half, offset and aligned sections. [Pull request #7658](https://github.com/FreeCAD/FreeCAD/pull/7658)
                                                                                                                       
    
 
@@ -264,7 +273,10 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 -   [ActiveView](TechDraw_ActiveView.md) now creates a screen capture instead of an SVG image. [Pull request #7471](https://github.com/FreeCAD/FreeCAD/pull/7471)
 -   All Latin script templates have been converted to \"plain svg\". [Pull request #7472](https://github.com/FreeCAD/FreeCAD/pull/7472)
 -   A preview was added to the task panel of the [SectionView](TechDraw_SectionView.md) tool. [Pull request #7658](https://github.com/FreeCAD/FreeCAD/pull/7658)
--   Removed deprecated functions: DrawViewPart::replaceCenterLine, DrawViewPart::replaceCosmeticEdge, DrawViewPart::replaceCosmeticVertex and DrawViewPart::replaceGeomFormat.
+-   Deprecated DrawViewPart functions were removed: replaceCenterLine, replaceCosmeticEdge, replaceCosmeticVertex and replaceGeomFormat.
+-   The [HoleShaftFit](TechDraw_HoleShaftFit.md) tool was added. [Pull request #8455](https://github.com/FreeCAD/FreeCAD/pull/8455)
+-   The [AxoLengthDimension](TechDraw_AxoLengthDimension.md) tool was added. [Pull request #8359](https://github.com/FreeCAD/FreeCAD/pull/8359)
+-   3D dimensions can now be created in the same way as 2D dimensions removing the need to link them manually to 3D geometry. Moreover, the [DimensionRepair](TechDraw_DimensionRepair.md) tool was added. [Pull request #8141](https://github.com/FreeCAD/FreeCAD/pull/8141)
 
 ## Web
 

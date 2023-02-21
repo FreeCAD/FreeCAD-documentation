@@ -2,16 +2,13 @@
 - GuiCommand:/pl
    Name:FEM EquationElectricforce
    Name/pl:MES: Równanie siły elektrostatycznej
-   MenuLocation:Rozwiąż → Równanie siły elektrostatycznej
+   MenuLocation:Rozwiąż → Równania elektromagnetyczne → Równanie siły elektrostatycznej
    Workbenches:[MES](FEM_Workbench/pl.md)
    Version:0.19
    SeeAlso:[Równanie elektrostatyczne](FEM_EquationElectrostatic/pl.md)
 ---
 
 # FEM EquationElectricforce/pl
-
-
-</div>
 
 
 
@@ -47,13 +44,7 @@ The electricforce equation does not have own constraints. It takes the <img alt=
 The result is the electric force density in $\rm N/m^2$.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

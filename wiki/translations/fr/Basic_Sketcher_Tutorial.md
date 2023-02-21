@@ -33,6 +33,8 @@ Pour une description plus approfondie de l\'esquisse, lisez le [Manuel de réfé
 ![](images/00_Sk01_Sketcher_fully_constrained_final.png ) 
 *Résultat final de l'esquisse avec toute la géométrie entièrement contrainte y compris la géométrie de construction pour le support.*
 
+
+
 ## Installation
 
 1\. Ouvrez FreeCAD, créez un nouveau document vide avec **Fichier → [<img src=images/Std_New.svg style="width:16px"> [Nouveau](Std_New/fr.md)**.
@@ -44,6 +46,8 @@ Quelques actions à retenir:
 -   Appuyez sur le bouton droit de la souris ou appuyez une fois sur **Echap** sur le clavier pour désélectionner l\'outil actif en mode édition.
 -   Pour quitter le mode d\'édition d\'esquisse, appuyez sur le bouton **Fermer** dans le [Panneau des tâches](Task_Panel/fr.md) ou appuyez deux fois sur **Echap** au le clavier.
 -   Pour entrer à nouveau en mode édition, double-cliquez sur l\'esquisse dans la [vue en arborescence](tree_view/fr.md) ou sélectionnez-la puis cliquez sur **[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [Sketcher Modifier l'esquisse](Sketcher_EditSketch/fr.md)**.
+
+
 
 ## Création d\'une esquisse 
 
@@ -65,6 +69,8 @@ la [vue en arborescence](tree_view/fr.md) basculera en [Panneau des tâches](Tas
 
 
 *Partie supérieure du [Panneau des tâches](Task_Panel/fr.md) de l'esquisse.*
+
+
 
 ## Création de la géométrie 
 
@@ -97,11 +103,15 @@ Consultez les sections **Constraints** et **Elements** pour voir les nouvelles c
 
 *Lignes de construction formant une étoile avec son centre à l'origine.*
 
+
+
 ## Géométrie réelle 
 
 La géométrie réelle doit créer une forme fermée si elle doit être utilisée comme un profil pouvant être extrudé par des outils tels que **[<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Protrusion](PartDesign_Pad/fr.md)**.
 
 Assurez-vous que vous n\'êtes pas en mode construction en cliquant sur **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Basculer la construction](Sketcher_ToggleConstruction/fr.md)**, si vous n\'avez pas déjà quitté ce mode.
+
+
 
 ### Les arcs extérieurs 
 
@@ -125,6 +135,8 @@ Assurez-vous que vous n\'êtes pas en mode construction en cliquant sur **[<img 
 
 *Arcs de cercle ajoutés aux extrémités des lignes de construction. Ainsi qu'un cercle central.*
 
+
+
 ### Les arcs intérieurs 
 
 6\. Créez un arc entre chaque paire des O-arcs précédents.
@@ -141,6 +153,8 @@ Pour résumer, les O-arcs devraient avoir leur courbure pointant vers l\'extéri
 
 *Arcs de cercle ajoutés entre le premier ensemble d'arcs placé.*
 
+
+
 ## Contraintes
 
 Jetez à nouveau un œil au [Panneau des tâches](Task_Panel/fr.md). En raison des nouveaux éléments géométriques que nous avons dessinés, la section **Solver messages** indique encore plus **degrees of freedom**. Un **degree of freedom** (degré de liberté) (DOF) indique un mouvement possible d\'un élément. Par exemple, un point peut être déplacé dans les directions horizontale et verticale, il a donc deux degrés de liberté. Une ligne est définie par deux points donc au total elle a quatre degrés de liberté. Si nous fixons l\'un de ces points, alors le système entier n\'a que deux degrés de liberté disponibles. Si nous fixons en outre le mouvement horizontal du point restant, il ne nous reste qu\'un degré de liberté; et si nous fixons également le mouvement vertical de ce point, alors le dernier degré de liberté disparaît et la ligne ne peut plus bouger de sa position.
@@ -153,7 +167,11 @@ Il existe deux principaux types de contraintes:
 
 -    **Datum constraints**définit les caractéristiques des formes en spécifiant les dimensions, par exemple, une longueur numérique ou un angle.
 
+
+
 ## Contraintes géométriques 
+
+
 
 ### Longueur et rayon égaux 
 
@@ -199,6 +217,8 @@ si vous souhaitez désactiver temporairement la contrainte, vous pouvez la séle
 
 *Esquisse avec des contraintes d'égalité appliquées aux lignes de construction et aux deux ensembles d'arcs.*
 
+
+
 ### Tangence
 
 8\. Appliquez la tangence aux arcs.
@@ -220,9 +240,13 @@ L\'application de la contrainte tangentielle déplacera très souvent la géomé
 
 *Esquisse avec des contraintes tangentielles appliquées aux arcs, ce qui ferme la forme.*
 
+
+
 ## Contraintes sur les valeurs 
 
 Ces contraintes spécifient les distances numériques entre deux points et les angles entre deux lignes.
+
+
 
 ### Distances et angles 
 
@@ -246,6 +270,8 @@ Ces contraintes spécifient les distances numériques entre deux points et les a
 
 
 *Esquisse avec contrainte de longueur appliquée à une ligne de construction verticale (gauche) et contraintes d'angle à trois paires de lignes de construction (droite).*
+
+
 
 ### Rayon
 
@@ -289,6 +315,8 @@ Nous devrions nous retrouver avec un croquis entièrement contraint. Cela peut �
 
 
 *A gauche: l'esquisse entièrement contrainte avec seulement les contraintes les plus importantes. A droite: l'extrusion solide produite avec [PartDesign Protrusion](PartDesign_Pad/fr.md).*
+
+
 
 ## Informations supplémentaires 
 

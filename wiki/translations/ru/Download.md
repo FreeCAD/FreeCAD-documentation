@@ -25,9 +25,15 @@
 -   Портативная версия, не требующая установки доступна на странице [релиза](https://github.com/FreeCAD/FreeCAD/releases/).
 -   Пакет также можно установить из менеджера пакетов [Chocolatey](https://chocolatey.org/packages/freecad).
 
+
+<div class="mw-translate-fuzzy">
+
 ### Примечание для пользователей Mac OS X 
 
 Минимальная поддерживаемая версия Mac OS X: 10.12 Sierra.
+
+
+</div>
 
 
 

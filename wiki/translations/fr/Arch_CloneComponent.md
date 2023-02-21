@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:Arch CloneComponent‏‎‏‎
-   Name/fr:Arch Composant de clone
-   MenuLocation:Arch → Utilitaires → Composant de clone
+   Name/fr:Arch Cloner un composant
+   MenuLocation:Arch → Utilitaires → Cloner un composant
    Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**C**, **C‏‎**
    SeeAlso:[Draft Cloner](Draft_Clone/fr.md), [Arch Composant](Arch_Component/fr.md)
@@ -13,7 +13,7 @@
 ## Description
 
 
-**<img src="images/Arch_CloneComponent.svg" width=16px> [Arch Composant de clone](Arch_CloneComponent/fr.md)
+**<img src="images/Arch_CloneComponent.svg" width=16px> [Arch Cloner un composant](Arch_CloneComponent/fr.md)
 **
 
 génère des **<img src="images/Arch_Component.svg" width=16px> [Arch Composants](Arch_Component.md)** qui sont des clones des objets sélectionnés.

@@ -194,7 +194,7 @@
 
 ### Инструменты контекстного меню 
 
-<img alt="" src=images/PartDesign_MoveTip.svg  style="width:32px;"> [Установить конечную точку расчета](PartDesign_MoveTip/ru.md): переопределяет положение конечной точки расчета детали.
+<img alt="" src=images/PartDesign_MoveTip.svg  style="width:32px;"> [Установить точку завершения расчёта тела](PartDesign_MoveTip/ru.md): переопределяет положение конечной точки расчёта детали.
 
 -   <img alt="" src=images/PartDesign_MoveFeature.svg  style="width:32px;"> [Переместить объект в другое тело](PartDesign_MoveFeature/ru.md): перемещает выбранный эскиз, базовой геометрии или объект в другое тело.
 

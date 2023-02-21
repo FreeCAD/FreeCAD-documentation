@@ -1,9 +1,17 @@
 # Standard Menu/pt-br
 {{TOCright}}
 
+
+
 ## Introdução
 
+
+<div class="mw-translate-fuzzy">
+
 O menu padrão dá acesso a ferramentas que podem ser usadas em todas as bancadas de trabalho. O menu pode parecer ligeiramente diferente, dependendo do ambiente de trabalho (KDE, Gnome, Windows, OS X, etc.). As bancadas de trabalho também podem adicionar sub-menus, dependendo de como eles decidem estruturar suas ferramentas.
+
+
+</div>
 
 
 {{StdMenu

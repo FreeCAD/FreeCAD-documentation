@@ -1,12 +1,16 @@
 # Interface Customization/es
 {{TOCright}}
 
+
+
 ## Introducción
 
 La interfaz de FreeCAD está basada en el moderno kit de herramientas [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit)) y tiene una organización a nivel de la técnica . Algunos aspectos de la interfaz pueden ser personalizados. Puedes, por ejemplo, añadir barras de herramientas personalizadas, con herramientas de varios ambientes de trabajo o herramientas definidas en macros, y puedes crear tus propios atajos de teclado. Pero los menús y las barras de herramientas por defecto que vienen con FreeCAD y sus ambientes de trabajo no se pueden cambiar.
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *El cuadro diálogo Personalizar*
+
+
 
 ## Utilización
 
@@ -18,9 +22,13 @@ La interfaz de FreeCAD está basada en el moderno kit de herramientas [Qt](http:
 4.  El botón **Ayuda** no funciona en este momento.
 5.  Pulse el botón **Cerrar** para cerrar el cuadro de diálogo.
 
+
+
 ## Opciones
 
 En el cuadro de diálogo Personalizar están disponibles las siguientes pestañas:
+
+
 
 ### Commandos
 
@@ -28,6 +36,8 @@ En el cuadro de diálogo Personalizar están disponibles las siguientes pestaña
 *La pestaña Comandos*
 
 En esta pestaña puede examinar los comandos disponibles.
+
+
 
 #### Comandos navegación 
 
@@ -39,12 +49,16 @@ En esta pestaña puede examinar los comandos disponibles.
 
 {{Top}}
 
+
+
 ### Teclado
 
 ![](images/Std_DlgCustomize_tab_Keyboard.png ) 
 *La pestaña del teclado*
 
 En esta pestaña se pueden definir atajos de teclado personalizados. Los atajos de teclado para los comandos de macros se pueden definir en la pestaña [Macros](#Macros.md).
+
+
 
 #### Añadir un atajo personalizado 
 
@@ -56,15 +70,21 @@ En esta pestaña se pueden definir atajos de teclado personalizados. Los atajos 
 6.  Press the **Assign** button to assign the new shortcut.
 7.  Press the **Clear** button to remove the entered shortcut. This will also remove the content of the **Current shortcut** box. Note that default shortcuts are not permanently removed. They will be restored upon restarting FreeCAD.
 
+
+
 #### Eliminar un atajo personalizado 
 
 1.  Select a command category from the **Category** dropdown list.
 2.  Select a command from the **Commands** panel.
 3.  Press the **Reset** button.
 
+
+
 #### Eliminar todo atajos personalizado 
 
 1.  Pulse el botón **Reiniciar todo**.
+
+
 
 #### Notas (Teclado) 
 
@@ -76,6 +96,8 @@ En esta pestaña se pueden definir atajos de teclado personalizados. Los atajos 
 
 {{Top}}
 
+
+
 ### Ambientes de trabajo 
 
 ![](images/Std_DlgCustomize_tab_Workbenches.png ) 
@@ -83,11 +105,15 @@ En esta pestaña se pueden definir atajos de teclado personalizados. Los atajos 
 
 On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The **Enabled workbenches** list shows the workbenches as they will appear in the Workbench selector.
 
+
+
 #### Desactivar un ambiente de trabajo 
 
 1.  Select a workbench in the **Enabled workbenches** list.
 2.  Press the **<img src="images/Button_left.svg" width=16px>** button.
 3.  The workbench will be moved to the **Disabled workbenches** list
+
+
 
 #### Habilitar un ambiente de trabajo 
 
@@ -95,15 +121,21 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 2.  Press the **<img src="images/Button_right.svg" width=16px>** button.
 3.  The workbench will be moved to the **Enabled workbenches** list
 
+
+
 #### Habilitar todo ambientes de trabajo 
 
 1.  Press the **<img src="images/Button_add_all.svg" width=16px>** button.
+
+
 
 #### Cambiar la posición de un ambiente de trabajo 
 
 1.  Select a workbench in the **Enabled workbenches** list.
 2.  Press the **<img src="images/Button_up.svg" width=16px>** button or the **<img src="images/Button_down.svg" width=16px>** button.
 3.  Optionally repeat this until the workbench is in the correct position.
+
+
 
 #### Ordenar los ambinetes de trabajo alfabéticamente 
 
@@ -112,6 +144,8 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 
 {{Top}}
 
+
+
 ### Barras Herramientas 
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
@@ -119,9 +153,13 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 
 En esta pestaña se pueden crear y modificar barras de herramientas personalizadas.
 
+
+
 #### Seleccione el ambiente de trabajo 
 
 1.  In the dropdown list on the right select the workbench whose custom toolbars you want to modify. The {{Value|Global}} option is there for custom toolbars that should be available in all workbenches.
+
+
 
 #### Crear una barra herramientas 
 
@@ -130,6 +168,8 @@ En esta pestaña se pueden crear y modificar barras de herramientas personalizad
 3.  Press the **OK** button.
 4.  The new toolbar will appear in the panel on the right.
 
+
+
 #### Renombrar una barra herramientas 
 
 1.  Select a toolbar in the panel on the right.
@@ -137,15 +177,21 @@ En esta pestaña se pueden crear y modificar barras de herramientas personalizad
 3.  Enter a new name in the dialog box that opens.
 4.  Press the **OK** button.
 
+
+
 #### Eliminar una barra herramientas 
 
 1.  Select a toolbar in the panel on the right.
 2.  Press the **Delete** button.
 
+
+
 #### Desactivar una barra herramientas 
 
 1.  Uncheck the checkbox in front of the toolbar name in the panel on the right.
 2.  A disabled toolbar will be invisible in the FreeCAD interface.
+
+
 
 #### Añadir un comando 
 
@@ -156,11 +202,15 @@ En esta pestaña se pueden crear y modificar barras de herramientas personalizad
 5.  Or select \'\' to add a separator (a line between two toolbar buttons).
 6.  Press **<img src="images/Button_right.svg" width=16px>** button.
 
+
+
 #### Elimina un comando 
 
 1.  If required, expand the toolbar in the panel on the right.
 2.  Select a command.
 3.  Press **<img src="images/Button_left.svg" width=16px>** button.
+
+
 
 #### Cambiar la posición de un position comando 
 
@@ -168,6 +218,8 @@ En esta pestaña se pueden crear y modificar barras de herramientas personalizad
 2.  Select a command.
 3.  Press the **<img src="images/Button_up.svg" width=16px>** button or the **<img src="images/Button_down.svg" width=16px>** button.
 4.  Optionally repeat this until the command is in the correct position.
+
+
 
 #### Notas (Barras Herramienta) 
 
@@ -190,6 +242,8 @@ If you download a macro with the <img alt="" src=images/Std_AddonMgr.svg  style=
 
 If you want to use a macro downloaded from a different source you will have to install it manually. See [How to install macros](How_to_install_macros.md) for more information.
 
+
+
 #### Añadir un macrocomando 
 
 1.  In the **Macro** dropdown list select a macro.
@@ -207,10 +261,14 @@ If you want to use a macro downloaded from a different source you will have to i
 9.  The macro command appears in the panel on the left.
 10. The macro command can now be selected on the [Toolbars](#Toolbars.md) tab.
 
+
+
 #### Elimina un macrocomando 
 
 1.  Select the macro command in the panel on the left.
 2.  Press the **Remove** button.
+
+
 
 #### Cambiar un macrocomando 
 
@@ -221,13 +279,15 @@ If you want to use a macro downloaded from a different source you will have to i
 
 {{Top}}
 
+
+
 ### Movimiento Bola Espacial 
 
-This tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
+This tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md). 
 
 ### Botones Bola Espacial 
 
-This is tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
+This is tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md). 
 
 ## Temas
 
@@ -239,14 +299,18 @@ You can also create your own theme if you are not satisfied with the themes that
 
 -    **$HOME/.FreeCAD/Gui/Stylesheets**(on Linux).
 
--    **$HOME/Library/Preferences/FreeCAD/Gui/Stylesheets**(on MacOS).
+-    **$HOME/Library/Application Support/FreeCAD/Gui/Stylesheets**(on macOS).
 
 
 {{Top}}
 
+
+
 ## Complementos
 
 Los complementos ofrecen otra forma de personalizar la interfaz de uso. A continuación se muestran algunos complementos creados por usuarios de la comunidad de FreeCAD. Pueden descargarse a través del <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Gestor Complementos](Std_AddonMgr/es.md) (nota: están listados en la pestaña ambientes de trabajo).
+
+
 
 ### MenúCubo
 
@@ -256,21 +320,31 @@ Los complementos ofrecen otra forma de personalizar la interfaz de uso. A contin
 
 -   Repositorio de Github: <https://github.com/triplus/Glass>.
 
+
+
 ### TemasIconos
 
 -   Repositorio de Github: <https://github.com/triplus/IconThemes>
+
+
 
 ### Arranquer
 
 -   Repositorio de Github: <https://github.com/triplus/Launcher>
 
+
+
 ### PieMenú
 
 -   Repositorio de Github: <https://github.com/triplus/PieMenu>
 
+
+
 ### RemBanco
 
 -   Repositorio de Github: <https://github.com/triplus/RemBench>
+
+
 
 ### Atajo
 

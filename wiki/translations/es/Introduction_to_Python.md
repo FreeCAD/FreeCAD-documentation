@@ -1,6 +1,8 @@
 # Introduction to Python/es
 {{TOCright}}
 
+
+
 ## Introducción
 
 Este es un breve tutorial para los nuevos en [Python](http://es.wikipedia.org/wiki/Python). Python es un lenguaje de programación de código abierto y multiplataforma [lenguaje de programación](http://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n). Tiene varias características que lo hacen diferente de otros lenguajes de programación, y muy accesible para los nuevos usuarios:
@@ -11,6 +13,8 @@ Este es un breve tutorial para los nuevos en [Python](http://es.wikipedia.org/wi
 -   Es extensible, puedes conectar fácilmente nuevos módulos en tu instalación de Python y extender su funcionalidad. Por ejemplo, hay módulos que permiten a Python leer y escribir imágenes, comunicarse con Twitter, programar tareas para que las realice tu sistema operativo, etc.
 
 o siguiente es una introducción muy básica, y de ninguna manera un tutorial completo. Pero esperamos que proporcione un buen punto de partida para una mayor exploración de FreeCAD y sus mecanismos. Te recomendamos encarecidamente que introduzcas los fragmentos de código de abajo en un intérprete de Python.
+
+
 
 ## El intérprete 
 
@@ -92,7 +96,7 @@ print(var2)
 
 Es aconsejable dar nombres significativos a sus variables. Después de un tiempo no recordarás qué representa tu variable llamada `a`. Pero si la nombras, por ejemplo, `myWelcomeMessage` recordarás fácilmente su propósito. Además, tu código está un paso más cerca de ser auto-documentado.
 
-El caso es muy importante, `myVariable` no es lo mismo que `myvariable`. Si se introdujera `print(myvariable)` se obtendría un error como no definido. {{Top}}
+El caso es muy importante, 
 
 ## Números
 
@@ -197,6 +201,8 @@ myVar
 
 {{Top}}
 
+
+
 ## Listas
 
 Otro tipo de datos útil es una lista. Una lista es una colección de otros datos. Para definir una lista utilizamos `[ ]`:
@@ -237,7 +243,7 @@ myvar[2]
 
 Normalmente, lo que se puede hacer con las listas también se puede hacer con las cadenas. De hecho, tanto las listas como las cadenas son secuencias.
 
-Además de las cadenas, los enteros, los flotadores y las listas, hay más tipos de datos incorporados, como los diccionarios, e incluso puedes crear tus propios tipos de datos con clases. {{Top}}
+Además de las cadenas, los enteros, los flotadores y las listas, hay más tipos de datos incorporados, como los diccionarios, e incluso puedes crear tus propios tipos de datos con clases. 
 
 ## Indentación
 
@@ -339,6 +345,8 @@ else:
 
 {{Top}}
 
+
+
 ## Funciones
 
 Hay muy pocos [standard Python commands](https://docs.python.org/3/reference/lexical_analysis.html#identifiers) y ya conocemos varios de ellos. Pero puedes crear tus propios comandos. De hecho, la mayoría de los módulos adicionales que puedes conectar a tu instalación de Python hacen precisamente eso, añadir comandos que puedes utilizar. Un comando personalizado en Python se llama función y se hace así:
@@ -371,7 +379,7 @@ def sum(val1, val2):
 myTotal = sum(45, 34)
 ```
 
-Aquí hicimos una función que recibe dos argumentos, los suma y devuelve ese valor. Devolver algo es muy útil, porque podemos hacer algo con el resultado, como almacenarlo en la variable `myTotal`. {{Top}}
+Aquí hicimos una función que recibe dos argumentos, los suma y devuelve ese valor. Devolver algo es muy útil, porque podemos hacer algo con el resultado, como almacenarlo en la variable 
 
 ## Módulos
 
@@ -476,6 +484,8 @@ exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 
 {{Top}}
 
+
+
 ## Empezando con FreeCAD 
 
 Esperemos que ahora tengas una buena idea de cómo funciona Python, y puedas empezar a explorar lo que FreeCAD tiene que ofrecer. Las funciones de Python de FreeCAD están todas bien organizadas en diferentes módulos. Algunas de ellas ya están cargadas (importadas) cuando inicias FreeCAD. Sólo tienes que probar:
@@ -487,6 +497,8 @@ dir()
 
 
 {{Top}}
+
+
 
 ## Notas
 

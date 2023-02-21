@@ -1,9 +1,17 @@
 # Standard Menu/de
 {{TOCright}}
 
+
+
 ## Einführung
 
+
+<div class="mw-translate-fuzzy">
+
 Das Standardmenü bietet Zugriff auf Werkzeuge, die in allen Arbeitsbereichen verwendet werden können. Das Menü kann je nach Desktop-Umgebung (KDE, Gnome, Windows, OS X usw.) etwas anders aussehen. Arbeitsbereiche können auch Untermenüs hinzufügen, je nachdem, wie sie sich entscheiden, ihre Werkzeuge zu strukturieren.
+
+
+</div>
 
 
 {{StdMenu
@@ -26,6 +34,8 @@ Das Standardmenü bietet Zugriff auf Werkzeuge, die in allen Arbeitsbereichen ve
 
 
 *Das Standardmenü*
+
+
 
 ## Untermenüs
 

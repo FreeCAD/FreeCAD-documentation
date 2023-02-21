@@ -9,6 +9,8 @@
 
 # TechDraw SurfaceFinishSymbol/pl
 
+
+
 ## Opis
 
 Narzędzie <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:24px;"> **Utwórz symbol wykończenia powierzchni** dodaje symbol wykończenia powierzchni do strony.
@@ -18,6 +20,8 @@ Narzędzie <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width
 
 <img alt="" src=images/TechDraw_SurfaceFinishSymbolExample2.png  style="width:330px;"> 
 *Panel zadań z wybranym stylem ASME. Po prawej stronie utworzony symbol.*
+
+
 
 ## Użycie
 

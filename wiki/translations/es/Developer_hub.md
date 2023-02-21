@@ -7,9 +7,13 @@ Este es el lugar al que acudir si quieres contribuir al desarrollo del software 
 
 Estas páginas están en una etapa inicial de desarrollo. Si no encuentras la información que estas buscando, o si has encontrado información útil que no tenemos vinculada, entonces por favor deja un comentario en la [foro](http://forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff) y alguien la verá (o, si eres lo suficientemente atrevido, por qué no editar esta página directamente!).
 
+
+
 ## Documentación para desarrolladores 
 
 La documentación para desarrolladores comprende las siguientes secciones:
+
+
 
 ### Compilando FreeCAD 
 
@@ -24,6 +28,8 @@ La documentación para desarrolladores comprende las siguientes secciones:
 -   [Inicio y configuración](Start_up_and_Configuration/es.md)
 -   [Documentación del código fuente](Source_documentation/es.md)
 
+
+
 ### Empaquetado
 
 [Empaquetado](Packaging/es.md) consiste en tomar los binarios compilados y los archivos fuente en Python de FreeCAD, y distribuirlos para su uso en un sistema particular.
@@ -35,6 +41,8 @@ La documentación para desarrolladores comprende las siguientes secciones:
 -   [Windows Empaquetado](Windows_packaging/es.md)
 -   [MacOS Empaquetado](MacOS_packaging/es.md)
 
+
+
 ### Edificar Herramientas Apoyo 
 
 -   Las [Herramientas de soporte a la construcción](FreeCAD_Build_Tool/es.md)
@@ -43,6 +51,8 @@ La documentación para desarrolladores comprende las siguientes secciones:
 -   [Probando](Testing/es.md) FreeCAD
 -   [Compilación (Aceleración)](Compiling_(Speeding_up)/es.md) FreeCAD
 -   [Integración continua](Continuous_Integration/es.md)
+
+
 
 ### Modificando FreeCAD 
 
@@ -59,6 +69,8 @@ La documentación para desarrolladores comprende las siguientes secciones:
 -   [Envolver una clase C++ en Python](Wrapping_a_Cplusplus_class_in_Python/es.md) muestra cómo crear la envoltura de Python para una clase C++
 
 -   [Traducir un ambiente de trabajo externo](Translating_an_external_workbench/es.md)
+
+
 
 ### Guía del desarrollador Módulos 
 
@@ -79,7 +91,11 @@ Capítulos:
 
 La última vista previa en pdf se puede descargar desde [carpeta pdf](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide/tree/master/pdf) de este git repo
 
+
+
 ### Internos
+
+
 
 #### Documentación de OpenCascade 
 
@@ -90,9 +106,13 @@ OpenCascade es una plataforma de desarrollo de software para el modelado de supe
 -   [Manual de referencia](https://dev.opencascade.org/doc/refman/html/index.html)
 -   [La wiki de openCascade](http://opencascade.wikidot.com)(actualmente contiene ?? spam chino)
 
+
+
 #### Formato de archivo 
 
 [Formato Archivo FCStd](File_Format_FCStd/es.md). Los archivos creados con FreeCAD son archivos `.zip` que incluyen la geometría [BREP](https://en.wikipedia.org/wiki/Boundary_representation) , así como los datos XML que describen el documento.
+
+
 
 #### Solucionador de Croquizador 
 
@@ -104,16 +124,26 @@ El solucionador croquizador no es perfecto, ya que hay algunos problemas con la 
 
 El desarrollo de una nueva arquitectura del solucionador podría mejorar la forma en que se utiliza el solucionador tanto en el [Ambuente de trabajo Croquizador](Sketcher_Workbench/es.md), como para el montaje de cuerpos 3D. Véase [Reimplementación del solucionador de restricciones](https://forum.freecadweb.org/viewtopic.php?f=20&t=40525).
 
+
+
 ## Hoja de ruta 
 
 FreeCAD, es utilizable en ciertas áreas, está al principio de un largo camino dentro de la corriente del CAD. Aún queda mucho que hacer para alcanzar un estado en el que podamos competir con el software comercial.
 
 [FreeCAD 1.0 Development Cycle](FreeCAD_1.0_Development_Cycle.md)
 
+
+
 ## Comunidad
+
+
+<div class="mw-translate-fuzzy">
 
 -   [IRC channel](irc://chat.freenode.net/freecad) ,sincronizado con [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
 -   [Foro de desarrollo](https://forum.freecadweb.org/viewforum.php?f=6)
+
+
+</div>
 
 -   [Mapa de desarrollo](Development_roadmap/es.md)
 

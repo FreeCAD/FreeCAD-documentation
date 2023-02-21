@@ -130,9 +130,9 @@ Les propriétés de ce groupe sont cachées pour les réseaux orthogonaux et les
 
 -    **Base|Link**: spécifie l\'objet à dupliquer dans le réseau.
 
--    **Count|Integer**: (en lecture seule) spécifie le nombre total d\'éléments dans le réseau. Uniquement disponible pour les réseaux Link.
+-    **Count|Integer**: (en lecture seule) spécifie le nombre total d\'éléments dans le réseau. {{VersionMinus/fr|0.20}} : uniquement disponible pour les réseaux Link.
 
--    **Expand Array|Bool**: spécifie s\'il faut développer le réseau dans la vue [Tree view](Tree_view.md) pour permettre la sélection de ses éléments individuels. Disponible uniquement pour les réseaux de type Link.
+-    **Expand Array|Bool**: spécifie s\'il faut développer le réseau dans la [vue en arborescence](Tree_view/fr.md) pour permettre la sélection de ses éléments individuels. Disponible uniquement pour les réseaux de type Link.
 
 -    **Fuse|Bool**: spécifie si les éléments qui se chevauchent dans le réseau sont fusionnés ou non. Non utilisé pour les réseaux de type Link.
 

@@ -31,6 +31,8 @@ Per fare questo:
 
 **Nota:** L\'ultimo passaggio non è obbligatorio, ma serve a pulire il solido della maggior parte dei bordi residui rimasti sulle superfici piane e cilindriche.
 
+
+
 ## Errori
 
 ### \"cannot convert because shape is not a shell\" 
@@ -44,6 +46,8 @@ Il guscio (shell dell\'oggetto mesh) sembra avere degli errori, forse non è chi
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -79,6 +83,8 @@ Il guscio (shell dell\'oggetto mesh) sembra avere degli errori, forse non è chi
 
 
 </div>
+
+
 
 ## Correlazioni
 

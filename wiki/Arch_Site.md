@@ -11,7 +11,7 @@
 
 ## Description
 
-The Arch Site is a special object that combines properties of a standard FreeCAD group object and Arch objects. It is particularly suited for representing a whole project site, or terrain. In IFC-based architectural work, it is mostly used to organize your model, by containing [building](Arch_Building.md) objects. The site is also used to manage and display a physical terrain, and can computes volumes of earth to be added or removed.
+The Arch Site is a special object that combines properties of a standard FreeCAD group object and Arch objects. It is particularly suited for representing a whole project site, or terrain. In IFC-based architectural work, it is mostly used to organize your model, by containing [building](Arch_Building.md) objects. The site is also used to manage and display a physical terrain, and can compute volumes of earth to be added or removed.
 
 ## Usage
 
@@ -20,11 +20,11 @@ The Arch Site is a special object that combines properties of a standard FreeCAD
 
 ## Options
 
--   After creating a site, you can add more objects to it by drag and dropping them in the Tree View or by using the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** tool. This only determines which object is part of the given site, and has no effect on the terrain itself.
--   You can remove objects from a site by drag and dropping them out of it the Tree View or by using the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** tool
--   You can add a terrain object by editing the Site\'s **Terrain** property. The terrain must be an open shell or surface.
--   You can add volumes to be added or subtracted from the base terrain, by double-clicking the Site, and adding objects to its Subtractions or Additions groups. The objects must be solids.
--   The **Extrusion Vector** property can be used to solve some problems that can appear when working with subtractions and additions. In order to perform those additions/subtractions, the terrain surface is extruded into a solid, which is then appropriately unioned/subtracted. Depending on the terrain topology, this extrusion might fail with the default extrusion vector. You might therefore be able to remedy the problem by changing this to a different value.
+-   After creating a site, you can add objects to it by drag and dropping them in the [Tree view](Tree_view.md) or by using the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** tool. This only determines which objects are part of the given site, and has no effect on the terrain.
+-   You can remove objects from a site by drag and dropping them out of it in the [Tree view](Tree_view.md) or by using the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** tool.
+-   You can add a terrain object by editing the Site\'s **Terrain** property. The terrain can be an open shell or (<small>(v1.0)</small> ) a solid.
+-   You can add volumes to be added or subtracted from the base terrain, by double-clicking the Site, and adding objects to its Additions or Subtractions groups. The objects must be solids.
+-   The **Extrusion Vector** property can be used to solve some problems that can appear when the terrain is an open shell and there are additions and/or subtractions. In order to perform those additions/subtractions, the open shell is extruded into a solid, which is then appropriately unioned/subtracted. Depending on the terrain topology, this extrusion might fail with the default extrusion vector. You might then be able to remedy the problem by changing this to a different value. This property is ignored if the terrain is a solid.
 
 ## Properties
 
@@ -76,7 +76,7 @@ The Arch Site is a special object that combines properties of a standard FreeCAD
 
 ## Typical workflow 
 
-Start by creating an object that represents your terrain. It must be an open surface, not a solid. For example, it is easy to import mesh data, that can be turned into a Part Shape from menu **Part → Create Shape from Mesh**. Then, create a Site object, and set its **Terrain** property to the Part we just created:
+Start by creating an object that represents your terrain. For example, it is easy to import mesh data, that can be turned into a Part Shape from menu **Part → Create Shape from Mesh**. Then, create a Site object, and set its **Terrain** property to the Part we just created:
 
 ![](images/Arch_site_example_01.jpg )
 

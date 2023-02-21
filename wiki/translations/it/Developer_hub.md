@@ -135,8 +135,14 @@ Serve ancora molto lavoro prima che possa competere con i software commerciali.
 
 ## Community
 
+
+<div class="mw-translate-fuzzy">
+
 -   [IRC channel](irc://chat.freenode.net/freecad) ,synchronized with [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
 -   [Development forum](https://forum.freecadweb.org/viewforum.php?f=6)
+
+
+</div>
 
 -   [Piano di sviluppo](Development_roadmap/it.md)
 

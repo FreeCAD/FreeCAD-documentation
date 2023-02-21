@@ -31,9 +31,9 @@ Previous versions can be downloaded from the [releases](https://github.com/FreeC
 
 </div>
 
-### Notes for Mac OS X users 
+### Notes for macOS users 
 
-Mac OS X 10.12 Sierra is the minimum supported version.
+macOS 10.12 Sierra is the minimum supported version.
 
 ### Notes for GNU/Linux users 
 

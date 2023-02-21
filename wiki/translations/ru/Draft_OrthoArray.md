@@ -9,6 +9,8 @@
 
 # Draft OrthoArray/ru
 
+
+
 ## Описание
 
 The <img alt="" src=images/Draft_OrthoArray.svg  style="width:24px;"> **Draft OrthoArray** command creates an orthogonal (3-axes) array from a selected object. The command can optionally create a [Link](App_Link.md) array, which is more efficient than a regular array.
@@ -17,6 +19,8 @@ The command can be used on 2D objects created with the [Draft Workbench](Draft_W
 
 <img alt="" src=images/Draft_Array_example.png  style="width:300px;"> 
 *Draft OrthoArray*
+
+
 
 ## Применение
 
@@ -119,7 +123,7 @@ The properties in this group are hidden for orthogonal arrays and polar arrays.
 
 -    **Base|Link**: specifies the object to duplicate in the array.
 
--    **Count|Integer**: (read-only) specifies the total number of elements in the array. Only available for Link arrays.
+-    **Count|Integer**: (read-only) specifies the total number of elements in the array. {{VersionMinus|0.20}}: Only available for Link arrays.
 
 -    **Expand Array|Bool**: specifies whether to expand the array in the [Tree view](Tree_view.md) to enable the selection of its individual elements. Only available for Link arrays.
 

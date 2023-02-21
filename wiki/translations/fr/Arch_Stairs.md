@@ -24,12 +24,18 @@ Voir la [Terminologie des escaliers](https://fr.wikipedia.org/wiki/Escalier#Term
 
 -   L\'outil Escalier partage les propriétés communes et les comportements de tous les [Arch Composants](Arch_Component/fr.md)
 
+
+
 ## Utilisation
 
 1.  Appuyez sur le bouton **<img src="images/Arch_Stairs.svg" width=16px> [Escalier](Arch_Stairs/fr.md)** ou appuyez sur les touches **S**, **R**.
 2.  Ajustez les propriétés souhaitées. Certaines parties de l\'escalier, comme la structure, peuvent ne pas apparaître immédiatement, si l\'une des propriétés rend la construction impossible, par exemple une épaisseur de structure égal à 0.
 
+
+
 ## Propriétés
+
+
 
 ### Données
 
@@ -52,13 +58,13 @@ Voir la [Terminologie des escaliers](https://fr.wikipedia.org/wiki/Escalier#Term
 
 -    **Railing Height Right|Length**: hauteur de la rampe droite de l\'escalier ou du palier.
 
--    **Railing Left|String**: nom de l\'objet de la rampe gauche.
+-    **Railing Left|LinkHidden**: balustrade gauche. {{Version/fr|0.20}} : Le type de propriété est passé de {{Incode|String}} à {{Incode|LinkHidden}}.
 
 -    **Railing Offset Left|Length**: décalage de la rampe gauche par rapport au bord de l\'escalier ou du palier.
 
 -    **Railing Offset Right|Length**: décalage de la rampe droite par rapport au bord de l\'escalier ou du palier.
 
--    **Railing Right|String**: nom de l\'objet rampe droite.
+-    **Railing Right|LinkHidden**: balustrade droite. {{Version/fr|0.20}} : Le type de propriété est passé de {{Incode|String}} à {{Incode|LinkHidden}}.
 
 
 {{TitleProperty|Stairs}}
@@ -128,6 +134,8 @@ Voir la [Terminologie des escaliers](https://fr.wikipedia.org/wiki/Escalier#Term
 -   Seuls les escaliers droits sont disponible pour le moment
 -   Voir la [fil du forum](http://forum.freecadweb.org/viewtopic.php?f=23&t=6534) pour les escaliers circulaires
 -   Voir la [annonce sur le forum](http://forum.freecadweb.org/viewtopic.php?f=9&t=4564).
+
+
 
 ## Script
 

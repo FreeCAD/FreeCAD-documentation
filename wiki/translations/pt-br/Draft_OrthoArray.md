@@ -9,6 +9,8 @@
 
 # Draft OrthoArray/pt-br
 
+
+
 ## Descrição
 
 The <img alt="" src=images/Draft_OrthoArray.svg  style="width:24px;"> **Draft OrthoArray** command creates an orthogonal (3-axes) array from a selected object. The command can optionally create a [Link](App_Link.md) array, which is more efficient than a regular array.
@@ -17,6 +19,8 @@ The command can be used on 2D objects created with the [Draft Workbench](Draft_W
 
 <img alt="" src=images/Draft_Array_example.png  style="width:300px;"> 
 *Draft OrthoArray*
+
+
 
 ## Utilização
 
@@ -32,6 +36,8 @@ The command can be used on 2D objects created with the [Draft Workbench](Draft_W
     -   Press **Enter**.
     -   Press the **OK** button.
 
+
+
 ## Opções
 
 -   Enter the **Number of elements** for the X, Y and Z directions. This number must be at least {{Value|1}} for every direction.
@@ -43,16 +49,22 @@ The command can be used on 2D objects created with the [Draft Workbench](Draft_W
 -   If the **Link array** checkbox is checked a Link array instead of a regular array is created. A Link array is more efficient because its elements are [App Link](App_Link.md) objects.
 -   Press **Esc** or the **Cancel** button to abort the command.
 
+
+
 ## Notas
 
 -   A Draft OrthoArray can be turned into a [Draft PolarArray](Draft_PolarArray.md) or a [Draft CircularArray](Draft_CircularArray.md) by changing its **Array Type** property.
 -   A Link array cannot be turned into a regular array or vice versa. The type of array must be decided at creation time.
+
+
 
 ## Preferências
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
 -   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+
+
 
 ## Propriedades
 
@@ -119,7 +131,7 @@ The properties in this group are hidden for orthogonal arrays and polar arrays.
 
 -    **Base|Link**: specifies the object to duplicate in the array.
 
--    **Count|Integer**: (read-only) specifies the total number of elements in the array. Only available for Link arrays.
+-    **Count|Integer**: (read-only) specifies the total number of elements in the array. {{VersionMinus|0.20}}: Only available for Link arrays.
 
 -    **Expand Array|Bool**: specifies whether to expand the array in the [Tree view](Tree_view.md) to enable the selection of its individual elements. Only available for Link arrays.
 
@@ -161,6 +173,8 @@ The properties in this group are hidden for orthogonal arrays.
 -    **Axis|Vector**: specifies the direction of the axis of the array.
 
 -    **Center|VectorDistance**: specifies the center point of the array. The axis of the array passes through this point. For circular arrays it is an offset from the **Placement** of the **Base** object.
+
+
 
 ### Vista
 

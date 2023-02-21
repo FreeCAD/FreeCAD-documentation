@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -43,6 +45,8 @@ Questo strumento può essere utilizzato su qualsiasi oggetto che abbia una [Part
 
 </div>
 
+
+
 ## Utilizzo
 
 1.  Optionally select one object.
@@ -56,6 +60,8 @@ Questo strumento può essere utilizzato su qualsiasi oggetto che abbia una [Part
     -   Click in the [3D view](3D_view.md).
     -   Press **Enter**.
     -   Press the **OK** button.
+
+
 
 ## Opzioni
 
@@ -78,6 +84,8 @@ Questo strumento può essere utilizzato su qualsiasi oggetto che abbia una [Part
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
 -   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+
+
 
 ## Proprietà
 
@@ -144,7 +152,7 @@ The properties in this group are hidden for orthogonal arrays and polar arrays.
 
 -    **Base|Link**: specifies the object to duplicate in the array.
 
--    **Count|Integer**: (read-only) specifies the total number of elements in the array. Only available for Link arrays.
+-    **Count|Integer**: (read-only) specifies the total number of elements in the array. {{VersionMinus|0.20}}: Only available for Link arrays.
 
 -    **Expand Array|Bool**: specifies whether to expand the array in the [Tree view](Tree_view.md) to enable the selection of its individual elements. Only available for Link arrays.
 

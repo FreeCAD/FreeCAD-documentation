@@ -2,27 +2,19 @@
 - GuiCommand:/pl
    Name:PartDesign InvoluteGear
    Name/pl:Projekt Części: Koło zębate ewolwentowe
-   MenuLocation:Projekt części → Involute gear...
+   Icon:PartDesign_InternalExternalGear.svg
+   MenuLocation:Projekt części → Koło zębate ewolwentowe ...
    Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   SeeAlso:[FCGear](FCGear_Workbench.md)
+   SeeAlso:[FCGear](FCGear_Workbench/pl.md)
 ---
 
 # PartDesign InvoluteGear/pl
 
 
-</div>
-
-
 
 ## Opis
 
-
-<div class="mw-translate-fuzzy">
-
-Narzędzie to pozwala na utworzenie dwuwymiarowego profilu koła zębatego. Ten profil 2D jest w pełni parametryczny i może być wyciągnięty funkcją [Wyciągnięcie](PartDesign_Pad/pl.md) lub [Addytywna helisa](PartDesign_AdditiveHelix/pl.md).
-
-
-</div>
+Narzędzie to pozwala na utworzenie dwuwymiarowego profilu koła zębatego lub krzywej złożonej. Ten profil 2D jest w pełni parametryczny i może być wyciągnięty funkcją [Wyciągnięcie](PartDesign_Pad/pl.md) lub [Addytywna helisa](PartDesign_AdditiveHelix/pl.md).
 
 Bardziej szczegółowe informacje można znaleźć również na stronach Wiki: [przekładnie](https://en.wikipedia.org/wiki/Gear) oraz [Zarys ewolwentowy](https://en.wikipedia.org/wiki/Involute_gear)
 
@@ -83,10 +75,12 @@ Wskazówka: Aby uczynić kąt skrętu dostępnym parametrem, użyj \"właściwo�
 6.  Przypisz do nowej właściwości żądany kąt spiralny.
 7.  W formule właściwości **Obrót** profilu AdditiveHelix można teraz odwołać się do `InvoluteGear.HelicalAngle` zamiast zakodowanej wartości np. `25°`; ponownie zakładając, że `InvoluteGear` jest właściwością **Nazwy** profilu.
 
-### Cut a hub for an involute splined shaft 
 
 
-<small>(v1.0)</small> 
+### Wycięcie piasty dla wału wielowypustowego ewolwentowego 
+
+
+{{Version/pl|1.0}}
 
 1.  Activate the correct body.
 2.  Create an internal involute gear profile with the required number of grooves and adapt the values of pressure angle, addendum-, dedendum- and root fillet coefficient. See also the table in [Notes](#Notes.md) below for feasible values. For example:
@@ -137,15 +131,9 @@ Wskazówka: Aby uczynić kąt skrętu dostępnym parametrem, użyj \"właściwo�
 
 -    **Liczba zębów**: ustawia liczbę zębów.
 
-
-<div class="mw-translate-fuzzy">
-
 -    **Kąt przyporu**: kąt ostry między linią działania a normalną do linii łączącej środki kół zębatych. Domyślnie jest to 20°
 
-([Więcej informacji](https://en.wikipedia.org/wiki/Involute_gear)).
-
-
-</div>
+. Zobacz stronę [koło zębate ewolwentowe](https://en.wikipedia.org/wiki/Involute_gear) aby uzyskać więcej informacji.
 
 -    **Addendum Coefficient**: The height of the tooth from the pitch circle up to its tip, normalized by the module. Default is 1.0 for the standard full-depth system. <small>(v1.0)</small> 
 
@@ -182,13 +170,7 @@ Wskazówka: Aby uczynić kąt skrętu dostępnym parametrem, użyj \"właściwo�
 
 ## Poradniki
 
-
-<div class="mw-translate-fuzzy">
-
-[Jak zrobić przekładnie zębate w FreeCAD](https://www.youtube.com/watch?v=8VNhTrnFMfE)
-
-
-</div>
+Folm: [Jak zrobić przekładnie zębate w FreeCAD](https://www.youtube.com/watch?v=8VNhTrnFMfE)
 
 
 

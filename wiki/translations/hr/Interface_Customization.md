@@ -1,12 +1,16 @@
 # Interface Customization/hr
 {{TOCright}}
 
+
+
 ## Predstavljanje
 
 The FreeCAD interface is based on the modern [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit)) toolkit and has a state-of-the-art organization. Some aspects of the interface can be customized. You can, for example, add custom toolbars, with tools from several workbenches or tools defined in macros, and you can create you own keyboard shortcuts. But the menus and default toolbars that come with FreeCAD and its workbenches cannot be changed.
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *The Customize dialog box*
+
+
 
 ## Upotreba
 
@@ -18,9 +22,13 @@ The FreeCAD interface is based on the modern [Qt](http://en.wikipedia.org/wiki/Q
 4.  The **Help** button does not work at this time.
 5.  Press the **Close** button to close the dialog box.
 
+
+
 ## Opcije
 
 In the Customize dialog box the following tabs are available:
+
+
 
 ### Komande
 
@@ -38,6 +46,8 @@ On this tab you can browse the available commands.
 
 
 {{Top}}
+
+
 
 ### Tipkovnica
 
@@ -76,6 +86,8 @@ On this tab custom keyboard shortcuts can be defined. Shortcuts for macro comman
 
 {{Top}}
 
+
+
 ### Radni stolovi 
 
 ![](images/Std_DlgCustomize_tab_Workbenches.png ) 
@@ -111,6 +123,8 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 
 
 {{Top}}
+
+
 
 ### Trake Alata 
 
@@ -179,6 +193,8 @@ On this tab custom toolbars can be created and modified.
 
 {{Top}}
 
+
+
 ### Makro naredbe 
 
 ![](images/Std_DlgCustomize_tab_Macros.png ) 
@@ -239,10 +255,12 @@ You can also create your own theme if you are not satisfied with the themes that
 
 -    **$HOME/.FreeCAD/Gui/Stylesheets**(on Linux).
 
--    **$HOME/Library/Preferences/FreeCAD/Gui/Stylesheets**(on MacOS).
+-    **$HOME/Library/Application Support/FreeCAD/Gui/Stylesheets**(on macOS).
 
 
 {{Top}}
+
+
 
 ## Dodatci
 

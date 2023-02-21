@@ -8,11 +8,15 @@
 
 # FEM MeshGmshFromShape/pt-br
 
+
+
 ## Descrição
 
 For a finite elements analysis the geometry needs to be discretized into a [FEM Mesh](FEM_Mesh.md). This command uses the program [Gmsh](https://en.wikipedia.org/wiki/Gmsh) (which needs to be installed on the system) for calculating the mesh.
 
 Depending on your operating system and your installation package Gmsh might be bundled with FreeCAD or not. For further information see [FEM Install](FEM_Install.md).
+
+
 
 ## Utilização
 
@@ -24,6 +28,8 @@ Depending on your operating system and your installation package Gmsh might be b
 4.  Close the task. You now should see a new FEMMeshGMSH object in your active analysis container.
 
 After the mesh has been crated you can change its properties using the [property editor](Property_editor.md). After you changed a property, you must reopen the Gmsh dialog again and click the **Apply** button. (You can leave the dialog open while changing properties.)
+
+
 
 ## Propriedades
 
@@ -50,7 +56,7 @@ After the mesh has been crated you can change its properties using the [property
 -    **Element Order**: The [mesh element order](https://www.comsol.de/support/knowledgebase/1270). This property can also be changed in the Gmsh dialog in the field **Mesh order**. <small>(v0.20)</small> 
 
     -   1st
-    -   2nd (default)
+    -   2nd (default)**Note:** If you use the solver [Elmer](FEM_SolverElmer.md) you may get this error: *ERROR:: GetEdgeBasis: Can\'t handle but linear elements, sorry.* This means the solver equation cannot handle 2nd order meshes. Use either 1st order meshes then, or check the FreeCAD Wiki page for the solver equation for possible options to handle 2nd order meshes.
 
 -    **Geometrical Tolerance**: The geometrical tolerance for the mesh to match the object edges. The default *0.0* means that Gmsh\'s default of 1e-8 is used.
 
@@ -77,6 +83,8 @@ After the mesh has been crated you can change its properties using the [property
 
     -   true; linear interpolation is used
     -   false (default); curvilinear interpolation is used
+
+
 
 ## Notas
 

@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Описание
 
 Данный инструмент позволяет создать вал на основе значений таблицы, также проводить анализ силы и моментов. Мастер можно запустить через меню **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Мастер проектирования вала...**.
@@ -27,6 +29,8 @@ The top of the window is taken up by the table. It is organized into numbered co
 
 The shaft design wizard depends on the [matplotlib](http://matplotlib.org/) library to create and display the graphs of shear force and bending moment. On Debian/Ubuntu-based systems, it is available through the python-matplotlib package.
 
+
+
 ## Параметры
 
 For each shaft segment, the following parameters can be defined
@@ -42,13 +46,19 @@ For each shaft segment, the following parameters can be defined
 
 (Other rows and load types exist but no functionality has been implemented yet)
 
+
+
 ## Меню
 
 Чтобы добавить новый сегмент вала, щелкните правой кнопкой мыши на пустом месте справа от таблицы и выберите \"Добавить столбец\".
 
+
+
 ## Ограничения
 
 -   Невозможно создавать соседние сегменты вала с одинаковым диаметром.
+
+
 
 ## Планируемая функциональность 
 

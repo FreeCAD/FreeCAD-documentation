@@ -8,9 +8,17 @@ Al igual que muchos modeladores de CAD, tiene muchos componentes 2D para esbozar
 
 FreeCAD hace un uso intensivo de las bibliotecas de código abierto que existen en el campo de la [Computación cientifica](https://es.wikipedia.org/wiki/Computaci%C3%B3n_cient%C3%ADfica). Entre ellas están [Open Cascade Technology (OCCT)](http://OpenCascade.org), un potente kernel de CAD; [Coin3D](https://github.com/coin3d/coin/wiki), un conjunto de herramientas para el desarrollo de gráficos 3D compatible con [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor); [Qt](http://www.qt.io/), el mundialmente famoso marco de interfaz de usuario; y [Python](http://www.python.org), un moderno lenguaje de scripting. El propio FreeCAD también puede ser utilizado como una biblioteca por otros programas.
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD también es [Multiplataforma](https://es.wikipedia.org/wiki/Multiplataforma), y actualmente funciona en sistemas Linux/Unix, Windows y Mac OSX con el mismo aspecto y funcionalidad en todas las plataformas.
 
+
+</div>
+
 Para más información sobre las capacidades de FreeCAD, echa un vistazo a la [lista de características](Feature_list/es.md), a la [últimas notas de la versión](Feature_list/de#Notas_de_la_versión.md), y a los artículos [comenzar](Getting_started/es.md), o ve más [capturas de pantalla](Screenshots/es.md).
+
+
 
 ### Acerca del proyecto FreeCAD 
 

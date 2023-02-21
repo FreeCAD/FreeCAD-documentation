@@ -14,6 +14,8 @@
 
 
 
+
+
 ## Beschreibung
 
 Intensivnutzer haben FreeCAD um verschiedene kundenspezifische [externe Arbeitsbereiche](external_workbenches/de.md) erweitert, die nicht in den FreeCAD Quellcodekern integriert sind, sind aber leicht auf einer bestehenden FreeCAD Installation zu installieren. Hier werden wir die Installationsmethoden für die verschiedenen Betriebssysteme behandeln.
@@ -32,12 +34,16 @@ Ab Version 0.17 verfügt FreeCAD über einen <img alt="" src=images/Std_AddonMgr
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
+
+
 ## Installation unter Windows 
 
 Wie man zusätzliche Arbeitsbereiche und Erweiterungen unter Windows installiert
 
 
 <div class="mw-collapsible-content">
+
+
 
 ### Veraltet
 
@@ -92,6 +98,8 @@ Unter Windows behält Windows beim Aktualisieren eines bereits installierten Arb
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 ## Installation unter Linux 
 
@@ -165,10 +173,16 @@ Diese Methode ist mit der Einführung des [Erweiterungsverwalters](Std_AddonMgr/
 
 ## Installation auf Mac 
 
+
+<div class="mw-translate-fuzzy">
+
 Wie man zusätzliche Arbeitsbereiche und Erweiterungen auf MacOS installiert
 
 
 <div class="mw-collapsible-content">
+
+
+</div>
 
 ### Manual Installation 
 
@@ -184,6 +198,9 @@ Diese Methode ist mit der Einführung des [Erweiterungsverwalters](Std_AddonMgr/
 
 
 </div>
+
+
+<div class="mw-translate-fuzzy">
 
 Der Einfachheit halber für dieses Beispiel, sage du hast die [Arbeitsbereich Kurven](Curves_Workbench/de.md) als den externen Arbeitsbereich gewählt, den du installieren möchtest:
 
@@ -206,6 +223,11 @@ Der Einfachheit halber für dieses Beispiel, sage du hast die [Arbeitsbereich Ku
 
 
 </div>
+
+
+</div>
+
+
 
 ## Allgemeine Fehlerbehebung 
 

@@ -4,6 +4,8 @@
 {{TOCright}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Instalrea Driver-ului 
@@ -18,6 +20,8 @@ FreeCAD supportă drivere din proiect [Spacenav](http://spacenav.sourceforge.net
 ### Linux 
 
 FreeCAD supports drivers from project [Spacenav](http://spacenav.sourceforge.net/). This is a project aiming to create an open-sourced driver which is compatible with the proprietary drivers from 3Dconnexion.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -92,6 +96,8 @@ apt-get install spacenavd libspnav-dev
 ```python
 sudo zypper install spacenavd
 ```
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -243,6 +249,8 @@ If you want to start spacenavd at boot using systemd, do the following:
 This is only necessary for the installation from source.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Restart
@@ -284,6 +292,8 @@ sudo systemctl restart spacenavd
 ```
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### OSX
@@ -293,7 +303,9 @@ Dispozitivele de intrare 3Dconnexion sunt acceptate pe OS X, cu condiția ca Fre
 
 </div>
 
-3Dconnexion input devices are supported on OS X, provided that FreeCAD is built and used on a system with the 3Dconnexion drivers installed. You may need 3DxWare 10.7.2 or greater for Mac OSX Monterey.
+3Dconnexion input devices are supported on macOS, provided FreeCAD is built and used on a system with the 3Dconnexion drivers installed. You may need 3DxWare 10.7.2 or greater for macOS 12 Monterey.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -320,6 +332,8 @@ There is an issue where 3Dconnexion sends duplicate scroll events to FreeCAD, wh
 ref: <https://freecadweb.org/tracker/view.php?id=1893>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Configurarea FreeCAD 
@@ -332,6 +346,8 @@ Suportul mouse-ului 3D a fost realizat cu un proiect spnav pe Linux, și la un n
 3D mouse support was made with spnav project on Linux, and on a very low level on Windows. This means there was no support for any settings for a device, since on Linux there is no good support for this, and on Windows it is overridden. This is why two additional pages were added to \"Customize\" dialog.
 
 <img alt="" src=images/Spaceball_Motion.png  style="width:450px;"> <img alt="" src=images/Spaceball_Buttons.png  style="width:450px;">
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -366,6 +382,8 @@ In this tab you have ability to set up some of general space mouse settings. The
 -   Activat - Activați / Dezactivați axele
 -   Reverse - Mișcarea inversă pe axe
 -   Sensibilitate - cursor cu capacitatea de a seta sensibilitatea
+
+
 
 
 <div class="mw-translate-fuzzy">

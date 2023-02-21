@@ -60,9 +60,9 @@ La commande **Mesh Evaluation** évalue et répare un objet maillé.
 
 ## Préférences
 
--   Le paramètre **Recherche de points libres "non-manifold"** est enregistré : **Outils → Editer les paramètres... → BaseApp → Preferences → Mod → Mesh → Evaluation → CheckNonManifoldPoints**.
--   Le paramètre **Active la recherche de plis sur une surface** est enregistré : **Outils → Editer les paramètres... → BaseApp → Preferences → Mod → Mesh → Evaluation → EnableFoldsCheck**.
--   Le paramètre **Considèrer uniquement les faces de surface nulle comme dégénérées** est enregistré : **Outils → Editer les paramètres... → BaseApp → Preferences → Mod → Mesh → Evaluation → StrictlyDegenerated**.
+-   Le paramètre **Recherche de points libres "non-manifold"** est enregistré : **Outils → Éditer les paramètres... → BaseApp → Preferences → Mod → Mesh → Evaluation → CheckNonManifoldPoints**.
+-   Le paramètre **Active la recherche de plis sur une surface** est enregistré : **Outils → Éditer les paramètres... → BaseApp → Preferences → Mod → Mesh → Evaluation → EnableFoldsCheck**.
+-   Le paramètre **Considèrer uniquement les faces de surface nulle comme dégénérées** est enregistré : **Outils → Éditer les paramètres... → BaseApp → Preferences → Mod → Mesh → Evaluation → StrictlyDegenerated**.
 
 
 

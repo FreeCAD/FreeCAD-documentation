@@ -3,7 +3,7 @@
 
 ## Introduction
 
-The standard menu gives access to tools that can be used in all workbenches. The menu may look slightly different depending on the desktop environment (KDE, Gnome, Windows, OS X, etc.). Workbenches can also add sub-menus depending on how they decide to structure their tools.
+The standard menu gives access to tools that can be used in all workbenches. The menu may look slightly different depending on the desktop environment (KDE, Gnome, Windows, macOS, etc.). Workbenches can also add sub-menus depending on how they decide to structure their tools.
 
 
 {{StdMenu

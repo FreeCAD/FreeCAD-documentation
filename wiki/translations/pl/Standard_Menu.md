@@ -1,9 +1,11 @@
 # Standard Menu/pl
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
-Standardowe menu daje dostęp do narzędzi, które mogą być używane na wszystkich stanowiskach pracy. Menu może wyglądać nieco inaczej w zależności od środowiska graficznego *(KDE, Gnome, Windows, OS X, itd.)*. Poszczególne Środowiska pracy mogą również dodawać podmenu w zależności od tego, jak ustalają strukturę swoich narzędzi.
+Standardowe menu daje dostęp do narzędzi, które mogą być używane na wszystkich stanowiskach pracy. Menu może wyglądać nieco inaczej w zależności od środowiska graficznego *(KDE, Gnome, Windows, Mac OS, itd.)*. Poszczególne Środowiska pracy mogą również dodawać podmenu w zależności od tego, jak ustalają strukturę swoich narzędzi.
 
 
 {{StdMenu
@@ -22,6 +24,8 @@ Standardowe menu daje dostęp do narzędzi, które mogą być używane na wszyst
 &nbsp;&nbsp;&nbsp;
 [Pomoc](Std_Help_Menu/pl.md)
 }}
+
+
 
 ## Menu podrzędne 
 

@@ -13,6 +13,8 @@
 
 Crée un composant [Arch](Arch_Workbench/fr.md) non-paramétrique à partir de n\'importe quel objet [Part](Part_Workbench/fr.md). Cela donne un objet de base Part avec les mêmes attributs et propriétés que les autres objets Arch et permet de préciser comment il doit être exporté au format IFC en définissant sa propriété ou son *Rôle*.
 
+
+
 ## utilisation
 
 1.  Sélectionnez un objet issu de [Atelier Part](Part_Workbench/fr.md)
@@ -20,6 +22,8 @@ Crée un composant [Arch](Arch_Workbench/fr.md) non-paramétrique à partir de n
     -   En appuyant sur le bouton **<img src="images/Arch_Component.svg" width=16px>** dans la barre d\'outils.
     -   En utilisant le raccourci clavier **C** **M**.
     -   En faisant **Arch** → **Utilitaires** → **<img src="images/Arch_Component.svg" width=16px> [Composant](Arch_Component/fr.md)** depuis le menu supérieur.
+
+
 
 ## Propriétés communes aux composants Arch 
 

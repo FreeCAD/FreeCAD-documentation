@@ -2,135 +2,94 @@
 - GuiCommand:/it
    Name:Draft Text
    Name/it:Testo
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation:Draft → Testo
+   MenuLocation:Drafting → Testo
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**T** **E**
-   SeeAlso:[Etichetta](Draft_Label/it.md), [Forma da testo](Draft_ShapeString/it.md)
    Version:0.7
+   SeeAlso:[Etichetta](Draft_Label/it.md), [Forma da testo](Draft_ShapeString/it.md)
 ---
 
 # Draft Text/it
 
 
-</div>
-
-
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_Text.svg  style="width:24px;"> **Testo** crea un testo su più righe in un dato punto.
 
-<div class="mw-translate-fuzzy">
-
-Lo strumento <img alt="" src=images/Draft_Text.svg  style="width:16px;"> Testo inserisce una casella di testo su più righe in un determinato punto. Usa [il tipo di linea e il colore](Draft_Linestyle/it.md) impostati nella [barra di Draft](Draft_Tray/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Per creare un\'etichetta di testo con una linea guida e una freccia usare [Etichetta](Draft_Label/it.md). Per creare testo solido o lettere 3D usare [Forma da testo](Draft_ShapeString/it.md) con [Estrusione](Part_Extrude/it.md) di Part.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Per creare un elemento di testo con una freccia usare invece il comando [Etichetta](Draft_Label/it.md).
 
 <img alt="" src=images/Draft_Text_example.png  style="width:400px;"> 
-*Per posizionare una casella di testo basta un singolo punto*
-
-
-</div>
+*Singolo punto richiesto per posizionare il testo*
 
 
 
 ## Utilizzo
 
-See also: [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
+Vedi anche: [Barra di Draft](Draft_Tray/it.md) e [Aggancio](Draft_Snap/it.md).
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Premere il pulsante **<img src="images/Draft_Text.svg" width=16px> [Testo](Draft_Text/it.md)**, o premere i tasti **T** e poi **E**.
-2.  Selezionare un punto nella vista 3D, oppure digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
-3.  Immettere il testo desiderato, premendo **Invio** tra ogni riga.
-4.  Premere due volte **Invio** per completare l\'operazione.
-
-
-</div>
+1.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_Text.svg" width=16px> [Testo](Draft_Text/it.md)**.
+    -   Selezionare l\'opzione **Annotazione → <img src="images/Draft_Text.svg" width=16px> Testo** dal menu.
+    -   Usare la scorciatoia da tastiera: **T** poi **E**.
+2.  Si apre il pannello delle attività **Text**. Vedere [Opzioni](#Options.md) per maggiori informazioni.
+3.  Scegliere un punto nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
+4.  Inserire il testo desiderato, premere **Enter** per iniziare una nuova riga.
+5.  Premere **Enter** due volte o premere il pulsante **<img src="images/Button_valid.svg" width=16px> Crea testo** per terminare il comando.
 
 
 
 ## Opzioni
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+Le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività possono essere modificate. Vedere [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md). Le scorciatoie menzionate qui sono le scorciatoie predefinite.
+
+-   Per inserire manualmente le coordinate, inserire le componenti X, Y e Z e premere **Enter** dopo ognuna di esse. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
+-   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **T** o fare clic sulla casella di controllo **Continua** per attivare o disattivare la modalità continua. Se la modalità continua è attiva, il comando si riavvierà al termine, consentendo di continuare a creare testi. Il collegamento non funziona nel secondo pannello delle attività. Questa opzione non è disponibile nel primo pannello delle attività in FreeCAD versione 0.19 e precedenti.
+-   Premere **S** per attivare o disattivare [Aggancia](Draft_Snap/it.md).
+-   Premere **Esc** o il pulsante **Chiudi** per interrompere il comando.
 
 
-<div class="mw-translate-fuzzy">
 
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando si hanno i valori desiderati per inserire il punto.
--   Tenere premuto **Ctrl** mentre si digita il testo per forzare [l\'aggancio](Draft_Snap.md) del proprio punto alla posizione di aggancio più vicina, indipendentemente dalla distanza.
--   Premere**Invio** o **↓ freccia in giù** per inserire una nuova riga di testo.
--   Premere **↑ freccia in su** per modificare la riga di testo precedente.
--   Premere due volte **Invio** o **↓ freccia in giù** per finire di editare il testo.
--   Premere il tasto **Esc** o il pulsante {{button|Chiudi}} per interrompere il comando corrente.
+## Note
 
-
-</div>
-
-## Notes
-
-
-<div class="mw-translate-fuzzy">
-
-**Attenzione:** I testi creati con la [versione 0.18](Release_notes_0.18/it.md) non sono retrocompatibili, quindi eseguire il backup del proprio lavoro se si prova ad aprire con versioni precedenti i file creati con la 0.18.
-
-
-</div>
+-   Un Testo può essere modificato facendo doppio clic su di esso nella [Vista albero](Tree_view/it.md). {{Version/it|0.20}}
+-   I Testi creati o salvati con [FreeCAD versione 1.0](Release_notes_1.0/it.md) non sono compatibili con le versioni precedenti.
 
 
 
 ## Proprietà
 
-See also: [Property editor](Property_editor.md).
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
 
-A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated.
+Un oggetto Draft Testo deriva da un oggetto [App FeaturePython](App_FeaturePython/it.md) e ne eredita tutte le proprietà. Le seguenti proprietà sono aggiuntive se non diversamente specificato.
 
-### Data
+
+
+### Dati
 
 
 {{TitleProperty|Base}}
 
+-    **Placement|Placement**: specifica la posizione del testo nella [Vista 3D](3D_view/it.md). Vedere [Posizionamento](Placement/it.md).
 
-<div class="mw-translate-fuzzy">
-
-### Dati
-
--    **Text**: specifica il contenuto del blocco di testo come un elenco di stringhe; ogni elemento dell\'elenco separato da una virgola indica una nuova riga.
-
--    **Position**: specifica il punto base della prima riga del blocco di testo.
-
--    **Angle**: specifica la rotazione della linea di base della prima riga del blocco di testo.
-
--    **Axis**: specifica l\'asse da utilizzare per la rotazione.
+-    **Text|StringList**: specifica il contenuto del testo. Ciascun elemento nell\'elenco rappresenta una nuova riga di testo.
 
 
-</div>
 
-### View
+### Vista
 
 
 {{TitleProperty|Annotation}}
 
--    **Annotation Style|Enumeration**: specifies the annotation style applied to the text. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
+-    **Annotation Style|Enumeration**: specifica lo stile di annotazione applicato al testo. Vedere [Stile delle annotazioni](Draft_AnnotationStyleEditor/it.md).
 
--    **Scale Multiplier|Float**: specifies the general scaling factor applied to the text.
+-    **Scale Multiplier|Float**: specifica il fattore di scala generale applicato al testo.
 
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|World}} the text will be displayed on a plane defined by its **Placement**. If it is {{value|Screen}} the text will always face the screen. This is an inherited property. The mentioned options are the renamed options (<small>(v1.0)</small> ).
+-    **Display Mode|Enumeration**: specifica come viene visualizzato il testo. Se è {{value|World}} il testo verrà visualizzato su un piano definito dal suo **Placement**. Se è {{value|Screen}} il testo sarà sempre rivolto verso lo schermo. Questa è una proprietà ereditata. Le opzioni menzionate sono le opzioni rinominate ({{Version/it|1.0}}).
 
 
 {{TitleProperty|Graphics}}
@@ -142,71 +101,36 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 
 {{TitleProperty|Text}}
 
+-    **Font Name|Font**: specifica il font utilizzato per disegnare il testo. Può essere un nome di font, come {{value|Arial}}, uno stile predefinito come {{value|sans}}, {{value|serif}} o {{value|mono}}, una famiglia come {{value|Arial,Helvetica,sans}}, o un nome con uno stile come {{value|Arial:Bold}}. Se il carattere specificato non viene trovato nel sistema, viene utilizzato un carattere predefinito.
 
-<div class="mw-translate-fuzzy">
+-    **Font Size|Length**: specifica la dimensione delle lettere. Il testo può essere invisibile nella [Vista 3D](3D_view/it.md) se questo valore è molto piccolo.
 
-### Vista
+-    **Justification|Enumeration**: specifica se l\'allineamento del testo: {{value|Left}}, {{value|Center}} o {{value|Right}}.
 
--    **Display Mode**: se è \"3D text\" il testo è allineato agli assi della scena, inizialmente situati sul piano XY; se è \"2D text\", il testo è sempre rivolto verso la fotocamera.
+-    **Line Spacing|Float**: specifica il fattore applicato all\'altezza di riga predefinita del testo.
 
--    **Font Name**: specifica il carattere da utilizzare per disegnare il testo. Può essere il nome di un carattere, ad esempio \"Arial\", uno stile predefinito come \"sans\", \"serif\" o \"mono\", una famiglia come \"Arial,Helvetica,sans\" o un nome con uno stile come \"Arial:Bold\". Se nel sistema non trova il font specificato, ne utilizza uno generico.
-
--    **Font Size**: specifica la dimensione delle lettere. Se l\'oggetto testo viene creato nella vista ad albero ma non è visibile alcun testo, aumentare la dimensione del testo fino a renderlo visibile.
-
--    **Justification**: specifica se il testo è allineato a sinistra, a destra o al centro del punto base.
-
--    **Line Spacing**: specifica lo spazio tra le righe di testo.
+-    **Text Color|Color**: specifica il colore del testo.
 
 
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-**Vedere anche:**
-
-[Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Testo può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
+Per creare un Draft Testo usare il metodo `make_text` ({{Version/it|0.19}}) del modulo Draft. Questo metodo sostituisce il metodo deprecato `makeText`.
 
 
 ```python
 text = make_text(string, placement=None, screen=False)
 ```
 
+-   Crea un oggetto `text`, in `placement`, che può essere un `FreeCAD.Placement`, ma anche un `FreeCAD.Rotation` o un { {incode\|FreeCAD.Vector}}.
 
-<div class="mw-translate-fuzzy">
+-    `stringa`è una stringa o un elenco di stringhe. Se si tratta di un elenco, ogni elemento viene visualizzato su una propria riga.
 
--   Crea un oggetto `Text`, nel `point` definito da un `FreeCAD.Vector`.
+-   Se `screen` è `True`, il testo è sempre rivolto verso la telecamera, altrimenti viene visualizzato in un piano definito dal suo **Placement**.
 
--    `stringlist`è una stringa o un elenco di stringhe; se si tratta di una lista, ogni elemento viene visualizzato nella sua propria riga.
-
--   Se `screen` è `True`, il testo è sempre rivolto verso la direzione della vista della telecamera, altrimenti si allinea con gli assi della scena e giace sul piano XY.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Le proprietà di visualizzazione di `Text` possono essere cambiate sovrascrivendo i suoi attributi; per esempio, sovrascrivendo `ViewObject.FontSize` con le nuove dimensioni in millimetri.
-
-
-</div>
+Le proprietà di visualizzazione di `text` possono essere cambiate sovrascrivendo i suoi attributi; per esempio, sovrascrivendo `ViewObject.FontSize` con le nuove dimensioni in millimetri.
 
 Esempio:
 
@@ -238,15 +162,6 @@ text3.ViewObject.FontSize = 200
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

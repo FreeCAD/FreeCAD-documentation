@@ -13,21 +13,27 @@
 
 [Arch Maillage vers une forme](Arch_MeshToShape/fr.md) convertit un objet [Mesh](Mesh/fr.md) ([Mesh Feature](Mesh_Feature/fr.md)) sélectionné en un objet [Shape](Shape/fr.md) ([Part Feature](Part_Feature/fr.md)).
 
-Cet outil est optimisé pour les objets à surfaces planes (pas de courbes). L\'outil correspondant **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part Créer une forme à partir du maillage](Part_ShapeFromMesh/fr.md)** à partir de l\'<img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Atelier Part](Part_Workbench/fr.md) peut être plus adapté aux objets qui contiennent des surfaces courbes.
+Cet outil est optimisé pour les objets à surfaces planes (pas de courbes). L\'outil correspondant **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part Forme à partir d'un maillage](Part_ShapeFromMesh/fr.md)** à partir de l\'<img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [atelier Part](Part_Workbench/fr.md) peut être plus adapté aux objets qui contiennent des surfaces courbes.
+
+
 
 ## Utilisation
 
 1.  Sélectionnez un objet mesh (maille)
 2.  Appuyez sur l\'entrée **<img src="images/Arch_MeshToShape.svg" width=16px> [Maillage vers forme](Arch_MeshToShape/fr.md)** dans **Arch → Utilitaires → Maillage vers forme**.
 
+
+
 ## Propriétés
 
 ## Limitations
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
@@ -48,7 +54,7 @@ L\'extrait de code ci-dessus convertit le `obj` (un maillage) donné en une form
 
 -   Si `cut` est `True`, les trous dans les faces sont créés par soustraction.
 
-Exemple: 
+Exemple : 
 ```python
 import Arch, Mesh, BuildRegularGeoms
 

@@ -105,13 +105,7 @@ rc = page.addView(bal1)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

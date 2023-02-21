@@ -19,6 +19,8 @@ L\'outil <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:2
 <img alt="" src=images/TechDraw_SurfaceFinishSymbolExample2.png  style="width:330px;"> 
 *Le panneau des tâches avec le style ASME sélectionné. À droite, le symbole créé.*
 
+
+
 ## Utilisation
 
 1.  Sélectionnez une vue existante.

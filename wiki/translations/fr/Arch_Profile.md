@@ -17,6 +17,8 @@ Voir la [liste des préréglages disponibles](https://github.com/FreeCAD/FreeCAD
 
 L\'outil Profilé est également intégré à l\'outil [Arch Structure](Arch_Structure/fr.md), tous les profilés prédéfinis y sont également disponibles.
 
+
+
 ## Utilisation
 
 1.  Appuyez sur le bouton **<img src="images/Arch_Profile.svg" width=16px> [Profilé](Arch_Profile/fr.md)
@@ -24,7 +26,11 @@ L\'outil Profilé est également intégré à l\'outil [Arch Structure](Arch_Str
 2.  Sélectionnez un préréglage dans le panneau des tâches de l\'outil
 3.  Cliquez sur un point de la vue 3D pour placer le profilé
 
+
+
 ## Propriétés
+
+
 
 ### Données
 
@@ -39,6 +45,8 @@ L\'outil Profilé est également intégré à l\'outil [Arch Structure](Arch_Str
 -    **Web Thickness**: épaisseur de l\'âme du profilé (profilés H et I uniquement)
 
 -    **Flange Thickness**: épaisseur de la semelle du profilé (profilés H et I uniquement)
+
+
 
 ## Ajouter des profilés personnalisés 
 
@@ -71,6 +79,8 @@ Toutes les mesures doivent être en millimètres. Les classes possibles de profi
 -   T : profil en T
 
 Des types de profils supplémentaires peuvent être créés, mais une classe correspondante doit d\'abord être définie dans [ArchProfile.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/ArchProfile.py).
+
+
 
 ## Script
 

@@ -9,6 +9,8 @@
 
 # TechDraw PageDefault/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug Standardseite erstellt ein neues Page-Objekt (Zeichnungsblatt) unter Verwendung der in den [TechDraw Einstellungen](TechDraw_Preferences/de.md) festgelegten Standardvorlage.
@@ -16,9 +18,13 @@ Das Werkzeug Standardseite erstellt ein neues Page-Objekt (Zeichnungsblatt) unte
 <img alt="" src=images/A4_LandscapeTD.svg  style="width:400px;"> 
 *Eine Vorlage, die mit TechDraw geliefert wird: A4 im Querformat, mit editierbaren Textfeldern*
 
+
+
 ## Anwendung
 
 -   Die Schaltfläche **<img src="images/TechDraw_PageDefault.svg" width=16px> [Neues Zeichnungsblatt aus der Standardvorlage erstellen](TechDraw_PageDefault/de.md)** drücken. (Ein aktives Dokument muss vorhanden sein).
+
+
 
 ## Hinweise
 
@@ -39,6 +45,11 @@ Wenn in der Konfigurationsdatei `user.cfg` keine Standardvorlage angegeben ist, 
 
 
 :   wobei `$INSTALL_DIR` das Verzeichnis ist, in welchem FreeCAD installiert wurde. Das kann z.B. so aussehen:
+
+
+
+
+
 :   
     
 ```python
@@ -47,7 +58,11 @@ Wenn in der Konfigurationsdatei `user.cfg` keine Standardvorlage angegeben ist, 
 ```
     
 
+
+
 ## Eigenschaften
+
+
 
 ### Daten
 
@@ -71,6 +86,8 @@ Wenn in der Konfigurationsdatei `user.cfg` keine Standardvorlage angegeben ist, 
 
 -    {{PropertyData/de|Next Balloon Index}}: Autonummerierung für Balloons.
 
+
+
 ### Ansicht
 
 
@@ -80,11 +97,15 @@ Wenn in der Konfigurationsdatei `user.cfg` keine Standardvorlage angegeben ist, 
 
 -    {{PropertyView/de|Grid Spacing}}: Abstand zwischen den Rasterlinien in mm. <small>(v0.20)</small> 
 
+
+
 ## Skripten
 
 Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Werkzeug Standardseite kann in [Makros](Macros/de.md) und von der [Python](Python/de.md) Konsole aus mit den folgenden Funktionen verwendet werden: 
+Das Werkzeug Standardseite kann in [Makros](Macros/de.md) und von der [Python](Python/de.md) Konsole aus mit den folgenden Funktionen verwendet werden:
+
+
 ```python
 page = FreeCAD.ActiveDocument.addObject('TechDraw::DrawPage','Page')
 template = FreeCAD.ActiveDocument.addObject('TechDraw::DrawSVGTemplate','Template')
@@ -93,6 +114,8 @@ page.Template = FreeCAD.ActiveDocument.Template
 ```
 
 -   Erstellt eine neue Seite im aktuellen Dokument
+
+
 
 ### Editierbare Textfelder 
 

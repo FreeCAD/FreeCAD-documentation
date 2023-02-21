@@ -32,13 +32,7 @@ Crée une contrainte de vitesse initiale d\'écoulement pour une analyse d\'éco
 Dans les analyses les plus simples, il n\'est pas nécessaire de spécifier la vitesse d\'écoulement initiale, mais cela est recommandé comme une bonne pratique.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

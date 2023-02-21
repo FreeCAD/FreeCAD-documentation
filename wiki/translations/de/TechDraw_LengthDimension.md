@@ -13,13 +13,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:24px;"> **TechDraw Längenmaß** fügt einer Ansicht ein lineares Maß hinzu. Das Längenmaß kann der Abstand zwischen zwei Eckpunkten, die Länge einer Kante oder der Abstand zwischen zwei Kanten sein. Das Maß stellt zunächst den projizierten Abstand dar (wie in der Zeichnung abgebildet). Wenn das Maß auf 3D-Referenzen basiert, kann es auf die tatsächliche Länge geändert werden, indem die {{PropertyData/de|Measure Type}} auf {{True}} gesetzt wird.
-
-
-</div>
+Das Werkzeug <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:24px;"> **TechDraw Längenmaß** fügt einer Ansicht ein lineares Maß hinzu. Das Längenmaß kann der Abstand zwischen zwei Eckpunkten, die Länge einer Kante oder der Abstand zwischen zwei Kanten sein. Das Maß stellt zunächst den projizierten Abstand dar (wie in der Zeichnung abgebildet). Wenn das Maß auf 3D-Referenzen basiert, kann es auf die tatsächliche Länge geändert werden, indem seine {{PropertyData/de|Measure Type}} auf {{Value|True}} gesetzt wird.
 
 <img alt="" src=images/TechDraw_Dimension_Length_example.png  style="width:220px;"> 
 *Längenbemaßung zweier beliebiger Knoten der Ansicht*
@@ -238,36 +232,31 @@ Der Dialog Maßeintrag ermöglicht die folgenden Einstellungen:
 
 {{Properties_Title|Dimension Format}}
 
-
-<div class="mw-translate-fuzzy">
-
--    {{PropertyView/de|Visibility}}(Sichtbarkeit): Setzt, ob das Maß sichtbar ist. `True` - sichtbar, `False` - versteckt.
-
-
-{{Properties_Title|Dimension Format}}
-
--    {{PropertyView/de|Font}}(Schriftart): Der Name der Schriftart, die für den Maßtext verwendet werden soll.
-
--    {{PropertyView/de|Fontsize}}(Schriftgröße): Höhe des Maßtextes.
-
--    {{PropertyView/de|Line Width}}(Linienbreite): Maßlinienstärke.
-
--    **Gap Factor ASME**(Lückenfaktor ASME): Legt die Weite der Lücke zwischen Geometrie und Anfang der Maßhilfslinie fest. Dieser Wert mal der Linienbreite (Line Width) ergibt die Weite der Lücke. {{Version/de|1.0}}
-
--    **Gap Factor ISO**(Lückenfaktor ISO): Legt die Weite der Lücke zwischen Geometrie und Anfang der Maßhilfslinie fest. Dieser Wert mal der Linienbreite (Line Width) ergibt die Weite der Lücke. {{Version/de|1.0}}
-
 -    {{PropertyView/de|Color}}(Farbe): Farbe für Linien und Text.
 
--    {{PropertyView/de|Standard And Style}}(Standard und Stil): Gibt die Norm (und deren Ausführungsart) an, nach der Maßeingeträge erfolgen:
-
-<img alt="Unterschiede zwischen den unterstützten Normen" src=images/TechDraw_Dimension_standardization.png  style="width:500px;">
+-    {{PropertyView/de|Flip Arrowheads}}(Pfeilspitzen umkehren): Standardmäßig zeigen bei *innerhalb* der Maßlinie/des Bogens plazierten Maßzahlen die Maßpfeile *nach außen*. Wird die Maßzahl *außerhalb* der Maßlinie/des Bogens platziert, zeigen die Maßpfeile *nach innen*.
 
 :   
 
-    :   ISO Oriented - Darstellung nach ISO 129-1; Text wird so gedreht, dass er parallel zur Tangente an die Maßlinie liegt.
-    :   ISO Referencing - Darstellung nach ISO 129-2; der Text steht immer horizontal, oberhalb einer kürzest möglichen Bezugslinie.
-    :   ASME Inlined - Darstellung nach ASME Y14.5M, der Text steht horizontal, in einem Ausbruch innerhalb der Maßlinie oder des Bogens eingefügt.
-    :   ASME Referencing - Darstellung nach ASME Y14.5M, der Text steht horizontal, mittig am Ende einer Bezugslinie.
+    :   
+        `False`
+        
+        \- Wählt die Richtung der Maßpfeile automatisch nach der obigen Regel aus.
+
+    :   
+        `True`
+        
+        \- Dreht die automatisch gewählte Richtung um.
+
+-    {{PropertyView/de|Font|Font}}: Der Name der Schriftart für die Maßeinträge.
+
+-    {{PropertyView/de|Fontsize|Length}}(Schrifthöhe): Höhe des Maßtextes.
+
+-    **Gap Factor ASME|Float**(Lückenfaktor ASME): Legt die Weite der Lücke zwischen Geometrie und Anfang der Maßhilfslinie fest. Dieser Wert mal der Linienbreite (Line Width) ergibt die Weite der Lücke. {{Version/de|1.0}}
+
+-    **Gap Factor ISO|Float**(Lückenfaktor ISO): Legt die Weite der Lücke zwischen Geometrie und Anfang der Maßhilfslinie fest. Dieser Wert mal der Linienbreite (Line Width) ergibt die Weite der Lücke. {{Version/de|1.0}}
+
+-    {{PropertyView/de|Line Width}}(Linienbreite): Maßlinienstärke.
 
 -    {{PropertyView/de|Rendering Extent}}(Darstellungsergänzung): Eher universelle Eigenschaft, die angibt, wie viel Platz ein Maßeintrag einnehmen darf:
 
@@ -285,22 +274,15 @@ Der Dialog Maßeintrag ermöglicht die folgenden Einstellungen:
     :   Radien werden mit einer Hinweislinie (einseitige Maßlinienbegrenzung) vom Mittelpunkt zum nächsten Punkt auf dem Kreisbogen gezeichnet.
     :   Expanded - Nur Durchmesser unterstützen diesen Wert, so dass sie horizontalen oder vertikalen Längenmaßen ähnlich dargestellt werden. Andere Maßarten werden wie bei der Normal-Ergänzung dargestellt.
 
--    {{PropertyView/de|Flip Arrowheads}}(Pfeilspitzen umkehren): Standardmäßig zeigen bei *innerhalb* der Maßlinie/des Bogens plazierten Maßzahlen die Maßpfeile *nach außen*. Wird die Maßzahl *außerhalb* der Maßlinie/des Bogens platziert, zeigen die Maßpfeile *nach innen*.
+-    {{PropertyView/de|Standard And Style|Enumeration}}(Standard und Stil): Gibt die Norm (und deren Ausführungsart) an, nach der Maßeingeträge erfolgen:
 
 :   
 
-    :   
-        `False`
-        
-        \- Wählt die Richtung der Maßpfeile automatisch nach der obigen Regel aus.
-
-    :   
-        `True`
-        
-        \- Dreht die automatisch gewählte Richtung um.
-
-
-</div>
+    :   <img alt="Unterschiede zwischen den unterstützten Normen" src=images/TechDraw_Dimension_standardization.png  style="width:500px;">
+    :   ISO Oriented - Darstellung nach ISO 129-1; Text wird so gedreht, dass er parallel zur Tangente an die Maßlinie liegt.
+    :   ISO Referencing - Darstellung nach ISO 129-2; der Text steht immer horizontal, oberhalb einer kürzest möglichen Bezugslinie.
+    :   ASME Inlined - Darstellung nach ASME Y14.5M, der Text steht horizontal, in einem Ausbruch innerhalb der Maßlinie oder des Bogens eingefügt.
+    :   ASME Referencing - Darstellung nach ASME Y14.5M, der Text steht horizontal, mittig am Ende einer Bezugslinie.
 
 
 

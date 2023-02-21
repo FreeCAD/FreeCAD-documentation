@@ -21,28 +21,28 @@ Bestimmte Eigenschaften der Ansicht, wie Hintergrundfarbe, Art der [Mausnavigati
 
 **Hinweis:**
 
-Verknüpfe Aktionen <small>(v0.19)</small> .
+Aktionen zu Verknüpfungen (link actions) {{Version/de|0.19}}.
 
 Da die [Baumansicht](tree_view/de.md) die meisten Objekte auflistet, die in der 3D-Ansicht sichtbar sind, sind viele der Aktionen identisch mit denen, die über die [Baumansicht](tree_view/de.md) ausgeführt werden können.
 
 Wenn der Standardarbeitsbereich [Start](Start_Workbench/de.md) aktiv ist, zeigt ein Rechtsklick auf die 3D-Ansicht nur einen Befehl:
 
--    **[Navigationsstile](Mouse_navigation.md)**: verschiedene Tastenstile zur Verwendung mit einer 3-Tasten-Maus oder einem Laptop-Trackpad.
+-    **[Navigationsstile](Mouse_navigation.md)**: verschiedene Einstellungen für die Verwendung einer 3-Tasten-Maus oder eines Laptop-Trackpads.
 
 Sobald jedoch ein [Arbeitsbereich](Workbenches/de.md) geladen ist, gibt es zusätzliche Befehle:
 
--    **Link Aktionen**: [Verknüpfung erstellen](Std_LinkMake/de.md).
+-    **Verknüpfungen...**: [Verknüpfung erstellen](Std_LinkMake/de.md).
 
     -   
-        **Link Gruppe erstellen**
+        **Verknüpfungsgruppe erstellen**
         
-        : [Einfache Gruppe](Std_LinkMakeGroup/de.md), [Group mit Links](Std_LinkMakeGroup/de.md), [Gruppe mit Transformations Links](Std_LinkMakeGroup/de.md).
+        : [Einfache Gruppe](Std_LinkMakeGroup/de.md), [Gruppe mit Verknüpfungen](Std_LinkMakeGroup/de.md), [Gruppe mit Transformationslinks](Std_LinkMakeGroup/de.md).
 
--    **[Einpassen](Std_ViewFitAll/de.md)**: schwenkt und zoomt die Ansicht so, dass alle Objekte im Dokument auf dem Bildschirm angezeigt werden.
+-    **[Einpassen](Std_ViewFitAll/de.md)**: verschiebt und zoomt die Ansicht so, dass alle Objekte im Dokument auf dem Bildschirm angezeigt werden.
 
--    **[Auswahl einpassen](Std_ViewFitSelection/de.md)**: schwenkt und zoomt die Ansicht, um das aktuell ausgewählte Objekt auf den Bildschirm einzupassen.
+-    **[Auswahl einpassen](Std_ViewFitSelection/de.md)**: verschiebt und zoomt die Ansicht, um das aktuell ausgewählte Objekt auf den Bildschirm einzupassen.
 
--    **[Zeichenstil](Std_DrawStyle/de.md)**: Original, Flache Linien, Schattiert, Drahtgitter, Punkte, Versteckte Linie, Keine Schattierung.
+-    **[Darstellungsart](Std_DrawStyle/de.md)**: Original, Punkte, Drahtgitter, Versteckte Linie, Keine Schattierung, Schattiert, Flache Linien.
 
 -    **[Standardansichten](Std_View_Menu/de.md)**: [Isometrisch](Std_ViewIsometric/de.md), [Vorne](Std_ViewFront.md), [Oben](Std_ViewTop/de.md), [Rechts](Std_ViewRight/de.md), [Hinten](Std_ViewRear/de.md), [Unten](Std_ViewBottom.md), [Links](Std_ViewLeft/de.md), [Nach links drehen](Std_ViewRotateLeft/de.md), [Nach rechts drehen](Std_ViewRotateRight/de.md).
 
@@ -50,7 +50,7 @@ Sobald jedoch ein [Arbeitsbereich](Workbenches/de.md) geladen ist, gibt es zusä
 
 -    **Dokumentfenster**: [Angedockt](Std_ViewDockUndockFullscreen/de.md), [Abgedockt](Std_ViewDockUndockFullscreen/de.md) und [Vollbild](Std_ViewDockUndockFullscreen/de.md).
 
-Darüber hinaus können je nach aktivem Arbeitsbereich und aktivem Objekt weitere kontextabhängige Befehle verfügbar werden.
+Außerdem können abhängig vom Arbeitsbereich und dem aktiven Objekt weitere kontextabhängige Befehle vorhanden sein.
 
 Zum Beispiel mit dem Arbeitsbereich [Part](Part_Workbench/de.md) und einem Objekt ausgewählt:
 

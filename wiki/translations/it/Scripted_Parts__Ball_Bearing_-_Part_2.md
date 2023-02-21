@@ -65,21 +65,12 @@ Il corretto flusso di lavoro basato su Sketcher per inserire le sfere sarebbe:
 In questo caso, questo non è efficace, inserire delle primitive e posizionarle è più facile e veloce.
 Quindi usiamo lo stesso metodo usato in [Parti con script: Cuscinetto a sfere - Parte 1](Scripted_Parts:_Ball_Bearing_-_Part_1/it.md).
 
-
-<div class="mw-translate-fuzzy">
-
 ### Link
 
 [Script di oggetti](Scripted_objects/it.md): La pagina wiki che spiega i principi fondamentali di scripting
 [Script di dati topologici](Topological_data_scripting/it.md): Un tutorial per fornire le basi di scripting
 [Parti con script: Cuscinetto a sfere - Parte 1](Scripted_Parts:_Ball_Bearing_-_Part_1/it.md): Costruirlo con primitive di Parte
 [Bearings from scripted sketches](http://linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html): Base per questo tutorial, grazie a JMG \...
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 ### Codice
 
@@ -122,8 +113,6 @@ PBall=TH/2
 #Create new document
 App.newDocument("Unnamed")
 App.setActiveDocument("Unnamed")
-App.ActiveDocument=App.getDocument("Unnamed")
-Gui.ActiveDocument=Gui.getDocument("Unnamed")
 #
 #Lines for basic shape of outer ring
 L1o=Part.makeLine((R4,0,TH-RR),(R4,0,RR))
@@ -176,17 +165,14 @@ for i in range(NBall):
   Part.show(Ball)
 #
 #Make it pretty#
-App.activeDocument().recompute()
-Gui.activeDocument().activeView().viewAxometric()
+App.ActiveDocument().recompute()
+Gui.ActiveDocument.ActiveView.viewAxometric()
 Gui.SendMsgToActiveView("ViewFit")
 ---
 
 # Scripted Parts: Ball Bearing - Part 2/it
 
  
-
-</div>
-
 
 {{Powerdocnavi
 

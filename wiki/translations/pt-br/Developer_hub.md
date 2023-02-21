@@ -11,6 +11,8 @@ These pages are in the early stage of development. If you can\'t find the inform
 
 The developer documentation comprises the following sections:
 
+
+
 ### Compilação do FreeCAD 
 
 -   [Github repo](https://github.com/FreeCAD/FreeCAD). If you are new to git, read [Source code management](Source_code_management.md)
@@ -113,8 +115,8 @@ FreeCAD, though usable in certain areas, is at the beginning of a long way into 
 
 ## Community
 
--   [IRC channel](irc://chat.freenode.net/freecad) ,synchronized with [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
--   [Development forum](https://forum.freecadweb.org/viewforum.php?f=6)
+-   [IRC channel](ircs://irc.libera.chat:6697/freecad) ,synchronized with [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
+-   [Development forum](https://forum.freecad.org/viewforum.php?f=6)
 
 -   [Development roadmap](Development_roadmap.md)
 

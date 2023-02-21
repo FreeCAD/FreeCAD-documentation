@@ -21,29 +21,55 @@ Questa guida è una lista di scorciatoie per fare lavorare rapidamente un progra
 
 ## La dichiarazione Import 
 
-PySide non viene caricato automaticamente con Python, prima di usarlo deve essere richiamato. Il seguente comando: 
+PySide non viene caricato automaticamente con Python, prima di usarlo deve essere richiamato. Il seguente comando:
+
+
 ```python
 from PySide import QtCore
 from PySide import QtGui
-``` carica le 2 parti di PySide - QtGui possiede le classi per la gestione dell\'interfaccia grafica mentre QtCore contiene classi che non riguardano direttamente la gestione della GUI (ad esempio timer e geometria). Anche se è possibile importare solo quello che è necessario, generalmente sono necessarie entrambe e entrambe devono essere importate.
+```
+
+carica le 2 parti di PySide - QtGui possiede le classi per la gestione dell\'interfaccia grafica mentre QtCore contiene classi che non riguardano direttamente la gestione della GUI (ad esempio timer e geometria). Anche se è possibile importare solo quello che è necessario, generalmente sono necessarie entrambe e entrambe devono essere importate.
 
 Le istruzioni di importazione non sono ripetute nei frammenti seguenti; si presume che venga fatto all\'inizio in ogni caso.
 
+## Simplest Example 
+
+
+<div class="mw-translate-fuzzy">
+
 ## L\'esempio più semplice 
 
-L\'interazione più semplice con PySide è quella di presentare all\'utente un messaggio che può solo essere accettato: 
+L\'interazione più semplice con PySide è quella di presentare all\'utente un messaggio che può solo essere accettato:
+
+
+</div>
+
+
 ```python
 reply = QtGui.QMessageBox.information(None,"","Houston, we have a problem")
 ```
 
 ![](images/PySideScreenSnapshot5.jpg )
 
+## Yes or No Query 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Richiedere una risposta Si o No 
 
-La successiva interazione semplice consiste nel chiedere di rispondere si o no: 
+La successiva interazione semplice consiste nel chiedere di rispondere si o no:
+
+
+</div>
+
+
 ```python
 reply = QtGui.QMessageBox.question(None, "", "This is your chance to answer, what do you think?",
-         QtGui.QMessageBox.Yes {{!``` QtGui.QMessageBox.No, QtGui.QMessageBox.No) if reply == QtGui.QMessageBox.Yes:
+         QtGui.QMessageBox.Yes {{!```
+
+QtGui.QMessageBox.No, QtGui.QMessageBox.No) if reply == QtGui.QMessageBox.Yes:
 
         # this is where the code relevant to a 'Yes' answer goes
         pass
@@ -57,9 +83,19 @@ if reply == QtGui.QMessageBox.No:
 
 ![](images/PySideScreenSnapshot6.jpg )
 
+## Enter Text Query 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Richiedere l\'inserimento di un testo 
 
-La prossima parte di codice chiede all\'utente di inserire un testo. Notare che il testo può essere prodotto usando qualsiasi tasto della tastiera: 
+La prossima parte di codice chiede all\'utente di inserire un testo. Notare che il testo può essere prodotto usando qualsiasi tasto della tastiera:
+
+
+</div>
+
+
 ```python
 reply = QtGui.QInputDialog.getText(None, "Ouija Central","Enter your thoughts for the day:")
 if reply[1]:
@@ -72,16 +108,28 @@ else:
 
 ![](images/PySideScreenSnapshot7.jpg )
 
-Ricordare che, anche se vengono inserite solo delle cifre, per esempio \"1234\", il testo è trattato da stringa e deve essere convertito in numero, intero o in virgola mobile, con uno dei seguenti modi: 
+Ricordare che, anche se vengono inserite solo delle cifre, per esempio \"1234\", il testo è trattato da stringa e deve essere convertito in numero, intero o in virgola mobile, con uno dei seguenti modi:
+
+
 ```python
 anInteger = int(userInput) # to convert to an integer from a string representation
 
 aFloat = float(userInput) # to convert to a float from a string representation
 ```
 
+## More Than 2 Buttons 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Più di 2 pulsanti 
 
-L\'esempio finale del livello base spiega come costruire un dialogo con un numero arbitrario di pulsanti. Questo esempio è programmaticamente troppo complesso per essere invocato da una singola istruzione Python quindi dovrebbe essere contenuto nella pagina successiva, che è quella degli esempi PySide di livello medio. Ma d\'altra parte questo è sovente tutto ciò che è necessario senza entrare in definizioni GUI complesse, quindi questo codice viene posto alla fine della pagina del livello base di PySide invece che all\'inizio della pagina del livello medio. 
+L\'esempio finale del livello base spiega come costruire un dialogo con un numero arbitrario di pulsanti. Questo esempio è programmaticamente troppo complesso per essere invocato da una singola istruzione Python quindi dovrebbe essere contenuto nella pagina successiva, che è quella degli esempi PySide di livello medio. Ma d\'altra parte questo è sovente tutto ciò che è necessario senza entrare in definizioni GUI complesse, quindi questo codice viene posto alla fine della pagina del livello base di PySide invece che all\'inizio della pagina del livello medio.
+
+
+</div>
+
+
 ```python
 from PySide import QtGui, QtCore
 
@@ -134,7 +182,7 @@ class MyButtons(QtGui.QDialog):
         self.close()
 
 def routine1():
-    print 'routine 1'
+    print ('routine 1')
 
 form = MyButtons()
 form.exec_()
@@ -148,15 +196,22 @@ elif form.retStatus==4:
     routine4()
 elif form.retStatus==5:
     routine5()
+```
 
-``` Ogni parte del codice in prova è inserito in una funzione di nome \'routine1()\', \'routine2()\', etc. Si possono utilizzare molti pulsanti, tutti quelli che si possono posizionare nello schermo. Se necessario, seguire gli schemi del codice di esempio per aggiungere pulsanti extra - la finestra di dialogo imposterà la sua larghezza di conseguenza, fino alla larghezza dello schermo.
+Ogni parte del codice in prova è inserito in una funzione di nome \'routine1()\', \'routine2()\', etc. Si possono utilizzare molti pulsanti, tutti quelli che si possono posizionare nello schermo. Se necessario, seguire gli schemi del codice di esempio per aggiungere pulsanti extra - la finestra di dialogo imposterà la sua larghezza di conseguenza, fino alla larghezza dello schermo.
 
 ![](images/PySideScreenSnapshot8.jpg )
 
-Vi è una linea di codice: 
+Vi è una linea di codice:
+
+
 ```python
 buttonBox = QtGui.QDialogButtonBox(QtCore.Qt.Horizontal)
-``` che allinea orizzontalmente i pulsanti. Per allinearli in verticale, modificare la riga di codice in questo modo: 
+```
+
+che allinea orizzontalmente i pulsanti. Per allinearli in verticale, modificare la riga di codice in questo modo:
+
+
 ```python
 buttonBox = QtGui.QDialogButtonBox(QtCore.Qt.Vertical)
 ```

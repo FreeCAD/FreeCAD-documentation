@@ -6,11 +6,15 @@
 
 </div>
 
+
+
 ## Introduction
 
 Si vous êtes dans une esquisse, la boîte de dialogue Esquisse apparaît dans le panneau Vue combo de l\'onglet Tâches (barre de tâches). Pour sauter dans une esquisse, sélectionnez-la dans l\'arborescence du modèle en double-cliquant dessus ou cliquez dessus avec le bouton droit de la souris, puis sélectionnez **Modifier l\'esquisse** dans le menu contextuel. Une autre possibilité consiste à cliquer sur l\'icône de la barre d\'outils <img alt="" src=images/Sketcher_EditSketch.svg‎‎  style="width:20px;"> ([Modifier l\'esquisse](Sketcher_EditSketch/fr.md)).
 
 La boîte de dialogue comprend les sections suivantes :
+
+
 
 ## Messages du solveur 
 
@@ -29,6 +33,8 @@ Il existe deux options de messages du solveur :
 | **Mise à jour automatique**                 |                                                                                                                                                                                                                                                                                                                                                                              |
 |                                                      |                                                                                                                                                                                                                                                                                                                                                                              |
 +++
+
+
 
 ## Contrôle avancé du solveur 
 
@@ -114,6 +120,8 @@ Vous pouvez spécifier les éléments suivants :
 
 *Remarque :* la plupart des paramètres du solveur ne sont d\'aucune utilité pratique. Ils peuvent toutefois aider à tester et à comprendre les solveurs.
 
+
+
 ## Modifier les contrôles 
 
 Cette section de dialogue peut être supprimée en décochant l\'option **Montrer la section *Contrôles d\'édition*** dans les [préférences Sketcher](Sketcher_Preferences/fr.md). {{Version/fr|1.0}}
@@ -150,6 +158,8 @@ Vous pouvez définir les contrôles suivants :
 |                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 +++
 
+
+
 ## Contraintes
 
 Cette section répertorie les contraintes de l\'esquisse. En décochant une contrainte dans la liste, vous pouvez la masquer.
@@ -177,6 +187,8 @@ Vous pouvez définir les options suivantes :
 |                                             | Le GeoID est le numéro de l\'élément d\'esquisse moins 1. L\'origine du système de coordonnées a le GeoID *-1*.                                                                                                                                                                                                                                                                 |
 |                                             | Par exemple, une dimension allant de l\'origine au centre d\'un cercle avec le numéro d\'élément \'2\' obtiendra cette information: \[(1,3);(-1,1)\]                                                                                                                                                                                                                            |
 +++
+
+
 
 ## Éléments
 

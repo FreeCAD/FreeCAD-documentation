@@ -90,13 +90,13 @@ Vedere in [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) la de
 
 -    **Railing Height Right|Length**: Height of the right railing of the stairs or landing.
 
--    **Railing Left|String**: Name of the left railing object.
+-    **Railing Left|LinkHidden**: The left railing object. <small>(v0.20)</small> : Property type updated from {{Incode|String}} to {{Incode|LinkHidden}}.
 
 -    **Railing Offset Left|Length**: Offset of the left railing from the edge of the stairs or landing.
 
 -    **Railing Offset Right|Length**: Offset of the right railing from the edge of the stairs or landing.
 
--    **Railing Right|String**: Name of the right railing object.
+-    **Railing Right|LinkHidden**: The right railing object. <small>(v0.20)</small> : Property type updated from {{Incode|String}} to {{Incode|LinkHidden}}.
 
 
 {{TitleProperty|Stairs}}

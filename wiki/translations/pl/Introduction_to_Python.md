@@ -383,7 +383,7 @@ There are several of ways to execute a Python program. In Windows, simply right-
 
 -   On Linux it is usually **/home/<username>/.local/share/FreeCAD/Mod/** (<small>(v0.20)</small> ) or **/home/<username>/.FreeCAD/Mod/** ({{VersionMinus|0.19}}).
 -   On Windows it is **%APPDATA%\FreeCAD\Mod\**, which is usually **C:\Users\<username>\Appdata\Roaming\FreeCAD\Mod\**.
--   On Mac OSX it is usually **/Users/<username>/Library/Preferences/FreeCAD/Mod/**.
+-   On macOS it is usually **/Users/<username>/Library/Application Support/FreeCAD/Mod/**.
 
 Let\'s add a subfolder there called **scripts** and then write a file like this:
 

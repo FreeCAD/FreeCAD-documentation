@@ -1,9 +1,11 @@
 # Standard Menu/it
 {{TOCright}}
 
+
+
 ## Introduzione
 
-Il menu principale standard di FreeCAD consente di accedere agli strumenti che vengono utilizzati in tutti gli ambienti di lavoro. Può avere un aspetto leggermente diverso, secondo l\'ambiente desktop (KDE, Gnome, Windows, OS X, ecc). Gli ambienti di lavoro possono anche aggiungere dei sottomenu a seconda di come sono strutturati i loro strumenti.
+Il menu principale standard di FreeCAD consente di accedere agli strumenti che vengono utilizzati in tutti gli ambienti di lavoro. Può avere un aspetto leggermente diverso, secondo l\'ambiente desktop (KDE, Gnome, Windows, macOS, ecc). Gli ambienti di lavoro possono anche aggiungere dei sottomenu a seconda di come sono strutturati i loro strumenti.
 
 
 {{StdMenu| File &nbsp;&nbsp;&nbsp; Modifica &nbsp;&nbsp;&nbsp; Visualizza &nbsp;&nbsp;&nbsp; Strumenti &nbsp;&nbsp;&nbsp; Macro &nbsp;&nbsp;&nbsp; Finestre &nbsp;&nbsp;&nbsp; Aiuto }}
@@ -11,6 +13,8 @@ Il menu principale standard di FreeCAD consente di accedere agli strumenti che v
 
 
 *Il menu standard*
+
+
 
 ## Sottomenu
 

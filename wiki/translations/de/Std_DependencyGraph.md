@@ -31,9 +31,23 @@ Um den Befehl verwenden zu können, muss eine Drittanbieter Software namens [Gra
 
 Lade das **graphviz-2.xx** Installationsprogramm von der [Graphviz Download Seite](https://graphviz.org/download/#windows) herunter und starten es, um es zu installieren. Einige ältere Versionen scheinen Probleme bei der Anzeige des Graphen zu haben; Version 2.38 und neuer sind als zuverlässig bekannt. Du kannst alle Graphviz Versionen auf [Gitlab](https://gitlab.com/graphviz/graphviz/-/releases) finden.
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ### Mac/OSX
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Du kannst graphviz mit [Homebrew](https://brew.sh/) installieren. (Werde bei der Installation von Homebrew nicht nervös, wenn MacOS dich auffordert, Updates zu installieren, z.B. für die Xcode Kommandozeilenprogramme. Diese Updates werden später durch den Installationsprozess durchgeführt).
+
+
+</div>
 
 
 {{Code|lang=text|code=
@@ -74,7 +88,13 @@ Und deshalb kannst du FreeCAD anweisen, in diesem Verzeichnis zu suchen.
 
 ### Linux
 
+
+<div class="mw-translate-fuzzy">
+
 Auf den meisten Linux Distributionen (Debian/Ubuntu, Fedora, OpenSUSE) musst du nur das Paket graphviz aus den Repositorien installieren. Ähnlich wie bei Mac/OSX versuche jedoch, in Fällen, in denen die Graphviz Binärdateien an einem nicht standardmäßigen Ort installiert sind, das Programm mit dem Befehl zu finden:
+
+
+</div>
 
 
 {{Code|lang=text|code=

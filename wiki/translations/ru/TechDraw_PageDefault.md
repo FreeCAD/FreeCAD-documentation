@@ -12,16 +12,22 @@
 
 </div>
 
+
+
 ## Описание
 
-The New Default tool creates a new Page object using the the template file specified in the [TechDraw Preferences](TechDraw_Preferences.md).
+The **New Default** tool creates a new Page object using the the template file specified in the [TechDraw Preferences](TechDraw_Preferences.md).
 
 <img alt="" src=images/A4_LandscapeTD.svg  style="width:400px;"> 
 *Default template that comes with TechDraw: A4 page in landscape orientation, with editable text fields*
 
+
+
 ## Применение
 
 -   Press the **<img src="images/TechDraw_PageDefault.svg" width=16px> [Insert Default Page](TechDraw_PageDefault.md)** button. (An active document must exist.)
+
+
 
 ## Примечания
 
@@ -42,6 +48,11 @@ The New Default tool creates a new Page object using the the template file speci
 
 
 :   Where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example:
+
+
+
+
+
 :   
     
 ```python
@@ -49,6 +60,8 @@ The New Default tool creates a new Page object using the the template file speci
     
 ```
     
+
+
 
 ## Свойства
 
@@ -62,7 +75,7 @@ The New Default tool creates a new Page object using the the template file speci
 
 {{TitleProperty|Page}}
 
--    **Keep Updated**: If false, the Page is not updated with changes to the 3D model. Useful for complicated/slow drawings. See Notes.
+-    **Keep Updated**: If false, the Page is not updated with changes to the 3D model. Useful for complicated/slow drawings. See [Notes](#Notes.md).
 
 -    **Template**: A link to this Page\'s [Template](TechDraw_Templates.md) object.
 
@@ -81,6 +94,8 @@ The New Default tool creates a new Page object using the the template file speci
 
 -    **Grid Spacing**: Distance between grid lines in mm. <small>(v0.20)</small> 
 
+
+
 ## Программирование
 
 
@@ -88,7 +103,9 @@ The New Default tool creates a new Page object using the the template file speci
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The New Default tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions: 
+The New Default tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+
+
 ```python
 page = FreeCAD.ActiveDocument.addObject('TechDraw::DrawPage','Page')
 template = FreeCAD.ActiveDocument.addObject('TechDraw::DrawSVGTemplate','Template')

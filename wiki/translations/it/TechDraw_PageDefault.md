@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -25,6 +27,8 @@ Lo strumento Nuovo disegno standard crea una nuova pagina utilizzando il file mo
 <img alt="" src=images/A4_LandscapeTD.svg  style="width:400px;"> 
 *Modello predefinito fornito con TechDraw: pagina A4 con orientamento orizzontale, con i campi di testo modificabili*
 
+
+
 ## Utilizzo
 
 
@@ -34,6 +38,8 @@ Lo strumento Nuovo disegno standard crea una nuova pagina utilizzando il file mo
 
 
 </div>
+
+
 
 ## Note
 
@@ -81,6 +87,8 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 ```
     
 
+
+
 ## Proprietà
 
 ### Data
@@ -118,6 +126,8 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 -    **Grid Spacing**: Distance between grid lines in mm. <small>(v0.20)</small> 
 
+
+
 ## Script
 
 
@@ -148,6 +158,8 @@ page.Template = FreeCAD.ActiveDocument.Template
 ```
 
 -   Crea una nuova pagina nel documento corrente
+
+
 
 ### Campi di testo modificabili 
 

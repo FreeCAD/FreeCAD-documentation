@@ -1,25 +1,23 @@
 # Macro GuiResetToolbars/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=GuiResetToolbars
 |Name/it=Gui Reset Tool bars
 |Description=Questa macro ripristina la posizione delle barre degli strumenti. Esegui la macro in un workbench che ha una barra degli strumenti mancante.
-|Author=PROTORS
+|Author=PR-DC
 |Download=[https://wiki.freecadweb.org/images/f/f8/GuiResetToolbars.svg ToolBar Icon]
 |Date=2020-04-21
 |Version=1.0.0
 |FCVersion= 0.18.4 e piu
-|SeeAlso=[https://github.com/protors/ResetToolbars/ Github repository]
+|SeeAlso=[https://github.com/PR-DC/GuiResetToolbars/ Github repository]
 }}
 
 
-</div>
 
 ## Descrizione
 
 Questa macro ripristina la posizione delle barre degli strumenti.
+
+
 
 ## Usare
 
@@ -27,7 +25,7 @@ Esegui la macro in un workbench che ha una barra degli strumenti mancante.
 
 ## Script
 
-ToolBar Icon ![](images/GuiResetToolbars.svg )
+Icona barra strumenti ![](images/GuiResetToolbars.svg )
 
 **GuiResetToolbars.FCMacro**
 
@@ -80,6 +78,8 @@ tb = mw.findChildren(QtGui.QToolBar)
 for i in tb:
     mw.addToolBar(QtCore.Qt.TopToolBarArea, i)
 }}
+
+
 
 ## Link
 

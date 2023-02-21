@@ -1,12 +1,16 @@
 # Interface Customization/fr
 {{TOCright}}
 
+
+
 ## Introduction
 
 L\'interface FreeCAD est basée sur la boîte à outils [Qt](https://fr.wikipedia.org/wiki/Qt) et possède une organisation de pointe. Certains aspects de l\'interface peuvent être personnalisés. Vous pouvez, par exemple, ajouter des barres d\'outils personnalisées avec des outils de plusieurs ateliers ou des outils définis dans des macros et vous pouvez créer vos propres raccourcis clavier. Mais les menus et barres d\'outils par défaut fournis avec FreeCAD et ses ateliers ne peuvent pas être modifiés.
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *La boite de dialogue de personnalisation de l'interface*
+
+
 
 ## Utilisation
 
@@ -18,9 +22,13 @@ L\'interface FreeCAD est basée sur la boîte à outils [Qt](https://fr.wikipedi
 4.  Le bouton **Aide** ne fonctionne pas pour le moment.
 5.  Appuyez sur le bouton **Fermer** pour fermer la boîte de dialogue.
 
+
+
 ## Options
 
 Dans la boîte de dialogue Personnaliser, les onglets suivants sont disponibles:
+
+
 
 ### Commandes
 
@@ -28,6 +36,8 @@ Dans la boîte de dialogue Personnaliser, les onglets suivants sont disponibles:
 *L'onglet Commandes*
 
 Avec cet onglet, vous pouvez parcourir les commandes disponibles.
+
+
 
 #### Parcourir les commandes 
 
@@ -39,12 +49,16 @@ Avec cet onglet, vous pouvez parcourir les commandes disponibles.
 
 {{Top}}
 
+
+
 ### Clavier
 
 ![](images/Std_DlgCustomize_tab_Keyboard.png ) 
 *L'onglet Clavier*
 
 Dans cet onglet, des raccourcis clavier personnalisés peuvent être définis. Les raccourcis des macro-commandes peuvent être définis dans l\'onglet [Macros](#Macros.md).
+
+
 
 #### Ajouter un raccourci personnalisé 
 
@@ -56,15 +70,21 @@ Dans cet onglet, des raccourcis clavier personnalisés peuvent être définis. L
 6.  Appuyez sur le bouton **Attribuer** pour attribuer le nouveau raccourci.
 7.  Appuyez sur le bouton **Effacer** pour supprimer le raccourci entré. Cela supprimera également le contenu de la boîte **Raccourci actuel**. Notez que les raccourcis par défaut ne sont pas supprimés définitivement. Ils seront restaurés au redémarrage de FreeCAD.
 
+
+
 #### Supprimer un raccourci personnalisé 
 
 1.  Sélectionnez une catégorie de commandes dans la liste déroulante **Catégorie**.
 2.  Sélectionnez une commande dans le panneau **Commandes**.
 3.  Appuyez sur le bouton **Réinitialiser**.
 
+
+
 #### Supprimer tous les raccourcis personnalisés 
 
 1.  Appuyez sur le bouton **Tout réinitialiser**.
+
+
 
 #### Remarques (clavier) 
 
@@ -76,6 +96,8 @@ Dans cet onglet, des raccourcis clavier personnalisés peuvent être définis. L
 
 {{Top}}
 
+
+
 ### Ateliers
 
 ![](images/Std_DlgCustomize_tab_Workbenches.png ) 
@@ -83,11 +105,15 @@ Dans cet onglet, des raccourcis clavier personnalisés peuvent être définis. L
 
 Dans cet onglet, la liste des [Ateliers](Std_Workbench/fr.md) peut être modifiée. La liste **Ateliers activés** affiche les Ateliers tels qu\'ils apparaîtront dans le sélecteur d\'Ateliers.
 
+
+
 #### Désactiver un atelier 
 
 1.  Sélectionnez un établi dans la liste des **ateliers activés**.
 2.  Appuyez sur le bouton **<img src="images/Button_left.svg" width=16px>**.
 3.  L\'atelier sera déplacé vers la liste des **ateliers désactivés**
+
+
 
 #### Réactiver un atelier 
 
@@ -95,15 +121,21 @@ Dans cet onglet, la liste des [Ateliers](Std_Workbench/fr.md) peut être modifi�
 2.  Appuyez sur le bouton **<img src="images/Button_right.svg" width=16px>**.
 3.  L\'atelier sera déplacé vers la liste des **ateliers désactivés**.
 
+
+
 #### Réactiver tous les ateliers 
 
 1.  Appuyez sur le bouton **<img src="images/Button_add_all.svg" width=16px>**.
+
+
 
 #### Modifier une position d\'un atelier 
 
 1.  Sélectionnez un établi dans la liste des **Ateliers activés**.
 2.  Appuyez sur le bouton **<img src="images/Button_up.svg" width=16px>** ou sur le bouton **<img src="images/Button_down.svg" width=16px>**.
 3.  Répétez éventuellement cette opération jusqu\'à ce que l\'atelier soit à la bonne position.
+
+
 
 #### Trier les ateliers par ordre alphabétique 
 
@@ -112,6 +144,8 @@ Dans cet onglet, la liste des [Ateliers](Std_Workbench/fr.md) peut être modifi�
 
 {{Top}}
 
+
+
 ### Barre d\'outils 
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
@@ -119,9 +153,13 @@ Dans cet onglet, la liste des [Ateliers](Std_Workbench/fr.md) peut être modifi�
 
 Dans cet onglet, des barres d\'outils personnalisées peuvent être créées et modifiées.
 
+
+
 #### Sélectionnez l\'atelier 
 
 1.  Dans la liste déroulante à droite, sélectionnez l\'atelier dont vous souhaitez modifier les barres d\'outils personnalisées. L\'option {{Value|Global}} est disponible pour les barres d\'outils personnalisées qui devraient être disponibles dans tous les ateliers.
+
+
 
 #### Créer une barre d\'outils 
 
@@ -130,6 +168,8 @@ Dans cet onglet, des barres d\'outils personnalisées peuvent être créées et 
 3.  Appuyez sur le bouton **OK**.
 4.  La nouvelle barre d\'outils apparaîtra dans le panneau de droite.
 
+
+
 #### Renommer une barre d\'outils 
 
 1.  Sélectionnez une barre d\'outils dans le panneau de droite.
@@ -137,15 +177,21 @@ Dans cet onglet, des barres d\'outils personnalisées peuvent être créées et 
 3.  Saisissez un nouveau nom dans la boîte de dialogue qui s\'ouvre.
 4.  Appuyez sur le bouton **OK**.
 
+
+
 #### Supprimer une barre d\'outils 
 
 1.  Sélectionnez une barre d\'outils dans le panneau de droite.
 2.  Appuyez sur le bouton **Supprimer**.
 
+
+
 #### Désactiver une barre d\'outils 
 
 1.  Décochez la case devant le nom de la barre d\'outils dans le panneau de droite.
 2.  Une barre d\'outils désactivée sera invisible dans l\'interface FreeCAD.
+
+
 
 #### Ajouter une commande 
 
@@ -156,11 +202,15 @@ Dans cet onglet, des barres d\'outils personnalisées peuvent être créées et 
 5.  Ou sélectionnez \"\" pour ajouter un séparateur (une ligne entre deux boutons de la barre d\'outils).
 6.  Appuyez sur le bouton **<img src="images/Button_right.svg" width=16px>**.
 
+
+
 #### Supprimer une commande 
 
 1.  Si nécessaire, développez la barre d\'outils dans le panneau de droite.
 2.  Sélectionnez une commande.
 3.  Appuyez sur le bouton **<img src="images/Button_left.svg" width=16px>**.
+
+
 
 #### Modifier une position de commande 
 
@@ -168,6 +218,8 @@ Dans cet onglet, des barres d\'outils personnalisées peuvent être créées et 
 2.  Sélectionnez une commande.
 3.  Appuyez sur le bouton **<img src="images/Button_up.svg" width=16px>** ou sur le bouton **<img src="images/Button_down.svg" width=16px>**.
 4.  Répétez éventuellement cette opération jusqu\'à ce que la commande soit dans la bonne position.
+
+
 
 #### Remarques (Barres d\'outils) 
 
@@ -190,6 +242,8 @@ Si vous téléchargez une macro avec le <img alt="" src=images/Std_AddonMgr.svg 
 
 Si vous souhaitez utiliser une macro téléchargée à partir d\'une autre source, vous devrez l\'installer manuellement. Voir [Comment installer les macros](How_to_install_macros/fr.md) pour plus d\'informations.
 
+
+
 #### Ajouter une commande macro 
 
 1.  Dans la liste déroulante **Macro**, sélectionnez une macro.
@@ -207,10 +261,14 @@ Si vous souhaitez utiliser une macro téléchargée à partir d\'une autre sourc
 9.  La macro-commande apparaît dans le panneau de gauche.
 10. La macro-commande peut maintenant être sélectionnée dans l\'onglet [Barre d\'outils](#Barre_d'outils.md).
 
+
+
 #### Supprimer une commande macro 
 
 1.  Sélectionnez une commande macro dans le panneau de gauche.
 2.  Appuyez sur le bouton **Supprimer**.
+
+
 
 #### Modifier une commande macro 
 
@@ -221,13 +279,15 @@ Si vous souhaitez utiliser une macro téléchargée à partir d\'une autre sourc
 
 {{Top}}
 
+
+
 ### Mouvement de la Spaceball 
 
-Cet onglet est vide si aucune souris 3D n\'est détecté. Voir : [Périphériques d\'entrée de connexion 3D](3Dconnexion_input_devices/fr.md). {{Top}}
+Cet onglet est vide si aucune souris 3D n\'est détecté. Voir : [Périphériques d\'entrée de connexion 3D](3Dconnexion_input_devices/fr.md). 
 
 ### Boutons de la souris 3D 
 
-Cet onglet est vide si aucune souris 3D n\'est détecté. Voir : [Périphériques d\'entrée de connexion 3D](3Dconnexion_input_devices/fr.md). {{Top}}
+Cet onglet est vide si aucune souris 3D n\'est détecté. Voir : [Périphériques d\'entrée de connexion 3D](3Dconnexion_input_devices/fr.md). 
 
 ## Thèmes
 
@@ -239,30 +299,42 @@ Vous pouvez également créer votre propre thème si vous n\'êtes pas satisfait
 
 -    **$HOME/.FreeCAD/Gui/Stylesheets**(sous Linux).
 
--    **$HOME/Library/Preferences/FreeCAD/Gui/Stylesheets**(sous MacOS).
+-    **$HOME/Library/Application Support/FreeCAD/Gui/Stylesheets**(sous macOS).
 
 
 {{Top}}
+
+
 
 ## Extensions
 
 Les extensions offrent une autre façon de personnaliser l\'interface d\'utilisation. Vous trouverez ci-dessous quelques extensions créées par les utilisateurs de la communauté FreeCAD. Elles peuvent être téléchargées via le <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [gestionnaire des extensions](Std_AddonMgr/fr.md) (remarque: elles sont répertoriées dans l\'onglet Ateliers).
 
+
+
 ### Menu Cube 
 
 -   Dépôt Github : <https://github.com/triplus/CubeMenu>
+
+
 
 ### Transparence
 
 -   Dépôt Github : <https://github.com/triplus/Glass>.
 
+
+
 ### Thèmes des icônes 
 
 -   Dépôt Github : <https://github.com/triplus/IconThemes>
 
+
+
 ### Lanceur
 
 -   Dépôt Github: <https://github.com/triplus/Launcher>
+
+
 
 ### Menu Camembert 
 
@@ -271,6 +343,8 @@ Les extensions offrent une autre façon de personnaliser l\'interface d\'utilisa
 ### RemBench
 
 -   Dépôt Github : <https://github.com/triplus/RemBench>
+
+
 
 ### Raccourci
 

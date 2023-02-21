@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name:FEM CompPostCreateFunctions
-   MenuLocation:Results → Filter Functions
+   MenuLocation:
    Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM tutorial](FEM_tutorial.md)
+   SeeAlso:
 ---
 
 # FEM PostCreateFunctions
@@ -14,14 +14,10 @@
 
 ## Types
 
-At the moment you can choose between two geometric functions:
+You can choose these functions:
 
 -   <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> [FEM PostCreateFunctionPlane](FEM_PostCreateFunctionPlane.md)
 -   <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:24px;"> [FEM PostCreateFunctionSphere](FEM_PostCreateFunctionSphere.md).
-
-## Usage
-
-To create a function, use the toolbar button <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> or <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:24px;"> (whatever is currently visible). Note the small triangle besides it allowing you to choose the function type. Alternatively use the menu **Results → Filter functions → <img src="images/FEM_PostCreateFunctionPlane.svg" width=16px> Plane / <img src="images/FEM_PostCreateFunctionSphere.svg" width=16px> Sphere**.
 
 
 

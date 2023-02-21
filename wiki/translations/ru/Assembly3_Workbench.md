@@ -7,7 +7,7 @@
 
 ## Введение
 
-<img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/ru.md) это [внешний верстак](External_workbenches/ru.md), используемый для выполнения сборок различных тел, содержащихся в едином файле или нескольких документах. Верстак Assembly3 основан на нескольких изменениях основных функций, сделанных для версии FreeCAD 0.19 (например, [App Link](App_Link/ru.md)), поэтому его нельзя использовать с более ранними версиями.
+<img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/ru.md) это [внешний верстак](External_workbenches/ru.md), используемый для выполнения сборок различных тел, содержащихся в одном файле или нескольких документах. Верстак Assembly3 основан на нескольких изменениях основных функций, сделанных для версии FreeCAD 0.19 (например, [App Link](App_Link/ru.md)), поэтому его нельзя использовать с более ранними версиями.
 
 Основные особенности Верстака Assembly3:
 
@@ -21,21 +21,15 @@
 
 [наверх](#top.md)
 
-### Toolbars
 
-
-<div class="mw-translate-fuzzy">
 
 ### Панели инструментов 
 
 По состоянию на 2020 год верстак Assembly3 имеет следующие панели инструментов.
 
 
-</div>
 
-
-
-#### Основная панель инструментов 
+#### Главная Панель Инструментов 
 
 :   <img alt="" src=images/Assembly_New_Assembly.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_New_Group.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_New_Element.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_Import.svg‎‎  style="width:28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width:14px;"><img alt="" src=images/Assembly3_workbench_icon.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_QuickSolve.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_Move.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_AxialMove.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_QuickMove.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_LockMover.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_TogglePartVisibility.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_Trace.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_AutoRecompute.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_SmartRecompute.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_AutoFixElement.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_AutoElementVis.svg‎‎  style="width:28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width:14px;"><img alt="" src=images/Assembly_Add_Workplane.svg‎‎  style="width:28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width:14px;"><img alt="" src=images/Assembly_TreeItemUp.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_TreeItemDown.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMultiply.svg‎‎  style="width:28px;">
 
@@ -43,7 +37,7 @@
 <div class="mw-collapsible mw-collapsed">
 
 
-:   **Основная панель инструментов** содержит инструменты, покрывающие наиболее часто используемые функции верстака. Всплывающие подсказки покажут ярлыки клавиатуры.
+:   **Главная Панель Инструментов** содержит инструменты, охватывающие наиболее часто используемые функции верстака. Всплывающие подсказки выдадут сочетания клавиш.
 
 
 <div class="mw-collapsible-content toccolours">
@@ -124,7 +118,7 @@
 
 
 
-#### Панель основных ограничений 
+#### Панель Основных Ограничений 
 
 :   <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width:28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width:14px;"><img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width:28px;">
 
@@ -219,7 +213,7 @@
 
 
 
-#### Панель дополнительных ограничений 
+#### Панель Дополнительных Ограничений 
 
 :   <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width:28px;"> (Assembly3 Constraints2)
 
@@ -307,17 +301,11 @@
     :   2D/3D при добавлении более 2 Элементов.
 :   Подробное описание можно найти в вики Gibhub.
 
-#### Navigation Toolbar 
 
 
-<div class="mw-translate-fuzzy">
-
-#### Панель навигации 
+#### Панель Навигации 
 
 :   <img alt="" src=images/Assembly_GotoRelation.svg‎‎  style="width:28px;"> <img alt="" src=images/LinkSelect.svg‎‎  style="width:28px;"> <img alt="" src=images/LinkSelectFinal.svg‎‎  style="width:28px;">
-
-
-</div>
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -342,7 +330,7 @@
 
 
 
-#### Панель Measurement 
+#### Панель Измерений 
 
 :   <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_MeasurePointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_MeasurePointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_MeasureAngle.svg‎‎  style="width:28px;">
 
@@ -350,7 +338,7 @@
 <div class="mw-collapsible mw-collapsed">
 
 
-:   **Панель Measurement** добавляет функции для измерения расстояний между двумя объектами.
+:   **Панель измерений** добавляет функции для измерения расстояний между двумя объектами.
 
 
 <div class="mw-collapsible-content toccolours">
@@ -377,18 +365,11 @@
 
 [наверх](#top.md)
 
-### Constraints
 
-
-<div class="mw-translate-fuzzy">
 
 ### Ограничения
 
 Проектировщик использует ограничения для достижения желаемого результата для соотношения двух частей. Выбор правильных ограничений, которые лучше всего подходят для решения каждой проблемы - Искусство. Каждая удалённая степень свободы теоретически должна устраняться только один раз между двумя объектами, но на практике со многими инструментами САПР выбранные ограничения создают комбинации избыточных ограничений, порой компенсируемые сложными алгоритмами, а порой нет. Assembly3 действительно использует алгоритмы для выявления и компенсации избыточных ограничений, но очевидно, что они еще не очень развиты. Таким образом, на практике для ограничений Assembly3 можно избежать проблем, зная, сколько степеней свободы (DOF) было использовано, а какие ещё предстоит заблокировать. Никакая часть не должна иметь связи с ограничениями превышающими 6 степеней свободы.
-
-
-</div>
-
 
 :   Примечание: Если решатель встречает комбинацию, которую невозможно разрешить, он выдаст ошибку. Решателю сложно выяснить, что вызвало проблему, поэтому, как правило, из данной ошибки не будет ясно, «где» проблема. В крупных сборках это может привести к сложному поиску проблем. К сожалению, нет простого способа избежать этого. Однако это подталкивает полностью осознавать как работает система (например, см. [Elements](#Elements.md) ниже), использовать чёткие имена для всех задействованных компонентов и добавлять новые ограничения лишь когда решатель может разрешить текущую сборку. Очень полезной для отслеживания проблемы является функция «ContexMenu/Deactivate» у каждого ограничения.
 
@@ -423,17 +404,11 @@
 
 [наверх](#top.md)
 
-### Elements
 
-
-<div class="mw-translate-fuzzy">
 
 ### Элементы
 
 Элементы это особый термин, используемый в верстаке Assembly 3. Понимание Элементов важно для понимания того, как следует использовать Assembly 3.
-
-
-</div>
 
 Полезно думать об элементе как об общем слове, обозначающем «выбираемый элемент» детали, то есть грань, ребро, круг, угол или другую точку. Элементы, которые вы выбираете для их ограничения, являются этими Элементами. В дереве папка Assembly имеет три подпапки. Рядом с \'Parts\' и \'Constraints\' есть папка \'Elements\', которая пуста, пока не добавлены ограничения. При добавлении ограничения само ограничение получает два (или более) листа, это выбранные «Элементы». Также они добавляются в папку «Элементы», которая представляет собой просто список всех элементов, используемых в сборке. Рекомендуется изменить их имена (с помощью клавиши F2), особенно в больших сборках.
 
@@ -477,20 +452,14 @@
 
 [Верстак Assembly3](Assembly3_Workbench/ru.md) (по состоянию на март 2022) доступен через [Менеджер Дополнений](Std_AddonMgr/ru.md). Все внешние зависимости Assembly3 должны разрешаться автоматически через Менеджер Дополнений.
 
-#### Alternate installations 
 
 
-<div class="mw-translate-fuzzy">
-
-#### Альтернативная установка 
+#### Альтернативные установки 
 
 Есть два альтернативных пути для установки Assembly3:
 
--   Отдельная ветка FreeCAD, сделанная realthunder; смотри [выпуски FreeCAD_assembly3](https://github.com/realthunder/FreeCAD_assembly3/releases). Эта ветка базируется на конкретной точке главной ветки FreeCAD, но имеет дополнительные возможности, пока не присутствующие в главной ветке. Поскольку эта ветвь базируется на конкретном слепке с процесса разработки, в неё не попали позднейшие возможности, внедрённые позднее в главную ветку. С мая 2022 года выпуск FreeCAD Link Branch был перенесен [сюда](https://github.com/realthunder/FreeCAD/releases).
+-   Отдельная ветка FreeCAD, сделанная realthunder; смотри [здесь](https://github.com/realthunder/FreeCAD/releases). Эта ветка базируется на конкретной точке главной ветки FreeCAD, но имеет дополнительные возможности, пока не присутствующие в главной ветке. Поскольку эта ветвь базируется на конкретном слепке с процесса разработки, в неё не попали позднейшие возможности, внедрённые позднее в главную ветку. С мая 2022 года выпуск FreeCAD Link Branch был перенесен [сюда](https://github.com/realthunder/FreeCAD/releases).
 -   [AppImage](AppImage.md) версии в разработке. Это базируется на текущей главной ветке, и включает зависимости, требуемые для работы с Assembly3, такие как вычислитель из SolveSpace.
-
-
-</div>
 
 Поскольку AppImage работает только для Linux, выбором для пользователей Windows (кто хочет установить Assembly3 альтернативным путём) будет лишь первый вариант тестирования Assembly3 (ветка realthunderа).
 
@@ -500,18 +469,11 @@
 
 ## Как\...
 
-### Get Started 
 
-
-<div class="mw-translate-fuzzy">
 
 ### Начать
 
 Есть много способов создать сборку с помощью Assembly3. Вот самый простой из возможных вариантов.
-
-
-</div>
-
 
 :   <img alt="" src=images/Assembly3_Example-GettingStarted.jpg  style="width:600px;">
 :   *Окончательный результат примера «Начало работы». На изображении выбран верстак Assembly3, поэтому видно несколько его панелей инструментов. Обратите внимание, что вертикальная «TabBar» слева от древовидного представления - это верстак AddOn, который не содержится в стандартном FreeCAD (но может быть установлен с помощью Addon-Manager).*
@@ -564,17 +526,11 @@
 
 [наверх](#top.md)
 
-### Add an Offset 
 
-
-<div class="mw-translate-fuzzy">
 
 ### Добавить смещение 
 
 Assembly3 не предлагает смещение с константами, как это делают [верстак A2plus](A2plus_Workbench/ru.md) или другие инструменты САПР. Вместо этого он предлагает более общую и гибкую систему для добавления сдвигов, а также углов.
-
-
-</div>
 
 -   Добавьте смещение в свойствах одного [Elements](#Элементы.md) из [Constraint](#Ограничения.md).
 
@@ -591,17 +547,11 @@ Assembly3 не предлагает смещение с константами, 
 
 [наверх](#top.md)
 
-### Solve a Solver Failure 
 
-
-<div class="mw-translate-fuzzy">
 
 ### Устранить сбой решателя 
 
 Это часто случается, когда детали чрезмерно ограничены, т.е. заблокировано более 6 степеней свободы.
-
-
-</div>
 
 Самый простой способ найти проблему - щелкнуть соответствующие ограничения в дереве и выбрать в контекстном меню *Disable* и произвести повторный расчёт. Полезно узнать последние добавленные ограничения перед отказом решателя и просто отменить их.
 
@@ -609,17 +559,11 @@ Assembly3 не предлагает смещение с константами, 
 
 [наверх](#top.md)
 
-### Replace a part or rename a filename 
 
-
-<div class="mw-translate-fuzzy">
 
 ### Заменить деталь или переименовать файл 
 
 Когда деталь удаляется или изменяется имя файла, сборка ломается, ее нельзя решить, и решатель выдаст сообщение \"Inconsistent constraints\" («Несогласованные ограничения»). Решатель помечает недопустимые элементы и ограничения в дереве знаком вопроса.
-
-
-</div>
 
 Один из способов решить эту проблему - просто удалить все недопустимые ограничения и элементы, импортировать новую часть и все повторить. Но есть способ лучше:
 
@@ -658,10 +602,7 @@ Assembly3 не предлагает смещение с константами, 
 
 [наверх](#top.md)
 
-### Tips & Tricks 
 
-
-<div class="mw-translate-fuzzy">
 
 ### Советы и хитрости 
 
@@ -675,9 +616,6 @@ Assembly3 не предлагает смещение с константами, 
 -   Использование внешних файлов облегчает повторное использование частей или версионирование частей с такими системами, как git или Subversion. Рабочий процесс во FreeCAD с Assembly чувствуется точно так же, как и с файлами, в которых все части находятся в одном файле. Для частого обмена файлами с другими сторонами более удобным может оказаться использование отдельных файлов.
 -   Детали с множественными связями. Если вы добавите ссылку в сборку, то она будет иметь значение свойства под названием \"Element Count\", по умолчанию 0. Если вы установите это значение в 3, то получите 3 экземпляра этой части. Они будут добавлены в подпапку и могут быть использованы как полностью разделяемые части. Используйте эту возможность, чтобы сохранить данные в файле на низком уровне, т.к. часть сохраняется только один раз. Каждый экземпляр содержит только различия.
 -   Вставьте несколько деталей, например, Винты, одним кликом. Проверьте [Assembly3 Wiki](https://github.com/realthunder/FreeCAD_assembly3/wiki/Constraints-and-Solvers) на сайте Github. Это не только потрясающая функция (даже немножко волшебная), но и действительно очень полезная.
-
-
-</div>
 
 -   Использование [верстак TabBar](https://github.com/triplus/TabBar) ускоряет работу со сборкой. Это добавляет панель инструментов с одной кнопкой для каждого рабочего места. Вы можете отсортировать панель инструментов и разместить ее где угодно. Многие люди помещают его вертикально слева, рядом с деревом. Если у вас есть Assembly3, Part, PartDesign и другие часто используемые рабочие места, расположенные ближе к верху, переключение между ними становится чрезвычайно простым.
 

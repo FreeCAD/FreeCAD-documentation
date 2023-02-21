@@ -16,11 +16,13 @@ These things make Path a reliable, performant, and flexible tool. Work in this a
 
 ## Workflow
 
-Obviously, the goal is a workflow that is efficient and resists human errors. However, the specific workflow can vary depending on the type of machine the user is working with and the type of geometry they are working on.
+The goal is a workflow that is efficient and resists human errors. However, the specific workflow can vary depending on the type of machine the user is working with and the type of geometry they are working on.
 
 ### Job Types 
 
 Path is optimized for 2.5D milling. It needs the concept of job \'types\' to handle other kinds of workflows like Lathe, 4th Axis, and pure 2D machines. Additional job types would help narrow the choices a user must make and eliminate the visual noise and confusion that comes from options that don\'t apply to the desired task.
+
+Selection of Job Type should be something the user can add to a Job Template so that the selection can be automatic.
 
 ### 2D workflow 
 
@@ -33,7 +35,6 @@ Path is optimized for 2.5D milling. It needs the concept of job \'types\' to han
 Additional 2D strategies
 
 -   Engrave - Engrave by following a set of 2D edges. We support this partly now but the workflow is rough and keeping the 2D elements oriented with the shape is nearly impossible.
--   V-Carve - Engrave by following the centerline between edges while controlling Z depth
 -   Hatch Fill - Fill an arbitrary boundary with a hatching pattern
 
 ### Lathe Workflow 
@@ -52,7 +53,13 @@ Lathe operations
 
 ### 4/5 axis workflow 
 
-continuous 4th axis operations may rotate the 4th while engaging the cutter. These kinds of operations will need to visualize the toolpath relative to the part. Other operations use the 4th to rotate the part to an orientation and then perform a pure 2.5D operation on the work. This is more like multiple setups and visualization might need to be take into account each discrete step.
+Multi-axis is the broad category of strategies that involve working on a model from direction other than the typical top-down orientation in 2.5D strategies.
+
+Multi-axis can be broken into two more narrow categories.
+
+**Indexed Multi-axis** is where the part is rotated to a specific orientation and then held in place while traditional 2.5D operations are performed. 4th axis rotation means a single additional degree-of-freedom is added to allow the part to rotate, usually around the X axis (A rotation) or Y axis (B rotation).
+
+**Continuous 4 and 5 axis** rotations mean that the part is rotating while the cutter is engaged in the material. These kinds of operations will need to visualize the toolpath relative to the part. Continuous 4/5 axis operations will require vastly new operations and toolpath generation logic. As a result, continuous 4/5 operations are out of scope at this time.
 
 ### 2.5D (milling) workflow 
 
@@ -89,13 +96,15 @@ Commercial CNC users usually produce a document called a [\'setup sheet\'](https
 -   gcode program name
 -   Fixtures and workholding information
 
+Path Sanity is Path\'s solution to the \'setup sheet\' Path Sanity is currently an experimental feature. Moving this to production should be a priority.
+
 ## Low Level Libraries 
 
 Path makes use of several libraries to generate toolpaths based on part geometry. These include libarea/patharea/clipper, [Open CASCADE Technology](https://dev.opencascade.org/doc/overview/html/), and [OpenCamLib](https://github.com/aewallin/opencamlib). Other libraries are available and more will likely be written in the future. We should include these whenever possible and when a native (OCCT) solution is unavailable.
 
-[Openvoronoi](https://github.com/aewallin/openvoronoi) is one library that is available and license compatible. At present, it does not build for python3 and isn\'t packaged for distribution with FreeCAD. Making openvoronoi available would allow v-carving operation and possibly some other interesting toolpaths.
-
 [Deepnest](https://github.com/Jack000/Deepnest) or an equivalent nesting/bin packing library would allow us to efficiently arrange parts in a cut-sheet to minimize stock usage.
+
+[Cavalier Contours](https://github.com/jbuckmccready/cavalier_contours) is a modern 2D offsetting library. It is fast and actively developed and should be considered as a replacement ot libarea. It is written in Rust so additional involvement of the development community is needed to support its use.
 
 ## Path Modifications 
 
@@ -108,10 +117,6 @@ Pocket/3D Pocket has a boundary extension tool. This should be available to all 
 Path should have a more robust state for the remaining material. This would be useful for visualization, collision avoidance, and REST milling.
 
 ## Post Processing & Advanced Gcode 
-
--   Post to git
-
-Gcode for the hobbyist is transient. It\'s used once and then likely not retained. If the user needs it again, they simply re-post the original file. For commercial users under certain certification standards, the gcode is a long-term asset and often may require version control protection. Integrating version control directly into the post-processing workflow might be an interesting feature.
 
 -   modular output for older machines with limited memory.
 

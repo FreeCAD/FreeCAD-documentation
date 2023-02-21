@@ -303,13 +303,8 @@ Um die Positionierung von \"Sketch\" mit der von \"Cylinder\" gleichzusetzen, w�
 
 ## Weiteres
 
-
-<div class="mw-translate-fuzzy">
-
 -   Dieses Tutorium: [Flugzeug](Aeroplane/de.md) deckt die Mechanik der Änderung der Positionierung eines Objekts ausführlich ab.
-
-
-</div>
+-   Dieser [FreeCAD-News-Artikel](https://blog.freecad.org/2023/01/16/the-rotation-api-in-freecad/?preview_id=343) (engl.) behandelt die Rotations-API.
 
 
 

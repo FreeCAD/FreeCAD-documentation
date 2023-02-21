@@ -10,6 +10,8 @@
 
 # PartDesign Body/fr
 
+
+
 ## Description
 
 Un [PartDesign Corps (Body)](PartDesign_Body/fr.md) est l\'élément de base pour créer des formes solides avec l\'[atelier PartDesign](PartDesign_Workbench/fr.md). Il peut contenir des [esquisses](Sketch/fr.md), des [objets Datum](Datum/fr.md) et des [PartDesign Fonctions (Features)](PartDesign_Feature/fr.md) afin de produire un [simple solide contigu](PartDesign_Body/fr#Solide_contigu_unique.md).
@@ -19,30 +21,38 @@ Le Corps fournit un objet **Origine** qui comprend les axes X, Y, Z, et les plan
 Ne pas confondre le <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [PartDesign Corps (Body)](PartDesign_Body/fr.md) avec le <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Std Part](Std_Part/fr.md). Le premier est un objet spécifique utilisé dans l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Atelier PartDesign](PartDesign_Workbench/fr.md), destiné à modéliser un [simple solide contigu](PartDesign_Body/fr#Solide_contigu_unique.md) au moyen de [PartDesign Fonctionnalités](PartDesign_Feature/fr.md). [Std Part](Std_Part/fr.md) est un objet de regroupement destiné à créer des [assemblages](assembly/fr.md). Il n\'est pas utilisé pour la modélisation, juste pour organiser différents objets dans l\'espace. Plusieurs corps et d\'autres [Std Parts](Std_Part/fr.md) peuvent être placés à l\'intérieur d\'un seul [Std Part](Std_Part/fr.md) pour créer un assemblage complexe.
 
 ![](images/PartDesign_Body_tree.png ) ![](images/PartDesign_Body_example.png ) 
-*A gauche: l'arborescence montrant les entités qui produisent séquentiellement la forme finale de l'objet. A droite: l'objet définitif visible dans la [Vue 3D](3D_view/fr.md).*
+*À gauche : l'arborescence montrant les entités qui produisent séquentiellement la forme finale de l'objet. À droite : l'objet définitif visible dans la [Vue 3D](3D_view/fr.md).*
+
+
 
 ## Utilisation
 
-Si aucun solide précédent n\'est sélectionné:
+Si aucun solide précédent n\'est sélectionné :
 
 1.  Appuyez sur le bouton **<img src="images/PartDesign_Body.svg" width=16px> [Créer un corps](PartDesign_Body/fr.md)**. Le nouveau corps est créé et devient automatiquement **[actif](PartDesign_Body/fr#Statut_actif.md)**.
 2.  Vous pouvez maintenant appuyer sur **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Créer une esquisse](PartDesign_NewSketch/fr.md)** pour créer une [esquisse](Sketch/fr.md) dans le corps qui peut être utilisée avec **[<img src=images/_PartDesign_Pad.svg style="width:16px"> [PartDesign Protusion](PartDesign_Pad/fr.md)**.
 3.  Alternativement, vous pouvez ajouter une [PartDesign Fonction](PartDesign_Feature/fr.md), par exemple un **[<img src=images/_PartDesign_AdditiveBox.svg style="width:16px"> [PartDesign Cube additif](PartDesign_AdditiveBox/fr.md)**.
 
-Si un objet solide est sélectionné:
+Si un objet solide est sélectionné :
 
 1.  Appuyez sur le bouton **<img src="images/PartDesign_Body.svg" width=16px> [Créer un corps](PartDesign_Body/fr.md)**. Un nouveau corps est créé contenant une seule **Base Feature**. Cet élément Fonction de base (Base Feature) est une simple référence à un autre objet précédemment créé ou importé dans le document. Voir [Fonction de base](PartDesign_Body/fr#Fonction_de_base.md) pour plus d\'informations. Un Corps existant ou une [PartDesign Fonction](PartDesign_Feature/fr.md) ne peut pas être sélectionné lorsque vous appuyez sur le **<img src="images/PartDesign_Body.svg" width=16px> [Créer un corps](PartDesign_Body/fr.md)**.
+
+
 
 ### Remarques
 
 -   Si aucun corps n\'existe au moment où une **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Esquisse](PartDesign_NewSketch/fr.md)** est sélectionnée, un nouveau Corps sera automatiquement créé. Si un corps existe déjà, il doit être rendu actif avant d\'utiliser **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Esquisse](PartDesign_NewSketch/fr.md)**.
 -   Double-cliquez sur le Corps dans la [Vue en arborescence](Tree_view/fr.md) du modèle ou ouvrez le menu contextuel (clic droit) et sélectionnez **Activer/désactiver le corps**. Si un autre corps est déjà actif, il sera automatiquement désactivé. Voir [statut actif](PartDesign_Body/fr#Statut_actif.md) pour plus d\'informations.
 
+
+
 ## Propriétés
 
 Un [PartDesign Corps](PartDesign_Body/fr.md) (classe `PartDesign::Body`) est dérivé d\'une [Part Feature](Part_Feature/fr.md) (classe `Part::Feature`), par conséquent il partage toutes les propriétés de ce dernier.
 
 Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), le PartDesign Corps a les propriétés suivantes dans l\'[Éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ### Données
 
@@ -57,6 +67,8 @@ Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), le Par
 
 -    **Group|LinkList**: une liste avec les [PartDesign Fonctions](PartDesign_Feature/fr.md) dans le Corps.
 
+
+
 ##### Propriétés cachées de Données 
 
 -    **Origin|Link**: l\'objet [App Origin](App_OriginGroupExtension/fr.md) est la référence de position pour tous les éléments répertoriés dans **Group**.
@@ -64,6 +76,8 @@ Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), le Par
 -    **_ Group Touched|Bool**: si le groupe est coché ou non.
 
 Aussi les propriétés cachées décrites dans [Part Fonction](Part_Feature/fr.md).
+
+
 
 ### Vue
 
@@ -82,7 +96,11 @@ Aussi les propriétés cachées décrites dans [Part Fonction](Part_Feature/fr.m
         
         affiche uniquement la forme finale du corps, qui est définie par la propriété **Tip**. Tout le reste, y compris les [esquisses](Sketch/fr.md), les [PartDesign Fonctions](PartDesign_Feature/fr.md), les références, etc\... ne sont pas affichées même s\'elles sont visibles dans la [Vue en arborescence](Tree_view/fr.md). Ce mode est recommandé lorsque le Corps n\'a pas besoin d\'être modifié davantage, aussi une forme fixe est affichée. Ce mode est également recommandé lorsque vous souhaitez sélectionner les sous-éléments (sommets, arêtes et faces) de la forme finale à utiliser avec d\'autres outils d\'ateliers.
 
+
+
 ## Conception du Corps 
+
+
 
 ### Solide contigu unique 
 
@@ -91,7 +109,9 @@ Un PartDesign Corps est destiné à modéliser un solide contigu unique. Le sens
 Une fois que ces solides contigus sont rassemblés dans un certain type d\'arrangement, ils deviennent alors un \"assemblage\". Dans un assemblage, les objets ne sont pas fusionnés, mais simplement \"empilés\" ou placés côte à côte et restent des objets individuels.
 
 <img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width:" height="200px;"> 
-*À gauche: trois solides contigus individuels, chacun modélisé par un PartDesign Corps. À droite: les différents Corps (Body) réunis en un assemblage.*
+*À gauche : trois solides contigus individuels, chacun modélisé par un PartDesign Corps. À droite : les différents Corps (Body) réunis en un assemblage.*
+
+
 
 ### Modification des fonctionnalités 
 
@@ -100,23 +120,27 @@ Un PartDesign Corps est conçu pour fonctionner en créant un solide initial, so
 Un PartDesign Corps effectuera une [union](Part_Fuse/fr.md) automatique des éléments solides à l\'intérieur de celui-ci. Cela signifie que (1) les solides partiels doivent être en contact et (2) que les solides déconnectés ne sont pas autorisés.
 
 <img alt="" src=images/PartDesign_Body_two_intersection.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_two_fusion.png  style="width:" height="200px;"> 
-*À gauche: deux solides individuels qui se coupent. À droite: un PartDesign Corps unique avec deux [fonctions additives](PartDesign_Feature/fr.md). Elles sont automatiquement fusionnées ensemble, donc au lieu de se recouper, elles forment un solide contigu unique.*
+*À gauche : deux solides individuels qui se coupent. À droite : un PartDesign Corps unique avec deux [fonctions additives](PartDesign_Feature/fr.md). Elles sont automatiquement fusionnées ensemble, donc au lieu de se recouper, elles forment un solide contigu unique.*
 
 ![](images/PartDesign_Body_non-contiguous.png ) 
-*À gauche: deux solides déconnectés. Ce n'est pas un PartDesign Corps valide. À droite: deux solides se touchant. Cela se traduit par un PartDesign Corps valide. La nouvelle [fonction](PartDesign_Feature/fr.md) doit toujours entrer en contact avec la fonction précédente ou l'intersecter afin qu'elle lui soit fusionnée et devienne un solide contigu unique.*
+*À gauche : deux solides déconnectés. Ce n'est pas un PartDesign Corps valide. À droite : deux solides se touchant. Cela se traduit par un PartDesign Corps valide. La nouvelle [fonction](PartDesign_Feature/fr.md) doit toujours entrer en contact avec la fonction précédente ou l'intersecter afin qu'elle lui soit fusionnée et devienne un solide contigu unique.*
 
 
-**Remarque:**
+**Remarque :**
 
 d\'autres programmes de CAO comme Catia autorisent les solides non contigus dans le même \"Corps\". Jusqu\'à la v0.19, FreeCAD ne le permet toujours pas. Il y a eu des discussions sur le [FreeCAD forum](https://forum.freecadweb.org/index.php) sur la levée de cette restriction, mais aucune décision concrète n\'a été prise. Si vous souhaitez en savoir plus ou présenter différents points de vue, veuillez en discuter dans le [forum](https://forum.freecadweb.org/index.php).
 
+
+
 ## Explication détaillée des propriétés 
+
+
 
 ### Statut actif 
 
 Un document ouvert peut contenir plusieurs Corps. Pour ajouter une nouvelle fonctionnalité à un Corps spécifique, il doit être rendu **actif**. Un Corps actif sera affiché dans la [Vue en arborescence](Tree_view/fr.md) avec la couleur d\'arrière-plan spécifiée par la valeur **Active container** dans l\'[éditeur de préférences](Preferences_Editor/fr#Couleurs.md) (par défaut, bleu clair). le Corps actif sera également affiché en gras.
 
-Pour activer ou désactiver un Corps:
+Pour activer ou désactiver un Corps :
 
 -   Double-cliquez dessus dans la [Vue en arborescence](Tree_view/fr.md) ou
 -   Ouvrez le menu contextuel (clic droit) et sélectionnez **Toggle active body** (Activer/Désactiver le corps).
@@ -128,6 +152,8 @@ L\'activation d\'un Corps bascule automatiquement vers l\'[atelier PartDesign](P
 
 
 *Document avec deux PartDesign Corps dont le second est actif.*
+
+
 
 ### Origine
 
@@ -146,7 +172,7 @@ Le même processus peut être utilisé lors de la création d\'une géométrie d
 l\'Origine est un objet [App Origin](App_OriginGroupExtension/fr.md) (classe `App::Origin`) tandis que les axes et les plans sont respectivement des objets de type `App::Line` et `App::Plane`. Chacun de ces éléments peut être masqué et non masqué individuellement avec la barre **Espace**. Cela est utile pour choisir la référence correcte lors de la création d\'autres objets.
 
 
-**Remarque 2:**
+**Remarque 2 :**
 
 tous les éléments à l\'intérieur du Corps sont référencés à l\'Origine du Corps, ce qui signifie que le Corps peut être déplacé et tourné en référence au système de coordonnées global sans affecter le placement des éléments à l\'intérieur.
 
@@ -154,7 +180,7 @@ tous les éléments à l\'intérieur du Corps sont référencés à l\'Origine d
 
 
 
-*A gauche: PartDesign Origin du Corps dans la [Vue en arborescence](Tree_view/fr.md) et telle qu'elle apparaît affichée dans la [Vue 3D](3D_view/fr.md). A droite: représentation des éléments Origin dans la [Vue 3D](3D_view/fr.md).*
+*À gauche : PartDesign Origin du Corps dans la [Vue en arborescence](Tree_view/fr.md) et telle qu'elle apparaît affichée dans la [Vue 3D](3D_view/fr.md). À droite : représentation des éléments Origin dans la [Vue 3D](3D_view/fr.md).*
 
 ### Base Feature 
 
@@ -163,13 +189,13 @@ La Base Feature (fonction de base) est la première [PartDesign Fonction](PartDe
 ![](images/PartDesign_Body_BaseFeature_tree.png ) 
 *Deux PartDesign Corps, chacun avec une seule Base Feature qui est prises des solides créés précédemment.*
 
-Pour créer la fonction de base:
+Pour créer la fonction de base :
 
 1.  sélectionner une forme solide externe à n\'importe quel Corps et
 2.  appuyez sur **[<img src=images/PartDesign_Body.svg style="width:16px"> [Créer un Corps](PartDesign_Body/fr.md)**. Cela créera un nouveau Corps avec une seule Base Feature.
 
 
-**Remarque:**
+**Remarque :**
 
 vous ne pouvez pas sélectionner un Corps existant ou l\'une de ses [fonctions](PartDesign_Feature/fr.md) lorsque vous appuyez sur **[<img src=images/PartDesign_Body.svg style="width:16px"> [Créer un corps](PartDesign_Body/fr.md)**.
 
@@ -194,12 +220,14 @@ La fonction de base (Base Feature) est entièrement facultative. Elle n\'est pr�
 
 
 
-*A gauche:un PartDesign Corps avec une fonction de base issue d'un objet solide externe et de nombreuses [PartDesign Fonctions](PartDesign_Feature/fr.md) ultérieures en haut. A droite: un Corps qui n'a pas de fonction de base explicite (Base Feature).*
+*À gauche : un PartDesign Corps avec une fonction de base issue d'un objet solide externe et de nombreuses [PartDesign Fonctions](PartDesign_Feature/fr.md) ultérieures en haut. À droite : un Corps qui n'a pas de fonction de base explicite (Base Feature).*
 
 
 **Remarque :**
 
 Si un autre PartDesign Corps est sélectionné comme BaseFeature, il doit avoir une forme. S\'il est vide (pas de caractéristiques, pas de BaseFeature, \...), il en résultera une erreur.
+
+
 
 ### Tip (fonction résultante) 
 
@@ -209,7 +237,7 @@ Le Tip (fonction résultante) est une [PartDesign Fonction](PartDesign_Feature/f
 
 
 
-*A gauche: un PartDesign Corps avec l'historique paramétrique complet incluant les fonctions intermédiaires. À droite: le Tip est la forme finale qui peut être exportée à partir du Corps, tout en omettant l'historique du modèle.*
+*À gauche : un PartDesign Corps avec l'historique paramétrique complet incluant les fonctions intermédiaires. À droite : le Tip est la forme finale qui peut être exportée à partir du Corps, tout en omettant l'historique du modèle.*
 
 Le Tip est automatiquement définie sur la dernière fonction créée dans le Corps. Néanmoins, il peut également être défini sur l\'une des fonctionnalités intermédiaires en ouvrant le menu contextuel de la [Vue en arborescence](Tree_view/fr.md) (clic droit) et en choisissant **[<img src=images/PartDesign_MoveTip.svg style="width:16px"> [Désigner comme fonction résultante](PartDesign_MoveTip/fr.md)** ou en modifiant la valeur **Tip** du Corps dans l\'[Éditeur de propriétés](Property_editor/fr.md).
 
@@ -219,6 +247,8 @@ Dans la [Vue en arborescence](Tree_view/fr.md), le Tip du Corps est reconnue par
 
 ![](images/PartDesign_Body_Tip_tree.png ) 
 *Deux PartDesign Corps, chacun avec des [PartDesign Fonctions](PartDesign_Feature/fr.md). Le Tip est la dernière fonction de celles-ci et est marqué par un symbole de superposition.*
+
+
 
 ### Interaction avec d\'autres ateliers 
 
@@ -232,7 +262,9 @@ Une fois que les sous-éléments ont été utilisés avec d\'autres ateliers, la
 
 
 
-*A gauche: lorsque "Display Mode Body" est réglé sur `Through*, il est possible de sélectionner et d'effectuer des opérations avec la [PartDesign Fonction](PartDesign_Feature/fr.md); en général, ce n'est pas recommandé. A droite: lorsque "Display Mode Body" est réglé sur {{incode|Tip` toutes les sélections et opérations effectuées sur le Corps seront effectuées sur le Tip, en s'assurant que seule la forme finale du Corps est exposée.}}
+*À gauche : lorsque "Display Mode Body" est réglé sur `Through*, il est possible de sélectionner et d'effectuer des opérations avec la [PartDesign Fonction](PartDesign_Feature/fr.md); en général, ce n'est pas recommandé. À droite : lorsque "Display Mode Body" est réglé sur {{incode|Tip` toutes les sélections et opérations effectuées sur le Corps seront effectuées sur le Tip, en s'assurant que seule la forme finale du Corps est exposée.}}
+
+
 
 ### Gestion de la visibilité 
 
@@ -241,7 +273,9 @@ La visibilité du Corps remplace la visibilité de tout objet qu\'il contient. S
 Plusieurs [Esquisses](Sketch/fr.md) peuvent être visibles à la fois mais une seule [PartDesign Fonction](PartDesign_Feature/fr.md) (résultat solide) peut être visible à la fois. Sélectionner une fonction cachée et appuyer sur la barre **Espace** du clavier la rendra visible et masquera automatiquement la fonction précédemment visible.
 
 ![](images/PartDesign_Body_Visibility.png ) 
-*PartDesign Corps: plusieurs [Esquisses](Sketch/fr.md) peuvent être visibles simultanément, mais une seule [PartDesign Fonction](PartDesign_Feature/fr.md) peut être visible à la fois, que ce soit le Tip ou non.*
+*PartDesign Corps : plusieurs [Esquisses](Sketch/fr.md) peuvent être visibles simultanément, mais une seule [PartDesign Fonction](PartDesign_Feature/fr.md) peut être visible à la fois, que ce soit le Tip ou non.*
+
+
 
 ### Ancrage
 
@@ -254,6 +288,8 @@ Une [PartDesign Fonction](PartDesign_Feature/fr.md) qui n\'est pas ancrée sera 
 ![](images/PartDesign_Body_Feature_attachment.png ) 
 *PartDesign Corps: les [PartDesign Fonctions](PartDesign_Feature/fr.md) qui ne sont pas ancrées à un plan ou à un système de coordonnées seront affichées avec un symbole de superposition à côté de leur icône dans la [Vue en arborescence](Tree_view/fr.md).*
 
+
+
 ### Héritage
 
 Un [PartDesign Corps](PartDesign_Body/fr.md) est formellement une instance de la classe `PartDesign::Body`, dont le parent est une [Part Fonction](Part_Feature/fr.md) (classe `Part::Feature`) via la classe intermédiaire `Part::BodyBase` et est complétée par une extension Origin.
@@ -264,10 +300,12 @@ Un [PartDesign Corps](PartDesign_Body/fr.md) est formellement une instance de la
 
 *Diagramme simplifié des relations entre les objets centraux du programme. L'objet `PartDesign::Body* est destiné à construire des solides 3D paramétriques et est donc dérivé de l'objet de base {{incode|Part::Feature`. Il possède une Origine pour contrôler le placement des fonctionnalités utilisées à l'intérieur.}}
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](scripted_objects/fr.md).
 

@@ -25,9 +25,9 @@ Les versions précédentes peuvent être téléchargées à partir de la page [G
 -   Une version portable qui ne nécessite pas d\'installation est disponible sur la page [GitHub releases](https://github.com/FreeCAD/FreeCAD/releases/).
 -   Le paquet peut également être installé à partir du gestionnaire [Chocolatey](https://chocolatey.org/packages/freecad).
 
-### Notes aux utilisateurs de Mac OS X 
+### Notes aux utilisateurs de macOS 
 
-Mac OS X 10.12 Sierra est la version minimum compatible.
+macOS 10.12 Sierra est la version minimum compatible.
 
 
 

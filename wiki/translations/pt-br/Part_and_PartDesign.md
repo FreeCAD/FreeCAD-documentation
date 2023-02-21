@@ -1,6 +1,8 @@
 # Part and PartDesign/pt-br
 {{TOCright}}
 
+
+
 ## Visão geral 
 
 There has been much discussion over the years about the differences and ramifications of using the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench.md) and the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md) workbenches.

@@ -17,6 +17,8 @@ Trace les valeurs d\'un champ le long d\'une ligne spécifiée.
 
 *Un filtre d\'écrêtage selon une ligne à l\'intérieur d\'un [Filtre d\'écrêtage selon une région](FEM_PostFilterClipRegion/fr.md).Le filtre d\'écrêtage selon une région est l\'objet semi-transparent.La partie de la ligne à l\'extérieur du filtre d\'écrêtage selon une région est définie à une valeur de zéro et apparaît donc en bleu.*
 
+
+
 ## Utilisation
 
 1.  Sélectionnez un [pipeline de résultats](FEM_PostPipelineFromResult/fr.md) précédemment créé ou un autre filtre.

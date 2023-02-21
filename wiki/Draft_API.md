@@ -879,6 +879,28 @@ Return the object cloned by this object, if any.
 
 
 
+#### <img src="images/type_method.svg" style="width:16px;"> get_diffuse_color <small>(objs)</small>
+
+Get a (cumulative) diffuse color from one or more objects.
+    Part::Feature objects are processed. Objects with Groups are recursively
+    checked for those objects.
+
+    If all tuples in the result are identical a list with a single tuple is
+    returned. In theory all faces of an object can be set to the same diffuse
+    color that is different from its shape color, but that seems rare. The
+    function does not take that into account.
+
+    Parameters
+     
+    objs: a single object or an iterable with objects.
+
+    Returns
+     
+    list of tuples
+        The list will be empty if no valid object is found.
+
+
+
 #### <img src="images/type_method.svg" style="width:16px;"> get_dxf <small>(obj, direction=None)</small>
 
 Return a DXF entity from the given object.

@@ -8,9 +8,11 @@ Comme beaucoup de logiciels de CAO, il possède de nombreux composants 2D afin d
 
 FreeCAD utilise beaucoup de bibliothèques à code source libre qui existent dans le domaine des [Sciences numériques](https://fr.wikipedia.org/wiki/Sciences_num%C3%A9riques). Parmi celles-ci, citons [Open Cascade Technology (OCCT)](http://www.OpenCascade.org/), un puissant noyau de CAO; [Coin3D](https://github.com/coin3d/coin/wiki), une boîte à outils de développement graphique 3D compatible avec [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor); [Qt](http://www.qt.io/), le framework d\'interface utilisateur de renommée mondiale; et [Python](http://www.python.org), un langage de script moderne. FreeCAD lui-même peut également être utilisé comme bibliothèque par d\'autres programmes.
 
-FreeCAD est aussi [multiplateforme](http://fr.wikipedia.org/wiki/Multiplate-forme), et fonctionne présentement parfaitement sous Windows, Linux/Unix et Mac OSX, avec la même apparence et les mêmes fonctionnalités sous toutes les plateformes.
+FreeCAD est aussi [multiplateforme](http://fr.wikipedia.org/wiki/Multiplate-forme). Il fonctionne sous Windows, Linux/Unix et macOS avec la même apparence et les mêmes fonctionnalités sous toutes les plateformes.
 
 Pour plus d\'informations sur les capacités de FreeCAD, découvrez la [liste des fonctionnalités](Feature_list/fr.md), les [dernières notes de version](Feature_list/fr#Notes_de_versions.md) et la page [Démarrer avec FreeCAD](Getting_started/fr.md) ou regardez les nombreuses [captures d\'écran](Screenshots/fr.md).
+
+
 
 ### A propos du projet FreeCAD 
 

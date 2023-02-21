@@ -8,6 +8,8 @@
 
 # Std DependencyGraph/ru
 
+
+
 ## Описание
 
 The **Std DependencyGraph** command displays the dependencies between objects in the active document in a \'dependency graph\'. As opposed to the [Tree view](Tree_view.md), objects are listed in reverse chronological order, with the first created object at the bottom.
@@ -19,6 +21,8 @@ The dependency graph is purely a visualization tool, therefore it cannot be edit
 <img alt="" src=images/Std_DependencyGraph_example.svg  style="width:400px;"> 
 *Example of a dependency graph with a PartDesign body on the left and an object created with Part operations on the right*
 
+
+
 ## Установка
 
 To use the command a third-party software named [Graphviz](http://graphviz.org/) needs to be installed. If you do not have it pre-installed or it is installed in an unconventional location, FreeCAD will display the following dialog:
@@ -29,16 +33,24 @@ To use the command a third-party software named [Graphviz](http://graphviz.org/)
 
 Download the **graphviz-2.xx** installer from the [Graphviz Download page](https://graphviz.org/download/#windows) and launch it to install it. Some older versions seem to have issues displaying the graph; version 2.38 and newer are known to be reliable. You can find all graphviz releases on [Gitlab](https://gitlab.com/graphviz/graphviz/-/releases).
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ### Mac/OSX
 
-You can install graphviz using [Homebrew](https://brew.sh/). (While installing Homebrew, don\'t get nervous, if MacOS asks you to install updates, e.g. for the Xcode commandline tools. These updates are performed later by the installation process.)
+
+</div>
+
+You can install Graphviz using [Homebrew](https://brew.sh/). (While installing Homebrew, don\'t get nervous, if macOS asks you to install updates, e.g. for the Xcode commandline tools. These updates are performed later by the installation process.)
 
 
 {{Code|lang=text|code=
 brew install graphviz
 }}
 
-This installs the graphviz binaries under /usr/local/bin for macOS on Intel, and /opt/homebrew for macOS on Apple Silicon/ARM. FreeCAD will look there all by itself. If the program is not found there you are asked to enter the path. Unfortunately we can\'t navigate directly there from the file dialog that comes up from **Tools → Dependency graph...**. When you get the file selection dialog you have two possibilities: You can use the key combination Cmd+Shift+. which will show you all the hidden items. Or you use the keys Cmd+Shift+G to get an input field for the path. Enter
+This installs the Graphviz binaries under /usr/local/bin for macOS on Intel, and /opt/homebrew for macOS on Apple Silicon/ARM. FreeCAD will look there all by itself. If the program is not found there you are asked to enter the path. Unfortunately we can\'t navigate directly there from the file dialog that comes up from **Tools → Dependency graph...**. When you get the file selection dialog you have two possibilities: You can use the key combination Cmd+Shift+. which will show you all the hidden items. Or you use the keys Cmd+Shift+G to get an input field for the path. Enter
 
 
 {{Code|lang=text|code=
@@ -72,7 +84,7 @@ And therefore you can tell FreeCAD to look in that directory.
 
 ### Linux
 
-On most Linux distributions (Debian/Ubuntu, Fedora, OpenSUSE), you just need to install the graphviz package from the repositories. However, similar to the Mac/OSX, in cases where the Graphviz binaries are installed in a non-standard location, try to find the program with the command:
+On most Linux distributions (Debian/Ubuntu, Fedora, OpenSUSE), you just need to install the Graphviz package from the repositories. However, similar to the macOS, in cases where the Graphviz binaries are installed in a non-standard location, try to find the program with the command:
 
 
 {{Code|lang=text|code=
@@ -87,6 +99,8 @@ dot is /usr/local/bin/dot
 }}
 
 And therefore you can point FreeCAD to look in that directory.
+
+
 
 ## Применение
 
@@ -114,9 +128,11 @@ You can save a dependency graph:
 -   A [Part container](Std_Part.md) and [PartDesign Body](PartDesign_Body.md) enclose their content inside a frame with a randomly colored background. Their Origin also encloses its content (standard planes and axes) in a frame.
 -   A [Groups](Std_Group.md) is displayed as a single element linked to its content.
 
+
+
 ## Ограничения
 
--   The dependency graph cannot help with the [topological naming problem](topological_naming_problem.md). If a sketch switches faces of a feature after an edit, it is still linked to the feature. Even if some features are broken, the dependency graph will remain unchanged.
+-   The dependency graph cannot help with the [topological naming problem](Topological_naming_problem.md). If a sketch switches faces of a feature after an edit, it is still linked to the feature. Even if some features are broken, the dependency graph will remain unchanged.
 
 
 

@@ -2,33 +2,22 @@
 - GuiCommand:/it
    Name:Sketcher NewSketch
    Name/it:Crea Schizzo
+   MenuLocation:Schizzo → Crea uno Schizzo
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Part design → Crea uno shizzo
-   SeeAlso:[Mappa schizzo](Sketcher_MapSketch/it.md), [Riposiziona schizzo](Sketcher_ReorientSketch/it.md)
+   SeeAlso:[PartDesign: Nuovo schizzo](PartDesign_NewSketch/it.md), [Mappa uno schizzo](Sketcher_MapSketch/it.md), [Riposiziona lo schizzo](Sketcher_ReorientSketch/it.md)
 ---
 
 # Sketcher NewSketch/it
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
 Questo strumento crea un nuovo [schizzo](Sketcher_Workbench/it.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Notare che l\'ambiente [PartDesign](PartDesign_Workbench/it.md) ha un suo proprio comando [nuovo schizzo](PartDesign_NewSketch/it.md), quando si usa PartDesign è preferibile utilizzare il suo proprio strumento dedicato.
+Si noti che <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md) ha il proprio strumento [nuovo schizzo](PartDesign_NewSketch/it.md), quando si lavora su un [corpo di PartDesign](PartDesign_Body/it.md) è preferibile usare quello strumento.
 
 
-</div>
 
 ## Utilizzo
 
@@ -42,32 +31,16 @@ Cliccando sull\'icona senza una faccia preselezionata appare una finestra di dia
 
 Facendo clic sull\'icona con una faccia preselezionata, lo schizzo viene mappato sulla faccia selezionata.
 
+
+
 ## Note
-
-
-<div class="mw-translate-fuzzy">
 
 Lo schizzo può essere rimappato su un\'altra faccia esistente usando il comando [Mappa schizzo](Sketcher_MapSketch/it.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo schizzo può essere spostato nella [vista 3D](3D_view/it.md) utilizzando [Posizionamento](Placement/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Lo schizzo può essere spostato nella [Vista 3D](3D_view/it.md) utilizzando [Posizionamento](Placement/it.md).
 
 
 
-
-
-</div>
 
 
 {{Sketcher Tools navi

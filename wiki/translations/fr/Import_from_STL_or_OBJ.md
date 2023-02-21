@@ -1,8 +1,8 @@
 # Import from STL or OBJ/fr
 {{TutorialInfo/fr
-|Topic= Importation depuis STL ou OBJ
-|Level= Débutant
-|Time= 30 minutes
+|Topic=Importer des STL ou OBJ
+|Level=Débutant
+|Time=30 minutes
 |Author=r-frank
 |FCVersion=0.16.6703
 |Files=
@@ -91,6 +91,8 @@ Une autre méthode de fermeture manuelle des trous dans votre objet maillé sera
 -   Un nouvel objet sera créé dans l\'arborescence, portant \"(Solid)\" dans son nom, pour indiquer qu\'il s\'agit d\'un solide
 
 Étant donné que le solide créé n\'a pas d\'historique et aucune fonctionnalité éditable (comme une copie simple dans FreeCAD) vous pouvez supprimer tous les objets précédents de l\'arborescence. Cela réduirait votre taille de fichier\...
+
+
 
 ## Liens
 

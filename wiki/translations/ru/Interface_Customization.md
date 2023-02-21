@@ -1,12 +1,16 @@
 # Interface Customization/ru
 {{TOCright}}
 
+
+
 ## Введение
 
 Интерфейс FreeCAD базируется на современном инструментарии [Qt](http://ru.wikipedia.org/wiki/Qt_(toolkit)), и имеет современную организацию. Некоторые аспекты интерфейса могут быть настроены. Вы можете, например, добавить пользовательские панели инструментов с инструментами из нескольких рабочих мест или инструментами, определенными в макросах, и вы можете создавать свои собственные сочетания клавиш. Не могут быть изменены меню и панели инструментов по умолчанию, которые поставляются с FreeCAD и его верстаками.
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *Диалоговое окно настройки*
+
+
 
 ## Применение
 
@@ -18,9 +22,13 @@
 4.  The **Help** button does not work at this time.
 5.  Press the **Close** button to close the dialog box.
 
+
+
 ## Опции
 
 In the Customize dialog box the following tabs are available:
+
+
 
 ### Команды
 
@@ -28,6 +36,8 @@ In the Customize dialog box the following tabs are available:
 *Вкладка "Команды"*
 
 On this tab you can browse the available commands.
+
+
 
 #### Поиск команд 
 
@@ -39,12 +49,16 @@ On this tab you can browse the available commands.
 
 {{Top}}
 
+
+
 ### Клавиатура
 
 ![](images/Std_DlgCustomize_tab_Keyboard.png ) 
 *Вкладка "Клавиатура"*
 
 On this tab custom keyboard shortcuts can be defined. Shortcuts for macro commands can be defined on the [Macros](#Macros.md) tab.
+
+
 
 #### Добавление пользовательской комбинации клавиш 
 
@@ -76,6 +90,8 @@ On this tab custom keyboard shortcuts can be defined. Shortcuts for macro comman
 
 {{Top}}
 
+
+
 ### Верстаки
 
 ![](images/Std_DlgCustomize_tab_Workbenches.png ) 
@@ -83,11 +99,15 @@ On this tab custom keyboard shortcuts can be defined. Shortcuts for macro comman
 
 On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The **Enabled workbenches** list shows the workbenches as they will appear in the Workbench selector.
 
+
+
 #### Отключение верстака 
 
 1.  Select a workbench in the **Enabled workbenches** list.
 2.  Press the **<img src="images/Button_left.svg" width=16px>** button.
 3.  The workbench will be moved to the **Disabled workbenches** list
+
+
 
 #### Подключение верстака 
 
@@ -95,15 +115,21 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 2.  Press the **<img src="images/Button_right.svg" width=16px>** button.
 3.  The workbench will be moved to the **Enabled workbenches** list
 
+
+
 #### Подключение всех отключенных верстаков 
 
 1.  Нажмите на кнопку **<img src="images/Button_add_all.svg" width=16px>**.
+
+
 
 #### Изменение порядка верстака в списке 
 
 1.  Select a workbench in the **Enabled workbenches** list.
 2.  Press the **<img src="images/Button_up.svg" width=16px>** button or the **<img src="images/Button_down.svg" width=16px>** button.
 3.  Optionally repeat this until the workbench is in the correct position.
+
+
 
 #### Сортировка верстаков по алфавиту 
 
@@ -112,6 +138,8 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 
 {{Top}}
 
+
+
 ### Панели инструментов 
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
@@ -119,9 +147,13 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 
 На этой вкладке можно создать и изменить специальные панели инструментов.
 
+
+
 #### Выбор верстака 
 
 1.  In the dropdown list on the right select the workbench whose custom toolbars you want to modify. The {{Value|Global}} option is there for custom toolbars that should be available in all workbenches.
+
+
 
 #### Создание панели инструментов 
 
@@ -130,12 +162,16 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 3.  Press the **OK** button.
 4.  The new toolbar will appear in the panel on the right.
 
+
+
 #### Переименование панели инструментов 
 
 1.  Select a toolbar in the panel on the right.
 2.  Press the **Rename...** button.
 3.  Enter a new name in the dialog box that opens.
 4.  Press the **OK** button.
+
+
 
 #### Удаление панели инструментов 
 
@@ -147,6 +183,8 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 1.  Uncheck the checkbox in front of the toolbar name in the panel on the right.
 2.  A disabled toolbar will be invisible in the FreeCAD interface.
 
+
+
 #### Добавление команды 
 
 1.  At least one custom toolbar is required. See [Create a toolbar](#Create_a_toolbar.md).
@@ -156,11 +194,15 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 5.  Or select \'\' to add a separator (a line between two toolbar buttons).
 6.  Press **<img src="images/Button_right.svg" width=16px>** button.
 
+
+
 #### Переименовывание команды 
 
 1.  If required, expand the toolbar in the panel on the right.
 2.  Select a command.
 3.  Press **<img src="images/Button_left.svg" width=16px>** button.
+
+
 
 #### Изменение расположения команд на панели инструментов 
 
@@ -168,6 +210,8 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 2.  Select a command.
 3.  Press the **<img src="images/Button_up.svg" width=16px>** button or the **<img src="images/Button_down.svg" width=16px>** button.
 4.  Optionally repeat this until the command is in the correct position.
+
+
 
 #### Примечания касаемо панелей инструментов 
 
@@ -179,6 +223,8 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 
 {{Top}}
 
+
+
 ### Макросы
 
 ![](images/Std_DlgCustomize_tab_Macros.png ) 
@@ -189,6 +235,8 @@ On this tab user macro commands can be set up. Once set up, they can be added to
 If you download a macro with the <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) then make sure that you also download its icon image file. Most macros have an image link on the information page that appears in the Addon Manager. You can for example put this image file in the user macros folder.
 
 If you want to use a macro downloaded from a different source you will have to install it manually. See [How to install macros](How_to_install_macros.md) for more information.
+
+
 
 #### Добавление макро команды 
 
@@ -207,10 +255,14 @@ If you want to use a macro downloaded from a different source you will have to i
 9.  The macro command appears in the panel on the left.
 10. The macro command can now be selected on the [Toolbars](#Toolbars.md) tab.
 
+
+
 #### Переименовывание макро команды 
 
 1.  Select the macro command in the panel on the left.
 2.  Press the **Remove** button.
+
+
 
 #### Изменение макро команды 
 
@@ -227,7 +279,7 @@ This tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](
 
 ### Spaceball Buttons 
 
-This is tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
+This is tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md). 
 
 ## Темы
 
@@ -239,10 +291,12 @@ You can also create your own theme if you are not satisfied with the themes that
 
 -    **$HOME/.FreeCAD/Gui/Stylesheets**(on Linux).
 
--    **$HOME/Library/Preferences/FreeCAD/Gui/Stylesheets**(on MacOS).
+-    **$HOME/Library/Application Support/FreeCAD/Gui/Stylesheets**(on macOS).
 
 
 {{Top}}
+
+
 
 ## Дополнения
 
@@ -271,6 +325,8 @@ Addons offer yet another way to customize the use interface. Below are some addo
 ### RemBench
 
 -   Github repository: <https://github.com/triplus/RemBench>
+
+
 
 ### Закладки
 

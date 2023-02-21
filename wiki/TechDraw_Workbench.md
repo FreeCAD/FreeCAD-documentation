@@ -168,6 +168,8 @@ The annotation tools are for \"marking up\" a drawing with additional informatio
 
 -   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:32px;"> [Add Surface Finish Symbol](TechDraw_SurfaceFinishSymbol.md): adds a surface finish symbol to a page. <small>(v1.0)</small> 
 
+-   <img alt="" src=images/TechDraw_HoleShaftFit.svg  style="width:32px;"> [Add Hole/Shaft Fit](TechDraw_HoleShaftFit.md): adds a hole/shaft fit using ISO 286 to a dimension. <small>(v1.0)</small> 
+
 ## Extensions
 
 These are tools to improve your TechDraw drawings.

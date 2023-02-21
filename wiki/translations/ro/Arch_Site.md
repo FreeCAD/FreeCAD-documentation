@@ -5,9 +5,13 @@
 
 </div>
 
+
+
 ## Descriere
 
 Site-ul Arch este un obiect special care combină proprietățile unui obiect standard al grupului FreeCAD și a obiectelor Arch. Este deosebit de potrivit pentru a reprezenta un întreg sit de proiect sau teren. În cazul lucrărilor arhitecturale bazate pe IFC, se utilizează cea mai mare parte pentru a vă organiza modelul, conținând obiecte [building](Arch_Building.md). Site-ul este, de asemenea, folosit pentru a gestiona și a afișa un teren fizic și poate calcula volumul de pământ care trebuie adăugat sau eliminat.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -26,6 +30,8 @@ Site-ul Arch este un obiect special care combină proprietățile unui obiect st
 
 </div>
 
+
+
 ## Opţiuni
 
 
@@ -39,6 +45,8 @@ Site-ul Arch este un obiect special care combină proprietățile unui obiect st
 
 
 </div>
+
+
 
 ## Proprietăți
 
@@ -119,6 +127,8 @@ Create some volumes (they must be solids) that represent the areas that you wish
 The site geometry will be recomputed and the areas, perimeter, and volumes properties recalculated.
 
 ![](images/Arch_site_example_03.jpg )
+
+
 
 
 <div class="mw-translate-fuzzy">

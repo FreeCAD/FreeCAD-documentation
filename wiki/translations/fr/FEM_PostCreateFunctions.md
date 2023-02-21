@@ -2,9 +2,9 @@
 - GuiCommand:/fr
    Name:FEM CompPostCreateFunctions
    Name/fr:FEM Fonctions de filtrage
-   MenuLocation:Résultats → Fonctions de filtrage
+   MenuLocation:
    Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
+   SeeAlso:
 ---
 
 # FEM PostCreateFunctions/fr
@@ -17,37 +17,13 @@
 
 ## Types
 
+Vous pouvez choisir ces fonctions :
 
-<div class="mw-translate-fuzzy">
-
-Pour le moment, vous pouvez choisir entre deux fonctions géométriques :
-
--   <img alt="" src=images/Fem-post-geo-plane.svg  style="width:32px;"> [FEM Plan](FEM_PostCreateFunctionPlane/fr.md)
--   <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:32px;"> [FEM Sphère](FEM_PostCreateFunctionSphere/fr.md)
-
-
-</div>
+-   <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> [FEM Plan](FEM_PostCreateFunctionPlane/fr.md)
+-   <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:24px;"> [FEM Sphère](FEM_PostCreateFunctionSphere/fr.md)
 
 
 
-## Utilisation
-
-
-<div class="mw-translate-fuzzy">
-
-Pour créer une fonction, utilisez le bouton de la barre d\'outils <img alt="" src=images/Fem-post-geo-plane.svg  style="width:32px;"> ou <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:32px;"> (selon ce qui est visible). Notez le petit triangle à côté qui vous permet de choisir le type de fonction. Vous pouvez également utiliser le menu **Résultats → Fonctions de filtrage → <img src="images/Fem-post-geo-plane.svg" width=16px> Plan / <img src="images/Fem-post-geo-sphere.svg" width=16px> Sphère**.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

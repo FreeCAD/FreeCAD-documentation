@@ -31,13 +31,7 @@ Diese Verknüpfung veranlasst das Maß seinen Wert direkt von der 3D-Geometrie a
 4.  Ein Dialog öffnet sich. Ein oder mehrere Maß(e) auswählen, die mit der ausgewählten 3D-Geometrie verknüpft werden sollen.
 5.  Drücke **OK**.
 
-
-<div class="mw-translate-fuzzy">
-
-Nachdem die Verknüpfungsoperation abgeschlossen ist, ändert sich die {{PropertyData/de|MeasureType}} des Maßes von `Projected` (projiziertes Maß) auf `True` (tatsächliche Länge).
-
-
-</div>
+Die Verknüpfungsoperation ändert die {{PropertyData/de|MeasureType}} des Maßes von `Projected` (projiziertes Maß) auf `True` (tatsächliche Länge).
 
 
 

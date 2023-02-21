@@ -2,16 +2,13 @@
 - GuiCommand:/fr
    Name:FEM EquationElectricforce
    Name/fr:FEM Équation de force électrique
-   MenuLocation:Solveur → Équation de force électrique
+   MenuLocation:Solveur → Équations électromagnétiques → Équation de force électrique
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Version:0.19
    SeeAlso:[FEM Equation électrostatique](FEM_EquationElectrostatic/fr.md)
 ---
 
 # FEM EquationElectricforce/fr
-
-
-</div>
 
 ## Description
 
@@ -23,16 +20,10 @@ Pour plus d\'informations sur les mathématiques de l\'équation, voir [Elmer mo
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Après avoir ajouté un solveur Elmer comme décrit [ici](FEM_SolverElmer/fr#.C3.89quations.md), sélectionnez-le dans la [Vue en arborescence](Tree_view/fr.md).
-2.  Utilisez le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationElectricforce.svg  style="width:24px;"> ou le menu **Solveur → Équation de force électrique**.
-3.  Utilisez maintenant le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> ou le menu **Solveur → [Équation électrostatique](FEM_EquationElectrostatic/fr.md)**. Ceci est important car l\'équation de force électrique a besoin du champ potentiel calculé par l\'équation électrostatique.
+2.  Utilisez le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationElectricforce.svg  style="width:24px;"> ou le menu **Solveur → Équations électromagnétiques → Équation de force électrique**.
+3.  Utilisez maintenant le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> ou le menu **Solveur → Équations électromagnétiques → [Équation électrostatique](FEM_EquationElectrostatic/fr.md)**. Ceci est important car l\'équation de force électrique a besoin du champ potentiel calculé par l\'équation électrostatique.
 4.  Changez les [paramètres du solveur de l\'équation](#Param.C3.A8tres_du_solveur.md) ou les [paramètres généraux du solveur](FEM_SolverElmer_SolverSettings/fr.md) si nécessaire.
-
-
-</div>
 
 L\'équation de la force électrique ne calcule la force que pour les faces avec une <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [contrainte de potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md) si l\'option **Calculer la force électrique** de la contrainte est utilisée.
 
@@ -59,13 +50,7 @@ L\'équation de la force électrique n\'a pas de contraintes propres. Elle prend
 Le résultat est la densité de force électrique en $\rm N/m^2$.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

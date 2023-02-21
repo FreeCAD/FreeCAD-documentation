@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 El <img alt="" src=images/Draft_OrthoArray.svg  style="width:24px;"> **Borrador ArregloOrtogonal** crea un arreglo ortogonal (3 ejes) a partir de un objeto seleccionado. El comando puede crear opcionalmente un arreglo [Enlace](App_Link/es.md), que es más eficiente que un arreglo normal.
@@ -27,6 +29,8 @@ El comando puede usarse en objetos 2D creados con el [Ambiente de Trabajo Borrad
 
 <img alt="" src=images/Draft_Array_example.png  style="width:300px;"> 
 *Borrador ArregloOrtogonal*
+
+
 
 ## Utilización
 
@@ -43,6 +47,8 @@ El comando puede usarse en objetos 2D creados con el [Ambiente de Trabajo Borrad
     -   Pulse **Enter**.
     -   Pulse el botón **OK**.
 
+
+
 ## Opciones
 
 -   Enter the **Number of elements** for the X, Y and Z directions. This number must be at least {{Value|1}} for every direction.
@@ -54,10 +60,14 @@ El comando puede usarse en objetos 2D creados con el [Ambiente de Trabajo Borrad
 -   If the **Link array** checkbox is checked a Link array instead of a regular array is created. A Link array is more efficient because its elements are [App Link](App_Link.md) objects.
 -   Press **Esc** or the **Cancel** button to abort the command.
 
+
+
 ## Notas
 
 -   A Draft OrthoArray can be turned into a [Draft PolarArray](Draft_PolarArray.md) or a [Draft CircularArray](Draft_CircularArray.md) by changing its **Array Type** property.
 -   A Link array cannot be turned into a regular array or vice versa. The type of array must be decided at creation time.
+
+
 
 ## Preferencias
 
@@ -65,11 +75,15 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 -   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
+
+
 ## Propiedades
 
 See also: [Property editor](property_editor.md).
 
 The Draft OrthoArray command, the [Draft PolarArray command](Draft_PolarArray.md) and the [Draft CircularArray command](Draft_CircularArray.md) create the same object. This object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties (with the exception of some View properties that are not inherited by Link arrays). The following properties are additional unless otherwise stated:
+
+
 
 ### Datos
 
@@ -130,7 +144,7 @@ The properties in this group are hidden for orthogonal arrays and polar arrays.
 
 -    **Base|Link**: specifies the object to duplicate in the array.
 
--    **Count|Integer**: (read-only) specifies the total number of elements in the array. Only available for Link arrays.
+-    **Count|Integer**: (read-only) specifies the total number of elements in the array. {{VersionMinus|0.20}}: Only available for Link arrays.
 
 -    **Expand Array|Bool**: specifies whether to expand the array in the [Tree view](Tree_view.md) to enable the selection of its individual elements. Only available for Link arrays.
 
@@ -242,6 +256,8 @@ The properties in this group are inherited properties. See [Part Feature](Part_F
 {{TitleProperty|Object style}}
 
 The properties in this group are not inherited by Link arrays.
+
+
 
 ## Guión
 

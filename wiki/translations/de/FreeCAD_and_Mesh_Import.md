@@ -31,6 +31,8 @@ Um dies zu tun:
 
 **Hinweis**: Der letzte Schritt ist nicht notwendig, aber er reinigt den Festkörper von den meisten seiner Restkanten auf ebenen und zylindrischen Oberflächen.
 
+
+
 ## Fehler
 
 ### \"cannot convert because shape is not a shell\" 
@@ -44,6 +46,8 @@ Nun, deine Schale scheint Fehler zu haben, vielleicht ist sie nicht geschlossen 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -79,6 +83,8 @@ Nun, deine Schale scheint Fehler zu haben, vielleicht ist sie nicht geschlossen 
 
 
 </div>
+
+
 
 ## Verwandt
 

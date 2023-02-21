@@ -32,6 +32,11 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
   ![](images/Navi_Cube_relnotes_1.0.gif )   The navigation cube corner faces are now hexagonal and bigger, making them easier to click. The font and font size can now also be changed in the [preferences](Preferences_Editor#Navigation.md). [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876) and [Pull request #8266](https://github.com/FreeCAD/FreeCAD/pull/8266).
    
 
++++
+| <img alt="" src=images/Part_SectionCut_example_relnotes_1.0.gif  style="width:384px;">Persistent section cut of intersecting objects.Click on the image to see the animation. | The [Section Cut](Part_SectionCut.md) tool now allows to cut intersecting objects. This is useful for assemblies where intersections of touching objects can sometimes not be avoided due to numerical issues. |
+|                                                                                                                                                                                                                          | [Pull request #8252](https://github.com/FreeCAD/FreeCAD/pull/8252).                                                                                                                                                    |
++++
+
    
   <img alt="" src=images/Measurement-Part_relnotes_1.0.png  style="width:384px;">   The display style of [measurement](Part_Workbench#Measure.md) results created using the [Part](Part_Workbench.md) or [PartDesign](PartDesign_Workbench.md) workbench can now be changed in the [preferences](PartDesign_Preferences#Measure.md). [Pull request #7148](https://github.com/FreeCAD/FreeCAD/pull/7148)
    
@@ -123,7 +128,13 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 
 ### Otras mejoras de Arch 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Los objetos [Perfil](Arch_Profile.md) ahora soportan modificaciones del tipo de perfil después de su creación. [Pull request #7217](https://github.com/FreeCAD/FreeCAD/pull/7217)
+
+
+</div>
 
 
 
@@ -134,6 +145,7 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 -   The [Draft PointArray](Draft_PointArray.md) command now supports more point object types. Any object with a shape and vertices, as well as a [mesh](Mesh_Workbench.md) and a [point cloud](Points_Workbench.md) can be used. [Pull request #7597](https://github.com/FreeCAD/FreeCAD/pull/7597)
 -   The [Tree view](Tree_view.md) context menus for Draft objects have been improved. Objects that can be edited with the [Draft Edit](Draft_Edit.md) command, or that have a dedicated edit solution, now have an **Edit** option in that menu. The **Set colors** option was removed for objects without a face or that can only have a single face. [Pull request #7970](https://github.com/FreeCAD/FreeCAD/pull/7970)
 -   The properties of Draft annotation objects have been unified. [Draft Text](Draft_Text.md), [Draft Dimension](Draft_Dimension.md) and [Draft Label](Draft_Label.md) objects now all have a Font Name, a Font Size and a Text Color property. The Display Mode options have been made consistent as well and are now: Screen and World. [Issue #7861](https://github.com/FreeCAD/FreeCAD/issues/7861) and [Pull request #8081](https://github.com/FreeCAD/FreeCAD/pull/8081)
+-   Undo/Redo did not work properly for the Draft modification commands on Windows. [Pull request #8267](https://github.com/FreeCAD/FreeCAD/pull/8267)
 
 
 
@@ -143,24 +155,41 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 -   The [Draft Edit](Draft_Edit.md) command has received several improvements. For [wires](Draft_Wire.md), [B-splines](Draft_BSpline.md) and [Bézier curves](Draft_BezCurve.md) a Close/Open option has been added to the edge context menu. For B-splines and Bézier curves a Reverse option has been added to the same menu as well. The task panels have been cleaned up. [Pull request #7527](https://github.com/FreeCAD/FreeCAD/pull/7527) and [Pull request #7541](https://github.com/FreeCAD/FreeCAD/pull/7541)
 -   The [Draft Snap](Draft_Snap.md) toolbar was changed to a standard toolbar. Keyboard shortcuts can now be assigned to snaps. But using them during a command only works if none of the input boxes in the task panel has the focus as they \'catch\' the so-called in-command shortcuts. [Pull request #7656](https://github.com/FreeCAD/FreeCAD/pull/7656)
 -   In the task panel of the [Draft SetStyle](Draft_SetStyle.md) command the \"Texts/dims\" button has been replaced by the \"Annotations\" button. Pressing this button will process all annotations, including [Draft Labels](Draft_Label.md). Several minor additional issues were also fixed. [Pull request #8190](https://github.com/FreeCAD/FreeCAD/pull/8190), [Pull request #8195](https://github.com/FreeCAD/FreeCAD/pull/8195) and [Pull request #8196](https://github.com/FreeCAD/FreeCAD/pull/8196)
+-   Several [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md) bugs have been fixed and a separate Text color button has been added. [Pull request #8207](https://github.com/FreeCAD/FreeCAD/pull/8207)
+-   A Count property has been added to the arrays that lacked this property: the non-Link versions of [Draft OrthoArray](Draft_OrthoArray.md), [Draft PolarArray](Draft_PolarArray.md) and [Draft CircularArray](Draft_CircularArray.md). [Pull request #8433](https://github.com/FreeCAD/FreeCAD/pull/8433)
 
 
 
 ## Ambiente de Trabajo FEM 
 
    
-  <img alt="" src=images/FEM_Elmer-Multithread_relnotes_1.0.png  style="width:384px;">Simulation result where 8 mesh regions are visible (one for every CPU core used).   It is now possible to run the solver [Elmer](FEM_SolverElmer.md) using multiple CPU cores. For more info about the caveats, see [this forum post](https://forum.freecadweb.org/viewtopic.php?p=610617#p610617) [Pull request #7159](https://github.com/FreeCAD/FreeCAD/pull/7159)
+  <img alt="" src=images/FEM_PostFilterContours_relnotes_1.0.png  style="width:384px;">Iso-contours, depicting the y-component of the absolute magneticflux density in and around a copper wire that is flown through byelectric current at a frequency of 100 kHz.For more info about this model, see section 14 of the [Elmer Tutorials](https://www.nic.funet.fi/index/elmer/doc/ElmerTutorials.pdf).   There is the new <img alt="" src=images/FEM_PostFilterContours.svg  style="width:24px;"> [Contours filter](FEM_PostFilterContours.md) filter that allows to draw iso-lines or iso-contours. Iso-contours are connected mesh nodes that have the same result field value. A typical example are electric field lines. [Pull request #8462](https://github.com/FreeCAD/FreeCAD/pull/8462)
+   
+
+   
+  <img alt="" src=images/FEM_Elmer-Multithread_relnotes_1.0.png  style="width:384px;">Simulation result where 8 mesh regions are visible (one for everyCPU core used).   It is now possible to run the solver [Elmer](FEM_SolverElmer.md) using multiple CPU cores. For more info about the caveats, see [this forum post](https://forum.freecadweb.org/viewtopic.php?p=610617#p610617) [Pull request #7159](https://github.com/FreeCAD/FreeCAD/pull/7159)
+   
+
+   
+  <img alt="" src=images/FEM_EquationMagnetodynamic2D_relnotes_1.0.png  style="width:300px;">Simulation result of the imaginary part of the current density ina crucible that was heated electrically by a surrounding coil.For more info about this model, see section 16 of the [Elmer Tutorials](https://www.nic.funet.fi/index/elmer/doc/ElmerTutorials.pdf).   The <img alt="" src=images/FEM_EquationMagnetodynamic2D.svg  style="width:24px;"> [magnetodynamic 2D equation](FEM_EquationMagnetodynamic2D.md) was added. With this it is possible to perform electromagnetic simulations in 2D. [Pull request #8355](https://github.com/FreeCAD/FreeCAD/pull/8355)
+   
+
+   
+  <img alt="" src=images/FEM_EquationMagnetodynamic_relnotes_1.0.png  style="width:384px;">Simulation result of the imaginary part of the magnetic flux density inand around a copper wire that is flown through by electric current ata frequency of 100 kHz.For more info about this model, see section 14 of the [Elmer Tutorials](https://www.nic.funet.fi/index/elmer/doc/ElmerTutorials.pdf).   The <img alt="" src=images/FEM_EquationMagnetodynamic.svg  style="width:24px;"> [magnetodynamic equation](FEM_EquationMagnetodynamic.md) was added. With this it is possible to perform electromagnetic simulations. [Pull request #8380](https://github.com/FreeCAD/FreeCAD/pull/8380)
    
 
 
 
 ### Otras mejoras de FEM 
 
--   There is now an <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [initial pressure constraint](FEM_ConstraintInitialPressure.md) to set the initial internal pressure of fluids. [Pull request #7364](https://github.com/FreeCAD/FreeCAD/pull/7364)
+-   The <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [initial pressure constraint](FEM_ConstraintInitialPressure.md) was added to set the initial internal pressure of fluids. [Pull request #7364](https://github.com/FreeCAD/FreeCAD/pull/7364)
+-   The <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:24px;"> [current density constraint](FEM_ConstraintCurrentDensity.md) was added to set current densities for bodies and faces. [Pull request #8348](https://github.com/FreeCAD/FreeCAD/pull/8348)
+-   The <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:24px;"> [magnetization constraint](FEM_ConstraintMagnetization.md) was added to set magnetizations for bodies and faces. [Pull request #8393](https://github.com/FreeCAD/FreeCAD/pull/8393)
 -   The <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:24px;"> [body heat source constraint](FEM_ConstraintBodyHeatSource.md) now has a task panel and it is possible to set the heat for several bodies or to use several constraints for different bodies in one analysis. [Pull request #7367](https://github.com/FreeCAD/FreeCAD/pull/7367)
 -   It is now possible to open (and this way visualize) \*.pvtu files (partitioned VTK unstructured grid data). A \*.pvtu file is also the result of an [Elmer](FEM_SolverElmer.md) simulation, when more than one CPU core was used. [Pull request #7159](https://github.com/FreeCAD/FreeCAD/pull/7159)
 -   Critical Strain Ratio has been added to the VTK result pipeline. It gives an indication of ductile rupture for materials with a \"MaterialMechanicalNonlinear\" object. [Pull request #7467](https://github.com/FreeCAD/FreeCAD/pull/7467)
--   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:24px;"> [FEM mesh to mesh](FEM_FemMesh2Mesh.md) enables to define the scale of deformed mesh using Python. [Forum thread](https://forum.freecadweb.org/viewtopic.php?f=18&t=71936) and [Pull request #7715](https://github.com/FreeCAD/FreeCAD/pull/7715)
+-   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:24px;"> [FEM mesh to mesh](FEM_FemMesh2Mesh.md) has the new parameter *scale* to define the scale of deformed mesh using Python. [Forum thread](https://forum.freecadweb.org/viewtopic.php?f=18&t=71936) and [Pull request #7715](https://github.com/FreeCAD/FreeCAD/pull/7715)
+-   New material card for carbon dioxide. [Pull request #8332](https://github.com/FreeCAD/FreeCAD/pull/8332)
 
 
 
@@ -277,7 +306,7 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 
    
   <img alt="" src=images/TechDraw_SurfaceFinishExample_relnotes_1.0.png  style="width:250px;">   The [SurfaceFinishSymbol](TechDraw_SurfaceFinishSymbol.md) tool was added to allow for the creation of surface finish symbols describing roughness, lay and waviness, but also denoting the type of surface treatment. It supports both ISO and ASME styles. As shown in the image, the existing [LeaderLine](TechDraw_LeaderLine.md) tool can be used to properly refer oriented symbols to the edges of an object. [Pull request #7227](https://github.com/FreeCAD/FreeCAD/pull/7227)
-  <img alt="" src=images/TechDraw_ComplexSection_relnotes_1.0.png  style="width:250px;">               The [ComplexSection](TechDraw_ComplexSection.md) tool was added. [Pull request #7658](https://github.com/FreeCAD/FreeCAD/pull/7658)
+  <img alt="" src=images/TechDraw_ComplexSection_relnotes_1.0.png  style="width:250px;">               The [ComplexSection](TechDraw_ComplexSection.md) tool was added to allow for the creation of half, offset and aligned sections. [Pull request #7658](https://github.com/FreeCAD/FreeCAD/pull/7658)
                                                                                                                       
    
 
@@ -295,7 +324,10 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 -   [ActiveView](TechDraw_ActiveView.md) now creates a screen capture instead of an SVG image. [Pull request #7471](https://github.com/FreeCAD/FreeCAD/pull/7471)
 -   All Latin script templates have been converted to \"plain svg\". [Pull request #7472](https://github.com/FreeCAD/FreeCAD/pull/7472)
 -   A preview was added to the task panel of the [SectionView](TechDraw_SectionView.md) tool. [Pull request #7658](https://github.com/FreeCAD/FreeCAD/pull/7658)
--   Removed deprecated functions: DrawViewPart::replaceCenterLine, DrawViewPart::replaceCosmeticEdge, DrawViewPart::replaceCosmeticVertex and DrawViewPart::replaceGeomFormat.
+-   Deprecated DrawViewPart functions were removed: replaceCenterLine, replaceCosmeticEdge, replaceCosmeticVertex and replaceGeomFormat.
+-   The [HoleShaftFit](TechDraw_HoleShaftFit.md) tool was added. [Pull request #8455](https://github.com/FreeCAD/FreeCAD/pull/8455)
+-   The [AxoLengthDimension](TechDraw_AxoLengthDimension.md) tool was added. [Pull request #8359](https://github.com/FreeCAD/FreeCAD/pull/8359)
+-   3D dimensions can now be created in the same way as 2D dimensions removing the need to link them manually to 3D geometry. Moreover, the [DimensionRepair](TechDraw_DimensionRepair.md) tool was added. [Pull request #8141](https://github.com/FreeCAD/FreeCAD/pull/8141)
 
 ## Web
 

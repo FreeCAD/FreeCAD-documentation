@@ -12,7 +12,7 @@ Le **Std Menu Édition** est l\'un des 7 sous-menus du [menu standard](Standard_
 |
 [Fichier](Std_File_Menu/fr.md)
 &nbsp;&nbsp;&nbsp;
-[Edition](Std_Edit_Menu/fr.md)
+[Édition](Std_Edit_Menu/fr.md)
 &nbsp;&nbsp;&nbsp;
 [Affichage](Std_View_Menu/fr.md)
 &nbsp;&nbsp;&nbsp;
@@ -26,6 +26,8 @@ Le **Std Menu Édition** est l\'un des 7 sous-menus du [menu standard](Standard_
 }}
 
 Le menu Édition fournit des outils pour modifier le modèle.
+
+
 
 ## Outils
 

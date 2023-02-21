@@ -20,7 +20,13 @@ FreeCAD的工具类似于[CATIA](http://en.wikipedia.org/wiki/Catia)，[SolidWor
 
 FreeCAD大量使用[科学计算](http://en.wikipedia.org/wiki/Scientific_Computation)领域中存在的开源库。 其中包括：[Open Cascade Technology (OCCT)](http://OpenCascade.org)\-\--一个功能强大的CAD内核；[Coin3D](https://github.com/coin3d/coin/wiki)\-\--一个与[Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor)接口一致的3D图形开发工具集；[Qt](http://www.qtsoftware.com/)\-\--世界著名的用户界面开发框架；以及[Python](http://www.python.org)\-\--一种现代化的脚本语言。 FreeCAD本身也可以被其他程序用作库文件。
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCad也是完全的[跨平台](http://en.wikipedia.org/wiki/cross-platform)软件，目前在Windows、Linux/Unix和Mac OSX系统上运行完美，并且所有平台上的外观和功能完全相同。
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -29,6 +35,8 @@ FreeCad也是完全的[跨平台](http://en.wikipedia.org/wiki/cross-platform)�
 
 
 </div>
+
+
 
 ### 关于FreeCAD项目
 

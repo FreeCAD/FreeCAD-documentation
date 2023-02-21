@@ -577,13 +577,7 @@ I opcjonalnie:
 -   python3-markdown *(aby Menadżer dodatków natywny markdown)*,
 -   python3-GitPython *(aby Menadżer dodatków używał repozytorium Git do sprawdzania i aktualizowania środowisk pracy i makrodefinicji)*.
 
-
-<div class="mw-translate-fuzzy">
-
-Aby zainstalować wszystkie zależności naraz *(testowane w systemie Fedorze 36)*:
-
-
-</div>
+Aby zainstalować wszystkie zależności naraz *(testowane w systemie Fedorze 36 oraz 37)*:
 
 
 {{Code|lang=bash|code=

@@ -2,158 +2,93 @@
 - GuiCommand:/it
    Name:Draft Facebinder
    Name/it:Lega facce
+   MenuLocation:Drafting → Lega facce
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   MenuLocation:Draft → Lega facce
    Shortcut:**F** **F**
-   SeeAlso:[Cubo](Part_Box/it.md) di Part, [Muro](Arch_Wall/it.md) di Arch
    Version:0.14
 ---
 
 # Draft Facebinder/it
 
 
-</div>
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_Facebinder.svg  style="width:24px;"> **Lega facce** crea un oggetto superficie dalle facce selezionate. Un Lega facce è parametrico, si aggiornerà se si modificano i suoi oggetti sorgente.
 
-<div class="mw-translate-fuzzy">
+Può essere utilizzato per creare un\'estrusione da una raccolta di facce. Questa estrusione può ad esempio rappresentare una finitura della parete nel design architettonico.
 
-Lo strumento Lega facce (Facebinder) crea un oggetto superficie dalle facce selezionate di un oggetto solido. È parametrico, il che significa che se si modifica l\'oggetto originale, Lega facce si aggiorna di conseguenza. Se si sposta e ruota il Lega facce, esso rimane collegato ale facce originali.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Può essere usato per creare un\'estrusione da una collezione di facce prese da altri oggetti. Un tipico utilizzo è nella progettazione architettonica per costruire un oggetto che copre diverse pareti, ad esempio una carta da parati o un intonaco.
+<img alt="" src=images/Draft_facebinder_example.jpg  style="width:400px;"> 
+*Facebinder creato da facce di pareti*
 
 
-</div>
-
-<img alt="" src=images/Draft_facebinder_example.jpg  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Facebinder creato dalle facce di pareti solide*
-
-
-</div>
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Sceglere una faccia o tenere premuto **Ctrl** e sceglere diverse facce da oggetti solidi.
-2.  Premere il pulsante **<img src="images/Draft_Facebinder.svg" width=16px> [Lega facce](Draft_Facebinder/it.md)**, o premere i tasti **F** e poi **F**.
-
-
-</div>
+1.  Seleziona una o più facce.
+2.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_Facebinder.svg" width=16px> [Lega facce](Draft_Facebinder.md)**.
+    -   Selezionare l\'opzione **Drafting → <img src="images/Draft_Facebinder.svg" width=16px> Lega facce** dal menu.
+    -   Usare la scorciatoia da tastiera: **F** poi **F**.
 
 
-<div class="mw-translate-fuzzy">
 
 ## Proprietà
 
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
+
+Un oggetto Lega facce è derivato da una [Funzione Part](Part_Feature/it.md) e ne eredita tutte le proprietà. Ha anche le seguenti proprietà aggiuntive:
+
+
+
 ### Dati
 
--    {{PropertyData/it|Extrusion}}: specifica uno spessore di estrusione da applicare a tutte le facce della forma.
-
--    {{PropertyData/it|Remove Splitter}}: se è `True` cerca di fondere le intersezioni interne del Facebinder quando viene estruso.
-
--    {{PropertyData/it|Sew}}: se è `True` tenta di eseguire un\'operazione di cucitura topologica sul Facebinder quando viene estruso.
-
--    **Offset**: specifica una distanza di offset da applicare tra le facce legate e le facce originali, prima dell\'estrusione.
-
--    **Area**: l\'area totale di queste facce legate.
-
-
-</div>
-
-See also: [Property editor](Property_editor.md).
-
-A Draft Facebinder object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
-
-### Data
-
 
 {{TitleProperty|Draft}}
 
--    **Area|Area**: (read-only) specifies the total area of the linked faces of the facebinder.
+-    **Area|Area**: (sola lettura) specifica l\'area totale delle facce collegate del facebinder.
 
--    **Extrusion|Distance**: specifies the extrusion thickness of the facebinder.
+-    **Extrusion|Distance**: specifica lo spessore di estrusione del facebinder.
 
--    **Faces|LinkSubList**: specifies the linked faces of the facebinder.
+-    **Faces|LinkSubList**: specifica le facce collegate del facebinder.
 
--    **Offset|Distance**: specifies an offset distance to apply between the facebinder and the original faces, prior to extrusion.
+-    **Offset|Distance**: specifica una distanza di offset da applicare tra il facebinder e le facce originali, prima dell\'estrusione.
 
--    **Remove Splitter|Bool**: Specifies whether to remove splitter lines that divide co-planar faces of the facebinder.
+-    **Remove Splitter|Bool**: specifica se rimuovere le linee di divisione che dividono le facce complanari del facebinder.
 
--    **Sew|Bool**: Specifies whether to perform a topological sewing operation on the facebinder.
-
-### View
+-    **Sew|Bool**: specifica se eseguire un\'operazione di cucitura topologica sul facebinder.
 
 
-{{TitleProperty|Draft}}
-
-
-<div class="mw-translate-fuzzy">
 
 ### Vista
 
--    {{PropertyView/it|Pattern}}: specifica un modello di [Campitura](Draft_Pattern/it.md) con cui riempire la faccia della forma. Questa proprietà funziona solo se {{PropertyView/it|Display Mode}} è \"Flat Lines\".
 
--    {{PropertyView/it|Pattern Size}}: specifica la dimensione della [Campitura](Draft_Pattern/it.md).
+{{TitleProperty|Draft}}
 
+-    **Pattern|Enumeration**: specifica la [Campitura](Draft_Pattern/it.md) con cui riempire le facce del facebinder. Questa proprietà funziona solo se **Display Mode** è {{value|Flat Lines}}.
 
-</div>
-
-## Scripting
+-    **Pattern Size|Float**: specifica la dimensione della [Campitura](Draft_Pattern/it.md).
 
 
-<div class="mw-translate-fuzzy">
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-**Vedere anche:**
-
-[API Draft](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Lega facce può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
-
-
-</div>
+Per creare un Draft Lega facce usare il metodo `make_facebinder` ({{Version/it|0.19}}) del modulo Draft. Questo metodo sostituisce il metodo deprecato `makeFacebinder`.
 
 
 ```python
 facebinder = make_facebinder(selectionset)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
--   Crea un oggetto `Facebinder` dalla `selectionset`, che è una lista di `SelectionObject` come quelli restituiti da `FreeCADGui.Selection.getSelectionEx()`.
+-   Crea un oggetto `facebinder` dalla `selectionset`, che è una lista di `SelectionObject` come quelli restituiti da `FreeCADGui.Selection.getSelectionEx()`.
     -   
         `selectionset`
         
         può anche essere un `PropertyLinkSubList`.
 
 Un `PropertyLinkSubList` è un elenco di tuple; ogni tupla contiene come primo elemento un `oggetto` e come secondo elemento un elenco (o tupla) di stringhe; queste stringhe indicano i nomi dei sotto-elementi (facce) di quell\'oggetto.
-
-
-</div>
 
 
 ```python
@@ -195,15 +130,6 @@ facebinder.ViewObject.ShapeColor = (0.99, 0.99, 0.4)
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

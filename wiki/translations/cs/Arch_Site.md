@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -14,6 +16,8 @@ Staveniště je speciální typ skupinového objektu FreeCADu zvlášť vhodný 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -32,6 +36,8 @@ Staveniště je speciální typ skupinového objektu FreeCADu zvlášť vhodný 
 
 
 </div>
+
+
 
 ## Volby
 
@@ -94,7 +100,7 @@ Staveniště je speciální typ skupinového objektu FreeCADu zvlášť vhodný 
 
 ## Typical workflow 
 
-Start by creating an object that represents your terrain. It must be an open surface, not a solid. For example, it is easy to import mesh data, that can be turned into a Part Shape from menu **Part → Create Shape from Mesh**. Then, create a Site object, and set its **Terrain** property to the Part we just created:
+Start by creating an object that represents your terrain. For example, it is easy to import mesh data, that can be turned into a Part Shape from menu **Part → Create Shape from Mesh**. Then, create a Site object, and set its **Terrain** property to the Part we just created:
 
 ![](images/Arch_site_example_01.jpg )
 

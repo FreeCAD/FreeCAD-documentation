@@ -1,194 +1,149 @@
-# Draft ShapeString/it
 ---
 - GuiCommand:/it
    Name:Draft_ShapeString
-   Name/it:ShapeString
+   Name/it:Forma da testo
+   MenuLocation:Drafting → Forma da testo
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   MenuLocation:Draft → Forma da testo...
-   Shortcut:**S** **S**
-   SeeAlso:[Testo Draft](Draft_Text/it.md), [Part Estrusione](Part_Extrude/it.md),<br /> [Macro Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP/it.md) <img src="images/Macro_Fonts_Win10_PYMP.png" width=24px>
-   Version:0.14---
+   Shortcut:
+   Version:0.14
+   SeeAlso:[Testo](Draft_Text/it.md), [Etichetta](Draft_Label/it.md) [Estrusione](Part_Extrude/it.md)
+---
+
+# Draft ShapeString/it
 
 
-</div>
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> **Forma da testo** crea una forma composta che rappresenta una stringa di testo. Questa forma può essere utilizzata per creare lettere 3D con il comando [Part Estrusione](Part_Extrude/it.md).
 
-<div class="mw-translate-fuzzy">
+Il comando Forma da testo non è destinato alle annotazioni di testo standard. Il comando [Testo](Draft_Text/it.md) o il comando [Etichetta](Draft_Label/it.md) dovrebbe essere utilizzato a tale scopo.
 
-Lo strumento ShapeString inserisce una forma composta che riproduce una stringa di testo in un dato punto del documento corrente. Si possono definire gli attributi del testo quali altezza, tipo di carattere, ecc.. La forma risultante può essere utilizzata con lo strumento [Estrusione](Part_Extrude/it.md) di Part per creare lettere 3D.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Per inserire un elemento di testo più semplice senza una forma chiusa, utilizzare <img alt="" src=images/Draft_Text.svg  style="width:24px;"> [Testo](Draft_Text/it.md). Per creare un\'etichetta di testo con una linea guida e una freccia usare <img alt="" src=images/Draft_Label.svg  style="width:24px;"> [Etichetta](Draft_Label/it.md).
+![](images/Draft_ShapeString_Example400.png ) 
+*Per posizionare una Forma da testo basta un singolo punto*
 
 
-</div>
-
-![](images/Draft_ShapeString_Example400.png )
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Per posizionare una Shapestring basta un singolo punto*
-
-
-</div>
 
 ## Utilizzo
 
-For Windows users: please read the [Font file selection on Windows](#Font_file_selection_on_Windows.md) paragraph first.
+Per gli utenti Windows: leggere prima il paragrafo [Selezione file font su Windows](#Selezione_file_font_su_Windows.md).
+
+1.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_ShapeString.svg" width=16px> [Forma da testo](Draft_ShapeString/it.md)**.
+    -   Selezionare l\'opzione **Drafting → <img src="images/Draft_ShapeString.svg" width=16px> Forma da testo** dal menu.
+2.  Si apre il pannello attività **Forma da testo**.
+3.  Fare clic su un punto nella [Vista 3D](3D_view/it.md) o digitare le coordinate.
+4.  Facoltativamente, premere il pulsante **Reimposta punto** per reimpostare il punto all\'origine.
+5.  Inserire una **Stringa**.
+6.  Specificare l\'**Altezza**.
+7.  Per selezionare un carattere, eseguire una delle seguenti operazioni:
+    -   Inserire un percorso file nella casella di input **Font file**.
+    -   Premere il pulsante **...** e selezionare un file.
+8.  Premere il pulsante **OK** per terminare il comando.
 
 
-<div class="mw-translate-fuzzy">
-
-Se la modalità dell\'interfaccia di Draft è impostata su Vista azioni:
-
-1.  Premere il pulsante **<img src="images/Draft_ShapeString.svg" width=16px> [Forma da testo](Draft_ShapeString/it.md)**, o premere i tasti **S** e poi **S**.
-2.  Appare una finestra di dialogo in cui è possibile specificare i parametri.
-3.  Premere **OK** per creare la forma dal testo.
-
-
-</div>
 
 ## Opzioni
 
-
-<div class="mw-translate-fuzzy">
-
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z.. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando si hanno i valori desiderati per inserire il punto.
--   Premere il tasto **Esc** o il pulsante {{button|Chiudi}} per interrompere il comando corrente.
+-   Premer **Esc** o il pulsante **Annulla** per interrompere il comando.
 
 
-</div>
 
-## Notes
+## Note
 
-
-<div class="mw-translate-fuzzy">
-
-### Limitazioni
-
--   Altezze di testo molto ridotte possono causare deformazioni delle forme del carattere a causa della perdita di dettagli nel ridimensionamento.
--   La versione corrente mostra solo un testo scritto in orizzontale da sinistra a destra.
--   Per creare un testo curvo è possibile utilizzare la macro **[<img src=images/FCCircularTextButtom.png style="width:24px"> [Testo circolare](Macro_FCCircularText/it.md)**.
+-   Una Forma da testo può essere modificata facendo doppio clic su di essa nella [Vista ad albero](Tree_view/it.md). {{Version/it|0.20}}
+-   I font supportati includono TrueType (**.ttf**), OpenType (**.otf**) e Type 1 (**.pfb**).
+-   Il comando è limitato al testo LTR (da sinistra a destra). Pertanto al momento il testo RTL (da destra a sinistra + dall\'alto verso il basso) non è supportato.
+-   Altezze del testo molto piccole possono causare forme dei caratteri deformate a causa della perdita di dettagli nel ridimensionamento.
+-   Molti font genereranno geometrie problematiche. Questo perché i contorni dei caratteri possono sovrapporsi, avere piccoli spazi e avere direzioni diverse all\'interno di un glifo. Queste condizioni sono considerate errori nelle poliline utilizzate per definire le facce.
+-   Forma da testo può anche essere creato con [Macro Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP/it.md).
+-   Per creare Forme da testo disposte in modo circolare utilizzare il [Macro FCCircularText](Macro_FCCircularText/it.md).
 
 
-</div>
 
-## Font file selection on Windows 
+## Selezione file font su Windows 
 
-On Windows access to the default font folder is restricted. This affects the font file selection for ShapeStrings. There are three cases in FreeCAD where a font file for ShapeStrings can be specified: in the ShapeString task panel, when changing the **Font File** property of a ShapeString, and when specifying the default font file in the [Draft Preferences](Draft_Preferences#Texts_and_dimensions.md).
+In Windows l\'accesso alla cartella dei caratteri predefinita è limitato. Ciò influisce sulla selezione del file di carattere per Forma da testo. Esistono tre casi in FreeCAD in cui è possibile specificare un file di font per Forma da testo: nel pannello attività Forma da testo, quando si modifica la proprietà **Font File** di una Forma da testo e quando si specifica il file di font predefinito in [Preferenze per l\'ambiente Draft](Draft_Preferences/it#Testi_e_quotature.md).
 
-Pressing the **...** button and then selecting a file from the default Windows font folder is not possible when using the native file dialog. There are a number of workarounds:
+Non è possibile premere il pulsante **...** e quindi selezionare un file dalla cartella predefinita dei font di Windows quando si utilizza la finestra di dialogo dei file nativi. Ci sono una serie di soluzioni alternative:
 
--   Make sure **DontUseNativeFontDialog** is set to {{True}}, which is the default value for this preference. This will only call a different, non-native, file dialog when pressing the **...** button in the ShapeString task panel. With this file dialog the default Windows font folder can be accessed.
--   Change **DontUseNativeDialog** to {{True}}. This instructs FreeCAD to always use the non-native file dialog.
--   Specify the font file in the input box. You can of course type the full path or copy-paste the path from the Windows File Explorer. But there is also another way to enter the path. If you enter {{Value|C:\}} a dropdown list will appear. Select {{Value|Windows}} from that list and add {{Value|\F}}. Select {{Value|Fonts}} from the new dropdown list. Finally add {{Value|\}} and the first letter(s) of the font file, and then select it from the dropdown list.
--   Create a custom folder for your font files.
+-   Assicurarsi che **DontUseNativeFontDialog** sia impostato su {{True}}, che è il valore predefinito per questa preferenza. Questo chiamerà una finestra di dialogo file diversa, non nativa, solo quando si preme il pulsante **...** nel pannello attività Forma da testo. Con questa finestra di dialogo è possibile accedere alla cartella predefinita dei font di Windows.
+-   Cambiare **DontUseNativeDialog** in {{True}}. Ciò indica a FreeCAD di utilizzare sempre la finestra di dialogo dei file non nativi.
+-   Specificare il file del carattere nella casella di immissione. Ovviamente è possibile digitare il percorso completo o copiare e incollare il percorso da Esplora file di Windows. Ma c\'è anche un altro modo per entrare nella cartella. Se si inserisce {{Value|C:\}} apparirà un elenco a tendina. Selezionare {{Value|Windows}} da quell\'elenco e aggiungere {{Value|\F}}. Selezionare {{Value|Fonts}} dal nuovo elenco a discesa. Infine aggiungere {{Value|\}} e le prime lettere del file del font, quindi selezionalo dall\'elenco a discesa.
+-   Creare una cartella personalizzata contenente i file dei font.
 
-See the [Preferences](#Preferences.md) paragraph below for the location of the mentioned preferences.
+Vedere il paragrafo [Preferenze](#Preferenze.md) di seguito per la posizione delle preferenze citate.
+
+
 
 ## Tutorial
 
 -   [Tutorial Forma da testo - ShapeString](Draft_ShapeString_tutorial/it.md): come estrudere un testo, posizionarlo nello spazio 3D e creare un\'incisione in un altro corpo.
 -   [How to use ShapeStrings in PartDesign](https://forum.freecadweb.org/viewtopic.php?f=3&t=36623)
 
-## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md), [Draft Preferences](Draft_Preferences.md) and [Std DlgParameter](Std_DlgParameter.md).
 
--   The default font file can be changed in the preferences: **Edit → Preferences... → Draft → Texts and dimensions → Default ShapeString font file**.
--   For Windows users:
-    -   Set **Tools → Edit parameters... → BaseApp → Preferences → Dialog → DontUseNativeFontDialog** to {{True}} to use the non-native file dialog when selecting a font file from the ShapeString task panel.
-    -   Alternatively, set **Tools → Edit parameters... → BaseApp → Preferences → Dialog → DontUseNativeDialog** to {{True}} to always use the non-native file dialog.
+## Preferenze
+
+Vedere anche: [Impostare le Preferenze](Preferences_Editor/it.md), [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md) e [Modifica parametri](Std_DlgParameter/it.md).
+
+-   Il file di font predefinito può essere modificato nelle preferenze: **Modifica → Preferenze... → Draft → Testi e quotature → Font predefinito per Forma da testo**.
+-   Per utenti Windows:
+    -   Impostare **Strumenti → Modifica parametri... → BaseApp → Preferences → Dialog → DontUseNativeFontDialog** su {{True}} per utilizzare la finestra di dialogo del file non nativo quando si seleziona un file di carattere dal pannello delle attività Forma da testo.
+    -   In alternativa, impostare **Strumenti → Modifica parametri... → BaseApp → Preferences → Dialog → DontUseNativeDialog** su {{True}} per utilizzare sempre la finestra di dialogo del file non nativo.
+
+
 
 ## Proprietà
 
-See also: [Property editor](Property_editor.md).
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
 
-A Draft ShapeString object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
-
-### Data
+Un oggetto Forma da testo è derivato da un [Part Part2DObject](Part_Part2DObject/it.md) e ne eredita tutte le proprietà. Ha anche le seguenti proprietà aggiuntive:
 
 
-{{TitleProperty|Draft}}
 
-
-<div class="mw-translate-fuzzy">
-
--    **Position**: specifica la posizione del punto base della forma composta.
-
--    **Angle**: specifica la rotazione della linea di base della forma.
-
--    **Axis**: specifica l\'asse da utilizzare per la rotazione.
-
--    **String**: specifica la stringa di testo da visualizzare; a differenza dello strumento [Testo](Draft_Text/it.md), [Forma da testo](Draft_ShapeString/it.md) può visualizzare solo una singola riga.
-
--    **Size**: specifica l\'altezza generale delle lettere.
-
--    **Tracking**: specifica la spaziatura inter-carattere aggiuntiva nella stringa.
-
--    **Font File**: specifica il percorso completo del file di font utilizzato per disegnare la stringa.
-
-
-</div>
-
-### View
+### Dati
 
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the faces of the text. This property only works if **Display Mode** is {{value|Flat Lines}}.
+-    **Font File|File**: specifica il percorso del file di font utilizzato per disegnare il testo.
 
--    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
+-    **Size|Length**: specifica l\'altezza generale del testo.
 
-## Scripting
+-    **String|String**: specifica la stringa di testo da visualizzare. A differenza di un [Draft Testo](Draft_Text/it.md), un Draft Forma da testo può visualizzare solo una singola riga di testo.
+
+-    **Tracking|Length**: specifica la spaziatura aggiuntiva tra i caratteri del testo.
 
 
-<div class="mw-translate-fuzzy">
+
+### Vista
+
+
+{{TitleProperty|Draft}}
+
+-    **Pattern|Enumeration**: specifica la [Campitura](Draft_Pattern/it.md) con cui riempire le facce del testo. Questa proprietà funziona solo se **Display Mode** è {{value|Flat Lines}}.
+
+-    **Pattern Size|Float**: specifica la dimensione della [Campitura](Draft_Pattern/it.md).
+
+
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-**Vedere anche:**
-
-[API Draft](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento ShapeString può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
-
-
-</div>
+Per creare una Draft Forma da testo usare il metodo `make_shapestring` ({{Version/it|0.19}}) del modulo Draft. Questo metodo sostituisce il metodo deprecato `makeShapeString`.
 
 
 ```python
 shapestring = make_shapestring(String, FontFile, Size=100, Tracking=0)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
--   Crea una forma composta `ShapeString` usando la `String` specificata e il percorso completo di un `FontFile` supportato.
+-   Crea una forma composta `shapestring` usando la `String` specificata e il percorso completo di un `FontFile` supportato.
 
 -    `Size`è l\'altezza in millimetri del testo risultante.
 
 -    `Tracking`è la spaziatura aggiuntiva tra i caratteri, in millimetri.
-
-
-</div>
 
 Il posizionamento di `ShapeString` può essere cambiato sovrascrivendo il suo attributo `Placement`, o sovrascrivendo singolarmente i suoi attributi `Placement.Base` e `Placement.Rotation`.
 
@@ -220,15 +175,6 @@ S3.Placement.Rotation = App.Rotation(zaxis, 180)
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/pl
    Name:TechDraw ProjectShape
-   Name/pl:Rysunek Techniczny: Rzut kształtu
-   MenuLocation:Rysunek Techniczny → Rzut kształtu ...
+   Name/pl:Rysunek Techniczny: Rzutowanie kształtów
+   MenuLocation:Rysunek Techniczny → Rzutowanie kształtów ...
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
@@ -23,51 +23,51 @@ Narzędzie <img alt="" src=images/TechDraw_ProjectShape.svg  style="width:24px;"
 
 ## Użycie
 
-1.  Select one or more objects. For each object a separate projection will be created.
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ProjectShape.svg" width=16px> [Project shape...](TechDraw_ProjectShape.md)** button.
-    -   Select the **TechDraw → <img src="images/TechDraw_ProjectShape.svg" width=16px> Project shape...** option from the menu.
-3.  The **Project shapes** task panel opens. See [Properties](#Properties.md).
-4.  Set the desired options.
-5.  The selected options should not result in an empty projection as this will cause an error. For example, for an object with only sharp edges such as a [Part Box](Part_Box.md), the **Visible sharp edges** and/or **Hidden sharp edges** option must be checked.
-6.  Press the **OK** button.
+1.  Wybierz jeden lub więcej obiektów. Dla każdego obiektu zostanie utworzona osobny rzut.
+2.  Istnieje kilka sposobów na wywołanie narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ProjectShape.svg" width=16px> '''Rzutowanie kształtów ...'''**.
+    -   Wybierz z menu opcję **Rysunek Techniczny → <img src="images/TechDraw_ProjectShape.svg" width=16px> Rzutowanie kształtów ...**.
+3.  Otwiera się panel zadań **Rzutowanie kształtów**. Zobacz też sekcję [właściwości](#Właściwości.md).
+4.  Ustawić żądane opcje.
+5.  Wybrane opcje nie powinny skutkować pustym rzutem, ponieważ spowodują błąd. Na przykład dla obiektu posiadającego tylko ostre krawędzie, takiego jak [prostopadłościan](Part_Box/pl.md), należy zaznaczyć opcję **Widoczne ostre krawędzie** i/lub **Ukryte ostre krawędzie**.
+6.  Naciśnij przycisk **OK**.
 
 
 
 ## Właściwości
 
-A Projection object is derived from a [Part Feature](Part_Feature.md) and inherits all its properties. It also has the following additional properties:
+Obiekt Rzutu wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
 
 ### Dane
 
 
-{{TitleProperty|Projection}}
+{{TitleProperty|Rzutowanie}}
 
--    **Source|Link**: The shape to project.
+-    **Źródło|Link**: Kształt, który ma być rzutowany.
 
--    **Direction|Vector**: The direction of the projection. This is the normal vector of the projection plane.
+-    **Kierunek|Vector**: Kierunek rzutowania. Jest to wektor normalny płaszczyzny projekcji.
 
--    **VCompound|Bool**: If `True`, visible sharp edges are shown. Example: all edges of a [Part Box](Part_Box.md).
+-    **VCompound|Bool**: Jeśli opcja ma wartość {{TRUE/pl}}, to widoczne ostre krawędzie są pokazywane. Przykład: wszystkie krawędzie [prostopadłościanu](Part_Box/pl.md).
 
--    **Rg1 Line VCompound|Bool**: If `True`, visible smooth edges are shown. Example: the edges between a fillet and its adjoining faces.
+-    **Rg1 Line VCompound|Bool**: Jeśli opcja ma wartość {{TRUE/pl}}, widoczne gładkie krawędzie są pokazywane. Przykład: krawędzie między zaokrągleniem a sąsiednimi ścianami.
 
--    **Rg NLine VCompound|Bool**: If `True`, visible sewn edges are shown. Example: the seam of a 360° cylindrical face.
+-    **Rg NLine VCompound|Bool**: Jeśli opcja ma wartość {{TRUE/pl}}, pokazane są widoczne krawędzie szyte. Przykład: szew ściany cylindrycznej 360°.
 
--    **Out Line VCompound|Bool**: If `True`, visible outline edges (that are not sharp) are shown. Example: the side view of a [Part Cylinder](Part_Cylinder.md) has two such edges.
+-    **Out Line VCompound|Bool**: Jeśli opcja ma wartość {{TRUE/pl}}, pokazywane są widoczne krawędzie konturowe *(które nie są ostre)*. Przykład: widok boczny [walca](Part_Cylinder.md) ma dwie takie krawędzie.
 
--    **Iso Line VCompound|Bool**: If `True`, visible isoparameters are shown. Does not work currently.
+-    **Iso Line VCompound|Bool**: Jeśli opcja ma wartość {{TRUE/pl}}, widoczne izoparametry są wyświetlane. Obecnie nie działa.
 
--    **HCompound|Bool**: If `True`, hidden sharp edges are shown.
+-    **HCompound|Bool**: Jeśli opcja ma wartość {{TRUE/pl}}, pokazywane są ukryte ostre krawędzie.
 
--    **Rg1 Line HCompound|Bool**: If `True`, hidden smooth edges are shown
+-    **Rg1 Line HCompound|Bool**: Jeśli opcja ma wartość {{TRUE/pl}}, pokazane są ukryte gładkie krawędzie.
 
--    **Rg NLine HCompound|Bool**: If `True`, hidden sewn edges are shown.
+-    **Rg NLine HCompound|Bool**: Jeśli opcja ma wartość {{TRUE/pl}}, pokazane są ukryte krawędzie szyte.
 
--    **Out Line HCompound|Bool**: If `True`, hidden outline edges are shown.
+-    **Out Line HCompound|Bool**: Jeśli opcja ma wartość {{TRUE/pl}}, pokazywane są ukryte krawędzie konturowe.
 
--    **Iso Line HCompound|Bool**: If `True`, hidden isoparameters are shown. Does not work currently.
+-    **Iso Line HCompound|Bool**: Jeśli opcja ma wartość {{TRUE/pl}}, pokazywane są ukryte izoparametry. Obecnie nie działa.
 
 
 

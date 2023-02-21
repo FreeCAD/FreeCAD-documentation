@@ -8,7 +8,7 @@ As with many CAD modelers it has many 2D components in order to sketch planar sh
 
 FreeCAD makes heavy use of open-source libraries that exist in the field of [scientific computing](http://en.wikipedia.org/wiki/Scientific_Computation). Among them are [Open Cascade Technology (OCCT)](http://OpenCascade.org), a powerful CAD kernel; [Coin3D](https://github.com/coin3d/coin/wiki), a toolkit for 3D graphics development compatible with [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor); [Qt](http://www.qt.io/), the world-famous user interface framework; and [Python](http://www.python.org), a modern scripting language. FreeCAD itself can also be used as a library by other programs.
 
-FreeCAD is also [multi-platform](http://en.wikipedia.org/wiki/Cross-platform), and currently runs on Linux/Unix, Windows, and Mac OSX systems with the same look and functionality on all platforms.
+FreeCAD is also [multi-platform](http://en.wikipedia.org/wiki/Cross-platform), and currently runs on Linux/Unix, Windows, and macOS systems with the same look and functionality on all platforms.
 
 For more information about FreeCAD\'s capabilities, take a look at the [feature list](Feature_list.md), the [latest release notes](Feature_list#Release_notes.md), and the [getting started](Getting_started.md) articles, or see more [screenshots](Screenshots.md).
 

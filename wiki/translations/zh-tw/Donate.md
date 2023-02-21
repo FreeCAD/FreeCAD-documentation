@@ -67,8 +67,6 @@ The **FreeCAD project association** (FPA) is a non-profit association created in
 
 The FPA, although it is a non-profit organization, is not a charity organization. People and companies donating to the FPA are therefore [not entitled to a tax deduction](https://finances.belgium.be/fr/particuliers/avantages_fiscaux/dons) by Belgian law. Each country, however, has its own rules and laws to decide upon what gives their citizen right to tax reduction or not. You are always advised to consult the laws of your own country.
 
-U.S. citizens and companies can however benefit from tax deductions when donating to FreeCAD. For this, you need to choose the **OpenCollective** platform above. OpenCollective is a [501(c)3](https://en.wikipedia.org/wiki/501(c)(3)_organization) organization, and provides [tax deductions receipts](https://docs.opencollective.com/help/financial-contributors/receipts).
-
 The FPA can anyway always issue a donation receipt. [Mail us](mailto:fpa@freecad.org) with your donation details and we will gladly send you a receipt.
 
 

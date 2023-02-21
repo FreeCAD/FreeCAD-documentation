@@ -7,9 +7,13 @@
 
 这些页面还处于开发的早起阶段。如果你找不到想看的信息，如果你在别处看到了有用的信息，而我们没有链接在这里，那么请在[论坛](http://forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff)里留下你的评论。会有人仔细看，认真处理它们的（或者，大胆如你，为什么不直接编辑这个页面呢？）。
 
+
+
 ## 开发者文档
 
 开发者文档由以下部分构成：
+
+
 
 ### 编译 FreeCAD 
 
@@ -25,6 +29,8 @@
 -   [源文档](Source_documentation/zh-cn.md)
 -   当你有问题或你认为发现了一个bug的时候，请使用 [bug tracker](Tracker.md) 。
 
+
+
 ### 打包
 
 [打包](Packaging.md) 包括取得编译好的FreeCAD的二进制文件和Python源文件和将他们分发到使用的系统中
@@ -36,6 +42,8 @@
 -   [Windows packaging](Windows_packaging.md)
 -   [MacOS packaging](MacOS_packaging.md)
 
+
+
 ### 制作支持工具
 
 -   [FreeCAD构建工具](FreeCAD_Build_Tool/zh-cn.md)
@@ -44,6 +52,8 @@
 -   [测试FreeCAD](Testing/zh-cn.md)
 -   [编译（加速）FreeCAD](Compiling_(Speeding_up)/zh-cn.md)
 -   [持续集成](Continuous_Integration/zh-cn.md)
+
+
 
 ### 修改FreeCAD
 
@@ -86,6 +96,8 @@
 这个git仓库的最新pdf预览版，可以在[pdf文件夹](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide/tree/master/pdf)下载到。
 
 ### Internals
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -137,8 +149,8 @@ FreeCAD虽然在特定领域已经可用了，但是在跨入主流CAD的路途�
 
 ## Community
 
--   [IRC channel](irc://chat.freenode.net/freecad) ,synchronized with [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
--   [Development forum](https://forum.freecadweb.org/viewforum.php?f=6)
+-   [IRC channel](ircs://irc.libera.chat:6697/freecad) ,synchronized with [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
+-   [Development forum](https://forum.freecad.org/viewforum.php?f=6)
 
 
 <div class="mw-translate-fuzzy">

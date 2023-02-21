@@ -1,12 +1,16 @@
 # Interface Customization/pt-br
 {{TOCright}}
 
+
+
 ## Introdução
 
 A interface do FreeCAD é baseada no moderno kit de ferramentas [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit)) e tem uma organização de última geração. Alguns aspectos da interface podem ser personalizados. Você pode, por exemplo, adicionar barras de ferramentas personalizadas, com ferramentas de várias bancadas de trabalho (workbenches) ou ferramentas definidas em macros, e você pode criar seus próprios atalhos de teclado. Mas os menus e barras de ferramentas padrão que vêm com o FreeCAD e suas bancadas de trabalho não podem ser alterados.
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *The Customize dialog box*
+
+
 
 ## Utilização
 
@@ -18,9 +22,13 @@ A interface do FreeCAD é baseada no moderno kit de ferramentas [Qt](http://en.w
 4.  O botão **Help** não funciona neste momento.
 5.  Pressione o botão **Close** para fechar a caixa de diálogo.
 
+
+
 ## Opções
 
 Na caixa de diálogo \"Customize\" (Personalizar), as seguintes guias estão disponíveis:
+
+
 
 ### \"Commands\" (Comandos) 
 
@@ -28,6 +36,8 @@ Na caixa de diálogo \"Customize\" (Personalizar), as seguintes guias estão dis
 *A guia "Commands" (Comandos)*
 
 Nesta guia você pode navegar pelos comandos disponíveis.
+
+
 
 #### Comandos de navegação 
 
@@ -39,12 +49,16 @@ Nesta guia você pode navegar pelos comandos disponíveis.
 
 {{Top}}
 
+
+
 ### \"Keyboard\" (Teclado) 
 
 ![](images/Std_DlgCustomize_tab_Keyboard.png ) 
 *A guia "Keyboard" (Teclado)*
 
 Nesta guia, atalhos de teclado personalizados podem ser definidos. Os atalhos para comandos de macro podem ser definidos na guia [Macros](#Macros.md).
+
+
 
 #### Adicionar um atalho personalizado 
 
@@ -56,15 +70,21 @@ Nesta guia, atalhos de teclado personalizados podem ser definidos. Os atalhos pa
 6.  Pressione o botão **Assign** para atribuir o novo atalho.
 7.  Pressione o botão **Clear** para remover o atalho inserido. Isso também removerá o conteúdo da caixa **\"Current shortcut\" (Atalho atual)**. Observe que os atalhos padrão não são removidos permanentemente. Eles serão restaurados ao reiniciar o FreeCAD.
 
+
+
 #### Remover um atalho personalizado 
 
 1.  Selecione uma categoria de comando na lista suspensa **\"Category\" (Categoria)**.
 2.  Selecione um comando do painel **\"Commands\" (Comandos)**.
 3.  Pressione o botão **Reset**.
 
+
+
 #### Remover todos os atalhos personalizados 
 
 1.  Pressione o botão **Reset All**.
+
+
 
 #### Notas (Keyboard) 
 
@@ -75,6 +95,8 @@ Nesta guia, atalhos de teclado personalizados podem ser definidos. Os atalhos pa
 
 
 {{Top}}
+
+
 
 ### \"Workbenches\" (Bancadas de trabalho) 
 
@@ -239,7 +261,7 @@ You can also create your own theme if you are not satisfied with the themes that
 
 -    **$HOME/.FreeCAD/Gui/Stylesheets**(on Linux).
 
--    **$HOME/Library/Preferences/FreeCAD/Gui/Stylesheets**(on MacOS).
+-    **$HOME/Library/Application Support/FreeCAD/Gui/Stylesheets**(on macOS).
 
 
 {{Top}}

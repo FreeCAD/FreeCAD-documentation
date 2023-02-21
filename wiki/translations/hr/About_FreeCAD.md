@@ -8,9 +8,17 @@ Kao kod većine modernih 3D programa [CAD](http://en.wikipedia.org/wiki/CAD) za 
 
 Jedan smjer na kojem FreeCAD radi je korištenje Open-Source biblioteka, koje razna područja [Scientific Computing](http://en.wikipedia.org/wiki/Scientific_Computation) pokrivaju. Od toga [OpenCascade](http://OpenCascade.org), jedan snažni CAD-Kernel, [Coin3D](https://github.com/coin3d/coin/wiki), set alata za razvoj 3D grafike kompatibilan sa[Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor), [Qt](http://www.qt.io/), svijetski poznati UI framework, i [Python](http://www.python.org),jedan od najboljih programerskih jezika. FreeCAD se može kao bilioteka koristiti također i u drugim programima.
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD je potpuno više sistemski program [multi-platform](http://en.wikipedia.org/wiki/Cross-platform), trenutno radi na Windows i Linux/Unix i Mac OS sistemima, sa istim izgledom i istom funkcionalnošću na svim platformama.
 
+
+</div>
+
 Za više informacija o mogućnostima FreeCAD-a pogledajte [Lista Osobina](Feature_list/hr.md), [latest release notes](Feature_list#Release_notes.md) [Prvi koraciili](Getting_started/hr.md) pogledajte [Slike zaslona](Screenshots/hr.md).
+
+
 
 ### O FreeCAD projektu 
 

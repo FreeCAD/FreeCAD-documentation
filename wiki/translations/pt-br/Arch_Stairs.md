@@ -22,6 +22,8 @@ See the [Stairs entry in wikipedia](https://en.wikipedia.org/wiki/Stairs) for a 
 <img alt="" src=images/Arch_Stairs_example.jpg  style="width:640px;"> 
 *Two constructed stairs, one with a massive structure and a landing, and another one with a single stringer.*
 
+
+
 ## Opções
 
 -   Stairs share the common properties and behaviors of all [Arch Components](Arch_Component.md)
@@ -30,6 +32,8 @@ See the [Stairs entry in wikipedia](https://en.wikipedia.org/wiki/Stairs) for a 
 
 1.  Press the **<img src="images/Arch_Stairs.svg" width=16px> [Arch Stairs](Arch_Stairs.md)** button, or press **S**, **R** keys.
 2.  Adjust the desired properties. Some parts of the stairs, such as the structure, might not appear immediately, if any of the properties makes it impossible, such as a structure thickness of 0.
+
+
 
 ## Propriedades
 
@@ -54,13 +58,13 @@ See the [Stairs entry in wikipedia](https://en.wikipedia.org/wiki/Stairs) for a 
 
 -    **Railing Height Right|Length**: Height of the right railing of the stairs or landing.
 
--    **Railing Left|String**: Name of the left railing object.
+-    **Railing Left|LinkHidden**: The left railing object. <small>(v0.20)</small> : Property type updated from {{Incode|String}} to {{Incode|LinkHidden}}.
 
 -    **Railing Offset Left|Length**: Offset of the left railing from the edge of the stairs or landing.
 
 -    **Railing Offset Right|Length**: Offset of the right railing from the edge of the stairs or landing.
 
--    **Railing Right|String**: Name of the right railing object.
+-    **Railing Right|LinkHidden**: The right railing object. <small>(v0.20)</small> : Property type updated from {{Incode|String}} to {{Incode|LinkHidden}}.
 
 
 {{TitleProperty|Stairs}}

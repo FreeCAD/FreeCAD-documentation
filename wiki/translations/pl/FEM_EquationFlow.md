@@ -60,13 +60,7 @@ The electrostatic equation takes the following constraints into account if they 
 The results are the velocity in $\rm m/s$ and the pressure in $\rm Pa$. If there is no <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md) and <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [Constraint pressure](FEM_ConstraintPressure.md) constraint given, the resulting pressure will be relative not absolute. Since a pressure must act on a face, absolute pressure results cannot be obtained in 2D simulations.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

@@ -37,13 +37,7 @@ Crée un élément FEM de section de fluide pour les réseaux pneumatiques et hy
 2.  La fonction \*FLUID SECTION est utilisée pour modéliser les éléments fluides pour un écoulement 1D. Des informations sur la fonction sont disponibles ici : <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node205.html>
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

@@ -1,6 +1,8 @@
 # Part and PartDesign/es
 {{TOCright}}
 
+
+
 ## Introducción
 
 Ha habido muchas discusiones a lo largo de los años sobre las diferencias y ramificaciones del uso de los bancos de trabajo <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/es.md) y <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/es.md) .
@@ -8,6 +10,8 @@ Ha habido muchas discusiones a lo largo de los años sobre las diferencias y ram
 Es una buena idea utilizar uno o el otro hasta que el usuario se sienta cómodo con uno, y luego aprender el otro. También es recomendado normalmente que los nuevos usuarios no los mezclen hasta que comprendan las ramificaciones de hacerlo.
 
 Vamos a hablar de esas ramificaciones.
+
+
 
 ## Conceptos del banco de trabajo Part 
 
@@ -18,6 +22,8 @@ El banco de trabajo Part es esencialmente un [Estilo de modelado CSG](Constructi
 Esta condición permanece así hasta que el usuario utiliza alguna operación para combinarlos (normalmente una operación booleana que los sume o los reste). Cada sólido inicial permanece accesible por separado y la operación crea un nuevo objeto.
 
 El resultado es, por una parte, un sólido único e independiente y por otra parte, la combinación de varios objetos.
+
+
 
 ## Conceptos del banco de trabajo PartDesign 
 
@@ -55,6 +61,8 @@ Si la Punta es **Pad**, la extrusión puede existir por separado, pero si la Pun
 
 (Otra cosa mencionada a menudo es que un Body (cuerpo) ***DEBE*** ser un sólido único contiguo. Esto quiere decir que toda geometría creada por una operación en el Body *debe* tocar su adyacente.)
 
+
+
 ## Ramificaciones
 
 
@@ -77,6 +85,8 @@ En cierto modo, desde el punto de vista del banco de trabajo Part, el Body (cuer
 
 E incluso puede ser aún más complicado. Si crea un nuevo Body y arrastra el resultado de la operación previa dentro del mismo, un objeto Base es creado. Posteriormente se puede salir y usar las herramientas del banco de trabajo PartDesign sobre él.
 
+
+
 ## Advertencias
 
 Hay una advertencia sobre la Punta y su representación de un sólido único en el Body (cuerpo). *Si* la punta es una operación sustractiva y es usada en una operación acumulativa en forma de pila, por ejemplo una Simetría, dicha simetría es operada sobre el objeto inferior de la pila (un vaciado, por ejemplo). Así pues, la simetría no se realiza sobre el sólido acumulativo, sino sobre la operación sustractiva. El resultado de esto debe crear un sólido único.
@@ -90,6 +100,8 @@ En este ejemplo, una simetría de una punta (la cual es el vaciado de la ranura)
 ![centre\|Sólidos aislados](images/MirroredSlot.png )
 
 Ver la página wiki de la herramienta <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> [PartDesign Simetría](PartDesign_Mirrored/es.md) para más información.
+
+
 
 ## Comparación
 
@@ -210,6 +222,8 @@ Compare the construction trees in the two workbenches as well as their organizat
   ![](images/PartvsPartDesign_TreePartDesignWB.jpg )   ![](images/PartvsPartDesign_TreePartWB.jpg )
                                                                                        
    
+
+
 
 ## Conclusión
 

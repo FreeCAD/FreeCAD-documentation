@@ -2,142 +2,97 @@
 - GuiCommand:/it
    Name:Draft CubicBezCurve
    Name/it:Curva di Bézier cubica
-   MenuLocation:Draft → Strumenti Bezier → Curva di Bézier cubica
+   MenuLocation:Drafting → Strumenti Bezier → Curva di Bézier cubica
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Version/it:0.19
-   SeeAlso:[Polilinea](Draft_Wire/it.md), [B-spline](Draft_BSpline/it.md), [Curva di Bézier](Draft_BezCurve/it.md)
+   SeeAlso:[Curva di Bézier](Draft_BezCurve/it.md), [BSpline](Draft_BSpline/it.md)
 ---
 
 # Draft CubicBezCurve/it
 
 
-</div>
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> **Curva di Bézier cubica** crea una [curva di Bézier](http://en.wikipedia.org/wiki/Bezier_curve) di terzo grado (quattro punti richiesti).
 
-<div class="mw-translate-fuzzy">
+La curva di Bézier è una delle curve più utilizzate nella computer grafica. Questo comando consente di creare una spline continua composta da diversi segmenti Bézier di 3° grado, in modo simile allo strumento Bézier in [1](https://inkscape.org/Inkscape). Una curva di Bézier generale di qualsiasi grado può essere creata con il comando [Curva di Bézier](Draft_BezCurve/it.md).
 
-Lo strumento [Curva di Bézier cubica](Draft_CubicBezCurve/it.md) crea una[Curva di Bézier](http://en.wikipedia.org/wiki/Bezier_curve) di terzo grado (sono richiesti quattro punti). Questa è una delle curve di Bezier più usate nelle applicazioni di computer grafica. Questo strumento consente di creare una grande spline composta da diversi segmenti Bezier di 3° grado, in un modo simile allo strumento Bezier in Inkscape. Una curva generica di Bezier di qualsiasi grado può essere creata con lo strumento [Curva di Bézier](Draft_BezCurve/it.md).
+I comandi [Curva di Bézier](Draft_BezCurve/it.md) e Curva di Bézier cubica utilizzano **punti di controllo** per definire la posizione e la curvatura della spline. Il comando [BSpline](Draft_BSpline/it.md), invece, specifica i **punti esatti** attraverso i quali passerà la curva.
 
-
-</div>
-
-The Bézier Curve is one of the most commonly used curves in computer graphics. This command allows you to create a continuous spline made up of several 3rd-degree Bézier segments, in a way that is similar to the Bézier tool in [Inkscape](https://inkscape.org/). A general Bézier curve of any degree can be created with the [Draft BezCurve](Draft_BezCurve.md) command.
-
-
-<div class="mw-translate-fuzzy">
-
-Gli strumenti [Curva di Bézier](Draft_BezCurve/it.md) e [Curva di Bézier cubica](Draft_CubicBezCurve/it.md) utilizzano i **punti di controllo** per definire la posizione e la curvatura della spline; invece lo strumento [B-spline](Draft_BSpline/it.md) specifica i punti esatti attraverso i quali passa la curva.
+<img alt="" src=images/Draft_CubicBezCurve_example.png  style="width:500px;"> 
+*Spline composta da tre segmenti cubici di Bézier. Il primo segmento è definito da quattro punti. I segmenti successivi riutilizzano due punti del segmento precedente e pertanto richiedono solo due punti aggiuntivi.*
 
 
-</div>
-
-<img alt="" src=images/Draft_CubicBezCurve_example.png  style="width:500px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Spline cubica di Bezier definita da tre segmenti. Ogni Bezier cubica è definita da quattro punti, ma quando lo strumento viene utilizzato graficamente, vengono posizionati solo tre di questi punti: 1-2-3 per il primo segmento, 3-4-5 per il secondo segmento e 5-6-7 per il terzo segmento; il quarto punto in ciascun segmento è definito implicitamente; l'ultimo punto 8 è necessario per completare l'operazione e farebbe parte di un quarto segmento di Bezier se l'operazione viene continuata.*
-
-
-</div>
 
 ## Utilizzo
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
+
+1.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_CubicBezCurve.svg" width=16px> [Curva di Bézier cubica](Draft_CubicBezCurve.md)**.
+    -   Selezionare l\'opzione **Drafting → Strumenti Bézier → <img src="images/Draft_CubicBezCurve.svg" width=16px> Curva di Bézier cubica** dal menu.
+2.  Si apre il pannello delle attività **Curva di Bézier cubica**. Vedere [Opzioni](#Options.md) per maggiori informazioni.
+3.  Non è possibile inserire i punti tramite il pannello delle attività.
+4.  Per i seguenti [Modelli di navigazione con mouse](Mouse_navigation/it.md) è necessario tenere premuto un tasto della tastiera:
+    -   Se si sta utilizzando [Navigazione OpenInventor](Mouse_navigation/it#Navigazione_OpenInventor.md), il tasto **Ctrl** deve essere tenuto premuto per tutta la durata del comando.
+    -   Se si sta utilizzando [Navigazione Gesture](Mouse_navigation/it#Navigazione_Gesture.md) il tasto **Alt** deve essere tenuto premuto per ogni sequenza click-hold-release, ma è anche possibile tenere premuto questo tasto per tutta la durata del comando.
+5.  Selezionare il primo punto nella [Vista 3D](3D_view/it.md) e tenere premuto il pulsante del mouse (1), questo è il primo punto finale.
+6.  Trascinare il puntatore su un altro punto nella [Vista 3D](3D_view/it.md) e rilasciare il pulsante del mouse (2), questo è il primo punto di controllo.
+7.  Spostare il puntatore su un altro punto nella [Vista 3D](3D_view/it.md), selezionare questo punto e tenere premuto il pulsante del mouse (3), questo è il secondo punto finale.
+8.  Spostare il puntatore su un altro punto nella [Vista 3D](3D_view/it.md) per regolare la curvatura finale del segmento e rilasciare il pulsante del mouse (4), questo è il secondo punto di controllo.
+9.  Ora si ha una curva di Bézier di 3° grado.
+10. Facoltativamente ripetere il processo di clic e tenere premuto (5) e trascinare e rilasciare (6) per aggiungere più segmenti.
+11. Ogni segmento successivo utilizzerà rispettivamente il secondo punto finale e il secondo punto di controllo del segmento precedente come primo punto finale e primo punto di controllo.
+12. Premere **Esc** o il pulsante **Chiudi** per terminare il comando.
 
 
-<div class="mw-translate-fuzzy">
-
-1.  Premere il pulsante **<img src="images/Draft_CubicBezCurve.svg" width=16px> [Curva di Bézier cubica](Draft_CubicBezCurve/it.md)**.
-2.  Fare clic su un primo punto nella vista 3D e tenere premuto il pulsante del mouse (1); questo è il primo punto finale..
-3.  Trascinare il puntatore su un altro punto della vista 3D e rilasciare il pulsante del mouse (2); questo è il primo punto di controllo..
-4.  Spostare il puntatore su un altro punto della vista 3D, fare clic e tenere premuto il pulsante del mouse su questo punto (3); questo è il secondo punto finale.
-5.  Spostare il puntatore su un altro punto della vista 3D per regolare la curvatura finale della spline, quindi rilasciare il pulsante del mouse (4)
-6.  A questo punto si ha già una curva di Bezier di terzo grado. Il comando può essere completato premendo **Esc** o il pulsante **Chiudi**, oppure si può ripetere il processo facendo clic e tenendo premuto (5), trascinando e rilasciando (6) per aggiungere altri segmenti di Bezier di terzo grado.
-
-
-</div>
 
 ## Opzioni
 
-
-<div class="mw-translate-fuzzy">
-
-Vedere le opzioni in [Curva di Bezier](Draft_BezCurve/it.md).
+Vedere [Curva di Bézier](Draft_BezCurve/it#Options.md).
 
 
-</div>
 
 ## Note
 
--   A Draft CubicBezCurve can be edited with the [Draft Edit](Draft_Edit.md) command.
+-   Una Curva di Bézier cubica può essere modificata con il comando [Modifica](Draft_Edit/it.md).
 
-## Preferences
 
-See [Draft BezCurve](Draft_BezCurve#Preferences.md).
+
+## Preferenze
+
+Vedere [Curva di Bézier](Draft_BezCurve/it#Preferenze.md).
+
+
 
 ## Proprietà
 
-
-<div class="mw-translate-fuzzy">
-
-Vedere le proprietà in [Curva di Bezier](Draft_BezCurve/it.md).
+Vedere [Curva di Bézier](Draft_BezCurve/it#Properietà.md).
 
 
-</div>
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-<div class="mw-translate-fuzzy">
+Per informazioni di carattere generale vedere [Curva di Bézier](Draft_BezCurve/it.md). Una Bézier cubica viene creata passando l\'opzione degree=3 a `makeBezCurve()`.
 
+Per ogni segmento di Bézier cubica devono essere utilizzati quattro punti, di cui i due punti estremi indicano dove passa la spline e i due punti intermedi sono punti di controllo.
 
-**Vedere anche:**
-
-[Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Per informazioni di carattere generale vedere [Curva di Bézier](Draft_BezCurve/it.md). Una Bezier cubica viene creata passando l\'opzione degree=3 a `makeBezCurve()`.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Per ogni segmento di Bezier cubica devono essere utilizzati quattro punti, di cui i due punti estremi indicano dove passa la spline e i due punti intermedi sono punti di controllo.
-
--   Se vengono assegnati solo 3 punti, viene invece creata una Bezier quadratica, con un solo punto di controllo..
--   Se vengono assegnati solo 2 punti, viene creata una Bezier lineare, ovvero una linea retta.
--   Se vengono assegnati 5 punti, i primi 4 creano un segmento di Bezier cubico; il quarto e il quinto punto vengono utilizzati per creare una linea retta.
--   Se vengono assegnati 6 punti, i primi 4 creano un segmento cubico di Bezier; il quarto e gli altri due punti vengono utilizzati per creare un segmento quadratico di Bezier.
--   Se vengono assegnati 7 punti, i primi 4 creano un segmento cubico di Bezier; il quarto e gli altri tre punti sono usati per creare un secondo segmento cubico di Bezier.
--   In generale, l\'ultimo punto in un gruppo di quattro è condiviso al massimo con i seguenti tre punti per creare un altro segmento di Bezier.
+-   Se vengono assegnati solo 3 punti, viene invece creata una Bézier quadratica, con un solo punto di controllo..
+-   Se vengono assegnati solo 2 punti, viene creata una Bézier lineare, ovvero una linea retta.
+-   Se vengono assegnati 5 punti, i primi 4 creano un segmento di Béezier cubico; il quarto e il quinto punto vengono utilizzati per creare una linea retta.
+-   Se vengono assegnati 6 punti, i primi 4 creano un segmento cubico di Bézier; il quarto e gli altri due punti vengono utilizzati per creare un segmento quadratico di Bézier.
+-   Se vengono assegnati 7 punti, i primi 4 creano un segmento cubico di Bézier; il quarto e gli altri tre punti sono usati per creare un secondo segmento cubico di Bézier.
+-   In generale, l\'ultimo punto in un gruppo di quattro è condiviso al massimo con i seguenti tre punti per creare un altro segmento di Bézier.
 -   \* Per avere curve morbide, senza segmenti diritti, il numero di punti dovrebbe essere `3n + 1` o `3n`, dove `n` è il numero di segmenti, per n >= 1.
-
-
-</div>
 
 <img alt="" src=images/Draft_CubicBezCurve_API_example.png  style="width:600px;">
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-*Esempi di curve di Bezier prodotte utilizzando 2, 3, 4, 5, 6, 7 e 8 punti. Le linee continue indicano segmenti cubici di Bezier; le altre linee sono quadratiche o lineari.*
-
-
-</div>
+*Esempi di curve di Bézier prodotte utilizzando 2, 3, 4, 5, 6, 7 e 8 punti. Le linee continue indicano segmenti cubici di Bézier; le altre linee sono quadratiche o lineari.*
 
 Esempio:
 
@@ -208,15 +163,6 @@ B7.ViewObject.DrawStyle = "Dashed"
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

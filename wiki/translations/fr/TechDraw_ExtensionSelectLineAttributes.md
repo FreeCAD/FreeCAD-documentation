@@ -18,6 +18,8 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  styl
 ![](images/TechDraw_ExtensionSelectLineAttributes_Taskpanel.png ) 
 *Le panneau de tâches Sélectionner les attributs de ligne*
 
+
+
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer l\'outil :
@@ -28,6 +30,8 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  styl
 4.  Vous pouvez également modifier l\'espacement en cascade. Les outils [Cotes en cascade](TechDraw_Workbench/fr#Caract.C3.A9ristiques_et_modifications.md) et les outils [Créer des dimensions en coordonnées](TechDraw_Workbench/fr#Cotes.md) utilisent cette valeur.
 5.  Vous pouvez également modifier la **Distance delta**. Les outils <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width:16px;"> [TechDraw Prolonger](TechDraw_ExtensionExtendLine/fr.md) et <img alt="" src=images/TechDraw_ExtensionShortenLine.svg  style="width:16px;"> [TechDraw Raccourcir](TechDraw_ExtensionShortenLine/fr.md) utilisent cette valeur.
 6.  Appuyez sur le bouton **OK**.
+
+
 
 ## Remarques
 

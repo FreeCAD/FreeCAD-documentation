@@ -19,9 +19,9 @@ La commande **Mesh Éclater par composants** divise un objet maillé en ses comp
 
 1.  Sélectionnez un seul objet maillé.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Mesh_SplitComponents.svg" width=16px> [Eclater par composants](Mesh_SplitComponents/fr.md)
+    -   Appuyez sur le bouton **<img src="images/Mesh_SplitComponents.svg" width=16px> [Éclater par composants](Mesh_SplitComponents/fr.md)
 **
-    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_SplitComponents.svg" width=16px> Eclater par composants** du menu.
+    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_SplitComponents.svg" width=16px> Éclater par composants** du menu.
 
 
 

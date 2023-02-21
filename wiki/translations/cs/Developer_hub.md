@@ -106,6 +106,8 @@ Latest pdf preview can be downoaded from [pdf folder](https://github.com/qingfen
 ### Internals
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Dokumentace OpenCascade 
@@ -154,8 +156,8 @@ FreeCAD, ačkoli už je použitelný v určité oblasti, je na začátku dlouhé
 
 ## Community
 
--   [IRC channel](irc://chat.freenode.net/freecad) ,synchronized with [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
--   [Development forum](https://forum.freecadweb.org/viewforum.php?f=6)
+-   [IRC channel](ircs://irc.libera.chat:6697/freecad) ,synchronized with [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
+-   [Development forum](https://forum.freecad.org/viewforum.php?f=6)
 
 
 <div class="mw-translate-fuzzy">

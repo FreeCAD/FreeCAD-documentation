@@ -11,6 +11,8 @@ Zobacz inne sposoby aby [pomóc projektowi](Help_FreeCAD/pl.md) *(dokumentacja, 
 
 Istnieją również inne sposoby pomocy zamiast przekazywania pieniędzy lub kodowania, takie jak praca nad dokumentacją, tłumaczeniami lub pomoc nowym użytkownikom w znalezieniu rozwiązań. Zobacz stronę [pomoc projektowi](Help_FreeCAD/pl.md) aby dowiedzieć się więcej.
 
+
+
 ## Więcej szczegółów na temat różnych opcji 
 
 -   <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> FreeCAD ma oficjalne [konto zespołu LiberaPay](https://liberapay.com/FreeCAD); Tam możesz przekazać dowolną kwotę za pomocą karty kredytowej, Paypal lub przelewu bankowego SEPA, jednorazowo lub cyklicznie. Wszelkie otrzymane tu pieniądze są dzielone po równo między wymienionych deweloperów. Jest to zalecana opcja, ponieważ finansuje ona deweloperów bezpośrednio. Platforma Liberapay jest również open-source i nie pobiera żadnego procentu od Twojej darowizny. Konto LiberaPay jest zarządzane bezpośrednio przez jego członków.
@@ -33,6 +35,8 @@ OpenCollective jest również [501(c)](https://en.wikipedia.org/wiki/501(c)_orga
 
 -   Pomagaj obsłuzyć koszty hostingu, wpłacając datek bezpośrednio na konto [Jürgen Riegel\'s paypal](https://www.paypal.com/cgi-bin/webscr?item_name=Donation+to+FreeCAD&cmd=_donations&business=Mail%40juergen-riegel.net). Jürgen jest pierwotnym deweloperem FreeCAD.
 
+
+
 ## Finansowanie określonego dewelopera 
 
 -   Niektórzy programiści wykonują określone zadania za pieniądze lub mogą być sponsorowani, aby spędzić czas pracując nad programem FreeCAD. W przeszłości przeprowadzono kilka udanych eksperymentów, takich jak środowisko pracy [Path](Path_Workbench/pl.md) lub [eksperyment finansowania Ian Rees](https://opendeveloperfunding.wordpress.com/). Następujący deweloperzy mogą być sponsorowani indywidualnie. Finansowanie dewelopera indywidualnie może być świetnym sposobem na skupienie swojej darowizny na konkretnym obszarze rozwoju programu FreeCAD, którym jesteś szczególnie zainteresowany:
@@ -45,10 +49,14 @@ OpenCollective jest również [501(c)](https://en.wikipedia.org/wiki/501(c)_orga
     -   Brad Collette aka sliptonic przez <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/sliptonic/donate) lub <img alt="Patreon" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/sliptonic) *([Path](Path_Workbench/pl.md))*.
     -   Ajinkya Dahale przez <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/ajinkyadahale/) lub <img alt="" src=images/_GitHub.svg  style="width:24px;"> [GitHub](https://github.com/sponsors/AjinkyaDahale/) *([Projekt dotyczący wiązań B-Spline](https://forum.freecadweb.org/viewtopic.php?f=9&t=71130) i ogólne poprawianie / ulepszanie błędów programu FreeCAD)*.
 
+
+
 ## Zadania
 
 -   Mogą istnieć inni programiści zainteresowani wykonaniem określonej pracy dla projektu; jeśli chcesz przyspieszyć rozwój pomysłu lub funkcji, rozważ zatrudnienie programisty. To do Ciebie należy opracowanie pomysłu, omówienie go na forum i znalezienie programistów zainteresowanych zrobieniem tego. Możesz zaoferować pracę na [podforum ofert pracy](https://forum.freecadweb.org/viewforum.php?f=31).
 -   Mile widziane są również prace modelarskie. Nie każdy doświadczony użytkownik FreeCAD jest programistą. Doświadczeni użytkownicy mogą pomóc w migracji projektów do FreeCAD, co przyczynia się do popularyzacji oprogramowania w organizacjach. Zobacz [FreeCAD używany w produkcji](FreeCAD_used_in_production.md).
+
+
 
 ## Sponsorowanie
 
@@ -65,15 +73,17 @@ Aby zachęcić osoby i firmy do sponsorowania projektu FreeCAD, stworzyliśmy r�
 
 Zamiast przekazywać darowizny co miesiąc, wygodniejsze może być przekazanie darowizny w postaci jednego grosza, która podzielona przez dwanaście da ci prawo do wejścia na poziom sponsorowania. Nie wahaj się!
 
+
+
 ## Stowarzyszenie FPA 
 
 Stowarzyszenie projektu FreeCAD *(FPA)* jest stowarzyszeniem non-profit utworzonym w 2022 roku przez administratorów i programistów FreeCAD z siedzibą w Belgii. Jest ono odpowiedzialne za przejrzyste zbieranie, obsługę i dystrybucję pieniędzy zebranych poprzez darowizny. Więcej szczegółów i raporty są dostępne na stronie [FPA](https://github.com/FreeCAD/FPA). Z wyjątkiem [konta zespołu LiberaPay](https://liberapay.com/FreeCAD), które jest bezpośrednio zarządzane przez jego członków, wszystkie inne kanały darowizn powyżej są obsługiwane i zarządzane przez FPA.
 
+
+
 ## Odliczenia podatkowe 
 
 FPA, choć jest organizacją non-profit, nie jest organizacją charytatywną. Osoby i firmy przekazujące darowizny na rzecz FPA są zatem [nieuprawnione do ulgi podatkowej](https://finances.belgium.be/fr/particuliers/avantages_fiscaux/dons) według prawa belgijskiego. Każdy kraj ma jednak swoje własne zasady i prawa, które decydują o tym, co daje jego obywatelowi prawo do ulgi podatkowej, a co nie. Zawsze zaleca się konsultację przepisów prawnych własnego kraju.
-
-Obywatele USA i firmy mogą jednak skorzystać z odliczeń podatkowych przy przekazywaniu darowizn dla projektu FreeCAD. W tym celu musisz wybrać platformę **OpenCollective** powyżej. OpenCollective jest organizacją [501(c)3](https://en.wikipedia.org/wiki/501(c)(3)_organizacja) i zapewnia [dokumenty do odliczeń podatkowych](https://docs.opencollective.com/help/financial-contributors/receipts).
 
 FPA może zawsze wystawić pokwitowanie za darowiznę. [Wyślij nam maila](mailto:fpa@freecad.org) z danymi dotyczącymi darowizny, a my chętnie wyślemy Ci pokwitowanie.
 

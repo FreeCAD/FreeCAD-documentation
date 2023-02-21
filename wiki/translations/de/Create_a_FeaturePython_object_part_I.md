@@ -1,6 +1,8 @@
 # Create a FeaturePython object part I/de
 {{TOCright}}
 
+
+
 ## Einführung
 
 FeaturePython-Objekte (auch als [Skriptgenerierte Objekte](Scripted_objects/de.md) bezeichnet) bieten die Möglichkeit, FreeCAD mit Objekten zu erweitern, die sich nahtlos in die FreeCAD-Struktur integrieren.
@@ -13,6 +15,8 @@ Das ermutigt:
 
 Auf dieser Seite werden wir ein funktionierendes Beispiel für eine benutzerdefinierte FeaturePython-Klasse konstruieren, wobei wir alle wichtigen Komponenten identifizieren und ein Verständnis dafür gewinnen, wie alles funktioniert, während wir vorankommen.
 
+
+
 ## Wie funktioniert es? 
 
 FreeCAD wird mit einer Reihe von standard Objekttypen zur Verwaltung verschiedener Arten von Geometrie ausgeliefert. Einige von ihnen haben \"FeaturePython\"-Alternativen, die eine Anpassung mit einer benutzerdefinierten Python-Klasse ermöglichen.
@@ -23,6 +27,8 @@ Bei der Arbeit mit benutzerdefinierten Klassen und FeaturePython-Objekten ist es
 
 [Anfang](#top.md)
 
+
+
 ## Einrichten der Dinge 
 
 FeaturePython-Objektklassen müssen in FreeCAD als importierbare Module fungieren. Das bedeutet, dass du sie in einem Pfad platzieren musst, der in deiner Python Umgebung existiert (oder füge ihn speziell hinzu). Für die Zwecke dieses Tutoriums werden wir den FreeCAD-Benutzerordner Macro verwenden. Aber wenn du eine andere Idee im Kopf hast, kannst du diese stattdessen verwenden.
@@ -31,7 +37,7 @@ If you don\'t know where the FreeCAD Macro folder is type `FreeCAD.getUserMacroD
 
 -   On Linux it is usually **/home/<username>/.local/share/FreeCAD/Macro/** (<small>(v0.20)</small> ) or **/home/<username>/.FreeCAD/Macro/** ({{VersionMinus|0.19}}).
 -   On Windows it is **%APPDATA%\FreeCAD\Macro\**, which is usually **C:\Users\<username>\Appdata\Roaming\FreeCAD\Macro\**.
--   On Mac OSX it is usually **/Users/<username>/Library/Preferences/FreeCAD/Macro/**.
+-   On macOS it is usually **/Users/<username>/Library/Application Support/FreeCAD/Macro/**.
 
 Now we need to create some folders and files:
 
@@ -60,6 +66,8 @@ With our module paths and files created, let\'s make sure FreeCAD is set up prop
 Finally, navigate to the **Macro/fpo/box** folder and open **box.py** in your favorite code editor. We will only edit that file.
 
 [Anfang](#top.md)
+
+
 
 ## Ein FeaturePython-Objekt 
 
@@ -137,6 +145,8 @@ The `create()` method is not required, but it provides a nice way to encapsulate
 
 [Anfang](#top.md)
 
+
+
 ### Testen des Codes 
 
 Now we can test our new object. Save your code and return to FreeCAD. Make sure you have opened a new document, you can do this by pressing **Ctrl**+**N** or selecting **File → New**.
@@ -213,6 +223,8 @@ This is indeed the assigned value, so we know we\'re accessing the custom class 
 Now let\'s see if we can make our class a little more interesting, and maybe more useful as well.
 
 [top](#top.md)
+
+
 
 ### Hinzufügen von Eigenschaften 
 
@@ -328,6 +340,8 @@ You should see the printed output in the Python Console, thanks to the `recomput
 That\'s it, you now know how to build a basic, functional FeaturePython object!
 
 [Anfang](#top.md)
+
+
 
 ### Vollständiger Code 
 

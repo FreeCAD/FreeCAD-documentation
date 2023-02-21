@@ -1,195 +1,132 @@
 ---
 - GuiCommand:/it
    Name:Draft BezCurve
-   Name/it:Curva di Bezier
-   MenuLocation:Draft → Strumenti Beziér → Curva di Bézier
+   Name/it:Curva di Bézier
+   MenuLocation:Drafting → Strumenti Beziér → Curva di Bézier
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**B** **Z**
-   SeeAlso:[Polilinea](Draft_Wire/it.md), [CubicBezCurve](Draft_CubicBezCurve/it.md), [B-spline](Draft_BSpline/it.md)
    Version:0.14
+   SeeAlso:[Polilinea](Draft_Wire/it.md), [Curva di Bézier cubica](Draft_CubicBezCurve/it.md), [BSpline](Draft_BSpline/it.md)
 ---
 
 # Draft BezCurve/it
 
 
-</div>
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> **Curva di Bézier** crea una [curva di Bézier](http://en.wikipedia.org/wiki/Bezier_curve) da diversi punti.
 
-<div class="mw-translate-fuzzy">
+Il comando crea una singola curva di Bézier con un **Degree** che è `number_of_points - 1`. Può essere trasformato in una curva di Bézier a tratti riducendo questa proprietà.
 
-Lo strumento <img alt="" src=images/Draft_BezCurve.svg  style="width:16px;"> Curva di Bézier crea una [Curva di Bezier](http://en.wikipedia.org/wiki/Bezier_curve), o un suo tratto, da più punti. Assume [lo spessore e il colore](Draft_Linestyle/it.md) precedentemente impostati nella [barra di Draft](Draft_Tray/it.md).
+I comandi Curva di Bézier e [Curva di Bézier cubica](Draft_CubicBezCurve/it.md) utilizzano **punti di controllo** per definire la posizione e la curvatura della spline. Il comando [BSpline](Draft_BSpline/it.md), invece, specifica i **punti esatti** attraverso i quali passerà la curva.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-L\'oggetto viene creato come una unica curva di Bezier di grado uguale a `number_of_points - 1` (al numero di punti - 1). Dopo la creazione può essere commutato in tratti di curva di Bezier di determinato grado modificando le sue [proprietà](Property/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Curva di Bezier utilizza **i punti di controllo** per definire la direzione della curva; invece lo strumento [B-spline](Draft_BSpline/it.md) specifica i punti esatti attraverso i quali deve passare la curva. Per creare curve circolari o ellittiche esatte, usare [Arco](Draft_Arc/it.md) e [Ellisse](Draft_Ellipse/it.md).
-
-
-</div>
-
-<img alt="" src=images/Draft_BezCurve_Example.png  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
+<img alt="" src=images/Draft_BezCurve_Example.png  style="width:400px;"> 
 *Curva di Bézier definita da più punti di controllo*
 
 
-</div>
 
 ## Utilizzo
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
+
+1.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_BezCurve.svg" width=16px> [Curva di Bézier](Draft_BezCurve/it.md)**.
+    -   Selezionare l\'opzione **Drafting → Strumenti Bézier → <img src="images/Draft_BezCurve.svg" width=16px> Curva di Bézier** dal menu.
+    -   Usare la scorciatoia da tastiera: **B** poi **Z**. {{Version/it|0.20}}
+2.  Si apre il pannello delle attività **Curva di Bézier**. Vedere [Opzioni](#Options.md) per maggiori informazioni.
+3.  Scegliere il primo punto nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
+4.  Scegliere altri punti nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
+5.  Premere **Esc** o il pulsante **Chiudi** per terminare il comando.
 
 
-<div class="mw-translate-fuzzy">
-
-1.  Premere il pulsante **<img src="images/Draft_BezCurve.png" width=16px> [Curva di Bézier](Draft_BezCurve/it.md)**, o premere i tasti **B** e poi **Z**.
-2.  Selezionare un primo punto nella vista 3D, oppure digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**.
-3.  Selezionare un nuovo punto nella vista 3D, oppure digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**.
-4.  Premere il tasto **Esc** o il pulsante {{button|Chiudi}}, o fare doppio clic sull\'ultimo punto per terminare l\'edizione.
-
-
-</div>
 
 ## Opzioni
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+Le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività possono essere modificate. Vedere [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md). Le scorciatoie menzionate qui sono le scorciatoie predefinite.
+
+-   Per inserire manualmente le coordinate, inserire le componenti X, Y e Z e premere **Enter** dopo ognuna di esse. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
+-   Premere **R** o fare clic sulla casella di controllo **Relativo** per attivare o disattivare la modalità relativa. Se la modalità relativa è attiva, le coordinate sono relative all\'ultimo punto, se disponibile, altrimenti sono relative all\'origine del sistema di coordinate.
+-   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **L** o fare clic sulla casella di controllo **Riempito** per attivare o disattivare la modalità riempimento. Se la modalità riempimento è attiva, la curva creata avrà **Make Face** impostato su `True` e avrà una faccia piena, a condizione che sia chiusa e non si autointersechi. Nota che una curva autointersecante con una faccia non verrà visualizzata correttamente, per tale curva **Make Face** deve essere impostata su `False`.
+-   Premere **T** o fare clic sulla casella di controllo **Continua** per attivare o disattivare la modalità continua. Se la modalità continua è attiva, il comando verrà riavviato dopo aver utilizzato **<img src="images/Draft_FinishLine.svg" width=16px> Fine** o **<img src="images/Draft_CloseLine.svg" width=16px> Chiudi**, o dopo aver creato una curva chiusa eseguendo lo snap al primo punto della curva, consentendo di continuare a creare curve.
+-   Premere **/** o il pulsante **<img src="images/Draft_UndoLine.svg" width=16px> Annulla** per annullare l\'ultimo punto. La scorciatoia da tastiera non funziona in {{VersionMinus/it|19.0}}.
+-   Premere **A** o il pulsante **<img src="images/Draft_FinishLine.svg" width=16px> Fine** per terminare il comando e lasciare aperta la curva.
+-   Premere **O** o il pulsante **<img src="images/Draft_CloseLine.svg" width=16px> Chiudi** per terminare il comando e chiudere la curva. È inoltre possibile creare una curva chiusa eseguendo lo snap al primo punto della curva.
+-   Premere **W** o il pulsante **<img src="images/Draft_Wipe.svg" width=16px> Pulisci** per eliminare i segmenti già posizionati, ma continuare a lavorare dall\'ultimo punto.
+-   Premere **U** o il pulsante **<img src="images/Draft_SelectPlane.svg" width=16px> [Imposta il piano di lavoro](Draft_SelectPlane.md)** per regolare il piano di lavoro corrente nell\'orientamento definito dal ultimo e il punto precedente.
+-   Premere **S** per attivare o disattivare [Aggancia](Draft_Snap/it.md).
+-   Premere **Esc** o il pulsante **Chiudi** per terminare il comando.
 
 
-<div class="mw-translate-fuzzy">
 
--   Premere il tasto **A** o il pulsante **<img src="images/Draft_FinishLine.svg" width=12px> Termina** per terminare la curva, lasciandola aperta.
--   Premere il tasto **O** o il pulsante **<img src="images/Draft_CloseLine.svg" width=12px> Chiudi** per chiudere la curva, cioè per aggiungere un segmento dall\'ultimo punto al primo per formare una faccia. Per formare una faccia sono necessari almeno quattro punti, e una curva di grado tre.
--   Premere il tasto **W** o il pulsante **<img src="images/Draft_Wipe.svg" width=12px> Pulisci** per rimuovere i segmenti della curva già posizionati, ma continuare a creare la curva dall\'ultimo punto.
--   Premere il tasto **U** o il pulsante **<img src="images/Draft_SelectPlane.svg" width=12px> [Imposta il piano](Draft_SelectPlane/it.md)** per posizionare il piano di lavoro corrente nell\'orientamento dell\'ultimo punto.
--   Premere il tasto **X**, o **Y** o **Z** dopo un punto per vincolare il successivo punto sul dato asse.
--   Per inserire le coordinate manualmente, basta inserire i valori e poi premere **Invio** per ciascun componente X, Y e Z.
--   Premere il tasto **R** oppure fare clic sulla casella di controllo per attivare la modalità \"relativo\". Se la modalità relativo è attiva, le coordinate del punto successivo sono relative all\'ultimo; in caso contrario, sono assolute, prese dall\'origine (0,0,0).
--   Premere il tasto **T** oppure fare clic sulla casella di controllo per attivare la modalità \"continua\". Se la modalità continua è attiva, lo strumento Curva di Bézier si riavvia dopo aver terminato la Curva di Bézier in costruzione, e consente di disegnare una nuova Curva di Bézier senza premere nuovamente il pulsante dello strumento.
--   Premere il tasto **L** oppure fare clic sulla casella di controllo per attivare la modalità *riempito*. Se la modalità di riempimento è attiva una Curva di Bézier chiusa crea una faccia piena (**Make Face** `True`); in caso contrario, la Curva di Bézier chiusa non crea una faccia (**Make Face** `False`).
+## Note
 
-:   
-    **Nota:**la curva non deve essere riempita se si autointerseca, in quanto non crea una faccia corretta. Se la curva è piena ma non è visibile nessuna forma, impostare manualmente **Make Face** su `False` per vedere la spline.
-
--   Tenere premuto **Ctrl** mentre si disegna per forzare [l\'aggancio](Draft_Snap.md) del proprio punto alla posizione di aggancio più vicina, indipendentemente dalla distanza.
--   Tenere premuto **Maiusc** mentre si disegna per [vincolare](Draft_Constrain.md) il punto successivo in orizzontale o in verticale rispetto all\'ultimo.
--   Premere **Ctrl**+**Z** o il pulsante **<img src="images/Draft_UndoLine.svg" width=12px> Undo** per annullare l\'ultimo punto.
--   Premere il tasto **Esc** o il pulsante {{button|Chiudi}} per interrompere il comando corrente; le curve già posizionate rimamgono.
+-   Una Curva di Bézier può essere modificata con il comando [Modifica](Draft_Edit/it.md).
+-   OpenCascade, e quindi FreeCAD, non supporta le curve di Bézier di gradi maggiori a 25. Questo non dovrebbe essere un problema in pratica, poiché la maggior parte degli utenti usa tipicamente curve di Bézier di gradi da 3 a 5.
 
 
-</div>
 
-## Notes
+## Preferenze
 
+Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
 
-<div class="mw-translate-fuzzy">
-
-## Limitazioni
-
--   Le proprietà Punti non compaiono ancora nell\'elenco delle proprietà.
--   OpenCascade, e quindi FreeCAD, non supporta le curve di Bézier di grado superiore a 25. Questo non dovrebbe essere un problema nella pratica, poiché la maggior parte degli utenti usa tipicamente le curve di Bézier da 3 a 5 gradi.
+-   Per modificare il numero di decimali utilizzati per l\'inserimento delle coordinate: **Modifica → Preferenze... → Generale → Unità → Impostazioni unità → Numero di cifre decimali**.
+-   Per modificare il valore iniziale della modalità riempimento: **Modifica → Preferenze... → Draft → Impostazioni generali → Opzioni strumenti Draft → Riempi gli oggetti con le facce quando possibile**. La modifica della modalità di riempimento in un pannello delle attività sovrascriverà questa preferenza per la sessione corrente di FreeCAD.
 
 
-</div>
-
-## Preferences
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 
 ## Proprietà
 
-See also: [Property editor](Property_editor.md).
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
 
-A Draft BezCurve object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
-
-### Data
+Un oggetto Curva di Bézier è derivato da un [Part Part2DObject](Part_Part2DObject/it.md) e ne eredita tutte le proprietà. Ha anche le seguenti proprietà aggiuntive:
 
 
-{{TitleProperty|Draft}}
-
-
-<div class="mw-translate-fuzzy">
 
 ### Dati
 
--    **Degree**: specifica il grado della curva di Bezier o dei singoli segmenti.
 
--    **Closed**: specifica se la curva è chiusa o no. Se la curva è inizialmente aperta, questo valore è `False`; impostandolo su `True` viene disegnato un segmento per chiudere la curva. Se la curva è inizialmente chiusa, questo valore è `True`; impostandolo su `False` si rimuove l\'ultimo segmento e si apre la curva.
+{{TitleProperty|Draft}}
 
--    **Make Face**: specifica se la spline crea o no una faccia. Se è `True` crea una faccia, altrimenti solo il perimetro è considerato parte dell\'oggetto. Questa proprietà funziona solo se **Closed** è `True`.
+-    **Area|Area**: (sola lettura) specifica l\'area della faccia della curva. Il valore sarà {{value|0.0}} se **Make Face** se `False` o la faccia non può essere creata.
 
-:   
-    **Nota:**non impostare **Make Face** su `True` se la curva si autointerseca, poiché non crea una faccia corretta.
+-    **Closed|Bool**: specifica se la curva è chiusa o meno. Se la curva è inizialmente aperta questo valore è `False`, impostandolo su `True` disegnerà un segmento per chiudere la curva. Se la curva è inizialmente chiusa questo valore è `True`, impostandolo su `False` rimuoverà l\'ultimo segmento e aprirà la curva.
 
--    **Continuity**: (sola lettura) quando la curva è chiusa, indica la continuità della curva `[0]`, o `[0,0]`. Altrimenti è `[]`.
+-    **Continuity|IntegerList**: (sola lettura) specifica la continuità della curva.
+
+-    **Degree|Integer**: specifica il grado della curva.
+
+-    **Length|Length**: (sola lettura) specifica la lunghezza totale della curva.
+
+-    **Make Face|Bool**: specifica se la curva crea o meno una faccia. Se è `True` viene creata una faccia, altrimenti solo il perimetro è considerato parte dell\'oggetto. Questa proprietà funziona solo se **Closed** è `True` e se la curva non si autointerseca.
+
+-    **Points|VectorList**: specifica i punti di controllo della curva nel suo sistema di coordinate locale.
 
 
-</div>
 
-### View
+### Vista
 
 
 {{TitleProperty|Draft}}
 
+-    **Arrow Size|Length**: specifica la dimensione del simbolo visualizzato alla fine della curva.
 
-<div class="mw-translate-fuzzy">
+-    **Arrow Type|Enumeration**: specifica il tipo di simbolo visualizzato alla fine della curva, che può essere {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} o {{value|Tick-2}}.
 
-### Vista
+-    **End Arrow|Bool**: specifica se mostrare un simbolo alla fine della curva, in modo che possa essere utilizzato come linea di annotazione.
 
--    **Arrow Size**: specifica la dimensione del simbolo visualizzato alla fine della curva.
+-    **Pattern|Enumeration**: specifica il [Campitura](Draft_Pattern/it.md) con cui riempire la faccia della curva chiusa. Questa proprietà funziona solo se **Make Face** è `True` e se **Display Mode** è {{value|Flat Lines}}.
 
--    **Arrow Type**: specifica il tipo di simbolo visualizzato alla fine della curva, che può essere dot, circle, arrow, o tick.
-
--    **End Arrow**: specifica se mostrare un simbolo nell\'ultimo punto della curva, in modo che possa essere usata come una linea di annotazione.
-
--    **Pattern**: specifica un tipo di [Campitura](Draft_Pattern/it.md) con cui riempire la faccia della curva chiusa. Questa proprietà funziona solo se **Make Face** è `True`, e se **Display Mode** è \"Flat Lines\".
-
--    **Pattern Size**: specifica la dimensione della [Campitura](Draft_Pattern/it.md).
+-    **Pattern Size|Float**: specifica la dimensione della [Campitura](Draft_Pattern/it.md).
 
 
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-**Vedere anche:**
-
-[API Draft](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Curva di Bézier può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
+Per creare una Draft Curva di Bézier usare il metodo `make_bezcurve` ({{Version/it|0.19}}) del modulo Draft. Questo metodo sostituisce il metodo deprecato `makeBezCurve`.
 
 
 ```python
@@ -197,18 +134,12 @@ bezcurve = make_bezcurve(pointslist, closed=False, placement=None, face=None, su
 bezcurve = make_bezcurve(Part.Wire, closed=False, placement=None, face=None, support=None, degree=None)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
--   Crea un oggetto `BezCurve` dalla data lista di punti `pointslist`.
+-   Crea un oggetto `bezcurve` dalla data lista di punti `pointslist`.
     -   Ogni punto della lista è definito dal suo `FreeCAD.Vector`, con unità in millimetri.
     -   In alternativa, l\'input può essere una `Part.Wire`, da cui vengono estratti i punti.
 -   Se `closed` è `True`, o se il primo e l\'ultimo punto coincidono, la curva è chiusa.
--   Se viene dato un `placement` esso viene usato; altrimenti la forma viene creata nell\'origine.
+-   Se `placement` è `None` la forma viene creata nell\'origine.
 -   Se `face` è `True` e la curva è chiusa, diventa una faccia e appare riempita.
-
-
-</div>
 
 Esempio:
 
@@ -230,15 +161,6 @@ bezcurve3 = Draft.make_bezcurve([1.7*p3, 1.5*p4, 2.1*p2, p1], closed=True)
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

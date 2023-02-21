@@ -145,7 +145,7 @@
     - [Translating an external workbench](Translating_an_external_workbench.md)
     - [File Format FCStd](File_Format_FCStd.md)
     - [FreeCAD 1.0 Development Cycle](FreeCAD_1.0_Development_Cycle.md)
-    - [IRC channel](Irc://chat.freenode.net/freecad)
+    - [IRC channel](Ircs://irc.libera.chat:6697/freecad)
     - [Development roadmap](Development_roadmap.md)
     - [Contributors](Contributors.md)
 - [Manual](Manual_Summary.md)

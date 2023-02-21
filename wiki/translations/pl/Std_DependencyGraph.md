@@ -8,6 +8,8 @@
 
 # Std DependencyGraph/pl
 
+
+
 ## Opis
 
 Polecenie **Graf zależności** wyświetla zależności pomiędzy obiektami w aktywnym dokumencie w postaci *wykresu zależności*. W przeciwieństwie do [Widoku drzewa](Tree_view/pl.md), obiekty są wymienione w odwrotnym porządku chronologicznym, z obiektem utworzonym jako pierwszy na dole.
@@ -19,6 +21,8 @@ Graf zależności jest wyłącznie narzędziem wizualizacji, dlatego nie można 
 <img alt="" src=images/Std_DependencyGraph_example.svg  style="width:400px;"> 
 *Przykład grafu zależności z korpusem Projekt Części po lewej stronie i obiektem utworzonym za pomocą operacji środowiska Część po prawej stronie.*
 
+
+
 ## Instalacja
 
 Aby można było korzystać z poleceń, należy zainstalować oprogramowanie innej firmy o nazwie [Graphviz](http://graphviz.org/). Jeśli nie masz go wstępnie zainstalowanego lub jest on zainstalowany w niekonwencjonalnej lokalizacji, FreeCAD wyświetli następujące okno dialogowe:
@@ -29,7 +33,9 @@ Aby można było korzystać z poleceń, należy zainstalować oprogramowanie inn
 
 Pobierz instalator **graphviz-2.xx** ze [Graphviz strona do pobrania](https://graphviz.org/download/#windows) i uruchom go, aby wykonać instalację. Niektóre starsze wersje wydają się mieć problemy z wyświetlaniem wykresu; wersja 2.38 i nowsze są znane z niezawodności. Wszystkie wydania graphviz można znaleźć w [serwisie Gitlab](https://gitlab.com/graphviz/graphviz/-/releases).
 
-### Mac / OSX 
+
+
+### Mac OS 
 
 Grafviz można zainstalować za pomocą [Homebrew](https://brew.sh/). *(Podczas instalacji Homebrew nie denerwuj się, jeśli MacOS poprosi Cię o zainstalowanie aktualizacji, np. dla narzędzi wiersza poleceń Xcode. Te aktualizacje są wykonywane później przez proces instalacji)*.
 
@@ -88,12 +94,16 @@ dot is /usr/local/bin/dot
 
 I dlatego możesz wskazać programowi FreeCAD, aby szukał w tym katalogu.
 
+
+
 ## Użycie
 
 1.  Wybierz z menu opcję **Przybory → <img src="images/Std_DependencyGraph.svg" width=16px> Graf zależności ...**.
 2.  W [Głównym obszarze widoku](Main_view_area/pl.md) otworzy się nowa zakładka zatytułowana **Graf zależności**.
 3.  Użyj kółka przewijania myszy, aby przybliżyć lub oddalić widok.
 4.  Użyj suwaków na dole i po prawej stronie ekranu, aby przesunąć widok. Alternatywnie ({{Version/pl|0.19}}) przytrzymaj lewy przycisk myszy i poruszaj kursorem.
+
+
 
 ## Zapis
 
@@ -104,12 +114,16 @@ Możesz zapisać wykres zależności:
 3.  Wprowadź nazwę pliku i wybierz typ pliku (\*.png, \*.bmp, \*.gif, \*.jpg, \*.svg lub \*.pdf).
 4.  Naciśnij przycisk **Zapisz**.
 
+
+
 ## Zasady ogólne 
 
 -   Wykres przedstawia obiekty w odwrotnej kolejności chronologicznej.
 -   Kierunek strzałek pokazujących zależności powinien być zawsze skierowany w dół, od obiektu dziecka do obiektu rodzica. Strzałka skierowana w górę wskazuje na zależność cykliczną, czyli problem, który należy rozwiązać.
 -   Szkic zawierający odnośniki do [zewnętrznej geometrii](Sketcher_External/pl.md) będzie miał liczbę z przyrostkiem \"x\" obok strzałki łączącej go z jego rodzicem, pokazującą liczbę zewnętrznych geometrii powiązanych w szkicu.
 -   Obiekty mogą mieć zależności z wieloma rodzicami. Na przykład, dla modelu zbudowanego w środowisku [Projekt Części](PartDesign_Workbench/pl.md), kieszeń może być powiązana ze swoim Szkicem i z elementem wyciągnięcia, który był przed nim.
+
+
 
 ## Ograniczenia
 

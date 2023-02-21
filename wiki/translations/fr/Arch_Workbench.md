@@ -139,7 +139,7 @@ Ce sont des outils supplémentaires, pour vous aider dans des tâches spécifiqu
 
 -   <img alt="" src=images/Arch_Component.svg  style="width:32px;"> [Composant](Arch_Component/fr.md) : crée un composant Arch non-paramétrique.
 
--   <img alt="" src=images/Arch_CloneComponent.svg  style="width:32px;"> [Composant de clone](Arch_CloneComponent/fr.md) : produit des composants Arch qui sont des clones d\'objets Arch sélectionnés (à ne pas confondre avec [Draft Cloner](Draft_Clone/fr.md)).
+-   <img alt="" src=images/Arch_CloneComponent.svg  style="width:32px;"> [Cloner un composant](Arch_CloneComponent/fr.md) : produit des composants Arch qui sont des clones d\'objets Arch sélectionnés (à ne pas confondre avec [Draft Cloner](Draft_Clone/fr.md)).
 
 -   <img alt="" src=images/Arch_SplitMesh.svg  style="width:32px;"> [Diviser un maillage](Arch_SplitMesh/fr.md) : divise un maillage sélectionné en composants séparés.
 
@@ -157,7 +157,7 @@ Ce sont des outils supplémentaires, pour vous aider dans des tâches spécifiqu
 
 -   <img alt="" src=images/Arch_ToggleIfcBrepFlag.svg  style="width:32px;"> [Bascule marqueur Brep IFC](Arch_ToggleIfcBrepFlag/fr.md) : force un objet sélectionné à être exporté en tant que [IfcFacetedBrep](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/schema/ifcgeometricmodelresource/lexical/ifcfacetedbrep.htm).
 
--   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> [3 Vues à partir d\'un maillage](Arch_3Views/fr.md) : crée des vues de dessus, de face et de côté à partir d\'un [maillage](Mesh_Workbench/fr.md).
+-   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> [3 vues à partir d\'un maillage](Arch_3Views/fr.md) : crée des vues de dessus, de face et de côté à partir d\'un [maillage](Mesh_Workbench/fr.md).
 
 -   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> [Tableur IFC](Arch_IfcSpreadsheet/fr.md) : crée une feuille de calcul pour stocker les propriétés [IFC](Arch_IFC/fr.md) d\'un objet.
 

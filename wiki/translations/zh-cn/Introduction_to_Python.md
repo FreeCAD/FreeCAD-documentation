@@ -1,6 +1,8 @@
 # Introduction to Python/zh-cn
 {{TOCright}}
 
+
+
 ## 概述
 
 这是适合[Python](http://en.wikipedia.org/wiki/Python_%28programming_language%29)新手的一篇简短指南。Python是一个开源、多平台的 [编程语言](http://en.wikipedia.org/wiki/Programming_language)。Python有几种不同于其他常见语言的特性，使之与众不同，而且还易于对此毫无经验的人使用：
@@ -11,6 +13,8 @@
 -   它是可扩展的，您可以轻松将新的模块插入到您的Python中来扩展它的功能。例如，有些模块可以读写图形、与twitter进行通信，甚至调度任务在操作系统上的执行，等等。
 
 以下仅仅是基本的介绍，而并非完整的教程。但是希望能为将来进一步探索FreeCAD和它的机制提供一个良好的开始。我们强烈建议您将下面的代码片段输入Python解释器执行下试试。
+
+
 
 ## 解释器
 
@@ -101,6 +105,8 @@ help("print")
 
 {{Top}}
 
+
+
 ## 变量
 
 
@@ -180,6 +186,8 @@ print(var2)
 
 
 {{Top}}
+
+
 
 ## 数字
 
@@ -356,6 +364,8 @@ myVar
 
 {{Top}}
 
+
+
 ## 列表
 
 
@@ -442,6 +452,8 @@ myvar[2]
 
 
 {{Top}}
+
+
 
 ## 缩进
 
@@ -620,6 +632,8 @@ else:
 
 {{Top}}
 
+
+
 ## 函数
 
 
@@ -686,6 +700,8 @@ myTotal = sum(45, 34)
 
 
 {{Top}}
+
+
 
 ## 模块
 
@@ -875,6 +891,8 @@ exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 
 
 {{Top}}
+
+
 
 ## 在FreeCAD中使用Python
 

@@ -45,6 +45,8 @@ A l\'heure où j\'écris ceci l\'atelier [Arch](Arch_Workbench/fr.md) comme le r
 
 {{Note|FreeCAD version 0.14 requis|Ce tutoriel a été réalisé avec [FreeCAD version 0.14](Release_notes_0.14/fr.md). Vous aurez besoin au moins de cette version pour le suivre. Les versions plus anciennes pourraient ne pas contenir tous les outils nécessaires ou certaines options risquent de ne pas être présentes.}}
 
+
+
 ## Déroulement type des opérations 
 
 L\'atelier [Arch](Arch_Workbench/fr.md) est principalement fait pour deux sortes d'opérations :
@@ -56,6 +58,8 @@ L\'atelier [Arch](Arch_Workbench/fr.md) est principalement fait pour deux sortes
 ![](images/Arch_tutorial_01.jpg )
 
 Dans ce tutoriel, nous allons modéliser le bâtiment en 3D à partir de plans 2D que nous avons téléchargés sur le net, dont nous allons extraire des éléments 2D comme des vues en plans, des coupes ou des élévations.
+
+
 
 ## Préparation
 
@@ -70,6 +74,8 @@ Voici comment le fichier s\'affiche lorsqu'il est ouvert dans FreeCAD. J\'ai aus
 ![](images/Arch_tutorial_02.jpg )
 
 [L\'importateur de DXF](Draft_DXF.md) (qui prend aussi en compte les fichiers DWG en les convertissant tout simplement en DXF), groupe les objets importés par calque. Il n\'y a pas de calques dans FreeCAD mais il y a des [groupes](Std_Group/fr.md). Les [groupes](Std_Group/fr.md) offrent un comportement similaire aux calques pour organiser les objets du fichier, mais ils n\'ont pas de propriété spécifique, comme les calques dans AutoCAD qui s\'appliquent à leur contenu. Ils peuvent être imbriqués les uns dans les autres par simple glisser-déposer de la souris. La première chose que vous pourriez faire, c\'est de créer des nouveaux [groupes](Std_Group/fr.md) (dans la [vue arborescente](Document_structure/fr.md) : clic droit sur l\'icône du document, créer un groupe, clic droit dessus, et le renommer en \"plans 2d de base\"). Sélectionnez tous les objets et glissez les dans ce nouveau groupe.
+
+
 
 ## Construire les murs 
 
@@ -119,6 +125,8 @@ Maintenant déplaçons nos murs horizontalement, à leur emplacement correct. Pu
 
 Enfin, j\' ai changé la couleur de certains murs pour une couleur brique (c\'est tellement plus facile de faire la différence), et j\'ai fait une petite correction : Certains murs ne vont pas jusqu\'au toit, mais s\'arrêtent à une hauteur de 2,60 m. J\'ai corrigé la hauteur de ces murs.
 
+
+
 ## Elever la structure 
 
 Maintenant, puisque nous devons réduire nos murs avec un volume à soustraire, nous devrions aussi bien vérifier si il n\'y a pas d\'autres objets qui devront être coupés de cette façon. Il existe certaines colonnes. C\'est une bonne occasion de présenter un second objet arch : l[Arch Structure](Arch_Structure/fr.md). Les objets Structure se comportent plus ou moins comme les murs, mais ils ne sont pas faits pour suivre une ligne de base. Au contraire, ils préfèrent travailler à partir d\'un profil, qui est extrudé (le long d\'une ligne de profil ou non). Tout objet plat peut être un profil pour une structure, avec une seule exigence : ils doivent former une forme fermée.
@@ -132,6 +140,8 @@ Après avoir converti nos colonnes en surfaces, nous pouvons utiliser l\'outil [
 Sur l\'image ci-dessus, vous pouvez voir deux colonnes qui sont encore telles qu\'elles se trouvaient dans le fichier DWG, deux qui ont été mises à niveau sur des faces, et deux qui ont été transformées en objets structurels et leur hauteur réglée à 6m et 2.25m.
 
 Notez que les différents objets Arch (les murs, les structures et tous les autres objets que nous allons découvrir) partagent tous beaucoup de choses entre eux (par exemple tous peuvent être ajoutés l\'un à l\'autre, comme nous l\'avons vu avec des murs, et chacun d\'eux peut être converti en un autre type). Donc, ce n\'est plus une question de goût, nous aurions pu aussi faire nos colonnes avec l\'outil Mur, et les convertir si nécessaire. En fait, certains de nos murs sont des murs de béton, nous pourrions voulons les convertir en structures plus tard.
+
+
 
 ## Soustractions
 
@@ -163,6 +173,8 @@ Rappelez-vous que pour les deux outils [Ajouter](Arch_Add/fr.md) et [ Supprimer]
 {{Note | Une note sur les additions et soustractions | 
 Les objets Arch qui  supportent additions et soustractions (tous exceptés les objets d'aides "visuels" : tels que les axes) gardent la trace des objets en ayant deux propriétés respectivement, "Additions", et "Soustractions", qui contiennent une liste de liens pour ajouter ou soustraire d'autres objets . Un objet commun peut être dans la liste de plusieurs autres objets, comme c'est le cas de notre volume de soustraction ici. Chacun des pères voudra l'avaler dans l'arborescence, cependant, il sera généralement "vivant" en dernier. Mais vous pouvez toujours modifier ces listes pour tout objet, en double-cliquant dessus dans l'arborescence, quand FreeCAD est en mode d'édition. Appuyez sur la touche Échappement pour sortir du mode édition.}}
 
+
+
 ## Faire les toits 
 
 Maintenant, tout ce que nous avons à faire pour compléter la structure, c\'est de faire le toit et les petites dalles intérieures. Encore une fois, le plus simple est de dessiner leurs profils par dessus la section, avec l\'outil [Filaire](Draft_Wire/fr.md). Ici j\'ai dessiné trois profils les uns sur les autres (je les ai écartés dans l\'image ci-dessous pour mieux les voir). Le vert sera utilisé pour les bords latéraux de la dalle du toit, puis le bleu pour les parties latérales, et les rouges pour la partie centrale, qui se trouve au-dessus du bloc de la salle de bain :
@@ -183,15 +195,21 @@ Maintenant une dernière chose doit être résolue, il y a une petite dalle dans
 
 <img alt="" src=images/Arch_tutorial_16.jpg  style="width:1024px;">
 
+
+
 ## Planchers, escaliers et cheminées 
 
 Maintenant, notre structure est complète, nous avons juste quelques petits objets à faire.
+
+
 
 ### la cheminée 
 
 Commençons par la cheminée. Maintenant, vous savez déjà comment cela fonctionne, non ? Dessinez des [Draft Filaires ](Draft_Wire/fr.md) fermés, déplacez-les vers le haut à leur hauteur correcte avec l\'outil [Déplacer](Draft_Move/fr.md), extrudez-les avec l\'outil [Draft Trimex](Draft_Trimex/fr.md) , convertissez le plus gros en [Arch Structure](Arch_Structure/fr.md), et soustrayez les plus petits. Remarquez le tube de cheminée qui n\'était pas dessiné sur la vue en plan, mais j\' ai trouvé sa position en faisant glisser les lignes bleues à partir des vues en coupe.
 
 <img alt="" src=images/Arch_tutorial_17.jpg  style="width:1024px;">
+
+
 
 ### les planchers 
 
@@ -202,6 +220,8 @@ Les planchers ne sont pas bien représentés dans les dessins de base. Lorsque l
 Une fois les fils dessinés, il suffit de les transformer en [Arch structures](Arch_Structure/fr.md), et de leur donner une hauteur de 0.15 :
 
 <img alt="" src=images/Arch_tutorial_19.jpg  style="width:1024px;">
+
+
 
 ### Les Escaliers 
 
@@ -225,6 +245,8 @@ N\'oubliez pas également de couper la colonne qui traverse les escaliers, parce
 
 Bien ! Tout le travail dur est désormais fait, allons-y avec le travail très dur!
 
+
+
 ## Portes et fenêtres 
 
 [Arch Fenêtres](Arch_Window/fr.md) sont des objets très complexes. Ils sont utilisés pour fabriquer toutes sortes d\'objets \"insérés\", tels que des fenêtres ou des portes. Oui, dans FreeCAD, les portes sont juste un type spécial de fenêtre, en réalité aussi, non? L\'outil [Fenêtre](Arch_Window/fr.md) peut être encore un peu difficile à utiliser aujourd\'hui, mais considérez cela comme un compromis, car il a été construit pour une puissance maximale. Presque n\'importe quel type de fenêtre sortie de votre imagination peut être produit avec lui. Mais comme l\'outil va s\'enrichir de plus de pré-configurations, cette situation devrait certainement s\'améliorer à l\'avenir.
@@ -232,6 +254,8 @@ Bien ! Tout le travail dur est désormais fait, allons-y avec le travail très d
 L\'objet [Arch Fenêtre](Arch_Window/fr.md) fonctionne comme ceci : Il est basé sur un modèle 2D, n\'importe quel objet 2D, mais de préférence une [esquisse](Sketcher_Workbench/fr.md), qui contient des filaires fermés (polylignes). Ces fils définissent les différentes parties de la fenêtre : cadres extérieurs, cadres intérieurs, panneaux de verre, panneaux solides, etc. L\'objet fenêtre a alors une propriété qui stocke quoi faire avec chacun de ces filaires : extruder, placer à un certain décalage, etc. Enfin, une fenêtre peut être insérée dans un objet hôte comme un mur ou une structure, et il va automatiquement créer un trou dedans. Ce trou sera calculé par extrusion du plus grand fil figurant dans le modèle 2D.
 
 Il y a deux façons de créer ces objets dans FreeCAD : en utilisant une pré-configuration, ou en dessinant la fenêtre à partir de zéro. Nous allons voir ici les deux méthodes. Mais rappelez-vous que la méthode avec pré-configuration ne fait rien d\'autre que la création de la mise en page de l\'objet et la définition des extrusions nécessaires pour vous.
+
+
 
 ### Utilisation des pré-configurations 
 
@@ -247,20 +271,22 @@ Nous avons une deuxième porte, exactement la même que celle-ci, un peu sur la 
 
 Donc, tout ce que nous devons faire maintenant est de sélectionner la porte, appuyer sur l\'outil [Draft Clone](Draft_Clone/fr.md) , puis déplacer le clone à sa position correcte avec l\'outil [Déplacer](Draft_Move/fr.md).
 
+
+
 ### Organiser votre modèle 
 
 <img alt="" src=images/Arch_tutorial_24.jpg  style="width:400px;">
 
 Maintenant il serait judicieux de faire un peu de ménage. Puisque nous avons déjà deux fenêtres, c\'est le bon moment pour faire un peu de nettoyage dans l\'arborescence : Créez un nouveau [groupe](Std_Group/fr.md), renommez le en \"fenêtres\", et déposez les deux fenêtres dans ce groupe. Je recommande aussi de séparer d\'autres éléments de cette façon, comme les murs et les structures. Puisque vous pouvez également créer des [groupes](Std_Group/fr.md) à l\'intérieur des groupes, vous pouvez organiser plus tard, par exemple en plaçant tous les éléments qui forment le toit dans un groupe distinct, il est alors facile de le montrer ou le cacher (basculer un groupe visible ou invisible fait la même chose avec tous les objets à l\'intérieur).
 
-L\'[Atelier Arch](Arch_Workbench/fr.md) dispose de quelques outils supplémentaires pour organiser votre modèle : le [Site](Arch_Site/fr.md), [Bâtiment](Arch_Building/fr.md) et l\'[Étage\|](Arch_Floor/fr.md). Ces trois objets sont basés sur le groupe standard de FreeCAD, de sorte qu\'ils se comportent exactement comme les groupes, mais ils ont quelques propriétés supplémentaires. Par exemple, les [Étages](Arch_Floor/fr.md) ont la possibilité de définir et de gérer la hauteur des murs et des structures contenus, et quand ils sont déplacés, tout leur contenu est déplacé aussi.
+L\'[Atelier Arch](Arch_Workbench/fr.md) dispose de quelques outils supplémentaires pour organiser votre modèle : le [Site](Arch_Site/fr.md), [Bâtiment](Arch_Building/fr.md) et l\'[Étage](Arch_Floor/fr.md). Ces trois objets sont basés sur le groupe standard de FreeCAD, de sorte qu\'ils se comportent exactement comme les groupes, mais ils ont quelques propriétés supplémentaires. Par exemple, les [Étages](Arch_Floor/fr.md) ont la possibilité de définir et de gérer la hauteur des murs et des structures contenus, et quand ils sont déplacés, tout leur contenu est déplacé aussi.
 
 Mais ici, puisque nous avons un seul bâtiment avec un seul (et demi) étage, il n\'y a pas de réel besoin d\'utiliser ces objets, nous allons donc nous en tenir à de simples groupes.
 
 
 
 
-Maintenant, revenons au travail. Masquez le groupe de toit, afin que nous puissions mieux voir à l\'intérieur, et commutez le Mode d\'Affichage des objets de l\'étage à filaire (ou utilisez l\'outil [Bascule le mode d\'affichage](Draft_ToggleDisplayMode/fr.md) ) afin que nous puissions encore nous accrocher à eux, tout en voyant le plan qui est dessous. Mais vous pouvez également désactiver les étages entièrement, puis placer vos portes au niveau 0, et les élever de 15 cm avec l\'outil [Déplacer](Draft_Move/fr.md) .
+Maintenant, revenons au travail. Masquez le groupe de toit, afin que nous puissions mieux voir à l\'intérieur, et commutez le Mode d\'Affichage des objets de l\'étage à filaire (ou utilisez l\'outil [Bascule le mode d\'affichage](Draft_ToggleDisplayMode/fr.md)) afin que nous puissions encore nous accrocher à eux, tout en voyant le plan qui est dessous. Mais vous pouvez également désactiver les étages entièrement, puis placer vos portes au niveau 0, et les élever de 15 cm avec l\'outil [Déplacer](Draft_Move/fr.md) .
 
 Plaçons les portes intérieures. Utilisez à nouveau la \"Porte simple\" préréglée, faites des portes de 1.00m et 0.70m de large x 2,10 m de haut, avec la taille de W1 de 0.1m. Assurez-vous que vous vous accrochez à la bonne paroi lorsque vous les placez, afin qu\'elles créent automatiquement un trou dans le mur. S\' il est difficile de les placer correctement, vous pouvez les placer dans un lieu plus facile, à l\'angle du mur, par exemple, puis les déplacer. Le «trou» se déplacer en même temps.
 
@@ -273,6 +299,8 @@ Après un peu de travail, toutes nos portes sont là :
 Après un coup d'œil de plus près à la vue d\'élévation, j\'ai détecté maintenant une autre erreur : Le haut des murs de briques n\'est pas aussi à 2.60m, mais de 17.5cm inférieur, c\'est-à-dire à 2.425m. Heureusement, les fenêtres pré-configurées ont une souplesse : Vous pouvez modifier les dimensions générales (largeur et hauteur) de leurs propriétés. Donc, nous allons changer leur hauteur à 2,425 - 0,15, c\'est-à-dire 2,275. La seconde fenêtre, car c\'est un clone de la première, va s\'adapter automatiquement. C\'est essentiellement là qu\'apparait la vraie magie de la conception paramétrique.
 
 Maintenant nous pouvons regarder les choses vraiment intéressantes : Comment concevoir vos propres fenêtres personnalisées.
+
+
 
 ### Création fenêtres personnalisées 
 
@@ -312,6 +340,8 @@ Dernière pièce manquante : un segment de mur qui ne figurait pas sur la vue en
 
 Prêt ? Pas tout à fait. Regardez l\'image ci-dessus, nous avons fait nos portes avec un cadre de 5cm, (c\'est la valeur par défaut de la présélection). Mais les autres fenêtres ont des cadres de 2.5cm. Cela doit être corrigé.
 
+
+
 ### Édition des fenêtres 
 
 Nous avons déjà vu comment construire et mettre à jour les composants de la fenêtre, via le mode d\'édition de la fenêtre, mais nous pouvons aussi modifier l\'esquisse sous-jacente. Les fenêtres prédéfinies ne sont pas différentes des fenêtres personnalisées, le seul outil [Fenêtre](Arch_Window/fr.md) crée l\'esquisse sous-jacente pour vous. Sélectionnez notre objet porte (l\'original, pas la copie, ne l\'oubliez pas, nous avons fait un clone), et déployez-le dans l\'arborescence. C\'est notre esquisse. Double-cliquez dessus pour passer en mode d\'édition.
@@ -323,6 +353,8 @@ Lorsque nous éditons notre esquisse de la porte, nous pouvons voir qu\'elle est
 <img alt="" src=images/Arch_tutorial_32.jpg  style="width:1024px;">
 
 Maintenant, il suffit de modifier les distances de 5 cm entre la ligne extérieure et la ligne intérieure, en double-cliquant dessus, et en changeant leur valeur à 2,5 cm . Après avoir cliqué sur le bouton \"OK\", notre porte (et son clone) ont été mis à jour.
+
+
 
 ## Travailler sans support 2D 
 
@@ -364,6 +396,8 @@ Après que la fenêtre ait été pivotée et amenée à son emplacement, l\'atri
 
 <img alt="" src=images/Arch_tutorial_40.jpg  style="width:1024px;">
 
+
+
 ## Éditions et correctifs 
 
 Maintenant, quand nous regardons notre élévation arrière, et la comparons avec le plan, nous voyons qu\'il y a des différences qui doivent être corrigées. A savoir, les fenêtres des chambres sont plus petites que ce que j\'ai d\'abord pensé, et nous aurons besoin d\'ajouter d\'autres murs. Afin de le faire correctement, certains planchers doivent être coupés :
@@ -384,15 +418,21 @@ Notez le tube de cheminée, qui est fait d\'un cercle que j\'ai utilisé pour fa
 {{Note|Problèmes dans les objets|
 Parfois un objet peut vous faire avoir des problèmes. Par exemple, l'objet qui était basé dessus a été supprimé, et l'objet ne peut donc pas recalculer sa forme. Ceux-ci vous sont généralement présentés par un petit signe rouge sur leur icône, et/ou un avertissement dans la fenêtre de sortie. Il n'existe aucune recette générique pour résoudre ces problèmes, car ils peuvent avoir de nombreuses origines. Mais, la meilleure façon de les résoudre est souvent de les supprimer, et, si vous n'avez pas supprimé leurs objets de base, les recréer.}}
 
+
+
 ## Sorties
 
 Maintenant, après tout le travail acharné que nous avons réalisé pour construire ce modèle, vient la récompense : Que pouvons-nous faire ? Fondamentalement, c\'est le grand avantage de travailler avec BIM, tous nos besoins architecturaux traditionnels, tels que les dessins 2D (plans, coupes, etc.), les rendus réalistes, et les calculs (estimations de quantités, etc.) peuvent tous être extraits du modèle. Et, mieux encore, mis à jour à chaque modification du modèle. Je vais vous montrer ici comment obtenir ces différents documents.
+
+
 
 ### Préparations
 
 Avant de commencer à exporter des choses, il est intéressant de faire un constat : Comme vous l\'avez vu, notre modèle est de plus en plus complexe, avec beaucoup de relations entre les objets. Cela peut rendre lourdes les opérations de calcul ultérieures, telles que la coupe à travers le modèle. Un moyen rapide et magique de \"simplifier\" radicalement votre modèle, est de supprimer toutes cette complexité, en l\'exportant vers le Format [STEP](http://en.wikipedia.org/wiki/ISO_10303-21). Ce format préservera toute la géométrie, mais rejettera toutes les relations et les constructions paramétriques, ne gardant que la forme finale. Lorsque vous réimporterez ce fichier STEP dans FreeCAD, vous obtiendrez un modèle qui n\'a pas de relation, et une taille de fichier beaucoup plus petite. Pensez-y comme un fichier \"de sortie\", que vous pouvez mettre à jour à tout moment à partir de votre fichier \"maître\" :
 
 <img alt="" src=images/Arch_tutorial_44.jpg  style="width:1024px;">
+
+
 
 ### Exportation vers IFC et autres applications 
 
@@ -411,6 +451,8 @@ Une fois cela fait, sélectionnez simplement votre objet de construction, et cho
 
 
 
+
+
 ### Rendu
 
 FreeCAD dispose également d\'un module de rendu, l\'atelier [Raytracing](Raytracing_Workbench/fr.md). Cet atelier prend actuellement en charge deux moteurs de rendu, [PovRay](http://www.povray.org/) et [LuxRender](http://www.luxrender.net). Puisque FreeCAD n\'est pas conçu pour un rendu d\'image, les caractéristiques que l\'atelier Raytracing vous offre sont quelque peu limitées. Le meilleur plan d\'action lorsque vous voulez faire un rendu correct, est d\'exporter votre modèle dans un format basé sur les mailles comme OBJ ou STL, et de l\'ouvrir dans une application plus adaptée pour faire un rendu comme [blender](http://www.blender.org). L\'image ci-dessous a été rendue avec le moteur de rendu de blender :
@@ -422,6 +464,8 @@ Mais pour un rendu rapide, l\'atelier \[\[RayTracing Workbench\]/fr\|RayTracing\
 <img alt="" src=images/Arch_tutorial_48.jpg  style="width:1024px;">
 
 L\'atelier de Raytracing vous offre encore un contrôle très limité sur les matériaux, mais l\'éclairage et les environnements sont définis dans les modèles, afin qu\'ils puissent être entièrement personnalisés.
+
+
 
 ### Dessins 2D 
 
@@ -454,6 +498,8 @@ D\'autre part, le résultat final étant plus facile à manipuler, et les possib
 <img alt="" src=images/Arch_tutorial_52.jpg  style="width:1024px;">
 
 Sur l\'image ci-dessus, la géométrie est la sortie directe du plan de coupe, mais certains autres objets Draft ont été ajoutés, tels que les dimensions et les polygones hachurés, et un autre objet de vue avec la même échelle et les valeurs de décalage ont été produits à partir d\'eux avec l\'outil [Feuille de dessin](Draft_Drawing/fr.md). A l\'avenir, ces opérations seront effectuées directement sur la page de dessin, laissant votre modèle totalement propre.
+
+
 
 ### Extraction du métré 
 

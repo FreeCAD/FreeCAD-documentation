@@ -1,6 +1,8 @@
 # Part and PartDesign/fr
 {{TOCright}}
 
+
+
 ## Présentation
 
 Il y a eu beaucoup de discussions au cours des années sur les différences et les conséquences de l\'utilisation des ateliers <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/fr.md) et <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/fr.md).
@@ -8,6 +10,8 @@ Il y a eu beaucoup de discussions au cours des années sur les différences et l
 Il est bon d\'utiliser l\'un ou l\'autre jusqu\'à ce que l\'utilisateur soit à l\'aise avec l\'un, puis d\'apprendre l\'autre. Il est aussi généralement recommandé aux nouveaux utilisateurs de ne pas les mélanger avant d\'avoir compris les tenants et aboutissants.
 
 Parlons de ces implications.
+
+
 
 ## Concepts de l\'atelier Part 
 
@@ -18,6 +22,8 @@ L\'atelier Part est essentiellement une [modélisation de type CSG](Constructive
 Cette condition demeure jusqu\'à ce que l\'utilisateur utilise une opération pour les combiner (généralement une opération booléenne qui les additionne ou les soustrait). Chaque solide d\'origine reste accessible séparément et l\'opération crée un nouvel objet (solide).
 
 Le point à retenir est la partie solide et solitaire et la partie qui les combine.
+
+
 
 ## Concepts de l\'atelier PartDesign 
 
@@ -49,6 +55,8 @@ Si Tip est sur **Pad**, le Pad peut exister séparément, mais si Tip est sur **
 
 (Une autre chose souvent mentionnée est qu\'un Corps ***DOIT*** être un solide unique et contigu. Cela signifie que toute géométrie créée par une fonction dans le Corps *doit* toucher son prédécesseur).
 
+
+
 ## Les implications 
 
 Bien que non recommandé pour les nouveaux arrivants, il est possible de combiner les outils de l\'atelier Part et de l\'atelier PartDesign, à condition de savoir ce que vous faites. Par exemple :
@@ -58,6 +66,8 @@ Les gens se font prendre lorsqu\'ils tentent d\'utiliser une fonction sous le co
 En un sens, du point de vue de l\'atelier Part, le Corps représente une autre primitive. Aussi, l\'utilisation d\'un Corps (Body) (rappelez-vous qu\'il s\'agit d\'un proxy pour la fonction résultante) et d\'un objet de l\'atelier Part pour faire un booléen est valide. L\'objet résultant est un objet de l\'atelier Part, et par conséquent, les outils de l\'atelier PartDesign ne peuvent plus être utilisés sur cet objet.
 
 Et, cela peut devenir encore plus compliqué. Si vous créez un nouveau Corps et que vous y faites glisser le résultat du paragraphe précédent, un BaseObject est créé. Vous pouvez alors utiliser les outils de l\'atelier PartDesign.
+
+
 
 ## Les avertissements 
 
@@ -72,6 +82,8 @@ Dans cet exemple, une symétrie de la fonction résultante (ici la cavité de la
 ![centre\|Solides isolés](images/MirroredSlot.png )
 
 Voir la page wiki de l\'outil <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> [PartDesign Symétrie](PartDesign_Mirrored/fr.md) pour plus d\'informations.
+
+
 
 ## Comparaison
 

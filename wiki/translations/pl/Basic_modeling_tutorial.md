@@ -15,7 +15,7 @@
 
 Ten Podstawowy Samouczek Modelowania pokaże Ci jak modelować żelazny kształtownik. Jedną rzeczą, którą należy wiedzieć jest to, że FreeCAD jest z założenia modularny, i tak jak w przypadku wielu innych programów CAD, zawsze jest więcej niż jeden sposób na zrobienie czegoś. Przeanalizujemy tutaj dwie metody.
 
-This tutorial was written with version 0.15 of FreeCAD.
+Ten poradnik został napisany przy użyciu wersji 0.15 programu FreeCAD.
 
 ## Zanim zaczniemy 
 

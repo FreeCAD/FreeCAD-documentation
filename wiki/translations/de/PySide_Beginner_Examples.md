@@ -17,31 +17,59 @@ Dieser Führer ist eine Abkürzungsliste, um ein PySide Programm schnell unter F
 -   [PySide/PyQt Ttutorium](http://www.pythoncentral.io/series/python-pyside-pyqt-tutorial/) auf PythonCentral.io
 -   [PySide 1.0.7 Referenz](http://srinikom.github.io/) auf Srinikom.github.io (beachte, dass dies eine Referenz und kein Tutorium ist)
 
+
+
 ## Import Anweisung 
 
-PySide wird standardmäßig nicht mit Python geladen, es muss vor der Verwendung angefordert werden. Der folgende Befehl: 
+PySide wird standardmäßig nicht mit Python geladen, es muss vor der Verwendung angefordert werden. Der folgende Befehl:
+
+
 ```python
 from PySide import QtCore
 from PySide import QtGui
-``` bewirkt, dass die 2 Teile von PySide geladen werden - QtGui enthält Klassen zur Verwaltung der grafischen Benutzeroberfläche, während QtCore Klassen enthält, die sich nicht direkt auf die Verwaltung der GUI beziehen (z.B. Timer und Geometrie). Obwohl es möglich ist, nur das zu importieren, was benötigt wird, werden im Allgemeinen beide benötigt und beide importiert.
+```
+
+bewirkt, dass die 2 Teile von PySide geladen werden - QtGui enthält Klassen zur Verwaltung der grafischen Benutzeroberfläche, während QtCore Klassen enthält, die sich nicht direkt auf die Verwaltung der GUI beziehen (z.B. Timer und Geometrie). Obwohl es möglich ist, nur das zu importieren, was benötigt wird, werden im Allgemeinen beide benötigt und beide importiert.
 
 Die Importangaben werden in den folgenden Schnipseln nicht wiederholt; es wird davon ausgegangen, dass dies jeweils am Anfang geschieht.
 
+## Simplest Example 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Einfachstes Beispiel 
 
-Die einfachste Interaktion mit PySide besteht darin, dem Benutzer eine Nachricht zu präsentieren, die er nur akzeptieren kann: 
+Die einfachste Interaktion mit PySide besteht darin, dem Benutzer eine Nachricht zu präsentieren, die er nur akzeptieren kann:
+
+
+</div>
+
+
 ```python
 reply = QtGui.QMessageBox.information(None,"","Houston, we have a problem")
 ```
 
 ![](images/PySideScreenSnapshot5.jpg )
 
+## Yes or No Query 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Ja oder Keine Abfrage 
 
-Die nächst einfachste Interaktion ist die Frage nach einer Ja/Nein Antwort: 
+Die nächst einfachste Interaktion ist die Frage nach einer Ja/Nein Antwort:
+
+
+</div>
+
+
 ```python
 reply = QtGui.QMessageBox.question(None, "", "This is your chance to answer, what do you think?",
-         QtGui.QMessageBox.Yes {{!``` QtGui.QMessageBox.No, QtGui.QMessageBox.No) if reply == QtGui.QMessageBox.Yes:
+         QtGui.QMessageBox.Yes {{!```
+
+QtGui.QMessageBox.No, QtGui.QMessageBox.No) if reply == QtGui.QMessageBox.Yes:
 
         # this is where the code relevant to a 'Yes' answer goes
         pass
@@ -55,9 +83,19 @@ if reply == QtGui.QMessageBox.No:
 
 ![](images/PySideScreenSnapshot6.jpg )
 
+## Enter Text Query 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Textabfrage eingeben 
 
-Der nächste Codeschnipsel fragt den Benutzer nach einem Stück Text - beachte, dass dies wirklich jede Taste auf der Tastatur sein kann: 
+Der nächste Codeschnipsel fragt den Benutzer nach einem Stück Text - beachte, dass dies wirklich jede Taste auf der Tastatur sein kann:
+
+
+</div>
+
+
 ```python
 reply = QtGui.QInputDialog.getText(None, "Ouija Central","Enter your thoughts for the day:")
 if reply[1]:
@@ -70,16 +108,28 @@ else:
 
 ![](images/PySideScreenSnapshot7.jpg )
 
-Denke daran, dass selbst wenn der Benutzer nur Ziffern eingibt, z.B. \"1234\", es sich um Zeichenketten handelt, die mit einem der folgenden Verfahren in eine Zahlendarstellung umgewandelt werden müssen: 
+Denke daran, dass selbst wenn der Benutzer nur Ziffern eingibt, z.B. \"1234\", es sich um Zeichenketten handelt, die mit einem der folgenden Verfahren in eine Zahlendarstellung umgewandelt werden müssen:
+
+
 ```python
 anInteger = int(userInput) # to convert to an integer from a string representation
 
 aFloat = float(userInput) # to convert to a float from a string representation
 ```
 
+## More Than 2 Buttons 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Mehr als 2 Schaltflächen 
 
-Das letzte Beispiel für das Anfängerniveau zeigt, wie man einen Dialog mit einer beliebigen Anzahl von Schaltflächen aufbaut. Dieses Beispiel ist programmtechnisch zu komplex, um von einer einzigen Python Anweisung aus aufgerufen zu werden, daher sollte es in gewisser Weise auf der nächsten Seite, die PySide Medium Beispiele enthält, aufgeführt werden. Aber andererseits ist dies oft alles, was benötigt wird, ohne sich in komplexe GUI Definitionen zu vertiefen, so dass der Code am Ende der Seite dieser PySide Einsteigerseite und nicht am Anfang der folgenden PySide Medium Seite platziert wird. 
+Das letzte Beispiel für das Anfängerniveau zeigt, wie man einen Dialog mit einer beliebigen Anzahl von Schaltflächen aufbaut. Dieses Beispiel ist programmtechnisch zu komplex, um von einer einzigen Python Anweisung aus aufgerufen zu werden, daher sollte es in gewisser Weise auf der nächsten Seite, die PySide Medium Beispiele enthält, aufgeführt werden. Aber andererseits ist dies oft alles, was benötigt wird, ohne sich in komplexe GUI Definitionen zu vertiefen, so dass der Code am Ende der Seite dieser PySide Einsteigerseite und nicht am Anfang der folgenden PySide Medium Seite platziert wird.
+
+
+</div>
+
+
 ```python
 from PySide import QtGui, QtCore
 
@@ -132,7 +182,7 @@ class MyButtons(QtGui.QDialog):
         self.close()
 
 def routine1():
-    print 'routine 1'
+    print ('routine 1')
 
 form = MyButtons()
 form.exec_()
@@ -146,15 +196,22 @@ elif form.retStatus==4:
     routine4()
 elif form.retStatus==5:
     routine5()
+```
 
-``` Jedes zu testende Codestück würde sich in einer Funktion mit dem Namen \'routine1()\', \'routine2()\' usw. befinden. Es können so viele Schaltflächen verwendet werden, wie auf den Bildschirm passen. Folge den Mustern im Codebeispiel und füge bei Bedarf zusätzliche Knöpfe hinzu - das Dialogfeld wird seine Breite entsprechend der Bildschirmbreite einstellen.
+Jedes zu testende Codestück würde sich in einer Funktion mit dem Namen \'routine1()\', \'routine2()\' usw. befinden. Es können so viele Schaltflächen verwendet werden, wie auf den Bildschirm passen. Folge den Mustern im Codebeispiel und füge bei Bedarf zusätzliche Knöpfe hinzu - das Dialogfeld wird seine Breite entsprechend der Bildschirmbreite einstellen.
 
 ![](images/PySideScreenSnapshot8.jpg )
 
-Es gibt eine Codezeile: 
+Es gibt eine Codezeile:
+
+
 ```python
 buttonBox = QtGui.QDialogButtonBox(QtCore.Qt.Horizontal)
-``` was dazu führt, dass die Schaltflächen in einer horizontalen Linie liegen. Um sie in eine vertikale Linie zu setzen, ändere die zu lesende Zeile des Codes: 
+```
+
+was dazu führt, dass die Schaltflächen in einer horizontalen Linie liegen. Um sie in eine vertikale Linie zu setzen, ändere die zu lesende Zeile des Codes:
+
+
 ```python
 buttonBox = QtGui.QDialogButtonBox(QtCore.Qt.Vertical)
 ```

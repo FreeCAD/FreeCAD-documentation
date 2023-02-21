@@ -3,13 +3,13 @@
    Name:FEM EquationMagnetodynamic2D
    MenuLocation:Solve → Electromagnetic Equations → Magnetodynamic2D equation
    Workbenches:[FEM](FEM_Workbench.md)
-   Version:1.0.
-   SeeAlso:[FEM Magnetodynamic equation](FEM_EquationMagnetodynamic.md)
+   Version:1.0
+   SeeAlso:[Magnetodynamic equation](FEM_EquationMagnetodynamic.md)
 ---
 
 # FEM EquationMagnetodynamic2D
 
-This equation perform analyses using a 2D version of the [Maxwell\'s equations](https://en.wikipedia.org/wiki/Maxwell%27s_equations) when the unknown is the z-component (or φ-component).
+This equation performs analyses using a 2D version of the [Maxwell\'s equations](https://en.wikipedia.org/wiki/Maxwell%27s_equations) when the unknown is the z-component (or φ-component).
 
 For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Computation of Magnetic Fields in 2D*.
 

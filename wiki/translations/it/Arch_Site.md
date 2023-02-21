@@ -31,12 +31,18 @@ Il Sito di Arch è un oggetto speciale che unisce le proprietà di un oggetto gr
 
 ## Opzioni
 
+
+<div class="mw-translate-fuzzy">
+
 -   Dopo aver creato un sito, è possibile aggiungere ad esso altri oggetti con il drag-and-drop nella struttura ad albero o utilizzando lo strumento **<img src="images/Arch_Add.svg" width=16px> [Aggiungi](Arch_Add/it.md)**. Ciò determina solo quale oggetto fa parte di un dato sito, e non ha effetto sul terreno stesso.
 -   È possibile rimuovere gli oggetti da un sito trascinandoli fuori con il drag-and-drop nella vista ad albero o utilizzando lo strumento **<img src="images/Arch_Remove.svg" width=16px> [Rimuovi](Arch_Remove/it.md)
 **
 -   È possibile aggiungere un oggetto terreno modificando la proprietà **Terrain** del Sito. Il terreno deve essere un guscio aperto (shell) o una superficie.
 -   È possibile aggiungere volumi da sommare o da sottrarre dal terreno di base, facendo doppio clic sul Sito, e aggiungendo gli oggetti ai suoi gruppi Sottrazioni o Aggiunte. Gli oggetti devono essere dei solidi.
 -   La proprietà **Extrusion Vector** può essere utilizzata per risolvere alcuni problemi che possono presentarsi quando si lavora con le sottrazioni e le aggiunte. Per svolgere tali addizioni o sottrazioni, la superficie del terreno viene estrusa in un solido, che viene poi opportunamente aggiunto o sottratto. A seconda della topologia del terreno, questa estrusione potrebbe non riuscire con il vettore di default di estrusione. Può darsi che sia possibile risolvere il problema assegnando al vettore a un valore diverso.
+
+
+</div>
 
 
 
@@ -108,7 +114,13 @@ Il Sito di Arch è un oggetto speciale che unisce le proprietà di un oggetto gr
 
 ## Tipico flusso di lavoro 
 
+
+<div class="mw-translate-fuzzy">
+
 Iniziare creando un oggetto che rappresenta il terreno. Deve essere una superficie aperta, non un solido. Per esempio, è facile per importare dati mesh, che possono essere trasformati in una Part Shape dal menu **Part → Crea Forma da Mesh**. Poi, creare un oggetto Sito, e impostare la sua proprietà **Terrain** dalla Parte appena creata:
+
+
+</div>
 
 ![](images/Arch_site_example_01.jpg )
 

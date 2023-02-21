@@ -3,11 +3,17 @@
 
 {{TOCright}}
 
+
+
 ## Instalacja sterowników 
+
+
 
 ### Linux
 
 FreeCAD używa sterowników z projektu [Spacenav](http://spacenav.sourceforge.net/). Jest to projekt mający na celu stworzenie otwartego sterownika, który jest kompatybilny z zamkniętym sterownikiem firmy 3Dconnexion.
+
+
 
 #### Instalacja z repozytorium 
 
@@ -69,6 +75,8 @@ Spacenav potrzebuje tych uprawnień:
 ```python
 sudo zypper install spacenavd
 ```
+
+
 
 #### Kompilacja Spacenav z pliku źródłowego 
 
@@ -173,6 +181,8 @@ Rozwiązanie to jest zalecane, jeśli dystrybucja może zawierać nieaktualną w
 
 -   W ten sam sposób należy skompilować i zainstalować spnavcfg. Upewnij się, że uruchamiasz `spnavcfg` jako root, w przeciwnym razie ustawienia nie zostaną zapisane!
 
+
+
 #### Uruchamianie spacenavd jako usługi systemd przy starcie systemu 
 
 Jeśli chcesz uruchamiać spacenavd przy starcie systemu za pomocą systemd, wykonaj następujące operacje:
@@ -187,6 +197,8 @@ Jeśli chcesz uruchamiać spacenavd przy starcie systemu za pomocą systemd, wyk
 
 Jest to konieczne tylko w przypadku instalacji ze źródła.
 
+
+
 #### Restartowanie spacenavd 
 
 Jeśli czasami nawigator przestaje działać, dobrze jest zrestartować sterownik. Aby go zrestartować, przejdź do terminala i wykonaj polecenie:
@@ -198,6 +210,8 @@ sudo /etc/init.d/spacenavd restart
 ```
 
 Następnie uruchom ponownie program FreeCAD. W niektórych dystrybucjach jest to konieczne przy każdym starcie systemu.
+
+
 
 ## Znane problemy 
 
@@ -216,13 +230,19 @@ sudo spnavd_ctl x11 start
 sudo systemctl restart spacenavd 
 ```
 
-### OSX
 
-Urządzenia wejściowe 3Dconnexion są obsługiwane w systemie OS X, pod warunkiem, że program FreeCAD jest kompilowany i używany w systemie z zainstalowanymi sterownikami 3Dconnexion. Możesz potrzebować 3DxWare 10.7.2 lub nowszego dla Mac OSX Monterey.
+
+### Mac OS 
+
+Urządzenia wejściowe 3Dconnexion są obsługiwane w systemie Mac OS, pod warunkiem, że program FreeCAD jest kompilowany i używany w systemie z zainstalowanymi sterownikami 3Dconnexion. Możesz potrzebować 3DxWare 10.7.2 lub nowszego dla Mac OS Monterey.
+
+
 
 ### Windows
 
 Począwszy od wersji 0.13, mysz 3D jest obsługiwana w systemie Windows. Musisz mieć zainstalowane sterowniki 3Dconnexion.
+
+
 
 #### Znane problemy 
 
@@ -236,11 +256,15 @@ Występuje problem polegający na tym, że program 3Dconnexion wysyła do progra
 
 ref: <https://freecadweb.org/tracker/view.php?id=1893>
 
+
+
 ## Konfiguracja programu FreeCAD 
 
 Obsługa myszy 3D została wykonana za pomocą projektu spnav w systemie Linux i na bardzo niskim poziomie w systemie Windows. Oznacza to, że nie było obsługi żadnych ustawień urządzenia, ponieważ w systemie Linux nie ma dobrego wsparcia, a w systemie Windows jest to nadpisane. Dlatego do okna *Dostosuj* dodano dwie dodatkowe strony.
 
 <img alt="" src=images/Spaceball_Motion.png  style="width:450px;"> <img alt="" src=images/Spaceball_Buttons.png  style="width:450px;">
+
+
 
 ### Ruch Spaceball 
 
@@ -260,11 +284,15 @@ Oprócz tego dla każdej osi można ustawić:
 -   Odwróć - odwracanie ruchu na osiach.
 -   Czułość - suwak z możliwością ustawienia czułości.
 
+
+
 ### Przyciski Spaceball 
 
 Gdy otworzysz tę kartę po raz pierwszy, będzie ona pusta i niedostępna. Aby ją uaktywnić, należy nacisnąć jeden z klawiszy spacji myszy. Po jego naciśnięciu po lewej stronie pojawi się lista przycisków, a po prawej lista dostępnych poleceń.
 
 Aby połączyć określone polecenie z przyciskiem, wybierz przycisk po lewej stronie, a jego polecenie po prawej stronie. Aby usunąć polecenia z przycisku, naciśnij przycisk **Wyczyść**.
+
+
 
 ### Rozwiązywanie problemów 
 
@@ -279,6 +307,8 @@ lub
 `Couldn't connect to spacenav daemon. Please ignore if you don't have a spacemouse.`
 
 Jeśli nie pojawi się żaden z nich, oznacza to, że Twój program FreeCAD nie jest połączony z biblioteką spacenav. Jeśli pojawi się pierwszy z tych komunikatów, oznacza to, że program w zasadzie działa. Drugi komunikat oznacza, że prawdopodobnie wystąpił problem z demonem spacenav.
+
+
 
 ## Powiązane
 

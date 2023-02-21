@@ -8,9 +8,17 @@
 
 FreeCAD интенсивно использует библиотеки с открытым исходным кодом, существующие в области [научных вычислений](http://en.wikipedia.org/wiki/Scientific_Computation). Среди них [Open Cascade Technology (OCCT)](http://OpenCascade.org), мощное ядро САПР; [Coin3D](https://bitbucket.org/Coin3D/coin/wiki/Home), инструментарий для разработки 3D-графики, совместимый с [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor); [Qt](http://www.qtsoftware.com/), всемирно известный пользовательский интерфейс; и [Python](http://www.python.org), современный язык сценариев. Сам FreeCAD также может быть использован в качестве библиотеки другими программами.
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD является [мультиплатформенным приложением](https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%BE%D1%81%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D0%BE%D0%B5_%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D0%B5), и может работать в операционных системах Windows, Linux/Unix и Mac OSX, с абсолютно идентичным визуальным оформлением и функциональностью на всех платформах.
 
+
+</div>
+
 Более подробнее о возможностях FreeCADа, можно узнать в разделах: [\"Список функций\"](Feature_list/ru.md), [\"Информация о версиях\"](Feature_list/ru#.D0.98.D0.BD.D1.84.D0.BE.D1.80.D0.BC.D0.B0.D1.86.D0.B8.D1.8F_.D0.BE_.D0.B2.D0.B5.D1.80.D1.81.D0.B8.D1.8F.D1.85.md), [\"Начало работы\"](Getting_started/ru.md). Так же вы можете посмотреть [скриншоты](Screenshots/ru.md).
+
+
 
 ### О проекте FreeCAD 
 

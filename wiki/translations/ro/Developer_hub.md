@@ -119,6 +119,8 @@ Cel mai recent preview pdf poate fi descărcat din depozitul: git[pdf folder](ht
 ### Internals
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Documentație OpenCascade 
@@ -168,8 +170,8 @@ FreeCAD, deși utilizabilă în anumite domenii, este la începutul unei lungi d
 
 ## Community
 
--   [IRC channel](irc://chat.freenode.net/freecad) ,synchronized with [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
--   [Development forum](https://forum.freecadweb.org/viewforum.php?f=6)
+-   [IRC channel](ircs://irc.libera.chat:6697/freecad) ,synchronized with [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
+-   [Development forum](https://forum.freecad.org/viewforum.php?f=6)
 
 
 <div class="mw-translate-fuzzy">

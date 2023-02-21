@@ -8,6 +8,8 @@
 
 
 
+
+
 ## Descrizione
 
 Gli utenti esperti hanno esteso FreeCAD con vari [ambienti di lavoro esterni](external_workbenches/it.md) personalizzati, che non sono integrati nel codice sorgente di FreeCAD, ma che sono facili da implementare in una distribuzione FreeCAD esistente. Qui sono descritti i metodi di installazione per i diversi sistemi operativi.
@@ -26,12 +28,16 @@ a partire dalla versione 0.17, FreeCAD include un <img alt="" src=images/AddonMa
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
+
+
 ## Installazione in Windows 
 
 Come installare ulteriori ambienti e componenti aggiuntivi su Windows
 
 
 <div class="mw-collapsible-content">
+
+
 
 ### Obsoleto
 
@@ -87,6 +93,8 @@ In Windows, durante l\'aggiornamento di un ambiente già installato, Windows man
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 ## Installazione in Linux 
 
@@ -160,10 +168,16 @@ Dopo l\'introduzione di [Addon Manager](Std_AddonMgr/it.md) questo metodo è pos
 
 ## Installazione in Mac 
 
+
+<div class="mw-translate-fuzzy">
+
 Come installare ulteriori ambienti e componenti aggiuntivi su MacOS
 
 
 <div class="mw-collapsible-content">
+
+
+</div>
 
 ### Manual Installation 
 
@@ -200,6 +214,8 @@ Per questo esempio, supponiamo di aver scelto [Curves](Curves_Workbench/it.md) c
 
 
 </div>
+
+
 
 ## Risoluzione dei problemi generali 
 

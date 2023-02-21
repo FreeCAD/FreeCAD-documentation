@@ -1,6 +1,8 @@
 # Create a FeaturePython object part I/ru
 {{TOCright}}
 
+
+
 ## Введение
 
 FeaturePython objects (also referred to as [Scripted objects](Scripted_objects.md)) provide the ability to extend FreeCAD with objects that integrate seamlessly into the FreeCAD framework.
@@ -31,7 +33,7 @@ If you don\'t know where the FreeCAD Macro folder is type `FreeCAD.getUserMacroD
 
 -   On Linux it is usually **/home/<username>/.local/share/FreeCAD/Macro/** (<small>(v0.20)</small> ) or **/home/<username>/.FreeCAD/Macro/** ({{VersionMinus|0.19}}).
 -   On Windows it is **%APPDATA%\FreeCAD\Macro\**, which is usually **C:\Users\<username>\Appdata\Roaming\FreeCAD\Macro\**.
--   On Mac OSX it is usually **/Users/<username>/Library/Preferences/FreeCAD/Macro/**.
+-   On macOS it is usually **/Users/<username>/Library/Application Support/FreeCAD/Macro/**.
 
 Now we need to create some folders and files:
 
@@ -136,6 +138,8 @@ def create(obj_name):
 The `create()` method is not required, but it provides a nice way to encapsulate the object creation code.
 
 [наверх](#top.md)
+
+
 
 ### Тестирование кода 
 
@@ -328,6 +332,8 @@ You should see the printed output in the Python Console, thanks to the `recomput
 That\'s it, you now know how to build a basic, functional FeaturePython object!
 
 [наверх](#top.md)
+
+
 
 ### Завершенный код 
 

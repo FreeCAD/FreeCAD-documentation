@@ -236,9 +236,23 @@ sudo spnavd_ctl x11 start
 sudo systemctl restart spacenavd 
 ```
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ### OSX
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 3Dconnexion Eingabegeräte werden unter OS X unterstützt, vorausgesetzt, dass FreeCAD auf einem System mit installierten 3Dconnexion-Treibern erstellt und verwendet wird. Für Mac OSX Monterey sollte man 3DxWare 10.7.2 oder neuer verwenden
+
+
+</div>
 
 ### Windows
 

@@ -457,20 +457,14 @@ Mimo, że mogą mieć podobne narzędzia, środowisko Złożenie 3 nie jest zgod
 
 Środowisko pracy [Złożenie 3](Assembly3_Workbench/pl.md) jest dostępne *(od marca 2022)* poprzez [Menadżer dodatków](Std_AddonMgr/pl.md). Wszelkie zależności Złożenie 3 od stron trzecich powinny być zarządzane automatycznie przez menedżera dodatków.
 
-#### Alternate installations 
 
-
-<div class="mw-translate-fuzzy">
 
 #### Instalacje alternatywne 
 
 Istnieją dwa alternatywne sposoby instalacji środowiska pracy Złożenie 3:
 
--   Specjalny fork programu FreeCAD wykonany przez użytkownika realthunder; zobacz [FreeCAD_assembly3 releases](https://github.com/realthunder/FreeCAD_assembly3/releases). Ten fork jest oparty o konkretnym commit z głównej gałęzi FreeCAD, ale posiada również dodatkowe funkcje, które obecnie nie są obecne w głównej gałęzi. Ze względu na to, że to rozwidlenie jest oparte na konkretnym zrzucie rozwojowym, nie posiada najnowszych funkcji scalanych codziennie do gałęzi głównej.
+-   Specjalny fork programu FreeCAD wykonany przez użytkownika realthunder, zobacz [FreeCAD_assembly3 dostępne wydania na GitHub](https://github.com/realthunder/FreeCAD/releases). Ten fork jest oparty o konkretnym commit z głównej gałęzi FreeCAD, ale posiada również dodatkowe funkcje, które obecnie nie są obecne w głównej gałęzi. Ze względu na to, że to rozwidlenie jest oparte na konkretnym zrzucie rozwojowym, nie posiada najnowszych funkcji scalanych codziennie do gałęzi głównej.
 -   Rozwojowy [AppImage](AppImage/pl.md), jest oparty na aktualnej gałęzi głównej i zawiera zależności potrzebne do pracy ze środowiskiem Złożenie 3, takie jak solver SolveSpace.
-
-
-</div>
 
 Ponieważ AppImage działa tylko dla Linuksa, dla użytkowników Windows *(którzy chcą alternatywnie zainstalować to środowisko pracy)* jedyną możliwością przetestowania Złożenie 3 jest pierwsza opcja *(fork realthunder-a)*.
 
@@ -481,18 +475,11 @@ Ponieważ AppImage działa tylko dla Linuksa, dla użytkowników Windows *(któr
 
 ## Jak
 
-### Get Started 
 
 
-<div class="mw-translate-fuzzy">
-
-## Zaczynamy
+### Zaczynamy
 
 Istnieje wiele sposobów na stworzenie złożenia za pomocą środowiska Złożenie 3. Oto najprostszy z nich, który możesz zastosować.
-
-
-</div>
-
 
 :   <img alt="" src=images/Assembly3_Example-GettingStarted.jpg  style="width:600px;">
 :   *Wynik końcowy przykładu wprowadzającego. Na obrazku zaznaczono środowisko pracy Złożenie 3, więc widoczne są jego liczne paski narzędzi. Zwróć uwagę, że pionowy \"Pasek zakładek\" po lewej stronie widoku drzewa jest dodatkiem, który nie jest zawarty w standardowym FreeCAD (ale może być zainstalowany za pomocą Menadżera dodatków).*
@@ -546,17 +533,11 @@ Jeśli chcesz, możesz przesunąć wiązanie **Zablokowania** w górę drzewa. U
 
 {{top}}
 
-### Add an Offset 
 
-
-<div class="mw-translate-fuzzy">
 
 ### Dodaj odsunięcie 
 
 Złożenie 3 nie oferuje funkcji przesunięcia w stosunku do stałych w sposób, w jaki robi to środowisko [A2plus](A2plus_Workbench/pl.md) lub inne narzędzia CAD. Zamiast tego oferuje bardziej ogólny i elastyczny system do dodawania odsunięć, przemieszczeń, ale także kątów.
-
-
-</div>
 
 -   Dodaj odsunięcie we właściwościach jednego [elementu](#Elementy.md) [wiązania](#Wiązania.md).
 
@@ -574,17 +555,13 @@ Przetestuj z innymi osiami lub polami kąta / osi. Sprawdź również, czy uzysk
 
 {{top}}
 
-### Solve a Solver Failure 
 
-
-<div class="mw-translate-fuzzy">
 
 ## Rozwiąż niepowodzenie solvera 
 
-= Zdarza się to często, gdy części są nadmiernie związane, tzn. mają zablokowanych więcej niż 6 stopni swobody.
+=
 
-
-</div>
+Zdarza się to często, gdy części są nadmiernie związane, tzn. mają zablokowanych więcej niż 6 stopni swobody.
 
 Najprostszym sposobem na znalezienie problemu jest kliknięcie odpowiednich wiązań w drzewie i wybranie z *menu podręcznego / Wyłącz* i ponowne obliczenie. Dobrze jest znać ostatnio dodane wiązania przed niepowodzeniem solvera i po prostu je wycofać.
 
@@ -593,17 +570,11 @@ Uwaga: ponieważ Złożenie 3 próbuje kompensować nadmiernie związane element
 
 {{top}}
 
-### Replace a part or rename a filename 
 
-
-<div class="mw-translate-fuzzy">
 
 ### Zastępowanie części lub zmiana nazwy pliku 
 
 W przypadku usunięcia części lub zmiany nazwy pliku, złożenie ulega uszkodzeniu i nie może być rozwiązane, a solver wyświetli komunikat \" Niespójne wiązania\". Solver oznacza niepoprawne Elementy i Wiązania znakiem zapytania w drzewie.
-
-
-</div>
 
 Jednym ze sposobów rozwiązania tego problemu jest po prostu usunięcie wszystkich niepoprawnych wiązań i elementów, zaimportowanie nowej części i ponowne wykonanie wszystkiego. Ale jest też lepszy sposób:
 
@@ -643,10 +614,7 @@ Jednym ze sposobów rozwiązania tego problemu jest po prostu usunięcie wszystk
 
 {{top}}
 
-### Tips & Tricks 
 
-
-<div class="mw-translate-fuzzy">
 
 ### Wskazówki i porady 
 
@@ -660,9 +628,6 @@ Jednym ze sposobów rozwiązania tego problemu jest po prostu usunięcie wszystk
 -   Używanie zewnętrznych plików ułatwia ponowne użycie części lub wersjonowanie części za pomocą systemów takich jak git lub subversion. Przepływ pracy w FreeCAD ze Złożeniami jest całkiem taki sam jak z plikami, które mają wszystkie części w tym samym pliku. Przy częstej wymianie plików z innymi stronami, pojedyncze pliki mogą być wygodniejsze.
 -   Mnożenie połączonych części. Jeśli dodałeś link do złożenia, będzie on miał wartość właściwości o nazwie \"Liczba elementów\", domyślnie 0. Jeśli ustawisz ją na wartość 3, otrzymasz 3 wystąpienia tej części. Będą one dodane do katalogu podrzędnego i mogą być używane jak w pełni oddzielne części. Użyj tej funkcji, aby utrzymać niski ślad danych w pliku, ponieważ część jest zapisywana tylko raz. Każde wystąpienie zawiera tylko różnice.
 -   Wstawianie wielu części, np. śrub, za pomocą jednego kliknięcia. Sprawdź [Assembly3 Wiki](https://github.com/realthunder/FreeCAD_assembly3/wiki/Constraints-and-Solvers) na stronie Github. Jest to nie tylko oszałamiająca funkcja (nawet trochę magiczna), ale naprawdę bardzo przydatna.
-
-
-</div>
 
 -   Użycie [Paska zakładek](https://github.com/triplus/TabBar) przyspiesza pracę z montażem. Dzięki temu dodajemy pasek narzędzi z jednym przyciskiem dla każdego środowiska pracy. Możesz sortować pasek narzędzi i umieścić go gdziekolwiek chcesz. Wielu ludzi umieszcza go pionowo po lewej stronie, tuż obok widoku drzewa. Jeśli masz Złożenie 3, Część, Projekt Części i inne często używane narzędzia blisko góry, przełączanie się pomiędzy nimi staje się niezwykle proste.
 

@@ -8,9 +8,17 @@ Tak, ako iné CAD modelovacie nástroje, má aj FreeCAD mnoho 2D komponentov, po
 
 FreeCAD hojne využíva knižnice s otvoreným zdrojovým kódom, ktoré existujú v oblasti [vedeckých výpočtov](http://en.wikipedia.org/wiki/Scientific_Computation). Medzi nimi sú výkonné CAD jadro [Open Cascade Technology (OCCT)](http://OpenCascade.org); [Coin3D](https://github.com/coin3d/coin/wiki), súprava nástrojov na vývoj 3D grafiky kompatibilná s [Open Inventorom](http://en.wikipedia.org/wiki/Open_Inventor); svetoznáma knižnica na tvorbu užívateľského rozhrania [Qt](http://www.qt.io/) a moderný skriptovací jazyk [Python](http://www.python.org). Samotný FreeCAD môže byť takisto použitý aj ako knižnica v iných programoch.
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD je tiež [multi-platformový](https://sk.wikipedia.org/wiki/Multiplatformov%C3%BD_softv%C3%A9r) a aktuálne beží na systémoch Linux/Unix, Windows a Mac OSX, pričom na všetkých rovnako vyzerá a funguje.
 
+
+</div>
+
 Viac informácií o vlastnostiach FreeCADu nájdete v [zozname vlastností](Feature_list.md), v [najnovších poznámkach k vydaniu](Feature_list#Release_notes.md) a v sekcii článkov [Začíname](Getting_started.md), prípadne si pozrite [snímky obrazovky](Screenshots.md).
+
+
 
 ### O projekte FreeCAD 
 

@@ -31,9 +31,9 @@ Previous versions can be downloaded from the [releases](https://github.com/FreeC
 -   A portable version that doesn\'t need installation is available on the [releases](https://github.com/FreeCAD/FreeCAD/releases/) page.
 -   The package can also be installed from the [Chocolatey](https://chocolatey.org/packages/freecad) manager.
 
-### Notes for Mac OS X users 
+### Notes for macOS users 
 
-Mac OS X 10.12 Sierra is the minimum supported version.
+macOS 10.12 Sierra is the minimum supported version.
 
 ### Notes for GNU/Linux users 
 

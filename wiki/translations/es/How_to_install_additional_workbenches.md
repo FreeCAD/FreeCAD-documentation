@@ -14,6 +14,8 @@
 
 
 
+
+
 ## Descripción
 
 Usuarios avanzados han extendido FreeCAD con varios [Ambiente de trabajo externos](external_workbenches/es.md), que no están integrados en el código fuente principal de FreeCAD, pero son fáciles de instalar en una instalación de FreeCAD existente. Aquí cubriremos los métodos de instalación para los distintos sistemas operativos.
@@ -26,12 +28,16 @@ a partir de la versión 0.17, FreeCAD presenta un <img alt="" src=images/AddonMa
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
+
+
 ## Instalación en Windows 
 
 Como instalar Ambiente de trabajo adicionales y complementos en Windows
 
 
 <div class="mw-collapsible-content">
+
+
 
 ### Obsoleto
 
@@ -81,6 +87,8 @@ En Windows, cuando se actualiza un Ambiente de trabajo ya instalado, Windows man
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
+
+
 ## Instalación en Linux 
 
 Cómo instalar bancos de trabajo adicionales y complementos en Linux
@@ -91,7 +99,7 @@ Cómo instalar bancos de trabajo adicionales y complementos en Linux
 ### Using git 
 
 Adding the [community-ppa](https://launchpad.net/~freecad-community/+archive/ubuntu/ppa) within the ppa-manager.
-Installing the workbenches via synaptic packet manager.
+Installing the workbenches via Synaptic Packet Manager.
 
 
 ```python
@@ -137,7 +145,7 @@ This method is possible but not necessary with the introduction of the [Addon Ma
 
 ## Installing on Mac 
 
-How to install additional workbenches and addons on MacOS
+How to install additional workbenches and addons on macOS
 
 
 <div class="mw-collapsible-content">
@@ -155,7 +163,7 @@ For the sake of this example, say you\'ve chosen the [Curves Workbench](Curves_W
 -   There are two possible locations for your Addon workbench \'Mods\':
 
 1.  All Users: **/Applications/FreeCAD.app/Contents/Resources/Mod**
-2.  Current user only: **/Users/myusername/Library/Preferences/FreeCAD/Mod**
+2.  Current user only: **/Users/myusername/Library/Application Support/FreeCAD/Mod**
 
 -   If you use Finder to navigate manually to the All Users location in Applications you will need to
     -   go to **/Applications**\" and select FreeCAD.app
@@ -169,6 +177,8 @@ For the sake of this example, say you\'ve chosen the [Curves Workbench](Curves_W
 
 
 </div>
+
+
 
 ## Solución de problemas generales 
 

@@ -31,6 +31,8 @@ L\'outil **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part
 
 *À gauche : éléments à l'intérieur d'une Std Part dans la [Vue en arborescence](Tree_view/fr.md). À droite : les objets positionnés dans l'espace, référés à l'origine de Std Part.*
 
+
+
 ## Utilisation
 
 1.  Appuyez sur le bouton **[<img src=images/Std_Part.svg style="width:16px"> [Créer une pièce](Std_Part/fr.md)**.
@@ -39,16 +41,22 @@ L\'outil **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part
 4.  Pour retirer des objets de la pièce, faites-les glisser hors de la pièce et déposez-les sur l\'étiquette du document en haut de la [Vue en arborescence](Tree_view/fr.md).
 5.  Vous pouvez également ajouter et supprimer des objets en modifiant la propriété **Group** de la pièce.
 
+
+
 ## Remarques
 
 -   Un objet ne peut appartenir qu\'à une seule pièce.
 -   Les opérations 3D comme les [Part Opération booléenne](Part_Boolean/fr.md) ne peuvent pas être appliquées aux pièces. Par exemple, vous ne pouvez pas sélectionner deux pièces et effectuer un [Part Union](Part_Fuse/fr.md) ou un [Part Soustraction](Part_Cut/fr.md).
+
+
 
 ## Propriétés
 
 [Std Part](Std_Part/fr.md), appelée en interne [App Part](App_Part/fr.md) (classe `App::Part`), est dérivé de [App GeoFeature](App_GeoFeature/fr.md) (classe `App::GeoFeature`) et hérite de toutes ses propriétés. Il possède également plusieurs propriétés supplémentaires. Notamment des propriétés qui l\'aident à gérer les informations dans le contexte d\'un assemblage, par exemple, **Type**, **Id**, **License**, **LicenseURL** and **Group**.
 
 Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](Property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ### Données
 
@@ -102,6 +110,8 @@ Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](Property
 
 -    **_Group Touched|Bool|Hidden**: indique si le groupe est touché ou non.
 
+
+
 ### Vue
 
 
@@ -120,7 +130,11 @@ Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](Property
 
 -    **Selection Style|Enumeration**: {{value|Shape}}. (par défaut), {{value|BoundBox}}. Si l\'option est {{value|Shape}}, la forme entière (sommets, arêtes et faces) sera mise en évidence dans la [Vue 3D](3D_view/fr.md) ; si elle est {{value|BoundBox}}, seule la boîte de délimitation sera mise en évidence.
 
+
+
 ## Explications détaillées 
+
+
 
 ### Statut actif 
 
@@ -136,6 +150,8 @@ Pour activer ou désactiver un Part :
 
 
 *Document avec deux Std Parts, dont le second est actif.*
+
+
 
 ### Origine
 
@@ -157,12 +173,16 @@ L\'Origine se compose des trois axes standard (X, Y, Z) et de trois plans standa
 
 tous les éléments à l\'intérieur du Part sont référencés à l\'origine du Part, ce qui signifie que le Part peut être déplacé et tourné en référence au système de coordonnées global sans affecter le placement des éléments à l\'intérieur.
 
+
+
 ### Gestion de la visibilité 
 
 La visibilité d\'un Part remplace la visibilité de tout objet qu\'elle contient. Si Part est masqué, les objets qu\'il contient seront également masqués, même si leur propriété individuelle **Visibility** est définie sur `True`. Si Part est visible, la **Visibility** de chaque objet détermine si l\'objet est affiché ou non.
 
 ![](images/Part_Visibility_off.png ) ![](images/Part_Visibility_on.png ) 
 *La visibilité de Std Part détermine si les objets regroupés sous lui sont affichés dans la [vue 3D](3D_view/fr.md) ou non. À gauche : Part est masqué, donc aucun des objets ne sera affiché dans la [vue 3D](3D_view/fr.md). À droite : Part est visible, donc chaque objet contrôle sa propre visibilité.*
+
+
 
 ## Script
 

@@ -261,7 +261,7 @@ You can also create your own theme if you are not satisfied with the themes that
 
 -    **$HOME/.FreeCAD/Gui/Stylesheets**(on Linux).
 
--    **$HOME/Library/Preferences/FreeCAD/Gui/Stylesheets**(on MacOS).
+-    **$HOME/Library/Application Support/FreeCAD/Gui/Stylesheets**(on macOS).
 
 
 {{Top}}

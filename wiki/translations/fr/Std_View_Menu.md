@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introduction
 
 Le **Std Menu Affichage** est l\'un des 7 sous-menus du [menu standard](Standard_Menu/fr.md):
@@ -26,6 +28,8 @@ Le **Std Menu Affichage** est l\'un des 7 sous-menus du [menu standard](Standard
 }}
 
 Le menu Affichage fournit des outils pour modifier la [vue 3D](3D_view/fr.md) et les propriétés de vue des objets dans le modèle ainsi que des outils liés à l\'affichage des composants d\'interface.
+
+
 
 ## Outils
 
@@ -97,7 +101,7 @@ Les outils suivants sont disponibles dans ce menu:
 
 -   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:32px;"> [Plan de coupe](Std_ToggleClipPlane/fr.md): masque temporairement les objets.
 
--   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Coupes persistantes](Part_SectionCut/fr.md) : crée des coupes persistantes d\'objets et d\'assemblages. {{Version/fr|0.20}}
+-   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Coupe persistante](Part_SectionCut/fr.md) : crée des coupes persistantes d\'objets et d\'assemblages. {{Version/fr|0.20}}
 
 -   <img alt="" src=images/Std_TextureMapping.svg  style="width:32px;"> [Mappage de texture\...](Std_TextureMapping/fr.md): fait correspondre temporairement une texture à tous les objets.
 

@@ -27,11 +27,17 @@ Der Arch Baustelle ist ein spezielles Objekt, das Eigenschaften eines Standard F
 
 ## Optionen
 
+
+<div class="mw-translate-fuzzy">
+
 -   Nachdem du einen Standort erstellt hast, kannst du ihm weitere Objekte hinzufügen, indem du sie per Ziehen & Loslassen in der Baumansicht oder unter Verwendung des **<img src="images/Arch_Add.svg" width=16px> [Arch Hinzufügen](Arch_Add/de.md)** Werkzeugs. Dies bestimmt nur, welches Objekt Teil des gegebenen Standorts ist, und hat keinen Einfluss auf das Gelände selbst.
 -   Du kannst Objekte von einem Standort entfernen, indem du sie per Ziehen & Loslassen aus der Baumansicht herausziehst oder durch Verwendung des **<img src="images/Arch_Remove.svg" width=16px> [Arch Entfernen](Arch_Remove/de.md)** Werkzeugs
 -   Du kannst ein Geländeobjekt hinzufügen, indem du die **Gelände** Eigenschaft des Standorts bearbeitest. Das Gelände muss eine offene Hülle oder Oberfläche sein.
 -   Du kannst Volumina hinzufügen, die zum Basisgelände hinzugefügt oder vom Basisgelände subtrahiert werden sollen, indem du auf den Standort doppelklickst und Objekte zu ihren Subtraktions- oder Additionsgruppen hinzufügst. Die Objekte müssen Volumenkörper sein.
 -   Die {{PropertyData/de|Extrusionsvektor}} Eigenschaft kann verwendet werden, um einige Probleme zu lösen, die bei der Arbeit mit Subtraktionen und Additionen auftreten können. Um diese Additionen/Subtraktionen durchzuführen, wird die Geländeoberfläche in einen Körper extrudiert, der dann entsprechend vereinigt/subtrahiert wird. Abhängig von der Geländetopologie kann diese Extrusion mit dem Standard Extrusionsvektor fehlschlagen. Daher kannst du das Problem möglicherweise beheben, indem du diesen auf einen anderen Wert änderst.
+
+
+</div>
 
 
 
@@ -103,7 +109,13 @@ Der Arch Baustelle ist ein spezielles Objekt, das Eigenschaften eines Standard F
 
 ## Typischer Arbeitsablauf 
 
+
+<div class="mw-translate-fuzzy">
+
 Beginne damit, ein Objekt zu erstellen, das dein Gelände repräsentiert. Es muss eine offene Fläche sein, kein Festkörper. Es ist z.B. einfach, Netzdaten zu importieren, die über das Menü **Teil → Form aus Netz erstellen** in eine Teilform umgewandelt werden können. Erstelle dann ein Baustellenobjekt, und setze dessen Eigenschaft {{PropertyData/de|Gelände}} auf das gerade erstellte Teil:
+
+
+</div>
 
 ![](images/Arch_site_example_01.jpg )
 

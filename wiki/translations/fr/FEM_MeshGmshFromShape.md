@@ -15,6 +15,8 @@ Pour une analyse par éléments finis, la géométrie doit être discrétisée e
 
 En fonction de votre système d\'exploitation et de votre paquetage d\'installation, Gmsh peut être fourni avec FreeCAD ou pas. Pour plus d\'informations voir [FEM Installation des composants requis](FEM_Install/fr.md).
 
+
+
 ## utilisation
 
 1.  Sélectionnez la forme que vous souhaitez analyser. Pour le volume FEM, il doit s\'agir d\'un solide ou d\'un solide. Un compsolid est nécessaire si votre pièce est composée de plusieurs matériaux. (Un compsolid peut être créé avec la commande [Part Fragments booléens](Part_BooleanFragments/fr.md).)
@@ -25,6 +27,8 @@ En fonction de votre système d\'exploitation et de votre paquetage d\'installat
 4.  Ferme la tâche. Vous devriez maintenant voir un nouvel objet FEMMeshGMSH dans votre conteneur d\'analyse active.
 
 Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l\'aide de l\'[Éditeur de propriétés](Property_editor/fr.md). Après avoir modifié une propriété, vous devez rouvrir le dialogue Gmsh et cliquer sur le bouton **Appliquer**. (Vous pouvez laisser la boîte de dialogue ouverte pendant la modification des propriétés).
+
+
 
 ## Propriétés
 
@@ -50,8 +54,8 @@ Une fois que le maillage a été créé, vous pouvez modifier ses propriétés �
 
 -    **Element Order**: [ordre des éléments de maillage](https://www.comsol.de/support/knowledgebase/1270). Cette propriété peut également être modifiée dans le dialogue Gmsh dans le champ **Mesh order**. {{Version/fr|0.20}}
 
-    -   1st pour 1er
-    -   2nd pour 2ème (par défaut)
+    -   1er
+    -   2ème (par défaut)**Remarque:** si vous utilisez le solveur [Elmer](FEM_SolverElmer/fr.md), vous pouvez obtenir cette erreur : *ERROR:: GetEdgeBasis: Can\'t handle but linear elements, sorry.*. Cela signifie que l\'équation du solveur ne peut pas gérer les mailles de 2ème ordre. Utilisez alors des mailles de 1er ordre, ou consultez la page Wiki de FreeCAD sur l\'équation du solveur pour connaître les options possibles pour gérer les mailles de 2ème ordre.
 
 -    **Geometrical Tolerance**: tolérance géométrique pour que le maillage corresponde aux bords de l\'objet. La valeur par défaut *0.0* signifie que la valeur par défaut de 1e-8 de Gmsh est utilisée.
 
@@ -79,7 +83,11 @@ Une fois que le maillage a été créé, vous pouvez modifier ses propriétés �
     -   true; l\'interpolation linéaire est utilisée.
     -   false (par défaut); l\'interpolation curviligne est utilisée.
 
+
+
 ## Remarques
+
+
 
 ### Jacobiens non positifs 
 
@@ -89,6 +97,8 @@ Lorsque vous obtenez une erreur de maillage à cause de Jacobiens non positifs, 
 -   Définissez **Element Order** à *1st*.
 -   Utilisez une taille d\'élément plus petite en réduisant **Characteristic Length Max**.
 -   Si le solveur ccxtools est utilisé et que le bouton d\'exécution est utilisé (pas le panneau des tâches), les nœuds des éléments jacobiens non positifs seront verts.
+
+
 
 ### Croissance du maillage 
 
@@ -101,6 +111,8 @@ Pour permettre une croissance raisonnable du maillage, vous devez dans ce cas aj
 
 <img alt="" src=images/FEM_Gmsh-MeshGrowth-success.png  style="width:400px;"> 
 *Croissance notable du maillage grâce à l'arête supplémentaire au milieu de l'arête cylindrique.*
+
+
 
 ### Recombinaison d\'éléments 
 

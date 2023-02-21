@@ -3,7 +3,7 @@
 
 Les préférences de l\'[Atelier Draft](Draft_Workbench/fr.md) se trouvent dans [Réglage des préférences](Preferences_Editor/fr.md), dans le menu **Édition → Préférences → Draft**.
 
-Les préférences de l\'[Atelier Draft](Draft_Workbench/fr.md) se trouvent dans les [Réglages des préférences](Preferences_Editor/fr.md). Dans le menu, sélectionnez **Edition → Préférences...** puis **Draft**.
+Les préférences de l\'[Atelier Draft](Draft_Workbench/fr.md) se trouvent dans les [Réglages des préférences](Preferences_Editor/fr.md). Dans le menu, sélectionnez **Édition → Préférences...** puis **Draft**.
 
 Il y a cinq onglets : [Paramètres généraux](#Pr.C3.A9f.C3.A9rences_g.C3.A9n.C3.A9rales.md), [Paramètres de l\'interface utilisateur](#Param.C3.A8tres_de_l.27interface_utilisateur.md), [Grille et aimantation](#Grille_et_aimantation.md), [Paramètres visuels](#Param.C3.A8tres_visuels.md) et [Texts et cotes](#Textes_et_cotes.md).
 

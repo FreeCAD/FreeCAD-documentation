@@ -30,6 +30,8 @@
 
 </div>
 
+
+
 ## インタプリタ
 
 
@@ -134,6 +136,8 @@ help("print")
 
 {{Top}}
 
+
+
 ## 変数
 
 
@@ -203,7 +207,7 @@ print(var2)
 
 </div>
 
-Case is very important, `myVariable` is not the same as `myvariable`. If you were to enter `print(myvariable)` it would come back with an error as not defined. {{Top}}
+Case is very important, 
 
 ## 数値
 
@@ -380,6 +384,8 @@ myVar
 
 {{Top}}
 
+
+
 ## リスト
 
 
@@ -480,6 +486,8 @@ myvar[2]
 
 
 {{Top}}
+
+
 
 ## インデント
 
@@ -663,6 +671,8 @@ else:
 
 {{Top}}
 
+
+
 ## 関数
 
 
@@ -746,6 +756,8 @@ sum(45,34)
 
 
 {{Top}}
+
+
 
 ## モジュール
 
@@ -950,6 +962,8 @@ exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 
 
 {{Top}}
+
+
 
 ## FreeCADではじめる
 

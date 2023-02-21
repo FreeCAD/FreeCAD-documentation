@@ -236,9 +236,9 @@ sudo spnavd_ctl x11 start
 sudo systemctl restart spacenavd 
 ```
 
-### OSX
+### macOS
 
-Su OS X i dispositivi di input 3Dconnexion sono supportati, purché FreeCAD sia costruito e utilizzato su un sistema con i driver 3Dconnexion installati. Potrebbe essere necessario 3DxWare 10.7.2 o superiore per Mac OSX Monterey.
+Su macOS i dispositivi di input 3Dconnexion sono supportati, purché FreeCAD sia costruito e utilizzato su un sistema con i driver 3Dconnexion installati. Potrebbe essere necessario 3DxWare 10.7.2 o superiore per macOS 12 Monterey.
 
 ### Windows
 

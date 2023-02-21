@@ -38,6 +38,8 @@ Utilizatorii Power au extins FreeCAD cu diferite Ateliere de lucru externe perso
 <div class="mw-collapsible mw-collapsed toccolours">
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Instalarea sub Windows 
@@ -120,6 +122,8 @@ noua versiune de atelier.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -219,7 +223,7 @@ $ rm *.pyc
 
 </div>
 
-How to install additional workbenches and addons on MacOS
+How to install additional workbenches and addons on macOS
 
 
 <div class="mw-collapsible-content">
@@ -251,6 +255,8 @@ This method is possible but not necessary with the introduction of the [Addon Ma
 
 
 </div>
+
+
 
 ## Depanare Generală 
 

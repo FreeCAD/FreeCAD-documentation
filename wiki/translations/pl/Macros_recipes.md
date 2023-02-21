@@ -497,13 +497,7 @@ Jeśli napisałeś makro i chcesz umieścić je w kategoriach na tej stronie, zo
 
 -    <img style="width:16px;" src="images/Macro_JointWire.png"> [Makro JointWire](Macro_JointWire/pl.md): Umożliwia znalezienie i połączenie wszystkich niepołączonych krawędzi z najbliższą niepołączoną krawędzią za pomocą linii.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Text-x-python.png  style="width:24px;"> [Macro magicAngle](https://github.com/dprojects/Woodworking/blob/master/Tools/magicAngle.py): Małe GUI dla funkcji Draft.rotate. Pozwala na obracanie paneli, a nawet innych bardziej skomplikowanych obiektów, jak np. profile konstrukcyjne.
-
-
-</div>
+-   <img alt="" src=images/Text-x-python.png  style="width:24px;"> [Macro magicAngle](https://github.com/dprojects/Woodworking/blob/master/Tools/x_magicAngle.py): Małe GUI dla funkcji Draft.rotate. Pozwala na obracanie paneli, a nawet innych bardziej skomplikowanych obiektów, jak np. profile konstrukcyjne.
 
 -    <img style="width:16px;" src="images/Macro_MatrixTransform.png"> [Makro MatrixTransform](Macro_MatrixTransform/pl.md): Stosowanie liniowych przekształceń przestrzeni w celu zniekształcenia kształtów. Np. nierównomierne skalowanie, ścinanie, odbicie lustrzane, zamiana osi.
 

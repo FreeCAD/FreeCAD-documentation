@@ -25,6 +25,8 @@ Ajouter de nouvelles contraintes, équations ou solveurs est généralement un t
 -   Une bonne compréhension du solveur auquel il faut ajouter de nouveaux objets (par exemple calculix ou Elmer) est importante.
 -   Un peu de connaissances sur les systèmes de compilation, en particulier cmake (le système de compilation utilisé par FreeCAD)
 
+
+
 ## Le moteur de production (cmake) 
 
 Le système de build (construction) doit être modifié quels que soient les objets à ajouter sur le plan de travail FEM. Chaque module (fichier) Python doit être enregistré. L\'atelier FEM requiert que chaque nouveau module Python soit enregistré dans `Mod/Fem/CMakeLists.txt`. Cela est vrai quel que soit le type du module Python (GUI ou non GUI). L\'endroit où le module doit être inséré dépend du rôle du module. Le solveur, les équations et les contraintes utilisent tous des listes différentes. La recherche de fichiers similaires et l\'insertion du nouveau fichier dans la même liste fonctionnent la plupart du temps.
@@ -74,6 +76,8 @@ SET(FemGuiViewProvider_SRCS
 )
 }}
 
+
+
 ## Organisation des sources 
 
 Pour organiser le code Python, le module FEM utilise l\'approche suivante. Le module est divisé en les packages suivants:
@@ -97,6 +101,8 @@ Un paquet ne suit pas ce modèle: `femsolver`. Il a sa place au même niveau que
     .femsolver.calculix.equations
     .femsolver.z88
     .femsolver.z88.equations
+
+
 
 ## Le solveur 
 
@@ -128,6 +134,8 @@ La plupart des options spécifiques au solveur (par ex. le nombre maximal d\'it�
 L\'implémentation réelle peut être divisée en une partie générique et une partie spécifique du solveur. La partie générique se trouve dans le module `femsolver.equationbase`. La partie spécifique du solveur réside dans des sous packages d\'équations individuels des packages du solveur (par exemple `femsolver/elmer/equations`).
 
 L\'ajout d\'une nouvelle équation à Elmer devrait être très facile. Pour les nouveaux venus, il existe un tutoriel qui explique comment ajouter une nouvelle équation à Elmer en ajoutant le résolveur d\'élasticité existant à FreeCAD: [Tutoriel pour ajouter des équations FEM](Add_FEM_Equation_Tutorial/fr.md).
+
+
 
 ## Contraintes
 

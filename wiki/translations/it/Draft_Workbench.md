@@ -54,7 +54,7 @@ Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie
 
 -   <img alt="" src=images/Draft_Point.svg  style="width:32px;"> [Punto](Draft_Point/it.md): crea un punto semplice.
 
--   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Facce legate](Draft_Facebinder/it.md): crea un oggetto superficie dalle facce selezionate.
+-   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Lega facce](Draft_Facebinder/it.md): crea un oggetto superficie dalle facce selezionate.
 
 -   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [Forma da testo](Draft_ShapeString/it.md): crea una forma composta che rappresenta una stringa di testo.
 

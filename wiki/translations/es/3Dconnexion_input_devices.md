@@ -3,11 +3,15 @@
 
 {{TOCright}}
 
+
+
 ## Instalación de controladores 
 
 ### Linux
 
 FreeCAD soporta los drivers del proyecto [Spacenav](http://spacenav.sourceforge.net/). Este es un proyecto que pretende crear un controlador de código abierto que sea compatible con los controladores propietarios de 3Dconnexion.
+
+
 
 #### Instalar desde un repositorio 
 
@@ -74,6 +78,8 @@ apt-get install spacenavd libspnav-dev
 ```python
 sudo zypper install spacenavd
 ```
+
+
 
 #### Compilar Spacenav desde el código fuente 
 
@@ -189,6 +195,8 @@ If you want to start spacenavd at boot using systemd, do the following:
 
 This is only necessary for the installation from source.
 
+
+
 #### Reinicio spacenavd 
 
 Si a veces el navegador deja de funcionar, es bueno reiniciar el controlador. Para reiniciarlo, vaya al Terminal y ejecute:
@@ -200,6 +208,8 @@ sudo /etc/init.d/spacenavd restart
 ```
 
 Después reinicia FreeCAD. En algunas distribuciones esto es necesario en cada reinicio.
+
+
 
 ### Problemas conocidos 
 
@@ -222,7 +232,15 @@ sudo spnavd_ctl x11 start
 sudo systemctl restart spacenavd 
 ```
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ### OSX
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -236,6 +254,8 @@ Los dispositivos de entrada de 3Dconnexion son compatibles con OS X, siempre que
 
 A partir de la versión 0.13, el ratón 3D es compatible con Windows. Es necesario tener instalados los controladores de 3Dconnexion.
 
+
+
 #### Problemas conocidos 
 
 Hay un problema en el que 3Dconnexion envía eventos de desplazamiento duplicados a FreeCAD, lo que hace que la vista salte. Para solucionarlo:
@@ -248,11 +268,15 @@ Hay un problema en el que 3Dconnexion envía eventos de desplazamiento duplicado
 
 ref: <https://freecadweb.org/tracker/view.php?id=1893>
 
+
+
 ## Configuración en FreeCAD 
 
 El soporte del ratón 3D se hizo con el proyecto spnav en Linux, y a bajo nivel en Windows. Esto significa que no existe soporte para cualquier configuración para un dispositivo, ya que en Linux no existe un buen soporte, y en Windows se sobreescribe. Este es el motivo de añadir dos páginas adicionales al letrero de diálogo \"Personalización\".
 
 <img alt="" src=images/Spaceball_Motion.png  style="width:450px;"> <img alt="" src=images/Spaceball_Buttons.png  style="width:450px;">
+
+
 
 ### Movimiento Bola Espacial 
 
@@ -271,6 +295,8 @@ Otras, para cada eje tienes la posibilidad de:
 -   Activar - Activar / Desactivar ejes
 -   Invertir - Invertir el movimiento en un eje
 -   Sensibilidad - Establecer la sensibilidad
+
+
 
 ### Botones Bola Espacial 
 
@@ -291,6 +317,8 @@ or
 `Couldn't connect to spacenav daemon. Please ignore if you don't have a spacemouse.`
 
 If none of them appears then your FreeCAD build doesn\'t link to the spacenav library. If the former message appears then it basically works. The latter message means there is probably a problem with the spacenav daemon.
+
+
 
 ## Relacionados
 

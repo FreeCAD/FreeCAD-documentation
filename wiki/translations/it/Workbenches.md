@@ -7,6 +7,8 @@ Quando si passa da un ambiente di lavoro ad un altro, cambiano anche gli strumen
 
 Notare che a volte un Ambiente viene indicato come un *Modulo*. Gli Ambienti e i Moduli sono però entità diverse. Un Modulo è un\'estensione di FreeCAD, mentre un Ambiente di lavoro è un tipo speciale di modulo con una GUI configurata (barre degli strumenti e menu).
 
+
+
 ## Ambienti incorporati 
 
 I seguenti ambienti di lavoro sono inclusi in ogni installazione di FreeCAD:
@@ -55,13 +57,17 @@ I seguenti ambienti di lavoro sono inclusi in ogni installazione di FreeCAD:
 
 -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> [Ambiente Web](Web_Workbench/it.md) fornisce una finestra del browser invece della [vista 3D](3D_view/it.md) all\'interno di FreeCAD.
 
+
+
 ### Deprecati
 
 I seguenti ambienti di lavoro sono ancora inclusi nell\'installazione di base per motivi di compatibilità, ma non dovrebbero più essere utilizzati.
 
 -   <img alt="" src=images/Workbench_Complete.svg  style="width:32px;"> [Completo](Complete_Workbench/it.md) contiene tutti i comandi e le funzionalità di tutti gli ambienti di lavoro che soddisfano determinati criteri di qualità. {{Obsolete/it|0.17}}
 
--   <img alt="" src=images/Workbench_Drawing.svg  style="width:32px;"> [Drawing](Drawing_Workbench/it.md) è stato utilizzato per la produzione di disegni tecnici, ma ora è stato deprecato. È ancora necessario per leggere i vecchi file di FreeCAD, che contengono oggetti creati con questo ambiente di lavoro. L\'[Ambiente TechDraw](TechDraw_Workbench/it.md) è il suo sostituto più avanzato. {{Obsolete|0.17}}
+-   <img alt="" src=images/Workbench_Drawing.svg  style="width:32px;"> [Drawing](Drawing_Workbench/it.md) è stato utilizzato per la produzione di disegni tecnici, ma ora è stato deprecato. È ancora necessario per leggere i vecchi file di FreeCAD, che contengono oggetti creati con questo ambiente di lavoro. L\'[Ambiente TechDraw](TechDraw_Workbench/it.md) è il suo sostituto più avanzato. {{Obsolete/it|0.17}}
+
+
 
 ## Ambienti aggiuntivi 
 

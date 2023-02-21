@@ -303,13 +303,8 @@ Aby zrównać umiejscowienie \"Szkicu\" z umiejscowieniem \"Cylindra\", należa�
 
 ## Więcej
 
-
-<div class="mw-translate-fuzzy">
-
 -   Ten poradnik: [Aeroplan](Aeroplane/pl.md) obszernie omawia mechanikę zmiany położenia obiektu.
-
-
-</div>
+-   Ten artykuł [FreeCAD News](https://blog.freecad.org/2023/01/16/the-rotation-api-in-freecad/?preview_id=343) omawia API Obrót.
 
 
 
