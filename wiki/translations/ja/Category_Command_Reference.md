@@ -5,15 +5,15 @@
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch Add/ja](wiki/Arch Add/ja.md) | [Arch Building/ja](wiki/Arch Building/ja.md) | [Arch Floor/ja](wiki/Arch Floor/ja.md) |
-| [Arch Pipe/ja](wiki/Arch Pipe/ja.md) | [Arch PipeConnector/ja](wiki/Arch PipeConnector/ja.md) | [Arch Rebar/ja](wiki/Arch Rebar/ja.md) |
-| [Arch Remove/ja](wiki/Arch Remove/ja.md) | [Arch SectionPlane/ja](wiki/Arch SectionPlane/ja.md) | [Arch Structure/ja](wiki/Arch Structure/ja.md) |
-| [Template:GuiCommand/ja](wiki/Template_GuiCommand/ja.md) | [OpenSCAD AddOpenSCADElement/ja](wiki/OpenSCAD AddOpenSCADElement/ja.md) | [Part Boolean/ja](wiki/Part Boolean/ja.md) |
-| [PartDesign WizardShaft/ja](wiki/PartDesign WizardShaft/ja.md) | [Plot Save/ja](wiki/Plot Save/ja.md) | [Sketcher ConstrainEqual/ja](wiki/Sketcher ConstrainEqual/ja.md) |
-| [Sketcher ConstrainHorizontal/ja](wiki/Sketcher ConstrainHorizontal/ja.md) | [Sketcher CreateArc/ja](wiki/Sketcher CreateArc/ja.md) | [Sketcher CreateCircle/ja](wiki/Sketcher CreateCircle/ja.md) |
-| [Sketcher CreateFillet/ja](wiki/Sketcher CreateFillet/ja.md) | [Sketcher CreateLine/ja](wiki/Sketcher CreateLine/ja.md) | [Sketcher ToggleConstruction/ja](wiki/Sketcher ToggleConstruction/ja.md) |
-| [Std About/ja](wiki/Std About/ja.md) | [Std New/ja](wiki/Std New/ja.md) | [Std Open/ja](wiki/Std Open/ja.md) |
-| [Std ViewScreenShot/ja](wiki/Std ViewScreenShot/ja.md) |
+| [Arch Add/ja](Arch_Add/ja.md) | [Arch Building/ja](Arch_Building/ja.md) | [Arch Floor/ja](Arch_Floor/ja.md) |
+| [Arch Pipe/ja](Arch_Pipe/ja.md) | [Arch PipeConnector/ja](Arch_PipeConnector/ja.md) | [Arch Rebar/ja](Arch_Rebar/ja.md) |
+| [Arch Remove/ja](Arch_Remove/ja.md) | [Arch SectionPlane/ja](Arch_SectionPlane/ja.md) | [Arch Structure/ja](Arch_Structure/ja.md) |
+| [Template:GuiCommand/ja](Template_GuiCommand/ja.md) | [OpenSCAD AddOpenSCADElement/ja](OpenSCAD_AddOpenSCADElement/ja.md) | [Part Boolean/ja](Part_Boolean/ja.md) |
+| [PartDesign WizardShaft/ja](PartDesign_WizardShaft/ja.md) | [Plot Save/ja](Plot_Save/ja.md) | [Sketcher ConstrainEqual/ja](Sketcher_ConstrainEqual/ja.md) |
+| [Sketcher ConstrainHorizontal/ja](Sketcher_ConstrainHorizontal/ja.md) | [Sketcher CreateArc/ja](Sketcher_CreateArc/ja.md) | [Sketcher CreateCircle/ja](Sketcher_CreateCircle/ja.md) |
+| [Sketcher CreateFillet/ja](Sketcher_CreateFillet/ja.md) | [Sketcher CreateLine/ja](Sketcher_CreateLine/ja.md) | [Sketcher ToggleConstruction/ja](Sketcher_ToggleConstruction/ja.md) |
+| [Std About/ja](Std_About/ja.md) | [Std New/ja](Std_New/ja.md) | [Std Open/ja](Std_Open/ja.md) |
+| [Std ViewScreenShot/ja](Std_ViewScreenShot/ja.md) |
 
 
 

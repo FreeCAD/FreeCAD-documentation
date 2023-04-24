@@ -5,7 +5,7 @@ This category lists pages related to the [Image Workbench/cs](Image_Workbench/cs
 
 |     |     |     |
 | --- | --- | --- |
-| [Image Workbench/cs](wiki/Image Workbench/cs.md) |
+| [Image Workbench/cs](Image_Workbench/cs.md) |
 
 
 

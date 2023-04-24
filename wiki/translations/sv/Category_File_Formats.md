@@ -5,8 +5,8 @@ This category collects pages about all the different file formats that FreeCAD i
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch IFC/sv](wiki/Arch IFC/sv.md) | [Draft DXF/sv](wiki/Draft DXF/sv.md) | [Draft OCA/sv](wiki/Draft OCA/sv.md) |
-| [Draft SVG/sv](wiki/Draft SVG/sv.md) |
+| [Arch IFC/sv](Arch_IFC/sv.md) | [Draft DXF/sv](Draft_DXF/sv.md) | [Draft OCA/sv](Draft_OCA/sv.md) |
+| [Draft SVG/sv](Draft_SVG/sv.md) |
 
 
 

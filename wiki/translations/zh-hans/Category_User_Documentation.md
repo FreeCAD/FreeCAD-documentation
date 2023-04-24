@@ -5,8 +5,8 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 
 |     |     |     |
 | --- | --- | --- |
-| [A2plus Workbench/zh-hans](wiki/A2plus Workbench/zh-hans.md) | [Robot tutorial/zh-hans](wiki/Robot tutorial/zh-hans.md) | [Std Base/zh-hans](wiki/Std Base/zh-hans.md) |
-| [Category:Workbenches/zh-hans](wiki/Category_Workbenches/zh-hans.md) |
+| [A2plus Workbench/zh-hans](A2plus_Workbench/zh-hans.md) | [Robot tutorial/zh-hans](Robot_tutorial/zh-hans.md) | [Std Base/zh-hans](Std_Base/zh-hans.md) |
+| [Category:Workbenches/zh-hans](Category_Workbenches/zh-hans.md) |
 
 
 

@@ -9,9 +9,9 @@ Vedere anche [UncategorizedTemplates](Special_UncategorizedTemplates.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:APIFunction/it](wiki/Template_APIFunction/it.md) | [Template:It](wiki/Template_It.md) | [Template:ProprietaDati](wiki/Template_ProprietaDati.md) |
-| [Template:ProprietaVista](wiki/Template_ProprietaVista.md) | [Template:TasksTag/it](wiki/Template_TasksTag/it.md) | [Category:Template:Doc/it](wiki/Category_Template_Doc/it.md) |
-| [Category:Template:Text Format/it](wiki/Category_Template_Text Format/it.md) | [Category:Template:Text Long/it](wiki/Category_Template_Text Long/it.md) | [Category:Template:Text/it](wiki/Category_Template_Text/it.md) |
+| [Template:APIFunction/it](Template_APIFunction/it.md) | [Template:It](Template_It.md) | [Template:ProprietaDati](Template_ProprietaDati.md) |
+| [Template:ProprietaVista](Template_ProprietaVista.md) | [Template:TasksTag/it](Template_TasksTag/it.md) | [Category:Template:Doc/it](Category_Template_Doc/it.md) |
+| [Category:Template:Text Format/it](Category_Template_Text_Format/it.md) | [Category:Template:Text Long/it](Category_Template_Text_Long/it.md) | [Category:Template:Text/it](Category_Template_Text/it.md) |
 |
 
 

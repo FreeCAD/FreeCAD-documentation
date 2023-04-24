@@ -5,16 +5,16 @@ This category lists pages related to the [PartDesign Workbench/ro](PartDesign_Wo
 
 |     |     |     |
 | --- | --- | --- |
-| [Manual:Preparing models for 3D printing/ro](wiki/Manual_Preparing models for 3D printing/ro.md) | [Path Array/ro](wiki/Path Array/ro.md) | [Path Comment/ro](wiki/Path Comment/ro.md) |
-| [Path Copy/ro](wiki/Path Copy/ro.md) | [Path Custom/ro](wiki/Path Custom/ro.md) | [Path DressupDogbone/ro](wiki/Path DressupDogbone/ro.md) |
-| [Path DressupDragKnife/ro](wiki/Path DressupDragKnife/ro.md) | [Path DressupRampEntry/ro](wiki/Path DressupRampEntry/ro.md) | [Path DressupTag/ro](wiki/Path DressupTag/ro.md) |
-| [Path Drilling/ro](wiki/Path Drilling/ro.md) | [Path Engrave/ro](wiki/Path Engrave/ro.md) | [Path ExportTemplate/ro](wiki/Path ExportTemplate/ro.md) |
-| [Path Fixture/ro](wiki/Path Fixture/ro.md) | [Path Helix/ro](wiki/Path Helix/ro.md) | [Path Inspect/ro](wiki/Path Inspect/ro.md) |
-| [Path Job/ro](wiki/Path Job/ro.md) | [Path MillFace/ro](wiki/Path MillFace/ro.md) | [Path Pocket 3D/ro](wiki/Path Pocket 3D/ro.md) |
-| [Path Post/ro](wiki/Path Post/ro.md) | [Path Profile/ro](wiki/Path Profile/ro.md) | [Path scripting/ro](wiki/Path scripting/ro.md) |
-| [Path SelectLoop/ro](wiki/Path SelectLoop/ro.md) | [Path Shape/ro](wiki/Path Shape/ro.md) | [Path SimpleCopy/ro](wiki/Path SimpleCopy/ro.md) |
-| [Path Simulator/ro](wiki/Path Simulator/ro.md) | [Path Stop/ro](wiki/Path Stop/ro.md) | [Path Surface/ro](wiki/Path Surface/ro.md) |
-| [Path Walkthrough for the Impatient/ro](wiki/Path Walkthrough for the Impatient/ro.md) | [Path Workbench/ro](wiki/Path Workbench/ro.md) |
+| [Manual:Preparing models for 3D printing/ro](Manual_Preparing_models_for_3D_printing/ro.md) | [Path Array/ro](Path_Array/ro.md) | [Path Comment/ro](Path_Comment/ro.md) |
+| [Path Copy/ro](Path_Copy/ro.md) | [Path Custom/ro](Path_Custom/ro.md) | [Path DressupDogbone/ro](Path_DressupDogbone/ro.md) |
+| [Path DressupDragKnife/ro](Path_DressupDragKnife/ro.md) | [Path DressupRampEntry/ro](Path_DressupRampEntry/ro.md) | [Path DressupTag/ro](Path_DressupTag/ro.md) |
+| [Path Drilling/ro](Path_Drilling/ro.md) | [Path Engrave/ro](Path_Engrave/ro.md) | [Path ExportTemplate/ro](Path_ExportTemplate/ro.md) |
+| [Path Fixture/ro](Path_Fixture/ro.md) | [Path Helix/ro](Path_Helix/ro.md) | [Path Inspect/ro](Path_Inspect/ro.md) |
+| [Path Job/ro](Path_Job/ro.md) | [Path MillFace/ro](Path_MillFace/ro.md) | [Path Pocket 3D/ro](Path_Pocket_3D/ro.md) |
+| [Path Post/ro](Path_Post/ro.md) | [Path Profile/ro](Path_Profile/ro.md) | [Path scripting/ro](Path_scripting/ro.md) |
+| [Path SelectLoop/ro](Path_SelectLoop/ro.md) | [Path Shape/ro](Path_Shape/ro.md) | [Path SimpleCopy/ro](Path_SimpleCopy/ro.md) |
+| [Path Simulator/ro](Path_Simulator/ro.md) | [Path Stop/ro](Path_Stop/ro.md) | [Path Surface/ro](Path_Surface/ro.md) |
+| [Path Walkthrough for the Impatient/ro](Path_Walkthrough_for_the_Impatient/ro.md) | [Path Workbench/ro](Path_Workbench/ro.md) |
 
 
 

@@ -5,7 +5,7 @@ This page lists external addon workbenches that have a page in this wiki. Addons
 
 |     |     |     |
 | --- | --- | --- |
-| [Plot Workbench/zh](wiki/Plot Workbench/zh.md) | [Ship Workbench/zh](wiki/Ship Workbench/zh.md) | [Category:External Workbenches/zh](wiki/Category_External Workbenches/zh.md) |
+| [Plot Workbench/zh](Plot_Workbench/zh.md) | [Ship Workbench/zh](Ship_Workbench/zh.md) | [Category:External Workbenches/zh](Category_External_Workbenches/zh.md) |
 |
 
 

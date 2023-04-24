@@ -5,7 +5,7 @@ This category lists pages related to the [Robot Workbench/hr](Robot_Workbench/hr
 
 |     |     |     |
 | --- | --- | --- |
-| [Robot Workbench/hr](wiki/Robot Workbench/hr.md) |
+| [Robot Workbench/hr](Robot_Workbench/hr.md) |
 
 
 

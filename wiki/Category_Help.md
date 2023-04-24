@@ -5,8 +5,8 @@ This category lists pages that contain helpfull information on MediaWiki and edi
 
 |     |     |     |
 | --- | --- | --- |
-| [Help:Editing](wiki/Help_Editing.md) | [Help:Editing/tr](wiki/Help_Editing/tr.md) | [Help](wiki/Help.md) |
-| [Key ASCII](wiki/Key ASCII.md) |
+| [Help:Editing](Help_Editing.md) | [Help:Editing/tr](Help_Editing/tr.md) | [Help](Help.md) |
+| [Key ASCII](Key_ASCII.md) |
 
 
 

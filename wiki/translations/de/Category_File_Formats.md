@@ -5,15 +5,15 @@ This category collects pages about all the different file formats that FreeCAD i
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch 3DS/de](wiki/Arch 3DS/de.md) | [Arch DAE/de](wiki/Arch DAE/de.md) | [Arch IFC/de](wiki/Arch IFC/de.md) |
-| [Arch JSON/de](wiki/Arch JSON/de.md) | [Arch OBJ/de](wiki/Arch OBJ/de.md) | [Asymptote/de](wiki/Asymptote/de.md) |
-| [Draft DXF/de](wiki/Draft DXF/de.md) | [Draft OCA/de](wiki/Draft OCA/de.md) | [Draft SVG/de](wiki/Draft SVG/de.md) |
-| [DXF/de](wiki/DXF/de.md) | [Export to STL or OBJ/de](wiki/Export to STL or OBJ/de.md) | [File Format FCStd/de](wiki/File Format FCStd/de.md) |
-| [FreeCAD and DWG Import/de](wiki/FreeCAD and DWG Import/de.md) | [FreeCAD and DXF Import/de](wiki/FreeCAD and DXF Import/de.md) | [FreeCAD and Mesh Import/de](wiki/FreeCAD and Mesh Import/de.md) |
-| [Import Export Preferences/de](wiki/Import Export Preferences/de.md) | [Import Export/de](wiki/Import Export/de.md) | [Import from STL or OBJ/de](wiki/Import from STL or OBJ/de.md) |
-| [Import/Export IFC - compiling IfcOpenShell/de](wiki/Import/Export IFC - compiling IfcOpenShell/de.md) | [OpenSCAD CSG/de](wiki/OpenSCAD CSG/de.md) | [PDF/de](wiki/PDF/de.md) |
-| [Spreadsheet CSV/de](wiki/Spreadsheet CSV/de.md) | [Std Export/de](wiki/Std Export/de.md) | [Std Import/de](wiki/Std Import/de.md) |
-| [SVG/de](wiki/SVG/de.md) |
+| [Arch 3DS/de](Arch_3DS/de.md) | [Arch DAE/de](Arch_DAE/de.md) | [Arch IFC/de](Arch_IFC/de.md) |
+| [Arch JSON/de](Arch_JSON/de.md) | [Arch OBJ/de](Arch_OBJ/de.md) | [Asymptote/de](Asymptote/de.md) |
+| [Draft DXF/de](Draft_DXF/de.md) | [Draft OCA/de](Draft_OCA/de.md) | [Draft SVG/de](Draft_SVG/de.md) |
+| [DXF/de](DXF/de.md) | [Export to STL or OBJ/de](Export_to_STL_or_OBJ/de.md) | [File Format FCStd/de](File_Format_FCStd/de.md) |
+| [FreeCAD and DWG Import/de](FreeCAD_and_DWG_Import/de.md) | [FreeCAD and DXF Import/de](FreeCAD_and_DXF_Import/de.md) | [FreeCAD and Mesh Import/de](FreeCAD_and_Mesh_Import/de.md) |
+| [Import Export Preferences/de](Import_Export_Preferences/de.md) | [Import Export/de](Import_Export/de.md) | [Import from STL or OBJ/de](Import_from_STL_or_OBJ/de.md) |
+| [Import/Export IFC - compiling IfcOpenShell/de](Import/Export_IFC_-_compiling_IfcOpenShell/de.md) | [OpenSCAD CSG/de](OpenSCAD_CSG/de.md) | [PDF/de](PDF/de.md) |
+| [Spreadsheet CSV/de](Spreadsheet_CSV/de.md) | [Std Export/de](Std_Export/de.md) | [Std Import/de](Std_Import/de.md) |
+| [SVG/de](SVG/de.md) |
 
 
 

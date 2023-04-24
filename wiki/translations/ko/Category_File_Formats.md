@@ -5,9 +5,9 @@ This category collects pages about all the different file formats that FreeCAD i
 
 |     |     |     |
 | --- | --- | --- |
-| [FreeCAD and DWG Import/ko](wiki/FreeCAD and DWG Import/ko.md) | [Import Export Preferences/ko](wiki/Import Export Preferences/ko.md) | [Import Export/ko](wiki/Import Export/ko.md) |
-| [Import from STL or OBJ/ko](wiki/Import from STL or OBJ/ko.md) | [PDF/ko](wiki/PDF/ko.md) | [Std Export/ko](wiki/Std Export/ko.md) |
-| [Std Import/ko](wiki/Std Import/ko.md) |
+| [FreeCAD and DWG Import/ko](FreeCAD_and_DWG_Import/ko.md) | [Import Export Preferences/ko](Import_Export_Preferences/ko.md) | [Import Export/ko](Import_Export/ko.md) |
+| [Import from STL or OBJ/ko](Import_from_STL_or_OBJ/ko.md) | [PDF/ko](PDF/ko.md) | [Std Export/ko](Std_Export/ko.md) |
+| [Std Import/ko](Std_Import/ko.md) |
 
 
 

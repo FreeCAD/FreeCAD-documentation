@@ -5,10 +5,10 @@ Bu sayfa, bu wikide bir sayfaya sahip harici ek çalışma tezgahlarını listel
 
 |     |     |     |
 | --- | --- | --- |
-| [Plot Axes/tr](wiki/Plot Axes/tr.md) | [Plot Grid/tr](wiki/Plot Grid/tr.md) | [Plot Labels/tr](wiki/Plot Labels/tr.md) |
-| [Plot Legend/tr](wiki/Plot Legend/tr.md) | [Plot Positions/tr](wiki/Plot Positions/tr.md) | [Plot Series/tr](wiki/Plot Series/tr.md) |
-| [Plot Workbench/tr](wiki/Plot Workbench/tr.md) | [Ship Workbench/tr](wiki/Ship Workbench/tr.md) | [Category:External Workbenches/tr](wiki/Category_External Workbenches/tr.md) |
-| [Category:Macros/tr](wiki/Category_Macros/tr.md) |
+| [Plot Axes/tr](Plot_Axes/tr.md) | [Plot Grid/tr](Plot_Grid/tr.md) | [Plot Labels/tr](Plot_Labels/tr.md) |
+| [Plot Legend/tr](Plot_Legend/tr.md) | [Plot Positions/tr](Plot_Positions/tr.md) | [Plot Series/tr](Plot_Series/tr.md) |
+| [Plot Workbench/tr](Plot_Workbench/tr.md) | [Ship Workbench/tr](Ship_Workbench/tr.md) | [Category:External Workbenches/tr](Category_External_Workbenches/tr.md) |
+| [Category:Macros/tr](Category_Macros/tr.md) |
 
 
 

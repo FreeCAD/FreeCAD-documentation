@@ -5,7 +5,7 @@ This category lists pages related to the [PartDesign Workbench/pt](PartDesign_Wo
 
 |     |     |     |
 | --- | --- | --- |
-| [Path Workbench/pt](wiki/Path Workbench/pt.md) |
+| [Path Workbench/pt](Path_Workbench/pt.md) |
 
 
 

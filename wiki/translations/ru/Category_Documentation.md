@@ -5,15 +5,15 @@ This category groups all of the FreeCAD documentation
 
 |     |     |     |
 | --- | --- | --- |
-| [3D input devices/ru](wiki/3D input devices/ru.md) | [ANSI templates/ru](wiki/ANSI templates/ru.md) | [Drawing templates/ru](wiki/Drawing templates/ru.md) |
-| [FreeCAD Community Portal/ru](wiki/FreeCAD Community Portal/ru.md) | [Frequently asked questions/ru](wiki/Frequently asked questions/ru.md) | [Help FreeCAD/ru](wiki/Help FreeCAD/ru.md) |
-| [Main Page/ru](wiki/Main Page/ru.md) | [Online Help Toc/ru](wiki/Online Help Toc/ru.md) | [Release notes 0.11/ru](wiki/Release notes 0.11/ru.md) |
-| [Release notes 0.12/ru](wiki/Release notes 0.12/ru.md) | [Release notes 0.13/ru](wiki/Release notes 0.13/ru.md) | [Release notes 0.14/ru](wiki/Release notes 0.14/ru.md) |
-| [Release notes 0.15/ru](wiki/Release notes 0.15/ru.md) | [Release notes 0.16/ru](wiki/Release notes 0.16/ru.md) | [Release notes 0.17/ru](wiki/Release notes 0.17/ru.md) |
-| [Release notes 0.18/ru](wiki/Release notes 0.18/ru.md) | [Release notes 0.19/ru](wiki/Release notes 0.19/ru.md) | [Release notes 0.20/ru](wiki/Release notes 0.20/ru.md) |
-| [Release notes 1.0/ru](wiki/Release notes 1.0/ru.md) | [WikiPages/ru](wiki/WikiPages/ru.md) | [Category:Developer Documentation/ru](wiki/Category_Developer Documentation/ru.md) |
-| [Category:Poweruser Documentation/ru](wiki/Category_Poweruser Documentation/ru.md) | [Category:Screenshots/ru](wiki/Category_Screenshots/ru.md) | [Category:User Documentation/ru](wiki/Category_User Documentation/ru.md) |
-| [Category:Wiki/ru](wiki/Category_Wiki/ru.md) |
+| [3D input devices/ru](3D_input_devices/ru.md) | [ANSI templates/ru](ANSI_templates/ru.md) | [Drawing templates/ru](Drawing_templates/ru.md) |
+| [FreeCAD Community Portal/ru](FreeCAD_Community_Portal/ru.md) | [Frequently asked questions/ru](Frequently_asked_questions/ru.md) | [Help FreeCAD/ru](Help_FreeCAD/ru.md) |
+| [Interesting links/ru](Interesting_links/ru.md) | [Main Page/ru](Main_Page/ru.md) | [Online Help Toc/ru](Online_Help_Toc/ru.md) |
+| [Release notes 0.11/ru](Release_notes_0.11/ru.md) | [Release notes 0.12/ru](Release_notes_0.12/ru.md) | [Release notes 0.13/ru](Release_notes_0.13/ru.md) |
+| [Release notes 0.14/ru](Release_notes_0.14/ru.md) | [Release notes 0.15/ru](Release_notes_0.15/ru.md) | [Release notes 0.16/ru](Release_notes_0.16/ru.md) |
+| [Release notes 0.17/ru](Release_notes_0.17/ru.md) | [Release notes 0.18/ru](Release_notes_0.18/ru.md) | [Release notes 0.19/ru](Release_notes_0.19/ru.md) |
+| [Release notes 0.20/ru](Release_notes_0.20/ru.md) | [Release notes 1.0/ru](Release_notes_1.0/ru.md) | [WikiPages/ru](WikiPages/ru.md) |
+| [Category:Developer Documentation/ru](Category_Developer_Documentation/ru.md) | [Category:Poweruser Documentation/ru](Category_Poweruser_Documentation/ru.md) | [Category:Screenshots/ru](Category_Screenshots/ru.md) |
+| [Category:User Documentation/ru](Category_User_Documentation/ru.md) | [Category:Wiki/ru](Category_Wiki/ru.md) |
 
 
 

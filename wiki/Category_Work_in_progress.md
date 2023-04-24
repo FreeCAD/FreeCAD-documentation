@@ -5,24 +5,32 @@ This category is for pages that are under construction and should not be touched
 
 |     |     |     |
 | --- | --- | --- |
-| [Advanced TechDraw Tutorial](wiki/Advanced TechDraw Tutorial.md) | [Advanced TechDraw Tutorial/de](wiki/Advanced TechDraw Tutorial/de.md) | [Advanced TechDraw Tutorial/en](wiki/Advanced TechDraw Tutorial/en.md) |
-| [Advanced TechDraw Tutorial/es](wiki/Advanced TechDraw Tutorial/es.md) | [Advanced TechDraw Tutorial/fr](wiki/Advanced TechDraw Tutorial/fr.md) | [Advanced TechDraw Tutorial/it](wiki/Advanced TechDraw Tutorial/it.md) |
-| [Advanced TechDraw Tutorial/pl](wiki/Advanced TechDraw Tutorial/pl.md) | [Advanced TechDraw Tutorial/ru](wiki/Advanced TechDraw Tutorial/ru.md) | [FreeCAD 1.0 Development Cycle](wiki/FreeCAD 1.0 Development Cycle.md) |
-| [FreeCAD on Video](wiki/FreeCAD on Video.md) | [FreeCAD used in production](wiki/FreeCAD used in production.md) | [FreeCAD used in production/en](wiki/FreeCAD used in production/en.md) |
-| [FreeCAD used in production/fr](wiki/FreeCAD used in production/fr.md) | [FreeCAD used in production/pl](wiki/FreeCAD used in production/pl.md) | [FreeCAD used in production/pt-br](wiki/FreeCAD used in production/pt-br.md) |
-| [FreeCAD used in production/ru](wiki/FreeCAD used in production/ru.md) | [Macro TechDrawTools](wiki/Macro TechDrawTools.md) | [PartDesign Bearingholder Tutorial I](wiki/PartDesign Bearingholder Tutorial I.md) |
-| [PartDesign Bearingholder Tutorial I/de](wiki/PartDesign Bearingholder Tutorial I/de.md) | [PartDesign Bearingholder Tutorial I/en](wiki/PartDesign Bearingholder Tutorial I/en.md) | [PartDesign Bearingholder Tutorial I/es](wiki/PartDesign Bearingholder Tutorial I/es.md) |
-| [PartDesign Bearingholder Tutorial I/fr](wiki/PartDesign Bearingholder Tutorial I/fr.md) | [PartDesign Bearingholder Tutorial I/it](wiki/PartDesign Bearingholder Tutorial I/it.md) | [PartDesign Bearingholder Tutorial I/pl](wiki/PartDesign Bearingholder Tutorial I/pl.md) |
-| [PartDesign Bearingholder Tutorial I/pt-br](wiki/PartDesign Bearingholder Tutorial I/pt-br.md) | [PartDesign Bearingholder Tutorial I/ro](wiki/PartDesign Bearingholder Tutorial I/ro.md) | [PartDesign Bearingholder Tutorial I/ru](wiki/PartDesign Bearingholder Tutorial I/ru.md) |
-| [PartDesign Bearingholder Tutorial I/tr](wiki/PartDesign Bearingholder Tutorial I/tr.md) | [PartDesign Bearingholder Tutorial II](wiki/PartDesign Bearingholder Tutorial II.md) | [PartDesign Bearingholder Tutorial II/de](wiki/PartDesign Bearingholder Tutorial II/de.md) |
-| [PartDesign Bearingholder Tutorial II/en](wiki/PartDesign Bearingholder Tutorial II/en.md) | [PartDesign Bearingholder Tutorial II/es](wiki/PartDesign Bearingholder Tutorial II/es.md) | [PartDesign Bearingholder Tutorial II/fr](wiki/PartDesign Bearingholder Tutorial II/fr.md) |
-| [PartDesign Bearingholder Tutorial II/it](wiki/PartDesign Bearingholder Tutorial II/it.md) | [PartDesign Bearingholder Tutorial II/pl](wiki/PartDesign Bearingholder Tutorial II/pl.md) | [PartDesign Bearingholder Tutorial II/pt-br](wiki/PartDesign Bearingholder Tutorial II/pt-br.md) |
-| [PartDesign Bearingholder Tutorial II/ro](wiki/PartDesign Bearingholder Tutorial II/ro.md) | [PartDesign Bearingholder Tutorial II/ru](wiki/PartDesign Bearingholder Tutorial II/ru.md) | [PartDesign Bearingholder Tutorial II/tr](wiki/PartDesign Bearingholder Tutorial II/tr.md) |
-| [Sandbox:Add FEM Solver Tutorial](wiki/Sandbox_Add FEM Solver Tutorial.md) | [Sandbox:Hollow Cylinder Tutorial](wiki/Sandbox_Hollow Cylinder Tutorial.md) | [Sandbox:TechDraw template creation tutorial](wiki/Sandbox_TechDraw template creation tutorial.md) |
-| [WikiPages](wiki/WikiPages.md) | [WikiPages/de](wiki/WikiPages/de.md) | [WikiPages/en](wiki/WikiPages/en.md) |
-| [WikiPages/es](wiki/WikiPages/es.md) | [WikiPages/fr](wiki/WikiPages/fr.md) | [WikiPages/pl](wiki/WikiPages/pl.md) |
-| [WikiPages/pt-br](wiki/WikiPages/pt-br.md) | [WikiPages/ru](wiki/WikiPages/ru.md) | [Template:Work in progress](wiki/Template_Work in progress.md) |
-|
+| [Advanced TechDraw Tutorial](Advanced_TechDraw_Tutorial.md) | [Advanced TechDraw Tutorial/de](Advanced_TechDraw_Tutorial/de.md) | [Advanced TechDraw Tutorial/en](Advanced_TechDraw_Tutorial/en.md) |
+| [Advanced TechDraw Tutorial/es](Advanced_TechDraw_Tutorial/es.md) | [Advanced TechDraw Tutorial/fr](Advanced_TechDraw_Tutorial/fr.md) | [Advanced TechDraw Tutorial/it](Advanced_TechDraw_Tutorial/it.md) |
+| [Advanced TechDraw Tutorial/pl](Advanced_TechDraw_Tutorial/pl.md) | [Advanced TechDraw Tutorial/ru](Advanced_TechDraw_Tutorial/ru.md) | [FreeCAD 1.0 Development Cycle](FreeCAD_1.0_Development_Cycle.md) |
+| [FreeCAD on Video](FreeCAD_on_Video.md) | [FreeCAD used in production](FreeCAD_used_in_production.md) | [FreeCAD used in production/en](FreeCAD_used_in_production/en.md) |
+| [FreeCAD used in production/fr](FreeCAD_used_in_production/fr.md) | [FreeCAD used in production/pl](FreeCAD_used_in_production/pl.md) | [FreeCAD used in production/pt-br](FreeCAD_used_in_production/pt-br.md) |
+| [FreeCAD used in production/ru](FreeCAD_used_in_production/ru.md) | [Macro TechDrawTools](Macro_TechDrawTools.md) | [PartDesign Bearingholder Tutorial I](PartDesign_Bearingholder_Tutorial_I.md) |
+| [PartDesign Bearingholder Tutorial I/de](PartDesign_Bearingholder_Tutorial_I/de.md) | [PartDesign Bearingholder Tutorial I/en](PartDesign_Bearingholder_Tutorial_I/en.md) | [PartDesign Bearingholder Tutorial I/es](PartDesign_Bearingholder_Tutorial_I/es.md) |
+| [PartDesign Bearingholder Tutorial I/fr](PartDesign_Bearingholder_Tutorial_I/fr.md) | [PartDesign Bearingholder Tutorial I/it](PartDesign_Bearingholder_Tutorial_I/it.md) | [PartDesign Bearingholder Tutorial I/pl](PartDesign_Bearingholder_Tutorial_I/pl.md) |
+| [PartDesign Bearingholder Tutorial I/pt-br](PartDesign_Bearingholder_Tutorial_I/pt-br.md) | [PartDesign Bearingholder Tutorial I/ro](PartDesign_Bearingholder_Tutorial_I/ro.md) | [PartDesign Bearingholder Tutorial I/ru](PartDesign_Bearingholder_Tutorial_I/ru.md) |
+| [PartDesign Bearingholder Tutorial I/tr](PartDesign_Bearingholder_Tutorial_I/tr.md) | [PartDesign Bearingholder Tutorial II](PartDesign_Bearingholder_Tutorial_II.md) | [PartDesign Bearingholder Tutorial II/de](PartDesign_Bearingholder_Tutorial_II/de.md) |
+| [PartDesign Bearingholder Tutorial II/en](PartDesign_Bearingholder_Tutorial_II/en.md) | [PartDesign Bearingholder Tutorial II/es](PartDesign_Bearingholder_Tutorial_II/es.md) | [PartDesign Bearingholder Tutorial II/fr](PartDesign_Bearingholder_Tutorial_II/fr.md) |
+| [PartDesign Bearingholder Tutorial II/it](PartDesign_Bearingholder_Tutorial_II/it.md) | [PartDesign Bearingholder Tutorial II/pl](PartDesign_Bearingholder_Tutorial_II/pl.md) | [PartDesign Bearingholder Tutorial II/pt-br](PartDesign_Bearingholder_Tutorial_II/pt-br.md) |
+| [PartDesign Bearingholder Tutorial II/ro](PartDesign_Bearingholder_Tutorial_II/ro.md) | [PartDesign Bearingholder Tutorial II/ru](PartDesign_Bearingholder_Tutorial_II/ru.md) | [PartDesign Bearingholder Tutorial II/tr](PartDesign_Bearingholder_Tutorial_II/tr.md) |
+| [Preferences Editor](Preferences_Editor.md) | [Preferences Editor/bg](Preferences_Editor/bg.md) | [Preferences Editor/cs](Preferences_Editor/cs.md) |
+| [Preferences Editor/de](Preferences_Editor/de.md) | [Preferences Editor/en](Preferences_Editor/en.md) | [Preferences Editor/es](Preferences_Editor/es.md) |
+| [Preferences Editor/fr](Preferences_Editor/fr.md) | [Preferences Editor/hr](Preferences_Editor/hr.md) | [Preferences Editor/id](Preferences_Editor/id.md) |
+| [Preferences Editor/it](Preferences_Editor/it.md) | [Preferences Editor/ja](Preferences_Editor/ja.md) | [Preferences Editor/ko](Preferences_Editor/ko.md) |
+| [Preferences Editor/pl](Preferences_Editor/pl.md) | [Preferences Editor/pt](Preferences_Editor/pt.md) | [Preferences Editor/pt-br](Preferences_Editor/pt-br.md) |
+| [Preferences Editor/ro](Preferences_Editor/ro.md) | [Preferences Editor/ru](Preferences_Editor/ru.md) | [Preferences Editor/sv](Preferences_Editor/sv.md) |
+| [Preferences Editor/tr](Preferences_Editor/tr.md) | [Preferences Editor/uk](Preferences_Editor/uk.md) | [Preferences Editor/zh](Preferences_Editor/zh.md) |
+| [Preferences Editor/zh-cn](Preferences_Editor/zh-cn.md) | [Preferences Editor/zh-tw](Preferences_Editor/zh-tw.md) | [Sandbox:Add FEM Solver Tutorial](Sandbox_Add_FEM_Solver_Tutorial.md) |
+| [Sandbox:Hollow Cylinder Tutorial](Sandbox_Hollow_Cylinder_Tutorial.md) | [Sandbox:TechDraw template creation tutorial](Sandbox_TechDraw_template_creation_tutorial.md) | [Sketcher Dialog](Sketcher_Dialog.md) |
+| [Sketcher Preferences](Sketcher_Preferences.md) | [WikiPages](WikiPages.md) | [WikiPages/de](WikiPages/de.md) |
+| [WikiPages/en](WikiPages/en.md) | [WikiPages/es](WikiPages/es.md) | [WikiPages/fr](WikiPages/fr.md) |
+| [WikiPages/pl](WikiPages/pl.md) | [WikiPages/pt-br](WikiPages/pt-br.md) | [WikiPages/ru](WikiPages/ru.md) |
+| [Template:Work in progress](Template_Work_in_progress.md) |
 
 
 

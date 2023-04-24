@@ -5,7 +5,7 @@ This category contains all the Templates
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Template:Navigation/pt-br](wiki/Category_Template_Navigation/pt-br.md) |
+| [Category:Template:Navigation/pt-br](Category_Template_Navigation/pt-br.md) |
 
 
 

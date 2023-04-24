@@ -5,12 +5,12 @@ This category gathers documentation article mostly aimed at programmers
 
 |     |     |     |
 | --- | --- | --- |
-| [Code snippets/id](wiki/Code snippets/id.md) | [Embedding FreeCAD/id](wiki/Embedding FreeCAD/id.md) | [File Format FCStd/id](wiki/File Format FCStd/id.md) |
-| [FreeCAD Scripting Basics/id](wiki/FreeCAD Scripting Basics/id.md) | [Installing on Linux/id](wiki/Installing on Linux/id.md) | [Introduction to Python/id](wiki/Introduction to Python/id.md) |
-| [Line drawing function/id](wiki/Line drawing function/id.md) | [Localisation/id](wiki/Localisation/id.md) | [Macros/id](wiki/Macros/id.md) |
-| [Mesh Scripting/id](wiki/Mesh Scripting/id.md) | [Mesh to Part/id](wiki/Mesh to Part/id.md) | [Pivy/id](wiki/Pivy/id.md) |
-| [Property/id](wiki/Property/id.md) | [PySide/id](wiki/PySide/id.md) | [Python scripting tutorial/id](wiki/Python scripting tutorial/id.md) |
-| [Scenegraph/id](wiki/Scenegraph/id.md) | [Scripted objects/id](wiki/Scripted objects/id.md) | [Topological data scripting/id](wiki/Topological data scripting/id.md) |
+| [Code snippets/id](Code_snippets/id.md) | [Embedding FreeCAD/id](Embedding_FreeCAD/id.md) | [File Format FCStd/id](File_Format_FCStd/id.md) |
+| [FreeCAD Scripting Basics/id](FreeCAD_Scripting_Basics/id.md) | [Installing on Linux/id](Installing_on_Linux/id.md) | [Introduction to Python/id](Introduction_to_Python/id.md) |
+| [Line drawing function/id](Line_drawing_function/id.md) | [Localisation/id](Localisation/id.md) | [Macros/id](Macros/id.md) |
+| [Mesh Scripting/id](Mesh_Scripting/id.md) | [Mesh to Part/id](Mesh_to_Part/id.md) | [Pivy/id](Pivy/id.md) |
+| [Property/id](Property/id.md) | [PySide/id](PySide/id.md) | [Python scripting tutorial/id](Python_scripting_tutorial/id.md) |
+| [Scenegraph/id](Scenegraph/id.md) | [Scripted objects/id](Scripted_objects/id.md) | [Topological data scripting/id](Topological_data_scripting/id.md) |
 |
 
 

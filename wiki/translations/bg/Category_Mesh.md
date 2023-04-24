@@ -5,7 +5,7 @@ This category lists pages related to the [Mesh_Workbench/bg](Mesh_Workbench/bg.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Mesh Workbench/bg](wiki/Mesh Workbench/bg.md) |
+| [Mesh Workbench/bg](Mesh_Workbench/bg.md) |
 
 
 

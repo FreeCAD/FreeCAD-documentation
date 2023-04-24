@@ -9,7 +9,7 @@ Longer pieces of text should be placed in the page itself so that they are trans
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:Version/es](wiki/Template_Version/es.md) |
+| [Template:Version/es](Template_Version/es.md) |
 
 
 

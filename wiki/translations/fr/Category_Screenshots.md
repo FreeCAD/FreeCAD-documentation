@@ -5,7 +5,7 @@ Cette catégorie répertorie les pages avec des captures d\'écran.
 
 |     |     |     |
 | --- | --- | --- |
-| [Screenshots/fr](wiki/Screenshots/fr.md) |
+| [Screenshots/fr](Screenshots/fr.md) |
 
 
 

@@ -10,8 +10,8 @@ This is the **top category** which contains the main categories of the FreeCAD w
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Addons/zh-hant](wiki/Category_Addons/zh-hant.md) | [Category:Administration/zh-hant](wiki/Category_Administration/zh-hant.md) | [Category:Categories/zh-hant](wiki/Category_Categories/zh-hant.md) |
-| [Category:Documentation/zh-hant](wiki/Category_Documentation/zh-hant.md) | [Category:Hubs/zh-hant](wiki/Category_Hubs/zh-hant.md) | [Category:Template/zh-hant](wiki/Category_Template/zh-hant.md) |
+| [Category:Addons/zh-hant](Category_Addons/zh-hant.md) | [Category:Administration/zh-hant](Category_Administration/zh-hant.md) | [Category:Categories/zh-hant](Category_Categories/zh-hant.md) |
+| [Category:Documentation/zh-hant](Category_Documentation/zh-hant.md) | [Category:Hubs/zh-hant](Category_Hubs/zh-hant.md) | [Category:Template/zh-hant](Category_Template/zh-hant.md) |
 |
 
 

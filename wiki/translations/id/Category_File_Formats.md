@@ -5,7 +5,7 @@ This category collects pages about all the different file formats that FreeCAD i
 
 |     |     |     |
 | --- | --- | --- |
-| [File Format FCStd/id](wiki/File Format FCStd/id.md) |
+| [File Format FCStd/id](File_Format_FCStd/id.md) |
 
 
 

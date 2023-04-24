@@ -7,8 +7,8 @@ This category gathers articles that list objects and methods available for [Pyth
 
 |     |     |     |
 | --- | --- | --- |
-| [Base API/ja](wiki/Base API/ja.md) | [Builtin modules/ja](wiki/Builtin modules/ja.md) | [Console API/ja](wiki/Console API/ja.md) |
-| [Draft API/ja](wiki/Draft API/ja.md) | [FreeCAD API/ja](wiki/FreeCAD API/ja.md) | [Mesh API/ja](wiki/Mesh API/ja.md) |
+| [Base API/ja](Base_API/ja.md) | [Builtin modules/ja](Builtin_modules/ja.md) | [Console API/ja](Console_API/ja.md) |
+| [Draft API/ja](Draft_API/ja.md) | [FreeCAD API/ja](FreeCAD_API/ja.md) | [Mesh API/ja](Mesh_API/ja.md) |
 |
 
 

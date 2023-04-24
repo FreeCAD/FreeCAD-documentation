@@ -5,7 +5,7 @@ This category list pages related to the \"User_Documentation/bg\" and \"Workbenc
 
 |     |     |     |
 | --- | --- | --- |
-| [Draft Workbench/bg](wiki/Draft Workbench/bg.md) |
+| [Draft Workbench/bg](Draft_Workbench/bg.md) |
 
 
 

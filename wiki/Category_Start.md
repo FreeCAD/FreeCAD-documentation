@@ -5,8 +5,8 @@ This category lists pages related to the [Start Workbench](Start_Workbench.md).
 
 |     |     |     |
 | --- | --- | --- |
-| [Artwork Start](wiki/Artwork Start.md) | [Start Preferences](wiki/Start Preferences.md) | [Template:Start Tools navi](wiki/Template_Start Tools navi.md) |
-| [Start Workbench](wiki/Start Workbench.md) |
+| [Artwork Start](Artwork_Start.md) | [Start Preferences](Start_Preferences.md) | [Template:Start Tools navi](Template_Start_Tools_navi.md) |
+| [Start Workbench](Start_Workbench.md) |
 
 
 

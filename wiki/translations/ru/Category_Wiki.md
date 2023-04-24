@@ -5,8 +5,8 @@ This category contains all documents that relate to the Wiki/ru.
 
 |     |     |     |
 | --- | --- | --- |
-| [Glossary/ru](wiki/Glossary/ru.md) | [Localisation Sidebar/ru](wiki/Localisation Sidebar/ru.md) | [Localisation/ru](wiki/Localisation/ru.md) |
-| [WikiPages/ru](wiki/WikiPages/ru.md) |
+| [Glossary/ru](Glossary/ru.md) | [Localisation Sidebar/ru](Localisation_Sidebar/ru.md) | [Localisation/ru](Localisation/ru.md) |
+| [WikiPages/ru](WikiPages/ru.md) |
 
 
 

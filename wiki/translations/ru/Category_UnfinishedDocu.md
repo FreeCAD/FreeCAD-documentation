@@ -5,31 +5,30 @@
 
 |     |     |     |
 | --- | --- | --- |
-| [Animation Workbench/ru](wiki/Animation Workbench/ru.md) | [Assembly3 AxialMove/ru](wiki/Assembly3 AxialMove/ru.md) | [Assembly3 ConstraintPointInPlane/ru](wiki/Assembly3 ConstraintPointInPlane/ru.md) |
-| [Assembly3 ConstraintSketchPlane/ru](wiki/Assembly3 ConstraintSketchPlane/ru.md) | [Assembly3 CreateAssembly/ru](wiki/Assembly3 CreateAssembly/ru.md) | [Assembly3 CreateElement/ru](wiki/Assembly3 CreateElement/ru.md) |
-| [Assembly3 GroupObjects/ru](wiki/Assembly3 GroupObjects/ru.md) | [Assembly3 ImportFromSTEP/ru](wiki/Assembly3 ImportFromSTEP/ru.md) | [Assembly3 ImportMultiDocument/ru](wiki/Assembly3 ImportMultiDocument/ru.md) |
-| [Assembly3 MoveItemUp/ru](wiki/Assembly3 MoveItemUp/ru.md) | [Assembly3 MovePart/ru](wiki/Assembly3 MovePart/ru.md) | [Assembly3 QuickMove/ru](wiki/Assembly3 QuickMove/ru.md) |
-| [Assembly3 QuickSolve/ru](wiki/Assembly3 QuickSolve/ru.md) | [Assembly3 ResolveConstraints/ru](wiki/Assembly3 ResolveConstraints/ru.md) | [BIM application compatibility table/ru](wiki/BIM application compatibility table/ru.md) |
-| [BIM ingame tutorial/ru](wiki/BIM ingame tutorial/ru.md) | [BIM Workbench/ru](wiki/BIM Workbench/ru.md) | [Compile on Docker/ru](wiki/Compile on Docker/ru.md) |
-| [Curves Workbench/ru](wiki/Curves Workbench/ru.md) | [Engine Block Tutorial/ru](wiki/Engine Block Tutorial/ru.md) | [FEM ConstantVacuumPermittivity/ru](wiki/FEM ConstantVacuumPermittivity/ru.md) |
-| [FEM ConstraintBearing/ru](wiki/FEM ConstraintBearing/ru.md) | [FEM ConstraintFluidBoundary/ru](wiki/FEM ConstraintFluidBoundary/ru.md) | [FEM ConstraintGear/ru](wiki/FEM ConstraintGear/ru.md) |
-| [FEM ConstraintPulley/ru](wiki/FEM ConstraintPulley/ru.md) | [FEM ConstraintSpring/ru](wiki/FEM ConstraintSpring/ru.md) | [FEM CreateNodesSet/ru](wiki/FEM CreateNodesSet/ru.md) |
-| [FEM ElementGeometry1D/ru](wiki/FEM ElementGeometry1D/ru.md) | [FEM ElementGeometry2D/ru](wiki/FEM ElementGeometry2D/ru.md) | [FEM ElementRotation1D/ru](wiki/FEM ElementRotation1D/ru.md) |
-| [FEM MaterialMechanicalNonlinear/ru](wiki/FEM MaterialMechanicalNonlinear/ru.md) | [FEM MaterialReinforced/ru](wiki/FEM MaterialReinforced/ru.md) | [FEM MeshClear/ru](wiki/FEM MeshClear/ru.md) |
-| [FEM MeshNetgenFromShape/ru](wiki/FEM MeshNetgenFromShape/ru.md) | [FEM SolverCalculiX/ru](wiki/FEM SolverCalculiX/ru.md) | [FEM SolverControl/ru](wiki/FEM SolverControl/ru.md) |
-| [FEM SolverMystran/ru](wiki/FEM SolverMystran/ru.md) | [FEM SolverRun/ru](wiki/FEM SolverRun/ru.md) | [FreeCAD Docker CLI mode/ru](wiki/FreeCAD Docker CLI mode/ru.md) |
-| [Lattice2 Workbench/ru](wiki/Lattice2 Workbench/ru.md) | [Manual:BIM modeling/ru](wiki/Manual_BIM modeling/ru.md) | [Migrating to FreeCAD from SolidWorks/ru](wiki/Migrating to FreeCAD from SolidWorks/ru.md) |
-| [OpenSCAD ColorCodeShape/ru](wiki/OpenSCAD ColorCodeShape/ru.md) | [Part BoxSelection/ru](wiki/Part BoxSelection/ru.md) | [Part ElementCopy/ru](wiki/Part ElementCopy/ru.md) |
-| [Part Loft/ru](wiki/Part Loft/ru.md) | [Part Mirror/ru](wiki/Part Mirror/ru.md) | [Part Offset/ru](wiki/Part Offset/ru.md) |
-| [Part PointsFromMesh/ru](wiki/Part PointsFromMesh/ru.md) | [Part RuledSurface/ru](wiki/Part RuledSurface/ru.md) | [Part TransformedCopy/ru](wiki/Part TransformedCopy/ru.md) |
-| [Path Fixture/ru](wiki/Path Fixture/ru.md) | [Path Helix/ru](wiki/Path Helix/ru.md) | [Path Pocket 3D/ru](wiki/Path Pocket 3D/ru.md) |
-| [Path Postprocessor Customization/ru](wiki/Path Postprocessor Customization/ru.md) | [Path Sanity/ru](wiki/Path Sanity/ru.md) | [Path Shape/ru](wiki/Path Shape/ru.md) |
-| [Path Simulator/ru](wiki/Path Simulator/ru.md) | [Path Surface/ru](wiki/Path Surface/ru.md) | [Path ToolBit Library/ru](wiki/Path ToolBit Library/ru.md) |
-| [Path ToolController/ru](wiki/Path ToolController/ru.md) | [Path Tools/ru](wiki/Path Tools/ru.md) | [Robot SetDefaultOrientation/ru](wiki/Robot SetDefaultOrientation/ru.md) |
-| [SheetMetal Workbench/ru](wiki/SheetMetal Workbench/ru.md) | [Ship Capacity/ru](wiki/Ship Capacity/ru.md) | [Ship GZ/ru](wiki/Ship GZ/ru.md) |
-| [Ship LoadCondition/ru](wiki/Ship LoadCondition/ru.md) | [Sketcher ConstrainHorizontal/ru](wiki/Sketcher ConstrainHorizontal/ru.md) | [Sketcher SelectElementsWithDoFs/ru](wiki/Sketcher SelectElementsWithDoFs/ru.md) |
-| [Std MacroAttachDebugger/ru](wiki/Std MacroAttachDebugger/ru.md) | [Transient FEM analysis/ru](wiki/Transient FEM analysis/ru.md) | [WikiPages/ru](wiki/WikiPages/ru.md) |
-| [Windows packaging/ru](wiki/Windows packaging/ru.md) |
+| [Animation Workbench/ru](Animation_Workbench/ru.md) | [Assembly3 AxialMove/ru](Assembly3_AxialMove/ru.md) | [Assembly3 ConstraintPointInPlane/ru](Assembly3_ConstraintPointInPlane/ru.md) |
+| [Assembly3 ConstraintSketchPlane/ru](Assembly3_ConstraintSketchPlane/ru.md) | [Assembly3 CreateAssembly/ru](Assembly3_CreateAssembly/ru.md) | [Assembly3 CreateElement/ru](Assembly3_CreateElement/ru.md) |
+| [Assembly3 GroupObjects/ru](Assembly3_GroupObjects/ru.md) | [Assembly3 ImportFromSTEP/ru](Assembly3_ImportFromSTEP/ru.md) | [Assembly3 ImportMultiDocument/ru](Assembly3_ImportMultiDocument/ru.md) |
+| [Assembly3 MoveItemUp/ru](Assembly3_MoveItemUp/ru.md) | [Assembly3 MovePart/ru](Assembly3_MovePart/ru.md) | [Assembly3 QuickMove/ru](Assembly3_QuickMove/ru.md) |
+| [Assembly3 QuickSolve/ru](Assembly3_QuickSolve/ru.md) | [Assembly3 ResolveConstraints/ru](Assembly3_ResolveConstraints/ru.md) | [BIM application compatibility table/ru](BIM_application_compatibility_table/ru.md) |
+| [BIM ingame tutorial/ru](BIM_ingame_tutorial/ru.md) | [BIM Workbench/ru](BIM_Workbench/ru.md) | [Compile on Docker/ru](Compile_on_Docker/ru.md) |
+| [Curves Workbench/ru](Curves_Workbench/ru.md) | [Engine Block Tutorial/ru](Engine_Block_Tutorial/ru.md) | [FEM ConstantVacuumPermittivity/ru](FEM_ConstantVacuumPermittivity/ru.md) |
+| [FEM ConstraintBearing/ru](FEM_ConstraintBearing/ru.md) | [FEM ConstraintFluidBoundary/ru](FEM_ConstraintFluidBoundary/ru.md) | [FEM ConstraintGear/ru](FEM_ConstraintGear/ru.md) |
+| [FEM ConstraintPulley/ru](FEM_ConstraintPulley/ru.md) | [FEM CreateNodesSet/ru](FEM_CreateNodesSet/ru.md) | [FEM ElementGeometry1D/ru](FEM_ElementGeometry1D/ru.md) |
+| [FEM ElementGeometry2D/ru](FEM_ElementGeometry2D/ru.md) | [FEM ElementRotation1D/ru](FEM_ElementRotation1D/ru.md) | [FEM MaterialMechanicalNonlinear/ru](FEM_MaterialMechanicalNonlinear/ru.md) |
+| [FEM MaterialReinforced/ru](FEM_MaterialReinforced/ru.md) | [FEM MeshClear/ru](FEM_MeshClear/ru.md) | [FEM MeshNetgenFromShape/ru](FEM_MeshNetgenFromShape/ru.md) |
+| [FEM SolverCalculiX/ru](FEM_SolverCalculiX/ru.md) | [FEM SolverControl/ru](FEM_SolverControl/ru.md) | [FEM SolverMystran/ru](FEM_SolverMystran/ru.md) |
+| [FEM SolverRun/ru](FEM_SolverRun/ru.md) | [FreeCAD Docker CLI mode/ru](FreeCAD_Docker_CLI_mode/ru.md) | [Lattice2 Workbench/ru](Lattice2_Workbench/ru.md) |
+| [Manual:BIM modeling/ru](Manual_BIM_modeling/ru.md) | [Migrating to FreeCAD from SolidWorks/ru](Migrating_to_FreeCAD_from_SolidWorks/ru.md) | [OpenSCAD ColorCodeShape/ru](OpenSCAD_ColorCodeShape/ru.md) |
+| [Part BoxSelection/ru](Part_BoxSelection/ru.md) | [Part ElementCopy/ru](Part_ElementCopy/ru.md) | [Part Loft/ru](Part_Loft/ru.md) |
+| [Part Mirror/ru](Part_Mirror/ru.md) | [Part Offset/ru](Part_Offset/ru.md) | [Part RuledSurface/ru](Part_RuledSurface/ru.md) |
+| [Part TransformedCopy/ru](Part_TransformedCopy/ru.md) | [Path Fixture/ru](Path_Fixture/ru.md) | [Path Helix/ru](Path_Helix/ru.md) |
+| [Path Pocket 3D/ru](Path_Pocket_3D/ru.md) | [Path Postprocessor Customization/ru](Path_Postprocessor_Customization/ru.md) | [Path Sanity/ru](Path_Sanity/ru.md) |
+| [Path Shape/ru](Path_Shape/ru.md) | [Path Simulator/ru](Path_Simulator/ru.md) | [Path Surface/ru](Path_Surface/ru.md) |
+| [Path ToolBit Library/ru](Path_ToolBit_Library/ru.md) | [Path ToolController/ru](Path_ToolController/ru.md) | [Path Tools/ru](Path_Tools/ru.md) |
+| [Robot SetDefaultOrientation/ru](Robot_SetDefaultOrientation/ru.md) | [SheetMetal Workbench/ru](SheetMetal_Workbench/ru.md) | [Ship Capacity/ru](Ship_Capacity/ru.md) |
+| [Ship GZ/ru](Ship_GZ/ru.md) | [Ship LoadCondition/ru](Ship_LoadCondition/ru.md) | [Sketcher ConstrainHorizontal/ru](Sketcher_ConstrainHorizontal/ru.md) |
+| [Sketcher SelectElementsWithDoFs/ru](Sketcher_SelectElementsWithDoFs/ru.md) | [Std MacroAttachDebugger/ru](Std_MacroAttachDebugger/ru.md) | [Transient FEM analysis/ru](Transient_FEM_analysis/ru.md) |
+| [WikiPages/ru](WikiPages/ru.md) | [Windows packaging/ru](Windows_packaging/ru.md) |
 
 
 

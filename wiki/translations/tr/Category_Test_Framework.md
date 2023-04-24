@@ -5,7 +5,7 @@ This category lists pages related to the [Test Framework Workbench](Testing/tr.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Testing/tr](wiki/Testing/tr.md) |
+| [Testing/tr](Testing/tr.md) |
 
 
 

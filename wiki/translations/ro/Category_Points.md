@@ -5,7 +5,7 @@ This category lists pages related to the [Points Workbench/ro](Points_Workbench/
 
 |     |     |     |
 | --- | --- | --- |
-| [Points Workbench/ro](wiki/Points Workbench/ro.md) |
+| [Points Workbench/ro](Points_Workbench/ro.md) |
 
 
 

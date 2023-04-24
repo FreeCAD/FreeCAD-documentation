@@ -7,9 +7,9 @@ See also [UncategorizedTemplates](Special_UncategorizedTemplates.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:Blender Navigation/cs](wiki/Template_Blender Navigation/cs.md) | [Template:CAD Navigation/cs](wiki/Template_CAD Navigation/cs.md) | [Template:Inventor Navigation/cs](wiki/Template_Inventor Navigation/cs.md) |
-| [Template:Languages/cs](wiki/Template_Languages/cs.md) | [Template:PartDesign Extras/cs](wiki/Template_PartDesign Extras/cs.md) | [Template:Property/cs](wiki/Template_Property/cs.md) |
-| [Template:Touchpad Navigation/cs](wiki/Template_Touchpad Navigation/cs.md) | [Category:Template:Doc/cs](wiki/Category_Template_Doc/cs.md) | [Category:Template:Navigation/cs](wiki/Category_Template_Navigation/cs.md) |
+| [Template:Blender Navigation/cs](Template_Blender_Navigation/cs.md) | [Template:CAD Navigation/cs](Template_CAD_Navigation/cs.md) | [Template:Inventor Navigation/cs](Template_Inventor_Navigation/cs.md) |
+| [Template:Languages/cs](Template_Languages/cs.md) | [Template:PartDesign Extras/cs](Template_PartDesign_Extras/cs.md) | [Template:Property/cs](Template_Property/cs.md) |
+| [Template:Touchpad Navigation/cs](Template_Touchpad_Navigation/cs.md) | [Category:Template:Doc/cs](Category_Template_Doc/cs.md) | [Category:Template:Navigation/cs](Category_Template_Navigation/cs.md) |
 |
 
 

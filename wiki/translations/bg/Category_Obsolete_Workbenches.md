@@ -5,7 +5,7 @@ This category lists obsolete workbenches, that is, workbenches that are old and 
 
 |     |     |     |
 | --- | --- | --- |
-| [Drawing Workbench/bg](wiki/Drawing Workbench/bg.md) | [Category:Drawing/bg](wiki/Category_Drawing/bg.md) |
+| [Drawing Workbench/bg](Drawing_Workbench/bg.md) | [Category:Drawing/bg](Category_Drawing/bg.md) |
 
 
 

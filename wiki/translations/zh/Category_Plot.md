@@ -5,7 +5,7 @@ This category lists pages related to the [Plot Workbench/zh](Plot_Workbench/zh.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Plot Workbench/zh](wiki/Plot Workbench/zh.md) |
+| [Plot Workbench/zh](Plot_Workbench/zh.md) |
 
 
 

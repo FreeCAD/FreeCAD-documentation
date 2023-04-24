@@ -5,7 +5,7 @@ This category lists pages with screenshots.
 
 |     |     |     |
 | --- | --- | --- |
-| [Screenshots/zh-cn](wiki/Screenshots/zh-cn.md) |
+| [Screenshots/zh-cn](Screenshots/zh-cn.md) |
 
 
 

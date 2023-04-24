@@ -5,17 +5,17 @@ This category list pages related to the [Std Base](Std_Base/es.md), which collec
 
 |     |     |     |
 | --- | --- | --- |
-| [App Link/es](wiki/App Link/es.md) | [Combo view/es](wiki/Combo view/es.md) | [Interface Customization/es](wiki/Interface Customization/es.md) |
-| [Property editor/es](wiki/Property editor/es.md) | [Python console/es](wiki/Python console/es.md) | [Report view/es](wiki/Report view/es.md) |
-| [Standard Menu/es](wiki/Standard Menu/es.md) | [Std AddonMgr/es](wiki/Std AddonMgr/es.md) | [Std Base/es](wiki/Std Base/es.md) |
-| [Std Delete/es](wiki/Std Delete/es.md) | [Std DependencyGraph/es](wiki/Std DependencyGraph/es.md) | [Std DlgCustomize/es](wiki/Std DlgCustomize/es.md) |
-| [Std Edit Menu/es](wiki/Std Edit Menu/es.md) | [Std Edit/es](wiki/Std Edit/es.md) | [Std File Menu/es](wiki/Std File Menu/es.md) |
-| [Std Group/es](wiki/Std Group/es.md) | [Std Import/es](wiki/Std Import/es.md) | [Std New/es](wiki/Std New/es.md) |
-| [Std Open/es](wiki/Std Open/es.md) | [Std OrthographicCamera/es](wiki/Std OrthographicCamera/es.md) | [Std Part/es](wiki/Std Part/es.md) |
-| [Std PerspectiveCamera/es](wiki/Std PerspectiveCamera/es.md) | [Std ProjectUtil/es](wiki/Std ProjectUtil/es.md) | [Std Save/es](wiki/Std Save/es.md) |
-| [Std SaveAs/es](wiki/Std SaveAs/es.md) | [Std SceneInspector/es](wiki/Std SceneInspector/es.md) | [Std ToggleClipPlane/es](wiki/Std ToggleClipPlane/es.md) |
-| [Std Tools Menu/es](wiki/Std Tools Menu/es.md) | [Std View Menu/es](wiki/Std View Menu/es.md) | [Std ViewScreenShot/es](wiki/Std ViewScreenShot/es.md) |
-| [Std Workbench/es](wiki/Std Workbench/es.md) | [Tree view/es](wiki/Tree view/es.md) |
+| [App Link/es](App_Link/es.md) | [Combo view/es](Combo_view/es.md) | [Interface Customization/es](Interface_Customization/es.md) |
+| [Property editor/es](Property_editor/es.md) | [Python console/es](Python_console/es.md) | [Report view/es](Report_view/es.md) |
+| [Standard Menu/es](Standard_Menu/es.md) | [Std AddonMgr/es](Std_AddonMgr/es.md) | [Std Base/es](Std_Base/es.md) |
+| [Std Delete/es](Std_Delete/es.md) | [Std DependencyGraph/es](Std_DependencyGraph/es.md) | [Std DlgCustomize/es](Std_DlgCustomize/es.md) |
+| [Std Edit Menu/es](Std_Edit_Menu/es.md) | [Std Edit/es](Std_Edit/es.md) | [Std File Menu/es](Std_File_Menu/es.md) |
+| [Std Group/es](Std_Group/es.md) | [Std Import/es](Std_Import/es.md) | [Std New/es](Std_New/es.md) |
+| [Std Open/es](Std_Open/es.md) | [Std OrthographicCamera/es](Std_OrthographicCamera/es.md) | [Std Part/es](Std_Part/es.md) |
+| [Std PerspectiveCamera/es](Std_PerspectiveCamera/es.md) | [Std ProjectUtil/es](Std_ProjectUtil/es.md) | [Std Save/es](Std_Save/es.md) |
+| [Std SaveAs/es](Std_SaveAs/es.md) | [Std SceneInspector/es](Std_SceneInspector/es.md) | [Std ToggleClipPlane/es](Std_ToggleClipPlane/es.md) |
+| [Std Tools Menu/es](Std_Tools_Menu/es.md) | [Std View Menu/es](Std_View_Menu/es.md) | [Std ViewScreenShot/es](Std_ViewScreenShot/es.md) |
+| [Std Workbench/es](Std_Workbench/es.md) | [Tree view/es](Tree_view/es.md) |
 
 
 

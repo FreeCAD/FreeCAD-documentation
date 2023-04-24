@@ -5,7 +5,7 @@ This category contains articles and categories about wiki administrative subject
 
 |     |     |     |
 | --- | --- | --- |
-| [Tracker/zh](wiki/Tracker/zh.md) |
+| [Tracker/zh](Tracker/zh.md) |
 
 
 

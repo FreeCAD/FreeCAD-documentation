@@ -5,7 +5,7 @@ This category gathers the meeting points of the 3 broad categories of users of F
 
 |     |     |     |
 | --- | --- | --- |
-| [Power users hub/zh-tw](wiki/Power users hub/zh-tw.md) | [User hub/zh-tw](wiki/User hub/zh-tw.md) |
+| [Power users hub/zh-tw](Power_users_hub/zh-tw.md) | [User hub/zh-tw](User_hub/zh-tw.md) |
 
 
 

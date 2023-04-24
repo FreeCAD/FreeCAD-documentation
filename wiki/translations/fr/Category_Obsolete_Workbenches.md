@@ -5,8 +5,7 @@ Cette catégorie répertorie les ateliers obsolètes, c\'est-à-dire les atelier
 
 |     |     |     |
 | --- | --- | --- |
-| [Complete Workbench/fr](wiki/Complete Workbench/fr.md) | [Drawing Workbench/fr](wiki/Drawing Workbench/fr.md) | [Category:Complete/fr](wiki/Category_Complete/fr.md) |
-| [Category:Drawing/fr](wiki/Category_Drawing/fr.md) |
+| [Drawing Workbench/fr](Drawing_Workbench/fr.md) | [Category:Drawing/fr](Category_Drawing/fr.md) |
 
 
 

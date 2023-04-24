@@ -5,7 +5,7 @@ This category lists pages related to the [Drawing Workbench/zh](Drawing_Workbenc
 
 |     |     |     |
 | --- | --- | --- |
-| [Drawing Workbench/zh](wiki/Drawing Workbench/zh.md) |
+| [Drawing Workbench/zh](Drawing_Workbench/zh.md) |
 
 
 

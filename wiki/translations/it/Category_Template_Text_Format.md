@@ -5,7 +5,7 @@ Questa categoria elenca i modelli di formato testo forniti come input.
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:PropertyData/it](wiki/Template_PropertyData/it.md) | [Template:PropertyView/it](wiki/Template_PropertyView/it.md) |
+| [Template:PropertyData/it](Template_PropertyData/it.md) | [Template:PropertyView/it](Template_PropertyView/it.md) |
 
 
 

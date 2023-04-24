@@ -5,8 +5,8 @@ This category groups all of the FreeCAD documentation
 
 |     |     |     |
 | --- | --- | --- |
-| [Help FreeCAD/ja](wiki/Help FreeCAD/ja.md) | [Main Page/ja](wiki/Main Page/ja.md) | [Online Help Toc/ja](wiki/Online Help Toc/ja.md) |
-| [Category:Developer Documentation/ja](wiki/Category_Developer Documentation/ja.md) | [Category:Poweruser Documentation/ja](wiki/Category_Poweruser Documentation/ja.md) | [Category:User Documentation/ja](wiki/Category_User Documentation/ja.md) |
+| [Help FreeCAD/ja](Help_FreeCAD/ja.md) | [Main Page/ja](Main_Page/ja.md) | [Online Help Toc/ja](Online_Help_Toc/ja.md) |
+| [Category:Developer Documentation/ja](Category_Developer_Documentation/ja.md) | [Category:Poweruser Documentation/ja](Category_Poweruser_Documentation/ja.md) | [Category:User Documentation/ja](Category_User_Documentation/ja.md) |
 |
 
 

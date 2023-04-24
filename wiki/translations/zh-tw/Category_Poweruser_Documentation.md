@@ -5,7 +5,7 @@ This category shows documentation articles dealing with python scripting, which 
 
 |     |     |     |
 | --- | --- | --- |
-| [Debugging/zh-tw](wiki/Debugging/zh-tw.md) | [Power users hub/zh-tw](wiki/Power users hub/zh-tw.md) | [Workbench creation/zh-tw](wiki/Workbench creation/zh-tw.md) |
+| [Debugging/zh-tw](Debugging/zh-tw.md) | [Power users hub/zh-tw](Power_users_hub/zh-tw.md) | [Workbench creation/zh-tw](Workbench_creation/zh-tw.md) |
 |
 
 

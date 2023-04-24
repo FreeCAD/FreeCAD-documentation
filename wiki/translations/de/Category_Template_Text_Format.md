@@ -5,7 +5,7 @@ In dieser Kategorie werden Vorlagen aufgelistet, die eingegebenen Text formatier
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:Properties Title/de](wiki/Template_Properties Title/de.md) | [Template:PropertyData/de](wiki/Template_PropertyData/de.md) | [Template:PropertyView/de](wiki/Template_PropertyView/de.md) |
+| [Template:Properties Title/de](Template_Properties_Title/de.md) | [Template:PropertyData/de](Template_PropertyData/de.md) | [Template:PropertyView/de](Template_PropertyView/de.md) |
 |
 
 

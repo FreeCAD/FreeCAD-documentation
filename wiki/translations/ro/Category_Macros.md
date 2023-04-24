@@ -5,8 +5,8 @@ This category contains macros to extend your FreeCAD installation with new funct
 
 |     |     |     |
 | --- | --- | --- |
-| [Macro HighlightDifference/ro](wiki/Macro HighlightDifference/ro.md) | [Macro Unroll Ruled Surface/ro](wiki/Macro Unroll Ruled Surface/ro.md) | [Template:Macro/ro](wiki/Template_Macro/ro.md) |
-| [Macros/ro](wiki/Macros/ro.md) |
+| [Macro HighlightDifference/ro](Macro_HighlightDifference/ro.md) | [Macro Unroll Ruled Surface/ro](Macro_Unroll_Ruled_Surface/ro.md) | [Template:Macro/ro](Template_Macro/ro.md) |
+| [Macros/ro](Macros/ro.md) |
 
 
 

@@ -5,7 +5,7 @@ This category lists pages related to the [Surface Workbench/ru](Surface_Workbenc
 
 |     |     |     |
 | --- | --- | --- |
-| [Artwork Surface/ru](wiki/Artwork Surface/ru.md) | [Surface Workbench/ru](wiki/Surface Workbench/ru.md) |
+| [Artwork Surface/ru](Artwork_Surface/ru.md) | [Surface Workbench/ru](Surface_Workbench/ru.md) |
 
 
 

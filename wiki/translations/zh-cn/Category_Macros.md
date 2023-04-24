@@ -5,7 +5,7 @@ This category contains macros to extend your FreeCAD installation with new funct
 
 |     |     |     |
 | --- | --- | --- |
-| [Macros/zh-cn](wiki/Macros/zh-cn.md) |
+| [Macros/zh-cn](Macros/zh-cn.md) |
 
 
 

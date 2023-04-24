@@ -5,7 +5,7 @@ This category lists pages related to the [Test Framework Workbench](Testing/de.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Testing/de](wiki/Testing/de.md) |
+| [Testing/de](Testing/de.md) |
 
 
 

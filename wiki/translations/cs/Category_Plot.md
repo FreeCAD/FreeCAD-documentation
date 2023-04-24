@@ -5,7 +5,7 @@ This category lists pages related to the [Plot Workbench/cs](Plot_Workbench/cs.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Plot Workbench/cs](wiki/Plot Workbench/cs.md) |
+| [Plot Workbench/cs](Plot_Workbench/cs.md) |
 
 
 

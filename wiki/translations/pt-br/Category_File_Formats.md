@@ -5,13 +5,13 @@ This category collects pages about all the different file formats that FreeCAD i
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch 3DS/pt-br](wiki/Arch 3DS/pt-br.md) | [Arch DAE/pt-br](wiki/Arch DAE/pt-br.md) | [Arch IFC/pt-br](wiki/Arch IFC/pt-br.md) |
-| [Arch JSON/pt-br](wiki/Arch JSON/pt-br.md) | [Arch OBJ/pt-br](wiki/Arch OBJ/pt-br.md) | [Arch SHP/pt-br](wiki/Arch SHP/pt-br.md) |
-| [Draft DAT/pt-br](wiki/Draft DAT/pt-br.md) | [Draft DXF/pt-br](wiki/Draft DXF/pt-br.md) | [Draft OCA/pt-br](wiki/Draft OCA/pt-br.md) |
-| [Draft SVG/pt-br](wiki/Draft SVG/pt-br.md) | [DXF/pt-br](wiki/DXF/pt-br.md) | [Export to STL or OBJ/pt-br](wiki/Export to STL or OBJ/pt-br.md) |
-| [File Format FCStd/pt-br](wiki/File Format FCStd/pt-br.md) | [FreeCAD and DWG Import/pt-br](wiki/FreeCAD and DWG Import/pt-br.md) | [FreeCAD and DXF Import/pt-br](wiki/FreeCAD and DXF Import/pt-br.md) |
-| [Import Export Preferences/pt-br](wiki/Import Export Preferences/pt-br.md) | [Import Export/pt-br](wiki/Import Export/pt-br.md) | [Import from STL or OBJ/pt-br](wiki/Import from STL or OBJ/pt-br.md) |
-| [Std Export/pt-br](wiki/Std Export/pt-br.md) | [Std Import/pt-br](wiki/Std Import/pt-br.md) |
+| [Arch 3DS/pt-br](Arch_3DS/pt-br.md) | [Arch DAE/pt-br](Arch_DAE/pt-br.md) | [Arch IFC/pt-br](Arch_IFC/pt-br.md) |
+| [Arch JSON/pt-br](Arch_JSON/pt-br.md) | [Arch OBJ/pt-br](Arch_OBJ/pt-br.md) | [Arch SHP/pt-br](Arch_SHP/pt-br.md) |
+| [Draft DAT/pt-br](Draft_DAT/pt-br.md) | [Draft DXF/pt-br](Draft_DXF/pt-br.md) | [Draft OCA/pt-br](Draft_OCA/pt-br.md) |
+| [Draft SVG/pt-br](Draft_SVG/pt-br.md) | [DXF/pt-br](DXF/pt-br.md) | [Export to STL or OBJ/pt-br](Export_to_STL_or_OBJ/pt-br.md) |
+| [File Format FCStd/pt-br](File_Format_FCStd/pt-br.md) | [FreeCAD and DWG Import/pt-br](FreeCAD_and_DWG_Import/pt-br.md) | [FreeCAD and DXF Import/pt-br](FreeCAD_and_DXF_Import/pt-br.md) |
+| [Import Export Preferences/pt-br](Import_Export_Preferences/pt-br.md) | [Import Export/pt-br](Import_Export/pt-br.md) | [Import from STL or OBJ/pt-br](Import_from_STL_or_OBJ/pt-br.md) |
+| [Std Export/pt-br](Std_Export/pt-br.md) | [Std Import/pt-br](Std_Import/pt-br.md) |
 
 
 

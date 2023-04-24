@@ -7,7 +7,7 @@ See also [UncategorizedTemplates](Special:UncategorizedTemplates/hu.md).
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Template:Navigation/hu](wiki/Category_Template_Navigation/hu.md) |
+| [Category:Template:Navigation/hu](Category_Template_Navigation/hu.md) |
 
 
 

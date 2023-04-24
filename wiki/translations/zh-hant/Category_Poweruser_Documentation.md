@@ -5,7 +5,7 @@ This category shows documentation articles dealing with python scripting, which 
 
 |     |     |     |
 | --- | --- | --- |
-| [Workbench creation/zh-hant](wiki/Workbench creation/zh-hant.md) |
+| [Workbench creation/zh-hant](Workbench_creation/zh-hant.md) |
 
 
 

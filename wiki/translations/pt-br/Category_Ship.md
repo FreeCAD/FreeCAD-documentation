@@ -5,7 +5,7 @@ This category lists pages related to the [Ship Workbench/pt-br](Ship_Workbench/p
 
 |     |     |     |
 | --- | --- | --- |
-| [Ship Workbench/pt-br](wiki/Ship Workbench/pt-br.md) |
+| [Ship Workbench/pt-br](Ship_Workbench/pt-br.md) |
 
 
 

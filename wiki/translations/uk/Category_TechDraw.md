@@ -5,7 +5,7 @@ This category lists pages related to the [TechDraw Workbench/uk](TechDraw_Workbe
 
 |     |     |     |
 | --- | --- | --- |
-| [TechDraw Workbench/uk](wiki/TechDraw Workbench/uk.md) |
+| [TechDraw Workbench/uk](TechDraw_Workbench/uk.md) |
 
 
 

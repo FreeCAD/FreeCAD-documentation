@@ -5,8 +5,8 @@ This page lists external addon workbenches that have a page in this wiki. Addons
 
 |     |     |     |
 | --- | --- | --- |
-| [Plot Workbench/bg](wiki/Plot Workbench/bg.md) | [Ship Workbench/bg](wiki/Ship Workbench/bg.md) | [Category:External Workbenches/bg](wiki/Category_External Workbenches/bg.md) |
-| [Category:Macros/bg](wiki/Category_Macros/bg.md) |
+| [Plot Workbench/bg](Plot_Workbench/bg.md) | [Ship Workbench/bg](Ship_Workbench/bg.md) | [Category:External Workbenches/bg](Category_External_Workbenches/bg.md) |
+| [Category:Macros/bg](Category_Macros/bg.md) |
 
 
 

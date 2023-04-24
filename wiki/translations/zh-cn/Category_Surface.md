@@ -5,7 +5,7 @@ This category lists pages related to the [Surface Workbench/zh-cn](Surface_Workb
 
 |     |     |     |
 | --- | --- | --- |
-| [Surface Workbench/zh-cn](wiki/Surface Workbench/zh-cn.md) |
+| [Surface Workbench/zh-cn](Surface_Workbench/zh-cn.md) |
 
 
 

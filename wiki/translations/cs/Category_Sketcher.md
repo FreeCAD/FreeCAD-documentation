@@ -5,17 +5,17 @@ This category includes FreeCAD pages related to Sketcher
 
 |     |     |     |
 | --- | --- | --- |
-| [Sketcher CarbonCopy/cs](wiki/Sketcher CarbonCopy/cs.md) | [Sketcher ConstrainAngle/cs](wiki/Sketcher ConstrainAngle/cs.md) | [Sketcher ConstrainCoincident/cs](wiki/Sketcher ConstrainCoincident/cs.md) |
-| [Sketcher ConstrainDistance/cs](wiki/Sketcher ConstrainDistance/cs.md) | [Sketcher ConstrainDistanceX/cs](wiki/Sketcher ConstrainDistanceX/cs.md) | [Sketcher ConstrainDistanceY/cs](wiki/Sketcher ConstrainDistanceY/cs.md) |
-| [Sketcher ConstrainEqual/cs](wiki/Sketcher ConstrainEqual/cs.md) | [Sketcher ConstrainHorizontal/cs](wiki/Sketcher ConstrainHorizontal/cs.md) | [Sketcher ConstrainLock/cs](wiki/Sketcher ConstrainLock/cs.md) |
-| [Sketcher ConstrainParallel/cs](wiki/Sketcher ConstrainParallel/cs.md) | [Sketcher ConstrainPerpendicular/cs](wiki/Sketcher ConstrainPerpendicular/cs.md) | [Sketcher ConstrainPointOnObject/cs](wiki/Sketcher ConstrainPointOnObject/cs.md) |
-| [Sketcher ConstrainRadius/cs](wiki/Sketcher ConstrainRadius/cs.md) | [Sketcher ConstrainSymmetric/cs](wiki/Sketcher ConstrainSymmetric/cs.md) | [Sketcher ConstrainTangent/cs](wiki/Sketcher ConstrainTangent/cs.md) |
-| [Sketcher ConstrainVertical/cs](wiki/Sketcher ConstrainVertical/cs.md) | [Sketcher CreateArc/cs](wiki/Sketcher CreateArc/cs.md) | [Sketcher CreateCircle/cs](wiki/Sketcher CreateCircle/cs.md) |
-| [Sketcher CreateFillet/cs](wiki/Sketcher CreateFillet/cs.md) | [Sketcher CreateLine/cs](wiki/Sketcher CreateLine/cs.md) | [Sketcher CreatePoint/cs](wiki/Sketcher CreatePoint/cs.md) |
-| [Sketcher CreatePolyline/cs](wiki/Sketcher CreatePolyline/cs.md) | [Sketcher CreateRectangle/cs](wiki/Sketcher CreateRectangle/cs.md) | [Sketcher External/cs](wiki/Sketcher External/cs.md) |
-| [Sketcher LeaveSketch/cs](wiki/Sketcher LeaveSketch/cs.md) | [Sketcher MapSketch/cs](wiki/Sketcher MapSketch/cs.md) | [Sketcher NewSketch/cs](wiki/Sketcher NewSketch/cs.md) |
-| [Sketcher ReorientSketch/cs](wiki/Sketcher ReorientSketch/cs.md) | [Sketcher ToggleConstruction/cs](wiki/Sketcher ToggleConstruction/cs.md) | [Sketcher Trimming/cs](wiki/Sketcher Trimming/cs.md) |
-| [Sketcher ViewSketch/cs](wiki/Sketcher ViewSketch/cs.md) | [Sketcher Workbench/cs](wiki/Sketcher Workbench/cs.md) |
+| [Sketcher CarbonCopy/cs](Sketcher_CarbonCopy/cs.md) | [Sketcher ConstrainAngle/cs](Sketcher_ConstrainAngle/cs.md) | [Sketcher ConstrainCoincident/cs](Sketcher_ConstrainCoincident/cs.md) |
+| [Sketcher ConstrainDistance/cs](Sketcher_ConstrainDistance/cs.md) | [Sketcher ConstrainDistanceX/cs](Sketcher_ConstrainDistanceX/cs.md) | [Sketcher ConstrainDistanceY/cs](Sketcher_ConstrainDistanceY/cs.md) |
+| [Sketcher ConstrainEqual/cs](Sketcher_ConstrainEqual/cs.md) | [Sketcher ConstrainHorizontal/cs](Sketcher_ConstrainHorizontal/cs.md) | [Sketcher ConstrainLock/cs](Sketcher_ConstrainLock/cs.md) |
+| [Sketcher ConstrainParallel/cs](Sketcher_ConstrainParallel/cs.md) | [Sketcher ConstrainPerpendicular/cs](Sketcher_ConstrainPerpendicular/cs.md) | [Sketcher ConstrainPointOnObject/cs](Sketcher_ConstrainPointOnObject/cs.md) |
+| [Sketcher ConstrainRadius/cs](Sketcher_ConstrainRadius/cs.md) | [Sketcher ConstrainSymmetric/cs](Sketcher_ConstrainSymmetric/cs.md) | [Sketcher ConstrainTangent/cs](Sketcher_ConstrainTangent/cs.md) |
+| [Sketcher ConstrainVertical/cs](Sketcher_ConstrainVertical/cs.md) | [Sketcher CreateArc/cs](Sketcher_CreateArc/cs.md) | [Sketcher CreateCircle/cs](Sketcher_CreateCircle/cs.md) |
+| [Sketcher CreateFillet/cs](Sketcher_CreateFillet/cs.md) | [Sketcher CreateLine/cs](Sketcher_CreateLine/cs.md) | [Sketcher CreatePoint/cs](Sketcher_CreatePoint/cs.md) |
+| [Sketcher CreatePolyline/cs](Sketcher_CreatePolyline/cs.md) | [Sketcher CreateRectangle/cs](Sketcher_CreateRectangle/cs.md) | [Sketcher External/cs](Sketcher_External/cs.md) |
+| [Sketcher LeaveSketch/cs](Sketcher_LeaveSketch/cs.md) | [Sketcher MapSketch/cs](Sketcher_MapSketch/cs.md) | [Sketcher NewSketch/cs](Sketcher_NewSketch/cs.md) |
+| [Sketcher ReorientSketch/cs](Sketcher_ReorientSketch/cs.md) | [Sketcher ToggleConstruction/cs](Sketcher_ToggleConstruction/cs.md) | [Sketcher Trimming/cs](Sketcher_Trimming/cs.md) |
+| [Sketcher ViewSketch/cs](Sketcher_ViewSketch/cs.md) | [Sketcher Workbench/cs](Sketcher_Workbench/cs.md) |
 
 
 

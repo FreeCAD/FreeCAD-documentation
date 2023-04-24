@@ -5,7 +5,7 @@ This category lists pages related to the [Image Workbench/hr](Image_Workbench/hr
 
 |     |     |     |
 | --- | --- | --- |
-| [Image Workbench/hr](wiki/Image Workbench/hr.md) |
+| [Image Workbench/hr](Image_Workbench/hr.md) |
 
 
 

@@ -5,7 +5,7 @@ Pages related to the [Silk workbench](Silk_Workbench.md) which is an [external w
 
 |     |     |     |
 | --- | --- | --- |
-| [Silk Workbench](wiki/Silk Workbench.md) |
+| [Silk Workbench](Silk_Workbench.md) |
 
 
 

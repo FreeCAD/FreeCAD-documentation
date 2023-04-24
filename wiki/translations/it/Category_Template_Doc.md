@@ -5,7 +5,7 @@ Questa categoria elenca i modelli che producono caselle di testo utilizzate per 
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:Macro/it](wiki/Template_Macro/it.md) |
+| [Template:Macro/it](Template_Macro/it.md) |
 
 
 

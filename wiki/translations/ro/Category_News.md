@@ -5,7 +5,7 @@ This category contains articles with news and messages about FreeCAD.
 
 |     |     |     |
 | --- | --- | --- |
-| [History/ro](wiki/History/ro.md) | [Release notes 0.17/ro](wiki/Release notes 0.17/ro.md) |
+| [History/ro](History/ro.md) | [Release notes 0.17/ro](Release_notes_0.17/ro.md) |
 
 
 

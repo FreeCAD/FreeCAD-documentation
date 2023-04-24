@@ -5,8 +5,8 @@ Pages related to testing in regards to unit testing, continuous integration, qua
 
 |     |     |     |
 | --- | --- | --- |
-| [AppImage/es](wiki/AppImage/es.md) | [Continuous Integration/es](wiki/Continuous Integration/es.md) | [Testing/es](wiki/Testing/es.md) |
-| [Ubuntu Snap/es](wiki/Ubuntu Snap/es.md) | [Category:Test Framework/es](wiki/Category_Test Framework/es.md) |
+| [AppImage/es](AppImage/es.md) | [Continuous Integration/es](Continuous_Integration/es.md) | [Testing/es](Testing/es.md) |
+| [Ubuntu Snap/es](Ubuntu_Snap/es.md) | [Category:Test Framework/es](Category_Test_Framework/es.md) |
 
 
 

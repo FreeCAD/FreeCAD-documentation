@@ -5,7 +5,7 @@ This category shows documentation articles dealing with python scripting, which 
 
 |     |     |     |
 | --- | --- | --- |
-| [Debugging/bg](wiki/Debugging/bg.md) | [Macros/bg](wiki/Macros/bg.md) |
+| [Debugging/bg](Debugging/bg.md) | [Macros/bg](Macros/bg.md) |
 
 
 

@@ -5,12 +5,12 @@ This category lists pages that describe the FreeCAD interface.
 
 |     |     |     |
 | --- | --- | --- |
-| [3D view/ru](wiki/3D view/ru.md) | [Combo view/ru](wiki/Combo view/ru.md) | [DAG view/ru](wiki/DAG view/ru.md) |
-| [Interface Customization/ru](wiki/Interface Customization/ru.md) | [Template:Interface navi/ru](wiki/Template_Interface navi/ru.md) | [Interface/ru](wiki/Interface/ru.md) |
-| [Main view area/ru](wiki/Main view area/ru.md) | [Property editor/ru](wiki/Property editor/ru.md) | [Python console/ru](wiki/Python console/ru.md) |
-| [Report view/ru](wiki/Report view/ru.md) | [Selection view/ru](wiki/Selection view/ru.md) | [Standard Menu/ru](wiki/Standard Menu/ru.md) |
-| [Status bar/ru](wiki/Status bar/ru.md) | [Std Workbench/ru](wiki/Std Workbench/ru.md) | [Task panel/ru](wiki/Task panel/ru.md) |
-| [Tree view/ru](wiki/Tree view/ru.md) |
+| [3D view/ru](3D_view/ru.md) | [Combo view/ru](Combo_view/ru.md) | [DAG view/ru](DAG_view/ru.md) |
+| [Interface Customization/ru](Interface_Customization/ru.md) | [Template:Interface navi/ru](Template_Interface_navi/ru.md) | [Interface/ru](Interface/ru.md) |
+| [Main view area/ru](Main_view_area/ru.md) | [Property editor/ru](Property_editor/ru.md) | [Python console/ru](Python_console/ru.md) |
+| [Report view/ru](Report_view/ru.md) | [Selection view/ru](Selection_view/ru.md) | [Standard Menu/ru](Standard_Menu/ru.md) |
+| [Status bar/ru](Status_bar/ru.md) | [Std Workbench/ru](Std_Workbench/ru.md) | [Task panel/ru](Task_panel/ru.md) |
+| [Tree view/ru](Tree_view/ru.md) |
 
 
 

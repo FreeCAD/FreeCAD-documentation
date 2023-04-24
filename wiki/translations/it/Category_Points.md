@@ -5,9 +5,9 @@ This category lists pages related to the [Points Workbench/it](Points_Workbench/
 
 |     |     |     |
 | --- | --- | --- |
-| [Artwork Points/it](wiki/Artwork Points/it.md) | [Points Convert/it](wiki/Points Convert/it.md) | [Points Export/it](wiki/Points Export/it.md) |
-| [Points Import/it](wiki/Points Import/it.md) | [Points Merge/it](wiki/Points Merge/it.md) | [Points PolyCut/it](wiki/Points PolyCut/it.md) |
-| [Points Structure/it](wiki/Points Structure/it.md) | [Points Workbench/it](wiki/Points Workbench/it.md) |
+| [Artwork Points/it](Artwork_Points/it.md) | [Points Convert/it](Points_Convert/it.md) | [Points Export/it](Points_Export/it.md) |
+| [Points Import/it](Points_Import/it.md) | [Points Merge/it](Points_Merge/it.md) | [Points PolyCut/it](Points_PolyCut/it.md) |
+| [Points Structure/it](Points_Structure/it.md) | [Points Workbench/it](Points_Workbench/it.md) |
 
 
 

@@ -5,7 +5,7 @@ This category lists pages related to the [Inspection Workbench/pt-br](Inspection
 
 |     |     |     |
 | --- | --- | --- |
-| [Inspection Workbench/pt-br](wiki/Inspection Workbench/pt-br.md) |
+| [Inspection Workbench/pt-br](Inspection_Workbench/pt-br.md) |
 
 
 

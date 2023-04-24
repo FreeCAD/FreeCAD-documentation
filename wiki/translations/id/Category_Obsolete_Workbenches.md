@@ -5,7 +5,7 @@ This category lists pages related to the [Drawing Workbench/id](Drawing_Workbenc
 
 |     |     |     |
 | --- | --- | --- |
-| [Drawing Workbench/id](wiki/Drawing Workbench/id.md) | [Category:Drawing/id](wiki/Category_Drawing/id.md) | [Category:Obsolete Workbenches/id](wiki/Category_Obsolete Workbenches/id.md) |
+| [Drawing Workbench/id](Drawing_Workbench/id.md) | [Category:Drawing/id](Category_Drawing/id.md) | [Category:Obsolete Workbenches/id](Category_Obsolete_Workbenches/id.md) |
 |
 
 

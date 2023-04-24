@@ -5,7 +5,7 @@ This category lists pages related to the [Points Workbench/ru](Points_Workbench/
 
 |     |     |     |
 | --- | --- | --- |
-| [Artwork Points/ru](wiki/Artwork Points/ru.md) | [Points Workbench/ru](wiki/Points Workbench/ru.md) |
+| [Artwork Points/ru](Artwork_Points/ru.md) | [Points Workbench/ru](Points_Workbench/ru.md) |
 
 
 

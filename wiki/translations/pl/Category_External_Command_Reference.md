@@ -5,34 +5,34 @@ Ta kategoria umieszcza wszystkie **zewnętrzne** polecenia środowiska oddzielon
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch Rebar BOM/pl](wiki/Arch Rebar BOM/pl.md) | [Arch Rebar Dimensioning/pl](wiki/Arch Rebar Dimensioning/pl.md) | [Arch Rebar Drawing Dimensioning/pl](wiki/Arch Rebar Drawing Dimensioning/pl.md) |
-| [Arch Rebar Drawing/pl](wiki/Arch Rebar Drawing/pl.md) | [Arch Rebar/pl](wiki/Arch Rebar/pl.md) | [BIM Views/pl](wiki/BIM Views/pl.md) |
-| [BIM Windows/pl](wiki/BIM Windows/pl.md) | [CurvedShapes CurvedArray/pl](wiki/CurvedShapes CurvedArray/pl.md) | [Curves CompressionSpring/pl](wiki/Curves CompressionSpring/pl.md) |
-| [Curves Discretize/pl](wiki/Curves Discretize/pl.md) | [Curves EditableSpline/pl](wiki/Curves EditableSpline/pl.md) | [Curves ExtendCurve/pl](wiki/Curves ExtendCurve/pl.md) |
-| [Curves GordonSurface/pl](wiki/Curves GordonSurface/pl.md) | [Curves Interpolate/pl](wiki/Curves Interpolate/pl.md) | [Curves IsoCurve/pl](wiki/Curves IsoCurve/pl.md) |
-| [Curves JoinCurve/pl](wiki/Curves JoinCurve/pl.md) | [Curves Line/pl](wiki/Curves Line/pl.md) | [Curves MultiLoft/pl](wiki/Curves MultiLoft/pl.md) |
-| [Curves ParametricComb/pl](wiki/Curves ParametricComb/pl.md) | [Curves ParametricSolid/pl](wiki/Curves ParametricSolid/pl.md) | [Curves PasteSVG/pl](wiki/Curves PasteSVG/pl.md) |
-| [Curves Pipeshell/pl](wiki/Curves Pipeshell/pl.md) | [Curves PipeshellProfile/pl](wiki/Curves PipeshellProfile/pl.md) | [Curves ProfileSupport/pl](wiki/Curves ProfileSupport/pl.md) |
-| [Curves ReflectLines/pl](wiki/Curves ReflectLines/pl.md) | [Curves SegmentSurface/pl](wiki/Curves SegmentSurface/pl.md) | [Curves SketchOnSurface/pl](wiki/Curves SketchOnSurface/pl.md) |
-| [Curves SplitCurve/pl](wiki/Curves SplitCurve/pl.md) | [Curves ToConsole/pl](wiki/Curves ToConsole/pl.md) | [Template:Curves Tools navi/pl](wiki/Template_Curves Tools navi/pl.md) |
-| [Curves Workbench/pl](wiki/Curves Workbench/pl.md) | [Curves ZebraTool/pl](wiki/Curves ZebraTool/pl.md) | [EM FHEquiv/pl](wiki/EM FHEquiv/pl.md) |
-| [EM FHInputFile/pl](wiki/EM FHInputFile/pl.md) | [EM FHNode/pl](wiki/EM FHNode/pl.md) | [EM FHPath/pl](wiki/EM FHPath/pl.md) |
-| [EM FHPlane/pl](wiki/EM FHPlane/pl.md) | [EM FHPlaneAddRemoveNodeHole/pl](wiki/EM FHPlaneAddRemoveNodeHole/pl.md) | [EM FHPlaneHole/pl](wiki/EM FHPlaneHole/pl.md) |
-| [EM FHPort/pl](wiki/EM FHPort/pl.md) | [EM FHSegment/pl](wiki/EM FHSegment/pl.md) | [EM FHSolver/pl](wiki/EM FHSolver/pl.md) |
-| [EM Workbench/pl](wiki/EM Workbench/pl.md) | [Fasteners BOM/pl](wiki/Fasteners BOM/pl.md) | [Fasteners ChamferHole/pl](wiki/Fasteners ChamferHole/pl.md) |
-| [Fasteners ChangeParameters/pl](wiki/Fasteners ChangeParameters/pl.md) | [Fasteners Flip/pl](wiki/Fasteners Flip/pl.md) | [Fasteners MatchTypeInner/pl](wiki/Fasteners MatchTypeInner/pl.md) |
-| [Fasteners MatchTypeOuter/pl](wiki/Fasteners MatchTypeOuter/pl.md) | [Fasteners Move/pl](wiki/Fasteners Move/pl.md) | [Fasteners ScrewCalculator/pl](wiki/Fasteners ScrewCalculator/pl.md) |
-| [Fasteners Shape/pl](wiki/Fasteners Shape/pl.md) | [Fasteners Workbench/pl](wiki/Fasteners Workbench/pl.md) | [FCGear BevelGear/pl](wiki/FCGear BevelGear/pl.md) |
-| [FCGear CrownGear/pl](wiki/FCGear CrownGear/pl.md) | [FCGear CycloidGear/pl](wiki/FCGear CycloidGear/pl.md) | [FCGear CycloidRack/pl](wiki/FCGear CycloidRack/pl.md) |
-| [FCGear GearConnector/pl](wiki/FCGear GearConnector/pl.md) | [FCGear HypoCycloidGear/pl](wiki/FCGear HypoCycloidGear/pl.md) | [FCGear InternalInvoluteGear/pl](wiki/FCGear InternalInvoluteGear/pl.md) |
-| [FCGear InvoluteGear/pl](wiki/FCGear InvoluteGear/pl.md) | [FCGear InvoluteRack/pl](wiki/FCGear InvoluteRack/pl.md) | [FCGear LanternGear/pl](wiki/FCGear LanternGear/pl.md) |
-| [FCGear TimingGear/pl](wiki/FCGear TimingGear/pl.md) | [FCGear WormGear/pl](wiki/FCGear WormGear/pl.md) | [Lattice2 AttachablePlacement/pl](wiki/Lattice2 AttachablePlacement/pl.md) |
-| [Reinforcement Bar Bending Schedule/pl](wiki/Reinforcement Bar Bending Schedule/pl.md) | [Reinforcement Bar Shape Cut List/pl](wiki/Reinforcement Bar Shape Cut List/pl.md) | [SheetMetal AddBase/pl](wiki/SheetMetal AddBase/pl.md) |
-| [SheetMetal AddBend/pl](wiki/SheetMetal AddBend/pl.md) | [SheetMetal AddCornerRelief/pl](wiki/SheetMetal AddCornerRelief/pl.md) | [SheetMetal AddFoldWall/pl](wiki/SheetMetal AddFoldWall/pl.md) |
-| [SheetMetal AddJunction/pl](wiki/SheetMetal AddJunction/pl.md) | [SheetMetal AddRelief/pl](wiki/SheetMetal AddRelief/pl.md) | [SheetMetal AddWall/pl](wiki/SheetMetal AddWall/pl.md) |
-| [SheetMetal Examples/pl](wiki/SheetMetal Examples/pl.md) | [SheetMetal Extrude/pl](wiki/SheetMetal Extrude/pl.md) | [SheetMetal Forming/pl](wiki/SheetMetal Forming/pl.md) |
-| [SheetMetal SketchOnSheet/pl](wiki/SheetMetal SketchOnSheet/pl.md) | [SheetMetal UnattendedUnfold/pl](wiki/SheetMetal UnattendedUnfold/pl.md) | [SheetMetal Unfold/pl](wiki/SheetMetal Unfold/pl.md) |
-| [SheetMetal Workbench/pl](wiki/SheetMetal Workbench/pl.md) |
+| [Arch Rebar BOM/pl](Arch_Rebar_BOM/pl.md) | [Arch Rebar Dimensioning/pl](Arch_Rebar_Dimensioning/pl.md) | [Arch Rebar Drawing Dimensioning/pl](Arch_Rebar_Drawing_Dimensioning/pl.md) |
+| [Arch Rebar Drawing/pl](Arch_Rebar_Drawing/pl.md) | [Arch Rebar/pl](Arch_Rebar/pl.md) | [BIM Views/pl](BIM_Views/pl.md) |
+| [BIM Windows/pl](BIM_Windows/pl.md) | [CurvedShapes CurvedArray/pl](CurvedShapes_CurvedArray/pl.md) | [Curves CompressionSpring/pl](Curves_CompressionSpring/pl.md) |
+| [Curves Discretize/pl](Curves_Discretize/pl.md) | [Curves EditableSpline/pl](Curves_EditableSpline/pl.md) | [Curves ExtendCurve/pl](Curves_ExtendCurve/pl.md) |
+| [Curves GordonSurface/pl](Curves_GordonSurface/pl.md) | [Curves Interpolate/pl](Curves_Interpolate/pl.md) | [Curves IsoCurve/pl](Curves_IsoCurve/pl.md) |
+| [Curves JoinCurve/pl](Curves_JoinCurve/pl.md) | [Curves Line/pl](Curves_Line/pl.md) | [Curves MultiLoft/pl](Curves_MultiLoft/pl.md) |
+| [Curves ParametricComb/pl](Curves_ParametricComb/pl.md) | [Curves ParametricSolid/pl](Curves_ParametricSolid/pl.md) | [Curves PasteSVG/pl](Curves_PasteSVG/pl.md) |
+| [Curves Pipeshell/pl](Curves_Pipeshell/pl.md) | [Curves PipeshellProfile/pl](Curves_PipeshellProfile/pl.md) | [Curves ProfileSupport/pl](Curves_ProfileSupport/pl.md) |
+| [Curves ReflectLines/pl](Curves_ReflectLines/pl.md) | [Curves SegmentSurface/pl](Curves_SegmentSurface/pl.md) | [Curves SketchOnSurface/pl](Curves_SketchOnSurface/pl.md) |
+| [Curves SplitCurve/pl](Curves_SplitCurve/pl.md) | [Curves ToConsole/pl](Curves_ToConsole/pl.md) | [Template:Curves Tools navi/pl](Template_Curves_Tools_navi/pl.md) |
+| [Curves Workbench/pl](Curves_Workbench/pl.md) | [Curves ZebraTool/pl](Curves_ZebraTool/pl.md) | [EM FHEquiv/pl](EM_FHEquiv/pl.md) |
+| [EM FHInputFile/pl](EM_FHInputFile/pl.md) | [EM FHNode/pl](EM_FHNode/pl.md) | [EM FHPath/pl](EM_FHPath/pl.md) |
+| [EM FHPlane/pl](EM_FHPlane/pl.md) | [EM FHPlaneAddRemoveNodeHole/pl](EM_FHPlaneAddRemoveNodeHole/pl.md) | [EM FHPlaneHole/pl](EM_FHPlaneHole/pl.md) |
+| [EM FHPort/pl](EM_FHPort/pl.md) | [EM FHSegment/pl](EM_FHSegment/pl.md) | [EM FHSolver/pl](EM_FHSolver/pl.md) |
+| [EM Workbench/pl](EM_Workbench/pl.md) | [Fasteners BOM/pl](Fasteners_BOM/pl.md) | [Fasteners ChamferHole/pl](Fasteners_ChamferHole/pl.md) |
+| [Fasteners ChangeParameters/pl](Fasteners_ChangeParameters/pl.md) | [Fasteners Flip/pl](Fasteners_Flip/pl.md) | [Fasteners MatchTypeInner/pl](Fasteners_MatchTypeInner/pl.md) |
+| [Fasteners MatchTypeOuter/pl](Fasteners_MatchTypeOuter/pl.md) | [Fasteners Move/pl](Fasteners_Move/pl.md) | [Fasteners ScrewCalculator/pl](Fasteners_ScrewCalculator/pl.md) |
+| [Fasteners Shape/pl](Fasteners_Shape/pl.md) | [Fasteners Workbench/pl](Fasteners_Workbench/pl.md) | [FCGear BevelGear/pl](FCGear_BevelGear/pl.md) |
+| [FCGear CrownGear/pl](FCGear_CrownGear/pl.md) | [FCGear CycloidGear/pl](FCGear_CycloidGear/pl.md) | [FCGear CycloidRack/pl](FCGear_CycloidRack/pl.md) |
+| [FCGear GearConnector/pl](FCGear_GearConnector/pl.md) | [FCGear HypoCycloidGear/pl](FCGear_HypoCycloidGear/pl.md) | [FCGear InternalInvoluteGear/pl](FCGear_InternalInvoluteGear/pl.md) |
+| [FCGear InvoluteGear/pl](FCGear_InvoluteGear/pl.md) | [FCGear InvoluteRack/pl](FCGear_InvoluteRack/pl.md) | [FCGear LanternGear/pl](FCGear_LanternGear/pl.md) |
+| [FCGear TimingGear/pl](FCGear_TimingGear/pl.md) | [FCGear WormGear/pl](FCGear_WormGear/pl.md) | [Lattice2 AttachablePlacement/pl](Lattice2_AttachablePlacement/pl.md) |
+| [Reinforcement Bar Bending Schedule/pl](Reinforcement_Bar_Bending_Schedule/pl.md) | [Reinforcement Bar Shape Cut List/pl](Reinforcement_Bar_Shape_Cut_List/pl.md) | [SheetMetal AddBase/pl](SheetMetal_AddBase/pl.md) |
+| [SheetMetal AddBend/pl](SheetMetal_AddBend/pl.md) | [SheetMetal AddCornerRelief/pl](SheetMetal_AddCornerRelief/pl.md) | [SheetMetal AddFoldWall/pl](SheetMetal_AddFoldWall/pl.md) |
+| [SheetMetal AddJunction/pl](SheetMetal_AddJunction/pl.md) | [SheetMetal AddRelief/pl](SheetMetal_AddRelief/pl.md) | [SheetMetal AddWall/pl](SheetMetal_AddWall/pl.md) |
+| [SheetMetal Examples/pl](SheetMetal_Examples/pl.md) | [SheetMetal Extrude/pl](SheetMetal_Extrude/pl.md) | [SheetMetal Forming/pl](SheetMetal_Forming/pl.md) |
+| [SheetMetal SketchOnSheet/pl](SheetMetal_SketchOnSheet/pl.md) | [SheetMetal UnattendedUnfold/pl](SheetMetal_UnattendedUnfold/pl.md) | [SheetMetal Unfold/pl](SheetMetal_Unfold/pl.md) |
+| [SheetMetal Workbench/pl](SheetMetal_Workbench/pl.md) |
 
 
 

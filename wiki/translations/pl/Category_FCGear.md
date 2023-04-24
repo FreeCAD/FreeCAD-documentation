@@ -5,11 +5,11 @@ Wszystkie strony związane ze środowiskiem pracy [FCGear](FCGear_Workbench/pl.m
 
 |     |     |     |
 | --- | --- | --- |
-| [FCGear BevelGear/pl](wiki/FCGear BevelGear/pl.md) | [FCGear CrownGear/pl](wiki/FCGear CrownGear/pl.md) | [FCGear CycloidGear/pl](wiki/FCGear CycloidGear/pl.md) |
-| [FCGear CycloidRack/pl](wiki/FCGear CycloidRack/pl.md) | [FCGear GearConnector/pl](wiki/FCGear GearConnector/pl.md) | [FCGear HypoCycloidGear/pl](wiki/FCGear HypoCycloidGear/pl.md) |
-| [FCGear InternalInvoluteGear/pl](wiki/FCGear InternalInvoluteGear/pl.md) | [FCGear InvoluteGear/pl](wiki/FCGear InvoluteGear/pl.md) | [FCGear InvoluteRack/pl](wiki/FCGear InvoluteRack/pl.md) |
-| [FCGear LanternGear/pl](wiki/FCGear LanternGear/pl.md) | [FCGear TimingGear/pl](wiki/FCGear TimingGear/pl.md) | [FCGear Workbench/pl](wiki/FCGear Workbench/pl.md) |
-| [FCGear WormGear/pl](wiki/FCGear WormGear/pl.md) |
+| [FCGear BevelGear/pl](FCGear_BevelGear/pl.md) | [FCGear CrownGear/pl](FCGear_CrownGear/pl.md) | [FCGear CycloidGear/pl](FCGear_CycloidGear/pl.md) |
+| [FCGear CycloidRack/pl](FCGear_CycloidRack/pl.md) | [FCGear GearConnector/pl](FCGear_GearConnector/pl.md) | [FCGear HypoCycloidGear/pl](FCGear_HypoCycloidGear/pl.md) |
+| [FCGear InternalInvoluteGear/pl](FCGear_InternalInvoluteGear/pl.md) | [FCGear InvoluteGear/pl](FCGear_InvoluteGear/pl.md) | [FCGear InvoluteRack/pl](FCGear_InvoluteRack/pl.md) |
+| [FCGear LanternGear/pl](FCGear_LanternGear/pl.md) | [FCGear TimingGear/pl](FCGear_TimingGear/pl.md) | [FCGear Workbench/pl](FCGear_Workbench/pl.md) |
+| [FCGear WormGear/pl](FCGear_WormGear/pl.md) |
 
 
 

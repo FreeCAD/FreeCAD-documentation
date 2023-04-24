@@ -5,7 +5,7 @@ This category shows documentation articles dealing with python scripting, which 
 
 |     |     |     |
 | --- | --- | --- |
-| [Debugging/zh](wiki/Debugging/zh.md) | [Property/zh](wiki/Property/zh.md) | [Topological data scripting/zh](wiki/Topological data scripting/zh.md) |
+| [Debugging/zh](Debugging/zh.md) | [Property/zh](Property/zh.md) | [Topological data scripting/zh](Topological_data_scripting/zh.md) |
 |
 
 

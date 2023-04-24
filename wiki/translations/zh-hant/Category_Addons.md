@@ -5,7 +5,7 @@ This page lists external addon workbenches that have a page in this wiki. Addons
 
 |     |     |     |
 | --- | --- | --- |
-| [Ship Workbench/zh-hant](wiki/Ship Workbench/zh-hant.md) | [Category:External Workbenches/zh-hant](wiki/Category_External Workbenches/zh-hant.md) |
+| [Ship Workbench/zh-hant](Ship_Workbench/zh-hant.md) | [Category:External Workbenches/zh-hant](Category_External_Workbenches/zh-hant.md) |
 
 
 

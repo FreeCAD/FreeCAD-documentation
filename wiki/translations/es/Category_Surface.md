@@ -5,7 +5,7 @@ This category lists pages related to the [Surface Workbench/es](Surface_Workbenc
 
 |     |     |     |
 | --- | --- | --- |
-| [Surface Workbench/es](wiki/Surface Workbench/es.md) |
+| [Surface Workbench/es](Surface_Workbench/es.md) |
 
 
 

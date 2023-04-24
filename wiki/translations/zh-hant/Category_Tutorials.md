@@ -7,7 +7,7 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [Draft tutorial/zh-hant](wiki/Draft tutorial/zh-hant.md) |
+| [Draft tutorial/zh-hant](Draft_tutorial/zh-hant.md) |
 
 
 

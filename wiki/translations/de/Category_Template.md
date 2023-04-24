@@ -9,9 +9,9 @@ Den betreffenden Artikeln folgende Zeile anhängen:
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:De](wiki/Template_De.md) | [Template:GuiCommandAddon/de](wiki/Template_GuiCommandAddon/de.md) | [Template:Languages/de](wiki/Template_Languages/de.md) |
-| [Category:Template:Doc/de](wiki/Category_Template_Doc/de.md) | [Category:Template:Navigation/de](wiki/Category_Template_Navigation/de.md) | [Category:Template:Text Format/de](wiki/Category_Template_Text Format/de.md) |
-| [Category:Template:Text/de](wiki/Category_Template_Text/de.md) |
+| [Template:De](Template_De.md) | [Template:GuiCommandAddon/de](Template_GuiCommandAddon/de.md) | [Template:Languages/de](Template_Languages/de.md) |
+| [Category:Template:Doc/de](Category_Template_Doc/de.md) | [Category:Template:Navigation/de](Category_Template_Navigation/de.md) | [Category:Template:Text Format/de](Category_Template_Text_Format/de.md) |
+| [Category:Template:Text/de](Category_Template_Text/de.md) |
 
 
 

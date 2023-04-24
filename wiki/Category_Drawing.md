@@ -5,15 +5,14 @@ This category lists pages related to the [Drawing Workbench](Drawing_Workbench.m
 
 |     |     |     |
 | --- | --- | --- |
-| [ANSI templates](wiki/ANSI templates.md) | [Arch templates](wiki/Arch templates.md) | [Artwork Drawing](wiki/Artwork Drawing.md) |
-| [Drawing Annotation](wiki/Drawing Annotation.md) | [Drawing API example](wiki/Drawing API example.md) | [Drawing Clip](wiki/Drawing Clip.md) |
-| [Drawing Dimensioning Addon](wiki/Drawing Dimensioning Addon.md) | [Drawing Documentation](wiki/Drawing Documentation.md) | [Drawing Landscape A3](wiki/Drawing Landscape A3.md) |
-| [Drawing Open SVG](wiki/Drawing Open SVG.md) | [Drawing Openbrowser](wiki/Drawing Openbrowser.md) | [Drawing Orthoviews](wiki/Drawing Orthoviews.md) |
-| [Drawing ProjectShape](wiki/Drawing ProjectShape.md) | [Drawing Save](wiki/Drawing Save.md) | [Drawing SpreadsheetView](wiki/Drawing SpreadsheetView.md) |
-| [Drawing Symbol](wiki/Drawing Symbol.md) | [Drawing Template HowTo](wiki/Drawing Template HowTo.md) | [Drawing templates](wiki/Drawing templates.md) |
-| [Template:Drawing Tools navi](wiki/Template_Drawing Tools navi.md) | [Drawing tutorial](wiki/Drawing tutorial.md) | [Drawing View](wiki/Drawing View.md) |
-| [Drawing Workbench](wiki/Drawing Workbench.md) | [Misc templates](wiki/Misc templates.md) | [Svg Namespace](wiki/Svg Namespace.md) |
-|
+| [ANSI templates](ANSI_templates.md) | [Arch templates](Arch_templates.md) | [Drawing Annotation](Drawing_Annotation.md) |
+| [Drawing API example](Drawing_API_example.md) | [Drawing Clip](Drawing_Clip.md) | [Drawing Dimensioning Addon](Drawing_Dimensioning_Addon.md) |
+| [Drawing Documentation](Drawing_Documentation.md) | [Drawing Landscape A3](Drawing_Landscape_A3.md) | [Drawing Open SVG](Drawing_Open_SVG.md) |
+| [Drawing Openbrowser](Drawing_Openbrowser.md) | [Drawing Orthoviews](Drawing_Orthoviews.md) | [Drawing ProjectShape](Drawing_ProjectShape.md) |
+| [Drawing Save](Drawing_Save.md) | [Drawing SpreadsheetView](Drawing_SpreadsheetView.md) | [Drawing Symbol](Drawing_Symbol.md) |
+| [Drawing Template HowTo](Drawing_Template_HowTo.md) | [Drawing templates](Drawing_templates.md) | [Template:Drawing Tools navi](Template_Drawing_Tools_navi.md) |
+| [Drawing tutorial](Drawing_tutorial.md) | [Drawing View](Drawing_View.md) | [Drawing Workbench](Drawing_Workbench.md) |
+| [Misc templates](Misc_templates.md) | [Svg Namespace](Svg_Namespace.md) |
 
 
 

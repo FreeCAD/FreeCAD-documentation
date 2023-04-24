@@ -432,7 +432,7 @@ class MediaWiki:
         result += "\n|"
         col = 1
         for p in cpages:
-            result += " ["+p+"]("+self.wikifolder+"/"+p.replace(":","_")+".md) |"
+            result += " ["+p+"]("+p.replace(":","_").replace(" ","_")+".md) |"
             if col == CATEGORY_COLUMNS:
                 result += "\n|"
                 col = 1

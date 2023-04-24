@@ -5,10 +5,10 @@ This category list pages related to the [EM Workbench/it](EM_Workbench/it.md) wh
 
 |     |     |     |
 | --- | --- | --- |
-| [EM FHEquiv/it](wiki/EM FHEquiv/it.md) | [EM FHInputFile/it](wiki/EM FHInputFile/it.md) | [EM FHNode/it](wiki/EM FHNode/it.md) |
-| [EM FHPath/it](wiki/EM FHPath/it.md) | [EM FHPlane/it](wiki/EM FHPlane/it.md) | [EM FHPlaneAddRemoveNodeHole/it](wiki/EM FHPlaneAddRemoveNodeHole/it.md) |
-| [EM FHPlaneHole/it](wiki/EM FHPlaneHole/it.md) | [EM FHPort/it](wiki/EM FHPort/it.md) | [EM FHSegment/it](wiki/EM FHSegment/it.md) |
-| [EM FHSolver/it](wiki/EM FHSolver/it.md) | [Template:EM Tools navi/it](wiki/Template_EM Tools navi/it.md) | [EM Workbench/it](wiki/EM Workbench/it.md) |
+| [EM FHEquiv/it](EM_FHEquiv/it.md) | [EM FHInputFile/it](EM_FHInputFile/it.md) | [EM FHNode/it](EM_FHNode/it.md) |
+| [EM FHPath/it](EM_FHPath/it.md) | [EM FHPlane/it](EM_FHPlane/it.md) | [EM FHPlaneAddRemoveNodeHole/it](EM_FHPlaneAddRemoveNodeHole/it.md) |
+| [EM FHPlaneHole/it](EM_FHPlaneHole/it.md) | [EM FHPort/it](EM_FHPort/it.md) | [EM FHSegment/it](EM_FHSegment/it.md) |
+| [EM FHSolver/it](EM_FHSolver/it.md) | [Template:EM Tools navi/it](Template_EM_Tools_navi/it.md) | [EM Workbench/it](EM_Workbench/it.md) |
 |
 
 

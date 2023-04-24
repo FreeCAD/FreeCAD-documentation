@@ -5,173 +5,173 @@ Esta categoría contiene artículos sobre la utilización de FreeCAD. También e
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:GuiCommandAddon/es](wiki/Template_GuiCommandAddon/es.md) | [3D view/es](wiki/3D view/es.md) | [3Dconnexion input devices/es](wiki/3Dconnexion input devices/es.md) |
-| [A2plus Workbench/es](wiki/A2plus Workbench/es.md) | [About FreeCAD/es](wiki/About FreeCAD/es.md) | [Addon/es](wiki/Addon/es.md) |
-| [Advanced TechDraw Tutorial/es](wiki/Advanced TechDraw Tutorial/es.md) | [Aeroplane/es](wiki/Aeroplane/es.md) | [Analysis of reinforced concrete with FEM/es](wiki/Analysis of reinforced concrete with FEM/es.md) |
-| [Animation Workbench/es](wiki/Animation Workbench/es.md) | [App Link/es](wiki/App Link/es.md) | [AppImage/es](wiki/AppImage/es.md) |
-| [Arch 3Views/es](wiki/Arch 3Views/es.md) | [Arch Add/es](wiki/Arch Add/es.md) | [Arch Axis/es](wiki/Arch Axis/es.md) |
-| [Arch AxisSystem/es](wiki/Arch AxisSystem/es.md) | [Arch Building/es](wiki/Arch Building/es.md) | [Arch BuildingPart/es](wiki/Arch BuildingPart/es.md) |
-| [Arch Check/es](wiki/Arch Check/es.md) | [Arch CloneComponent/es](wiki/Arch CloneComponent/es.md) | [Arch CloseHoles/es](wiki/Arch CloseHoles/es.md) |
-| [Arch Component/es](wiki/Arch Component/es.md) | [Arch CompRebarStraight/es](wiki/Arch CompRebarStraight/es.md) | [Arch CurtainWall/es](wiki/Arch CurtainWall/es.md) |
-| [Arch CutPlane/es](wiki/Arch CutPlane/es.md) | [Arch DAE/es](wiki/Arch DAE/es.md) | [Arch Equipment/es](wiki/Arch Equipment/es.md) |
-| [Arch Floor/es](wiki/Arch Floor/es.md) | [Arch Frame/es](wiki/Arch Frame/es.md) | [Arch Grid/es](wiki/Arch Grid/es.md) |
-| [Arch IFC/es](wiki/Arch IFC/es.md) | [Arch IfcExplorer/es](wiki/Arch IfcExplorer/es.md) | [Arch MeshToShape/es](wiki/Arch MeshToShape/es.md) |
-| [Arch MultiMaterial/es](wiki/Arch MultiMaterial/es.md) | [Arch Nest/es](wiki/Arch Nest/es.md) | [Arch OBJ/es](wiki/Arch OBJ/es.md) |
-| [Arch Panel Cut/es](wiki/Arch Panel Cut/es.md) | [Arch Panel Sheet/es](wiki/Arch Panel Sheet/es.md) | [Arch Panel/es](wiki/Arch Panel/es.md) |
-| [Arch Pipe/es](wiki/Arch Pipe/es.md) | [Arch PipeConnector/es](wiki/Arch PipeConnector/es.md) | [Arch Profile/es](wiki/Arch Profile/es.md) |
-| [Arch Project/es](wiki/Arch Project/es.md) | [Arch Rebar BentShape/es](wiki/Arch Rebar BentShape/es.md) | [Arch Rebar Helical/es](wiki/Arch Rebar Helical/es.md) |
-| [Arch Rebar LShape/es](wiki/Arch Rebar LShape/es.md) | [Arch Rebar Stirrup/es](wiki/Arch Rebar Stirrup/es.md) | [Arch Rebar Straight/es](wiki/Arch Rebar Straight/es.md) |
-| [Arch Rebar UShape/es](wiki/Arch Rebar UShape/es.md) | [Arch Rebar/es](wiki/Arch Rebar/es.md) | [Arch Reference/es](wiki/Arch Reference/es.md) |
-| [Arch Remove/es](wiki/Arch Remove/es.md) | [Arch RemoveShape/es](wiki/Arch RemoveShape/es.md) | [Arch Roof/es](wiki/Arch Roof/es.md) |
-| [Arch SectionPlane/es](wiki/Arch SectionPlane/es.md) | [Arch SelectNonSolidMeshes/es](wiki/Arch SelectNonSolidMeshes/es.md) | [Arch SetMaterial/es](wiki/Arch SetMaterial/es.md) |
-| [Arch Site/es](wiki/Arch Site/es.md) | [Arch Space/es](wiki/Arch Space/es.md) | [Arch SplitMesh/es](wiki/Arch SplitMesh/es.md) |
-| [Arch Stairs/es](wiki/Arch Stairs/es.md) | [Arch Structure/es](wiki/Arch Structure/es.md) | [Arch Survey/es](wiki/Arch Survey/es.md) |
-| [Arch ToggleIfcBrepFlag/es](wiki/Arch ToggleIfcBrepFlag/es.md) | [Arch ToggleSubs/es](wiki/Arch ToggleSubs/es.md) | [Arch Truss/es](wiki/Arch Truss/es.md) |
-| [Arch tutorial/es](wiki/Arch tutorial/es.md) | [Arch Wall/es](wiki/Arch Wall/es.md) | [Arch Window/es](wiki/Arch Window/es.md) |
-| [Arch Workbench/es](wiki/Arch Workbench/es.md) | [Assembly3 Workbench/es](wiki/Assembly3 Workbench/es.md) | [Assembly4 Workbench/es](wiki/Assembly4 Workbench/es.md) |
-| [Base API/es](wiki/Base API/es.md) | [Basic modeling tutorial/es](wiki/Basic modeling tutorial/es.md) | [Basic Part Design Tutorial/es](wiki/Basic Part Design Tutorial/es.md) |
-| [Basic Sketcher Tutorial/es](wiki/Basic Sketcher Tutorial/es.md) | [BIM Box/es](wiki/BIM Box/es.md) | [BIM Copy/es](wiki/BIM Copy/es.md) |
-| [BIM Library/es](wiki/BIM Library/es.md) | [BIM Project/es](wiki/BIM Project/es.md) | [BIM Setup/es](wiki/BIM Setup/es.md) |
-| [BIM Workbench/es](wiki/BIM Workbench/es.md) | [Branding/es](wiki/Branding/es.md) | [Civil Engineering Workbench/es](wiki/Civil Engineering Workbench/es.md) |
-| [Combo view/es](wiki/Combo view/es.md) | [Compile on Docker/es](wiki/Compile on Docker/es.md) | [Compile on Linux/es](wiki/Compile on Linux/es.md) |
-| [Compile on MacOS/es](wiki/Compile on MacOS/es.md) | [Compile on MinGW/es](wiki/Compile on MinGW/es.md) | [Compile on Windows/es](wiki/Compile on Windows/es.md) |
-| [Compiling (Speeding up)/es](wiki/Compiling (Speeding up)/es.md) | [Compiling/es](wiki/Compiling/es.md) | [Complete Workbench/es](wiki/Complete Workbench/es.md) |
-| [Console API/es](wiki/Console API/es.md) | [Constraint/es](wiki/Constraint/es.md) | [Constructive solid geometry/es](wiki/Constructive solid geometry/es.md) |
-| [Continuous Integration/es](wiki/Continuous Integration/es.md) | [Contributors/es](wiki/Contributors/es.md) | [Copying Objects/es](wiki/Copying Objects/es.md) |
-| [Creating a simple part with PartDesign/es](wiki/Creating a simple part with PartDesign/es.md) | [Crowdin Administration/es](wiki/Crowdin Administration/es.md) | [Crowdin Scripts/es](wiki/Crowdin Scripts/es.md) |
-| [Custom Spacing/es](wiki/Custom Spacing/es.md) | [Debian development/es](wiki/Debian development/es.md) | [Debian Unstable/es](wiki/Debian Unstable/es.md) |
-| [Developer hub/es](wiki/Developer hub/es.md) | [Document structure/es](wiki/Document structure/es.md) | [Donate/es](wiki/Donate/es.md) |
-| [Download/es](wiki/Download/es.md) | [Draft AddConstruction/es](wiki/Draft AddConstruction/es.md) | [Draft AddToGroup/es](wiki/Draft AddToGroup/es.md) |
-| [Draft AnnotationStyleEditor/es](wiki/Draft AnnotationStyleEditor/es.md) | [Draft API/es](wiki/Draft API/es.md) | [Draft ApplyStyle/es](wiki/Draft ApplyStyle/es.md) |
-| [Draft Arc/es](wiki/Draft Arc/es.md) | [Draft Array/es](wiki/Draft Array/es.md) | [Draft AutoGroup/es](wiki/Draft AutoGroup/es.md) |
-| [Draft BezCurve/es](wiki/Draft BezCurve/es.md) | [Draft BSpline/es](wiki/Draft BSpline/es.md) | [Draft Circle/es](wiki/Draft Circle/es.md) |
-| [Draft CircularArray/es](wiki/Draft CircularArray/es.md) | [Draft Clone/es](wiki/Draft Clone/es.md) | [Draft Constrain/es](wiki/Draft Constrain/es.md) |
-| [Draft CubicBezCurve/es](wiki/Draft CubicBezCurve/es.md) | [Draft DAT/es](wiki/Draft DAT/es.md) | [Draft Dimension/es](wiki/Draft Dimension/es.md) |
-| [Draft Downgrade/es](wiki/Draft Downgrade/es.md) | [Draft Draft2Sketch/es](wiki/Draft Draft2Sketch/es.md) | [Draft Drawing/es](wiki/Draft Drawing/es.md) |
-| [Draft DXF/es](wiki/Draft DXF/es.md) | [Draft Edit/es](wiki/Draft Edit/es.md) | [Draft Ellipse/es](wiki/Draft Ellipse/es.md) |
-| [Draft Facebinder/es](wiki/Draft Facebinder/es.md) | [Draft FlipDimension/es](wiki/Draft FlipDimension/es.md) | [Draft Heal/es](wiki/Draft Heal/es.md) |
-| [Draft Label/es](wiki/Draft Label/es.md) | [Draft Line/es](wiki/Draft Line/es.md) | [Draft Mirror/es](wiki/Draft Mirror/es.md) |
-| [Draft Move/es](wiki/Draft Move/es.md) | [Draft OCA/es](wiki/Draft OCA/es.md) | [Draft Offset/es](wiki/Draft Offset/es.md) |
-| [Draft OrthoArray/es](wiki/Draft OrthoArray/es.md) | [Draft PathArray/es](wiki/Draft PathArray/es.md) | [Draft Point/es](wiki/Draft Point/es.md) |
-| [Draft PointArray/es](wiki/Draft PointArray/es.md) | [Draft PolarArray/es](wiki/Draft PolarArray/es.md) | [Draft Polygon/es](wiki/Draft Polygon/es.md) |
-| [Draft Preferences/es](wiki/Draft Preferences/es.md) | [Draft Rectangle/es](wiki/Draft Rectangle/es.md) | [Draft Rotate/es](wiki/Draft Rotate/es.md) |
-| [Draft Scale/es](wiki/Draft Scale/es.md) | [Draft SelectGroup/es](wiki/Draft SelectGroup/es.md) | [Draft SelectPlane/es](wiki/Draft SelectPlane/es.md) |
-| [Draft Shape2DView/es](wiki/Draft Shape2DView/es.md) | [Draft ShapeString/es](wiki/Draft ShapeString/es.md) | [Draft ShowSnapBar/es](wiki/Draft ShowSnapBar/es.md) |
-| [Draft Slope/es](wiki/Draft Slope/es.md) | [Draft Snap Angle/es](wiki/Draft Snap Angle/es.md) | [Draft Snap Center/es](wiki/Draft Snap Center/es.md) |
-| [Draft Snap Extension/es](wiki/Draft Snap Extension/es.md) | [Draft Snap Intersection/es](wiki/Draft Snap Intersection/es.md) | [Draft Snap Lock/es](wiki/Draft Snap Lock/es.md) |
-| [Draft Snap Midpoint/es](wiki/Draft Snap Midpoint/es.md) | [Draft Snap Ortho/es](wiki/Draft Snap Ortho/es.md) | [Draft Snap Parallel/es](wiki/Draft Snap Parallel/es.md) |
-| [Draft Snap/es](wiki/Draft Snap/es.md) | [Draft Stretch/es](wiki/Draft Stretch/es.md) | [Draft SVG/es](wiki/Draft SVG/es.md) |
-| [Draft Text/es](wiki/Draft Text/es.md) | [Draft ToggleConstructionMode/es](wiki/Draft ToggleConstructionMode/es.md) | [Draft ToggleContinueMode/es](wiki/Draft ToggleContinueMode/es.md) |
-| [Draft ToggleDisplayMode/es](wiki/Draft ToggleDisplayMode/es.md) | [Draft ToggleGrid/es](wiki/Draft ToggleGrid/es.md) | [Draft Tray/es](wiki/Draft Tray/es.md) |
-| [Draft Trimex/es](wiki/Draft Trimex/es.md) | [Draft tutorial/es](wiki/Draft tutorial/es.md) | [Draft Upgrade/es](wiki/Draft Upgrade/es.md) |
-| [Draft Wire/es](wiki/Draft Wire/es.md) | [Draft WireToBSpline/es](wiki/Draft WireToBSpline/es.md) | [Draft Workbench/es](wiki/Draft Workbench/es.md) |
-| [Draft WorkingPlaneProxy/es](wiki/Draft WorkingPlaneProxy/es.md) | [Drawing Annotation/es](wiki/Drawing Annotation/es.md) | [Drawing Clip/es](wiki/Drawing Clip/es.md) |
-| [Drawing Landscape A3/es](wiki/Drawing Landscape A3/es.md) | [Drawing Open SVG/es](wiki/Drawing Open SVG/es.md) | [Drawing Orthoviews/es](wiki/Drawing Orthoviews/es.md) |
-| [Drawing Save/es](wiki/Drawing Save/es.md) | [Drawing templates/es](wiki/Drawing templates/es.md) | [Drawing View/es](wiki/Drawing View/es.md) |
-| [Drawing Workbench/es](wiki/Drawing Workbench/es.md) | [DXF/es](wiki/DXF/es.md) | [External workbenches/es](wiki/External workbenches/es.md) |
-| [Extra python modules/es](wiki/Extra python modules/es.md) | [FCGear Workbench/es](wiki/FCGear Workbench/es.md) | [Feature editing/es](wiki/Feature editing/es.md) |
-| [Feature list/es](wiki/Feature list/es.md) | [FEM CalculiX Cantilever 3D/es](wiki/FEM CalculiX Cantilever 3D/es.md) | [FEM Install/es](wiki/FEM Install/es.md) |
-| [FEM MaterialSolid/es](wiki/FEM MaterialSolid/es.md) | [FEM Mesh/es](wiki/FEM Mesh/es.md) | [FEM PostPipelineFromResult/es](wiki/FEM PostPipelineFromResult/es.md) |
-| [FEM Shear of a Composite Block/es](wiki/FEM Shear of a Composite Block/es.md) | [FEM Solver/es](wiki/FEM Solver/es.md) | [FEM SolverCalculixCxxtools/es](wiki/FEM SolverCalculixCxxtools/es.md) |
-| [FEM Tutorial Python/es](wiki/FEM Tutorial Python/es.md) | [FEM tutorial/es](wiki/FEM tutorial/es.md) | [FEM Workbench/es](wiki/FEM Workbench/es.md) |
-| [File Format FCStd/es](wiki/File Format FCStd/es.md) | [FreeCAD and DWG Import/es](wiki/FreeCAD and DWG Import/es.md) | [FreeCAD and DXF Import/es](wiki/FreeCAD and DXF Import/es.md) |
-| [FreeCAD API/es](wiki/FreeCAD API/es.md) | [FreeCAD Build Tool/es](wiki/FreeCAD Build Tool/es.md) | [FreeCADGui API/es](wiki/FreeCADGui API/es.md) |
-| [Frequently asked questions/es](wiki/Frequently asked questions/es.md) | [Getting started/es](wiki/Getting started/es.md) | [Git buildpackage/es](wiki/Git buildpackage/es.md) |
-| [Glossary/es](wiki/Glossary/es.md) | [GuiCommand model/es](wiki/GuiCommand model/es.md) | [Template:GuiCommand/es](wiki/Template_GuiCommand/es.md) |
-| [Help FreeCAD/es](wiki/Help FreeCAD/es.md) | [Help/es](wiki/Help/es.md) | [How to install additional workbenches/es](wiki/How to install additional workbenches/es.md) |
-| [IfcOpenShell/es](wiki/IfcOpenShell/es.md) | [Image CreateImagePlane/es](wiki/Image CreateImagePlane/es.md) | [Image Open/es](wiki/Image Open/es.md) |
-| [Image Workbench/es](wiki/Image Workbench/es.md) | [Import Export Preferences/es](wiki/Import Export Preferences/es.md) | [Import Export/es](wiki/Import Export/es.md) |
-| [Import/Export IFC - compiling IfcOpenShell/es](wiki/Import/Export IFC - compiling IfcOpenShell/es.md) | [Inspection Workbench/es](wiki/Inspection Workbench/es.md) | [Installing additional components/es](wiki/Installing additional components/es.md) |
-| [Installing Helpfile/es](wiki/Installing Helpfile/es.md) | [Installing on Linux/es](wiki/Installing on Linux/es.md) | [Installing on Mac/es](wiki/Installing on Mac/es.md) |
-| [Installing on Windows/es](wiki/Installing on Windows/es.md) | [Interface Customization/es](wiki/Interface Customization/es.md) | [Interface/es](wiki/Interface/es.md) |
-| [KicadStepUp Workbench/es](wiki/KicadStepUp Workbench/es.md) | [Licence/es](wiki/Licence/es.md) | [Linux packaging/es](wiki/Linux packaging/es.md) |
-| [Localisation/es](wiki/Localisation/es.md) | [Macro Align View to Face/es](wiki/Macro Align View to Face/es.md) | [Macro ArrayCopy/es](wiki/Macro ArrayCopy/es.md) |
-| [Macro Automatic drawing/es](wiki/Macro Automatic drawing/es.md) | [Macro Corner shapes wizard/es](wiki/Macro Corner shapes wizard/es.md) | [Macro Draw 2D Function/es](wiki/Macro Draw 2D Function/es.md) |
-| [Macro Draw Parametric 2D Function/es](wiki/Macro Draw Parametric 2D Function/es.md) | [Macro FlattenWire/es](wiki/Macro FlattenWire/es.md) | [Macro HealArcs/es](wiki/Macro HealArcs/es.md) |
-| [Macro JointWire/es](wiki/Macro JointWire/es.md) | [Macro Make Cube/es](wiki/Macro Make Cube/es.md) | [Macro MeshToPart/es](wiki/Macro MeshToPart/es.md) |
-| [Macro MessageBox/es](wiki/Macro MessageBox/es.md) | [Macro Mouse Cross/es](wiki/Macro Mouse Cross/es.md) | [Macro PartsLibrary/es](wiki/Macro PartsLibrary/es.md) |
-| [Macro Rectellipse/es](wiki/Macro Rectellipse/es.md) | [Macro Remove parametric history/es](wiki/Macro Remove parametric history/es.md) | [Macro Rotate View/es](wiki/Macro Rotate View/es.md) |
-| [Macro Solid Sweep/es](wiki/Macro Solid Sweep/es.md) | [Macro SuperWire/es](wiki/Macro SuperWire/es.md) | [Macro Texture Objects/es](wiki/Macro Texture Objects/es.md) |
-| [Macro TimingGear/es](wiki/Macro TimingGear/es.md) | [Macro View Rotation/es](wiki/Macro View Rotation/es.md) | [Template:Macro/es](wiki/Template_Macro/es.md) |
-| [Main Page/es](wiki/Main Page/es.md) | [Matrix API/es](wiki/Matrix API/es.md) | [Mesh API/es](wiki/Mesh API/es.md) |
-| [Mesh Workbench/es](wiki/Mesh Workbench/es.md) | [MIBA/es](wiki/MIBA/es.md) | [Migrating to FreeCAD from Fusion360/es](wiki/Migrating to FreeCAD from Fusion360/es.md) |
-| [Migrating to FreeCAD from OnShape/es](wiki/Migrating to FreeCAD from OnShape/es.md) | [Mouse navigation/es](wiki/Mouse navigation/es.md) | [Object API/es](wiki/Object API/es.md) |
-| [Object name/es](wiki/Object name/es.md) | [Online Help Startpage/es](wiki/Online Help Startpage/es.md) | [Online Help Toc/es](wiki/Online Help Toc/es.md) |
-| [OpenSCAD AddOpenSCADElement/es](wiki/OpenSCAD AddOpenSCADElement/es.md) | [OpenSCAD ColorCodeShape/es](wiki/OpenSCAD ColorCodeShape/es.md) | [OpenSCAD CSG/es](wiki/OpenSCAD CSG/es.md) |
-| [OpenSCAD Edgestofaces/es](wiki/OpenSCAD Edgestofaces/es.md) | [OpenSCAD ExpandPlacements/es](wiki/OpenSCAD ExpandPlacements/es.md) | [OpenSCAD IncreaseToleranceFeature/es](wiki/OpenSCAD IncreaseToleranceFeature/es.md) |
-| [OpenSCAD Preferences/es](wiki/OpenSCAD Preferences/es.md) | [OpenSCAD RefineShapeFeature/es](wiki/OpenSCAD RefineShapeFeature/es.md) | [OpenSCAD RemoveSubtree/es](wiki/OpenSCAD RemoveSubtree/es.md) |
-| [OpenSCAD ReplaceObject/es](wiki/OpenSCAD ReplaceObject/es.md) | [OpenSCAD Workbench/es](wiki/OpenSCAD Workbench/es.md) | [Packaging/es](wiki/Packaging/es.md) |
-| [Part and PartDesign/es](wiki/Part and PartDesign/es.md) | [Part API/es](wiki/Part API/es.md) | [Part Boolean/es](wiki/Part Boolean/es.md) |
-| [Part Box/es](wiki/Part Box/es.md) | [Part Builder/es](wiki/Part Builder/es.md) | [Part Chamfer/es](wiki/Part Chamfer/es.md) |
-| [Part CheckGeometry/es](wiki/Part CheckGeometry/es.md) | [Part Circle/es](wiki/Part Circle/es.md) | [Part Common/es](wiki/Part Common/es.md) |
-| [Part CompCompoundTools/es](wiki/Part CompCompoundTools/es.md) | [Part Compound/es](wiki/Part Compound/es.md) | [Part CompoundFilter/es](wiki/Part CompoundFilter/es.md) |
-| [Part Cone/es](wiki/Part Cone/es.md) | [Part CrossSections/es](wiki/Part CrossSections/es.md) | [Part Cut/es](wiki/Part Cut/es.md) |
-| [Part Cylinder/es](wiki/Part Cylinder/es.md) | [Part Ellipse/es](wiki/Part Ellipse/es.md) | [Part Ellipsoid/es](wiki/Part Ellipsoid/es.md) |
-| [Part ExplodeCompound/es](wiki/Part ExplodeCompound/es.md) | [Part Extrude/es](wiki/Part Extrude/es.md) | [Part Fillet/es](wiki/Part Fillet/es.md) |
-| [Part Fuse/es](wiki/Part Fuse/es.md) | [Part Helix/es](wiki/Part Helix/es.md) | [Part Line/es](wiki/Part Line/es.md) |
-| [Part Mirror/es](wiki/Part Mirror/es.md) | [Part Module/es](wiki/Part Module/es.md) | [Part Plane/es](wiki/Part Plane/es.md) |
-| [Part Point/es](wiki/Part Point/es.md) | [Part Primitives/es](wiki/Part Primitives/es.md) | [Part Prism/es](wiki/Part Prism/es.md) |
-| [Part ProjectionOnSurface/es](wiki/Part ProjectionOnSurface/es.md) | [Part RegularPolygon/es](wiki/Part RegularPolygon/es.md) | [Part Revolve/es](wiki/Part Revolve/es.md) |
-| [Part Section/es](wiki/Part Section/es.md) | [Part Sphere/es](wiki/Part Sphere/es.md) | [Part Spiral/es](wiki/Part Spiral/es.md) |
-| [Part Sweep/es](wiki/Part Sweep/es.md) | [Part Thickness/es](wiki/Part Thickness/es.md) | [Part Torus/es](wiki/Part Torus/es.md) |
-| [Part Tube/es](wiki/Part Tube/es.md) | [Part Wedge/es](wiki/Part Wedge/es.md) | [PartDesign AdditiveBox/es](wiki/PartDesign AdditiveBox/es.md) |
-| [PartDesign AdditiveCone/es](wiki/PartDesign AdditiveCone/es.md) | [PartDesign AdditiveCylinder/es](wiki/PartDesign AdditiveCylinder/es.md) | [PartDesign AdditiveEllipsoid/es](wiki/PartDesign AdditiveEllipsoid/es.md) |
-| [PartDesign AdditiveHelix/es](wiki/PartDesign AdditiveHelix/es.md) | [PartDesign AdditiveLoft/es](wiki/PartDesign AdditiveLoft/es.md) | [PartDesign AdditivePipe/es](wiki/PartDesign AdditivePipe/es.md) |
-| [PartDesign AdditivePrism/es](wiki/PartDesign AdditivePrism/es.md) | [PartDesign AdditiveSphere/es](wiki/PartDesign AdditiveSphere/es.md) | [PartDesign AdditiveTorus/es](wiki/PartDesign AdditiveTorus/es.md) |
-| [PartDesign AdditiveWedge/es](wiki/PartDesign AdditiveWedge/es.md) | [PartDesign Body/es](wiki/PartDesign Body/es.md) | [PartDesign Chamfer/es](wiki/PartDesign Chamfer/es.md) |
-| [PartDesign Clone/es](wiki/PartDesign Clone/es.md) | [PartDesign CompPrimitiveAdditive/es](wiki/PartDesign CompPrimitiveAdditive/es.md) | [PartDesign CompPrimitiveSubtractive/es](wiki/PartDesign CompPrimitiveSubtractive/es.md) |
-| [PartDesign Draft/es](wiki/PartDesign Draft/es.md) | [PartDesign Feature/es](wiki/PartDesign Feature/es.md) | [PartDesign Fillet/es](wiki/PartDesign Fillet/es.md) |
-| [PartDesign Groove/es](wiki/PartDesign Groove/es.md) | [PartDesign Hole/es](wiki/PartDesign Hole/es.md) | [PartDesign InvoluteGear/es](wiki/PartDesign InvoluteGear/es.md) |
-| [PartDesign Line/es](wiki/PartDesign Line/es.md) | [PartDesign LinearPattern/es](wiki/PartDesign LinearPattern/es.md) | [PartDesign Migrate/es](wiki/PartDesign Migrate/es.md) |
-| [PartDesign Mirrored/es](wiki/PartDesign Mirrored/es.md) | [PartDesign MoveTip/es](wiki/PartDesign MoveTip/es.md) | [PartDesign MultiTransform/es](wiki/PartDesign MultiTransform/es.md) |
-| [PartDesign NewSketch/es](wiki/PartDesign NewSketch/es.md) | [PartDesign Pad/es](wiki/PartDesign Pad/es.md) | [PartDesign Plane/es](wiki/PartDesign Plane/es.md) |
-| [PartDesign Pocket/es](wiki/PartDesign Pocket/es.md) | [PartDesign Point/es](wiki/PartDesign Point/es.md) | [PartDesign PolarPattern/es](wiki/PartDesign PolarPattern/es.md) |
-| [PartDesign Revolution/es](wiki/PartDesign Revolution/es.md) | [PartDesign Scaled/es](wiki/PartDesign Scaled/es.md) | [PartDesign ShapeBinder/es](wiki/PartDesign ShapeBinder/es.md) |
-| [PartDesign Sprocket/es](wiki/PartDesign Sprocket/es.md) | [PartDesign SubtractiveBox/es](wiki/PartDesign SubtractiveBox/es.md) | [PartDesign SubtractiveCone/es](wiki/PartDesign SubtractiveCone/es.md) |
-| [PartDesign SubtractiveCylinder/es](wiki/PartDesign SubtractiveCylinder/es.md) | [PartDesign SubtractiveEllipsoid/es](wiki/PartDesign SubtractiveEllipsoid/es.md) | [PartDesign SubtractivePipe/es](wiki/PartDesign SubtractivePipe/es.md) |
-| [PartDesign SubtractivePrism/es](wiki/PartDesign SubtractivePrism/es.md) | [PartDesign SubtractiveSphere/es](wiki/PartDesign SubtractiveSphere/es.md) | [PartDesign SubtractiveTorus/es](wiki/PartDesign SubtractiveTorus/es.md) |
-| [PartDesign SubtractiveWedge/es](wiki/PartDesign SubtractiveWedge/es.md) | [PartDesign Thickness/es](wiki/PartDesign Thickness/es.md) | [PartDesign WizardShaft/es](wiki/PartDesign WizardShaft/es.md) |
-| [Path Array/es](wiki/Path Array/es.md) | [Path FAQ/es](wiki/Path FAQ/es.md) | [Path Fixture/es](wiki/Path Fixture/es.md) |
-| [Path Job/es](wiki/Path Job/es.md) | [Path Pocket 3D/es](wiki/Path Pocket 3D/es.md) | [Path Postprocessor Customization/es](wiki/Path Postprocessor Customization/es.md) |
-| [Path Workbench/es](wiki/Path Workbench/es.md) | [PCB Workbench/es](wiki/PCB Workbench/es.md) | [PDF/es](wiki/PDF/es.md) |
-| [Placement API/es](wiki/Placement API/es.md) | [Placement/es](wiki/Placement/es.md) | [Plot Axes/es](wiki/Plot Axes/es.md) |
-| [Plot Basic tutorial/es](wiki/Plot Basic tutorial/es.md) | [Plot Grid/es](wiki/Plot Grid/es.md) | [Plot Labels/es](wiki/Plot Labels/es.md) |
-| [Plot Legend/es](wiki/Plot Legend/es.md) | [Plot MultiAxes tutorial/es](wiki/Plot MultiAxes tutorial/es.md) | [Plot Positions/es](wiki/Plot Positions/es.md) |
-| [Plot Save/es](wiki/Plot Save/es.md) | [Plot Series/es](wiki/Plot Series/es.md) | [Plot Workbench/es](wiki/Plot Workbench/es.md) |
-| [Points Workbench/es](wiki/Points Workbench/es.md) | [Preference Packs/es](wiki/Preference Packs/es.md) | [Preferences Editor/es](wiki/Preferences Editor/es.md) |
-| [Property editor/es](wiki/Property editor/es.md) | [Python console/es](wiki/Python console/es.md) | [Qt Example/es](wiki/Qt Example/es.md) |
-| [Raytracing New/es](wiki/Raytracing New/es.md) | [Raytracing Workbench/es](wiki/Raytracing Workbench/es.md) | [Raytracing WriteCamera/es](wiki/Raytracing WriteCamera/es.md) |
-| [Raytracing WritePart/es](wiki/Raytracing WritePart/es.md) | [Raytracing WriteView/es](wiki/Raytracing WriteView/es.md) | [Report view/es](wiki/Report view/es.md) |
-| [Reverse Engineering Workbench/es](wiki/Reverse Engineering Workbench/es.md) | [Robot 6-Axis/es](wiki/Robot 6-Axis/es.md) | [Robot API example/es](wiki/Robot API example/es.md) |
-| [Robot CreateRobot/es](wiki/Robot CreateRobot/es.md) | [Robot CreateTrajectory/es](wiki/Robot CreateTrajectory/es.md) | [Robot Edge2Trac/es](wiki/Robot Edge2Trac/es.md) |
-| [Robot Export/es](wiki/Robot Export/es.md) | [Robot InsertWaypoint/es](wiki/Robot InsertWaypoint/es.md) | [Robot InsertWaypointPre/es](wiki/Robot InsertWaypointPre/es.md) |
-| [Robot RestoreHomePos/es](wiki/Robot RestoreHomePos/es.md) | [Robot SetDefaultOrientation/es](wiki/Robot SetDefaultOrientation/es.md) | [Robot SetDefaultValues/es](wiki/Robot SetDefaultValues/es.md) |
-| [Robot SetHomePos/es](wiki/Robot SetHomePos/es.md) | [Robot Simulate/es](wiki/Robot Simulate/es.md) | [Robot TrajectoryCompound/es](wiki/Robot TrajectoryCompound/es.md) |
-| [Robot TrajectoryDressUp/es](wiki/Robot TrajectoryDressUp/es.md) | [Robot tutorial/es](wiki/Robot tutorial/es.md) | [Robot Workbench/es](wiki/Robot Workbench/es.md) |
-| [Screenshots/es](wiki/Screenshots/es.md) | [Selection API/es](wiki/Selection API/es.md) | [Selection methods/es](wiki/Selection methods/es.md) |
-| [Ship AreasCurve/es](wiki/Ship AreasCurve/es.md) | [Ship CreateShip/es](wiki/Ship CreateShip/es.md) | [Ship Hydrostatics/es](wiki/Ship Hydrostatics/es.md) |
-| [Ship LoadExample/es](wiki/Ship LoadExample/es.md) | [Ship Workbench/es](wiki/Ship Workbench/es.md) | [Sketch/es](wiki/Sketch/es.md) |
-| [Sketcher CarbonCopy/es](wiki/Sketcher CarbonCopy/es.md) | [Sketcher Clone/es](wiki/Sketcher Clone/es.md) | [Sketcher CloseShape/es](wiki/Sketcher CloseShape/es.md) |
-| [Sketcher CompCreateArc/es](wiki/Sketcher CompCreateArc/es.md) | [Sketcher CompCreateBSpline/es](wiki/Sketcher CompCreateBSpline/es.md) | [Sketcher CompCreateCircle/es](wiki/Sketcher CompCreateCircle/es.md) |
-| [Sketcher CompCreateConic/es](wiki/Sketcher CompCreateConic/es.md) | [Sketcher CompCreateRegularPolygon/es](wiki/Sketcher CompCreateRegularPolygon/es.md) | [Sketcher ConnectLines/es](wiki/Sketcher ConnectLines/es.md) |
-| [Sketcher ConstrainAngle/es](wiki/Sketcher ConstrainAngle/es.md) | [Sketcher ConstrainBlock/es](wiki/Sketcher ConstrainBlock/es.md) | [Sketcher ConstrainCoincident/es](wiki/Sketcher ConstrainCoincident/es.md) |
-| [Sketcher ConstrainDiameter/es](wiki/Sketcher ConstrainDiameter/es.md) | [Sketcher ConstrainDistance/es](wiki/Sketcher ConstrainDistance/es.md) | [Sketcher ConstrainDistanceX/es](wiki/Sketcher ConstrainDistanceX/es.md) |
-| [Sketcher ConstrainDistanceY/es](wiki/Sketcher ConstrainDistanceY/es.md) | [Sketcher ConstrainEqual/es](wiki/Sketcher ConstrainEqual/es.md) | [Sketcher ConstrainHorizontal/es](wiki/Sketcher ConstrainHorizontal/es.md) |
-| [Sketcher ConstrainInternalAlignment/es](wiki/Sketcher ConstrainInternalAlignment/es.md) | [Sketcher ConstrainLock/es](wiki/Sketcher ConstrainLock/es.md) | [Sketcher ConstrainParallel/es](wiki/Sketcher ConstrainParallel/es.md) |
-| [Sketcher ConstrainPerpendicular/es](wiki/Sketcher ConstrainPerpendicular/es.md) | [Sketcher ConstrainPointOnObject/es](wiki/Sketcher ConstrainPointOnObject/es.md) | [Sketcher ConstrainRadius/es](wiki/Sketcher ConstrainRadius/es.md) |
-| [Sketcher ConstrainSnellsLaw/es](wiki/Sketcher ConstrainSnellsLaw/es.md) | [Sketcher ConstrainSymmetric/es](wiki/Sketcher ConstrainSymmetric/es.md) | [Sketcher ConstrainTangent/es](wiki/Sketcher ConstrainTangent/es.md) |
-| [Sketcher ConstrainVertical/es](wiki/Sketcher ConstrainVertical/es.md) | [Sketcher Copy/es](wiki/Sketcher Copy/es.md) | [Sketcher Create3PointArc/es](wiki/Sketcher Create3PointArc/es.md) |
-| [Sketcher Create3PointCircle/es](wiki/Sketcher Create3PointCircle/es.md) | [Sketcher CreateArc/es](wiki/Sketcher CreateArc/es.md) | [Sketcher CreateArcOfEllipse/es](wiki/Sketcher CreateArcOfEllipse/es.md) |
-| [Sketcher CreateArcOfHyperbola/es](wiki/Sketcher CreateArcOfHyperbola/es.md) | [Sketcher CreateArcOfParabola/es](wiki/Sketcher CreateArcOfParabola/es.md) | [Sketcher CreateCircle/es](wiki/Sketcher CreateCircle/es.md) |
-| [Sketcher CreateEllipseBy3Points/es](wiki/Sketcher CreateEllipseBy3Points/es.md) | [Sketcher CreateEllipseByCenter/es](wiki/Sketcher CreateEllipseByCenter/es.md) | [Sketcher CreateFillet/es](wiki/Sketcher CreateFillet/es.md) |
-| [Sketcher CreateHeptagon/es](wiki/Sketcher CreateHeptagon/es.md) | [Sketcher CreateHexagon/es](wiki/Sketcher CreateHexagon/es.md) | [Sketcher CreateLine/es](wiki/Sketcher CreateLine/es.md) |
-| [Sketcher CreateOctagon/es](wiki/Sketcher CreateOctagon/es.md) | [Sketcher CreatePentagon/es](wiki/Sketcher CreatePentagon/es.md) | [Sketcher CreatePoint/es](wiki/Sketcher CreatePoint/es.md) |
-| [Sketcher CreatePolyline/es](wiki/Sketcher CreatePolyline/es.md) | [Sketcher CreateRectangle/es](wiki/Sketcher CreateRectangle/es.md) | [Sketcher CreateRegularPolygon/es](wiki/Sketcher CreateRegularPolygon/es.md) |
-| [Sketcher CreateSlot/es](wiki/Sketcher CreateSlot/es.md) | [Sketcher CreateSquare/es](wiki/Sketcher CreateSquare/es.md) | [Sketcher CreateTriangle/es](wiki/Sketcher CreateTriangle/es.md) |
-| [Sketcher EditSketch/es](wiki/Sketcher EditSketch/es.md) | [Sketcher Extend/es](wiki/Sketcher Extend/es.md) | [Sketcher External/es](wiki/Sketcher External/es.md) |
-| [Sketcher helper constraint/es](wiki/Sketcher helper constraint/es.md) | [Sketcher LeaveSketch/es](wiki/Sketcher LeaveSketch/es.md) | [Sketcher MapSketch/es](wiki/Sketcher MapSketch/es.md) |
-| [Sketcher MergeSketches/es](wiki/Sketcher MergeSketches/es.md) | [Sketcher MirrorSketch/es](wiki/Sketcher MirrorSketch/es.md) | [Sketcher Move/es](wiki/Sketcher Move/es.md) |
-| [Sketcher NewSketch/es](wiki/Sketcher NewSketch/es.md) | [Sketcher Preferences/es](wiki/Sketcher Preferences/es.md) |
+| [Template:GuiCommandAddon/es](Template_GuiCommandAddon/es.md) | [3D view/es](3D_view/es.md) | [3Dconnexion input devices/es](3Dconnexion_input_devices/es.md) |
+| [A2plus Workbench/es](A2plus_Workbench/es.md) | [About FreeCAD/es](About_FreeCAD/es.md) | [Addon/es](Addon/es.md) |
+| [Advanced TechDraw Tutorial/es](Advanced_TechDraw_Tutorial/es.md) | [Aeroplane/es](Aeroplane/es.md) | [Analysis of reinforced concrete with FEM/es](Analysis_of_reinforced_concrete_with_FEM/es.md) |
+| [Animation Workbench/es](Animation_Workbench/es.md) | [App Link/es](App_Link/es.md) | [AppImage/es](AppImage/es.md) |
+| [Arch 3Views/es](Arch_3Views/es.md) | [Arch Add/es](Arch_Add/es.md) | [Arch Axis/es](Arch_Axis/es.md) |
+| [Arch AxisSystem/es](Arch_AxisSystem/es.md) | [Arch Building/es](Arch_Building/es.md) | [Arch BuildingPart/es](Arch_BuildingPart/es.md) |
+| [Arch Check/es](Arch_Check/es.md) | [Arch CloneComponent/es](Arch_CloneComponent/es.md) | [Arch CloseHoles/es](Arch_CloseHoles/es.md) |
+| [Arch Component/es](Arch_Component/es.md) | [Arch CompRebarStraight/es](Arch_CompRebarStraight/es.md) | [Arch CurtainWall/es](Arch_CurtainWall/es.md) |
+| [Arch CutPlane/es](Arch_CutPlane/es.md) | [Arch DAE/es](Arch_DAE/es.md) | [Arch Equipment/es](Arch_Equipment/es.md) |
+| [Arch Floor/es](Arch_Floor/es.md) | [Arch Frame/es](Arch_Frame/es.md) | [Arch Grid/es](Arch_Grid/es.md) |
+| [Arch IFC/es](Arch_IFC/es.md) | [Arch IfcExplorer/es](Arch_IfcExplorer/es.md) | [Arch MeshToShape/es](Arch_MeshToShape/es.md) |
+| [Arch MultiMaterial/es](Arch_MultiMaterial/es.md) | [Arch Nest/es](Arch_Nest/es.md) | [Arch OBJ/es](Arch_OBJ/es.md) |
+| [Arch Panel Cut/es](Arch_Panel_Cut/es.md) | [Arch Panel Sheet/es](Arch_Panel_Sheet/es.md) | [Arch Panel/es](Arch_Panel/es.md) |
+| [Arch Pipe/es](Arch_Pipe/es.md) | [Arch PipeConnector/es](Arch_PipeConnector/es.md) | [Arch Profile/es](Arch_Profile/es.md) |
+| [Arch Project/es](Arch_Project/es.md) | [Arch Rebar BentShape/es](Arch_Rebar_BentShape/es.md) | [Arch Rebar Helical/es](Arch_Rebar_Helical/es.md) |
+| [Arch Rebar LShape/es](Arch_Rebar_LShape/es.md) | [Arch Rebar Stirrup/es](Arch_Rebar_Stirrup/es.md) | [Arch Rebar Straight/es](Arch_Rebar_Straight/es.md) |
+| [Arch Rebar UShape/es](Arch_Rebar_UShape/es.md) | [Arch Rebar/es](Arch_Rebar/es.md) | [Arch Reference/es](Arch_Reference/es.md) |
+| [Arch Remove/es](Arch_Remove/es.md) | [Arch RemoveShape/es](Arch_RemoveShape/es.md) | [Arch Roof/es](Arch_Roof/es.md) |
+| [Arch SectionPlane/es](Arch_SectionPlane/es.md) | [Arch SelectNonSolidMeshes/es](Arch_SelectNonSolidMeshes/es.md) | [Arch SetMaterial/es](Arch_SetMaterial/es.md) |
+| [Arch Site/es](Arch_Site/es.md) | [Arch Space/es](Arch_Space/es.md) | [Arch SplitMesh/es](Arch_SplitMesh/es.md) |
+| [Arch Stairs/es](Arch_Stairs/es.md) | [Arch Structure/es](Arch_Structure/es.md) | [Arch Survey/es](Arch_Survey/es.md) |
+| [Arch ToggleIfcBrepFlag/es](Arch_ToggleIfcBrepFlag/es.md) | [Arch ToggleSubs/es](Arch_ToggleSubs/es.md) | [Arch Truss/es](Arch_Truss/es.md) |
+| [Arch tutorial/es](Arch_tutorial/es.md) | [Arch Wall/es](Arch_Wall/es.md) | [Arch Window/es](Arch_Window/es.md) |
+| [Arch Workbench/es](Arch_Workbench/es.md) | [Assembly3 Workbench/es](Assembly3_Workbench/es.md) | [Assembly4 Workbench/es](Assembly4_Workbench/es.md) |
+| [Base API/es](Base_API/es.md) | [Basic modeling tutorial/es](Basic_modeling_tutorial/es.md) | [Basic Part Design Tutorial/es](Basic_Part_Design_Tutorial/es.md) |
+| [Basic Sketcher Tutorial/es](Basic_Sketcher_Tutorial/es.md) | [BIM Box/es](BIM_Box/es.md) | [BIM Copy/es](BIM_Copy/es.md) |
+| [BIM Library/es](BIM_Library/es.md) | [BIM Project/es](BIM_Project/es.md) | [BIM Setup/es](BIM_Setup/es.md) |
+| [BIM Workbench/es](BIM_Workbench/es.md) | [Branding/es](Branding/es.md) | [Civil Engineering Workbench/es](Civil_Engineering_Workbench/es.md) |
+| [Combo view/es](Combo_view/es.md) | [Compile on Docker/es](Compile_on_Docker/es.md) | [Compile on Linux/es](Compile_on_Linux/es.md) |
+| [Compile on MacOS/es](Compile_on_MacOS/es.md) | [Compile on MinGW/es](Compile_on_MinGW/es.md) | [Compile on Windows/es](Compile_on_Windows/es.md) |
+| [Compiling (Speeding up)/es](Compiling_(Speeding_up)/es.md) | [Compiling/es](Compiling/es.md) | [Console API/es](Console_API/es.md) |
+| [Constraint/es](Constraint/es.md) | [Constructive solid geometry/es](Constructive_solid_geometry/es.md) | [Continuous Integration/es](Continuous_Integration/es.md) |
+| [Contributors/es](Contributors/es.md) | [Copying Objects/es](Copying_Objects/es.md) | [Creating a simple part with PartDesign/es](Creating_a_simple_part_with_PartDesign/es.md) |
+| [Crowdin Administration/es](Crowdin_Administration/es.md) | [Crowdin Scripts/es](Crowdin_Scripts/es.md) | [Custom Spacing/es](Custom_Spacing/es.md) |
+| [Debian development/es](Debian_development/es.md) | [Debian Unstable/es](Debian_Unstable/es.md) | [Developer hub/es](Developer_hub/es.md) |
+| [Document structure/es](Document_structure/es.md) | [Donate/es](Donate/es.md) | [Download/es](Download/es.md) |
+| [Draft AddConstruction/es](Draft_AddConstruction/es.md) | [Draft AddToGroup/es](Draft_AddToGroup/es.md) | [Draft AnnotationStyleEditor/es](Draft_AnnotationStyleEditor/es.md) |
+| [Draft API/es](Draft_API/es.md) | [Draft ApplyStyle/es](Draft_ApplyStyle/es.md) | [Draft Arc/es](Draft_Arc/es.md) |
+| [Draft Array/es](Draft_Array/es.md) | [Draft AutoGroup/es](Draft_AutoGroup/es.md) | [Draft BezCurve/es](Draft_BezCurve/es.md) |
+| [Draft BSpline/es](Draft_BSpline/es.md) | [Draft Circle/es](Draft_Circle/es.md) | [Draft CircularArray/es](Draft_CircularArray/es.md) |
+| [Draft Clone/es](Draft_Clone/es.md) | [Draft Constrain/es](Draft_Constrain/es.md) | [Draft CubicBezCurve/es](Draft_CubicBezCurve/es.md) |
+| [Draft DAT/es](Draft_DAT/es.md) | [Draft Dimension/es](Draft_Dimension/es.md) | [Draft Downgrade/es](Draft_Downgrade/es.md) |
+| [Draft Draft2Sketch/es](Draft_Draft2Sketch/es.md) | [Draft Drawing/es](Draft_Drawing/es.md) | [Draft DXF/es](Draft_DXF/es.md) |
+| [Draft Edit/es](Draft_Edit/es.md) | [Draft Ellipse/es](Draft_Ellipse/es.md) | [Draft Facebinder/es](Draft_Facebinder/es.md) |
+| [Draft FlipDimension/es](Draft_FlipDimension/es.md) | [Draft Heal/es](Draft_Heal/es.md) | [Draft Label/es](Draft_Label/es.md) |
+| [Draft Line/es](Draft_Line/es.md) | [Draft Mirror/es](Draft_Mirror/es.md) | [Draft Move/es](Draft_Move/es.md) |
+| [Draft OCA/es](Draft_OCA/es.md) | [Draft Offset/es](Draft_Offset/es.md) | [Draft OrthoArray/es](Draft_OrthoArray/es.md) |
+| [Draft PathArray/es](Draft_PathArray/es.md) | [Draft Point/es](Draft_Point/es.md) | [Draft PointArray/es](Draft_PointArray/es.md) |
+| [Draft PolarArray/es](Draft_PolarArray/es.md) | [Draft Polygon/es](Draft_Polygon/es.md) | [Draft Preferences/es](Draft_Preferences/es.md) |
+| [Draft Rectangle/es](Draft_Rectangle/es.md) | [Draft Rotate/es](Draft_Rotate/es.md) | [Draft Scale/es](Draft_Scale/es.md) |
+| [Draft SelectGroup/es](Draft_SelectGroup/es.md) | [Draft SelectPlane/es](Draft_SelectPlane/es.md) | [Draft Shape2DView/es](Draft_Shape2DView/es.md) |
+| [Draft ShapeString/es](Draft_ShapeString/es.md) | [Draft ShowSnapBar/es](Draft_ShowSnapBar/es.md) | [Draft Slope/es](Draft_Slope/es.md) |
+| [Draft Snap Angle/es](Draft_Snap_Angle/es.md) | [Draft Snap Center/es](Draft_Snap_Center/es.md) | [Draft Snap Extension/es](Draft_Snap_Extension/es.md) |
+| [Draft Snap Intersection/es](Draft_Snap_Intersection/es.md) | [Draft Snap Lock/es](Draft_Snap_Lock/es.md) | [Draft Snap Midpoint/es](Draft_Snap_Midpoint/es.md) |
+| [Draft Snap Ortho/es](Draft_Snap_Ortho/es.md) | [Draft Snap Parallel/es](Draft_Snap_Parallel/es.md) | [Draft Snap/es](Draft_Snap/es.md) |
+| [Draft Stretch/es](Draft_Stretch/es.md) | [Draft SVG/es](Draft_SVG/es.md) | [Draft Text/es](Draft_Text/es.md) |
+| [Draft ToggleConstructionMode/es](Draft_ToggleConstructionMode/es.md) | [Draft ToggleContinueMode/es](Draft_ToggleContinueMode/es.md) | [Draft ToggleDisplayMode/es](Draft_ToggleDisplayMode/es.md) |
+| [Draft ToggleGrid/es](Draft_ToggleGrid/es.md) | [Draft Tray/es](Draft_Tray/es.md) | [Draft Trimex/es](Draft_Trimex/es.md) |
+| [Draft tutorial/es](Draft_tutorial/es.md) | [Draft Upgrade/es](Draft_Upgrade/es.md) | [Draft Wire/es](Draft_Wire/es.md) |
+| [Draft WireToBSpline/es](Draft_WireToBSpline/es.md) | [Draft Workbench/es](Draft_Workbench/es.md) | [Draft WorkingPlaneProxy/es](Draft_WorkingPlaneProxy/es.md) |
+| [Drawing Annotation/es](Drawing_Annotation/es.md) | [Drawing Clip/es](Drawing_Clip/es.md) | [Drawing Landscape A3/es](Drawing_Landscape_A3/es.md) |
+| [Drawing Open SVG/es](Drawing_Open_SVG/es.md) | [Drawing Orthoviews/es](Drawing_Orthoviews/es.md) | [Drawing Save/es](Drawing_Save/es.md) |
+| [Drawing templates/es](Drawing_templates/es.md) | [Drawing View/es](Drawing_View/es.md) | [Drawing Workbench/es](Drawing_Workbench/es.md) |
+| [DXF/es](DXF/es.md) | [External workbenches/es](External_workbenches/es.md) | [Extra python modules/es](Extra_python_modules/es.md) |
+| [FCGear Workbench/es](FCGear_Workbench/es.md) | [Feature editing/es](Feature_editing/es.md) | [Feature list/es](Feature_list/es.md) |
+| [FEM CalculiX Cantilever 3D/es](FEM_CalculiX_Cantilever_3D/es.md) | [FEM Install/es](FEM_Install/es.md) | [FEM MaterialSolid/es](FEM_MaterialSolid/es.md) |
+| [FEM Mesh/es](FEM_Mesh/es.md) | [FEM PostPipelineFromResult/es](FEM_PostPipelineFromResult/es.md) | [FEM Shear of a Composite Block/es](FEM_Shear_of_a_Composite_Block/es.md) |
+| [FEM Solver/es](FEM_Solver/es.md) | [FEM SolverCalculixCxxtools/es](FEM_SolverCalculixCxxtools/es.md) | [FEM Tutorial Python/es](FEM_Tutorial_Python/es.md) |
+| [FEM tutorial/es](FEM_tutorial/es.md) | [FEM Workbench/es](FEM_Workbench/es.md) | [File Format FCStd/es](File_Format_FCStd/es.md) |
+| [FreeCAD and DWG Import/es](FreeCAD_and_DWG_Import/es.md) | [FreeCAD and DXF Import/es](FreeCAD_and_DXF_Import/es.md) | [FreeCAD API/es](FreeCAD_API/es.md) |
+| [FreeCAD Build Tool/es](FreeCAD_Build_Tool/es.md) | [FreeCADGui API/es](FreeCADGui_API/es.md) | [Frequently asked questions/es](Frequently_asked_questions/es.md) |
+| [Getting started/es](Getting_started/es.md) | [Git buildpackage/es](Git_buildpackage/es.md) | [Glossary/es](Glossary/es.md) |
+| [GuiCommand model/es](GuiCommand_model/es.md) | [Template:GuiCommand/es](Template_GuiCommand/es.md) | [Help FreeCAD/es](Help_FreeCAD/es.md) |
+| [Help/es](Help/es.md) | [How to install additional workbenches/es](How_to_install_additional_workbenches/es.md) | [IfcOpenShell/es](IfcOpenShell/es.md) |
+| [Image CreateImagePlane/es](Image_CreateImagePlane/es.md) | [Image Open/es](Image_Open/es.md) | [Image Workbench/es](Image_Workbench/es.md) |
+| [Import Export Preferences/es](Import_Export_Preferences/es.md) | [Import Export/es](Import_Export/es.md) | [Import/Export IFC - compiling IfcOpenShell/es](Import/Export_IFC_-_compiling_IfcOpenShell/es.md) |
+| [Inspection Workbench/es](Inspection_Workbench/es.md) | [Installing additional components/es](Installing_additional_components/es.md) | [Installing Helpfile/es](Installing_Helpfile/es.md) |
+| [Installing on Linux/es](Installing_on_Linux/es.md) | [Installing on Mac/es](Installing_on_Mac/es.md) | [Installing on Windows/es](Installing_on_Windows/es.md) |
+| [Interface Customization/es](Interface_Customization/es.md) | [Interface/es](Interface/es.md) | [KicadStepUp Workbench/es](KicadStepUp_Workbench/es.md) |
+| [Licence/es](Licence/es.md) | [Linux packaging/es](Linux_packaging/es.md) | [Localisation/es](Localisation/es.md) |
+| [Macro Align View to Face/es](Macro_Align_View_to_Face/es.md) | [Macro ArrayCopy/es](Macro_ArrayCopy/es.md) | [Macro Automatic drawing/es](Macro_Automatic_drawing/es.md) |
+| [Macro Corner shapes wizard/es](Macro_Corner_shapes_wizard/es.md) | [Macro Draw 2D Function/es](Macro_Draw_2D_Function/es.md) | [Macro Draw Parametric 2D Function/es](Macro_Draw_Parametric_2D_Function/es.md) |
+| [Macro FlattenWire/es](Macro_FlattenWire/es.md) | [Macro HealArcs/es](Macro_HealArcs/es.md) | [Macro JointWire/es](Macro_JointWire/es.md) |
+| [Macro Make Cube/es](Macro_Make_Cube/es.md) | [Macro MeshToPart/es](Macro_MeshToPart/es.md) | [Macro MessageBox/es](Macro_MessageBox/es.md) |
+| [Macro Mouse Cross/es](Macro_Mouse_Cross/es.md) | [Macro PartsLibrary/es](Macro_PartsLibrary/es.md) | [Macro Rectellipse/es](Macro_Rectellipse/es.md) |
+| [Macro Remove parametric history/es](Macro_Remove_parametric_history/es.md) | [Macro Rotate View/es](Macro_Rotate_View/es.md) | [Macro Solid Sweep/es](Macro_Solid_Sweep/es.md) |
+| [Macro SuperWire/es](Macro_SuperWire/es.md) | [Macro Texture Objects/es](Macro_Texture_Objects/es.md) | [Macro TimingGear/es](Macro_TimingGear/es.md) |
+| [Macro View Rotation/es](Macro_View_Rotation/es.md) | [Template:Macro/es](Template_Macro/es.md) | [Main Page/es](Main_Page/es.md) |
+| [Matrix API/es](Matrix_API/es.md) | [Mesh API/es](Mesh_API/es.md) | [Mesh Workbench/es](Mesh_Workbench/es.md) |
+| [MIBA/es](MIBA/es.md) | [Migrating to FreeCAD from Fusion360/es](Migrating_to_FreeCAD_from_Fusion360/es.md) | [Migrating to FreeCAD from OnShape/es](Migrating_to_FreeCAD_from_OnShape/es.md) |
+| [Mouse navigation/es](Mouse_navigation/es.md) | [Object API/es](Object_API/es.md) | [Object name/es](Object_name/es.md) |
+| [Online Help Startpage/es](Online_Help_Startpage/es.md) | [Online Help Toc/es](Online_Help_Toc/es.md) | [OpenSCAD AddOpenSCADElement/es](OpenSCAD_AddOpenSCADElement/es.md) |
+| [OpenSCAD ColorCodeShape/es](OpenSCAD_ColorCodeShape/es.md) | [OpenSCAD CSG/es](OpenSCAD_CSG/es.md) | [OpenSCAD Edgestofaces/es](OpenSCAD_Edgestofaces/es.md) |
+| [OpenSCAD ExpandPlacements/es](OpenSCAD_ExpandPlacements/es.md) | [OpenSCAD IncreaseToleranceFeature/es](OpenSCAD_IncreaseToleranceFeature/es.md) | [OpenSCAD Preferences/es](OpenSCAD_Preferences/es.md) |
+| [OpenSCAD RefineShapeFeature/es](OpenSCAD_RefineShapeFeature/es.md) | [OpenSCAD RemoveSubtree/es](OpenSCAD_RemoveSubtree/es.md) | [OpenSCAD ReplaceObject/es](OpenSCAD_ReplaceObject/es.md) |
+| [OpenSCAD Workbench/es](OpenSCAD_Workbench/es.md) | [Packaging/es](Packaging/es.md) | [Part and PartDesign/es](Part_and_PartDesign/es.md) |
+| [Part API/es](Part_API/es.md) | [Part Boolean/es](Part_Boolean/es.md) | [Part Box/es](Part_Box/es.md) |
+| [Part Builder/es](Part_Builder/es.md) | [Part Chamfer/es](Part_Chamfer/es.md) | [Part CheckGeometry/es](Part_CheckGeometry/es.md) |
+| [Part Circle/es](Part_Circle/es.md) | [Part Common/es](Part_Common/es.md) | [Part CompCompoundTools/es](Part_CompCompoundTools/es.md) |
+| [Part Compound/es](Part_Compound/es.md) | [Part CompoundFilter/es](Part_CompoundFilter/es.md) | [Part Cone/es](Part_Cone/es.md) |
+| [Part CrossSections/es](Part_CrossSections/es.md) | [Part Cut/es](Part_Cut/es.md) | [Part Cylinder/es](Part_Cylinder/es.md) |
+| [Part Ellipse/es](Part_Ellipse/es.md) | [Part Ellipsoid/es](Part_Ellipsoid/es.md) | [Part ExplodeCompound/es](Part_ExplodeCompound/es.md) |
+| [Part Extrude/es](Part_Extrude/es.md) | [Part Fillet/es](Part_Fillet/es.md) | [Part Fuse/es](Part_Fuse/es.md) |
+| [Part Helix/es](Part_Helix/es.md) | [Part Line/es](Part_Line/es.md) | [Part Mirror/es](Part_Mirror/es.md) |
+| [Part Module/es](Part_Module/es.md) | [Part Plane/es](Part_Plane/es.md) | [Part Point/es](Part_Point/es.md) |
+| [Part Primitives/es](Part_Primitives/es.md) | [Part Prism/es](Part_Prism/es.md) | [Part ProjectionOnSurface/es](Part_ProjectionOnSurface/es.md) |
+| [Part RegularPolygon/es](Part_RegularPolygon/es.md) | [Part Revolve/es](Part_Revolve/es.md) | [Part Section/es](Part_Section/es.md) |
+| [Part Sphere/es](Part_Sphere/es.md) | [Part Spiral/es](Part_Spiral/es.md) | [Part Sweep/es](Part_Sweep/es.md) |
+| [Part Thickness/es](Part_Thickness/es.md) | [Part Torus/es](Part_Torus/es.md) | [Part Tube/es](Part_Tube/es.md) |
+| [Part Wedge/es](Part_Wedge/es.md) | [PartDesign AdditiveBox/es](PartDesign_AdditiveBox/es.md) | [PartDesign AdditiveCone/es](PartDesign_AdditiveCone/es.md) |
+| [PartDesign AdditiveCylinder/es](PartDesign_AdditiveCylinder/es.md) | [PartDesign AdditiveEllipsoid/es](PartDesign_AdditiveEllipsoid/es.md) | [PartDesign AdditiveHelix/es](PartDesign_AdditiveHelix/es.md) |
+| [PartDesign AdditiveLoft/es](PartDesign_AdditiveLoft/es.md) | [PartDesign AdditivePipe/es](PartDesign_AdditivePipe/es.md) | [PartDesign AdditivePrism/es](PartDesign_AdditivePrism/es.md) |
+| [PartDesign AdditiveSphere/es](PartDesign_AdditiveSphere/es.md) | [PartDesign AdditiveTorus/es](PartDesign_AdditiveTorus/es.md) | [PartDesign AdditiveWedge/es](PartDesign_AdditiveWedge/es.md) |
+| [PartDesign Body/es](PartDesign_Body/es.md) | [PartDesign Chamfer/es](PartDesign_Chamfer/es.md) | [PartDesign Clone/es](PartDesign_Clone/es.md) |
+| [PartDesign CompPrimitiveAdditive/es](PartDesign_CompPrimitiveAdditive/es.md) | [PartDesign CompPrimitiveSubtractive/es](PartDesign_CompPrimitiveSubtractive/es.md) | [PartDesign Draft/es](PartDesign_Draft/es.md) |
+| [PartDesign Feature/es](PartDesign_Feature/es.md) | [PartDesign Fillet/es](PartDesign_Fillet/es.md) | [PartDesign Groove/es](PartDesign_Groove/es.md) |
+| [PartDesign Hole/es](PartDesign_Hole/es.md) | [PartDesign InvoluteGear/es](PartDesign_InvoluteGear/es.md) | [PartDesign Line/es](PartDesign_Line/es.md) |
+| [PartDesign LinearPattern/es](PartDesign_LinearPattern/es.md) | [PartDesign Migrate/es](PartDesign_Migrate/es.md) | [PartDesign Mirrored/es](PartDesign_Mirrored/es.md) |
+| [PartDesign MoveTip/es](PartDesign_MoveTip/es.md) | [PartDesign MultiTransform/es](PartDesign_MultiTransform/es.md) | [PartDesign NewSketch/es](PartDesign_NewSketch/es.md) |
+| [PartDesign Pad/es](PartDesign_Pad/es.md) | [PartDesign Plane/es](PartDesign_Plane/es.md) | [PartDesign Pocket/es](PartDesign_Pocket/es.md) |
+| [PartDesign Point/es](PartDesign_Point/es.md) | [PartDesign PolarPattern/es](PartDesign_PolarPattern/es.md) | [PartDesign Revolution/es](PartDesign_Revolution/es.md) |
+| [PartDesign Scaled/es](PartDesign_Scaled/es.md) | [PartDesign ShapeBinder/es](PartDesign_ShapeBinder/es.md) | [PartDesign Sprocket/es](PartDesign_Sprocket/es.md) |
+| [PartDesign SubtractiveBox/es](PartDesign_SubtractiveBox/es.md) | [PartDesign SubtractiveCone/es](PartDesign_SubtractiveCone/es.md) | [PartDesign SubtractiveCylinder/es](PartDesign_SubtractiveCylinder/es.md) |
+| [PartDesign SubtractiveEllipsoid/es](PartDesign_SubtractiveEllipsoid/es.md) | [PartDesign SubtractivePipe/es](PartDesign_SubtractivePipe/es.md) | [PartDesign SubtractivePrism/es](PartDesign_SubtractivePrism/es.md) |
+| [PartDesign SubtractiveSphere/es](PartDesign_SubtractiveSphere/es.md) | [PartDesign SubtractiveTorus/es](PartDesign_SubtractiveTorus/es.md) | [PartDesign SubtractiveWedge/es](PartDesign_SubtractiveWedge/es.md) |
+| [PartDesign Thickness/es](PartDesign_Thickness/es.md) | [PartDesign WizardShaft/es](PartDesign_WizardShaft/es.md) | [Path Array/es](Path_Array/es.md) |
+| [Path FAQ/es](Path_FAQ/es.md) | [Path Fixture/es](Path_Fixture/es.md) | [Path Job/es](Path_Job/es.md) |
+| [Path Pocket 3D/es](Path_Pocket_3D/es.md) | [Path Postprocessor Customization/es](Path_Postprocessor_Customization/es.md) | [Path Workbench/es](Path_Workbench/es.md) |
+| [PCB Workbench/es](PCB_Workbench/es.md) | [PDF/es](PDF/es.md) | [Placement API/es](Placement_API/es.md) |
+| [Placement/es](Placement/es.md) | [Plot Axes/es](Plot_Axes/es.md) | [Plot Basic tutorial/es](Plot_Basic_tutorial/es.md) |
+| [Plot Grid/es](Plot_Grid/es.md) | [Plot Labels/es](Plot_Labels/es.md) | [Plot Legend/es](Plot_Legend/es.md) |
+| [Plot MultiAxes tutorial/es](Plot_MultiAxes_tutorial/es.md) | [Plot Positions/es](Plot_Positions/es.md) | [Plot Save/es](Plot_Save/es.md) |
+| [Plot Series/es](Plot_Series/es.md) | [Plot Workbench/es](Plot_Workbench/es.md) | [Points Workbench/es](Points_Workbench/es.md) |
+| [Preference Packs/es](Preference_Packs/es.md) | [Preferences Editor/es](Preferences_Editor/es.md) | [Property editor/es](Property_editor/es.md) |
+| [Python console/es](Python_console/es.md) | [Qt Example/es](Qt_Example/es.md) | [Raytracing New/es](Raytracing_New/es.md) |
+| [Raytracing Workbench/es](Raytracing_Workbench/es.md) | [Raytracing WriteCamera/es](Raytracing_WriteCamera/es.md) | [Raytracing WritePart/es](Raytracing_WritePart/es.md) |
+| [Raytracing WriteView/es](Raytracing_WriteView/es.md) | [Report view/es](Report_view/es.md) | [Reverse Engineering Workbench/es](Reverse_Engineering_Workbench/es.md) |
+| [Robot 6-Axis/es](Robot_6-Axis/es.md) | [Robot API example/es](Robot_API_example/es.md) | [Robot CreateRobot/es](Robot_CreateRobot/es.md) |
+| [Robot CreateTrajectory/es](Robot_CreateTrajectory/es.md) | [Robot Edge2Trac/es](Robot_Edge2Trac/es.md) | [Robot Export/es](Robot_Export/es.md) |
+| [Robot InsertWaypoint/es](Robot_InsertWaypoint/es.md) | [Robot InsertWaypointPre/es](Robot_InsertWaypointPre/es.md) | [Robot RestoreHomePos/es](Robot_RestoreHomePos/es.md) |
+| [Robot SetDefaultOrientation/es](Robot_SetDefaultOrientation/es.md) | [Robot SetDefaultValues/es](Robot_SetDefaultValues/es.md) | [Robot SetHomePos/es](Robot_SetHomePos/es.md) |
+| [Robot Simulate/es](Robot_Simulate/es.md) | [Robot TrajectoryCompound/es](Robot_TrajectoryCompound/es.md) | [Robot TrajectoryDressUp/es](Robot_TrajectoryDressUp/es.md) |
+| [Robot tutorial/es](Robot_tutorial/es.md) | [Robot Workbench/es](Robot_Workbench/es.md) | [Screenshots/es](Screenshots/es.md) |
+| [Selection API/es](Selection_API/es.md) | [Selection methods/es](Selection_methods/es.md) | [Ship AreasCurve/es](Ship_AreasCurve/es.md) |
+| [Ship CreateShip/es](Ship_CreateShip/es.md) | [Ship Hydrostatics/es](Ship_Hydrostatics/es.md) | [Ship LoadExample/es](Ship_LoadExample/es.md) |
+| [Ship Workbench/es](Ship_Workbench/es.md) | [Sketch/es](Sketch/es.md) | [Sketcher CarbonCopy/es](Sketcher_CarbonCopy/es.md) |
+| [Sketcher Clone/es](Sketcher_Clone/es.md) | [Sketcher CloseShape/es](Sketcher_CloseShape/es.md) | [Sketcher CompCreateArc/es](Sketcher_CompCreateArc/es.md) |
+| [Sketcher CompCreateBSpline/es](Sketcher_CompCreateBSpline/es.md) | [Sketcher CompCreateCircle/es](Sketcher_CompCreateCircle/es.md) | [Sketcher CompCreateConic/es](Sketcher_CompCreateConic/es.md) |
+| [Sketcher CompCreateRegularPolygon/es](Sketcher_CompCreateRegularPolygon/es.md) | [Sketcher ConnectLines/es](Sketcher_ConnectLines/es.md) | [Sketcher ConstrainAngle/es](Sketcher_ConstrainAngle/es.md) |
+| [Sketcher ConstrainBlock/es](Sketcher_ConstrainBlock/es.md) | [Sketcher ConstrainCoincident/es](Sketcher_ConstrainCoincident/es.md) | [Sketcher ConstrainDiameter/es](Sketcher_ConstrainDiameter/es.md) |
+| [Sketcher ConstrainDistance/es](Sketcher_ConstrainDistance/es.md) | [Sketcher ConstrainDistanceX/es](Sketcher_ConstrainDistanceX/es.md) | [Sketcher ConstrainDistanceY/es](Sketcher_ConstrainDistanceY/es.md) |
+| [Sketcher ConstrainEqual/es](Sketcher_ConstrainEqual/es.md) | [Sketcher ConstrainHorizontal/es](Sketcher_ConstrainHorizontal/es.md) | [Sketcher ConstrainInternalAlignment/es](Sketcher_ConstrainInternalAlignment/es.md) |
+| [Sketcher ConstrainLock/es](Sketcher_ConstrainLock/es.md) | [Sketcher ConstrainParallel/es](Sketcher_ConstrainParallel/es.md) | [Sketcher ConstrainPerpendicular/es](Sketcher_ConstrainPerpendicular/es.md) |
+| [Sketcher ConstrainPointOnObject/es](Sketcher_ConstrainPointOnObject/es.md) | [Sketcher ConstrainRadius/es](Sketcher_ConstrainRadius/es.md) | [Sketcher ConstrainSnellsLaw/es](Sketcher_ConstrainSnellsLaw/es.md) |
+| [Sketcher ConstrainSymmetric/es](Sketcher_ConstrainSymmetric/es.md) | [Sketcher ConstrainTangent/es](Sketcher_ConstrainTangent/es.md) | [Sketcher ConstrainVertical/es](Sketcher_ConstrainVertical/es.md) |
+| [Sketcher Copy/es](Sketcher_Copy/es.md) | [Sketcher Create3PointArc/es](Sketcher_Create3PointArc/es.md) | [Sketcher Create3PointCircle/es](Sketcher_Create3PointCircle/es.md) |
+| [Sketcher CreateArc/es](Sketcher_CreateArc/es.md) | [Sketcher CreateArcOfEllipse/es](Sketcher_CreateArcOfEllipse/es.md) | [Sketcher CreateArcOfHyperbola/es](Sketcher_CreateArcOfHyperbola/es.md) |
+| [Sketcher CreateArcOfParabola/es](Sketcher_CreateArcOfParabola/es.md) | [Sketcher CreateCircle/es](Sketcher_CreateCircle/es.md) | [Sketcher CreateEllipseBy3Points/es](Sketcher_CreateEllipseBy3Points/es.md) |
+| [Sketcher CreateEllipseByCenter/es](Sketcher_CreateEllipseByCenter/es.md) | [Sketcher CreateFillet/es](Sketcher_CreateFillet/es.md) | [Sketcher CreateHeptagon/es](Sketcher_CreateHeptagon/es.md) |
+| [Sketcher CreateHexagon/es](Sketcher_CreateHexagon/es.md) | [Sketcher CreateLine/es](Sketcher_CreateLine/es.md) | [Sketcher CreateOctagon/es](Sketcher_CreateOctagon/es.md) |
+| [Sketcher CreatePentagon/es](Sketcher_CreatePentagon/es.md) | [Sketcher CreatePoint/es](Sketcher_CreatePoint/es.md) | [Sketcher CreatePolyline/es](Sketcher_CreatePolyline/es.md) |
+| [Sketcher CreateRectangle/es](Sketcher_CreateRectangle/es.md) | [Sketcher CreateRegularPolygon/es](Sketcher_CreateRegularPolygon/es.md) | [Sketcher CreateSlot/es](Sketcher_CreateSlot/es.md) |
+| [Sketcher CreateSquare/es](Sketcher_CreateSquare/es.md) | [Sketcher CreateTriangle/es](Sketcher_CreateTriangle/es.md) | [Sketcher EditSketch/es](Sketcher_EditSketch/es.md) |
+| [Sketcher Extend/es](Sketcher_Extend/es.md) | [Sketcher External/es](Sketcher_External/es.md) | [Sketcher helper constraint/es](Sketcher_helper_constraint/es.md) |
+| [Sketcher LeaveSketch/es](Sketcher_LeaveSketch/es.md) | [Sketcher MapSketch/es](Sketcher_MapSketch/es.md) | [Sketcher MergeSketches/es](Sketcher_MergeSketches/es.md) |
+| [Sketcher MirrorSketch/es](Sketcher_MirrorSketch/es.md) | [Sketcher Move/es](Sketcher_Move/es.md) | [Sketcher NewSketch/es](Sketcher_NewSketch/es.md) |
+| [Sketcher Preferences/es](Sketcher_Preferences/es.md) | [Sketcher RectangularArray/es](Sketcher_RectangularArray/es.md) |
 
 
 

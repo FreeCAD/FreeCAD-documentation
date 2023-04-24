@@ -5,7 +5,7 @@ This category lists pages related to the [Robot Workbench/hu](Robot_Workbench/hu
 
 |     |     |     |
 | --- | --- | --- |
-| [Robot Workbench/hu](wiki/Robot Workbench/hu.md) |
+| [Robot Workbench/hu](Robot_Workbench/hu.md) |
 
 
 

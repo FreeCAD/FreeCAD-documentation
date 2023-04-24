@@ -5,7 +5,7 @@ This category contains articles with news and messages about FreeCAD.
 
 |     |     |     |
 | --- | --- | --- |
-| [Release notes 0.14/cs](wiki/Release notes 0.14/cs.md) |
+| [Release notes 0.14/cs](Release_notes_0.14/cs.md) |
 
 
 

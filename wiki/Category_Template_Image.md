@@ -5,7 +5,7 @@ This category lists templates that add images.
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:En](wiki/Template_En.md) | [Template:Screenshot](wiki/Template_Screenshot.md) |
+| [Template:En](Template_En.md) | [Template:Screenshot](Template_Screenshot.md) |
 
 
 

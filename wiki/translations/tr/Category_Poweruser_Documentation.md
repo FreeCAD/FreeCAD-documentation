@@ -5,16 +5,16 @@ This category shows documentation articles dealing with python scripting, which 
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch API/tr](wiki/Arch API/tr.md) | [Builtin modules/tr](wiki/Builtin modules/tr.md) | [Code snippets/tr](wiki/Code snippets/tr.md) |
-| [Command/tr](wiki/Command/tr.md) | [Debugging/tr](wiki/Debugging/tr.md) | [Dialog creation/tr](wiki/Dialog creation/tr.md) |
-| [Draft API/tr](wiki/Draft API/tr.md) | [Embedding FreeCAD/tr](wiki/Embedding FreeCAD/tr.md) | [Embedding FreeCADGui/tr](wiki/Embedding FreeCADGui/tr.md) |
-| [FreeCAD Scripting Basics/tr](wiki/FreeCAD Scripting Basics/tr.md) | [FreeCAD vector math library/tr](wiki/FreeCAD vector math library/tr.md) | [Gui Command/tr](wiki/Gui Command/tr.md) |
-| [How to install macros/tr](wiki/How to install macros/tr.md) | [Installing more workbenches/tr](wiki/Installing more workbenches/tr.md) | [Introduction to Python/tr](wiki/Introduction to Python/tr.md) |
-| [Line drawing function/tr](wiki/Line drawing function/tr.md) | [Macros/tr](wiki/Macros/tr.md) | [Mesh Scripting/tr](wiki/Mesh Scripting/tr.md) |
-| [Mesh to Part/tr](wiki/Mesh to Part/tr.md) | [Pivy/tr](wiki/Pivy/tr.md) | [Power users hub/tr](wiki/Power users hub/tr.md) |
-| [Property/tr](wiki/Property/tr.md) | [PySide/tr](wiki/PySide/tr.md) | [Python scripting tutorial/tr](wiki/Python scripting tutorial/tr.md) |
-| [Python/tr](wiki/Python/tr.md) | [PythonOCC/tr](wiki/PythonOCC/tr.md) | [Scenegraph/tr](wiki/Scenegraph/tr.md) |
-| [Scripted objects/tr](wiki/Scripted objects/tr.md) | [Topological data scripting/tr](wiki/Topological data scripting/tr.md) |
+| [Arch API/tr](Arch_API/tr.md) | [Builtin modules/tr](Builtin_modules/tr.md) | [Code snippets/tr](Code_snippets/tr.md) |
+| [Command/tr](Command/tr.md) | [Debugging/tr](Debugging/tr.md) | [Dialog creation/tr](Dialog_creation/tr.md) |
+| [Draft API/tr](Draft_API/tr.md) | [Embedding FreeCAD/tr](Embedding_FreeCAD/tr.md) | [Embedding FreeCADGui/tr](Embedding_FreeCADGui/tr.md) |
+| [FreeCAD Scripting Basics/tr](FreeCAD_Scripting_Basics/tr.md) | [FreeCAD vector math library/tr](FreeCAD_vector_math_library/tr.md) | [Gui Command/tr](Gui_Command/tr.md) |
+| [How to install macros/tr](How_to_install_macros/tr.md) | [Installing more workbenches/tr](Installing_more_workbenches/tr.md) | [Introduction to Python/tr](Introduction_to_Python/tr.md) |
+| [Line drawing function/tr](Line_drawing_function/tr.md) | [Macros/tr](Macros/tr.md) | [Mesh Scripting/tr](Mesh_Scripting/tr.md) |
+| [Mesh to Part/tr](Mesh_to_Part/tr.md) | [Pivy/tr](Pivy/tr.md) | [Power users hub/tr](Power_users_hub/tr.md) |
+| [Property/tr](Property/tr.md) | [PySide/tr](PySide/tr.md) | [Python scripting tutorial/tr](Python_scripting_tutorial/tr.md) |
+| [Python/tr](Python/tr.md) | [PythonOCC/tr](PythonOCC/tr.md) | [Scenegraph/tr](Scenegraph/tr.md) |
+| [Scripted objects/tr](Scripted_objects/tr.md) | [Topological data scripting/tr](Topological_data_scripting/tr.md) |
 
 
 

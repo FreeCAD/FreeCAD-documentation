@@ -9,7 +9,7 @@ These long pages should not be transcluded; rather, the information should be pl
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:Blender Navigation/it](wiki/Template_Blender Navigation/it.md) |
+| [Template:Blender Navigation/it](Template_Blender_Navigation/it.md) |
 
 
 

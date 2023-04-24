@@ -5,7 +5,7 @@ This category lists pages that relate to the [Web Workbench/tr](Web_Workbench/tr
 
 |     |     |     |
 | --- | --- | --- |
-| [Web Workbench/tr](wiki/Web Workbench/tr.md) |
+| [Web Workbench/tr](Web_Workbench/tr.md) |
 
 
 

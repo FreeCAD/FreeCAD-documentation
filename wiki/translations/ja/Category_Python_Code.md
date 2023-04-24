@@ -5,9 +5,9 @@ This category contains python code examples for FreeCAD
 
 |     |     |     |
 | --- | --- | --- |
-| [Code snippets/ja](wiki/Code snippets/ja.md) | [Embedding FreeCAD/ja](wiki/Embedding FreeCAD/ja.md) | [Introduction to Python/ja](wiki/Introduction to Python/ja.md) |
-| [Macros/ja](wiki/Macros/ja.md) | [Mesh to Part/ja](wiki/Mesh to Part/ja.md) | [Pivy/ja](wiki/Pivy/ja.md) |
-| [Property/ja](wiki/Property/ja.md) | [PySide/ja](wiki/PySide/ja.md) | [Python scripting tutorial/ja](wiki/Python scripting tutorial/ja.md) |
+| [Code snippets/ja](Code_snippets/ja.md) | [Embedding FreeCAD/ja](Embedding_FreeCAD/ja.md) | [Introduction to Python/ja](Introduction_to_Python/ja.md) |
+| [Macros/ja](Macros/ja.md) | [Mesh to Part/ja](Mesh_to_Part/ja.md) | [Pivy/ja](Pivy/ja.md) |
+| [Property/ja](Property/ja.md) | [PySide/ja](PySide/ja.md) | [Python scripting tutorial/ja](Python_scripting_tutorial/ja.md) |
 |
 
 

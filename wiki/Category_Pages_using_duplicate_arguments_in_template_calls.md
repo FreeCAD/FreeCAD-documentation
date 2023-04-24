@@ -5,10 +5,11 @@ Pages using duplicate arguments in template calls
 
 |     |     |     |
 | --- | --- | --- |
-| [Inspection Workbench/it](wiki/Inspection Workbench/it.md) | [Mouse navigation/de](wiki/Mouse navigation/de.md) | [Mouse navigation/pt-br](wiki/Mouse navigation/pt-br.md) |
-| [Mouse navigation/zh](wiki/Mouse navigation/zh.md) | [Mouse navigation/zh-cn](wiki/Mouse navigation/zh-cn.md) | [Part Loft/de](wiki/Part Loft/de.md) |
-| [Robot SetHomePos/it](wiki/Robot SetHomePos/it.md) | [Std FreeCADFAQ/pl](wiki/Std FreeCADFAQ/pl.md) | [Std FreezeViews/fr](wiki/Std FreezeViews/fr.md) |
-| [Std SendToPythonConsole/pl](wiki/Std SendToPythonConsole/pl.md) | [Std SetAppearance/pl](wiki/Std SetAppearance/pl.md) |
+| [FEM CompEmConstraints/fr](FEM_CompEmConstraints/fr.md) | [FEM CompEmEquations/fr](FEM_CompEmEquations/fr.md) | [FEM CompMechEquations/fr](FEM_CompMechEquations/fr.md) |
+| [FEM MeshDisplayInfo/pl](FEM_MeshDisplayInfo/pl.md) | [Mouse navigation/pt-br](Mouse_navigation/pt-br.md) | [Mouse navigation/zh](Mouse_navigation/zh.md) |
+| [Mouse navigation/zh-cn](Mouse_navigation/zh-cn.md) | [Part Loft/de](Part_Loft/de.md) | [Robot SetHomePos/it](Robot_SetHomePos/it.md) |
+| [Std FreeCADFAQ/pl](Std_FreeCADFAQ/pl.md) | [Std FreezeViews/fr](Std_FreezeViews/fr.md) | [Std SendToPythonConsole/pl](Std_SendToPythonConsole/pl.md) |
+| [Std SetAppearance/pl](Std_SetAppearance/pl.md) | [Std ViewScreenShot/it](Std_ViewScreenShot/it.md) |
 
 
 

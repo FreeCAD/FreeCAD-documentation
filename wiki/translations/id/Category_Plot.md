@@ -5,7 +5,7 @@ This category lists pages related to the [Plot Workbench/id](Plot_Workbench/id.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Plot Workbench/id](wiki/Plot Workbench/id.md) |
+| [Plot Workbench/id](Plot_Workbench/id.md) |
 
 
 

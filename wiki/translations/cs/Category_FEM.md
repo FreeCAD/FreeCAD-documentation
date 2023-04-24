@@ -5,7 +5,7 @@ This category lists pages related to the [FEM Workbench/cs](FEM_Workbench/cs.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [FEM Workbench/cs](wiki/FEM Workbench/cs.md) |
+| [FEM Workbench/cs](FEM_Workbench/cs.md) |
 
 
 

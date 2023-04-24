@@ -5,7 +5,7 @@ This category contains all documents that relate to the Wiki/tr.
 
 |     |     |     |
 | --- | --- | --- |
-| [Glossary/tr](wiki/Glossary/tr.md) | [Localisation Sidebar/tr](wiki/Localisation Sidebar/tr.md) | [Localisation/tr](wiki/Localisation/tr.md) |
+| [Glossary/tr](Glossary/tr.md) | [Localisation Sidebar/tr](Localisation_Sidebar/tr.md) | [Localisation/tr](Localisation/tr.md) |
 |
 
 

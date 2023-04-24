@@ -5,14 +5,14 @@ This category gathers all articles documenting what is planned in the Roadmap of
 
 |     |     |     |
 | --- | --- | --- |
-| [Artwork project](wiki/Artwork project.md) | [Development roadmap](wiki/Development roadmap.md) | [Development roadmap/de](wiki/Development roadmap/de.md) |
-| [Development roadmap/en](wiki/Development roadmap/en.md) | [Development roadmap/es](wiki/Development roadmap/es.md) | [Development roadmap/fr](wiki/Development roadmap/fr.md) |
-| [Development roadmap/id](wiki/Development roadmap/id.md) | [Development roadmap/it](wiki/Development roadmap/it.md) | [Development roadmap/ko](wiki/Development roadmap/ko.md) |
-| [Development roadmap/pl](wiki/Development roadmap/pl.md) | [Development roadmap/pt](wiki/Development roadmap/pt.md) | [Development roadmap/ro](wiki/Development roadmap/ro.md) |
-| [Development roadmap/ru](wiki/Development roadmap/ru.md) | [Development roadmap/sv](wiki/Development roadmap/sv.md) | [FreeCAD 1.0 Development Cycle](wiki/FreeCAD 1.0 Development Cycle.md) |
-| [HiDPI support](wiki/HiDPI support.md) | [Material](wiki/Material.md) | [Path Development Roadmap](wiki/Path Development Roadmap.md) |
-| [PDM Roadmap](wiki/PDM Roadmap.md) | [Project template](wiki/Project template.md) | [Release process](wiki/Release process.md) |
-| [Sandbox:Wishlist](wiki/Sandbox_Wishlist.md) | [TechDraw Roadmap](wiki/TechDraw Roadmap.md) | [Tolerancing](wiki/Tolerancing.md) |
+| [Artwork project](Artwork_project.md) | [Development roadmap](Development_roadmap.md) | [Development roadmap/de](Development_roadmap/de.md) |
+| [Development roadmap/en](Development_roadmap/en.md) | [Development roadmap/es](Development_roadmap/es.md) | [Development roadmap/fr](Development_roadmap/fr.md) |
+| [Development roadmap/id](Development_roadmap/id.md) | [Development roadmap/it](Development_roadmap/it.md) | [Development roadmap/ko](Development_roadmap/ko.md) |
+| [Development roadmap/pl](Development_roadmap/pl.md) | [Development roadmap/pt](Development_roadmap/pt.md) | [Development roadmap/ro](Development_roadmap/ro.md) |
+| [Development roadmap/ru](Development_roadmap/ru.md) | [Development roadmap/sv](Development_roadmap/sv.md) | [FreeCAD 1.0 Development Cycle](FreeCAD_1.0_Development_Cycle.md) |
+| [HiDPI support](HiDPI_support.md) | [Material](Material.md) | [Path Development Roadmap](Path_Development_Roadmap.md) |
+| [PDM Roadmap](PDM_Roadmap.md) | [Project template](Project_template.md) | [Release process](Release_process.md) |
+| [Sandbox:Wishlist](Sandbox_Wishlist.md) | [TechDraw Roadmap](TechDraw_Roadmap.md) | [Tolerancing](Tolerancing.md) |
 |
 
 

@@ -5,7 +5,7 @@ This category contains articles and categories about wiki administrative subject
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:PropertyData/zh-cn](wiki/Template_PropertyData/zh-cn.md) | [Template:PropertyView/zh-cn](wiki/Template_PropertyView/zh-cn.md) | [Tracker/zh-cn](wiki/Tracker/zh-cn.md) |
+| [Template:PropertyData/zh-cn](Template_PropertyData/zh-cn.md) | [Template:PropertyView/zh-cn](Template_PropertyView/zh-cn.md) | [Tracker/zh-cn](Tracker/zh-cn.md) |
 |
 
 

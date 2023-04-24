@@ -5,7 +5,7 @@ This category list pages related to the \"User_Documentation/hu\" and \"Workbenc
 
 |     |     |     |
 | --- | --- | --- |
-| [Draft Workbench/hu](wiki/Draft Workbench/hu.md) |
+| [Draft Workbench/hu](Draft_Workbench/hu.md) |
 
 
 

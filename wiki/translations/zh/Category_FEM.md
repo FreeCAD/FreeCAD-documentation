@@ -5,7 +5,7 @@ This category lists pages related to the [FEM Workbench/zh](FEM_Workbench/zh.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [FEM Workbench/zh](wiki/FEM Workbench/zh.md) |
+| [FEM Workbench/zh](FEM_Workbench/zh.md) |
 
 
 

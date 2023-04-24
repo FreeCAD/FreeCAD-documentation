@@ -5,7 +5,7 @@ This category contains articles that are relevant for developers.
 
 |     |     |     |
 | --- | --- | --- |
-| [Compile on MacOS/sv](wiki/Compile on MacOS/sv.md) | [Compile on Windows/sv](wiki/Compile on Windows/sv.md) | [Contributors/sv](wiki/Contributors/sv.md) |
+| [Compile on MacOS/sv](Compile_on_MacOS/sv.md) | [Compile on Windows/sv](Compile_on_Windows/sv.md) | [Contributors/sv](Contributors/sv.md) |
 |
 
 

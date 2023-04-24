@@ -5,12 +5,12 @@ This category lists pages that describe the FreeCAD interface.
 
 |     |     |     |
 | --- | --- | --- |
-| [3D view](wiki/3D view.md) | [Combo view](wiki/Combo view.md) | [DAG view](wiki/DAG view.md) |
-| [Interface](wiki/Interface.md) | [Interface Customization](wiki/Interface Customization.md) | [Template:Interface navi](wiki/Template_Interface navi.md) |
-| [Main view area](wiki/Main view area.md) | [Property editor](wiki/Property editor.md) | [Python console](wiki/Python console.md) |
-| [Report view](wiki/Report view.md) | [Selection view](wiki/Selection view.md) | [Standard Menu](wiki/Standard Menu.md) |
-| [Status bar](wiki/Status bar.md) | [Std Workbench](wiki/Std Workbench.md) | [Task panel](wiki/Task panel.md) |
-| [Tree view](wiki/Tree view.md) |
+| [3D view](3D_view.md) | [Combo view](Combo_view.md) | [DAG view](DAG_view.md) |
+| [Interface](Interface.md) | [Interface Customization](Interface_Customization.md) | [Template:Interface navi](Template_Interface_navi.md) |
+| [Main view area](Main_view_area.md) | [Property editor](Property_editor.md) | [Python console](Python_console.md) |
+| [Report view](Report_view.md) | [Selection view](Selection_view.md) | [Standard Menu](Standard_Menu.md) |
+| [Status bar](Status_bar.md) | [Std Workbench](Std_Workbench.md) | [Task panel](Task_panel.md) |
+| [Tree view](Tree_view.md) |
 
 
 

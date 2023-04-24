@@ -5,7 +5,7 @@ This category contains the help pages of each of FreeCAD [Command](Command.md).
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch Wall/zh-tw](wiki/Arch Wall/zh-tw.md) | [Template:GuiCommand/zh-tw](wiki/Template_GuiCommand/zh-tw.md) |
+| [Arch Wall/zh-tw](Arch_Wall/zh-tw.md) | [Template:GuiCommand/zh-tw](Template_GuiCommand/zh-tw.md) |
 
 
 

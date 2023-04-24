@@ -7,14 +7,14 @@ This category gathers articles that list objects and methods available for [Pyth
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch API/en](wiki/Arch API/en.md) | [Base API/en](wiki/Base API/en.md) | [Builtin modules/en](wiki/Builtin modules/en.md) |
-| [Console API/en](wiki/Console API/en.md) | [Draft API/en](wiki/Draft API/en.md) | [FeaturePython Custom Properties/en](wiki/FeaturePython Custom Properties/en.md) |
-| [FreeCAD API/en](wiki/FreeCAD API/en.md) | [FreeCADGui API/en](wiki/FreeCADGui API/en.md) | [Matrix API/en](wiki/Matrix API/en.md) |
-| [Mesh API/en](wiki/Mesh API/en.md) | [Object API/en](wiki/Object API/en.md) | [Part API/en](wiki/Part API/en.md) |
-| [Placement API/en](wiki/Placement API/en.md) | [Python/en](wiki/Python/en.md) | [Reinforcement API/en](wiki/Reinforcement API/en.md) |
-| [Robot API example/en](wiki/Robot API example/en.md) | [Selection API/en](wiki/Selection API/en.md) | [TechDraw API/en](wiki/TechDraw API/en.md) |
-| [TechDrawGui API/en](wiki/TechDrawGui API/en.md) | [TopoShape API/en](wiki/TopoShape API/en.md) | [Vector API/en](wiki/Vector API/en.md) |
-| [ViewObject API/en](wiki/ViewObject API/en.md) |
+| [Arch API/en](Arch_API/en.md) | [Base API/en](Base_API/en.md) | [Builtin modules/en](Builtin_modules/en.md) |
+| [Console API/en](Console_API/en.md) | [Draft API/en](Draft_API/en.md) | [FeaturePython Custom Properties/en](FeaturePython_Custom_Properties/en.md) |
+| [FreeCAD API/en](FreeCAD_API/en.md) | [FreeCADGui API/en](FreeCADGui_API/en.md) | [Matrix API/en](Matrix_API/en.md) |
+| [Mesh API/en](Mesh_API/en.md) | [Object API/en](Object_API/en.md) | [Part API/en](Part_API/en.md) |
+| [Placement API/en](Placement_API/en.md) | [Python/en](Python/en.md) | [Reinforcement API/en](Reinforcement_API/en.md) |
+| [Robot API example/en](Robot_API_example/en.md) | [Selection API/en](Selection_API/en.md) | [TechDraw API/en](TechDraw_API/en.md) |
+| [TechDrawGui API/en](TechDrawGui_API/en.md) | [TopoShape API/en](TopoShape_API/en.md) | [Vector API/en](Vector_API/en.md) |
+| [ViewObject API/en](ViewObject_API/en.md) |
 
 
 

@@ -5,11 +5,11 @@ This category lists pages that describe the FreeCAD interface.
 
 |     |     |     |
 | --- | --- | --- |
-| [3D view/it](wiki/3D view/it.md) | [Combo view/it](wiki/Combo view/it.md) | [DAG view/it](wiki/DAG view/it.md) |
-| [Interface Customization/it](wiki/Interface Customization/it.md) | [Interface/it](wiki/Interface/it.md) | [Main view area/it](wiki/Main view area/it.md) |
-| [Property editor/it](wiki/Property editor/it.md) | [Python console/it](wiki/Python console/it.md) | [Report view/it](wiki/Report view/it.md) |
-| [Selection view/it](wiki/Selection view/it.md) | [Standard Menu/it](wiki/Standard Menu/it.md) | [Status bar/it](wiki/Status bar/it.md) |
-| [Std Workbench/it](wiki/Std Workbench/it.md) | [Task panel/it](wiki/Task panel/it.md) | [Tree view/it](wiki/Tree view/it.md) |
+| [3D view/it](3D_view/it.md) | [Combo view/it](Combo_view/it.md) | [DAG view/it](DAG_view/it.md) |
+| [Interface Customization/it](Interface_Customization/it.md) | [Interface/it](Interface/it.md) | [Main view area/it](Main_view_area/it.md) |
+| [Property editor/it](Property_editor/it.md) | [Python console/it](Python_console/it.md) | [Report view/it](Report_view/it.md) |
+| [Selection view/it](Selection_view/it.md) | [Standard Menu/it](Standard_Menu/it.md) | [Status bar/it](Status_bar/it.md) |
+| [Std Workbench/it](Std_Workbench/it.md) | [Task panel/it](Task_panel/it.md) | [Tree view/it](Tree_view/it.md) |
 |
 
 

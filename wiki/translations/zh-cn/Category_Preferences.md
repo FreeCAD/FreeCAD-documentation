@@ -5,7 +5,7 @@ This category lists all existing Preference menus of different FreeCAD workbench
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch Preferences/zh-cn](wiki/Arch Preferences/zh-cn.md) | [Draft Preferences/zh-cn](wiki/Draft Preferences/zh-cn.md) | [Preferences Editor/zh-cn](wiki/Preferences Editor/zh-cn.md) |
+| [Arch Preferences/zh-cn](Arch_Preferences/zh-cn.md) | [Draft Preferences/zh-cn](Draft_Preferences/zh-cn.md) | [Preferences Editor/zh-cn](Preferences_Editor/zh-cn.md) |
 |
 
 

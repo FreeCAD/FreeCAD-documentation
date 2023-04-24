@@ -5,9 +5,9 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 
 |     |     |     |
 | --- | --- | --- |
-| [Help FreeCAD/bg](wiki/Help FreeCAD/bg.md) | [Main Page/bg](wiki/Main Page/bg.md) | [Online Help Toc/bg](wiki/Online Help Toc/bg.md) |
-| [Category:Developer Documentation/bg](wiki/Category_Developer Documentation/bg.md) | [Category:Documentation/bg](wiki/Category_Documentation/bg.md) | [Category:Poweruser Documentation/bg](wiki/Category_Poweruser Documentation/bg.md) |
-| [Category:User Documentation/bg](wiki/Category_User Documentation/bg.md) |
+| [Help FreeCAD/bg](Help_FreeCAD/bg.md) | [Main Page/bg](Main_Page/bg.md) | [Online Help Toc/bg](Online_Help_Toc/bg.md) |
+| [Category:Developer Documentation/bg](Category_Developer_Documentation/bg.md) | [Category:Documentation/bg](Category_Documentation/bg.md) | [Category:Poweruser Documentation/bg](Category_Poweruser_Documentation/bg.md) |
+| [Category:User Documentation/bg](Category_User_Documentation/bg.md) |
 
 
 

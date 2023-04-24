@@ -5,11 +5,11 @@ This category lists pages related to the [TechDraw Workbench/ro](TechDraw_Workbe
 
 |     |     |     |
 | --- | --- | --- |
-| [Basic TechDraw Tutorial/ro](wiki/Basic TechDraw Tutorial/ro.md) | [TechDraw AngleDimension/ro](wiki/TechDraw AngleDimension/ro.md) | [TechDraw API/ro](wiki/TechDraw API/ro.md) |
-| [TechDraw DiameterDimension/ro](wiki/TechDraw DiameterDimension/ro.md) | [TechDraw Hatch/ro](wiki/TechDraw Hatch/ro.md) | [TechDraw HorizontalDimension/ro](wiki/TechDraw HorizontalDimension/ro.md) |
-| [TechDraw Image/ro](wiki/TechDraw Image/ro.md) | [TechDraw LengthDimension/ro](wiki/TechDraw LengthDimension/ro.md) | [TechDraw LinkDimension/ro](wiki/TechDraw LinkDimension/ro.md) |
-| [TechDraw RadiusDimension/ro](wiki/TechDraw RadiusDimension/ro.md) | [TechDraw Symbol/ro](wiki/TechDraw Symbol/ro.md) | [TechDraw VerticalDimension/ro](wiki/TechDraw VerticalDimension/ro.md) |
-| [TechDraw View/ro](wiki/TechDraw View/ro.md) | [TechDraw Workbench/ro](wiki/TechDraw Workbench/ro.md) | [TechDrawGui API/ro](wiki/TechDrawGui API/ro.md) |
+| [Basic TechDraw Tutorial/ro](Basic_TechDraw_Tutorial/ro.md) | [TechDraw AngleDimension/ro](TechDraw_AngleDimension/ro.md) | [TechDraw API/ro](TechDraw_API/ro.md) |
+| [TechDraw DiameterDimension/ro](TechDraw_DiameterDimension/ro.md) | [TechDraw Hatch/ro](TechDraw_Hatch/ro.md) | [TechDraw HorizontalDimension/ro](TechDraw_HorizontalDimension/ro.md) |
+| [TechDraw Image/ro](TechDraw_Image/ro.md) | [TechDraw LengthDimension/ro](TechDraw_LengthDimension/ro.md) | [TechDraw LinkDimension/ro](TechDraw_LinkDimension/ro.md) |
+| [TechDraw RadiusDimension/ro](TechDraw_RadiusDimension/ro.md) | [TechDraw Symbol/ro](TechDraw_Symbol/ro.md) | [TechDraw VerticalDimension/ro](TechDraw_VerticalDimension/ro.md) |
+| [TechDraw View/ro](TechDraw_View/ro.md) | [TechDraw Workbench/ro](TechDraw_Workbench/ro.md) | [TechDrawGui API/ro](TechDrawGui_API/ro.md) |
 |
 
 

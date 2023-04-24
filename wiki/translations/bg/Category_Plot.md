@@ -5,7 +5,7 @@ This category lists pages related to the [Plot Workbench/bg](Plot_Workbench/bg.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Plot Workbench/bg](wiki/Plot Workbench/bg.md) |
+| [Plot Workbench/bg](Plot_Workbench/bg.md) |
 
 
 

@@ -7,7 +7,7 @@ This category gathers article that list objects and methods available to the pyt
 
 |     |     |     |
 | --- | --- | --- |
-| [Draft API/cs](wiki/Draft API/cs.md) | [Placement API/cs](wiki/Placement API/cs.md) |
+| [Draft API/cs](Draft_API/cs.md) | [Placement API/cs](Placement_API/cs.md) |
 
 
 

@@ -5,7 +5,7 @@ This category contains all documents that relate to the Wiki.
 
 |     |     |     |
 | --- | --- | --- |
-| [Localisation/ko](wiki/Localisation/ko.md) |
+| [Localisation/ko](Localisation/ko.md) |
 
 
 

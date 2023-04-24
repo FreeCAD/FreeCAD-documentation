@@ -5,7 +5,7 @@ This category lists pages related to the [Inspection Workbench](Inspection_Workb
 
 |     |     |     |
 | --- | --- | --- |
-| [Inspection Workbench/zh-tw](wiki/Inspection Workbench/zh-tw.md) |
+| [Inspection Workbench/zh-tw](Inspection_Workbench/zh-tw.md) |
 
 
 

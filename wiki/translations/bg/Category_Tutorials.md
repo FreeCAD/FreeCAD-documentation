@@ -7,7 +7,7 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [Tutorials/bg](wiki/Tutorials/bg.md) |
+| [Tutorials/bg](Tutorials/bg.md) |
 
 
 

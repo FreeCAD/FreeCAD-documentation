@@ -5,19 +5,17 @@ This category collects pages related to artwork existing in the program, like ic
 
 |     |     |     |
 | --- | --- | --- |
-| [Artwork Arch/en](wiki/Artwork Arch/en.md) | [Artwork Assembly/en](wiki/Artwork Assembly/en.md) | [Artwork Assembly3/en](wiki/Artwork Assembly3/en.md) |
-| [Artwork Complete/en](wiki/Artwork Complete/en.md) | [Artwork Draft/en](wiki/Artwork Draft/en.md) | [Artwork Drawing/en](wiki/Artwork Drawing/en.md) |
-| [Artwork Fem/en](wiki/Artwork Fem/en.md) | [Artwork Gui/en](wiki/Artwork Gui/en.md) | [Artwork Guidelines/en](wiki/Artwork Guidelines/en.md) |
-| [Artwork Image/en](wiki/Artwork Image/en.md) | [Artwork Inspection/en](wiki/Artwork Inspection/en.md) | [Artwork Material/en](wiki/Artwork Material/en.md) |
-| [Artwork Mesh/en](wiki/Artwork Mesh/en.md) | [Artwork MeshPart/en](wiki/Artwork MeshPart/en.md) | [Artwork OpenSCAD/en](wiki/Artwork OpenSCAD/en.md) |
-| [Artwork Part/en](wiki/Artwork Part/en.md) | [Artwork PartDesign/en](wiki/Artwork PartDesign/en.md) | [Artwork Path/en](wiki/Artwork Path/en.md) |
-| [Artwork Plot/en](wiki/Artwork Plot/en.md) | [Artwork Points/en](wiki/Artwork Points/en.md) | [Artwork Raytracing/en](wiki/Artwork Raytracing/en.md) |
-| [Artwork Reinforcement/en](wiki/Artwork Reinforcement/en.md) | [Artwork Render/en](wiki/Artwork Render/en.md) | [Artwork ReverseEngineering/en](wiki/Artwork ReverseEngineering/en.md) |
-| [Artwork Robot/en](wiki/Artwork Robot/en.md) | [Artwork Ship/en](wiki/Artwork Ship/en.md) | [Artwork Sketcher/en](wiki/Artwork Sketcher/en.md) |
-| [Artwork Splash screen/en](wiki/Artwork Splash screen/en.md) | [Artwork Spreadsheet/en](wiki/Artwork Spreadsheet/en.md) | [Artwork Start/en](wiki/Artwork Start/en.md) |
-| [Artwork Surface/en](wiki/Artwork Surface/en.md) | [Artwork TechDraw/en](wiki/Artwork TechDraw/en.md) | [Artwork Test/en](wiki/Artwork Test/en.md) |
-| [Artwork Tux/en](wiki/Artwork Tux/en.md) | [Artwork Web/en](wiki/Artwork Web/en.md) | [Artwork/en](wiki/Artwork/en.md) |
-|
+| [Artwork Arch/en](Artwork_Arch/en.md) | [Artwork Assembly3/en](Artwork_Assembly3/en.md) | [Artwork Draft/en](Artwork_Draft/en.md) |
+| [Artwork Fem/en](Artwork_Fem/en.md) | [Artwork Gui/en](Artwork_Gui/en.md) | [Artwork Guidelines/en](Artwork_Guidelines/en.md) |
+| [Artwork Inspection/en](Artwork_Inspection/en.md) | [Artwork Material/en](Artwork_Material/en.md) | [Artwork Mesh/en](Artwork_Mesh/en.md) |
+| [Artwork MeshPart/en](Artwork_MeshPart/en.md) | [Artwork OpenSCAD/en](Artwork_OpenSCAD/en.md) | [Artwork Part/en](Artwork_Part/en.md) |
+| [Artwork PartDesign/en](Artwork_PartDesign/en.md) | [Artwork Path/en](Artwork_Path/en.md) | [Artwork Plot/en](Artwork_Plot/en.md) |
+| [Artwork Points/en](Artwork_Points/en.md) | [Artwork Raytracing/en](Artwork_Raytracing/en.md) | [Artwork Reinforcement/en](Artwork_Reinforcement/en.md) |
+| [Artwork Render/en](Artwork_Render/en.md) | [Artwork ReverseEngineering/en](Artwork_ReverseEngineering/en.md) | [Artwork Robot/en](Artwork_Robot/en.md) |
+| [Artwork Ship/en](Artwork_Ship/en.md) | [Artwork Sketcher/en](Artwork_Sketcher/en.md) | [Artwork Splash screen/en](Artwork_Splash_screen/en.md) |
+| [Artwork Spreadsheet/en](Artwork_Spreadsheet/en.md) | [Artwork Start/en](Artwork_Start/en.md) | [Artwork Surface/en](Artwork_Surface/en.md) |
+| [Artwork TechDraw/en](Artwork_TechDraw/en.md) | [Artwork Test/en](Artwork_Test/en.md) | [Artwork Tux/en](Artwork_Tux/en.md) |
+| [Artwork Web/en](Artwork_Web/en.md) | [Artwork/en](Artwork/en.md) |
 
 
 

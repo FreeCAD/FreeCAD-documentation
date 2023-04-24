@@ -5,7 +5,7 @@ This category contains all the page of the FreeCAD manual
 
 |     |     |     |
 | --- | --- | --- |
-| [Manual:Introduction/zh-tw](wiki/Manual_Introduction/zh-tw.md) | [Manual:Summary/zh-tw](wiki/Manual_Summary/zh-tw.md) | [Template:Manual:TOC/zh-tw](wiki/Template_Manual_TOC/zh-tw.md) |
+| [Manual:Introduction/zh-tw](Manual_Introduction/zh-tw.md) | [Manual:Summary/zh-tw](Manual_Summary/zh-tw.md) | [Template:Manual:TOC/zh-tw](Template_Manual_TOC/zh-tw.md) |
 |
 
 

@@ -5,8 +5,8 @@ This category has links to common questions on how to do something in FC. This i
 
 |     |     |     |
 | --- | --- | --- |
-| [Feature editing/tr](wiki/Feature editing/tr.md) | [Help FreeCAD/tr](wiki/Help FreeCAD/tr.md) | [Import Export Preferences/tr](wiki/Import Export Preferences/tr.md) |
-| [Installing on Linux/tr](wiki/Installing on Linux/tr.md) | [Video tutorials/tr](wiki/Video tutorials/tr.md) |
+| [Feature editing/tr](Feature_editing/tr.md) | [Help FreeCAD/tr](Help_FreeCAD/tr.md) | [Import Export Preferences/tr](Import_Export_Preferences/tr.md) |
+| [Installing on Linux/tr](Installing_on_Linux/tr.md) | [Video tutorials/tr](Video_tutorials/tr.md) |
 
 
 

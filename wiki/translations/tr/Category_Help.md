@@ -5,7 +5,7 @@ Bu kategori, MediaWiki ve düzenleme ile ilgili yardım belgelerini içerir.
 
 |     |     |     |
 | --- | --- | --- |
-| [Help/tr](wiki/Help/tr.md) |
+| [Help/tr](Help/tr.md) |
 
 
 

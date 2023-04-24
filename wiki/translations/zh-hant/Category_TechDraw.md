@@ -5,7 +5,7 @@ This category lists pages related to the [TechDraw Workbench/zh-hant](TechDraw_W
 
 |     |     |     |
 | --- | --- | --- |
-| [TechDraw Workbench/zh-hant](wiki/TechDraw Workbench/zh-hant.md) |
+| [TechDraw Workbench/zh-hant](TechDraw_Workbench/zh-hant.md) |
 
 
 

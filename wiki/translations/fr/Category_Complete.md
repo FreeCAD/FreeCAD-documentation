@@ -5,7 +5,7 @@ Cette catégorie répertorie les pages en rapport avec [Complete Workbench](Comp
 
 |     |     |     |
 | --- | --- | --- |
-| [Artwork Complete/fr](wiki/Artwork Complete/fr.md) | [Complete Workbench/fr](wiki/Complete Workbench/fr.md) |
+|
 
 
 

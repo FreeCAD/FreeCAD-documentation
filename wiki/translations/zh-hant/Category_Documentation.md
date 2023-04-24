@@ -5,8 +5,8 @@ This category groups all of the FreeCAD documentation
 
 |     |     |     |
 | --- | --- | --- |
-| [Online Help Toc/zh-hant](wiki/Online Help Toc/zh-hant.md) | [Category:Developer Documentation/zh-hant](wiki/Category_Developer Documentation/zh-hant.md) | [Category:Poweruser Documentation/zh-hant](wiki/Category_Poweruser Documentation/zh-hant.md) |
-| [Category:User Documentation/zh-hant](wiki/Category_User Documentation/zh-hant.md) |
+| [Online Help Toc/zh-hant](Online_Help_Toc/zh-hant.md) | [Category:Developer Documentation/zh-hant](Category_Developer_Documentation/zh-hant.md) | [Category:Poweruser Documentation/zh-hant](Category_Poweruser_Documentation/zh-hant.md) |
+| [Category:User Documentation/zh-hant](Category_User_Documentation/zh-hant.md) |
 
 
 

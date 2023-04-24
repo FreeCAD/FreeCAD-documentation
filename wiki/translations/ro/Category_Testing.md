@@ -5,7 +5,7 @@ Pages related to testing in regards to unit testing, continuous integration, qua
 
 |     |     |     |
 | --- | --- | --- |
-| [Continuous Integration/ro](wiki/Continuous Integration/ro.md) | [Testing/ro](wiki/Testing/ro.md) | [Category:Test Framework/ro](wiki/Category_Test Framework/ro.md) |
+| [Continuous Integration/ro](Continuous_Integration/ro.md) | [Testing/ro](Testing/ro.md) | [Category:Test Framework/ro](Category_Test_Framework/ro.md) |
 |
 
 

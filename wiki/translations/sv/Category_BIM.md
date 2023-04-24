@@ -5,7 +5,7 @@ This category is for pages related to building information management (BIM).
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch IfcExplorer/sv](wiki/Arch IfcExplorer/sv.md) | [Category:Arch/sv](wiki/Category_Arch/sv.md) |
+| [Arch IfcExplorer/sv](Arch_IfcExplorer/sv.md) | [Category:Arch/sv](Category_Arch/sv.md) |
 
 
 

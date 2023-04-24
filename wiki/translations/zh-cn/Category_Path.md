@@ -5,7 +5,7 @@ This category lists pages related to the [PartDesign Workbench/zh-cn](PartDesign
 
 |     |     |     |
 | --- | --- | --- |
-| [Manual:Preparing models for 3D printing/zh-cn](wiki/Manual_Preparing models for 3D printing/zh-cn.md) | [Path Workbench/zh-cn](wiki/Path Workbench/zh-cn.md) |
+| [Manual:Preparing models for 3D printing/zh-cn](Manual_Preparing_models_for_3D_printing/zh-cn.md) | [Path Workbench/zh-cn](Path_Workbench/zh-cn.md) |
 
 
 

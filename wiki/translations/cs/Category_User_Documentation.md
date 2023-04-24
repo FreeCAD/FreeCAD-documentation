@@ -5,106 +5,106 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 
 |     |     |     |
 | --- | --- | --- |
-| [3Dconnexion input devices/cs](wiki/3Dconnexion input devices/cs.md) | [About FreeCAD/cs](wiki/About FreeCAD/cs.md) | [Aeroplane/cs](wiki/Aeroplane/cs.md) |
-| [Arch Add/cs](wiki/Arch Add/cs.md) | [Arch Axis/cs](wiki/Arch Axis/cs.md) | [Arch Building/cs](wiki/Arch Building/cs.md) |
-| [Arch Check/cs](wiki/Arch Check/cs.md) | [Arch CloseHoles/cs](wiki/Arch CloseHoles/cs.md) | [Arch DAE/cs](wiki/Arch DAE/cs.md) |
-| [Arch Floor/cs](wiki/Arch Floor/cs.md) | [Arch Frame/cs](wiki/Arch Frame/cs.md) | [Arch IFC/cs](wiki/Arch IFC/cs.md) |
-| [Arch IfcExplorer/cs](wiki/Arch IfcExplorer/cs.md) | [Arch MeshToShape/cs](wiki/Arch MeshToShape/cs.md) | [Arch OBJ/cs](wiki/Arch OBJ/cs.md) |
-| [Arch Rebar/cs](wiki/Arch Rebar/cs.md) | [Arch Remove/cs](wiki/Arch Remove/cs.md) | [Arch RemoveShape/cs](wiki/Arch RemoveShape/cs.md) |
-| [Arch Roof/cs](wiki/Arch Roof/cs.md) | [Arch SectionPlane/cs](wiki/Arch SectionPlane/cs.md) | [Arch SelectNonSolidMeshes/cs](wiki/Arch SelectNonSolidMeshes/cs.md) |
-| [Arch Site/cs](wiki/Arch Site/cs.md) | [Arch Space/cs](wiki/Arch Space/cs.md) | [Arch SplitMesh/cs](wiki/Arch SplitMesh/cs.md) |
-| [Arch Stairs/cs](wiki/Arch Stairs/cs.md) | [Arch Structure/cs](wiki/Arch Structure/cs.md) | [Arch Survey/cs](wiki/Arch Survey/cs.md) |
-| [Arch tutorial/cs](wiki/Arch tutorial/cs.md) | [Arch Wall/cs](wiki/Arch Wall/cs.md) | [Arch Window/cs](wiki/Arch Window/cs.md) |
-| [Arch Workbench/cs](wiki/Arch Workbench/cs.md) | [Basic modeling tutorial/cs](wiki/Basic modeling tutorial/cs.md) | [Branding/cs](wiki/Branding/cs.md) |
-| [Compile on Linux/cs](wiki/Compile on Linux/cs.md) | [Compile on MacOS/cs](wiki/Compile on MacOS/cs.md) | [Compile on Windows/cs](wiki/Compile on Windows/cs.md) |
-| [Compiling/cs](wiki/Compiling/cs.md) | [Complete Workbench/cs](wiki/Complete Workbench/cs.md) | [Copying Objects/cs](wiki/Copying Objects/cs.md) |
-| [Developer hub/cs](wiki/Developer hub/cs.md) | [Document structure/cs](wiki/Document structure/cs.md) | [Download/cs](wiki/Download/cs.md) |
-| [Draft AddToGroup/cs](wiki/Draft AddToGroup/cs.md) | [Draft API/cs](wiki/Draft API/cs.md) | [Draft ApplyStyle/cs](wiki/Draft ApplyStyle/cs.md) |
-| [Draft Arc/cs](wiki/Draft Arc/cs.md) | [Draft Array/cs](wiki/Draft Array/cs.md) | [Draft BezCurve/cs](wiki/Draft BezCurve/cs.md) |
-| [Draft BSpline/cs](wiki/Draft BSpline/cs.md) | [Draft Circle/cs](wiki/Draft Circle/cs.md) | [Draft Clone/cs](wiki/Draft Clone/cs.md) |
-| [Draft Constrain/cs](wiki/Draft Constrain/cs.md) | [Draft DAT/cs](wiki/Draft DAT/cs.md) | [Draft Dimension/cs](wiki/Draft Dimension/cs.md) |
-| [Draft Downgrade/cs](wiki/Draft Downgrade/cs.md) | [Draft Draft2Sketch/cs](wiki/Draft Draft2Sketch/cs.md) | [Draft Drawing/cs](wiki/Draft Drawing/cs.md) |
-| [Draft DXF/cs](wiki/Draft DXF/cs.md) | [Draft Edit/cs](wiki/Draft Edit/cs.md) | [Draft Ellipse/cs](wiki/Draft Ellipse/cs.md) |
-| [Draft Facebinder/cs](wiki/Draft Facebinder/cs.md) | [Draft FlipDimension/cs](wiki/Draft FlipDimension/cs.md) | [Draft Heal/cs](wiki/Draft Heal/cs.md) |
-| [Draft Line/cs](wiki/Draft Line/cs.md) | [Draft Move/cs](wiki/Draft Move/cs.md) | [Draft OCA/cs](wiki/Draft OCA/cs.md) |
-| [Draft Offset/cs](wiki/Draft Offset/cs.md) | [Draft PathArray/cs](wiki/Draft PathArray/cs.md) | [Draft Pattern/cs](wiki/Draft Pattern/cs.md) |
-| [Draft Point/cs](wiki/Draft Point/cs.md) | [Draft Polygon/cs](wiki/Draft Polygon/cs.md) | [Draft Preferences/cs](wiki/Draft Preferences/cs.md) |
-| [Draft Rectangle/cs](wiki/Draft Rectangle/cs.md) | [Draft Rotate/cs](wiki/Draft Rotate/cs.md) | [Draft Scale/cs](wiki/Draft Scale/cs.md) |
-| [Draft SelectGroup/cs](wiki/Draft SelectGroup/cs.md) | [Draft SelectPlane/cs](wiki/Draft SelectPlane/cs.md) | [Draft Shape2DView/cs](wiki/Draft Shape2DView/cs.md) |
-| [Draft ShapeString/cs](wiki/Draft ShapeString/cs.md) | [Draft ShowSnapBar/cs](wiki/Draft ShowSnapBar/cs.md) | [Draft Snap Lock/cs](wiki/Draft Snap Lock/cs.md) |
-| [Draft Snap/cs](wiki/Draft Snap/cs.md) | [Draft SVG/cs](wiki/Draft SVG/cs.md) | [Draft Text/cs](wiki/Draft Text/cs.md) |
-| [Draft ToggleConstructionMode/cs](wiki/Draft ToggleConstructionMode/cs.md) | [Draft ToggleContinueMode/cs](wiki/Draft ToggleContinueMode/cs.md) | [Draft ToggleDisplayMode/cs](wiki/Draft ToggleDisplayMode/cs.md) |
-| [Draft ToggleGrid/cs](wiki/Draft ToggleGrid/cs.md) | [Draft Trimex/cs](wiki/Draft Trimex/cs.md) | [Draft tutorial/cs](wiki/Draft tutorial/cs.md) |
-| [Draft Upgrade/cs](wiki/Draft Upgrade/cs.md) | [Draft Wire/cs](wiki/Draft Wire/cs.md) | [Draft WireToBSpline/cs](wiki/Draft WireToBSpline/cs.md) |
-| [Draft Workbench/cs](wiki/Draft Workbench/cs.md) | [Drawing Annotation/cs](wiki/Drawing Annotation/cs.md) | [Drawing Clip/cs](wiki/Drawing Clip/cs.md) |
-| [Drawing Landscape A3/cs](wiki/Drawing Landscape A3/cs.md) | [Drawing Open SVG/cs](wiki/Drawing Open SVG/cs.md) | [Drawing Openbrowser/cs](wiki/Drawing Openbrowser/cs.md) |
-| [Drawing Orthoviews/cs](wiki/Drawing Orthoviews/cs.md) | [Drawing Save/cs](wiki/Drawing Save/cs.md) | [Drawing Symbol/cs](wiki/Drawing Symbol/cs.md) |
-| [Drawing Template HowTo/cs](wiki/Drawing Template HowTo/cs.md) | [Drawing templates/cs](wiki/Drawing templates/cs.md) | [Drawing View/cs](wiki/Drawing View/cs.md) |
-| [Drawing Workbench/cs](wiki/Drawing Workbench/cs.md) | [Extra python modules/cs](wiki/Extra python modules/cs.md) | [Feature list/cs](wiki/Feature list/cs.md) |
-| [FEM Workbench/cs](wiki/FEM Workbench/cs.md) | [File Format FCStd/cs](wiki/File Format FCStd/cs.md) | [Getting started/cs](wiki/Getting started/cs.md) |
-| [Template:GuiCommand/cs](wiki/Template_GuiCommand/cs.md) | [Help FreeCAD/cs](wiki/Help FreeCAD/cs.md) | [Image Workbench/cs](wiki/Image Workbench/cs.md) |
-| [Inspection Workbench/cs](wiki/Inspection Workbench/cs.md) | [Installing additional components/cs](wiki/Installing additional components/cs.md) | [Installing on Linux/cs](wiki/Installing on Linux/cs.md) |
-| [Installing on Mac/cs](wiki/Installing on Mac/cs.md) | [Installing on Windows/cs](wiki/Installing on Windows/cs.md) | [Interface Customization/cs](wiki/Interface Customization/cs.md) |
-| [Licence/cs](wiki/Licence/cs.md) | [Localisation/cs](wiki/Localisation/cs.md) | [Macro 3D Parametric Curve/cs](wiki/Macro 3D Parametric Curve/cs.md) |
-| [Macro 3d Printer Slicer/cs](wiki/Macro 3d Printer Slicer/cs.md) | [Macro Airfoil Import & Scale/cs](wiki/Macro Airfoil Import & Scale/cs.md) | [Macro Align View to Face/cs](wiki/Macro Align View to Face/cs.md) |
-| [Macro ArrayCopy/cs](wiki/Macro ArrayCopy/cs.md) | [Macro Automatic drawing/cs](wiki/Macro Automatic drawing/cs.md) | [Macro BOLTS/cs](wiki/Macro BOLTS/cs.md) |
-| [Macro BoundingBox Tracing/cs](wiki/Macro BoundingBox Tracing/cs.md) | [Macro CartoucheFC 2/cs](wiki/Macro CartoucheFC 2/cs.md) | [Macro CartoucheFC Full/cs](wiki/Macro CartoucheFC Full/cs.md) |
-| [Macro CartoucheFC/cs](wiki/Macro CartoucheFC/cs.md) | [Macro CenterFace/cs](wiki/Macro CenterFace/cs.md) | [Macro Corner shapes wizard/cs](wiki/Macro Corner shapes wizard/cs.md) |
-| [Macro Delta xyz/cs](wiki/Macro Delta xyz/cs.md) | [Macro Draft Circle 3 Points 3D/cs](wiki/Macro Draft Circle 3 Points 3D/cs.md) | [Macro Draft Circle 3 Points/cs](wiki/Macro Draft Circle 3 Points/cs.md) |
-| [Macro Draw 2D Function/cs](wiki/Macro Draw 2D Function/cs.md) | [Macro Draw Parametric 2D Function/cs](wiki/Macro Draw Parametric 2D Function/cs.md) | [Macro EdgesToArc/cs](wiki/Macro EdgesToArc/cs.md) |
-| [Macro Ellipse-Center+2Points/cs](wiki/Macro Ellipse-Center+2Points/cs.md) | [Macro FaceToSketch/cs](wiki/Macro FaceToSketch/cs.md) | [Macro FCInfo Alternate Linux/cs](wiki/Macro FCInfo Alternate Linux/cs.md) |
-| [Macro FCInfo/cs](wiki/Macro FCInfo/cs.md) | [Macro FlattenWire/cs](wiki/Macro FlattenWire/cs.md) | [Macro HealArcs/cs](wiki/Macro HealArcs/cs.md) |
-| [Macro JointWire/cs](wiki/Macro JointWire/cs.md) | [Macro Line Length/cs](wiki/Macro Line Length/cs.md) | [Macro Loft/cs](wiki/Macro Loft/cs.md) |
-| [Macro MacroMenu/cs](wiki/Macro MacroMenu/cs.md) | [Macro Make Circle 3 Points/cs](wiki/Macro Make Circle 3 Points/cs.md) | [Macro Make Cube/cs](wiki/Macro Make Cube/cs.md) |
-| [Macro MeshToPart/cs](wiki/Macro MeshToPart/cs.md) | [Macro MessageBox/cs](wiki/Macro MessageBox/cs.md) | [Macro Mouse Cross/cs](wiki/Macro Mouse Cross/cs.md) |
-| [Macro ObjectInfo/cs](wiki/Macro ObjectInfo/cs.md) | [Macro Parametric Curve FP/cs](wiki/Macro Parametric Curve FP/cs.md) | [Macro PartsLibrary/cs](wiki/Macro PartsLibrary/cs.md) |
-| [Macro Rectellipse/cs](wiki/Macro Rectellipse/cs.md) | [Macro Remove parametric history/cs](wiki/Macro Remove parametric history/cs.md) | [Macro Rotate View/cs](wiki/Macro Rotate View/cs.md) |
-| [Macro screw maker1 2/cs](wiki/Macro screw maker1 2/cs.md) | [Macro Solid Sweep/cs](wiki/Macro Solid Sweep/cs.md) | [Macro SuperWire/cs](wiki/Macro SuperWire/cs.md) |
-| [Macro Texture Objects/cs](wiki/Macro Texture Objects/cs.md) | [Macro Texture/cs](wiki/Macro Texture/cs.md) | [Macro Unfold Box/cs](wiki/Macro Unfold Box/cs.md) |
-| [Macro Unroll Ruled Surface/cs](wiki/Macro Unroll Ruled Surface/cs.md) | [Macro View Rotation/cs](wiki/Macro View Rotation/cs.md) | [Template:Macro/cs](wiki/Template_Macro/cs.md) |
-| [Main Page/cs](wiki/Main Page/cs.md) | [Mesh Workbench/cs](wiki/Mesh Workbench/cs.md) | [MIBA/cs](wiki/MIBA/cs.md) |
-| [Misc templates/cs](wiki/Misc templates/cs.md) | [Mouse navigation/cs](wiki/Mouse navigation/cs.md) | [Online Help Startpage/cs](wiki/Online Help Startpage/cs.md) |
-| [Online Help Toc/cs](wiki/Online Help Toc/cs.md) | [OpenSCAD Workbench/cs](wiki/OpenSCAD Workbench/cs.md) | [Part Boolean/cs](wiki/Part Boolean/cs.md) |
-| [Part Box/cs](wiki/Part Box/cs.md) | [Part Builder/cs](wiki/Part Builder/cs.md) | [Part Chamfer/cs](wiki/Part Chamfer/cs.md) |
-| [Part Circle/cs](wiki/Part Circle/cs.md) | [Part Common/cs](wiki/Part Common/cs.md) | [Part Cone/cs](wiki/Part Cone/cs.md) |
-| [Part Cut/cs](wiki/Part Cut/cs.md) | [Part Cylinder/cs](wiki/Part Cylinder/cs.md) | [Part Ellipse/cs](wiki/Part Ellipse/cs.md) |
-| [Part Ellipsoid/cs](wiki/Part Ellipsoid/cs.md) | [Part Extrude/cs](wiki/Part Extrude/cs.md) | [Part Fillet/cs](wiki/Part Fillet/cs.md) |
-| [Part Fuse/cs](wiki/Part Fuse/cs.md) | [Part Helix/cs](wiki/Part Helix/cs.md) | [Part Line/cs](wiki/Part Line/cs.md) |
-| [Part Loft/cs](wiki/Part Loft/cs.md) | [Part Mirror/cs](wiki/Part Mirror/cs.md) | [Part Module/cs](wiki/Part Module/cs.md) |
-| [Part Offset/cs](wiki/Part Offset/cs.md) | [Part Plane/cs](wiki/Part Plane/cs.md) | [Part Point/cs](wiki/Part Point/cs.md) |
-| [Part Primitives/cs](wiki/Part Primitives/cs.md) | [Part Prism/cs](wiki/Part Prism/cs.md) | [Part RefineShape/cs](wiki/Part RefineShape/cs.md) |
-| [Part RegularPolygon/cs](wiki/Part RegularPolygon/cs.md) | [Part Revolve/cs](wiki/Part Revolve/cs.md) | [Part RuledSurface/cs](wiki/Part RuledSurface/cs.md) |
-| [Part Section/cs](wiki/Part Section/cs.md) | [Part Sphere/cs](wiki/Part Sphere/cs.md) | [Part Spiral/cs](wiki/Part Spiral/cs.md) |
-| [Part Sweep/cs](wiki/Part Sweep/cs.md) | [Part Thickness/cs](wiki/Part Thickness/cs.md) | [Part Torus/cs](wiki/Part Torus/cs.md) |
-| [Part Wedge/cs](wiki/Part Wedge/cs.md) | [PartDesign Chamfer/cs](wiki/PartDesign Chamfer/cs.md) | [PartDesign Draft/cs](wiki/PartDesign Draft/cs.md) |
-| [PartDesign Fillet/cs](wiki/PartDesign Fillet/cs.md) | [PartDesign Groove/cs](wiki/PartDesign Groove/cs.md) | [PartDesign InvoluteGear/cs](wiki/PartDesign InvoluteGear/cs.md) |
-| [PartDesign LinearPattern/cs](wiki/PartDesign LinearPattern/cs.md) | [PartDesign Mirrored/cs](wiki/PartDesign Mirrored/cs.md) | [PartDesign MultiTransform/cs](wiki/PartDesign MultiTransform/cs.md) |
-| [PartDesign Pad/cs](wiki/PartDesign Pad/cs.md) | [PartDesign Pocket/cs](wiki/PartDesign Pocket/cs.md) | [PartDesign PolarPattern/cs](wiki/PartDesign PolarPattern/cs.md) |
-| [PartDesign Revolution/cs](wiki/PartDesign Revolution/cs.md) | [PartDesign Scaled/cs](wiki/PartDesign Scaled/cs.md) | [PartDesign WizardShaft/cs](wiki/PartDesign WizardShaft/cs.md) |
-| [PartDesign Workbench/cs](wiki/PartDesign Workbench/cs.md) | [Path Workbench/cs](wiki/Path Workbench/cs.md) | [Placement API/cs](wiki/Placement API/cs.md) |
-| [Placement/cs](wiki/Placement/cs.md) | [Plot Workbench/cs](wiki/Plot Workbench/cs.md) | [Points Workbench/cs](wiki/Points Workbench/cs.md) |
-| [Preferences Editor/cs](wiki/Preferences Editor/cs.md) | [Property editor/cs](wiki/Property editor/cs.md) | [Raytracing Workbench/cs](wiki/Raytracing Workbench/cs.md) |
-| [Reverse Engineering Workbench/cs](wiki/Reverse Engineering Workbench/cs.md) | [Robot 6-Axis/cs](wiki/Robot 6-Axis/cs.md) | [Robot Workbench/cs](wiki/Robot Workbench/cs.md) |
-| [Screenshots/cs](wiki/Screenshots/cs.md) | [Ship Workbench/cs](wiki/Ship Workbench/cs.md) | [Sketcher CarbonCopy/cs](wiki/Sketcher CarbonCopy/cs.md) |
-| [Sketcher ConstrainAngle/cs](wiki/Sketcher ConstrainAngle/cs.md) | [Sketcher ConstrainCoincident/cs](wiki/Sketcher ConstrainCoincident/cs.md) | [Sketcher ConstrainDistance/cs](wiki/Sketcher ConstrainDistance/cs.md) |
-| [Sketcher ConstrainDistanceX/cs](wiki/Sketcher ConstrainDistanceX/cs.md) | [Sketcher ConstrainDistanceY/cs](wiki/Sketcher ConstrainDistanceY/cs.md) | [Sketcher ConstrainEqual/cs](wiki/Sketcher ConstrainEqual/cs.md) |
-| [Sketcher ConstrainHorizontal/cs](wiki/Sketcher ConstrainHorizontal/cs.md) | [Sketcher ConstrainLock/cs](wiki/Sketcher ConstrainLock/cs.md) | [Sketcher ConstrainParallel/cs](wiki/Sketcher ConstrainParallel/cs.md) |
-| [Sketcher ConstrainPerpendicular/cs](wiki/Sketcher ConstrainPerpendicular/cs.md) | [Sketcher ConstrainPointOnObject/cs](wiki/Sketcher ConstrainPointOnObject/cs.md) | [Sketcher ConstrainRadius/cs](wiki/Sketcher ConstrainRadius/cs.md) |
-| [Sketcher ConstrainSymmetric/cs](wiki/Sketcher ConstrainSymmetric/cs.md) | [Sketcher ConstrainTangent/cs](wiki/Sketcher ConstrainTangent/cs.md) | [Sketcher ConstrainVertical/cs](wiki/Sketcher ConstrainVertical/cs.md) |
-| [Sketcher CreateArc/cs](wiki/Sketcher CreateArc/cs.md) | [Sketcher CreateCircle/cs](wiki/Sketcher CreateCircle/cs.md) | [Sketcher CreateFillet/cs](wiki/Sketcher CreateFillet/cs.md) |
-| [Sketcher CreateLine/cs](wiki/Sketcher CreateLine/cs.md) | [Sketcher CreatePoint/cs](wiki/Sketcher CreatePoint/cs.md) | [Sketcher CreatePolyline/cs](wiki/Sketcher CreatePolyline/cs.md) |
-| [Sketcher CreateRectangle/cs](wiki/Sketcher CreateRectangle/cs.md) | [Sketcher External/cs](wiki/Sketcher External/cs.md) | [Sketcher LeaveSketch/cs](wiki/Sketcher LeaveSketch/cs.md) |
-| [Sketcher MapSketch/cs](wiki/Sketcher MapSketch/cs.md) | [Sketcher NewSketch/cs](wiki/Sketcher NewSketch/cs.md) | [Sketcher ReorientSketch/cs](wiki/Sketcher ReorientSketch/cs.md) |
-| [Sketcher ToggleConstruction/cs](wiki/Sketcher ToggleConstruction/cs.md) | [Sketcher Trimming/cs](wiki/Sketcher Trimming/cs.md) | [Sketcher ViewSketch/cs](wiki/Sketcher ViewSketch/cs.md) |
-| [Sketcher Workbench/cs](wiki/Sketcher Workbench/cs.md) | [Spreadsheet Workbench/cs](wiki/Spreadsheet Workbench/cs.md) | [Start up and Configuration/cs](wiki/Start up and Configuration/cs.md) |
-| [Start Workbench/cs](wiki/Start Workbench/cs.md) | [Std Copy/cs](wiki/Std Copy/cs.md) | [Std DuplicateSelection/cs](wiki/Std DuplicateSelection/cs.md) |
-| [Std Edit Menu/cs](wiki/Std Edit Menu/cs.md) | [Std Edit/cs](wiki/Std Edit/cs.md) | [Std Paste/cs](wiki/Std Paste/cs.md) |
-| [Std Tools Menu/cs](wiki/Std Tools Menu/cs.md) | [Std ViewScreenShot/cs](wiki/Std ViewScreenShot/cs.md) | [Surface Workbench/cs](wiki/Surface Workbench/cs.md) |
-| [Tasks Placement/cs](wiki/Tasks Placement/cs.md) | [TechDraw Workbench/cs](wiki/TechDraw Workbench/cs.md) | [Tutorials/cs](wiki/Tutorials/cs.md) |
-| [User hub/cs](wiki/User hub/cs.md) | [Video tutorials/cs](wiki/Video tutorials/cs.md) | [Web Workbench/cs](wiki/Web Workbench/cs.md) |
-| [Workbenches/cs](wiki/Workbenches/cs.md) | [Category:Arch/cs](wiki/Category_Arch/cs.md) | [Category:BIM/cs](wiki/Category_BIM/cs.md) |
-| [Category:Draft/cs](wiki/Category_Draft/cs.md) | [Category:Inspection/cs](wiki/Category_Inspection/cs.md) | [Category:Tutorials/cs](wiki/Category_Tutorials/cs.md) |
-| [Category:Workbenches/cs](wiki/Category_Workbenches/cs.md) |
+| [3Dconnexion input devices/cs](3Dconnexion_input_devices/cs.md) | [About FreeCAD/cs](About_FreeCAD/cs.md) | [Aeroplane/cs](Aeroplane/cs.md) |
+| [Arch Add/cs](Arch_Add/cs.md) | [Arch Axis/cs](Arch_Axis/cs.md) | [Arch Building/cs](Arch_Building/cs.md) |
+| [Arch Check/cs](Arch_Check/cs.md) | [Arch CloseHoles/cs](Arch_CloseHoles/cs.md) | [Arch DAE/cs](Arch_DAE/cs.md) |
+| [Arch Floor/cs](Arch_Floor/cs.md) | [Arch Frame/cs](Arch_Frame/cs.md) | [Arch IFC/cs](Arch_IFC/cs.md) |
+| [Arch IfcExplorer/cs](Arch_IfcExplorer/cs.md) | [Arch MeshToShape/cs](Arch_MeshToShape/cs.md) | [Arch OBJ/cs](Arch_OBJ/cs.md) |
+| [Arch Rebar/cs](Arch_Rebar/cs.md) | [Arch Remove/cs](Arch_Remove/cs.md) | [Arch RemoveShape/cs](Arch_RemoveShape/cs.md) |
+| [Arch Roof/cs](Arch_Roof/cs.md) | [Arch SectionPlane/cs](Arch_SectionPlane/cs.md) | [Arch SelectNonSolidMeshes/cs](Arch_SelectNonSolidMeshes/cs.md) |
+| [Arch Site/cs](Arch_Site/cs.md) | [Arch Space/cs](Arch_Space/cs.md) | [Arch SplitMesh/cs](Arch_SplitMesh/cs.md) |
+| [Arch Stairs/cs](Arch_Stairs/cs.md) | [Arch Structure/cs](Arch_Structure/cs.md) | [Arch Survey/cs](Arch_Survey/cs.md) |
+| [Arch tutorial/cs](Arch_tutorial/cs.md) | [Arch Wall/cs](Arch_Wall/cs.md) | [Arch Window/cs](Arch_Window/cs.md) |
+| [Arch Workbench/cs](Arch_Workbench/cs.md) | [Basic modeling tutorial/cs](Basic_modeling_tutorial/cs.md) | [Branding/cs](Branding/cs.md) |
+| [Compile on Linux/cs](Compile_on_Linux/cs.md) | [Compile on MacOS/cs](Compile_on_MacOS/cs.md) | [Compile on Windows/cs](Compile_on_Windows/cs.md) |
+| [Compiling/cs](Compiling/cs.md) | [Copying Objects/cs](Copying_Objects/cs.md) | [Developer hub/cs](Developer_hub/cs.md) |
+| [Document structure/cs](Document_structure/cs.md) | [Download/cs](Download/cs.md) | [Draft AddToGroup/cs](Draft_AddToGroup/cs.md) |
+| [Draft API/cs](Draft_API/cs.md) | [Draft ApplyStyle/cs](Draft_ApplyStyle/cs.md) | [Draft Arc/cs](Draft_Arc/cs.md) |
+| [Draft Array/cs](Draft_Array/cs.md) | [Draft BezCurve/cs](Draft_BezCurve/cs.md) | [Draft BSpline/cs](Draft_BSpline/cs.md) |
+| [Draft Circle/cs](Draft_Circle/cs.md) | [Draft Clone/cs](Draft_Clone/cs.md) | [Draft Constrain/cs](Draft_Constrain/cs.md) |
+| [Draft DAT/cs](Draft_DAT/cs.md) | [Draft Dimension/cs](Draft_Dimension/cs.md) | [Draft Downgrade/cs](Draft_Downgrade/cs.md) |
+| [Draft Draft2Sketch/cs](Draft_Draft2Sketch/cs.md) | [Draft Drawing/cs](Draft_Drawing/cs.md) | [Draft DXF/cs](Draft_DXF/cs.md) |
+| [Draft Edit/cs](Draft_Edit/cs.md) | [Draft Ellipse/cs](Draft_Ellipse/cs.md) | [Draft Facebinder/cs](Draft_Facebinder/cs.md) |
+| [Draft FlipDimension/cs](Draft_FlipDimension/cs.md) | [Draft Heal/cs](Draft_Heal/cs.md) | [Draft Line/cs](Draft_Line/cs.md) |
+| [Draft Move/cs](Draft_Move/cs.md) | [Draft OCA/cs](Draft_OCA/cs.md) | [Draft Offset/cs](Draft_Offset/cs.md) |
+| [Draft PathArray/cs](Draft_PathArray/cs.md) | [Draft Pattern/cs](Draft_Pattern/cs.md) | [Draft Point/cs](Draft_Point/cs.md) |
+| [Draft Polygon/cs](Draft_Polygon/cs.md) | [Draft Preferences/cs](Draft_Preferences/cs.md) | [Draft Rectangle/cs](Draft_Rectangle/cs.md) |
+| [Draft Rotate/cs](Draft_Rotate/cs.md) | [Draft Scale/cs](Draft_Scale/cs.md) | [Draft SelectGroup/cs](Draft_SelectGroup/cs.md) |
+| [Draft SelectPlane/cs](Draft_SelectPlane/cs.md) | [Draft Shape2DView/cs](Draft_Shape2DView/cs.md) | [Draft ShapeString/cs](Draft_ShapeString/cs.md) |
+| [Draft ShowSnapBar/cs](Draft_ShowSnapBar/cs.md) | [Draft Snap Lock/cs](Draft_Snap_Lock/cs.md) | [Draft Snap/cs](Draft_Snap/cs.md) |
+| [Draft SVG/cs](Draft_SVG/cs.md) | [Draft Text/cs](Draft_Text/cs.md) | [Draft ToggleConstructionMode/cs](Draft_ToggleConstructionMode/cs.md) |
+| [Draft ToggleContinueMode/cs](Draft_ToggleContinueMode/cs.md) | [Draft ToggleDisplayMode/cs](Draft_ToggleDisplayMode/cs.md) | [Draft ToggleGrid/cs](Draft_ToggleGrid/cs.md) |
+| [Draft Trimex/cs](Draft_Trimex/cs.md) | [Draft tutorial/cs](Draft_tutorial/cs.md) | [Draft Upgrade/cs](Draft_Upgrade/cs.md) |
+| [Draft Wire/cs](Draft_Wire/cs.md) | [Draft WireToBSpline/cs](Draft_WireToBSpline/cs.md) | [Draft Workbench/cs](Draft_Workbench/cs.md) |
+| [Drawing Annotation/cs](Drawing_Annotation/cs.md) | [Drawing Clip/cs](Drawing_Clip/cs.md) | [Drawing Landscape A3/cs](Drawing_Landscape_A3/cs.md) |
+| [Drawing Open SVG/cs](Drawing_Open_SVG/cs.md) | [Drawing Openbrowser/cs](Drawing_Openbrowser/cs.md) | [Drawing Orthoviews/cs](Drawing_Orthoviews/cs.md) |
+| [Drawing Save/cs](Drawing_Save/cs.md) | [Drawing Symbol/cs](Drawing_Symbol/cs.md) | [Drawing Template HowTo/cs](Drawing_Template_HowTo/cs.md) |
+| [Drawing templates/cs](Drawing_templates/cs.md) | [Drawing View/cs](Drawing_View/cs.md) | [Drawing Workbench/cs](Drawing_Workbench/cs.md) |
+| [Extra python modules/cs](Extra_python_modules/cs.md) | [Feature list/cs](Feature_list/cs.md) | [FEM Workbench/cs](FEM_Workbench/cs.md) |
+| [File Format FCStd/cs](File_Format_FCStd/cs.md) | [Getting started/cs](Getting_started/cs.md) | [Template:GuiCommand/cs](Template_GuiCommand/cs.md) |
+| [Help FreeCAD/cs](Help_FreeCAD/cs.md) | [Image Workbench/cs](Image_Workbench/cs.md) | [Inspection Workbench/cs](Inspection_Workbench/cs.md) |
+| [Installing additional components/cs](Installing_additional_components/cs.md) | [Installing on Linux/cs](Installing_on_Linux/cs.md) | [Installing on Mac/cs](Installing_on_Mac/cs.md) |
+| [Installing on Windows/cs](Installing_on_Windows/cs.md) | [Interface Customization/cs](Interface_Customization/cs.md) | [Licence/cs](Licence/cs.md) |
+| [Localisation/cs](Localisation/cs.md) | [Macro 3D Parametric Curve/cs](Macro_3D_Parametric_Curve/cs.md) | [Macro 3d Printer Slicer/cs](Macro_3d_Printer_Slicer/cs.md) |
+| [Macro Airfoil Import & Scale/cs](Macro_Airfoil_Import_&_Scale/cs.md) | [Macro Align View to Face/cs](Macro_Align_View_to_Face/cs.md) | [Macro ArrayCopy/cs](Macro_ArrayCopy/cs.md) |
+| [Macro Automatic drawing/cs](Macro_Automatic_drawing/cs.md) | [Macro BOLTS/cs](Macro_BOLTS/cs.md) | [Macro BoundingBox Tracing/cs](Macro_BoundingBox_Tracing/cs.md) |
+| [Macro CartoucheFC 2/cs](Macro_CartoucheFC_2/cs.md) | [Macro CartoucheFC Full/cs](Macro_CartoucheFC_Full/cs.md) | [Macro CartoucheFC/cs](Macro_CartoucheFC/cs.md) |
+| [Macro CenterFace/cs](Macro_CenterFace/cs.md) | [Macro Corner shapes wizard/cs](Macro_Corner_shapes_wizard/cs.md) | [Macro Delta xyz/cs](Macro_Delta_xyz/cs.md) |
+| [Macro Draft Circle 3 Points 3D/cs](Macro_Draft_Circle_3_Points_3D/cs.md) | [Macro Draft Circle 3 Points/cs](Macro_Draft_Circle_3_Points/cs.md) | [Macro Draw 2D Function/cs](Macro_Draw_2D_Function/cs.md) |
+| [Macro Draw Parametric 2D Function/cs](Macro_Draw_Parametric_2D_Function/cs.md) | [Macro EdgesToArc/cs](Macro_EdgesToArc/cs.md) | [Macro Ellipse-Center+2Points/cs](Macro_Ellipse-Center+2Points/cs.md) |
+| [Macro FaceToSketch/cs](Macro_FaceToSketch/cs.md) | [Macro FCInfo Alternate Linux/cs](Macro_FCInfo_Alternate_Linux/cs.md) | [Macro FCInfo/cs](Macro_FCInfo/cs.md) |
+| [Macro FlattenWire/cs](Macro_FlattenWire/cs.md) | [Macro HealArcs/cs](Macro_HealArcs/cs.md) | [Macro JointWire/cs](Macro_JointWire/cs.md) |
+| [Macro Line Length/cs](Macro_Line_Length/cs.md) | [Macro Loft/cs](Macro_Loft/cs.md) | [Macro MacroMenu/cs](Macro_MacroMenu/cs.md) |
+| [Macro Make Circle 3 Points/cs](Macro_Make_Circle_3_Points/cs.md) | [Macro Make Cube/cs](Macro_Make_Cube/cs.md) | [Macro MeshToPart/cs](Macro_MeshToPart/cs.md) |
+| [Macro MessageBox/cs](Macro_MessageBox/cs.md) | [Macro Mouse Cross/cs](Macro_Mouse_Cross/cs.md) | [Macro ObjectInfo/cs](Macro_ObjectInfo/cs.md) |
+| [Macro Parametric Curve FP/cs](Macro_Parametric_Curve_FP/cs.md) | [Macro PartsLibrary/cs](Macro_PartsLibrary/cs.md) | [Macro Rectellipse/cs](Macro_Rectellipse/cs.md) |
+| [Macro Remove parametric history/cs](Macro_Remove_parametric_history/cs.md) | [Macro Rotate View/cs](Macro_Rotate_View/cs.md) | [Macro screw maker1 2/cs](Macro_screw_maker1_2/cs.md) |
+| [Macro Solid Sweep/cs](Macro_Solid_Sweep/cs.md) | [Macro SuperWire/cs](Macro_SuperWire/cs.md) | [Macro Texture Objects/cs](Macro_Texture_Objects/cs.md) |
+| [Macro Texture/cs](Macro_Texture/cs.md) | [Macro Unfold Box/cs](Macro_Unfold_Box/cs.md) | [Macro Unroll Ruled Surface/cs](Macro_Unroll_Ruled_Surface/cs.md) |
+| [Macro View Rotation/cs](Macro_View_Rotation/cs.md) | [Template:Macro/cs](Template_Macro/cs.md) | [Main Page/cs](Main_Page/cs.md) |
+| [Mesh Workbench/cs](Mesh_Workbench/cs.md) | [MIBA/cs](MIBA/cs.md) | [Misc templates/cs](Misc_templates/cs.md) |
+| [Mouse navigation/cs](Mouse_navigation/cs.md) | [Online Help Startpage/cs](Online_Help_Startpage/cs.md) | [Online Help Toc/cs](Online_Help_Toc/cs.md) |
+| [OpenSCAD Workbench/cs](OpenSCAD_Workbench/cs.md) | [Part Boolean/cs](Part_Boolean/cs.md) | [Part Box/cs](Part_Box/cs.md) |
+| [Part Builder/cs](Part_Builder/cs.md) | [Part Chamfer/cs](Part_Chamfer/cs.md) | [Part Circle/cs](Part_Circle/cs.md) |
+| [Part Common/cs](Part_Common/cs.md) | [Part Cone/cs](Part_Cone/cs.md) | [Part Cut/cs](Part_Cut/cs.md) |
+| [Part Cylinder/cs](Part_Cylinder/cs.md) | [Part Ellipse/cs](Part_Ellipse/cs.md) | [Part Ellipsoid/cs](Part_Ellipsoid/cs.md) |
+| [Part Extrude/cs](Part_Extrude/cs.md) | [Part Fillet/cs](Part_Fillet/cs.md) | [Part Fuse/cs](Part_Fuse/cs.md) |
+| [Part Helix/cs](Part_Helix/cs.md) | [Part Line/cs](Part_Line/cs.md) | [Part Loft/cs](Part_Loft/cs.md) |
+| [Part Mirror/cs](Part_Mirror/cs.md) | [Part Module/cs](Part_Module/cs.md) | [Part Offset/cs](Part_Offset/cs.md) |
+| [Part Plane/cs](Part_Plane/cs.md) | [Part Point/cs](Part_Point/cs.md) | [Part Primitives/cs](Part_Primitives/cs.md) |
+| [Part Prism/cs](Part_Prism/cs.md) | [Part RefineShape/cs](Part_RefineShape/cs.md) | [Part RegularPolygon/cs](Part_RegularPolygon/cs.md) |
+| [Part Revolve/cs](Part_Revolve/cs.md) | [Part RuledSurface/cs](Part_RuledSurface/cs.md) | [Part Section/cs](Part_Section/cs.md) |
+| [Part Sphere/cs](Part_Sphere/cs.md) | [Part Spiral/cs](Part_Spiral/cs.md) | [Part Sweep/cs](Part_Sweep/cs.md) |
+| [Part Thickness/cs](Part_Thickness/cs.md) | [Part Torus/cs](Part_Torus/cs.md) | [Part Wedge/cs](Part_Wedge/cs.md) |
+| [PartDesign Chamfer/cs](PartDesign_Chamfer/cs.md) | [PartDesign Draft/cs](PartDesign_Draft/cs.md) | [PartDesign Fillet/cs](PartDesign_Fillet/cs.md) |
+| [PartDesign Groove/cs](PartDesign_Groove/cs.md) | [PartDesign InvoluteGear/cs](PartDesign_InvoluteGear/cs.md) | [PartDesign LinearPattern/cs](PartDesign_LinearPattern/cs.md) |
+| [PartDesign Mirrored/cs](PartDesign_Mirrored/cs.md) | [PartDesign MultiTransform/cs](PartDesign_MultiTransform/cs.md) | [PartDesign Pad/cs](PartDesign_Pad/cs.md) |
+| [PartDesign Pocket/cs](PartDesign_Pocket/cs.md) | [PartDesign PolarPattern/cs](PartDesign_PolarPattern/cs.md) | [PartDesign Revolution/cs](PartDesign_Revolution/cs.md) |
+| [PartDesign Scaled/cs](PartDesign_Scaled/cs.md) | [PartDesign WizardShaft/cs](PartDesign_WizardShaft/cs.md) | [PartDesign Workbench/cs](PartDesign_Workbench/cs.md) |
+| [Path Workbench/cs](Path_Workbench/cs.md) | [Placement API/cs](Placement_API/cs.md) | [Placement/cs](Placement/cs.md) |
+| [Plot Workbench/cs](Plot_Workbench/cs.md) | [Points Workbench/cs](Points_Workbench/cs.md) | [Preferences Editor/cs](Preferences_Editor/cs.md) |
+| [Property editor/cs](Property_editor/cs.md) | [Raytracing Workbench/cs](Raytracing_Workbench/cs.md) | [Reverse Engineering Workbench/cs](Reverse_Engineering_Workbench/cs.md) |
+| [Robot 6-Axis/cs](Robot_6-Axis/cs.md) | [Robot Workbench/cs](Robot_Workbench/cs.md) | [Screenshots/cs](Screenshots/cs.md) |
+| [Ship Workbench/cs](Ship_Workbench/cs.md) | [Sketcher CarbonCopy/cs](Sketcher_CarbonCopy/cs.md) | [Sketcher ConstrainAngle/cs](Sketcher_ConstrainAngle/cs.md) |
+| [Sketcher ConstrainCoincident/cs](Sketcher_ConstrainCoincident/cs.md) | [Sketcher ConstrainDistance/cs](Sketcher_ConstrainDistance/cs.md) | [Sketcher ConstrainDistanceX/cs](Sketcher_ConstrainDistanceX/cs.md) |
+| [Sketcher ConstrainDistanceY/cs](Sketcher_ConstrainDistanceY/cs.md) | [Sketcher ConstrainEqual/cs](Sketcher_ConstrainEqual/cs.md) | [Sketcher ConstrainHorizontal/cs](Sketcher_ConstrainHorizontal/cs.md) |
+| [Sketcher ConstrainLock/cs](Sketcher_ConstrainLock/cs.md) | [Sketcher ConstrainParallel/cs](Sketcher_ConstrainParallel/cs.md) | [Sketcher ConstrainPerpendicular/cs](Sketcher_ConstrainPerpendicular/cs.md) |
+| [Sketcher ConstrainPointOnObject/cs](Sketcher_ConstrainPointOnObject/cs.md) | [Sketcher ConstrainRadius/cs](Sketcher_ConstrainRadius/cs.md) | [Sketcher ConstrainSymmetric/cs](Sketcher_ConstrainSymmetric/cs.md) |
+| [Sketcher ConstrainTangent/cs](Sketcher_ConstrainTangent/cs.md) | [Sketcher ConstrainVertical/cs](Sketcher_ConstrainVertical/cs.md) | [Sketcher CreateArc/cs](Sketcher_CreateArc/cs.md) |
+| [Sketcher CreateCircle/cs](Sketcher_CreateCircle/cs.md) | [Sketcher CreateFillet/cs](Sketcher_CreateFillet/cs.md) | [Sketcher CreateLine/cs](Sketcher_CreateLine/cs.md) |
+| [Sketcher CreatePoint/cs](Sketcher_CreatePoint/cs.md) | [Sketcher CreatePolyline/cs](Sketcher_CreatePolyline/cs.md) | [Sketcher CreateRectangle/cs](Sketcher_CreateRectangle/cs.md) |
+| [Sketcher External/cs](Sketcher_External/cs.md) | [Sketcher LeaveSketch/cs](Sketcher_LeaveSketch/cs.md) | [Sketcher MapSketch/cs](Sketcher_MapSketch/cs.md) |
+| [Sketcher NewSketch/cs](Sketcher_NewSketch/cs.md) | [Sketcher ReorientSketch/cs](Sketcher_ReorientSketch/cs.md) | [Sketcher ToggleConstruction/cs](Sketcher_ToggleConstruction/cs.md) |
+| [Sketcher Trimming/cs](Sketcher_Trimming/cs.md) | [Sketcher ViewSketch/cs](Sketcher_ViewSketch/cs.md) | [Sketcher Workbench/cs](Sketcher_Workbench/cs.md) |
+| [Spreadsheet Workbench/cs](Spreadsheet_Workbench/cs.md) | [Start up and Configuration/cs](Start_up_and_Configuration/cs.md) | [Start Workbench/cs](Start_Workbench/cs.md) |
+| [Std Copy/cs](Std_Copy/cs.md) | [Std DuplicateSelection/cs](Std_DuplicateSelection/cs.md) | [Std Edit Menu/cs](Std_Edit_Menu/cs.md) |
+| [Std Edit/cs](Std_Edit/cs.md) | [Std Paste/cs](Std_Paste/cs.md) | [Std Tools Menu/cs](Std_Tools_Menu/cs.md) |
+| [Std ViewScreenShot/cs](Std_ViewScreenShot/cs.md) | [Surface Workbench/cs](Surface_Workbench/cs.md) | [Tasks Placement/cs](Tasks_Placement/cs.md) |
+| [TechDraw Workbench/cs](TechDraw_Workbench/cs.md) | [Tutorials/cs](Tutorials/cs.md) | [User hub/cs](User_hub/cs.md) |
+| [Video tutorials/cs](Video_tutorials/cs.md) | [Web Workbench/cs](Web_Workbench/cs.md) | [Workbenches/cs](Workbenches/cs.md) |
+| [Category:Arch/cs](Category_Arch/cs.md) | [Category:BIM/cs](Category_BIM/cs.md) | [Category:Draft/cs](Category_Draft/cs.md) |
+| [Category:Inspection/cs](Category_Inspection/cs.md) | [Category:Tutorials/cs](Category_Tutorials/cs.md) | [Category:Workbenches/cs](Category_Workbenches/cs.md) |
+|
 
 
 

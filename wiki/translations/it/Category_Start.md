@@ -5,7 +5,7 @@ This category lists pages related to the [Start Workbench/it](Start_Workbench/it
 
 |     |     |     |
 | --- | --- | --- |
-| [Artwork Start/it](wiki/Artwork Start/it.md) | [Start Preferences/it](wiki/Start Preferences/it.md) | [Start Workbench/it](wiki/Start Workbench/it.md) |
+| [Artwork Start/it](Artwork_Start/it.md) | [Start Preferences/it](Start_Preferences/it.md) | [Start Workbench/it](Start_Workbench/it.md) |
 |
 
 

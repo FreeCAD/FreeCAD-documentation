@@ -5,10 +5,10 @@ Denna kategori innehåller makron om du vill utöka din FreeCAD installation med
 
 |     |     |     |
 | --- | --- | --- |
-| [Macro ArrayCopy/sv](wiki/Macro ArrayCopy/sv.md) | [Macro Draw 2D Function/sv](wiki/Macro Draw 2D Function/sv.md) | [Macro FCInfo/sv](wiki/Macro FCInfo/sv.md) |
-| [Macro FlattenWire/sv](wiki/Macro FlattenWire/sv.md) | [Macro JointWire/sv](wiki/Macro JointWire/sv.md) | [Macro MeshToPart/sv](wiki/Macro MeshToPart/sv.md) |
-| [Macro Rotate View/sv](wiki/Macro Rotate View/sv.md) | [Template:Macro/sv](wiki/Template_Macro/sv.md) | [Macros recipes/sv](wiki/Macros recipes/sv.md) |
-| [Macros/sv](wiki/Macros/sv.md) |
+| [Macro ArrayCopy/sv](Macro_ArrayCopy/sv.md) | [Macro Draw 2D Function/sv](Macro_Draw_2D_Function/sv.md) | [Macro FCInfo/sv](Macro_FCInfo/sv.md) |
+| [Macro FlattenWire/sv](Macro_FlattenWire/sv.md) | [Macro JointWire/sv](Macro_JointWire/sv.md) | [Macro MeshToPart/sv](Macro_MeshToPart/sv.md) |
+| [Macro Rotate View/sv](Macro_Rotate_View/sv.md) | [Template:Macro/sv](Template_Macro/sv.md) | [Macros recipes/sv](Macros_recipes/sv.md) |
+| [Macros/sv](Macros/sv.md) |
 
 
 

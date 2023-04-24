@@ -5,7 +5,7 @@ This category gathers the meeting points of the 3 broad categories of users of F
 
 |     |     |     |
 | --- | --- | --- |
-| [User hub/uk](wiki/User hub/uk.md) |
+| [User hub/uk](User_hub/uk.md) |
 
 
 

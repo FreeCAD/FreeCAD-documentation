@@ -5,7 +5,7 @@ This category lists all existing Preference menus of different FreeCAD workbench
 
 |     |     |     |
 | --- | --- | --- |
-| [Preferences Editor/ja](wiki/Preferences Editor/ja.md) |
+| [Preferences Editor/ja](Preferences_Editor/ja.md) |
 
 
 

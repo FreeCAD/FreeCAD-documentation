@@ -9,8 +9,8 @@ Dłuższe fragmenty tekstu należy umieścić na samej stronie, aby można je by
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:Obsolete/pl](wiki/Template_Obsolete/pl.md) | [Template:Version/pl](wiki/Template_Version/pl.md) | [Template:VersionMinus/pl](wiki/Template_VersionMinus/pl.md) |
-| [Template:VersionPlus/pl](wiki/Template_VersionPlus/pl.md) |
+| [Template:Obsolete/pl](Template_Obsolete/pl.md) | [Template:Version/pl](Template_Version/pl.md) | [Template:VersionMinus/pl](Template_VersionMinus/pl.md) |
+| [Template:VersionPlus/pl](Template_VersionPlus/pl.md) |
 
 
 

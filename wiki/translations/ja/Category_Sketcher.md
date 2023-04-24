@@ -5,9 +5,9 @@ This category lists pages related to the [Sketcher Workbench/ja](Sketcher_Workbe
 
 |     |     |     |
 | --- | --- | --- |
-| [Sketcher ConstrainEqual/ja](wiki/Sketcher ConstrainEqual/ja.md) | [Sketcher ConstrainHorizontal/ja](wiki/Sketcher ConstrainHorizontal/ja.md) | [Sketcher CreateArc/ja](wiki/Sketcher CreateArc/ja.md) |
-| [Sketcher CreateCircle/ja](wiki/Sketcher CreateCircle/ja.md) | [Sketcher CreateFillet/ja](wiki/Sketcher CreateFillet/ja.md) | [Sketcher CreateLine/ja](wiki/Sketcher CreateLine/ja.md) |
-| [Sketcher ToggleConstruction/ja](wiki/Sketcher ToggleConstruction/ja.md) | [Sketcher Workbench/ja](wiki/Sketcher Workbench/ja.md) |
+| [Sketcher ConstrainEqual/ja](Sketcher_ConstrainEqual/ja.md) | [Sketcher ConstrainHorizontal/ja](Sketcher_ConstrainHorizontal/ja.md) | [Sketcher CreateArc/ja](Sketcher_CreateArc/ja.md) |
+| [Sketcher CreateCircle/ja](Sketcher_CreateCircle/ja.md) | [Sketcher CreateFillet/ja](Sketcher_CreateFillet/ja.md) | [Sketcher CreateLine/ja](Sketcher_CreateLine/ja.md) |
+| [Sketcher ToggleConstruction/ja](Sketcher_ToggleConstruction/ja.md) | [Sketcher Workbench/ja](Sketcher_Workbench/ja.md) |
 
 
 

@@ -5,7 +5,7 @@ This category tracks pages that explain definitions of words related to FreeCAD
 
 |     |     |     |
 | --- | --- | --- |
-| [Command/tr](wiki/Command/tr.md) | [Glossary/tr](wiki/Glossary/tr.md) | [Python/tr](wiki/Python/tr.md) |
+| [Command/tr](Command/tr.md) | [Glossary/tr](Glossary/tr.md) | [Python/tr](Python/tr.md) |
 |
 
 

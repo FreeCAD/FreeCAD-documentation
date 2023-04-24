@@ -5,16 +5,16 @@ This category lists workbenches included in FreeCAD.
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch Workbench/ja](wiki/Arch Workbench/ja.md) | [Draft Workbench/ja](wiki/Draft Workbench/ja.md) | [FEM Workbench/ja](wiki/FEM Workbench/ja.md) |
-| [Image Workbench/ja](wiki/Image Workbench/ja.md) | [Mesh Workbench/ja](wiki/Mesh Workbench/ja.md) | [Part Module/ja](wiki/Part Module/ja.md) |
-| [PartDesign Workbench/ja](wiki/PartDesign Workbench/ja.md) | [Raytracing Workbench/ja](wiki/Raytracing Workbench/ja.md) | [Robot Workbench/ja](wiki/Robot Workbench/ja.md) |
-| [Sketcher Workbench/ja](wiki/Sketcher Workbench/ja.md) | [Surface Workbench/ja](wiki/Surface Workbench/ja.md) | [TechDraw Workbench/ja](wiki/TechDraw Workbench/ja.md) |
-| [Workbenches/ja](wiki/Workbenches/ja.md) | [Category:Arch/ja](wiki/Category_Arch/ja.md) | [Category:Draft/ja](wiki/Category_Draft/ja.md) |
-| [Category:External Workbenches/ja](wiki/Category_External Workbenches/ja.md) | [Category:FEM/ja](wiki/Category_FEM/ja.md) | [Category:Image/ja](wiki/Category_Image/ja.md) |
-| [Category:Mesh/ja](wiki/Category_Mesh/ja.md) | [Category:OpenSCAD/ja](wiki/Category_OpenSCAD/ja.md) | [Category:Part/ja](wiki/Category_Part/ja.md) |
-| [Category:PartDesign/ja](wiki/Category_PartDesign/ja.md) | [Category:Path/ja](wiki/Category_Path/ja.md) | [Category:Plot/ja](wiki/Category_Plot/ja.md) |
-| [Category:Raytracing/ja](wiki/Category_Raytracing/ja.md) | [Category:Robot/ja](wiki/Category_Robot/ja.md) | [Category:Ship/ja](wiki/Category_Ship/ja.md) |
-| [Category:Sketcher/ja](wiki/Category_Sketcher/ja.md) | [Category:Surface/ja](wiki/Category_Surface/ja.md) | [Category:TechDraw/ja](wiki/Category_TechDraw/ja.md) |
+| [Arch Workbench/ja](Arch_Workbench/ja.md) | [Draft Workbench/ja](Draft_Workbench/ja.md) | [FEM Workbench/ja](FEM_Workbench/ja.md) |
+| [Image Workbench/ja](Image_Workbench/ja.md) | [Mesh Workbench/ja](Mesh_Workbench/ja.md) | [Part Module/ja](Part_Module/ja.md) |
+| [PartDesign Workbench/ja](PartDesign_Workbench/ja.md) | [Raytracing Workbench/ja](Raytracing_Workbench/ja.md) | [Robot Workbench/ja](Robot_Workbench/ja.md) |
+| [Sketcher Workbench/ja](Sketcher_Workbench/ja.md) | [Surface Workbench/ja](Surface_Workbench/ja.md) | [TechDraw Workbench/ja](TechDraw_Workbench/ja.md) |
+| [Workbenches/ja](Workbenches/ja.md) | [Category:Arch/ja](Category_Arch/ja.md) | [Category:Draft/ja](Category_Draft/ja.md) |
+| [Category:External Workbenches/ja](Category_External_Workbenches/ja.md) | [Category:FEM/ja](Category_FEM/ja.md) | [Category:Image/ja](Category_Image/ja.md) |
+| [Category:Mesh/ja](Category_Mesh/ja.md) | [Category:OpenSCAD/ja](Category_OpenSCAD/ja.md) | [Category:Part/ja](Category_Part/ja.md) |
+| [Category:PartDesign/ja](Category_PartDesign/ja.md) | [Category:Path/ja](Category_Path/ja.md) | [Category:Plot/ja](Category_Plot/ja.md) |
+| [Category:Raytracing/ja](Category_Raytracing/ja.md) | [Category:Robot/ja](Category_Robot/ja.md) | [Category:Ship/ja](Category_Ship/ja.md) |
+| [Category:Sketcher/ja](Category_Sketcher/ja.md) | [Category:Surface/ja](Category_Surface/ja.md) | [Category:TechDraw/ja](Category_TechDraw/ja.md) |
 |
 
 

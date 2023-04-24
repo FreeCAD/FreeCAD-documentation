@@ -5,14 +5,14 @@ This category contains articles that are relevant for developers.
 
 |     |     |     |
 | --- | --- | --- |
-| [Changelog/en](wiki/Changelog/en.md) | [Compile on Docker/en](wiki/Compile on Docker/en.md) | [Compile on Linux/en](wiki/Compile on Linux/en.md) |
-| [Compile on MacOS/en](wiki/Compile on MacOS/en.md) | [Compile on MinGW/en](wiki/Compile on MinGW/en.md) | [Compile on Windows/en](wiki/Compile on Windows/en.md) |
-| [Compiling (Speeding up)/en](wiki/Compiling (Speeding up)/en.md) | [Compiling/en](wiki/Compiling/en.md) | [Conda/en](wiki/Conda/en.md) |
-| [Contributors/en](wiki/Contributors/en.md) | [Developing FreeCAD with GitKraken/en](wiki/Developing FreeCAD with GitKraken/en.md) | [Doxygen/en](wiki/Doxygen/en.md) |
-| [FEM CalculiX/en](wiki/FEM CalculiX/en.md) | [FEM Element Types/en](wiki/FEM Element Types/en.md) | [FEM Mesh CalculiX/en](wiki/FEM Mesh CalculiX/en.md) |
-| [File Format FCStd/en](wiki/File Format FCStd/en.md) | [ImageConv/en](wiki/ImageConv/en.md) | [InputField/en](wiki/InputField/en.md) |
-| [LGTM/en](wiki/LGTM/en.md) | [Organization chart/en](wiki/Organization chart/en.md) | [Svg Namespace/en](wiki/Svg Namespace/en.md) |
-| [WikiRobots/en](wiki/WikiRobots/en.md) | [Wrapping a Cplusplus class in Python/en](wiki/Wrapping a Cplusplus class in Python/en.md) |
+| [Changelog/en](Changelog/en.md) | [Compile on Docker/en](Compile_on_Docker/en.md) | [Compile on Linux/en](Compile_on_Linux/en.md) |
+| [Compile on MacOS/en](Compile_on_MacOS/en.md) | [Compile on MinGW/en](Compile_on_MinGW/en.md) | [Compile on Windows/en](Compile_on_Windows/en.md) |
+| [Compiling (Speeding up)/en](Compiling_(Speeding_up)/en.md) | [Compiling/en](Compiling/en.md) | [Conda/en](Conda/en.md) |
+| [Contributors/en](Contributors/en.md) | [Developing FreeCAD with GitKraken/en](Developing_FreeCAD_with_GitKraken/en.md) | [Doxygen/en](Doxygen/en.md) |
+| [FEM CalculiX/en](FEM_CalculiX/en.md) | [FEM Element Types/en](FEM_Element_Types/en.md) | [FEM Mesh CalculiX/en](FEM_Mesh_CalculiX/en.md) |
+| [File Format FCStd/en](File_Format_FCStd/en.md) | [ImageConv/en](ImageConv/en.md) | [InputField/en](InputField/en.md) |
+| [LGTM/en](LGTM/en.md) | [Organization chart/en](Organization_chart/en.md) | [Svg Namespace/en](Svg_Namespace/en.md) |
+| [WikiRobots/en](WikiRobots/en.md) | [Wrapping a Cplusplus class in Python/en](Wrapping_a_Cplusplus_class_in_Python/en.md) |
 
 
 

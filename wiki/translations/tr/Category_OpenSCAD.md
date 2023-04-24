@@ -5,7 +5,7 @@ This category lists pages related to the [OpenSCAD_Workbench/tr](OpenSCAD_Workbe
 
 |     |     |     |
 | --- | --- | --- |
-| [OpenSCAD Workbench/tr](wiki/OpenSCAD Workbench/tr.md) |
+| [OpenSCAD Workbench/tr](OpenSCAD_Workbench/tr.md) |
 
 
 

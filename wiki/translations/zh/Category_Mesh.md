@@ -5,7 +5,7 @@ This category lists pages related to the [Mesh_Workbench/zh](Mesh_Workbench/zh.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Mesh Workbench/zh](wiki/Mesh Workbench/zh.md) |
+| [Mesh Workbench/zh](Mesh_Workbench/zh.md) |
 
 
 

@@ -5,7 +5,7 @@ Pages relating to Architectural and Building Information Management
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch Workbench/id](wiki/Arch Workbench/id.md) |
+| [Arch Workbench/id](Arch_Workbench/id.md) |
 
 
 

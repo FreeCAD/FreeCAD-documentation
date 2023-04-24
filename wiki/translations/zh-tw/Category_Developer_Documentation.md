@@ -5,8 +5,8 @@ This category gathers documentation article mostly aimed at programmers
 
 |     |     |     |
 | --- | --- | --- |
-| [Compiling/zh-tw](wiki/Compiling/zh-tw.md) | [Debugging/zh-tw](wiki/Debugging/zh-tw.md) | [Help FreeCAD/zh-tw](wiki/Help FreeCAD/zh-tw.md) |
-| [Licence/zh-tw](wiki/Licence/zh-tw.md) | [Localisation/zh-tw](wiki/Localisation/zh-tw.md) | [Workbench creation/zh-tw](wiki/Workbench creation/zh-tw.md) |
+| [Compiling/zh-tw](Compiling/zh-tw.md) | [Debugging/zh-tw](Debugging/zh-tw.md) | [Help FreeCAD/zh-tw](Help_FreeCAD/zh-tw.md) |
+| [Licence/zh-tw](Licence/zh-tw.md) | [Localisation/zh-tw](Localisation/zh-tw.md) | [Workbench creation/zh-tw](Workbench_creation/zh-tw.md) |
 |
 
 

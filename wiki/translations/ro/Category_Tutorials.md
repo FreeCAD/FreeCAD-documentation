@@ -7,26 +7,26 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [Add FEM Constraint Tutorial/ro](wiki/Add FEM Constraint Tutorial/ro.md) | [Add FEM Equation Tutorial/ro](wiki/Add FEM Equation Tutorial/ro.md) | [Aeroplane/ro](wiki/Aeroplane/ro.md) |
-| [Arch panel tutorial/ro](wiki/Arch panel tutorial/ro.md) | [Arch tutorial/ro](wiki/Arch tutorial/ro.md) | [Basic modeling tutorial/ro](wiki/Basic modeling tutorial/ro.md) |
-| [Basic Part Design Tutorial/ro](wiki/Basic Part Design Tutorial/ro.md) | [Basic Sketcher Tutorial/ro](wiki/Basic Sketcher Tutorial/ro.md) | [Basic TechDraw Tutorial/ro](wiki/Basic TechDraw Tutorial/ro.md) |
-| [Creating a simple part with PartDesign/ro](wiki/Creating a simple part with PartDesign/ro.md) | [Customize Toolbars/ro](wiki/Customize Toolbars/ro.md) | [Draft ShapeString tutorial/ro](wiki/Draft ShapeString tutorial/ro.md) |
-| [Draft tutorial/ro](wiki/Draft tutorial/ro.md) | [Drawing Template HowTo/ro](wiki/Drawing Template HowTo/ro.md) | [Drawing tutorial/ro](wiki/Drawing tutorial/ro.md) |
-| [Dxf Importer Install/ro](wiki/Dxf Importer Install/ro.md) | [Engine Block Tutorial/ro](wiki/Engine Block Tutorial/ro.md) | [Export to STL or OBJ/ro](wiki/Export to STL or OBJ/ro.md) |
-| [Extend FEM Module/ro](wiki/Extend FEM Module/ro.md) | [FEM CalculiX Cantilever 3D/ro](wiki/FEM CalculiX Cantilever 3D/ro.md) | [FEM Shear of a Composite Block/ro](wiki/FEM Shear of a Composite Block/ro.md) |
-| [FEM Tutorial Python/ro](wiki/FEM Tutorial Python/ro.md) | [FEM tutorial/ro](wiki/FEM tutorial/ro.md) | [FreeCAD-Ship s60 tutorial (II)/ro](wiki/FreeCAD-Ship s60 tutorial (II)/ro.md) |
-| [FreeCAD-Ship s60 tutorial/ro](wiki/FreeCAD-Ship s60 tutorial/ro.md) | [How to install additional workbenches/ro](wiki/How to install additional workbenches/ro.md) | [How to install macros/ro](wiki/How to install macros/ro.md) |
-| [Import from STL or OBJ/ro](wiki/Import from STL or OBJ/ro.md) | [Import OpenSCAD code/ro](wiki/Import OpenSCAD code/ro.md) | [Import text and geometry from Inkscape/ro](wiki/Import text and geometry from Inkscape/ro.md) |
-| [Import/Export IFC - compiling IfcOpenShell/ro](wiki/Import/Export IFC - compiling IfcOpenShell/ro.md) | [Manual:BIM modeling/ro](wiki/Manual_BIM modeling/ro.md) | [Manual:Creating FEM analyses/ro](wiki/Manual_Creating FEM analyses/ro.md) |
-| [Manual:Creating renderings/ro](wiki/Manual_Creating renderings/ro.md) | [Manual:Generating 2D drawings/ro](wiki/Manual_Generating 2D drawings/ro.md) | [Manual:Import and export to other filetypes/ro](wiki/Manual_Import and export to other filetypes/ro.md) |
-| [Manual:Installing/ro](wiki/Manual_Installing/ro.md) | [Manual:Modeling for product design/ro](wiki/Manual_Modeling for product design/ro.md) | [Manual:Parametric objects/ro](wiki/Manual_Parametric objects/ro.md) |
-| [Manual:Preparing models for 3D printing/ro](wiki/Manual_Preparing models for 3D printing/ro.md) | [Manual:Traditional 2D drafting/ro](wiki/Manual_Traditional 2D drafting/ro.md) | [Manual:Traditional modeling, the CSG way/ro](wiki/Manual_Traditional modeling, the CSG way/ro.md) |
-| [Manual:Using spreadsheets/ro](wiki/Manual_Using spreadsheets/ro.md) | [PartDesign Bearingholder Tutorial I/ro](wiki/PartDesign Bearingholder Tutorial I/ro.md) | [PartDesign Bearingholder Tutorial II/ro](wiki/PartDesign Bearingholder Tutorial II/ro.md) |
-| [PartDesign tutorial/ro](wiki/PartDesign tutorial/ro.md) | [Path Walkthrough for the Impatient/ro](wiki/Path Walkthrough for the Impatient/ro.md) | [Raytracing tutorial/ro](wiki/Raytracing tutorial/ro.md) |
-| [Robot 6-Axis/ro](wiki/Robot 6-Axis/ro.md) | [Robot tutorial/ro](wiki/Robot tutorial/ro.md) | [Scripted Parts: Ball Bearing - Part 1/ro](wiki/Scripted Parts_ Ball Bearing - Part 1/ro.md) |
-| [Sketcher Micro Tutorial - Constraint Practices/ro](wiki/Sketcher Micro Tutorial - Constraint Practices/ro.md) | [Thread for Screw Tutorial/ro](wiki/Thread for Screw Tutorial/ro.md) | [Toothbrush Head Stand/ro](wiki/Toothbrush Head Stand/ro.md) |
-| [Tutorials/ro](wiki/Tutorials/ro.md) | [Video tutorials/ro](wiki/Video tutorials/ro.md) | [VRML Preparation for Robot Simulation/ro](wiki/VRML Preparation for Robot Simulation/ro.md) |
-| [Whiffle Ball tutorial/ro](wiki/Whiffle Ball tutorial/ro.md) | [Wikihouse porting tutorial/ro](wiki/Wikihouse porting tutorial/ro.md) |
+| [Add FEM Constraint Tutorial/ro](Add_FEM_Constraint_Tutorial/ro.md) | [Add FEM Equation Tutorial/ro](Add_FEM_Equation_Tutorial/ro.md) | [Aeroplane/ro](Aeroplane/ro.md) |
+| [Arch panel tutorial/ro](Arch_panel_tutorial/ro.md) | [Arch tutorial/ro](Arch_tutorial/ro.md) | [Basic modeling tutorial/ro](Basic_modeling_tutorial/ro.md) |
+| [Basic Part Design Tutorial/ro](Basic_Part_Design_Tutorial/ro.md) | [Basic Sketcher Tutorial/ro](Basic_Sketcher_Tutorial/ro.md) | [Basic TechDraw Tutorial/ro](Basic_TechDraw_Tutorial/ro.md) |
+| [Creating a simple part with PartDesign/ro](Creating_a_simple_part_with_PartDesign/ro.md) | [Customize Toolbars/ro](Customize_Toolbars/ro.md) | [Draft ShapeString tutorial/ro](Draft_ShapeString_tutorial/ro.md) |
+| [Draft tutorial/ro](Draft_tutorial/ro.md) | [Drawing Template HowTo/ro](Drawing_Template_HowTo/ro.md) | [Drawing tutorial/ro](Drawing_tutorial/ro.md) |
+| [Dxf Importer Install/ro](Dxf_Importer_Install/ro.md) | [Engine Block Tutorial/ro](Engine_Block_Tutorial/ro.md) | [Export to STL or OBJ/ro](Export_to_STL_or_OBJ/ro.md) |
+| [Extend FEM Module/ro](Extend_FEM_Module/ro.md) | [FEM CalculiX Cantilever 3D/ro](FEM_CalculiX_Cantilever_3D/ro.md) | [FEM Shear of a Composite Block/ro](FEM_Shear_of_a_Composite_Block/ro.md) |
+| [FEM Tutorial Python/ro](FEM_Tutorial_Python/ro.md) | [FEM tutorial/ro](FEM_tutorial/ro.md) | [FreeCAD-Ship s60 tutorial (II)/ro](FreeCAD-Ship_s60_tutorial_(II)/ro.md) |
+| [FreeCAD-Ship s60 tutorial/ro](FreeCAD-Ship_s60_tutorial/ro.md) | [How to install additional workbenches/ro](How_to_install_additional_workbenches/ro.md) | [How to install macros/ro](How_to_install_macros/ro.md) |
+| [Import from STL or OBJ/ro](Import_from_STL_or_OBJ/ro.md) | [Import OpenSCAD code/ro](Import_OpenSCAD_code/ro.md) | [Import text and geometry from Inkscape/ro](Import_text_and_geometry_from_Inkscape/ro.md) |
+| [Import/Export IFC - compiling IfcOpenShell/ro](Import/Export_IFC_-_compiling_IfcOpenShell/ro.md) | [Manual:Creating FEM analyses/ro](Manual_Creating_FEM_analyses/ro.md) | [Manual:Creating renderings/ro](Manual_Creating_renderings/ro.md) |
+| [Manual:Generating 2D drawings/ro](Manual_Generating_2D_drawings/ro.md) | [Manual:Import and export to other filetypes/ro](Manual_Import_and_export_to_other_filetypes/ro.md) | [Manual:Installing/ro](Manual_Installing/ro.md) |
+| [Manual:Modeling for product design/ro](Manual_Modeling_for_product_design/ro.md) | [Manual:Parametric objects/ro](Manual_Parametric_objects/ro.md) | [Manual:Preparing models for 3D printing/ro](Manual_Preparing_models_for_3D_printing/ro.md) |
+| [Manual:Traditional 2D drafting/ro](Manual_Traditional_2D_drafting/ro.md) | [Manual:Traditional modeling, the CSG way/ro](Manual_Traditional_modeling,_the_CSG_way/ro.md) | [Manual:Using spreadsheets/ro](Manual_Using_spreadsheets/ro.md) |
+| [PartDesign Bearingholder Tutorial I/ro](PartDesign_Bearingholder_Tutorial_I/ro.md) | [PartDesign Bearingholder Tutorial II/ro](PartDesign_Bearingholder_Tutorial_II/ro.md) | [PartDesign tutorial/ro](PartDesign_tutorial/ro.md) |
+| [Path Walkthrough for the Impatient/ro](Path_Walkthrough_for_the_Impatient/ro.md) | [Raytracing tutorial/ro](Raytracing_tutorial/ro.md) | [Robot 6-Axis/ro](Robot_6-Axis/ro.md) |
+| [Robot tutorial/ro](Robot_tutorial/ro.md) | [Scripted Parts: Ball Bearing - Part 1/ro](Scripted_Parts__Ball_Bearing_-_Part_1/ro.md) | [Sketcher Micro Tutorial - Constraint Practices/ro](Sketcher_Micro_Tutorial_-_Constraint_Practices/ro.md) |
+| [Thread for Screw Tutorial/ro](Thread_for_Screw_Tutorial/ro.md) | [Toothbrush Head Stand/ro](Toothbrush_Head_Stand/ro.md) | [Tutorials/ro](Tutorials/ro.md) |
+| [VRML Preparation for Robot Simulation/ro](VRML_Preparation_for_Robot_Simulation/ro.md) | [Whiffle Ball tutorial/ro](Whiffle_Ball_tutorial/ro.md) | [Wikihouse porting tutorial/ro](Wikihouse_porting_tutorial/ro.md) |
+|
 
 
 

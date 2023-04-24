@@ -10,10 +10,10 @@ This is the **top category** which contains the main categories of the FreeCAD w
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Addons/ja](wiki/Category_Addons/ja.md) | [Category:Administration/ja](wiki/Category_Administration/ja.md) | [Category:API/ja](wiki/Category_API/ja.md) |
-| [Category:Categories/ja](wiki/Category_Categories/ja.md) | [Category:Command Reference/ja](wiki/Category_Command Reference/ja.md) | [Category:Developer/ja](wiki/Category_Developer/ja.md) |
-| [Category:Documentation/ja](wiki/Category_Documentation/ja.md) | [Category:Hubs/ja](wiki/Category_Hubs/ja.md) | [Category:Macros/ja](wiki/Category_Macros/ja.md) |
-| [Category:Python Code/ja](wiki/Category_Python Code/ja.md) | [Category:Template/ja](wiki/Category_Template/ja.md) |
+| [Category:Addons/ja](Category_Addons/ja.md) | [Category:Administration/ja](Category_Administration/ja.md) | [Category:API/ja](Category_API/ja.md) |
+| [Category:Categories/ja](Category_Categories/ja.md) | [Category:Command Reference/ja](Category_Command_Reference/ja.md) | [Category:Developer/ja](Category_Developer/ja.md) |
+| [Category:Documentation/ja](Category_Documentation/ja.md) | [Category:Hubs/ja](Category_Hubs/ja.md) | [Category:Macros/ja](Category_Macros/ja.md) |
+| [Category:Python Code/ja](Category_Python_Code/ja.md) | [Category:Template/ja](Category_Template/ja.md) |
 
 
 

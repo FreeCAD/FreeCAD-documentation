@@ -7,8 +7,8 @@ See also [UncategorizedTemplates](Special_UncategorizedTemplates.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:Languages/sv](wiki/Template_Languages/sv.md) | [Template:Property/sv](wiki/Template_Property/sv.md) | [Template:Sv](wiki/Template_Sv.md) |
-| [Category:Template:Doc/sv](wiki/Category_Template_Doc/sv.md) | [Category:Template:Navigation/sv](wiki/Category_Template_Navigation/sv.md) |
+| [Template:Languages/sv](Template_Languages/sv.md) | [Template:Property/sv](Template_Property/sv.md) | [Template:Sv](Template_Sv.md) |
+| [Category:Template:Doc/sv](Category_Template_Doc/sv.md) | [Category:Template:Navigation/sv](Category_Template_Navigation/sv.md) |
 
 
 

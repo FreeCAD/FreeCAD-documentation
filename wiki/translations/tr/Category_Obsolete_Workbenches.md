@@ -5,8 +5,8 @@ This category lists pages related to the [Drawing Workbench/tr](Drawing_Workbenc
 
 |     |     |     |
 | --- | --- | --- |
-| [Complete Workbench/tr](wiki/Complete Workbench/tr.md) | [Drawing Workbench/tr](wiki/Drawing Workbench/tr.md) | [Category:Drawing/tr](wiki/Category_Drawing/tr.md) |
-| [Category:Obsolete Workbenches/tr](wiki/Category_Obsolete Workbenches/tr.md) |
+| [Drawing Workbench/tr](Drawing_Workbench/tr.md) | [Category:Drawing/tr](Category_Drawing/tr.md) | [Category:Obsolete Workbenches/tr](Category_Obsolete_Workbenches/tr.md) |
+|
 
 
 

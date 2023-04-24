@@ -5,7 +5,7 @@ This category lists pages related to the [Sketcher Workbench/zh](Sketcher_Workbe
 
 |     |     |     |
 | --- | --- | --- |
-| [Sketcher Workbench/zh](wiki/Sketcher Workbench/zh.md) |
+| [Sketcher Workbench/zh](Sketcher_Workbench/zh.md) |
 
 
 

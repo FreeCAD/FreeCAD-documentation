@@ -10,14 +10,14 @@ This is the **top category** which contains the main categories of the FreeCAD w
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Addons](wiki/Category_Addons.md) | [Category:Administration](wiki/Category_Administration.md) | [Category:API](wiki/Category_API.md) |
-| [Category:Categories](wiki/Category_Categories.md) | [Category:Command Reference](wiki/Category_Command Reference.md) | [Category:Developer](wiki/Category_Developer.md) |
-| [Category:Documentation](wiki/Category_Documentation.md) | [Category:Help](wiki/Category_Help.md) | [Category:HouseKeeping](wiki/Category_HouseKeeping.md) |
-| [Category:Hubs](wiki/Category_Hubs.md) | [Category:Image](wiki/Category_Image.md) | [Category:Macros](wiki/Category_Macros.md) |
-| [Category:News](wiki/Category_News.md) | [Category:Pages to delete](wiki/Category_Pages to delete.md) | [Category:Python Code](wiki/Category_Python Code.md) |
-| [Category:Roadmap](wiki/Category_Roadmap.md) | [Category:Roadmap/pl](wiki/Category_Roadmap/pl.md) | [Category:Sandbox](wiki/Category_Sandbox.md) |
-| [Category:Sandbox/pl](wiki/Category_Sandbox/pl.md) | [Category:Template](wiki/Category_Template.md) | [Category:UnfinishedDocu](wiki/Category_UnfinishedDocu.md) |
-| [Category:Wiki](wiki/Category_Wiki.md) | [Category:Wiki maintenance](wiki/Category_Wiki maintenance.md) |
+| [Category:Addons](Category_Addons.md) | [Category:Administration](Category_Administration.md) | [Category:API](Category_API.md) |
+| [Category:Categories](Category_Categories.md) | [Category:Command Reference](Category_Command_Reference.md) | [Category:Developer](Category_Developer.md) |
+| [Category:Documentation](Category_Documentation.md) | [Category:Help](Category_Help.md) | [Category:HouseKeeping](Category_HouseKeeping.md) |
+| [Category:Hubs](Category_Hubs.md) | [Category:Image](Category_Image.md) | [Category:Macros](Category_Macros.md) |
+| [Category:News](Category_News.md) | [Category:Pages to delete](Category_Pages_to_delete.md) | [Category:Python Code](Category_Python_Code.md) |
+| [Category:Roadmap](Category_Roadmap.md) | [Category:Roadmap/pl](Category_Roadmap/pl.md) | [Category:Sandbox](Category_Sandbox.md) |
+| [Category:Sandbox/pl](Category_Sandbox/pl.md) | [Category:Template](Category_Template.md) | [Category:UnfinishedDocu](Category_UnfinishedDocu.md) |
+| [Category:Wiki](Category_Wiki.md) | [Category:Wiki maintenance](Category_Wiki_maintenance.md) |
 
 
 

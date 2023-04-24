@@ -5,30 +5,30 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 
 |     |     |     |
 | --- | --- | --- |
-| [About FreeCAD/ja](wiki/About FreeCAD/ja.md) | [Arch Add/ja](wiki/Arch Add/ja.md) | [Arch Building/ja](wiki/Arch Building/ja.md) |
-| [Arch Floor/ja](wiki/Arch Floor/ja.md) | [Arch Pipe/ja](wiki/Arch Pipe/ja.md) | [Arch PipeConnector/ja](wiki/Arch PipeConnector/ja.md) |
-| [Arch Rebar/ja](wiki/Arch Rebar/ja.md) | [Arch Remove/ja](wiki/Arch Remove/ja.md) | [Arch SectionPlane/ja](wiki/Arch SectionPlane/ja.md) |
-| [Arch Structure/ja](wiki/Arch Structure/ja.md) | [Arch Workbench/ja](wiki/Arch Workbench/ja.md) | [Base API/ja](wiki/Base API/ja.md) |
-| [BIM Workbench/ja](wiki/BIM Workbench/ja.md) | [Console API/ja](wiki/Console API/ja.md) | [Draft API/ja](wiki/Draft API/ja.md) |
-| [Draft Workbench/ja](wiki/Draft Workbench/ja.md) | [Drawing Workbench/ja](wiki/Drawing Workbench/ja.md) | [Feature list/ja](wiki/Feature list/ja.md) |
-| [FEM Workbench/ja](wiki/FEM Workbench/ja.md) | [FreeCAD API/ja](wiki/FreeCAD API/ja.md) | [Getting started/ja](wiki/Getting started/ja.md) |
-| [Template:GuiCommand/ja](wiki/Template_GuiCommand/ja.md) | [Help FreeCAD/ja](wiki/Help FreeCAD/ja.md) | [Image Workbench/ja](wiki/Image Workbench/ja.md) |
-| [Installing on Linux/ja](wiki/Installing on Linux/ja.md) | [Installing on Mac/ja](wiki/Installing on Mac/ja.md) | [Installing on Windows/ja](wiki/Installing on Windows/ja.md) |
-| [Interface Customization/ja](wiki/Interface Customization/ja.md) | [Main Page/ja](wiki/Main Page/ja.md) | [Mesh API/ja](wiki/Mesh API/ja.md) |
-| [Mesh Workbench/ja](wiki/Mesh Workbench/ja.md) | [Navigation Cube/ja](wiki/Navigation Cube/ja.md) | [Online Help Startpage/ja](wiki/Online Help Startpage/ja.md) |
-| [Online Help Toc/ja](wiki/Online Help Toc/ja.md) | [OpenSCAD AddOpenSCADElement/ja](wiki/OpenSCAD AddOpenSCADElement/ja.md) | [Part Boolean/ja](wiki/Part Boolean/ja.md) |
-| [Part Module/ja](wiki/Part Module/ja.md) | [PartDesign WizardShaft/ja](wiki/PartDesign WizardShaft/ja.md) | [PartDesign Workbench/ja](wiki/PartDesign Workbench/ja.md) |
-| [Plot Save/ja](wiki/Plot Save/ja.md) | [Preferences Editor/ja](wiki/Preferences Editor/ja.md) | [Raytracing Workbench/ja](wiki/Raytracing Workbench/ja.md) |
-| [Robot Workbench/ja](wiki/Robot Workbench/ja.md) | [Ship Workbench/ja](wiki/Ship Workbench/ja.md) | [Sketcher ConstrainEqual/ja](wiki/Sketcher ConstrainEqual/ja.md) |
-| [Sketcher ConstrainHorizontal/ja](wiki/Sketcher ConstrainHorizontal/ja.md) | [Sketcher CreateArc/ja](wiki/Sketcher CreateArc/ja.md) | [Sketcher CreateCircle/ja](wiki/Sketcher CreateCircle/ja.md) |
-| [Sketcher CreateFillet/ja](wiki/Sketcher CreateFillet/ja.md) | [Sketcher CreateLine/ja](wiki/Sketcher CreateLine/ja.md) | [Sketcher ToggleConstruction/ja](wiki/Sketcher ToggleConstruction/ja.md) |
-| [Sketcher Workbench/ja](wiki/Sketcher Workbench/ja.md) | [Source documentation/ja](wiki/Source documentation/ja.md) | [Std About/ja](wiki/Std About/ja.md) |
-| [Std New/ja](wiki/Std New/ja.md) | [Std Open/ja](wiki/Std Open/ja.md) | [Std ViewScreenShot/ja](wiki/Std ViewScreenShot/ja.md) |
-| [Surface Workbench/ja](wiki/Surface Workbench/ja.md) | [TechDraw Workbench/ja](wiki/TechDraw Workbench/ja.md) | [Third Party Libraries/ja](wiki/Third Party Libraries/ja.md) |
-| [Third Party Tools/ja](wiki/Third Party Tools/ja.md) | [Tracker/ja](wiki/Tracker/ja.md) | [User hub/ja](wiki/User hub/ja.md) |
-| [Workbenches/ja](wiki/Workbenches/ja.md) | [Category:Arch/ja](wiki/Category_Arch/ja.md) | [Category:BIM/ja](wiki/Category_BIM/ja.md) |
-| [Category:Draft/ja](wiki/Category_Draft/ja.md) | [Category:Macros/ja](wiki/Category_Macros/ja.md) | [Category:Mesh/ja](wiki/Category_Mesh/ja.md) |
-| [Category:Points/ja](wiki/Category_Points/ja.md) | [Category:Tutorials/ja](wiki/Category_Tutorials/ja.md) | [Category:Workbenches/ja](wiki/Category_Workbenches/ja.md) |
+| [About FreeCAD/ja](About_FreeCAD/ja.md) | [Arch Add/ja](Arch_Add/ja.md) | [Arch Building/ja](Arch_Building/ja.md) |
+| [Arch Floor/ja](Arch_Floor/ja.md) | [Arch Pipe/ja](Arch_Pipe/ja.md) | [Arch PipeConnector/ja](Arch_PipeConnector/ja.md) |
+| [Arch Rebar/ja](Arch_Rebar/ja.md) | [Arch Remove/ja](Arch_Remove/ja.md) | [Arch SectionPlane/ja](Arch_SectionPlane/ja.md) |
+| [Arch Structure/ja](Arch_Structure/ja.md) | [Arch Workbench/ja](Arch_Workbench/ja.md) | [Base API/ja](Base_API/ja.md) |
+| [BIM Workbench/ja](BIM_Workbench/ja.md) | [Console API/ja](Console_API/ja.md) | [Draft API/ja](Draft_API/ja.md) |
+| [Draft Workbench/ja](Draft_Workbench/ja.md) | [Drawing Workbench/ja](Drawing_Workbench/ja.md) | [Feature list/ja](Feature_list/ja.md) |
+| [FEM Workbench/ja](FEM_Workbench/ja.md) | [FreeCAD API/ja](FreeCAD_API/ja.md) | [Getting started/ja](Getting_started/ja.md) |
+| [Template:GuiCommand/ja](Template_GuiCommand/ja.md) | [Help FreeCAD/ja](Help_FreeCAD/ja.md) | [Image Workbench/ja](Image_Workbench/ja.md) |
+| [Installing on Linux/ja](Installing_on_Linux/ja.md) | [Installing on Mac/ja](Installing_on_Mac/ja.md) | [Installing on Windows/ja](Installing_on_Windows/ja.md) |
+| [Interface Customization/ja](Interface_Customization/ja.md) | [Main Page/ja](Main_Page/ja.md) | [Mesh API/ja](Mesh_API/ja.md) |
+| [Mesh Workbench/ja](Mesh_Workbench/ja.md) | [Navigation Cube/ja](Navigation_Cube/ja.md) | [Online Help Startpage/ja](Online_Help_Startpage/ja.md) |
+| [Online Help Toc/ja](Online_Help_Toc/ja.md) | [OpenSCAD AddOpenSCADElement/ja](OpenSCAD_AddOpenSCADElement/ja.md) | [Part Boolean/ja](Part_Boolean/ja.md) |
+| [Part Module/ja](Part_Module/ja.md) | [PartDesign WizardShaft/ja](PartDesign_WizardShaft/ja.md) | [PartDesign Workbench/ja](PartDesign_Workbench/ja.md) |
+| [Plot Save/ja](Plot_Save/ja.md) | [Preferences Editor/ja](Preferences_Editor/ja.md) | [Raytracing Workbench/ja](Raytracing_Workbench/ja.md) |
+| [Robot Workbench/ja](Robot_Workbench/ja.md) | [Ship Workbench/ja](Ship_Workbench/ja.md) | [Sketcher ConstrainEqual/ja](Sketcher_ConstrainEqual/ja.md) |
+| [Sketcher ConstrainHorizontal/ja](Sketcher_ConstrainHorizontal/ja.md) | [Sketcher CreateArc/ja](Sketcher_CreateArc/ja.md) | [Sketcher CreateCircle/ja](Sketcher_CreateCircle/ja.md) |
+| [Sketcher CreateFillet/ja](Sketcher_CreateFillet/ja.md) | [Sketcher CreateLine/ja](Sketcher_CreateLine/ja.md) | [Sketcher ToggleConstruction/ja](Sketcher_ToggleConstruction/ja.md) |
+| [Sketcher Workbench/ja](Sketcher_Workbench/ja.md) | [Source documentation/ja](Source_documentation/ja.md) | [Std About/ja](Std_About/ja.md) |
+| [Std New/ja](Std_New/ja.md) | [Std Open/ja](Std_Open/ja.md) | [Std ViewScreenShot/ja](Std_ViewScreenShot/ja.md) |
+| [Surface Workbench/ja](Surface_Workbench/ja.md) | [TechDraw Workbench/ja](TechDraw_Workbench/ja.md) | [Third Party Libraries/ja](Third_Party_Libraries/ja.md) |
+| [Third Party Tools/ja](Third_Party_Tools/ja.md) | [Tracker/ja](Tracker/ja.md) | [User hub/ja](User_hub/ja.md) |
+| [Workbenches/ja](Workbenches/ja.md) | [Category:Arch/ja](Category_Arch/ja.md) | [Category:BIM/ja](Category_BIM/ja.md) |
+| [Category:Draft/ja](Category_Draft/ja.md) | [Category:Macros/ja](Category_Macros/ja.md) | [Category:Mesh/ja](Category_Mesh/ja.md) |
+| [Category:Points/ja](Category_Points/ja.md) | [Category:Tutorials/ja](Category_Tutorials/ja.md) | [Category:Workbenches/ja](Category_Workbenches/ja.md) |
 |
 
 

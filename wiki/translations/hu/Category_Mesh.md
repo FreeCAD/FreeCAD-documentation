@@ -5,8 +5,8 @@ This category lists pages related to the [Mesh_Workbench/hu](Mesh_Workbench/hu.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Mesh BuildRegularSolid/hu](wiki/Mesh BuildRegularSolid/hu.md) | [Mesh Export/hu](wiki/Mesh Export/hu.md) | [Mesh HarmonizeNormals/hu](wiki/Mesh HarmonizeNormals/hu.md) |
-| [Mesh Import/hu](wiki/Mesh Import/hu.md) | [Mesh Workbench/hu](wiki/Mesh Workbench/hu.md) |
+| [Mesh BuildRegularSolid/hu](Mesh_BuildRegularSolid/hu.md) | [Mesh Export/hu](Mesh_Export/hu.md) | [Mesh HarmonizeNormals/hu](Mesh_HarmonizeNormals/hu.md) |
+| [Mesh Import/hu](Mesh_Import/hu.md) | [Mesh Workbench/hu](Mesh_Workbench/hu.md) |
 
 
 

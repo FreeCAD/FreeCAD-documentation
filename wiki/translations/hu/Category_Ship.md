@@ -5,7 +5,7 @@ This category lists pages related to the [Ship Workbench/hu](Ship_Workbench/hu.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Ship Workbench/hu](wiki/Ship Workbench/hu.md) |
+| [Ship Workbench/hu](Ship_Workbench/hu.md) |
 
 
 

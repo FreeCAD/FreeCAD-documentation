@@ -5,7 +5,7 @@ This category tracks pages that explain definitions of words related to FreeCAD
 
 |     |     |     |
 | --- | --- | --- |
-| [Command/ro](wiki/Command/ro.md) | [Glossary/ro](wiki/Glossary/ro.md) | [Python/ro](wiki/Python/ro.md) |
+| [Command/ro](Command/ro.md) | [Glossary/ro](Glossary/ro.md) | [Python/ro](Python/ro.md) |
 |
 
 

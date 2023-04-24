@@ -5,8 +5,8 @@ This category contains articles and categories about wiki administrative subject
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:PropertyData/sv](wiki/Template_PropertyData/sv.md) | [Template:PropertyView/sv](wiki/Template_PropertyView/sv.md) | [Tracker/sv](wiki/Tracker/sv.md) |
-| [Category:UnfinishedDocu/sv](wiki/Category_UnfinishedDocu/sv.md) |
+| [Template:PropertyData/sv](Template_PropertyData/sv.md) | [Template:PropertyView/sv](Template_PropertyView/sv.md) | [Tracker/sv](Tracker/sv.md) |
+| [Category:UnfinishedDocu/sv](Category_UnfinishedDocu/sv.md) |
 
 
 

@@ -7,7 +7,7 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [Tutorials/id](wiki/Tutorials/id.md) | [Video tutorials/id](wiki/Video tutorials/id.md) |
+| [Tutorials/id](Tutorials/id.md) |
 
 
 

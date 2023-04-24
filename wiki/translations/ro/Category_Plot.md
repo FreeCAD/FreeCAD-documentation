@@ -5,9 +5,9 @@ This category lists pages related to the [Plot Workbench/ro](Plot_Workbench/ro.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Plot Axes/ro](wiki/Plot Axes/ro.md) | [Plot Grid/ro](wiki/Plot Grid/ro.md) | [Plot Labels/ro](wiki/Plot Labels/ro.md) |
-| [Plot Legend/ro](wiki/Plot Legend/ro.md) | [Plot Positions/ro](wiki/Plot Positions/ro.md) | [Plot Save/ro](wiki/Plot Save/ro.md) |
-| [Plot Series/ro](wiki/Plot Series/ro.md) | [Plot Workbench/ro](wiki/Plot Workbench/ro.md) |
+| [Plot Axes/ro](Plot_Axes/ro.md) | [Plot Grid/ro](Plot_Grid/ro.md) | [Plot Labels/ro](Plot_Labels/ro.md) |
+| [Plot Legend/ro](Plot_Legend/ro.md) | [Plot Positions/ro](Plot_Positions/ro.md) | [Plot Save/ro](Plot_Save/ro.md) |
+| [Plot Series/ro](Plot_Series/ro.md) | [Plot Workbench/ro](Plot_Workbench/ro.md) |
 
 
 

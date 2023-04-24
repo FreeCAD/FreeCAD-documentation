@@ -5,7 +5,7 @@ This category lists pages related to the [Sketcher Workbench/zh-hant](Sketcher_W
 
 |     |     |     |
 | --- | --- | --- |
-| [Sketcher Workbench/zh-hant](wiki/Sketcher Workbench/zh-hant.md) |
+| [Sketcher Workbench/zh-hant](Sketcher_Workbench/zh-hant.md) |
 
 
 

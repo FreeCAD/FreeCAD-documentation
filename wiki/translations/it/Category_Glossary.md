@@ -5,11 +5,11 @@ This category tracks pages that explain definitions of words related to FreeCAD
 
 |     |     |     |
 | --- | --- | --- |
-| [Assembly/it](wiki/Assembly/it.md) | [Body/it](wiki/Body/it.md) | [Command/it](wiki/Command/it.md) |
-| [Constraint/it](wiki/Constraint/it.md) | [Datum/it](wiki/Datum/it.md) | [Drawing/it](wiki/Drawing/it.md) |
-| [Feature/it](wiki/Feature/it.md) | [Glossary/it](wiki/Glossary/it.md) | [Mesh Feature/it](wiki/Mesh Feature/it.md) |
-| [Mesh/it](wiki/Mesh/it.md) | [Model/it](wiki/Model/it.md) | [Part/it](wiki/Part/it.md) |
-| [Python/it](wiki/Python/it.md) | [Shape/it](wiki/Shape/it.md) | [Sketch/it](wiki/Sketch/it.md) |
+| [Assembly/it](Assembly/it.md) | [Body/it](Body/it.md) | [Command/it](Command/it.md) |
+| [Constraint/it](Constraint/it.md) | [Datum/it](Datum/it.md) | [Drawing/it](Drawing/it.md) |
+| [Feature/it](Feature/it.md) | [Glossary/it](Glossary/it.md) | [Mesh Feature/it](Mesh_Feature/it.md) |
+| [Mesh/it](Mesh/it.md) | [Model/it](Model/it.md) | [Part/it](Part/it.md) |
+| [Python/it](Python/it.md) | [Shape/it](Shape/it.md) | [Sketch/it](Sketch/it.md) |
 |
 
 

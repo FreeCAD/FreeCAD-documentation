@@ -5,7 +5,7 @@ This category contains articles and categories about wiki administrative subject
 
 |     |     |     |
 | --- | --- | --- |
-| [Organization chart/hr](wiki/Organization chart/hr.md) | [Category:UnfinishedDocu/hr](wiki/Category_UnfinishedDocu/hr.md) | [Category:Wiki/hr](wiki/Category_Wiki/hr.md) |
+| [Organization chart/hr](Organization_chart/hr.md) | [Category:UnfinishedDocu/hr](Category_UnfinishedDocu/hr.md) | [Category:Wiki/hr](Category_Wiki/hr.md) |
 |
 
 

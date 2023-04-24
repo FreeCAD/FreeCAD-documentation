@@ -5,10 +5,10 @@ Ta kategoria zawiera strony, które nawiązują do środowiska pracy [Web](Web_W
 
 |     |     |     |
 | --- | --- | --- |
-| [Artwork Web/pl](wiki/Artwork Web/pl.md) | [Web BrowserBack/pl](wiki/Web BrowserBack/pl.md) | [Web BrowserNext/pl](wiki/Web BrowserNext/pl.md) |
-| [Web BrowserRefresh/pl](wiki/Web BrowserRefresh/pl.md) | [Web BrowserSetURL/pl](wiki/Web BrowserSetURL/pl.md) | [Web BrowserStop/pl](wiki/Web BrowserStop/pl.md) |
-| [Web BrowserZoomIn/pl](wiki/Web BrowserZoomIn/pl.md) | [Web BrowserZoomOut/pl](wiki/Web BrowserZoomOut/pl.md) | [Web OpenWebsite/pl](wiki/Web OpenWebsite/pl.md) |
-| [Web Workbench/pl](wiki/Web Workbench/pl.md) |
+| [Artwork Web/pl](Artwork_Web/pl.md) | [Web BrowserBack/pl](Web_BrowserBack/pl.md) | [Web BrowserNext/pl](Web_BrowserNext/pl.md) |
+| [Web BrowserRefresh/pl](Web_BrowserRefresh/pl.md) | [Web BrowserSetURL/pl](Web_BrowserSetURL/pl.md) | [Web BrowserStop/pl](Web_BrowserStop/pl.md) |
+| [Web BrowserZoomIn/pl](Web_BrowserZoomIn/pl.md) | [Web BrowserZoomOut/pl](Web_BrowserZoomOut/pl.md) | [Web OpenWebsite/pl](Web_OpenWebsite/pl.md) |
+| [Web Workbench/pl](Web_Workbench/pl.md) |
 
 
 

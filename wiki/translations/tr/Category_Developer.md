@@ -5,8 +5,8 @@ This category contains articles that are relevant for developers.
 
 |     |     |     |
 | --- | --- | --- |
-| [Compile on MacOS/tr](wiki/Compile on MacOS/tr.md) | [Compile on MinGW/tr](wiki/Compile on MinGW/tr.md) | [Compile on Windows/tr](wiki/Compile on Windows/tr.md) |
-| [Contributors/tr](wiki/Contributors/tr.md) |
+| [Compile on MacOS/tr](Compile_on_MacOS/tr.md) | [Compile on MinGW/tr](Compile_on_MinGW/tr.md) | [Compile on Windows/tr](Compile_on_Windows/tr.md) |
+| [Contributors/tr](Contributors/tr.md) |
 
 
 

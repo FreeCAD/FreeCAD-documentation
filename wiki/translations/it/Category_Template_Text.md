@@ -9,8 +9,8 @@ Longer pieces of text should be placed in the page itself so that they are trans
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:Obsolete/it](wiki/Template_Obsolete/it.md) | [Template:Version/it](wiki/Template_Version/it.md) | [Template:VersionMinus/it](wiki/Template_VersionMinus/it.md) |
-| [Template:VersionPlus/it](wiki/Template_VersionPlus/it.md) |
+| [Template:Obsolete/it](Template_Obsolete/it.md) | [Template:Version/it](Template_Version/it.md) | [Template:VersionMinus/it](Template_VersionMinus/it.md) |
+| [Template:VersionPlus/it](Template_VersionPlus/it.md) |
 
 
 

@@ -5,7 +5,7 @@ Bu kategori **Görüntülerin** üst kategorisidir. Herhangi bir dosya içermeme
 
 |     |     |     |
 | --- | --- | --- |
-| [Image Workbench/tr](wiki/Image Workbench/tr.md) |
+| [Image Workbench/tr](Image_Workbench/tr.md) |
 
 
 

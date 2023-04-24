@@ -5,7 +5,7 @@ This category lists pages related to the [Test Framework Workbench](Testing/zh-c
 
 |     |     |     |
 | --- | --- | --- |
-| [Testing/zh-cn](wiki/Testing/zh-cn.md) |
+| [Testing/zh-cn](Testing/zh-cn.md) |
 
 
 

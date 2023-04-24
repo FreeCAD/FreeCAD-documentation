@@ -5,7 +5,7 @@ This category list pages related to the \"User_Documentation/zh\" and \"Workbenc
 
 |     |     |     |
 | --- | --- | --- |
-| [Draft Workbench/zh](wiki/Draft Workbench/zh.md) |
+| [Draft Workbench/zh](Draft_Workbench/zh.md) |
 
 
 

@@ -5,7 +5,7 @@ This category lists pages related to the [TechDraw Workbench/ja](TechDraw_Workbe
 
 |     |     |     |
 | --- | --- | --- |
-| [TechDraw Workbench/ja](wiki/TechDraw Workbench/ja.md) |
+| [TechDraw Workbench/ja](TechDraw_Workbench/ja.md) |
 
 
 

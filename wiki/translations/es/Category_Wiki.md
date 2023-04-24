@@ -5,7 +5,7 @@ This category contains all documents that relate to the Wiki/es.
 
 |     |     |     |
 | --- | --- | --- |
-| [Glossary/es](wiki/Glossary/es.md) | [Localisation/es](wiki/Localisation/es.md) | [WikiPages/es](wiki/WikiPages/es.md) |
+| [Glossary/es](Glossary/es.md) | [Localisation/es](Localisation/es.md) | [WikiPages/es](WikiPages/es.md) |
 |
 
 

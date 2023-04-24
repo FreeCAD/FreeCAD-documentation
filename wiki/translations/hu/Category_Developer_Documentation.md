@@ -5,7 +5,7 @@ This category gathers documentation article mostly aimed at programmers
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Artwork/hu](wiki/Category_Artwork/hu.md) |
+| [Category:Artwork/hu](Category_Artwork/hu.md) |
 
 
 

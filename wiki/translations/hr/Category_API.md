@@ -7,7 +7,7 @@ This category gathers articles that list objects and methods available for [Pyth
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch API/hr](wiki/Arch API/hr.md) |
+| [Arch API/hr](Arch_API/hr.md) |
 
 
 

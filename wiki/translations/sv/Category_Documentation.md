@@ -5,9 +5,9 @@ This category groups all of the FreeCAD documentation
 
 |     |     |     |
 | --- | --- | --- |
-| [Drawing templates/sv](wiki/Drawing templates/sv.md) | [Help FreeCAD/sv](wiki/Help FreeCAD/sv.md) | [Main Page/sv](wiki/Main Page/sv.md) |
-| [Online Help Toc/sv](wiki/Online Help Toc/sv.md) | [Category:Developer Documentation/sv](wiki/Category_Developer Documentation/sv.md) | [Category:Poweruser Documentation/sv](wiki/Category_Poweruser Documentation/sv.md) |
-| [Category:Screenshots/sv](wiki/Category_Screenshots/sv.md) | [Category:User Documentation/sv](wiki/Category_User Documentation/sv.md) |
+| [Drawing templates/sv](Drawing_templates/sv.md) | [Help FreeCAD/sv](Help_FreeCAD/sv.md) | [Main Page/sv](Main_Page/sv.md) |
+| [Online Help Toc/sv](Online_Help_Toc/sv.md) | [Category:Developer Documentation/sv](Category_Developer_Documentation/sv.md) | [Category:Poweruser Documentation/sv](Category_Poweruser_Documentation/sv.md) |
+| [Category:Screenshots/sv](Category_Screenshots/sv.md) | [Category:User Documentation/sv](Category_User_Documentation/sv.md) |
 
 
 

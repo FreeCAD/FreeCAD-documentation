@@ -5,13 +5,13 @@ This category lists pages related to the [Part Workbench/sv](Part_Workbench/sv.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Part Boolean/sv](wiki/Part Boolean/sv.md) | [Part Box/sv](wiki/Part Box/sv.md) | [Part Builder/sv](wiki/Part Builder/sv.md) |
-| [Part Chamfer/sv](wiki/Part Chamfer/sv.md) | [Part Common/sv](wiki/Part Common/sv.md) | [Part Cone/sv](wiki/Part Cone/sv.md) |
-| [Part Cut/sv](wiki/Part Cut/sv.md) | [Part Cylinder/sv](wiki/Part Cylinder/sv.md) | [Part Extrude/sv](wiki/Part Extrude/sv.md) |
-| [Part Fillet/sv](wiki/Part Fillet/sv.md) | [Part Fuse/sv](wiki/Part Fuse/sv.md) | [Part Mirror/sv](wiki/Part Mirror/sv.md) |
-| [Part Module/sv](wiki/Part Module/sv.md) | [Part Primitives/sv](wiki/Part Primitives/sv.md) | [Part RefineShape/sv](wiki/Part RefineShape/sv.md) |
-| [Part Revolve/sv](wiki/Part Revolve/sv.md) | [Part Section/sv](wiki/Part Section/sv.md) | [Part Sphere/sv](wiki/Part Sphere/sv.md) |
-| [Part Torus/sv](wiki/Part Torus/sv.md) |
+| [Part Boolean/sv](Part_Boolean/sv.md) | [Part Box/sv](Part_Box/sv.md) | [Part Builder/sv](Part_Builder/sv.md) |
+| [Part Chamfer/sv](Part_Chamfer/sv.md) | [Part Common/sv](Part_Common/sv.md) | [Part Cone/sv](Part_Cone/sv.md) |
+| [Part Cut/sv](Part_Cut/sv.md) | [Part Cylinder/sv](Part_Cylinder/sv.md) | [Part Extrude/sv](Part_Extrude/sv.md) |
+| [Part Fillet/sv](Part_Fillet/sv.md) | [Part Fuse/sv](Part_Fuse/sv.md) | [Part Mirror/sv](Part_Mirror/sv.md) |
+| [Part Module/sv](Part_Module/sv.md) | [Part Primitives/sv](Part_Primitives/sv.md) | [Part RefineShape/sv](Part_RefineShape/sv.md) |
+| [Part Revolve/sv](Part_Revolve/sv.md) | [Part Section/sv](Part_Section/sv.md) | [Part Sphere/sv](Part_Sphere/sv.md) |
+| [Part Torus/sv](Part_Torus/sv.md) |
 
 
 

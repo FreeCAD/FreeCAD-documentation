@@ -5,7 +5,7 @@ This category gathers the meeting points of the 3 broad categories of users of F
 
 |     |     |     |
 | --- | --- | --- |
-| [User hub/zh-hant](wiki/User hub/zh-hant.md) |
+| [User hub/zh-hant](User_hub/zh-hant.md) |
 
 
 

@@ -5,7 +5,7 @@ This category lists pages related to the [Surface Workbench/zh-hant](Surface_Wor
 
 |     |     |     |
 | --- | --- | --- |
-| [Surface Workbench/zh-hant](wiki/Surface Workbench/zh-hant.md) |
+| [Surface Workbench/zh-hant](Surface_Workbench/zh-hant.md) |
 
 
 

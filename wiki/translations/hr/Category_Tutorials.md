@@ -7,10 +7,10 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [Basic Part Design Tutorial/hr](wiki/Basic Part Design Tutorial/hr.md) | [Customize Toolbars/hr](wiki/Customize Toolbars/hr.md) | [Dxf Importer Install/hr](wiki/Dxf Importer Install/hr.md) |
-| [How to install macros/hr](wiki/How to install macros/hr.md) | [Manual:BIM modeling/hr](wiki/Manual_BIM modeling/hr.md) | [Sketcher Micro Tutorial - Constraint Practices/hr](wiki/Sketcher Micro Tutorial - Constraint Practices/hr.md) |
-| [Sketcher requirement for a sketch/hr](wiki/Sketcher requirement for a sketch/hr.md) | [Sketcher Tutorial/hr](wiki/Sketcher Tutorial/hr.md) | [Tutorial for open windows/hr](wiki/Tutorial for open windows/hr.md) |
-| [Tutorials/hr](wiki/Tutorials/hr.md) | [Video tutorials/hr](wiki/Video tutorials/hr.md) |
+| [Basic Part Design Tutorial/hr](Basic_Part_Design_Tutorial/hr.md) | [Customize Toolbars/hr](Customize_Toolbars/hr.md) | [Dxf Importer Install/hr](Dxf_Importer_Install/hr.md) |
+| [How to install macros/hr](How_to_install_macros/hr.md) | [Sketcher Micro Tutorial - Constraint Practices/hr](Sketcher_Micro_Tutorial_-_Constraint_Practices/hr.md) | [Sketcher requirement for a sketch/hr](Sketcher_requirement_for_a_sketch/hr.md) |
+| [Sketcher Tutorial/hr](Sketcher_Tutorial/hr.md) | [Tutorial for open windows/hr](Tutorial_for_open_windows/hr.md) | [Tutorials/hr](Tutorials/hr.md) |
+|
 
 
 

@@ -5,7 +5,7 @@ This category lists pages related to the [FEM Workbench/tr](FEM_Workbench/tr.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [FEM Concrete/tr](wiki/FEM Concrete/tr.md) | [FEM Workbench/tr](wiki/FEM Workbench/tr.md) |
+| [FEM Concrete/tr](FEM_Concrete/tr.md) | [FEM Workbench/tr](FEM_Workbench/tr.md) |
 
 
 

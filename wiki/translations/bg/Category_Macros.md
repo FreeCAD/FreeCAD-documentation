@@ -5,7 +5,7 @@ This category contains macros to extend your FreeCAD installation with new funct
 
 |     |     |     |
 | --- | --- | --- |
-| [Macros/bg](wiki/Macros/bg.md) |
+| [Macros/bg](Macros/bg.md) |
 
 
 

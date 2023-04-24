@@ -5,7 +5,7 @@ This category lists pages related to the [OpenSCAD_Workbench/sv](OpenSCAD_Workbe
 
 |     |     |     |
 | --- | --- | --- |
-| [OpenSCAD Workbench/sv](wiki/OpenSCAD Workbench/sv.md) |
+| [OpenSCAD Workbench/sv](OpenSCAD_Workbench/sv.md) |
 
 
 

@@ -5,7 +5,7 @@ This category lists pages related to the [Drawing Workbench/zh-cn](Drawing_Workb
 
 |     |     |     |
 | --- | --- | --- |
-| [Drawing Workbench/zh-cn](wiki/Drawing Workbench/zh-cn.md) | [Category:Drawing/zh-cn](wiki/Category_Drawing/zh-cn.md) | [Category:Obsolete Workbenches/zh-cn](wiki/Category_Obsolete Workbenches/zh-cn.md) |
+| [Drawing Workbench/zh-cn](Drawing_Workbench/zh-cn.md) | [Category:Drawing/zh-cn](Category_Drawing/zh-cn.md) | [Category:Obsolete Workbenches/zh-cn](Category_Obsolete_Workbenches/zh-cn.md) |
 |
 
 

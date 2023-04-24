@@ -5,9 +5,9 @@ Pages relating to Architectural and Building Information Management
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch 3Views/hr](wiki/Arch 3Views/hr.md) | [Arch API/hr](wiki/Arch API/hr.md) | [Arch Door/hr](wiki/Arch Door/hr.md) |
-| [Arch Preferences/hr](wiki/Arch Preferences/hr.md) | [Arch Reference/hr](wiki/Arch Reference/hr.md) | [Arch Structure/hr](wiki/Arch Structure/hr.md) |
-| [Arch Workbench/hr](wiki/Arch Workbench/hr.md) | [Manual:BIM modeling/hr](wiki/Manual_BIM modeling/hr.md) | [Tutorial for open windows/hr](wiki/Tutorial for open windows/hr.md) |
+| [Arch 3Views/hr](Arch_3Views/hr.md) | [Arch API/hr](Arch_API/hr.md) | [Arch Door/hr](Arch_Door/hr.md) |
+| [Arch Preferences/hr](Arch_Preferences/hr.md) | [Arch Reference/hr](Arch_Reference/hr.md) | [Arch Structure/hr](Arch_Structure/hr.md) |
+| [Arch Workbench/hr](Arch_Workbench/hr.md) | [Manual:BIM modeling/hr](Manual_BIM_modeling/hr.md) | [Tutorial for open windows/hr](Tutorial_for_open_windows/hr.md) |
 |
 
 

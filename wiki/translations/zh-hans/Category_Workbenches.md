@@ -5,7 +5,7 @@ This category lists workbenches included in FreeCAD.
 
 |     |     |     |
 | --- | --- | --- |
-| [Std Base/zh-hans](wiki/Std Base/zh-hans.md) | [Category:External Workbenches/zh-hans](wiki/Category_External Workbenches/zh-hans.md) |
+| [Std Base/zh-hans](Std_Base/zh-hans.md) | [Category:External Workbenches/zh-hans](Category_External_Workbenches/zh-hans.md) |
 
 
 

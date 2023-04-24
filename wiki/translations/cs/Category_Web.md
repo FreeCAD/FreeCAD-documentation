@@ -5,7 +5,7 @@ This category lists pages that relate to the [Web Workbench/cs](Web_Workbench/cs
 
 |     |     |     |
 | --- | --- | --- |
-| [Web Workbench/cs](wiki/Web Workbench/cs.md) |
+| [Web Workbench/cs](Web_Workbench/cs.md) |
 
 
 

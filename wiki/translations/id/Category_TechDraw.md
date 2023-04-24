@@ -5,7 +5,7 @@ This category lists pages related to the [TechDraw Workbench/id](TechDraw_Workbe
 
 |     |     |     |
 | --- | --- | --- |
-| [TechDraw Workbench/id](wiki/TechDraw Workbench/id.md) |
+| [TechDraw Workbench/id](TechDraw_Workbench/id.md) |
 
 
 

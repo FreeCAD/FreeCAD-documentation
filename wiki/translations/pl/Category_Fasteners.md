@@ -5,10 +5,10 @@ Ta strona gromadzi strony dokumentacji dla środowiska pracy [Elementy złączne
 
 |     |     |     |
 | --- | --- | --- |
-| [Fasteners BOM/pl](wiki/Fasteners BOM/pl.md) | [Fasteners ChamferHole/pl](wiki/Fasteners ChamferHole/pl.md) | [Fasteners ChangeParameters/pl](wiki/Fasteners ChangeParameters/pl.md) |
-| [Fasteners Flip/pl](wiki/Fasteners Flip/pl.md) | [Fasteners MatchTypeInner/pl](wiki/Fasteners MatchTypeInner/pl.md) | [Fasteners MatchTypeOuter/pl](wiki/Fasteners MatchTypeOuter/pl.md) |
-| [Fasteners Move/pl](wiki/Fasteners Move/pl.md) | [Fasteners ScrewCalculator/pl](wiki/Fasteners ScrewCalculator/pl.md) | [Fasteners Shape/pl](wiki/Fasteners Shape/pl.md) |
-| [Fasteners Workbench/pl](wiki/Fasteners Workbench/pl.md) |
+| [Fasteners BOM/pl](Fasteners_BOM/pl.md) | [Fasteners ChamferHole/pl](Fasteners_ChamferHole/pl.md) | [Fasteners ChangeParameters/pl](Fasteners_ChangeParameters/pl.md) |
+| [Fasteners Flip/pl](Fasteners_Flip/pl.md) | [Fasteners MatchTypeInner/pl](Fasteners_MatchTypeInner/pl.md) | [Fasteners MatchTypeOuter/pl](Fasteners_MatchTypeOuter/pl.md) |
+| [Fasteners Move/pl](Fasteners_Move/pl.md) | [Fasteners ScrewCalculator/pl](Fasteners_ScrewCalculator/pl.md) | [Fasteners Shape/pl](Fasteners_Shape/pl.md) |
+| [Fasteners Workbench/pl](Fasteners_Workbench/pl.md) |
 
 
 

@@ -5,7 +5,7 @@
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:PropertyData/zh-cn](wiki/Template_PropertyData/zh-cn.md) | [Template:PropertyView/zh-cn](wiki/Template_PropertyView/zh-cn.md) |
+| [Template:PropertyData/zh-cn](Template_PropertyData/zh-cn.md) | [Template:PropertyView/zh-cn](Template_PropertyView/zh-cn.md) |
 
 
 

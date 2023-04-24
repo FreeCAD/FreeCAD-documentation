@@ -5,7 +5,7 @@ This category lists pages related to the [Plot Workbench/ja](Plot_Workbench/ja.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Plot Save/ja](wiki/Plot Save/ja.md) |
+| [Plot Save/ja](Plot_Save/ja.md) |
 
 
 

@@ -5,8 +5,8 @@ This category groups all of the FreeCAD documentation
 
 |     |     |     |
 | --- | --- | --- |
-| [Main Page/zh](wiki/Main Page/zh.md) | [Online Help Toc/zh](wiki/Online Help Toc/zh.md) | [Category:Developer Documentation/zh](wiki/Category_Developer Documentation/zh.md) |
-| [Category:Poweruser Documentation/zh](wiki/Category_Poweruser Documentation/zh.md) | [Category:User Documentation/zh](wiki/Category_User Documentation/zh.md) |
+| [Main Page/zh](Main_Page/zh.md) | [Online Help Toc/zh](Online_Help_Toc/zh.md) | [Category:Developer Documentation/zh](Category_Developer_Documentation/zh.md) |
+| [Category:Poweruser Documentation/zh](Category_Poweruser_Documentation/zh.md) | [Category:User Documentation/zh](Category_User_Documentation/zh.md) |
 
 
 

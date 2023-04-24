@@ -5,8 +5,8 @@ This category collects pages from the [external workbenches](external_workbenche
 
 |     |     |     |
 | --- | --- | --- |
-| [Assembly3 Workbench/uk](wiki/Assembly3 Workbench/uk.md) | [Defeaturing Workbench/uk](wiki/Defeaturing Workbench/uk.md) | [Fasteners Workbench/uk](wiki/Fasteners Workbench/uk.md) |
-| [Ship Workbench/uk](wiki/Ship Workbench/uk.md) |
+| [Assembly3 Workbench/uk](Assembly3_Workbench/uk.md) | [Defeaturing Workbench/uk](Defeaturing_Workbench/uk.md) | [Fasteners Workbench/uk](Fasteners_Workbench/uk.md) |
+| [Ship Workbench/uk](Ship_Workbench/uk.md) |
 
 
 

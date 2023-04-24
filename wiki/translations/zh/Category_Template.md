@@ -7,7 +7,7 @@ See also [UncategorizedTemplates](Special_UncategorizedTemplates.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Template:Navigation/zh](wiki/Category_Template_Navigation/zh.md) |
+| [Category:Template:Navigation/zh](Category_Template_Navigation/zh.md) |
 
 
 

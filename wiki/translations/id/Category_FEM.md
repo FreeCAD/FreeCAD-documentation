@@ -5,7 +5,7 @@ This category lists pages related to the [FEM Workbench/id](FEM_Workbench/id.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [FEM Workbench/id](wiki/FEM Workbench/id.md) |
+| [FEM Workbench/id](FEM_Workbench/id.md) |
 
 
 

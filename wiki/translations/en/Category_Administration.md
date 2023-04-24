@@ -5,10 +5,10 @@ This category contains articles and categories about wiki administrative subject
 
 |     |     |     |
 | --- | --- | --- |
-| [Bug Triage/en](wiki/Bug Triage/en.md) | [Changelog/en](wiki/Changelog/en.md) | [Crowdin Administration/en](wiki/Crowdin Administration/en.md) |
-| [Crowdin Scripts/en](wiki/Crowdin Scripts/en.md) | [Organization chart/en](wiki/Organization chart/en.md) | [Tracker/en](wiki/Tracker/en.md) |
-| [WikiPages/en](wiki/WikiPages/en.md) | [WikiRobots/en](wiki/WikiRobots/en.md) | [Category:UnfinishedDocu/en](wiki/Category_UnfinishedDocu/en.md) |
-| [Category:Wiki/en](wiki/Category_Wiki/en.md) |
+| [Bug Triage/en](Bug_Triage/en.md) | [Changelog/en](Changelog/en.md) | [Crowdin Administration/en](Crowdin_Administration/en.md) |
+| [Crowdin Scripts/en](Crowdin_Scripts/en.md) | [Organization chart/en](Organization_chart/en.md) | [Tracker/en](Tracker/en.md) |
+| [WikiPages/en](WikiPages/en.md) | [WikiRobots/en](WikiRobots/en.md) | [Category:UnfinishedDocu/en](Category_UnfinishedDocu/en.md) |
+| [Category:Wiki/en](Category_Wiki/en.md) |
 
 
 

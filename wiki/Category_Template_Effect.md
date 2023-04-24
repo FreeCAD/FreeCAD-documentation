@@ -5,9 +5,9 @@ This category lists templates that produce an effect in the page without necessa
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:Anchor](wiki/Template_Anchor.md) | [Template:Clear](wiki/Template_Clear.md) | [Template:Gloss](wiki/Template_Gloss.md) |
-| [Template:Glossend](wiki/Template_Glossend.md) | [Template:Prettytable](wiki/Template_Prettytable.md) | [Template:Softredirect](wiki/Template_Softredirect.md) |
-| [Template:TOCleft](wiki/Template_TOCleft.md) | [Template:TOCright](wiki/Template_TOCright.md) |
+| [Template:Anchor](Template_Anchor.md) | [Template:Clear](Template_Clear.md) | [Template:Gloss](Template_Gloss.md) |
+| [Template:Glossend](Template_Glossend.md) | [Template:Prettytable](Template_Prettytable.md) | [Template:Softredirect](Template_Softredirect.md) |
+| [Template:TOCleft](Template_TOCleft.md) | [Template:TOCright](Template_TOCright.md) |
 
 
 

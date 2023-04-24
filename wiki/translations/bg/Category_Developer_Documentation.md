@@ -5,9 +5,9 @@ This category gathers documentation article mostly aimed at programmers
 
 |     |     |     |
 | --- | --- | --- |
-| [Compile on Linux/bg](wiki/Compile on Linux/bg.md) | [Debugging/bg](wiki/Debugging/bg.md) | [Help FreeCAD/bg](wiki/Help FreeCAD/bg.md) |
-| [Installing on Linux/bg](wiki/Installing on Linux/bg.md) | [Localisation/bg](wiki/Localisation/bg.md) | [Macros/bg](wiki/Macros/bg.md) |
-| [Category:Developer/bg](wiki/Category_Developer/bg.md) |
+| [Compile on Linux/bg](Compile_on_Linux/bg.md) | [Debugging/bg](Debugging/bg.md) | [Help FreeCAD/bg](Help_FreeCAD/bg.md) |
+| [Installing on Linux/bg](Installing_on_Linux/bg.md) | [Localisation/bg](Localisation/bg.md) | [Macros/bg](Macros/bg.md) |
+| [Category:Developer/bg](Category_Developer/bg.md) |
 
 
 

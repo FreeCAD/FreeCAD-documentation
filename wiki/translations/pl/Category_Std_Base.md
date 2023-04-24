@@ -5,7 +5,7 @@ Ta kategoria zawiera listę stron związanych z [Std Base](Std_Base/pl.md), któ
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:Std Base navi/pl](wiki/Template_Std Base navi/pl.md) |
+| [Template:Std Base navi/pl](Template_Std_Base_navi/pl.md) |
 
 
 

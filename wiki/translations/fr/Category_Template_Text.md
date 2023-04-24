@@ -9,8 +9,8 @@ Les longs textes doivent être placés dans la page elle-même, de manière à p
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:Obsolete/fr](wiki/Template_Obsolete/fr.md) | [Template:Version/fr](wiki/Template_Version/fr.md) | [Template:VersionMinus/fr](wiki/Template_VersionMinus/fr.md) |
-| [Template:VersionPlus/fr](wiki/Template_VersionPlus/fr.md) |
+| [Template:Obsolete/fr](Template_Obsolete/fr.md) | [Template:Version/fr](Template_Version/fr.md) | [Template:VersionMinus/fr](Template_VersionMinus/fr.md) |
+| [Template:VersionPlus/fr](Template_VersionPlus/fr.md) |
 
 
 

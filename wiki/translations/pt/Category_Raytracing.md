@@ -5,7 +5,7 @@ This category lists pages related to the [Raytracing Workbench/pt](Raytracing_Wo
 
 |     |     |     |
 | --- | --- | --- |
-| [Raytracing Workbench/pt](wiki/Raytracing Workbench/pt.md) |
+| [Raytracing Workbench/pt](Raytracing_Workbench/pt.md) |
 
 
 

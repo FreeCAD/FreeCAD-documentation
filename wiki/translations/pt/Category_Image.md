@@ -5,7 +5,7 @@ This category lists pages related to the [Image Workbench/pt](Image_Workbench/pt
 
 |     |     |     |
 | --- | --- | --- |
-| [Image Workbench/pt](wiki/Image Workbench/pt.md) |
+| [Image Workbench/pt](Image_Workbench/pt.md) |
 
 
 

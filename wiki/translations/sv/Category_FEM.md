@@ -5,7 +5,7 @@ This category lists pages related to the [FEM Workbench/sv](FEM_Workbench/sv.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [FEM Workbench/sv](wiki/FEM Workbench/sv.md) |
+| [FEM Workbench/sv](FEM_Workbench/sv.md) |
 
 
 

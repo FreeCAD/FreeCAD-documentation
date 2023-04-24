@@ -5,7 +5,7 @@ This category lists pages related to the [PartDesign Workbench/zh-tw](PartDesign
 
 |     |     |     |
 | --- | --- | --- |
-| [Path Workbench/zh-tw](wiki/Path Workbench/zh-tw.md) |
+| [Path Workbench/zh-tw](Path_Workbench/zh-tw.md) |
 
 
 

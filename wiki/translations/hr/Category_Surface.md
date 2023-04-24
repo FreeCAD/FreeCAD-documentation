@@ -5,8 +5,8 @@ This category lists pages related to the [Surface Workbench/hr](Surface_Workbenc
 
 |     |     |     |
 | --- | --- | --- |
-| [Surface CurveOnMesh/hr](wiki/Surface CurveOnMesh/hr.md) | [Surface ExtendFace/hr](wiki/Surface ExtendFace/hr.md) | [Surface Filling/hr](wiki/Surface Filling/hr.md) |
-| [Surface GeomFillSurface/hr](wiki/Surface GeomFillSurface/hr.md) | [Surface Workbench/hr](wiki/Surface Workbench/hr.md) |
+| [Surface CurveOnMesh/hr](Surface_CurveOnMesh/hr.md) | [Surface ExtendFace/hr](Surface_ExtendFace/hr.md) | [Surface Filling/hr](Surface_Filling/hr.md) |
+| [Surface GeomFillSurface/hr](Surface_GeomFillSurface/hr.md) | [Surface Workbench/hr](Surface_Workbench/hr.md) |
 
 
 

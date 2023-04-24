@@ -5,8 +5,8 @@ This category lists pages related to the [Drawing Workbench/ru](Drawing_Workbenc
 
 |     |     |     |
 | --- | --- | --- |
-| [Complete Workbench/ru](wiki/Complete Workbench/ru.md) | [Drawing Workbench/ru](wiki/Drawing Workbench/ru.md) | [Category:Drawing/ru](wiki/Category_Drawing/ru.md) |
-| [Category:Obsolete Workbenches/ru](wiki/Category_Obsolete Workbenches/ru.md) |
+| [Drawing Workbench/ru](Drawing_Workbench/ru.md) | [Category:Drawing/ru](Category_Drawing/ru.md) | [Category:Obsolete Workbenches/ru](Category_Obsolete_Workbenches/ru.md) |
+|
 
 
 

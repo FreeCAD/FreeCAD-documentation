@@ -5,7 +5,7 @@ This category lists pages that relate to the [Web Workbench/bg](Web_Workbench/bg
 
 |     |     |     |
 | --- | --- | --- |
-| [Localisation/bg](wiki/Localisation/bg.md) |
+| [Localisation/bg](Localisation/bg.md) |
 
 
 

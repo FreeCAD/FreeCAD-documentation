@@ -5,7 +5,7 @@ This category lists pages related to the [Sketcher Workbench/id](Sketcher_Workbe
 
 |     |     |     |
 | --- | --- | --- |
-| [Sketcher Workbench/id](wiki/Sketcher Workbench/id.md) |
+| [Sketcher Workbench/id](Sketcher_Workbench/id.md) |
 
 
 

@@ -5,7 +5,7 @@ This category lists pages with screenshots.
 
 |     |     |     |
 | --- | --- | --- |
-| [Screenshots/de](wiki/Screenshots/de.md) |
+| [Screenshots/de](Screenshots/de.md) |
 
 
 

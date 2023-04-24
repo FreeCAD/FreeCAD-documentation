@@ -5,7 +5,7 @@ This category lists pages related to the [Mesh_Workbench/cs](Mesh_Workbench/cs.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Mesh Scripting/cs](wiki/Mesh Scripting/cs.md) | [Mesh to Part/cs](wiki/Mesh to Part/cs.md) | [Mesh Workbench/cs](wiki/Mesh Workbench/cs.md) |
+| [Mesh Scripting/cs](Mesh_Scripting/cs.md) | [Mesh to Part/cs](Mesh_to_Part/cs.md) | [Mesh Workbench/cs](Mesh_Workbench/cs.md) |
 |
 
 

@@ -5,7 +5,7 @@ This category contains all documents that relate to the Wiki/ro.
 
 |     |     |     |
 | --- | --- | --- |
-| [Glossary/ro](wiki/Glossary/ro.md) | [Localisation/ro](wiki/Localisation/ro.md) |
+| [Glossary/ro](Glossary/ro.md) | [Localisation/ro](Localisation/ro.md) |
 
 
 

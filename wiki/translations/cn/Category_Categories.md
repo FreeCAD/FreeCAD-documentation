@@ -10,8 +10,8 @@ This is the **top category** which contains the main categories of the FreeCAD w
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Administration/cn](wiki/Category_Administration/cn.md) | [Category:Categories/cn](wiki/Category_Categories/cn.md) | [Category:Command Reference/cn](wiki/Category_Command Reference/cn.md) |
-| [Category:Documentation/cn](wiki/Category_Documentation/cn.md) | [Category:Python Code/cn](wiki/Category_Python Code/cn.md) |
+| [Category:Administration/cn](Category_Administration/cn.md) | [Category:Categories/cn](Category_Categories/cn.md) | [Category:Command Reference/cn](Category_Command_Reference/cn.md) |
+| [Category:Documentation/cn](Category_Documentation/cn.md) | [Category:Python Code/cn](Category_Python_Code/cn.md) |
 
 
 

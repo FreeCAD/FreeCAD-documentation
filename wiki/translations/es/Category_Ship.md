@@ -5,9 +5,9 @@ This category lists pages related to the [Ship Workbench/es](Ship_Workbench/es.m
 
 |     |     |     |
 | --- | --- | --- |
-| [FreeCAD-Ship s60 tutorial (II)/es](wiki/FreeCAD-Ship s60 tutorial (II)/es.md) | [FreeCAD-Ship s60 tutorial/es](wiki/FreeCAD-Ship s60 tutorial/es.md) | [Ship AreasCurve/es](wiki/Ship AreasCurve/es.md) |
-| [Ship CreateShip/es](wiki/Ship CreateShip/es.md) | [Ship Hydrostatics/es](wiki/Ship Hydrostatics/es.md) | [Ship LoadExample/es](wiki/Ship LoadExample/es.md) |
-| [Ship Workbench/es](wiki/Ship Workbench/es.md) |
+| [FreeCAD-Ship s60 tutorial (II)/es](FreeCAD-Ship_s60_tutorial_(II)/es.md) | [FreeCAD-Ship s60 tutorial/es](FreeCAD-Ship_s60_tutorial/es.md) | [Ship AreasCurve/es](Ship_AreasCurve/es.md) |
+| [Ship CreateShip/es](Ship_CreateShip/es.md) | [Ship Hydrostatics/es](Ship_Hydrostatics/es.md) | [Ship LoadExample/es](Ship_LoadExample/es.md) |
+| [Ship Workbench/es](Ship_Workbench/es.md) |
 
 
 

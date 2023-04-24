@@ -5,14 +5,14 @@ Pages that are relevant to the [Curves Workbench](Curves_Workbench.md) which is 
 
 |     |     |     |
 | --- | --- | --- |
-| [Curves CompressionSpring](wiki/Curves CompressionSpring.md) | [Curves Discretize](wiki/Curves Discretize.md) | [Curves EditableSpline](wiki/Curves EditableSpline.md) |
-| [Curves ExtendCurve](wiki/Curves ExtendCurve.md) | [Curves GordonSurface](wiki/Curves GordonSurface.md) | [Curves Interpolate](wiki/Curves Interpolate.md) |
-| [Curves IsoCurve](wiki/Curves IsoCurve.md) | [Curves JoinCurve](wiki/Curves JoinCurve.md) | [Curves Line](wiki/Curves Line.md) |
-| [Curves MultiLoft](wiki/Curves MultiLoft.md) | [Curves ParametricComb](wiki/Curves ParametricComb.md) | [Curves ParametricSolid](wiki/Curves ParametricSolid.md) |
-| [Curves PasteSVG](wiki/Curves PasteSVG.md) | [Curves Pipeshell](wiki/Curves Pipeshell.md) | [Curves PipeshellProfile](wiki/Curves PipeshellProfile.md) |
-| [Curves ProfileSupport](wiki/Curves ProfileSupport.md) | [Curves ReflectLines](wiki/Curves ReflectLines.md) | [Curves SegmentSurface](wiki/Curves SegmentSurface.md) |
-| [Curves SketchOnSurface](wiki/Curves SketchOnSurface.md) | [Curves SplitCurve](wiki/Curves SplitCurve.md) | [Curves ToConsole](wiki/Curves ToConsole.md) |
-| [Template:Curves Tools navi](wiki/Template_Curves Tools navi.md) | [Curves Workbench](wiki/Curves Workbench.md) | [Curves ZebraTool](wiki/Curves ZebraTool.md) |
+| [Curves CompressionSpring](Curves_CompressionSpring.md) | [Curves Discretize](Curves_Discretize.md) | [Curves EditableSpline](Curves_EditableSpline.md) |
+| [Curves ExtendCurve](Curves_ExtendCurve.md) | [Curves GordonSurface](Curves_GordonSurface.md) | [Curves Interpolate](Curves_Interpolate.md) |
+| [Curves IsoCurve](Curves_IsoCurve.md) | [Curves JoinCurve](Curves_JoinCurve.md) | [Curves Line](Curves_Line.md) |
+| [Curves MultiLoft](Curves_MultiLoft.md) | [Curves ParametricComb](Curves_ParametricComb.md) | [Curves ParametricSolid](Curves_ParametricSolid.md) |
+| [Curves PasteSVG](Curves_PasteSVG.md) | [Curves Pipeshell](Curves_Pipeshell.md) | [Curves PipeshellProfile](Curves_PipeshellProfile.md) |
+| [Curves ProfileSupport](Curves_ProfileSupport.md) | [Curves ReflectLines](Curves_ReflectLines.md) | [Curves SegmentSurface](Curves_SegmentSurface.md) |
+| [Curves SketchOnSurface](Curves_SketchOnSurface.md) | [Curves SplitCurve](Curves_SplitCurve.md) | [Curves ToConsole](Curves_ToConsole.md) |
+| [Template:Curves Tools navi](Template_Curves_Tools_navi.md) | [Curves Workbench](Curves_Workbench.md) | [Curves ZebraTool](Curves_ZebraTool.md) |
 |
 
 

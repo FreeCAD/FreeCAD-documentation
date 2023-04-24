@@ -7,7 +7,7 @@ Questa categoria elenca le pagine che contengono informazioni utili su MediaWiki
 
 |     |     |     |
 | --- | --- | --- |
-| [Help:Editing/it](wiki/Help_Editing/it.md) | [Help/it](wiki/Help/it.md) | [Key ASCII/it](wiki/Key ASCII/it.md) |
+| [Help:Editing/it](Help_Editing/it.md) | [Help/it](Help/it.md) | [Key ASCII/it](Key_ASCII/it.md) |
 |
 
 

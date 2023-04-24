@@ -5,20 +5,20 @@ This category lists workbenches included in FreeCAD.
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch Workbench/zh](wiki/Arch Workbench/zh.md) | [Draft Workbench/zh](wiki/Draft Workbench/zh.md) | [FEM Workbench/zh](wiki/FEM Workbench/zh.md) |
-| [Image Workbench/zh](wiki/Image Workbench/zh.md) | [Inspection Workbench/zh](wiki/Inspection Workbench/zh.md) | [Mesh Workbench/zh](wiki/Mesh Workbench/zh.md) |
-| [OpenSCAD Workbench/zh](wiki/OpenSCAD Workbench/zh.md) | [Part Module/zh](wiki/Part Module/zh.md) | [PartDesign Workbench/zh](wiki/PartDesign Workbench/zh.md) |
-| [Path Workbench/zh](wiki/Path Workbench/zh.md) | [Points Workbench/zh](wiki/Points Workbench/zh.md) | [Raytracing Workbench/zh](wiki/Raytracing Workbench/zh.md) |
-| [Reverse Engineering Workbench/zh](wiki/Reverse Engineering Workbench/zh.md) | [Robot Workbench/zh](wiki/Robot Workbench/zh.md) | [Sketcher Workbench/zh](wiki/Sketcher Workbench/zh.md) |
-| [Spreadsheet Workbench/zh](wiki/Spreadsheet Workbench/zh.md) | [Start Workbench/zh](wiki/Start Workbench/zh.md) | [Surface Workbench/zh](wiki/Surface Workbench/zh.md) |
-| [TechDraw Workbench/zh](wiki/TechDraw Workbench/zh.md) | [Web Workbench/zh](wiki/Web Workbench/zh.md) | [Workbenches/zh](wiki/Workbenches/zh.md) |
-| [Category:Arch/zh](wiki/Category_Arch/zh.md) | [Category:Draft/zh](wiki/Category_Draft/zh.md) | [Category:External Workbenches/zh](wiki/Category_External Workbenches/zh.md) |
-| [Category:FEM/zh](wiki/Category_FEM/zh.md) | [Category:Image/zh](wiki/Category_Image/zh.md) | [Category:Inspection/zh](wiki/Category_Inspection/zh.md) |
-| [Category:Mesh/zh](wiki/Category_Mesh/zh.md) | [Category:OpenSCAD/zh](wiki/Category_OpenSCAD/zh.md) | [Category:Part/zh](wiki/Category_Part/zh.md) |
-| [Category:PartDesign/zh](wiki/Category_PartDesign/zh.md) | [Category:Path/zh](wiki/Category_Path/zh.md) | [Category:Plot/zh](wiki/Category_Plot/zh.md) |
-| [Category:Points/zh](wiki/Category_Points/zh.md) | [Category:Raytracing/zh](wiki/Category_Raytracing/zh.md) | [Category:Robot/zh](wiki/Category_Robot/zh.md) |
-| [Category:Ship/zh](wiki/Category_Ship/zh.md) | [Category:Sketcher/zh](wiki/Category_Sketcher/zh.md) | [Category:Surface/zh](wiki/Category_Surface/zh.md) |
-| [Category:TechDraw/zh](wiki/Category_TechDraw/zh.md) |
+| [Arch Workbench/zh](Arch_Workbench/zh.md) | [Draft Workbench/zh](Draft_Workbench/zh.md) | [FEM Workbench/zh](FEM_Workbench/zh.md) |
+| [Image Workbench/zh](Image_Workbench/zh.md) | [Inspection Workbench/zh](Inspection_Workbench/zh.md) | [Mesh Workbench/zh](Mesh_Workbench/zh.md) |
+| [OpenSCAD Workbench/zh](OpenSCAD_Workbench/zh.md) | [Part Module/zh](Part_Module/zh.md) | [PartDesign Workbench/zh](PartDesign_Workbench/zh.md) |
+| [Path Workbench/zh](Path_Workbench/zh.md) | [Points Workbench/zh](Points_Workbench/zh.md) | [Raytracing Workbench/zh](Raytracing_Workbench/zh.md) |
+| [Reverse Engineering Workbench/zh](Reverse_Engineering_Workbench/zh.md) | [Robot Workbench/zh](Robot_Workbench/zh.md) | [Sketcher Workbench/zh](Sketcher_Workbench/zh.md) |
+| [Spreadsheet Workbench/zh](Spreadsheet_Workbench/zh.md) | [Start Workbench/zh](Start_Workbench/zh.md) | [Surface Workbench/zh](Surface_Workbench/zh.md) |
+| [TechDraw Workbench/zh](TechDraw_Workbench/zh.md) | [Web Workbench/zh](Web_Workbench/zh.md) | [Workbenches/zh](Workbenches/zh.md) |
+| [Category:Arch/zh](Category_Arch/zh.md) | [Category:Draft/zh](Category_Draft/zh.md) | [Category:External Workbenches/zh](Category_External_Workbenches/zh.md) |
+| [Category:FEM/zh](Category_FEM/zh.md) | [Category:Image/zh](Category_Image/zh.md) | [Category:Inspection/zh](Category_Inspection/zh.md) |
+| [Category:Mesh/zh](Category_Mesh/zh.md) | [Category:OpenSCAD/zh](Category_OpenSCAD/zh.md) | [Category:Part/zh](Category_Part/zh.md) |
+| [Category:PartDesign/zh](Category_PartDesign/zh.md) | [Category:Path/zh](Category_Path/zh.md) | [Category:Plot/zh](Category_Plot/zh.md) |
+| [Category:Points/zh](Category_Points/zh.md) | [Category:Raytracing/zh](Category_Raytracing/zh.md) | [Category:Robot/zh](Category_Robot/zh.md) |
+| [Category:Ship/zh](Category_Ship/zh.md) | [Category:Sketcher/zh](Category_Sketcher/zh.md) | [Category:Surface/zh](Category_Surface/zh.md) |
+| [Category:TechDraw/zh](Category_TechDraw/zh.md) |
 
 
 

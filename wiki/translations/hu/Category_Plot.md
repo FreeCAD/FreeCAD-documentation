@@ -5,7 +5,7 @@ This category lists pages related to the [Plot Workbench/hu](Plot_Workbench/hu.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Plot Workbench/hu](wiki/Plot Workbench/hu.md) |
+| [Plot Workbench/hu](Plot_Workbench/hu.md) |
 
 
 

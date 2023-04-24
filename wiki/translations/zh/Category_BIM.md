@@ -5,7 +5,7 @@ This category is for pages related to building information management (BIM).
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Arch/zh](wiki/Category_Arch/zh.md) |
+| [Category:Arch/zh](Category_Arch/zh.md) |
 
 
 

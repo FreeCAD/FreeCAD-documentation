@@ -5,21 +5,21 @@ This category lists templates that format text given as input.
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:APIClass](wiki/Template_APIClass.md) | [Template:APIClass b](wiki/Template_APIClass b.md) | [Template:APIFunction](wiki/Template_APIFunction.md) |
-| [Template:APIFunction b](wiki/Template_APIFunction b.md) | [Template:APIProperty](wiki/Template_APIProperty.md) | [Template:ASCII](wiki/Template_ASCII.md) |
-| [Template:Button](wiki/Template_Button.md) | [Template:Caption](wiki/Template_Caption.md) | [Template:CheckBox](wiki/Template_CheckBox.md) |
-| [Template:Choice](wiki/Template_Choice.md) | [Template:Code](wiki/Template_Code.md) | [Template:ColoredParagraph](wiki/Template_ColoredParagraph.md) |
-| [Template:ColoredText](wiki/Template_ColoredText.md) | [Template:ComboBox](wiki/Template_ComboBox.md) | [Template:DASH](wiki/Template_DASH.md) |
-| [Template:Defn](wiki/Template_Defn.md) | [Template:Emphasis](wiki/Template_Emphasis.md) | [Template:Fake heading](wiki/Template_Fake heading.md) |
-| [Template:FileName](wiki/Template_FileName.md) | [Template:Incode](wiki/Template_Incode.md) | [Template:KEY](wiki/Template_KEY.md) |
-| [Template:MacroCode](wiki/Template_MacroCode.md) | [Template:MacroLink](wiki/Template_MacroLink.md) | [Template:Mario52](wiki/Template_Mario52.md) |
-| [Template:MenuCommand](wiki/Template_MenuCommand.md) | [Template:Message](wiki/Template_Message.md) | [Template:Optional](wiki/Template_Optional.md) |
-| [Template:Properties Title](wiki/Template_Properties Title.md) | [Template:Properties Title/pl](wiki/Template_Properties Title/pl.md) | [Template:PropertyData](wiki/Template_PropertyData.md) |
-| [Template:PropertyTasks](wiki/Template_PropertyTasks.md) | [Template:PropertyView](wiki/Template_PropertyView.md) | [Template:Quote](wiki/Template_Quote.md) |
-| [Template:RadioButton](wiki/Template_RadioButton.md) | [Template:SpinBox](wiki/Template_SpinBox.md) | [Template:StdMenu](wiki/Template_StdMenu.md) |
-| [Template:SystemInput](wiki/Template_SystemInput.md) | [Template:SystemOutput](wiki/Template_SystemOutput.md) | [Template:Term](wiki/Template_Term.md) |
-| [Template:TitleTasks](wiki/Template_TitleTasks.md) | [Template:URL](wiki/Template_URL.md) | [Template:URLn](wiki/Template_URLn.md) |
-| [Template:Value](wiki/Template_Value.md) | [Template:Variable](wiki/Template_Variable.md) | [Template:VeryImportantMessage](wiki/Template_VeryImportantMessage.md) |
+| [Template:APIClass](Template_APIClass.md) | [Template:APIClass b](Template_APIClass_b.md) | [Template:APIFunction](Template_APIFunction.md) |
+| [Template:APIFunction b](Template_APIFunction_b.md) | [Template:APIProperty](Template_APIProperty.md) | [Template:ASCII](Template_ASCII.md) |
+| [Template:Button](Template_Button.md) | [Template:Caption](Template_Caption.md) | [Template:CheckBox](Template_CheckBox.md) |
+| [Template:Choice](Template_Choice.md) | [Template:Code](Template_Code.md) | [Template:ColoredParagraph](Template_ColoredParagraph.md) |
+| [Template:ColoredText](Template_ColoredText.md) | [Template:ComboBox](Template_ComboBox.md) | [Template:DASH](Template_DASH.md) |
+| [Template:Defn](Template_Defn.md) | [Template:Emphasis](Template_Emphasis.md) | [Template:Fake heading](Template_Fake_heading.md) |
+| [Template:FileName](Template_FileName.md) | [Template:Incode](Template_Incode.md) | [Template:KEY](Template_KEY.md) |
+| [Template:MacroCode](Template_MacroCode.md) | [Template:MacroLink](Template_MacroLink.md) | [Template:Mario52](Template_Mario52.md) |
+| [Template:MenuCommand](Template_MenuCommand.md) | [Template:Message](Template_Message.md) | [Template:Optional](Template_Optional.md) |
+| [Template:Properties Title](Template_Properties_Title.md) | [Template:Properties Title/pl](Template_Properties_Title/pl.md) | [Template:PropertyData](Template_PropertyData.md) |
+| [Template:PropertyTasks](Template_PropertyTasks.md) | [Template:PropertyView](Template_PropertyView.md) | [Template:Quote](Template_Quote.md) |
+| [Template:RadioButton](Template_RadioButton.md) | [Template:SpinBox](Template_SpinBox.md) | [Template:StdMenu](Template_StdMenu.md) |
+| [Template:SystemInput](Template_SystemInput.md) | [Template:SystemOutput](Template_SystemOutput.md) | [Template:Term](Template_Term.md) |
+| [Template:TitleTasks](Template_TitleTasks.md) | [Template:URL](Template_URL.md) | [Template:URLn](Template_URLn.md) |
+| [Template:Value](Template_Value.md) | [Template:Variable](Template_Variable.md) | [Template:VeryImportantMessage](Template_VeryImportantMessage.md) |
 |
 
 

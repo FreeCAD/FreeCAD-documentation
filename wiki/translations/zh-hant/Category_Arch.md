@@ -5,7 +5,7 @@ Pages relating to Architectural and Building Information Management
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch Workbench/zh-hant](wiki/Arch Workbench/zh-hant.md) |
+| [Arch Workbench/zh-hant](Arch_Workbench/zh-hant.md) |
 
 
 

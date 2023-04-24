@@ -5,7 +5,7 @@ This category lists pages related to the [Inspection Workbench](Inspection_Workb
 
 |     |     |     |
 | --- | --- | --- |
-| [Artwork Inspection](wiki/Artwork Inspection.md) | [Inspection Workbench](wiki/Inspection Workbench.md) |
+| [Artwork Inspection](Artwork_Inspection.md) | [Inspection Workbench](Inspection_Workbench.md) |
 
 
 

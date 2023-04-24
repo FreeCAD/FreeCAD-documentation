@@ -7,7 +7,7 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [Manual:BIM modeling/ja](wiki/Manual_BIM modeling/ja.md) |
+|
 
 
 

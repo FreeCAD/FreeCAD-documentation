@@ -7,7 +7,7 @@ See also [UncategorizedTemplates](Special_UncategorizedTemplates.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:Languages/fi](wiki/Template_Languages/fi.md) |
+| [Template:Languages/fi](Template_Languages/fi.md) |
 
 
 

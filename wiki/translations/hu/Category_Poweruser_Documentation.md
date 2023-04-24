@@ -5,7 +5,7 @@ This category shows documentation articles dealing with python scripting, which 
 
 |     |     |     |
 | --- | --- | --- |
-| [Mesh API/hu](wiki/Mesh API/hu.md) |
+| [Mesh API/hu](Mesh_API/hu.md) |
 
 
 

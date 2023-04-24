@@ -7,7 +7,7 @@ Cette catégorie répertorie les pages liées à l\'atelier [Test Framework Work
 
 |     |     |     |
 | --- | --- | --- |
-| [Testing/fr](wiki/Testing/fr.md) |
+| [Testing/fr](Testing/fr.md) |
 
 
 

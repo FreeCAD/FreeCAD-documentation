@@ -5,9 +5,9 @@ Pages related to testing in regards to unit testing, continuous integration, qua
 
 |     |     |     |
 | --- | --- | --- |
-| [AppImage/de](wiki/AppImage/de.md) | [Artwork Test/de](wiki/Artwork Test/de.md) | [Continuous Integration/de](wiki/Continuous Integration/de.md) |
-| [LGTM/de](wiki/LGTM/de.md) | [Testing/de](wiki/Testing/de.md) | [Ubuntu Snap/de](wiki/Ubuntu Snap/de.md) |
-| [Category:Test Framework/de](wiki/Category_Test Framework/de.md) |
+| [AppImage/de](AppImage/de.md) | [Artwork Test/de](Artwork_Test/de.md) | [Continuous Integration/de](Continuous_Integration/de.md) |
+| [LGTM/de](LGTM/de.md) | [Testing/de](Testing/de.md) | [Ubuntu Snap/de](Ubuntu_Snap/de.md) |
+| [Category:Test Framework/de](Category_Test_Framework/de.md) |
 
 
 

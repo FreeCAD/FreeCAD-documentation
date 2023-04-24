@@ -5,7 +5,7 @@ This category lists pages related to the [Mesh_Workbench/pt-br](Mesh_Workbench/p
 
 |     |     |     |
 | --- | --- | --- |
-| [Mesh FromPartShape/pt-br](wiki/Mesh FromPartShape/pt-br.md) | [Mesh Workbench/pt-br](wiki/Mesh Workbench/pt-br.md) |
+| [Mesh FromPartShape/pt-br](Mesh_FromPartShape/pt-br.md) | [Mesh Workbench/pt-br](Mesh_Workbench/pt-br.md) |
 
 
 

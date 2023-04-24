@@ -7,7 +7,7 @@ This category gathers article that list objects and methods available to the pyt
 
 |     |     |     |
 | --- | --- | --- |
-| [Draft API/sv](wiki/Draft API/sv.md) |
+| [Draft API/sv](Draft_API/sv.md) |
 
 
 

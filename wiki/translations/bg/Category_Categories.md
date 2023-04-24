@@ -10,9 +10,9 @@ This is the **top category** which contains the main categories of the FreeCAD w
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Addons/bg](wiki/Category_Addons/bg.md) | [Category:Administration/bg](wiki/Category_Administration/bg.md) | [Category:Categories/bg](wiki/Category_Categories/bg.md) |
-| [Category:Command Reference/bg](wiki/Category_Command Reference/bg.md) | [Category:Developer Documentation/bg](wiki/Category_Developer Documentation/bg.md) | [Category:Developer/bg](wiki/Category_Developer/bg.md) |
-| [Category:Hubs/bg](wiki/Category_Hubs/bg.md) | [Category:Macros/bg](wiki/Category_Macros/bg.md) | [Category:Template/bg](wiki/Category_Template/bg.md) |
+| [Category:Addons/bg](Category_Addons/bg.md) | [Category:Administration/bg](Category_Administration/bg.md) | [Category:Categories/bg](Category_Categories/bg.md) |
+| [Category:Command Reference/bg](Category_Command_Reference/bg.md) | [Category:Developer Documentation/bg](Category_Developer_Documentation/bg.md) | [Category:Developer/bg](Category_Developer/bg.md) |
+| [Category:Hubs/bg](Category_Hubs/bg.md) | [Category:Macros/bg](Category_Macros/bg.md) | [Category:Template/bg](Category_Template/bg.md) |
 |
 
 

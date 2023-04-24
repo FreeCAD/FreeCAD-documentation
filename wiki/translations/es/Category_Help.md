@@ -5,7 +5,7 @@ Esta categoría lista páginas que contienen información útil sobre MediaWiki 
 
 |     |     |     |
 | --- | --- | --- |
-| [Help/es](wiki/Help/es.md) |
+| [Help/es](Help/es.md) |
 
 
 

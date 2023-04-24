@@ -5,10 +5,10 @@ This category groups all of the FreeCAD documentation
 
 |     |     |     |
 | --- | --- | --- |
-| [Help FreeCAD/pt](wiki/Help FreeCAD/pt.md) | [Main Page/pt](wiki/Main Page/pt.md) | [Online Help Toc/pt](wiki/Online Help Toc/pt.md) |
-| [Release notes 0.15/pt](wiki/Release notes 0.15/pt.md) | [Release notes 0.16/pt](wiki/Release notes 0.16/pt.md) | [Release notes 0.17/pt](wiki/Release notes 0.17/pt.md) |
-| [Category:Developer Documentation/pt](wiki/Category_Developer Documentation/pt.md) | [Category:Poweruser Documentation/pt](wiki/Category_Poweruser Documentation/pt.md) | [Category:Screenshots/pt](wiki/Category_Screenshots/pt.md) |
-| [Category:User Documentation/pt](wiki/Category_User Documentation/pt.md) | [Category:Wiki/pt](wiki/Category_Wiki/pt.md) |
+| [Help FreeCAD/pt](Help_FreeCAD/pt.md) | [Main Page/pt](Main_Page/pt.md) | [Online Help Toc/pt](Online_Help_Toc/pt.md) |
+| [Release notes 0.15/pt](Release_notes_0.15/pt.md) | [Release notes 0.16/pt](Release_notes_0.16/pt.md) | [Release notes 0.17/pt](Release_notes_0.17/pt.md) |
+| [Category:Developer Documentation/pt](Category_Developer_Documentation/pt.md) | [Category:Poweruser Documentation/pt](Category_Poweruser_Documentation/pt.md) | [Category:Screenshots/pt](Category_Screenshots/pt.md) |
+| [Category:User Documentation/pt](Category_User_Documentation/pt.md) | [Category:Wiki/pt](Category_Wiki/pt.md) |
 
 
 

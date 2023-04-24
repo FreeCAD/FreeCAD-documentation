@@ -5,9 +5,8 @@ Cette catégorie est la catégorie de niveau supérieur pour **images**. Il ne d
 
 |     |     |     |
 | --- | --- | --- |
-| [Artwork Image/fr](wiki/Artwork Image/fr.md) | [Bitmap/fr](wiki/Bitmap/fr.md) | [Image CreateImagePlane/fr](wiki/Image CreateImagePlane/fr.md) |
-| [Image Open/fr](wiki/Image Open/fr.md) | [Image Scaling/fr](wiki/Image Scaling/fr.md) | [Image Workbench/fr](wiki/Image Workbench/fr.md) |
-|
+| [Bitmap/fr](Bitmap/fr.md) | [Image CreateImagePlane/fr](Image_CreateImagePlane/fr.md) | [Image Open/fr](Image_Open/fr.md) |
+| [Image Scaling/fr](Image_Scaling/fr.md) | [Image Workbench/fr](Image_Workbench/fr.md) |
 
 
 

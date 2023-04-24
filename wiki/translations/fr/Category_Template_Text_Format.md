@@ -5,7 +5,7 @@ Cette catégorie répertorie les modèles au format texte donnés en entrée.
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:PropertyData/fr](wiki/Template_PropertyData/fr.md) | [Template:PropertyView/fr](wiki/Template_PropertyView/fr.md) |
+| [Template:PropertyData/fr](Template_PropertyData/fr.md) | [Template:PropertyView/fr](Template_PropertyView/fr.md) |
 
 
 

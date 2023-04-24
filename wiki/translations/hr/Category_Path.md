@@ -5,7 +5,7 @@ This category lists pages related to the [PartDesign Workbench/hr](PartDesign_Wo
 
 |     |     |     |
 | --- | --- | --- |
-| [Path Preferences/hr](wiki/Path Preferences/hr.md) | [Path Shape/hr](wiki/Path Shape/hr.md) | [Path Workbench/hr](wiki/Path Workbench/hr.md) |
+| [Path Preferences/hr](Path_Preferences/hr.md) | [Path Shape/hr](Path_Shape/hr.md) | [Path Workbench/hr](Path_Workbench/hr.md) |
 |
 
 

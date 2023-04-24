@@ -9,8 +9,8 @@ Längere Textteile sollten auf der Seite selbst platziert werden, damit sie mit 
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:Obsolete/de](wiki/Template_Obsolete/de.md) | [Template:Version/de](wiki/Template_Version/de.md) | [Template:VersionMinus/de](wiki/Template_VersionMinus/de.md) |
-| [Template:VersionPlus/de](wiki/Template_VersionPlus/de.md) |
+| [Template:Obsolete/de](Template_Obsolete/de.md) | [Template:Version/de](Template_Version/de.md) | [Template:VersionMinus/de](Template_VersionMinus/de.md) |
+| [Template:VersionPlus/de](Template_VersionPlus/de.md) |
 
 
 

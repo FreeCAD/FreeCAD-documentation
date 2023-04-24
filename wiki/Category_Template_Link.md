@@ -5,7 +5,7 @@
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:Dead link](wiki/Template_Dead link.md) |
+| [Template:Dead link](Template_Dead_link.md) |
 
 
 

@@ -5,10 +5,10 @@ Cette catégorie répertorie les pages relatives à [Web Workbench](Web_Workbenc
 
 |     |     |     |
 | --- | --- | --- |
-| [Artwork Web/fr](wiki/Artwork Web/fr.md) | [Web BrowserBack/fr](wiki/Web BrowserBack/fr.md) | [Web BrowserNext/fr](wiki/Web BrowserNext/fr.md) |
-| [Web BrowserRefresh/fr](wiki/Web BrowserRefresh/fr.md) | [Web BrowserSetURL/fr](wiki/Web BrowserSetURL/fr.md) | [Web BrowserStop/fr](wiki/Web BrowserStop/fr.md) |
-| [Web BrowserZoomIn/fr](wiki/Web BrowserZoomIn/fr.md) | [Web BrowserZoomOut/fr](wiki/Web BrowserZoomOut/fr.md) | [Web OpenWebsite/fr](wiki/Web OpenWebsite/fr.md) |
-| [Web Workbench/fr](wiki/Web Workbench/fr.md) |
+| [Artwork Web/fr](Artwork_Web/fr.md) | [Web BrowserBack/fr](Web_BrowserBack/fr.md) | [Web BrowserNext/fr](Web_BrowserNext/fr.md) |
+| [Web BrowserRefresh/fr](Web_BrowserRefresh/fr.md) | [Web BrowserSetURL/fr](Web_BrowserSetURL/fr.md) | [Web BrowserStop/fr](Web_BrowserStop/fr.md) |
+| [Web BrowserZoomIn/fr](Web_BrowserZoomIn/fr.md) | [Web BrowserZoomOut/fr](Web_BrowserZoomOut/fr.md) | [Web OpenWebsite/fr](Web_OpenWebsite/fr.md) |
+| [Web Workbench/fr](Web_Workbench/fr.md) |
 
 
 

@@ -5,7 +5,7 @@ This category lists templates that produce text boxes used for documenting comma
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:Macro/ru](wiki/Template_Macro/ru.md) |
+| [Template:Macro/ru](Template_Macro/ru.md) |
 
 
 

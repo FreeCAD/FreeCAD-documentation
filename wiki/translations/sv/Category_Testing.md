@@ -5,7 +5,7 @@ Pages related to testing in regards to unit testing, continuous integration, qua
 
 |     |     |     |
 | --- | --- | --- |
-| [Testing/sv](wiki/Testing/sv.md) | [Category:Test Framework/sv](wiki/Category_Test Framework/sv.md) |
+| [Testing/sv](Testing/sv.md) | [Category:Test Framework/sv](Category_Test_Framework/sv.md) |
 
 
 

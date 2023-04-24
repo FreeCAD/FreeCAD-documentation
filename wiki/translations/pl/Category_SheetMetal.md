@@ -5,11 +5,11 @@ Ta strona zbiera strony z dokumentacją dla środowiska pracy [Blacha](SheetMeta
 
 |     |     |     |
 | --- | --- | --- |
-| [SheetMetal AddBase/pl](wiki/SheetMetal AddBase/pl.md) | [SheetMetal AddBend/pl](wiki/SheetMetal AddBend/pl.md) | [SheetMetal AddCornerRelief/pl](wiki/SheetMetal AddCornerRelief/pl.md) |
-| [SheetMetal AddFoldWall/pl](wiki/SheetMetal AddFoldWall/pl.md) | [SheetMetal AddJunction/pl](wiki/SheetMetal AddJunction/pl.md) | [SheetMetal AddRelief/pl](wiki/SheetMetal AddRelief/pl.md) |
-| [SheetMetal AddWall/pl](wiki/SheetMetal AddWall/pl.md) | [SheetMetal Examples/pl](wiki/SheetMetal Examples/pl.md) | [SheetMetal Extrude/pl](wiki/SheetMetal Extrude/pl.md) |
-| [SheetMetal Forming/pl](wiki/SheetMetal Forming/pl.md) | [SheetMetal SketchOnSheet/pl](wiki/SheetMetal SketchOnSheet/pl.md) | [SheetMetal UnattendedUnfold/pl](wiki/SheetMetal UnattendedUnfold/pl.md) |
-| [SheetMetal Unfold/pl](wiki/SheetMetal Unfold/pl.md) | [SheetMetal Workbench/pl](wiki/SheetMetal Workbench/pl.md) |
+| [SheetMetal AddBase/pl](SheetMetal_AddBase/pl.md) | [SheetMetal AddBend/pl](SheetMetal_AddBend/pl.md) | [SheetMetal AddCornerRelief/pl](SheetMetal_AddCornerRelief/pl.md) |
+| [SheetMetal AddFoldWall/pl](SheetMetal_AddFoldWall/pl.md) | [SheetMetal AddJunction/pl](SheetMetal_AddJunction/pl.md) | [SheetMetal AddRelief/pl](SheetMetal_AddRelief/pl.md) |
+| [SheetMetal AddWall/pl](SheetMetal_AddWall/pl.md) | [SheetMetal Examples/pl](SheetMetal_Examples/pl.md) | [SheetMetal Extrude/pl](SheetMetal_Extrude/pl.md) |
+| [SheetMetal Forming/pl](SheetMetal_Forming/pl.md) | [SheetMetal SketchOnSheet/pl](SheetMetal_SketchOnSheet/pl.md) | [SheetMetal UnattendedUnfold/pl](SheetMetal_UnattendedUnfold/pl.md) |
+| [SheetMetal Unfold/pl](SheetMetal_Unfold/pl.md) | [SheetMetal Workbench/pl](SheetMetal_Workbench/pl.md) |
 
 
 

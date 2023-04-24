@@ -5,13 +5,13 @@ These are pages that discuss the use of spreadsheets and/or the Spreadsheet Work
 
 |     |     |     |
 | --- | --- | --- |
-| [Artwork Spreadsheet/en](wiki/Artwork Spreadsheet/en.md) | [Expressions/en](wiki/Expressions/en.md) | [Spreadsheet AlignBottom/en](wiki/Spreadsheet AlignBottom/en.md) |
-| [Spreadsheet AlignCenter/en](wiki/Spreadsheet AlignCenter/en.md) | [Spreadsheet AlignLeft/en](wiki/Spreadsheet AlignLeft/en.md) | [Spreadsheet AlignRight/en](wiki/Spreadsheet AlignRight/en.md) |
-| [Spreadsheet AlignTop/en](wiki/Spreadsheet AlignTop/en.md) | [Spreadsheet AlignVCenter/en](wiki/Spreadsheet AlignVCenter/en.md) | [Spreadsheet CreateSheet/en](wiki/Spreadsheet CreateSheet/en.md) |
-| [Spreadsheet CSV/en](wiki/Spreadsheet CSV/en.md) | [Spreadsheet Export/en](wiki/Spreadsheet Export/en.md) | [Spreadsheet Import/en](wiki/Spreadsheet Import/en.md) |
-| [Spreadsheet MergeCells/en](wiki/Spreadsheet MergeCells/en.md) | [Spreadsheet Preferences/en](wiki/Spreadsheet Preferences/en.md) | [Spreadsheet SetAlias/en](wiki/Spreadsheet SetAlias/en.md) |
-| [Spreadsheet SplitCell/en](wiki/Spreadsheet SplitCell/en.md) | [Spreadsheet StyleBold/en](wiki/Spreadsheet StyleBold/en.md) | [Spreadsheet StyleItalic/en](wiki/Spreadsheet StyleItalic/en.md) |
-| [Spreadsheet StyleUnderline/en](wiki/Spreadsheet StyleUnderline/en.md) | [Spreadsheet Workbench/en](wiki/Spreadsheet Workbench/en.md) |
+| [Artwork Spreadsheet/en](Artwork_Spreadsheet/en.md) | [Expressions/en](Expressions/en.md) | [Spreadsheet AlignBottom/en](Spreadsheet_AlignBottom/en.md) |
+| [Spreadsheet AlignCenter/en](Spreadsheet_AlignCenter/en.md) | [Spreadsheet AlignLeft/en](Spreadsheet_AlignLeft/en.md) | [Spreadsheet AlignRight/en](Spreadsheet_AlignRight/en.md) |
+| [Spreadsheet AlignTop/en](Spreadsheet_AlignTop/en.md) | [Spreadsheet AlignVCenter/en](Spreadsheet_AlignVCenter/en.md) | [Spreadsheet CreateSheet/en](Spreadsheet_CreateSheet/en.md) |
+| [Spreadsheet CSV/en](Spreadsheet_CSV/en.md) | [Spreadsheet Export/en](Spreadsheet_Export/en.md) | [Spreadsheet Import/en](Spreadsheet_Import/en.md) |
+| [Spreadsheet MergeCells/en](Spreadsheet_MergeCells/en.md) | [Spreadsheet Preferences/en](Spreadsheet_Preferences/en.md) | [Spreadsheet SetAlias/en](Spreadsheet_SetAlias/en.md) |
+| [Spreadsheet SplitCell/en](Spreadsheet_SplitCell/en.md) | [Spreadsheet StyleBold/en](Spreadsheet_StyleBold/en.md) | [Spreadsheet StyleItalic/en](Spreadsheet_StyleItalic/en.md) |
+| [Spreadsheet StyleUnderline/en](Spreadsheet_StyleUnderline/en.md) | [Spreadsheet Workbench/en](Spreadsheet_Workbench/en.md) |
 
 
 

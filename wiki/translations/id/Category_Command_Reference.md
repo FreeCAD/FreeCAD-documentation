@@ -5,7 +5,7 @@ This category contains the help pages of each of FreeCAD command.
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:GuiCommand/id](wiki/Template_GuiCommand/id.md) |
+| [Template:GuiCommand/id](Template_GuiCommand/id.md) |
 
 
 

@@ -5,7 +5,7 @@ This category lists pages related to the [PartDesign Workbench/ja](PartDesign_Wo
 
 |     |     |     |
 | --- | --- | --- |
-| [PartDesign WizardShaft/ja](wiki/PartDesign WizardShaft/ja.md) | [PartDesign Workbench/ja](wiki/PartDesign Workbench/ja.md) |
+| [PartDesign WizardShaft/ja](PartDesign_WizardShaft/ja.md) | [PartDesign Workbench/ja](PartDesign_Workbench/ja.md) |
 
 
 

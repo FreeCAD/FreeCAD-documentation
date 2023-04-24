@@ -5,9 +5,9 @@ This category is for pages related to building information management (BIM).
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch IfcExplorer/pl](wiki/Arch IfcExplorer/pl.md) | [BIM application compatibility table/pl](wiki/BIM application compatibility table/pl.md) | [BIM ingame tutorial/pl](wiki/BIM ingame tutorial/pl.md) |
-| [BIM Library/pl](wiki/BIM Library/pl.md) | [BIM Workbench/pl](wiki/BIM Workbench/pl.md) | [IfcOpenShell/pl](wiki/IfcOpenShell/pl.md) |
-| [Import/Export IFC - compiling IfcOpenShell/pl](wiki/Import/Export IFC - compiling IfcOpenShell/pl.md) | [Manual:BIM modeling/pl](wiki/Manual_BIM modeling/pl.md) | [Category:Arch/pl](wiki/Category_Arch/pl.md) |
+| [Arch IfcExplorer/pl](Arch_IfcExplorer/pl.md) | [BIM application compatibility table/pl](BIM_application_compatibility_table/pl.md) | [BIM ingame tutorial/pl](BIM_ingame_tutorial/pl.md) |
+| [BIM Library/pl](BIM_Library/pl.md) | [BIM Workbench/pl](BIM_Workbench/pl.md) | [IfcOpenShell/pl](IfcOpenShell/pl.md) |
+| [Import/Export IFC - compiling IfcOpenShell/pl](Import/Export_IFC_-_compiling_IfcOpenShell/pl.md) | [Manual:BIM modeling/pl](Manual_BIM_modeling/pl.md) | [Category:Arch/pl](Category_Arch/pl.md) |
 |
 
 

@@ -5,8 +5,8 @@ This category groups all of the FreeCAD documentation
 
 |     |     |     |
 | --- | --- | --- |
-| [Online Help Toc/hu](wiki/Online Help Toc/hu.md) | [Category:Developer Documentation/hu](wiki/Category_Developer Documentation/hu.md) | [Category:Poweruser Documentation/hu](wiki/Category_Poweruser Documentation/hu.md) |
-| [Category:User Documentation/hu](wiki/Category_User Documentation/hu.md) |
+| [Online Help Toc/hu](Online_Help_Toc/hu.md) | [Category:Developer Documentation/hu](Category_Developer_Documentation/hu.md) | [Category:Poweruser Documentation/hu](Category_Poweruser_Documentation/hu.md) |
+| [Category:User Documentation/hu](Category_User_Documentation/hu.md) |
 
 
 

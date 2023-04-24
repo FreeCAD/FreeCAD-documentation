@@ -7,8 +7,8 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [Basic modeling tutorial/pt](wiki/Basic modeling tutorial/pt.md) | [Basic Sketcher Tutorial/pt](wiki/Basic Sketcher Tutorial/pt.md) | [Draft tutorial/pt](wiki/Draft tutorial/pt.md) |
-| [Video tutorials/pt](wiki/Video tutorials/pt.md) |
+| [Basic modeling tutorial/pt](Basic_modeling_tutorial/pt.md) | [Basic Sketcher Tutorial/pt](Basic_Sketcher_Tutorial/pt.md) | [Draft tutorial/pt](Draft_tutorial/pt.md) |
+|
 
 
 

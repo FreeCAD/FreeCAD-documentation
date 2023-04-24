@@ -5,9 +5,9 @@ This category contains articles that are relevant for developers.
 
 |     |     |     |
 | --- | --- | --- |
-| [Compile on Linux/ro](wiki/Compile on Linux/ro.md) | [Compile on MacOS/ro](wiki/Compile on MacOS/ro.md) | [Compile on Windows/ro](wiki/Compile on Windows/ro.md) |
-| [Compiling (Speeding up)/ro](wiki/Compiling (Speeding up)/ro.md) | [Compiling/ro](wiki/Compiling/ro.md) | [Contributors/ro](wiki/Contributors/ro.md) |
-| [FEM CalculiX/ro](wiki/FEM CalculiX/ro.md) | [File Format FCStd/ro](wiki/File Format FCStd/ro.md) | [ImageConv/ro](wiki/ImageConv/ro.md) |
+| [Compile on Linux/ro](Compile_on_Linux/ro.md) | [Compile on MacOS/ro](Compile_on_MacOS/ro.md) | [Compile on Windows/ro](Compile_on_Windows/ro.md) |
+| [Compiling (Speeding up)/ro](Compiling_(Speeding_up)/ro.md) | [Compiling/ro](Compiling/ro.md) | [Contributors/ro](Contributors/ro.md) |
+| [FEM CalculiX/ro](FEM_CalculiX/ro.md) | [File Format FCStd/ro](File_Format_FCStd/ro.md) | [ImageConv/ro](ImageConv/ro.md) |
 |
 
 

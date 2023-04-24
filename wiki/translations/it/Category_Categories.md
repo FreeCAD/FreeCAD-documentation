@@ -18,13 +18,13 @@ Per visualizzare l\'elenco di
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Addons/it](wiki/Category_Addons/it.md) | [Category:Administration/it](wiki/Category_Administration/it.md) | [Category:API/it](wiki/Category_API/it.md) |
-| [Category:Categories/it](wiki/Category_Categories/it.md) | [Category:Command Reference/it](wiki/Category_Command Reference/it.md) | [Category:Developer/it](wiki/Category_Developer/it.md) |
-| [Category:Documentation/it](wiki/Category_Documentation/it.md) | [Category:Help/it](wiki/Category_Help/it.md) | [Category:Hubs/it](wiki/Category_Hubs/it.md) |
-| [Category:Image/it](wiki/Category_Image/it.md) | [Category:Macros/it](wiki/Category_Macros/it.md) | [Category:News/it](wiki/Category_News/it.md) |
-| [Category:Poweruser Documentation/it](wiki/Category_Poweruser Documentation/it.md) | [Category:Python Code/it](wiki/Category_Python Code/it.md) | [Category:Repository/it](wiki/Category_Repository/it.md) |
-| [Category:Roadmap/it](wiki/Category_Roadmap/it.md) | [Category:Template/it](wiki/Category_Template/it.md) | [Category:UnfinishedDocu/it](wiki/Category_UnfinishedDocu/it.md) |
-| [Category:User Documentation/it](wiki/Category_User Documentation/it.md) | [Category:Wiki/it](wiki/Category_Wiki/it.md) |
+| [Category:Addons/it](Category_Addons/it.md) | [Category:Administration/it](Category_Administration/it.md) | [Category:API/it](Category_API/it.md) |
+| [Category:Categories/it](Category_Categories/it.md) | [Category:Command Reference/it](Category_Command_Reference/it.md) | [Category:Developer/it](Category_Developer/it.md) |
+| [Category:Documentation/it](Category_Documentation/it.md) | [Category:Help/it](Category_Help/it.md) | [Category:Hubs/it](Category_Hubs/it.md) |
+| [Category:Image/it](Category_Image/it.md) | [Category:Macros/it](Category_Macros/it.md) | [Category:News/it](Category_News/it.md) |
+| [Category:Poweruser Documentation/it](Category_Poweruser_Documentation/it.md) | [Category:Python Code/it](Category_Python_Code/it.md) | [Category:Repository/it](Category_Repository/it.md) |
+| [Category:Roadmap/it](Category_Roadmap/it.md) | [Category:Template/it](Category_Template/it.md) | [Category:UnfinishedDocu/it](Category_UnfinishedDocu/it.md) |
+| [Category:User Documentation/it](Category_User_Documentation/it.md) | [Category:Wiki/it](Category_Wiki/it.md) |
 
 
 

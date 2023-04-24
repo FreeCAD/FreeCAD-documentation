@@ -5,7 +5,7 @@ This category lists pages related to the [Part Workbench/zh-tw](Part_Workbench/z
 
 |     |     |     |
 | --- | --- | --- |
-| [Aeroplane/zh-tw](wiki/Aeroplane/zh-tw.md) | [Part Module/zh-tw](wiki/Part Module/zh-tw.md) |
+| [Aeroplane/zh-tw](Aeroplane/zh-tw.md) | [Part Module/zh-tw](Part_Module/zh-tw.md) |
 
 
 

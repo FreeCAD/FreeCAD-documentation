@@ -5,10 +5,10 @@ This category groups all of the FreeCAD documentation
 
 |     |     |     |
 | --- | --- | --- |
-| [3D input devices/tr](wiki/3D input devices/tr.md) | [Help FreeCAD/tr](wiki/Help FreeCAD/tr.md) | [Main Page/tr](wiki/Main Page/tr.md) |
-| [Online Help Toc/tr](wiki/Online Help Toc/tr.md) | [Release notes 0.15/tr](wiki/Release notes 0.15/tr.md) | [Release notes 0.17/tr](wiki/Release notes 0.17/tr.md) |
-| [Category:Developer Documentation/tr](wiki/Category_Developer Documentation/tr.md) | [Category:Poweruser Documentation/tr](wiki/Category_Poweruser Documentation/tr.md) | [Category:Screenshots/tr](wiki/Category_Screenshots/tr.md) |
-| [Category:User Documentation/tr](wiki/Category_User Documentation/tr.md) | [Category:Wiki/tr](wiki/Category_Wiki/tr.md) |
+| [3D input devices/tr](3D_input_devices/tr.md) | [Help FreeCAD/tr](Help_FreeCAD/tr.md) | [Main Page/tr](Main_Page/tr.md) |
+| [Online Help Toc/tr](Online_Help_Toc/tr.md) | [Release notes 0.15/tr](Release_notes_0.15/tr.md) | [Release notes 0.17/tr](Release_notes_0.17/tr.md) |
+| [Category:Developer Documentation/tr](Category_Developer_Documentation/tr.md) | [Category:Poweruser Documentation/tr](Category_Poweruser_Documentation/tr.md) | [Category:Screenshots/tr](Category_Screenshots/tr.md) |
+| [Category:User Documentation/tr](Category_User_Documentation/tr.md) | [Category:Wiki/tr](Category_Wiki/tr.md) |
 
 
 

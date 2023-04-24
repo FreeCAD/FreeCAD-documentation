@@ -10,11 +10,11 @@ To jest **główna kategoria**\', która zawiera główne kategorie FreeCAD wiki
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Addons/pl](wiki/Category_Addons/pl.md) | [Category:Administration/pl](wiki/Category_Administration/pl.md) | [Category:API/pl](wiki/Category_API/pl.md) |
-| [Category:Categories/pl](wiki/Category_Categories/pl.md) | [Category:Command Reference/pl](wiki/Category_Command Reference/pl.md) | [Category:Developer/pl](wiki/Category_Developer/pl.md) |
-| [Category:Documentation/pl](wiki/Category_Documentation/pl.md) | [Category:Help/pl](wiki/Category_Help/pl.md) | [Category:Hubs/pl](wiki/Category_Hubs/pl.md) |
-| [Category:Macros/pl](wiki/Category_Macros/pl.md) | [Category:News/pl](wiki/Category_News/pl.md) | [Category:Python Code/pl](wiki/Category_Python Code/pl.md) |
-| [Category:Template/pl](wiki/Category_Template/pl.md) | [Category:UnfinishedDocu/pl](wiki/Category_UnfinishedDocu/pl.md) | [Category:Wiki/pl](wiki/Category_Wiki/pl.md) |
+| [Category:Addons/pl](Category_Addons/pl.md) | [Category:Administration/pl](Category_Administration/pl.md) | [Category:API/pl](Category_API/pl.md) |
+| [Category:Categories/pl](Category_Categories/pl.md) | [Category:Command Reference/pl](Category_Command_Reference/pl.md) | [Category:Developer/pl](Category_Developer/pl.md) |
+| [Category:Documentation/pl](Category_Documentation/pl.md) | [Category:Help/pl](Category_Help/pl.md) | [Category:Hubs/pl](Category_Hubs/pl.md) |
+| [Category:Macros/pl](Category_Macros/pl.md) | [Category:News/pl](Category_News/pl.md) | [Category:Python Code/pl](Category_Python_Code/pl.md) |
+| [Category:Template/pl](Category_Template/pl.md) | [Category:UnfinishedDocu/pl](Category_UnfinishedDocu/pl.md) | [Category:Wiki/pl](Category_Wiki/pl.md) |
 |
 
 

@@ -5,7 +5,7 @@ This category lists pages related to the [Drawing Workbench/id](Drawing_Workbenc
 
 |     |     |     |
 | --- | --- | --- |
-| [Drawing Workbench/id](wiki/Drawing Workbench/id.md) |
+| [Drawing Workbench/id](Drawing_Workbench/id.md) |
 
 
 

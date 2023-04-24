@@ -5,8 +5,8 @@ This category lists pages related to the [Raytracing Workbench/es](Raytracing_Wo
 
 |     |     |     |
 | --- | --- | --- |
-| [Raytracing New/es](wiki/Raytracing New/es.md) | [Raytracing Workbench/es](wiki/Raytracing Workbench/es.md) | [Raytracing WriteCamera/es](wiki/Raytracing WriteCamera/es.md) |
-| [Raytracing WritePart/es](wiki/Raytracing WritePart/es.md) | [Raytracing WriteView/es](wiki/Raytracing WriteView/es.md) |
+| [Raytracing New/es](Raytracing_New/es.md) | [Raytracing Workbench/es](Raytracing_Workbench/es.md) | [Raytracing WriteCamera/es](Raytracing_WriteCamera/es.md) |
+| [Raytracing WritePart/es](Raytracing_WritePart/es.md) | [Raytracing WriteView/es](Raytracing_WriteView/es.md) |
 
 
 

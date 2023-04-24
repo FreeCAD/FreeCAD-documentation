@@ -5,7 +5,7 @@ This category lists pages related to the [Test Framework Workbench](Testing/sv.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Testing/sv](wiki/Testing/sv.md) |
+| [Testing/sv](Testing/sv.md) |
 
 
 

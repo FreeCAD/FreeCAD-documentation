@@ -5,21 +5,21 @@ This category tracks redirects in the FreeCAD wiki
 
 |     |     |     |
 | --- | --- | --- |
-| [About](wiki/About.md) | [Appimage](wiki/Appimage.md) | [Backtrace](wiki/Backtrace.md) |
-| [Bugtracker](wiki/Bugtracker.md) | [Bugtracker/de](wiki/Bugtracker/de.md) | [Combo View](wiki/Combo View.md) |
-| [Constructive Solid Geometry](wiki/Constructive Solid Geometry.md) | [Dependency Graph](wiki/Dependency Graph.md) | [Dependency graph](wiki/Dependency graph.md) |
-| [DependencyGraph](wiki/DependencyGraph.md) | [Docker](wiki/Docker.md) | [Downloads](wiki/Downloads.md) |
-| [DWG](wiki/DWG.md) | [Editing](wiki/Editing.md) | [External Workbench](wiki/External Workbench.md) |
-| [External Workbenches](wiki/External Workbenches.md) | [External Workbenches/ru](wiki/External Workbenches/ru.md) | [FCMacro](wiki/FCMacro.md) |
-| [FCMat](wiki/FCMat.md) | [FCStd](wiki/FCStd.md) | [Fcstd file format](wiki/Fcstd file format.md) |
-| [Git](wiki/Git.md) | [GitHub](wiki/GitHub.md) | [Github](wiki/Github.md) |
-| [Github mantisbt](wiki/Github mantisbt.md) | [Gitkraken](wiki/Gitkraken.md) | [Google Summer of Code](wiki/Google Summer of Code.md) |
-| [Graphviz](wiki/Graphviz.md) | [Graphviz/it](wiki/Graphviz/it.md) | [ODA](wiki/ODA.md) |
-| [Parameter editor](wiki/Parameter editor.md) | [Parameter Editor](wiki/Parameter Editor.md) | [Part Cube](wiki/Part Cube.md) |
-| [Patch](wiki/Patch.md) | [Recompute](wiki/Recompute.md) | [Recompute/ru](wiki/Recompute/ru.md) |
-| [Scripting](wiki/Scripting.md) | [Source Documentation](wiki/Source Documentation.md) | [Std Exit](wiki/Std Exit.md) |
-| [Topological](wiki/Topological.md) | [Translation](wiki/Translation.md) | [TravisCI](wiki/TravisCI.md) |
-| [Tree View](wiki/Tree View.md) | [Visibility](wiki/Visibility.md) |
+| [About](About.md) | [Appimage](Appimage.md) | [Backtrace](Backtrace.md) |
+| [Bugtracker](Bugtracker.md) | [Bugtracker/de](Bugtracker/de.md) | [Combo View](Combo_View.md) |
+| [Constructive Solid Geometry](Constructive_Solid_Geometry.md) | [Dependency Graph](Dependency_Graph.md) | [Dependency graph](Dependency_graph.md) |
+| [DependencyGraph](DependencyGraph.md) | [Docker](Docker.md) | [Downloads](Downloads.md) |
+| [DWG](DWG.md) | [Editing](Editing.md) | [External Workbench](External_Workbench.md) |
+| [External Workbenches](External_Workbenches.md) | [External Workbenches/ru](External_Workbenches/ru.md) | [FCMacro](FCMacro.md) |
+| [FCMat](FCMat.md) | [FCStd](FCStd.md) | [Fcstd file format](Fcstd_file_format.md) |
+| [Git](Git.md) | [GitHub](GitHub.md) | [Github](Github.md) |
+| [Github mantisbt](Github_mantisbt.md) | [Gitkraken](Gitkraken.md) | [Google Summer of Code](Google_Summer_of_Code.md) |
+| [Graphviz](Graphviz.md) | [Graphviz/it](Graphviz/it.md) | [ODA](ODA.md) |
+| [Parameter editor](Parameter_editor.md) | [Parameter Editor](Parameter_Editor.md) | [Part Cube](Part_Cube.md) |
+| [Patch](Patch.md) | [Recompute](Recompute.md) | [Recompute/ru](Recompute/ru.md) |
+| [Scripting](Scripting.md) | [Source Documentation](Source_Documentation.md) | [Std Exit](Std_Exit.md) |
+| [Topological](Topological.md) | [Translation](Translation.md) | [TravisCI](TravisCI.md) |
+| [Tree View](Tree_View.md) | [Visibility](Visibility.md) |
 
 
 

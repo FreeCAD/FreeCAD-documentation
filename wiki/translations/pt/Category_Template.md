@@ -7,8 +7,8 @@ See also [UncategorizedTemplates](Special_UncategorizedTemplates.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:CAD Navigation/pt](wiki/Template_CAD Navigation/pt.md) | [Template:Languages/pt](wiki/Template_Languages/pt.md) | [Template:Pt](wiki/Template_Pt.md) |
-| [Category:Template:Navigation/pt](wiki/Category_Template_Navigation/pt.md) |
+| [Template:CAD Navigation/pt](Template_CAD_Navigation/pt.md) | [Template:Languages/pt](Template_Languages/pt.md) | [Template:Pt](Template_Pt.md) |
+| [Category:Template:Navigation/pt](Category_Template_Navigation/pt.md) |
 
 
 

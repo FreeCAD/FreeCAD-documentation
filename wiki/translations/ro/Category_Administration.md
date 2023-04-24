@@ -5,8 +5,8 @@ This category contains articles and categories about wiki administrative subject
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:PropertyData/ro](wiki/Template_PropertyData/ro.md) | [Template:PropertyView/ro](wiki/Template_PropertyView/ro.md) | [Tracker/ro](wiki/Tracker/ro.md) |
-| [Category:UnfinishedDocu/ro](wiki/Category_UnfinishedDocu/ro.md) | [Category:Wiki/ro](wiki/Category_Wiki/ro.md) |
+| [Template:PropertyData/ro](Template_PropertyData/ro.md) | [Template:PropertyView/ro](Template_PropertyView/ro.md) | [Tracker/ro](Tracker/ro.md) |
+| [Category:UnfinishedDocu/ro](Category_UnfinishedDocu/ro.md) | [Category:Wiki/ro](Category_Wiki/ro.md) |
 
 
 

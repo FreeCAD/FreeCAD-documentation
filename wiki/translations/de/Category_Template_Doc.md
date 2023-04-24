@@ -5,7 +5,7 @@ This category lists templates that produce text boxes used for documenting comma
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:GuiCommandAddon/de](wiki/Template_GuiCommandAddon/de.md) | [Template:Macro/de](wiki/Template_Macro/de.md) |
+| [Template:GuiCommandAddon/de](Template_GuiCommandAddon/de.md) | [Template:Macro/de](Template_Macro/de.md) |
 
 
 

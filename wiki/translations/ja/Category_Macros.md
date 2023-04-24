@@ -5,7 +5,7 @@ This category contains macros to extend your FreeCAD installation with new funct
 
 |     |     |     |
 | --- | --- | --- |
-| [Macros/ja](wiki/Macros/ja.md) |
+| [Macros/ja](Macros/ja.md) |
 
 
 

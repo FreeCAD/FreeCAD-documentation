@@ -5,17 +5,17 @@ Cette catégorie regroupe toute la documentation de FreeCAD.
 
 |     |     |     |
 | --- | --- | --- |
-| [3D input devices/fr](wiki/3D input devices/fr.md) | [ANSI templates/fr](wiki/ANSI templates/fr.md) | [Arch templates/fr](wiki/Arch templates/fr.md) |
-| [Civil Engineering Workbench/fr](wiki/Civil Engineering Workbench/fr.md) | [Drawing templates/fr](wiki/Drawing templates/fr.md) | [FreeCAD Community Portal/fr](wiki/FreeCAD Community Portal/fr.md) |
-| [Frequently asked questions/fr](wiki/Frequently asked questions/fr.md) | [Help FreeCAD/fr](wiki/Help FreeCAD/fr.md) | [Interesting links/fr](wiki/Interesting links/fr.md) |
-| [Main Page/fr](wiki/Main Page/fr.md) | [Misc templates/fr](wiki/Misc templates/fr.md) | [Online Help Toc/fr](wiki/Online Help Toc/fr.md) |
-| [Release notes 0.11/fr](wiki/Release notes 0.11/fr.md) | [Release notes 0.12/fr](wiki/Release notes 0.12/fr.md) | [Release notes 0.13/fr](wiki/Release notes 0.13/fr.md) |
-| [Release notes 0.14/fr](wiki/Release notes 0.14/fr.md) | [Release notes 0.15/fr](wiki/Release notes 0.15/fr.md) | [Release notes 0.16/fr](wiki/Release notes 0.16/fr.md) |
-| [Release notes 0.17/fr](wiki/Release notes 0.17/fr.md) | [Release notes 0.18/fr](wiki/Release notes 0.18/fr.md) | [Release notes 0.19/fr](wiki/Release notes 0.19/fr.md) |
-| [Release notes 0.20/fr](wiki/Release notes 0.20/fr.md) | [Release notes 1.0/fr](wiki/Release notes 1.0/fr.md) | [Transportation Workbench/fr](wiki/Transportation Workbench/fr.md) |
-| [WikiPages/fr](wiki/WikiPages/fr.md) | [Category:Developer Documentation/fr](wiki/Category_Developer Documentation/fr.md) | [Category:Poweruser Documentation/fr](wiki/Category_Poweruser Documentation/fr.md) |
-| [Category:Screenshots/fr](wiki/Category_Screenshots/fr.md) | [Category:User Documentation/fr](wiki/Category_User Documentation/fr.md) | [Category:Wiki Documentation/fr](wiki/Category_Wiki Documentation/fr.md) |
-| [Category:Wiki/fr](wiki/Category_Wiki/fr.md) |
+| [3D input devices/fr](3D_input_devices/fr.md) | [ANSI templates/fr](ANSI_templates/fr.md) | [Arch templates/fr](Arch_templates/fr.md) |
+| [Civil Engineering Workbench/fr](Civil_Engineering_Workbench/fr.md) | [Drawing templates/fr](Drawing_templates/fr.md) | [FreeCAD Community Portal/fr](FreeCAD_Community_Portal/fr.md) |
+| [Frequently asked questions/fr](Frequently_asked_questions/fr.md) | [Help FreeCAD/fr](Help_FreeCAD/fr.md) | [Interesting links/fr](Interesting_links/fr.md) |
+| [Main Page/fr](Main_Page/fr.md) | [Misc templates/fr](Misc_templates/fr.md) | [Online Help Toc/fr](Online_Help_Toc/fr.md) |
+| [Release notes 0.11/fr](Release_notes_0.11/fr.md) | [Release notes 0.12/fr](Release_notes_0.12/fr.md) | [Release notes 0.13/fr](Release_notes_0.13/fr.md) |
+| [Release notes 0.14/fr](Release_notes_0.14/fr.md) | [Release notes 0.15/fr](Release_notes_0.15/fr.md) | [Release notes 0.16/fr](Release_notes_0.16/fr.md) |
+| [Release notes 0.17/fr](Release_notes_0.17/fr.md) | [Release notes 0.18/fr](Release_notes_0.18/fr.md) | [Release notes 0.19/fr](Release_notes_0.19/fr.md) |
+| [Release notes 0.20/fr](Release_notes_0.20/fr.md) | [Release notes 1.0/fr](Release_notes_1.0/fr.md) | [Transportation Workbench/fr](Transportation_Workbench/fr.md) |
+| [WikiPages/fr](WikiPages/fr.md) | [Category:Developer Documentation/fr](Category_Developer_Documentation/fr.md) | [Category:Poweruser Documentation/fr](Category_Poweruser_Documentation/fr.md) |
+| [Category:Screenshots/fr](Category_Screenshots/fr.md) | [Category:User Documentation/fr](Category_User_Documentation/fr.md) | [Category:Wiki Documentation/fr](Category_Wiki_Documentation/fr.md) |
+| [Category:Wiki/fr](Category_Wiki/fr.md) |
 
 
 

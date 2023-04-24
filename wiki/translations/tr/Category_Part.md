@@ -5,9 +5,9 @@ This category lists pages related to the [Part Workbench/tr](Part_Workbench/tr.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Draft ShapeString tutorial/tr](wiki/Draft ShapeString tutorial/tr.md) | [Part Box/tr](wiki/Part Box/tr.md) | [Part Builder/tr](wiki/Part Builder/tr.md) |
-| [Part Ellipse/tr](wiki/Part Ellipse/tr.md) | [Part Extrude/tr](wiki/Part Extrude/tr.md) | [Part Line/tr](wiki/Part Line/tr.md) |
-| [Part Module/tr](wiki/Part Module/tr.md) | [Part Primitives/tr](wiki/Part Primitives/tr.md) | [Part Prism/tr](wiki/Part Prism/tr.md) |
+| [Draft ShapeString tutorial/tr](Draft_ShapeString_tutorial/tr.md) | [Part Box/tr](Part_Box/tr.md) | [Part Builder/tr](Part_Builder/tr.md) |
+| [Part Ellipse/tr](Part_Ellipse/tr.md) | [Part Extrude/tr](Part_Extrude/tr.md) | [Part Line/tr](Part_Line/tr.md) |
+| [Part Module/tr](Part_Module/tr.md) | [Part Primitives/tr](Part_Primitives/tr.md) | [Part Prism/tr](Part_Prism/tr.md) |
 |
 
 

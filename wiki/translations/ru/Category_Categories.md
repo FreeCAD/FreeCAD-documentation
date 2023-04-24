@@ -10,12 +10,12 @@ This is the **top category** which contains the main categories of the FreeCAD w
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Addons/ru](wiki/Category_Addons/ru.md) | [Category:Administration/ru](wiki/Category_Administration/ru.md) | [Category:API/ru](wiki/Category_API/ru.md) |
-| [Category:Categories/ru](wiki/Category_Categories/ru.md) | [Category:Command Reference/ru](wiki/Category_Command Reference/ru.md) | [Category:Developer/ru](wiki/Category_Developer/ru.md) |
-| [Category:Documentation/ru](wiki/Category_Documentation/ru.md) | [Category:Help/ru](wiki/Category_Help/ru.md) | [Category:Hubs/ru](wiki/Category_Hubs/ru.md) |
-| [Category:Macros/ru](wiki/Category_Macros/ru.md) | [Category:News/ru](wiki/Category_News/ru.md) | [Category:Python Code/ru](wiki/Category_Python Code/ru.md) |
-| [Category:Repository/ru](wiki/Category_Repository/ru.md) | [Category:Roadmap/ru](wiki/Category_Roadmap/ru.md) | [Category:Template/ru](wiki/Category_Template/ru.md) |
-| [Category:Wiki/ru](wiki/Category_Wiki/ru.md) |
+| [Category:Addons/ru](Category_Addons/ru.md) | [Category:Administration/ru](Category_Administration/ru.md) | [Category:API/ru](Category_API/ru.md) |
+| [Category:Categories/ru](Category_Categories/ru.md) | [Category:Command Reference/ru](Category_Command_Reference/ru.md) | [Category:Developer/ru](Category_Developer/ru.md) |
+| [Category:Documentation/ru](Category_Documentation/ru.md) | [Category:Help/ru](Category_Help/ru.md) | [Category:Hubs/ru](Category_Hubs/ru.md) |
+| [Category:Macros/ru](Category_Macros/ru.md) | [Category:News/ru](Category_News/ru.md) | [Category:Python Code/ru](Category_Python_Code/ru.md) |
+| [Category:Repository/ru](Category_Repository/ru.md) | [Category:Roadmap/ru](Category_Roadmap/ru.md) | [Category:Template/ru](Category_Template/ru.md) |
+| [Category:Wiki/ru](Category_Wiki/ru.md) |
 
 
 

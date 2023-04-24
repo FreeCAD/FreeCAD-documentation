@@ -10,7 +10,7 @@ This is the **top category** which contains the main categories of the FreeCAD w
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Addons/zh-hans](wiki/Category_Addons/zh-hans.md) | [Category:Categories/zh-hans](wiki/Category_Categories/zh-hans.md) | [Category:Documentation/zh-hans](wiki/Category_Documentation/zh-hans.md) |
+| [Category:Addons/zh-hans](Category_Addons/zh-hans.md) | [Category:Categories/zh-hans](Category_Categories/zh-hans.md) | [Category:Documentation/zh-hans](Category_Documentation/zh-hans.md) |
 |
 
 

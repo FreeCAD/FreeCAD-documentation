@@ -5,15 +5,14 @@ Cette catégorie répertorie les pages liées à l\'[Atelier de dessin](Drawing_
 
 |     |     |     |
 | --- | --- | --- |
-| [ANSI templates/fr](wiki/ANSI templates/fr.md) | [Arch templates/fr](wiki/Arch templates/fr.md) | [Artwork Drawing/fr](wiki/Artwork Drawing/fr.md) |
-| [Drawing Annotation/fr](wiki/Drawing Annotation/fr.md) | [Drawing API example/fr](wiki/Drawing API example/fr.md) | [Drawing Clip/fr](wiki/Drawing Clip/fr.md) |
-| [Drawing Dimensioning Addon/fr](wiki/Drawing Dimensioning Addon/fr.md) | [Drawing Documentation/fr](wiki/Drawing Documentation/fr.md) | [Drawing Landscape A3/fr](wiki/Drawing Landscape A3/fr.md) |
-| [Drawing Open SVG/fr](wiki/Drawing Open SVG/fr.md) | [Drawing Openbrowser/fr](wiki/Drawing Openbrowser/fr.md) | [Drawing Orthoviews/fr](wiki/Drawing Orthoviews/fr.md) |
-| [Drawing ProjectShape/fr](wiki/Drawing ProjectShape/fr.md) | [Drawing Save/fr](wiki/Drawing Save/fr.md) | [Drawing SpreadsheetView/fr](wiki/Drawing SpreadsheetView/fr.md) |
-| [Drawing Symbol/fr](wiki/Drawing Symbol/fr.md) | [Drawing Template HowTo/fr](wiki/Drawing Template HowTo/fr.md) | [Drawing templates/fr](wiki/Drawing templates/fr.md) |
-| [Template:Drawing Tools navi/fr](wiki/Template_Drawing Tools navi/fr.md) | [Drawing tutorial/fr](wiki/Drawing tutorial/fr.md) | [Drawing View/fr](wiki/Drawing View/fr.md) |
-| [Drawing Workbench/fr](wiki/Drawing Workbench/fr.md) | [Misc templates/fr](wiki/Misc templates/fr.md) | [Svg Namespace/fr](wiki/Svg Namespace/fr.md) |
-|
+| [ANSI templates/fr](ANSI_templates/fr.md) | [Arch templates/fr](Arch_templates/fr.md) | [Drawing Annotation/fr](Drawing_Annotation/fr.md) |
+| [Drawing API example/fr](Drawing_API_example/fr.md) | [Drawing Clip/fr](Drawing_Clip/fr.md) | [Drawing Dimensioning Addon/fr](Drawing_Dimensioning_Addon/fr.md) |
+| [Drawing Documentation/fr](Drawing_Documentation/fr.md) | [Drawing Landscape A3/fr](Drawing_Landscape_A3/fr.md) | [Drawing Open SVG/fr](Drawing_Open_SVG/fr.md) |
+| [Drawing Openbrowser/fr](Drawing_Openbrowser/fr.md) | [Drawing Orthoviews/fr](Drawing_Orthoviews/fr.md) | [Drawing ProjectShape/fr](Drawing_ProjectShape/fr.md) |
+| [Drawing Save/fr](Drawing_Save/fr.md) | [Drawing SpreadsheetView/fr](Drawing_SpreadsheetView/fr.md) | [Drawing Symbol/fr](Drawing_Symbol/fr.md) |
+| [Drawing Template HowTo/fr](Drawing_Template_HowTo/fr.md) | [Drawing templates/fr](Drawing_templates/fr.md) | [Template:Drawing Tools navi/fr](Template_Drawing_Tools_navi/fr.md) |
+| [Drawing tutorial/fr](Drawing_tutorial/fr.md) | [Drawing View/fr](Drawing_View/fr.md) | [Drawing Workbench/fr](Drawing_Workbench/fr.md) |
+| [Misc templates/fr](Misc_templates/fr.md) | [Svg Namespace/fr](Svg_Namespace/fr.md) |
 
 
 

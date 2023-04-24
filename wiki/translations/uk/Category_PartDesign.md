@@ -5,7 +5,7 @@ This category lists pages related to the [PartDesign Workbench/uk](PartDesign_Wo
 
 |     |     |     |
 | --- | --- | --- |
-| [PartDesign Workbench/uk](wiki/PartDesign Workbench/uk.md) |
+| [Basic Part Design Tutorial 019/uk](Basic_Part_Design_Tutorial_019/uk.md) | [PartDesign Workbench/uk](PartDesign_Workbench/uk.md) |
 
 
 

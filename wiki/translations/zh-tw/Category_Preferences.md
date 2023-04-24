@@ -5,7 +5,7 @@ This category lists all existing Preference menus of different FreeCAD workbench
 
 |     |     |     |
 | --- | --- | --- |
-| [Customize Toolbars/zh-tw](wiki/Customize Toolbars/zh-tw.md) | [Preferences Editor/zh-tw](wiki/Preferences Editor/zh-tw.md) |
+| [Customize Toolbars/zh-tw](Customize_Toolbars/zh-tw.md) | [Preferences Editor/zh-tw](Preferences_Editor/zh-tw.md) |
 
 
 

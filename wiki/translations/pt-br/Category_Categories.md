@@ -10,10 +10,10 @@ This is the **top category** which contains the main categories of the FreeCAD w
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Addons/pt-br](wiki/Category_Addons/pt-br.md) | [Category:Administration/pt-br](wiki/Category_Administration/pt-br.md) | [Category:Categories/pt-br](wiki/Category_Categories/pt-br.md) |
-| [Category:Command Reference/pt-br](wiki/Category_Command Reference/pt-br.md) | [Category:Developer/pt-br](wiki/Category_Developer/pt-br.md) | [Category:Documentation/pt-br](wiki/Category_Documentation/pt-br.md) |
-| [Category:Hubs/pt-br](wiki/Category_Hubs/pt-br.md) | [Category:Macros/pt-br](wiki/Category_Macros/pt-br.md) | [Category:Roadmap/pt-br](wiki/Category_Roadmap/pt-br.md) |
-| [Category:Template/pt-br](wiki/Category_Template/pt-br.md) |
+| [Category:Addons/pt-br](Category_Addons/pt-br.md) | [Category:Administration/pt-br](Category_Administration/pt-br.md) | [Category:Categories/pt-br](Category_Categories/pt-br.md) |
+| [Category:Command Reference/pt-br](Category_Command_Reference/pt-br.md) | [Category:Developer/pt-br](Category_Developer/pt-br.md) | [Category:Documentation/pt-br](Category_Documentation/pt-br.md) |
+| [Category:Hubs/pt-br](Category_Hubs/pt-br.md) | [Category:Macros/pt-br](Category_Macros/pt-br.md) | [Category:Roadmap/pt-br](Category_Roadmap/pt-br.md) |
+| [Category:Template/pt-br](Category_Template/pt-br.md) |
 
 
 

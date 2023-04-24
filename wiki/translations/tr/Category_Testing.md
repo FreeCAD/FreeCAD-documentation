@@ -5,7 +5,7 @@ Pages related to testing in regards to unit testing, continuous integration, qua
 
 |     |     |     |
 | --- | --- | --- |
-| [Testing/tr](wiki/Testing/tr.md) | [Category:Test Framework/tr](wiki/Category_Test Framework/tr.md) |
+| [Testing/tr](Testing/tr.md) | [Category:Test Framework/tr](Category_Test_Framework/tr.md) |
 
 
 

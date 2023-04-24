@@ -5,13 +5,13 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 
 |     |     |     |
 | --- | --- | --- |
-| [Draft Workbench/hu](wiki/Draft Workbench/hu.md) | [Mesh API/hu](wiki/Mesh API/hu.md) | [Mesh BuildRegularSolid/hu](wiki/Mesh BuildRegularSolid/hu.md) |
-| [Mesh Export/hu](wiki/Mesh Export/hu.md) | [Mesh HarmonizeNormals/hu](wiki/Mesh HarmonizeNormals/hu.md) | [Mesh Import/hu](wiki/Mesh Import/hu.md) |
-| [Mesh Workbench/hu](wiki/Mesh Workbench/hu.md) | [Online Help Toc/hu](wiki/Online Help Toc/hu.md) | [Plot Workbench/hu](wiki/Plot Workbench/hu.md) |
-| [Points Workbench/hu](wiki/Points Workbench/hu.md) | [Robot Workbench/hu](wiki/Robot Workbench/hu.md) | [Ship Workbench/hu](wiki/Ship Workbench/hu.md) |
-| [Sketcher Workbench/hu](wiki/Sketcher Workbench/hu.md) | [Surface Workbench/hu](wiki/Surface Workbench/hu.md) | [TechDraw Workbench/hu](wiki/TechDraw Workbench/hu.md) |
-| [User hub/hu](wiki/User hub/hu.md) | [Workbenches/hu](wiki/Workbenches/hu.md) | [Category:Arch/hu](wiki/Category_Arch/hu.md) |
-| [Category:BIM/hu](wiki/Category_BIM/hu.md) | [Category:Draft/hu](wiki/Category_Draft/hu.md) | [Category:Workbenches/hu](wiki/Category_Workbenches/hu.md) |
+| [Draft Workbench/hu](Draft_Workbench/hu.md) | [Mesh API/hu](Mesh_API/hu.md) | [Mesh BuildRegularSolid/hu](Mesh_BuildRegularSolid/hu.md) |
+| [Mesh Export/hu](Mesh_Export/hu.md) | [Mesh HarmonizeNormals/hu](Mesh_HarmonizeNormals/hu.md) | [Mesh Import/hu](Mesh_Import/hu.md) |
+| [Mesh Workbench/hu](Mesh_Workbench/hu.md) | [Online Help Toc/hu](Online_Help_Toc/hu.md) | [Plot Workbench/hu](Plot_Workbench/hu.md) |
+| [Points Workbench/hu](Points_Workbench/hu.md) | [Robot Workbench/hu](Robot_Workbench/hu.md) | [Ship Workbench/hu](Ship_Workbench/hu.md) |
+| [Sketcher Workbench/hu](Sketcher_Workbench/hu.md) | [Surface Workbench/hu](Surface_Workbench/hu.md) | [TechDraw Workbench/hu](TechDraw_Workbench/hu.md) |
+| [User hub/hu](User_hub/hu.md) | [Workbenches/hu](Workbenches/hu.md) | [Category:Arch/hu](Category_Arch/hu.md) |
+| [Category:BIM/hu](Category_BIM/hu.md) | [Category:Draft/hu](Category_Draft/hu.md) | [Category:Workbenches/hu](Category_Workbenches/hu.md) |
 |
 
 

@@ -5,15 +5,15 @@ Esta categoría agrupa toda la documentación de FreeCAD
 
 |     |     |     |
 | --- | --- | --- |
-| [3D input devices/es](wiki/3D input devices/es.md) | [Civil Engineering Workbench/es](wiki/Civil Engineering Workbench/es.md) | [Drawing templates/es](wiki/Drawing templates/es.md) |
-| [FreeCAD Community Portal/es](wiki/FreeCAD Community Portal/es.md) | [Frequently asked questions/es](wiki/Frequently asked questions/es.md) | [Help FreeCAD/es](wiki/Help FreeCAD/es.md) |
-| [Interesting links/es](wiki/Interesting links/es.md) | [Main Page/es](wiki/Main Page/es.md) | [Online Help Toc/es](wiki/Online Help Toc/es.md) |
-| [Release notes 0.11/es](wiki/Release notes 0.11/es.md) | [Release notes 0.12/es](wiki/Release notes 0.12/es.md) | [Release notes 0.13/es](wiki/Release notes 0.13/es.md) |
-| [Release notes 0.14/es](wiki/Release notes 0.14/es.md) | [Release notes 0.15/es](wiki/Release notes 0.15/es.md) | [Release notes 0.16/es](wiki/Release notes 0.16/es.md) |
-| [Release notes 0.17/es](wiki/Release notes 0.17/es.md) | [Release notes 0.18/es](wiki/Release notes 0.18/es.md) | [Release notes 0.19/es](wiki/Release notes 0.19/es.md) |
-| [Release notes 0.20/es](wiki/Release notes 0.20/es.md) | [Release notes 1.0/es](wiki/Release notes 1.0/es.md) | [WikiPages/es](wiki/WikiPages/es.md) |
-| [Category:Developer Documentation/es](wiki/Category_Developer Documentation/es.md) | [Category:Poweruser Documentation/es](wiki/Category_Poweruser Documentation/es.md) | [Category:Screenshots/es](wiki/Category_Screenshots/es.md) |
-| [Category:User Documentation/es](wiki/Category_User Documentation/es.md) | [Category:Wiki/es](wiki/Category_Wiki/es.md) |
+| [3D input devices/es](3D_input_devices/es.md) | [Civil Engineering Workbench/es](Civil_Engineering_Workbench/es.md) | [Drawing templates/es](Drawing_templates/es.md) |
+| [FreeCAD Community Portal/es](FreeCAD_Community_Portal/es.md) | [Frequently asked questions/es](Frequently_asked_questions/es.md) | [Help FreeCAD/es](Help_FreeCAD/es.md) |
+| [Interesting links/es](Interesting_links/es.md) | [Main Page/es](Main_Page/es.md) | [Online Help Toc/es](Online_Help_Toc/es.md) |
+| [Release notes 0.11/es](Release_notes_0.11/es.md) | [Release notes 0.12/es](Release_notes_0.12/es.md) | [Release notes 0.13/es](Release_notes_0.13/es.md) |
+| [Release notes 0.14/es](Release_notes_0.14/es.md) | [Release notes 0.15/es](Release_notes_0.15/es.md) | [Release notes 0.16/es](Release_notes_0.16/es.md) |
+| [Release notes 0.17/es](Release_notes_0.17/es.md) | [Release notes 0.18/es](Release_notes_0.18/es.md) | [Release notes 0.19/es](Release_notes_0.19/es.md) |
+| [Release notes 0.20/es](Release_notes_0.20/es.md) | [Release notes 1.0/es](Release_notes_1.0/es.md) | [WikiPages/es](WikiPages/es.md) |
+| [Category:Developer Documentation/es](Category_Developer_Documentation/es.md) | [Category:Poweruser Documentation/es](Category_Poweruser_Documentation/es.md) | [Category:Screenshots/es](Category_Screenshots/es.md) |
+| [Category:User Documentation/es](Category_User_Documentation/es.md) | [Category:Wiki/es](Category_Wiki/es.md) |
 
 
 

@@ -5,7 +5,7 @@ This category lists pages related to the [Drawing Workbench/bg](Drawing_Workbenc
 
 |     |     |     |
 | --- | --- | --- |
-| [Drawing Workbench/bg](wiki/Drawing Workbench/bg.md) |
+| [Drawing Workbench/bg](Drawing_Workbench/bg.md) |
 
 
 

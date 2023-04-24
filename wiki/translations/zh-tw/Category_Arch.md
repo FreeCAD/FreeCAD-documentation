@@ -5,7 +5,7 @@ Pages relating to Architectural and Building Information Management
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch Wall/zh-tw](wiki/Arch Wall/zh-tw.md) | [Arch Workbench/zh-tw](wiki/Arch Workbench/zh-tw.md) |
+| [Arch Wall/zh-tw](Arch_Wall/zh-tw.md) | [Arch Workbench/zh-tw](Arch_Workbench/zh-tw.md) |
 
 
 

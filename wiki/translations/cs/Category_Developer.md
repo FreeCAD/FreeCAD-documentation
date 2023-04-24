@@ -5,9 +5,9 @@ This category contains articles that are relevant for developers.
 
 |     |     |     |
 | --- | --- | --- |
-| [Compile on Linux/cs](wiki/Compile on Linux/cs.md) | [Compile on MacOS/cs](wiki/Compile on MacOS/cs.md) | [Compile on Windows/cs](wiki/Compile on Windows/cs.md) |
-| [Compiling/cs](wiki/Compiling/cs.md) | [File Format FCStd/cs](wiki/File Format FCStd/cs.md) | [ImageConv/cs](wiki/ImageConv/cs.md) |
-| [InputField/cs](wiki/InputField/cs.md) |
+| [Compile on Linux/cs](Compile_on_Linux/cs.md) | [Compile on MacOS/cs](Compile_on_MacOS/cs.md) | [Compile on Windows/cs](Compile_on_Windows/cs.md) |
+| [Compiling/cs](Compiling/cs.md) | [File Format FCStd/cs](File_Format_FCStd/cs.md) | [ImageConv/cs](ImageConv/cs.md) |
+| [InputField/cs](InputField/cs.md) |
 
 
 

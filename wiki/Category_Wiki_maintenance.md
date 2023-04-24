@@ -5,7 +5,7 @@
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Pages with a dead link](wiki/Category_Pages with a dead link.md) | [Category:Pages with broken file links](wiki/Category_Pages with broken file links.md) |
+| [Category:Pages with a dead link](Category_Pages_with_a_dead_link.md) | [Category:Pages with broken file links](Category_Pages_with_broken_file_links.md) |
 
 
 

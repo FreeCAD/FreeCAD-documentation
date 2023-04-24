@@ -7,7 +7,7 @@ See also [UncategorizedTemplates](Special_UncategorizedTemplates.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Template:Navigation/uk](wiki/Category_Template_Navigation/uk.md) |
+| [Category:Template:Navigation/uk](Category_Template_Navigation/uk.md) |
 
 
 

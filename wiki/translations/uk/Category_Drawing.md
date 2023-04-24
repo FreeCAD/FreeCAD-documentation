@@ -5,7 +5,7 @@ This category lists pages related to the [Drawing Workbench/uk](Drawing_Workbenc
 
 |     |     |     |
 | --- | --- | --- |
-| [Drawing Workbench/uk](wiki/Drawing Workbench/uk.md) |
+| [Drawing Workbench/uk](Drawing_Workbench/uk.md) |
 
 
 

@@ -5,7 +5,7 @@ This category lists pages that contain helpfull information on MediaWiki and edi
 
 |     |     |     |
 | --- | --- | --- |
-| [Help/ru](wiki/Help/ru.md) |
+| [Help/ru](Help/ru.md) |
 
 
 

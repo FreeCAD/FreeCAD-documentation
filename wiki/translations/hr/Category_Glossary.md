@@ -5,7 +5,7 @@ This category tracks pages that explain definitions of words related to FreeCAD
 
 |     |     |     |
 | --- | --- | --- |
-| [Glossary/hr](wiki/Glossary/hr.md) |
+| [Glossary/hr](Glossary/hr.md) |
 
 
 

@@ -5,18 +5,18 @@ This category lists workbenches included in FreeCAD.
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch Workbench/uk](wiki/Arch Workbench/uk.md) | [Draft Workbench/uk](wiki/Draft Workbench/uk.md) | [Image Workbench/uk](wiki/Image Workbench/uk.md) |
-| [Inspection Workbench/uk](wiki/Inspection Workbench/uk.md) | [Mesh Workbench/uk](wiki/Mesh Workbench/uk.md) | [OpenSCAD Workbench/uk](wiki/OpenSCAD Workbench/uk.md) |
-| [Part Module/uk](wiki/Part Module/uk.md) | [PartDesign Workbench/uk](wiki/PartDesign Workbench/uk.md) | [Points Workbench/uk](wiki/Points Workbench/uk.md) |
-| [Raytracing Workbench/uk](wiki/Raytracing Workbench/uk.md) | [Robot Workbench/uk](wiki/Robot Workbench/uk.md) | [Sketcher Workbench/uk](wiki/Sketcher Workbench/uk.md) |
-| [Spreadsheet Workbench/uk](wiki/Spreadsheet Workbench/uk.md) | [Start Workbench/uk](wiki/Start Workbench/uk.md) | [Surface Workbench/uk](wiki/Surface Workbench/uk.md) |
-| [TechDraw Workbench/uk](wiki/TechDraw Workbench/uk.md) | [Testing/uk](wiki/Testing/uk.md) | [Web Workbench/uk](wiki/Web Workbench/uk.md) |
-| [Workbenches/uk](wiki/Workbenches/uk.md) | [Category:Draft/uk](wiki/Category_Draft/uk.md) | [Category:External Workbenches/uk](wiki/Category_External Workbenches/uk.md) |
-| [Category:FEM/uk](wiki/Category_FEM/uk.md) | [Category:Image/uk](wiki/Category_Image/uk.md) | [Category:Mesh/uk](wiki/Category_Mesh/uk.md) |
-| [Category:OpenSCAD/uk](wiki/Category_OpenSCAD/uk.md) | [Category:Part/uk](wiki/Category_Part/uk.md) | [Category:PartDesign/uk](wiki/Category_PartDesign/uk.md) |
-| [Category:Path/uk](wiki/Category_Path/uk.md) | [Category:Plot/uk](wiki/Category_Plot/uk.md) | [Category:Points/uk](wiki/Category_Points/uk.md) |
-| [Category:Raytracing/uk](wiki/Category_Raytracing/uk.md) | [Category:Robot/uk](wiki/Category_Robot/uk.md) | [Category:Ship/uk](wiki/Category_Ship/uk.md) |
-| [Category:Sketcher/uk](wiki/Category_Sketcher/uk.md) | [Category:Surface/uk](wiki/Category_Surface/uk.md) | [Category:TechDraw/uk](wiki/Category_TechDraw/uk.md) |
+| [Arch Workbench/uk](Arch_Workbench/uk.md) | [Draft Workbench/uk](Draft_Workbench/uk.md) | [Image Workbench/uk](Image_Workbench/uk.md) |
+| [Inspection Workbench/uk](Inspection_Workbench/uk.md) | [Mesh Workbench/uk](Mesh_Workbench/uk.md) | [OpenSCAD Workbench/uk](OpenSCAD_Workbench/uk.md) |
+| [Part Module/uk](Part_Module/uk.md) | [PartDesign Workbench/uk](PartDesign_Workbench/uk.md) | [Points Workbench/uk](Points_Workbench/uk.md) |
+| [Raytracing Workbench/uk](Raytracing_Workbench/uk.md) | [Robot Workbench/uk](Robot_Workbench/uk.md) | [Sketcher Workbench/uk](Sketcher_Workbench/uk.md) |
+| [Spreadsheet Workbench/uk](Spreadsheet_Workbench/uk.md) | [Start Workbench/uk](Start_Workbench/uk.md) | [Surface Workbench/uk](Surface_Workbench/uk.md) |
+| [TechDraw Workbench/uk](TechDraw_Workbench/uk.md) | [Testing/uk](Testing/uk.md) | [Web Workbench/uk](Web_Workbench/uk.md) |
+| [Workbenches/uk](Workbenches/uk.md) | [Category:Draft/uk](Category_Draft/uk.md) | [Category:External Workbenches/uk](Category_External_Workbenches/uk.md) |
+| [Category:FEM/uk](Category_FEM/uk.md) | [Category:Image/uk](Category_Image/uk.md) | [Category:Mesh/uk](Category_Mesh/uk.md) |
+| [Category:OpenSCAD/uk](Category_OpenSCAD/uk.md) | [Category:Part/uk](Category_Part/uk.md) | [Category:PartDesign/uk](Category_PartDesign/uk.md) |
+| [Category:Path/uk](Category_Path/uk.md) | [Category:Plot/uk](Category_Plot/uk.md) | [Category:Points/uk](Category_Points/uk.md) |
+| [Category:Raytracing/uk](Category_Raytracing/uk.md) | [Category:Robot/uk](Category_Robot/uk.md) | [Category:Ship/uk](Category_Ship/uk.md) |
+| [Category:Sketcher/uk](Category_Sketcher/uk.md) | [Category:Surface/uk](Category_Surface/uk.md) | [Category:TechDraw/uk](Category_TechDraw/uk.md) |
 |
 
 

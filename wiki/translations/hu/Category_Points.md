@@ -5,7 +5,7 @@ This category lists pages related to the [Points Workbench/hu](Points_Workbench/
 
 |     |     |     |
 | --- | --- | --- |
-| [Points Workbench/hu](wiki/Points Workbench/hu.md) |
+| [Points Workbench/hu](Points_Workbench/hu.md) |
 
 
 

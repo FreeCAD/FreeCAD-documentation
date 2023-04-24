@@ -5,36 +5,36 @@ This category lists pages related to the [Part Workbench](Part_Workbench.md).
 
 |     |     |     |
 | --- | --- | --- |
-| [Aeroplane](wiki/Aeroplane.md) | [Artwork Part](wiki/Artwork Part.md) | [Basic modeling tutorial](wiki/Basic modeling tutorial.md) |
-| [Constructive solid geometry](wiki/Constructive solid geometry.md) | [Creating a simple part with Part WB](wiki/Creating a simple part with Part WB.md) | [Draft ShapeString tutorial](wiki/Draft ShapeString tutorial.md) |
-| [Feature](wiki/Feature.md) | [Part and PartDesign](wiki/Part and PartDesign.md) | [Part Boolean](wiki/Part Boolean.md) |
-| [Part BooleanFragments](wiki/Part BooleanFragments.md) | [Part Box](wiki/Part Box.md) | [Part BoxSelection](wiki/Part BoxSelection.md) |
-| [Part Builder](wiki/Part Builder.md) | [Part Chamfer](wiki/Part Chamfer.md) | [Part CheckGeometry](wiki/Part CheckGeometry.md) |
-| [Part Circle](wiki/Part Circle.md) | [Part Common](wiki/Part Common.md) | [Part CompCompoundTools](wiki/Part CompCompoundTools.md) |
-| [Part CompJoinFeatures](wiki/Part CompJoinFeatures.md) | [Part CompOffsetTools](wiki/Part CompOffsetTools.md) | [Part Compound](wiki/Part Compound.md) |
-| [Part CompoundFilter](wiki/Part CompoundFilter.md) | [Part CompSplittingTools](wiki/Part CompSplittingTools.md) | [Part Cone](wiki/Part Cone.md) |
-| [Part CrossSections](wiki/Part CrossSections.md) | [Part Cut](wiki/Part Cut.md) | [Part Cylinder](wiki/Part Cylinder.md) |
-| [Part Defeaturing](wiki/Part Defeaturing.md) | [Part EditAttachment](wiki/Part EditAttachment.md) | [Part ElementCopy](wiki/Part ElementCopy.md) |
-| [Part Ellipse](wiki/Part Ellipse.md) | [Part Ellipsoid](wiki/Part Ellipsoid.md) | [Part ExplodeCompound](wiki/Part ExplodeCompound.md) |
-| [Part Export](wiki/Part Export.md) | [Part Extrude](wiki/Part Extrude.md) | [Part Fillet](wiki/Part Fillet.md) |
-| [Part Fuse](wiki/Part Fuse.md) | [Part Helix](wiki/Part Helix.md) | [Part Import](wiki/Part Import.md) |
-| [Part JoinConnect](wiki/Part JoinConnect.md) | [Part JoinCutout](wiki/Part JoinCutout.md) | [Part JoinEmbed](wiki/Part JoinEmbed.md) |
-| [Part Line](wiki/Part Line.md) | [Part Loft](wiki/Part Loft.md) | [Part Loft Technical Details](wiki/Part Loft Technical Details.md) |
-| [Part MakeFace](wiki/Part MakeFace.md) | [Part MakeSolid](wiki/Part MakeSolid.md) | [Part Measure Angular](wiki/Part Measure Angular.md) |
-| [Part Measure Clear All](wiki/Part Measure Clear All.md) | [Part Measure Linear](wiki/Part Measure Linear.md) | [Part Measure Refresh](wiki/Part Measure Refresh.md) |
-| [Part Measure Toggle 3D](wiki/Part Measure Toggle 3D.md) | [Part Measure Toggle All](wiki/Part Measure Toggle All.md) | [Part Measure Toggle Delta](wiki/Part Measure Toggle Delta.md) |
-| [Part Mirror](wiki/Part Mirror.md) | [Part Module](wiki/Part Module.md) | [Part Offset](wiki/Part Offset.md) |
-| [Part Offset2D](wiki/Part Offset2D.md) | [Part Plane](wiki/Part Plane.md) | [Part Point](wiki/Part Point.md) |
-| [Part PointsFromMesh](wiki/Part PointsFromMesh.md) | [Part Primitives](wiki/Part Primitives.md) | [Part Prism](wiki/Part Prism.md) |
-| [Part ProjectionOnSurface](wiki/Part ProjectionOnSurface.md) | [Part RefineShape](wiki/Part RefineShape.md) | [Part RegularPolygon](wiki/Part RegularPolygon.md) |
-| [Part ReverseShapes](wiki/Part ReverseShapes.md) | [Part Revolve](wiki/Part Revolve.md) | [Part RuledSurface](wiki/Part RuledSurface.md) |
-| [Part scripting](wiki/Part scripting.md) | [Part Section](wiki/Part Section.md) | [Part ShapeFromMesh](wiki/Part ShapeFromMesh.md) |
-| [Part SimpleCopy](wiki/Part SimpleCopy.md) | [Part Slice](wiki/Part Slice.md) | [Part SliceApart](wiki/Part SliceApart.md) |
-| [Part Sphere](wiki/Part Sphere.md) | [Part Spiral](wiki/Part Spiral.md) | [Part Sweep](wiki/Part Sweep.md) |
-| [Part Thickness](wiki/Part Thickness.md) | [Template:Part Tools navi](wiki/Template_Part Tools navi.md) | [Part TopoShape](wiki/Part TopoShape.md) |
-| [Part Torus](wiki/Part Torus.md) | [Part TransformedCopy](wiki/Part TransformedCopy.md) | [Part Tube](wiki/Part Tube.md) |
-| [Part Wedge](wiki/Part Wedge.md) | [Part XOR](wiki/Part XOR.md) | [Shape](wiki/Shape.md) |
-| [Thread for Screw Tutorial](wiki/Thread for Screw Tutorial.md) | [Topological naming problem](wiki/Topological naming problem.md) | [Whiffle Ball tutorial](wiki/Whiffle Ball tutorial.md) |
+| [Aeroplane](Aeroplane.md) | [Artwork Part](Artwork_Part.md) | [Basic modeling tutorial](Basic_modeling_tutorial.md) |
+| [Constructive solid geometry](Constructive_solid_geometry.md) | [Creating a simple part with Part WB](Creating_a_simple_part_with_Part_WB.md) | [Draft ShapeString tutorial](Draft_ShapeString_tutorial.md) |
+| [Feature](Feature.md) | [Part and PartDesign](Part_and_PartDesign.md) | [Part Boolean](Part_Boolean.md) |
+| [Part BooleanFragments](Part_BooleanFragments.md) | [Part Box](Part_Box.md) | [Part BoxSelection](Part_BoxSelection.md) |
+| [Part Builder](Part_Builder.md) | [Part Chamfer](Part_Chamfer.md) | [Part CheckGeometry](Part_CheckGeometry.md) |
+| [Part Circle](Part_Circle.md) | [Part Common](Part_Common.md) | [Part CompCompoundTools](Part_CompCompoundTools.md) |
+| [Part CompJoinFeatures](Part_CompJoinFeatures.md) | [Part CompOffsetTools](Part_CompOffsetTools.md) | [Part Compound](Part_Compound.md) |
+| [Part CompoundFilter](Part_CompoundFilter.md) | [Part CompSplittingTools](Part_CompSplittingTools.md) | [Part Cone](Part_Cone.md) |
+| [Part CrossSections](Part_CrossSections.md) | [Part Cut](Part_Cut.md) | [Part Cylinder](Part_Cylinder.md) |
+| [Part Defeaturing](Part_Defeaturing.md) | [Part EditAttachment](Part_EditAttachment.md) | [Part ElementCopy](Part_ElementCopy.md) |
+| [Part Ellipse](Part_Ellipse.md) | [Part Ellipsoid](Part_Ellipsoid.md) | [Part ExplodeCompound](Part_ExplodeCompound.md) |
+| [Part Export](Part_Export.md) | [Part Extrude](Part_Extrude.md) | [Part Fillet](Part_Fillet.md) |
+| [Part Fuse](Part_Fuse.md) | [Part Helix](Part_Helix.md) | [Part Import](Part_Import.md) |
+| [Part JoinConnect](Part_JoinConnect.md) | [Part JoinCutout](Part_JoinCutout.md) | [Part JoinEmbed](Part_JoinEmbed.md) |
+| [Part Line](Part_Line.md) | [Part Loft](Part_Loft.md) | [Part Loft Technical Details](Part_Loft_Technical_Details.md) |
+| [Part MakeFace](Part_MakeFace.md) | [Part MakeSolid](Part_MakeSolid.md) | [Part Measure Angular](Part_Measure_Angular.md) |
+| [Part Measure Clear All](Part_Measure_Clear_All.md) | [Part Measure Linear](Part_Measure_Linear.md) | [Part Measure Refresh](Part_Measure_Refresh.md) |
+| [Part Measure Toggle 3D](Part_Measure_Toggle_3D.md) | [Part Measure Toggle All](Part_Measure_Toggle_All.md) | [Part Measure Toggle Delta](Part_Measure_Toggle_Delta.md) |
+| [Part Mirror](Part_Mirror.md) | [Part Module](Part_Module.md) | [Part Offset](Part_Offset.md) |
+| [Part Offset2D](Part_Offset2D.md) | [Part Plane](Part_Plane.md) | [Part Point](Part_Point.md) |
+| [Part PointsFromMesh](Part_PointsFromMesh.md) | [Part Primitives](Part_Primitives.md) | [Part Prism](Part_Prism.md) |
+| [Part ProjectionOnSurface](Part_ProjectionOnSurface.md) | [Part RefineShape](Part_RefineShape.md) | [Part RegularPolygon](Part_RegularPolygon.md) |
+| [Part ReverseShapes](Part_ReverseShapes.md) | [Part Revolve](Part_Revolve.md) | [Part RuledSurface](Part_RuledSurface.md) |
+| [Part scripting](Part_scripting.md) | [Part Section](Part_Section.md) | [Part ShapeFromMesh](Part_ShapeFromMesh.md) |
+| [Part SimpleCopy](Part_SimpleCopy.md) | [Part Slice](Part_Slice.md) | [Part SliceApart](Part_SliceApart.md) |
+| [Part Sphere](Part_Sphere.md) | [Part Spiral](Part_Spiral.md) | [Part Sweep](Part_Sweep.md) |
+| [Part Thickness](Part_Thickness.md) | [Template:Part Tools navi](Template_Part_Tools_navi.md) | [Part TopoShape](Part_TopoShape.md) |
+| [Part Torus](Part_Torus.md) | [Part TransformedCopy](Part_TransformedCopy.md) | [Part Tube](Part_Tube.md) |
+| [Part Wedge](Part_Wedge.md) | [Part XOR](Part_XOR.md) | [Shape](Shape.md) |
+| [Thread for Screw Tutorial](Thread_for_Screw_Tutorial.md) | [Topological naming problem](Topological_naming_problem.md) | [Whiffle Ball tutorial](Whiffle_Ball_tutorial.md) |
 |
 
 

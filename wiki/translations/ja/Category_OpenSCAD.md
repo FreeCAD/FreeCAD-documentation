@@ -5,7 +5,7 @@ This category lists pages related to the [OpenSCAD_Workbench/ja](OpenSCAD_Workbe
 
 |     |     |     |
 | --- | --- | --- |
-| [OpenSCAD AddOpenSCADElement/ja](wiki/OpenSCAD AddOpenSCADElement/ja.md) |
+| [OpenSCAD AddOpenSCADElement/ja](OpenSCAD_AddOpenSCADElement/ja.md) |
 
 
 

@@ -7,7 +7,7 @@ See also [UncategorizedTemplates](Special_UncategorizedTemplates.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Template:Navigation/ja](wiki/Category_Template_Navigation/ja.md) |
+| [Category:Template:Navigation/ja](Category_Template_Navigation/ja.md) |
 
 
 

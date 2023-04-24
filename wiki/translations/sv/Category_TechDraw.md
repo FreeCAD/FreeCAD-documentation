@@ -5,7 +5,7 @@ This category lists pages related to the [TechDraw Workbench/sv](TechDraw_Workbe
 
 |     |     |     |
 | --- | --- | --- |
-| [TechDraw Workbench/sv](wiki/TechDraw Workbench/sv.md) |
+| [TechDraw Workbench/sv](TechDraw_Workbench/sv.md) |
 
 
 

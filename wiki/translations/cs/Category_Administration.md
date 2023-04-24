@@ -5,7 +5,7 @@ This category contains articles and categories about wiki administrative subject
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:PropertyData/cs](wiki/Template_PropertyData/cs.md) | [Template:PropertyView/cs](wiki/Template_PropertyView/cs.md) | [Category:UnfinishedDocu/cs](wiki/Category_UnfinishedDocu/cs.md) |
+| [Template:PropertyData/cs](Template_PropertyData/cs.md) | [Template:PropertyView/cs](Template_PropertyView/cs.md) | [Category:UnfinishedDocu/cs](Category_UnfinishedDocu/cs.md) |
 |
 
 

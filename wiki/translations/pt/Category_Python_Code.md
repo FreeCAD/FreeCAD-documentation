@@ -5,10 +5,10 @@ This category contains python code examples for FreeCAD
 
 |     |     |     |
 | --- | --- | --- |
-| [Debugging/pt](wiki/Debugging/pt.md) | [Embedding FreeCAD/pt](wiki/Embedding FreeCAD/pt.md) | [FreeCAD Scripting Basics/pt](wiki/FreeCAD Scripting Basics/pt.md) |
-| [Introduction to Python/pt](wiki/Introduction to Python/pt.md) | [Macros/pt](wiki/Macros/pt.md) | [Property/pt](wiki/Property/pt.md) |
-| [PySide/pt](wiki/PySide/pt.md) | [Python scripting tutorial/pt](wiki/Python scripting tutorial/pt.md) | [Scripted objects/pt](wiki/Scripted objects/pt.md) |
-| [Topological data scripting/pt](wiki/Topological data scripting/pt.md) |
+| [Debugging/pt](Debugging/pt.md) | [Embedding FreeCAD/pt](Embedding_FreeCAD/pt.md) | [FreeCAD Scripting Basics/pt](FreeCAD_Scripting_Basics/pt.md) |
+| [Introduction to Python/pt](Introduction_to_Python/pt.md) | [Macros/pt](Macros/pt.md) | [Property/pt](Property/pt.md) |
+| [PySide/pt](PySide/pt.md) | [Python scripting tutorial/pt](Python_scripting_tutorial/pt.md) | [Scripted objects/pt](Scripted_objects/pt.md) |
+| [Topological data scripting/pt](Topological_data_scripting/pt.md) |
 
 
 

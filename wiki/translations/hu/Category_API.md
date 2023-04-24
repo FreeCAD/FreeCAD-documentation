@@ -7,7 +7,7 @@ This category gathers articles that list objects and methods available for [Pyth
 
 |     |     |     |
 | --- | --- | --- |
-| [Mesh API/hu](wiki/Mesh API/hu.md) |
+| [Mesh API/hu](Mesh_API/hu.md) |
 
 
 

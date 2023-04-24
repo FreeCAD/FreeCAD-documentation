@@ -10,12 +10,12 @@ This is the **top category** which contains the main categories of the FreeCAD w
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Addons/ro](wiki/Category_Addons/ro.md) | [Category:Administration/ro](wiki/Category_Administration/ro.md) | [Category:API/ro](wiki/Category_API/ro.md) |
-| [Category:Categories/ro](wiki/Category_Categories/ro.md) | [Category:Command Reference/ro](wiki/Category_Command Reference/ro.md) | [Category:Developer/ro](wiki/Category_Developer/ro.md) |
-| [Category:Documentation/ro](wiki/Category_Documentation/ro.md) | [Category:Hubs/ro](wiki/Category_Hubs/ro.md) | [Category:Macros/ro](wiki/Category_Macros/ro.md) |
-| [Category:News/ro](wiki/Category_News/ro.md) | [Category:Python Code/ro](wiki/Category_Python Code/ro.md) | [Category:Repository/ro](wiki/Category_Repository/ro.md) |
-| [Category:Roadmap/ro](wiki/Category_Roadmap/ro.md) | [Category:Template/ro](wiki/Category_Template/ro.md) | [Category:UnfinishedDocu/ro](wiki/Category_UnfinishedDocu/ro.md) |
-| [Category:Wiki/ro](wiki/Category_Wiki/ro.md) |
+| [Category:Addons/ro](Category_Addons/ro.md) | [Category:Administration/ro](Category_Administration/ro.md) | [Category:API/ro](Category_API/ro.md) |
+| [Category:Categories/ro](Category_Categories/ro.md) | [Category:Command Reference/ro](Category_Command_Reference/ro.md) | [Category:Developer/ro](Category_Developer/ro.md) |
+| [Category:Documentation/ro](Category_Documentation/ro.md) | [Category:Hubs/ro](Category_Hubs/ro.md) | [Category:Macros/ro](Category_Macros/ro.md) |
+| [Category:News/ro](Category_News/ro.md) | [Category:Python Code/ro](Category_Python_Code/ro.md) | [Category:Repository/ro](Category_Repository/ro.md) |
+| [Category:Roadmap/ro](Category_Roadmap/ro.md) | [Category:Template/ro](Category_Template/ro.md) | [Category:UnfinishedDocu/ro](Category_UnfinishedDocu/ro.md) |
+| [Category:Wiki/ro](Category_Wiki/ro.md) |
 
 
 

@@ -5,7 +5,7 @@ This category lists pages related to the [Part Workbench/uk](Part_Workbench/uk.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Part Module/uk](wiki/Part Module/uk.md) |
+| [Part Module/uk](Part_Module/uk.md) |
 
 
 

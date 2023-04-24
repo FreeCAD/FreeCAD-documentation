@@ -5,13 +5,13 @@ This category lists pages related to the [Robot Workbench/pl](Robot_Workbench/pl
 
 |     |     |     |
 | --- | --- | --- |
-| [Artwork Robot/pl](wiki/Artwork Robot/pl.md) | [Robot 6-Axis/pl](wiki/Robot 6-Axis/pl.md) | [Robot API example/pl](wiki/Robot API example/pl.md) |
-| [Robot CreateRobot/pl](wiki/Robot CreateRobot/pl.md) | [Robot CreateTrajectory/pl](wiki/Robot CreateTrajectory/pl.md) | [Robot Edge2Trac/pl](wiki/Robot Edge2Trac/pl.md) |
-| [Robot Export/pl](wiki/Robot Export/pl.md) | [Robot InsertWaypoint/pl](wiki/Robot InsertWaypoint/pl.md) | [Robot InsertWaypointPre/pl](wiki/Robot InsertWaypointPre/pl.md) |
-| [Robot RestoreHomePos/pl](wiki/Robot RestoreHomePos/pl.md) | [Robot SetDefaultOrientation/pl](wiki/Robot SetDefaultOrientation/pl.md) | [Robot SetDefaultValues/pl](wiki/Robot SetDefaultValues/pl.md) |
-| [Robot SetHomePos/pl](wiki/Robot SetHomePos/pl.md) | [Robot Simulate/pl](wiki/Robot Simulate/pl.md) | [Template:Robot Tools navi/pl](wiki/Template_Robot Tools navi/pl.md) |
-| [Robot TrajectoryCompound/pl](wiki/Robot TrajectoryCompound/pl.md) | [Robot TrajectoryDressUp/pl](wiki/Robot TrajectoryDressUp/pl.md) | [Robot tutorial/pl](wiki/Robot tutorial/pl.md) |
-| [Robot Workbench/pl](wiki/Robot Workbench/pl.md) | [VRML Preparation for Robot Simulation/pl](wiki/VRML Preparation for Robot Simulation/pl.md) |
+| [Artwork Robot/pl](Artwork_Robot/pl.md) | [Robot 6-Axis/pl](Robot_6-Axis/pl.md) | [Robot API example/pl](Robot_API_example/pl.md) |
+| [Robot CreateRobot/pl](Robot_CreateRobot/pl.md) | [Robot CreateTrajectory/pl](Robot_CreateTrajectory/pl.md) | [Robot Edge2Trac/pl](Robot_Edge2Trac/pl.md) |
+| [Robot Export/pl](Robot_Export/pl.md) | [Robot InsertWaypoint/pl](Robot_InsertWaypoint/pl.md) | [Robot InsertWaypointPre/pl](Robot_InsertWaypointPre/pl.md) |
+| [Robot RestoreHomePos/pl](Robot_RestoreHomePos/pl.md) | [Robot SetDefaultOrientation/pl](Robot_SetDefaultOrientation/pl.md) | [Robot SetDefaultValues/pl](Robot_SetDefaultValues/pl.md) |
+| [Robot SetHomePos/pl](Robot_SetHomePos/pl.md) | [Robot Simulate/pl](Robot_Simulate/pl.md) | [Template:Robot Tools navi/pl](Template_Robot_Tools_navi/pl.md) |
+| [Robot TrajectoryCompound/pl](Robot_TrajectoryCompound/pl.md) | [Robot TrajectoryDressUp/pl](Robot_TrajectoryDressUp/pl.md) | [Robot tutorial/pl](Robot_tutorial/pl.md) |
+| [Robot Workbench/pl](Robot_Workbench/pl.md) | [VRML Preparation for Robot Simulation/pl](VRML_Preparation_for_Robot_Simulation/pl.md) |
 
 
 

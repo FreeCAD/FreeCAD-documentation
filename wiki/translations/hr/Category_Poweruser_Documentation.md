@@ -5,8 +5,8 @@ This category shows documentation articles dealing with python scripting, which 
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch API/hr](wiki/Arch API/hr.md) | [Debugging/hr](wiki/Debugging/hr.md) | [How to install macros/hr](wiki/How to install macros/hr.md) |
-| [Power users hub/hr](wiki/Power users hub/hr.md) |
+| [Arch API/hr](Arch_API/hr.md) | [Debugging/hr](Debugging/hr.md) | [How to install macros/hr](How_to_install_macros/hr.md) |
+| [Power users hub/hr](Power_users_hub/hr.md) |
 
 
 

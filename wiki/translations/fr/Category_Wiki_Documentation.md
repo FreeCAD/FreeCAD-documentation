@@ -5,7 +5,7 @@ Cette catégorie répertorie les pages relatives à l\'utilisation efficace du w
 
 |     |     |     |
 | --- | --- | --- |
-| [WikiPages/fr](wiki/WikiPages/fr.md) | [Category:Wiki:Example/fr](wiki/Category_Wiki_Example/fr.md) |
+| [WikiPages/fr](WikiPages/fr.md) | [Category:Wiki:Example/fr](Category_Wiki_Example/fr.md) |
 
 
 

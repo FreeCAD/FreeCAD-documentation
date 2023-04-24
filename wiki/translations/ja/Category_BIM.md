@@ -5,7 +5,7 @@ This category is for pages related to building information management (BIM).
 
 |     |     |     |
 | --- | --- | --- |
-| [BIM Workbench/ja](wiki/BIM Workbench/ja.md) | [Manual:BIM modeling/ja](wiki/Manual_BIM modeling/ja.md) | [Category:Arch/ja](wiki/Category_Arch/ja.md) |
+| [BIM Workbench/ja](BIM_Workbench/ja.md) | [Manual:BIM modeling/ja](Manual_BIM_modeling/ja.md) | [Category:Arch/ja](Category_Arch/ja.md) |
 |
 
 

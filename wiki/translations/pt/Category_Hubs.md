@@ -5,7 +5,7 @@ This category gathers the meeting points of the 3 broad categories of users of F
 
 |     |     |     |
 | --- | --- | --- |
-| [Developer hub/pt](wiki/Developer hub/pt.md) | [Power users hub/pt](wiki/Power users hub/pt.md) | [User hub/pt](wiki/User hub/pt.md) |
+| [Developer hub/pt](Developer_hub/pt.md) | [Power users hub/pt](Power_users_hub/pt.md) | [User hub/pt](User_hub/pt.md) |
 |
 
 

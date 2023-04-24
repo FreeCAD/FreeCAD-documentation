@@ -7,14 +7,14 @@ This category gathers articles that list objects and methods available for [Pyth
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch API](wiki/Arch API.md) | [Base API](wiki/Base API.md) | [Builtin modules](wiki/Builtin modules.md) |
-| [Console API](wiki/Console API.md) | [Draft API](wiki/Draft API.md) | [FeaturePython Custom Properties](wiki/FeaturePython Custom Properties.md) |
-| [FreeCAD API](wiki/FreeCAD API.md) | [FreeCADGui API](wiki/FreeCADGui API.md) | [Matrix API](wiki/Matrix API.md) |
-| [Mesh API](wiki/Mesh API.md) | [Object API](wiki/Object API.md) | [Part API](wiki/Part API.md) |
-| [Placement API](wiki/Placement API.md) | [Python](wiki/Python.md) | [Reinforcement API](wiki/Reinforcement API.md) |
-| [Robot API example](wiki/Robot API example.md) | [Selection API](wiki/Selection API.md) | [TechDraw API](wiki/TechDraw API.md) |
-| [TechDrawGui API](wiki/TechDrawGui API.md) | [TopoShape API](wiki/TopoShape API.md) | [Vector API](wiki/Vector API.md) |
-| [ViewObject API](wiki/ViewObject API.md) |
+| [Arch API](Arch_API.md) | [Base API](Base_API.md) | [Builtin modules](Builtin_modules.md) |
+| [Console API](Console_API.md) | [Draft API](Draft_API.md) | [FeaturePython Custom Properties](FeaturePython_Custom_Properties.md) |
+| [FreeCAD API](FreeCAD_API.md) | [FreeCADGui API](FreeCADGui_API.md) | [Matrix API](Matrix_API.md) |
+| [Mesh API](Mesh_API.md) | [Object API](Object_API.md) | [Part API](Part_API.md) |
+| [Placement API](Placement_API.md) | [Python](Python.md) | [Reinforcement API](Reinforcement_API.md) |
+| [Robot API example](Robot_API_example.md) | [Selection API](Selection_API.md) | [TechDraw API](TechDraw_API.md) |
+| [TechDrawGui API](TechDrawGui_API.md) | [TopoShape API](TopoShape_API.md) | [Vector API](Vector_API.md) |
+| [ViewObject API](ViewObject_API.md) |
 
 
 

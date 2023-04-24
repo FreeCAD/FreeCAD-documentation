@@ -5,7 +5,7 @@ Ta kategoria zawiera listę stron, które odnoszą się do efektywnego korzystan
 
 |     |     |     |
 | --- | --- | --- |
-| [WikiPages/pl](wiki/WikiPages/pl.md) |
+| [WikiPages/pl](WikiPages/pl.md) |
 
 
 

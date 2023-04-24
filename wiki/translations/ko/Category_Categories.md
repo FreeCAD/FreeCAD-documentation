@@ -10,9 +10,9 @@ This is the **top category** which contains the main categories of the FreeCAD w
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Administration/ko](wiki/Category_Administration/ko.md) | [Category:Categories/ko](wiki/Category_Categories/ko.md) | [Category:Developer/ko](wiki/Category_Developer/ko.md) |
-| [Category:Documentation/ko](wiki/Category_Documentation/ko.md) | [Category:Hubs/ko](wiki/Category_Hubs/ko.md) | [Category:News/ko](wiki/Category_News/ko.md) |
-| [Category:Wiki/ko](wiki/Category_Wiki/ko.md) |
+| [Category:Administration/ko](Category_Administration/ko.md) | [Category:Categories/ko](Category_Categories/ko.md) | [Category:Developer/ko](Category_Developer/ko.md) |
+| [Category:Documentation/ko](Category_Documentation/ko.md) | [Category:Hubs/ko](Category_Hubs/ko.md) | [Category:News/ko](Category_News/ko.md) |
+| [Category:Wiki/ko](Category_Wiki/ko.md) |
 
 
 

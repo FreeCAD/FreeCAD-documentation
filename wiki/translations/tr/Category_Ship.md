@@ -5,7 +5,7 @@ This category lists pages related to the [Ship Workbench/tr](Ship_Workbench/tr.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Ship AreasCurve/tr](wiki/Ship AreasCurve/tr.md) | [Ship Workbench/tr](wiki/Ship Workbench/tr.md) |
+| [Ship AreasCurve/tr](Ship_AreasCurve/tr.md) | [Ship Workbench/tr](Ship_Workbench/tr.md) |
 
 
 

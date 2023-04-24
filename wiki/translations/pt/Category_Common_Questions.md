@@ -5,7 +5,7 @@ This category has links to common questions on how to do something in FC. This i
 
 |     |     |     |
 | --- | --- | --- |
-| [Help FreeCAD/pt](wiki/Help FreeCAD/pt.md) | [Installing on Linux/pt](wiki/Installing on Linux/pt.md) | [Video tutorials/pt](wiki/Video tutorials/pt.md) |
+| [Help FreeCAD/pt](Help_FreeCAD/pt.md) | [Installing on Linux/pt](Installing_on_Linux/pt.md) | [Video tutorials/pt](Video_tutorials/pt.md) |
 |
 
 

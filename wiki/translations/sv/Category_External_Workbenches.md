@@ -5,7 +5,7 @@ This category collects pages from the [external workbenches](external_workbenche
 
 |     |     |     |
 | --- | --- | --- |
-| [Plot Workbench/sv](wiki/Plot Workbench/sv.md) | [Ship Workbench/sv](wiki/Ship Workbench/sv.md) |
+| [Plot Workbench/sv](Plot_Workbench/sv.md) | [Ship Workbench/sv](Ship_Workbench/sv.md) |
 
 
 

@@ -5,7 +5,7 @@ This category includes FreeCAD pages related to PartDesign
 
 |     |     |     |
 | --- | --- | --- |
-| [PartDesign Workbench/sv](wiki/PartDesign Workbench/sv.md) |
+| [PartDesign Workbench/sv](PartDesign_Workbench/sv.md) |
 
 
 

@@ -12,13 +12,13 @@ Utilisez les outils suivants pour travailler avec les :
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Addons/fr](wiki/Category_Addons/fr.md) | [Category:Administration/fr](wiki/Category_Administration/fr.md) | [Category:API/fr](wiki/Category_API/fr.md) |
-| [Category:Categories/fr](wiki/Category_Categories/fr.md) | [Category:Command Reference/fr](wiki/Category_Command Reference/fr.md) | [Category:Developer/fr](wiki/Category_Developer/fr.md) |
-| [Category:Documentation/fr](wiki/Category_Documentation/fr.md) | [Category:Help/fr](wiki/Category_Help/fr.md) | [Category:Hubs/fr](wiki/Category_Hubs/fr.md) |
-| [Category:Image/fr](wiki/Category_Image/fr.md) | [Category:Macros/fr](wiki/Category_Macros/fr.md) | [Category:News/fr](wiki/Category_News/fr.md) |
-| [Category:Python Code/fr](wiki/Category_Python Code/fr.md) | [Category:Repository/fr](wiki/Category_Repository/fr.md) | [Category:Roadmap/fr](wiki/Category_Roadmap/fr.md) |
-| [Category:Sandbox/fr](wiki/Category_Sandbox/fr.md) | [Category:Template/fr](wiki/Category_Template/fr.md) | [Category:UnfinishedDocu/fr](wiki/Category_UnfinishedDocu/fr.md) |
-| [Category:Wiki/fr](wiki/Category_Wiki/fr.md) |
+| [Category:Addons/fr](Category_Addons/fr.md) | [Category:Administration/fr](Category_Administration/fr.md) | [Category:API/fr](Category_API/fr.md) |
+| [Category:Categories/fr](Category_Categories/fr.md) | [Category:Command Reference/fr](Category_Command_Reference/fr.md) | [Category:Developer/fr](Category_Developer/fr.md) |
+| [Category:Documentation/fr](Category_Documentation/fr.md) | [Category:Help/fr](Category_Help/fr.md) | [Category:Hubs/fr](Category_Hubs/fr.md) |
+| [Category:Image/fr](Category_Image/fr.md) | [Category:Macros/fr](Category_Macros/fr.md) | [Category:News/fr](Category_News/fr.md) |
+| [Category:Python Code/fr](Category_Python_Code/fr.md) | [Category:Repository/fr](Category_Repository/fr.md) | [Category:Roadmap/fr](Category_Roadmap/fr.md) |
+| [Category:Sandbox/fr](Category_Sandbox/fr.md) | [Category:Template/fr](Category_Template/fr.md) | [Category:UnfinishedDocu/fr](Category_UnfinishedDocu/fr.md) |
+| [Category:Wiki/fr](Category_Wiki/fr.md) |
 
 
 

@@ -5,7 +5,7 @@ This category lists pages related to the [Ship Workbench/ja](Ship_Workbench/ja.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Ship Workbench/ja](wiki/Ship Workbench/ja.md) |
+| [Ship Workbench/ja](Ship_Workbench/ja.md) |
 
 
 

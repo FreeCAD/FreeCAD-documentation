@@ -5,7 +5,7 @@ This category lists pages related to the [Plot Workbench/sv](Plot_Workbench/sv.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Plot Workbench/sv](wiki/Plot Workbench/sv.md) |
+| [Plot Workbench/sv](Plot_Workbench/sv.md) |
 
 
 

@@ -7,7 +7,7 @@ See also [UncategorizedTemplates](Special_UncategorizedTemplates.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Template:Doc/hr](wiki/Category_Template_Doc/hr.md) | [Category:Template:Navigation/hr](wiki/Category_Template_Navigation/hr.md) |
+| [Category:Template:Doc/hr](Category_Template_Doc/hr.md) | [Category:Template:Navigation/hr](Category_Template_Navigation/hr.md) |
 
 
 

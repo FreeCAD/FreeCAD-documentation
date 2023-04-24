@@ -5,7 +5,7 @@ This category gathers the meeting points of the 3 broad categories of users of F
 
 |     |     |     |
 | --- | --- | --- |
-| [Developer hub/ro](wiki/Developer hub/ro.md) | [Power users hub/ro](wiki/Power users hub/ro.md) | [User hub/ro](wiki/User hub/ro.md) |
+| [Developer hub/ro](Developer_hub/ro.md) | [Power users hub/ro](Power_users_hub/ro.md) | [User hub/ro](User_hub/ro.md) |
 |
 
 

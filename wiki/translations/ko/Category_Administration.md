@@ -5,7 +5,7 @@ This category contains articles and categories about wiki administrative subject
 
 |     |     |     |
 | --- | --- | --- |
-| [Changelog/ko](wiki/Changelog/ko.md) | [Category:Wiki/ko](wiki/Category_Wiki/ko.md) |
+| [Changelog/ko](Changelog/ko.md) | [Category:Wiki/ko](Category_Wiki/ko.md) |
 
 
 

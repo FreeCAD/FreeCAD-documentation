@@ -5,33 +5,33 @@ This category includes FreeCAD pages related to Sketcher
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch panel tutorial/ro](wiki/Arch panel tutorial/ro.md) | [Basic Part Design Tutorial/ro](wiki/Basic Part Design Tutorial/ro.md) | [Basic Sketcher Tutorial/ro](wiki/Basic Sketcher Tutorial/ro.md) |
-| [Creating a simple part with PartDesign/ro](wiki/Creating a simple part with PartDesign/ro.md) | [Draft ShapeString tutorial/ro](wiki/Draft ShapeString tutorial/ro.md) | [Sketcher CarbonCopy/ro](wiki/Sketcher CarbonCopy/ro.md) |
-| [Sketcher Clone/ro](wiki/Sketcher Clone/ro.md) | [Sketcher CloseShape/ro](wiki/Sketcher CloseShape/ro.md) | [Sketcher CompCreateArc/ro](wiki/Sketcher CompCreateArc/ro.md) |
-| [Sketcher CompCreateConic/ro](wiki/Sketcher CompCreateConic/ro.md) | [Sketcher ConnectLines/ro](wiki/Sketcher ConnectLines/ro.md) | [Sketcher ConstrainAngle/ro](wiki/Sketcher ConstrainAngle/ro.md) |
-| [Sketcher ConstrainBlock/ro](wiki/Sketcher ConstrainBlock/ro.md) | [Sketcher ConstrainCoincident/ro](wiki/Sketcher ConstrainCoincident/ro.md) | [Sketcher ConstrainDistance/ro](wiki/Sketcher ConstrainDistance/ro.md) |
-| [Sketcher ConstrainDistanceX/ro](wiki/Sketcher ConstrainDistanceX/ro.md) | [Sketcher ConstrainDistanceY/ro](wiki/Sketcher ConstrainDistanceY/ro.md) | [Sketcher ConstrainEqual/ro](wiki/Sketcher ConstrainEqual/ro.md) |
-| [Sketcher ConstrainHorizontal/ro](wiki/Sketcher ConstrainHorizontal/ro.md) | [Sketcher ConstrainInternalAlignment/ro](wiki/Sketcher ConstrainInternalAlignment/ro.md) | [Sketcher ConstrainLock/ro](wiki/Sketcher ConstrainLock/ro.md) |
-| [Sketcher ConstrainParallel/ro](wiki/Sketcher ConstrainParallel/ro.md) | [Sketcher ConstrainPointOnObject/ro](wiki/Sketcher ConstrainPointOnObject/ro.md) | [Sketcher ConstrainRadius/ro](wiki/Sketcher ConstrainRadius/ro.md) |
-| [Sketcher ConstrainSymmetric/ro](wiki/Sketcher ConstrainSymmetric/ro.md) | [Sketcher ConstrainTangent/ro](wiki/Sketcher ConstrainTangent/ro.md) | [Sketcher ConstrainVertical/ro](wiki/Sketcher ConstrainVertical/ro.md) |
-| [Sketcher Copy/ro](wiki/Sketcher Copy/ro.md) | [Sketcher Create3PointArc/ro](wiki/Sketcher Create3PointArc/ro.md) | [Sketcher Create3PointCircle/ro](wiki/Sketcher Create3PointCircle/ro.md) |
-| [Sketcher CreateArc/ro](wiki/Sketcher CreateArc/ro.md) | [Sketcher CreateArcOfEllipse/ro](wiki/Sketcher CreateArcOfEllipse/ro.md) | [Sketcher CreateArcOfHyperbola/ro](wiki/Sketcher CreateArcOfHyperbola/ro.md) |
-| [Sketcher CreateArcOfParabola/ro](wiki/Sketcher CreateArcOfParabola/ro.md) | [Sketcher CreateCircle/ro](wiki/Sketcher CreateCircle/ro.md) | [Sketcher CreateEllipseBy3Points/ro](wiki/Sketcher CreateEllipseBy3Points/ro.md) |
-| [Sketcher CreateEllipseByCenter/ro](wiki/Sketcher CreateEllipseByCenter/ro.md) | [Sketcher CreateFillet/ro](wiki/Sketcher CreateFillet/ro.md) | [Sketcher CreateHeptagon/ro](wiki/Sketcher CreateHeptagon/ro.md) |
-| [Sketcher CreateHexagon/ro](wiki/Sketcher CreateHexagon/ro.md) | [Sketcher CreateOctagon/ro](wiki/Sketcher CreateOctagon/ro.md) | [Sketcher CreatePentagon/ro](wiki/Sketcher CreatePentagon/ro.md) |
-| [Sketcher CreatePoint/ro](wiki/Sketcher CreatePoint/ro.md) | [Sketcher CreatePolyline/ro](wiki/Sketcher CreatePolyline/ro.md) | [Sketcher CreateRectangle/ro](wiki/Sketcher CreateRectangle/ro.md) |
-| [Sketcher CreateSlot/ro](wiki/Sketcher CreateSlot/ro.md) | [Sketcher CreateSquare/ro](wiki/Sketcher CreateSquare/ro.md) | [Sketcher CreateTriangle/ro](wiki/Sketcher CreateTriangle/ro.md) |
-| [Sketcher EditSketch/ro](wiki/Sketcher EditSketch/ro.md) | [Sketcher Extend/ro](wiki/Sketcher Extend/ro.md) | [Sketcher External/ro](wiki/Sketcher External/ro.md) |
-| [Sketcher LeaveSketch/ro](wiki/Sketcher LeaveSketch/ro.md) | [Sketcher MapSketch/ro](wiki/Sketcher MapSketch/ro.md) | [Sketcher MergeSketches/ro](wiki/Sketcher MergeSketches/ro.md) |
-| [Sketcher Micro Tutorial - Constraint Practices/ro](wiki/Sketcher Micro Tutorial - Constraint Practices/ro.md) | [Sketcher MirrorSketch/ro](wiki/Sketcher MirrorSketch/ro.md) | [Sketcher Move/ro](wiki/Sketcher Move/ro.md) |
-| [Sketcher NewSketch/ro](wiki/Sketcher NewSketch/ro.md) | [Sketcher RectangularArray/ro](wiki/Sketcher RectangularArray/ro.md) | [Sketcher ReorientSketch/ro](wiki/Sketcher ReorientSketch/ro.md) |
-| [Sketcher RestoreInternalAlignmentGeometry/ro](wiki/Sketcher RestoreInternalAlignmentGeometry/ro.md) | [Sketcher SelectConflictingConstraints/ro](wiki/Sketcher SelectConflictingConstraints/ro.md) | [Sketcher SelectConstraints/ro](wiki/Sketcher SelectConstraints/ro.md) |
-| [Sketcher SelectElementsAssociatedWithConstraints/ro](wiki/Sketcher SelectElementsAssociatedWithConstraints/ro.md) | [Sketcher SelectElementsWithDoFs/ro](wiki/Sketcher SelectElementsWithDoFs/ro.md) | [Sketcher SelectHorizontalAxis/ro](wiki/Sketcher SelectHorizontalAxis/ro.md) |
-| [Sketcher SelectOrigin/ro](wiki/Sketcher SelectOrigin/ro.md) | [Sketcher SelectRedundantConstraints/ro](wiki/Sketcher SelectRedundantConstraints/ro.md) | [Sketcher SelectVerticalAxis/ro](wiki/Sketcher SelectVerticalAxis/ro.md) |
-| [Sketcher Symmetry/ro](wiki/Sketcher Symmetry/ro.md) | [Sketcher ToggleConstruction/ro](wiki/Sketcher ToggleConstruction/ro.md) | [Sketcher ToggleDrivingConstraint/ro](wiki/Sketcher ToggleDrivingConstraint/ro.md) |
-| [Sketcher Trimming/ro](wiki/Sketcher Trimming/ro.md) | [Sketcher ValidateSketch/ro](wiki/Sketcher ValidateSketch/ro.md) | [Sketcher ViewSection/ro](wiki/Sketcher ViewSection/ro.md) |
-| [Sketcher ViewSketch/ro](wiki/Sketcher ViewSketch/ro.md) | [Sketcher Workbench/ro](wiki/Sketcher Workbench/ro.md) | [Thread for Screw Tutorial/ro](wiki/Thread for Screw Tutorial/ro.md) |
-| [Toothbrush Head Stand/ro](wiki/Toothbrush Head Stand/ro.md) |
+| [Arch panel tutorial/ro](Arch_panel_tutorial/ro.md) | [Basic Part Design Tutorial/ro](Basic_Part_Design_Tutorial/ro.md) | [Basic Sketcher Tutorial/ro](Basic_Sketcher_Tutorial/ro.md) |
+| [Creating a simple part with PartDesign/ro](Creating_a_simple_part_with_PartDesign/ro.md) | [Draft ShapeString tutorial/ro](Draft_ShapeString_tutorial/ro.md) | [Sketcher CarbonCopy/ro](Sketcher_CarbonCopy/ro.md) |
+| [Sketcher Clone/ro](Sketcher_Clone/ro.md) | [Sketcher CloseShape/ro](Sketcher_CloseShape/ro.md) | [Sketcher CompCreateArc/ro](Sketcher_CompCreateArc/ro.md) |
+| [Sketcher CompCreateConic/ro](Sketcher_CompCreateConic/ro.md) | [Sketcher ConnectLines/ro](Sketcher_ConnectLines/ro.md) | [Sketcher ConstrainAngle/ro](Sketcher_ConstrainAngle/ro.md) |
+| [Sketcher ConstrainBlock/ro](Sketcher_ConstrainBlock/ro.md) | [Sketcher ConstrainCoincident/ro](Sketcher_ConstrainCoincident/ro.md) | [Sketcher ConstrainDistance/ro](Sketcher_ConstrainDistance/ro.md) |
+| [Sketcher ConstrainDistanceX/ro](Sketcher_ConstrainDistanceX/ro.md) | [Sketcher ConstrainDistanceY/ro](Sketcher_ConstrainDistanceY/ro.md) | [Sketcher ConstrainEqual/ro](Sketcher_ConstrainEqual/ro.md) |
+| [Sketcher ConstrainHorizontal/ro](Sketcher_ConstrainHorizontal/ro.md) | [Sketcher ConstrainInternalAlignment/ro](Sketcher_ConstrainInternalAlignment/ro.md) | [Sketcher ConstrainLock/ro](Sketcher_ConstrainLock/ro.md) |
+| [Sketcher ConstrainParallel/ro](Sketcher_ConstrainParallel/ro.md) | [Sketcher ConstrainPointOnObject/ro](Sketcher_ConstrainPointOnObject/ro.md) | [Sketcher ConstrainRadius/ro](Sketcher_ConstrainRadius/ro.md) |
+| [Sketcher ConstrainSymmetric/ro](Sketcher_ConstrainSymmetric/ro.md) | [Sketcher ConstrainTangent/ro](Sketcher_ConstrainTangent/ro.md) | [Sketcher ConstrainVertical/ro](Sketcher_ConstrainVertical/ro.md) |
+| [Sketcher Copy/ro](Sketcher_Copy/ro.md) | [Sketcher Create3PointArc/ro](Sketcher_Create3PointArc/ro.md) | [Sketcher Create3PointCircle/ro](Sketcher_Create3PointCircle/ro.md) |
+| [Sketcher CreateArc/ro](Sketcher_CreateArc/ro.md) | [Sketcher CreateArcOfEllipse/ro](Sketcher_CreateArcOfEllipse/ro.md) | [Sketcher CreateArcOfHyperbola/ro](Sketcher_CreateArcOfHyperbola/ro.md) |
+| [Sketcher CreateArcOfParabola/ro](Sketcher_CreateArcOfParabola/ro.md) | [Sketcher CreateCircle/ro](Sketcher_CreateCircle/ro.md) | [Sketcher CreateEllipseBy3Points/ro](Sketcher_CreateEllipseBy3Points/ro.md) |
+| [Sketcher CreateEllipseByCenter/ro](Sketcher_CreateEllipseByCenter/ro.md) | [Sketcher CreateFillet/ro](Sketcher_CreateFillet/ro.md) | [Sketcher CreateHeptagon/ro](Sketcher_CreateHeptagon/ro.md) |
+| [Sketcher CreateHexagon/ro](Sketcher_CreateHexagon/ro.md) | [Sketcher CreateOctagon/ro](Sketcher_CreateOctagon/ro.md) | [Sketcher CreatePentagon/ro](Sketcher_CreatePentagon/ro.md) |
+| [Sketcher CreatePoint/ro](Sketcher_CreatePoint/ro.md) | [Sketcher CreatePolyline/ro](Sketcher_CreatePolyline/ro.md) | [Sketcher CreateRectangle/ro](Sketcher_CreateRectangle/ro.md) |
+| [Sketcher CreateSlot/ro](Sketcher_CreateSlot/ro.md) | [Sketcher CreateSquare/ro](Sketcher_CreateSquare/ro.md) | [Sketcher CreateTriangle/ro](Sketcher_CreateTriangle/ro.md) |
+| [Sketcher EditSketch/ro](Sketcher_EditSketch/ro.md) | [Sketcher Extend/ro](Sketcher_Extend/ro.md) | [Sketcher External/ro](Sketcher_External/ro.md) |
+| [Sketcher LeaveSketch/ro](Sketcher_LeaveSketch/ro.md) | [Sketcher MapSketch/ro](Sketcher_MapSketch/ro.md) | [Sketcher MergeSketches/ro](Sketcher_MergeSketches/ro.md) |
+| [Sketcher Micro Tutorial - Constraint Practices/ro](Sketcher_Micro_Tutorial_-_Constraint_Practices/ro.md) | [Sketcher MirrorSketch/ro](Sketcher_MirrorSketch/ro.md) | [Sketcher Move/ro](Sketcher_Move/ro.md) |
+| [Sketcher NewSketch/ro](Sketcher_NewSketch/ro.md) | [Sketcher RectangularArray/ro](Sketcher_RectangularArray/ro.md) | [Sketcher ReorientSketch/ro](Sketcher_ReorientSketch/ro.md) |
+| [Sketcher RestoreInternalAlignmentGeometry/ro](Sketcher_RestoreInternalAlignmentGeometry/ro.md) | [Sketcher SelectConflictingConstraints/ro](Sketcher_SelectConflictingConstraints/ro.md) | [Sketcher SelectConstraints/ro](Sketcher_SelectConstraints/ro.md) |
+| [Sketcher SelectElementsAssociatedWithConstraints/ro](Sketcher_SelectElementsAssociatedWithConstraints/ro.md) | [Sketcher SelectElementsWithDoFs/ro](Sketcher_SelectElementsWithDoFs/ro.md) | [Sketcher SelectHorizontalAxis/ro](Sketcher_SelectHorizontalAxis/ro.md) |
+| [Sketcher SelectOrigin/ro](Sketcher_SelectOrigin/ro.md) | [Sketcher SelectRedundantConstraints/ro](Sketcher_SelectRedundantConstraints/ro.md) | [Sketcher SelectVerticalAxis/ro](Sketcher_SelectVerticalAxis/ro.md) |
+| [Sketcher Symmetry/ro](Sketcher_Symmetry/ro.md) | [Sketcher ToggleConstruction/ro](Sketcher_ToggleConstruction/ro.md) | [Sketcher ToggleDrivingConstraint/ro](Sketcher_ToggleDrivingConstraint/ro.md) |
+| [Sketcher Trimming/ro](Sketcher_Trimming/ro.md) | [Sketcher ValidateSketch/ro](Sketcher_ValidateSketch/ro.md) | [Sketcher ViewSection/ro](Sketcher_ViewSection/ro.md) |
+| [Sketcher ViewSketch/ro](Sketcher_ViewSketch/ro.md) | [Sketcher Workbench/ro](Sketcher_Workbench/ro.md) | [Thread for Screw Tutorial/ro](Thread_for_Screw_Tutorial/ro.md) |
+| [Toothbrush Head Stand/ro](Toothbrush_Head_Stand/ro.md) |
 
 
 

@@ -5,8 +5,8 @@ This category contains all documents that relate to the Wiki.
 
 |     |     |     |
 | --- | --- | --- |
-| [Glossary/pl](wiki/Glossary/pl.md) | [Localisation Sidebar/pl](wiki/Localisation Sidebar/pl.md) | [Localisation/pl](wiki/Localisation/pl.md) |
-| [WikiPages/pl](wiki/WikiPages/pl.md) |
+| [Glossary/pl](Glossary/pl.md) | [Localisation Sidebar/pl](Localisation_Sidebar/pl.md) | [Localisation/pl](Localisation/pl.md) |
+| [WikiPages/pl](WikiPages/pl.md) |
 
 
 

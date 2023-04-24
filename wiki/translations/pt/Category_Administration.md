@@ -5,8 +5,8 @@ This category contains articles and categories about wiki administrative subject
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:PropertyData/pt](wiki/Template_PropertyData/pt.md) | [Template:PropertyView/pt](wiki/Template_PropertyView/pt.md) | [Tracker/pt](wiki/Tracker/pt.md) |
-| [Category:Wiki/pt](wiki/Category_Wiki/pt.md) |
+| [Template:PropertyData/pt](Template_PropertyData/pt.md) | [Template:PropertyView/pt](Template_PropertyView/pt.md) | [Tracker/pt](Tracker/pt.md) |
+| [Category:Wiki/pt](Category_Wiki/pt.md) |
 
 
 

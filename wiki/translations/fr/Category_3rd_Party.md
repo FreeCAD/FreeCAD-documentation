@@ -5,10 +5,10 @@ External aka 3rd-Party applications/libraries that FreeCAD depends on or are of 
 
 |     |     |     |
 | --- | --- | --- |
-| [3Dconnexion input devices/fr](wiki/3Dconnexion input devices/fr.md) | [Developing FreeCAD with GitKraken/fr](wiki/Developing FreeCAD with GitKraken/fr.md) | [Developing FreeCAD with KDevelop/fr](wiki/Developing FreeCAD with KDevelop/fr.md) |
-| [Doxygen/fr](wiki/Doxygen/fr.md) | [IfcOpenShell/fr](wiki/IfcOpenShell/fr.md) | [Import/Export IFC - compiling IfcOpenShell/fr](wiki/Import/Export IFC - compiling IfcOpenShell/fr.md) |
-| [NumPy/fr](wiki/NumPy/fr.md) | [OpenCamLib/fr](wiki/OpenCamLib/fr.md) | [Std DependencyGraph/fr](wiki/Std DependencyGraph/fr.md) |
-| [SweetHome3D/fr](wiki/SweetHome3D/fr.md) |
+| [3Dconnexion input devices/fr](3Dconnexion_input_devices/fr.md) | [Developing FreeCAD with GitKraken/fr](Developing_FreeCAD_with_GitKraken/fr.md) | [Developing FreeCAD with KDevelop/fr](Developing_FreeCAD_with_KDevelop/fr.md) |
+| [Doxygen/fr](Doxygen/fr.md) | [IfcOpenShell/fr](IfcOpenShell/fr.md) | [Import/Export IFC - compiling IfcOpenShell/fr](Import/Export_IFC_-_compiling_IfcOpenShell/fr.md) |
+| [NumPy/fr](NumPy/fr.md) | [OpenCamLib/fr](OpenCamLib/fr.md) | [Std DependencyGraph/fr](Std_DependencyGraph/fr.md) |
+| [SweetHome3D/fr](SweetHome3D/fr.md) |
 
 
 

@@ -5,7 +5,7 @@ This category lists pages related to the [Part Workbench/zh](Part_Workbench/zh.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Part Module/zh](wiki/Part Module/zh.md) |
+| [Part Module/zh](Part_Module/zh.md) |
 
 
 

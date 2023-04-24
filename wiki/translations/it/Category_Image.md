@@ -5,9 +5,8 @@ This category is the top level category for **images**. It should not contain an
 
 |     |     |     |
 | --- | --- | --- |
-| [Artwork Image/it](wiki/Artwork Image/it.md) | [Bitmap/it](wiki/Bitmap/it.md) | [Image CreateImagePlane/it](wiki/Image CreateImagePlane/it.md) |
-| [Image Open/it](wiki/Image Open/it.md) | [Image Scaling/it](wiki/Image Scaling/it.md) | [Image Workbench/it](wiki/Image Workbench/it.md) |
-|
+| [Bitmap/it](Bitmap/it.md) | [Image CreateImagePlane/it](Image_CreateImagePlane/it.md) | [Image Open/it](Image_Open/it.md) |
+| [Image Scaling/it](Image_Scaling/it.md) | [Image Workbench/it](Image_Workbench/it.md) |
 
 
 

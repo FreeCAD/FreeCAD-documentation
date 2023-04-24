@@ -7,8 +7,8 @@ Questa categoria raccoglie e riunisce i punti di incontro delle 3 grandi categor
 
 |     |     |     |
 | --- | --- | --- |
-| [Developer hub/it](wiki/Developer hub/it.md) | [Power users hub/it](wiki/Power users hub/it.md) | [Scientific literature/it](wiki/Scientific literature/it.md) |
-| [User hub/it](wiki/User hub/it.md) |
+| [Developer hub/it](Developer_hub/it.md) | [Power users hub/it](Power_users_hub/it.md) | [Scientific literature/it](Scientific_literature/it.md) |
+| [User hub/it](User_hub/it.md) |
 
 
 

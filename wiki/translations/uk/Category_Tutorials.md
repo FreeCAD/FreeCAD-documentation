@@ -7,8 +7,8 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch tutorial/uk](wiki/Arch tutorial/uk.md) | [Manual:Installing/uk](wiki/Manual_Installing/uk.md) | [Tutorials/uk](wiki/Tutorials/uk.md) |
-| [Video tutorials/uk](wiki/Video tutorials/uk.md) |
+| [Arch tutorial/uk](Arch_tutorial/uk.md) | [Basic Part Design Tutorial 019/uk](Basic_Part_Design_Tutorial_019/uk.md) | [Manual:Installing/uk](Manual_Installing/uk.md) |
+| [Tutorials/uk](Tutorials/uk.md) |
 
 
 

@@ -5,9 +5,9 @@ This category collects pages about all the different file formats that FreeCAD i
 
 |     |     |     |
 | --- | --- | --- |
-| [Draft DXF/ro](wiki/Draft DXF/ro.md) | [Export to STL or OBJ/ro](wiki/Export to STL or OBJ/ro.md) | [File Format FCStd/ro](wiki/File Format FCStd/ro.md) |
-| [Import Export Preferences/ro](wiki/Import Export Preferences/ro.md) | [Import Export/ro](wiki/Import Export/ro.md) | [Import from STL or OBJ/ro](wiki/Import from STL or OBJ/ro.md) |
-| [Import/Export IFC - compiling IfcOpenShell/ro](wiki/Import/Export IFC - compiling IfcOpenShell/ro.md) | [Std Export/ro](wiki/Std Export/ro.md) | [Std Import/ro](wiki/Std Import/ro.md) |
+| [Draft DXF/ro](Draft_DXF/ro.md) | [Export to STL or OBJ/ro](Export_to_STL_or_OBJ/ro.md) | [File Format FCStd/ro](File_Format_FCStd/ro.md) |
+| [Import Export Preferences/ro](Import_Export_Preferences/ro.md) | [Import Export/ro](Import_Export/ro.md) | [Import from STL or OBJ/ro](Import_from_STL_or_OBJ/ro.md) |
+| [Import/Export IFC - compiling IfcOpenShell/ro](Import/Export_IFC_-_compiling_IfcOpenShell/ro.md) | [Std Export/ro](Std_Export/ro.md) | [Std Import/ro](Std_Import/ro.md) |
 |
 
 

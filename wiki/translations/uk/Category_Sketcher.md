@@ -5,7 +5,7 @@ This category lists pages related to the [Sketcher Workbench/uk](Sketcher_Workbe
 
 |     |     |     |
 | --- | --- | --- |
-| [Sketcher Workbench/uk](wiki/Sketcher Workbench/uk.md) |
+| [Basic Part Design Tutorial 019/uk](Basic_Part_Design_Tutorial_019/uk.md) | [Sketcher Workbench/uk](Sketcher_Workbench/uk.md) |
 
 
 

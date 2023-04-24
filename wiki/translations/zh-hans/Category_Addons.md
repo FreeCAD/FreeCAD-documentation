@@ -5,7 +5,7 @@ This page lists external addon workbenches that have a page in this wiki. Addons
 
 |     |     |     |
 | --- | --- | --- |
-| [A2plus Workbench/zh-hans](wiki/A2plus Workbench/zh-hans.md) | [Category:External Workbenches/zh-hans](wiki/Category_External Workbenches/zh-hans.md) |
+| [A2plus Workbench/zh-hans](A2plus_Workbench/zh-hans.md) | [Category:External Workbenches/zh-hans](Category_External_Workbenches/zh-hans.md) |
 
 
 

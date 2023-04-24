@@ -5,9 +5,9 @@ This category lists pages related to the [Points Workbench/pt-br](Points_Workben
 
 |     |     |     |
 | --- | --- | --- |
-| [Points Convert/pt-br](wiki/Points Convert/pt-br.md) | [Points Export/pt-br](wiki/Points Export/pt-br.md) | [Points Import/pt-br](wiki/Points Import/pt-br.md) |
-| [Points Merge/pt-br](wiki/Points Merge/pt-br.md) | [Points PolyCut/pt-br](wiki/Points PolyCut/pt-br.md) | [Points Structure/pt-br](wiki/Points Structure/pt-br.md) |
-| [Points Workbench/pt-br](wiki/Points Workbench/pt-br.md) |
+| [Points Convert/pt-br](Points_Convert/pt-br.md) | [Points Export/pt-br](Points_Export/pt-br.md) | [Points Import/pt-br](Points_Import/pt-br.md) |
+| [Points Merge/pt-br](Points_Merge/pt-br.md) | [Points PolyCut/pt-br](Points_PolyCut/pt-br.md) | [Points Structure/pt-br](Points_Structure/pt-br.md) |
+| [Points Workbench/pt-br](Points_Workbench/pt-br.md) |
 
 
 

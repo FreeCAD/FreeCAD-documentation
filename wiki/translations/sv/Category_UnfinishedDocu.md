@@ -5,7 +5,7 @@ This category contains all Unfinished Documents
 
 |     |     |     |
 | --- | --- | --- |
-| [Part Mirror/sv](wiki/Part Mirror/sv.md) | [Sketcher ConstrainHorizontal/sv](wiki/Sketcher ConstrainHorizontal/sv.md) |
+| [Part Mirror/sv](Part_Mirror/sv.md) | [Sketcher ConstrainHorizontal/sv](Sketcher_ConstrainHorizontal/sv.md) |
 
 
 

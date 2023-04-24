@@ -5,15 +5,15 @@ This page lists external addon workbenches that have a page in this wiki. Addons
 
 |     |     |     |
 | --- | --- | --- |
-| [A2plus Workbench/es](wiki/A2plus Workbench/es.md) | [Addon/es](wiki/Addon/es.md) | [Animation Workbench/es](wiki/Animation Workbench/es.md) |
-| [Assembly3 Workbench/es](wiki/Assembly3 Workbench/es.md) | [Assembly4 Workbench/es](wiki/Assembly4 Workbench/es.md) | [BIM Workbench/es](wiki/BIM Workbench/es.md) |
-| [Civil Engineering Workbench/es](wiki/Civil Engineering Workbench/es.md) | [External workbenches/es](wiki/External workbenches/es.md) | [FCGear Workbench/es](wiki/FCGear Workbench/es.md) |
-| [How to install additional workbenches/es](wiki/How to install additional workbenches/es.md) | [KicadStepUp Workbench/es](wiki/KicadStepUp Workbench/es.md) | [PCB Workbench/es](wiki/PCB Workbench/es.md) |
-| [Plot Axes/es](wiki/Plot Axes/es.md) | [Plot Basic tutorial/es](wiki/Plot Basic tutorial/es.md) | [Plot Grid/es](wiki/Plot Grid/es.md) |
-| [Plot Labels/es](wiki/Plot Labels/es.md) | [Plot Legend/es](wiki/Plot Legend/es.md) | [Plot MultiAxes tutorial/es](wiki/Plot MultiAxes tutorial/es.md) |
-| [Plot Positions/es](wiki/Plot Positions/es.md) | [Plot Save/es](wiki/Plot Save/es.md) | [Plot Series/es](wiki/Plot Series/es.md) |
-| [Plot Workbench/es](wiki/Plot Workbench/es.md) | [Ship Workbench/es](wiki/Ship Workbench/es.md) | [Symbols Library Workbench/es](wiki/Symbols Library Workbench/es.md) |
-| [WebTools Workbench/es](wiki/WebTools Workbench/es.md) | [Category:External Workbenches/es](wiki/Category_External Workbenches/es.md) |
+| [A2plus Workbench/es](A2plus_Workbench/es.md) | [Addon/es](Addon/es.md) | [Animation Workbench/es](Animation_Workbench/es.md) |
+| [Assembly3 Workbench/es](Assembly3_Workbench/es.md) | [Assembly4 Workbench/es](Assembly4_Workbench/es.md) | [BIM Workbench/es](BIM_Workbench/es.md) |
+| [Civil Engineering Workbench/es](Civil_Engineering_Workbench/es.md) | [External workbenches/es](External_workbenches/es.md) | [FCGear Workbench/es](FCGear_Workbench/es.md) |
+| [How to install additional workbenches/es](How_to_install_additional_workbenches/es.md) | [KicadStepUp Workbench/es](KicadStepUp_Workbench/es.md) | [PCB Workbench/es](PCB_Workbench/es.md) |
+| [Plot Axes/es](Plot_Axes/es.md) | [Plot Basic tutorial/es](Plot_Basic_tutorial/es.md) | [Plot Grid/es](Plot_Grid/es.md) |
+| [Plot Labels/es](Plot_Labels/es.md) | [Plot Legend/es](Plot_Legend/es.md) | [Plot MultiAxes tutorial/es](Plot_MultiAxes_tutorial/es.md) |
+| [Plot Positions/es](Plot_Positions/es.md) | [Plot Save/es](Plot_Save/es.md) | [Plot Series/es](Plot_Series/es.md) |
+| [Plot Workbench/es](Plot_Workbench/es.md) | [Ship Workbench/es](Ship_Workbench/es.md) | [Symbols Library Workbench/es](Symbols_Library_Workbench/es.md) |
+| [WebTools Workbench/es](WebTools_Workbench/es.md) | [Category:External Workbenches/es](Category_External_Workbenches/es.md) |
 
 
 

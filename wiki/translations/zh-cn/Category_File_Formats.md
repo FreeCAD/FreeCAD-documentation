@@ -5,7 +5,7 @@ This category collects pages about all the different file formats that FreeCAD i
 
 |     |     |     |
 | --- | --- | --- |
-| [Import Export/zh-cn](wiki/Import Export/zh-cn.md) |
+| [Import Export/zh-cn](Import_Export/zh-cn.md) |
 
 
 

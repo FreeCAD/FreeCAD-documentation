@@ -5,8 +5,8 @@ This category contains articles and categories about wiki administrative subject
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:PropertyData/tr](wiki/Template_PropertyData/tr.md) | [Template:PropertyView/tr](wiki/Template_PropertyView/tr.md) | [Tracker/tr](wiki/Tracker/tr.md) |
-| [Category:Wiki/tr](wiki/Category_Wiki/tr.md) |
+| [Template:PropertyData/tr](Template_PropertyData/tr.md) | [Template:PropertyView/tr](Template_PropertyView/tr.md) | [Tracker/tr](Tracker/tr.md) |
+| [Category:Wiki/tr](Category_Wiki/tr.md) |
 
 
 

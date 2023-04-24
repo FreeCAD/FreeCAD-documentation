@@ -11,13 +11,13 @@ Den betreffenden Artikeln folgende Zeile anhängen:
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:Arch Tools navi/de](wiki/Template_Arch Tools navi/de.md) | [Bug Triage/de](wiki/Bug Triage/de.md) | [Changelog/de](wiki/Changelog/de.md) |
-| [Crowdin Administration/de](wiki/Crowdin Administration/de.md) | [Crowdin Scripts/de](wiki/Crowdin Scripts/de.md) | [Template:Drawing Tools navi/de](wiki/Template_Drawing Tools navi/de.md) |
-| [Template:OpenSCAD Tools navi/de](wiki/Template_OpenSCAD Tools navi/de.md) | [Template:Part Tools navi/de](wiki/Template_Part Tools navi/de.md) | [Template:PartDesign Tools navi/de](wiki/Template_PartDesign Tools navi/de.md) |
-| [Template:Properties Title/de](wiki/Template_Properties Title/de.md) | [Template:PropertyData/de](wiki/Template_PropertyData/de.md) | [Template:PropertyView/de](wiki/Template_PropertyView/de.md) |
-| [Template:Robot Tools navi/de](wiki/Template_Robot Tools navi/de.md) | [Template:Sketcher Tools navi/de](wiki/Template_Sketcher Tools navi/de.md) | [Template:TechDraw Tools navi/de](wiki/Template_TechDraw Tools navi/de.md) |
-| [Tracker/de](wiki/Tracker/de.md) | [WikiPages/de](wiki/WikiPages/de.md) | [WikiRobots/de](wiki/WikiRobots/de.md) |
-| [Category:UnfinishedDocu/de](wiki/Category_UnfinishedDocu/de.md) | [Category:Wiki/de](wiki/Category_Wiki/de.md) |
+| [Template:Arch Tools navi/de](Template_Arch_Tools_navi/de.md) | [Bug Triage/de](Bug_Triage/de.md) | [Changelog/de](Changelog/de.md) |
+| [Crowdin Administration/de](Crowdin_Administration/de.md) | [Crowdin Scripts/de](Crowdin_Scripts/de.md) | [Template:Drawing Tools navi/de](Template_Drawing_Tools_navi/de.md) |
+| [Template:OpenSCAD Tools navi/de](Template_OpenSCAD_Tools_navi/de.md) | [Template:Part Tools navi/de](Template_Part_Tools_navi/de.md) | [Template:PartDesign Tools navi/de](Template_PartDesign_Tools_navi/de.md) |
+| [Template:Properties Title/de](Template_Properties_Title/de.md) | [Template:PropertyData/de](Template_PropertyData/de.md) | [Template:PropertyView/de](Template_PropertyView/de.md) |
+| [Template:Robot Tools navi/de](Template_Robot_Tools_navi/de.md) | [Template:Sketcher Tools navi/de](Template_Sketcher_Tools_navi/de.md) | [Template:TechDraw Tools navi/de](Template_TechDraw_Tools_navi/de.md) |
+| [Tracker/de](Tracker/de.md) | [WikiPages/de](WikiPages/de.md) | [WikiRobots/de](WikiRobots/de.md) |
+| [Category:UnfinishedDocu/de](Category_UnfinishedDocu/de.md) | [Category:Wiki/de](Category_Wiki/de.md) |
 
 
 

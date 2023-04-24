@@ -5,8 +5,8 @@ This category contains all Unfinished Documents
 
 |     |     |     |
 | --- | --- | --- |
-| [BIM Workbench/hr](wiki/BIM Workbench/hr.md) | [Manual:BIM modeling/hr](wiki/Manual_BIM modeling/hr.md) | [Path Shape/hr](wiki/Path Shape/hr.md) |
-| [SheetMetal Workbench/hr](wiki/SheetMetal Workbench/hr.md) |
+| [BIM Workbench/hr](BIM_Workbench/hr.md) | [Manual:BIM modeling/hr](Manual_BIM_modeling/hr.md) | [Path Shape/hr](Path_Shape/hr.md) |
+| [SheetMetal Workbench/hr](SheetMetal_Workbench/hr.md) |
 
 
 

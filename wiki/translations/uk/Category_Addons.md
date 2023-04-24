@@ -5,8 +5,8 @@ This page lists external addon workbenches that have a page in this wiki. Addons
 
 |     |     |     |
 | --- | --- | --- |
-| [Assembly3 Workbench/uk](wiki/Assembly3 Workbench/uk.md) | [Defeaturing Workbench/uk](wiki/Defeaturing Workbench/uk.md) | [Fasteners Workbench/uk](wiki/Fasteners Workbench/uk.md) |
-| [Ship Workbench/uk](wiki/Ship Workbench/uk.md) | [Category:External Workbenches/uk](wiki/Category_External Workbenches/uk.md) |
+| [Assembly3 Workbench/uk](Assembly3_Workbench/uk.md) | [Defeaturing Workbench/uk](Defeaturing_Workbench/uk.md) | [Fasteners Workbench/uk](Fasteners_Workbench/uk.md) |
+| [Ship Workbench/uk](Ship_Workbench/uk.md) | [Category:External Workbenches/uk](Category_External_Workbenches/uk.md) |
 
 
 

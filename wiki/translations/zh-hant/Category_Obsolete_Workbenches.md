@@ -5,7 +5,7 @@ This category lists pages related to the [Drawing Workbench/zh-hant](Drawing_Wor
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Drawing/zh-hant](wiki/Category_Drawing/zh-hant.md) | [Category:Obsolete Workbenches/zh-hant](wiki/Category_Obsolete Workbenches/zh-hant.md) |
+| [Category:Drawing/zh-hant](Category_Drawing/zh-hant.md) | [Category:Obsolete Workbenches/zh-hant](Category_Obsolete_Workbenches/zh-hant.md) |
 
 
 

@@ -5,7 +5,7 @@ This category lists pages related to the [PartDesign Workbench/id](PartDesign_Wo
 
 |     |     |     |
 | --- | --- | --- |
-| [PartDesign Workbench/id](wiki/PartDesign Workbench/id.md) |
+| [PartDesign Workbench/id](PartDesign_Workbench/id.md) |
 
 
 

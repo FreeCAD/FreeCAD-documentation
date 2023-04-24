@@ -5,18 +5,18 @@ This category includes FreeCAD pages related to Sketcher
 
 |     |     |     |
 | --- | --- | --- |
-| [Basic Sketcher Tutorial/pt](wiki/Basic Sketcher Tutorial/pt.md) | [Sketcher CarbonCopy/pt](wiki/Sketcher CarbonCopy/pt.md) | [Sketcher CompCreateArc/pt](wiki/Sketcher CompCreateArc/pt.md) |
-| [Sketcher ConstrainAngle/pt](wiki/Sketcher ConstrainAngle/pt.md) | [Sketcher ConstrainCoincident/pt](wiki/Sketcher ConstrainCoincident/pt.md) | [Sketcher ConstrainDistance/pt](wiki/Sketcher ConstrainDistance/pt.md) |
-| [Sketcher ConstrainDistanceX/pt](wiki/Sketcher ConstrainDistanceX/pt.md) | [Sketcher ConstrainDistanceY/pt](wiki/Sketcher ConstrainDistanceY/pt.md) | [Sketcher ConstrainEqual/pt](wiki/Sketcher ConstrainEqual/pt.md) |
-| [Sketcher ConstrainHorizontal/pt](wiki/Sketcher ConstrainHorizontal/pt.md) | [Sketcher ConstrainLock/pt](wiki/Sketcher ConstrainLock/pt.md) | [Sketcher ConstrainParallel/pt](wiki/Sketcher ConstrainParallel/pt.md) |
-| [Sketcher ConstrainPerpendicular/pt](wiki/Sketcher ConstrainPerpendicular/pt.md) | [Sketcher ConstrainPointOnObject/pt](wiki/Sketcher ConstrainPointOnObject/pt.md) | [Sketcher ConstrainRadius/pt](wiki/Sketcher ConstrainRadius/pt.md) |
-| [Sketcher ConstrainSymmetric/pt](wiki/Sketcher ConstrainSymmetric/pt.md) | [Sketcher ConstrainVertical/pt](wiki/Sketcher ConstrainVertical/pt.md) | [Sketcher CreateArc/pt](wiki/Sketcher CreateArc/pt.md) |
-| [Sketcher CreateCircle/pt](wiki/Sketcher CreateCircle/pt.md) | [Sketcher CreateFillet/pt](wiki/Sketcher CreateFillet/pt.md) | [Sketcher CreateLine/pt](wiki/Sketcher CreateLine/pt.md) |
-| [Sketcher CreatePoint/pt](wiki/Sketcher CreatePoint/pt.md) | [Sketcher CreatePolyline/pt](wiki/Sketcher CreatePolyline/pt.md) | [Sketcher CreateRectangle/pt](wiki/Sketcher CreateRectangle/pt.md) |
-| [Sketcher External/pt](wiki/Sketcher External/pt.md) | [Sketcher LeaveSketch/pt](wiki/Sketcher LeaveSketch/pt.md) | [Sketcher MapSketch/pt](wiki/Sketcher MapSketch/pt.md) |
-| [Sketcher Move/pt](wiki/Sketcher Move/pt.md) | [Sketcher NewSketch/pt](wiki/Sketcher NewSketch/pt.md) | [Sketcher ReorientSketch/pt](wiki/Sketcher ReorientSketch/pt.md) |
-| [Sketcher SelectElementsWithDoFs/pt](wiki/Sketcher SelectElementsWithDoFs/pt.md) | [Sketcher ToggleConstruction/pt](wiki/Sketcher ToggleConstruction/pt.md) | [Sketcher Trimming/pt](wiki/Sketcher Trimming/pt.md) |
-| [Sketcher ValidateSketch/pt](wiki/Sketcher ValidateSketch/pt.md) | [Sketcher ViewSketch/pt](wiki/Sketcher ViewSketch/pt.md) | [Sketcher Workbench/pt](wiki/Sketcher Workbench/pt.md) |
+| [Basic Sketcher Tutorial/pt](Basic_Sketcher_Tutorial/pt.md) | [Sketcher CarbonCopy/pt](Sketcher_CarbonCopy/pt.md) | [Sketcher CompCreateArc/pt](Sketcher_CompCreateArc/pt.md) |
+| [Sketcher ConstrainAngle/pt](Sketcher_ConstrainAngle/pt.md) | [Sketcher ConstrainCoincident/pt](Sketcher_ConstrainCoincident/pt.md) | [Sketcher ConstrainDistance/pt](Sketcher_ConstrainDistance/pt.md) |
+| [Sketcher ConstrainDistanceX/pt](Sketcher_ConstrainDistanceX/pt.md) | [Sketcher ConstrainDistanceY/pt](Sketcher_ConstrainDistanceY/pt.md) | [Sketcher ConstrainEqual/pt](Sketcher_ConstrainEqual/pt.md) |
+| [Sketcher ConstrainHorizontal/pt](Sketcher_ConstrainHorizontal/pt.md) | [Sketcher ConstrainLock/pt](Sketcher_ConstrainLock/pt.md) | [Sketcher ConstrainParallel/pt](Sketcher_ConstrainParallel/pt.md) |
+| [Sketcher ConstrainPerpendicular/pt](Sketcher_ConstrainPerpendicular/pt.md) | [Sketcher ConstrainPointOnObject/pt](Sketcher_ConstrainPointOnObject/pt.md) | [Sketcher ConstrainRadius/pt](Sketcher_ConstrainRadius/pt.md) |
+| [Sketcher ConstrainSymmetric/pt](Sketcher_ConstrainSymmetric/pt.md) | [Sketcher ConstrainVertical/pt](Sketcher_ConstrainVertical/pt.md) | [Sketcher CreateArc/pt](Sketcher_CreateArc/pt.md) |
+| [Sketcher CreateCircle/pt](Sketcher_CreateCircle/pt.md) | [Sketcher CreateFillet/pt](Sketcher_CreateFillet/pt.md) | [Sketcher CreateLine/pt](Sketcher_CreateLine/pt.md) |
+| [Sketcher CreatePoint/pt](Sketcher_CreatePoint/pt.md) | [Sketcher CreatePolyline/pt](Sketcher_CreatePolyline/pt.md) | [Sketcher CreateRectangle/pt](Sketcher_CreateRectangle/pt.md) |
+| [Sketcher External/pt](Sketcher_External/pt.md) | [Sketcher LeaveSketch/pt](Sketcher_LeaveSketch/pt.md) | [Sketcher MapSketch/pt](Sketcher_MapSketch/pt.md) |
+| [Sketcher Move/pt](Sketcher_Move/pt.md) | [Sketcher NewSketch/pt](Sketcher_NewSketch/pt.md) | [Sketcher ReorientSketch/pt](Sketcher_ReorientSketch/pt.md) |
+| [Sketcher SelectElementsWithDoFs/pt](Sketcher_SelectElementsWithDoFs/pt.md) | [Sketcher ToggleConstruction/pt](Sketcher_ToggleConstruction/pt.md) | [Sketcher Trimming/pt](Sketcher_Trimming/pt.md) |
+| [Sketcher ValidateSketch/pt](Sketcher_ValidateSketch/pt.md) | [Sketcher ViewSketch/pt](Sketcher_ViewSketch/pt.md) | [Sketcher Workbench/pt](Sketcher_Workbench/pt.md) |
 |
 
 
