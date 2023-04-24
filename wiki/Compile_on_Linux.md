@@ -378,7 +378,7 @@ For Debian Jessie, Stretch, Ubuntu 16.04 and newer, install the community editio
 
 
 
-You may install the libraries individually, or using asterisk expansion. Change `occ` for `oce` if you want to install the community libraries.
+You may install the libraries individually, or using asterisk expansion. Change `occt` for `oce` if you want to install the community libraries.
 
  
 ```python
