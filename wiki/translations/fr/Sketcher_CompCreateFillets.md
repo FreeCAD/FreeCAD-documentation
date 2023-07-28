@@ -1,9 +1,7 @@
 ---
 - GuiCommand:/fr
-   Name:Sketcher Fillets
+   Name:Sketcher CompCreateFillets
    Name/fr:Sketcher Congés
-   Icon:Sketcher_CompCreateFillets.png
-   MenuLocation:
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Version:0.19
 ---
@@ -13,6 +11,8 @@
 ## Description
 
 **Congés** est un bouton d\'icône de la barre d\'outils Géométries d\'esquisse qui regroupe les outils pour créer des congés. Cliquez sur la flèche vers le bas à sa droite pour développer les icônes situées en dessous et sélectionnez un outil.
+
+
 
 ## Types de congés 
 

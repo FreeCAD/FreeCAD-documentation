@@ -1,24 +1,29 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:FEM PostApplyChanges
-   MenuLocation:Results → Apply changes to pipeline
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[Std Refresh](Std_Refresh.md), [FEM Filter functions](FEM_PostCreateFunctions.md)
+   Name/pl:MES Zastosuj zmiany
+   MenuLocation:Wyniki → Zastosuj zmiany
+   Workbenches:[MES](FEM_Workbench/pl.md)
+   SeeAlso:[Odśwież](Std_Refresh/pl.md), [Komponent funkcje](FEM_PostCreateFunctions/pl.md)
 ---
 
 # FEM PostApplyChanges/pl
 
-## Description
 
-Toggles if changes to pipelines and filters are applied immediately or not.
 
-If the feature is active, changes to [filter functions](FEM_PostCreateFunctions.md) and filters have an immediate effect. However, for large result meshes this can slow down the PC significantly.
+## Opis
 
-If the feature is not active, a change of the size and position of functions first have an effect after recomputing the function object (see [Std Refresh](Std_Refresh.md)). For changes to filters, the change will first have an effect when pressing in the filter dialog the button **Apply** or by recomputing the filter object.
+Umożliwia przełączanie, czy zmiany w potokach i filtrach są stosowane natychmiast czy nie.
 
-## Usage
+Jeśli ta opcja jest aktywna, zmiany w [funkcjach filtrujących](FEM_PostCreateFunctions/pl.md) i filtrach mają natychmiastowy efekt. Jednak przy dużych siatkach wynikowych może to znacznie spowolnić pracę komputera.
 
-Click the toolbar button **<img src="images/FEM_PostApplyChanges.svg" width=16px> '''Apply changes to pipeline'''** or use the menu **Results → <img src="images/FEM_PostApplyChanges.svg" width=16px> Apply changes to pipeline**.
+Jeżeli funkcja nie jest aktywna, to zmiana rozmiaru i pozycji funkcji najpierw wywoła efekt po ponownym obliczeniu obiektu funkcji *(patrz [Odśwież](Std_Refresh/pl.md))*. W przypadku zmian w filtrach, zmiana będzie miała najpierw efekt po naciśnięciu w oknie dialogowym filtra przycisku **Zastosuj** lub po ponownym przeliczeniu filtrowanego obiektu.
+
+
+
+## Użycie
+
+Kliknij przycisk na pasku narzędzi **<img src="images/FEM_PostApplyChanges.svg" width=16px> '''Zastosuj zmiany'''** lub użyj menu **Wyniki → <img src="images/FEM_PostApplyChanges.svg" width=16px> Zastosuj zmiany**.
 
 
 

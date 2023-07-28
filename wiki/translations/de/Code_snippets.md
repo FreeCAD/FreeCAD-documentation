@@ -1649,7 +1649,9 @@ def normal(self):
 
 {{Top}}
 
-### Get the normal vector of the face and create a line at the point mouse clicked 
+
+
+### Normalenvektor einer Fläche ermitteln und eine Linie in einem Punkt erstellen, durch Mausklicks 
 
 
 ```python
@@ -1938,14 +1940,9 @@ Siehe [Coin3d Schnippsel](Coin3d_snippets/de.md)
 
 ## Verwandt
 
-
-<div class="mw-translate-fuzzy">
-
--   [geskriptete Objekte](Scripted_objects/de.md)
+-   [Skripgenerierte Objekte](Scripted_objects/de.md)
 -   [Makros](Macros/de.md)
-
-
-</div>
+-   [Topologische Daten skripten](Topological_data_scripting/de.md)
 
 
 {{Top}}

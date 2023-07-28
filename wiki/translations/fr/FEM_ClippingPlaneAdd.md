@@ -15,6 +15,8 @@ Ajoute un plan de coupe pour l\'ensemble de la vue du modèle. Tous les objets v
 
 Le plan de coupe est le même que celui que vous obtenez en utilisant la fonction [Std Basculer le plan de coupe](Std_ToggleClipPlane/fr.md), à la différence que le plan de coupe est persistant. Il partage donc la même fonctionnalité qui consiste à ne fournir que des coupes creuses.
 
+
+
 ## Utilisation
 
 Pour créer un plan de coupe, utilisez le bouton de la barre d\'outils **<img src="images/FEM_ClippingPlaneAdd.svg" width=16px> '''Plan de coupe'''** ou le menu **Utilitaires → <img src="images/FEM_ClippingPlaneAdd.svg" width=16px> Plan de coupe**. Il est possible d\'avoir plusieurs plans de coupes.

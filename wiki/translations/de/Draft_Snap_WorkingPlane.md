@@ -1,60 +1,46 @@
 ---
 - GuiCommand:/de
    Name:Draft Snap WorkingPlane
-   Name/de:Draft Arbeitsebene
-   MenuLocation:Entwurf → [Objektfang](Draft_Snap/de.md) → Arbeitsebene
+   Name/de:Draft EinrastenAufArbeitsebene
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso:[Draft Objektfang](Draft_Snap/de.md), [Draft Ebene markieren](Draft_SelectPlane/de.md)
+   SeeAlso:[Draft Einrasten](Draft_Snap/de.md), [Draft EinrastenSperren](Draft_Snap_Lock/de.md), [Draft EbeneAuswählen](Draft_SelectPlane/de.md)
 ---
 
 # Draft Snap WorkingPlane/de
 
 
-</div>
 
 ## Beschreibung
 
+Die Option <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:24px;"> **Draft EinrastenAufArbeitsebene** projiziert Einrast-Punkte auf die aktuelle [Arbeitsebene](Draft_SelectPlane/de.md). Sie kann nur in Kombination mit anderen Einrast-Optionen verwendet werden.
 
-<div class="mw-translate-fuzzy">
-
-Diese Methode platziert immer einen neuen Punkt auf der aktuellen [Arbeitsebene](Draft_SelectPlane/de.md), selbst wenn eine andere Einrastmethode verwendet und ein Punkt außerhalb dieser Arbeitsebene ausgewählt wird.
-
-
-</div>
-
-![](images/Draft_Snap_WorkingPlane_example.png )
+![](images/Draft_Snap_WorkingPlane_example.png ) 
+*Einrasten des zweiten Punktes einer Linie auf den projizierten Endpunkt einer Kante*
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-*Einrasten des zweiten Punkts einer Linie an einem Endpunkt einer Kante eines Körpers, der dann auf die XY-Ebene projiziert wird*
-
-
-</div>
 
 ## Anwendung
 
 For general information about snapping see [Draft Snap](Draft_Snap.md).
 
-1.  Optionally change the [working plane](Draft_SelectPlane.md).
-2.  Make sure snapping is enabled. See <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Snap Lock](Draft_Snap_Lock.md).
-3.  If **Draft Snap WorkingPlane** is not active do one of the following:
-    -   Press the **<img src="images/Draft_Snap_WorkingPlane.svg" width=16px>** button in the Draft snap toolbar.
-    -   Press the **<img src="images/Draft_Snap_WorkingPlane.svg" width=16px>** button in the [Draft snap widget](Draft_snap_widget.md).
-4.  Make sure at least one other snap option is active.
-5.  Choose a [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) command to create your geometry.
-6.  Note that you can also change snap options while a command is active.
-7.  Move the cursor over the object you want to snap to.
-8.  The object is highlighted.
-9.  If a snap point is found it is projected onto the [working plane](Draft_SelectPlane.md) where it is marked.
-10. Click to confirm the point.
+1.  Wahlweise die [Arbeitsebene](Draft_SelectPlane/de.md) wechseln.
+2.  Einrasten sollte aktiviert sein. Siehe <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft EinrastenSperren](Draft_Snap_Lock/de.md).
+3.  Ist **Draft EinrastenAufArbeitsebene** nicht aktiv, gibt es folgende Möglichkeiten:
+    -   Die Schaltfläche **<img src="images/Draft_Snap_WorkingPlane.svg" width=16px>** in der Symbolleiste Draft-Einrasten drücken.
+    -   Die Schaltfläche **<img src="images/Draft_Snap_WorkingPlane.svg" width=16px> Arbeitsebene einrasten** im [Draft-Widget Einrasten](Draft_snap_widget/de.md) drücken.
+4.  Mindestens eine weitere Einrast-Option sollte aktiviert sein.
+5.  Einen [Draft](Draft_Workbench/de.md)- oder [Arch](Arch_Workbench/de.md)-Befehl auswählen, um die gewünschte Geometrie zu erstellen.
+6.  Man beachte, dass die Einrast-Optionen auch dann geändert werden können, wenn ein Befehl aktiv ist.
+7.  Den Mauszeiger auf das Objekt bewegen, auf das eingerastet wrden soll.
+8.  Das Objekt wird hervorgehoben.
+9.  Wurde ein Einrast-Punkt ermittelt, wird er auf die [Arbeitsebene](Draft_SelectPlane/de.md) projiziert und dort markiert.
+10. Klicken, um den Punkt zu bestätigen.
 
 
-{{Userdocnavi/de}}
 
-See [Draft Snap](Draft_Snap#Preferences.md).
+## Einstellungen
+
+Siehe [Draft-Einrasten](Draft_Snap/de#Einstellungen.md).
 
 
 

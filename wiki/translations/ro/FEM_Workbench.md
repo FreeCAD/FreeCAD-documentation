@@ -90,7 +90,15 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 
 
+
+<div class="mw-translate-fuzzy">
+
 ### Constrângeri Electrostatice 
+
+
+</div>
+
+-   <img alt="" src=images/FEM_CompEmConstraints.png  style="width:" height="32px;"> [Electromagnetic constraints](FEM_CompEmConstraints.md): This is an icon menu in the FEM Constraints toolbar that holds the following constraints:
 
 
 <div class="mw-translate-fuzzy">
@@ -99,6 +107,10 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 
 </div>
+
+  - <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:32px;"> [Constraint current density](FEM_ConstraintCurrentDensity.md): Used to define a current density. <small>(v0.21)</small> 
+
+  - <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:32px;"> [Constraint magnetization](FEM_ConstraintMagnetization.md): Used to define a magnetization. <small>(v0.21)</small> 
 
 
 
@@ -112,7 +124,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 </div>
 
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for a body (volume). <small>(v1.0)</small> 
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for a body (volume). <small>(v0.21)</small> 
 
 -   <img alt="" src=images/Fem-constraint-flow-velocity.svg  style="width:32px;"> [Constraint flow velocity](FEM_ConstraintFlowVelocity.md):
 
@@ -120,7 +132,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/Fem-constraint-planerotation.svg  style="width:32px;"> [Constraint plane rotation](FEM_ConstraintPlaneRotation/ro.md): Vă permite să definiți o constrângere de rotație a planului pe o fațetă plană
 
--   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Constraint section print](FEM_ConstraintSectionPrint.md): Used to print the predefined facial output variables (forces and moments) to the dat file. <small>(v0.19)</small> 
+-   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Constraint section print](FEM_ConstraintSectionPrint.md): Used to print the predefined facial output variables (forces and moments) to the dat file.
 
 -   <img alt="" src=images/Fem-constraint-transform.svg  style="width:32px;"> [Constraint transform](FEM_ConstraintTransform.md):
 
@@ -134,7 +146,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/Fem-constraint-contact.svg  style="width:32px;"> [Constraint contact](FEM_ConstraintContact/ro.md): Utilizat pentru a defini contactul de constrângere între două fațete.
 
--   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Constraint tie](FEM_ConstraintTie.md): Used to define a tie constraint (\"bonded contact\") between two faces. <small>(v0.19)</small> 
+-   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Constraint tie](FEM_ConstraintTie.md): Used to define a tie constraint (\"bonded contact\") between two faces.
 
 -   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a spring. <small>(v0.20)</small> 
 
@@ -176,7 +188,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 ### Overwrite Constants 
 
--   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md): Used to overwrite the [permittivity of vacuum](https://en.wikipedia.org/wiki/Vacuum_permittivity) with a custom value. <small>(v0.19)</small> 
+-   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md): Used to overwrite the [permittivity of vacuum](https://en.wikipedia.org/wiki/Vacuum_permittivity) with a custom value.
 
 
 
@@ -212,7 +224,13 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 ## Meniu Rezolvitori 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem-solver.svg  style="width:32px;"> [Solver Calculix CCX tools](FEM_SolverCalculixCxxtools/ro.md): Creează un nou rezolvitor pentru această analiză. În cele mai multe cazuri rezolvitorul este creat împreună cu analiza.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -222,9 +240,15 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem-elmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md):
 
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md): <small>(v0.20)</small> 
+
+</div>
+
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md): Creates the solver controller for the MYSTRAN solver. <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -234,6 +258,8 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 </div>
 
+-   <img alt="" src=images/FEM_CompMechEquations.png  style="width:" height="32px;"> [Mechanical equations](FEM_CompMechEquations.md): This is an icon menu in the FEM Equations toolbar that holds the following equations: <small>(v0.21)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -242,7 +268,9 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 </div>
 
--   <img alt="" src=images/FEM_EquationElectricforce.svg  style="width:32px;"> [Electricforce equation](FEM_EquationElectricforce.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to calculate the electric force on surfaces. <small>(v0.19)</small> 
+  - <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [Deformation equation](FEM_EquationDeformation.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform nonlinear mechanical analyses (deformations). <small>(v0.21)</small> 
+
+-   <img alt="" src=images/FEM_CompEmEquations.png  style="width:" height="32px;"> [Electromagnetic equations](FEM_CompEmEquations.md): This is an icon menu in the FEM Equations toolbar that holds the following equations: <small>(v0.21)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -251,6 +279,12 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 
 </div>
+
+  - <img alt="" src=images/FEM_EquationElectricforce.svg  style="width:32px;"> [Electricforce equation](FEM_EquationElectricforce.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to calculate the electric force on surfaces.
+
+  - <img alt="" src=images/FEM_EquationMagnetodynamic.svg  style="width:32px;"> [Magnetodynamic equation](FEM_EquationMagnetodynamic.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to calculate magnetodynamics. <small>(v0.21)</small> 
+
+  - <img alt="" src=images/FEM_EquationMagnetodynamic2D.svg  style="width:32px;"> [Magnetodynamic 2D equation](FEM_EquationMagnetodynamic2D.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to calculate magnetodynamics in 2D. <small>(v0.21)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -286,7 +320,13 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/Fem-purge-results.svg  style="width:32px;"> [Results purge](FEM_ResultsPurge/ro.md): Șterge rezultatul analizei active.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem-result.svg  style="width:24px;"> [Result show](FEM_ResultShow/ro.md): Utilizează afișarea rezultatelor analizei
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -336,6 +376,8 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 </div>
 
+-   <img alt="" src=images/FEM_PostFilterContours.svg  style="width:32px;"> [Contours filter](FEM_PostFilterContours.md): Used to display iso-lines (for analyses in 2D) or iso-contours. <small>(v0.21)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -368,9 +410,13 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 </div>
 
-  - <img alt="" src=images/Fem-post-geo-plane.svg  style="width:32px;"> [Filter function plane](FEM_PostCreateFunctionPlane.md): Defines that the result mesh is cut with a plane.
+  - <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:32px;"> [Filter function plane](FEM_PostCreateFunctionPlane.md): Cuts the result mesh with a plane.
 
-  - <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:32px;"> [Filter function sphere](FEM_PostCreateFunctionSphere.md): Defines that the result mesh is cut with a sphere.
+  - <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:32px;"> [Filter function sphere](FEM_PostCreateFunctionSphere.md): Cuts the result mesh with a sphere.
+
+  - <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:32px;"> [Filter function cylinder](FEM_PostCreateFunctionCylinder.md): Cuts the result mesh with a cylinder. <small>(v0.21)</small> 
+
+  - <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:32px;"> [Filter function box](FEM_PostCreateFunctionBox.md): Cuts the result mesh with a box. <small>(v0.21)</small> 
 
 
 

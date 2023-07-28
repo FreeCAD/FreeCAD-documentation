@@ -1,87 +1,109 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Part JoinCutout
-   MenuLocation:Part → Join → Cutout for Object
-   Workbenches:[Part](Part_Workbench.md)
+   Name/pl:Część: Wycięcie dla obiektu
+   MenuLocation:Part → Join → Wycięcie dla obiektu
+   Workbenches:[Część](Part_Workbench/pl.md)
    Version:0.16
-   SeeAlso:[Part JoinConnect](Part_JoinConnect.md), [Part JoinEmbed](Part_JoinEmbed.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)
+   SeeAlso:[Połącz obiekty](Part_JoinConnect/pl.md), [Osadź obiekty](Part_JoinEmbed/pl.md), [Operacja logiczna](Part_Boolean/pl.md), [Grubość](Part_Thickness/pl.md)
 ---
 
 # Part JoinCutout/pl
 
-## Description
 
-The <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part JoinCutout](Part_JoinCutout.md) tool creates a cutout in a walled object (e.g., a pipe) to fit another walled object.
+
+## Opis
+
+Narzędzie <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> **Wycięcie dla obiektu** tworzy wycięcie w obiekcie ze ściankami *(np. rurze)*, aby dopasować je do innego obiektu ze ściankami.
 
 ![600px](images/JoinFeatures_Cutout.png)
 
-## Usage
-
-1.  Select the base object first, then the object to define the cutout.
-    The order of selection is important. It is enough to select one sub-shape of each object (e.g., faces).
-2.  Invoke the Part JoinCutout command several ways:
-    -   Pressing on the <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part JoinCutout](Part_JoinCutout.md) button in the Part toolbar
-    -   Using the **Part → Join → Cutout for Object** entry in the Part menu
-
-A Part JoinFeature object is created, with Mode set to \'Cutout\'. Original objects are hidden, and the result of cutting is shown in [3D view](3D_view.md).
-
-## Properties
 
 
-{{TitleProperty|Base}}
+## Użycie
 
--    **Base**: Reference to base object (the one to make the cutout in). The object should be a single solid.
+1.  Najpierw wybierz obiekt bazowy, a następnie obiekt do zdefiniowania wycięcia.
 
--    **Tool**: Reference to tool object (the object that is to fit into the cutout). The object can be a single solid, or a [valid compound](Part_Compound.md) of solids.
+Kolejność wyboru jest ważna. Wystarczy wybrać jeden kształt podrzędny każdego obiektu *(np. ściany)*.
 
--    **Mode**: The mode of operation, equals \'Cutout\' (Changing that will transform the tool into another Part_JoinXXX). The value of \'bypass\' can be used to temporarily disable the long computations (a compound of Base and Tool will be created, which is a fast operation).
+1.  Polecenie Wycięcie dla obiektu można wywołać na kilka sposobów:
+    -   Naciśnij przycisk <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> **Wycięcie dla obiektu** na pasku narzędzi.
+    -   Użyj polecenia **Część → Połącz → Wycięcie dla obiektu** w menu głównym.
 
--    **Refine**: Sets whether to apply [Refine](Part_RefineShape.md) operation or not, to the final shape. The default value is determined by a \'Automatically refine shape after boolean operation\' checkbox in PartDesign preferences. When Mode property is \'bypass\', Refine is ignored (never applied).
+Tworzony jest obiekt środowiska Część Wycięcie dla obiektu z ustawionym trybem \"Wycięcie\". Oryginalne obiekty są ukryte, a wynik osadzenia jest wyświetlany w oknie widoku 3D.
 
-## Example
 
-1.  Create a pipe by applying [thickness](Part_Thickness.md) to a [cylinder](Part_Cylinder.md):
-    ![320px](images/JoinFeatures_Example_step1.png)
-2.  Create another, smaller diameter pipe, and [place](Placement.md) it so that it pierces the wall of the first pipe:
-    ![320px](images/JoinFeatures_Example_step2.png)
-3.  Select the first pipe, then the second pipe (order of selection is important), and click the \'Cutout for object\' option from the Join tools dropdown toolbar button.
-    ![320px](images/JoinFeatures_Example_step3_Cutout.png)
 
-## Algorithm
+## Właściwości
 
-The algorithms behind Join tools are quite simple, and understanding them is important to use the tools correctly.
 
-1\. Base object is [boolean-cut](Part_Cut.md) with Tool object. The resulting shape is a set ([compound](Part_Compound.md)) of non-intersecting solids (typically, two).
+{{TitleProperty|Podstawa}}
 
-2\. The resulting compound is filtered: only the largest solid is kept.
+-    **Baza**: Odniesienie do obiektu bazowego (tego, w którym ma zostać wykonane wycięcie). Obiekt powinien być pojedynczą bryłą.
 
-3\. If Refine property is true, the resulting shape is [refined](Part_RefineShape.md).
+-    **Narzędzie**: Odniesienie do obiektu narzędzia *(obiektu, który ma pasować do wycięcia)*. Obiekt może być pojedynczą bryłą lub [prawidłowym złożeniem](Part_Compound.md) brył.
+
+-    **Tryb**: Tryb działania, równy *Wycięcie* *(Zmiana, która przekształci narzędzie w inne Part_JoinXXX)*. Wartość \"Obejdź\" może być użyta do tymczasowego wyłączenia długich obliczeń *(zostanie utworzone złożenie bazy i narzędzia, co jest szybką operacją)*.
+
+-    **Ulepsz**: Określa, czy zastosować operację [ulepszenia](Part_RefineShape/pl.md) do ostatecznego kształtu. wobec ostatecznego kształtu. Wartość domyślna jest określona przez pole wyboru \"Automatycznie udoskonal model po wykonaniu operacji logicznej\" w [Preferencjach środowiska Projekt Części](PartDesign_Preferences/pl.md). Gdy właściwość **Tryb** ma wartość **Obejdź**, Ulepszanie jest ignorowane *(nigdy nie jest stosowane)*.
+
+
+
+## Przykład
+
+1.  Utwórz rurę, stosując narzędzie [grubość](Part_Thickness/pl.md) do [cylindra](Part_Cylinder/pl.md):
+
+![320px](images/JoinFeatures_Example_step1.png)
+
+1.  Utwórz kolejną rurę o mniejszej średnicy i [umieść](Placement/pl.md) ją tak, aby przebiła ścianę pierwszej rury:
+
+![320px](images/JoinFeatures_Example_step2.png)
+
+1.  Zaznacz pierwszą rurę, a następnie drugą rurę *(kolejność zaznaczania jest ważna)* i kliknij opcję \"Wycięcie dla obiektu\" na rozwijanym pasku narzędzi **Połącz obiekty**.
+
+![320px](images/JoinFeatures_Example_step3_Cutout.png)
+
+
+
+## Sposób działania 
+
+Algorytmy stojące za narzędziami Połącz są dość proste, a ich zrozumienie jest ważne dla prawidłowego korzystania z narzędzi.
+
+1\. Obiekt bazowy jest [wycięty logicznie](Part_Cut/pl.md) za pomocą obiektu narzędzia. Wynikowy kształt jest zestawem *([złożeń](Part_Compound/pl.md))* nieprzecinających się brył *(zazwyczaj dwóch)*.
+
+2\. Uzyskane złożenie jest kolejnie filtrowane, przy czym zachowywana jest tylko największa bryła.
+
+4\. Jeśli właściwość Ulepsz ma wartość {{true/pl}}, wynikowy kształt to obiekt funkcji [Ulepsz](Part_RefineShape.md).
 ![800px](images/JoinFeatures-Algo-Cutout.png)
 
-### Notes
 
--   If after step 1, the object remains in one piece, the result of Cutout will be equivalent to [boolean cut](Part_Cut.md) of Base with Tool.
--   Now, the tool will produce unexpected result, if a compound is supplied as Base. This may be changed in the future.
--   Because the largest piece is determined by comparing volumes of pieces, the tool can only work with solids. This may be changed in the future.
 
-## Scripting
+### Uwagi
 
-The Join tools can by used in [macros](macros.md) and from the python console by using the following function:
+-   Jeśli po kroku 1 obiekt pozostaje w jednym kawałku, wynik operacji Wycięcie będzie równoważny logicznej operacji[Wytnij](Part_Fuse/pl.md) bazy i narzędzia.
+-   Obecnie narzędzie wygeneruje nieoczekiwany wynik, jeśli jako baza zostanie użyte złożenie. *(Może to zostać zmienione w przyszłości.)*
+-   Ponieważ największy element jest określany przez porównanie objętości elementów, narzędzie może działać tylko z bryłami. *(Może to zostać zmienione w przyszłości.)*
+
+
+
+## Tworzenie skryptów 
+
+Narzędzie Osadź może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następującej funkcji:
 
 
 ```pythonJoinFeatures.makePartJoinFeature(name = 'Cutout', mode = 'Cutout')```
 
--   Creates an empty Cutout feature (or other Join feature, depending on mode passed). The properties Base and Tool must be assigned explicitly, afterwards.
--   Returns the newly created object.
+-   Tworzy pusty element Wycięcia *(lub inną cechę dołączania, w zależności od przekazanego trybu)*. Następnie należy jawnie przypisać właściwości Baza i Narzędzie.
+-   Zwraca nowo utworzony obiekt.
 
-Example: {{code|code=
+Przykład: {{code|code=
 import JoinFeatures
 j = JoinFeatures.makePartJoinFeature(name = 'Cutout', mode = 'Cutout' )
 j.Base = FreeCADGui.Selection.getSelection()[0]
 j.Tool = FreeCADGui.Selection.getSelection()[1]
 }}
 
-The tool itself is implemented in Python, see **/Mod/Part/JoinFeatures.py** ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) under where FreeCAD is installed.
+Samo narzędzie jest zaimplementowane w środowisku Python, patrz **/Mod/Part/JoinFeatures.py** ([Link do Github](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) w miejscu, w którym zainstalowany jest FreeCAD.
 
 
 

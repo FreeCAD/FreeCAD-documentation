@@ -2,7 +2,7 @@
 - GuiCommand:/de
    Name:TechDraw Dimension Vertical Extent
    Name/de:TechDraw MaßVertikaleAusdehnung
-   MenuLocation:TechDraw → Bemaßung → Maß für die vertikale Ausdehnung einfügen
+   MenuLocation:TechDraw → Maßeinträge → Maß für die vertikale Ausdehnung einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Version:0.19
    SeeAlso:[TechDraw Längenmaß](TechDraw_LengthDimension/de.md), [TechDraw MaßHorizontaleAusdehnung](TechDraw_HorizontalExtentDimension/de.md)
@@ -14,7 +14,7 @@
 
 ## Beschreibung
 
-Das Werkzeug MaßVertikaleAusdehnung fügt einer Ansicht ein lineares Maß hinzu. Das Maß erstreckt sich vom tiefsten Punkt der ausgewählten Objekte bis zum höchsten Punkt. An beiden Stellen wird ein Hilfspunkt gesetzt.
+Das Werkzeug **TechDraw MaßVertikaleAusdehnung** fügt einer Ansicht ein lineares Maß hinzu. Das Maß erstreckt sich vom tiefsten Punkt der ausgewählten Objekte bis zum höchsten Punkt. An beiden Stellen wird ein Hilfspunkt gesetzt.
 
 <img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
 *Maß für die vertikale Ausdehnung einer B-Spline-Fläche (193,54)*

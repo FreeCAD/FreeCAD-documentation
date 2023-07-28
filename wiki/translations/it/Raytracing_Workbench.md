@@ -1,10 +1,10 @@
 # Raytracing Workbench/it
-**L'ambiente Raytracing è essenzialmente obsoleto. Nuovi sviluppi stanno avvenendo nel [https://github.com/FreeCAD/FreeCAD-render Render Workbench], che è inteso come suo sostituto. Questo ambiente è completamente programmato in Python, quindi è molto più facile da estendere.
-
-Tuttavia, le informazioni in questa pagina sono generalmente utili anche per il nuovo ambiente, poiché entrambi i moduli funzionano sostanzialmente allo stesso modo.
-**
+**L'ambiente '''Raytracing''' non è più incluso dopo la versione 0.20.<br>
+ Al suo posto dovrebbe essere utilizzato l'ambiente esterno [https://github.com/FreeCAD/FreeCAD-render Render Workbench].**
 
 <img alt="L\'icona di Raytracing" src=images/Workbench_Raytracing.svg  style="width:128px;">
+
+
 
 ## Introduzione
 
@@ -17,7 +17,7 @@ Il modulo Raytracing lavora con dei [modelli](Raytracing_templates/it.md), che s
 
 Attualmente sono supportati due renderizzatori: [POV-Ray](POV-Ray.md) e [LuxRender](LuxRender.md). Per poter eseguire il rendering direttamente da FreeCAD, sul sistema deve essere installato almeno uno di questi renderer, e deve essere configurato il suo percorso nelle preferenze di FreeCAD per Raytracing. Senza alcun renderer installato, si può comunque esportare un file della scena e utilizzarlo successivamente in uno di questi renderer, o su una macchina diversa.
 
-L\'ambiente Raytracing è essenzialmente obsoleto. Nuovi sviluppi stanno avvenendo nel [Render Workbench](https://github.com/FreeCAD/FreeCAD-render), che è inteso come suo sostituto. Questo nuovo ambiente è completamente programmato in Python, quindi è molto più facile estenderlo rispetto all\'ambiente corrente che è programmato in C++. Tuttavia, le informazioni in questa pagina sono generalmente utili anche per il nuovo banco di lavoro, poiché entrambi i moduli funzionano sostanzialmente allo stesso modo.
+L\'ambiente Raytracing è obsoleto, l\'ambiente esterno [Render Workbench](https://github.com/FreeCAD/FreeCAD-render) ne è il sostituto. Tuttavia, le informazioni in questa pagina sono generalmente utili per il nuovo ambiente di lavoro, poiché entrambi funzionano sostanzialmente allo stesso modo.
 
 <img alt="" src=images/Raytracing_example.jpg  style="width:1024px;">
 
@@ -34,7 +34,11 @@ L\'ambiente Raytracing è essenzialmente obsoleto. Nuovi sviluppi stanno avvenen
 
 *Flusso di lavoro del Raytracing Workbench; il workbench prepara un file di progetto da un determinato modello e quindi chiama un programma esterno per produrre il rendering effettivo della scena. Il renderer esterno può essere usato indipendentemente da FreeCAD.*
 
+
+
 ## Strumenti
+
+
 
 ### Strumenti di progetto 
 
@@ -47,6 +51,8 @@ Questi sono gli strumenti principali per esportare il proprio lavoro 3D su rende
 -   <img alt="" src=images/Raytracing_ExportProject.svg  style="width:32px;"> [Esporta progetto\...](Raytracing_ExportProject/it.md): esporta un progetto di raytracing in un file di scena per il rendering in un renderer esterno.
 -   <img alt="" src=images/Raytracing_Render.svg  style="width:32px;"> [Render](Raytracing_Render/it.md): esegue il rendering di un progetto raytracing con un renderer esterno.
 
+
+
 ### Utilità
 
 Questi sono degli strumenti di supporto per eseguire manualmente azioni specifiche.
@@ -54,6 +60,8 @@ Questi sono degli strumenti di supporto per eseguire manualmente azioni specific
 -   <img alt="" src=images/Raytracing_WriteView.svg  style="width:32px;"> [Esporta la vista in PovRay\...](Raytracing_WriteView/it.md): scrive la vista 3D attiva con la fotocamera e tutto il suo contenuto in un file PovRay.
 -   <img alt="" src=images/Raytracing_WriteCamera.svg  style="width:32px;"> [Esporta la camera in PovRay\...](Raytracing_WriteCamera/it.md): esporta la posizione della telecamera della vista 3D attiva in un file in formato POV-Ray.
 -   <img alt="" src=images/Raytracing_WritePart.svg  style="width:32px;"> [Esporta la parte in PovRay\...](Raytracing_WritePart/it.md): scrive la Parte selezionata (oggetto) come un file POV-Ray.
+
+
 
 ## Preferenze
 
@@ -74,9 +82,13 @@ Nella finestra di dialogo **Esporta pagina**, selezionare la destinazione per sa
 
 Come è noto, le applicazioni di renderizzazione possono produrre immagini di grandi dimensioni e ottima qualità: <img alt="" src=images/Scharniergreifer_render.jpg  style="width:800px;">
 
+
+
 ## Script
 
 Vedere [Esempio di API Raytracing](Raytracing_API_example/it.md) per informazioni sulla scrittura di scene a livello di codice.
+
+
 
 ### Link
 
@@ -123,6 +135,8 @@ Sebbene l\'esportazione diretta nel formato XML di Kerkythea non sia ancora supp
 
 -   se si importano più oggetti in Kerkythea è possibile utilizzare la funzione \"File → Unisci\" di Kerkythea
 
+
+
 ## Sviluppo
 
 Queste pagine si riferiscono al nuovo ambiente, programmato in Python, destinato a sostituire l\'attuale ambiente Raytracing.
@@ -142,4 +156,4 @@ Queste pagine si riferiscono al nuovo ambiente, programmato in Python, destinato
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/it

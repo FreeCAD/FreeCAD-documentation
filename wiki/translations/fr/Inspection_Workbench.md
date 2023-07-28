@@ -2,9 +2,11 @@
 
 ## Introduction
 
-L\'<img alt="" src=images/Workbench_Inspection.svg  style="width:24px;"> [atelier Inspection](Inspection_Workbench/fr.md) a été conçu pour vous offrir des outils pour l\'examen des formes. Il est toujours en cours de développement.
+L\'<img alt="" src=images/Workbench_Inspection.svg  style="width:24px;"> [atelier Inspection](Inspection_Workbench/fr.md) a été conçu pour vous offrir des outils pour l\'examen des formes. Il en est encore aux premiers stades de développement.
 
 <img alt="Copie d\'écran" src=images/InspectionEx.png  style="width:500px;">
+
+
 
 ## Utilisation
 

@@ -13,12 +13,12 @@
 
 ## Description
 
-L\'outil [Arch Escalier](Arch_Stairs/fr.md) vous permet de construire automatiquement plusieurs types d\'escaliers. À l\'heure actuelle, seuls les escaliers droits (avec ou sans palier central) sont pris en charge. Les escaliers peuvent être construits à partir de zéro, ou d\'une ligne droite [Draft Ligne](Draft_Line/fr.md), auquel cas les escaliers suivent la ligne. Si la ligne n\'est pas horizontale mais a une inclinaison verticale, les escaliers suivront également sa pente.
+L\'outil [Arch Escalier](Arch_Stairs/fr.md) vous permet de construire automatiquement plusieurs types d\'escaliers. Les escaliers droits (avec ou sans palier central) peuvent être créés de toutes pièces. Les escaliers plus complexes nécessitent des objets de base.
 
-Voir la [Terminologie des escaliers](https://fr.wikipedia.org/wiki/Escalier#Terminologie) pour une définition des différents termes utilisés pour décrire les parties d\'un escaliers.
+Voir la [terminologie des escaliers](https://fr.wikipedia.org/wiki/Escalier#Terminologie) pour une définition des différents termes utilisés pour décrire les parties d\'un escaliers.
 
-<img alt="" src=images/Arch_Stairs_example.jpg  style="width:640px;"> 
-*Deux escaliers ont été créés : l'un avec une structure massive et un palier et un autre avec un seul limon.*
+<img alt="" src=images/Arch_Stairs_example.jpg  style="width:600px;"> 
+*Deux escaliers ont été créés : l'un avec une structure massive et un palier, l'autre avec un seul limon.*
 
 ## Options
 
@@ -28,8 +28,19 @@ Voir la [Terminologie des escaliers](https://fr.wikipedia.org/wiki/Escalier#Term
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **<img src="images/Arch_Stairs.svg" width=16px> [Escalier](Arch_Stairs/fr.md)** ou appuyez sur les touches **S**, **R**.
-2.  Ajustez les propriétés souhaitées. Certaines parties de l\'escalier, comme la structure, peuvent ne pas apparaître immédiatement, si l\'une des propriétés rend la construction impossible, par exemple une épaisseur de structure égal à 0.
+1.  Sélectionnez un ou plusieurs objets de base, par exemple des [Draft Lignes](Draft_Line.md) et des [Draft Polylignes](Draft_Wire.md) :
+    -   Les Draft Polylignes avec deux segments ou plus seront utilisés pour créer des paliers. Ils doivent être sur un plan parallèle au plan global XY. Par exemple, sélectionnez une polyligne en U pour un palier en demi-tour et une polyligne en L pour un palier en coin.
+    -   Les Draft Lignes seront utilisées pour créer des étages.
+    -   Si les sommets de toutes les lignes et polylignes ont des coordonnées Z correctes, les escaliers créés utiliseront ces informations.
+    -   Les objets de base doivent être sélectionnés dans l\'ordre correctement en commençant par l\'objet du bas.
+2.  Appuyez sur le bouton **<img src="images/Arch_Stairs.svg" width=16px> [Escalier](Arch_Stairs/fr.md)** ou appuyez sur les touches **S**, **R**.
+3.  Ajustez les propriétés souhaitées. Certaines parties de l\'escalier, comme la structure, peuvent ne pas apparaître immédiatement, si l\'une des propriétés le rend impossible, par exemple une épaisseur de structure de 0.
+
+<img alt="" src=images/Arch_Stairs_Complex_Example.png  style="width:600px;"> 
+*Escalier complexe basé sur une sélection de lignes et relié comme indiqué sur la gauche.<br>
+En rouge les polylignes utilisées pour les paliers à Z&equals;1500mm, Z&equals;3000mm et Z&equals;4500mm.<br>
+En noir, les lignes les reliant utilisées pour les étages.
+*
 
 
 
@@ -86,9 +97,9 @@ Voir la [Terminologie des escaliers](https://fr.wikipedia.org/wiki/Escalier#Term
 
 -    **Landing Depth|Length**: profondeur du palier de la volée des marches, si elle est activée dans **Landings**. Par défaut, elle correspond à **Width** si elle est égale à 0.
 
--    **Nosing|Length**: taille du nez des marches
+-    **Nosing|Length**: taille du nez des marches.
 
--    **Number Of Steps|Integer**: nombre de marches (contremarches).
+-    **Number Of Steps|Integer**: nombre de marches (contremarches). Doit être d\'au moins 2 pour une volée simple et d\'au moins 4 pour un escalier avec un palier central.
 
 -    **Riser Height|Length**: (lecture seule) hauteur des contremarches. Si **Riser Height Enforce** est 0, elle est calculée (**Height** / **Number of Steps**). Sinon, il est identique à **Riser Height Enforce**.
 

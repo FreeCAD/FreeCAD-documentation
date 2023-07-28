@@ -11,6 +11,8 @@
 
 # FCGear CrownGear/de
 
+
+
 ## Beschreibung
 
 Das Kronenerad ähnelt einer ringförmig gebogenen Zahnstange. Der Eingriffswinkel verringert sich kontinuierlich vom äußeren bis zum inneren Durchmesser. Damit wird die variable Umfangsgeschwindigkeit am Kronenrad zur konstanten Umfangsgeschwindigkeit des Ritzels ausgeglichen. Die spitzen Zahnaußenseiten und die steilen Zahnflanken am Innendurchmesser begrenzen die nutzbare Zahnbreite. Kronenräder sind ähnlich leistungsfähig wie Stirnräder. Ein Kronenrad kann mehrere Ritzel antreiben.
@@ -25,19 +27,25 @@ Bekannte Anwendungsgebiete von Kronenrädern:
 ![](images/Crown-Gear_example.png ) 
 *Oben: Kronenrad*
 
+
+
 ## Anwendung
 
 1.  Zum Arbeitsbereich <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear](FCGear_Workbench/de.md) wechseln.
 2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **[<img src=images/FCGear_CrownGear.svg style="width:16px"> [Crown Gear](FCGear_CrownGear/de.md)** drücken.
     -   Den Menüeintrag **Gear → [<img src=images/FCGear_CrownGear.svg style="width:16px"> Crown Gear** auswählen.
-3.  Das Kronenrad wird standardmäßig ohne Zähne dargestellt. (<small>(v1.0)</small> )
+3.  Das Kronenrad wird standardmäßig ohne Zähne dargestellt. ({{Version/de|0.21}})
 4.  Die Einstellungen den geforderten Randbedingungen entsprechend ändern (siehe [Eigenschaften](#Eigenschaften.md)).
 5.  Die {{PropertyData/de|preview_mode}} auf {{false}} setzen, um die Zähne darzustellen(see [Hinweise](#Hinweise.md)).
+
+
 
 ## Eigenschaften
 
 Ein FCGear-CrownGear-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
 
@@ -71,6 +79,8 @@ Ein FCGear-CrownGear-Objekt wird von einem [Part-Formelement](Part_Feature/de.md
 
 -    {{PropertyData/de|version|String}}:
 
+
+
 ## Hinweise
 
 -   The **preview_mode** property is set to {{true}} by default and when the gear is created you\'ll find this message in the report view:
@@ -89,6 +99,8 @@ Ein FCGear-CrownGear-Objekt wird von einem [Part-Formelement](Part_Feature/de.md
 
 -   Adjustments for optimal running characteristics can be made with the parameters of involute gear.
 
+
+
 ## Kronenrad-Stirnrad-Paarung im Überblick 
 
 ![](images/Crown-spur-gear-set_example.png )
@@ -98,6 +110,8 @@ Ein FCGear-CrownGear-Objekt wird von einem [Part-Formelement](Part_Feature/de.md
 -   \(3\) Zahnbreite
 -   \(4\) Innendurchmesser
 -   \(5\) Außendurchmesser
+
+
 
 ## Nützliche Formeln 
 

@@ -32,13 +32,7 @@ Il comando **Stile di disegno** può sovrascrivere l\'effetto delle [proprietà]
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-### <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:32px;"> Come è 
-
-
-</div>
+### <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:24px;"> Come è 
 
 Lo stile **Come è** non sovrascrive la proprietà **Display Mode** (Modalità di visualizzazione) degli oggetti.
 
@@ -47,13 +41,7 @@ Lo stile **Come è** non sovrascrive la proprietà **Display Mode** (Modalità d
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-### <img alt="" src=images/Std_DrawStylePoints.svg  style="width:32px;"> Punti 
-
-
-</div>
+### <img alt="" src=images/Std_DrawStylePoints.svg  style="width:24px;"> Punti 
 
 Lo stile **Punti** sovrascrive la proprietà **Display Mode** degli oggetti. Questo stile corrisponde alla modalità di visualizzazione \'Punti\'. I vertici sono visualizzati in tinta unita. I bordi e le facce non vengono visualizzati.
 
@@ -62,13 +50,7 @@ Lo stile **Punti** sovrascrive la proprietà **Display Mode** degli oggetti. Que
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-### <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:32px;"> Reticolo 
-
-
-</div>
+### <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:24px;"> Reticolo 
 
 Lo stile **Reticolo** sovrascrive la proprietà **Display Mode** degli oggetti. Questo stile corrisponde alla modalità di visualizzazione \'Wireframe\'. Vertici e bordi sono visualizzati in colori solidi. Le facce non vengono visualizzate.
 
@@ -77,13 +59,7 @@ Lo stile **Reticolo** sovrascrive la proprietà **Display Mode** degli oggetti. 
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-### <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:32px;"> Linee nascoste 
-
-
-</div>
+### <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:24px;"> Linee nascoste 
 
 Lo stile **Linee nascoste** sovrascrive la proprietà **Display Mode** degli oggetti. Gli oggetti vengono visualizzati come se fossero convertiti in mesh triangolari.
 
@@ -92,13 +68,7 @@ Lo stile **Linee nascoste** sovrascrive la proprietà **Display Mode** degli ogg
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-### <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:32px;"> Senza ombre 
-
-
-</div>
+### <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:24px;"> Senza ombre 
 
 Lo stile **Senza ombre** sovrascrive la proprietà **Display Mode** degli oggetti. Vertici, bordi e facce sono visualizzati in colori solidi.
 
@@ -107,13 +77,7 @@ Lo stile **Senza ombre** sovrascrive la proprietà **Display Mode** degli oggett
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-### <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:32px;"> Ombreggiato 
-
-
-</div>
+### <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:24px;"> Ombreggiato 
 
 Lo stile **Ombreggiato** sovrascrive la proprietà **Display Mode** degli oggetti. Questo stile corrisponde alla modalità di visualizzazione \'Shaded\'. Vertici e bordi non vengono visualizzati. Le facce sono illuminate a seconda del loro orientamento.
 
@@ -122,13 +86,7 @@ Lo stile **Ombreggiato** sovrascrive la proprietà **Display Mode** degli oggett
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-### <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:32px;"> Facce piene 
-
-
-</div>
+### <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:24px;"> Facce piene 
 
 Lo stile **Facce piene** sovrascrive la proprietà **Display Mode** degli oggetti. Questo stile corrisponde alla modalità di visualizzazione \'Flat lines\'. Vertici e bordi sono visualizzati in colori solidi. Le facce sono illuminate a seconda del loro orientamento.
 
@@ -143,13 +101,7 @@ Lo stile **Facce piene** sovrascrive la proprietà **Display Mode** degli oggett
 -   Per una macro per alternare tra due stili di disegno, vedere: [Macro Stile di disegno](Macro_Toggle_Drawstyle/it.md).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

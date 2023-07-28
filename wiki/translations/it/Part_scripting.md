@@ -1,6 +1,8 @@
 # Part scripting/it
 {{TOCright}}
 
+
+
 ## Introduzione
 
 La struttura dati principale utilizzata nel modulo Parte è il tipo di dati [BRep](https://it.wikipedia.org/wiki/B-Rep) da [OpenCASCADE](OpenCASCADE/it.md). Quasi tutti i contenuti e i tipi di oggetti del modulo Part sono disponibili per lo scripting con [Python](Python/it.md). Ciò include le primitive geometriche, come linee, cerchi e archi, e l\'intera gamma di forme topografiche, come vertici, bordi, fili, facce, solidi e composti. Per ciascuno di questi oggetti esistono diversi metodi di creazione e per alcuni di essi, in particolare TopoShapes, sono disponibili anche operazioni avanzate come unione/differenza/intersezione booleana. Si possono esplorare i contenuti del modulo Parte, come descritto nella pagina [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md), per saperne di più.
@@ -9,14 +11,18 @@ L\'oggetto più semplice che può essere creato è [Part](Part_Feature/it.md), c
 
 Un altro oggetto semplice utilizzato negli oggetti geometrici 2D è il [Part Part2DObject](Part_Part2DObject/it.md), che è la base di [Sketcher SketchObject](Sketcher_SketchObject/it.md) e della maggior parte dei [Draft elements](Draft_Workbench.md).
 
+
+
 ### Vedere anche 
 
 -   [Script di dati topologici](Topological_data_scripting/it.md)
 -   [OpenCASCADE](OpenCASCADE/it.md)
 
+
+
 ## Script di test 
 
-Testare la creazione di [Primitive Part](Part_Primitives/it.md) con uno script. {{Version/it|0.19}}
+Testare la creazione di [Primitive Part](Part_Primitives/it.md) con uno script.
 
 
 ```python
@@ -31,7 +37,11 @@ Questo script si trova nella cartella d\'installazione del programma e può esse
 $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 ```
 
+
+
 ## Esempi
+
+
 
 ### Linea
 
@@ -112,6 +122,8 @@ def my_create_line(pt1, pt2, obj_name):
 
 line = my_create_line((0, 0, 0), (0, 10, 0), "LineName")
 ```
+
+
 
 ### Cerchio
 
@@ -197,6 +209,8 @@ curve = edge.Curve
 ```
 
 Qui prendiamo il {{Incode|Shape}} del nostro oggetto {{Incode|obj}} e poi la sua lista di {{Incode|Edges}}. In questo caso ci sarà un solo bordo perché abbiamo ricavato la forma da un unico cerchio. Quindi prendiamo solo il primo elemento nell\'elenco {{Incode|Edges}}, successivamente prendiamo la sua curva. Ogni bordo ha un {{Incode|Curve}}, che è la primitiva geometrica su cui si basa.
+
+
 
 ### Arco
 

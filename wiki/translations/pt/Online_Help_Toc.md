@@ -28,6 +28,9 @@ Existe outro índice para o [FreeCAD MANUAL](Manual_Introduction.md).
     -   [Estrutura do documento FreeCAD](Document_structure/pt.md)
     -   [Editor de propriedades](Property_editor/pt.md)
 
+
+<div class="mw-translate-fuzzy">
+
 -   As [bancadas de trabalho](Workbenches/pt.md)
     -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;">[Bancada de trabalho Arch (Arquitetura)](Arch_Workbench/pt.md)
     -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;">[Bancada de trabalho Draft (Traço)](Draft_Workbench/pt.md)
@@ -51,6 +54,9 @@ Existe outro índice para o [FreeCAD MANUAL](Manual_Introduction.md).
     -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [O ambiente de Testes](Testing/pt.md)
     -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> [Bancada de trabalho da Web](Web_Workbench/pt.md)
     -   [Bancadas de trabalho externas](External_workbenches/pt.md)
+
+
+</div>
 
 -   [Lista de todos os comandos do FreeCAD](List_of_Commands/pt.md)
 

@@ -14,6 +14,8 @@
 
 
 
+
+
 ## Introduzione
 
 Questo tutorial ha lo scopo di mostrare come una semplice analisi agli elementi finiti (\"FEA\"\'\') nell\'[Ambiente FEM](FEM_Workbench/it.md) <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> di FreeCAD viene eseguita utilizzando Python. Per questo esempio verrà utilizzato il modello del tutorial [FEM CalculiX Trave a sbalzo 3D](FEM_CalculiX_Cantilever_3D/it.md).
@@ -34,6 +36,8 @@ Questo tutorial ha lo scopo di mostrare come una semplice analisi agli elementi 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -65,6 +69,8 @@ FreeCADGui.SendMsgToActiveView("ViewFit")
 
 #
 ```
+
+
 
 ### Analisi e analisi degli oggetti 
 
@@ -498,6 +504,8 @@ doc.recompute()
 analysis_object.addObject(mesh)
 ```
 
+
+
 ### Ricalcolo
 
 
@@ -507,6 +515,8 @@ doc.recompute()
 
 ###
 ```
+
+
 
 ## Eseguire l\'analisi 
 
@@ -534,6 +544,8 @@ FemGui.setActiveAnalysis(doc.Analysis)
 ###
 ```
 
+
+
 #### Eseguire l\'analisi tutto in uno 
 
 
@@ -546,6 +558,8 @@ fea.run()
 
 ###
 ```
+
+
 
 #### Passo a passo 
 
@@ -573,6 +587,8 @@ else:
 ###
 ```
 
+
+
 ## Mostrare i risultati 
 
 
@@ -589,7 +605,11 @@ femmesh_obj.ViewObject.applyDisplacement(10)
 ###
 ```
 
+
+
 ### Informazioni aggiuntive 
+
+
 
 #### Script FEM per oggetti mesh 
 
@@ -692,9 +712,11 @@ Divertitevi! Inoltre, se avete commenti o miglioramenti, non esitate a partecipa
 </div>
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Python Code](Category_Python Code.md) > [FEM](Category_FEM.md) > FEM Tutorial Python/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Python Code](Category_Python Code.md) > [FEM](Category_FEM.md) > FEM Tutorial Python/it

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/pl
    Name:FEM ConstraintSectionPrint
-   Name/pl:MES: Zdefiniuj obszar wykresu
-   MenuLocation: Model → Wiązania Geometryczne → Zdefiniuj obszar wykresu
+   Name/pl:MES: Zapis wyników z przekroju
+   MenuLocation: Model → Wiązania Geometryczne → Zapis wyników z przekroju
    Workbenches:[MES](FEM_Workbench/pl.md)
    Version:0.19
    SeeAlso:
@@ -10,9 +10,13 @@
 
 # FEM ConstraintSectionPrint/pl
 
+
+
 ## Opis
 
 Drukuje wstępnie zdefiniowane zmienne wyjściowe z modelu *(siły i momenty)* do pliku danych.
+
+
 
 ## Użycie
 
@@ -20,6 +24,8 @@ Drukuje wstępnie zdefiniowane zmienne wyjściowe z modelu *(siły i momenty)* d
     -   Naciśnij przycisk **<img src="images/FEM_ConstraintSectionPrint.svg" width=16px> '''Zapis wyników z przekroju'''** .
     -   Wybierz opcję z menu **Model → Wiązania geometryczne → <img src="images/FEM_ConstraintSectionPrint.svg" width=16px> Zapis wyników z przekroju**.
 2.  Naciśnij przycisk **Dodaj** i wybierz powierzchnię, dla której będą drukowane dane wyjściowe.
+
+
 
 ## Uwagi
 

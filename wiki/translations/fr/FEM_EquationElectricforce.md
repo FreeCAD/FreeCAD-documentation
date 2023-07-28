@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:FEM EquationElectricforce
    Name/fr:FEM Équation de force électrique
-   MenuLocation:Solveur → Équations électromagnétiques → Équation de force électrique
+   MenuLocation:Résolution → Équations électromagnétiques → Équation de force électrique
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Version:0.19
    SeeAlso:[FEM Equation électrostatique](FEM_EquationElectrostatic/fr.md)
@@ -20,9 +20,9 @@ Pour plus d\'informations sur les mathématiques de l\'équation, voir [Elmer mo
 
 ## Utilisation
 
-1.  Après avoir ajouté un solveur Elmer comme décrit [ici](FEM_SolverElmer/fr#.C3.89quations.md), sélectionnez-le dans la [Vue en arborescence](Tree_view/fr.md).
-2.  Utilisez le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationElectricforce.svg  style="width:24px;"> ou le menu **Solveur → Équations électromagnétiques → Équation de force électrique**.
-3.  Utilisez maintenant le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> ou le menu **Solveur → Équations électromagnétiques → [Équation électrostatique](FEM_EquationElectrostatic/fr.md)**. Ceci est important car l\'équation de force électrique a besoin du champ potentiel calculé par l\'équation électrostatique.
+1.  Après avoir ajouté un solveur Elmer comme décrit [ici](FEM_SolverElmer/fr#.C3.89quations.md), sélectionnez-le dans la [vue en arborescence](Tree_view/fr.md).
+2.  Utilisez le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationElectricforce.svg  style="width:24px;"> ou le menu **Résolution → Équations électromagnétiques → Équation de force électrique**.
+3.  Utilisez maintenant le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> ou le menu **Résolution → Équations électromagnétiques → [Équation électrostatique](FEM_EquationElectrostatic/fr.md)**. Ceci est important car l\'équation de force électrique a besoin du champ potentiel calculé par l\'équation électrostatique.
 4.  Changez les [paramètres du solveur de l\'équation](#Param.C3.A8tres_du_solveur.md) ou les [paramètres généraux du solveur](FEM_SolverElmer_SolverSettings/fr.md) si nécessaire.
 
 L\'équation de la force électrique ne calcule la force que pour les faces avec une <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [contrainte de potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md) si l\'option **Calculer la force électrique** de la contrainte est utilisée.
@@ -31,7 +31,7 @@ L\'équation de la force électrique ne calcule la force que pour les faces avec
 
 ## Paramètres du solveur 
 
-Pour les paramètres généraux du solveur, voir les [Paramètres du solveur Elmer](FEM_SolverElmer_SolverSettings/fr.md).
+Pour les paramètres généraux du solveur, voir les [paramètres du solveur Elmer](FEM_SolverElmer_SolverSettings/fr.md).
 
 L\'équation de la force électrique fournit ce paramètre spécial :
 

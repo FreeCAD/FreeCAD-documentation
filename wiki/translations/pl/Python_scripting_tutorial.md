@@ -1,6 +1,8 @@
 # Python scripting tutorial/pl
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29) is a programming language that it relatively easy to learn and understand. It is open-source and multi-platform, and can be used for many purposes: from simple shell scripts to very complex programs. But its most widespread use is as a scripting language embedded in other applications. That is how it is used inside FreeCAD. From the [Python console](Python_console.md), or from custom scripts, you can control FreeCAD and make it perform very complex operations.
@@ -53,7 +55,7 @@ If you type this in the FreeCAD Python console, you will notice that as soon as 
 ![](images/Screenshot_classbrowser.jpg ) 
 *The autocomplete mechanism of the FreeCAD Python console*
 
-Now our new document will be created. This is similar to pressing the **<img src="images/Std_New.svg" width=16px> [Std New](Std_New.md)** button on the toolbar. In fact most buttons in FreeCAD do nothing more than execute one or more lines of Python code. Even better, you can set an option in **Edit → Preferences → General → Macro** to **Show script commands in python console**. This will print in the console all Python code executed when you press buttons. Very useful for learning how to reproduce actions in Python.
+Now our new document will be created. This is similar to pressing the **<img src="images/Std_New.svg" width=16px> [New](Std_New.md)** button on the toolbar. In fact most buttons in FreeCAD do nothing more than execute one or more lines of Python code. Even better, you can set an option in **Edit → Preferences → General → Macro** to **Show script commands in python console**. This will print in the console all Python code executed when you press buttons. Very useful for learning how to reproduce actions in Python.
 
 Now let\'s get back to our document and see what we can do with it:
 
@@ -99,7 +101,7 @@ This will print the current height of our box. Now let\'s try to change that:
 box.Height = 5
 ```
 
-If you select your box with the mouse, you\'ll see that in the [Property editor](Property_editor.md), on the **Data** tab, our **Height** property appears. All properties of a FreeCAD object that appear there (and also on the **View** tab, more about that later), are directly accessible in Python too, by their names, like we did with the **Height** property. Try changing the other dimensions of the box. {{Top}}
+If you select your box with the mouse, you\'ll see that in the [Property editor](Property_editor.md), on the 
 
 ## Wektory i umiejscowienia 
 
@@ -266,7 +268,15 @@ Qt is a very powerful interface system that allows you to do very complex things
 
 Now that you have a good understanding of the basics, where are we going to keep our Python scripts, and how are we going to launch them inside FreeCAD? There is an easy mechanism for that, called [Macros](Macros.md). A macro is a Python script that can be added to a toolbar and launched via a mouse click. FreeCAD provides you with a simple text editor (**Macro → Macros... → Create**) where you can write or paste scripts. Once the script is done, use **Tools → Customize... → Macros** to define a button for it that can be added to toolbars.
 
-Now you are ready for more in-depth FreeCAD scripting. So head on to the [Power users hub](Power_users_hub.md)! {{Top}}
+## External scripts 
+
+An alternative method for creating, saving, and running your own Python scripts is to create them outside FreeCAD, using an editor of your choice (for example, Vim). To run your Python script inside FreeCAD, be sure to save it with the **.py** extension.
+
+Then use **File → Open** to open your script. It will load into a new tab in the [Main view area](Main_view_area.md). You can run your script by clicking the **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Execute macro](Std_DlgMacroExecuteDirect.md)** button. Any errors or script output will be shown in the [Report view](Report_view.md).
+
+When you make and save any modifications to your already-loaded script, a dialog box will appear asking whether you want to reload the modified script into FreeCAD.
+
+You can continue to the [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) page, or you can access that page and other relevant pages at the [Power users hub](Power_users_hub.md). {{Top}}
 
 
 

@@ -2,9 +2,9 @@
 - GuiCommand:/fr
    Name:FEM EquationMagnetodynamic
    Name/fr:FEM Équation magnétodynamique
-   MenuLocation:Solveur → Équations électromagnétiques → Équation magnétodynamique
+   MenuLocation:Résolution → Équations électromagnétiques → Équation magnétodynamique
    Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:1.0
+   Version:0.21
    SeeAlso:[FEM Équation magnétodynamique 2D](FEM_EquationMagnetodynamic2D/fr.md)
 ---
 
@@ -21,7 +21,7 @@ S\'il est possible de calculer en 2D, des mathématiques plus simples peuvent ê
 ## Utilisation
 
 1.  Après avoir ajouté un solveur Elmer comme décrit [ici](FEM_SolverElmer/fr#Équations.md), sélectionnez-le dans la [vue en arborescence](Tree_view/fr.md).
-2.  Utilisez maintenant le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationMagnetodynamic.svg  style="width:24px;"> ou le menu **Solveur → Équations électromagnétiques → Équation magnétodynamique**.
+2.  Utilisez maintenant le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationMagnetodynamic.svg  style="width:24px;"> ou le menu **Résolution → Équations électromagnétiques → Équation magnétodynamique**.
 3.  Modifiez les [paramètres du solveur de l\'équation](#Paramètres_du_solveur.md) ou les [paramètres généraux du solveur](FEM_SolverElmer_SolverSettings/fr.md) si nécessaire.
 4.  Il est recommandé de définir dans les [paramètres du solveur de systèmes linéaires](FEM_SolverElmer_SolverSettings/fr#Système_linéaire.md), **Linear Iterative Method** à **BiCGStabl**, **BiCGstabl Degree** à **4** et **Linear Preconditioning** à **None**. Cela garantit que l\'équation peut être résolue dans la plupart des cas. Si c\'est le cas, ces paramètres peuvent être modifiés si nécessaire.
 
@@ -29,7 +29,7 @@ S\'il est possible de calculer en 2D, des mathématiques plus simples peuvent ê
 
 ## Paramètres du solveur 
 
-Pour les paramètres généraux du solveur, voir les [Paramètres du solveur Elmer](FEM_SolverElmer_SolverSettings/fr.md).
+Pour les paramètres généraux du solveur, voir les [paramètres du solveur Elmer](FEM_SolverElmer_SolverSettings/fr.md).
 
 L\'équation magnétodynamique fournit ces paramètres spéciaux :
 

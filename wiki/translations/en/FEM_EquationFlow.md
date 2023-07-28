@@ -3,7 +3,7 @@
    Name:FEM EquationFlow
    MenuLocation: Solve → Flow equation
    Workbenches:[FEM](FEM_Workbench.md)
-   Version:0.19
+   Version:0.17
    SeeAlso:
 ---
 
@@ -39,6 +39,15 @@ Equation:
 
 -    **Magnetic Induction**: If set to *true* the magnetic induction equation will be solved along with the [Navier-Stokes equations](https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations).
 
+### Notes for Convergence 
+
+If the solver results do not converge, you can try these things (in the given order):
+
+1.  Reduce the **Relaxation Factor**, see the [nonlinear system settings](FEM_SolverElmer_SolverSettings#Relaxation_Factor.md).
+2.  Increase the value for **Nonlinear Newton After Iterations**, see the [nonlinear system settings](FEM_SolverElmer_SolverSettings#Nonlinear_System.md).
+3.  Reduce the number of CPU cores used, see the [FEM preferences](FEM_Preferences#Elmer.md).
+4.  Increase the mesh density (make it more fine).
+
 ## Constraint Information 
 
 The electrostatic equation takes the following constraints into account if they are set:
@@ -46,7 +55,7 @@ The electrostatic equation takes the following constraints into account if they 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Constraint flow velocity](FEM_ConstraintFlowVelocity.md)
 -   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Constraint initial flow velocity](FEM_ConstraintInitialFlowVelocity.md)
 -   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Constraint pressure](FEM_ConstraintPressure.md)
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md) (<small>(v1.0)</small> )
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md) (<small>(v0.21)</small> )
 
 ### Notes
 

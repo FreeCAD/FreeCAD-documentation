@@ -2,7 +2,7 @@
 - GuiCommand:/de
    Name:TechDraw Dimension Horizontal Extent
    Name/de:TechDraw MaßHorizontaleAusdehnung
-   MenuLocation:TechDraw → Bemaßungen → Maß für die horizontale Ausdehnung einfügen
+   MenuLocation:TechDraw → Maßeinträge → Maß für die horizontale Ausdehnung einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Version:0.19
    SeeAlso:[TechDraw Längenmaß](TechDraw_LengthDimension/de.md), [TechDraw MaßVertikaleAusdehnung](TechDraw_VerticalExtentDimension/de.md)
@@ -14,7 +14,7 @@
 
 ## Beschreibung
 
-Das Werkzeug MaßHorizontaleAusdehnung fügt einer Ansicht ein lineares Maß hinzu. Das Maß erstreckt sich vom äußersten linken Punkt der ausgewählten Objekte bis zum äußersten rechten Punkt. An beiden Stellen wird ein Hilfspunkt gesetzt.
+Das Werkzeug **TechDraw MaßHorizontaleAusdehnung** fügt einer Ansicht ein lineares Maß hinzu. Das Maß erstreckt sich vom äußersten linken Punkt der ausgewählten Objekte bis zum äußersten rechten Punkt. An beiden Stellen wird ein Hilfspunkt gesetzt.
 
 <img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
 *Maß für die horizontale Ausdehnung einer B-Spline-Fläche (292,50)*
@@ -24,12 +24,12 @@ Das Werkzeug MaßHorizontaleAusdehnung fügt einer Ansicht ein lineares Maß hin
 ## Anwendung
 
 1.  Eine Ansicht oder mehrere Kanten in einer Ansicht auswählen.
-2.  Die Schaltfläche **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> [Maß für die horizontale Ausdehnung einfügen](TechDraw_HorizontalExtentDimension/de.md)** drücken.
+2.  Die Schaltfläche **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> [Horizontale Ausdehnung](TechDraw_HorizontalExtentDimension/de.md)** drücken.
 3.  Ein Maß wird der Ansicht hinzugefügt. Das Maß kann an die gewünschte Position gezogen werden.
 
 
 
-## Begrenzungen
+## Einschränkungen
 
 Dimension-Objekte (Maße) sind anfällig für das \"[Topological-Naming-Problem](topological_naming_problem/de.md)\" (Problem der topologischen Benennung). Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de.md) für weitere Informationen.
 

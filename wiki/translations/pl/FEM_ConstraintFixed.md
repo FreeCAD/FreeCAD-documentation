@@ -8,11 +8,15 @@
 
 # FEM ConstraintFixed/pl
 
-## Description
 
-Creates a FEM constraint for a fixed geometry entry by locking all 6 degrees of freedom of the selected object.
 
-## Usage
+## Opis
+
+Tworzy wiązanie MES dla pozycji nieruchomej geometrii poprzez zablokowanie wszystkich 6 stopni swobody wybranego obiektu.
+
+
+
+## Użycie
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ConstraintFixed.svg" width=16px> [FEM ConstraintFixed](FEM_ConstraintFixed.md)** button.

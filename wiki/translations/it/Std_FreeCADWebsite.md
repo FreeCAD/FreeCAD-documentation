@@ -1,42 +1,27 @@
 ---
 - GuiCommand:/it
-   Name:Std FreeCADWebsite   Name/it:Sito di FreeCAD
-   MenuLocation:[Aiuto](Std_Help_Menu/it.md) → Sito di FreeCAD
+   Name:Std FreeCADWebsite
+   Name/it:Sito Web di FreeCAD
+   MenuLocation:Aiuto → Sito Web di FreeCAD
 ‎   Workbenches:Tutti
+   SeeAlso:[Documentazione utenti](Std_FreeCADUserHub/it.md), [Documentazione di scripting Python](Std_FreeCADPowerUserHub/it.md), [Forum di FreeCAD](Std_FreeCADForum/it.md), [FAQ su FreeCAD](Std_FreeCADFAQ/it.md)
 ---
 
 # Std FreeCADWebsite/it
 
 
-</div>
 
 ## Descrizione
 
+Il comando **Sito Web di FreeCAD** apre il sito Web principale del progetto FreeCAD nel browser Internet predefinito del sistema. Il comando richiede una connessione Internet funzionante.
 
-<div class="mw-translate-fuzzy">
-
-Apre il [Sito di FreeCAD](https://www.freecadweb.org/) nel browser Internet predefinito del sistema.
-
-
-</div>
-
-Currently the command points to [<https://www.freecad.org>](https://www.freecad.org/).
+Attualmente il comando punta a [<https://www.freecad.org>](https://www.freecad.org/).
 
 
-<div class="mw-translate-fuzzy">
 
-## Uso
+## Utilizzo
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   Aprire il menu **Aiuto → Sito di FreeCAD**.
-
-
-</div>
+1.  Selezionare l\'opzione **Aiuto → <img src="images/Std_FreeCADWebsite.svg" width=16px> Sito Web di FreeCAD** dal menu.
 
 
 

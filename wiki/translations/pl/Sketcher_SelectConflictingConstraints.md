@@ -1,23 +1,28 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher SelectConflictingConstraints
-   MenuLocation:Sketch → Sketcher tools → Select conflicting constraints
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Wybierz wiązania konfliktowe
+   MenuLocation:Szkic → Narzędzia szkicownika → Wybierz wiązania konfliktowe
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**Z** **P** **C**
    Version:0.15
 ---
 
 # Sketcher SelectConflictingConstraints/pl
 
-## Description
 
-Selects the conflicting constraints of a sketch.
 
-## Usage
+## Opis
 
-1.  Enter edit mode of sketch.
-2.  Choose **Sketch → Sketcher tools → [<img src=images/Sketcher_SelectConflictingConstraints.svg style="width:16px"> Select conflicting constraints** from the top menu.
-3.  The conflicting constraints of the sketch will be selected.
+Zaznacza konfliktowe wiązania szkicu.
+
+
+
+## Użycie
+
+1.  Wejdź w tryb edycji szkicu.
+2.  Wybierz opcję **Szkic → Narzędzia szkicownika → [<img src=images/Sketcher_SelectConflictingConstraints.svg style="width:16px"> Wybierz wiązania konfliktowe** z menu głównego.
+3.  Zostaną wybrane konfliktowe wiązania szkicu.
 
 
 

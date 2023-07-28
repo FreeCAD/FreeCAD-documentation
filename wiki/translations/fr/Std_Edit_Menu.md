@@ -49,13 +49,13 @@ Les outils suivants sont disponibles dans ce menu :
 
 -   <img alt="" src=images/Std_BoxSelection.svg  style="width:32px;"> [Sélection par boite](Std_BoxSelection/fr.md) : permet la sélection de tout objet dans une zone rectangulaire.
 
--   <img alt="" src=images/Std_BoxElementSelection.svg  style="width:32px;"> [Box sélection d\'élement](Std_BoxElementSelection/fr.md) : permet de sélectionner des faces depuis une zone rectangulaire.
+-   <img alt="" src=images/Std_BoxElementSelection.svg  style="width:32px;"> [Sélection d\'éléments par boîte](Std_BoxElementSelection/fr.md) : permet de sélectionner des faces depuis une zone rectangulaire.
 
 -   <img alt="" src=images/Std_SelectAll.svg  style="width:32px;"> [Tout sélectionner](Std_SelectAll/fr.md) : sélectionne tous les élémnets.
 
 -   <img alt="" src=images/Std_Delete.svg  style="width:32px;"> [Effacer](Std_Delete/fr.md) : efface les objets sélectionnés.
 
--   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> [Variable dans Python](Std_SendToPythonConsole/fr.md) : crée des variables dans la [console Python](Python_console/fr.md) référençant un objet. {{Version/fr|0.19}}
+-   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> [Variable dans Python](Std_SendToPythonConsole/fr.md) : crée des variables dans la [console Python](Python_console/fr.md) référençant un objet.
 
 -   <img alt="" src=images/Std_Placement.svg  style="width:32px;"> [Positionnement\...](Std_Placement/fr.md) : ouvre le panneau des tâches Placement d\'un objet.
 

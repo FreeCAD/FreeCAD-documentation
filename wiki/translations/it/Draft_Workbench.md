@@ -26,7 +26,7 @@ Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie
 
 -   <img alt="" src=images/Draft_Line.svg  style="width:32px;"> [Linea](Draft_Line/it.md): crea una linea retta.
 
--   <img alt="" src=images/Draft_Wire.svg  style="width:32px;"> [Polilinea](Draft_Wire/it.md): crea una polilinea, una sequenza di diversi segmenti lineari connessi.
+-   <img alt="" src=images/Draft_Wire.svg  style="width:32px;"> [Polilinea](Draft_Wire/it.md): crea una polilinea (chiamata anche wire), una sequenza di diversi segmenti lineari connessi.
 
 -   <img alt="" src=images/Draft_Fillet.svg  style="width:32px;"> [Raccordo](Draft_Fillet/it.md): crea un raccordo, un angolo arrotondato, o uno smusso, un angolo retto, tra due [Linee](Draft_Line/it.md). {{Version/it|0.19}}
 
@@ -66,7 +66,7 @@ Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie
 
 -   <img alt="" src=images/Draft_Text.svg  style="width:32px;"> [Testo](Draft_Text/it.md): crea un testo su più righe in un determinato punto.
 
--   <img alt="" src=images/Draft_Dimension.svg  style="width:32px;"> [Dimensione](Draft_Dimension/it.md): crea una quota lineare, una quota radiale o una quota angolare.
+-   <img alt="" src=images/Draft_Dimension.svg  style="width:32px;"> [Quota](Draft_Dimension/it.md): crea una quota lineare, una quota radiale o una quota angolare.
 
 -   <img alt="" src=images/Draft_Label.svg  style="width:32px;"> [Etichetta](Draft_Label/it.md): crea un testo su più righe con una linea guida a 2 segmenti e una freccia.
 
@@ -112,17 +112,17 @@ Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie
 
 -   <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:32px;"> [Evidenzia sottoelemento](Draft_SubelementHighlight/it.md): evidenzia temporaneamente gli oggetti selezionati o gli oggetti base degli oggetti selezionati.
 
--   <img alt="" src=images/Draft_Join.svg  style="width:32px;"> [Congiungi](Draft_Join/it.md): unisce [Linee](Draft_Line/it.md) e [Polilinee](Draft_Wire/it.md) in un unico contorno.
+-   <img alt="" src=images/Draft_Join.svg  style="width:32px;"> [Unisci](Draft_Join/it.md): unisce [Linee](Draft_Line/it.md) e [Polilinee](Draft_Wire/it.md) in un unico contorno.
 
 -   <img alt="" src=images/Draft_Split.svg  style="width:32px;"> [Dividi](Draft_Split/it.md): divide una [Linea](Draft_Line/it.md) o una [Polilinea](Draft_Wire/it.md) in un punto o bordo specificato.
 
 -   <img alt="" src=images/Draft_Upgrade.svg  style="width:32px;"> [Promuovi](Draft_Upgrade/it.md): promuove gli oggetti selezionati.
 
--   <img alt="" src=images/Draft_Downgrade.svg  style="width:32px;"> [Semplifica](Draft_Downgrade/it.md): semplifica gli oggetti selezionati.
+-   <img alt="" src=images/Draft_Downgrade.svg  style="width:32px;"> [Declassa](Draft_Downgrade/it.md): declassa gli oggetti selezionati.
 
--   <img alt="" src=images/Draft_WireToBSpline.svg  style="width:32px;"> [Da Polilinea a B-spline](Draft_WireToBSpline/it.md): converte [Polilinee](Draft_Wire/it.md) in [BSplines](Draft_BSpline/it.md) e viceversa.
+-   <img alt="" src=images/Draft_WireToBSpline.svg  style="width:32px;"> [Polilinea in B-spline](Draft_WireToBSpline/it.md): converte [Polilinee](Draft_Wire/it.md) in [BSplines](Draft_BSpline/it.md) e viceversa.
 
--   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [Bozza in Schizzo](Draft_Draft2Sketch/it.md): converte una [Bozza](Draft_Workbench/it.md) in [Schizzo](Sketcher_NewSketch/it.md) e vice versa.
+-   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [Draft in Sketch](Draft_Draft2Sketch/it.md): converte un [Draft](Draft_Workbench/it.md) in [Schizzo](Sketcher_NewSketch/it.md) e vice versa.
 
 -   <img alt="" src=images/Draft_Slope.svg  style="width:32px;"> [Imposta la pendenza](Draft_Slope/it.md): imposta la pendenza delle [Linee](Draft_Line/it.md) o [Polilinee](Draft_Wire.md) selezionate aumentando o diminuendo la coordinata Z di tutti i punti dopo il primo.
 
@@ -138,9 +138,9 @@ La [Barra di draft](Draft_Tray/it.md) consente di selezionare il piano di lavoro
 
 ![](images/Draft_tray_default.png )
 
--   ![](images/Draft_tray_button_plane.png ) [Piano di lavoro](Draft_SelectPlane/it.md): seleziona il piano di lavoro Draft corrente. Disponibile anche nel menu: **Draft → Utilità → <img src="images/Draft_SelectPlane.svg" width=16px> Seleziona piano**.
+-   ![](images/Draft_tray_button_plane.png ) [Seleziona Piano](Draft_SelectPlane/it.md): seleziona il piano di lavoro Draft corrente. Disponibile anche nel menu: **Draft → Utilità → <img src="images/Draft_SelectPlane.svg" width=16px> Seleziona Piano**.
 
--   ![](images/Draft_tray_button_style.png ) [Cambia lo stile](Draft_SetStyle/it.md): imposta lo stile predefinito per i nuovi oggetti. Disponibile anche nel menu: **Draft → Utilità → <img src="images/Draft_SetStyle.svg" width=16px> Imposta stile**.
+-   ![](images/Draft_tray_button_style.png ) [Imposta stile](Draft_SetStyle/it.md): imposta lo stile predefinito per i nuovi oggetti. Disponibile anche nel menu: **Draft → Utilità → <img src="images/Draft_SetStyle.svg" width=16px> Imposta stile**.
 
 -   ![](images/Draft_tray_button_construction.png ) [Attiva/Disattiva la modalità costruzione](Draft_ToggleConstructionMode/it.md): attiva o disattiva la modalità di costruzione Draft. Disponibile anche nel menu: **Draft → Utilità → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Attiva/Disattiva la modalità costruzione**.
 
@@ -180,7 +180,7 @@ La barra degli strumenti Snap di Draft consente di selezionare le opzioni di sna
 
 -   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:32px;"> [Snap Intersezione](Draft_Snap_Intersection/it.md): aggancia all\'intersezione di due bordi.
 
--   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:32px;"> [Snap Perpendicolare](Draft_Snap_Perpendicular/it.md): esegue lo snap ai punti perpendicolari sulle facce ({{Version/it|1.0}}) e sugli spigoli.
+-   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:32px;"> [Snap Perpendicolare](Draft_Snap_Perpendicular/it.md): esegue lo snap ai punti perpendicolari sulle facce ({{Version/it|0.21}}) e sugli spigoli.
 
 -   <img alt="" src=images/Draft_Snap_Extension.svg  style="width:32px;"> [Snap Estensione](Draft_Snap_Extension/it.md): aggancia a una linea immaginaria che si estende oltre i punti finali dei bordi diritti.
 
@@ -204,7 +204,7 @@ La barra degli strumenti Snap di Draft consente di selezionare le opzioni di sna
 
 ## Strumenti di utilità di Draft 
 
--   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Livello](Draft_Layer/it.md): crea un [livello](Draft_Layer/it.md).
+-   <img alt="" src=images/Draft_LayerManager.svg  style="width:32px;"> [Gestione livelli](Draft_LayerManager.md): permette di gestire i livelli in un documento. {{Version/it|0.21}}
 
 -   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:32px;"> [Aggiunge un nuovo gruppo con nome](Draft_AddNamedGroup/it.md): crea un [gruppo](Std_Group.md) con nome e sposta gli oggetti selezionati in quel gruppo. {{Version/it|0.20}}
 
@@ -225,6 +225,8 @@ La barra degli strumenti Snap di Draft consente di selezionare le opzioni di sna
 Il menu **Draft → Utilità** contiene diversi strumenti. Alla maggior parte di essi è possibile accedere anche dalle barre degli strumenti o dalla [Barra Draft](Draft_Tray/it.md) e sono già stati menzionati sopra. Per i seguenti strumenti non è questo il caso:
 
 -   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Applica lo stile corrente](Draft_ApplyStyle/it.md): applica le impostazioni di stile correnti agli oggetti selezionati.
+
+-   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Livello](Draft_Layer/it.md): crea un [livello](Draft_Layer/it.md). Disponibile nella [Strumenti di utilità di Draft](Draft_Workbench/it#Strumenti_di_utilità_di_Draft.md) in {{VersionMinus/it|0.20}}.
 
 -   <img alt="" src=images/Draft_Heal.svg  style="width:32px;"> [Ripara](Draft_Heal/it.md): ripara gli oggetti Draft problematici trovati in file molto vecchi.
 
@@ -254,7 +256,7 @@ Le seguenti opzioni aggiuntive sono disponibili nel menu contestuale [Vista ad a
 
 Per la maggior parte degli oggetti Draft è disponibile la seguente opzione:
 
--   Modifica: modifica l\'oggetto. A seconda del tipo di oggetto, viene utilizzata [Draft Modifica](Draft_Edit/it.md) o una soluzione di modifica dedicata. {{Version/it|1.0}}
+-   Modifica: modifica l\'oggetto. A seconda del tipo di oggetto, viene utilizzata [Draft Modifica](Draft_Edit/it.md) o una soluzione di modifica dedicata. {{Version/it|0.21}}
 
 Se c\'è un documento attivo il menu contestuale contiene un ulteriore sottomenu:
 
@@ -316,11 +318,9 @@ Se è presente un documento attivo, il menu contestuale contiene un ulteriore so
 
 ### Strumenti obsoleti 
 
-Questi comandi sono obsoleti ma ancora disponibili:
+-   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> [Serie](Draft_Array/it.md): crea una serie ortogonale da un oggetto selezionato. La serie creata può essere trasformata in una [serie polare](Draft_PolarArray/it.md) o in una [serie circolare](Draft_CircularArray/it.md) modificandone la proprietà **Tipo di array**. Non disponibile in {{VersionPlus/it|0.21}}.
 
--   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> [Serie](Draft_Array/it.md): crea una serie ortogonale da un oggetto selezionato. La serie creata può essere trasformata in una [serie polare](Draft_PolarArray/it.md) o in una [serie circolare](Draft_CircularArray/it.md) modificandone la proprietà **Tipo di array**. {{Obsolete|0.19}}
-
--   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Disegno](Draft_Drawing/it.md): inserisce le viste degli oggetti selezionati in una pagina [disegno tecnico](Drawing_Workbench/it.md).{{Obsolete|0.17}}
+-   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Disegno](Draft_Drawing/it.md): inserisce le viste degli oggetti selezionati in una pagina [disegno tecnico](Drawing_Workbench/it.md).Non disponibile in {{VersionPlus/it|0.21}}.
 
 
 

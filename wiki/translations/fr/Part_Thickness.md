@@ -75,8 +75,8 @@ Un bon exemple sur la façon d\'utiliser cet outil sur le forum : [Re: Help desi
 
 Remarques :
 
--   Pour cette forme, pensez à utiliser **<img src="images/Part_Tube.svg" width=16px> [Part Tube](Part_Tube/fr.md)** à la place {{Version/fr|0.19}}
--   Sélectionnez la surface supérieure du cylindre uniquement pour créer un réceptacle
+-   Pour cette forme, pensez à utiliser **<img src="images/Part_Tube.svg" width=16px> [Part Tube](Part_Tube/fr.md)** à la place.
+-   Sélectionnez la surface supérieure du cylindre uniquement pour créer un réceptacle.
 
 ![](images/ThicknessEsempio1.png )
 

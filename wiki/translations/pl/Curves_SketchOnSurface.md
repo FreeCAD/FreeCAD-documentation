@@ -21,7 +21,11 @@ This tool maps a sketch onto a face, like a label on a bottle. The sketch must b
 
     You already have a sketch that you want to map on a face:
 
-    1.  Attach the sketch to the target face.
+    1.  Attach the sketch to the target face:
+        -   In the attachment dialog selet the face
+        -   Set the mode to Deactivated while leaving the face as the first reference
+        -   Close the Attachment dialog
+        -   Set Placement.z=0
     2.  Edit the sketch and add a Construction (blue) rectangle around the geometries. This rectangle will be the parametric bounds of the face.
     3.  Exit edit mode.
     4.  Select the sketch.

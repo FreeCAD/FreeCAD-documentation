@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -26,6 +28,8 @@ CalculiXccxTools abilita l\'uso del solutore [Calculix](https://en.wikipedia.org
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -45,6 +49,8 @@ CalculiXccxTools abilita l\'uso del solutore [Calculix](https://en.wikipedia.org
 
 </div>
 
+
+
 ## Opzioni
 
 
@@ -54,6 +60,8 @@ Usando **Edit .inp file** è possibile visualizzare e modificare manualmente il 
 
 
 </div>
+
+
 
 ## Proprietà
 
@@ -187,6 +195,8 @@ I valori predefiniti possono essere impostati nel menu **Modifica** → **Prefer
 
 -    **Working Dir**:percorso alla directory di lavoro che verrà utilizzata per i file di analisi CalculiX.
 
+
+
 ## Limitazioni
 
 When running a CalculiX, you might end up with **error 4294977295**. This means you don\'t have enough RAM space. You have then 2 options:
@@ -194,9 +204,13 @@ When running a CalculiX, you might end up with **error 4294977295**. This means 
 1.  reduce the number of mesh nodes, preferably by omitting geometry that is not absolutely necessary for your analysis
 2.  buy more RAM for your PC
 
+
+
 ## Note
 
 La documentazione originale di CalculiX è disponibile all\'indirizzo <http://dhondt.de/> in the \"ccx\" paragraph.
+
+
 
 ## Script
 

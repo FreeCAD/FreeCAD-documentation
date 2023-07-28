@@ -10,11 +10,15 @@
 
 # Sketcher ConstrainTangent/ru
 
+
+
 ## Описание
 
-Ограничение касательности делает две кривые касающимися друг друга. Линии полагаются бесконечными, а дуги как полные окружности или эллипсы. Ограничение так же может соединять две кривые, заставляя их идти по касательной в точке соединения, делая переход гладким.
+Ограничение касательности делает две кривые касающимися друг друга. Линии полагаются бесконечными, а дуги как полные окружности или эллипсы. Ограничение также может соединять две кривые, заставляя их идти по касательной в точке соединения, делая переход гладким.
 
-Tangent Constraint can also be used with two lines to make them colinear.
+Ограничение касательности также можно использовать с двумя линиями, чтобы сделать их коллинеарными.
+
+
 
 ## Применение
 
@@ -50,13 +54,7 @@ Tangent Constraint can also be used with two lines to make them colinear.
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width:600px;">
 
-
-<div class="mw-translate-fuzzy">
-
-В этом режиме конечные точки делаются совпадающими, и соединение делается касательным (C1-smooth, или \"sharp\", в зависимости от расположения кривых перед применением ограничения). Этот режим применяется, когда выделены две конечные точки двух кривых.
-
-
-</div>
+В этом режиме конечные точки делаются совпадающими, и соединение делается касательным (C1-smooth, или \"sharp\", в зависимости от расположения кривых перед применением ограничения). Этот режим применяется, когда выделены две конечные точки двух кривых. Если вам нужно такое касание, вы не должны использовать совпадение плюс касание между кривыми/линиями. Решатель не может создать стабильные решения для этой комбинации и соответствующим образом заменяет ограничения.
 
 **Допустимые выделения:**
 
@@ -90,13 +88,17 @@ Tangent Constraint can also be used with two lines to make them colinear.
 
 Подсказкой вычислителю, где должно быть касание, будет размещение точки перед наложением ограничения. С этим ограничением можно ограничить два эллипса на касание в двух точках.
 
-### Between two lines (collinear) 
+
+
+### Между двумя линиями (коллинеарно) 
 
 <img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width:600px;">
 
-**Accepted selection:**
+**Допустимое выделение:**
 
--   any line/vertex + any line/vertex
+-   любая линия/вершина + любая линия/вершина
+
+
 
 ## Программирование
 
@@ -123,16 +125,10 @@ Sketch.addConstraint(Sketcher.Constraint('TangentViaPoint',icurve1,icurve2,geoid
 
   - `geoidpoint` и `pointpos` в `TangentViaPoint` это индексы, указывающие точку касания.
 
-The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `incurve1`, `incurve2`, `pointpos1`, `pointpos2`, `geoidpoint` and `pointpos` and contains further examples on how to create constraints from Python scripts.
-
-
-<div class="mw-translate-fuzzy">
+На странице [Программирование в Sketcher](Sketcher_scripting/ru.md) объясняются значения, которые можно использовать для `incurve1`, `incurve2`, `pointpos1`, `pointpos2`, `geoidpoint` и `pointpos` а также содержатся дополнительные примеры того, как создавать ограничения из сценариев Python.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

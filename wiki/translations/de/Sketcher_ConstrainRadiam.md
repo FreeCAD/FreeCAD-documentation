@@ -11,6 +11,8 @@
 
 # Sketcher ConstrainRadiam/de
 
+
+
 ## Beschreibung
 
 Diese Randbedingung legt den Durchmesser eines Kreises oder den Radius eines Bogens auf einen bestimmten Wert fest. Dabei gelten folgende Regeln:
@@ -32,18 +34,22 @@ Wenn vor dem Start des Befehls mehr als ein Kreis oder Bogen ausgewählt wurde:
 
 NB: B-Spline-Pole können nicht mit anderen Objekttypen in der Auswahl gemischt werden.
 
+
+
 ## Anwendung
 
 1.  Einen oder mehrere Kreise oder Bögen auswählen.
-2.  Die Schaltfläche **[<img src=images/Sketcher_ConstrainRadiam.svg style="width:16px"> [Automatisch Radius/Durchmesser einschränken](Sketcher_ConstrainRadiam/de.md)** drücken.
+2.  Die Schaltfläche **[<img src=images/Sketcher_ConstrainRadiam.svg style="width:16px"> [Automatisch Radius oder Durchmesser festlegen](Sketcher_ConstrainRadiam/de.md)** drücken.
 3.  Es öffnet sich ein Aufklappdialog zum Bearbeiten oder Bestätigen des Wertes. Zum Bestätigen **OK** drücken.
 4.  Optional können Maßzahl und Maßlinie in der 3D-Ansicht durch Klicken auf die Maßzahl und Ziehen bei gedrückter linker Maustaste verschoben und gedreht werden.
 
-**Hinweis:** das Beschränkungswerkzeug kann auch ohne vorherige Auswahl gestartet werden. Standardmäßig befindet sich der Befehl im Fortsetzungsmodus, um neue Beschränkungen zu erstellen; drücke die rechte Maustaste oder **Esc** einmal, um den Befehl zu beenden.
+**Hinweis:** Dieses Werkzeug kann auch ohne vorherige Auswahl gestartet werden. Standardmäßig befindet sich der Befehl im Fortsetzungsmodus, um neue Randbedingungen zu erstellen; ein Druck auf die rechte Maustaste oder auf **Esc** beendet den Befehl.
+
+
 
 ## Skripten
 
-Es gilt kein spezielles Skripten. Siehe die Seite [Skizzierer Skripten](Sketcher_scripting/de.md), die die Werte erklärt, die für `ArcOrCircle` und `Circle` verwendet werden können, und weitere Beispiele für die Erstellung von Beschränkungen aus Python Skripten enthält.
+Es gilt kein spezielles Skripten. Siehe die Seite [Sketcher Skripten](Sketcher_scripting/de.md), die die Werte erklärt, die für `ArcOrCircle` und `Circle` verwendet werden können, und weitere Beispiele für die Erstellung von Randbedingungen mit Python-Skripten enthält.
 
 
 

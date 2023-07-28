@@ -22,6 +22,8 @@ Dacă utilizați Windows, luați în considerare folosirea[LibPack](#LibPack.md)
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Legături
@@ -51,6 +53,8 @@ Dacă utilizați Windows, luați în considerare folosirea[LibPack](#LibPack.md)
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -109,6 +113,8 @@ Python was chosen as the scripting language for FreeCAD for different reasons:
 In summary, Python is well documented, and it\'s easy to embed and extend in a C++ application. It is also well tested and has strong support from the open source community. Read more about Python and browse the official documentation at [Python.org](http://www.python.org).
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Boost
@@ -143,6 +149,8 @@ Pentru a asigura eficiența și flexibilitatea, Boost folosește pe scară larg�
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -201,6 +209,8 @@ To learn more about OpenCasCade take a look at the OpenCasCade page or <http://w
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Qt
@@ -253,6 +263,8 @@ Numele de **Shiboken2** și **PySide2** face referire la compatibilitatea Qt 5, 
 </div>
 
 Read more about Shiboken and Pyside on [Qt for Python](https://wiki.qt.io/Qt_for_Python/Shiboken).
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -319,6 +331,8 @@ Software Coin este portabil pe o gamă largă de platforme: orice platformă UNI
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### SoQt
@@ -373,6 +387,8 @@ If you are not going to use these workbenches, you won\'t need Pivy.
 Ply is the Python-Lex-Yacc parser. It is used as a runtime dependency by the [OpenSCAD Workbench](OpenSCAD_Workbench.md). If you don\'t use this workbench, you may not need this package.
 
 For more information see [Ply homepage](https://www.dabeaz.com/ply/)
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -467,6 +483,8 @@ zlib este conceput pentru a fi gratuit, cu scop general, fără a fi limitat din
 </div>
 
 A copy of this library is included in the source code of FreeCAD so it is compiled together with it.
+
+
 
 
 <div class="mw-translate-fuzzy">

@@ -8,6 +8,8 @@
    Shortcut:**W** **A**
    SeeAlso:[Структура](Arch_Structure/ru.md)---
 
+
+
 ## Описание
 
 
@@ -30,7 +32,11 @@ Walls can also have additions or subtractions. Additions are other objects whose
 
 When several walls should intersect, you need to place them into a [floor](Arch_Floor.md) to have their geometry intersected.
 
+
+
 ## Применение
+
+
 
 ### Рисование стены с нуля 
 
@@ -43,6 +49,8 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 1.  Select one or more base geometry objects (Draft object, sketch, etc)
 2.  Press the **<img src="images/Arch_Wall.svg" width=16px> [Arch Wall](Arch_Wall.md)** button, or press the **W** then **A** keys
 3.  Adjust needed properties such as height or width.
+
+
 
 ## Опции
 
@@ -57,7 +65,9 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 -   Double-clicking on the wall in the tree view after it is created allows you to enter edit mode and access and modify its additions and subtractions
 -   Multi-layer walls can be easily created by building several walls from the same baseline. By setting their Align property to either left or right, and specifying an Offset value, you can effectively construct several wall layers. Placing a window in such a wall layer will propagate the opening to the other wall layers based on the same baseline.
 -   Walls can also make use of [Multi-Materials](Arch_MultiMaterial.md). When using a multi-material, the wall will become multi-layer, using the thicknesses specified by the multi-material. Any layer with a thickness of zero will have its thickness defined automatically by the remaining space defined by the Wall\'s Width value, after subtracting the other layers.
--   Walls can be made to display blocks, instead of one single solid, by turning their **Make Blocks** property on. The size and offset of blocks can be configured with different properties, and the amount of blocks is automatically calculated. <small>(v0.18)</small> 
+-   Walls can be made to display blocks, instead of one single solid, by turning their **Make Blocks** property on. The size and offset of blocks can be configured with different properties, and the amount of blocks is automatically calculated.
+
+
 
 ## Привязки
 
@@ -66,46 +76,60 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 <img alt="" src=images/Arch_wall_snap.jpg  style="width:780px;"> 
 *Second wall snapping perpendicularly to the first one*
 
+
+
 ## Свойства
 
 Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and also have the following extra properties:
 
--    **Align**: The alignment of the wall on its baseline: Left, Right or Center
-
--    **Base**: The base object this wall is built on
-
--    **Face**: The index of the face from the base object to use. If the value is not set or 0, the whole object is used
-
--    **Force Wire**: If True, and the wall is based on a face, only the border wire of the face is used, resulting in a wall bordering the face
-
--    **Length**: The length of the wall (not used when the wall is based on an object)
-
--    **Width**: The width of the wall (not used when the wall is based on a face)
-
--    **Height**: The height of the wall (not used when the wall is based on a solid). If no height is given, and the wall is inside a [floor](Arch_Floor.md) object with its height defined, the wall will automatically take the value of the floor height.
-
--    **Normal**: An extrusion direction for the wall. If set to (0,0,0), the extrusion direction is automatic.
-
--    **Offset**: This specifies the distance between the wall and its baseline. Works only if the Align property is set to Right or Left.
+### Data
 
 
-{{Version/ru|0.18}}
+{{TitleProperty|Blocks}}
 
--    **Make Blocks**: Enable this to make the wall generate blocks
+-    **Block Height**: The height of each block
 
 -    **Block Length**: The length of each block
 
--    **Block Height**: The height of each block
+-    **Count Broken**: The number of broken blocks (read-only)
+
+-    **Count Entire**: The number of entire blocks (read-only)
+
+-    **Joint**: The size of the joints between each block
+
+-    **Make Blocks**: Enable this to make the wall generate blocks
 
 -    **Offset First**: The horizontal offset of the first line of blocks
 
 -    **Offset Second**: The horizontal offset of the second line of blocks
 
--    **Joint**: The size of the joints between each block
 
--    **Count Entire**: The number of entire blocks (read-only)
+{{TitleProperty|Component}}
 
--    **Count Broken**: The number of broken blocks (read-only)
+-    **Base**: The base object this wall is built on
+
+
+{{TitleProperty|Wall}}
+
+-    **Align**: The alignment of the wall on its baseline: Left, Right or Center
+
+-    **Area**:
+
+-    **Face**: The index of the face from the base object to use. If the value is not set or 0, the whole object is used
+
+-    **Height**: The height of the wall (not used when the wall is based on a solid). If no height is given, and the wall is inside a [floor](Arch_Floor.md) object with its height defined, the wall will automatically take the value of the floor height.
+
+-    **Length**: The length of the wall (not used when the wall is based on an object)
+
+-    **Normal**: An extrusion direction for the wall. If set to (0,0,0), the extrusion direction is automatic.
+
+-    **Offset**: This specifies the distance between the wall and its baseline. Works only if the Align property is set to Right or Left.
+
+-    **Override Align**:
+
+-    **Override Width**:
+
+-    **Width**: The width of the wall (not used when the wall is based on a face)
 
 ## Scripting
 

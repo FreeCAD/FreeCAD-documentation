@@ -50,6 +50,8 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Configurarea fișierului exemplu 
@@ -235,9 +237,11 @@ Deformarea în direcția x trebuie să fie de 19,05 mm.
 </div>
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM CalculiX Cantilever 3D/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CalculiX Cantilever 3D/ro

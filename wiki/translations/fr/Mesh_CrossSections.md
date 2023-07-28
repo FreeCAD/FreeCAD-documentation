@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande **Mesh Coupes** crée plusieurs coupes transversales sur les objets maillés. Les coupes transversales sont prises parallèlement à l\'un des principaux plans globaux (XY, XZ ou YZ). Pour chaque ensemble de sections transversales, une seule [Part Feature](Part_Feature/fr.md) est créée.
+La commande **Coupes** crée plusieurs coupes transversales sur les objets maillés. Les coupes transversales sont prises parallèlement à l\'un des principaux plans globaux (XY, XZ ou YZ). Pour chaque ensemble de sections transversales, une seule [Part Feature](Part_Feature/fr.md) est créée.
 
 
 

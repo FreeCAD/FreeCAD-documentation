@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Einführung
 
 Die Festkörper Modellierungsfähigkeiten von FreeCAD basieren auf dem [OpenCASCADE Technologie](OpenCASCADE/de.md) (OCCT) Kernel, ein professionelles CAD System das fortschrittliche 3D Geometrieerstellung und -handhabung besitzt. Die <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md) ist eine Schicht, die sich auf der Oberseite der OCCT Bibliotheken befindet und dem Benutzer Zugriff auf geometrische OCCT Grundkörper und -funktionen gewährt. Grundsätzlich basieren alle 2D und 3D Zeichenfunktionen in jedem Arbeitsbereich (<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Entwurf](Draft_Workbench/de.md), <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [ Skizzierer](Sketcher_Workbench/de.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md), usw.) auf diesen Funktionen, die vom Part Arbeitsbereich herausgestellt werden. Daher gilt der Part Arbeitsbereich als die Kernkomponente der Modellierungsfunktionen von FreeCAD.
@@ -19,9 +21,13 @@ Part Objekte sind komplexer als Polygonnetz Objekte, die mit dem [Arbeitsbereich
 
 *Der Part Arbeitsbereich ist die Basisschicht, die die OCCT Zeichenfunktionen allen Arbeitsbereichen in FreeCAD zur Verfügung stellt.*
 
+
+
 ## Werkzeuge
 
 Die Werkzeuge befinden sich alle im **Part** Menü oder dem **Messung** Menü.
+
+
 
 ### Grundelemente
 
@@ -37,7 +43,7 @@ Dies sind Werkzeuge zum Erstellen von Grundkörpern und anderen Grundelementen.
 
 -   <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Torus](Part_Torus/de.md): Erstellt einen Torus.
 
--   <img alt="" src=images/Part_Tube.svg  style="width:32px;"> [Rohr](Part_Tube/de.md): Erstellt ein Rohr (Hohlzylinder). {{Version/de|0.19}}
+-   <img alt="" src=images/Part_Tube.svg  style="width:32px;"> [Rohr](Part_Tube/de.md): Erstellt ein Rohr (Hohlzylinder).
 
 -   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Grundelemente](Part_Primitives/de.md): Ein Werkzeug zum Erstellen eines der folgenden Grundelemente:
     -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Ebene](Part_Plane/de.md): Erstellt eine Ebene.
@@ -59,6 +65,8 @@ Dies sind Werkzeuge zum Erstellen von Grundkörpern und anderen Grundelementen.
 
 -   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Formgenerator](Part_Builder/de.md): Erstellt Formen aus verschiedenen Grundelementen.
 
+
+
 ### Erstellung und Änderung 
 
 Dies sind Werkzeuge zum Erstellen neuer und Ändern vorhandener Objekte.
@@ -73,7 +81,7 @@ Dies sind Werkzeuge zum Erstellen neuer und Ändern vorhandener Objekte.
 
 -   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Fase](Part_Chamfer/de.md): Erstellt Fasen an den Kanten eines Objekts.
 
--   <img alt="" src=images/Part_MakeFace.svg  style="width:32px;"> [Fläche aus Linienzügen](Part_MakeFace/de.md): Erstellt eine Fläche aus einem Satz geschlossener Drähte (Konturen/Linienzüge). {{Version/de|0.19}}
+-   <img alt="" src=images/Part_MakeFace.svg  style="width:32px;"> [Fläche aus Linienzügen](Part_MakeFace/de.md): Erstellt eine Fläche aus einem Satz geschlossener Drähte (Konturen/Linienzüge).
 
 -   <img alt="" src=images/Part_RuledSurface.svg  style="width:32px;"> [Regelfläche](Part_RuledSurface/de.md): Erstellt eine Regelfläche.
 
@@ -91,9 +99,11 @@ Dies sind Werkzeuge zum Erstellen neuer und Ändern vorhandener Objekte.
 
 -   <img alt="" src=images/Part_Thickness.svg  style="width:32px;"> [Dicke](Part_Thickness/de.md): Höhlt einen Festkörper aus.
 
--   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Projektion auf Oberfläche](Part_ProjectionOnSurface/de.md): Projiziert ein Logo, einen Text oder eine beliebige Fläche, Draht, Kante auf eine Oberfläche. {{Version/de|0.19}}
+-   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Projektion auf Oberfläche](Part_ProjectionOnSurface/de.md): Projiziert ein Logo, einen Text oder eine beliebige Fläche, Draht, Kante auf eine Oberfläche.
 
 -   <img alt="" src=images/Part_EditAttachment.svg  style="width:32px;"> [Anhang](Part_EditAttachment/de.md): Hängt ein Objekt an ein anderes Objekt an.
+
+
 
 ### Boolesche Operationen 
 
@@ -108,7 +118,7 @@ Diese Werkzeuge führen boolesche Operationen aus.
 
 -   <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Differenz](Part_Cut/de.md): Beschneidet ein Objekt mit einem anderen.
 
--   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Vereinigung](Part_Fuse/de.md): Vereinigt zwei Objekte.
+-   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Vereinigung](Part_Fuse/de.md): Vereinigt zwei oder mehr Objekte.
 
 -   <img alt="" src=images/Part_Common.svg  style="width:32px;"> [Gemeinsam](Part_Common/de.md): Entnimmt den gemeinsamen Teil (Schnittmenge) von zwei Objekten.
 
@@ -126,6 +136,8 @@ Zerschneidet und teilt ein Objekt, indem es mit anderen Objekten verschnitten wi
 -   -   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Zerschneiden](Part_Slice/de.md): Zerschneidet ein Objekt, indem es mit anderen Objekten verschnitten wird.
     -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [XOR](Part_XOR/de.md): Entfernt Bereiche, die von einer geraden Anzahl von Objekten geteilt werden.
 
+
+
 ### Messung
 
 -   <img alt="" src=images/Part_Measure_Linear.svg  style="width:32px;"> [Linear messen](Part_Measure_Linear/de.md) Erzeugt eine lineare Messung.
@@ -142,6 +154,8 @@ Zerschneidet und teilt ein Objekt, indem es mit anderen Objekten verschnitten wi
 
 -   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width:32px;"> [Delta umschalten](Part_Measure_Toggle_Delta/de.md) Zeigt oder blendet Delta Messungen aus.
 
+
+
 ### Andere Werkzeuge 
 
 -   <img alt="" src=images/Part_Import.svg  style="width:32px;"> [Import](Part_Import/de.md): Importiert aus \*.IGES, \*.STEP, oder \*.BREP Dateien.
@@ -150,9 +164,9 @@ Zerschneidet und teilt ein Objekt, indem es mit anderen Objekten verschnitten wi
 
 -   <img alt="" src=images/Part_BoxSelection.svg  style="width:32px;"> [Rechteckauswahl](Part_BoxSelection/de.md): Wählt Flächen mit einem Auswahlrechteck aus.
 
--   <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:32px;"> [Form aus Netz](Part_ShapeFromMesh/de.md): Erzeugt ein Formobjekt aus einem Netzobjekt.
+-   <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:32px;"> [Form aus Dreiecksnetz erstellen](Part_ShapeFromMesh/de.md): Erzeugt ein Formobjekt aus einem Netzobjekt.
 
--   <img alt="" src=images/Part_PointsFromMesh.svg  style="width:32px;"> [Punkte aus Netz](Part_PointsFromMesh/de.md): erzeugt ein Formobjekt, erstellt aus Punkten eines Netzobjekts.
+-   <img alt="" src=images/Part_PointsFromMesh.svg  style="width:32px;"> [Punkteobjekt aus Geometrie](Part_PointsFromMesh/de.md): erstellt ein Punkteobjekt aus einem geometrischen Objekt.
 
 -   <img alt="" src=images/Part_MakeSolid.svg  style="width:32px;">[Umwandeln in Festkörper](Part_MakeSolid/de.md): Wandelt ein Formobjekt in ein Festkörperobjekt um.
 
@@ -160,13 +174,15 @@ Zerschneidet und teilt ein Objekt, indem es mit anderen Objekten verschnitten wi
 
 -   Erstelle eine Kopie:
     -   <img alt="" src=images/Part_SimpleCopy‎.svg  style="width:32px;"><img alt="" src=images/Part_SimpleCopy‎.svg  style="width:32px;"> [Einfache Kopie erstellen](Part_SimpleCopy/de.md): Erstellt eine einfache Kopie eines ausgewählten Objekts.
-    -   <img alt="" src=images/Part_TransformedCopy.svg  style="width:32px;"> [Erstelle eine transformierte Kopie](Part_TransformedCopy/de.md): Erstellt eine transformierte Kopie des ausgewählten Objekts. {{Version/de|0.19}}
-    -   <img alt="" src=images/Part_ElementCopy.svg  style="width:32px;"> [erstelle eine Kopie des Formelements](Part_ElementCopy/de.md): Erstellt eine Kopie eines Elements (Knoten, Kante, Fläche) eines ausgewählten Objekts. {{Version/de|0.19}}
-    -   <img alt="" src=images/Part_RefineShape.svg  style="width:32px;"> [Form verfeinern](Part_RefineShape/de.md): Säubert Flächen durch entfernen unnötiger Linien.
+    -   <img alt="" src=images/Part_TransformedCopy.svg  style="width:32px;"> [Erstelle eine transformierte Kopie](Part_TransformedCopy/de.md): Erstellt eine transformierte Kopie des ausgewählten Objekts.
+    -   <img alt="" src=images/Part_ElementCopy.svg  style="width:32px;"> [erstelle eine Kopie des Formelements](Part_ElementCopy/de.md): Erstellt eine Kopie eines Elements (Knoten, Kante, Fläche) eines ausgewählten Objekts.
+    -   <img alt="" src=images/Part_RefineShape.svg  style="width:32px;"> [Form verfeinern](Part_RefineShape/de.md): Säubert Flächen durch Entfernen unnötiger Linien.
 
 -   <img alt="" src=images/Part_CheckGeometry.svg  style="width:32px;"> [Geometrie prüfen](Part_CheckGeometry/de.md): Prüft die Geometrie von ausgewählten Objekte auf Fehler.
 
 -   <img alt="" src=images/Part_Defeaturing.svg  style="width:32px;"> [Defeaturing](Part_Defeaturing/de.md): Entfernt Formelemente aus einem Objekt.
+
+
 
 ### Kontextmenü Elemente 
 
@@ -174,15 +190,21 @@ Zerschneidet und teilt ein Objekt, indem es mit anderen Objekten verschnitten wi
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Farben festlegen](Part_FaceColors/de.md): Weist den einzelnen Flächen von Objekten Farben zu.
 
+
+
 ## Einstellungen
 
 -   <img alt="" src=images/Preferences-part_design.svg  style="width:32px;"> [Einstellungen](PartDesign_Preferences/de.md): Einstellungen für Teilewerkzeuge verfügbar (der Part Arbeitsbereich verwendet auch die PartDesign Einstellungen).
 -   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Import Export Einstellungen](Import_Export_Preferences/de.md): Einstellungen verfügbar für den Import aus und Export in verschiedene Dateiformate.
 -   [Feinabstimmung](Fine-tuning/de.md): Einige zusätzliche Parameter zur Feineinstellung des Bauteilverhaltens.
 
+
+
 ## Skripten
 
 Siehe [Part Skripten](Part_scripting/de.md)
+
+
 
 ## Tutorien
 

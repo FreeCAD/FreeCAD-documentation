@@ -1,42 +1,40 @@
-# Std WhatsThis/it
 ---
-- GuiCommand:/it   Name:Std WhatsThis   Name/it:Cos'è questo?   MenuLocation:[|Workbenches:Tutti   Shortcut:Maiusc+F1   SeeAlso:[[Std OnlineHelp/it|Aiuto](Std_Help_Menu/it___Help]]_→_Cos'è_questo?‏‎.md)---
+- GuiCommand:/it
+   Name:Std WhatsThis
+   Name/it:Cos'è questo?
+   MenuLocation:Aiuto → Cos'è questo?‏‎
+   Workbenches:Tutti
+   Shortcut:**Shift**+**F1**
+   SeeAlso:[Aiuto](Std_OnlineHelp/it.md)
+---
+
+# Std WhatsThis/it
 
 
-</div>
 
 ## Descrizione
 
+Il comando **Cos\'è questo?** apre la documentazione di aiuto per un comando specifico.
 
-<div class="mw-translate-fuzzy">
-
-Questo strumento fornisce informazioni su un comando selezionato aprendo offline la [Documentazione di aiuto](Std_OnlineHelp/it.md) alla pagina appropriata.
-
-
-</div>
-
-In FreeCAD <small>(v0.20)</small>  this command requires the [Help Addon](https://github.com/FreeCAD/FreeCAD-Help).
+In FreeCAD {{VersionPlus/it|0.20}} questo comando richiede l\'[Help Addon](https://github.com/FreeCAD/FreeCAD-Help).
 
 
-<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
+1.  Se Help Addon non è ancora disponibile verrà chiesto di installarlo tramite [Addon Manager](Std_AddonMgr/it.md).
+2.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Std_WhatsThis.svg" width=16px> [Cos'è questo?](Std_WhatsThis/it.md)**.
+    -   Selezionare l\'opzione **Aiuto → <img src="images/Std_WhatsThis.svg" width=16px> Cos'è questo?** dal menu.
+    -   Usare la scorciatoia da tastiera: **Maiusc**+**F1**.
+3.  Fare clic su un pulsante della barra degli strumenti o su un\'opzione di menu.
+4.  Si apre la documentazione di aiuto per il comando selezionato.
 
-</div>
 
 
-<div class="mw-translate-fuzzy">
+## Note
 
-1.  Premere il pulsante **[<img src=images/Std_WhatsThis.png style="width:16px"> [Cos'è questo?](Std_WhatsThis/it.md)**.
-2.  Fare clic su un\'icona della barra degli strumenti o su una voce del menu.
-
-
-</div>
-
-## Notes
-
--   The Help Addon has a number of preferences. See [Preferences Editor](Preferences_Editor#Help.md).
+-   L\'Addon Help ha una serie di preferenze. Vedere [Editor delle preferenze](Preferences_Editor/it#Aiuto.md).
 
 
 

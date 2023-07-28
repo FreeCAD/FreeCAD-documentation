@@ -9,9 +9,13 @@
 
 # Spreadsheet SetAlias/pl
 
+
+
 ## Opis
 
 Narzędzie **[<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Definiuj alias](Spreadsheet_SetAlias/pl.md)** otwiera okno dialogowe, w którym można ustawić alias dla komórki. Zamiast używać przypisanej nazwy komórki, takiej jak A2, B3 lub C4, można użyć nazwy niestandardowej.
+
+
 
 ## Użycie
 
@@ -25,6 +29,7 @@ Upewnij się, że jest aktywny jest otwarty **[<img src=images/Spreadshee
     -   Nie wolno używać 1 lub 2 wielkich liter, po których następuje od 1 do 5 cyfr, na przykład `AB123`, ponieważ jest to zarezerwowane dla adresu komórki.
     -   Sekwencje znaków, które są jednostkami, nie są dozwolone. Na przykład `W` jest nieprawidłowym aliasem, ponieważ jest to jednostka dla [Wata](https://en.wikipedia.org/wiki/Watt). Ponieważ FreeCAD obsługuje wiele jednostek, najlepiej jest unikać krótkich aliasów. Zobacz stronę [Wyrażenia](Expressions/pl#Jednostki.md).
     -   Używanie stałych matematycznych `pi` i `e` jako aliasów prowadzi do błędów i należy ich unikać.
+    -   Nie używaj spacji w aliasach, ponieważ będą one również prowadzić do błędów.
 
 
 

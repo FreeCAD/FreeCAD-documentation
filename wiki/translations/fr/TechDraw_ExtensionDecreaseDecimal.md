@@ -13,7 +13,9 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width:24px;"> **TechDraw Moins de décimales** diminue le nombre de décimales du texte de la cote.
+L\'outil **TechDraw Moins de décimales** diminue le nombre de décimales du texte de la cote.
+
+
 
 ## Utilisation
 
@@ -22,6 +24,8 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="wi
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionDecreaseDecimal.svg" width=16px> [Moins de décimales](TechDraw_ExtensionDecreaseDecimal/fr.md)**.
     -   Sélectionnez l\'option **TechDraw → Extensions : cotes → <img src="images/TechDraw_ExtensionDecreaseDecimal.svg" width=16px> Moins de décimales** à partir du menu.
 3.  Le nombre de décimales des cotes sélectionnées est diminué d\'une unité.
+
+
 
 ## Remarques
 

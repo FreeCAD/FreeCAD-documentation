@@ -10,9 +10,13 @@
 
 # Sketcher CloseShape/de
 
+
+
 ## Beschreibung
 
 Dieses Werkzeug kann verwendet werden, um im Sketcher eine ausgewählte Kontur zu schließen, indem der Endpunkt eines Skizzenelements zur Überdeckung mit dem Endpunkt des nächsten gewählten Skizzenelements gebracht wird.
+
+
 
 ## Anwendung
 
@@ -21,6 +25,8 @@ Dieses Werkzeug kann verwendet werden, um im Sketcher eine ausgewählte Kontur z
     -   Drücke die **[<img src=images/Sketcher_CloseShape.svg style="width:16px"> [Form schließen](Sketcher_CloseShape/de.md)** Schaltfläche
     -   Verwende die **Z** dann **W** Tastenkürzel.
     -   Verwende den Eintrag **Skizzierer→ Skizzierwerkzeuge → [<img src=images/Sketcher_CloseShape.svg style="width:16px">  Form schließen** aus dem oberen Menü.
+
+
 
 ## Hinweise
 

@@ -1,8 +1,9 @@
 ---
 - GuiCommand:/de
-   Name/de:Punkte Exportieren
+   Name:Points Export
+   Name/de:Points Exportieren
    MenuLocation:Punkte → Punkte Exportieren...
-   Workbenches:[Punkte](Points_Workbench/de.md)
+   Workbenches:[Points](Points_Workbench/de.md)
    SeeAlso:[Import Export](Import_Export/de.md)
 ---
 
@@ -12,18 +13,18 @@
 
 ## Beschreibung
 
-Der **Punkte Export** Befehl exportiert eine Punktwolke in eine Datei.
+Der Befehl **Points Exportieren** exportiert eine Punktwolke in eine Datei.
 
 
 
 ## Anwendung
 
-1.  Wähle die zu exportierenden Punkte aus.
-2.  Rufe den Befehl Export Punkte auf verschiedene Weise auf:
-    -   Drücke auf die <img alt="" src=images/Points_Export.svg  style="width:24px;"> [Punkte Export](Points_Export/de.md) Schaltfläche in der Punkte Werkzeugleiste
-    -   Verwende den **Punkte → <img src="images/Points_Export.svg" width=16px> [Punkte Export](Points_Export/de.md)** Eintrag aus dem Punkte Menü.
-3.  Benenne die Datei
-4.  Drücke **Speichern**.
+1.  Die zu exportierenden Punkte auswählen.
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Die Schaltfläche <img alt="" src=images/Points_Export.svg  style="width:24px;"> [Punkte exportieren\...](Points_Export/de.md) drücken.
+    -   Den Menüeintrag **Punkte → <img src="images/Points_Export.svg" width=16px> [Punkte exportIeren...](Points_Export/de.md)** auswählen.
+3.  Einen Dateinamen vergeben. Wird keine Dateiendung angegeben, wird die Endung **.asc** verwendet.
+4.  Die Schaltfläche **Speichern** drücken.
 
 
 

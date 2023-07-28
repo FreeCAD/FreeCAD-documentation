@@ -10,6 +10,8 @@
 
 # Sketcher ConstrainRadius/de
 
+
+
 ## Beschreibung
 
 Diese Randbedingung Legt den Radius eines Kreises oder Bogens auf einen bestimmten Wert fest. Wenn vor dem Start des Befehls mehr als ein Kreis oder Bogen ausgewählt wurde:
@@ -27,6 +29,8 @@ NB: B-Spline-Pole können nicht mit anderen Objekttypen in der Auswahl gemischt 
 
 ![](images/Sketcher_ConstrainRadius_example.png )
 
+
+
 ## Anwendung
 
 1.  Einen oder mehrere Kreise oder Bögen auswählen.
@@ -35,6 +39,8 @@ NB: B-Spline-Pole können nicht mit anderen Objekttypen in der Auswahl gemischt 
 4.  Optional können Maßzahl und Maßlinie in der 3D-Ansicht durch Klicken auf die Maßzahl und Ziehen bei gedrückter linker Maustaste verschoben und gedreht werden.
 
 **Hinweis:** Dieses Werkzeug kann auch ohne vorherige Auswahl gestartet werden. Standardmäßig befindet sich der Befehl im Fortsetzungsmodus, um neue Randbedingungen zu erstellen; ein Druck auf die rechte Maustaste oder auf **Esc** beendet den Befehl.
+
+
 
 ## Skripten
 

@@ -41,7 +41,7 @@ W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:32px;"> [Makrodefinicje \...](Std_DlgMacroExecute/pl.md): Otwiera okno dialogowe do zarządzania i wykonywania makrodefinicji.
 
--   Ostatnio użyte makrodefinicje: pokazuje listę ostatnio używanych makrodefinicji, które można wywołać np. za pomocą kombinacji klawiszy, **Ctrl** + **Shift** + **1**. Można to skonfigurować w [Preferencjach](Preferences_Editor/pl.md). {{Version/pl|0.19}}
+-   Opcja <img alt="" src=images/Std_RecentMacros.svg  style="width:32px;"> Ostatnio użyte makrodefinicje: pokazuje listę ostatnio używanych makrodefinicji, które można wywołać np. za pomocą kombinacji klawiszy, **Ctrl** + **Shift** + **1**. Można to skonfigurować w [Preferencjach](Preferences_Editor/pl.md).
 
 -   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:32px;"> [Wykonaj makro](Std_DlgMacroExecuteDirect/pl.md): Wykonuje makro znajdujące się obecnie w edytorze środowiska Python.
 

@@ -15,7 +15,7 @@
 
 ## Introduction
 
-Ce tutoriel explique comment créer un fichier [SVG](SVG/fr.md) pouvant être utilisé comme [modèle](TechDraw_Templates/fr.md) d\'arrière-plan pour les pages de l\'[Atelier Techdraw](TechDraw_Workbench/fr.md).
+Ce tutoriel explique comment créer un fichier [SVG](SVG/fr.md) pouvant être utilisé comme [modèle](TechDraw_Templates/fr.md) d\'arrière-plan pour les pages de l\'[atelier Techdraw](TechDraw_Workbench/fr.md).
 
 Ce tutoriel suppose que vous connaissez moyennement [Inkscape](https://fr.wikipedia.org/wiki/Inkscape) et [SVG](SVG/fr.md) ainsi que FreeCAD et l\'[atelier TechDraw](TechDraw_Workbench/fr.md).
 
@@ -30,6 +30,8 @@ Où `$INSTALL_DIR` est le répertoire où FreeCAD a été installé, par exemple
 ```python
 /usr/share/freecad/Mod/TechDraw/Templates/HowToExample.svg
 ```
+
+
 
 ## Créer un document de base 
 
@@ -50,6 +52,8 @@ Où `$INSTALL_DIR` est le répertoire où FreeCAD a été installé, par exemple
 Notez que vos textes modifiables *ne fonctionneront pas* si vous utilisez \"<https://>\...\" même si le wiki est accessible via https de nos jours. Puisque SVG est un format lisible par l\'homme, vous pouvez aussi entrer la ligne ci-dessus dans le fichier avec un éditeur de texte. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> 
 *align=center|Inkscape: éditeur XML ajoutant la clause d'espace de noms "freecad" à l'élément <svg>* 
 
+
+
 ## Créer un modèle de dessin 
 
 4\. Tracez des contours, des numéros de zone, des lignes centrales et autre géométrie.
@@ -63,6 +67,8 @@ Notez que vos textes modifiables *ne fonctionneront pas* si vous utilisez \"<htt
 8\. Vous avez maintenant terminé votre illustration, qui devrait ressembler à ceci: <img alt="" src=images/InkFinishedArt.png  style="width:800px;"> 
 *align=center|Inkscape: disposition provisoire du modèle* 
 
+
+
 ## Créer des champs modifiables 
 
 9\. Utilisez l\'éditeur XML pour ajouter une balise `freecad:editable` à chaque élément `<text>` éditable.
@@ -71,6 +77,8 @@ Notez que vos textes modifiables *ne fonctionneront pas* si vous utilisez \"<htt
 
 <img alt="" src=images/InkXMLeditableTag.png  style="width:800px;"> 
 *align=center|Inkscape: éditeur XML ajoute la propriété "freecad:editable" à l'élément <text> souhaitée* 
+
+
 
 ## Ajuster la taille du SVG 
 
@@ -95,6 +103,8 @@ Notez que vos textes modifiables *ne fonctionneront pas* si vous utilisez \"<htt
 13\. Utilisez \"Aligner et répartir\" ou les sélections **X:** et **Y:** pour positionner l\'illustration dans les limites de la page, si nécessaire.
 
 14\. Votre modèle devrait maintenant être correct comme dans l\'image ci-dessus.
+
+
 
 ## Supprimer les transformants sur le SVG 
 
@@ -130,9 +140,11 @@ Si vous ne voyez pas les cases vertes pour vos textes modifiables, il se peut qu
 Si les textes apparaissent décalés dans FreeCAD, vous devrez peut-être supprimer les attributs {{Incode|xml:space<nowiki>=</nowiki>"preserve"}} dans le fichier SVG. Voir : <https://www.forum.freecadweb.org/viewtopic.php?t=50897>.
 
 
- {{TechDraw Tools navi}}
+{{TechDraw Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/fr

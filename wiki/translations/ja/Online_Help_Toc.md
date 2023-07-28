@@ -36,6 +36,9 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   [ワークベンチでの作業](Workbenches/ja.md)
     -   [The Arch workbench](Arch_Workbench/ja.md)
     -   [The Test Framework Workbench](Debugging/ja.md)
@@ -61,6 +64,9 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
     -   [The Surface workbench](Surface_Workbench/ja.md)
     -   [The Techdraw Workbench](TechDraw_Workbench/ja.md)
     -   [The Web Workbench](Web_Workbench/ja.md)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

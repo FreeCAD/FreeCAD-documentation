@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -40,12 +42,16 @@ Zdi také mohou být přidávány nebo odebírány. Přídavky jsou další obje
 Pokud se má několik zdí protínat, musíte je umístit do [podlaží](Arch_Floor.md) aby se protínaly v jeho konstrukci.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Použití
 
 
 </div>
+
+
 
 ### Kreslení zdi z náčrtu 
 
@@ -60,6 +66,8 @@ Pokud se má několik zdí protínat, musíte je umístit do [podlaží](Arch_Fl
 
 </div>
 
+
+
 ### Nakreslení zdi na vybraném objektu 
 
 
@@ -71,6 +79,8 @@ Pokud se má několik zdí protínat, musíte je umístit do [podlaží](Arch_Fl
 
 
 </div>
+
+
 
 ## Volby
 
@@ -88,6 +98,8 @@ Pokud se má několik zdí protínat, musíte je umístit do [podlaží](Arch_Fl
 
 
 </div>
+
+
 
 ## Uchopování
 
@@ -109,7 +121,40 @@ Uchopování pracuje trochu odlišně ve Zdech než v jiných objektech Architek
 
 </div>
 
+
+
 ## Vlastnosti
+
+Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and also have the following extra properties:
+
+### Data
+
+
+{{TitleProperty|Blocks}}
+
+-    **Block Height**: The height of each block
+
+-    **Block Length**: The length of each block
+
+-    **Count Broken**: The number of broken blocks (read-only)
+
+-    **Count Entire**: The number of entire blocks (read-only)
+
+-    **Joint**: The size of the joints between each block
+
+-    **Make Blocks**: Enable this to make the wall generate blocks
+
+-    **Offset First**: The horizontal offset of the first line of blocks
+
+-    **Offset Second**: The horizontal offset of the second line of blocks
+
+
+{{TitleProperty|Component}}
+
+-    **Base**: The base object this wall is built on
+
+
+{{TitleProperty|Wall}}
 
 
 <div class="mw-translate-fuzzy">
@@ -134,25 +179,6 @@ Objekt zdi dědí vlastnosti objektů [Modul Díl](Part_Workbench.md) a má ješ
 
 
 </div>
-
-
-<small>(v0.18)</small> 
-
--    **Make Blocks**: Enable this to make the wall generate blocks
-
--    **Block Length**: The length of each block
-
--    **Block Height**: The height of each block
-
--    **Offset First**: The horizontal offset of the first line of blocks
-
--    **Offset Second**: The horizontal offset of the second line of blocks
-
--    **Joint**: The size of the joints between each block
-
--    **Count Entire**: The number of entire blocks (read-only)
-
--    **Count Broken**: The number of broken blocks (read-only)
 
 ## Scripting
 

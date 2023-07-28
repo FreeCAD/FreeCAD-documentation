@@ -1,13 +1,23 @@
 # TechDraw Templates/ru
 {{TOCright}}
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Обзор
+
+
+</div>
 
 Every TechDraw page is based on a Template object. The Template controls paper size and contains fixed text graphics and text, for example, a page frame or border.
 
 The Template can also contain editable text fields for attributes like *Title*, *Subtitle*, *Author*, *Date*, *Scale*, *Weight*, *Drawing number* and *Sheet*.
 
 Templates are [SVG](SVG.md) files which can be created and modified outside of FreeCAD, with an application such as [Inkscape](https://en.wikipedia.org/wiki/Inkscape).
+
+
 
 ## Свойства
 
@@ -55,7 +65,9 @@ Where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example
 
 Custom templates can also be specified as a default in the [TechDraw Preferences](TechDraw_Preferences.md).
 
-See also [How to make a custom TechDraw template](TechDraw_TemplateHowTo.md).
+See also [How to make a custom TechDraw template](TechDraw_TemplateHowTo.md), or, if you prefer script generated templates, [TechDraw TemplateGenerator](TechDraw_TemplateGenerator.md) and [Macro TemplateHelper](Macro_TemplateHelper.md).
+
+
 
 ## Примечания
 

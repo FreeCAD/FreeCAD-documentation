@@ -45,7 +45,7 @@ Le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle at
 
 ## Note
 
--   Usa <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Draft_Snap_Near/it\|Snap Vicino](Draft_Snap_Near.md) ({{VersionMinus/it|0.20}}) o <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:16px;"> [Snap Punto Finale](Draft_Snap_Endpoint/it.md) ({{VersionPlus/it|1.0}}) per eseguire lo snap ai Punti Draft.
+-   Usa <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Draft_Snap_Near/it\|Snap Vicino](Draft_Snap_Near.md) ({{VersionMinus/it|0.20}}) o <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:16px;"> [Snap Punto Finale](Draft_Snap_Endpoint/it.md) ({{VersionPlus/it|0.21}}) per eseguire lo snap ai Punti Draft.
 
 
 

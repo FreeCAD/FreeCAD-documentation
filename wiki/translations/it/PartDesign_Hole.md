@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -15,11 +17,15 @@ La funzione **Foro** crea uno o più fori da uno schizzo selezionato. Possono es
 
 </div>
 
+The centers of the circles and arcs are used to position the holes, but please note that their radii are not taken into account. The generated holes will be identical even if the radii vary.
+
 <img alt="" src=images/Countersunk_and_counterbored_holes_cross-section1.png  style="width:600px;">
 
 
 
 *Sezione longitudinale di foro svasato a sinistra e di foro lamato a destra (countersunk e counterbored).*
+
+
 
 ## Utilizzo
 
@@ -34,11 +40,15 @@ La funzione **Foro** crea uno o più fori da uno schizzo selezionato. Possono es
 
 </div>
 
+
+
 ## Opzioni
 
 A seconda della selezione effettuata, alcuni campi si attivano o restano disabilitati.
 
 ![](images/PartDesign_Hole_parameters_it.png )
+
+
 
 ### Filettatura e dimensioni 
 
@@ -57,6 +67,8 @@ A seconda della selezione effettuata, alcuni campi si attivano o restano disabil
 
 </div>
 
+
+
 ### Forma del foro 
 
 
@@ -70,6 +82,8 @@ A seconda della selezione effettuata, alcuni campi si attivano o restano disabil
 
 </div>
 
+
+
 ### Forma della punta 
 
 
@@ -80,6 +94,8 @@ A seconda della selezione effettuata, alcuni campi si attivano o restano disabil
 
 </div>
 
+
+
 ### Varie
 
 
@@ -89,6 +105,8 @@ A seconda della selezione effettuata, alcuni campi si attivano o restano disabil
 
 
 </div>
+
+
 
 ## Proprietà
 
@@ -106,6 +124,8 @@ Gran parte delle proprietà dati sono le stesse di quelle mostrate nelle [Opzion
 
 </div>
 
+
+
 ## Limitazioni
 
 
@@ -119,7 +139,7 @@ Gran parte delle proprietà dati sono le stesse di quelle mostrate nelle [Opzion
 
 ## Cut Type Definitions 
 
-Cut types (screw-types) are defined in [json](https://de.wikipedia.org/wiki/JavaScript_Object_Notation) files since version 0.19. There is a set of files distributed with FreeCAD, but users can create their own definitions. Files are searched in <UserAppDataDir>/PartDesign/Hole. The `UserAppDataDir` can be found by typing `App.getUserAppDataDir()` in the [Python console](Python_console.md).
+Cut types (screw-types) are defined in [json](https://de.wikipedia.org/wiki/JavaScript_Object_Notation) files. There is a set of files distributed with FreeCAD, but users can create their own definitions. Files are searched in <UserAppDataDir>/PartDesign/Hole. The `UserAppDataDir` can be found by typing `App.getUserAppDataDir()` in the [Python console](Python_console.md).
 
 The file should contain:
 

@@ -5,18 +5,20 @@
    MenuLocation:Visualizza → Azioni della vista ad albero → Vai alla selezione
    Workbenches:Tutti
    Shortcut:**T** **G**
+   Version:0.19
 ---
 
 # Std TreeSelection/it
 
 
-</div>
 
 ## Descrizione
 
 Il comando **Vai alla selezione** fa scorrere la [vista ad albero](Tree_view/it.md) fino al primo oggetto selezionato nella [vista 3D](3D_view/it.md).
 
 Se [Sincronizza la selezione](Std_TreeSyncSelection/it.md) della vista ad albero è disattivata, la vista ad albero viene fatta scorrere fino al primo oggetto selezionato il cui genitore è già stato espanso nella vista ad albero. Se nessuno dei genitori degli oggetti è espanso, il comando non ha alcun effetto in questa modalità.
+
+
 
 ## Utilizzo
 
@@ -28,13 +30,7 @@ Se [Sincronizza la selezione](Std_TreeSyncSelection/it.md) della vista ad albero
     -   Usare la scorciatoia da tastiera: **T** e poi **G**.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

@@ -1,20 +1,23 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:TechDraw StackUp
-   MenuLocation:TechDraw → Stacking → Move view up one level
+   Name/de:TechDraw StapelNachOben
+   MenuLocation:TechDraw → Stacking → Ansicht um eine Ebene nach oben bewegen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
-   Version:1.0
-   SeeAlso:[TechDraw StackTop](TechDraw_StackTop/de.md), [TechDraw StackBottom](TechDraw_StackBottom/de.md), [TechDraw StackDown](TechDraw_StackDown/de.md)
+   Version:0.21
+   SeeAlso:[TechDraw StapelOberseite](TechDraw_StackTop/de.md), [TechDraw StapelUnterseite](TechDraw_StackBottom/de.md), [TechDraw StapelNachUnten](TechDraw_StackDown/de.md)
 ---
 
 # TechDraw StackUp/de
 
+
+
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_StackUp.svg  style="width:24px;"> **TechDraw StackUp** Werkzeug hebt Ansichten im Stapel um eine Stufe höher. Die Stapel Reihenfolge bestimmt die Tiefe der Sichtbarkeit von Ansichten auf einer Seite.
+Das Werkzeug **TechDraw StapelNachOben** bewegt Ansichten im Stapel um eine Ebene nach oben. Die Stapelreihenfolge bestimmt, welche Ansicht auf dem Zeichnungsblatt dargestellt wird (und welche bei Überschneidung verdeckt wird).
 
-Siehe [TechDraw StackTop](TechDraw_StackTop/de.md).
+Siehe [TechDraw StapelOberseite](TechDraw_StackTop/de.md).
 
 
 

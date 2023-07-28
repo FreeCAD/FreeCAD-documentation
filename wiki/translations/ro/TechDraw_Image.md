@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Descriere
@@ -15,10 +17,12 @@ Instrumentul Image inserează o imagina tip bitmap (png,jpeg,jpg,bmp,etc) dintr-
 
 </div>
 
-The Image tool inserts a [bitmap](bitmap.md) image (PNG, TIFF, JPEG, etc.) from a file into the page as a view.
+The **TechDraw Image** tool inserts a [bitmap](Bitmap.md) image (PNG, TIFF, JPEG, etc.) from a file into the page as a view.
 
 ![](images/TechDraw_Image_example.png ) 
 *Image inserted in the drawing page*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -28,8 +32,19 @@ The Image tool inserts a [bitmap](bitmap.md) image (PNG, TIFF, JPEG, etc.) from 
 
 </div>
 
-1.  Press the **<img src="images/TechDraw_Image.svg" width=16px> [Insert Bitmap Image](TechDraw_Image.md)** button
-2.  A file dialog will open. Select a location and file name.
+1.  If there are multiple drawing pages in the document: optionally activate the desired page by selecting it in the [Tree view](Tree_view.md).
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_Image.svg" width=16px> [Insert Bitmap Image](TechDraw_Image.md)** button.
+    -   Select the **TechDraw → TechDraw Views → <img src="images/TechDraw_Image.svg" width=16px> Insert Bitmap Image** option from the menu.
+3.  If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
+    1.  Select the desired page.
+    2.  Press the **OK** button.
+4.  A file dialog opens.
+5.  Select a location and file name.
+6.  The image is inserted.
+7.  Optionally change its **Scale** property to adjust its size.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -62,6 +77,8 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 {{TitleProperty|Image}}
 
 -    **Crop|Bool**: Crop the image to **Width** x **Height**.
+
+
 
 
 <div class="mw-translate-fuzzy">

@@ -7,7 +7,7 @@
 
 ## Wprowadzenie
 
-FreeCAD <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Środowisko pracy Szkicownik](Sketcher_Workbench/pl.md) służy do tworzenia geometrii 2D przeznaczonych do wykorzystania w Środowiskach pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt części](PartDesign_Workbench/pl.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/pl.md) i innych. Ogólnie rzecz biorąc, rysunek 2D jest uważany za punkt wyjścia dla większości modeli CAD, ponieważ szkic 2D może być **wyciągany** do tworzenia kształtu 3D. Kolejne szkice 2D mogą być wykorzystywane do tworzenia następnych elementów detalu, takich jak kieszenie, grzbiety lub wytłoczki na górze uprzednio zbudowanych kształtów 3D. Wraz z operacjami logicznymi zdefiniowanymi w Środowisku pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/pl.md), Sketcher stanowi podstawę [konstrukcyjnej geometrii bryłowej](Constructive_solid_geometry.md) *(CSG)* metody budowania brył. Ponadto wraz z operacjami dostępnymi w <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> środowisku [Projekt części](PartDesign_Workbench/pl.md) Szkicownik stanowi również podstawę do metody tworzenia brył.
+<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Środowisko pracy Szkicownik](Sketcher_Workbench/pl.md) służy do tworzenia szkiców geometrii 2D przeznaczonych do użycia w środowiskach pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Architektura](Arch_Workbench/pl.md) i innych. Ogólnie rzecz biorąc, rysunek 2D jest uważany za punkt wyjścia dla większości modeli CAD, ponieważ szkic 2D może być **wyciągany** do tworzenia kształtu 3D. Kolejne szkice 2D mogą być wykorzystywane do tworzenia następnych elementów detalu, takich jak kieszenie, grzbiety lub wytłoczki na górze uprzednio zbudowanych kształtów 3D. Wraz z operacjami logicznymi zdefiniowanymi w środowisku pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md), Sketcher stanowi podstawę [konstrukcyjnej geometrii bryłowej](Constructive_solid_geometry/pl.md) *(CSG)* metody budowania brył. Ponadto wraz z operacjami dostępnymi w <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> środowisku [Projekt Części](PartDesign_Workbench/pl.md), Szkicownik stanowi również podstawę do metody tworzenia brył.
 
 Środowisko pracy Szkicownik posiada **wiązania**, dzięki czemu kształty 2D mogą podążać za precyzyjnymi definicjami geometrycznymi pod względem długości, kątów i relacji *(poziomość, pionowość, prostopadłość itp.)*. Narzędzie do tworzenia wiązań oblicza wymagany zakres geometrii 2D i umożliwia przeprowadzenie interaktywnej eksploracji stopni swobody szkicu.
 
@@ -51,7 +51,12 @@ Są dwa typy wiązań: geometryczne i wymiarowe. Są one opisane dokładnej w po
 Szkicownik nie jest przeznaczony do wykonywania planów 2D. Gdy szkice zostaną użyte do wygenerowania bryły, są one automatycznie ukrywane. Ograniczenia są widoczne tylko w trybie edycji szkicu.
 
 Jeśli potrzebujesz stworzyć tylko widoki 2D do druku, a nie chcesz tworzyć modeli 3D, sprawdź Środowisko pracy [Rysunek Roboczy](Draft_Workbench/pl.md). W przeciwieństwie do elementów szkicownika, szkice obiektów nie używają wiązań. Są to proste kształty zdefiniowane w momencie tworzenia. Zarówno środowisko Rysunek roboczy jak i Szkicownik mogą być używane do rysowania geometrii 2D i tworzenia brył 3D, chociaż ich preferowane zastosowanie jest inne.
-Szkicownik jest zwykle używany razem z środowiskiem [Część](Part_Workbench/pl.md) i [Projekt części](PartDesign_Workbench/pl.md) do tworzenia brył. Środowisko Rysunek roboczy jest zwykle używane do wykonywania prostych rysunków planarnych na siatce, jak podczas rysowania architektonicznego planu piętra. W takich sytuacjach Środowisko Rysunek roboczy jest najczęściej używane razem ze Środowiskiem pracy [Architektura](Arch_Workbench/pl.md). Narzędzie [Draft2Sketch](Draft_Draft2Sketch.md) konwertuje obiekt środowiska Rysunek roboczy na obiekt Szkicownika i vice versa. Wiele narzędzi, które potrzebują elementu 2D jako wejścia do pracy z każdym typem obiektu wykonuje automatycznie konwersję wewnętrzną.
+
+Szkicownik jest zwykle używany razem z środowiskiem [Część](Part_Workbench/pl.md) i [Projekt części](PartDesign_Workbench/pl.md) do tworzenia brył. Środowisko Rysunek roboczy jest zwykle używane do wykonywania prostych rysunków planarnych na siatce, jak podczas rysowania architektonicznego planu piętra.
+
+W takich sytuacjach środowisko Rysunek Roboczy jest najczęściej używane razem ze Środowiskiem pracy [Architektura](Arch_Workbench/pl.md).
+
+Narzędzie [Draft2Sketch](Draft_Draft2Sketch/pl.md) konwertuje obiekt środowiska Rysunek roboczy na obiekt Szkicownika i vice versa. Wiele narzędzi, które potrzebują elementu 2D jako wejścia do pracy z każdym typem obiektu wykonuje automatycznie konwersję wewnętrzną.
 
 
 
@@ -69,21 +74,24 @@ Gdy szkic jest w pełni związany, jego elementy zmienią kolor na zielony, geom
 
 ## Przybory
 
-Wszystkie narzędzia Środowiska prascy Szkicownik znajdują się w menu głównym **Szkicownik**, które pojawia się po załadowaniu tego środowiska pracy.
+Narzędzia środowiska pracy szkicownika znajdują się w menu Szkic i/lub na kilku paskach narzędziowych. {{Version/pl|0.21}}: Prawie wszystkie paski narzędzi szkicownika są wyświetlane tylko wtedy, gdy szkic jest w trybie edycji. Jedynym wyjątkiem jest pasek narzędzi [szkicownika](#Pasek_narzędzi_szkicownika.md), który jest wyświetlany tylko wtedy, gdy żaden szkic nie jest w trybie edycji.
+
+
+{{Version/pl|0.21}}
+
+: Jeśli szkic jest w trybie edycji, pasek narzędzi **Konstrukcja** jest ukryty, ponieważ żadne z jego narzędzi nie może być wtedy użyte.
 
 
 
 ### Informacje ogólne 
 
+
+
+#### Pasek narzędzi szkicownika 
+
 -   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [Utwórz szkic](Sketcher_NewSketch/pl.md): Tworzy nowy szkic na wybranej powierzchni lub płaszczyźnie. Jeśli podczas uruchamiania tego narzędzia nie zostanie wybrana żadna ściana, użytkownik zostanie poproszony o wybranie płaszczyzny z wyskakującego okna.
 
 -   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Edycja szkicu](Sketcher_EditSketch/pl.md): Edytuj wybrany szkic. Spowoduje to otwarcie [Okna dialogowego Szkicownika](Sketcher_Dialog/pl.md).
-
--   <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:32px;"> [Opuść szkic](Sketcher_LeaveSketch/pl.md): Zamyka tryb edycji Środowiska pracy Szkicownik.
-
--   <img alt="" src=images/Sketcher_ViewSketch.svg  style="width:32px;"> [Widok szkicu](Sketcher_ViewSketch/pl.md): Ustawia widok modelu prostopadle do płaszczyzny szkicu.
-
--   <img alt="" src=images/Sketcher_ViewSection.svg  style="width:32px;"> [Zobacz przekrój](Sketcher_ViewSection/pl.md): Tworzy płaszczyznę przekroju, która tymczasowo ukrywa jakąkolwiek zawartość przed płaszczyzną szkicu.
 
 -   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Mapuj szkic na płaszczyznę](Sketcher_MapSketch/pl.md): Nanosi szkic na uprzednio wybraną ścianę bryły.
 
@@ -94,6 +102,30 @@ Wszystkie narzędzia Środowiska prascy Szkicownik znajdują się w menu główn
 -   <img alt="" src=images/Sketcher_MergeSketch.svg  style="width:32px;"> [Połącz szkice](Sketcher_MergeSketches.md): Łączy ze sobą dwa lub więcej szkiców.
 
 -   <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:32px;"> [Odbicie lustrzane](Sketcher_MirrorSketch.md): Odbicie szkicu wzdłuż osi x, osi y, lub punktu początku układu współrzędnych.
+
+
+
+#### Pasek narzędzi trybu edycji szkicownika 
+
+-   <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:32px;"> [Opuść szkic](Sketcher_LeaveSketch/pl.md): Zamyka tryb edycji Środowiska pracy Szkicownik.
+
+-   <img alt="" src=images/Sketcher_ViewSketch.svg  style="width:32px;"> [Widok szkicu](Sketcher_ViewSketch/pl.md): Ustawia widok modelu prostopadle do płaszczyzny szkicu.
+
+-   <img alt="" src=images/Sketcher_ViewSection.svg  style="width:32px;"> [Zobacz przekrój](Sketcher_ViewSection/pl.md): Tworzy płaszczyznę przekroju, która tymczasowo ukrywa jakąkolwiek zawartość przed płaszczyzną szkicu.
+
+
+
+#### Pasek narzędzi edycji szkicownika 
+
+-   <img alt="" src=images/Sketcher_Grid.svg  style="width:32px;"> [Przełącz widoczność siatki](Sketcher_Grid/pl.md): Włącza lub wyłącza siatkę w aktualnie edytowanym szkicu. Ustawienia można zmienić w powiązanym menu. {{Version/pl|0.21}}
+
+-   <img alt="" src=images/Sketcher_Snap.svg  style="width:32px;"> [Przełącz przyciąganie](Sketcher_Snap/pl.md): Włącza lub wyłącza przyciąganie we wszystkich szkicach. Ustawienia można zmienić w powiązanym menu. {{Version/pl|0.21}}
+
+-   <img alt="" src=images/Sketcher_RenderingOrder.svg  style="width:32px;"> [Konfiguruj kolejność renderowania](Sketcher_RenderingOrder/pl.md): Kolejność renderowania wszystkich szkiców można zmienić w powiązanym menu. {{Version/pl|0.21}}.
+
+
+
+#### Pozostałe
 
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Przerwij operację](Sketcher_StopOperation/pl.md): w trybie edycji przerywa bieżącą operację, niezależnie od tego, czy jest to rysowanie, ustawianie wiązań, itp.
 
@@ -136,6 +168,10 @@ Poniżej znajdują się narzędzia do tworzenia obiektów.
   - <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [Krzywa złożona przez punkty kontrolne](Sketcher_CreateBSpline/pl.md): Rysuje krzywą złożoną za pomocą punktów kontrolnych.
 
   - <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Okresowa krzywa złożona przez punkty kontrolne](Sketcher_CreatePeriodicBSpline/pl.md): Rysuje okresową *(zamkniętą)* krzywą złożoną za pomocą punktów kontrolnych.
+
+  - <img alt="" src=images/Sketcher_CreateBSplineByInterpolation.svg  style="width:32px;"> [Krzywa złozona przez węzły](Sketcher_CreateBSplineByInterpolation/pl.md): Rysuje krzywą złożoną za pomocą węzłów. {{Version/pl|0.21}}
+
+  - <img alt="" src=images/Sketcher_CreatePeriodicBSplineByInterpolation.svg  style="width:32px;"> [Okresowa krzywa złożona przez węzły](Sketcher_CreatePeriodicBSplineByInterpolation/pl.md): Rysuje krzywą złożoną za pomocą węzłów. {{Version/pl|0.21}}
 
 -   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Utwórz linię łamaną w szkicu](Sketcher_CreatePolyline/pl.md): Rysuje linię złożoną z wielu segmentów linii. Naciśnięcie klawisza **M** podczas rysowania polilinii przełącza pomiędzy różnymi trybami.
 
@@ -227,15 +263,15 @@ Są to wiązania ściśle powiązane z danymi liczbowymi, dla których można u�
 
 -   <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:32px;"> [Ustal pionową odległość \...](Sketcher_ConstrainDistanceY/pl.md): Ustala pionową odległość pomiędzy dwoma punktami lub punktami końcowymi linii. Jeśli wybrana jest tylko jedna pozycja, odległość jest ustawiana względem punktu początkowego.
 
--   <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:32px;"> [Wiązanie odległości \...](Sketcher_ConstrainDistance/pl.md): Określa odległość wybranej linii przez związanie jej długości, lub określa odległość między dwoma punktami przez związanie odległości między nimi.
+-   <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:32px;"> [Wiązanie odległości \...](Sketcher_ConstrainDistance/pl.md): Określa długość prostej, odległość prostopadłą między punktem a prostą, odległość między dwoma punktami lub, {{Version/pl|0.21}}, odległość między krawędziami dwóch okręgów.
 
--   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width:48px;"> [Komponent wiązanie promień średnica](Sketcher_CompConstrainRadDia/pl.md): Jest to menu ikonek na pasku narzędziowym wiązań Szkicownika, które zawiera następujące polecenia:
+-   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width:48px;"> [Komponent zwiąż łuk lub okrąg](Sketcher_CompConstrainRadDia/pl.md): Jest to menu ikonek na pasku narzędziowym wiązań Szkicownika, które zawiera następujące polecenia:
 
-  - <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [Zwiąż promień](Sketcher_ConstrainRadius/pl.md): Określa promień wybranego łuku lub okręgu poprzez związanie promienia.
+  - <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [Wiązanie promienia](Sketcher_ConstrainRadius/pl.md): Definiuje promień łuku lub okręgu albo wagę bieguna krzywej złożonej.
 
-  - <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Średnica](Sketcher_ConstrainDiameter/pl.md): Definiuje średnicę wybranego łuku lub okręgu poprzez związanie średnicy.
+  - <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Wiązanie średnicy](Sketcher_ConstrainDiameter/pl.md): Definiuje średnicę wybranego łuku lub okręgu.
 
-  - <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Radiam](Sketcher_ConstrainRadiam/pl.md): Automatycznie definiuje promień / średnicę wybranego łuku lub okręgu *(waga dla bieguna B-spline, średnica dla pełnego okręgu, promień dla łuku)* {{Version/pl|0.20}}.
+  - <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Zwiąż automatycznie promień . średnicę](Sketcher_ConstrainRadiam/pl.md): Definiuje promień łuku, średnicę okręgu lub wagę bieguna krzywej złożonej. {{Version/pl|0.20}}.
 
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Ustaw kąt linii \...](Sketcher_ConstrainAngle/pl.md): Określa kąt wewnętrzny między dwiema wybranymi liniami.
 
@@ -243,9 +279,7 @@ Są to wiązania ściśle powiązane z danymi liczbowymi, dla których można u�
 
 #### Wiązania specjalne 
 
--   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [Wiązanie refrakcji](Sketcher_ConstrainSnellsLaw/pl.md): Wiąże dwie linie zgodnie z prawem załamania światła, aby symulować światło przechodzące przez interfejs.
-
--   <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:32px;"> [Zwiąż do wewnątrz](Sketcher_ConstrainInternalAlignment.md): Wyrównuje wybrane elementy do wybranego kształtu *(np. linia staje się główną osią elipsy)*.
+-   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> \[\[Sketcher_ConstrainSnellsLaw/pl\|Wiązanie refrakcji\] (prawo Snell\'a)\]: Wiąże dwie linie zgodnie z prawem załamania światła, aby symulować światło przechodzące przez interfejs.
 
 
 
@@ -253,23 +287,15 @@ Są to wiązania ściśle powiązane z danymi liczbowymi, dla których można u�
 
 Następujące narzędzia mogą być wykorzystane do zmiany działania wiązań:
 
--   <img alt="" src=images/Sketcher_ToggleDrivingConstraint.svg  style="width:32px;"> [Przełącza pasek narzędzi \... do trybu odniesienia](Sketcher_ToggleDrivingConstraint.md): Przełącza pasek narzędzi lub wybrane wiązania do/z trybu odniesienia.
+-   <img alt="" src=images/Sketcher_ToggleDrivingConstraint.svg  style="width:32px;"> [Przełącz kontrolę wiązania](Sketcher_ToggleDrivingConstraint/pl.md): Przełącza pasek narzędzi lub wybrane wiązania do / z trybu informacyjnego.
 
--   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Aktywuj / dezaktywuj wiązanie](Sketcher_ToggleActiveConstraint.md): Włączenie lub wyłączenie już istniejącego wiązania. {{Version/pl|0.19}}
+-   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Aktywuj / dezaktywuj wiązanie](Sketcher_ToggleActiveConstraint.md): Włączenie lub wyłączenie już istniejącego wiązania.
 
 
 
 ### Narzędzia szkicownika 
 
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Wybierz nie związane stopnie swobody](Sketcher_SelectElementsWithDoFs/pl.md): Podświetla na zielono geometrię z stopniami swobody *(DOFs)*, tzn. nie w pełni związaną.
-
--   <img alt="" src=images/Sketcher_CloseShape.svg  style="width:32px;"> [Zamknij kształt](Sketcher_CloseShape/pl.md): Tworzy zamknięty kształt, stosując wiązania zgodności względem punktów końcowych.
-
-To narzędzie jest przestarzałe, nie będzie dostępne w przyszłych wydaniach ({{VersionPlus/pl|1.0}})
-
--   <img alt="" src=images/Sketcher_ConnectLines.svg  style="width:32px;"> [Połącz krawędzie](Sketcher_ConnectLines/pl.md): Połącz elementy szkicownika poprzez zastosowanie zbieżnych ograniczeń do punktów końcowych.
-
-To narzędzie jest przestarzałe, nie będzie dostępne w przyszłych wydaniach ({{VersionPlus/pl|1.0}})
 
 -   <img alt="" src=images/Sketcher_SelectConstraints.svg  style="width:32px;"> [Wybierz powiązane wiązania](Sketcher_SelectConstraints/pl.md): Wybiera wiązania elementu rysunku w szkicowniku.
 
@@ -283,9 +309,9 @@ To narzędzie jest przestarzałe, nie będzie dostępne w przyszłych wydaniach 
 
 -   <img alt="" src=images/Sketcher_SelectOrigin.svg  style="width:32px;"> [Wybierz odniesienie położenia](Sketcher_SelectOrigin/pl.md): Wybiera punkt początkowy szkicu.
 
--   <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:32px;"> [Wybierz oś pionową](Sketcher_SelectVerticalAxis/pl.md): Wybór osi pionowej szkicu.
-
 -   <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="width:32px;"> [Wybierz oś poziomą](Sketcher_SelectHorizontalAxis/pl.md): Zaznacza poziomą oś szkicu.
+
+-   <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:32px;"> [Wybierz oś pionową](Sketcher_SelectVerticalAxis/pl.md): Wybór osi pionowej szkicu.
 
 -   <img alt="" src=images/Sketcher_Symmetry.svg  style="width:32px;"> [Tworzy symetryczna geometrię \...](Sketcher_Symmetry/pl.md): Tworzy kopię wybranego elementu, symetrycznie względem wybranej linii.
 
@@ -307,29 +333,29 @@ To narzędzie jest przestarzałe, nie będzie dostępne w przyszłych wydaniach 
 
 ### Narzędzia szkicownika dla krzywych złożonych 
 
--   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Pokaż / ukryj stopnie krzywej złożonej](Sketcher_BSplineDegree/pl.md)
+-   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Pokaż / ukryj stopnie krzywej złożonej](Sketcher_BSplineDegree/pl.md) Pokazuje lub ukrywa wyświetlanie stopnia krzywej złożonej.
 
--   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [Pokaż / ukryj ramkę kontrolną krzywej złożonej](Sketcher_BSplinePolygon.md)
+-   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [Pokaż / ukryj ramkę kontrolną krzywej złożonej](Sketcher_BSplinePolygon/pl.md) Pokazuje lub ukrywa wyświetlanie wielokąta definiującego krzywą złożoną.
 
--   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [Pokaż / ukryj grzebień krzywizny krzywej złożonej](Sketcher_BSplineComb.md)
+-   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [Pokaż / ukryj grzebień krzywizny krzywej złożonej](Sketcher_BSplineComb/pl.md) Pokazuje lub ukrywa wyświetlanie grzebienia krzywizny krzywej złożonej.
 
--   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Zwiększ / zmniejsz wielokrotność węzłów krzywej złożonej](Sketcher_BSplineKnotMultiplicity.md)
+-   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Zwiększ / zmniejsz wielokrotność węzłów krzywej złożonej](Sketcher_BSplineKnotMultiplicity/pl.md) Pokazuje lub ukrywa wyświetlanie krotności węzła krzywej złożonej.
 
--   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Wyświetl / ukryj wagę punktu kontrolnego krzywej złożonej](Sketcher_BSplinePoleWeight.md), {{Version/pl|0.19}}
+-   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Wyświetl / ukryj wagę punktu kontrolnego krzywej złożonej](Sketcher_BSplinePoleWeight/pl.md) Pokazuje lub ukrywa wyświetlanie wag dla punktów kontrolnych krzywej złożonej.
 
--   <img alt="" src=images/Sketcher_BSplineApproximate.svg  style="width:32px;"> [Konwertuj geometrie na krzywą złożoną](Sketcher_BSplineApproximate.md)
+-   <img alt="" src=images/Sketcher_BSplineApproximate.svg  style="width:32px;"> [Konwertuj geometrie na krzywą złożoną](Sketcher_BSplineApproximate/pl.md) Konwertuje kompatybilną geometrię, krawędzie i krzywe na krzywą złożoną.
 
--   <img alt="" src=images/Sketcher_BSplineIncreaseDegree.svg  style="width:32px;"> [Zwiększ stopień krzywej złożonej](Sketcher_BSplineIncreaseDegree.md)
+-   <img alt="" src=images/Sketcher_BSplineIncreaseDegree.svg  style="width:32px;"> [Zwiększ stopień krzywej złożonej](Sketcher_BSplineIncreaseDegree/pl.md) Zwiększa stopień (kolejność) krzywej złożonej.
 
--   <img alt="" src=images/Sketcher_BSplineDecreaseDegree.svg  style="width:32px;"> [Zmniejsz stopień krzywej złożonej](Sketcher_BSplineDecreaseDegree.md) {{Version/pl|0.19}}
+-   <img alt="" src=images/Sketcher_BSplineDecreaseDegree.svg  style="width:32px;"> [Zmniejsz stopień krzywej złożonej](Sketcher_BSplineDecreaseDegree/pl.md) Zmniejsza stopień krotności krzywej złożonej.
 
--   <img alt="" src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg  style="width:32px;"> [Zwiększyć liczebność węzłów](Sketcher_BSplineIncreaseKnotMultiplicity/pl.md)
+-   <img alt="" src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg  style="width:32px;"> [Zwiększyć liczebność węzłów](Sketcher_BSplineIncreaseKnotMultiplicity/pl.md) Zwiększa krotność węzła krzywej złożonej.
 
--   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Zmniejsz liczbność węzłów](Sketcher_BSplineDecreaseKnotMultiplicity/pl.md)
+-   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Zmniejsz liczbę węzłów](Sketcher_BSplineDecreaseKnotMultiplicity/pl.md) Zmniejsza krotność węzła krzywej złożonej.
 
--   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Wstaw węzeł](Sketcher_BSplineInsertKnot/pl.md), <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Wstaw węzeł](Sketcher_BSplineInsertKnot/pl.md) Wstawia węzeł do istniejącej krzywej złożonej. {{Version/pl|0.20}}
 
--   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Połącz krzywe](Sketcher_JoinCurves/pl.md), {{Version/pl|1.0}}
+-   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Połącz krzywe](Sketcher_JoinCurves/pl.md) Łączy dwie krzywe w wybranych punktach końcowych. {{Version/pl|0.21}}
 
 
 
@@ -339,9 +365,21 @@ To narzędzie jest przestarzałe, nie będzie dostępne w przyszłych wydaniach 
 
 
 
+### Narzędzia przestarzałe 
+
+-   <img alt="" src=images/Sketcher_CloseShape.svg  style="width:32px;"> [Zamknij kształt](Sketcher_CloseShape/pl.md): Tworzy zamknięty kształt, stosując wiązania zgodności względem punktów końcowych.
+
+To narzędzie jest przestarzałe, nie będzie dostępne od ({{VersionPlus/pl|0.21}})
+
+-   <img alt="" src=images/Sketcher_ConnectLines.svg  style="width:32px;"> [Połącz krawędzie](Sketcher_ConnectLines/pl.md): Połącz elementy szkicownika poprzez zastosowanie zbieżnych ograniczeń do punktów końcowych.
+
+To narzędzie jest przestarzałe, nie będzie dostępne od ({{VersionPlus/pl|0.21}})
+
+
+
 ## Ustawienia
 
--   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Ustawienia](Sketcher_Preferences.md): Konfiguracja Środowiska pracy **Szkicownik**.
+-   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [Ustawienia](Sketcher_Preferences.md): Konfiguracja Środowiska pracy **Szkicownik**.
 
 
 
@@ -349,17 +387,17 @@ To narzędzie jest przestarzałe, nie będzie dostępne w przyszłych wydaniach 
 
 Każdy użytkownik CAD z biegiem czasu rozwija swój własny sposób pracy, ale istnieją pewne przydatne ogólne zasady, którymi należy się kierować.
 
--   Seria prostych szkiców jest łatwiejsza do wykonania niż jeden złożony szkic. Na przykład, pierwszy szkic może być utworzony dla podstawowej funkcji 3D *(wyciągnięcie, albo wyciągniecie przez obrót)*, podczas gdy drugi może zawierać otwory lub wycięcia *(kieszenie)*. Niektóre szczegóły mogą zostać pominięte, które zostaną zrealizowane później jako funkcje 3D. Możesz wybrać unikanie zaokrągleń w szkicu, jeśli jest ich zbyt wiele, i dodać je jako funkcję 3D.
+-   Seria prostych szkiców jest łatwiejsza do wykonania niż jeden złożony szkic. Na przykład, pierwszy szkic może być utworzony dla podstawowej cechy 3D *(wyciągnięcie, albo wyciągniecie przez obrót)*, podczas gdy drugi może zawierać otwory lub wycięcia *(kieszenie)*. Niektóre szczegóły mogą zostać pominięte, które zostaną zrealizowane później jako cechy 3D. Możesz wybrać unikanie zaokrągleń w szkicu, jeśli jest ich zbyt wiele, i dodać je jako cechy 3D.
 -   Zawsze twórz profil zamknięty, inaczej Twój szkic nie stworzy bryły, ale raczej zestaw otwartych ścian. Jeśli nie chcesz, aby niektóre obiekty zostały włączone do bryły, przekształć je w elementy konstrukcyjne za pomocą narzędzia **Tryb konstrukcji**.
 -   Użyj funkcji automatycznych wiązań, aby ograniczyć liczbę wiązań, które musisz dodać ręcznie.
 -   Z reguły najpierw należy zastosować ograniczenia geometryczne, potem ograniczenia wymiarowe, a następnie zablokować szkic jako ostatni. Ale pamiętaj: reguły są tworzone po to, aby je łamać. Jeśli masz problemy z manipulowaniem szkicem, przydatne może być związanie najpierw kilku obiektów przed ukończeniem profilu.
 -   Jeśli to możliwe, wyśrodkuj szkic do punktu początkowego *(0,0)* z wiązaniem blokady. Jeśli Twój szkic nie jest symetryczny, zlokalizuj jeden z jego punktów w punkcie początkowym lub wybierz ładne okrągłe liczby dla odległości blokady.
 -   Jeśli masz możliwość wyboru między wiązaniem długości a wiązaniem poziomym lub pionowym, preferowane są te ostatnie. Ograniczenia odległości poziomej i pionowej są mniej obciążające obliczeniowo.
 -   Ogólnie rzecz biorąc, najlepsze ograniczenia, których należy użyć, to:
-    Wiązania poziome i pionowe; Wiązania poziome i pionowe długości; Styczność punkt-punkt.
+    Wiązania poziome i pionowe; Wiązania poziome i pionowe długości, styczność punkt-punkt.
     Jeśli to możliwe, należy ograniczyć użycie następujących wiązań:
     ogólne wiązanie długości, styczność krawędzi do krawędzi, ustalenie punktu do związania linii, wiązanie symetrii.
--   Jeśli masz wątpliwości co do poprawności szkicu po jego ukończeniu *(elementy zmieniają kolor na zielony)*, zamknij okno dialogowe Szkicownik, przejdź do środowiska pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) i uruchom **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Sprawdź geometrię](Part_CheckGeometry/pl.md)**.
+-   Jeśli masz wątpliwości co do poprawności szkicu po jego ukończeniu *(elementy zmieniają kolor na zielony)*, zamknij okno dialogowe Szkicownika, przejdź do środowiska pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) i uruchom narzędzie **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Sprawdź geometrię](Part_CheckGeometry/pl.md)**.
 
 
 
@@ -375,6 +413,14 @@ Każdy użytkownik CAD z biegiem czasu rozwija swój własny sposób pracy, ale 
 ## Tworzenie skryptów 
 
 Strona [skrypty szkicownika](Sketcher_scripting.md) zawiera przykłady tworzenia wiązań przez skrypty środowiska Python.
+
+
+
+## Przykłady
+
+Aby uzyskać kilka pomysłów na to, co można osiągnąć za pomocą narzędzi środowiska Szkicownik, zajrzyj do: [przykładów](Sketcher_Examples/pl.md).
+
+<img alt="" src=images/Sketcher_ExampleHinge-01.gif  style="width:80px;"> <img alt="" src=images/Sketcher_ExampleHinge-15.png  style="width:90px;">
 
 
 

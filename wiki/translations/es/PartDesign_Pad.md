@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -25,6 +27,8 @@ La **<img src="images/PartDesign_Pad.svg" width=16px> [DiseñoPieza Pastilla](Pa
 ![](images/PartDesign_Pad_example.svg )
 
 \"Boceto (A) mostrado a la izquierda; resultado final después de la operación de la pastilla (B) a la derecha\".
+
+
 
 ## Utilización
 
@@ -41,6 +45,8 @@ La **<img src="images/PartDesign_Pad.svg" width=16px> [DiseñoPieza Pastilla](Pa
 
 When selecting a single sketch, it can have multiple enclosed profiles inside a larger one, for example a rectangle with two circles inside it. But the profiles may not intersect each other. <small>(v0.20)</small> 
 
+
+
 ## Opciones
 
 
@@ -53,6 +59,8 @@ Al crear un pastilla, la vista Combo cambia automáticamente al panel Tareas, mo
 
 ![](images/pad_parameters_cropped_es.png )
 
+
+
 ### Tipo
 
 
@@ -62,6 +70,8 @@ El tipo ofrece cinco formas diferentes de especificar la longitud a la que se ex
 
 
 </div>
+
+
 
 ### Dimension
 
@@ -77,13 +87,19 @@ No es posible indicar dimensiones negativas. Utiliza en cambio la opción **inve
 
 </div>
 
+
+
 #### Hasta el último 
 
 La pastilla se extruirá hasta la última cara del soporte en la dirección de extrusión. Si no hay soporte, aparecerá un mensaje de error.
 
+
+
 #### Hasta el primero 
 
 La pastilla se extruirá hasta la primera cara del soporte en la dirección de extrusión. Si no existe soporte, se mostrará un mensaje de error.
+
+
 
 #### Hasta la cara 
 
@@ -95,6 +111,8 @@ La pastilla se extruirá hasta una cara del soporte que puede seleccionarse desi
 
 </div>
 
+
+
 #### Dos dimensiones 
 
 
@@ -105,6 +123,8 @@ Permite introducir una segunda longitud en la cual el saliente debería extender
 
 </div>
 
+
+
 ### Longitud
 
 
@@ -114,6 +134,8 @@ Define la longitud de la pastilla. Se pueden utilizar múltiples unidades indepe
 
 
 </div>
+
+
 
 ### Relleno a la cara 
 
@@ -131,9 +153,11 @@ Relleno desde la cara en la que terminará la pastilla. Esta opción sólo está
 
 You can select the direction of the extrusion:
 
--   **Sketch normal** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
--   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion. <small>(v0.20)</small> 
--   **Custom direction** The sketch is extruded along a direction that can be specified via vector values. <small>(v0.19)</small> 
+-   **Sketch normal:** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
+-   **Select reference\...:** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion. <small>(v0.20)</small> 
+-   **Custom direction:** The sketch is extruded along a direction that can be specified via vector values.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -155,6 +179,8 @@ Si está marcada, la dirección de la pastilla no será el vector normal del cro
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Longitud a lo largo de la normal del boceto 
@@ -163,6 +189,8 @@ Si está marcada, la dirección de la pastilla no será el vector normal del cro
 </div>
 
 Si está marcada, la longitud de la pastilla se mide a lo largo de la normal del boceto, de lo contrario a lo largo de la dirección personalizada. {{Version/es|0.20}}
+
+
 
 ### Simétrico al plano 
 
@@ -173,6 +201,8 @@ Marque la casilla para extender la mitad de la longitud dada a cada lado del pla
 
 
 </div>
+
+
 
 ### Invertido
 
@@ -201,6 +231,8 @@ Defines the length of the pad in the opposite extrusion direction. Multiple unit
 
 Tapers the pad in the opposite extrusion direction by the given angle. A positive angle means the outer pad border gets wider. This option is only available if **Type** is **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
 
+
+
 ## Propiedades
 
 -    **Type**: Type of ways how the pad will be extruded, see [Options](#Options.md).
@@ -209,17 +241,19 @@ Tapers the pad in the opposite extrusion direction by the given angle. A positiv
 
 -    **Length2**: Second pad length in case the **Type** is **TwoLengths**, see [Options](#Options.md).
 
--    **Use Custom Vector**: <small>(v0.19)</small>  If checked, the pad direction will not be the normal vector of the sketch but the given vector, see [Options](#Options.md).
+-    **Use Custom Vector**: If checked, the pad direction will not be the normal vector of the sketch but the given vector, see [Options](#Options.md).
 
--    **Direction**: <small>(v0.19)</small>  Vector of the pad direction if **Use Custom Vector** is used.
+-    **Direction**: Vector of the pad direction if **Use Custom Vector** is used.
 
--    **Along Sketch Normal**: <small>(v0.20)</small>  If *true*, the pad length is measured along the sketch normal. Otherwise and if **Use Custom Vector** is used, it is measured along the custom direction.
+-    **Along Sketch Normal**: If *true*, the pad length is measured along the sketch normal. Otherwise and if **Use Custom Vector** is used, it is measured along the custom direction. <small>(v0.20)</small> 
 
 -    **Up To Face**: A face the pad will extrude up to, see [Options](#Options.md).
 
 -    **Offset**: Offset from face in which the pad will end. This is only taken into account if the **Type** option **UpToLast**, **UpToFirst** or **UpToFace** is used.
 
 -    **Refine**: True or false. Cleans up residual edges left after the operation. This property is initially set according to the user\'s settings (found in **Preferences → Part design → General → Model settings**). It can be manually changed afterwards. This property will be saved with the FreeCAD document.
+
+
 
 ## Limitaciones
 

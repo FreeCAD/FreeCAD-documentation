@@ -12,7 +12,7 @@
 
 ## Description
 
-Cet outil créé un arc par trois : le point de départ, le point de fin et un point sur l\'arc
+Cet outil dessine un arc en choisissant trois points : le point de départ, le point de fin et un point sur l\'arc.
 
 
 
@@ -20,7 +20,7 @@ Cet outil créé un arc par trois : le point de départ, le point de fin et un p
 
 Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix blanche avec une icône d\'arc rouge. Les coordonnées du pointeur sont affichées à côté en bleu et en temps réel.
 
--   Choisissez des points sur une zone vide de la vue 3D, ou sur un objet existant (les contraintes automatiques doivent être actives dans le [Panneau des tâches](Task_panel/fr.md)).
+-   Choisir des points sur une zone vide de la vue 3D, ou sur un objet existant (les contraintes automatiques doivent être actives dans le [panneau des tâches](Task_panel/fr.md)).
 -   Appuyer sur **Echap** ou cliquer sur le bouton droit de la souris annule la fonction.
 
 

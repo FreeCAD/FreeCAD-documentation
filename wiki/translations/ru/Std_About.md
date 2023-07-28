@@ -1,42 +1,48 @@
-# Std About/ru
 ---
 - GuiCommand:/ru
-   Name:Std About
-   Name/ru:Std About
-   Workbenches:All   MenuLocation:Справка → О FreeCAD   SeeAlso:...---
+   Name/ru:О FreeCAD
+   Name:Std_About
+   Workbenches:Все
+   MenuLocation:Справка → О FreeCAD
+---
+
+# Std About/ru
 
 
-</div>
 
 ## Описание
 
-The **Std About** command opens a dialog box that shows information about the FreeCAD program.
+Команда **О FreeCAD** открывает диалог в котором отображена актуальная информация о текущей версии FreeCAD.
 
-![](images/Help-About-Dropdown-screenshot.png ) 
-*Activate the About dialog via **Help → <img src="images/Std_About.svg" width=16px> About FreeCAD
+![](images/Help-About-Dropdown-screenshot_ru.png ) 
+*Активация диалога через меню **Справка → <img src="images/Std_About.svg" width=16px> О FreeCAD
 ***
 
-![](images/Std_About_example.png ) 
-*The About FreeCAD dialog box*
+![](images/Std_About_example_ru.png ) 
+*Диалог "О программе"*
 
 
-**'''ATTENTION''': Do not take a screenshot of this dialog box! Instead press the **Copy to clipboard** button and then paste the information in your help request.**
+**'''Внимание''': Не делайте скриншот диалога! Вместо этого нажмите на кнопку **Скопировать в буфер обмена**, после чего вставьте текст из буфера обмена в ваше сообщение на форуме.**
+
+
 
 ## Применение
 
-1.  Select the **Help → <img src="images/Std_About.svg" width=16px> About FreeCAD** option from the menu.
-2.  Select one of the tabs: **About**, **Credits**, **License** or **Libraries**.
-3.  Whenever you need to provide FreeCAD version information do the following:
-    -   Press the **Copy to clipboard** button on the **About** tab.
-    -   Paste this information in your help request.
-    -   Do not include a screenshot of the dialog box.
-4.  Press **Esc** or the **OK** button to close the dialog.
+1.  Выберите пункт меню **Help → <img src="images/Std_About.svg" width=16px> О FreeCad**.
+2.  Выберите одну из вкладок: **О программе**, **Благодарности**, **Лицензия** или **Библиотеки**.
+3.  Всякий раз, когда вам нужно предоставить информацию о версии FreeCad, выполните следующее:
+    -   Нажмите кнопку **Скопировать в буфер обмена** во вкладке **О программе**.
+    -   Вставьте эту информацию в свой вопрос или сообщение на форуме.
+    -   Скриншот диалогового окна, делать не нужно.
+4.  Нажмите **Esc** или **OK**, чтобы закрыть диалог.
 
-### About
 
-The About tab shows information on the FreeCAD version used, revision number, operating system, and some details about the supporting libraries, [Python](Python.md), Qt, Coin, and OCCT. When requesting help on the [FreeCAD forums](http://forum.freecadweb.org/viewtopic.php?f=3&t=2264), or filing bug reports, it is imperative to provide this information.
 
-To get troubleshooting information press **Copy to clipboard** button, then paste this information where it is needed.
+### О программе 
+
+Во вкладке «О программе» отображается информация об используемой версии FreeCAD, номере сборки, операционной системе и некоторые сведения о поддерживаемых библиотеках [Python](Python/ru.md), Qt, Coin и OCCT. При публикации вопросов на [форуме FreeCAD](http://forum.freecadweb.org/viewtopic.php?f=3&t=2264) или отправке отчетов об ошибках необходимо предоставлять данную информацию.
+
+Чтобы получить подробную информацию о текущей версии FreeCAD, нажмите кнопку **Скопировать в буфер обмена**, а затем вставьте эту информацию в сообщение на форуме или баг-трекер.
 
 OS: Ubuntu 18.04.3 LTS (ubuntu:GNOME/ubuntu)
 Word size of OS: 64-bit
@@ -51,24 +57,36 @@ Coin version: 4.0.0a
 OCC version: 7.3.0
 Locale: English/UnitedStates (en_US)
 
-### Credits
 
-The Credits tab shows a list of contributors to the FreeCAD project. To get your name on this list you can contribute in many different ways, including programming, bug triaging, packaging the software, writing user documentation and tutorials, translating the software and documentation, working on icons, artwork and graphical interfaces, and helping out in the forum. See [Help FreeCAD](Help_FreeCAD.md) for more information.
 
-### License
+### Лицензия
 
-FreeCAD is licensed under the terms of the [GNU Lesser General Public License 2](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) (LGPL 2). The full text of this license is listed here. See [license](licence.md) for more details.
-
-As FreeCAD uses external libraries, they may have their own licensing terms. Consult their particular licenses in [third party libraries](Third_Party_Libraries.md).
-
-Code that is distributed together with the core FreeCAD program must be compatible with the LGPL 2.
-
-### Libraries
-
-The Libraries tab shows a list of the external libraries used by the program, and their websites. See also [third party libraries](Third_Party_Libraries.md) for more information.
+FreeCAD распространяется под лицензией [GNU Lesser General Public License 2](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) (LGPL 2). Полный текст данной лицензии приведен здесь. См. раздел [лицензирование](licence/ru.md) для получения более подробной информации.
 
 
 
+### Благодарности
+
+На вкладке «Благодарности» отображается список участников проекта FreeCAD. Чтобы попасть в этот список, вы можете внести свой вклад в развитие проекта различными способами, включая: программирование, сортировку ошибок, сборку программного обеспечения, написание пользовательской документации или учебных пособий, перевод программного обеспечения и документации, работу над значками, иллюстрациями и графическими интерфейсами, а также оказывая помощь на форуме. См. [Помощь FreeCAD](Help_FreeCAD/ru.md) для получения дополнительной информации.
+
+Поскольку FreeCAD использует сторонние библиотеки, у них могут быть свои условия лицензирования. Подробно ознакомится с их лицензиями можно на странице с описанием [сторонних библиотек](Third_Party_Libraries/ru.md).
+
+Код, который распространяется вместе с дистрибутивом FreeCAD, должен быть совместим с лицензией LGPL 2.
+
+
+
+### Библиотеки
+
+Во вкладке «Библиотеки» отображается список внешних библиотек, используемых программой, а также адреса веб-сайтов этих библиотек. Более подробную информацию можно узнать на странице описания [сторонних библиотек](Third_Party_Libraries/ru.md).
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 {{Std Base navi}}
 

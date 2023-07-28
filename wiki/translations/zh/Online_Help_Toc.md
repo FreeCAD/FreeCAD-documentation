@@ -45,6 +45,9 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   工作区
     -   [建筑工作台](Arch_Workbench/zh.md)
     -   [测试工作台](Debugging/zh.md)
@@ -70,6 +73,9 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
     -   [表面工作台](Surface_Workbench/zh.md)
     -   [技术绘图工作区](TechDraw_Workbench/zh.md)
     -   [网页工作台](Web_Workbench/zh.md)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

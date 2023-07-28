@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -23,6 +25,8 @@ Parti di edificio sostituisce i vecchi [Piano](Arch_Floor/it.md) e [Edificio](Ar
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -35,11 +39,21 @@ Parti di edificio sostituisce i vecchi [Piano](Arch_Floor/it.md) e [Edificio](Ar
 
 </div>
 
+
+
 ### Note
+
+
+<div class="mw-translate-fuzzy">
 
 Parte di edificio incorpora implicitamente un [Piano di sezione](Arch_SectionPlane/it.md). {{Version/it|0.19}}
 
+
+</div>
+
 Questo piano di sezione è sempre parallelo al piano di base di Parte di edificio, ma è possibile specificare l\'offset tra di loro. Quindi tutti gli strumenti che funzionano con un piano di sezione, come [Vista profilo 2D](Draft_Shape2DView/it.md) di Draft e [Vista di Arch](TechDraw_ArchView/it.md) di TechDraw funzionano anche con Parte di edificio.
+
+
 
 ## Opzioni
 
@@ -56,6 +70,8 @@ Questo piano di sezione è sempre parallelo al piano di base di Parte di edifici
 
 
 </div>
+
+
 
 ## Proprietà
 

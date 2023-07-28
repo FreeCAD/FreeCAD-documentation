@@ -1,4 +1,3 @@
-# Basic TechDraw Tutorial/de
 ---
 - TutorialInfo:/de
    Topic:Modellierung
@@ -6,41 +5,60 @@
    Author:[WandererFan](User_WandererFan.md)
    Time:Weniger als eine Stunde
    FCVersion:0.17 oder höher
-   Files:[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd
-Basic Part Design for v0.17 Sample]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd Basic TechDraw Tutorial Sample]
-}}
+   Files:[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd?raw=true Basic Part Design for v0.17 Sample]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd?raw=true Basic TechDraw Tutorial Sample]
+---
 
-## Einführung
+# Basic TechDraw Tutorial/de
 
-Dieses Tutorium führt den neuen Anwender in einige der verwendeten Werkzeuge und Techniken des **![](images/)**_ein. Dieses Tutorium ist kein vollständiger und umfassender Führer zum TechDraw Arbeitsbereich und viele der Werkzeuge und Möglichkeiten werden nicht abgedeckt. Dieses Tutorium nimmt den Anwender mit durch die benötigten Schritte, um technische Zeichnungen des Teils aus dem [Grundlagen Part Design Tutorium](Basic_Part_Design_Tutorial/de.md) zu erzeugen.
 
-## Bevor Du anfängst 
 
-Lade die [Beispieldatei](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd) aus dem Part Design Tutorium herunter.
+
+
+
+
+## Einleitung
+
+Dieses Tutorium führt den neuen Anwender in einige der verwendeten Werkzeuge und Techniken des Arbeitsbereichs **<img src="images/Workbench_TechDraw.svg" width=24px> [TechDraw](TechDraw_Workbench/de.md)** (technisches Zeichnen) ein. Dieses Tutorium ist kein vollständiger und umfassender Führer zum Arbeitsbereich TechDraw und viele der Werkzeuge und Möglichkeiten werden nicht abgedeckt. Dieses Tutorium nimmt den Anwender mit durch die benötigten Schritte, um technische Zeichnungen des Bauteils aus dem [Grundlagen Part Design Tutorium](Basic_Part_Design_Tutorial/de.md) zu erzeugen.
+
+
+
+## Vor dem Start 
+
+Lade die [Beispieldatei](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd?raw=true) aus dem Part Design Tutorium herunter.
+
+
 
 ## Die Aufgabe 
 
-In diesem Tutorium wirst Du den TechDraw Arbeitsbereich verwenden, um aus dem folgenden 3D Teil verschiedene 2D Zeichnungen zu erzeugen. Wir werden mehrere Ansichten des Teils erstellen und wichtige Bemaßungen hinzufügen. Dieses Tutorium wird nicht jede Funktion und jedes Werkzeug innerhalb des TechDraw Arbeitsbereichs verwenden, sollte aber genug zeigen, um dem Anwender dieses Tutoriums eine grundlegende Basis erhält, auf der er seine Kenntnisse und Fähigkeiten aufbauen kann.
+In diesem Tutorium wirst Du den Arbeitsbereich TechDraw verwenden, um aus dem folgenden 3D-Bauteil verschiedene 2D-Zeichnungen zu erstellen. Wir werden mehrere Ansichten des Teils erstellen und wichtige Maße hinzufügen. Dieses Tutorium wird nicht jede Funktion und jedes Werkzeug innerhalb des Arbeitsbereichs TechDraw verwenden, sollte aber genug zeigen, um dem Anwender dieses Tutoriums eine grundlegende Basis zu geben, auf der er seine Kenntnisse und Fähigkeiten aufbauen kann.
+
+
 
 ## Das Bauteil 
 
 ![](images/Tut17_final_refined.png )
 
-## Erstellen einer Zeichnung 
 
-### Anfang
 
--   Du möchtest vielleicht deine [Einstellung](TechDraw_Preferences/de.md) Einstellungen vor dem Anfang anpassen. Siehe Anmerkung 1.
--   Öffne zuerst die Datei, die unser 3D Teil enthält. Stelle dann sicher, dass du dich im TechDraw Arbeitsbereich befindest.
--   Du wählst die Elemente im Zeichnungsfenster und/oder im Combo Paneel aus. Die Auswahl in TechDraw funktioniert auf dieselbe Weise wie im 3D Fenster. Die Elemente werden gelb, wenn sich der Cursor in der Position befindet, in der sie ausgewählt werden sollen, und werden grün, wenn sie ausgewählt werden. Um mehrere Elemente auszuwählen, verwende beim Klicken die **Strg** Taste und halte sie gedrückt.
+## Eine Zeichnung erstellen 
 
-### Ansichten und Abmessungen 
 
-Jede Arbeit in TechDraw beginnt mit einer Zeichnungsseite (Page). Zeichnungsseiten basieren auf Vorlagen und enthalten Ansichten.
 
-1.  Klicke auf <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [TechDraw StandardSeite](TechDraw_PageDefault/de.md), um eine neue Seite zu erstellen.
-2.  Klicke auf den zu zeichnenden Körper in der [3D-Ansicht](3D_view/de.md) oder in der [Combo Ansicht](Combo_view.md) (linke Seite oben).
-3.  Klicke auf <img alt="" src=images/TechDraw_View.svg  style="width:32px;"> [TechDraw Ansicht](TechDraw_View/de.md). Es wird die Ansicht zu der Seite hinzugefügt, die wir gerade erstellt haben.
+### Beginn
+
+-   Sollen Angaben in den [Einstellungen](TechDraw_Preferences/de.md) vor Beginn angepasst werden, siehe Anmerkung 1.
+-   Zuerst die Datei öffnen, die das 3D-Bauteil enthält. Dann sichertellen, dass der Arbeitsbereich TechDraw aktiv ist.
+-   Elemente werden im Zeichnungsfenster und/oder in der Combo-Ansicht ausgewählt. Die Auswahl in TechDraw funktioniert auf dieselbe Weise wie im 3D-Fenster. Die Elemente werden gelb, wenn sich der Cursor in der Position befindet, in der sie ausgewählt werden können, und werden grün, wenn sie ausgewählt wurden. Zum Auswählen mehrerer Elemente, wird die Taste **Strg** gedrückt und gehalten.
+
+
+
+### Ansichten und Maße 
+
+Jede Arbeit in TechDraw beginnt mit einem Zeichnungsblatt (Page). Zeichnungsblätter basieren auf Vorlagen und enthalten Ansichten.
+
+1.  Die Schaltfläche <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [TechDraw StandardSeite](TechDraw_PageDefault/de.md) drücken, um eine neue Seite zu erstellen.
+2.  Den Körper in der [3D-Ansicht](3D_view/de.md) oder in der [Combo Ansicht](Combo_view.md) (linke Seite oben) anklicken.
+3.  Die Schaltfläche <img alt="" src=images/TechDraw_View.svg  style="width:32px;"> [TechDraw Ansicht](TechDraw_View/de.md) drücken. Dies fügt eine Ansicht auf dem gerade erstellten Zeichnungsblatt ein.
 
 Jetzt haben wir eine Ansicht auf der Seite, die die Oberseite des Körpers zeigt. Es ist allerdings ein bisschen klein.
 
@@ -52,20 +70,22 @@ Jetzt haben wir eine Ansicht auf der Seite, die die Oberseite des Körpers zeigt
 
 ![](images/TDTut_TopView2to1.png )
 
-Besser, aber ein wenig langweilig. Lass\' uns einige Bemaßungen hinzufügen.
+Besser, aber ein wenig langweilig. Lasst uns einige Maße hinzufügen.
 
-1.  Wähle den oberen linken Eckpunkt (kleiner Punkt) mit dem **LMB** (linken Maus-Button), wähle dann auch (**Strg**+**LMB**) den unteren linken Eckpunkt.
-2.  Klicke auf <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:32px;"> [TechDraw VertikaleBemaßung](TechDraw_VerticalDimension/de.md). Ziehe den Bemaßungstext weg vom Körper.
-3.  Versuche das nochmal mit den oberen linken und oberen rechten Knoten und <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:32px;"> [TechDraw HorizontaleBemaßung](TechDraw_HorizontalDimension/de.md).
+1.  Den oberen linken Knoten (kleiner Punkt) mit dem **LMB** (linke Maustaste) auswählen, danach mit (**Strg**+**LMB**) auch den unteren linken Eckpunkt.
+2.  Die Schaltfläche <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:32px;"> [Vertikales Maß einfügen](TechDraw_VerticalDimension/de.md) drücken, dann den Maßtext (Maßzahl) vom Körper weg ziehen.
+3.  Versuche das nochmal mit den oberen linken und oberen rechten Knoten und <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:32px;"> [Horizontales Maß einfügen](TechDraw_HorizontalDimension/de.md).
 
 ![](images/TDTut_TopView2Dims.png )
 
-### Änderbarer Text 
+
+
+### Editierbarer Text 
 
 Wir sollten ein wenig Dokumentation zu unserer Zeichnung hinzufügen.
 
-1.  Klicke auf das kleine grüne Quadrat neben \"Title\" im Dokumentationsblock. Es öffnet sich ein Fenster, in dem Du \"Title\" in etwas Sinnvolleres änderst.
-2.  Nur zur Übung kannst Du Deinen Namen im \"Designed by Name\"-Feld auf die gleiche Weise ändern.
+1.  Klicke auf das kleine grüne Quadrat neben \"Title\" im Schriftfeld. Es öffnet sich ein Fenster, in dem Du \"Title\" in etwas sinnvolleres änderst.
+2.  Nur zur Übung kannst Du Deinen Namen im Feld \"Designed by Name\" auf die gleiche Weise ändern.
 
 ![](images/TDTut_DocBlock.png )
 
@@ -84,9 +104,11 @@ Bevor wir diese Seite verlassen, können wir uns ansehen, wie es aussieht, wenn 
 
 ![](images/TDTut_Toggle.png )
 
-### Mehrfache Ansichten eines Einzelteils 
 
-Lass uns eine Mehransichtzeichnung mit einer anderen Vorlage als Ausgangspunkt erstellen. Wir werden die Konvention des ersten Winkels verwenden, aber du kannst zum dritten Winkel wechseln, wenn das deine lokale Konvention ist.
+
+### Mehrere Ansichten eines einzelnen Bauteils 
+
+Lasst uns eine Ansichtengrupe mit einer anderen Vorlage als Ausgangspunkt erstellen. Wir werden die Projektionsmethode europäisch (erster Winkel - first angle) verwenden, aber wir können auch auf amerikanisch (dritter Winkel - third angle) wechseln, wenn das die lokal übliche Projektionsmethode ist.
 
 1.  Klicke auf <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [TechDraw SeitenVorlage](TechDraw_PageTemplate/de.md). Ein Dateiauswahldialog erscheint, aus dem eine Vorlagedatei auszuwählen ist. Wir werden \"ANSIB.SVG\" verwenden. Ein neuer Reiter erscheint.
 2.  Wähle \"Body\" und \"Page001\" (wenn Du mehr als eine Seite in Deinem Dokument hast, musst Du TechDraw mitteilen, welche zu verwenden ist).
@@ -100,9 +122,11 @@ Lass uns eine Mehransichtzeichnung mit einer anderen Vorlage als Ausgangspunkt e
 1.  Wähle in der Ansicht \"TopLeftFront\" die beiden Knoten an den äußersten Enden der Vorderkante des Werkstücks.
 2.  Klicke auf <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:32px;"> [TechDraw LängenBemaßung](TechDraw_LengthDimension/de.md). Ziehe den Bemaßungstext weg vom Körper.
 
-### Verbinden von Bemaßungen mit dem 3D Modell 
 
-Hast Du ein Problem mit der Bemaßung bemerkt, die wir gerade angelegt haben?
+
+### Maße mit dem 3D-Modell verknüpfen 
+
+Hast Du ein Problem mit dem Maß bemerkt, das wir gerade erstellt haben?
 
 ![](images/TDTut_NewLengthDim.png )
 
@@ -114,6 +138,8 @@ Aus dem ersten Teil dieses Tutorials wissen wir, dass das Werkstück 53 mm breit
 4.  Verschiebe in diesem Dialog unsere Bemaßung von der Spalte Verfügbar in die Spalte Ausgewählt. Drücke **OK**.
 5.  Kehre zurück zu Page001. Unsere Bemaßung sollte nun den korrekten Wert von 53 anzeigen (Wenn Du immer noch 43.27 siehst, solltest Du die **Neuberechnen** Schaltfläche drücken oder den Bemaßungswert ein wenig ziehen, bis er sich ändert).
 
+
+
 ## Weitermachen
 
 In diesem Tutorial hast Du genug über TechDraw kennengelernt, um eine Zeichnung wie diese (von [NormandC](User_Normandc.md)) zu erstellen. Siehe Anmerkung 2.
@@ -122,20 +148,25 @@ In diesem Tutorial hast Du genug über TechDraw kennengelernt, um eine Zeichnung
 
 Es gibt viel mehr Funktionalitäten in TechDraw zu erforschen - Section Views, Detail Views, Svg Symbols, Images, face hatching.
 
-## Anmerkungen
+
+
+## Hinweise
 
 1.  Es gibt einen exzellenten Satz von vorgeschlagenen Einstellungen in diesem (englischsprachigen) [Forumseintrag](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=30083#p248189).
-2.  Diese Zeichnung wurde mit v0.18 erstellt. Sie zeigt Bemaßungen im richtigen Format für eine isometrische Ansicht. In v0.17 sind die Verlängerungslinien (?; extension lines) rechtwinklig zur Kante anstatt an den Achsen ausgerichtet.
+2.  Diese Zeichnung wurde mit v0.18 erstellt. Sie zeigt Maße im richtigen Format für eine isometrische Ansicht. In v0.17 sind die Maßhilfslinien rechtwinklig zur Kante anstatt an den Achsen ausgerichtet.
+
+
 
 ## Zusätzliche Quellen 
 
 -   FreeCAD-Datei dieser Übung zum Vergleich (erstellt mit v0.17) [Download](https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd)
 
 
- {{TechDraw Tools navi}} {{Userdocnavi
----
+{{TechDraw Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial/de

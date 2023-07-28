@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -33,6 +35,8 @@ Lo strumento Vista aggiunge in una pagina di disegno una rappresentazione di uno
 ![](images/TechDraw_View_example.png ) 
 *Vista di un solido con linee nascoste*
 
+
+
 ## Utilizzo
 
 
@@ -45,6 +49,8 @@ Lo strumento Vista aggiunge in una pagina di disegno una rappresentazione di uno
 
 
 </div>
+
+
 
 ## Proprietà
 
@@ -147,11 +153,11 @@ Lo strumento Vista aggiunge in una pagina di disegno una rappresentazione di uno
 
 -    **Source|LinkList**: Links to the drawable objects to be depicted.
 
--    **XSource|XLinkList**: Links to the drawable objects in an external file. <small>(v0.19)</small> 
+-    **XSource|XLinkList**: Links to the drawable objects in an external file.
 
 -    **Direction|Vector**: This vector controls the direction from which you are viewing the object. +X is right, -X is left, +Y is rear, -Y is front (looking into the screen), +Z is up and -Z is down. So a Front view is (0,-1,0) and an isometric view is (1,-1,1).
 
--    **XDirection|Vector**: This vector controls the rotation of the view around the Direction. <small>(v0.19)</small> .
+-    **XDirection|Vector**: This vector controls the rotation of the view around the Direction.
 
 -    **Perspective|Bool**: `True` for perspective projection, `False` for orthogonal projection.
 
@@ -164,7 +170,7 @@ Lo strumento Vista aggiunge in una pagina di disegno una rappresentazione di uno
 
 -    **Keep Label|Bool**: Always show view label if `True`. (1)
 
--    **Stack Order|Integer**: Over or under lap relative to other views. (1) <small>(v1.0)</small> 
+-    **Stack Order|Integer**: Over or under lap relative to other views. (1) <small>(v0.21)</small> 
 
 
 {{TitleProperty|Decoration}}
@@ -207,6 +213,8 @@ Lo strumento Vista aggiunge in una pagina di disegno una rappresentazione di uno
 
 \(1\) queste proprietà sono comuni a tutti i tipi di Viste.
 
+
+
 ## Script
 
 
@@ -220,20 +228,33 @@ Lo strumento Vista aggiunge in una pagina di disegno una rappresentazione di uno
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Vista può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
+A View can be created with [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 
 
 ```python
-view = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewPart', 'View')
-rc = page.addView(view)
-FreeCAD.ActiveDocument.View.Source = [App.ActiveDocument.Box]
-FreeCAD.ActiveDocument.View.Direction = (0.0, 0.0, 1.0)
+import FreeCAD as App
+
+doc = App.ActiveDocument
+box = doc.addObject("Part::Box", "Box")
+
+page = doc.addObject("TechDraw::DrawPage", "Page")
+template = doc.addObject("TechDraw::DrawSVGTemplate", "Template")
+template.Template = App.getResourceDir() + "Mod/TechDraw/Templates/A4_LandscapeTD.svg"
+page.Template = template
+
+# Toggle the visibility of the page to ensure its width and height are updated (hack):
+page.Visibility = False
+page.Visibility = True
+
+view = doc.addObject("TechDraw::DrawViewPart", "View")
+page.addView(view)
+view.Source = [box]
+view.Direction = (0, 0, 1)
+
+view.X = page.PageWidth / 2
+view.Y = page.PageHeight / 2
+
+doc.recompute()
 ```
 
 

@@ -21,15 +21,9 @@
 Intensivnutzer haben FreeCAD um verschiedene kundenspezifische [externe Arbeitsbereiche](external_workbenches/de.md) erweitert, die nicht in den FreeCAD Quellcodekern integriert sind, sind aber leicht auf einer bestehenden FreeCAD Installation zu installieren. Hier werden wir die Installationsmethoden für die verschiedenen Betriebssysteme behandeln.
 
 
-<div class="mw-translate-fuzzy">
-
-
 **Hinweis:**
 
-Ab Version 0.17 verfügt FreeCAD über einen <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) im **Werkzeuge → Erweiterungsverwalter** Menü, das die Installation sowohl von Makros als auch von Workbenches erlaubt. Die folgenden Anweisungen sind nur erforderlich, wenn du einen Arbeitsbereich manuell installieren möchtest. Dies könnte notwendig sein, wenn aus irgendeinem Grund der Erweiterungsverwalter nicht funktioniert, du aber Zugriff auf den als **.zip** Paket heruntergeladenen Arbeitsbereich hast.
-
-
-</div>
+Seit Version 0.17 verfügt FreeCAD über einen <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) im Menü **Werkzeuge → Addon-Manager**, das die Installation sowohl von Makros als auch von Arbeitsbereichen erlaubt. Die folgenden Anweisungen sind nur erforderlich, wenn ein Arbeitsbereich manuell installiert werden soll. Dies könnte notwendig sein, wenn aus irgendeinem Grund der Addon-Manager nicht funktioniert, du aber Zugriff auf den als **.zip**-Paket heruntergeladenen Arbeitsbereich hast.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -48,34 +42,22 @@ Wie man zusätzliche Arbeitsbereiche und Erweiterungen unter Windows installiert
 ### Veraltet
 
 
-<div class="mw-translate-fuzzy">
-
-
 **Hinweis:**
 
-Die Verwendung des \"Erweiteruns-Installierers\" wird nicht mehr empfohlen. Die Verwendung des [Erweiterungsverwalters](Std_AddonMgr/de.md) in allen Systemen ist der empfohlene Weg.
-
-
-</div>
+Die Verwendung des \"Erweiteruns-Installierers\" wird nicht mehr empfohlen. Die Verwendung des [Addon-Managers](Std_AddonMgr/de.md) ist auf allen Systemen der empfohlene Weg.
 
 Benutze den [addons-installer von Github](https://github.com/FreeCAD/FreeCAD-addons).
 
 Während des Google Summer of Code 2016 begann der Student Mandeep Singh mit der Arbeit an einer verbesserten Version ([hier verfügbar](https://github.com/mandeeps708/PluginManager)), die jedoch noch weitere Bearbeitung benötigt, bevor sie vollständig in FreeCAD integriert werden kann.
 
-### Manual Install 
 
-
-<div class="mw-translate-fuzzy">
 
 ### Manuelle Installation 
 
 
 **Hinweis:**
 
-Diese Methode ist mit der Einführung des [Erweiterungsverwalters](Std_AddonMgr/de.md) möglich, aber nicht notwendig. Nichtsdestotrotz können die Informationen hier für einige noch nützlich sein.
-
-
-</div>
+Diese Methode ist mit der Einführung des [Addon-Manager](Std_AddonMgr/de.md) möglich, aber nicht notwendig. Nichtsdestotrotz können die Informationen hier für einige noch nützlich sein.
 
 -   Lade den Arbeitsbereich von github herunter, durch anklicken auf die Schaltfläche **Clone** oder **Download** auf der github Seite (obere rechte Ecke) klickest und \"Download ZIP\" wählst
 -   Entpacke das heruntergeladene Archiv auf deiner lokalen Festplatte
@@ -108,18 +90,12 @@ Wie man zusätzliche Arbeitsbereiche und Erweiterungen unter Linux installiert
 
 <div class="mw-collapsible-content">
 
-### Using git 
 
 
-<div class="mw-translate-fuzzy">
+### git verwenden 
 
-### Benutzung von git 
-
-Hinzufügen der [community-ppa](https://launchpad.net/~freecad-community/+archive/ubuntu/ppa) innerhalb des ppa-manager.
-Installation der Arbeitsbereiche über synaptische Paketmanager.
-
-
-</div>
+Hinzufügen der [community-ppa](https://launchpad.net/~freecad-community/+archive/ubuntu/ppa) innerhalb des ppa-Managers.
+Installation der Arbeitsbereiche über den Synaptic-Packet-Manager.
 
 
 ```python
@@ -138,20 +114,14 @@ $ git pull
 $ rm *.pyc
 ```
 
-### Manual Installation 
 
-
-<div class="mw-translate-fuzzy">
 
 ### Manuelle Installation 
 
 
 **Hinweis:**
 
-Diese Methode ist mit der Einführung des [Erweiterungsverwalters](Std_AddonMgr/de.md) möglich, aber nicht notwendig. Nichtsdestotrotz können die Informationen hier für einige noch nützlich sein.
-
-
-</div>
+Diese Methode ist mit der Einführung des [Addon-Manager](Std_AddonMgr/de.md) möglich, aber nicht notwendig. Nichtsdestotrotz können die Informationen hier für einige noch nützlich sein.
 
 -   Lade den Arbeitsbereich von github durch Klicken auf die Schaltfläche **Clone** oder **Download** auf der github Seite (obere rechte Ecke) und Auswahl von \"Download ZIP\"
 -   Entpacke das heruntergeladene Archiv auf deiner lokalen Festplatte
@@ -173,43 +143,27 @@ Diese Methode ist mit der Einführung des [Erweiterungsverwalters](Std_AddonMgr/
 
 ## Installation auf Mac 
 
-
-<div class="mw-translate-fuzzy">
-
-Wie man zusätzliche Arbeitsbereiche und Erweiterungen auf MacOS installiert
+Wie man zusätzliche Arbeitsbereiche und Erweiterungen auf macOS installiert
 
 
 <div class="mw-collapsible-content">
 
 
-</div>
-
-### Manual Installation 
-
-
-<div class="mw-translate-fuzzy">
 
 ### Manuelle Installation 
 
 
 **Hinweis:**
 
-Diese Methode ist mit der Einführung des [Erweiterungsverwalters](Std_AddonMgr/de.md) möglich, aber nicht notwendig. Nichtsdestotrotz können die Informationen hier für einige noch nützlich sein.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Diese Methode ist mit der Einführung des [Addon-Manager](Std_AddonMgr/de.md) möglich, aber nicht notwendig. Nichtsdestotrotz können die Informationen hier für einige noch nützlich sein.
 
 Der Einfachheit halber für dieses Beispiel, sage du hast die [Arbeitsbereich Kurven](Curves_Workbench/de.md) als den externen Arbeitsbereich gewählt, den du installieren möchtest:
 
 -   Wähle das git Repositorium des von dir gewählten externen Arbeitsbereichs aus und lade es als ZIP Datei herunter
-
 -   Es gibt zwei mögliche Speicherorte für deinen Erweiterungs Arbeitsbereich \'Mods\':
 
 1.  Alle Benutzer: **/Applications/FreeCAD.app/Contents/Resources/Mod**
-2.  Nur aktueller Anwender: **/Users/myusername/Library/Preferences/FreeCAD/Mod**
+2.  Nur aktueller Anwender: **/Users/myusername/Library/Application Support/FreeCAD/Mod**
 
 -   Wenn du den Finder verwendest, um manuell zum Speicherort \"Alle Benutzer\" in Anwendungen zu navigieren, musst du
     -   zu **/Applications**\" gehen und FreeCAD.app wählen
@@ -217,9 +171,6 @@ Der Einfachheit halber für dieses Beispiel, sage du hast die [Arbeitsbereich Ku
     -   Einfachklick auf den Ordner \"Contents\", dann auf \"Resources\" und Doppelklick, um den Ordner \"Mod\" zu öffnen
 -   Sobald du dich in dem gewünschten \"Mod\" Ordner befindest, erstelle einen neuen Ordner namens \"Curves\"
 -   Entpacke das heruntergeladene Repositorium in den Ordner \"Mod/Curves\"
-
-
-</div>
 
 
 </div>

@@ -1,4 +1,3 @@
-# Post-Processing of FEM Results with Paraview/en
 ---
 - TutorialInfo:   Topic:Post-Processing of FEM Results with ParaView
    Level:Intermediate
@@ -6,7 +5,13 @@
    Author:[http://www.freecadweb.org/wiki/index.php?title=User: HarryvL]
    FCVersion:0.19
    Files:[https://forum.freecadweb.org/download/file.php?id=103403 beam] and [https://forum.freecadweb.org/download/file.php?id=103557 wall] found in this [https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734 FC forum thread]
-}}
+---
+
+# Post-Processing of FEM Results with Paraview/en
+
+
+
+
 
 ## Introduction
 
@@ -127,11 +132,11 @@ To show the deformed geometry superimposed on the undeformed geometry, simply ma
 
 If we want to know the amount of reinforcement steel in the beam as a whole or the amount passing though a particular cross section we need to perform integration (summation over the geometry) of the base data.
 
-For example, the total volume of reinforcement bars in the beam running in x-direction is obtained from the integral {{incode   INTEGRATE(ReinforcementRatio_x * dx * dy * dz)}} over the full geometry and the total area of reinforcement steel running though a particular beam cross section is obtained from {{incode   INTEGRATE(ReinforcementRatio_x * dy * dz)}} over a slice.
+For example, the total volume of reinforcement bars in the beam running in x-direction is obtained from the integral `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)` over the full geometry and the total area of reinforcement steel running though a particular beam cross section is obtained from `INTEGRATE(ReinforcementRatio_x * dy * dz)` over a slice.
 
 In Paraview, integration can be done with an Integration Filter. This filter can be applied to the entire VTK object (the beam) or to a Slice (the cross section).
 
-NOTE: due to a mismatch of node ordering between FCFEM and PV, integration over a volume renders negative results, i.e. {{incode   INTEGRATE( 1.0 * dx * dy *dz)}} = - Volume instead of + Volume.
+NOTE: due to a mismatch of node ordering between FCFEM and PV, integration over a volume renders negative results, i.e. `INTEGRATE( 1.0 * dx * dy *dz)` = - Volume instead of + Volume.
 
 To calculate integrals we need to apply an Integration Filter, which can be found in the menu item Filters \> Alphabetical. Highlight the VTK object and apply the filter.
 
@@ -141,7 +146,7 @@ Press the **Apply** button in the Properties tab and the results will open in a 
 
 <img alt="" src=images/PVPic24.png  style="width:700px;">
 
-Before we tidy this up to find the desired result, i.e. {{incode   INTEGRATE(ReinforcementRatio_x * dx * dy * dz)}}, lets first see how we can control where the window is placed and what it contains.
+Before we tidy this up to find the desired result, i.e. `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)`, lets first see how we can control where the window is placed and what it contains.
 
 First close the SpreadSheetView window that has opened to the right. Then press the horizontal split icon on the Renderview window and a new window will open with a menu of display options. Before selecting an option, make sure the Integration filter object is highlighted in the Pipeline Browser.
 
@@ -151,7 +156,7 @@ To display numerical results we need to select SpreadSheet View at the bottom of
 
 <img alt="" src=images/PVPic26.png  style="width:400px;">
 
-To inspect {{incode   INTEGRATE(ReinforcementRatio_x * dx * dy * dz)}} we could scroll to the right through the table, but we can also remove all unwanted results by deselecting them, i.e. deselect All Columns and select **ReinforcementRatio_x**.
+To inspect `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)` we could scroll to the right through the table, but we can also remove all unwanted results by deselecting them, i.e. deselect All Columns and select **ReinforcementRatio_x**.
 
 <img alt="" src=images/PVPic27.png  style="width:300px;"> . <img alt="" src=images/PVPic28.png  style="width:500px;">
 
@@ -353,10 +358,14 @@ The final result shows the major and minor principal stress vectors superimposed
 
 ## Export of Graphical Results 
 
-To export a RenderView window highlight the window and use menu option **File > Save Screenshot**  {{FEM Tools navi}} {{Userdocnavi
----
+To export a RenderView window highlight the window and use menu option **File > Save Screenshot**
+
+
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > Post-Processing of FEM Results with Paraview/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > Post-Processing of FEM Results with Paraview/en

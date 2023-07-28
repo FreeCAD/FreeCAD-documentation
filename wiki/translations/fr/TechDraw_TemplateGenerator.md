@@ -1,10 +1,11 @@
 ---
 - TutorialInfo:/fr
    Topic:Création de modèles avec une macro Python
-   Level:Des connaissances de base de Python et de svg-structures sont utiles.
+   Level:Des connaissances de base en Python et de svg-structures sont utiles.
    FCVersion:0.19.1 et plus
    Time:(ne sait pas)
    Author:[FBXL5](User_FBXL5.md)
+   SeeAlso:[Macro TemplateHelper](Macro_TemplateHelper/fr.md)
 ---
 
 # TechDraw TemplateGenerator/fr
@@ -25,14 +26,18 @@ Un modèle fournit un arrière-plan pour les tâches de dessin et ses dimensions
 
 Les modèles sont des fichiers svg et une macro doit donc composer quelques lignes de code svg (qui est un sous-ensemble du code xml).
 
+
+
 ## Structure d\'une simple page blanche 
 
 Le format SVG est un sous-ensemble du format XML. C\'est pourquoi un fichier SVG, comme tout fichier XML, se compose de deux parties :
 
--   L\'en-tête, une déclaration de format
--   Le corps, qui contient les informations à afficher et où les placer.
+-   En-tête, une déclaration de format
+-   Corps, contient les informations à afficher et où les placer.
 
-le titre : (je ne sais pas pourquoi il devrait y avoir un titre, le fichier svg est toujours un fichier modèle valide sans lui\...)
+:   (je ne sais pas pourquoi il devrait y avoir un titre, le fichier svg est toujours un fichier modèle valide sans lui\...)
+
+
 
 ### L\'en-tête 
 
@@ -43,6 +48,8 @@ L\'en-tête n\'est qu\'une ligne pour déclarer quelle version du langage XML un
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 }}
 
+
+
 ### Le corps 
 
 Le corps commence par une balise d\'ouverture qui contient des informations sur les espaces de nom et sur la taille du modèle et l\'endroit où le placer. Et il se termine par une balise de fermeture.
@@ -51,7 +58,7 @@ Le corps commence par une balise d\'ouverture qui contient des informations sur 
 {{Code|lang=xml|code=
 <svg
   xmlns="http://www.w3.org/2000/svg" version="1.1"
-  xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+  xmlns:freecad="http://www.freecad.org/wiki/index.php?title=Svg_Namespace"
   width="420mm"
   height="297mm"
   viewBox="0 0 420 297">
@@ -59,13 +66,13 @@ Le corps commence par une balise d\'ouverture qui contient des informations sur 
 }}
 
 
-:   **xmlns=** \"<http://www.w3.org/2000/svg>\" : Lien externe vers l\'espace de noms xml pour rechercher les commandes xml standard
-:   **version=** \"1.1\" : La version de xml utilisée est 1.1
-:   **xmlns:freecad=** \"[Svg Namespace](https://wiki.freecadweb.org/Svg_Namespace/fr)\" : Lien externe vers l\'extension de l\'espace de nom de FreeCAD
+:   **xmlns=** \"<http://www.w3.org/2000/svg>\" : lien externe vers l\'espace de noms xml pour rechercher les commandes xml standard
+:   **version=** \"1.1\" : la version de xml utilisée est 1.1
+:   **xmlns:freecad=** \"[Svg Namespace](https://wiki.freecad.org/Svg_Namespace/fr)\" : lien externe vers l\'extension de l\'espace de nom de FreeCAD
 :   \"freecad :\" sera préfixé aux noms d\'attributs pour qu\'ils soient traités par lesdites commandes spéciales.
-:   **width=** \"420mm\" : Largeur de la zone de dessin
-:   **height=** \"297mm\" : Hauteur de la zone de dessin
-:   **viewBox=** \"0 0 420 297\" : Position du coin supérieur gauche (0;0) et du coin inférieur droit (420;297) dans l\'espace de construction svg (en unités svg).
+:   **width=** \"420mm\" : largeur de la zone de dessin
+:   **height=** \"297mm\" : hauteur de la zone de dessin
+:   **viewBox=** \"0 0 420 297\" : position du coin supérieur gauche (0;0) et du coin inférieur droit (420;297) dans l\'espace de construction svg (en unités svg).
 :   Width, height et viewBox dans cette combinaison définissent 1 unité svg à 1 mm pour l\'ensemble du document. Une unité dimensionnelle peut être omise à partir de maintenant.
 :   Dans ce cas, 420 et 297 donnent une page A3. Personnalisez ces valeurs pour générer d\'autres tailles de page.
 
@@ -82,6 +89,8 @@ Pour une page blanche de taille DIN A3 en orientation paysage, c\'est tout.
   viewBox="0 0 420 297">
 </svg>
 }}
+
+
 
 ## Code Python\... 
 
@@ -101,7 +110,9 @@ template_file = os.path.join(template_path, template_name)
 
 Maintenant, le nom du modèle doit être associé au chemin du modèle d\'une manière qui soit compatible avec les systèmes d\'exploitation basés sur unix et Windows. Ceci est fait avec la commande \"os.path.join\" et stocké dans le **template_file**.
 
-### \... pour créer une page blanche 
+
+
+### \...pour créer une page blanche 
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -129,23 +140,25 @@ template_file = os.path.join(template_path, template_name)
 
 #- Create a file and insert a header line
 #   (with t as the space saving variant of template)
-def CreateSvgFile(filePath):
-    t=open(filePath,"w") # w = write, overwrites existing files
+def CreateSvgFile(file_path):
+    t=open(file_path, "w") # w = write, overwrites existing files
     t.write("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>")
     t.close
 
 #- Create opening svg-tag
 #   Namespace section
-def StartSvg(filePath):
-    t=open(filePath,"a") # a = append, new lines are added at the end of an existing file
+def StartSvg(file_path):
+    t=open(file_path, "a", encoding="utf-8")
+    # a = append, new lines are added at the end of an existing file
+    # encoding="utf-8", helps with special characters if the Python interpreter is in ASCII mode
     t.write("\n"+"\n")
     t.write("<svg\n")
     t.write("  xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"\n")
-    t.write("  xmlns:freecad=\"http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace\"\n")
+    t.write("  xmlns:freecad=\"http://www.freecad.org/wiki/index.php?title=Svg_Namespace\"\n")
     t.close
 #   Sheet size section
-def CreateSheet(filePath,shWidth,shHeight):
-    t=open(filePath,"a")
+def CreateSheet(file_path, shWidth, shHeight):
+    t=open(file_path, "a", encoding="utf-8")
     t.write("  width =\""+shWidth+"mm\"\n")
     t.write("  height=\""+shHeight+"mm\"\n")
     t.write("  viewBox=\"0 0 "+shWidth+" "+shHeight+"\">\n")
@@ -153,8 +166,8 @@ def CreateSheet(filePath,shWidth,shHeight):
     # identical values for width and height and Viewbox' width and height will synchronise mm and svg-units
 
 #- Create closing svg-tag
-def EndSvg(filePath):
-    t=open(filePath,"a")
+def EndSvg(file_path):
+    t=open(file_path, "a", encoding="utf-8")
     t.write("</svg>")
     t.close
 
@@ -179,15 +192,17 @@ EndSvg(template_file)
 </div>
 
 
-:   Le principe essentiel est :
-    -   d\'ouvrir un fichier en écriture et donc de démarrer un fichier svg à partir de zéro, d\'écrire la ligne d\'en-tête et de fermer le fichier dans un premier temps.
-    -   puis d\'ouvrir à plusieurs reprises le fichier pour ajouter d\'autres segments et de le refermer après l\'ajout.
+:   Le principe de base est le suivant :
+    -   ouvrir un fichier pour écrire et donc commencer un fichier svg à partir de zéro, écrire la ligne d\'en-tête et fermer le fichier dans un premier temps.
+    -   puis ouvrir le fichier à plusieurs reprises pour ajouter d\'autres segments et le refermer après l\'ajout.
 :   
-:   La macro est composée de plusieurs fonctions qui sont appelées depuis la section principale.
+:   La macro est composée de plusieurs fonctions qui sont appelées à partir de la section principale.
 :   Des fonctions supplémentaires peuvent être insérées avant la fonction EndSvg et les appels nécessaires sont placés avant l\'appel EndSvg().
-:   Nous devons surveiller le nombre d\'espaces utilisés lors des opérations d\'écriture pour une indentation correcte.
+:   Nous devons surveiller le nombre d\'espaces utilisés avec les opérations d\'écriture pour une indentation correcte.
 
-### \... pour créer une page avec de l\'encre 
+
+
+### \...pour créer une page avec de l\'encre 
 
 Pour faire un dessin à partir d\'une page blanche, nous avons besoin de :
 
@@ -201,6 +216,8 @@ Pour faire un dessin à partir d\'une page blanche, nous avons besoin de :
 
 Normalement, ces éléments graphiques sont utilisés de manière répétée et le code de génération est donc placé dans des fonctions.
 
+
+
 ### Fonction svgrect 
 
 Pour dessiner un rectangle, il suffit d\'appeler la fonction **svgrect** et de lui transmettre les valeurs de largeur, de hauteur et de position du coin supérieur gauche. C\'est plus lisible que le contenu de la svgline qui devait être utilisé à la place.
@@ -212,6 +229,8 @@ def svgrect(width,height,x,y):
     svgLine=("<rect width=\""+width+"\" height=\""+height+"\" x=\""+x+"\" y=\""+y+"\" />")
     return svgLine
 }}
+
+
 
 ### Fonction svgpath 
 
@@ -232,6 +251,8 @@ def svgpath(x1,y1,x2,y2):
     return svgLine
 }}
 
+
+
 ### Fonction svgtext 
 
 Pour dessiner un morceau de texte, il suffit d\'appeler la fonction **svgtext** et de fournir les coordonnées du point d\'ancrage du texte et la chaîne de texte elle-même.
@@ -245,6 +266,8 @@ def svgtext(posX,posY,strValue):
     svgLine=("<text x=\""+posX+"\" y=\""+posY+"\">"+strValue+"</text>")
     return svgLine
 }}
+
+
 
 ### Fonction FCeditext 
 
@@ -263,6 +286,8 @@ def FCeditext(entryName,posX,posY,strValue):
     return svgLine
 }}
 
+
+
 ### Fonctions CreateXxxx 
 
 Ces fonctions commencent par du code pour ouvrir un fichier en mode append et pour écrire la balise d\'ouverture de groupe.
@@ -274,8 +299,8 @@ Et enfin la balise de fermeture de groupe suivie d\'une instruction pour fermer 
 
 {{Code| |code=
 #- Frame creation
-def CreateFrame(filePath,shWidth,shHeight):
-    t=open(filePath,"a")
+def CreateFrame(file_path, shWidth, shHeight):
+    t=open(file_path, "a", encoding="utf-8")
     t.write("    <g id=\"drawing-frame\"\n")
     t.write("      style=\"fill:none;stroke:#000000;stroke-width:0.5;\
 stroke-linecap:round\">\n")
@@ -300,6 +325,8 @@ stroke-linecap:round\">\n")
     t.write("    </g>\n\n")
     t.close
 }}
+
+
 
 ### Macro résultante 
 
@@ -329,23 +356,25 @@ template_file = os.path.join(template_path, template_name)
 
 #- Create a file and insert a header line
 #   (with t as the space saving variant of template)
-def CreateSvgFile(filePath):
-    t=open(filePath,"w") # w = write, overwrites existing files
+def CreateSvgFile(file_path):
+    t=open(file_path, "w") # w = write, overwrites existing files
     t.write("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>")
     t.close
 
 #- Create opening svg-tag
 #   Namespace section
-def StartSvg(filePath):
-    t=open(filePath,"a") # a = append, new lines are added at the end of an existing file
+def StartSvg(file_path):
+    t=open(file_path, "a", encoding="utf-8")
+    # a = append, new lines are added at the end of an existing file
+    # encoding="utf-8", helps with special characters if the Python interpreter is in ASCII mode
     t.write("\n"+"\n")
     t.write("<svg\n")
     t.write("  xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"\n")
-    t.write("  xmlns:freecad=\"http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace\"\n")
+    t.write("  xmlns:freecad=\"http://www.freecad.org/wiki/index.php?title=Svg_Namespace\"\n")
     t.close
 #   Sheet size section
-def CreateSheet(filePath,shWidth,shHeight):
-    t=open(filePath,"a")
+def CreateSheet(file_path, shWidth, shHeight):
+    t=open(file_path, "a", encoding="utf-8")
     t.write("  width =\""+shWidth+"mm\"\n")
     t.write("  height=\""+shHeight+"mm\"\n")
     t.write("  viewBox=\"0 0 "+shWidth+" "+shHeight+"\">\n")
@@ -353,8 +382,8 @@ def CreateSheet(filePath,shWidth,shHeight):
     # identical values for width and height and Viewbox' width and height will synchronise mm and svg-units
 
 #- Create closing svg-tag
-def EndSvg(filePath):
-    t=open(filePath,"a")
+def EndSvg(file_path):
+    t=open(file_path, "a", encoding="utf-8")
     t.write("</svg>")
     t.close
 
@@ -383,8 +412,8 @@ def FCeditext(entryName,posX,posY,strValue):
     return svgLine
 
 #- Frame creation
-def CreateFrame(filePath,shWidth,shHeight):
-    t=open(filePath,"a")
+def CreateFrame(file_path, shWidth, shHeight):
+    t=open(file_path, "a", encoding="utf-8")
     t.write("    <g id=\"drawing-frame\"\n")
     t.write("      style=\"fill:none;stroke:#000000;stroke-width:0.5;\
 stroke-linecap:round\">\n")
@@ -410,13 +439,13 @@ stroke-linecap:round\">\n")
     t.close
 
 #- Title block movable
-def CreateTitleBlock(filePath,shWidth,shHeight):
+def CreateTitleBlock(file_path, shWidth, shHeight):
 
     #- lower left corner
     tbX=str(int(shWidth)-10-180) # 180 according to DIN EN ISO 7200
     tbY=str(int(shHeight)-10)
     #- group to transform all elements at once
-    t=open(filePath,"a")
+    t=open(file_path, "a", encoding="utf-8")
     t.write("    <g id=\"titleblock\"\n")
     t.write("      transform=\"translate("+tbX+","+tbY+")\">\n")
     #- title block
@@ -440,13 +469,13 @@ font-family:osifont\">\n")
     t.close
 
 #- Title block editable texts
-def CreateEditableText(filePath,shWidth,shHeight):
+def CreateEditableText(file_path, shWidth, shHeight):
 
     #- offsets for editable texts
     edX=int(shWidth)-10-180 # 180 according to DIN EN ISO 7200
     edY=int(shHeight)-10
 
-    t=open(filePath,"a")
+    t=open(file_path, "a", encoding="utf-8")
     t.write("    <g id=\"titleblock-editable-texts\"\n")
     t.write("      style=\"font-size:7.0;text-anchor:start;fill:#0000d0;\
 font-family:osifont\">\n")
@@ -480,7 +509,7 @@ Et voici le code svg qui sort de cette macro :
 
 <svg
   xmlns="http://www.w3.org/2000/svg" version="1.1"
-  xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+  xmlns:freecad="http://www.freecad.org/wiki/index.php?title=Svg_Namespace"
   width ="420mm"
   height="297mm"
   viewBox="0 0 420 297">
@@ -523,7 +552,7 @@ Et voici le code svg qui sort de cette macro :
 
 Et ce à quoi il devrait ressembler une fois inséré (avec un bloc titre agrandi) :
 
-![TechDraw TemplateGenerator.png](images/TechDraw_TemplateGenerator.png )
+<img alt="" src=images/TechDraw_TemplateGenerator.png  style="width:600px;">
 
 
 

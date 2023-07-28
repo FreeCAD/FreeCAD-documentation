@@ -1,5 +1,6 @@
 # Drawing Workbench/fr
-**Le développement de l'[atelier Drawing](Drawing_Workbench/fr.md) s'est arrêté, et un nouvel atelier [Techdraw](TechDraw_Workbench/fr.md) visant à le remplacer sera introduit dans la version 0.17. Les deux ateliers seront fournis dans la version v0.17, mais l'atelier Drawing peut être supprimé dans les versions ultérieures.**
+**L''''atelier Drawing''' n'est plus inclus après la version 0.20.<br>
+L'[atelier TechDraw](TechDraw_Workbench/fr.md) est son remplaçant plus avancé.**
 
 <img alt="Icône de l\'atelier Drawing" src=images/Workbench_Drawing.svg  style="width:128px;">
 
@@ -11,6 +12,8 @@ L\'atelier Mise en plan vous permet de mettre votre travail 3D sur papier. C\'es
 {{TOCright}}
 
 <img alt="" src=images/Drawing_extraction.png  style="width:600px;">
+
+
 
 ## Outils
 
@@ -48,17 +51,21 @@ Le document contient un objet de forme 3D à partir duquel nous voulons produire
 
 Dans cette page peuvent être insérées une ou plusieurs vues. Chaque vue a une position sur la page (Propriétés X,Y), une échelle (Propriété d\'échelle) et des propriétés additionnelles. Chaque fois que la page, la vue ou l\'objet référencé subit une modification, la page est régénérée et l\'affichage mis à jour.
 
+
+
 ## Script
 
 Pour l\'instant la méthodologie de travail par l\'interface graphique est sévèrement limitée, l\'API de script est plus intéressante.
 
 Voir la page [Drawing API exemples](Drawing_API_example/fr.md) pour une description des fonctions utilisées pour la création des pages et vues du dessin.
 
-Ici un script qui permet de remplir facilement le [cartouche](Macro_CartoucheFC/fr.md) de la feuille originelle A3_Landscape de FreeCAD.
+
 
 ## Modèles
 
 FreeCAD est livré avec un jeu de modèles par défaut, vous pouvez en trouver d\'autres sur la page des [Modèles de feuille](Drawing_templates/fr.md).
+
+
 
 ## Extension Module de dessin 
 
@@ -67,6 +74,21 @@ Quelques notes sur le module de dessin sont ajoutés à la page [Documentation s
 ## Tutoriels
 
 -   [Drawing tutoriel](Drawing_tutorial/fr.md)
+-   [Drawing Template : Comment faire](Drawing_Template_HowTo/fr.md)
+
+## Macros
+
+-    <img style="width:16px;" src="images/Macro_Automatic_drawing.png"> [Macro Automatic drawing](Macro_Automatic_drawing/fr.md): permet à l\'utilisateur d\'obtenir la vue de son objet dans un dessin avec 4 positions différentes (avant, haut, iso, droite). Nécessite quelques modifications pour être parfaitement efficace.
+
+-    <img style="width:16px;" src="images/Macro_CartoucheFC.png"> [Macro CartoucheFC](Macro_CartoucheFC/fr.md): cette macro GUI permet de remplir simplement tous les champs du cartouche du plan d\'exécution de la feuille de calcul FreeCAD, le format de la date et le symbole du mode de projection s\'adaptent à la région UE ou US sélectionnée.
+
+-    <img style="width:16px;" src="images/Macro_CartoucheFC_2.png"> [Macro CartoucheFC 2](Macro_CartoucheFC_2/fr.md): cette macro GUI permet de remplir simplement tous les champs du cartouche **modèle 2** de la feuille de calcul d\'implantation du plan FreeCAD.
+
+-    <img style="width:16px;" src="images/Macro_CartoucheFC_Full.png"> [Macro CartoucheFC Full](Macro_CartoucheFC_Full/fr.md): cette macro GUI permet de remplir simplement tous les champs du cartouche [Divers modèles complets](Misc_templates_Full/fr.md) de la feuille de calcul d\'exécution du plan FreeCAD, le format de la date et le symbole du mode de projection s\'adaptent à la région UE ou US sélectionnée.
+
+-    <img style="width:16px;" src="images/Macro_Corner_shapes_wizard.png"> [Macro Corner shapes wizard/update](Macro_Corner_shapes_wizard/update/fr.md): ouvre une boîte de dialogue demandant les dimensions de votre pièce d\'angle, puis crée l\'objet dans le document et crée une vue de page avec des vues supérieure, avant et latérale de la pièce.
+
+
 
 ## Liens externes 
 

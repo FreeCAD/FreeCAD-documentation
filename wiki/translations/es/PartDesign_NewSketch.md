@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 This tool creates a new sketch, creates a new [PartDesign Body](PartDesign_Body.md) to contain the sketch if one does not exist and automatically opens the [Sketcher workbench](Sketcher_Workbench.md) after creation.
@@ -35,12 +37,12 @@ When creating models using the [PartDesign workbench](PartDesign_Workbench.md), 
 :   
 
     :   <img alt="" src=images/PartDesign.CreateSketch.SelectFeatureDialog.jpeg  style="width:300px;">
-    :   *Select feature* dialog. These settings create a sketch on the XY plane and allow cross-references from other items of the same body\'\'
+    :   *Select feature* dialog. These settings create a sketch on the XY plane and allow cross-references from other items of the same body
 
 Dialog settings
 
 -   Coordinate system box: defines the orientation of the sketch plane
--   Allow Used Features checkbox: *TBD*
+-   Allow Used Features: *TBD*
 
 :   Allow external features options
 

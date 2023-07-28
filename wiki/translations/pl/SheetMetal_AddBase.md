@@ -9,6 +9,8 @@
 
 # SheetMetal AddBase/pl
 
+
+
 ## Opis
 
 <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> **Dodaj element bazowy** tworzy obiekt bazowy środowiska pracy Arkusz Blachy ze szkicu profilu.
@@ -21,7 +23,11 @@ Z zamkniętego konturu tworzy bazową *(pustą)* *płytę*:
 
 <img alt="" src=images/SheetMetal_AddBase-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddBase-04.png  style="width:200px;">
 
+
+
 ## Użycie
+
+
 
 ### Profil
 
@@ -35,6 +41,8 @@ Z zamkniętego konturu tworzy bazową *(pustą)* *płytę*:
     -   Właściwość **Grubość** dla grubości profilu,
     -   Właściwość **Promień** dla promienia wewnętrznego łuków.
 
+
+
 ### Płyta
 
 1.  Wybierz <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [szkic](Sketcher_Workbench/pl.md) **zamkniętego konturu**.<img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md).
@@ -46,11 +54,15 @@ Z zamkniętego konturu tworzy bazową *(pustą)* *płytę*:
 
     :   *(Właściwość **Długość** oraz **Promień** są nieużywane dla płyty.)*
 
+
+
 ## Właściwości
 
 Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
 
 Obiekt bazowy wygięcia środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
 
 ### Dane
 

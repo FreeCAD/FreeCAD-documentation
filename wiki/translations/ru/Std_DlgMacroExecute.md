@@ -9,12 +9,16 @@
 
 # Std DlgMacroExecute/ru
 
+
+
 ## Описание
 
 The **Std DlgMacroExecute** command opens the Execute macro dialog box. From this dialog box macros can be executed, edited and managed.
 
 ![](images/Std_DlgMacroExecute_dialog.png ) 
 *The Execute macro dialog box*
+
+
 
 ## Применение
 
@@ -23,7 +27,11 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
     -   Select the **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> Macros...** option from the menu.
 2.  The Execute macro dialog box opens. See [Options](#Options.md).
 
+
+
 ## Опции
+
+
 
 ### Пользовательские макросы 
 
@@ -31,14 +39,20 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 2.  Click a macro to select it.
 3.  The name of the selected macro will appear in the **Macro name** box.
 
+
+
 ### Системные макросы 
 
 :   The **System macros** tab is not used at this time.
+
+
 
 ### Расположение пользовательских макросов 
 
 1.  Press the **...** button to change the user macros location.
 2.  Browse to a different folder and select it.
+
+
 
 ### Выполнить
 
@@ -48,9 +62,13 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 2.  The dialog box closes.
 3.  The macro is executed.
 
+
+
 ### Закрыть
 
 1.  Нажмите **Esc** или кнопку **Закрыть**, чтобы закрыть диалоговое окно.
+
+
 
 ### Создать
 
@@ -60,11 +78,15 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 4.  Both dialog boxes close.
 5.  The new file is opened in the Macro editor.
 
+
+
 ### Удалить
 
 1.  Select the macro you want to delete in the list.
 2.  Press the **Delete** button.
 3.  Press the **Yes** button in the confirmation dialog box that pops up.
+
+
 
 ### Редактировать
 
@@ -73,12 +95,16 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 3.  The dialog box closes.
 4.  The selected file is opened in the Macro editor.
 
+
+
 ### Переименовать
 
 1.  Select the macro you want to rename in the list.
 2.  Press the **Rename** button.
 3.  Enter a new name in the dialog box that pops up. You do not have to include the **.FCMacro** extension.
 4.  Press **Enter** or the **OK** button.
+
+
 
 ### Дублировать
 
@@ -87,23 +113,29 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 3.  Enter a new name in the dialog box that pops up. You do not have to include the **.FCMacro** extension.
 4.  Press **Enter** or the **OK** button.
 
+
+
 ### Панель инструментов 
 
 1.  Select the macro you want to add to a custom toolbar in the list.
 2.  Press the **Toolbar** button.
 3.  Two \'walkthrough\' dialogs will guide you through the required steps. See [Interface Customization](Interface_Customization.md) for more information.
 
-### Дополнения
+### Download
 
-1.  Press the **Addons...** button to start the [Addon manager](Std_AddonMgr.md).
+1.  Press the **Download** button to start the [Addon manager](Std_AddonMgr.md).
+
+
 
 ## Примечания
 
 -   To learn more about macros see the [Macros](Macros.md) page.
 
+
+
 ## Настройки
 
--   The user macros location can also be changed in the preferences: **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
+-   The user macros location can also be changed in the preferences: **Edit → Preferences... → Python → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
 
 
 

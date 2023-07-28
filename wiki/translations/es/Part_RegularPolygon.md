@@ -20,6 +20,8 @@ La primitiva Polígono Regular es accesible desde el menú Crear Primitivas en e
 <img alt="" src=images/Part_RegularPolygon_Example.png  style="width:400px;">
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 Al menú Crear Primitivas se accede vía el icono <img alt="" src=images/Part_CreatePrimitives.png  style="width:32px;">[Crear Primitivas](Part_CreatePrimitives.md) localizada en la barra del menú de herramientas Partes, del banco de trabajo de Piezas.

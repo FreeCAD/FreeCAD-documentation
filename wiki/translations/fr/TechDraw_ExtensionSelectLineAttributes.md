@@ -13,7 +13,7 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:24px;"> **TechDraw Sélection des attributs** ouvre une boîte de dialogue dans laquelle vous pouvez sélectionner les attributs (style, largeur et couleur) des nouvelles lignes cosmétiques et des lignes centrales créées avec les outils [Extensions](TechDraw_Workbench/fr#Extensions.md), et spécifier un espacement en cascade et un espace. Les attributs de ligne sont également utilisés par l\'outil [TechDraw Modification des attributs](TechDraw_ExtensionChangeLineAttributes/fr.md).
+L\'outil **TechDraw Sélection des attributs** ouvre une boîte de dialogue dans laquelle vous pouvez sélectionner les attributs (style, largeur et couleur) des nouvelles lignes cosmétiques et des lignes centrales créées avec les outils [Extensions](TechDraw_Workbench/fr#Extensions.md), et spécifier un espacement en cascade et un espace. Les attributs de ligne sont également utilisés par l\'outil [TechDraw Modification des attributs](TechDraw_ExtensionChangeLineAttributes/fr.md).
 
 ![](images/TechDraw_ExtensionSelectLineAttributes_Taskpanel.png ) 
 *Le panneau de tâches Sélectionner les attributs de ligne*

@@ -3,29 +3,15 @@
 
 Il primo posto in cui è possibile chiedere aiuto è il [Forum di FreeCAD](https://forum.freecadweb.org/viewforum.php?f=3) (leggere [questo post](https://forum.freecadweb.org/viewtopic.php?f=3&t=2264) prima di porre delle domande). Quando si chiede un aiuto, ricordarsi che è necessario fornire le [informazioni importanti](Important_information/it.md) sul proprio sistema.
 
-There are different subforums for FreeCAD users and developers. Make sure you search the internet, and read through existing questions before you ask for help. There are subforums where you can discuss more specific topics, give your impressions of FreeCAD, discuss new ideas, etc. The forums are very active and you should get a reply very quickly.
+Esistono diversi forum secondari per utenti e sviluppatori di FreeCAD. Assicurarsi di cercare in Internet e di leggere le domande esistenti prima di chiedere aiuto. Ci sono sottoforum in cui è possibile discutere argomenti più specifici, dare le proprie impressioni su FreeCAD, discutere nuove idee, ecc. I forum sono molto attivi e si dovrebbe ricevere una risposta molto velocemente.
 
 ## Wiki
 
 Se serve un aiuto o si hanno domande relative a una determinata pagina di questa documentazione wiki, si può sempre lasciare le proprie idee o commenti nella scheda \"discussione\" di ogni pagina. Per caricare un file per il Wiki, utilizzare [questa pagina](https://www.freecadweb.org/wiki/Special:Upload).
 
+## Internet Relay Chat (IRC) 
 
-
-
-<div class="mw-translate-fuzzy">
-
-## Chat
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-C\'è anche un [IRC #freecad chat room on Freenode](irc://chat.freenode.net/freecad). #openFOAM-IRC è anche su Freenode. Ci sono server Discord per [Modelica Language](https://discordapp.com/invite/bp2yeYU), [Elmer FEM](https://discordapp.com/invite/NeZEBZn), e [OpenFOAM](https://discordapp.com/invite/P9p9eHn). Non utilizzare i gruppi di chat come mezzo principale di scambio di dati. Non vengono indicizzati dai motori di ricerca e le informazioni prodotte su tali piattaforme non vengono accumulate, come invece avviene con i forum.
-
-
-</div>
+C\'è una [IRC #freecad chat room su Libera Chat](https://web.libera.chat/#freecad).
 
 ## Reddit
 
@@ -33,7 +19,7 @@ Se siete su Reddit potete usare [r/FreeCAD](https://www.reddit.com/r/FreeCAD/), 
 
 ## Telegram
 
-If you are on Telegram you may use the [t.me/FreeCAD_EN](https://t.me/FreeCAD_EN).
+Se si è su Telegram è possibile utilizzare [t.me/FreeCAD_EN](https://t.me/FreeCAD_EN).
 
 ## Twitter and Mastodon 
 
@@ -45,13 +31,7 @@ Potete unirvi al [FreeCAD\'s Facebook public group](https://www.facebook.com/gro
 
  {{Userdocnavi/it}}
 
-
-<div class="mw-translate-fuzzy">
-
-Esistono diversi subforum per gli sviluppatori e gli utenti di FreeCAD. Prima di chiedere un aiuto cercare in Internet e leggere le domande esistenti che sono già state formulate e/o risolte. Ci sono anche dei subforum, dove si può discutere di altri argomenti, dare le proprie impressioni su FreeCAD, idee, ecc. I forum sono molto attivi e si dovrebbe ottenere velecemente una risposta.
-
-
-</div>
+C\'è un [server Discord FreeCAD dedicato ufficiale](https://discord.gg/uh85ZRNcfk) con una varietà di canali per vari argomenti secondari. Esistono anche diversi server di terze parti con canali di discussione relativi a FreeCAD. Il server [Elmer FEM](https://discordapp.com/invite/NeZEBZn) ha un canale per quasi ogni strumento CAD, CAM e CAE, sia open source che proprietario, e ha un canale \"freecad\" abbastanza consolidato. L\'ampia varietà di canali e comunità che questo server attrae significa che può essere utile per avere discussioni con persone di comunità correlate. Il server [OpenFOAM](https://discordapp.com/invite/P9p9eHn) ha un canale \"freecad-salome-etc\", dove è possibile trovare persone più interessate alla sovrapposizione tra FreeCAD e strumenti di fluidodinamica computazionale come OpenFOAM. Il server [Modelica Language](https://discordapp.com/invite/bp2yeYU) ha anche un canale \"freecad\" se si è interessati a FreeCAD dal punto di vista della modellazione multidominio. Tuttavia, si prega di non utilizzare i gruppi di chat come mezzo principale per lo scambio di dati. Non sono indicizzati dai motori di ricerca e le informazioni prodotte su queste piattaforme non vengono correttamente accumulate, come nei forum, nei post dei blog o nelle pagine wiki.
 
 
 

@@ -113,7 +113,6 @@ A new FEM solver requires the following:
 
 See also:
 
--   [Add FEM Solver Tutorial](Sandbox_Add_FEM_Solver_Tutorial.md)
 -   [Extend FEM Module](Extend_FEM_Module.md)
 -   The implementation efforts of the [oofem](https://github.com/berndhahnebach/FreeCAD_bhb/commits/femoofem) solver
 -   The implementation efforts of the \[<https://github.com/FreeCAD/FreeCAD/compare/a03eb6b9625ba>\...dfc01ec949525 myStran\] solver
@@ -130,7 +129,7 @@ TBD
 
 ## Related
 
--   FEM bugs in the [FreeCAD bugtracker](https://tracker.freecadweb.org/set_project.php?project_id=4;14)
+-   FEM bugs in the [FreeCAD bugtracker](https://github.com/FreeCAD/FreeCAD/issues)
 -   Open FEM [FIXME](https://github.com/FreeCAD/FreeCAD/search?q=FIXME+AND+fem) comments in the FreeCAD source code
 -   Open FEM [TODO](https://github.com/FreeCAD/FreeCAD/search?q=TODO+AND+fem) comments in the FreeCAD source code
 -   [Original thread discussion](https://forum.freecadweb.org/viewtopic.php?f=18&t=60574) for this wiki page

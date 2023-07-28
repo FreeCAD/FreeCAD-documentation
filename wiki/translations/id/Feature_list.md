@@ -9,6 +9,8 @@ Ini luas, belum sepenuhnya lengkap, daftar implementasi dari fitur - fitur FreeC
 
 {{TOCright}}
 
+
+
 ## Catatan rilis 
 
 
@@ -28,6 +30,8 @@ Ini luas, belum sepenuhnya lengkap, daftar implementasi dari fitur - fitur FreeC
 
 </div>
 
+
+
 ## Fitur - fitur utama 
 
 
@@ -45,6 +49,8 @@ Ini luas, belum sepenuhnya lengkap, daftar implementasi dari fitur - fitur FreeC
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

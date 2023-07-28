@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descrição
 
 This tool is meant to aid in fully constraining a sketch by highlighting in green the sketch elements with remaining degrees of freedom (DoF).

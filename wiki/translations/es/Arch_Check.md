@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -21,6 +23,8 @@ Esta herramienta comprueba el documento actual o los objetos no sólidos selecci
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -39,12 +43,19 @@ Esta herramienta comprueba el documento actual o los objetos no sólidos selecci
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Programación
 
 
 </div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">

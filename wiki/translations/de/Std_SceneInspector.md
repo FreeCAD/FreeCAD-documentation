@@ -7,9 +7,13 @@
 
 # Std SceneInspector/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std SceneInspector** öffnet ein Dialogfeld, das eine Übersicht über alle Knoten im [scenegraph](Scenegraph.md) der aktiven [3D Ansicht](3D_view/de.md) anzeigt. Es ist eher ein Hilfsmittel für Programmierer als für normale Benutzer. Es kann verwendet werden, um herauszufinden, warum das Rendern langsam ist oder warum etwas nicht richtig gerendert wird.
+
+
 
 ## Anwendung
 

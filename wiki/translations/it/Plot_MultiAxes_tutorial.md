@@ -161,6 +161,8 @@ Come si può vedere il grafico ha un pessimo aspetto, con le tacche degli assi s
 
 </div>
 
+
+
 ## Configurare il grafico 
 
 ### Configuring axes 
@@ -325,6 +327,8 @@ Quando si esegue lo strumento viene visualizzato un elenco con tutti gli element
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Salvare il grafico 
@@ -337,9 +341,9 @@ Ora è possibile salvare il lavoro. Consultare il [tutorial di base](Plot_Basic_
 Now you can save your work. See the [previous tutorial](Plot_Basic_tutorial.md) if you don\'t remember how to do it.
 
 
-{{Tutorials_navi
+{{Plot_Tools_navi
 
-}} {{Plot_Tools_navi}}
+}}
 
 
 

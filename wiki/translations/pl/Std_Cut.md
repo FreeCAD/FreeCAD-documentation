@@ -9,16 +9,24 @@
 
 # Std Cut/pl
 
+
+
 ## Opis
 
 Polecenie *\'Wytnij* ma pewne ograniczenia: można go używać tylko do [komórki arkusza](Spreadsheet_Workbench/pl.md). Polecenie to kopiuje zawartość i właściwości komórek do Schowka, a następnie je czyści.
 
 Aby wyciąć obiekty innych typów, można użyć polecenia [Kopiuj](Std_Copy/pl.md), a następnie operacji usunięcia.
 
+
+
 ## Użycie
 
 1.  Zaznacz jedną lub więcej komórek w arkuszu kalkulacyjnym.
-2.  Wybierz z menu opcję z menu **Edycja → <img src="images/Std_Cut.svg" width=16px> Wytnij**.
+2.  Istnieje kilka sposobów wywołania polecenia:
+    -   Naciśnij przycisk **<img src="images/Std_Cut.svg" width=16px> '''Wytnij'''**.
+    -   Wybierz z menu opcję z menu **Edycja → <img src="images/Std_Cut.svg" width=16px> Wytnij**.
+
+
 
 ## Uwagi
 

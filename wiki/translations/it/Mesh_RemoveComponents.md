@@ -7,6 +7,8 @@
    Workbenches:[Mesh](Mesh_Workbench/it.md)
    SeeAlso:[Rimuovi componente a mano](Mesh_RemoveCompByHand/it.md), [Arch Suddividere un oggetto mesh](Arch_SplitMesh/it.md)---
 
+
+
 ## Descrizione
 
 Il comando **Rimuovi componenti** rimuove le facce dagli oggetti mesh.
@@ -14,15 +16,16 @@ Il comando **Rimuovi componenti** rimuove le facce dagli oggetti mesh.
 ![](images/Meshes_RemoveComponents.jpg ) 
 *Il pannello delle azioni Rimuovi componenti*
 
+
+
 ## Utilizzo
-
-
-<div class="mw-translate-fuzzy">
 
 1.  Il comando utilizza il colore rosso per contrassegnare le facce selezionate. Per vederle correttamente:
     -   La **Modalità di visualizzazione** degli oggetti mesh idealmente dovrebbe essere {{Value|Flat lines}}, ma dovrebbe almeno mostrare le facce. Se necessario, utilizzare il comando [Stile di disegno](Std_DrawStyle/it.md) per sovrascrivere questa proprietà.
     -   Il **Shape Color** degli oggetti mesh non dovrebbe essere rosso.
-2.  Selezionare l\'opzione **Mesh → <img src="images/Mesh_RemoveComponents.svg" width=16px> Rimuovi componenti...** dal menu.
+2.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Mesh_RemoveComponents.svg" width=16px> [Rimuovi componente...](Mesh_RemoveComponents/it.md)**.
+    -   Selezionare l\'opzione **Mesh → <img src="images/Mesh_RemoveComponents.svg" width=16px> Rimuovi componente...** dal menu.
 3.  Si apre il pannello delle azioni **Rimuovi componenti**.
 4.  Utilizzare una o più delle opzioni **Seleziona** per selezionare le facce:
     -   Premere il pulsante **Regione** e tenendo premuto il pulsante sinistro del mouse disegnare una regione, una spline chiusa, nella [vista 3D](3D_view/it.md). Verranno selezionate le facce che corrispondono alle **Opzioni regione** e rientrano (parzialmente) nella regione.
@@ -35,16 +38,7 @@ Il comando **Rimuovi componenti** rimuove le facce dagli oggetti mesh.
 8.  Premere il pulsante **Chiudi** per chiudere il pannello delle azioni e terminare il comando.
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{Mesh Tools navi

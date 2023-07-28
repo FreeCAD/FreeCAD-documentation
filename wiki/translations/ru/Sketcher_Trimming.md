@@ -1,23 +1,31 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher Trimming
-   Name/ru:Обрезать
-   MenuLocation:Эскиз → Геометрия эскиза → Обрезать
+   Name/ru:Усечь
+   Name:Sketcher_Trimming
+   MenuLocation:Sketch → Геометрия эскиза → Обрезать линию
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut:**G** **T**
    Version:0.12
-   SeeAlso:[Sketcher Продлить](Sketcher_Extend/ru.md)
+   SeeAlso:[Продлить грань](Sketcher_Extend/ru.md)
 ---
 
 # Sketcher Trimming/ru
 
 
-</div>
 
 ## Описание
 
-Этот инструмент обрезает ребро до ближайшего пересечения с другим ребром.
+
+<div class="mw-translate-fuzzy">
+
+Данный инструмент позволяет усечь отрезок до ближайшей точки пересечения с другим отрезком.
+
+
+</div>
 
 ![](images/SketcherTrimExample1.png ) ![](images/SketcherTrimExample2.png ) ![](images/SketcherTrimExample3.png )
+
+
 
 ## Применение
 
@@ -33,13 +41,7 @@
 </div>
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

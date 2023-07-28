@@ -1,9 +1,13 @@
 # Embedding FreeCAD/de
 {{TOCright}}
 
+
+
 ## Einführung
 
 FreeCAD kann als ein [Python](Python/de.md)-Modul in anderen Programmen oder einer eigenständigen Python-Konsole importiert werden, zusammen mit all seinen Modulen und Komponenten. Es ist sogar möglich, die FreeCAD-GUI als ein Python-Modul zu importieren, allerdings mit [einigen Einschränkungen](Embedding_FreeCAD/de#Caveats.md).
+
+
 
 ## FreeCAD benutzen ohne GUI 
 
@@ -48,13 +52,7 @@ if __name__=='__main__':
 </nowiki>
 }}
 
-
-<div class="mw-translate-fuzzy">
-
-Der erste und wichtigste Teil ist sicherzustellen, das Python unsere FreeCAD-Bibliothek finden wird. Nachdem Python sie findet, werden alle FreeCAD-Module wie Part (das wir auch nutzen werden) automatisch zur Verfügung stehen. Also nehmen wir einfach die {{Incode|sys.path}}-Variable, wo Python nach Modulen suchen wird, und wir ergänzen sie um den FreeCAD-library-Pfad. Diese Änderung ist nur temporär und geht verloren, wenn wir unseren Python-Interpreter schließen. Ein alternativer Weg wäre, einen Link zu Ihrer FreeCAD-Bibliothek in einem der Python-Suchpfade anzulegen. Ich speicherte den Pfad in einer Konstanten {{Incode|FREECADPATH}}, so dass es für einen anderen Benutzer des Skripts dann einfacher ist, dieses für sein eigenes System zu konfigurieren.
-
-
-</div>
+Der erste und wichtigste Teil ist, sicherzustellen, dass Python unsere FreeCAD-Bibliothek findet. Wenn Python sie findet, werden alle FreeCAD-Module wie Part (das wir auch nutzen werden) automatisch zur Verfügung stehen. Also nehmen wir einfach die Variable {{Incode|sys.path}}, die vorgibt, wo Python nach Modulen suchen wird, und wir ergänzen sie um den FreeCAD-library-Pfad. Diese Änderung ist nur temporär und geht verloren, wenn wir unseren Python-Interpreter schließen. Ein alternativer Weg wäre, einen Link zur FreeCAD-Bibliothek in einem der Python-Suchpfade anzulegen. Ich habe den Pfad in einer Konstanten {{Incode|FREECADPATH}} gespeichert, so dass es für einen anderen Benutzer des Skripts dann einfacher ist, dieses für sein eigenes System zu konfigurieren. Für Windows-Nutzer ist es wichtig, dass der Pfad mit `\\` oder `/` als Trennzeichen angegeben wird anstatt nur mit `\`, da dies als Umschaltzeichen (Escape-Character) verwendet wird.
 
 
 {{Code|lang=python|code=
@@ -98,6 +96,8 @@ Natürlich ist es ein sehr einfaches Skript(tatsächlich habe ich eine erweitert
 
 Probiere [Headless FreeCAD](Headless_FreeCAD/de.md), um FreeCAD ohne GUI zu betreiben.
 
+
+
 ## FreeCAD nutzen mit GUI 
 
 Ab der Version 4.2 hat Qt die faszinierende Fähigkeit, Qt-GUI-abhängige-plugins in nicht-Qt-Host-Anwendungen einzubetten und sich an der Ereignis-Schleife des Gastgebers zu beteiligen.
@@ -118,6 +118,8 @@ Für Nicht-Qt-Anwendungen aber, gibt es ein paar Einschränkungen, die Sie beach
 
 Beachten Sie, für Konsole-Anwendungen wird diese Lösung natürlich nicht funktionieren, weil keine Ereignis-Schleife läuft.
 
+
+
 ## Vorbehalte
 
 Obwohl es möglich ist, FreeCAD in einen externen Python-Interpreter zu importieren, ist dies kein übliches Benutzungsszenario und erfordert etwas Sorgfalt. Generell ist es besser, das in FreeCAD enthaltene Python zu verwenden, FreeCAD auf der Kommandozeile auszuführen oder als ein Sub-Prozess. Zu den letzten beiden Optionen gibt es [hier](Start_up_and_Configuration/de.md) nähere Einzelheiten.
@@ -128,6 +130,8 @@ Weil das FreeCAD-Python-Modul aus C++ kompiliert wurde (anstatt ein reines Pytho
 >>> sys.version
 '2.7.13 (default, Dec 17 2016, 23:03:43) \n[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)]'
 ```
+
+
 
 ## Verwandtes
 

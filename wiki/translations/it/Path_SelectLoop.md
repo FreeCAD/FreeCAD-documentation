@@ -17,6 +17,8 @@ Il comando Chiudi il ciclo completa una selezione di spigoli che formano un cicl
 
 </div>
 
+
+
 ## Utilizzo
 
 

@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -17,6 +19,8 @@ Acest instrument utilizează o traiectorie existentă pentru a adăuga punți/et
 
 A video explanation of this feature is given at: <https://www.youtube.com/watch?v=JZ4prlR6sps>
 
+
+
 ## Utilizare
 
 
@@ -27,6 +31,8 @@ A video explanation of this feature is given at: <https://www.youtube.com/watch?
 
 
 </div>
+
+
 
 ## Opţiuni
 

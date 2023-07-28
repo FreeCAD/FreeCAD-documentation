@@ -1,90 +1,101 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign SubtractivePipe
-   MenuLocation:Part Design → Create a substractive feature → Subtractive pipe
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Odejmowanie wyciągnięciem wzdłuż ścieżki
+   MenuLocation:Projekt Części → Utwórz cechę przez odjęcie → Odejmowanie wyciągnięciem wzdłuż ścieżki
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[PartDesign AdditivePipe](PartDesign_AdditivePipe.md), [PartDesign SubtractiveLoft](PartDesign_SubtractiveLoft.md)
+   SeeAlso:[Uzupełnianie wyciągnięciem wzdłuż ścieżki](PartDesign_AdditivePipe/pl.md), [Odejmowanie wyciągnięciem przez profile](PartDesign_SubtractiveLoft/pl.md)
 ---
 
 # PartDesign SubtractivePipe/pl
 
-## Description
 
-**Subtractive Pipe** creates a subtractive solid in the active Body by sweeping one or more sketches (also referred to as cross-sections) along an open or closed path. Its shape is then subtracted from the existing solid. SubtractivePipe is often used in connection with [Part Helix](Part_Helix.md) and [PartDesign ShapeBinder](PartDesign_ShapeBinder.md) to create a thread; see the [Thread for Screw Tutorial](Thread_for_Screw_Tutorial.md) for details.
 
-## Usage
+## Opis
 
-1.  Press the **<img src="images/PartDesign_SubtractivePipe.svg" width=24px> '''Subtractive pipe'''** button.
-2.  In the **Select feature** dialog, select a sketch to be used as first cross-section and click **OK**.
-    -   Alternatively, a sketch or a face of a 3D object (<small>(v0.20)</small> ) can be selected prior to pressing the Subtractive pipe button.
-3.  In the **Pipe parameters** under **Profile**, press the **Object** button.
-4.  Select the sketch to be used as path in the 3D view:
-    -   Alternatively, edges of the body can be selected by pressing **Add Edge** and selecting edges in the 3D view.
-5.  To use more than one cross-section, under **Section transformation** set the Transform mode to *Multisection*; press **Add Section** then select a sketch in the 3D view. Repeat for each additional cross-section.
-6.  Set options if needed and click **OK**.
+Funkcja **Odejmowanie wyciągnięciem wzdłuż ścieżki** tworzy bryłę odejmującą w aktywnej Zawartości poprzez przeciągnięcie jednego lub więcej szkiców *(zwanych również przekrojami)* wzdłuż otwartej lub zamkniętej ścieżki. Jej kształt jest następnie odejmowany od istniejącej bryły. Odejmowanie wyciągnięciem wzdłuż ścieżki jest często używane w połączeniu z funkcją [Helisy](Part_Helix/pl.md) środowiska Część i [Łącznik kształtu](PartDesign_ShapeBinder.md) w celu utworzenia gwintu. Zobacz stronę [Poradnik: Tworzenie gwintów](Thread_for_Screw_Tutorial/pl.md) aby uzyskać szczegółowe informacje na ten temat.
 
-## Options
 
-**Section Transformation**:
 
--   Select **Constant** to use a single profile
--   Select **Multisection** to use multiple profiles
+## Użycie
 
-**Section Orientation**:
+1.  Naciśnij przycisk **<img src="images/PartDesign_SubtractivePipe.svg" width=24px> '''Odejmowanie wyciągnięciem wzdłuż ścieżki'''**.
+2.  W oknie dialogowym **Wybierz cechę** wybierz szkic, który ma zostać użyty jako pierwszy przekrój i kliknij przycisk **OK**.
+    -   Alternatywnie, szkic lub ścianę obiektu 3D *({{Version/pl|0.20}})* można wybrać przed naciśnięciem przycisku Odejmowanie wyciągnięciem wzdłuż ścieżki.
+3.  W oknie **Parametrach wyciągnięcia** w sekcji *Profil* naciśnij przycisk **Obiekt**.
+4.  Wybierz szkic, który ma zostać użyty jako ścieżka w oknie widoku 3D:
+    -   Alternatywnie można wybrać krawędzie bryły, naciskając przycisk **Dodaj krawędź** i wybierając krawędzie w widoku 3D.
+5.  Aby użyć więcej niż jednego przekroju, w sekcji *Przekształcenie sekcji* ustaw tryb przekształcenia na *Przekrój wielokrotny*. Naciśnij **Dodaj sekcję**, a następnie wybierz szkic w oknie widoku 3D. Powtórz dla każdego dodatkowego przekroju.
+6.  W razie potrzeby ustaw opcje i kliknij **OK**.
 
--   Standard
-    -   This keeps the cross section shape perpendicular to the path. This is the default setting.
--   Fixed
-    -   Orientation set by first profile and constant throughout. This deactivates the alignment to the path normal vector. That means that the cross-section shape will not rotate with the path. Sweep along a circle to see the effect.
--   Frenet
-    -   Create minimum possible twisting of profile. For more info, see [Frenet-Serret Formulas](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas)
--   Auxiliary
-    -   Specify secondary path to guide pipe.
-    -   For each point **P** along the sweep path, there will be a corresponding point **Q** on the auxiliary path.
-    -   As the profile is swept, it will be transformed such that the **PQ** line is the normal of the sweep path.
-    -   If **Curvelinear equivalence** is set, then the **Q** points are scaled proportionally along the sweep path, regardless of is length.
--   Binormal
-    -   Specify binormal vector in X, Y and Z
 
-**Corner Transition**
 
--   Transformed
--   Right
--   Rounded
+## Opcje
 
-## Properties
+**Przekształcenie sekcji**:
 
--    **Label**: name given to the operation, this name can be changed at convenience.
+-   Wybierz **Stały**, aby użyć pojedynczego profilu
+-   Wybierz **Sekcja wielokrotna**, aby użyć wielu profili
 
--    **Refine**: true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details.
+**Orientacja przekroju**:
 
--    **Sections**: lists the sections used.
+-   Standardowy
+    -   Utrzymuje kształt przekroju prostopadle do ścieżki. Jest to ustawienie domyślne.
+-   Stały
+    -   Orientacja ustalona przez pierwszy profil pozostaje stała przez cały czas. Wyłącza to wyrównanie do wektora normalnego ścieżki. Oznacza to, że kształt przekroju nie będzie obracał się wraz ze ścieżką. Przeciągnij wzdłuż okręgu, aby zobaczyć efekt.
+-   Freneta.
+    -   Stwórz możliwie najmniejsze skręcenie profilu. Więcej informacji można znaleźć na stronie [Wzory Freneta-Serreta](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas).
+-   Pomocniczy
+    -   Określ ścieżkę pomocniczą do prowadzenia profilu.
+    -   Dla każdego punktu **P** wzdłuż ścieżki przeciągania, będzie odpowiadał punkt **Q** na ścieżce pomocniczej.
+    -   W miarę przeciągania profilu zostanie on przekształcony w taki sposób, że linia **PQ** będzie normalną ścieżki przeciągania.
+    -   Jeśli ustawiona jest opcja **Krzywoliniowość**, punkty **Q** są skalowane proporcjonalnie wzdłuż ścieżki przeciągania, niezależnie od jej długości.
+-   Binormalny
+    -   Określ wektor binormalny w X, Y i Z.
 
--    **Spine Tangent**: true or false (default). True extends the path to include tangent edges.
+**Przejście narożnika**
 
--    **Auxiliary Spine Tangent**: true or false (default). True extends the auxiliary path to include tangent edges.
+-   Przekształcony
+-   Ostry narożnik
+-   Zaokrąglenie
 
--    **Auxiliary Curvelinear**: true or false (default). True calculates normal between equidistant points on both spines.
 
--    **Mode**: profile mode. See [Options](#Options.md).
 
--    **Binormal**: binormal vector for corresponding orientation mode.
+## Właściwości
 
--    **Transition**: transition mode. Options are *Transformed*, *Right Corner* or *Round Corner*.
+-    **Etykieta**: nazwa nadana operacji, nazwa ta może być dowolnie zmieniana.
 
--    **Transformation**: *Constant* uses a single cross-section. *Multisection* uses two or more cross-sections. *Linear*, *S-shape* and *Interpolation* are currently not functional.
+-    **Ulepsz**: przyjmuje wartość {{true/pl}} lub {{false/pl}}. Jeśli jest ustawiona na {{true/pl}}, czyści bryłę z resztkowych krawędzi pozostawionych przez elementy. Zobacz stronę [Udoskonal kształt](Part_RefineShape/pl.md) aby uzyskać więcej szczegółów.
 
-## Notes
+-    **Sekcja**: lista użytych przekrojów.
 
--   To better control the shape of the pipe, it is recommended that all cross-sections have the same number of segments. For example, for a pipe between a rectangle and a circle, the circle should be broken down into 4 connected arcs.
--   You can pipe from or toward a single [vertex](Glossary#V.md) from a sketch or the body. <small>(v0.20)</small> 
--   When you select a [vertex](Glossary#V.md) as section, it must in most cases be the last section of the pipe. You can change the order of the sections by dragging them in the list.
--   The path can only be from a single sketch, feature or ShapeBinder. In case you want to sweep along several edges from different sketches, use a **[<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [SubShapeBinder](PartDesign_SubShapeBinder.md)**.
--   The path must not contain branches or T-junctions etc. Loops are allowed.
--   It can lead to issues if the cross-section is not perpendicular to the path in 3D.
--   A cross-section cannot lie on the same plane as the one immediately preceding it.
--   The cross-sections must not contain disjoint or crossing loops.
+-    **Styczna łuku**: przyjmuje wartość {{true/pl}} lub {{false/pl}} *(domyślnie)*. Wartość {{true/pl}} rozszerza ścieżkę o krawędzie styczne.
+
+-    **Pomocnicza styczna łuku**: przyjmuje wartość {{true/pl}} lub {{false/pl}} *(domyślnie)*. Wartość true rozszerza ścieżkę pomocniczą o krawędzie styczne.
+
+-    **Pomocnicza krzywoliniowa**: przyjmuje wartość {{true/pl}} lub {{false/pl}} *(domyślnie)*. Wartość {{true/pl}} oblicza normalną między jednakowo odległymi punktami na obu grzbietach.
+
+-    **Tryb**: tryb profilu. Zobacz [Opcje](#Opcje.md).
+
+-    **Binormal**: wektor binormalny dla odpowiedniego trybu orientacji.
+
+-    **Przejście**: tryb przejścia. Dostępne opcje to *Przekształcony*, *Ostry narożnik* lub *Zaokrąglenie*.
+
+-    **Przekształcenie**: *Stały* używa pojedynczego przekroju. *Sekcja wielokrotna* wykorzystuje dwa lub więcej przekrojów. *Liniowy*, *Kształt litery S* i *Interpolacja* obecnie nie działają.
+
+
+
+## Uwagi
+
+-   Aby lepiej kontrolować kształt obiektu wyciągnięcia, zaleca się, aby wszystkie przekroje miały taką samą liczbę segmentów. Na przykład, dla przejścia pomiędzy prostokątem i okręgiem, okrąg powinien być podzielony na 4 połączone łuki.
+-   Można tworzyć przejście od lub w kierunku pojedynczego [wierzchołka](Glossary#V.md) ze szkicu lub bryły. <small>(v0.20)</small> .
+-   Po wybraniu [wierzchołka](Glossary#V.md) jako sekcji, w większości przypadków musi to być ostatnia sekcja przejścia. Kolejność sekcji można zmienić, przeciągając je na liście.
+-   Ścieżka może pochodzić tylko z jednego szkicu, elementu lub Łącznika kształtu. Jeśli chcesz przeciągnąć wzdłuż kilku krawędzi z różnych szkiców, użyj narzędzia **[<img src=images/PartDesign_SubShapeBinder.svg style="width:16px">. [Łącznik kształtów podrzędnych](PartDesign_SubShapeBinder/pl.md)**.
+-   Ścieżka nie może zawierać rozgałęzień, trójników itp. Pętle są dozwolone.
+-   Może to prowadzić do problemów, jeśli przekrój nie jest prostopadły do ścieżki w przestrzeni 3D.
+-   Przekrój nie może leżeć na tej samej płaszczyźnie, co przekrój bezpośrednio go poprzedzający.
+-   Przekroje nie mogą zawierać rozłącznych lub przecinających się pętli.
 
 
 

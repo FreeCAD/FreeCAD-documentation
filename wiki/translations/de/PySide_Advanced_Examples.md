@@ -1,15 +1,11 @@
 # PySide Advanced Examples/de
 {{TOCright}}
 
+
+
 ## Einführung
 
-
-<div class="mw-translate-fuzzy">
-
-Der Zweck dieser Seite ist es, Beispiele auf fortgeschrittenem Niveau für den [PySide](PySide/de.md) GUI Verwalter zu behandeln (es gibt begleitende Seiten [PySide Beispiele für Anfänger](PySide_Beginner_Examples/de.md) und [PySide Mittlere Beispiele](PySide_Intermediate_Examples/de.md)).
-
-
-</div>
+Der Zweck dieser Seite ist es, Beispiele auf fortgeschrittenem Niveau für den [PySide](PySide/de.md)-GUI-Verwalter zu behandeln (es gibt begleitende Seiten [PySide Beispiele für Anfänger](PySide_Beginner_Examples/de.md) und [PySide Weiterführende Beispiele](PySide_Intermediate_Examples/de.md)).
 
 Durch Verwendung des PySide Moduls innerhalb von FreeCAD, hast du die volle Kontrolle über seine Oberfläche. Du kannst zum Beispiel:
 
@@ -17,17 +13,11 @@ Durch Verwendung des PySide Moduls innerhalb von FreeCAD, hast du die volle Kont
 -   Hinzufügen oder Ausblenden von Elementen zu bestehenden Paneelen
 -   Ändern, umleiten oder hinzufügen von Verbindungen zwischen all diesen Elementen
 
-## Create Reference for the Main Window 
 
 
-<div class="mw-translate-fuzzy">
+## Eine Referenz auf das Hauptfenster erstellen 
 
-## Referenz für das Hauptfenster erstellen 
-
-Wenn du an der FreeCAD Oberfläche arbeiten willst, musst du als allererstes eine Referenz auf das FreeCAD Hauptfenster erstellen:
-
-
-</div>
+Soll an der FreeCAD-Oberfläche gearbeitet werden, muss als allererstes eine Referenz auf das FreeCAD-Hauptfenster erstellt werden:
 
 
 ```python

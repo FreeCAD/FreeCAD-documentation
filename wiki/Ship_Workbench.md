@@ -38,6 +38,17 @@ The Ship Workbench was unmaintained since v0.17 but has been resurrected in v0.1
 -   Github: <https://github.com/FreeCAD/freecad.ship>
 -   Discussion: <https://forum.freecadweb.org/viewtopic.php?f=8&t=60885>
 
+## Acknowledgments
+
+Many developers have contributed to this module development, and we want to express our gratitude to them.
+
+-   All the FreeCAD team for the maintenance operations over all these years.
+-   Jose Luis Cercós Pita as the main developer.
+-   Juan Manuel Muñoz-Godin for the ship resistance prediction tools (Holtrop & Amadeo) development, as part of his Bachelor Thesis.
+-   Antonio Souto-Iglesias and Jose Luis Cercos-Pita as the advisor and co-advisor of Juan Manuel Muñoz-Godin.
+
+If you feel your name is missing on this list, please feel free to add it yourself or send me a private message.
+
 
 
 ---

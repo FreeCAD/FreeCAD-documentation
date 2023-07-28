@@ -1,17 +1,21 @@
 ---
 - GuiCommand:/pl
    Name:Sketcher MergeSketches
-   Name/pl:Szkicownik: Łączenie szkiców
-   MenuLocation:Sketch → Połącz szkice
+   Name/pl:Szkicownik: Połącz szkice
+   MenuLocation:Szkic → Połącz szkice
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Version:0.15
 ---
 
 # Sketcher MergeSketches/pl
 
+
+
 ## Opis
 
 Połącz dwa lub więcej szkiców w jeden.
+
+
 
 ## Użycie
 

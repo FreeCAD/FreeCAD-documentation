@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -24,6 +26,8 @@ Při spuštění nástroje se ukazatel myši změní na bílý křížek s červ
 </div>
 
 ![](images/SketcherCreateFilletExample.png‎ )
+
+
 
 
 <div class="mw-translate-fuzzy">

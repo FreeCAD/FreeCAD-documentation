@@ -4,6 +4,8 @@ Jest to obszerna, ale nie kompletna lista funkcji, realizowanych przez program F
 
 {{TOCright}}
 
+
+
 ## Informacje o wydaniu 
 
 -   [Wydanie 0.20](Release_notes_0.20.md) - Czerwiec 2022
@@ -17,6 +19,8 @@ Jest to obszerna, ale nie kompletna lista funkcji, realizowanych przez program F
 -   [Wydanie 0.12](Release_notes_0.12.md) - Grudzień 2011
 -   [Wydanie 0.11](Release_notes_0.11.md) - Marzec 2011
 
+
+
 ## Główne cechy 
 
 -   ![](images/Feature1.jpg ) Kompletne **jądro geometrii** bazujące na [Open CASCADE Technology](http://en.wikipedia.org/wiki/Open_CASCADE) umożliwiające kompleksowe operacje 3D na złożonych typach kształtów, z natywnym wsparciem dla koncepcji takich jak [Boundary Representation](https://en.wikipedia.org/wiki/Boundary_representation) *(BREP)*, [Non-uniform rational basis spline](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline) *(NURBS)* krzywe i powierzchnie, szeroki zakres kształtów geometrycznych, operacje logiczne [zaokrąglenia](https://en.wikipedia.org/wiki/Fillet_(mechanics)), oraz wbudowana obsługa formatów [STEP](https://en.wikipedia.org/wiki/ISO_10303) i [IGES](https://en.wikipedia.org/wiki/IGES).
@@ -25,11 +29,13 @@ Jest to obszerna, ale nie kompletna lista funkcji, realizowanych przez program F
 -   ![](images/Feature5.jpg ) Import i eksport do **standardowych formatów**, takich jak [STEP](http://en.wikipedia.org/wiki/ISO_10303), [IGES](http://en.wikipedia.org/wiki/IGES), [OBJ](http://en.wikipedia.org/wiki/Obj), [STL](http://en.wikipedia.org/wiki/STL_%28file_format%29), [DXF](http://en.wikipedia.org/wiki/Dxf), [SVG](http://en.wikipedia.org/wiki/Svg), [DAE](http://en.wikipedia.org/wiki/COLLADA), [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) lub [OFF](http://people.sc.fsu.edu/~jburkardt/data/off/off.html), [NASTRAN](http://en.wikipedia.org/wiki/NASTRAN), [VRML](http://en.wikipedia.org/wiki/VRML) w dodatku do macierzystego formatu plików FreeCAD **[FCStd](File_Format_FCStd.md)**. Poziom kompatybilności pomiędzy FreeCAD i danym formatem pliku może się różnić, ponieważ zależy to od modułu, który ten format wdraża.
 -   ![](images/Feature7.jpg ) [Szkicownik](Sketcher_Workbench/pl.md) ze zintegrowanym mechanizmem wiązań, umożliwiającym szkicowanie kształtów 2D o związanej geometrii. Zbudowane za pomocą programu Sketcher związane kształty 2D mogą być następnie wykorzystane jako podstawa do budowania innych obiektów w całym FreeCAD.
 -   ![](images/Feature9.jpg ) Środowisko pracy [Symulacja Robota](Robot_Workbench/pl.md), które pozwala na badanie ruchów robotów w środowisku graficznym.
--   ![](images/Feature8.jpg ) Środowisko pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) z opcjami widoków szczegółowych, przekrojów, wymiarowania i innych, pozwalającymi na generowanie widoków 2D istniejących modeli 3D. Moduł następnie tworzy gotowe do eksportu pliki SVG lub PDF. Jest też starszy moduł [Kreślenie](Drawing_Workbench/pl.md) z nielicznymi poleceniami Gui, lecz posiada potężną funkcjonalność Pythona.
+-   ![](images/Feature8.jpg ) Środowisko pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) z opcjami widoków szczegółowych, przekrojów, wymiarowania i innych, pozwalającymi na generowanie widoków 2D istniejących modeli 3D. Moduł następnie tworzy gotowe do eksportu pliki SVG lub PDF. 
 -   ![](images/Feature-raytracing.jpg ) Środowisko pracy [Rendering](Raytracing_Workbench/pl.md) który może eksportować obiekty 3D do renderowania z zewnętrznymi silnikami. Obecnie obsługuje tylko moduły [povray](http://en.wikipedia.org/wiki/POV-Ray) i [LuxRender](http://en.wikipedia.org/wiki/LuxRender), ale w przyszłości ma zostać rozszerzony o kolejne programy renderujące.
 -   ![](images/Feature-arch.jpg ) Środowisko pracy [Architektura](Arch_Workbench/pl.md) umożliwia modelowanie [Building Information Modeling](http://en.wikipedia.org/wiki/Building_Information_Modeling) przepływ pracy *(BIM)*, z kompatybilnością [Industry Foundation Classes](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) *(IFC)*.
 -   ![](images/Feature-CAM.jpg ) Środowisko pracy [Path](Path_Workbench/pl.md) dedykowane do obróbki mechanicznej dla [Computer Aided Manufacturing](https://en.wikipedia.org/wiki/Computer-aided_manufacturing) *(CAM)*. Korzystając z modułu Ścieżka, można tworzyć, wyświetlać i modyfikować [G-code](http://en.wikipedia.org/wiki/G-code) używany do sterowania maszyną docelową.
 -   ![](images/Feature_spreadsheet.png ) Środowisko pracy [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md) oraz [parser wyrażeń](Expressions/pl.md), które można wykorzystać do obsługi modeli danych opartych na formułach i organizowania danych modelu w centralnej lokalizacji.
+
+
 
 ## Cechy ogólne 
 
@@ -82,6 +88,8 @@ Jest to obszerna, ale nie kompletna lista funkcji, realizowanych przez program F
 -   **thumbnailer**. *(obecnie tylko systemy Linux)* Ikony dokumentów FreeCAD pokazują zawartość pliku w większości aplikacji do zarządzania plikami, takich jak Nautilus Gnome.
 
 -   **modułowy instalator MSI**. Instalator FreeCAD umożliwia elastyczną instalację w systemach Windows. Utrzymywane są również pakiety dla systemów Ubuntu.
+
+
 
 ### Dodatkowe Środowiska pracy 
 

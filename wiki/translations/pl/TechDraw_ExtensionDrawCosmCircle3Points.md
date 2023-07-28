@@ -1,30 +1,35 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ExtensionDrawCosmCircle3Points
-   MenuLocation:TechDraw → Extensions: Centerlines/Threading → Add Cosmetic Circle 3 Points
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Rozszerzenie Dodaj okrąg kosmetyczny oparty na trzech punktach
+   MenuLocation:Rysunek Techniczny → Rozszerzenia: Linie środka / Gwinty → Dodaj okrąg kosmetyczny oparty na trzech punktach
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionDrawCosmArc](TechDraw_ExtensionDrawCosmArc.md)
+   SeeAlso:[Dodaj łuk kosmetyczny](TechDraw_ExtensionDrawCosmArc/pl.md)
 ---
 
 # TechDraw ExtensionDrawCosmCircle3Points/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle3Points.svg  style="width:24px;"> **TechDraw ExtensionDrawCosmCircle3Points** tool adds a cosmetic circle based on three vertexes.
+
+## Opis
+
+Narzędzie **Dodaj okrąg kosmetyczny oparty na trzech punktach** dodaje kosmetyczny okrąg oparty na trzech wierzchołkach.
 
 <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle3PointsExample.png  style="width:250px;"> 
-*On the right an added cosmetic circle*
+*Po prawej stronie dodano okrąg kosmetyczny.*
 
-## Usage
 
-1.  Optionally specify the line attributes with the <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) tool.
-2.  Select three vertexes on the circumference to determine the circle.
-3.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionDrawCosmCircle3Points.svg" width=16px> [TechDraw ExtensionDrawCosmCircle3Points](TechDraw_ExtensionDrawCosmCircle3Points.md)** button.
-    -   Select the **TechDraw → Extensions: Centerlines/Threading → <img src="images/TechDraw_ExtensionDrawCosmCircle3Points.svg" width=16px> Add Cosmetic Circle 3 Points** option from the menu.
-4.  A cosmetic circle is added.
+
+## Użycie
+
+1.  Opcjonalnie określ atrybuty linii za pomocą narzędzia <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [Wybierz atrybuty linii](TechDraw_ExtensionSelectLineAttributes/pl.md).
+2.  Wybierz trzy wierzchołki na obwodzie, aby określić okrąg.
+3.  Istnieje kilka sposobów wywołania tego narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionDrawCosmCircle3Points.svg" width=16px> '''Dodaj okrąg kosmetyczny oparty na trzech punktach'''**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Rozszerzenia: Linie środka / Gwinty → <img src="images/TechDraw_ExtensionDrawCosmCircle3Points.svg" width=16px> Dodaj okrąg kosmetyczny oparty na trzech punktach**.
+4.  Kosmetyczny okrąg zostanie dodany.
 
 
 

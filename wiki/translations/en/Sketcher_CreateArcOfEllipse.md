@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher CreateArcOfEllipse
-   MenuLocation:Sketch → Sketcher geometries → Create an arc of ellipse
+   MenuLocation:Sketch → Sketcher geometries → Create arc of ellipse
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**G** **E** **A**
    Version:0.15
@@ -20,9 +20,9 @@ C is the center, a the major diameter, b the minor diameter, F1 and F2 are foci.
 
 ## Usage
 
--   Press the **[<img src=images/Sketcher_CreateArcOfEllipse.svg style="width:16px"> [Create an arc of ellipse](Sketcher_CreateArcOfEllipse.md)** button.
+-   Press the **[<img src=images/Sketcher_CreateArcOfEllipse.svg style="width:16px"> [Create arc of ellipse](Sketcher_CreateArcOfEllipse.md)** button.
 -   First click in 3D view sets ellipse center. Second click sets the first radius and orientation of the ellipse. Third click sets the other radius and the start of the arc. The fourth click sets the end of the arc.
--   After the fourth click, the arc of ellipse is created, together with a set of construction geometry aligned to it (major diameter, minor diameter, two foci). The construction geometry can be manually deleted if not needed, and recreated later. See [Internal Alignment Constraint](Sketcher_ConstrainInternalAlignment.md) and [Sketcher Show Hide Internal Geometry](Sketcher_RestoreInternalAlignmentGeometry.md).
+-   After the fourth click, the arc of ellipse is created, together with a set of construction geometry aligned to it (major diameter, minor diameter, two foci). The construction geometry can be manually deleted if not needed, and recreated later. See [Sketcher Show Hide Internal Geometry](Sketcher_RestoreInternalAlignmentGeometry.md).
 -   Pressing **ESC** or clicking the right mouse button cancels the function.
 
 ## Peculiarities

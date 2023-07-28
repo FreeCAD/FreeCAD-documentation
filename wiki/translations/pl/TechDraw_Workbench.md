@@ -8,8 +8,6 @@
 
 Wymiary, przekroje, zakreskowane obszary, adnotacje i symbole [SVG](SVG/pl.md) mogą być dodane do strony, która może być dalej eksportowana do różnych formatów, takich jak [DXF](DXF/pl.md), [SVG](SVG/pl.md), i [PDF](PDF/pl.md).
 
-Rysunek Techniczny został oficjalnie włączony do FreeCAD począwszy od wersji **0.17**. ma on być następcą nieobsługiwanego już Środowiska pracy [Kreślenie](Drawing_Workbench/pl.md). Środowisko pracy Kreślenie nadal jest dostępne w wersji 0.20, ale nie będzie dostępne w przyszłych wydaniach *({{VersionPlus/pl|1.0}})*. Aby być na bieżąco z planami i rozwojem środowiska Rysunek Techniczny, odwiedź stronę [Rysunek Techniczny: Plan rozwoju](TechDraw_Roadmap/pl.md).
-
 Jeśli Twoim głównym celem jest tworzenie złożonych rysunków 2D i plików [DXF](DXF/pl.md), a nie potrzebujesz modelowania 3D, FreeCAD może nie być właściwym wyborem dla Ciebie. Możesz rozważyć zastosowanie dedykowanego programu do tworzenia projektów technicznych, takiego jak [LibreCAD](https://en.wikipedia.org/wiki/LibreCAD), [QCad](https://en.wikipedia.org/wiki/QCad), lub innego.
 
 
@@ -27,9 +25,9 @@ Te narzędzia służą do tworzenia obiektów na stronie.
 
 -   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [Wstaw nową stronę przy użyciu szablonu](TechDraw_PageTemplate/pl.md): dodaje nową stronę przy użyciu ustawienia z [szablonu](TechDraw_Templates/pl.md).
 
--   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Odśwież widok](TechDraw_RedrawPage/pl.md): wymusza aktualizację wybranej strony. {{Version/pl|0.19}}
+-   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Odśwież widok](TechDraw_RedrawPage/pl.md): wymusza aktualizację wybranej strony.
 
--   <img alt="" src=images/TechDraw_PrintAll.svg  style="width:32px;"> [Drukuj wszystkie strony](TechDraw_PrintAll/pl.md): drukuje wszystkie strony rysunku. {{Version/pl|1.0}}
+-   <img alt="" src=images/TechDraw_PrintAll.svg  style="width:32px;"> [Drukuj wszystkie strony](TechDraw_PrintAll/pl.md): drukuje wszystkie strony rysunku. {{Version/pl|0.21}}
 
 
 
@@ -39,7 +37,7 @@ Są to narzędzia do tworzenia obiektów widoku.
 
 -   <img alt="" src=images/TechDraw_View.svg  style="width:32px;"> [Wstaw widok na stronę](TechDraw_View/pl.md): dodaje widok obiektu wyświetlany w formie projekcji 2D.
 
--   <img alt="" src=images/TechDraw_ActiveView.svg  style="width:32px;"> [Wstaw aktywny widok](TechDraw_ActiveView/pl.md): wstawia kopię widoku z okna 3D do strony rysunku. {{Version/pl|0.19}}
+-   <img alt="" src=images/TechDraw_ActiveView.svg  style="width:32px;"> [Wstaw aktywny widok](TechDraw_ActiveView/pl.md): wstawia kopię widoku z okna 3D do strony rysunku.
 
 -   <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:32px;"> [Wstaw wiele połączonych widoków](TechDraw_ProjectionGroup/pl.md): otwiera okno dialogowe do tworzenia wielu widoków obiektu z róznych kierunków.
 
@@ -47,7 +45,7 @@ Są to narzędzia do tworzenia obiektów widoku.
 
 -   <img alt="" src=images/TechDraw_SectionView.svg  style="width:32px;"> [Wstaw widok przekroju](TechDraw_SectionView/pl.md): dodaje widok przekroju dla aktualnego widoku.
 
-  - <img alt="" src=images/TechDraw_ComplexSection.svg  style="width:32px;"> [Wstaw przekrój złożony](TechDraw_ComplexSection/pl.md): wstawia widok przekroju istniejącego widoku na podstawie profilu. {{Version/pl|1.0}}
+  - <img alt="" src=images/TechDraw_ComplexSection.svg  style="width:32px;"> [Wstaw przekrój złożony](TechDraw_ComplexSection/pl.md): wstawia widok przekroju istniejącego widoku na podstawie profilu. {{Version/pl|0.21}}
 
 -   <img alt="" src=images/TechDraw_DetailView.svg  style="width:32px;"> [Wstaw widok szczegółu](TechDraw_DetailView/pl.md): dodaje widok szczegółu części wybranego widoku.
 
@@ -71,13 +69,13 @@ Są to narzędzia do zmiany kolejności układania, która kontroluje pozorną g
 
 -   <img alt="" src=images/TechDraw_StackTop.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Dostosuj kolejność w wierszach:
 
-  - <img alt="" src=images/TechDraw_StackTop.svg  style="width:32px;"> [Przesuń widok na górę](TechDraw_StackTop/pl.md): przesuwa widoki na górny poziom. {{Version/pl|1.0}}
+  - <img alt="" src=images/TechDraw_StackTop.svg  style="width:32px;"> [Przesuń widok na górę](TechDraw_StackTop/pl.md): przesuwa widoki na górny poziom. {{Version/pl|0.21}}
 
-  - <img alt="" src=images/TechDraw_StackBottom.svg  style="width:32px;"> [Przesuń widok na dół](TechDraw_StackBottom/pl.md): przesuwa widoki na dolny poziom. {{Version/pl|1.0}}
+  - <img alt="" src=images/TechDraw_StackBottom.svg  style="width:32px;"> [Przesuń widok na dół](TechDraw_StackBottom/pl.md): przesuwa widoki na dolny poziom. {{Version/pl|0.21}}
 
-  - <img alt="" src=images/TechDraw_StackUp.svg  style="width:32px;"> [Przesuwa widoki w górę](TechDraw_StackUp/pl.md): przesuwa widoki o jeden poziom w górę. {{Version/pl|1.0}}
+  - <img alt="" src=images/TechDraw_StackUp.svg  style="width:32px;"> [Przesuwa widoki w górę](TechDraw_StackUp/pl.md): przesuwa widoki o jeden poziom w górę. {{Version/pl|0.21}}
 
-  - <img alt="" src=images/TechDraw_StackDown.svg  style="width:32px;"> [Przesuwa widoki w dół](TechDraw_StackDown/pl.md): przesuwa widoki o jeden poziom w dół. {{Version/pl|1.0}}
+  - <img alt="" src=images/TechDraw_StackDown.svg  style="width:32px;"> [Przesuwa widoki w dół](TechDraw_StackDown/pl.md): przesuwa widoki o jeden poziom w dół. {{Version/pl|0.21}}
 
 
 
@@ -131,17 +129,19 @@ Wymiary liniowe mogą być wyznaczone w oparciu o dwa punkty, na jednej linii lu
 
 -   <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Wstaw wymiary zakresu:
 
-  - <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:32px;"> [Zakres poziomy](TechDraw_HorizontalExtentDimension/pl.md): dodaje wymiar poziomy. {{Version/pl|0.19}}
+  - <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:32px;"> [Zakres poziomy](TechDraw_HorizontalExtentDimension/pl.md): dodaje wymiar poziomy.
 
-  - <img alt="" src=images/TechDraw_VerticalExtentDimension.svg  style="width:32px;"> [Zakres pionowy](TechDraw_VerticalExtentDimension/pl.md): dodaje wymiar pionowy {{Version/pl|0.19}}
+  - <img alt="" src=images/TechDraw_VerticalExtentDimension.svg  style="width:32px;"> [Zakres pionowy](TechDraw_VerticalExtentDimension/pl.md): dodaje wymiar pionowy.
 
 -   <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [Powiąż wymiar z geometrią 3D](TechDraw_LinkDimension/pl.md): umożliwia połączenie istniejącego wymiaru z geometrią 3D.
 
--   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Wstaw adnotację w formie dymka](TechDraw_Balloon/pl.md): dodaje na stronie adnotację w *baloniku*. {{Version/pl|0.19}}
+-   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Wstaw adnotację w formie dymka](TechDraw_Balloon/pl.md): dodaje na stronie adnotację w *baloniku*.
 
--   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Wstaw wymiar przestrzenny - opcja EXPERYMENTALNA](TechDraw_LandmarkDimension/pl.md): dodaje wymiar dystansu. {{Version/pl|0.19}}
+-   <img alt="" src=images/TechDraw_AxoLengthDimension.svg  style="width:32px;"> [Wymiar długości w aksonometrii](TechDraw_AxoLengthDimension/pl.md): dodaje aksonometryczny wymiar długości. {{Version/pl|0.21}}
 
--   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Napraw wymiar](TechDraw_DimensionRepair/pl.md): może dopasować odniesienia geometrii 2D lub 3D dla wymiaru. {{Version/pl|1.0}}
+-   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Wstaw wymiar przestrzenny - opcja EXPERYMENTALNA](TechDraw_LandmarkDimension/pl.md): dodaje wymiar dystansu.
+
+-   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Napraw wymiar](TechDraw_DimensionRepair/pl.md): może dopasować odniesienia geometrii 2D lub 3D dla wymiaru. {{Version/pl|0.21}}
 
 
 
@@ -151,39 +151,41 @@ Narzędzia do nanoszenia adnotacji służą do \" oznaczania \" rysunku dodatkow
 
 -   <img alt="" src=images/TechDraw_Annotation.svg  style="width:32px;"> [Dodaj Adnotację](TechDraw_Annotation/pl.md): dodaje zwykły blok tekstowy, który służy jako adnotacja.
 
--   <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:32px;"> [Dodaj linię odniesienia](TechDraw_LeaderLine/pl.md): narzędzie dodaje linię odniesienia do wyświetlanego widoku. {{Version/pl|0.19}}
+-   <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:32px;"> [Dodaj linię odniesienia](TechDraw_LeaderLine/pl.md): narzędzie dodaje linię odniesienia do wyświetlanego widoku.
 
--   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:32px;"> [Blok tekstu sformatowanego](TechDraw_RichTextAnnotation/pl.md): Narzędzie dodaje blok adnotacji tekstu sformatowanego do [Linii wiodącej](TechDraw_LeaderLine/pl.md) lub widoku. {{Version/pl|0.19}}
+-   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:32px;"> [Blok tekstu sformatowanego](TechDraw_RichTextAnnotation/pl.md): Narzędzie dodaje blok adnotacji tekstu sformatowanego do [Linii wiodącej](TechDraw_LeaderLine/pl.md) lub widoku.
 
 -   <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Dodaj wierzchołki kosmetyczne:
 
-  - <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:32px;"> [Wstaw wierzchołek kosmetyczny](TechDraw_CosmeticVertex/pl.md): Narzędzie dodaje wierzchołek, który nie jest częścią geometrii źródłowej. {{Version/pl|0.19}}
+  - <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:32px;"> [Wstaw wierzchołek kosmetyczny](TechDraw_CosmeticVertex/pl.md): Narzędzie dodaje wierzchołek, który nie jest częścią geometrii źródłowej.
 
-  - <img alt="" src=images/TechDraw_Midpoints.svg  style="width:32px;"> [Dodaj wierzchołki punktu środkowego](TechDraw_Midpoints/pl.md): Narzędzie Punkty środkowe dodaje Punkty pomocnicze w punktach środkowych jednej lub kilku wybranych krawędzi. {{Version/pl|0.19}}
+  - <img alt="" src=images/TechDraw_Midpoints.svg  style="width:32px;"> [Dodaj wierzchołki punktu środkowego](TechDraw_Midpoints/pl.md): Narzędzie Punkty środkowe dodaje Punkty pomocnicze w punktach środkowych jednej lub kilku wybranych krawędzi.
 
-  - <img alt="" src=images/TechDraw_Quadrants.svg  style="width:32px;"> [Dodaj wierzchołki kwadrantu](TechDraw_Quadrants/pl.md): Narzędzie Kwadrant dodaje wierzchołki pomocnicze w punktach ćwiartki jednej lub więcej wybranych krawędzi *(okrągłych)*. {{Version/pl|0.19}}
+  - <img alt="" src=images/TechDraw_Quadrants.svg  style="width:32px;"> [Dodaj wierzchołki kwadrantu](TechDraw_Quadrants/pl.md): Narzędzie Kwadrant dodaje wierzchołki pomocnicze w punktach ćwiartki jednej lub więcej wybranych krawędzi *(okrągłych)*.
 
 -   <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Dodaj oś:
 
 
 
-  - <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width:32px;"> [Dodaj oś ściany](TechDraw_FaceCenterLine/pl.md): Narzędzie Oś ściany dodaje linię środkową do wybranej ściany *(ścian)*. {{Version/pl|0.19}}
+  - <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width:32px;"> [Dodaj oś ściany](TechDraw_FaceCenterLine/pl.md): Narzędzie Oś ściany dodaje linię środkową do wybranej ściany *(ścian)*.
 
-  - <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:32px;"> [Dodaj oś dwóch krawędzi](TechDraw_2LineCenterLine/pl.md): Narzędzie Oś dwóch krawędzi dodaje linię środkową pomiędzy dwoma krawędziami. {{Version/pl|0.19}}
+  - <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:32px;"> [Dodaj oś dwóch krawędzi](TechDraw_2LineCenterLine/pl.md): Narzędzie Oś dwóch krawędzi dodaje linię środkową pomiędzy dwoma krawędziami.
 
-  - <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:32px;"> [Dodaj oś dwóch punktów](TechDraw_2PointCenterLine/pl.md): Narzędzie Oś dwóch punktów dodaje linię środkową pomiędzy 2 punktami. {{Version/pl|0.19}}
+  - <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:32px;"> [Dodaj oś dwóch punktów](TechDraw_2PointCenterLine/pl.md): Narzędzie Oś dwóch punktów dodaje linię środkową pomiędzy 2 punktami.
 
--   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:32px;"> [Dodaj linię kosmetyczną \...](TechDraw_2PointCosmeticLine/pl.md): dodaje linię estetyczną łączącą 2 wierzchołki. {{Version/pl|0.19}}
+-   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:32px;"> [Dodaj linię kosmetyczną \...](TechDraw_2PointCosmeticLine/pl.md): dodaje linię estetyczną łączącą 2 wierzchołki.
 
--   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Usuń obiekt kosmetyczny](TechDraw_CosmeticEraser/pl.md): Narzędzie to usuwa obiekty kosmetyczne z danej strony. {{Version/pl|0.19}}
+-   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Usuń obiekt kosmetyczny](TechDraw_CosmeticEraser/pl.md): Narzędzie to usuwa obiekty kosmetyczne z danej strony.
 
--   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:24px;"> [Zmień wygląd wybranych linii](TechDraw_DecorateLine/pl.md): Narzędzie to zmienia wygląd krawędzi. {{Version/pl|0.19}}
+-   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:24px;"> [Zmień wygląd wybranych linii](TechDraw_DecorateLine/pl.md): Narzędzie to zmienia wygląd krawędzi.
 
--   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:32px;"> [Pokaż / ukryj niewidoczne krawędzie](TechDraw_ShowAll/pl.md): Narzędzie pokazuje / ukrywa niewidoczne krawędzie lub linie w widoku. {{Version/pl|0.19}}
+-   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:32px;"> [Pokaż / ukryj niewidoczne krawędzie](TechDraw_ShowAll/pl.md): Narzędzie pokazuje / ukrywa niewidoczne krawędzie lub linie w widoku.
 
--   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Dodaj informacje spawalnicze](TechDraw_WeldSymbol/pl.md): Narzędzie dodaje specyfikacje dotyczące spawania do istniejącej linii odniesienia. {{Version/pl|0.19}}
+-   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Dodaj informacje spawalnicze](TechDraw_WeldSymbol/pl.md): Narzędzie dodaje specyfikacje dotyczące spawania do istniejącej linii odniesienia.
 
--   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:32px;"> [Dodaj symbol wykończenia powierzchni](TechDraw_SurfaceFinishSymbol/pl.md): dodaje do strony symbol wykończenia powierzchni. {{Version/pl|1.0}}
+-   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:32px;"> [Dodaj symbol wykończenia powierzchni](TechDraw_SurfaceFinishSymbol/pl.md): dodaje do strony symbol wykończenia powierzchni. {{Version/pl|0.21}}
+
+-   <img alt="" src=images/TechDraw_HoleShaftFit.svg  style="width:32px;"> [Pasowanie otworu / wału](TechDraw_HoleShaftFit/pl.md): dodaje do wymiaru tolerancje otworu lub wałka przy użyciu ISO 286. {{Version/pl|0.21}}
 
 
 
@@ -369,11 +371,8 @@ Narzędzi środowiska Rysunek Techniczny można używać w [makrodefinicjach](Ma
 
 ## Ograniczenia
 
--   Rysunki środowiska Rysunek Techniczny i jego API nie są zamienne ze środowiskiem [Kreślenie](Drawing_Workbench/pl.md) i jego API. Możliwa jest konwersja Strony Kreślenie do Strony Rysunku Technicznego przy użyciu skryptu Pythona (`moveViews.py`).
--   Możliwe jest posiadanie zarówno Strony środowiska Rysunku Technicznego jak i Kreślenie w tym samym dokumencie FreeCAD, ponieważ każda strona jest całkowicie niezależna od siebie.
--   Istnieją niewielkie różnice w określaniu edytowalnych tekstów w szablonach [SVG](SVG.md) w porównaniu z modułem Kreślenie. W Rysunku Technicznym skalowanie dokumentu SVG wpływa na położenie edytowalnych pól tekstowych. Więcej szczegółów znajdziesz w dyskusji na forum [TechDraw templates scale](https://forum.freecadweb.org/viewtopic.php?f=3&t=24981&p=196271#p196271).
--   Nie wycinaj, nie kopiuj i nie wklejaj obiektów Rysunku Technicznego w [widoku drzewa](Tree_view/pl.md), ponieważ generalnie nie działa to dobrze.
--   Nie należy przeciągać obiektów Rysunku Technicznego w [widoku drzewa](Tree_view/pl.md) za pomocą myszki.
+-   Nie wycinaj, kopiuj i wklejaj obiektów Rysunku Technicznego w okienku [Widoku drzewa](Tree_view/pl.md), ponieważ zazwyczaj nie wychodzi to dobrze.
+-   Nie należy przeciągać obiektów Rysunku Technicznego w okienku [Widoku drzewa](Tree_view/pl.md) za pomocą myszy.
 
 
 
@@ -394,6 +393,12 @@ Wideo poradniki przygotowane przez użytkownika sliptonic
 
 -   Środowisko pracy Rysunek Techniczny [Część 1 *(Podstawy)*](https://www.youtube.com/watch?v=7LbOmSGW9F0), [Część 2 *(Wymiary)*](https://www.youtube.com/watch?v=z3w84RfvqaE), [Część 3 *(Wiele widoków)*](https://www.youtube.com/watch?v=uNjXg-m38aI).
 -   Środowisko pracy Rysunek Techniczny [Part 4 *(Przekrój i detal)*](https://www.youtube.com/watch?v=3zSdeFV6I5o), [Part 5 *(Dostosowanie szablonu)*](https://www.youtube.com/watch?v=kcmdJ7xa7gg).
+
+
+
+## Opracowanie i rozwój 
+
+Chcesz poznać przyszłość środowiska pracy Rysunek Techniczny? Odwiedź stronę [Mapa rozwoju środowiska Rysunek Techniczny](TechDraw_Roadmap/pl.md), aby dowiedzieć się więcej.
 
 
 

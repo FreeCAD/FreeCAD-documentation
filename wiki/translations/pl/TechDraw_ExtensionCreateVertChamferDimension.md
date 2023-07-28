@@ -1,29 +1,34 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ExtensionCreateVertChamferDimension
-   MenuLocation:TechDraw → Extensions: Dimensions → Create Vertical Chamfer Dimension
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Rozszerzenie Wymiar pionowy sfazowania
+   MenuLocation:Rysunek Techniczny → Rozszerzenia: Wymiary → Wymiar pionowy sfazowania
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionCreateHorizChamferDimension](TechDraw_ExtensionCreateHorizChamferDimension.md)
+   SeeAlso:[Wymiar poziomy sfazowania](TechDraw_ExtensionCreateHorizChamferDimension/pl.md)
 ---
 
 # TechDraw ExtensionCreateVertChamferDimension/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_ExtensionCreateVertChamferDimension.svg  style="width:24px;"> **TechDraw ExtensionCreateVertChamferDimension** tool creates a vertical size and angle dimension for a chamfer.
+
+## Opis
+
+Narzędzie **Wymiar pionowy sfazowania** tworzy pionowy wymiar i kąt fazowania.
 
 <img alt="" src=images/TechDraw_ExtensionCreateVertChamferDimensionExample.png  style="width:450px;"> 
-*On the right the created dimension*
+*Po prawej utworzony wymiar.*
 
-## Usage
 
-1.  Select two vertexes.
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionCreateVertChamferDimension.svg" width=16px> [TechDraw ExtensionCreateVertChamferDimension](TechDraw_ExtensionCreateVertChamferDimension.md)** button.
-    -   Select the **TechDraw → Extensions: Dimensions → <img src="images/TechDraw_ExtensionCreateVertChamferDimension.svg" width=16px> Create Vertical Chamfer Dimension** option from the menu.
-3.  A chamfer dimension is created.
+
+## Użycie
+
+1.  Wybierz dwa wierzchołki.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionCreateVertChamferDimension.svg" width=16px> '''Wymiar pionowy sfazowania'''**.
+    -   Wybierz z menu opcję **Rysunek Techniczny → Rozszerzenia: Wymiary → <img src="images/TechDraw_ExtensionCreateVertChamferDimension.svg" width=16px> Wymiar pionowy sfazowania**.
+3.  Zostanie utworzony wymiar fazowania.
 
 
 

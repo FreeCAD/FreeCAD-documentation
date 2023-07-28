@@ -12,12 +12,16 @@
 
 </div>
 
+
+
 ## Descriere
 
 Instrumentul **View section** creează un plan de secțiune care ascunde temporar materialul din fața planului planului de secțiune.
 
 <img alt="" src=images/Sketcher_ViewSection1.png  style="width:300px;"> <img alt="" src=images/Sketcher_ViewSection2.png  style="width:320px;"> 
 *Partially hidden sketch and fully visible sketch*
+
+
 
 
 <div class="mw-translate-fuzzy">

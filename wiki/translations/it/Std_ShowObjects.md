@@ -1,8 +1,7 @@
 ---
 - GuiCommand:/it
    Name:Std ShowObjects
-   Name/it:Std ShowObjects
-   Empty:1
+   Name/it:Mostra tutti gli oggetti
    MenuLocation:Visualizza → Visibilità → Mostra tutti gli oggetti
    Workbenches:Tutti
    SeeAlso:[Mostra/Nascondi](Std_ToggleVisibility/it.md), [Mostra la selezione](Std_ShowSelection/it.md), [Nascondi la selezione](Std_HideSelection/it.md), [Commuta tutti gli oggetti](Std_ToggleObjects/it.md), [Nascondi tutti gli oggetti](Std_HideObjects/it.md)
@@ -11,20 +10,25 @@
 # Std ShowObjects/it
 
 
-</div>
 
 ## Descrizione
 
-The **Std ShowObjects** command shows all objects belonging to the active document in [3D views](3D_view.md). Be careful when you use this command as it will also show sub-elements of [PartDesign bodies](PartDesign_Body.md) and objects used for [Part Booleans](Part_Boolean.md). In most cases these should stay invisible.
+Il comando **Mostra tutti gli oggetti** mostra tutti gli oggetti appartenenti al documento attivo nella [Vista 3D](3D_view/it.md). Prestare attenzione quando si utilizza questo comando poiché mostrerà anche i sottoelementi dei [Corpi di PartDesign](PartDesign_Body/it.md) e gli oggetti utilizzati per [operazioni booleane](Part_Boolean/it.md). Nella maggior parte dei casi questi dovrebbero rimanere invisibili.
+
+
 
 ## Utilizzo
 
-1.  Select the **View → Visibility → <img src="images/Std_ShowObjects.svg" width=16px> Show all objects** option from the menu.
+1.  Selezionare l\'opzione **Visualizza → Visibilità → <img src="images/Std_ShowObjects.svg" width=16px> Mostra tutti gli oggetti** dal menu.
+
+
 
 ## Note
 
--   The action of this command cannot be undone with [Std Undo](Std_Undo.md).
--   The visibility of an object can also be changed through its related **Visibility** property in the [Property editor](Property_editor.md) or the [Combo view](Combo_view.md).
+-   L\'azione di questo comando non può essere annullata con [Annulla](Std_Undo/it.md).
+-   La visibilità di un oggetto può anche essere modificata tramite la relativa proprietà **Visibility** in [Editor delle proprietà](Property_editor/it.md) o nella [Vista combinata](Combo_view/it.md).
+
+
 
 ## Script
 
@@ -33,16 +37,10 @@ The **Std ShowObjects** command shows all objects belonging to the active docume
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
-For a scripting example see [Std ToggleVisibility](Std_ToggleVisibility.md).
-
-
-<div class="mw-translate-fuzzy">
+Per un esempio di script vedere [Commutare la visibilità](Std_ToggleVisibility/it.md).
 
 
 
-
-
-</div>
 
 
 {{Std Base navi

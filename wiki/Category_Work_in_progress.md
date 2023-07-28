@@ -18,19 +18,11 @@ This category is for pages that are under construction and should not be touched
 | [PartDesign Bearingholder Tutorial II/en](PartDesign_Bearingholder_Tutorial_II/en.md) | [PartDesign Bearingholder Tutorial II/es](PartDesign_Bearingholder_Tutorial_II/es.md) | [PartDesign Bearingholder Tutorial II/fr](PartDesign_Bearingholder_Tutorial_II/fr.md) |
 | [PartDesign Bearingholder Tutorial II/it](PartDesign_Bearingholder_Tutorial_II/it.md) | [PartDesign Bearingholder Tutorial II/pl](PartDesign_Bearingholder_Tutorial_II/pl.md) | [PartDesign Bearingholder Tutorial II/pt-br](PartDesign_Bearingholder_Tutorial_II/pt-br.md) |
 | [PartDesign Bearingholder Tutorial II/ro](PartDesign_Bearingholder_Tutorial_II/ro.md) | [PartDesign Bearingholder Tutorial II/ru](PartDesign_Bearingholder_Tutorial_II/ru.md) | [PartDesign Bearingholder Tutorial II/tr](PartDesign_Bearingholder_Tutorial_II/tr.md) |
-| [Preferences Editor](Preferences_Editor.md) | [Preferences Editor/bg](Preferences_Editor/bg.md) | [Preferences Editor/cs](Preferences_Editor/cs.md) |
-| [Preferences Editor/de](Preferences_Editor/de.md) | [Preferences Editor/en](Preferences_Editor/en.md) | [Preferences Editor/es](Preferences_Editor/es.md) |
-| [Preferences Editor/fr](Preferences_Editor/fr.md) | [Preferences Editor/hr](Preferences_Editor/hr.md) | [Preferences Editor/id](Preferences_Editor/id.md) |
-| [Preferences Editor/it](Preferences_Editor/it.md) | [Preferences Editor/ja](Preferences_Editor/ja.md) | [Preferences Editor/ko](Preferences_Editor/ko.md) |
-| [Preferences Editor/pl](Preferences_Editor/pl.md) | [Preferences Editor/pt](Preferences_Editor/pt.md) | [Preferences Editor/pt-br](Preferences_Editor/pt-br.md) |
-| [Preferences Editor/ro](Preferences_Editor/ro.md) | [Preferences Editor/ru](Preferences_Editor/ru.md) | [Preferences Editor/sv](Preferences_Editor/sv.md) |
-| [Preferences Editor/tr](Preferences_Editor/tr.md) | [Preferences Editor/uk](Preferences_Editor/uk.md) | [Preferences Editor/zh](Preferences_Editor/zh.md) |
-| [Preferences Editor/zh-cn](Preferences_Editor/zh-cn.md) | [Preferences Editor/zh-tw](Preferences_Editor/zh-tw.md) | [Sandbox:Add FEM Solver Tutorial](Sandbox_Add_FEM_Solver_Tutorial.md) |
-| [Sandbox:Hollow Cylinder Tutorial](Sandbox_Hollow_Cylinder_Tutorial.md) | [Sandbox:TechDraw template creation tutorial](Sandbox_TechDraw_template_creation_tutorial.md) | [Sketcher Dialog](Sketcher_Dialog.md) |
-| [Sketcher Preferences](Sketcher_Preferences.md) | [WikiPages](WikiPages.md) | [WikiPages/de](WikiPages/de.md) |
+| [Sandbox:TechDraw template creation tutorial](Sandbox_TechDraw_template_creation_tutorial.md) | [WikiPages](WikiPages.md) | [WikiPages/de](WikiPages/de.md) |
 | [WikiPages/en](WikiPages/en.md) | [WikiPages/es](WikiPages/es.md) | [WikiPages/fr](WikiPages/fr.md) |
 | [WikiPages/pl](WikiPages/pl.md) | [WikiPages/pt-br](WikiPages/pt-br.md) | [WikiPages/ru](WikiPages/ru.md) |
-| [Template:Work in progress](Template_Work_in_progress.md) |
+| [Template:Work in progress](Template_Work_in_progress.md) | [Template:Work in progress/fr](Template_Work_in_progress/fr.md) | [Template:Work in progress/pl](Template_Work_in_progress/pl.md) |
+|
 
 
 

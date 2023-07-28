@@ -1,12 +1,16 @@
 # FEM Install/de
 {{TOCright}}
 
+
+
 ## Einführung
 
 Um die Finite Element Analyse (FEA) innerhalb des **<img src="images/Workbench_FEM.svg" width=24px> [FEM Arbeitsbereichs](FEM_Workbench/de.md)** durchführen zu können, verwendet FreeCAD zwei externe Programme: eines wird für die Generierung des [FEM Netz](FEM_Mesh/de.md) verwendet, das andere für die numerische Lösung der eigentlichen Analyse. Du kannst testen, ob dein FreeCAD Installation für die FEA bereit ist, indem du das [FEM CalculiX Kragarm 3D](FEM_CalculiX_Cantilever_3D/de.md) Beispiel ausführen, das in jeder Installation von FreeCAD seit v0.17 enthalten ist.
 
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;"> 
 * Arbeitsablauf des FEM Arbeitsbereichs; der Arbeitsbereich ruft zwei externe Programme auf, um die Vernetzung eines festen Objekts und die eigentliche Lösung des Finite Element Problems durchzuführen.*
+
+
 
 ### FEM Löser 
 
@@ -24,9 +28,11 @@ Usage: CalculiX.exe -i jobname
 
 Wenn der Löser installiert ist, stelle sicher, dass der FEM Arbeitsbereich in der Lage ist, die Binärdatei zu finden; gehe zu **Bearbeiten → Einstellungen → FEM → CalculiX → In bekannten Binärverzeichnissen suchen**. Wenn du den Löser selbst kompiliert hast, deaktiviere die Option, und gib den korrekten Pfad zur Binärdatei an. Für andere Löser, die mit FreeCAD verwendet werden können, siehe [FEM Löser](FEM_Solver/de.md).
 
+
+
 ### FEM Netz Generator 
 
-Um ein [FEM Polygonnetz](FEM_Mesh/de.md) zu erstellen, verwendet FreeCAD [Gmsh](http://gmsh.info/) als Standard Netzerzeuger. Abhängig vom Betriebssystem und der FreeCAD-Installation, ist Gmsh in den FreeCAD-Installationsdateien vorhanden oder auch nicht. Wenn es nicht mitgeliefert wird, kann es unabhängig von FreeCAD installiert werden und anschließend das Menü **Edit → Preferences → FEM → Gmsh** verwendet werden, um den Pfad zu *gmsh.exe* einzugeben.
+Um ein [FEM-Netz](FEM_Mesh/de.md) zu erstellen, verwendet FreeCAD [Gmsh](http://gmsh.info/) als Standard-Vernetzer. Abhängig vom Betriebssystem und der FreeCAD-Installation, kann Gmsh in den FreeCAD-Installationsdateien vorhanden sein. Wenn es nicht mitgeliefert wird, kann es unabhängig von FreeCAD installiert werden und anschließend das Menü **Edit → Preferences → FEM → Gmsh** verwendet werden, um den Pfad zu *gmsh.exe* einzugeben.
 
 Wenn das Programm korrekt installiert ist, kannst du den Befehl `gmsh` im Terminal ausführen, um die grafische Oberfläche des Programms zu starten. Diese Oberfläche wird von FreeCAD nicht verwendet, zeigt aber an, dass das Programm installiert ist.
 
@@ -53,21 +59,9 @@ Wenn der Netzerzeuger installiert ist, stelle sicher, dass der FEM Arbeitsbereic
 
 ### Netgen
 
+In order to create a FEM Mesh, you can use *Netgen* as an alternative to *Gmsh*. Depending on your operating system and your FreeCAD installation Netgen may be bundled with the FreeCAD installation binaries.
 
-**Hinweis: Der Netgen Netzerzeuger wurde im März 2017 deaktiviert, als FreeCAD auf die Verwendung von OCCT 7.1 umgestellt wurde. Bitte bearbeiten Sie diese Information, wenn Netgen mit der stabilen Version von FreeCAD wieder nutzbar ist.**
-
-In früheren Versionen von FreeCAD war [Netgen](https://sourceforge.net/projects/netgen-mesher/) der Standard Netzerzeuger. Damit es mit dem FEM Arbeitsbereich funktioniert, musste FreeCAD zur Kompilierzeit mit den Netgen Bibliotheken gelinkt werden. Als FreeCAD von OCE 0.17 auf OCCT 7.1 überging, konnte Netgen 4.9.13 nicht mehr gegen diese Version von OCCT gelinkt werden, so dass beschlossen wurde, die Netgen Unterstützung im [FEM Arbeitsbereich](FEM_Workbench/de.md) zu beenden. (die Schaltfläche [Netgen](FEM_MeshNetgenFromShape/de.md) wurde entfernt). Nichtsdestotrotz berichteten einige Anwender kurz darauf von Erfolgen beim Patchen von Netgen 5.3.1, so dass es mit OCCT 7.x und FreeCAD funktionierte.
-
-Als historische Referenz siehe die Beiträge:
-
--   [(Ubuntu Daily PPA) Transitioning to OCCT7, VTK7\...](https://forum.freecadweb.org/viewtopic.php?f=4&t=17501)
--   [Ubuntu Daily Builds PPA verwendet jetzt OCC 7.1.0](https://forum.freecadweb.org/viewtopic.php?t=21246)
--   [patching Netgen 5.3.1](https://forum.freecadweb.org/viewtopic.php?f=4&t=17501&start=200#p165769) um mit OCCT 7.1 zu arbeiten
--   [Probleme mit gmsh in FEM wb (netgen nostalgy)](https://forum.freecadweb.org/viewtopic.php?t=28368)
-
-Obwohl Netgen nicht aus dem [FEM Arbeitsbereich](FEM_Workbench/de.md) heraus verfügbar ist, kann es dennoch allein verwendet werden, um Netze zu erzeugen, die dann importiert werden können.
-
-Wenn das Programm korrekt installiert ist, kannst du den Befehl `netgen` im Terminal ausführen, um die grafische Oberfläche des Programms zu starten.
+Wenn das Programm korrekt installiert ist, kann der Befehl `netgen` unter Linux im Terminal ausgeführt werden, um die grafische Oberfläche des Programms zu starten.
 
 
 {{SystemInput|User@PC:~$ netgen -V}}
@@ -90,12 +84,16 @@ togl-version : 2
 OCC module loaded
 ```
 
+
+
 ## Installation unter Windows 
 
 Die auf der [Herunterladen](Download/de.md) Seite verfügbaren FreeCAD Pakete enthalten bereits Netgen und CalculiX, so dass keine zusätzliche Software installiert werden muss. Einige Verweise, wo eine bessere ausführbare Calculix Datei als die in FreeCAD enthalten bekommen kann, können hier unter [alternative ccx ausführbare Dateien](https://forum.freecadweb.org/viewtopic.php?f=18&t=58792&start=10#p506164) gefunden werden.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 ## Installation unter Linux 
 
@@ -153,6 +151,8 @@ Zusätzliche Pakete werden typischerweise mit YAST (Abk. Yet another Setup Tool)
 ```
     
 
+
+
 ### CalculiX Binärdatei 
 
 Die CalculiX Autoren stellen ein vorkompiliertes Linux Binärdatei des Lösers zur Verfügung; es kann von der [Autoren Webseite](http://www.dhondt.de/) heruntergeladen werden. Da jedoch verschiedene Linux Distributionen unterschiedliche Bibliothekspfade haben, wird diese Binärdatei höchstwahrscheinlich nicht funktionieren, ohne einige Anpassungen vorzunehmen.
@@ -192,6 +192,8 @@ linux-vdso.so.1 (0x00007fffbabdc000)
  libltdl.so.7 => /usr/lib/x86_64-linux-gnu/libltdl.so.7 (0x00007fe9b79ff000)
 ```
 
+
+
 ### CalculiX kompilieren 
 
 Da CalculiX eine eigenständige Anwendung ist, kannst du entweder eine für deine Distribution gepackte Binärdatei installieren oder sie selbst kompilieren. Jede CalculiX Version ab 2.7.x sollte mit FreeCAD funktionieren, und da der Code in den letzten Jahren nicht viel geändert wurde, können auch niedrigere Versionen als 2.7.x funktionieren.
@@ -201,6 +203,8 @@ Das Kompilieren von CalculiX ist eine Aufgabe für erfahrene Anwender und erford
 -   Debian: [Debian-Quellpaket für Calculix](http://forum.freecadweb.org/viewtopic.php?f=4&t=5975&start=10), [Gmsh 4 Paket verfügbar zum Testen im Community Extras PPA](https://forum.freecadweb.org/viewtopic.php?f=18&t=31360&start=10#p260506), [Kompilieren CalculiX ccx unter fedora, ubuntu und debian](https://forum.freecadweb.org/viewtopic.php?f=18&t=34024).
 -   Fedora 27, 28, 29: [Kompilieren CalculiX ccx unter fedora, ubuntu und debian](https://forum.freecadweb.org/viewtopic.php?f=18&t=34024).
 -   Es gibt eine CMake Version des Quellpakets in einem [github repository](https://github.com/ricortiz/CalculiX-cmake), aber in den FreeCAD Foren hat niemand berichtet, ob dieses Paket funktioniert.
+
+
 
 ### Netgen kompilieren 
 
@@ -213,6 +217,8 @@ Seitdem ist es gelungen, neuere Versionen von Netgen auszubessern und mit OCCT 7
 
 
 </div>
+
+
 
 ## Installation unter MacOSX 
 
@@ -231,6 +237,8 @@ Die folgenden Beiträge sind möglicherweise veraltet:
 
 -   [FEM auf Mac OSX, Beitrag 1](http://forum.freecadweb.org/viewtopic.php?f=18&t=10979)
 -   [MacPorts Benutzer: CalculiX port Test Anfrage](http://forum.freecadweb.org/viewtopic.php?f=8&t=14497)
+
+
 
 ## Weitere Informationen 
 

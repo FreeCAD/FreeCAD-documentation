@@ -180,7 +180,7 @@ Pasek narzędzi Rysunek Roboczy: Przyciągnij, umożliwia wybór aktywnych opcji
 
 -   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:32px;"> [Przecięcie](Draft_Snap_Intersection/pl.md): przyciąga do przecięcia dwóch krawędzi.
 
--   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:32px;"> [Prostopadle](Draft_Snap_Perpendicular/pl.md): przyciąga prostopadle do ostatniego punktu na ścianie *({{Version/pl|1.0}})* oraz krawędzi.
+-   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:32px;"> [Prostopadle](Draft_Snap_Perpendicular/pl.md): przyciąga prostopadle do ostatniego punktu na ścianie *({{Version/pl|0.21}})* oraz krawędzi.
 
 -   <img alt="" src=images/Draft_Snap_Extension.svg  style="width:32px;"> [Rozszerzenie](Draft_Snap_Extension/pl.md): przyciąga do umownej linii, która rozciąga się poza punkty końcowe segmentów linii.
 
@@ -204,7 +204,7 @@ Pasek narzędzi Rysunek Roboczy: Przyciągnij, umożliwia wybór aktywnych opcji
 
 ### Pasek narzędzi użytkowych 
 
--   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Warstwa](Draft_Layer/pl.md): tworzy [warstwę](Draft_Layer/pl.md) środowiska Rysunek Roboczy.
+-   <img alt="" src=images/Draft_LayerManager.svg  style="width:32px;"> [Zarządzaj warstwami \...](Draft_LayerManager/pl.md): Umożliwia zarządzanie warstwami w dokumencie. {{Version/pl|0.21}}
 
 -   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:32px;"> [Dodaj grupe o nazwie](Draft_AddNamedGroup/pl.md): tworzy nazwaną [Grupę Std](Std_Group/pl.md) i przenosi wybrane obiekty do tej grupy. {{Version/pl|0.20}}
 
@@ -225,6 +225,10 @@ Pasek narzędzi Rysunek Roboczy: Przyciągnij, umożliwia wybór aktywnych opcji
 Menu środowiska Rysunek Roboczy **Narzędzia** zawiera kilka narzędzi. Większość z nich jest dostępna również z pasków narzędziowych i została już wymieniona powyżej. W przypadku poniższych narzędzi nie jest to regułą.
 
 -   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Zastosuj bieżący styl](Draft_ApplyStyle/pl.md): stosuje bieżące ustawienia stylu do wybranych obiektów.
+
+-   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Warstwa](Draft_Layer/pl.md): tworzy [warstwę](Draft_Layer/pl.md) środowiska Rysunek Roboczy.
+
+Dostępne w [Pasku narzędzi użytkowych Rysunku Roboczego](Draft_Workbench/pl#Dodatkowe_narzędzia.md) {{VersionMinus/pl|0.20}}.
 
 -   <img alt="" src=images/Draft_Heal.svg  style="width:32px;"> [Uleczenie](Draft_Heal/pl.md): leczy problematyczne obiekty Rysunku Roboczego znajdujące się w bardzo starych plikach.
 
@@ -254,7 +258,7 @@ W menu kontekstowym [Widoku drzewa](Tree_view/pl.md) dostępne są następujące
 
 Dla większości obiektów Rysunku Roboczego dostępna jest następująca opcja:
 
--   Edycja: edytuje obiekt. W zależności od typu obiektu używana jest albo funkcja [Edytuj](Draft_Edit/pl.md) albo dedykowane rozwiązanie edycyjne. {{Version/pl|1.0}}
+-   Edycja: edytuje obiekt. W zależności od typu obiektu używana jest albo funkcja [Edytuj](Draft_Edit/pl.md) albo dedykowane rozwiązanie edycyjne. {{Version/pl|0.21}}
 
 Jeśli istnieje aktywny dokument, menu kontekstowe zawiera dodatkowe menu podrzędne:
 
@@ -316,11 +320,9 @@ Jeśli istnieje aktywny dokument, menu kontekstowe zawiera jedno dodatkowe menu 
 
 ## Narzędzia przestarzałe 
 
-Polecenia te są przestarzałe, ale nadal dostępne.
+-   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> [Utwórz szyk](Draft_Array/pl.md): tworzy ortogonalną tablicę z wybranego obiektu. Utworzona tablica może zostać przekształcona w [szyk biegunowy](Draft_PolarArray/pl.md) lub [szyk kołowy](Draft_CircularArray/pl.md) poprzez zmianę jej właściwości {{PropertyData/pl|Typ szyku}}. Niedostępne {{VersionPlus/pl|0.21}}.
 
--   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> [Utwórz szyk](Draft_Array/pl.md): tworzy ortogonalną tablicę z wybranego obiektu. Utworzona tablica może zostać przekształcona w [szyk biegunowy](Draft_PolarArray/pl.md) lub [szyk kołowy](Draft_CircularArray/pl.md) poprzez zmianę jej właściwości {{PropertyData/pl|Typ szyku}}. {{Obsolete/pl|0.19}}
-
--   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Projekt rysunku](Draft_Drawing/pl.md): wstawia widoki obiektów na stronie środowiska [Rysunek Roboczy](Drawing_Workbench/pl.md). {{Obsolete/pl|0.17}}
+-   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Projekt rysunku](Draft_Drawing/pl.md): wstawia widoki obiektów na stronie środowiska [Rysunek Roboczy](Drawing_Workbench/pl.md). Niedostępne {{VersionPlus/pl|0.21}}.
 
 
 
@@ -344,7 +346,7 @@ Polecenia te są przestarzałe, ale nadal dostępne.
 
 
 
-## Test jednostek 
+## Testy jednostkowe 
 
 Zobacz również: [Środowisko pracy Test](Testing/pl.md)
 

@@ -9,16 +9,24 @@
 
 # Std Cut/it
 
+
+
 ## Descrizione
 
 Il comando **Taglia** è limitato: può essere utilizzato solo per le [celle dei foglio di calcolo](Spreadsheet_Workbench/it.md). Il comando copia il contenuto e le proprietà delle celle negli Appunti e quindi le cancella.
 
 Per tagliare altri oggetti è possibile utilizzare il comando [Std Copy](Std_Copy/it.md) (Copia) seguito da un\'operazione di eliminazione.
 
+
+
 ## Utilizzo
 
 1.  Selezionare una o più celle nel foglio di calcolo.
-2.  Selezionare l\'opzione **Modifica → <img src="images/Std_Cut.svg" width=16px> Taglia** dal menu.
+2.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Std_Cut.svg" width=16px> [Taglia](Std_Cut/it.md)**.
+    -   Selezionare l\'opzione **Modifica → <img src="images/Std_Cut.svg" width=16px> Taglia** dal menu.
+
+
 
 ## Note
 

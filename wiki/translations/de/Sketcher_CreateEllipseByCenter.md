@@ -28,7 +28,7 @@ Dieses Werkzeug zeichnet eine Ellipse, indem drei Punkte ausgewählt werden: der
 
 -   Zuerst in die 3D-Ansicht klicken, um den Mittelpunkt der Ellipse festzulegen. Der zweite Klick legt den ersten Radius und die Ausrichtung der Ellipse fest. Der dritte Klick legt den anderen Radius fest (der Abstand von der durch die ersten beiden Klicks definierten Linie ist der zweite Radius).
 
--   Nach dem dritten Klick wird die Ellipse erstellt, zusammen mit einem Satz dazu ausgerichteter Konstruktionsgeometrie (großer Durchmesser, kleiner Durchmesser, zwei Brennpunkte). Die Konstruktionsgeometrie kann manuell gelöscht werden, wenn sie nicht benötigt wird, und später wiederhergestellt werden. Siehe [InterneAusrichtungFestlegen](Sketcher_ConstrainInternalAlignment/de.md) und [Sketcher InterneAusrichtungsgeometrieWiederherstellen](Sketcher_RestoreInternalAlignmentGeometry/de.md).
+-   Nach dem dritten Klick wird die Ellipse erstellt, zusammen mit einem Satz dazu ausgerichteter Konstruktionsgeometrie (großer Durchmesser, kleiner Durchmesser, zwei Brennpunkte). Die Konstruktionsgeometrie kann manuell gelöscht werden, wenn sie nicht benötigt wird, und später wiederhergestellt werden. Siehe [Sketcher InterneAusrichtungsgeometrieWiederherstellen](Sketcher_RestoreInternalAlignmentGeometry/de.md).
 
 -    **ESC**oder die rechte Maustaste drücken bricht die Funktion ab.
 

@@ -10,9 +10,23 @@
 
 {{TOCright}}
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Presentazione
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Ogni pagina TechDraw è basata su un oggetto Template. Il modello controlla la dimensione della carta e contiene degli elementi grafici e dei testi fissi, ad esempio una cornice di pagina o un bordo.
+
+
+</div>
 
 Il modello può anche contenere campi di testo modificabili per attributi come *Title*, *Subtitle*, *Author*, *Date*, *Scale*, *Weight*, *Drawing number*, e *Sheet*.
 
@@ -23,6 +37,8 @@ I modelli sono file [SVG](SVG/it.md) che possono essere creati e modificati al d
 
 
 </div>
+
+
 
 ## Proprietà
 
@@ -58,6 +74,8 @@ To select a different template for a drawing:
 
 If you have modified a template file and want to update a Page created in the current FreeCAD session that uses this template, temporarily select a different file first, and then select the modified file again.
 
+
+
 ## Modelli personalizzati 
 
 In FreeCAD è incluso un numero limitato di modelli preformattati in vari formati di pagine standard. Questi si trovano in
@@ -82,7 +100,15 @@ I modelli personalizzati possono anche essere specificati come predefiniti nelle
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Vedere anche [Come creare un modello TechDraw personalizzato](TechDraw_TemplateHowTo/it.md).
+
+
+</div>
+
+
 
 ## Note
 

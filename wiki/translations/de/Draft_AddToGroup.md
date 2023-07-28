@@ -4,13 +4,12 @@
    Name/de:Draft ZurGruppeHinzufügen
    MenuLocation:Dienstprogramme → Zur Gruppe hinzufügen...
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso:[Std Gruppe](Std_Group/de.md), [Draft Zur Konstruktionsgruppe hinzufügen](Draft_AddConstruction/de.md), [Draft Zur Gruppe hinzufügen](Draft_AutoGroup/de.md),  [Entwurf Wähle Gruppe](Draft_SelectGroup/de.md), 
+   SeeAlso:[Std Gruppe](Std_Group/de.md), [Draft BenannteGruppeHinzufügen](Draft_AddNamedGroup/de.md), [Draft ZurKonstruktionsgruppeHinzufügen](Draft_AddConstruction/de.md), [Draft Autogruppe](Draft_AutoGroup/de.md)
 ---
 
 # Draft AddToGroup/de
 
 
-</div>
 
 ## Beschreibung
 
@@ -18,38 +17,39 @@ Der <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Draft Ad
 
 In FreeCAD v0.20 kann der Befehl auch gruppenähnliche [Arch](Arch_Workbench/de.md)-Objekte handhaben.
 
+
+
 ## Anwendung
 
+1.  Ein oder mehrere Objekte auswählen.
+2.  Es gibt mehrere Wege, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_AddToGroup.svg" width=16px> [In Gruppe verschhieben...](Draft_AddToGroup/de.md)** drücken.
+    -   Den Menüeintrag **Utilities → <img src="images/Draft_AddToGroup.svg" width=16px> In Gruppe verschhieben...** auswählen.
+    -   Den Eintrag **Dienstprogramme → <img src="images/Draft_AddToGroup.svg" width=16px> In Gruppe verschhieben...** im Kontextmenü der [Baumansicht](Tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md) auswählen.
+3.  Ein Menü wird neben dem Cursor angezeigt. Tue eins der folgenden Dinge:
+    -   
+        **Ungroup**
+        
+        auswählen, um die Objekte aus der/den Gruppe/n zu verschieben, in denen sie sich befinden.
 
-<div class="mw-translate-fuzzy">
+    -   Die Gruppe auswählen, in die die Objekte verschoben werden sollen.
 
-1.  Um diesen Befehl zu benutzen, muss wenigstens eine Gruppe existieren.
-2.  Wähle ein oder mehrere Objekte.
-3.  Es gibt mehrere Wege, den Befehl aufzurufen:
-    -   Drücke die **<img src="images/Draft_AddToGroup.svg" width=16px> [Draft Zur ](Draft_AddToGroup/de.md)**-Schaltfläche.
-    -   Wähle die **Utilities → <img src="images/Draft_AddToGroup.svg" width=16px> Move to group...**-Option aus dem Menü.
-    -   Wähle die **Utilities → <img src="images/Draft_AddToGroup.svg" width=16px> Move to group...**-Option aus der [Baumansicht](Tree_view/de.md) oder dem [3D-Ansicht](3D_view/de.md)-Kontextmenü.
-4.  Ein Menü wird neben dem Cursor angezeigt. Tue eins der folgenden Dinge:
-    -   Wähle die Gruppe, in die Objekte verschoben werden sollen.
-    -   Wähle **Ungroup**, um die Objekte aus der/den Gruppe/n zu verschieben, in denen sie sich befinden.
+    -   
+        **+ Neue Gruppe hinzufügen**
+        
+        auswählen, um die Objekte in eine neue Gruppe zu bewegen: {{Version/de|0.20}}
+
+        1.  Der Aufgaben-Bereich **Gruppe hinzufügen** wird geöffnet.
+        2.  Einen **Gruppennamen** eingeben.
+        3.  Die Schaltfläche **OK** drücken.
 
 
-</div>
 
 ## Hinweise
 
 -   Objekte können auch Drag&Drop in der [Baumansicht](Tree_view/de.md) in die Gruppe verschoben werden.
 -   Dieser Befehl kann benutzt werden, um Objekte in die [Draft UmschaltenKonstruktionsmodus](Draft_ToggleConstructionMode/de.md) zu verschieben, aber, im Gegensatz zu [Draft AddConstruction](Draft_AddConstruction/de.md)-Befehl gilt dies nicht für die [construction geometry color](Draft_ToggleConstructionMode/de#Preferences.md).
 -   Für weitere Informationen zum organisieren deines Modells siehe [Dokumentstruktur](Document_structure/de.md) und [Arch-Tutorial](Arch_tutorial/de#Organizing_your_model.md).
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

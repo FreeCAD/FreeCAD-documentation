@@ -1,31 +1,38 @@
 ---
-- GuiCommand:
+- GuiCommand:/it
    Name:Std DlgMacroExecuteDirect
-   MenuLocation:Macro → Execute macro
-   Workbenches:All
+   Name/it:Esegui la macro nell'editor
+   MenuLocation:Macro → Esegui la macro
+   Workbenches:Tutti
    Shortcut:**Ctrl**+**F6**
-   SeeAlso:[Std DlgMacroExecute](Std_DlgMacroExecute.md)
+   SeeAlso:[Esegui la macro](Std_DlgMacroExecute/it.md)
 ---
 
 # Std DlgMacroExecuteDirect/it
 
-## Description
 
-The **Std DlgMacroExecuteDirect** command executes the macro in the current Macro editor window.
 
-## Usage
+## Descrizione
 
-1.  If required open the correct macro in the Macro editor. See the [Std DlgMacroExecute](Std_DlgMacroExecute.md) command.
-2.  Make sure the Macro editor window has the input focus.
-3.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Std DlgMacroExecuteDirect](Std_DlgMacroExecuteDirect.md)** button.
-    -   Select the **Macro → <img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> Execute macro** option from the menu.
-    -   Use the keyboard shortcut: **Ctrl**+**F6**.
-4.  The macro is executed.
+Il comando **Esegui la macro nell\'editor** esegue la macro nella finestra dell\'editor macro corrente.
 
-## Notes
 
--   To learn more about macros see the [Macros](Macros.md) page.
+
+## Utilizzo
+
+1.  Se necessario, aprire la macro corretta nell\'editor delle macro. Vedere il comando [Esegui la macro](Std_DlgMacroExecute/it.md).
+2.  Assicurarsi che la finestra dell\'editor macro abbia il focus di input.
+3.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Esegui la macro](Std_DlgMacroExecuteDirect/it.md)**.
+    -   Selezionare l\'opzione **Macro → <img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> Esegui la macro** dal menu.
+    -   Usare la scorciatoia da tastiera: **Ctrl**+**F6**.
+4.  La macro viene eseguita.
+
+
+
+## Note
+
+-   Per ulteriori informazioni sulle macro, vedere la pagina [Macro](Macros/it.md).
 
 
 

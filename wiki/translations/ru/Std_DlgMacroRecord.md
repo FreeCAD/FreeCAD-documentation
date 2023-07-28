@@ -9,12 +9,16 @@
 
 # Std DlgMacroRecord/ru
 
+
+
 ## Описание
 
 The **Std DlgMacroRecord** command starts a [macro](Macros.md) recording session during which user actions are stored in a FreeCAD macro, a file with the **.FCMacro** extension. A macro can later be replayed, executed, to repeat the recorded actions.
 
 ![](images/Std_DlgMacroRecord_dialog.png ) 
 *The Macro recording dialog box*
+
+
 
 ## Применение
 
@@ -31,19 +35,31 @@ The **Std DlgMacroRecord** command starts a [macro](Macros.md) recording session
     -   Press the **<img src="images/Std_MacroStopRecord.svg" width=16px> [Std MacroStopRecord](Std_MacroStopRecord.md)** button.
     -   Select the **Macro → <img src="images/Std_MacroStopRecord.svg" width=16px> Stop macro recording** option from the menu.
 
+
+
 ## Опции
 
+
+<div class="mw-translate-fuzzy">
+
 -   При отображении диалогового окна записи макросов: нажмите **Esc** или кнопку **Отмена**, чтобы прервать выполнение команды.
+
+
+</div>
+
+
 
 ## Примечания
 
 -   To execute the recorded macro use the [Std DlgMacroExecute](Std_DlgMacroExecute.md) command.
 -   To learn more about macros see the [Macros](Macros.md) page.
 
+
+
 ## Настройки
 
--   The macro path can also be changed in the preferences: **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
--   In most cases it is undesirable to record actions that do not change the model: under **Edit → Preferences... → General → Macro → GUI commands** do one of the following:
+-   The macro path can also be changed in the preferences: **Edit → Preferences... → Python → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
+-   In most cases it is undesirable to record actions that do not change the model: under **Edit → Preferences... → Python → Macro → GUI commands** do one of the following:
     -   To exclude these actions uncheck the {{CheckBox|FALSE|Record GUI commands}} checkbox.
     -   To include them as comments only check both the {{CheckBox|TRUE|Record GUI commands}} and {{CheckBox|TRUE|Record as comment}} checkboxes.
 

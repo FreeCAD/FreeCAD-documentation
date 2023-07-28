@@ -1,51 +1,62 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign AdditiveWedge
-   MenuLocation:Part Design → Create an additive primitive → Additive Wedge
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Addytywny klin
+   MenuLocation:Projekt Części → Utwórz cechę przez dodanie → Addytywny klin
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md), [PartDesign SubtractiveWedge](PartDesign_SubtractiveWedge.md)
+   SeeAlso:[Komponent bryła pierwotna do dodania](PartDesign_CompPrimitiveAdditive/pl.md), [Subtraktywny klin](PartDesign_SubtractiveWedge/pl.md)
 ---
 
 # PartDesign AdditiveWedge/pl
 
-## Description
 
-Inserts a primitive wedge in the active Body as the first feature, or fuses it to the existing feature(s).
+
+## Opis
+
+Funkcja ta wstawia pierwotny klin do aktywnej Zawartości jako pierwszy element lub łączy go z istniejącymi elementami.
 
 <img alt="" src=images/PartDesign_AdditiveWedge_example.png  style="width:200px;">
 
-## Usage
 
-1.  Press the **<img src="images/PartDesign_AdditiveWedge.svg" width=24px> '''Additive Wedge'''** button. **Note**: the Additive Wedge is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. To get the Wedge, click on the down arrow besides the visible icon and select Additive Wedge in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  A Wedge feature appears under the active Body.
 
-## Options
+## Użycie
 
-The Wedge can be edited after its creation in two ways:
+1.  Naciśnij przycisk **<img src="images/PartDesign_AdditiveWedge.svg" width=24px> '''Addytywny klin'''**. **Uwaga**: Addytywny klin jest częścią menu narzędzi o nazwie **Utwórz bryłę pierwotną do dodania**. Po uruchomieniu programu FreeCAD, Addytywny prostopadłościan wyświetlany jest na pasku narzędzi domyślnie. Aby przejść do funkcji Klin, kliknij strzałkę w dół na widocznej ikonce i wybierz z menu opcję Addytywny walec.
+2.  Ustaw parametry bryły i [dołączenia](Part_EditAttachment/pl.md).
+3.  Kliknij **OK**.
+4.  Pod aktywnym obiektem Zawartość pojawi się element Klin.
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
 
-## Properties
 
-Using the default placement, the below inputs are:
+## Opcje
 
--    **X min/max**: Base face X axis span
+Klin można edytować po jego utworzeniu na dwa sposoby:
 
--    **Y min/max**: Wedge height span
+-   Klikając go dwukrotnie w drzewie modelu lub klikając prawym przyciskiem myszy i wybierając **Edytuj bryłę pierwotną** z menu podręcznego. Spowoduje to wyświetlenie parametrów bryły pierwotnej.
+-   Poprzez [Edytor właściwości](Property_editor/pl.md).
 
--    **Z min/max**: Base face Z axis span
 
--    **X2 min/max**: Top face X axis span
 
--    **Z2 min/max**: Top face Z axis span
+## Właściwości
 
-## Pyramids
+Korzystając z domyślnego rozmieszczenia, poniższe dane wejściowe są następujące:
 
-Wedges can be used to create pyramids by setting **X2 min/max** and **Z2 min/max** each so that min = max.
+-    **X min/max**: Rozpiętość osi X ściany bazowej.
+
+-    **Y min/max**: Rozpiętość wysokości klina
+
+-    **Z min/max**: rozpiętość osi Z ściany bazowej
+
+-    **X2 min/max**: Rozpiętość osi X ściany górnej
+
+-    **Z2 min/max**: Rozpiętość osi Z górnej ściany
+
+
+
+## Piramidy
+
+Kliny mogą być używane do tworzenia piramid poprzez ustawienie **X2 min/max** i **Z2 min/max** tak, aby wartość min = max.
 
 
 

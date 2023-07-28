@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:TechDraw View
    Name/fr:TechDraw Vue
-   MenuLocation:TechDraw → Insérer une vue
+   MenuLocation:TechDraw → Vues de Techdraw → Insérer une vue
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    SeeAlso:[TechDraw Projection de groupe](TechDraw_ProjectionGroup/fr.md), [TechDraw Vue de coupe](TechDraw_SectionView/fr.md)
 ---
@@ -11,26 +11,32 @@
 
 ## Description
 
-L\'outil Vue ajoute une représentation d\'un ou plusieurs objets à une page de dessin. Il s\'agit de la composante de base de l\'atelier TechDraw. La plupart des autres vues sont dérivées d\'une manière ou d\'une autre de Vue.
+L\'outil **TechDraw Vue** ajoute une représentation d\'un ou plusieurs objets à une page de dessin. Il s\'agit de la composante de base de l\'atelier TechDraw. La plupart des autres vues sont dérivées d\'une manière ou d\'une autre de Vue.
 
-La Vue dessine n\'importe quel objet qui a une propriété de `Shape`. Vous pouvez sélectionner des [esquisses](Sketcher_Workbench/fr.md), des [corps](PartDesign_Body/fr.md), des [objets Draft](Draft_Workbench/fr.md) etc. La Vue extraira également toutes les formes des objets d\'un [Std Part](Std_Part/fr.md) ou d\'un [Std Groupe](Std_Group/fr.md).
+La Vue dessine n\'importe quel objet qui a une propriété de `Shape`. Vous pouvez sélectionner des [esquisses](Sketcher_Workbench/fr.md), des [PartDesign corps](PartDesign_Body/fr.md), des [Draft objets](Draft_Workbench/fr.md) etc. La Vue extraira également toutes les formes des objets d\'un [Std Part](Std_Part/fr.md) ou d\'un [Std Groupe](Std_Group/fr.md).
 
 ![](images/TechDraw_View_example.png ) 
 *Vue d'une boîte pleine avec des lignes cachées*
 
+
+
 ## Utilisation
 
-1.  En outre, vous pouvez faire pivoter la [Vue 3D](3D_view/fr.md). La direction de la caméra dans la [Vue 3D](3D_view/fr.md) détermine la valeur initiale de la propriété **Direction** de la vue.
-2.  Sélectionnez un ou plusieurs objets dans la [Vue 3D](3D_view/fr.md) ou la [vue en arborescence](Tree_view/fr.md).
-3.  S\'il y a plusieurs pages de dessin dans le document : ajoutez éventuellement la page souhaitée à la sélection en la sélectionnant dans la [vue en arborescence](Tree_view/fr.md). Ceci n\'est pas possible pour {{VersionMinus/fr|0.19}}.
+1.  Faites pivoter la [vue 3D](3D_view/fr.md). À moins qu\'une face ne soit sélectionnée à l\'étape suivante, la direction de la caméra dans la [vue 3D](3D_view/fr.md) détermine la valeur initiale de la propriété **Direction** de la vue.
+2.  Sélectionnez un ou plusieurs objets dans la [vue 3D](3D_view/fr.md) ou dans la [vue en arborescence](Tree_view/fr.md). Lors de la sélection dans la vue 3D, la première face sélectionnée détermine la valeur initiale de la propriété **Direction**.
+3.  S\'il y a plusieurs pages de dessin dans le document : ajoutez éventuellement la page souhaitée à la sélection en la sélectionnant dans la [vue en arborescence](Tree_view/fr.md).
 4.  Il existe plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_View.svg" width=16px> [Insérer une vue](TechDraw_View/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → <img src="images/TechDraw_View.svg" width=16px> Insérer une vue** dans le menu.
-5.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore sélectionné de page, la boîte de dialogue **Page Chooser** s\'ouvre : {{Version/fr|0.20}}
+    -   Sélectionnez l\'option **TechDraw → Vues de Techdraw → <img src="images/TechDraw_View.svg" width=16px> Insérer une vue** du menu.
+5.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore sélectionné de page, la boîte de dialogue **Sélecteur de page** s\'ouvre : {{Version/fr|0.20}}
     1.  Sélectionnez la page souhaitée.
     2.  Appuyez sur le bouton **OK**.
 
+
+
 ## Propriétés
+
+
 
 ### Données
 
@@ -62,9 +68,9 @@ La Vue dessine n\'importe quel objet qui a une propriété de `Shape`. Vous pouv
         
         : utilise l\'échelle définie par **Scale**.
 
--    **Scale|FloatConstant**: La vue sera rendue sur la page dans un rapport échelle:1 par rapport à la source. (1)
+-    **Scale|FloatConstant**: la vue sera rendue sur la page dans un rapport échelle:1 par rapport à la source. (1)
 
--    **Caption|String**: Légende courte optionnelle. (1)
+-    **Caption|String**: légende de texte courte optionnelle. (1)
 
 
 {{TitleProperty|Cosmetics}}
@@ -107,15 +113,17 @@ La Vue dessine n\'importe quel objet qui a une propriété de `Shape`. Vous pouv
 
 -    **Source|LinkList**: liens vers les objets dessinables à représenter.
 
--    **XSource|XLLinkList**: liens vers les objets dessinables dans un fichier externe. <small>(v0.19)</small> 
+-    **XSource|XLLinkList**: liens vers les objets dessinables dans un fichier externe.
 
 -    **Direction|Vector**: ce vecteur contrôle la direction depuis laquelle vous regardez l\'objet. +X est la droite, -X est la gauche, +Y est l\'arrière, -Y est l\'avant (regardant dans l\'écran), +Z est le haut et -Z est le bas. Ainsi, une vue de face est (0,-1,0) et une vue isométrique est (1,-1,1).
 
--    **XDirection|Vector**: ce vecteur contrôle la rotation de la vue autour de la direction. {{Version/fr|0.19}}.
+-    **XDirection|Vector**: ce vecteur contrôle la rotation de la vue autour de la direction.
 
 -    **Perspective|Bool**: `True` pour une projection en perspective, `False` pour une projection orthogonale.
 
 -    **Focus|Distance**: distance entre la caméra et le plan de projection pour les projections en perspective. Doit être ajustée pour s\'adapter à l\'objet. Trop loin et la perspective est perdue, trop près et l\'objet est déformé.
+
+
 
 ### Vue
 
@@ -124,7 +132,7 @@ La Vue dessine n\'importe quel objet qui a une propriété de `Shape`. Vous pouv
 
 -    **Keep Label|Bool**: toujours afficher l\'étiquette de la vue si `True`. (1)
 
--    **Stack Order|Integer**: Sur ou sous le niveau d\'empilement par rapport aux autres vues. (1) {{Version/fr|1.0}}
+-    **Stack Order|Integer**: sur ou sous le niveau d\'empilement par rapport aux autres vues. (1) {{Version/fr|0.21}}
 
 
 {{TitleProperty|Decoration}}
@@ -167,18 +175,39 @@ La Vue dessine n\'importe quel objet qui a une propriété de `Shape`. Vous pouv
 
 \(1\) ces propriétés sont communes à tous les types de vues.
 
+
+
 ## Script
 
 Voir aussi : [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Vue peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes:
+Une Vue coupe peut être crée à partir de [macros](Macros/fr.md) et de la console [Python](Python/fr.md) en utilisant la fonction suivante :
 
 
 ```python
-view = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewPart', 'View')
-rc = page.addView(view)
-FreeCAD.ActiveDocument.View.Source = [App.ActiveDocument.Box]
-FreeCAD.ActiveDocument.View.Direction = (0.0, 0.0, 1.0)
+import FreeCAD as App
+
+doc = App.ActiveDocument
+box = doc.addObject("Part::Box", "Box")
+
+page = doc.addObject("TechDraw::DrawPage", "Page")
+template = doc.addObject("TechDraw::DrawSVGTemplate", "Template")
+template.Template = App.getResourceDir() + "Mod/TechDraw/Templates/A4_LandscapeTD.svg"
+page.Template = template
+
+# Toggle the visibility of the page to ensure its width and height are updated (hack):
+page.Visibility = False
+page.Visibility = True
+
+view = doc.addObject("TechDraw::DrawViewPart", "View")
+page.addView(view)
+view.Source = [box]
+view.Direction = (0, 0, 1)
+
+view.X = page.PageWidth / 2
+view.Y = page.PageHeight / 2
+
+doc.recompute()
 ```
 
 

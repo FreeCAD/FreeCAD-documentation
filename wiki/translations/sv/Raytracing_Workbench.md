@@ -1,12 +1,10 @@
 # Raytracing Workbench/sv
-**The Raytracing workbench is essentially obsolete. New development is happening in the [https://github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. This workbench is fully programmed in Python so it is much easier to extend.
-
-Nevertheless, the information in this page is generally useful for the new workbench, as both modules work basically in the same way.
-**
+**The '''Raytracing Workbench''' is no longer included after version 0.20.<br>
+ The external [https://github.com/FreeCAD/FreeCAD-render Render Workbench] should be used instead.**
 
 <img alt="Raytracing workbench icon" src=images/Workbench_Raytracing.svg  style="width:128px;">
 
-Denna modul är tänkt att skicka innehållet i din scen till en extern [rendererare](http://sv.wikipedia.org/wiki/Rendering), för att generera fotorealistiska bilder på ditt arbete. Renderingsmodulen är fortfarande i ett mycket tidigt skede, så du har inte så många tillgängliga alternativ för tillfället. För närvarande finns endast ett grundläggande verktygsset för att exportera Del objekt som [POV-ray](http://sv.wikipedia.org/wiki/POV-Ray) filer. Dessa filer kan sedan laddas i POV-ray och renderas.
+ Denna modul är tänkt att skicka innehållet i din scen till en extern [rendererare](http://sv.wikipedia.org/wiki/Rendering), för att generera fotorealistiska bilder på ditt arbete. Renderingsmodulen är fortfarande i ett mycket tidigt skede, så du har inte så många tillgängliga alternativ för tillfället. För närvarande finns endast ett grundläggande verktygsset för att exportera Del objekt som [POV-ray](http://sv.wikipedia.org/wiki/POV-Ray) filer. Dessa filer kan sedan laddas i POV-ray och renderas.
 
 
 {{TOCright}}
@@ -17,7 +15,7 @@ The Raytracing Workbench works with [templates](Raytracing_templates.md), which 
 
 Currently, two renderers are supported: [POV-Ray](POV-Ray.md) and [LuxRender](LuxRender.md). To be able to render from within FreeCAD, at least one of these programs must be installed and configured in your system. However, if no renderer is installed, you will still be able to export a project file to be rendered at another time.
 
-The Raytracing workbench is essentially obsolete. New development is happening in the [Render Workbench](https://github.com/FreeCAD/FreeCAD-render), which is intended as its replacement. This workbench is fully programmed in Python so it is much easier to extend than the current workbench which is programmed in C++. Nevertheless, the information in this page is generally useful for the new workbench, as both modules work basically in the same way.
+The Raytracing workbench is obsolete, the external [Render Workbench](https://github.com/FreeCAD/FreeCAD-render) is its replacement. Nevertheless, the information on this page is generally useful for the new workbench, as both basically work in the same way.
 
 <img alt="" src=images/Raytracing_example.jpg  style="width:1024px;">
 
@@ -33,6 +31,8 @@ The Raytracing workbench is essentially obsolete. New development is happening i
 
 
 *Workflow of the Raytracing Workbench; the workbench prepares a project file from a given template, and then calls an external program to produce the actual rendering of the scene. The external renderer can be used independently of FreeCAD.*
+
+
 
 ### Gränssnittsverktyg
 
@@ -74,9 +74,13 @@ You will be asked for a location to save the resulting \*.pov file. After that y
 
 As usual in a renderer you can make big and nice pictures: <img alt="" src=images/Scharniergreifer_render.jpg  style="width:800px;">
 
+
+
 ### Skript
 
 See the [Raytracing API example](Raytracing_API_example.md) for information on writing scenes programmatically.
+
+
 
 ### Länkar
 
@@ -132,7 +136,13 @@ These pages refer to the new workbench, programmed in Python, meant to replace t
 -   [FreeCAD Renderer Workbench improvements](https://forum.freecadweb.org/viewtopic.php?t=39168)
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{docnav/sv|Drawing Workbench/sv|Draft Workbench/sv}}
+
+
+</div>
 
 
 {{Raytracing Tools navi
@@ -142,4 +152,4 @@ These pages refer to the new workbench, programmed in Python, meant to replace t
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/sv

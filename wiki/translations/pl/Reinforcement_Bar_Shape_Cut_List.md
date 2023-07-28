@@ -1,47 +1,55 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Reinforcement Bar Shape Cut List
-   MenuLocation:Reinforcement → Rebar Shape Cut List
-   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Name/pl:Zbrojenie: Zestawienie kształtów i cięć prętów
+   MenuLocation:Zbrojenie → Zestawienie kształtów i cięć prętów
+   Workbenches:[Architektura](Arch_Workbench/pl.md), [BIM](BIM_Workbench/pl.md)
    Version:0.19
-   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar Reinforcement Drawing Dimensioning](Arch_Rebar_Drawing_Dimensioning.md), [Arch Rebar BOM](Arch_Rebar_BOM.md)
+   SeeAlso:[Zbrojenie](Reinforcement_Workbench/pl.md), [Wymiarowanie rysunku zbrojenia](Arch_Rebar_Drawing_Dimensioning/pl.md), [Zestawienie zbrojenia](Arch_Rebar_BOM/pl.md)
 ---
 
 # Reinforcement Bar Shape Cut List/pl
 
-## Description
 
-The [Rebar Shape Cut List](Reinforcement_Bar_Shape_Cut_List.md) tool allows the user to create the rebar shape cut list of reinforcing bars.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+## Opis
+
+Narzędzie **Zestawienie kształtów i cięć prętów zbrojeniowych** umożliwia użytkownikowi utworzenie listy elementów ciętych kształtów prętów zbrojeniowych.
+
+To polecenie jest częścią [zewnętrznego środowiska pracy](External_workbenches/pl.md) [Zbrojenie](Reinforcement_Workbench/pl.md), które można zainstalować za pomocą <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md) poprzez menu **Przybory → Menadżera dodatków → Zbrojenie**.
 
 <img alt="" src=images/Reinforcement_Bar_Shape_Cut_List_example.svg  style="width:800px;">
 
 
 
-*Rebar Shape Cut List of reinforcing bars*
+*Pręty zbrojeniowe. Wykaz kształtów i cięcia*
 
-## Usage
 
-1\. Select **<img src="images/Arch_Rebar.svg" width=16px> [Arch Rebar](Arch_Rebar.md)** and Rebar2 objects you want to include in Rebar Shape Cut List. Or select **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** objects to include **<img src="images/Arch_Rebar.svg" width=16px> [Arch Rebar](Arch_Rebar.md)** and Rebar2 objects hosted by that into Rebar Shape Cut List. If nothing is selected, then Rebar Shape Cut List will be generated for all **<img src="images/Arch_Rebar.svg" width=16px> [Arch Rebar](Arch_Rebar.md)** and Rebar2 objects present in the model.
 
-2\. Then select **<img src="images/Reinforcement_Bar_Shape_Cut_List.svg" width=16px> [Rebar Shape Cut List](Reinforcement_Bar_Shape_Cut_List.md)** from the rebar tools.
+## Użycie
 
-3\. A dialog box will pop-out on the screen as shown below.
+1\. Wybierz obiekty **<img src="images/Arch_Rebar.svg" width=16px> [Prętów](Arch_Rebar/pl.md)** i Prętów2, które chcesz uwzględnić w zestawieniu kształtów i cięcia. Lub wybierz obiekty **<img src="images/Arch_Structure.svg" width=16px> [konstrukcji](Arch_Structure/pl.md)** do uwzględnienia obiektów **<img src="images/Arch_Rebar.svg" width=16px> [Pręta](Arch_Rebar/pl.md)** i Pręta2 w zestawieniu kształtów i cięcia. Jeśli nic nie zostanie zaznaczone, wygenerowany zostanie zestawieniu kształtów i cięcia dla wszystkich obiektów **<img src="images/Arch_Rebar.svg" width=16px> [Prętów](Arch_Rebar/pl.md)** i Prętów2 obecnych w modelu.
+
+2\. Następnie wybierz **<img src="images/Reinforcement_Bar_Shape_Cut_List.svg" width=16px>
+'''Zestawienie kształtów i cięć prętów'''** z menu narzędzi prętów zbrojeniowych.
+
+3\. Na ekranie pojawi się okno dialogowe, jak pokazano poniżej.
 
 ![](images/Reinforcement_Bar_Shape_Cut_List_Dialog.png )
 
 
 
-*Dialog Box for the Reinforcement Bar Shape Cut List tool*
+*Okno dialogowe narzędzia Zestawienie kształtów i cięć prętów*
 
-4\. Modify data to suit your requirements.
+4\. Zmodyfikuj dane, aby dostosować je do swoich wymagań.
 
-5\. Click **OK** or **Apply** to generate Rebar Shape Cut List for rebars.
+5\. Kliknij **OK** lub **Zastosuj**, aby wygenerować Zestawienie kształtów i cięć prętów.
 
-6\. Click **Cancel** to exit the dialog box.
+6\. Kliknij **Anuluj**, aby zamknąć okno dialogowe.
 
-## Properties
+
+
+## Właściwości
 
 **General:**
 

@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introduction
 
 L\'<img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [atelier Fasteners](Fasteners_Workbench/fr.md) est un [atelier externe](External_workbenches/fr.md) qui permet d\'ajouter diverses fixations aux pièces.
@@ -11,6 +13,8 @@ L\'<img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [at
 *La barre d'outils unique optionnelle de l'atelier.<br>
 Les fixations à dimensions métriques ont des icônes orange.<br>
 Les fixations dont les dimensions sont en pouces ont des icônes vertes.*
+
+
 
 ## Installation
 
@@ -37,9 +41,13 @@ Les fixations dont les dimensions sont en pouces ont des icônes vertes.*
             : les fixations sont regroupées dans des barres d\'outils avec des boutons déroulants.
     3.  Redémarrez FreeCAD.
 
+
+
 ## Utilisation
 
 Les fixations peuvent être attachées ou non attachées. Les fixations attachées ont une **base Object**, un bord circulaire, et leur **Placement** est dynamiquement lié à cet objet. La commande <img alt="" src=images/Fasteners_Move.svg  style="width:16px;"> [Fasteners Move](Fasteners_Move/fr.md) peut être utilisée pour fixer ou détacher une fixation.
+
+
 
 ### Fixations non attachées 
 
@@ -49,6 +57,8 @@ Les fixations peuvent être attachées ou non attachées. Les fixations attaché
     1.  Sélectionnez la fixation.
     2.  Allez dans l\'onglet **Data** de l\'[Éditeur de propriétés](Property_editor/fr.md).
     3.  Modifiez les propriétés requises.
+
+
 
 ### Fixations attachées 
 
@@ -64,10 +74,14 @@ Les fixations peuvent être attachées ou non attachées. Les fixations attaché
 7.  Les fixations qui apparaissent à l\'envers peuvent être inversées avec la commande <img alt="" src=images/Fasteners_Flip.svg  style="width:16px;"> [Fasteners Flip](Fasteners_Flip/fr.md) ou en modifiant leur propriété **invert**.
 8.  Changez éventuellement la propriété **offset** pour créer un espace entre les fixations et les bords auxquels elles sont attachées.
 
+
+
 ## Remarques
 
 -   Pour générer des filetages, la propriété **thread** d\'une fixation doit être changée en `True`. La génération de filetages est coûteuse. Les recalculs prennent beaucoup plus de temps s\'il y a beaucoup de fixations avec des filetages dans un document.
 -   La propriété **invert** et la propriété **offset** sont ignorées pour les fixations non attachées.
+
+
 
 ## Commandes
 
@@ -89,9 +103,13 @@ Les fixations peuvent être attachées ou non attachées. Les fixations attaché
 
 -   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:32px;"> [Change fastener parameters](Fasteners_ChangeParameters/fr.md) : change les paramètres des fixations.
 
+
+
 ## Fixations
 
 Les fixations avec des dimensions métriques ont des icônes orange. Les fixations aux dimensions en pouces ont des icônes vertes.
+
+
 
 #### Fixations autobloquantes et fixations pour PCB 
 
@@ -107,7 +125,11 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 -   <img alt="" src=images/Fasteners_IUTHeatInsert.svg  style="width:32px;"> Insert pour piquage à chaud.
 
+
+
 ### Vis et boulons à tête hexagonale 
+
+-   <img alt="" src=images/Fasteners_DIN933.svg  style="width:32px;"> **DIN 933** Vis à tête hexagonale.
 
 -   <img alt="" src=images/Fasteners_ISO4017.svg  style="width:32px;"> 
 **ISO 4017** Vis à tête hexagonale. *Catégories de produits A et B.*
@@ -124,6 +146,8 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width:32px;"> **ASME B18.2.1.6** Vis à tête hexagonale UNC.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.8.svg  style="width:32px;"> **ASME B18.2.1.8** Vis à tête hexagonale UNC avec bride.
+
+
 
 ### Vis à six pans creux 
 
@@ -169,6 +193,8 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 -   <img alt="" src=images/Fasteners_ASMEB18.3.5D.svg  style="width:32px;"> **ASME B18.3.5D** Vis à tête hexagonale UNC à bout cuvette.
 
+
+
 ### Vis à tête creuse hexalobulaire 
 
 -   <img alt="" src=images/Fasteners_ISO14579.svg  style="width:32px;"> **ISO 14579** Vis à tête cylindrique à six pans creux.
@@ -180,6 +206,8 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 -   <img alt="" src=images/Fasteners_ISO14583.svg  style="width:32px;"> **ISO 14583** Vis à tête cylindrique à six pans creux.
 
 -   <img alt="" src=images/Fasteners_ISO14584.svg  style="width:32px;"> **ISO 14584** Vis à tête fraisée à six pans creux.
+
+
 
 ### Vis à tête fendue 
 
@@ -198,6 +226,8 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 -   <img alt="" src=images/Fasteners_GOST1144-2.svg  style="width:32px;"> **GOST 1144-2** Vis à bois à tête demi-ronde fendue.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.6.3.1A.svg  style="width:32px;"> **ASME B18.6.3.1A** Vis à tête plate fendue et fraisée UNC.
+
+
 
 ### Vis type H à tête cruciforme 
 
@@ -218,11 +248,19 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 -   <img alt="" src=images/Fasteners_GOST1144-4.svg  style="width:32px;"> **GOST 1144-4** Vis à bois à tête demi-ronde avec empreinte en croix de type H.
 
+
+
 ### Autres têtes de boulon 
 
 -   <img alt="" src=images/Fasteners_DIN603.svg  style="width:32px;"> **DIN 603** Boulon à tête carrée - boulon de carrosserie.
 
+-   <img alt="" src=images/Fasteners_DIN478.svg  style="width:32px;"> **DIN 478** Vis à tête carrée à embase cylindrique.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.1.1.svg  style="width:32px;"> **ASME B18.2.1.1** Boulon à tête carrée UNC.
+
 -   <img alt="" src=images/Fasteners_ASMEB18.5.2.svg  style="width:32px;"> **ASME B18.5** Boulon à tête carrée - boulon de carrosserie.
+
+
 
 ### Écrous
 
@@ -239,9 +277,21 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 -   <img alt="" src=images/Fasteners_DIN917.svg  style="width:32px;"> **DIN 917** Écrou borgne, forme basse.
 
+-   <img alt="" src=images/Fasteners_DIN928.svg  style="width:32px;"> **DIN 928** Écrou à souder carré
+
+-   <img alt="" src=images/Fasteners_DIN929.svg  style="width:32px;"> **DIN 929** Écrou hexagonal à souder.
+
+-   <img alt="" src=images/Fasteners_DIN935.svg  style="width:32px;"> **DIN 935** Écrou hexagonal à créneaux.
+
+-   <img alt="" src=images/Fasteners_DIN6334.svg  style="width:32px;"> **DIN 6334** Écrou de rallonge hexagonal.
+
+-   <img alt="" src=images/Fasteners_DIN7967.svg  style="width:32px;"> **DIN 7967** Écrou PAL auto-freinés.
+
 -   <img alt="" src=images/Fasteners_DIN1587.svg  style="width:32px;"> **DIN 1587** Écrou borgne.
 
 -   <img alt="" src=images/Fasteners_GOST11860-1.svg  style="width:32px;"> **GOST 11860-1** Écrou borgne.
+
+-   <img alt="" src=images/Fasteners_DIN315.svg  style="width:32px;"> **DIN 315** Écrou à oreilles.
 
 -   <img alt="" src=images/Fasteners_DIN557.svg  style="width:32px;"> **DIN 557** Écrou carré.
 
@@ -249,17 +299,39 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 -   <img alt="" src=images/Fasteners_DIN985.svg  style="width:32px;"> **DIN 985** Écrou Nylstop.
 
--   <img alt="" src=images/Fasteners_ASMEB18.2.2.1A.svg  style="width:32px;"> **ASME B18.2.2.1A** Écrou à vis mécanique UNC.
+-   <img alt="" src=images/Fasteners_DIN1624.svg  style="width:32px;"> **DIN 1624** Écrou en T 4 griffes.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.1A.svg  style="width:32px;"> **ASME B18.2.2.1A** Écrou hexagonal filetage UNC.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.1B.svg  style="width:32px;"> **ASME B18.2.2.1B** Écrou carré filetage UNC.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.2.svg  style="width:32px;"> **ASME 18.2.2.2** Écrou carré UNC.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4A.svg  style="width:32px;"> **ASME B18.2.2.4A** Écrou hexagonal UNC.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4B.svg  style="width:32px;"> **ASME B18.2.2.4B** Écrou mince hexagonal UNC.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.5.svg  style="width:32px;"> **ASME 18.2.2.5** Écrou hexagonal à créneaux UNC.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.12.svg  style="width:32px;"> **ASME 18.2.2.12** Écrou hexagonal avec embase UNC.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.13.svg  style="width:32px;"> **ASME 18.2.2.13** Écrou de rallonge hexagonal UNC.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.6.9A.svg  style="width:32px;"> **ASME 18.6.9A** Écrou à oreilles, type A.
+
+-   <img alt="" src=images/Fasteners_SAEJ483a1.svg  style="width:32px;"> **SAE J483a 1** Écrou borgne, forme basse.
+
+-   <img alt="" src=images/Fasteners_SAEJ483a2.svg  style="width:32px;"> **SAE J483a 2** Écrou borgne, forme haute.
+
+
 
 ### Écrous pour rainures en T 
 
 -   <img alt="" src=images/Fasteners_DIN508.svg  style="width:32px;"> **DIN 508** Écrou pour rainures en T.
 
 -   <img alt="" src=images/Fasteners_GN507.svg  style="width:32px;"> **GN 507** Écrou pour rainures en T.
+
+
 
 ### Rondelles
 
@@ -281,6 +353,8 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width:32px;"> **ASME B18.21.1.12C** Rondelle UN, série large.
 
+
+
 ### Circlips
 
 -   <img alt="" src=images/Fasteners_DIN471.svg  style="width:32px;"> **DIN 471** Circlips extérieurs.
@@ -288,6 +362,8 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 -   <img alt="" src=images/Fasteners_DIN472.svg  style="width:32px;"> **DIN 472** Circlips intérieurs.
 
 -   <img alt="" src=images/Fasteners_DIN6799.svg  style="width:32px;"> **DIN 6799** Bague d\'arrêt pour arbre.
+
+
 
 ### Divers
 
@@ -303,6 +379,8 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 -   <img alt="" src=images/Fasteners_ThreadedRodInch.svg  style="width:32px;"> Tige filetée *UNC* de longueur arbitraire.
 
+
+
 ## Références
 
 -   Auteur : [shaise](http://theseger.com/projects/author/shaise/)
@@ -312,6 +390,8 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 -   Code source : <https://github.com/shaise/FreeCAD_FastenersWB>
 -   Rapports de bogues et demandes de fonctionnalités : <https://github.com/shaise/FreeCAD_FastenersWB/issues>
 -   Sujet de forum : <https://forum.freecadweb.org/viewtopic.php?t=11429>
+
+
 
 ## Liens
 

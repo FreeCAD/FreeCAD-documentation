@@ -15,6 +15,8 @@
 
 ![](images/Arch_tutorial_00.jpg )
 
+
+
 ## Wprowadzenie
 
 Ten poradnik ma na celu przekazać Państwu podstawy do pracy z środowiskiem pracy [Architektura](Arch_Workbench/pl.md). Postaram się uczynić go wystarczająco łatwym, abyś nie potrzebował żadnego wcześniejszego doświadczenia z programem FreeCAD, ale posiadanie doświadczenia z aplikacjami 3D lub [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) będzie pomocne. W każdym razie, powinieneś być przygotowany na poszukiwanie dalszych informacji o tym jak działa program FreeCAD w [Dokumentacji FreeCAD na Wiki](Main_Page/pl.md). Strona [Jak zacząć](Getting_started/pl.md) stanowi minimum do zapoznania się, jeśli nie miałeś wcześniej doświadczenia z programem FreeCAD. Sprawdź również naszą sekcję [poradniki](Tutorials/pl.md), a na stronie [youtube](http://www.youtube.com/results?search_query=freecad) znajdziesz również dużo więcej wideo poradników dla FreeCAD.
@@ -47,6 +49,8 @@ W czasie, gdy piszę ten artykuł, środowisko pracy [Architektura](Arch_Workben
 
 {{Note|Wymagana jest wersja FreeCAD minimum 0.14|Ten poradnik został napisany przy użyciu [FreeCAD 0.14](Release_notes_0.14.md). Do wykonania tego ćwiczenia potrzebna więc jest co najmniej ta wersja. Wcześniejsze wydania mogą nie zawierać wszystkich potrzebnych narzędzi, lub mogą nie posiadać przedstawionych tutaj opcji.}}
 
+
+
 ## Typowy proces pracy 
 
 Środowisko pracy [Architektura](Arch_Workbench/pl.md) wykonane jest głównie dla dwóch rodzajów schematów pracy:
@@ -58,6 +62,8 @@ W czasie, gdy piszę ten artykuł, środowisko pracy [Architektura](Arch_Workben
 ![](images/Arch_tutorial_01.jpg )
 
 W tym poradniku będziemy modelować dom w 3D, na podstawie rysunków 2D, które pobierzemy z sieci, a następnie wydobędziemy z niego dokumenty 2D, takie jak plany, elewacje i przekroje.
+
+
 
 ## Przygotowania
 
@@ -73,6 +79,8 @@ Tak wygląda plik po otwarciu go, we FreeCAD. Zmieniłem również grubość śc
 ![](images/Arch_tutorial_02.jpg )
 
 Importer [DXF importer](Draft_DXF/pl.md) *(który zajmuje się również plikami DWG, ponieważ podczas importu plików DWG są one po prostu najpierw konwertowane do DXF)* grupuje importowane obiekty według warstw. W FreeCAD nie ma żadnej warstwy, ale są [grupy](Std_Group/pl.md). [Grupy](Std_Group/pl.md) oferują podobny sposób porządkowania obiektów w plikach, ale nie mają specyficznych właściwości, takich jak warstwy programu AutoCAD, które mają zastosowanie do ich zawartości. Można je jednak umieszczać wewnątrz innych grup, co jest bardzo przydatne. Pierwszą rzeczą, którą możemy chcieć tutaj zrobić, jest utworzenie nowej [grupy](Std_Group/pl.md) w widoku [drzewa](Document_structure/pl.md), kliknięcie prawym przyciskiem myszy na ikonę dokumentu, dodanie grupy, kliknięcie jej prawym przyciskiem myszy w celu zmiany jej nazwy na *podstawowe plany 2D* i przeciągnięcie do niej wszystkich innych obiektów.
+
+
 
 ## Budowa ścian 
 
@@ -120,6 +128,8 @@ Teraz przenieśmy nasze mury poziomo, na ich właściwe miejsce. Skoro mamy punk
 
 W końcu zmieniłem kolor niektórych ścian na ceglany *(dzięki czemu łatwiej jest je rozpoznać)* i wprowadziłem niewielką korektę: Niektóre ściany nie zachodzą na dach, ale zatrzymują się na wysokości 2,60m. Ja skorygowałem wysokość tych ścian.
 
+
+
 ## Podnoszenie konstrukcji 
 
 Teraz, ponieważ będziemy musieli wyciąć nasze ściany z odejmowaną objętością, równie dobrze możemy zobaczyć, czy nie ma innych obiektów, które będą musiały być wycięte w ten sposób. Są, niektóre z kolumn. Jest to dobra okazja, aby wprowadzić drugi obiekt architektury: [konstrukcja](Arch_Structure/pl.md). Obiekty Struktury zachowują się mniej więcej jak ściany, ale nie są przystosowane do podążania za linią odniesienia. Wolą raczej pracować z profilem, który jest wyciągany *(wzdłuż linii profilu lub nie)*. Każdy płaski obiekt może być profilem dla danej konstrukcji, z jednym tylko wymogiem: muszą one tworzyć kształt zamknięty.
@@ -133,6 +143,8 @@ Po przekonwertowaniu wszystkich naszych kolumn na płaszczyzny, możemy użyć n
 Na powyższym obrazku widać dwie kolumny, które są nadal takie same jak w pliku DWG, dwie, które zostały zaktualizowane do postaci powierzchni czołowych i dwie, które zostały przekształcone w obiekty konstrukcyjne, a ich wysokość została ustawiona na 6m i 2,25m.
 
 Zauważ, że te różne obiekty Arch *(mury, konstrukcje i wszystkie inne, które odkryjemy)* mają wiele wspólnego *(na przykład wszystkie mogą być dodane do siebie, jak już widzieliśmy w przypadku ścian, a każdy z nich może być przekształcony w inny)*. Jest to więc bardziej kwestia gustu, mogliśmy zrobić nasze kolumny również za pomocą narzędzia do budowania ścian i przekształcić je w razie potrzeby. W rzeczywistości, niektóre z naszych ścian są betonowymi ścianami, moglibyśmy chcieć później przekształcić je w konstrukcje.
+
+
 
 ## Operacja odcięcia 
 
@@ -163,6 +175,8 @@ Pamiętaj, że zarówno dla [Dodaj](Arch_Add/pl.md) jak i [Usuń](Arch_Remove/pl
 
 {{Note|Notatka o dodawaniu i odejmowaniu|Obiekty Architertury, które obsługują takie operacje dodania i odjęcia ''(wszystkie z wyjątkiem '''wizualnych''' obiektów pomocniczych, takich jak osie)'' pozwalają na kontrolowanie takich obiektów poprzez posiadanie dwóch właściwości, odpowiednio '''Additions''' i '''Subtractions''', które zawierają listę linków do innych obiektów, które mają być odejmowane lub dodawane. Ten sam obiekt może znajdować się na listach kilku innych obiektów. Jak to ma miejsce w przypadku naszej objętości odejmowania tutaj. Każdy z ojców będzie jednak chciał go połknąć w widoku drzewa, więc zwykle będzie mieszkał w ostatnim z nich. Ale zawsze możesz edytować te listy dla dowolnego obiektu, klikając dwukrotnie na nie w widoku drzewa, który w FreeCAD przechodzi w tryb edycji. Naciśnięcie klawisza **ESC** powoduje wyjście z trybu edycji.}}
 
+
+
 ## Wykonywanie dachów 
 
 Teraz jedyne, co musimy zrobić, aby ukończyć konstrukcję, to wykonać dach i mniejsze płyty wewnętrzne. Ponownie, najłatwiej jest narysować ich profile na górze sekcji, za pomocą narzędzia [Polilinia](Draft_Wire/pl.md). Tutaj narysowałem 3 profile jeden na drugim *(odsunąłem je na obrazku poniżej, aby lepiej je było widać)*. Zielony będzie służył do bocznych krawędzi płyty dachowej, następnie niebieski do części bocznych, a czerwony do części środkowej, która znajduje się nad blokiem łazienki:
@@ -183,15 +197,21 @@ Teraz trzeba naprawić jeszcze jedną, ostatnią rzecz, jest mała płyta w łaz
 
 <img alt="" src=images/Arch_tutorial_16.jpg  style="width:1024px;">
 
+
+
 ## Posadzki, schody i komin 
 
 Teraz, nasza struktura jest kompletna, mamy tylko kilka mniejszych obiektów do wykonania.
+
+
 
 ### Komin
 
 Zacznijmy od komina. Teraz już wiesz, jak to działa, prawda? Narysuj kilka zamkniętych [ciągów linii](Draft_Wire/pl.md), przesuń je na odpowiednią wysokość za pomocą narzędzia [Przesuń](Draft_Move/pl.md), wyciągnij je za pomocą narzędzia [Przytnij](Draft_Trimex/pl.md), przekształć w większą [konstrukcję](Arch_Structure/pl.md), i odejmij mniejsze. Zauważ, że rura kominowa nie została narysowana na widoku planu, ale znalazłem jej położenie przeciągając niebieskie linie z widoków przekroju.
 
 <img alt="" src=images/Arch_tutorial_17.jpg  style="width:1024px;">
+
+
 
 ### Posadzki
 
@@ -202,6 +222,8 @@ Posadzki nie są dobrze udokumentowane na rysunkach podstawowych. Patrząc na pr
 Po przeciągnięciu linii, wystarczy zamienić je w [konstrukcje](Arch_Structure/pl.md) i dać im wysokość {{Value|0.15m}}:
 
 <img alt="" src=images/Arch_tutorial_19.jpg  style="width:1024px;">
+
+
 
 ### Schody
 
@@ -225,6 +247,8 @@ Nie zapomnij również przyciąć kolumny przechodzącej przez schody, ponieważ
 
 Tak! Cała ta mozolna praca jest już wykonana, kontynuujmy tę bardzo ciężką pracę!
 
+
+
 ## Drzwi oraz okna 
 
 [Okna](Arch_Window/pl.md) to dość skomplikowane obiekty. Są one używane do tworzenia wszelkiego rodzaju wstawianych obiektów, takich jak okna czy drzwi. Tak, w FreeCAD, drzwi są po prostu specjalnym rodzajem okna. W prawdziwym życiu też, jeśli o tym pomyśleć, prawda? Narzędzie [Okna](Arch_Window/pl.md) może być jeszcze trochę trudne w użyciu, ale uważaj to za kompromis, ponieważ zostało zbudowane dla maksymalnej mocy. Prawie każdy rodzaj okna, które możesz sobie wyobrazić, może być za jego pomocą zrealizowany. Ale ponieważ narzędzie to zyska więcej nastaw, sytuacja ta z pewnością stanie się bardziej dogodna w przyszłości.
@@ -232,6 +256,8 @@ Tak! Cała ta mozolna praca jest już wykonana, kontynuujmy tę bardzo ciężką
 Obiekt [Architektura](Arch_Workbench/pl.md) działa w następujący sposób: Jest on oparty na planie 2D, dowolnym obiekcie 2D, ale najlepiej [szkicu](Sketcher_Workbench/pl.md), który zawiera zamknięte kształty *(polilinie)*. Te linie definiują różne części okna: ramy zewnętrzne, ramy wewnętrzne, panele szklane, panele pełne, itp. Obiekty okienne mają zatem właściwość, która przechowuje co należy zrobić z każdym z tych ciągów linii: wytłoczyć go, umieścić na pewnym przesunięciu, itp. Wreszcie, okno może być wstawione do obiektu głównego, takiego jak ściana lub konstrukcja, i automatycznie utworzy w nim otwór. Otwór ten zostanie obliczony przez wyciągnięcie największego kształtu znajdującego się w układzie 2D.
 
 Istnieją dwa sposoby na tworzenie takich obiektów w FreeCAD: używając wstępnie zdefiniowanego lub rysując układ okna od podstaw. Obu metodom przyjrzymy się tutaj. Ale pamiętaj, że metoda predefiniowana nie robi nic poza stworzeniem obiektu układu i zdefiniowaniem niezbędnych dla Ciebie wyciągnięć.
+
+
 
 ### Korzystanie z ustawień wstępnych 
 
@@ -246,6 +272,8 @@ W tym przypadku, ponieważ nasze okno nie jest włożone w żadną ścianę *(ot
 Mamy drugie drzwi, dokładnie takie same jak te, trochę na lewo. Zamiast tworzyć nowe drzwi od podstaw, mamy dwa sposoby na zrobienie kopii poprzednich: Za pomocą narzędzia [Przesuń](Draft_Move/pl.md), z wciśniętym klawiszem **ALT**, które, jak już wiesz, kopiuje obiekt zamiast go przesuwać. Albo, jeszcze lepiej, możemy użyć narzędzia [Klonuj](Draft_Clone/pl.md). Narzędzie do klonowania tworzy klon wybranego obiektu, który można przesuwać, ale który zachowuje kształt oryginalnego obiektu. Jeśli oryginalny obiekt ulegnie zmianie, klon również się zmieni.
 
 Tak więc wszystko, co musimy teraz zrobić, to wybrać drzwi, wcisnąć narzędzie [Klonuj](Draft_Clone/pl.md), a następnie przesunąć klon na jego właściwą pozycję za pomocą narzędzia [Przesuń](Draft_Move/pl.md).
+
+
 
 ### Porządkowanie modelu 
 
@@ -273,6 +301,8 @@ Trochę pracy, później, wszystkie nasze drzwi są na miejscu:
 Po bliższym przyjrzeniu się widokowi elewacji, wykryłem teraz kolejny błąd: Górna część murów ceglanych nie jest 2,60m, ale 17,5cm niższa, czyli 2,425m. Na szczęście okna bazujące na ustawieniach fabrycznych mają swoje zalety: Można zmieniać ich ogólne wymiary (szerokość i wysokość) w zależności od ich właściwości. Zmieńmy więc ich wysokość na 2,425 - 0,15, czyli 2,275. Drugie okno, ponieważ jest klonem pierwszego, dostosuje się również. Tu w zasadzie pojawia się prawdziwa magia konstrukcji parametrycznej.
 
 Teraz możemy spojrzeć na naprawdę ciekawe rzeczy: Jak zaprojektować własne okna na miarę.
+
+
 
 ### Tworzenie okien według własnych upodobań 
 
@@ -312,6 +342,8 @@ Ostatni brakujący element, to fragment ściany, który nie pojawił się na wid
 
 Gotowy? Niezupełnie. Spójrz na obrazek powyżej, zrobiliśmy drzwi z ramką 5cm, pamiętaj *(była to domyślna wartość z ustawień domyślnych)*. Ale pozostałe okna mają ramki 2,5cm. To musi zostać poprawione.
 
+
+
 ### Edycja parametrów okien 
 
 Widzieliśmy już, jak budować i aktualizować komponenty okna, poprzez tryb edycji okna, ale możemy również edytować szkic bazowy. Zaprogramowane okna nie różnią się od niestandardowych okien, narzędzie [Okna](Arch_Window/pl.md) utworzyło tylko podstawowy szkic dla Ciebie. Wybierz nasz obiekt drzwi *(oryginał, nie kopię, pamiętaj, zrobiliśmy klon)*, i rozwiń go w widoku drzewa. Tam znajduje się nasz szkic. Kliknij dwukrotnie na niego, aby przejść do trybu edycji.
@@ -323,6 +355,8 @@ Kiedy edytujemy nasz szkic drzwi, widzimy, że jest on wykonany na całkowicie z
 <img alt="" src=images/Arch_tutorial_32.jpg  style="width:1024px;">
 
 Teraz jedyne co musimy zrobić, to edytować dystans 5cm pomiędzy linią zewnętrzną a wewnętrzną, klikając dwukrotnie i zmieniając wartość na 2.5cm *(Pamiętaj, że w momencie pisania tego, jednostki nadal nie są w pełni funkcjonalne)*. Po kliknięciu przycisku OK, nasze drzwi *(i ich klon)* zostaną zaktualizowane.
+
+
 
 ## Praca bez obsługi 2D 
 
@@ -364,6 +398,8 @@ Po obróceniu okna i przesunięciu go na miejsce atrium jest gotowe:
 
 <img alt="" src=images/Arch_tutorial_40.jpg  style="width:1024px;">
 
+
+
 ## Edycje i poprawki 
 
 Teraz, gdy patrzymy na naszą tylną elewację i porównujemy ją z planem, widzimy, że są pewne różnice, które trzeba naprawić. Mianowicie, okna w sypialni są mniejsze niż początkowo myślałem i będziemy musieli dodać jeszcze kilka ścian. Aby to zrobić właściwie, niektóre podłogi muszą zostać skrócone:
@@ -383,15 +419,21 @@ Zwróć uwagę na rurę kominową, która jest wykonana z koła, które wykorzys
 
 {{Note|Problemy w obiektach|Czasami przedmiot, który stworzyłeś, może mieć problemy. Na przykład, obiekt, na którym się opierał, został usunięty, a zatem nie może ponownie obliczyć swojego kształtu. Zazwyczaj są one sygnalizowane przez mały czerwony znak na ikonie i/lub ostrzeżenie w oknie wyjściowym. Nie istnieje żaden ogólny przepis na rozwiązanie tych problemów, ponieważ mogą one mieć wiele źródeł. Jednak najprostszym sposobem na ich rozwiązanie często jest ich usunięcie, a jeśli nie usunąłeś ich podstawowych obiektów, odtwórz je.}}
 
+
+
 ## Rezultat
 
 Teraz, po całej ciężkiej pracy, przez którą przeszliśmy, aby zbudować ten model, przychodzi nagroda: Co możemy z nim zrobić? Zasadniczo, jest to duża zaleta pracy z BIM, wszystkie nasze tradycyjne potrzeby architektoniczne, takie jak rysunki 2d *(plany, przekroje, itp.)*, renderingi i obliczenia *(rachunki ilościowe, itp.)* mogą być pobierane z modelu. I jeszcze lepiej, regenerowane za każdym razem, gdy model się zmienia. Pokażę Ci tutaj, jak uzyskać te różne dokumenty.
+
+
 
 ### Przygotowania 
 
 Zanim zaczniemy eksportować rzeczy, warto się zastanowić, co zrobić: Jak widzieliście, nasz model staje się coraz bardziej złożony, z wieloma relacjami pomiędzy obiektami. Może to spowodować, że kolejne operacje obliczeniowe, takie jak przecięcie modelu, staną się bardzo skomplikowane. Jednym z szybkich sposobów, aby magicznie uprościć swój model, jest usunięcie całej tej złożoności, poprzez wyeksportowanie go do formatu [STEP](http://en.wikipedia.org/wiki/ISO_10303-21). Format ten zachowa całą twoją geometrię, ale odrzuci wszystkie zależności i konstrukcje parametryczne, zachowując tylko ostateczny kształt. Kiedy ponownie zaimportujesz ten plik STEP do programu FreeCAD, otrzymasz model, który nie posiada żadnych relacji i o wiele mniejszy rozmiar pliku. Pomyśl o tym jako o pliku wyjściowym, który możesz odtworzyć w dowolnym momencie z pliku głównego:
 
 <img alt="" src=images/Arch_tutorial_44.jpg  style="width:1024px;">
+
+
 
 ### Eksportowanie do IFC i innych aplikacji 
 
@@ -410,6 +452,8 @@ Kiedy to zrobisz, po prostu wybierz swój obiekt budowlany i wybierz format **In
 
 
 
+
+
 ### Renderowanie
 
 FreeCAD posiada również moduł renderujący, środowisko pracy [Raytracing](Raytracing_Workbench/pl.md). Tee środowisko obsługuje obecnie dwa silniki renderujące, [PovRay](http://www.povray.org/) i [LuxRender](http://www.luxrender.net). Ponieważ FreeCAD nie jest przeznaczony do renderowania obrazów, funkcje, które oferuje to Środowisko pracy Raytracing, są nieco ograniczone. Najlepszym sposobem działania, gdy chcesz uzyskać dobry rendering, jest wyeksportowanie modelu do formatu opartego na siatce, takiego jak OBJ lub STL, i otwarcie go w aplikacji właściwszej do tego celu, takiej jak [blender](http://www.blender.org). Poniższy obrazek został wyrenderowany przy użyciu silnika cykli blendera:
@@ -422,6 +466,8 @@ Ale dla potrzeb szybkiego renderowania, Środowisko pracy Raytracing może już 
 
 Środowisko pracy Raytracing nadal oferuje bardzo ograniczoną kontrolę nad materiałami, ale oświetlenie i otoczenie są zdefiniowane w szablonach, dzięki czemu można je w pełni dostosować do indywidualnych potrzeb.
 
+
+
 ### Rysunki 2D 
 
 Z pewnością najważniejszym zastosowaniem BIM jest automatyczne tworzenie rysunków 2D. Robi się to w programie FreeCAD za pomocą narzędzia [wybór płaszczyzny](Arch_SectionPlane/pl.md). Narzędzie to pozwala na umieszczenie płaszczyzny przekroju obiektu w widoku 3D, który można zorientować w celu utworzenia planów, przekrojów i elewacji. Płaszczyzny przekroju muszą wiedzieć, jakie obiekty muszą być brane pod uwagę, więc po ich utworzeniu należy dodać do nich obiekty za pomocą narzędzia [Dodaj](Arch_Add/pl.md). Możesz dodać pojedyncze obiekty, lub, co wygodniejsze, grupę, piętro lub cały budynek. Pozwala to na późniejszą łatwą zmianę zakresu danej płaszczyzny przekroju, poprzez dodawanie lub usuwanie obiektów do/z tej grupy. Każda zmiana tych obiektów zostanie odzwierciedlona w widokach tworzonych przez płaszczyznę przekroju.
@@ -430,7 +476,7 @@ Płaszczyzna przekroju automatycznie generuje widoki cięcia obiektów, które p
 
 <img alt="" src=images/Arch_tutorial_49.jpg  style="width:1024px;">
 
-Płaszczyzny przekroju mogą wytwarzać dwa różne rezultaty: Obiekty [kształtu](Part_Workbench/pl.md), które znajdują się w tym samym dokumencie co model 3D, lub [widoki rysunku](Drawing_Workbench/pl.md), które są wykonane do użycia na arkuszu rysunkowym utworzonym przez środowisko pracy [Kreślenie](Drawing_Workbench/pl.md). Każdy z nich zachowuje się inaczej i ma swoje własne zalety.
+Płaszczyzny przekroju mogą wytwarzać dwa różne rezultaty: Obiekty [kształtu](Part_Workbench/pl.md) lub [widok architektoniczny](TechDraw_ArchView/pl.md) środowiska Rysunek Techniczny, które są wykonane na arkuszu rysunkowym utworzonym przez środowisko pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) Każdy z nich zachowuje się inaczej i ma swoje własne zalety.
 
 **Widoki kształtu**
 
@@ -444,15 +490,17 @@ Na obrazku powyżej, dla każdego przekroju stworzono dwa widoki [Shape2D](Draft
 
 Zauważ, że niektóre funkcje nadal nie są obsługiwane przez [DXF/DWG exporter](Draft_DXF.md), więc wynik w Twojej aplikacji 2D może się nieco różnić. Na przykład, na powyższym obrazku musiałem przerobić kreskowanie i poprawić położenie niektórych tekstów wymiarowych. Jeśli umieścisz swoje obiekty w FreeCAD w różnych grupach, staną się one warstwami w Twojej aplikacji 2D CAD.
 
-**Rysunki widoków**
+**Widok architektoniczny**
 
-Innym rodzajem rezultatu, który może być uzyskany z [Płaszczyzny przekroju](Arch_SectionPlane/pl.md) jest [Widok](Drawing_Workbench/pl.md). Wygenerowany jest on za pomocą narzędzia [Draft: Drawing](Draft_Drawing/pl.md) z wybraną płaszczyzną przekroju. Ta metoda ma jedno duże ograniczenie w porównaniu do poprzedniej: masz ograniczone możliwości edycji wyników, a w tej chwili takie rzeczy jak wymiarowanie czy kreskowanie nadal nie są obsługiwane automatycznie.
+Innym rodzajem danych wyjściowych, które można uzyskać z [płaszczyzny przekroju](Arch_SectionPlane/pl.md) są [widoki architektoniczne](TechDraw_ArchView/pl.md). Metoda ta ma jedną dużą niedogodność w porównaniu do poprzedniej: masz ograniczone możliwości edycji wyników, a w chwili obecnej takie rzeczy jak wymiarowanie czy kreskowanie nie są jeszcze wspierane.
 
 Z drugiej strony, ostateczny wynik jest łatwiejszy do operowania, a możliwości graficzne formatu SVG są ogromne, w przyszłości bez wątpienia będzie to preferowana metoda. W tej chwili jednak lepsze wyniki osiągniesz korzystając z poprzedniej.
 
 <img alt="" src=images/Arch_tutorial_52.jpg  style="width:1024px;">
 
-Na powyższym obrazie geometria jest bezpośrednim wyjściem płaszczyzny przekroju, ale dodano kilka innych obiektów Draft, takich jak wymiary i zakreskowane wielokąty, i utworzono z nich inny obiekt widoku o tej samej skali i wartościach przesunięcia za pomocą [Draft: Drawing](Draft_Drawing.md). W przyszłości takie operacje będą wykonywane bezpośrednio na stronie rysunku, pozostawiając całkowicie czysty model.
+Na powyższym obrazie geometria jest bezpośrednim wyjściem płaszczyzny przekroju, ale dodano kilka innych obiektów Draft, takich jak wymiary i zakreskowane wielokąty, i utworzono z nich inny obiekt widoku o tej samej skali i wartościach przesunięcia za pomocą [Rysunek Techniczny: Wstaw widok rysunku](TechDraw_DraftView/pl.md). W przyszłości takie operacje będą wykonywane bezpośrednio na stronie rysunku, pozostawiając całkowicie czysty model.
+
+
 
 ### Wydobywanie danych o ilości 
 
@@ -470,6 +518,8 @@ Innym sposobem na badanie modelu i uzyskanie wartości, jest użycie trybu [Prze
 
 <img alt="" src=images/Arch_tutorial_54.jpg  style="width:1024px;">
 
+
+
 ## Podsumowanie
 
 Mam nadzieję, że poradnik dostarczy Państwu dobrego przeglądu dostępnych narzędzi, proszę odnieść się do dokumentacji środowiska pracy [Architrktura](Arch_Workbench/pl.md) i [Rysunek Roboczy](Draft_Workbench/pl.md) po dalsze informacje *(jest więcej narzędzi, o których tutaj nie wspomniałem)*, oraz, bardziej ogólnie, do reszty dokumentacji [FreeCAD](Main_Page/pl.md). Odwiedź również [forum](http://forum.freecadweb.org), wiele problemów można tam zazwyczaj rozwiązać w mgnieniu oka i śledź mój [blog](http://yorik.uncreated.net/guestblog.php?tag=freecad), aby uzyskać informacje o rozwoju Środowiska pracy Arch.
@@ -479,4 +529,4 @@ Plik utworzony podczas tego ćwiczenia można znaleźć [ze strony yorik-a](http
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Arch_Workbench.md) > Arch tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/pl

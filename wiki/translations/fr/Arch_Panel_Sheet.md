@@ -20,6 +20,8 @@ Cet outil permet de construire une feuille 2D, comprenant un nombre quelconque d
 
 *L\'image ci-dessus montre comment les feuilles de panneaux apparaissent lors de l\'exportation au format DXF.*
 
+
+
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets [Arch Découpe de panneau](Arch_Panel_Cut/fr.md) ou tout autre objet 2D qui se trouve sur le plan XY.
@@ -34,7 +36,11 @@ Cet outil permet de construire une feuille 2D, comprenant un nombre quelconque d
 -   Les feuilles de panneaux peuvent afficher une marge, utile pour s\'assurer qu\'un certain espace est toujours présent entre les objets internes et le bord de la feuille.
 -   Lorsque les feuilles de panneaux sont exportées au format DXF, les contours, les trous intérieurs et les étiquettes de leurs enfants intérieurs sont placés sur des couches différentes, comme le montre l\'image ci-dessus.
 
+
+
 ## Propriétés
+
+
 
 ### Données
 
@@ -58,6 +64,8 @@ Cet outil permet de construire une feuille 2D, comprenant un nombre quelconque d
 
 -    **Grain Direction**: Cela vous permet donner la direction principale de la fibre du panneau (dans le sens des aiguilles d\'une montre, 0° signifie le haut du panneau)
 
+
+
 ### Vue
 
 -    **Margin**: Affichage d\'une marge à l\'intérieur de la bordure du panneau.
@@ -66,10 +74,12 @@ Cet outil permet de construire une feuille 2D, comprenant un nombre quelconque d
 
 -    **Show Grain**: Affiche une texture de fibre (Make Face doit être défini à True).
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
@@ -111,6 +121,8 @@ FreeCAD.ActiveDocument.recompute()
 
 Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 ```
+
+
 
 ## Tutoriels
 

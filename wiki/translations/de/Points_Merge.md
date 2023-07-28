@@ -1,24 +1,31 @@
 ---
 - GuiCommand:/de
-   Name/de:Punkte Zusammenführen
+   Name:Points Merge
+   Name/de:Points Zusammenführen
    MenuLocation:Punkte → Punktwolken zusammenführen
-   Workbenches:[Punkte](Points_Workbench/de.md)
+   Workbenches:[Points](Points_Workbench/de.md)
 ---
 
 # Points Merge/de
 
+
+
 ## Beschreibung
 
-Der Befehl **Punkte zusammenführen** erzeugt eine Punktwolke, indem er die Punkte von zwei oder mehr Punktwolken kombiniert.
+Der Befehl **Points Zusammenführen** erzeugt eine Punktwolke, indem er die Punkte von zwei oder mehr Punktwolken kombiniert.
+
+
 
 ## Anwendung
 
-1.  Wähle zwei oder mehr Punktwolken aus.
-2.  Wähle die **Punkte → Punktwolken zusammenführen** Option aus dem Menü.
+1.  Zwei oder mehr Punktwolken auswählen.
+2.  Den Menüeintrag **Punkte → Punktwolken zusammenführen** auswählen.
+
+
 
 ## Eigenschaften
 
-Siehe [Punkte Umwandeln](Points_Convert/de.md).
+Siehe [Points Umwandeln](Points_Convert/de.md).
 
 
 

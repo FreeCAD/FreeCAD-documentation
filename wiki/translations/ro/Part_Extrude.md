@@ -5,8 +5,6 @@
 
 </div>
 
-![600px](images/Part_Extrude_demo.png)
-
 ## Description
 
 
@@ -35,6 +33,12 @@
 
 
 </div>
+
+![600px](images/Part_Extrude_demo.png)
+
+
+
+*Examples of extrusion*
 
 ## Usage
 
@@ -212,6 +216,8 @@ Dialogul Extrude Parts nu are încă o previzualizare. \"Aplicați\" creează un
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

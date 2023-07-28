@@ -19,6 +19,8 @@ FreeCAD中的功能被分为不同的模块，每个模块负责实现一种特�
 
 </div>
 
+To preserve resources, FreeCAD does not automatically load all available workbenches. See [Workbenches](#Workbenches.md) for more information. For a list of workbench related preferences see [Workbench related preferences](#Workbench_related_preferences.md).
+
 
 <div class="mw-translate-fuzzy">
 
@@ -103,40 +105,9 @@ Some advanced preferences can only be changed in the [Parameter editor](Std_DlgP
 |                                                  |                                                                                                                                                                                                                                                               |
 |                                                  | **$HOME/Library/Preferences/FreeCAD**                                                                                                                                                                                                                               |
 |                                                  |                                                                                                                                                                                                                                                                           |
-|                                                  | (on MacOS).                                                                                                                                                                                                                                                                  |
+|                                                  | (on macOS).                                                                                                                                                                                                                                                                  |
 |                                                  |                                                                                                                                                                                                                                                                              |
 |                                                  | Place a file named **background.png** in the **Images** folder, and uncheck/check this option to see the changed file.                                                                                                         |
-+++
-|                                   | If checked the text cursor in the [Python console](Python_console.md) and the [Macro editor](Std_DlgMacroExecute#Edit.md) will blink.                                                                                                                        |
-| **Enable cursor blinking**           |                                                                                                                                                                                                                                                                              |
-|                                               |                                                                                                                                                                                                                                                                              |
-+++
-|                                   | Specifies a style sheet. Style sheets define how the user interface of FreeCAD looks. For technical details about style sheets see [themes](Interface_Customization#Themes.md).                                                                                      |
-| **Style sheet**                      |                                                                                                                                                                                                                                                                              |
-|                                               |                                                                                                                                                                                                                                                                              |
-+++
-|                                   | Specifies the size of the toolbar icons. The options are:                                                                                                                                                                                                                    |
-| **Size of toolbar icons**            |                                                                                                                                                                                                                                                                              |
-|                                               | -   **Small (16px)**                                                                                                                                                                                                                                                         |
-|                                                  | -   **Medium (24px)**                                                                                                                                                                                                                                                        |
-|                                                  | -   **Large (32px)**                                                                                                                                                                                                                                                         |
-|                                                  | -   **Extra large (48px)**                                                                                                                                                                                                                                                   |
-+++
-|                                   | Defines how the tree view is shown in the user interface (restart required). The options are:                                                                                                                                                                                |
-| **Tree view mode**                   |                                                                                                                                                                                                                                                                              |
-|                                               | -   **Combo View**: Combines the tree view and the property view into one panel.                                                                                                                                                                                             |
-|                                                  | -   **TreeView and PropertyView**: Splits the tree view and the property view into separate panels.                                                                                                                                                                          |
-|                                                  | -   **Both**: Shows all three panels.                                                                                                                                                                                                                                        |
-+++
-|                                   | Defines where the workbench selector appears (restart required). The options are:                                                                                                                                                                                            |
-| **Workbench selector position**      |                                                                                                                                                                                                                                                                              |
-|                                               | -   **Toolbar**: In a dedicated toolbar.                                                                                                                                                                                                                                     |
-|                                                  | -   **Left corner**: In the left corner of the menubar.                                                                                                                                                                                                                      |
-|                                                  | -   **Right corner**: In the right corner of the menubar.                                                                                                                                                                                                                    |
-+++
-|                                   | The workbench that will be activated when FreeCAD is started.                                                                                                                                                                                                                |
-| **Auto load module after start up**  |                                                                                                                                                                                                                                                                              |
-|                                               |                                                                                                                                                                                                                                                                              |
 +++
 |                                   | If checked, a splash screen is shown when starting FreeCAD.                                                                                                                                                                                                                  |
 | **Enable splash screen at start up** |                                                                                                                                                                                                                                                                              |
@@ -168,13 +139,7 @@ Some advanced preferences can only be changed in the [Parameter editor](Std_DlgP
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-![](images/Preferences_General_Tab_General_zh-cn.png )
-
-
-</div>
+![](images/Preferences_General_Tab_General.png )
 
 
 
@@ -248,13 +213,13 @@ Some advanced preferences can only be changed in the [Parameter editor](Std_DlgP
 
 </div>
 
-![](images/Preferences_General_Tab_Document_zh-cn.png )
+![](images/Preferences_General_Tab_Document.png )
 
 
 
 ### 选择
 
-On the *Selection* tab (<small>(v0.19)</small> ) you can specify the following:
+On the *Selection* tab you can specify the following:
 
 +++
 | Name                                                                                              | Description                                                                                                                                |
@@ -280,7 +245,7 @@ On the *Selection* tab (<small>(v0.19)</small> ) you can specify the following:
 |                                                                                                |                                                                                                                                            |
 +++
 
-![](images/Preferences_General_Tab_Selection_zh-cn.png )
+![](images/Preferences_General_Tab_Selection.png )
 
 ### Cache
 
@@ -320,108 +285,71 @@ On the *Cache* tab (<small>(v0.20)</small> ) you can specify the following:
 
 ![](images/Preferences_General_Tab_Cache.png )
 
+### Notification Area 
 
+These preferences control the Notification Area and its notifications.
 
-### 编辑器
-
-
-<div class="mw-translate-fuzzy">
-
-编辑器首选项设置影响的是宏编辑器的行为。此编辑器可通过**Macro → Macros...  → Edit/Create**菜单打开。
-**请注意:** 这里的颜色和字体设置也会影响到[Python](https://en.wikipedia.org/wiki/Python_(programming_language))控制台。此控制台可通过**View → Panels → Python console**菜单打开。
-
-
-</div>
-
-The color and font settings are also used by the [Python console](#Python_console.md).
-
-在*Editor*选项卡中，您可以指定以下内容：
-
-
-<div class="mw-translate-fuzzy">
+On the *Notification Area* tab (<small>(v0.21)</small> ) you can specify the following:
 
 +++
-| 名称                          | 描述                                                                                                                                                                                                                                       |
-+===============================+============================================================================================================================================================================================================================================+
-|                | 选择代码类型。此处的颜色与字体设置将应用于所选的代码类型。可以从**Preview**框中预览效果。                                                                                                                                                  |
-| **Display Items** |                                                                                                                                                                                                                                            |
-|                            |                                                                                                                                                                                                                                            |
+| Name                                                | Description                                                                                                |
++=====================================================+============================================================================================================+
+|                                      | If checked, the Notification Area will appear in the status bar.                                           |
+| **Enable Notification Area**            |                                                                                                            |
+|                                                  |                                                                                                            |
 +++
-|                | 指定应用于所选代码类型的字体系列（font family）。                                                                                                                                                                                          |
-| **字体族**        |                                                                                                                                                                                                                                            |
-|                            |                                                                                                                                                                                                                                            |
+|                                      | If checked, non-intrusive notifications will appear next to the Notification Area in the status bar.       |
+| **Enable non-intrusive notifications**  |                                                                                                            |
+|                                                  |                                                                                                            |
 +++
-|                | 指定应用于所选代码类型的字体大小。                                                                                                                                                                                                         |
-| **大小**          |                                                                                                                                                                                                                                            |
-|                            |                                                                                                                                                                                                                                            |
+|                                      | If checked, errors will appear in the Notification Area.                                                   |
+| **Errors**                              |                                                                                                            |
+|                                                  |                                                                                                            |
 +++
-|                | 若开启此项，将显示代码行号。                                                                                                                                                                                                               |
-| **启用行号**      |                                                                                                                                                                                                                                            |
-|                            |                                                                                                                                                                                                                                            |
+|                                      | If checked, warnings will appear in the Notification Area.                                                 |
+| **Warnings**                            |                                                                                                            |
+|                                                  |                                                                                                            |
 +++
-|                | 指定一个tab符占多少空格位置。若将此值设置为\'6\'，则多次按下**Tab**键后，将根据当前光标位置，依次跳至其后的第7个字符、第13个字符或第19个字符等处。只有在选中**保留制表符**后，本选项才可生效。 |
-| **制表符长度**    |                                                                                                                                                                                                                                            |
-|                            |                                                                                                                                                                                                                                            |
+|                                      | Maximum duration during which notifications are shown (unless mouse buttons are clicked).                  |
+| **Maximum Duration**                    |                                                                                                            |
+|                                                  |                                                                                                            |
 +++
-|                | 指定在按下**Tab**键后将会插入多少个空格。只有在选中**插入空格**后，本选项才会生效。                                                                                                            |
-| **缩进大小**      |                                                                                                                                                                                                                                            |
-|                            |                                                                                                                                                                                                                                            |
+|                                      | Minimum duration (idem).                                                                                   |
+| **Minimum Duration**                    |                                                                                                            |
+|                                                  |                                                                                                            |
 +++
-|                | 如果选择本项，则按下**Tab**键将插入占空为**制表符长度**的tab符。                                                                                                                               |
-| **保留制表符**    |                                                                                                                                                                                                                                            |
-|                            |                                                                                                                                                                                                                                            |
+|                                      | Maximum number of notifications shown simultaneously.                                                      |
+| **Maximum Number of Notifications**     |                                                                                                            |
+|                                                  |                                                                                                            |
 +++
-|                | 如果选择本项，则按下**Tab**键将插入数量为**缩进大小**的空格符。                                                                                                                                |
-| **插入空格**      |                                                                                                                                                                                                                                            |
-|                            |                                                                                                                                                                                                                                            |
+|                                      | Width of the Notification Area in pixels.                                                                  |
+| **Notification width**                  |                                                                                                            |
+|                                                  |                                                                                                            |
 +++
-
-
-</div>
-
-![](images/Preferences_General_Tab_Editor_zh-cn.png )
-
-### Python console 
-
-These preferences control the behavior of the [Python console](Python_console.md). This console can be opened using the **View → Panels → Python console** menu option.
-
-Note that the color and font settings for the console are defined on the [Editor](#Editor.md) tab.
-
-On the *Python console* tab (<small>(v0.20)</small> ) you can specify the following:
-
+|                                      | If checked, open notifications will disappear when another window is activated.                            |
+| **Hide when other window is activated** |                                                                                                            |
+|                                                  |                                                                                                            |
 +++
-| Name                                | Description                                                                                     |
-+=====================================+=================================================================================================+
-|                      | If checked, words will be wrapped if they exceed the available horizontal space in the console. |
-| **Enable word wrap**    |                                                                                                 |
-|                                  |                                                                                                 |
+|                                      | If checked, notifications will not appear if the FreeCAD window is not the active window.                  |
+| **Do not show when inactive**           |                                                                                                            |
+|                                                  |                                                                                                            |
 +++
-|                      | If checked, the cursor will have a block shape.                                                 |
-| **Enable block cursor** |                                                                                                 |
-|                                  |                                                                                                 |
+|                                      | The maximum number of messages kept in the list. Set to 0 for no limit.                                    |
+| **Maximum Messages (0 &#61; no limit)** |                                                                                                            |
+|                                                  |                                                                                                            |
 +++
-|                      | If checked, Python history is saved across sessions.                                            |
-| **Save history**        |                                                                                                 |
-|                                  |                                                                                                 |
+|                                      | If checked, notifications will be removed from the message list when the **Maximum Duration** has elapsed. |
+| **Auto-remove User Notifications**      |                                                                                                            |
+|                                                  |                                                                                                            |
 +++
 
-![](images/Preferences_General_Tab_Python_console.png )
+![](images/Preferences_General_Tab_Notification_Area.png )
 
-
-
-
-<div class="mw-translate-fuzzy">
-
-### 输出窗口
-
-
-</div>
-
-**Important note:** this tab has been renamed from Output window to **Report view**. <small>(v1.0)</small> 
+### Report view 
 
 These preferences control the behavior of the [Report view](Report_view.md). This panel can be opened using the **View → Panels → Report view** menu option.
 
-On the *Output window* tab you can specify the following:
+On the *Report view* tab you can specify the following:
 
 
 <div class="mw-translate-fuzzy">
@@ -498,87 +426,7 @@ On the *Output window* tab you can specify the following:
 
 </div>
 
-![](images/Preferences_General_Tab_Output_window_zh-cn.png )
-
-
-
-### 宏
-
-On the *Macro* tab you can specify the following:
-
-
-<div class="mw-translate-fuzzy">
-
-+++
-| 名称                                       | 描述                                                                                                                                                                                                                                                                |
-+============================================+=====================================================================================================================================================================================================================================================================+
-|                             | If checked, variables defined by macros are created as local variables, otherwise as global Python variables                                                                                                                                                        |
-| **在本地环境中运行宏**         |                                                                                                                                                                                                                                                                     |
-|                                         |                                                                                                                                                                                                                                                                     |
-+++
-|                             | Specification of the path for macro files                                                                                                                                                                                                                           |
-| **宏路径**                     |                                                                                                                                                                                                                                                                     |
-|                                         |                                                                                                                                                                                                                                                                     |
-+++
-|                             | If checked, [recorded macros](Std_DlgMacroRecord.md) will also contain user interface commands                                                                                                                                                              |
-| **录制图形用户界面命令**       |                                                                                                                                                                                                                                                                     |
-|                                         |                                                                                                                                                                                                                                                                     |
-+++
-|                             | If checked, [recorded macros](Std_DlgMacroRecord.md) will also contain user interface commands, but as comments. This is useful if you don\'t want to execute these commands when running the macro, but do want to see what has been done while recording. |
-| **录制为注释**                 |                                                                                                                                                                                                                                                                     |
-|                                         |                                                                                                                                                                                                                                                                     |
-+++
-|                             | If checked, the commands executed by macro scripts are shown in the Python console. This console is shown using the **View → Panels → Python console** menu option.                                                                       |
-| **在Python控制台显示脚本**     |                                                                                                                                                                                                                                                                     |
-|                                         |                                                                                                                                                                                                                                                                     |
-+++
-|                             | Controls the number of recent macros to display in the menu                                                                                                                                                                                                         |
-| **Size of recent macros list** |                                                                                                                                                                                                                                                                     |
-|                                         |                                                                                                                                                                                                                                                                     |
-+++
-|                             | Controls the number of recent macros that get dynamically assigned shortcuts                                                                                                                                                                                        |
-| **快捷方式计数**               |                                                                                                                                                                                                                                                                     |
-|                                         |                                                                                                                                                                                                                                                                     |
-+++
-|                             | Controls which keyboard modifiers are used for the shortcuts, example **Ctrl+Shift+** creates shortcuts in the form of **Ctrl+Shift+1**, **Ctrl+Shift+2**, etc.                                                                                                     |
-| **键盘编辑器**                 |                                                                                                                                                                                                                                                                     |
-|                                         |                                                                                                                                                                                                                                                                     |
-+++
-
-
-</div>
-
-![](images/Preferences_General_Tab_Macro_zh-cn.png )
-
-
-
-### 单位
-
-On the *Units* tab you can specify the following:
-
-
-<div class="mw-translate-fuzzy">
-
-+++
-| 名称                           | 描述                                                                                                                                  |
-+================================+=======================================================================================================================================+
-|                 | Selection of the unit system to be used for all parts of FreeCAD                                                                      |
-| **Unit system**    |                                                                                                                                       |
-|                             |                                                                                                                                       |
-+++
-|                 | The number of decimals that should be shown for numbers and dimensions                                                                |
-| **小数位数︰**     |                                                                                                                                       |
-|                             |                                                                                                                                       |
-+++
-|                 | 最小分数英寸： that should be displayed. This setting is only available if the unit system **Building US (ft-in/sqft/cuft)** is used. |
-| **最小分数英寸：** |                                                                                                                                       |
-|                             |                                                                                                                                       |
-+++
-
-
-</div>
-
-![](images/Preferences_General_Tab_Units_zh-cn.png )
+![](images/Preferences_General_Tab_Report_view.png )
 
 ### Help
 
@@ -650,30 +498,23 @@ On the *3D View* tab you can specify the following:
 |                                        | If checked, the axis cross will be shown by default in the [3D view](3D_view.md).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | **Show axis cross by default**            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| <small>(v0.19)</small>                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +++
 |                                        | If checked, the time needed for the last operation and the resulting [frame rate](https://en.wikipedia.org/wiki/Frame_rate) will be shown in the lower left corner of the [3D view](3D_view.md).                                                                                                                                                                                                                                                                                                                                                                                        |
 | **Show counter of frames per second**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +++
-|                                        | If checked, the application will remember the active workbench for each tab in the [Main view area](Main_view_area.md) independently. When switching to a tab this workbench will be restored automatically.                                                                                                                                                                                                                                                                                                                                                                            |
-| **Remember active workbench by tab**      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| <small>(v0.19)</small>                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-+++
 |                                        | If checked, [OpenGL](https://en.wikipedia.org/wiki/OpenGL) will use the CPU instead of the GPU. This option is useful for troubleshooting graphics card and driver problems. Changing this option requires a restart of the application.                                                                                                                                                                                                                                                                                                                                                        |
 | **Use software OpenGL**                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| <small>(v0.19)</small>                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +++
 |                                        | If checked, [Vertex Buffer Objects](https://en.wikipedia.org/wiki/Vertex_Buffer_Object) (VBO) will be used. A VBO is an [OpenGL](https://en.wikipedia.org/wiki/OpenGL) feature that provides methods for uploading vertex data (position, normal vector, color, etc.) to the graphics card. VBOs offer substantial performance gains because the data resides in the graphics memory rather than the system memory and so it can be rendered directly by the GPU. For more background info see [Understanding OpenGL Objects](https://www.haroldserrano.com/blog/understanding-opengl-objects). |
 | **Use OpenGL VBO (Vertex Buffer Object)** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +++
-|                                        | \"Render Cache\" or \"Render Acceleration\" is explained in more detail in [FreeCAD_assembly3 render-caching](https://github.com/realthunder/FreeCAD_assembly3/wiki/Link#render-caching). The options are:                                                                                                                                                                                                                                                                                                                                                                                      |
+|                                        | \"Render Cache\" or \"Render Acceleration\" is explained in more detail in [FreeCAD assembly3 render-caching](https://github.com/realthunder/FreeCAD_assembly3/wiki/Link#render-caching). The options are:                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Render Cache**                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                    | -   **Auto**: Let Coin3D decide where to cache (default).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| <small>(v0.19)</small>                         | -   **Distributed**: Manually turn on cache for all view provider root nodes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                                       | -   **Distributed**: Manually turn on cache for all view provider root nodes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |                                                       | -   **Centralized**: Manually turn off cache in all nodes of all view providers, and only cache at the scene graph root node. This offers the fastest rendering speed, but slower response to any scene changes.                                                                                                                                                                                                                                                                                                                                                                                |
 +++
 |                                        | Specifies if and what type of [multisample anti-aliasing](https://en.wikipedia.org/wiki/Multisample_anti-aliasing) is used                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -683,7 +524,7 @@ On the *3D View* tab you can specify the following:
 |                                        | Specifies the render type of transparent objects. The options are:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | **Transparent objects**                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                    | -   **One pass**: Rendering is done in one pass (default). This can lead to triangular artifacts. If these occur the type **Backface pass** can be used to avoid them.                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| <small>(v0.19)</small>                         | -   **Backface pass**: Rendering is done in two passes. Back-facing polygons are rendered in the first pass and front-facing polygons in the second pass.                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                       | -   **Backface pass**: Rendering is done in two passes. Back-facing polygons are rendered in the first pass and front-facing polygons in the second pass.                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 +++
 |                                        | Specifies the size of [vertices](Glossary#Vertex.md) (points) in the [Sketcher Workbench](Sketcher_Workbench.md). The clickable area of points can be additionally enlarged by increasing the **Pick radius**.                                                                                                                                                                                                                                                                                                                                        |
 | **Marker size**                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -697,7 +538,7 @@ On the *3D View* tab you can specify the following:
 | **Eye to eye distance for stereo modes**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +++
-|                                        | If checked, backlight is enabled with the defined color. Backlight is used for rendering the back sides of faces. Usually, you don\'t see them in solids, unless you slice one with a clipping plane, or if the faces aren\'t oriented correctly. It is only active for objects whose Lighting property (on the View tab) is set to **One side**. If disabled, back sides of faces of objects in **One side** lighting mode will be black. The related **Intensity** setting specifies the intensity of the backlight.                                                |
+|                                        | If checked, backlight is enabled with the defined color. Backlight is used for rendering the back sides of faces. Usually, you don\'t see them in solids, unless you slice one with a clipping plane, or if the faces aren\'t oriented correctly. It is only used for objects whose Lighting property (on the View tab) is set to **One side**. If disabled, the back side of the faces of those objects will be black. The related **Intensity** setting specifies the intensity of the backlight.                                                                   |
 | **Backlight color**                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +++
@@ -733,19 +574,29 @@ On the *Navigation* tab you can specify the following:
 |                                                  | defines the size of the cube. <small>(v0.20)</small>                                                                                                                                                                                                                                                                                                            |
 |                                                  |                                                                                                                                                                                                                                                                                                                                                                        |
 |                                                  |                                                                                                                                                                                                                                                                                                                                                         |
+|                                                  | **Color**                                                                                                                                                                                                                                                                                                                                                  |
+|                                                  |                                                                                                                                                                                                                                                                                                                                                                     |
+|                                                  | sets the base color for all elements. <small>(v0.21)</small>                                                                                                                                                                                                                                                                                                    |
+|                                                  |                                                                                                                                                                                                                                                                                                                                                                        |
+|                                                  |                                                                                                                                                                                                                                                                                                                                                         |
 |                                                  | **Corner**                                                                                                                                                                                                                                                                                                                                                 |
 |                                                  |                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                  | defines where the Navigation cube is displayed in the [3D view](3D_view.md).                                                                                                                                                                                                                                                                                   |
+|                                                  | defines where the Navigation cube is displayed in the [3D view](3D_view.md). The options are:                                                                                                                                                                                                                                                                  |
+|                                                  |                                                                                                                                                                                                                                                                                                                                                                        |
+|                                                  | -   **Top left**                                                                                                                                                                                                                                                                                                                                                       |
+|                                                  | -   **Top right**                                                                                                                                                                                                                                                                                                                                                      |
+|                                                  | -   **Bottom left**                                                                                                                                                                                                                                                                                                                                                    |
+|                                                  | -   **Bottom right**                                                                                                                                                                                                                                                                                                                                                   |
 |                                                  |                                                                                                                                                                                                                                                                                                                                                                        |
 |                                                  |                                                                                                                                                                                                                                                                                                                                                         |
 |                                                  | **Font name**                                                                                                                                                                                                                                                                                                                                              |
 |                                                  |                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                  | specifies the font used for the cube\'s text. <small>(v1.0)</small>                                                                                                                                                                                                                                                                                             |
+|                                                  | specifies the font used for the cube\'s texts. <small>(v0.21)</small>                                                                                                                                                                                                                                                                                           |
 |                                                  |                                                                                                                                                                                                                                                                                                                                                                        |
 |                                                  |                                                                                                                                                                                                                                                                                                                                                         |
 |                                                  | **Font size**                                                                                                                                                                                                                                                                                                                                              |
 |                                                  |                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                  | sets the size of the font used for the cube\'s text. <small>(v1.0)</small>                                                                                                                                                                                                                                                                                      |
+|                                                  | sets the size of the font used for the cube\'s texts. <small>(v0.21)</small>                                                                                                                                                                                                                                                                                    |
 +++
 |                                   | Specifies a [mouse navigation style](Mouse_navigation.md). To see the details of each style, select it and then press the **Mouse...** button.                                                                                                                                                                                            |
 | **3D Navigation**                    |                                                                                                                                                                                                                                                                                                                                                                        |
@@ -755,7 +606,7 @@ On the *Navigation* tab you can specify the following:
 | **Orbit style**                      |                                                                                                                                                                                                                                                                                                                                                                        |
 |                                               | -   **Turntable**: Moving the mouse will divide the rotation in steps, rotations around the different axes are performed sequentially.                                                                                                                                                                                                                                 |
 |                                                  | -   **Trackball**: Rotations around the different axes are performed simultaneously.                                                                                                                                                                                                                                                                                   |
-|                                                  | -   **Free Turntable**: Like **Trackball**, but if possible the rotation axis is kept collinear with the global 3D view axis. <small>(v1.0)</small>                                                                                                                                                                                                             |
+|                                                  | -   **Free Turntable**: Like **Trackball**, but if possible the rotation axis is kept collinear with the global 3D view axis. <small>(v0.21)</small>                                                                                                                                                                                                            |
 +++
 |                                   | Defines the rotation center. The options are:                                                                                                                                                                                                                                                                                                                          |
 | **Rotation mode**                    |                                                                                                                                                                                                                                                                                                                                                                        |
@@ -797,39 +648,36 @@ On the *Navigation* tab you can specify the following:
 On the *Colors* tab you can specify the following:
 
 +++
-| Name                                             | Description                                                                                                                                                                                                                         |
-+==================================================+=====================================================================================================================================================================================================================================+
-|                                   | If checked, preselection is turned on and the specified color will be used for it. Preselection means that for example edges in parts will be highlighted while hovering over them with the mouse to indicate they can be selected. |
-| **Enable preselection highlighting** |                                                                                                                                                                                                                                     |
-|                                               |                                                                                                                                                                                                                                     |
+| Name                                             | Description                                                                                                                                                                                                                                                                                                                                                       |
++==================================================+===================================================================================================================================================================================================================================================================================================================================================================+
+|                                   | If checked, preselection is turned on and the specified color will be used for it. Preselection means that for example edges of objects will be highlighted while hovering over them with the mouse to indicate they can be selected.                                                                                                                             |
+| **Enable preselection highlighting** |                                                                                                                                                                                                                                                                                                                                                                   |
+|                                               |                                                                                                                                                                                                                                                                                                                                                                   |
 +++
-|                                   | If checked, selection highlighting is turned on and the specified color will be used for it.                                                                                                                                        |
-| **Enable selection highlighting**    |                                                                                                                                                                                                                                     |
-|                                               |                                                                                                                                                                                                                                     |
+|                                   | If checked, selection highlighting is turned on and the specified color will be used for it.                                                                                                                                                                                                                                                                      |
+| **Enable selection highlighting**    |                                                                                                                                                                                                                                                                                                                                                                   |
+|                                               |                                                                                                                                                                                                                                                                                                                                                                   |
 +++
-|                                   | If selected, the background of the [3D view](3D_view.md) will have the selected color.                                                                                                                                      |
-| **Simple color**                     |                                                                                                                                                                                                                                     |
-|                                               |                                                                                                                                                                                                                                     |
+|                                   | If selected, the background of the [3D view](3D_view.md) will have the specified color.                                                                                                                                                                                                                                                                   |
+| **Simple color**                     |                                                                                                                                                                                                                                                                                                                                                                   |
+|                                               |                                                                                                                                                                                                                                                                                                                                                                   |
 +++
-|                                   | If selected, the background of the [3D view](3D_view.md) will have a vertical color gradient. The first color is the color at the top of the [3D view](3D_view.md), the second the color at the bottom.             |
-| **Color gradient**                   |                                                                                                                                                                                                                                     |
-|                                               |                                                                                                                                                                                                                                     |
+|                                   | If selected, the background of the [3D view](3D_view.md) will have a vertical color gradient defined by the specified **Top** and **Bottom** colors. if enabled, a **Middle** color can also be specified. Press the **<img src="images/Button_sort.svg" width=16px>** button (<small>(v0.21)</small> ) to switch the top and bottom colors. |
+| **Linear gradient**                  |                                                                                                                                                                                                                                                                                                                                                                   |
+|                                               |                                                                                                                                                                                                                                                                                                                                                                   |
 +++
-|                                   | Press this button to switch the top and bottom colors of the gradient. <small>(v1.0)</small>                                                                                                                                 |
-| **Switch**                                |                                                                                                                                                                                                                                     |
-|                                               |                                                                                                                                                                                                                                     |
+|                                   | If selected, the background of the [3D view](3D_view.md) will have a radial color gradient defined by the specified **Central** and **End** colors. if enabled, a **Midway** color can also be specified. Press the **<img src="images/Button_sort.svg" width=16px>** button to switch the central and end colors.                                  |
+| **Radial gradient**                  |                                                                                                                                                                                                                                                                                                                                                                   |
+|                                               |                                                                                                                                                                                                                                                                                                                                                                   |
+| <small>(v0.21)</small>                    |                                                                                                                                                                                                                                                                                                                                                                   |
 +++
-|                                   | This option is only enabled if **Color gradient** is selected. If checked, the color gradient will get the selected color as the middle color.                                                            |
-| **Middle color**                     |                                                                                                                                                                                                                                     |
-|                                               |                                                                                                                                                                                                                                     |
+|                                   | Specifies the background color for objects in the tree view that are currently edited.                                                                                                                                                                                                                                                                            |
+| **Object being edited**              |                                                                                                                                                                                                                                                                                                                                                                   |
+|                                               |                                                                                                                                                                                                                                                                                                                                                                   |
 +++
-|                                   | Specifies the background color for objects in the tree view that are currently edited.                                                                                                                                              |
-| **Object being edited**              |                                                                                                                                                                                                                                     |
-|                                               |                                                                                                                                                                                                                                     |
-+++
-|                                   | Specifies the background color for active containers in the tree view. For example an [active PartDesign Body](PartDesign_Body#Active_Status.md) will get this color.                                                       |
-| **Active container**                 |                                                                                                                                                                                                                                     |
-|                                               |                                                                                                                                                                                                                                     |
+|                                   | Specifies the background color for active containers in the tree view. For example an [active PartDesign Body](PartDesign_Body#Active_Status.md) will get this color.                                                                                                                                                                                     |
+| **Active container**                 |                                                                                                                                                                                                                                                                                                                                                                   |
+|                                               |                                                                                                                                                                                                                                                                                                                                                                   |
 +++
 
 ![](images/Preferences_Display_Tab_Colors.png )
@@ -887,17 +735,187 @@ This preferences section has a single tab: Available Workbenches.
 
 ### Available Workbenches 
 
-To preserve resources, FreeCAD does not automatically load all available workbenches. And only if a workbench has been loaded will its preferences, if any, appear in the Preferences editor.
+These preferences control workbench loading.
 
-In FreeCAD version 0.19 the tab has a different label: *Unloaded Workbenches*, and the tab displays a list of installed workbenches that have not yet been loaded. To load one or more workbenches select them in the list and then press the **Load Selected** button.
+On the *Available Workbenches* tab you can specify the following:
 
-In FreeCAD version 0.20 the *Available Workbenches* tab displays a list of all installed workbenches. To load a workbench press its **Load now** button. If you check a workbench\'s **Autoload** checkbox it will autoload when FreeCAD starts up. Loading more workbenches will make the startup slower, but switching between workbenches that have already been loaded is faster.
-
-If a newly loaded workbench has dedicated preference they will appear in a new section in the Preferences editor. Some workbenches add support for additional import and export formats. If there are any related preferences they will appear on one or more new tabs in the [Import-Export](#Import-Export.md) section of the Preferences editor.
-
-For a list of workbench related preferences see [Workbench related preferences](#Workbench_related_preferences.md)
++++
+| Name                                             | Description                                                                                                                                                                                                                                                               |
++==================================================+===========================================================================================================================================================================================================================================================================+
+|                                   | The list displays all installed workbenches. <small>(v0.21)</small> : The list can be reordered by drag and drop. The order of the list also determines the order of the [Workbench selector](Std_Workbench.md).                                           |
+| **Workbench list**                   |                                                                                                                                                                                                                                                                           |
+|                                               | -                                                                                                                                                                                                                                                          |
+|                                                  |     <small>(v0.21)</small>                                                                                                                                                                                                                                                       |
+|                                                  |                                                                                                                                                                                                                                                                        |
+|                                                  |     : **First checkbox in each row**: If checked, the workbench will be available in the Workbench selector in the next FreeCAD session. The start up workbench cannot be unchecked. Unchecked workbenches are moved to the bottom of the list. |
+|                                                  |                                                                                                                                                                                                                                                                           |
+|                                                  | -                                                                                                                                                                                                                                                          |
+|                                                  |     **Auto-load**                                                                                                                                                                                                                                             |
+|                                                  |                                                                                                                                                                                                                                                                        |
+|                                                  |     : If checked, the workbench will auto-load when FreeCAD starts. Loading more workbenches will make the start up slower, but switching between workbenches that have already been loaded is faster.                                                                    |
+|                                                  |                                                                                                                                                                                                                                                                           |
+|                                                  | -                                                                                                                                                                                                                                                          |
+|                                                  |     **Load**                                                                                                                                                                                                                                                       |
+|                                                  |                                                                                                                                                                                                                                                                        |
+|                                                  |     : Press this button to load the workbench in the current FreeCAD session.                                                                                                                                                                                             |
++++
+|                                   | The workbench that is activated when FreeCAD starts.                                                                                                                                                                                                                      |
+| **Start up workbench**               |                                                                                                                                                                                                                                                                           |
+|                                               |                                                                                                                                                                                                                                                                           |
++++
+|                                   | Defines where the [Workbench selector](Std_Workbench.md) appears. The options are:                                                                                                                                                                                |
+| **Workbench selector position**      |                                                                                                                                                                                                                                                                           |
+|                                               | -   **Toolbar**: In a dedicated toolbar.                                                                                                                                                                                                                                  |
+| <small>(v0.21)</small>                    | -   **Left corner**: In the left corner of the menubar.                                                                                                                                                                                                                   |
+|                                                  | -   **Right corner**: In the right corner of the menubar.                                                                                                                                                                                                                 |
++++
+|                                   | If checked, FreeCAD will remember and restore the workbench that was active for each tab in the [Main view area](Main_view_area.md).                                                                                                                              |
+| **Remember active workbench by tab** |                                                                                                                                                                                                                                                                           |
+|                                               |                                                                                                                                                                                                                                                                           |
++++
 
 ![](images/Preferences_Workbenches_Tab_Available_Workbenches.png )
+
+## Python
+
+This preferences section (<small>(v0.21)</small> ) has three tabs: Macro, Python console and Editor.
+
+
+
+### 宏
+
+On the *Macro* tab you can specify the following:
+
+
+<div class="mw-translate-fuzzy">
+
++++
+| 名称                                       | 描述                                                                                                                                                                                                                                                                |
++============================================+=====================================================================================================================================================================================================================================================================+
+|                             | If checked, variables defined by macros are created as local variables, otherwise as global Python variables                                                                                                                                                        |
+| **在本地环境中运行宏**         |                                                                                                                                                                                                                                                                     |
+|                                         |                                                                                                                                                                                                                                                                     |
++++
+|                             | Specification of the path for macro files                                                                                                                                                                                                                           |
+| **宏路径**                     |                                                                                                                                                                                                                                                                     |
+|                                         |                                                                                                                                                                                                                                                                     |
++++
+|                             | If checked, [recorded macros](Std_DlgMacroRecord.md) will also contain user interface commands                                                                                                                                                              |
+| **录制图形用户界面命令**       |                                                                                                                                                                                                                                                                     |
+|                                         |                                                                                                                                                                                                                                                                     |
++++
+|                             | If checked, [recorded macros](Std_DlgMacroRecord.md) will also contain user interface commands, but as comments. This is useful if you don\'t want to execute these commands when running the macro, but do want to see what has been done while recording. |
+| **录制为注释**                 |                                                                                                                                                                                                                                                                     |
+|                                         |                                                                                                                                                                                                                                                                     |
++++
+|                             | If checked, the commands executed by macro scripts are shown in the Python console. This console is shown using the **View → Panels → Python console** menu option.                                                                       |
+| **在Python控制台显示脚本**     |                                                                                                                                                                                                                                                                     |
+|                                         |                                                                                                                                                                                                                                                                     |
++++
+|                             | Controls the number of recent macros to display in the menu                                                                                                                                                                                                         |
+| **Size of recent macros list** |                                                                                                                                                                                                                                                                     |
+|                                         |                                                                                                                                                                                                                                                                     |
++++
+|                             | Controls the number of recent macros that get dynamically assigned shortcuts                                                                                                                                                                                        |
+| **快捷方式计数**               |                                                                                                                                                                                                                                                                     |
+|                                         |                                                                                                                                                                                                                                                                     |
++++
+|                             | Controls which keyboard modifiers are used for the shortcuts, example **Ctrl+Shift+** creates shortcuts in the form of **Ctrl+Shift+1**, **Ctrl+Shift+2**, etc.                                                                                                     |
+| **键盘编辑器**                 |                                                                                                                                                                                                                                                                     |
+|                                         |                                                                                                                                                                                                                                                                     |
++++
+
+
+</div>
+
+![](images/Preferences_Python_Tab_Macro.png )
+
+### Python console 
+
+These preferences control the behavior of the [Python console](Python_console.md). This console can be opened using the **View → Panels → Python console** menu option.
+
+Note that the color and font settings for the console are defined on the [Editor](#Editor.md) tab.
+
+On the *Python console* tab (<small>(v0.20)</small> ) you can specify the following:
+
++++
+| Name                                | Description                                                                                     |
++=====================================+=================================================================================================+
+|                      | If checked, words will be wrapped if they exceed the available horizontal space in the console. |
+| **Enable word wrap**    |                                                                                                 |
+|                                  |                                                                                                 |
++++
+|                      | If checked, the cursor will have a block shape.                                                 |
+| **Enable block cursor** |                                                                                                 |
+|                                  |                                                                                                 |
++++
+|                      | If checked, Python history is saved across sessions.                                            |
+| **Save history**        |                                                                                                 |
+|                                  |                                                                                                 |
++++
+
+![](images/Preferences_Python_Tab_Python_console.png )
+
+
+
+### 编辑器
+
+
+<div class="mw-translate-fuzzy">
+
+编辑器首选项设置影响的是宏编辑器的行为。此编辑器可通过**Macro → Macros...  → Edit/Create**菜单打开。
+**请注意:** 这里的颜色和字体设置也会影响到[Python](https://en.wikipedia.org/wiki/Python_(programming_language))控制台。此控制台可通过**View → Panels → Python console**菜单打开。
+
+
+</div>
+
+The color and font settings are also used by the [Python console](#Python_console.md).
+
+在*Editor*选项卡中，您可以指定以下内容：
+
+
+<div class="mw-translate-fuzzy">
+
++++
+| 名称                          | 描述                                                                                                                                                                                                                                       |
++===============================+============================================================================================================================================================================================================================================+
+|                | 选择代码类型。此处的颜色与字体设置将应用于所选的代码类型。可以从**Preview**框中预览效果。                                                                                                                                                  |
+| **Display Items** |                                                                                                                                                                                                                                            |
+|                            |                                                                                                                                                                                                                                            |
++++
+|                | 指定应用于所选代码类型的字体系列（font family）。                                                                                                                                                                                          |
+| **字体族**        |                                                                                                                                                                                                                                            |
+|                            |                                                                                                                                                                                                                                            |
++++
+|                | 指定应用于所选代码类型的字体大小。                                                                                                                                                                                                         |
+| **大小**          |                                                                                                                                                                                                                                            |
+|                            |                                                                                                                                                                                                                                            |
++++
+|                | 若开启此项，将显示代码行号。                                                                                                                                                                                                               |
+| **启用行号**      |                                                                                                                                                                                                                                            |
+|                            |                                                                                                                                                                                                                                            |
++++
+|                | 指定一个tab符占多少空格位置。若将此值设置为\'6\'，则多次按下**Tab**键后，将根据当前光标位置，依次跳至其后的第7个字符、第13个字符或第19个字符等处。只有在选中**保留制表符**后，本选项才可生效。 |
+| **制表符长度**    |                                                                                                                                                                                                                                            |
+|                            |                                                                                                                                                                                                                                            |
++++
+|                | 指定在按下**Tab**键后将会插入多少个空格。只有在选中**插入空格**后，本选项才会生效。                                                                                                            |
+| **缩进大小**      |                                                                                                                                                                                                                                            |
+|                            |                                                                                                                                                                                                                                            |
++++
+|                | 如果选择本项，则按下**Tab**键将插入占空为**制表符长度**的tab符。                                                                                                                               |
+| **保留制表符**    |                                                                                                                                                                                                                                            |
+|                            |                                                                                                                                                                                                                                            |
++++
+|                | 如果选择本项，则按下**Tab**键将插入数量为**缩进大小**的空格符。                                                                                                                                |
+| **插入空格**      |                                                                                                                                                                                                                                            |
+|                            |                                                                                                                                                                                                                                            |
++++
+
+
+</div>
+
+![](images/Preferences_Python_Tab_Editor.png )
 
 ## Addon Manager 
 
@@ -940,9 +958,9 @@ On the *Addon manager options* tab (<small>(v0.20)</small> ) you can specify the
 +++
 |                                                          | Custom repositories can be specified here.                                                                                                                                                                                                                                                                                                                                  |
 | **Custom repositories**                                     |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                      | To add a repository press the **<img src="images/List-add.svg" width=16px>** button. Both the **Repository URL** and the **Branch**, typically {{Value|master}} or {{Value|main}}, must be specifies in the dialog that opens. <small>(v1.0)</small>                           |
+|                                                                      | To add a repository press the **<img src="images/List-add.svg" width=16px>** button. Both the **Repository URL** and the **Branch**, typically {{Value|master}} or {{Value|main}}, must be specifies in the dialog that opens. <small>(v0.21)</small>                          |
 |                                                                         |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                         | To remove a repository select it in the list and press the **<img src="images/List-remove.svg" width=16px>** button. <small>(v1.0)</small>                                                                                                                                                                                                                     |
+|                                                                         | To remove a repository select it in the list and press the **<img src="images/List-remove.svg" width=16px>** button. <small>(v0.21)</small>                                                                                                                                                                                                                    |
 +++
 |                                                          | The Addon manager includes experimental support for proxies requiring authentication, set up as user-defined proxies.                                                                                                                                                                                                                                                       |
 | **Proxy**                                                   |                                                                                                                                                                                                                                                                                                                                                                             |
@@ -952,7 +970,7 @@ On the *Addon manager options* tab (<small>(v0.20)</small> ) you can specify the
 | **Python executable (optional)**                            |                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                             |
 +++
-|                                                          | The Addon manager attempts to determine the git executable. To override this selection, the path to the executable can be set here. <small>(v1.0)</small>                                                                                                                                                                                                            |
+|                                                          | The Addon manager attempts to determine the git executable. To override this selection, the path to the executable can be set here. <small>(v0.21)</small>                                                                                                                                                                                                           |
 | **git executable (optional)**                               |                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                             |
 +++
@@ -960,11 +978,11 @@ On the *Addon manager options* tab (<small>(v0.20)</small> ) you can specify the
 | **Show option to change branches (requires git)**           |                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                             |
 +++
-|                                                          | If checked, git downloads are disabled. <small>(v1.0)</small>                                                                                                                                                                                                                                                                                                        |
+|                                                          | If checked, git downloads are disabled. <small>(v0.21)</small>                                                                                                                                                                                                                                                                                                       |
 | **Disable git (fall back to ZIP downloads only)**           |                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                             |
 +++
-|                                                          | If checked, Addon manager options intended for developers of addons are activated. <small>(v1.0)</small>                                                                                                                                                                                                                                                             |
+|                                                          | If checked, Addon manager options intended for developers of addons are activated. <small>(v0.21)</small>                                                                                                                                                                                                                                                            |
 | **Addon developer mode**                                    |                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                             |
 +++

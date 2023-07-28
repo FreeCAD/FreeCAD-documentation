@@ -281,9 +281,9 @@ Les filets ISO et autres ont été allégés, c\'est-à-dire que les bords inté
 Cette méthode produit des solides fiables qui \"booléen\" correctement. Bien qu\'il ne produise pas de filetage de vis \"paramétrique\" dans les tailles standard, c\'est-à-dire qu\'il permet d\'accéder facilement à la forme par taille de fixation, il constitue un moyen simple de produire une bibliothèque précise à réutiliser, ainsi que des modèles de formes spécialisées telles que ACME ou des vis Archimédien. , sont également simples comme des one-offs.
 
 
-  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+ {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Thread for Screw Tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Thread for Screw Tutorial/fr

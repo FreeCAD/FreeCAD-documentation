@@ -9,13 +9,17 @@
 
 # FEM ClippingPlaneAdd/de
 
+
+
 ## Beschreibung
 
 Adds a clipping plane for the whole model view. All visible objects will be cut by it, no matter if these are geometric models, meshes or result pipelines.
 
 The clipping plane is the same you get when using the feature [Toggle Clip Plane](Std_ToggleClipPlane.md) with the difference that the clipping plane is persistent. Therefore it shares the same functionality of providing only hollow cuts.
 
-## Usage
+
+
+## Anwendung
 
 To create a clipping plane, either use the toolbar button **<img src="images/FEM_ClippingPlaneAdd.svg" width=16px> '''Clipping plane on face'''** or the menu **Utilities → <img src="images/FEM_ClippingPlaneAdd.svg" width=16px> Clipping plane on face**. It is possible to have several clipping planes.
 

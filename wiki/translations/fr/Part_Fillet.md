@@ -18,9 +18,9 @@ Cet outil crée des congés (arrondis) sur les bords sélectionnés d\'une forme
 ## Utilisation
 
 -   Lancez l\'outil à partir de la barre d\'outils Part ou du menu **Part → Congé...**. Vous pouvez sélectionner la forme avant de lancer l\'outil.
--   Si la forme n\'a pas été sélectionnée avant de lancer l\'outil, sélectionnez-la dans la liste déroulante du [Panneau des tâches](Task_panel/fr.md).
+-   Si la forme n\'a pas été sélectionnée avant de lancer l\'outil, sélectionnez-la dans la liste déroulante du [panneau des tâches](Task_panel/fr.md).
 -   Sélectionnez le type de congé, soit un rayon constant (par défaut) soit un rayon variable.
--   Sélectionnez les arêtes soit dans la [vue 3D](3D_view/fr.md) ou en les cochant dans la liste des arêtes dans le [Panneau des tâches](Task_panel/fr.md).
+-   Sélectionnez les arêtes soit dans la [vue 3D](3D_view/fr.md) ou en les cochant dans la liste des arêtes dans le [panneau des tâches](Task_panel/fr.md).
 -   Définissez la valeur du rayon.
 -   Cliquez sur **OK** pour valider.
 
@@ -30,7 +30,7 @@ Cet outil crée des congés (arrondis) sur les bords sélectionnés d\'une forme
 
 Il existe un autre outil de congé dans l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md). Veuillez noter que leur fonctionnement est assez différent. Consultez la page de référence <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [PartDesign Congé](PartDesign_Fillet/fr.md) pour plus de détails sur leurs différences.
 
-## Remarques pour l\'application de Part Congés 
+## Remarques pour l\'application de Part Congé 
 
 Part Congé peut ne rien faire si le résultat touche ou traverse le bord adjacent suivant. Par conséquent, si vous n\'obtenez pas le résultat escompté, essayez avec une valeur de **Rayon** plus petite. Il en est de même pour <img alt="" src=images/Part_Chamfer.svg  style="width:24px;"> [Part Chanfrein](Part_Chamfer/fr.md).
 

@@ -68,22 +68,18 @@ Die Einstellungen für den Addon-Manager findet man im [Voreinstellungseditor](P
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-## Informationen für Entwickler 
-
-
-</div>
+## Informationen für Addon-Entwickler 
 
 Siehe [Erweiterung](Addon/de#Informationen_für_Entwickler.md).
 
-## Scripting
 
 
-<small>(v1.0)</small> 
+## Skripten
 
-Some features of the Addon manager are designed for access via FreeCAD\'s Python API. In particular an addon can be installed, updated, and removed via the Python interface. Most uses of this API require you to create an object with at least three attributes: {{Incode|name}}, {{Incode|branch}} and {{Incode|url}}. For example:
+
+{{Version/de|0.21}}
+
+Einige Funktionen des Addon-Managers sind so ausgelegt, dass auf sie über FreeCADs Python-API zugegriffen werden kann. Im einzelnen kann ein Addon über die Python-Schnittstelle installiert, aktualisiert und entfernt werden. Die meisten Anwendungen dieser API erfordern, dass ein Objekt mit mindestens drei Attributen angelegt wird: {{Incode|name}}, {{Incode|branch}} und {{Incode|url}}. Zum Beispiel:
 
 
 ```python
@@ -95,7 +91,7 @@ class MyAddonClass:
 my_addon = MyAddonClass()
 ```
 
-Your object {{Incode|my_addon}} is now ready for use with the Addon manager API.
+Das Objekt {{Incode|my_addon}} ist jetzt Bereit für den Einsatz mit der Addon-Manager-API.
 
 ### Commandline (non-GUI) use 
 

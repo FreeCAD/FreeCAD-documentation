@@ -21,7 +21,7 @@ Cet outil vous permet de créer un profil 2D d\'un pignon (ou roue à chaîne). 
 2.  Allez dans le menu **Part Design → [<img src=images/PartDesign_Sprocket.svg style="width:16px"> Pignon...**.
 3.  Définissez **Number Of Teeth** et **Sprocket Reference**.
 4.  Cliquez sur **OK**.
-5.  S\'il n\'y avait pas de corps actif : faites glisser et déposez le pignon dans un corps pour appliquer d\'autres fonctions comme l\'extrusion.
+5.  S\'il n\'y avait pas de corps actif : glisser et déposer le pignon dans un corps pour appliquer d\'autres fonctions comme l\'extrusion.
 
 
 
@@ -31,7 +31,7 @@ Cet outil vous permet de créer un profil 2D d\'un pignon (ou roue à chaîne). 
 
 -    **Sprocket Reference**: type de pignon. Une liste de définitions de pignons. {{Version/fr|0.20}}. La liste comprend les normes ANSI et ISO ainsi que certaines définitions de pignons pour bicyclettes et motos.
 
--    **Pitch**: Distance entre deux dents.
+-    **Pitch**: distance entre deux dents.
 
 -    **Roller Diameter**: diamètre des roulements pour lesquels le pignon est conçu.
 

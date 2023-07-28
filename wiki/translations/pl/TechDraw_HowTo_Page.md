@@ -1,8 +1,9 @@
 ---
-- TutorialInfo:   Topic:How To's and Misc Info 
-   Level:all
-   Time:n/a
-   Author:n/a
+- TutorialInfo:/pl
+   Topic:Jak to zrobić i różne informacje
+   Level:wszyscy
+   Time:nie określono
+   Author:-
    FCVersion:0.19
 ---
 
@@ -12,40 +13,46 @@
 
 
 
-## Introduction
 
-This page provide a collection of hints and little guides on using the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md). Adding new findings and best practices is encouraged.
 
-### Enable/Disable Centermarks 
+## Wprowadzenie
 
-When the centermarks are disabled hole centers and similar things can not be dimensioned. The centermarks are rendered as a little cross.
+Ta strona zawiera zbiór wskazówek i małych przewodników dotyczących korzystania ze środowiska pracy <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Rysunek Techniczny](TechDraw_Workbench/pl.md). Zachęcamy do dodawania nowych odkryć i najlepszych praktyk.
 
--   Select the view port (e.g. \"Front\")
--   In the property panel, \'View*Tab set the value*Arc Center Marks\'\' to true
+## Włączenie / wyłączenie znaczników środka 
 
-*Note* in this tab are [other settings](TechDraw_View#Properties.md) for the view that might be useful.
+Gdy znaczniki środka są wyłączone, środki otworów i podobne rzeczy nie mogą być wymiarowane. Znaki środka są renderowane jako mały krzyżyk.
 
-### Toggle View Frame and Vertex dots 
+-   Wybierz pozycję widoku *(np. \"Przód\")*.
+-   W panelu właściwości, zakładka *Widok* ustaw wartość parametru *Znak środka łuku* na {{true/pl}}.
 
-See [here](TechDraw_ToggleFrame.md) for switching them on and off and more information.
+**Uwaga:** w tej zakładce znajdują się [inne ustawienia](TechDraw_View/pl#Właściwości.md) dla widoku, które mogą być przydatne.
 
-### Curved edges as input to linear dimensions 
+### Przełącz ramkę widoku i punkty wierzchołków 
 
-Curved edges are accepted as input to linear dimensions. See this [forum thread](https://forum.freecadweb.org/viewtopic.php?f=35&t=49719&start=30)
+Zobacz stronę pod tytułem [Włącz / wyłącz wyświetlanie ramek](TechDraw_ToggleFrame/pl.md), aby je włączyć lub wyłączyć i uzyskać więcej informacji.
 
-<img alt="" src=images/CurvedEdgeLinearDims.png  style="width:256px;">
 
-### Show metric and imperial dimensions at the same time 
 
-It is possible to show metric and imperial decimal dimensions at the same time. See this [forum thread](https://forum.freecadweb.org/viewtopic.php?f=35&t=49711)
+### Zakrzywione krawędzie jako dane wejściowe do wymiarów liniowych 
+
+Zakrzywione krawędzie są akceptowane jako dane wejściowe do wymiarów liniowych. Zobacz ten [wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=35&t=49719&start=30).
+
+<img alt="" src=images/CurvedEdgeLinearDims.png  style="width:256px;"> 
+
+### Wyświetlanie wymiarów metrycznych i calowych jednocześnie 
+
+Możliwe jest jednoczesne wyświetlanie metrycznych i calowych wymiarów dziesiętnych. Zobacz ten [wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=35&t=49711).
 
 <img alt="" src=images/Imperiale_decimale.png  style="width:256px;">
 
-### Dimensioning in case of oriented holes 
 
-Two use cases. See this [forum thread](https://forum.freecadweb.org/viewtopic.php?f=35&t=49976).
 
-See also [Measurement Of Angles On Holes](Measurement_Of_Angles_On_Holes.md)
+### Wymiarowanie w przypadku otworów ukierunkowanych 
+
+Dwa przypadki użycia. Zobacz ten [wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=35&t=49976).
+
+Zapoznaj się również z informacjami na stronie [Pomiar kątów na otworach](Measurement_Of_Angles_On_Holes/pl.md).
 
 <img alt="" src=images/dimension-hole.png  style="width:256px;"> <img alt="" src=images/dimension-hole_angles.png  style="width:256px;">
 

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw DetailView
-   MenuLocation:TechDraw → Insert Detail View
+   MenuLocation:TechDraw → TechDraw Views → Insert Detail View
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    SeeAlso:[TechDraw View](TechDraw_View.md), [TechDraw Projection Group](TechDraw_ProjectionGroup.md)
 ---
@@ -10,7 +10,7 @@
 
 ## Description
 
-The Detail tool creates a view of small area of an existing view.
+The **TechDraw DetailView** tool creates a view of small area of an existing view.
 
  ![](images/ViewDetail.png )  
 *Detail view with circular viewbox of an existing view*

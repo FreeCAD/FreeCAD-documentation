@@ -13,6 +13,8 @@
 
 
 
+
+
 ## Introdução
 
 Este tutorial foi originalmente escrito por Quick61, e reescrito e reilustrado por vocx.
@@ -22,6 +24,8 @@ Este tutorial foi composto para ajudar o novo usuário a se familiarizar com as 
 Existe uma regra geral para as restrições: quanto menor a quantidade de **restrições de dados** (cotas ou dimensões), melhor.
 
 É preferível usar uma **restrição geométrica** em vez de uma dimensional, se possível. Isso tem a ver com o funcionamento interno do solucionador de restrições do Sketcher.
+
+
 
 ## Configuração
 
@@ -35,6 +39,8 @@ Some actions to remember:
 -   To exit the sketch edit mode, press the **Close** button in the [task panel](task_panel.md), or press **Esc** twice in the keyboard.
 -   To enter again edit mode, double click on the sketch in the [tree view](tree_view.md), or select it, and then click on **[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [Edit sketch](Sketcher_EditSketch.md)**.
 
+
+
 ## Crie um Esboço 
 
 2\. Click on **<img src="images/Sketcher_NewSketch.svg‎‎" width=16px> [New sketch](Sketcher_NewSketch.md)**.
@@ -46,6 +52,8 @@ Some actions to remember:
 **Note:**
 
 in the [task panel](task_panel.md) expand the **Edit controls** section, and make sure the **Auto constraints** option is disabled. Also turn off the grid snap, and hide the grid.
+
+
 
 ## Primeira Abordagem: Restrições de Referência 
 
@@ -70,6 +78,8 @@ in the [task panel](task_panel.md) expand the **Edit controls** section, and mak
 
 Looking at the **Constraints** section in the [task panel](task_panel.md), we see that the constraints are too many; they also clutter the view of the sketch. These constraints are also computationally intensive for the solver; while this is not an issue with a simple shape, it can become one with more complex shapes.
 
+
+
 ## Uma Maneira Melhor: Referência e Restrições Geométricas 
 
 4\. We will draw the same square fully constrained, and centered at the origin. When you create the new sketch, make sure the **Auto constraints** option is disabled.
@@ -92,6 +102,8 @@ Looking at the **Constraints** section in the [task panel](task_panel.md), we se
 *Left: datum constraints for only two sides. Right: additional datum constraints for only two interior distances.*
 
 This is a better constrained sketch than the first one. The horizontal and vertical geometric constraints allow us to use fewer datum constraints, so our sketch looks less cluttered.
+
+
 
 ## Esquema Ótimo: Principalmente Restrições Geométricas 
 
@@ -119,6 +131,8 @@ This is a better constrained sketch than the first one. The horizontal and verti
 
 This is the best way to constrain this sketch, as we only used one datum (dimensional) constraint.
 
+
+
 ## Recursos Adicionais 
 
 -   [Basic Sketcher Tutorial](Basic_Sketcher_Tutorial.md)
@@ -126,9 +140,11 @@ This is the best way to constrain this sketch, as we only used one datum (dimens
 -   [Sketcher Tutorial](Sketcher_Tutorial.md)
 
 
- {{Sketcher Tools navi}}
+{{Sketcher Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/pt-br

@@ -1,47 +1,49 @@
 ---
 - GuiCommand:/de
    Name:Mesh RemeshGmsh
-   Name/de:Netz WiedervernetzenGmsh
-   MenuLocation:Netze → Verfeinerung...
-   Workbenches:[Netz](Mesh_Workbench/de.md)
+   Name/de:Mesh NeuVernetzenGmsh
+   MenuLocation:Netze → Aufbereitung...
+   Workbenches:[Mesh](Mesh_Workbench/de.md)
    Version:0.19
-   SeeAlso:[Netz AusTeilForm](Mesh_FromPartShape/de.md)
+   SeeAlso:[Mesh NetzAusPartForm](Mesh_FromPartShape/de.md)
 ---
 
 # Mesh RemeshGmsh/de
 
+
+
 ## Beschreibung
 
-Der **Netz WiedervernetzenGmsh** Befehl wiedervernetzt ein Netzobjekt unter Verwendung des [Gmsh](https://gmsh.info/) Vernetzers. Das neue Netz kann feiner oder gröber sein.
+Der Befehl **Mesh NeuVernetzenGmsh** vernetzt ein Netzobjekt erneut unter Verwendung des Vernetzers [Gmsh](https://gmsh.info/). Das neue Netz kann feiner oder gröber sein.
+
+
 
 ## Anwendung
 
-1.  Select a single mesh object.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_RemeshGmsh.svg" width=16px> [Mesh RemeshGmsh](Mesh_RemeshGmsh.md)** button.
-    -   Select the **Meshes → <img src="images/Mesh_RemeshGmsh.svg" width=16px> Refinement...** option from the menu.
-3.  The **Remesh by gmsh** task panel opens.
-4.  Specify the required settings. See the [Gmsh mesher settings](Mesh_FromPartShape#Gmsh_mesher.md) of the [Mesh FromPartShape](Mesh_FromPartShape.md) command.
-5.  Press the **Apply** button to remesh the mesh object.
-6.  Optionally change one or more settings and again press the **Apply** button until the new mesh is to your liking.
-7.  Press the **Close** button to close the task panel and finish the command.
+1.  Ein einzelnes Netzobjekt auswählen.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Mesh_RemeshGmsh.svg" width=16px> [Aufbereitung...](Mesh_RemeshGmsh/de.md)** drücken.
+    -   Den Menüeintrag **Netze → <img src="images/Mesh_RemeshGmsh.svg" width=16px> Aufbereitung...** auswählen.
+3.  Der Aufgaben-Bereich **Neuvernetzung durch Gmsh** wird geöffnet.
+4.  Die erforderlichen Einstellungen festlegen. Siehe die [Gmsh-Vernetzer-Einstellungen](Mesh_FromPartShape#Gmsh_mesher.md) des Befehls [Mesh NetzAusPartForm](Mesh_FromPartShape.md).
+5.  Die Schaltfläche **Anwenden** drücken, um das Netzobjekt neu zu vernetzen.
+6.  Wahlweise eine oder Mehrere Einstellungen anpassen und erneut die Schaltfläche **Anwenden** drücken, bis das Netz gefällt.
+7.  Die Schaltfläche **Schließen** drücken, um den Aufgaben-Bereich zu schließen und den Befehl zu beenden.
+
+
 
 ## Hinweise
 
--   In some cases this command will produce a mesh with flipped normals. The [Mesh FlipNormals](Mesh_FlipNormals.md) command can be used to correct this.
+-   In einigen Fällen erzeugt dieser Befehl Netze mit umgekehrten Normalen. Der Befehl [Mesh NormalenUmkehren](Mesh_FlipNormals/de.md) kann verwendet werden, um dies zu korrigieren.
+
+
 
 ## Eigenschaften
 
-See: [Mesh Feature](Mesh_Feature.md).
-
-
-<div class="mw-translate-fuzzy">
+Siehe: [Mesh Formelement](Mesh_Feature/de.md).
 
 
 
-
-
-</div>
 
 
 {{Mesh Tools navi

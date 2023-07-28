@@ -10,7 +10,7 @@
 
 {{TOCright}}
 
-## Overview
+## Description
 
 Every TechDraw page is based on a Template object. The Template controls paper size and contains fixed text graphics and text, for example, a page frame or border.
 
@@ -64,7 +64,7 @@ Where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example
 
 Custom templates can also be specified as a default in the [TechDraw Preferences](TechDraw_Preferences.md).
 
-See also [How to make a custom TechDraw template](TechDraw_TemplateHowTo.md).
+See also [How to make a custom TechDraw template](TechDraw_TemplateHowTo.md), or, if you prefer script generated templates, [TechDraw TemplateGenerator](TechDraw_TemplateGenerator.md) and [Macro TemplateHelper](Macro_TemplateHelper.md).
 
 ## Notes
 

@@ -10,7 +10,7 @@
 
 ## Description
 
-La commande **Mesh Solide régulier** crée un solide paramétrique, maillé régulier.
+La commande **Solide régulier** crée un solide paramétrique, maillé régulier.
 
 
 

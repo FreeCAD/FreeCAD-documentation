@@ -1,59 +1,68 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign NewSketch
-   MenuLocation:Sketch → Create sketch
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Utwór szkic
+   MenuLocation:Szkic → Utwór szkic
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[Sketcher NewSketch](Sketcher_NewSketch.md)
+   SeeAlso:[Utwór szkic](Sketcher_NewSketch/pl.md)
 ---
 
 # PartDesign NewSketch/pl
 
-## Description
 
-This tool creates a new sketch, creates a new [PartDesign Body](PartDesign_Body.md) to contain the sketch if one does not exist and automatically opens the [Sketcher workbench](Sketcher_Workbench.md) after creation.
 
-When creating models using the [PartDesign workbench](PartDesign_Workbench.md), this tool should be preferred to the **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher NewSketch](Sketcher_NewSketch.md)** tool found in the [Sketcher workbench](Sketcher_Workbench.md).
+## Opis
 
-## Usage
+Narzędzie to tworzy nowy szkic, tworzy nową [Zawartość](PartDesign_Body/pl.md) ze szkicem, jeśli taka nie istnieje i następnie automatycznie otwiera środowisko pracy [Szkicownik](Sketcher_Workbench/pl.md).
 
-1.  Press the **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign NewSketch](PartDesign_NewSketch.md)** button from the PartDesign toolbar.
-2.  In the Tasks panel, the **Select feature** dialog is brought up. Select one of the planes in the list or in the 3D view which can be reoriented for better visibility.
-3.  Press **OK**.
-4.  The interface automatically switches to the Sketcher workbench and the sketch can be edited. Once the sketch is exited, the interface is brought back to the PartDesign workbench and the 3D view is restored to the view orientation prior to creating the sketch.
-5.  Alternatively, a plane or a face on the existing active body can be selected before creating the sketch, in which case the sketch is instantly created.
+Podczas tworzenia modeli przy użyciu środowiska [Projekt Części](PartDesign_Workbench/pl.md), narzędzie to powinno być preferowane w odniesieniu do narzędzia **[<img src=images/Sketcher_NewSketch.svg style="width:16px">  [Utwórz szkic](Sketcher_NewSketch/pl.md)** znajdującego się w środowisku [Szkicownik](Sketcher_Workbench/pl.md).
 
-## Options
 
--   To change the attachment of an existing sketch, change its **Map Mode** property (see [Properties](#Properties.md).)
 
--   The *Select feature* Dialog defines the features of the new sketch
+## Użycie
+
+1.  Naciśnij przycisk **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Utwórz szkic](PartDesign_NewSketch/pl.md)** z paska narzędzi Projekt Części.
+2.  W panelu Zadania zostanie wyświetlone okno dialogowe **Wybierz cechę**. Wybierz jedną z płaszczyzn na liście lub w oknie Widoku 3D, którą można zmienić dla lepszego zobrazowania.
+3.  Naciśnij **OK**.
+4.  Interfejs automatycznie przełączy się na środowisko pracy Szkicownik i szkic będzie można edytować. Po wyjściu ze szkicu interfejs jest przywracany do środowiska pracy Projekt Części, a widok 3D jest przywracany do ujęcia przed utworzeniem szkicu.
+5.  Alternatywnie, przed utworzeniem szkicu można wybrać płaszczyznę lub ścianę na istniejącej aktywnej bryle, w którym to przypadku szkic jest tworzony natychmiast.
+
+
+
+## Opcje
+
+-   Aby zmienić dołączenie istniejącego szkicu, zmień jego właściwość **Tryb mapowania** *(zobacz akapit [Właściwości](#Właściwości.md))*.
+
+-   Okno dialogowe *Wybierz cechę* definiuje cechy nowego szkicu.
 
 :   
 
     :   <img alt="" src=images/PartDesign.CreateSketch.SelectFeatureDialog.jpeg  style="width:300px;">
-    :   *Select feature* dialog. These settings create a sketch on the XY plane and allow cross-references from other items of the same body\'\'
+    :   Okno dialogowe *Wybierz cechę*. Te ustawienia tworzą szkic na płaszczyźnie XY i umożliwiają odniesienia z innych elementów tej samej bryły.
 
-Dialog settings
+Ustawienia okna dialogowego
 
--   Coordinate system box: defines the orientation of the sketch plane
--   Allow Used Features checkbox: *TBD*
+-   Pole układu współrzędnych: określa orientację płaszczyzny szkicu.
+-   Zezwalaj na używane cechy:
 
-:   Allow external features options
+:   Zezwalaj na cechy zewnętrzne
 
--   From other bodies of the same part: any elements used in the same body can be referenced
--   From different parts or free features: *TBD*
--   Make independent copy: all other elements will be separate copies, i.e. they will not change when the original changes.
--   Make dependent copy: the elements will be copies, but a dependency to the original elements is kept. This is basically using a [Shapebinder](PartDesign_ShapeBinder.md)
--   Create cross-reference: the linked elements will not be copies, but point to the original elements, e.g. a master sketch. Any changes are reflected to this sketch
+-   Z innych zawartości tej samej bryły: można odwoływać się do dowolnych elementów używanych w obrębie tej samej bryły.
+-   Z różnych części lub swobodnych cech:
+-   Utwórz niezależną kopię: wszystkie inne elementy będą oddzielnymi kopiami, tj. nie zmienią się, gdy zmieni się oryginał.
+-   Utwórz zależną kopię: elementy będą kopiami, ale zachowana zostanie zależność od oryginalnych elementów. Jest to w zasadzie użycie funkcji [Łącznik kształtu](PartDesign_ShapeBinder/pl.md).
+-   Utwórz dowiązanie: połączone elementy nie będą kopiami, ale będą wskazywać na oryginalne elementy, np. szkic główny. Wszelkie zmiany są odzwierciedlane w tym szkicu
 
-To reference any items in the [Workbench Sketcher](Sketcher_Workbench.md) use the **<img src="images/Sketcher_External.svg" width=16px> [External Geometry](Sketcher_External.md)** and **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [CarbonCopy](Sketcher_CarbonCopy.md)** tools. Generally it is recommended to use other sketches as source for references rather than faces or edges, because they are less affected by the Topological Naming Issue.
+Aby odwołać się do dowolnych elementów w w obrębie środowiska pracy [Szkicownik](Sketcher_Workbench/pl.md), użyj przycisków **<img src="images/Sketcher_External.svg" width=16px> [Utwórz zewnętrzną geometrię](Sketcher_External/pl.md)** i **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Utwórz kalkę techniczną](Sketcher_CarbonCopy/pl.md)**. Generalnie zaleca się używanie innych szkiców jako źródła odniesień, a nie ścian lub krawędzi, ponieważ są one w mniejszym stopniu dotknięte problemem nazewnictwa topologicznego.
 
-## Properties
 
--    **Map Mode**: mode of attachment of the sketch to another object, usually a plane or a face but can be other types of objects. Click once in the field to reveal a **...** button and press it to open the [Attachment](Part_EditAttachment.md) dialog. If set to Deactivated, the Placement property is enabled.
 
--    **Placement**: controls the orientation of the sketch in the 3D space; see [placement](Std_Placement.md). Disabled if the sketch is attached through the Map Mode property.
+## Właściwości
+
+-    **Tryb mapowania**: Tryb dołączenia szkicu do innego obiektu, zazwyczaj płaszczyzny lub ściany, ale mogą to być także inne typy obiektów. Kliknij raz w pole, aby wyświetlić przycisk **...** i naciśnij go, aby otworzyć okno dialogowe [Dołączenie](Part_EditAttachment/pl.md). Jeśli wartość jest ustawiona na *Wyłączone*, właściwość *Umiejscowienie* jest włączona.
+
+-    **Umiejscowienie**: kontroluje orientację szkicu w przestrzeni 3D. Zobacz [Umiejscowienie](Std_Placement/pl.md). Opcja zostaje wyłączona, jeśli szkic jest dołączony poprzez właściwość **Tryb mapowania**.
 
 
 

@@ -1,10 +1,10 @@
 # Raytracing Workbench/de
-**Der Arbeitsbereich Strahlverfolgung ist im Wesentlichen veraltet. Eine Neuentwicklung findet in der [https://github.com/FreeCAD/FreeCAD-render Arbeitsbereich Rendern] statt, die als ihr Ersatz gedacht ist. Dieser Arbeitsbereich ist vollständig in Python programmiert, so dass sie viel einfacher zu erweitern ist.
-
-Nichtsdestotrotz sind die Informationen auf dieser Seite im Allgemeinen für den neuen Arbeitsbereich nützlich, da beide Module grundsätzlich gleich funktionieren.
-**
+**The '''Raytracing Workbench''' is no longer included after version 0.20.<br>
+ The external [https://github.com/FreeCAD/FreeCAD-render Render Workbench] should be used instead.**
 
 <img alt="Arbeitsbereichssymbol Strahlverfolgung" src=images/Workbench_Raytracing.svg  style="width:128px;">
+
+
 
 ## Einführung
 
@@ -17,7 +17,7 @@ Der Arbeitsbereich Strahlverfolgung arbeitet mit [Vorlagen](Raytracing_templates
 
 Derzeit werden zwei Renderer unterstützt: [POV-Ray](POV-Ray/de.md) und [LuxRender](LuxRender/de.md). Um aus FreeCAD heraus rendern zu können, muss mindestens eines dieser Programme in deinem System installiert und konfiguriert sein. Wenn jedoch kein Renderer installiert ist, kannst du trotzdem eine Projektdatei exportieren, die zu einem anderen Zeitpunkt gerendert werden soll.
 
-Die Arbeitsbereich Strahlverfolgung ist im Wesentlichen veraltet. Eine Neuentwicklung findet in der [Arbeitsbereich Rendern](https://github.com/FreeCAD/FreeCAD-render) statt, die als ihr Ersatz gedacht ist. Dieser Arbeitsbereich ist vollständig in Python programmiert, so dass sie viel einfacher zu erweitern ist als der aktuelle Arbeitsbereich , der in C++ programmiert ist. Nichtsdestotrotz sind die Informationen auf dieser Seite im Allgemeinen für den neuen Arbeitsbereich nützlich, da beide Module im Wesentlichen auf die gleiche Weise arbeiten.
+Die Arbeitsbereich Raytracing ist veraltet. Der externe Arbeitsbereich [Render](https://github.com/FreeCAD/FreeCAD-render) ist sein Ersatz. Nichtsdestotrotz sind die Informationen auf dieser Seite im Allgemeinen für den neuen Arbeitsbereich nützlich, da beide im Wesentlichen auf die gleiche Weise arbeiten.
 
 <img alt="" src=images/Raytracing_example.jpg  style="width:1024px;">
 
@@ -34,7 +34,11 @@ Die Arbeitsbereich Strahlverfolgung ist im Wesentlichen veraltet. Eine Neuentwic
 
 *Arbeitsablauf des Arbeitsbereichs Strahlverfolgung; der Arbeitsbereich bereitet eine Projektdatei aus einer bestimmten Vorlage vor und ruft dann ein externes Programm auf, um das eigentliche Rendering der Szene zu erstellen. Der externe Renderer kann unabhängig von FreeCAD verwendet werden..*
 
+
+
 ## Werkzeuge
+
+
 
 ### Projekt Werkzeuge 
 
@@ -47,6 +51,8 @@ Dies sind die wichtigsten Werkzeuge für den Export deiner 3D Arbeit in externe 
 -   <img alt="" src=images/Raytracing_ExportProject.svg  style="width:32px;"> [Export Projekt](Raytracing_ExportProject/de.md): Exportiert ein Strahlverfolgungsprojekt in eine Szene Datei zum Rendern in einem externen Renderer.
 -   <img alt="" src=images/Raytracing_Render.svg  style="width:32px;"> [Rendern](Raytracing_Render/de.md): Rendert ein Strahlverfolgungsprojekt mit einem externen Renderer.
 
+
+
 ### Hilfsmittel
 
 Dies sind Hilfswerkzeuge, um bestimmte Aufgaben manuell auszuführen.
@@ -54,6 +60,8 @@ Dies sind Hilfswerkzeuge, um bestimmte Aufgaben manuell auszuführen.
 -   <img alt="" src=images/Raytracing_WriteView.svg  style="width:32px;"> [Exportiere Ansicht zu povray](Raytracing_WriteView/de.md): Schreibe die aktive 3D Ansicht mit der Kamera und allen Inhalten in eine Povray Datei.
 -   <img alt="" src=images/Raytracing_WriteCamera.svg  style="width:32px;"> [Exportiere Kamera zu povray](Raytracing_WriteCamera/de.md): Exportieren der Kameraposition der aktiven 3D Ansicht im POV-Ray Format in eine Datei.
 -   <img alt="" src=images/Raytracing_WritePart.svg  style="width:32px;"> [Exportiere Teil zu povray](Raytracing_WritePart/de.md): Schreiben des ausgewählten Teils (Objekts) als Povray Datei
+
+
 
 ## Einstellungen
 
@@ -74,9 +82,13 @@ Du wirst nach einem Ort gefragt, an dem du die resultierende \*.pov Datei speich
 
 Üblicherweise kann man mit einem Renderer große und schöne Bilder erstellen: <img alt="" src=images/Scharniergreifer_render.jpg  style="width:800px;">
 
+
+
 ## Skripten
 
 Siehe [Strahlverfolgungs API Beispiel](Raytracing_API_example/de.md) für Informationen zum programmgesteuerten Schreiben von Szenen.
+
+
 
 ## Verweise
 
@@ -123,6 +135,8 @@ Obwohl der direkte Export in das Kerkythea XML-Datei-Format noch nicht unterstü
 
 -   Wenn Du mehrere Objekte in Kerkythea importierst, kannst Du den Befehl \"Datei → Zusammenführen\" in Kerkythea verwenden.
 
+
+
 ## Entwicklung
 
 Diese Seiten beziehen sich auf den neuen, in Python programmierten Arbeitsbereich, der den aktuellen Arbeitsbereich Strahlverfolgung ersetzen soll.
@@ -142,4 +156,4 @@ Diese Seiten beziehen sich auf den neuen, in Python programmierten Arbeitsbereic
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/de

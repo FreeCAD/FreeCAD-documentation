@@ -14,7 +14,11 @@
 
 
 
+
+
 ## Hintergrund
+
+
 
 ## Erstellung des Modells 
 
@@ -29,7 +33,11 @@
 
 <img alt="" src=images/Transient_FEM_Bimetal_(1).JPG  style="width:700px;">
 
+
+
 ## Vorbereitung und Durchführung der FEM Analyse 
+
+
 
 ### Zuweisung der Materialien 
 
@@ -38,6 +46,8 @@ In the FEM workbench we create a new <img alt="" src=images/FEM_Analysis.svg  st
 <img alt="" src=images/Transient_FEM_Bimetal_(2).JPG  style="width:700px;">
 
 We close the task window and repeat the steps to create a second material \'Steel\' (material card \'CalculiX-Steel\') and assign it to the top strip (\'BooleanFragments:Solid2\').
+
+
 
 ## Erstellung des Polygonnetzes 
 
@@ -52,6 +62,8 @@ A click on \'Apply\' runs the mesher, and -- the time depending on your computer
 
 <img alt="" src=images/Transient_FEM_Bimetal_(3).JPG  style="width:700px;">
 
+
+
 ### Zuweisen von Randbedingungen 
 
 An FEM analysis now would result in nothing, because nothing is happening to our model yet. So let's add some temperature: Use the <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:20px;"> initial temperature from the FEM workbench and set the temperature to 300 K. Here, no parts of the model can be selected, since this setting applies to the complete model.
@@ -63,6 +75,8 @@ Next, we use <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:
 Before we can run the analysis, an additional boundary condition has to be set: The analysis can only run, if our model is fixed somewhere in space. With <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:20px;"> we select the same two faces as for the 400 K above, and add them to the list. Red bars will appear on the model, visualising that those faces are fixed in space and not able to move around during the analysis.
 
 <img alt="" src=images/Transient_FEM_Bimetal_(5).JPG  style="width:700px;">
+
+
 
 ### Durchführung der Analyse 
 
@@ -88,6 +102,8 @@ Within FreeCAD, we can use <img alt="" src=images/FEM_PostPipelineFromResult.svg
 
 -   [Example file with results (10 MB)](https://drive.google.com/file/d/157aIdVpIyfpVW9WxL-ReGz0FIsQebH_q/view?usp=sharing)
 
+
+
 ## Anderes Beispiel 
 
 -   [Analytical bimetall example](https://forum.freecadweb.org/viewtopic.php?f=18&t=43040&start=10#p366664). The analytical example presented in the forum is included in FreeCAD FEM examples. It can be started by Python with
@@ -96,9 +112,11 @@ from femexamples.thermomech_bimetall import setup
 setup()
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > Transient FEM analysis/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > Transient FEM analysis/de

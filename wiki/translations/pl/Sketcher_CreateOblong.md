@@ -1,25 +1,30 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher CreateOblong
-   MenuLocation:Sketch → Sketcher geometries → Create rounded rectangle
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Utwórz zaokrąglony prostokąt
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz zaokrąglony prostokąt
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **O**
    Version:0.20
-   SeeAlso:[Sketcher CreateRectangle](Sketcher_CreateRectangle.md)
+   SeeAlso:[Utwórz prostokąt](Sketcher_CreateRectangle/pl.md)
 ---
 
 # Sketcher CreateOblong/pl
 
-## Description
 
-This tool draws a rounded rectangle by picking two opposite points. When starting the tool, the mouse pointer changes to a white cross with a red rounded rectangle icon. The coordinates of the pointer are shown beside it in blue in real time.
+
+## Opis
+
+Narzędzie to rysuje prostokąt, wybierając dwa przeciwstawne punkty. Po uruchomieniu narzędzia kursor myszki zmienia wygląd na ikonkę białego krzyżyka z czerwonym prostokątem. Współrzędne kursora są pokazywane obok niego na niebiesko w czasie rzeczywistym.
 
 ![](images/SketcherCreateRoundedRectangleExample.png‎ )
 
-## Usage
 
--   After pressing the <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:24px;"> **Create rounded rectangle** toolbar button, click once to set the first corner, then move the mouse and click a second time to set the opposite corner.
--   Pressing **Esc** or clicking the right mouse button cancels the function.
+
+## Użycie
+
+-   Po naciśnięciu przycisku na pasku narzędzi **[<img src=images/Sketcher_CreateOblong.svg style="width:24px"> '''Utwórz zaokrąglony prostokąt'''**, kliknij raz, aby ustawić pierwszy narożnik, a następnie przesuń kursor myszki i kliknij drugi raz, aby ustawić przeciwległy narożnik.
+-   Naciśnięcie klawisza **Esc** lub kliknięcie prawym przyciskiem myszy powoduje zakończenie działania narzędzia.
 
 
 

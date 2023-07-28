@@ -1,17 +1,13 @@
 # Scripted objects with attachment/de
 {{TOCright}}
 
+
+
 ## Einführung
 
+Der Zweck dieser Seite ist es, ein minimales Beispiel zu geben, das die Funktion [Part Befestigen](Part_EditAttachment/de.md) unter Verwendung von [skriptgenerierten Objekten](Scripted_objects.md) in Python zeigt.
 
-<div class="mw-translate-fuzzy">
-
-Der Zweck dieser Seite ist es, ein minimales Beispiel für die Funktion [Part Anhänge](Part_EditAttachment/de.md) unter Verwendung von [Scripted objects](Scripted_objects.md) in Python zu zeigen.
-
-
-</div>
-
-See [full and complete minimal example](#Full_and_Complete_Minimal_Example.md) below.
+Siehe unten, [Full and complete minimal example](#Full_and_Complete_Minimal_Example.md).
 
 The following GIF demonstrates attaching our custom box to a cylinder, and automatically updating it\'s position when the cylinder\'s position changes.
 

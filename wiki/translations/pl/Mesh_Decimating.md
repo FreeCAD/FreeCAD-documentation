@@ -4,13 +4,18 @@
    Name/pl:Siatka: Decymacja
    MenuLocation:Siatki → Decymacja ...
    Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   Version:0.19
 ---
 
 # Mesh Decimating/pl
 
+
+
 ## Opis
 
 Polecenie **Decymacja** zmniejsza liczbę ścian w obiektach siatkowych.
+
+
 
 ## Użycie
 

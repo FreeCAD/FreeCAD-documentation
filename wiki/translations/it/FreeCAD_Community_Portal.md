@@ -2,6 +2,8 @@
 Questo è il posto dove mettere tutte le cose connesse a FreeCAD! Se si lavora su qualcosa di correlato a FreeCAD, si prega di includerlo qui!
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Luoghi dove FreeCAD appare in rete 
@@ -30,6 +32,8 @@ Questo è il posto dove mettere tutte le cose connesse a FreeCAD! Se si lavora s
 -   [Packman](http://packman.links2linux.de/package/2776)
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Progetti correlati a FreeCAD 
@@ -41,6 +45,8 @@ Questo è il posto dove mettere tutte le cose connesse a FreeCAD! Se si lavora s
 </div>
 
 -   [Architecture workflow](http://yorik.uncreated.net/guestblog.php?tag=freecad) : An example of how FreeCAD can begin to have its preliminary place in an architecture workflow\...
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -60,11 +66,15 @@ These are FreeCAD community developed workbenches, scripts, macros, and addons f
 -   [FreeCAD GitHub addons repository](https://github.com/FreeCAD/FreeCAD-addons) is the GitHub repository that hosts FreeCAD addons.
 -   [External workbenches](External_workbenches.md) is the wiki page dedicated to explaining more details about each Addon.
 
+
+
 ## Pubbblicità
 
 ### Social networks 
 
 -   [yorik](User_Yorik.md) - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
+
+
 
 ### Siti di news 
 
@@ -79,10 +89,14 @@ These are FreeCAD community developed workbenches, scripts, macros, and addons f
 -   <http://www.inside3dp.com/>
 -   <http://diy3dprinting.blogspot.com/>
 
+
+
 ### Altri siti 
 
 -   <http://forum.lulzbot.com/viewforum.php?f=30>
 -   <http://forum.diigiit.com/>
+
+
 
 ### Blog
 
@@ -92,19 +106,27 @@ These are FreeCAD community developed workbenches, scripts, macros, and addons f
 -   <http://opensourcedesigntools.blogspot.de/>
 -   [yorik](User_Yorik.md) - <http://yorik.uncreated.net>
 
+
+
 ### Francesi
 
 -   <http://www.linuxgraphic.org/>
 -   <https://freecad-france.com/>
 -   <https://linuxfr.org/>
 
+
+
 ### Spagnoli
 
 -   <http://www.iearobotics.com/blog/>
 
+
+
 ### Italiani
 
 -   <http://ingegnerialibera.altervista.org/blog/doku.php>
+
+
 
 ### Polacchi
 
@@ -113,16 +135,6 @@ These are FreeCAD community developed workbenches, scripts, macros, and addons f
 -   <http://cadblog.pl>
 
 
-<div class="mw-translate-fuzzy">
-
-## Altre risorse 
-
--   [Link interessanti](Interesting_links/it.md) contiene alcuni link ad altre risorse FLOSS che possono essere utili e dei progetti in questo settore.
-
-
-</div>
-
--   [Interesting links](Interesting_links.md) containing some maybe useful links to other FLOSS resources and project in this area.
 
 
 <div class="mw-translate-fuzzy">

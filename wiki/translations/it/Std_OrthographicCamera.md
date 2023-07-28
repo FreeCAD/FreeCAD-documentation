@@ -1,9 +1,16 @@
-# Std OrthographicCamera/it
 ---
-- GuiCommand:/it   Name:Std_OrthographicCamera   Name/it:Vista ortografica   MenuLocation:[Workbenches:Tutti   Shortcut:**V** **O**   SeeAlso:[[Std_PerspectiveCamera/it|Vista in prospettiva](Std_View_Menu/it___Visualizza]]_→_Vista_ortografica.md)---
+- GuiCommand:/it
+   Name:Std_OrthographicCamera
+   Name/it:Vista ortografica
+   MenuLocation:Visualizza → Vista ortografica
+   Workbenches:Tutti
+   Shortcut:**V** **O**
+   SeeAlso:[Vista in prospettiva](Std_PerspectiveCamera/it.md)
+---
+
+# Std OrthographicCamera/it
 
 
-</div>
 
 ## Descrizione
 
@@ -12,19 +19,22 @@ Il comando **Vista ortografica** commuta la [vista 3D](3D_view/it.md) attiva nel
 ![](images/Std_OrthographicCamera_example.svg ) 
 *Due cubi con le stesse dimensioni in vista ortografica*
 
+
+
 ## Utilizzo
 
 1.  Esistono diversi modi per invocare il comando:
     -   Selezionare l\'opzione **Visualizza → <img src="images/Std_OrthographicCamera.svg" width=16px> Vista ortografica** dal menu.
+    -   Selezionare l\'opzione **<img src="images/Std_OrthographicCamera.svg" width=16px> Vista ortografica** dal menu Mini-cubo del [Cubo di navigazione](Navigation_Cube/it.md).
     -   Usare la scorciatoia da tastiera: **V** e poi **O**.
 
-## Note
 
--   È anche possibile passare alla modalità di visualizzazione ortografica tramite il menu Mini-cubo del [Cubo di navigazione](Navigation_Cube/it.md).
 
 ## Preferenze
 
 -   Il tipo di camera può essere modificato nelle preferenze: **Modifica → Preferenze... → Visualizzazione → Vista 3D → Tipo di camera**. Il tipo selezionato verrà utilizzato per tutte le viste 3D di tutti i documenti aperti e anche per i nuovi documenti. Vedere in [Editor delle preferenze](Preferences_Editor/it#Vista_3D.md).
+
+
 
 ## Script
 
@@ -44,13 +54,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraType()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

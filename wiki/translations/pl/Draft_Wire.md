@@ -9,6 +9,8 @@
 
 # Draft Wire/pl
 
+
+
 ## Opis
 
 Polecenie <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> **Rysunek Roboczy: Linia łamana** [tworzy](#Utwórz.md) polilinię, czyli sekwencję kilku połączonych segmentów linii. Polecenie to może być również użyte do [łączenia](#Przyłącz.md) [linii](Draft_Line/pl.md) i polilinii.
@@ -18,7 +20,11 @@ Rogi prostokąta mogą być zaokrąglone lub sfazowane poprzez zmianę właściw
 <img alt="" src=images/Draft_Polyline_example.jpg  style="width:400px;"> 
 *Linia zdefiniowana przez wiele punktów*
 
+
+
 ## Utwórz
+
+
 
 ## Użycie
 
@@ -33,6 +39,8 @@ Zobacz również [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_S
 4.  Wybierz dodatkowe punkty w oknie [widoku 3D](3D_view/pl.md), lub wpisz współrzędne i wciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px>. Wprowadź punkt**.
 5.  Naciśnij przycisk **Esc** lub przycisk **Zamknij**, aby zakończyć działanie polecenia.
 
+
+
 ### Opcje
 
 Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi.
@@ -42,7 +50,7 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 -   Naciśnij klawisz **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszone są do globalnego układu współrzędnych, w przeciwnym razie są odnoszone do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane.md). {{Version/pl|0.20}}
 -   Naciśnij klawisz **L** lub kliknij pole wyboru **Wypełniony**, aby przełączyć tryb wypełnienia. Jeśli tryb wypełniania jest włączony, utworzona polilinia będzie miała wartość {{PropertyData/pl|Utwórz powierzchnię}} ustawioną na {{True}} i będzie miała wypełnioną powierzchnię, pod warunkiem, że jest zamknięta i nie przecina się sama. Zauważ, że polilinia z powierzchnią nie będzie wyświetlana poprawnie, dla takiej konstrukcji wartość {{PropertyData/pl|Utwórz powierzchnię}} musi być ustawiona na {{False}}.
 -   Naciśnij klawisz **T** lub kliknij w pole wyboru **Kontynuuj**, aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po użyciu przycisku **<img src="images/Draft_FinishLine.svg" width=16px> Zakończ** lub **<img src="images/Draft_CloseLine.svg" width=16px> Zamknij**, lub po utworzeniu zamkniętej polilinii przez przyciągnięcie do pierwszego punktu polilinii, co pozwala na kontynuowanie tworzenia polilinii.
--   Naciśnij klawisz **/** lub przycisk **<img src="images/Draft_UndoLine.svg" width=16px> Cofnij**, aby cofnąć ostatni punkt. Skrót klawiszowy nie działa w {{VersionMinus/pl|19.0}}.
+-   Naciśnij klawisz **/** lub przycisk **<img src="images/Draft_UndoLine.svg" width=16px> Cofnij**, aby cofnąć ostatni punkt.
 -   Naciśnij przycisk **A** lub przycisk **<img src="images/Draft_FinishLine.svg" width=16px> Zakończ**, aby zakończyć polecenie i pozostawić polilinię otwartą.
 -   Naciśnij klawisz **O** lub przycisk **<img src="images/Draft_CloseLine.svg" width=16px> Zamknij**, by zakończyć polecenie i zamknąć polilinię. Zamknięta polilinia może być także utworzona przez przyciągnięcie do pierwszego punktu polilinii.
 -   Wciśnij klawisz **W** lub przycisk **<img src="images/Draft_Wipe.svg" width=16px> Wyczyść**, aby usunąć już umieszczone segmenty, ale kontynuować pracę od ostatniego punktu.
@@ -50,7 +58,11 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 -   Naciśnij klawisz **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij klawisz **Esc** lub przycisk **Zamknij**, aby zakończyć polecenie.
 
+
+
 ## Przyłącz
+
+
 
 ## Użycie 
 
@@ -61,11 +73,15 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
     -   Wybierz opcję w menu **Kreślenie → <img src="images/Draft_Wire.svg" width=16px> Polilinia**.
     -   Użyj skrótu klawiaturowego: **P**, a następnie **L**.
 
+
+
 ## Uwagi
 
 -   Polilinia środowiska Rysunek Roboczy może być edytowana za pomocą polecenia [Edytuj](Draft_Edit/pl.md).
 -   Polilinia środowiska Rysunek Roboczy może być przekształcona w [Krzywą złożoną](Draft_BSpline/pl.md) za pomocą polecenia [Poililinia na krzywą złożoną](Draft_WireToBSpline/pl.md).
 -   [Linie](Draft_Line/pl.md) i polilinia środowiska Rysunek Roboczy, mogą być również połączone za pomocą polecenia [Połącz](Draft_Join/pl.md) lub [Ulepsz kształt](Draft_Upgrade/pl.md).
+
+
 
 ## Ustawienia
 
@@ -74,11 +90,15 @@ Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek
 -   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania wartości współrzędnych długości i kątów: **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
 -   Aby zmienić wartość początkową trybu wypełnienia: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Wypełniaj obiekty powierzchniami, gdy tylko jest to możliwe**. Zmiana trybu wypełnienia w panelu zadań spowoduje nadpisanie tych preferencji dla bieżącej sesji programu FreeCAD.
 
+
+
 ## Właściwości
 
 Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
 
 Obiekt polilinia wywodzi się z obiektu [Część: Part2DObject](Part_Part2DObject/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
 
 ### Dane
 
@@ -111,6 +131,8 @@ Obiekt polilinia wywodzi się z obiektu [Część: Part2DObject](Part_Part2DObje
 -    {{PropertyData/pl|Narzędzia|Link}}
     
 
+
+
 ### Widok
 
 
@@ -125,6 +147,8 @@ Obiekt polilinia wywodzi się z obiektu [Część: Part2DObject](Part_Part2DObje
 -    **Wzór|Enumeration**: określa rodzaj [wypełnienia](Draft_Pattern/pl.md), którym ma być pokryta powierzchnia zamkniętej linii. Ta właściwość działa tylko wtedy, gdy właściwość {{PropertyData/pl|Utwórz powierzchnię}} ma wartość `True` i gdy {{PropertyView/pl|Display Mode}} ma wartość {{value|Flat Lines}}.
 
 -    **Rozmiar wzoru|Float**: określa rozmiar [wypełnienia](Draft_Pattern/pl.md).
+
+
 
 ## Tworzenie skryptów 
 

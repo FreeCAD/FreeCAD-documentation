@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionCreateObliqueChainDimension.svg  style="width:24px;"> **TechDraw Cotes obliques** crée une chaîne oblique de cotes : une séquence de cotes alignées.
+L\'outil **TechDraw Cotes obliques** crée une chaîne oblique de cotes : une séquence de cotes alignées.
 
 <img alt="" src=images/TechDraw_ExtensionCreateObliqueChainDimensionExample.png  style="width:350px;"> 
 *A droite, les cotes créées*
+
+
 
 ## Utilisation
 

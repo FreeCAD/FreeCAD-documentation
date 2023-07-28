@@ -13,11 +13,21 @@
 
 </div>
 
+
+
 ## Descripción
+
+
+<div class="mw-translate-fuzzy">
 
 Esta herramienta recorta un borde hasta el borde más cercano que se superpone.
 
+
+</div>
+
 ![](images/SketcherTrimExample1.png ) ![](images/SketcherTrimExample2.png ) ![](images/SketcherTrimExample3.png )
+
+
 
 ## Utilización
 

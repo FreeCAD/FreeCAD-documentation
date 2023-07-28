@@ -62,10 +62,12 @@
 4.  Watch simulation
 
 
- {{Robot Tools navi}} {{Userdocnavi
+{{Robot Tools navi
+
+}} {{Userdocnavi
 ---
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Robot](Robot_Workbench.md) > Robot tutorial/zh-hans
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/zh-hans

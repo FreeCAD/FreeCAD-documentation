@@ -9,6 +9,8 @@
 
 # Std ToggleClipPlane/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std Schnittebene** blendet Objekte und Teile von Objekten aus, die sich auf jeweils einer Seite von bis zu drei virtuellen Ebenen in der [3D-Ansicht](3D_view/de.md) befinden.
@@ -16,13 +18,15 @@ Der Befehl **Std Schnittebene** blendet Objekte und Teile von Objekten aus, die 
 ![](images/Std_ToggleClipPlane_example.png ) 
 *Ein beschnittenes, hohles Objekt*
 
-![](images/Std_ToggleClipPlane_taskpanel.png ) 
-*Der Aufgabenbereich Clipping*
+![](images/Std_ToggleClipPlane_Dialog.png ) 
+*Der Dialogbereich Clipping*
+
+
 
 ## Anwendung
 
 1.  Menüeintrag **Ansicht → <img src="images/Std_ToggleClipPlane.svg" width=16px> Schnittebene** auswählen.
-2.  Im Aufgabenbereich Clipping hat man folgende Möglichkeiten:
+2.  Im Dialogbereich Clipping hat man folgende Möglichkeiten:
     -   Eine oder mehrere der Checkboxen {{CheckBox|TRUE|Abschneiden in X}} bis {{CheckBox|TRUE| Abschneiden in Z}} aktivieren.
         -   Bei Bedarf die Abstandswerte ändern.
         -   Bei Bedarf die jeweilige Schaltfläche **Flip** drücken, um die Seite zu Wählen, auf der die Objekte ausgeblendet werden.
@@ -34,6 +38,8 @@ Der Befehl **Std Schnittebene** blendet Objekte und Teile von Objekten aus, die 
             -   Angabe einer Richtung durch Eingabe der X-, Y- und Z-Koordinaten eines Normalenvektors.
 3.  Bei Bedarf ändert man die Ansicht zum Überprüfen des Modells.
 4.  Die Schaltfläche **Schließen** drücken, um den Aufgabenbereich zu schließen und den Befehl zu beenden.
+
+
 
 ## Hinweise
 

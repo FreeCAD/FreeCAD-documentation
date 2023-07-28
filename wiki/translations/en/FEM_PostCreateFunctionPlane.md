@@ -16,9 +16,7 @@ The <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;">
 
 ### Create a plane function 
 
-1.  There are several ways to create a function:
-    -   Press the **<img src="images/FEM_PostCreateFunctionPlane.svg" width=16px> [Plane](FEM_PostCreateFunctionPlane.md)** button.
-    -   Select the **Results → Filter functions → <img src="images/FEM_PostCreateFunctionPlane.svg" width=16px> Plane** option from the menu.
+1.  Either press the **<img src="images/FEM_PostCreateFunctionPlane.svg" width=16px> [Plane](FEM_PostCreateFunctionPlane.md)** button or select the **Results → Filter functions → <img src="images/FEM_PostCreateFunctionPlane.svg" width=16px> Plane** option from the menu.
 2.  The Implicit function [task panel](Task_panel.md) is opened.
 3.  Optionally set the values for the origin and the direction of the section plane.
 4.  Press the **OK** button to finish.
@@ -40,7 +38,7 @@ If the Plane object in the [3D view](3D_view.md) is hidden, select the <img alt=
 
 #### Scale the plane 
 
--   Click and drag one of the 6 small cubes are handles to adjust the size to scale the plane. However, since the object is an infinite plane, the size does not matter.
+-   Click and drag one of the 6 small cubes to scale the plane. However, since the object is an infinite plane, the size does not matter.
 
 ## Notes
 

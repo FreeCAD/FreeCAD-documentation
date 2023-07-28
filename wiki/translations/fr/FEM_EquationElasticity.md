@@ -1,11 +1,11 @@
 ---
 - GuiCommand:/fr
    Name:FEM EquationElasticity
-   Name/fr:FEM Equation d'élasticité
-   MenuLocation:Solveur → Equation d'élasticité
+   Name/fr:FEM Équation d'élasticité
+   MenuLocation:Résolution → Équations mécaniques → Équation d'élasticité
    |Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+   Version:0.17
+   SeeAlso:[FEM Équation de déformation](FEM_EquationDeformation/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM EquationElasticity/fr
@@ -20,9 +20,13 @@ Pour plus d\'informations sur les mathématiques de l\'équation, voir [Elmer mo
 
 ## Utilisation
 
-1.  Après avoir ajouté un solveur Elmer comme décrit [ici](FEM_SolverElmer/fr#.C3.89quations.md), sélectionnez-le dans la [Vue en arborescence](Tree_view/fr.md)
-2.  Utilisez maintenant le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationElasticity.svg  style="width:24px;"> ou le menu **Solveur → Equation d'élasticité**.
+1.  Après avoir ajouté un solveur Elmer comme décrit [ici](FEM_SolverElmer/fr#.C3.89quations.md), sélectionnez-le dans la [vue en arborescence](Tree_view/fr.md).
+2.  Utilisez maintenant le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationElasticity.svg  style="width:24px;"> ou le menu **Résolution → Équations mécaniques → Équation d'élasticité**.
 3.  Modifiez les [paramètres du solveur de l\'équation](#Param.C3.A8tres_du_solveur.md) ou les [paramètres généraux du solveur](FEM_SolverElmer_SolverSettings/fr.md) si nécessaire.
+
+**Remarque** : pour les analyses de déformation non linéaire, vous devez utiliser l\'<img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [équation de déformation](FEM_EquationDeformation/fr.md) ({{Version/fr|0.21}}). L\'équation d\'élasticité ne concerne que les déformations linéaires.
+
+**Remarque** : si vous utilisez plus d\'un cœur de CPU pour le solveur ({{Version/fr|0.21}}), vous ne pouvez pas utiliser les paramètres par défaut du solveur. Cependant, l\'utilisation d\'un seul CPU et des paramètres de solveur par défaut est dans de nombreux cas plus rapide que l\'utilisation de plusieurs CPU car le solveur d\'élasticité n\'est rapide que lorsque **Linear Solver Type** est réglé à *Direct* (la valeur par défaut est décrite [ici](FEM_SolverElmer_SolverSettings/fr#Système_linéaire.md)). Pour la résolution multi-CPU, on ne peut utiliser que la **Linear Direct Method** de *MUMPS*. Cependant, MUMPS n\'est pas disponible en téléchargement direct.
 
 
 
@@ -91,15 +95,16 @@ L\'équation d\'élasticité prend en compte les contraintes suivantes si elles 
 -   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Contrainte d\'immobilisation](FEM_ConstraintFixed/fr.md)
 -   <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Contrainte de déplacement](FEM_ConstraintDisplacement/fr.md)
 -   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Contrainte de force](FEM_ConstraintForce/fr.md)
+-   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Contrainte de température initiale](FEM_ConstraintInitialTemperature/fr.md)
 -   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Contrainte de pression](FEM_ConstraintPressure/fr.md)
 -   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Contrainte de poids propre](FEM_ConstraintSelfWeight/fr.md)
--   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Contrainte de température initiale](FEM_ConstraintInitialTemperature/fr.md)
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Contrainte de ressort](FEM_ConstraintSpring/fr.md)
 
 
 
 ### Remarque
 
-Sauf pour les calculs en 2D, pour toutes les contraintes ci-dessus, il est important qu\'elles agissent sur une face. Les contraintes pour la 3D définies sur des lignes ou des sommets ne sont pas reconnues par le solveur Elmer.
+-   Sauf pour les calculs en 2D, pour toutes les contraintes ci-dessus, il est important qu\'elles agissent sur une face. Les contraintes pour la 3D définies sur des lignes ou des sommets ne sont pas reconnues par le solveur Elmer.
 
 
 
@@ -113,7 +118,7 @@ Pour effectuer une analyse en mode propre (calcul des modes et fréquences propr
 4.  Ajouter une [Contrainte d\'immobilisation](FEM_ConstraintFixed/fr.md) et définir au moins une face du corps comme fixe.
 5.  Lancer le solveur.
 
-**Remarque** : si vous utilisez plus d\'un cœur de CPU pour le solveur (Notez également que la résolution itérative n\'est pas recommandée pour l\'analyse des modes propres. Par conséquent, soit vous n\'utilisez qu\'un seul cœur de processeur, soit vous installez le module *MUMPS* sur Elmer.
+Il est fortement recommandé d\'utiliser **Linear Solver Type** réglé à *Direct* (valeur par défaut) car cela est beaucoup plus rapide et les résultats sont plus précis.
 
 
 
@@ -127,7 +132,7 @@ Pour effectuer une analyse de flambage, vous devez procéder de la même manièr
 
 ## Résultats
 
-Les résultats disponibles dépendent des [Paramètres du solveur](#Param.C3.A8tres_du_solveur.md). Si aucun des paramètres de **Calculate *** n\'a été défini sur *true*, seul le déplacement est calculé. Sinon, les résultats correspondants seront également disponibles. Si **Eigen Analysis** est réglée à *true*, tous les résultats seront disponibles pour chaque mode propre calculé.
+Les résultats disponibles dépendent des [paramètres du solveur](#Param.C3.A8tres_du_solveur.md). Si aucun des paramètres de **Calculate *** n\'a été défini à *true*, seul le déplacement est calculé. Sinon, les résultats correspondants seront également disponibles. Si **Eigen Analysis** est réglée à *true*, tous les résultats seront disponibles pour chaque mode propre calculé.
 
 Si **Eigen Analysis** a été réglée à *true*, les fréquences propres seront affichées à les logs du solveur dans le dialogue du solveur et également dans le document **SolverElmerOutput** qui sera créé dans l\'arborescence une fois que le solveur aura terminé.
 

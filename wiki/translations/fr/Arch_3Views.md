@@ -16,19 +16,23 @@
 
 Elle servira à générer des vues planes, basées sur des formes, à partir d\'un objet [Atelier Mesh](Mesh_Workbench/fr.md), à utiliser par l\'outil **<img src="images/Arch_Equipment.svg" width=24px> [Arch Equipement](Arch_Equipment/fr.md)**.
 
+
+
 ## Utilisation
 
 -   Sélectionnez un objet Mesh
 -   Sélectionnez le bouton **<img src="images/Arch_3Views.svg" width=16px>** ou par le menu du haut **Arch** → **Utilitaires** → **<img src="images/Arch_3Views.svg" width=16px> [3 vues depuis un maillage](Arch_3Views/fr.md)**.
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
-[Arch API](Arch_API/fr.md) et [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-Cet outil peut être utilisé dans des [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante: 
+Cet outil peut être utilisé dans une [macro](Macros/fr.md) et utilisé dans la console [Python](Python/fr.md) en utilisant la fonction : 
 ```python
 shape = createMeshView(obj, direction=FreeCAD.Vector(0, 0, -1), outeronly=False, largestonly=False)
 ```

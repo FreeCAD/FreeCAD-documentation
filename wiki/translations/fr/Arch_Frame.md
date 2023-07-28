@@ -17,6 +17,8 @@ L\'outil **<img src="images/Arch_Frame.svg" width=16px> [Arch Ossature](Arch_Fra
 <img alt="" src=images/Arch_Frame_example.jpg  style="width:640px;"> 
 *Ici l'objet Frame (structure) est créé à partir d'un [Draft Réseau orthogonal](Draft_OrthoArray/fr.md) d'une [Draft Ligne](Draft_Line/fr.md) en utilisant un [Draft Cercle](Draft_Circle/fr.md) comme profil.*
 
+
+
 ## Utilisation
 
 1.  Créer un schéma ou modèle d\'objet et le profil d\'un objet, par exemple avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md).
@@ -28,6 +30,8 @@ L\'outil **<img src="images/Arch_Frame.svg" width=16px> [Arch Ossature](Arch_Fra
 -   Les ossatures partagent les propriétés et comportements communs de tous les objets [Arch Composants](Arch_Component/fr.md)
 -   L\'objet ossature peut être placé à une certaine distance de l\'objet modèle, en définissant sa propriété Offset
 -   Le profil sera copié à la base de chaque côté de l\'objet modèle, puis extrudé sur lui. Vous pouvez contrôler la façon dont le profil est placé à la base de chaque arête avec les propriétés Align et Rotation.
+
+
 
 ## Propriétés
 
@@ -41,10 +45,12 @@ L\'outil **<img src="images/Arch_Frame.svg" width=16px> [Arch Ossature](Arch_Fra
 
 -    **Rotation**: La rotation du profil autour de son axe d\'extrusion.
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 

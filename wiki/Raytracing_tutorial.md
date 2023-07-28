@@ -82,9 +82,11 @@ Now we have a model with which to work.
 
 FreeCAD will immediately open the image after the render is finished.
 
-We are now finished with the basic workflow for the [Raytracing workbench](Raytracing_Workbench.md).   {{Raytracing Tools navi}}
+We are now finished with the basic workflow for the [Raytracing workbench](Raytracing_Workbench.md).
+
+ {{Raytracing Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial
+![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial

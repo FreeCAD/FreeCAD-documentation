@@ -23,7 +23,7 @@ brew install freecad
 
 If there are any issues with the HomeBrew Cask or Formula you may report them to [here](https://github.com/FreeCAD/homebrew-freecad).
 
-This page describes the usage and features of the FreeCAD installer. It also includes uninstallation instructions. Once installed, you can [get started](Getting_started.md)!
+This page describes the usage and features of the FreeCAD installer. It also includes uninstallation instructions. Head to [Getting started](Getting_started.md) once installation is complete.
 
 ## Simple installation 
 
@@ -33,7 +33,7 @@ You can download the latest installer from the [Download](Download.md) page. Aft
 
 ![](images/mac_installer_1.png )
 
-That\'s it.Just click on the app to launch FreeCAD. If you have this message \"FreeCAD can\'t be open as it is from unidentified developer. \" Open the folder (Application) and right click on the app then click open and accept to open the application.
+That\'s it.Just click on the app to launch FreeCAD. If you have this message \"FreeCAD can\'t be open as it is from unidentified developer.\" Open the folder (Application) and right click on the app then click open and accept to open the application.
 
 ## Uninstallation
 

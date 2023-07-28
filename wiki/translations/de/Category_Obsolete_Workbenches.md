@@ -5,7 +5,8 @@ Diese Kategorie zeigt eine Liste der veralteten Arbeitsbereiche, d.h. Arbeitsber
 
 |     |     |     |
 | --- | --- | --- |
-| [Drawing Workbench/de](Drawing_Workbench/de.md) | [Category:Drawing/de](Category_Drawing/de.md) |
+| [Drawing Workbench/de](Drawing_Workbench/de.md) | [Image Workbench/de](Image_Workbench/de.md) | [Raytracing Workbench/de](Raytracing_Workbench/de.md) |
+| [Category:Drawing/de](Category_Drawing/de.md) |
 
 
 

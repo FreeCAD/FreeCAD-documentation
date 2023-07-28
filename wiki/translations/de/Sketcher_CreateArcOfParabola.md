@@ -11,11 +11,15 @@
 
 # Sketcher CreateArcOfParabola/de
 
+
+
 ## Beschreibung
 
 Dieses Werkzeug erstellt einen Parabelbogen durch Brennpunkt, Scheitelpunkt und Endpunkte.
 
 ![](images/Sketcher_Arc_of_Parabola_01.png )
+
+
 
 ## Anwendung
 

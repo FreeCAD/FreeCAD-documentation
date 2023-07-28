@@ -1,4 +1,13 @@
-# <img alt="Inspection workbench icon" src=images/Workbench_Inspection.svg  style="width:64px;"> Inspection Workbench/pt-br
+# Inspection Workbench/pt-br
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+<img alt="Inspection workbench icon" src=images/Workbench_Inspection.svg  style="width:128px;">
 
 ## Introduction
 
@@ -21,6 +30,8 @@ A Bancada de Inspeção [Inspection Workbench](Inspection_Workbench/pt-br.md) é
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Fluxo de trabalho pretendido 
@@ -40,6 +51,15 @@ A Bancada de Inspeção [Inspection Workbench](Inspection_Workbench/pt-br.md) é
 <div class="mw-translate-fuzzy">
 
 Alternativamente, use a macro <img alt="" src=images/HighlightDifference.png  style="width:24px;"> [HighlightDifference](Macro_HighlightDifference/pt-br.md) para comparar as formas.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 
 
 </div>

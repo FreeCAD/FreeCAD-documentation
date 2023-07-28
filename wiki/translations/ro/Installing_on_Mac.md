@@ -29,7 +29,15 @@ brew install freecad
 
 If there are any issues with the HomeBrew Cask or Formula you may report them to [here](https://github.com/FreeCAD/homebrew-freecad).
 
+
+<div class="mw-translate-fuzzy">
+
 Această pagină descrie utilizarea și caracteristicile instalatorului FreeCAD. De asemenea, include instrucțiuni de dezinstalare. După ce ați instalat, puteți [get started](Getting_started.md)!
+
+
+</div>
+
+
 
 ### Instalarea simpla 
 
@@ -43,7 +51,15 @@ Cea mai recenta versiune se poate descarca din pagina de [Download](Download.md)
 
 ![](images/mac_installer_1.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Et voila! Faceți doar click pe app pentru a lansa FreeCAD. Dacă întâlniți acest mesaj \"FreeCAD can\'t be open as it is from unidentified developer. \" Deschideți folderul (Application) și click dreapta pe app apoi click deschideți și acceptați deschiderea applicației.
+
+
+</div>
+
+
 
 ### Dezinstalarea
 

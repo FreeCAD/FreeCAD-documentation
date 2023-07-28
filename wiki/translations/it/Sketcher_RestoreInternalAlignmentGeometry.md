@@ -1,13 +1,22 @@
-# Sketcher RestoreInternalAlignmentGeometry/it
 ---
-- GuiCommand:/it   Name:Sketcher RestoreInternalAlignmentGeometry   Name/it:Mostra/Nascondi la geometria interna   Workbenches:[MenuLocation:Sketch → Strumenti → Mostra/Nascondi la geometria interna   Shortcut:Ctrl+Shift+E   SeeAlso:[[Sketcher CreateEllipseByCenter/it|Ellisse](Sketcher_Workbench/it___Sketcher]].md), [Vincolo Allineamento interno](Sketcher_ConstrainInternalAlignment/it.md)---
+- GuiCommand:/it
+   Name:Sketcher RestoreInternalAlignmentGeometry
+   Name/it:Mostra/Nascondi la geometria interna
+   MenuLocation:Sketch → Strumenti → Mostra/Nascondi la geometria interna
+   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
+   Shortcut:Ctrl+Shift+E
+   SeeAlso:
+---
+
+# Sketcher RestoreInternalAlignmentGeometry/it
 
 
-</div>
 
 ## Descrizione
 
 Il comando elimina gli elementi di allineamento della geometria interna inutilizzati, o ricrea quelli mancanti.
+
+
 
 ## Utilizzo
 
@@ -21,6 +30,8 @@ Il comando elimina gli elementi di allineamento della geometria interna inutiliz
 
 
 </div>
+
+
 
 ## Esempio
 

@@ -20,13 +20,13 @@ The **Std ToggleClipPlane** command temporarily hides objects and parts of objec
 ![](images/Std_ToggleClipPlane_example.png ) 
 *A clipped hollow object*
 
-![](images/Std_ToggleClipPlane_taskpanel.png ) 
-*The Clipping task panel*
+![](images/Std_ToggleClipPlane_Dialog.png ) 
+*The Clipping dialog box*
 
 ## Usage
 
 1.  Select the **View → <img src="images/Std_ToggleClipPlane.svg" width=16px> Clipping plane** option from the menu.
-2.  In the Clipping task panel do one of the following:
+2.  In the Clipping dialog box do one of the following:
     -   Check one or more of the {{CheckBox|TRUE|Clipping X}} to {{CheckBox|TRUE|Clipping Z}} checkboxes.
         -   Optionally change the offset distance(s).
         -   Optionally press the **Flip** button(s) to change the side of the clipping plane objects are hidden on.

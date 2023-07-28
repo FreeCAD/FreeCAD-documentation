@@ -13,9 +13,11 @@
 
 Crée une contrainte FEM de contact entre deux surfaces.
 
+
+
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande:
+1.  Il existe plusieurs façons d\'appeler la commande :
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintContact.svg" width=16px> [Contrainte de contact](FEM_ConstraintContact/fr.md)**.
     -   Sélectionnez l\'option **Modèle → Contraintes mécaniques → <img src="images/FEM_ConstraintContact.svg" width=16px> Contrainte de contact** dans le menu.
 2.  Sélectionnez la face principale.
@@ -29,11 +31,15 @@ Crée une contrainte FEM de contact entre deux surfaces.
 -   Développement pour un contact multiple à la fois : <https://forum.freecadweb.org/viewtopic.php?f=18&t=15699&start=130#p303275>
 -   Parce que les maillages multiples ne sont actuellement pas pris en charge, le contact doit être appliqué à des faces qui sont séparées par (au moins) une petite distance. Si les faces se touchaient (sans espace entre elles), le résultat d\'une opération d\'union booléenne ou de fragmentation booléenne (nécessaire pour éviter d\'avoir des maillages multiples, ce qui n\'est pas autorisé pour le moment) serait un maillage continu et donc plus besoin d\'utiliser le contact. Voir [Discussion sur le forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=62307).
 
+
+
 ## Remarques
+
+
 
 ### Astuces pour modéliser 
 
--   A partir de <https://forum.freecadweb.org/viewtopic.php?f=18&p=340874#p340494>
+-   À partir de <https://forum.freecadweb.org/viewtopic.php?f=18&p=340874#p340494>
 -   Il vaut mieux utiliser des éléments linéaires, sinon les calculs prennent beaucoup de temps.
 -   Affectation maître/esclave :
     -   La plus grande des deux surfaces doit être la surface maîtresse.

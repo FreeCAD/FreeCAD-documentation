@@ -12,9 +12,17 @@
 
 </div>
 
+
+
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Acest instrument vă permite să comutați formele geometrice selectate din / în modul de construcție. Poate fi folosit pe orice tip de formă geometrică: linie, arc sau cerc.
+
+
+</div>
 
 Modul de construcției este un instrument important al sketcher-ului. Când se utilizează o schiță pentru operarea în 3D, Modul de construcție este ignorat.
 
@@ -37,6 +45,8 @@ Liniile de construire pot fi utilizate ca axă de rotație de către funcțional
 <img alt="" src=images/Sketcher_ConstructionMode_fr_01.png  style="width:480px;">
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Utilizare
@@ -52,25 +62,9 @@ Liniile de construire pot fi utilizate ca axă de rotație de către funcțional
 
 </div>
 
-## Exemplu
-
-Utilizați Construction mode pe câteva elemente dals schiței,
-
-<img alt="" src=images/Sketcher_ConstructionMode_fr_01.png  style="width:450px;">
-
-
-<div class="mw-translate-fuzzy">
-
-și odată ce ați părăsit modul de editare a schiței, geometria transformată în construcție a devenit invizibilă pe ecran (dar este încă prezentă în modul de editare Sketcher).
-
-
-</div>
-
-<img alt="" src=images/Sketcher_ConstructionMode_fr_02.png  style="width:450px;">
-
 ## Notes
 
--    **[<img src=images/Sketcher_CreatePoint.svg style="width:16px"> [Create point](Sketcher_CreatePoint.md)**will always create points in construction mode regardless of the toolbar toggle state, select the desired points in the [3D view](3D_view.md) after creation and click **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Toggle construction geometry](Sketcher_ToggleConstruction.md)** to change them to normal geometry. <small>(v0.19)</small> 
+-    **[<img src=images/Sketcher_CreatePoint.svg style="width:16px"> [Create point](Sketcher_CreatePoint.md)**will always create points in construction mode regardless of the toolbar toggle state, select the desired points in the [3D view](3D_view.md) after creation and click **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Toggle construction geometry](Sketcher_ToggleConstruction.md)** to change them to normal geometry.
 
 
 <div class="mw-translate-fuzzy">

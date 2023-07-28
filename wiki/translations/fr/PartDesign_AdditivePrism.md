@@ -16,27 +16,31 @@ Insère un Prisme primitif dans un corps actif comme fonction de base, ou le fus
 
 <img alt="" src=images/PartDesign_AdditivePrism_example.png  style="width:200px;">
 
+
+
 ## Utilisation
 
-1.  Presser le bouton **<img src="images/PartDesign_AdditivePrism.svg" width=24px> '''Prisme additif'''**. **Remarque**: le Prisme additif fait partie du menu d\'icônes appelé *Créer une primitive additive*. Après le lancement de FreeCAD, le cube additif est affiché par défaut dans la barre d\'outils. Pour obtenir le Prisme additif, cliquer sur la flèche vers le bas et choisissez Prisme additif dans le menu.
+1.  Presser le bouton **<img src="images/PartDesign_AdditivePrism.svg" width=24px> '''Prisme additif'''**. **Remarque** : le prisme additif fait partie du menu d\'icônes appelé *Créer une primitive additive*. Après le lancement de FreeCAD, le cube additif est affiché par défaut dans la barre d\'outils. Pour obtenir le Prisme additif, cliquer sur la flèche vers le bas et choisissez Prisme additif dans le menu.
 2.  Définir les paramètres primitifs et de l\'[ancrage](Part_EditAttachment/fr.md).
 3.  Cliquer sur **OK**.
 4.  Un prisme apparaît dans le corps actif.
 
 ## Options
 
-Il est possible de créer des prismes biaisés en spécifiant des angles par rapport au vecteur normal de l\'ancrage choisi. {{Version/fr|0.19}}
+Il est possible de créer des prismes biaisés en spécifiant des angles par rapport au vecteur normal de l\'ancrage choisi.
 
 Le Prisme peut être éditée après sa création de deux façons :
 
 -   Double-cliquez le dans l\'arborescence ou faire un clic droit dessus et sélectionnez **Éditer la primitive** dans le menu contextuel. Cela fait apparaître les paramètres des Primitives.
 -   Via l\'[Éditeur de propriétés](Property_editor/fr.md).
 
+
+
 ## Propriétés
 
 -    **Attachment**: définit les modes d\'ancrage ainsi que le décalage d\'ancrage. Voir [Part Ancrage](Part_EditAttachment/fr.md).
 
--    **Label**: donne le nom du Prisme. Changez si nécessaire.
+-    **Label**: donne le nom du prisme. Changez si nécessaire.
 
 -    **Polygon**: nombre de cotés de la section du polygone.
 
@@ -44,9 +48,9 @@ Le Prisme peut être éditée après sa création de deux façons :
 
 -    **Height**: hauteur du prisme.
 
--    **First Angle**: angle dans la première direction. {{Version/fr|0.19}}
+-    **First Angle**: angle dans la première direction.
 
--    **Second Angle**: angle dans la seconde direction. {{Version/fr|0.19}}
+-    **Second Angle**: angle dans la seconde direction.
 
 
 

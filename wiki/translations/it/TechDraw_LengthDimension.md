@@ -25,8 +25,17 @@ Lo strumento Lunghezza aggiunge una dimensione lineare ad una vista. La dimensio
 
 </div>
 
-<img alt="" src=images/TechDraw_Dimension_Length_example.png  style="width:220px;"> 
+<img alt="" src=images/TechDraw_Dimension_Length_example.png  style="width:220px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Dimensione della lunghezza presa da due nodi arbitrari della vista*
+
+
+</div>
 
 
 
@@ -43,17 +52,23 @@ Lo strumento Lunghezza aggiunge una dimensione lineare ad una vista. La dimensio
 
 </div>
 
-To change the properties of a dimension object either double-clicking it in the drawing or in the [Tree view](Tree_view.md). This will open the dimension dialog:
+### Display 3D measurement 
+
+The dimension will initially display the projected measurement (i.e. as shown in the drawing). If required, and if the dimension is based on 3D references, it can be changed to the actual 3D measurement by changing its **Measure Type** property to {{Value|True}}. To base a dimension on 3D references select geometry from the [3D view](3D_view.md) at creation time, or use the <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:16px;"> [TechDraw DimensionRepair](TechDraw_DimensionRepair.md) tool to update existing dimensions.
+
+### Change properties 
+
+To change the properties of a dimension object either double-click it in the drawing or in the [Tree view](Tree_view.md). This will open the [Dimension dialog](#Dimension_dialog.md).
 
 ## Dimension dialog 
 
-The dimension dialog offers the following settings:
-
 ![](images/TechDraw_DimensionDialog.png )
+
+The dimension dialog offers the following settings:
 
 ### Tolerancing
 
--   **Theoretically Exact**: If checked, is specifies the dimension as theoretically exact dimension. As such, it shall not bear any tolerances. The dimension will be displayed by a frame around the value: <img alt="" src=images/TechDraw_theoretically_exact.png  style="width:100px;">
+-   **Theoretically Exact**: If checked, the dimension is specified as theoretically exact. As such, it shall not have any tolerances. The dimension will be displayed with a frame around the value: <img alt="" src=images/TechDraw_theoretically_exact.png  style="width:100px;">
 
 -   **Equal Tolerance**: If checked, the over- and undertolerance are equal and the negated value of the overtolerance is used as undertolerance. The display will be <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">, otherwise it will be <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">.
 
@@ -63,19 +78,19 @@ The dimension dialog offers the following settings:
 
 ### Formatting
 
--   **Format Specifier**: How the dimension value will be formatted. By default the specifier is {{Value|%.xf}} whereby {{Value|x}} is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string). There is also an additional {{Value|%w}} format that prints the specified number of digits after the decimal separator and removes trailing zeros. For example, {{Value|%.2w}} means that at most 2 decimals will be printed and any trailing zeros will be cut off.
+-   **Format Specifier**: How the dimension value will be formatted. By default the specifier is {{Value|%.xf}} where {{Value|x}} is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string). There is also an additional {{Value|%w}} format that prints the specified number of digits after the decimal separator and removes trailing zeros. For example, {{Value|%.2w}} means that at most 2 decimals will be printed and any trailing zeros will be cut off.
 
 -   **Arbitrary Text**: If checked, the dimension is replaced by the content of the **Format Specifier** field.
 
--   **OverTolerance Format Specifier**: How the overtolerance value will be formatted. By default the specifier is {{Value|%.xf}} whereby {{Value|x}} is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string).
+-   **OverTolerance Format Specifier**: How the overtolerance value will be formatted. By default the specifier is {{Value|%.xf}} where {{Value|x}} is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string).
 
--   **UnderTolerance Format Specifier**: How the undertolerance value will be formatted. By default the specifier is {{Value|%.xf}} whereby {{Value|x}} is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string).
+-   **UnderTolerance Format Specifier**: How the undertolerance value will be formatted. By default the specifier is {{Value|%.xf}} where {{Value|x}} is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string).
 
 -   **Arbitrary Tolerance Text**: If checked, the tolerances are replaced by the content of the **OverTolerance Format Specifier** **UnderTolerance Format Specifier** fields.
 
 ### Display Style 
 
--   **Flip Arrowheads**: Flips the direction in which the dimension line arrows are pointing. By default they are inside the dimension line/arc and pointing outwards.
+-   **Flip Arrowheads**: Flips the direction of the dimension line arrows. By default they are inside the dimension line/arc and point outwards.
 
 -   **Color**: The color for lines and text.
 
@@ -98,6 +113,58 @@ The dimension dialog offers the following settings:
 -   **Use default**: Set extension line angle to the usual angle.
 
 -   **Use selection**: Set extension line angle to match the angle of the selected edge (or 2 vertices) in the view.
+
+
+
+## Limitazioni
+
+
+<div class="mw-translate-fuzzy">
+
+Gli oggetti dimensione sono vulnerabili ai problemi di \"[denominazione topologica](topological_naming_problem/it.md)\". Ciò significa che se si modifica la geometria 3D, le facce e i bordi del modello possono essere rinominati internamente; se una quota è collegata a un bordo che viene poi modificato, la dimensione potrebbe interrompersi. In generale, non è possibile mantenere sincronizzate le dimensioni 2D proiettate con gli oggetti 3D reali.
+
+
+</div>
+
+Pertanto, si consiglia di aggiungere le dimensioni verso la fine del processo di creazione del modello, quando il modello non viene più modificato.
+
+
+
+### Soluzione
+
+
+<div class="mw-translate-fuzzy">
+
+Se si desidera mantenere una vista di TechDraw con dimensioni che non si interrompono, è necessario dimensionare un oggetto che non cambierà più.
+
+-   Selezionare l\'oggetto che si vuole proiettare, quindi passare a <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/it.md) e usare **Part → <img src="images/Part_SimpleCopy.svg" width=16px> [Crea una copia semplice](Part_SimpleCopy/it.md)**. Questo crea un singolo oggetto che non è parametrico, quindi non è più modificabile.
+-   Selezionare questa copia, quindi usare [vista](TechDraw_View/it.md), e aggiungere le dimensioni desiderate.
+-   Se il modello 3D originale viene modificato, le modifiche non avranno effetto sulla copia semplice, né sulle dimensioni nella vista di TechDraw.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Vedere [Dimensione da punti di riferimento](TechDraw_LandmarkDimension/it.md) per un altro approccio per aggirare il problema della denominazione topologica.
+
+
+</div>
+
+
+
+## Note
+
+
+<div class="mw-translate-fuzzy">
+
+-   **Selezione dei bordi**. I bordi possono essere difficili da selezionare. Si può regolare l\'area di selezione per i bordi usando il parametro \"/Mod/TechDraw/General/EdgeFuzz\" (vedere [Parametri standard](Std_DlgParameter/it.md)). Questo è un numero senza dimensioni. Il valore predefinito è 10.0. I valori nell\'intervallo 20-30 rendono notevolmente più semplice la selezione dei bordi. I numeri più grandi causano sovrapposizioni con altri elementi di disegno.
+-   **Numero di decimali**. Le dimensioni utilizzano l\'impostazione delle posizioni decimali globali per impostazione predefinita. Questo può essere modificato tramite le [preferenze](TechDraw_Preferences/it#Dimensioni.md) o modificando la proprietà FormatSpec.
+-   **Qualsiasi oggetto**. Le viste possono contenere più oggetti 3D come Sorgente. Le quote possono essere applicate alla geometria da qualsiasi oggetto nella vista (ad es. Da Object1.Vertex0 a Object2.Vertex3).
+
+
+</div>
 
 
 
@@ -194,7 +261,7 @@ The dimension dialog offers the following settings:
 
 {{Properties_Title|Override}}
 
--    **AngleOverride|Bool**: Whether the direction of dimension and extension lines is overridden.
+-    **Angle Override|Bool**: Whether the direction of dimension and extension lines is overridden.
 
 :   
 
@@ -208,11 +275,23 @@ The dimension dialog offers the following settings:
         
         \- the directions are overridden by LineAngle and ExtensionAngle property values.
 
--    **LineAngle|Angle**: angle of dimension line with view X axis (in degrees).
+-    **Line Angle|Angle**: Angle of dimension line with view X axis (in degrees).
 
--    **ExtensionAngle|Angle**: angle of extension line(s) with view X axis (in degrees).
+-    **Extension Angle|Angle**: Angle of extension line(s) with view X axis (in degrees).
+
+
+{{Properties_Title|References}}
+
+-    **Saved Geometry|TopoShapeList|Hidden**: Reference geometry. <small>(v0.21)</small> 
 
 ### View
+
+
+{{TitleProperty|Base}}
+
+-    **Keep Label|Bool**: Not used.
+
+-    **Stack Order|Integer**: Over or underlap relative to other drawing objects. <small>(v0.21)</small> 
 
 
 {{Properties_Title|Dimension Format}}
@@ -282,38 +361,6 @@ The dimension dialog offers the following settings:
 
 
 
-## Limitazioni
-
-
-<div class="mw-translate-fuzzy">
-
-Gli oggetti dimensione sono vulnerabili ai problemi di \"[denominazione topologica](topological_naming_problem/it.md)\". Ciò significa che se si modifica la geometria 3D, le facce e i bordi del modello possono essere rinominati internamente; se una quota è collegata a un bordo che viene poi modificato, la dimensione potrebbe interrompersi. In generale, non è possibile mantenere sincronizzate le dimensioni 2D proiettate con gli oggetti 3D reali.
-
-
-</div>
-
-Pertanto, si consiglia di aggiungere le dimensioni verso la fine del processo di creazione del modello, quando il modello non viene più modificato.
-
-
-
-### Soluzione
-
-Se si desidera mantenere una vista di TechDraw con dimensioni che non si interrompono, è necessario dimensionare un oggetto che non cambierà più.
-
--   Selezionare l\'oggetto che si vuole proiettare, quindi passare a <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/it.md) e usare **Part → <img src="images/Part_SimpleCopy.svg" width=16px> [Crea una copia semplice](Part_SimpleCopy/it.md)**. Questo crea un singolo oggetto che non è parametrico, quindi non è più modificabile.
--   Selezionare questa copia, quindi usare [vista](TechDraw_View/it.md), e aggiungere le dimensioni desiderate.
--   Se il modello 3D originale viene modificato, le modifiche non avranno effetto sulla copia semplice, né sulle dimensioni nella vista di TechDraw.
-
-
-<div class="mw-translate-fuzzy">
-
-Vedere [Dimensione da punti di riferimento](TechDraw_LandmarkDimension/it.md) per un altro approccio per aggirare il problema della denominazione topologica.
-
-
-</div>
-
-
-
 ## Script
 
 
@@ -336,20 +383,6 @@ dim1.Type = "Distance"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)
 ```
-
-
-
-## Note
-
-
-<div class="mw-translate-fuzzy">
-
--   **Selezione dei bordi**. I bordi possono essere difficili da selezionare. Si può regolare l\'area di selezione per i bordi usando il parametro \"/Mod/TechDraw/General/EdgeFuzz\" (vedere [Parametri standard](Std_DlgParameter/it.md)). Questo è un numero senza dimensioni. Il valore predefinito è 10.0. I valori nell\'intervallo 20-30 rendono notevolmente più semplice la selezione dei bordi. I numeri più grandi causano sovrapposizioni con altri elementi di disegno.
--   **Numero di decimali**. Le dimensioni utilizzano l\'impostazione delle posizioni decimali globali per impostazione predefinita. Questo può essere modificato tramite le [preferenze](TechDraw_Preferences/it#Dimensioni.md) o modificando la proprietà FormatSpec.
--   **Qualsiasi oggetto**. Le viste possono contenere più oggetti 3D come Sorgente. Le quote possono essere applicate alla geometria da qualsiasi oggetto nella vista (ad es. Da Object1.Vertex0 a Object2.Vertex3).
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">

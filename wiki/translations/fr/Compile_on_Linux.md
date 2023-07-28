@@ -400,10 +400,6 @@ Vous pouvez éventuellement installer ces paquets supplémentaires :
 
 -    `checkinstall`, si vous avez l\'intention d\'enregistrer vos fichiers installés dans le gestionnaire de paquets de votre système, afin de pouvoir les désinstaller ultérieurement.
 
--    `python3-markdown`, pour que le gestionnaire d\'addons affiche nativement les fichiers README.md au format Markdown.
-
--    `python3-git`, pour que le gestionnaire d\'addons utilise git pour récupérer et mettre à jour les ateliers et les macros.
-
 
 
 #### Commande unique pour Qt5 et Python 3 

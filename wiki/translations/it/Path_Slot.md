@@ -16,7 +16,9 @@
 
 ## Description
 
-This tool creates a simple slotting operation using various methods of input. Inputs include:
+The <img alt="" src=images/Path_Slot.svg  style="width:24px;"> [Slot](Path_Slot.md) tool creates a simple slotting operation using various methods of input.
+
+Inputs include:
 
 -   selecting one or more faces or edges.
 -   selecting two vertices.
@@ -26,7 +28,7 @@ The Path Slot object is made to be part of a <img alt="" src=images/Path_Job.svg
 
 ## Usage
 
-1.  Select the reference geometry on the model:.
+1.  Select the reference geometry on the model:
     -   one or more faces or edges.
     -   two vertices.
     -   ***nothing*** to use two custom points entered in the Property View of the Data tab: Custom Point1 and Custom Point2.
@@ -45,8 +47,11 @@ The Path Slot object is made to be part of a <img alt="" src=images/Path_Job.svg
     -   Toggle the \Reverse Direction\ property to reverse the direction of the cut path.
 
 -   Linear slots:
-    -   Currently there is no capability to offset linear slots laterally (parallel to path of travel). ***Example:*** Say you have a tool diameter smaller than the width of the slot area you are clearing. Current behavior of this operation is to create a single slot path down the center of the designated slot, which will result in the slot area not being fully cleared. Some users would want the operation to create multiple paths that are offset laterally to clear the entire slot area; this operation is not intended to due so - use the Pocket operation for such clearing.
+    -   Currently there is no capability to offset linear slots laterally (parallel to path of travel). ***Example:*** Say you have a tool diameter smaller than the width of the slot area you are clearing. Current behavior of this operation is to create a set of paths on a plane down the center-line of the designated slot, which will result in the slot volume not being fully cleared. Some users would want the operation to create multiple paths that are offset laterally to clear the entire slot area; this not directly possible, though can be achieved through using \"Custom Points\", see \"Vertical face milling\" below. Alternatively use the Pocket operation for such clearing.
     -   Create a custom linear slot using the \Custom Point1\ and \Custom Point2\ properties with no geometry selection. ***Example:*** Initiate a Slot operation in the GUI and click \OK\ to save. Now locate and edit the \Custom Point1\ and \Custom Point2\ properties in the Data tab of the newly created Slot operation. Recompute the operation to update the path.
+
+-   Vertical face milling:
+    -   Most of the Path tools cannot make a path on a single vertical plane since the projection onto horizontal plane has zero area (an internal limitation). The Slot operation makes this possible by selecting \"Custom points\" which define a line parallel to the vertical plane and suitable Depth parameters.
 
 -   Arc/Circular slots:
     -   Creating arc/circular slots
@@ -75,42 +80,42 @@ Note: It is suggested that you do not edit the Placement property of path operat
     -   
         **Axis**
         
-        : Axis(one or multiple) around which to rotate the object, set in sub-properties: x, y, z
+        : Axis (one or multiple) around which to rotate the object, set in sub-properties: X, Y, Z
 
         -   
             **X**
             
-            : x axis value
+            : X axis value
 
         -   
             **Y**
             
-            : y axis value
+            : Y axis value
 
         -   
             **Z**
             
-            : z axis value
+            : Z axis value
 
     -   
         **Position**
         
-        : Position of the object, set in sub-properties: x, y, z - with respect to the origin (or origin of parent object container)
+        : Position of the object, set in sub-properties: X, Y, Z - with respect to the origin (or origin of parent object container)
 
         -   
             **X**
             
-            : x distance value
+            : X distance value
 
         -   
             **Y**
             
-            : y distance value
+            : Y distance value
 
         -   
             **Z**
             
-            : z distance value
+            : Z distance value
 
 -    **Label**: User-provided name of the object (UTF-8)
 
@@ -135,7 +140,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 {{TitleProperty|Path}}
 
--    **Active**: make False, to prevent operation from generating code
+-    **Active**: Make False, to prevent operation from generating code
 
 -    **Base**: The base geometry for this operation
 
@@ -182,29 +187,31 @@ Note: It is suggested that you do not edit the Placement property of path operat
     -   
         **X**
         
-        : x distance value
+        : X distance value
 
     -   
         **Y**
         
-        : y distance value
+        : Y distance value
 
     -   
         **Z**
         
-        : z distance value
+        : Z distance value
 
 -    **Use Start Point**: Make True, if manually specifying a Start Point. Set the start point in the property data Start Point field.
 
 ## Tasks Window Editor Layout 
 
-*Descriptions for the settings are provided in the Properties list above.* This section is simply a layout map of the settings in the window editor for the Operation.
+*Descriptions for the settings are provided in the Properties list above.*
+
+This section is simply a layout map of the settings in the window editor for the Operation.
 
 ### Base Geometry 
 
--   **Add**: adds selected element(s) which should be the base(s) for the path(s)
--   **Delete**: delete the selected item(s) in the Base Geometry list
--   **Clear**: clear all items in the Base Geometry list
+-   **Add**: Adds selected element(s) which should be the base(s) for the path(s)
+-   **Delete**: Delete the selected item(s) in the Base Geometry list
+-   **Clear**: Clear all items in the Base Geometry list
 
 ### Depths
 

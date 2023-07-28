@@ -4,9 +4,11 @@
 
 {{TOCright}}
 
+
+
 ## Обзор
 
-This page describes how to compile the FreeCAD source code on MacOS X. For other platforms, see [Compiling](Compiling.md).
+This page describes how to compile the FreeCAD source code on macOS. For other platforms, see [Compiling](Compiling.md).
 
 These instructions have been tested on macOS Catalina with standard XCode 11.6. It is known to work on macOS BigSur Beta with XCode 12.0 beta. If you plan to use XCode Beta, please be sure to download Command Line Tools add on through a dmg package to workaround some libz dependency issues.
 
@@ -148,6 +150,8 @@ Create the build folder.
 mkdir ~/FreeCAD/build
 ```
 
+
+
 ## Запуск CMake 
 
 Next, we will run CMake to generate the build configuration. Several options must be passed to CMake. The following table describes the options and gives some background.
@@ -174,6 +178,8 @@ Open the CMake app, and fill in the source and build folder fields. In this exam
 Next, click the **Configure** button to populate the list of configuration options. This will display a dialog asking you to specify what generator to use. Leave it at the default **Unix Makefiles.** Configuring will fail the first time because there are some options that need to be changed. Note: You will need to check the **Advanced** checkbox to get all of the options.
 
 Set options from the table above, then click **Configure** again and then **Generate**.
+
+
 
 ### Коммандная строка CMake 
 
@@ -227,6 +233,8 @@ FreeCAD development happens fast; every day or so there are bug fixes or new fea
 ## Building with Qt4 and Python 2.7 
 
 FreeCAD has transitioned from Qt 4 to Qt 5 as well as homebrew. Qt 4 is no longer available as an option for new build on macOS following Qt 5 transition. Python 2.7 has been deprecated within homebrew and upcoming macOS and we do not support it anymore for macOS build either.
+
+
 
 ## Устранение неполадок 
 

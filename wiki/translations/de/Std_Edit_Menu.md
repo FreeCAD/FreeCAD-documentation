@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Einführung
 
 Das **Std Menü Bearbeiten** ist eines der 7 Untermenüs im [Standardmenü](Standard_Menu/de.md):
@@ -26,6 +28,8 @@ Das **Std Menü Bearbeiten** ist eines der 7 Untermenüs im [Standardmenü](Stan
 }}
 
 Das Menü Bearbeiten stellt Werkzeuge bereit zum Ändern des Modells.
+
+
 
 ## Werkzeuge
 
@@ -53,7 +57,7 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 -   <img alt="" src=images/Std_Delete.svg  style="width:32px;"> [Löschen](Std_Delete/de.md): löscht die ausgewählten Objekte.
 
--   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> [An Python Konsole senden](Std_SendToPythonConsole/de.md): Erstellt Variablen in der [Python Konsole](Python_console/de.md), die auf ein Objekt verweisen. <small>(v0.19)</small> 
+-   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> [An Python-Konsole senden](Std_SendToPythonConsole/de.md): Erstellt Variablen in der [Python-Konsole](Python_console/de.md), die auf ein Objekt verweisen.
 
 -   <img alt="" src=images/Std_Placement.svg  style="width:32px;">[Platzierung\...](Std_Placement/de.md): öffnet das Platzierungs Aufgabenfeld für ein Objekt.
 

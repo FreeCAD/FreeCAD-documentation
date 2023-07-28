@@ -53,6 +53,8 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 </div>
 
+
+
 ## Anwendung
 
 
@@ -74,6 +76,8 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 <img alt="" src=images/StraightRebarDialog.png  style="width:250px;"> 
 *Aufgaben-Ansicht für das Arch Bewehrungsstab gerade-Werkzeug*
+
+
 
 ## Eigenschaften
 
@@ -160,6 +164,8 @@ Rebar = makeStraightRebar(f_cover, coverAlong, rt_cover, lb_cover,
 
 Abhängig von der Ausrichtung des Bewehrungsstabs kann die Funktion durch entsprechendes Setzen von {{Incode|coverAlong}} auf zwei allgemeine Weisen aufgerufen werden.
 
+
+
 ### Der Bewehrungsstab ist horizontal 
 
 
@@ -172,6 +178,8 @@ Rebar = makeStraightRebar(f_cover, ("Bottom Side", value), right_cover, left_cov
 
 -   In diesem Fall bezieht sich `rt_cover` auf den `right_cover` (rechts Seite)-Abstand und `lb_cover` auf den `left_cover` (linke Seite)-Abstand.
 
+
+
 ### Der Bewehrungsstab ist vertikal 
 
 
@@ -183,6 +191,8 @@ Rebar = makeStraightRebar(f_cover, ("Right Side", value), top_cover, bottom_cove
 -    `coverAlong`ist ein Tupel mit einem `"Left Side"` (linke Seite)- oder einem `"Right Side"` (rechte Seite)-Abstandswert `value`.
 
 -   In diesem Fall bezieht sich `rt_cover` auf den `top_cover` (Oberseite)-Abstand und `lb_cover` auf den `bottom_cover` (Unterseite)-Abstand.
+
+
 
 ### Beispiel horizontal 
 
@@ -202,6 +212,8 @@ Rebar2 = StraightRebar.makeStraightRebar(50, ("Bottom Side", 50), 100, 100,
                                          12, True, 5, "Horizontal", Structure, "Face6")
 Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9)
 ```
+
+
 
 ### Beispiel vertikal 
 

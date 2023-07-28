@@ -1,6 +1,8 @@
 # Unified Measurement Facility
 This page is describes a potential Google Summer of Code project regarding upgrades to FreeCAD\'s measurement functions.
 
+**Obsolete**: This page has been moved to <https://github.com/FreeCAD/FreeCAD/issues/8561>
+
 ## Outline
 
 There are currently several ways of measuring objects in FreeCAD: Draft Dimensions, TechDraw Dimensions, Manipulator Caliper, Measure Distance, Measure Linear, etc. A single method of measuring objects would smooth workflow and reduce learning time.

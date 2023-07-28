@@ -3,32 +3,37 @@
    Name:TechDraw Annotation
    MenuLocation:TechDraw → Annotations → Insert Annotation
    Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[Draft Text](Draft_Text.md), [Draft ShapeString](Draft_ShapeString.md)
+   SeeAlso:[TechDraw RichTextAnnotation](TechDraw_RichTextAnnotation.md)
 ---
 
 # TechDraw Annotation/en
 
 ## Description
 
-The Annotation tool adds a text block to a drawing page.
+The **TechDraw Annotation** tool adds a text block to a drawing page.
 
 <img alt="" src=images/AnnotationSample.png  style="width:250px;"> 
 *Annotation in the drawing page*
 
 ## Usage
 
-1.  If you have multiple drawing pages in your document, you will need to select the desired page in the tree.
-2.  Press the **<img src="images/TechDraw_Annotation.svg" width=24px> [Insert Annotation](TechDraw_Annotation.md)** button
-3.  A text block containing *Default Text* will appear on the page. Use the property editor to change the text. Drag the Annotation to the required position.
-4.  You may need to press **<img src="images/Std_Refresh.svg" width=16px> [Refresh](Std_Refresh.md)** and/or **<img src="images/TechDraw_RedrawPage.svg" width=16px> [Redraw Page](TechDraw_RedrawPage.md)** to get your text to change.
+1.  If there are multiple drawing pages in the document: optionally activate the desired page by selecting it in the [Tree view](Tree_view.md).
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_Annotation.svg" width=16px> [Insert Annotation](TechDraw_Annotation.md)** button.
+    -   Select the **TechDraw → Annotations → <img src="images/TechDraw_Annotation.svg" width=16px> Insert Annotation** option from the menu.
+3.  If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
+    1.  Select the desired page.
+    2.  Press the **OK** button.
+4.  A text block containing *Default Text* appears on the page.
+5.  Use the [Property editor](Property_editor.md) to change the text.
+6.  Optionally drag the Annotation to the different position.
 
 ![](images/UpdateAnnotation.png ) 
-*Modifying the annotation through the property editor*
+*Modifying the annotation through the Property editor*
 
+## Notes
 
-**Note:**
-
-some characters interfere with the internal representation of the Annotation text. Specifically, these are the double quote `"`, less than `<`, and greater than `>` symbols; these must be replaced by HTML escape characters, `&amp;quot;`, `&amp;lt;`, and `&amp;gt;` respectively. See [Character encodings in HTML](https://en.wikipedia.org/wiki/Character_encodings_in_HTML#HTML_character_references) for details.
+-   Some characters interfere with the internal representation of the Annotation text. Specifically, these are the double quote `"`, less than `<`, and greater than `>` symbols; these must be replaced by HTML escape characters, `&amp;quot;`, `&amp;lt;`, and `&amp;gt;` respectively. See [Character encodings in HTML](https://en.wikipedia.org/wiki/Character_encodings_in_HTML#HTML_character_references) for details.
 
 ## Properties
 
@@ -61,8 +66,6 @@ anno.Text = ['Different Text']
 anno.TextStyle = 'Bold'
 rc = page.addView(anno)
 ```
-
-## Notes
 
 
 

@@ -10,6 +10,8 @@
 
 # Std ViewIsometric/ru
 
+
+
 ## Описание
 
 Команда **Std ViewIsometric** перестраивает камеру в активном [окне трёхмерного вида](3D_view/ru.md) для получения [изометрического](https://en.wikipedia.org/wiki/Isometric_projection) вида. Для истинно изометрического вида трехмерный вид должен находиться в [ортогональном режиме](Std_OrthographicCamera/ru.md), но команда также работает, если вид находится в [режиме перспективы](Std_PerspectiveCamera/ru.md).
@@ -17,17 +19,18 @@
 ![](images/Std_ViewIsometric_example.svg ) 
 *The [axis cross](Std_AxisCross.md) and a cube in isometric view*
 
+
+
 ## Применение
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_ViewIsometric.svg" width=16px> [Std ViewIsometric](Std_ViewIsometric.md)** button.
     -   Select the **View → Standard views → Axonometric → <img src="images/Std_ViewIsometric.svg" width=16px> Isometric** option from the menu.
     -   Select the **Standard views → <img src="images/Std_ViewIsometric.svg" width=16px> Isometric** option from the [3D view](3D_view.md) context menu.
+    -   Select the **<img src="images/Std_ViewIsometric.svg" width=16px> Isometric** option from the Mini-cube menu of the [Navigation Cube](Navigation_Cube.md).
     -   Use the keyboard shortcut: **0**.
 
-## Примечания
 
--   It is also possible to switch to isometric view via the Mini-cube menu of the [Navigation Cube](Navigation_Cube.md).
 
 ## Программирование
 

@@ -5,9 +5,13 @@
 
 </div>
 
+
+
 ## Popis
 
 This command allows you to place a block of text on a [Drawing page](Drawing_Landscape_A3.md).
+
+
 
 
 <div class="mw-translate-fuzzy">

@@ -17,7 +17,7 @@
 
 ## Описание
 
-The **Landmark Dimension** tool adds a linear dimension to a View. The dimension is based on two Point **feature** (Draft.Point or Part.Vertex) from the 3D model. Note that the points must be **feature** objects that appear in the model [tree view](Tree_view.md). Random vertexes from a shape will not work.
+The **TechDraw LandmarkDimension** tool adds a linear dimension to a View. The dimension is based on two Point **feature** (Draft.Point or Part.Vertex) from the 3D model. Note that the points must be **feature** objects that appear in the model [tree view](Tree_view.md). Random vertexes from a shape will not work.
 
 The purpose of this tool is to provide a workaround to the corruption of dimension caused by \"[topological naming](Topological_naming_problem.md)\" issues. The source points should use [Expressions](Expressions.md) or other containing mechanism to establish their position. Since the points are [Document Objects](App_DocumentObject.md), and not shape components, their name does not change with recomputes, and hence they are easily found.
 

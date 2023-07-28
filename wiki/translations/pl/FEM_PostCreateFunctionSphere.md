@@ -8,17 +8,19 @@
 
 # FEM PostCreateFunctionSphere/pl
 
-## Description
 
-The <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:24px;"> **FEM PostCreateFunctionSphere** function defines how a mesh is cut geometrically. It is used by <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:16px;"> [Function cut filter](FEM_PostFilterCutFunction.md) and <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:16px;"> [Region clip filter](FEM_PostFilterClipRegion.md).
 
-## Usage
+## Opis
+
+Funkcja <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:24px;"> **Utwórz sferę funkcji** określa sposób geometrycznego cięcia siatki. Jest ona wykorzystywana przez narzędzia <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:16px;"> [Filtr funkcji odcięcia](FEM_PostFilterCutFunction/pl.md) oraz <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:16px;"> [Filtr odcięcia obszaru](FEM_PostFilterClipRegion/pl.md).
+
+
+
+## Użycie
 
 ### Create a sphere function 
 
-1.  There are several ways to create a function:
-    -   Press the **<img src="images/FEM_PostCreateFunctionSphere.svg" width=16px> [Sphere](FEM_PostCreateFunctionSphere.md)** button.
-    -   Select the **Results → Filter functions → <img src="images/FEM_PostCreateFunctionSphere.svg" width=16px> Sphere** option from the menu.
+1.  Either press the **<img src="images/FEM_PostCreateFunctionSphere.svg" width=16px> [Sphere](FEM_PostCreateFunctionSphere.md)** button or select the **Results → Filter functions → <img src="images/FEM_PostCreateFunctionSphere.svg" width=16px> Sphere** option from the menu.
 2.  The Implicit function [task panel](Task_panel.md) is opened.
 3.  Optionally set the values for the origin and the radius of the section sphere.
 4.  Press the **OK** button to finish.
@@ -35,7 +37,7 @@ If the Sphere object in the [tree view](Tree_view.md) is hidden, select the <img
 
 #### Scale the sphere 
 
--   Click and drag one of the 8 small cubes around the spherical grid to adjust the sphere size.
+-   Click and drag one of the 8 small cubes to scale the sphere.
 
 ## Notes
 

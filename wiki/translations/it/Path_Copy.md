@@ -5,9 +5,19 @@
 
 </div>
 
+
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questo strumento crea una copia di un tracciato selezionato
+
+
+</div>
+
+
 
 ## Utilizzo
 
@@ -21,9 +31,13 @@ Questo strumento crea una copia di un tracciato selezionato
 
 </div>
 
+
+
 ## Proprietà
 
 -    **Base**: Il percorso di base da copiare
+
+
 
 ## Opzioni
 

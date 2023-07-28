@@ -13,6 +13,8 @@
 
 La commande **Std Enregistrer une copie** enregistre une copie du document actif sous un nouveau nom de fichier.
 
+
+
 ## Utilisation
 
 1.  Sélectionnez l\'option **Fichier → <img src="images/Std_SaveCopy.svg" width=16px> Enregistrer une copie...** dans le menu.
@@ -23,14 +25,18 @@ La commande **Std Enregistrer une copie** enregistre une copie du document actif
 
 -   Appuyez sur **Echap** ou sur le bouton **Annuler** pour annuler la commande.
 
+
+
 ## Préférences
 
--   Le dernier emplacement de fichier utilisé est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Le dernier emplacement de fichier utilisé est stocké: **Outils → Éditer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
+
+
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

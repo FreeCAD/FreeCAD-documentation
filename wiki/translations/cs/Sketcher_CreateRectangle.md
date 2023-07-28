@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -17,7 +19,7 @@ Tento nástroj nakreslí obdélník zadáním dvou protějších bodů. Při spu
 
 To define a rectangle via a center point and an edge point, use the [Centered rectangle](Sketcher_CreateRectangle_Center.md) tool.
 
-![](images/SketcherCreateRectangleExample.png‎ )
+![](images/SketcherCreateRectangleExample.png‎ ) 
 
 
 <div class="mw-translate-fuzzy">

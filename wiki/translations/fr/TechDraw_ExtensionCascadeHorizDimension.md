@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionCascadeHorizDimension.svg  style="width:24px;"> **TechDraw Cascade horizontale** permet d\'espacer uniformément les cotes horizontales.
+L\'outil **TechDraw Cascade horizontale** permet d\'espacer uniformément les cotes horizontales.
 
 <img alt="" src=images/TechDraw_ExtensionCascadeHorizDimensionExample.png  style="width:400px;"> 
 *À droite, les cotes horizontales régulièrement espacées*
+
+
 
 ## Utilisation
 
@@ -27,6 +29,8 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionCascadeHorizDimension.svg  sty
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionCascadeHorizDimension.svg" width=16px> [Cascader horizontalement les cotes](TechDraw_ExtensionCascadeHorizDimension/fr.md)**.
     -   Sélectionnez l\'option **TechDraw → Extensions : attributs/modifications → <img src="images/TechDraw_ExtensionCascadeHorizDimension.svg" width=16px> Cascader horizontalement les cotes** à partir du menu.
 5.  Les cotes sont uniformément espacées et leurs textes sont centrés.
+
+
 
 ## Remarques
 

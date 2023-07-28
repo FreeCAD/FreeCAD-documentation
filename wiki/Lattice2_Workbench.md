@@ -113,7 +113,7 @@ Other
 
 ## Installation
 
-**Prerequisites** Lattice2 Workbench requires FreeCAD \>= v0.16.5155.
+**Prerequisites**: Lattice2 Workbench requires FreeCAD \>= v0.16.5155.
 
 ### Automatic installation 
 
@@ -136,7 +136,7 @@ After you install the workbench, it should appear at the bottom of list of workb
 -   [Making a Cogset](https://github.com/DeepSOIC/Lattice2/wiki/Cogset-Tutorial)
 -   [Feature Patterns in Lattice2 Workbench](https://www.youtube.com/watch?v=BXmeEGnhszo) by \@sliptonic
 
-## Links to Lattice2 WB 
+## Links to Lattice2 workbench 
 
 -   Lattice2 Wiki: <https://github.com/DeepSOIC/Lattice2/wiki>
 -   FreeCAD Wiki: <https://www.freecadweb.org/wiki/Lattice2_Workbench>

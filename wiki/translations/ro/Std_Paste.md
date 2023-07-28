@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Descriere
@@ -16,6 +18,8 @@ The Paste command is involved in replicating [Document](Document_structure.md) o
 </div>
 
 The **Std Paste** command pastes objects from the Clipboard into the active document.
+
+
 
 
 <div class="mw-translate-fuzzy">

@@ -1,33 +1,38 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher SwitchVirtualSpace
-   MenuLocation:Sketch → Sketcher virtual space → Switch virtual space
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Przełącz przestrzeń wirtualną
+   MenuLocation:Szkic → Wirtualna przestrzeń szkicownika → Przełącz przestrzeń wirtualną
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Version:0.17
 ---
 
 # Sketcher SwitchVirtualSpace/pl
 
-## Description
-
-The FreeCAD Sketcher has two virtual spaces on which constraints can be set. Usually all constraints gets set on virtual space one. You can move some constraints to virtual space two. This can help to inspect only on a few constraints at a time.
-
-## Usage
-
-To move constraints to the other virtual space:
-
-1.  Select constraints you want to move.
-2.  Press the **[<img src=images/Sketcher_SwitchVirtualSpace.svg style="width:16px"> [Switch virtual space](Sketcher_SwitchVirtualSpace.md)** button.
-
-To switch the virtual space:
-
-1.  Make sure you have no constraint selected.
-2.  Press the **[<img src=images/Sketcher_SwitchVirtualSpace.svg style="width:16px"> [Switch virtual space](Sketcher_SwitchVirtualSpace.md)** button.
 
 
-**Note:**
+## Opis
 
-if you decide to set constraints on the second virtual space, don\'t forget about them later on if you don\'t see them in the [3D view](3D_view.md).
+Szkicownik programu FreeCAD posiada dwie przestrzenie wirtualne, na których można ustawić wiązania. Zazwyczaj wszystkie wiązania są ustawiane w pierwszej przestrzeni wirtualnej. Można przenieść niektóre z nich do drugiej przestrzeni wirtualnej. Może to ułatwić kontrolę tylko wybranych wiązań w tym samym czasie.
+
+
+
+## Użycie
+
+Aby przenieść wiązania do drugiej przestrzeni wirtualnej:
+
+1.  Wybierz wiązania, które chcesz przenieść.
+2.  Naciśnij przycisk **[<img src=images/Sketcher_SwitchVirtualSpace.svg style="width:16px"> '''Przełącz przestrzeń wirtualną'''**.
+
+Aby przełączyć przestrzeń wirtualną:
+
+1.  Upewnij się, że nie masz zaznaczonego żadnego wiązania.
+2.  Naciśnij przycisk **[<img src=images/Sketcher_SwitchVirtualSpace.svg style="width:16px"> '''Przełącz przestrzeń wirtualną'''**.
+
+
+**Uwaga:**
+
+jeśli zdecydujesz się ustawić wiązania na drugiej przestrzeni wirtualnej, nie zapomnij o nich później, jeśli nie widzisz ich w oknie [widoku 3D](3D_view/pl.md).
 
 
 

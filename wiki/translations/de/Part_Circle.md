@@ -61,17 +61,11 @@ The object has the same attachment properties as a [Part Part2DObject](Part_Part
 
 {{TitleProperty|Base}}
 
+-    {{PropertyData/de|Radius|Length}}: Der Radius des Kreises oder Kreisbogens. Standard ist {{Value|2mm}}.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Angle1|Angle}}: Der Startwinkel des Kreisbogens. Wertebereich: {{Value|0° &lt; value &lt;&#61; 360°}}. Standard ist {{Value|0°}}.
 
--    **Radius**: Der Radius der gebogenen Kante (Kreisbogen oder Kreis)
-
--    **Winkel 0**: Startwinkel der gebogenen Kante (in Grad, gegen Uhrzeigersinn), Standardwert ist 0
-
--    **Winkel 1**: Endwinkel der gebogenen Kante (in Grad, gegen Uhrzeigersinn), Standardwert ist 360
-
-
-</div>
+-    {{PropertyData/de|Angle2|Angle}}: Der Endwinkel des Kreisbogens: {{Value|0° &lt; value &lt;&#61; 360°}}. Standard ist {{Value|360°}}. Sind {{PropertyData/de|Angle1}} und {{PropertyData/de|Angle2}} gleich, oder ist ein Winkel {{Value|0°}} und der andere {{Value|360°}}, wird ein Vollkreis erstellt.
 
 
 

@@ -10,9 +10,16 @@
 
 # Draft Layer/ru
 
+
+</div>
+
+
+
 ## Описание
 
 The <img alt="" src=images/Draft_Layer.svg  style="width:24px;"> **Draft Layer** command creates a Draft Layer. A layer is a special kind of group with a number of [visual properties](#View.md). These properties, and any changes to them, are propagated to the objects placed inside the layer. The layers themselves are put in another special group: the Draft LayerContainer.
+
+
 
 ## Применение
 
@@ -49,14 +56,18 @@ For a Draft Layer these additional options are available in the [Tree view](Tree
 ## Drag and drop behavior 
 
 
-<small>(v1.0)</small> 
+<small>(v0.21)</small> 
 
 If you drop an object from a [Std Group](Std_Group.md), or a group-like object such as an [Arch BuildingPart](Arch_BuildingPart.md), on a layer in the [Tree view](Tree_view.md), it is not removed from the group, and vice versa. To remove an object from a layer it must be dropped on another layer or on the document node. There is no need to hold down the **Ctrl** key when dragging from or dropping on a layer.
+
+
 
 ## Примечания
 
 -   A new layer can also be created with the [Draft AutoGroup](Draft_AutoGroup.md) command.
 -   The [BIM Workbench](BIM_Workbench.md) offers a complete [layer manager tool](BIM_Layers.md) which will eventually be included in the [Draft Workbench](Draft_Workbench.md).
+
+
 
 ## Свойства
 
@@ -64,12 +75,16 @@ See also: [Property editor](Property_editor.md).
 
 A Draft Layer object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. It also has the following additional properties:
 
+
+
 ### Данные
 
 
 {{TitleProperty|Layer}}
 
 -    **Group|LinkList**: specifies the objects that are inside the layer.
+
+
 
 ### Вид
 
@@ -98,6 +113,8 @@ The properties in this section are applied to objects that are put inside the la
 -    **Line Print Color|Color**: specifies the line print color of the layer.
 
 -    **Use Print Color|Bool**: specifies if the **Line Print Color|** of the layer is used when a [TechDraw DraftView](TechDraw_DraftView.md) is created from the objects inside the layer.
+
+
 
 ## Программирование
 

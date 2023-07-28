@@ -11,9 +11,17 @@
 
 </div>
 
+
+
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Этот инструмент переключает геометрию эскиза из/в вспомогательный режим. Может использоваться для любого типа геометрии: линии, дуги или круга.
+
+
+</div>
 
 Вспомогательная геометрия является важным инструментом в создании эскизов. При использовании эскиза для 3D-операций вспомогательная геометрия игнорируется.
 
@@ -29,6 +37,8 @@
 
 <img alt="" src=images/Sketcher_ConstructionMode_fr_01.png  style="width:480px;">
 
+
+
 ## Применение
 
 
@@ -42,25 +52,9 @@
 
 </div>
 
-## Пример
-
-Использование вспомогательного режима на некоторых элементах эскиза.
-
-<img alt="" src=images/Sketcher_ConstructionMode_fr_01.png  style="width:450px;">
-
-
-<div class="mw-translate-fuzzy">
-
-и как только вы <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:24px;"> [покинете режим редактирования эскиза](Sketcher_LeaveSketch/ru.md), геометрия, которая была преобразована в вспомогательную, станет невидимой в [3D-виде](3D_view/ru.md) (но она все еще присутствует в режиме редактирования эскиза).
-
-
-</div>
-
-<img alt="" src=images/Sketcher_ConstructionMode_fr_02.png  style="width:450px;">
-
 ## Notes
 
--    **[<img src=images/Sketcher_CreatePoint.svg style="width:16px"> [Create point](Sketcher_CreatePoint.md)**will always create points in construction mode regardless of the toolbar toggle state, select the desired points in the [3D view](3D_view.md) after creation and click **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Toggle construction geometry](Sketcher_ToggleConstruction.md)** to change them to normal geometry. <small>(v0.19)</small> 
+-    **[<img src=images/Sketcher_CreatePoint.svg style="width:16px"> [Create point](Sketcher_CreatePoint.md)**will always create points in construction mode regardless of the toolbar toggle state, select the desired points in the [3D view](3D_view.md) after creation and click **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Toggle construction geometry](Sketcher_ToggleConstruction.md)** to change them to normal geometry.
 
 
 <div class="mw-translate-fuzzy">

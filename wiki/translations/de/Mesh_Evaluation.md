@@ -8,12 +8,16 @@
 
 # Mesh Evaluation/de
 
+
+
 ## Beschreibung
 
-The **Mesh Evaluation** command evaluates and repairs a mesh object.
+Der Befehl **Mesh Auswertung** wertet ein Netzobjekte aus und repariert es.
 
 ![](images/Mesh_Evaluation_dialog.png ) 
-*The Evaluate & Repair Mesh dialog box with the Folds on surface option enabled*
+*Das Dialogfenster Netz auswerten & reparieren mit aktivierter Option Folds on surface*
+
+
 
 ## Anwendung
 
@@ -46,10 +50,14 @@ The **Mesh Evaluation** command evaluates and repairs a mesh object.
 14. Press the **Close** button to close the dialog box and finish the command.
 15. The **Refresh** button does not work properly at this time.
 
+
+
 ## Hinweise
 
 -   Repairing a mesh can mean that problematic elements are deleted from the mesh resulting in holes. Holes can be closed with the [Mesh FillupHoles](Mesh_FillupHoles.md), [Mesh FillInteractiveHole](Mesh_FillInteractiveHole.md) and [Mesh AddFacet](Mesh_AddFacet.md) commands.
 -   See [this forum post](https://forum.freecadweb.org/viewtopic.php?f=3&p=533252#p533252) for an explanation of the mesh data structure. This information may help to understand why a mesh has problems.
+
+
 
 ## Einstellungen
 
@@ -58,13 +66,7 @@ The **Mesh Evaluation** command evaluates and repairs a mesh object.
 -   The **Only consider zero area faces as degenerated** setting is stored: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Mesh → Evaluation → StrictlyDegenerated**.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Mesh Tools navi

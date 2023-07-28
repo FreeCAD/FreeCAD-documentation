@@ -3,11 +3,11 @@
 
 
 
-## Einführung
+## Einleitung
 
-Die [Baumansicht](Tree_view/de.md) erscheint im **Modell** Reiter der [Kombiansicht](Combo_view/de.md), einem der wichtigsten Paneele der [Oberfläche](Interface/de.md); sie zeigt alle benutzerdefinierten Objekte, die Teil eines FreeCAD Dokuments sind. Die Baumansicht ist eine Darstellung der [Dokumentstruktur](document_structure/de.md) und zeigt an, welche Informationen auf der Festplatte gespeichert sind.
+Die [Baumansicht](Tree_view/de.md) befindet sich auf der Registerkarte **Modell** in der [Combo-Ansicht](Combo_view/de.md), einem der wichtigsten Bereiche der [Oberfläche](Interface/de.md); sie zeigt alle benutzerdefinierten Objekte, die Teil eines FreeCAD-Dokuments sind. Die Baumansicht ist eine Darstellung der [Dokumentstruktur](document_structure/de.md) und zeigt an, welche Informationen auf die Festplatte gespeichert werden.
 
-Diese Objekte müssen nicht unbedingt geometrische Formen sein, die in der [3D Ansicht](3D_view/de.md) sichtbar sind, sondern können auch unterstützende Datenobjekte sein, die mit einer der [Arbeitsbereiche](workbenches/de.md) erstellt wurden.
+Diese Objekte müssen nicht unbedingt geometrische Formen sein, die in der [3D-Ansicht](3D_view/de.md) sichtbar sind, sondern können auch unterstützende Datenobjekte sein, die mit irgendeinem der [Arbeitsbereiche](workbenches/de.md) erstellt wurden.
 
 ![](images/FreeCAD_Tree_view.png )
 
@@ -19,9 +19,9 @@ Diese Objekte müssen nicht unbedingt geometrische Formen sein, die in der [3D A
 
 ## Arbeiten mit der Baumansicht 
 
-Immer wenn ein neues Objekt erstellt wird, wird es standardmäßig am Ende der Liste in der Baumansicht hinzugefügt. Die Baumansicht erlaubt die Verwaltung der Objekte, um sie übersichtlich zu halten; sie erlaubt das Erstellen von [Gruppen](Std_Group/de.md), das Verschieben von Objekten innerhalb von Gruppen, das Verschieben von Gruppen innerhalb anderer Gruppen, das Umbenennen von Objekten, das Kopieren von Objekten, das Löschen von Objekten und andere Operationen im Kontextmenü (Rechtsklick), die vom aktuell ausgewählten Objekt und des aktuell aktiven Arbeitsbereichs abhängen.
+Immer wenn ein neues Objekt erstellt wird, wird es standardmäßig am Ende der Liste in der Baumansicht hinzugefügt. Die Baumansicht erlaubt die Verwaltung der Objekte, um sie übersichtlich zu halten; sie erlaubt das Erstellen von [Gruppen](Std_Group/de.md), das Verschieben von Objekten in Gruppen, das Verschieben von Gruppen in andere Gruppen, das Umbenennen von Objekten, das Kopieren von Objekten, das Löschen von Objekten und andere Operationen im Kontextmenü (Rechtsklick), die vom aktuell ausgewählten Objekt und vom aktuell aktiven Arbeitsbereich abhängen.
 
-Viele Vorgänge erzeugen Objekte, die von einem zuvor existierenden Objekt abhängig sind. In diesem Fall zeigt die Baumansicht diese Beziehung, indem sie das ältere Objekt innerhalb des neuen Objekts aufnimmt. Das Auf- und Zuklappen der Objekte in der Baumansicht zeigt die parametrische Historie dieses Objekts. Objekte, die tiefer in anderen sind, sind älter, während Objekte, die sich außerhalb befinden, neuer sind und von den älteren Objekten abgeleitet werden. Durch die Modifikation der inneren Objekte breiten sich die parametrischen Operationen bis nach oben aus und erzeugen ein neues Ergebnis.
+Viele Vorgänge erzeugen Objekte, die von einem zuvor existierenden Objekt abhängig sind. In diesem Fall zeigt die Baumansicht diese Beziehung, indem sie das ältere Objekt innerhalb des neuen Objekts aufnimmt. Das Aus- und Einklappen der Objekte in der Baumansicht zeigt die parametrische Historie dieses Objekts. Objekte, die sich (eingerückt) unter anderen befinden, sind älter, während Objekte, die sich nicht eingerückt darunter (außerhalb) befinden, neuer sind und von den älteren Objekten abgeleitet werden. Modifikationen an den älteren Objekten setzen sich über die parametrischen Operationen bis zu den neuesten fort und erzeugen ein neues Ergebnis.
 
 <img alt="" src=images/FreeCAD_Tree_view_parametric_history_1.png  style="width:" height="304px;"> <img alt="" src=images/FreeCAD_Tree_view_parametric_history_2.png  style="width:" height="304px;">
 
@@ -33,66 +33,94 @@ Viele Vorgänge erzeugen Objekte, die von einem zuvor existierenden Objekt abhä
 
 
 
+### Bezeichnungen & Eigenschaften 
+
+In der Spalte Bezeichnungen & Eigenschaften werden die Symbole und die Bezeichnungen (Labels) der Objekte angezeigt.
+
+Ein Objekt in dieser Spalte auswählen und **F2** (unter Windows und Linux) oder **Enter** (unter macOS) drücken erlaubt die {{PropertyData/de|Label}} vor Ort ohne Umweg über die Aktionen des Kontextmenüs oder den [Eigenschafteneditor](Property_editor.md) zu bearbeiten.
+
+
+
+### Beschreibung
+
+Die Spalte Beschreibung zeigt weitere Informationen über Objekte an, wenn vorhanden.
+
+Diese Informationen sind in der {{PropertyData/de|Label2}} des Objekts gespeichert und können vor Ort bearbeitet werden, indem das Objekt in dieser Spalte ausgewählt und **F2** (unter Windows und Linux) oder **Enter** (unter macOS) gedrückt wird oder mit Hilfe des [Eigenschafteneditors](Property_editor.md).
+
+
+
 ## Maßnahmen
 
-Da die Baumansicht Objekte auflistet, die in der [3D-Ansicht](3D_view/de.md) sichtbar sein können, sind viele der Aktionen identisch mit denen, die aus der [3D-Ansicht](3D_view/de.md) ausgeführt werden können.
+Da die Baumansicht Objekte auflistet, die in der [3D-Ansicht](3D_view/de.md) sichtbar sein können, sind viele der Aktionen identisch mit denen, die in der [3D-Ansicht](3D_view/de.md) ausgeführt werden können. Die Aktionen können aus einem **Kontextmenü** heraus gestartet werden, das über einen Rechtsklick auf entweder auf den Hintergrund oder auf das Objekt erreicht werden kann.
 
-Wenn die Anwendung startet, der Standardarbeitsbereich [Start](Start_Workbench/de.md) aktiv ist, und kein Dokument erstellt wurde, zeigt ein Rechtsklick auf die [Baumansicht](Tree_view/de.md) ein Untermenü mit vier Befehlen:
 
--    **Expression Aktionen**:
 
-    -   [Ausgewähltes kopieren](Std_Expressions/de.md),
-    -   [Aktives Dokument kopieren](Std_Expressions/de.md),
-    -   [Alle Dokumente kopieren](Std_Expressions/de.md),
-    -   [Einfügen](Std_Paste.md).
+### Start der Anwendung 
+
+Wenn die Anwendung startet, der Standardarbeitsbereich [Start](Start_Workbench/de.md) aktiv ist, und kein Dokument erstellt wurde, besitzt das Kontextmenü der [Baumansicht](Tree_view/de.md) nur einem Eintrag:
+
+-    **Expression Aktionen**. Wird der Mauszeiger darauf gezogen, öffnet sich ein Untermenü mit den vier Befehlen:
+
+-   [Ausgewähltes kopieren](Std_Expressions/de.md),
+
+-   [Aktives Dokument kopieren](Std_Expressions/de.md),
+
+-   [Alle Dokumente kopieren](Std_Expressions/de.md),
+
+-   [Einfügen](Std_Paste/de.md).
 
 Diese ermöglichen das Arbeiten mit verschiedenen Dokumenten, sind aber deaktiviert, wenn kein Dokument vorhanden ist.
 
-Sobald ein neues Dokument erstellt wurde, wird folgendes aktiv:
 
--    **Expression Aktionen**:
+
+### Ein neues Dokument 
+
+Sobald ein neues Dokument erstellt wurde, wird durch einen Rechtsklick auf den Hintergrund das Kontextmenü mit jetzt zwei Einträgen geöffnet:
+
+-    **Expression Aktionen**, wie oben, aber mit diesen beiden aktivierten Einträgen:
 
     -   [Aktives Dokument kopieren](Std_Expressions/de.md),
     -   [Alle Dokumente kopieren](Std_Expressions/de.md).
 
-Zusätzlich sind [Verweis](Std_LinkMake/de.md) Aktionen verfügbar.
-
--    **Verknüpfungsvorgänge**: [Verweis herstellen](Std_LinkMake/de.md).
+-    **Link actions**\- ein Untermenü mit zwei Einträgen:
 
     -   
-        **Verweisgruppe herstellen**
+        **Make Link group**
         
-        : [Einfache Gruppe](Std_LinkMakeGroup/de.md), [Gruppe mit Verweisen](Std_LinkMakeGroup/de.md), [Gruppe mit Umwandlungsverweisen](Std_LinkMakeGroup/de.md).
+        \- ein weiteres Untermenü, das drei Befehle enthält:
+
+        -   [Simple group](Std_LinkMakeGroup/de.md)
+        -   [Group with links](Std_LinkMakeGroup/de.md)
+        -   [Group with transform links](Std_LinkMakeGroup/de.md)
+
+    -   [VerknüpfungErstellen](Std_LinkMake/de.md)
 
 
 
 ### Auswählen des Dokuments 
 
-Wenn man das aktive Dokument auswählt und mit der rechten Maustaste klickt, erscheinen zusätzlich zu **Expression actions** und **Link actions** die folgenden Befehle:
+Wenn man das Dokument auswählt und mit der rechten Maustaste klickt, enthält das Kontextmenü zusätzlich zu **Ausdruck-Aktionen** und **Verknüpfungen...** die folgenden Befehle:
 
--    **Versteckte Elemente anzeigen**: wenn aktiv, zeigt die Baumansicht versteckte Elemente an.
+-    **In der Baumansicht ausgeblendete Elemente anzeigen**: wenn aktiv, zeigt die Baumansicht versteckte Elemente an.
 
--    **Search**: zeigt ein Eingabefeld für die Suche nach Objekten innerhalb des ausgewählten Dokuments.
+-    **Suche**: zeigt ein Eingabefeld für die Suche nach Objekten innerhalb des ausgewählten Dokuments.
 
--    **Close document**: schließt das ausgewählte Dokument.
+-    **Dokument schließen**: schließt das ausgewählte Dokument.
 
--    **Skip recomputes**: wenn aktiv, werden die Objekte des Dokuments nicht automatisch [Neuberechnet](Std_Refresh/de.md).
+-    **Neuberechnungen überspringen**: wenn aktiv, werden die Objekte des Dokuments nicht automatisch [neuberechnet](Std_Refresh/de.md).
 
     -   
-        **Allow partial recomputes**
+        **Teilweise Neuberechnungen erlauben**
         
-        : wenn aktiv, erlaubt das Dokument [Neuberechnen](Std_Refresh/de.md) nur für einige Objekte.
+        : wenn aktiv, erlaubt das Dokument das [Neuberechnen](Std_Refresh/de.md) für nur wenige Objekte. Steht nur zur Verfügung, wenn **Neuberechnungen überspringen** aktiviert ist.
 
--    **Markieren zum Neuberechnen**: markiert alle Objekte des Dokuments als berührt und bereit für [Neuberechnen](Std_Refresh/de.md).
+-    **Markieren zum Neuberechnen**: markiert alle Objekte des Dokuments als berührt und bereit für ein [Neuberechnen](Std_Refresh/de.md).
 
--    **[Create group](Std_Group/de.md)**: Erzeugt eine [Gruppe](Std_Group/de.md) im ausgewählten Dokument.
+-    **[Gruppe erstellen](Std_Group/de.md)**: Erzeugt eine [Gruppe](Std_Group/de.md) im ausgewählten Dokument.
 
 
 
 ### Objekte auswählen 
-
-
-<div class="mw-translate-fuzzy">
 
 Sobald Objekte zum Dokument hinzugefügt wurden, zeigt ein Rechtsklick auf sie zusätzliche Befehle an. Diese sind abhängig von der Anzahl der ausgewählten Objekte, der Art der Objekte und auch von dem aktiven Arbeitsbereich. In den meisten Fällen und mit den meisten Arbeitsbereichen (außer dem Arbeitsbereich [Start](Start_Workbench/de.md)) stehen folgende Befehle zur Verfügung:
 
@@ -108,18 +136,13 @@ Sobald Objekte zum Dokument hinzugefügt wurden, zeigt ein Rechtsklick auf sie z
 
 -    **[Löschen](Std_Delete/de.md)**: Entfernt das Objekt aus dem Dokument.
 
--    **Element ausblenden**: Wenn aktiviert, wird das ausgewählte Objekt ausgeblendet.
-
--    **Abhängige Objekte zur Auswahl hinzufügen**: Fügt alle abhängigen Objekte zur Auswahl hinzu. So können alle Abhängigkeiten angezeigt und z.B. alle abhängigen Objekte auf einmal gelöscht werden. Diese Auswahl steht nur zur Verfügung, wenn eines der ausgewählten Objekte Verknüpfungen besitzt {{Version/de|0.20}}
+-    **[Sichtbarkeit in der Baumansicht umschalten](#Auge-Symbol.md)**: Schaltet die Sichtbarkeit eines Objekt in der Baumansicht um.
 
 -    **Markieren, um neu zu berechnen**: Kennzeichnet die ausgewählten Objekte als markiert und fertig zum [Neuberechnen](Std_Refresh/de.md).
 
 -    **Objekt neu berechnen**: Berechnet die ausgewählten Objekte neu.
 
--    **Umbenennen**: Startet die Bearbeitung des Labels eines Objekts, nicht des Namens, der schreibgeschützt ist. Diese Auswahl steht nur dann zur Verfügung, wenn nur ein einziges Objekt ausgewählt wurde.
-
-
-</div>
+-    **Umbenennen**: Startet die Bearbeitung der Benennung (Label) eines Objekts, nicht des Namens, der schreibgeschützt ist. Diese Auswahl steht nur dann zur Verfügung, wenn nur ein einziges Objekt ausgewählt wurde.
 
 Ein Beispiel für eine Erweiterung des Kontextmenüs zeigt ein Rechtsklick auf ein [Part Würfel](Part_Box/de.md)-Objekt; bei aktiviertem Arbeitsbereich [Part](Part_Workbench/de.md) stehen folgende zusätzliche Befehle zur Verfügung:
 
@@ -176,7 +199,7 @@ Folgende Tastaturbefehle stehen zur Verfügung, wenn der Fokus auf der Baumansic
 
 ## Überlagerungssymbole
 
-Ein oder mehrere kleinere Überlagerungssymbole können über dem Standardsymbol eines Objekts in der Strukturansicht angezeigt werden. Die verfügbaren Überlagerungssymbole und ihre Bedeutung sind unten aufgeführt. {{Version/de|0.19}}
+Ein oder mehrere kleinere Überlagerungssymbole können über dem Standardsymbol eines Objekts in der Strukturansicht angezeigt werden. Die verfügbaren Überlagerungssymbole und ihre Bedeutung sind nachfolgend aufgeführt.
 
 
 
@@ -210,9 +233,11 @@ Dies wird nur für [Skizzen](Sketch/de.md) verwendet und zeigt an, dass die Skiz
 
 Dies zeigt an, dass das Objekt einen Fehler hat, der behoben werden muss. Nach der Neuberechnung des gesamten Dokuments wird eine QuickInfo angezeigt, die den Fehler beschreibt, wenn Sie mit der Maus über das Objekt in der Baumansicht fahren. Hinweis: Alle anderen Objekte, die von einem Objekt in einem solchen Fehlerzustand abhängen, werden nicht korrekt neu berechnet, so dass sie möglicherweise noch einen alten Zustand aufweisen.
 
-### ![](images/FreeCAD_Tree_view_hidden.png ) Eye symbol 
 
-This indicates that the object will be hidden in the Tree view because its **Hide item** context menu option is checked. Check and then uncheck the **Show hidden items** context menu option of the document, or reopen the document, to update the Tree view.
+
+### ![](images/FreeCAD_Tree_view_hidden.png ) Auge-Symbol 
+
+Dies zeigt an, dass das Objekt in der Baumansicht ausgeblendet ist, wenn die Kontextmenü-Option **In der Baumansicht ausgeblendete Elemente anzeigen** deaktiviert ist.
 
 
 {{Interface navi

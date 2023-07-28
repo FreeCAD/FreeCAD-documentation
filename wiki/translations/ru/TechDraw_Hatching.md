@@ -1,6 +1,8 @@
 # TechDraw Hatching/ru
 {{TOCright}}
 
+
+
 ## Описание
 
 
@@ -16,7 +18,7 @@
 
 ## Image based hatch 
 
-<img alt="" src=images/TechDraw_Hatch.svg  style="width:16px;"> [TechDraw Hatch](TechDraw_Hatch.md) uses tiled [SVG](SVG.md) or bitmap (<small>(v1.0)</small> ) images to cover the selected Face. The origin of the tiling grid will match the geometric center of the face.
+<img alt="" src=images/TechDraw_Hatch.svg  style="width:16px;"> [TechDraw Hatch](TechDraw_Hatch.md) uses tiled [SVG](SVG.md) or bitmap (<small>(v0.21)</small> ) images to cover the selected Face. The origin of the tiling grid will match the geometric center of the face.
 
 [SVG](SVG.md) tiles are typically **64x64** pixel images. All pattern files that come with FreeCAD are available on [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
 

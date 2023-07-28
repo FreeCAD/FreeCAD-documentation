@@ -1,11 +1,15 @@
 # FEM Solver/de
 {{TOCright}}
 
+
+
 ## Vorwort
 
 Diese Seite sammelt Informationen über die vom Arbeitsbereich [FEM](FEM_Workbench/de.md) verwendeten Finite-Elemente-Löser. Die Schnittstelle zwischen einem Löser und FreeCAD sowohl in der Vor- als auch in der Nachbearbeitung erfolgt über Textdateien. Das bedeutet, dass theoretisch jeder Löser, der über Textdateien konfiguriert und gesteuert werden kann, mit FreeCAD zusammenarbeiten kann; für diese Kommunikation muss ein geeigneter Parser und Schreiber von Ein- und Ausgabedateien programmiert werden. Im Forum findet sich ein Thema mit Diskussionen und Ankündigungen zu den verschiedenen Lösern:[General FEM solvers discussion topic](https://forum.freecadweb.org/viewtopic.php?f=18&t=26326).
 
 Wikipedia [listet viele Finite Elemente Softwarepakete auf](https://en.wikipedia.org/wiki/List_of_finite_element_software_packages). Einen Vergleich findest du auf [feacompare.com](https://feacompare.com/).
+
+
 
 ### Verfügbare Löser in verschiedenen Linux Distributionen 
 
@@ -13,9 +17,13 @@ Das [FreeCAD-Abhängigkeiten](https://github.com/luzpaz/FreeCAD-dependencies) Re
 
 Die Informationen werden auch im Forum diskutiert: [unterstützter und nicht unterstützter Löser](https://forum.freecadweb.org/viewtopic.php?f=18&t=26326&start=10#p270325).
 
+
+
 ## Löser mit einer Schnittstelle in FreeCAD 
 
 Diese Löser sind gut in FreeCAD integriert, was bedeutet, dass es möglich ist, ein Simulationsprojekt von der grafischen Oberfläche und den Schaltflächen im FEM Arbeitsbereich aus zu erstellen und auszuführen.
+
+
 
 ### CalculiX
 
@@ -25,63 +33,39 @@ Dies ist der erste Löser, der für die Arbeit mit dem FEM Arbeitsbereich integr
 
 Der Elmer-Multiphysics-Löser wurde als [Google-Summer-of-Code-2017](Google_Summer_of_Code_2017.md)-Projekt in FreeCAD integriert: [Hauptwebsite](https://www.csc.fi/web/elmer), [Gemeinschaftsportal](http://www.elmerfem.org./), [Code Repositorium](https://github.com/ElmerCSC/elmerfem), [Elmer Integration (GSoC) - Aktivitätsprotokoll](https://forum.freecadweb.org/viewtopic.php?f=18&t=22576) ( Forumsthema).
 
+
+
 ### Mystran
 
 Mystran is a structural analysis program which uses Nastran input file format. It is released under MIT license. Which means it seems OpenSource. See [main website](https://www.mystran.com/), [code repository](https://github.com/dr-bill-c/MYSTRAN) and [Mystran-FreeCAD-forum (forum topic)](https://forum.freecadweb.org/viewtopic.php?t=46171).
 
 ### Z88
 
-
-<div class="mw-translate-fuzzy">
-
-Der Z88 Löser ist für lineare statische Simulationen mit dem Schwerpunkt auf der Vermittlung der Finite Elemente Methode konzipiert. Er war der zweite Solver, der [integriert in FreeCAD](https://forum.freecadweb.org/viewtopic.php?f=18&t=15568). Danach wurde die Integration als [Google Summer of Code 2017](Google_Summer_of_Code_2017.md) Projekt verbessert.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Der Löser Z88 ist für lineare statische Simulationen mit dem Schwerpunkt auf der Vermittlung der Finite-Elemente-Methode konzipiert. Er war der zweite Solver, der [in FreeCAD integriert](https://forum.freecadweb.org/viewtopic.php?f=18&t=15568) wurde. Danach wurde die Integration als Projekt des [Google Summer of Code 2017](Google_Summer_of_Code_2017.md) verbessert.
 
 Siehe die Informationen:
 
 -   [Hauptwebsite](https://en.z88.de/z88os/), [Downloadseite](https://en.z88.de/download-z88os/), [Quelltext Repositorium](https://github.com/LSCAD/Z88OS) (und vorkompilierte Binärdateien).
 -   Versionshinweise: [Z88os V15 veröffentlicht am 17.07.2017](https://forum.z88.de/viewtopic.php?f=18&t=885), [Z88os V13 veröffentlicht am 20.05.2009](https://forum.z88.de/viewtopic.php?t=90) (Version in Debian Jessie 8, Stretch 9, Buster 10).
--   [Wie man Z88 in FEM? benutzt](https://forum.freecadweb.org/viewtopic.php?t=23318) (Forumsbeitrag).
-
-
-</div>
+-   [Wie man Z88 in FEM? benutzt](https://forum.freecadweb.org/viewtopic.php?t=23318) (Forumsthema).
 
 Es gibt zwei Versionen, Z88OS ist die quelloffene Version, während Z88Aurora Freeware ist und eine grafische Oberfläche und zusätzliche Lösungsmethoden enthält.
 
+
+
 ## Löser als externe Arbeitsbereiche implementiert 
 
-
-<div class="mw-translate-fuzzy">
-
-Diese Löser sind nicht in die [FEM Workbench/de](FEM_Workbench/de.md) integriert, d.h. sie benötigen eine separate Schnittstelle, um ein Simulationsprojekt zu erstellen. Dies wird durch [macros/de](macros/de.md) oder [externe Werkbänke](external_workbenches/de.md) erreicht.
-
-
-</div>
+Diese Löser sind nicht in den Arbeitsbereich [FEM](FEM_Workbench/de.md) integriert, d.h. sie benötigen eine separate Schnittstelle, um ein Simulationsprojekt zu erstellen. Dies wird durch [Makros](Macros/de.md) oder [externe Arbeitsbereiche](External_workbenches/de.md) erreicht.
 
 ### DualSPHysics
 
 [DualSPHysics](https://dual.sphysics.org/) ist ein Satz von C++ , CUDA und Java Bibliotheken, die die [geglättete Teilchen Hydrodynamik](https://en.wikipedia.org/wiki/Smoothed-particle_hydrodynamics) verwenden. (SPH) Modell namens [SPHysics](https://wiki.manchester.ac.uk/sphysics/index.php/Main_Page) zur Untersuchung von Phänomenen der freien Oberflächenströmung wie z.B. brechenden Wellen.
 
+DesignSPHysics ist ein in FreeCAD integrierter externer Arbeitsbereich, der eine grafische Benutzeroberfläche für DualSPHysics bietet: [Haupt-Website](https://design.sphysics.org/), [Code Repositorium](https://github.com/dualsphysics/DesignSPHysics), [Interessantes Projekt: DesignSPHysics Fluidsimulator](https://forum.freecadweb.org/viewtopic.php?f=18&t=20595) (Forumsthema).
 
-<div class="mw-translate-fuzzy">
-
-DesignSPHysics ist ein in FreeCAD integrierter externer Arbeitsbereich, der eine grafische Benutzeroberfläche für DualSPHysics bietet: [Haupt-Website](https://design.sphysics.org/), [Code Repositorium](https://github.com/dualsphysics/DesignSPHysics), [Interessantes Projekt: DesignSPHysics Fluidsimulator](https://forum.freecadweb.org/viewtopic.php?f=18&t=20595) (Forumsbeitrag).
-
-
-</div>
+DesignSPHysics kann über den [Addon-Manager](Std_AddonMgr/de.md) installiert werden.
 
 
-<div class="mw-translate-fuzzy">
-
-DesignSPHysics kann über den [Std_AddonMgr/de](Std_AddonMgr/de.md) installiert werden.
-
-
-</div>
 
 ### FastHenry und FasterCap 
 
@@ -121,29 +105,11 @@ OpenFoam ist in FreeCAD über zwei externe Arbeitsbereiche verfügbar:
 
 Während Cfd für fortgeschrittene Anwender gedacht ist, konzentriert sich CfdOF auf Anwender, die gerade erst in die Welt von CFD und OpenFoam einsteigen.
 
+Für Cfd: [Aktualisierung von FreeCAD + OpenFOAM Fluiddynamik Berechnung](https://forum.freecadweb.org/viewtopic.php?f=18&t=13699) (Forumsthema), [Fortschritte des Arbeitsbereichs allgemeinen Numerischen Strömungsmechanik (CFD): CfdWorkbench](https://forum.freecadweb.org/viewtopic.php?f=37&t=22993) (altes Forumsthema).
 
-<div class="mw-translate-fuzzy">
+Füor CfdOF: [Computational Fluid Dynamics (CFD) Arbeitsbereich OpenFOAM verwendend](https://forum.freecadweb.org/viewtopic.php?f=18&t=21576) (Forumsthema), [Trainingsmaterial](http://opensim.co.za/training.html).
 
-Für Cfd: [Aktualisierung von FreeCAD + OpenFOAM Fluiddynamik Berechnung](https://forum.freecadweb.org/viewtopic.php?f=18&t=13699) (Forumsbeitrag), [Fortschritte des allgemeinen Numerischen Strömungsmechanik (CFD) Arbeitsbereichs: CfdWorkbench](https://forum.freecadweb.org/viewtopic.php?f=37&t=22993) (alter Diskussionsstrang).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Füor CfdOF: [Computational Fluid Dynamics (CFD) Arbeitsbereich OpenFOAM verwendend](https://forum.freecadweb.org/viewtopic.php?f=18&t=21576) (Forumsbeitrag), [Trainingsmaterial](http://opensim.co.za/training.html).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Beide Arbeitsbereiche können über den [Std_AddonMgr/de](Std_AddonMgr/de.md) installiert werden, und beide haben einen Platz für Diskussionen im [CfdOF / CFD Unterforum](https://forum.freecadweb.org/viewforum.php?f=37).
-
-
-</div>
+Beide Arbeitsbereiche können über den [Addon-Manager](Std_AddonMgr/de.md) installiert werden, und beide haben einen Platz für Diskussionen im [CfdOF / CFD-Unterforum](https://forum.freecadweb.org/viewforum.php?f=37).
 
 ## Implementation in progress 
 

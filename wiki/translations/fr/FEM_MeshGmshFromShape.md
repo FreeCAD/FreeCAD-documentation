@@ -17,7 +17,7 @@ En fonction de votre système d\'exploitation et de votre paquetage d\'installat
 
 
 
-## utilisation
+## Utilisation
 
 1.  Sélectionnez la forme que vous souhaitez analyser. Pour le volume FEM, il doit s\'agir d\'un solide ou d\'un solide. Un compsolid est nécessaire si votre pièce est composée de plusieurs matériaux. (Un compsolid peut être créé avec la commande [Part Fragments booléens](Part_BooleanFragments/fr.md).)
     -   Appuyez sur le bouton **<img src="images/FEM_MeshGmshFromShape.svg" width=16px> [Maillage FEM à partir d'une forme de Gmsh](FEM_MeshGmshFromShape/fr.md)**.
@@ -80,8 +80,8 @@ Une fois que le maillage a été créé, vous pouvez modifier ses propriétés �
 
 -    **Second Order Linear**: option si les noeuds de second ordre (si **Element Order** réglé sur *2nd*) et/ou les points de raffinement du maillage sont créés par interpolation linéaire.
 
-    -   true; l\'interpolation linéaire est utilisée.
-    -   false (par défaut); l\'interpolation curviligne est utilisée.
+    -   true ; l\'interpolation linéaire est utilisée.
+    -   false (par défaut) ; l\'interpolation curviligne est utilisée.
 
 
 

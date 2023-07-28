@@ -1,9 +1,13 @@
 # Localisation/ru
 {{TOCright}}
 
+
+
 ## Обзор
 
 **Локализация** в целом, это процесс создания многоязыкового пользовательского интерфейса для программного обеспечения. В FreeCAD вы можете установить язык пользовательского интерфейса в **Правка → Настройки → Основные**. FreeCAD использует [Qt](wikipedia:Qt_(toolkit).md) чтобы поддерживать несколько языков. По умолчанию в Unix/Linux системах, FreeCAD использует текущие языковые настройки вашей системы для выбора языка интерфейса FreeCAD.
+
+
 
 ## Помощь с переводом FreeCAD 
 
@@ -15,13 +19,21 @@
 
 </div>
 
+
+
 ## Перевод программного обеспечения FreeCAD 
 
 FreeCAD использует стороннюю систему коллективных онлайн-переводов, называемую [Crowdin](https://crowdin.net).
 
 <img alt="" src=images/Logo-crowdin.png  style="width:320px;">
 
+
+<div class="mw-translate-fuzzy">
+
 Она проприетарная, но бесплатна для проектов с открытым исходным кодом. Ниже представлены инструкции по использованию этой системы.
+
+
+</div>
 
 -   Отправляйтесь на [страницу проекта перевода FreeCAD на Crowdin](http://crowdin.net/project/freecad);
 -   Войдите, создав новый профиль, или воспользовавшись сторонними аккаунтами (GitHub, GitLab, GMail итд\...);
@@ -35,6 +47,8 @@ FreeCAD использует стороннюю систему коллекти�
 **Note:**
 
 Details on how to use crowdin can be found on the [Crowdin Administration](Crowdin_Administration.md) page.
+
+
 
 ## Перевод внешних верстаков 
 
@@ -52,6 +66,8 @@ Starting with FreeCAD 0.20, the following variables can be manually added to the
 
     <FCText Name="AdditionalTranslationsDirectory">C:/Users/FreeCADUser/TestTranslations</FCText>
 
+
+
 ## Перевод FreeCAD wiki 
 
 В этой вики содержится много контента, большинство из которого собрано в руководства. Вы можете просмотреть документацию, начиная со [стартовой страницы](Main_Page/ru.md) или можно взглянуть на [руководство пользователя](Online_Help_Toc/ru.md)
@@ -59,6 +75,8 @@ Starting with FreeCAD 0.20, the following variables can be manually added to the
 Примечание: чтобы иметь возможность перевести вики, вам нужно иметь права редактирования, насчёт их получения смотрите [Как я могу полчить права для редактирования wiki?](Frequently_asked_questions/ru#How_can_I_get_edit_permission_on_the_wiki?.md).
 
 У Вас должны быть достаточные знания о языке форматировании вики, и следовать общими стилевым правилам, описанным на странице [WikiPages](WikiPages/ru.md)
+
+
 
 ### Расширение перевода Mediawiki 
 
@@ -92,6 +110,8 @@ Starting with FreeCAD 0.20, the following variables can be manually added to the
 
 Если вы не уверены, что делать с переводом, не стесняйтесь обратится за помощью на [Development → Wiki subforum](https://forum.freecadweb.org/viewforum.php?f=21) или на [особый языковой субфорум](https://forum.freecadweb.org/viewforum.php?f=11) на [форуме FreeCAD](http://forum.freecadweb.org/).
 
+
+
 ### Важные замечания 
 
 Каждый пользователь вики, имеющий права \"Редактора\", может запустить утилиту для перевода, записывать, сохранять и просматривать переводы.
@@ -111,6 +131,8 @@ Starting with FreeCAD 0.20, the following variables can be manually added to the
 ### Translate the FreeCAD documentation 
 
 As per general consensus, the reference page in the wiki is the English page, which should be created first. If you want to change or add content to a page, you should do it to the English page first, and only once the update is completed, port the modification to the translated page.
+
+
 
 ### Старые инструкции по переводу 
 
@@ -146,13 +168,19 @@ As per general consensus, the reference page in the wiki is the English page, wh
 | The page \"Bienvenue dans l\'aide en ligne de FreeCAD\" redirects to Online_Help_Startpage/fr, and the page \"Fonctionnalités\" redirects to Feature_list/fr.                                                                                                                                                                                                                                                                                                                                                                                                            |
 ++
 
+
+
 ## Перевод веб сайта FreeCAD 
 
 Translation of the FreeCAD website is now done through [Crowdin](https://crowdin.com/translate/freecad/561/en-en). The file is named **homepage.po**.
 
+
+
 ## Разработка - Как добавить локализацию 
 
 Этот раздел для разработчиков, которые хотят добавить окализацию в свой код.
+
+
 
 ### Подготовка ваших FreeCAD/master модулей для перевода 
 
@@ -174,6 +202,8 @@ This creates an empty translation file. Once this is done, you need to ensure th
 
 Everything after this is automatic as far as a developer is concerned. The administrator will extract the text strings, the translators will translate them, then the administrator will extract the translations and update FreeCAD/master.
 
+
+
 ### Подготовка вашего стороннего модуля или макроса для перевода 
 
 3rd party modules or macros are translated in much the same fashion, except that you must do some of the work yourself. This [forum discussion](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=25180) describes the details.
@@ -184,14 +214,20 @@ Update: see [Translating an external workbench](Translating_an_external_workbenc
 
 [Localization Older Methods](Localization_Older_Methods.md) describes the use of translation tools such as Qt Linguist, lupdate, lrelease, pylupdate4, etc in detail. Most of this is no longer required for FreeCAD/master modules, but may be helpful preparing and updating 3rd party modules.
 
+
+
 ## Автоматическое обновление переводов Crowdin 
 
 В настоящее время лица ведущие разработку FreeCAD используют [Crowdin скрипты](Crowdin_Scripts/ru.md) для извлечения и отправки переводов в Crowdin и обратно в репозиторий Github. Crowdin API предоставляет разработчикам FreeCAD возможность автоматизировать аспекты рабочего процесса перевода проекта, для получения дополнительной информации см. [Документация по Crowdin API](https://support.crowdin.com/api/api-integration-setup/).
+
+
 
 ## Связанные страницы 
 
 -   [Crowdin Администрация](Crowdin_Administration/ru.md)
 -   [Crowdin Скрипты](Crowdin_Scripts/ru.md)
+
+
 
 ## Программирование
 

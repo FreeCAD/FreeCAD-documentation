@@ -10,11 +10,15 @@
 
 # PartDesign AdditivePrism/de
 
+
+
 ## Beschreibung
 
 Fügt einen Prisma-Grundkörper in den aktiven Körper (Body-Objekt) als Basisformelement ein oder vereinigt ihn mit den bereits vorhandenen Formelementen.
 
 <img alt="" src=images/PartDesign_AdditivePrism_example.png  style="width:200px;">
+
+
 
 ## Anwendung
 
@@ -27,14 +31,18 @@ Fügt einen Prisma-Grundkörper in den aktiven Körper (Body-Objekt) als Basisfo
 
 4.  Ein Prism-Objekt (Formelement) erscheint unter dem aktiven Körper (in der Baumansicht).
 
+
+
 ## Optionen
 
-Es ist möglich, schräge Prismen durch Angabe von Winkeln mit Bezug auf den Normalenvektor der gewählten Befestigung zu erzeugen. {{Version/de|0.20}}
+Es ist möglich, schräge Prismen durch Angabe von Winkeln mit Bezug auf den Normalenvektor der gewählten Befestigung zu erzeugen.
 
 Das Prisma kann nach seiner Erstellung auf zwei Arten bearbeitet werden:
 
 -   Durch Doppelklick in der Baumstruktur oder durch Rechtsklick und Auswahl von Grundkörper bearbeiten im Kontextmenü. Dies öffnet den Dialog „Parameter des Grundkörpers" im Aufgabenbereich.
 -   Mit Hilfe des [Eigenschafteneditors](Property_editor/de.md).
+
+
 
 ## Eigenschaften
 
@@ -48,9 +56,9 @@ Das Prisma kann nach seiner Erstellung auf zwei Arten bearbeitet werden:
 
 -    {{PropertyData/de|Height}}: Höhe des Prismas.
 
--    {{PropertyData/de|First Angle}}: Winkel in der ersten Richtung. {{Version/de|0.19}}
+-    {{PropertyData/de|First Angle}}: Winkel in der ersten Richtung.
 
--    {{PropertyData/de|Second Angle}}: Winkel in der zweiten Richtung. {{Version/de|0.19}}
+-    {{PropertyData/de|Second Angle}}: Winkel in der zweiten Richtung.
 
 
 

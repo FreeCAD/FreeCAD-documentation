@@ -2,6 +2,8 @@
 } <img alt="" src=images/Lattice2_Lattice2.svg  style="width:240px;"> 
 *align=center|Иконка внешнего верстака FreeCAD Lattice2*
 
+
+
 ## Введение
 
 
@@ -24,20 +26,28 @@
 
 Одна из главных целей верстака - быть как можно более параметрическим.
 
+
+
 ## Справки
 
 -   Автор: DeepSOIC
 -   Домашняя страница: <https://github.com/DeepSOIC/Lattice2>
 -   Исходный код на github: <https://github.com/DeepSOIC/Lattice2>
 
+
+
 ## Инструменты
 
 Детальное описание на [Lattice2 Github wiki](https://github.com/DeepSOIC/Lattice2/wiki)
+
+
 
 ### Панель инструментов 
 
 ![](images/Lattice2-menu-orizz.png ) 
 *Панель инструментов Lattice2*
+
+
 
 ### Команды
 
@@ -119,9 +129,13 @@ Other
     -   <img alt="" src=images/Lattice2_RecomputeTouch.svg  style="width:32px;"> [Touch selected feature](Lattice2_RecomputeTouch/ru.md):
 -   <img alt="" src=images/Lattice2_Lattice2.svg  style="width:32px;"> Lattice2 Workbench icon
 
+
+
 ## Установка
 
-**Prerequisites** Lattice2 Workbench requires FreeCAD \>= v0.16.5155.
+**Prerequisites**: Lattice2 Workbench requires FreeCAD \>= v0.16.5155.
+
+
 
 ### Автоматическая установка 
 
@@ -133,6 +147,8 @@ Other
 
 </div>
 
+
+
 ### Ручная установка 
 
 -   Scroll to the top of the page, and click \'download zip\' button
@@ -140,6 +156,8 @@ Other
 -   Note that InitGui.py (and the rest of .py files) should end up directly under Mod\\Lattice2 (not under nested directory like Mod\\Lattice2\\Lattice2).
 
 After you install the workbench, it should appear at the bottom of list of workbench selector in FreeCAD.
+
+
 
 ## Учебники
 
@@ -149,7 +167,7 @@ After you install the workbench, it should appear at the bottom of list of workb
 -   [Making a Cogset](https://github.com/DeepSOIC/Lattice2/wiki/Cogset-Tutorial)
 -   [Feature Patterns in Lattice2 Workbench](https://www.youtube.com/watch?v=BXmeEGnhszo) by \@sliptonic
 
-## Links to Lattice2 WB 
+## Links to Lattice2 workbench 
 
 -   Lattice2 Wiki: <https://github.com/DeepSOIC/Lattice2/wiki>
 -   FreeCAD Wiki: <https://www.freecadweb.org/wiki/Lattice2_Workbench>

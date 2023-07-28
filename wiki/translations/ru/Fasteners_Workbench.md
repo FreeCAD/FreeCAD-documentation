@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Введение
 
 [Внешний](External_workbenches/ru.md) верстак <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Стандартные Изделия (Fasteners)](Fasteners_Workbench/ru.md) позволяет быстро и удобно создавать различные крепёжные изделия а также устанавливать их в посадочные места деталей.
@@ -11,6 +13,8 @@
 *Внешний вид панели инструментов верстака.<br>
 Крепёжные изделия с метрическими размерами имеют оранжевые значки.<br>
 Крепёжные изделия с дюймовыми размерами имеют зеленые значки.*
+
+
 
 ## Установка
 
@@ -36,9 +40,13 @@
             : Крепежные элементы сгруппированы на панелях инструментов.
     3.  Перезапустите FreeCAD.
 
+
+
 ## Применение
 
 Крепёжные элементы могут быть прикреплены к посадочному месту или не прикреплены. У прикрепленныех крепёжных изделий в свойстве **base Object**, указанно ребро круглой формы к которому прикреплено изделие, следовательно свойство **Placement** динамический связано с этим ребом. Команда <img alt="" src=images/Fasteners_Move.svg  style="width:16px;"> [Перемещения крепежа](Fasteners_Move/ru.md) может быть использована для прикрепления или отсоединения крепежа.
+
+
 
 ### Добавление изделий без их крепления к чему либо 
 
@@ -48,6 +56,8 @@
     1.  Select the fastener.
     2.  Go to the **Data** tab of the [Property editor](Property_editor.md).
     3.  Change the required properties.
+
+
 
 ### Добавление изделий с креплением к посадочным местам 
 
@@ -63,10 +73,14 @@
 7.  Fasteners that appear upside-down can be inverted with the <img alt="" src=images/Fasteners_Flip.svg  style="width:16px;"> [Fasteners Flip](Fasteners_Flip.md) command or by changing their **invert** property.
 8.  Optionally change the **offset** property to create space between the fasteners and the edges they are attached to.
 
+
+
 ## Примечания
 
 -   Если вы хотите, чтобы крепеж имел реалистичную резьбу (по умолчанию при добавлении крепежа резьба на нем не строится) его свойство **thread** должно быть установлено как `True`. Создание такой резьбы поглощает много ресурсов. Перерасчет трехмерного Вида (Recompute) занимает гораздо больше времени, если в документе много крепёжных изделий с реалистичной резьбой.
 -   Свойства **invert** и **offset** игнорируются для крепёжных изделий которые не установлены в посадочные места.
+
+
 
 ## Команды
 
@@ -94,9 +108,13 @@
 
 -   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:32px;"> [Изменить параметры крепежа](Fasteners_ChangeParameters/ru.md): Изменить параметры стандартных изделий.
 
+
+
 ## Крепёжные изделия 
 
 Крепёжные изделия с метрическими размерами имеют оранжевые значки. Крепёжные изделия с дюймовыми размерами имеют зеленые значки.
+
+
 
 ### Запрессовочный крепёж и крепёж для Печатных Плат 
 
@@ -112,7 +130,11 @@
 
 -   <img alt="" src=images/Fasteners_IUTHeatInsert.svg  style="width:32px;"> (Heat staked insert) Резьбовая втулка под горячую запрессовку.
 
+
+
 ### Винты и болты с шестигранной головкой 
+
+-   <img alt="" src=images/Fasteners_DIN933.svg  style="width:32px;"> **DIN 933** Hexagon head screw.
 
 -   <img alt="" src=images/Fasteners_ISO4017.svg  style="width:32px;"> 
 **ISO 4017** **(ГОСТ Р ИСО 4017)** Винт с шестигранной головкой. *Классы точности А и В.*
@@ -129,6 +151,8 @@
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width:32px;"> **ASME B18.2.1.6** UNC Винт с шестигранной головкой.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.8.svg  style="width:32px;"> **ASME B18.2.1.8** UNC Винт с шестигранной головкой и фланцем.
+
+
 
 ### Винты шестигранным углублением под ключ 
 
@@ -174,6 +198,8 @@
 
 -   <img alt="" src=images/Fasteners_ASMEB18.3.5D.svg  style="width:32px;"> **ASME B18.3.5D** UNC Винт установочный с шестигранным углублением и концом с лункой.
 
+
+
 ### Винты звездообразным углублением под ключ 
 
 -   <img alt="" src=images/Fasteners_ISO14579.svg  style="width:32px;"> **ISO 14579** **(ГОСТ Р ИСО 14579)** Винт с цилиндрической головкой и звездообразным углублением под ключ.
@@ -185,6 +211,8 @@
 -   <img alt="" src=images/Fasteners_ISO14583.svg  style="width:32px;"> **ISO 14583** **(ГОСТ Р ИСО 14583)** Винт со скругленной головкой и звездообразным углублением под ключ.
 
 -   <img alt="" src=images/Fasteners_ISO14584.svg  style="width:32px;"> **ISO 14584** **(ГОСТ Р ИСО 14584)** Винт с полупотайной головкой и звездообразным углублением под ключ.
+
+
 
 ### Винты с прямым шлицем 
 
@@ -207,6 +235,8 @@
 
 -   <img alt="" src=images/Fasteners_ASMEB18.6.3.1A.svg  style="width:32px;"> **ASME B18.6.3.1A** UNC Винт с потайной головкой и прямым шлицем.
 
+
+
 ### Винты с крестообразным шлицем 
 
 -   <img alt="" src=images/Fasteners_DIN967.svg  style="width:32px;"> **DIN 967** **(Ближайший аналог ГОСТ 11644)** Винт с полукруглой головкой, буртом и крестообразным шлицем.
@@ -226,6 +256,8 @@
 
 -   <img alt="" src=images/Fasteners_GOST1144-4.svg  style="width:32px;"> **GOST 1144-4** Half round head wood screw with type H cross recess.
 
+
+
 ### Болты с другими головками 
 
 
@@ -236,7 +268,13 @@
 
 </div>
 
+-   <img alt="" src=images/Fasteners_DIN478.svg  style="width:32px;"> **DIN 478** Square head bolt with collar.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.1.1.svg  style="width:32px;"> **ASME B18.2.1.1** UNC square head bolt.
+
 -   <img alt="" src=images/Fasteners_ASMEB18.5.2.svg  style="width:32px;"> **ASME B18.5** UNC Round head square neck bolt.
+
+
 
 ### Гайки
 
@@ -253,10 +291,22 @@
 
 -   <img alt="" src=images/Fasteners_DIN917.svg  style="width:32px;"> **DIN 917** **(Ближайший аналог ГОСТ 11860 Исполнение 2)** Гайка колпачковая, низкая.
 
+-   <img alt="" src=images/Fasteners_DIN928.svg  style="width:32px;"> **DIN 928** Square weld nut.
+
+-   <img alt="" src=images/Fasteners_DIN929.svg  style="width:32px;"> **DIN 929** Hexagon weld nut.
+
+-   <img alt="" src=images/Fasteners_DIN935.svg  style="width:32px;"> **DIN 935** Hexagon castle nut.
+
+-   <img alt="" src=images/Fasteners_DIN6334.svg  style="width:32px;"> **DIN 6334** Hexagon coupling nut.
+
+-   <img alt="" src=images/Fasteners_DIN7967.svg  style="width:32px;"> **DIN 7967** Self-locking counter nut.
+
 -   <img alt="" src=images/Fasteners_DIN1587.svg  style="width:32px;"> **DIN 1587** **(Ближайший аналог ГОСТ 11860 Исполнение 1)** Гайка колпачковая.
 
 -   <img alt="" src=images/Fasteners_GOST11860-1.svg  style="width:32px;"> 
 **ГОСТ 11860 (Исполнение 1)** Гайка колпачковая. *Класс точности А.*
+
+-   <img alt="" src=images/Fasteners_DIN315.svg  style="width:32px;"> **DIN 315** Wing nut.
 
 -   <img alt="" src=images/Fasteners_DIN557.svg  style="width:32px;"> **DIN 557** **(Ближайший аналог ОСТ 37.001.112)** Гайка квадратная с фаской.
 
@@ -264,17 +314,43 @@
 
 -   <img alt="" src=images/Fasteners_DIN985.svg  style="width:32px;"> **DIN 985** **(Ближайший аналог ГОСТ 50273)** Гайка самоконтрящаяся со стопорным кольцом.
 
+-   <img alt="" src=images/Fasteners_DIN1624.svg  style="width:32px;"> **DIN 1624** Tee nut.
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.1A.svg  style="width:32px;"> **ASME B18.2.2.1A** UNC Гайка шестигранная общего назначения.
+
+
+</div>
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.1B.svg  style="width:32px;"> **ASME B18.2.2.1B** UNC Square machine screw nut.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.2.svg  style="width:32px;"> **ASME 18.2.2.2** UNC Square nut.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4A.svg  style="width:32px;"> **ASME B18.2.2.4A** UNC Гайка шестигранная.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4B.svg  style="width:32px;"> **ASME B18.2.2.4B** UNC Гайка шестигранная низкая.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.5.svg  style="width:32px;"> **ASME 18.2.2.5** UNC Hexagon castle nut.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.12.svg  style="width:32px;"> **ASME 18.2.2.12** UNC Hexagon nut with flange.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.13.svg  style="width:32px;"> **ASME 18.2.2.13** UNC Hexagon coupling nut.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.6.9A.svg  style="width:32px;"> **ASME 18.6.9A** Wing nut, type A.
+
+-   <img alt="" src=images/Fasteners_SAEJ483a1.svg  style="width:32px;"> **SAE J483a 1** Low cap nut.
+
+-   <img alt="" src=images/Fasteners_SAEJ483a2.svg  style="width:32px;"> **SAE J483a 2** High cap nut.
 
 ### T-slot nuts 
 
 -   <img alt="" src=images/Fasteners_DIN508.svg  style="width:32px;"> **DIN 508** Гайка для Т-образных пазов.
 
 -   <img alt="" src=images/Fasteners_GN507.svg  style="width:32px;"> **GN 507** T-slot nut.
+
+
 
 ### Шайбы
 
@@ -304,6 +380,8 @@
 
 -   <img alt="" src=images/Fasteners_DIN6799.svg  style="width:32px;"> **DIN 6799** E-clip retaining ring.
 
+
+
 ### Другие изделия 
 
 -   <img alt="" src=images/Fasteners_ScrewTap.svg  style="width:32px;"> Метчик произвольного диаметра (с метрической резьбой).
@@ -318,6 +396,8 @@
 
 -   <img alt="" src=images/Fasteners_ThreadedRodInch.svg  style="width:32px;"> **Дюймовая (UNC)** шпилька произвольной длины.
 
+
+
 ## Справочные данные 
 
 -   Автор: [shaise](http://theseger.com/projects/author/shaise/)
@@ -327,6 +407,8 @@
 -   Исходный код: <https://github.com/shaise/FreeCAD_FastenersWB>
 -   Сообщения об ошибках и запросы: <https://github.com/shaise/FreeCAD_FastenersWB/issues>
 -   Тема на форуме: <https://forum.freecadweb.org/viewtopic.php?t=11429>
+
+
 
 ## Ссылки
 

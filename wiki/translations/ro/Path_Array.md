@@ -5,9 +5,19 @@
 
 </div>
 
+
+
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Acest instrument creează o nouă cale duplicând o altă cale de mai multe ori la un anumit interval de distanță.
+
+
+</div>
+
+
 
 ## Utilizare
 
@@ -21,6 +31,8 @@ Acest instrument creează o nouă cale duplicând o altă cale de mai multe ori 
 
 
 </div>
+
+
 
 ## Proprietăți
 

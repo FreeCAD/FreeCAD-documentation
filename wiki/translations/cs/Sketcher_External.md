@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -28,6 +30,8 @@ A note of caution, using this tool to link to generated (solid) geometry can lea
 <FILE:Sketcher_ExternalEsempio1.png>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Použití
@@ -40,7 +44,7 @@ A note of caution, using this tool to link to generated (solid) geometry can lea
 </div>
 
 -   Create a new sketch, or open an existing sketch.
--   Press the **[<img src=images/Sketcher_External.svg style="width:16px"> [External geometry](Sketcher_External.md)** button.
+-   Press the **[<img src=images/Sketcher_External.svg style="width:16px"> [Create external geometry](Sketcher_External.md)** button.
 -   Select an edge or a vertex that you want to link to in the sketch.
 -   Press **Esc**, or select another tool to stop importing geometry into the sketch.
 
@@ -79,6 +83,8 @@ Přetažené konstrukční linky v barvě magenta mohou být využity jak [Konst
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Dvě hlavní oblasti využití Přetažených linek 
@@ -103,6 +109,8 @@ Volba 1 je jednodušší volbou. Chcete-li udělat otvor na určitém místě ob
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Záludné použití, Sneaky Usage, Dimension One Sketch Off Of Another 
@@ -120,6 +128,8 @@ One can use this to dimension one sketch off of another using the following orde
 </div>
 
 You can use any Part geometry that is in coordinate system of the sketch. It is advised to link to the earliest feature possible, as it forms a more stable link.
+
+
 
 ## Příklad
 

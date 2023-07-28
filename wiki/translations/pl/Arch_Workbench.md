@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 Środowisko pracy <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Architektura](Arch_Workbench/pl.md) zapewnia [modelowanie informacji o budynku](http://en.wikipedia.org/wiki/Building_Information_Modeling) *(BIM)* nowoczesny przepływ pracy programu FreeCAD, z obsługą funkcjonalności takich jak w pełni parametryczne struktury architektoniczne obejmujące: ściany, elementy konstrukcyjne, dachy, okna, schody, rury i meble. Obsługuje on dane [branżowe klasy fundamentów](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) plików *([IFC](Arch_IFC.md))* oraz produkcję rzutów poziomych 2D w połączeniu z Środowiskiem pracy <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Rysunek Techniczny](TechDraw_Workbench/pl.md).
@@ -14,6 +16,8 @@ Funkcjonalność BIM FreeCAD jest obecnie stopniowo poszerzana w obrębie środo
 Twórcy Draft, Arch i BIM współpracują również z większą [Społecznością OSArch](https://osarch.org), mając na uwadze ostateczny cel, jakim jest poprawa projektowania budynków przy użyciu całkowicie wolnego oprogramowania.
 
 <img alt="" src=images/Screenshot_arch_window.jpg  style="width:600px;">
+
+
 
 ## Przybory
 
@@ -47,7 +51,7 @@ Są to narzędzia służące do tworzenia obiektów architektonicznych.
 
   - <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Pręt zbrojeniowy](Arch_Rebar/pl.md): Tworzy niestandardowy pręt zbrojeniowy w wybranym elemencie konstrukcyjnym za pomocą szkicu.
 
--   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Ściana kurtynowa](Arch_CurtainWall/pl.md): Tworzy ścianę kurtynową od podstaw lub używając wybranego obiektu jako bazy. {{Version/pl|0.19}}
+-   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Ściana kurtynowa](Arch_CurtainWall/pl.md): Tworzy ścianę kurtynową od podstaw lub używając wybranego obiektu jako bazy.
 
 -   <img alt="" src=images/Arch_BuildingPart.svg  style="width:32px;"> [Część budowli - piętro](Arch_BuildingPart/pl.md): Tworzy część budynku zawierającą wybrane obiekty.
 
@@ -93,11 +97,11 @@ Są to narzędzia służące do tworzenia obiektów architektonicznych.
 
 -   <img alt="" src=images/Arch_Frame.svg  style="width:32px;"> [Ramy](Arch_Frame/pl.md): Tworzy obiekt ramy na podstawie wybranego układu.
 
--   <img alt="" src=images/Arch_Fence.svg  style="width:32px;"> [Ogrodzenie](Arch_Fence/pl.md): Tworzy obiekt ogrodzenia z wybranego słupka i ścieżki. {{Version/pl|0.19}}
+-   <img alt="" src=images/Arch_Fence.svg  style="width:32px;"> [Ogrodzenie](Arch_Fence/pl.md): Tworzy obiekt ogrodzenia z wybranego słupka i ścieżki.
 
--   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Kratownica](Arch_Truss/pl.md): Tworzy kratownicę na podstawie wybranej linii lub od podstaw. {{Version/pl|0.19}}
+-   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Kratownica](Arch_Truss/pl.md): Tworzy kratownicę na podstawie wybranej linii lub od podstaw.
 
--   <img alt="" src=images/Arch_Profile.svg  style="width:32px;"> [Profil](Arch_Profile/pl.md): Tworzy parametryczny profil 2D. {{Version/pl|0.19}}
+-   <img alt="" src=images/Arch_Profile.svg  style="width:32px;"> [Profil](Arch_Profile/pl.md): Tworzy parametryczny profil 2D.
 
 -   <img alt="" src=images/Arch_CompSetMaterial.png  style="width:48px;"> [Komponent ustaw materiał](Arch_CompSetMaterial/pl.md)
 
@@ -113,19 +117,23 @@ Są to narzędzia służące do tworzenia obiektów architektonicznych.
 
   - <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Kształtka](Arch_PipeConnector/pl.md): Tworzy połączenie kolankiem lub połączenie typu trójnik między dwoma lub trzema wybranymi rurami.
 
+
+
 ### Narzędzia do modyfikacji 
 
 Są to narzędzia służące do modyfikowania obiektów architektonicznych.
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Płaszczyzna cięcia](Arch_CutPlane/pl.md): Przycina obiekt według płaszczyzny.
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Linia cięcia](Arch_CutLine/pl.md): Przycina obiekt zgodnie z linią. {{Version/pl|0.19}}
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Linia cięcia](Arch_CutLine/pl.md): Przycina obiekt zgodnie z linią.
 
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Dodaj komponent](Arch_Add/pl.md): Dodaje obiekty do komponentu.
 
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Usuń komponent](Arch_Remove/pl.md): Odejmuje lub usuwa obiekty z komponentu.
 
 -   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Spis wymiarów](Arch_Survey/pl.md): Włącza lub wyłącza tryb pomiaru.
+
+
 
 ### Przydatne narzędzia 
 
@@ -157,9 +165,13 @@ Są to dodatkowe narzędzia, które pomogą Ci w konkretnych zadaniach.
 
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Przełącz widoczność elementów podrzędnych](Arch_ToggleSubs/pl.md): Pokazuje lub ukrywa elementy podrzędne obiektu architektury.
 
+
+
 ### Ustawienia
 
 -   <img alt="" src=images/Preferences-arch.svg  style="width:32px;"> [Preferences](Arch_Preferences.md): preferencje dotyczące domyślnego wyglądu ścian, konstrukcji, zbrojenia, okien, schodów, paneli, rur, siatek i osi.
+
+
 
 ### Formaty plików 
 
@@ -170,9 +182,13 @@ Są to dodatkowe narzędzia, które pomogą Ci w konkretnych zadaniach.
 -   [3DS](Arch_3DS.md) : format 3DS *(tylko import)*.
 -   [SHP](Arch_SHP.md): GIS Shapefiles *(tylko import)*.
 
+
+
 ## API
 
 Moduł Arch może być używany w skryptach [Python](Python.md) i [makrodefiniacjach](Macros/pl.md) za pomocą funkcji [Arch Python API](Arch_API/pl.md).
+
+
 
 ## Poradniki
 

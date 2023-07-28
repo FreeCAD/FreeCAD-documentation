@@ -1,4 +1,10 @@
 # Arch JSON/it
+{{TOCright}}
+
+
+
+## Descrizione
+
 Lo scopo principale di questo formato di esportazione è rendere più semplice l\'elaborazione dei dati del modello di FreeCAD dai linguaggi di programmazione. Il formato [JSON](http://json.org/) è il seguente:
 
       {

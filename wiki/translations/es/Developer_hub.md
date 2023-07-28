@@ -56,6 +56,9 @@ La documentación para desarrolladores comprende las siguientes secciones:
 
 ### Modificando FreeCAD 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Entender [El código fuente de FreeCAD](The_FreeCAD_source_code/es.md)
 -   [Subir parches](Tracker/es#Subir_parches.md)
 -   Añadir [Características](Gui_Command/es.md) a FreeCAD o a un ambiente de trabajo
@@ -67,6 +70,9 @@ La documentación para desarrolladores comprende las siguientes secciones:
 -   [Verano de Código de Google](Google_Summer_of_Code/es.md) participar a través del programa de apoyo a los estudiantes de Google
 -   [Ajuste de precisión](Fine-tuning/es.md) muestra diferentes opciones y cambios de parámetros que pueden superar los problemas
 -   [Envolver una clase C++ en Python](Wrapping_a_Cplusplus_class_in_Python/es.md) muestra cómo crear la envoltura de Python para una clase C++
+
+
+</div>
 
 -   [Traducir un ambiente de trabajo externo](Translating_an_external_workbench/es.md)
 

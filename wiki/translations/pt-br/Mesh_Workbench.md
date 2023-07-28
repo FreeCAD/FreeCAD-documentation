@@ -1,16 +1,9 @@
-# Mesh Workbench/pt-br
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-<img alt="Ícone da bancada de trabalho Mesh" src=images/Workbench_Mesh.svg  style="width:128px;">
+# <img alt="Ícone da bancada de trabalho Mesh" src=images/Workbench_Mesh.svg  style="width:64px;"> Mesh Workbench/pt-br
 
 
 {{TOCright}}
+
+
 
 ## Introdução
 
@@ -22,6 +15,8 @@ Entretanto, no campo da engenharia, as malhas apresentam uma grande limitação:
 
 <img alt="" src=images/Mesh_example.jpg  style="width:500px;">
 
+
+
 ## Ferramentas
 
 Todas as ferramentas da Bancada de Trabalho Mesh podem ser acessadas a partir do menu **Meshes**. Quase todas também estão disponíveis em uma das barras de ferramentas Mesh.
@@ -32,7 +27,13 @@ Todas as ferramentas da Bancada de Trabalho Mesh podem ser acessadas a partir do
 
 -   <img alt="" src=images/Mesh_FromPartShape.svg  style="width:32px;"> [Criar malha a partir da forma\...](Mesh_FromPartShape/pt-br.md): Cria objetos de malha a partir de objetos de forma.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Mesh_RemeshGmsh.svg  style="width:32px;"> [Refinamento\...](Mesh_RemeshGmsh/pt-br.md): Remova um objeto de malha. <small>(v0.19)</small> 
+
+
+</div>
 
 -   Analisar
     -   <img alt="" src=images/Mesh_Evaluation.svg  style="width:32px;"> [Avaliar e Repapar malha](Mesh_Evaluation/pt-br.md): Avalia e repara um objeto de malha.
@@ -63,7 +64,13 @@ Todas as ferramentas da Bancada de Trabalho Mesh podem ser acessadas a partir do
 
 -   <img alt="" src=images/Mesh_Smoothing.svg  style="width:32px;"> [Suavizar\...](Mesh_Smoothing/pt-br.md): Suaviza os objetos de malha.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Mesh_Decimating.svg  style="width:32px;"> [Dizimar\...](Mesh_Decimating/pt-br.md): Reduz o número de faces em objetos de malha. <small>(v0.19)</small> 
+
+
+</div>
 
 -   <img alt="" src=images/Mesh_Scale.svg  style="width:32px;"> [Escala\...](Mesh_Scale/pt-br.md): Objetos de malha de escala.
 
@@ -74,6 +81,9 @@ Todas as ferramentas da Bancada de Trabalho Mesh podem ser acessadas a partir do
     -   <img alt="" src=images/Mesh_Intersection.svg  style="width:32px;"> [Intersecção](Mesh_Intersection/pt-br.md): Cria um objeto de malha que é a interseção de dois objetos de malha.
     -   <img alt="" src=images/Mesh_Difference.svg  style="width:32px;"> [Diferença](Mesh_Difference/pt-br.md): Cria um objeto de malha que é a diferença de dois objetos de malha.
 
+
+<div class="mw-translate-fuzzy">
+
 -   Corte
     -   <img alt="" src=images/Mesh_PolyCut.svg  style="width:32px;"> [Policorte em malhas](Mesh_PolyCut/pt-br.md): Corta faces inteiras de objetos de malha.
     -   <img alt="" src=images/Mesh_PolyTrim.svg  style="width:32px;"> [Corte curto em malhas](Mesh_PolyTrim/pt-br.md): Apara faces e partes de faces em um lado de um plano a partir de um objeto de malha.
@@ -81,28 +91,47 @@ Todas as ferramentas da Bancada de Trabalho Mesh podem ser acessadas a partir do
     -   <img alt="" src=images/Mesh_SectionByPlane.svg  style="width:32px;"> [Criar seção a partir de malha e plano](Mesh_SectionByPlane/pt-br.md): Cria uma seção transversal através de um objeto de malha.
     -   <img alt="" src=images/Mesh_CrossSections.svg  style="width:32px;"> [Cortes transversais\...](Mesh_CrossSections/pt-br.md): Cria múltiplas seções transversais através de objetos de malha. <small>(v0.19)</small> 
 
+
+</div>
+
 -   <img alt="" src=images/Mesh_Merge.svg  style="width:32px;"> [Fundir](Mesh_Merge/pt-br.md): Cria um objeto de malha combinando as malhas de dois ou mais objetos de malha.
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Mesh_SplitComponents.svg  style="width:32px;"> [Dividido por componentes](Mesh_SplitComponents/pt-br.md): Divide um objeto de malha em seus componentes. <small>(v0.19)</small> 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/MeshPart_CreateFlatMesh.svg  style="width:32px;"> [Desembrulhar malha](MeshPart_CreateFlatMesh/pt-br.md): Cria uma representação plana de um objeto de malha. <small>(v0.19)</small> 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/MeshPart_CreateFlatFace.svg  style="width:32px;"> [Face desembrulhada](MeshPart_CreateFlatFace/pt-br.md): Cria uma representação plana de uma face de um objeto de forma. <small>(v0.19)</small> 
+
+
+</div>
+
+
 
 ## Preferências
 
 Existem algumas [preferências de exportação relacionadas aos formatos de malha](Import_Export_Preferences/pt-br#Mesh_Formats.md), mas estas não são utilizadas pelos comandos pertencentes a esta bancada de trabalho. Eles são usados pelo comando [Std Export](Std_Export/pt-br.md).
 
-
-<div class="mw-translate-fuzzy">
-
 As preferências da Bancada de Trabalho Mesh podem ser encontradas nas seguintes categorias do [ Editor de Preferências](Preferences_Editor/pt-br.md):
 
--   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Display](Preferences_Editor/pt-br#Display_settings.md): Na aba [Mesh view](Preferences_Editor/pt-br#Mesh_view.md), várias preferências podem ser definidas.
+-   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Display](Preferences_Editor/pt-br#Display.md): Na aba [Mesh view](Preferences_Editor/pt-br#Mesh_view.md), várias preferências podem ser definidas.
 -   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences/pt-br.md): Os comandos [Mesh União](Mesh_Union/pt-br.md), [Mesh Intersecção](Mesh_Intersection/pt-br.md) e [Mesh Diferença](Mesh_Difference/pt-br.md) requerem [OpenSCAD](http://www.openscad.org/) e usam a preferência **OpenSCAD executável** para encontrar seu executável.
 
 
-</div>
 
 ## Notas
 
@@ -112,13 +141,7 @@ As preferências da Bancada de Trabalho Mesh podem ser encontradas nas seguintes
 -   Veja [Assímptota](Asymptote/pt-br.md) para exportar malhas para o formato assintoto.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Mesh Tools navi

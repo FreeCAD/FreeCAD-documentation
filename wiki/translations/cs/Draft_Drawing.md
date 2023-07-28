@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -21,6 +23,8 @@ This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md
 
 <img alt="" src=images/Draft_drawing_example.jpg  style="width:640px;"> 
 *On the left the selected Draft objects. On the right the created drawing views.*
+
+
 
 
 <div class="mw-translate-fuzzy">

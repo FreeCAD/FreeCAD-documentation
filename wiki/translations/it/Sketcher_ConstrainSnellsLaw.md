@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -27,6 +29,8 @@ Vincola due linee a disporsi secondo la legge della rifrazione di un raggio di l
 
 
 *Snell's Law*
+
+
 
 ## Utilizzo
 
@@ -141,13 +145,7 @@ App.ActiveDocument.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

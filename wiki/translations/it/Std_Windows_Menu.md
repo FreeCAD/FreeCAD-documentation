@@ -27,7 +27,7 @@ Il menu **Finestre** è uno dei sette sottomenu del [menu standard](Standard_Men
 [Aiuto](Std_Help_Menu/it.md)
 }}
 
-Il menu di Finestre consente di cambiare e riordinare le finestre nell\'[area di visualizzazione principale](Main_view_area/it.md).
+Il menu Finestre consente di cambiare e riordinare le finestre nell\'[area di visualizzazione principale](Main_view_area/it.md).
 
 
 
@@ -35,15 +35,15 @@ Il menu di Finestre consente di cambiare e riordinare le finestre nell\'[area di
 
 In questo menu sono disponibili i seguenti strumenti:
 
--   <img alt="" src=images/Std_ActivateNextWindow.svg  style="width:32px;"> [Prossima](Std_ActivateNextWindow/it.md): attiva la finestra successiva.
+-   <img alt="" src=images/Std_ActivateNextWindow.svg  style="width:32px;"> [Prossima](Std_ActivateNextWindow/it.md): Attiva la finestra successiva.
 
--   <img alt="" src=images/Std_ActivatePrevWindow.svg  style="width:32px;"> [Precedente](Std_ActivatePrevWindow/it.md): attiva la finestra precedente.
+-   <img alt="" src=images/Std_ActivatePrevWindow.svg  style="width:32px;"> [Precedente](Std_ActivatePrevWindow/it.md): Attiva la finestra precedente.
 
--   <img alt="" src=images/Std_TileWindows.svg  style="width:32px;"> [Affianca](Std_TileWindows/it.md): affianca le finestre
+-   <img alt="" src=images/Std_TileWindows.svg  style="width:32px;"> [Affianca](Std_TileWindows/it.md): Affianca le finestre
 
--   <img alt="" src=images/Std_CascadeWindows.svg  style="width:32px;"> [A cascata](Std_CascadeWindows/it.md): dispone le finestre a cascata
+-   <img alt="" src=images/Std_CascadeWindows.svg  style="width:32px;"> [A cascata](Std_CascadeWindows/it.md): Dispone le finestre a cascata
 
--   [Finestre\...](Std_Windows/it.md): apre una finestra di dialogo da cui è possibile attivare una finestra.
+-   [Finestre\...](Std_Windows/it.md): Apre una finestra di dialogo da cui è possibile attivare una finestra.
 
 
 

@@ -119,7 +119,13 @@ FreeCAD has several different [navigation modes](Mouse_Model.md) available, that
 
 ## First steps with FreeCAD 
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD\'s focus is to allow you to make high-precision 3D models, to keep tight control over those models (being able to go back into modelling history and change parameters), and eventually to build those models (via 3D printing, CNC machining or even construction worksite). It is therefore very different from some other 3D applications made for other purposes, such as animation film or gaming. Its learning curve can be steep, especially if this is your first contact with 3D modeling. If you are struck at some point, don\'t forget that the friendly community of users on the [FreeCAD forum](http://forum.freecadweb.org/index.php) might be able to get you out in no time.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

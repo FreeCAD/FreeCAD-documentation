@@ -90,9 +90,6 @@ Dla geometrii 2D większość obiektów pochodzi z [`Part::Part2DObject`](Part_P
 
 ## Działania
 
-
-{{Version/pl|0.19}}
-
 Kliknięcie prawym przyciskiem myszy w pustym miejscu widoku lub z wybraną właściwością powoduje wyświetlenie tylko jednego polecenia:
 
 -    **Show all**: jeśli jest aktywny, oprócz standardowych właściwości, które już się pojawiają, pokazuje wszystkie ukryte właściwości danych i widoku w odpowiednich zakładkach.
@@ -137,7 +134,7 @@ Większość z tych właściwości jest dziedziczona z obiektu podstawowego [Par
 <img alt="" src=images/FreeCAD_Property_editor_View.png  style="width:490px;">
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Angular Deflection**: jest to sposób na określenie, jak dokładnie wygenerować siatkę do renderowania na ekranie lub przy eksporcie. Domyślną wartość stanowi 28,5 stopnia lub 0,5 radiana. Im mniejsza wartość, tym gładszy będzie wygląd w [widok 3D](3D_view.md), oraz tym gęstsza siatka będzie eksportowana.
 
@@ -190,7 +187,7 @@ W tym przypadku obserwujemy właściwości [PartDesign Wyciągnij przez obrót](
 <img alt="" src=images/FreeCAD_Property_editor_Data.png  style="width:490px;">
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    {{propertyData|Label}}: Zdefiniowana przez użytkownika nazwa nadana obiektowi, którą można dowolnie zmieniać.
 

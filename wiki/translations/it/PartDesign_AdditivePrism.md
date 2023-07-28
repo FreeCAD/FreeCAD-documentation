@@ -5,11 +5,15 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Inserisce un prisma primitivo nel corpo attivo come prima caratteristica o lo fonde con le caratteristiche esistenti.
 
 <img alt="" src=images/PartDesign_AdditivePrism_example.png  style="width:200px;">
+
+
 
 ## Utilizzo
 
@@ -24,9 +28,11 @@ Inserisce un prisma primitivo nel corpo attivo come prima caratteristica o lo fo
 
 </div>
 
+
+
 ## Opzioni
 
-It is possible to create skewed prisms by specifying angles in respect to the normal vector of the chosen attachment. <small>(v0.19)</small> 
+It is possible to create skewed prisms by specifying angles in respect to the normal vector of the chosen attachment.
 
 
 <div class="mw-translate-fuzzy">
@@ -38,6 +44,8 @@ Dopo la sua creazione il Prisma può essere modificato in due modi:
 
 
 </div>
+
+
 
 ## Proprietà
 

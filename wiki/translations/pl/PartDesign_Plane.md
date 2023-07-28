@@ -1,44 +1,57 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign Plane
-   MenuLocation:Part Design → Create a datum → Create a datum plane
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Utwórz płaszczyznę odniesienia
+   MenuLocation:Projekt Części → Utwórz układ odniesienia → Utwórz płaszczyznę odniesienia
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[PartDesign Point](PartDesign_Point.md), [PartDesign Line](PartDesign_Line.md)
+   SeeAlso:[Utwórz punkt odniesienia](PartDesign_Point/pl.md), [Utwórz linię odniesienia](PartDesign_Line/pl.md)
 ---
 
 # PartDesign Plane/pl
 
-## Description
 
-Creates a **datum plane** which can be used as reference for sketches or other datum geometry. Sketches can be attached to datum planes. ![](images/Datum_plane.png ) *Datum Plane crossing 3 corners of the Cube with a Cylinder sketched on it using the Datum Plane as its X-Y Plane.*
 
-## Prerequisites
+## Opis
 
-A datum plane, as of FreeCAD 0.18, can only be created inside of a <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Body](PartDesign_Body.md). Every body has an origin, which is hidden by default. To be able to refer to the origin base planes, make the the origin visible. You can do this before creating a datum plane.
+Tworzy **płaszczyznę odniesienia**, która może być używana jako odniesienie dla szkiców lub innej geometrii odniesienia. Szkice mogą być dołączane do płaszczyzn odniesienia. ![](images/Datum_plane.png ) *Płaszczyzna odniesienia przecinająca 3 rogi sześcianu z naszkicowanym na niej walcem wykorzystującym płaszczyznę odniesienia jako płaszczyznę X-Y*.
 
-## Usage
 
-1.  Press the **<img src="images/PartDesign_Plane.svg" width=16px> [Create a datum plane](PartDesign_Plane.md)** button.
-2.  Define Plane parameters. Select a first reference in the 3D view to filter the available [attachment](Part_EditAttachment.md) modes.
-3.  Depending on the selected reference, there may be one or more attachment modes available in the the list. The most likely one will automatically be selected and shown in bold in the list. The text *Attached with mode* along with the attachment mode name will appear in green at the top of the Parameters panel.
-4.  To add an additional reference, press the next **Reference** button. Once pressed its label changes to *Selecting\...* until a selection is made.
-5.  Select an attachment mode in the list.
-6.  **Offsets:** Define Attachment Offset values. **Note** that the x, y and z offset represent the local coordinate system of the datum plane, not the world coordinate system. Therefore the z-offset is always the offset along the datum plane normal vector.
-7.  **Rotation:** Changing \"Around x-axis\" makes the plane rotate around its local X-axis. Changing \"Around y-axis\" makes the plane rotate around its local Y-axis. Changing \"Around z-axis\" makes the plane rotate around its local Z-axis.
-8.  Press **OK**.
 
-## Options
+## Wymagania wstępne 
 
-Double-click the DatumPlane label in the Model tree or right-click and select **Edit datum** in the contextual menu to edit its parameters. For more details about Attachment mode and Attachment offset, see [Part EditAttachment](Part_EditAttachment.md).
+Płaszczyzna odniesienia, od wersji FreeCAD 0.18, może być tworzona tylko wewnątrz <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Zawartości](PartDesign_Body/pl.md). Każda bryła ma punkt początkowy *(punkt doniesienia położenia)*, który jest domyślnie ukryty. Aby móc odwoływać się do płaszczyzn bazowych położenia początkowego, ustaw punkt doniesienia położenia jako widoczny. Można to zrobić przed utworzeniem płaszczyzny odniesienia.
 
-## Properties
 
--    **MapMode**: lists the attachment mode used.
 
--    **Attachment Offset**: applies a transformation (translation and rotation) in reference to the attachment placement.
+## Użycie
 
--    **Label**: name given to the object, this name can be changed at convenience.
+1.  Naciśnij przycisk **<img src="images/PartDesign_Plane.svg" width=16px> [Utwórz płaszczyznę odniesienia](PartDesign_Plane.md)**.
+2.  Zdefiniuj parametry płaszczyzny. Wybierz pierwsze odniesienie w widoku 3D, aby filtrować dostępne tryby [dołączania](Part_EditAttachment.md).
+3.  W zależności od wybranego odniesienia, na liście może być dostępny jeden lub więcej trybów dołączania. Najbardziej prawdopodobny z nich zostanie automatycznie wybrany i wyróżniony pogrubioną czcionką na liście. Tekst \"Dołączono w trybie\" wraz z nazwą trybu dołączania pojawi się w kolorze zielonym w górnej części panelu Parametry punktu odniesienia.
+4.  Aby umieścić dodatkowe odniesienie, naciśnij następny przycisk **Odniesienie**. Po naciśnięciu jego etykieta zmienia się na *Wybieranie \...* do momentu dokonania wyboru.
+5.  Wybierz tryb dołączania z listy.
+
+**Przesunięcia:** Zdefiniuj wartości Odsunięcie dołączenia. **Uwaga**, przesunięcia x, y i z reprezentują lokalny układ współrzędnych płaszczyzny odniesienia, a nie globalny układ współrzędnych. Dlatego przesunięcie z jest zawsze przesunięciem wzdłuż wektora normalnego płaszczyzny odniesienia.
+
+1.  **Obrót:** Zmiana opcji \"Wokół osi x\" powoduje obrót płaszczyzny wokół lokalnej osi X. Zmiana opcji \"Wokół osi y\" powoduje obrót płaszczyzny wokół lokalnej osi Y. Zmiana opcji \"Wokół osi z\" powoduje obrót płaszczyzny wokół lokalnej osi Z.
+2.  Naciśnij **OK**.
+
+
+
+## Opcje
+
+Kliknij dwukrotnie etykietę PłaszczyznaOdniesienia w drzewie modelu lub kliknij prawym przyciskiem myszy i wybierz **Edytuj odniesienie** z menu kontekstowego, aby edytować jego parametry. Aby uzyskać więcej informacji na temat trybu dołączania i przesunięcia dołączania, zobacz stronę [Edytuj dołączenie](Part_EditAttachment/pl.md).
+
+
+
+## Właściwości
+
+-    **Tryb mapowania**: wymienia używany tryb dołączania.
+
+-    **Odsunięcie dołaczenia**: stosuje transformację (przesunięcie i obrót) w odniesieniu do umieszczenia dołaczenia.
+
+-    **Etykieta**: nazwa nadana obiektowi, nazwa ta może być dowolnie zmieniana.
 
 
 

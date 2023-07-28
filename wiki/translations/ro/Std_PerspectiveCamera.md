@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Descriere
@@ -22,6 +24,8 @@ The **Std PerspectiveCamera** command switches the camera in the active [3D view
 *Two cubes with the same dimensions in perspective view*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Utilizare
@@ -33,11 +37,8 @@ Alegeți ** View** → **<img src="images/View-perspective.svg" width=32px> Pers
 
 1.  There are several ways to invoke the command:
     -   Select the **View → <img src="images/Std_PerspectiveCamera.svg" width=16px> Perspective view** option from the menu.
+    -   Select the **<img src="images/Std_PerspectiveCamera.svg" width=16px> Perspective view** option from the Mini-cube menu of the [Navigation Cube](Navigation_Cube.md).
     -   Use the keyboard shortcut: **V** then **P**.
-
-## Notes
-
--   It is also possible to switch to perspective view mode via the Mini-cube menu of the [Navigation Cube](Navigation_Cube.md).
 
 ## Preferences
 

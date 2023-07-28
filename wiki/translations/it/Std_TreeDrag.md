@@ -5,35 +5,31 @@
    MenuLocation:Visualizza → Azioni della vista ad albero → Avvia il trascinamento
    Workbenches:Tutti
    Shortcut:**T** **D**
+   Version:0.19
 ---
 
 # Std TreeDrag/it
 
 
-</div>
 
 ## Descrizione
 
 Il comando **Avvia il trascinamento** avvia un\'operazione di trascinamento per gli oggetti selezionati nella [vista ad albero](Tree_view/it.md). Questo comando è utile quando gli oggetti che si desidera trascinare e rilasciare e il contenitore di destinazione non sono visibili contemporaneamente nella vista ad albero.
 
+
+
 ## Utilizzo
 
-1.  Select one or more objects.
-2.  If required scroll the Tree view to reveal the target container.
-3.  There are several ways to invoke the command:
-    -   Click on the black down arrow to the right of the **<img src="images/Std_TreeSyncView.svg" width=16px>** button and select the **<img src="images/Std_TreeDrag.svg" width=16px> Initiate dragging** option from the flyout. Note: the button image will change depending on the selected option. This option does not work on the Windows OS.
-    -   Select the **View → TreeView actions → <img src="images/Std_TreeDrag.svg" width=16px> Initiate dragging** option from the menu. This option does not work on the Windows OS.
-    -   Use the keyboard shortcut: **T** then **D**. On the Windows OS it is important that the mouse is already over the target container when this shortcut is entered, and stays there for the next step.
-4.  Left-click the target container.
-
-
-<div class="mw-translate-fuzzy">
+1.  Selezionare uno o più oggetti.
+2.  Se necessario scorrere la vista ad albero per rivelare il contenitore di destinazione.
+3.  Esistono diversi modi per invocare il comando:
+    -   Fare clic sulla freccia nera in basso a destra del pulsante **<img src="images/Std_TreeSyncView.svg" width=16px>** e seleziona **<img src="images/Std_TreeDrag.svg" width=16px> Avvia il trascinando** dal riquadro a comparsa. Nota: l\'immagine del pulsante cambierà a seconda dell\'opzione selezionata. Questa opzione non funziona sul sistema operativo Windows.
+    -   Selezionare l\'opzione **Visualizza → Azioni della vista ad albero → <img src="images/Std_TreeDrag.svg" width=16px> Avvia il trascinamento** dal menu. Questa opzione non funziona sul sistema operativo Windows.
+    -   Usare la scorciatoia da tastiera: **T** poi **D**. Nel sistema operativo Windows è importante che il mouse sia già sopra il contenitore di destinazione quando viene immesso questo collegamento e rimanga lì per il passaggio successivo.
+4.  Fare clic con il pulsante sinistro del mouse sul contenitore di destinazione.
 
 
 
-
-
-</div>
 
 
 {{Std Base navi

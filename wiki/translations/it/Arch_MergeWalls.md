@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -23,14 +25,25 @@ Lo strumento [Unisci pareti](Arch_MergeWalls/it.md) fonde due o più **<img src=
 
 </div>
 
+
+
 ## Utilizzo
 
 1.  Selezionare due o più muri.
 2.  Premere il pulsante **<img src="images/Arch_MergeWalls.svg" width=16px>**, o utilizzare **Arch** → **Utilità** → **<img src="images/Arch_MergeWalls.svg" width=16px> [Unisci pareti](Arch_MergeWalls/it.md)** dal menu principale.
 
+
+
 ## Proprietà
 
+
+
 ## Limitazioni
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ## Script
 
@@ -39,7 +52,23 @@ Lo strumento [Unisci pareti](Arch_MergeWalls/it.md) fonde due o più **<img src=
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+
+</div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
+</div>
+
+
 ```python
 base = joinWalls(walls, delete=False)
 ```

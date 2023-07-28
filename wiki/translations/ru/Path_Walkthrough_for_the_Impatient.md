@@ -181,9 +181,11 @@ The final step to generate G-Code for the target mill is to postprocess the Job.
     
 
 
- {{Path Tools navi}}
+{{Path Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/ru

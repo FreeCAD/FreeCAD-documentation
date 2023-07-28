@@ -12,13 +12,16 @@
 
 ## Description
 
-L\'outil Infobulle peut ajouter des infobulles avec une ligne de référence dans un dessin.
+L\'outil **TechDraw Infobulle** peut ajouter des infobulles avec une ligne de référence dans un dessin.
 
 <img alt="" src=images/Techdraw_balloon.png  style="width:600px;">
 
 
 
 ## Utilisation
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Sélectionnez l\'un des éléments suivants :
     -   Une vue (sur la page ou dans la [Vue en arborescence](Tree_view/fr.md)).
@@ -31,6 +34,9 @@ L\'outil Infobulle peut ajouter des infobulles avec une ligne de référence dan
 3.  Si une vue ou une région a été sélectionnée :
     1.  Le curseur se transforme en une icône infobulle.
     2.  Cliquez sur un point de la page pour l\'origine de l\'infobulle.
+
+
+</div>
 
 Pour déplacer la bulle de l\'infobulle, appuyez et maintenez le bouton gauche de la souris sur son centre et faites glisser la souris.
 
@@ -54,6 +60,9 @@ Lorsque vous utilisez une forme de rectangle, vous pouvez ajouter des séparateu
 
 ### Données
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Text**: texte à afficher.
 
 -    **Source View**: vue source de l\'infobulle.
@@ -75,6 +84,9 @@ Lorsque vous utilisez une forme de rectangle, vous pouvez ajouter des séparateu
 -    **Kink Length**: distance entre la **forme** et le pli de la ligne de repère.
 
 -    **X**: position horizontale de l\'infobulle par rapport à la vue.
+
+
+</div>
 
 
 

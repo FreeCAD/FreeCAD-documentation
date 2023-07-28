@@ -4,7 +4,7 @@
    Name/fr:FEM Contrainte de magnétisation
    MenuLocation:Modèle → Contraintes électromagnétiques → Contrainte de magnétisation
    Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:1.0
+   Version:0.21
    SeeAlso:[FEM Équation magnétodynamique](FEM_EquationMagnetodynamic/fr.md), [FEM Équation magnétodynamique 2D](FEM_EquationMagnetodynamic2D/fr.md)
 ---
 

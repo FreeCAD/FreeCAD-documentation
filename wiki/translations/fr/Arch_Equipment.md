@@ -24,6 +24,8 @@ A partir de la version 0.17, les objets d\'équipement ont aussi une propriété
 
 Lors de l\'utilisation de l\'exportateur Arch OBJ, tous les équipements en mode d\'affichage Mesh seront exportés en tant que maillage au lieu d\'objet forme.
 
+
+
 ## Utilisation
 
 1.  Sélectionnez une forme [Part](Part_Workbench/fr.md), et optionnellement un objet [Mesh](Mesh_Workbench/fr.md).
@@ -33,6 +35,8 @@ Lors de l\'utilisation de l\'exportateur Arch OBJ, tous les équipements en mode
 
 -   Les équipements partagent les propriétés communes et les comportements de tous les [Arch Composants](Arch_Component/fr.md)
 
+
+
 ## Propriétés
 
 -    **Model**: Une description du modèle de cet équipement.
@@ -41,10 +45,12 @@ Lors de l\'utilisation de l\'exportateur Arch OBJ, tous les équipements en mode
 
 -    **Mesh**: Représentation de cet équipement en objet [Mesh](Mesh_Workbench.md). Lorsqu\'il est défini, le mode d\'affichage **Maillage** devient disponible.
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 

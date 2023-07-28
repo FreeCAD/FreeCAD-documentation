@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Lo strumento [Armatura sagomata](Arch_Rebar_BentShape/it.md) consente all\'utente di creare una serie di barre d\'armatura piegate all\'interno di un oggetto [Struttura](Arch_Structure/it.md).
@@ -30,7 +32,12 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 <img alt="" src=images/Arch_Rebar_BentShape_example.png  style="width:400px;"> 
 *Due serie di barre di rinforzo piegate all'interno di una [Struttura](Arch_Structure/it.md)*
 
+
+
 ## Utilizzo
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Selezionare una qualsiasi faccia dell\'oggetto **<img src="images/Arch_Structure.svg" width=16px> [Struttura](Arch_Structure/it.md)** creato in precedenza.
 
@@ -52,11 +59,17 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 9.  Cliccare **Cancel** per uscire dal pannello delle azioni.
 
+
+</div>
+
+
 :   <img alt="" src=images/BentShapeDialog.png  style="width:250px;">
 
 
 
 *Pannello Azioni per lo strumento Armatura sagomata di Arch*
+
+
 
 ## Proprietà
 
@@ -80,6 +93,11 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 -    {{PropertyData/it|Spacing}}: La distanza tra gli assi di ogni barra.
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Scripting
 
 
@@ -87,7 +105,23 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 [API Arch](Arch_API/it.md), [API Reinforcement](Reinforcement_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Armatura sagomata può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+
+</div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento Armatura sagomata può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
+</div>
+
+
 ```python
 Rebar = makeBentShapeRebar(f_cover, b_cover, l_cover, r_cover,
                            diameter, t_cover, bentLength, bentAngle, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom",
@@ -111,6 +145,8 @@ Rebar = makeBentShapeRebar(f_cover, b_cover, l_cover, r_cover,
 
 -    `orientation`specifica l\'orientamento della barra d\'armatura; può essere `"Bottom"`, `"Top"`, `"Left"`, o `"Right"`.
 
+
+
 ### Esempio
 
 
@@ -129,6 +165,8 @@ Rebar2 = BentShapeRebar.makeBentShapeRebar(50, 40, 20, 20,
                                            8, 20, 100, 135, 2, True, 4, "Bottom", Structure, "Face6")
 Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9) 
 ```
+
+
 
 ### Modifica delle barre 
 

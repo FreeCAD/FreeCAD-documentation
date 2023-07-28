@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Slot
    Name/fr:Path Rainure
-   MenuLocation:Path → Rainure
+   MenuLocation:Path → Rainurer
    Workbenches:[Path](Path_Workbench/fr.md)
    Version:0.19
 ---
@@ -11,7 +11,9 @@
 
 ## Description
 
-Cet outil crée une opération de rainurage simple en utilisant différentes méthodes de saisie. Les entrées comprennent:
+L\'outil <img alt="" src=images/Path_Slot.svg  style="width:24px;"> [Rainure](Path_Slot/fr.md) crée une opération de rainurage simple en utilisant différentes méthodes de saisie.
+
+Les entrées comprennent :
 
 -   sélection d\'une ou plusieurs faces ou arêtes.
 -   sélection de deux sommets.
@@ -19,37 +21,46 @@ Cet outil crée une opération de rainurage simple en utilisant différentes mé
 
 L\'objet Path Rainure est conçu pour faire partie d\'une <img alt="" src=images/Path_Job.svg  style="width:24px;"> [Path Tâche](Path_Job/fr.md).
 
+
+
 ## Utilisation
 
-1.  Sélectionner la géométrie de référence sur le modèle :.
+1.  Sélectionner la géométrie de référence sur le modèle :
     -   une ou plusieurs faces ou arêtes.
     -   deux sommets.
-    -   *\'* rien pour utiliser deux points personnalisés saisis dans la vue Propriété de l\'onglet Données : Custom Point1 et Custom Point2.
+    -   ***rien*** pour utiliser deux points personnalisés saisis dans la vue Propriété de l\'onglet Données : Custom Point1 et Custom Point2.
 2.  Lancez la commande Rainure en utilisant plusieurs méthodes :
-    -   En appuyant sur la touche **<img src="images/Path_Slot.svg" width=24px> [Rainure](Path_Slot/fr.md)** dans la barre d\'outils.
+    -   En appuyant sur la touche **<img src="images/Path_Slot.svg" width=24px> [Rainurer](Path_Slot/fr.md)** dans la barre d\'outils.
 
-#\* En utilisant **Path** → **<img src="images/Path_Slot.svg" width=24px> [Rainure](Path_Slot/fr.md)** dans le menu supérieur.
+#\* En utilisant **Path** → **<img src="images/Path_Slot.svg" width=24px> [Rainurer](Path_Slot/fr.md)** du menu.
 
 1.  Ajustez les propriétés souhaitées. Les descriptions des propriétés disponibles se trouvent ci-dessous.
 
+
+
 ### Remarques d\'utilisation 
 
--   Tous les emplacements:
-    -   Le début et la fin d\'un chemin d\'emplacement peuvent être étendus ou raccourcis. Utilisez les propriétés \Extend Path Start\ et \Extend Path End\.
-    -   Utilisez la propriété \Layer Mode\ pour couper la fente en mode \Single-pass\ à la profondeur finale, ou en mode \Multi-pass\ en utilisant la propriété \Step Down\ disponible.
-    -   Activez la propriété \Reverse Direction\ pour inverser la direction du chemin de coupe.
+-   Toutes les rainures :
+    -   Le début et la fin d\'un parcours de rainure peuvent être étendus ou raccourcis. Utilisez les propriétés \Extend Path Start\ et \Extend Path End\.
+    -   Utilisez la propriété \Layer Mode\ pour couper la rainure en mode \Single-pass\ à la profondeur finale, ou en mode \Multi-pass\ en utilisant la propriété \Step Down\ disponible.
+    -   Activez la propriété \Reverse Direction\ pour inverser la direction du parcours de la coupe.
 
--   Fentes linéaires:
-    -   Actuellement, il n\'est pas possible de décaler les fentes linéaires latéralement (parallèlement à la trajectoire de déplacement). ***Exemple:*** Supposons que vous ayez un diamètre d\'outil inférieur à la largeur de la zone de rainure que vous effacez. Le comportement actuel de cette opération est de créer un chemin de fente unique au centre de la fente désignée, ce qui aura pour résultat que la zone de fente ne sera pas complètement effacée. Certains utilisateurs souhaiteraient que l\'opération crée plusieurs chemins décalés latéralement pour effacer toute la zone de logement; cette opération n\'est pas prévue, alors - utilisez l\'opération Pocket pour un tel effacement.
-    -   Créez une fente linéaire personnalisée en utilisant les propriétés \Custom Point1\ et \Custom Point2\ sans sélection de géométrie. ***Exemple:*** Lancez une opération de slot dans l\'interface graphique et cliquez sur \OK\ pour enregistrer. Recherchez et modifiez maintenant les propriétés \Custom Point1\ et \Custom Point2\ dans l\'onglet Data de l\'opération Slot nouvellement créée. Recalculez l\'opération pour mettre à jour le chemin.
+-   Rainures linéaires :
+    -   Actuellement, il n\'est pas possible de décaler latéralement (parallèlement à la trajectoire) les rainures linéaires. ***Exemple :*** supposons que le diamètre de l\'outil soit inférieur à la largeur de la zone de rainure à dégager. Le comportement actuel de cette opération est de créer un ensemble de parcours sur un plan le long de la ligne centrale de la rainure désignée, ce qui aura pour conséquence que le volume de la rainure ne sera pas entièrement détouré. Certains utilisateurs souhaiteraient que l\'opération crée plusieurs parcours décalés latéralement pour dégager l\'ensemble de la zone de la rainure. Cela n\'est pas directement possible mais peut être réalisé en utilisant les \"Points personnalisés\", voir \"Fraisage vertical\" ci-dessous. Il est également possible d\'utiliser l\'opération Poche pour un tel détourage.
+    -   Créer une rainure linéaire personnalisée en utilisant les propriétés \"Custom Point1\" et \"Custom Point2\" sans sélection de géométrie. ***Exemple :*** lancez une opération de rainurage depuis l\'interface graphique et cliquez sur \OK\ pour sauvegarder. Localisez et éditez les propriétés \Custom Point1\ et \Custom Point2\ dans l\'onglet Données de l\'opération de rainurage nouvellement créée. Recalculez l\'opération pour mettre à jour le parcours.
 
--   Arc/fentes circulaires:
-    -   Création de rainures en arc/circulaire
-        1.  Vous devrez sélectionner un arc inférieur de la fente. Cela produira un chemin directement sur l\'arête de l\'arc que vous avez sélectionnée.
-        2.  Vous devrez ensuite éditer la propriété \Extend Radius\ dans l\'onglet Data de l\'opération. À l\'aide de l\'éditeur d\'expression, définissez-le sur \OpToolDiameter / 2.0\ ou sur la version négative \OpToolDiameter / -2.0\ selon vos besoins, selon que vous avez sélectionné l\'arc intérieur ou extérieur de l\'emplacement.
-        3.  Recalculez l\'opération.
-        4.  Gardez à l\'esprit que si le diamètre de la fraise n\'est pas égal à la largeur de la fente, le chemin ***ne sera pas*** au bon endroit. Dans ce cas, ajustez la valeur de la propriété \Extend Radius\ mentionnée ci-dessus.
-    -   Actuellement, les utilisateurs ne peuvent pas créer un arc/chemin circulaire personnalisé. Une troisième propriété \Custom Center\ devra être ajoutée, ainsi que des modifications supplémentaires à la base de code.
+-   Fraisage vertical :
+    -   La plupart des outils de Path ne peuvent pas réaliser un parcours sur un seul plan vertical car la projection sur le plan horizontal a une surface nulle (une limitation interne). L\'opération de rainurage rend cela possible en sélectionnant des \"points personnalisés\" qui définissent une ligne parallèle au plan vertical et des paramètres de profondeur appropriés.
+
+-   Rainures en arc/circulaire :
+    -   Créations de rainures en arc/circulaire
+        1.  Vous devez sélectionner un arc inférieur de la rainure. Cela produira un parcours directement sur le bord de l\'arc que vous avez sélectionné.
+        2.  Vous devrez ensuite modifier la propriété \Extend Radius\ dans l\'onglet \"Données\" de l\'opération. En utilisant l\'éditeur d\'expression, définissez-la à \OpToolDiameter / 2.0\ ou à la version négative \OpToolDiameter / -2.0\, selon que vous avez sélectionné l\'arc intérieur ou extérieur de la rainure.
+        3.  Recalculer l\'opération.
+        4.  Gardez à l\'esprit que si le diamètre de l\'outil n\'est pas égal à la largeur de la rainure, le parcours ***ne sera pas*** à l\'emplacement correct. Dans ce cas, ajustez la valeur de la propriété \Extend Radius\ mentionnée ci-dessus.
+    -   Actuellement, les utilisateurs ne sont pas en mesure de créer une trajectoire en arc/circulaire personnalisée. Une troisième propriété \Custom Center\ devra être ajoutée, ainsi que des modifications supplémentaires au code de base.
+
+
 
 ## Propriétés
 
@@ -58,7 +69,7 @@ L\'objet Path Rainure est conçu pour faire partie d\'une <img alt="" src=images
 
 {{TitleProperty|Base}}
 
-Remarque: il est conseillé de ne pas modifier la propriété Placement des opérations de chemin. Déplacez ou faites pivoter le modèle de tâche de chemin selon vos besoins.
+Remarque : il est conseillé de ne pas modifier la propriété Placement des opérations de parcours. Il convient plutôt de déplacer ou de faire pivoter le modèle Path Tâche selon les besoins.
 
 -    **Placement**: placement global \[position et rotation\] de l\'objet - par rapport à l\'origine (ou à l\'origine du conteneur d\'objet parent)
 
@@ -70,59 +81,59 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
     -   
         **Axis**
         
-        : axe(s) autour duquel faire pivoter l\'objet, défini dans les sous-propriétés: x, y, z
+        : axe(s) autour duquel faire pivoter l\'objet, défini dans les sous-propriétés: X, Y, Z
 
         -   
             **X**
             
-            : valeur de l\'axe x
+            : valeur de l\'axe X
 
         -   
             **Y**
             
-            : valeur de l\'axe y
+            : valeur de l\'axe Y
 
         -   
             **Z**
             
-            : valeur de l\'axe z
+            : valeur de l\'axe Z
 
     -   
         **Position**
         
-        : position de l\'objet, définie dans les sous-propriétés: x, y, z - par rapport à l\'origine (ou à l\'origine du conteneur d\'objet parent)
+        : position de l\'objet, définie dans les sous-propriétés: X, Y, Z - par rapport à l\'origine (ou à l\'origine du conteneur d\'objet parent)
 
         -   
             **X**
             
-            : valeur de distance x
+            : valeur de distance en X
 
         -   
             **Y**
             
-            : valeur de distance y
+            : valeur de distance en Y
 
         -   
             **Z**
             
-            : valeur de distance z
+            : valeur de distance en Z
 
 -    **Label**: nom d\'objet fourni par l\'utilisateur (UTF-8)
 
 
 {{TitleProperty|Depth}}
 
--    **Clearance Height**: hauteur nécessaire pour supprimer les pinces et les obstructions.
+-    **Clearance Height**: hauteur nécessaire pour supprimer les brides et les obstructions.
 
 -    **Final Depth**: profondeur finale de l\'outil - valeur la plus basse de Z.
 
--    **Finish Depth**: le maximum de matériau retiré lors du passage final. La hauteur (épaisseur) du dernier niveau de coupe - \"pour une meilleure finition\".
+-    **Finish Depth**: le maximum de matériau retiré lors du passage final. La hauteur (épaisseur) du dernier niveau de coupe - *pour une meilleure finition*.
 
--    **Safe Height**: hauteur au-dessus de laquelle les mouvements rapides sont autorisés. (Hauteur de sécurité rapide entre les sites).
+-    **Safe Height**: hauteur au-dessus de laquelle les mouvements rapides sont autorisés. (hauteur de sécurité rapide entre les sites).
 
 -    **Start Depth**: profondeur de départ de l\'outil - *Profondeur de la première coupe en Z*.
 
--    **Step Down**: abaissement incrémental de l\'outil pendant l\'opération.
+-    **Step Down**: pas de descente incrémentale de l\'outil pendant l\'opération.
 
 <img alt="" src=images/Path-DepthsAndHeights.gif  style="width:300px;"> 
 *Référence visuelle pour les propriétés de profondeur (paramètres)*
@@ -147,59 +158,67 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 {{TitleProperty|Slot}}
 
--    **Custom Point1**: entrez un point de départ personnalisé pour le chemin de la rainure.
+-    **Custom Point1**: point de départ personnalisé du parcours de la rainure.
 
--    **Custom Point2**: entrez un point de fin personnalisé pour le chemin de de la rainure.
+-    **Custom Point2**: point de fin personnalisé du parcours de la rainure.
 
--    **Cut Pattern**: définissez le motif de nettoyage géométrique à utiliser pour l\'opération.
+-    **Cut Pattern**: motif de détourage géométrique à utiliser pour l\'opération.
 
--    **Extend Path End**: positif étend la fin du chemin, négatif raccourcit.
+-    **Extend Path End**: positif étend la fin du parcours, négatif raccourcit.
 
--    **Extend Path Start**: positif étend le début du chemin, négatif raccourcit.
+-    **Extend Path Start**: positif étend le début du parcours, négatif raccourcit.
 
 -    **Extend Radius**: pour les arcs/arêtes circulaires, décalez le rayon de la trajectoire.
 
--    **Layer Mode**: terminez l\'opération en une seule passe en profondeur ou en plusieurs passes jusqu\'à la profondeur finale.
+-    **Layer Mode**: opération en une seule passe en profondeur ou en plusieurs passes jusqu\'à la profondeur finale.
 
--    **Path Orientation**: choisissez l\'orientation du chemin en fonction de la ou des entités sélectionnées.
+-    **Path Orientation**: orientation du parcours en fonction de la ou des entités sélectionnées.
 
--    **Reference1**: choisissez le point à utiliser sur la première entité sélectionnée.
+-    **Reference1**: point à utiliser sur la première entité sélectionnée.
 
--    **Reference2**: choisissez le point à utiliser sur la deuxième entité sélectionnée.
+-    **Reference2**: point à utiliser sur la deuxième entité sélectionnée.
 
--    **Reverse Direction**: activez cette option pour inverser la direction de coupe du chemin de la rainure.
+-    **Reverse Direction**: option pour inverser la direction de coupe du parcours de la rainure.
 
 
 {{TitleProperty|Start Point}}
 
--    **Start Point**: point de départ personnalisé pour le chemin de cette opération.
+-    **Start Point**: point de départ personnalisé pour le parcours de cette opération.
 
     -   
         **X**
         
-        : valeur de distance x.
+        : valeur de distance en X.
 
     -   
         **Y**
         
-        : valeur de distance y.
+        : valeur de distance en Y.
 
     -   
         **Z**
         
-        : valeur de distance z.
+        : valeur de distance en Z.
 
--    **Use Start Point**: Mis à True, si vous spécifiez manuellement un point de départ. Définissez le point de départ dans le champ Point de départ des données de propriété.
+-    **Use Start Point**: mis à True, si vous spécifiez manuellement un point de départ. Définissez le point de départ dans le champ Start Point des propriétés de données.
 
-## Présentation de l\'éditeur de fenêtre de tâches 
 
-*Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.* Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
+
+## Disposition de l\'éditeur de la fenêtre des tâches 
+
+*Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.*
+
+Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
+
+
 
 ### Géométrie de base 
 
--   **Add**: ajoute les éléments sélectionnés qui devraient être la ou les bases du ou des chemins
--   **Delete**: supprime les éléments sélectionnés dans la liste Géométrie de base.
--   **Clear**: efface tous les éléments de la liste Géométrie de base.
+-   **Ajouter** : ajoute le(s) élément(s) sélectionné(s) qui doit(vent) être la(les) base(s) pour le(s) trajectoire(s).
+-   **Enlever** : supprime le ou les éléments sélectionnés dans la liste de la géométrie de base.
+-   **Réinitialiser** : efface tous les éléments de la liste de la géométrie de base.
+
+
 
 ### Profondeurs
 
@@ -212,6 +231,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -    **Step Down**
     
 
+
+
 ### Hauteurs
 
 -    **Safe Height**
@@ -220,36 +241,40 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -    **Clearance Height**
     
 
+
+
 ### Opération
 
 -    **Tool Controller**: l\'outil et ses paramètres à utiliser pour cette opération
 
 -    **Coolant Mode**: mode de refroidissement pour cette opération.
 
--    **Start Reference ****: choisissez le point à utiliser sur la première entité sélectionnée.
+-    **Start Reference ****: point à utiliser sur la première entité sélectionnée.
 
--    **End Reference ****: choisissez le point à utiliser sur la deuxième entité sélectionnée.
+-    **End Reference ****: point à utiliser sur la deuxième entité sélectionnée.
 
--    **Extend Path End**: positif étend la fin du chemin, négatif raccourcit.
+-    **Extend Path End**: positif étend la fin du parcours, négatif raccourcit.
 
--    **Extend Path Start**: positif étend le début du chemin, négatif raccourcit.
+-    **Extend Path Start**: positif étend le début du parcours, négatif raccourcit.
 
--    **Layer Mode**: terminez l\'opération en une seule passe en profondeur ou en plusieurs passes jusqu\'à la profondeur finale.
+-    **Layer Mode**: opération en une seule passe en profondeur ou en plusieurs passes jusqu\'à la profondeur finale.
 
--    **Path Orientation ****: choisissez l\'orientation du chemin en fonction des entités sélectionnées.
+-    **Path Orientation ****: orientation du parcours en fonction des entités sélectionnées.
 
--    **Reverse Direction**: activez cette option pour inverser la direction de coupe du chemin de la fente.
+-    **Reverse Direction**: option pour inverser la direction de coupe du parcours de la rainure.
 
 **\*\*** la visibilité change en fonction de la géométrie de base sélectionnée.
+
+
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-Exemple:
+Exemple :
 
 
 ```python

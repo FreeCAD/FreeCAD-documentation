@@ -2,148 +2,100 @@
 - GuiCommand:/it
    Name:Draft Rotate
    Name/it:Ruota
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation:Draft → Ruota
+   MenuLocation:Modifiche → Ruota
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**R** **O**
-   SeeAlso:[Sposta](Draft_Move/it.md), [Serie](Draft_Array/it.md)
    Version:0.7
+   SeeAlso:[Evidenzia i sottoelementi](Draft_SubelementHighlight/it.md)
 ---
 
 # Draft Rotate/it
 
 
-</div>
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_Rotate.svg  style="width:24px;"> **Ruota** ruota o copia gli oggetti selezionati attorno ad un punto centrale di un dato angolo. In modalità sottoelemento il comando ruota i punti e gli spigoli selezionati, o copia gli spigoli selezionati, di [Linee](Draft_Line/it.md) e [Polilinee](Draft_Wire/it.md).
 
-<div class="mw-translate-fuzzy">
+Il comando può essere utilizzato su oggetti 2D creati con [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md), ma anche su molti oggetti 3D come quelli creati con gli ambienti [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) o [Arch](Arch_Workbench/it.md).
 
-Questo strumento ruota o copia e ruota gli oggetti selezionati di un determinato angolo attorno a un punto di riferimento.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Ruota può essere utilizzato su forme 2D create con [Draft](Draft_Workbench/it.md) o [Schizzo](Sketcher_Workbench/it.md), ma può anche essere utilizzato su molti tipi di oggetti 3D come quelli creati con [Part](Part_Workbench/it.md) o [Arch](Arch_Workbench/it.md).
+<img alt="" src=images/Draft_Rotate_example.jpg  style="width:400px;"> 
+*Rotazione di un oggetto intorno ad un punto centrale*
 
 
-</div>
-
-<img alt="" src=images/Draft_Rotate_example.jpg  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Rotazione di un oggetto usando un punto di riferimento, da un angolo di riferimento a un altro angolo*
-
-
-</div>
 
 ## Utilizzo
 
-See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
+
+1.  Opzionalmente selezionare uno o più oggetti, o uno o più sottoelementi di [Linee](Draft_Line/it.md) o [Polilinee](Draft_Wire/it.md).
+2.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_Rotate.svg" width=16px> [Ruota](Draft_Rotate/it.md)**.
+    -   Selezionare l\'opzione **Modifica → <img src="images/Draft_Rotate.svg" width=16px> Ruota** dal menu.
+    -   Usare la scorciatoia da tastiera: **R** poi **O**.
+3.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto nella [Vista 3D](3D_view/it.md).
+4.  Si apre il pannello attività **Ruota**. Vedere [Opzioni](#Opzioni.md) per maggiori informazioni.
+5.  Se i sottoelementi sono stati selezionati: selezionare la casella **Modifica i sottoelementi** per attivare la modalità sottoelemento.
+6.  Scegliere il primo punto, il centro di rotazione, nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
+7.  Scegliere il secondo punto nella [Vista 3D](3D_view/it.md), o inserire un **Angolo base**.
+8.  Scegliere il terzo punto nella [Vista 3D](3D_view/it.md), o inserire una **Rotazione**.
 
 
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare gli oggetti che si desidera ruotare o copiare
-2.  Premere il pulsante **<img src="images/Draft_Rotate.svg" width=16px> [Ruota](Draft_Rotate/it.md)**, or press premere i tasi **R** e poi **O**. Se nessun oggetto è selezionato, si viene inviti a selezionarne uno.
-3.  Selezionare un primo punto nella vista 3D, oppure digitare le sue coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Aggiungi punto**. Questo punto serve da punto base dell\'operazione, attraverso il quale passerà l\'asse di rotazione.
-4.  Fare clic su un secondo punto nella vista 3D o digitare un angolo base. Questo definisce una linea di base che ruoterà attorno al primo punto.
-5.  Fare clic su un terzo punto nella vista 3D o digitare un angolo di rotazione. Questo indica la rotazione della linea di base, e quindi degli oggetti.
-
-
-</div>
 
 ## Opzioni
 
-The single character keyboard shortcuts and the modifier key mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
+Le scorciatoie da tastiera a carattere singolo menzionate qui possono essere modificate. Vedere [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
+
+-   Per inserire manualmente le coordinate per il centro di rotazione, inserire le componenti X, Y e Z e premere **Enter** dopo ciascuna. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
+-   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **T** o fare clic sulla casella di controllo **Continua** per attivare o disattivare la modalità continua. Se la modalità continua è attiva, il comando verrà riavviato al termine. Questa modalità ha davvero senso solo se la modalità di copia è attivata. A seconda della preferenza **Seleziona gli oggetti di base dopo la copia**, per la successiva chiamata al comando vengono selezionati gli oggetti originali o le copie create per ultime. Vedi [Preferenze](#Preferenze.md).
+-   Premere **P** o fare clic sulla casella di controllo **Copia** per attivare o disattivare la modalità di copia. Se la modalità copia è attiva, il comando creerà copie ruotate invece di ruotare gli oggetti originali.
+-   Premere **D** o fare clic sulla casella di controllo **Modifica i sottoelementi** per attivare o disattivare la modalità sottoelemento. Se la modalità sottoelemento è attiva, il comando utilizzerà i sottoelementi selezionati invece degli oggetti interi. I sottoelementi devono appartenere a [ Linee](Draft_Line/it.md) o [Polilinee](Draft_Wire/it.md).
+-   Se la modalità copia e la modalità sottoelemento sono entrambe attive e sono selezionati i bordi di [Polilinee](Draft_Wire/it.md), verranno creati nuove polilinee da quei bordi.
+-   Tenendo premuto **Alt** dopo aver inserito **Angolo base** si attiverà anche la modalità di copia. Mentre **Alt** viene tenuto premuto, è possibile selezionare più punti per **Rotazione**. Rilasciare **Alt** per terminare il comando e vedere le copie create.
+-   Premere **S** per attivare o disattivare [Aggancia](Draft_Snap/it.md).
+-   Premere **Esc** o il pulsante **Chiudi** per interrompere il comando.
 
 
-<div class="mw-translate-fuzzy">
 
--   Premere **X**, **Y** o **Z** dopo un punto per vincolare il prossimo punto sull\'asse dato.
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando si hanno i valori desiderati per inserire il punto.
--   Premere **T** oppure fare clic sulla casella di controllo per attivare la modalità \"continua\". Se la modalità continua è attiva, lo strumento Ruota viene riavviato al termine dell\'operazione, consentendo di ruotare o copiare nuovamente gli oggetti senza premere nuovamente il pulsante dello strumento.
--   Premere **P** oppure fare clic sulla casella di controllo per attivare la modalità *Copia*. Se la modalità copia è attiva, lo strumento Ruota mantiene la forma originale al suo posto e crea una copia con l\'angolo impostato impostato dal terzo punto.
+## Note
 
-:   Si possono usare sia **T** che **P** per posizionare più copie in sequenza. In questo caso, l\'elemento che viene duplicato è l\'ultima copia posizionata.
-
--   Tenere premuto **Alt** dopo il secondo punto per attivare o disattivare la modalità di copia. Tenendo premuto **Alt** dopo aver cliccato sul terzo punto, si può continuare a posizionare le copie usando lo stesso punto base di rotazione e la stessa linea di base; rilasciare **Alt** per terminare l\'operazione e vedere tutte le copie.
--   Tenere premuto **Ctrl** mentre si ruota per forzare lo [snap](Draft_Snap.md) al punto di aggancio più vicino, indipendentemente dalla distanza.
--   Tenere premuto **Maiusc** mentre si ruota per [vincolare](Draft_Constrain.md) il secondo punto in orizzontale o in verticale rispetto al primo.
--   Premere il pulsante **Esc** o **Chiudi** per interrompere il comando corrente; le copie già posizionate rimangono.
+-   Un oggetto che è [allegato](Part_EditAttachment/it.md) non può essere ruotato con il comando Ruota. Per ruotarlo è necessario ruotare il suo oggetto **Support** o modificare il suo **Attachment Offset**.
 
 
-</div>
 
-## Notes
+## Preferenze
 
--   An Object that is [attached](Part_EditAttachment.md) cannot be rotated with the Draft Rotate command. To rotate it either its **Support** object has to be rotated, or its **Attachment Offset** has to be changed.
+Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
 
-## Preferences
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of coordinates and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To store and reuse the same copy mode setting across commands: **Edit → Preferences... → Draft → General settings → Draft tools options → Global copy mode**.
--   To reselect the base objects after copying objects: **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
-
-## Scripting
+-   Per modificare il numero di decimali utilizzati per l\'inserimento di coordinate e angoli: **Modifica → Preferenze... → Generale → Unità → Impostazioni unità → Numero di cifre decimali**.
+-   Per memorizzare e riutilizzare la stessa impostazione della modalità di copia tra i comandi: **Modifica → Preferenze... → Draft → Impostazioni generali → Opzioni strumenti di Draft → Modalità di copia globale**.
+-   Per riselezionare gli oggetti di base dopo averli copiati: **Modifica → Preferenze... → Draft → Impostazioni generali → Opzioni strumenti di Draft → Seleziona gli oggetti di base dopo la copia**.
 
 
-<div class="mw-translate-fuzzy">
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-**Vedere anche:**
-
-[Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Ruota può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
+Per ruotare gli oggetti usa il metodo `rotate` del modulo Draft.
 
 
 ```python
 rotated_list = rotate(objectslist, angle, center=Vector(0,0,0), axis=Vector(0,0,1), copy=False)
 ```
 
+-    `objectslist`contiene gli oggetti da ruotare. È un singolo oggetto o un elenco di oggetti.
 
-<div class="mw-translate-fuzzy">
+-    `angle`è l\'angolo di rotazione in gradi.
 
--   Ruota il punto base degli oggetti della `objectlist` di un dato `angle`.
-    -   
-        `objectlist`
-        
-        può essere un singolo oggetto o un elenco di oggetti.
+-    `center`è il punto centrale della rotazione.
 
-    -   Se sono dati un punto base di rotazione (`center`), e un `axis`, essi sono usati; altrimenti la rotazione è basata sull\'origine e attorno all\'asse Z.
-
-:   L\'angolo di rotazione è relativo al punto base dell\'oggetto, il che significa che se un oggetto viene ruotato di 45 gradi e poi di altri 45 gradi, in totale ruota di 90 gradi dalla sua posizione originale.
+-    `axis`è la direzione dell\'asse di rotazione.
 
 -   Se `copy` è `True` vengono create delle copie invece di ruotare gli oggetti originali.
--   Viene restituita una `rotatedlist` con gli oggetti originali ruotati o con le nuove copie.
-    -   
-        `rotatedlist`
-        
-        è un singolo oggetto o un elenco di oggetti, a seconda dell\'input di `objectlist`.
 
-
-</div>
+-    `rotated_list`viene restituito con gli oggetti originali ruotati o con le nuove copie. È un singolo oggetto o un elenco di oggetti, a seconda di `objectlist`.
 
 Esempio:
 
@@ -178,15 +130,6 @@ rot_list4 = Draft.rotate(list2, 4*angle2, center=cen, copy=True)
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

@@ -200,34 +200,6 @@ Si vous avez écrit une macro et que vous souhaitez l\'inclure dans l\'une des c
 
 
 
-### <img alt="" src=images/Drawing-orthoviews.svg  style="width:32px;"> Atelier Drawing 
-
-L\'[atelier Drawing](Drawing_Workbench/fr.md) est obsolète depuis FreeCAD 0.17. Pensez à utiliser l\'[atelier TechDraw](TechDraw_Workbench/fr.md) à la place.
-
-
-<div class="mw-collapsible-content">
-
--    <img style="width:16px;" src="images/Macro_Automatic_drawing.png"> [Macro Automatic drawing](Macro_Automatic_drawing/fr.md): Permet à l\'utilisateur d\'obtenir la vue de son objet dans un dessin avec 4 positions différentes (front,top,iso,right). Nécessite quelques modifications pour être parfaitement efficace.
-
--    <img style="width:16px;" src="images/Macro_CartoucheFC.png"> [Macro CartoucheFC](Macro_CartoucheFC/fr.md): Cette macro GUI permet de remplir simplement tous les champs du cartouche du plan d\'exécution de la feuille de calcul FreeCAD, le format de la date et le symbole du mode de projection s\'adaptent à la région UE ou US sélectionnée.
-
--    <img style="width:16px;" src="images/Macro_CartoucheFC_2.png"> [Macro CartoucheFC 2](Macro_CartoucheFC_2/fr.md): Cette macro GUI permet de remplir simplement tous les champs du cartouche **modèle 2** de la feuille de calcul d\'implantation du plan FreeCAD.
-
--    <img style="width:16px;" src="images/Macro_CartoucheFC_Full.png"> [Macro CartoucheFC Full](Macro_CartoucheFC_Full/fr.md): Cette macro GUI permet de remplir simplement tous les champs du cartouche [Divers modèles complets](Misc_templates_Full/fr.md) de la feuille de calcul d\'exécution du plan FreeCAD, le format de la date et le symbole du mode de projection s\'adaptent à la région UE ou US sélectionnée.
-
--    <img style="width:16px;" src="images/Macro_Normal_Vector.png"> [Macro Normal Vector](Macro_Normal_Vector/fr.md): Obtenez le vecteur normal d\'une face présélectionnée pour créer une vue de dessin normale à cette face.
-
-
-</div>
-
-
-</div>
-
-
-<div class="toccolours mw-collapsible mw-collapsed">
-
-
-
 ### <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> Atelier FEM 
 
 
@@ -310,6 +282,8 @@ L\'[atelier Drawing](Drawing_Workbench/fr.md) est obsolète depuis FreeCAD 0.17.
 -    <img style="width:16px;" src="images/Macro_MeasureCircle.png"> [Macro MeasureCircle](Macro_MeasureCircle/fr.md): Calculer le rayon d\'un cercle par 3 points ou une arête circulaire.
 
 -    <img style="width:16px;" src="images/Macro_Mouse_over_cb.png"> [Macro Mouse over cb](Macro_Mouse_over_cb/fr.md): Cette macro affiche tous les éléments situés sous le curseur (les éléments couverts par d\'autres éléments seront également affichés).
+
+-    <img style="width:16px;" src="images/Macro_Normal_Vector.png"> [Macro Normal Vector](Macro_Normal_Vector/fr.md): obtenir le vecteur normal d\'une face présélectionnée.
 
 -    <img style="width:16px;" src="images/Macro_ObjectInfo.png"> [Macro ObjectInfo](Macro_ObjectInfo/fr.md): Module \"Info\" convivial créé par un utilisateur de FreeCAD.
 
@@ -637,6 +611,8 @@ L\'[atelier Drawing](Drawing_Workbench/fr.md) est obsolète depuis FreeCAD 0.17.
 
 -    <img style="width:16px;" src="images/Macro_FCSpreadsheet_Extract.png"> [Macro FCSpreadSheet Extract](Macro_FCSpreadSheet_Extract/fr.md): Cette macro enregistre les données dans un fichier csv avec la formule ou dans un fichier xml.
 
+-    <img style="width:16px;" src="images/Macro_Sketch_Constraint_From_Spreadsheet.svg"> [Macro Sketch Constraint From Spreadsheet](Macro_Sketch_Constraint_From_Spreadsheet/fr.md): ajoutez rapidement une contrainte de longueur à une ligne ou entre 2 points en utilisant un alias ou une adresse de cellule de feuille de calcul.
+
 -    <img style="width:16px;" src="images/Macro_SpreadsheetTools.png"> [Macro Spreadsheet Tools](Macro_SpreadsheetTools/fr.md): Cette macro permet de gérer les cellules dans l\'atelier FreeCAD Spreadsheet.
 
 -    <img style="width:16px;" src="images/Applications-python.svg"> [Macro Spreadsheet2html](Macro_Spreadsheet2html/fr.md): Exporte une feuille de calcul au format html stylé. Destiné à servir de support pour le transfert de données vers des suites bureautiques.
@@ -714,8 +690,6 @@ L\'[atelier Drawing](Drawing_Workbench/fr.md) est obsolète depuis FreeCAD 0.17.
 
 
 <div class="mw-collapsible-content">
-
--    <img style="width:16px;" src="images/Macro_Corner_shapes_wizard.png"> [Macro Corner shapes wizard/update](Macro_Corner_shapes_wizard/update/fr.md): Ouvre une boîte de dialogue demandant les dimensions de votre pièce d\'angle, puis crée l\'objet dans le document et crée une vue de page avec des vues supérieure, avant et latérale de la pièce.
 
 -    <img style="width:16px;" src="images/Gearworkbech.png"> [Macro FCGear](Macro_FCGear/fr.md): Atelier supplémentaire pour créer différents types d\'engrenages, engrenage à développante, crémaillère à développante, engrenage cycloïde, engrenage conique.
 

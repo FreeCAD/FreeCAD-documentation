@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;">[PartDesign](PartDesign_Workbench/pl.md) oferuje zaawansowane narzędzia do modelowania złożonych części brył. Głównie skupia się on na tworzeniu części mechanicznych, które mogą być produkowane i montowane w gotowy produkt. Niemniej jednak, utworzone bryły mogą być wykorzystywane ogólnie do wszelkich innych celów, takich jak [projekt architektoniczny](Arch_Workbench/pl.md), [analiza elementów skończonych](FEM_Workbench/pl.md) lub [obróbka CNC i drukowanie 3D](Path_Workbench/pl.md).
@@ -17,9 +19,13 @@ Korpusy utworzone w PartDesign często podlegają [problemom nazewnictwa według
 
 <img alt="" src=images/PartDesign_Example.png  style="width:500px;">
 
+
+
 ## Przybory
 
 Narzędzia Part Design znajdują się w menu **Part Design** oraz na pasku narzędzi *PartDesign*, który pojawia się po załadowaniu Środowiska pracy Part Design.
+
+
 
 ### Narzędzia organizujące strukturę dokumentu 
 
@@ -28,6 +34,8 @@ Są to narzędzia, które nie są częścią Środowiska pracy **PartDesign**. N
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Stwórz nową część \...](Std_Part/pl.md): dodaje kolejną pozycję części na drzewku do aktywnego dokumentu i czyni ją aktywną.
 
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Utwórz nową grupę \...](Std_Group.md): dodaje do aktywnego dokumentu pozycję grupy, co pozwala uporządkować obiekty w [widoku drzewa](Tree_view/pl.md).
+
+
 
 ### Narzędzia pomocnicze 
 
@@ -41,7 +49,11 @@ Są to narzędzia, które nie są częścią Środowiska pracy **PartDesign**. N
 
 -   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Sprawdź poprawność szkicu](Sketcher_ValidateSketch/pl.md): Sprawdza odchylenia różnych punktów i dopasowuje je.
 
+
+
 ### Narzędzia modelujące 
+
+
 
 #### Narzędzia odniesienia 
 
@@ -55,9 +67,11 @@ Są to narzędzia, które nie są częścią Środowiska pracy **PartDesign**. N
 
 -   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Utwórz spoiwo kształtu.](PartDesign_ShapeBinder/pl.md): tworzy spoiwo kształtu odwołujące się do geometrii z jednego obiektu nadrzędnego.
 
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Utwórz spoiwo do elementu podrzędnego](PartDesign_SubShapeBinder/pl.md): tworzy spoiwo kształtu odwołujące się do geometrii z jednego lub więcej obiektów nadrzędnych. {{Version/pl|0.19}}
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Utwórz spoiwo do elementu podrzędnego](PartDesign_SubShapeBinder/pl.md): tworzy spoiwo kształtu odwołujące się do geometrii z jednego lub więcej obiektów nadrzędnych.
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Stwórz nowego klona](PartDesign_Clone.md): tworzy klon wybranej bryły.
+
+
 
 #### Narzędzia dodawania nowych elementów 
 
@@ -71,7 +85,7 @@ Są to narzędzia do tworzenia podstawowych właściwości lub dodawania materia
 
 -   <img alt="" src=images/PartDesign_Additive_Pipe.svg  style="width:32px;"> [Rozciągnij wybrany rysunek wzdłuż ścieżki \...](PartDesign_AdditivePipe.md): tworzy bryłę poprzez przeciągnięcie jednego lub więcej szkiców wzdłuż otwartej lub zamkniętej ścieżki.
 
--   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Addytywna helisa](PartDesign_AdditiveHelix.md): tworzy bryłę poprzez przeciągnięcie szkicu wzdłuż helisy. {{Version/pl|0.19}}
+-   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Addytywna helisa](PartDesign_AdditiveHelix/pl.md): tworzy bryłę poprzez przeciągnięcie szkicu wzdłuż helisy.
 
 -   <img alt="" src=images/PartDesign_CompPrimitiveAdditive.png  style="width:48px;"> [Utwórz bryłę pierwotną do dodania](PartDesign_CompPrimitiveAdditive.md): dodaje do aktywnej bryły dodatek w postaci elementu pierwotnego.
 
@@ -91,6 +105,8 @@ Są to narzędzia do tworzenia podstawowych właściwości lub dodawania materia
 
   -<img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [Addytywny klin](PartDesign_AdditiveWedge.md): dodaje do aktywnej bryły dodatek w postaci klina.
 
+
+
 #### Narzędzia do usuwania kształtów 
 
 Są to narzędzia do odejmowania materiału z istniejącej bryły.
@@ -105,7 +121,7 @@ Są to narzędzia do odejmowania materiału z istniejącej bryły.
 
 -   <img alt="" src=images/PartDesign_SubtractivePipe.svg  style="width:32px;"> [Rozciągnij wybrany szkic \... i usuń z zawartości](PartDesign_SubtractivePipe.md): tworzy bryłę poprzez przesuwanie jednego lub więcej szkiców wzdłuż otwartej lub zamkniętej ścieżki i odejmuje je od aktywowanego kształtu.
 
--   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Subtraktywna helisa](PartDesign_SubtractiveHelix.md): tworzy bryłę przez przeciągnięcie szkicu wzdłuż helisy i odejmuje ją od aktywnej bryły. <small>(v0.19)</small> 
+-   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Subtraktywna helisa](PartDesign_SubtractiveHelix/pl.md): tworzy bryłę przez przeciągnięcie szkicu wzdłuż helisy i odejmuje ją od aktywnej bryły.
 
 -   <img alt="" src=images/PartDesign_CompPrimitiveSubtractive.png  style="width:48px;"> [Utwórz bryłę pierwotną do odjęcia](PartDesign_CompPrimitiveSubtractive.md): dodaje ubytek w kształcie elementu pierwotnego.
 
@@ -125,6 +141,8 @@ Są to narzędzia do odejmowania materiału z istniejącej bryły.
 
   -<img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> ‎[Subtraktywny klin](PartDesign_SubtractiveWedge.md): dodaje do aktywnej bryły ubytek w kształcie klina.
 
+
+
 #### Narzędzia do przekształcania 
 
 Są to narzędzia służące do przekształcania istniejących właściwości.
@@ -138,6 +156,8 @@ Są to narzędzia służące do przekształcania istniejących właściwości.
 -   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [Utwórz szyk kołowy](PartDesign_MultiTransform.md): tworzy układ kołowy złożony z jednej lub więcej właściwości, wspomniane powyżej, a także przekształcenie [Skali](PartDesign_Scaled/pl.md).
     -   <img alt="" src=images/PartDesign_Scaled.svg  style="width:32px;"> [Skaluj](PartDesign_Scaled/pl.md): skaluje jedną lub więcej funkcji. Funkcja nie jest dostępna jako osobne narzędzie do transformacji.
 
+
+
 #### Narzędzia do obróbki krawędzi 
 
 Narzędzia te umożliwiają wykonanie określonej modyfikacji krawędzi lub powierzchni.
@@ -150,9 +170,13 @@ Narzędzia te umożliwiają wykonanie określonej modyfikacji krawędzi lub powi
 
 -   <img alt="" src=images/PartDesign_Thickness.svg  style="width:32px;"> [Utwórz bryłę narzędziem grubość](PartDesign_Thickness.md): tworzy grubą powłokę z aktywnej bryły i powoduje otwarcie wybranych ścian.
 
+
+
 #### Narzędzia do przeprowadzania operacji logicznych 
 
 -   <img alt="" src=images/PartDesign_Boolean.svg  style="width:32px;"> [Operacje logiczne](PartDesign_Boolean.md): importuje jedną lub więcej brył lub klonów PartDesign do aktywnego elementu i przeprowadza operację logiczną.
+
+
 
 #### Dodatki
 
@@ -160,11 +184,13 @@ Kilka dodatkowych funkcji, które można znaleźć w menu Part Design:
 
 -   <img alt="" src=images/PartDesign_Migrate.svg  style="width:32px;"> [Przenieś](PartDesign_Migrate.md): migruje pliki utworzone w starszych wersjach FreeCAD. Jeśli plik jest oparty wyłącznie na funkcjach PartDesign, migracja powinna zakończyć się sukcesem. Jeśli plik zawiera mieszane obiekty Part/Part Design/Draft, konwersja najprawdopodobniej się nie powiedzie.
 
--   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Kreator projektowania kół łańcuchowych](PartDesign_Sprocket/pl.md): tworzy profil koła zębatego, który może być użyty do wyciągnięcia. {{Version/pl|0.19}}
+-   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Kreator projektowania kół łańcuchowych](PartDesign_Sprocket/pl.md): tworzy profil koła zębatego, który może być użyty do wyciągnięcia.
 
 -   <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width:32px;"> [Kreator projektowania przekładni ewolwentowych](PartDesign_InvoluteGear/pl.md): tworzy profil koła zębatego, który może być użyty do wyciągnięcia.
 
 -   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Twórca wałów](PartDesign_WizardShaft.md): tworzy wał z tabeli wartości i pozwala na analizę sił i momentów. Wał jest tworzony za pomocą szkicu obrotowego, który można edytować.
+
+
 
 ### Pozycje w menu kontekstowym 
 
@@ -174,16 +200,22 @@ Kilka dodatkowych funkcji, które można znaleźć w menu Part Design:
 
 -   <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:32px;"> [Przenieś obiekt za innym obiektem](PartDesign_MoveFeatureInTree.md): umożliwia zmianę kolejności obiektów drzewa zawartości poprzez przeniesienie wybranego szkicu, geometrii odniesienia lub elementu w inne miejsce na liście elementów.
 
+
+
 #### Pozycje współdzielone ze Środowiskiem pracy Part 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Wygląd zewnętrzny](Std_SetAppearance.md): określa wygląd całej części *(przezroczystość kolor itp.)*.
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Ustaw kolor](Part_FaceColors.md): przypisuje kolory do poszczególnych powierzchni.
 
+
+
 ## Ustawienia
 
 -   <img alt="" src=images/Preferences-part_design.svg  style="width:32px;"> [Ustawienia](PartDesign_Preferences.md): opcje dostępne w Narzędziach PartDesign.
 -   [Ustawienia drobiazgowe](Fine-tuning.md): kilka dodatkowych parametrów, aby dopracować zachowanie PartDesign.
+
+
 
 ## Poradniki
 
@@ -192,6 +224,14 @@ Kilka dodatkowych funkcji, które można znaleźć w menu Part Design:
 -   [Podstawy dla Środowiska pracy Projekt Części](Basic_Part_Design_Tutorial/pl.md).
 -   [Poradnik: Projekt części uchwyt łożyska I](PartDesign_Bearingholder_Tutorial_I/pl.md) *(wymaga aktualizacji)*.
 -   [Poradnik: Projekt części uchwyt łożyska II](PartDesign_Bearingholder_Tutorial_II/pl.md) *(wymaga aktualizacji)*.
+
+
+
+## Przykłady
+
+Aby uzyskać kilka pomysłów na to, co można osiągnąć za pomocą narzędzi środowiska Projekt Części, zajrzyj do: [przykładów](PartDesign_Examples/pl.md).
+
+<img alt="" src=images/PartDesign_ExampleSphere-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleTorus-01.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExamplePad-09.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-05.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSpring-04.png  style="width:80px;">
 
 
 

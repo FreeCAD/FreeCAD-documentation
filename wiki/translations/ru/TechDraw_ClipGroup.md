@@ -9,6 +9,11 @@
 
 # TechDraw ClipGroup/ru
 
+
+</div>
+
+
+
 ## Описание
 
 
@@ -22,9 +27,19 @@
 ![](images/TechDraw_Clipview.png ) 
 *Группа Видов, содержащая в себе несколько Видов отсеченных по краям*
 
+
+
 ## Применение
 
+
+<div class="mw-translate-fuzzy">
+
 -   Нажмите кнопку **<img src="images/TechDraw_ClipGroup.svg" width=16px> [Создать группу Видов](TechDraw_ClipGroup/ru.md)** для создания новой группы Видов.
+
+
+</div>
+
+
 
 ## Свойства
 

@@ -49,7 +49,7 @@ in den [Arbeitsbereich Skizzierer](Sketcher_Workbench/de.md).
 
 -   <img alt="" src=images/Sketcher_MapSketch.png‎  style="width:32px;"> [Eine Skizze einer Fläche zuordnen](Sketcher_MapSketch/de.md): Ordnet eine Skizze einer zuvor ausgewählten Ebene oder einer Fläche des aktiven Körpers zu.
 
--   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Validate sketch](Sketcher_ValidateSketch.md): verifies the tolerance of different points and adjusts them.
+-   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Skizze überprüfen](Sketcher_ValidateSketch/de.md): Überprüft die Toleranz verschiedener Punkte und passt sie an.
 
 
 
@@ -71,7 +71,7 @@ Erzeugt ein lokales Koordinatensystem, das an der Bezugsgeometrie im aktiven Kö
 
 -   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Formbinder erstellen](PartDesign_ShapeBinder/de.md): Erzeugt einen Formbinder als Referenz auf Geometrie eines einzelnen übergeordneten Körpers.
 
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Formbinder für Teilobjekt erstellen](PartDesign_SubShapeBinder/de.md): Erstellt einen Formbinder als Referenz auf Geometrie von einem oder mehreren übergeordneten Objekten. {{Version/de|0.19}}
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Formbinder für Teilobjekt erstellen](PartDesign_SubShapeBinder/de.md): Erstellt einen Formbinder als Referenz auf Geometrie von einem oder mehreren übergeordneten Objekten.
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Klon erstellen](PartDesign_Clone/de.md): Erstellt einen Klon des ausgewählten Körpers.
 
@@ -89,7 +89,7 @@ Dies sind Werkzeuge zum Erstellen von Basisformelementen oder zum Hinzufügen vo
 
 -   <img alt="" src=images/PartDesign_Additive_Pipe.svg  style="width:32px;"> [Additives Rohr](PartDesign_AdditivePipe/de.md): Erzeugt einen Volumenkörper, indem eine oder mehrere Skizzen entlang eines offenen oder geschlossenen Pfades ausgetragen wird.
 
--   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Additive Helix](PartDesign_AdditiveHelix/de.md): erzeugt einen Volumenkörper durch Austragen einer Skizze entlang einer Wendel. <small>(v0.19)</small> 
+-   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Additive Helix](PartDesign_AdditiveHelix/de.md): erzeugt einen Festkörper durch Austragen einer Skizze entlang einer Wendel.
 
 -   <img alt="" src=images/PartDesign_CompPrimitiveAdditive.png  style="width:48px;"> [Grundkörper hinzufügen](PartDesign_CompPrimitiveAdditive/de.md): fügt dem aktiven Körper einen additiven Grundkörper hinzu. {{Version/de|0.17}}
 
@@ -129,7 +129,7 @@ Erzeugt eine Körperform, indem es einen Übergang zwischen zwei oder mehreren S
 
 Erzeugt eine Volumenkörperform, indem eine oder mehrere Skizzen entlang eines offenen oder geschlossenen Pfades ausgetragen und diese vom aktiven Körper abgezogen wird.
 
--   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Subtraktive helix](PartDesign_SubtractiveHelix/de.md): erzeugt eine Volumenkörperform, indem eine Skizze entlang einer Helix ausgetragen wird, und subtrahiert sie vom aktiven Körper. <small>(v0.19)</small> 
+-   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Subtraktive helix](PartDesign_SubtractiveHelix/de.md): erzeugt eine Festkörperform, indem eine Skizze entlang einer Helix ausgetragen wird, und subtrahiert sie vom aktiven Körper.
 
 -   <img alt="" src=images/PartDesign_CompPrimitiveSubtractive.png  style="width:48px;"> [Grundkörper abziehen](PartDesign_CompPrimitiveSubtractive/de.md): Fügt einen abzuziehenden Grundkörper zum aktiven Körper hinzu.
 
@@ -190,7 +190,7 @@ Einige zusätzliche Funktionen befinden sich im Menü Part Design:
 
 -   <img alt="" src=images/PartDesign_Migrate.svg  style="width:32px;">[Migrieren](PartDesign_Migrate/de.md): Migriert Dateien, die mit älteren FreeCAD Versionen erstellt wurden. Wenn die Datei rein PartDesign formelementbasiert ist, sollte die Migration erfolgreich sein. Wenn die Datei gemischte Part/Part Design/Entwurfsobjekte enthält, wird die Konvertierung höchstwahrscheinlich fehlschlagen.
 
--   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Kettenrad](PartDesign_Sprocket/de.md): Erstellt ein Kettenradprofil, das extrudiert werden kann. {{Version/de|0.19}}
+-   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Kettenrad](PartDesign_Sprocket/de.md): Erstellt ein Kettenradprofil, das extrudiert werden kann.
 
 -   <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width:32px;"> [Evolventenverzahnung](PartDesign_InvoluteGear/de.md): erzeugt ein Evolventenverzahnradprofil, das extrudiert werden kann.
 
@@ -230,6 +230,14 @@ Einige zusätzliche Funktionen befinden sich im Menü Part Design:
 -   [Grundlegende Teilekonstruktion Übung](Basic_Part_Design_Tutorial/de.md)
 -   [PartDesign Lagerträger Tutorial I](PartDesign_Bearingholder_Tutorial_I/de.md) (muss aktualisiert werden)
 -   [PartDesign Lagerträger Tutorial II](PartDesign_Bearingholder_Tutorial_II/de.md) (muss aktualisiert werden)
+
+
+
+## Beispiele
+
+Ein paar Ideen, was mit den Part-Design-Werkzeugen erstellt werden kann, findet man unter: [PartDesign Beispiele](PartDesign_Examples/de.md).
+
+<img alt="" src=images/PartDesign_ExampleSphere-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleTorus-01.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExamplePad-09.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-05.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSpring-04.png  style="width:80px;">
 
 
 

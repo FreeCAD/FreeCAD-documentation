@@ -2,7 +2,6 @@
 - GuiCommand:/it
    Name:Std ToggleVisibility
    Name/it:Mostra/Nascondi
-   Empty:1
    MenuLocation:Visualizza → Mostra/Nascondi
    Workbenches:Tutti
    Shortcut:**Spazio**
@@ -12,99 +11,34 @@
 # Std ToggleVisibility/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-The **Std ToggleVisibility** command toggles the visibility of selected objects in [3D views](3D_view.md).
+Il comando **Mostra/Nascondi** alterna la visibilità degli oggetti selezionati nella [Vista 3D](3D_view/it.md).
 
 
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-### Utilizzo 
-
-Questo comando serve a rendere visibili o a nascondere nella vista i componenti del documento.
-Esso è accessibile in diversi modi:
-
--   La barra spaziatrice.
--   La console Python.
--   La struttura del progetto.
--   La scheda Vista.
--   Il menu Visualizza.
--   La vista dell\'area di lavoro.
-
-Esempio di elementi visibili e di elementi nascosti: <img alt="" src=images/Mostra1.png  style="width:750px;">  Nella struttura ad albero gli elementi nascosti sono in grigio, quelli visibili in nero e quelli selezionati sono evidenziati.
-Nell\'area di lavoro appaiono solo gli elementi che nella struttura sono indicati in nero.
-Nella console Python l\'elemento (\"Revolution006\") prima è nascosto (Visibility=False), poi è visibile (Visibility=True).
-Nella scheda Vista l\'elemento (\"Revolution006\") è visibile (Visibility true).
-
-#### Barra spaziatrice 
-
-Selezionare un elemento e premere **Spazio** sia per mostrarlo che per nasconderlo.
-
-#### Console Python 
-
-Inserire il comando ( in questo caso: *Gui.getDocument(\"test_ok_3p\").getObject(\"Revolution006\").Visibility=False)*, poi premere **Invio**
-
-#### Dal menu principale 
-
--   Direttamente con **Visualizza → Nascondi**, oppure
--   dal menu **Visualizza → Visibilità → Sottomenu** e scegliendo nel sottomenu l\'azione desiderata.
-
-Il secondo modo permette anche di stabilire se l\'elemento può essere selezionato.
-
-#### Nella struttura del progetto 
-
-Selezionare gli elementi con il tasto destro del mouse,
-oppure selezionare e poi aprire il menu contestuale da tastiera (tasto in basso a destra, a fianco di Ctrl).
-
-#### Nella scheda Vista 
-
-Si può operare su un solo elemento per volta. Selezionare un elemento, aprire la scheda delle sue Proprietà Vista e modificare il valore.
-
-#### Nell\'area di lavoro 
-
-Selezionare gli elementi con il tasto destro del mouse e scegliere la voce che interessa tra quelle del menu che viene aperto.
-
-### Note
-
-Quando si applica **Nascondi** a un elemento già nascosto l\'elemento diventa visibile.
-Per selezionare più elementi tenere premuto il tasto **Crtl** durante l\'operazione.
-
-### Casi particolari 
-
-Nei documenti con molti oggetti, dove è difficile individuare un elemento nella struttura, può essere utile nascondere un oggetto nella vista grafica e poi utilizzare **Visualizza → Visibilità → Attiva/disattiva tutti gli oggetti** per rendere visibile solo l\'oggetto desiderato. Questa procedura usata in combinazione con gli altri comandi di selezione globale, **Mostra tutti gli oggetti** e **Visualizza tutti gli oggetti**, evita noiose operazioni di selezione.
-
-### Esempi
-
-Console Python: ![](images/Mostra2.png ) 
-
-Menu principale: <img alt="" src=images/Mostra3.png  style="width:750px;"> 
-
-Struttura del progetto: ![](images/Mostra4.png ) 
-
-Scheda Vista: ![\|left](images/Mostra5.png ) 
-
-Area di lavoro: ![\|left](images/Mostra6.png ) 
-
-
-</div>
+1.  Selezionare uno o più oggetti.
+    -   Gli oggetti invisibili possono essere selezionati nella [Vista ad albero](Tree_view/it.md).
+    -   Fare attenzione quando si usa **Ctrl**+**A** per selezionare tutti gli oggetti nella vista ad albero. Questo selezionerà anche i sotto-elementi dei [Corpi di PartDesign](PartDesign_Body/it.md) e gli oggetti usati per le [operazioni booleane](Part_Boolean/it.md). Nella maggior parte dei casi questi dovrebbero rimanere invisibili.
+    -   Gli oggetti utilizzati per le [operazioni booleane](Part_Boolean/it.md) vengono selezionati anche quando si utilizza **Ctrl**+**A** in una vista 3D.
+2.  Esistono diversi modi per invocare il comando:
+    -   Selezionare l\'opzione **Visualizza → Visibilità → <img src="images/Std_ToggleVisibility.svg" width=16px> Attiva/disattiva visibilità** dal menu.
+    -   Selezionare l\'opzione **<img src="images/Std_ToggleVisibility.svg" width=16px> Attiva/disattiva visibilità** dal menu contestuale della vista ad albero. Questa opzione non è disponibile in [PartDesign](PartDesign_Workbench/it.md).
+    -   Selezionare l\'opzione **<img src="images/Std_ToggleVisibility.svg" width=16px> Attiva/disattiva visibilità** dal menu contestuale della vista 3D.
+    -   Usare la scorciatoia da tastiera: **Spazio**.
 
 
 
-## Note 
+## Note
 
--   Invisible objects are displayed with a greyed out label and a greyed out icon in the [Tree view](Tree_view.md).
--   Objects nested in a [Std Part](Std_Part.md), or a [Std Link](Std_LinkMake.md) to a [Std Group](Std_Group.md), or a LinkGroup, and [features](PartDesign_Feature.md) of a [PartDesign Body](PartDesign_Body.md) will only be visible in [3D views](3D_view.md) if their parent is visible as well. This means that a feature in a PartDesign Body that is nested in a Std Part will only be visible in 3D views if the feature itself, the PartDesign Body, and the Std Part are all visible. And if the Std Part is in turn nested in another Std Part, then that last object must also be visible.
--   If the visibility of a [Std Group](Std_Group.md) (or an object derived from it such as an [Arch BuildingPart](Arch_BuildingPart.md)) is changed, the visibility of its nested objects will change accordingly. But their visibility can be changed independently as well.
--   The action of this command cannot be undone with [Std Undo](Std_Undo.md).
--   The visibility of an object can also be changed through its related **Visibility** property in the [Property editor](Property_editor.md) or the [Combo view](Combo_view.md).
+-   Gli oggetti invisibili vengono visualizzati con un\'etichetta in grigio e un\'icona in grigio nella [Vista ad albero](Tree_view/it.md).
+-   Oggetti nidificati in una [Parte](Std_Part/it.md), o [Link](Std_LinkMake/it.md) verso un [Gruppo](Std_Group/it.md), o in un LinkGroup, e [funzioni](PartDesign_Feature/it.md) di un [Corpo di PartDesign](PartDesign_Body/it.md) saranno visibili solo nella [Vista 3D](3D_view/it.md) se anche il loro genitore è visibile. Ciò significa che una funzione in un corpo di PartDesign annidata in una parte standard sarà visibile solo nelle viste 3D se la funzione stessa, il corpo di PartDesign e la parte standard sono tutti visibili. E se l\'oggetto Part è a sua volta nidificato in un altro oggetto Part, anche quest\'ultimo oggetto deve essere visibile.
+-   Se la visibilità di un [Gruppo](Std_Group/it.md) (o di un oggetto derivato da esso come un [Parte di edificio Arch](Arch_BuildingPart/it.md)) viene modificata, la visibilità dei suoi oggetti nidificati cambierà di conseguenza. Ma anche la loro visibilità può essere modificata in modo indipendente.
+-   L\'azione di questo comando non può essere annullata con [Annulla](Std_Undo/it.md).
+-   La visibilità di un oggetto può anche essere modificata tramite la relativa proprietà **Visibility** in [Editor delle proprietà](Property_editor/it.md) o nella [Vista combinata](Combo_view/it.md).
 
 
 
@@ -115,7 +49,7 @@ Area di lavoro: ![\|left](images/Mostra6.png )
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
-Use the `show` and `hide` methods of an object to change its visibility.
+Usre i metodi `show` e `hide` di un oggetto per modificarne la visibilità.
 
 
 ```python
@@ -130,13 +64,7 @@ else:
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

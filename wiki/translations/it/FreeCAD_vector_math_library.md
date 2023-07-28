@@ -1,24 +1,18 @@
 # FreeCAD vector math library/it
 ## Introduzione
 
-
-<div class="mw-translate-fuzzy">
-
-Questo è un modulo [Python](Python/it.md) contenente un paio di funzioni utili per manipolare i vettori. Questa libreria è inclusa in [Draft](Draft_Workbench/it.md) ed è possibile accedervi in questo modo dall\'interprete Python:
-
-
-</div>
-
-
+Questo è un modulo [Python](Python/it.md) contenente un paio di funzioni utili per manipolare i vettori. Questa libreria è inclusa in [Draft](Draft_Workbench/it.md) ed è possibile accedervi in questo modo dall\'interprete Python: 
 ```python
 import DraftVecUtils
 ```
 
-Please note that this module was created a long time ago, when the `Vector` class didn\'t have many of its methods. Now these operations can be done by the Vector class itself.
+Tenere presente che questo modulo è stato creato molto tempo fa, quando la classe `Vector` non aveva molti dei suoi metodi. Ora queste operazioni possono essere eseguite dalla stessa classe Vector.
 
-Although the `DraftVecUtils` module still exists, and it is still used inside the [Draft Workbench](Draft_Workbench.md), it is probably better to use the `Vector` methods directly for new developments.
+Sebbene il modulo `DraftVecUtils` esista ancora e sia ancora utilizzato all\'interno di [Draft](Draft_Workbench.md), è probabilmente meglio utilizzare i metodi `Vector` direttamente per i nuovi sviluppi.
 
-## Functions
+
+
+## Funzioni
 
 I vettori sono i mattoni costitutivi di quasi tutte le operazioni geometriche 3D, quindi è utile conoscerli un po\' per capire come queste funzioni possono essere utili. Ecco alcune valide pagine per imparare le basi della matematica vettoriale:
 

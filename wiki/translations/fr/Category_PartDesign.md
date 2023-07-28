@@ -28,8 +28,9 @@ This category includes FreeCAD pages related to PartDesign
 | [PartDesign SubtractiveHelix/fr](PartDesign_SubtractiveHelix/fr.md) | [PartDesign SubtractiveLoft/fr](PartDesign_SubtractiveLoft/fr.md) | [PartDesign SubtractivePipe/fr](PartDesign_SubtractivePipe/fr.md) |
 | [PartDesign SubtractivePrism/fr](PartDesign_SubtractivePrism/fr.md) | [PartDesign SubtractiveSphere/fr](PartDesign_SubtractiveSphere/fr.md) | [PartDesign SubtractiveTorus/fr](PartDesign_SubtractiveTorus/fr.md) |
 | [PartDesign SubtractiveWedge/fr](PartDesign_SubtractiveWedge/fr.md) | [PartDesign Thickness/fr](PartDesign_Thickness/fr.md) | [Template:PartDesign Tools navi/fr](Template_PartDesign_Tools_navi/fr.md) |
-| [PartDesign WizardShaft/fr](PartDesign_WizardShaft/fr.md) | [PartDesign Workbench/fr](PartDesign_Workbench/fr.md) | [Thread for Screw Tutorial/fr](Thread_for_Screw_Tutorial/fr.md) |
-| [Toothbrush Head Stand/fr](Toothbrush_Head_Stand/fr.md) | [Topological naming problem/fr](Topological_naming_problem/fr.md) |
+| [PartDesign WizardShaft/fr](PartDesign_WizardShaft/fr.md) | [PartDesign Workbench/fr](PartDesign_Workbench/fr.md) | [Sketcher Examples/fr](Sketcher_Examples/fr.md) |
+| [Thread for Screw Tutorial/fr](Thread_for_Screw_Tutorial/fr.md) | [Toothbrush Head Stand/fr](Toothbrush_Head_Stand/fr.md) | [Topological naming problem/fr](Topological_naming_problem/fr.md) |
+|
 
 
 

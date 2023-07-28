@@ -8,6 +8,8 @@
 
 # Draft Drawing/pl
 
+
+
 ## Opis
 
 The <img alt="" src=images/Draft_Drawing.svg  style="width:24px;"> **Draft Drawing** command inserts views of selected objects into a [drawing](Drawing_Workbench.md) page.

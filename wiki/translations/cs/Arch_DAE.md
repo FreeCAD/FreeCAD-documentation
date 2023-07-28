@@ -8,6 +8,11 @@
 </div>
 
 
+{{TOCright}}
+
+## Description
+
+
 <div class="mw-translate-fuzzy">
 
 Formát [Collada (DAE)](http://en.wikipedia.org/wiki/COLLADA) je standardizovaný souborový formát pro výměnu Síťových dat. [Modul Architektura](Arch_Workbench.md) umí importovat sítě z .dae souborů a exportovat stavební nebo jiné objekty založené na objektu [Tvar](Part_Workbench.md) do .dae formatu.

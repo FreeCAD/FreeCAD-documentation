@@ -1,31 +1,36 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ExtensionLineParallel
-   MenuLocation:TechDraw → Extensions: Centerlines/Threading → Add Cosmetic Parallel Line
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Rozszerzenie Dodaj pomocniczą linię równoległą
+   MenuLocation:Rysunek Techniczny → Rozszerzenie: Linie środka / gwinty → Dodaj pomocniczą linię równoległą
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionLinePerpendicular](TechDraw_ExtensionLinePerpendicular.md)
+   SeeAlso:[Dodaj pomocniczą linię prostopadłą](TechDraw_ExtensionLinePerpendicular/pl.md)
 ---
 
 # TechDraw ExtensionLineParallel/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width:24px;"> **TechDraw ExtensionLineParallel** tool adds a cosmetic line parallel to another line through a vertex.
+
+## Opis
+
+Narzędzie **Dodaj pomocniczą linię równoległą** dodaje geometrię pomocniczą linii równoległej do innej linii przechodzącej przez wierzchołek.
 
 <img alt="" src=images/TechDraw_ExtensionLineParallelExample.png  style="width:250px;"> 
-*On the right an added cosmetic parallel line*
+*Po prawej stronie dodano geometrie pomocniczą linii równoległej.*
 
-## Usage
 
-1.  Optionally specify the line attributes with the <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) tool.
-2.  Select a straight edge to determine the direction and the length of the line.
-3.  Select a vertex to determine the position of the line.
-4.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionLineParallel.svg" width=16px> [TechDraw ExtensionLineParallel](TechDraw_ExtensionLineParallel.md)** button.
-    -   Select the **TechDraw → Extensions: Centerlines/Threading → <img src="images/TechDraw_ExtensionLineParallel.svg" width=16px> Add Cosmetic Parallel Line** option from the menu.
-5.  A cosmetic line is added.
+
+## Użycie
+
+1.  Opcjonalnie określ atrybuty linii za pomocą narzędzia <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [Wybierz atrybuty linii](TechDraw_ExtensionSelectLineAttributes/pl.md).
+2.  Wybierz prostą krawędź, aby określić kierunek i długość linii.
+3.  Wybierz wierzchołek, aby określić położenie linii.
+4.  Narzędzie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionLineParallel.svg" width=16px> '''Dodaj pomocniczą linię równoległą'''**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Rozszerzenia: Linie środka / Gwinty → <img src="images/TechDraw_ExtensionLineParallel.svg" width=16px> Dodaj pomocniczą linię równoległą**.
+5.  Zostanie dodana linia kosmetyczna.
 
 
 

@@ -29,7 +29,15 @@ brew install freecad
 
 If there are any issues with the HomeBrew Cask or Formula you may report them to [here](https://github.com/FreeCAD/homebrew-freecad).
 
+
+<div class="mw-translate-fuzzy">
+
 此页描述了 FreeCAD 安装器的使用方法及特性。它也包含了卸载指令。 一旦成功安装，你就能 [入门](Getting_started.md)!
+
+
+</div>
+
+
 
 ### 简单的安装过程
 
@@ -41,7 +49,15 @@ The FreeCAD installer is provided as a app package (.app) enclosed in a disk ima
 
 ![](images/mac_installer_1.png )
 
+
+<div class="mw-translate-fuzzy">
+
 就是这样。只需要点击该应用程序以启动 FreeCAD。如果它弹出信息 \"FreeCAD can\'t be open as it is from unidentified developer.\" 打开目录（应用程序）并且右击程序然后点击 "打开" 并 接受 以打开该应用程序。
+
+
+</div>
+
+
 
 ### 卸载
 

@@ -60,7 +60,7 @@ Se siete interessati ad aiutarci, nel progetto di FreeCAD rimane ancora molto la
 -   collaborare per creare i pacchetti dell\'ultima release di FreeCAD per il proprio sistema operativo preferito,
 -   o semplicemente far conoscere FreeCAD.
 
-La pagina [Contribuire](help_FreeCAD/it.md) descrive questo aspetto con maggiori dettagli. A partire dal 2016, FreeCAD partecipa anche al [Google Summer of Code](Google_Summer_of_Code/it.md). La pagina [Contributors hub](Contributors_hub/it.md) è un altro tentativo di raccogliere i modi possibili per contribuire al progetto FreeCAD.
+La pagina [Contribuire](Special:MyLanguage/help_FreeCAD/it.md) descrive tutto con maggiori dettagli. A partire dal 2016, FreeCAD partecipa anche al [Google Summer of Code](Google_Summer_of_Code.md).
 
 
 

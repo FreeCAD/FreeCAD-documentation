@@ -10,11 +10,15 @@
 
 # FEM ConstraintCentrif/pl
 
-## Description
 
-Defines a centrifugal body load.
 
-## Usage
+## Opis
+
+Definiuje obciążenie siłą odśrodkową bryły.
+
+
+
+## Użycie
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ConstraintCentrif.svg" width=16px> [FEM ConstraintCentrif](FEM_ConstraintCentrif.md)** button.

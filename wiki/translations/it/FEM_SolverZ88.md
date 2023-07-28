@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -22,6 +24,8 @@ To use the Z88 solver, the OpenSource version of Z88 (Z88OS) needs to be install
 1.  Download the ZIP file from the [Z88OS website](https://en.z88.de/download-z88os).
 2.  Extract the ZIP to a folder of your choice.
 3.  In the [FEM preferences](FEM_Preferences.md) go to the Z88 tab and there set the path to the **z88r** binary. If you are on Windows this would be the path to the file **z88r.exe** that is in the subfolder **~\bin\win64** of the folder where your extracted the ZIP.
+
+
 
 ## Utilizzo
 

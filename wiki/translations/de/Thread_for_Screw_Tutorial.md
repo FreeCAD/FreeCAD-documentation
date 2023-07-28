@@ -5,7 +5,7 @@
    Time: 60 Minuten
    Author:[DeepSOIC](User_DeepSOIC.md), [Murdic](User_Murdic.md), vocx
    FCVersion:0.19
-   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&t=44668 Aktualisiert: Gewinde für Schrauben Tutorium]
+   Files:[https://forum.freecad.org/viewtopic.php?f=36&t=44668 Aktualisiert: Gewinde für Schrauben Tutorium]
 ---
 
 # Thread for Screw Tutorial/de
@@ -13,116 +13,47 @@
 
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-
-</div>
 
 
 
 ## Einführung
 
-
-<div class="mw-translate-fuzzy">
-
-Dieses Tutorium ist eine Sammlung von Techniken zum Modellieren von Schraubengewinden in FreeCAD. Es wurde für v0.19 aktualisiert, obwohl der Gesamtprozess seit v0.14, als das Tutorial ursprünglich geschrieben wurde, im Wesentlichen gleich geblieben ist. Der aktualisierte Inhalt konzentriert sich auf die Verwendung der <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md), um das Gewinde zu erstellen, sowie neue Illustrationen für die Methoden 0 bis 3.
-
-
-</div>
+Dieses Tutorium ist eine Sammlung von Techniken zum Modellieren von Schraubengewinden in FreeCAD. Es wurde für v0.19 aktualisiert, obwohl der Gesamtprozess seit v0.14, als das Tutorial ursprünglich geschrieben wurde, im Wesentlichen gleich geblieben ist. Der aktualisierte Inhalt konzentriert sich auf den Arbeitsbereich <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md), um das Gewinde zu erstellen, verwendet aber nicht das Werkzeug <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:24px;"> [PartDesign WendelHinzufügen](PartDesign_AdditiveHelix.md), da dieses erst später eingeführt wurde.
 
 In herkömmlichen CAD Systemen wird von der Modellierung von Schraubengewinden abgeraten, da dies eine große Belastung für den Modellierungskern sowie für die Darstellung der Formen darstellt. In herkömmlichen Systemen muss ein Gewinde nicht direkt im 3D Raum dargestellt werden, da es in der technischen 2D Zeichnung, die zur Fertigung geschickt wird, mit seinen erforderlichen Eigenschaften angegeben werden kann. Mit der Popularisierung der additiven Fertigung (3D Druck) besteht nun jedoch ein echter Bedarf, 3D Gewinde zu modellieren, um sie genau so drucken zu können, wie sie entworfen wurden. Dafür ist dieses Tutorium gedacht.
 
-
-<div class="mw-translate-fuzzy">
-
 Viele der hier vorgestellten Techniken wurden aus verschiedenen Forumsbeiträgen zusammengetragen:
 
--   [Zusammenstellung von Gewindemodellierungstechniken](https://forum.freecadweb.org/viewtopic.php?f=3&t=12593)
--   [Erstellen eines Gewindes: Unerwartete Ergebnisse](https://forum.freecadweb.org/viewtopic.php?f=3&t=6506)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   [Zusammenstellung von Gewindemodellierungstechniken](https://forum.freecad.org/viewtopic.php?f=3&t=12593)
+-   [Erstellen eines Gewindes: Unerwartete Ergebnisse](https://forum.freecad.org/viewtopic.php?f=3&t=6506)
 
 Siehe auch hilfreiche Videos:
 
--   [Einführung einer Strategie zur Konstruktion einer Schraube ohne die häufig auftretenden Probleme](https://forum.freecadweb.org/viewtopic.php?f=8&t=44259).
-
-
-</div>
+-   [Einführung einer Strategie zur Konstruktion einer Schraube ohne die häufig auftretenden Probleme](https://forum.freecad.org/viewtopic.php?f=8&t=44259).
 
 Denke daran, dass Gewindeformen viel Speicherplatz beanspruchen und dass ein einziges Gewinde in einem Dokument die Dateigröße erheblich erhöhen kann, weshalb dem Benutzer empfohlen wird, Gewinde nur dann zu erstellen, wenn dies absolut notwendig ist.
 
 
 
+## Methode 1. Verwendung von Dienstprogrammen und Teilen der Arbeitsbereiche 
 
-<div class="mw-translate-fuzzy">
+Die Verwendung von Dienstprogrammen und Teilen, die andere Leute erstellt haben, ist einfach und zeitsparend. Siehe Seite [externe Arbeitsbereiche](external_workbenches/de.md) für Informationen über externe Werkzeuge.
 
-## Methode 0. Eins aus der Teilebibliothek beziehen 
+Insbesondere werden drei Quellen empfohlen, die über den [Addon-Manager](Std_AddonMgr/de.md) installiert werden können:
 
+-   Arbeitsbereich [Fasteners](Fasteners_Workbench/de.md), zum Hinzufügen sowie Befestigen verschiedener Verbindungselemente an Bauteilen. Die Schrauben und Muttern zeigen standardmäßig kein Gewinde, aber dies kann mit einer Option gesteuert werden.
+-   Arbeitsbereich [BOLTSFC](BOLTSFC_Workbench/de.md), um Verbindungselemente aus der BOLTS-Bibliothek zu positionieren.
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Die Verwendung von Modellen, die andere Leute geschaffen haben, ist einfach und zeitsparend. Sieh dir [externe Arbeitsbereiche](external_workbenches/de.md) Seite an zu Informationen über externe Werkzeuge.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Insbesondere werden zwei Ressourcen empfohlen, die über den [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert werden können:
-
--   [Verbindungselemente Arbeitsbereich](https://github.com/shaise/FreeCAD_FastenersWB), um parametrische Schrauben und Unterlegscheiben zu platzieren, die den ISO Normen entsprechen. Die Schrauben und Muttern zeigen standardmäßig kein Gewinde, aber dies kann mit einer Option gesteuert werden.
--   [BOLTSFC](https://github.com/berndhahnebach/BOLTSFC), um Normteile aus der BOLTS Bibliothek zu platzieren, die ebenfalls ISO Normen entsprechen.
-
-
-</div>
-
-<img alt="" src=images/T13_00_Threads_fasteners.png  style="width:" height="300px;">
-
-
-<div class="mw-translate-fuzzy">
+<img alt="" src=images/T13_00_Threads_fasteners.png  style="width:" height="300px;"> 
+*Verschiedene Normschrauben, die mit dem Arbeitsbereich Fasteners eingesetzt werden. Eine Option steuert, ob ein Objekt das echte Gewinde oder nur einen einfachen Zylinder zeigt.*
 
 
 
-*Verschiedene ISO Normschrauben, die mit dem Arbeitsbereich Verbindungselemente eingesetzt werden. Eine Option steuert, ob ein Objekt das echte Gewinde oder nur einen einfachen Zylinder zeigt.*
+## Methode 2. Verwendung von Makros (veraltet) 
 
+-   In der Vergangenheit wurden die Teile aus der BOLTS-Bibliothek mit dem [Makro BOLTS](Macro_BOLTS/de.md) eingefügt. Dies ist nun veraltet. Stattdessen wird der Arbeitsbereich [BOLTSFC](BOLTSFC_Workbench/de.md) verwendet.
 
-</div>
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-## Methode 1: Verwendung von Makros (veraltet) 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   In der Vergangenheit wurden die Teile aus der BOLTS Bibliothek mit [Makro BOLTS](Macro_BOLTS/de.md) eingefügt. Dies ist nun veraltet. Verwende stattdessen den BOLTSFC Arbeitsbereich.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   In der Vergangenheit wurde das autonome [Schraubenmacher Makro](Macro_screw_maker1_2/de.md) von ulrich1a verwendet, um einzelne Bolzen, Schrauben und Unterlegscheiben zu erstellen. Dies ist nun veraltet. Der Arbeitsbereich für Verbindungselemente von shaise enthält das Schraubenherstellungsmakro vollständig, zusammen mit einer Werkzeugleiste zur Auswahl der richtigen Komponente.
-
-
-</div>
+-   In der Vergangenheit wurde das autonome [Screw-Maker-Makro](Macro_screw_maker1_2/de.md) von ulrich1a verwendet, um einzelne Bolzen, Schrauben und Unterlegscheiben zu erstellen. Dies ist nun veraltet. Der Arbeitsbereich [Fasteners](Fasteners_Workbench/de.md) von shaise enthält das vollständige Screw-Maker-Makro zusammen mit einer Benutzerschnittstelle (GUI) zur Auswahl der richtigen Komponente.
 
 
 
@@ -180,13 +111,7 @@ Wenn du möchtest, kannst du einen **[<img src=images/PartDesign_AdditiveCylinde
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-### Part Design 
-
-
-</div>
+### Arbeitsbereich PartDesign 
 
 Ein echtes Gewinde besteht aus einem geschlossenen Profil, das einen Festkörper entlang einer spiralförmigen Bahn austrägt.
 
@@ -211,13 +136,7 @@ Ein echtes Gewinde besteht aus einem geschlossenen Profil, das einen Festkörper
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-### Part
-
-
-</div>
+### Arbeitsbereich Part 
 
 Dieser Arbeitsgang kann auch mit den Werkzeugen dem [Part Arbeitsbereich](Part_Workbench/de.md) durchgeführt werden.
 
@@ -231,45 +150,24 @@ Dieser Arbeitsgang kann auch mit den Werkzeugen dem [Part Arbeitsbereich](Part_W
 
 Nun kannst du fortfahren, andere Grundelemente wie **[<img src=images/Part_Cylinder.svg style="width:16px"> [Part Zylinder](Part_Cylinder/de.md)**, oder andere Formen, um **[<img src=images/Part_Fuse.svg style="width:16px"> [Part Verschmelzen](Part_Fuse/de.md)** auszuführen, und **[<img src=images/Part_Cut.svg style="width:16px"> [Part Schnitte](Part_Cut/de.md)** hinzuzufügen, um den Bau der Schraube abzuschließen.
 
-<img alt="" src=images/T13_14_Threads_components.png  style="width:" height="300px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Erstellen eines Gewindewendels durch Austragen eines vertikalen Profils, (1) das [Skizzenprofil](Sketch/de.md), (2) der [spiralförmige](Part_Helix/de.md) Austragungspfad und (3) das Ergebnis der [Austragung](Part_Sweep/de.md).*
-
-
-</div>
+<img alt="" src=images/T13_14_Threads_components.png  style="width:" height="300px;"> 
+*Erstellen einer Gewinde-Wendel durch Austragen eines vertikalen Profils, (1) das [Skizzenprofil](Sketch/de.md), (2) der [wendelförmige](Part_Helix/de.md) Austragungspfad und (3) das Ergebnis der [Austragung](Part_Sweep/de.md).*
 
 
 
 ### Tips für den Erfolg 
 
-
-<div class="mw-translate-fuzzy">
-
--    **Regel 1.**Wenn das Profil die Spirale austrägt, darf sich die resultierende feste Wendel nicht berühren oder sich selbst schneiden, da es sich dann um einen ungültigen Festkörper handelt. Dies gilt sowohl für das Profil, das sich entlang des Spirale bewegt, als auch für Schnittpunkte in der Mitte der Spirale. Versuche, damit boolsche Operationen durchzuführen (Verschmelzen oder Schneiden), werden sehr wahrscheinlich fehlschlagen. Prüfe die Qualität des Wendels mit **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part PrüfeGeometrie](Part_CheckGeometry.md)**; wenn Selbstüberschneidungen gemeldet werden, musst du die Steigung der Spirale erhöhen.
-
-
-</div>
+-    **Regel 1.**Wenn das Profil die Wendel austrägt, darf sich die resultierende feste Wendel nicht berühren oder sich selbst schneiden, da es sich dann um einen ungültigen Festkörper handelt. Dies gilt sowohl für das Profil, das sich entlang der Wendel bewegt, als auch für Schnittpunkte in der Mitte der Spirale. Versuche, damit boolesche Operationen durchzuführen (Vereinigen oder Schneiden), werden sehr wahrscheinlich fehlschlagen. Prüfe die Qualität der Wendel mit **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part GeometriePrüfen](Part_CheckGeometry.md)**; wenn Selbstüberschneidungen gemeldet werden, musst du die Steigung der Spirale erhöhen.
 
 <img alt="" src=images/T13_15_Threads_self_intersection.png  style="width:" height="300px;"> <img alt="" src=images/T13_16_Threads_no_self_intersections_OK.png  style="width:" height="300px;"> 
 *Links: ungültige Austragung, der durch die Verwendung einer sehr kleinen Steigung der Spirale im Vergleich zur Höhe des Dreiecksprofils erzeugt wurde. Rechts: Steigung, die ausreichend groß ist und keine Selbstüberschneidungen verursacht.*
 
+-    **Regel 2.**Wenn ein Zylinder zu einer Wendel hinzugefügt wird, um den Hauptschaft einer Schraube zu bilden, darf der Zylinder das Wendelprofil nicht berühren. Das heißt, der Zylinderradius und der Innenradius des Gewindes dürfen nicht gleich groß sein, da dies sehr wahrscheinlich zum Versagen eines Vereinigungsvorgangs führt.
 
-<div class="mw-translate-fuzzy">
+Im Allgemeinen vermeide Geometrie deckungsgleich mit Elementen der Austragung, wie z.B. tangentiale Flächen oder Kanten, die Flächen berühren, mit denen sie nicht verbunden sind. Um eine guten boolesche Vereinigung herzustellen, muss sich die ausgetragene Wendel und der Zylinder überschneiden. Prüfe die Qualität der Vereinigung mit **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part GeometriePrüfen](Part_CheckGeometry.md)**; Wenn komplanare Flächen gemeldet werden, erhöhe den Radius des Zylinders um einen kleinen Betrag.
 
--    **Regel 2.**Wenn ein Zylinder zu einem Wendel hinzugefügt wird, um den Hauptschaft einer Schraube zu bilden, darf der Zylinder das Wendelprofil nicht tangieren. Das heißt, der Zylinder darf nicht den gleichen Radius wie der Innenradius des Gewindes haben, da dies sehr wahrscheinlich zum Versagen eines Verschmelzungsvorgangs führt.
-
-Im Allgemeinen vermeide Geometrie deckungsgleich mit Elementen der Austragung, wie z.B. tangentiale Flächen oder Kanten, die Flächen berühren, mit denen sie nicht verbunden sind. Um eine guten boolesche Vereinigung herzustellen, muss sich der ausgetragene Wendel und der Zylinder kreuzen. Prüfe die Qualität der Verschmelzung mit **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part PrüfeGeometrie](Part_CheckGeometry.md)**; Wenn koplanare Flächen gemeldet werden, erhöhe den Radius des Zylinders um einen kleinen Betrag.
-
--   Wenn der Wendel und der Zylinder tangential verlaufen, kann es bei nachfolgenden boolschen Operationen mit einem dritten Festkörper fehlschlagen, selbst wenn die erste Verschmelzung erfolgreich ist.
--   Dies ist eine Begrenzung des OpenCASCADE Technology (OCCT)-Kerns; im Allgemeinen kommt er mit Operationen zwischen koplanaren Flächen nicht gut zurecht.
-
-
-</div>
+-   Wenn die Wendel und der Zylinder tangential verlaufen, kann es bei nachfolgenden booleschen Operationen mit einem dritten Festkörper fehlschlagen, selbst wenn die erste Vereinigung erfolgreich ist.
+-   Dies ist eine Einschränkung des OpenCASCADE-Technology- (OCCT-) Kerns; im Allgemeinen kommt er mit Operationen zwischen komplanaren Flächen nicht gut zurecht.
 
 <img alt="" src=images/T13_17_Threads_tangent_faces.png  style="width:" height="300px;"> <img alt="" src=images/T13_18_Threads_no_tangent_faces_OK.png  style="width:" height="300px;"> 
 *Links: der Massivzylinder verläuft tangential zum Innenradius des Gewindes ; dies kann zu einer ungültigen boolschen Vereinigung führen. Rechts: der Zylinder hat einen etwas größeren Radius, so dass sich die beiden Festkörper schneiden; dies führt zu einer gültigen Verschmelzung.*
@@ -286,15 +184,9 @@ Im Allgemeinen vermeide Geometrie deckungsgleich mit Elementen der Austragung, w
 
 ### Vor- und Nachteile 
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Leicht verständlich.
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Sehr natürliche Art der Festlegung eines Gewindeprofils.
--   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Keine Probleme mit der Netzbildung des resultierenden Objekts, im Gegensatz zu Methode 4.
-
-
-</div>
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Keine Probleme mit der Netzbildung des resultierenden Objekts, im Gegensatz zu Methode 5.
 
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Aufgrund der Ungültigkeit sich selbst überschneidender Austragungen ist es nahezu unmöglich, ein Gewinde ohne Lücke zwischen den einzelnen Zähnen zu erzeugen, d.h. ohne gerade zylindrische Fläche an den Innenseiten des Gewindes.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Boolesche Operationen sind erforderlich, um einen einzigen zusammenhängenden Festkörper zu erhalten. Die Berechnung boolescher Operationen nimmt relativ viel Zeit in Anspruch und schlägt häufig fehl.
@@ -320,13 +212,7 @@ Um ein Standard Sägezahnprofil zu erhalten, muss ein Paar gespiegelter archimed
 
 ### Generieren des Profils 
 
-
-<div class="mw-translate-fuzzy">
-
-Es ist nicht einfach, das horizontale Profil zu ermitteln, um ein bestimmtes vertikales Profil zu erhalten. Für einfache Fälle wie dreieckig oder trapezförmig kann es manuell konstruiert werden. Alternativ kann es konstruiert werden, indem man mit Methode 3 ein kurzes Gewinde erzeugt und ein Stück davon durch ein [Part Schnittmenge](Part_Common/de.md) zwischen einer horizontalen ebenen Fläche und dem Gewinde erhält.
-
-
-</div>
+Es ist nicht einfach, das horizontale Profil zu ermitteln, um ein bestimmtes vertikales Profil zu erhalten. Für einfache Fälle wie dreieckig oder trapezförmig kann es manuell konstruiert werden. Alternativ kann es konstruiert werden, indem man mit Methode 4. ein kurzes Gewinde erzeugt und ein Stück davon durch ein [Part Schnittmenge](Part_Common/de.md) zwischen einer horizontalen ebenen Fläche und dem Gewinde erhält.
 
 
 
@@ -361,13 +247,7 @@ Es ist nicht einfach, das horizontale Profil zu ermitteln, um ein bestimmtes ver
 
 Fertig.
 
-
-<div class="mw-translate-fuzzy">
-
-Die Schritt-für-Schritt Anleitung wurde diesem [Forumsantwort von Ulrich1a](http://forum.freecadweb.org/viewtopic.php?f=3&t=6506#p52558) entnommen. (\"Erstellen eines Gewindes: Unerwartete Ergebnisse\"), leicht modifiziert.
-
-
-</div>
+Die Schritt-für-Schritt Anleitung wurde diesem [Forumsantwort von Ulrich1a](http://forum.freecad.org/viewtopic.php?f=3&t=6506#p52558) entnommen. (\"Erstellen eines Gewindes: Unerwartete Ergebnisse\"), leicht modifiziert.
 
 Die Schritte werden auch in Aktion gezeigt auf [dieses Video von Gaurav Prabhudesai](http://www.youtube.com/watch?v=fxKxSOGbDYs) (\"FreeCAD : Wie Gewinde erstellen\").
 
@@ -375,37 +255,19 @@ Die Schritte werden auch in Aktion gezeigt auf [dieses Video von Gaurav Prabhude
 
 ### Vor- und Nachteile 
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> eine gebrauchsfertige, massive Gewinde-auf-einer-Stange Massivform wird direkt durch die Austragung erzeugt.
--   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Es werden weniger oder sogar keine booleschen Operationen erforderlich, so dass die Generierungsgeschwindigkeit im Vergleich zu Methode 3 sehr hoch ist.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Es werden weniger oder sogar keine booleschen Operationen erforderlich, so dass die Generierungsgeschwindigkeit im Vergleich zu Methode 4. sehr hoch ist.
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Gewindeenden werden sofort schön geschnitten
--   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> lange Gewinde sind kein Problem, es sei denn, es ist eine boolesche Operation erforderlich. Andernfalls wird sie nicht viel besser als Methode 3 sein.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> lange Gewinde sind kein Problem, es sei denn, es ist eine boolesche Operation erforderlich. Andernfalls wird sie nicht viel besser als Methode 4. sein.
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Gewinde ohne Lücke sind kein Problem.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> die Festlegung des Gewindeprofils ist kompliziert.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Die Verwendung des Standardnetz mit einem auf diese Weise erzeugten Gewinde erzeugt hässliche Netze, was zu Problemen führen kann. Andere Netze sind besser, z.B. scheint Mefisto die besten Ergebnisse zu liefern.
--   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> großer Speicherplatzbedarf gemäß der [Zusammenstellung von Gewinde-Modellierungstechniken](http://forum.freecadweb.org/viewtopic.php?f=3&t=12593&start=10#p101197).
-
-
-</div>
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> großer Speicherplatzbedarf gemäß der [Zusammenstellung von Gewinde-Modellierungstechniken](http://forum.freecad.org/viewtopic.php?f=3&t=12593&start=10#p101197).
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-## Methode 5. Ausformung zwischen wendelförmig extrudierten Flächen 
-
-
-</div>
+## Methode 6. Ausformung zwischen wendelförmig extrudierten Flächen 
 
 
 
@@ -426,9 +288,9 @@ ISO- und andere Gewinde haben reduzierte, d.h. flache, innere und äußere Kante
 Diese Methode erzeugt zuverlässige Festkörper, die korrekt boolesch sind. Obwohl sie keine \"parametrischen\" Schraubengewinde in Standardgrößen im Sinne eines einfachen Zugriffs auf die Form durch die Größe des Befestigungselements erzeugt, ist es eine einfache Möglichkeit, eine genaue Bibliothek zur Wiederverwendung zu erstellen, und Modelle von Spezialformen wie ACME oder archimedische Schrauben sind auch als Einzelstücke unkompliziert.
 
 
-  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+ {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Thread for Screw Tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Thread for Screw Tutorial/de

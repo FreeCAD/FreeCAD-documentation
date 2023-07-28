@@ -4,14 +4,19 @@
    Name/pl:Siatka: Wiele przekrojów
    MenuLocation:Siatki → Cięcie → Przekrój poprzeczny ...
    Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   Version:0.19
    SeeAlso:[Przekrój płaszczyzną](Mesh_SectionByPlane/pl.md)
 ---
 
 # Mesh CrossSections/pl
 
+
+
 ## Opis
 
 Polecenie **Wiele przekrojów** tworzy wiele przekrojów przez obiekty siatki. Przekroje są wykonywane równolegle do jednej z głównych płaszczyzn globalnych *(XY, XZ lub YZ)*. Dla każdego zestawu przekrojów tworzona jest pojedyncza [Cecha](Part_Feature/pl.md).
+
+
 
 ## Użycie
 
@@ -54,6 +59,8 @@ Polecenie **Wiele przekrojów** tworzy wiele przekrojów przez obiekty siatki. P
 8.  Naciśnij przycisk {{button|Zastosuj}}, aby utworzyć zestaw przekrojów.
 9.  Opcjonalnie zmień jedno lub więcej ustawień i utwórz dodatkowe zestawy przekrojów.
 10. Naciśnij przycisk {{button|OK}} lub przycisk {{button|Anuluj}}, aby zamknąć panel zadań i zakończyć polecenie.
+
+
 
 ## Właściwości
 

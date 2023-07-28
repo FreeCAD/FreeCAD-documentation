@@ -1,9 +1,13 @@
 # Package Metadata/pl
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 Począwszy od wersji 0.20 programu FreeCAD, zewnętrzne dodatki (środowiska pracy, makra i pakiety preferencji) mogą być dystrybuowane z plikiem metadanych opisującym zawartość pakietu. Jeżeli plik \"package.xml\" jest obecny, jest on odczytywany przez FreeCAD i jego zawartość jest wykorzystywana w różnych częściach interfejsu użytkownika. Obecnie jest on opcjonalny dla środowisk pracy i makrodefinicji, a wymagany dla pakietów preferencji. Ta strona dokumentuje format tego pliku metadanych. Format *(i zawartość tej strony Wiki)* są oparte na [REP 149](https://ros.org/reps/rep-0149.html).
+
+
 
 ## Ogólny format pliku 
 
@@ -95,9 +99,7 @@ An orphaned package is one with no current maintainer. Orphaned packages should 
 
 AT LEAST ONE REQUIRED (multiple allowed)
 
-Name of license for this package, e.g. BSD, GPL, LGPL. In order to assist machine readability, only include the license\'s SPDX short identifier (documented by OSI at [their site](https://opensource.org/licenses/alphabetical)). For multiple licenses multiple separate tags must be used. A package will have multiple licenses if different source files have different licenses. Every license occurring in the source files should have a corresponding  tag. For any explanatory text about licensing caveats, please use the  tag.
-
-Most common open-source licenses are described on the [OSI website](https://opensource.org/licenses/alphabetical).
+SPDX short identifier of the license(s) for this package, e.g. BSD-2-Clause, GPL-3, LGPL-2.1. In order to assist machine readability, only include the license\'s SPDX short identifier (see [the SPDX site](https://spdx.org/licenses/)). For multiple licenses multiple separate tags must be used. A package will have multiple licenses if different source files have different licenses. Every license occurring in the source files should have a corresponding  tag. For any explanatory text about licensing caveats, please use the  tag.
 
 Commonly-used license strings:
 
@@ -113,16 +115,16 @@ Commonly-used license strings:
 -    `"BSL-1.0"`
     
 
--    `"GPL-2"`
+-    `"GPL-2.0-or-later"`
     
 
--    `"GPL-3"`
+-    `"GPL-3.0-or-later"`
     
 
--    `"LGPL-2.1"`
+-    `"LGPL-2.1-or-later"`
     
 
--    `"LGPL-3"`
+-    `"LGPL-3.0-or-later"`
     
 
 -    `"MIT"`
@@ -131,7 +133,7 @@ Commonly-used license strings:
 -    `"MPL-1.1"`
     
 
--    `"CC0v1"`(Public Domain dedication)
+-    `"CC0-1.0"`(Public Domain dedication)
 
 #### Attributes 
 
@@ -209,6 +211,8 @@ When specifying the \"readme\" type, a direct link to a rendered version of the 
 
 It is a good idea to include  tags pointing users to your package\'s online resources. The website is commonly a wiki page on wiki.freecad.org where users can find and update information about the package, for example. The Addon Manager lists these URLs and provides clickable links to them in the package description.
 
+
+
 #### Atrybuty
 
 -   type=\"TYPE\" (required): The type should be one of the following identifiers: \"website\", \"bugtracker\", \"repository\", \"readme\", \"documentation\", or \"discussion\".
@@ -230,6 +234,8 @@ Multiple allowed
 
 Declares a dependency on another FreeCAD Addon or internal workbench, or Python package. The named dependency is first checked against the list of known Addons (e.g. those available either from the official FreeCAD Addons git repository, or those in a custom user-specified repository). The check is against the canonical name of the Addon. If a package.xml file is present for that Addon, the name is that package\'s  element. An exact match is required. If no match is found it is checked against the list of known internal workbenches (both installed and uninstalled). Finally, if the named dependency has not been located in the previous two steps it is assumed to be a Python package dependency. Note that not all dependency-related features are fully implemented yet.
 
+
+
 #### Atrybuty 
 
 All dependencies and relationships may restrict their applicability to particular versions. For each comparison operator an attribute can be used. Two of these attributes can be used together to describe a version range.
@@ -249,6 +255,8 @@ Multiple allowed
 
 Declares a package name with which this package conflicts. This package and the conflicting package should not be installed at the same time.
 
+
+
 #### Atrybuty 
 
 See .
@@ -258,6 +266,8 @@ See .
 Multiple allowed
 
 Declares a package name that this package is intended to replace.
+
+
 
 #### Atrybuty 
 
@@ -278,6 +288,8 @@ The maximum version of FreeCAD required to use package/element, as a semantic ve
 ###  
 
 (New in FreeCAD 0.21, ignored by previous versions.) The minimum version of Python required to use package/element, as a semantic version 2.0 string in the format MAJOR.MINOR. The Addon Manager will not permit an Addon to be installed on a system running a version of Python before this one. Only Python 3.x versions are supported. Although you may specify a three-component version, only the minor number is considered during the compatibility check.
+
+
 
 ## Sprawdzanie poprawności 
 
@@ -300,7 +312,7 @@ A simple workbench-only package (for example, to add a metadata file to a packag
       <version>1.0.1</version> 
       <date>2022-01-07</date> 
       <maintainer email="your_address@null.com">Your Name</maintainer>
-      <license file="LICENSE">LGPL-2.1</license> 
+      <license file="LICENSE">LGPL-2.1-or-later</license> 
       <url type="repository" branch="main">https://github.com/chennes/FreeCAD-Package</url> 
       <url type="readme">https://github.com/chennes/FreeCAD-Package/blob/main/README.md</url> 
       <icon>Resources/icons/PackageIcon.svg</icon> 
@@ -323,7 +335,7 @@ A complex, multi-component package:
       <version>2022.01</version>
       <date>2022-01-07</date>
       <maintainer email="no-one@freecad.org">No Maintainer</maintainer>
-      <license file="LICENSE">GPL-3</license>
+      <license file="LICENSE">GPL-3.0-or-later</license>
       <url type="repository" branch="main">https://github.com/chennes/FreeCAD-Package</url>
       <icon>PackageIcon.svg</icon>
 
@@ -363,7 +375,7 @@ A package with dependencies:
       <version>1.0.1-beta3</version>
       <date>2022-01-07</date>
       <maintainer email="no-one@freecad.org">No Maintainer</maintainer>
-      <license file="LICENSE">GPL-3</license>
+      <license file="LICENSE">GPL-3.0-or-later</license>
       <url type="repository" branch="main">https://github.com/chennes/FreeCAD-Package</url>
       <icon>PackageIcon.svg</icon>
 

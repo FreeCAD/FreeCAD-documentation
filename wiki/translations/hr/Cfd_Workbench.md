@@ -18,9 +18,9 @@ Computional Fluid Dynamics (CFD) for FreeCAD based on OpenFOAM solver
 
 Detailed description
 
-![](images/CFD-tools.png )
-
 ## Installation
+
+
 
 ### Automatska instalacija 
 

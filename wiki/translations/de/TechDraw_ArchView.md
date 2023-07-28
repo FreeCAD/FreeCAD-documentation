@@ -9,40 +9,67 @@
 
 # TechDraw ArchView/de
 
+
+</div>
+
+
+
 ## Beschreibung
 
-Das ArchAnsicht Werkzeug fügt eine Ansicht einer **<img src="images/Arch_SectionPlane.svg" width=16px> [Arch SchnittEbene](Arch_SectionPlane/de.md)** auf einer [TechDraw StandardSeite](TechDraw_PageDefault/de.md) ein.
+Das Werkzeug **TechDraw ArchAnsicht** fügt eine Ansicht einer **<img src="images/Arch_SectionPlane.svg" width=16px> [Arch Schnittebene](Arch_SectionPlane/de.md)** auf einem [TechDraw Zeichnungsblatt](TechDraw_PageDefault/de.md) ein.
 
 ![](images/TechDraw_Arch_example.jpg )
 
+
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Wähle eine Arch Schnittebene in der 3D Ansicht oder im Baum
 2.  Wenn du mehrere Zeichnungsseiten in deinem Dokument hast, musst du die gewünschte Seite im Baum auswählen.
 3.  Drücke die **<img src="images/TechDraw_ArchView.svg" width=24px> [Einfügen Arch Arbeitsbereichsobjekt](TechDraw_ArchView/de.md)** Schaltfläche
 4.  Eine Ansicht der Objekte, die von der Schnittebene gesehen werden, erscheint auf der Seite.
 
-### Begrenzungen
 
-Die ArchView wird innerhalb des [Arch Arbeitsbereichs](Arch_Workbench/de.md) gerendert, daher hat TechDraw nur begrenzte Kontrolle über sein Erscheinungsbild. Möglicherweise musst du Änderungen innerhalb von Arch vornehmen, um die gewünschte Darstellung zu erhalten.
+</div>
+
+
 
 ## Optionen
 
--   Die Arch Ansicht wird durch den [Arch-Arbeitsbereich](Arch_Workbench/de.md) gerendert, auf die gleiche Weise wie im [Arbeitsbereich Zeichnen](Drawing_Workbench.md). Siehe Anmerkungen.
--   [Entwurf Abmessungen](Draft_Snap_Dimensions/de.md), [Entwurf Texte](Draft_Text/de.md) und jedes andere 2D Objekt (Skizze oder Entwurf), das von der Schnittebene betrachtet wird, wird \"so wie es ist\" (kein Schnittpunkt oder verdeckte Linien) über der Volumenkörpergeometrie gerendert.
--   Das Volumen von [Arch Räume](Arch_Space/de.md) wird nicht gerendert, nur die Beschriftung wird gerendert
--   Schnittlinien, projizierte Linien (wenn die Ausgeblendet anzeigen Eigenschaft auf True gesetzt ist) und 2D Linien oben können mit unterschiedlichen Linienbreiten gerendert werden. Dies kann in den Arch Einstellungen konfiguriert werden.
--   Die ArchAnsicht verfügt über zwei Renderungsmodi: Wireframe, das die OpenCasCade Algorithmen des [Arbeitsbereich Zeichnen](Drawing_Workbench/de.md) verwendet, ist schnell und erzeugt nur Linien (keine Flächenfüllung möglich), und Festkörper, das auf dem [Maleralgorithmus](https://de.wikipedia.org/wiki/Maleralgorithmus) basiert und in der Lage ist, Flächen mit ihrer Formfarbe gefüllt darzustellen. Er ist jedoch viel langsamer und kann in vielen Situationen versagen. Die Abbildung unten veranschaulicht den Unterschied zwischen den beiden Renderungsmodi:
+-   Die Arch-Ansicht wird durch den Arbeitsbereich [Arch](Arch_Workbench/de.md) gerendert.
+-   [Draft-Maße](Draft_Snap_Dimensions/de.md), [Draft Texte](Draft_Text/de.md) und jedes andere 2D-Objekt (Skizze oder Entwurf), das von der Schnittebene betrachtet wird, wird \"so wie es ist\" (keine Schnitt- oder verdeckte Linien) über der Festkörpergeometrie gerendert.
+-   Das Volumen von [Arch-Räumen](Arch_Space/de.md) wird nicht gerendert, nur die Beschriftung wird gerendert
+-   Schnittlinien, projizierte Linien (wenn die Eigenschaft Show Hidden auf True gesetzt ist) und 2D-Linien darüber können mit unterschiedlichen Linienbreiten gerendert werden. Dies kann in den Arch-Einstellungen konfiguriert werden.
+-   Die Arch-Ansicht verfügt über zwei Rendermodi:
+    -   Wireframe, der die OpenCasCade-Algorithmen des Arbeitsbereichs [TechDraw](TechDraw_Workbench.md) verwendet, ist schnell und erzeugt nur Linien (keine Flächenfüllung möglich).
+    -   Solid (Festkörper), der auf dem [Maleralgorithmus](https://de.wikipedia.org/wiki/Maleralgorithmus) basiert und in der Lage ist, Flächen mit ihrer Formfarbe gefüllt darzustellen. Er ist jedoch viel langsamer und kann in vielen Situationen versagen.
 
-![](images/TechDraw_Arch_rendering.jpg )
+:   Die Abbildung unten veranschaulicht den Unterschied zwischen den beiden Rendermodi:
+
+
+
+
+
+:   ![](images/TechDraw_Arch_rendering.jpg )
 
 -   Nur die Basislinie von [Arch Rohre](Arch_Pipe/de.md) werden gerendert, nicht das volle Volumen des Rohrs:
 
-![](images/TechDraw_Arch_piping.jpg )
+:   ![](images/TechDraw_Arch_piping.jpg )
+
+## Notes
+
+Die ArchView wird innerhalb des [Arch Arbeitsbereichs](Arch_Workbench/de.md) gerendert, daher hat TechDraw nur begrenzte Kontrolle über sein Erscheinungsbild. Möglicherweise musst du Änderungen innerhalb von Arch vornehmen, um die gewünschte Darstellung zu erhalten.
+
+
 
 ## Eigenschaften
 
 Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
+
+
 
 ### Daten
 
@@ -68,6 +95,8 @@ Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
 -    {{PropertyData/de|Cut Line Width|Float}}: Linienbreite der Schnittlinien in dieser Ansicht.
 
 -    {{PropertyData/de|Join Arch|Bool}}: Wenn `True`, werden Wände und Strukturen mit Material vereinigt.
+
+
 
 ## Skripten
 

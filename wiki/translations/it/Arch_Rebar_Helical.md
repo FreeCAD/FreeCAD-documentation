@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Lo strumento [Armatura elicoidale](Arch_Rebar_Helical/it.md) consente all\'utente di creare una barra di rinforzo elicoidale continua all\'interno di un oggetto [Struttura](Arch_Structure/it.md).
@@ -34,7 +36,12 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 *Una barra di rinforzo elicoidale continua all'interno di una [Struttura](Arch_Structure/it.md)*
 
+
+
 ## Utilizzo
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Selezionare qualsiasi faccia di un oggetto **<img src="images/Arch_Structure.svg" width=16px> [Struttura](Arch_Structure/it.md)** creato in precedenza.
 
@@ -57,11 +64,17 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 10. Cliccare **Annulla** per uscire dal pannello delle azioni.
 
+
+</div>
+
+
 :   <img alt="" src=images/HelicalRebarDialog.png  style="width:250px;">
 
 
 
 *Pannello Azioni per lo strumento Armatura elicoidale di Arch*
+
+
 
 ## Proprietà
 
@@ -75,6 +88,11 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 -    {{PropertyData/it|Diameter}}: Diametro della barra elicoidale.
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Scripting
 
 
@@ -82,7 +100,21 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 [API Arch](Arch_API/it.md), [API Reinforcement](Reinforcement_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
+
+</div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Armatura elicoidale può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
+
+
+</div>
 
 
 ```python
@@ -97,6 +129,8 @@ Rebar = makeHelicalRebar(s_cover, b_cover, diameter, t_cover, pitch, structure=N
 -    `diameter`è il diametro della spirale di rinforzo all\'interno della struttura.
 
 -    `pitch`è il parametro che determina la distanza tra le spire dell\'armatura.
+
+
 
 ### Esempio
 

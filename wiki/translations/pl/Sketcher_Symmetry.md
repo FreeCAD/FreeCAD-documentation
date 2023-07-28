@@ -1,26 +1,31 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher Symmetry
-   MenuLocation:Sketch → Sketcher tools → Symmetry
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Odbicie lustrzane
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Odbicie lustrzane
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**Z** **S**
    Version:0.16
-   SeeAlso:[Sketcher MirrorSketch](Sketcher_MirrorSketch.md)
+   SeeAlso:[Odbicie lustrzane szkicu](Sketcher_MirrorSketch/pl.md)
 ---
 
 # Sketcher Symmetry/pl
 
-## Description
 
-Mirrors sketcher geometry in reference to a chosen line or sketch axis.
 
-## Usage
+## Opis
 
-1.  Select the geometry to be copied, then a line or sketch axis to be used as the symmetry axis.
-2.  Press the **[<img src=images/Sketcher_Symmetry.svg style="width:16px"> [Symmetry](Sketcher_Symmetry.md)** button or choose **Sketch → Sketcher tools → [<img src=images/Sketcher_Symmetry.svg style="width:16px"> Symmetry** from the top menu.
-3.  The selected geometry will be copied symmetrically to the selected line or sketch axis.
+Tworzy lustrzane odbicie geometrii szkicownika w odniesieniu do wybranej linii lub osi szkicu.
 
-Note that no extra symmetry constraint will be added.
+
+
+## Użycie
+
+1.  Wybierz geometrię, która ma być skopiowana, a następnie linię lub oś szkicu, która ma być użyta jako oś symetrii.
+2.  Naciśnij przycisk z menu głównego **[<img src=images/Sketcher_Symmetry.svg style="width:16px"> [Odbicie lustrzane](Sketcher_Symmetry/pl.md)** lub wybierz **Szkic → Narzędzia szkicownika → [<img src=images/Sketcher_Symmetry.svg style="width:16px"> Odbicie lustrzane**.
+3.  Wybrana geometria zostanie skopiowana symetrycznie do wybranej linii lub osi szkicu.
+
+Zauważ, że nie zostanie dodane żadne dodatkowe wiązanie symetrii.
 
 
 

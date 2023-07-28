@@ -1,8 +1,9 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ExtensionAreaAnnotation
-   MenuLocation:TechDraw → Extensions: Attributes/Modifications → Calculate the area of selected faces
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Rozszerzenie Oblicz obszar wybranych powierzchni
+   MenuLocation:Rysunek Techniczny → Rozszerzenie: Atrybuty / Modyfikatory → Oblicz obszar wybranych powierzchni
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
    SeeAlso:
@@ -10,20 +11,24 @@
 
 # TechDraw ExtensionAreaAnnotation/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_ExtensionAreaAnnotation.svg  style="width:24px;"> **TechDraw ExtensionAreaAnnotation** tool calculates the area of selected faces and inserts an area annotation. The tool cannot handle faces with curved edges.
+
+## Opis
+
+Narzędzie **Oblicz obszar wybranych powierzchni** oblicza obszar wybranych powierzchni i wstawia adnotację o obszarze. Narzędzie nie obsługuje powierzchni z zakrzywionymi krawędziami.
 
 <img alt="" src=images/TechDraw_ExtensionAreaAnnotationExample.png  style="width:400px;"> 
-*On the right the inserted area annotation*
+*Po prawej stronie widoczna jest adnotacja o zaznaczonym obszarze.*
 
-## Usage
 
-1.  Select one or more faces with only straight edges.
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionAreaAnnotation.svg" width=16px> [TechDraw ExtensionAreaAnnotation](TechDraw_ExtensionAreaAnnotation.md)** button.
-    -   Select the **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionAreaAnnotation.svg" width=16px> Calculate the area of selected faces** option from the menu.
-3.  The total area of the faces is calculated and an area annotation is inserted.
+
+## Użycie
+
+1.  Wybierz jedną lub więcej powierzchni z prostymi krawędziami.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionAreaAnnotation.svg" width=16px> '''Oblicz obszar wybranych powierzchni'''**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Rozszerzenia: Atrybuty / Modyfikatory → <img src="images/TechDraw_ExtensionAreaAnnotation.svg" width=16px> Oblicz obszar wybranych powierzchni**.
+3.  Zostanie obliczany całkowity obszar wybranej powierzchni i wstawiona adnotacja.
 
 
 

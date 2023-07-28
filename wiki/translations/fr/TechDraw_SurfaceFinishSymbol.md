@@ -9,9 +9,12 @@
 
 # TechDraw SurfaceFinishSymbol/fr
 
+
+</div>
+
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:24px;"> **TechDraw Symbole d\'état de surface** ajoute un symbole de finition de surface à une page.
+L\'outil **TechDraw Symbole d\'état de surface** ajoute un symbole de finition de surface à une page.
 
 <img alt="" src=images/TechDraw_SurfaceFinishSymbolExample1.png  style="width:330px;"> 
 *Le panneau des tâches avec le style ISO sélectionné. À droite, le symbole créé.*
@@ -23,6 +26,9 @@ L\'outil <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:2
 
 ## Utilisation
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Sélectionnez une vue existante.
 2.  Appuyez sur le bouton **<img src="images/TechDraw_SurfaceFinishSymbol.svg" width=16px> [Ajouter un symbole d'état de surface](TechDraw_SurfaceFinishSymbol/fr.md)**.
 3.  Un panneau de tâches s\'ouvre. Il permet de définir les symboles de finition de surface et le texte d\'accompagnement à ajouter à la page.
@@ -31,6 +37,9 @@ L\'outil <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:2
 6.  Sélectionnez le style **ISO** ou **ASME**.
 7.  Sélectionnez ou saisissez les attributs requis.
 8.  Appuyez sur le bouton **OK**.
+
+
+</div>
 
 
 

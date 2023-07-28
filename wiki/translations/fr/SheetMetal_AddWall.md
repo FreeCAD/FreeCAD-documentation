@@ -23,6 +23,8 @@ La réinitialisation de la propriété **angle** à environ 180° dans une deuxi
 <img alt="" src=images/SheetMetal_AddWall-14.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddWall-15.png  style="width:200px;"> 
 *Deux bords sélectionnés → deux ourlets*
 
+
+
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs bords d\'une plaque de base.
@@ -30,6 +32,8 @@ La réinitialisation de la propriété **angle** à environ 180° dans une deuxi
     -   Le bouton **<img src="images/SheetMetal_AddWall.svg" width=16px> [Make Wall](SheetMetal_AddWall/fr.md)**.
     -   L\'option de menu **SheetMetal → <img src="images/SheetMetal_AddWall.svg" width=16px> Make Wall**.
     -   Le raccourci clavier : **W**.
+
+
 
 ## Remarques
 
@@ -56,11 +60,15 @@ Pour créer une ébauche avec l\'[atelier PartDesign](PartDesign_Workbench/fr.md
 
 Si vous commencez avec un <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [PartDesign Corps](PartDesign_Body/fr.md), vous pouvez mélanger des caractéristiques de SheetMetal avec des caractéristiques PartDesign telles que <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [PartDesign Cavité](PartDesign_Pocket/fr.md) ou <img alt="" src=images/PartDesign_Hole.svg  style="width:16px;"> [PartDesign Perçages](PartDesign_Hole/fr.md).
 
+
+
 ## Propriétés
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet SheetMetal Bend est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 
@@ -76,27 +84,32 @@ Un objet SheetMetal Bend est dérivé d\'un objet [Part Feature](Part_Feature/fr
 
 {{Properties_Title|Parameters}}
 
--    **Bend Type|Enumeration**: \"Type de pliage\". {{value|Material Outside}}, {{value|Material Inside}}, {{value|Thickness Outside}}. (par défaut), {{value|Material Inside}}, {{value|Thickness Outside}}, {{value|Offset}}.
+-    **Bend Type|Enumeration**: \"type de pliage\". {{value|Material Outside}}, {{value|Material Inside}}, {{value|Thickness Outside}}. (par défaut), {{value|Material Inside}}, {{value|Thickness Outside}}, {{value|Offset}}.
 
--    **Length Spec|Enumeration**: \"Type de spécification de longueur\". {{value|Leg}} (par défaut), {{value|Outer Sharp}}, {{value|Inner Sharp}}, {{value|Tangential}}. {{Version/fr|1.0}}
+-    **Length Spec|Enumeration**: \"type de spécification de longueur\". {{value|Leg}} (par défaut), {{value|Outer Sharp}}, {{value|Inner Sharp}}, {{value|Tangential}}. {{Version/fr|0.21}}
 
--    **angle|Angle**: \"Angle de pliage\". Angle par défaut : {{value|90,00°}}.
+-    **angle|Angle**: \"angle de pliage\". Angle par défaut : {{value|90,00°}}.
 
--    **base Object|LinkSub**: \"Objet de base\". Lien vers la face planaire devant recevoir une courbure.
+-    **base Object|LinkSub**: \"objet de base\". Lien vers la face planaire devant recevoir une courbure.
 
--    **gap1|Distance**: \"Ecart par rapport au côté gauche\". Valeur par défaut : {{value|0,00 mm}}.
+-    **gap1|Distance**: \"écart par rapport au côté gauche\". Valeur par défaut : {{value|0,00 mm}}.
 
--    **gap2|Distance**: \"Ecart depuis le côté droit\". Valeur par défaut : {{value|0,00 mm}}.
+-    **gap2|Distance**: \"écart depuis le côté droit\". Valeur par défaut : {{value|0,00 mm}}.
 
--    **invert|Bool} :} "Inverser la direction du pliage". Valeur par défaut : {{FALSE**.
-    * **length|Length** : "Longueur du mur". Valeur par défaut : {{value|10,00 mm}}.
-    * **radius|Length** : "Rayon de courbure". Valeur par défaut : {{value|1,00 mm}}.
+-    **invert|Bool**: \"inverser la direction du pliage\". Valeur par défaut : `False`.
 
-    {{Properties_Title|Parameters Ex}}
+-    **length|Length**: \"longueur de la paroi\". Valeur par défaut : {{value|10,00 mm}}.
 
-    * **Auto Miter|Bool** : "Activer l'onglet automatique". Valeur par défaut : `True`.
-    * **extend1|Distance** : "Étendre à partir du côté gauche". Valeur par défaut : {{value|0,00 mm}}.
-    * **extend2|Distance} :} "Extension à partir du côté droit". Valeur par défaut : {{value|0,00 mm**.
+-    **radius|Length**: \"rayon de courbure\". Valeur par défaut : {{value|1,00 mm}}.
+
+
+{{Properties_Title|Parameters Ex}}
+
+-    **Auto Miter|Bool**: \"Activer l\'onglet automatique\". Valeur par défaut : `True`.
+
+-    **extend1|Distance**: \"Étendre à partir du côté gauche\". Valeur par défaut : {{value|0,00 mm}}.
+
+-    **extend2|Distance} :} "Extension à partir du côté droit". Valeur par défaut : {{value|0,00 mm**.
     * **kfactor|FloatConstraint** : "Emplacement de la ligne neutre. Attention : Utiliser les normes ANSI et non DIN.". </br>Par défaut : {{value|0,50}}. Facteur K (également connu sous le nom de facteur neutre) pour le coude. Utilisé pour calculer la marge de pliage lors du dépliage.
     * **max Extend Dist|Length** : "Distance maximale d'extension de l'onglet automatique". Valeur par défaut : {{value|5,00 mm}}.
     * **min Gap|Length** : "L'espacement minimum de l'onglet automatique. Valeur par défaut : {{value|5,00 mm}}.
@@ -125,6 +138,7 @@ Un objet SheetMetal Bend est dérivé d\'un objet [Part Feature](Part_Feature/fr
     * **reliefd|Length** : "Profondeur du relief". Valeur par défaut : {{value|1,00 mm}}. Activé uniquement lorsqu'une valeur d'écart est définie.
     * **reliefw|Length** : "Largeur du relief". Valeur par défaut : {{value|0,80 mm}}. Activé uniquement lorsqu'une valeur d'écart est définie.
 
+    <span id="Example"></span>
     == Exemple ==
 
     <img src="images/SheetMetal_AddWall-01.png" width=300px>
@@ -133,6 +147,7 @@ Un objet SheetMetal Bend est dérivé d\'un objet [Part Feature](Part_Feature/fr
     <div class="mw-collapsible mw-collapsed">
     <div class="mw-collapsible-content">
 
+    <span id="Preparation"></span>
     === Préparation ===
 
     Ce plateau est constitué d'une ébauche rectangulaire à laquelle on a ajouté des parois sur les bords de son contour. Il faut donc préparer à l'avance un croquis de contour pour l'ébauche.
@@ -141,6 +156,7 @@ Un objet SheetMetal Bend est dérivé d\'un objet [Part Feature](Part_Feature/fr
     
 *Un simple contour rectangulaire*
 
+    <span id="Workflow"></span>
     === Déroulement des tâches ===
 
     ## Créer une ébauche
@@ -164,8 +180,7 @@ Un objet SheetMetal Bend est dérivé d\'un objet [Part Feature](Part_Feature/fr
     
 
     [[Category:SheetMetal]]
-    [[Category:Addons]]
-    [[Category:External Command Reference\]\]
+    [[Category:Addons\]\]
 
 
 

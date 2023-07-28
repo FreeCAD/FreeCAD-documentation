@@ -1,6 +1,8 @@
 # Part Feature/pl
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 <img alt="" src=images/Part_3D_object.svg  style="width:32px;">
@@ -15,6 +17,8 @@ Cecha części jest klasą nadrzędną dla większości obiektów 2D *(Rysunek r
 
 *Uproszczony diagram zależności pomiędzy podstawowymi obiektami w programie FreeCAD.*
 
+
+
 ## Użycie
 
 Obiekt [cecha części](Part_Feature/pl.md) jest obiektem wewnętrznym, więc nie można go utworzyć z poziomu interfejsu graficznego, tylko z poziomu [konsoli Python](Python_console/pl.md) jak opisano w sekcji [tworzenie skryptów](Part_Feature/pl#Tworzenie_skrypt.C3.B3w.md).
@@ -28,6 +32,8 @@ jest również klasą nadrzędną [zawartości Projektu części](PartDesign_Bod
 
 Środowisko pracy może dodać więcej właściwości do tego podstawowego elementu, aby stworzyć obiekt o złożonym wyglądzie.
 
+
+
 ## Własności
 
 Zobacz stronę [Właściwości](Property/pl.md) dla wszystkich typów właściwości, które mogą mieć obiekty tworzone skryptami.
@@ -36,10 +42,12 @@ Zobacz stronę [Właściwości](Property/pl.md) dla wszystkich typów właściwo
 
 Są to właściwości dostępne w [edytorze właściwości\|](Property_editor/pl.md). Ukryte właściwości można pokazać za pomocą polecenia **Wyświetl wszystko** w menu kontekstowym okna [edycji właściwości](Property_editor/pl.md).
 
+
+
 ### Dane
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Pośrednik|PythonObject|Ukryte**: klasa własna związana z tym obiektem. Występuje to tylko w wersji [Python](Python/pl.md). Zobacz rozdział [tworzenie skryptów](#Tworzenie_skrypt.C3.B3w.md).
 
@@ -69,6 +77,8 @@ Są to właściwości dostępne w [edytorze właściwości\|](Property_editor/pl
 -    **Silnik wyrażeń|ExpressionEngine|Ukryte**: lista wyrażeń. Domyślnie jest ona pusta {{value|[]}}.
 
 -    **Widoczność|Bool|Ukryte**: określa, czy obiekt ma być wyświetlany, czy nie.
+
+
 
 ### Widok
 
@@ -134,6 +144,8 @@ Większość obiektów we FreeCAD ma coś, co nazywa się „[dostawca widoku](V
 
 -    **Styl wyboru|Enumeration**: kontroluje sposób podświetlania obiektu. Jeśli wybrano {{value|Kształt}}, cały kształt *(wierzchołki, krawędzie i ściany)* będzie podświetlony w [widoku 3D](3D_view/pl.md); jeśli jest to {{value|Ramka otaczająca}}, pole ograniczające pojawi się wokół obiektu i zostanie podświetlone.
 
+
+
 ### Ugięcie kątowe i odchylenie 
 
 <img alt="" src=images/View_property_Deviation.svg  style="width:500px;"> 
@@ -147,6 +159,8 @@ deviation_in_mm = (w + h + d)/3 * deviation/100
 ```
 
 gdzie {{value|w}}, {{value|h}}, {{value|d}} są wymiarami ramki otaczającej.
+
+
 
 ## Tworzenie skryptów 
 
@@ -177,6 +191,8 @@ obj = App.ActiveDocument.addObject("Part::FeaturePython", "Name")
 obj.Label = "Custom label"
 ```
 
+
+
 ### Nazwa
 
 Zobacz również: [Nazwa obiektu](Object_name/pl.md), aby uzyskać więcej informacji na temat właściwości `Nazwy`.
@@ -185,6 +201,8 @@ Metoda `addObject` posiada dwa podstawowe argumenty typu string.
 
 -   Pierwszy argument wskazuje typ obiektu, w tym przypadku `"Part::FeaturePython"`.
 -   Drugi argument jest łańcuchem określającym atrybut `Name`. Jeśli nie zostanie podany, domyślnie przyjmuje taką samą nazwę jak klasa, czyli `"Part__FeaturePython"`. Nazwa `Name` może zawierać tylko proste znaki alfanumeryczne oraz podkreślnik, `[_0-9a-zA-Z]`. Jeśli podane zostaną inne symbole, zostaną one zamienione na znaki podkreślenia, na przykład `"A+B:C*"` jest zamieniane na `"A_B_C_"`.
+
+
 
 ### Etykieta
 

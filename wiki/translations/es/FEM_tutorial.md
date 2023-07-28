@@ -51,6 +51,8 @@ Este tutorial tiene como propósito el introducir al lector a la forma de trabaj
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Procedimiento
@@ -196,9 +198,11 @@ Hemos mallado nuestro objeto y estamos listos para agregar restricciones y fuerz
 We are now finished with the basic workflow for the [FEM Workbench](FEM_Workbench.md).
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM tutorial/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM tutorial/es

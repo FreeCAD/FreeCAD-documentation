@@ -10,6 +10,8 @@
 
 # Sketcher CreateFillet/pl
 
+
+
 ## Opis
 
 To narzędzie tworzy zaokrąglenie pomiędzy dwoma liniami.
@@ -17,6 +19,8 @@ To narzędzie tworzy zaokrąglenie pomiędzy dwoma liniami.
 Po uruchomieniu narzędzia zaznaczenia są usuwane, a kursor myszki zmienia się w biały krzyżyk z czerwoną ikoną zaokrąglenia. Pozostaje on aktywny, dzięki czemu można wykonać wiele zaokrągleń.
 
 ![](images/SketcherCreateFilletExample.png‎ )
+
+
 
 ## Użycie
 

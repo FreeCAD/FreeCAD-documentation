@@ -2,60 +2,51 @@
 - GuiCommand:/it
    Name:Std ToggleClipPlane
    Name/it:Piano di taglio
-   Empty:1
    MenuLocation:Visualizza → Piano di taglio
    Workbenches:Tutti
+   SeeAlso:[Taglio sezione persistente](Part_SectionCut/it.md)
 ---
 
 # Std ToggleClipPlane/it
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Un **piano di taglio** divide lo spazio dell\'oggetto in due metà. Tutte le parti dell\'oggetto che si trovano in un semispazio sono visibili, mentre le parti nell\'altra metà sono invisibili. Gli oggetti sembrano affettati e diventano visibili i dettagli interni. Il piano si attiva nel menu **Visualizza → Piano di taglio**.
-
-
-</div>
+Il comando **Piano di taglio** nasconde temporaneamente oggetti e parti di oggetti su un lato di un massimo di tre piani virtuali nella [Vista 3D](3D_view/it.md) attiva.
 
 ![](images/Std_ToggleClipPlane_example.png ) 
-*A clipped hollow object*
+*Un oggetto cavo ritagliato*
 
-![](images/Std_ToggleClipPlane_taskpanel.png ) 
-*The Clipping task panel*
+![](images/Std_ToggleClipPlane_Dialog.png ) 
+*La finestra dialogo delle attività di ritaglio*
+
+
 
 ## Utilizzo
 
-1.  Select the **View → <img src="images/Std_ToggleClipPlane.svg" width=16px> Clipping plane** option from the menu.
-2.  In the Clipping task panel do one of the following:
-    -   Check one or more of the {{CheckBox|TRUE|Clipping X}} to {{CheckBox|TRUE|Clipping Z}} checkboxes.
-        -   Optionally change the offset distance(s).
-        -   Optionally press the **Flip** button(s) to change the side of the clipping plane objects are hidden on.
-    -   Check the {{CheckBox|TRUE|Clipping custom direction}} checkbox.
-        -   Optionally change the offset distance.
-        -   Do one of the following:
-            -   Press the **View** button to use the direction of the current view.
-            -   Check the {{CheckBox|TRUE|Adjust to view direction}} checkbox for a direction that dynamically adepts to view changes.
-            -   Specify the direction by entering the X, Y and Z coordinates of a normal vector.
-3.  Optionally change the view to inspect the model.
-4.  Press the **Close** button to close the task panel and finish the command.
+1.  Selezionare l\'opzione **Visualizza → <img src="images/Std_ToggleClipPlane.svg" width=16px> Piano di taglio** dal menu.
+2.  Nella finestra dialogo delle attività di ritaglio, eseguire una delle seguenti operazioni:
+    -   Selezionare una o più caselle di controllo da {{CheckBox|TRUE|Clipping X}} a {{CheckBox|TRUE|Clipping Z}}.
+        -   Facoltativamente, modificare la/le distanza/e di offset.
+        -   Facoltativamente, premere il/i pulsante/i **Flip** per cambiare il lato del piano di taglio su cui sono nascosti gli oggetti.
+    -   Selezionare la casella di controllo {{CheckBox|TRUE|Ritaglio in direzione personalizzata}}.
+        -   Facoltativamente, modificare la distanza di offset.
+        -   Effettuare una delle seguenti operazioni:
+            -   Premere il pulsante **Visualizza** per utilizzare la direzione della vista corrente.
+            -   Selezionare la casella di controllo {{CheckBox|TRUE|Orienta in direzione della vista}} per una direzione che si adatta dinamicamente ai cambiamenti della vista.
+            -   Specificare la direzione inserendo le coordinate X, Y e Z di un vettore normale.
+3.  Facoltativamente, modificare la vista per ispezionare il modello.
+4.  Premere il pulsante **Chiudi** per chiudere il pannello delle attività e terminare il comando.
+
+
 
 ## Note
 
--   To clearly distinguish the interior of partially clipped objects change their **Lighting** property to \'One side\'. The color of the interior side of their faces will then depend on the backlight settings: **Edit → Preferences... → Display → 3D View → Backlight color - Intensity**. See [Preferences Editor](Preferences_Editor#3D_View.md).
-
-
-<div class="mw-translate-fuzzy">
+-   Per distinguere chiaramente l\'interno di oggetti parzialmente tagliati, cambiare la loro proprietà {{PropertyView/it|Illuminazione}} in \'Un lato\'. Il colore del lato interno delle loro facce dipenderà quindi dalle impostazioni di retroilluminazione: **Modifica → Preferenze... → Visualizzazione → Vista 3D → Colore retroilluminazione - Intensità**. Vedi [Editor delle preferenze](Preferences_Editor/it#Vista_3D.md).
 
 
 
-
-
-</div>
 
 
 {{Std_Base_navi

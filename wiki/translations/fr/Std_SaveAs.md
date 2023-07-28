@@ -13,6 +13,8 @@
 
 La commande **Std Enregistrer sous** enregistre le document actif sous un nouveau nom de fichier.
 
+
+
 ## Utilisation
 
 1.  Sélectionnez l\'option **Fichier → <img src="images/Std_SaveAs.svg" width=16px> Enregistrer sous...** dans le menu.
@@ -23,18 +25,24 @@ La commande **Std Enregistrer sous** enregistre le document actif sous un nouvea
 
 -   Appuyez sur **Echap** ou sur le bouton **Annuler** pour annuler la commande.
 
+
+
 ## Remarques
 
 -   Cette commande peut également être utilisée pour enregistrer des graphiques de dépendance. Voir [Std Graphique de dépendance](Std_DependencyGraph/fr.md).
 
+
+
 ## Préférences
 
--   Le dernier emplacement de fichier utilisé est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Le dernier emplacement de fichier utilisé est stocké: **Outils → Éditer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
+
+
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

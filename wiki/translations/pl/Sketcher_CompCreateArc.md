@@ -1,17 +1,20 @@
 ---
 - GuiCommand:/pl
-   Name:Sketcher Arcs
-   Name/pl:Szkicownik: Utwórz łuk w szkicowniku
-   Icon:Sketcher_CompCreateArc.png
+   Name:Sketcher CompCreateArc
+   Name/pl:Szkicownik: Komponent Utwórz łuk
    MenuLocation:''(tylko pasek narzędzi)''
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
 ---
 
 # Sketcher CompCreateArc/pl
 
+
+
 ## Opis
 
 **Utwórz łuk** jest przyciskiem na pasku narzędzi geometrii szkicownika, który grupuje narzędzia do tworzenia łuku poprzez wybranie trzech punktów. Kliknij na strzałkę w dół po prawej stronie ikonki przycisku, by rozwinąć umieszczone pod nią ikony i wybrać odpowiednie narzędzie.
+
+
 
 ## Dostępne metody dla łuków 
 

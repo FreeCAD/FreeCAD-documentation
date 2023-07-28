@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -27,7 +29,7 @@ Cuando se inicia esta herramienta, el puntero del ratón cambia a una cruz blanc
 
 To define a rectangle via a center point and an edge point, use the [Centered rectangle](Sketcher_CreateRectangle_Center.md) tool.
 
-![](images/SketcherCreateRectangleExample.png‎ )
+![](images/SketcherCreateRectangleExample.png‎ ) 
 
 ## Utilización
 

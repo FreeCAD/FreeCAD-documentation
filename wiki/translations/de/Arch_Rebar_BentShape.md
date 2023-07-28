@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Beschreibung
 
 Das [Abgewinkelter Bewehrungsstab](Arch_Rebar_BentShape/de.md)-Werkzeug erlaubt es dem Anwender, einen Satz von abgewinkelten Bewehrungsstäben in einem [Struktur](Arch_Structure/de.md)-Objekt zu erstellen.
@@ -23,7 +25,12 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 <img alt="" src=images/Arch_Rebar_BentShape_example.png  style="width:400px;"> 
 *Zwei Sätze von abgewinkelten Bewehrungsstäben in einer [Struktur](Arch_Structure/de.md)*
 
+
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Wähle eine beliebige Fläche eines vorher erstellten **<img src="images/Arch_Structure.svg" width=16px> [Struktur](Arch_Structure/de.md)**-Objekts.
 2.  Wähle dann **<img src="images/Arch_Rebar_BentShape.svg" width=16px> [Abgewinkelter Bewehrungsstab](Arch_Rebar_BentShape/de.md)** aus den Bewehrungsstab-Werkzeugen.
@@ -36,11 +43,17 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 9.  Klicke **OK** oder **Anwenden** zur Erzeugung der Bewehrungsstäbe.
 10. Klicke **Abbrechen** zum Verlassen des Aufgaben-Paneels.
 
+
+</div>
+
+
 :   <img alt="" src=images/BentShapeDialog.png  style="width:250px;">
 
 
 
 *Aufgaben-Ansicht für das Arch Bewehrungsstab abgewinkelt-Werkzeug*
+
+
 
 ## Eigenschaften
 
@@ -64,6 +77,11 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 -    {{PropertyData/de|Spacing}}: Der Abstand zwischen den Achsen jedes Bewehrungsstabs.
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Scripting
 
 
@@ -71,7 +89,23 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 [Arch API](Arch_API/de.md),[Reinforcement-API](Reinforcement_API/de.md) und [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/de.md).
 
-Das Abgewinkelter Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden: 
+
+</div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
+<div class="mw-translate-fuzzy">
+
+Das Abgewinkelter Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden:
+
+
+</div>
+
+
 ```python
 Rebar = makeBentShapeRebar(f_cover, b_cover, l_cover, r_cover,
                            diameter, t_cover, bentLength, bentAngle, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom",
@@ -95,6 +129,8 @@ Rebar = makeBentShapeRebar(f_cover, b_cover, l_cover, r_cover,
 
 -    `orientation`gibt die Ausrichtung der Bewehrung an; möglich sind `"Bottom"` (unten), `"Top"` (oben), `"Left"` (links) oder `"Right"` (rechts) sein.
 
+
+
 ### Beispiel
 
 
@@ -113,6 +149,8 @@ Rebar2 = BentShapeRebar.makeBentShapeRebar(50, 40, 20, 20,
                                            8, 20, 100, 135, 2, True, 4, "Bottom", Structure, "Face6")
 Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9) 
 ```
+
+
 
 ### Anpassung des Bewehrungsstabs 
 

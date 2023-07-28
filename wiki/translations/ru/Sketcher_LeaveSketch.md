@@ -9,21 +9,21 @@
 
 # Sketcher LeaveSketch/ru
 
+
+
 ## Описание
 
 Команда **Покинуть эскиз** выводит из режима редактирования эскиза и очищает вкладку [Задачи](Task_panel/ru.md).
 
+
+
 ## Применение
 
+Есть несколько способов вызвать инструмент Покинуть эскиз:
 
-<div class="mw-translate-fuzzy">
-
-1.  Есть несколько способов вызвать инструмент the Sketcher LeaveSketch:
-    -   Нажать кнопку **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Leave sketch](Sketcher_LeaveSketch/ru.md)**
-    -   Нажать кнопку **Close** наверху вкладки [Задачи](Task_panel/ru.md).
-
-
-</div>
+-   Нажмите кнопку **Закрыть** в верхней части [панели задач](Task_panel.md).
+-   Нажмите кнопку **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Покинуть эскиз](Sketcher_LeaveSketch/ru.md)**.
+-   Выберите в меню пункт **Sketch → [<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> Покинуть эскиз**.
 
 
 <div class="mw-translate-fuzzy">

@@ -37,13 +37,7 @@ Fügt einen Zylinder-Grundkörper in den aktiven Körper (Body-Objekt) ein. Sein
 
 ## Optionen
 
-
-<div class="mw-translate-fuzzy">
-
 Es ist möglich, schräge Zylinder durch Angabe von Winkeln mit Bezug auf den Normalenvektor der gewählten Befestigung zu erzeugen. {{Version/de|0.20}}
-
-
-</div>
 
 Der Zylinder kann nach der Erstellung auf zwei Arten bearbeitet werden:
 

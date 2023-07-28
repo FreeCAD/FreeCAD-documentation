@@ -35,13 +35,7 @@ Veranschaulichen der Erstellung eines <img alt="" src=images/Workbench_Path.svg 
 
 orientierten Skizze.
 
-
-<div class="mw-translate-fuzzy">
-
-Mit dem fertiggestellten 3D Modell wird der Pfad Arbeitsbereich ausgewählt.
-
-
-</div>
+2\. Ist das 3D-Modell fertiggestellt, wird mit der [Arbeitsbereichsauswahl](Std_Workbench/de.md) (Ausklappmenü) zum Arbeitsbereich <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Path](Path_Workbench/de.md) gewechselt.
 
 
 <div class="mw-translate-fuzzy">
@@ -317,9 +311,11 @@ Der letzte Schritt zur Erzeugung von G-Code für die Zielfräse ist die Nachbear
 </div>
 
 
- {{Path Tools navi}}
+{{Path Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/de

@@ -129,9 +129,9 @@ Enfin, j\' ai changé la couleur de certains murs pour une couleur brique (c\'es
 
 ## Elever la structure 
 
-Maintenant, puisque nous devons réduire nos murs avec un volume à soustraire, nous devrions aussi bien vérifier si il n\'y a pas d\'autres objets qui devront être coupés de cette façon. Il existe certaines colonnes. C\'est une bonne occasion de présenter un second objet arch : l[Arch Structure](Arch_Structure/fr.md). Les objets Structure se comportent plus ou moins comme les murs, mais ils ne sont pas faits pour suivre une ligne de base. Au contraire, ils préfèrent travailler à partir d\'un profil, qui est extrudé (le long d\'une ligne de profil ou non). Tout objet plat peut être un profil pour une structure, avec une seule exigence : ils doivent former une forme fermée.
+Maintenant, puisque nous devons réduire nos murs avec un volume à soustraire, nous devrions aussi bien vérifier si il n\'y a pas d\'autres objets qui devront être coupés de cette façon. Il existe certaines colonnes. C\'est une bonne occasion de présenter un second objet Arch : [Arch Structure](Arch_Structure/fr.md). Les objets Structure se comportent plus ou moins comme les murs, mais ils ne sont pas faits pour suivre une ligne de base. Au contraire, ils préfèrent travailler à partir d\'un profil, qui est extrudé (le long d\'une ligne de profil ou non). Tout objet plat peut être un profil pour une structure, avec une seule exigence : ils doivent former une forme fermée.
 
-Pour nos colonnes, nous allons utiliser une autre stratégie qu\'avec les murs. Au lieu de \"dessins\" au-dessus du plan 2D, nous allons utiliser directement les objets de celles-ci : les cercles représentent les colonnes dans la vue en plan. En théorie, nous pourrions simplement sélectionner l\'un d\'eux, et appuyez sur le bouton [Arch Structure](Arch_Structure/fr.md). Cependant, si nous faisons cela, nous produisons un objet structurel \"vide\". C\'est parce que vous ne pouvez jamais être trop sûr de savoir comment des objets sont dessinés dans le fichier DWG, et souvent ce ne sont pas des formes fermées. Donc, avant de les transformer en colonnes réelles, nous allons les transformer en surfaces, en utilisant l\'outil [Mise à niveau](Draft_Upgrade/fr.md) deux fois sur les cercles. La première fois pour les convertir en fils fermés (polylignes), la deuxième fois pour convertir ces fils en surfaces. Cette deuxième étape n\'est pas obligatoire, mais, si vous avez une surface, vous êtes sûr à 100% qu\'elle est fermée (sinon une surface ne peut pas être faite).
+Pour nos colonnes, nous allons utiliser une autre stratégie qu\'avec les murs. Au lieu de \"dessins\" au-dessus du plan 2D, nous allons utiliser directement les objets de celles-ci : les cercles représentent les colonnes dans la vue en plan. En théorie, nous pourrions simplement sélectionner l\'un d\'eux, et appuyez sur le bouton [Arch Structure](Arch_Structure/fr.md). Cependant, si nous faisons cela, nous produisons un objet structurel \"vide\". C\'est parce que vous ne pouvez jamais être trop sûr de savoir comment des objets sont dessinés dans le fichier DWG, et souvent ce ne sont pas des formes fermées. Donc, avant de les transformer en colonnes réelles, nous allons les transformer en surfaces, en utilisant l\'outil [Draft Mise à niveau](Draft_Upgrade/fr.md) deux fois sur les cercles. La première fois pour les convertir en polylignes fermées, la deuxième fois pour convertir ces polylignes en surfaces. Cette deuxième étape n\'est pas obligatoire, mais, si vous avez une surface, vous êtes sûr à 100% qu\'elle est fermée (sinon une surface ne peut pas être faite).
 
 Après avoir converti nos colonnes en surfaces, nous pouvons utiliser l\'outil [Arch Structure](Arch_Structure/fr.md) sur elles, et régler la hauteur (certaines ont 6m, d\'autres seulement 2.25m de haut) :
 
@@ -147,7 +147,7 @@ Notez que les différents objets Arch (les murs, les structures et tous les autr
 
 Maintenant, il est temps de construire notre volume à soustraire. Le moyen le plus facile sera d\'élaborer son profil par dessus la vue en coupe. Ensuite, nous allons le faire pivoter et le placer à sa position correcte. Vous voyez pourquoi j\'ai placé les coupes et élévations comme ça avant de commencer ? Ce sera très facile de dessiner cet élément à cet endroit, puis de le déplacer à sa position correcte sur le modèle.
 
-Dessinons un volume, plus grand que le toit, qui sera soustrait de nos murs. Pour ce faire, j\'ai dessiné deux lignes sur le dessus de la base du toit, puis je les ai étendues un peu avec l\'outil [Draft Trimex](Draft_Trimex/fr.md). Puis, j\'ai dessiné un [fil (wire)](Draft_Wire/fr.md), en cliquant sur ces lignes, et en allant bien au-dessus de nos six mètres. J\'ai aussi dessiné une ligne bleue au niveau du sol (0.00), qui sera l\'axe de rotation.
+Dessinons un volume, plus grand que le toit, qui sera soustrait de nos murs. Pour ce faire, j\'ai dessiné deux lignes sur le dessus de la base du toit, puis je les ai étendues un peu avec l\'outil [Draft Ajuster ou prolonger](Draft_Trimex/fr.md). Puis, j\'ai dessiné une [polyligne](Draft_Wire/fr.md), en cliquant sur ces lignes, et en allant bien au-dessus de nos six mètres. J\'ai aussi dessiné une ligne bleue au niveau du sol (0.00), qui sera l\'axe de notre rotation.
 
 <img alt="" src=images/Arch_tutorial_09.jpg  style="width:1024px;">
 
@@ -475,7 +475,7 @@ Le plan de coupe produit automatiquement des vues coupées des objets qu\'il tra
 
 <img alt="" src=images/Arch_tutorial_49.jpg  style="width:1024px;">
 
-Les plans de coupe peuvent produire deux sorties différentes : des objets [Part](Part_Workbench/fr.md) qui vivent dans le même document que votre modèle 3D, ou des [vues de dessin](Drawing_Workbench/fr.md), conçues pour être utilisées sur une feuille de dessin produite par l\'[Atelier Drawing](Drawing_Workbench/fr.md). Chacun de ces éléments se comporte différemment et présente ses propres avantages.
+Le plan de coupe peut produire deux types d\'objets différents : des objets [shape](Part_Workbench/fr.md), présent dans la vue 3D, ou des objets [TechDraw Vue d\'un objet Arch](TechDraw_ArchView/fr.md), qui sont affichés sur une feuille de dessin produite par l\'[atelier TechDraw](TechDraw_Workbench/fr.md). Chacun d\'entre eux se comporte différemment et présente leurs propres avantages.
 
 **Vues des Formes**
 
@@ -489,15 +489,15 @@ Sur l\'image ci-dessus, deux [projections 2D](Draft_Shape2DView/fr.md) ont été
 
 Notez que certaines fonctionnalités ne sont pas encore prises en charge par loutil [export DXF/DWG](Draft_DXF/fr.md) de sorte que le résultat dans votre logiciel 2D peut différer un peu. Par exemple, dans l\'image ci-dessus, j\'ai dû refaire les hachures, et corriger la position de certains textes de cotes. Si vous placez vos objets dans des groupes différents dans FreeCAD, ceux-ci deviennent des couches (calques) dans votre application de CAO 2D.
 
-**Dessin de vues**
+**Vue d\'un objet Arch**
 
-L\'autre type de sortie qui peut être produit à partir de [Plans de coupes](Arch_SectionPlane/fr.md) est une [vue de dessin](Drawing_Workbench/fr.md). Ces vues sont obtenues en utilisant l\'outil [Draft Feuille de dessin](Draft_Workbench/fr.md) à partir d\'un plan de coupe présélectionné. Cette méthode a une grande limitation par rapport à la précédente : vous avez des possibilités limitées pour modifier les résultats, et en ce moment, des choses comme le dimensionnement ou le hachurage ne sont pas encore supportées nativement.
+L\'autre type de résultat qui peut être produit à partir de [plans de coupe](Arch_SectionPlane/fr.md) est une [TechDraw Vue d\'un objet Arch](TechDraw_ArchView/fr.md). Cette méthode a une grande limitation par rapport à la précédente : vous avez des possibilités limitées d\'éditer les résultats, et pour le moment, des choses comme la cotation ou le hachurage ne sont pas encore prises en charge en mode natif.
 
 D\'autre part, le résultat final étant plus facile à manipuler, et les possibilités graphiques du format SVG étant immenses, à l\'avenir, ce sera sans doute la méthode préférée. À l\'heure actuelle, cependant, vous obtiendrez de meilleurs résultats en utilisant la méthode précédente.
 
 <img alt="" src=images/Arch_tutorial_52.jpg  style="width:1024px;">
 
-Sur l\'image ci-dessus, la géométrie est la sortie directe du plan de coupe, mais certains autres objets Draft ont été ajoutés, tels que les dimensions et les polygones hachurés, et un autre objet de vue avec la même échelle et les valeurs de décalage ont été produits à partir d\'eux avec l\'outil [Feuille de dessin](Draft_Drawing/fr.md). A l\'avenir, ces opérations seront effectuées directement sur la page de dessin, laissant votre modèle totalement propre.
+Sur l\'image ci-dessus, la géométrie est la sortie directe du plan de coupe, mais certains autres objets Draft ont été ajoutés, tels que les dimensions et les polygones hachurés, et un autre objet de vue avec la même échelle et les valeurs de décalage ont été produits à partir d\'eux avec l\'outil [TechDraw Vue d\'un objet Draft](TechDraw_DraftView/fr.md). A l\'avenir, ces opérations seront effectuées directement sur la page de dessin, laissant votre modèle totalement propre.
 
 
 
@@ -526,4 +526,4 @@ Le fichier créé durant ce tutoriel peut être téléchargé [ici](http://yorik
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Arch_Workbench.md) > Arch tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/fr

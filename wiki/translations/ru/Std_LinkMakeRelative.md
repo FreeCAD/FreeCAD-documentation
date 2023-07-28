@@ -1,13 +1,16 @@
 ---
-- GuiCommand:
-   Name:Std LinkMakeRelative
-   MenuLocation:None
-   Workbenches:All
+- GuiCommand:/ru
+   Name/ru:Ссылка
+   Name:Std_LinkMakeRelative
+   MenuLocation:Нет
+   Workbenches:Все
    Version:0.19
-   SeeAlso:[Std Part](Std_Part.md), [Std Group](Std_Group.md), [Std LinkMake](Std_LinkMake.md)
+   SeeAlso:[Создать деталь](Std_Part/ru.md), [Создать группу](Std_Group/ru.md), [Создать ссылку](Std_LinkMake/ru.md)
 ---
 
 # Std LinkMakeRelative/ru
+
+
 
 ## Описание
 
@@ -15,6 +18,8 @@
 **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> ["Сделать доп. ссылку"](Std_LinkMakeRelative/ru.md)**
 
 создает [App Link](App_Link/ru.md) (класс `App::Link`), точно так же, как и команда **[<img src=images/Std_LinkMake.svg style="width:16px"> ["Создавть ссылку"](Std_LinkMake/ru.md)**, но предварительно оперирует с выбранными подэлементами и устанавливает **Link Transform** как `True`.
+
+
 
 ## Применение
 
@@ -34,13 +39,17 @@ Without selection:
 
 *Original body, and three Links created from the subelements of it, including edges and faces.*
 
+
+
 ## Свойства
 
 This command creates a new [App Link](App_Link.md); its properties are described in **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)**.
 
 In particular, **Link Transform** is set to `True`, so **Placement** becomes hidden, and instead **Link Placement** controls the position of the Link with respect to the position of **Linked Object**.
 
-## Scripting
+
+
+## Программирование
 
 See [Std LinkMake](Std_LinkMake.md) for the general information.
 

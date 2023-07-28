@@ -1,12 +1,14 @@
 ---
-- GuiCommand:
-   Name:Sketcher ValidateSketch
+- GuiCommand:/zh-cn
+   Name:校验草图…
    MenuLocation:Sketch → Validate sketch…
-   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[Sketcher ConstrainCoincident](Sketcher_ConstrainCoincident.md), [Topological naming problem](Topological_naming_problem.md)
+   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md), [PartDesign](PartDesign_Workbench/zh-cn.md)
+   SeeAlso:[重合约束](Sketcher_ConstrainCoincident/zh-cn.md), [Topological naming problem](Topological_naming_problem/zh-cn.md)
 ---
 
 # Sketcher ValidateSketch/zh-cn
+
+
 
 ## 描述
 
@@ -22,12 +24,8 @@
 *The Sketcher validation task panel*
 
 
-<div class="mw-translate-fuzzy">
 
-## 如何使用
-
-
-</div>
+## 用法
 
 
 <div class="mw-translate-fuzzy">
@@ -40,7 +38,11 @@
 
 </div>
 
+
+
 ## 选项
+
+
 
 ### 缺失重合约束
 

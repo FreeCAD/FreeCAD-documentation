@@ -12,9 +12,13 @@
 
 </div>
 
+
+
 ## Descripción
 
 *Crear un polígono regular* es un botón de icono en la barra de herramientas de Geometrías de Croquizador que agrupa herramientas para crear un polígono regular. Haz clic en la flecha hacia abajo a su derecha para expandir los iconos que están debajo y selecciona una herramienta.
+
+
 
 ## Tipos de polígonos regulares 
 

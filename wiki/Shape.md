@@ -21,6 +21,8 @@ Once a Shape is created, it can be used and modified by all [workbenches](Workbe
 
 Essentially, every object derived from a [Part Feature](Part_Feature.md) (`Part::Feature` class) is expected to hold and manipulate a Shape.
 
+Any OpenCascade Shape has a tesselation mainly to view the Shape on screen. More information about this can be found in this German [forum post](https://forum.freecad.org/viewtopic.php?t=77521&start=10#p674947) and in the [OpenCascad Mesh documentation](https://dev.opencascade.org/doc/overview/html/occt_user_guides__mesh.html).
+
 ## Notes
 
 In informal usage, a \"Shape\" may be any geometrical figure that is visible in the [3D view](3D_view.md), and thus its concept may be confused with that of \"[Body](Body.md)\" or \"[Part](Part.md)\".

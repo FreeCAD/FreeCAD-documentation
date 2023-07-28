@@ -10,6 +10,8 @@
 
 # Arch Window/ru
 
+
+
 ## Описание
 
 [Arch Window](Arch_Window/ru.md) (окно) это базовый объект для всех типов \"внедряемых\" объектов, таких как окна, двери и т.д\... Он спроектирован так, что может быть и независим, и \"базироваться\" на другом компоненте вроде [стены](Arch_Wall/ru.md), [структуры](Arch_Structure/ru.md), или [крыши](Arch_Roof/ru.md). У него своя собственная геометрия, которая может быть сделана из нескольких твердотельных компонентов (обычно оконная рама и внутренняя панель), и определяет объём, которые будет вычитаться из базового объекта, чтобы сделать проём.
@@ -26,7 +28,11 @@
 <img alt="" src=images/Arch_Window_example2.jpg  style="width:600px;"> 
 *Более сложное окно, созданное на базе [эскиза](Sketcher_Workbench.md). При входе в режим редактирования окна, Вы можете создать различные компоненты, установить их толщину, и выделить и назначить многоугольники из эскиза для них.*
 
+
+
 ## Применение
+
+
 
 ### Применение предустановок 
 
@@ -52,6 +58,8 @@ If you install the [Parts Library](Parts_Library_Workbench.md) from the [Addon M
     -   On Mac OSX it is usually **/Users/username/Library/Preferences/FreeCAD/**
 -   The subdirectory name **Custom** is just a suggestion, any name can be used. But the files must be placed in one or more subdirectories inside the **Doors** or **Windows** directories.
 
+
+
 ### Создание с нуля 
 
 
@@ -70,17 +78,31 @@ If you install the [Parts Library](Parts_Library_Workbench.md) from the [Addon M
 
 </div>
 
-When creating the sketch, pay close attention to the creation order of the loops; the numbering of the \"wires\" in the [task panel](task_panel.md) (\"Window elements\") depends on this.
+
 
 ## Предустановки
 
 Доступны следующие предустановки:
 
+
+<div class="mw-translate-fuzzy">
+
 Image:ParametersDoorGlass.svg\|Glass door (стеклянная дверь) Image:ParametersDoorSimple.svg\|Simple door (простая дверь) Image:ParametersWindowDouble.svg\|Double-opening window (двустворчатое окно) Image:ParametersWindowFixed.svg\|Fixed window (глухое окно) Image:ParametersWindowSimple.svg\|Single-opening window (одностворчатое окно) Image:ParametersWindowStash.svg\|Sash-opening window (сдвижное окно)
+
+
+</div>
+
+
 
 ## Создание компонентов 
 
+
+<div class="mw-translate-fuzzy">
+
 Окна могут включать 3 типа компонентов: панели, рамы и жалюзи. Панели и жалюзи делаются из замкнутых ломаных, которые выдавливаются, в то время как рамы делаются из двух и более замкнутых ломаных, где каждый выдавливается, затем меньший вычитается из большего. Вы можете иметь доступ, создавать, модифицировать и удалять компоненты в окне в режиме редактирования (дважды кликнув по окну в древе проекта). У компонента имеются следующие параметры:
+
+
+</div>
 
 -   **Name**: имя компонента
 -   **Type**: тип компонента. Может быть \"Frame\", \"Glass panel\", \"Solid panel\" или \"Louvres\"
@@ -92,6 +114,8 @@ Image:ParametersDoorGlass.svg\|Glass door (стеклянная дверь) Imag
 
 <img alt="" src=images/Arch_Window_options.jpg  style="width:600px;">
 
+
+
 ## Опции
 
 -   Оборудование обладает такими же общими свойствами и моделью поведения, как и все остальные [компоненты верстака Arch](Arch_Component/ru.md)
@@ -102,6 +126,8 @@ Image:ParametersDoorGlass.svg\|Glass door (стеклянная дверь) Imag
 -   Отверстие, создаваемое окном в базовом объекте, определяется двумя параметрами: **Hole Depth** и **Hole Wire** ({{Version/ru|0.17}}). Число Hole Wire может быть получено в трёхмерном окне из панели задач окна, доступной при двойном клике на окне в древе проектов
 -   Окна могут использовать [Multi-Materials](Arch_MultiMaterial/ru.md). Окно ищет в присоединённом Multi-Material слои материала с теми же именами для каждого компонента окна, и используют их при нахождении. Например, компонент под названием \"OuterFrame\" ищет в приложеннном Multi-Material материальный слой под именем \"OuterFrame\". Если этот слой найден, его материал будет назначен компоненту OuterFrame. Значение толщины слоя материала отбрасывается.
 
+
+
 ## Условное обозначение направления открывания окон 
 
 
@@ -109,7 +135,13 @@ Image:ParametersDoorGlass.svg\|Glass door (стеклянная дверь) Imag
 
 [Руководство по обозначению направления открытия окон и дверей](Tutorial_for_open_windows/ru.md)
 
+
+<div class="mw-translate-fuzzy">
+
 Двери и окна могут отображаться частично или полностью открытыми в 3D-модели или могут отображать открывающие символы как в плане, так и в области высоты. Следовательно, они также появятся в извлеченных 2D-представлениях, сгенерированных [Draft Shape2DView](Draft_Shape2DView/ru.md) или [TechDraw Workbench](TechDraw_Workbench/ru.md) или [Drawing Workbench](Drawing_Workbench/ru.md). Чтобы получить это, по крайней мере один из компонентов окна должен иметь шарнир и режим открытия (см. [Создание компонентов](#Создание_компонентов.md) выше). Затем вы можете настроить внешний вид окна, используя свойства **Opening**, **Symbol Plan** или **Symbol Plan**:
+
+
+</div>
 
 <img alt="" src=images/Arch_window_openings.png  style="width:600px;"> 
 *A door showing the symbol plan, symbol elevation and opening properties at work*
@@ -151,6 +183,8 @@ You can use any other kind of workflow than the one described above, the importa
 -   The type object must have a \"Subvolume\" property (linked to the window\'s Subvolume property) for openings in host objects to work
 -   The type object must have a \"Group\" property with different children with same names as multi-material items for multi-materials to work
 
+
+
 ## Свойства
 
 -    **Height**: Высота окна
@@ -173,6 +207,8 @@ You can use any other kind of workflow than the one described above, the importa
 
 -    **Symbol Elevation**: показывает двумерный символ проема на фасаде
 
+
+
 ## Программирование
 
 
@@ -187,9 +223,15 @@ You can use any other kind of workflow than the one described above, the importa
 Window = makeWindow(baseobj=None, width=None, height=None, parts=None, name="Window")
 ```
 
--   Создает объект `Window` на основе `baseobj`, который должен быть правильно сформированной замкнутой [ломанной](Draft_Wire/ru.md) или [эскизом Sketcher](Sketcher_Sketch/ru.md).
+
+<div class="mw-translate-fuzzy">
+
+-   Создает объект `Window` на основе `baseobj`, который должен быть правильно сформированной замкнутой [ломанной](Draft_Wire/ru.md) или [эскизом Sketcher](Sketcher_Workbench/ru.md).
 -   Если доступно, устанавливает `width`, `height` и `name` (метку) окна.
 -   Если `baseobj` не является замкнутой формой, инструмент может не создать правильную сплошную фигуру.
+
+
+</div>
 
 Пример: 
 ```python

@@ -11,7 +11,7 @@
 
 ## Description
 
-Chanfreine le ou les bords sélectionnés d\'un objet. Une boîte de dialogue vous permet de choisir le ou les bords sur lesquels vous souhaitez travailler ainsi que de modifier divers paramètres de chanfrein.
+**Part Chanfrein** applique un chanfrein sur le ou les bords sélectionnés d\'un objet. Une boîte de dialogue vous permet de choisir le ou les bords sur lesquels vous souhaitez travailler ainsi que de modifier divers paramètres de chanfrein.
 
 ![Exemple de chanfrein](images/Chamfer-example.png )
 
@@ -66,7 +66,7 @@ Notez également que la fonction Chanfrein est affectée par le [problème de no
 
 L\'outil Chanfrein peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) en ajoutant un objet Chanfrein au document.
 
-**Exemple de Script:**
+**Exemple de script :**
 
 
 ```python
@@ -93,7 +93,7 @@ FreeCADGui.ActiveDocument.myCube.Visibility = False
 FreeCAD.ActiveDocument.recompute()
 ```
 
-**Explication de l\'exemple de Script :**
+**Explication de l\'exemple du script :**
 
 
 ```python

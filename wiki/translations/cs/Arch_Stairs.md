@@ -31,7 +31,7 @@ Nástroj Schody pro vytváření a definování schodišť jakéhokoliv typu
 
 See the [Stairs entry in wikipedia](https://en.wikipedia.org/wiki/Stairs) for a definition of the different terms used to describe parts of stairs.
 
-<img alt="" src=images/Arch_Stairs_example.jpg  style="width:640px;">
+<img alt="" src=images/Arch_Stairs_example.jpg  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -59,6 +59,12 @@ Stiskněte tlačítko **<img src="images/Arch_Stairs.png" width=32px> Schody
 
 
 </div>
+
+<img alt="" src=images/Arch_Stairs_Complex_Example.png  style="width:600px;"> 
+*Complex stairs based on a selection of lines and wired as shown on the left.<br>
+In red the wires used for the landings at Z&equals;1500mm, Z&equals;3000mm and Z&equals;4500mm.<br>
+In black the lines connecting them used for the flights.
+*
 
 
 
@@ -115,7 +121,7 @@ Stiskněte tlačítko **<img src="images/Arch_Stairs.png" width=32px> Schody
 
 -    **Nosing|Length**: The size of the nosing.
 
--    **Number Of Steps|Integer**: The numbers of steps (risers).
+-    **Number Of Steps|Integer**: The numbers of steps (risers). Must be at least 2 for a single flight, and at least 4 for a stairs with a central landing.
 
 -    **Riser Height|Length**: (read-only) The height of the risers. If **Riser Height Enforce** is 0 it is calculated (**Height** / **Number of Steps**). Else it is the same as **Riser Height Enforce**.
 

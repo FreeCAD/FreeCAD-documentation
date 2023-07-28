@@ -89,9 +89,6 @@ Per la geometria 2D, la maggior parte degli oggetti deriva da `Part::Part2DObjec
 
 ## Azioni
 
-
-{{Version/it|0.19}}
-
 Facendo clic con il tasto destro in uno spazio vuoto della vista o con una proprietà selezionata, viene visualizzato solo un comando:
 
 -    **Mostra tutto**: se attivo, oltre alle proprietà standard che appaiono già, mostra tutti i dati nascosti e visualizza le proprietà nelle rispettive schede.

@@ -8,8 +8,6 @@
 
 В чертеж могут быть добавлены такие элементы как: размеры, сечения 3D Вида, дополнительные заштрихованные области, надписи и примечания, чертежные знаки в формате [SVG](SVG/ru.md). Чертеж так же можно экспортировать в различные форматы, такие как [DXF](DXF/ru.md), [SVG](SVG/ru.md) или [PDF](PDF/ru.md).
 
-TechDraw был официально включен в FreeCAD начиная с версии 0.17; он предназначен для замены неподдерживаемого [Верстака Drawing](Drawing_Workbench/ru.md). Верстак Drawing по-прежнему доступен в версии 0.20, но не будет доступен в будущих версиях (<small>(v1.0)</small> ). Чтобы быть в курсе планов и разработок TechDraw, посетите [TechDraw Roadmap](TechDraw_Roadmap.md).
-
 Если вашей основной целью является создание сложных 2D чертежей и файлов в формате [DXF](DXF/ru.md), и вам не нужно 3D-моделирование, возможно FreeCAD будет не самым лучшим выбором для вас. Вы можете использовать специальное программное обеспечение для построения технических чертежей, такое как [LibreCAD](https://en.wikipedia.org/wiki/LibreCAD) или [QCad](https://en.wikipedia.org/wiki/QCad).
 
 
@@ -47,7 +45,7 @@ TechDraw был официально включен в FreeCAD начиная с
 
 </div>
 
--   <img alt="" src=images/TechDraw_PrintAll.svg  style="width:32px;"> [Print All Pages](TechDraw_PrintAll.md): prints all pages in a document. <small>(v1.0)</small> 
+-   <img alt="" src=images/TechDraw_PrintAll.svg  style="width:32px;"> [Print All Pages](TechDraw_PrintAll.md): prints all pages in a document. <small>(v0.21)</small> 
 
 
 
@@ -57,7 +55,13 @@ TechDraw был официально включен в FreeCAD начиная с
 
 -   <img alt="" src=images/TechDraw_View.svg  style="width:32px;"> [Новый Вид](TechDraw_View/ru.md): добавляет 2D проекционный вид объекта.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ActiveView.svg  style="width:32px;"> [Вставить активный вид (3D Вид)](TechDraw_ActiveView/ru.md): вставляет в чертеж Вид, активного 3D вида. {{Version/ru|0.19}}
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -77,7 +81,7 @@ TechDraw был официально включен в FreeCAD начиная с
 
 </div>
 
-  - <img alt="" src=images/TechDraw_ComplexSection.svg  style="width:32px;"> [Insert Complex Section View](TechDraw_ComplexSection.md): inserts a cross-section view of an existing view based on a profile. <small>(v1.0)</small> 
+  - <img alt="" src=images/TechDraw_ComplexSection.svg  style="width:32px;"> [Insert Complex Section View](TechDraw_ComplexSection.md): inserts a cross-section view of an existing view based on a profile. <small>(v0.21)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -123,13 +127,13 @@ These are tools for changing the stacking order which controls the apparent dept
 
 -   <img alt="" src=images/TechDraw_StackTop.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Adjust Stacking Order:
 
-  - <img alt="" src=images/TechDraw_StackTop.svg  style="width:32px;"> [Move view to top of stack](TechDraw_StackTop.md): moves views to the top of the stacking order. <small>(v1.0)</small> 
+  - <img alt="" src=images/TechDraw_StackTop.svg  style="width:32px;"> [Move view to top of stack](TechDraw_StackTop.md): moves views to the top of the stacking order. <small>(v0.21)</small> 
 
-  - <img alt="" src=images/TechDraw_StackBottom.svg  style="width:32px;"> [Move view to bottom of stack](TechDraw_StackBottom.md): moves views to the bottom of the stacking order. <small>(v1.0)</small> 
+  - <img alt="" src=images/TechDraw_StackBottom.svg  style="width:32px;"> [Move view to bottom of stack](TechDraw_StackBottom.md): moves views to the bottom of the stacking order. <small>(v0.21)</small> 
 
-  - <img alt="" src=images/TechDraw_StackUp.svg  style="width:32px;"> [Move view up one level](TechDraw_StackUp.md): moves views up one level in the stacking order. <small>(v1.0)</small> 
+  - <img alt="" src=images/TechDraw_StackUp.svg  style="width:32px;"> [Move view up one level](TechDraw_StackUp.md): moves views up one level in the stacking order. <small>(v0.21)</small> 
 
-  - <img alt="" src=images/TechDraw_StackDown.svg  style="width:32px;"> [Move view down one level](TechDraw_StackDown.md): moves views down one level in the stacking order. <small>(v1.0)</small> 
+  - <img alt="" src=images/TechDraw_StackDown.svg  style="width:32px;"> [Move view down one level](TechDraw_StackDown.md): moves views down one level in the stacking order. <small>(v0.21)</small> 
 
 
 
@@ -249,7 +253,15 @@ These are tools for changing the stacking order which controls the apparent dept
 
 -   <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [Связать размер с 3D геометрией](TechDraw_LinkDimension/ru.md): связывает существующий размер с трехмерной геометрией.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Вставить примечание в выноску](TechDraw_Balloon/ru.md): создает аннотацию на странице. {{Version/ru|0.19}}
+
+
+</div>
+
+-   <img alt="" src=images/TechDraw_AxoLengthDimension.svg  style="width:32px;"> [Insert Axonometric Length Dimension](TechDraw_AxoLengthDimension.md): adds an axonometric length dimension. <small>(v0.21)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -259,7 +271,7 @@ These are tools for changing the stacking order which controls the apparent dept
 
 </div>
 
--   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Dimension Repair](TechDraw_DimensionRepair.md): can adjust the 2D or 3D geometry references of a dimension. <small>(v1.0)</small> 
+-   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Dimension Repair](TechDraw_DimensionRepair.md): can adjust the 2D or 3D geometry references of a dimension. <small>(v0.21)</small> 
 
 
 
@@ -349,7 +361,13 @@ These are tools for changing the stacking order which controls the apparent dept
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:32px;"> [Добавить вспомогательную линию между 2-мя точками](TechDraw_2PointCosmeticLine/ru.md): добавить вспомогательную линию по двум точкам. {{Version/ru|0.19}}
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -383,7 +401,9 @@ These are tools for changing the stacking order which controls the apparent dept
 
 </div>
 
--   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:32px;"> [Add Surface Finish Symbol](TechDraw_SurfaceFinishSymbol.md): adds a surface finish symbol to a page. <small>(v1.0)</small> 
+-   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:32px;"> [Add Surface Finish Symbol](TechDraw_SurfaceFinishSymbol.md): adds a surface finish symbol to a page. <small>(v0.21)</small> 
+
+-   <img alt="" src=images/TechDraw_HoleShaftFit.svg  style="width:32px;"> [Add Hole/Shaft Fit](TechDraw_HoleShaftFit.md): adds hole or shaft tolerances using ISO 286 to a dimension. <small>(v0.21)</small> 
 
 
 
@@ -587,16 +607,8 @@ These are tools for changing the stacking order which controls the apparent dept
 
 ## Ограничения
 
-
-<div class="mw-translate-fuzzy">
-
--   Чертежи TechDraw и его API не являются взаимозаменяемыми с [Чертежами Drawing](Drawing_Workbench/ru.md) и его API. Можно конвертировать чертежи Drawing в чертежи TechDraw, используя скрипт Python (`moveViews.py`).
--   В одном документе FreeCAD можно совмещать как чертежи TechDraw, так и чертежи Drawing, поскольку каждая страница полностью независима друг от друга.
--   Существуют небольшие различия в спецификации редактируемого текста в [SVG](SVG/ru.md) шаблонах по сравнению с модулем Drawing. В TechDraw масштабирование документа SVG влияет на положение редактируемых текстовых полей. Смотрите обсуждение на форуме [TechDraw templates scale](https://forum.freecadweb.org/viewtopic.php?f=3&t=24981&p=196271#p196271) для более детальной информации.
--   Не вырезайте, не копируйте и не вставляйте объекты TechDraw в древовидном виде, так как это обычно не работает.
-
-
-</div>
+-   Do not cut, copy and paste TechDraw objects in the [Tree view](Tree_view.md) as this generally does not work out well.
+-   Do not drag TechDraw objects in the [Tree view](Tree_view.md) with the mouse.
 
 
 
@@ -618,6 +630,10 @@ These are tools for changing the stacking order which controls the apparent dept
 
 -   TechDraw Workbench [Part 1 (Basics)](https://www.youtube.com/watch?v=7LbOmSGW9F0), [Part 2 (Dimensions)](https://www.youtube.com/watch?v=z3w84RfvqaE), [Part 3 (Multiview)](https://www.youtube.com/watch?v=uNjXg-m38aI)
 -   Верстак TechDraw [Part 4 (Section and Detail)](https://www.youtube.com/watch?v=3zSdeFV6I5o), [Part 5 (Customizing Templates)](https://www.youtube.com/watch?v=kcmdJ7xa7gg)
+
+## Development
+
+Do you want to know about the future of the TechDraw Workbench? Visit [the TechDraw Roadmap Page](TechDraw_Roadmap.md) to learn more.
 
 
 

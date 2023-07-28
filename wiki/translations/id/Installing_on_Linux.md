@@ -345,7 +345,7 @@ If that still is not good enough, and you cannot locate another source of a prec
 
 ## Next Step 
 
-Once you\'ve got FreeCAD installed, it\'s time to [get started](Getting_started.md)!
+Head to [Getting started](Getting_started.md) once installation is complete.
 
 
 

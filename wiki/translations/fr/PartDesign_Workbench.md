@@ -65,7 +65,7 @@ Ces outils ne font en fait pas partie de l\'atelier PartDesign. Ils appartiennen
 
 -   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Forme liée](PartDesign_ShapeBinder/fr.md) : crée une forme liée référençant la géométrie d\'un seul objet parent.
 
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Sous forme liée](PartDesign_SubShapeBinder/fr.md) : crée une forme liée référençant la géométrie d\'un ou plusieurs objets parents. {{Version/fr|0.19}}
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Sous forme liée](PartDesign_SubShapeBinder/fr.md) : crée une forme liée référençant la géométrie d\'un ou plusieurs objets parents.
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Clone](PartDesign_Clone/fr.md) : crée un clone dans le corps actif.
 
@@ -83,7 +83,7 @@ Ces outils permettent de créer des fonctions de base ou d\'ajouter de la matiè
 
 -   <img alt="" src=images/PartDesign_AdditivePipe.svg  style="width:32px;"> [Balayage additif](PartDesign_AdditivePipe/fr.md) : crée un solide en balayant une ou plusieurs esquisse(s) le long d\'un chemin ouvert ou fermé.
 
--   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Hélice additive](PartDesign_AdditiveHelix/fr.md) : crée un solide en balayant une esquisse le long d\'une hélice. {{Version/fr|0.19}}
+-   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Hélice additive](PartDesign_AdditiveHelix/fr.md) : crée un solide en balayant une esquisse le long d\'une hélice.
 
 -   <img alt="" src=images/PartDesign_CompPrimitiveAdditive.png  style="width:48px;"> [Créer une primitive additive](PartDesign_CompPrimitiveAdditive/fr.md) : ajoute une primitive additive dans le corps actif.
 
@@ -119,7 +119,7 @@ Ces outils permettent d\'enlever de la matière à un corps solide existant.
 
 -   <img alt="" src=images/PartDesign_SubtractivePipe.svg  style="width:32px;"> [Balayage soustractif](PartDesign_SubtractivePipe/fr.md) : crée un solide en balayant une ou plusieurs esquisse(s) le long d\'un chemin ouvert ou fermé puis le soustrait du corps actif.
 
--   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Hélice soustractive](PartDesign_SubtractiveHelix/fr.md) : crée une forme solide en balayant une esquisse le long d\'une hélice et en la soustrayant du corps actif. {{Version/fr|0.19}}
+-   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Hélice soustractive](PartDesign_SubtractiveHelix/fr.md) : crée une forme solide en balayant une esquisse le long d\'une hélice et en la soustrayant du corps actif.
 
 -   <img alt="" src=images/PartDesign_CompPrimitiveSubtractive.png  style="width:48px;"> [Créer une primitive soustractive](PartDesign_CompPrimitiveSubtractive/fr.md) : soustrait une primitive du corps actif.
 
@@ -182,7 +182,7 @@ Des fonctionnalités supplémentaires se trouvent dans le menu Part Design :
 
 -   <img alt="" src=images/PartDesign_Migrate.svg  style="width:32px;"> [Migrer](PartDesign_Migrate/fr.md) : migre des fichiers créés dans des versions antérieures de FreeCAD. Si le fichier ne contient que des fonctions PartDesign, la migration devrait réussir. Si le fichier contient des objets mixtes Part/Part Design/Draft, la conversion échouera presque certainement.
 
--   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Pignon](PartDesign_Sprocket/fr.md) : crée un profil de pignon qui peut être extrudé. {{Version/fr|0.19}}
+-   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Pignon](PartDesign_Sprocket/fr.md) : crée un profil de pignon qui peut être extrudé.
 
 -   <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width:32px;"> [Engrenage à développante](PartDesign_InvoluteGear/fr.md) : crée un profil d\'engrenage à développante qui peut être extrudé.
 
@@ -222,6 +222,14 @@ Des fonctionnalités supplémentaires se trouvent dans le menu Part Design :
 -   [Tutoriel d\'introduction PartDesign](Basic_Part_Design_Tutorial/fr.md)
 -   [Conception Support de Roulement Tutoriel I](PartDesign_Bearingholder_Tutorial_I/fr.md) (nécessite une mise à jour)
 -   [Tutoriel de Conception de Support de Roulement II](PartDesign_Bearingholder_Tutorial_II/fr.md) (nécessite une mise à jour)
+
+
+
+## Exemples
+
+Pour avoir une idée de ce qui peut être réalisé avec les outils de Part Design, jetez un coup d\'œil aux [PartDesign Exemples](PartDesign_Examples/fr.md) :
+
+<img alt="" src=images/PartDesign_ExampleSphere-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleTorus-01.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExamplePad-09.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-05.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSpring-04.png  style="width:80px;">
 
 
 

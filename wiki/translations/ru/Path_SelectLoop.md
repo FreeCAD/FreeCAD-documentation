@@ -9,9 +9,11 @@
 
 # Path SelectLoop/ru
 
+
+
 ## Описание
 
-The **<img src="images/Path_SelectLoop.svg" width=16px> [Path SelectLoop](Path_SelectLoop.md)** command completes a selection of edges that form a loop.
+The <img alt="" src=images/Path_SelectLoop.svg  style="width:16px;"> [SelectLoop](Path_SelectLoop.md) tool completes a selection of edges that form a loop.
 
 ## Usage
 

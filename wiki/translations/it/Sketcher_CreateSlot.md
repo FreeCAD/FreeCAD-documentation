@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -22,6 +24,8 @@ Le coordinate del puntatore sono riportate accanto, in blu e in tempo reale.
 When starting the tool, the mouse pointer changes to a white cross with a red slot icon. The coordinates of the pointer are shown beside it in blue in real time.
 
 ![](images/SketcherCreateSlotExample.png‎ )
+
+
 
 ## Utilizzo
 

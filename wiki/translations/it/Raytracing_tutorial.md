@@ -46,6 +46,8 @@ Questo tutorial ha lo scopo di introdurre il lettore al flusso di lavoro di base
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Procedura
@@ -158,9 +160,11 @@ Il flusso di lavoro di base per l\'ambiente [Raytracing](Raytracing_Workbench/it
 </div>
 
 
- {{Raytracing Tools navi}}
+{{Raytracing Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/it

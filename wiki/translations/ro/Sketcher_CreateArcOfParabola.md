@@ -13,11 +13,15 @@
 
 </div>
 
+
+
 ## Descriere
 
 Acest instrument crează un arc de parabolă definit prin focar, vertex și endpoints.
 
 ![](images/Sketcher_Arc_of_Parabola_01.png )
+
+
 
 
 <div class="mw-translate-fuzzy">

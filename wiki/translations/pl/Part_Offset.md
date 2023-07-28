@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/pl
    Name:Part Offset
-   Name/pl:Część: Odsunięcie
+   Name/pl:Część: Odsunięcie 3D
    MenuLocation:Część → Odsunięcie 3D
    Workbenches:[Część](Part_Workbench/pl.md)
    SeeAlso:[Grubość](Part_Thickness/pl.md), [Odsunięcie 2D](Part_Offset2D/pl.md)
@@ -9,22 +9,30 @@
 
 # Part Offset/pl
 
+
+
 ## Opis
 
-Narzędzie <img alt="" src=images/Part_Offset.svg  style="width:24px;"> **Część Odsunięcie 3D** tworzy równoległe kopie wybranego kształtu w pewnej odległości od kształtu bazowego, równocześnie tworząc nowy obiekt.
+Narzędzie <img alt="" src=images/Part_Offset.svg  style="width:24px;"> **Odsunięcie 3D** tworzy równoległe kopie wybranego kształtu w pewnej odległości od kształtu bazowego, równocześnie tworząc nowy obiekt.
 
 <img alt="" src=images/PartOffset0.png  style="width:400" height="200px;"> → <img alt="" src=images/PartOffset1.png  style="width:400" height="200px;">
+
+
 
 ## Użycie
 
 1.  Wybierz obiekt, z którym chcesz utworzyć odsunięcie.
-2.  Naciśnij przycisk **<img src="images/Part_Offset.svg" width=16px> [Odsunięcie 3D](Part_Offset.md)
+2.  Naciśnij przycisk **<img src="images/Part_Offset.svg" width=16px> '''Odsunięcie 3D'''
 **
 3.  Dostosuj odległość i parametry w zależności od wymaganych rezultatów.
 
+
+
 ## Uwagi
 
--   Obiekty typu[odnośnik](App_Link/pl.md) powiązane z odpowiednimi typami obiektów oraz kontenery typu [część](App_Part/pl.md) z odpowiednimi widocznymi obiektami wewnątrz mogą być również używane jako obiekty źródłowe. {{Version/pl|0.20}}
+-   Obiekty typu [App: Łącze](App_Link/pl.md) powiązane z odpowiednimi typami obiektów oraz kontenery typu [App: Część](App_Part/pl.md) z odpowiednimi widocznymi obiektami wewnątrz mogą być również używane jako obiekty źródłowe. {{Version/pl|0.20}}
+
+
 
 ## Przykłady
 
@@ -51,6 +59,8 @@ ten sam kształt z odsunięciem 3D jako POWŁOKA i *wypełnionym* odsunięciem
 Odsunięcie **wypełnione** z 2 cylindrami tworzącymi cięcia funkcją logiczną. Cylinder A przechodzi przez WYPEŁNIENIE, podczas gdy Cylinder B przechodzi tylko przez WYPEŁNIENIE, a NIE przez źródłowy kształt 2D.
 
 <img alt="" src=images/PartOffset6.png  style="width:400" height="200px;">
+
+
 
 ## Właściwości
 

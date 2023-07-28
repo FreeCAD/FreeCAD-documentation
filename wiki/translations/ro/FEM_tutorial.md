@@ -51,6 +51,8 @@ Acest tutorial are rolul de a introduce cititorul în fluxul de lucru de bază a
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Procedură
@@ -230,9 +232,11 @@ Am terminat acum cu fluxul de lucru de bază pentru [FEM Workbench](FEM_Workbenc
 </div>
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM tutorial/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM tutorial/ro

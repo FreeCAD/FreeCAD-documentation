@@ -9,6 +9,8 @@
    Files:
 }}
 
+
+
 ## Hintergrund
 
 Der FEM Arbeitsbereich ist in der Lage, das Ausmaß der Bewehrung abzuschätzen, die in einer Betonstruktur erforderlich ist, um sprödes Versagen unter Zug oder Scherung zu verhindern.
@@ -177,15 +179,19 @@ Schließlich ein Diagramm der Druck- und Zugspannungen, um zu zeigen, wie die Sp
 
 Das Zugspannungsmuster legt ein alternatives Konstruktionskonzept unter Verwendung von Vorspannkabeln (weiß überlagert) nahe. Dieses Konzept wird im folgenden Beitrag weiter ausgearbeitet: <https://forum.freecadweb.org/viewtopic.php?f=18&t=33049>
 
+
+
 ## Verwandt
 
 -   [FEM Beton](FEM_Concrete/de.md)
 
 
- {{FEM Tools navi}} {{Userdocnavi
+{{FEM Tools navi
+
+}} {{Userdocnavi
 ---
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > Analysis of reinforced concrete with FEM/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > Analysis of reinforced concrete with FEM/de

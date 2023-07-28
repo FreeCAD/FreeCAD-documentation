@@ -1,41 +1,49 @@
 ---
 - GuiCommand:
    Name:TechDraw View
-   Name/pl:Rysunek Techniczny: Widok
-   MenuLocation:Rysunek Techniczny → Wstaw widok
+   Name/pl:Rysunek Techniczny: Wstaw widok
+   MenuLocation:Rysunek Techniczny → Widoki → Wstaw widok
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    SeeAlso:[Grupa rzutów](TechDraw_ProjectionGroup/pl.md), [Widok przekroju](TechDraw_SectionView/pl.md)
 ---
 
 # TechDraw View/pl
 
+
+
 ## Opis
 
-Narzędzie Widok dodaje reprezentację jednego lub więcej obiektów do strony Rysunku. Jest to podstawowy element środowiska Rysunek Techniczny. Większość innych widoków pochodzi w jakiś sposób od metody Widok.
+Narzędzie **Wstaw widok** dodaje reprezentację jednego lub więcej obiektów do strony Rysunku. Jest to podstawowy element środowiska Rysunek Techniczny. Większość innych widoków pochodzi w jakiś sposób od metody Widok.
 
 Widok będzie próbował narysować cokolwiek z właściwością `kształt`. Możesz wybrać obiekty [szkicu](Draft_Workbench/pl.md) i również [Projekt Części: Zawartość](PartDesign_Body/pl.md), środowiska [Rysunek Roboczy](Draft_Workbench/pl.md). Widok wyodrębni również kształty z obiektów w kontenerze [Std: Część](Std_Part/pl.md) lub [Std: Grupa](Std_Group/pl.md).
 
 ![](images/TechDraw_View_example.png ) 
 *Widok bryły sześcianu z ukrytymi liniami*
 
+
+
 ## Użycie
 
-1.  Opcjonalnie obróć [widok 3D](3D_view/pl.md). Kierunek ujęcia widoku w oknie [widoku 3D](3D_view/pl.md) określa początkową wartość właściwości **Kierunek** widoku.
-2.  Wybierz jeden lub więcej obiektów w oknie [Widoku 3D](3D_view.md) lub [Widoku drzewa](Tree_view.md).
-3.  Jeśli w dokumencie jest wiele stron rysunku: opcjonalnie dodaj żądaną stronę do wyboru przez zaznaczenie jej w [widoku drzewa](Tree_view.md). Nie jest to opcjonalne dla {{VersionMinus/pl|0.19}}.
+1.  Opcjonalnie obróć [widok 3D](3D_view/pl.md). O ile w następnym kroku nie zostanie wybrana ściana, kierunek ujęcia widoku w oknie [widoku 3D](3D_view/pl.md) określa początkową wartość właściwości **Kierunek** widoku.
+2.  Wybierz jeden lub więcej obiektów w oknie [Widoku 3D](3D_view/pl.md) lub [Widoku drzewa](Tree_view/pl.md). Przy wyborze w oknie widoku 3D pierwsza wybrana ściana określa wartość początkową właściwości **Kierunek**.
+3.  Jeśli w dokumencie jest wiele stron rysunku: opcjonalnie dodaj żądaną stronę do wyboru przez zaznaczenie jej w [widoku drzewa](Tree_view/pl.md). Nie jest to opcjonalne dla {{VersionMinus/pl|0.19}}.
 4.  Istnieje kilka sposobów na wywołanie narzędzia:
     -   Naciśnij przycisk **<img src="images/TechDraw_View.svg" width=16px> [Wstaw widok](TechDraw_View/pl.md)**.
-    -   Wybierz opcję **Rysunek Techniczny → <img src="images/TechDraw_View.svg" width=16px> Wstaw widok** z menu.
+    -   Wybierz opcję **Rysunek Techniczny → Widoki → <img src="images/TechDraw_View.svg" width=16px> Wstaw widok** z menu.
 5.  Jeśli w dokumencie jest wiele stron rysunków i nie została jeszcze wybrana żadna strona, zostanie otwarte okno dialogowe **Wybór strony**: {{Version/pl|0.20}}
     1.  Wybierz żądaną stronę.
     2.  Naciśnij przycisk **OK**.
 
+
+
 ## Właściwości
+
+
 
 ### Dane
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    {{PropertyData/pl|Odległość X}}: Położenie widoku w poziomie na stronie. *(1)*
 
@@ -107,24 +115,26 @@ Widok będzie próbował narysować cokolwiek z właściwością `kształt`. Mo�
 
 -    {{PropertyData/pl|Pochodzenie|LinkList}}: Powiązania z obiektami rysunkowymi, które mają być przedstawione.
 
--    {{PropertyData/pl|XPochodzenie|XLinkList}}: Odnośniki do obiektów rysunkowych w pliku zewnętrznym. {{Version/pl|0.19}}
+-    {{PropertyData/pl|XPochodzenie|XLinkList}}: Odnośniki do obiektów rysunkowych w pliku zewnętrznym.
 
 -    {{PropertyData/pl|Kierunek|Vector}}: Wektor ten kontroluje kierunek, z którego patrzysz na obiekt. +X to prawo, -X to lewo, +Y to tył, -Y to przód *(patrząc w ekran)*, +Z to góra, a -Z to dół. Zatem widok z przodu to *(0,-1,0)*, a widok izometryczny to *(1,-1,1)*.
 
--    {{PropertyData/pl|XKierunek|Vector}}: ten wektor kontroluje obrót widoku, według wartości Kierunek.{{Version/pl|0.19}}.
+-    {{PropertyData/pl|XKierunek|Vector}}: ten wektor kontroluje obrót widoku, według wartości Kierunek.
 
 -    {{PropertyData/pl|Perspektywa|Bool}}: Przyjmuje wartość {{True/pl}} dla projekcji perspektywicznej, {{False/pl}} dla projekcji ortogonalnej.
 
 -    {{PropertyData/pl|Skupienie|Distance}}: Odległość od kamery do płaszczyzny projekcji dla rzutów perspektywicznych. Musi być dostosowana do obiektu. Odległość zbyt duża powoduje utratę perspektywy, odległość zbyt mała powoduje zniekształcenie obiektu.
 
+
+
 ### Widok
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Utrzymaj etykietę|Bool**: Zawsze pokazuj etykietę widoku, jeśli parametr ma wartość {{TRUE/pl}}. *(1)*
 
--    **Kolejność na stosie|Integer**: Nad lub pod w stosunku do innych widoków. *(1)* {{Version/pl|1.0}}
+-    **Kolejność na stosie|Integer**: Nad lub pod w stosunku do innych widoków. *(1)* {{Version/pl|0.21}}
 
 
 {{TitleProperty|Dekoracja}}
@@ -167,18 +177,39 @@ Widok będzie próbował narysować cokolwiek z właściwością `kształt`. Mo�
 
 *(1)* właściwości te są wspólne dla wszystkich typów widoku.
 
+
+
 ## Tworzenie skryptów 
 
 Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-Narzędzie Widok może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
+Widok można utworzyć za pomocą [makrodefinicji](Macros/pl.md) i z konsoli [Python](Python/pl.md) przy użyciu następujących funkcji:
 
 
 ```python
-view = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewPart', 'View')
-rc = page.addView(view)
-FreeCAD.ActiveDocument.View.Source = [App.ActiveDocument.Box]
-FreeCAD.ActiveDocument.View.Direction = (0.0, 0.0, 1.0)
+import FreeCAD as App
+
+doc = App.ActiveDocument
+box = doc.addObject("Part::Box", "Box")
+
+page = doc.addObject("TechDraw::DrawPage", "Page")
+template = doc.addObject("TechDraw::DrawSVGTemplate", "Template")
+template.Template = App.getResourceDir() + "Mod/TechDraw/Templates/A4_LandscapeTD.svg"
+page.Template = template
+
+# Toggle the visibility of the page to ensure its width and height are updated (hack):
+page.Visibility = False
+page.Visibility = True
+
+view = doc.addObject("TechDraw::DrawViewPart", "View")
+page.addView(view)
+view.Source = [box]
+view.Direction = (0, 0, 1)
+
+view.X = page.PageWidth / 2
+view.Y = page.PageHeight / 2
+
+doc.recompute()
 ```
 
 

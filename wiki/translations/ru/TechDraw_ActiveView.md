@@ -13,20 +13,24 @@
 
 </div>
 
+
+
 ## Описание
 
-The ActiveView tool inserts a bitmap image of the active 3D window into a drawing page.
+The **TechDraw ActiveView** tool inserts a bitmap image of the active 3D window into a drawing page.
 
 ![](images/TechDraw_ActiveView_example.png ) 
 *A simple view from the 3D model.*
 
+
+
 ## Применение
 
 1.  Navigate to the correct [3D view](3D_view.md).
-2.  If there are multiple drawing pages in the document: optionally select the desired page in the [Tree view](Tree_view.md). This is not optional for {{VersionMinus|0.19}}.
+2.  If there are multiple drawing pages in the document: optionally select the desired page in the [Tree view](Tree_view.md).
 3.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_ActiveView.svg" width=16px> [Insert Active View (3D View)](TechDraw_ActiveView.md)** button.
-    -   Select the **TechDraw → <img src="images/TechDraw_ActiveView.svg" width=16px> Insert Active View (3D View)** option from the menu.
+    -   Select the **TechDraw → Views From Other Workbenches → <img src="images/TechDraw_ActiveView.svg" width=16px> Insert Active View (3D View)** option from the menu.
 4.  If there are multiple drawing pages in the document and you have not yet selected a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
     1.  Select the desired page.
     2.  Press the **OK** button.
@@ -49,24 +53,19 @@ The following can be specified:
 
 -    **Use 3d Background**: If checked, the generated bitmap will use the background from the 3D window.
 
+
+
 ## Примечания
 
 -   ActiveViews are static once generated, they are never updated with changes to the 3D model.
 -   An ActiveView behind the scenes is an [Image](TechDraw_Image.md). Its **Scale Type** is therefore always initialized as {{Value|Custom}}.
 -   In {{VersionMinus|0.20}} ActiveView was a [Symbol](TechDraw_Symbol.md).
 
+
+
 ## Свойства
 
 See [TechDraw Image](TechDraw_Image#Properties.md).
-
-## Программирование
-
-
-**См. так же:**
-
-[TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
-
-The ActiveView tool is not available for [macros](Macros.md) or the [console Python](Python_console.md). Use [Std ViewScreenShot](Std_ViewScreenShot.md) instead.
 
 
 

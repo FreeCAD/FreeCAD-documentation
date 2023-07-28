@@ -9,6 +9,8 @@
 
 # Arch Rebar ColumnReinforcement/pt-br
 
+
+
 ## Descrição
 
 The [Column Reinforcement](Arch_Rebar_ColumnReinforcement.md) tool allows the user to create reinforcing bars inside a Column [Arch Structure](Arch_Structure.md) object.
@@ -19,6 +21,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 <img alt="" src=images/Arch_Rebar_ColumnReinforcement_example.png  style="width:400px;"> 
 *Column Reinforcement inside a Column [Arch Structure](Arch_Structure.md)*
+
+
 
 ## Utilização
 
@@ -47,6 +51,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 11\. Select desired rebar type and fill data for ydirection rebars.
 12. Click **OK** or **Apply** to generate column reinforcement.
 13. Click **Cancel** to exit the dialog box.
+
 
 ## Propriedades
 
@@ -129,7 +134,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 [Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The ColumnReinforcement tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
+The ColumnReinforcement tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
 ### Create Single Tie Four Rebars 
 
@@ -188,6 +193,8 @@ RebarGroup = makeSingleTieFourRebars(
 -    `l_rebar_rounding`is the parameter that determines the bending radius of the LShaped main rebars, expressed as times the diameter.
 
 -    `hook_extension`is the length of hook of LShaped rebars.
+
+
 
 #### Exemplo
 
@@ -358,6 +365,8 @@ RebarGroup = makeSingleTieMultipleRebars(
 
 -    `sec_hook_extension`is a tuple (xdir_hook_extension, ydir_hook_extension) that defines the length of hook of secondary x-direction and y-direction LShaped rebars.
 
+
+
 #### Exemplo 
 
 
@@ -443,6 +452,8 @@ rebar_group = editSingleTieFourRebars(
 
 -    `structure`and `facename` may be omitted so that the rebar stays in the original structure.
 
+
+
 #### Exemplo 
 
 
@@ -519,6 +530,8 @@ rebar_group = editSingleTieMultipleRebars(
 -   The other parameters are the same as required by the `makeSingleTieMultipleRebars()` function.
 
 -    `structure`and `facename` may be omitted so that the reinforcement stays in the original structure.
+
+
 
 #### Exemplo 
 

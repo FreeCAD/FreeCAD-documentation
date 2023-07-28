@@ -14,7 +14,7 @@
 
 ## Opis
 
-Polecenie **Poprzednie** nie działa poprawnie [1](https://forum.freecadweb.org/viewtopic.php?f=3&t=45157).
+Polecenie **Poprzednie** aktywuje poprzednie okno w [Głównym obszarze widoku](Main_view_area/pl.md). Poprzednie okno jest określane na podstawie kolejności zakładek w obszarze widoku głównego.
 
 
 

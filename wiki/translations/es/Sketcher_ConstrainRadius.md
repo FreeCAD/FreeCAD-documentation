@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -23,6 +25,8 @@ Esta restricción restringe el valor del radio de una circunferencia o un arco a
 </div>
 
 ![](images/Sketcher_ConstrainRadius_example.png )
+
+
 
 ## Utilización
 

@@ -1,22 +1,26 @@
 ---
 - GuiCommand:/pl
    Name:PartDesign CompPrimitiveAdditive
-   Name/pl:PartDesign Utwórz cechę addytywną
-   MenuLocation:Projekt części → Utwórz cechę addytywną
-   Workbenches:[Projekt części](PartDesign_Workbench/pl.md)
+   Name/pl:Projekt Części: Utwórz bryłę pierwotną do dodania
+   MenuLocation:Projekt Części → Utwórz bryłę pierwotną do dodania
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[Utwórz cechę Subtraktywną](PartDesign_CompPrimitiveSubtractive/pl.md)
+   SeeAlso:[Utwórz cechę przez odjęcie](PartDesign_CompPrimitiveSubtractive/pl.md)
 ---
 
 # PartDesign CompPrimitiveAdditive/pl
+
+
 
 ## Opis
 
 Tworzy pierwotną bryłę addytywną w aktywnej bryle jako pierwszy element lub łączy ją z istniejącymi elementami. Jeżeli w dokumencie nie ma bryły, zostanie ona automatycznie utworzona.
 
+
+
 ## Rodzaje brył pierwotnych 
 
--   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:32px;"> [Addytywny sześcian](PartDesign_AdditiveBox/pl.md)
+-   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:32px;"> [Addytywny prostopadłościan](PartDesign_AdditiveBox/pl.md)
 -   <img alt="" src=images/PartDesign_AdditiveCylinder.svg  style="width:32px;"> [Addytywny walec](PartDesign_AdditiveCylinder/pl.md)
 -   <img alt="" src=images/PartDesign_AdditiveSphere.svg  style="width:32px;"> [Addytywna sfera](PartDesign_AdditiveSphere/pl.md)
 -   <img alt="" src=images/PartDesign_AdditiveCone.svg  style="width:32px;"> [Addytywny stożek](PartDesign_AdditiveCone/pl.md)

@@ -13,14 +13,20 @@
 
 </div>
 
+
+
 ## Описание
 
-This tool inserts a comment. When exporting a project to G-code, the comments will be inserted in the G-code program, and can be read by people reading the file. Some machine controllers will also display comments on their display screens.
+The tool <img alt="" src=images/Path_Comment.svg  style="width:24px;"> [Comment](Path_Comment.md) inserts a comment. When exporting a project to G-code, the comments will be inserted in the G-code program, and can be read by people reading the file. Some machine controllers will also display comments on their display screens.
+
+
 
 ## Применение
 
 1.  Press the **<img src="images/Path_Comment.svg" width=16px> [Comment](Path_Comment.md)** button or use the **P** then **C** keyboard shortcut.
 2.  Write your comment in the **Comment** property
+
+
 
 ## Свойства
 

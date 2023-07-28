@@ -1,38 +1,35 @@
 ---
 - GuiCommand:/de
    Name:PartDesign SubtractivePipe
-   Name/de:PartDesign Subtraktives Rohr 
+   Name/de:PartDesign Subtraktives Rohr
+   MenuLocation:Part Design → Create a substractive feature → Subtractive pipe
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   MenuLocation:Part Design → Abziehbares Rohr
    Version:0.17
-   SeeAlso:[Additives Rohr](PartDesign_AdditivePipe/de.md), [Subtraktive Ausformung](PartDesign_SubtractiveLoft/de.md)
+   SeeAlso:[PartDesign Additives Rohr](PartDesign_AdditivePipe/de.md), [PartDesign Subtraktive Ausformung](PartDesign_SubtractiveLoft/de.md)
 ---
 
 # PartDesign SubtractivePipe/de
 
 
-</div>
 
 ## Beschreibung
 
 **Subtraktives Rohr** erzeugt einen subtraktiven Volumenkörper im aktiven Bauteil, indem eine oder mehrere Skizzen (auch als Querschnitte bezeichnet) entlang eines offenen oder geschlossenen Pfades ausgetragen werden. Seine Form wird dann von dem vorhandenen Körper subtrahiert. Subtraktives Rohr wird häufig zusammen mit [Part Helix](Part_Helix/de.md) und [PartDesign ShapeBinder](PartDesign_ShapeBinder/de.md) verwendet, um ein Gewinde zu erzeugen; siehe das [Schraubengewinde Tutorium](Thread_for_Screw_Tutorial/de.md) für Einzelheiten.
 
+
+
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Drücke die **<img src="images/PartDesign_SubtractivePipe.svg" width=24px> '''Subtraktives Rohr'''** Schaltfläche.
-2.  Im **Element auswählen** Dialog, wähle eine Skizze, die als erster Querschnitt verwendet werden soll, und klicke**OK**.
-    -   Alternativ kann eine einzelne Skizze ausgewählt werden, bevor die Schaltfläche Subtraktives Rohr gedrückt wird.
-3.  Im **Rohrparameter** unter **Profil**, drücke die **Objekt** Schaltfläche.
-4.  Wähle die Skizze aus, die als Pfad in der 3D Ansicht verwendet werden soll:
-    -   Alternativ können Kanten des Körpers ausgewählt werden, durch drücken von **Add Edge** und auswählen von Kanten in der 3D Ansicht
-5.  Um mehr als einen Querschnitt zu verwenden, setze unter **Schnitttransformation** den Umwandlungsmodus auf *\'Mehrfachschnitt*; drücke **Add Section** und wähle dann eine Skizze in der 3D Ansicht aus. Wiederhole diesen Vorgang für jeden weiteren Querschnitt.
-6.  Lege bei Bedarf Optionen fest und klicke auf **OK**.
+1.  Die Schaltfläche **<img src="images/PartDesign_SubtractivePipe.svg" width=24px> '''Subtraktives Rohr'''** drücken.
+2.  Im Dialog **Element auswählen** eine Skizze auswählen, die als erster Querschnitt verwendet werden soll, und **OK** klicken.
+    -   Alternativ kann eine einzelne Skizze ausgewählt werden oder eine Fläche eines 3D-Objekts ({{Version/de|0.20}}), bevor die Schaltfläche (subtraktives) Rohr gedrückt wird.
+3.  Im Dialogbereich **Rohr-Parameter** unter **Profil** die Schaltfläche **Objekt** drücken.
+4.  Die Skizze auswählen, die in der 3D-Ansicht als Pfad verwendet werden soll:
+    -   Alternativ können Kanten des Körpers ausgewählt werden, indem **Kante hinzufügen** gedrückt wird und die Kanten in der 3D-Ansicht ausgewählt werden.
+5.  Um mehr als einen Querschnitt zu verwenden, wird unter **Abschnitt Transformation** der Transformationsmodus auf **Mehrere Abschnitte** gesetzt, die Schaltfläche **Schnitt hinzufügen** drücken und dann eine Skizze in der 3D-Ansicht auswählen. Diesen Vorgang für jeden weiteren Querschnitt wiederholen.
+6.  Bei Bedarf Optionen festlegen und auf **OK** klicken.
 
 
-</div>
 
 ## Optionen
 
@@ -63,6 +60,8 @@
 -   Right
 -   Rounded
 
+
+
 ## Eigenschaften
 
 -    **Label**: Name, der der Vorgang erhalten hat, dieser Name kann nach Belieben geändert werden.
@@ -85,18 +84,18 @@
 
 -    **Transformation**: *Konstante* verwendet einen einzigen Querschnitt. *Mehrfachschnitt* verwendet zwei oder mehr Querschnitte. *Linear*, *S-förmig* und *Interpolation* sind derzeit nicht funktionsfähig.
 
-## Notes
 
 
-<div class="mw-translate-fuzzy">
+## Hinweise
 
--   Skizzen, die für Querschnitte verwendet werden, müssen geschlossene Profile bilden.
--   Es ist nicht möglich, einen Knotenpunkt als Querschnitt zu verwenden.
--   Ein Querschnitt kann nicht auf der gleichen Ebene liegen wie die unmittelbar vorausgehende.
--   Um die Form des Rohres besser kontrollieren zu können, wird empfohlen, dass alle Querschnitte die gleiche Anzahl von Segmenten haben. Beispielsweise kann bei einem Rohr zwischen einem Rechteck und einem Kreis der Kreis in 4 zusammenhängende Bögen aufgeteilt werden.
-
-
-</div>
+-   Um die Form des Rohres besser steuern zu können, wird empfohlen, dass alle Querschnitte mit derselben Anzahl von Abschnitten erstellt werden. Beispielsweise sollte für ein Rohr zwischen einem Rechteck und einem Kreis der Kreis in vier verbundene Bögen aufgebrochen werden.
+-   Das Rohr kann in einem einzelnen Knotenpunkt ([Vertex](Glossary/de#Vertex.md)) einer Skizze oder eines Körpers beginnen oder enden. {{Version/de|0.20}}
+-   Wird ein [Knotenpunkt](Glossary#Vertex.md) verwendet, muss er in den meisten Fällen als letzter Querschnitt des Rohres verwendet werden. Die Reihenfolge der Querschnitte kann geändert werden, indem sie in der Liste verschoben werden.
+-   Der Pfad kann nur aus einer einzelnen Skizze, einem Formelement oder einem Formbinder erstellt werden. Falls er entlang mehrerer Kanten verschiedener Skizzen ausgetragen werden soll, kann ein **[<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [Teilformbinder](PartDesign_SubShapeBinder.md)** verwendet werden.
+-   Der Pfad darf keine Verzweigungen oder T-Verbindungen usw. enthalten; (nur) geschlossene Konturen sind erlaubt.
+-   Es kann zu Problemen führen, wenn ein Querschnitt in 3D nicht senkrecht auf dem Pfad steht.
+-   Ein Querschnitt kann nicht mit dem unmittelbar vorhergehenden Querschnitt auf derselben Ebene liegen.
+-   Ein Querschnitt darf keine aufgetrennten oder sich kreuzende Schlaufen enthalten.
 
 
 

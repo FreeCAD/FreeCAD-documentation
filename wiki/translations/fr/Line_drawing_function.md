@@ -1,13 +1,17 @@
 # Line drawing function/fr
 {{TOCright}}
 
+
+
 ## Introduction
 
 Cette page montre comment des fonctionnalités avancées peuvent être facilement créées en Python. Dans cet exercice, nous allons créer un nouvel outil qui trace une ligne. Cet outil peut ensuite être lié à une commande FreeCAD, et cette commande peut être appelée par n\'importe quel élément de l\'interface, comme un élément de menu ou un bouton de barre d\'outils.
 
+
+
 ## Script principal 
 
-Nous allons d\'abord écrire un script contenant toutes nos fonctionnalités. Ensuite, nous l\'enregistrerons dans un fichier et l\'importerons dans FreeCAD pour rendre toutes ses classes et fonctions disponibles. Lancez votre éditeur de code préféré et tapez les lignes suivantes:
+Nous allons d\'abord écrire un script contenant toutes nos fonctionnalités. Ensuite, nous l\'enregistrerons dans un fichier et l\'importerons dans FreeCAD pour rendre toutes ses classes et fonctions disponibles. Lancez votre éditeur de code préféré et tapez les lignes suivantes :
 
 
 ```python
@@ -38,6 +42,8 @@ class line:
 
 
 {{Top}}
+
+
 
 ## Explications détaillées 
 
@@ -163,13 +169,13 @@ Le Part module a une fonction très pratique `show()` qui crée un nouvel objet 
 self.view.removeEventCallbackPivy(SoMouseButtonEvent.getClassTypeId(), self.callback)
 ```
 
-Maintenant, nous en avons fini avec notre ligne, nous allons supprimer le mécanisme de rappel ici. {{Top}}
+Maintenant, nous en avons fini avec notre ligne, nous allons supprimer le mécanisme de rappel ici. 
 
 ## Tester le script 
 
 Maintenant, sauvegardons notre script dans un dossier où l\'interpréteur FreeCAD Python peut le trouver. Lors de l\'importation de modules, l\'interpréteur cherchera aux endroits suivants: les chemins d\'installation de Python, le dossier FreeCAD **bin** et tous les dossiers FreeCAD **Mod** (module). La meilleure solution est donc de créer un nouveau dossier dans l\'un des dossiers **Mod**. Créons là un dossier **MyScripts** et enregistrons notre script dedans sous le nom **exercise.py**.
 
-Maintenant, tout est prêt. Démarrons FreeCAD, créons un nouveau document, et dans le numéro de l\'interpréteur Python:
+Maintenant, tout est prêt. Démarrons FreeCAD, créons un nouveau document, et dans le numéro de l\'interpréteur Python :
 
 
 ```python
@@ -183,7 +189,7 @@ Si aucun message d\'erreur n\'apparaît, c\'est que notre script d\'exercice a �
 dir(exercise)
 ```
 
-La commande `dir()` est une commande Python intégrée qui répertorie le contenu d\'un module. Nous pouvons vérifier que notre classe `line()` est là avec:
+La commande `dir()` est une commande Python intégrée qui répertorie le contenu d\'un module. Nous pouvons vérifier que notre classe `line()` est là avec :
 
 
 ```python
@@ -197,11 +203,11 @@ Maintenant, testons-le :
 exercise.line()
 ```
 
-Cliquez deux fois dans la vue 3D et bingo: voici notre ligne! Pour la répéter, tapez à nouveau `exercise.line()`. {{Top}}
+Cliquez deux fois dans la vue 3D et bingo: voici notre ligne! Pour la répéter, tapez à nouveau 
 
 ## Enregistrement du script 
 
-Pour que notre nouvel outil ligne soit vraiment utile et pour éviter d\'avoir à taper tout cela, il devrait avoir un bouton dans l\'interface. Une façon de faire est de transformer notre nouveau dossier **MyScripts** en un atelier FreeCAD complet. Il suffit de mettre un fichier appelé **InitGui.py** dans le dossier **MyScripts**. **InitGui.py** contiendra les instructions pour créer un nouvel atelier et y ajouter notre nouvel outil. En plus de cela, nous devrons également changer un peu notre code d\'exercice, de sorte que l\'outil `line()` soit reconnu comme une commande officielle de FreeCAD. Commençons par créer un fichier **InitGui.py** et y écrire le code suivant:
+Pour que notre nouvel outil ligne soit vraiment utile et pour éviter d\'avoir à taper tout cela, il devrait avoir un bouton dans l\'interface. Une façon de faire est de transformer notre nouveau dossier **MyScripts** en un atelier FreeCAD complet. Il suffit de mettre un fichier appelé **InitGui.py** dans le dossier **MyScripts**. **InitGui.py** contiendra les instructions pour créer un nouvel atelier et y ajouter notre nouvel outil. En plus de cela, nous devrons également changer un peu notre code d\'exercice, de sorte que l\'outil `line()` soit reconnu comme une commande officielle de FreeCAD. Commençons par créer un fichier **InitGui.py** et y écrire le code suivant :
 
 
 ```python
@@ -219,7 +225,7 @@ Gui.addWorkbench(MyWorkbench())
 
 A présent, vous comprenez probablement le script ci-dessus. Nous créons une nouvelle classe que nous appelons `MyWorkbench`, nous lui donnons un titre `MenuText` et nous définissons une fonction `Initialize()` qui sera exécutée lorsque l\'atelier est chargé dans FreeCAD. Dans cette fonction, nous chargeons le contenu de notre fichier d\'exercice et ajoutons les commandes FreeCAD trouvées à l\'intérieur à une liste de commandes. Ensuite, nous créons une barre d\'outils appelée \"Mes scripts\" et nous y assignons notre liste de commandes. Actuellement, bien sûr, nous n\'avons qu\'un seul outil, donc notre liste de commandes ne contient qu\'un seul élément. Ensuite, une fois notre atelier prêt, nous l\'ajoutons à l\'interface principale.
 
-Mais cela ne fonctionnera toujours pas car une commande FreeCAD doit être formatée d\'une certaine manière pour fonctionner, nous devrons changer notre outil `line()`. Notre nouveau script **exercise.py** devrait ressembler à ceci:
+Mais cela ne fonctionnera toujours pas car une commande FreeCAD doit être formatée d\'une certaine manière pour fonctionner, nous devrons changer notre outil `line()`. Notre nouveau script **exercise.py** devrait ressembler à ceci :
 
 
 ```python
@@ -255,16 +261,16 @@ FreeCADGui.addCommand('line', line())
 
 Ce que nous avons fait ici est de transformer notre fonction `__init __()` en une fonction `Activated()`. Lorsque les commandes FreeCAD sont exécutées, elles exécutent automatiquement la fonction `Activated()`. Nous avons également ajouté une fonction `GetResources()`, qui informe FreeCAD où il peut trouver l\'icône de l\'outil et quel sera le nom et l\'infobulle de notre outil. Toute image **jpg**, **png** ou **svg** fonctionnera comme une icône, elle peut être de n\'importe quelle taille, mais il est préférable d\'utiliser une taille proche de l\'aspect final, comme 16x16, 24x24 ou 32x32. Ensuite, nous ajoutons la classe `line()` en tant que commande officielle de FreeCAD avec la méthode `addCommand()`.
 
-Ça y est, nous avons juste besoin de redémarrer FreeCAD et nous aurons un plan de travail agréable avec notre nouvel outil **ligne** tout neuf ! {{Top}}
+Ça y est, nous avons juste besoin de redémarrer FreeCAD et nous aurons un plan de travail agréable avec notre nouvel outil **ligne** tout neuf ! 
 
 ## Vous voulez en savoir plus ? 
 
-Si vous avez aimé cet exercise, pourquoi ne pas essayer d\'améliorer ce petit outil? Il y a beaucoup de choses à faire, comme par exemple:
+Si vous avez aimé cet exercise, pourquoi ne pas essayer d\'améliorer ce petit outil? Il y a beaucoup de choses à faire, comme par exemple :
 
--   Ajouter des commentaires d\'utilisateurs: jusqu\'à présent nous avons fait un outil très dépouillé, l\'utilisateur peut être un peu perdu lors de son utilisation. Vous pouvez ajouter vos commentaires, en guidant l\'utilisateur. Par exemple, vous pourriez émettre des messages à la console FreeCAD. \"Jetez\" un oeil dans le module `FreeCAD.Console`.
--   Ajouter la possibilité d\'entrer les coordonnées 3D manuellement . Regardez les fonctions Python `input()`, par exemple.
+-   Ajouter des commentaires d\'utilisateurs : jusqu\'à présent nous avons fait un outil très dépouillé, l\'utilisateur peut être un peu perdu lors de son utilisation. Vous pouvez ajouter vos commentaires, en guidant l\'utilisateur. Par exemple, vous pourriez émettre des messages à la console FreeCAD. \"Jetez\" un oeil dans le module `FreeCAD.Console`.
+-   Ajouter la possibilité d\'entrer les coordonnées 3D manuellement. Regardez les fonctions Python `input()`, par exemple.
 -   Ajouter la possibilité d\'ajouter plus de 2 points.
--   Ajouter des événements pour d\'autres fonctions: Maintenant que nous venons d\'apprendre les événements de bouton de souris, si nous souhaitons également faire quelque chose quand la souris est déplacée, comme par exemple l\'affichage des coordonnées actuelles?
+-   Ajouter des événements pour d\'autres fonctions: Maintenant que nous venons d\'apprendre les événements de bouton de souris, si nous souhaitons également faire quelque chose quand la souris est déplacée, comme par exemple l\'affichage des coordonnées actuelles ?
 -   Donnez un nom à l\'objet créé et bien d\'autres choses.
 
 N\'hésitez pas à poser des questions ou à partager des idées sur le [forum](https://forum.freecadweb.org/)! {{Top}}

@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -37,6 +39,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -71,6 +75,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 *Taskview panel for the Arch Rebar Helical tool*
 
+
+
 ## Proprietăți
 
 -    **Side Cover**:distanța dintre armatură și fața curbată.
@@ -84,12 +90,19 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 -    {{PropertyData | Diameter}}: Diametrul barei.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Scrip-Programare 
 
 
 </div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">

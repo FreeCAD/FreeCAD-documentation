@@ -12,7 +12,7 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_ExtensionCreateVertCoordDimension.svg  style="width:24px;"> **TechDraw ExtensionCreateVertCoordDimension** tool creates vertical coordinate dimensions: multiple evenly spaced dimensions starting from the same baseline.
+The **TechDraw ExtensionCreateVertCoordDimension** tool creates vertical coordinate dimensions: multiple evenly spaced dimensions starting from the same baseline.
 
 <img alt="" src=images/TechDraw_ExtensionCreateVertCoordDimensionExample.png  style="width:400px;"> 
 *On the right the created dimensions*
@@ -23,7 +23,7 @@ The <img alt="" src=images/TechDraw_ExtensionCreateVertCoordDimension.svg  style
 2.  Select three or more vertexes.
 3.  The selection order of the first two vertexes determines the position of the baseline. If the vertex that is selected first is below the second, the baseline is created at the lowest vertex, else it is created at the highest vertex.
 4.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionCreateVertCoordDimension.svg" width=16px> [TechDraw ExtensionCreateVertCoordDimension](TechDraw_ExtensionCreateVertCoordDimension.md)** button.
+    -   Press the **<img src="images/TechDraw_ExtensionCreateVertCoordDimension.svg" width=16px> [Create Vertical Coordinate Dimensions](TechDraw_ExtensionCreateVertCoordDimension.md)** button.
     -   Select the **TechDraw → Extensions: Dimensions → <img src="images/TechDraw_ExtensionCreateVertCoordDimension.svg" width=16px> Create Vertical Coordinate Dimensions** option from the menu.
 5.  Coordinate dimensions with centered dimension texts are created.
 

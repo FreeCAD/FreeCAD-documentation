@@ -1,17 +1,19 @@
 ---
 - GuiCommand:/de
-   Name:Sketcher Conics
+   Name:Sketcher CompCreateConic
    Name/de:Sketcher AuswahlKegelschnittErstellen
-   Icon:Sketcher_CompCreateConic.png
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   MenuLocation:
 ---
 
 # Sketcher CompCreateConic/de
 
+
+
 ## Beschreibung
 
 **Kegelschnitt erstellen** ist eine Symbolschaltfläche <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:64px;"> in der Werkzeugleiste Skizzengeometrien, die Werkzeuge gruppiert, die auf Grundlage von Kegelschnitten Kurven erzeugen. Klick auf den Abwärtspfeil zur rechten um die Symbole unterhalb aufzuklappen und ein Werkzeug auszuwählen.
+
+
 
 ## Kegelschnittarten
 

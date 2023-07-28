@@ -15,7 +15,13 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Das Werkzeug <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:24px;"> **TechDraw ErgänzungLinienmerkmaleAuswählen** öffnet ein Dialogfenster, in dem man die Eigenschaften (Linienart, Linienbreite und Farbe) für neue Hilfslinien und Mittellinien, die mit den [Werkzeugergänzungen](TechDraw_Workbench/de#Erweiterungspaket.md) erstellt wurden, den Zeilenabstand der Maßlinien, und die Längendifferenz einstellen kann. Die Eigenschaften werden auch im Werkzeug [TechDraw ErgänzungLinienmerkmaleÄndern](TechDraw_ExtensionChangeLineAttributes.md) verwendet.
+
+
+</div>
 
 ![](images/TechDraw_ExtensionSelectLineAttributes_Taskpanel.png ) 
 *Der Aufgabenbereich zu Linienmerkmale auswählen*
@@ -23,6 +29,9 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  
 
 
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Es gibt verschiedene Möglichkeiten das Werkzeug aufzurufen:
     -   Die Schaltfläche **<img src="images/TechDraw_ExtensionSelectLineAttributes.svg" width=16px> [Linienmerkmale, Zeilenabstand und Längendifferenz auswählen](TechDraw_ExtensionSelectLineAttributes/de.md)** drücken.
@@ -34,19 +43,16 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  
 6.  Die Schaltfläche **OK** drücken.
 
 
+</div>
+
+
 
 ## Anmerkungen
 
 -   Die festgelegten Werte werden nur in der laufenden FreeCAD Sitzung verwendet.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw_Tools_navi

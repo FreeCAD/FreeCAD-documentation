@@ -193,7 +193,7 @@ Lorsque le lien est pour un **[<img src=images/Std_Part.svg style="width:16px"> 
 
 
 
-*Un [Std Part](Std_Part/fr.md) contenant trois objets et un lien vers cette pièce; dans le lien, (1) le premier objet est rendu invisible, (2) le deuxième objet a des sous-éléments avec des couleurs différentes, (3) le troisième objet entier a une couleur et un niveau de transparence différents.*
+*Un [Std Part](Std_Part/fr.md) contenant trois objets et un lien vers cette pièce ; dans le lien, (1) le premier objet est rendu invisible, (2) le deuxième objet a des sous-éléments avec des couleurs différentes, (3) le troisième objet entier a une couleur et un niveau de transparence différents.*
 
 
 

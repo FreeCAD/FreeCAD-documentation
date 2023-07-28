@@ -434,7 +434,7 @@ Ecco un assieme di esempio per provare l\'animazione di trascinamento: [A2p_exam
 
 
 
-*Above: The dragging animation using the example assembly*
+*Sopra: l'animazione di trascinamento utilizzando l'assembly di esempio*
 
 ### Scripting
 
@@ -523,18 +523,20 @@ Questo è il risultato dell\'animazione di esempio:
 
 ![](images/A2p_animated-example-result.gif )
 
-#### Interactive Script Example 
 
-The first script example demonstrated how to create an animation without any user feedback. For most applications you need to interact with the animation. For example the interesting issue in the example is to see how the driving pins cross the center groove of the wheel. To have a closer look you might present this detail to your colleagues or boss. Therefore you need an interactive solution.
 
-This can be done by using a custom animation dialog with a slider. By moving the slider you can set the rotation angle and therefore rotate back and forth at interesting position.
+#### Esempio di script interattivo 
 
-We use the same assembly file: [A2p_animated-example.FCStd](https://forum.freecadweb.org/download/file.php?id=97554) and this Python script: [A2p_animation-example-script.py](https://forum.freecadweb.org/download/file.php?id=97982).
+Il primo esempio di script ha dimostrato come creare un\'animazione senza alcun feedback da parte dell\'utente. Per la maggior parte delle applicazioni è necessario interagire con l\'animazione. Ad esempio, un problema interessante nell\'esempio è vedere come i perni guida attraversano la scanalatura centrale della ruota. Per dare un\'occhiata più da vicino si potrebbe presentare questo dettaglio ai tuoi colleghi o al tuo capo. Pertanto è necessaria una soluzione interattiva.
+
+Questo può essere ottenuto utilizzando una finestra di dialogo per l\'animazione personalizzata con un dispositivo di scorrimento. Spostando il cursore è possibile impostare l\'angolo di rotazione e quindi ruotare avanti e indietro in una posizione interessante.
+
+Usiamo lo stesso file di assemblaggio: [A2p_animated-example.FCStd](https://forum.freecadweb.org/download/file.php?id=97554) e questo script Python: [/file.php?id=97982 A2p_animation-example-script.py](https://forum.freecadweb.org/download).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-This is the content of the script to get the interactive animation dialog:
+Questo è il contenuto dello script per ottenere la finestra di dialogo dell\'animazione interattiva:
 
 
 <div class="mw-collapsible-content">
@@ -693,25 +695,27 @@ while AnimationDialog.isVisible():
 
 </div>
 
-The dialog defined in the script looks like this:
+La finestra di dialogo definita nello script ha il seguente aspetto:
 
 ![](images/A2p_AnimationDialog.png )
 
-### Script Commands 
 
-To understand the script syntax better, here is some command info: 
+
+### Comandi per lo Script 
+
+Per comprendere meglio la sintassi dello script, ecco alcune informazioni sui comandi: 
 ```python starWheel.Placement.Rotation.Angle = math.radians(angle)```
 
-Here we change the placement property `Rotation.Angle` of the part get got previously as `starWheel`. This property gets the angle as [radian](https://en.wikipedia.org/wiki/Radian). The function `radians()` from the library `math` converts the angle from degree to radian.
+Qui cambiamo la proprietà di posizionamento `Rotation.Angle` della parte ottenuta in precedenza come `starWheel`. Questa proprietà ottiene l\'angolo come [radianti](https://en.wikipedia.org/wiki/Radian). La funzione `radians()` della libreria `math` converte l\'angolo da gradi a radianti.
 
-The property `Rotation.Angle` uses the current placement axis of the part (in our example the X-axis). To rotate the part e.g. around the Z-axis one can set the rotation axis (before calling the rotation command) using the command: 
-```python starWheel.Placement.Rotation.Axis = FreeCAD.Vector(0,0,1)``` Instead of rotating, parts can also be moved. To change for example the placement in Y-direction of the wheel, the command would be: 
-```python starWheel.Placement.Base.y = PositionShift``` In this case we would not define the variable `angle` but `PositionShift` that we change on every loop run.
+La proprietà `Rotation.Angle` utilizza l\'asse di posizionamento corrente della parte (nel nostro esempio l\'asse X). Per ruotare la parte, ad es. attorno all\'asse Z è possibile impostare l\'asse di rotazione (prima di chiamare il comando di rotazione) utilizzando il comando: 
+```python starWheel.Placement.Rotation.Axis = FreeCAD.Vector(0,0,1)``` Invece di ruotare, le parti possono anche essere spostate. Per modificare ad esempio il posizionamento in direzione Y della ruota, il comando sarebbe: 
+```python starWheel.Placement.Base.y = PositionShift``` In questo caso non definiremmo la variabile `angle` ma `PositionShift` che cambiamo ad ogni ciclo eseguito.
 
-There are different ways to set the placement of a part. Some are [ documented here](Placement.md). Unfortunately there is no list (yet) with all possible placement commands. 
+Esistono diversi modi per impostare il posizionamento di una parte. Alcuni sono [documentati qui](Placement/it.md). Sfortunatamente non esiste (ancora) un elenco con tutti i possibili comandi di posizionamento. 
 ```pythona2p_solver.solveConstraints(document, useTransaction=False/True)```
 
-This is an A2plus-specific command. It solves the assembly constraints of the assembly we previously got as `document`. The option `useTransaction` specifies if FreeCAD should store every change in the undo/redo stack. For large animations you might therefore set it to `False`.
+Questo è un comando specifico di A2plus. Risolve i vincoli di assieme dell\'assembly che abbiamo precedentemente ottenuto come `document`. L\'opzione `useTransaction` specifica se FreeCAD deve memorizzare ogni modifica nello stack annulla/ripeti. Per animazioni di grandi dimensioni si potrebbe quindi impostarlo a `False`.
 
 
 

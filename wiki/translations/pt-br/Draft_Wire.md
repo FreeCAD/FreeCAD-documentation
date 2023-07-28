@@ -10,6 +10,8 @@
 
 # Draft Wire/pt-br
 
+
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> **Draft Wire** command [creates](#Create.md) a polyline, a sequence of several connected line segments. The command can also be used to [join](#Join.md) [Draft Lines](Draft_Line.md) and Draft Wires.
@@ -19,7 +21,11 @@ The corners of a Draft Wire can be filleted (rounded) or chamfered by changing i
 <img alt="" src=images/Draft_Polyline_example.jpg  style="width:400px;"> 
 *Wire defined by multiple points*
 
+
+
 ## Criar
+
+
 
 ### Utilização
 
@@ -34,6 +40,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 4.  Pick additional points in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
 5.  Press **Esc** or the **Close** button to finish the command.
 
+
+
 ### Opções
 
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
@@ -43,7 +51,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
 -   Press **L** or click the **Filled** checkbox to toggle filled mode. If filled mode is on, the created wire will have **Make Face** set to `True` and will have a filled face, provided it is closed and does not self-intersect. Note that a self-intersecting wire with a face will not display properly, for such a wire **Make Face** must be set to `False`.
 -   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after using **<img src="images/Draft_FinishLine.svg" width=16px> Finish** or **<img src="images/Draft_CloseLine.svg" width=16px> Close**, or after creating a closed wire by snapping to the first point of the wire, allowing you to continue creating wires.
--   Press **/** or the **<img src="images/Draft_UndoLine.svg" width=16px> Undo** button to undo the last point. The keyboard shortcut does not work in {{VersionMinus|19.0}}.
+-   Press **/** or the **<img src="images/Draft_UndoLine.svg" width=16px> Undo** button to undo the last point.
 -   Press **A** or the **<img src="images/Draft_FinishLine.svg" width=16px> Finish** button to finish the command and leave the wire open.
 -   Press **O** or the **<img src="images/Draft_CloseLine.svg" width=16px> Close** button to finish the command and close the wire. A closed wire can also be created by snapping to the first point of the wire.
 -   Press **W** or the **<img src="images/Draft_Wipe.svg" width=16px> Wipe** button to delete the segments already placed, but keep working from the last point.
@@ -52,6 +60,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   Press **Esc** or the **Close** button to finish the command.
 
 ## Join
+
+
 
 ### Utilização 
 
@@ -62,11 +72,15 @@ The single character keyboard shortcuts available in the task panel can be chang
     -   Select the **Drafting → <img src="images/Draft_Wire.svg" width=16px> Polyline** option from the menu.
     -   Use the keyboard shortcut: **P** then **L**.
 
+
+
 ## Notas
 
 -   A Draft Wire can be edited with the [Draft Edit](Draft_Edit.md) command.
 -   A Draft Wire can be converted to a [Draft BSpline](Draft_BSpline.md) with the [Draft WireToBSpline](Draft_WireToBSpline.md) command.
 -   [Draft Lines](Draft_Line.md) and Draft Wires can also be joined with the [Draft Join](Draft_Join.md) command or the [Draft Upgrade](Draft_Upgrade.md) command.
+
+
 
 ## Preferências
 
@@ -74,6 +88,8 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 -   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 -   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+
+
 
 ## Propriedades
 
@@ -111,6 +127,8 @@ A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) 
 
 -    **Tool|Link**
     
+
+
 
 ### Vista
 

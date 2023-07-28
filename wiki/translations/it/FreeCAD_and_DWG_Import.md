@@ -5,6 +5,8 @@
 {{Fake heading|sub=4|< Back to [[FreeCAD Howto Import Export]]}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Perché non è possibile importare i file DWG in FreeCAD? 
@@ -19,6 +21,8 @@ Il formato DWG è un formato di file binario closed source che non è supportato
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -38,7 +42,7 @@ GNU LibreDWG is a free C library to handle DWG files. It aims to be a free repla
 
 #### Installation Windows 
 
-Downloading and unzip the appropriate [pre-compiled Windows binary](https://github.com/LibreDWG/libredwg/releases) and then set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
+Downloading and unzip the appropriate [pre-compiled Windows binary](https://github.com/LibreDWG/libredwg/releases). Place the executable in the OS search path, {{Incode|os.getenv("PATH")}}, for automatic detection (<small>(v0.21)</small> ), or set the path manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
 
 #### Installation Linux/Unix systems 
 
@@ -54,7 +58,7 @@ make install # or use checkinstall, or simply locate & copy the dwg2dxf
              # utility to your executables path, it will be then autodetected by FreeCAD
 }}
 
-You need to set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
+Place the executable in the OS search path, {{Incode|os.getenv("PATH")}}, for automatic detection (<small>(v0.21)</small> ), or set the path manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
 
 #### Installation openSUSE 
 
@@ -73,7 +77,9 @@ In any terminal/console (root rights required) the installation will be carried 
 zypper install libredwg0 libredwg-tools
 ```
 
-You need to set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
+Place the executable in the OS search path, {{Incode|os.getenv("PATH")}}, for automatic detection (<small>(v0.21)</small> ), or set the path manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -100,6 +106,8 @@ Il convertitore ODA è una piccola utility liberamente disponibile che consente 
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Installazione
@@ -124,7 +132,7 @@ QCAD is a well-known open-source DXF-based 2D CAD platform. It also offers a pai
 
 #### Installation
 
-You need to set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
+If the utility is not found automatically by FreeCAD after installation (<small>(v0.21)</small> ), you need to set the path to the bash file (Linux and macOS) or batch file (Windows) manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
 
 ### CADExchanger Workbench 
 
@@ -133,12 +141,16 @@ Installing the CADExchanger Workbench allows for working with DWG files through 
 At the moment, the CADExchanger way is the only one that allows to work with 3D DWG files, by converting them to other 3D formats.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Quali sono le alternative? 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -155,6 +167,8 @@ There is also DoubleCAD XT (https://www.turbocad.com/content/doublecad-xt-v5). T
 ### NanoCAD 5.0 
 
 There is also nanoCAD 5.0 (https://nanocad.com/products/nanoCAD/download/). The program is free for personal and commercial use. It requires a free sign-up to receive an activation code via E-Mail. This Program is windows-only.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -177,12 +191,16 @@ Exporting your AutoCAD files in a more FreeCAD friendly format, like DXF R12 or 
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Cosa posso fare per dare un aiuto? 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

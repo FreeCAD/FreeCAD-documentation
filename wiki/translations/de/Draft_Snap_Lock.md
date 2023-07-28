@@ -1,49 +1,32 @@
 ---
 - GuiCommand:/de
    Name:Draft Snap Lock
-   Name/de:Entwurf FangUmschalten
-   MenuLocation:Draft → Utilities → Toggle snap
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso:[Entwurf Fang](Draft_Snap/de.md), [Entwurf Umschalten Gitter](Draft_ToggleGrid/de.md)
+   Name/de:Draft EinrastenSperren
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut:**Shift**+**S**
+   SeeAlso:[Draft Einrasten](Draft_Snap/de.md)
 ---
 
 # Draft Snap Lock/de
 
 
-</div>
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug erlaubt dir die [Entwurf Fang](Draft_Snap/de.md) Methoden global zu aktivieren oder zu deaktivieren.
+Der Befehl <img alt="" src=images/Draft_Snap_Lock.svg  style="width:24px;"> **Draft EinrastenSperren** aktiviert oder deaktiviert das Einrasten global.
 
 
-</div>
 
 ## Anwendung
 
-For general information about snapping see [Draft Snap](Draft_Snap.md).
+Für allgemeine Informationen zum Einrasten (Fangen) siehe [Draft Fangen](Draft_Snap/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Drücke die **<img src="images/Draft_SelectPlane.svg" width=16px> [Entwurf WähleEbene](Draft_SelectPlane/de.md)** Schaltfläche um die Arbeitsebene festzulegen.
-2.  Rechtsklick auf den Symbolleistenbereich, oder gehe zum Menü **Ansicht → Werkzeugleisten**, und stelle sicher, dass die Werkzeugleiste [Entwurf Fang](Draft_Snap/de.md) sichtbar ist.
-3.  Drücke die **<img src="images/Draft_Snap_Lock.svg" width=16px> [Entwurf UmschaltenFang](Draft_Snap_Lock/de.md)** Schaltfläche um die verfügbaren Fangmethoden verfügbar zu machen.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+1.  Zum Aufrufen des Befehls **Draft EinrastenSperren** gibt es folgende Möglichkeiten:
+    -   Die Schaltfläche **<img src="images/Draft_Snap_Lock.svg" width=16px>** in der Symbolleiste Draft-Einrasten drücken.
+    -   Die Schaltfläche **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** im [Draft-Widget Einrasten](Draft_snap_widget/de.md) (kurz) drücken. {{Version/de|0.21}}
+    -   Die Schaltfläche **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** im [Draft-Widget Einrasten](Draft_snap_widget/de.md) gedrückt halten und im Ausklappmenü die Option **<img src="images/Draft_Snap_Lock.svg" width=16px> Fangsperre** auswählen.
+    -   Das Tastaturkürzel **Shift**+**S**. Ist ein Befehl aktiv, funktioniert dieses Tastaturkürzel nur, wenn der Fokus auf keinem der Eingabefelder liegt. {{Version/de|0.21}}
+    -   Das \"In-Command\"-Tastaturkürzel **S**. Dieses Tastaturkürzel funktioniert nur, wenn ein Befehl aktiv ist und der Fokus auf einem der Eingabefelder im Aufgaben-Bereich liegt. Es funktioniert nicht mit allen Befehlen.
 
 
 

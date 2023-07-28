@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -21,6 +23,8 @@ Questo comando permette di modificare uno schizzo esistente. Apr la [Finestra di
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -32,6 +36,8 @@ Questo comando permette di modificare uno schizzo esistente. Apr la [Finestra di
 
 
 </div>
+
+
 
 ## Note
 

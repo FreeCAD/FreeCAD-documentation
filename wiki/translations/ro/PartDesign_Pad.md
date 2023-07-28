@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -24,6 +26,8 @@ Instrumentul **Pad** extrude o schiță într-un solid în direcția normală la
 ![](images/PartDesign_Pad_example.svg )
 
 *Sketch (A) shown on the left; end result after pad operation (B) on the right.*
+
+
 
 ## Cum se utilizează 
 
@@ -39,6 +43,8 @@ Instrumentul **Pad** extrude o schiță într-un solid în direcția normală la
 </div>
 
 When selecting a single sketch, it can have multiple enclosed profiles inside a larger one, for example a rectangle with two circles inside it. But the profiles may not intersect each other. <small>(v0.20)</small> 
+
+
 
 ## Opțiuni
 
@@ -108,9 +114,9 @@ Offset from face at which the pad will end. This option is only available when *
 
 You can select the direction of the extrusion:
 
--   **Sketch normal** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
--   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion. <small>(v0.20)</small> 
--   **Custom direction** The sketch is extruded along a direction that can be specified via vector values. <small>(v0.19)</small> 
+-   **Sketch normal:** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
+-   **Select reference\...:** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion. <small>(v0.20)</small> 
+-   **Custom direction:** The sketch is extruded along a direction that can be specified via vector values.
 
 #### Show direction 
 
@@ -119,6 +125,8 @@ If checked, the pad direction will be shown. In case the pad uses a **Custom dir
 #### Length along sketch normal 
 
 If checked, the pad length is measured along the sketch normal, otherwise along the custom direction. <small>(v0.20)</small> 
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -163,6 +171,8 @@ Defines the length of the pad in the opposite extrusion direction. Multiple unit
 
 Tapers the pad in the opposite extrusion direction by the given angle. A positive angle means the outer pad border gets wider. This option is only available if **Type** is **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
 
+
+
 ## Proprietăți
 
 
@@ -172,6 +182,8 @@ Tapers the pad in the opposite extrusion direction by the given angle. A positiv
 
 
 </div>
+
+
 
 ## Limitări
 

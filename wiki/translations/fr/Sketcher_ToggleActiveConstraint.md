@@ -6,7 +6,7 @@
    MenuLocation:Esquisse → Contraintes d'esquisse → Activer/désactiver la contrainte
    Shortcut:**K** **Z**
    Version:0.19
-   SeeAlso:[Sketcher Basculer en mode construction](Sketcher_ToggleConstruction/fr.md)
+   SeeAlso:[Sketcher Géométrie de construction](Sketcher_ToggleConstruction/fr.md)
 ---
 
 # Sketcher ToggleActiveConstraint/fr
@@ -18,7 +18,7 @@
 
 vous permet d\'activer et de désactiver une contrainte déjà placée. Cela vous permet de conserver la contrainte en arrière-plan mais de tester temporairement une autre disposition de la géométrie existante.
 
-L\'outil **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> [Basculer les contraintes pilotes](Sketcher_ToggleDrivingConstraint/fr.md)** est similaire en ce sens qu\'il désactive l\'effet de la contrainte; cependant, avec cet outil, la contrainte ne conserve pas son ancienne valeur. D\'autre part, avec **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [Activer/désactiver la contrainte](Sketcher_ToggleActiveConstraint/fr.md)** vous pouvez réactiver immédiatement l\'ancienne contrainte.
+L\'outil **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> [Contraintes pilotantes](Sketcher_ToggleDrivingConstraint/fr.md)** est similaire en ce sens qu\'il désactive l\'effet de la contrainte; cependant, avec cet outil, la contrainte ne conserve pas son ancienne valeur. D\'autre part, avec **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [Activer/désactiver la contrainte](Sketcher_ToggleActiveConstraint/fr.md)** vous pouvez réactiver immédiatement l\'ancienne contrainte.
 
 
 

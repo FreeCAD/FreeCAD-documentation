@@ -1,31 +1,36 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher ToggleDrivingConstraint
-   MenuLocation:Sketch → Sketcher constraints → Toggle driving/reference constraint
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Przełącz kontrolę wiązania
+   MenuLocation:Szkic → Wiązania szkicownika → Przełącz kontrolę wiązania
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**K** **X**
    Version:0.16
-   SeeAlso:[Sketcher Toggle Construction](Sketcher_ToggleConstruction.md)
+   SeeAlso:[Przełącz tryb konstrukcji](Sketcher_ToggleConstruction/pl.md)
 ---
 
 # Sketcher ToggleDrivingConstraint/pl
 
-## Description
 
-The **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> [Toggle driving constraint](Sketcher_ToggleDrivingConstraint.md)** tool turns dimensional constraints (Lock, Horizontal/Vertical distance, Length, Radius and Angle) into reference mode, and back. The icons in the toolbar turn blue, and rather than dimensional constraints, reference dimensions are created. Reference dimensions do not constrain the sketch. It can be useful to create reference dimensions in a sketch as a way to check on measurements; when given a name, they can also be used to drive constraints in another sketch through [expressions](Expressions.md).
+
+## Opis
+
+Narzędzie **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> '''Przełącz kontrolę wiązania'''** zmienia więzy wymiarowe *(blokady odległości, odległości pionowej / poziomej, Długości, Promienia i Kąta)* w tryb referencyjny i z powrotem. Ikony na pasku narzędzi zmieniają kolor na niebieski i zamiast ograniczeń wymiarowych tworzone są wymiary informacyjne. Wymiary te nie wiążą szkicu. Tworzenie wymiarów referencyjnych w szkicu może być użyteczne jako sposób sprawdzania wymiarów. Po nadaniu im nazwy mogą być również używane do tworzenia więzów w innym szkicu poprzez [wyrażenia](Expressions/pl.md).
 
 ![](images/Sketcher_Constraint_Toolbar_ReferenceMode.png ) 
-*The Sketcher Constraint toolbar with the dimensional constraints in reference dimension mode (blue).*
+*Pasek narzędzi Wiązania szkicownika z wiązaniami wymiarowymi w trybie wymiaru odniesienia ''(kolor niebieski)''.*
 
 ![](images/Sketcher_ToggleConstraint_example.png ) 
-*A horizontal distance constraint (50 mm), a vertical constraint (30 mm) and an angle constraint (75°) were set to define the profile; a reference dimension was added on the slanted line segment to know its length (31.0583 mm).*
+*W celu zdefiniowania profilu ustawiono poziome wiązanie odległości ''({{Value|50 mm*)'', wiązanie pionowe ''({{Value|30 mm}})'' oraz wiązanie kąta ''({{Value|75°}}); na odcinku linii ukośnej dodano wymiar odniesienia, aby poznać jego długość ''(31,0583 mm)''.}}
 
-## Usage
 
-1.  Press the **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> [Toggle driving constraint](Sketcher_ToggleDrivingConstraint.md)** button. The dimensional constraints icons in the Sketcher Constraints toolbar turn from red to blue.
-2.  The usual method of creating dimensional constraints works the same, but a blue reference dimension is added instead.
-3.  To turn the Sketcher Constraints toolbar back to constraint mode (red), press the Toggle Constraint button again.
-4.  To turn a dimensional constraint into a reference dimension, or the reverse, select it and press the Toggle Constraint button.
+
+## Użycie
+
+1.  Naciśnij przycisk **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> [Przełącz kontrolę wiązania](Sketcher_ToggleDrivingConstraint/pl.md)**. Ikony wiązań wymiarowych na pasku narzędzi Wiązania szkicownika zmieniają kolor z czerwonego na niebieski.
+2.  Zwykła metoda tworzenia wiązań wymiarowych działa tak samo, ale zamiast tego dodawany jest niebieski wymiar porównawczy.
+3.  Aby przywrócić pasek narzędzi Wiązania szkicownik do trybu konstrukcyjnego *(czerwony)*, naciśnij ponownie przycisk **Przełącz kontrolę wiązania**.
+4.  Aby przekształcić wiązanie wymiarowe w wymiar informacyjny lub odwrotnie, wybierz je i naciśnij przycisk **Przełącz kontrolę wiązania**.
 
 
 

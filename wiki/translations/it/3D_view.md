@@ -14,12 +14,9 @@ Alcune proprietà della vista, come il colore di sfondo, lo stile di [navigazion
 
 *La [vista 3D](3D_view/it.md) è un componente dell'[interfaccia](interface/it.md) di FreeCAD . Per impostazione predefinita, essa mostra un piccolo widget con gli assi delle coordinate e il cubo di navigazione anche esso con gli assi delle coordinate; la griglia può essere visualizzata e configurata caricando l'ambiente [Draft](Draft_Workbench/it.md).*
 
+
+
 ## Azioni
-
-
-**Note:**
-
-Azioni link {{Version/it|0.19}}.
 
 Poiché la [vista ad albero](tree_view/it.md) elenca la maggior parte degli oggetti che sono visibili nella vista 3D, molte delle azioni sono uguali a quelle che possono essere eseguite dalla [vista ad albero](tree_view/it.md).
 
@@ -69,6 +66,8 @@ Un altro esempio, con [Draft](Draft_Workbench/it.md) e un oggetto selezionato, m
 -    **Draft**: comandi di creazione e modifica dell\'oggetto di [Draft](Draft_Workbench/it.md).
 
 -    **Utilità**: comandi contestuali aggiuntivi forniti da [Draft](Draft_Workbench/it.md).
+
+
 
 ## Dettagli
 

@@ -1,6 +1,8 @@
 # Part scripting/de
 {{TOCright}}
 
+
+
 ## Einführung
 
 Die im Modul Part verwendete Hauptdatenstruktur ist der Datentyp [BRep](http://en.wikipedia.org/wiki/Boundary_representation) von [OpenCASCADE](OpenCASCADE/de.md). Fast alle Inhalte und Objekttypen des Part Moduls stehen dem [Python](Python/de.md)-Skripten zur Verfügung. Dazu gehören geometrische Primitive wie Linien, Kreise, Bögen und die gesamte Palette der TopoFormen, wie Knoten, Kanten, Drähte, Flächen, Volumenkörper und Verbünde. Für jedes dieser Objekte gibt es mehrere Erstellungsmethoden, und für einige von ihnen, insbesondere die TopoFormen, sind auch fortgeschrittene Operationen wie Boolesche Vereinigung/Differenz/Überschneidung verfügbar. Entdecke den Inhalt des Moduls Part, wie auf der Seite [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md) beschrieben, um mehr zu erfahren.
@@ -9,14 +11,18 @@ Das grundlegendste Objekt, das erstellt werden kann, ist ein [Part Formelement](
 
 Ein weiteres einfaches Objekt, das in geometrischen 2D-Objekten verwendet wird, ist das [Part Part2DObjekt](Part_Part2DObject/de.md), das die Basis des [Sketcher SketchObjects](Sketcher_SketchObject/de.md) und der meisten [Draft](Draft_Workbench/de.md)-Elemente ist.
 
+
+
 ### Siehe auch 
 
 -   [Topologisches Daten Skripten](Topological_data_scripting/de.md)
 -   [OpenCASCADE](OpenCASCADE/de.md)
 
+
+
 ## Testskript
 
-Teste die Erstellung von [Part Grundelementen](Part_Primitives/de.md) mit einem Skript. <small>(v0.19)</small> 
+Teste die Erstellung von [Part Grundelementen](Part_Primitives/de.md) mit einem Skript.
 
 
 ```python
@@ -31,7 +37,11 @@ Dieses Skript befindet sich im Installationsverzeichnis des Programms und kann u
 $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 ```
 
+
+
 ## Beispiele
+
+
 
 ### Linie
 
@@ -53,13 +63,7 @@ obj.Shape= line.toShape()
 doc.recompute()
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Lass uns das obige Python Beispiel Schritt für Schritt betrachten:
-
-
-</div>
+Das obige Python-Beispiel Schritt für Schritt betrachtet:
 
 
 ```python
@@ -68,13 +72,7 @@ import Part
 doc = App.newDocument()
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-lädt die Part Modul und erstellt ein neues Dokument
-
-
-</div>
+Dies lädt die Module FreeCAD und Part und erstellt ein neues Dokument.
 
 
 ```python
@@ -91,42 +89,18 @@ obj = doc.addObject("Part::Feature", "Line")
 obj.Shape= line.toShape()
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Dadurch wird dem Dokument ein Part Objekttyp hinzugefügt und weist die Formdarstellung des Liniensegments der \'Form\' Eigenschaft des hinzugefügten Objekts zu. Es ist wichtig, hier zu verstehen, dass wir ein geometrisches Grundelement (das Part.LineSegment) verwendet haben, um daraus eine TopoForm zu erstellen (die toShape() Methode). Nur Formen können dem Dokument hinzugefügt werden. In FreeCAD werden Geometrie Grundelemente als \"Baustrukturen\" für Formen verwendet.
-
-
-</div>
+Dies fügt dem Dokument ein Part-Objekt hinzu und weist die Formdarstellung des Liniensegments der Eigenschaft {{Incode|Form}} des hinzugefügten Objekts zu. Es ist hier wichtig zu verstehen, dass wir ein geometrisches Grundelement (das {{Incode|Part.LineSegment}}) verwenden, um daraus eine TopoForm zu erstellen (mit der Methode {{Incode|toShape()}}). Nur Formen können dem Dokument hinzugefügt werden. In FreeCAD werden geometrische Grundelemente als \"Bauelemente\" für Formen verwendet.
 
 
 ```python
 doc.recompute()
 ```
 
+Aktualisiert das Dokument. Dies bereitet auch die visuelle Darstellung des neuen Part-Objekts auf.
 
-<div class="mw-translate-fuzzy">
+Beachte, dass ein Linienabschnitt auch durch Angabe von Anfangs- und Endpunkt direkt im Konstruktor erstellt werden kann, z.B. {{Incode|Part.LineSegment(point1, point2)}}, oder wir können eine Standardlinie erstellen und ihre Eigenschaften im Nachhinein festlegen, wie wir es hier gemacht haben.
 
-Aktualisiert das Dokument. Damit auch die visuelle Darstellung des neuen Part Objekts.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Beachte, dass ein Liniensegment durch Angabe der Anfangs-und Endpunkt direkt im Konstruktor erstellt werden kann, z.B. Part.LineSegment (Punkt1, Punkt2), oder wir können eine Standardlinie erstellen und seine Eigenschaften anschießend festlegen, wie wir es hier gemacht haben.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Eine Linie kann erstellt werden auch mit:
-
-
-</div>
+Eine Linie kann auch erstellt werden mit:
 
 
 ```python
@@ -149,6 +123,8 @@ def my_create_line(pt1, pt2, obj_name):
 line = my_create_line((0, 0, 0), (0, 10, 0), "LineName")
 ```
 
+
+
 ### Kreis
 
 Ein Kreis kann auf ähnliche Weise erstellt werden:
@@ -168,13 +144,7 @@ obj.Shape = circle.toShape()
 doc.recompute()
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-oder mit:
-
-
-</div>
+Oder mit:
 
 
 ```python
@@ -191,7 +161,7 @@ def my_create_circle(rad, obj_name):
 circle = my_create_circle(5.0, "CircleName")
 ```
 
-Alternatively we can create a circle by defining its center, axis and radius:
+Alternativ kann ein Kreis durch das Festlegen von Mittelpunkt, Achse und Radius:
 
 
 ```python
@@ -210,7 +180,7 @@ obj.Shape = circle.toShape()
 doc.recompute()
 ```
 
-Or by defining three points on its circumference:
+Oder durch das Festlegen dreier Punkte auf seinem Umfang:
 
 
 ```python
@@ -229,13 +199,7 @@ obj.Shape = circle.toShape()
 doc.recompute()
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Bemerke wieder, wir verwendeten den Kreis (Geometrie Grundelement), um eine Form daraus zu erstellen. Wir können natürlich noch immer auf unsere Konstruktionsgeometrie später zugreifen, und zwar so:
-
-
-</div>
+Beachte wieder, wir verwendeten den Kreis (geometrisches Grundelement), um eine Form zu erstellen. Wir können natürlich weiterhin im Nachhinein auf unsere Konstruktionsgeometrie zugreifen, und zwar so:
 
 
 ```python
@@ -244,17 +208,13 @@ edge = shape.Edges[0]
 curve = edge.Curve
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Hier nehmen wir die Form unseres Objekts f, dann nehmen wir die Liste der Kanten. In diesem Fall wird es nur eine geben, weil wir die ganze Form aus einem einzelnen Kreis machten, also nehmen wir nur das erste Element der Kantenliste, und wir nehmen seinen Verlauf. Jede Kante hat einen Verlauf, welches das Geometrie Grundelement ist, worauf der Verlauf basiert ist.
+Hier nehmen wir die Form {{Incode|Shape}} unseres Objekts {{Incode|obj}} und dann seine Liste der Kanten {{Incode|Edges}}. In diesem Fall wird es nur eine Kante geben, weil wir die ganze Form aus einem einzelnen Kreis erstellt haben. So nehmen wir nur das erste Element der Liste der Kanten {{Incode|Edges}} und danach seine Kurve. Jede Kante hat eine Kurve {{Incode|Curve}}, die das geometrische Grundelement ist, auf dem die Kante basiert.
 
 
-</div>
 
 ### Bogen
 
-An arc can be created like this:
+Ein Bogen kann auch so erstellt werden:
 
 
 ```python
@@ -273,9 +233,9 @@ obj.Shape = arc.toShape()
 doc.recompute()
 ```
 
-This draws a half circle. The center is at (0, 0, 0). The radius is 10. P1 is the start point on +X axis. P2 is the middle point on +Y axis and P3 is the end point on -X axis.
+Dies zeichnet einen Halbkreis. Der Mittelpunkt liegt bei (0, 0, 0). Der Radius ist 10. P1 ist der Startpunkt auf der positiven X-Achse. P2 ist der Mittelpunktauf der positiven Y-Achse und P3 ist der Endpunkt auf der negativen X-Achse.
 
-We can also create an arc from a circle:
+Ein Bogen kann auch aus einem Kreis erstellt werden:
 
 
 ```python
@@ -295,7 +255,7 @@ obj.Shape = arc.toShape()
 doc.recompute()
 ```
 
-It needs a circle, and a start angle and end angle in radians.
+Er benötigt einen Kreis sowie Start- und Endwinkel im Bogenmaß.
 
 
 

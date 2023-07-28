@@ -7,9 +7,13 @@ L\'obtention de cette simulation se fait dans FreeCAD avec l\'[atelier FEM](FEM_
 
 <img alt="" src=images/Exercise_fem_01.jpg  style="width:600px;">
 
+
+
 ### Préparation de FreeCAD 
 
 La simulation elle-même est réalisée par un autre logiciel utilisé par FreeCAD pour obtenir les résultats. Il existe plusieurs applications de simulation FEM intéressantes et disponibles. L'[Atelier FEM](FEM_Workbench/fr.md) vous permet de choisir parmi ces applications. Cependant, actuellement, seul [CalculiX](http://www.calculix.de/) est entièrement implémenté. Un autre logiciel, appelé [NetGen](https://sourceforge.net/projects/netgen-mesher/), en charge de la génération du maillage de subdivision est également nécessaire. Des instructions détaillées pour installer ces deux composants sont fournies dans la documentation FreeCAD ([Installation de FEM](FEM_Install/fr.md)).
+
+
 
 ### Préparation de la géométrie 
 
@@ -27,6 +31,8 @@ Nous allons commencer avec la maison que nous avons modélisée dans le chapitre
 -   L'atelier FEM ne peut actuellement calculer des déformations que sur un seul objet. Par conséquent, nous devons fusionner nos deux objets (le mur et la dalle). Passez à l'[Atelier Pièce](Part_Workbench/fr.md), sélectionnez les deux objets et appuyez sur le bouton **<img src="images/Part_Fuse.svg" width=16px> [Union](Part_Fuse/fr.md)**. Nous avons maintenant obtenu un objet fusionné :
 
 :   <img alt="" src=images/Exercise_fem_03.jpg  style="width:600px;">
+
+
 
 ### Création de l\'analyse 
 

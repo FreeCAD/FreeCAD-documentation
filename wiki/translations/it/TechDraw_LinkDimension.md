@@ -13,7 +13,7 @@
 
 </div>
 
-**TechDraw LinkDimension** is expected to be deprecated in the future. The [TechDraw DimensionRepair](TechDraw_DimensionRepair.md) tool can be used to change both 2D and 3D references.
+The **TechDraw LinkDimension** tool is expected to be deprecated in the future. The [TechDraw DimensionRepair](TechDraw_DimensionRepair.md) tool can be used to change both 2D and 3D references.
 
 
 

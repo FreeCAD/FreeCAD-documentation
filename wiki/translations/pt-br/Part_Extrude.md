@@ -8,8 +8,6 @@
 
 # Part Extrude/pt-br
 
-![600px](images/Part_Extrude_demo.png)
-
 ## Description
 
 **Part Extrude** extends a shape by a specified distance, in a specified direction. The output shape type will vary depending on the input shape type and the options selected.
@@ -25,6 +23,12 @@ In most common scenarios, the following lists the expected output shape type fro
 -   Extrude a **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Draft ShapeString](Draft_ShapeString.md)**, will produce a compound of solids (the string is a compound of the letters which are each a solid)
 -   Extrude a shell of faces, will produce a Compsolid.
 
+![600px](images/Part_Extrude_demo.png)
+
+
+
+*Examples of extrusion*
+
 ## Usage
 
 1.  Select the shape(s) in the [3D view](3D_view.md) or in the Model [tree view](Tree_view.md)
@@ -38,15 +42,15 @@ The Model tree will list as many Extrude objects as there were selected shapes. 
 
 ## Parameters
 
-The Extrude shape is defined by the following parameters, which can be edited after its creation in [Property editor](Property_editor.md).
+The Extrude shape is defined by the following parameters, which can be edited after its creation in the [Property editor](Property_editor.md).
 
 -   **Base**: the input shape (the shape upon which the Part Extrude was applied).
 
 -   **Dir**: the direction to extend the shape. If **Dir Mode** is \'Custom\', you can edit **Dir**. Otherwise, **Dir** is read-only, and computed from the linked shape.
 
--   **Dir Link**: parametric link to a edge (line) that sets the direction of extrusion.
+-   **Dir Link**: parametric link to an edge (line) that sets the direction of extrusion.
 
--   **Dir Mode**: sets how **Dir** is controlled. \'Custom\' means **Dir** is editable. \'Edge\' means Dir is obtained from an edge (line) linked by **Dir Link**. \'Normal\' means Dir is perpendicular to plane of the input shape.
+-   **Dir Mode**: sets how **Dir** is controlled. \'Custom\' means **Dir** is editable. \'Edge\' means Dir is obtained from an edge (line) linked by **Dir Link**. \'Normal\' means Dir is perpendicular to the plane of the input shape.
 
 -   **Length Fwd**: The distance to extrude by. If both **Length Fwd** and **Length Rev** are zero, the length of **Dir** vector is used.
 
@@ -58,7 +62,16 @@ The Extrude shape is defined by the following parameters, which can be edited af
 
 -   **Symmetric**: if True, extrusion is centered at the input shape, and total length is **Length Fwd**. **Length Rev** is ignored.
 
--   **Taper Angle** and **Taper Angle Rev**: applies an angle to the extrusion, so that sides of the extrusion are drafted by the specified angle. Positive angle means the cross-section expands. **Taper Angle Rev** sets the taper for the reversed part of the extrusion (the part from **Length Rev**).{{VersionMinus|0.19}} Tapered extrusion is only supported for shapes without inner structures. Taper does not work well if the shape contains B-splines.
+-   **Taper Angle** and **Taper Angle Rev**: applies an angle to the extrusion, so that sides of the extrusion are drafted by the specified angle. Positive angle means the cross-section expands. **Taper Angle Rev** sets the taper for the reversed part of the extrusion (the part from **Length Rev**).
+    -   
+        <small>(v0.20)</small> 
+        
+        Inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
+
+    -   
+        {{VersionMinus|0.19}}
+        
+        Tapered extrusion is only supported for shapes without inner structures. Taper does not work well if the shape contains B-splines.
 
 -   **Face Maker Class**: sets C++ class name of face making code, which is used when making solids from wires. This property is here mainly for maintaining backward compatibility. Do not touch, unless you know what you are doing.
 

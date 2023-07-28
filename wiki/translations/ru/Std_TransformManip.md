@@ -10,11 +10,15 @@
 
 # Std TransformManip/ru
 
+
+
 ## Описание
 
-This tool allows you to apply rotation increments or translation increments to an object.
+Этот инструмент позволяет вам применять к объекту приращения поворота или приращения перемещения.
 
 ![](images/Manipulators.png )
+
+
 
 ## Применение
 
@@ -23,6 +27,8 @@ This tool allows you to apply rotation increments or translation increments to a
     -   Press and hold the left mouse button on a sphere and drag to rotate the object in that axis.
     -   The Increments parameters in the [Task panel](Task_panel.md) allow one to define the movement with precision
 2.  The **OK** button allows you to quit the utility easily.
+
+
 
 ## Примечания
 

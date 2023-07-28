@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionCreateObliqueCoordDimension.svg  style="width:24px;"> **TechDraw Cotes parallèles obliques** crée des cotes obliques : plusieurs cotes régulièrement espacées partant de la même ligne de base.
+L\'outil **TechDraw Cotes parallèles obliques** crée des cotes obliques : plusieurs cotes régulièrement espacées partant de la même ligne de base.
 
 <img alt="" src=images/TechDraw_ExtensionCreateObliqueCoordDimensionExample.png  style="width:400px;"> 
 *A droite, les cotes créées*
+
+
 
 ## Utilisation
 
@@ -26,7 +28,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionCreateObliqueCoordDimension.sv
 4.  Les deux premiers sommets définissent également la direction.
 5.  Il existe plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionCreateObliqueCoordDimension.svg" width=16px> [Cotes parallèles obliques](TechDraw_ExtensionCreateObliqueCoordDimension/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions : cotes → <img src="images/TechDraw_ExtensionCreateObliqueCoordDimension.svg" width=16px>. Cotes parallèles obliques** à partir du menu.
+    -   Sélectionnez l\'option **TechDraw → Extensions : cotes → <img src="images/TechDraw_ExtensionCreateObliqueCoordDimension.svg" width=16px> Cotes parallèles obliques** à partir du menu.
 6.  Des cotes avec des textes de cotes centrés sont créées.
 
 

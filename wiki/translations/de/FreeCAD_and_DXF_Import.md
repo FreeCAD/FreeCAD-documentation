@@ -1,9 +1,13 @@
 # FreeCAD and DXF Import/de
 {{TOCright}}
 
+
+
 ## Hintergrund
 
 DXF ist ein proprietäres CAD Datenformat für 2D Zeichnungen, das seinen Ursprung in AutoCAD hat. Weitere Details findest du auf der [DXF](DXF/de.md) Wiki Seite.
+
+
 
 ## Einführung
 
@@ -11,13 +15,19 @@ Seit FreeCAD Version 0.18 gibt es einen neuen C++ DXF Importeur, und seit Versio
 
 Um den älteren, veralteten DXF Importeur und -Exporteur zu verwenden, musst du mehrere Dateien installieren. Diese Dateien können nicht in FreeCAD enthalten sein, da sie Bibliotheken verwenden, die unter einer Lizenz veröffentlicht wurden, die nicht mit FreeCAD kompatibel ist.
 
+
+
 ## Wie den alten DXF Importeur und -Exporteur installieren 
+
+
 
 ### Automatisch
 
 Wenn die Dateien noch nicht installiert sind, gehe in das Menü **Bearbeiten → Voreinstellungen → Import-Export → DXF** und aktiviere die Option **FreeCAD erlauben, die DXF Bibliotheken automatisch herunterzuladen und zu aktualisieren**, damit FreeCAD sie automatisch herunterlädt und installiert.
 
 Für FreeCAD 0.14 oder älter muss es manuell installieren werden:
+
+
 
 ### Manuell
 
@@ -35,6 +45,8 @@ C:\Benutzer\dein_Benutzername\AppData\Roaming\FreeCAD
 
 Siehe auch: [Dxf Einrichtung Importeur](Dxf_Importer_Install/de.md)
 
+
+
 ## Tips und Tricks 
 
 Manchmal lassen sich DXF Dateien nicht importieren, obwohl sie sich in anderen CAD Programmen problemlos öffnen lassen.
@@ -42,8 +54,7 @@ Manchmal lassen sich DXF Dateien nicht importieren, obwohl sie sich in anderen C
 Du kannst versuchen:
 
 1.  Gehe zu **Bearbeiten → Einstellungen → Import-Export → DXF** und deaktiviere die Option **Geometrie vereinen** und versuche es erneut.
-2.  Denke daran, dass du jetzt vielleicht keine übereinstimmenden Endpunkte haben wirst. Du musst sie dann selbst deckungsgleich machen.
-3.  Du kannst dies mit dem [Skizzierer GeschlosseneForm](Sketcher_CloseShape/de.md) Befehl {{VersionPlus/de|0.15}} tun oder du kannst die Beschränkungen manuell anwenden.
+2.  Denke daran, dass du jetzt vielleicht keine deckungsgleichen Endpunkte haben wirst. Du kannst sie dann selbst mit [Sketcher SkizzeÜberprüfen](Sketcher_ValidateSketch/de.md) deckungsgleich festlegen.
 
 Du kannst auch versuchen:
 

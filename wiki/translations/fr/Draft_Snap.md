@@ -10,6 +10,8 @@ L\'aimantation est disponible avec la plupart des commandes de [Draft](Draft_Wor
 ![](images/Draft_Snap_Endpoint_example.png ) 
 *Aimantation au point d'extrémité d'une arête*
 
+
+
 ## Outils d\'aimantation 
 
 Ces outils sont disponibles dans la barre d\'outils Draft Aimantation et dans le [Draft Widget d\'aimantation](Draft_snap_widget/fr.md).
@@ -28,7 +30,7 @@ Remarquez que les bords circulaires ne doivent pas nécessairement être des cer
 
 -   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:32px;"> [Aimantation Intersection](Draft_Snap_Intersection/fr.md): aimante à l\'intersection de deux bords.
 
--   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:32px;"> [Aimantation Perpendiculaire](Draft_Snap_Perpendicular/fr.md) : aimante aux points perpendiculaires sur les faces ({{Version/fr|1.0}}) et les arêtes.
+-   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:32px;"> [Aimantation Perpendiculaire](Draft_Snap_Perpendicular/fr.md) : aimante aux points perpendiculaires sur les faces ({{Version/fr|0.21}}) et les arêtes.
 
 -   <img alt="" src=images/Draft_Snap_Extension.svg  style="width:32px;"> [Aimantation Extension](Draft_Snap_Extension/fr.md) : aimante à une ligne imaginaire qui s\'étend au-delà des extrémités des bords droits.
 
@@ -48,6 +50,8 @@ Remarquez que les bords circulaires ne doivent pas nécessairement être des cer
 
 -   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Basculer la grille](Draft_ToggleGrid/fr.md) : active ou désactive la grille.
 
+
+
 ## Aimantation avancée 
 
 -   Des points d\'aimantation supplémentaires peuvent être obtenus en combinant deux options d\'aimantation. Par exemple, en combinant [Draft Aimantation Orthogonal](Draft_Snap_Ortho/fr.md) et [Draft Aimantation Extension](Draft_Snap_Extension/fr.md), vous obtiendrez un point d\'aimantation à l\'intersection de leurs lignes imaginaires.
@@ -61,10 +65,14 @@ Remarquez que les bords circulaires ne doivent pas nécessairement être des cer
 ![](images/Draft_Snap_example_cycling_2.png ) 
 *Cycle d'aimantation 2 : après avoir utilisé la touche cycle d'aimantation une fois, le rectangle vert reçoit la priorité d'aimantation. L'aimantation au point milieu du bord vert superposé est maintenant possible.*
 
+
+
 ## Remarques
 
 -   Plusieurs options d\'aimantation peuvent être actives en même temps, mais il est conseillé de n\'activer que celles dont vous avez réellement besoin. En activer trop peut ralentir les choses.
 -   Ce n\'est pas une bonne idée d\'avoir [Draft Aimantation Le plus proche](Draft_Snap_Near/fr.md) actif en permanence car il est prioritaire sur de nombreuses autres options d\'aimantation.
+
+
 
 ## Préférences
 

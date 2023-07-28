@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## 简介
 
 建筑工作台为FreeCAD提供了一种现代化的[建筑信息模型（building information modelling）](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM)工作流程，它支持的特性有完全参数化的建筑实体，如墙、结构构件、屋顶、窗口、台阶、管道与家具。建筑工作台还支持[建筑业国际工业标准（industry foundation classes）](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) (IFC) 数据，以及联合[TechDraw工作台制作](TechDraw_Workbench.md)2D平面布置图。
@@ -14,6 +16,8 @@ FreeCAD中的BIM功能正逐步拆分至此建筑工作台中，它持有基本�
 The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch community](https://osarch.org), with the ultimate goal of improving building design by using entirely free software.
 
 <img alt="" src=images/Screenshot_arch_window.jpg  style="width:600px;">
+
+
 
 ## 工具
 
@@ -47,7 +51,7 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 
   - <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Custom Rebar](Arch_Rebar.md): Creates a custom reinforcement bar in a selected structural element using a sketch.
 
--   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Curtain Wall](Arch_CurtainWall.md): Creates a curtain wall from scratch or using a selected object as a base. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Curtain Wall](Arch_CurtainWall.md): Creates a curtain wall from scratch or using a selected object as a base.
 
 -   <img alt="" src=images/Arch_BuildingPart.svg  style="width:32px;"> [Building Part](Arch_BuildingPart.md): Creates a building part including selected objects.
 
@@ -93,11 +97,11 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 
 -   <img alt="" src=images/Arch_Frame.svg  style="width:32px;"> [Frame](Arch_Frame.md): Creates a frame object from a selected layout.
 
--   <img alt="" src=images/Arch_Fence.svg  style="width:32px;"> [Fence](Arch_Fence.md): Creates a fence object from a selected post and path. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_Fence.svg  style="width:32px;"> [Fence](Arch_Fence.md): Creates a fence object from a selected post and path.
 
--   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Truss](Arch_Truss.md): Creates a truss from a selected line or from scratch. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Truss](Arch_Truss.md): Creates a truss from a selected line or from scratch.
 
--   <img alt="" src=images/Arch_Profile.svg  style="width:32px;"> [Profile](Arch_Profile.md): Creates a parametric 2D profile. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_Profile.svg  style="width:32px;"> [Profile](Arch_Profile.md): Creates a parametric 2D profile.
 
 -   <img alt="" src=images/Arch_CompSetMaterial.png  style="width:48px;"> [Material tools](Arch_CompSetMaterial.md)
 
@@ -113,19 +117,23 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 
   - <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Connector](Arch_PipeConnector.md): Creates a corner or T-connection between 2 or 3 selected pipes.
 
+
+
 ### 修改工具
 
 以下这些工具用于修改建筑对象。
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Cut with plane](Arch_CutPlane.md): Cuts an object according to a plane.
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line.
 
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Add component](Arch_Add.md): Adds objects to a component.
 
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Remove component](Arch_Remove.md): Subtracts or removes objects from a component.
 
 -   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Survey](Arch_Survey.md): Enters or leaves surveying mode.
+
+
 
 ### 实用工具
 
@@ -157,9 +165,13 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Toggle subcomponents](Arch_ToggleSubs.md): Shows or hides the subcomponents of an Arch object.
 
+
+
 ### 首选项
 
 -   <img alt="" src=images/Preferences-arch.svg  style="width:32px;"> [建筑工作台首选项（Preferences）](Arch_Preferences.md): 针对墙体、构件、钢筋、窗口、台阶、面板、管道、网格与坐标轴默认外观的设置首选项。
+
+
 
 ### 文件格式
 
@@ -184,6 +196,8 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 
 
 </div>
+
+
 
 ## 教程
 

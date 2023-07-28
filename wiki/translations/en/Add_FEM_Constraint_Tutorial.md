@@ -17,7 +17,7 @@
 
 In this tutorial we are going to add the flow velocity constraint to FreeCAD and implement support for the Elmer solver. Please make sure you have read and understood [Extend FEM Module](Extend_FEM_Module.md) before reading this tutorial.
 
-This tutorial only covers how to implement constraints in python. In contrast to solver and equations constraints follow the classic FEM module structure. That is, all modules of a constraint have there place in either the {{Incode|femobjects}} or {{Incode|femviewprovider}} package.
+This tutorial only covers how to implement constraints in python. In contrast to solver and equations constraints follow the classic FEM module structure. That is, all modules of a constraint have their place in either the {{Incode|femobjects}} or {{Incode|femviewprovider}} package.
 
 ## Summary
 

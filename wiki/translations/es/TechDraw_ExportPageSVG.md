@@ -1,26 +1,42 @@
 ---
 - GuiCommand:
    Name:TechDraw ExportPageSVG
-   MenuLocation:TechDraw → Export Page as SVG
+   MenuLocation:TechDraw → Page → Export Page as SVG
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    SeeAlso:[TechDraw Templates](TechDraw_Templates.md), [Draft SVG](Draft_SVG.md)
 ---
 
 # TechDraw ExportPageSVG/es
 
+
+
 ## Descripción
 
-The ExportPageSVG tool saves the current drawing page as an [SVG](SVG.md) file.
+The **TechDraw ExportPageSVG** tool saves the current drawing page as an [SVG](SVG.md) file.
+
+
 
 ## Utilización
 
-1.  Press the **<img src="images/TechDraw_ExportPageSVG.svg" width=16px> [Export Page as SVG](TechDraw_ExportPageSVG.md)** button.
-2.  A File Save dialog will open. Select a location and file name.
+1.  If there are multiple drawing pages in the document: optionally activate the desired page by selecting it in the [Tree view](Tree_view.md).
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_ExportPageSVG.svg" width=16px> [Export Page as SVG](TechDraw_ExportPageSVG.md)** button.
+    -   Select the **TechDraw → Page  → <img src="images/TechDraw_ExportPageSVG.svg" width=16px> Export Page as SVG** option from the menu.
+    -   If a page is displayed in the [Main view area](Main_view_area.md): right-click the page\'s window and select the **Export SVG** option from the context menu.
+3.  If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
+    1.  Select the desired page.
+    2.  Press the **OK** button.
+4.  The **Export page as SVG** dialog box opens.
+5.  Select a location and file name.
+
+
 
 ## Notas
 
 -   [TechDraw Hatch](TechDraw_Hatch.md) patterns are not exported to [SVG](SVG.md) due to a limitation in Qt4\'s SVG support.
 -   Text positions and sizes are not correct in the exported file. Using the \"system\" default font in the drawing improves the size problem considerably.
+
+
 
 ## Guión
 

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:Path Fixture
-   Name/fr:Path Point de fixation
-   MenuLocation:Path → Commandes additionnelles → Point de fixation
+   Name/fr:Path Fixation
+   MenuLocation:Path → Autres commandes → Fixation
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
@@ -10,30 +10,38 @@
 
 ## Description
 
-Cet outil définit le dispositif de décalage de travail du contrôleur CNC de la machine.
+L\'outil <img alt="" src=images/Path_Fixture.svg  style="width:24px;"> [Fixation](Path_Fixture/fr.md) définit le dispositif de décalage de travail du contrôleur CNC de la machine.
 
-Les coordonnées de décalage du travail cible incluent généralement: les codes G53 à G59. Le G-Code est simplement l\'indication du code (G53, G54, etc \...). Les systèmes de décalage du travail représentent:
+Les coordonnées de décalage du travail cible incluent généralement: les codes G53 à G59. Le G-code est simplement l\'indication du code (G53, G54, etc \...). Les systèmes de décalage du travail représentent:
 
--   G53 → Système de coordonnées absolues de la machine.
--   G54 → Système de coordonnées de l\'Origine Pièce.
--   G55 à G59.9 → Dispositifs de coordonnées permettant d\'effectuer des décalages de travail, par rapport aux capteurs de position d\'origine situés sur la machine CNC, à utiliser.
+-   G53 → système de coordonnées absolues de la machine.
+-   G54 → système de coordonnées de l\'origine de la pièce.
+-   G55 à G59.9 → dispositifs de coordonnées permettant d\'effectuer des décalages de travail, par rapport aux capteurs de position d\'origine situés sur la machine CNC, à utiliser.
 
-Le code G59 est utilisé pour étendre les capacités disponibles (nombre de points de fixation de pièces). Le degré d\'expansion mis en œuvre est spécifique à la machine CNC, et cette commande permet G59.1 à G59.9.
+La commande G59 Fixation est utilisée pour étendre les fixations disponibles. Le degré d\'extension mis en œuvre est spécifique à la machine CNC, et cette commande permet de réaliser des extensions de G59.1 à G59.9.
+
+
 
 ## Utilisation
 
-1.  Pressez le bouton **<img src="images/Path_Fixture.svg" width=16px> [Point de Fixation](Path_Fixture/fr.md)** ou utilisez le raccourci clavier **P** puis **F**.
+1.  Pressez le bouton **<img src="images/Path_Fixture.svg" width=16px> [Fixation](Path_Fixture/fr.md)** ou utilisez le raccourci clavier **P** puis **F**.
 2.  Sélectionnez le dispositif de décalage de travail souhaité dans le menu déroulant.
+
+
 
 ## Propriétés
 
--    **Fixture**: Définit le décalage courant.
+-    **Fixture**: définit le décalage courant.
 
--    **Active**: Définit si cette commande est active ou non lors de l\'ajout dans un composé.
+-    **Active**: définit si cette commande est active ou non lors de l\'ajout dans un composé.
+
+
 
 ## Remarques
 
 ## Limitations
+
+
 
 ## Script
 

@@ -10,6 +10,8 @@
 
 # Arch Rebar Helical/ru
 
+
+
 ## Описание
 
 
@@ -34,6 +36,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 </div>
 
+
+
 ## Применение
 
 1.  Select any face of a previously created **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object.
@@ -44,7 +48,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 4.  Select the desired orientation.
 
-5.  Populate the inputs like \'Left Cover\', Right Cover, Top Cover, \'Bottom Cover\', \'Front Cover\', \'Bent Angle\', \'Bent Factor\', \'Rounding\' and \'Diameter\' of the rebar.
+5.  Populate the inputs like \'Left Cover\', \'Right Cover\', \'Top Cover\', \'Bottom Cover\', \'Front Cover\', \'Bent Angle\', \'Bent Factor\', \'Rounding\' and \'Diameter\' of the rebar.
 
 6.  Select the mode of distribution either \'Amount\' or \'Spacing\'.
     -   If \'Spacing\' is selected, a user can also opt for [custom spacing](Custom_Spacing.md).
@@ -62,6 +66,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 *Taskview panel for the Arch Rebar Helical tool*
 
+
+
 ## Свойства
 
 -    **Side Cover**: The distance between rebar to the curved face.
@@ -75,6 +81,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 -    **Diameter**: Diameter of the rebar.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Сценарии
@@ -82,7 +90,12 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 </div>
 
-The Helical Rebar tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
+
+**See also:**
+
+[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+The Helical Rebar tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
 
 ```python
@@ -97,6 +110,8 @@ Rebar = makeHelicalRebar(s_cover, b_cover, diameter, t_cover, pitch, structure=N
 -    `diameter`is the diameter of the reinforcement spiral inside the structure.
 
 -    `pitch`is the parameter that determines how close or far apart each spiral loop is to each other.
+
+
 
 ### Пример
 

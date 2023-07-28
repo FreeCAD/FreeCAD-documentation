@@ -1,62 +1,46 @@
 ---
 - GuiCommand:/de
    Name:OpenSCAD ExplodeGroup
-   Name/de:OpenSCAD SprengeGruppe
+   Name/de:OpenSCAD GruppeSprengen
    MenuLocation:OpenSCAD → Sprenge Gruppe‏‎
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
 ---
 
 # OpenSCAD ExplodeGroup/de
 
+
+
 ## Beschreibung
 
-Diese Funktion sprengt eine Verschmelzung oder einen Verbund zurück in einzelne Teile , wobei auf diese Teile zufällige Farben aufgetragen werden.
+Diese Funktion sprengt eine Vereinigung oder einen Verbund zurück in einzelne Teile, wobei diesen Teilen zufällige Farben zugeordnet werden.
+
+
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle zu sprengende Verschmelzung/Verbund aus
-2.  Klicke auf <img alt="" src=images/OpenSCAD_ExplodeGroup.svg  style="width:32px;"> oder wähle ** OpenSCAD** → **<img src="images/OpenSCAD_ExplodeGroup.svg" width=32px> Sprenge Gruppe** aus dem oberen Menü.
+1.  Zu sprengende(n) Vereinigung/Verbund auswählen.
+2.  Auf <img alt="" src=images/OpenSCAD_ExplodeGroup.svg  style="width:32px;"> klicken oder den Menüeintrag ** OpenSCAD** → **<img src="images/OpenSCAD_ExplodeGroup.svg" width=32px> GruppeSprengen** auswählen.
 
 
-</div>
 
 ## Begrenzungen
 
+Die Funktion arbeitet nur mit Vereinigungen/Verbunden bestehend aus
 
-<div class="mw-translate-fuzzy">
-
-Die Funktion funktioniert nur bei Verschmelzungen/Verbünden bestehend aus
-
--   Part Grundelementen des Part Arbeitsbereichs
--   extrudierten Teilen des Part Arbeitsbereichs
--   gedrehten Teilen des Part Arbeitsbereichs
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   Part-Grundelementen des Arbeitsbereichs Part
+-   Extrudierten Teilen des Arbeitsbereichs Part
+-   Gedrehten Teilen des Arbeitsbereichs Part
 
 Die Funktion funktioniert **NICHT** bei
 
--   Blöcken/gedrehten Teilen des Part Arbeitsbereichs
--   Anordnungen des Entwurfs Arbeitsbereichs
+-   Aufpolsterungen/gedrehten Teilen des Arbeitsbereichs PartDesign
+-   Anordnungen des Arbeitsbereichs Draft
 
 
-</div>
 
 ## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
-Um Anordnungen des Entwurf Arbeitsbereich aufzulösen, benutze das [Entwurf Herabstufen](Draft_Downgrade/de.md)-Werkzeug des Entwurf-Arbeitsbereichs.
-
-
-</div>
+Um Anordnungen des Arbeitsbereichs Draft aufzulösen, wird das das Werkzeug [Draft Herabstufen](Draft_Downgrade/de.md) des Arbeitsbereichs Draft verwendet.
 
 
 

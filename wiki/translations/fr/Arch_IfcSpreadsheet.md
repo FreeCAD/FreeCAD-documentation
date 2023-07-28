@@ -14,18 +14,22 @@
 
 Cet outil crée une feuille de calcul pour stocker les propriétés [IFC](Arch_IFC/fr.md) d\'un objet.
 
-## Comment l\'utiliser 
 
-1.  Sélectionnez un objet.
-2.  Lancer la commande en utilisant plusieurs méthodes:
+
+## Utilisation
+
+1.  Sélectionner un objet.
+2.  Lancer la commande en utilisant plusieurs méthodes :
     -   En appuyant sur le bouton **<img src="images/Arch_IfcSpreadsheet.svg" width=16px> Créer une feuille de tableur IFC** dans la barre d\'outils.
-    -   Utilisation du raccourci clavier **I** puis **P**.
-    -   Utilisation de l\'entrée **Arch → Utilitaires → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> Créer une feuille de tableur IFC** dans le menu supérieur.
+    -   Utiliser le raccourci clavier **I** puis **P**.
+    -   Utiliser l\'entrée **Arch → Utilitaires → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> Créer une feuille de tableur IFC** du menu supérieur.
+
+
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 

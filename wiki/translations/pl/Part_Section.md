@@ -2,22 +2,26 @@
 - GuiCommand:/pl
    Name:Part Section
    Name/pl:Część: Przecięcie
-   MenuLocation:Część → Logiczne → Przecięcie
+   MenuLocation:Część → Operacje logiczne → Przecięcie
    Workbenches:[Część](Part_Workbench/pl.md)
    SeeAlso:[Przekrój poprzeczny](Part_CrossSections/pl.md)
 ---
 
 # Part Section/pl
 
+
+
 ## Opis
 
-Polecenie <img alt="" src=images/Part_Section.svg  style="width:24px;"> **Przecięcie**\' tworzy geometrię polilinii na przecięciach dwóch obiektów. Wynik jest w pełni parametryczny.
+Polecenie <img alt="" src=images/Part_Section.svg  style="width:24px;"> **Przecięcie** tworzy geometrię polilinii na przecięciach dwóch obiektów. Wynik jest w pełni parametryczny.
 
 -   W wyniku przecięcia dwóch brył / powierzchni powstaje jeden lub więcej odcinków.
 -   W wyniku przecięcia dwóch prostych lub prostej i bryły / powierzchni otrzymujemy jeden lub więcej punktów.
 
 ![](images/PartSection1_it.png ) 
 *Sześcian przecięty walcem*
+
+
 
 ## Użycie
 
@@ -27,11 +31,15 @@ Polecenie <img alt="" src=images/Part_Section.svg  style="width:24px;"> **Przeci
     -   Naciśnij przycisk **![](images/)_[Przecięcie](Part_Section/pl.md)**.
     -   Wybierz z menu opcję **Część → ![](images/)_Przecięcie**.
 
+
+
 ## Właściwości
 
 Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
 
 Obiekt Przecięcie wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
 
 ### Dane
 
@@ -53,6 +61,8 @@ Obiekt Przecięcie wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) 
 {{Properties_Title|Przekrój}}
 
 -    **Approksymacja|Bool**: Przybliż krawędzie wynikowe.
+
+
 
 ## Odnośniki internetowe 
 

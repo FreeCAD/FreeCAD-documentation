@@ -14,9 +14,13 @@
 
 </div>
 
+
+
 ## Описание
 
 Applies [Coincident constraints](Sketcher_ConstrainCoincident.md) to endpoints with the same coordinates of the selected elements.
+
+
 
 ## Применение
 
@@ -25,6 +29,8 @@ Applies [Coincident constraints](Sketcher_ConstrainCoincident.md) to endpoints w
     -   Press the **[<img src=images/Sketcher_ConnectLines.svg style="width:16px"> [Connect edges](Sketcher_ConnectLines.md)** button.
     -   Use the **Z** then **J** keyboard shortcut.
     -   Use the **Sketch → Sketcher tools → [<img src=images/Sketcher_ConnectLines.svg style="width:16px"> Connect edges** entry from the top menu.
+
+
 
 ## Примечания
 

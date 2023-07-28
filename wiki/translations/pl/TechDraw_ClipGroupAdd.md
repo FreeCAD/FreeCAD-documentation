@@ -1,23 +1,37 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ClipGroupAdd
-   MenuLocation:TechDraw → Add View to Clip Group
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw Clip Group](TechDraw_ClipGroup.md), [TechDraw Remove Clip Group](TechDraw_ClipGroupRemove.md)
+   Name/pl:Rysunek Techniczny: Dodaj widok do grupy wycinków
+   MenuLocation:Rysunek Techniczny → Dodaj widok do grupy wycinków
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso:[Wstaw grupę wycinków](TechDraw_ClipGroup/pl.md), [Usuń widok z grupy wycinków](TechDraw_ClipGroupRemove/pl.md)
 ---
 
 # TechDraw ClipGroupAdd/pl
 
-## Description
 
-This tool adds a View to an existing Clip.
+</div>
+
+
+
+## Opis
+
+Narzędzie **Usuń widok z grupy wycinków** dodaje widok do istniejącego wycinka.
 
 ![](images/TechDraw_Clipview.png ) 
-*Viewport window clipping different existing views*
+*Okno widoku rzutni obejmujące różne istniejące widoki*
 
-## Usage
 
--   Select a Clip and a View and press the **<img src="images/TechDraw_ClipGroupAdd.svg" width=16px> [Add View to Clip Group](TechDraw_ClipGroupAdd.md)** button to add the view.
+
+## Użycie
+
+
+<div class="mw-translate-fuzzy">
+
+Wybierz wycinek i widok, a następnie naciśnij przycisk **<img src="images/TechDraw_ClipGroupAdd.svg" width=16px> '''Dodaj widok do grupy wycinków'''**, aby dodać widok.
+
+
+</div>
 
 
 

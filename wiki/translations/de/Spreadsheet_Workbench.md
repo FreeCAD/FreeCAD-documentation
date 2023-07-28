@@ -1,5 +1,7 @@
 # <img alt="Tabellenkalkulation Arbeitsbereichssymbol" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> Spreadsheet Workbench/de
 
+
+
 ## Einführung
 
 Der <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Arbeitsbereich Tabellenkalkulation](Spreadsheet_Workbench/de.md) ermöglicht die Erstellung und Bearbeitung von Tabellen, Daten aus der Tabellenkalkulation als Parameter in einem Modell zu verwenden, die Tabellenkalkulation mit aus einem Modell abgerufenen Daten zu füllen, Berechnungen durchzuführen und die Daten in andere Tabellenkalkulationsprogramme wie LibreOffice oder Microsoft Excel zu exportieren.
@@ -9,6 +11,8 @@ Der <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Arbe
 
 <img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:600px;"> 
 *Eine Tabellenblatt mit bestimmten Zellen, die mit Text und Mengen gefüllt sind*
+
+
 
 ## Werkzeuge
 
@@ -44,9 +48,13 @@ Der <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Arbe
 
 -    **Schwarz**und **Weiß** legen die Vorder- und Hintergrundfarben der ausgewählten Zellen fest.
 
+
+
 ## Einstellungen
 
 -   <img alt="" src=images/Preferences-spreadsheet.svg  style="width:32px;"> [Einstellungen](Spreadsheet_Preferences/de.md): die Einstellungen für den Arbeitsbereich Tabellenkalkulation. {{Version/de|0.20}}
+
+
 
 ## Einfügen und Entfernen von Zeilen und Spalten 
 
@@ -55,6 +63,8 @@ Rows and columns can be inserted or removed by right-clicking a row or column he
 In FreeCAD version 0.19 and earlier rows are inserted above the selected rows, and columns on the left of the selected columns. In FreeCAD version 0.20 you can specify the insertion side.
 
 Note that removing rows or columns with data can break the spreadsheet and your model if it relies on the spreadheet. You are not prewarned if this happens.
+
+
 
 ## Zellen ausschneiden und einfügen 
 
@@ -65,6 +75,8 @@ The cut and copy operations store the contents and properties of the cells on th
 Note that removing cells with data can break the spreadsheet and your model if it relies on the spreadheet. You are not prewarned if this happens.
 
 In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to hang if a non-rectangular cell range is pasted. It is advisable to save your work before performing any paste operations.
+
+
 
 ## Zelleigenschaften
 
@@ -80,24 +92,22 @@ Wie in den Reitern angezeigt können die folgenden Eigenschaften geändert werde
 -   Einheiten: Anzeigeeinheiten für diese Zelle. Den Abschnitt [Einheiten](Spreadsheet_Workbench/de#Einheiten.md) unten beachten.
 -   Alias: Einen [Alias](Spreadsheet_SetAlias.md) für diese Zelle festlegen. Dieser Alias kann in Zellformeln und auch in allgemeinen [Ausdrücken](Expressions/de.md) verwendet werden; siehe Abschnitt [Tabellendaten in Ausdrücken](#Tabellendaten_in_Ausdrücken.md) für weitere Informationen.
 
+
+
 ## Zellausdrücke
 
 Eine Tabellenzelle kann eine Zahl, einen Text oder einen Ausdruck enthalten. Ausdrücke müssen mit einem Gleichheitszeichen \'=\' beginnen.
 
 Zellausdrücke können Zahlen, Funktionen, Verweise auf andere Zellen und Verweise auf Eigenschaften des Modells enthalten (Siehe aber [Aktuelle Einschränkungen](#Aktuelle_Einschränkungen.md) weiter unten). Eine Zelle kann über ihre Adresse (GROSSBUCHSTABEN für die Spalte + Zeilennummer, z.B. B4) referenziert werden oder über ihren [Alias](Spreadsheet_SetAlias/de.md).
 
+**Anmerkung:** Zellausdrücke werden von FreeCAD als Programmiercode behandelt. Wird also der Inhalt einer Zelle bearbeiten, kann es sein, dass der sichtbare Inhalt nicht den Anzeigeeinstellungen folgt:
 
-<div class="mw-translate-fuzzy">
-
-**Anmerkung:** Zellausdrücke werden von FreeCAD als Programmiercode behandelt. Wenn Sie also den Inhalt einer Zelle bearbeiten, sehen Sie, dass der Inhalt nicht Ihren Anzeigeeinstellungen folgt:
-
--   das Dezimaltrennzeichen ist immer ein Punkt
--   die Anzahl der angezeigten Dezimalstellen kann von Ihren [Vorzugseinstellungs](Preferences_Editor#Units.md) abweichen
-
-
-</div>
+-   Das Dezimaltrennzeichen ist immer ein Punkt, aber für die Eingabe von Werten können auch Kommas verwendet werden.
+-   Die Anzahl der angezeigten Dezimalstellen kann von denen in den [Voreinstellungen](Preferences_Editor/de#Einheiten.md) abweichen.
 
 Referenzen zu Objekten im Modell werden unter [Referenzen auf CAD-Daten](#References_to_CAD-data/de.md) unten erklärt. Die Verwendung von Tabellenkalkulationszellenwerten zur Definition von Modelleigenschaften wird unter [Tabellenkalkulationsdaten in Ausdrücken](#Spreadsheet_data_in_Expressions/de.md) weiter unten erläutert. Weitere Besonderheiten zur Bildung von Ausdrücken findest du unter [Ausdrücke](Expressions/de.md).
+
+
 
 ## Wechselwirkung zwischen Kalkulationstabellen und dem CAD Modell 
 
@@ -107,100 +117,75 @@ In ähnlicher Weise können Eigenschaften von CAD Modellobjekten in Ausdrücken 
 
 In einem Dokument kann mehr als eine Kalkulationstabelle verwendet werden. Eine Kalkulationstabelle kann entweder über ihren Namen oder ihre Beschriftung identifiziert werden.
 
+FreeCAD vergibt automatisch einen eindeutigen Namen für eine Kalkulationstabelle, wenn sie erstellt wird. Diese Namen folgen dem Muster `Spreadsheet`, `Spreadsheet001`, `Spreadsheet002` und so weiter. Der Name kann nicht geändert werden, und er ist in den Eigenschaften des Arbeitsblatts nicht sichtbar. Er kann verwendet werden, um in einem [Ausdruck](Expressions/de.md) auf das Tabellenblatt zu verweisen (siehe [Tabellendaten in Ausdrücken](#Tabellendaten_in_Ausdrücken.md) unten).
 
-<div class="mw-translate-fuzzy">
-
-FreeCAD vergibt automatisch einen eindeutigen Namen für eine Kalkulationstabelle, wenn es erstellt wird. Diese Namen folgen dem Muster `Spreadsheet`, `Spreadsheet001`, `Spreadsheet002` und so weiter. Der Name kann nicht manuell geändert werden, und er ist in den Eigenschaften des Arbeitsblatts nicht sichtbar. Er kann verwendet werden, um auf das Arbeitsblatt in einem [Ausdruck](Expressions/de.md) zu verweisen (siehe [Arbeitsblattdaten in Ausdrücken](#Spreadsheet_data_in_expressions.md) unten).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Die Beschriftung eines Kalkulationstabellenblatts wird bei der Erstellung automatisch auf den Namen des Kalkulationstabellenblatts gesetzt. Im Gegensatz zum Namen kann die Beschriftung geändert werden, z. B. in der Eigenschaftsleiste oder über die Kontextmenüaktion Umbenennen. Beachten Sie, dass die Beschriftung eines Tabellenblatts innerhalb eines Dokuments eindeutig sein muss; wenn Sie versuchen, die Beschriftung in eine Beschriftung zu ändern, die bereits von einem anderen Kalkulationstabellenblatt verwendet wird, akzeptiert FreeCAD die neue Beschriftung nicht.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Die Benennung (Label) einer Kalkulationstabelle wird bei der Erstellung automatisch auf den Namen der Kalkulationstabelle gesetzt. Im Gegensatz zum Namen kann die Benennung geändert werden, z. B. in der Eigenschafteneditor oder über die Kontextmenüaktion Umbenennen. In der Standard-Voreinstellung akzeptiert FreeCAD keine doppelten Benennungen, aber es gibt eine [Voreinstellung](Preferences_Editor/de#Dokument.md) um dieses zu überschreiben. Kalkulationstabellen mit doppelten Benennungen in demselben Dokument können nicht durch ihre Benennung referenziert werden.
 
 FreeCAD prüft auf zyklische Abhängigkeiten. Siehe [Aktuelle Begrenzungen](Spreadsheet_Workbench/de#Aktuelle_Begrenzungen.md).
 
 
-</div>
 
 ### Referenzen auf CAD-Daten 
 
 Wie oben angegeben, kann man in Kalkulationstabellenausdrücken auf Daten aus dem CAD Modell verweisen.
 
-
-<div class="mw-translate-fuzzy">
-
 Die folgende Tabelle zeigt einige Beispiele unter der Annahme, dass das Modell über eine Funktion namens \"MeinWürfel\" verfügt:
 
-  CAD-Daten                                                     Zelle im Tabellenblatt             Ergebnis
-    
-  Parametrische Länge eines Würfels des Arbeitsbereiches Part   =MeinWürfel.Length                 Länge mit den Einheiten mm
-  Volumen des Würfels                                           =MeinWürfel.Shape.Volume           Volumen in mm³ ohne Einheiten
-  Typ des Würfel-\"Shapes\"                                     =MeinWürfel.Shape.ShapeType        String: Solid
-  Beschriftung des Würfels                                      =MeinWürfel.Label                  String: MeinWürfel
-  x-Koordinate des Massenschwerpunktes des Würfels              =MeinWürfel.Shape.CenterOfMass.x   x-Koordinate in mm ohne Einheiten
+++++
+| CAD-Daten                                                   | Zelle im Tabellenblatt                                       | Ergebnis                      |
++=============================================================+==============================================================+===============================+
+| Parametrische Länge eines Würfels des Arbeitsbereiches Part |                                               | Länge mit der Einheit mm      |
+|                                                             | {{Incode|<nowiki>=MeinWürfel.Length</nowiki>}}               |                               |
+|                                                             |                                                           |                               |
+++++
+| Volumen des Würfels                                         |                                               | Volumen in mm³ ohne Einheit   |
+|                                                             | {{Incode|<nowiki>=MeinWürfel.Shape.Volume</nowiki>}}         |                               |
+|                                                             |                                                           |                               |
+++++
+| Typ des Würfel-\"Shapes\"                                   |                                               | Zeichenkette: Solid           |
+|                                                             | {{Incode|<nowiki>=MeinWürfel.Shape.ShapeType</nowiki>}}      |                               |
+|                                                             |                                                           |                               |
+++++
+| Beschriftung des Würfels                                    |                                               | Zeichenkette: MeinWürfel      |
+|                                                             | {{Incode|<nowiki>=MeinWürfel.Label</nowiki>}}                |                               |
+|                                                             |                                                           |                               |
+++++
+| X-Koordinate des Massenschwerpunktes des Würfels            |                                               | Koordinate in mm ohne Einheit |
+|                                                             | {{Incode|<nowiki>=MeinWürfel.Shape.CenterOfMass.x</nowiki>}} |                               |
+|                                                             |                                                           |                               |
+++++
 
 
-</div>
 
 ### Tabellendaten in Ausdrücken 
 
-
-<div class="mw-translate-fuzzy">
-
-Um Kalkulationstabellendaten in anderen Teilen von FreeCAD zu verwenden, wirst du normalerweise einen [Ausdruck](Expressions/de.md) erstellen, der sich auf die Kalkulationstabelle und die Zelle bezieht, die die Daten enthält, die du verwenden möchtest. Du kannst Kalkulationstabellen über den Namen oder die Beschriftung identifizieren, und du kannst die Zellen über die Position oder über einen Alias identifizieren. Die Autovervollständigung ist für alle Formen des Verweises verfügbar.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Um Kalkulationstabellendaten in anderen Teilen von FreeCAD zu verwenden, wirst du normalerweise einen [Ausdruck](Expressions/de.md) erstellen, der sich auf die Kalkulationstabelle und die Zelle bezieht, die die Daten enthält, die du verwenden möchtest. Du kannst Kalkulationstabellen über den Namen oder die Benennung identifizieren, und du kannst die Zellen über die Adresse oder über einen Alias identifizieren. Die Autovervollständigung ist für alle Formen des Verweises verfügbar.
 
 ++++
-|                     | Kalkulationstabelle nach Name                       | Kalkulationstabelle nach Beschriftung                  |
-+=====================+=====================================================+========================================================+
-| Zelle nach Position |                                      |                                         |
-|                     | `<nowiki>=Spreadsheet042.B5</nowiki>`      | `<nowiki>=<<MySpreadsheet>>.B5</nowiki>`      |
-|                     |                                                  |                                                     |
+|                    | Kalkulationstabelle nach Name                       | Kalkulationstabelle nach Benennung                     |
++====================+=====================================================+========================================================+
+| Zelle nach Adresse |                                      |                                         |
+|                    | `<nowiki>=Spreadsheet042.B5</nowiki>`      | `<nowiki>=<<MySpreadsheet>>.B5</nowiki>`      |
+|                    |                                                  |                                                     |
 ++++
-| Zelle nach Alias    |                                      |                                         |
-|                     | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
-|                     |                                                  |                                                     |
+| Zelle nach Alias   |                                      |                                         |
+|                    | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
+|                    |                                                  |                                                     |
 ++++
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 
 <div class="mw-collapsible mw-collapsed">
 
-Die empfohlene Art, auf Kalkulationstabellenblattdaten zu verweisen, ist die Verwendung der Kalkulationstabellenbeschriftung und des Zellaliasnamens. Eine ausführlichere Erklärung der Vor- und Nachteile der Adressierungsmodi findest du im erweiterten Abschnitt unten.
+Die empfohlene Art, auf Tabellenblattdaten zu referenzieren, ist die Verwendung der Tabellenbenennung (Label) und des Zellaliasnamens. Eine ausführlichere Erklärung der Vor- und Nachteile der Referenzierungsarten findest du im erweiterten Abschnitt unten.
 
 
 <div class="mw-collapsible-content">
-
-
-</div>
 
 Die Verwendung der Kalkulationstabellenbeschriftung hat den Vorteil, dass sie frei geändert werden kann, um den Inhalt der Kalkulationstabelle zu beschreiben. Es ist auch einfacher, die verwendete Kalkulationstabelle zu identifizieren, da der Text im Ausdruck mit der in der Modell- und Eigenschaftsansicht angezeigten Beschriftung übereinstimmt. Wenn du dich entscheidesz, die Beschriftung einer Kalkulationstabelle zu ändern, werden bestehende Verweise auf den Inhalt der Kalkulationstabelle aktualisiert, sodass du deine Ausdrücke nicht durch Umbenennen der Kalkulationstabelle zerstörst. Der interne Name der Kalkulationstabelle ist nur im Ausdruckseditor verfügbar. Wenn du also den internen Namen verwendest und später die Kalkulationstabellen umbenennst, kannst du deine Ausdrucksdaten nur schwer zu deiner Quelle zurückverfolgen.
 
 Beachte, dass beim Anlegen eines neuen Kalkulationstabellenblatts der Name und die Beschriftung identisch sind, so dass es leicht passieren kann, dass du versehentlich den Namen des Kalkulationstabellenblatts statt der Beschriftung verwendest. Eine einfache Möglichkeit, dies zu vermeiden, besteht darin, der Kalkulationstabelle einen aussagekräftigen Namen zu geben, bevor du sie in Ausdrücken verwendest.
 
-
-<div class="mw-translate-fuzzy">
-
-Du kannst zwar die Zeilen- und Spaltennummer in einem Ausdruck verwenden, um auf eine Zelle zu verweisen, aber am besten ist es, der Zelle einen Aliasnamen zu geben und diesen zu verwenden. Siehe [Zelleneigenschaften](#Cell_Properties.md) oben, wie du den Alias festlegst. Wenn die Daten in Zelle B1 beispielsweise den Längenparameter für ein Objekt enthalten, würde ein Alias-Name von `MyObject_Length` ermöglichen, dass der Wert als `<<MyParams>>.MyObject_Length` anstelle von `Spreadsheet.B1` referenziert wird. Alias-Namen sind nicht nur viel einfacher zu lesen und zu verstehen, sie lassen sich auch viel leichter ändern, wenn du dich entscheidest, die Struktur deines Arbeitsblatts anzupassen. Die Verwendung eines Alias hat auch den Vorteil, dass es einfacher ist zu sehen, welche Zellen verwendet werden, um andere Teile des Dokuments zu steuern. Beachte, dass FreeCAD die Positionsbezüge in Ausdrücken automatisch anpasst, wenn du Zeilen und Spalten in der Tabelle einfügst oder entfernst. Das heißt, auch wenn du Zeilen- und Spaltennummern in einem Ausdruck verwendest, kannst du Zeilen und Spalten einfügen, ohne die Bezüge zu den umgebenden Zellen zu unterbrechen.
+Du kannst zwar die Zeilen- und Spaltennummer in einem Ausdruck verwenden, um auf eine Zelle zu verweisen, aber am besten ist es, der Zelle einen Aliasnamen zu geben und diesen zu verwenden. Siehe [Zelleigenschaften](#Zelleigenschaften.md) oben, wie du den Alias festlegst. Wenn die Daten in Zelle B1 beispielsweise den Längenparameter für ein Objekt enthalten, würde ein Alias-Name von `MyObject_Length` ermöglichen, dass der Wert als `<<MyParams>>.MyObject_Length` anstelle von `Spreadsheet.B1` referenziert wird. Alias-Namen sind nicht nur viel einfacher zu lesen und zu verstehen, sie lassen sich auch viel leichter ändern, wenn du dich entscheidest, die Struktur deines Arbeitsblatts anzupassen. Die Verwendung eines Alias hat auch den Vorteil, dass es einfacher ist zu sehen, welche Zellen verwendet werden, um andere Teile des Dokuments zu steuern. Beachte, dass FreeCAD die Positionsbezüge in Ausdrücken automatisch anpasst, wenn du Zeilen und Spalten in der Tabelle einfügst oder entfernst. Das heißt, auch wenn du Zeilen- und Spaltennummern in einem Ausdruck verwendest, kannst du Zeilen und Spalten einfügen, ohne die Bezüge zu den umgebenden Zellen zu unterbrechen.
 
 
 </div>
@@ -209,7 +194,6 @@ Du kannst zwar die Zeilen- und Spaltennummer in einem Ausdruck verwenden, um auf
 </div>
 
 
-</div>
 
 ### Komplexe Modelle und Neuberechnungen 
 
@@ -231,29 +215,31 @@ Es gibt drei Lösungen, die sich damit beschäftigen:
     -   Der Nachteil ist, dass das Modell nach Änderungen am Tabellenblatt nicht automatisch neu berechnet wird.
     -   In dem Szenario, in dem du zuerst die \'Tabellenblatt\' Datei öffnest, einen oder mehrere Werte änderst und dann die \'Modell\' Datei öffnest, wird es keinen Hinweis geben, dass das Modell neu berechnet werden muss. Wenn jedoch beide Dateien geöffnet sind, wird das [Std Aktualisieren](Std_Refresh/de.md) Symbol für die \"Modell\" Datei nach Änderungen in der \"Tabellenblatt\" Datei korrekt aktualisiert.
 
+
+
 ## Einheiten
 
 Die Kalkulationstabelle hat eine Vorstellung von Dimension (Einheiten), die mit Zellwerten verbunden ist. Eine Zahl, die ohne eine zugehörige Einheit eingegeben wird, hat keine Dimension. Die Einheit sollte direkt nach dem Zahlenwert eingegeben werden, ohne Leerzeichen dazwischen. Wenn eine Zahl eine zugehörige Einheit hat, wird diese Einheit in allen Berechnungen verwendet. Zum Beispiel ergibt die Multiplikation von zwei Längen mit der Einheit mm eine Fläche mit der Einheit mm².
 
 Wenn eine Zelle einen Wert enthält, der eine Dimension darstellt, sollte dieser mit der zugehörigen Einheit eingegeben werden. Während man in vielen einfachen Fällen mit einem dimensionslosen Wert auskommen kann, ist es unklug, die Einheit nicht einzugeben. Wenn ein Wert, der eine Bemaßung repräsentiert, ohne die zugehörige Einheit eingegeben wird, gibt es einige Sequenzen von Operationen, die FreeCAD veranlassen, sich über inkompatible Einheiten in einem Ausdruck zu beschweren, obwohl der Ausdruck eigentlich gültig sein sollte. (Dies kann besser durch anschauen [dieser Forumsbeitrag](https://forum.freecadweb.org/viewtopic.php?f=3&t=34713&p=292455#p292438) in den FreeCAD Foren verstanden werden.)
 
-
-<div class="mw-translate-fuzzy">
-
-Du kannst die für einen Zellenwert angezeigten Einheiten über den Eigenschaftendialog [units tab](#units_tab/de.md) (oben) ändern. (oben). Dadurch wird der in der Zelle enthaltene Wert nicht geändert; es wird lediglich der vorhandene Wert für die Anzeige umgewandelt. Der Wert, der für Berechnungen verwendet wird, ändert sich nicht, und die Ergebnisse von Formeln, die den Wert verwenden, ändern sich nicht. Beispielsweise kann eine Zelle, die den Wert \"5,08cm\" enthält, als \"2in\" angezeigt werden, indem der Wert der Einheitenreiters in \"in\" geändert wird.
-
-
-</div>
+Du kannst die für einen Zellenwert angezeigten Einheiten über die [Zelleigenschaften](#Zelleigenschaften.md) ändern. Dadurch wird der in der Zelle enthaltene Wert nicht geändert; es wird lediglich der vorhandene Wert für die Anzeige umgewandelt. Der Wert, der für Berechnungen verwendet wird, ändert sich nicht, und die Ergebnisse von Formeln, die den Wert verwenden, ändern sich nicht. Beispielsweise kann eine Zelle, die den Wert \"5,08cm\" enthält, als \"2in\" angezeigt werden, indem der Wert der Einheitenreiters in \"in\" geändert wird.
 
 Eine dimensionslose Zahl kann im Zelleigenschaftendialog nicht in eine Zahl mit einer Einheit geändert werden. Man kann zwar eine Zeichenfolge für die Einheit eingeben, und diese Zeichenfolge wird angezeigt, aber die Zelle enthält immer noch eine dimensionslose Zahl. Um einen dimensionslosen Wert in einen Wert mit einer Dimension zu ändern, muss der Wert selbst mit seiner zugehörigen Einheit neu eingegeben werden.
 
 Manchmal ist es notwendig, die Einheit von einer Zahl zu entfernen. Dies kann durch die Multiplikation einer 1 mit der reziproken Einheit erreicht werden.
 
+
+
 ## Importieren und Exportieren 
+
+
 
 ### CSV Format 
 
 FreeCAD Tabellenblätter können im [1](https://de.wikipedia.org/wiki/CSV_(Dateiformat)) Format importiert und exportiert werden, welches auch von den meisten anderen Tabellenkalkulationsanwendungen wie Microsoft Excel oder LibreOffice Calc gelesen und geschrieben werden kann. Siehe [Tabellenblatt Import](Spreadsheet_Import/de.md) und [Tabellenblatt Export](Spreadsheet_Export/de.md) für weitere Informationen.
+
+
 
 ### XLSX Format 
 
@@ -265,19 +251,17 @@ Tabellenblätter im Excel-Format XLSX können mit dem Befehl [Std Import](Std_Im
 
 Andere Funktionalität wird nicht in das FreeCAD Tabellenblatt importiert.
 
+
+
 ## Drucken
 
 Um die erforderlichen Seiteneinstellungen für den Druck von FreeCAD-Tabellen einzurichten, werden diese in eine [TechDraw Tabellenansicht](TechDraw_SpreadsheetView/de.md) eingefügt.
 
+
+
 ## Aktuelle Begrenzungen 
 
-
-<div class="mw-translate-fuzzy">
-
-FreeCAD prüft auf zyklische Abhängigkeiten. Nach dem Entwurf endet diese Prüfung auf der Ebene des Tabellenkalkulationsobjekts. Infolgedessen solltest du keine Tabellenkalkulation haben, die beides enthält Zellen, deren Werte zur Angabe von Parametern für das Modell verwendet werden, und Zellen, deren Werte die Ausgabe aus dem Modell verwenden. Du kannst z.B. keine Zellen haben, die die Länge, Breite und Höhe eines Objekts festlegen, und eine weitere Zelle, die das Gesamtvolumen der resultierenden Form referenziert. Diese Einschränkung kann durch zwei Tabellenkalkulationen überwunden werden: eine, die als Datenquelle für die Eingabeparameter des Modells dient und die andere verwendet für Berechnungen auf der Grundlage der resultierenden Geometriedaten.
-
-
-</div>
+FreeCAD prüft auf zyklische Abhängigkeiten wenn eine Neuberechnung ausgeführt wird. Nach dem Entwurf endet diese Prüfung auf der Ebene des Tabellenkalkulationsobjekts. Infolgedessen solltest du keine Tabellenkalkulation haben, die beides enthält Zellen, deren Werte zur Angabe von Parametern für das Modell verwendet werden, und Zellen, deren Werte die Ausgabe aus dem Modell verwenden. Du kannst z.B. keine Zellen haben, die die Länge, Breite und Höhe eines Objekts festlegen, und eine weitere Zelle, die das Gesamtvolumen der resultierenden Form referenziert. Diese Einschränkung kann durch zwei Tabellenkalkulationen überwunden werden: eine, die als Datenquelle für die Eingabeparameter des Modells dient und die andere verwendet für Berechnungen auf der Grundlage der resultierenden Geometriedaten.
 
 ## Cell binding 
 
@@ -367,6 +351,8 @@ Similar steps apply to a [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.m
 
 
 </div>
+
+
 
 ## Grundlagen Skripten 
 

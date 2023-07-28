@@ -6,6 +6,8 @@
 
 {{TOCright}}
 
+
+
 ## はじめに
 
 <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Archワークベンチにより](Arch_Workbench/ja.md)、壁・梁・屋根・窓・階段・配管・家具等の建築的存在物をパラメトリックに操作可能な機能等を用いて、FreeCADにて現代的な[building information modelling](http://ja.wikipedia.org/wiki/BIM) (BIM)の作業工程が可能です。本ワークベンチは、industry foundation classes ([IFC](Arch_IFC.md))のファイルに対応しており、<img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw ワークベンチと組み合わせて](TechDraw_Workbench/ja.md)2次元の平面図の作成も可能です。
@@ -17,6 +19,8 @@ FreeCADのBIM関連機能は徐々にこのArchワークベンチと<img alt="" 
 Draft、Arch及びBIMの各ワークベンチの開発者達はより大きな[OSArchコミュニティー](https://osarch.org)とも連携しており、共に建築土木の設計をフリーソフトのみを用いて改良するという究極の目標に向かって努力しています。
 
 <img alt="" src=images/Screenshot_arch_window.jpg  style="width:600px;">
+
+
 
 ## ツール
 
@@ -50,7 +54,7 @@ Draft、Arch及びBIMの各ワークベンチの開発者達はより大きな[O
 
   - <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Custom Rebar](Arch_Rebar.md): Creates a custom reinforcement bar in a selected structural element using a sketch.
 
--   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Curtain Wall](Arch_CurtainWall.md): Creates a curtain wall from scratch or using a selected object as a base. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Curtain Wall](Arch_CurtainWall.md): Creates a curtain wall from scratch or using a selected object as a base.
 
 -   <img alt="" src=images/Arch_BuildingPart.svg  style="width:32px;"> [Building Part](Arch_BuildingPart.md): Creates a building part including selected objects.
 
@@ -96,11 +100,11 @@ Draft、Arch及びBIMの各ワークベンチの開発者達はより大きな[O
 
 -   <img alt="" src=images/Arch_Frame.svg  style="width:32px;"> [Frame](Arch_Frame.md): Creates a frame object from a selected layout.
 
--   <img alt="" src=images/Arch_Fence.svg  style="width:32px;"> [Fence](Arch_Fence.md): Creates a fence object from a selected post and path. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_Fence.svg  style="width:32px;"> [Fence](Arch_Fence.md): Creates a fence object from a selected post and path.
 
--   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Truss](Arch_Truss.md): Creates a truss from a selected line or from scratch. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Truss](Arch_Truss.md): Creates a truss from a selected line or from scratch.
 
--   <img alt="" src=images/Arch_Profile.svg  style="width:32px;"> [Profile](Arch_Profile.md): Creates a parametric 2D profile. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_Profile.svg  style="width:32px;"> [Profile](Arch_Profile.md): Creates a parametric 2D profile.
 
 -   <img alt="" src=images/Arch_CompSetMaterial.png  style="width:48px;"> [Material tools](Arch_CompSetMaterial.md)
 
@@ -116,19 +120,23 @@ Draft、Arch及びBIMの各ワークベンチの開発者達はより大きな[O
 
   - <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Connector](Arch_PipeConnector.md): Creates a corner or T-connection between 2 or 3 selected pipes.
 
+
+
 ### 修正用ツール
 
 These are tools for modifying architectural objects.
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Cut with plane](Arch_CutPlane.md): Cuts an object according to a plane.
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line.
 
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Add component](Arch_Add.md): Adds objects to a component.
 
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Remove component](Arch_Remove.md): Subtracts or removes objects from a component.
 
 -   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Survey](Arch_Survey.md): Enters or leaves surveying mode.
+
+
 
 ### ユーティリティ
 
@@ -163,6 +171,8 @@ These are tools for modifying architectural objects.
 ### Preferences
 
 -   <img alt="" src=images/Preferences-arch.svg  style="width:32px;"> [Preferences](Arch_Preferences.md): preferences for the default appearance of walls, structures, rebars, windows, stairs, panels, pipes, grids and axes.
+
+
 
 ### ファイル形式
 

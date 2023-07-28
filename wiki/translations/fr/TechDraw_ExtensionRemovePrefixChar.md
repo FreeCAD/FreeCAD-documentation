@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionRemovePrefixChar.svg  style="width:24px;"> **TechDraw Supprimer les symboles** supprime tous les symboles devant le texte de la cote.
+L\'outil **TechDraw Supprimer les symboles** supprime tous les symboles devant le texte de la cote.
 
 <img alt="" src=images/TechDraw_ExtensionRemovePrefixCharExample.png  style="width:500px;"> 
 *A droite, les cotes sans les symboles préfixes*
+
+
 
 ## Utilisation
 

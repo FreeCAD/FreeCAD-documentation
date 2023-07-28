@@ -9,7 +9,7 @@
 
 # TechDraw LinkDimension/ru
 
-**TechDraw LinkDimension** is expected to be deprecated in the future. The [TechDraw DimensionRepair](TechDraw_DimensionRepair.md) tool can be used to change both 2D and 3D references.
+The **TechDraw LinkDimension** tool is expected to be deprecated in the future. The [TechDraw DimensionRepair](TechDraw_DimensionRepair.md) tool can be used to change both 2D and 3D references.
 
 
 
@@ -25,11 +25,14 @@ The link instructs the Dimension to compute it\'s value directly from the 3D geo
 
 ## Применение
 
-1.  Create an appropriate dimension on the drawing page using any of [TechDraw LengthDimensionh](TechDraw_LengthDimension.md), [TechDraw HorizontalDimension](TechDraw_HorizontalDimension.md), etc. This dimension will be in the right place on the Page, but will show the projected dimension value.
+1.  Create an appropriate dimension on the drawing page using any of [TechDraw LengthDimension](TechDraw_LengthDimension.md), [TechDraw HorizontalDimension](TechDraw_HorizontalDimension.md), etc. This dimension will be in the right place on the Page, but will show the projected dimension value.
 2.  Select the geometry in the 3D view, for example, an edge, that corresponds to the projected geometry of your dimension.
-3.  Press the **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Link Dimension](TechDraw_LinkDimension.md)** button.
-4.  A dialog will open. Select one or more Dimensions to be linked to the selected 3D geometry.
-5.  Press **OK**.
+3.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Link Dimension to 3D Geometry](TechDraw_LinkDimension.md)** button.
+    -   Select the **TechDraw → Dimensions → <img src="images/TechDraw_LinkDimension.svg" width=16px> Link Dimension to 3D Geometry** option from the menu.
+4.  A task panel opens.
+5.  Select one or more Dimensions to be linked to the selected 3D geometry.
+6.  Press **OK**.
 
 The link operation changes the **MeasureType** property of the dimension from `Projected` to `True`.
 

@@ -1,18 +1,20 @@
 ---
 - GuiCommand:/de
-   Name:Sketcher Rectangles
+   Name:Sketcher CompCreateRectangles
    Name/de:Sketcher AuswahlRechteckErstellen
-   Icon:Sketcher_CompCreateRectangles.png
-   MenuLocation:
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Version:0.20
 ---
 
 # Sketcher CompCreateRectangles/de
 
+
+
 ## Beschreibung
 
 **Rechtecke erstellen** ist eine Symbolschaltfläche in der Werkzeugleiste *Sketcher geometries*, die Werkzeuge zur Erstellung von Rechtecken gruppiert. Klicke auf den Abwärtspfeil rechts daneben, um die Symbole darunter zu erweitern und ein Werkzeug auszuwählen.
+
+
 
 ## Arten von Rechtecken 
 

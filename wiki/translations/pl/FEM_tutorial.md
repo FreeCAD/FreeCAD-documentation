@@ -13,11 +13,15 @@
 
 
 
+
+
 ## Wprowadzenie
 
 Niniejszy poradnik ma na celu zapoznanie czytelnika z podstawowym tokiem pracy środowiska MES, jak również z większością dostępnych narzędzi do przeprowadzania analizy statycznej.
 
 <img alt="" src=images/FEM_tutorial_result.png  style="width:600px;">
+
+
 
 ## Wymagania
 
@@ -26,7 +30,11 @@ Niniejszy poradnik ma na celu zapoznanie czytelnika z podstawowym tokiem pracy �
 -   [Calculix](http://www.calculix.de/) który jest zainstalowany w systemie *(dołączony do instalacji FreeCAD)*.
 -   Czytelnik powinien posiadać podstawową wiedzę na temat korzystania z Środowisk pracy [Część](Part_Workbench/pl.md) oraz [Projekt Części](PartDesign_Workbench/pl.md).
 
+
+
 ## Sposób postępowania 
+
+
 
 ### Modelowanie
 
@@ -42,11 +50,15 @@ W tym przykładzie jako obiekt badania używany jest sześcian, ale zamiast nieg
 
 Teraz mamy model, z którym możemy pracować.
 
+
+
 ### Tworzenie analizy 
 
 1.  Uruchom środowisko pracy <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [MES](FEM_Workbench/pl.md).
 2.  Wybierz z menu **Model → <img src="images/FEM_Analysis.svg" width=16px> Kontener analizy‏‎
 **
+
+
 
 ### Wiązania i siły 
 
@@ -61,14 +73,20 @@ Teraz mamy model, z którym możemy pracować.
 
 Ustaliliśmy teraz ograniczenia i siły dla naszych badań statycznych.
 
+
+
 ### Materiał
 
 1.  Wybierz <img alt="" src=images/FEM_MaterialSolid.svg  style="width:24px;"> [Materiał bryły\...](FEM_MaterialSolid/pl.md) i wybierz Calculix-Steel jako materiał.
 2.  Kliknij na przycisk **OK**.
 
+
+
 ### Tworzenie siatki 
 
 Zaleca się wykonanie siatki jako ostatni etap przygotowań do analizy ze względu na skojarzenie z geometrią w programie FreeCAD. W zależności od instalacji programu FreeCAD mogą występować generatory siatek Netgen lub GMSH, można użyć dowolnego z nich.
+
+
 
 #### Netgen
 
@@ -78,6 +96,8 @@ Zaleca się wykonanie siatki jako ostatni etap przygotowań do analizy ze wzglę
 
 Możesz także przeciągnąć i upuścić obiekt siatki do analizy mechanicznej, która nie występuje w [widoku drzewa](Tree_view/pl.md).
 
+
+
 #### GMSH
 
 1.  Zaznacz model
@@ -86,7 +106,11 @@ Możesz także przeciągnąć i upuścić obiekt siatki do analizy mechanicznej,
 
 Obecnie mamy do czynienia z siatką naszego obiektu i jesteśmy gotowi do dodania wiązań i sił.
 
+
+
 ### Uruchomienie silnika Rozwiązującego 
+
+
 
 #### Procedura typowa 
 
@@ -96,10 +120,14 @@ Obecnie mamy do czynienia z siatką naszego obiektu i jesteśmy gotowi do dodani
 4.  Wybierz **Uruchom Calculix**.
 5.  Kliknij w przycisk **OK**.
 
+
+
 #### Procedura skrócona 
 
 1.  Wybierz obiekt solvera <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> zawarty w kontenerze **Analiza**.
 2.  Kliknij w przycisk <img alt="" src=images/FEM_SolverRun.svg  style="width:24px;"> [Uruchom analizę](FEM_SolverRun/pl.md).
+
+
 
 ### Analizowanie wyników 
 
@@ -115,9 +143,11 @@ Obecnie mamy do czynienia z siatką naszego obiektu i jesteśmy gotowi do dodani
 Zakończyliśmy teraz prezentacje podstawowego przepływu pracy dla środowiska [MES](FEM_Workbench/pl.md).
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM tutorial/pl

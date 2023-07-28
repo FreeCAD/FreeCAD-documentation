@@ -1,16 +1,21 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:OpenSCAD MirrorMeshFeature
-   MenuLocation:OpenSCAD → Mirror Mesh Feature
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
-   SeeAlso:[Part Mirror](Part_Mirror.md)
+   Name/de:OpenSCAD NetzelementSpiegeln
+   MenuLocation:OpenSCAD → Netzelement spiegeln
+   Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
+   SeeAlso:[Part Spiegelung](Part_Mirror/de.md)
 ---
 
 # OpenSCAD MirrorMeshFeature/de
 
+
+
 ## Beschreibung
 
-Creates a new mirrored mesh object, mirrored about the selected axis.
+Erstellt ein gespiegeltes Netz-Objekt, gespiegelt über die ausgewählte Achse.
+
+
 
 ## Anwendung
 
@@ -20,14 +25,18 @@ Creates a new mirrored mesh object, mirrored about the selected axis.
 
 -   A new object is created and mirrored, the original object is rendered hidden.
 
-## Limitations
+
+
+## Einschränkungen
 
 -   The new mesh object is not parametric to the original mesh object, which means any changes to the original object do not get reflected in the new mirrored object.
 
+
+
 ## Hinweise
 
--   The function does not modify the existing mesh, but returns a new mesh.
--   The function can be accessed via Python:
+-   Die Funktion ändert nicht das vorhandene Netz, sondern erstellt ein neues Netz.
+-   Auf diese Funktion kann über Python zugegriffen werden:
 
 
 ```python

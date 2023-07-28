@@ -2,57 +2,52 @@
 - GuiCommand:/de
    Name:FEM ConstraintBodyHeatSource
    Name/de:FEM RandbedingungKörperwärmequelle
-   MenuLocation: Modell → Thermische Randbedingungen → Randbedingung Körperwärmequelle
+   MenuLocation:Modell → Thermische Randbedingungen → Randbedingung Körperwärmequelle
    Workbenches:[FEM](FEM_Workbench/de.md)
+   Version:0.19
    SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM ConstraintBodyHeatSource/de
 
 
-</div>
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Legt eine intern erzeugte Körperwärme fest, angegeben in W/kg (nicht J/m³).
+Legt eine intern erzeugte Körperwärme fest, angegeben in W/kg.
 
 
-</div>
 
 ## Anwendung
 
+1.  Entweder die Schaltfläche **<img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> '''Randbedingung Körperwärmequelle'''** drücken oder den Menüeintrag **Modell → Thermische Randbedingungen → <img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> Randbedingung Körperwärmequelle** auswählen.
+2.  Werte anpassen:
+    -   
+        {{VersionPlus/de|0.21}}
+        
+        : Für eine 3D-Analyse einen Festkörper (body) des modells auswählen, für eine 2D-Analyse eine Fläche auswählen.
 
-<div class="mw-translate-fuzzy">
-
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> [Randbedingung Körperwärmequelle](FEM_ConstraintBodyHeatSource/de.md)** drücken.
-    -   Den Menüeintrag **Modell → Thermische Randbedingungen → <img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> Randbedingung Körperwärmequelle** auswählen.
-2.  In der [3D-Ansicht](3D_view/de.md) die Objekte auswählen, auf die die Randbedingung angewendet werden soll; diese können Knoten (Ecken), Kanten oder Flächen sein.
-3.  Einen Wert für die spezifische Wärme eingeben, die den Objekten zugeordnet werden soll.
-
-
-</div>
-
-## Limitation
+    -   
+        {{VersionMinus/de|0.20}}
+        
+        : Da die Randbedingung keinen Aufgaben-Dialog besitzt, wird der [Eigenschafteneditor](Property_editor.md) verwendet, um die {{PropertyData/de|Heat Source}} anzupassen.
 
 
-{{VersionMinus|0.20}}
 
-: The body heat source is applied to the whole model, meaning all bodies of the setup. It is not possible to select an individual body.
+## Einschränkungen
+
+
+{{VersionMinus/de|0.20}}
+
+: Die Körperwärmequelle wird auf das gesamte Modell angewendet, also alle Körper der Zusammenstellung. Es ist nicht möglich einen einzelnen Körper auszuwählen.
+
+
 
 ## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
--   Für weitere Informationen siehe [this forum thread](https://forum.freecadweb.org/viewtopic.php?f=18&t=44705&start=490#p422539) und folgende Posts.
+-   Diese Randbedingung funktioniert nur mit dem Löser Elmer.
+-   Für weitere Informationen siehe [Dieses Forumsthema](https://forum.freecadweb.org/viewtopic.php?f=18&t=44705&start=490#p422539) und folgende Posts. [Dieses Thema](https://forum.freecadweb.org/viewtopic.php?f=18&t=28926) kann auch nützlich sein.
 -   Elmer Beispiele können auch unter [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf) gefunden werden.
-
-
-</div>
 
 
 

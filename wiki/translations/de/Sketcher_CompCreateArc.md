@@ -1,17 +1,19 @@
 ---
 - GuiCommand:/de
-   Name:Sketcher Arcs
+   Name:Sketcher CompCreateArc
    Name/de:Sketcher AuswahlBogenErstellen
-   Icon:Sketcher_CompCreateArc.png
-   MenuLocation:
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
 ---
 
 # Sketcher CompCreateArc/de
 
+
+
 ## Beschreibung
 
 **Bogen erstellen** ist eine Symbolschaltfläche in der Sketcher-Werkzeugleiste Skizzengeometrien, die Werkzeuge zum Erstellen eines Bogens durch Auswahl von drei Punkten gruppiert. Klicke auf den Abwärtspfeil auf seiner rechten Seite, um die Symbole darunter aufzuklappen und ein Werkzeug auszuwählen.
+
+
 
 ## Bogenarten
 

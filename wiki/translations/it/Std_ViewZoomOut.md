@@ -10,30 +10,33 @@
 
 # Std ViewZoomOut/it
 
+
+
 ## Descrizione
 
-Il comando **Std ViewZoomOut** riduce la [vista 3D](3D_view/it.md) attiva.
+Il comando **Riduci** riduce la [Vista 3D](3D_view/it.md) attiva.
+
+
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
-
--   Andare in **Visualizza → Zoom‏‎ → [<img src=images/Zoom-out.svg style="width:24px"> Zoom Out** o premere **Ctrl** + **-**.
--   La vista può anche essere rimpicciolita con la rotellina del mouse.
+1.  Esistono diversi modi per invocare il comando:
+    -   Selezionare l\'opzione **Visualizza → Zoom → <img src="images/Std_ViewZoomOut.svg" width=16px> Riduci** dal menu.
+    -   Usare la scorciatoia da tastiera: **Ctrl**+**-**.
 
 
-</div>
 
 ## Note
 
--   It is also possible to zoom with the mouse scroll wheel.
+-   È anche possibile eseguire lo zoom con la rotellina del mouse.
+
+
 
 ## Preferenze
 
--   The zoom factor can be changed in the preferences: **Edit → Preferences... → Display → Navigation → Zoom step**. This setting also affects scroll wheel zoom. See [Preferences Editor](Preferences_Editor#Navigation.md).
+-   Il fattore di zoom può essere modificato nelle preferenze: **Modifica → Preferenze... → Visualizzazione → Navigazione → Fattore di zoom**. Questa impostazione influisce anche sullo zoom della rotella di scorrimento. Vedi [Editor delle preferenze](Preferences_Editor/it#Navigazione.md).
+
+
 
 ## Script
 
@@ -42,7 +45,7 @@ Il comando **Std ViewZoomOut** riduce la [vista 3D](3D_view/it.md) attiva.
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
-To zoom out use the `zoomOut` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Per ridurre utilizzare il metodo `zoomOut` dell\'oggetto ActiveView. Questo metodo non è disponibile se FreeCAD è in modalità console.
 
 
 ```python
@@ -52,13 +55,7 @@ FreeCADGui.ActiveDocument.ActiveView.zoomOut()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

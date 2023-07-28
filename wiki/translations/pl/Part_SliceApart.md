@@ -1,72 +1,84 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Part SliceApart
-   MenuLocation:Part → Split → Slice apart
-   Workbenches:[Part](Part_Workbench.md)
+   Name/pl:Część: Rozetnij
+   MenuLocation:Część → Rozdziel → Rozetnij
+   Workbenches:[Część](Part_Workbench/pl.md)
    Version:0.18
-   SeeAlso:[Part Slice to compound](Part_Slice.md), [Part Explode Compound](Part_ExplodeCompound.md)
+   SeeAlso:[Krojenie](Part_Slice/pl.md), [Rozbij kształt złożony](Part_ExplodeCompound/pl.md)
 ---
 
 # Part SliceApart/pl
 
-## Description
-
-Tool to split shapes by intersection with other shapes. For example, for a box and a plane, two solids are created. ![600px](images/Part_Slice_Demo.png)
 
 
+## Opis
 
-* Above: the pieces were moved apart manually afterwards, to reveal the slicing.*
+Jest to narzędzie do dzielenia kształtów przez przecięcie innym kształtem. Na przykład dla prostopadłościanu i płaszczyzny tworzone są dwie bryły.
+![600px](images/Part_Slice_Demo.png)
 
-[Slice apart](Part_SliceApart.md) is the same as <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Part Slice](Part_Slice.md) followed by <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> [Part Explode Compound](Part_ExplodeCompound.md). While \"Slice to compound\" is fully-parametric, and causes no trouble as the number of pieces changes, \"Slice apart\" will not update the number of objects as the number of pieces changes. They both create Slice parametric feature, that puts the sliced pieces into a compound, but \"Slice apart\" explodes the resulting compound into separate objects.
 
-The output shape occupies the same space as the original. But it is split where it intersects with other shapes. The split pieces are individual pieces.
 
-Please visit [Part Slice](Part_Slice.md) page for more info.
+* Powyżej: elementy zostały później ręcznie rozsunięte, aby uwidocznić cięcie.*
 
-### Tree structure of Slice Apart 
+Narzędzie **Rozetnij** jest tym samym, co <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Rozbij na kształty złożenia](Part_Slice/pl.md), po którym następuje działanie funkcji jak w narzędziu <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> [Rozbij na kształty złożenia](Part_ExplodeCompound/pl.md). Podczas gdy \"Rozbij na kształty złożenia\" jest w pełni parametryczne i nie powoduje żadnych problemów, gdy zmienia się liczba elementów, \"Rozetnij\" nie aktualizuje liczby obiektów, gdy zostanie zmieniona liczba elementów w operacji. Oba tworzą parametryczną cechę *Rozbicia*, która umieszcza pocięte kawałki w złożeniu, ale funkcja \"Rozbij\" rozbija wynikowe złożenie na osobne obiekty.
 
-The Slice Apart command creates more than only the sliced object. In the following example a cube is sliced by a face.
+Kształt wyjściowy zajmuje tę samą przestrzeń co oryginał. Jest on jednak dzielony w miejscach przecięcia z innymi kształtami. Podzielone elementy są odrębnymi elementami.
 
-The slice is created and for each piece of it there is a [Part CompoundFilter](Part_CompoundFilter.md) created, thus the same slice occurs multiple times below each CompoundFilter. All these CompoundFilters are united in a Compound.
+Więcej informacji można znaleźć na stronie [Rozbij na kształty złożenia](Part_Slice/pl.md).
+
+## Struktura drzewa cechy Rozetnij 
+
+Polecenie Rozbij tworzy coś więcej niż tylko wycięty obiekt. W poniższym przykładzie prostopadłościan jest przecinany przez ścianę.
+
+Zostaje utworzony fragment, a dla każdej jego części tworzony jest [Filtr złożenia](Part_CompoundFilter/pl.md), dzięki czemu ten sam fragment występuje wielokrotnie pod każdym Filtrem złożenia. Wszystkie te Filtry złożeń są połączone w jeden obiekt Złożenia.
 
 ![](images/Part_SliceApartTree.png )
 
-## Example
 
--   Making a puzzle: see [Part Slice](Part_Slice.md) example Steps 1 to 6
 
-## Scripting
+## Przykład
 
-The tool can by used in [macros](macros.md) and from the python console by using the following function:
+-   Tworzenie puzzli: patrz przykład zastosowania funkcji [Rozbij na kształty złożenia](Part_Slice/pl.md), kroki od 1 do 6.
+
+
+
+## Tworzenie skryptów 
+
+Narzędzie Rozetnij może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następującej funkcji:
 
 `BOPTools.SplitFeatures.makeSlice(name)`
 
-Set mode to **split** for slice apart
+Ustaw tryb na *podziel*, aby uzyskać podział na części.
 
--   Creates an empty Slice feature. The \'Base\' and \'Tools\' properties must be assigned explicitly, afterwards.
--   Returns the newly created object.
+-   Tworzy pusty cechę Rozbij. Właściwości \"Baza\" i \"Narzędzia\" muszą zostać przypisane jawnie.
+-   Zwraca nowo utworzony obiekt.
 
-Slice can also be applied to plain shapes, without the need to have a document object, via: 
-```pythonBOPTools.SplitAPI.slice(base_shape, tool_shapes, mode, tolerance = 0.0)``` This can be useful for making custom Python scripted features.
+Obiekt Rozbij może być również stosowany do zwykłych kształtów, bez konieczności posiadania obiektu dokumentu: 
+```pythonBOPTools.SplitAPI.slice(base_shape, tool_shapes, mode, tolerance = 0.0)``` Może to być przydatne do tworzenia niestandardowych funkcji skryptowych Python.
 
-Example: {{code|code=
+Przykład: {{code|code=
 import BOPTools.SplitFeatures
 j = BOPTools.SplitFeatures.makeSlice(name= 'Slice')
 j.Base = FreeCADGui.Selection.getSelection()[0]
 j.Tools = FreeCADGui.Selection.getSelection()[1:]
 }}
 
-The tool itself is implemented in Python, see **/Mod/Part/BOPTools/SplitFeatures.py** ([GitHub link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/SplitFeatures.py)) within the FreeCAD installation directory.
+Samo narzędzie jest zaimplementowane w środowisku Python, patrz **/Mod/Part/BOPTools/SplitFeatures.py** *([GitHub link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/SplitFeatures.py))* w miejscu, w którym zainstalowany jest FreeCAD.
 
-## Notes
 
-Slice Apart was introduced in FreeCAD v0.18.15506. FreeCAD needs to be compiled with OCC 6.9.0 or later; otherwise, the tool is unavailable.
 
-## Video-Tutorials 
+## Uwagi
 
--   <https://www.youtube.com/watch?v=tzHkQaHgrfQ> : FreeCad 0.18 PART WB using SLICE and SLICE APART (English language), author: Ha Gei
+Narzędzie zostało wprowadzone w wersji FreeCAD v0.18.15506. FreeCAD musi być skompilowany z OCC **6.9.0** lub nowszym. W przeciwnym razie narzędzie jest niedostępne.
 
--   <https://www.youtube.com/watch?v=JJAL5JmqqKQ> : FreeCAD Slice und Slice Apart und andere Tricks (German lanuage), author: Ha Gei
+
+
+## Poradniki Wideo 
+
+-   <https://www.youtube.com/watch?v=tzHkQaHgrfQ> : FreeCad 0.18 środowisko pracy Część z użyciem narzędzi Rozbij na kształty złożenia i Rozetnij *(język angielski)*, autor: Ha Gei
+
+-   <https://www.youtube.com/watch?v=JJAL5JmqqKQ> : FreeCAD, funkcje Rozbij na kształty złożenia oraz Rozetnij, oraz inne sztuczki *(język niemiecki)*, autor: Ha Gei
 
 
 

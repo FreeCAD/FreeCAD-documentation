@@ -5,6 +5,8 @@
 
 DXF is a proprietary CAD data format for 2D drawings that originated with AutoCAD. More details can be found on the [DXF](DXF.md) wiki page.
 
+
+
 ## Введение
 
 Since FreeCAD version 0.18 there is a new C++ DXF importer, and since version 0.19 also a new C++ DXF exporter. These new components are installed with FreeCAD.
@@ -13,11 +15,15 @@ To use the older, legacy, DXF importer and exporter you need to install several 
 
 ## How to install the legacy DXF importer and exporter 
 
+
+
 ### АВтоматически
 
 If the files are not already installed, go to the menu **Edit → Preferences → Import-Export → DXF** and enable the option **Allow FreeCAD to automatically download and update the DXF libraries** to make FreeCAD automatically download and install them.
 
 For FreeCAD 0.14 or older you have to install manually:
+
+
 
 ### Вручную
 
@@ -42,8 +48,7 @@ Sometimes DXF Files don\'t import although they open in other CAD-Programs witho
 You can try:
 
 1.  Go to **Edit → Preferences → Import-Export → DXF** and untick the option **Join geometry** and try again.
-2.  Remember that maybe now you won\'t have coincident endpoints. You will have to make them coincident yourself.
-3.  You can do this with the [Sketcher CloseShape](Sketcher_CloseShape.md) command <small>(v0.15)</small>  or you can apply the constraints manually.
+2.  Remember that maybe now you won\'t have coincident endpoints. You can make them coincident with [Sketcher ValidateSketch](Sketcher_ValidateSketch.md)
 
 You can also try:
 

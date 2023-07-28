@@ -5,11 +5,15 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Disegna un triangolo equilatero inscritto nella circonferenza che costituisce la sua geometria di costruzione. Quando si avvia lo strumento, il puntatore del mouse si trasforma in una croce bianca con l\'icona di un esagono rosso. Le coordinate del puntatore sono riportate accanto, in blu e in tempo reale.
 
 ![](images/SketcherCreateTriangleExample.png‎ )
+
+
 
 
 <div class="mw-translate-fuzzy">

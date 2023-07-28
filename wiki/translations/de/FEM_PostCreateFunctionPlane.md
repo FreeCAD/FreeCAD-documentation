@@ -1,8 +1,7 @@
 ---
 - GuiCommand:/de
    Name:FEM PostCreateFunctionPlane
-   Name/de:FEM NachbearbeitungFunktionEbene
-   Icon:Fem-post-geo-plane.svg
+   Name/de:FEM NachbereitungFunktionEbene
    MenuLocation:Ergebnisse → Filterfunktionen → Ebene
    Workbenches:[FEM](FEM_Workbench/de.md)
    SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
@@ -11,19 +10,10 @@
 # FEM PostCreateFunctionPlane/de
 
 
-</div>
-
-
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Die Funktion <img alt="" src=images/Fem-post-geo-plane.svg  style="width:24px;"> **FEM NachbearbeitungFunktionEbene** legt die Geometrie fest, mit der ein Netzobjekt geschnitten wird. Sie wird von den Werkzeugen <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:16px;"> [Funktion Schnitt-Filter](FEM_PostFilterCutFunction/de.md) und <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:16px;"> [Region Ausschnitt-Filter](FEM_PostFilterClipRegion/de.md) verwendet.
-
-
-</div>
+Die Funktion <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> **FEM NachbereitungFunktionEbene** legt die Geometrie fest, mit der ein Netzobjekt geschnitten wird. Sie wird von den Werkzeugen <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:16px;"> [Funktion Schnitt-Filter](FEM_PostFilterCutFunction/de.md) und <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:16px;"> [Region Ausschnitt-Filter](FEM_PostFilterClipRegion/de.md) verwendet.
 
 
 
@@ -33,30 +23,16 @@ Die Funktion <img alt="" src=images/Fem-post-geo-plane.svg  style="width:24px;">
 
 ### Ebenenfunktion erstellen 
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Es gibt mehrere Möglichkeiten eine Funktion zu erstellen:
-    -   Die Schaltfläche **<img src="images/Fem-post-geo-plane.svg" width=16px> [Ebene](FEM_PostCreateFunctionPlane/de.md)** drücken.
-    -   Den Menüeintrag **Ergebnisse → Filterfunktionen → <img src="images/Fem-post-geo-plane.svg" width=16px> Ebene** auswählen.
-2.  Der [Aufgabenbereich](Task_panel.md) Implizite Funktion wird geöffnet.
+1.  Die Schaltfläche **<img src="images/FEM_PostCreateFunctionPlane.svg" width=16px> [Ebene](FEM_PostCreateFunctionPlane/de.md)** drücken oder den Menüeintrag **Ergebnisse → Filterfunktionen → <img src="images/FEM_PostCreateFunctionPlane.svg" width=16px> Ebene** auswählen.
+2.  Der [Aufgaben-Bereich](Task_panel/de.md) Implizite Funktion wird geöffnet.
 3.  Wahlweise Werte für den Ursprung und die Ausrichtung der Schnittebene eingeben.
 4.  Zum Beenden die Schaltfläche **OK** drücken.
-
-
-</div>
 
 
 
 ### Ebenenfunktion bearbeiten 
 
-
-<div class="mw-translate-fuzzy">
-
-Wenn das Plane-Objekt in der [Baumansicht](Tree_view/de.md) ausgeblendet ist, wählt man das <img alt="" src=images/Fem-post-geo-plane.svg  style="width:24px;"> Plane-Objekt in der [3D-Ansicht](3D_view/de.md) aus und drückt die **Leertaste**, um es anzuzeigen, so wie in diesem Beispiel:
-
-
-</div>
+Wenn das Plane-Objekt in der [Baumansicht](Tree_view/de.md) ausgeblendet ist, wählt man das <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> Plane-Objekt in der [3D-Ansicht](3D_view/de.md) aus und drückt die **Leertaste**, um es anzuzeigen, so wie in diesem Beispiel:
 
 <img alt="" src=images/FEM_Plane-Cut-Function-Example.png  style="width:300px;">
 
@@ -77,7 +53,7 @@ Wenn das Plane-Objekt in der [Baumansicht](Tree_view/de.md) ausgeblendet ist, w�
 
 #### Die Ebenengröße anpassen 
 
--   Einen der 6 kleinen Würfel, die Anfasser für die Einstellung der Größe sind, anklicken und ziehen, um die Ebene zu skalieren. Die Größe spielt allerdings keine Rolle, da das Objekt eine unendliche Ebene ist.
+-   Einen der 6 kleinen Würfel anklicken und ziehen, um die Ebene zu skalieren. Die Größe spielt allerdings keine Rolle, da das Objekt eine unendliche Ebene ist.
 
 
 
@@ -86,13 +62,7 @@ Wenn das Plane-Objekt in der [Baumansicht](Tree_view/de.md) ausgeblendet ist, w�
 -   Vorhandene Funktionen können für unterschiedliche Filter und für unterschiedliche <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:16px;"> [Ergebnis-Pipelines](FEM_PostPipelineFromResult/de.md) genutzt werden. Es wird allerdings dazu geraten, für jede Pipeline einen separaten Satz von Funktionen zu verwenden, um den Überblick über die Elemente in der [Baumansicht](Tree_view/de.md) zu behalten.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

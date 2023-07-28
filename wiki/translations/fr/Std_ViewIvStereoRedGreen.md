@@ -23,14 +23,14 @@ La commande **Std Stéréo rouge cyan** change la [vue 3D](3D_view/fr.md) active
 
 ## Préférences
 
--   La distance entre les yeux peut être modifiée dans les préférences: **Édition → Préférences... → Affichage → Vue 3D → Eye to eye distance for stereo modes**. Voir l\'[Editeur de préférences](Preferences_Editor#3D_View/fr.md).
+-   La distance entre les yeux peut être modifiée dans les préférences : **Édition → Préférences... → Affichage → Vue 3D → Distance entre les yeux pour les modes stéréo**. Voir l\'[Éditeur de préférences](Preferences_Editor#3D_View/fr.md).
 
 
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

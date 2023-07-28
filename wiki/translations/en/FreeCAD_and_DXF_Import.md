@@ -42,8 +42,7 @@ Sometimes DXF Files don\'t import although they open in other CAD-Programs witho
 You can try:
 
 1.  Go to **Edit → Preferences → Import-Export → DXF** and untick the option **Join geometry** and try again.
-2.  Remember that maybe now you won\'t have coincident endpoints. You will have to make them coincident yourself.
-3.  You can do this with the [Sketcher CloseShape](Sketcher_CloseShape.md) command <small>(v0.15)</small>  or you can apply the constraints manually.
+2.  Remember that maybe now you won\'t have coincident endpoints. You can make them coincident with [Sketcher ValidateSketch](Sketcher_ValidateSketch.md)
 
 You can also try:
 

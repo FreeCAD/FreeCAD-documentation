@@ -1,6 +1,25 @@
 # Books/de
 Diese Seite listet Bücher über FreeCAD, die uns bekannt sind:
 
+## FreeCAD Beginner's Starter Kit 
+
+By Aleksander Sadowski, published May 2023, ebook/paperback
+
+<img alt="" src=images/Freecad_book_aleks.jpg  style="width:240px;">
+
+FreeCAD is commonly known for its steep learning curve which stems from an overwhelming amount of possibilities available to the beginner. This book simplifies the use of FreeCAD for you by equipping you with an easy workflow, while giving context to the functions you need. You will learn to create fun projects, design helpful gadgets for your house or even get on an adventure and design your own products. This book strives to condense the knowledge from beginner courses into a tangible guide that anyone can pick up and learn how to create 3D designs with FreeCAD. You will overcome your frustration with breaking models or not knowing how to recover them and make you confident enough to be able to create your own designs from beginning to end - from the first idea to the 3D printable model.
+
+You will learn the basic concepts of solid 3D modeling and how to apply those using FreeCAD. You will then build an entire project from scratch and turn an idea to individual 3D CAD parts with Part Design and Sketcher, assemble all parts digitally with A2Plus, prepare and export the 3D CAD models for 3D printing. You will also learn how to share your models using fcprint.
+
+By the end of this book, you will be able to design your own little 3D printable gadgets that you have dreamt of and share those with your friends and the entire world.
+
+**<https://www.packtpub.com/product/freecad-beginners-starter-kit/9781801810463>**
+
+
+
+
+
+
 ## FreeCAD for Makers 
 
 Von Jo Hinchliffe, veröffentlicht September 2022, kostenloses E-Book

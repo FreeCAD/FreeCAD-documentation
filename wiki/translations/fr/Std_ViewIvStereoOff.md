@@ -13,14 +13,18 @@
 
 La commande **Std Stéréo désactivée** désactive le mode stéréo dans la [vue 3D](3D_view/fr.md) active.
 
+
+
 ## Utilisation
 
 1.  Sélectionnez l\'option **Affichage → Stéréo → <img src="images/Std_ViewIvStereoOff.svg" width=16px> Désactiver la stéréo** dans le menu.
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

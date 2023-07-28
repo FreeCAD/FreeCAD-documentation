@@ -2,7 +2,6 @@
 - GuiCommand:/it
    Name:Std ToggleObjects
    Name/it:Commuta tutti gli oggetti
-   Empty:1
    MenuLocation:Visualizza → Visibilità → Commuta tutti gli oggetti
    Workbenches:Tutti
    SeeAlso:[Mostra/Nascondi](Std_ToggleVisibility/it.md), [Mostra la selezione](Std_ShowSelection/it.md), [Nascondi la selezione](Std_HideSelection/it.md), [Mostra tutti gli oggetti](Std_ShowObjects/it.md), [Nascondi tutti gli oggetti](Std_HideObjects/it.md)
@@ -11,23 +10,28 @@
 # Std ToggleObjects/it
 
 
-</div>
 
 ## Descrizione
 
-The **Std ToggleObjects** command toggles the visibility of all objects belonging to the active document in [3D views](3D_view.md). Be careful when you use this command as it will also toggle the visibility of sub-elements of [PartDesign bodies](PartDesign_Body.md) and objects used for [Part Booleans](Part_Boolean.md). In most cases these should stay invisible.
+Il comando **Commuta tutti gli oggetti** commuta la visibilità di tutti gli oggetti appartenenti al documento attivo nella [Vista 3D](3D_view/it.md). Prestare attenzione quando si utilizza questo comando in quanto alternerà anche la visibilità dei sottoelementi dei [Corpi di PartDesign](PartDesign_Body/it.md) e degli oggetti utilizzati per [operazioni booleane](Part_Boolean/it.md). Nella maggior parte dei casi questi dovrebbero rimanere invisibili.
+
+
 
 ## Utilizzo
 
-1.  Select the **View → Visibility → <img src="images/Std_ToggleObjects.svg" width=16px> Toggle all objects** option from the menu.
+1.  Selezionare l\'opzione **Visualizza → Visibilità → <img src="images/Std_ToggleObjects.svg" width=16px> Commuta tutti gli oggetti** dal menu.
+
+
 
 ## Note
 
--   Invisible objects are displayed with a greyed out label and a greyed out icon in the [Tree view](Tree_view.md).
--   Objects nested in a [Std Part](Std_Part.md), or a [Std Link](Std_LinkMake.md) to a [Std Group](Std_Group.md), or a LinkGroup, and [features](PartDesign_Feature.md) of a [PartDesign Body](PartDesign_Body.md) will only be visible in [3D views](3D_view.md) if their parent is visible as well. This means that a feature in a PartDesign Body that is nested in a Std Part will only be visible in 3D views if the feature itself, the PartDesign Body, and the Std Part are all visible. And if the Std Part is in turn nested in another Std Part, then that last object must also be visible.
--   If the visibility of a [Std Group](Std_Group.md) (or an object derived from it such as an [Arch BuildingPart](Arch_BuildingPart.md)) is changed, the visibility of its nested objects will change accordingly. But their visibility can be changed independently as well.
--   The action of this command cannot be undone with [Std Undo](Std_Undo.md).
--   The visibility of an object can also be changed through its related **Visibility** property in the [Property editor](Property_editor.md) or the [Combo view](Combo_view.md).
+-   Gli oggetti invisibili vengono visualizzati con un\'etichetta in grigio e un\'icona in grigio nella [Vista ad albero](Tree_view/it.md).
+-   Oggetti nidificati in una [Parte](Std_Part/it.md), o [Link](Std_LinkMake/it.md) verso un [Gruppo](Std_Group/it.md), o in un LinkGroup, e [funzioni](PartDesign_Feature/it.md) di un [Corpo di PartDesign](PartDesign_Body/it.md) saranno visibili solo nella [Vista 3D](3D_view/it.md) se anche il loro genitore è visibile. Ciò significa che una funzione in un corpo di PartDesign annidata in una parte standard sarà visibile solo nelle viste 3D se la funzione stessa, il corpo di PartDesign e la parte standard sono tutti visibili. E se l\'oggetto Part è a sua volta nidificato in un altro oggetto Part, anche quest\'ultimo oggetto deve essere visibile.
+-   Se la visibilità di un [Gruppo](Std_Group/it.md) (o di un oggetto derivato da esso come un [Parte di edificio Arch](Arch_BuildingPart/it.md)) viene modificata, la visibilità dei suoi oggetti nidificati cambierà di conseguenza. Ma anche la loro visibilità può essere modificata in modo indipendente.
+-   L\'azione di questo comando non può essere annullata con [Annulla](Std_Undo/it.md).
+-   La visibilità di un oggetto può anche essere modificata tramite la relativa proprietà **Visibility** in [Editor delle proprietà](Property_editor/it.md) o nella [Vista combinata](Combo_view/it.md).
+
+
 
 ## Script
 
@@ -36,16 +40,10 @@ The **Std ToggleObjects** command toggles the visibility of all objects belongin
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
-For a scripting example see [Std ToggleVisibility](Std_ToggleVisibility.md).
-
-
-<div class="mw-translate-fuzzy">
+Per un esempio di script vedere [Commutare la visibilità](Std_ToggleVisibility/it.md).
 
 
 
-
-
-</div>
 
 
 {{Std Base navi

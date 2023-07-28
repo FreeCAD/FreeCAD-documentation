@@ -22,6 +22,8 @@
 
 ![](images/Arch_tutorial_00.jpg )
 
+
+
 ## Введення
 
 
@@ -441,7 +443,7 @@ The section plane automatically produces cut views of the objects it intersects.
 
 <img alt="" src=images/Arch_tutorial_49.jpg  style="width:1024px;">
 
-The section planes can produce two different outputs: [shape](Part_Workbench.md) objects, that live in the same document as your 3D model, or [drawing views](Drawing_Workbench.md), that are made to use on a drawing sheet produced by the [Drawing workbench](Drawing_Workbench.md). Each of these behave differently, and has its own advantages.
+The section plane can produce two different outputs: [shape](Part_Workbench.md) objects in the 3D view, or [TechDraw ArchViews](TechDraw_ArchView.md) that are displayed on a drawing sheet produced by the [TechDraw Workbench](TechDraw_Workbench.md). Each of these behave differently, and have their own advantages.
 
 **Shape views**
 
@@ -455,15 +457,15 @@ On the image above, two [Shape2D views](Draft_Shape2DView.md) have been produced
 
 Note that some features are still not supported by the [DXF/DWG exporter](Draft_DXF.md) so the result in your 2D application might differ a bit. For example, in the image above, I had to redo the hatching, and correct the position of some dimension texts. If you place your objects in different groups in FreeCAD, these become layers in your 2D CAD application.
 
-**Drawing views**
+**ArchViews**
 
-The other kind of output that can be produced from [section planes](Arch_SectionPlane.md) is a [Drawing view](Drawing_Workbench.md). These are produced by using the [Draft Drawing](Draft_Drawing.md) tool with a section plane selected. This method has one big limitation compared to the previous one: you have limited possibilities to edit the results, and at the moment, things like dimensioning or hatching are still not natively supported.
+The other kind of output that can be produced from [section planes](Arch_SectionPlane.md) are [TechDraw ArchViews](TechDraw_ArchView.md). This method has one big limitation compared to the previous one: you have limited possibilities to edit the results, and at the moment, things like dimensioning or hatching are still not natively supported.
 
 On the other hand, the final output being easier to manipulate, and the graphical possibilities of the SVG format being huge, in the future, undoubtedly this will be the preferred method. At the moment, though, you\'ll get better results using the previous one.
 
 <img alt="" src=images/Arch_tutorial_52.jpg  style="width:1024px;">
 
-On the image above, the geometry is the direct output of the section plane, but some other Draft objects have been added, such as dimensions and hatched polygons, and another view object with same scale and offset values has been produced from them with the [Draft Drawing](Draft_Drawing.md) tool. In the future, such operations will be done directly on the Drawing page, leaving your model totally clean.
+On the image above, the geometry is the direct output of the section plane, but some other Draft objects have been added, such as dimensions and hatched polygons, and another view object with same scale and offset values has been produced from them with the [TechDraw DraftView](TechDraw_DraftView.md) tool. In the future, such operations will be done directly on the Drawing page, leaving your model totally clean.
 
 ### Quantities extraction 
 
@@ -490,4 +492,4 @@ The file created during this tutorial can be found [here](http://yorik.uncreated
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Arch_Workbench.md) > Arch tutorial/uk
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/uk

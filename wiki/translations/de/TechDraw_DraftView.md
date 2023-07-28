@@ -2,26 +2,37 @@
 - GuiCommand:/de
    Name:TechDraw DraftView
    Name/de:TechDraw DraftAnsicht
-   MenuLocation:TechDraw → Objekt des Draft-Arbeitsbereiches einfügen
+   MenuLocation:TechDraw → Views From Other Workbenches → Objekt des Draft-Arbeitsbereiches einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md), [Draft](Draft_Workbench/de.md)
    SeeAlso:[TechDraw ArchAnsicht](TechDraw_ArchView/de.md)
 ---
 
 # TechDraw DraftView/de
 
+
+
 ## Beschreibung
 
-Das Werkzeug <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> [DraftAnsicht](TechDraw_DraftView/de.md) fügt eine Ansicht eines ausgewählten [Part](Part_Workbench/de.md)-basierten Objekts oder eines Gruppenobjekts in ein Zeichnungsblatt ein. Anders als beim Standardwerkzeug <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [Ansicht](TechDraw_View/de.md), werden die mit diesem Werkzeug erstellten Ansichten mit dem Arbeitsbereich <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md) bearbeitet und sind besonders für die Darstellung von 2D-Objekten entwickelt. Siehe [Hinweise](#Hinweise.md).
+Das Werkzeug **TechDraw DraftAnsicht** fügt eine Ansicht eines ausgewählten [Part](Part_Workbench/de.md)-basierten Objekts oder eines Gruppenobjekts in ein Zeichnungsblatt ein. Anders als beim Standardwerkzeug <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [Ansicht](TechDraw_View/de.md), werden die mit diesem Werkzeug erstellten Ansichten mit dem Arbeitsbereich <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md) bearbeitet und sind besonders für die Darstellung von 2D-Objekten entwickelt. Siehe [Hinweise](#Hinweise.md).
 
 ![](images/TechDraw_DraftView_example.png ) 
 *Draft-Elemente wie Kreise und Anordnungen importiert in ein TechDraw-Zeichnungsblatt*
 
+
+
 ## Anwendung
 
-1.  Ein Draft-Objekt in der 3D-Ansicht oder im Baum auswählen.
-2.  Sind in dem Dokument mehrere Zeichnungsseiten vorhanden, musst die gewünschte Seite im Baum ausgewählt werden.
-3.  Die Schaltfläche **<img src="images/TechDraw_DraftView.svg" width=16px> [Objekt des Draft-Arbeitsbereiches einfügen](TechDraw_DraftView/de.md)** drücken.
-4.  Eine Ansicht des Draft-Objekts erscheint auf der Seite.
+1.  Wahlweise die [3D-Ansicht](3D_view/de.md) drehen. Die Kameraausrichtung der [3D-Ansicht](3D_view/de.md) legt den Startwert der {{PropertyData/de|Direction}} der Ansicht fest.
+2.  Ein oder mehrere Objekte in der [3D-Ansicht](3D_view/de.md) oder der [Baumansicht](Tree_view/de.md) auswählen. Für jedes Objekt wird eine separate Ansicht erstellt.
+3.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswahl in der [Baumansicht](Tree_view/de.md) aktivieren.
+4.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_DraftView.svg" width=16px> [Objekt des Arbeitsbereichs Draft einfügen](TechDraw_DraftView/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Views From Other Workbenches → <img src="images/TechDraw_DraftView.svg" width=16px> Objekt des Arbeitsbereichs Draft einfügen** auswählen.
+5.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet: {{Version/de|0.20}}
+    1.  Das gewünschte Blatt auswählen.
+    2.  Die Schaltfläche **OK** drücken.
+
+
 
 ## Optionen
 
@@ -31,9 +42,19 @@ Das Werkzeug <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;">
 -   Farbe, Linienbreite und Linienart können in den Eigenschaften angegeben werden. Linienarten können durch direkte Angabe eines [stroke-dasharray](https://www.w3.org/TR/SVG/painting.html#StrokeProperties) Wertes, wie z.B. 3,5 fein abgestimmt werden.
 -   Projizierte Flächen werden mit der Flächenfarbe gefüllt
 
+
+
+## Hinweise
+
+Die Draft-Ansicht wird innerhalb des Arbeitsbereiches [Draft](Draft_Workbench/de.md) gerendert, daher hat TechDraw nur eingeschränkte Kontrolle über ihr Erscheinungsbild. Man muss möglicherweise Änderungen innerhalb von Draft vornehmen, um die gewünschte Darstellung zu erhalten.
+
+
+
 ## Eigenschaften
 
 Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
+
+
 
 ### Daten
 
@@ -56,9 +77,7 @@ Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
 
 -    **Override Style|Bool**: Wenn `True`, überschreiben Linienfarbe, Linienbreite und Linienart dieser Ansicht jene des gerenderten Objekts.
 
-## Hinweise
 
-Die Draft-Ansicht wird innerhalb des Arbeitsbereiches [Draft](Draft_Workbench/de.md) gerendert, daher hat TechDraw nur eingeschränkte Kontrolle über ihr Erscheinungsbild. Man muss möglicherweise Änderungen innerhalb von Draft vornehmen, um die gewünschte Darstellung zu erhalten.
 
 ## Skripten
 

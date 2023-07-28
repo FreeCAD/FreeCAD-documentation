@@ -7,7 +7,8 @@ These templates produce small pieces of text that are suitable for transclusion.
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:UnfinishedDocu/pl](Template_UnfinishedDocu/pl.md) |
+| [Template:BIMTutorialAction/pl](Template_BIMTutorialAction/pl.md) | [Template:UnfinishedDocu/pl](Template_UnfinishedDocu/pl.md) | [Template:Work in progress/pl](Template_Work_in_progress/pl.md) |
+|
 
 
 

@@ -1,7 +1,7 @@
 # Path SetupSheet
 ## Description
 
-Using a SetupSheet allows the user to customize how the various property values for operations will be calculated. The user always has the option to override the SetupSheet values with an explicit value or change the way SetupSheet values are calculated.
+Using a **SetupSheet** allows the user to customize how the various property values for operations will be calculated. The user always has the option to override the SetupSheet values with an explicit value or change the way SetupSheet values are calculated.
 
 Since SetupSheets are part of the Path Job, values do not changes the default behavior of Path. Rather, they change only the behaviour within the context of the current job.
 

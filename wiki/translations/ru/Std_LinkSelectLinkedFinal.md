@@ -1,17 +1,22 @@
 ---
-- GuiCommand:
-   Name:Std LinkSelectLinkedFinal
-   MenuLocation:''None''
-   Workbenches:All
+- GuiCommand:/ru
+   Name/ru:Перейти на самый глубокий связанный объект
+   Name:Std_LinkSelectLinkedFinal
+   MenuLocation:''Нет''
+   Workbenches:Все
    Version:0.19
-   SeeAlso:[Std LinkSelectLinked](Std_LinkSelectLinked.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelBack](Std_SelBack.md), [Std SelForward](Std_SelForward.md)
+   SeeAlso:[Перейти к связанному объекту](Std_LinkSelectLinked/ru.md), [Выбрать все ссылки](Std_LinkSelectAllLinks/ru.md), [Назад](Std_SelBack/ru.md), [Вперёд](Std_SelForward/ru.md)
 ---
 
 # Std LinkSelectLinkedFinal/ru
 
+
+
 ## Описание
 
 The **Std LinkSelectLinkedFinal** command selects the **Linked Object**, the source object, of an [App Link](App_Link.md) object, a link. But if that source object is also a link its linked object is selected instead. This is repeated until the linked object is not a link. This final source object is the deepest linked object.
+
+
 
 ## Применение
 

@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionDrawCosmArc.svg  style="width:24px;"> **TechDraw Arc** ajoute un arc cosmétique dans le sens inverse des aiguilles d\'une montre à partir de trois sommets.
+L\'outil **TechDraw Arc** ajoute un arc cosmétique dans le sens inverse des aiguilles d\'une montre à partir de trois sommets.
 
 <img alt="" src=images/TechDraw_ExtensionArcExample.png  style="width:400px;"> 
 *A droite, un arc cosmétique ajouté*
+
+
 
 ## Utilisation
 
@@ -25,7 +27,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionDrawCosmArc.svg  style="width:
 3.  Sélectionnez le deuxième sommet pour déterminer le rayon et l\'angle de départ de l\'arc.
 4.  Sélectionnez le troisième sommet pour déterminer l\'angle final de l\'arc.
 5.  Il existe plusieurs façons de lancer l\'outil :
-    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionDrawCosmArc.svg" width=16px>. [Arc](TechDraw_ExtensionDrawCosmArc/fr.md)**.
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionDrawCosmArc.svg" width=16px> [Arc](TechDraw_ExtensionDrawCosmArc/fr.md)**.
     -   Sélectionnez le **TechDraw → Extensions : taraudages/filetages → <img src="images/TechDraw_ExtensionDrawCosmArc.svg" width=16px> Arc** dans le menu.
 6.  Un arc cosmétique est ajouté.
 

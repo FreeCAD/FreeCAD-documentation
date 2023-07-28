@@ -2,7 +2,7 @@
 - GuiCommand:/pl
    Icon:Constraint Horizontal.svg
    Name:Sketcher ConstrainHorizontal
-   Name/pl:Wiązanie poziome
+   Name/pl:Szkicownik: Zwiąż w poziomie
    MenuLocation:Szkic → Wiązania szkicownika → Zwiąż w poziomie
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**H**
@@ -11,9 +11,13 @@
 
 # Sketcher ConstrainHorizontal/pl
 
+
+
 ## Opis
 
 Wiązanie poziome wymusza, aby wybrana linia lub linie na szkicu były równoległe do osi poziomej szkicu.
+
+
 
 ## Użycie
 
@@ -24,13 +28,15 @@ Wiązanie poziome wymusza, aby wybrana linia lub linie na szkicu były równoleg
 *Linia staje się ciemnozielona.*
 
 <img alt="" src=images/HorizontalConstraint3.png  style="width:500px;"> 
-*Zastosuj Wiązanie poziome klikając na ikonę **[<img src=images/Sketcher_ConstrainHorizontal.svg style="width:16px"> [Utwórz wiązanie poziome](Sketcher_ConstrainHorizontal/pl.md)* na pasku narzędzi '''Wiązania szkicownika''' lub wybierając pozycję menu '''Wiązanie poziome''' w podmenu '''Wiązania szkicownika''' w pozycji menu Szkic w środowisku pracy Szkicownik ''(lub w pozycji menu Projekt Części w środowisku pracy Projekt Części)''. Wybrana linia jest związana z osią poziomą szkicu, która powinna być równoległa do osi poziomej.**
+*Zastosuj Wiązanie poziome klikając na ikonę **[<img src=images/Sketcher_ConstrainHorizontal.svg style="width:16px"> '''Zwiąż w poziomie'''* na pasku narzędzi '''Wiązania szkicownika''' lub wybierając pozycję menu '''Zwiąż w poziomie''' w podmenu '''Wiązania szkicownika''' w pozycji menu Szkic w środowisku pracy Szkicownik ''(lub w pozycji menu Projekt Części w środowisku pracy Projekt Części)''. Wybrana linia jest związana z osią poziomą szkicu, która powinna być równoległa do osi poziomej.**
 
 <img alt="" src=images/HorizontalConstraint4.png  style="width:500px;"> 
 *Można wybrać wiele linii.*
 
 <img alt="" src=images/HorizontalConstraint5.png  style="width:500px;"> 
 *a następnie stosując opisane powyżej wiązanie, są one powiązane równolegle do osi poziomej szkicu.*
+
+
 
 ## Tworzenie skryptów 
 

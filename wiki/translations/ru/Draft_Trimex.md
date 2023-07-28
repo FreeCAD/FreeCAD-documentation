@@ -1,17 +1,16 @@
 ---
 - GuiCommand:/ru
-   Name:Draft Trimex
-   Name/ru:Draft Trimex
+   Name/ru:Укоротить/Растянуть
+   Name:Draft_Trimex
+   MenuLocation:Modification → Укоротить/Растянуть
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   MenuLocation:Черчение -> Trimex
    Shortcut:**T** **R**
-   SeeAlso:[Part Extrude](Part_Extrude/ru.md)
+   SeeAlso:[Выдавить](Part_Extrude/ru.md)
 ---
 
 # Draft Trimex/ru
 
 
-</div>
 
 ## Описание
 
@@ -25,7 +24,7 @@ Bottom: a face extruded into a solid body.*
 
 ### Usage
 
-1.  Optionally select one object. The object must be a [Draft Line](Draft_Line.md), a [Draft Wire](Draft_Wire.md), a [Draft Arc](Draft_Arc.md) or a [Draft Circle](Draft_Line.md) (which can only be trimmed). If the selected object is closed it must have its **Make Face** property set to `False`.
+1.  Optionally select one object. The object must be a [Draft Line](Draft_Line.md), a [Draft Wire](Draft_Wire.md), a [Draft Arc](Draft_Arc.md) or a [Draft Circle](Draft_Circle.md) (which can only be trimmed). If the selected object is closed it must have its **Make Face** property set to `False`.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Trimex.svg" width=16px> [Draft Trimex](Draft_Trimex.md)** button.
     -   Select the **Modification → <img src="images/Draft_Trimex.svg" width=16px> Trimex** option from the menu.
@@ -82,11 +81,15 @@ The modifier key mentioned here can be changed. See [Draft Preferences](Draft_Pr
 
 -   Hold **Shift** to extrude in a direction that is not parallel to the normal of the face.
 
+
+
 ## Настройки
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
 -   To change the number of decimals used for the input of the distance: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+
+
 
 ## Программирование
 

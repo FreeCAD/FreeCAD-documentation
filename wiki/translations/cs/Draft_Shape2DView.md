@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -19,6 +21,8 @@ Draft Shape2DView projections can be displayed on a [TechDraw Workbench](TechDra
 
 ![](images/Draft_Shape2DView_example.jpg ) 
 *Projection of solid shapes onto the XY plane*
+
+
 
 ## Použití
 
@@ -37,6 +41,8 @@ Draft Shape2DView projections can be displayed on a [TechDraw Workbench](TechDra
 <img alt="" src=images/Draft_shape2dview_example_plan.png  style="width:700px;">
 
 Drawings with different linewidths for viewed and cut lines can easily be produced by using two shape2Dview objects from a same [Arch SectionPlane](Arch_SectionPlane.md). One of the shape2Dview objects has its projection mode set to **Solid**, which renders the viewed lines, and another set to **Cut lines** or **Cut faces** to render the cut lines. The two shape2Dviews are then placed at the same location, one on top of the other.
+
+
 
 ## Vlastnosti
 

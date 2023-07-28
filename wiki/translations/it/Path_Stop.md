@@ -5,9 +5,17 @@
 
 </div>
 
+
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questo strumento inserisce un comando di arresto (M1). Questo comando arresta la macchina, in attesa di interazione con l\'utente per continuare.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -16,6 +24,8 @@ Nota che questo comando non ferma il mandrino.
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -27,6 +37,8 @@ Nota che questo comando non ferma il mandrino.
 
 
 </div>
+
+
 
 ## Proprietà
 

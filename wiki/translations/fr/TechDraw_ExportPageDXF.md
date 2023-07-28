@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:TechDraw ExportPageDXF
    Name/fr:TechDraw Exporter au format DXF
-   MenuLocation:TechDraw → Exporter une page au format DXF
+   MenuLocation:TechDraw → Page → Exporter une page au format DXF
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Version:0.18
    SeeAlso:[TechDraw Exporter au format SVG](TechDraw_ExportPageSVG/fr.md), [Draft DXF](Draft_DXF/fr.md)
@@ -12,14 +12,22 @@
 
 ## Description
 
-L\'outil Exporter la page en Dxf enregistre une page de dessin en un fichier au format [DXF](DXF/fr.md)
+L\'outil **TechDraw Exporter la page en Dxf** enregistre une page de dessin en un fichier au format [DXF](DXF/fr.md)
+
+
 
 ## Utilisation
 
-1.  Sélectionnez une page dans l\'arborescence si le document contient plusieurs pages.
-2.  Cliquer sur le bouton **<img src="images/TechDraw_ExportPageDXF.svg" width=16px> [Exporter une page au format DXF](TechDraw_ExportPageDXF/fr.md)
-**
-3.  Sélectionnez un emplacement et un nom de fichier.
+1.  S\'il y a plusieurs pages de dessin dans le document : activez la page souhaitée en la sélectionnant dans la [Vue arborescente](Tree_view/fr.md).
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le **<img src="images/TechDraw_ExportPageDXF.svg" width=16px> [Exporter une page au format DXF](TechDraw_ExportPageDXF/fr.md)**.
+    -   Sélectionnez la **TechDraw → Page → <img src="images/TechDraw_ExportPageDXF.svg" width=16px> Exporter une page au format DXF** du menu.
+    -   Si une page est affichée dans la [zone de vue principale](Main_view_area/fr.md) : cliquez avec le bouton droit de la souris sur la fenêtre de la page et sélectionnez l\'option **Exporter en DXF** dans le menu contextuel.
+3.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore activé une page, la boîte de dialogue **Sélecteur de page** s\'ouvre : {{Version/fr|0.20}}
+    1.  Sélectionnez la page désirée.
+    2.  Appuyez sur le bouton **OK**.
+4.  La boîte de dialogue **Enregistrer le fichier DXF** s\'ouvre.
+5.  Sélectionnez un emplacement et un nom de fichier.
 
 ### Limitations
 
@@ -29,6 +37,8 @@ L\'outil Exporter la page en Dxf enregistre une page de dessin en un fichier au 
 -   TechDraw ne peut pas exporter un [TechDraw Vue d\'un objet Draft](TechDraw_DraftView/fr.md) ou une [TechDraw Vue d\'un objet Arch](TechDraw_ArchView/fr.md) vers DXF. Ces vues sont des éléments [SVG](SVG/fr.md) générés en interne par l\'[atelier Draft](Draft_Workbench/fr.md), il n\'y a donc pas de forme géométrique à exporter. Pour exporter une vue au format DXF, elle doit avoir été créée avec [TechDraw Vue](TechDraw_View/fr.md) ou [TechDraw Projection de groupe](TechDraw_ProjectionGroup/fr.md). Par exemple, sélectionnez un [Arch Plan de coupe](Arch_SectionPlane/fr.md), puis utilisez [Draft Vue 2D d\'une forme](Draft_Shape2DView/fr.md) pour créer une forme de projection plate, puis utilisez [TechDraw Vue](TechDraw_View/fr.md) sur cet objet. Vous pouvez également sélectionner les objets dans l\'arborescence ou la fenêtre 3D et exporter vers DXF à l\'aide de **Fichier → [Export](Std_Export/fr.md)**.
 -   Le cartouche d\'une page est également un modèle [SVG](SVG/fr.md), il ne sera donc pas non plus exporté vers DXF.
 -   En général, TechDraw ne peut exporter vers DXF que les éléments pris en charge par la classe `Import::ImpExpDxfWrite` du [Module d\'importation](Draft_DXF/fr.md).
+
+
 
 ## Remarques
 
@@ -50,6 +60,8 @@ L\'outil Exporter la page en Dxf enregistre une page de dessin en un fichier au 
         **Outils → Editer paramètres → BaseApp/Preferences/Mod/Import → maxsegmentlength**
         
         . Il s\'agit d\'une valeur flottante. Si les splines et les ellipses sont converties en polylignes, ce paramètre détermine la longueur du segment.
+
+
 
 ## Script
 

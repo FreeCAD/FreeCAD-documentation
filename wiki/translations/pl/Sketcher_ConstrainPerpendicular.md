@@ -2,7 +2,7 @@
 - GuiCommand:/pl
    Name:Sketcher ConstrainPerpendicular
    Name/pl:Szkicownik: Wiązanie prostopadłości
-   MenuLocation:Sketch → Wiązania Szkicownika → Wiązanie prostopadłości
+   MenuLocation:Szkic → Wiązania szkicownika → Wiązanie prostopadłości
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**N**
    SeeAlso:[Szkicownik: Wiązanie kąta](Sketcher_ConstrainAngle/pl.md)
@@ -10,9 +10,13 @@
 
 # Sketcher ConstrainPerpendicular/pl
 
+
+
 ## Opis
 
 Wiązanie prostopadłości tworzy dwie linie, które są prostopadłe *(tzn. ortogonalne)* do siebie, lub dwie krzywe, które są prostopadłe na ich przecięciu. Linie są traktowane jako nieskończone, a łuki są traktowane jako pełne okręgi/elipsy. Wiązanie może również łączyć dwie krzywe, wymuszając ich prostopadłość w miejscu połączenia, podobnie jak w przypadku **[<img src=images/Sketcher_ConstrainTangent.svg style="width:16px"> [Wiązanie styczności](Sketcher_ConstrainTangent/pl.md)**.
+
+
 
 ## Użycie
 
@@ -27,6 +31,8 @@ Aby zastosować wiązanie prostopadłości, należy wykonać następujące czynn
 
 -   Wybierz dwie lub trzy pozycje na szkicu.
 -   Wywołaj wiązanie, klikając jego ikonę na pasku narzędzi, wybierając element menu lub używając skrótu klawiaturowego.
+
+
 
 ### Pomiędzy dwoma krzywymi *(prostopadłość bezpośrednia)* 
 
@@ -43,6 +49,8 @@ Jeśli bezpośrednia prostopadłość między wybranymi łukami nie jest obsług
 
 W przeciwieństwie do styczności, rekonstrukcja punktu prostopadłości przez utworzenie punktu i związanie jego położenia na obu łukach *(ograniczając w ten sposób punkt do punktu przecięcia)* jest całkowicie poprawna.
 
+
+
 ### Między dwoma punktami końcowymi *(prostopadłość między punktami)* 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode2.png  style="width:600px;">
@@ -53,6 +61,8 @@ W tym trybie zbierzne są punkty końcowe, a połączenie jest wykonane pod kąt
 
 -   punkt końcowy linii/łuku/łuku-ellipsy + punkt końcowy linii/łuku/łuku-ellipsy *(tj. dwa punkty końcowe dowolnych dwóch krzywych)*
 
+
+
 ### Między krzywą a punktem końcowym *(prostopadłość punktu do krzywej)* 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode3.png  style="width:600px;">
@@ -62,6 +72,8 @@ W tym trybie, punkt końcowy jednej krzywej jest związany z położeniem na dru
 **Zaakceptowany wybór:**
 
 -   linia, okrąg, łuk, elipsa, łuk elipsy + punkt końcowy linii/łuku/łuku elipsy *(tzn. każda krzywa + punkt końcowy każdej krzywej)*.
+
+
 
 ### Pomiędzy dwoma krzywymi w punkcie *(prostopadłym do punktu) (v0.15)* 
 
@@ -80,6 +92,8 @@ Aby wiązanie działało prawidłowo, punkt musi znajdować się na obu krzywych
 W porównaniu do trybu bezpośredniego prostopadłego, to wiązanie jest wolniejsze, ponieważ istnieją stopnie swobody, ale obsługuje elipsy.
 
 Umieszczenie punktu przed zastosowaniem wiązania jest wskazówką dla rozwiązania, które określa, gdzie powinna znajdować się prostopadłość.
+
+
 
 ## Tworzenie skryptów 
 

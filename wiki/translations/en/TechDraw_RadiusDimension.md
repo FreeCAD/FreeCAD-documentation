@@ -10,23 +10,37 @@
 
 ## Description
 
-The Radius Dimension tool adds a radius dimension to a View. The dimension may be applied to any Edge in the drawing which is a circle or circular arc. The distance will initially be the projected distance (ie as shown on the drawing), but this may be changed to the actual 3D distance using the **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw LinkDimension](TechDraw_LinkDimension.md)** tool.
+The **TechDraw RadiusDimension** tool adds a radius dimension to a View. The dimension may be applied to any edge which is a circle or circular arc.
 
 <img alt="" src=images/TechDraw_Dimension_Radius_example.png  style="width:130px;"> 
 *Measuring a circle, indicating the radius*
 
 ## Usage
 
-1.  Select a circle or circular arc in the drawing. (Note some arcs which appear to be circular are actually ellipses or BSplines. You cannot make a radius dimension in these cases)
-2.  Press the **<img src="images/TechDraw_RadiusDimension.svg" width=16px> [Radius Dimension](TechDraw_RadiusDimension.md)** button
-3.  A dimension will be added to the View. The dimension may be dragged to the desired position.
-4.  If needed, add tolerances as described in [this page](TechDraw_Geometric_dimensioning_and_tolerancing#Tolerances.md).
+1.  Select a circle or circular arc. The geometry may be selected in the [3D view](3D_view.md) or in the drawing. Note some arcs which appear to be circular are actually ellipses or B-splines. You cannot make a radius dimension in these cases.
+2.  If you have selected geometry in the 3D view: add the correct TechDraw View to the selection by selecting it in the [Tree view](Tree_view.md).
+3.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_RadiusDimension.svg" width=16px> [Insert Radius Dimension](TechDraw_RadiusDimension.md)** button.
+    -   Select the **TechDraw → Dimensions → <img src="images/TechDraw_RadiusDimension.svg" width=16px> Insert Radius Dimension** option from the menu.
+4.  A dimension is added to the View.
+5.  The dimension may be dragged to the desired position.
+6.  If needed, add tolerances as described on [this page](TechDraw_Geometric_dimensioning_and_tolerancing#Tolerances.md).
 
-To change the properties of a dimension object either double-clicking it in the drawing or in the [Tree view](Tree_view.md). This will open the [dimension dialog](TechDraw_LengthDimension#Dimension_dialog.md).
+### Display 3D measurement 
+
+See [TechDraw LengthDimension](TechDraw_LengthDimension#Display_3D_measurement.md).
+
+### Change properties 
+
+To change the properties of a dimension object either double-click it in the drawing or in the [Tree view](Tree_view.md). This will open the [Dimension dialog](TechDraw_LengthDimension#Dimension_dialog.md).
 
 ## Limitations
 
-Dimension objects are vulnerable to the \"[topological naming problem](Topological_naming_problem.md)\". See [TechDraw LengthDimension](TechDraw_LengthDimension.md) for more information.
+Dimension objects are vulnerable to the \"[topological naming problem](Topological_naming_problem.md)\". See [TechDraw LengthDimension](TechDraw_LengthDimension.md).
+
+## Notes
+
+See [TechDraw LengthDimension](TechDraw_LengthDimension#Notes.md).
 
 ## Properties
 

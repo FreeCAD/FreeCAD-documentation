@@ -7,6 +7,8 @@
 
 # Draft Array/pt-br
 
+
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Array.svg  style="width:24px;"> **Draft Array** command creates an orthogonal (3-axes) array from a selected object. The created array can be turned into a [polar array](Draft_PolarArray.md) or a [circular array](Draft_CircularArray.md) by changing its **Array Type** property.

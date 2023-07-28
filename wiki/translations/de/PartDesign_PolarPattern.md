@@ -9,6 +9,8 @@
 
 # PartDesign PolarPattern/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:24px;"> **PolaresMuster** erstellt aus einem Formelement ein polares Muster (d.h. eine Reihe von Kopien, die auf einer Ebene um eine Achse (Pol) herum angeordnet werden.)
@@ -16,99 +18,111 @@ Das Werkzeug <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:24
 ![](images/PartDesign_PolarPattern_example.png ) 
 *Eine schlitzförmige Tasche (B), die in einem Grundkörper (A, auch als Träger bezeichnet) eingebracht ist, wird für ein polares Muster verwendet. Das Ergebnis (C) ist rechts dargestellt.*
 
+
+
 ## Anwendung
+
+
 
 ### Erstellen
 
-1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
-2.  Optionally select one or more features in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-3.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/PartDesign_PolarPattern.svg" width=16px> [PolarPattern](PartDesign_PolarPattern.md)** button.
-    -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_PolarPattern.svg" width=16px> PolarPattern** option from the menu.
-4.  If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
-5.  If no features were selected the **Select feature** [task panel](Task_panel.md) opens: select one or more (hold down the **Ctrl** key) from the list and press the **OK** button.
-6.  The **PolarPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
-7.  Press the **OK** button to finish.
+1.  Optional [Aktiviere](PartDesign_Body#Active_status.md) den gewünschten Körper.
+2.  Optional wähle eine oder mehrere Features im [Modellbaum](Tree_view.md) oder in der [3D Ansicht](3D_view.md).
+3.  Es gibt mehrere Möglichkeiten um das Werkzeug zu starten:
+    -   Drücke die **<img src="images/PartDesign_PolarPattern.svg" width=16px> [PolarPattern](PartDesign_PolarPattern.md)** Schaltfläche.
+    -   Wähle die **Part Design → Apply a pattern → <img src="images/PartDesign_PolarPattern.svg" width=16px> PolarPattern** Option aus dem Menü.
+4.  Wenn es keinen aktiven Körper gibt, oder mehr als zwei Körper im Dokument vorhanden sind, dann öffnet der **Active Body Required** Dialog und zeigt an, dass einer aktiviert werden muss. Wenn es einen einzelnen Körper gibt, dann wird dieser automatisch aktiviert.
+5.  Wenn keine Features ausgewählt wurden, dann öffnet das **Select feature** [Eingabefenster](Task_panel.md): wähle eine oder mehrere (drücke die **Ctrl** Taste) aus der Liste und wähle die **OK** Schaltfläche.
+6.  Das **PolarPattern parameters** [Eingabefenster](Task_panel.md) öffnet. Siehe [Optionen](#Options.md) für weitere Informationen.
+7.  Drücke die **OK** Schaltfläche um zu beenden.
+
+
 
 ### Bearbeiten
 
-1.  Do one of the following:
-    -   Double-click the PolarPattern object in the [Tree view](Tree_view.md).
-    -   Right-click the PolarPattern object in the [Tree view](Tree_view.md) and select **Edit PolarPattern** from the context menu.
-2.  The **PolarPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
-3.  Press the **OK** button to finish.
+1.  Mache eines aus dem Folgenden:
+    -   Doppel-Klicke das PolarPattern Objekt im [Modellbaum](Tree_view.md).
+    -   Rechts-Klicke das PolarPattern Objekt im [Modellbaum](Tree_view.md) und wähle **Edit PolarPattern** aus dem Kontextmenü.
+2.  Das **PolarPattern parameters** [Eingabefenster](Task_panel.md) öffnet. Siehe [Optionen](#Options.md) für weitere Informationen.
+3.  Drücke die **OK** Schaltfläche um zu beenden.
+
+
 
 ## Optionen
 
--   To add features:
-    1.  Press the **Add feature** button.
-    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-    3.  Repeat to add more features.
--   To remove features:
-    1.  Press the **Remove feature** button.
-    2.  Do one of the following:
-        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-        -   Select a feature in the list and press the **Del** key.
-        -   Right-click a feature in the list and select **Remove** from the context menu.
-    3.  Repeat to remove more features.
--   If there are several features in the pattern, their order can be important. See [Ordering features](#Ordering_features.md).
--   Specify the **Axis** of the pattern:
+-   Um Features hinzuzufügen:
+    1.  Betätige die **Add feature** Schaltfläche.
+    2.  Wähle ein Feature im [Modellbaum](Tree_view/de.md) oder in der [3D Ansicht](3D_view.md).
+    3.  Wieder hole alles um weitere Features hinzuzufügen.
+-   Um Features zu entfernen:
+    1.  Betätige die **Remove feature** Schaltfläche.
+    2.  Mache eines der Folgenden:
+        -   Wähle eine Feature im [Modellbaum](Tree_view/de.md) oder in der [3D Ansicht](3D_view.md).
+        -   Wähle eine Feature in der Liste und betätige die **Del** Taste.
+        -   Rechts-Klicke eine Feature in der Liste und wähle **Remove** aus dem Kontextmenü.
+    3.  Wieder hole alles um weitere Features zu entfernen.
+-   Falls es im Muster mehrere Features gibt, kann ihre Reihenfolge wichtig sein. Siehe [Ordering features](#Ordering_features.md).
+-   Lege die **Achse** des Musters fest:
     -   
-        **Normal sketch axis**
+        **Normal zur Skizzenachse**
         
-        : The Z axis of the sketch (only available for sketch-based features).
+        : Die Z Achse der Skizze (nur bei skizzenbasierten Features möglich).
 
     -   
-        **Vertical sketch axis**
+        **Vertikale Skizzenachse**
         
-        : The Y axis of the sketch (idem).
+        : Die Y Achse der Skizze (idem).
 
     -   
-        **Horizontal sketch axis**
+        **Horizontale Skizzenachse**
         
-        : The X axis of the sketch (idem).
+        : Die X Achse der Skizze (idem).
 
     -   
-        **Construction line #**
+        **Konstruktionslinie**
         
-        : A separate entry for each construction line in the sketch (idem).
+        : Ein eigener Zugang für jede Konstruktionslinie in der Skizze (idem).
 
     -   
-        **Base X axis**
+        **Basis X Achse**
         
-        : The X axis of the Body.
+        : Die X Achse des Körpers.
 
     -   
-        **Base Y axis**
+        **Basis Y Achse**
         
-        : The Y axis of the Body.
+        : Die Y Achse des Körpers.
 
     -   
-        **Base Z axis**
+        **Basis Z Achse**
         
-        : The Z axis of the Body.
+        : Die Z Achse des Körpers.
 
     -   
-        **Select reference...**
+        **Wähle Referenz...**
         
-        : Select a [Datum Line](PartDesign_Line.md) in the [Tree view](Tree_view.md) or a [Datum Line](PartDesign_Line.md) or edge in the [3D view](3D_view.md).
--   Check the **Reverse direction** checkbox to reverse the pattern.
--   Specify the **Angle** to be covered by the pattern. If the angle is less than 360°, the instances are evenly distributed from 0° (first instance) to the given angle (last instance). If the angle is a full 360° circle, the instances are evenly distributed around the circle. This means that for n instances an angle of 360° is equivalent to an angle of 360°\*(1-1/n).
--   Specify the number of **Occurrences** (including the original feature).
--   If the **Update view** checkbox is checked the view will update in real time.
+        : Wähle eine [Datum Linie](PartDesign_Line.md) im [Modellbaum](Tree_view.md) oder eine [Datum Linie](PartDesign_Line.md) oder Kante in der [3D Ansicht](3D_view.md).
+-   Überprüfe die **Richtung umkehren** Checkbox um das Muster umzukehren.
+-   Lege den **Winkel** fest, der vom Muster überdeckt wird. Wenn der Winkel kleiner als 360° ist, dann werden die Objekte gleichmäßig von 0° (erstes Objekt) bis zum angegebenen Winkel (letztes Objekt) aufgeteilt. Wenn der Winkel ein ganzer 360° Kreis ist, dann werden die Objekte gleichmäßig auf dem gesamten Kreis aufgeteilt. Das bedeutet für n Objekte, das ein 360° Winkel gleich dem Winkel 360°\*(1-1/n) ist.
+-   Lege die Anzahl der **Vorkommen** (inklusive des original Objektes) fest.
+-   Wenn die **Update Ansicht** Checkbox gewählt ist, dann wird die Ansicht in Echtzeit nachgebildet.
+
+
 
 ## Formelemente ordnen 
 
-Wenn einige der ausgewählten Formelemente additiv und andere subtraktiv sind, kann ihre Reihenfolge letztlich das Ergebnis beeinflussen. Die Reihenfolge kann durch bewegen einzelner Formelemente innerhalb der Liste verändert werden. {{Version/de|0.19}}
+Wenn einige der ausgewählten Formelemente additiv und andere subtraktiv sind, kann ihre Reihenfolge letztlich das Ergebnis beeinflussen. Die Reihenfolge kann durch bewegen einzelner Formelemente innerhalb der Liste verändert werden.
 
 ![](images/PartDesign_feature-order.gif ) 
 *Auswirkung der Formelement-Reihenfolge*
 
+
+
 ## Einschränkungen
 
--   Any shape in the pattern that does not overlap the parent feature will be excluded. This ensures that a PartDesign Body always consists of a single, connected solid.
--   The PartDesign patterns are not yet as optimized as their Draft counterparts. So for a large number of instances you should consider using a [Draft PolarArray](Draft_PolarArray.md) instead, combined with a Part boolean operation. This may require major changes to your model as you are leaving PartDesign and therefore cannot simply continue with further PartDesign features in the same body. An example is shown in [this Forum topic](https://forum.freecadweb.org/viewtopic.php?f=3&t=55192).
--   A pattern cannot be applied directly to another pattern, be it polar, linear or a mirror. For this you need a [PartDesign MultiTransform](PartDesign_MultiTransform.md).
+-   Jede Oberfläche im Muster die nicht mit dem Elternteil überlappt, wird ausgeschlossen. Dadurch wird sichergestellt, dass der PartDesign Teil immer nur aus einem zusammenhängenden Körper besteht.
+-   Die PartDesign Muster sind nicht so ausgereift wie ihre Draft Gegenstücke. Bei einer großen Anzahl von Objekten sollte man überlegen [Draft PolarArray](Draft_PolarArray.md) in Kombination mit einer logischen Part Operation, zu verwenden. Da man dazu PartDesign verläßt, können erhebliche Änderungen im Modell notwendig sein. Man kann nicht einfach im PartDesign Modell im gleichen Körper weitermachen. Ein Beispiel findet man in [this Forum topic](https://forum.freecadweb.org/viewtopic.php?f=3&t=55192).
+-   Ein Muster kann nicht direkt wiederum gemustert werden, um ein polares oder lineares Muster, oder ein Spiegelbild zu bilden. Um dies zu machen verwende [PartDesign MultiTransform](PartDesign_MultiTransform.md).
 
 
 

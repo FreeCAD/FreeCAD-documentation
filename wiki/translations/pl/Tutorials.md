@@ -9,6 +9,8 @@ Proszę zwrócić uwagę na wersję FreeCAD stosowaną w poradniku, ponieważ ni
 
 Warto zobaczyć stronę [poradniki wideo](Video_tutorials/pl.md) oraz [książki o FreeCAD](Books/pl.md).
 
+
+
 ## Architektura i BIM 
 
 <File:Arch> tutorial 00.jpg\|link=[Arch_tutorial/pl](Arch_tutorial/pl.md)\|[Poradnik dla środowiska pracy Architektura](Arch_tutorial/pl.md) *(v0.14)*
@@ -18,6 +20,8 @@ Jak wyświetlać okna i drzwi jako otwarte, z symbolami elewacji i rzutu oraz ja
 Jak rysować niestandardowe drzwi i okna za pomocą środowiska Szkicownik i odpowiednio dostosować je do prawidłowego umieszczenia w ścianach. <File:Arch_panel_tutorial_01.jpg%7Clink=>[Arch_panel_tutorial/pl](Arch_panel_tutorial/pl.md)\|[Poradnik: Panel Architektury](Arch_panel_tutorial/pl.md) *(v0.15)*
 Modelowanie kasetonów dachowych w technologii mikro kompleksowej z wykorzystaniem narzędzia Szkicownika, i Panel. <File:Arch_Wikihouse_01.jpg%7Clink=>[Wikihouse_porting_tutorial](Wikihouse_porting_tutorial.md)\|[Poradnik przenoszenia Wikihouse](Wikihouse_porting_tutorial/pl.md)
 Ponowne modelowanie projektu WikiHouse za pomocą Szkiców i Paneli, począwszy od importu modelu siatki utworzonego w SketchUp.
+
+
 
 ## Modelowanie części 
 
@@ -71,6 +75,8 @@ Projekt Raspberry Pi stworzył proste poradniki, które są łatwe do naśladowa
 -   [freecad-chess-set](https://projects.raspberrypi.org/en/projects/freecad-chess-set), model i cały zestaw szachowy w stylu modernistycznym Bauhausu.
 -   [raspberrypilearning](https://github.com/raspberrypilearning?utf8=%E2%9C%93&q=freecad&type=source&language=) repozytorium *(CC-BY 4.0)* z innymi przykładami.
 
+
+
 ## Rysowanie i szkicowanie 
 
 Exercise cabin 01.jpg\|link=[Manual:Traditional 2D drafting](Manual_Traditional_2D_drafting.md)\|[Traditional 2D drafting](Manual_Traditional_2D_drafting.md)
@@ -84,12 +90,16 @@ Jest to podstawowe wprowadzenie do narzędzi Środowiska pracy Sketcher:
 03d_Sk02_Sketcher_Rectangle_constrained_length.png\|link=[Sketcher_Micro_Tutorial\_-\_Constraint_Practices](Sketcher_Micro_Tutorial_-_Constraint_Practices.md)\|[Sketcher constraints practices](Sketcher_Micro_Tutorial_-_Constraint_Practices.md) *(v0.19)*
 Naucz się skutecznie tworzyć ograniczenia dla szkicu. Preferuj ograniczenia geometryczne nad ograniczeniami wymiarowymi.
 
+
+
 ## Rysunek techniczny 
 
 TDTut ProjGroup21.png\|link=[Basic TechDraw Tutorial](Basic_TechDraw_Tutorial.md)\|[Basic TechDraw Tutorial](Basic_TechDraw_Tutorial.md) *(v0.17)*
 Jest to niezbędne wprowadzenie do narzędzi Środowiska pracy TechDraw: strona, widok, skala, wymiary pionowe i poziome, adnotacje, grupy projekcyjne, łączenie wymiarów z widokiem 3D. <File:FCTemplateHow.png%7Clink=>[TechDraw_TemplateHowTo](TechDraw_TemplateHowTo.md)\|[Creating a new background template](TechDraw_TemplateHowTo.md) *(v0.17)*
 Instrukcje tworzenia szablonu strony w Inkscape w celu wykorzystania go z TechDraw Workbench. Określ rozmiar arkusza, narysuj ramkę dla strony, zdefiniuj tekst stały i edytowalne pola tekstowe. <File:AnHi1.png%7Clink=>[Measurement Of Angles On Holes](Measurement_Of_Angles_On_Holes.md)\|[Pomiary kątów na otworach](Measurement_Of_Angles_On_Holes.md) (v0.19)
 Instrukcje dotyczące dodawania linii środkowych i kolejnych przedstawień kątowych na otworach.
+
+
 
 ## MES
 
@@ -111,11 +121,15 @@ Ten przykład pokazuje, jak symulować pojemność. Pokazano, jak skonfigurować
 FEM_post-processing_Paraview.png\|link=[Post-Processing_of_FEM_Results_with_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)\|[Przetwarzanie wyników MES za pomocą Paraview](Post-Processing_of_FEM_Results_with_Paraview/pl.md) *(v0.19)*
 Ten poradnik wyjaśnia podstawy przenoszenia danych z środowiska pracy MES do Paraview i pokazuje niektóre z opcji i ustawień dotyczących wyświetlania danych.
 
+
+
 ## CNC i druk 3D 
 
 Path-WalkThroughResult.gif\|link=[Path Walkthrough for the Impatient](Path_Walkthrough_for_the_Impatient.md)\|[Path Workbench for the impatient](Path_Walkthrough_for_the_Impatient.md)
 Jest to szybka prezentacja toku pracy dla Środowiska pracy Path: utworzenie zadania, zdefiniowanie wyjścia, zdefiniowanie narzędzia do frezowania, zdefiniowanie operacji ścieżki, uruchomienie symulacji i wygenerowanie pliku wyjściowego z kodem G. Exercise meshing 03.jpg\|link=[Manual:Preparing models for 3D printing](Manual_Preparing_models_for_3D_printing.md)\|[Preparing models for 3D printing](Manual_Preparing_models_for_3D_printing.md) *(v0.16)*
 Konwersja obiektu bryłowego do obiektu siatki przy użyciu Środowiska pracy Mesh, eksport siatki do formatu STL i wykorzystanie Slic3r do przygotowania kodu G. Alternatywnie można użyć Środowisko Cura lub Path do wygenerowania kodu G.
+
+
 
 ## Renderowanie
 
@@ -125,6 +139,8 @@ Opisuje podstawowy przebieg pracy Środowiska pracy Raytracing przy użyciu POV-
 Usprawnia renderowanie za pomocą POV-Ray: tworzenie projektu, dodawanie obiektów, ustawianie kamery, zapisywanie pliku .pov, ręczna edycja pliku w celu poprawy tekstur, płaszczyzn, świateł, a następnie uruchomienie programu renderującego. 07_T03_FreeCAD_Blender_EEVEE_render.png\|link=[Tutorial_Render_with_Blender](Tutorial_Render_with_Blender.md)\|[Rendering a FreeCAD assembly with Blender](Tutorial_Render_with_Blender.md) *(v0.18)*
 Eksportuj bryły z FreeCAD do Wavefront .obj, zaimportuj plik do Blendera, ustaw proste światło słoneczne, przypisz podstawowe materiały za pomocą shadera Principled BSDF i stwórz renderowany obraz za pomocą EEVEE i Cycles.
 
+
+
 ## Środowisko pracy Robot 
 
 
@@ -133,6 +149,8 @@ Eksportuj bryły z FreeCAD do Wavefront .obj, zaimportuj plik do Blendera, ustaw
 Robot Tutorial RobotSimulation.gif\|link=[Robot_tutorial/pl](Robot_tutorial/pl.md)\|[Poradnik dla środowiska pracy Robot](Robot_tutorial/pl.md) *(v0.17)*
 Symulacja ruchu robota przemysłowego: ustawianie trajektorii, ustawianie pozycji wyjściowej, zmiana pozycji robota, wstawianie różnych punktów orientacyjnych i symulacja ruchu robota.
 
+
+
 ## Tworzenie skryptów 
 
 Są to poradniki związane z tworzeniem skryptów lub programowaniem. Są one skierowane do bardziej doświadczonych użytkowników, którzy są już nieco zaznajomieni z programem.
@@ -140,6 +158,8 @@ Są to poradniki związane z tworzeniem skryptów lub programowaniem. Są one sk
 -   [Poradnik: Tworzenie skryptów Python](Python_scripting_tutorial/pl.md)
 -   [Jak zainstalować makrodefinicje](How_to_install_macros/pl.md)
 -   [Jak zainstalować dodatkowe Środowiska pracy](How_to_install_additional_workbenches/pl.md)
+
+
 
 ## Poradniki - Pełna lista 
 
@@ -199,10 +219,6 @@ Poniżej wymienione są wszystkie poradniki, które nie znajdują się w podręc
 | [Poradnik: Rysunek Roboczy kształt z tekstu](Draft_ShapeString_tutorial/pl.md)                                                                   | Projekt produktu                     | Początkujący                       | 0:30                 | r-frank and vocx                                                                                 | 0.17 lub nowsze       | [Draft_Shapestring_Text](https://github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true)                                                                                                                                                                  |
 ++++++++
 | [Poradnik dla środowiska pracy Rysunek roboczy](Draft_tutorial/pl.md)                                                                            | Środowisko pracy Rysunek Roboczy     | Początkujący                       | 0:30                 | [Drei](User_Drei.md) oraz vocx                                                           | 0.19                  | [Draft tutorial updated](https://forum.freecadweb.org/viewtopic.php?f=36&t=43651)                                                                                                                                                                                                                                             |
-++++++++
-| [Szablon rysunku roboczego. Jak to zrobić *(przestarzały)*](Drawing_Template_HowTo/pl.md)                                                        | Środowisko pracy Rysunek Roboczy     | Średniozaawansowany                | 1:00                 | [Mark Stephen *(Quick61)*](User_Quick61.md)                                              | 0.14.3700 lub wyższy  | Nie dołączono                                                                                                                                                                                                                                                                                                                 |
-++++++++
-| [Poradnik dla środowiska pracy Kreślenie](Drawing_tutorial/pl.md)                                                                                | Projekty / rysunki                   | Początkujący                       | 0:15                 | [Drei](User_Drei.md)                                                                     | 0.16 i następne       |                                                                                                                                                                                                                                                                                                                               |
 ++++++++
 | [Instalacja importera DXF](Dxf_Importer_Install/pl.md)                                                                                           | Import                               | Średniozaawansowany                | 0:05                 | [Mario52](User_Mario52.md)                                                               | wszystkie             | Nie dołączono                                                                                                                                                                                                                                                                                                                 |
 ++++++++

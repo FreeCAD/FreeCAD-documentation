@@ -3,6 +3,8 @@
 
 This page is an extension of the [Help:Editing](Help_Editing.md) page and gives common guidelines for writing and updating the FreeCAD wiki documentation. It summarizes several discussions and brainstorming sessions
 
+
+
 ## Прежде чем начать 
 
 
@@ -19,7 +21,11 @@ This page is an extension of the [Help:Editing](Help_Editing.md) page and gives 
 
 </div>
 
+
+
 ## Общие рекомендации 
+
+
 
 ### Краткие описания 
 
@@ -35,11 +41,15 @@ This page is an extension of the [Help:Editing](Help_Editing.md) page and gives 
 Пример хорошего описания
 :   [Верстак PartDesign](PartDesign_Workbench/ru.md): предоставляет инструменты для проектирования сложных твердых тел.
 
+
+
 ### Централизованная информация 
 
 Избегайте дублирования одной и той же информации в разных местах. Вставьте информацию на новую страницу и добавьте ссылку на эту страницу с других страниц, которым требуется эта информация.
 
 Do not use transclusion of pages ([Help:Editing#Templates and transcluding pages](Help:Editing#Templates_and_transcluding_pages.md)), as this makes the wiki difficult to translate. Use only the templates described below in [#Templates](#Templates.md).
+
+
 
 ### Стиллизирование
 
@@ -52,6 +62,8 @@ If you are working on a large page it is advisable to mark the page either as a 
 To flag a page add either  or  as the first line. With  you invite others to join you in finishing the page, while  indicates that you will do the work yourself and others should give you some time.
 
 Once the work is done, please don\'t forget to remove the flags!
+
+
 
 ## Примеры
 
@@ -68,6 +80,8 @@ To quickly get familiar with the structure and style of the FreeCAD wiki look at
 The [User hub](User_hub.md) provides a [Table of Contents](Online_Help_Toc.md). This is used as the main reference for automatically building the offline help you can reach from FreeCAD, as well as the offline PDF documentation.
 
 The [Template:Docnav](Template_Docnav.md) is used to sequentially link pages, following the structure of the [Table of Contents](Online_Help_Toc.md). See [#Templates](#Templates.md) for a list of all templates.
+
+
 
 ### Названия Страниц 
 
@@ -95,9 +109,13 @@ Page names should be short and they should use title case: every word should beg
 
 The names of top level workbench pages must have this format: XYZ Workbench, where XYZ is the name of the workbench, for example [PartDesign Workbench](PartDesign_Workbench.md). And the names of pages describing the commands (or tools) belonging to a workbench must have this format: XYZ Command, for example [PartDesign Pad](PartDesign_Pad.md). Note that you should use the command name as it occurs in the source code.
 
+
+
 ### Заголовки
 
 Paragraph headings should be short and use sentence case: all words except the first one and proper names, should be in lowercase. You should not use H1 headings (= Heading =) in your wiki markup since the page title is automatically added as the main H1 heading.
+
+
 
 ### Ссылки
 
@@ -167,6 +185,8 @@ If you leave out the optional text the link itself will be shown when the image 
 
 ![](images/)_[Draft_Wire](Draft_Wire.md)
 
+
+
 ### Страницы верстаков 
 
 A top level workbench page should start with:
@@ -181,6 +201,8 @@ See [#Screen capture](#Screen_capture.md) for conventions on including images.
 Command pages describing workbench tools should not be too long, they should only explain what a command can do and what it can\'t, and how to use it. You should keep pictures and examples to a minimum. Tutorials can expand on how to use the tool and provide step-by-step details.
 
 Please refer to the [GuiCommand model](GuiCommand_model.md) page for more details.
+
+
 
 ### Руководства
 
@@ -197,6 +219,8 @@ For examples visit the [Tutorials](Tutorials.md) page.
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
+
+
 ## Шаблоны
 
 
@@ -205,6 +229,8 @@ For examples visit the [Tutorials](Tutorials.md) page.
 Styling of the FreeCAD wiki pages is achieved through the use of templates ([Help:Editing#Templates_and_transcluding_pages](Help:Editing#Templates_and_transcluding_pages.md)). They ensure a standardized look and feel across all pages, and also make it possible to re-style the wiki. You can see the complete list of defined templates by accessing [Special:PrefixIndex/Template:](Special:PrefixIndex/Template:.md). But please only use the templates listed in the tables below. Only in very special cases should you use HTML tags directly.
 
 Click on the template link to see the usage instructions for a template, and to see its implementation. Templates are a powerful feature of the MediaWiki software. You should be an experienced wiki user if you wish to propose additions and modifications to existing templates. If implemented incorrectly, templates make it difficult to translate pages into other languages, so their use should be limited to text formatting, page transclusion should be avoided. See [MediaWiki Help:Templates](https://www.mediawiki.org/wiki/Help:Templates) to learn more.
+
+
 
 ### Простейшие шаблоны 
 
@@ -247,6 +273,10 @@ Click on the template link to see the usage instructions for a template, and to 
 ++++
 | [ComboBox](Template_ComboBox.md)                                                                      |                         | Use it to indicate a combobox in the graphical user interface that needs to be modified.                                                                                                                                                                                                       |
 |                                                                                                               | {{ComboBox|Menu 1}}                    |                                                                                                                                                                                                                                                                                                |
+|                                                                                                               |                                     |                                                                                                                                                                                                                                                                                                |
+++++
+| [LineEdit](Template_LineEdit.md)                                                                      |                         | Use it to indicate a LineEdit in the graphical user interface that needs to be modified.                                                                                                                                                                                                       |
+|                                                                                                               | {{LineEdit|Metal Nickel (Ni)}}         |                                                                                                                                                                                                                                                                                                |
 |                                                                                                               |                                     |                                                                                                                                                                                                                                                                                                |
 ++++
 | [FALSE](Template_FALSE.md), [false](Template_false.md)                                        |                         | Use it to indicate a False Boolean value, for example, as a property in the [property editor](Property_editor.md). This is a shortcut. Since it is a value, prefer Template [Value](Template_Value.md) {{Value|false}}                                           |
@@ -315,6 +345,8 @@ Click on the template link to see the usage instructions for a template, and to 
 |                                                                                                               | {{ColoredParagraph|Colored Paragraph}} |                                                                                                                                                                                                                                                                                                |
 |                                                                                                               |                                     |                                                                                                                                                                                                                                                                                                |
 ++++
+
+
 
 ### Сборные шаблоны 
 
@@ -387,6 +419,8 @@ These templates require more input parameters, or produce a block of text with a
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
+
+
 ## Графика
 
 
@@ -401,6 +435,8 @@ These templates require more input parameters, or produce a block of text with a
 ### Name
 
 Give meaningful names to your images. If you have an image that showcases the characteristics of a particular command, you should use the name of that command with `_example` at the end. For example for the command [Draft Offset](Draft_Offset.md) the image should be called `Draft_Offset_example.png`.
+
+
 
 ### Снимки с экрана 
 
@@ -420,6 +456,8 @@ To create a screenshots you can use the options provided by your operating syste
 
 To ease documentation translations, try to avoid screenshots that contain texts. If you cannot avoid this, consider taking separate screenshots of the interface and the [3D view](3D_view.md). The image of the 3D view can be reused in every translation, while a translator can take a screenshot of the localized interface if necessary.
 
+
+
 ### Иконки и графика 
 
 Refer to the [Artwork](Artwork.md) page for all artwork and icons that have been created for FreeCAD, and which can also be used in documentation pages. If you would like to contribute icons, please read the [Artwork Guidelines](Artwork_Guidelines.md).
@@ -432,6 +470,8 @@ Refer to the [Artwork](Artwork.md) page for all artwork and icons that have been
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 ## Переводы
 
@@ -447,6 +487,8 @@ Other useful resources are:
 -   [ISO language codes](http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) to identify the two-letter code for a particular language that you want to translate to.
 -   [Google Translate](http://translate.google.com/) for help with translations.
 -   [Deepl translator](https://www.deepl.com/translator) for help with translations.
+
+
 
 ## Несколько советов для переводчиков 
 
@@ -511,6 +553,8 @@ Translated:
 
 </div>
 
+
+
 ## Создание, переименовывание и удаление страниц 
 
 ### Create pages 
@@ -531,21 +575,31 @@ Since FreeCAD is a project under permanent development, it is sometimes necessar
     Old_page_name_2  New_page_name_2
     ...
 
+
+
 ### Удаление файлов и страниц 
 
 В случае, если вам нужно удалить файл, перейдите на его страницу (https://www.freecadweb.org/wiki/File:***.***) и отредактируйте его. Независимо от того, является ли страница пустой или нет, добавьте это в качестве первого элемента: {{Delete}} и прямо под ним опишите, почему страница должна быть удалена. Помимо этого, откройте тему в [Вики-форуме](https://forum.freecadweb.org/viewforum.php?f=21).
 
 Для страниц процедура идентичная.
 
+
+
 ## Обсуждение
 
 The [Development/Wiki subforum](http://forum.freecadweb.org/viewforum.php?f=21) in the [FreeCAD forum](https://forum.freecadweb.org) provides a dedicated space for discussing wiki topics, the wiki appearance and anything else related to the wiki. Direct your questions and suggestions there.
 
+
+
 ## Терминология - стратегия именования 
+
+
 
 ### На английском 
 
 Смотри [Глоссарий](Glossary/ru.md).
+
+
 
 ### Другие языки 
 

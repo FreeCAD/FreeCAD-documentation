@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -18,6 +20,8 @@ Desenează un locaș de pană prin selectarea centrului unuia dintre semicercuri
 When starting the tool, the mouse pointer changes to a white cross with a red slot icon. The coordinates of the pointer are shown beside it in blue in real time.
 
 ![](images/SketcherCreateSlotExample.png‎ )
+
+
 
 
 <div class="mw-translate-fuzzy">

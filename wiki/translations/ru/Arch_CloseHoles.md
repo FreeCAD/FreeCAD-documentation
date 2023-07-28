@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Описание
 
 
@@ -21,6 +23,8 @@
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -40,7 +44,7 @@
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-This tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 solid = closeHole(shape)
 ```

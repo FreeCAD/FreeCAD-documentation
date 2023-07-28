@@ -1,23 +1,28 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher SelectRedundantConstraints
-   MenuLocation:Sketch → Sketcher tools → Select redundant constraints
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Wybierz zbędne wiązania
+   MenuLocation:Szkic → Narzędzia szkicownika → Wybierz zbędne wiązania
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**Z** **P** **R**
    Version:0.15
 ---
 
 # Sketcher SelectRedundantConstraints/pl
 
-## Description
 
-Selects the redundant constraints of a sketch.
 
-## Usage
+## Opis
 
-1.  Enter edit mode of sketch.
-2.  Choose **Sketch → Sketcher tools → [<img src=images/Sketcher_SelectRedundantConstraints.svg style="width:16px"> Select redundant constraints** from the top menu.
-3.  The redundant constraints of the sketch will be selected.
+Zaznacza nadmiarowe wiązania szkicu.
+
+
+
+## Użycie
+
+1.  Wejdź w tryb edycji szkicu.
+2.  Wybierz opcję **Szkic → Narzędzia szkicownika → [<img src=images/Sketcher_SelectRedundantConstraints.svg style="width:16px"> Wybierz zbędne wiązania** z menu głównego.
+3.  Zostaną wybrane nadmiarowe wiązania szkicu.
 
 
 

@@ -10,6 +10,8 @@
 
 # Std ViewIsometric/de
 
+
+
 ## Beschreibung
 
 Der **Std AnsichtIsometrisch**-Befehl richtet die Kamera in der aktiven [3D-Ansicht](3D_view/de.md) neu aus, um eine [isometrisch](https://de.wikipedia.org/wiki/Axonometrie#Isometrische_Axonometrie)e Ansicht zu erreichen. Für eine wahrlich (truly) trimetrische Ansicht muss die 3D-Ansicht im [orthographischen Modus](Std_OrthographicCamera/de.md) sein, aber der Befehl funktioniert auch, wenn die Ansicht im [perspektivischen Modus](Std_PerspectiveCamera/de.md) ist.
@@ -17,17 +19,18 @@ Der **Std AnsichtIsometrisch**-Befehl richtet die Kamera in der aktiven [3D-Ansi
 ![](images/Std_ViewIsometric_example.svg ) 
 *Das [Achsenkreuz](Std_AxisCross/de.md) und ein Würfel in isometrischer Ansicht*
 
+
+
 ## Anwendung
 
-1.  Es gibt verschiedene Wege, den Befehl umzusetzen:
-    -   Die **<img src="images/Std_ViewIsometric.svg" width=16px> [Std Isometrische Ansicht auswählen (0)](Std_ViewIsometric/de.md)**-Schaltfläche betätigen.
-    -   Den Menüpunkt **Ansicht → Standardansichten → Axonometrisch → Isometrisch** aus dem Menü wählen.
-    -   Den Menüpunkt **Standardansichten → Axonometrisch → Isometrisch** aus dem [3D-Ansicht](3D_view/de.md)-Kontextmenü wählen.
-    -   Mit dem Tastenkürzel: **0**.
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Std_ViewIsometric.svg" width=16px> [Std Isometrische Ansicht auswählen (0)](Std_ViewIsometric/de.md)** drücken.
+    -   Den Menüeintrag **Ansicht → Standardansichten → Axonometrisch → Isometrisch** auswählen.
+    -   Die Menüoption **Standardansichten → Axonometrisch → Isometrisch** im Kontextmenü der [3D-Ansicht](3D_view/de.md) auswählen.
+    -   Die Menüoption **<img src="images/Std_ViewIsometric.svg" width=16px> Isometric** im Miniwürfelmenü des [Navigationswürfels](Navigation_Cube/de.md) auswählen.
+    -   Das Tastaturkürzel: **0**.
 
-## Hinweise
 
--   Es ist auch möglich, über das Miniwürfel-Menü des [Navigationswürfels](Navigation_Cube/de.md) in den perspektivischen Ansichtsmodus zu wechseln.
 
 ## Skripten
 

@@ -17,6 +17,8 @@ Esta página muestra las diferentes formas de iniciar FreeCAD y las característ
 
 </div>
 
+
+
 ## Iniciando FreeCAD desde la línea de comandos 
 
 FreeCAD puede iniciarse normalmente, haciendo doble clic en el icono del escritorio o seleccionándolo en el menú de inicio, pero también sr puede iniciar directamente desde la línea de comandos. Esto te permite cambiar algunos de las opciones por defecto de inicio.
@@ -33,6 +35,8 @@ FreeCAD puede iniciarse normalmente, haciendo doble clic en el icono del escrito
 
 
 </div>
+
+
 
 ### Opciones de la línea de comandos 
 
@@ -86,6 +90,8 @@ In the following table, selected options are described in more detail:
 
 Options can written in two forms: `--long-option arg` and `--long-option<nowiki>=</nowiki>arg`.
 
+
+
 ### Respuesta y archivos de configuración 
 
 FreeCAD puede leer algunas de estas opciones desde un archivo de configuración. Este archivo debe estar en la ruta de la papelera y debe llamarse **FreeCAD.cfg**. Tenga en cuenta que las opciones especificadas en la línea de comandos anulan el archivo de configuración.
@@ -102,6 +108,8 @@ or:
 
     FreeCAD --response-file ResponseFile.txt
 
+
+
 ### Opciones ocultas 
 
 Existen varias opciones no visibles por el usuario. Estas opciones son por ejemplo los parámetros de X-Window analizados por el sistema Windows:
@@ -117,6 +125,8 @@ Existen varias opciones no visibles por el usuario. Estas opciones son por ejemp
 -   -visual TrueColor, fuerza a la aplicación a utilizar la visualización TrueColor en una visualización de 8-bit.
 -   -ncols count, limita el número de colores asignados en el cubo de color de visualización de 8-bit, si la aplicación está utilizando la especificación del color QApplication::ManyColor. Si el computo es 216 entonces se utiliza un cubo de color de 6x6x6 (por ejemplo 6 niveles de rojo, 6 de verde y 6 de azul); para otros valores, se utiliza un cubo aproximadamente proporcional a un cubo de 2x3x1.
 -   -cmap, cause que la aplicación instale un mapa de color privado en una visualización de 8-bit.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -259,6 +269,8 @@ Algunas bibliotecas necesitan llamar a variables de entorno del sistema. A veces
 -   CSF_STEPDefaults
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## El conjunto de configuración 
@@ -273,6 +285,8 @@ En cada inicio FreeCAD examina sus alrededores y los parámetros de la línea de
 
 
 </div>
+
+
 
 ### Información relativa al usuario 
 
@@ -292,6 +306,8 @@ En cada inicio FreeCAD examina sus alrededores y los parámetros de la línea de
 </div>
 
 Note: For Linux distributions, an additional configuration file that relates to [Qt](Third_Party_Tools#Qt-Toolkit.md) may exist at path **/home/username/.config/FreeCAD/FreeCAD.conf**.
+
+
 
 ### Argumentos de la línea de comando 
 
@@ -314,6 +330,8 @@ Note: For Linux distributions, an additional configuration file that relates to 
 
 </div>
 
+
+
 ### Relativos al sistema 
 
 
@@ -328,6 +346,8 @@ Note: For Linux distributions, an additional configuration file that relates to 
 
 
 </div>
+
+
 
 ### Información relativa a la construcción 
 
@@ -357,6 +377,8 @@ La tabla de abajo muestra la información disponible sobre la versión de constr
 
 
 </div>
+
+
 
 ### Relativos al marcado 
 
@@ -437,9 +459,6 @@ The following assumes that your desktop is configured such that you can launch F
 4.  As a result, an additional entry in your start menu/application launcher is available. This way, you can have multiple FreeCAD entries with various launch options.
 
 ## Starting FreeCAD from a portable USB medium 
-
-
-<small>(v0.19)</small> 
 
 **Windows**
 

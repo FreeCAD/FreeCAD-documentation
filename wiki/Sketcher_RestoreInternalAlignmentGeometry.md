@@ -4,7 +4,7 @@
    MenuLocation:Sketch → Sketcher tools → Show/hide internal geometry
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**Z** **I**
-   SeeAlso:[Sketcher Ellipse](Sketcher_CreateEllipseByCenter.md), [Sketcher Internal Alignment Constraint](Sketcher_ConstrainInternalAlignment.md)
+   SeeAlso:
 ---
 
 # Sketcher RestoreInternalAlignmentGeometry
@@ -15,7 +15,7 @@ The command deletes unused elements aligned to internal geometry, or recreates t
 
 ## Usage
 
--   Select an element of a sketch that supports internal alignment (currently only Ellipse/Arc and B-spline).
+-   Select a sketch element that supports internal alignment ([Ellipse](Sketcher_CreateEllipseByCenter.md), [Arc of ellipse](Sketcher_CreateArcOfEllipse.md), [Arc of hyperbola](Sketcher_CreateArcOfHyperbola.md), [Arc of parabola](Sketcher_CreateArcOfParabola.md) or [B-spline](Sketcher_CreateBSpline.md)).
 -   Invoke the command by clicking **[<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> [Show/hide internal geometry](Sketcher_RestoreInternalAlignmentGeometry.md)** or choose **Sketch → Sketcher tools → [<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> Show/hide internal geometry** or using the keyboard shortcut.
 
 If there are free alignment places for the selected element, new construction geometry is created and aligned to the available places. If all alignment places are occupied, the unused internal geometry is deleted (the element is treated as unused if it is not constrained to anything else).

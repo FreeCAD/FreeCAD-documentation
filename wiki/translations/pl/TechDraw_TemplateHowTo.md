@@ -13,6 +13,8 @@
 
 
 
+
+
 ## Wprowadzenie
 
 Poradnik ten pokazuje jak stworzyć plik [SVG](SVG/pl.md), który może być użyty jako [szablon](TechDraw_Templates/pl.md) tła dla stron Środowiska pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md).
@@ -30,6 +32,8 @@ Gdzie `$INSTALL_DIR` jest katalogiem, w którym zainstalowano FreeCAD, na przyk�
 ```python
 /usr/share/freecad/Mod/TechDraw/Templates/HowToExample.svg
 ```
+
+
 
 ## Tworzenie dokumentu bazowego 
 
@@ -50,6 +54,8 @@ Gdzie `$INSTALL_DIR` jest katalogiem, w którym zainstalowano FreeCAD, na przyk�
 Zauważ, że twoje edytowalne teksty będą \"nie\" działały, jeśli używasz **<https://>\...**, nawet jeśli wiki jest obecnie osiągalne przez https. Ponieważ SVG jest formatem czytelnym dla człowieka, możesz także wpisać powyższą linię do pliku za pomocą edytora tekstu. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> 
 *align=center|Inkscape: Edytor XML dodaje klauzulę przestrzeni nazw „freecad” do elementu <svg>* 
 
+
+
 ## Tworzenie szablonu rysunku 
 
 4\. Narysuj ramkę, numery stref, linie środkowe i inną geometrię.
@@ -63,6 +69,8 @@ Zauważ, że twoje edytowalne teksty będą \"nie\" działały, jeśli używasz 
 8\. Masz teraz gotowe dzieło, które powinno wyglądać mniej więcej tak: <img alt="" src=images/InkFinishedArt.png  style="width:800px;"> 
 *align=center|Inkscape: wstępny układ szablonu* 
 
+
+
 ## Tworzenie pól do edycji 
 
 9\. Użyj edytora XML, aby dodać tag `freecad:editable`} do każdego edytowalnego elementu `<text>}.
@@ -72,6 +80,7 @@ Zauważ, że twoje edytowalne teksty będą \"nie\" działały, jeśli używasz 
 *align=center|Inkscape: Edytor XML dodający właściwość "freecad:editable" do żądanej pozycji <text>.*
 {{clear`
 
+<span id="Adjust_size_of_the_SVG"></span>
 ==Dopasowanie wielkości SVG==
 
 10. Użyj edytora XML, aby dopasować atrybut `viewBox` do rozmiaru strony, w milimetrach.
@@ -96,6 +105,7 @@ Zauważ, że twoje edytowalne teksty będą \"nie\" działały, jeśli używasz 
 
 14. Twój szablon powinien teraz wyglądać dokładnie tak, jak na ukończonym obrazku powyżej.
 
+<span id="Remove_transformans_on_the_SVG"></span>
 ==Usuń przekształcenia z SVG==
 
 15. Upewnij się, że wszystkie edytowalne teksty są ''rozgrupowane'' za pomocą klawiszy **Shift** + **Ctrl** + **g**.
@@ -129,9 +139,9 @@ Jeśli nie widzisz zielonych pól na swoich tekstach do edycji, może być coś 
 
 Jeśli w FreeCAD teksty są przesunięte, może być konieczne usunięcie atrybutów {{Incode|xml:space<nowiki>=</nowiki>"preserve"}} w pliku SVG. Patrz: https://www.forum.freecadweb.org/viewtopic.php?t=50897.
 
- {{TechDraw Tools navi}}
+{{TechDraw Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/pl

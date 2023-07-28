@@ -4,9 +4,13 @@
 
 {{Fake heading|sub=4|< Retour à [FreeCAD comment importer exporter](FreeCAD_Howto_Import_Export/fr.md)}}
 
+
+
 ## Pourquoi est-il difficile de prendre en charge les fichiers DWG dans FreeCAD? 
 
 Le **format DWG est un format de fichier binaire fermé** (propriétaire) qui n\'est pas directement pris en charge par FreeCAD. Il faut un convertisseur de fichiers tiers externe pour convertir les fichiers DWG en fichiers DXF et vice-versa.
+
+
 
 ## De quoi ai-je besoin pour pouvoir importer des fichiers DWG ? 
 
@@ -18,15 +22,19 @@ Le **format DWG est un format de fichier binaire fermé** (propriétaire) qui n\
 
 GNU LibreDWG est une bibliothèque libre en C pour manipuler les fichiers DWG. Elle vise à remplacer librement les bibliothèques Drawings SDK de l\'Open Design Alliance. Soyez conscient que, puisque libreDWG est un travail en cours, il manque le support de certaines entités DWG.
 
+
+
 #### Installation sous Windows 
 
-Téléchargez et décompressez le [binaire Windows précompilé](https://github.com/LibreDWG/libredwg/releases) approprié, puis définissez manuellement le chemin de l\'exécutable. Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md).
+Télécharger et décompresser le [binaire Windows précompilé](https://github.com/LibreDWG/libredwg/releases) approprié. Placer l\'exécutable dans le chemin de recherche du système d\'exploitation, {{Incode|os.getenv("PATH")}}, pour une détection automatique ({{Version/fr|0.21}}) ou définir le chemin manuellement. Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md).
+
+
 
 #### Installation sous des systèmes Linux/Unix 
 
 
 {{Code|lang=shell|code=
-git clone --Récupération des sous-modules https://git.savannah.gnu.org/git/libredwg.git
+git clone --recurse-submodules https://git.savannah.gnu.org/git/libredwg.git
 cd libredwg
 mkdir build
 cd build
@@ -36,7 +44,9 @@ make install # ou utiliser checkinstall, ou simplement localiser et copier l'uti
              # dans le chemin de vos exécutables, il sera alors autodétecté par FreeCAD.
 }}
 
-Vous devez définir manuellement le chemin d\'accès à l\'exécutable. Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md).
+Placer l\'exécutable dans le chemin de recherche du système d\'exploitation, {{Incode|os.getenv("PATH")}}, pour une détection automatique ({{Version/fr|0.21}}) ou définir le chemin manuellement. Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md).
+
+
 
 #### Installation sous openSUSE 
 
@@ -55,7 +65,9 @@ Dans n\'importe quel terminal/console (droits root requis), l\'installation s\'e
 zypper install libredwg0 libredwg-tools
 ```
 
-Vous devez définir manuellement le chemin d\'accès à l\'exécutable. Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md).
+Placer l\'exécutable dans le chemin de recherche du système d\'exploitation, {{Incode|os.getenv("PATH")}}, pour une détection automatique ({{Version/fr|0.21}}) ou définir le chemin manuellement. Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md).
+
+
 
 ### Convertisseur fichier ODA 
 
@@ -82,13 +94,17 @@ QCAD est une plateforme de CAO 2D open-source bien connue, basée sur le format 
 
 #### Installation 
 
-Vous devez définir manuellement le chemin de l\'exécutable. Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md).
+Si l\'utilitaire n\'est pas trouvé automatiquement par FreeCAD après l\'installation ({{Version/fr|0.21}}), vous devez définir manuellement le chemin d\'accès au fichier bash (Linux et macOS) ou au fichier batch (Windows). Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md).
+
+
 
 ### Atelier CADExchanger 
 
 L\'installation de l\'atelier CADExchanger permet de travailler avec des fichiers DWG grâce à l\'intégration avec le produit de conversion de fichiers commercial payant [CADExchanger](https://cadexchanger.com/). Suivez simplement les instructions du [dépôt GitHub](https://github.com/yorikvanhavre/CADExchanger). Vous pouvez discuter de cet atelier sur [son fil de discussion](https://forum.freecadweb.org/viewtopic.php?f=9&t=22227&p=462421).
 
 Pour le moment, la méthode CADExchanger est la seule qui permet de travailler avec des fichiers DWG 3D, en les convertissant dans d\'autres formats 3D.
+
+
 
 ## Quelles sont les alternatives? 
 
@@ -100,17 +116,25 @@ Il y a aussi DoubleCAD XT (https://www.turbocad.com/content/doublecad-xt-v5). Ce
 
 Il y a aussi nanoCAD 5.0 (https://nanocad.com/products/nanoCAD/download/). Le programme est gratuit pour un usage personnel et commercial. Il demande une inscription gratuite pour recevoir un code d\'activation par e-mail. Ce programme est sous Windows uniquement.
 
+
+
 ### Exporter vos fichiers AutoCAD dans un format convivial 
 
 Exportez votre fichier AutoCAD dans un des nombreux formats reconnu par FreeCAD, à savoir DXF R12 ou R14, SVG et si votre version le supporte IGES. Toutes ces versions sont de meilleures alternatives au format DWG lorsque vous utilisez FreeCAD.
 
 Il est important de noter qu\'il n\'y a aucune différence entre le contenu d\'un fichier enregistré aux formats DWG ou DXF, à condition qu\'il s\'agisse de la même version (ex. DWG 2014 vs. DXF 2014). Les deux formats sont maintenus par Autodesk, et ils prennent en charge exactement les mêmes fonctionnalités. La différence est que le DWG est fermé (fichier codé) tandis que le DXF est ouvert.
 
+
+
 ## Que puis-je faire pour aider ? 
+
+
 
 ### Promouvoir l\'utilisation des formats alternatifs 
 
 Autrement dit, n\'acceptez plus des travaux effectués au format DWG. Dans la pratique, c\'est plus facile à dire qu\'à faire. Pourtant, ce ne serait pas une mauvaise pratique pour les utilisateurs et les partisans de FreeCAD d\'éviter d\'utiliser le format DWG chaque fois que c\'est possible.
+
+
 
 ### Utiliser la bibliothèque LibreDWG et rapporter des bogues 
 

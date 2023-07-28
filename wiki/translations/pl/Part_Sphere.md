@@ -1,13 +1,15 @@
 ---
 - GuiCommand:/pl
    Name:Part Sphere
-   Name/pl:Part: Kula
-   MenuLocation:Część → Bryła pierwotna → Kula
-   Workbenches:[Part](Part_Workbench/pl.md)
-   SeeAlso:[Bryły pierwotne](Part_CreatePrimitives/pl.md)
+   Name/pl:Część: Sfera
+   MenuLocation:Część → Bryła pierwotna → Sfera
+   Workbenches:[Część](Part_Workbench/pl.md)
+   SeeAlso:[Utwórz geometrie pierwotne](Part_CreatePrimitives/pl.md)
 ---
 
 # Part Sphere/pl
+
+
 
 ## Opis
 
@@ -16,6 +18,8 @@ Polecenie <img alt="" src=images/Part_Sphere.svg  style="width:24px;"> Polecenie
 Sfera środowiska pracy Część może być obcięta u góry i/lub u dołu przez zmianę jej właściwości **Kąt1** i/lub **Kąt2**. Można ją przekształcić w segment sfery, zmieniając jej właściwość **Kąt3**.
 
 <img alt="" src=images/Part_Sphere_Example.png  style="width:400px;">
+
+
 
 ## Użycie
 
@@ -32,21 +36,29 @@ Sfera środowiska pracy Część może być obcięta u góry i/lub u dołu przez
     -   Zmień właściwości w [Edytorze właściwości](Property_editor/pl.md).
     -   Zmień **Umiejscowienie** za pomocą narzędzia <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std: Przemieszczenie](Std_TransformManip/pl.md).
 
+
+
 ## Przykład
 
 ![Sfera środowiska pracy Część na przykładzie skryptu](images/Part_Sphere_Scripting_Example.png )
 
 Poniżej pokazano obiekt Sfera utworzony za pomocą [przykładowego skryptu](#Tworzenie_skrypt.C3.B3w.md).
 
+
+
 ## Uwagi
 
--   Sferę środowiska pracy Część można również utworzyć za pomocą narzędzia <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Geometrie pierwotne](Part_Primitives/pl.md). Za jego pomocą można określić wymiary i umiejscowienie w czasie tworzenia.
+-   Sferę środowiska pracy Część można również utworzyć za pomocą narzędzia <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Utwórz geometrie pierwotne](Part_Primitives/pl.md). Za jego pomocą można określić wymiary i umiejscowienie w czasie tworzenia.
+
+
 
 ## Właściwości
 
 Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
 
 Obiekt Sfera wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
 
 ### Dane
 
@@ -71,6 +83,8 @@ Obiekt ten ma takie same właściwości dołączania jak [Part: Part2DObject](Pa
 -    **Kąt2|kąt**: Kąt końcowy profilu łuku kołowego sfery. Ważny zakres: {{Value|-90° &lt;&#61; wartość &lt;&#61; 90°}}. Nie może być równy parametrowi **Kąt1**. Wartość domyślna to {{Value|90°}}. Jeśli całkowity kąt profilu łuku jest mniejszy niż {{Value|180°}}, kula zostanie obcięta i będzie miała płaską powierzchnię u góry i / lub u dołu.
 
 -    **Kąt3|kąt**: Całkowity kąt obrotu sfery. Dozwolony zakres: {{Value|0° &lt; wartość &lt;&#61; 360°}}. Domyślnie jest to wartość {{Value|360°}}. Jeśli wartość jest mniejsza niż {{Value|360°}}, to bryła wynikowa będzie fragmentem kuli.
+
+
 
 ## Tworzenie skryptów 
 

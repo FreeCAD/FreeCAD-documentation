@@ -13,6 +13,8 @@
 
 
 
+
+
 ## Введение
 
 This tutorial explains how to create center hole lines using the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md) with oriented holes.
@@ -51,4 +53,4 @@ Quadrant points select with <img alt="" src=images/TechDraw_Quadrants.svg  style
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Measurement Of Angles On Holes/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Measurement Of Angles On Holes/ru

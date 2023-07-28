@@ -14,6 +14,8 @@
 
 
 
+
+
 ## L\'objectif en bref 
 
 Créez des points, des lignes, des cercles, des arcs, etc\... dans des vues TechDraw et/ou des dessins \"cosmétiques\" entiers avec une précision absolue, adaptée aux outils de cotation dont l\'établi est équipé, pour générer des dessins techniques conformes et détaillés.
@@ -33,6 +35,8 @@ Ce tutoriel présente à l\'utilisateur expérimenté une utilisation avancée d
 
 *Remarque : ces plans peuvent être réunis par chevauchement/coïncidence de deux bords en utilisant la fonction booléenne de <img alt="" src=images/Part_Fuse.svg  style="width:24px;"> [Part Union](Part_Fuse/fr.md).* Les plans ainsi formés et convenablement positionnés (selon nos dispositions) seront utilisés comme **lames de coupe** <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Part Séparer/exploser](Part_SliceApart/fr.md), découpant notre objet 3D en plusieurs parties selon la confirmation du plan choisi.\'\'
 
+
+
 ## Avant de commencer 
 
 Les ateliers qui sont utilisés pour générer les dessins des exemples ci-joints sont :
@@ -42,6 +46,8 @@ Les ateliers qui sont utilisés pour générer les dessins des exemples ci-joint
 -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench/fr.md)
 -   <img alt="" src=images/Workfeature_workbench_icon.svg  style="width:24px;"> [atelier Workfeature](Workfeature_Workbench/fr.md)
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [atelier TechDraw](TechDraw_Workbench/fr.md)
+
+
 
 ## La tâche 
 
@@ -78,11 +84,16 @@ A chacun de nous, avec imagination et inventivité, de l\'optimiser au maximum p
 Je vous joins les fichiers de quelques exemples de flux de travail de dessins techniques (irréalisables avec TechDraw uniquement) dont ont été tirées les images présentées ci-dessous.
 En espérant avoir été utile, bon travail et bonne expérimentation !
 
+
 ## Remarques
+
+
 
 ## Perspectives futures 
 
 Cependant, le chemin décrit pourrait représenter le point de départ (ou l\'idée) d\'écrire du code supplémentaire pour automatiser le système et l\'intégrer directement dans TechDraw avec les fonctions de bouton / commande appropriées.
+
+
 
 ## Liens
 
@@ -92,9 +103,11 @@ Cependant, le chemin décrit pourrait représenter le point de départ (ou l\'id
 -   [TechDraw : - come utilizzare gli strumenti Draft/Snaps per creare \" vertici/punti cosmetici \"](https://forum.freecadweb.org/viewtopic.php?f=28&t=53329) Fil de discussion en langue italienne
 
 
- {{TechDraw Tools navi}}
+{{TechDraw Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Advanced TechDraw Tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Advanced TechDraw Tutorial/fr

@@ -1,13 +1,17 @@
 # TechDraw Templates/pl
 {{TOCright}}
 
-## Informacje ogólne 
 
-Każda strona środowiska Rysunek Roboczy jest oparta na obiekcie Szablonu. Szablon określa rozmiar papieru i zawiera stałą grafikę i tekst, na przykład ramkę lub obramowanie strony.
+
+## Opis
+
+Każda strona środowiska Rysunek Techniczny jest oparta na obiekcie Szablonu. **Szablon** określa rozmiar arkusza papieru i zawiera stałą grafikę i tekst, na przykład ramkę lub obramowanie strony.
 
 Szablon może również zawierać edytowalne pola tekstowe dla atrybutów takich jak *Tytuł*, *Podtytuł*, *Autor*, *Data*, *Skala*, *Waga*, *Numer rysunku* i *Arkusz*.
 
 Szablony to pliki [SVG](SVG.md), które można tworzyć i modyfikować poza środowiskiem programu FreeCAD, za pomocą aplikacji takiej jak np. [Inkscape](https://en.wikipedia.org/wiki/Inkscape).
+
+
 
 ## Właściwości
 
@@ -20,6 +24,8 @@ Szablony to pliki [SVG](SVG.md), które można tworzyć i modyfikować poza śro
 -    **Strona Wynikowa**: Kopia oryginalnego pliku Szablonu zawierająca wszystkie zmiany w edytowalnych tekstach. Pozwala to użytkownikom, którzy mogą nie mieć kopii pliku Szablonu, zobaczyć stronę zgodnie ze swoim przeznaczeniem. Nie jest to typowo przydatne dla użytkowników końcowych.
 
 -    **Szablon**: a) wskaźnik do kopii oryginalnego pliku Szablonu, który jest włączony do tego pliku \*.FCStd, lub b) ścieżka do pliku szablonu dostępnego na bieżącym komputerze. Użyj wielokropka przy wyborze pliku *(\...)*, aby zmienić szablon na inny.
+
+
 
 ## Wybór innego pliku szablonu 
 
@@ -36,6 +42,8 @@ Aby wybrać inny szablon dla rysunku:
 9.  Naciśnij przycisk **OK**.
 
 Jeśli zmodyfikowałeś plik szablonu i chcesz zaktualizować Stronę utworzoną w bieżącej sesji FreeCAD, która używa tego szablonu, tymczasowo wybierz najpierw inny plik, a następnie ponownie wybierz zmodyfikowany plik.
+
+
 
 ## Szablony użytkownika 
 
@@ -55,7 +63,9 @@ Gdzie `$INSTALL_DIR` to katalog, w którym zainstalowano FreeCAD, na przykład:
 
 Szablony własne można również określić jako domyślne w [Ustawieniach](TechDraw_Preferences/pl.md) środowiska Rysunek Techniczny.
 
-Zobacz również stronę [Jak stworzyć własny szablon Rysunku Technicznego](TechDraw_TemplateHowTo/pl.md).
+Zobacz również stronę [Jak stworzyć własny szablon Rysunku Technicznego](TechDraw_TemplateHowTo/pl.md) lub jeśli wolisz szablony generowane przez skrypt, [Generator szablonów](TechDraw_TemplateGenerator/pl.md) i [Makro TemplateHelper](Macro_TemplateHelper/pl.md).
+
+
 
 ## Uwagi
 

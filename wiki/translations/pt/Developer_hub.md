@@ -58,6 +58,7 @@ The developer documentation comprises the following sections:
 -   [Google Summer of Code](Google_Summer_of_Code.md) get involved via Google\'s student support program
 -   [Fine-tuning](Fine-tuning.md) shows different options and parameter switches that can overcome problems
 -   [Wrapping a C++ class in Python](Wrapping_a_Cplusplus_class_in_Python.md) shows how to create the Python wrapper for a C++ class
+-   [Checklist for adding a Feature to a C++ workbench](NewFeatureCheckList_C++.md) provides an aid for contributors.
 
 -   [Translating an external workbench](Translating_an_external_workbench.md)
 

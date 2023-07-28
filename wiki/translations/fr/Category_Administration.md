@@ -14,12 +14,13 @@ Cette catégorie contient les articles, et, les catégories sur le wiki, de tous
 | [Template:OngletTache](Template_OngletTache.md) | [Template:OpenSCAD Tools navi/fr](Template_OpenSCAD_Tools_navi/fr.md) | [Organization chart/fr](Organization_chart/fr.md) |
 | [Part Chamfer/ro](Part_Chamfer/ro.md) | [Template:Part Tools navi/fr](Template_Part_Tools_navi/fr.md) | [PartDesign Chamfer/ro](PartDesign_Chamfer/ro.md) |
 | [Template:PartDesign Tools navi/fr](Template_PartDesign_Tools_navi/fr.md) | [Template:PartOngletVue 2/fr](Template_PartOngletVue_2/fr.md) | [Template:PartOngletVue/fr](Template_PartOngletVue/fr.md) |
-| [Template:Powerdocnavi/fr](Template_Powerdocnavi/fr.md) | [Template:PropertyData/fr](Template_PropertyData/fr.md) | [Template:PropertyView/fr](Template_PropertyView/fr.md) |
-| [Template:ProprieteDonnees](Template_ProprieteDonnees.md) | [Template:ProprieteVue](Template_ProprieteVue.md) | [Template:Raytracing Tools navi/fr](Template_Raytracing_Tools_navi/fr.md) |
-| [Template:Robot Tools navi/fr](Template_Robot_Tools_navi/fr.md) | [Template:Sketcher Tools navi/fr](Template_Sketcher_Tools_navi/fr.md) | [Template:Spreadsheet Tools navi/fr](Template_Spreadsheet_Tools_navi/fr.md) |
-| [Template:Start Tools navi/fr](Template_Start_Tools_navi/fr.md) | [Template:Std Base navi/fr](Template_Std_Base_navi/fr.md) | [Template:TechDraw Tools navi/fr](Template_TechDraw_Tools_navi/fr.md) |
-| [Tracker/fr](Tracker/fr.md) | [WikiPages/fr](WikiPages/fr.md) | [WikiRobots/fr](WikiRobots/fr.md) |
-| [Category:UnfinishedDocu/fr](Category_UnfinishedDocu/fr.md) | [Category:Wiki/fr](Category_Wiki/fr.md) |
+| [Template:Path Tools navi/fr](Template_Path_Tools_navi/fr.md) | [Template:Powerdocnavi/fr](Template_Powerdocnavi/fr.md) | [Template:PropertyData/fr](Template_PropertyData/fr.md) |
+| [Template:PropertyView/fr](Template_PropertyView/fr.md) | [Template:ProprieteDonnees](Template_ProprieteDonnees.md) | [Template:ProprieteVue](Template_ProprieteVue.md) |
+| [Template:Raytracing Tools navi/fr](Template_Raytracing_Tools_navi/fr.md) | [Template:Robot Tools navi/fr](Template_Robot_Tools_navi/fr.md) | [Template:Sketcher Tools navi/fr](Template_Sketcher_Tools_navi/fr.md) |
+| [Template:Spreadsheet Tools navi/fr](Template_Spreadsheet_Tools_navi/fr.md) | [Template:Start Tools navi/fr](Template_Start_Tools_navi/fr.md) | [Template:Std Base navi/fr](Template_Std_Base_navi/fr.md) |
+| [Template:TechDraw Tools navi/fr](Template_TechDraw_Tools_navi/fr.md) | [Tracker/fr](Tracker/fr.md) | [Template:UnfinishedDocu/fr](Template_UnfinishedDocu/fr.md) |
+| [WikiPages/fr](WikiPages/fr.md) | [WikiRobots/fr](WikiRobots/fr.md) | [Category:UnfinishedDocu/fr](Category_UnfinishedDocu/fr.md) |
+| [Category:Wiki/fr](Category_Wiki/fr.md) |
 
 
 

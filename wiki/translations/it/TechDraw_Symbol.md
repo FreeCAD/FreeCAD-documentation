@@ -5,9 +5,17 @@
 
 </div>
 
+
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Simbolo inserisce un file [SVG](SVG/it.md) nella pagina. Questo simbolo può essere qualsiasi cosa che aiuti ad annotare il disegno, e che non ha bisogno di essere ulteriormente modificato.
+
+
+</div>
 
 <img alt="" src=images/TechDraw_SymbolSVG_sample.png  style="width:250px;">
 
@@ -20,6 +28,8 @@ Lo strumento Simbolo inserisce un file [SVG](SVG/it.md) nella pagina. Questo sim
 
 
 </div>
+
+
 
 ## Uso
 
@@ -35,7 +45,7 @@ Lo strumento Simbolo inserisce un file [SVG](SVG/it.md) nella pagina. Questo sim
 
 </div>
 
--   Il simbolo può apparire più grande del previsto. Utilizzare la proprietà Scala per regolare le dimensioni.
+
 
 ## Note
 
@@ -49,6 +59,8 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 {{TitleProperty|Drawing view}}
 
 -    **Editable Texts**: List of editable texts, if any.
+
+
 
 ## Script
 

@@ -1,6 +1,6 @@
 ---
 - TutorialInfo:/de
-   Topic:Entwerfen
+   Topic:Zeichnungserstellung
    Level:Zwischenstufe
    Time:60 Minuten
    Author:[http://freecadweb.org/wiki/index.php?title=User:wandererfan wandererfan]
@@ -13,15 +13,17 @@
 
 
 
-## Einführung
 
-Dieses Tutorium zeigt dir die Erstellung einer [SVG](SVG/de.md) Datei, die als Hintergrund [Vorlage](TechDraw_Templates/de.md) für die [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md)-Seiten verwendet werden kann.
 
-Dieses Tutorial setzt voraus, dass du mäßig vertraut bist mit [Inkscape](https://de.wikipedia.org/wiki/Inkscape) und [SVG](SVG/de.md) sowie in FreeCAD und dem [TechDraw](TechDraw_Workbench/de.md)-Arbeitsbereich.
+## Einleitung
 
-Wir erstellen eine einfache Vorlage für US Briefgrößenpapier in Querformat Ausrichtung.
+Diese Anleitung zeigt die Erstellung einer [SVG](SVG/de.md)-Datei, die als [Vorlage](TechDraw_Templates/de.md) im Hintergrund von Zeichnungsblättern des Arbeitsbereichs [TechDraw](TechDraw_Workbench/de.md) verwendet werden kann.
 
-Eine Kopie des Ergebnisses dieses Tutoriums ist verfügbar in 
+Dieses Tutorial setzt voraus, dass du einigermaßen vertraut bist mit [Inkscape](https://de.wikipedia.org/wiki/Inkscape) und [SVG](SVG/de.md) sowie FreeCAD und dem Arbeitsbereich [TechDraw](TechDraw_Workbench/de.md).
+
+Wir erstellen eine einfache Vorlage für ein Zeichnungsblatt in dem Format \"US Letter\" im Querformat.
+
+Eine Kopie des Ergebnisses dieses Tutoriums findet man unter 
 ```python
 $INSTALL_DIR/Mod/TechDraw/Templates/HowToExample.svg
 ```
@@ -31,74 +33,86 @@ Wobei `$INSTALL_DIR` das Verzeichnis ist, wo FreeCAD installiert wurde, z.B.
 /usr/share/freecad/Mod/TechDraw/Templates/HowToExample.svg
 ```
 
+
+
 ## Basisdokument erzeugen 
 
-1\. Öffne ein neues Dokument in Inkscape
+1\. Ein neues Dokument in Inkscape öffnen
 
 2\. In den Dokumenteneigenschaften
 
--   Wähle die Seitengröße \"US Letter\" oder \"A4\" und die Ausrichtung \"Querformat\".
--   Setze die Standardeinheiten auf \"mm\" und die Seitengröße auf Breite \"279,4\" und Höhe \"215,9\". Für DIN-A4 würdest du \"210\" und \"297\" verwenden.
+-   Das Format (Page Size) \"US Letter\" oder \"A4\" und die Ausrichtung (Orientation) \"Querformat\" (Landscape) auswählen.
+-   Die Vorgabe für die Maßeinheit (Unit) auf \"mm\" setzen und die Blattgröße auf die Werte
+
+"279,4" für die Breite (width) und "215,9" für die Höhe (height). Für DIN-A4 würde entsprechend "210" und "297" eingegeben. 
 
 <img alt="" src=images/InkDocProp.png  style="width:800px;"> 
-*align=center|Inkscape: Dokument mit Seitengröße und Ausrichtung* 
+*align=center|Inkscape: Dokument mit Blattgröße und Ausrichtung* 
 
-3\. Verwende den XML Editor, um dem `<svg>` Element eine \"freecad\" Namensraumklausel hinzuzufügen.
+3\. Mit dem XML-Editor dem `<svg>`-Element eine \"freecad\"-Namensraum-Angabe hinzufügen.
 
 -   xmlns:freecad="[http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace](http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace)"
 
-Beachte, dass deine editierbaren Texte *nicht* funktionieren, wenn du \"<https://>\...\" verwendest, auch wenn das Wiki heutzutage über https erreicht wird. Da SVG ein von Menschen lesbares Format ist, könntest du die obige Zeile auch mit einem Texteditor in die Datei eingeben. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> 
-*align=center|Inkscape: XML Editor, der die "freecad" Namensraumklausel zum Element <svg> hinzufügt* 
+Dabei ist zu beachten, dass editierbare Texte *nicht* funktionieren, wenn \"<https://>\...\" verwendet wird, auch wenn das Wiki heutzutage über https erreicht wird. Da SVG ein von Menschen lesbares Format ist, könnte die obige Zeile auch mit einem Texteditor in die Datei eingeben werden. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> 
+*align=center|Inkscape: XML-Editor, der die "freecad"-Namensraum-Angabe zum Element <svg> hinzufügt* 
 
-## Erstelle eine Vorlagenzeichnung 
 
-4\. Zeichne Umrisse, Zonennummern, Mittellinien und andere Geometrie.
 
-5\. Zeichne die Kästen und Linien für das Schriftfeld.
+## Eine Zeichnungsvorlage erstellen 
 
-6\. Füge deinen statischen Text hinzu und positioniere ihn.
+4\. Umrisse, Feldindizes, Mittellinien und andere Geometrie zeichnen.
 
-7\. Füge den zu bearbeitenden Text hinzu und positioniere ihn.
+5\. Kästen und Linien für das Schriftfeld zeichnen.
 
-8\. Du hast nun dein fertiges Kunstwerk, das in etwa so aussehen sollte: <img alt="" src=images/InkFinishedArt.png  style="width:800px;"> 
-*align=center|Inkscape: Vorläufiges Vorlagenlayout* 
+6\. Einen statischen Text hinzufügen und positionieren.
 
-## Erstelle änderbare Felder 
+7\. Einen editierbaren Text hinzufügen und positionieren.
 
-9\. Verwende den XML Editor, um mit `freecad:editable` jedes Textelement `text` auch als änderbar zu kennzeichnen
+8\. Nun ist das Kunstwerk fertig, und sollte in etwa so aussehen: <img alt="" src=images/InkFinishedArt.png  style="width:800px;"> 
+*align=center|Inkscape: Vorläufiges Layout der Vorlage* 
 
--   vergib einen sinnvollen Namen für jedes änderbaren Text
+
+
+## Editierbare Felder erstellen 
+
+9\. Mit dem XML-Editor jedes Textelement `<text>` durch hinzufügen von `freecad:editable` als editierbar kennzeichnen.
+
+-   Für jeden editierbaren Text einen sinnvollen Namen vergeben.
 
 <img alt="" src=images/InkXMLeditableTag.png  style="width:800px;"> 
-*align=center|Inkscape: XML Editor beim Hinzufügen der "freecad:editable" Eigenschaft zum gewünschten <text> Element* 
+*align=center|Inkscape: XML-Editor beim Hinzufügen der "freecad:editable" Eigenschaft zum gewünschten <text>-Element* 
 
-## Größe der SVG anpassen 
 
-10\. Verwende den XML Editor, um das `viewBox` Attribut so anzupassen, dass es deiner Seitengröße in Millimetern entspricht.
 
--   Es sind vier Werte im Format `"0 0 Breite Höhe"`
+## SVG-Zeichnungsgröße anpassen 
+
+10\. Mit dem XML-Editor das Attribut `viewBox` so anzupassen, dass es der Blattgröße in Millimetern entspricht.
+
+-   Das Format beinhaltet vier Werte `"0 0 width height"`
 
 <img alt="" src=images/InkXMLviewBox.png  style="width:800px;"> 
-*align=center|Inkscape: XML Editor beim Anpassen des Anzeigefeldes zur Übereinstimmung mit der Seitengröße in Millimetern* 
+*align=center|Inkscape: XML-Editor beim Anpassen des Anzeigebereiches (viewBox) Passend zur Blattgröße in Millimetern* 
 
-11\. Deine Vorlage wird nun viel größer als gewünscht erscheinen. <img alt="" src=images/InkMuchTooBig.png  style="width:800px;"> 
-*align=center|Inkscape: Vorläufiges Vorlagenlayout überschreitet die Seitengröße* 
+11\. Die Vorlage wird nun viel größer als gewünscht erscheinen. <img alt="" src=images/InkMuchTooBig.png  style="width:800px;"> 
+*align=center|Inkscape: Das vorläufige Layout der Vorlage überschreitet die Blattgröße* 
 
-12\. Wir müssen ihn verkleinern.
+12\. Sie muss verkleinert werden.
 
--    **Bearbeiten → Alles in allen Schichten auswählen**oder Kästchen auswählen und alles auswählen.
+-    **Bearbeiten → Alles auf allen Layern auswählen**oder mit Rechteckauswahl alles auswählen.
 
--   Passe die **W:** und **H:** Spinboxen an die Größe Ihres Kunstwerks in Millimetern an.
+-   Die Spinboxen **W:** und **H:** an die Größe des Kunstwerks in Millimetern anpassen.
 
--   Stelle sie auf die Seitengröße abzüglich der anwendbaren Ränder ein, z. B. **W: 250** und **H: 200**.
+-   Sie werden auf die Seitengröße abzüglich vorgesehener Ränder eingestellt, z. B. **W: 250** und **H: 200**.
 
-13\. Verwende \"Ausrichten und Verteilen\" oder die **X:** und **Y:** Spinboxen, um das Kunstwerk bei Bedarf innerhalb der Grenzen der Seite zu positionieren.
+13\. \"Ausrichten und Verteilen\" oder die Spinboxen **X:** und **Y:** verwenden, um das Kunstwerk bei Bedarf innerhalb der Grenzen der Seite zu positionieren.
 
-14\. Die Vorlage sollte nun so wie das Beispiel oben aussehen.
+14\. Die Vorlage sollte nun so wie die Abbildung oben aussehen.
 
-## Entferne Transformationen aus dem SVG 
 
-15\. Stelle sicher, dass alle editierbaren Textelemente nicht gruppiert sind mit **Shift**+**Strg**+**g**.
+
+## Transformationen aus dem SVG-Dokument entfernen 
+
+15\. Mit **Shift**+**Strg**+**g** wird sichergestellt, dass alle editierbaren Textelemente nicht gruppiert sind.
 
 16\. Wähle alles auf Deiner Seite **Bearbeiten → Alles auswählen**, und dann **Bearbeiten → Kopieren** (**Ctrl**+**c**).
 
@@ -119,7 +133,7 @@ Beachte, dass deine editierbaren Texte *nicht* funktionieren, wenn du \"<https:/
 
 ## Anmerkungen
 
-Verwende keine Lagen in Inkscape, bevor Du nicht Vorlagen ohne sie beherrscht. Lagen und Gruppen können unerwünschte Transformationen in der [SVG](SVG/de.md)-Datei verursachen.
+Es sollten keine Layer in Inkscape verwendet werden, solange man die Erstellung ohne sie nicht beherrscht. Layer und Gruppen können automatisch unerwünschte Transformationen in die [SVG](SVG/de.md)-Datei einfügen.
 
 Stelle als letzten Schritt vor der Verwendung deiner neuen Vorlage sicher, daß alle Umwandlungsklauseln aus dem Svg Code entfernt werden. Umwandlungsklauseln **werden Probleme verursachen**.
 
@@ -130,9 +144,11 @@ Wenn du die grünen Kästchen für deine bearbeitbaren Texte nicht siehst, ist m
 Wenn der Text in FreeCAD versetzt dargestellt wird, müssen eventuell die {{Incode|xml:space<nowiki>=</nowiki>"preserve"}}-Attribute aus der SVG-Datei entfernt werden. Siehe: <https://www.forum.freecadweb.org/viewtopic.php?t=50897>.
 
 
- {{TechDraw Tools navi}}
+{{TechDraw Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/de

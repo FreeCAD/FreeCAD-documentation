@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introducción
 
 
@@ -67,6 +69,8 @@ Path Workbench tiene dependencias externas que incluyen:
 
 </div>
 
+
+
 ## Limitaciones
 
 Some current limitations of which you should be aware are:
@@ -75,6 +79,8 @@ Some current limitations of which you should be aware are:
 -   Most of Path workbench is designed for a simple, standard 3-axis (xyz) CNC mill/router, but lathe tools are under development in 0.19_pre.
 -   Most operations in Path workbench will return paths based on a standard endmill tool/bit only, regardless of the tool/bit type assigned in a given tool controller with the exception of the **<img src="images/Path_Engrave.svg" width=24px> [Engrave](Path_Engrave.md)** and **<img src="images/Path_Surface.svg" width=24px> [3D Surface](Path_Surface.md)** operations.
 -   The operations within the Path workbench are not aware of clamping mechanisms in use to secure the model to your machine. Consequently, please review and simulate the paths you generate prior to sending the code to your machine. If necessary, model your clamping mechanisms in FreeCAD in order to better inspect the paths generated. Look for possible collisions with clamps or other obstacles along the paths.
+
+
 
 ## Unidades
 
@@ -183,13 +189,13 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_OpActiveToggle.svg  style="width:32px;"> [Toggle the Active State of the Operation](Path_OpActiveToggle.md): Activates or de-activates a path operation.
 
--   <img alt="" src=images/Path_ToolBitLibraryOpen.svg  style="width:32px;"> [ToolBit Library editor](Path_ToolBitLibraryOpen.md): Opens an editor to manage ToolBit libraries. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_ToolBitLibraryOpen.svg  style="width:32px;"> [ToolBit Library editor](Path_ToolBitLibraryOpen.md): Opens an editor to manage ToolBit libraries.
 
--   <img alt="" src=images/Path_ToolBitDock.svg  style="width:32px;"> [ToolBit Dock](Path_ToolBitDock.md): Toggles the ToolBit Dock. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_ToolBitDock.svg  style="width:32px;"> [ToolBit Dock](Path_ToolBitDock.md): Toggles the ToolBit Dock.
 
 ### Basic Operations 
 
--   <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profile](Path_Profile.md): Creates a profile operation of the entire model, or from one or more selected faces or edges. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profile](Path_Profile.md): Creates a profile operation of the entire model, or from one or more selected faces or edges.
 
 
 <div class="mw-translate-fuzzy">
@@ -225,7 +231,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_Adaptive.svg  style="width:32px;"> [Adaptive](Path_Adaptive.md): Creates an adaptive clearing and profiling operation.
 
--   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> [Slot](Path_Slot.md): Creates a slotting operation from selected features or custom points. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> [Slot](Path_Slot.md): Creates a slotting operation from selected features or custom points. [**Experimental**](Path_experimental.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -263,7 +269,9 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
--   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Waterline](Path_Waterline.md): Creates a waterline path for a 3D surface. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Waterline](Path_Waterline.md): Creates a waterline path for a 3D surface. [**Experimental**](Path_experimental.md).
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -273,7 +281,9 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
--   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:32px;"> [Boundary Dressup](Path_DressupPathBoundary.md): Adds a boundary dressup modification to a selected path.
+-   <img alt="" src=images/Path_DressupAxisMap.svg  style="width:32px;"> [Axis Map](Path_DressupAxisMap.md): Remaps one axis to another.
+
+-   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:32px;"> [Boundary](Path_DressupPathBoundary.md): Adds a boundary dressup modification to a selected path.
 
 
 <div class="mw-translate-fuzzy">
@@ -315,6 +325,10 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
+-   <img alt="" src=images/Path_DressupZCorrect.svg  style="width:32px;"> [Z Depth Correction](Path_DressupZCorrect.md): Corrects the Z depth using Probe Map.
+
+
+
 
 <div class="mw-translate-fuzzy">
 
@@ -355,6 +369,8 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
+-   <img alt="" src=images/Path_Probe.svg  style="width:32px;"> [Probe](Path_Probe.md): Creates a Probing Grid from a job stock.
+
 
 <div class="mw-translate-fuzzy">
 
@@ -362,6 +378,8 @@ Some commands are experimental and not available by default. To enable them see 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -395,6 +413,10 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
+### Specialty Operations 
+
+-   <img alt="" src=images/Path_ThreadMilling.svg  style="width:32px;"> [Thread Milling](Path_ThreadMilling.md): Creates a Path Thread Milling operation from features of a base object. [**Experimental**](Path_experimental.md).
+
 ### Miscellaneous
 
 
@@ -425,7 +447,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 ## ToolBit architecture 
 
-Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <small>(v0.19)</small> 
+Manage tools, bits, and the Tool Library. Based on the ToolBit architecture.
 
 -   [Path Tools](Path_Tools.md)
 -   [Path ToolShape](Path_ToolShape.md)
@@ -444,6 +466,8 @@ El ambiente de trabajo comparte muchos conceptos con otros paquetes de programas
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Preferencias
@@ -458,6 +482,8 @@ El ambiente de trabajo comparte muchos conceptos con otros paquetes de programas
 
 
 </div>
+
+
 
 ## Archivos de guión 
 

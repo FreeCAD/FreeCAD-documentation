@@ -49,7 +49,7 @@ Erstellt eine Anordnung ausgewählter Skizzenelemente.
 -   **Zeilen**: Anzahl der Zeilen der Anordnung.
 -   **Gleiche vertikale/horizontale Abstände**: Wenn die horizontalen und vertikalen Abstände zwischen den Elementen der Anordnung gleich groß sein sollen.
 -   **Abstand zwischen den Elementen festlegen**: Wenn aktiviert, wird der Abstand zwischen den Elementen der Anordnung festgelegt.Weiß man anfangs noch nicht, wie groß die Abstände zwischen den Elementen der Anordnung sein sollen, verwendet man diese Option, um sie später auf das erforderliche Maß einstellen zu können.
--   **Klonen**: ??
+-   **Klonen**: Wenn ausgewählt, werden maßliche Randbedingungen in den Kopien durch geometrische Randbedingungen ersetzt, sodass Änderungen am originalen Element auch an den Kopien erfolgen.
 
 
 

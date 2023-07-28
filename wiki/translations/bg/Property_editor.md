@@ -119,9 +119,6 @@ For 2D geometry, most objects are derived from `Part::Part2DObject` (itself deri
 
 ## Actions
 
-
-<small>(v0.19)</small> 
-
 Right clicking in an empty space of the view, or with a property selected, shows only one command:
 
 -    **Show all**: if active, in addition to the standard properties that appear already, it shows all the hidden Data and View properties in their respective tabs.

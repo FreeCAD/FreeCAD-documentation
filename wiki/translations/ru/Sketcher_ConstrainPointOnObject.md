@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/ru
-   Name/ru:Зафиксировать точку на объекте
+   Name/ru:Ограничить точку на объекте
    Name:Sketcher_ConstrainPointOnObject
-   MenuLocation:Sketch → Ограничения эскиза → Зафиксировать точку на объекте
+   MenuLocation:Sketch → Ограничения эскиза → Ограничить точку на объекте
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**O**
    SeeAlso:[Ограничение пересечения](Sketcher_ConstrainCoincident/ru.md)
@@ -10,9 +10,13 @@
 
 # Sketcher ConstrainPointOnObject/ru
 
+
+
 ## Описание
 
 Прикрепляет точку к таким объектам как: линия, дуга или ось эскиза.
+
+
 
 ## Применение
 
@@ -27,6 +31,8 @@
 
 
 </div>
+
+
 
 ## Программирование
 

@@ -1,41 +1,49 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher RectangularArray
-   MenuLocation:Sketch → Sketcher tools → Rectangular array
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Szyk prostokątny
+   MenuLocation:Szkic → Narzędzia szkicownika → Szyk prostokątny
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**Z** **A**
    Version:0.16
 ---
 
 # Sketcher RectangularArray/pl
 
-## Description
 
-Creates an array of selected sketcher elements.
 
-## Usage
+## Opis
 
-1.  Select sketcher elements in [task panel](Task_panel.md) or in [3D view](3D_view.md).
-2.  There are several ways to invoke the command:
-    -   Press the **[<img src=images/Sketcher_RectangularArray.svg style="width:16px"> [Rectangular array](Sketcher_RectangularArray.md)** button.
-    -   Select the **Sketch → Sketcher tools → [<img src=images/Sketcher_RectangularArray.svg style="width:16px"> Rectangular array** option from the menu.
-3.  Specify the options for the array in the dialog that opens.
-4.  Press the **OK** button.
-5.  Move the mouse in the [3D view](3D_view.md) towards the desired reference point.By keeping **Ctrl** pressed, the angle to the reference point can be fixed in steps of 5°. <small>(v0.20)</small> 
-6.  Left-click in the 3D view to create the array.
-7.  To set the distances between the array elements, edit the dimensional constraints of the array.
+Tworzy szyk wybranych elementów szkicownika.
 
-## Options
+
+
+## Użycie
+
+1.  Wybierz elementy szkicownika w oknie [panelu zadań](Task_panel/pl.md) lub w [widoku 3D](3D_view/pl.md).
+2.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk **[<img src=images/Sketcher_RectangularArray.svg style="width:16px"> [Szyk prostokątny](Sketcher_RectangularArray/pl.md)**.
+    -   Wybierz opcję z menu **Szkic → Narzędzia szkicownika → [<img src=images/Sketcher_RectangularArray.svg style="width:16px"> Szyk prostokątny**.
+3.  Określ opcje dla szyku w oknie dialogowym, które się otworzy.
+4.  Naciśnij przycisk **OK**.
+5.  Przesuń kursor myszki w oknie [widoku 3D](3D_view/pl.md) w kierunku żądanego punktu odniesienia.
+    Przez przytrzymanie klawisza **Ctrl**, kąt do punktu odniesienia może być ustalony w krokach co 5°. {{Version/pl|0.20}}
+6.  Kliknij lewym przyciskiem myszy w oknie widoku 3D, aby utworzyć szyk.
+7.  Aby ustalić odległości pomiędzy elementami szyku, edytuj wiązania wymiarowe szyku.
+
+
+
+## Opcje
 
 ![](images/Sketcher_RectangularArray_Options.jpg )
 
-**Rectangular array** has the following options:
+**Szyk prostokątny** ma następujące opcje:
 
--   **Colums**: The number of columns for the array.
--   **Rows**: The number of rows for the array.
--   **Equal vertical/horizontal spacing**: If the vertical distance between the array elements should be the same as the horizontal distance.
--   **Constrain inter-element separation**: When this is checked, the distance between the array elements will be constrained.If you for example only know that you need a 23 x 15 mm array, use this option to later be able to change these constraints to the dimensions you need.
--   **Clone**: ??
+-   **Kolumny**\': Liczba kolumn w szyku.
+-   **Wiersze**: Liczba rzędów w szyku.
+-   **Równe odstępy pionowe / poziome**: Jeśli odstęp pionowy między elementami szyku ma być taki sam jak odstęp poziomy.
+-   **Zwiąż odległości między elementami**: Po zaznaczeniu tej opcji, odległość między elementami tablicy będzie związana. Jeśli na przykład wiesz tylko, że potrzebujesz tablicy 23 x 15 mm, użyj tej opcji, aby później móc zmienić te więzy na wymiary, których potrzebujesz.
+-   **Klonuj**: Po wybraniu tej opcji, wiązania wymiarowe są zastępowane wiązaniami geometrycznymi w kopiach, tak że każda zmiana w oryginalnym elemencie jest również odzwierciedlona w kopiach.
 
 
 

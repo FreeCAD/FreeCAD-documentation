@@ -1,10 +1,19 @@
 # Raytracing Workbench/ro
-**The Raytracing workbench is essentially obsolete. New development is happening in the [https://github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. This workbench is fully programmed in Python so it is much easier to extend.
+<div class="mw-translate-fuzzy">
 
-Nevertheless, the information in this page is generally useful for the new workbench, as both modules work basically in the same way.
-**
+
+
+
+
+</div>
+
+
+**The '''Raytracing Workbench''' is no longer included after version 0.20.<br>
+ The external [https://github.com/FreeCAD/FreeCAD-render Render Workbench] should be used instead.**
 
 <img alt="Raytracing workbench icon" src=images/Workbench_Raytracing.svg  style="width:128px;">
+
+
 
 ## Introducere
 
@@ -21,7 +30,13 @@ Atelierul de Randare funcționează împreună cu modulele [templates](Raytracin
 
 În mod obișnuit, sunt susținute două tipuri de randare: [povray](http://en.wikipedia.org/wiki/POV-Ray) și [luxrender](http://en.wikipedia.org/wiki/LuxRender). Pentru a putea randa direct din FreeCAD, cel puțin unul dintre aceste programe trebuiesc instalate pe sistemul dvs., iar calea trebuie să fie configurată în preferințele FreeCAD Raytracing. Totuși dacă nici un program de randare nu este instalat, veți putea să exportați un fișier scenă care poate fi folosit ulterior.
 
+
+<div class="mw-translate-fuzzy">
+
 The Raytracing workbench is essentially obsolete. New development is happening in the [Render Workbench](https://github.com/FreeCAD/FreeCAD-render), which is intended as its replacement. This workbench is fully programmed in Python so it is much easier to extend than the current workbench which is programmed in C++. Nevertheless, the information in this page is generally useful for the new workbench, as both modules work basically in the same way.
+
+
+</div>
 
 <img alt="" src=images/Raytracing_example.jpg  style="width:1024px;">
 
@@ -44,7 +59,11 @@ The Raytracing workbench is essentially obsolete. New development is happening i
 
 *Workflow of the Raytracing Workbench; atelierul de lucru pregătește un fișier de proiect dintr-un șablon dat și apoi apelează un program extern pentru a produce randarea reală a scenei. Programul de randare extern poate fi folosit independent de FreeCAD.*
 
+
+
 ## Instrumente
+
+
 
 ### Instrumente de Proiect 
 
@@ -63,6 +82,8 @@ Acestea sunt instrumentele principale pentru exportul lucrării dvs. 3D la progr
 
 </div>
 
+
+
 ### Utilități
 
 Acestea sunt instrumente de ajutor pentru a efectua sarcini specifice în mod manual.
@@ -70,6 +91,8 @@ Acestea sunt instrumente de ajutor pentru a efectua sarcini specifice în mod ma
 -   <img alt="" src=images/Raytracing_WriteView.svg  style="width:32px;"> [Export view to povray](Raytracing_WriteView.md): Scrieți vizualizarea 3D activă cu camera și tot conținutul acesteia într-un fișier povray
 -   <img alt="" src=images/Raytracing_WriteCamera.svg  style="width:32px;"> [Export camera to povray](Raytracing_WriteCamera.md) Exportați poziția aparatului foto în vizualizarea 3D activă în format POV-Ray într-un fișier
 -   <img alt="" src=images/Raytracing_WritePart.svg  style="width:32px;"> [Export part to povray](Raytracing_WritePart.md): Scrieți Partea (obiect) selectată ca fișier povray
+
+
 
 ## Preferințe
 
@@ -90,9 +113,13 @@ Vi se va solicita o locație pentru salvarea fișierului \* .pov rezultat. După
 
 Ca de obicei, prin randare poți face poze mari și frumoase: <img alt="" src=images/Scharniergreifer_render.jpg  style="width:800px;">
 
+
+
 ## Script-Programare 
 
 A se vedea [Raytracing API example](Raytracing_API_example.md) pentru informații asupra scrierii programelor de scene.
+
+
 
 ## Legături
 
@@ -146,7 +173,13 @@ These pages refer to the new workbench, programmed in Python, meant to replace t
 -   [FreeCAD Renderer Workbench improvements](https://forum.freecadweb.org/viewtopic.php?t=39168)
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Raytracing Tools navi
@@ -156,4 +189,4 @@ These pages refer to the new workbench, programmed in Python, meant to replace t
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/ro

@@ -9,6 +9,8 @@
 
 # SheetMetal Extrude/de
 
+
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/SheetMetal_Extrude.svg  style="width:24px;"> **Kante verlängern** erweitert eine Blechplatte an einer ausgewählten Kantenfläche.
@@ -25,7 +27,11 @@ Wenn eine Konturskizze hinzugefügt wird, erzeugt er **verzahnte Geometrie** um 
 
 *Drei Profile mit hinzuzufügenden Konturskizzen → Drei Ergebnisse*
 
+
+
 ## Anwendung
+
+
 
 ### Einfache Verlängerung 
 
@@ -35,6 +41,8 @@ Wenn eine Konturskizze hinzugefügt wird, erzeugt er **verzahnte Geometrie** um 
     -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_Extrude.svg" width=16px> Kante verlängern**.
     -   Das Tastenkürzel: **E**.
 3.  Den Wert der {{PropertyData/de|length}} verändern, um die Länge der Verlängerung einzustellen.
+
+
 
 ### Verzahnte Erweiterung 
 
@@ -49,6 +57,8 @@ Wenn eine Konturskizze hinzugefügt wird, erzeugt er **verzahnte Geometrie** um 
 
 
 *Drei Profile → Position der Skizzen → Ergebnisse ohne Ausschnitte → Endergebnisse*
+
+
 
 ### Hinweise
 
@@ -74,13 +84,17 @@ Wenn eine Konturskizze hinzugefügt wird, erzeugt er **verzahnte Geometrie** um 
 
 -   Für eine Erweiterung wird empfohlen, die {{PropertyData/de|Refine}} auf `True` (default) gesetzt zu lassen.
 
--   The extension operation with a linked sketch may fail due to coplanar issues if the face on the sketch side and the face on the opposite side are coplanar, but with opposite orientations. A small offset may help in such a case.
+-   Die Operation KanteVerlängern mit einer verknüpften Skizze könnte aufgrund von Komplanar-Problemen versagen, wenn die Fläche auf der Skizzenseite und die Fläche auf der gegenüberliegenden Seite komplanar sind aber mit gegensätzlichen Ausrichtungen. Ein kleiner Versatz könnte in so einem Fall helfen.
+
+
 
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein SheetMetal-Extend-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
 

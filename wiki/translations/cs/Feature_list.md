@@ -9,6 +9,8 @@ Toto je obsáhlý, i když ne kompletní, seznam charakteristických vlastností
 
 {{TOCright}}
 
+
+
 ## Poznámky k verzím 
 
 
@@ -20,6 +22,8 @@ Toto je obsáhlý, i když ne kompletní, seznam charakteristických vlastností
 
 
 </div>
+
+
 
 ## Klíčové vlastnosti 
 
@@ -38,6 +42,8 @@ Toto je obsáhlý, i když ne kompletní, seznam charakteristických vlastností
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

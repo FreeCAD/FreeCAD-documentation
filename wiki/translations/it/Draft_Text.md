@@ -54,7 +54,7 @@ Le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle at
 ## Note
 
 -   Un Testo può essere modificato facendo doppio clic su di esso nella [Vista albero](Tree_view/it.md). {{Version/it|0.20}}
--   I Testi creati o salvati con [FreeCAD versione 1.0](Release_notes_1.0/it.md) non sono compatibili con le versioni precedenti.
+-   I Testi creati o salvati con [FreeCAD versione 0.21](Release_notes_0.21/it.md) non sono compatibili con le versioni precedenti.
 
 
 
@@ -89,7 +89,7 @@ Un oggetto Draft Testo deriva da un oggetto [App FeaturePython](App_FeaturePytho
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifica come viene visualizzato il testo. Se è {{value|World}} il testo verrà visualizzato su un piano definito dal suo **Placement**. Se è {{value|Screen}} il testo sarà sempre rivolto verso lo schermo. Questa è una proprietà ereditata. Le opzioni menzionate sono le opzioni rinominate ({{Version/it|1.0}}).
+-    **Display Mode|Enumeration**: specifica come viene visualizzato il testo. Se è {{value|World}} il testo verrà visualizzato su un piano definito dal suo **Placement**. Se è {{value|Screen}} il testo sarà sempre rivolto verso lo schermo. Questa è una proprietà ereditata. Le opzioni menzionate sono le opzioni rinominate ({{Version/it|0.21}}).
 
 
 {{TitleProperty|Graphics}}

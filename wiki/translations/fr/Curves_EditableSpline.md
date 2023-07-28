@@ -12,11 +12,16 @@
 
 <img alt="" src=images/Curves_EditableSpline.svg  style="width:24px;"> [Curves Modifier une B-spline](Curves_EditableSpline/fr.md) crée une courbe B-spline à main levée. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Curves](Curves_Workbench/fr.md).
 
+
+
 ## Utilisation
 
-1.  Passer à l\'atelier <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench/fr.md) (à installer à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) si ce n\'est pas déjà fait)
-2.  Pour appeler la commande, effectuez l\'une des opérations suivantes:
-    -   Appuyez sur le bouton <img alt="" src=images/Curves_EditableSpline.svg  style="width:24px;"> dans la barre d\'outils Curves.
+1.  Passez à l\'atelier <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench/fr.md) (à installer à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) si ce n\'est pas déjà fait).
+2.  Vous pouvez sélectionner des sommets, des arêtes et/ou des faces :
+    -   Le nombre de sommets de la spline correspondra au nombre d\'éléments sélectionnés.
+    -   Les sommets de la spline seront rattachés aux sommets sélectionnés et aux points médians des arêtes et des faces sélectionnées.
+3.  Pour lancer la commande, effectuez l\'une des opérations suivantes :
+    -   Appuyez sur le bouton <img alt="" src=images/Curves_EditableSpline.svg  style="width:24px;"> de la barre d\'outils Curves.
     -   Utilisez l\'entrée **Curves → Freehand BSpline** dans le menu déroulant.
 
 ## Options
@@ -34,9 +39,15 @@ Pendant la commande, un mode d\'édition spécial est actif et il y a plusieurs 
 -   Les touches **X**, **Y** ou **Z** peuvent être utilisées pour contraindre le mouvement de l\'objet que l\'on fait glisser. Tout en faisant glisser l\'objet, appuyez sur la touche de l\'axe souhaité. Appuyez à nouveau sur la même touche pour désactiver la contrainte.
 -   La touche **Q** termine la commande et quitte le mode d\'édition.
 
+
+
 ## Limitations
 
+
+
 ## Propriétés
+
+
 
 ## Script
 

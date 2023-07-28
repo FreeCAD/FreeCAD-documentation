@@ -6,6 +6,8 @@
 
 {{TOCright}}
 
+
+
 ## はじめに
 
 <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM Workbenchは](BIM_Workbench.md)、FreeCADにて[Building Information Modeling](https://ja.wikipedia.org/wiki/BIM) (BIM)のためのツールや一連の作業を実装することを目的とした[外部ワークベンチです](External_workbenches.md)。<img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Managerから導入可能です](Std_AddonMgr.md)。
@@ -20,7 +22,7 @@ The developers of Draft, Arch and BIM also collaborate with the greater [OSArch 
 
 ## Installing
 
-The BIM workbench is not bundled with the default FreeCAD package, but can easily be installed via the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). Invoke it from **Tools → [Addons Manager](Std_AddonMgr.md)**. The BIM workbench code is [hosted and developed on github](https://github.com/yorikvanhavre/BIM_Workbench) and can also be installed manually by copying it into FreeCAD\'s **MOD** directory.
+The BIM workbench is not bundled with the default FreeCAD package, but can easily be installed via the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). Invoke it from **Tools → Addon Manager**. The BIM workbench code is [hosted and developed on github](https://github.com/yorikvanhavre/BIM_Workbench) and can also be installed manually by copying it into FreeCAD\'s **MOD** directory.
 
 **Note**
 

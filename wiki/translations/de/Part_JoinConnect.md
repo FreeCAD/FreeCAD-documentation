@@ -10,47 +10,40 @@
 
 # Part JoinConnect/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug Verbinden verbindet die Innenbereiche von zwei Hohlkörpern (z.B. Rohre). Es kann auch Schalenobjekte und Drähte verbinden.
 
 ![600px](images/JoinFeatures_Connect.png)
 
+
+
 ## Anwendung
 
-1.  Wähle die zu verbindenden Objekte aus.
-    Die Reihenfolge der Auswahl ist nicht wichtig, da die Wirkung des Werkzeugs symmetrisch ist. Es genügt, von jedem Objekt (z.B. Flächen) eine Teilform auszuwählen. Du kannst auch eine Verbindung auswählen, die alle zu verbindenden Formen enthält, z.B. [Draft_OrthoArray/de/Draft rechtwinklige Anordnung](Draft_OrthoArray/de/Draft_rechtwinklige_Anordnung.md).
-2.  Rufe den Befehl Part FügenVerbinden auf.
-    -   Drücke die <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> [Part FügeVerbinden](Part_JoinConnect/de.md)-Schaltfläche in der Part-Werkzeugleiste
-    -   Benutze den **Part → Join → Connect objects**-Eintrag im Part-Menü
+1.  Die zu verbindenden Objekte auswählen.
+    Die Reihenfolge der Auswahl ist nicht wichtig, da die Wirkung des Werkzeugs symmetrisch ist. Es genügt, von jedem Objekt eine Teilform (z.B. Flächen) auszuwählen. Es kann auch ein Verbund ausgewählt werden, der alle zu verbindenden Formen enthält, z.B. [Draft RechtwinkligeAnordnung](Draft_OrthoArray/de.md).
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> [Part Connect objects](Part_JoinConnect/de.md) in der Part-Werkzeugleiste drücken.
+    -   Den Menüeintrag **Part → Verbinden → Objekte verbinden** auswählen.
+
+Ein parametrisches Verbindungsobjekt wird erstellt. Originalobjekte werden ausgeblendet, und das Ergebnis der Verbindung wird in der [3D-Ansicht](3D_view/de.md) angezeigt.
 
 
-<div class="mw-translate-fuzzy">
-
-Ein parametrisches Verbindungsobjekt wird erstellt. Originalobjekte werden ausgeblendet, und das Ergebnis der Verbindung wird in der [3D Ansicht](3D_view/de.md) angezeigt.
-
-
-</div>
 
 ## Eigenschaften
 
 
 {{TitleProperty|Connect}}
 
+-    {{PropertyData/de|Objects}}: Liste der zu verbindenden Objekte. Im Allgemeinen werden mindestens zwei Objekte benötigt, aber ein einziger Verbund, der die zu verbindenden Formen enthält, reicht ebenfalls aus. (seit FreeCAD v0.17.8053 wird diese Eigenschaft nicht mehr im [Eigenschafteneditor](Property_editor/de.md) angezeigt und kann nur über [Python](#Skripten.md) aufgerufen werden).
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Refine}}: Legt fest, ob die Operation [FormAufbereiten](Part_RefineShape/de.md) auf die endgültige Form angewendet werden soll oder nicht. Der Standardwert wird durch ein Kontrollkästchen \'Form nach boolescher Operation automatisch aufbereiten\' in den [PartDesign Einstellungen](PartDesign_Preferences/.md) bestimmt.
 
-
-{{TitleProperty|Verbindung}}
-
--    **Objects**: Liste der zu verbindenden Objekte. Im Allgemeinen werden mindestens zwei Objekte benötigt, aber ein einziger Verbund, der die zu verbindenden Formen enthält, reicht ebenfalls aus. (ab FreeCAD v0.17.8053 wird diese Eigenschaft nicht mehr im Eigenschaftseditor angezeigt und kann nur über Python aufgerufen werden).
-
--    {{PropertyData/de|Verfeinern}}: Legt fest, ob die Operation [Verfeinern](Part_RefineShape/de.md) auf die endgültige Form angewendet werden soll oder nicht. Der Standardwert wird durch ein Kontrollkästchen \'Form nach boolescher Operation automatisch verfeinern\' in den PartDesign Einstellungen bestimmt.
-
--    {{PropertyData/de|Toleranz}}: \"Unschärfe\" Wert. Dies ist eine zusätzliche Toleranz, die bei der Suche nach Schnittmengen zusätzlich zu den in den Eingabeformen gespeicherten Toleranzen anzuwenden ist.
+-    {{PropertyData/de|Tolerance}}: \"Unschärfe\" Wert. Dies ist eine zusätzliche Toleranz, die bei der Suche nach Schnittmengen zusätzlich zu den in den Eingangsformen gespeicherten Toleranzen anzuwenden ist.
 
 
-</div>
 
 ## Beispiel
 
@@ -63,29 +56,19 @@ Ein parametrisches Verbindungsobjekt wird erstellt. Originalobjekte werden ausge
 4.  Verwende ein Querschnittswerkzeug ([Ausschnittebene](Std_ToggleClipPlane/de.md), [Arch Abschnittebene](Arch_SectionPlane/de.md), [Arch Schneideebene](Arch_CutPlane/de.md)), um Einbauten freizulegen. Auf dem Bild unten wird die Bogenschnittebene verwendet.
     ![320px](images/JoinFeatures_Example_step4_Connect.png)
 
-## Algorithm
 
-
-<div class="mw-translate-fuzzy">
 
 ## Algorithmus
 
-Die Algorithmen hinter den Fügewerkzeugen sind recht einfach, und es ist wichtig, sie zu verstehen, um die Werkzeuge richtig zu verwenden. Insbesondere der Algorithmus von Verbinden ist etwas komplexer als andere, aber es genügt im Allgemeinen, ihn als symmetrische Variante von [Algorithmus einbetten](Part_JoinEmbed#Algorithm/de.md) zu betrachten.
+Die Algorithmen hinter den Fügewerkzeugen sind recht einfach, und es ist wichtig, sie zu verstehen, um die Werkzeuge richtig zu verwenden. Insbesondere der Algorithmus von Verbinden ist etwas komplexer als andere, aber es genügt im Allgemeinen, ihn als symmetrische Variante des Einbetten-[Algorithmus](Part_JoinEmbed/de#Algorithms.md) zu betrachten.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-1\. Jedes Objekt wird durch Überschneidungen mit anderen Objekten in Stücke zerlegt. (siehe [Part Boolsche Fragmente](Part_BooleanFragments.md))
-
-
-</div>
+1\. Jedes Objekt wird durch Überschneidungen mit anderen Objekten in Stücke zerlegt. (siehe [Part BoolescheFragmente](Part_BooleanFragments/de.md))
 
 2\. Von den Teilen eines Objekts wird nur das größte beibehalten; alle anderen werden entfernt.
 
 3\. Überschneidungselemente, die mindestens zwei Objekte berühren, werden dem Ergebnis hinzugefügt. Anschließend werden die Teile miteinander verbunden, um das Ergebnis von Verbinden zu bilden.
+
+
 
 ### Hinweise
 
@@ -94,15 +77,11 @@ Die Algorithmen hinter den Fügewerkzeugen sind recht einfach, und es ist wichti
 -   Das \"größte\" Stück ist dasjenige mit der größten Masse. Das heißt, für Festkörper werden Volumen verglichen; für Hüllen und Flächen werden Flächen verglichen, usw.
 -   Seit FreeCAD v0.17.8053 und wenn die OCC-Version 6.9.0 und höher ist, ist Verbinden fast so schnell wie alle anderen booleschen Operationen. Bei älteren Versionen ist Verbinden etwa 5 mal langsamer als ein normaler boolescher Vorgang und funktioniert nur bei Festkörpern.
 
+
+
 ## Skripten
 
-
-<div class="mw-translate-fuzzy">
-
-Die Fügewerkzeuge können in [macros/de](macros/de.md) und von der Python-Konsole aus mit der folgenden Funktion verwendet werden:
-
-
-</div>
+Die Fügewerkzeuge können in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden:
 
 **BOPTools.JoinFeatures.makeConnect(name)**
 

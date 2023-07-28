@@ -10,20 +10,31 @@
 
 # TechDraw DraftView/fr
 
+
+</div>
+
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> [Vue d\'un objet Draft](TechDraw_DraftView/fr.md) insère une vue d\'un objet basé sur [Part](Part_Workbench/fr.md) ou Groupe sélectionné dans une page de dessin. Contrairement à l\'outil <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [Vue](TechDraw_View/fr.md), les vues créées avec cet outil sont gérées par <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) et spécialement conçues pour montrer des objets 2D. Voir [Remarques](#Remarques.md).
+L\'outil **TechDraw Vue d\'un objet Draft** insère une vue d\'un objet basé sur [Part](Part_Workbench/fr.md) ou Groupe sélectionné dans une page de dessin. Contrairement à l\'outil <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [Vue](TechDraw_View/fr.md), les vues créées avec cet outil sont gérées par <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) et spécialement conçues pour montrer des objets 2D. Voir [Remarques](#Remarques.md).
 
 ![](images/TechDraw_DraftView_example.png ) 
 *Éléments Draft tels que des cercles et des réseaux importés dans une page de dessin TechDraw*
 
+
+
 ## Utilisation
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Sélectionnez un objet Draft dans la vue 3D ou dans l\'arborescence
 2.  Si vous avez plusieurs pages de dessin dans votre document, vous devrez sélectionner la page souhaitée dans l\'arborescence.
 3.  Appuyez sur le bouton **<img src="images/TechDraw_DraftView.svg" width=16px> [Insérer un objet de l'atelier Draft](TechDraw_DraftView/fr.md)
 **
 4.  Une vue d\'un objet Draft apparaîtra sur la page.
+
+
+</div>
 
 ## Options
 
@@ -33,9 +44,19 @@ L\'outil <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> [Vu
 -   La couleur, la largeur et le motif des lignes peuvent être spécifiés dans les propriétés. Les motifs de ligne peuvent être affinés en donnant directement une valeur [stroke-dasharray](https://www.w3.org/TR/SVG/painting.html#StrokeProperties), telle que 3,5.
 -   Les surfaces projetées sont remplies de la couleur de la surface.
 
+
+
+## Remarques
+
+La Vue d\'un objet Draft est affiché dans l\'[atelier Draft](Draft_Workbench/fr.md). TechDraw a donc un contrôle limité sur son apparence. Vous devrez peut-être apporter des modifications dans Draft pour obtenir la représentation souhaitée.
+
+
+
 ## Propriétés
 
 Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
+
+
 
 ### Données
 
@@ -58,9 +79,7 @@ Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
 
 -    **Override Style|Bool**: si `True`, la couleur, la largeur et le style des lignes de cette vue remplaceront ceux de l\'objet rendu.
 
-## Remarques
 
-La Vue d\'un objet Draft est affiché dans l\'[atelier Draft](Draft_Workbench/fr.md). TechDraw a donc un contrôle limité sur son apparence. Vous devrez peut-être apporter des modifications dans Draft pour obtenir la représentation souhaitée.
 
 ## Script
 

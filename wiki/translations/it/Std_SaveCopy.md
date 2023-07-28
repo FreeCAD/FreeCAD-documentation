@@ -2,7 +2,6 @@
 - GuiCommand:/it
    Name:Std_SaveCopy
    Name/it:Salva una copia
-   Empty:1
    MenuLocation:File → Salva una copia...
    Workbenches:All
    SeeAlso:[Salva con nome](Std_SaveAs/it.md), [Salva](Std_Save/it.md)
@@ -11,31 +10,32 @@
 # Std SaveCopy/it
 
 
-</div>
 
 ## Descrizione
 
 Il comando **Salva una copia** salva una copia del documento attivo con un nuovo nome di file.
 
+
+
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare **File → Salva una copia...** nel menu.
+1.  Selezionare **File →  <img src="images/Std_SaveCopy.svg" width=16px> Salva una copia...** nel menu.
 2.  Immettere un nome per il file nella finestra di dialogo.
 3.  Premere il pulsante **Salva**.
 
 
-</div>
 
 ## Opzioni
 
 -   Premere il tasto **Esc** o il pulsante **Annulla** per annullare il comando.
 
+
+
 ## Preferenze
 
 -   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
+
+
 
 ## Script
 
@@ -63,13 +63,7 @@ doc.saveCopy(fnm)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

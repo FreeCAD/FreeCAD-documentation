@@ -48,13 +48,14 @@ This category contains all Unfinished Documents
 | [Part BoxSelection/en](Part_BoxSelection/en.md) | [Part ElementCopy/en](Part_ElementCopy/en.md) | [Part Loft/en](Part_Loft/en.md) |
 | [Part Mirror/en](Part_Mirror/en.md) | [Part Offset/en](Part_Offset/en.md) | [Part RuledSurface/en](Part_RuledSurface/en.md) |
 | [Part TransformedCopy/en](Part_TransformedCopy/en.md) | [PartDesign Examples/en](PartDesign_Examples/en.md) | [Path Area Workplane/en](Path_Area_Workplane/en.md) |
-| [Path Area/en](Path_Area/en.md) | [Path DressupLeadInOut/en](Path_DressupLeadInOut/en.md) | [Path Engrave/en](Path_Engrave/en.md) |
-| [Path Fixture/en](Path_Fixture/en.md) | [Path Helix/en](Path_Helix/en.md) | [Path MillFace/en](Path_MillFace/en.md) |
-| [Path OpActiveToggle/en](Path_OpActiveToggle/en.md) | [Path Pocket 3D/en](Path_Pocket_3D/en.md) | [Path Postprocessor Customization/en](Path_Postprocessor_Customization/en.md) |
+| [Path Area/en](Path_Area/en.md) | [Path DressupAxisMap/en](Path_DressupAxisMap/en.md) | [Path DressupLeadInOut/en](Path_DressupLeadInOut/en.md) |
+| [Path DressupZCorrect/en](Path_DressupZCorrect/en.md) | [Path Engrave/en](Path_Engrave/en.md) | [Path Fixture/en](Path_Fixture/en.md) |
+| [Path Helix/en](Path_Helix/en.md) | [Path MillFace/en](Path_MillFace/en.md) | [Path OpActiveToggle/en](Path_OpActiveToggle/en.md) |
+| [Path Pocket 3D/en](Path_Pocket_3D/en.md) | [Path Postprocessor Customization/en](Path_Postprocessor_Customization/en.md) | [Path Probe/en](Path_Probe/en.md) |
 | [Path Sanity/en](Path_Sanity/en.md) | [Path Shape/en](Path_Shape/en.md) | [Path Simulator/en](Path_Simulator/en.md) |
-| [Path Surface/en](Path_Surface/en.md) | [Path ToolBit Library/en](Path_ToolBit_Library/en.md) | [Path ToolBit/en](Path_ToolBit/en.md) |
-| [Path ToolBitDock/en](Path_ToolBitDock/en.md) | [Path ToolBitLibraryOpen/en](Path_ToolBitLibraryOpen/en.md) | [Path ToolController/en](Path_ToolController/en.md) |
-| [Path Tools/en](Path_Tools/en.md) | [Path Waterline/en](Path_Waterline/en.md) | [POV-Ray-Rendering Workbench/en](POV-Ray-Rendering_Workbench/en.md) |
+| [Path Surface/en](Path_Surface/en.md) | [Path ThreadMilling/en](Path_ThreadMilling/en.md) | [Path ToolBit Library/en](Path_ToolBit_Library/en.md) |
+| [Path ToolBit/en](Path_ToolBit/en.md) | [Path ToolBitDock/en](Path_ToolBitDock/en.md) | [Path ToolBitLibraryOpen/en](Path_ToolBitLibraryOpen/en.md) |
+| [Path ToolController/en](Path_ToolController/en.md) | [Path Tools/en](Path_Tools/en.md) | [Path Waterline/en](Path_Waterline/en.md) |
 | [Pyrate Workbench/en](Pyrate_Workbench/en.md) | [Robot SetDefaultOrientation/en](Robot_SetDefaultOrientation/en.md) | [SheetMetal AddBase/en](SheetMetal_AddBase/en.md) |
 | [SheetMetal AddBend/en](SheetMetal_AddBend/en.md) | [SheetMetal AddCornerRelief/en](SheetMetal_AddCornerRelief/en.md) | [SheetMetal AddFoldWall/en](SheetMetal_AddFoldWall/en.md) |
 | [SheetMetal AddJunction/en](SheetMetal_AddJunction/en.md) | [SheetMetal AddRelief/en](SheetMetal_AddRelief/en.md) | [SheetMetal AddWall/en](SheetMetal_AddWall/en.md) |
@@ -62,9 +63,9 @@ This category contains all Unfinished Documents
 | [SheetMetal SketchOnSheet/en](SheetMetal_SketchOnSheet/en.md) | [SheetMetal UnattendedUnfold/en](SheetMetal_UnattendedUnfold/en.md) | [SheetMetal Unfold/en](SheetMetal_Unfold/en.md) |
 | [SheetMetal Workbench/en](SheetMetal_Workbench/en.md) | [Ship Capacity/en](Ship_Capacity/en.md) | [Ship GZ/en](Ship_GZ/en.md) |
 | [Ship LoadCondition/en](Ship_LoadCondition/en.md) | [Silk Workbench/en](Silk_Workbench/en.md) | [Sketcher ConstrainHorizontal/en](Sketcher_ConstrainHorizontal/en.md) |
-| [Sketcher SelectElementsWithDoFs/en](Sketcher_SelectElementsWithDoFs/en.md) | [Std MacroAttachDebugger/en](Std_MacroAttachDebugger/en.md) | [TechDraw Section Examples/en](TechDraw_Section_Examples/en.md) |
-| [Transient FEM analysis/en](Transient_FEM_analysis/en.md) | [WikiPages/en](WikiPages/en.md) | [Windows packaging/en](Windows_packaging/en.md) |
-|
+| [Sketcher Examples/en](Sketcher_Examples/en.md) | [Sketcher SelectElementsWithDoFs/en](Sketcher_SelectElementsWithDoFs/en.md) | [Std MacroAttachDebugger/en](Std_MacroAttachDebugger/en.md) |
+| [TechDraw Section Examples/en](TechDraw_Section_Examples/en.md) | [Transient FEM analysis/en](Transient_FEM_analysis/en.md) | [WikiPages/en](WikiPages/en.md) |
+| [Windows packaging/en](Windows_packaging/en.md) |
 
 
 

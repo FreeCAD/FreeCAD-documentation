@@ -2,44 +2,64 @@
 - GuiCommand:/de
    Name:TechDraw Midpoints
    Name/de:TechDraw Mittenpunkte
-   MenuLocation:TechDraw → Knoten hinzufügen → Mittenpunktknoten hinzufügen
+   MenuLocation:TechDraw → Knoten hinzufügen → Kantenmittelpunkte hinzufügen
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Version:0.19
-   SeeAlso:[TechDraw Kosmetik Knoten](TechDraw_CosmeticVertex/de.md), [TechDraw Quadrantenknoten](TechDraw_Quadrants/de.md)
+   SeeAlso:[TechDraw Hilfspunkt](TechDraw_CosmeticVertex/de.md), [TechDraw Quadrantenknoten](TechDraw_Quadrants/de.md)
 ---
 
 # TechDraw Midpoints/de
 
+
+</div>
+
+
+
 ## Beschreibung
 
-Das Mittenpunkte Werkzeug fügt kosmetische [Knoten (=Vertices)](Glossary/de#V.md) an den Mittenpunkten einer oder mehrerer Kanten hinzu.
+Das Werkzeug **TechDraw Mittenpunkte** fügt einer oder mehreren Kanten einen Hilfspunkt ([Knoten](Glossary/de#Vertex.md)) auf halber Länge hinzu.
 
 <img alt="" src=images/TechDraw_CosmeticMidpoint_Sample.png  style="width:250px;"> 
-*Kosmetische Knoten an Kantenmittenpunkten*
+*Hilfspunkte an Kantenmittenpunkten*
+
+
 
 ## Anwendung
 
-1.  Wähle eine oder mehrere Kanten in einer Ansicht aus.
-2.  Drücke die **<img src="images/TechDraw_Midpoints.svg" width=16px> Mittenpunktknoten hinzufügen** Taste.
-3.  Kosmetischen Knoten werden an den Mittenpunkt(en) der Kante(n) hinzugefügt.
 
-Um einen Mittenpunkt zu löschen, wähle ihn aus und verwende die Werkzeugleistenschaltfläche **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Kosmetikobjekt entfernen](TechDraw_CosmeticEraser/de.md)**.
+<div class="mw-translate-fuzzy">
+
+1.  Eine oder mehrere Kanten in einer Ansicht auswählen.
+2.  Die Schaltfläche **<img src="images/TechDraw_Midpoints.svg" width=16px> Kantenmittelpunkte hinzufügen** drücken.
+3.  Hilfspunkte werden auf der halben Länge der Kante(n) hinzugefügt.
+
+
+</div>
+
+## Notes
+
+-   The created cosmetic vertices are not parametrically linked to the selected edges.
+-   To delete a cosmetic vertex use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
+
+
 
 ## Eigenschaften
 
-Kosmetische Knoten haben keine eigenen Eigenschaften, da sie keine Dokumentobjekte sind. Sie teilen Farb- und Größeneinstellungen mit regulären Geometrieknoten.
+Hilfspunkte haben keine eigenen Eigenschaften, da sie keine Dokumentobjekte sind. Sie verwenden dieselben Farb- und Größeneinstellungen wie reguläre Geometrieknoten.
+
+
 
 ## Skripten
 
 Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Kosmetikknoten sind zur Zeit nicht über [Makros](Macros/de.md) oder die [Python](Python/de.md) Konsole zugänglich. Dieser Schnipsel entfernt alle Kosmetikknoten aus der Ansicht.
+Hilfspunkte sind zur Zeit nicht über [Makros](Macros/de.md) oder die [Python](Python/de.md)-Konsole erreichbar. Dieser Schnipsel entfernt alle Hilfspunkte aus der Ansicht.
 
 
 ```python
->>> v = App.ActiveDocument.View
->>> v.clearCV()
->>> App.activeDocument().recompute()
+v = App.ActiveDocument.View
+v.clearCV()
+App.ActiveDocument.recompute()
 ```
 
 

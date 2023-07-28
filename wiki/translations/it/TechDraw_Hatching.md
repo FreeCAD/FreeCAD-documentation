@@ -1,6 +1,8 @@
 # TechDraw Hatching/it
 {{TOCright}}
 
+
+
 ## Descrizione
 
 
@@ -87,6 +89,8 @@ Se si dispone dell\'autorizzazione alla scrittura è possibile aggiungere i prop
 
 
 </div>
+
+
 
 ### Percorso del file PAT 
 

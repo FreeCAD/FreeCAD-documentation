@@ -95,9 +95,7 @@ An orphaned package is one with no current maintainer. Orphaned packages should 
 
 AT LEAST ONE REQUIRED (multiple allowed)
 
-Name of license for this package, e.g. BSD, GPL, LGPL. In order to assist machine readability, only include the license\'s SPDX short identifier (documented by OSI at [their site](https://opensource.org/licenses/alphabetical)). For multiple licenses multiple separate tags must be used. A package will have multiple licenses if different source files have different licenses. Every license occurring in the source files should have a corresponding  tag. For any explanatory text about licensing caveats, please use the  tag.
-
-Most common open-source licenses are described on the [OSI website](https://opensource.org/licenses/alphabetical).
+SPDX short identifier of the license(s) for this package, e.g. BSD-2-Clause, GPL-3, LGPL-2.1. In order to assist machine readability, only include the license\'s SPDX short identifier (see [the SPDX site](https://spdx.org/licenses/)). For multiple licenses multiple separate tags must be used. A package will have multiple licenses if different source files have different licenses. Every license occurring in the source files should have a corresponding  tag. For any explanatory text about licensing caveats, please use the  tag.
 
 Commonly-used license strings:
 
@@ -113,16 +111,16 @@ Commonly-used license strings:
 -    `"BSL-1.0"`
     
 
--    `"GPL-2"`
+-    `"GPL-2.0-or-later"`
     
 
--    `"GPL-3"`
+-    `"GPL-3.0-or-later"`
     
 
--    `"LGPL-2.1"`
+-    `"LGPL-2.1-or-later"`
     
 
--    `"LGPL-3"`
+-    `"LGPL-3.0-or-later"`
     
 
 -    `"MIT"`
@@ -131,7 +129,7 @@ Commonly-used license strings:
 -    `"MPL-1.1"`
     
 
--    `"CC0v1"`(Public Domain dedication)
+-    `"CC0-1.0"`(Public Domain dedication)
 
 #### Attributes 
 
@@ -300,7 +298,7 @@ A simple workbench-only package (for example, to add a metadata file to a packag
       <version>1.0.1</version> 
       <date>2022-01-07</date> 
       <maintainer email="your_address@null.com">Your Name</maintainer>
-      <license file="LICENSE">LGPL-2.1</license> 
+      <license file="LICENSE">LGPL-2.1-or-later</license> 
       <url type="repository" branch="main">https://github.com/chennes/FreeCAD-Package</url> 
       <url type="readme">https://github.com/chennes/FreeCAD-Package/blob/main/README.md</url> 
       <icon>Resources/icons/PackageIcon.svg</icon> 
@@ -323,7 +321,7 @@ A complex, multi-component package:
       <version>2022.01</version>
       <date>2022-01-07</date>
       <maintainer email="no-one@freecad.org">No Maintainer</maintainer>
-      <license file="LICENSE">GPL-3</license>
+      <license file="LICENSE">GPL-3.0-or-later</license>
       <url type="repository" branch="main">https://github.com/chennes/FreeCAD-Package</url>
       <icon>PackageIcon.svg</icon>
 
@@ -363,7 +361,7 @@ A package with dependencies:
       <version>1.0.1-beta3</version>
       <date>2022-01-07</date>
       <maintainer email="no-one@freecad.org">No Maintainer</maintainer>
-      <license file="LICENSE">GPL-3</license>
+      <license file="LICENSE">GPL-3.0-or-later</license>
       <url type="repository" branch="main">https://github.com/chennes/FreeCAD-Package</url>
       <icon>PackageIcon.svg</icon>
 

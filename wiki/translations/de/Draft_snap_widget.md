@@ -1,12 +1,16 @@
 # Draft snap widget/de
 {{TOCright}}
 
+
+
 ## Beschreibung
 
-The **Draft snap widget** is an alternative for the Draft snap toolbar. The widget is available in the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) and the <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbench](Arch_Workbench.md). It is an [optional](#Preferences.md) GUI element that is located in the [Status bar](Status_bar.md).
+Das **Draft WidgetFangen** ist eine Alternative zur Symbolleiste Draft-Einrasten. Das Widget steht nur im Arbeitsbereich <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md) zur Verfügung. Es ist ein [optionales](#Einstellungen.md) GUI-Element, das sich in der [Statusleiste](Status_bar/de.md) befindet.
 
 ![](images/Draft_snap_widget_button.png ) 
-*The Draft snap widget*
+*Das Draft-Widget Einrasten*
+
+
 
 ## Anwendung
 
@@ -15,9 +19,11 @@ Siehe [Draft Fangen](Draft_Snap/de.md).
 ![](images/Draft_snap_widget_menu.png ) 
 *Das Menü des Widgets*
 
+
+
 ## Einstellungen
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
 
 -   The Draft snap widget is optional: **Edit → Preferences... → Draft → User interface settings → Draft Statusbar → Draft snap widget**.
 

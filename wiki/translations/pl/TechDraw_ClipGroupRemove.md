@@ -1,23 +1,37 @@
 ---
 - GuiCommand:
    Name:TechDraw ClipGroupRemove
-   MenuLocation:TechDraw → Remove View from Clip Group
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw Clip Group](TechDraw_ClipGroup.md), [TechDraw Add Clip Group](TechDraw_ClipGroupAdd.md)
+   Name/pl:Rysunek Techniczny: Usuń widok z grupy wycinków
+   MenuLocation:Rysunek Techniczny → Usuń widok z grupy wycinków
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso:[Wstaw grupę wycinków](TechDraw_ClipGroup/pl.md),  [Dodaj widok do grupy wycinków](TechDraw_ClipGroupAdd/pl.md), 
 ---
 
 # TechDraw ClipGroupRemove/pl
 
-## Description
 
-This tool removes a View from an existing Clip and returns it to the Page area.
+</div>
+
+
+
+## Opis
+
+Narzędzie **Usuń widok z grupy wycinków** usuwa widok z istniejącego klipu i zwraca go do obszaru strony.
 
 ![](images/TechDraw_Clipview.png ) 
-*Viewport window clipping different existing views*
+*Okno widoku rzutni obejmujące różne istniejące widoki*
 
-## Usage
 
--   Select a View that is part of a Clip and press the **<img src="images/TechDraw_ClipGroupRemove.svg" width=16px> [Remove View from Clip Group](TechDraw_ClipGroupRemove.md)** button to remove the view.
+
+## Użycie
+
+
+<div class="mw-translate-fuzzy">
+
+-   Wybierz widok, który jest częścią wycinka i naciśnij przycisk **<img src="images/TechDraw_ClipGroupRemove.svg" width=16px> '''Usuń widok z grupy wycinków'''**, aby usunąć wybrany widok.
+
+
+</div>
 
 
 

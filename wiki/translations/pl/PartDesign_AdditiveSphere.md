@@ -1,47 +1,56 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign AdditiveSphere
-   MenuLocation:Part Design → Create an additive primitive → Additive Sphere
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Addytywna sfera
+   MenuLocation:Projekt Części → Utwórz cechę przez dodanie → Addytywna sfera
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md), [PartDesign SubtractiveSphere](PartDesign_SubtractiveSphere.md)
+   SeeAlso:[Komponent bryła pierwotna do dodania](PartDesign_CompPrimitiveAdditive/pl.md), [Subtraktywna sfera](PartDesign_SubtractiveSphere/pl.md)
 ---
 
 # PartDesign AdditiveSphere/pl
 
-## Description
 
-Inserts a primitive sphere in the active Body as the first feature, or fuses it to the existing feature(s).
+
+## Opis
+
+Funkcja ta wstawia pierwotną sferę do aktywnej Zawartości jako pierwszy element lub łączy ją z istniejącymi elementami.
 
 <img alt="" src=images/PartDesign_AdditiveSphere_example.png  style="width:200px;">
 
-## Usage
 
-1.  Press the **<img src="images/PartDesign_AdditiveSphere.svg" width=24px> '''Additive Sphere'''** button. **Note**: the Additive Sphere is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. To get the Sphere, click on the down arrow besides the visible icon and select Additive Sphere in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  A Sphere feature appears under the active Body.
 
-## Options
+## Użycie
 
-The Sphere can be edited after its creation in two ways:
+1.  Naciśnij przycisk **<img src="images/PartDesign_AdditiveCylinder.svg" width=24px> '''Addytywna sfera'''**. **Uwaga**: Addytywna sfera jest częścią menu narzędzi o nazwie **Utwórz bryłę pierwotną do dodania**. Po uruchomieniu programu FreeCAD, Addytywny prostopadłościan wyświetlany jest na pasku narzędzi domyślnie. Aby przejść do funkcji Sfera, kliknij strzałkę w dół na widocznej ikonce i wybierz z menu opcję Addytywny walec.
+2.  Ustaw parametry bryły i [dołączenia](Part_EditAttachment/pl.md).
+3.  Kliknij **OK**.
+4.  Pod aktywnym obiektem Zawartość pojawi się element Sfera.
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
 
-## Properties
 
--    **Attachment**: defines the attachment mode as well as the Attachment Offset. See [Part EditAttachment](Part_EditAttachment.md).
+## Opcje
 
--    **Label**: Label given to the Sphere object. Change to suit your needs.
+Sferę można edytować po jej utworzeniu na dwa sposoby:
 
--    **Radius**: Radius of the sphere.
+-   Klikając go dwukrotnie w drzewie modelu lub klikając prawym przyciskiem myszy i wybierając **Edytuj bryłę pierwotną** z menu podręcznego. Spowoduje to wyświetlenie parametrów bryły pierwotnej.
+-   Poprzez [Edytor właściwości](Property_editor/pl.md).
 
--    **Angle1**: (labelled *V parameter* in the Primitive parameters) lower truncation of the sphere, parallel to the circular cross section (-90 degrees in a full sphere)
 
--    **Angle2**: (unlabelled in the Primitive parameters) upper truncation of the sphere, parallel to the circular cross section (90 degrees in a full sphere).
 
--    **Angle3**: (labelled *U parameter* in the Primitive parameters) angle of rotation of the cross section (360 degrees in a full sphere).
+## Właściwości
+
+-    **Dołączenie**: definiuje tryb dołączania, a także przesunięcie dołączania. Zobacz też [Część: Edycja mocowania](Part_EditAttachment/pl.md).
+
+-    **Etykieta**: Etykieta nadana obiektowi Sfery. Zmień zgodnie z własnymi potrzebami.
+
+-    **Promień**: Promień sfery.
+
+-    **Kąt1**: *(oznaczony jako **parametr V** w parametrach Primitywu)* dolne obcięcie kuli, równoległe do przekroju kołowego *(-90° w pełnej kuli)*.
+
+-    **Kąt2**: *(nieoznaczony w parametrach Primitywu)* górne obcięcie sfery, równoległe do przekroju kołowego *(90° w pełnej sferze)*.
+
+-    **Kąt3**: *(oznaczony jako **parameter U** w parametrach Primitywu)* kąt obrotu przekroju poprzecznego *(360° w pełnej kuli)*.
 
 
 

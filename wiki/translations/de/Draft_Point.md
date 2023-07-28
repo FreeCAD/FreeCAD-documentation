@@ -9,11 +9,15 @@
 
 # Draft Point/de
 
+
+
 ## Beschreibung
 
 Der <img alt="" src=images/Draft_Point.svg  style="width:24px;"> **Entwurf Punkt** Befehl erzeugt einen einfachen Punkt. Entwurf Punkte kann als eine Referenz für die Platzierung von Linien, Drähten oder anderen Objekten nützlich sein.
 
 <img alt="" src=images/Draft_point_example.jpg  style="width:400px;">
+
+
 
 ## Anwendung
 
@@ -24,6 +28,8 @@ Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md)
     -   Wähle die Option **Entwerfen → <img src="images/Draft_Point.svg" width=16px> Punkt** aus dem Menü.
     -   Das **Punkt**-Aufgabenpaneel wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 3.  Wähle einen Punkt in der [3D Ansicht](3D_view/de.md), oder gib Koordinaten ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**-Schaltfläche.
+
+
 
 ## Optionen
 
@@ -39,6 +45,8 @@ Die im Aufgabenpaneel verfügbaren Einzelzeichen Tastaturkürzel können geände
 
 </div>
 
+
+
 ## Hinweise
 
 
@@ -49,17 +57,23 @@ Die im Aufgabenpaneel verfügbaren Einzelzeichen Tastaturkürzel können geände
 
 </div>
 
+
+
 ## Einstellungen
 
 Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstellungen](Draft_Preferences/de.md).
 
 -   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
+
+
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein Entwurf Punkt Objekt wird von einem [Part Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
 
@@ -72,6 +86,8 @@ Ein Entwurf Punkt Objekt wird von einem [Part Formelement](Part_Feature/de.md) a
 
 -    {{PropertyData/de|Z|Abstand}}: gibt die Z Koordinate des Punktes an.
 
+
+
 ### Ansicht
 
 
@@ -80,6 +96,8 @@ Ein Entwurf Punkt Objekt wird von einem [Part Formelement](Part_Feature/de.md) a
 -    **Pattern|Enumeration**: not used.
 
 -    **Pattern Size|Float**: not used.
+
+
 
 ## Skripten
 

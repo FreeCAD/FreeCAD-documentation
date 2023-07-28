@@ -89,14 +89,6 @@ Para a geometria 2D, a maioria dos objetos são derivados de `Part::Part2DObject
 
 ## Ações
 
-
-<div class="mw-translate-fuzzy">
-
-As ações na visão da propriedade foram implementadas em 0.19.
-
-
-</div>
-
 Clicar com o botão direito do mouse em um espaço vazio na vista ou com uma propriedade selecionada mostra apenas um comando:
 
 -    **Mostrar todos:**se ativo, além das propriedades padrão que já aparecem, mostra todos os dados ocultos e exibe as propriedades nas respectivas abas.

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/pl
    Name:Part FaceColors
-   Name/pl:Część: Kolor powierzchni
+   Name/pl:Część: Kolor dla ściany
    MenuLocation:Menu podręczne → Ustaw kolory ...
    Workbenches:[Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md)
    SeeAlso:[Wygląd zewnętrzny](Std_SetAppearance/pl.md)
@@ -9,9 +9,13 @@
 
 # Part FaceColors/pl
 
+
+
 ## Opis
 
-Funkcja **Kolor powierzchni** umożliwia zdefiniowanie koloru dla każdej powierzchni obiektu. W ten sposób możesz przypisać wiele kolorów do jednej części. Aby pokolorować całe części, użyj zamiast tego właściwości *[Wygląd zewnętrzny](Std_SetAppearance/pl.md)*.
+Funkcja **Kolor dla ściany** umożliwia zdefiniowanie koloru dla każdej powierzchni obiektu. W ten sposób możesz przypisać wiele kolorów do jednej części. Aby pokolorować całe części, użyj zamiast tego właściwości *[Wygląd zewnętrzny](Std_SetAppearance/pl.md)*.
+
+
 
 ## Użycie
 

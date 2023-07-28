@@ -56,6 +56,8 @@ Bu eğitici yazıda, başlamanız için birkaç basit örnek üzerinde çalışa
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Python kodu yazmak 
@@ -89,6 +91,8 @@ Bu eğitici yazıda, her iki yöntemi de, her bir satırı python konsolunda bir
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## FreeCAD\'i Keşfetmek 
@@ -110,7 +114,7 @@ If you type this in the FreeCAD Python console, you will notice that as soon as 
 ![](images/Screenshot_classbrowser.jpg ) 
 *The autocomplete mechanism of the FreeCAD Python console*
 
-Now our new document will be created. This is similar to pressing the **<img src="images/Std_New.svg" width=16px> [Std New](Std_New.md)** button on the toolbar. In fact most buttons in FreeCAD do nothing more than execute one or more lines of Python code. Even better, you can set an option in **Edit → Preferences → General → Macro** to **Show script commands in python console**. This will print in the console all Python code executed when you press buttons. Very useful for learning how to reproduce actions in Python.
+Now our new document will be created. This is similar to pressing the **<img src="images/Std_New.svg" width=16px> [New](Std_New.md)** button on the toolbar. In fact most buttons in FreeCAD do nothing more than execute one or more lines of Python code. Even better, you can set an option in **Edit → Preferences → General → Macro** to **Show script commands in python console**. This will print in the console all Python code executed when you press buttons. Very useful for learning how to reproduce actions in Python.
 
 Now let\'s get back to our document and see what we can do with it:
 
@@ -322,6 +326,14 @@ Qt is a very powerful interface system that allows you to do very complex things
 ## Macros
 
 Now that you have a good understanding of the basics, where are we going to keep our Python scripts, and how are we going to launch them inside FreeCAD? There is an easy mechanism for that, called [Macros](Macros.md). A macro is a Python script that can be added to a toolbar and launched via a mouse click. FreeCAD provides you with a simple text editor (**Macro → Macros... → Create**) where you can write or paste scripts. Once the script is done, use **Tools → Customize... → Macros** to define a button for it that can be added to toolbars.
+
+## External scripts 
+
+An alternative method for creating, saving, and running your own Python scripts is to create them outside FreeCAD, using an editor of your choice (for example, Vim). To run your Python script inside FreeCAD, be sure to save it with the **.py** extension.
+
+Then use **File → Open** to open your script. It will load into a new tab in the [Main view area](Main_view_area.md). You can run your script by clicking the **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Execute macro](Std_DlgMacroExecuteDirect.md)** button. Any errors or script output will be shown in the [Report view](Report_view.md).
+
+When you make and save any modifications to your already-loaded script, a dialog box will appear asking whether you want to reload the modified script into FreeCAD.
 
 
 <div class="mw-translate-fuzzy">

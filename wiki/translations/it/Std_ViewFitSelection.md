@@ -6,7 +6,7 @@
 
 ## Descrizione
 
-Il comando **Visualizza la selezione** adatta la camera in modo che tutti gli oggetti selezionati siano visibili e si adattino all\'interno della [vista 3D](3D_view/it.md) attiva.
+Il comando **Visualizza la selezione** adatta la camera in modo che tutti gli oggetti selezionati siano visibili e si adattino all\'interno della [vista 3D](3D_view/it.md) attiva. Questo comando è utile nei casi in cui, per qualche motivo, gli oggetti si trovano oltre i confini della Vista 3D corrente o non possono essere trovati facilmente utilizzando la [Navigazione 3D](Mouse_navigation/it.md).
 
 
 

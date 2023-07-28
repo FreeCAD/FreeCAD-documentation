@@ -6,17 +6,18 @@
 |     |     |     |
 | --- | --- | --- |
 | [Arch panel tutorial/de](Arch_panel_tutorial/de.md) | [Artwork Draft/de](Artwork_Draft/de.md) | [Draft AddConstruction/de](Draft_AddConstruction/de.md) |
-| [Draft AddToGroup/de](Draft_AddToGroup/de.md) | [Draft annotation scale widget/de](Draft_annotation_scale_widget/de.md) | [Draft AnnotationStyleEditor/de](Draft_AnnotationStyleEditor/de.md) |
-| [Draft API/de](Draft_API/de.md) | [Draft ApplyStyle/de](Draft_ApplyStyle/de.md) | [Draft Arc 3Points/de](Draft_Arc_3Points/de.md) |
-| [Draft Arc/de](Draft_Arc/de.md) | [Draft Array/de](Draft_Array/de.md) | [Draft AutoGroup/de](Draft_AutoGroup/de.md) |
-| [Draft BezCurve/de](Draft_BezCurve/de.md) | [Draft BSpline/de](Draft_BSpline/de.md) | [Draft Circle/de](Draft_Circle/de.md) |
-| [Draft CircularArray/de](Draft_CircularArray/de.md) | [Draft Clone/de](Draft_Clone/de.md) | [Draft Constrain/de](Draft_Constrain/de.md) |
-| [Draft CubicBezCurve/de](Draft_CubicBezCurve/de.md) | [Draft Dimension/de](Draft_Dimension/de.md) | [Draft Downgrade/de](Draft_Downgrade/de.md) |
-| [Draft Draft2Sketch/de](Draft_Draft2Sketch/de.md) | [Draft Drawing/de](Draft_Drawing/de.md) | [Draft DXF/de](Draft_DXF/de.md) |
-| [Draft Edit/de](Draft_Edit/de.md) | [Draft Ellipse/de](Draft_Ellipse/de.md) | [Draft Facebinder/de](Draft_Facebinder/de.md) |
-| [Draft Fillet/de](Draft_Fillet/de.md) | [Draft FlipDimension/de](Draft_FlipDimension/de.md) | [Draft Hatch/de](Draft_Hatch/de.md) |
-| [Draft Heal/de](Draft_Heal/de.md) | [Draft Join/de](Draft_Join/de.md) | [Draft Label/de](Draft_Label/de.md) |
-| [Draft Layer/de](Draft_Layer/de.md) | [Draft Line/de](Draft_Line/de.md) | [Draft Mirror/de](Draft_Mirror/de.md) |
+| [Draft AddNamedGroup/de](Draft_AddNamedGroup/de.md) | [Draft AddToGroup/de](Draft_AddToGroup/de.md) | [Draft annotation scale widget/de](Draft_annotation_scale_widget/de.md) |
+| [Draft AnnotationStyleEditor/de](Draft_AnnotationStyleEditor/de.md) | [Draft API/de](Draft_API/de.md) | [Draft ApplyStyle/de](Draft_ApplyStyle/de.md) |
+| [Draft Arc 3Points/de](Draft_Arc_3Points/de.md) | [Draft Arc/de](Draft_Arc/de.md) | [Draft Array/de](Draft_Array/de.md) |
+| [Draft AutoGroup/de](Draft_AutoGroup/de.md) | [Draft BezCurve/de](Draft_BezCurve/de.md) | [Draft BSpline/de](Draft_BSpline/de.md) |
+| [Draft Circle/de](Draft_Circle/de.md) | [Draft CircularArray/de](Draft_CircularArray/de.md) | [Draft Clone/de](Draft_Clone/de.md) |
+| [Draft Constrain/de](Draft_Constrain/de.md) | [Draft CubicBezCurve/de](Draft_CubicBezCurve/de.md) | [Draft DAT/de](Draft_DAT/de.md) |
+| [Draft Dimension/de](Draft_Dimension/de.md) | [Draft Downgrade/de](Draft_Downgrade/de.md) | [Draft Draft2Sketch/de](Draft_Draft2Sketch/de.md) |
+| [Draft Drawing/de](Draft_Drawing/de.md) | [Draft DXF/de](Draft_DXF/de.md) | [Draft Edit/de](Draft_Edit/de.md) |
+| [Draft Ellipse/de](Draft_Ellipse/de.md) | [Draft Facebinder/de](Draft_Facebinder/de.md) | [Draft Fillet/de](Draft_Fillet/de.md) |
+| [Draft FlipDimension/de](Draft_FlipDimension/de.md) | [Draft Hatch/de](Draft_Hatch/de.md) | [Draft Heal/de](Draft_Heal/de.md) |
+| [Draft Join/de](Draft_Join/de.md) | [Draft Label/de](Draft_Label/de.md) | [Draft Layer/de](Draft_Layer/de.md) |
+| [Draft LayerManager/de](Draft_LayerManager/de.md) | [Draft Line/de](Draft_Line/de.md) | [Draft Mirror/de](Draft_Mirror/de.md) |
 | [Draft Move/de](Draft_Move/de.md) | [Draft OCA/de](Draft_OCA/de.md) | [Draft Offset/de](Draft_Offset/de.md) |
 | [Draft OrthoArray/de](Draft_OrthoArray/de.md) | [Draft PathArray/de](Draft_PathArray/de.md) | [Draft PathLinkArray/de](Draft_PathLinkArray/de.md) |
 | [Draft Pattern/de](Draft_Pattern/de.md) | [Draft Point/de](Draft_Point/de.md) | [Draft PointArray/de](Draft_PointArray/de.md) |

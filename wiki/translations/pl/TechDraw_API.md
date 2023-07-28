@@ -1,11 +1,11 @@
 # TechDraw API/pl
 **''(Listopad 2018)'' Te informacje mogą być niekompletne i nieaktualne. Najnowsze API można znaleźć na stronie [https://www.freecadweb.org/api autogenerowana dokumentacja API].** Funkcje te są częścią środowiska pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) i mogą być używane w [makrodefinicjach](Macros/pl.md) oraz z konsoli środowiska [Python](Python/pl.md) po zaimportowaniu modułu `TechDraw`.
 
-Good examples of basic TechDraw scripting can be found in the [unit test scripts](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/TDTest).
+Dobre przykłady podstawowych skryptów Rysunku Technicznego można znaleźć na stronie [skrypty testów jednostkowych](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/TDTest).
 
-See the [TechDrawGui API](TechDrawGui_API.md) for more functions.
+Zobacz stronę [Api dla GUI](TechDrawGui_API/pl.md) aby poznać więcej funkcji.
 
-Example: 
+Przykład: 
 ```python
 import FreeCAD
 import TechDraw
@@ -20,18 +20,20 @@ rc = page.addView(view)
 ```
 
 
-{{APIFunction|EdgeWalker|listOfEdges, [bool]|Creates wires from edges in input by planar graph traversal.  Optionally exclude the OuterWire by setting optional parameter to false.|List of wires sorted by size (descending)}}
+{{APIFunction|EdgeWalker|listOfEdges, [bool]|Tworzy linie z krawędzi na wejściu przez planarne przechodzenie grafu.  Opcjonalnie wyklucza OuterWire ustawiając opcjonalny parametr na false.|Lista przewodów posortowana według rozmiaru (malejąco)}}
 
 
-{{APIFunction|findOuterWire|listOfEdges|Finds the OuterWire (largest) of a list of edges (that form a planar graph).|Outer wire}}
+{{APIFunction|findOuterWire|listOfEdges|Wyszukuje OuterWire (największy) z listy krawędzi (które tworzą graf planarny).|Outer wire}}
 
 
-{{APIFunction|findShapeOutline|TopoShape, scale, direction|Project shape in direction and find outer wire of result.|Outline wire}}
+{{APIFunction|findShapeOutline|TopoShape, scale, direction|Odwzorowuje kształt w kierunku i znajduje zewnętrzną linię wyniku.|Outline wire}}
+
+.
 
 
-{{APIFunction|viewPartAsDxf|DrawViewPart|Return the edges of a DrawViewPart in Dxf format.|String}}
+{{APIFunction|viewPartAsDxf|DrawViewPart|Zwraca krawędzie DrawViewPart w formacie Dxf.|String}}
 
-Example: 
+Przykład: 
 ```python
 fileSpecDxf = "fcOut.dxf"
 v = App.ActiveDocument.View
@@ -44,9 +46,9 @@ dxfFile.close()
 ```
 
 
-{{APIFunction|viewPartAsSvg|DrawViewPart|Return the edges of a DrawViewPart in Svg format.|String}}
+{{APIFunction|viewPartAsSvg|DrawViewPart|Zwraca krawędzie DrawViewPart w formacie Svg.|String}}
 
-Example: 
+Przykład: 
 ```python
 fileSpecSvg = "fcOut.svg"
 v = App.ActiveDocument.View
@@ -63,35 +65,39 @@ svgFile.close()
 ```
 
 
-{{APIFunction|writeDXFView|DrawViewPart, FileName|Save the DrawViewPart in Dxf.|File}}
+{{APIFunction|writeDXFView|DrawViewPart, FileName|Zapisz DrawViewPart w formacie Dxf.|File}}
 
-Example: 
+Przykład: 
 ```python
 import TechDraw
 TechDraw.writeDXFView(myPart,myFileName)
 ```
 
 
-{{APIFunction|writeDXFPage|DrawPage, FileName|Save the DrawPage in Dxf.|File}}
+{{APIFunction|writeDXFPage|DrawPage, FileName|Zapisz DrawPage w formacie Dxf.|File}}
 
-Example: 
+Przykład: 
 ```python
 import TechDraw
 TechDraw.writeDXFPage(myPage,myFileName)
 ```
 
-### DrawViewPart Cosmetics 
 
-#### CosmeticVertex (CV) routines accessible from Python 
 
-dvp = App.ActiveDocument.View #CV\'s belong to views
-add a CosmeticVertex at p1 (View coordinates). Returns unique tag.
+### DrawViewPart geometrie pomocnicze 
+
+
+
+#### Procedury CosmeticVertex (CV) dostępne z poziomu Pythona 
+
+dvp = App.ActiveDocument.View #CV należą do widoków
+dodaje wierzchołek CosmeticVertex w punkcie p1 *(współrzędne widoku)*. Zwraca unikalny znacznik.
 tag = dvp.makeCosmeticVertex(vector p1)
 
-add a CosmeticVertex at p1 (3d model coordinates). Returns unique tag.
+dodaje wierzchołek CosmeticVertex w punkcie p1 *(współrzędne modelu 3d)*. Zwraca unikalny znacznik.
 tag = dvp.makeCosmeticVertex3d(vector p1)
 
-returns CosmeticVertex with unique id.
+zwraca CosmeticVertex z unikalnym identyfikatorem.
 cv = dvp.getCosmeticVertex(string id)
 
 returns CosmeticVertex with name (Vertex6). Used in selections.

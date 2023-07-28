@@ -1,50 +1,46 @@
 ---
 - GuiCommand:/de
    Name:Draft WireToBSpline
-   Name/de:Entwurf DrahtZuBSpline
-   MenuLocation:Änderung → Draht zu BSpline
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
-   SeeAlso:[Entwurf Draht](Draft_Wire/de.md), [Entwurf BSpline](Draft_BSpline/de.md)
+   Name/de:Draft DrahtZuBSpline
+   MenuLocation:Änderung → Kantenzug zu BSpline
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso:[Draft Draht](Draft_Wire/de.md), [Draft BSpline](Draft_BSpline/de.md)
 ---
 
 # Draft WireToBSpline/de
 
+
+
 ## Beschreibung
 
-Der <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;"> **Entwurf DrahtZuBSpline** Befehl konvertiert [Entwurf Drähte](Draft_Wire/de.md) in [Entwurf BSplines](Draft_BSpline/de.md) und umgekehrt.
+Der Befehl <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;"> **Draft DrahtZuBSpline** wandelt [Draft Kantenzüge](Draft_Wire/de.md) in [Draft B-Splines](Draft_BSpline/de.md) und umgekehrt.
 
 <img alt="" src=images/Draft_Wire2BSpline_example.jpg  style="width:400px;"> 
-*Umwandlung eines Entwurf Drahtes in eine Entwurf BSpline und einer geschlossenen Entwurf BSpline in einen geschlossenen Entwurf Draht*
+*Umwandlung eines Draft-Kantenzuges in einen Draft-B-Spline und eines geschlossenen Draft-B-Splines in einen geschlossenen Draft-Kantenzug*
+
+
 
 ## Anwendung
 
-1.  Wähle einen [Entwurf Draht](Draft_Wire/de.md) oder einen [Entwurf BSpline](Draft_BSpline/de.md).
+1.  Einen [Draft Kantenzug](Draft_Wire/de.md) oder einen [Draft B-Spline](Draft_BSpline/de.md) auswählen.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Drücke die **<img src="images/Draft_WireToBSpline.svg" width=16px> [Entwurf DrahtZuBSpline](Draft_WireToBSpline/de.md)** Schaltfläche.
-    -   Wähle den **Änderung → <img src="images/Draft_WireToBSpline.svg" width=16px> Draht zu Bspline** aus dem Menü.
+    -   Die Schaltfläche **<img src="images/Draft_WireToBSpline.svg" width=16px> [Kantenzug zu B-Spline](Draft_WireToBSpline/de.md)** drücken.
+    -   Den Menüeintrag **Änderung → <img src="images/Draft_WireToBSpline.svg" width=16px> Kantenzug zu B-Spline** auswählen.
 3.  Ein neues Objekt wird erstellt.
+
+
 
 ## Hinweise
 
--   Der Befehl kann zu einem geschlossenen, sich selbst durchdringenden [Entwurf Draht](Draft_Wire/de.md) oder [Entwurf BSpline](Draft_BSpline/de.md) mit einer Fläche führen. Ein solches Objekt wird in der [3D Ansicht](3D_view/de.md) nicht korrekt dargestellt. Seine **Erstelle Fläche** Eigenschaft oder seine **Geschlossen** Eigenschaft muss auf `False` gesetzt werden.
+-   Der Befehl kann zu einem geschlossenen, sich selbst durchdringenden [Draft Kantenzug](Draft_Wire/de.md) oder [Draft B-Spline](Draft_BSpline/de.md) mit einer Fläche führen. Ein solches Objekt wird in der [3D-Ansicht](3D_view/de.md) nicht korrekt dargestellt. Seine {{PropertyData/de|Make Face}} oder seine {{PropertyData/de|Closed}} muss auf `False` gesetzt werden.
+
+
 
 ## Skripten
 
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-<div class="mw-translate-fuzzy">
-
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Um einen Draht in einen Bspline umzuwandeln oder umgekehrt, übergib die Eigenschaft `Points` des Quellobjekts an die Methode `[make_bspline](Draft_BSpline/de#Skripten.md)` bzw. die Methode `[make_wire](Draft_Wire/de#Skripten.md)` des Entwurf Moduls.
-
-
-</div>
+Um einen Draht in einen B-Spline umzuwandeln oder umgekehrt, wird die Eigenschaft `Points` des Quellobjekts an die Methode `[make_bspline](Draft_BSpline/de#Skripten.md)` bzw. die Methode `[make_wire](Draft_Wire/de#Skripten.md)` des Draft-Moduls übergeben.
 
 Beispiel:
 

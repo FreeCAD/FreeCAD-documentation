@@ -28,7 +28,7 @@ The [MergeWalls](Arch_MergeWalls.md) tool fuses two or more selected **<img src=
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-This tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:  
+This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:  
 ```python
 base = joinWalls(walls, delete=False)
 ```

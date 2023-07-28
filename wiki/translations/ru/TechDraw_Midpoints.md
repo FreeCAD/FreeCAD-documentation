@@ -10,24 +10,39 @@
 
 # TechDraw Midpoints/ru
 
+
+</div>
+
+
+
 ## Описание
 
-The Midpoints tool adds Cosmetic [Vertices](Glossary#V.md) at the midpoints of one or more Edges.
+The **TechDraw Midpoints** tool adds [cosmetic vertices](TechDraw_CosmeticVertex.md) at the midpoint of one or more selected edges.
 
 <img alt="" src=images/TechDraw_CosmeticMidpoint_Sample.png  style="width:250px;"> 
-*Cosmetic Vertices at midpoints of Edges*
+*Cosmetic vertices at the midpoint of edges*
+
+
 
 ## Применение
 
-1.  Select one or more Edges in a View.
-2.  Press the **<img src="images/TechDraw_Midpoints.svg" width=16px> Add Midpoint Vertices** button
-3.  Cosmetic Vertices will be added at the mid-point(s) of the Edge(s).
+1.  Select one or more edges in a view.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_Midpoints.svg" width=16px> [Add Midpoint Vertices](TechDraw_Midpoints.md)** button.
+    -   Select the **TechDraw → Add Vertices → <img src="images/TechDraw_Midpoints.svg" width=16px> Add Midpoint Vertices** option from the menu.
 
-To delete a Midpoint, select it and use the toolbar button **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Remove Cosmetic Object](TechDraw_CosmeticEraser.md)**.
+## Notes
+
+-   The created cosmetic vertices are not parametrically linked to the selected edges.
+-   To delete a cosmetic vertex use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
+
+
 
 ## Свойства
 
-Cosmetic Vertices have no properties of their own, as they are not Document Objects. They share color and size settings with regular geometry vertices.
+Cosmetic vertices have no properties of their own, as they are not document objects. They share color and size settings with regular geometry vertices.
+
+
 
 ## Программирование
 
@@ -36,13 +51,13 @@ Cosmetic Vertices have no properties of their own, as they are not Document Obje
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-Cosmetic Vertices are not accessible from [macros](Macros.md) or the [Python](Python.md) console at this time. This snippet will remove all Cosmetic Vertices from the View.
+Cosmetic vertices are not accessible from [macros](Macros.md) or the [Python](Python.md) console at this time. This snippet will remove all cosmetic vertices from the view.
 
 
 ```python
->>> v = App.ActiveDocument.View
->>> v.clearCV()
->>> App.activeDocument().recompute()
+v = App.ActiveDocument.View
+v.clearCV()
+App.ActiveDocument.recompute()
 ```
 
 

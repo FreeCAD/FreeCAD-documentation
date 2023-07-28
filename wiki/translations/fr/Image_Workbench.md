@@ -1,4 +1,8 @@
-# <img alt="Icône de l\'atelier Image" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench/fr
+# Image Workbench/fr
+**L''''atelier Image''' n'est plus inclus après la version 0.20.<br>
+Ses fonctionnalités ont été intégrées dans [Std Base](Std_Base/fr.md). Voir [Std Importer](Std_Import/fr.md) et [Std Charger une image](Std_ViewLoadImage/fr.md).**
+
+<img alt="Icône de l\'atelier Image" src=images/Workbench_Image.svg  style="width:128px;">
 
 
 {{TOCright}}
@@ -7,17 +11,23 @@
 
 L\'<img alt="" src=images/Workbench_Image.svg  style="width:24px;"> [Atelier Image](Image_Workbench/fr.md) gère différents formats de [bitmap](bitmap/fr.md) et vous permet de les ouvrir dans FreeCAD.
 
+
+
 ## Outils
 
 -   <img alt="" src=images/Image_Open.svg  style="width:32px;"> [Ouvrir\...](Image_Open/fr.md): ouvrir une image dans une nouvelle fenêtre.
 -   <img alt="" src=images/Image_CreateImagePlane.svg  style="width:32px;"> [Créer un plan d\'image](Image_CreateImagePlane/fr.md): importer une image sur un plan dans la vue 3D.
 -   <img alt="" src=images/Image_Scaling.svg  style="width:32px;"> [Redimensionner une image](Image_Scaling/fr.md): redimensionner une image importée dans un plan.
 
+
+
 ## Fonctionnalités
 
 -   Comme une [esquisse](Sketcher_Workbench/fr.md), une image importée peut être attachée à l\'un des plans principaux XY, XZ ou YZ et recevoir un décalage positif ou négatif.
 -   L\'image est importée avec une relation de 1 pixel égal 1 millimètre.
 -   Nous vous recommandons d\'importer une image dans une résolution raisonnable.
+
+
 
 ## Processus de travail 
 
@@ -38,4 +48,4 @@ Le décalage de l\'image peut être défini lors de l\'importation ou modifié u
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Image](Category_Image.md) > Image Workbench/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/fr

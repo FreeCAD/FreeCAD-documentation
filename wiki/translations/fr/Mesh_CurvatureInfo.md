@@ -4,14 +4,14 @@
    Name/fr:Mesh Infos de courbure
    MenuLocation:Maillages → Analyser → Informations sur la courbure
    Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh Tracé de courbure](Mesh_VertexCurvature/fr.md)
+   SeeAlso:[Mesh Courbure](Mesh_VertexCurvature/fr.md)
 ---
 
 # Mesh CurvatureInfo/fr
 
 ## Description
 
-La commande **Mesh Infos de courbure** affiche la courbure absolue du [Mesh Tracé de courbure](Mesh_VertexCurvature/fr.md) aux points sélectionnés.
+La commande **Infos sur la courbure** affiche la courbure absolue de la [courbure des objets](Mesh_VertexCurvature/fr.md) aux points sélectionnés.
 
 
 

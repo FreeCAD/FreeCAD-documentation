@@ -14,6 +14,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Popis
@@ -26,6 +28,8 @@ Zafixuje svislou vzdálenost mezi 2 body nebo konci přímek. Je-li vybrána pou
 Fixes the vertical distance between 2 points or line ends. If only one point is selected, the distance is set to the sketch origin.
 
 ![](images/Sketcher_ConstraintDistanceY_example.png )
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -55,7 +59,7 @@ Fixes the vertical distance between 2 points or line ends. If only one point is 
 Distance from origin:
 
 
-```pythonSketch.addConstraint(Sketcher.Constraint('DistanceY', Edge, PointOfEdge, App.Units.Quantity('123.0 mm')))```
+```pythonSketch.addConstraint(Sketcher.Constraint('DistanceY', Edge, PointOfEdge, -1, 1, App.Units.Quantity('123.0 mm')))```
 
 Distance between two vertices:
 
@@ -67,7 +71,7 @@ Vertical span of line (the GUI allows selecting the edge itself, but it is just 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceY', Line, 1, Line, 2, App.Units.Quantity('123.0 mm')))```
 
-The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Edge1`, `Edge2`, `Edge`, ` PointOfEdge1`, ` PointOfEdge2`, `PointOfEdge` and `Line`, and contains further examples on how to create constraints from Python scripts.
+The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Edge`, `Edge1`, `Edge2`, `PointOfEdge`, ` PointOfEdge1`, ` PointOfEdge2` and `Line`, and contains further examples on how to create constraints from Python scripts.
 
 
 

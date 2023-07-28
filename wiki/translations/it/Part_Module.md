@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introduzione
 
 Le funzionalità di modellazione di solidi di FreeCAD sono basate sul kernel [OpenCASCADE](OpenCASCADE/it.md) (OCCT), un sistema CAD di livello professionale che offre funzionalità avanzate per la creazione e manipolazione della geometria 3D. L\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/it.md) è su un livello superiore alle librerie OCCT, che fornisce all\'utente l\'accesso alle primitive e alle funzioni geometriche OCCT. Essenzialmente tutte le funzioni di disegno 2D e 3D in FreeCAD, negli ambienti <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/it.md), <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/it.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md), ecc. si basano sulle funzioni esposte dall\'ambiente Parte. Pertanto, L\'ambiente Part può essere considerato il componente principale delle funzioni di disegno di FreeCAD.
@@ -19,9 +21,13 @@ Gli oggetti Parte sono più complessi degli oggetti mesh creati con l\'ambiente 
 
 *Part Workbench è lo strato base che espone le funzioni di disegno OCCT a tutti gli ambienti di FreeCAD.*
 
+
+
 ## Gli strumenti 
 
 Gli strumenti si trovano nel menu **Part** o nel menu **Measure**.
+
+
 
 ### Primitive
 
@@ -37,7 +43,7 @@ Questi sono strumenti per creare oggetti primitivi.
 
 -   <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Toro](Part_Torus/it.md): Crea un toro.
 
--   <img alt="" src=images/Part_Tube.svg  style="width:32px;"> [Tubo](Part_Tube/it.md): Crea un tubo. {{Version/it|0.19}}
+-   <img alt="" src=images/Part_Tube.svg  style="width:32px;"> [Tubo](Part_Tube/it.md): Crea un tubo.
 
 -   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Crea primitive\...](Part_Primitives/it.md): uno strumento per creare una delle seguenti primitive:
     -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Plane](Part_Plane/it.md): crea un piano.
@@ -59,6 +65,8 @@ Questi sono strumenti per creare oggetti primitivi.
 
 -   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Crea una forma\...](Part_Builder/it.md): Crea forme partendo da varie primitive.
 
+
+
 ### Creazione e modifica 
 
 Questi sono strumenti per creare nuovi oggetti e modificare quelli esistenti.
@@ -73,7 +81,7 @@ Questi sono strumenti per creare nuovi oggetti e modificare quelli esistenti.
 
 -   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Smussa](Part_Chamfer/it.md): Smussa i bordi di un oggetto.
 
--   <img alt="" src=images/Part_MakeFace.svg  style="width:32px;"> [Crea faccia](Part_MakeFace/it.md): Crea una faccia da un insieme di linee (contorni). {{Version/it|0.19}}
+-   <img alt="" src=images/Part_MakeFace.svg  style="width:32px;"> [Crea faccia](Part_MakeFace/it.md): Crea una faccia da un insieme di linee (contorni).
 
 -   <img alt="" src=images/Part_RuledSurface.svg  style="width:32px;"> [Superficie rigata](Part_RuledSurface/it.md): Crea una superficie superficie rigata.
 
@@ -91,7 +99,7 @@ Questi sono strumenti per creare nuovi oggetti e modificare quelli esistenti.
 
 -   <img alt="" src=images/Part_Thickness.svg  style="width:32px;"> [Spessore](Part_Thickness/it.md): Svuota un solido.
 
--   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Proiezione su superficie](Part_ProjectionOnSurface/it.md): Proietta un logo, un testo o qualsiasi faccia, polilinea o bordo su una superficie. {{Version/it|0.19}}
+-   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Proiezione su superficie](Part_ProjectionOnSurface/it.md): Proietta un logo, un testo o qualsiasi faccia, polilinea o bordo su una superficie.
 
 -   <img alt="" src=images/Part_EditAttachment.svg  style="width:32px;"> [Allegato](Part_EditAttachment/it.md): Allega un oggetto ad un altro oggetto.
 
@@ -108,7 +116,7 @@ Questi strumenti eseguono operazioni booleane.
 
 -   <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Cut](Part_Cut/it.md): Taglia (sottrae) un oggetto da un altro.
 
--   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Fuse](Part_Fuse/it.md): fonde (unisce) due oggetti.
+-   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Fuse](Part_Fuse/it.md): fonde (unisce) due o più oggetti.
 
 -   <img alt="" src=images/Part_Common.svg  style="width:32px;"> [Intersezione](Part_Common/it.md): Estrae la parte comune (intersezione) di due oggetti.
 
@@ -122,6 +130,8 @@ Questi strumenti eseguono operazioni booleane.
     -   <img alt="" src=images/Part_SliceApart.svg  style="width:32px;"> [Affetta in parti](Part_SliceApart/it.md): Taglia e divide un oggetto intersecandolo con altri oggetti.
     -   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Affetta in composto](Part_Slice/it.md): Taglia un oggetto intersecandolo con altri oggetti.
     -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [Booleana XOR](Part_XOR/it.md): Rimuove lo spazio condiviso da un numero pari di oggetti.
+
+
 
 ### Misure
 
@@ -139,6 +149,8 @@ Questi strumenti eseguono operazioni booleane.
 
 -   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width:32px;"> [Attiva o Disattiva le misure Delta](Part_Measure_Toggle_Delta/it.md): Mostra o nasconde le misure delta.
 
+
+
 ### Altri strumenti 
 
 -   <img alt="" src=images/Part_Import.svg  style="width:32px;"> [Importa CAD](Part_Import/it.md): Importazione da file \*.IGES, \*.STEP, o \*.BREP.
@@ -149,7 +161,7 @@ Questi strumenti eseguono operazioni booleane.
 
 -   <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:32px;"> [Crea forma da mesh](Part_ShapeFromMesh/it.md): Crea un oggetto forma da un oggetto mesh.
 
--   <img alt="" src=images/Part_PointsFromMesh.svg  style="width:32px;"> [Crea punti da mesh](Part_PointsFromMesh/it.md): Crea un oggetto forma composto da punti a partire da un oggetto mesh. {{Version/it|0.19}}
+-   <img alt="" src=images/Part_PointsFromMesh.svg  style="width:32px;"> [Crea oggetto punti da geometria](Part_PointsFromMesh/it.md): Crea un oggetto punti a partire da un oggetto geometrico.
 
 -   <img alt="" src=images/Part_MakeSolid.svg  style="width:32px;">[Converti in solido](Part_MakeSolid/it.md): Converte un oggetto forma di un oggetto solido.
 
@@ -157,13 +169,15 @@ Questi strumenti eseguono operazioni booleane.
 
 -   Creare una copia:
     -   <img alt="" src=images/Part_SimpleCopy‎.svg  style="width:32px;"> [Crea una copia semplice](Part_SimpleCopy/it.md): Crea una semplice copia dell\'oggetto selezionato.
-    -   <img alt="" src=images/Part_TransformedCopy.svg  style="width:32px;"> [Crea una copia modificata](Part_TransformedCopy/it.md): Crea una copia trasformata dell\'oggetto selezionato. {{Version/it|0.19}}
-    -   <img alt="" src=images/Part_ElementCopy.svg  style="width:32px;"> [Crea una copia di un elemento](Part_ElementCopy/it.md): Crea una copia da un elemento (vertice, bordo, faccia) dell\'oggetto selezionato. {{Version/it|0.19}}
+    -   <img alt="" src=images/Part_TransformedCopy.svg  style="width:32px;"> [Crea una copia modificata](Part_TransformedCopy/it.md): Crea una copia trasformata dell\'oggetto selezionato.
+    -   <img alt="" src=images/Part_ElementCopy.svg  style="width:32px;"> [Crea una copia di un elemento](Part_ElementCopy/it.md): Crea una copia da un elemento (vertice, bordo, faccia) dell\'oggetto selezionato.
     -   <img alt="" src=images/Part_RefineShape.svg  style="width:32px;"> [Affina una forma](Part_RefineShape/it.md): Pulisce le facce, eliminando le linee inutili.
 
 -   <img alt="" src=images/Part_CheckGeometry.svg  style="width:32px;"> [Controlla la geometria](Part_CheckGeometry/it.md): Controlla se la geometria degli oggetti selezionati contiene degli errori.
 
 -   <img alt="" src=images/Part_Defeaturing.svg  style="width:32px;"> [Elimina funzioni](Part_Defeaturing/it.md): Rimuove le funzioni da un oggetto.
+
+
 
 ### Strumenti del menu contestuale 
 
@@ -171,15 +185,21 @@ Questi strumenti eseguono operazioni booleane.
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Impostare il colore delle facce](Part_FaceColors/it.md): Assegna i colori alle singole facce degli oggetti.
 
+
+
 ## Preferenze
 
 -   <img alt="" src=images/Preferences-part_design.svg  style="width:32px;"> [Preferenze](PartDesign_Preferences/it.md): Preferenze disponibili per gli strumenti di Part (l\'ambiente Part utilizza anche le preferenze di PartDesign).
 -   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Preferenze di Importa e esporta](Import_Export_Preferences/it.md): preferenze disponibili per l\'importazione e l\'esportazione in diversi formati di file.
 -   [Ottimizzazione](Fine-tuning/it.md): Alcuni parametri extra per mettere a punto il comportamento di Part.
 
+
+
 ## Script
 
 Vedere [Script di Part](Part_scripting/it.md)
+
+
 
 ## Tutorial
 

@@ -9,9 +9,13 @@
 
 # Mesh Import/it
 
+
+
 ## Descrizione
 
 Il comando **Importa mesh** importa la geometria da un formato file mesh nel documento attivo. Sono supportati diversi formati di file. Il comando crea un oggetto mesh non parametrico, una [Mesh Feature](Mesh_Feature/it.md).
+
+
 
 ## Utilizzo
 
@@ -23,17 +27,25 @@ Il comando **Importa mesh** importa la geometria da un formato file mesh nel doc
 3.  Selezionare un file.
 4.  Premere il pulsante **Apri**.
 
-## Supported file formats 
 
-The command supports: stl, ast, bms, obj, off, iv, ply, nas and bdf files. For the NASTRAN (nas/bdf) file format, only GRID, CTRIA3 and CQUAD4 cards are supported.
+
+## Formati di file supportati 
+
+Il comando supporta: file stl, ast, bms, obj, off, iv, ply, nas e bdf. Per il formato file NASTRAN (nas/bdf), sono supportate solo le schede GRID, CTRIA3 e CQUAD4.
+
+
 
 ## Preferenze
 
 -   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
 
+
+
 ## Proprietà
 
 Vedere: [Mesh Feature](Mesh_Feature/it.md).
+
+
 
 ## Script
 
@@ -48,13 +60,7 @@ Mesh.insert('D:/testfiles/cylinder.stl')
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Mesh Tools navi

@@ -1,43 +1,37 @@
 ---
 - GuiCommand:/it
    Name:Std_Edit
-   Name/it:Attiva/disattiva la modalità modifica
-   MenuLocation:Modifica → Attiva/disattiva la modalità modifica
+   Name/it:Modalità modifica
+   MenuLocation:Modifica → Attiva/disattiva Modalità modifica
    Workbenches:Tutti
 ---
 
 # Std Edit/it
 
 
-</div>
 
 ## Descrizione
 
 Il comando **Std Edit** attiva o disattiva la modalità di modifica di un oggetto.
 
+
+
 ## Utilizzo
-
-
-<div class="mw-translate-fuzzy">
 
 1.  Se nessun oggetto è in modalità modifica: selezionare un singolo oggetto.
 2.  Selezionare l\'opzione **Modifica → <img src="images/Std_Edit.svg" width=16px> Attiva/disattiva la modalità modifica** dal menu.
-3.  La modalità di modifica dell\'oggetto selezionato viene attivata o disattivata.
+3.  Viene attivata la modalità di modifica predefinita dell\'oggetto selezionato o viene disattivata la modalità di modifica esistente.
 
 
-</div>
 
 ## Note
 
-
-<div class="mw-translate-fuzzy">
-
+-   Alcuni strumenti saranno disabilitati (in grigio) nell\'interfaccia utente mentre è attiva la modalità di modifica di un oggetto.
 -   Non tutti i tipi di oggetto hanno una modalità di modifica.
 -   Le funzioni disponibili in modalità modifica dipendono dal tipo di oggetto.
--   La modalità di modifica può essere attivata anche facendo doppio clic su un oggetto nella [Vista ad albero](Tree_view/it.md).
+-   La modalità di modifica di un oggetto può essere attivata anche facendo doppio clic su di esso nella [Vista albero](Tree_view/it.md). In tal caso la modalità di modifica utilizzata può essere definita con il comando [Impostazione modalità Modifica](Std_UserEditMode/it.md).
 
 
-</div>
 
 ## Script
 
@@ -55,12 +49,12 @@ import FreeCADGui
 FreeCADGui.ActiveDocument.setEdit("myObjectName",0)
 ```
 
-The second argument is the EditMode. The following options are available:
+Il secondo argomento è EditMode. Sono disponibili le seguenti opzioni:
 
-0 = Default
-1 = Transform
-2 = Cutting
-3 = Color
+0 = Predefinito
+1 = Trasforma
+2 = Taglio
+3 = Colore
 
 Per disattivare la modalità di modifica di un oggetto, utilizzare il metodo `resetEdit` dell\'oggetto documento.
 
@@ -72,13 +66,7 @@ FreeCADGui.ActiveDocument.resetEdit()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

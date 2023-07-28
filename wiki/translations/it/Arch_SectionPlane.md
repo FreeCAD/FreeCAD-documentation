@@ -84,6 +84,9 @@ Il solo Piano di sezione non crea alcuna vista degli oggetti. Per ottenere le vi
 
 ## Proprietà
 
+
+<div class="mw-translate-fuzzy">
+
 -    {{PropertyData/it|Only Solids}}: se questo è vero, gli oggetti non solidi vengono ignorati
 
 -    {{PropertyView/it|Display Length}}: la lunghezza della sezione piana gizmo nella vista 3D. Non influisce sulla vista risultante
@@ -96,6 +99,9 @@ Il solo Piano di sezione non crea alcuna vista degli oggetti. Per ottenere le vi
 
 -    **Clip view**: se `True`, ritaglia la vista all\'altezza e alla lunghezza della visualizzazione del piano di taglio. Questo trasforma efficacemente il piano di taglio in una fotocamera ortografica, limitando il campo visivo del piano. {{version/it|0.19}}
 
+
+</div>
+
 <img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width:600px;">
 
 
@@ -104,7 +110,12 @@ Il solo Piano di sezione non crea alcuna vista degli oggetti. Per ottenere le vi
 
 ## Tweaks
 
--   Adding manually a property named **RotateSolidRender** of type **App::PropertyAngle** to the section plane\'s **View** properties (right-click the properties view -\> show all, right-click again -\> add property) allows to rotate the render when using Solid mode. This is useful when a rendered view has for example both Arch and Draft elements, and the rendering of the Arch elements is rotated in relation to the Draft elements. <small>(v0.19)</small> 
+-   Adding manually a property named **RotateSolidRender** of type **App::PropertyAngle** to the section plane\'s **View** properties (right-click the properties view -\> show all, right-click again -\> add property) allows to rotate the render when using Solid mode. This is useful when a rendered view has for example both Arch and Draft elements, and the rendering of the Arch elements is rotated in relation to the Draft elements.
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Script
 
@@ -113,7 +124,16 @@ Il solo Piano di sezione non crea alcuna vista degli oggetti. Per ottenere le vi
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Piano di sezione può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
+</div>
 
 
 ```python

@@ -2,7 +2,6 @@
 - GuiCommand:/it
    Name:Std_Alignment
    Name/it:Allineamento
-   Empty:1
    MenuLocation:Modifica → Allineamento...
    Workbenches:Tutti
    SeeAlso:[Posizionamento](Std_Placement/it.md)
@@ -11,7 +10,6 @@
 # Std Alignment/it
 
 
-</div>
 
 ## Descrizione
 
@@ -19,6 +17,8 @@ Il comando **Allineamento** allinea un oggetto in relazione a un oggetto di rife
 
 ![](images/Std_Alignment_example.png ) 
 *L'interfaccia di comando dopo aver definito due coppie di punti*
+
+
 
 ## Utilizzo
 
@@ -30,6 +30,8 @@ Il comando **Allineamento** allinea un oggetto in relazione a un oggetto di rife
 6.  Definire una o due più coppie di punti se si desidera anche ruotare l\'oggetto mobile.
 7.  Fare clic con il tasto destro su una delle viste e selezionare l\'opzione **Allinea** dal menu contestuale per completare il comando.
 
+
+
 ## Opzioni
 
 Nel menu contestuale sono disponibili le seguenti opzioni aggiuntive:
@@ -39,13 +41,7 @@ Nel menu contestuale sono disponibili le seguenti opzioni aggiuntive:
 -   Selezionare l\'opzione **Sincronizza le viste** se è necessario applicare ad entrambe le visualizzazioni eventuali modifiche alla visualizzazione (panoramica, rotazione e zoom).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

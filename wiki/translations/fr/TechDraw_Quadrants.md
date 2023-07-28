@@ -10,26 +10,48 @@
 
 # TechDraw Quadrants/fr
 
+
+</div>
+
 ## Description
 
-L\'outil Sommets quadrants ajoute des [Sommets cosmétiques](TechDraw_CosmeticVertex/fr.md) aux points 90/180/270° d\'un bord circulaire. Le sommet 0° devrait déjà figurer sous forme de sommet géométrique.
+
+<div class="mw-translate-fuzzy">
+
+L\'outil **TechDraw Sommets quadrants** ajoute trois [points cosmétiques](TechDraw_CosmeticVertex/fr.md) sur la longueur d\'une ou plusieurs arêtes sélectionnées. Les sommets sont placés à 25 %, 50 % et 75 % de la longueur. Pour une arête circulaire, cela se traduit par des sommets cosmétiques à 90°, 180° et 270°, en plus de son sommet géométrique à 0°.
+
+
+</div>
 
 <img alt="" src=images/TechDraw_CosmeticQuadrant_Sample.png  style="width:250px;"> 
 *Les sommets cosmétiques au quadrant d'un cercle*
 
+
+
 ## Utilisation
 
-1.  Sélectionnez une ou plusieurs arêtes (circulaires) dans une vue.
+
+<div class="mw-translate-fuzzy">
+
+1.  Sélectionnez une ou plusieurs arêtes (circulaires) dans une vue. N\'importe quelle arête peut être sélectionnée, pas seulement les cercles.
 2.  Appuyez sur le bouton **<img src="images/TechDraw_Quadrants.svg" width=16px> Ajouter des sommets de quadrants**.
 3.  Les sommets cosmétiques seront ajoutés tous les 90° sur les bords.
 
-**Remarque:** cet outil peut être utilisé sur n'importe quel bord, pas seulement pour des cercles.
 
-Pour supprimer un sommet de quadrant, sélectionnez-le et utilisez le bouton de la barre d\'outils **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Gomme](TechDraw_CosmeticEraser/fr.md)**.
+</div>
+
+## Notes
+
+-   The created cosmetic vertices are not parametrically linked to the selected edges.
+-   To delete a cosmetic vertex use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
+
+
 
 ## Propriétés
 
 Les points cosmétiques n\'ont pas de propriétés propres car ils ne sont pas des objets de document. Ils partagent les paramètres de couleur et de taille avec des points de géométrie réguliers.
+
+
 
 ## Script
 
@@ -39,9 +61,9 @@ Les points cosmétiques ne sont pas accessibles par [macros](Macros/fr.md) ni pa
 
 
 ```python
->>> v = App.ActiveDocument.View
->>> v.clearCV()
->>> App.activeDocument().recompute()
+v = App.ActiveDocument.View
+v.clearCV()
+App.ActiveDocument.recompute()
 ```
 
 

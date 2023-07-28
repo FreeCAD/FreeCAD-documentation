@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Beschreibung
 
 Das [spiralförmiger Bewehrungsstab](Arch_Rebar_Helical/de.md)-Werkzeug erlaubt es dem Anwender, einen fortlaufenden spiralförmigen Bewehrungsstab in einem [Struktur](Arch_Structure/de.md)-Objekt zu erstellen.
@@ -26,7 +28,12 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 *Ein fortlaufender spiralförmiger Bewehrungsstab in einer [Struktur](Arch_Structure/de.md)*
 
+
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Wähle eine beliebige Fläche eines vorher erstellten **<img src="images/Arch_Structure.svg" width=16px> [Struktur](Arch_Structure/de.md)**-Objekts.
 2.  Wähle dann **<img src="images/Arch_Rebar_Helical.svg" width=16px> [Spiralförmiger Bewehrungsstab](Arch_Rebar_Helical/de.md)** aus den Bewehrungsstab-Werkzeugen.
@@ -39,11 +46,17 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 9.  Klicke **OK** oder **Anwenden** zur Erzeugung der Bewehrungsstäbe.
 10. Klicke **Abbrechen** zum Verlassen des Aufgaben-Paneels.
 
+
+</div>
+
+
 :   <img alt="" src=images/HelicalRebarDialog.png  style="width:250px;">
 
 
 
 *Aufgaben-Ansicht für das Arch Bewehrungsstab spiralförmig-Werkzeug*
+
+
 
 ## Eigenschaften
 
@@ -57,6 +70,11 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 -    {{PropertyData/de|Diameter}}: Durchmesser des Bewehrungsstabs.
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Scripting
 
 
@@ -64,7 +82,21 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 [Arch API](Arch_API/de.md),[Reinforcement-API](Reinforcement_API/de.md) und [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/de.md).
 
+
+</div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
+<div class="mw-translate-fuzzy">
+
 Das Spiralförmiger Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden:
+
+
+</div>
 
 
 ```python
@@ -79,6 +111,8 @@ Rebar = makeHelicalRebar(s_cover, b_cover, diameter, t_cover, pitch, structure=N
 -    `diameter`ist der Durchmesser der Verstärkungsstäbe innerhalb der Struktur.
 
 -    `pitch`ist der Parameter, der festlegt, wie groß der Abstand der Windungen von einander ist.
+
+
 
 ### Beispiel
 

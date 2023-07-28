@@ -13,7 +13,7 @@
 
 ## Description
 
-Crée une contrainte FEM pour le potentiel électrostatique. A utiliser avec [FEM Equation électrostatique](FEM_EquationElectrostatic/fr.md) ou [FEM Équation force électrique](FEM_EquationElectricforce/fr.md).
+Crée une contrainte FEM pour le potentiel électrostatique. À utiliser avec [FEM Equation électrostatique](FEM_EquationElectrostatic/fr.md) ou [FEM Équation force électrique](FEM_EquationElectricforce/fr.md).
 
 
 

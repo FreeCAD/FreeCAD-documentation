@@ -1,5 +1,5 @@
 # Placement/pl
-## Przegląd
+## Informacje ogólne 
 
 **Umiejscowienie** to sposób w jaki FreeCAD określa położenie i pozycję *(orientację)* obiektu w przestrzeni. Umiejscowienie może być określone w wielu formach i manipulowane poprzez [skrypty](Python_scripting_tutorial#Vectors_and_placements.md), [Edytor właściwości](Property_editor/pl.md) lub wybierając **Edycja → Umiejscowienie...** aby otworzyć [Panel zadań umiejscowienie](Std_Placement/pl.md).
 
@@ -263,7 +263,9 @@ Dostęp do osi obrotu można uzyskać za pomocą
 
 gdzie często jedną z tych wartości jest {{Value|1}}, a pozostałe są równe {{Value|0}}.
 
-W jednym wyrażeniu można także użyć całego Umiejscowienia: Kliknij prawym przyciskiem myszy właściwość Umiejscowienie w edytorze właściwości, wybierz opcję \"pokaż wszystkie\", wtedy zostaną wyświetlone dodatkowe właściwości. Jeśli następnie ponownie klikniesz prawym przyciskiem myszy na Umiejscowienie, w menu kontekstowym pojawi się Wyrażenie, wybierz opcję Wyrażenie, a otworzy się okno dialogowe Wyrażenie, w którym wszystko, co wpiszesz, trafi do właściwości Umiejscowienia, a nie do jej właściwości podrzędnych.
+Można również użyć całego umiejscowienia w jednym wyrażeniu:
+
+Kliknij prawym przyciskiem myszy właściwość Umiejscowienie w edytorze właściwości, wybierz opcję \"pokaż wszystkie\", wtedy zostaną wyświetlone dodatkowe właściwości. Jeśli następnie ponownie klikniesz prawym przyciskiem myszy na Umiejscowienie, w menu kontekstowym pojawi się Wyrażenie, wybierz opcję Wyrażenie, a otworzy się okno dialogowe Wyrażenie, w którym wszystko, co wpiszesz, trafi do właściwości Umiejscowienia, a nie do jej właściwości podrzędnych.
 
 Aby zrównać umiejscowienie \"Szkicu\" z umiejscowieniem \"Cylindra\", należałoby wprowadzić wyrażenie dla Szkicu w taki sposób:
 
@@ -292,12 +294,6 @@ Aby zrównać umiejscowienie \"Szkicu\" z umiejscowieniem \"Cylindra\", należa�
   Part.Cone                     środek powierzchni dolnej ściany *(lub wierzchołek, jeśli promień dolny wynosi 0)*
   Part.Torus                    środek torusa
   Obiekty pochodne od szkiców   obiekty dziedziczą pozycję bazowego szkicu. Szkice zawsze zaczynają się w pozycji = (0,0,0). Pozycja ta odpowiada punktowi położenia odniesienia w szkicu.
-
-
-
-## Problemy
-
--   Względne rozmieszczanie obiektów będzie docelowo obsługiwane w środowisku pracy Złożenie.
 
 
 

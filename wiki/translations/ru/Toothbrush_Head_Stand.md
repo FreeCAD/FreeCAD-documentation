@@ -13,94 +13,97 @@
 
 
 
-<div class="mw-translate-fuzzy">
 
 
 
+## Проблема повседневной жизни 
 
-</div>
+Электрические зубные щетки редко поставляются с подставкой для насадок, в то время как в семье вы часто увидите, что несколько насадок используются одним устройством. Многие люди, сталкивающиеся с общей проблемой, приводят нас к различным решениям, как вы можете видеть на Thingiverse (с этим связано 200-800 проектов). Вот первый ответ и как его спроектировать.
 
-## A daily-life problem 
-
-Electric toothbrushes rarely come with a head stand, while in a family you will often see multiple heads used with one body. Many people facing a common problem lead us to a variety of solutions, as you can see on Thingiverse (200-800 projects are related to that). Here is the first answer and how to design it.
-
-This tutorial will take you through the steps needed to model the part shown in the image below using basic tools from the [Part Design Workbench](PartDesign_Workbench.md) (many of the tools and capabilities are not covered).
+В этом руководстве вы пройдете через шаги, необходимые для моделирования детали, показанной на рисунке ниже, с использованием базовых инструментов из верстака [Part Design](PartDesign_Workbench.md) (многие инструменты и возможности не описаны).
 
 ![](images/TBHS-model.png )
 
-## First idea : a plate 
 
--   From the start-page, select ![](images/Workbench_PartDesign.svg‎‎ ) *Part Design*, or create a new document and select the *Part Design* workbench.
+
+## Первая идея : пластина 
+
+-   На странице запуска, выберите верстак <img alt="" src=images/Workbench_PartDesign.svg‎‎  style="width:32px;"> *Part Design*, или создайте новый документ, выбрав верстак Part Design.
 
 ![](images/TBHS-0.png )
 
-### Create a sketch 
 
--   Click on <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [**New sketch**](Sketcher_NewSketch.md). Either from the contextual task menu at the left, or the toolbar above or from the Part Design menu at the top.
+
+### Создание эскиза 
+
+-   Нажмите на <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [**Создать эскиз**](Sketcher_NewSketch.md). Либо из контекстного меню задач слева, либо с панели инструментов вверху, либо из меню \"Part Design\" вверху.
 
 <img alt="" src=images/TBHS-1.JPG  style="width:800px;">
 
-A dialog prompts you to choose the sketch orientation and provide an offset.
+В диалоговом окне вам будет предложено выбрать ориентацию эскиза и указать смещение.
 
--   We will pick the XY Plane as shown in the image above (that orientation correspond to the common build plate of most 3D printers), then click OK.
+-   Мы выберем плоскость XY, как показано на рисунке выше (эта ориентация соответствует общей схеме сборки большинства 3D-принтеров), затем нажмите кнопку **ОК**.
 
 <img alt="" src=images/TBHS-2.JPG  style="width:800px;">
 
-You now are facing the XY plane from above, and have access to the drawing tools.
+Теперь вы смотрите на плоскость XY сверху и имеете доступ к инструментам рисования.
 
--   Click on <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> [**Rectangle**](Sketcher_CreateRectangle.md).
--   Click to place a first point.
--   Click to place the opposite corner.
--   Press **ESC** or click the right mouse button to stop using the tool.
+-   Нажмите на <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> [**Прямоугольник**](Sketcher_CreateRectangle.md).
+-   Нажмите, чтобы создать первую точку.
+-   Нажмите, чтобы создать конечную точку.
+-   Нажмите **ESC** или нажмите ПКМ для выхода из режима прямоугольника.
 
 <img alt="" src=images/TBHS-3.JPG  style="width:800px;">
 
-You now have a floating rectangle of unspecified dimensions.
+Теперь у вас есть прямоугольник неопределенных размеров.
 
--   Click on a line of the rectangle, you now have access to the constraint tools at the right of the toolbar (depending of the size of your screen you may need to drag them to the left in order to see them all)
--   Click on <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [**Distance**](Sketcher_ConstrainDistance.md)
--   A dialog prompts you to set a dimension. Enter 80mm, click OK.
--   Repeat with the other side of the rectangle, also 80mm.
+-   Нажмите на линию прямоугольника, и нажмите на <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [**Расстояние**](Sketcher_ConstrainDistance.md)
+-   Введите 80мм в диалоге и нажмите **OK**.
+-   Повторите действие с другой стороной прямоугольника.
 
 <img alt="" src=images/TBHS-4.JPG  style="width:800px;">
 
-You now have a floating square.
+Теперь у вас есть квадрат.
 
--   Click on the lower left point of the square.
--   Click on the origin of the XY plane (at the intersection of the two thick lines).
--   Click on <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [**Coincident**](Sketcher_ConstrainCoincident_‎.md).
+-   Нажмите на нижнюю левую точку квадрата.
+-   Нажмите с **Ctrl** на точку пересечения двух толстых линий.
+-   Нажмите на <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [**Совпадение**](Sketcher_ConstrainCoincident_‎.md).
 
 <img alt="" src=images/TBHS-5.JPG  style="width:800px;">
 
-You now have a totally constrained sketch, as you are told by the solver on the left and the change of color. It is a good practice to always have a totally constrained sketch.
+Теперь у вас есть полностью ограниченный эскиз, как вам сообщает решатель слева и изменение цвета. Хорошей практикой является всегда иметь полностью ограниченный эскиз.
 
-An under-constrained sketch can leave room for unwanted change, if you modify something later on.
+Эскиз с недостаточными ограничениями может оставить место для нежелательных изменений, если вы что-то измените позже.
 
-On the opposite, an over-constrained sketch is also not good. In that case the solver warn you of redundant constraints and you should remove some of them.
+Напротив, чрезмерно ограниченный эскиз также не годится. В этом случае решатель предупредит вас о избыточных ограничениях, и вам следует удалить некоторые из них.
 
--   To leave the sketch, click either on the \"Close\" button on the left, or the <img alt="" src=images/Sketcher_LeaveSketch.png  style="width:32px;"> icon in the toolbar, or press **ESC**.
+-   Чтобы закрыть эскиз, нажмите либо на **Закрыть** слева, либо на значок <img alt="" src=images/Sketcher_LeaveSketch.png  style="width:32px;"> на панели инструментов, либо нажмите **ESC**.
 
 <img alt="" src=images/TBHS-6.JPG  style="width:800px;">
 
-You now only see the square, and the contextual task menu on the left show you more options than before.
+Теперь вы видите только квадрат, а контекстное меню задач слева показывает вам больше опций, чем раньше.
 
-### Create a pad 
 
--   Click on <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometric** among the standard views, to better see what will happen.
--   Click on <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> **Pad**.
--   Enter 4mm and click OK.
+
+### Выдавливание
+
+-   Нажмите на <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Изометрия** среди стандартных видов, чтобы лучше увидеть, что произойдет.
+-   Нажмите на <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> **Выдавливание**.
+-   Введите 4 мм и нажмите кнопку **ОК**.
 
 <img alt="" src=images/TBHS-7.JPG  style="width:800px;">
 
-Your sketch is now in volume !
+Теперь ваш эскиз стал объемным!
 
-### Create a sketch on it 
 
--   Select the upper face
+
+### Создание эскиза на грани 
+
+-   Выберите верхнюю грань
 
 <img alt="" src=images/TBHS-8.JPG  style="width:800px;">
 
-The color of the face change and you have more options in the contextual task menu.
+Цвет грани изменится, и у вас появится больше возможностей в контекстном меню задач.
 
 -   Click on <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> **New sketch**. As a face was selected it will not ask you to choose a plane.
 
@@ -443,9 +446,11 @@ Perfect !
 -   Print it instead of the first version or to replace it if it eventually broke ;-)
 
 
- {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+{{PartDesign Tools navi
+
+}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Toothbrush Head Stand/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Toothbrush Head Stand/ru

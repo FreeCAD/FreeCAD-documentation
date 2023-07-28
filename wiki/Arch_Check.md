@@ -23,7 +23,7 @@ This tool checks the current document or the selected objects for non-solid **<i
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-This tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:  
+This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:  
 ```python
 list_bad = check(objectslist, includehidden=False)
 ```

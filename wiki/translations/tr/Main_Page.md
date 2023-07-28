@@ -89,7 +89,7 @@ Bize yardımcı olmakla ilgileniyorsanız, FreeCAD projesi içinde yapılacak ç
 
 <div class="mw-translate-fuzzy">
 
-[FreeCAD yardım](help_FreeCAD.md) sayfası, FreeCAD hakkında daha ayrıntılı bilgiler içermektedir. FreeCAD, 2016\' dan beri [Google Summer of Code](Google_Summer_of_Code.md)\'a katılmaktadır. [Katılımcı Merkezi](Contributors_hub.md), FreeCAD projesi için katılımcı ve yardım toplamak için başvurduğu başka bir yoldur.
+[FreeCAD yardım](help_FreeCAD.md) sayfası, FreeCAD hakkında daha ayrıntılı bilgiler içermektedir. FreeCAD, 2016\' dan beri [Google Summer of Code](Google_Summer_of_Code.md)\'a katılmaktadır.
 
 
 </div>

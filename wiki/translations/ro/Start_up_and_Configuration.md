@@ -15,6 +15,8 @@ Această pagină prezintă modalitățile diferite de a lansa FreeCAD și cele m
 
 </div>
 
+
+
 ## Pornirea FreeCAD din Linia de Comandă 
 
 FreeCAD poate fi pornit în mod normal prin dublul clic pe pictograma desktop sau selectând-o din meniul de pornire, dar poate fi pornit și direct din linia de comandă. Aceasta vă permite să modificați unele dintre opțiunile de pornire implicite.
@@ -31,6 +33,8 @@ FreeCAD poate fi pornit în mod normal prin dublul clic pe pictograma desktop sa
 
 
 </div>
+
+
 
 ### Opțiuni linia de Commandă 
 
@@ -112,6 +116,8 @@ or:
 
     FreeCAD --response-file ResponseFile.txt
 
+
+
 ### Opțiuni ascunse 
 
 Există câteva opțiuni care nu sunt vizibile pentru utilizator. Aceste opțiuni sunt de ex. parametrii X-Window analizați de sistemul Windows:
@@ -127,6 +133,8 @@ Există câteva opțiuni care nu sunt vizibile pentru utilizator. Aceste opțiun
 -   *-visual* - Forțează aplicația să utilizeze o imagine TrueColor vizuală pe un afișaj pe 8 biți.
 -   *-ncols* - Limitează numărul de culori alocate în cubul de culoare pe un afișaj pe 8 biți, dacă aplicația folosește QApplication::ManyColor color specification. Dacă numărul este 216, atunci este utilizat un cub colorat de 6x6x6 (adică 6 nivele de roșu, 6 de verde și 6 de albastru); pentru alte valori, este utilizat un cub aproximativ proporțional cu un cub 2x3x1.
 -   *-cmap* - Determină aplicația de a instala o hartă color privată pe un afișaj pe 8 biți.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -269,6 +277,8 @@ Unele biblioteci trebuie să apeleze variabilele mediului sistemului. Uneori, at
 -   CSF_STEPDefaults
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## The Config set 
@@ -283,6 +293,8 @@ La fiecare pornire, FreeCAD examinează parametrii din jur și cei ai liniei de 
 
 
 </div>
+
+
 
 ### Informații legate de utilizator 
 
@@ -302,6 +314,8 @@ La fiecare pornire, FreeCAD examinează parametrii din jur și cei ai liniei de 
 </div>
 
 Note: For Linux distributions, an additional configuration file that relates to [Qt](Third_Party_Tools#Qt-Toolkit.md) may exist at path **/home/username/.config/FreeCAD/FreeCAD.conf**.
+
+
 
 ### Argumentele liniei de Command 
 
@@ -324,6 +338,8 @@ Note: For Linux distributions, an additional configuration file that relates to 
 
 </div>
 
+
+
 ### Sisteme conexe 
 
 
@@ -338,6 +354,8 @@ Note: For Linux distributions, an additional configuration file that relates to 
 
 
 </div>
+
+
 
 ### Construirea de informații conexe 
 
@@ -441,9 +459,6 @@ The following assumes that your desktop is configured such that you can launch F
 4.  As a result, an additional entry in your start menu/application launcher is available. This way, you can have multiple FreeCAD entries with various launch options.
 
 ## Starting FreeCAD from a portable USB medium 
-
-
-<small>(v0.19)</small> 
 
 **Windows**
 

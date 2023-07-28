@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -24,6 +26,8 @@ când pornește instrumentul, indicatorul mouse-ului se schimbă într-o cruce a
 </div>
 
 ![](images/SketcherCreateFilletExample.png‎ )
+
+
 
 
 <div class="mw-translate-fuzzy">

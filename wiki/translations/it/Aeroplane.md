@@ -55,6 +55,8 @@ Cliccare sul testo Posizionamento (Placement; non sul segno di espansione; non s
 
 Per acquisire dimestichezza con gli assi X, Y e Z si possono sperimentare diversi valori nelle caselle di posizionamento. Alla fine, per annullare le modifiche, premere il pulsante **Ripristina**.
 
+
+
 ## Seconda parte 
 
 <img alt="" src=images/HTCaeroplane02.png  style="width:400px;">
@@ -117,6 +119,8 @@ Fare clic su Cubo e visualizzare le azioni per il suo posizionamento. Notare che
 
 
 
+
+
 ## Rotazioni
 
 
@@ -164,4 +168,4 @@ Spero che questo piccolo tutorial sia di aiuto per gestire le rotazioni.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Aeroplane/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Aeroplane/it

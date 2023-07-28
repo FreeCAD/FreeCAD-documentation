@@ -1,36 +1,26 @@
 # Macro FlattenWire/de
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/de
 |Name=FlattenWire
 |Icon=Macro_FlattenWire.png
-|Description=Dieses Makro glättet Zugdrähte, die nicht auf ihre mittlere Z-Koordinate ausgerichtet sind
+|Description=Dieses Makro glättet Draft-Drähte, die nicht planar bezüglich ihrer mittlere Z-Koordinate ausgerichtet sind
 |Author=Yorik
-|Version=1.0
-|Date=2011-08-01
+|Version=1.1
+|Date=2021-10-27
 |FCVersion=All
 |Download=[https://www.freecadweb.org/wiki/images/2/2f/Macro_FlattenWire.png ToolBar Icon]
 }}
 
 
-</div>
 
-## Description
+## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-## Desorption
-
-Dieser Makroentwurf ist nicht bindend für den Median
+Dieses Makro glättet Draft-Drähte, die nicht planar bezüglich ihrer mittleren Z-Koordinate ausgerichtet sind
 
 
-</div>
 
 ## Skript
 
-ToolBar Icon ![](images/Macro_FlattenWire.png )
+Werkzeugleisten-Symbol ![](images/Macro_FlattenWire.png )
 
 **Macro_FlattenWire.FCMacro**
 

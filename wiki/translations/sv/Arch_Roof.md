@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Beskrivning
 
 The **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** tool allows for the creation of a sloped roof from a selected wire. The created roof object is parametric, keeping its relationship with the base object. The principle is that each edge is seen allotting a profile of roof (slope, width, overhang, thickness).
@@ -22,6 +24,8 @@ The **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** to
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Bruk
@@ -29,7 +33,7 @@ The **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** to
 
 </div>
 
-1.  Create a wire with following the counter-clockwise direction and select it.
+1.  Create a closed wire with following the counter-clockwise direction and select it.
 
     :   <img alt="" src=images/CounterclockwiseWire.png  style="width:600px;">
 
@@ -59,7 +63,7 @@ The **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** to
 
 ## Options
 
--   Roofs share the common properties and behaviors of all [Arch Components](Arch_Component.md)
+-   Roofs share the common properties and behaviors of all [Arch Components](Arch_Component.md).
 
 ## Properties
 
@@ -82,7 +86,9 @@ The **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** to
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Roof tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The Roof tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 Roof = makeRoof(baseobj=None, facenr=0, angles=[45.,], run=[], idrel=[0,], thickness=[50.,], overhang=[100.,], name="Roof")
 ```

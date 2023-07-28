@@ -14,11 +14,15 @@
 
 
 
+
+
 ## Einleitung
 
 Dieses Tutorium soll zeigen, wie eine einfache Finite-Elemente-Analyse (**FEA**) in FreeCADs Arbeitsbereich <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [FEM](FEM_Workbench/de.md) mit Python erstellt wird. Das Modell aus dem [FEM CalculiX Freiträger 3D](FEM_CalculiX_Cantilever_3D/de.md) Tutorium wird für dieses Beispiel verwendet.
 
 <img alt="" src=images/FEM_example01_pic00.jpg  style="width:700px;">
+
+
 
 ## Voraussetzungen
 
@@ -29,6 +33,8 @@ Dieses Tutorium soll zeigen, wie eine einfache Finite-Elemente-Analyse (**FEA**)
 -   A working FEM workbench. Run the [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D.md) analysis to ascertain this.
 
 ## Let\'s start 
+
+
 
 ### Ein neues Dokument und das zu analysierende Teil 
 
@@ -50,6 +56,8 @@ FreeCADGui.SendMsgToActiveView("ViewFit")
 
 #
 ```
+
+
 
 ### Analyse und Analysis-Objekte 
 
@@ -98,6 +106,8 @@ analysis_object.addObject(force_constraint)
 
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:750px ">
+
+
 
 ### FEM Netz (Anleitung) 
 
@@ -601,9 +611,11 @@ Writing the input file in FreeCAD console mode (no Gui) could be done in test mo
 Have Fun! Also if you have feedback or any refinements, feel free to participate on the [FreeCAD FEM subforum](https://forum.freecadweb.org/viewforum.php?f=18).
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Python Code](Category_Python Code.md) > [FEM](Category_FEM.md) > FEM Tutorial Python/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Python Code](Category_Python Code.md) > [FEM](Category_FEM.md) > FEM Tutorial Python/de

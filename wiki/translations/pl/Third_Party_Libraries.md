@@ -9,6 +9,8 @@ Przed przystąpieniem do kompilacji należy najpierw zadbać☻ o rozwiązanie z
 
 Jeśli kompilujesz w systemie Windows, rozważ użycie [paczki bibliotek](#LibPack.md) zamiast próbować instalować biblioteki pojedynczo.
 
+
+
 ## Odnośniki internetowe 
 
 ++++
@@ -65,6 +67,8 @@ Jeśli kompilujesz w systemie Windows, rozważ użycie [paczki bibliotek](#LibPa
 |                       |                         |                                                                               |
 ++++
 
+
+
 ## Szczególy
 
 ### Python
@@ -97,6 +101,8 @@ Python został wybrany jako język skryptowy dla FreeCAD z różnych powodów:
 
 Podsumowując, Python jest dobrze udokumentowany, łatwo go osadzić i rozszerzyć w aplikacji napisanej w języku C++. Jest też dobrze przetestowany i ma silne wsparcie ze strony społeczności open source. Więcej informacji na temat środowiska Python oraz oficjalną dokumentację można znaleźć na stronie [Python.org](http://www.python.org).
 
+
+
 ### Boost
 
 **Wersja:** 1.33 lub nowsza
@@ -108,6 +114,8 @@ Biblioteki Boost C++ są kolekcją recenzowanych bibliotek o otwartym kodzie źr
 Ze względu na ich popularność i stabilność wiele bibliotek Boost zostało zaakceptowanych do włączenia do standardu C++11, a kolejne są planowane do włączenia w kolejnych standardach C++.
 
 W celu zapewnienia wydajności i elastyczności, Boost szeroko korzysta z szablonów. Boost stał się źródłem wielu prac i badań nad programowaniem ogólnym i metaprogramowaniem w C++. Więcej o Boost można przeczytać na stronie [domowej Boost](http://www.boost.org/).
+
+
 
 ### Technologia OpenCASCADE 
 
@@ -131,6 +139,8 @@ Istnieją dwie główne wersje OpenCASCADE w różnych dystrybucjach Linuksa. Je
 
 Aby dowiedzieć się więcej, odwiedź stronę [OpenCASCADE](http://www.opencascade.org).
 
+
+
 ### Qt
 
 **Wersja:** 4.1 lub nowsza
@@ -149,6 +159,8 @@ Oryginalne pakiety Shiboken i PySide były przeznaczone do użycia ze środowisk
 
 Więcej o Shiboken i Pyside można przeczytać na stronie [Qt for Python](https://wiki.qt.io/Qt_for_Python/Shiboken).
 
+
+
 ### Coin3D
 
 **Wersja:** 3.0 lub nowsza
@@ -164,6 +176,8 @@ Coin3D jest kompatybilny z Open Inventor 2.1 API firmy SGI. API to stało się d
 Coin3D *(Open Inventor)* jest używany jako przeglądarka 3D w FreeCAD, ponieważ przeglądarka OpenCASCADE *(AIS i Graphics3D)* ma ograniczenia i wąskie gardła wydajności, zwłaszcza w przypadku renderowania inżynierskiego na dużą skalę. Inne rzeczy, takie jak tekstury czy renderowanie objętościowe, nie są w pełni obsługiwane przez przeglądarkę OpenCASCADE.
 
 Coin3D jest przenośny na szeroką gamę platform: UNIX, Linux, BSD, MacOS X oraz systemy operacyjne Microsoft Windows. Aby dowiedzieć się więcej o tej bibliotece, odwiedź stronę [domową Coin3D](https://github.com/coin3d/coin).
+
+
 
 #### SoQt *(obecnie przestarzałe)* 
 
@@ -183,6 +197,8 @@ SoQt nie jest już używany w programie FreeCAD, został zastąpiony przez Quart
 
 Quarter to nowsze powiązanie Coin3D z zestawem narzędzi Qt. Jego wersja jest zawarta w kodzie źródłowym FreeCAD, więc jest kompilowana razem z nim.
 
+
+
 #### Pivy
 
 **Wersja:** 0.6.3 lub nowsza
@@ -192,6 +208,8 @@ Quarter to nowsze powiązanie Coin3D z zestawem narzędzi Qt. Jego wersja jest z
 [Pivy](Pivy/pl.md) jest biblioteką, która opakowuje bibliotekę Coin3d do użytku w środowisku [Python](Python/pl.md). Nie jest potrzebna do zbudowania programu FreeCAD ani do jego uruchomienia, ale jest wymagana jako zależność runtime przez [Rysunek Roboczy](Draft_Workbench/pl.md) i przez inne środowiska pracy, które używają jej wewnętrznie, jak [Architektura](Arch_Workbench/pl.md) i [BIM](BIM_Workbench/pl.md).
 
 Jeśli nie zamierzasz korzystać z tych środowisk pracy, nie potrzebujesz Pivy.
+
+
 
 ### Ply
 
@@ -203,6 +221,8 @@ Ply jest parserem Python-Lex-Yacc. Jest on używany jako zależność runtime pr
 
 Więcej informacji można znaleźć na stronie [domowej Ply](https://www.dabeaz.com/ply/).
 
+
+
 ### Xerces-C++ 
 
 **Wersja:** 3.0 lub nowsza
@@ -212,6 +232,8 @@ Więcej informacji można znaleźć na stronie [domowej Ply](https://www.dabeaz.
 Xerces-C++ jest sprawdzającym poprawność parserem XML napisanym w przenośnym podzbiorze języka C++. Xerces-C++ ułatwia nadanie aplikacji możliwości odczytu i zapisu danych XML. Udostępnia bibliotekę współdzieloną do parsowania, generowania, manipulowania i sprawdzania poprawności dokumentów XML. Xerces-C++ jest wierny zaleceniu XML 1.0 i związanym z nim standardom.
 
 Parser jest używany do zapisywania i przywracania parametrów w programie FreeCAD. Więcej informacji można znaleźć na stronie [domowej Xerces-C++](https://xerces.apache.org/xerces-c/).
+
+
 
 ### Eigen3
 
@@ -224,6 +246,8 @@ Eigen jest biblioteką szablonów C++ dla algebry liniowej: macierzy, wektorów,
 Jeśli użytkownik chce tylko używać programu Eigen, może od razu korzystać z plików nagłówkowych. Nie ma biblioteki binarnej, z którą trzeba by się łączyć, ani skonfigurowanego pliku nagłówkowego. Eigen jest czystą biblioteką szablonową zdefiniowaną w nagłówkach.
 
 Program Eigen jest używany w programie FreeCAD do wielu operacji na wektorach w przestrzeni 3D. Aby dowiedzieć się więcej, odwiedź stronę [domową Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page).
+
+
 
 ### Zipios++
 
@@ -239,6 +263,8 @@ Kopia Zipios++ jest zawarta w kodzie źródłowym FreeCAD, więc jest kompilowan
 
 Do dekompresji plików Zipios++ używa biblioteki Zlib.
 
+
+
 #### Zlib
 
 **Wersja:** 1.0 lub nowsza
@@ -248,6 +274,8 @@ Do dekompresji plików Zipios++ używa biblioteki Zlib.
 Zlib został zaprojektowany jako bezpłatna biblioteka ogólnego przeznaczenia do bezstratnej kompresji danych, przeznaczona do użytku na dowolnym sprzęcie komputerowym i w dowolnym systemie operacyjnym. Implementuje ona algorytm kompresji `DEFLATE` powszechnie stosowany w plikach `.zip` i `.gzip`.
 
 Kopia tej biblioteki jest dołączona do kodu źródłowego programu FreeCAD, więc jest z nim kompilowana.
+
+
 
 ### libarea
 
@@ -264,6 +292,8 @@ Kopia biblioteki jest dołączona do kodu źródłowego środowiska pracy [Path]
 LibPack jest wygodnym pakietem z zebranymi razem zależnościami kompilacji programu FreeCAD. Jest on potrzebny tylko wtedy, gdy kompilujesz program FreeCAD w systemie Windows za pomocą Visual Studio 2015 lub nowszego. Najnowszy LibPack można znaleźć na stronie [releases page](https://github.com/FreeCAD/FreeCAD/releases).
 
 Jeśli pracujesz pod Linuksem, nie potrzebujesz LibPacka, ponieważ możesz pobrać zależności z repozytoriów swojej dystrybucji, jak wspomniano na stronie [Kompilacja w systemie Linux](Compile_on_Linux/pl.md).
+
+
 
 ### FreeCAD 12.1.2 
 

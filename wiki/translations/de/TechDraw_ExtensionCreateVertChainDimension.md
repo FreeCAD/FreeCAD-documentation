@@ -11,14 +11,27 @@
 
 # TechDraw ExtensionCreateVertChainDimension/de
 
+
+
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Das Werkzeug <img alt="" src=images/TechDraw_ExtensionCreateVertChainDimension.svg  style="width:24px;"> **TechDraw ErgänzungVertikaleMaßkette** erzeugt eine vertikale Maßkette: eine Folge von fluchtend ausgerichteten Maßen.
+
+
+</div>
 
 <img alt="" src=images/TechDraw_ExtensionCreateVertChainDimensionExample.png  style="width:300px;"> 
 *Rechts die erzeugten Maße*
 
+
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Drei oder mehr Knotenpunkte auswählen.
 2.  Die beiden höchsten Knotenpunkte bestimmen die Position der Maßkette.
@@ -26,6 +39,9 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionCreateVertChainDimension.s
     -   Die Schaltfläche **<img src="images/TechDraw_ExtensionCreateVertChainDimension.svg" width=16px> [Vertikale Maßkette erstellen](TechDraw_ExtensionCreateVertChainDimension/de.md)** drücken.
     -   Den Menüeintrag **TechDraw → Ergänzungen: Maße → <img src="images/TechDraw_ExtensionCreateVertChainDimension.svg" width=16px> Vertikale Maßkette erstellen** auswählen.
 4.  Eine Maßkette mit mittigen Maßzahlen wird erstellt.
+
+
+</div>
 
 
 

@@ -1,20 +1,23 @@
-# POV-Ray-Rendering Workbench/pl
-}
-
-<img alt="POV-Ray-Rendering Workbench icon" src=images/POV-Ray-Rendering_workbench_icon.svg  style="width:128px;">
+# <img alt="POV-Ray-Rendering Workbench icon" src=images/POV-Ray-Rendering_workbench_icon.svg  style="width:64px;"> POV-Ray-Rendering Workbench/pl
 
 
 {{TOCright}}
 
-## Introduction
 
-The POV-Ray-Rendering Workbench is an [external workbench](External_workbenches.md) built to make rendering easy but it also offers options for advanced users. The workbench uses the [POV-Ray](http://www.povray.org/) renderer.
+
+## Wprowadzenie
+
+Środowisko POV-Ray-Rendering jest [zewnętrznym środowiskiem pracy](External_workbenches/pl.md) pozwalającym na łatwe stworzenie wizualizacji twojego projektu, nie ograniczając przy tym możliwości bardziej biegłym użytkownikom. Środowisko wykorzystuje oprogramowanie [POV-Ray](http://www.povray.org/).
 
 <img alt="" src=images/POV-Ray-Rendering_Example.png  style="width:600px;">
 
-## Features
 
-### Applying textures 
+
+## Funkcjonalności
+
+
+
+### Teksturowanie
 
 There are more than 100 predefined textures you can apply, but you can also define your own textures.
 
@@ -24,7 +27,9 @@ There are more than 100 predefined textures you can apply, but you can also defi
 
 To see the impact of the selected texture options you can check the pre-rendered thumbnail or use the live preview to render the texture.
 
-### Lighting
+
+
+### Oświetlenie
 
 With the three light types: area light, point light and spot light, and their different options, you can create advanced lighting.
 
@@ -46,7 +51,9 @@ With support for HDRI environments, beautiful environments are simple to use.
 
 Power users who want access to *all* options of the [POV-Ray](http://www.povray.org/) renderer can do so by creating a special file. For more details see the [Power User](https://gitlab.com/usbhub/exporttopovray/-/blob/master/doc/PowerUser.md) page on our Wiki.
 
-## Usage
+
+
+## Użycie
 
 Here is a simple demonstration of the workbench:
 
@@ -54,15 +61,23 @@ Here is a simple demonstration of the workbench:
 
 There are many more options on the other tabs, please explore them yourself, or you can visit our Wiki: [Workbench Wiki](https://gitlab.com/usbhub/exporttopovray/-/tree/master/doc)
 
-## Installation
 
-This workbench can be installed and updated from the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). The [POV-Ray](http://www.povray.org/) renderer used by the workbench has to be installed separately. See [Install POV](http://wiki.povray.org/content/HowTo:Install_POV).
 
-To complete the installation the path to the POV-Ray executable has to be defined in the workbench preferences:
+## Instalacja
+
+This workbench can be installed and updated from the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). The [POV-Ray](http://www.povray.org/) renderer used by the workbench has to be installed separately. For Windows users, the installer can be downloaded from the [POV-Ray Download Page](https://www.povray.org/download/), for Linux users it can usually be installed from the package manager. Look up the detailed instructions in the [POV-Ray Wiki](https://wiki.povray.org/content/HowTo:Install_POV) if you\'re on a Mac.
+
+To complete the installation the path to the POV-Ray executable has to be defined in the workbench preferences, usually these are the default paths:
+
+-   **Windows:** **C:/Program Files/POV-Ray/v3.7/bin/pvengine64.exe** (the **v*.*** folder may change depending on the POV-Ray version)
+-   **Linux:** **/usr/bin/povray**
+-   **MacOS:** Not available. If you have more information, please let us know.
 
 <img alt="" src=images/POV-Ray-Rendering_ExePath.png  style="width:600px;">
 
-## Tools
+
+
+## Przybory
 
 -   <img alt="" src=images/POV-Ray-Rendering_OpenDialog.svg  style="width:32px;"> OpenDialog: Opens the dialog where most of the work is done. Here you can apply textures, add HDRI environments, etc. and start the rendering.
 
@@ -85,7 +100,9 @@ To complete the installation the path to the POV-Ray executable has to be define
 -   FreeCAD Forum: <https://forum.freecadweb.org/viewtopic.php?f=9&t=48629>
 -   Report bugs: Please report bugs at GitHub or the FreeCAD Forum
 
-## Other useful links 
+
+
+## Inne użyteczne odnośniki 
 
 -   [External workbenches](External_workbenches.md)
 

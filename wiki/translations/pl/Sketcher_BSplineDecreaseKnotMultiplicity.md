@@ -1,45 +1,50 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher BSplineDecreaseKnotMultiplicity
-   MenuLocation:Sketch → Sketcher B-spline tools → Decrease knot multiplicity
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Zwiększ krotność węzła krzywej złożonej
+   MenuLocation:Szkic → Narzędzia szkicownika krzywej złożonej → Zwiększ krotność węzła krzywej złożonej
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[Sketcher Show/hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md), [Sketcher BSpline Increase knot multiplicity](Sketcher_BSplineIncreaseKnotMultiplicity.md)
+   SeeAlso:[Pokaż / ukryj wyświetlanie węzłów krzywej złożonej](Sketcher_BSplineKnotMultiplicity/pl.md), [Zwiększ krotność węzła krzywej złożonej](Sketcher_BSplineIncreaseKnotMultiplicity/pl.md)
 ---
 
 # Sketcher BSplineDecreaseKnotMultiplicity/pl
 
-## Description
 
-Decreases the multiplicity of a B-spline knot. (See [this page](B-Splines.md) for more info about B-splines).
 
-B-splines are basically a combination of [Bézier curves](B-Splines#B.C3.A9zier_curves.md) (nicely explained in [this](https://www.youtube.com/watch?v=bE1MrrqBAl8) and [this](https://www.youtube.com/watch?v=xXJylM2S72s) video). The points where two Bézier curves are connected to form the spline are called knots. A knot on a degree *d* spline with the multiplicity *m* means that the curve left and right to the knot has at least an equal *n* order derivative (called *C*^*n*^ continuity) whereas $n=d-m$.
-Here is a cubic spline ($d=3$) whose knots have the multiplicity 1. The multiplicity is indicated by the number in parentheses. The indication can be changed using the toolbar button **[<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width:24px"> [Show/hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md)**:
+## Opis
+
+Zwiększa stopień *(kolejność)* krzywej złożonej *(zobacz stronę [Krzywe złożone](B-Splines/pl.md) aby uzyskać więcej informacji)*.
+
+Krzywe złożone są w zasadzie kombinacją [Krzywych Béziera](B-Splines/pl#Krzywe_Béziera.md) *(ładnie wyjaśnione w filmie [From Bézier curves to B-spline curves](https://www.youtube.com/watch?v=bE1MrrqBAl8) oraz [Properties of B-spline curves](https://www.youtube.com/watch?v=xXJylM2S72s))*. Punkty, w których dwie krzywe Béziera są połączone, tworząc splajn, nazywamy węzłami. Węzeł na krzywej stopnia *d* o krotności *m* oznacza, że krzywa na lewo i prawo od węzła ma co najmniej równą pochodną rzędu *n* *(zwaną*C*^*n*^ ciągłą)*, podczas gdy $n=d-m$.
+Oto krzywa sześcienna *($d=3$)*, której węzły mają krotność 1. Mnogość jest wskazywana przez liczbę w nawiasie. Wskazanie można zmienić za pomocą przycisku na pasku narzędzi **[<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width:24px"> [Pokaż / ukryj wyświetlanie węzłów krzywej złożonej](Sketcher_BSplineKnotMultiplicity/pl.md)**:
 
 <img alt="" src=images/Sketcher_KnotMultiplicity_multiplicity1.png  style="width:400px;"> 
-*B-spline where both knots have the multiplicity 1.*
+*Krzywa złożona gdzie oba węzły mają mnogość 1.*
 
-A multiplicity of 3 will change this spline so that even the first order derivatives are not equal (*C*^0^ continuity). Here is the same spline where the left\'s knot multiplicity was increased to 3:
+Krotność 3 zmieni tą krzywą tak, że nawet pochodne pierwszego rzędu nie będą równe *(*C\'\'^0^ ciągłości). Oto ta sama krzywa, w której krotność węzła lewego została zwiększona do 3:
 
 <img alt="" src=images/Sketcher_KnotMultiplicity_multiplicity3.png  style="width:400px;"> 
-*B-spline from above with knot multiplicity 3. A control point was moved to show that the knot has ''C''<sup>0</sup> continuity.*
+*Krzywa złożona z góry z krotnością węzłów 3. Punkt kontrolny został przesunięty, aby pokazać, że węzeł ma ciągłość „C”<sup>0</sup>.*
 
-A consequence of a higher multiplicity is that for the price of loosing continuity you gain local control. This means the change of one control point only affects the spline locally to this changed point. This can be seen in this example, where the spline from the first image above was taken and its second control point from the right side was moved up:
+Konsekwencją większej krotności jest to, że za cenę utraty ciągłości zyskujemy lokalną kontrolę. Oznacza to, że zmiana jednego punktu kontrolnego wpływa na krzywą tylko lokalnie do tego zmienionego punktu. Widać to na tym przykładzie, gdzie wzięto krzywą z pierwszego obrazka powyżej i przesunięto w górę jej drugi punkt kontrolny z prawej strony:
 
 <img alt="" src=images/Sketcher_KnotMultiplicity_locality.png  style="width:400px;"> 
-*Effect of locality due to different multiplicity.*
+*Efekt lokalności ze względu na różną krotność.*
 
-One can see that the spline with knot multiplicity 1 is completely changed while the one with multiplicity 2 kept its form at its left side.
+Można zauważyć, że krzywa z krotnością węzła 1 jest całkowicie zmieniona, natomiast krzywa z krotnością 2 zachowała swoją formę po swojej lewej stronie.
 
-**Note:** If you decrease the multiplicity, the knot vanishes, because mathematically it appears then zero times in the knot vector, meaning there is no longer a basis function. Understanding this, requires some math, but it will also be clear when you look at the multiplicity: For example degree = 3 then multiplicity = 0 means that at the position of the knot two Bézier pieces are connected with *C*^3^ continuity. So the third derivative should be equal on both sides of the knot. However for a cubic Bézier curve (that is a polynom with degree 3) , this means both sides must be part of the same curve. So there is then actually no longer a knot connecting 2 different Bézier curves, the former knot is then simply a point onto one Bézier curve.
+**Uwaga:** Jeśli zmniejszysz krotność, węzeł zniknie, ponieważ matematycznie pojawia się wtedy zero razy w wektorze węzłów, co oznacza, że nie ma już funkcji bazowej. Zrozumienie tego wymaga trochę matematyki, ale będzie również jasne, gdy spojrzysz na krotność: Na przykład stopień = 3, a następnie krotność = 0 oznacza, że w miejscu węzła dwa kawałki Béziera są połączone z „C" ^3^ ciągłości. Zatem trzecia pochodna powinna być równa po obu stronach węzła. Jednak w przypadku sześciennej krzywej Béziera *(czyli wielomianu stopnia 3)* oznacza to, że obie strony muszą należeć do tej samej krzywej. Tak więc w rzeczywistości nie ma już węzła łączącego 2 różne krzywe Béziera, poprzedni węzeł jest wtedy po prostu punktem na jednej krzywej Béziera.
 
-## Usage
 
-1.  Select a B-spline knot, either:
-    -   Press the button **[<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:16px"> [Decrease knot multiplicity](Sketcher_BSplineDecreaseKnotMultiplicity.md)**.
-    -   Use the menu **Sketch → Sketcher B-spline tools → [<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:16px"> Decrease knot multiplicity**.
 
-**Note:** Decreasing the multiplicity from 1 to 0 will remove the knot since the result would be a curve with an \"edge\" at the knot position (*C*^0^ continuity) and this is not supported. (To create curves with an \"edge\", you can create two splines and connect them.)
+## Użycie
+
+1.  Wybierz węzeł krzywej złożonej, albo:
+    -   Naciśnij przycisk **[<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:16px"> '''Zmniejsz krotność węzła krzywej złożonej'''**.
+    -   Użyj menu **Szkic → Narzędzia szkicownika krzywej złożonej → [<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:16px"> Zmniejsz krotność węzła krzywej złożonej**.
+
+**Uwaga:** Zmniejszenie krotności z 1 do 0 spowoduje usunięcie węzła, ponieważ wynikiem byłaby krzywa z \"krawędzią\" w miejscu *(*C*^0^ ciągłości)* węzła, a to nie jest obsługiwane. *(Aby stworzyć krzywe z \"krawędzią\", możesz stworzyć dwa odcinki krzywej i połączyć je)*.
 
 
 

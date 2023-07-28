@@ -1,6 +1,7 @@
 # Macro TreeToAscii/fr
-{{Macro
-|Name=TreeToAscii
+{{Macro/fr
+|Name=Macro TreeToAscii
+|Name/fr=Macro TreeToAscii
 |Description=Cette macro génère une représentation graphique ASCII de l'arborescence du ou des objets sélectionnés.
 |Author=OpenBrain
 |Date=2020-03-23
@@ -10,15 +11,11 @@
 
 ## Description
 
-
-
-### Contexte
-
 Cette macro a été écrite dans le but principal de documenter la construction du modèle. Elle génère une représentation graphique ASCII de l\'arborescence de la construction du ou des objet(s) sélectionné(s).
 
 
 
-### Utilisation
+## Utilisation
 
 Sélectionnez simplement le ou les objets dont vous souhaitez imprimer l\'arborescence et exécutez la macro. Elle affichera l\'arborescence de chaque objet dans une boîte de dialogue. Tous les objets sélectionnés seront considérés comme étant au même niveau de hiérarchie en haut de l\'arborescence (même s\'ils ne sont pas dans le modèle réel). Une fois la boîte de dialogue ouverte, vous pouvez changer de style et/ou de motif et recréer l\'arborescence en ASCII.
 
@@ -50,13 +47,15 @@ Une fois la boîte de dialogue ouverte, plusieurs actions sont disponibles :
 -   ***Embed in text file*** : stocke l\'arborescence entière dans un fichier texte incorporé dans le document (disponible depuis FC 0.18.4)
 -   Bien sûr, vous pouvez copier n\'importe quelle partie de l\'arborescence en la sélectionnant et en utilisant les commandes de copie standard.
 
-### Installation
+## Installation
 
 La macro est disponible via le [gestionnaire des extensions](Std_AddonMgr/fr.md). Le code est fourni sur cette page pour plus de commodité au cas où votre système n\'ait pas git-python. Bien qu\'elle devrait être à jour, la dernière version de la macro est toujours disponible sur [dépôt FreeCAD-macro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Information/TreeToAscii.FCMacro)
 
 Pour des explications plus détaillées, consultez la page [Comment installer les macros](How_to_install_macros/fr.md).
 
 ## Script
+
+
 
 ### Discussion du forum 
 

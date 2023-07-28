@@ -10,6 +10,8 @@
 
 # Std PerspectiveCamera/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std PerspectivKamera** schaltet die Kamera in der aktiven [3D Ansicht](3D_view/de.md) in den perspektivischen Ansichtsmodus. In diesem Modus erscheinen Objekte, die weiter von der Kamera entfernt sind, kleiner als solche, die näher sind.
@@ -17,19 +19,22 @@ Der Befehl **Std PerspectivKamera** schaltet die Kamera in der aktiven [3D Ansic
 ![](images/Std_PerspectiveCamera_example.svg ) 
 *Zwei Würfel mit den gleichen Abmessungen in perspektivischer Ansicht*
 
+
+
 ## Anwendung
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Wähle die Option **Ansicht → <img src="images/Std_PerspectiveCamera.svg" width=16px> Perspektiv Ansicht** aus dem Menü.
-    -   Verwende das Tastaturkürzel: **V** dann **P**.
+    -   Den Menüeintrag **Ansicht → <img src="images/Std_PerspectiveCamera.svg" width=16px> Perspektivische Ansicht** auswählen.
+    -   Die Menüoption **<img src="images/Std_PerspectiveCamera.svg" width=16px> Perspektivische Ansicht** im Miniwürfelmenü des [Navigationswürfels](Navigation_Cube/de.md) auswählen.
+    -   Das Tastaturkürzel: **V** dann **P**.
 
-## Hinweise
 
--   Es ist auch möglich, über das Miniwürfel Menü des [Navigationswürfels](Navigation_Cube/de.md) in den perspektivischen Ansichtsmodus zu wechseln.
 
 ## Einstellungen
 
 -   Der Kameratyp kann in den Einstellungen geändert werden: **Bearbeiten → Voreinstellungen... → Anzeige → 3D Ansicht → Kameratyp**. Der gewählte Typ wird für alle 3D Ansichten aller geöffneten Dokumente und auch für neue Dokumente verwendet. Siehe [Einstellungseditor](Preferences_Editor/de#3D_Ansicht.md).
+
+
 
 ## Skripten
 

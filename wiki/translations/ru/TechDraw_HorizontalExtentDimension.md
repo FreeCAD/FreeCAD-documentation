@@ -14,7 +14,7 @@
 
 ## Описание
 
-The Horizontal Extent Dimension tool adds a linear dimension to a View. The dimension extends from the left most point on the selected objects to the right most point. A CosmeticVertex will be placed at each point.
+The **TechDraw HorizontalExtentDimension** tool adds a linear dimension to a View. The dimension extends from the left most point on the selected objects to the right most point. A CosmeticVertex will be placed at each point.
 
 <img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
 *Horizontal Extent dimension of B-spline Face*

@@ -1,9 +1,9 @@
 # Profiling/de
 ## Beschreibung
 
-Die Profilerstellung im Code von FreeCAD hilft, Flaschenhälse in den Algorithmen zu finden, die zur Erstellung oder Manipulation von Objekten verwendet werden.
+Das Profilieren des Codes von FreeCAD hilft Flaschenhälse in den Algorithmen zu finden, die zur Erstellung oder Bearbeitung von Objekten verwendet werden.
 
-Um [Python](Python/de.md) Code zu profilieren, verwende das Standardmodul `cProfile`, um Start und Endpunkte des Profils im Code zu definieren. 
+Zum Profilieren des [Python](Python/de.md)-Codes, wird das Standardmodul `cProfile` verwendet, um Start- und Endpunkte der Profilierung im Code zu definieren. 
 ```python
 import cProfile
 pr = cProfile.Profile()
@@ -17,15 +17,17 @@ pr.disable()
 pr.dump_stats("/tmp/profile.cprof")
 ```
 
-Then install and use `pyprof2calltree` to convert the profile output into cachegrind input. 
+Dann wird `pyprof2calltree` installiert und ausgeführt, um die Ausgabe der Profilierung in eine Eingabe für cachegrind umzuwandeln. 
 ```python
 pyprof2calltree -i /tmp/profile.cprof -o /tmp/callgrind.out
 ```
 
-Then visualize this information with `kcachegrind` for Linux or `qcachegrind` for Windows. 
+Danach wird diese Information mit `kcachegrind` für Linux oder `qcachegrind` für Windows angezeigt. 
 ```python
 kcachegrind /tmp/callgrind.out
 ```
+
+
 
 ## Ressourcen
 

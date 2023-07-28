@@ -9,7 +9,7 @@
 
 ## Description
 
-Path Shape doesn\'t match the current Path workflow. For that reason it\'s moved to the experimental features.
+The tool <img alt="" src=images/Path_Shape.svg  style="width:24px;"> [Shape](Path_Shape.md) doesn\'t match the current Path workflow. For that reason it\'s moved to the experimental features.
 
 This tool generates tool-paths from Path Object edges.
 
@@ -17,12 +17,14 @@ Tool-paths are uncompensated for tool radius. There is no Tool controller associ
 
 ![](images/FromShape_image_0.png )
 
+
+
 ## Kako koristiti 
 
 All edges associated with the 3D Model selection will be included.
 
 1.  Select edges by selecting the entire object from the [3D view](3D_view.md) or [Tree view](Tree_view.md), or by selecting individual edges, or by Faces from the [3D view](3D_view.md).
-2.  Press the **<img src="images/Path_Shape.svg" width=16px> [From Shape](Path_Shape.md)** button
+2.  Press the **<img src="images/Path_Shape.svg" width=16px> [From Shape](Path_Shape.md)** button.
 
 The output tool-path is added outside the Path Job.
 
@@ -30,11 +32,11 @@ The output tool-path is added outside the Path Job.
 
 All Options provided are available only from the FromShape.Property.Data view, and include:
 
--   Retraction Axis
--   Retraction Height
--   Resume Height
--   Feed Rate
--   Feed Rate Vertical
+-   **Retraction Axis**
+-   **Retraction Height**
+-   **Resume Height**
+-   **Feed Rate**
+-   **Feed Rate Vertical**
 
 ## Properties
 
@@ -75,7 +77,7 @@ Returns a Path object from a list of shapes.
 
 -   min_dist(0.0): minimum distance for the generated new wires. Wires maybe broken if the algorithm see fits. Set to zero to disable wire breaking.
 
--   abscissa(3.0): Controls vertex sampling on wire for nearest point searching. The sampling is dong using OCC GCPnts_UniformAbscissa.
+-   abscissa(3.0): Controls vertex sampling on wire for nearest point searching. The sampling is done using OCC GCPnts_UniformAbscissa.
 
 -   nearest_k(3): Nearest k sampling vertices are considered during sorting.
 

@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -29,6 +31,8 @@ Instrumentul Job (Sarcină/Task) creează un nou obiect Lucru în documentul act
 
 
 </div>
+
+
 
 ## Utilizare
 
@@ -48,6 +52,8 @@ GUI-ul de lucrări are cinci file aliniate orizontal, general, ieșire, configur
 
 </div>
 
+
+
 ## General
 
 ![](images/Job_1.jpg )
@@ -61,6 +67,8 @@ GUI-ul de lucrări are cinci file aliniate orizontal, general, ieșire, configur
 
 
 </div>
+
+
 
 ## Rezultat
 
@@ -89,6 +97,8 @@ GUI-ul de lucrări are cinci file aliniate orizontal, general, ieșire, configur
 -   **Orientation**: Selected Edge or Face is used to orient Base or Stock accordingly.
 -   **Alignment**: select a Vertex to set origin or move Base or Stock
 
+
+
 ## Instrumente
 
 ![](images/Job_4.jpg )
@@ -110,6 +120,8 @@ After adding a tool, you can set/change the feedrate and spindle speed if you ne
 </div>
 
 The default tool you can delete if you have a own tool added.
+
+
 
 ## Plan de lucru 
 

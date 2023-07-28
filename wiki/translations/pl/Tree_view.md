@@ -34,11 +34,31 @@ Wiele operacji tworzy obiekty, które są zależne od wcześniej utworzonego obi
 
 
 
+### Etykiety i atrybuty 
+
+W kolumnie **Etykiety i atrybuty** wyświetlane są etykiety i ikony obiektów.
+
+Zaznaczenie obiektu w tej kolumnie i naciśnięcie przycisku **F2** *(w systemach Linux i Windows)* lub **Enter** *(na macOS)*, pozwala na edycję właściwości **Etykieta** obiektu na miejscu, bez konieczności korzystania z menu kontekstowego opisanego poniżej lub [Edytora właściwości](Property_editor/pl.md).
+
+
+
+### Opis
+
+Kolumna Opis wyświetla dalsze informacje o obiektach, jeśli są dostępne.
+
+Informacje te są przechowywane w obiekcie w obiekcie właściwości **Etykieta2**, który można edytować na miejscu, wybierając obiekt w tej kolumnie i naciskając **F2** *(w systemach Linuxi Windows)* lub **Enter** *(na macOS)* lub poprzez [Edytor właściwości](Property_editor/pl.md).
+
+
+
 ## Działania
 
-Ponieważ widok drzewa zawiera listę obiektów, które mogą być widoczne w oknie [widoku 3D](3D_view/pl.md), wiele z tych działań jest takich samych jak te, które mogą być wykonane bezpośrednio z okna [widoku 3D](3D_view/pl.md).
+Ponieważ widok drzewa zawiera listę obiektów, które mogą być widoczne w oknie [widoku 3D](3D_view/pl.md), wiele z tych działań jest takich samych jak te, które mogą być wykonane bezpośrednio z okna [widoku 3D](3D_view/pl.md). Akcje mogą być uruchamiane z poziomu **Menu podręcznego**, dostępnego po kliknięciu prawym przyciskiem myszy tła lub obiektu.
 
-Po uruchomieniu aplikacji domyślnym Środowiskiem pracy jest [Start](Start_Workbench/pl.md) jest aktywny i nie stworzono żadnego dokumentu, a kliknięcie prawym przyciskiem myszy na [widoku drzewa](Tree_view/pl.md) pokazuje jedno podmenu z czterema poleceniami::
+
+
+### Uruchomienie aplikacji 
+
+Po uruchomieniu aplikacji domyślnym środowiskiem pracy jest [Start](Start_Workbench/pl.md) jest aktywny i nie utworzono żadnego dokumentu, a menu podręczne okna [widoku drzewa](Tree_view/pl.md) pokazuje pozycje:
 
 -    **Akcje z wyrażeniami**:
 
@@ -49,33 +69,22 @@ Po uruchomieniu aplikacji domyślnym Środowiskiem pracy jest [Start](Start_Work
 
 Umożliwiają one pracę z różnymi dokumentami, ale są wyłączone, jeśli nie ma dokumentu.
 
-Po utworzeniu nowego dokumentu aktywne stają się następujące elementy:
 
--    **Akcje z wyrażeniami**:
+
+### Nowy dokument 
+
+Po utworzeniu nowego dokumentu kliknięcie tła prawym przyciskiem myszy otwiera menu podręczne zawierające teraz dwie pozycje:
+
+-    **Akcje z wyrażeniami**jak powyżej, ale z aktywowanymi dwiema pozycjami:
 
     -   [Kopiuj aktywny dokument](Expressions/pl.md),
     -   [Kopiuj wszystkie dokumenty](Expressions/pl.md).
-
-Ponadto dostępne są dodatkowe akcje [Link](Std_LinkMake.md).
-
--    **Akcje z łączami**:
-
-    -   
-        **Utwórz link grupy**
-        
-        :
-
-        -   [Grupa podstawowa](Std_LinkMakeGroup/pl.md),
-        -   [Grupa linków](Std_LinkMakeGroup/pl.md),
-        -   [Grupa linków umożliwiających modyfikację](Std_LinkMakeGroup/pl.md),
-
-    -   [Utwórz link](Std_LinkMake/pl.md)
 
 
 
 ### Wybór dokumentu 
 
-Jeśli wybierzesz aktywny dokument i klikniesz prawym przyciskiem myszy, oprócz pozycji **Akcje z wyrażeniami** i **Akcje z linkami**, pojawią się następujące polecenia:
+Jeśli wybierzesz aktywny dokument i klikniesz prawym przyciskiem myszy, oprócz pozycji **Akcje z wyrażeniami** i **Akcje z linkami**, menu podręczne zawiera następujące polecenia:
 
 -    **Pokaż ukryte obiekty**: Jeśli opcja jest aktywna, widok drzewa pokaże ukryte elementy.
 
@@ -83,16 +92,18 @@ Jeśli wybierzesz aktywny dokument i klikniesz prawym przyciskiem myszy, oprócz
 
 -    **Zamknij dokument**: zamyka wybrany dokument.
 
--    **Pomiń ponowne obliczenia**: Jeśli opcja jest aktywna, obiekty dokumentu nie będą automatycznie [przeliczane](Std_Refresh.md).
+-    **Dodaj obiekty zależne do zaznaczenia**: wszystkie zależne obiekty zostaną dodane do zaznaczenia. W ten sposób można zobaczyć zależności i np. usunąć wszystkie zależne obiekty jednocześnie. Dostępne tylko dla obiektów z łączami i dokumentów.
+
+-    **Pomiń ponowne obliczenia**: Jeśli opcja jest aktywna, obiekty dokumentu nie będą automatycznie [przeliczane](Std_Refresh/pl.md). Dostępne tylko wtedy, gdy aktywna jest funkcja **Pomiń przeliczanie**.
 
     -   
-        **Pozwól na ponowienie wybranych przeoliczeń**
+        **Pozwól na ponowienie wybranych przeliczeń**
         
-        : jeśli opcja jest aktywna, dokument pozwoli na [przeliczenie](Std_Refresh.md) tylko niektórych obiektów.
+        : jeśli opcja jest aktywna, dokument pozwoli na [przeliczenie](Std_Refresh/pl.md) tylko niektórych obiektów.
 
 -    **Zaznacz do przeliczenia**: zaznacza wszystkie obiekty dokumentu jako zmodyfikowane i gotowe do [przeliczenia](Std_Refresh.md).
 
--    **[Utwórz grupę](Std_Group.md)**: Tworzy [grupę](Std_Group.md) w wybranym dokumencie.
+-    **[Utwórz grupę](Std_Group/pl.md)**: Tworzy [grupę](Std_Group.md) w wybranym dokumencie.
 
 
 
@@ -112,9 +123,7 @@ Po dodaniu obiektów do dokumentu kliknięcie na nich prawym przyciskiem myszki 
 
 -    **[Usuń](Std_Delete/pl.md)**: usuwa obiekt z dokumentu.
 
--    **[Ukryj element](#Symbol_oka.md)**: Jeżeli opcja jest zaznaczona, obiekt będzie ukryty w Widoku drzewa.
-
--    **Dodaj do wyboru obiekty zależne**: wszystkie obiekty zależne zostaną dodane do zaznaczenia. W ten sposób można zobaczyć zależności i np. usunąć wszystkie obiekty zależne za jednym razem. Opcja ta jest dostępna tylko wtedy, gdy jeden z wybranych obiektów posiada powiązania. {{Version/pl|0.20}}
+-    **[Przełącz widoczność w widoku drzewa](#Symbol_oka.md)**: przełącza widoczność obiektów w Widoku drzewa.
 
 -    **Zaznacz do przeliczenia**: zaznacza wybrany obiekt jako \"dotknięty\" i gotowy do [przeliczenia](Std_Refresh/pl.md).
 
@@ -177,7 +186,7 @@ Gdy użytkownik jest skupiony na widoku drzewa, dostępne są następujące oper
 
 ## Ikonki dodatków 
 
-Na domyślnej ikonie obiektu w widoku drzewa może być wyświetlana jedna lub więcej mniejszych ikonek dodatków. Dostępne ikony dodatków i ich znaczenie są wymienione poniżej. {{Version/pl|0.19}}
+Na domyślnej ikonie obiektu w widoku drzewa może być wyświetlana jedna lub więcej mniejszych ikonek dodatków. Dostępne ikony dodatków i ich znaczenie są wymienione poniżej.
 
 
 
@@ -215,7 +224,7 @@ Wskazuje to, że w obiekcie wystąpił błąd, który należy naprawić. Po prze
 
 ### ![](images/FreeCAD_Tree_view_hidden.png ) Symbol oka 
 
-Oznacza to, że obiekt będzie ukryty w Widoku drzewa, ponieważ jego opcja menu kontekstowego **Ukryj element** jest zaznaczona. Zaznacz, a następnie usuń zaznaczenie opcji z menu podręcznego **Pokaż ukryte elementy** dokumentu lub ponownie otwórz dokument, aby zaktualizować Widok drzewa.
+Oznacza to, że obiekt będzie ukryty w Widoku drzewa, jeśli opcja menu podręcznego **Pokaż elementy ukryte w Widoku drzewa** zostanie odznaczona.
 
 
 {{Interface navi

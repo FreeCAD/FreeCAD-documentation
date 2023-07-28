@@ -5,11 +5,21 @@
 
 </div>
 
+
+
 ## Descrizione
+
+
+<div class="mw-translate-fuzzy">
 
 Questo strumento veste un percorso esistente (di solito un percorso di taglio del contorno 2D) per lasciare i tag che mantengono la parte in posizione. Senza di essi una parte (che non sia fissata alla base) è soggetta a volare fuori dalla macchina in maniera incontrollata quando viene eseguito il taglio finale. I tag sono destinati a essere staccati a mano (o usando uno scalpello) e quindi rifiniti per completare la parte.
 
+
+</div>
+
 Una spiegazione video di questa funzione è disponibile in: <https://www.youtube.com/watch?v=JZ4prlR6sps>
+
+
 
 ## Utilizzo
 
@@ -21,6 +31,8 @@ Una spiegazione video di questa funzione è disponibile in: <https://www.youtube
 
 
 </div>
+
+
 
 ## Opzioni
 

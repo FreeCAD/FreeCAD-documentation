@@ -16,7 +16,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Annotazione aggiunge un blocco di testo a una pagina di disegno.
+
+
+</div>
 
 <img alt="" src=images/AnnotationSample.png  style="width:250px;"> 
 *Annotazione nella pagina di disegno*
@@ -25,18 +31,43 @@ Lo strumento Annotazione aggiunge un blocco di testo a una pagina di disegno.
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Se nel documento sono presenti più pagine di disegno, è necessario selezionare la pagina desiderata nella struttura.
 2.  Premere il pulsante **<img src="images/TechDraw_Annotation.svg" width=24px> [Annotazione](TechDraw_Annotation/it.md)**.
 3.  Nella pagina viene visualizzato un blocco di testo contenente \"Testo predefinito\". Utilizzare l\'editor delle proprietà per modificare il testo. Trascinare l\'annotazione nella posizione desiderata.
 4.  Potrebbe essere necessario premere ** <img src="images/Std_Refresh.svg" width=16px> [Aggiorna](Std_Refresh/it.md)** e/o **<img src="images/TechDraw_RedrawPage.svg" width=16px> [Ridisegna la pagina](TechDraw_RedrawPage/it.md)** per far cambiare il testo.
 
-![](images/UpdateAnnotation.png ) 
+
+</div>
+
+![](images/UpdateAnnotation.png )
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Modifica dell'annotazione tramite l'editor delle proprietà*
+
+
+</div>
+
+
+
+## Note
+
+
+<div class="mw-translate-fuzzy">
 
 
 **Note:**
 
 alcuni caratteri interferiscono con la rappresentazione interna del testo dell\'annotazione. Nello specifico, questi sono le doppie virgolette `"`, i simboli minore di `<` e maggiore di `>`; questi caratteri devono essere sostituiti rispettivamente dai caratteri di escape HTML,`&amp;quot;`, `&amp;lt;`, e `&amp;gt;`. Per i dettagli vedere [Character encodings in HTML](https://en.wikipedia.org/wiki/Character_encodings_in_HTML#HTML_character_references).
+
+
+</div>
 
 
 
@@ -88,10 +119,6 @@ anno.Text = ['Different Text']
 anno.TextStyle = 'Bold'
 rc = page.addView(anno)
 ```
-
-
-
-## Note
 
 
 <div class="mw-translate-fuzzy">

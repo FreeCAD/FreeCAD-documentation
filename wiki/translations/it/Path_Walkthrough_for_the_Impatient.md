@@ -328,9 +328,11 @@ Il passaggio finale per generare il G-Code per la fresatura è di postelaborare 
 </div>
 
 
- {{Path Tools navi}}
+{{Path Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/it

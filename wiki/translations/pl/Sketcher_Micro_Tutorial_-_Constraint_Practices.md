@@ -14,6 +14,8 @@
 
 
 
+
+
 ## Wprowadzenie
 
 Ten poradnik został pierwotnie napisany przez Quick61 i został zaktualizowany i odnowiony przez vocx.
@@ -25,6 +27,8 @@ Ten poradnik ma na celu pomóc nowemu użytkownikowi FreeCAD zapoznać się z te
 Istnieje ogólna zasada dotycząca wiązań szkicownika FreeCAD, im mniej jest **wiązań wymiarów**, tym lepiej.
 
 Lepiej jest używać **wiązania geometryczne** w miejsce wymiarowego, jeśli to możliwe. Ma to związek z wewnętrznym działaniem algorytmu wyliczającego wiązania Środowiska Sketcher.
+
+
 
 ## Sposób postępowania 
 
@@ -38,6 +42,8 @@ Kilka działań do zapamiętania:
 -   Aby wyjść z trybu edycji szkicu, naciśnij przycisk **Zamknij** w [panelu zadań](task_panel.md), lub naciśnij dwukrotnie klawisz **Esc** na klawiaturze.
 -   Aby ponownie wejść w tryb edycji, kliknij dwukrotnie na obiekt szkicu w [widoku drzewa](tree_view.md), lub wybierz go, a następnie kliknij na przycisk **[<img src=images/Sketcher_EditSketch.svg style="width:16px">. [Edycja szkicu](Sketcher_EditSketch.md)**.
 
+
+
 ## Utwórz szkic 
 
 2\. Kliknij w przycisk **<img src="images/Sketcher_NewSketch.svg‎‎" width=16px> [Utwórz nowy szkic](Sketcher_NewSketch.md)**.
@@ -49,6 +55,8 @@ Kilka działań do zapamiętania:
 **Uwaga:**
 
 w [panelu zadań](task_panel.md) rozwinąć sekcję **Edycja kontrolek** i upewnić się, że opcja **Automatyczne wiązania** jest wyłączona. Wyłącz również przyciąganie do siatki i ukryj siatkę.
+
+
 
 ## Podejście pierwsze: wiązania dotyczące danych 
 
@@ -73,6 +81,8 @@ w [panelu zadań](task_panel.md) rozwinąć sekcję **Edycja kontrolek** i upewn
 
 Patrząc na sekcję **Wiązania** w [Panelu zadań](task_panel/pl.md), widzimy, że istnieje zbyt wiele wiązań. Zaburzają one również widok szkicu. Wiązania te są również skomplikowane obliczeniowo dla solvera. Choć nie stanowi to problemu z prostym kształtem, to jednak może on stać się jednym z bardziej złożonych kształtów.
 
+
+
 ## Lepsza droga: wymiary i wiązania geometryczne 
 
 4\. Narysujemy całkowicie związany kwadrat, wyśrodkowany w punkcie początku układu współrzędnych. Podczas tworzenia nowego szkicu, upewnij się, że opcja **Automatyczne wiązania** jest wyłączona.
@@ -95,6 +105,8 @@ Patrząc na sekcję **Wiązania** w [Panelu zadań](task_panel/pl.md), widzimy, 
 *Z lewej: wiązania dotyczące wymiarów tylko dwóch boków. Z prawej: dodatkowe wiązania dotyczące tylko dwóch odległości wewnętrznych.*
 
 W porównaniu do pierwszego, ten szkic jest związany znacznie lepiej. Poziome i pionowe wiązania geometryczne pozwalają nam na zastosowanie mniejszej liczby wiązań w układzie odniesienia. Dzięki czemu nasz szkic wygląda bardziej przejrzyście.
+
+
 
 ## Schemat optymalny: przede wszystkim wiązania geometryczne 
 
@@ -122,6 +134,8 @@ W porównaniu do pierwszego, ten szkic jest związany znacznie lepiej. Poziome i
 
 Jest to najlepszy sposób na związanie tego szkicu, ponieważ użyliśmy tylko jednego wiązania danych *(wymiarowego)*.
 
+
+
 ## Dodatkowe zasoby 
 
 -   [Poradnik: Podstawy dla Środowiska pracy Sketcher](Basic_Sketcher_Tutorial/pl.md)
@@ -129,9 +143,11 @@ Jest to najlepszy sposób na związanie tego szkicu, ponieważ użyliśmy tylko 
 -   [Poradnik dla Środowiska pracy Sketcher](Sketcher_Tutorial/pl.md)
 
 
- {{Sketcher Tools navi}}
+{{Sketcher Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/pl

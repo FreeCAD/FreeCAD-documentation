@@ -11,7 +11,7 @@
 
 ## Description
 
-L\'outil Couper selon un plan vous permet de couper un objet Arch selon un plan:
+L\'outil Couper selon un plan vous permet de couper un objet Arch selon un plan :
 
 -   Vous pouvez couper un objet Arch avec la face sélectionnée, normale ou opposée au plan de la face.
 -   Cela ajoute un composant de soustraction CutVolume à l\'objet Arch
@@ -20,7 +20,9 @@ L\'outil Couper selon un plan vous permet de couper un objet Arch selon un plan:
 
 
 
-*A gauche: avant d'appliquer l'outil Couper selon un plan. Milieu: mur résultant après la coupe. À droite: encore un autre résultat facultatif*
+*À gauche : avant d'appliquer l'outil Couper selon un plan. Milieu : mur résultant après la coupe. À droite : encore un autre résultat facultatif*
+
+
 
 ## Utilisation
 
@@ -29,10 +31,12 @@ L\'outil Couper selon un plan vous permet de couper un objet Arch selon un plan:
 3.  Choisissez si l\'objet est coupé **derrière** la face normale ou **devant** de la face normale.
 4.  Cliquer sur le bouton **OK**.
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
@@ -54,7 +58,7 @@ cutObj = cutComponentwithPlane(archObject, cutPlane, sideFace)
 
 -    `sideFace`indique de quel côté de `FaceObject` un volume sera créé; ce volume sera ensuite utilisé pour être soustrait de `archObject`. Si `sideFace` vaut `0`, cela créera un volume à l\'arrière de la face, sinon il le créera devant la face.
 
-Exemple: 
+Exemple : 
 ```python
 import FreeCAD, FreeCADGui, Draft, Arch
 

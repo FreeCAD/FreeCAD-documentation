@@ -1,74 +1,87 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ComplexSection
-   MenuLocation:TechDraw → Insert Complex Section
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:1.0
-   SeeAlso:[TechDraw Section](TechDraw_SectionView.md), [TechDraw View](TechDraw_View.md), [TechDraw Projection Group](TechDraw_ProjectionGroup.md)
+   Name/pl:Rysunek Techniczny: Przekrój złożony
+   MenuLocation:Rysunek Techniczny → Widoki → Wstaw przekrój złożony
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Version:0.21
+   SeeAlso:[Wstaw widok przekroju](TechDraw_SectionView/pl.md), [Wstaw widok](TechDraw_View/pl.md), [Wstaw grupę rzutów](TechDraw_ProjectionGroup/pl.md)
 ---
 
 # TechDraw ComplexSection/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_ComplexSection.svg  style="width:24px;"> **TechDraw ComplexSection** tool inserts a cross-section view based on an existing part view and a profile.
+
+## Opis
+
+Narzędzie **Wstaw przekrój złożony** wstawia widok przekroju na podstawie istniejącego widoku części i profilu.
 
 <img alt="" src=images/TechDraw_QuarterSection_example.png  style="width:350px;"> 
-*A Quarter section view created with the Complex Section tool*
+*Widok przekroju ćwiartki utworzony za pomocą narzędzia Przekrój złożony.*
 
 <img alt="" src=images/TechDraw_AlignedSection_example.png  style="width:350px;"> 
-*An Aligned section view created with the Complex Section tool*
+*Wyrównany widok przekroju utworzony za pomocą narzędzia Przekrój złożony.*
 
 <img alt="" src=images/TechDraw_OffsetSection_example.png  style="width:350px;"> 
-*An Offset section view created with the Complex Section tool*
+*Widok przekroju z przesunięciem utworzony za pomocą narzędzia Przekrój złożony*
 
-## Usage
 
-1.  Select a part view and a profile object in the [3D view](3D_view.md) or [Tree view](Tree_view.md). Profiles are typically Sketches, but any object whose shape can be made into a wire will work.
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ComplexSection.svg" width=16px> [Insert Complex Section](TechDraw_ComplexSection.md)** button.
-    -   Select the **TechDraw → <img src="images/TechDraw_ComplexSection.svg" width=16px> Insert Complex Section** option from the menu.
-3.  A task panel will open which will help calculate the various properties. Reasonable values for the view Direction are calculated, but these can be changed.
+
+## Użycie
+
+1.  Wybierz widok części i obiekt profilu w oknie [widoku 3D](3D_view/pl.md) lub [widoku drzewa](Tree_view/pl.md). Profile to zazwyczaj Szkice, ale każdy obiekt, którego kształt można przekształcić w linię będzie działał.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Nacisnąć przycisk **<img src="images/TechDraw_ComplexSection.svg" width=16px> '''Przekrój złożony'''**.
+    -   Wybierz z menu opcję **Rysunek Techniczny → Widoki → <img src="images/TechDraw_ComplexSection.svg" width=16px> Wstaw przekrój złożony**.
+3.  Otworzy się panel zadań, który pomoże obliczyć różne właściwości. Obliczane są rozsądne wartości dla widoku Kierunek, ale można je zmienić.
 
 <img alt="" src=images/TechDraw_ComplexSection_Taskview1.png  style="width:" height="380px;"> <img alt="" src=images/TechDraw_ComplexSection_Taskview2.png  style="width:" height="380px;">
 
-## Properties ComplexSection 
-
-See also [TechDraw SectionView](TechDraw_SectionView#Properties.md).
-
-### Data
 
 
-{{TitleProperty|Cutting Tool}}
+## Właściwości Przekroju złożonego 
 
--    **Cutting Tool Wire Object**: The document object whose shape will be used to generate the cutting profile.
+Zapoznaj się również informacjami na stronie [właściwości widoku przekroju](TechDraw_SectionView/pl#Właściwości_widoku_przekroju.md) środowiska Rysunek Techniczny.
 
--    **Projection Strategy**: Controls how the cut is performed and how the result is projected on the page:
 
-    -   
-        {{Value|Offset}}
-        
-        : Performs a simple cut of the Source shape and projects the result.
 
-    -   
-        {{Value|Aligned}}
-        
-        : Cuts the Source shape using a tool created from each segment (edge) of the cutting profile. The results of each cut are projected in a vertical or horizontal array, depending on the orientation of the cutting profile.
+### Dane
+
+
+{{TitleProperty|Narzędzie tnące}}
+
+-    **Obiekt narzędzia tnącego linii łamanej**: Obiekt dokumentu, którego kształt zostanie użyty do wygenerowania profilu cięcia.
+
+-    **Strategia rzutowania**: Kontroluje sposób, w jaki cięcie jest wykonywane i jak wynik jest wyświetlany na stronie:
 
     -   
-        {{Value|NoParallel}}
+        {{Value|Odsunięcie}}
         
-        : As Aligned, but profile segments which are parallel to the view direction are skipped.
+        : Wykonuje proste cięcie kształtu źródłowego i rzutuje wynik.
 
-## Notes
+    -   
+        {{Value|Wyrównany}}
+        
+        : Wycina kształt źródłowy przy użyciu narzędzia utworzonego z każdego segmentu *(krawędzi)* profilu cięcia. Wyniki każdego cięcia są wyświetlane w układzie pionowym lub poziomym, w zależności od orientacji profilu cięcia.
 
-See [TechDraw SectionView](TechDraw_SectionView#Notes.md)
+    -   
+        {{Value|Nierównoległe}}
+        
+        : Jak Wyrównany, ale segmenty profilu, które są równoległe do kierunku widoku, są pomijane.
 
-## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The ComplexSection tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+## Uwagi
+
+Zapoznaj się również informacjami na stronie [wstaw widoku przekroju](TechDraw_SectionView#Uwagi.md) środowiska Rysunek Techniczny.
+
+
+
+## Tworzenie skryptów 
+
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie Wstaw przekrój złożony może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
 
 
 ```python
@@ -80,15 +93,23 @@ page = doc.Page
 view = doc.addObject("TechDraw::DrawViewPart", "View")
 page.addView(view)
 view.Source = box
-view.Direction = (0.0, 0.0, 1.0)
+view.Direction = (0, 0, 1)
 
 section = doc.addObject("TechDraw::DrawComplexSection", "ComplexSection")
 page.addView(section)
 section.BaseView = view
 section.CuttingToolWireObject = profile
-section.Direction = (0.0, 1.0, 0.0)
-section.SectionNormal = (-1.0, 0.0, 0.0)
+section.Direction = (0, 1, 0)
+section.SectionNormal = (-1, 0, 0)
 ```
+
+
+
+## Przykłady
+
+Więcej informacji na temat widoków przekrojów i niektórych przypadków użycia można znaleźć na stronie [Przykłady przekrojów](TechDraw_Section_Examples/pl.md).
+
+<img alt="" src=images/TechDraw_ExampleSection-10.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-13.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-15.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-17.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-34.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-35.png  style="width:80px;">
 
 
 

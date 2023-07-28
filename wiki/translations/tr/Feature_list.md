@@ -9,6 +9,8 @@ FreeCAD\'in uyguladığı özelliklerin kapsamlı bir listesidir, dolayısıyla 
 
 {{TOCright}}
 
+
+
 ## Sürüm Notları 
 
 
@@ -24,6 +26,8 @@ FreeCAD\'in uyguladığı özelliklerin kapsamlı bir listesidir, dolayısıyla 
 
 
 </div>
+
+
 
 ## Genel Özellikler 
 
@@ -46,6 +50,8 @@ FreeCAD\'in uyguladığı özelliklerin kapsamlı bir listesidir, dolayısıyla 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

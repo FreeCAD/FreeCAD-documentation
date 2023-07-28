@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -33,6 +35,8 @@ La herramienta Techo le permite crear un techo inclinado a partir de un wire sel
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -65,6 +69,8 @@ La herramienta Techo le permite crear un techo inclinado a partir de un wire sel
 
 </div>
 
+
+
 ## Opciones
 
 
@@ -74,6 +80,8 @@ La herramienta Techo le permite crear un techo inclinado a partir de un wire sel
 
 
 </div>
+
+
 
 ## Propiedades
 
@@ -94,6 +102,8 @@ La herramienta Techo le permite crear un techo inclinado a partir de un wire sel
 
 
 </div>
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">

@@ -9,6 +9,8 @@ Die Abhängigkeiten müssen im System installiert werden, bevor Du mit der Kompi
 
 Wenn du unter Windows kompilierst, ziehe es in Betracht, die [LibPack](#LibPack/de.md) zu verwenden, anstatt zu versuchen, die Bibliotheken einzeln zu installieren.
 
+
+
 ## Verweise
 
 ++++
@@ -107,6 +109,8 @@ Aufgrund ihrer Popularität und Stabilität wurden viele Boost Bibliotheken für
 
 Um Effizienz und Flexibilität zu gewährleisten, macht Boost umfangreichen Gebrauch von Vorlagen. Boost hat umfangreiche Arbeiten und Forschungen zur generischen Programmierung und Metaprogrammierung in C++ durchgeführt. Lies mehr über Boost, indem Du die [Boost Homepage](http://www.boost.org/) besuchst.
 
+
+
 ### OpenCASCADE Technologie 
 
 **Version:** 6.7 oder höher
@@ -159,7 +163,9 @@ Coin3D ist kompatibel mit der Open Inventor 2.1 API von SGI. Diese API hat sich 
 
 Coin3D (Open Inventor) wird als 3D Betrachter in FreeCAD verwendet, da der OpenCASCADE Betrachter (AIS und Graphics3D) insbesondere bei großflächigem Ingenieurwissenschaftlichen Wiedergabe, Einschränkungen und Leistungsengpässe aufweist; andere Dinge wie Texturen oder volumetrische Wiedergabe werden vom OpenCASCADE Betrachter nicht vollständig unterstützt.
 
-Coin3D ist über eine Vielzahl von Plattformen anwendbar: UNIX, Linux, BSD, MacOS X und Microsoft Windows Betriebssysteme. Um mehr über diese Bibliothek zu lesen, besuche [Coin3D homepage](https://github.com/coin3d/coin).
+Coin3D ist über eine Vielzahl von Plattformen anwendbar: UNIX, Linux, BSD, macOS und Microsoft Windows Betriebssysteme. Um mehr über diese Bibliothek zu lesen, besuche [Coin3D homepage](https://github.com/coin3d/coin).
+
+
 
 #### SoQt (veraltet) 
 

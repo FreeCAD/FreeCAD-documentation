@@ -11,9 +11,11 @@
 
 ## Description
 
-This tool allows Simulation of the Path Job by sweeping 3D Models of the Tools used in each Operation, along the G-Code paths, subtracting material from the Stock, where the stock and tool overlap, providing visualization of the Job. This allows detection and isolation of errors prior to running the Job on a mill.
+The <img alt="" src=images/Path_Simulator.svg  style="width:24px;"> [Simulator](Path_Simulator.md) tool allows Simulation of the Path Job by sweeping 3D Models of the Tools used in each Operation, along the G-Code paths, subtracting material from the Stock, where the stock and tool overlap, providing visualization of the Job. This allows detection and isolation of errors prior to running the Job on a mill.
 
 ![](images/Path-Simulation.gif )
+
+
 
 ## Применение
 
@@ -34,7 +36,7 @@ This tool allows Simulation of the Path Job by sweeping 3D Models of the Tools u
 
 ## Properties
 
--    **Playback Speed**: The speed of the simulation playback, in G-Code lines/second
+-    **Playback Speed**: The speed of the simulation playback, in G-code lines/second
 
 -    **Accuracy**: The accuracy of the simulation expressed as a percentage indicating the simulations deviation from the Job. For interactive simulation, reducing accuracy to 0.3 works much faster.
 

@@ -12,9 +12,13 @@
 
 </div>
 
+
+
 ## Descripción
 
 Esta herramienta está pensada para ayudar a restringir completamente un croquis resaltando en verde los elementos del croquis con grados de libertad (GdL) (inglés: DoF Degrees of Freedom) restantes.
+
+
 
 ## Utilización
 

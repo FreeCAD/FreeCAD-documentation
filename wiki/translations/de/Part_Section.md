@@ -9,41 +9,39 @@
 
 # Part Section/de
 
+
+
 ## Beschreibung
 
+Der Befehl <img alt="" src=images/Part_Section.svg  style="width:24px;"> **Part Schnittkurve** erstellt Drahtgeometrien (Linienzüge) an den Schnittkanten zweier Objekte. Das Ergebnis ist vollständig parametrisch.
 
-<div class="mw-translate-fuzzy">
-
-Extrahiert eine Schnittkurve aus der Überschneidung zweier ausgewählter Formen, wobei die zweite als Schnittebene verwendet wird. Diese Operation ist voll parametrisch und die Komponenten können modifiziert und das Ergebnis neu berechnet werden.
-
-
-</div>
-
--   An intersection of two solids/faces results in one or more section lines.
--   An intersection of two lines, or a line and a solid/face, results in one or more points.
+-   Der Schnitt zweier Festkörper oder Flächen resultiert in einer oder mehreren Schnittlinien.
+-   Der Schnitt zweier Linien oder einer Linie mit einem Festkörper oder einer Fläche resultiert in einem oder mehreren Punkten.
 
 ![](images/PartSection1_it.png ) 
-*A cube sectioned with a cylinder*
+*Ein Würfel mit einem Zylinder geschnitten*
+
+
 
 ## Anwendung
 
+1.  Zwei Objekte Auswählen.
+2.  Das erste Objekt wird zur {{PropertyData/de|Basis}} des Schnitts, aber die Auswahlreihenfolge hat keinen Einfluss auf das Ergebnis.
+3.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Die Schaltfläche **![](images/)_[Schnittkurve](Part_Section/de.md)** drücken.
+    -   Den Menüeintrag **Part → ![](images/)_Schnittkurve**_auswählen.
 
-<div class="mw-translate-fuzzy">
-
-1.  Wähle das Basisobjekt aus
-2.  Wähle das Beschnittwerkzeug
-3.  Klicke auf **Part** → **<img src="images/Part_Section.svg" width=24px> Schnittkurve** aus dem oberen Menü.
 
 
-</div>
+## Eigenschaften
 
-## Properties
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-See also: [Property editor](Property_editor.md).
+Ein PartDesign-Section-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
 
-A PartDesign Section object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
-### Data
+
+### Daten
 
 
 {{Properties_Title|Base}}
@@ -64,15 +62,11 @@ A PartDesign Section object is derived from a [Part Feature](Part_Feature.md) ob
 
 -    **Approximation|Bool**: Approximate the output edges.
 
+
+
 ## Verknüpfungen
 
-
-<div class="mw-translate-fuzzy">
-
-Zum Erzeugen von Abschnitten mit einer Schnittebene siehe <img alt="" src=images/Part_CrossSections.svg  style="width:24px;"> [Querschnitte](Part_CrossSections/de.md).
-
-
-</div>
+Zum Erzeugen von Querschnitten mit Schnittebenen siehe <img alt="" src=images/Part_CrossSections.svg  style="width:16px;"> [Querschnitte](Part_CrossSections/de.md).
 
 
 

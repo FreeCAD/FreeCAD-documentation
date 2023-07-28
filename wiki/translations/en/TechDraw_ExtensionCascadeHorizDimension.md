@@ -12,7 +12,7 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_ExtensionCascadeHorizDimension.svg  style="width:24px;"> **TechDraw ExtensionCascadeHorizDimension** tool evenly spaces horizontal dimensions.
+The **TechDraw ExtensionCascadeHorizDimension** tool evenly spaces horizontal dimensions.
 
 <img alt="" src=images/TechDraw_ExtensionCascadeHorizDimensionExample.png  style="width:400px;"> 
 *On the right the evenly spaced horizontal dimensions*
@@ -23,7 +23,7 @@ The <img alt="" src=images/TechDraw_ExtensionCascadeHorizDimension.svg  style="w
 2.  Select two or more horizontal dimensions.
 3.  The first dimension defines the position. This dimension will not be moved, the other dimensions will be positioned relative to this dimension.
 4.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionCascadeHorizDimension.svg" width=16px> [TechDraw ExtensionCascadeHorizDimension](TechDraw_ExtensionCascadeHorizDimension.md)** button.
+    -   Press the **<img src="images/TechDraw_ExtensionCascadeHorizDimension.svg" width=16px> [Cascade Horizontal Dimensions](TechDraw_ExtensionCascadeHorizDimension.md)** button.
     -   Select the **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionCascadeHorizDimension.svg" width=16px> Cascade Horizontal Dimensions** option from the menu.
 5.  The dimensions are evenly spaced and their dimension texts are centered.
 

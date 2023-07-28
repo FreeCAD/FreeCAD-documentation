@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -34,12 +36,14 @@ creados con el [Ambiente de Trabajo Borrador](Draft_Workbench/es.md) o [Amb
 
 </div>
 
-The point object can be any object with a shape and vertices (including a [Std Part](Std_Part.md) containing one or more of such objects), as well as a [mesh](Mesh_Workbench.md) and a [point cloud](Points_Workbench.md). Duplicate points in the point object are filtered out. <small>(v1.0)</small> 
+The point object can be any object with a shape and vertices (including a [Std Part](Std_Part.md) containing one or more of such objects), as well as a [mesh](Mesh_Workbench.md) and a [point cloud](Points_Workbench.md). Duplicate points in the point object are filtered out. <small>(v0.21)</small> 
 
 In {{VersionMinus|0.20}} only three point object types are supported see [Point object version 0.20 and below](#Point_object_version_0.20_and_below.md).
 
 <img alt="" src=images/Draft_PointArray_Example.png  style="width:400px;"> 
 *Borrador ArregloPunto*
+
+
 
 ## Utilización
 
@@ -65,11 +69,15 @@ Un compuesto de puntos es un objeto que contiene uno o más puntos. Estos son lo
 
 </div>
 
+
+
 ## Propiedades
 
 Ver también: [Editor de propiedades](property_editor/es.md).
 
 Un objeto Borrador ArregloPunto deriva de un objeto [Pieza Función](Part_Feature/es.md) y hereda todas sus propiedades (con la excepción de algunas propiedades de la Vista que no son heredadas por los arreglos enlace). Las siguientes propiedades son adicionales a menos que se indique lo contrario:
+
+
 
 ### Datos
 
@@ -120,6 +128,8 @@ The properties in this group are only available for Link arrays. See [Std LinkMa
 -    **Extra Placement|Placement**: : specifies an additional [placement](Placement.md), translation and rotation, for each element in the array.
 
 -    **Point Object|Link**: specifies the compound object whose points are used to position the elements in the array. The object must have a **Links**, **Components** or **Geometry** property, and contain at least one element with **X**, **Y**, and **Z** properties.
+
+
 
 ### Vista
 
@@ -190,6 +200,8 @@ The properties in this group are inherited properties. See [Part Feature](Part_F
 {{TitleProperty|Object style}}
 
 The properties in this group are not inherited by Link arrays.
+
+
 
 ## Guión
 

@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -21,6 +23,8 @@ Lo strumento Tratteggio da modello riempie una regione chiusa di una vista con u
 
 *Esempio di tratteggio SVG su una faccia*
 
+
+
 ## Utilizzo
 
 
@@ -32,6 +36,8 @@ Lo strumento Tratteggio da modello riempie una regione chiusa di una vista con u
 
 
 </div>
+
+
 
 ## Note
 
@@ -78,6 +84,8 @@ e anche in [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechD
 
 </div>
 
+
+
 ## Proprietà
 
 -    {{PropertyData/it|Source}}: La vista e la faccia che devono ricevere il tratteggio.
@@ -87,6 +95,8 @@ e anche in [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechD
 -    {{PropertyView/it|Hatch Color}}: Il colore in cui viene visualizzato il tratteggio.
 
 -    {{PropertyView/it|Hatch Scale}}: Modifica la dimensione del modello di tratteggio.
+
+
 
 ## Script
 
@@ -111,10 +121,10 @@ Lo strumento Hatch può essere utilizzato nelle [macro](macros/it.md) e dalla [c
 
 
 ```python
-hatch = FreeCAD.ActiveDocument.addObject('TechDraw::DrawHatch','Hatch')
-hatch.Source = (view1,["Face0"])
+hatch = FreeCAD.ActiveDocument.addObject("TechDraw::DrawHatch", "Hatch")
+hatch.Source = (view1, ["Face0"])
 hatch.HatchPattern = hatchFileSpec
-rc = page.addView(hatch)
+page.addView(hatch)
 ```
 
 

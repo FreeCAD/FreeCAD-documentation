@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introduzione
 
 L\'[Ambiente Surface](Surface_Workbench/it.md)<img alt="" src=images/Workbench_Surface.svg  style="width:24px;"> introdotto in FreeCAD 0.17 fornisce strumenti per creare e modificare semplici [superfici NURBS](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline). Questi strumenti hanno una funzionalità simile allo strumento <img alt="" src=images/Part_Builder.svg  style="width:16px;"> [Genera una forma\...](Part_Builder/it.md) di Part quando si usa l\'opzione **Faccia dai bordi**. Tuttavia, a differenza di quello strumento, gli strumenti di Surface sono parametrici e forniscono opzioni aggiuntive. A tale riguardo, gli strumenti di questo ambiente sono simili a funzioni come <img alt="" src=images/PartDesign_AdditiveLoft.svg  style="width:16px;"> [Loft additivo](PartDesign_AdditiveLoft/it.md) e <img alt="" src=images/PartDesign_AdditivePipe.svg  style="width:16px;"> [Sweep additivo](PartDesign_AdditivePipe/it.md) di PartDesign.
@@ -16,6 +18,8 @@ Alcune delle funzioni fornite sono:
 -   Si può usare un oggetto mesh come modello per creare curve spline sulla sua superficie.
 
 <img alt="" src=images/Surface_example.png  style="width:350px;">
+
+
 
 ## Utilizzo
 
@@ -31,17 +35,21 @@ Surface si integra con gli altri ambienti di FreeCAD. L\'esempio sopra è stato 
 
 Allo stato attuale di FreeCAD (v0.17) non è possibile posizionare le superfici in un <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Corpo](PartDesign_Body/it.md) di PartDesign. Tuttavia le superfici generate possono essere posizionate all\'interno di una <img alt="" src=images/Std_Part.svg  style="width:16px;"> [Parte standard](Std_Part/it.md) insieme al <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Corpo](PartDesign_Body/it.md) che contiene tutti i piani di riferimento e gli schizzi. Dopo, si può usare lo strumento <img alt="" src=images/Part_Builder.svg  style="width:16px;"> [Crea forme](Part_Builder/it.md) di Part, che non è parametrico, per creare un [shell](Glossary#Shell.md) (guscio) e infine un [solido](Glossary#Solid.md).
 
+
+
 ## Strumenti
 
 -   <img alt="" src=images/Surface_Filling.svg  style="width:32px;"> [Filling](Surface_Filling/it.md): riempie una serie di curve di confine con una superficie.
 
 -   <img alt="" src=images/Surface_GeomFillSurface.svg  style="width:32px;"> [Riempi le curve del contorno](Surface_GeomFillSurface/it.md): crea una superficie da due, tre o quattro bordi limite.
 
--   <img alt="" src=images/Surface_Sections.svg  style="width:32px;"> [Sections](Surface_Sections/it.md): crea una superficie dai bordi che rappresentano sezioni trasversali di superficie. {{Version/it|0.19}}
+-   <img alt="" src=images/Surface_Sections.svg  style="width:32px;"> [Sections](Surface_Sections/it.md): crea una superficie dai bordi che rappresentano sezioni trasversali di superficie.
 
 -   <img alt="" src=images/Surface_ExtendFace.svg  style="width:32px;"> [Estendi faccia](Surface_ExtendFace/it.md): estrapola la superficie dai bordi con il suo parametro U locale e il parametro V.
 
 -   <img alt="" src=images/Surface_CurveOnMesh.svg  style="width:32px;"> [Curve on mesh](Surface_CurveOnMesh.md): crea segmenti di spline approssimati sopra un oggetto [mesh](Mesh_Workbench/it.md) selezionato.
+
+-   <img alt="" src=images/Surface_BlendCurve.svg  style="width:32px;"> [Blend Curve](Surface_BlendCurve/it.md): crea una curva di Bezier tra due bordi, con la continuità desiderata.
 
 
 

@@ -8,18 +8,25 @@
    Workbenches:Alle
    SeeAlso:[Std Ausschneiden](Std_Cut/de.md), [Std Einfügen](Std_Paste/de.md), [Std Auswahl duplizieren](Std_DuplicateSelection/de.md)---
 
+
+
 ## Beschreibung
 
 Der **Std Kopieren**-Befehl kopiert Objekte in die Zwischenablage.
+
+
 
 ## Anwendung
 
 1.  Ein oder mehrere Objekte auswählen.
 2.  Es gibt mehrere Wege, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Std_Copy.svg" width=16px> [Std Kopieren](Std_Copy/de.md)** drücken.
     -   Den Menüeintrag **Bearbeiten → <img src="images/Std_Copy.svg" width=16px> Kopieren** auswählen.
     -   Die Option **Bearbeiten → <img src="images/Std_Copy.svg" width=16px> Kopieren** aus dem Kontextmenü der [Baumansicht](Tree_view/de.md) auswählen.
     -   Das Tastaturkürzel **Strg** + **C**.
 3.  Falls die Objekte Abhängigkeiten besitzen, die nicht ausgewählt wurden, öffnet sich eine Dialog-Box, um abzufragen, welche davon zur Auswahl hinzugefügt werden sollen.
+
+
 
 ## Hinweise
 

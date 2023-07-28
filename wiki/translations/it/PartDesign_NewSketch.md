@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -30,6 +32,8 @@ Quando si creano modelli usando [PartDesign](PartDesign_Workbench/it.md), questo
 
 </div>
 
+
+
 ## Uso
 
 
@@ -44,6 +48,8 @@ Quando si creano modelli usando [PartDesign](PartDesign_Workbench/it.md), questo
 
 </div>
 
+
+
 ## Opzioni
 
 -   Per cambiare il modo di associazione di uno schizzo esistente, cambiare le sue proprietà**Map Mode**.
@@ -53,12 +59,12 @@ Quando si creano modelli usando [PartDesign](PartDesign_Workbench/it.md), questo
 :   
 
     :   <img alt="" src=images/PartDesign.CreateSketch.SelectFeatureDialog.jpeg  style="width:300px;">
-    :   *Select feature* dialog. These settings create a sketch on the XY plane and allow cross-references from other items of the same body\'\'
+    :   *Select feature* dialog. These settings create a sketch on the XY plane and allow cross-references from other items of the same body
 
 Dialog settings
 
 -   Coordinate system box: defines the orientation of the sketch plane
--   Allow Used Features checkbox: *TBD*
+-   Allow Used Features: *TBD*
 
 :   Allow external features options
 
@@ -69,6 +75,8 @@ Dialog settings
 -   Create cross-reference: the linked elements will not be copies, but point to the original elements, e.g. a master sketch. Any changes are reflected to this sketch
 
 To reference any items in the [Workbench Sketcher](Sketcher_Workbench.md) use the **<img src="images/Sketcher_External.svg" width=16px> [External Geometry](Sketcher_External.md)** and **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [CarbonCopy](Sketcher_CarbonCopy.md)** tools. Generally it is recommended to use other sketches as source for references rather than faces or edges, because they are less affected by the Topological Naming Issue.
+
+
 
 ## Proprietà
 

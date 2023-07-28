@@ -16,19 +16,23 @@ Insére une sphère primitive dans un corps actif (body) comme fonction de base,
 
 <img alt="" src=images/PartDesign_AdditiveSphere_example.png  style="width:200px;">
 
+
+
 ## Utilisation
 
-1.  Presser le bouton **<img src="images/PartDesign_AdditiveSphere.svg" width=24px> '''Sphère additive'''**. **Remarque**: la sphère additive fait partie du menu d\'icônes appelé *Créer une primitive additive*. Après le lancement de FreeCAD, le cube additif est affiché par défaut dans la barre d\'outils. Pour obtenir la sphère additive, cliquer sur la flèche vers le bas et choisissez Sphère additive dans le menu.
+1.  Presser le bouton **<img src="images/PartDesign_AdditiveSphere.svg" width=24px> '''Sphère additive'''**. **Remarque** : la sphère additive fait partie du menu d\'icônes appelé *Créer une primitive additive*. Après le lancement de FreeCAD, le cube additif est affiché par défaut dans la barre d\'outils. Pour obtenir la sphère additive, cliquer sur la flèche vers le bas et choisissez Sphère additive dans le menu.
 2.  Définir les paramètres primitifs et de l\'[ancrage](Part_EditAttachment/fr.md).
 3.  Cliquer sur **OK**.
 4.  Une sphère apparaît dans le corps actif.
 
 ## Options
 
-La Sphère peut être éditée après sa création de deux façons:
+La Sphère peut être éditée après sa création de deux façons :
 
 -   Double-cliquez la dans l\'arborescence ou faire un clic droit dessus et sélectionnez **Éditer la primitive** dans le menu contextuel. Cela fait apparaître les paramètres des Primitives.
 -   Via l\'[Éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ## Propriétés
 

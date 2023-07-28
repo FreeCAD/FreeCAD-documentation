@@ -903,9 +903,11 @@ Dem Benutzer wird empfohlen, die POV-Ray Dokumentation und weitere Tutorials ode
 -   [POV-Ray Referenz](http://www.povray.org/documentation/3.7.0/r3_0.html)
 
 
- {{Raytracing Tools navi}}
+{{Raytracing Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Raytracing](Category_Raytracing.md) > Tutorial FreeCAD POV ray/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Tutorial FreeCAD POV ray/de

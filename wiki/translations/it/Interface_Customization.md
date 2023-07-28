@@ -7,6 +7,11 @@
 
 L\'interfaccia di FreeCAD è basata sul moderno toolkit [Qt](https://it.wikipedia.org/wiki/Qt_(toolkit)), e dispone di una organizzazione ottimale. Alcuni aspetti dell\'interfaccia possono essere personalizzati. Ad esempio, è possibile aggiungere barre degli strumenti personalizzate, con strumenti di diversi ambienti di lavoro o strumenti definiti nelle macro e creare le proprie scorciatoie da tastiera. Ma i menu e le barre degli strumenti predefinite fornite con FreeCAD e i suoi ambienti di lavoro non possono essere modificati.
 
+
+{{Version/it|0.21}}
+
+: La scheda degli Ambienti non è più disponibile. La sua funzionalità è stata spostata nella scheda [Ambienti Disponibili](Preferences_Editor/it#Ambienti_Disponibili.md) nella sezione Ambienti di lavoro dell\'[Editor delle preferenze](Preferences_Editor/it.md).
+
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *La finestra di dialogo Personalizza*
 
@@ -19,7 +24,7 @@ L\'interfaccia di FreeCAD è basata sul moderno toolkit [Qt](https://it.wikipedi
     -   Selezionare l\'opzione dal menu **Strumenti → <img src="images/Std_DlgCustomize.svg" width=16px> Personalizza...**.
     -   Cliccare col tasto destro sull\'area della barra strumenti e selezionare **<img src="images/Std_DlgCustomize.svg" width=16px> Personalizza...** dal menu contestuale.
 3.  Si apre la finestra di dialogo Personalizza. Per ulteriori informazioni, vedere [Opzioni](#Opzioni.md).
-4.  Il bottone **Aiuto** attualmente non funziona.
+4.  Il bottone **Aiuto** avvia il comando <img alt="" src=images/Std_WhatsThis.svg  style="width:16px;"> [Cos\'è questo](Std_WhatsThis/it.md)..
 5.  Premere il bottone **Chiudi** per chiudere la finestra di dialogo.
 
 
@@ -27,27 +32,6 @@ L\'interfaccia di FreeCAD è basata sul moderno toolkit [Qt](https://it.wikipedi
 ## Opzioni
 
 Nella finestra di dialogo Personalizza sono disponibili le seguenti schede:
-
-
-
-### Comandi
-
-![](images/Std_DlgCustomize_tab_Commands.png ) 
-*La scheda Comandi*
-
-In questa scheda è possibile sfogliare i comandi disponibili.
-
-
-
-#### Sfogliare i comandi 
-
-1.  Selezionare una categoria di comandi nel pannello **Categoria** a sinistra. Alcune categorie corrispondono alle voci del menu.
-2.  Gli strumenti disponibili nella categoria selezionata sono mostrati nel pannello a destra.
-3.  Passa il mouse su un comando: appare la descrizione del comando.
-4.  Selezionare un comando: il testo della sua barra di stato viene visualizzato sotto i due pannelli.
-
-
-{{Top}}
 
 
 
@@ -60,7 +44,22 @@ In questa scheda è possibile definire le scorciatoie da tastiera personalizzate
 
 
 
-#### Aggiungere una scorciatoia personalizzata 
+#### Cercare
+
+Puoi cercare i comandi inserendo almeno 3 caratteri del testo del menu o del nome nel campo di ricerca. La ricerca non fa distinzione tra maiuscole e minuscole.
+
+È anche possibile cercare le scorciatoie:
+
+-   Nel campo di ricerca i tasti speciali nelle scorciatoie devono essere inseriti come stringhe. Ad esempio, per cercare i comandi che utilizzano **Ctrl** nella loro scorciatoia, inserire {{Value|ctrl}} (4 lettere).
+-   Aggiungere le parentesi per cercare le scorciatoie a carattere singolo, ad esempio: {{Value|(c)}}.
+-   Aggiungere una virgola e uno spazio tra i caratteri delle scorciatoie multi-carattere, ad esempio: {{Value|g, b, b}}.
+
+
+
+#### Aggiungere una scorciatoia 
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Selezionare una categoria di comandi dall\'elenco a discesa **Categoria**.
 2.  Selezionare un comando dal pannello **Comandi**.
@@ -71,8 +70,19 @@ In questa scheda è possibile definire le scorciatoie da tastiera personalizzate
 7.  Premere il pulsante **Cancella** per rimuovere il collegamento immesso. Questo rimuove anche il contenuto della casella **Scorciatoia corrente**. Notare che i collegamenti predefiniti non vengono rimossi in modo permanente. Sono ripristinati al riavvio di FreeCAD.
 
 
+</div>
 
-#### Rimuovere una scorciatoia personalizzata 
+
+
+#### Rimuovere una scorciatoia 
+
+1.  Selezionare una categoria di comando dall\'elenco a discesa **Categoria**.
+2.  Selezionare un comando dal pannello **Comandi**.
+3.  Premere il pulsante **Cancella**.
+
+
+
+#### Ripristinare una scorciatoia predefinita 
 
 1.  Selezionare una categoria di comando dall\'elenco a discesa **Categoria**.
 2.  Selezionare un comando dal pannello **Comandi**.
@@ -80,66 +90,15 @@ In questa scheda è possibile definire le scorciatoie da tastiera personalizzate
 
 
 
-#### Rimuovere tutte le scorciatoie personalizzate 
+#### Ripristinare tutte le scorciatoie predefinite 
 
 1.  Premere il pulsante **Ripristina tutto**.
 
 
 
-#### Note (Tastiera) 
+#### Note
 
--   Le scorciatoie funzionano solo se i loro comandi vengono visualizzati nel menu standard o nel menu di un ambiente di lavoro che è stato caricato nella sessione corrente di FreeCAD o se i loro comandi vengono visualizzati su una barra degli strumenti \"visibile\".
-
--   In V0.19 c\'è un problema con alcuni comandi Draft. Le loro scorciatoie predefinite non funzionano e/o le scorciatoie personalizzate non possono essere assegnate.
--   Per riassegnare un collegamento predefinito, è necessario prima assegnare un nuovo collegamento al comando originale.
-
-
-{{Top}}
-
-
-
-### Ambienti di lavoro 
-
-![](images/Std_DlgCustomize_tab_Workbenches.png ) 
-*La scheda Ambienti*
-
-In questa scheda si può modificare l\'ordine dell\'elenco del [selettore degli ambienti](Std_Workbench/it.md). L\'elenco **Ambienti di lavoro abilitati** mostra gli ambienti così come appaiono nel selettore.
-
-
-
-#### Disabilitare un ambiente 
-
-1.  Selezionare un ambiente nell\'elenco **Ambienti di lavoro abilitati**.
-2.  Premere il pulsante **<img src="images/Button_left.svg" width=16px>**.
-3.  L\'ambiente viene spostato nell\'elenco **Ambienti di lavoro disabilitati**
-
-
-
-#### Riabilitare un ambiente 
-
-1.  Selezionare un ambiente nell\'elenco **Ambienti di lavoro disabilitati**.
-2.  Premere il pulsante **<img src="images/Button_right.svg" width=16px>**.
-3.  L\'ambiente viene spostato nell\'elenco **Ambienti di lavoro abilitati**
-
-
-
-#### Riabilitare tutti gli ambienti 
-
-1.  Premere il pulsante **<img src="images/Button_add_all.svg" width=16px>**.
-
-
-
-#### Cambiare la posizione di un ambiente 
-
-1.  Selezionare un ambiente nell\'elenco **Ambienti di lavoro abilitati**.
-2.  Premere il pulsante **<img src="images/Button_up.svg" width=16px>** o il pulsante **<img src="images/Button_down.svg" width=16px>**.
-3.  Ripetere fino a quando l\'ambiente non si trova nella posizione desiderata.
-
-
-
-#### Ambienti in ordine alfabetico 
-
-1.  Premere il pulsante **<img src="images/Button_sort.svg" width=16px>**.
+-   Le scorciatoie funzionano solo per i comandi attivi. I comandi attivi sono comandi che appaiono nel menu standard, o nel menu di un ambiente di lavoro che è stato caricato nella sessione corrente di FreeCAD, o i comandi che appaiono su una barra degli strumenti *visibile*.
 
 
 {{Top}}
@@ -152,6 +111,12 @@ In questa scheda si può modificare l\'ordine dell\'elenco del [selettore degli 
 *La scheda Barre degli strumenti*
 
 In questa scheda è possibile creare e modificare barre degli strumenti personalizzate.
+
+
+
+#### Cercare 
+
+Vedere [Tastiera](#Cercare.md)
 
 
 
@@ -195,12 +160,18 @@ In questa scheda è possibile creare e modificare barre degli strumenti personal
 
 #### Aggiungere un comando 
 
+
+<div class="mw-translate-fuzzy">
+
 1.  È richiesta almeno una barra degli strumenti personalizzata. Vedi [Creare una barra degli strumenti](#Creare_una_barra_degli_strumenti.md).
 2.  Selezionare la barra degli strumenti corretta nel pannello a destra. Se non viene selezionata alcuna barra degli strumenti, il comando viene aggiunto alla prima barra degli strumenti nell\'elenco.
 3.  Selezionare una categoria dall\'elenco a discesa a sinistra. I comandi delle macro che sono stati impostati nella scheda [Macro](#Macro.md) vengono visualizzati nella categoria \"Macro\".
 4.  Selezionare un comando dal pannello a sinistra.
 5.  Oppure selezionare \'\' per aggiungere un separatore (una linea tra due pulsanti della barra degli strumenti).
 6.  Premere il pulsante **<img src="images/Button_right.svg" width=16px>**.
+
+
+</div>
 
 
 
@@ -221,12 +192,18 @@ In questa scheda è possibile creare e modificare barre degli strumenti personal
 
 
 
-#### Note (Barre degli strumenti) 
+#### Note 
+
+
+<div class="mw-translate-fuzzy">
 
 -   Le barre degli strumenti appartenenti all\'ambiente corrente vengono aggiornate immediatamente, ma dopo aver disabilitato o riattivato una barra degli strumenti è necessario cambiare ambiente (passare a un ambiente diverso e quindi tornare indietro).
 -   Per aggiornare le barre degli strumenti globali è necessario cambiare ambiente (se i comandi sono stati aggiunti o rimossi) o riavviare (se l\'ordine di una barra degli strumenti è cambiato o una barra degli strumenti è stata rinominata).
 
 -   In V0.19 c\'è un problema con alcuni comandi di Draft. Dopo averli aggiunti a una barra degli strumenti personalizzata ed essere usciti dall\'applicazione FreeCAD, il file **user.cfg** deve essere modificato manualmente per questi comandi. Cercare il nome della barra degli strumenti personalizzata e in quella sezione modificare il contenuto degli elementi `FCText` che iniziano con `gui_` in `DraftTools`.
+
+
+</div>
 
 
 {{Top}}
@@ -238,15 +215,16 @@ In questa scheda è possibile creare e modificare barre degli strumenti personal
 ![](images/Std_DlgCustomize_tab_Macros.png ) 
 *La scheda Macro*
 
-In questa scheda è possibile impostare i comandi delle macro utente. Una volta impostati, possono essere aggiunti alle barre degli strumenti personalizzate. FreeCAD utilizza una cartella dedicata per le macro utente e solo le macro in quella cartella possono essere impostate. Utilizzare il comando <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Esegui la macro](Std_DlgMacroExecute/it.md) per trovare questa cartella nel sistema.
+On this tab macro commands can be set up. Once set up, they can be added to custom toolbars. Macros installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) are set up automatically, and added to a {{Value|Global}} toolbar (see [Toolbars](#Toolbars.md)), if you confirm the **Add button** popup during the installation process.
 
-Se scarichi una macro con l\'<img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr/it.md), assicurati di scaricare anche il file immagine dell\'icona. La maggior parte delle macro ha un collegamento ad un\'immagine nella pagina delle informazioni, che appare in Addon Manager. Ad esempio, puoi inserire questo file immagine nella cartella delle macro utente.
-
-Se vuoi utilizzare una macro scaricata da una fonte diversa dovrai installarla manualmente. Vedi [Come installare le macro](How_to_install_macros/it.md) per maggiori informazioni.
+If you want to use a macro downloaded from a different source you will have to install it manually. See [How to install macros](How_to_install_macros.md) for more information. Note that FreeCAD uses a dedicated folder for macros and only macros in that folder can be set up. Use the <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Std DlgMacroExecute](Std_DlgMacroExecute.md) command to find this folder on your system.
 
 
 
 #### Aggiungere un comando macro 
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Nell\'elenco a discesa **Macro** selezionare una macro.
 2.  Immettere un **Testo di menu**. Questo sarà il nome utilizzato per identificare il comando macro e apparirà anche nella barra degli strumenti se non è presente l\'icona.
@@ -262,6 +240,9 @@ Se vuoi utilizzare una macro scaricata da una fonte diversa dovrai installarla m
 8.  Premere il pulsante **Aggiungi**.
 9.  Il comando macro appare nel pannello a sinistra.
 10. È ora possibile selezionare il comando macro nella scheda [Barre degli strumenti](#Barre_degli_strumenti.md).
+
+
+</div>
 
 
 
@@ -289,7 +270,18 @@ Questa scheda è vuota se non viene rilevata alcuna Spaceball. Vedere: [3Dconnex
 
 ### Pulsanti Spaceball 
 
-Questa scheda è vuota se non viene rilevata alcuna Spaceball. Vedere: [3Dconnexion input devices](3Dconnexion_input_devices/it.md). 
+
+<div class="mw-translate-fuzzy">
+
+Questa scheda è vuota se non viene rilevata alcuna Spaceball. Vedere: [3Dconnexion input devices](3Dconnexion_input_devices/it.md).
+
+
+</div>
+
+
+{{Top}}
+
+
 
 ## Temi
 
@@ -310,35 +302,23 @@ Puoi anche creare il tuo tema se non sei soddisfatto dei temi forniti con FreeCA
 
 ## Componenti aggiuntivi 
 
+
+<div class="mw-translate-fuzzy">
+
 I componenti aggiuntivi offrono ancora un altro modo per personalizzare l\'interfaccia utente. Di seguito sono riportati alcuni componenti aggiuntivi creati dagli utenti nella comunità di FreeCAD. Possono essere scaricati tramite <img alt="" src=images/_Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr/it.md) (nota: essi sono elencati nella scheda Ambienti).
 
-### CubeMenu
 
--   Github repository: <https://github.com/triplus/CubeMenu>
+</div>
 
-### Glass
+In the Workbenches category of the Addon Manager some addons by user triplus can be found:
 
--   Github repository: <https://github.com/triplus/Glass>.
-
-### IconThemes
-
--   Github repository: <https://github.com/triplus/IconThemes>
-
-### Launcher
-
--   Github repository: <https://github.com/triplus/Launcher>
-
-### PieMenu
-
--   Github repository: <https://github.com/triplus/PieMenu>
-
-### RemBench
-
--   Github repository: <https://github.com/triplus/RemBench>
-
-### ShortCut
-
--   Github repository: <https://github.com/triplus/ShortCuts>
+-   <https://github.com/triplus/CubeMenu> (for {{VersionMinus|0.20}})
+-   <https://github.com/triplus/Glass>.
+-   <https://github.com/triplus/IconThemes>
+-   <https://github.com/triplus/Launcher>
+-   <https://github.com/triplus/PieMenu>
+-   <https://github.com/triplus/RemBench>
+-   <https://github.com/triplus/ShortCuts>
 
 
 {{Top}}

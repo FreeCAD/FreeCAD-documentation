@@ -10,12 +10,16 @@
 
 # Sketcher ViewSection/pl
 
+
+
 ## Opis
 
 Narzędzie **Widok przekroju** tworzy płaszczyznę przekroju, która tymczasowo ukrywa jakąkolwiek bryłę przed płaszczyzną szkicu.
 
 <img alt="" src=images/Sketcher_ViewSection1.png  style="width:300px;"> <img alt="" src=images/Sketcher_ViewSection2.png  style="width:320px;"> 
 *Częściowo ukryty szkic i w pełni widoczny szkic*
+
+
 
 ## Użycie
 

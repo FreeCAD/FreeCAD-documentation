@@ -4,9 +4,11 @@
 
 {{TOCright}}
 
+
+
 ## Présentation
 
-Cette page décrit comment compiler le code source FreeCAD sur MacOS X. Pour les autres plates-formes, voir [Compiler](Compiling/fr.md).
+Cette page décrit comment compiler le code source FreeCAD sur macOS. Pour les autres plates-formes, voir [Compiler](Compiling/fr.md).
 
 Ces instructions ont été testées sur macOS Catalina avec le XCode 11.6 standard. Il est connu pour fonctionner sur macOS BigSur Beta avec XCode 12.0 beta. Si vous prévoyez d\'utiliser XCode Beta, assurez-vous de télécharger le module complémentaire Outils de ligne de commande via un package dmg pour contourner certains problèmes de dépendance libz.
 
@@ -14,9 +16,13 @@ Cette page sert de point de départ et n'a pas vocation à être exhaustive en c
 
 Si vous souhaitez simplement évaluer la dernière version de FreeCAD en version préliminaire, vous pouvez télécharger les fichiers binaires pré-construits [ici](https://github.com/FreeCAD/FreeCAD/releases).
 
+
+
 ## Conditions préalables à l\'installation 
 
 Les logiciels suivants doivent être installés pour prendre en charge le processus de compilation.
+
+
 
 ### Gestionnaire de paquets Homebrew 
 
@@ -25,6 +31,8 @@ Homebrew est un gestionnaire de paquets basé sur la ligne de commande pour macO
 ### CMake
 
 CMake est un outil de build qui génère une configuration de build basée sur les variables que vous spécifiez. Vous lancez ensuite la commande \'make\' pour construire cette configuration. La version en ligne de commande de CMake est automatiquement installée dans le cadre de l\'installation de Homebrew, ci-dessus. Si vous préférez utiliser une version graphique de CMake, vous pouvez la télécharger à partir de [ici](https://www.cmake.org/downloadDownload).
+
+
 
 ## Installation des dépendances 
 
@@ -117,6 +125,8 @@ cmake \
   ../freecad-source
 ```
 
+
+
 ## Obtenir les sources 
 
 Dans les instructions suivantes, les dossiers source et de build sont créés côte à côte sous
@@ -148,9 +158,13 @@ Créez le dossier build.
 mkdir ~/FreeCAD/build
 ```
 
+
+
 ## Lancer CMake 
 
 Ensuite, nous allons lancer CMake pour générer la configuration de construction. Plusieurs options doivent être transmises à CMake. Le tableau suivant décrit les options et donne un aperçu.
+
+
 
 ### Les options de CMake 
 
@@ -167,6 +181,8 @@ Remarque : ligne de commande pour générer CMAKE_PREFIX_PATH :
 
 ls -d $(brew list -1 | grep qt | tail -1 | xargs brew --cellar)/*/lib/cmake
 
+
+
 ### Interface graphique CMake 
 
 Ouvrez l\'application CMake, et remplissez les champs source et dossier de compilation. Dans cet exemple, il s\'agirait de **/Users/username/FreeCAD/FreeCAD-git** pour les sources et */Users/username/FreeCAD/build*\' pour le dossier de build.
@@ -174,6 +190,8 @@ Ouvrez l\'application CMake, et remplissez les champs source et dossier de compi
 Ensuite, cliquez sur le bouton **Configure** pour remplir la liste des options de configuration. Cela affichera une boîte de dialogue vous demandant de spécifier quel générateur utiliser. Laissez la valeur par défaut **Unix Makefiles**. La configuration échouera pour la première fois car certaines options doivent être changées. Remarque: vous devrez cocher la case à cocher **Advanced** pour obtenir toutes les options.
 
 Définissez les options du tableau ci-dessus, puis cliquez à nouveau sur **Configure** puis sur **Generate**.
+
+
 
 ### CMake en lignes de commande 
 
@@ -204,6 +222,8 @@ $cmake \
 
 ```
 
+
+
 ## Exécuter make 
 
 Enfin, à partir d'un terminal, exécutez **make** pour compiler et lier FreeCAD et générer le paquet applicatif.
@@ -220,15 +240,23 @@ Voir aussi [Compilation (accélération)](Compiling_(Speeding_up)/fr.md).
 
 Si make se termine sans erreur, vous pouvez maintenant lancer FreeCAD en double-cliquant sur l\'exécutable dans le Finder.
 
+
+
 ## Mise à jour depuis Github 
 
 Le développement de FreeCAD est rapide ; chaque jour ou presque, il y a des corrections de bugs ou de nouvelles fonctionnalités. Pour obtenir les dernières modifications, utilisez git pour mettre à jour le répertoire source (voir [Gestion du code source](Source_code_management/fr.md)), puis réexécutez CMake et suivez les étapes ci-dessus. Dans ce cas, il n'est généralement pas nécessaire de commencer par un répertoire de build vierge et les compilations suivantes iront généralement beaucoup plus vite que la première.
+
+
 
 ## Faire une compilation avec Qt4 et Python 2.7 
 
 FreeCAD est passé de Qt 4 à Qt 5 comme homebrew. Qt 4 n\'est plus disponible en option pour une nouvelle version sur macOS après la transition Qt 5. Python 2.7 est obsolète dans homebrew et macOS à venir et nous ne le supportons plus non plus pour la version macOS.
 
+
+
 ## Dépannage
+
+
 
 ### Un segfault sur le lancement de Qt5 
 
@@ -246,6 +274,8 @@ brew uninstall --ignore-dependencies --force cartr/qt4/shiboken@1.2 cartr/qt4/py
 ### FreeType
 
 Si vous utilisez des versions de CMake antérieures à la version 3.1.0, il est nécessaire de définir la variable CMake FREETYPE_INCLUDE_DIR_freetype2 manuellement, par exemple /usr/local/include/freetype2.
+
+
 
 ### Instructions de compilation supplémentaires 
 

@@ -9,6 +9,8 @@
 
 # Std DlgMacroRecord/fr
 
+
+
 ## Description
 
 La commande **Std Enregistrement de macro** démarre une session d\'enregistrement de [macro](Macros/fr.md) pendant laquelle les actions de l\'utilisateur sont stockées dans une macro FreeCAD, un fichier avec l\'extension **.FCMacro**. Une macro peut ensuite être rejouée, exécutée, pour répéter les actions enregistrées.
@@ -16,9 +18,11 @@ La commande **Std Enregistrement de macro** démarre une session d\'enregistreme
 ![](images/Std_DlgMacroRecord_dialog.png ) 
 *La boîte de dialogue d'enregistrement de macro*
 
+
+
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande:
+1.  Il existe plusieurs façons d\'appeler la commande :
     -   Appuyez sur le bouton **<img src="images/Std_DlgMacroRecord.svg" width=16px> [Std Enregistrement de macro...](Std_DlgMacroRecord/fr.md)**.
     -   Sélectionnez l\'option **Macro → <img src="images/Std_DlgMacroRecord.svg" width=16px> Enregistrement de macro...** dans le menu.
 2.  La boîte de dialogue Enregistrement de macro s\'ouvre.
@@ -33,19 +37,23 @@ La commande **Std Enregistrement de macro** démarre une session d\'enregistreme
 
 ## Options
 
--   Lorsque la boîte de dialogue des macros s\'affiche: appuyez sur **Echap** ou sur le bouton **Annuler** pour abandonner la commande.
+-   Lorsque la boîte de dialogue des macros s\'affiche: appuyez sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande.
+
+
 
 ## Remarques
 
 -   Pour exécuter la macro enregistrée, utilisez la commande [Std Exécuter une macro](Std_DlgMacroExecute/fr.md).
 -   Pour en savoir plus sur les macros, consultez la page [Macro](Macros/fr.md).
 
+
+
 ## Préférences
 
--   Le chemin de macro peut également être modifié dans les préférences: **Edition → Préférences... → Général → Macro → Chemin de la macro**. Voir [Editeur de préférences](Preferences_Editor/fr#Macro.md).
--   Dans la plupart des cas, il n\'est pas souhaitable d\'enregistrer des actions qui ne modifient pas le modèle: sous **Edition → Préférences... → Général → Macro → GUI commands**, effectuez l\'une des actions suivantes:
+-   Le chemin de la macro peut également être modifié dans les préférences : **Édition → Préférences... → Python → Macro → Chemin de la macro**. Voir l\'[Éditeur de préférences](Preferences_Editor/fr#Macro.md).
+-   Dans la plupart des cas, il n\'est pas souhaitable d\'enregistrer des actions qui ne modifient pas le modèle : sous **Edition → Préférences... → Python → Macro → Commandes de l'interface graphique**, effectuez l\'une des actions suivantes :
     -   Pour exclure ces actions, décochez la case {{CheckBox|FALSE|Enregistrer les commandes de l'interface graphique}}.
-    -   Pour les inclure en tant que commentaires, cochez uniquement les cases {{CheckBox|TRUE|Enregistrer les commandes de l'interface graphique}} et {{CheckBox|TRUE|nregistrer comme un commentaire}}.
+    -   Pour les inclure en tant que commentaires, cochez les cases {{CheckBox|TRUE|Enregistrer les commandes de l'interface graphique}} et {{CheckBox|TRUE|Enregistrer comme un commentaire}}.
 
 
 

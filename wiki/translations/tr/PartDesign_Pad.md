@@ -9,6 +9,8 @@
 # PartDesign Pad/tr
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Tanım
@@ -75,9 +77,9 @@ Offset from face at which the pad will end. This option is only available when *
 
 You can select the direction of the extrusion:
 
--   **Sketch normal** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
--   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion. <small>(v0.20)</small> 
--   **Custom direction** The sketch is extruded along a direction that can be specified via vector values. <small>(v0.19)</small> 
+-   **Sketch normal:** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
+-   **Select reference\...:** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion. <small>(v0.20)</small> 
+-   **Custom direction:** The sketch is extruded along a direction that can be specified via vector values.
 
 #### Show direction 
 
@@ -126,11 +128,11 @@ Tapers the pad in the opposite extrusion direction by the given angle. A positiv
 
 -    **Length2**: Second pad length in case the **Type** is **TwoLengths**, see [Options](#Options.md).
 
--    **Use Custom Vector**: <small>(v0.19)</small>  If checked, the pad direction will not be the normal vector of the sketch but the given vector, see [Options](#Options.md).
+-    **Use Custom Vector**: If checked, the pad direction will not be the normal vector of the sketch but the given vector, see [Options](#Options.md).
 
--    **Direction**: <small>(v0.19)</small>  Vector of the pad direction if **Use Custom Vector** is used.
+-    **Direction**: Vector of the pad direction if **Use Custom Vector** is used.
 
--    **Along Sketch Normal**: <small>(v0.20)</small>  If *true*, the pad length is measured along the sketch normal. Otherwise and if **Use Custom Vector** is used, it is measured along the custom direction.
+-    **Along Sketch Normal**: If *true*, the pad length is measured along the sketch normal. Otherwise and if **Use Custom Vector** is used, it is measured along the custom direction. <small>(v0.20)</small> 
 
 -    **Up To Face**: A face the pad will extrude up to, see [Options](#Options.md).
 

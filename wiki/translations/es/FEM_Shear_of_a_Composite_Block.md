@@ -124,9 +124,14 @@ The FC file for this tutorial is attached below as a starting point.
 
 <https://forum.freecadweb.org/viewtopic.php?f=18&t=26517&start=20>
 
-Que te diviertas !  {{FEM Tools navi}}
+Que te diviertas !
+
+
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM Shear of a Composite Block/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Shear of a Composite Block/es

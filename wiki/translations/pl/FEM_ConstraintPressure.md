@@ -8,11 +8,15 @@
 
 # FEM ConstraintPressure/pl
 
-## Description
 
-Applies a pressure constraint to a face.
 
-## Usage
+## Opis
+
+Nakłada na ścianę warunek nacisku ciśnieniem.
+
+
+
+## Użycie
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ConstraintPressure.svg" width=16px> [FEM ConstraintPressure](FEM_ConstraintPressure.md)** button.

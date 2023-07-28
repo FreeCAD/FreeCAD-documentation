@@ -28,7 +28,7 @@ Pentru a face un profil elicoidală, acesta trebuie extrudat cu ajutorul instrum
 
 For more detailed information see Wikipedia\'s entries for: [Gear](https://en.wikipedia.org/wiki/Gear) and [Involute Gear](https://en.wikipedia.org/wiki/Involute_gear)
 
-![](images/PartDesign_Involute_Gear_01.png )
+<img alt="" src=images/PartDesign_Involute_Gear_01.png  style="width:200px;">
 
 ## Usage
 
@@ -55,9 +55,6 @@ For more detailed information see Wikipedia\'s entries for: [Gear](https://en.wi
 4.  Click **OK**.
 
 ### Create a helical gear 
-
-
-<small>(v0.19)</small> 
 
 1.  Select the gear profile in the [Tree view](Tree_view.md).
 2.  Press the **<img src="images/PartDesign_AdditiveHelix.svg" width=16px> [PartDesign AdditiveHelix](PartDesign_AdditiveHelix.md)** button.
@@ -87,7 +84,7 @@ Hint: To make the helical angle an accessible parameter, use a *dynamic property
 ### Cut a hub for an involute splined shaft 
 
 
-<small>(v1.0)</small> 
+<small>(v0.21)</small> 
 
 1.  Activate the correct body.
 2.  Create an internal involute gear profile with the required number of grooves and adapt the values of pressure angle, addendum-, dedendum- and root fillet coefficient. See also the table in [Notes](#Notes.md) below for feasible values. For example:
@@ -127,6 +124,10 @@ Hint: To make the helical angle an accessible parameter, use a *dynamic property
 7.  Click **OK**.
 
 ## Properties
+
+-    **Addendum Coefficient**: The height of the tooth from the pitch circle up to its tip, normalized by the module. Default is 1.0 for the standard full-depth system. <small>(v0.21)</small> 
+
+-    **Dedendum Coefficient**: The height of the tooth from the pitch circle down to its root, normalized by the module. Default is 1.25 for the standard full-depth system. <small>(v0.21)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -174,15 +175,15 @@ Valoarea implicită este de 20 de grade. ([More info](http://en.wikipedia
 
 </div>
 
--    **Addendum Coefficient**: The height of the tooth from the pitch circle up to its tip, normalized by the module. Default is 1.0 for the standard full-depth system. <small>(v1.0)</small> 
+-    **Profile Shift Coefficient**: The distance by which the reference profile is shifted outwards, normalized by the module. Default is zero. Profile shift may be positive or negative. <small>(v0.21)</small> 
 
--    **Dedendum Coefficient**: The height of the tooth from the pitch circle down to its root, normalized by the module. Default is 1.25 for the standard full-depth system. <small>(v1.0)</small> 
-
--    **Root Fillet Coefficient**: The radius of the fillet at the root of the tooth, normalized by the module. Default is 0.38 as defined by the ISO rack. <small>(v1.0)</small> 
+-    **Root Fillet Coefficient**: The radius of the fillet at the root of the tooth, normalized by the module. Default is 0.38 as defined by the ISO rack. <small>(v0.21)</small> 
 
 ## Notes
 
--   In order for two gears to mesh they need to share the same module and pressure angle. [Expressions](Expressions.md) may help to ensure consistency. Their center distance needs to be `(NumberOfTeeth + OtherGear.NumberOfTeeth) * Modules / 2` (subtract the number of teeth in case of an internal gear).
+-   In order for two gears to mesh they need to share the same module and pressure angle. [Expressions](Expressions.md) may help to ensure consistency. Their center distance needs to be `(NumberOfTeeth + OtherGear.NumberOfTeeth) * Modules / 2` (that is in case of the sum profile shift being zero). Subtract the number of teeth in case of an internal gear.
+
+-   Profile shifting can be used to prevent undercut on gears with a small number of teeth. Another application is to adjust the center distance of two gears with a given number of teeth and module.
 
 -   When visually checking for proper meshing or interferences a much lower value for **Deviation** is helpful, e.g. 0.05 instead of the default 0.5. Otherwise the representation in the [3D view](3D_view.md) may be too coarse.
 

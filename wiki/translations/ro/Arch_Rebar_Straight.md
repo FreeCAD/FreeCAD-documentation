@@ -40,6 +40,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 </div>
 
+
+
 ## Cum se folosește 
 
 
@@ -62,6 +64,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 <img alt="" src=images/StraightRebarDialog.png  style="width:250px;"> 
 *Taskview panel for the Arch Rebar Straight tool*
+
+
 
 ## Proprietăți
 

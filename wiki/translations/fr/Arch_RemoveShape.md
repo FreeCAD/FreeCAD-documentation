@@ -13,15 +13,19 @@
 
 Cet outil vise à supprimer la forme cubique intérieure d\'un **<img src="images/Arch_Wall.svg" width=16px>[Arch Mur](Arch_Wall/fr.md)** ou d\'une **<img src="images/Arch_Structure.svg" width=16px>[Arch Structure](Arch_Structure/fr.md)** et ajuste ses propriétés, la rendant totalement paramétriques. Cet outil ne fonctionne que si le shape sous-jacent est cubique (exactement 6 faces, tous les coins ont seulement des angles droits).
 
+
+
 ## Utilisation
 
 1.  Selectionnez un **<img src="images/Arch_Wall.svg" width=16px>[Arch Mur](Arch_Wall/fr.md)** ou une **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md)**.
 2.  Cliquez le bouton **<img src="images/Arch_RemoveShape.svg" width=16px> [Supprimer la forme](Arch_RemoveShape/fr.md)** ou par le menu **Arch** → **Utilitaires** → **<img src="images/Arch_RemoveShape.svg" width=16px> [Supprimer la forme](Arch_RemoveShape/fr.md)**.
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 

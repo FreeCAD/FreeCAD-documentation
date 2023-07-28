@@ -5,9 +5,13 @@
 
 </div>
 
+
+
 ## Descriere
 
 Acest instrument poate fi folosit pentru a închide un contur selectat în Sketcher, făcând ca un punct final al unui element Sketcher să coincidă cu punctul final al următorului element sketcher selectat.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -24,6 +28,8 @@ Acest instrument poate fi folosit pentru a închide un contur selectat în Sketc
 
 
 </div>
+
+
 
 ## Notă
 

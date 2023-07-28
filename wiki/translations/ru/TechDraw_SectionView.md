@@ -12,9 +12,11 @@
 
 </div>
 
+
+
 ## Описание
 
-The <img alt="" src=images/TechDraw_SectionView.svg  style="width:24px;"> **TechDraw SectionView** tool inserts a cross-section view based on an existing part view.
+The **TechDraw SectionView** tool inserts a cross-section view based on an existing part view.
 
 <img alt="" src=images/TechDraw_section_ANSI.png  style="width:350px;">
 <img alt="" src=images/TechDraw_section_ISO.png  style="width:350px;"> 
@@ -23,13 +25,15 @@ The top image shows the ANSI arrow format.<br>
 The bottom image shows the ISO arrow format.
 *
 
+
+
 ## Применение
 
 1.  Select a part view in the [3D view](3D_view.md) or [Tree view](Tree_view.md).
 2.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_SectionView.svg" width=16px> [Insert Section View](TechDraw_SectionView.md)** button.
-    -   Select the **TechDraw → <img src="images/TechDraw_SectionView.svg" width=16px> Insert Section View** option from the menu.
-3.  A task panel will open which will help calculate the various properties. Reasonable values for the view Direction are calculated, but these can be changed.
+    -   Select the **TechDraw → TechDraw Views → <img src="images/TechDraw_SectionView.svg" width=16px> Insert Section View** option from the menu.
+3.  A task panel opens which will help calculate the various properties. Reasonable values for the view Direction are calculated, but these can be changed.
 
 ![](images/TechDraw_Section_Taskview.png ) 
 *Taskview to define the sectional cut of a view*
@@ -37,6 +41,8 @@ The bottom image shows the ISO arrow format.
 ## Properties Section View 
 
 See also [TechDraw View](TechDraw_View#Properties.md).
+
+
 
 ### Данные
 
@@ -97,6 +103,8 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 -    **Section Direction|Enumeration**: The direction in the Base View for this section. Options: {{Value|Aligned}}, {{Value|Right}}, {{Value|Left}}, {{Value|Up}} or {{Value|Down}}.
 
+
+
 ### Вид
 
 
@@ -127,12 +135,16 @@ A Section view inherits all applicable properties of the view specified as **Bas
 
 The default settings for these parameters are set via the settings **Section Line** and **Section Line Style** in the [TechDraw preferences](TechDraw_Preferences.md).
 
+
+
 ## Примечания
 
 -   **Section Line Format**: two section line formats are supported (as depicted above) and controlled by the Preference setting \"Section Line Standard\" on the Annotation tab. The {{Value|ANSI}} option uses \"pulling arrows\" (known as the \"traditional format\" in some areas) and the {{Value|ISO}} option uses \"pushing arrows\" (also known as the \"reference arrow format\").
 -   **Fuse Before Cut**: the section operation sometimes fails to cut the source shapes. If **Fuse Before Cut** is true, the source shapes are merged into a single shape before the section operation is attempted. If you encounter problems with the section operation, try flipping this value.
 -   **Trim After Cut**: the section cut operation sometimes leaves behind a portion of the source shape. If **Trim After Cut** is true, an additional cut operation is performed on the result of the first cut which should remove any unwanted pieces.
 -   **Cut Surface Display**: the cut surface can be hidden, painted in a solid color, hatched using an Svg pattern (default) or hatched using a PAT pattern. See [Hatching](TechDraw_Hatching.md).
+
+
 
 ## Программирование
 
@@ -141,7 +153,7 @@ The default settings for these parameters are set via the settings **Section Lin
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The SectionView tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+A SectionView can be created with [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 
 
 ```python
@@ -152,17 +164,23 @@ page = doc.Page
 view = doc.addObject("TechDraw::DrawViewPart", "View")
 page.addView(view)
 view.Source = box
-view.Direction = (0.0, 0.0, 1.0)
+view.Direction = (0, 0, 1)
 
 section = doc.addObject("TechDraw::DrawViewSection", "Section")
 page.addView(section)
 section.Source = box
 section.BaseView = view
-section.Direction = (0.0, 1.0, 0.0)
-section.SectionNormal = (-1.0, 0.0, 0.0)
+section.Direction = (0, 1, 0)
+section.SectionNormal = (-1, 0, 0)
 
 doc.recompute()
 ```
+
+## Examples
+
+For some more information about section views and some use cases, have a look at: [TechDraw section examples](TechDraw_Section_Examples.md).
+
+<img alt="" src=images/TechDraw_ExampleSection-10.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-13.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-15.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-17.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-34.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-35.png  style="width:80px;">
 
 
 <div class="mw-translate-fuzzy">

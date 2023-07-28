@@ -3,6 +3,7 @@
    Name:MeshPart CreateFlatFace
    MenuLocation:Meshes → Unwrap Face
    Workbenches:[Mesh](Mesh_Workbench.md)
+   Version:0.19
    SeeAlso:[Mesh Part Create Flat Mesh](MeshPart_CreateFlatMesh.md)
 ---
 

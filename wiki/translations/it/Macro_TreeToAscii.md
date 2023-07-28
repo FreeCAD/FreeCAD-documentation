@@ -17,9 +17,9 @@
 
 </div>
 
-## Descrizione
 
-### Contesto
+
+## Descrizione
 
 
 <div class="mw-translate-fuzzy">
@@ -29,7 +29,15 @@ Questa macro è stata scritta principalmente per documentare la costruzione del 
 
 </div>
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ### Utilizzo
+
+
+</div>
 
 Just select the object(s) you want to print the tree and run the macro. It will display the tree of each object in a dialog. All selected objects will be considered as being at the same hierarchy level at the top of the tree (even if they aren\'t in the real model). Once dialog is open, you can change style and/or pattern and re-generate the ASCII tree.
 
@@ -61,7 +69,7 @@ Once dialog is open, several actions are available :
 -   ***Embed in text file*** : stores the whole tree in a text file embedded in the document (available since FC 0.18.4)
 -   Of course you can copy any part of the tree by selecting it and using standard copy commands
 
-### Installation
+## Installation
 
 The macro is available through [Addon Manager](Std_AddonMgr.md). Code is provided on this page for convenience in case user system doesn\'t have git-python. Though it should be up-to-date, latest release is always available at [FreeCAD-macro repository](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Information/TreeToAscii.FCMacro)
 

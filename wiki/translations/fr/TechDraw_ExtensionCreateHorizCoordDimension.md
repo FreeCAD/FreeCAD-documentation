@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionCreateHorizCoordDimension.svg  style="width:24px;"> **TechDraw Cotes parallèles horizontales** crée des cotes de coordonnées horizontales : plusieurs cotes régulièrement espacées partant de la même ligne de base.
+L\'outil **TechDraw Cotes parallèles horizontales** crée des cotes de coordonnées horizontales : plusieurs cotes régulièrement espacées partant de la même ligne de base.
 
 <img alt="" src=images/TechDraw_ExtensionCreateHorizCoordDimensionExample.png  style="width:400px;"> 
 *A droite, les cotes créées*
+
+
 
 ## Utilisation
 

@@ -12,6 +12,8 @@
 
 L\'outil <img alt="" src=images/Path_Engrave.svg  style="width:24px;"> [Gravure](Path_Engrave/fr.md) sert principalement à graver une <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;">[Draft Forme à partir d\'un texte](Draft_ShapeString/fr.md) sur une pièce, il peut être utile pour d\'autres types de 2D.
 
+
+
 ## Utilisation
 
 Vide
@@ -20,7 +22,11 @@ Vide
 
 Vide
 
+
+
 ## Propriétés
+
+
 
 ### Données
 
@@ -29,7 +35,7 @@ Vide
 
 -    **Placement**:
 
--    **Label**: Nom d\'utilisateur de l\'objet (UTF-8)
+-    **Label**: nom de l\'objet (UTF-8)
 
 
 {{TitleProperty|Depth}}
@@ -42,7 +48,7 @@ Vide
 
 -    **Start Depth**: profondeur initiale de l\'outil - première profondeur de coupe en Z.
 
--    **Step Down**: abaissement incrémentiel de l\'outil.
+-    **Step Down**: pas de descente incrémentale de l\'outil.
 
 
 {{TitleProperty|Path}}
@@ -57,9 +63,9 @@ Vide
 
 -    **Cycle Time**: durée estimée du cycle pour cette opération
 
--    **Start Vertex**: index du sommet pour commencer la trajectoire à partir de
+-    **Start Vertex**: index du sommet pour commencer le parcours à partir de
 
--    **Tool Controller**: contrôleur d\'outil qui sera utilisé pour calculer la trajectoire.
+-    **Tool Controller**: contrôleur d\'outil qui sera utilisé pour calculer le parcours
 
 -    **User Label**: étiquette attribuée par l\'utilisateur
 
@@ -80,14 +86,18 @@ Vide
 
 -    **Visibility**:
 
+
+
 ### Vue
 
 Vide
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

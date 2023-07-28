@@ -23,9 +23,9 @@ Die einfache Auswahl mit der Maus (standardmäßig Linksklick) und die Vorauswah
 
 ### Wiederholte Klicks 
 
-Mit dem ersten Klick wird ein Unterelement (Punkt, Kante oder Fläche) des Objekts unter der Maus ausgewählt. Ein zweiter Klick wählt das gesamte Objekt aus. {{Version/de|0.18}}
+Mit dem ersten Klick wird ein Unterelement (Punkt, Kante oder Fläche) des Objekts unter der Maus ausgewählt. Ein zweiter Klick wählt das gesamte Objekt aus.
 
-Der dritte Klick erweitert die Auswahl auf das Containerobjekt [Körper](PartDesign_Body/de.md), [Standard Teil](Std_Part/de.md) und andere. Weitere Klicks erweitern die Auswahl in der Containerkette. {{Version/de|0.19}}
+Der dritte Klick erweitert die Auswahl auf das Containerobjekt [Körper](PartDesign_Body/de.md), [Standard Teil](Std_Part/de.md) und andere. Weitere Klicks erweitern die Auswahl in der Containerkette.
 
 
 

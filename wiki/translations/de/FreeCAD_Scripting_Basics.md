@@ -1,11 +1,15 @@
 # FreeCAD Scripting Basics/de
 {{TOCright}}
 
+
+
 ## Python skripten in FreeCAD 
 
 FreeCAD wurde von Grund auf neu entwickelt, um vollständig von Python Skripten gesteuert zu werden. Nahezu alle Teile von FreeCAD, wie z.B. die Oberfläche, die Szeneninhalte und sogar die Darstellung dieser Inhalte in den 3D Ansichten, sind über den eingebauten Python Interpreter oder über eigene Skripte zugänglich. Damit ist FreeCAD wahrscheinlich eine der am weitesten anpassbaren Engineering Anwendungen, die heute verfügbar sind.
 
 Wenn du nicht mit Python vertraut bist, empfehlen wir dir, nach Tutorien im Internet zu suchen, um so einen kurzen Blick auf seine Struktur zu bekommen. Python ist eine sehr einfache Sprache zu lernen, vor allem, weil es innerhalb eines Interpreters ausgeführt werden kann, wobei von einfachen Befehlen bis zu vollständigen Programmen alles dynamisch ausgeführt werden kann. Wenn du das Fenster mit der Aufschrift \"Python Konsole\", wie unten dargestellt nicht siehst, kannst du es unter **Ansicht → Paneele → Python Konsole** aktivieren.
+
+
 
 ### Der Interpreter 
 
@@ -21,11 +25,11 @@ Beginne also hier mit der Eingabe von `App.` oder `Gui.` und schau was passiert.
 
 Eine weitere nützliche Funktion des Interpreters ist die Möglichkeit, zurück zu gehen in der Befehlshistorie und eine Zeile des Codes wiederzubekommen, den du bereits früher getippt hast. Um durch die Befehlshistorie zu navigieren, benutze einfach **Pfeil oben** or **Pfeil unten**.
 
-Mit Rechtsklick im Interpreter Fenster hast du auch einige andere Optionen, wie z. B. Kopie der gesamten Historie (nützlich, wenn du mit Dingen experimentieren möchtest, bevor du ein vollständiges Skript davon erstellst), oder füge einen Dateinamen mit vollständigem Pfad ein. {{Top}}
+Mit Rechtsklick im Interpreter Fenster hast du auch einige andere Optionen, wie z. B. Kopie der gesamten Historie (nützlich, wenn du mit Dingen experimentieren möchtest, bevor du ein vollständiges Skript davon erstellst), oder füge einen Dateinamen mit vollständigem Pfad ein. 
 
 ### Python Hilfe 
 
-Im FreeCAD **Hilfe** findest Du einen mit **Automatische Python Moduldokumentation** beschrifteten Eintrag, der ein Browserfenster öffnet, das eine vollständige, in Echtzeit generierte Dokumentation aller dem FreeCAD Interpreter zur Verfügung stehenden Python Module enthält, einschließlich Python- und FreeCAD Einbaumodule, systeminstallierte Module und FreeCAD Zusatzmodule. Die dort verfügbare Dokumentation hängt davon ab, wie viel Aufwand jeder Modulentwickler in die Dokumentation seines Codes gesteckt hat, aber normalerweise haben Python Module den Ruf, ziemlich gut dokumentiert zu sein. Dein FreeCAD Fenster muss geöffnet bleiben, damit dieses Dokumentationssystem funktioniert. Der Eintrag **Python Skripten Dokumentation** gibt dir einen schnelle Verknüpfung zum [Vielnutzer Verteiler](Power_users_hub/de.md) Wiki Bereich. {{Top}}
+Im FreeCAD 
 
 ## Eingebaute Module 
 
@@ -35,7 +39,7 @@ Da FreeCAD für den Betrieb ohne grafische Benutzeroberfläche (GUI) konzipiert 
 
 -   Im `Gui` Modul, wirst du Werkzeuge für den Zugriff und die Verwaltung von GUI Elementen finden, wie die Arbeitsbereiche und ihre Werkzeugleisten, und, noch interessanter, die grafische Darstellung aller FreeCAD Inhalte.
 
-Eine Auflistung des Inhalts dieser Module ist nicht sehr nützlich, da sie mit der Entwicklung von FreeCAD recht schnell wachsen. Aber die beiden zur Verfügung gestellten Browsing Werkzeuge (der Klassenbrowser und die Python Hilfe) sollte dir jederzeit eine vollständige und aktuelle Dokumentation liefern. {{Top}}
+Eine Auflistung des Inhalts dieser Module ist nicht sehr nützlich, da sie mit der Entwicklung von FreeCAD recht schnell wachsen. Aber die beiden zur Verfügung gestellten Browsing Werkzeuge (der Klassenbrowser und die Python Hilfe) sollte dir jederzeit eine vollständige und aktuelle Dokumentation liefern. 
 
 ### Die App und GUI Objekte 
 
@@ -73,7 +77,7 @@ wobei `"ObjectName"` der Name deines Objektes ist. Du kannst auch eingeben:
 myViewObject = App.ActiveDocument.ObjectName.ViewObject
 ```
 
-Wenn du dich im Befehlszeilenmodus befindest und keine GUI hast, wird in der letzten Zeile `None` zurückgegeben. {{Top}}
+Wenn du dich im Befehlszeilenmodus befindest und keine GUI hast, wird in der letzten Zeile 
 
 ### Die Dokument Objekte 
 
@@ -110,9 +114,11 @@ myView = Gui.ActiveDocument.ActiveView
 
 {{Top}}
 
+
+
 ## Das Verwenden zusätzlicher Module 
 
-Die `FreeCAD` und `FreeCADGui` Module sind ausschließlich Verantwortlich für das Erstellen und Verwalten von Objekten in einem FreeCAD Dokument. Sie tun eigentlich nichts mehr, wie zum Beispiel Geometrie erstellen oder verändern. Das liegt daran, dass diese Geometrie aus mehreren Typen bestehen kann und daher zusätzliche Module erfordert, die jeweils für die Verwaltung eines bestimmten Geometrietyps zuständig ist. Beispielsweise ist der [Part-Arbeitsbereich](Part_Workbench/de.md) unter Verwendung des OpenCascade Kernels in der Lage, Geometrie vom Typ [BRep](http://en.wikipedia.org/wiki/Boundary_representation) zu erstellen und zu verändern. Wohingegen der [Netz-Arbeitsbereich](Mesh_Workbench/de.md) in der Lage ist, Netzobjekte zu erstellen und zu modifizieren. Auf diese Weise ist FreeCAD in der Lage, eine Vielzahl von Objekttypen zu handhaben, die alle im selben Dokument koexistieren können, und neue Typen können in Zukunft leicht hinzugefügt werden. {{Top}}
+Die 
 
 ### Erzeugen von Objekten 
 
@@ -152,6 +158,8 @@ Part.show(cube)
 
 {{Top}}
 
+
+
 ### Ändern von Objekten 
 
 Das Ändern eines Objekts erfolgt auf die gleiche Weise:
@@ -173,6 +181,8 @@ myPart.Shape = biggercube
 
 
 {{Top}}
+
+
 
 ### Abfragen von Objekten 
 

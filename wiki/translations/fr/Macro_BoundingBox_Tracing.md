@@ -12,14 +12,16 @@
 
 ## Description
 
-Crée un contour rouge de la BoundingBox (6 faces avec 6 rectangles) d\'un objet, crée le volume du boundBox.
+Cette macro crée un contour rouge de la boîte englobante (6 faces avec 6 rectangles) d\'un objet, affiche la dimension du rectangle, crée le volume de la boîte englobante.
 
 <img alt="" src=images/Macro_BoundingBox_Tracing_00.png  style="width:480px;">
 
 :   
     
-*La macro de traçage BoundingBox en action*
+*La macro BoundingBox Tracing en action*
     
+
+
 
 ## Utilisation
 
@@ -31,17 +33,21 @@ Crée un contour rouge de la BoundingBox (6 faces avec 6 rectangles) d\'un objet
 <img alt="" src=images/Macro_BoundingBox_Tracing_01.png  style="width:480px;"> 
 *Conteneur d'information*
 
+
+
 ## Remarques
 
-Configuration: voir les lignes de 61 à 84
+Configuration : voir les lignes de 61 à 84
+
+
 
 ## Icône
 
 Téléchargez l\'image du fichier et copiez-la dans votre répertoire de macros.
 
-Positionnez vous sur l\'image puis cliquez sur la bouton droit, dans la nouvelle fenêtre, choisissez \"Enregistrez l\'image sous \...\"
+Cliquez sur l\'image, dans la nouvelle fenêtre positionnez la souris sur l\'image, cliquez sur le bouton droit de la souris et faites \"Save target as \...\"
 
-ToolBar Icon ![](images/BoundBoxTracing.png )
+Icône de la barre d\'outils ![](images/BoundBoxTracing.png )
 
 ## Script
 
@@ -418,7 +424,7 @@ else:
 
 ## Version
 
-Version: 0.12 Date 2021/07/10: upgrade par edwilliams16 pour gérer les objets dans des conteneurs Part imbriqués voir [FCInfo CG of assemblies](https://forum.freecadweb.org/viewtopic.php?f=22&t=59852) corrected the global placement, thanks edwilliams16
+Version : 0.12 Date : 2021/07/10 : mise à jour par edwilliams16 pour gérer les objets dans des conteneurs de pièces imbriqués. [FCInfo CG of assemblies](https://forum.freecadweb.org/viewtopic.php?f=22&t=59852) a corrigé le placement global, merci edwilliams16
 
 
 ```python
@@ -436,11 +442,11 @@ def adjustedGlobalPlacement(obj, locVector):
 
 ```
 
-Version: 0.11 le Date: 2019/05/29: \"nameLabel = str(unicodedata.normalize(\'NFKD\', nameLabel).encode(\'ascii\',\'ignore\'))\" instead \"def()\"
+Version: 0.11 Date : 2019/05/29: \"nameLabel = str(unicodedata.normalize(\'NFKD\', nameLabel).encode(\'ascii\',\'ignore\'))\" instead \"def()\"
 
-ver 0.10 le 2019/05/23 upgrade \> 0.19 et suppression des accentués \"éçà..\" avec une def() et pas encode()\....
+Version : 0.10 Date : 2019/05/23 upgrade \> 0.19 et suppression des accentués \"éçà..\" avec une def() et pas encode()\....
 
-ver 0.9 le 2018-10-12: add test \> 17 
+Version : 0.9 Date : 2018-10-12: ajouter un test \> 17 
 ```python
 if int(FreeCAD.Version()[1]) > 17:      # Version de FreeCAD
     DisplayModeText   = str(u"2D text") # available : u"2D text" or u"3D text" 
@@ -448,15 +454,15 @@ else:
     DisplayModeText   = str(u"Screen")  # available : u"Screen" or u"World" 
 ```
 
-ver 0.8 le 05/10/2018: upgrade the ver 0.8 compatible with FC 0.17 (getGlobalPlacement)
+Version : 0.8 Date : 05/10/2018 : mise à jour de la ver 0.8 compatible avec FC 0.17 (getGlobalPlacement)
 
-ver 0.7 le 28/01/2018: correct error with label accent \"nameLabel = unicodedata.normalize(\'NFKD\', nameLabel).encode(\'ascii\',\'ignore\')\"
+Version : 0.7 Date : 28/01/2018 : corrige l\'erreur d\'accentuation de l\'étiquette \"nameLabel = unicodedata.normalize(\'NFKD\', nameLabel).encode(\'ascii\',\'ignore\')\".
 
-ver 0.6 le 08/08/2017: ajout de texte info dimension (annotation), conteneur pour rectangles, info rectangles, info volume, ajout d\'une section configuration couleur , label de l\'objet sélectionné
+Version : 0.6 Date : 08/08/2017 : ajout de texte info dimension (annotation), conteneur pour rectangles, info rectangles, info volume, ajout d\'une section configuration couleur, label de l\'objet sélectionné
 
-ver 0.5 le 08/05/2017 : upgrade maintenant accepte le format \"mesh\" , \"Points\" merci wmayer [Makro Bounding-Box für STL importierte Teile und für Punktewolken](http://forum.freecadweb.org/viewtopic.php?f=13&t=22331)
+Version : 0.5 Date : 08/05/2017 : mise à jour accepte maintenant le \"maillage\" et les \"points\" merci wmayer [Makro Bounding-Box für STL importierte Teile und für Punktewolken](http://forum.freecadweb.org/viewtopic.php?f=13&t=22331)
 
-ver 0.4 le 04/06/2016 : test si une valeur = 0 alors ne crée pas de boundbox (ex: objet Draft)
+Version : 0.4 Date : 04/06/2016 : test si une valeur = 0 alors ne crée pas de boundbox (ex : objet Draft)
 
 
 

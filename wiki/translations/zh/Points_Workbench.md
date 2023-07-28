@@ -1,4 +1,13 @@
-# <img alt="Points workbench icon" src=images/Workbench_Points.svg  style="width:64px;"> Points Workbench/zh
+# Points Workbench/zh
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+<img alt="Points workbench icon" src=images/Workbench_Points.svg  style="width:128px;">
 
 ## Introduction
 
@@ -34,10 +43,13 @@ All Points Workbench tools can be accessed from the **Points** menu. Some tools 
     -   [Schnitte durch Flächen aus Messwerten](http://forum.freecadweb.org/viewtopic.php?f=13&t=16103) (German)
 
 
+<div class="mw-translate-fuzzy">
 
 
 
 
+
+</div>
 
 
 {{Points Tools navi

@@ -27,13 +27,27 @@ Many operations create objects that are dependent on a previously existing objec
 
 *The topmost object is created by doing parametric operations on objects which themselves were created by previous operations. Expanding the tree many levels reveals the original elements that were used to create the partial solids.*
 
+### Labels & Attributes 
+
+In the Labels & Attributes column the labels and icons of the objects are displayed.
+
+Selecting an object in this column and pressing **F2** (on Windows and Linux), or **Enter** (on macOS), allows to edit the object\'s **Label** property in situ without detour via the context menu action described below or the [Property editor](Property_editor.md).
+
+### Description
+
+The Description column displays further information about objects, if available.
+
+This information is stored in an object\'s **Label2** property which can be edited in situ by selecting the object in this column and pressing **F2** (on Windows and Linux), or **Enter** (on macOS), or via the [Property editor](Property_editor.md).
+
 ## Actions
 
-Since the tree view lists objects that may be visible in the [3D view](3D_view.md), many of the actions are the same as those that can be executed from the [3D view](3D_view.md).
+Since the tree view lists objects that may be visible in the [3D view](3D_view.md), many of the actions are the same as those that can be executed from the [3D view](3D_view.md). The actions can be started from a **Context menu** that can be accessed by right clicking either the background or an object.
 
-When the application starts, the default [Start Workbench](Start_Workbench.md) is active, and no document has been created, right clicking on the [tree view](Tree_view.md) shows one sub-menu with four commands:
+### Application start 
 
--    **Expression actions**:
+When the application starts, the default [Start Workbench](Start_Workbench.md) is active, and no document has been created, the context menu of the [tree view](Tree_view.md) has only one entry:
+
+-    **Expression actions**. When the cursor is moved onto it, a sub-menu opens containing four commands:
 
     -   [Copy selected](Std_Expressions.md)
     -   [Copy active document](Std_Expressions.md)
@@ -42,21 +56,21 @@ When the application starts, the default [Start Workbench](Start_Workbench.md) i
 
 These allow working with various documents, but are disabled if no document is present.
 
-Once a new document has been created the following become active:
+### New document 
 
--    **Expression actions**:
+Once a new document has been created right clicking the background opens the context menu now containing two entries:
+
+-    **Expression actions**as above but with these two entries activated:
 
     -   [Copy active document](Std_Expressions.md)
     -   [Copy all documents](Std_Expressions.md)
 
-In addition, [Link](Std_LinkMake.md) actions are available.
-
--    **Link actions**:
+-    **Link actions**\- a sub-menu with two entries:
 
     -   
         **Make Link group**
         
-        :
+        \- another sub-menu containing three commands:
 
         -   [Simple group](Std_LinkMakeGroup.md)
         -   [Group with links](Std_LinkMakeGroup.md)
@@ -66,20 +80,19 @@ In addition, [Link](Std_LinkMake.md) actions are available.
 
 ### Selecting the document 
 
-If you select the active document and right click, in addition to **Expression actions** and **Link actions**, the following commands appear:
+If you select the document and right click, in addition to **Expression actions** and **Link actions**, the context menu contains the following commands:
 
--    **Show hidden items**: if active, the tree view will show hidden items.
+-    **Show items hidden in tree view**: if active, the tree view will show hidden items.
 
 -    **Search**: shows an input field to search objects inside the selected document.
 
 -    **Close document**: closes the selected document.
 
+-    **Add dependent objects to selection**: all dependent objects will be added to the selection. This way one can see the dependencies and e.g. delete all dependent objects at once. Only available for objects with links and for documents.
+
 -    **Skip recomputes**: if active, the document\'s objects will not [recompute](Std_Refresh.md) automatically.
 
-    -   
-        **Allow partial recomputes**
-        
-        : if active, the document will allow [recompute](Std_Refresh.md) of only some objects.
+-    **Allow partial recomputes**: if active, the document will allow [recompute](Std_Refresh.md) of only some objects. Only available if **Skip recomputes** is activated.
 
 -    **Mark to recompute**: marks all objects of the document as touched, and ready for [recompute](Std_Refresh.md).
 
@@ -101,9 +114,7 @@ Once objects are added to the document right clicking them will show additional 
 
 -    **[Delete](Std_Delete.md)**: removes the object from the document.
 
--    **[Hide item](#Eye_symbol.md)**: If checked the object will be hidden in the Tree view.
-
--    **Add dependent objects to selection**: all dependent objects will be added to the selection. This way one can see the dependencies and e.g. delete all dependent objects at once. This option is only available if one of the selected objects has links. <small>(v0.20)</small> 
+-    **[Toggle visibility in tree view](#Eye_symbol.md)**: toggles the Tree view visibility of objects.
 
 -    **Mark to recompute**: marks the selected object as touched, and ready for [recompute](Std_Refresh.md).
 
@@ -162,7 +173,7 @@ The following keyboard actions are available when the focus is on the Tree view:
 
 ## Overlay icons 
 
-One or more smaller overlay icons can be displayed on top of an object\'s default icon in the tree view. The available overlay icons and their meaning are listed below. <small>(v0.19)</small> 
+One or more smaller overlay icons can be displayed on top of an object\'s default icon in the tree view. The available overlay icons and their meaning are listed below.
 
 ### ![](images/FreeCAD_Tree_view_recompute.png ) White check mark on blue background 
 
@@ -188,7 +199,7 @@ This indicates that the object has an error that needs to be fixed. After recomp
 
 ### ![](images/FreeCAD_Tree_view_hidden.png ) Eye symbol 
 
-This indicates that the object will be hidden in the Tree view because its **Hide item** context menu option is checked. Check and then uncheck the **Show hidden items** context menu option of the document, or reopen the document, to update the Tree view.
+This indicates that the object will be hidden in the Tree view if the **Show items hidden in tree view** context menu option is unchecked.
 
 
 {{Interface navi

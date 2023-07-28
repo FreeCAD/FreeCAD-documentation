@@ -1,38 +1,48 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign Clone
-   MenuLocation:Part Design → Create a clone
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Utwórz klona
+   MenuLocation:Projekt części → Utwórz klona
+   Workbenches:[Projekt części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[Draft Clone](Draft_Clone.md)
+   Version:0.17
+   SeeAlso:[Klon](Draft_Clone/pl.md)
 ---
 
 # PartDesign Clone/pl
 
-## Description
 
-**PartDesign Clone** creates a linked copy of a selected object which will follow any future edits to the original object (except placement). For example, one use case is when you want to do [PartDesign Boolean](PartDesign_Boolean.md) on an object created in another workbench. Most types of objects are accepted, as long as they are single solids. If you need to clone multiple objects (i.e., bodies) or a [Part Container](Std_Part.md), you may use [Draft Workbench\'s clone](Draft_Clone.md). One caveat is that the Part Design Workbench\'s clone sets the current placement of the clone as zero (both Cartesian translation and spatial orientations). While the Draft\'s workbenches clone calculates and sets the numerical values of the current placement and orientation of the cloned objects with respect to the cloned object container.
+
+## Opis
+
+Funkcja **Klon** środowiska Projekt Części tworzy połączoną kopię wybranego obiektu, która będzie podążać za wszelkimi przyszłymi edycjami oryginalnego obiektu *(z wyjątkiem umiejscowienia)*. Na przykład, jednym z przypadków użycia jest wykonanie [operacji logicznej](PartDesign_Boolean/pl.md) na obiekcie utworzonym w innym środowisku roboczym. Większość typów obiektów jest akceptowana, o ile są to pojedyncze bryły. Jeśli potrzebujesz sklonować wiele obiektów *(np. bryły)* lub [kontener](Std_Part/pl.md) środowiska Część, możesz użyć funkcji [klon](Draft_Clone/pl.md) ze środowiska Rysunek Roboczy. Jednym z zastrzeżeń jest to, że klon środowiska roboczego Projekt części ustawia bieżące położenie klonu jako zero *(zarówno translację kartezjańską, jak i orientację przestrzenną)*. Podczas gdy klon środowiska roboczego Rysunek Roboczy oblicza i ustawia wartości liczbowe bieżącego położenia i orientacji klonowanych obiektów w odniesieniu do pojemnika klonowanego obiektu.
 
 ![*Clone of the inner gear while being translated in 3D space as an independent object*](images/clone.png ) 
-*Clone of the inner gear while being translated in 3D space as an independent object*
+*Klon wewnętrznego koła zębatego podczas przesuwania w przestrzeni 3D jako niezależny obiekt*
 
-## Usage
 
-1.  In the Model tree, select the object to be cloned.
-2.  Press the **[<img src=images/PartDesign_Clone.svg style="width:24px"> '''Create a clone'''** button.
 
-## Properties
+## Użycie
 
--    **Base Feature**: sets the original object the clone is based on. To replace, press the **...** button to get a list of available objects.
+1.  W drzewie modelu wybierz obiekt, który ma zostać sklonowany.
+2.  Naciśnij przycisk **[<img src=images/PartDesign_Clone.svg style="width:24px"> '''Utwórz klona'''**.
 
--    **Placement**: defines the orientation and position of the Clone in the 3D space. See [Placement](Placement.md).
 
--    **Label**: label given to the Clone object. Change to suit your needs.
 
-## Limitations
+## Właściwości
 
--   Only a single object can be used for a PartDesign Clone.
--   Only objects that consist of a single solid are supported. Hence, [compounds](Glossary#Compound.md) like [Part container](Std_Part.md), [Part Compound](Part_Compound.md) or [Draft OrthoArray](Draft_OrthoArray.md) are not supported.
+-    **Cecha bazowa**: ustawia oryginalny obiekt, na którym bazuje klon. Aby zastąpić, naciśnij przycisk **...**, aby uzyskać listę dostępnych obiektów.
+
+-    **Umiejscowninie**: określa orientację i pozycję klona w przestrzeni 3D. Zobacz stronę [Umiejscowienie](Placement/pl.md).
+
+-    **Etykieta**: etykieta nadawana obiektowi Klon. Zmień ją zgodnie z własnymi potrzebami.
+
+
+
+## Ograniczenia
+
+-   Do klonowania w środowisku Projekt Części można użyć tylko jednego obiektu.
+-   Obsługiwane są tylko obiekty składające się z pojedynczej bryły. Dlatego [złożenia](Glossary/pl#Compound.md) takie jak [Część: kontener](Std_Part/pl.md), [Część: Utwórz złożenie](Part_Compound/pl.md) lub [Rysunek Roboczy: Szyk ortogonalny](Draft_OrthoArray/pl.md) nie są obsługiwane.
 
 
 

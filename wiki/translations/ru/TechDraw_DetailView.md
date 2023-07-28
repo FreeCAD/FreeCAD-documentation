@@ -9,12 +9,16 @@
 
 # TechDraw DetailView/ru
 
+
+
 ## Описание
 
-The Detail tool creates a view of small area of an existing view.
+The **TechDraw DetailView** tool creates a view of small area of an existing view.
 
 ![](images/ViewDetail.png ) 
 *Detail view with circular viewbox of an existing view*
+
+
 
 ## Применение
 
@@ -53,9 +57,13 @@ A Detail view inherits all applicable properties of the view specified as **Base
 
 -    **Highlight Line Style**: Line style for the outline shape. Default setting for this is the setting **Detail Highlight Style** in the [TechDraw preferences](TechDraw_Preferences.md).
 
+
+
 ## Примечания
 
 -   [A good discussion about setting the Anchor](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
+
+
 
 ## Программирование
 

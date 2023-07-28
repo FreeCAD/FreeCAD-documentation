@@ -20,6 +20,8 @@
 
 </div>
 
+
+
 ## Introduzione
 
 This tutorial shows how to place [Arch Windows](Arch_Window.md) and Doors in a building model, how to display them as open in the 3D view, and how to create a 2D drawing (plan and elevation projection) for the model. It uses the [Draft Workbench](Draft_Workbench.md), the [Arch Workbench](Arch_Workbench.md), and the [TechDraw Workbench](TechDraw_Workbench.md).
@@ -99,7 +101,7 @@ Now we are ready to create a simple building with closed walls, two doors and tw
 *align=center|Snapping to the midpoint of the bottom edge of the wall to place the window*
 
 :   
-    **Note:**the `Sill height` parameter can only be set when initially creating the window with a preset. Once the window is inserted, modify its placement by editing the **Position** vector `[x, y, z]` of the underlying [Sketcher Sketch](Sketcher_Sketch.md).
+    **Note:**the `Sill height` parameter can only be set when initially creating the window with a preset. Once the window is inserted, modify its placement by editing the **Position** vector `[x, y, z]` of the underlying [Sketcher Sketch](Sketcher_Workbench.md).
 
 
 
@@ -256,9 +258,9 @@ The [TechDraw Workbench](TechDraw_Workbench.md) only has minimal control over ho
 A closer interaction between the workbenches is planed for future versions of FreeCAD. In those versions it is expected that long-standing issues be resolved, such as controlling the characteristics of lines and faces (line width, line color, face color, hatch patterns, and others).
 
 
-   {{TechDraw Tools navi}}
+  {{TechDraw Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > Tutorial for open windows/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > Tutorial for open windows/it

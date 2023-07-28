@@ -20,6 +20,8 @@ La commande Draft B-spline spécifie les **points exacts** par lesquels la courb
 <img alt="" src=images/Draft_bspline_example.jpg  style="width:400px;"> 
 *Spline definie par plusieurs points*
 
+
+
 ## Utilisation
 
 Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
@@ -42,7 +44,7 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 -   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
 -   Appuyez sur **L** ou cliquez sur la case **Rempli** pour activer le mode de remplissage. Si le mode rempli est activé, la spline créée aura la valeur **Make Face** `True` et aura une face remplie, à condition qu\'elle soit fermée et ne s\'auto-intersectionne pas. Notez qu\'une spline qui s\'auto-intersecte avec une face ne s\'affichera pas correctement, pour une telle spline, **Make Face** doit être définie sur `False`.
 -   Appuyez sur **T** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir utilisé **<img src="images/Draft_FinishLine.svg" width=16px> Terminer** ou **<img src="images/Draft_CloseLine.svg" width=16px> Fermer**, ou après avoir créé une spline fermée en l\'accrochant au premier point de la spline, ce qui vous permet de continuer à créer des splines.
--   Appuyez sur **/** ou sur le bouton **<img src="images/Draft_UndoLine.svg" width=16px> Annuler** pour annuler le dernier point. Le raccourci clavier ne fonctionne pas dans {{VersionMinus/fr|19.0}}.
+-   Appuyez sur **/** ou sur le bouton **<img src="images/Draft_UndoLine.svg" width=16px> Annuler** pour annuler le dernier point.
 -   Appuyez sur **A** ou sur le bouton **<img src="images/Draft_FinishLine.svg" width=16px> Terminer** pour terminer la commande et laisser la cannelure ouverte.
 -   Appuyez sur **O** ou sur le bouton **<img src="images/Draft_CloseLine.svg" width=16px> Fermer** pour terminer la commande et fermer la courbe. Une spline fermée peut également être créée en s\'accrochant au premier point de la spline.
 -   Appuyez sur **W** ou sur le bouton **<img src="images/Draft_Wipe.svg" width=16px> Effacer** pour supprimer les segments de courbe déjà placés, mais continuez à travailler à partir du dernier point.
@@ -50,10 +52,14 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour terminer la commande.
 
+
+
 ## Remarques
 
 -   Une Draft B-spline peut être éditée avec la commande [Draft Editer](Draft_Edit/fr.md).
 -   Une Draft B-spline peut être convertie en un [Draft Polyligne](Draft_Wire/fr.md) avec la commande [Draft Polyligne vers B-spline](Draft_WireToBSpline/fr.md).
+
+
 
 ## Préférences
 
@@ -62,11 +68,15 @@ Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Pr
 -   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : **Édition → Préférences... → Général → Unités → Système d'unités → Nombre de décimales**.
 -   Pour modifier la valeur initiale du mode rempli : **Édition → Préférences... → Draft → Paramètres généraux → Options des outils de Draft → Remplir les objets avec des faces si possible**. La modification du mode rempli dans un panneau de tâches annule cette préférence pour la session FreeCAD en cours.
 
+
+
 ## Propriétés
 
 Voir aussi: [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet Draft B-spline est dérivée d\'un [Part Part2DObject](Part_Part2DObject/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 
@@ -83,6 +93,8 @@ Un objet Draft B-spline est dérivée d\'un [Part Part2DObject](Part_Part2DObjec
 
 -    **Points|VectorList**: spécifie les points de la spline dans son système de coordonnées local.
 
+
+
 ### Vue
 
 
@@ -97,6 +109,8 @@ Un objet Draft B-spline est dérivée d\'un [Part Part2DObject](Part_Part2DObjec
 -    **Pattern|Enumeration**: spécifie le [Draft Motif](Draft_Pattern/fr.md) avec lequel remplir la face de la courbe fermée. Cette propriété ne fonctionne que si **Make Face** est `True` et si **Display Mode** est {{value|Flat Lines}}.
 
 -    **Pattern Size|Float**: spécifie la taille du [Draft Motif](Draft_Pattern/fr.md).
+
+
 
 ## Script
 

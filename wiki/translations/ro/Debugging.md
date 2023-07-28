@@ -11,6 +11,8 @@
 {{TOCright}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Testează mai întâi 
@@ -21,6 +23,8 @@
 </div>
 
 Before you go through the pain of debugging use the [Test framework](Testing.md) to check if the standard tests work properly. If they do not run complete there is possibly a broken installation.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -72,6 +76,8 @@ Configuration:
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -151,6 +157,8 @@ Print the values of the local variables also. This can be combined with a number
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### For MacOSX 
@@ -226,6 +234,8 @@ This prints a long list of loaded resources. So for example, if trying to ascert
 
 
 `lsof -p process_id &#124; grep Coin`
+
+
 
 
 <div class="mw-translate-fuzzy">

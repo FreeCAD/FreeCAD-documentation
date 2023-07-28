@@ -13,12 +13,22 @@
 
 </div>
 
+
+
 ## Descrizione
+
+
+<div class="mw-translate-fuzzy">
 
 Lo strumento Simbolo saldatura aggiunge le specifiche di saldatura a una linea guida esistente.
 
+
+</div>
+
 <img alt="" src=images/TechDraw_WeldingSymbol_example.png  style="width:330px;"> 
 *Specifiche di saldatura aggiunte a una linea guida*
+
+
 
 ## Utilizzo
 
@@ -34,7 +44,16 @@ Lo strumento Simbolo saldatura aggiunge le specifiche di saldatura a una linea g
 
 </div>
 
+## Notes
+
+-   After creation a welding symbol can be edited by double clicking it in the [Tree view](Tree_view.md).
+-   There is a [preference parameter](TechDraw_Preferences.md) for the default welding symbol directory. You can add your own symbols in a personal directory.
+
+
+
 ## Proprietà
+
+
 
 ### Simbolo di saldatura 
 
@@ -45,6 +64,8 @@ Lo strumento Simbolo saldatura aggiunge le specifiche di saldatura a una linea g
 -    **Alternate Weld**: scosta il simbolo inferiore per indicare saldature alternate.
 
 -    **Tail Text**: testo da mostrare alla fine della linea guida.
+
+
 
 ### Tessere dei simboli 
 
@@ -65,6 +86,8 @@ Ogni singolo simbolo (\"lato freccia\" e \"altro lato\") è rappresentato da un 
 -    **Center Text**: Testo da visualizzare sopra o sotto il simbolo svg.
 
 -    **Right Text**: Testo da visualizzare a destra del simbolo svg.
+
+
 
 ## Script
 
@@ -138,11 +161,6 @@ App.activeDocument().DrawTileWeld001.CenterText = "center text"
 
 
 </div>
-
-## Note
-
--   Si può modificare il Simbolo di saldatura facendo doppio clic su di esso nella vista ad albero. Il doppio clic nell\'area grafica non è ancora supportato.
--   Esiste un [parametro preferenza](TechDraw_Preferences/it.md) per la directory dei simboli di saldatura predefinita. Si possono aggiungere dei simboli in una directory personale.
 
 
 <div class="mw-translate-fuzzy">

@@ -19,9 +19,9 @@ La commande **Quitter l\'esquisse** quitte le mode d\'édition d\'esquisse et li
 
 Il existe plusieurs façons de lancer cette commande :
 
--   Appuyez sur le bouton **Fermer** en haut du [Panneau des tâches](Task_panel/fr.md).
--   Appuyez sur **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Quitter l'esquisse](Sketcher_LeaveSketch/fr.md)**.
--   Sélectionnez l\'option **Esquisse → [<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> Quitter l'esquisse** dans le menu.
+-   Appuyer sur le bouton **Fermer** en haut du [panneau des tâches](Task_panel/fr.md).
+-   Appuyer sur **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Quitter l'esquisse](Sketcher_LeaveSketch/fr.md)**.
+-   Sélectionner l\'option **Esquisse → [<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> Quitter l'esquisse** du menu.
 
 
 

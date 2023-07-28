@@ -48,10 +48,12 @@ Ce tutoriel vise l\'utilisation des [robots industriels](http://fr.wikipedia.org
 4.  Visualiser la simulation
 
 
- {{Robot Tools navi}} {{Userdocnavi
+{{Robot Tools navi
+
+}} {{Userdocnavi
 ---
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Robot](Robot_Workbench.md) > Robot tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/fr

@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -25,6 +27,8 @@ CalculiXccxTools permit utilizarea calculatorului [CalculiX](http://dhondt.de/).
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -49,6 +53,8 @@ Acest obiect este creat automat cu crearea cotainerului **<img src="images/_FEM_
 
 </div>
 
+
+
 ## Opţiuni
 
 
@@ -58,6 +64,8 @@ Folosind {{KEY | Edit .inp file}}, puteți afișa și edita manual fișierul de 
 
 
 </div>
+
+
 
 ## Proprietăți
 
@@ -199,6 +207,8 @@ Default values can be set in the menu **Edit** → **Preferences** → **FEM** �
 
 -    **Working Dir**: calea către directorul de lucru care va fi folosit pentru fișierele de analiză CalculiX.
 
+
+
 ## Limite
 
 When running a CalculiX, you might end up with **error 4294977295**. This means you don\'t have enough RAM space. You have then 2 options:
@@ -206,9 +216,13 @@ When running a CalculiX, you might end up with **error 4294977295**. This means 
 1.  reduce the number of mesh nodes, preferably by omitting geometry that is not absolutely necessary for your analysis
 2.  buy more RAM for your PC
 
+
+
 ## Notă
 
 Documentația originală CalculiX poate fi găsită la <http://dhondt.de/> in the \"ccx\" paragraph.
+
+
 
 ## Scrip-Programare 
 

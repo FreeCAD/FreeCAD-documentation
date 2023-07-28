@@ -1,10 +1,9 @@
 ---
 - GuiCommand:/de
    Name:Ship Weight
-   Name/de:Schiffsgewicht
-   MenuLocation:Gewichte → Erstelle ein neues Schiffsgewicht
-|
-   Workbenches:[Schiff](Ship_Workbench/de.md)
+   Name/de:Ship Gewicht
+   MenuLocation:Weights → Neues Schiffsgewicht erstellen
+   Workbenches:[Ship](Ship_Workbench/de.md)
    Shortcut:
    SeeAlso:
 ---
@@ -12,15 +11,16 @@
 # Ship Weight/de
 
 
-</div>
 
-## Description
+## Beschreibung
 
 Add a weight to the ship instance.
 
 Until this point, all the tools in Ship workbench are based on a **Ship instance** (see [Ship CreateShip](Ship_CreateShip.md)), which only holds information regarding the ship shape. Following the progressive data introduction system, at this point the user might define load conditions, which involves creating weights with this tool, creating tanks (see [Ship Tank](Ship_Tank.md)) and assembling them in load conditions (see [Ship LoadCondition](Ship_LoadCondition.md)). With that information the center of gravity of the ship can be defined, enabling further computations.
 
-## Usage
+
+
+## Anwendung
 
 In order to create a weight, select the weight geometry (see below) and invoke **Weights → <img src="images/Ship_Weight.svg" width=16px> Create a new ship weight**.
 
@@ -66,16 +66,12 @@ This is the highest level of abstraction, in which the whole weight is represent
 
 Punctual weights are featured by its mass (in kg, or any other compatible unit).
 
+
+
 ## Tutorien
-
-
-<div class="mw-translate-fuzzy">
 
 -   [FreeCAD-Schiff s60 Tutorium](FreeCAD-Ship_s60_tutorial/de.md)
 -   [FreeCAD-Schiff s60 Tutorium (II)](FreeCAD-Ship_s60_tutorial_(II)/de.md)
-
-
-</div>
 
 
 

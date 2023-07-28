@@ -24,6 +24,8 @@ The dependencies need to be installed in the system before proceeding with compi
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Länkar
@@ -52,6 +54,8 @@ The dependencies need to be installed in the system before proceeding with compi
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -110,6 +114,8 @@ Python was chosen as the scripting language for FreeCAD for different reasons:
 In summary, Python is well documented, and it\'s easy to embed and extend in a C++ application. It is also well tested and has strong support from the open source community. Read more about Python and browse the official documentation at [Python.org](http://www.python.org).
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Boost
@@ -144,6 +150,8 @@ För att försäkra effektivitet och flexibilitet, så använder Boost en hel de
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -202,6 +210,8 @@ För att lära dig mer om OpenCasCade, ta en titt på OpenCasCade sidan eller <h
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Qt
@@ -242,6 +252,8 @@ Shiboken is the Python binding generator that Qt for Python uses to create the P
 The original Shiboken and PySide packages were meant to be used with Python 2 and Qt4; since these two versions are considered obsolete in 2019, please use Shiboken2 and PySide2, which work with Python 3 and Qt5. New development of FreeCAD is done with Python 3 and Qt5, so compatibility with Python 2 and Qt4 is not guaranteed after FreeCAD 0.18.
 
 Read more about Shiboken and Pyside on [Qt for Python](https://wiki.qt.io/Qt_for_Python/Shiboken).
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -308,6 +320,8 @@ Coin kan portas över många plattformar: alla UNIX / Linux / \*BSD plattformar,
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### SoQt
@@ -362,6 +376,8 @@ If you are not going to use these workbenches, you won\'t need Pivy.
 Ply is the Python-Lex-Yacc parser. It is used as a runtime dependency by the [OpenSCAD Workbench](OpenSCAD_Workbench.md). If you don\'t use this workbench, you may not need this package.
 
 For more information see [Ply homepage](https://www.dabeaz.com/ply/)
+
+
 
 
 <div class="mw-translate-fuzzy">

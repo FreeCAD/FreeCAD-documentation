@@ -43,7 +43,13 @@
 
 -   <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Тор](Part_Torus/ru.md): Создаёт твердотельный тор (кольцо).
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_Tube.svg  style="width:32px;"> [Полый цилиндр](Part_Tube/ru.md): Создаёт полый цилиндр. {{Version/ru|0.19}}
+
+
+</div>
 
 -   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Примитивы](Part_Primitives/ru.md): Инструмент для создания одного из следующих примитивов:
     -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Плоскость](Part_Plane/ru.md): Создаёт плоскость.
@@ -81,7 +87,13 @@
 
 -   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Фаска](Part_Chamfer/ru.md): Делает фаску на рёбрах объекта.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_MakeFace.svg  style="width:32px;"> [Создать грань из ломанных](Part_MakeFace/ru.md): Создаёт грань из набора ломанных (рёбер или контуров). Доступно из меню **Деталь** {{Version/ru|0.19}}.
+
+
+</div>
 
 -   <img alt="" src=images/Part_RuledSurface.svg  style="width:32px;"> [Линейчатая поверхность](Part_RuledSurface/ru.md): Создаёт линейчатую поверхность.
 
@@ -99,7 +111,13 @@
 
 -   <img alt="" src=images/Part_Thickness.svg  style="width:32px;"> [Толщина](Part_Thickness/ru.md): Делает твёрдое тело пустотелым.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Проекция на поверхность](Part_ProjectionOnSurface/ru.md): Проецирует логотип, текст или любую поверхность, контур или ребро на поверхность. {{Version/ru|0.19}}
+
+
+</div>
 
 -   <img alt="" src=images/Part_EditAttachment.svg  style="width:32px;"> [Прикрепить (Attachment)](Part_EditAttachment/ru.md): Прикрепляет/фиксирует расположение одного объекта относительно другого.
 
@@ -118,7 +136,13 @@
 
 -   <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Обрезать](Part_Cut/ru.md): Вырезает (вычитает) один объект из другого.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Объединить](Part_Fuse/ru.md): Объединяет (сплавляет) два объекта.
+
+
+</div>
 
 -   <img alt="" src=images/Part_Common.svg  style="width:32px;"> [Пересечь](Part_Common/ru.md): Извлекает общую (пересекающуюся) часть двух объектов.
 
@@ -161,19 +185,37 @@
 
 -   <img alt="" src=images/Part_BoxSelection.svg  style="width:32px;"> [Выделение прямоугольной область](Part_BoxSelection/ru.md): Позволяет выбирать грани прямоугольной областью.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:32px;"> [Создание фигуры из полигональной сетки](Part_ShapeFromMesh/ru.md): Создаёт форму из сетки.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_PointsFromMesh.svg  style="width:32px;"> [Points from mesh](Part_PointsFromMesh/ru.md): Создаёт фигуру из точек сетки плигонального объекта.{{Version/ru|0.19}}
+
+
+</div>
 
 -   <img alt="" src=images/Part_MakeSolid.svg  style="width:32px;"> [Преобразовать в твёрдое](Part_MakeSolid/ru.md): Преобразует форму в твёрдое тело.
 
 -   <img alt="" src=images/Part_ReverseShapes.svg  style="width:32px;"> [Reverse shapes (Обратная фигура)](Part_ReverseShapes/ru.md): Переворачивает нормали всех поверхностей выбранного объекта.
+
+
+<div class="mw-translate-fuzzy">
 
 -   Создать копию:
     -   <img alt="" src=images/Part_SimpleCopy‎.svg  style="width:32px;"> [Создать простую копию](Part_SimpleCopy/ru.md): Создаёт простую копию выбранного объекта.
     -   <img alt="" src=images/Part_TransformedCopy.svg  style="width:32px;"> [Создать преобразованную копию](Part_TransformedCopy/ru.md): Создаёт преобразованную копию выбранных объектов. {{Version/ru|0.19}}
     -   <img alt="" src=images/Part_ElementCopy.svg  style="width:32px;"> [Создать копию элемента формы](Part_ElementCopy/ru.md): Создаёт копию только элементов, выбранного объекта (вершины, рёбра, грани) . {{Version/ru|0.19}}
     -   <img alt="" src=images/Part_RefineShape.png  style="width:32px;"> [Уточнить форму](Part_RefineShape/ru.md): Очищает поверхности детали и удаляет ненужные линии (так называемые \"артефакты\").
+
+
+</div>
 
 -   <img alt="" src=images/Part_CheckGeometry.svg  style="width:32px;"> [Проверка геометрии](Part_CheckGeometry/ru.md): Проверяет геометрию выбранных объектов на ошибки.
 

@@ -5,7 +5,7 @@
    MenuLocation:Arch → Plan de coupe
    Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**S** **P**
-   SeeAlso:[Draft Vue 2D d'une forme](Draft_Shape2DView/fr.md), [TechDraw Vue Arch](TechDraw_ArchView/fr.md)
+   SeeAlso:[Draft Vue 2D d'une forme](Draft_Shape2DView/fr.md), [TechDraw Vue d'un objet Arch](TechDraw_ArchView/fr.md)
 ---
 
 # Arch SectionPlane/fr
@@ -14,28 +14,30 @@
 
 Cet outil place dans le document courant une \"chose\" qui définit un plan de coupe ou de vue. La \"chose\" est placée en fonction du [Draft Plan de travail](Draft_SelectPlane/fr.md) en cours et peut être déplacée et réorientée en la déplaçant et en la faisant tourner, jusqu\'à ce qu\'elle décrive la vue 2D que vous souhaitez obtenir. L\'objet Plan de coupe ne tiendra compte que d\'un certain ensemble d\'objets. Les objets sélectionnés lorsque vous créez un plan de coupe seront automatiquement ajoutés à cet ensemble. D\'autres objets peuvent être ajoutés ou retirés ultérieurement d\'un objet Plan de coupe à l\'aide des outils [Arch Ajouter](Arch_Add/fr.md) et [Arch Soustraire](Arch_Remove/fr.md) ou en double-cliquant sur le Plan de coupe dans l\'arborescence.
 
-Le Plan de coupe seul ne permet pas de créer une vue de son ensemble d\'objets. Pour cela, vous devez créer une [TechDraw Vue Arch](TechDraw_ArchView/fr.md) pour créer une vue dans une [page TechDraw](TechDraw_Workbench/fr.md).
+Le Plan de coupe seul ne permet pas de créer une vue de son ensemble d\'objets. Pour cela, vous devez créer une [TechDraw Vue d\'un objet Arch](TechDraw_ArchView/fr.md) pour créer une vue dans une [TechDraw page](TechDraw_Workbench/fr.md).
 
 <img alt="" src=images/Arch_SectionPlane_example.jpg  style="width:600px;">
 
+
+
 ## Utilisation
 
-1.  Optionnellement activez [Draft Plan de travail](Draft_SelectPlane/fr.md) pour représenter le plan que vous voulez placer dans le plan de coupe.
+1.  Activez le [Draft Plan de travail](Draft_SelectPlane/fr.md) pour représenter le plan que vous voulez placer dans le plan de coupe.
 2.  Sélectionnez l\'objet ou les objets à inclure dans le plan.
 3.  Appuyez sur le bouton **<img src="images/Arch_SectionPlane.svg" width=16px> [Plan de coupe](Arch_SectionPlane/fr.md)** ou pressez les touches **S** puis **P**.
 4.  Utilisez les touches [Draft Déplacer](Draft_Move/fr.md)/[Draft Pivoter](Draft_Rotate/fr.md) pour placer le plan dans sa position correcte.
 5.  Sélectionnez le plan s\'il n\'est pas sélectionné.
-6.  Utilisez les fonctions [Draft Vue 2D d\'une forme](Draft_Shape2DView/fr.md) ou [TechDraw Vue Arch](TechDraw_ArchView/fr.md) pour créer une vue.
+6.  Utilisez les fonctions [Draft Vue 2D d\'une forme](Draft_Shape2DView/fr.md) ou [TechDraw Vue d\'un objet Arch](TechDraw_ArchView/fr.md) pour créer une vue.
 
 ## Options
 
--   L\'objet Plan de coupe ne prendra qu\'un certain nombre d\'objets, pas tous les objets du document. Les objets peuvent être ajoutés ou supprimés à partir d\'un objet SectionPlane en utilisant les outils [Arch Ajouter](Arch_Add/fr.md) et [Arch Soustraire](Arch_Remove/fr.md), en double-cliquant sur le Plan de coupe dans la vue 3D, ou en sélectionnan, puis en appuyant sur les boutons **Ajouter** ou **Supprimer**.
+-   L\'objet Plan de coupe ne prendra qu\'un certain nombre d\'objets, pas tous les objets du document. Des objets peuvent être ajoutés ou supprimés à partir d\'un objet Plan de coupe en utilisant les outils [Arch Ajouter](Arch_Add/fr.md) et [Arch Soustraire](Arch_Remove/fr.md) ou en double-cliquant sur le Plan de coupe dans la vue en arborescence, en sélectionnant des objets dans la liste ou dans la vue 3D puis en appuyant sur les boutons **Ajouter** ou **Supprimer**.
 
--   Après avoir sélectionné un plan de coupe, utilisez l\'outil de [Draft Vue 2D d\'une forme](Draft_Shape2DView/fr.md) pour créer un objet shape qui représente l\'affichage du plan de coupe dans le document
+-   Après avoir sélectionné un plan de coupe, utilisez l\'outil de [Draft Vue 2D d\'une forme](Draft_Shape2DView/fr.md) pour créer un objet shape qui représente l\'affichage du plan de coupe dans le document.
 
-<img alt="Arch Section" src=images/Arch_Section_example2.jpg  style="width:600px;">
+<img alt="" src=images/Arch_Section_example2.jpg  style="width:600px;">
 
--   Créer un nouvel objet [Draft Dessin](Draft_Drawing/fr.md) si vous travaillez avec l\'[atelier Drawing](Drawing_Workbench/fr.md), ou [TechDraw Vue Arch](TechDraw_ArchView/fr.md) si vous utilisez l\'[atelier TechDraw](TechDraw_Workbench/fr.md).
+-   Créer une [TechDraw Vue d\'un objet Arch](TechDraw_ArchView/fr.md).
 
 <img alt="" src=images/Arch_Section_example3.jpg  style="width:600px;">
 
@@ -43,38 +45,44 @@ Le Plan de coupe seul ne permet pas de créer une vue de son ensemble d\'objets.
 
 <img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width:600px;">
 
+
+
 ## Propriétés
 
--    **Only Solids**: S\'il est activé, les objets non solides comppris dans l\'ensemble ne seront pas pris en charge
+-    **Only Solids**: si activé, les objets non solides compris dans l\'ensemble ne seront pas pris en charge
 
--    **Display Length**: Donne la longueur du Section Plane dans la vue 3D. N\'affecte pas le résultat de la vue résultante.
+-    **Display Length**: donne la longueur du plan de coupe dans la vue 3D. N\'affecte pas le résultat de la vue résultante.
 
--    **Display Height**: Donne hauteur du Section Plane dans la vue 3D. N\'affecte pas le résultat de la vue résultante.
+-    **Display Height**: donne la hauteur du plan de coupe dans la vue 3D. N\'affecte pas le résultat de la vue résultante.
 
--    **Arrow Size**: Donne la dimension des flèches du Section Plane dans la vue 3D. N\'affecte pas le résultat de la vue résultante.
+-    **Arrow Size**: donne la dimension des flèches du plan de coupe dans la vue 3D. N\'affecte pas le résultat de la vue résultante.
 
--    **Cut View**: Si `True`, toute la vue 3D sera coupée à l\'emplacement du Section Plane.
+-    **Cut View**: si `True`, toute la vue 3D sera coupée à l\'emplacement du plan de coupe.
 
--    **Clip view**: Si `True`, il coupera la vue à la hauteur et à la longueur de l\'affichage du plan de coupe. Cela transforme effectivement le plan de coupe en une caméra orthographique, limitant le champ de vision.{{version/fr|0.19}}
+-    **Clip view**: si `True`, il coupera la vue à la hauteur et à la longueur de l\'affichage du plan de coupe. Cela transforme effectivement le plan de coupe en une caméra orthographique, limitant le champ de vision.
 
 <img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width:600px;">
 
 
 
-*Le plan de coupe Arch avec l'option de vue Clip se comportera comme une caméra, limitant le champ de vision de la vue.*
+*Plan de coupe avec l'option clip view se comportera comme une caméra, en limitant le champ de vision.*
+
+
 
 ## Ajustements
 
--   Ajout manuel d\'une propriété nommée **RotateSolidRender** de type **App::PropertyAngle** aux propriétés *\'View\'* du plan de coupe (cliquez avec le bouton droit sur la vue des propriétés -\> tout afficher, clic droit de nouveau -\> ajouter une propriété) permet de faire pivoter le rendu lors de l\'utilisation du mode Solide. Ceci est utile lorsqu\'une vue rendue comporte, par exemple, des éléments Arch et Draft, et que le rendu des éléments Arch pivote par rapport aux éléments Draft. {{version/fr|0.19}}
+-   En ajoutant manuellement une propriété nommée **RotateSolidRender** de type **App::PropertyAngle** aux propriétés **View** du plan de coupe (cliquez avec le bouton droit sur la vue des propriétés -\> tout afficher, clic droit de nouveau -\> ajouter une propriété), cela permet de faire pivoter le rendu lors de l\'utilisation du mode Solide. Ceci est utile lorsqu\'une vue comporte, par exemple, des éléments Arch et Draft, et que le rendu des éléments Arch pivote par rapport aux éléments Draft.
+
+
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
-[API](Arch_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil plan de coupe peut servir dans une [macro](macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante :
+L\'outil Plan de coupe peut servir dans une [macro](Macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante :
 
 
 ```python

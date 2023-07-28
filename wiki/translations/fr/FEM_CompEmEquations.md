@@ -4,7 +4,7 @@
    Name:FEM Équations électromagnétiques
    MenuLocation:
    Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:1.0
+   Version:0.21
    SeeAlso:
 ---
 
@@ -20,10 +20,10 @@
 
 Vous pouvez choisir ces équations :
 
--   <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> [Equation électrostatique](FEM_EquationElectrostatic/fr.md) : équation pour effectuer des analyses électrostatiques.
--   <img alt="" src=images/FEM_EquationElectricforce.svg  style="width:24px;"> [Équation de force électrique](FEM_EquationElectricforce/fr.md) : équation pour calculer la force électrique sur les surfaces. <small>(v0.19)</small> 
--   <img alt="" src=images/FEM_EquationMagnetodynamic.svg  style="width:24px;"> [Équation magnétodynamique](FEM_EquationMagnetodynamic2D/fr.md) : équation pour calculer la magnétodynamique. {{Version/fr|1.0}}
--   <img alt="" src=images/FEM_EquationMagnetodynamic2D.svg  style="width:24px;"> [Équation magnétodynamique 2D](FEM_EquationMagnetodynamic2D/fr.md) : équation pour calculer la magnétodynamique en 2D. {{Version/fr|1.0}}
+-   <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> [Équation électrostatique](FEM_EquationElectrostatic/fr.md) : équation pour effectuer des analyses électrostatiques.
+-   <img alt="" src=images/FEM_EquationElectricforce.svg  style="width:24px;"> [Équation de force électrique](FEM_EquationElectricforce/fr.md) : équation pour calculer la force électrique sur les surfaces.
+-   <img alt="" src=images/FEM_EquationMagnetodynamic.svg  style="width:24px;"> [Équation magnétodynamique](FEM_EquationMagnetodynamic2D/fr.md) : équation pour calculer la magnétodynamique. {{Version/fr|0.21}}
+-   <img alt="" src=images/FEM_EquationMagnetodynamic2D.svg  style="width:24px;"> [Équation magnétodynamique 2D](FEM_EquationMagnetodynamic2D/fr.md) : équation pour calculer la magnétodynamique en 2D. {{Version/fr|0.21}}
 
 
 

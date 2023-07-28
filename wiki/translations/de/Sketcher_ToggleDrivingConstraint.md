@@ -11,6 +11,8 @@
 
 # Sketcher ToggleDrivingConstraint/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> [UmschalterFührendeRandbedingung](Sketcher_ToggleDrivingConstraint/de.md)** wandelt maßliche Randbedingungen (Sperren, X-, Y-Abstand, Länge, Radius und Winkel) in den Referenzmodus und zurück. Die Symbole in der Werkzeugleiste färben sich blau, und anstelle von Maßbedingungen (führende bzw. festlegende Randbedingungen) werden Referenzmaße (anzeigende Randbedingungen) erstellt. Referenzmaße legen keine Freiheitsgrade in der Skizze fest. Es kann nützlich sein, in einer Skizze Referenzmaße zu erstellen, um die Bemaßung zu überprüfen; wenn ein Name angegeben wird, können sie auch dazu verwendet werden, die Randbedingung in einer anderen Skizze durch [Ausdrücke](Expressions/de.md) zu steuern.
@@ -20,6 +22,8 @@ Das Werkzeug **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="widt
 
 ![](images/Sketcher_ToggleConstraint_example.png ) 
 *Eine horizontale Abstandsbeschränkung (50 mm), eine vertikale Beschränkung (30 mm) und eine Winkelbeschränkung (75°) wurden zur Definition des Profils festgelegt; ein Bezugsmaß wurde auf dem schrägen Liniensegment hinzugefügt, um seine Länge (31,0583 mm) zu erfassen.*
+
+
 
 ## Anwendung
 

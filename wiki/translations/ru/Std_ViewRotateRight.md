@@ -10,9 +10,13 @@
 
 # Std ViewRotateRight/ru
 
+
+
 ## Описание
 
 The **Std ViewRotateRight** command rotates the camera in the active [3D view](3D_view.md) around the view direction in 90-degree increments towards the right (clockwise).
+
+
 
 ## Применение
 
@@ -21,7 +25,9 @@ The **Std ViewRotateRight** command rotates the camera in the active [3D view](3
     -   Select the **Standard views → <img src="images/Std_ViewRotateRight.svg" width=16px> Rotate Right** option from the [3D view](3D_view.md) context menu.
     -   Use the keyboard shortcut: **Shift**+**Right**.
 
-## Scripting
+
+
+## Программирование
 
 
 **Смотрите так же:**

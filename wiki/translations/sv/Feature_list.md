@@ -22,6 +22,8 @@ Detta är en extensiv, fast inte komplett, lista på de funktioner som FreeCAD h
 -   [Release 0.12](Release_notes_0.12.md) - December 2011
 -   [Release 0.11](Release_notes_0.11.md) - March 2011
 
+
+
 ## Allmäna funktioner 
 
 
@@ -41,6 +43,8 @@ Detta är en extensiv, fast inte komplett, lista på de funktioner som FreeCAD h
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

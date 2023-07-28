@@ -5,16 +5,18 @@
    MenuLocation:Visualizza → Azioni della vista ad albero → Sincronizza la vista
    Workbenches:Tutti
    Shortcut:**T** **1**
+   Version:0.19
 ---
 
 # Std TreeSyncView/it
 
 
-</div>
 
 ## Descrizione
 
 Il comando **Sincronizza la vista** attiva o disattiva la modalità SyncView della [vista ad albero](Tree_view/it.md). Se questa modalità è attiva, la selezione di un oggetto in un altro documento nella vista ad albero attiva automaticamente l\'ultima [vista 3D](3D_view/it.md) ancorata e utilizzata dal documento.
+
+
 
 ## Utilizzo
 
@@ -23,24 +25,14 @@ Il comando **Sincronizza la vista** attiva o disattiva la modalità SyncView del
     -   Selezionare l\'opzione **Visualizza → Azioni della vista ad albero → <img src="images/Std_TreeSyncView.svg" width=16px> Sincronizza la vista** dal menu.
     -   Usare la scorciatoia da tastiera: **T** e poi **1**.
 
+
+
 ## Preferenze
 
-
-<div class="mw-translate-fuzzy">
-
-La modalità Sincronizza la vista SyncView è memorizzata in: **Strumenti → Modifica parametri ... → BaseApp → Preferenze → TreeView → SyncView**. È un valore booleano, il valore predefinito è `True`.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+La modalità Sincronizza la vista della vista ad albero può essere impostata anche nell\'[Editor delle preferenze](Preferences_Editor/it#Selezione.md): **Modifica→ Preferenze → Generale → Selezione**.
 
 
 
-
-
-</div>
 
 
 {{Std Base navi

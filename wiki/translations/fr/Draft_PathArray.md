@@ -120,9 +120,13 @@ Les propriétés de ce groupe ne sont disponibles que pour les réseaux de liens
 
 -    **Align Mode|Enumeration**: spécifie le mode d\'alignement, qui peut être {{Value|Original}}, {{Value|Frenet}} ou {{Value|Tangent}}.
 
+-    **End Offset|Length**: spécifie la longueur entre la fin du chemin et la dernière copie. Elle doit être inférieure à la longueur du chemin moins **Start Offset**. {{Version/fr|0.21}}
+
 -    **Extra Translation|VectorDistance**: spécifie un déplacement supplémentaire pour chaque élément le long du chemin.
 
 -    **Force Vertical|Bool**: spécifie s\'il faut remplacer la direction normale par défaut par la valeur de **Vecteur Vertical**. Utilisé uniquement si **Align Mode** est {{Value|Original}} ou {{Value|Tangent}}.
+
+-    **Start Offset|Length**: spécifie la longueur entre le début du chemin et la première copie. Elle doit être inférieure à la longueur du chemin. {{Version/fr|0.21}}
 
 -    **Tangent Vector|Vector**: spécifie le vecteur d\'alignement. Utilisé uniquement si **Align Mode** est {{Value|Tangent}}.
 

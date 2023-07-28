@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -22,6 +24,8 @@ Questo strumento converte in mesh le superfici degli elementi 3D di una mesh FEM
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -37,7 +41,7 @@ Questo strumento converte in mesh le superfici degli elementi 3D di una mesh FEM
 
 ## Scripting
 
-**Note**: The parameter *scale* was <small>(v1.0)</small> . For older versions of FreeCAD omit it from your code.
+**Note**: The parameter *scale* was <small>(v0.21)</small> . For older versions of FreeCAD omit it from your code.
 
 When you just require the displacement scale factor, check your mesh object name and the scale factor in the following code:
 

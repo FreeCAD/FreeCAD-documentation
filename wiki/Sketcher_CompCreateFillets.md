@@ -1,8 +1,6 @@
 ---
 - GuiCommand:
-   Name:Sketcher Fillets
-   Icon:Sketcher_CompCreateFillets.png
-   MenuLocation:
+   Name:Sketcher CompCreateFillets
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Version:0.19
 ---
@@ -11,7 +9,7 @@
 
 ## Description
 
-**Create a fillet** is an icon button in the Sketcher geometries toolbar that groups tools to create fillets. Click on the down arrow to its right to expand the icons below it and select a tool.
+**Create fillet** is an icon button in the Sketcher geometries toolbar that groups tools to create fillets. Click on the down arrow to its right to expand the icons below it and select a tool.
 
 ## Types of fillets 
 

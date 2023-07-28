@@ -11,6 +11,8 @@
 
 # FCGear CrownGear/fr
 
+
+
 ## Description
 
 La roue de la couronne ressemble à une crémaillère incurvée en forme d\'anneau. L\'angle de pression décroît continuellement du diamètre extérieur vers le diamètre intérieur. Ainsi, la vitesse périphérique variable au niveau de la couronne est compensée par la vitesse périphérique constante du pignon. Les dents externes pointues et les flancs de dents raides sur le diamètre intérieur limitent la largeur de dent utilisable. Les engrenages couronnes atteignent des rendements similaires à ceux des engrenages droits. Une couronne dentée peut entraîner plusieurs pignons.
@@ -25,19 +27,25 @@ Champ d\'application connu des couronnes:
 ![](images/Crown-Gear_example.png ) 
 *Au-dessus : Engrenage couronne*
 
+
+
 ## Utilisation
 
 1.  Passez à l\' <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [atelier FCGear](FCGear_Workbench/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur **[<img src=images/FCGear_CrownGear.svg style="width:16px"> [Crown Gear](FCGear_CrownGear/fr.md)** dans la barre d\'outils.
     -   Sélectionnez l\'option **Gear → [<img src=images/FCGear_CrownGear.svg style="width:16px"> Crown Gear** dans le menu.
-3.  La couronne dentée est affichée sans dents par défaut. ({{Version/fr|1.0}})
+3.  La couronne dentée est affichée sans dents par défaut. ({{Version/fr|0.21}})
 4.  Modifiez les paramètres de l\'engrenage en fonction des conditions requises (voir [Propriétés](#Propri.C3.A9t.C3.A9s.md)).
 5.  Définissez la propriété **preview_mode** à {{false}} pour afficher les dents (voir [Remarques](#Remarques.md)).
+
+
 
 ## Propriétés
 
 Un objet FCGear CrownGear est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 
@@ -71,6 +79,8 @@ Un objet FCGear CrownGear est dérivé d\'un [Part Feature](Part_Feature/fr.md) 
 
 -    **version|String**:
 
+
+
 ## Remarques
 
 -   La propriété **preview_mode** est définie à {{true}} par défaut et lorsque l\'engrenage est créé, vous trouverez ce message dans la vue du rapport :
@@ -90,6 +100,8 @@ Un objet FCGear CrownGear est dérivé d\'un [Part Feature](Part_Feature/fr.md) 
 
 -   Des ajustements pour des caractéristiques de fonctionnement optimales peuvent être effectués avec les paramètres de l\'engrenage à développante.
 
+
+
 ## Vue d\'ensemble de l\'ensemble couronne et pignon droit 
 
 ![](images/Crown-spur-gear-set_example.png )
@@ -99,6 +111,8 @@ Un objet FCGear CrownGear est dérivé d\'un [Part Feature](Part_Feature/fr.md) 
 -   \(3\) Largeur de dent
 -   \(4\) Diamètre intérieur
 -   \(5\) Diamètre extérieur
+
+
 
 ## Formules utiles 
 

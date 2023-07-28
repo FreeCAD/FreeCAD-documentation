@@ -7,7 +7,7 @@ TechDraw templates are SVG files used as the basis to create Technical drawings 
 
 This document lists the necessary elements while building an A3 template.
 
-Just a text simple text editor is needed to create a simple svg file. The necessary lines could be typed or copied into the document.
+Just a simple text editor is needed to create a simple svg file. The necessary lines could be typed or copied into the document.
 
 Such a tidied up file could be a basis for a Python macro\...
 
@@ -35,7 +35,7 @@ The Body starts with an opening tag which contains information about name spaces
 {{Code|lang=xml|code=
 <svg
   xmlns="http://www.w3.org/2000/svg" version="1.1"
-  xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+  xmlns:freecad="http://www.freecad.org/wiki/index.php?title=Svg_Namespace"
   width="420mm"
   height="297mm"
   viewBox="0 0 420 297">
@@ -45,7 +45,7 @@ The Body starts with an opening tag which contains information about name spaces
 
 :   **xmlns=**\"<http://www.w3.org/2000/svg>\": External link to the xml name space to look up standard xml commands
 :   **version=**\"1.1\": used xml version is 1.1
-:   **xmlns:freecad=**\"<http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\": External link to FreeCAD\'s name space extension
+:   **xmlns:freecad=**\"<http://www.freecad.org/wiki/index.php?title=Svg_Namespace>\": External link to FreeCAD\'s name space extension
 
     :   to look up special commands that are only used inside a FreeCAD environment e.g. for editable texts
 :   **width=**\"420mm\": Width of the drawing area
@@ -62,7 +62,7 @@ For a blank page size DIN A3 in landscape orientation that\'s all.
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
   xmlns="http://www.w3.org/2000/svg" version="1.1"
-  xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+  xmlns:freecad="http://www.freecad.org/wiki/index.php?title=Svg_Namespace"
   width="420mm"
   height="297mm"
   viewBox="0 0 420 297">
@@ -432,7 +432,7 @@ The editable texts are sorted according to font size. The group tag defines the 
 
 :   
 
-    :   The text tags are extended with **freecad:editable=\"** *variable name* **\"** to supply The FreeCAD file with addressable variables when the template is inserted.
+    :   The text tags are extended with **freecad:editable=\"** *variable name* **\"** to supply the FreeCAD file with addressable variables when the template is inserted.
     :   The default texts need to be surrounded by tspan tags otherwise the displayed text within the title block will not synchronise with modified variable content.
 
 
@@ -451,7 +451,7 @@ The editable texts are sorted according to font size. The group tag defines the 
 
 <svg
   xmlns="http://www.w3.org/2000/svg" version="1.1"
-  xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+  xmlns:freecad="http://www.freecad.org/wiki/index.php?title=Svg_Namespace"
   width="420mm"
   height="297mm"
   viewBox="0 0 420 297">

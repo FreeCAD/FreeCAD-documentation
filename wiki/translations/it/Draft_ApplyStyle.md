@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -38,6 +40,8 @@ This command currently handles only five of the settings the [Draft SetStyle](Dr
 
 -    **Text color**
     
+
+
 
 ## Utilizzo
 

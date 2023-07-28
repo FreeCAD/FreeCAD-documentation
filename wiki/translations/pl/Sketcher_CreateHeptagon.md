@@ -1,28 +1,35 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher CreateHeptagon
-   MenuLocation:Sketch → Sketcher geometries → Create heptagon
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Utwórz siedmiokąt
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz siedmiokąt
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **P** **7**
    Version:0.15
 ---
 
 # Sketcher CreateHeptagon/pl
 
-## Description
 
-Draws an heptagon inscribed in a construction geometry circle. When starting the tool, the mouse pointer changes to a white cross with a red hexagon icon. The coordinates of the pointer are shown beside it in blue in real time.
+
+## Opis
+
+Rysuje siedmiokąt wpisany w okrąg z geometrii konstrukcyjnej. Po uruchomieniu narzędzia kursor myszki zmienia kształt na biały krzyż z czerwoną ikoną sześciokąta. W czasie rzeczywistym wyświetlane są obok niego współrzędne wskaźnika w kolorze niebieskim.
 
 ![](images/SketcherCreateHeptagonExample.png‎ )
 
-## Usage
 
--   After pressing the **[<img src=images/Sketcher_CreateHeptagon.svg style="width:16px"> [Create heptagon](Sketcher_CreateHeptagon.md)** button, click once to set the center, then move the mouse and click a second time to set one of the vertices.
--   Pressing **Esc** or clicking the right mouse button cancels the function.
 
-## Notes
+## Użycie
 
-The circumscribed circle is construction geometry, which is only visible when editing the sketch.
+-   Po naciśnięciu przycisku **[<img src=images/Sketcher_CreateHeptagon.svg style="width:16px"> [S](Sketcher_CreateHeptagon/pl.md)iedmiokąt**, kliknij raz, aby ustawić środek, a następnie przesuń kursor i kliknij drugi raz, aby ustawić jeden z wierzchołków.
+-   Naciśnięcie klawisza **Esc** lub kliknięcie prawym przyciskiem myszki powoduje przerwanie działania narzędzia.
+
+
+
+## Uwagi
+
+Wyznaczony okrąg to geometria konstrukcyjna, która jest widoczna tylko podczas edycji szkicu.
 
 
 

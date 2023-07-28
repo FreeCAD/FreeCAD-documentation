@@ -12,9 +12,17 @@
 
 </div>
 
+
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Nuova pagina da modello crea una nuova pagina utilizzando il file di un modello selezionato in una finestra di dialogo.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -27,8 +35,16 @@ La directory di partenza per il dialogo può essere specificata nelle [Preferenz
 <img alt="" src=images/A4_Landscape_ISO7200_Pep.svg  style="width:400px;">
 
 
+<div class="mw-translate-fuzzy">
+
+
 
 *Uno dei modelli che viene fornito con TechDraw: A4 ISO 7200_Pep, pagina con orientamento orizzontale, e con campi di testo modificabili*
+
+
+</div>
+
+
 
 ## Utilizzo
 
@@ -40,9 +56,13 @@ La directory di partenza per il dialogo può essere specificata nelle [Preferenz
 
 </div>
 
+
+
 ## Proprietà
 
 See [TechDraw PageDefault](TechDraw_PageDefault#Properties.md).
+
+
 
 ## Script
 
@@ -57,27 +77,32 @@ See [TechDraw PageDefault](TechDraw_PageDefault#Properties.md).
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Nuovo disegno da modello può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
+A Page based on a selected template can be created with [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 
 
 ```python
-templateFileSpec = QtGui.QFileDialog.getOpenFileName(self.baseWidget,
-                                                     dialogCaption, 
-                                                     dialogDir,
-                                                     dialogFilter)
-page = FreeCAD.ActiveDocument.addObject('TechDraw::DrawPage','Page')
-template = FreeCAD.ActiveDocument.addObject('TechDraw::DrawSVGTemplate','Template')
-template.Template = templateFileSpec
-page.Template = FreeCAD.ActiveDocument.Template
+import FreeCAD as App
+from PySide import QtGui
+
+doc = App.ActiveDocument
+default_dir = App.getResourceDir() + "Mod/TechDraw/Templates"
+param = App.ParamGet("User parameter:BaseApp/Preferences/Mod/TechDraw/Files")
+template_dir = param.GetString("TemplateDir", default_dir)
+
+template_file = QtGui.QFileDialog.getOpenFileName(QtGui.QApplication.activeWindow(),
+                                                  "Select a Template File", 
+                                                  template_dir,
+                                                  "Template (*.svg)")
+                                                  
+page = doc.addObject("TechDraw::DrawPage", "Page")
+template = doc.addObject("TechDraw::DrawSVGTemplate", "Template")
+template.Template = template_file[0]
+page.Template = template
+
+doc.recompute()
 ```
 
--   Crea una nuova pagina nel documento corrente
+
 
 ### Campi di testo modificabili 
 
@@ -92,7 +117,19 @@ page.Template = FreeCAD.ActiveDocument.Template
 
 </div>
 
-Per modificare a livello di programmazione i campi di testo editabili in un modello di pagina vedere le informazioni in [Nuova pagina standard](TechDraw_PageDefault/it.md).
+Once a new page has been created, its `Template` attribute holds an `EditableTexts` dictionary with the name of the editable fields (keys) and their textual values. Copy this dictionary to a variable, make changes, and then re-assign the dictionary to the `EditableTexts` attribute to see the changes.
+
+
+```python
+page = FreeCAD.ActiveDocument.Page
+texts = page.Template.EditableTexts
+
+for key, value in texts.items():
+    print("{0} = {1}".format(key, value))
+
+texts["FC-Title"] = "The title of my page"
+page.Template.EditableTexts = texts
+```
 
 
 <div class="mw-translate-fuzzy">

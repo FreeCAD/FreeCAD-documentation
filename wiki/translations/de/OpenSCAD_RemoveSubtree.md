@@ -1,50 +1,33 @@
-# OpenSCAD RemoveSubtree/de
 ---
-- GuiCommand:/de   Name:OpenSCAD RemoveSubtree‏‎    MenuLocation:OpenSCAD → Objekte entfernen samt Kinder   |Workbenches:[[OpenSCAD_Workbench/de   OpenSCAD]]|Shortcut:none   SeeAlso:
+- GuiCommand:/de
+   Name:OpenSCAD RemoveSubtree‏‎
+   Name/de:OpenSCAD TeilbaumEntfernen
+   MenuLocation:OpenSCAD → Objekte und ihre Kindobjekte entfernen
+   Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
+---
+
+# OpenSCAD RemoveSubtree/de
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-Entfernt die ausgewählten Objekte und alle Kinder, die nicht von anderen Objekten referenziert sind.
+Entfernt die ausgewählten Objekte und alle Kindobjekte, die nicht von anderen Objekten referenziert werden.
 
 
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
 
 ## Anwendung
 
 1.  Wähle die zu entfernenden Objekte.
-2.  Klicke auf <img alt="" src=images/OpenSCAD_RemoveSubtree.png  style="width:32px;"> oder wähle ** OpenSCAD** → **<img src="images/OpenSCAD_RemoveSubtree.png" width=32px> Objekte entfernen samt Kindern** vom Top-Menü.
+2.  <img alt="" src=images/OpenSCAD_RemoveSubtree.svg  style="width:32px;"> anklicken oder Menüeintrag ** OpenSCAD** → **<img src="images/OpenSCAD_RemoveSubtree.svg" width=32px> Objekte und ihre Kindobjekte entfernen** auswählen.
 
 
-</div>
+
+## Einschränkungen
 
 
-<div class="mw-translate-fuzzy">
 
-## Beschränkungen
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-## Anmerkungen
-
-
-</div>
+## Hinweise
 
 
 

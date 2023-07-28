@@ -11,17 +11,21 @@
 
 # Sketcher Trimming/de
 
+
+
 ## Beschreibung
 
-Dieses Werkzeug stutzt eine Kante bis zur nächsten überlappenden Kante.
+Dieses Werkzeug entfern eine Kante bis zu den nächsten Schnittstellen mit anderen Kanten. Schneidet die ausgewählte Kante keine andere Kante, wird sie ganz gelöscht
 
 ![](images/SketcherTrimExample1.png ) ![](images/SketcherTrimExample2.png ) ![](images/SketcherTrimExample3.png )
+
+
 
 ## Anwendung
 
 1.  Die Schaltfläche **[<img src=images/Sketcher_Trimming.svg style="width:16px"> [Zuschneiden](Sketcher_Trimming/de.md)** drücken. Der Mauszeiger verwandelt sich in ein weißes Kreuz mit einem roten Zuschneiden-Symbol.
-2.  Auf die Kante klicken, die zugeschnitten werden soll.
-3.  Das Liniensegment wird bis zur nächsten überlappenden Linie zurückgeschnitten. Wenn sich auf beiden Seiten der angeklickten Position andere Skizzenelemente befinden, wird das angeklickte Stück ausgeschnitten.
+2.  Die Kante anklicken, die zugeschnitten werden soll.
+3.  Die Kante wird bis zu den nächsten Schnittstellen mit anderen Kanten zurückgeschnitten. Befinden sich Kanten auf beiden Seiten der angeklickten Position, wird das angeklickte Stück ausgeschnitten.
 4.  Drücken von **ESC** oder der rechten Maustaste beendet die Funktion.
 
 

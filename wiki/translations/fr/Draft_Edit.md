@@ -29,7 +29,7 @@ Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_C
     -   Appuyez sur le bouton **<img src="images/Draft_Edit.svg" width=16px> [Éditer](Draft_Edit/fr.md)**.
     -   Sélectionnez l\'option **Modification → <img src="images/Draft_Edit.svg" width=16px> Éditer** dans le menu.
     -   Utilisez le raccourci clavier : **D** puis **E**.
-    -   Pour un seul objet : sélectionnez l\'option **Edit** dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md). Cela ne fonctionne que pour les objets Draft pris en charge. {{Version/fr|1.0}}
+    -   Pour un seul objet : sélectionnez l\'option **Edit** dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md). Cela ne fonctionne que pour les objets Draft pris en charge. {{Version/fr|0.21}}
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
 4.  Les objets sélectionnés sont marqués par des nœuds temporaires et le [Panneau principal des tâches](#Panneau_principal_des_t.C3.A2ches.md) s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 5.  En option, utiliser un menu contextuel de nœud ou de bord. Ces menus contextuels ne sont disponibles que pour certains objets Draft. Voir [Objets pris en charge](#Objets_pris_en_charge.md) pour plus d\'informations.
@@ -79,7 +79,7 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 
 -   Si le nœud de début ou de fin d\'un fil ouvert est déplacé de manière à coïncider, le fil est fermé.
 -   Menu contextuel du noeud : {{Value|Delete point}}. Il doit rester au moins deux points.
--   Menu contextuel de l\'arête : {{Value|Add point}}, {{Value|Close/Open wire}} ({{Version/fr|1.0}}) et {{Value|Reverse wire}} ({{Version/fr|0.20}}).
+-   Menu contextuel de l\'arête : {{Value|Add point}}, {{Value|Close/Open wire}} ({{Version/fr|0.21}}) et {{Value|Reverse wire}} ({{Version/fr|0.20}}).
 
 
 
@@ -121,7 +121,7 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 
 -   Si le nœud de début ou de fin d\'une spline ouverte est déplacé de façon à ce qu\'ils coïncident, la spline est fermée.
 -   Menu contextuel du nœud : {{Value|Delete point}}. Pour une spline ouverte, il doit rester au moins deux points. Pour une spline fermée, le nombre minimum de points est de trois.
--   Menu contextuel de l\'arête : {{Value|Add point}}, {{Value|Close/Open spline}} ({{Version/fr|1.0}}) et {{Value|Reverse spline}} ({{Version/fr|1.0}}).
+-   Menu contextuel de l\'arête : {{Value|Add point}}, {{Value|Close/Open spline}} ({{Version/fr|0.21}}) et {{Value|Reverse spline}} ({{Version/fr|0.21}}).
 
 
 
@@ -129,7 +129,7 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 
 -   Si le nœud de début ou de fin d\'une courbe ouverte est déplacé de façon à ce qu\'ils coïncident, la courbe est fermée.
 -   Menu contextuel du nœud : {{Value|Delete point}}, {{Value|Make sharp}}, {{Value|Make tangent}} et {{Value|Make symmetric}}.
--   Menu contextuel de l\'arête : {{Value|Add point}}, {{Value|Close/Open curve}} ({{Version/fr|1.0}}) et {{Value|Reverse curve}} ({{Version/fr|1.0}}).
+-   Menu contextuel de l\'arête : {{Value|Add point}}, {{Value|Close/Open curve}} ({{Version/fr|0.21}}) et {{Value|Reverse curve}} ({{Version/fr|0.21}}).
 
 
 
@@ -219,7 +219,7 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   La couleur des nœuds temporaires est la même que celle des symboles d\'accrochage. Cette couleur peut être modifiée dans les préférences : **Edition → Préférences... → Draft → Paramètres visuels → Paramètres visuels → Couleur**. Notez que cette couleur n\'est pas utilisée pour les nœuds temporaires affichés pour les [Draft Courbes de Bézier](Draft_BezCurve/fr.md). Ces noeuds utilisent la {{PropertyView/fr|Line Color}} de la courbe à la place.
+-   La couleur des nœuds temporaires est la même que celle des symboles d\'accrochage. Cette couleur peut être modifiée dans les préférences : **Édition → Préférences... → Draft → Paramètres visuels → Paramètres visuels → Couleur**. Notez que cette couleur n\'est pas utilisée pour les nœuds temporaires affichés pour les [Draft Courbes de Bézier](Draft_BezCurve/fr.md). Ces noeuds utilisent la {{PropertyView/fr|Couleur de ligne}} de la courbe à la place.
 
 
 

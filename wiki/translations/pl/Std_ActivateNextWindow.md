@@ -14,7 +14,7 @@
 
 ## Opis
 
-Polecenie **Następne** aktywuje następne okno w [Głównym obszarze widoku](Main_view_area.md). Następne okno jest określane na podstawie kolejności, w jakiej okna obszaru widoku głównego były ostatnio aktywowane.
+Polecenie **Następne** aktywuje następne okno w [Głównym obszarze widoku](Main_view_area/pl.md). Kolejne okno jest określane na podstawie kolejności zakładek w obszarze widoku głównego.
 
 
 

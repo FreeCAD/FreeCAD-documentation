@@ -1,11 +1,15 @@
 # TechDraw LineGroup/de
 {{TOCright}}
 
-## Übersicht
+
+
+## Beschreibung
 
 Liniengruppen werden verwendet, um die Darstellung verschiedener Linienarten zu steuern.
 
-### Anwendung
+
+
+## Anwendung
 
 1.  Zum Reiter *[Anmerkung](TechDraw_Preferences/de#Anmerkung.md)* der Einstellungen wechseln.
 2.  Im Feld **Liniengruppe** eine Liniengruppe auswählen. Dies sind die Gruppen, die in der CSV-Datei LineGroup definiert sind.
@@ -15,9 +19,11 @@ Zum ändern der Liniengruppendatei
 1.  Zum Reiter *[Allgemein](TechDraw_Preferences/de#Allgemein.md)* der Einstellungen wechseln.
 2.  Im Feld **Liniengruppendatei** eine Liniengruppendatei auswählen.
 
-### Liniengruppen anpassen 
 
-Wenn man Schreibberechtigung hat, kann man `LineGroup.csv` bearbeiten, um eigene Liniengruppen hinzuzufügen.
+
+## Liniengruppen anpassen 
+
+Wenn man Schreibberechtigung besitzt, kann man `LineGroup.csv` bearbeiten, um eigene Liniengruppen hinzuzufügen.
 
 Diese Datei befindet sich normalerweise in:
 
@@ -34,6 +40,8 @@ Dabei ist `$INSTALL_DIR` das Verzeichnis, in dem FreeCAD installiert wurde, z.B.
 ```
 
 Die eigenen bevorzugten Standardeinstellungen können in den [TechDraw Einstellungen](TechDraw_Preferences/de.md) angeben werden.
+
+
 
 ## Pfad der LineGroup-Datei 
 
@@ -62,6 +70,8 @@ Hinweis: Eine neue Einstellung wurde hinzugefügt, die es erlaubt, eine eigene p
 *FC 0.70mm,0.35,0.50,0.70,1.4
 *FC 1.00mm,0.50,0.70,1.00,2.00
 ```
+
+
 
 ## Hinweis
 

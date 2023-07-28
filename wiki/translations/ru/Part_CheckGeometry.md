@@ -8,9 +8,13 @@
 
 # Part CheckGeometry/ru
 
+
+
 ## Описание
 
 Инструмент **<img src="images/Part_CheckGeometry.svg" width=16px> [Проверка геометрии](Part_CheckGeometry.md)** выполняет проверку и сообщает, является ли геометрическая форма допустимым твердым телом. Инструмент проверяет, является ли допустимым [граничное представление](https://en.wikipedia.org/wiki/Boundary_representation) (BRep или [B-rep](Глоссарий#B.md)) модели.
+
+
 
 ## Применение
 
@@ -22,6 +26,8 @@
 
 Results will be reported in the [Task panel](Task_panel.md). If the check produced errors: click in the report on a specific error message and the corresponding geometric object (edge, face, etc.) will be highlighted in the [3D view](3D_view.md).
 
+
+
 ## Опции
 
 ### Skip settings page 
@@ -30,11 +36,13 @@ If ticked, subsequent invocations of the tool skip showing the **Settings** task
 
 ### Run BOP check 
 
-If ticked, additionally a Boolean OPerations (BOP) check is performed. <small>(v0.19)</small> 
+If ticked, additionally a Boolean OPerations (BOP) check is performed.
 
 ### Log errors 
 
-If ticked, any errors found are also logged in the [report view](Report_view.md). <small>(v0.19)</small> 
+If ticked, any errors found are also logged in the [report view](Report_view.md).
+
+
 
 ## Определение характеристик формы 
 
@@ -58,6 +66,8 @@ If ticked, any errors found are also logged in the [report view](Report_view.md)
     -   Третья ось инерции
     -   Радиус вращения
     -   Глобальное размещение
+
+
 
 ## Примечания
 

@@ -1,39 +1,46 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Part Defeaturing
-   MenuLocation:Part → Defeaturing
-   Workbenches:[Part](Part_Workbench.md)
+   Name/pl:Część: Usuwanie cech
+   MenuLocation:Część → Usuwanie cech
+   Workbenches:[Część](Part_Workbench/pl.md)
    Version:0.18
-   SeeAlso:[Defeaturing Workbench](Defeaturing_Workbench.md), [Macro Parametric Defeaturing](Macro_Parametric_Defeaturing.md)
+   SeeAlso:[środowisko Upraszczanie](Defeaturing_Workbench/pl.md), [makrodefinicja: Upraszczanie parametryczne](Macro_Parametric_Defeaturing/pl.md)
 ---
 
 # Part Defeaturing/pl
 
-## Description
 
-The **Defeaturing** tool is intended for removal of selected features from the model. In this context, features are meant as holes, protrusions, gaps, chamfers, fillets etc. found on the model.
 
-The defeaturing tool can be very useful in different contexts:
+## Opis
 
--   To edit an imported solid where no history of operations is available.
--   Fixing defects in the model, e.g. filling gaps, holes etc.
--   Model simplification for numeric analysis, display on mobile devices, etc.
+Narzędzie **Usuwanie cech** jest przeznaczone do usuwania wybranych cech z modelu. W tym kontekście przez cechy rozumie się otwory, występy, szczeliny, fazy, zaokrąglenia itp. znajdujące się w modelu.
 
-The removed features are filled by the extension of the adjacent faces, thus no unexpected parts should appear in the result. Please note that the result is a new shape that is not linked to the original; thus, it is non-parametric.
+Narzędzie Usuwanie cech może być bardzo przydatne w różnych kontekstach:
 
-To be available, this tool requires FreeCAD to be based on Open Cascade 7.3.0 or greater. If it is not available in your version of FreeCAD, you may have a look at the [Defeaturing Workbench](Defeaturing_Workbench.md) add-on, which proposes similar functionality even with older versions of OCC or FreeCAD.
+-   Edycja zaimportowanej bryły, w przypadku której nie jest dostępna historia operacji.
+-   Usuwanie defektów w modelu, np. wypełnianie szczelin, otworów itp.
+-   Uproszczenie modelu na potrzeby analizy numerycznej, wyświetlania na urządzeniach mobilnych itp.
+
+Usunięte elementy są wypełniane przez przedłużenie sąsiednich ścian, więc w wyniku nie powinny pojawić się żadne nieoczekiwane części. Należy pamiętać, że wynikiem jest nowy kształt, który nie jest powiązany z oryginałem; dlatego jest nieparametryczny.
+
+Aby to narzędzie było dostępne, FreeCAD musi być oparty na Open Cascade **7.3.0** lub nowszym. Jeśli nie jest ono dostępne w twojej wersji FreeCAD, możesz rzucić okiem na zewnętrzne środowisko pracy [Upraszczanie](Defeaturing_Workbench/pl.md), który proponuje podobną funkcjonalność nawet w starszych wersjach OCC lub FreeCAD.
 
 ![](images/Part_Defeaturing_example.png )
 
-## Usage
 
-1.  Select the face(s) on the model to remove.
-2.  Press the **<img src="images/Part_Defeaturing.svg" width=16px> [Defeaturing](Part_Defeaturing.md)** button.
-3.  A new object is created labeled *Defeatured* in the Model [tree view](Tree_view.md), and the original object is hidden from view.
 
-## Links
+## Użycie
 
--   [3D Model Defeaturing](https://dev.opencascade.org/index.php?q=node/1211), the official announcement on the Open Cascade collaborative development portal.
+1.  Wybierz ściany na modelu do usunięcia.
+2.  Naciśnij przycisk **<img src="images/Part_Defeaturing.svg" width=16px> '''Usuwanie cech'''**.
+3.  Zostanie utworzony nowy obiekt oznaczony jako *Uproszczony* w [widoku drzewa](Tree_view/pl.md) modelu, a oryginalny obiekt zostanie ukryty.
+
+
+
+## Odnośniki internetowe 
+
+-   [3D Model Defeaturing](https://dev.opencascade.org/index.php?q=node/1211), oficjalne ogłoszenie na wspólnym portalu deweloperskim Open Cascade.
 
 
 

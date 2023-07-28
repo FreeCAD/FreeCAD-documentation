@@ -3,13 +3,13 @@
 
 
 
-## Présentation
+## Description
 
-Les Groupes de lignes sont utilisés pour contrôler l\'apparence de différents types de lignes.
+**TechDraw Groupes de lignes** est utilisé pour contrôler l\'apparence de différents types de lignes.
 
 
 
-### Utilisation
+## Utilisation
 
 1.  Allez dans l\'onglet des préférences *[Annotation](TechDraw_Preferences/fr#Annotation.md)*.
 2.  Sélectionnez dans le champ **Epaisseur de la ligne dans le groupe** un groupe de lignes (LineGroup). Ce sont les groupes définis dans le fichier csv de définition des groupes de lignes.
@@ -21,7 +21,7 @@ Pour modifier le fichier de définition LineGroups
 
 
 
-### Personnaliser des groupes de lignes 
+## Personnaliser des groupes de lignes 
 
 Si vous avez les droits en écriture, vous pouvez modifier `LineGroup.csv` pour ajouter vos propres groupes de lignes.
 

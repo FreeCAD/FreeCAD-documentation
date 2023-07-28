@@ -97,6 +97,8 @@ Pozor: v závislosti na velikosti obrázku může být projekt velmi velký! pro
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Rozhraní
@@ -267,6 +269,8 @@ Začátek hodnoty operace se automaticky přizpůsobí zvolené funkci: 0, pokud
 
 </div>
 
+
+
 ## Skript
 
 The icons .png <img alt="" src=images/FCTexture.png  style="width:64px;"> and .svg<img alt="" src=images/FCTexture.svg  style="width:64px;">
@@ -274,6 +278,8 @@ The icons .png <img alt="" src=images/FCTexture.png  style="width:64px;"> and .s
 **Macro_Texture.FCMacro**
 
 Stáhněte makro k obsahu [Macro FCTexture.FCMacro](https://gist.github.com/mario52a/262317bc7d8555885b0e)
+
+
 
 ## Příklad
 
@@ -397,6 +403,8 @@ Macro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Mac
 [apply hair cell texture](http://forum.freecadweb.org/viewtopic.php?f=3&t=4708&start=10#p46353)
 
 [How to handle pdf import properly and feasibly?](http://forum.freecadweb.org/viewtopic.php?f=3&t=6123&hilit=teobo&start=10#p49024)
+
+
 
 ## Revize
 

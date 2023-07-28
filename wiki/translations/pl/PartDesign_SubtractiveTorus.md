@@ -1,49 +1,58 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign SubtractiveTorus
-   MenuLocation:Part Design → Create a subtractive primitive → Subtractive Torus
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Subtraktywny torus
+   MenuLocation:Projekt Części → Utwórz cechę przez odjęcie → Subtraktywny torus
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign AdditiveTorus](PartDesign_AdditiveTorus.md)
+   SeeAlso:[Komponent bryła pierwotna do odjęcia](PartDesign_CompPrimitiveSubtractive/pl.md), [Addytywny torus](PartDesign_AdditiveTorus/pl.md)
 ---
 
 # PartDesign SubtractiveTorus/pl
 
-## Description
 
-Inserts a subtractive torus in the active Body. Its shape is subtracted from the existing solid.
 
-![](images/PartDesign_SubtractiveTorus_example.svg ) *On the left: active body (A) shown in grey and subtractive torus (B) shown in transparent red; result on the right.*
+## Opis
 
-## Usage
+Funkcja ta wstawia pierwotny torus odejmowany od aktywnej Zawartości. Jego kształt jest odejmowany od istniejącej bryły.
 
-1.  Press the **<img src="images/PartDesign_SubtractiveTorus.svg" width=24px> '''Subtractive Torus'''** button. **Note**: the Subtractive Torus is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get the Torus, click on the down arrow besides the visible icon and select Subtractive Torus in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  A Torus feature appears under the active Body.
+![](images/PartDesign_SubtractiveTorus_example.svg ) *Po lewej: aktywna zawartość (A) pokazana w kolorze szarym i torus do odjęcia (B) pokazany w kolorze czerwonym z przeźroczystością. Wynik po prawej*.
 
-## Options
 
-The Torus can be edited after its creation in two ways:
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
+## Użycie
 
-## Properties
+1.  Naciśnij przycisk **<img src="images/PartDesign_SubtractiveTorus.svg" width=24px> '''Subtraktywny torus'''**. **Uwaga**: Subtraktywny torus jest częścią menu narzędzi o nazwie **Utwórz bryłę pierwotną do odjęcia**. Po uruchomieniu programu FreeCAD, Subtraktywny prostopadłościan wyświetlany jest na pasku narzędzi domyślnie. Aby przejść do funkcji Torus, kliknij strzałkę w dół na widocznej ikonce i wybierz z menu opcję Subtraktywny torus.
+2.  Ustaw parametry bryły i [dołączenia](Part_EditAttachment/pl.md).
+3.  Kliknij **OK**.
+4.  Pod aktywnym obiektem Zawartość pojawi się element Torus.
 
--    **Attachment**: defines the attachment mode as well as the Attachment Offset. See [Part EditAttachment](Part_EditAttachment.md).
 
--    **Label**: Label given to the Torus object. Change to suit your needs.
 
--    **Radius1**: Radius of the imaginary orbit around which the circular cross-section revolves. (The distance between the center of the torus and the center of the revolving cross section)
+## Opcje
 
--    **Radius2**: Radius of the circular cross-section defining the form of the torus.
+Torus można edytować po jego utworzeniu na dwa sposoby:
 
--    **Angle1**: (labelled *V parameter* in the Primitive parameters) lower truncation of the torus, parallel to the circular cross section (-180° in a full torus). A bug in the sources causes unexpected results at changing Angle1.
+-   Klikając go dwukrotnie w drzewie modelu lub klikając prawym przyciskiem myszy i wybierając **Edytuj bryłę pierwotną** z menu podręcznego. Spowoduje to wyświetlenie parametrów bryły pierwotnej.
+-   Poprzez [Edytor właściwości](Property_editor/pl.md).
 
--    **Angle2**: (unlabelled in the Primitive parameters) upper truncation of the ellipsoid, parallel to the circular cross section (180° in a full torus). A bug in the sources causes unexpected results at changing Angle2.
 
--    **Angle3**: (labelled *U parameter* in the Primitive parameters) angle of rotation of the circular cross section (360° in a full torus).
+
+## Właściwości
+
+-    **Dołączenie**: definiuje tryb dołączania, a także przesunięcie dołączania. Zobacz też [Część: Edycja mocowania](Part_EditAttachment/pl.md).
+
+-    **Etykieta**: Etykieta nadana obiektowi Stożka. Zmień zgodnie z własnymi potrzebami.
+
+-    **Promiień1**: Promień umownej orbity, wokół której obraca się przekrój kołowy. *(Odległość między środkiem torusa a środkiem obracającego się przekroju)*
+
+-    **Promiień2**: Promień okrągłego przekroju definiującego kształt torusa.
+
+-    **Kąt1**: *(oznaczony jako **parametr V** w parametrach Prymitywu)* dolne obcięcie torusa, równoległe do przekroju kołowego *(-180° w pełnym torusie)*. Błąd w źródłach powoduje nieoczekiwane wyniki przy zmianie parametru Kąt1.
+
+-    **Kąt2**: *(nieoznaczone w parametrach Prymitywu)* górne obcięcie elipsoidy, równoległe do przekroju kołowego *(180° w pełnym torusie)*. Błąd w źródłach powoduje nieoczekiwane wyniki przy zmianie parametru Kąt2.
+
+-    **Kąt3**: *(oznaczony jako **parametr U** w parametrach Prymitywu)* kąt obrotu przekroju kołowego *(360° dla pełnego torusa)*.
 
 
 

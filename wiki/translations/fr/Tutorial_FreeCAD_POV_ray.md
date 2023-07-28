@@ -33,12 +33,15 @@ Ce tutoriel est basé sur le post de forum créé par schupin [FreeCAD / pov ray
 
 Les fichiers utilisés dans ce tutoriel sont au post #8 [du fil en question](https://forum.freecadweb.org/viewtopic.php?f=36&t=32745#p305169).
 
+
+
 ## Configuration de base 
 
 Suivez les étapes de base décrites dans la documentation du [Module Raytracing](Raytracing_Workbench/fr.md).
 
 Pour que le rendu direct fonctionne, l\'exécutable `povray` doit être défini dans **Edition → Préférences → Raytracing → Render → Exécutable POV-Ray**. Définissez son emplacement dans votre système, par exemple `/usr/bin/povray`. D\'autres options utilisées par le renderer peuvent également être définies ici comprenant la largeur `+W` et la hauteur `+ H` de l\'image ainsi que l\'utilisation de l\'antialiasing `+ A} }.
 
+<span id="Setup_the_.pov_file"></span>
 ==Mise en place du fichier .pov==
 
 1. Créez un assemblage à l'aide de corps à partir de l'[Atelier Part](Part_Workbench/fr.md) ou [Atelier PartDesign](PartDesign_Workbench/fr.md) ou de tout autre atelier générant des objets solides par exemple [Atelier Arch](Arch_Workbench/fr.md). Attribuez des couleurs ou des matériaux aux corps individuels qui composent l'assemblage correspondant approximativement à la couleur souhaitée dans votre rendu. 
@@ -102,6 +105,7 @@ Si l'image rendue est assez bonne alors elle peut être enregistrée et il n'y a
 
 Dans les sections suivantes, nous modifions le fichier de base `.pov` produit avec le modèle `ProjectStd`.
 
+<span id="Editing_the_.pov_file"></span>
 ==Editer le fichier .pov==
 
 9. Le fichier `.pov` généré par FreeCAD est un simple fichier texte pouvant être ouvert avec n'importe quel éditeur. Cela ressemble vaguement à un fichier de code source C ++: les directives commencent par un hash `#` et se terminent par un point-virgule `;`. Les accolades <code>{ }</code> sont utilisées pour limiter les blocs de section et l'indentation est un espace blanc arbitraire. Les commentaires sont indiqués par une double barre oblique `//`. Les commentaires de bloc peuvent être définis avec une paire de `/*  */` comme en C.
@@ -201,6 +205,7 @@ light_source {
 </div>
 </div>
 
+<span id="Basic_re-organization"></span>
 === Ré-organisation basique ===
 
 10. Ouvrez le fichier `.pov` avec un éditeur de texte, allez à la fin du fichier, sélectionnez et coupez la section `light_source` puis collez-la avant la première ligne `//face number1`.
@@ -233,6 +238,7 @@ light_source {
 .
 ```
 
+<span id="Prepare_lights"></span>
 === Modifier les lumières ===
 
 11. Par défaut, le fichier de projet définit une lumière avec une position et une couleur.
@@ -287,6 +293,7 @@ sky_sphere {
 
 *align=center|A partir du modèle standard, rendu de la scène avec POV-Ray avec la source de lumière et sky sphere configurées.*
 
+<span id="Prepare_the_body_textures"></span>
 === Modifier les textures des corps ===
 
 13. Les textures de chaque corps doivent être ajustées. Il s’agit de la tâche la plus longue de ce processus.
@@ -324,6 +331,8 @@ Comme indiqué dans le commentaire, la définition de `StdFinish` figure en haut
 
 En général, une `texture` est un conteneur qui décrit un matériau. Elle comprend des informations comme `pigment` (couleur ou graphique), `normal` (comment la couleur change avec la courbure de la surface), `finish` (interaction de la surface avec la lumière), `pattern` (agate, brique, bosses, léopard, radial, ondulations, mosaïque, vagues, bois, etc.) et d'autres propriétés. Il existe de nombreuses options qui peuvent être combinées pour produire une texture. Ce mélange n'est pas anodin, mais il existe de nombreux exemples en ligne pour obtenir l'aspect souhaité du matériau.
 
+
+
 #### Librairies de matériaux 
 
 14\. POV-Ray est livré avec une vaste bibliothèque de matétiaux pouvant être utilisés nommément. Par défaut, le modèle de projet rend disponibles certains matériaux en utilisant des instructions `#include` au début du fichier. Ces matériaux peuvent être encore modifiés à volonté. 
@@ -338,6 +347,8 @@ Les bibliothèques standard sont situées dans le répertoire d\'installation de
 ```python
 /usr/share/povray-3.7/include/
 ```
+
+
 
 #### Nouvelles textures 
 
@@ -406,6 +417,8 @@ object {Pov_Body001
 
 
 *align=center|A partir du modèle standard, rendu de la scène avec POV-Ray avec la source de lumière et sky sphere configurées.*
+
+
 
 ### Préparation des plans 
 
@@ -508,6 +521,8 @@ plane {
 
 
 *align=center|A partir du modèle standard, le rendu de la scène avec POV-Ray, avec la source de lumière et sky sphere configurée, des matériaux assignés, un plan d'étage avec une texture de parquet et des murs arrière avec des textures de cloison sèche.*
+
+
 
 ### Préparation des paramètres globaux, de la radiosité 
 
@@ -644,6 +659,8 @@ Le [Module Raytracing](Raytracing_Workbench/fr.md) a trois modèles par défaut:
 -    `RadiosityNormal.pov`utilise le préréglage `Radiosity_Normal`.
 
 -    `RadiosityOutdoorHQ.pov`utilise le préréglage `Radiosity_OutdoorHQ`.
+
+
 
 ## Rendu final 
 
@@ -838,6 +855,8 @@ light_source {
 
 </div>
 
+
+
 ## Notes Finales 
 
 POV-Ray est un logiciel relativement ancien, publié pour la première fois au début des années 90. Ses principaux avantages par rapport aux logiciels plus modernes:
@@ -854,9 +873,11 @@ Il est conseillé à l\'utilisateur de lire la documentation de POV-Ray, ainsi q
 -   [POV-Ray Reference](http://www.povray.org/documentation/3.7.0/r3_0.html)
 
 
- {{Raytracing Tools navi}}
+{{Raytracing Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Raytracing](Category_Raytracing.md) > Tutorial FreeCAD POV ray/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Tutorial FreeCAD POV ray/fr

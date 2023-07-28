@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/fr
    Name:Sketcher SelectVerticalAxis
-   Name/fr:Sketcher Sélection axe vertical
+   Name/fr:Sketcher Axe vertical
    MenuLocation:Esquisse → Outils d'esquisse → Sélectionner l'axe vertical
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**Z** **V**

@@ -21,17 +21,12 @@ Abhängig vom Betriebssystem und dem Installationspaket kann Gmsh in FreeCAD ent
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle die Form, die du analysieren möchtest. Bei der Volumen FEM muss es sich um einen Festkörper oder Compsolid (zusammengesetzten Festkörper) handeln. Ein Compsolid ist erforderlich, wenn dein Teil aus mehreren Materialien besteht. (Ein Compsolid kann mit dem Befehl [BoolscheFragmente](Part_BooleanFragments/de.md) erstellt werden). \-- Für die Schalen- und Balken FEM muss jemand die Details hier eintragen.
-2.  Drücke den **<img src="images/FEM_MeshGmshFromShape.png" width=32px> [FEM Netz aus Form durch GMSH](FEM_MeshGmshFromShape/de.md)** Schaltfläche
-3.  Bearbeite wahlweise die minimale und maximale Elementgröße . (Automatische Erkennung funktioniert gut, es sei denn, du wendest komplizierte Randbedingungen an).
-4.  Klicke die **Anwenden** Schaltfläche und warte, bis die Berechnung des Netzes abgeschlossen ist
-5.  Schließe die Aufgabe. Du solltest jetzt ein neues FEMMeshGMSH Objekt in deinem aktiven Analysebehälter sehen.
-
-
-</div>
+1.  Wähle die Form, die du analysieren möchtest. Bei der Volumen FEM muss es sich um einen Festkörper oder Compsolid (zusammengesetzten Festkörper) handeln. Ein Compsolid ist erforderlich, wenn dein Teil aus mehreren Materialien besteht. (Ein Compsolid kann mit dem Befehl [BoolescheFragmente](Part_BooleanFragments/de.md) erstellt werden).
+    -   Die Schaltfläche **<img src="images/FEM_MeshGmshFromShape.svg" width=16px> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape/de.md)** drücken.
+    -   Den Menüeintrag **Netz → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> FEM mesh from shape by Gmsh** auswählen.
+2.  Bei Bedarf minimale und maximale Elementgröße anpassen. (Automatische Erkennung funktioniert gut, es sei denn, du wendest komplizierte Randbedingungen an).
+3.  Die Schaltfläche **Anwenden** anklicken und warten, bis die Berechnung des Netzes abgeschlossen ist.
+4.  Die Aufgabe abschließen. Jetzt sollte sich ein neues FEMMeshGMSH-Objekt im aktiven Analysebehälter befinden.
 
 After the mesh has been crated you can change its properties using the [property editor](Property_editor.md). After you changed a property, you must reopen the Gmsh dialog again and click the **Apply** button. (You can leave the dialog open while changing properties.)
 

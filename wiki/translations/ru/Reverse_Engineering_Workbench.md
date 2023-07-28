@@ -1,10 +1,29 @@
-# <img alt="Логотип верстака обратной разработки" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> Reverse Engineering Workbench/ru
+# Reverse Engineering Workbench/ru
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+<img alt="Логотип верстака обратной разработки" src=images/Workbench_Reverse_Engineering.svg  style="width:128px;">
+
+
 
 ## Введение
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:24px;"> [Верстак Reverse Engineering (обратной разработки)](Reverse_Engineering_Workbench/ru.md) предназначен для предоставления специальных инструментов для преобразования форм, твёрдых тел и сеток в параметрические элементы FreeCAD. Он всё ещё находится в стадии разработки.
 
+
+</div>
+
 На данный момент в этом верстаке нет **НИКАКОЙ** функциональности. Он используется как \"песочница\" для программистов.
+
+
 
 ## Инструменты
 
@@ -12,9 +31,20 @@
 
 -   <img alt="" src=images/FitSurface.svg  style="width:32px;"> Аппроксимация поверхности B-сплайна:
 
+
+
 ## Разработка
 
 Ссылка на соответствующие темы, обсуждающие этот верстак
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

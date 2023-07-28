@@ -1,22 +1,27 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher DeleteAllConstraints
-   MenuLocation:Sketch → Sketcher tools → Delete all constraints
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Usuń wszystkie wiązania
+   MenuLocation:Szkic → Narzędzia szkicownika → Usuń wszystkie wiązania
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Version:0.18
-   SeeAlso:[Sketcher Delete All Geometry](Sketcher_DeleteAllGeometry.md)
+   SeeAlso:[Usuń wszystkie geometrie](Sketcher_DeleteAllGeometry/pl.md)
 ---
 
 # Sketcher DeleteAllConstraints/pl
 
-## Description
 
-This tool deletes all constraints from the sketch being edited, and leaves the geometry intact.
 
-## Usage
+## Opis
 
-1.  Go to the **Sketch → Sketcher tools → [<img src=images/Sketcher_DeleteAllConstraints.svg style="width:16px"> Delete all constraints** menu.
-2.  Reply **Yes** to the dialog pop up.
+To narzędzie usuwa wszystkie wiązania z edytowanego szkicu, a geometrię pozostawia nienaruszoną.
+
+
+
+## Użycie
+
+1.  Przejdź do menu **Szkic → Narzędzia szkicownika → [<img src=images/Sketcher_DeleteAllConstraints.svg style="width:16px"> Usuń wszystkie wiązania**.
+2.  Odpowiedz **Tak** w oknie dialogowym.
 
 
 

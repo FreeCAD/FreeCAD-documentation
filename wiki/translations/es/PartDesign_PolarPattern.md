@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -30,6 +32,8 @@ La herramienta **Patrón polar** crea copias de una operación girando alrededor
 
 
 </div>
+
+
 
 ## Uso
 
@@ -52,6 +56,8 @@ La herramienta **Patrón polar** crea copias de una operación girando alrededor
     -   Right-click the PolarPattern object in the [Tree view](Tree_view.md) and select **Edit PolarPattern** from the context menu.
 2.  The **PolarPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 3.  Press the **OK** button to finish.
+
+
 
 ## Opciones
 
@@ -113,6 +119,8 @@ La herramienta **Patrón polar** crea copias de una operación girando alrededor
 -   If the **Update view** checkbox is checked the view will update in real time.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Ordenar operaciones 
@@ -120,10 +128,12 @@ La herramienta **Patrón polar** crea copias de una operación girando alrededor
 
 </div>
 
-If some of the selected features are additive and others subtractive, their order can have have an impact on the final result. You can change the order by dragging individual features in the list. <small>(v0.19)</small> 
+If some of the selected features are additive and others subtractive, their order can have have an impact on the final result. You can change the order by dragging individual features in the list.
 
 ![](images/PartDesign_feature-order.gif ) 
 *Efecto del orden de operaciones*
+
+
 
 ## Limitaciones
 

@@ -5,14 +5,8 @@ O FreeCAD oferece suporte a dispositivos especializados de entrada, como mouses 
 
 ## Hardware suportado 
 
-
-<div class="mw-translate-fuzzy">
-
--   3Dconnexion [SpaceNavigator](http://www.3dconnexion.com/products/spacenavigator.html)
+-   3Dconnexion [SpaceMouse](https://3dconnexion.com/spacemouse/)
 -   Instruções de instalação: [Dispositivos de entrada 3D connexion](3Dconnexion_input_devices.md)
-
-
-</div>
 
 [category:Documentation](category_Documentation.md)
 

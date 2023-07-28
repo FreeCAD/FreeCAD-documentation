@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Описание
 
 Adds a clipping plane for the whole model view. All visible objects will be cut by it, no matter if these are geometric models, meshes or result pipelines.

@@ -1,25 +1,25 @@
 # Continuous Integration/it
 {{TOCright}}
 
-## Integrazione Continua 
 
-Attualmente il repository di FreeCAD su GitHub attiverà una build sui due sistemi CI seguenti. Tra questi sistemi sono coperti praticamente tutti i principali sistemi operativi multipiattaforma Linux, MacOSX e Windows. Gli elementi della configurazione possono essere utilizzati anche per eseguire [unità test](Testing/it.md).
 
-### TravisCI
+## Integrazione continua 
 
-<img alt="sinistra" src=images/Travis-logo.png  style="width:50px;"> Test su Linux e OSX. Il file di configurazione si chiama [.travis.yml](https://github.com/FreeCAD/FreeCAD/blob/master/.travis.yml) e si trova nella directory principale di FreeCAD. Per visualizzare le build attuali e passateː <https://travis-ci.com/FreeCAD/FreeCAD/builds>
+Attualmente il repository di FreeCAD su GitHub attiverà una build su diversi sistemi CI. Tra questi sistemi sono coperti praticamente tutti i principali sistemi operativiː Linux, macOS e Windows. I CI possono anche essere usati per eseguire [unità test](Testing/it.md).
 
-### Appveyor
 
-<img alt="" src=images/Appveyor.svg  style="width:40px;"> Test su Windows. Il file di configurazione si chiama [appveyor.yml](https://github.com/FreeCAD/FreeCAD/blob/master/appveyor.yml) e si trova nella directory principale di FreeCAD. Per visualizzare le build di Appveyor correnti e precedentiː <https://ci.appveyor.com/project/yorikvanhavre/freecad/history>
 
 ## Suggerimenti
 
+-   Se si aggiunge {{Incode|[skip ci]}} o {{Incode|[ci skip]}} a un commit git, verrà annullata una build CI.
+
 \- Se aggiungi [skip ci] o [ci skip] a un git commit, verrà annullata una build CI.
 
-### Collegamenti rilevanti 
 
--   [LGTM](LGTM.md)
+
+## Link utili 
+
+-   Post sul forum che annuncia nuovi CI: [New CI is yours :)](https://forum.freecad.org/viewtopic.php?p=657956)
 
 
 

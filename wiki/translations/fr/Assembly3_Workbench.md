@@ -385,7 +385,7 @@ Les contraintes Assembly3 définissent les restrictions de position ou d\'orient
 -   Bloque 4 DOF, laisse 2 DOF :
     -   **Axial Alignment** : bloque Tx, Ty, Rx, Ry. Seuls Tz, Rz sont libres. Reste la rotation autour de l\'axe de la forme et la translation le long de ce même axe. Deux contraintes «PointOnLine» (si les deux points sont différents) donnent le même résultat. La contrainte «Colinear» aussi.
     -   **PointOnLine** : Ceci élimine la translation et la rotation le long des normales à la ligne de référence. Seules la translation et la rotation le long de l\'axe de la ligne sont autorisées.
--   Bloque 3 DOF, laisse 3 DOF:
+-   Bloque 3 DOF, laisse 3 DOF :
     -   **Same Orientation** : bloque Rx, Rz, Rz. Tous les T restent libres
     -   **Points Coincident** : bloque Tx, Ty, Tz. Tous les R restent libres
     -   **PointOnPoint** élimine les 3 translations.
@@ -400,7 +400,7 @@ Les contraintes Assembly3 définissent les restrictions de position ou d\'orient
 
 Autre
 
--   **Points on Circle**: bloque Tz et partiellement Tx, Ty. Impose la translation de points (ou plusieurs points) sur un cercle ou une zone de disque. Vous devez choisir le cercle en second. Cela laisse toutes les rotations libres et donne une translation limitée dans le plan de référence du cercle.
+-   **Points on Circle** : bloque Tz et partiellement Tx, Ty. Impose la translation de points (ou plusieurs points) sur un cercle ou une zone de disque. Vous devez choisir le cercle en second. Cela laisse toutes les rotations libres et donne une translation limitée dans le plan de référence du cercle.
 
 *: Remarque : dans la liste suivante, Tx, Ty, Tz et Rx, Ry, Rz sont utilisés pour décrire les translations et les rotations concernant les systèmes de coordonnées de référence des éléments impliqués. Ce n\'est pas toujours exact ou entièrement défini, par ex., lorsqu\'il s\'agit d\'une ligne, elle n\'est pas définie si elle s\'étend en X, Y ou tout angle entre les deux. Le système est utilisé pour la convivialité et la comparaison facile en faveur d\'une définition correcte mais plus complexe. Donc Z est généralement la direction normale de toutes les faces impliquées. N\'hésitez pas à modifier cela avec une meilleure approche avec une meilleure lisibilité.*
 
@@ -624,9 +624,10 @@ Une façon de résoudre ce problème consiste simplement à supprimer toutes les
 ## Liens
 
 -   L\'objet [App Link](App_Link/fr.md) qui fait fonctionner Assembly3.
--   [FreeCAD_assembly3](https://github.com/realthunder/FreeCAD_assembly3) dépôt et documentation.
+-   Dépôt et documentation de [FreeCAD_assembly3](https://github.com/realthunder/FreeCAD_assembly3)
 -   [Assembly3 preview](https://forum.freecadweb.org/viewtopic.php?f=20&t=25712), grand fil de discussion.
 -   [Tutoriel pour l\'atelier Assembly 3](http://help-freecad-jpg87.fr/02_ass_ind.php) par jpg87.
+-   Tutoriels sur [Assemblage cinématique](Tutorial_KinematicAssembly/fr.md), [Squelette cinématique](Tutorial_KinematicSkeleton/fr.md), et [Contrôleur cinématique](Tutorial_KinematicController/fr.md).
 -   [État actuel de l\'assemblage](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [Ateliers externes](External_workbenches/fr.md)
 

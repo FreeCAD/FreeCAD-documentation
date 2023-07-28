@@ -1,32 +1,37 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ExtensionCreateObliqueCoordDimension
-   MenuLocation:TechDraw → Extensions: Dimensions → Create Oblique Coordinate Dimensions
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Rozszerzenie Seria wymiarów kaskadowych ukośnie
+   MenuLocation:Rysunek Techniczny → Rozszerzenia: Wymiary → Seria wymiarów ukośnie
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionCreateHorizCoordDimension](TechDraw_ExtensionCreateHorizCoordDimension.md), [TechDraw ExtensionCreateVertCoordDimension](TechDraw_ExtensionCreateVertCoordDimension.md)
+   SeeAlso:[Seria wymiarów kaskadowych poziomo](TechDraw_ExtensionCreateHorizCoordDimension/pl.md), [Seria wymiarów kaskadowych pionowo](TechDraw_ExtensionCreateVertCoordDimension/pl.md)
 ---
 
 # TechDraw ExtensionCreateObliqueCoordDimension/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_ExtensionCreateObliqueCoordDimension.svg  style="width:24px;"> **TechDraw ExtensionCreateObliqueCoordDimension** tool creates oblique coordinate dimensions: multiple evenly spaced dimensions starting from the same baseline.
+
+## Opis
+
+Narzędzie **Seria wymiarów kaskadowych ukośnie** tworzy ukośne wymiary współrzędnych: wiele równomiernie rozmieszczonych wymiarów zaczynających się od tej samej linii bazowej.
 
 <img alt="" src=images/TechDraw_ExtensionCreateObliqueCoordDimensionExample.png  style="width:400px;"> 
-*On the right the created dimensions*
+*Po prawej utworzony ciąg wymiarów*
 
-## Usage
 
-1.  Optionally specify the cascade spacing with the <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) tool.
-2.  Select three or more vertexes.
-3.  The selection order of the first two vertexes determines the position of the baseline. If the vertex that is selected first is to the left of the second, the baseline is created at the leftmost vertex, else it is created at the rightmost vertex.
-4.  The first two vertexes also define the direction.
-5.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionCreateObliqueCoordDimension.svg" width=16px> [TechDraw ExtensionCreateObliqueCoordDimension](TechDraw_ExtensionCreateObliqueCoordDimension.md)** button.
-    -   Select the **TechDraw → Extensions: Dimensions → <img src="images/TechDraw_ExtensionCreateObliqueCoordDimension.svg" width=16px> Create Oblique Coordinate Dimensions** option from the menu.
-6.  Coordinate dimensions with centered dimension texts are created.
+
+## Użycie
+
+1.  Opcjonalnie określ odstęp kaskadowy za pomocą narzędzia <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [Wybierz atrybuty linii](TechDraw_ExtensionSelectLineAttributes/pl.md).
+2.  Wybierz trzy lub więcej wierzchołków.
+3.  Kolejność wyboru pierwszych dwóch wierzchołków określa położenie linii bazowej. Jeśli wierzchołek wybrany jako pierwszy znajduje się na lewo od drugiego, linia bazowa jest tworzona w wierzchołku najbardziej wysuniętym na lewo, w przeciwnym razie jest tworzona w wierzchołku najbardziej wysuniętym na prawo.
+4.  Pierwsze dwa wierzchołki definiują również kierunek.
+5.  Narzędzie można wywołać na kilka sposobów:
+    -   Naciśnięcie przycisku **<img src="images/TechDraw_ExtensionCreateObliqueCoordDimension.svg" width=16px> '''Seria wymiarów kaskadowych ukośnie'''**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Rozszerzenia: Wymiary → <img src="images/TechDraw_ExtensionCreateObliqueCoordDimension.svg" width=16px> Seria wymiarów kaskadowych ukośnie**.
+6.  Tworzone są wymiary współrzędnych z wyśrodkowanymi tekstami wymiarowania.
 
 
 

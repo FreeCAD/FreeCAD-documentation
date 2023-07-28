@@ -43,13 +43,7 @@ Così **per avere il solido completo**, da un lato la caratteristica Tip deve es
 
 Questo permetterà, in caso di modifica, di *avere sempre l\'ultima versione del solido rappresentata*.
 
-
-<div class="mw-translate-fuzzy">
-
 **Note e aggiunte :** In ogni momento della costruzione, l\'ultima funzione utilizzata è il \"Tip (Punta, Cima)\", che può essere definita anche come \"fase attiva nella costruzione dell\'oggetto\" o \"fase che precede l\'azione successiva nella costruzione dell\'oggetto\". Quando il disegno dell\'oggetto è completo, la punta è naturalmente l\'ultima fase o caratteristica della costruzione. Ma se lo si desidera, in caso di dimenticanza, qualsiasi caratteristica della costruzione può essere dichiarata provvisoriamente come Tip: essa diventa allora la tappa che precede l\'azione successiva nella costruzione dell\'oggetto, il che significa che una o più nuove caratteristiche possono essere inserite ovunque nella costruzione, **a condizione di non crearne nessuna incompatibile con la sequenza**.
-
-
-</div>
 
 Quando tutto è finito, bisogna ridichiarare l\'ultima caratteristica come Tip, che corrisponde all\'oggetto finito.
 
@@ -65,23 +59,11 @@ Se Tip su *Pad*, il solido estruso può esistere separatamente, ma se Tip su *Co
 
 ## Le conseguenze 
 
-
-<div class="mw-translate-fuzzy">
-
-Anche se non è raccomandato ai nuovi utenti, è possibile combinare gli strumenti di Part WB e PartDesign WB, purché si sappia cosa si sta facendo. Per esempio :
-
-
-</div>
+Anche se non è raccomandato ai nuovi utenti, è possibile combinare gli strumenti dell\'ambiente Part e dell\'ambiente PartDesign, purché si sappia cosa si sta facendo. Per esempio :
 
 Le persone vengono colte di sorpresa quando tentano di usare qualche caratteristica sotto il corpo (piuttosto che il corpo stesso) come una selezione di un\'operazione booleana nell\'ambiente Part. Questo è un problema, perché la caratteristica selezionata non rappresenta **IL** solido completo.
 
-
-<div class="mw-translate-fuzzy">
-
 In un certo senso, dal punto di vista dell\'ambiente Part, il corpo rappresenta un\'altra primitiva. Quindi, si puoò usare un corpo (ricordate che è un proxy per la punta) e un oggetto Part per fare un operazione booleana. Ma l\'oggetto risultante è un oggetto dell\'ambiente Part. E quindi gli strumenti dell\'ambiente PartDesign non possono più essere usati.
-
-
-</div>
 
 E può diventare ancora più complicato. Se si crea un nuovo corpo e vi si trascina il risultato del paragrafo precedente, si crea un BaseObject. E su questo si può andare ad usare gli strumenti dell\'ambiente PartDesign.
 
@@ -105,25 +87,13 @@ Vedere la pagina <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24
 
 ## Confronto
 
-
-<div class="mw-translate-fuzzy">
-
 Potete vedere qui sotto lo stesso esempio costruito con ciascuno dei due ambienti di lavoro. Naturalmente, ci sono sempre diversi tempi di costruzione possibili con ogni ambiente di lavoro. ![Confronto tra costruzioni realizzate con gli ambienti Part e PartDesign](images/PartWBvsPartDesignWBexample.jpg )
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
   Nell\'ambiente <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> PartDesign                                                                                Nell\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> Part
    
-  01- <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> Crea Corpo \> <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Crea uno schizzo sul piano XZ   01- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Sketcher WB \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Crea uno schizzo sul piano XZ
+  01- <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> Crea Corpo \> <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Crea uno schizzo sul piano XZ   01- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Ambiente Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Crea uno schizzo sul piano XZ
   ![](images/01sketchXZ_PartWBvsPartDesignWBn.jpg )                                                                                              ![](images/01Psketch_PartWBvsPartDesignWBn.jpg )
                                                                                                                                                                                 
-
-
-</div>
 
    
   02- <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> Rivoluzione (Ambiente Part Design) / Z   02- <img alt="" src=images/Part_Revolve.svg  style="width:32px;"> Rivoluzione (Ambiente Part) / Z
@@ -131,17 +101,11 @@ Potete vedere qui sotto lo stesso esempio costruito con ciascuno dei due ambient
                                                                                                                       
    
 
-
-<div class="mw-translate-fuzzy">
-
    
   03- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Nuovo schizzo nel piano XY   03- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Ambiente Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Nuovo schizzo nel piano XY
   ![](images/03sketchXY_PartWBvsPartDesignWBn.jpg )                  ![](images/03sketchXY_PartWBvsPartDesignWBn.jpg )
                                                                                                     
    
-
-
-</div>
 
    
   04- <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> Tasca       04a- <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> Estrusione
@@ -155,17 +119,11 @@ Potete vedere qui sotto lo stesso esempio costruito con ciascuno dei due ambient
                                                                                  
    
 
-
-<div class="mw-translate-fuzzy">
-
    
   05- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Nuovo schizzo nel piano XZ   05- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Ambiente Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Nuovo schizzo nel piano XZ
   ![](images/05sketchXZ_PartWBvsPartDesignWB.jpg )                    ![](images/05PsketchXZ_PartWBvsPartDesignWB.jpg )
                                                                                                     
    
-
-
-</div>
 
    
   06- <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> Prisma simmetrico al piano XZ   06a- <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> Estrudi simmetrico al piano XZ
@@ -185,17 +143,11 @@ Potete vedere qui sotto lo stesso esempio costruito con ciascuno dei due ambient
                                                                                  
    
 
-
-<div class="mw-translate-fuzzy">
-
    
   07- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Nuovo schizzo sulla faccia planare di base   07- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Ambiente Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Nuovo schizzo nel piano XZ
   ![](images/07sketchBaseSupFace_PartWBvsPartDesignWB.jpg )                  ![](images/07PsketchXZ_PartWBvsPartDesignWB.jpg )
                                                                                                                     
    
-
-
-</div>
 
    
   08- <img alt="" src=images/PartDesign_Hole.svg  style="width:32px;"> Foro                              08a- <img alt="" src=images/Part_Revolve.svg  style="width:32px;"> Rivoluzione
@@ -217,9 +169,6 @@ Potete vedere qui sotto lo stesso esempio costruito con ciascuno dei due ambient
 
 Confrontare gli alberi di costruzione nei due banchi di lavoro così come la loro organizzazione e la linea temporale di lettura:
 
-
-<div class="mw-translate-fuzzy">
-
    
   10- Albero di costruzione in PartDesign                                              10- Albero di costruzione in Part
   ![](images/PartvsPartDesign_TreePartDesignWB.jpg )   ![](images/PartvsPartDesign_TreePartWB.jpg )
@@ -227,13 +176,10 @@ Confrontare gli alberi di costruzione nei due banchi di lavoro così come la lor
    
 
 
-</div>
-
-
 
 ## Conclusione
 
-I banchi di lavoro Part e PartDesign possono essere usati insieme con una certa attenzione, creando modelli abbastanza complessi.
+Gli ambienti di lavoro Part e PartDesign possono essere usati insieme con una certa attenzione, creando modelli abbastanza complessi.
 
 [Torna su](#Top.md)
 

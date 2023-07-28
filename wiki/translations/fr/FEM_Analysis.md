@@ -18,6 +18,8 @@ L\'analyse FEM peut être considérée comme un conteneur qui contient tous les 
 -   [Contrainte d\'immobilisation](FEM_ConstraintFixed/fr.md)
 -   [Contrainte de force](FEM_ConstraintForce/fr.md) ou [Contrainte de pression](FEM_ConstraintPressure/fr.md)
 
+
+
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande :
@@ -30,11 +32,15 @@ L\'analyse FEM peut être considérée comme un conteneur qui contient tous les 
 
 ## Options
 
--   A ce jour il n\'y a pas d\'option de choix.
+-   À ce jour il n\'y a pas d\'option de choix.
+
+
 
 ## Propriétés
 
 -    **OutpuDir**: spécifie le répertoire de travail pour l\'analyse
+
+
 
 ## Script
 

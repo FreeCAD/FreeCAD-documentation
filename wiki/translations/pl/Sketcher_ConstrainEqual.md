@@ -1,18 +1,22 @@
 ---
 - GuiCommand:/pl
    Name:Sketcher ConstrainEqual
-   Name/pl:Skzkicownik: Wiązanie równości
+   Name/pl:Szkicownik: Wiązanie równości
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   MenuLocation:Szkicownik → Wiązania szkicownika → Wiązanie równości
+   MenuLocation:Szkic → Wiązania szkicownika → Wiązanie równości
    Shortcut:**E**
-   SeeAlso:[Szkicownik: Wiązanie kąta](Sketcher_ConstrainRadius/pl.md)
+   SeeAlso:[Wiązanie kąta](Sketcher_ConstrainRadius/pl.md)
 ---
 
 # Sketcher ConstrainEqual/pl
 
+
+
 ## Opis
 
 Wiązanie Równości wymusza, aby dwa lub więcej odcinki w linii, linii łamanej lub prostokącie miały jednakową długość. W przypadku zastosowania do łuków lub okręgów, promienie są wiązane tak, aby były równe. Wiązanie nie może być stosowane do elementów pierwotnych geometrii, które nie są tego samego typu *(np. odcinki linii i łuki)*.
+
+
 
 ## Użycie
 
@@ -51,6 +55,8 @@ Wybierz segment linii i łuk
 i zastosuj **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Wiązanie równości](Sketcher_ConstrainEqual.md)** jak poprzednio. Wyskakujący komunikat wskazuje, że elementy podlegające wiązaniom muszą być tego samego typu geometrycznego *(linie o krzywiznach zerowych lub linie o krzywiznach niezerowych)*.
 
 ![](images/EqualConstraint9.png )
+
+
 
 ## Tworzenie skryptów 
 

@@ -14,7 +14,7 @@ La commande **Std Graphique de dépendances** affiche les dépendances entre les
 
 Il peut être utile pour analyser un document FreeCAD et localiser des fourches dans l\'arborescence. La forme du graphe dépendra de l\'atelier utilisé pour créer les objets du document. Par exemple, un modèle créé exclusivement dans l\'[atelier PartDesign](PartDesign_Workbench/fr.md) peut afficher un graphique de dépendances linéaire avec une seule branche verticale. Un modèle fait sous l\'[atelier Part](Part_Workbench/fr.md) sera formé de plusieurs branches, mais pour une pièce unique, celles-ci se joindront au sommet après des opérations [booléennes](Part_Boolean/fr.md). Si ce n\'est pas le cas alors il s\'agit d\'objets distincts.
 
-Le graphique de dépendance est un outil purementde visualisation. Il ne peut donc pas être modifié. Il se met automatiquement à jour si des changements sont apportés au modèle.
+Le graphique de dépendance est purement un outil de visualisation. Il ne peut donc pas être modifié. Il se met automatiquement à jour si des changements sont apportés au modèle.
 
 <img alt="" src=images/Std_DependencyGraph_example.svg  style="width:400px;"> 
 *Exemple de graphe de dépendances avec un PartDesign corps à gauche et un objet créé avec des Part opérations à droite*
@@ -33,21 +33,21 @@ Téléchargez le programme d\'installation **graphviz-2.xx** depuis la page [pag
 
 ### macOS
 
-Vous pouvez installer Graphviz à l\'aide de [Homebrew](https://brew.sh/index_fr.html). (Lors de l\'installation de Homebrew, ne soyez pas nerveux si macOS vous demande d\'installer des mises à jour, par exemple pour les outils de ligne de commande Xcode. Ces mises à jour sont effectuées plus tard par le processus d\'installation.)
+Vous pouvez installer Graphviz à l\'aide de [Homebrew](https://brew.sh/) si vous êtes en macOS Big Sur (11) (ou supérieur). Lors de l\'installation de Homebrew, ne soyez pas nerveux si macOS vous demande d\'installer des mises à jour, par exemple pour les outils de ligne de commande Xcode. Ces mises à jour sont effectuées plus tard par le processus d\'installation.
 
 
 {{Code|lang=text|code=
 brew install graphviz
 }}
 
-Ceci installe les binaires de Graphviz sous /usr/local/bin pour macOS sur Intel, et /opt/homebrew pour macOS sur Apple Silicon/ARM. FreeCAD va chercher là tout seul. Si le programme n\'y est pas trouvé, il vous est demandé d\'entrer le chemin. Malheureusement, nous ne pouvons pas y naviguer directement à partir de la boîte de dialogue de sélection de fichier qui s\'affiche à partir de **Outils → Graphique de dépendance...**. Lorsque vous avez la boîte de dialogue de sélection de fichier, vous avez deux possibilités : vous pouvez utiliser la combinaison de touches Cmd+Shift+. qui vous montrera tous les éléments cachés, ou vous utilisez les touches Cmd+Shift+G pour obtenir un champ de saisie pour le chemin. Validez
+Ceci installe les binaires Graphviz sous **/usr/local/bin** pour macOS sur Intel, ou **/opt/homebrew** pour macOS sur Apple Silicon/ARM. FreeCAD devrait trouver automatiquement ces emplacements. Si le programme Graphviz n\'est pas trouvé, il vous sera demandé de spécifier un chemin. Malheureusement, nous ne pouvons pas naviguer directement vers le programme dans la boîte de dialogue du fichier qui s\'affiche à partir de **Outils → Graphique de dépendance...**. Deux options s\'offrent à vous : vous pouvez utiliser la combinaison de touches Cmd+Shift+. pour afficher les éléments cachés, ou vous pouvez utiliser la combinaison de touches Cmd+Shift+G pour obtenir un champ de saisie pour le chemin. Saisissez l\'un de ces chemins dans le [terminal](https://fr.wikipedia.org/wiki/Terminal_(macOS)) :
 
 
 {{Code|lang=text|code=
 /usr/local/bin
 }}
 
-ou
+ou :
 
 
 {{Code|lang=text|code=
@@ -56,21 +56,62 @@ ou
 
 et confirmez le champ de saisie et la boîte de dialogue de sélection de fichier.
 
-Dans le cas où les binaires de Graphviz sont installés dans un emplacement non standard, essayez de trouver le programme avec la commande
+Dans le cas où les binaires de Graphviz sont installés dans un emplacement non standard, essayez de trouver le programme avec la commande :
 
 
 {{Code|lang=text|code=
 type dot
 }}
 
-Le résultat ressemblera à
+Le résultat ressemblera à :
 
 
 {{Code|lang=text|code=
 dot is /usr/local/bin/dot
 }}
 
-Et vous pouvez ensuite diriger FreeCAD vers ce répertoire.
+Et vous pouvez dire à FreeCAD de regarder dans ce répertoire.
+
+Si vous n\'avez pas macOS Big Sur (11) (ou supérieur), Homebrew ne fonctionnera peut-être pas, mais vous pouvez utiliser [MacPorts](https://www.macports.org/index.php) à la place. Téléchargez simplement la [version appropriée pour votre OS](https://www.macports.org/install.php). Une fois l\'installation terminée, entrez cette commande dans le [terminal](https://fr.wikipedia.org/wiki/Terminal_(macOS)) :
+
+
+{{Code|lang=text|code=
+sudo port install graphviz
+}}
+
+Entrez votre mot de passe et attendez que les dépendances soient téléchargées et installées (cela peut prendre un certain temps).
+
+Les binaires de Graphviz peuvent être sous **/usr/local/bin** ou **/opt/local/bin/dot**. FreeCAD peut trouver automatiquement le programme Graphviz avec la boîte de dialogue des fichiers qui s\'affiche à partir de **Outils → Graphique de dépendance...**, sinon entrez cette commande :
+
+
+{{Code|lang=text|code=
+type dot
+}}
+
+Le résultat ressemblera à :
+
+
+{{Code|lang=text|code=
+dot is /opt/local/bin/dot
+}}
+
+Et vous pouvez dire à FreeCAD de regarder dans ce répertoire comme expliqué précédemment.
+
+Il est également possible de rendre visible le répertoire opt avec cette commande :
+
+
+{{Code|lang=text|code=
+defaults write com.apple.finder AppleShowAllFiles YES;
+}}
+
+puis :
+
+
+{{Code|lang=text|code=
+killall Finder /System/Library/CoreServices/Finder.app;
+}}
+
+Vous pouvez donc indiquer à FreeCAD de suivre ce chemin. Il a été testé avec succès sur macOS 10.13 (High Sierra).
 
 
 
@@ -99,7 +140,7 @@ Et vous pouvez ensuite pointer FreeCAD vers ce répertoire.
 1.  Sélectionnez l\'option **Outils → <img src="images/Std_DependencyGraph.svg" width=16px> Graphique de dépendance...** du menu.
 2.  Un nouvel onglet intitulé **Graphique de dépendance** s\'ouvre dans la [zone de vue principale](Main_view_area/fr.md).
 3.  Utilisez la molette de défilement de la souris pour effectuer un zoom avant ou arrière.
-4.  Utilisez les curseurs en bas et à droite de l\'écran pour effectuer un panoramique de la vue. Vous pouvez aussi ({{Version/fr|0.19}}) maintenir le bouton gauche de la souris enfoncé et déplacer la souris.
+4.  Utilisez les curseurs en bas et à droite de l\'écran pour effectuer un panoramique de la vue. Vous pouvez aussi maintenir le bouton gauche de la souris enfoncé et déplacer la souris.
 
 
 

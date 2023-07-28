@@ -65,42 +65,52 @@ Diese Eigenschaften stehen im [Eigenschafteneditor](property_editor/de.md) zur V
 
 {{TitleProperty|Basis}}
 
+-    {{PropertyData/de|Type|String}}: eine Beschreibung für dieses Objekt. Standardmäßig ist es eine leere Zeichenfolge {{value|""}}.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Material|Link}}: das Material für dieses Objekt.
 
--    {{PropertyData/de|Typ|Zeichenfolge}}: eine Beschreibung für dieses Objekt. Standardmäßig ist es eine leere Zeichenfolge {{value|""}}.
+-    {{PropertyData/de|Meta|Map|Hidden}}: Zuordnung zusätzlicher Meta-Informationen. Standardmäßig ist sie leer {}.
 
--    {{PropertyData/de|Id|Zeichenfolge}}: eine Identifikations- oder Teilenummer für dieses Objekt. Standardmäßig handelt es sich um eine leere Zeichenfolge {{value|""}}.
+-    {{PropertyData/de|Id|String}}: eine Identifikations- oder Teilenummer für dieses Objekt. Standardmäßig ist es eine leere Zeichenfolge {{value|""}}.
 
--    {{PropertyData/de|Lizenz|Zeichenfolge}}: ein Feld zur Angabe der Lizenz für dieses Objekt. Standardmäßig ist es eine leere Zeichenfolge {{value|""}}.
+-    **Uid|UUID|Hidden**: Die eindeutige Kennung ([universally unique identifier](https://en.wikipedia.org/wiki/Universally_unique_identifier), kurz UUID) (128-bit-Zahl) des Objekts. Diese wird zur Erstellungszeit vergeben.
 
--    {{PropertyData/de|LizenzURL|Zeichenfolge}}: ein Feld zur Angabe der Webadresse zur Lizenz oder zum Vertrag für dieses Objekt. Standardmäßig ist es eine leere Zeichenfolge {{value|""}}.
+-    {{PropertyData/de|License|String}}: ein Feld zur Angabe der Lizenz für dieses Objekt. Standardmäßig ist es eine leere Zeichenfolge {{value|""}}.
 
--    **Farbe|Farbe**: ein Tupel von vier Fließkomma RGBA Werten white color angezeigt wird.
+-    {{PropertyData/de|LicenseURL|String}}: ein Feld zur Angabe einer Webadresse zur Lizenz oder zum Vertrag für dieses Objekt. Standardmäßig ist es eine leere Zeichenfolge {{value|""}}.
 
--    {{PropertyData/de|Positionierung|Positionierung}}: die Position des Objekts in der [3D Ansicht](3D_view/de.md). Die Platzierung wird durch einen `Base` Punkt (Vektor) und eine `Drehung` (Achse und Winkel) definiert. Siehe [Positionierung](Placement/de.md).
+-    {{PropertyData/de|Color|Color}}: ein Tupel von vier RGBA-Fließkommawerten white color angezeigt wird.
 
-    -   
-        {{PropertyData/de|Winkel}}
-        
-        : den Drehwinkel um die {{PropertyData/de|Achse}}. Standardmäßig lautet er {{value|0°}}. (Null Grad).
+-    {{PropertyData/de|Placement|Placement}}: die Position des Objekts in der [3D-Ansicht](3D_view/de.md). Die Positionierung wird durch einen Punkt (Ortsvektor)`Base` und eine Drehung `Rotation`, bestehend aus Richtungsvektor (Axis) und Winkel (Angle), festgelegt. Siehe [Positionierung](Placement/de.md).
 
     -   
-        {{PropertyData/de|Achse}}
+        {{PropertyData/de|Angle}}
         
-        : der Einheitsvektor, der die Drehachse für die Positionierung festlegt. Jede Komponente ist ein Fließkommawert zwischen {{value|0}} und {{value|1}}. Wenn irgendein Wert über {{value|1}} liegt, wird der Vektor so normiert, dass die Größenordnung des Vektors {{value|1}} ist. Standardmäßig ist dies die positive Z Achse, {{value|(0, 0, 1)}}.
+        : der Drehwinkel um die {{PropertyData/de|Axis}}. Standardmäßig ist er {{value|0°}} (Null Grad).
+
+    -   
+        {{PropertyData/de|Axis}}
+        
+        : der Einheitsvektor, der die Drehachse für die Positionierung festlegt. Jede Komponente ist eine Fließkommazahl zwischen {{value|0}} und {{value|1}}. Wenn irgendein Wert über {{value|1}} liegt, wird der Vektor so normiert, dass der Betrag des Vektors {{value|1}} ist. Standardmäßig ist dies die positive Z Achse, {{value|(0, 0, 1)}}.
 
     -   
         {{PropertyData/de|Position}}
         
-        : ein Vektor mit den 3D Koordinaten des Basispunkts. Standardmäßig ist dies der Ursprung {{value|(0, 0, 0)}}.
+        : ein Vektor mit den 3D-Koordinaten des Basispunkts (Ortsvektor). Standardmäßig ist dies der Ursprung {{value|(0, 0, 0)}}.
 
--    {{PropertyData/de|Kennzeichen|Zeichenfolge}}: der vom Benutzer bearbeitbare Name dieses Objekts, es ist eine beliebige UTF8 Zeichenfolge.
+-    **Label|String**: die vom Benutzer editierbare Bezeichnung dieses Objekts, sie ist eine beliebige UTF8-Zeichenfolge.
 
--    {{PropertyData/de|Gruppe|VerknüpfungListe}}: eine Liste der verknüpften Objekte. Standardmäßig ist sie leer {{value|[]}}.
+-    {{PropertyData/de|Label2|String|Hidden}}: eine längere vom Benutzer editierbare Bezeichnung dieses Objekts, sie ist eine beliebige UTF8-Zeichenfolge, die Zeilenumbrüche enthalten kann. Standardmäßig ist sie eine leere Zeichenfolge {{value|""}}.
 
+-    {{PropertyData/de|Expression Engine|ExpressionEngine|Hidden}}: eine Liste von Ausdrücken. Standardmäßig ist sie leer {{value|[]}}.
 
-</div>
+-    {{PropertyData/de|Visibility|Bool|Hidden}}: legt fest, ob das Objekt angezeigt wird oder nicht.
+
+-    {{PropertyData/de|Origin|Link|Hidden}}: das [App Origin](App_OriginGroupExtension/de.md)-Objekt, das als Positionierungsreferenz aller in der {{PropertyData/de|Group}} enthaltenen Elemente dient.
+
+-    {{PropertyData/de|Group|LinkList}}: eine Liste der verknüpften Objekte. Standardmäßig ist sie leer {{value|[]}}.
+
+-    {{PropertyData/de|_ Group Touched|Bool|Hidden}}: legt fest, ob die Gruppe berührt(?) ist/wird oder nicht.
 
 
 

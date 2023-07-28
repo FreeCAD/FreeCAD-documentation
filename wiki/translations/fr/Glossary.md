@@ -47,7 +47,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{defn|no=1|defn=Un ensemble de [pièces](#Part.md) qui ont des positions définies les unes par rapport aux autres.}}
 
 
-{{defn|no=2|defn=Un [atelier](#Workbench.md) qui vise à faciliter la création d'assemblages. Il est actuellement en cours de développement et ne fait pas encore partie de FreeCAD.}}
+{{defn|no=2|defn=Un [atelier](#Workbench.md) qui vise à faciliter la création d'assemblages. FreeCAD ne dispose pas actuellement d'un tel atelier intégré, mais il existe plusieurs [ateliers externes d'assemblage](External_workbenches/fr.md).}}
 
 
 {{term|Axes}}
@@ -159,7 +159,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|1=Clipping Plane}}
 
 
-{{defn|1=Le plan de coupe est utilisé pour obtenir une vue en coupe de l'objet dans la vue 3D. C'est juste une aide visuelle qui ne fait aucune modification sur la forme l'objet.}}
+{{defn|defn=Le plan de coupe est utilisé pour obtenir une vue en coupe de l'objet dans la vue 3D. C'est juste une aide visuelle qui ne fait aucune modification sur la forme l'objet.}}
 
 
 {{term|Clone}}
@@ -198,10 +198,10 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{defn|defn=Solide composé. Ensemble de [solides](#Solid.md) connectés par leurs [faces](#Face.md). Les solides composés sont nécessaires dans les simulations par éléments finis ([FEM](#FEM.md)) où plusieurs matériaux sont utilisés au sein d'un seul maillage FEM.}}
 
 
-{{term|1=Constraint}}
+{{term|Constraint}}
 
 
-{{defn|1=Si une contrainte a une valeur, elle est désignée comme référence (par exemple, une contrainte de distance a une valeur - la longueur d'une ligne imaginaire reliant les deux points). Une contrainte qui n'a pas de valeur est parfois appelé géométrique.}}
+{{defn|defn=Si une contrainte a une valeur, elle est désignée comme référence (par exemple, une contrainte de distance a une valeur - la longueur d'une ligne imaginaire reliant les deux points). Une contrainte qui n'a pas de valeur est parfois appelé géométrique.}}
 
 
 {{term|Constructive Solid Geometry|content=[https://fr.wikipedia.org/wiki/G%C3%A9om%C3%A9trie_de_construction_de_solides Constructive Solid Geometry]}}
@@ -222,7 +222,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|CSG}}
 
 
-{{defn|defn=Raccourci pour [Constructive Solid Geometry](#Constructive_Solid_Geometry.md).}}
+{{defn|defn=Raccourci pour [Constructive Solid Geometry](#Constructive_Solid_Geometry.md) en Français : Géométrie de construction de solides.}}
 
 
 {{term|Cut}}
@@ -251,7 +251,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{defn|defn=Degrés de Liberté. Le nombre de manières dont une géométrie d'[esquisse](#Sketch.md) peut varier. Par exemple, si nous avons une esquisse constituée de seulement un point, et qu'à ce point aucune [contrainte](#Constraint.md) n'a été appliquée, alors ce point a deux [DOF](#DOF.md). En effet, il est libre de se déplacer à la fois verticalement et horizontalement. De la même manière, une esquisse constituée d'un unique cercle non contraint a trois [DOF](#DOF.md) parce que ce cercle est libre de se déplacer à la fois verticalement et horizontalement et son rayon peut varier. C'est une bonne pratique de contraindre une esquisse jusqu'à ce qu'elle ne présente plus aucun [DOF](#DOF.md), dans ce cas, on dit qu'elle est [entièrement contrainte](#Fully_Constrained.md).}}
 
 
-{{defn|defn=Outil graphique tiers utilisé pour montrer comment les objets d'un modèle FreeCAD sont utilisés ou sont liés les uns aux autres. Pour plus d'informations, reportez-vous à la page [Graphique de dépendance](Std_DependencyGraph/fr.md)|.}}
+{{defn|defn=Outil graphique tiers utilisé pour montrer comment les objets d'un modèle FreeCAD sont utilisés ou sont liés les uns aux autres. Pour plus d'informations, reportez-vous à la page [Graphique de dépendance](Std_DependencyGraph/fr.md).}}
 
 
 {{term|Difference}}
@@ -265,7 +265,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 
 {{term|Directed Acyclic Graph}}
 
-(acronyme : \"DAG\") {{defn|defn=Un type de [graphe de dépendance](#Dependency_Graph.md) où les relations entre objets s'organisent de façon linéaire, du début à la fin, sans aucune dépendance circulaire. Si l'on parcourt un "DAG" on ne trouvera pas de chemin, ou relation, d'un objet A vers un ou plusieurs autres objets qui puisse revenir vers l'objet A. Dans FreeCAD, le graphe d'un modèle doit toujours être un "DAG".}} {{term|DOF}} {{defn|[Degrees Of Freedom](#Degrees_Of_Freedom.md)}} {{term|Draft|content=[Draft](Draft_Workbench/fr.md)}} {{defn|no=1|defn=Un [atelier](#Workbench.md) de FreeCAD utilisé principalement pour le travail en 2 dimensions.}} {{defn|no=2|defn=Angle de dépouille sur un moule afin de permettre le démoulage du produit final. Voir [PartDesign Dépouille](PartDesign_Draft/fr.md).}} {{term|Drawing|content=[Drawing](Drawing_Workbench/fr.md)}} {{defn|no=1|defn=Un [atelier](#Workbench.md) de FreeCAD utilisé pour générer des représentations 2D d'un modèle, également appelées dessins.}} {{defn|no=2|defn=Décrit une représentation de la géométrie à l'aide de vues bidimensionnelles. Aussi appelé plan ou [blueprint](#Blueprint.md).}} {{glossend}}
+(acronyme : \"DAG\") {{defn|defn=Un type de [graphe de dépendance](#Dependency_Graph.md) où les relations entre objets s'organisent de façon linéaire, du début à la fin, sans aucune dépendance circulaire. Si l'on parcourt un "DAG" on ne trouvera pas de chemin, ou relation, d'un objet A vers un ou plusieurs autres objets qui puisse revenir vers l'objet A. Dans FreeCAD, le graphe d'un modèle doit toujours être un "DAG".}} {{term|DOF}} {{defn|defn=[Degrees Of Freedom](#Degrees_Of_Freedom.md)}} {{term|Draft|content=[Draft](Draft_Workbench/fr.md)}} {{defn|no=1|defn=Un [atelier](#Workbench.md) de FreeCAD utilisé principalement pour le travail en 2 dimensions.}} {{defn|no=2|defn=Angle de dépouille sur un moule afin de permettre le démoulage du produit final. Voir [PartDesign Dépouille](PartDesign_Draft/fr.md).}} {{term|Drawing}} {{defn|defn=Décrit une représentation de la géométrie par l'utilisation de vues bidimensionnelles. Également appelé plan ou [blueprint](#Blueprint.md).}} {{glossend}}
 
 ## E
 
@@ -285,13 +285,22 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|Element}}
 
 
-{{defn|Un élément d'une géométrie d'esquisse comme un point, une ligne, un arc, un cercle, etc.}}
+{{defn|defn=Un élément d'une géométrie d'esquisse comme un point, une ligne, un arc, un cercle, etc.}}
 
 
-{{term|1=Extrude}}
+{{term|Expression}}
 
 
-{{defn|1=Est un terme général pour étendre un objet 2D le long d'une direction en vue de le transformer en un objet 3D. On dit parfois que la protusion (forme) est le résultat d'une extrusion (action). Voir [Pad](#Pad.md).}}
+{{defn|no=1|defn=Terme général utilisé en mathématiques et en programmation.}}
+
+
+{{defn|no=2|defn=Dans FreeCAD, les [expressions](Expressions/fr.md) sont utilisées pour calculer des valeurs. Elles peuvent référencer et piloter les propriétés des objets. Elles sont utilisées dans les [feuilles de calcul](Spreadsheet_Workbench.md) et pour contrôler les modèles paramétriques.}}
+
+
+{{term|Extrude}}
+
+
+{{defn|defn=Terme général désignant l'extension d'un objet 2D en 3D dans une direction. Voir aussi [Pad](#Pad.md).}}
 
 
 {{glossend}}
@@ -305,7 +314,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|1=Face}}
 
 
-{{defn|1=Un objet de construction topologique en 2 dimensions. Par exemple, un cube a 6 faces. une face peut être courbe, comme c'est le cas pour une sphère, qui, dans FreeCAD, n'a qu'une face. Le [noyau de modélisation géométrique](#Geometric_modeling_kernel.md) définit une face comme : la partie d'une surface limité par un ensemble fermé de [polylignes](#Wire.md). Voir [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 Profile: Defining the Topology].}}
+{{defn|defn=Un objet de construction topologique en 2 dimensions. Par exemple, un cube a 6 faces. une face peut être courbe, comme c'est le cas pour une sphère, qui, dans FreeCAD, n'a qu'une face. Le [noyau de modélisation géométrique](#Geometric_modeling_kernel.md) définit une face comme : la partie d'une surface limité par un ensemble fermé de [polylignes](#Wire.md). Voir [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 Profile: Defining the Topology].}}
 
 
 {{term|Facet}}
@@ -329,7 +338,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|1=Feature}}
 
 
-{{defn|1=Une étape dans l'évolution d'une pièce 3D dans le flux de travaux de l'[atelier](#Workbench.md) [PartDesign](PartDesign_Workbench/fr.md). Les exemples sont [Pad](#Pad.md), [Pocket](#Pocket.md), [Groove](#Groove.md), [Fillet](#Fillet.md), etc. Lorsque nous créons un modèle dans l'[atelier](#Workbench.md) [PartDesign](PartDesign_Workbench/fr.md), chaque fonction prend la forme de la dernière et ajoute ou supprime quelque chose. Par conséquent, une fonction "Pocket" n'est pas seulement le creux de la poche en lui même mais la totalité de la forme y compris la poche.}}
+{{defn|defn=Une étape dans l'évolution d'une pièce 3D dans le flux de travaux de l'[atelier](#Workbench.md) [PartDesign](PartDesign_Workbench/fr.md). Les exemples sont [Pad](#Pad.md), [Pocket](#Pocket.md), [Groove](#Groove.md), [Fillet](#Fillet.md), etc. Lorsque nous créons un modèle dans l'[atelier](#Workbench.md) [PartDesign](PartDesign_Workbench/fr.md), chaque fonction prend la forme de la dernière et ajoute ou supprime quelque chose. Par conséquent, une fonction "Pocket" n'est pas seulement le creux de la poche en lui même mais la totalité de la forme y compris la poche.}}
 
 
 {{term|FEM|content=[FEM](FEM_Workbench/fr.md)}}
@@ -616,13 +625,13 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|OCCT}}
 
 
-{{defn|Open CASCADE Technology. See [OCC](#OCC.md).}}
+{{defn|defn=Open CASCADE Technology. See [OCC](#OCC.md).}}
 
 
 {{term|Open CASCADE|content=[http://www.opencascade.org Open CASCADE]}}
 
 
-{{defn|Le [geometric modeling kernel](#Geometric_modeling_kernel.md) est une librairie logicielle sous-jacente de FreeCAD. Aussi appelé [OCC](#OCC.md) or [OCCT](#OCCT.md) (pour Open CASCADE Technology). Voir aussi [OCE](#OCE.md).}}
+{{defn|defn=Le [geometric modeling kernel](#Geometric_modeling_kernel.md) est une librairie logicielle sous-jacente de FreeCAD. Aussi appelé [OCC](#OCC.md) or [OCCT](#OCCT.md) (pour Open CASCADE Technology). Voir aussi [OCE](#OCE.md).}}
 
 
 {{term|OpenSCAD}}
@@ -631,10 +640,10 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{defn|defn=Nom d'un logiciel de CAO avec lequel on construit les objets uniquement avec des scripts. C'est aussi un atelier de FreeCAD qui fournit une interface pour l'import/export de modèles *.scad et *.csg. Cet atelier fournit aussi quelques outils associés.}}
 
 
-{{defn|no=1|Nom d'un programme de CAO basé uniquement sur un script.}}
+{{defn|no=1|defn=Nom d'un programme de CAO basé uniquement sur un script.}}
 
 
-{{defn|no=2|Un atelier dans FreeCAD. L'[atelier](#Workbench.md) [OpenSCAD](OpenSCAD_Workbench/fr.md)  fournit une interface pour l'importation/exportation des modèles * .scad et * .csg ainsi que des outils utiles.}}
+{{defn|no=2|defn=Un atelier dans FreeCAD. L'[atelier](#Workbench.md) [OpenSCAD](OpenSCAD_Workbench/fr.md)  fournit une interface pour l'importation/exportation des modèles * .scad et * .csg ainsi que des outils utiles.}}
 
 
 {{term|Origin}}
@@ -657,22 +666,25 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{gloss}}
 
 
-{{term|1=Pad}}
+{{term|Pad}}
 
 
-{{defn|1=Une extension de [esquisse](#Sketch.md) dans une direction perpendiculaire au plan du Sketch. Voir aussi [Extrude](#Extrude.md).}}
+{{defn|defn=Extension d'une [esquisse](#Sketch.md) dans une direction perpendiculaire au plan de l'Esquisse. Voir aussi [Extrude](#Extrude.md).}}
 
 
 {{term|Part}}
 
 
-{{defn|no=1|L'[atelier Part](Part_Workbench/fr.md) est principalement utilisé pour créer une [https://fr.wikipedia.org/wiki/Géométrie_de_construction_de_solides Construction  Géométrique de Solide].}}
+{{defn|no=1|defn=[Atelier](#Workbench.md) de FreeCAD principalement utilisé pour un flux de travail de type [https://fr.wikipedia.org/wiki/Géométrie_de_construction_de_solides Construction  Géométrique de Solide]. Voir [Atelier Part](Part_Workbench/fr.md).}}
 
 
-{{defn|no=2|Un solide monolithique. Le composant de plus faible niveau dans un ensemble.}}
+{{defn|no=2|defn=Un module Python de FreeCAD, s'interfaçant directement avec [OCC](#OCC.md). Voir [Part Script](Part_scripting/fr.md).}}
 
 
-{{defn|no=3|Un conteneur qui groupe tout type d'objets FreeCAD et possède son propre [placement](#Placement.md). (Introduit dans FreeCAD V0.17.)}}
+{{defn|no=3|defn=Un conteneur qui regroupe n'importe quel type d'objet FreeCAD et possède un [placement](#Placement.md). Voir [Std Part](Std_Part/fr.md).}}
+
+
+{{defn|no=4|defn=Un solide unicorps. Le composant de niveau le plus bas dans un assemblage.}}
 
 
 {{term|PartDesignNext}}
@@ -720,34 +732,34 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|Plane}}
 
 
-{{defn|no=1|Une surface plate, à deux dimensions et qui s'étend à l'infini.}}
+{{defn|no=1|defn=Une surface plate, à deux dimensions et qui s'étend à l'infini.}}
 
 
-{{defn|no=2|Une [primitive](#Primitive.md) à deux dimensions créé dans l'[atelier](#Workbench.md) [Part](Part_Workbench/fr.md).}}
+{{defn|no=2|defn=Une [primitive](#Primitive.md) à deux dimensions créé dans l'[atelier](#Workbench.md) [Part](Part_Workbench/fr.md).}}
 
 
 {{term|Plot}}
 
 
-{{defn|no=1|Synonyme désuet de dessin technique réalisé par un traceur à stylo. Voir [https://fr.wikipedia.org/wiki/Traceur_(informatique) Plotter]}}
+{{defn|no=1|defn=Synonyme désuet de dessin technique réalisé par un traceur à stylo. Voir [https://fr.wikipedia.org/wiki/Traceur_(informatique) Plotter]}}
 
 
-{{defn|no=2|Abréviation de plot plan. Voir [https://en.wikipedia.org/wiki/Site_plan Site plan]}}
+{{defn|no=2|defn=Abréviation de plot plan. Voir [https://fr.wikipedia.org/wiki/Document_d%27urbanisme Plan de site]}}
 
 
-{{defn|no=3|Représentation graphique de données. Voir [https://fr.wikipedia.org/wiki/Repr%C3%A9sentation_graphique Plot (graphiques)]}}
+{{defn|no=3|defn=Représentation graphique de données. Voir [https://fr.wikipedia.org/wiki/Repr%C3%A9sentation_graphique Plot (graphiques)]}}
 
 
 {{term|1=Pocket}}
 
 
-{{defn|1=Une [fonction](#Feature.md), appelée poche en mécanique, qui enlève de la matière d'un solide en se servant des contours d'une ([esquisse](#Sketch.md)).}}
+{{defn|defn=Une [fonction](#Feature.md), appelée poche en mécanique, qui enlève de la matière d'un solide en se servant des contours d'une ([esquisse](#Sketch.md)).}}
 
 
 {{term|1=Point}}
 
 
-{{defn|1=Un élément utilisé pour faire référence à un endroit unique dans l'espace de travail 3D. Un "point" n'a pas de dimension. Il a une dimension à l'écran, généralement représenté par un "point" que nous pouvons voir à son emplacement. Voir aussi [Vertex](#Vertex.md).}}
+{{defn|defn=Un élément utilisé pour faire référence à un endroit unique dans l'espace de travail 3D. Un "point" n'a pas de dimension. Il a une dimension à l'écran, généralement représenté par un "point" que nous pouvons voir à son emplacement. Voir aussi [Vertex](#Vertex.md).}}
 
 
 {{term|Polygon mesh}}
@@ -803,7 +815,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|Qt|content=[https://www.qt.io/developers/ Qt]}}
 
 
-{{defn|1=QT est une application gratuite multi-plateforme pour la création d'interfaces utilisateur. De même que QT4.}}
+{{defn|defn=QT est une application gratuite multi-plateforme pour la création d'interfaces utilisateur.}}
 
 
 {{glossend}}
@@ -870,10 +882,10 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{defn|defn=Coque. Forme faite de une ou plusieurs [faces](#Face.md) contiguës. Une coque fermée [manifold](#Manifold.md) peut être convertie en un [solide](#Solid.md).}}
 
 
-{{term|1=Sketch}}
+{{term|Sketch}}
 
 
-{{defn|1=Esquisse. Une représentation 2D d'un objet contraint et fixé sur un plan ou une [face](#Face.md). Dans FreeCAD une esquisse est toujours un objet en 2 dimensions, quelque part dans l'espace 3D.}}
+{{defn|defn=Esquisse. Une représentation 2D d'un objet contraint et fixé sur un plan ou une [face](#Face.md). Dans FreeCAD une esquisse est toujours un objet en 2 dimensions, quelque part dans l'espace 3D.}}
 
 
 {{term|Sketcher|content=[Sketcher](Sketcher_Workbench/fr.md)}}
@@ -906,10 +918,10 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{defn|defn=Voir [Sketcher Solver](#Sketcher_Solver/fr.md).}}
 
 
-{{term|1=Stable}}
+{{term|Stable}}
 
 
-{{defn|1=Un surnom pour la dernière version générale du logiciel FreeCAD. C'est typiquement la version disponible à partir de sources autres que le projet FreeCAD. Comparer avec [Instable](#Unstable.md).}}
+{{defn|defn=Un surnom pour la dernière version générale du logiciel FreeCAD. C'est typiquement la version disponible à partir de sources autres que le projet FreeCAD. Comparer avec [Instable](#Unstable.md).}}
 
 
 {{term|STL}}
@@ -968,7 +980,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{defn|no=1|defn=L'épaisseur d'une forme.}}
 
 
-{{defn|no=2|Outil de l'[atelier](#Workbench.md) [Part](Part_Workbench/fr.md) utilisé pour évider un solide et laisser une épaisseur uniformément définie.}}
+{{defn|no=2|defn=Outil de l'[atelier](#Workbench.md) [Part](Part_Workbench/fr.md) utilisé pour évider un solide et laisser une épaisseur uniformément définie.}}
 
 
 {{term|Toggle}}
@@ -980,13 +992,13 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|Topological Naming}}
 
 
-{{defn|Nommage Topologique. Le procédé selon lequel une arrête ou une face reçoit un nom définitif lors de sa création. Dans son fonctionnement interne, FreeCAD identifie les arêtes et les faces d'un solide en les numérotant; par exemple : Edge1, Edge2, Face1, Face2, etc. Le problème est que la méthode d'attibution de ces identifiants est peu robuste et il s'en suit qu'ils peuvent changer si une manipulation sur l'objet modifie le nombre d'arêtes ou de faces. Par exemple, si le modèle est lié à une Face2, il pourra plus tard se retrouver par erreur lié à une autre face qui serait devenue la nouvelle Face2. Ceci provoque des résultats qui ne sont pas souhaités. Dans FreeCAD version 0.20 le nommage topologique n'est pas encore implémenté, donc si un objet est modifié de telle sorte que son nombre d'arrête ou de face change, le nom de ces arêtes et ces faces peut changer aussi de façon inattendue.}}
+{{defn|defn=Nommage Topologique. Le procédé selon lequel une arrête ou une face reçoit un nom définitif lors de sa création. Dans son fonctionnement interne, FreeCAD identifie les arêtes et les faces d'un solide en les numérotant; par exemple : Edge1, Edge2, Face1, Face2, etc. Le problème est que la méthode d'attibution de ces identifiants est peu robuste et il s'en suit qu'ils peuvent changer si une manipulation sur l'objet modifie le nombre d'arêtes ou de faces. Par exemple, si le modèle est lié à une Face2, il pourra plus tard se retrouver par erreur lié à une autre face qui serait devenue la nouvelle Face2. Ceci provoque des résultats qui ne sont pas souhaités. Dans FreeCAD version 0.20 le nommage topologique n'est pas encore implémenté, donc si un objet est modifié de telle sorte que son nombre d'arrête ou de face change, le nom de ces arêtes et ces faces peut changer aussi de façon inattendue.}}
 
 
 {{term|Torus}}
 
 
-{{defn|Tore : une forme primitive.}}
+{{defn|defn=Tore : une forme primitive.}}
 
 
 {{term|Tracker}}
@@ -998,7 +1010,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|Tree view|content=[Tree view](Tree_view/fr.md)}}
 
 
-{{defn|defn=La vue en arborescence est un composant de l'[interface](Interface/fr.md) de FreeCAD. Elle peut être affichée comme un élément séparé de la [GUI](#GUI.md) ou comme une partie de la [Vue combinée](Combo_view/fr.md). Elle contient une représentation de la structure du document.}}
+{{defn|defn=La vue en arborescence est un composant de l'[interface](Interface/fr.md) de FreeCAD. Elle peut être affichée comme un élément séparé de la [GUI](#GUI.md) ou comme une partie de la [vue combinée](Combo_view/fr.md). Elle contient une représentation de la structure du document.}}
 
 
 {{glossend}}
@@ -1018,7 +1030,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|1=Unstable}}
 
 
-{{defn|1=Un surnom pour signaler qu'une version du logiciel FreeCAD est très récente et toujours à l'état de mise au point. Cette version contiendra de nombreux changements récemment mis en place par les développeurs. Il en général susceptible de produire des résultats erronés, et les essais ne sont pas terminés}}
+{{defn|defn=Un surnom pour signaler qu'une version du logiciel FreeCAD est très récente et toujours à l'état de mise au point. Cette version contiendra de nombreux changements récemment mis en place par les développeurs. Il en général susceptible de produire des résultats erronés, et les essais ne sont pas terminés}}
 
 
 {{term|Upgrade|content=[Upgrade](Draft_Upgrade/fr.md)}}
@@ -1076,10 +1088,10 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|term=Wire}}
 
 
-{{defn|no=1|Polyligne: succession d'[arêtes](#Edge.md) connectées par des [vertex](#Vertex.md) ou Points. Le terme est utilisé en ce sens principalement par [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 Open Cascade Technology]. On l'utilise donc aussi dans FreeCAD.}}
+{{defn|no=1|defn=Polyligne: succession d'[arêtes](#Edge.md) connectées par des [vertex](#Vertex.md) ou Points. Le terme est utilisé en ce sens principalement par [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 Open Cascade Technology]. On l'utilise donc aussi dans FreeCAD.}}
 
 
-{{defn|no=2|Une commande de l'[atelier](#Workbench.md) [Draft](Draft_Workbench/fr.md) qui crée une polyligne paramétrique.}}
+{{defn|no=2|defn=Une commande de l'[atelier](#Workbench.md) [Draft](Draft_Workbench/fr.md) qui crée une polyligne paramétrique.}}
 
 
 {{term|term=Workbench}}
@@ -1099,7 +1111,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|X}}
 
 
-{{defn|Fait communément référence à l'[axe](#Axis.md) X en 2D ou 3D.}}
+{{defn|defn=Fait communément référence à l'[axe](#Axis.md) X en 2D ou 3D.}}
 
 
 {{glossend}}
@@ -1113,7 +1125,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|Y}}
 
 
-{{defn|Fait communément référence à l'[axe](#Axis.md) Y en 2D ou 3D.}}
+{{defn|defn=Fait communément référence à l'[axe](#Axis.md) Y en 2D ou 3D.}}
 
 
 {{glossend}}
@@ -1127,7 +1139,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|Z}}
 
 
-{{defn|Fait communément référence à l'[axe](#Axis.md) Z.}}
+{{defn|defn=Fait communément référence à l'[axe](#Axis.md) Z en 2D ou 3D.}}
 
 
 {{glossend}}

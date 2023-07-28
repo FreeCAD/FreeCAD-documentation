@@ -5,36 +5,34 @@
    MenuLocation:Visualizza → Azioni della vista ad albero → Registra la selezione
    Workbenches:Tutti
    Shortcut:**T** **5**
+   Version:0.19
 ---
 
 # Std TreeRecordSelection/it
 
 
-</div>
 
 ## Descrizione
 
 Il comando **Registra la selezione** attiva o disattiva la modalità RecordSelection della [vista ad albero](Tree_view/it.md). Se questa modalità è attiva, ogni selezione della vista ad albero viene memorizzata per uso futuro. Con i pulsanti **<img src="images/Std_SelBack.svg" width=16px>** e **<img src="images/Std_SelForward.svg" width=16px>** si può andare avanti e indietro attraverso queste selezioni e ripristinarle.
 
+
+
 ## Utilizzo
 
-1.  There are several ways to invoke the command:
-    -   Click on the black down arrow to the right of the **<img src="images/Std_TreeSyncView.svg" width=16px>** button and select the **Record selection** option from the flyout. Note: the button image will change depending on the selected option.
-    -   Select the **View → TreeView actions → <img src="images/Std_TreeRecordSelection.svg" width=16px> Record selection** option from the menu.
-    -   Use the keyboard shortcut: **T** then **5**.
+1.  Esistono diversi modi per invocare il comando:
+    -   Fare clic sulla freccia nera in basso a destra del pulsante **<img src="images/Std_TreeSyncView.svg" width=16px>** e seleziona l\'opzione **Registra la selezione** dal riquadro a comparsa. Nota: l\'immagine del pulsante cambierà a seconda dell\'opzione selezionata.
+    -   Selezionare l\'opzione **Visualizza → Azioni della vista ad albero → <img src="images/Std_TreeRecordSelection.svg" width=16px> Registra la selezione** dal menu.
+    -   Usare la scorciatoia da tastiera: **T** poi **5**.
+
+
 
 ## Preferenze
 
-The Tree view RecordSelection mode can also be set in the [Preferences editor](Preferences_Editor#Selection.md): **Edit→ Preferences → General → Selection**.
-
-
-<div class="mw-translate-fuzzy">
+La modalità Registra la selezione della vista ad albero può essere impostata anche nell\'[Editor delle preferenze](Preferences_Editor/it#Selezione.md): **Modifica→ Preferenze → Generale → Selezione**.
 
 
 
-
-
-</div>
 
 
 {{Std Base navi

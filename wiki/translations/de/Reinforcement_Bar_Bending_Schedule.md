@@ -9,6 +9,8 @@
 
 # Reinforcement Bar Bending Schedule/de
 
+
+
 ## Beschreibung
 
 The [Bar Bending Schedule](Reinforcement_Bar_Bending_Schedule.md) tool allows the user to create the bar bending schedule of reinforcing bars.
@@ -20,6 +22,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 
 *Bar Bending Schedule of reinforcing bars*
+
+
 
 ## Anwendung
 
@@ -40,6 +44,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 5\. Click **OK** or **Apply** to generate Bar Bending Schedule for rebars.
 
 6\. Click **Cancel** to exit the dialog box.
+
+
 
 ## Eigenschaften
 
@@ -90,6 +96,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 -    **Bent Angle Dimension Exclude List**: The list of bent angles to not include their dimensions.
 
 -    **Helical Rebar Dimension Label Format**: The format of the helical rebar dimension label. e.g. \"%L,r=%R,pitch=%P\" where %L -\> Length of helical rebar, %R -\> Helix radius of helical rebar, %P -\> Helix pitch of helical rebar.
+
+
 
 ## Skripten
 
@@ -213,6 +221,8 @@ getBarBendingSchedule(
    %P -> Helix pitch of helical rebar
 
 -    `output_file`specifies the output file to write generated bar bending schedule SVG.
+
+
 
 #### Beispiel
 

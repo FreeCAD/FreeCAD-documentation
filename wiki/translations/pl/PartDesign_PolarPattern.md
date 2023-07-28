@@ -9,6 +9,8 @@
 
 # PartDesign PolarPattern/pl
 
+
+
 ## Opis
 
 Narzędzie <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:24px;"> **wzorca kołowego** tworzy wzorzec typu kołowego jednej lub wielu cech.
@@ -16,7 +18,11 @@ Narzędzie <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:24px
 ![](images/PartDesign_PolarPattern_example.png ) 
 *Powyżej: kieszeń w kształcie szczeliny ''(B)'' wykonana na bazie bryły ''(A, zwana również podstawą)'' jest używana do tworzenia wzoru biegunowego. Wynik ''(C)'' jest pokazany po prawej stronie.*
 
+
+
 ## Użycie
+
+
 
 ### Tworzenie
 
@@ -24,19 +30,23 @@ Narzędzie <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:24px
 2.  Opcjonalnie wybierz jedną lub więcej cech w oknie [widoku drzewa](Tree_view/pl.md) lub w oknie [widoku 3D](3D_view/pl.md).
 3.  Istnieje kilka sposobów wywołania narzędzia:
     -   Naciśnij przycisk **<img src="images/PartDesign_PolarPattern.svg" width=16px> [Szyk kołowy](PartDesign_PolarPattern/pl.md)**,
-    -   Wybierz opcję z menu **Projekt Części → Zastosuj wzór → <img src="images/PartDesign_PolarPattern.svg" width=16px> Szyk kołowy**.
+    -   Wybierz opcję z menu **Projekt Części → Zastosuj przekształcenie → <img src="images/PartDesign_PolarPattern.svg" width=16px> Szyk kołowy**.
 4.  Jeśli nie ma aktywnej Zawartości, a w dokumencie są dwie lub więcej Zawartości, otworzy się okno dialogowe **Wymagana jest aktywna zawartość** i poprosi o uaktywnienie jednej z nich. Jeśli istnieje jedna Zawartość, zostanie ona aktywowana automatycznie.
 5.  Jeśli nie wybrano żadnych cech, zostanie wyświetlone okno dialogowe **Wybierz cechę** otworzy się [panel zadań](Task_panel/pl.md): wybierz jedną lub więcej *(przytrzymaj klawisz **Ctrl**)* z listy i naciśnij przycisk **OK**.
-6.  Otwórz [panel zadań](Task_panel/pl.md) Parametry **Szyku kołowego**. Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
+6.  Otworzy się [panel zadań](Task_panel/pl.md) **Parametry Szyku kołowego**. Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
 7.  Naciśnij przycisk **OK**, aby zakończyć.
+
+
 
 ### Edycja
 
 1.  Wykonaj jedną z następujących czynności:
-    -   Kliknij dwukrotnie obiekt SzykKołowy w oknie [widoku drzewa](Tree_view/pl.md).
-    -   Kliknij prawym przyciskiem myszy obiekt SzykKołowy w oknie [widoku drzewa](Tree_view/pl.md) i wybierz opcję **Edytuj SzykKołowy** z menu kontekstowego.
+    -   Kliknij dwukrotnie obiekt Szyk kołowy w oknie [widoku drzewa](Tree_view/pl.md).
+    -   Kliknij prawym przyciskiem myszy obiekt Szyk kołowy w oknie [widoku drzewa](Tree_view/pl.md) i wybierz opcję **Edycja funkcji szyku kołowego** z menu podręcznego.
 2.  Otworzy się [panel zadań](Task_panel/pl.md) **Parametry Szyku kołowego**. Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
 3.  Naciśnij przycisk **OK**, aby zakończyć.
+
+
 
 ## Opcje
 
@@ -97,12 +107,16 @@ Narzędzie <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:24px
 -   Określ liczbę **Wystąpień** *(łącznie z cechą oryginalną)*.
 -   Jeśli zaznaczone jest pole wyboru **Aktualizuj widok**, widok będzie aktualizowany w czasie rzeczywistym.
 
+
+
 ## Oczekiwane funkcje 
 
-Jeśli niektóre z wybranych cech są addytywne, a inne subtraktywne, ich kolejność może mieć wpływ na efekt końcowy. Kolejność można zmienić, przeciągając poszczególne cechy na liście. {{Version/pl|0.19}}
+Jeśli niektóre z wybranych cech są addytywne, a inne subtraktywne, ich kolejność może mieć wpływ na efekt końcowy. Kolejność można zmienić, przeciągając poszczególne cechy na liście.
 
 ![](images/PartDesign_feature-order.gif ) 
 *Efekty kolejności występowania elementów*
+
+
 
 ## Ograniczenia
 

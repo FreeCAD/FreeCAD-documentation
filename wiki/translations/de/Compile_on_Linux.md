@@ -390,21 +390,15 @@ sudo apt install libocct*-dev
 
 #### Optionale Pakete 
 
-
-<div class="mw-translate-fuzzy">
-
-Optional kannst du diese zusätzlichen Pakete auch installieren:
+Optional können auch diese zusätzlichen Pakete installiert werden:
 
 -    `libsimage-dev`, damit Coin zusätzliche Bilddateiformate unterstützt.
 
 -    `doxygen`und `libcoin-doc` (oder `libcoin80-doc` für ältere Systeme), wenn du beabsichtigst, Quellcode Dokumentation zu generieren.
 
--    `libspnav-dev`, für [3D-Eingabegeräte](3D_input_devices/de.md) Unterstützung, wie die 3D Verbindung \"Space Navigator\" oder \"Space Pilot\".
+-    `libspnav-dev`, Unterstützung für [3D-Eingabegeräte](3D_input_devices/de.md), wie \"Space Navigator\" oder \"Space Pilot\" von 3Dconnexion.
 
 -    `checkinstall`, wenn Du vorhast, Deine installierten Dateien im Paketmanager Deines Systems zu registrieren, damit Du sie später deinstallieren kannst.
-
-
-</div>
 
 
 
@@ -460,32 +454,11 @@ Ubuntu 16.04 Benutzer sehen bitte auch die Kompilierungsdiskussion im Forum: [Co
 
 Folge den gleichen Schritten wie in Debian und Ubuntu.
 
+Es wurde von Problemen berichtet, wenn man versucht, in Raspberry-PI-OS 32-bit mit Python 3 und Qt5 zu kompilieren, aber die Kombination Python 3 und Qt4 scheint für ältere Versionen von FreeCAD (mit kleineren Problemchen) zu funktionieren.
 
-<div class="mw-translate-fuzzy">
+Für neuere Versionen von FreeCAD (\>= 0.20) ist die Kompilierung mit Py3/Qt5 erfolgreich, wenn das installierte Betriebssystem Raspberry-Pi-OS 64-bit oder Ubuntu 20.04 ist.
 
-Es wurde von Problemen berichtet, wenn man versucht, in Raspbian mit Python 3 und Qt5 zu kompilieren, aber die Kombination Python 3 und Qt4 scheint für ältere Versionen von FreeCAD zu funktionieren.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Für neuere Versionen von FreeCAD ist die Kompilierung mit Py3/Qt5 erfolgreich, wenn das installierte Betriebssystem Ubuntu 20.04 ist.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Aufgrund verschiedener Probleme mit Qt werden in dieser Version die normalen PySide Werkzeuge nicht gefunden.
-
-
-</div>
-
-
-{{Code|lang=bash|code=
+Aufgrund verschiedener Probleme mit Qt werden in Ubuntu 20.04 die normalen PySide-Werkzeuge nicht gefunden. {{Code|lang=bash|code=
 E: Unable to locate package python3-pyside2uic
 }}
 
@@ -541,13 +514,7 @@ file (REAL_PATH ${OpenCASCADE_INSTALL_PREFIX} OpenCASCADE_INSTALL_PREFIX)
 
 This trivial change needs to be made inside the build directory once cmake has been run and failed. Re-running cmake will then correctly detect the OCCT libraries in the normal way.
 
-
-<div class="mw-translate-fuzzy">
-
-Du benötigst die folgenden Pakete:
-
-
-</div>
+Folgende Pakete werden benötigt:
 
 -   gcc-c++ (or possibly another C++ compiler?)
 -   cmake
@@ -593,22 +560,12 @@ Du benötigst die folgenden Pakete:
 -   med
 -   med-devel
 
-
-<div class="mw-translate-fuzzy">
-
 Und optional:
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   libspnav-devel (für 3Dconnexion Geräte mit Unterstützung wie Space Navigator oder Space Pilot)
--   python3-pivy ( <https://bugzilla.redhat.com/show_bug.cgi?id=458975> Pivy ist nicht obligatorisch, wird aber für den Draft Arbeitsbereich benötigt)
-
-
-</div>
+-   libspnav-devel (für die Unterstützung von 3Dconnexion Geräten wie Space Navigator oder Space Pilot)
+-   python3-pivy (https://bugzilla.redhat.com/show_bug.cgi?id=458975 Pivy ist nicht zwingend erforderlich, wird aber für den Arbeitsbereich Draft benötigt)
+-   python3-markdown (für den Addon-Manager, zum Anzeigen von nativem Markdown-Code)
+-   python3-GitPython (für den Addon-Manager, um Git zum Auschecken und Aktualisieren von Arbeitsbereichen und Makros zu nutzen)
 
 To install all dependencies at once (tested on fedora 36 and 37):
 
@@ -933,46 +890,19 @@ cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Release ../freecad
 
 #### Bauen gegen Python 3 und Qt5 
 
+Die Unterstützung für Python 2 und Qt4 wurde aus FreeCAD 0.20 ertfernt und Qt5 und Python 3 müssen nicht extra aktiviert werden, wenn die neuesten Versionen kompiliert werden. Unterstützung für Qt6 wird zurzeit entwickelt und funktioniert noch nicht. Solange man nicht plant, die Qt6-Migration zu unterstützen, sollte FREECAD_QT_VERSION auf \"Auto\" (Standardeinstellung) oder ausdrücklich auf \"5\" gesetzt werden.
 
-<div class="mw-translate-fuzzy">
-
-Standardmäßig wird FreeCAD 0.19 und früher für Python 2 und Qt4 gebaut. Seit diese beiden Pakete veraltet sind, ist es besser, für Python 3 und Qt5 zu bauen. Die Unterstützung für Python 2 und Qt4 wurde in FreeCAD 0.20 entfernt und es ist nicht notwendig, Qt5 und Python 3 explizit zu aktivieren, wenn die neuesten Entwicklungsversionen kompiliert werden.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Für 0.20_dev:
-
-
-</div>
-
-
-{{Code|lang=bash|code=
+Für 0.20 und 0.21_dev: {{Code|lang=bash|code=
 cmake ../freecad-source
 }}
 
-
-<div class="mw-translate-fuzzy">
-
-Beachte, dass es beim Wechsel zwischen 0.19 und den 0.20 Builds notwendig sein kann, CMakeCache.txt zu löschen, bevor cmake ausgeführt wird.
-
-
-</div>
+Beachte, dass es beim Wechsel zwischen 0.20 und den 0.21_dev-Builds notwendig sein kann, CMakeCache.txt zu löschen, bevor cmake ausgeführt wird.
 
 
 
 #### Bauen für eine bestimmte Python Version 
 
-
-<div class="mw-translate-fuzzy">
-
-Wenn die standardmäßige `python` ausführbare Datei in Deinem System ein symbolischer Link zu Python 2 ist, wird `cmake` versuchen, FreeCAD für diese Version zu konfigurieren. Du kannst eine andere Version von Python wählen, indem du den Pfad zu einer bestimmten ausführbaren Datei angibst:
-
-
-</div>
+Wenn die standardmäßige ausführbare `Python`-Datei auf Deinem System ein symbolischer Link zu Python 2 ist, wird `cmake` versuchen, FreeCAD für diese Version zu konfigurieren. Du musst dann eine andere Version von Python wählen, indem du den Pfad zu einer bestimmten ausführbaren Datei angibst:
 
 
 {{Code|lang=bash|code=
@@ -1448,24 +1378,18 @@ make -j$(nproc)
 
 Voraussetzung: git
 
-
-<div class="mw-translate-fuzzy">
-
 Schritte :
 
 1.  Öffne ein Terminal. Optional kann ein Verzeichnis erstellt werden, z.B. {{incode | mkdir git}}. Optional kann das Verzeichnis geändert werden, z.B. `cd git`.
-2.  Klone das AUR-Repository : `git clone http://aur.archlinux.org/packages/freecad-git`
-3.  Gib den AUR Repository Ordner ein: `cd freecad-git`
+2.  Klone das AUR-Repository : `git clone https://aur.archlinux.org/freecad-git.git`
+3.  Gib den AUR-Repository-Ordner ein: `cd freecad-git`
 4.  Kompiliere mit [Arch makepkg](https://wiki.archlinux.org/index.php/Makepkg) : `makepkg -s`. Das Flag -s oder \--syncdeps installiert auch die erforderlichen Abhängigkeiten.
 5.  Installiere das erstellte Paket : `makepkg --install` oder doppelklicke auf das pkgname-pkgver.pkg.tar.xz in Deinem Dateibrowser.
 
+Um FreeCAD auf den neuesten Stand zu bringen, wird alles ab Schritt 3 wiederholt. Wenn es eine schwerwiegende Änderung im Ablaufplan oder neue Funktionen gibt, wird das AUR-Repository aktualisiert, indem `git checkout -f` im Ordner verwendet wird.
+
 
 </div>
-
-
-<div class="mw-translate-fuzzy">
-
-Um FreeCAD auf den neuesten Stand zu bringen, wiederhole einfach ab Schritt 3. Aktualisiere AUR repo, wenn es eine Bruchänderung im Rezept oder neue Funktionen gibt, indem Du `git checkout -f` im Ordner verwendest.
 
 
 </div>

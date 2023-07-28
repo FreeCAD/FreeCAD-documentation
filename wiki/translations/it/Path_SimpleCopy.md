@@ -5,9 +5,19 @@
 
 </div>
 
+
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questo strumento crea una copia non parametrica di un dato percorso.
+
+
+</div>
+
+
 
 ## Utilizzo
 
@@ -20,6 +30,8 @@ Questo strumento crea una copia non parametrica di un dato percorso.
 
 
 </div>
+
+
 
 ## Opzioni
 

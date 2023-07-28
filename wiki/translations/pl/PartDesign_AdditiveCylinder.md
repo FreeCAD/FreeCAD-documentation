@@ -1,51 +1,60 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign AdditiveCylinder
-   MenuLocation:Part Design → Create an additive primitive → Additive Cylinder
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Addytywny walec
+   MenuLocation:Projekt Części → Utwórz cechę przez dodanie → Addytywny walec
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md), [PartDesign SubtractiveCylinder](PartDesign_SubtractiveCylinder.md)
+   SeeAlso:[Komponent bryła pierwotna do dodania](PartDesign_CompPrimitiveAdditive/pl.md), [Subtraktywny walec](PartDesign_SubtractiveCylinder/pl.md)
 ---
 
 # PartDesign AdditiveCylinder/pl
 
-## Description
 
-Inserts a primitive cylinder in the active Body as the first feature, or fuses it to the existing feature(s).
+
+## Opis
+
+Funkcja ta wstawia pierwotny walec do aktywnej Zawartości jako pierwszy element lub łączy go z istniejącymi elementami.
 
 <img alt="" src=images/PartDesign_AdditiveCylinder_example.png  style="width:200px;">
 
-## Usage
 
-1.  Press the **<img src="images/PartDesign_AdditiveCylinder.svg" width=24px> '''Additive Cylinder'''** button. **Note**: the Additive Cylinder is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. To get to the Cylinder button, click on the down arrow besides the visible icon and select Additive cylinder in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  A Cylinder feature appears under the active Body.
 
-## Options
+## Użycie
 
-It is possible to create skewed cylinders by specifying angles in respect to the normal vector of the chosen attachment. <small>(v0.20)</small> 
+1.  Naciśnij przycisk **<img src="images/PartDesign_AdditiveCylinder.svg" width=24px> '''Addytywny walec'''**. **Uwaga**: Addytywny walec jest częścią menu narzędzi o nazwie **Utwórz bryłę pierwotną do dodania**. Po uruchomieniu programu FreeCAD, Addytywny prostopadłościan wyświetlany jest na pasku narzędzi domyślnie. Aby przejść do funkcji Walec, kliknij strzałkę w dół na widocznej ikonce i wybierz z menu opcję Addytywny walec.
+2.  Ustaw parametry bryły i [dołączenia](Part_EditAttachment/pl.md).
+3.  Kliknij **OK**.
+4.  Pod aktywnym obiektem Zawartość pojawi się element Prostopadłościanu.
 
-The Cylinder can be edited after its creation in two ways:
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
 
-## Properties
+## Opcje
 
--    **Attachment**: defines the attachment mode as well as the Attachment Offset. See [Part EditAttachment](Part_EditAttachment.md).
+Możliwe jest tworzenie przekrzywionych walców poprzez określenie kątów w odniesieniu do wektora normalnego wybranego dołaczenia. {{Version/pl|0.20}}
 
--    **Label**: label given to the Cylinder object. Change to suit your needs.
+Walec można edytować po jego utworzeniu na dwa sposoby:
 
--    **Radius**: the radius value of the cylinder.
+-   Klikając go dwukrotnie w drzewie modelu lub klikając prawym przyciskiem myszy i wybierając **Edytuj bryłę pierwotną** z menu podręcznego. Spowoduje to wyświetlenie parametrów bryły pierwotnej.
+-   Poprzez [Edytor właściwości](Property_editor/pl.md).
 
--    **Angle**: angle of rotation of the cross section (360 degrees forms a full cylinder).
 
--    **Height**: the height of the cylinder along its axis.
 
--    **First Angle**: angle in first direction. <small>(v0.20)</small> 
+## Właściwości
 
--    **Second Angle**: angle in second direction. <small>(v0.20)</small> 
+-    **Dołączenie**: definiuje tryb dołączania, a także przesunięcie dołączania. Zobacz też [Część: Edycja mocowania](Part_EditAttachment/pl.md).
+
+-    **Etykieta**: Etykieta nadana obiektowi Walca. Zmień zgodnie z własnymi potrzebami.
+
+-    **Promień**: wartość promienia cylindra.
+
+-    **Kąt**: kąt obrotu przekroju *(360° tworzy pełny walec)*.
+
+-    **Wysokość**: wysokość walca wzdłuż jego osi.
+
+-    **Pierwszy kąt**: kąt w pierwszym kierunku. {{Version/pl|0.20}}
+
+-    **Drugi kąt**: kąt w drugim kierunku. {{Version/pl|0.20}}
 
 
 

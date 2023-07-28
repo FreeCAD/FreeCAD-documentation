@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -22,6 +24,8 @@ Acest instrument <img alt="" src=images/Sketcher_CreateCircle3Point.png  style="
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

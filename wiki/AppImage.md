@@ -94,7 +94,7 @@ Notes:
 -   Run `./appimageupdatetool-x86_64.AppImage --help` to learn about functionality like `--remove-old`, `--overwrite` and `--self-update`.
 -   There is also an i386 version; see the [AppImageUpdate release](https://github.com/AppImage/AppImageUpdate/releases) page.
 
-Todo: share a script that can be added as an alias or [1](https://en.wikipedia.org/wiki/Cron%7Ccron) job.
+Todo: share a script that can be added as an alias or [cron](https://en.wikipedia.org/wiki/Cron) job.
 
 ### CLI method 2 (unofficial) 
 

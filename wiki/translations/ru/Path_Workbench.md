@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Введение
 
 <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Верстак Path](Path_Workbench/ru.md) используется для создания машинных инструкций для [станков с ЧПУ](https://en.wikipedia.org/wiki/CNC_router) из 3D-моделей FreeCAD. Это позволяет изготавливать реальные вещи на станках с ЧПУ, таких как: фрезерные, токарные станки, лазерные резаки и тому подобном оборудовании. Обычно эти инструкции на языке [G-кодов](https://en.wikipedia.org/wiki/G-code). Здесь представлен [общий пример моделирования траектории движения инструмента на токарном станке с ЧПУ](https://www.ange-softs.com/SIMULCNCHTML/index.html).
@@ -16,6 +18,8 @@
 -   Инструменты выбираются в соответствии с требованиями Рабочих Операций.
 -   Операции обработки задаются с использованием, например, [Контуров](Path_Profile/ru.md) и [Вырезов](Path_Pocket_3D.md). Эти Операции обработки используют внутренний диалект FreeCAD G-Code, независимо от станка с ЧПУ.
 -   Экспортируйте задание в g-код, соответствующий вашему станку. Этот шаг называется «постобработка», доступны разные постпроцессоры.
+
+
 
 ## Основные понятия 
 
@@ -39,6 +43,8 @@ G-код генерируется из директив и операций, с�
 
 </div>
 
+
+
 ## Ограничения
 
 
@@ -53,6 +59,8 @@ G-код генерируется из директив и операций, с�
 
 
 </div>
+
+
 
 ## Единицы измерения 
 
@@ -79,16 +87,22 @@ G-код генерируется из директив и операций, с�
 
 1.  Если вы используете инструмент Path Inspect для просмотра g-кода, вы увидите подачу в «мм/с», потому что он не подвергается пост-обработке
 
+
+
 ## Высоты и глубины 
 
 Многие из команд имеют различные высоты и глубины:
 
-<img alt="" src=images/Path-DepthsAndHeights.gif  style="width:500px;"> 
-*Визуальная справка по свойствам Depth (установки)*
+![](images/Path-DepthsAndHeights_ru.gif ) 
+*Визуальное отображение некоторых параметров обработки (для настроек)*
+
+
 
 ## Команды
 
 Некоторые команды являются экспериментальными и недоступны по умолчанию. Для их включения, см. [Path experimental](Path_experimental.md).
+
+
 
 ### Команды проекта 
 
@@ -96,13 +110,27 @@ G-код генерируется из директив и операций, с�
 
 -   <img alt="" src=images/Path_Post.svg  style="width:32px;"> [Постобработка](Path_Post.md): Экспортирует проект в G-код
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> [Проверить задание на наличие распространенных ошибок](Path_Sanity.md): проверяет выбранное задание на отсутствие значений.[**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
+
+
+</div>
 
 -   <img alt="" src=images/Path_ExportTemplate.svg  style="width:32px;"> [Экспорт шаблона](Path_ExportTemplate.md): Экспортирует текущий проект в качестве шаблона
 
+
+
 ### Инструментальные команды 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Path_Inspect.svg  style="width:32px;"> [Inspect G-code](Path_Inspect.md): Показывает G-код для проверки
+
+
+</div>
 
 -   <img alt="" src=images/Path_Simulator.svg  style="width:32px;"> [CAM Simulator](Path_Simulator.md): Показывает операции фрезерной обработки, эмулируя станок
 
@@ -110,13 +138,33 @@ G-код генерируется из директив и операций, с�
 
 -   <img alt="" src=images/Path_OpActiveToggle.svg  style="width:32px;"> [Toggle the Active State of the Operation](Path_OpActiveToggle.md): Активирует или деактивирует операцию.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Path_ToolBitLibraryOpen.svg  style="width:32px;"> [ToolBit Library editor](Path_ToolBitLibraryOpen.md): Открывает редактор для управления библиотеками инструментов ToolBit. <small>(v0.19)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Path_ToolBitDock.svg  style="width:32px;"> [ToolBit Dock](Path_ToolBitDock.md): Открывает панель ToolBit. <small>(v0.19)</small> 
 
+
+</div>
+
+
+
 ### Основные операции 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profile](Path_Profile.md): Создает операцию обработки профиля для всей модели или для одной или нескольких выбранных граней или кромок. <small>(v0.19)</small> 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -128,41 +176,53 @@ G-код генерируется из директив и операций, с�
 
 -   <img alt="" src=images/Path_Drilling.svg  style="width:32px;"> [Drilling](Path_Drilling.md): Создает цикл сверления.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Path_Face.svg  style="width:32px;"> [Face](Path_MillFace.md): Создает путь обработки поверхности.
+
+
+</div>
 
 -   <img alt="" src=images/Path_Helix.svg  style="width:32px;"> [Helix](Path_Helix.md): Создает спиральную траекторию.
 
 -   <img alt="" src=images/Path_Adaptive.svg  style="width:32px;"> [Adaptive](Path_Adaptive.md): Creates an adaptive clearing and profiling operation.
 
--   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> [Slot](Path_Slot.md): Creates a slotting operation from selected features or custom points. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> [Slot](Path_Slot.md): Creates a slotting operation from selected features or custom points. [**Experimental**](Path_experimental.md).
 
 -   <img alt="" src=images/Path_Engrave.svg  style="width:32px;"> [Engrave](Path_Engrave.md): Creates an engraving path.
 
 -   <img alt="" src=images/Path_Deburr.svg  style="width:32px;"> [Deburr](Path_Deburr.md): Creates a deburr path.
 
--   <img alt="" src=images/Path_Vcarve.svg  style="width:32px;"> [Vcarve](Path_Vcarve.md): Creates an engraving path using a V tool shape. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Vcarve.svg  style="width:32px;"> [Vcarve](Path_Vcarve.md): Creates an engraving path using a V tool shape.
 
 ### 3D Operations 
 
--   <img alt="" src=images/Path_3DPocket.svg  style="width:32px;"> [3D Pocket](Path_Pocket_3D.md): Creates a path for a 3D pocket.
+-   <img alt="" src=images/Path_Pocket_3D.svg  style="width:32px;"> [3D Pocket](Path_Pocket_3D.md): Creates a path for a 3D pocket.
 
--   <img alt="" src=images/Path_Surface.svg  style="width:32px;"> [3D Surface](Path_Surface.md): Creates a path for a 3D surface. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Surface.svg  style="width:32px;"> [3D Surface](Path_Surface.md): Creates a path for a 3D surface. [**Experimental**](Path_experimental.md).
 
--   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Waterline](Path_Waterline.md): Creates a waterline path for a 3D surface. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Waterline](Path_Waterline.md): Creates a waterline path for a 3D surface. [**Experimental**](Path_experimental.md).
 
 ### Path Dressup 
 
--   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:32px;"> [Boundary Dressup](Path_DressupPathBoundary.md): Adds a boundary dressup modification to a selected path.
+-   <img alt="" src=images/Path_DressupAxisMap.svg  style="width:32px;"> [Axis Map](Path_DressupAxisMap.md): Remaps one axis to another.
 
--   <img alt="" src=images/Path_DressupDogbone.svg  style="width:32px;"> [Dogbone Dressup](Path_DressupDogbone.md): Adds a dogbone dressup modification to a selected path.
+-   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:32px;"> [Boundary](Path_DressupPathBoundary.md): Adds a boundary dressup modification to a selected path.
 
--   <img alt="" src=images/Path_DressupDragKnife.svg  style="width:32px;"> [DragKnife Dressup](Path_DressupDragKnife.md): Adds a dragknife dressup modification to a selected path.
+-   <img alt="" src=images/Path_DressupDogbone.svg  style="width:32px;"> [Dogbone](Path_DressupDogbone.md): Adds a dogbone dressup modification to a selected path.
 
--   <img alt="" src=images/Path_DressupLeadInOut.svg  style="width:32px;"> [LeadInOut Dressup](Path_DressupLeadInOut.md): Adds a lead-in and/or lead-out point to a selected path.
+-   <img alt="" src=images/Path_DressupDragKnife.svg  style="width:32px;"> [DragKnife](Path_DressupDragKnife.md): Adds a dragknife dressup modification to a selected path.
 
--   <img alt="" src=images/Path_DressupRampEntry.svg  style="width:32px;"> [RampEntry Dressup](Path_DressupRampEntry.md): Adds ramp entry dressup modification to a selected path.
+-   <img alt="" src=images/Path_DressupLeadInOut.svg  style="width:32px;"> [LeadInOut](Path_DressupLeadInOut.md): Adds a lead-in and/or lead-out point to a selected path.
 
--   <img alt="" src=images/Path_DressupTag.svg  style="width:32px;"> [Tag Dressup](Path_DressupTag.md): Adds a holding tag dressup modification to a selected path.
+-   <img alt="" src=images/Path_DressupRampEntry.svg  style="width:32px;"> [RampEntry](Path_DressupRampEntry.md): Adds ramp entry dressup modification to a selected path.
+
+-   <img alt="" src=images/Path_DressupTag.svg  style="width:32px;"> [Tag](Path_DressupTag.md): Adds a holding tag dressup modification to a selected path.
+
+-   <img alt="" src=images/Path_DressupZCorrect.svg  style="width:32px;"> [Z Depth Correction](Path_DressupZCorrect.md): Corrects the Z depth using Probe Map.
+
+
 
 ### Дополнительные команды 
 
@@ -174,7 +234,11 @@ G-код генерируется из директив и операций, с�
 
 -   <img alt="" src=images/Path_Custom.svg  style="width:32px;"> [Custom](Path_Custom.md): Вставляет пользовательский G-код.
 
+-   <img alt="" src=images/Path_Probe.svg  style="width:32px;"> [Probe](Path_Probe.md): Creates a Probing Grid from a job stock.
+
 -   <img alt="" src=images/Path_Shape.svg  style="width:32px;"> [From Shape](Path_Shape.md): Создаёт траекторию из существующего объекта Part [**Experimental**](Path_experimental.md).
+
+
 
 ### Модификация траектории 
 
@@ -183,6 +247,10 @@ G-код генерируется из директив и операций, с�
 -   <img alt="" src=images/Path_Array.svg  style="width:32px;"> [Array](Path_Array.md): Создает массив путем дублирования выбранного участка траектории.
 
 -   <img alt="" src=images/Path_SimpleCopy.svg  style="width:32px;"> [Simple Copy](Path_SimpleCopy.md): Создает непараметрическую копию выбранного объекта траектории.
+
+### Specialty Operations 
+
+-   <img alt="" src=images/Path_ThreadMilling.svg  style="width:32px;"> [Thread Milling](Path_ThreadMilling.md): Creates a Path Thread Milling operation from features of a base object. [**Experimental**](Path_experimental.md).
 
 ### Miscellaneous
 
@@ -196,13 +264,21 @@ G-код генерируется из директив и операций, с�
 
 ## ToolBit architecture 
 
+
+<div class="mw-translate-fuzzy">
+
 Управляйте инструментами и библиотекой инструментов. Основано на архитектуре ToolBit. <small>(v0.19)</small> 
+
+
+</div>
 
 -   [Path Tools](Path_Tools.md)
 -   [Path ToolShape](Path_ToolShape.md)
 -   [Path ToolBit](Path_ToolBit.md)
 -   [Path ToolBit Library](Path_ToolBit_Library.md)
 -   [Path ToolController](Path_ToolController.md)
+
+
 
 ## Прочее
 
@@ -211,17 +287,25 @@ G-код генерируется из директив и операций, с�
 -   [Path Postprocessor Customization](Path_Postprocessor_Customization.md): If you have a special machine which cannot use one of the available post-processors you may need to write your own post-processor.
 -   [Path fourth axis](Path_fourth_axis.md): Experimental four axis milling.
 
+
+
 ## Настройки
 
 -   <img alt="" src=images/Preferences-path.svg  style="width:32px;"> [Настройки\...](Path_Preferences.md): Настройки, доступные для верстака Path.
+
+
 
 ## Скриптование
 
 Смотри [Создание сценариев (скриптов) модуля Part](Part_scripting/ru.md)
 
+
+
 ## Руководства
 
 -   [Path Walkthrough for the Impatient](Path_Walkthrough_for_the_Impatient.md): краткое руководство для ознакомления с верстаком Path.
+
+
 
 ## Видео
 

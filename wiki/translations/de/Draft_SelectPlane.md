@@ -1,17 +1,16 @@
 ---
 - GuiCommand:/de
    Name:Draft SelectPlane
-   Name/de:Entwirf WähleEbene
-   MenuLocation:Entwurf → Hilfsprogramme → Wähle Ebene
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   Name/de:Draft EbeneAuswählen
+   MenuLocation:Dienstprogramme → Ebene wählen
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**W** **P**
-   SeeAlso:[Entwurf ArbeitsEbeneProxy](Draft_WorkingPlaneProxy/de.md),[Entwurf GitterUmschalten](Draft_ToggleGrid/de.md)
+   SeeAlso:[Draft ArbeitsebenenProxy](Draft_WorkingPlaneProxy/de.md)
 ---
 
 # Draft SelectPlane/de
 
 
-</div>
 
 ## Beschreibung
 
@@ -80,6 +79,8 @@ Der <img alt="" src=images/Workbench_Draft.svg  style="width:24px;">[Entwurf Arb
 
 </div>
 
+
+
 ## Optionen
 
 
@@ -102,34 +103,29 @@ Um auf dieser Ebene leicht zeichnen zu können, solltest Du die Ansicht nach obe
 
 </div>
 
-## Notes
+
+
+## Hinweise
 
 -   It can be useful to align the [3D view](3D_view.md) with the selected Draft working plane. For example after switching the working plane to Front you may want to switch to the [Front view](Std_ViewFront.md) as well.
 -   The grid can be toggled with the [Draft ToggleGrid](Draft_ToggleGrid.md) command.
 -   By double-clicking [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md) in the [Tree view](Tree_view.md) you can quickly switch between working planes.
 
-## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+
+## Einstellungen
+
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
 
 -   The grid settings in the task panel as well as several other grid settings are available as preferences: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
 -   To use the grid the **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid** option must be selected. After changing this preference you must restart FreeCAD.
 -   The Snapping radius can also be changed on-the-fly (see [Draft Snap](Draft_Snap#Preferences.md)) or by changing: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → snapRange**.
 
-## Scripting
 
-
-<div class="mw-translate-fuzzy">
 
 ## Skripten
 
-
-{{emphasis|Sie auch:}}
-
-[Entwurf API](Draft_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md). Siehe die [ArbeitsEbene API](http://www.freecadweb.org/api/DraftWorkingPlane.html).
-
-
-</div>
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 
 <div class="mw-translate-fuzzy">

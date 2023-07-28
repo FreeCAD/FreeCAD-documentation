@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Описание
 
 
@@ -23,6 +25,8 @@
 </div>
 
 <img alt="" src=images/Part_Prism_Example.png  style="width:400px;">
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -39,6 +43,8 @@ See [Part Primitives](Part_Primitives#Usage.md).
 ![Part Prism from the scripting example](images/Part_Prism_Scripting_Example.png )
 
 A Part Prism object created with the [scripting example](#Scripting.md) below is shown here.
+
+
 
 ## Свойства
 

@@ -2,21 +2,22 @@
 - GuiCommand:/de
    Name:FEM MeshRegion
    Name/de:FEM Netzbereich
-   MenuLocation: Netz → FEM mesh region
+   MenuLocation:Netz → FEM mesh region
    Workbenches:[FEM](FEM_Workbench/de.md)
-   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
+   SeeAlso:[FEM Anleitung](FEM_tutorial/de.md)
 ---
 
 # FEM MeshRegion/de
 
 
-</div>
 
 ## Beschreibung
 
 FEM MeshRegion enables the user to set a localized set of meshing parameters by selecting a set of elements (Vertex, Edge, Face) and applying the parameters to it. It is especially useful for refining meshes in areas of interest or areas where the solver will generate stronger gradient of a variable. For example, it can be used to refine the mesh around stress-risers (sharp edges, circles\...) in mechanical analysis, or at areas of contraction in a fluid flow.
 
 Refining the mesh has the advantage of enabling accurate simulation where needed, while allowing coarser mesh in the wider domain, thus drastically optimizing the computation time while maintaining meaningful solutions output.
+
+
 
 ## Anwendung
 
@@ -37,20 +38,16 @@ Es können so viele unterschiedliche Netzbereiche wie nötig erstellt werden.
 
 ## Visual examples 
 
-
-<div class="mw-translate-fuzzy">
-
 <img alt="" src=images/FEMMeshRegion_Example1.png style="width:300px;"> 
-*Beispiel 1: Das grobe Start-FEMMeshGMSH*
-
-
-</div>
+*Beispiel 1: Das grobe Start-NetzGmshAusForm*
 
 <img alt="" src=images/FEMMeshRegion_Example2.png  style="width:300px;"> 
 *Example 2: After applying a Mesh refinement using two FEM Mesh Region, the large hole is refined to a maximum element size of 3 mm, the smaller hole is refined to 1 mm*
 
 <img alt="" src=images/FEMMeshRegion_Example3.png  style="width:300px;"> 
 *Beispiel 3: Ein einfaches Beispiel des entstehenden Modellbaums*
+
+
 
 ## Hinweise
 

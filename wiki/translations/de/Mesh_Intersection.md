@@ -1,56 +1,39 @@
-# Mesh Intersection/de
 ---
-- GuiCommand:/de   Name:Mesh Intersection‏‎   MenuLocation:Meshes → Boolean → Intersection   Workbenches:[[Mesh Workbench   Mesh]]|Shortcut:   SeeAlso:---
+- GuiCommand:/de
+   Name:Mesh Intersection
+   Name/de:Mesh Intersection
+   MenuLocation:Netze → Boolesche Verknüpfungen → Schnitt
+   Workbenches:[Mesh](Mesh_Workbench/de.md)
+   SeeAlso:[Mesh Vereinigung](Mesh_Union/de.md), [Mesh Differenz](Mesh_Difference/de.md)
+---
+
+# Mesh Intersection/de
 
 
-</div>
 
-## Description
+## Beschreibung
 
+Der Befehl **Mesh Schnitt** erstellt ein neues, nicht parametrisches Netzobjekt, ein [Mesh Formelement](Mesh_Feature/de.md), das die Schnittmenge (gemeinsamer Bereich) zweier Netzobjekte darstellt.
 
-<div class="mw-translate-fuzzy">
+[OpenSCAD](http://www.openscad.org/) muss installiert sein, um diesen Befehl zu verwenden und der Pfad zu seiner ausführbaren Datei muss in den Einstellungen von [OpenSCAD](OpenSCAD_Preferences/de.md) eingetragen sein.
 
-## Einleitung
-
-Erstellt einen Schnitt von zwei ausgewählten Netzen.
-
-
-</div>
+![](images/Mesh_Intersection_example.png ) 
+*Links zwei Netzobjekte, rechts das Schnittobjekt beider Netzobjekte*
 
 
-<div class="mw-translate-fuzzy">
-
-Als Ergebnis wird ein separates Netz erstellt.
-
-
-</div>
-
-![](images/Mesh_Intersection_example.png )
-
-
-<div class="mw-translate-fuzzy">
-
-![](images/Meshes_Boolean_Intersection.jpg )
-
-
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
 
 ## Anwendung
 
-1.  Wähle in der Baumansicht oder der 3D-Ansicht die zu schneidenden Netze.
-2.  Wähle **Netze** → **Boolean** → **Schnitt**
+1.  Zwei oder mehr Netzobjekte, die sich teilweise überlappen.
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Mesh_Intersection.svg" width=16px> [Mesh Schnitt](Mesh_Intersection/de.md)** drücken.
+    -   Den Menüeintrag **Netze → Boolesche Verknüpfungen → <img src="images/Mesh_Intersection.svg" width=16px> Schnitt** auswählen.
 
 
-</div>
 
-## Properties
+## Eigenschaften
 
-See: [Mesh Feature](Mesh_Feature.md).
+Siehe: [Mesh Formelement](Mesh_Feature/de.md).
 
 
 

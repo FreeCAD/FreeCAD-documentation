@@ -146,7 +146,13 @@ Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md
 
 [Architektur API](Arch_API/de.md), [Bewehrung API](Reinforcement_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
+
+<div class="mw-translate-fuzzy">
+
 Das Stützenverstärkungswerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole, durch Anwendung der folgenden Funktion verwendet werden:
+
+
+</div>
 
 ### Create Single Tie Four Rebars 
 

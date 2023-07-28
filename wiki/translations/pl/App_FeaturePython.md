@@ -1,7 +1,9 @@
 # App FeaturePython/pl
 {{TOCright}}
 
-## Introduction
+
+
+## Wprowadzenie
 
 An <img alt="" src=images/Feature.svg  style="width:32px;"> [App FeaturePython](App_FeaturePython.md) object, or formally an `App::FeaturePython`, is a simple instance of the [App DocumentObject](App_DocumentObject.md) in [Python](Python.md).
 
@@ -11,9 +13,11 @@ This is a simple object that by default doesn\'t have many properties, for examp
 
 
 
-*Simplified diagram of the relationships between the core objects in FreeCAD*
+*Uproszczony diagram zależności pomiędzy podstawowymi obiektami w programie FreeCAD.*
 
-## Usage
+
+
+## Użycie
 
 The [App FeaturePython](App_FeaturePython.md) is an internal object, so it cannot be created from the graphical interface. It is meant to be sub-classed by classes that will handle different types of data.
 
@@ -21,18 +25,22 @@ For example, the [Draft Text](Draft_Text.md), [Draft Dimension](Draft_Dimension.
 
 If the desired object should have a placement, a shape, an attachment or other complex properties, it is better to create one of the more complex classes, for example, [App GeoFeature](App_GeoFeature.md), [Part Feature](Part_Feature.md), or [Part Part2DObject](Part_Part2DObject.md).
 
-## Properties
 
-See [Property](Property.md) for all property types that scripted objects can have.
+
+## Właściwości
+
+Zobacz stronę [Właściwości](Property/pl.md) dla wszystkich typów właściwości, które mogą mieć obiekty tworzone skryptami.
 
 The [App FeaturePython](App_FeaturePython.md) (`App::FeaturePython` class) is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class) and inherits all its properties. It also has several additional properties.
 
-These are the properties available in the [property editor](Property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](Property_editor.md).
-
-### Data
+Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.md). Ukryte właściwości można wyświetlić za pomocą polecenia **Wyświetl wszystko** w menu kontekstowym [edytora właściwości](Property_editor/pl.md).
 
 
-{{TitleProperty|Base}}
+
+### Dane
+
+
+{{TitleProperty|Podstawa}}
 
 -    **Proxy|PythonObject|Hidden**: a custom class associated with this object.
 
@@ -44,10 +52,12 @@ These are the properties available in the [property editor](Property_editor.md).
 
 -    **Visibility|Bool|Hidden**: whether to display the object or not.
 
-### View
 
 
-{{TitleProperty|Base}}
+### Widok
+
+
+{{TitleProperty|Podstawa}}
 
 -    **Proxy|PythonObject|Hidden**: a custom [viewprovider](Viewprovider.md) class associated with this object.
 
@@ -61,22 +71,24 @@ These are the properties available in the [property editor](Property_editor.md).
 -    **Visibility|Bool**: it defaults to `True`, in which case the object will be visible in the [3D view](3D_view.md) if it has a [Shape](Part_TopoShape.md), otherwise it will be invisible. By default this property can be toggled on and off by selecting the object, and pressing the **Space** bar.
 
 
-{{TitleProperty|Selection}}
+{{TitleProperty|Wybieranie}}
 
 -    **On Top When Selected|Enumeration**: it controls the way in which the selection occurs in the [3D view](3D_view.md) if the object has a [Shape](Part_TopoShape.md), and there are many objects partially covered by others. It defaults to {{value|Disabled}}, meaning that no special highlighting will occur; {{value|Enabled}} means that the object will appear on top of any other object when selected; {{value|Object}} means that the object will appear on top only if the entire object is selected in the [Tree view](Tree_view.md); {{value|Element}} means that the object will appear on top only if a subelement (vertex, edge, face) is selected in the [3D view](3D_view.md).
 
 -    **Selection Style|Enumeration**: it controls the way the object is highlighted if it has a [Shape](Part_TopoShape.md). If it is {{value|Shape}}, the entire shape (vertices, edges, and faces) will be highlighted in the [3D view](3D_view.md); if it is {{value|BoundBox}} a bounding box will appear surrounding the object and will be highlighted.
 
-## Scripting
 
 
-**See also:**
+## Tworzenie skryptów 
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) and [scripted objects](Scripted_objects.md).
 
-See [Part Feature](Part_Feature.md) for the general information on adding objects to the document.
+**Zobacz również:**
 
-An App FeaturePython is created with the `addObject()` method of the document.
+[Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md), oraz [Obiekty skryptowe](Scripted_objects/pl.md).
+
+Ogólne informacje na temat dodawania obiektów do dokumentu można znaleźć na stronie [Część: właściwość](Part_Feature/pl.md).
+
+Obiekt App: Właściwości Python jest tworzony za pomocą metody dokumentu `addObject()`.
 
 
 ```python

@@ -1,30 +1,37 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher CreateSlot
-   MenuLocation:Sketch → Sketcher geometries → Create slot
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Utwórz wpust
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz wpust
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **S**
 ---
 
 # Sketcher CreateSlot/pl
 
-## Description
 
-Draws a slot by selecting the center of two semicircle. (In older FreeCAD versions by selecting one semicircle center and an endpoint of the other semicircle.)
 
-When starting the tool, the mouse pointer changes to a white cross with a red slot icon. The coordinates of the pointer are shown beside it in blue in real time.
+## Opis
+
+Rysuje kontur wpustu przez wybranie środka dwóch półokręgów. *(W starszych wersjach FreeCAD, przez wybranie jednego środka półkola i punktu końcowego drugiego półkola.)*
+
+Podczas uruchamiania narzędzia kursor myszki zmienia wygląd na biały krzyż z czerwoną ikoną rowka. Współrzędne kursora są wyświetlane obok niego, w czasie rzeczywistym w kolorze niebieskim.
 
 ![](images/SketcherCreateSlotExample.png‎ )
 
-## Usage
 
--   After pressing the <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:24px;"> **Create slot** toolbar button, click once to set the center of one semicircle, then move the mouse and click a second time to set center of the other semicircle.
--   Holding **Ctrl** when creating the second point will constrain the slot to be drawn horizontally or vertically <small>(v0.20)</small> 
--   Pressing **Esc** or clicking the right mouse button cancels the function.
 
-## Notes
+## Użycie
 
--   A slot can also be constrained horizontally or vertically if the **Auto constraints** option is enabled. <small>(v0.20)</small> 
+-   Po naciśnięciu przycisku na pasku narzędzi <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:24px;"> **Utwórz wpust** kliknij raz, aby ustawić środek jednego półkola, następnie przesuń kursor i kliknij drugi raz, aby ustawić środek drugiego półkola.
+-   Przytrzymanie klawisza **Ctrl** podczas tworzenia drugiego punktu spowoduje, że wpust będzie rysowany poziomo lub pionowo {{Version/pl|0.20}}
+-   Naciśnięcie klawisza **Esc** lub kliknięcie prawego przycisku myszki spowoduje zakończenie działania tego narzędzia.
+
+
+
+## Uwagi
+
+-   Wpust może być również związany poziomo lub pionowo, jeśli opcja **Wiązania automatyczne** jest włączona. {{Version/pl|0.20}}
 
 
 

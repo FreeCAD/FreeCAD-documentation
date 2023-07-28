@@ -11,6 +11,9 @@
 # Sketcher CompCreateBSpline/it
 
 
+</div>
+
+
 
 ## Descrizione
 
@@ -20,11 +23,22 @@
 
 ## Tipi di B-Splines 
 
--   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline](Sketcher_CreateBSpline/it.md) : Disegna una B-Spline dai suoi punti di controllo.
--   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [B-spline Periodica](Sketcher_CreatePeriodicBSpline/it.md) : Disegna una B-Spline periodica (chiusa) dai suoi punti di controllo.
+-   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline by control points](Sketcher_CreateBSpline.md): Draws a B-spline curve by its control points.
+
+-   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Periodic B-spline by control points](Sketcher_CreatePeriodicBSpline.md): Draws a periodic (closed) B-spline curve by its control points.
+
+-   <img alt="" src=images/Sketcher_CreateBSplineByInterpolation.svg  style="width:32px;"> [B-spline by knots](Sketcher_CreateBSplineByInterpolation.md): Draws a B-spline curve by its knots. <small>(v0.21)</small> 
+
+-   <img alt="" src=images/Sketcher_CreatePeriodicBSplineByInterpolation.svg  style="width:32px;"> [Periodic B-spline by knots](Sketcher_CreatePeriodicBSplineByInterpolation.md): Draws a periodic (closed) B-spline curve by its knots. <small>(v0.21)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 
 
+
+
+</div>
 
 
 {{Sketcher Tools navi

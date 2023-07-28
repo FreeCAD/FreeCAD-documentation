@@ -9,15 +9,11 @@
 
 # Path ToolLibraryEdit/de
 
+
+
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Der **<img src="images/Path_ToolLibraryEdit.svg" width=16px> [Werkzeug Manager/Editor](Path_ToolLibraryEdit/de.md)** erlaubt es die verschiedenen Werkzeuge der im Maschinenobjekt eines **<img src="images/Path-Job.png" width=16px> [Pfad Auftrag](Path_Job/de.md)** zu bearbeiten. Diese Werkzeugtabelle wird von den verschiedenen im Projekt enthaltenen Arbeitsgängen verwendet, um notwendige Informationen über das aktuelle Werkzeug zu erhalten.
-
-
-</div>
+Der **<img src="images/Path_ToolLibraryEdit.svg" width=16px> [Werkzeug Manager/Editor](Path_ToolLibraryEdit/de.md)** erlaubt es, die verschiedenen Werkzeuge der im Maschinenobjekt eines **<img src="images/Path_Job.svg" width=16px> [Pfad Auftrag](Path_Job/de.md)** zu bearbeiten. Diese Werkzeugtabelle wird von den verschiedenen im Projekt enthaltenen Arbeitsgängen verwendet, um notwendige Informationen über das aktuelle Werkzeug zu erhalten.
 
 It serves for the selection of a tool which you want to use in your job as well.
 

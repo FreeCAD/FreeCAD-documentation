@@ -20,6 +20,8 @@ Un element primitiv geometric este Poligonul Regulat care este disponibil din di
 <img alt="" src=images/Part_RegularPolygon_Example.png  style="width:400px;">
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 Dialogul Create Primitives pote fi accesat via iconiței [CreatePrimitives](Part_CreatePrimitives.md) <img alt="" src=images/Part_CreatePrimitives.png  style="width:32px;"> localizată în meniul Part sau Part toolbar, în Atelierul Part(Workbench).

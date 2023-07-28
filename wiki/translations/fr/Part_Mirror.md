@@ -18,12 +18,14 @@ Un exemple :
 
 ![Après (symétrisé par rapport au plan **YZ**)](images/PARTMirrorAfterv11.png ) 
 
+
+
 ## Utilisation
 
 ![](images/PARTMirrorDialogv11.png )
 
 1.  Sélectionnez l\'objet source dans la liste du panneau de mise en miroir.
-2.  Sélectionnez un **Plan de symétrie** standard dans le menu déroulant.
+2.  Sélectionnez un **Plan miroir** standard dans le menu déroulant.
 3.  Appuyez sur **OK** pour créer l\'objet image.
 
 
@@ -41,6 +43,8 @@ Les cases **Point de base** peuvent être utilisées pour déplacer le miroir pl
   **XZ**        **X**, **Z**    Pas d\'effet.
   **YZ**        **X**           Déplace le plan de symmétrie le long de l\'axe **X**.
   **YZ**        **Y**, **Z**    Pas d\'effet.
+
+
 
 ## Remarques
 

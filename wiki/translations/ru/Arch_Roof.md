@@ -1,16 +1,16 @@
 ---
 - GuiCommand:/ru
-   Name:Arch Roof
-   Name/ru:Arch Roof
+   Name:Arch_Roof
+   Name/ru:Крыша
    MenuLocation:Архитектура → Крыша
    Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:**R** **F**
+   SeeAlso:[Структура](Arch_Structure/ru.md), [Стена](Arch_Wall/ru.md)
 ---
 
 # Arch Roof/ru
 
 
-</div>
 
 ## Описание
 
@@ -21,53 +21,71 @@ The **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** to
 <img alt="" src=images/RoofExample.png  style="width:600px;"> 
 *View from above a building model showing the roof with certain transparency*
 
+
+
 ## Применение
 
-1.  Create a wire with following the counter-clockwise direction and select it.
+1.  Создайте замкнутый контур с помощью инструмента **Wire** с направлением построения против часовой стрелки и выберите его.
 
     :   <img alt="" src=images/CounterclockwiseWire.png  style="width:600px;">
 
-2.  Press the **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** button, or press **R** then **F** keys
+2.  Нажмите кнопку **<img src="images/Arch_Roof.svg" width=16px> [Крыша](Arch_Roof/ru.md)
+**, или клавишу клавиатуры **R** затем **F**
 
-3.  The default roof object could have a strange shape, it\'s because the tool is missing some necessary information.
+3.  Крыша созданная изначально может иметь странную форму, это связанно с тем, что параметры граней созданной крыши, пока что ещё не настроены.
 
-4.  After creating the default roof, double click on the object in the [tree view](tree_view.md) to access and edit all the properties. Angle must be between 0 and 90.
+4.  После создания крыши по умолчанию дважды щелкните по объекту в [древе проекта](tree_view/ru.md) для доступа к редактированию свойств. Угол крыши должен быть между 0 и 90.
 
     :   ![](images/RoofTable.png )
 
-5.  Each line corresponds to a roof pane. So you can set the properties you want for each roof pane.
+5.  Каждая строка соответствует одной из панелей крыши. Таким образом, вы можете установить нужные свойства для каждой панели крыши.
 
-6.  To help you, you can set `Angle` or `Run` to `0` and define a `Relative Id`, this makes an automatic calculation to find the data relative to the `Relative Id`.
+6.  Чтобы помочь себе, вы можете установить `Angle (Угол)` или `Run` в `0` и определить `Relative Id`, что приведет к автоматическому расчету, чтобы найти данные относительно `Relative Id`.
 
-7.  It works like this:
-    1.  If `Angle &#61; 0` and `Run &#61; 0` then profile is identical to the relative profile.
-    2.  If `Angle &#61; 0` then `Angle` is calculated so that the height is the same one as the relative profile.
-    3.  If `Run &#61; 0` then `Run` is calculated so that the height is the same one as the relative profile.
+7.  Это работает следующим образом:
+    1.  Если `Angle (Угол) &#61; 0` и `Run &#61; 0` тогда профиль идентичен относительному профилю.
+    2.  Если `Angle (Угол) &#61; 0` тогда `Angle (Угол)` рассчитывается таким образом, чтобы высота была такой же, как и относительный профиль.
+    3.  Если `Run &#61; 0` тогда `Run` рассчитывается таким образом, чтобы высота была такой же, как и относительный профиль.
 
-8.  Finally, set an Angle to 90° to make a gable.
+8.  Наконец, установите Angle (Угол) на 90°, чтобы сделать фронтон.
 
     :   <img alt="" src=images/RoofProfil.png  style="width:600px;">
 
 9.  
-    **Note**: for better comprehension, please see this [youtube clip](https://www.youtube.com/watch?v=4Urwru71dVk).
+    **Примечание**: для лучшего понимания, пожалуйста, посмотрите это [youtube видеоролик](https://www.youtube.com/watch?v=4Urwru71dVk).
+
+
 
 ## Опции
 
+
+<div class="mw-translate-fuzzy">
+
 -   Крыши обладают таким же свойствами и моделью поведения, как и все остальные [компоненты верстака Arch](Arch_Component/ru.md)
+
+
+</div>
+
+
 
 ## Свойства
 
--    **Angles**: List of the slope angle of the roof pane (an angle for each edge in the wire).
+-    **Angles (Углы)**: Список содержащий углы наклона крыши, для каждой её грани.
 
--    **Runs**: List of the width of the roof pane (a run for each edge in the wire).
+-    **Runs ()**: Список содержащий расстояние от центра крыши до свеса, для каждой грани крыши.
 
--    **IdRel**: List of relation Id of the slope angle of the roof.
+-    **IdRel**: Список содержащий идентификаторы, для каждой грани крыши.
 
--    **Thickness**: List of thickness of the roof pane. (a thickness for each edge in the wire).
+-    **Thickness (Толщины)**: Список содержащий толщины крыши, для каждой её грани.
 
--    **Overhang**: List of the overhang of the roof pane (an overhang for each edge in the wire).
+-    **Overhang (Свесы)**: Список содержащий длины свесов крыши, для каждой её грани.
 
--    **Face**: The face index of the base object to be used (not really used).
+-    **Face (Грань)**: Индекс грани базового объекта (не используется).
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Программирование
 
@@ -76,7 +94,12 @@ The **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** to
 
 [Arch API](Arch_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The Roof tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+
+</div>
+
+The Roof tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 Roof = makeRoof(baseobj=None, facenr=0, angles=[45.,], run=[], idrel=[0,], thickness=[50.,], overhang=[100.,], name="Roof")
 ```

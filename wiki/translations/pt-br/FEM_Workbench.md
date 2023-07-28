@@ -1,24 +1,28 @@
-# <img alt="Ícone da bancada de trabalho FEM" src=images/Workbench_FEM.svg  style="width:64px;"> FEM Workbench/pt-br
-
-
-{{TOCright}}
-
-## Introdução
-
-
+# FEM Workbench/pt-br
 <div class="mw-translate-fuzzy">
 
-A [ bancada FEM](FEM_Workbench/pt-br.md) fornece um fluxo de trabalho moderno de [análise de elementos finitos](https://en.wikipedia.org/wiki/Finite_element_analysis) (FEA) para o FreeCAD. Isso significa que todas as ferramentas para fazer uma análise são combinadas em uma interface gráfica de usuário (GUI).
+
+
 
 
 </div>
 
+<img alt="Ícone da bancada de trabalho FEM" src=images/Workbench_FEM.svg  style="width:128px;">
+
+
+{{TOCright}}
+
+
+
+## Introdução
+
+A [ bancada FEM](FEM_Workbench/pt-br.md) fornece um fluxo de trabalho moderno de [análise de elementos finitos](https://en.wikipedia.org/wiki/Finite_element_analysis) (FEA) para o FreeCAD. Isso significa que todas as ferramentas para fazer uma análise são combinadas em uma interface gráfica de usuário (GUI).
+
 <img alt="" src=images/FemWorkbench.jpg  style="width:300px;">
 
+
+
 ## Fluxo de Trabalho 
-
-
-<div class="mw-translate-fuzzy">
 
 Os passos para realizar uma análise de elementos finitos são:
 
@@ -30,9 +34,6 @@ Os passos para realizar uma análise de elementos finitos são:
         3.  Criando uma malha de elementos finitos para o modelo geométrico ou importando-os de um aplicativo diferente.
 2.  Resolvendo: executando um solucionador externo de dentro do FreeCAD.# Pós-processamento: visualizar os resultados da análise a partir do FreeCAD ou exportar os resultados para que possam ser pós-processados com outra aplicação.
 
-
-</div>
-
 A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de trabalho usa solucionadores externos, a quantidade de configuração manual dependerá do sistema operacional que você está usando. Veja [ Instalação da FEM](FEM_Install/pt-br.md) para instruções sobre como configurar as ferramentas externas.
 
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;">
@@ -40,9 +41,13 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 {{Caption | Fluxo de trabalho da bancada FEM; a bancada chama dois programas externos para realizar o meshing de um objeto sólido e executa a solução real do problema do elemento finito}}
 
+
+
 ## Menu: Modelo 
 
 -   <img alt="" src=images/FEM_Analysis.svg  style="width:32px;"> [Contêiner de análise](FEM_Analysis/pt-br.md): Cria um novo contêiner de análise mecânica. Se um sólido é selecionado na árvore de visualização antes de clicar nele, a janela de malha vai ser aberta em seguida.
+
+
 
 ### Materiais
 
@@ -54,67 +59,77 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 -   <img alt="" src=images/FEM_MaterialReinforced.svg  style="width:32px;"> [Material reforçado](FEM_MaterialReinforced/pt-br.md): Permite selecionar materiais reforçados constituídos por uma matriz e um reforço da base de dados.
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/FEM_MaterialEditor.svg  style="width:32px;"> [Editor de materiais](FEM_MaterialEditor/pt-br.md):: Permite que você abra o editor de materiais para editar materiais.
 
 
-</div>
 
 ### Geometria do Elemento 
 
--   <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Seção transversal da viga](FEM_ElementGeometry1D/pt-br.md)
+-   <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Seção transversal da viga](FEM_ElementGeometry1D/pt-br.md): Usada para definir seções transversais para elementos de viga.
 
--   <img alt="" src=images/FEM_ElementRotation1D.svg  style="width:32px;"> [Rotação de viga](FEM_ElementRotation1D/pt-br.md)
+-   <img alt="" src=images/FEM_ElementRotation1D.svg  style="width:32px;"> [Rotação de viga](FEM_ElementRotation1D/pt-br.md): Usada para girar seções transversais de elementos de viga.
 
--   <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width:32px;"> [Espessura da casca de placa](FEM_ElementGeometry2D/pt-br.md)
+-   <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width:32px;"> [Espessura da casca de placa](FEM_ElementGeometry2D/pt-br.md): Usada para definir a espessura da casca.
+
+-   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Seção do fluido para fluxo 1D](FEM_ElementFluid1D/pt-br.md): Usada para criar elemento de seção de fluido para redes pneumáticas e hidráulicas.
+
+
+
+### Restrições Eletromagnéticas 
+
+-   <img alt="" src=images/FEM_CompEmConstraints.png  style="width:48px;"> [Restrições eletromagnéticas](FEM_CompEmConstraints.md): Este é um menu de ícones na barra de ferramentas FEM Constraints que contém as seguintes restrições:
+
+-   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Restrição de potencial eletrostático](FEM_ConstraintElectrostaticPotential/pt-br.md): Usada para definir o potencial eletrostático.
 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Seção do fluido para fluxo 1D](FEM_ElementFluid1D/pt-br.md)
+  - <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:32px;"> [Restrição de densidade de corrente](FEM_ConstraintCurrentDensity.md): Usada para definir uma densidade de corrente. {{Version/pt-br|0.21}}
 
 
 </div>
-
-### Restrições Eletrostáticas 
 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Restrição de potencial eletrostático](FEM_ConstraintElectrostaticPotential/pt-br.md)
+  - <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:32px;"> [Restrição de magnetização](FEM_ConstraintMagnetization.md): Usada para definir uma magnetização. {{Version/pt-br|0.21}}
 
 
 </div>
+
+
 
 ### Restrições do Fluido 
 
+-   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Restrição de velocidade inicial do fluxo](FEM_ConstraintInitialFlowVelocity/pt-br.md): Usada para definir uma velocidade inicial de fluxo para um corpo (volume).
+
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Restrição de velocidade inicial do fluxo](FEM_ConstraintInitialFlowVelocity/pt-br.md):
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Restrição de pressão inicial](FEM_ConstraintInitialPressure.md): Usada para definir uma pressão inicial para um corpo (volume). {{Version/pt-br|0.21}}
 
 
 </div>
 
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for a body (volume). <small>(v1.0)</small> 
+-   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Restrição da velocidade de fluxo](FEM_ConstraintFlowVelocity/pt-br.md): Usada para definir uma velocidade de fluxo como uma condição de contorno em uma aresta (2D) ou face (3D).
 
--   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Restrição da velocidade de fluxo](FEM_ConstraintFlowVelocity/pt-br.md)
 
-### Restrições Geométrica 
+
+### Restrições Geométricas 
 
 -   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Restrição rotação plana](FEM_ConstraintPlaneRotation/pt-br.md): Usada para definir uma restrição de rotação plana em uma face plana.
 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Impressão da seção de restrição](FEM_ConstraintSectionPrint/pt-br.md): <small>(v0.19)</small> 
+-   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Impressão da seção de restrição](FEM_ConstraintSectionPrint/pt-br.md): Usado para imprimir as variáveis de saída faciais predefinidas (forças e momentos) para o arquivo dat. <small>(v0.19)</small> 
 
 
 </div>
 
--   <img alt="" src=images/Fem-constraint-transform.svg  style="width:32px;"> [Restrição de transformar](FEM_ConstraintTransform/pt-br.md): Usado para definir uma restrição de transformação em um rosto.
+-   <img alt="" src=images/Fem-constraint-transform.svg  style="width:32px;"> [Restrição de transformar](FEM_ConstraintTransform/pt-br.md): Usada para definir uma restrição de transformação em um rosto.
+
+
 
 ### Restrições Mecânicas 
 
@@ -124,17 +139,25 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 -   <img alt="" src=images/FEM_ConstraintContact.svg  style="width:32px;"> [Restrição de contato](FEM_ConstraintContact/pt-br.md): Usada para definir uma restrição de contato entre duas faces.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Restrições de amarração](FEM_ConstraintTie/pt-br.md): <small>(v0.19)</small> 
 
--   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a spring. <small>(v0.20)</small> 
 
--   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Restrição de força](FEM_ConstraintForce/pt-br.md): Usada para definir uma força em Newtons \[N\] aplicada uniformemente a uma face selecionável em uma direção definida.
+</div>
+
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Restrição de mola](FEM_ConstraintSpring.md): Usada para definir uma mola. {{Version/pt-br|0.20}}
+
+-   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Restrição de força](FEM_ConstraintForce.md): Usada para definir uma força em Newtons \[N\] aplicada uniformemente a uma face selecionável em uma direção definida.
 
 -   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Restrição de pressão](FEM_ConstraintPressure/pt-br.md): Usada para definir uma restrição de pressão.
 
--   <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Constraint centrif](FEM_ConstraintCentrif.md): Used to define a centrifugal body load constraint. <small>(v0.20)</small> 
+-   <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Restrição centrífuga](FEM_ConstraintCentrif.md): Usada para definir uma restrição de carga do corpo centrífugo. {{Version/pt-br|0.20}}
 
 -   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Restrição de peso próprio](FEM_ConstraintSelfWeight/pt-br.md): Usada para definir uma aceleração da gravidade agindo sobre um modelo.
+
+
 
 ### Restrições Térmicas 
 
@@ -146,15 +169,11 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 -   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Restrição de fonte de corpo quente](FEM_ConstraintBodyHeatSource.md)
 
+
+
 ### Restrições sem solução 
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Fem-constraint-fluid-boundary.svg  style="width:32px;"> [Restrição de fronteira de fluido](FEM_ConstraintFluidBoundary/pt-br.md)
-
-
-</div>
+-   <img alt="" src=images/Fem-constraint-fluid-boundary.svg  style="width:32px;"> [Restrição de fronteira de fluido](FEM_ConstraintFluidBoundary/pt-br.md): Usado para definir uma condição de contorno de fluido.
 
 -   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Restrição de rolamento](FEM_ConstraintBearing/pt-br.md): Usada para definir uma restrição de rolamento.
 
@@ -162,15 +181,19 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 -   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Restrição de polia](FEM_ConstraintPulley/pt-br.md): Usada para definir uma restrição de polia.
 
+
+
 ### Sobreescrever Restrições 
 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Permissividade de vácuo constante](FEM_ConstantVacuumPermittivity/pt-br.md): <small>(v0.19)</small> 
+-   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Permissividade de vácuo constante](FEM_ConstantVacuumPermittivity/pt-br.md): Usado para substituir a [permissividade do vácuo](https://en.wikipedia.org/wiki/Vacuum_permittivity) por um valor personalizado. <small>(v0.19)</small> 
 
 
 </div>
+
+
 
 ## Menu: Malhas 
 
@@ -200,9 +223,17 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 -   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [Malha FEM para Mesh](FEM_FemMesh2Mesh/pt-br.md): Converte a superfície de uma malha FEM para uma malha de Mesh.
 
+
+
 ## Menu: Solucionador 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solucionador Calculix CCX](FEM_SolverCalculixCxxtools/pt-br.md): Cria um novo solucionador para esta análise. Na maioria dos casos, o solucionador é criado junto com a análise.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -212,9 +243,15 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solucionador Elmer](FEM_SolverElmer/pt-br.md): Cria o controlador solver para Elmer. Ele é independente de outros objetos solucionadores.
 
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md): <small>(v0.20)</small> 
+
+</div>
+
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md): Creates the solver controller for the MYSTRAN solver. <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -224,10 +261,24 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 </div>
 
+-   <img alt="" src=images/FEM_CompMechEquations.png  style="width:" height="32px;"> [Mechanical equations](FEM_CompMechEquations.md): This is an icon menu in the FEM Equations toolbar that holds the following equations: <small>(v0.21)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Equação de elasticidade](FEM_EquationElasticity/pt-br.md)
+
+
+</div>
+
+  - <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [Deformation equation](FEM_EquationDeformation.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform nonlinear mechanical analyses (deformations). <small>(v0.21)</small> 
+
+-   <img alt="" src=images/FEM_CompEmEquations.png  style="width:" height="32px;"> [Electromagnetic equations](FEM_CompEmEquations.md): This is an icon menu in the FEM Equations toolbar that holds the following equations: <small>(v0.21)</small> 
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:32px;"> [Equação eletrostática](FEM_EquationElectrostatic/pt-br.md)
 
 
 </div>
@@ -240,13 +291,9 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 </div>
 
+  - <img alt="" src=images/FEM_EquationMagnetodynamic.svg  style="width:32px;"> [Magnetodynamic equation](FEM_EquationMagnetodynamic.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to calculate magnetodynamics. <small>(v0.21)</small> 
 
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:32px;"> [Equação eletrostática](FEM_EquationElectrostatic/pt-br.md)
-
-
-</div>
+  - <img alt="" src=images/FEM_EquationMagnetodynamic2D.svg  style="width:32px;"> [Magnetodynamic 2D equation](FEM_EquationMagnetodynamic2D.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to calculate magnetodynamics in 2D. <small>(v0.21)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -278,11 +325,19 @@ o menu para ajustar e iniciar o solucionador selecionado.
 
 -   <img alt="" src=images/FEM_SolverRun.svg  style="width:32px;"> [Executar solucionador de cálculo](FEM_SolverRun/pt-br.md): Executa o solucionador selecionado das análises ativas.
 
+
+
 ## Menu: Resultados 
 
 -   <img alt="" src=images/FEM_ResultsPurge.svg  style="width:32px;"> [Limpar resultados](FEM_ResultsPurge/pt-br.md): Deleta os resultados das análises ativas.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> [Mostrar resultado](FEM_ResultShow/pt-br.md): Usado para exibir o resultado de uma análise.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -332,6 +387,8 @@ o menu para ajustar e iniciar o solucionador selecionado.
 
 </div>
 
+-   <img alt="" src=images/FEM_PostFilterContours.svg  style="width:32px;"> [Contours filter](FEM_PostFilterContours.md): Used to display iso-lines (for analyses in 2D) or iso-contours. <small>(v0.21)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -366,9 +423,15 @@ o menu para ajustar e iniciar o solucionador selecionado.
 
 </div>
 
-  - <img alt="" src=images/Fem-post-geo-plane.svg  style="width:32px;"> [Filter function plane](FEM_PostCreateFunctionPlane.md): Defines that the result mesh is cut with a plane.
+  - <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:32px;"> [Filter function plane](FEM_PostCreateFunctionPlane.md): Cuts the result mesh with a plane.
 
-  - <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:32px;"> [Filter function sphere](FEM_PostCreateFunctionSphere.md): Defines that the result mesh is cut with a sphere.
+  - <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:32px;"> [Filter function sphere](FEM_PostCreateFunctionSphere.md): Cuts the result mesh with a sphere.
+
+  - <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:32px;"> [Filter function cylinder](FEM_PostCreateFunctionCylinder.md): Cuts the result mesh with a cylinder. <small>(v0.21)</small> 
+
+  - <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:32px;"> [Filter function box](FEM_PostCreateFunctionBox.md): Cuts the result mesh with a box. <small>(v0.21)</small> 
+
+
 
 ## Menu: Utilidades 
 
@@ -390,15 +453,21 @@ o menu para ajustar e iniciar o solucionador selecionado.
 
 -   <img alt="" src=images/FEM_Examples.svg  style="width:32px;"> [Exemplos de FEM abertos](FEM_Examples/pt-br.md): Abra a GUI para acessar exemplos FEM.
 
+
+
 ## Menu de Contexto 
 
 -   <img alt="" src=images/FEM_MeshClear.svg  style="width:32px;"> [Malha FEM transparente](FEM_MeshClear/pt-br.md): Deleta o arquivo de malha do arquivo FreeCAD. Útil para fazer um arquivo FreeCAD mais leve.
 
 -   <img alt="" src=images/FEM_MeshDisplayInfo.svg  style="width:32px;"> [Exibir informações sobre a malha FEM](FEM_MeshDisplayInfo/pt-br.md):
 
+
+
 ## Preferências
 
 -   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Preferências\...](FEM_Preferences/pt-br.md): Preferências disponíveis em Ferramentas FEM.
+
+
 
 ## Informações
 
@@ -464,6 +533,8 @@ Tutoriais em vídeo: [Vídeo FEM para iniciantes](https://forum.freecadweb.org/v
 
 Muitos tutoriais em vídeo: [anisim Software de Engenharia de Código Aberto](https://www.youtube.com/channel/UCnvFCm2BbXOVI3ObfXcxXhw) (em Alemão)
 
+
+
 ## Ampliação da bancada de trabalho FEM 
 
 O bancada de trabalho FEM está em constante desenvolvimento. Um objetivo do projeto é encontrar maneiras de interagir facilmente com vários solucionadores FEM, para que o usuário final possa agilizar o processo de criação, enredamento, simulação e otimização de um problema de projeto de engenharia, tudo dentro do FreeCAD.
@@ -493,12 +564,20 @@ Um guia do desenvolvedor foi escrito para ajudar os usuários a entenderem a com
 -   [Visualização antecipada do ebook: Guia do desenvolvedor do módulo para a fonte FreeCAD](https://forum.freecadweb.org/viewtopic.php?t=17581) (tópico do fórum)
 -   [Guia de desenvolvimento do FreeCAD Mod](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide) (repositório github)
 
+
+
 ## Ampliação da documentação do bancada de trabalho FEM 
 
 -   Mais informações sobre a extensão ou falta de documentação FEM podem ser encontradas no fórum: [Documentação FEM em falta no Wiki](https://forum.freecadweb.org/viewtopic.php?f=18&t=20823)
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{FEM Tools navi

@@ -83,6 +83,8 @@ obj.ThePropertyName = {{TODO```"example value for setter"
 obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
+## App::PropertyAmountOfSubstance
+
 ## App::PropertyAngle
 
 An angle property. It can contain an `angle` value. You can use \"Value\" variable to get float variable. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
@@ -164,9 +166,33 @@ obj.ThePropertyName = {{TODO```"example value for setter"
 obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
+## App::PropertyCurrentDensity
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyDensity
+
 ## App::PropertyDirection
 
 Identical to [App::PropertyVectorDistance](#App:_PropertyVectorDistance.md).
+
+## App::PropertyDissipationRate
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
 
 ## App::PropertyDistance
 
@@ -183,6 +209,96 @@ obj.ThePropertyName = 500
 obj.ThePropertyName # returns "500.0 mm"
 obj.ThePropertyName.Value # returns 500.0
 ```
+
+## App::PropertyDynamicViscosity
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyElectricalCapacitance
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyElectricalConductance
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyElectricalConductivity
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyElectricalInductance
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyElectricalResistance
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyElectricCharge
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyElectricCurrent
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyElectricPotential
 
 ## App::PropertyEnumeration
 
@@ -339,6 +455,17 @@ obj.ThePropertyName = {{TODO```"example value for setter"
 obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
+## App::PropertyHeatFlux
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
 ## App::PropertyInteger
 
 An integer property. It can contain an integer value from -2147483646 to 2147483647 included. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
@@ -390,6 +517,44 @@ obj.addProperty("App::PropertyIntegerSet", "ThePropertyName", "Subsection", "Des
 obj.ThePropertyName = {{TODO```"example value for setter"
 obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
+
+## App::PropertyInverseArea
+
+
+<small>(v0.21)</small> 
+
+## App::PropertyInverseLength
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyInverseVolume
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyKinematicViscosity
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
 
 ## App::PropertyLength
 
@@ -620,6 +785,61 @@ obj.ThePropertyName = {{TODO```"example value for setter"
 obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
+## App::PropertyLuminousIntensity
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyMagneticFieldStrength
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyMagneticFlux
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyMagneticFluxDensity
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyMagnetization
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
 ## App::PropertyMap
 
 A {{TODO}}map property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
@@ -632,6 +852,17 @@ obj.addProperty("App::PropertyMap", "ThePropertyName", "Subsection", "Descriptio
 obj.ThePropertyName = {{TODO```"example value for setter"
 obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
+
+## App::PropertyMass
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
 
 ## App::PropertyMaterial
 
@@ -769,6 +1000,17 @@ obj.ThePropertyName # returns [placement0, placement1, placement2]
 
 Identical to [App::PropertyVectorDistance](#App:_PropertyVectorDistance.md).
 
+## App::PropertyPower
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
 ## App::PropertyPrecision
 
 A {{TODO}}precision property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
@@ -834,6 +1076,41 @@ obj.ThePropertyName = {{TODO```"example value for setter"
 obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
+## App::PropertyRotation
+
+## App::PropertyShearModulus
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertySpecificEnergy
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertySpecificHeat
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
 ## App::PropertySpeed
 
 A {{TODO}}speed property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
@@ -846,6 +1123,19 @@ obj.addProperty("App::PropertySpeed", "ThePropertyName", "Subsection", "Descript
 obj.ThePropertyName = {{TODO```"example value for setter"
 obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
+
+## App::PropertyStiffness
+
+## App::PropertyStress
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
 
 ## App::PropertyString
 
@@ -872,6 +1162,72 @@ obj.addProperty("App::PropertyStringList", "ThePropertyName", "Subsection", "Des
 obj.ThePropertyName = {{TODO```"example value for setter"
 obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
+
+## App::PropertyTemperature
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyThermalConductivity
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyThermalExpansionCoefficient
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyThermalTransferCoefficient
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyTime
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyUltimateTensileStrength
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
 
 ## App::PropertyUUID
 
@@ -960,6 +1316,26 @@ obj.ThePropertyName = [v0, (1, 2, 3), v2, (4, 5, 6)]
 obj.ThePropertyName # returns [Vector (0, 10, 0), Vector (1, 2, 3), Vector (30, -10, 0), Vector (4, 5, 6)]
 ```
 
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyVelocity
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
 ## App::PropertyVolume
 
 A {{TODO}}volume property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
@@ -972,6 +1348,39 @@ obj.addProperty("App::PropertyVolume", "ThePropertyName", "Subsection", "Descrip
 obj.ThePropertyName = {{TODO```"example value for setter"
 obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
+
+## App::PropertyVolumeFlowRate
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyVolumetricThermalExpansionCoefficient
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyWork
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
 
 ## App::PropertyXLink
 
@@ -1024,6 +1433,28 @@ obj.addProperty("App::PropertyXLinkSubList", "ThePropertyName", "Subsection", "D
 obj.ThePropertyName = {{TODO```"example value for setter"
 obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
+
+## App::PropertyYieldStrength
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
+
+## App::PropertyYoungsModulus
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Version/ru|1.0}}
+
+
+</div>
 
 ## Mesh::PropertyCurvatureList
 

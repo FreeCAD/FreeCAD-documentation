@@ -9,6 +9,8 @@
 
 # PartDesign PolarPattern/ru
 
+
+
 ## Описание
 
 Инструмент <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:24px;"> **Круговой массив** создаёт круговой массив из одного или нескольких элементов.
@@ -16,7 +18,11 @@
 ![](images/PartDesign_PolarPattern_example.png ) 
 *A slot-shaped pocket (B) made on top of a base pad (A, also referred to as support) is used for a polar pattern. The result (C) is shown on the right.*
 
+
+
 ## Применение
+
+
 
 ### Создание массива 
 
@@ -30,6 +36,8 @@
 6.  The **PolarPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 7.  Press the **OK** button to finish.
 
+
+
 ### Изменение
 
 1.  Do one of the following:
@@ -37,6 +45,8 @@
     -   Right-click the PolarPattern object in the [Tree view](Tree_view.md) and select **Edit PolarPattern** from the context menu.
 2.  The **PolarPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 3.  Press the **OK** button to finish.
+
+
 
 ## Опции
 
@@ -99,10 +109,12 @@
 
 ## Ordering features 
 
-If some of the selected features are additive and others subtractive, their order can have have an impact on the final result. You can change the order by dragging individual features in the list. <small>(v0.19)</small> 
+If some of the selected features are additive and others subtractive, their order can have have an impact on the final result. You can change the order by dragging individual features in the list.
 
 ![](images/PartDesign_feature-order.gif ) 
 *Effect of the feature order*
+
+
 
 ## Ограничения
 

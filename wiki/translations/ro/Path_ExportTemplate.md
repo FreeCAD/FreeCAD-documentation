@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -23,6 +25,8 @@ Tab-ul Edit-\>Preferences\...-\>Path-\>Job Preferences tab, Defaults-\>Template 
 
 </div>
 
+
+
 ## Utilizare
 
 
@@ -36,6 +40,8 @@ Crearea unui Șablon
 
 
 </div>
+
+
 
 ## Opţiuni
 

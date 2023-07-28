@@ -1,4 +1,8 @@
 # Arch SHP/en
+{{TOCright}}
+
+## Description
+
 FreeCAD is able to import [shapefiles](https://en.wikipedia.org/wiki/Shapefile)
 
 The importer uses the shapefile.py library from <https://github.com/GeospatialPython/pyshp>, it is not found on your system on first run, the importer will propose to download and install it for you.
@@ -9,7 +13,7 @@ One shape will be created from each shapefile in FreeCAD.
 
 Note that all the question of georeferenced units, with hundreds of projection systems used worldwide, is not treated at the moment. The coordinates from the file are used \"as is\".
 
-### Related
+## Related
 
 -   FreeCAD Forum thread announcement [Shapefile Importer](https://forum.freecadweb.org/viewtopic.php?f=9&t=46150)
 -   Forum thread on [OSArch](https://community.osarch.org/discussion/comment/578#Comment_578) discussion

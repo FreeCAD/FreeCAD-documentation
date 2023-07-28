@@ -33,6 +33,8 @@ Pages relating to Architectural and Building Information Management
 | [Template:Arch Tools navi/de](Template_Arch_Tools_navi/de.md) | [Arch Truss/de](Arch_Truss/de.md) | [Arch tutorial/de](Arch_tutorial/de.md) |
 | [Arch Wall/de](Arch_Wall/de.md) | [Arch Window/de](Arch_Window/de.md) | [Arch Workbench/de](Arch_Workbench/de.md) |
 | [Artwork Arch/de](Artwork_Arch/de.md) | [BIM Library/de](BIM_Library/de.md) | [Custom Spacing/de](Custom_Spacing/de.md) |
+| [Example Combined Footing/de](Example_Combined_Footing/de.md) | [Example Slab Having LShape Rebars Reinforcement Mesh/de](Example_Slab_Having_LShape_Rebars_Reinforcement_Mesh/de.md) | [Example Slab Having Mesh Of Straight Rebars/de](Example_Slab_Having_Mesh_Of_Straight_Rebars/de.md) |
+| [Example Slab Having UShape Rebars Reinforcement Mesh/de](Example_Slab_Having_UShape_Rebars_Reinforcement_Mesh/de.md) | [Example Slab Spanning in One Direction/de](Example_Slab_Spanning_in_One_Direction/de.md) | [Example Slab Spanning in Two Directions/de](Example_Slab_Spanning_in_Two_Directions/de.md) |
 | [IfcOpenShell/de](IfcOpenShell/de.md) | [Import/Export IFC - compiling IfcOpenShell/de](Import/Export_IFC_-_compiling_IfcOpenShell/de.md) | [Manual:BIM modeling/de](Manual_BIM_modeling/de.md) |
 | [Reinforcement Addon/de](Reinforcement_Addon/de.md) | [Reinforcement API/de](Reinforcement_API/de.md) | [Tutorial custom placing of windows and doors/de](Tutorial_custom_placing_of_windows_and_doors/de.md) |
 | [Tutorial for open windows/de](Tutorial_for_open_windows/de.md) | [Category:Reinforcement/de](Category_Reinforcement/de.md) |

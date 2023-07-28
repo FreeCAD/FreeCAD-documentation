@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExportPageDXF
-   MenuLocation:TechDraw → Export Page as DXF
+   MenuLocation:TechDraw → Page → Export Page as DXF
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Version:0.18
    SeeAlso:[TechDraw Export Page as SVG](TechDraw_ExportPageSVG.md), [Draft DXF](Draft_DXF.md)
@@ -11,13 +11,20 @@
 
 ## Description
 
-The ExportPageDXF tool saves a drawing page as a [DXF](DXF.md) file.
+The **TechDraw ExportPageDXF tool** saves a drawing page as a [DXF](DXF.md) file.
 
 ## Usage
 
-1.  Select a Page in the tree view, if the document contains multiple pages.
-2.  Press the **<img src="images/TechDraw_ExportPageDXF.svg" width=16px> [Export Page as DXF](TechDraw_ExportPageDXF.md)** button.
-3.  Select a location and file name.
+1.  If there are multiple drawing pages in the document: optionally activate the desired page by selecting it in the [Tree view](Tree_view.md).
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_ExportPageDXF.svg" width=16px> [Export Page as DXF](TechDraw_ExportPageDXF.md)** button.
+    -   Select the **TechDraw → Page  → <img src="images/TechDraw_ExportPageDXF.svg" width=16px> Export Page as DXF** option from the menu.
+    -   If a page is displayed in the [Main view area](Main_view_area.md): right-click the page\'s window and select the **Export DXF** option from the context menu.
+3.  If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
+    1.  Select the desired page.
+    2.  Press the **OK** button.
+4.  The **Save DXF file** dialog box opens.
+5.  Select a location and file name.
 
 ### Limitations
 

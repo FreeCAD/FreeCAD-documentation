@@ -11,6 +11,8 @@
 
 # Draft BezCurve/de
 
+
+
 ## Beschreibung
 
 Der <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> **Entwurf BezKurve** Befehl erstellt eine [Bézierkurve](https://de.wikipedia.org/wiki/B%C3%A9zierkurve) aus einigen Punkten.
@@ -21,6 +23,8 @@ Der Entwurf BezKurve und [Entwurf KubischeBezKurve](Draft_CubicBezCurve/de.md) B
 
 <img alt="" src=images/Draft_BezCurve_Example.png  style="width:400px;"> 
 *Bézierkurve definiert durch mehrere Punkte*
+
+
 
 ## Anwendung
 
@@ -39,6 +43,8 @@ Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md)
 
 
 </div>
+
+
 
 ## Optionen
 
@@ -63,10 +69,14 @@ Die im Aufgabenpaneel verfügbaren Einzelzeichen Tastaturkürzel können geände
 
 </div>
 
+
+
 ## Hinweise
 
 -   Eine Entwurf BezKurve kann mit dem Befehl [Entwurf Bearbeiten](Draft_Edit/de.md) bearbeitet werden.
 -   OpenCascade, und dadurch FreeCAD, unterstützt keine Bézierkurven mit einem Grad größer als 25. Dies sollte in der Praxis kein Problem sein, weil die meisten Benutzer typischerweise Bézierkurven vom Grad 3 bis 5 verwenden.
+
+
 
 ## Einstellungen
 
@@ -75,11 +85,15 @@ Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstell
 -   Um die Anzahl der Dezimalstellen, die bei der Eingabe von Koordinaten verwendet werden: **Bearbeiten → Einstellungen... → Allgemein → Einheiten → Einheiteneinstellungen → Anzahl der Dezimalstellen**.
 -   Um den Anfangswert des Füllmodus zu ändern: **Bearbeiten → Einstellungen... → Entwurf → Allgemeine Einstellungen → Entwurf Werkzeuge Optionen → Objekte mit Flächen füllen, wann immer möglich**. Ändern des Füllmodus in einem Aufgabenpaneel, wird diese Einstellung für die aktuelle FreeCAD Sitzung überschreiben.
 
+
+
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein Entwurf BezKurve Objekt wird von einem [Part Part2DObject](Part_Part2DObject/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
 
@@ -100,6 +114,8 @@ Ein Entwurf BezKurve Objekt wird von einem [Part Part2DObject](Part_Part2DObject
 
 -    **Points|VectorList**: gibt die Kontrollpunkte der Kurve in ihrem lokalen Koordinatensystem an.
 
+
+
 ### Ansicht
 
 
@@ -114,6 +130,8 @@ Ein Entwurf BezKurve Objekt wird von einem [Part Part2DObject](Part_Part2DObject
 -    **Pattern|Enumeration**: legt das [Draft Pattern](Draft_Pattern.md) fest, mit dem die Fläche der geschlossenen Kurve gefüllt werden soll. Diese Eigenschaft funktioniert nur, wenn **Make Face** `True` ist und wenn **Display Mode** {{value|Flat Lines}} ist.
 
 -    **Pattern Size|Float**: legt die Größe des [Entwurf Muster](Draft_Pattern/de.md) fest.
+
+
 
 ## Skripten
 

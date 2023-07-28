@@ -3,6 +3,8 @@
 
 Esta página es una extensión de la página [Ayuda:Edición](Help_Editing.md) y da pautas comunes para escribir y actualizar la documentación del wiki de FreeCAD. Resume varias discusiones y sesiones de brainstorming
 
+
+
 ## Antes de empezar 
 
 
@@ -19,7 +21,11 @@ Esta página es una extensión de la página [Ayuda:Edición](Help_Editing.md) y
 
 </div>
 
+
+
 ## Directrices generales 
+
+
 
 ### Descripciones concisas 
 
@@ -35,15 +41,21 @@ Mala descripción
 Buena descripción
 :   [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/de.md): tiene como objetivo proporcionar herramientas para el modelado de piezas sólidas complejas.
 
+
+
 ### Información centralizada 
 
 Evite duplicar la misma información en diferentes lugares. Inserte la información en una nueva página, y enlace a esta página desde otras páginas que requieran esta información.
 
 No utilices la transclusión de páginas ([Ayuda:Edición#Plantillas y páginas transcluidas](Help:Editing#Templates_and_transcluding_pages.md)), ya que esto dificulta la traducción del wiki. Utiliza sólo las plantillas descritas en [#Plantillas](#Templates.md).
 
+
+
 ### Estilismo
 
 Las plantillas se utilizan para dar estilo a las páginas de ayuda. Proporcionan a la documentación un aspecto consistente. Hay una plantilla para los comandos del menú, **Archivo → Guardar**, una plantilla para dar estilo a las teclas a pulsar, **Shift**, para mostrar un valor booleano, `True`, etc. Por favor, familiarícese con la sección [#Plantillas](#Templates.md) antes de escribir páginas de ayuda.
+
+
 
 ### Banderas temporales 
 
@@ -59,12 +71,16 @@ Para marcar una página, añada  o  como primera línea. Con  invitas a otros a 
 
 Una vez terminado el trabajo, no olvides retirar las banderas.
 
+
+
 ## Ejemplos
 
 Para familiarizarse rápidamente con la estructura y el estilo del wiki de FreeCAD mira la página del modelo: [Modelo de GuiCommando](GuiCommand_model/es.md).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 ## Estructura
 
@@ -80,6 +96,8 @@ La [Template:Docnav](Template_Docnav.md) se utiliza para enlazar secuencialmente
 
 
 </div>
+
+
 
 ### Nombres de páginas 
 
@@ -113,9 +131,13 @@ Buen nombre de página:
 
 Los nombres de las páginas de los ambientes de trabajo de nivel superior deben tener este formato XYZ Workbench, donde XYZ es el nombre del ambiente de trabajo, por ejemplo [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md). Y los nombres de las páginas que describen los comandos (o herramientas) pertenecientes a un banco de trabajo deben tener este formato XYZ Command, por ejemplo [DiseñoPieza Alcolchado](PartDesign_Pad/es.md). Ten en cuenta que debes utilizar el nombre del comando tal y como aparece en el código fuente.
 
+
+
 ### Rúbricas
 
 Paragraph headings should be short and use sentence case: all words except the first one and proper names, should be in lowercase. You should not use H1 headings (= Heading =) in your wiki markup since the page title is automatically added as the main H1 heading.
+
+
 
 ### Enlaces
 
@@ -173,6 +195,8 @@ If you leave out the optional text the link itself will be shown when the image 
 
 ![](images/)_[Draft_Wire](Draft_Wire.md)
 
+
+
 ### Páginas del ambiente de trabajo 
 
 A top level workbench page should start with:
@@ -182,11 +206,15 @@ A top level workbench page should start with:
 
 See [#Screen capture](#Screen_capture.md) for conventions on including images.
 
+
+
 ### Páginas de comandos 
 
 Command pages describing workbench tools should not be too long, they should only explain what a command can do and what it can\'t, and how to use it. You should keep pictures and examples to a minimum. Tutorials can expand on how to use the tool and provide step-by-step details.
 
 Please refer to the [GuiCommand model](GuiCommand_model.md) page for more details.
+
+
 
 ### Tutoriales
 
@@ -202,6 +230,8 @@ For examples visit the [Tutorials](Tutorials.md) page.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -220,6 +250,8 @@ For examples visit the [Tutorials](Tutorials.md) page.
 Styling of the FreeCAD wiki pages is achieved through the use of templates ([Help:Editing#Templates_and_transcluding_pages](Help:Editing#Templates_and_transcluding_pages.md)). They ensure a standardized look and feel across all pages, and also make it possible to re-style the wiki. You can see the complete list of defined templates by accessing [Special:PrefixIndex/Template:](Special:PrefixIndex/Template:.md). But please only use the templates listed in the tables below. Only in very special cases should you use HTML tags directly.
 
 Click on the template link to see the usage instructions for a template, and to see its implementation. Templates are a powerful feature of the MediaWiki software. You should be an experienced wiki user if you wish to propose additions and modifications to existing templates. If implemented incorrectly, templates make it difficult to translate pages into other languages, so their use should be limited to text formatting, page transclusion should be avoided. See [MediaWiki Help:Templates](https://www.mediawiki.org/wiki/Help:Templates) to learn more.
+
+
 
 ### Plantillas sencillas 
 
@@ -262,6 +294,10 @@ These templates accept a simple text parameter, and format it with a particular 
 ++++
 | [ComboBox](Template_ComboBox.md)                                                                      |                         | Use it to indicate a combobox in the graphical user interface that needs to be modified.                                                                                                                                                                                                       |
 |                                                                                                               | {{ComboBox|Menu 1}}                    |                                                                                                                                                                                                                                                                                                |
+|                                                                                                               |                                     |                                                                                                                                                                                                                                                                                                |
+++++
+| [LineEdit](Template_LineEdit.md)                                                                      |                         | Use it to indicate a LineEdit in the graphical user interface that needs to be modified.                                                                                                                                                                                                       |
+|                                                                                                               | {{LineEdit|Metal Nickel (Ni)}}         |                                                                                                                                                                                                                                                                                                |
 |                                                                                                               |                                     |                                                                                                                                                                                                                                                                                                |
 ++++
 | [FALSE](Template_FALSE.md), [false](Template_false.md)                                        |                         | Use it to indicate a False Boolean value, for example, as a property in the [property editor](Property_editor.md). This is a shortcut. Since it is a value, prefer Template [Value](Template_Value.md) {{Value|false}}                                           |
@@ -330,6 +366,8 @@ These templates accept a simple text parameter, and format it with a particular 
 |                                                                                                               | {{ColoredParagraph|Colored Paragraph}} |                                                                                                                                                                                                                                                                                                |
 |                                                                                                               |                                     |                                                                                                                                                                                                                                                                                                |
 ++++
+
+
 
 ### Plantillas complejas 
 
@@ -403,6 +441,8 @@ These templates require more input parameters, or produce a block of text with a
 <div class="mw-collapsible mw-collapsed toccolours">
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Gráficos
@@ -422,9 +462,13 @@ Avoid animated pictures (GIF) in the general help pages. Animations and videos s
 
 Images can be uploaded through the [Special:Upload](Special_Upload.md) page.
 
+
+
 ### Nombre
 
 Give meaningful names to your images. If you have an image that showcases the characteristics of a particular command, you should use the name of that command with `_example` at the end. For example for the command [Draft Offset](Draft_Offset.md) the image should be called `Draft_Offset_example.png`.
+
+
 
 ### Captura de pantalla 
 
@@ -440,9 +484,13 @@ You shouldn\'t depend on a custom configuration of your desktop or operating sys
 
 To create a screenshots you can use the options provided by your operating system, or one of these macros: <img alt="" src=images/Snip.png  style="width:24px;"> [Macro Snip](Macro_Snip.md) and <img alt="" src=images/Macro_Screen_Wiki.png  style="width:24px;"> [Macro Screen Wiki](Macro_Screen_Wiki.md).
 
+
+
 ### Texto
 
 To ease documentation translations, try to avoid screenshots that contain texts. If you cannot avoid this, consider taking separate screenshots of the interface and the [3D view](3D_view.md). The image of the 3D view can be reused in every translation, while a translator can take a screenshot of the localized interface if necessary.
+
+
 
 ### Iconos y gráficos 
 
@@ -456,6 +504,8 @@ Refer to the [Artwork](Artwork.md) page for all artwork and icons that have been
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -483,7 +533,11 @@ Other useful resources are:
 -   [Google Translate](http://translate.google.com/) for help with translations.
 -   [Deepl translator](https://www.deepl.com/translator) for help with translations.
 
+
+
 ## Algunos consejos para los traductores 
+
+
 
 ### Traducir GuiCommando 
 
@@ -508,6 +562,8 @@ Translated:
     |SeeAlso=[FEM Tutoriel](FEM_tutorial/fr.md)
     }}
 
+
+
 ### Traducir navi 
 
     {{FEM_Tools_navi}}
@@ -516,6 +572,8 @@ Translated:
 
     {{FEM_Tools_navi/fr}}
 
+
+
 ### Traducir enlace 
 
     [Part Module](Part_Module.md)
@@ -523,6 +581,8 @@ Translated:
 Translated:
 
     [Atelier Part](Part_Module/fr.md)
+
+
 
 ### Traducir Docnav 
 
@@ -547,6 +607,8 @@ Translated:
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Renombrar y borrar 
@@ -563,6 +625,8 @@ To create a new page do one of the following:
 -   Visit the URL with the desired page name, for example: https://wiki.freecadweb.org/My_New_Page, and click on \'create this page\'.
 -   Do a wiki search for the page name, and click on the red text in \'Create the page \"My New Page\" on this wiki!\'.
 
+
+
 ### Cambiar el nombre de las páginas 
 
 Since FreeCAD is a project under permanent development, it is sometimes necessary to revise the content of the wiki. If the names of commands are changed in the source code, the wiki pages documenting them have to be renamed as well. This can only be done by wiki administrators. To inform them, open a topic in the [Wiki forum](https://forum.freecadweb.org/viewforum.php?f=21) and list the necessary renaming operation in this form:
@@ -572,21 +636,31 @@ Since FreeCAD is a project under permanent development, it is sometimes necessar
     Old_page_name_2  New_page_name_2
     ...
 
+
+
 ### Eliminar archivos y páginas 
 
 In case you need to delete a file, go to its page (https://www.freecadweb.org/wiki/File:***.***) and edit it. No matter if the page is blank or not, add this as the first element: {{Delete}} and directly below it describe why the page should be deleted. Additionally, open a topic in the [Wiki forum](https://forum.freecadweb.org/viewforum.php?f=21).
 
 For pages the procedure is the same.
 
+
+
 ## Debate
 
 The [Development/Wiki subforum](http://forum.freecadweb.org/viewforum.php?f=21) in the [FreeCAD forum](https://forum.freecadweb.org) provides a dedicated space for discussing wiki topics, the wiki appearance and anything else related to the wiki. Direct your questions and suggestions there.
 
+
+
 ## Terminología - política de nomenclatura 
+
+
 
 ### Inglés
 
 See [Glossary](Glossary.md).
+
+
 
 ### Otros idiomas 
 

@@ -10,7 +10,7 @@
 
 ## Description
 
-Cet outil crée un nouveau parcours en dupliquant un autre parcours plusieurs fois à une certaine distance d\'intervalle.
+L\'outil <img alt="" src=images/Path_Array.svg  style="width:24px;"> [Réseau](Path_Array/fr.md) crée un nouveau parcours en dupliquant un autre parcours plusieurs fois à une certaine distance d\'intervalle.
 
 
 

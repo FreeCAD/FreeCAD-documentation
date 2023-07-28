@@ -7,11 +7,15 @@
 
 # Mesh FromPartShape/pt-br
 
+
+
 ## Descrição
 
 The **Mesh_FromPartShape** command creates non-parametric [mesh](mesh.md) objects ([Mesh Features](Mesh_Feature.md)) from [shape](shape.md) objects ([Part Features](Part_Feature.md)).
 
 The inverse operation is [Part ShapeFromMesh](Part_ShapeFromMesh.md) from the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md).
+
+
 
 ## Utilização
 
@@ -98,9 +102,6 @@ These are the available meshers and their settings:
 -    **Quad dominated**: if checked, the mesh will preferably use [quadrilateral faces](https://en.wikipedia.org/wiki/Types_of_mesh#Two-dimensional).
 
 ### Gmsh mesher 
-
-
-<small>(v0.19)</small> 
 
 For Linux users: the external [Gmsh](https://gmsh.info/) module is required.
 

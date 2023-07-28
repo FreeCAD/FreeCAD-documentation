@@ -1,67 +1,84 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Part CheckGeometry‏‎
-   MenuLocation:Part → Check geometry
-   Workbenches:[Part](Part_Workbench.md)
+   Name/pl:Część: Sprawdź geometrię
+   MenuLocation:Część → Sprawdź geometrię
+   Workbenches:[Część](Part_Workbench/pl.md)
 ---
 
 # Part CheckGeometry/pl
 
-## Description
 
-The **<img src="images/Part_CheckGeometry.svg" width=16px> [Part CheckGeometry](Part_CheckGeometry.md)** tool runs a verification and reports if geometry is a valid solid. The tool checks if the [Boundary representation](https://en.wikipedia.org/wiki/Boundary_representation) (BRep or [B-rep](Glossary#B.md)) of the model is valid.
 
-## Usage
+## Opis
 
-1.  Select a part (beware to select the whole part and not just a face to check for valid solid)
-2.  Invoke the tool by either:
-    -   Clicking on the **<img src="images/Part_CheckGeometry.svg" width=16px> [CheckGeometry](Part_CheckGeometry.md)** button available in the Part workbench toolbar.
-    -   Using the **Part → <img src="images/Part_CheckGeometry.svg" width=16px> Check geometry** entry from the top menu.
-3.  The **Settings** task panel opens, unless **Skip settings page** is enabled. See [Options](#Options.md) for more information. Click **Run check**.
+Narzędzie <img alt="" src=images/Part_CheckGeometry.svg  style="width:16px;"> **Sprawdź geometrię** uruchamia weryfikację i zgłasza, czy geometria jest prawidłową bryłą. Narzędzie sprawdza, czy [Odwzorowanie linii granicznych](https://en.wikipedia.org/wiki/Boundary_representation) *(BRep lub [B-rep](Glossary/pl#B.md))* modelu jest prawidłowe.
 
-Results will be reported in the [Task panel](Task_panel.md). If the check produced errors: click in the report on a specific error message and the corresponding geometric object (edge, face, etc.) will be highlighted in the [3D view](3D_view.md).
 
-## Options
 
-### Skip settings page 
+## Użycie
 
-If ticked, subsequent invocations of the tool skip showing the **Settings** task panel.
+1.  Wybierz część (pamiętaj, aby wybrać całą część, a nie tylko ścianę, aby sprawdzić poprawność bryły).
+2.  Wywołaj narzędzie poprzez
+    -   Kliknięcie przycisku **<img src="images/Part_CheckGeometry.svg" width=16px> '''Sprawdź geometrię'''** dostępny na pasku narzędzi części.
+    -   Używając polecenia z menu **Część → <img src="images/Part_CheckGeometry.svg" width=16px> Sprawdź geometrię**.
+3.  Otworzy się panel zadań **Ustawienia**, chyba że włączona jest opcja **Pomiń ustawienia**. Więcej informacji znajduje się w sekcji [Opcje](#Opcje.md). Kliknij przycisk **Uruchom sprawdzanie**.
 
-### Run BOP check 
+Wyniki zostaną wyświetlone w [Panelu zadań](Task_panel/pl.md). Jeśli kontrola wykazała błędy: kliknij w raporcie na konkretny komunikat o błędzie, a odpowiadający mu obiekt geometryczny *(krawędź, ściana itp.)* zostanie podświetlony w oknie [widoku 3D](3D_view/pl.md).
 
-If ticked, additionally a Boolean OPerations (BOP) check is performed. <small>(v0.19)</small> 
 
-### Log errors 
 
-If ticked, any errors found are also logged in the [report view](Report_view.md). <small>(v0.19)</small> 
+## Opcje
 
-## Shape Content 
 
-In addition to detecting potential geometry errors, this tool shows a range of properties regarding the selected object:
 
--   Checked object
--   Shape type
--   Number of geometric entities: vertices, edges, wires, faces, shells, solids, compsolids, compounds, total shapes
--   Geometric and mass properties:
-    -   Area
-    -   Volume
-    -   Mass
-    -   Length
-    -   Center of mass
-    -   Orientation
-    -   Symmetry axis
-    -   Symmetry point
-    -   Moments
-    -   First axis of inertia
-    -   Second axis of inertia
-    -   Third axis of inertia
-    -   Radius of gyration
-    -   Global placement
+### Pomiń ustawienia 
 
-## Notes
+Jeśli opcja ta jest zaznaczona, kolejne wywołania narzędzia pomijają wyświetlanie panelu zadań **Ustawienia**.
 
--   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be checked using this tool. For [App Links](App_Link.md) the shape of the linked object is checked. For [App Part](App_Part.md) containers the visible objects within are checked as compounds. <small>(v0.20)</small> 
--   FreeCAD has no methods to automatically repair geometry. If faults are detected the steps involved to create the model need to be examined and fixed manually.
+
+
+### Kontrola operacji logicznych 
+
+Jeśli opcja ta jest zaznaczona, dodatkowo wykonywana jest kontrola operacji logicznych *(**B**oolean **OP**erations BOP)*.
+
+
+
+### Zapisywanie błędów 
+
+Jeśli opcja ta jest zaznaczona, wszelkie znalezione błędy są również rejestrowane w oknie [widoku raportów](Report_view/pl.md).
+
+
+
+## Zawartość kształtu 
+
+Oprócz wykrywania potencjalnych błędów geometrii, narzędzie to wyświetla szereg właściwości dotyczących wybranego obiektu:
+
+-   Sprawdzony obiekt
+-   Typ kształtu
+-   Liczba elementów geometrycznych: wierzchołki, krawędzie, polilinie, ściany, powłoki, bryły, bryły złożone, złożenia, suma kształtów.
+-   Właściwości geometryczne i właściwości masy:
+    -   Powierzchnia,
+    -   Objętość,
+    -   Masa,
+    -   Długość,
+    -   Środek masy,
+    -   Orientacja,
+    -   Oś symetrii,
+    -   Punkt symetrii,
+    -   Momenty,
+    -   Pierwsza oś bezwładności,
+    -   Druga oś bezwładności,
+    -   Trzecia oś bezwładności,
+    -   Promień bezwładności,
+    -   Globalne umiejscowienie.
+
+
+
+## Uwagi
+
+-   Obiekty [połączone](App_Link/pl.md) z odpowiednimi typami obiektów i kontenery środowiska [Część](App_Part/pl.md) z odpowiednimi widocznymi obiektami wewnątrz mogą być również sprawdzane za pomocą tego narzędzia. W przypadku [powiązań](App_Link/pl.md) sprawdzany jest kształt połączonego obiektu. W przypadku kontenerów środowiska [Część](App_Part/pl.md) widoczne obiekty wewnątrz są sprawdzane jako złożenia. {{Version/pl|0.20}}
+-   FreeCAD nie posiada metod automatycznej naprawy geometrii. Jeśli wykryte zostaną błędy, kroki związane z tworzeniem modelu muszą zostać sprawdzone i naprawione przez użytkownika.
 
 
 

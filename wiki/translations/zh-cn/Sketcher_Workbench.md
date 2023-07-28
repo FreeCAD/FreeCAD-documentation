@@ -15,7 +15,13 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 草图工作台本身具有约束条件 - 允许将2D形状约束到精确的几何定义。以及一个约束求解器，它计算二维几何约束范围，并允许对草图自由度的交互式探索。
+
+
+</div>
 
 <img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;"> 
 *一个全约束草图*
@@ -106,6 +112,8 @@ CAD绘图的传统方式继承于旧的[绘图板](http://en.wikipedia.org/wiki/
 
 </div>
 
+The tool [Draft2Sketch](Draft_Draft2Sketch.md) converts a Draft object to a Sketch object, and vice versa. Many tools that require a 2D element as input work with either type of object as an internal conversion is done automatically.
+
 ## Sketching Workflow 
 
 
@@ -148,7 +156,14 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 </div>
 
+
+<small>(v0.21)</small> 
+
+: If a sketch is in edit mode the Structure toolbar is hidden as none of its tools can then be used.
+
 ### General
+
+#### Sketcher toolbar 
 
 
 <div class="mw-translate-fuzzy">
@@ -166,12 +181,6 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 </div>
 
--   <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:32px;"> [离开草图](Sketcher_LeaveSketch/zh-cn.md): 离开草图编辑模式。
-
--   <img alt="" src=images/Sketcher_ViewSketch.svg  style="width:32px;"> [查看草图](Sketcher_ViewSketch/zh-cn.md): 设置垂直于草图平面的模型视图。
-
--   <img alt="" src=images/Sketcher_ViewSection.svg  style="width:32px;"> [查看截面](Sketcher_ViewSection/zh-cn.md): 创建一个截面，并暂时隐藏此草图平面前侧的所有内容。
-
 -   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [映射草图至面](Sketcher_MapSketch/zh-cn.md): 将草图映射到以前选定的实心面。
 
 -   <img alt="" src=images/Sketcher_ReorientSketch.svg  style="width:32px;"> [调整草图方向](Sketcher_ReorientSketch/zh-cn.md): 允许您更改草图的位置
@@ -181,6 +190,24 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 -   <img alt="" src=images/Sketcher_MergeSketches.svg  style="width:32px;"> [合并草图](Sketcher_MergeSketches/zh-cn.md): 合并两个或多个草图。
 
 -   <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:32px;"> [镜像草图](Sketcher_MirrorSketch/zh-cn.md): 沿 x 轴、y轴或原点镜像草图。
+
+#### Sketcher Edit Mode toolbar 
+
+-   <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:32px;"> [离开草图](Sketcher_LeaveSketch/zh-cn.md): 离开草图编辑模式。
+
+-   <img alt="" src=images/Sketcher_ViewSketch.svg  style="width:32px;"> [查看草图](Sketcher_ViewSketch/zh-cn.md): 设置垂直于草图平面的模型视图。
+
+-   <img alt="" src=images/Sketcher_ViewSection.svg  style="width:32px;"> [查看截面](Sketcher_ViewSection/zh-cn.md): 创建一个截面，并暂时隐藏此草图平面前侧的所有内容。
+
+#### Sketcher edit tools toolbar 
+
+-   <img alt="" src=images/Sketcher_Grid.svg  style="width:32px;"> [Toggle grid](Sketcher_Grid.md): Toggles the grid in the sketch currently being edited. Settings can be changed in the related menu. <small>(v0.21)</small> 
+
+-   <img alt="" src=images/Sketcher_Snap.svg  style="width:32px;"> [Toggle snap](Sketcher_Snap.md): Toggles snapping in all sketches. Settings can be changed in the related menu. <small>(v0.21)</small> 
+
+-   <img alt="" src=images/Sketcher_RenderingOrder.svg  style="width:32px;"> [Configure rendering order](Sketcher_RenderingOrder.md): The rendering order of all sketches can be changed in the related menu. <small>(v0.21)</small> 
+
+#### Other
 
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Stop operation](Sketcher_StopOperation.md): When in edit mode, stop the current operation, whether that is drawing, setting constraints, etc.
 
@@ -251,9 +278,13 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 </div>
 
-  - <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline](Sketcher_CreateBSpline.md): Draws a B-spline curve by its control points.
+  - <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline by control points](Sketcher_CreateBSpline.md): Draws a B-spline curve by its control points.
 
-  - <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Periodic B-spline](Sketcher_CreatePeriodicBSpline.md): Draws a periodic (closed) B-spline curve by its control points.
+  - <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Periodic B-spline by control points](Sketcher_CreatePeriodicBSpline.md): Draws a periodic (closed) B-spline curve by its control points.
+
+  - <img alt="" src=images/Sketcher_CreateBSplineByInterpolation.svg  style="width:32px;"> [B-spline by knots](Sketcher_CreateBSplineByInterpolation.md): Draws a B-spline curve by its knots. <small>(v0.21)</small> 
+
+  - <img alt="" src=images/Sketcher_CreatePeriodicBSplineByInterpolation.svg  style="width:32px;"> [Periodic B-spline by knots](Sketcher_CreatePeriodicBSplineByInterpolation.md): Draws a periodic (closed) B-spline curve by its knots. <small>(v0.21)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -263,7 +294,7 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 </div>
 
--   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Create a rectangle](Sketcher_CompCreateRectangles.md): This is an icon menu in the Sketcher toolbar that holds the following commands: <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Create rectangle](Sketcher_CompCreateRectangles.md): This is an icon menu in the Sketcher toolbar that holds the following commands: <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -307,7 +338,7 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [Slot](Sketcher_CreateSlot.md): 通过选择一个半圆的中心和另一个半圆的终点绘制椭圆。
 
--   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width:48px;"> [Create a fillet](Sketcher_CompCreateFillets.md): This is an icon menu in the Sketcher toolbar that holds the following commands:
+-   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width:48px;"> [Create fillet](Sketcher_CompCreateFillets.md): This is an icon menu in the Sketcher toolbar that holds the following commands:
 
 
 <div class="mw-translate-fuzzy">
@@ -494,7 +525,7 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 </div>
 
--   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width:48px;"> [Arc or circle](Sketcher_CompConstrainRadDia.md): This is an icon menu in the Sketcher constraints toolbar that holds the following commands:
+-   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width:48px;"> [Constrain radius or diameter](Sketcher_CompConstrainRadDia.md): This is an icon menu in the Sketcher constraints toolbar that holds the following commands:
 
 
 <div class="mw-translate-fuzzy">
@@ -505,9 +536,9 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 </div>
 
-  - <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Diameter](Sketcher_ConstrainDiameter.md): Defines the diameter of a selected arc or circle by constraining the diameter.
+  - <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Diameter](Sketcher_ConstrainDiameter.md): Defines the diameter of an arc or circle.
 
-  - <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Radiam](Sketcher_ConstrainRadiam.md): Automatically defines radius/diameter of a selected arc or circle (weight for a B-spline pole, diameter for a complete circle, radius for an arc). <small>(v0.20)</small> 
+  - <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Auto radius/diameter](Sketcher_ConstrainRadiam.md): Defines the radius of an arc, the diameter of a circle or the weight of a B-spline pole. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle.md): Defines the internal angle between two selected lines.
 
@@ -517,14 +548,6 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 <div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Constraint_SnellsLaw.png  style="width:32px;"> [Snell\'s Law](Sketcher_ConstrainSnellsLaw.md): 约束两条线服从折射定律来模拟通过界面的光。<small>(v0.15)</small> 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Constraint_InternalAlignment.png  style="width:32px;"> [Internal Alignment](Sketcher_ConstrainInternalAlignment.md): 将所选元素与所选形状对齐 (例如, 一条线成为椭圆的主轴)。
 
 
 </div>
@@ -541,29 +564,13 @@ The following tools can be used the change the effect of constraints:
 
 </div>
 
--   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Activate/deactivate constraint](Sketcher_ToggleActiveConstraint.md): Enable or disable an already placed constraint. <small>(v0.19)</small> 
+-   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Activate/deactivate constraint](Sketcher_ToggleActiveConstraint.md): Enable or disable an already placed constraint.
 
 
 
 ### 草图工具
 
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Select unconstrained DoF](Sketcher_SelectElementsWithDoFs.md): Highlights in green the geometry with degrees of freedom (DOFs), i.e. not fully constrained.
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CloseShape.png‎  style="width:32px;"> [Close Shape](Sketcher_CloseShape.md): 通过对端点应用重合约束创建闭合形状 <small>(v0.15)</small> 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_ConnectLines.png‎  style="width:32px;"> [Connect Edges](Sketcher_ConnectLines.md): 通过对端点应用重合约束来连接草图编辑器器元素 <small>(v0.15)</small> 
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -610,7 +617,7 @@ The following tools can be used the change the effect of constraints:
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Sketcher_SelectVerticalAxis.png‎  style="width:32px;"> [Select Vertical Axis](Sketcher_SelectVerticalAxis.md): 选择草图的垂直轴 <small>(v0.15)</small> 
+-   <img alt="" src=images/Sketcher_SelectHorizontalAxis.png‎  style="width:32px;"> [Select Horizontal Axis](Sketcher_SelectHorizontalAxis.md): 选择草图的水平轴 <small>(v0.15)</small> 
 
 
 </div>
@@ -618,7 +625,7 @@ The following tools can be used the change the effect of constraints:
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Sketcher_SelectHorizontalAxis.png‎  style="width:32px;"> [Select Horizontal Axis](Sketcher_SelectHorizontalAxis.md): 选择草图的水平轴 <small>(v0.15)</small> 
+-   <img alt="" src=images/Sketcher_SelectVerticalAxis.png‎  style="width:32px;"> [Select Vertical Axis](Sketcher_SelectVerticalAxis.md): 选择草图的垂直轴 <small>(v0.15)</small> 
 
 
 </div>
@@ -641,37 +648,55 @@ The following tools can be used the change the effect of constraints:
 
 ### Sketcher B-spline tools 
 
--   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Show/hide B-spline degree](Sketcher_BSplineDegree.md)
+-   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Show/hide B-spline degree](Sketcher_BSplineDegree.md): Shows or hides the display of the degree of a B-spline.
 
--   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [Show/hide B-spline control polygon](Sketcher_BSplinePolygon.md)
+-   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [Show/hide B-spline control polygon](Sketcher_BSplinePolygon.md): Shows or hides the display of the defining polygon of a B-spline.
 
--   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [Show/hide B-spline curvature comb](Sketcher_BSplineComb.md)
+-   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [Show/hide B-spline curvature comb](Sketcher_BSplineComb.md): Shows or hides the display of the curvature comb of a B-spline.
 
--   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Show/hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md)
+-   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Show/hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md): Shows or hides the display of the knot multiplicity of a B-spline.
 
--   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Show/hide B-spline control point weight](Sketcher_BSplinePoleWeight.md), <small>(v0.19)</small> 
+-   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Show/hide B-spline control point weight](Sketcher_BSplinePoleWeight.md): Shows or hides the display of the weights for the control points of a B-spline.
 
--   <img alt="" src=images/Sketcher_BSplineApproximate.svg  style="width:32px;"> [Convert geometry to B-spline](Sketcher_BSplineApproximate.md)
+-   <img alt="" src=images/Sketcher_BSplineApproximate.svg  style="width:32px;"> [Convert geometry to B-spline](Sketcher_BSplineApproximate.md): Converts compatible geometry, edges and curves, into a B-spline.
 
--   <img alt="" src=images/Sketcher_BSplineIncreaseDegree.svg  style="width:32px;"> [Increase B-spline degree](Sketcher_BSplineIncreaseDegree.md)
+-   <img alt="" src=images/Sketcher_BSplineIncreaseDegree.svg  style="width:32px;"> [Increase B-spline degree](Sketcher_BSplineIncreaseDegree.md): Increases the degree (order) of a B-spline.
 
--   <img alt="" src=images/Sketcher_BSplineDecreaseDegree.svg  style="width:32px;"> [Decrease B-spline degree](Sketcher_BSplineDecreaseDegree.md), <small>(v0.19)</small> 
+-   <img alt="" src=images/Sketcher_BSplineDecreaseDegree.svg  style="width:32px;"> [Decrease B-spline degree](Sketcher_BSplineDecreaseDegree.md): Decreases the degree (order) of a B-spline.
 
--   <img alt="" src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg  style="width:32px;"> [Increase knot multiplicity](Sketcher_BSplineIncreaseKnotMultiplicity.md)
+-   <img alt="" src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg  style="width:32px;"> [Increase knot multiplicity](Sketcher_BSplineIncreaseKnotMultiplicity.md): Increases the multiplicity of a B-spline knot.
 
--   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Decrease knot multiplicity](Sketcher_BSplineDecreaseKnotMultiplicity.md)
+-   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Decrease knot multiplicity](Sketcher_BSplineDecreaseKnotMultiplicity.md): Decreases the multiplicity of a B-spline knot.
 
--   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Insert knot](Sketcher_BSplineInsertKnot.md), <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Insert knot](Sketcher_BSplineInsertKnot.md): Inserts a knot into an existing B-spline. <small>(v0.20)</small> 
 
--   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md), <small>(v1.0)</small> 
+-   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md): Joins two curves at selected end points. <small>(v0.21)</small> 
 
 ### Sketcher virtual space 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Switch virtual space](Sketcher_SwitchVirtualSpace.md): Allows you to hide all constraints of a sketch and make them visible again.
 
+### Obsolete tools 
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_CloseShape.png‎  style="width:32px;"> [Close Shape](Sketcher_CloseShape.md): 通过对端点应用重合约束创建闭合形状 <small>(v0.15)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConnectLines.png‎  style="width:32px;"> [Connect Edges](Sketcher_ConnectLines.md): 通过对端点应用重合约束来连接草图编辑器器元素 <small>(v0.15)</small> 
+
+
+</div>
+
 ## Preferences
 
--   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Preferences](Sketcher_Preferences.md): Preferences for the **Sketcher** workbench.
+-   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [Preferences](Sketcher_Preferences.md): Preferences for the **Sketcher** workbench.
 
 ## Best Practices 
 
@@ -717,6 +742,12 @@ The following tools can be used the change the effect of constraints:
 ## Scripting
 
 The [Sketcher scripting](Sketcher_scripting.md) page contains examples on how to create constraints from Python scripts.
+
+## Examples
+
+For some ideas of what can be achieved with Sketcher tools, have a look at: [Sketcher examples](Sketcher_Examples.md).
+
+<img alt="" src=images/Sketcher_ExampleHinge-01.gif  style="width:80px;"> <img alt="" src=images/Sketcher_ExampleHinge-15.png  style="width:90px;">
 
 
 <div class="mw-translate-fuzzy">

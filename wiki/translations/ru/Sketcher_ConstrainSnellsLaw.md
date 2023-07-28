@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Описание
 
 Constrains two lines to follow the law of refraction of light as it penetrates through an interface, where two materials of different refraction indices meet. See [Snell\'s law](http://en.wikipedia.org/wiki/Snell%27s_law) on Wikipedia for more info.
@@ -20,6 +22,8 @@ Constrains two lines to follow the law of refraction of light as it penetrates t
 
 
 *Snell's Law*
+
+
 
 ## Применение
 
@@ -43,6 +47,8 @@ Using the **[<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Po
 -   Unlike the reality, refraction indices are associated with rays of light, but not according to the sides of the boundary. This is useful to emulate birefringence, construct paths of different wavelengths due to refraction, and easily construct angle of onset of total internal reflection.
 -   Both rays can be on the same side of the interface, satisfying the constraint equation. This is physical nonsense, unless the ratio n2/n1 is 1.0, in which case the constraint emulates a reflection.
 -   Arcs of circle and ellipse are also accepted as rays (physical nonsense).
+
+
 
 ## Программирование
 
@@ -96,13 +102,7 @@ App.ActiveDocument.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

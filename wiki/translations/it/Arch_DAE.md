@@ -1,4 +1,10 @@
 # Arch DAE/it
+{{TOCright}}
+
+
+
+## Descrizione
+
 Il formato [Collada (DAE)](https://en.wikipedia.org/wiki/COLLADA) è un formato di file standard per lo scambio di dati Mesh.
 
 L\'[Ambiente Arch](Arch_Workbench/it.md) può importare mesh da file .dae, ed esportare elementi di Architettura e altri oggetti basati su [Forme](Part_Workbench/it.md) (ad esempio gli oggetti Parte) in file .dae.

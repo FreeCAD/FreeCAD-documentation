@@ -1,44 +1,38 @@
-# Std OnlineHelp/it
 ---
-- GuiCommand:/it   Name:Std OnlineHelp   Name/it:Aiuto   MenuLocation:[|Workbenches:Tutti   Shortcut:F1   SeeAlso:[[Std_Help_Menu/it|Menu Aiuto](Std_Help/it___Help]]_→_Aiuto.md), [Cos'è questo?](Std_WhatsThis/it.md), [Documentazione utenti](Std_FreeCADUserHub/it.md)---
+- GuiCommand:/it
+   Name:Std OnlineHelp
+   Name/it:Aiuto
+   MenuLocation:Aiuto → Aiuto
+   |Workbenches:Tutti
+   Shortcut:F1
+   SeeAlso: [Cos'è questo?](Std_WhatsThis/it.md)
+---
+
+# Std OnlineHelp/it
 
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
-Apre la documentazione della guida in linea in una nuova finestra.
+Il comando **Aiuto** apre la documentazione di aiuto. Per aprire la documentazione per un comando specifico, utilizzare il comando [Cos\'è questo?](Std_WhatsThis/it.md).
+
+In FreeCAD {{VersionPlus/it|0.20}} questo comando richiede l\'[Help Addon](https://github.com/FreeCAD/FreeCAD-Help).
 
 
-</div>
-
-The **Std OnlineHelp** command opens the help documentation. To open the documentation for a specific command, use the [Std WhatsThis](Std_WhatsThis.md) command.
-
-In FreeCAD <small>(v0.20)</small>  this command requires the [Help Addon](https://github.com/FreeCAD/FreeCAD-Help).
-
-
-<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
--   Aprire il menu **Aiuto → Aiuto** o premere **F1**.
--   Gli argomenti possono essere selezionati dalla scheda Sommario o ricercati nella scheda Indice.
+1.  Se Help Addon non è ancora disponibile vi verrà chiesto di installarlo tramite [Addon Manager](Std_AddonMgr/it.md).
+2.  Esistono diversi modi per invocare il comando:
+    -   Selezionare l\'opzione **Aiuto → <img src="images/Std_OnlineHelp.svg" width=16px> Aiuto** dal menu.
+    -   Usare la scorciatoia da tastiera: **F1**.
+3.  Si apre la documentazione di aiuto.
 
 
-</div>
 
-1.  If the Help Addon is not yet available you will be asked to install it via the [Addon Manager](Std_AddonMgr.md).
-2.  There are several ways to invoke the command:
-    -   Select the **Help → <img src="images/Std_OnlineHelp.svg" width=16px> Help** option from the menu.
-    -   Use the keyboard shortcut: **F1**.
-3.  The help documentation opens.
+## Note
 
-## Notes
-
--   The Help Addon has a number of preferences. See [Preferences Editor](Preferences_Editor#Help.md).
+-   L\'Addon Help ha una serie di preferenze. Vedere [Editor delle preferenze](Preferences_Editor/it#Aiuto.md).
 
 
 

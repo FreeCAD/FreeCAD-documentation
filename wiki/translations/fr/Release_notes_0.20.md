@@ -9,11 +9,15 @@ Les notes de versions plus anciennes de FreeCAD sont disponibles dans la [Liste 
   ![](images/FreeCAD_highlight_relnotes_0.20.gif )   *Modèle d\'un moteur à courant continu type 775 par l\'utilisateur \"jimmihenry\", voir [Users Showcase](https://forum.freecadweb.org/viewtopic.php?p=551765#p551765).Le modèle a été réalisé entièrement avec la version hebdomadaire [development snapshots](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds) de FreeCAD 0.20. Les images de l\'animation graphique ont été réalisées avec la macro FreeCAD [ Screen Wiki](Macro_Screen_Wiki/fr.md). Le GIF animé a été créé à l\'aide de [GIMP](https://fr.wikipedia.org/wiki/GIMP). Pour les notes de version, il a été recadré et redimensionné à l\'aide de [ezgif](https://ezgif.com/crop).*
    
 
+
+
 ## Généralités
 
 ### freecad.org
 
 Nous sommes heureux que le projet [KiCAD](https://www.kicad.org/), par le biais de [KiCAD services corp.](https://www.kipro-pcb.com/), nous ait sponsorisé le nom de domaine freecad.org. Tous les sites Web de FreeCAD sont désormais disponibles sous [freecadweb.org](https://freecadweb.org) et [freecad.org](https://freecad.org).
+
+
 
 ### Suivi des bogues/problèmes 
 
@@ -21,9 +25,13 @@ Le système de suivi des bogues de FreeCAD a été déplacé sur GitHub : <https
 
 **Remarque :** Seuls les rapports de bogue ayant fait l\'objet d\'une discussion préalable sur le forum seront pris en considération. Les rapports sans cela seront fermés.
 
+
+
 ### Nouveau système d\'aide 
 
 Le système d\'aide a été réécrit et mis à jour pour afficher des informations provenant directement de notre [Wiki](User_hub/fr.md). Le système repose désormais sur l\'[extension Help](https://github.com/FreeCAD/FreeCAD-Help). Lors de votre première utilisation de l\'outil [Aide](Std_Help/fr.md) ou de l\'outil [Std Qu\'est-ce que c\'est?](Std_WhatsThis/fr.md), il vous sera demandé de l\'installer.
+
+
 
 ## Interface utilisateur 
 
@@ -59,6 +67,8 @@ Le système d\'aide a été réécrit et mis à jour pour afficher des informati
 |                                                                                                         | [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=27&t=52441), [Pull request #4118](https://github.com/FreeCAD/FreeCAD/pull/4118).    |
 +++
 
+
+
 ### Autres améliorations de l\'interface utilisateur 
 
 -   Il est maintenant possible d\'utiliser le séparateur décimal appartenant à la langue spécifiée pour l\'interface de FreeCAD. Par exemple, sur un Windows allemand, lorsque vous définissez la langue de l\'interface à **English** et que vous sélectionnez la nouvelle option **Use selected language number format**, le point sera utilisé comme séparateur décimal. Voir les [Préférences](Preferences_Editor/fr#G.C3.A9n.C3.A9ral.md). [Pull request #6364](https://github.com/FreeCAD/FreeCAD/pull/6364)**Remarque** : Pour les simulations [FEM](FEM_Workbench/fr.md), l\'utilisation du point comme séparateur décimal est fortement recommandée pour obtenir des résultats corrects.
@@ -69,7 +79,11 @@ Le système d\'aide a été réécrit et mis à jour pour afficher des informati
 -   Un nouveau paramètre dans [Préférences → Général](Preferences_Editor/fr#G.C3.A9n.C3.A9ral.md) permet de substituer le séparateur décimal du pavé numérique par le séparateur de la locale appropriée s\'ils sont différents. [Pull request #3256](https://github.com/FreeCAD/FreeCAD/pull/3256) [Pull request #5150](https://github.com/FreeCAD/FreeCAD/pull/5150) [Pull request 5203](https://github.com/FreeCAD/FreeCAD/pull/5203)
 -   Il est désormais possible de définir la touche **Retour arrière** comme une touche de raccourci autonome sans avoir à spécifier une nouvelle touche modificatrice. [Pull request #5428](https://github.com/FreeCAD/FreeCAD/pull/5428)
 
+
+
 ## Noyau et API 
+
+
 
 ### Noyau
 
@@ -101,6 +115,8 @@ FreeCAD a reçu de nombreuses nouvelles fonctions de l\'API en Python :
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 #### Nouvelles API en Python 
 
@@ -174,6 +190,8 @@ FreeCAD a reçu de nombreuses nouvelles fonctions de l\'API en Python :
 
 </div>
 
+
+
 #### API en Python modifiées 
 
 -   *MeshObject::trim(base, normal)* a été changé en *MeshPy::trimByPlane(base, normal)* : Découpe le maillage avec un plan donné. [commit 837de28e](https://github.com/FreeCAD/FreeCAD/commit/837de28e)
@@ -181,11 +199,15 @@ FreeCAD a reçu de nombreuses nouvelles fonctions de l\'API en Python :
 
 </div>
 
+
+
 ## Gestionnaire des extensions 
 
    
   <img alt="" src=images/AddonManagerExpanded_relnotes_0.20.png  style="width:400px;">   Le [Gestionnaire des extensions](Std_AddonMgr/fr.md) a été modifié pour prendre en charge la distribution des packs de préférences et pour afficher les informations contenues dans les métadonnées d\'une extension. Le gestionnaire des extensions comprend également une prise en charge améliorée des extensions dont le code source est situé à plusieurs emplacements d\'hébergement git différents. La prise en charge de la mise en réseau a été améliorée afin de fournir une gestion plus robuste des connexions SSL et une prise en charge des proxys nécessitant une authentification. La prise en charge a été ajoutée pour ajouter automatiquement des boutons de macro à la barre d\'outils après l\'installation, pour désactiver les extensions sans les supprimer et pour changer la branche git d\'un module complémentaire qui est extraite. Enfin, l\'interface utilisateur a été modifiée pour améliorer la recherche et l\'affichage des différents filtres de liste.
    
+
+
 
 ## Atelier Arch 
 
@@ -226,6 +248,8 @@ FreeCAD a reçu de nombreuses nouvelles fonctions de l\'API en Python :
 |                                                                                                               | [Discussion sur le forum](https://forum.freecadweb.org/viewtopic.php?f=23&t=43228&start=60), [Pull request #3229](https://github.com/FreeCAD/FreeCAD/pull/3229)                                                                                                                                                                                                                                                                                                                                                                                                                         |
 +++
 
+
+
 ## Atelier Draft 
 
 -   Une case à cocher **Global** a été ajoutée au panneau des tâches de nombreuses commandes de dessin. Le fait de la cocher permet de saisir des coordonnées dans le système de coordonnées global même si le [plan de travail](Draft_SelectPlane/fr.md) n\'est pas aligné avec le plan XY global.
@@ -244,6 +268,8 @@ FreeCAD a reçu de nombreuses nouvelles fonctions de l\'API en Python :
 
 -   Il est maintenant possible d\'inverser une [Draft Polyligne](Draft_Wire/fr.md) via le menu contextuel <img alt="" src=images/Draft_Edit.svg  style="width:24px;"> [Draft Éditer](Draft_Edit/fr.md). [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=23&t=58643&start=20), [Pull request #4811](https://github.com/FreeCAD/FreeCAD/pull/4811).
 
+
+
 ### Autres améliorations de Draft 
 
 -   Correction de [Draft Aimantation Grille](Draft_Snap_Grid/fr.md) lorsque le curseur se trouve sur une face. [Discussion du forum](https://forum.freecad.org/viewtopic.php?f=23&t=62274). [Git commit](https://github.com/FreeCAD/FreeCAD/commit/1761eb8ce).
@@ -251,6 +277,8 @@ FreeCAD a reçu de nombreuses nouvelles fonctions de l\'API en Python :
 -   Les nouveaux [Draft Textes](Draft_Text/fr.md) sont désormais alignés sur le [plan de travail](Draft_SelectPlane/fr.md), [Pull request #5092](https://github.com/FreeCAD/FreeCAD/pull/5092).
 
 -   La prise en charge de deux convertisseurs DWG a été ajoutée : [LibreDWG](https://www.gnu.org/software/libredwg) et [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg). Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md) et [FreeCAD et l\'importation DWG](FreeCAD_and_DWG_Import/fr.md) pour plus d\'informations.
+
+
 
 ## Atelier FEM 
 
@@ -260,6 +288,8 @@ FreeCAD a reçu de nombreuses nouvelles fonctions de l\'API en Python :
   <img alt="" src=images/FEM_Gmsh-MeshSizeFromCurvature_relnotes_0.20.png  style="width:384px;">Effet de \"la taille du maillage à partir de la courbure\". À gauche : réglé sur 12, à droite : désactivé                 Il existe une nouvelle propriété pour le mailleur [Gmsh](FEM_MeshGmshFromShape/fr.md). Le nombre d\'éléments de maillage par $2\pi$ fois le rayon de la courbure peut être spécifié. La valeur par défaut est 12 et pour obtenir un maillage plus fin aux petits coins ou trous, cette valeur peut être augmentée pour de meilleurs résultats. Cette fonctionnalité nécessite Gmsh 4.8 ou plus récent. [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=56401), [Pull request #4596](https://github.com/FreeCAD/FreeCAD/pull/4596)
   <img alt="" src=images/FEM_Gmsh-RecombinationAlgorithm_relnotes_0.20.png  style="width:384px;">Effet de l\'algorithme de recombinaison. À gauche : en utilisant *Simple*, à droite : en utilisant *Simple full-quad*   FreeCAD permet maintenant de sélectionner un algorithme ainsi que la recombinaison de maillage 3D pour le mailleur [Gmsh](FEM_MeshGmshFromShape/fr.md). Pour plus de détails sur la recombinaison des éléments de maillage, [FEM Maillage MEF à partir d\'une forme avec Gmsh](FEM_MeshGmshFromShape/fr#Recombinaison_d.27.C3.A9l.C3.A9ments.md). [Pull request #4706](https://github.com/FreeCAD/FreeCAD/pull/4706)
    
+
+
 
 ### Autres améliorations de FEM 
 
@@ -281,19 +311,29 @@ FreeCAD a reçu de nombreuses nouvelles fonctions de l\'API en Python :
 -   Ajout/suppression modale d\'entités géométriques aux contraintes agissant aux limites. [Pull request #5117](https://github.com/FreeCAD/FreeCAD/pull/5117)
 -   La plupart des dialogues de contraintes FEM se comportent désormais de manière uniforme et offrent les mêmes fonctionnalités de sélection des objets 3D. [Pull request #5391](https://github.com/FreeCAD/FreeCAD/pull/5391)
 
+
+
 ## Exportation
 
 -   DXF : Le bloc d\'unité manquant a été ajouté au fichier header14.rub. [Pull request #5793](https://github.com/FreeCAD/FreeCAD/issues/5793)
 
+
+
 ## Atelier Mesh 
+
+
 
 ### Amélioration du support des éléments NASTRAN GRID 
 
 L\'outil d\'importation de Mesh supporte maintenant l\'élément \"GRID\*\" de haute précision. L\'élément \"GRID\" de précision standard a également été amélioré et supporte maintenant les entrées numériques délimitées par des espaces ainsi que les entrées à largeur de champ fixe, conformément à la documentation du format NASTRAN95.
 
+
+
 ### Autres améliorations de Mesh 
 
 Correction des faux négatifs lors des tests d\'auto-intersection lorsque les facettes sont coplanaires : [Pull request #5002](https://github.com/FreeCAD/FreeCAD/pull/5002).
+
+
 
 ## Atelier OpenSCAD 
 
@@ -312,17 +352,23 @@ De nouvelles options ont été ajoutées pour supporter l\'exécution de FreeCAD
 |                                                                                                 | Une nouvelle boîte de dialogue donne des informations sur les erreurs d\'OpenSCAD.                                                                      |
 +++
 
+
+
 ## Atelier Part 
 
    
   <img alt="" src=images/Part_Extrusion-inner-structures_relnotes_0.20.png  style="width:384px;">Extrusion conique d\'une esquisse avec une structure interne.   L\'[extrusion](Part_Extrude/fr.md) conique de structures internes donne désormais des résultats utilisables. Auparavant, les structures internes étaient extrudées comme si elles étaient autonomes et ne faisaient pas partie d\'une structure. [Pull request #5367](https://github.com/FreeCAD/FreeCAD/pull/5367)
    
 
+
+
 ### Autres améliorations de Part 
 
 -   La boîte de dialogue pour éditer des [Cylindres](Part_Cylinder/fr.md) permet maintenant de spécifier un angle relatif à la normale du plan d\'attache choisi. De cette façon, on peut créer des cylindres obliques. [Pull request #4708](https://github.com/FreeCAD/FreeCAD/pull/4708)
 -   L\'outil [Définir les couleurs](Part_FaceColors/fr.md) permet maintenant aussi de définir la transparence (*canal Alpha*) des faces. Cette transparence peut être [exportée](Import_Export/fr.md), ce qui permet par exemple de créer des fichiers STEP avec des pièces transparentes.
 -   Les commandes suivantes prennent désormais en charge App::Links : [Lissage](Part_Loft/fr.md), [Balayage](Part_Sweep/fr.md), [Extrusion](Part_Extrude/fr.md), [Révolution](Part_Revolve/fr.md), [Inverser les formes](Part_ReverseShapes/fr.md), [Miroir](Part_Mirror/fr.md), [Décalage 2D](Part_Offset2D/fr.md), [Décalage 3D](Part_Offset/fr.md), [Vérifier la géométrie](Part_CheckGeometry/fr.md), [Surface réglée](Part_RuledSurface/fr.md), [Coupes](Part_CrossSections/fr.md), et [Évidement](Part_Thickness/fr.md). [Pull request #6478](https://github.com/FreeCAD/FreeCAD/pull/6478)
+
+
 
 ## Atelier PartDesign 
 
@@ -351,6 +397,8 @@ De nouvelles options ont été ajoutées pour supporter l\'exécution de FreeCAD
 |                                                                                                                                                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 +++
 
+
+
 ### Autres améliorations de PartDesign 
 
 -   Avec la fonction [Hélice](PartDesign_AdditiveHelix/fr.md), on peut désormais utiliser la normale de l\'esquisse comme axe. [Pull request #5199](https://github.com/FreeCAD/FreeCAD/pull/5199)
@@ -366,6 +414,8 @@ De nouvelles options ont été ajoutées pour supporter l\'exécution de FreeCAD
 -   Lorsqu\'un outil PartDesign est exécuté sans corps actif, FreeCAD propose désormais d\'activer un corps ou d\'en créer un nouveau. [Pull request #4949](https://github.com/FreeCAD/FreeCAD/pull/4949)
 -   L\'outil [Définir les couleurs](Part_FaceColors/fr.md) est désormais également disponible depuis l\'atelier de PartDesign.
 
+
+
 ## Atelier Path 
 
 -   La fonctionnalité Extensions a été ajoutée à l\'opération [Adaptatif](Path_Adaptive/fr.md). [Pull request #4388](https://github.com/FreeCAD/FreeCAD/pull/4388)
@@ -375,9 +425,13 @@ De nouvelles options ont été ajoutées pour supporter l\'exécution de FreeCAD
 -   La stabilité de la gravure sur les esquisses a été améliorée. [Pull request #6394](https://github.com/FreeCAD/FreeCAD/pull/6394)
 -   La visibilité des objets Parcours a été rendue plus naturelle. [Pull request #4911](https://github.com/FreeCAD/FreeCAD/pull/4911)
 
+
+
 ## Module Plot 
 
 -   FreeCAD fournit maintenant le module Plot par défaut, de sorte que tout autre module/atelier peut créer des tracés sans nécessiter d\'outils externes [Pull request #4971](https://github.com/FreeCAD/FreeCAD/pull/4971).
+
+
 
 ## Atelier Sketcher 
 
@@ -391,11 +445,13 @@ De nouvelles options ont été ajoutées pour supporter l\'exécution de FreeCAD
   <img alt="" src=images/SketcherBSplineInsertKnot_relnotes_0.20.gif )                                          Nouvel outil ![](images/Sketcher_BSplineInsertKnot.svg  style="width:24px;"> [Insérer un nœud](Sketcher_BSplineInsertKnot/fr.md) pour insérer un nœud dans une B-spline existante. [Pull request #5311](https://github.com/FreeCAD/FreeCAD/pull/5311) et [Pull request #6356](https://github.com/FreeCAD/FreeCAD/pull/6356)
    
 
+
+
 ### Autres améliorations de Sketcher 
 
 -   Prise en charge de l\'Ajustement remanié. [Pull Request](https://github.com/FreeCAD/FreeCAD/pull/4330) [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=54441)
 -   Le comportement de l\'outil <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:24px;"> [Contour oblong](Sketcher_CreateSlot/fr.md) a changé. Les Contour oblong peuvent maintenant être créés en définissant le centre des deux demi-cercles. [Pull request #4843](https://github.com/FreeCAD/FreeCAD/pull/4843) [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=59243&p=508658#p508658)
--   L\'automatisation de la visibilité permet d\'ouvrir Sketcher dans une [Vue en section](Sketcher_ViewSection/fr.md) lors de l\'entrée en mode édition. [Pull request #4742](https://github.com/FreeCAD/FreeCAD/pull/4742) [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=57056)
+-   L\'automatisation de la visibilité permet d\'ouvrir Sketcher dans une [Vue de section](Sketcher_ViewSection/fr.md) lors de l\'entrée en mode édition. [Pull request #4742](https://github.com/FreeCAD/FreeCAD/pull/4742) [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=57056)
 -   L\'automatisation de la visibilité permet de forcer la caméra en [Vue orthographique](Std_OrthographicCamera/fr.md) lorsqu\'on rentre dans le mode édition. [Pull request #4778](https://github.com/FreeCAD/FreeCAD/pull/4778) [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=44747).
 -   Option permettant d\'afficher le nom de la contrainte dimensionnelle et d\'utiliser un format personnalisé pour celui-ci. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/4966) [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?t=61153)
 -   Lors de l\'esquisse d\'un [arc à 3 points](Sketcher_Create3PointArc/fr.md) avec Autoconstraint activé, une [contrainte tangente](Sketcher_ConstrainTangent/fr.md) est proposée pour les 3 points lors du survol d\'une ligne/courbe. [Pull request #4945](https://github.com/FreeCAD/FreeCAD/pull/4945) [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=60596&p=520217#p520209).
@@ -408,6 +464,8 @@ De nouvelles options ont été ajoutées pour supporter l\'exécution de FreeCAD
 -   Il est désormais possible de définir le degré d\'une B-Spline ([Pull request #6463](https://github.com/FreeCAD/FreeCAD/pull/6463)) et d\'annuler le dernier point de contrôle défini ([Pull request #6476](https://github.com/FreeCAD/FreeCAD/pull/6476)) au moment de la création.
 -   Révision des raccourcis par défaut afin de supprimer les raccourcis conflictuels et de rendre les raccourcis plus faciles à mémoriser. [Discussion sur le forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=41272) ; Captures d\'écran des raccourcis pour les [contraintes](https://wiki.freecadweb.org/images/0/0c/Sketcher_Shortcuts_v0.20_Screenshot_Constraints.png), la [géometrie](https://wiki.freecadweb.org/images/4/48/Sketcher_Shortcuts_v0.20_Screenshot_Geometry.png) et [divers outils](https://wiki.freecadweb.org/images/9/90/Sketcher_Shortcuts_v0.20_Screenshot_variousTools.png).
 
+
+
 ## Atelier Spreadsheet 
 
    
@@ -416,6 +474,8 @@ De nouvelles options ont été ajoutées pour supporter l\'exécution de FreeCAD
   ![](images/Spreadsheet_binding-dialog.png )                                                      Les cellules peuvent désormais être [liées à d\'autres cellules](Spreadsheet_Workbench/fr#Liaison_cellulaire.md) de la même feuille de calcul ou d\'une feuille différente. Fait partie du [Pull request #2862](https://github.com/FreeCAD/FreeCAD/pull/2862).
    
 
+
+
 ### Autres améliorations de Spreadsheet 
 
 -   Dans le menu contextuel des lignes/colonnes, il est désormais possible de spécifier la position lors de l\'insertion de lignes/colonnes. [Pull request #4704](https://github.com/FreeCAD/FreeCAD/pull/4704).
@@ -423,11 +483,15 @@ De nouvelles options ont été ajoutées pour supporter l\'exécution de FreeCAD
 -   Amélioration de la navigation en utilisant les touches **Tab** et **Entrée**.
 -   Amélioration de l\'interface pour couper et coller des blocs de cellules.
 
+
+
 ## Atelier TechDraw 
 
    
   <img alt="" src=images/TechDraw_ExtensionExample_relnotes_0.20.png  style="width:384px;">   Plus de 30 nouveaux outils, appelés [Extensions](TechDraw_Workbench/fr#Extensions.md), sont désormais disponibles. Ils offrent de nouvelles fonctionnalités cosmétiques pour améliorer les dessins.
    
+
+
 
 ### Autres améliorations de TechDraw 
 
@@ -442,6 +506,8 @@ De nouvelles options ont été ajoutées pour supporter l\'exécution de FreeCAD
 ## Web
 
 Qt WebEngine est maintenant considéré comme l\'option par défaut au lieu de Qt WebKit.
+
+
 
 ## Ateliers externes 
 
@@ -504,6 +570,8 @@ L\'[Atelier Ship](Ship_Workbench/fr.md) est de nouveau opérationnel !
 -   Un nouvel outil pour calculer le [tirant d\'eau et l\'angle d\'assiette](https://github.com/FreeCAD/freecad.ship#static-sink-and-trim) a été ajouté.
 -   Un nouvel outil pour calculer les [opérateurs d\'amplitude de réponse](https://github.com/FreeCAD/freecad.ship#raos) a été ajouté en plus de [capytaine](https://github.com/mancellin/capytaine).
 
+
+
 ## Compilation
 
 Depuis cette version, FreeCAD ne peut être compilé qu\'avec Qt 5.x et Python 3.x. La version de Python la moins bien supportée est 3.6.9 selon [ce fil de discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=62701).
@@ -516,11 +584,17 @@ Les systèmes d\'exploitation pris en charge sont :
 -   Linux Ubuntu Bionic Beaver (18.04) et Focal Fossa (20.04)
 -   MacOS : 10.12 Sierra ou plus récent
 
+
+
 ## Limitations connues 
+
+
 
 ### Windows 32 bits 
 
 Depuis FreeCAD 0.19, nous ne supportons plus officiellement Windows 32 bits. FreeCAD pourrait fonctionner sur ces systèmes, mais aucun support n\'est donné.
+
+
 
 ### Bureau distant sous Windows 
 
@@ -529,9 +603,11 @@ Selon les capacités graphiques OpenGL d\'un ordinateur, il se peut que l\'on re
 -   Téléchargez [cette bibliothèque OpenGL](https://downloads.fdossena.com/geth.php?r=mesa64-latest) pour Windows 64 bits et extrayez-la.
 -   Renommez le fichier DLL en *opengl32sw.dll* et copiez-le dans le sous-dossier *bin* du dossier d\'installation de FreeCAD (écrasez la DLL existante).
 
+
+
 ### MacOS : L\'atelier Start affiche une page blanche 
 
-Si l\'[atelier Start](Start_Workbench/fr.md) n\'affiche qu\'une page blanche, vous devez activer l\'option **Utiliser le logiciel OpenGL** dans le menu **Edition → Préférences → Affichage**.
+Si l\'[atelier Start](Start_Workbench/fr.md) n\'affiche qu\'une page blanche, vous devez activer l\'option **Utiliser le logiciel OpenGL** dans le menu **Édition → Préférences → Affichage**.
 
 
 

@@ -1,35 +1,42 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher CreateArcOfEllipse
-   MenuLocation:Sketch → Sketcher geometries → Create an arc of ellipse
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Utwórz łuk na podstawie elipsy
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz łuk na podstawie elipsy
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **E** **A**
    Version:0.15
-   SeeAlso:[Sketcher Ellipse by center](Sketcher_CreateEllipseByCenter.md), [Sketcher Arc](Sketcher_CompCreateArc.md)
+   SeeAlso:[Utwórz elipsę przez środek](Sketcher_CreateEllipseByCenter/pl.md), [Komponent utwórz łuk](Sketcher_CompCreateArc/pl.md)
 ---
 
 # Sketcher CreateArcOfEllipse/pl
 
-## Description
 
-This tool draws an arc of ellipse by picking four points: the center, the end of major radius, the start point and the end point. When starting the tool, the mouse pointer changes to a white cross with a red ellipse arc icon. Besides are coordinates shown in real time.
+
+## Opis
+
+Narzędzie to rysuje łuk elipsy wybierając cztery punkty: środek, koniec promienia głównego, punkt początkowy i punkt końcowy. Po uruchomieniu narzędzia kursor myszki zmienia się w biały krzyż z czerwoną ikoną łuku elipsy. Poza tym wyświetlane są współrzędne w czasie rzeczywistym.
 
 <img alt="" src=images/Sketcher_ArcOfEllipseExample1.png‎  style="width:500px;"> 
-*The sequence of clicks is indicated by yellow arrows with numbers.<br>
-C is the center, a the major diameter, b the minor diameter, F1 and F2 are foci.*
+*Kolejność kliknięć wskazują żółte strzałki z numerami.<br>
+'''C''' to środek, '''a''' średnica główna, '''b''' średnica mała, '''F1''' i '''F2''' to punkty centralne.*
 
-## Usage
 
--   Press the **[<img src=images/Sketcher_CreateArcOfEllipse.svg style="width:16px"> [Create an arc of ellipse](Sketcher_CreateArcOfEllipse.md)** button.
--   First click in 3D view sets ellipse center. Second click sets the first radius and orientation of the ellipse. Third click sets the other radius and the start of the arc. The fourth click sets the end of the arc.
--   After the fourth click, the arc of ellipse is created, together with a set of construction geometry aligned to it (major diameter, minor diameter, two foci). The construction geometry can be manually deleted if not needed, and recreated later. See [Internal Alignment Constraint](Sketcher_ConstrainInternalAlignment.md) and [Sketcher Show Hide Internal Geometry](Sketcher_RestoreInternalAlignmentGeometry.md).
--   Pressing **ESC** or clicking the right mouse button cancels the function.
 
-## Peculiarities
+## Użycie
 
--   Major and minor axes of underlying ellipse are strict and cannot be swapped by resizing. The underlying ellipse must be rotated to swap the axes.
--   Unlike ellipse that can be constrained to become a circle, ellipse arc cannot represent an arc of circle.
--   Moving the arc of ellipse by edge is the same as moving ellipse\'s center.
+-   Naciśnij przycisk **[<img src=images/Sketcher_CreateArcOfEllipse.svg style="width:16px"> '''Utwórz łuk na podstawie elipsy'''**.
+-   Pierwsze kliknięcie w oknie widoku 3D ustawia środek elipsy. Drugie kliknięcie ustawia pierwszy promień i orientację elipsy. Trzecie kliknięcie ustawia drugi promień i początek łuku. Czwarte kliknięcie ustawia koniec łuku.
+-   Po czwartym kliknięciu tworzony jest łuk elipsy wraz z zestawem geometrii konstrukcyjnych do niego dopasowanych *(średnica główna, średnica mniejsza, dwie ogniskowe)*. Geometria konstrukcyjna może być ręcznie usunięta, jeśli nie jest potrzebna, i odtworzona później. Zobacz [Pokaż / ukryj geometrię wewnętrzną](Sketcher_RestoreInternalAlignmentGeometry/pl.md).
+-   Naciśnięcie **ESC** lub kliknięcie prawym przyciskiem myszy powoduje przerwanie funkcji.
+
+
+
+## Szczególe cechy 
+
+-   Główne i małe osie elipsy bazowej są stałe i nie mogą być zamienione przez zmianę rozmiaru. Bazowa elipsa musi zostać obrócona, aby zamienić osie.
+-   W przeciwieństwie do elipsy, która może być związana do okręgu, łuk elipsy nie może reprezentować łuku okręgu.
+-   Przesunięcie łuku elipsy o krawędź jest takie samo jak przesunięcie środka elipsy.
 
 
 

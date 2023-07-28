@@ -5,8 +5,8 @@ This category lists pages related to the [Drawing Workbench/pt](Drawing_Workbenc
 
 |     |     |     |
 | --- | --- | --- |
-| [Drawing Workbench/pt](Drawing_Workbench/pt.md) | [Category:Drawing/pt](Category_Drawing/pt.md) | [Category:Obsolete Workbenches/pt](Category_Obsolete_Workbenches/pt.md) |
-|
+| [Drawing Workbench/pt](Drawing_Workbench/pt.md) | [Image Workbench/pt](Image_Workbench/pt.md) | [Raytracing Workbench/pt](Raytracing_Workbench/pt.md) |
+| [Category:Drawing/pt](Category_Drawing/pt.md) | [Category:Obsolete Workbenches/pt](Category_Obsolete_Workbenches/pt.md) |
 
 
 

@@ -88,7 +88,13 @@ Vi imate nekoliko pogleda koji su predefinirani (pogled odozgo, pogled sprijeda 
 
 ## Prvi koraci sa FreeCAD-om 
 
+
+<div class="mw-translate-fuzzy">
+
 Fokus FreeCAD-a vam je omogućiti izradu 3D preciznih 3D modela, strogu kontrolu nad tim modelima (mogućnost vraćanja u povijest modeliranja i izmjenu parametara) i na kraju izradu tih modela (putem 3D ispisa, CNC obrade ili čak gradilišta). Stoga se vrlo razlikuje od nekih drugih 3D aplikacija napravljenih u druge svrhe, poput animacijskog filma ili igranja. Njegova krivulja učenja može biti strma, posebno ako je ovo vaš prvi kontakt s 3D modeliranjem. Ako u nekom trenutku imate poteškoće, nemojte zaboraviti da će vas prijateljska zajednica korisnika na [FreeCAD forumu](http://forum.freecadweb.org/index.php) uspjeti pomoći u bilo kojem trenutku.
+
+
+</div>
 
 Radna ploča koju ćete početi koristiti u FreeCAD-u ovisi o vrsti posla koji trebate obaviti: Ako radite na mehaničkim modelima ili općenito nekim objektima manjeg opsega, vjerojatno ćete željeti isprobati [Dizajniranje dijelova radna ploča](PartDesign_Workbench/hr.md). Ako radite u 2D-u, prebacite se na [ Nacrt radna ploča](Draft_Workbench/hr.md) ili na [Skiciraj radna ploča](Sketcher_Workbench/hr.md) ako su vam potrebna ograničenja. Ako želite učiniti BIM, pokrenite [Arhitekt radna ploča](Arch_Workbench/hr.md). Ako radite s dizajnom brodova, za vas postoji poseban [Brod radna ploča](Ship_Workbench/hr.md). A ako stižete iz svijeta OpenSCAD, pokušajte [OpenSCAD radna ploča](OpenSCAD_Workbench/hr.md).
 

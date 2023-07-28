@@ -3,9 +3,9 @@
 
 
 
-## Présentation
+## Description
 
-Chaque page TechDraw est basée sur un objet Modèle. Le modèle contrôle la taille du papier et contient des graphiques et du texte fixes, par exemple un cadre de page ou une bordure.
+Chaque page TechDraw est basée sur un objet Modèle. **TechDraw Modèle** contrôle la taille du papier et contient des graphiques et du texte fixes, par exemple un cadre de page ou une bordure.
 
 Le modèle peut également contenir des champs de texte modifiables pour des attributs tels que *Titre*, *Sous-titre*, *Auteur*, *Date*, *Échelle*, *Poids*, *Numéro du dessin* et *Feuille*.
 
@@ -63,7 +63,7 @@ Où `$INSTALL_DIR` est le répertoire où FreeCAD a été installé, par exemple
 
 Les modèles personnalisés peuvent également être spécifiés par défaut dans [TechDraw Préférences](TechDraw_Preferences/fr.md).
 
-Voir aussi [Comment créer un modèle TechDraw personnalisé](TechDraw_TemplateHowTo/fr.md)
+Voir aussi [Comment créer un modèle TechDraw personnalisé](TechDraw_TemplateHowTo/fr.md), ou, si vous préférez les modèles générés par script, [TechDraw Création de modèles](TechDraw_TemplateGenerator/fr.md) et [Macro TemplateHelper](Macro_TemplateHelper/fr.md).
 
 
 

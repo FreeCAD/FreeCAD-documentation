@@ -1,17 +1,19 @@
 ---
 - GuiCommand:/de
-   Name:Sketcher Regular Polygons
+   Name:Sketcher CompCreateRegularPolygon
    Name/de:Sketcher AuswahlRegelmäßigesVieleckErstellen
-   Icon:Sketcher_CompCreateRegularPolygon.png
-   MenuLocation:
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
 ---
 
 # Sketcher CompCreateRegularPolygon/de
 
+
+
 ## Beschreibung
 
 **Regelmäßiges Vieleck erstellen** ist eine Symbolschaltfläche in der Werkzeugleiste *Sketcher geometries*, die Werkzeuge zur Erstellung eines regelmäßigen Vielecks gruppiert. Klicke auf den Pfeil nach unten rechts, um die darunter liegenden Symbole aufzuklappen und ein Werkzeug auszuwählen.
+
+
 
 ## Arten regelmäßiger Polygone 
 

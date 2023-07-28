@@ -12,7 +12,7 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_ExtensionDrawCosmArc.svg  style="width:24px;"> **TechDraw ExtensionDrawCosmArc** tool adds a cosmetic counter clockwise arc based on three vertexes.
+The **TechDraw ExtensionDrawCosmArc** tool adds a cosmetic counter clockwise arc based on three vertexes.
 
  <img alt="" src=images/TechDraw_ExtensionArcExample.png  style="width:400px;">  
 *On the right an added cosmetic arc*
@@ -24,7 +24,7 @@ The <img alt="" src=images/TechDraw_ExtensionDrawCosmArc.svg  style="width:24px;
 3.  Select the second vertex to determine the radius and the start angle of the arc.
 4.  Select the third vertex to determine the end angle of the arc.
 5.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionDrawCosmArc.svg" width=16px> [TechDraw ExtensionDrawCosmArc](TechDraw_ExtensionDrawCosmArc.md)** button.
+    -   Press the **<img src="images/TechDraw_ExtensionDrawCosmArc.svg" width=16px> [Add Cosmetic Arc](TechDraw_ExtensionDrawCosmArc.md)** button.
     -   Select the **TechDraw → Extensions: Centerlines/Threading → <img src="images/TechDraw_ExtensionDrawCosmArc.svg" width=16px> Add Cosmetic Arc** option from the menu.
 6.  A cosmetic arc is added.
 

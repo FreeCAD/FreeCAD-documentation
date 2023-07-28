@@ -12,8 +12,6 @@
 
 </div>
 
-![600px](images/Part_Extrude_demo.png)
-
 ## Description
 
 
@@ -36,6 +34,12 @@
 -   Выдавите грань (например, плоскость), чтобы получить твёрдое тело (например, Прямоугольный параллелепипед)
 -   Выдавите **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Draft ShapeString(фигура из строки текста)](Draft_ShapeString/ru.md)**, чтобы получить соединение твёрдых тел (строка состоит из букв, каждая буква будет твёрдым телом)
 -   Выдавите оболочку из граней, получится Compsolid (Композитное твёрдое тело).
+
+![600px](images/Part_Extrude_demo.png)
+
+
+
+*Examples of extrusion*
 
 ## Usage
 
@@ -131,6 +135,8 @@
 
 </div>
 
+
+
 ## Диалог Задачи 
 
 <img alt="" src=images/Part_Extrude_dialog_ru.png  style="width:381px;">
@@ -172,6 +178,8 @@
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

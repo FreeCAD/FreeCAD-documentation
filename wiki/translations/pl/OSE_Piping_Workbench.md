@@ -1,42 +1,48 @@
 # OSE Piping Workbench/pl
-# Introduction
+# Wprowadzenie
 
 
 {{TOCright}}
 
-OSE Piping Workbench creates pipes and fittings. It is a part of [Open Source Ecology](https://www.opensourceecology.org/) and [Open Source Ecology Germany](https://www.ose-germany.de/). To use all its features install the [Dodo Workbench](Flamingo_Workbench.md).
+Środowisko Rurociągi OSE tworzy rury i kształtki. Jest częścią [Open Source Ecology](https://www.opensourceecology.org/) i [Open Source Ecology Germany](https://www.ose-germany.de/). Aby korzystać ze wszystkich jego funkcji, należy zainstalować środowisko pracy [Dodo](Flamingo_Workbench/pl.md).
 
-![ 512px](images/OSE_Piping_workbench_screenshot.png )
+![ 512px](images/OSE_Piping_workbench_screenshot.png ) 
 
-# Customization
+## Dostosowywanie
 
-OSE Piping stores dimensions in CSV-files in the *table* directory in the workbench directory. Edit these CSV files if you want to add new or to change dimensions of the fitting.
+Środowisko pracy Rurociągi OSE przechowuje wymiary w plikach **.CSV** w katalogu \"table\", katalogu środowiska pracy. Edytuj te pliki CSV, jeśli chcesz dodać nowe lub zmienić wymiary złączki.
 
-# Pipe
 
-A pipe is described by its outer diameter **OD**, its wall thickness **Thk** and its height **H**.
 
-To create a pipe, click ![](images/OSE_Piping_create_pipe_icon.svg ) in OSE piping workbench. Select pipe dimensions and click \"OK\".
+## Rury
+
+Rura jest opisana przez jej średnicę zewnętrzną **OD**, grubość ścianki **Thk** i wysokość **H**.
+
+Aby utworzyć rurę, kliknij ![](images/OSE_Piping_create_pipe_icon.svg ) w oknie środowiska roboczego rurociągi OSE. Wybierz wymiary rury i kliknij przycisk **OK**.
 
 ![ 512px](images/OSE_Pining_create_pipe_screenshot.png )
 
-To add new dimensions adjust CSV **pipe.csv** file.
+Aby dodać nowe wymiary, dostosuj plik CSV **pipe.csv**.
 
-Wikipedia on [Nominal Pipe Size (NPS)](https://en.wikipedia.org/wiki/Nominal_Pipe_Size).
+Wikipedia [Nominalny rozmiar rury *(**N**ominal **P**ipe **S**ize NPS)*](https://en.wikipedia.org/wiki/Nominal_Pipe_Size)
 
-# Elbow
 
-An elbow is described by an angle alpha, outer pipe diameter **POD**, inner pipe diameter **PID**, **H**, **J**, and **M**.
 
-To create an elbow, click ![](images/OSE_Piping_create_elbow_icon.svg ).
+# Kolanko
 
-<img alt="" src=images/OSE_Piping_create_elbow_screenshot.png  style="width:512px;"> ![](images/OSE_Piping_elbow_CAD_screenshot.png )  To add new elbows, adjust **elbow.csv** file.
+Kolanko jest opisane przez kąt alfa, zewnętrzną średnicę rury **POD**, wewnętrzną średnicę rury **PID**, **H**, **J** i **M**.
 
-# Sweep Elbow 
+Aby utworzyć kolanko, kliknij na ![](images/OSE_Piping_create_elbow_icon.svg ).
 
-A sweep elbow is a special elbow with larger radius of the bent part. It is described by outer pipe diameter POD, pipe thickness **PThk**, **G**, **H**, and **M**. To create a sweep elbow, click ![](images/OSE_Piping_create_sweep_elbow_icon.svg ).
+<img alt="" src=images/OSE_Piping_create_elbow_screenshot.png  style="width:512px;"> ![](images/OSE_Piping_elbow_CAD_screenshot.png )  Aby dodać nowe kolanka, dostosuj plik **elbow.csv**.
 
-<img alt="" src=images/OSE_Piping_create_sweep_elbow_screenshot.png  style="width:512px;"> ![](images/OSE_Piping_sweep_elbow_CAD_screenshot.png )  To add new sweep elbows, adjust **sweep-elbow.csv** file.
+
+
+# Długie kolanko 
+
+Kolanko długie to specjalne kolanko o większym promieniu wygiętej części. Jest ono opisane przez zewnętrzną średnicę rury POD, grubość rury **PThk**, **G**, **H** i **M**. Aby utworzyć kolano długie, kliknij ![](images/OSE_Piping_create_sweep_elbow_icon.svg ).
+
+<img alt="" src=images/OSE_Piping_create_sweep_elbow_screenshot.png  style="width:512px;"> ![](images/OSE_Piping_sweep_elbow_CAD_screenshot.png )  Aby dodać nowe kolanka długie, dostosuj plik **sweep-elbow.csv**.
 
 
 

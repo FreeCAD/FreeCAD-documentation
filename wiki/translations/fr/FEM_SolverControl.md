@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:FEM SolverControl
    Name/fr:FEM Réglage du solveur
-   MenuLocation:Solveur → Contrôle des tâches du solveur
+   MenuLocation:Résolution → Contrôle des tâches du solveur
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Shortcut:**S** **T**
    SeeAlso:[FEM Résolution](FEM_SolverRun/fr.md)
@@ -21,7 +21,7 @@ Cette commande est utilisée pour contrôler le solveur FEM (écrire le fichier 
 1.  Sélectionnez l\'objet Solver dans la [vue en arborescence](Tree_view/fr.md), par exemple, pour le <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> **Solveur standard Calculix**.
 2.  Il y a plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/FEM_SolverControl.svg" width=16px> [Contrôle des tâches du solveur](FEM_SolverControl/fr.md)**.
-    -   Sélectionnez l\'option **Solveur → <img src="images/FEM_SolverControl.svg" width=16px> Contrôle des tâches du solveur** dans le menu.
+    -   Sélectionnez l\'option **Résolution → <img src="images/FEM_SolverControl.svg" width=16px> Contrôle des tâches du solveur** dans le menu.
     -   Utilisez le raccourci clavier : **S** puis **T**.
 3.  Vous pouvez modifier le répertoire de travail.
 4.  Vous pouvez sélectionner le type d\'analyse.
@@ -35,7 +35,7 @@ Cette commande est utilisée pour contrôler le solveur FEM (écrire le fichier 
 
 ## Remarques
 
--   Le répertoire de travail par défaut peut être modifié dans **Edition → Préférences → FEM**.
+-   Le répertoire de travail par défaut peut être modifié dans **Édition → Préférences → FEM**.
 -   Les commandes pour d\'autres solveurs peuvent différer.
 -   La version simplifiée de la commande est <img alt="" src=images/FEM_SolverRun.svg  style="width:24px;"> [Lancer les calculs du solveur](FEM_SolverRun/fr.md).
 

@@ -1,33 +1,28 @@
-# Mesh RemoveCompByHand/de
 ---
 - GuiCommand:/de
-   Name:Mesh RemoveCompByHand   Name/de:Netze Komponente von Hand entfernen‏‎
-   MenuLocation:Netze → Komponenten von Hand entfernen...
-   Workbenches:[Netze](Mesh_Workbench/de.md)
-   Shortcut:
-   SeeAlso:---
+   Name:Mesh RemoveCompByHand
+   Name/de:Mesh KomponenteVonHandEntfernen‏‎
+   MenuLocation:Netze → Komponente von Hand entfernen...
+   Workbenches:[Mesh](Mesh_Workbench/de.md)
+   SeeAlso:[Mesh KomponentenEntfernen‏‎](Mesh_RemoveComponents/de.md), [Arch NetzAufteilen](Arch_SplitMesh/de.md)
+---
+
+# Mesh RemoveCompByHand/de
 
 
-</div>
 
-## Description
+## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-## Einleitung
-
-Entferne Komponenten durch manuelle Auswahl in der 3D-Ansicht.
+Der Befehl \"Mesh KomponentenVonHandEntfernen\" entfernt Komponenten aus Netzobjekten.
 
 
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
 
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
+
+## Anwendung 
 
 1.  Wähle **Netze** → **Komponente von Hand entfernen...** aus der Menüleiste.
 2.  Wähle die Komponente(n) in der 3D-Ansicht. Ausgewählte Komponenten werden in Rot dargestellt.

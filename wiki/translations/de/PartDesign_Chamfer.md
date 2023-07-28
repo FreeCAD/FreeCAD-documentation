@@ -9,11 +9,17 @@
 
 # PartDesign Chamfer/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug <img alt="" src=images/PartDesign_Chamfer.svg  style="width:24px;"> **PartDesign Fase** erzeugt Fasen (Abschrägungen) an den ausgewählten Kanten eines Objekts. Es fügt dem Dokument ein **Chamfer**-Objekt und den dazugehörigen Repräsentanten in der [Baumansicht](Tree_view/de.md) hinzu.
 
+
+
 ## Anwendung
+
+
 
 ### Eine Fase hinzufügen 
 
@@ -30,6 +36,8 @@ Das Werkzeug <img alt="" src=images/PartDesign_Chamfer.svg  style="width:24px;">
 6.  Der [Aufgabenbereich](Task_panel/de.md) **Parameter der Fase** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 7.  Zum Fertigstellen die **OK**-Schaltfläche drücken.
 
+
+
 ### Eine Fase bearbeiten 
 
 1.  Eine der folgenden Möglichkeiten startet die Bearbeitung:
@@ -37,6 +45,8 @@ Das Werkzeug <img alt="" src=images/PartDesign_Chamfer.svg  style="width:24px;">
     -   Das Chamfer-Objekt in der [Baumansicht](Tree_view/de.md) mit der rechten Maustaste anklicken und **Chamfer bearbeiten** aus dem Kontextmenü auswählen.
 2.  Der [Aufgabenbereich](Task_panel/de.md) **Parameter der Fase** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 3.  Zum Fertigstellen die **OK**-Schaltfläche drücken.
+
+
 
 ## Optionen
 
@@ -57,28 +67,34 @@ Das Werkzeug <img alt="" src=images/PartDesign_Chamfer.svg  style="width:24px;">
     -   
         **Zwei Distanzen**
         
-        : Für die Platzierung der Fasenkanten werden zwei unterschiedliche Abstände verwendet. {{Version/de|0.19}}
+        : Für die Platzierung der Fasenkanten werden zwei unterschiedliche Abstände verwendet.
 
     -   
         **Distanz und Winkel**
         
-        : Für die Platzierung der einen Fasenkante wird ein Abstand verwendet, die andere Fasenkante wird durch den Winkel festgelegt. {{Version/de|0.19}}
--   Die Schaltfläche **<img src="images/PartDesign_Flip_Direction.svg" width=16px> Richtung umkehren** drücken, um die Richtung der Fase umzudrehen (deaktivaiert für **gleiche Distanz**). {{Version/de|0.19}}
+        : Für die Platzierung der einen Fasenkante wird ein Abstand verwendet, die andere Fasenkante wird durch den Winkel festgelegt.
+-   Die Schaltfläche **<img src="images/PartDesign_Flip_Direction.svg" width=16px> Richtung umkehren** drücken, um die Richtung der Fase umzudrehen (deaktivaiert für **gleiche Distanz**).
 -   Die **Größe** der Fase angeben.
 -   Die **Größe 2** der Fase angeben (ist nur verfügbar, wenn **Zwei Distanzen** ausgewählt ist).
 -   Den **Winkel** der Fase angeben (ist nur verfügbar, wenn **Distanz und Winkel** ausgewählt ist).
 -   Die Checkbox **Alle Kanten verwenden** aktivieren, um alle Kanten des vorherigen Formelements auszuwählen. Dies deaktiviert die Auswahlliste und die dazugehörigen Schaltflächen. {{Version/de|0.20}}
+
+
 
 ## Hinweise
 
 -   PartDesign Fase sollte nicht mit [Part Fase](Part_Chamfer/de.md) verwechselt werden. Solange man nicht weiß, was man macht, sollte [Part Fase](Part_Chamfer/de.md) nicht auf einen PartDesign-Body angewendet werden. Siehe [Part und PartDesign](Part_and_PartDesign/de.md).
 -   Fasen können (dürfen?) die angrenzenden Flächen nicht komplett vereinnahmen.
 
+
+
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein PartDesign-Chamfer-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
 
@@ -115,6 +131,8 @@ Ein PartDesign-Chamfer-Objekt wird von einem [Part-Formelement](Part_Feature/de.
 {{Properties_Title/de|Part Design}}
 
 -    {{PropertyData/de|Refine|Bool}}: Wenn auf `True` gesetzt, werden überflüssige Kanten aus dem Ergebnis der Operation entfernt. Der voreingestellte Wert wird durch die Einstellung **Modell nach skizzenbasierter Operation automatisch aufbereiten** bestimmt. Siehe [PartDesign Einstellungen](PartDesign_Preferences/de#Allgemein.md).
+
+
 
 ## Bekannte Probleme 
 

@@ -5,11 +5,21 @@
 
 </div>
 
+
+
 ## Descrizione
+
+
+<div class="mw-translate-fuzzy">
 
 Questo strumento consente di ispezionare il contenuto del G-Code nel dialetto interno di FreeCAD in un oggetto Operazione di Path.
 
+
+</div>
+
 ![](images/Path_inspector.jpg )
+
+
 
 ## Utilizzo
 
@@ -22,6 +32,8 @@ Questo strumento consente di ispezionare il contenuto del G-Code nel dialetto in
 
 
 </div>
+
+
 
 ## Opzioni
 

@@ -1,20 +1,25 @@
-# Basic TechDraw Tutorial
 ---
 - TutorialInfo:   Topic:Modeling
    Level:Beginner
    Author:[WandererFan](User_WandererFan.md)
    Time:Less than an hour
    FCVersion:0.17 or higher
-   Files:[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd  Basic Part Design for v0.17 Sample]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd Basic TechDraw Tutorial Sample]
-}}
+   Files:[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd?raw=true Basic Part Design for v0.17 Sample]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd?raw=true Basic TechDraw Tutorial Sample]
+---
+
+# Basic TechDraw Tutorial
+
+ 
+
+
 
 ## Introduction
 
-This tutorial introduces the new user to some of the tools and techniques used in the **![](images/)**. This tutorial is not a complete and comprehensive guide to the TechDraw Workbench and many of the tools and capabilities are not covered. This tutorial will take user through the steps needed to produce technical drawings of the part from the [Basic Part Design Tutorial](Basic_Part_Design_Tutorial.md).
+This tutorial introduces the new user to some of the tools and techniques used in the **<img src="images/Workbench_TechDraw.svg" width=24px> [Technical Drawing (TechDraw) Workbench](TechDraw_Workbench.md)**. This tutorial is not a complete and comprehensive guide to the TechDraw Workbench and many of the tools and capabilities are not covered. This tutorial will take user through the steps needed to produce technical drawings of the part from the [Basic Part Design Tutorial](Basic_Part_Design_Tutorial.md).
 
 ## Before You Begin 
 
-Download the [sample file](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd) from the Part Design tutorial.
+Download the [sample file](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd?raw=true) from the Part Design tutorial.
 
 ## The Task 
 
@@ -127,12 +132,11 @@ There is much more functionality in TechDraw for you to explore - Section Views,
 
 ## Additional Resources 
 
--   FreeCAD file of this exercise for comparison (made with 0.17) [Download](https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd)
+-   FreeCAD file of this exercise for comparison (made with 0.17) [Download](https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd?raw=true)
 
-  {{TechDraw Tools navi}} {{Userdocnavi
+ {{TechDraw Tools navi}}
+
+
+
 ---
-
-
-
----
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial

@@ -9,6 +9,8 @@ FEMbyGEN est une extension de FreeCAD. Il fournit une interface simple pour choi
 
 <img alt="" src=images/Generative_Design.png  style="width:512px;">
 
+
+
 ### Déroulement des tâches 
 
 1.  Cliquez sur le bouton **Initiate** pour créer les paramètres de l\'analyse paramétrique.
@@ -21,6 +23,8 @@ FEMbyGEN est une extension de FreeCAD. Il fournit une interface simple pour choi
 8.  Cliquez sur le bouton **Results** pour obtenir les résultats dans le fichier maître.
 9.  La somme des résultats de tous les cas de charge se trouvera également sous Results dans la [Vue en arborescence](Tree_view/fr.md).
 
+
+
 ### Fonctions
 
 -   Analyse FEM paramétrique
@@ -28,6 +32,8 @@ FEMbyGEN est une extension de FreeCAD. Il fournit une interface simple pour choi
 -   Récapitulation de tous les résultats dans un tableau
 -   Trier les résultats par poids de sortie
 -   Somme de tous les cas de charge
+
+
 
 ### Fonctions prévues à l\'avenir 
 
@@ -40,6 +46,8 @@ FEMbyGEN est une extension de FreeCAD. Il fournit une interface simple pour choi
 
 ## Installation
 
+
+
 ### Gestionnaire des extensions 
 
 FEMbyGEN peut facilement être installé via le <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addons](Std_AddonMgr/fr.md) de FreeCAD depuis menu **Outils → Gestionnaire d'Addons**.
@@ -48,13 +56,19 @@ FEMbyGEN est en cours de développement actif et sera doté de nouvelles fonctio
 
 Le code de FEMbyGEN est hébergé et développé ici [FEMbyGEN sur GitHub.com](https://github.com/Serince/FEMbyGEN).
 
+
+
 ### Manuellement
 
 Voir [Comment installer des ateliers supplémentaires](How_to_install_additional_workbenches/fr.md)
 
+
+
 ### Prérequis
 
 -   FreeCAD 0.19 ou plus récent
+
+
 
 ## Références
 
@@ -66,4 +80,4 @@ Voir [Comment installer des ateliers supplémentaires](How_to_install_additional
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > FEMbyGEN Workbench/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > FEMbyGEN Workbench/fr

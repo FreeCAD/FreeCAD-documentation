@@ -53,7 +53,7 @@ We could make a sketch on any of the major planes. We could include a trimmed co
 
 ## Attachment
 
-We will start with a block and pocket the excess away.
+We will start with a block and remove the excess with a pocket.
 
 Switch to Part Design workbench, open a new document, create a body and a new sketch on the XY plane.
 
@@ -79,7 +79,7 @@ Do the same for the Position sub heading. Change the X offset to 80mm, and the Y
 
 Attachment offset is commonly used in conjunction with expressions to offer a parametric parallel to plane position, eg. positioning a sketch on the top face of a Pad, using a (Pad.Length) expression for Z offset.
 
-The Sketch can now be padded <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;">, let\'s assume that the pad\'s height should be the same as the sketch\'s width. In the **Pad parameters** dialog select the **Length** box, press **<nowiki>=</nowiki>** or select the function icon <img alt="" src=images/Bound-expression.svg  style="width:24px;"> and type \"**Sketch.Constraints.width**\", this expression should resolve to \"40 mm\", then tick **Symmetric to plane** and press **OK**.
+The Sketch can now be padded <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;">, let\'s assume that the pad\'s height should be the same as the sketch\'s width. In the **Pad parameters** dialogue select the **Length** box, press **<nowiki>=</nowiki>** or select the function icon <img alt="" src=images/Bound-expression.svg  style="width:24px;"> and type \"**Sketch.Constraints.width**\", this expression should resolve to \"40 mm\", then tick **Symmetric to plane** and press **OK**.
 
 ![centre\|The Base Pad](images/BasePad2.png )
 
@@ -121,7 +121,7 @@ Here we can see the attachment that we chose when the sketch was created (in the
 
 The **Reference 1** button is in selecting mode, so in the 3D view select one of the long sides of the Base Sketch.
 
-The IsoscelesSketch will attach itself to the line you selected, and the attachment mode window will change to reflect the available modes.
+The IsoscelesSketch will attach itself to the line you selected, and the attachment mode window will change to reflect the available modes. If the triangle is pointing the wrong way you can correct it by checking the \"Flip Sides\" checkbox at the bottom of the dialogue (or later on after closing the dialogue it can be changed in the properties data tab by setting \"Map Reversed\" to \"True\").
 
 ![centre\|Normal to edge Isosceles](images/NormalToEdgeIsosceles.png )
 
@@ -297,7 +297,7 @@ Happy Attaching!
 
 [Top](#Top.md)
 
- {{Tutorials_navi}} {{PartDesign_Tools_navi}} {{Sketcher_Tools_navi}}
+ {{PartDesign_Tools_navi}} {{Sketcher_Tools_navi}}
 
 
 

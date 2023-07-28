@@ -4,7 +4,7 @@
    Name/pl:Część: Wyciągnięcie po ścieżce
    MenuLocation:Część → Wyciągnięcie po ścieżce
    Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Wyciągnięcie po profilach](Part_Loft/pl.md)
+   SeeAlso:[Wyciągnięcie przez profile](Part_Loft/pl.md)
 ---
 
 # Part Sweep/pl
@@ -15,9 +15,10 @@
 
 Narzędzie <img alt="" src=images/Part_Sweep.svg  style="width:24px;"> [Wyciągnięcie po ścieżce](Part_Sweep/pl.md) jest używane do tworzenia powierzchni, powłoki lub bryły z jednego lub więcej profili *(przekrojów)* rzutowanych wzdłuż ścieżki.
 
-Narzędzie *\'Wyciągnięcie po ścieżce* środowiska pracy Część jest podobne do <img alt="" src=images/Part_Loft.svg  style="width:24px;"> [Wyciągnięcia po profilach](Part_Loft/pl.md) z dodatkiem ścieżki do definiowania rzutu pomiędzy profilami.
+Narzędzie **Wyciągnięcie po ścieżce** środowiska pracy Część jest podobne do narzędzia <img alt="" src=images/Part_Loft.svg  style="width:24px;"> [Wyciągnięcie przez profile](Part_Loft/pl.md) z dodatkiem ścieżki do definiowania rzutu pomiędzy profilami.
 
-![](images/Part_Sweep_simple.png ) *Bryła wykonana metodą przeciągnięcia wygenerowana z pojedynczego profilu*(A)*rzutowanego wzdłuż ścieżki*(B)*.*
+![](images/Part_Sweep_simple.png ) 
+*Bryła wykonana metodą przeciągnięcia wygenerowana z pojedynczego profilu ''(A)'' rzutowanego wzdłuż ścieżki ''(B)''.*
 
 
 

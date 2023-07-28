@@ -1,43 +1,86 @@
 ---
 - GuiCommand:/de
    Name:TechDraw FaceCenterLine
-   Name/de:TechDraw FlächenMittelLinie
+   Name/de:TechDraw FlächenMittellinie
    MenuLocation:TechDraw → Linien hinzufügen → Mittellinie zu Fläche(n) hinzufügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Version:0.19
-   SeeAlso:[TechDraw Kosmetikknoten](TechDraw_CosmeticVertex/de.md), [TechDraw Mittellinie zwischen 2 Linien](TechDraw_2LineCenterLine/de.md), [TechDraw Mittellinie zwischen 2 Punkten](TechDraw_2PointCenterLine/de.md), [TechDraw Kosmetikradierer](TechDraw_CosmeticEraser/de.md)
+   SeeAlso:[TechDraw Hilfspunkt](TechDraw_CosmeticVertex/de.md), [TechDraw 2LinienMittellinie](TechDraw_2LineCenterLine/de.md), [TechDraw 2PunkteMittellinie](TechDraw_2PointCenterLine/de.md), [TechDraw HilfsobjektEntfernen](TechDraw_CosmeticEraser/de.md)
 ---
 
 # TechDraw FaceCenterLine/de
 
+
+</div>
+
+
+
 ## Beschreibung
 
-Das Werkzeug fügt einer Fläche eine Mittellinie durch ihren Mittelpunkt zu.
+Das Werkzeug \"TechDraw FlächenMittellinie\" fügt ausgewählten Flächen eine Mittellinie hinzu.
 
-<img alt="" src=images/TechDraw_FaceCenterLine_Sample.png  style="width:400px;"> 
-*Mittellinie einer Fläche zufügen (links: Fläche ausgewählt / rechts: Mittellinie zugefügt)*
+<img alt="" src=images/TechDraw_FaceCenterLine_Sample.png  style="width:400px;">
 
-## Anwendung
 
-1.  Wähle eine oder mehrere Flächen in einer Ansicht.
-2.  Drücke die **<img src="images/TechDraw_FaceCenterLine.svg" width=16px> Mittellinie zu Fläche(n) hinzufügen**.
-3.  Ein Dialogfeld wird geöffnet, in dem du die Attribute der neuen Mittellinie angeben kannst.
+<div class="mw-translate-fuzzy">
+
+
+
+*Mittellinie einer Fläche hinzufügen (links: Fläche ausgewählt / rechts: Mittellinie hinzugefügt)*
+
+
+</div>
+
+## Usage create 
+
+
+<div class="mw-translate-fuzzy">
+
+1.  Eine oder mehrere Flächen in einer Ansicht auswählen.
+2.  Die Schaltfläche **<img src="images/TechDraw_FaceCenterLine.svg" width=16px> Mittellinie zu Fläche(n) hinzufügen** drücken.
+3.  Ein Dialogfeld wird geöffnet, in dem die Attribute der neuen Mittellinie angegeben werden können.
 4.  Eine Mittellinie wird in der Mitte des Begrenzungsrahmens der ausgewählten Fläche(n) hinzugefügt.
 
-Um eine Mittellinie zu löschen, wähle sie aus und verwende die Werkzeugleistenschaltfläche **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Kosmetikobjekt entfernen](TechDraw_CosmeticEraser/de.md)**.
 
-## Bearbeite Mittellinien 
+</div>
 
-Alle Werkzeuge für Mittellinien (**<img src="images/TechDraw_FaceCenterLine.svg" width=16px> Mittellinie zu Fläche(n) hinzufügen**, **<img src="images/TechDraw_2LineCenterLine.svg" width=16px> [Mittellinie zwischen 2 Linien hinzufügen](TechDraw_2LineCenterLine/de.md)**, **<img src="images/TechDraw_2PointCenterLine.svg" width=16px> [Mittellinie zwischen 2 Punkten hinzufügen](TechDraw_2PointCenterLine/de.md)**) können verwendet werden um Mittellinien zu ändern.
+## Usage edit 
 
-1.  Wähle eine Mittellinie.
-2.  Drücke eine beliebige Befehlsschaltfläche der Mittellinie.
-3.  Ein Dialogfeld wird geöffnet, in dem du die Attribute der Mittellinie ändern kannst.
-4.  Drücke **OK**, um deine Änderungen zu sehen.
+
+<div class="mw-translate-fuzzy">
+
+Jede der Schaltflächen für Mittellinien-Befehle (**<img src="images/TechDraw_FaceCenterLine.svg" width=16px> Mittellinie zu Fläche(n) hinzufügen**, **<img src="images/TechDraw_2LineCenterLine.svg" width=16px> [Mittellinie zwischen 2 Linien hinzufügen](TechDraw_2LineCenterLine/de.md)**, **<img src="images/TechDraw_2PointCenterLine.svg" width=16px> [Mittellinie zwischen 2 Punkten hinzufügen](TechDraw_2PointCenterLine/de.md)**) kann verwendet werden, um Mittellinien zu bearbeiten.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+1.  Eine Mittellinie auswählen.
+
+2.  Eine beliebige Schaltfläche für Mittellinien-Befehle drücken.
+
+3.  Ein Dialogfeld wird geöffnet, in dem sich die Attribute der Mittellinie bearbeiten lassen.
+
+4.  
+    **OK**drücken, um die Änderungen zu sehen.
+
+
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ## Eigenschaften
 
-Mittellinien haben keine eigenen Eigenschaften, da sie keine Dokumentobjekte innerhalb der Zeichnung sind. Sie haben Attribute die im Mittellinienbearbeitungs Dialog geändert werden können.
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Modus (Auswahlknöpfe):
     -   **Vertikal**: Erzwingt eine vertikale Mittellinie
@@ -51,24 +94,33 @@ Mittellinien haben keine eigenen Eigenschaften, da sie keine Dokumentobjekte inn
 7.  **Weight**: Dicke der Mittellinie
 8.  **Style**: <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Durchgehend, <img alt="" src=images/Dash-line.svg  style="width:20px;"> Strich, <img alt="" src=images/Dot-line.svg  style="width:20px;"> Punkt, <img alt="" src=images/DashDot-line.svg  style="width:20px;"> StrichPunkt, <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> StrichPunktPunkt
 
-## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+</div>
 
-Mittellinien sind zur Zeit noch nicht zugänglich über [Makros](Macros/de.md) und die [Python](Python/de.md) Konsole.
+
 
 ## Hinweise
 
--   FlächenMittelLinie wird eventuell zwei Ansichtseigenschaften ersetzen:
+
+<div class="mw-translate-fuzzy">
+
+-   FlächenMittellinie wird eventuell zwei Ansicht-Eigenschaften ersetzen:
     -   
-        **HorizMittelLinie**
+        {{PropertyView/de|HorizCenterLine}}
         
         : Zeigt eine horizontale Mittellinie durch die Ansicht.
 
     -   
-        **VertMittelLinie**
+        {{PropertyView/de|VertCenterLine}}
         
         : Zeigt eine vertikale Mittellinie durch die Ansicht.
+
+
+</div>
+
+## Properties
+
+Centerlines have no properties of their own, as they are not document objects.
 
 
 

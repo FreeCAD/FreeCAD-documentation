@@ -14,7 +14,7 @@
 
 
 
-簡介
+ 簡介
 
 本教學由Drei原創，並由vocx重新編輯並製作插圖。
 
@@ -35,6 +35,8 @@
 ![](images/00_Sk01_Sketcher_fully_constrained_final.png ) 
 *草圖的最終成果，所有幾何圖元完全拘束，包含用於輔助製圖的結構圖元.*
 
+
+
 ## 設定
 
 1\. 開啟FreeCAD, 使用**檔案 → [<img src=images/Std_New.svg style="width:16px"> [開新檔案](Std_New.md)**新增一空白文件.
@@ -46,6 +48,8 @@
 -   按滑鼠右鍵，或在鍵盤上按一下 **Esc**，可在編輯模式下取消選擇目前啟用的工具。
 -   離開草圖編輯模式，按一下[複合檢視/任務上方的](task_panel.md)**Close**按鈕，或按二次鍵盤的**Esc**按鍵。
 -   要再次進入編輯模式，在[樹狀檢視中該草圖名稱上點二下](tree_view.md) ；或點選該草圖，再按一下**[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [編輯所選之草圖](Sketcher_EditSketch.md)**。
+
+
 
 ## 建立草圖
 
@@ -67,6 +71,8 @@
 
 
 *草圖編輯器中[「任務面板」](task_panel.md)的上半部。*
+
+
 
 ## 建構用幾何圖元
 
@@ -307,9 +313,11 @@ Constraining a sketch can be done in many different ways. In general, it is reco
 -   Try using other construction geometry.
 
 
- {{Sketcher Tools navi}}
+{{Sketcher Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/zh-tw
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/zh-tw

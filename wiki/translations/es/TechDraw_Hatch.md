@@ -9,6 +9,11 @@
 
 # TechDraw Hatch/es
 
+
+</div>
+
+
+
 ## Descripción
 
 
@@ -25,6 +30,8 @@ La herramienta Achurado rellena una región cerrada en una Vista con un patrón 
 
 *SVG achurado patrón en una cara*
 
+
+
 ## Utilización
 
 
@@ -37,6 +44,8 @@ La herramienta Achurado rellena una región cerrada en una Vista con un patrón 
 
 
 </div>
+
+
 
 ## Notas
 
@@ -69,6 +78,8 @@ y también en [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/Te
 
 </div>
 
+
+
 ## Propiedades
 
 -    **Source**: The View and Face to receive the hatch pattern.
@@ -79,6 +90,8 @@ y también en [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/Te
 
 -    **Hatch Scale**: Hatch pattern size modifier.
 
+
+
 ## Guión
 
 
@@ -86,14 +99,20 @@ y también en [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/Te
 
 [DibujoTécnico API](TechDraw_API/es.md) y [FreeCAD Fundamentos de Guión](FreeCAD_Scripting_Basics/es.md).
 
+
+<div class="mw-translate-fuzzy">
+
 La herramienta Achurado se puede utilizar en [macros](Macros/es.md) y desde la consola de [Python](Python/es.md) utilizando las siguientes funciones:
 
 
+</div>
+
+
 ```python
-hatch = FreeCAD.ActiveDocument.addObject('TechDraw::DrawHatch','Hatch')
-hatch.Source = (view1,["Face0"])
+hatch = FreeCAD.ActiveDocument.addObject("TechDraw::DrawHatch", "Hatch")
+hatch.Source = (view1, ["Face0"])
 hatch.HatchPattern = hatchFileSpec
-rc = page.addView(hatch)
+page.addView(hatch)
 ```
 
 

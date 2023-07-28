@@ -13,11 +13,15 @@
 
 
 
+
+
 ## Einleitung
 
 This example is meant to show how a simple Finite Element Analysis (**FEA**) in FreeCAD\'s [FEM Workbench](FEM_Workbench.md) looks like in the FreeCAD interface and how the results can be visualized. It illustrates how to trigger a FEA and how to change the load value and load direction. Furthermore, since the example file is provided with any FreeCAD installation, it a useful and easy check to run for the purpose of ascertaining if the the FEM Workbench is set up properly.
 
 <img alt="" src=images/FEM_example01_pic10.png  style="width:700px;">
+
+
 
 ## Voraussetzungen
 
@@ -27,26 +31,21 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 -   No external software is needed for loading the example file, viewing the mesh and geometry as well as for visualizing the results.
 -   For rerunning the FEA the solver software CalculiX has to be installed on your computer. Probably the solver has been installed together with FreeCAD already. If the solver CalculiX is not installed see [FEM Install](FEM_Install.md).
 
+
+
 ## Beispieldatei vorbereiten 
 
 
-<div class="mw-translate-fuzzy">
 
-### Arbeitsbereich Start laden 
+### Beispieldatei laden 
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   FreeCAD starten
--   Der Arbeitsbereich Start sollte geladen sein
-
-
-</div>
+-   FreeCAD starten.
+-   Ist der Arbeitsbereich Start nicht aktiviert, sollte er geladen und die Startseite geöffnet werden.
+-   Das Beispiel \"FemCalculixCantilever3D.FcStd\" öffnen.
 
 <img alt="" src=images/FEM_example01_pic11.png  style="width:700px;">
+
+
 
 ### Analyse-Container aktivieren 
 
@@ -55,6 +54,8 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 -   or right click on the <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> **Analysis** and choose **Activate analysis**.
 
 <img alt="" src=images/FEM_example01_pic12.png  style="width:700px;">
+
+
 
 ### Der Analyse-Container und seine Objekte 
 
@@ -70,6 +71,8 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 
 -   In this example, results <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> are already included as well.
 
+
+
 ### Ergebnisse darstellen 
 
 1.  Be sure the analysis is activated.
@@ -82,10 +85,14 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 
 <img alt="" src=images/FEM_example01_pic13.png  style="width:400px;">
 
+
+
 ### Ergebnisse entfernen 
 
 1.  Be sure the analysis is activated.
 2.  To remove the results: select in the icon toolbar the <img alt="" src=images/FEM_ResultsPurge.svg  style="width:24px;"> [Purge results](FEM_ResultsPurge.md) button.
+
+
 
 ### Die FEA durchführen 
 
@@ -107,6 +114,8 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 -   In the icon toolbar click on <img alt="" src=images/FEM_SolverRun.svg  style="width:24px;"> [Run solver calculations](FEM_SolverRun.md).
 -   The Calculix input file will be written, CalculiX will be triggered and the result object should be created.
 
+
+
 ### Lastrichtung und Lastwert ändern 
 
 -   In the [tree view](Tree_view.md) expand <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> CCX_Results and select the <img alt="" src=images/FEM_MeshResult.svg  style="width:24px;"> ResultMesh object and press the **Space** key.
@@ -127,6 +136,8 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 
 <img alt="" src=images/FEM_example01_pic16.png  style="width:400px;">
 
+
+
 ## Wie geht es weiter? 
 
 -   We are now finished with the basic workflow for the [FEM Workbench](FEM_Workbench.md).
@@ -134,9 +145,11 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 -   We will create the CalculiX cantilever by ourselves and compare the results with the beam theory.
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM CalculiX Cantilever 3D/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CalculiX Cantilever 3D/de

@@ -9,7 +9,7 @@ Kompilieren unter Docker]]**
 
 ## Übersicht
 
-Diese Seite beschreibt, wie der neueste FreeCAD Quellcode unter MacOS X kompiliert wird. Für andere Plattformen, siehe [Kompilieren](Compiling/de.md).
+Diese Seite beschreibt, wie der neueste FreeCAD-Quellcode unter macOS kompiliert wird. Für andere Plattformen, siehe [Kompilieren](Compiling/de.md).
 
 Diese Anleitung wurde auf macOS Catalina mit Standard XCode 11.6 getestet. Es ist bekannt, dass sie auf macOS BigSur Beta mit XCode 12.0 Beta funktioniert. Wenn du planst, XCode Beta zu verwenden, stelle bitte sicher, dass du die Befehlszeilenwerkzeuge add on über ein dmg Paket herunterlädst, um einige libz Abhängigkeitsprobleme zu umgehen.
 

@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introduzione
 
 L\' [Ambiente PartDesign](PartDesign_Workbench/it.md) <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> fornisce strumenti avanzati per la modellazione di parti solide complesse. È principalmente focalizzato sulla creazione di parti meccaniche che possono essere fabbricate e assemblate in un prodotto finito. Tuttavia, i solidi creati possono essere utilizzati in generale per qualsiasi altro scopo come [progettazione architettonica](Arch_Workbench/it.md), [analisi degli elementi finiti](FEM_Workbench/it.md), o [lavorazione e stampa 3D](Path_Workbench/it.md).
@@ -17,9 +19,13 @@ I corpi creati con PartDesign sono spesso soggetti al [Problema di denominazione
 
 <img alt="" src=images/PartDesign_Example.png  style="width:500px;">
 
+
+
 ## Strumenti
 
 Gli strumenti di Part Design si trovano tutti nel menu di **Part Design** e nella barra degli strumenti di PartDesign che appare quando si carica l\'ambiente Part Design.
+
+
 
 ### Strumenti struttura 
 
@@ -28,6 +34,8 @@ Questi strumenti in realtà non fanno parte di PartDesign. Appartengono al siste
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Parte](Std_Part/it.md): aggiunge un nuovo contenitore di Parti nel documento attivo e lo rende attivo.
 
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Gruppo](Std_Group/it.md): aggiunge un contenitore Gruppo nel documento attivo, che consente di organizzare gli oggetti nella [vista ad albero](Tree_view/it.md).
+
+
 
 ### Strumenti di supporto di Part Design 
 
@@ -41,7 +49,11 @@ Questi strumenti in realtà non fanno parte di PartDesign. Appartengono al siste
 
 -   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Convalida lo schizzo](Sketcher_ValidateSketch/it.md): controlla se nell\'area di tolleranza ci sono dei punti distinti e li fa coincidere.
 
+
+
 ### Strumenti di modellazione di Part Design 
+
+
 
 #### Strumenti di riferimento 
 
@@ -55,9 +67,11 @@ Questi strumenti in realtà non fanno parte di PartDesign. Appartengono al siste
 
 -   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Crea un Forma legata](PartDesign_ShapeBinder/it.md): crea un raccoglitore di forme che fa riferimento alla geometria da un singolo oggetto principale
 
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Crea una Forma legata a sotto-oggetti](PartDesign_SubShapeBinder/it.md): crea un raccoglitore di forme che fa riferimento alla geometria da uno o più oggetti principali. {{Version/it|0.19}}
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Crea una Forma legata a sotto-oggetti](PartDesign_SubShapeBinder/it.md): crea un raccoglitore di forme che fa riferimento alla geometria da uno o più oggetti principali.
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Crea un clone](PartDesign_Clone/it.md): crea un clone del corpo selezionato.
+
+
 
 #### Strumenti Additivi 
 
@@ -71,7 +85,7 @@ Questi sono gli strumenti per creare funzioni di base o per aggiungere del mater
 
 -   <img alt="" src=images/PartDesign_Additive_Pipe.svg  style="width:32px;"> [Sweep additivo](PartDesign_AdditivePipe/it.md): crea un solido spostando uno o più schizzi lungo un percorso aperto o chiuso.
 
--   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Elica additiva](PartDesign_AdditiveHelix/it.md): crea un solido facendo scorrere uno schizzo lungo un\'elica. {{Version/it|0.19}}
+-   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Elica additiva](PartDesign_AdditiveHelix/it.md): crea un solido facendo scorrere uno schizzo lungo un\'elica.
 
 -   <img alt="" src=images/PartDesign_CompPrimitiveAdditive.png  style="width:48px;"> [Crea una primitiva additiva](PartDesign_CompPrimitiveAdditive/it.md): aggiunge un primitiva additiva al corpo attivo.
 
@@ -91,6 +105,8 @@ Questi sono gli strumenti per creare funzioni di base o per aggiungere del mater
 
   -<img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [Cuneo additivo](PartDesign_AdditiveWedge/it.md): crea un cuneo additivo.
 
+
+
 #### Strumenti sottrattivi 
 
 Questi sono gli strumenti per sottrarre del materiale da un corpo esistente.
@@ -105,7 +121,7 @@ Questi sono gli strumenti per sottrarre del materiale da un corpo esistente.
 
 -   <img alt="" src=images/PartDesign_SubtractivePipe.svg  style="width:32px;"> [Sweep sottrattivo](PartDesign_SubtractivePipe/it.md): crea una forma solida spostando uno o più schizzi lungo un percorso aperto o chiuso e la sottrae dal corpo attivo.
 
--   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Elica sottrattiva](PartDesign_SubtractiveHelix/it.md): crea una forma solida facendo scorrere uno schizzo lungo un\'elica e la sottrae dal corpo attivo. {{Version/it|0.19}}
+-   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Elica sottrattiva](PartDesign_SubtractiveHelix/it.md): crea una forma solida facendo scorrere uno schizzo lungo un\'elica e la sottrae dal corpo attivo.
 
 -   <img alt="" src=images/PartDesign_CompPrimitiveSubtractive.png  style="width:48px;"> [Crea una primitiva sottrattiva](PartDesign_CompPrimitiveSubtractive/it.md): aggiunge una primitiva sottrattiva al corpo attivo.
 
@@ -125,6 +141,8 @@ Questi sono gli strumenti per sottrarre del materiale da un corpo esistente.
 
   - <img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> ‎[Cuneo sottrattivo](PartDesign_SubtractiveWedge/it.md): aggiunge un cuneo sottrattivo al corpo attivo.
 
+
+
 #### Strumenti di trasformazione 
 
 Questi sono gli strumenti per trasformare le funzioni esistenti.
@@ -138,6 +156,8 @@ Questi sono gli strumenti per trasformare le funzioni esistenti.
 -   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [Multitrasformazione](PartDesign_MultiTransform/it.md): crea un modello combinando una qualsiasi delle trasformazioni sopra menzionate, nonché la trasformazione [Scala](PartDesign_Scaled/it.md).
     -   <img alt="" src=images/PartDesign_Scaled.svg  style="width:32px;"> [Scala](PartDesign_Scaled/it.md): ridimensiona una o più funzioni. Questo non è disponibile come strumento di trasformazione separato.
 
+
+
 #### Strumenti di abbellimento 
 
 Questi strumenti applicano un trattamento ai bordi o alle facce.
@@ -150,9 +170,13 @@ Questi strumenti applicano un trattamento ai bordi o alle facce.
 
 -   <img alt="" src=images/PartDesign_Thickness.svg  style="width:32px;"> [Spessore](PartDesign_Thickness/it.md): crea un guscio di dato spessore dal corpo attivo e apre la faccia o le facce selezionate.
 
+
+
 #### Booleane
 
 -   <img alt="" src=images/PartDesign_Boolean.svg  style="width:32px;"> [Operazione booleana](PartDesign_Boolean/it.md): importa uno o più Corpi o Cloni PartDesign nel corpo attivo e applica un\'operazione booleana.
+
+
 
 #### Extra
 
@@ -160,11 +184,13 @@ Alcune funzionalità aggiuntive che si trovano nel menu di Part Design:
 
 -   <img alt="" src=images/PartDesign_Migrate.svg  style="width:32px;"> [Migra](PartDesign_Migrate/it.md): migra nella versione 0.17 i file creati con versioni precedenti di FreeCAD. Se il file è basato su funzioni PartDesign, la migrazione dovrebbe riuscire. Se il file contiene oggetti Part, PartDesign e Draft misti, molto probabilmente la conversione fallisce.
 
--   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Pignone](PartDesign_Sprocket/it.md): crea un profilo del pignone, che può essere estruso. {{Version/it|0.19}}
+-   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Pignone](PartDesign_Sprocket/it.md): crea un profilo del pignone, che può essere estruso.
 
 -   <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width:32px;"> [Ingranaggio evolvente](PartDesign_InvoluteGear/it.md): crea un profilo ad evolvente d\'ingranaggio, che può essere estruso.
 
 -   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Procedura guidata per alberi](PartDesign_WizardShaft/it.md): genera un albero da una tabella di valori e consente di analizzare forze e momenti. L\'albero è realizzato con uno schizzo ruotato che può essere modificato.
+
+
 
 ### Elementi del menu contestuale 
 
@@ -174,16 +200,22 @@ Alcune funzionalità aggiuntive che si trovano nel menu di Part Design:
 
 -   <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:32px;"> [Sposta l\'oggetto dopo un altro oggetto](PartDesign_MoveFeatureInTree/it.md): consente il riordino del corpo dell\'albero spostando lo schizzo selezionato, la geometria di riferimento o la funzione in un\'altra posizione nell\'elenco delle funzioni.
 
+
+
 #### Elementi condivisi con l\'ambiente Part 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;">[Aspetto](Std_SetAppearance/it.md): determina l\'aspetto dell\'intera parte (trasparenza del colore ecc.).
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Imposta i colori](Part_FaceColors/it.md): assegna i colori alle facce delle parti.
 
+
+
 ## Preferenze
 
 -   <img alt="" src=images/Preferences-part_design.svg  style="width:32px;"> [Preferenze](PartDesign_Preferences/it.md): preferenze disponibili negli strumenti PartDesign.
 -   [Ottimizzare l\'installazione](Fine-tuning/it.md): alcuni parametri extra per ottimizzare il comportamento di PartDesign.
+
+
 
 ## Tutorial
 
@@ -192,6 +224,14 @@ Alcune funzionalità aggiuntive che si trovano nel menu di Part Design:
 -   [Basi di Part Design](Basic_Part_Design_Tutorial/it.md)
 -   [PartDesign Tutorial per i supporti dei cuscinetti I](PartDesign_Bearingholder_Tutorial_I/it.md) (da aggiornare)
 -   [PartDesign Tutorial per i supporti dei cuscinetti II](PartDesign_Bearingholder_Tutorial_II/it.md) (da aggiornare)
+
+
+
+## Esempi
+
+Per alcune idee su cosa si può ottenere con gli strumenti di Part Design, dare un\'occhiata a: [Esempi di PartDesign](PartDesign_Examples/it.md).
+
+<img alt="" src=images/PartDesign_ExampleSphere-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleTorus-01.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExamplePad-09.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-05.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSpring-04.png  style="width:80px;">
 
 
 

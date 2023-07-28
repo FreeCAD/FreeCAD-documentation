@@ -50,7 +50,7 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 ## Remarques
 
 -   Un Draft Texte peut être édité en double-cliquant dessus dans l\'arborescence. {{Version/fr|0.20}}
--   Les Draft Textes créés ou sauvegardés avec la [version 1.0 de FreeCAD](Release_notes_0.18/fr.md) ne sont pas rétrocompatibles.
+-   Les Draft Textes créés ou sauvegardés avec la [version 0.21 de FreeCAD](Release_notes_0.21/fr.md) ne sont pas rétrocompatibles.
 
 
 
@@ -85,7 +85,7 @@ Un objet Draft Texte est dérivé d\'un objet [App FeaturePython](App_FeaturePyt
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: spécifie comment le texte est affiché. S\'il s\'agit de {{value|World}}, le texte sera affiché sur un plan défini par sa **Placement**. S\'il s\'agit de {{value|Screen}}, le texte sera toujours tourné vers l\'écran. Il s\'agit d\'une propriété héritée. Les options mentionnées sont les options renommées ({{Version/fr|1.0}}).
+-    **Display Mode|Enumeration**: spécifie comment le texte est affiché. S\'il s\'agit de {{value|World}}, le texte sera affiché sur un plan défini par sa **Placement**. S\'il s\'agit de {{value|Screen}}, le texte sera toujours tourné vers l\'écran. Il s\'agit d\'une propriété héritée. Les options mentionnées sont les options renommées ({{Version/fr|0.21}}).
 
 
 {{TitleProperty|Graphics}}

@@ -43,9 +43,6 @@ Una nuvola di punti è una raccolta di punti nello spazio 3D. Generalmente una n
 
 
 
-
-
-
 {{Points Tools navi
 
 }}

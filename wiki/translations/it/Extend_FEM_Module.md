@@ -38,6 +38,8 @@ Aggiungere nuovi vincoli, equazioni o solutori è per lo più un lavoro di routi
 -   Una solida conoscenza del risolutore per il quale devono essere aggiunti nuovi oggetti (ad es. CalculiX o Elmer) è importante.
 -   Una conoscenza di base dei sistemi di compilazione, in particolare cmake (sistema di compilazione utilizzato da FreeCAD).
 
+
+
 ## Sistema di costruzione (cmake) 
 
 The build system must be modified regardless of which objects shall be added o the FEM workbench. Every python module (file) must be registered. The FEM workbench requires every new python module to be registered in `Mod/Fem/CMakeLists.txt`. This is true regardless of the type of the python module (GUI or non-GUI). Where exactly the module must be inserted depends on the role of the module. Solver, equations and constraints all use different lists. Searching for similar files and inserting the new file in the same list works most of the time.
@@ -83,6 +85,8 @@ SET(FemGuiViewProvider_SRCS
 )
 }}
 
+
+
 ## Organizzazione del codice sorgente 
 
 
@@ -109,6 +113,8 @@ Un pacchetto non segue questo modello: FemSolver. È posizionato allo stesso liv
     .femsolver.z88
     .femsolver.z88.equations
 
+
+
 ## Solutore
 
 In FreeCAD a solver can be split into two parts:
@@ -128,7 +134,7 @@ La maggior parte dei file relativi a un solver si trovano in un sottopacchetto d
 -   **femsolver/elmer/tasks.py:** Module containing one task class per task required for a solver implementation. Those tasks divide the process of solving a analysis into the following steps: check, prepare, solve, results.
 -   **femcommands/commands.py:** Adds the solver document object to the active document. Required to access the solver object from the GUI.
 
-There is a tutorial of adding a new solver: [Add FEM Solver Tutorial](Sandbox_Add_FEM_Solver_Tutorial.md)
+
 
 ## Equazioni
 
@@ -145,6 +151,8 @@ Most solver specific options (e.g. max. iterations, method of solving, etc) are 
 The actual implementation can be split into the generic and the solver specific part. The generic part can be found in the `femsolver.equationbase` module. The solver specific part resides inside individual Equations sub-packages of the solver packages (e.g. `femsolver/elmer/equations`).
 
 Adding a new equations to Elmer should be very easy. For newcomers there exists a tutorial which shows how to add a new equation to Elmer by adding the existing elasticity solver to FreeCAD: [Add FEM Equation Tutorial](Add_FEM_Equation_Tutorial.md).
+
+
 
 ## Vincoli
 

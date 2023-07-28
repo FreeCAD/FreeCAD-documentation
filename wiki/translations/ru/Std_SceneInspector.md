@@ -7,9 +7,13 @@
 
 # Std SceneInspector/ru
 
+
+
 ## Описание
 
 The **Std SceneInspector** command opens a dialog box displaying an overview of all nodes in the [scenegraph](Scenegraph.md) of the active [3D view](3D_view.md). It is more a utility for programmers than for average users. It can be used to find out why the rendering is slow or why something isn\'t rendered properly.
+
+
 
 ## Применение
 
@@ -20,7 +24,13 @@ The **Std SceneInspector** command opens a dialog box displaying an overview of 
 5.  Press the **Close** button to close the dialog box.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Std Base navi

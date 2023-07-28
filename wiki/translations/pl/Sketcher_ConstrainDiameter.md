@@ -2,15 +2,17 @@
 - GuiCommand:/pl
    Name:Sketcher ConstrainDiameter
    Name/pl:Szkicownik: Wiązanie średnicy
-   MenuLocation:Sketch → Wiązania szkicownika → Wiązanie średnicy
+   MenuLocation:Szkic → Wiązania szkicownika → Wiązanie średnicy
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md),
 [Projekt Części](PartDesign_Workbench/pl.md)
    Shortcut:**K** **O**
    Version:0.18
-   SeeAlso:[Wiązanie odległości](Sketcher_ConstrainDistance/pl.md), [Zwiąż odległość poziomą](Sketcher_ConstrainDistanceX/pl.md), [Zwiąż odległość pionową](Sketcher_ConstrainDistanceY/pl.md)
+   SeeAlso:[Wiązanie odległości](Sketcher_ConstrainDistance/pl.md), [Zwiąż w poziomie](Sketcher_ConstrainDistanceX/pl.md), [Zwiąż w pionie](Sketcher_ConstrainDistanceY/pl.md)
 ---
 
 # Sketcher ConstrainDiameter/pl
+
+
 
 ## Opis
 
@@ -27,6 +29,8 @@ To wiązanie powoduje, że wartość średnicy okręgu lub łuku ma określoną 
 
 Uwaga: Bieguny krzywej złożonej nie mogą być mieszane z innymi typami obiektów podczas wyboru.
 
+
+
 ## Użycie
 
 1.  Zaznacz jeden lub więcej okręgów lub łuków.
@@ -35,6 +39,8 @@ Uwaga: Bieguny krzywej złożonej nie mogą być mieszane z innymi typami obiekt
 4.  Opcjonalnie etykietę wymiaru i linię można przesuwać i obracać w oknie widoku 3D klikając na wartość i przeciągając, jednocześnie trzymając wciśnięty lewy przycisk myszki.
 
 **Uwaga:** Narzędzie wiązania może być również uruchomione bez wcześniejszego zaznaczenia obiektu. Domyślnie polecenie będzie w trybie kontynuacji, aby utworzyć nowe wiązanie. Naciśnij prawy przycisk myszy lub klawisz **Esc** raz, aby zakończyć wykonywanie polecenia.
+
+
 
 ## Tworzenie skryptów 
 

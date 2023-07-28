@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Lo strumento Armatura permette di posizionare delle [barre di rinforzo](http://en.wikipedia.org/wiki/Rebar) negli oggetti [Struttura](Arch_Structure/it.md).
@@ -23,6 +25,8 @@ Gli oggetti Armature sono basati su profili 2D come gli [schizzi](Sketcher_Workb
 
 <img alt="" src=images/Arch_Rebar_example.jpg  style="width:400px;"> 
 *Oggetto strutturale con due schizzi disegnati sulle sue facce, che vengono poi trasformati in due serie di oggetti armature*
+
+
 
 ## Estensione disponibile 
 
@@ -41,6 +45,8 @@ Lo strumento Armatura è potenziato dall\'ambiente [Reinforcement](Reinforcement
 
 </div>
 
+
+
 ## Utilizzo
 
 1.  Passare nell\'ambiente <img alt="" src=images/Workbench_Arch.svg  style="width:16px;"> [Arch](Arch_Workbench/it.md)
@@ -57,6 +63,8 @@ Lo strumento Armatura è potenziato dall\'ambiente [Reinforcement](Reinforcement
 
 Anche se normalmente all\'interno di una struttura di Arch viene utilizzata una barra d\'armatura, da FreeCAD 0.19 l\'armatura può essere creata al di fuori di qualsiasi oggetto ospite. Per ospitare una barra di armatura all\'interno di un oggetto, basta impostare la sua proprietà **Host**.
 
+
+
 ## Opzioni
 
 -   Gli elementi Armatura condividono le proprietà e i comportamenti comuni di tutti i [Componenti Arch](Arch_Component/it.md)
@@ -64,6 +72,8 @@ Anche se normalmente all\'interno di una struttura di Arch viene utilizzata una 
 -   I valori di default per le nuove armature possono essere impostati nelle preferenze di Arch.
 -   Se non è specificato un vettore di direzione, la direzione e la distanza lungo la quale le barre si propagano vengono calcolate automaticamente dall\'oggetto strutturale ospitante, utilizzando la direzione normale al disegno di base, e incassandolo nell\'oggetto struttura. Se si specifica un vettore di direzione, viene anche presa in considerazione la lunghezza di questo vettore.
 -   La distanza viene calcolata secondo la quantità corrente di barre, e rappresenta la distanza tra gli assi delle barre. Quindi, per avere la dimensione dello spazio libero tra le barre è necessario sottrarre il diametro della barra.
+
+
 
 ## Proprietà
 
@@ -81,6 +91,11 @@ Anche se normalmente all\'interno di una struttura di Arch viene utilizzata una 
 
 -    {{ProprietaDati|Spacing}}: La distanza tra gli assi di ogni barra.
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Script
 
 
@@ -88,7 +103,23 @@ Anche se normalmente all\'interno di una struttura di Arch viene utilizzata una 
 
 [API Arch](Arch_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Armatura può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+
+</div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento Armatura può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
+</div>
+
+
 ```python
 Rebar = makeRebar(baseobj=None, sketch=None, diameter=None, amount=1, offset=None, name="Rebar")
 ```

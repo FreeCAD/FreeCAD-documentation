@@ -1,6 +1,8 @@
 # Advanced FreeCAD test system
 This page is dedicated to the Google Summer of Code project regarding the enhancement of FreeCAD\'s test system.
 
+**Obsolete**: This page has been moved to <https://github.com/FreeCAD/FreeCAD/issues/8560>
+
 ## Outline
 
 FreeCAD as a CAE application has a high level of complexity, both in its source code and also in its user interaction. To ensure a certain level of quality automatic testing is essential. However, as an open source application with spare time coders only this part of the project has not seen very much attention. One of the major reasons is the low-level handling required to write test cases. All actions to trigger, every result fetching and every single comparison needs to be hand coded. This makes it cumbersome to provide a test for every created functionality and possibly impossible to do so if deep document comparisons are needed. For example the Part and PartDesign workbench: An automated test for document objects require the resulting topology shape to be analysed. This is a tremendous part and cannot be handled on a per test basis.

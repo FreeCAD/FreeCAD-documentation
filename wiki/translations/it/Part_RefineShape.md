@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -37,6 +39,8 @@ In alternativa, per produrre altre copie non parametriche degli oggetti utilizza
 
 </div>
 
+
+
 ## Utilizzo
 
 1.  Selezionare un oggetto che si desidera pulire e copiare.
@@ -59,6 +63,8 @@ Questo comportamento può essere modificato nell\'[editor dei parametri](Std_Dlg
 Vedi altri parametri in [Ottimizzare l\'installazione](Fine-tuning/it.md).
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Note
@@ -66,10 +72,18 @@ Vedi altri parametri in [Ottimizzare l\'installazione](Fine-tuning/it.md).
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   Questa funzione può essere utilizzata come ultimo passo nel lavoro di modellazione per ripulire le forme in un flusso di lavoro tradizionale di [geometria solida costruttiva](constructive_solid_geometry/it.md).
 -   Questa funzione può aiutare a ripulire il modello prima di applicare un\'altra funzione, ad esempio un [raccordo](Part_Fillet/it.md).
 -   Questa pulizia potrebbe impedire alle stampanti 3D di stampare bordi indesiderati una volta esportato il modello solido in un formato mesh.
 -   Questa funzione può essere utilizzata anche dopo aver convertito una mesh in una forma con ([Forma da mesh](Part_ShapeFromMesh/it.md)) per pulire i bordi residui su facce piane.
+
+
+</div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -81,6 +95,8 @@ Vedi altri parametri in [Ottimizzare l\'installazione](Fine-tuning/it.md).
 
 -   L\'algoritmo di affinamento funziona solo sui gusci. Quindi itera sui gusci della forma di ingresso e poi per ogni guscio (shell) ne crea uno nuovo con le facce unite, dove è possibile. Questo significa che se la forma di ingresso è solo una faccia, contorno, bordo o vertice l\'algoritmo non fa nulla.
 -   \* A differenza del comando <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width:24px;"> [Affina forma](OpenSCAD_RefineShapeFeature/it.md) di OpenSCAD, <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Affina forma](Part_RefineShape/it.md) di Parte non si aggiorna quando vengono modificate le forme precedenti.
+
+
 
 
 <div class="mw-translate-fuzzy">

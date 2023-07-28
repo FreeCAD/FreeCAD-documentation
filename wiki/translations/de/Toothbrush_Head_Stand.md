@@ -14,6 +14,8 @@
 
 
 
+
+
 ## Ein alltägliches Problem 
 
 Elektrische Zahnbürsten kommen selten mit einem Ständer für die Köpfe, während Sie in einer Familie oftmals mehrere Köpfe sehen, die mit einem Gerät benutzt werden. Viele Leute, die ein gemeinsames Problem haben, führen zu einer Vielzahl von Lösungen, wie man u.a. auf Thingiverse sieht (200-800 Projekte befassen sich damit). Hier ist die erste Antwort und wie man sie entwirft.
@@ -22,11 +24,15 @@ Dieses Tutorial wird Sie durch die notwendigen Schritte führen, um das in der f
 
 ![](images/TBHS-model.png )
 
+
+
 ## Erste Idee: Eine Platte 
 
 -   Auf der Startseite von FreeCAD wähle ![](images/Workbench_PartDesign.svg‎‎ ) *Part Design*, oder erstelle ein neues Dokument und wähle den *Part Design* Arbeitsbereich.
 
 ![](images/TBHS-0.png )
+
+
 
 ### Eine Skizze erstellen 
 
@@ -78,6 +84,8 @@ Umgekehrt ist eine überbestimmte Skizze auch nicht gut. In diesem Fall warnt di
 
 Du siehst jetzt nur noch das Quadrat, und das kontextbezogene Aufgabenmenü auf der linken Seite zeigt dir mehr Wahlmöglichkeiten als zuvor.
 
+
+
 ### Einen Block erstellen 
 
 -   Klicke auf <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometrisch** unter den Standardansichten, um besser sehen zu können, was passieren wird.
@@ -87,6 +95,8 @@ Du siehst jetzt nur noch das Quadrat, und das kontextbezogene Aufgabenmenü auf 
 <img alt="" src=images/TBHS-7.JPG  style="width:800px;">
 
 Deine Skizze ist jetzt mit Rauminhalt !
+
+
 
 ### Eine Skizze darauf erstellen 
 
@@ -136,6 +146,8 @@ Diese Linien dienen als Referenz, um die Kreise zu positionieren.
 
 <img alt="" src=images/TBHS-15.JPG  style="width:800px;">
 
+
+
 ### Einen Block erstellen 
 
 -   Klicke auf <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometrisch** unter den Standardansichten, um besser sehen zu können, was passieren wird.
@@ -145,6 +157,8 @@ Diese Linien dienen als Referenz, um die Kreise zu positionieren.
 <img alt="" src=images/TBHS-16.JPG  style="width:800px;">
 
 Du hast die Grundform, sie braucht nur noch den letzten Schliff.
+
+
 
 ### Ecken abrunden 
 
@@ -161,6 +175,8 @@ Zögere nicht, dir zu helfen, indem du den Anzeigemodus (gleich links neben der 
 
 Viel besser.
 
+
+
 ### Es robuster machen 
 
 Wir müssen Material an der Basis der Zylinder hinzufügen, um sie weniger rissanfällig zu machen. Aufgrund der Druckausrichtung werden diese kleinen Flächen an der Verbindungsstelle mit der Basis zerbrechlich sein.
@@ -173,6 +189,8 @@ Wir müssen Material an der Basis der Zylinder hinzufügen, um sie we
 -   Setze sie auf 2 mm.
 
 <img alt="" src=images/TBHS-20.JPG  style="width:800px;">
+
+
 
 ### Kanten anfasen 
 
@@ -192,6 +210,8 @@ Die erste Plastikschicht wird oft ein wenig zu stark gequetscht, dies gleicht da
 
 Tadaa!
 
+
+
 ## Als .STL exportieren 
 
 -   Wähle in der Combo-Ansicht auf der linken Seite die Baumansicht anstelle des kontextbezogenen Aufgabenmenüs und klicke auf das letzte Element (die Fase).
@@ -200,6 +220,8 @@ Tadaa!
 
 -   Jetzt kannst du \"Export\...\" aus dem Dateimenü oben links auswählen und das Dateiformat .STL wählen.
 -   Einfach ausdrucken :-)
+
+
 
 ## Inspiration
 
@@ -213,9 +235,13 @@ Keine Sorge, es ist oftmals notwendig, für eine Idee mehrere Überarbeitungen v
 
 In diesem zweiten Teil wirst du auch lernen, mehr Werkzeuge zu benutzen, wie die mächtige *Lineare Wiederholung*.
 
+
+
 ## Zweite Idee: Ein Band 
 
 -   Erstelle ein neues Dokument und wähle den ![](images/Workbench_PartDesign.svg‎‎ ) *Part Design* Arbeitsbereich.
+
+
 
 ### Eine Skizze erstellen 
 
@@ -272,6 +298,8 @@ Jetzt hast du eine schwebende Nut ohne festgelegte Abmessungen.
 
 <img alt="" src=images/TBHS2-8.JPG  style="width:800px;">
 
+
+
 ### Einen Block erstellen 
 
 -   Klicken auf <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometrisch** unter den Standardansichten, um besser sehen zu können, was passieren wird.
@@ -279,6 +307,8 @@ Jetzt hast du eine schwebende Nut ohne festgelegte Abmessungen.
 -   Gib 30 mm ein und klicke OK.
 
 <img alt="" src=images/TBHS2-9.JPG  style="width:800px;">
+
+
 
 ### Eine Skizze darauf erstellen 
 
@@ -326,6 +356,8 @@ Jetzt hast du eine schwebende Nut ohne festgelegte Abmessungen.
 
 <img alt="" src=images/TBHS2-17.JPG  style="width:800px;">
 
+
+
 ### Ein Loch erstellen 
 
 -   Klicke auf <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometrisch** unter den Standardansichten, um besser zu sehen, was passieren wird.
@@ -334,6 +366,8 @@ Jetzt hast du eine schwebende Nut ohne festgelegte Abmessungen.
 
 <img alt="" src=images/TBHS2-18.JPG  style="width:800px;">
 
+
+
 ### Lineare Wiederholung 
 
 -   Wähle in der Combo Ansicht auf der linken Seite die Baumansicht anstelle des kontextbezogenen Aufgabenmenüs, klicke auf die Taschen Funktion.
@@ -341,6 +375,8 @@ Jetzt hast du eine schwebende Nut ohne festgelegte Abmessungen.
 -   Setze die Länge auf 55 mm und Häufigkeit auf 3 dann klicke OK.
 
 <img alt="" src=images/TBHS2-19.JPG  style="width:800px;">
+
+
 
 ### Eine Skizze darauf erstellen 
 
@@ -380,6 +416,8 @@ Jetzt hast du eine schwebende Nut ohne festgelegte Abmessungen.
 
 <img alt="" src=images/TBHS2-26.JPG  style="width:800px;">
 
+
+
 ### Einen Block erstellen 
 
 -   Klicke auf <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometrisch** unter den Standardansichten, um besser sehen zu können, was passieren wird.
@@ -388,6 +426,8 @@ Jetzt hast du eine schwebende Nut ohne festgelegte Abmessungen.
 
 <img alt="" src=images/TBHS2-27.JPG  style="width:800px;">
 
+
+
 ### Lineare Wiederholung 
 
 -   Wähle in der Combo Ansicht auf der linken Seite die Baumansicht anstelle des kontextbezogenen Aufgabenmenüs, klicke auf die Polster Funktion.
@@ -395,6 +435,8 @@ Jetzt hast du eine schwebende Nut ohne festgelegte Abmessungen.
 -   Setze die Länge auf 55 mm und Häufigkeit auf 3 dann klicke OK.
 
 <img alt="" src=images/TBHS2-28.JPG  style="width:800px;">
+
+
 
 ### Formschräge
 
@@ -415,6 +457,8 @@ Fase = links / Entformschräge = rechts
 
 <img alt="" src=images/TBHS2-30-chamfer.JPG  style="width:200px;"><img alt="" src=images/TBHS2-30-draft.JPG  style="width:200px;">
 
+
+
 ### Abschlüsse
 
 -   Halte **STRG** gedrückt und wähle die Ober- und Unterseiten.
@@ -427,6 +471,8 @@ Fase = links / Entformschräge = rechts
 
 Perfekt!
 
+
+
 ## Als .STL exportieren 
 
 -   Wähle in der Combo Ansicht auf der linken Seite die Baumansicht anstelle des kontextbezogenen Aufgabenmenüs und klicke auf das letzte Element (die Fase).
@@ -437,9 +483,11 @@ Perfekt!
 -   Drucke es statt der ersten Version oder um diese zu ersetzen, falls sie irgendwann zerbrochen ist ;-).
 
 
- {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+{{PartDesign Tools navi
+
+}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Toothbrush Head Stand/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Toothbrush Head Stand/de

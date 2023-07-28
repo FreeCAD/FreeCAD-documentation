@@ -1,13 +1,19 @@
 # Localisation/fr
 {{TOCright}}
 
+
+
 ## Vue d'ensemble 
 
 La **localisation** en général, est le processus de fourniture d\'un logiciel avec une interface utilisateur en plusieurs langues. Dans FreeCAD vous pouvez définir la langue d\'interface utilisateur dans le menu **Édition → Préférences → Général → Onglet Général → Langue**. FreeCAD utilise [Qt](wikipedia:fr_Qt.md) pour activer le support de plusieurs langues. Sur les systèmes Unix/Linux, FreeCAD utilise les paramètres régionaux actuels de votre système par défaut.
 
+
+
 ## Aider à la traduction de FreeCAD 
 
 Une des choses importantes que les utilisateurs peuvent apporter à FreeCAD (s'ils ne possèdent pas de compétences en programmation, par exemple) est d'aider à traduire ses différents aspects (code source, wiki, site Web, documentation, etc.) dans une autre langue. Voici les moyens de le faire.
+
+
 
 ## Traduire le code source de FreeCAD 
 
@@ -15,7 +21,7 @@ FreeCAD utilise un système de traduction en ligne tiers collaboratif appelé [C
 
 <img alt="" src=images/Logo-crowdin.png  style="width:320px;">
 
-Il s\'agit d\'un logiciel propriétaire mais gratuit pour les projets FOSS. Vous trouverez ci-dessous des instructions sur son utilisation :
+Il s\'agit d\'un logiciel propriétaire mais gratuit pour les projets [FOSS](https://fr.wikipedia.org/wiki/Free/Libre_Open_Source_Software). Vous trouverez ci-dessous des instructions sur son utilisation :
 
 -   Aller à la page du [projet de traduction de FreeCAD sur Crowdin](http://crowdin.net/project/freecad) ;
 -   Connectez-vous en créant un nouveau profil, ou en utilisant un compte tiers, comme votre adresse (GitHub, GitLab, GMail etc\...) ;
@@ -30,9 +36,13 @@ Il s\'agit d\'un logiciel propriétaire mais gratuit pour les projets FOSS. Vous
 
 les détails sur l\'utilisation de crowdin peuvent être trouvés sur la page [Administration de Crowdin](Crowdin_Administration/fr.md).
 
+
+
 ## Traduction des ateliers externes 
 
 Visitez [Traduction d\'un atelier externe](Translating_an_external_workbench/fr.md).
+
+
 
 ## Préférences de FreeCAD pour les traducteurs 
 
@@ -46,6 +56,8 @@ A partir de FreeCAD 0.20, les variables suivantes peuvent être ajoutées manuel
 
     <FCText Name="AdditionalTranslationsDirectory">C:/Users/FreeCADUser/TestTranslations</FCText>
 
+
+
 ## Traduire le wiki FreeCAD 
 
 Ce wiki héberge un contenu volumineux, dont l\'essentiel sert à produire le manuel. Vous pouvez naviguer dans la documentation à partir de la [Page principale](Main_Page/fr.md), ou consulter la [table des matières](Online_Help_Toc/fr.md) du guide utilisateur.
@@ -53,6 +65,8 @@ Ce wiki héberge un contenu volumineux, dont l\'essentiel sert à produire le ma
 Pour pouvoir traduire le wiki, vous devez bien sûr [obtenir les droits d\'édition au wiki](Frequently_asked_questions/fr#Comment_puis-je_obtenir_les_droits_pour_modifier_le_wiki_.3F.md).
 
 Il est recommandé d\'avoir des connaissances de base du formatage de style wiki et des directives générales du wiki FreeCAD, car vous devrez ajuster le code de balisage lors des traductions. Vous trouverez cette information sur la page [Les pages Wiki](WikiPages/fr.md).
+
+
 
 ### Extension de traduction Mediawiki 
 
@@ -74,6 +88,8 @@ Lors de l\'ajout de nouveau contenu, la page anglaise devrait être créée en p
 
 Si vous ne savez pas comment procéder, n\'hésitez pas à demander de l\'aide dans le sous-forum [Development → Wiki](https://forum.freecadweb.org/viewforum.php?f=21) ou dans le [sous-forum français](https://forum.freecadweb.org/viewforum.php?f=12).
 
+
+
 ### Remarques importantes 
 
 Chaque utilisateur du wiki disposant des autorisations \"Éditeur\" peut lancer l\'utilitaire de traduction pour écrire, enregistrer et réviser les traductions.
@@ -84,9 +100,13 @@ La barre latérale gauche est également traduisible, mais seuls les administrat
 
 La première fois que vous basculez une page vers le nouveau système de traduction, toutes les anciennes traductions \"manuelles\" sont perdues. Pour récupérer une traduction, vous devez enregistrer une copie hors ligne de l\'ancien texte avant le changement. Vous pouvez ensuite utiliser cet ancien texte traduit pour renseigner les unités de traduction du nouveau système. Vous pouvez également ouvrir une version antérieure de l\'historique et récupérer l\'ancien texte de cette manière. Cela doit être fait pour chaque langue ayant une page traduite.
 
+
+
 ### Traduire la documentation de FreeCAD 
 
 Conformément au consensus général, la page de référence dans le wiki est la page anglaise, qui devrait être créée en premier. Si vous souhaitez modifier ou ajouter du contenu à une page, vous devez d\'abord le faire sur la page anglaise, puis reporter la modification sur la page traduite une fois la mise à jour terminée.
+
+
 
 ### Anciennes instructions de traduction 
 
@@ -122,13 +142,19 @@ Conformément au consensus général, la page de référence dans le wiki est la
 | La page \"Bienvenue sur l\'aide en ligne\" redirige vers l\'aide en ligne Startpage/fr et la page \"Fonctionnalités\" redirige Feature_list/fr.                                                                                                                                                                                                                                                                                                                                                      |
 ++
 
+
+
 ## Traduire le site Web FreeCAD 
 
 La traduction du site Web FreeCAD est maintenant effectuée par le biais de [Crowdin](https://crowdin.com/translate/freecad/561/en-en). Le fichier est nommé **homepage.po**.
 
+
+
 ## Développement - Comment ajouter une localisation 
 
 Cette section est destinée aux développeurs qui souhaitent ajouter la localisation dans leur code.
+
+
 
 ### Préparer vos modules maîtres/Freecad pour la traduction 
 
@@ -150,24 +176,34 @@ Ceci crée un fichier de traduction vide. Une fois cette tâche complétée, vou
 
 La suite se fait automatiquement, en ce qui concerne le développeur. L\'administrateur fera l\'extraction des chaînes de texte, les traducteurs les traduiront, puis l\'administrateur extraira les traductions et mettra à jour la branche FreeCAD/master.
 
+
+
 ### Préparer votre module de tierce partie ou macro pour la traduction 
 
 Les modules de tierce partie ou macros sont traduits de façon similaire, mais vous devez vous charger d\'une partie du travail. Cette [discussion sur le forum](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=25180) (en anglais) décrit les détails.
 
 Mise à jour : voir [Traduction d\'un atelier externe](Translating_an_external_workbench/fr.md)
 
+
+
 ### Anciennes techniques de traduction des modules 
 
 La page [Ancienne méthode de localisation](Localization_Older_Methods/fr.md) décrit l\'utilisation d\'outils de traduction tels que Qt Linguist, lupdate, lrelease, pylupdate4, etc. en détail. La plupart de ces opérations ne sont plus nécessaires pour les modules FreeCAD/master, mais peuvent s\'avérer utiles pour préparer et mettre à jour des modules tiers.
+
+
 
 ## Automatiser les mises à jour de translations Crowdin 
 
 Actuellement, les mainteneurs de FreeCAD utilisent l'API Crowdin via [Crowdin Scripts](Crowdin_Scripts/fr.md) pour extraire et transférer les traductions vers Crowdin, puis vers le dépôt Github. L\'API Crowdin donne aux responsables de FreeCAD la possibilité d\'automatiser certains aspects du flux de traduction du projet. Pour plus d\'informations, reportez-vous à la [documentation de l\'API Crowdin](https://support.crowdin.com/api/api-integration-setup/).
 
+
+
 ## Pages en relation 
 
 -   [Administration de Crowdin](Crowdin_Administration/fr.md)
 -   [Scripts pour Crowdin](Crowdin_Scripts/fr.md)
+
+
 
 ## Script
 

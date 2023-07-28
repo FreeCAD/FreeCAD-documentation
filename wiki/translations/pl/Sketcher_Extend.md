@@ -1,35 +1,42 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher Extend
-   MenuLocation:Sketch → Sketcher geometries → Extend edge
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Przedłuż krawędź
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Przedłuż krawędź
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **Q**
    Version:0.17
-   SeeAlso:[Sketcher Trim edge](Sketcher_Trimming.md)
+   SeeAlso:[Przytnij krawędź](Sketcher_Trimming/pl.md)
 ---
 
 # Sketcher Extend/pl
 
-## Description
 
-The **extend edge** tool extends an edge to an arbitrary location in the sketch, or to a target edge or point object.
+
+## Opis
+
+Narzędzie **Przedłuż krawędź** przedłuża krawędź do dowolnego miejsca w szkicu lub do docelowej krawędzi lub obiektu punktu.
 
 <img alt="" src=images/Sketcher_Extend_example_01.png  style="width:600px;"> 
-*Shown on the left (1), the two sketch elements before the operation; in the middle (2), the line is being extended to the arc; to the right (3), the final result.*
+*Rysunek z lewej '''(1)''', dwa elementy szkicu przed operacją,<br>w środku '''(2)''', linia jest przedłużana do łuku,<br>z prawej '''(3)''', efekt końcowy.*
 
-## Usage
 
-1.  Press the **[<img src=images/Sketcher_Extend.svg style="width:16px"> [Extend edge](Sketcher_Extend.md)** button.
-2.  Select a line or an arc.
-3.  In the 3D view, move the mouse pointer toward the direction to extend.
-4.  Click on an arbitrary location in space, or
-5.  To extend to another edge, place the mouse pointer over the target edge; when it is highlighted and the **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Point on object](Sketcher_ConstrainPointOnObject.md)** constraint icon appears besides the mouse pointer, click to confirm. A point on object constraint will be added.
-6.  To extend to a point in the sketch, place the mouse pointer over the target point; when it is highlighted and the **[<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> [Coincident constraint](Sketcher_ConstrainCoincident.md)** icon appears besides the mouse pointer, click to confirm. A coincident constraint will be added.
 
-## Notes
+## Użycie
 
--   Only arcs and lines can be extended at this time.
--   The target edge or point object may be modified as well if it is not fully constrained.
+1.  Naciśnij przycisk **[<img src=images/Sketcher_Extend.svg style="width:16px"> [Rozszerz krawędź](Sketcher_Extend/pl.md)**.
+2.  Wybierz linię lub łuk.
+3.  W oknie widoku 3D przesuń kursor myszki w kierunku, w którym chcesz rozszerzyć.
+4.  Kliknij w dowolnym miejscu w przestrzeni, lub
+5.  Aby przedłużyć do innej krawędzi, umieść kursor myszki nad docelową krawędzią. Gdy zostanie ona podświetlona, a ikona wiązania **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md)** pojawi się obok kursora myszki, kliknij, aby potwierdzić. Zostanie dodany punkt na obiekcie.
+6.  Aby rozciągnąć do punktu w szkicu, umieść kursor myszki nad punktem docelowym. Gdy zostanie on podświetlony i pojawi się ikona **[16px](Plik:Sketcher_ConstrainCoincident.svg.md) [Wiązanie zbieżności](Sketcher_ConstrainCoincident/pl.md)** obok kursora myszki, kliknij, aby potwierdzić. Zostanie dodane wiązanie zbieżności.
+
+
+
+## Uwagi
+
+-   W tej chwili można przedłużać tylko łuki i linie.
+-   Docelowy obiekt krawędzi lub punktu może być również modyfikowany, jeśli nie jest w pełni związany.
 
 
 

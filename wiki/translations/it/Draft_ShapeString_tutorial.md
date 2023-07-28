@@ -14,6 +14,8 @@
 
 
 
+
+
 ## Introduzione
 
 This tutorial was originally written by Roland Frank (†2017, r-frank), and it was rewritten and re-illustrated by vocx.
@@ -49,6 +51,8 @@ Per disegnare una linea ausiliaria viene utilizzato l\'ambiente [Sketcher](Sketc
 :   1.2. Press the **[<img src=images/Std_ViewFitAll.svg style="width:16px"> [View fit all](Std_ViewFitAll.md)** button whenever you add objects in order to pan and zoom the [3D view](3D_view.md) so that all elements are seen in the view.
 :   1.3. Hold **Ctrl** while you click to select multiple items. If you selected something wrong or want to de-select everything, just click on empty space in the [3D view](3D_view.md).
 
+
+
 ## Creare la forma di base 
 
 2\. Insert a primitive cube by clicking on **<img src="images/Part_Box.svg" width=16px> [Box](Part_Box.md)**.
@@ -67,6 +71,8 @@ Per disegnare una linea ausiliaria viene utilizzato l\'ambiente [Sketcher](Sketc
 
 ![](images/01_T04_Part_Cube_base_long.png ) 
 *Base object created from a cube and a chamfer operation.*
+
+
 
 ## Inserire il testo con lo strumento ShapeString di Draft 
 
@@ -99,6 +105,8 @@ Per disegnare una linea ausiliaria viene utilizzato l\'ambiente [Sketcher](Sketc
 ![](images/02_T04_Part_ShapeString.png ) 
 *Text created as a ShapeString, that is, as a collection of edges in a plane.*
 
+
+
 ## Creare il testo solido 3D 
 
 6\. Switch back to the [Part Workbench](Part_Workbench.md).
@@ -110,6 +118,8 @@ Per disegnare una linea ausiliaria viene utilizzato l\'ambiente [Sketcher](Sketc
 
 ![](images/03_T04_Part_ShapeString_Extrude.png ) 
 *Text created as a ShapeString, and turned into a solid by extrusion.*
+
+
 
 ## Inserire lo schizzo ausiliario per il posizionamento 
 
@@ -134,6 +144,8 @@ Now we will draw a simple sketch that will be used as auxiliary geometry to posi
 
 <img alt="" src=images/05_T04_Part_ShapeString_support_sketch_3D.png  style="width:500px;"> 
 *Sketch line created on top of the solid face, to be used as reference guide for positioning the extruded text.*
+
+
 
 ## Posizionare il testo 3D nello spazio 3D 
 
@@ -166,6 +178,8 @@ Now we will draw a simple sketch that will be used as auxiliary geometry to posi
 ![](images/07_T04_Part_ShapesString_Extrude_in_place.png ) 
 *Extruded ShapeString positioned in the `Fillet*.`
 
+
+
 ## Creare il testo inciso 
 
 14\. Switch back to the [Part Workbench](Part_Workbench.md).
@@ -195,15 +209,17 @@ A similar process as described above can be done with the [PartDesign Workbench]
 
 See the forum thread, [How to use ShapeStrings in PartDesign](https://forum.freecadweb.org/viewtopic.php?f=3&t=36623).
 
+
+
 ## Note
 
 -   To create curved text you can use <img alt="" src=images/FCCircularTextButtom.png  style="width:32px;"> [Macro FCCircularText](Macro_FCCircularText.md).
 -   To import text from an SVG file look at the [Import text and geometry from Inkscape](Import_text_and_geometry_from_Inkscape.md) tutorial.
 
 
-  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+ {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Draft](Draft_Workbench.md) > Draft ShapeString tutorial/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Draft](Draft_Workbench.md) > Draft ShapeString tutorial/it

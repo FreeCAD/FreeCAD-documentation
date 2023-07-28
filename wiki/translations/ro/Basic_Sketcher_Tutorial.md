@@ -21,6 +21,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Introducere
@@ -61,6 +63,8 @@ For a more in depth description of the sketcher, read the [Sketcher reference](S
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Cerințe
@@ -79,6 +83,8 @@ Some actions to remember:
 -   Press the right mouse button, or press **Esc** in the keyboard once, to deselect the active tool in edit mode.
 -   To exit the sketch edit mode, press the **Close** button in the [task panel](task_panel.md), or press **Esc** twice in the keyboard.
 -   To enter again edit mode, double click on the sketch in the [tree view](tree_view.md), or select it, and then click on **[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [Edit sketch](Sketcher_EditSketch.md)**.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -125,6 +131,8 @@ In the **Combo View**, expand the option **Edit controls** and make sure **Autoc
 *Upper part of the [task panel](task_panel.md) of the sketcher.*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Creating geometry 
@@ -168,6 +176,8 @@ Look at the **Constraints** and **Elements** sections to see the new listed cons
 
 
 *Construction lines forming a star shape with its center in the origin.*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -259,6 +269,8 @@ There are two principal types of constraints:
 -    **Datum constraints**define characteristics of the shapes by specifying dimensions, for example, a numeric length or an angle.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ##### Constrângeri Geometrice 
@@ -343,6 +355,8 @@ Până la acest pas, am creat un profil închis, care poate fi ajustat cu dimens
 
 
 *Sketch with tangential constraints applied to the arcs, which closes the shape.*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -449,9 +463,11 @@ Constraining a sketch can be done in many different ways. In general, it is reco
 -   Try using other construction geometry.
 
 
- {{Sketcher Tools navi}}
+{{Sketcher Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/ro

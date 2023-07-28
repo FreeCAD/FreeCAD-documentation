@@ -12,7 +12,7 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_ExtensionCreateObliqueCoordDimension.svg  style="width:24px;"> **TechDraw ExtensionCreateObliqueCoordDimension** tool creates oblique coordinate dimensions: multiple evenly spaced dimensions starting from the same baseline.
+The **TechDraw ExtensionCreateObliqueCoordDimension** tool creates oblique coordinate dimensions: multiple evenly spaced dimensions starting from the same baseline.
 
  <img alt="" src=images/TechDraw_ExtensionCreateObliqueCoordDimensionExample.png  style="width:400px;">  
 *On the right the created dimensions*
@@ -24,7 +24,7 @@ The <img alt="" src=images/TechDraw_ExtensionCreateObliqueCoordDimension.svg  st
 3.  The selection order of the first two vertexes determines the position of the baseline. If the vertex that is selected first is to the left of the second, the baseline is created at the leftmost vertex, else it is created at the rightmost vertex.
 4.  The first two vertexes also define the direction.
 5.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionCreateObliqueCoordDimension.svg" width=16px> [TechDraw ExtensionCreateObliqueCoordDimension](TechDraw_ExtensionCreateObliqueCoordDimension.md)** button.
+    -   Press the **<img src="images/TechDraw_ExtensionCreateObliqueCoordDimension.svg" width=16px> [Create Oblique Coordinate Dimensions](TechDraw_ExtensionCreateObliqueCoordDimension.md)** button.
     -   Select the **TechDraw → Extensions: Dimensions → <img src="images/TechDraw_ExtensionCreateObliqueCoordDimension.svg" width=16px> Create Oblique Coordinate Dimensions** option from the menu.
 6.  Coordinate dimensions with centered dimension texts are created.
 

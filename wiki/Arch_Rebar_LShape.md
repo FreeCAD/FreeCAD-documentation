@@ -76,7 +76,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 [Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The LShape Rebar tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:  
+The LShape Rebar tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:  
 ```python
 Rebar = makeLShapeRebar(f_cover, b_cover, l_cover, r_cover,
                         diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom Left",

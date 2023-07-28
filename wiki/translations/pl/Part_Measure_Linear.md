@@ -1,35 +1,42 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Part Measure Linear
-   MenuLocation:Measure → Measure Linear
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Std MeasureDistance](Std_MeasureDistance.md), [Draft Dimension](Draft_Dimension.md)
+   Name/pl:Część: Pomiar liniowy
+   MenuLocation:Pomiary → Pomiar liniowy
+   Workbenches:[Część](Part_Workbench/pl.md)
+   SeeAlso:[Pomiar odległości](Std_MeasureDistance/pl.md), [Wymiarowanie](Draft_Dimension/pl.md)
 ---
 
 # Part Measure Linear/pl
 
-## Description
 
-This command measures the distance between two selected topological elements (vertex, edge, face) and displays measurements in the [3D view](3D_view.md). The shortest distance between the two elements and the delta measurements (distances parallel to the global X, Y, Z axes) are shown.
 
-The appearance of the measurements can be changed in the [preferences](PartDesign_Preferences#Measure.md).
+## Opis
+
+To polecenie mierzy odległość między dwoma wybranymi elementami topologicznymi *(wierzchołek, krawędź, ściana)* i wyświetla pomiary w oknie [widoku 3D](3D_view/pl.md). Wyświetlana jest najmniejsza odległość między dwoma elementami i pomiary delta *(odległości równoległe do globalnych osi X, Y, Z)*.
+
+Wygląd pomiarów można zmienić w [ustawieniach](PartDesign_Preferences/pl#Pomiary.md).
 
 <img alt="" src=images/MeasureLinear3D1.png  style="width:400px;"> <img alt="" src=images/MeasureLinearDelta1.PNG  style="width:400px;">
 
-## Usage
 
-1.  Select any combination of two elements: vertices, edges, faces
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Part_Measure_Linear.svg" width=16px> [Measure Linear](Part_Measure_Linear.md)** button.
-    -   Select the **Measure → <img src="images/Part_Measure_Linear.svg" width=16px> Measure Linear** option from the menu.
-3.  Alternatively the command can be launched without prior selection. A selection dialog then opens in the [Task panel](Task_panel.md). A Control widget also provides buttons to reset the selection, toggle the measurement display in the [3D view](3D_view.md), and clear all measurements.
-4.  Measurements are automatically discarded when closing the document.
 
-## Notes
+## Użycie
 
--   You cannot use the [Draft](Draft_Workbench.md) snap tools with this command.
--   To add dimensions to drawings use the dimension tools from the [TechDraw Workbench](TechDraw_Workbench.md).
--   For more comprehensive measuring tools, install the <img alt="" src=images/Manipulator_workbench_icon.svg  style="width:24px;"> [Manipulator Workbench](Manipulator_Workbench.md) (an [external workbench](External_workbenches.md)).
+1.  Wybierz dowolną kombinację dwóch elementów: wierzchołków, krawędzi, ścian.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Part_Measure_Linear.svg" width=16px> '''Pomiar liniowy'''**.
+    -   Wybierz z menu opcję **Pomiary → <img src="images/Part_Measure_Linear.svg" width=16px> Pomiar liniowy**.
+3.  Alternatywnie polecenie można uruchomić bez wcześniejszego wyboru. Otworzy się wówczas okno dialogowe wyboru w [Panelu zadań](Task_panel/pl.md). Widżet sterowania zawiera również przyciski do resetowania wyboru, przełączania wyświetlania pomiarów w oknie [widoku 3D](3D_view/pl.md) i usuwania wszystkich pomiarów.
+4.  Pomiary są automatycznie usuwane podczas zamykania dokumentu.
+
+
+
+## Uwagi
+
+-   Nie można używać narzędzi przyciągania środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) z tym poleceniem.
+-   Aby dodać wymiary do rysunków, użyj narzędzi wymiarowych środowiska pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md).
+-   Aby uzyskać bardziej wszechstronne narzędzia pomiarowe, zainstaluj środowisko pracy <img alt="" src=images/Manipulator_workbench_icon.svg  style="width:24px;"> [Manipulator](Manipulator_Workbench/pl.md) *(środowisko [zewnętrzne](External_workbenches/pl.md))*.
 
 
 

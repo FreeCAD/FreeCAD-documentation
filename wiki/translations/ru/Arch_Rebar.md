@@ -10,6 +10,8 @@
 
 # Arch Rebar/ru
 
+
+
 ## Описание
 
 Инструмент «Арматура» позволяет размещать [арматурные полосы](http://en.wikipedia.org/wiki/Rebar) внутри объектов [Arch Structure](Arch_Structure.md). Объекты арматуры основаны на 2D-профилях, таких как [sketches](Sketcher_Workbench.md) или [draft objects](Draft_Workbench.md), которые должны быть нарисованы на грани объекта структуры. Затем вы можете настроить конфигурацию арматуры, такую как количество и диаметр стержней, или расстояние смещения между двумя концами структурного элемента.
@@ -32,6 +34,8 @@ The Rebar tool is enhanced by the [Reinforcement Workbench](Reinforcement_Workbe
 -   <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Stirrup Rebar](Arch_Rebar_Stirrup.md)
 -   <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Helical Rebar](Arch_Rebar_Helical.md)
 
+
+
 ## Применение
 
 1.  Switch to the <img alt="" src=images/Workbench_Arch.svg  style="width:16px;"> [Arch Workbench](Arch_Workbench.md)
@@ -48,6 +52,8 @@ The Rebar tool is enhanced by the [Reinforcement Workbench](Reinforcement_Workbe
 
 Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 the rebar can be created outside of any host object. To host a rebar inside an object, you just need to set its **Host**.
 
+
+
 ## Опции
 
 -   Rebars share the common properties and behaviours of all [Arch Components](Arch_Component.md)
@@ -55,6 +61,8 @@ Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 t
 -   Default values for new rebars can be set in the Arch preferences settings.
 -   If a direction vector is not specified, the direction and distance along which the bars will spread is calculated automatically from the host structural object, by taking the normal direction of the base sketch, and taking its intersection with the structural object. If you specify a direction vector, the length of that vector will also be taken into account.
 -   The spacing value is calculated from the current amount of bars, and represents the distance between the axes of each bar. You must therefore subtract the bar diameter to obtain the size of the free space between bars.
+
+
 
 ## Свойства
 
@@ -79,7 +87,7 @@ Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 t
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Rebar tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The Rebar tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 Rebar = makeRebar(baseobj=None, sketch=None, diameter=None, amount=1, offset=None, name="Rebar")
 ```

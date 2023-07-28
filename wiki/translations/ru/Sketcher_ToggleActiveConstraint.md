@@ -10,6 +10,8 @@
 
 # Sketcher ToggleActiveConstraint/ru
 
+
+
 ## Описание
 
 
@@ -19,11 +21,15 @@ allows you to activate and deactivate an already placed constraint. This allows 
 
 The **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> [Toggle driving constraint](Sketcher_ToggleDrivingConstraint.md)** tool is similar in that it disables the effect of the constraint; however, with this tool, the constraint does not keep its old value. On the other hand, with **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [ToggleActiveConstraint](Sketcher_ToggleActiveConstraint.md)** you can re-activate the old constraint immediately.
 
+
+
 ## Применение
 
 1.  Select an already placed constraint, then press **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [ToggleActiveConstraint](Sketcher_ToggleActiveConstraint.md)**.
 2.  Alternatively, got to the [task panel](task_panel.md), to the **Constraints** section, select the constraint, then open the context menu (right-click), and select **Deactivate**.
 3.  To activate the constraint again, select it, and press **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [ToggleActiveConstraint](Sketcher_ToggleActiveConstraint.md)** again.
+
+
 
 ## Примеры
 
@@ -35,6 +41,8 @@ The **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> 
 
 <img alt="" src=images/Sketcher_ToggleActiveConstraint_task_panel.png  style="width:" height="350px;"> 
 *Task panel with the deactivated constraint.*
+
+
 
 ## Программирование
 
@@ -59,13 +67,7 @@ sketch.toggleActive(3)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

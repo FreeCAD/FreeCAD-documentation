@@ -10,11 +10,13 @@
 
 # Sketcher CreateCircle/pl
 
+
+
 ## Opis
 
 Narzędzie to rysuje okrąg, wybierając dwa punkty: środek i punkt wzdłuż promienia. Po uruchomieniu narzędzia wskaźnik myszy zmienia się w biały krzyż z czerwoną ikoną koła. Poza tym wyświetlane są współrzędne w czasie rzeczywistym.
 
-![](images/Sketcher_CircleExample1.png‎ )
+![](images/Sketcher_CircleExample1.png‎ ) 
 
 ## Jak używać 
 

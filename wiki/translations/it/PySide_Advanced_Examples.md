@@ -1,6 +1,8 @@
 # PySide Advanced Examples/it
 {{TOCright}}
 
+
+
 ## Introduzione
 
 
@@ -17,7 +19,7 @@ Quindi, usando il modulo PySide all\'interno di FreeCAD, si ha il controllo comp
 -   Aggiungere o nascondere gli elementi nei pannelli già esistenti
 -   Modificare, reindirizzare o aggiungere connessioni tra tutti questi elementi
 
-## Create Reference for the Main Window 
+## Create Reference to the Main Window 
 
 
 <div class="mw-translate-fuzzy">

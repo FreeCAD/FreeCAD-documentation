@@ -5,8 +5,6 @@
 
 </div>
 
-![600px](images/Part_Extrude_demo.png)
-
 ## Description
 
 
@@ -29,6 +27,12 @@ Di solito, secondo il tipo di forma in ingresso, si ottiene le seguente forma:
 -   Estrudere una faccia (es. piano), produce un solido (es. Cuboide)
 -   Estrudere una <img alt="" src=images/Draft_ShapeString.svg  style="width:16px;"> [Draft Shape String](Draft_ShapeString/it.md), produce un composto di solidi (la stringa è un composto di lettere che sono ciascuna un solido)
 -   Estrudere una shell di facce, produce un Compsolid.
+
+![600px](images/Part_Extrude_demo.png)
+
+
+
+*Examples of extrusion*
 
 ## Usage
 
@@ -123,6 +127,8 @@ La forma Estrusione è definita dai seguenti parametri, che dopo la sua creazion
 
 </div>
 
+
+
 ## Finestra di dialogo delle azioni 
 
 ![](images/Part_Extrude_dialog.png )
@@ -170,6 +176,8 @@ La finestra di dialogo Part Extrude non offre ancora un\'anteprima. **Applica** 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

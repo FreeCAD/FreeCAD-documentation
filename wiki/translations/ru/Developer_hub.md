@@ -63,6 +63,9 @@
 
 ### Модифицирование FreeCAD 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Объяснение структуры [исходного кода FreeCAD](The_FreeCAD_source_code/ru.md)
 -   [Отправка патчей](Tracker/ru#Отправка_патчей.md)
 -   Добавление [особенностей](Gui_Command/ru.md) в FreeCAD или в Верстак
@@ -74,6 +77,9 @@
 -   [Google Summer of Code](Google_Summer_of_Code.md) для тех кто хочет принять участие в программе поддержки студентов Google
 -   [Тонкая настройка](Fine-tuning/ru.md) содержит информацию о различных параметрах и переключателях параметров, которые могут помоч устранить некоторые проблемы
 -   [Обертывание C++ класса в Python](Wrapping_a_Cplusplus_class_in_Python/ru.md) содержит информацию о том, как создать Python обертку для C++ класса
+
+
+</div>
 
 -   [Перевод внешних верстаков](Translating_an_external_workbench/ru.md)
 

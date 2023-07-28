@@ -3,111 +3,125 @@
    Name:Part Loft
    Name/pl:Part: Wyciągnij po profilach
    MenuLocation:Część → Wyciągnięcie po profilach...
-   Workbenches:[Środowisko pracy Część](Part_Workbench/pl.md)
+   Workbenches:[środowisko pracy Część](Part_Workbench/pl.md)
    Version:0.13
    SeeAlso:[Wyciągnięcie po ścieżce](Part_Sweep/pl.md)
 ---
 
 # Part Loft/pl
 
-## Overview
 
-The **Part Loft** tool is used to create a face, shell or a solid shape from two or more profiles. The profiles can be a point (vertex), line (Edge), wire or face. Edges and wires may be either open or closed. There are various [Limitations and complications](Part_Loft#Limitations_and_complications.md), see below, however the profiles may come from [Part Workbench primitives](Part_Workbench.md), [Draft Workbench objects](Draft_Workbench.md) and [Sketches](Sketcher_Workbench.md).
 
-The Loft has three parameters, \"Ruled surface\",\"Create solid\" and \"Closed\" each with a value of either \"true\" or \"false\".
+## Informacje ogólne 
 
-If \"Create solid\" is \"true\" FreeCAD creates a solid if the profiles are of closed geometry, if \"false\" FreeCAD creates a face or (if more than one face) a shell for either open or closed profiles.
+Narzędzie **Wyciągnięcie przez profile** służy do utworzenia ściany, powłoki lub bryły z dwóch lub więcej profili. Profile mogą być punktami *(wierzchołkami)*, liniami *(krawędziami)*, poliliniami lub ścianami. Krawędzie i polilinie mogą być otwarte lub zamknięte. Istnieją różne [ograniczenia i komplikacje](Part_Loft/pl#Ograniczenia_i_komplikacje.md), patrz poniżej, jednak profile mogą pochodzić z [brył pierwotnych](Part_Workbench/pl.md) środowiska pracy Część, [obiektów](Draft_Workbench/pl.md) środowiska pracy Rysunek Roboczy oraz [Szkiców](Sketcher_Workbench/pl.md).
 
-If \"Ruled surface\" is \"true\" FreeCAD creates a face, faces or a solid from ruled surfaces. [Ruled surface page on Wikipedia.](http://en.wikipedia.org/wiki/Ruled_surface)
+Wyciągnięcie przez profile ma trzy parametry: \"Powierzchnia prostokreślna\", \"Utwórz bryłę\" i \"Zamknięty\", z których każdy ma wartość {{true/pl}} lub {{false/pl}}.
 
-If \"Closed\" is \"true\" FreeCAD attempts to loft the last profile to the first profile to create a closed figure.
+Jeśli opcja **Utwórz bryłę** ma wartość {{True/pl}}, FreeCAD utworzy bryłę, jeśli profile mają zamkniętą geometrię, jeśli wartością jest {{False/pl}}, FreeCAD utworzy ścianę lub *(jeśli więcej niż jedna ściana)* powłokę dla profili otwartych lub zamkniętych.
 
-For more info on how the profiles are joined together, refer [Part Loft Technical Details](Part_Loft_Technical_Details.md) page.
+Jeśli parametr \"powierzchnia prostokkreślna\" ma wartość {{true/pl}} FreeCAD utworzy ścianę, ściany lub bryłę z powierzchni prostokreślnych. [Strona Wiki o powierzchniach prostokreślnych](http://en.wikipedia.org/wiki/Ruled_surface).
 
-![centre\|Part Loft. From three profiles which are two Part Circles and one Part Ellipse. Parameters are Solid \"True\" and Ruled \"True\"](images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg )
+Jeśli parametr \"Zamknięty\" ma wartość {{true/pl}}, FreeCAD próbuje połączyć ostatni profil z pierwszym profilem, aby utworzyć zamkniętą figurę.
 
-## Notes
+Więcej informacji na temat sposobu łączenia profili można znaleźć na stronie [Szczegóły techniczne wyciągnięcia przez profile](Part_Loft_Technical_Details/pl.md).
 
--   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles and paths. <small>(v0.20)</small> 
+![centre\|Wyciągnięcie przez profile. Z trzech profili, które są dwoma okręgami i jedną elipsą środowiska pracy Część. Parametry to Utwórz bryłę: {{CheckBox|TRUE|}} i Powierzchnia prostokreślna: {{CheckBox|TRUE|}}.](images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg )
 
-## Limitations and complications 
 
--   A vertex or point
-    -   vertex or point may only be used as the first and/or last profile in the list of profiles.
-        -   For example
-            -   you cannot loft from a circle to a point, to an ellipse.
-            -   However you could Loft from a point to a circle to an ellipse to another point.
--   Open or closed geometry profiles can not be mixed in one single Loft
-    -   In one Loft, all profiles (lines wires etc.) must be either open or closed.
-        -   For example
-            -   FreeCAD can not Loft between one Part Circle and one default Part Line.
--   Draft Workbench features
-    -   Draft Workbench features can be directly used as a profile in FreeCAD 0.14 or later.
-        -   For example the following Draft features can be used as profiles in a Part Loft
-            -   Draft Polygon.
-            -   Draft Point, Line, wire,
-            -   Draft B-spline, Bezier Curve
-            -   Draft Circle, Ellipse, Rectangle
--   PartDesign Sketches
-    -   The profile may be created with a sketch. However only a valid sketch will be shown in the list to be available for selection.
-    -   The sketch must contain only one open or closed wire or line (can be multiple lines, if those lines are all connected as they are then a single wire)
--   Part Workbench
-    -   the profile can be a valid Part geometric primitive which can be created with the [Part Primitives](Part_Primitives.md) tool
-        -   For example the following Part geometric primitives can be a valid profile
-            -   Point (Vertex), Line (Edge)
-            -   Helix, Spiral
-            -   Circle, Ellipse
-            -   Regular Polygon
-            -   Plane (Face)
 
--   Closed Lofts
-    -   The results of closed lofts may be unexpected - the loft may develop twists or kinks. Lofting is very sensitive to the Placement of the profiles and the complexity of the curves required to connect the corresponding Vertices in all the profiles.
+## Uwagi
 
-## An example Loft 
+-   Obiekty typu[odnośnik](App_Link/pl.md) powiązane z odpowiednimi typami obiektów oraz kontenery typu [część](App_Part/pl.md) z odpowiednimi widocznymi obiektami wewnątrz mogą być również używane jako profile i ścieżki. {{Version/pl|0.20}}
 
-The Loft tool is in the Part Workbench, menu Part -\> Loft\... or via the icon in the tool bar.
+
+
+## Ograniczenia i komplikacje 
+
+-   Wierzchołek lub punkt
+    -   Wierzchołek lub punkt może być użyty tylko jako pierwszy i / lub ostatni profil na liście profili.
+        -   Na przykład
+            -   nie można wykonać wyciągnięcie od okręgu przez punkt do elipsy.
+            -   Można jednak wykonać wyciągnięcie z punktu do okręgu, przez elipsę do innego punktu.
+-   W jednym wyciągnięciu nie można mieszać profili o geometrii otwartej i zamkniętej.
+    -   W jednym wyciągnięciu wszystkie profile *(linie, przewody itp.)* muszą być otwarte lub zamknięte.
+        -   Na przykład
+            -   FreeCAD nie może wykonać wyciągnięcia pomiędzy jednym okręgiem i jedną domyślną linią środowiska Część.
+-   Cechy środowiska Rysunek Roboczy.
+    -   Cechy środowiska Rysunek Roboczy mogą być bezpośrednio używane jako profile w FreeCAD {{VersionPlus/pl|0.14}}.
+        -   Na przykład następujące elementy szkicu mogą być użyte jako profile w Wyciągnięciu przez profile:
+            -   Szkic wielokąta,
+            -   Punkt, Linia, polilinia środowiska Rysunek Roboczy,
+            -   Szkic krzywej złożonej, krzywej Béziera,
+            -   Szkic okręgu, elipsy, prostokąta.
+-   Szkice środowiska Projekt Części.
+    -   Profil można utworzyć za pomocą szkicu. Jednak tylko prawidłowy szkic zostanie wyświetlony na liście i będzie dostępny do wyboru.
+    -   Szkic musi zawierać tylko jedną otwartą lub zamkniętą krzywą lub linię *(może to być wiele linii, jeśli wszystkie te linie są połączone w taki sam sposób, jak pojedyncza polilinia)*.
+-   Środowisko Część.
+    -   Profil może być prawidłowym prymitywem geometrycznym części, który można utworzyć za pomocą narzędzia [Utwórz geometrię pierwotną](Part_Primitives/pl.md).
+        -   Na przykład następujące prymitywy geometryczne części mogą być prawidłowym profilem:
+            -   Punkt *(wierzchołek)*, Linia *(krawędź)*,
+            -   Helisa, Spirala,
+            -   Okrąg, Elipsa;
+            -   Wielokąt foremny,
+            -   Płaszczyzna *(Ściana)*.
+
+-   Zamknięte wyciągnięcie.
+    -   Wyniki zamkniętych wyciągnięć przez profile mogą być nieoczekiwane - wyciągnięcie może się skręcać lub załamywać. Wyciąganie jest bardzo wrażliwe na rozmieszczenie profili i złożoność krzywych wymaganych do połączenia odpowiednich wierzchołków we wszystkich profilach.
+
+
+
+## Przykład wyciągnięcia przez profile 
+
+Narzędzie **Wyciągnięcie przez profile** znajduje się w środowisku pracy Część, w menu **Część → Wyciągnięcie przez profile ...**. Jest również dostępne na pasku narzędzi **Narzędzia środowiska Część**.
 
 ![](images/Part_Loft_Ikon_Ballon_Hilfe.png )
 
-In the \"Tasks\" will be two lists: \"Available\" and \"Selected\".
+W oknie \"Wyciągnięcie przez profile\" będą dwie listy: \"Dostępne profile\" i \"Wybrane profile\".
 
 ![](images/Part_Loft_Liste3.png )
 
-### Selection of the sections 
+### Wybór sekcji 
 
-In the \"Available\" the available items are displayed. Two sections must be selected one after the first in this list.
+W sekcji \"Dostępne profile\" wyświetlane są dostępne elementy. Dwie sekcje z tej listy muszą zostać wybrane jedna po drugiej.
 
 ![](images/Part_Loft_Liste_Auswahl_3b.png )
 
-Thereafter, with the blue arrow that item is added to the list of \"Selected\".
+Następnie za pomocą przycisku niebieskiej strzałki element ten zostanie dodany do listy \"Wybrane profile\".
 
 ![](images/Part_Loft_Liste_Auswahl_3c.png )
 
-The selected items must be of the same type.
+Wybrane elementy muszą być tego samego typu.
 
-Tip: the active/selected items in the list are displayed in the 3D area as active/selected.
+Wskazówka: aktywne / wybrane elementy z listy są wyświetlane w oknie widoku 3D jako zaznaczone.
 
-### Command complete 
 
-If both sections are selected, the command can be completed with \"OK\".
+
+### Zakończenie polecenia 
+
+Jeśli wybrano obie sekcje, polecenie można zakończyć naciskając **OK**.
 
 ![](images/Part_Loft_Liste_Auswahl_3d.png )
 
-### Result
 
-From closed lines we get surfaces which might be taken as a superficial look for solids.
+
+## Wynik
+
+Z zamkniętych linii otrzymujemy powierzchnie, które można uznać za pobieżny wygląd brył.
 
 ![](images/Part_Loft_geschlossen.png )
 
-If indeed a solid needs to be created, used the button \"Create Solid\" or after creating the Loft switch to its *properties* tab *data* and set the switch \"Solid\" to true.
+Jeśli rzeczywiście konieczne jest utworzenie bryły, użyj przycisku {{CheckBox|TRUE|}} Utwórz bryłę lub po utworzeniu wyciągnięcia przejdź do jego zakładki \"Właściwości\" \"Dane\" i ustaw przełącznik \"Bryła\" na wartość {{true/pl}}.
 
-The procedure is the same as described above with open polylines.
+Procedura obsługi dla otwartych polilinii jest taka sama, jak opisana powyżej.
 
-### Changing the selection of sections 
 
-If you want to change the selection of the sections after creation of the loft, you can select the field Sections in the Data tab and click the occuring ellipsis button. The list of all selectable sections occurs, the current selection is highlighted. You can remove or add additional sections.
 
-The sequence of sections depends on the sequence of clicks in the list. If you want to make substantial changes it is recommended to first deselect all and then start selection in the right order.
+### Zmiana wyboru sekcji 
+
+Jeśli chcesz zmienić wybór sekcji po utworzeniu wyciągnięcia, możesz wybrać pole **Sekcje** na karcie \"Dane\" i kliknąć pojawiający się przycisk **…**. Zostanie wyświetlone okno **Łącze** z listą wszystkich możliwych do wybrania sekcji, a bieżący wybór zostanie podświetlony. Można tam usunąć lub dodać dodatkowe pozycje.
+
+Kolejność sekcji zależy od kolejności kliknięć na liście. Jeśli chcesz wprowadzić znaczące zmiany, zaleca się najpierw odznaczenie wszystkich, a następnie rozpoczęcie wyboru we właściwej kolejności.
 
 
 

@@ -1,34 +1,36 @@
 # Sketcher helper constraint/pl
-## Overview
+## Przegląd
 
-<img alt="Example of a helper constraint (Constraint5 - point on circle) for a tangent constraint (Constraint6; in tangent-via-point mode). Only one helper constraint is used in this case, since the point of tangency is the endpoint of ellipse\'s major diameter, which inherently lies on the ellipse." src=images/Sketcher_helper_constraint_example1.png  style="width:500px;">
+<img alt="Przykład wiązania pomocniczego *(Constraint5 - punkt na okręgu)* dla wiązania stycznego *(Constraint6 w trybie styczna-przez-punkt)*. W tym przypadku używane jest tylko jedno wiązanie pomocnicze, ponieważ punkt styczności jest punktem końcowym głównej średnicy elipsy, która z natury leży na elipsie." src=images/Sketcher_helper_constraint_example1.png  style="width:500px;">
 
-Helper constraint is a regular sketcher constraint that is needed as a part of a more complex constraint, but is exposed in user interface to assist dealing with redundancy. For example, for [Snell\'s Law](Sketcher_ConstrainSnellsLaw.md) constraint, the two lines that represent rays of light need to be connected ([coincident constraint](Sketcher_ConstrainCoincident.md)), and the joint must lie on the interface ([Point On Object constraint](Sketcher_ConstrainPointOnObject.md)).
+Wiązanie pomocnicze jest zwykłym wiązaniem szkicownika, które jest potrzebne jako część bardziej złożonego wiązania, ale jest widoczne w interfejsie użytkownika, aby pomóc w radzeniu sobie z redundancją. Na przykład, dla [prawo Snell\'a](Sketcher_ConstrainSnellsLaw/pl.md), dwie linie reprezentujące promienie światła muszą być połączone ([zbieżnością punktów](Sketcher_ConstrainCoincident/pl.md)), a złącze musi leżeć na interfejsie ([Zwiąż punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md)).
 
-Helper constraints are added automatically when they are needed. The decision for if they are needed is currently made by evaluating the helper constraint error for current state of geometry (this may change in future versions). If the error is small enough, the constraint is considered to be unnecessary, and is not added. In some cases, this logic can lead to errors (the constraint can be satisfied by accident, which can easily happen when Sketcher Grid Snapping is on).
+Wiązania pomocnicze są dodawane automatycznie, gdy są potrzebne. Decyzja o tym, czy są one potrzebne, jest obecnie podejmowana przez ocenę błędu wiązania pomocniczego dla bieżącego stanu geometrii *(może to się zmienić w przyszłych wersjach)*. Jeśli błąd jest wystarczająco mały, wiązanie jest uważane za niepotrzebne i nie jest dodawane. W niektórych przypadkach ta logika może prowadzić do błędów *(wiązanie może zostać spełnione przez przypadek, co może się łatwo zdarzyć, gdy włączona jest funkcja przyciągania siatki szkicownika)*.
 
-If this happens (a helper constraint is missing, and the required conditions is not satisfied otherwise), the complex constraint will be broken. It will do something, but the actual behavior is undefined. Such a broken constraint can be repaired by adding the missing helper constraint manually.
+Jeśli tak się stanie *(brakuje jakiegoś wiązania pomocniczego, a wymagane warunki nie są spełnione w inny sposób)*, wiązanie złożone zostanie uszkodzone. Wykona ono coś, ale rzeczywiste zachowanie jest niezdefiniowane. Takie uszkodzone wiązanie może być naprawione przez ręczne dodanie brakującego wiązania pomocniczego.
 
-Helper constraints are currently required for:
+Wiązania pomocnicze są obecnie wymagane dla:
 
--   [Constraint Tangent](Sketcher_ConstrainTangent.md) (in tangent-via-point mode; two point-on-object constraints are needed)
--   [Constraint Perpendicular](Sketcher_ConstrainPerpendicular.md) (in perpendicular-via-point mode; two point-on-object constraints are needed)
--   [Constraint Angle](Sketcher_ConstrainAngle.md) (in angle-via-point mode; two point-on-object constraints are needed)
--   [Constraint SnellsLaw](Sketcher_ConstrainSnellsLaw.md) (coincident constraint and point-on-object constraint are needed)
+-   [wiązań styczności](Sketcher_ConstrainTangent/pl.md) *(w trybie styczna-przez-punkt, potrzebne są dwa wiązania w punkcie)*,
+-   [wiązań prostopadłości](Sketcher_ConstrainPerpendicular/pl.md) *(w trybie prostopadle-przez-punkt, potrzebne są dwa wiązania w punkcie)*,
+-   [wiązań kąta](Sketcher_ConstrainAngle/pl.md) *(w trybie kątowym, potrzebne są dwa wiązania w punkcie)*,
+-   [wiązań prawa Snell\'a](Sketcher_ConstrainSnellsLaw/pl.md) *(potrzebne są wiązania zbieżności i w punkcie)*.
 
-## Scripting
+## Tworzenie skryptów 
 
-When constraints requiring helpers are added from Python, no helper constraints are automatically added. One can replicate the automatic decision-making of the UI commands in a script by testing the following functions, specifically added for the purpose and used in the UI routines: 
+Gdy wiązania wymagające elementów pomocniczych są dodawane z poziomu środowiska Python, żadne wiązania pomocnicze nie są dodawane automatycznie. Można odtworzyć automatyczne podejmowanie decyzji przez polecenia UI w skrypcie, testując funkcje, specjalnie dodane w tym celu i używane w procedurach UI: 
 ```python
 Sketch.isPointOnCurve(icurve,x,y)
-``` isPointOnCurve tests if a virtual point, given by sketch coordinates x,y (float values), happens to satisfy a virtual point-on-object constraint - i.e. lies on curve specified by curve index icurve. Returns True if the point is on curve, and False if it doesn\'t.
+``` isPointOnCurve sprawdza, czy punkt wirtualny określony przez współrzędne szkicu x,y *(wartości zmiennoprzecinkowe)* spełnia wymogi wirtualnego punktu na obiekcie - tj. leży na krzywej określonej przez indeks krzywej icurve. Zwraca wartość {{True/pl}}, jeśli punkt jest na krzywej, i {{False/pl}}, jeśli tak nie jest.
 
 
 ```python
 Sketch.calculateConstraintError(iconstr)
 ```
 
-calculateConstraintError evaluates an error function of a constraint specified by its index iconstr in the sketch. If there is only one error function in the constraint, the return value is the signed return value of the error function. If there is more than one error function associated with the constraint (i.e. the constraint removes more than one degree of freedom), the return value is the RMS of all the error functions (always positive).
+CalcConstraintError ocenia funkcję błędu wiązania określonego przez jego indeks iconstr w szkicu. Jeśli w wiązaniu występuje tylko jedna funkcja błędu, zwracaną wartością jest podpisana wartość zwracana przez funkcję błędu. Jeśli z więzem związana jest więcej niż jedna funkcja błędu *(tj. wiązanie usuwa więcej niż jeden stopień swobody)*, zwracaną wartością jest RMS wszystkich funkcji błędu *(zawsze dodatnia)*.
+
+
 
 ## Wersja
 

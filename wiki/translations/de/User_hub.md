@@ -11,7 +11,11 @@ Wenn Du zu FreeCAD beitragen möchtest, [spende](donate/de.md) bitte und lies di
 
 Wenn du erfahren möchtest, wie FreeCAD vor Jahren begann, besuche die Seite [Geschichte](History/de.md).
 
+
+
 ## FreeCAD benutzen 
+
+
 
 ### Einleitung
 
@@ -23,6 +27,8 @@ Wenn du erfahren möchtest, wie FreeCAD vor Jahren begann, besuche die Seite [Ge
 -   [FAQ](Frequently_asked_questions/de.md): Häufig gestellte Fragen.
 -   [Tutorien](Tutorials/de.md) decken verschiedene Teile von FreeCAD ab.
 
+
+
 #### Umstieg von einer anderen Anwendung? 
 
 -   [Fehlerumgehung](Workarounds/de.md)
@@ -33,6 +39,8 @@ Wenn du erfahren möchtest, wie FreeCAD vor Jahren begann, besuche die Seite [Ge
 -   [FreeCAD BIM migration guide](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide)
 -   [BIM applications compatibility table](BIM_application_compatibility_table/de.md)
 
+
+
 ### Grundlegende Anwendung 
 
 -   [Oberfläche](Interface/de.md): Die FreeCAD-Benutzeroberfläche besteht aus verschiedenen grafischen Elementen auf dem Bildschirm, darunter der [3D-Ansicht](3D_view/de.md), der [Baumansicht](Tree_view/de.md), dem [Eigenschafteneditor](Property_editor/de.md), der [Aufgabenbereich](Task_panel/de.md) und der [Python-Konsole](Python_console/de.md).
@@ -41,6 +49,8 @@ Wenn du erfahren möchtest, wie FreeCAD vor Jahren begann, besuche die Seite [Ge
 -   [Objektname](Object_name/de.md): Alle Objekte haben einen einzigartigen, nicht veränderbaren `Namen`, der sie eindeutig identifiziert und ein `Label` das vom Anwender beliebig geändert werden kann.
 -   [Voreinstellungseditor](Preferences_Editor/de.md): Das System, mit dem viele Eigenschaften des Basissystems und der einzelnen Arbeitsbereiche gesteuert werden können.
 -   [Dateiformate](Import_Export/de.md): Die verschiedenen Dateiformate, die FreeCAD lesen und schreiben kann.
+
+
 
 ### Arbeitsbereiche
 
@@ -54,27 +64,23 @@ Wenn du erfahren möchtest, wie FreeCAD vor Jahren begann, besuche die Seite [Ge
 
 -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> Der [Arbeitsbereich FEM](FEM_Workbench/de.md) bietet einen Arbeitsablauf für die Finite Elemente Analyse (FEA).
 
--   <img alt="" src=images/Workbench_Image.svg  style="width:32px;"> Der [Arbeitsbereich Image](Image_Workbench/de.md) für die Arbeit mit Bitmap Bildern.
-
--   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> Der [Arbeitsbereich Inspection](Inspection_Workbench/de.md) bietet spezielle Werkzeuge für die Untersuchung von Formen. Er befindet sich noch in der Entwicklung.
+-   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> Der Arbeitsbereich [Inspection](Inspection_Workbench/de.md) beinhaltet spezielle Werkzeuge für die Untersuchung von Formen. Er befindet sich noch in einer frühen Phase der Entwicklung.
 
 -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> Der [Arbeitsbereich Mesh](Mesh_Workbench/de.md) für die Arbeit mit triangulierten Polygonnetzen.
 
 -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> Der [ Arbeitsbereich OpenSCAD](OpenSCAD_Workbench/de.md) für das Zusammenspiel mit OpenSCAD und die Reparatur [Konstruktiver Festkörpergeometrie](Constructive_solid_geometry/de.md) (CSG) Modellhistorie.
 
--   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> Der [Arbeitsbereich Part](Part_Workbench/de.md) für die Arbeit mit CAD Teilen.
+-   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> Der [Arbeitsbereich Part](Part_Workbench/de.md) für die Arbeit mit geometrischen Grundkörpern und booleschen Operationen.
 
 -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> Der [Arbeitsbereich Part Design](PartDesign_Workbench/de.md) zur Erstelllung von Teilformen aus Skizzen.
 
--   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> Der [Arbeitsbereich Path](Path_Workbench/de.md) wird zur Erstellung von G-Code Anweisungen verwendet.
+-   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> Der Arbeitsbereich [Path](Path_Workbench/de.md) wird zur Erstellung von G-Code-Anweisungen verwendet.
 
 -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> Der [Arbeitsbereich Points](Points_Workbench/de.md) für die Arbeit mit Punktwolken.
 
--   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> Der [Arbeitsbereich Raytracing](Raytracing_Workbench/de.md) für die Arbeit mit Strahlenverfolgung (Bildsynthese).
+-   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> Der Arbeitsbereich [Reverse Engineering](Reverse_Engineering_Workbench/de.md) soll spezielle Werkzeuge zur Konvertierung von Formen/Festkörpern/Polygonnetze in parametrische FreeCAD-kompatible Formelemente bereitstellen.
 
--   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> Der [Arbeitsbereich Reverse Engineering](Reverse_Engineering_Workbench/de.md) soll spezielle Werkzeuge zur Konvertierung von Formen/Volumenkörpern/Polygonnetze in parametrische FreeCAD-kompatible Formelemente bereitstellen. Er befindet sich noch in der Entwicklung.
-
--   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> Der [ Arbeitsbereich Robot](Robot_Workbench/de.md) zur Untersuchung von Roboterbewegungen.
+-   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> Der Arbeitsbereich [Robot](Robot_Workbench/de.md) (Roboter) zur Untersuchung von Roboterbewegungen. Wird zur Zeit nicht gewartet.
 
 -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> Der [Arbeitsbereich Sketcher](Sketcher_Workbench/de.md) für die Arbeit mit geometrie-beschränkten Skizzen.
 
@@ -84,11 +90,13 @@ Wenn du erfahren möchtest, wie FreeCAD vor Jahren begann, besuche die Seite [Ge
 
 -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> Der [Arbeitsbereich Surface](Surface_Workbench/de.md) bietet Werkzeuge zum Erstellen und Ändern von Oberflächen. Er ist ähnlich wie die [Part Form Erbauer](Part_Builder/de.md) Fläche aus Kanten-Option.
 
--   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> Der [Arbeitsbereich TechDraw](TechDraw_Workbench/de.md) zur Erstellung technischer Zeichnungen aus 3D Modellen. Es ist der Nachfolger des [ Arbeitsbereichs Drawing](Drawing_Workbench/de.md).
+-   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> Der Arbeitsbereich [TechDraw](TechDraw_Workbench/de.md) dient zur Ableitung technischer Zeichnungen von 3D-Modellen.
 
 -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> Der [Arbeitsbereich Testing](Testing/de.md) ist für die FreeCAD Fehlersuche.
 
 -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> Der [Arbeitsbereich Web](Web_Workbench/de.md) bietet dir ein Browserfenster anstelle der [3D Ansicht](3D_view/de.md) in FreeCAD.
+
+
 
 ### Makros
 
@@ -98,6 +106,8 @@ Erfahrene Anwender haben verschiedene [Makros](macros/de.md) erstellt, um FreeCA
 
 Seit FreeCAD v0.17 können viele Makros mit Hilfe des [Addon Managers](Std_AddonMgr/de.md) installiert werden. Eine Liste der Makros finden Sie auf der [Makro Rezepte](Macros_recipes/de.md)-Seite. Für eine manuelle Installation siehe [Wie Makros installiert werden](How_to_install_macros/de.md).
 
+
+
 ### Externe Arbeitsbereiche 
 
 Wenn viele Makros oder Funktionen gemeinsam entwickelt und in Symbolleisten und Menüs organisiert werden, können sie zu einem neuen Arbeitsbereich werden.
@@ -106,16 +116,22 @@ Wenn viele Makros oder Funktionen gemeinsam entwickelt und in Symbolleisten und 
 
 Seit FreeCAD 0.17 können viele Arbeitsbereiche mit dem [Addon Manager](Std_AddonMgr/de.md) installiert werden. Für die manuelle Installation siehe [Wie zusätzliche Arbeitsbereiche installiert werden](How_to_install_additional_workbenches/de.md).
 
+
+
 ## Referenz
 
 -   [Befehlsreferenz](List_of_Commands/de.md): Eine Liste aller verfügbaren FreeCAD-Befehle (aller Befehle, deren Wikiseite ins Deutsche übersetzt ist).
 -   [Commands Reference](List_of_Commands.md): Die vollständige Liste der verfügbaren FreeCAD-Befehle in Englisch.
+
+
 
 ## Online Hilfe 
 
 Dies ist die offizielle FreeCAD Online Hilfe. Bitte beachte, dass das gesamte Online Hilfesystem gegenwärtig überarbeitet wird. Sie wird verwendet, um eine .CHM Datei zu erzeugen, die mit den Binärpaketen von FreeCAD verteilt wird. Im Moment fasst die Online Hilfe einige der vollständigsten Abschnitte dieses Wikis zusammen.
 
 -   [Online Hilfesystem - Inhaltsverzeichnis](Online_Help_Toc/de.md)
+
+
 
 ## Mehr
 

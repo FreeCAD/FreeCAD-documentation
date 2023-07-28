@@ -1,5 +1,5 @@
 # Wrapping a Cplusplus class in Python/ru
-**Эта статья-"заглушка". Пожалуйста, внесите в неё вклад своими знаниями!**
+**Данная статья нуждается в развитии. Пожалуйста, внесите в неё вклад своими знаниями!**
 
 
 {{TOCright}}
@@ -87,7 +87,7 @@ For an attribute, if \"ReadOnly\" is false, you will provide both a getter and a
 Py::Object AxisPy::getDirection(void) const
 }}
 
-and:
+и:
 
 
 {{Code|lang=cpp|code=
@@ -114,6 +114,8 @@ Your C++ implementation file will include the following files:
 }}
 
 Of course, you may include whatever other C++ headers your code requires to function as well.
+
+
 
 ### Конструктор
 
@@ -149,7 +151,9 @@ PyAPI_FUNC(int) PyArg_VaParse (PyObject *, const char *, va_list);
 PyAPI_FUNC(int) PyArg_VaParseTupleAndKeywords (PyObject *, PyObject *, const char *, char **, va_list);
 }}
 
-## Links
+
+
+## Ссылки
 
 -   [Exposing Cplusplus to Python](Exposing_Cplusplus_to_Python.md)
 -   [Commit 20b86e5, exposing OCC\'s precision methods to Python](https://github.com/FreeCAD/FreeCAD/commit/20b86e55b8dd1873f4c19e036d047528c9ff7f4e)

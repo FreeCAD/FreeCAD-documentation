@@ -8,13 +8,17 @@
 
 # Path Pocket Shape/fr
 
+
+
 ## Description
 
-Cet outil crée une opération de poche à partir des faces inférieures ou des parois sélectionnées d\'une ou de plusieurs poches de l\'objet.
+L\'outil <img alt="" src=images/Path_Pocket_Shape.svg  style="width:16px;"> [Poche](Path_Pocket_Shape/fr.md) crée une opération de poche à partir de faces inférieures sélectionnées, de parois, d\'une ou de plusieurs poches de l\'objet de base des tâches.
 
-L\'objet Path Forme de poche est fait pour travailler avec une <img alt="" src=images/Path_Job.svg  style="width:24px;"> [Path Tâche](Path_Job/fr.md).
+L\'objet Path Poche est conçu pour faire partie d\'une <img alt="" src=images/Path_Job.svg  style="width:24px;"> [Path Tâche](Path_Job/fr.md).
 
 <img alt="" src=images/Path_Pocket_Shape_example.png  style="width:600px;">
+
+
 
 ## Utilisation
 
@@ -24,6 +28,8 @@ L\'objet Path Forme de poche est fait pour travailler avec une <img alt="" src=i
     -   Sélectionnez l\'option **Path → <img src="images/Path_Pocket_Shape.svg" width=16px> Poche** dans le menu.
 3.  Ajustez les propriétés souhaitées.
 
+
+
 ## Propriétés
 
 ***Remarque***: toutes ces propriétés ne sont pas disponibles dans l\'éditeur de fenêtre de tâches. Certaines ne sont accessibles que dans l\'onglet Données du panneau Vue de propriétés pour cette opération.
@@ -31,7 +37,7 @@ L\'objet Path Forme de poche est fait pour travailler avec une <img alt="" src=i
 
 {{TitleProperty|Base}}
 
-Remarque: il est conseillé de ne pas modifier la propriété Placement des opérations de chemin. Déplacez ou faites pivoter le modèle de tâche de chemin selon vos besoins.
+Remarque : il est conseillé de ne pas modifier la propriété Placement des opérations de parcours. Il convient plutôt de déplacer ou de faire pivoter le modèle Path Tâche selon les besoins.
 
 -    **Placement**: emplacement global \[position et rotation\] de l\'objet - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
 
@@ -43,42 +49,42 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
     -   
         **Axis**
         
-        : axe (un ou plusieurs) autour duquel faire pivoter l\'objet, défini dans les sous-propriétés: x, y, z.
+        : axe (un ou plusieurs) autour duquel faire pivoter l\'objet, défini dans les sous-propriétés: X, Y, Z.
 
         -   
             **X**
             
-            : valeur de l\'axe x.
+            : valeur de l\'axe X.
 
         -   
             **Y**
             
-            : valeur de l\'axe y.
+            : valeur de l\'axe Y.
 
         -   
             **Z**
             
-            : valeur de l\'axe z.
+            : valeur de l\'axe Z.
 
     -   
         **Position**
         
-        : Position de l\'objet, définie dans les sous-propriétés: x, y, z - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
+        : position de l\'objet, définie dans les sous-propriétés : X, Y, Z - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
 
         -   
             **X**
             
-            : valeur de distance x.
+            : valeur de distance X.
 
         -   
             **Y**
             
-            : valeur de distance y.
+            : valeur de distance Y.
 
         -   
             **Z**
             
-            : valeur de distance z.
+            : valeur de distance Z.
 
 -    **Label**: nom de l\'objet fourni par l\'utilisateur (UTF-8).
 
@@ -89,7 +95,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Final Depth**: profondeur finale de l\'outil - valeur la plus basse de Z.
 
--    **Finish Depth**: Le maximum de matériau retiré lors du passage final. La hauteur (épaisseur) du dernier niveau de coupe - \"\" pour une meilleure finition \".
+-    **Finish Depth**: le maximum de matériau retiré lors du passage final. La hauteur (épaisseur) du dernier niveau de coupe - *pour une meilleure finition*.
 
 -    **Safe Height**: hauteur au-dessus de laquelle les mouvements rapides sont autorisés. (Hauteur de sécurité rapide entre les sites).
 
@@ -103,14 +109,14 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 {{TitleProperty|Extension}}
 
--    **Extension Corners**: lorsque cette option est activée, les bords d\'extension connectés sont combinés à des fils.
+-    **Extension Corners**: lorsque cette option est activée, les bords d\'extension connectés sont combinés à des polylignes.
 
 -    **Extension Length Default**: longueur par défaut des extensions.
 
 
 {{TitleProperty|Face}}
 
--    **Offset Pattern**: effacement du motif à utiliser. (Sélectionnez la manière dont les mouvements horizontaux doivent être effectués.)
+-    **Offset Pattern**: motif de détourage à utiliser. (Sélectionnez la manière dont les mouvements horizontaux doivent être effectués.)
 
 
 {{TitleProperty|Path}}
@@ -126,17 +132,17 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 {{TitleProperty|Pocket}}
 
--    **Cut Mode**: spécifie un déplacement CW ou CCW pour la coupe.
+-    **Cut Mode**: spécifie un déplacement sens horaire ou anti-horaire pour la coupe.
 
--    **Extra Offset**: décalage supplémentaire à appliquer à l\'opération. La direction dépend du fonctionnement. (Valeur supplémentaire pour rester loin du profil final- *bon pour le parcours grossier*).
+-    **Extra Offset**: décalage supplémentaire à appliquer à l\'opération. La direction dépend du fonctionnement. (Valeur supplémentaire pour rester loin du profil final- *bon pour dégrossir le parcours*).
 
 -    **Keep Tool**: tente d\'éviter les retraits inutiles.
 
--    **Min Travel**: utilise le tri 3D du chemin (lorsque plusieurs géométries de base sont utilisées).
+-    **Min Travel**: utilise le tri 3D de Path (lorsque plusieurs géométries de base sont utilisées).
 
--    **Start At**: commence à empocher au centre ou au bord.
+-    **Start At**: commence à effectuer la poche par le centre ou pare le bord.
 
--    **Step Over**: sélectionne le pas horizontal (**Pourcent** du diamètre de l\'outil: 100% = diamètre de l\'outil).
+-    **Step Over**: sélectionne le pas horizontal (**Pourcentage** du diamètre de l\'outil : 100% = diamètre de l\'outil).
 
 -    **Use Outline**: utilise le contour de la géométrie de base.
 
@@ -151,30 +157,36 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Enable Rotation**: active la rotation pour accéder aux trous non normaux sur l\'axe Z.
 
--    **Angle Inverse**: inverse l\'angle de la rotation. ***Exemple:** change une rotation de -22,5 à 22,5 degrés.*
+-    **Angle Inverse**: inverse l\'angle de la rotation. ***Exemple :** change une rotation de -22,5 à 22,5 degrés.*
 
 -    **Reverse Direction**: inverse l\'orientation de l\'opération de 180 degrés.
 
 
 {{TitleProperty|Start Point}}
 
--    **Start Point**: le point de départ de ce chemin.
+-    **Start Point**: point de départ de ce parcours.
 
--    **Use Start Point**: en position True, si vous spécifiez manuellement un point de départ, saisissez Points de départ dans le champ Points de départ des données de la propriété.
+-    **Use Start Point**: si vous spécifiez manuellement un point de départ, mettre à True, puis saisir les points de départ dans le champ Start Point des propriétes des données.
 
-## Présentation de l\'éditeur de fenêtre de tâches 
 
-*Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.* Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
+
+## Disposition de l\'éditeur de la fenêtre des tâches 
+
+*Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.*
+
+Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
+
+
 
 ### Géométrie de base 
 
--   **Add**: ajoute les éléments sélectionnés qui doivent être la base du ou des chemins.
--   **Remove**: supprime le ou les éléments sélectionnés dans la liste emplacement de base.
--   **Edit**: efface tous les éléments de la liste d\'emplacement de base.
+-   **Ajouter** : ajoute le(s) élément(s) sélectionné(s) qui doit(vent) être la(les) base(s) pour le(s) trajectoire(s).
+-   **Enlever** : supprime le ou les éléments sélectionnés dans la liste de la géométrie de base.
+-   **Réinitialiser** : efface tous les éléments de la liste de la géométrie de base.
 
 ### Extensions
 
--    **Show All**: si cette option est sélectionnée, toutes les extensions potentielles sont visualisées. Extensions activées en violet, extensions désactivées en jaune.
+-    **Show All**: si cette option est sélectionnée, toutes les extensions potentielles sont visualisées. Les extensions activées sont en violet, les extensions désactivées en jaune.
 
 -    **Extension Corners**
     
@@ -188,6 +200,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -   **Clear**
 
+
+
 ### Profondeurs
 
 -    **Start Depth**
@@ -199,6 +213,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -    **Step Down**
     
 
+
+
 ### Hauteurs
 
 -    **Safe Height**
@@ -206,6 +222,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Clearance Height**
     
+
+
 
 ### Opération
 
@@ -219,14 +237,16 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Angle**(angle de zig zag)
 
--    **Step Over Percent**(Pas à pas)
+-    **Step Over Percent**(pas à pas)
 
--    **Pass Extension**: distance à laquelle l\'opération de surfaçage s\'étendra au-delà des bordes la forme (géométrie de base).
+-    **Pass Extension**: distance à laquelle l\'opération de parement s\'étendra au-delà de la forme de la bordure (géométrie de base).
+
+
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

@@ -1,42 +1,51 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign Line
-   MenuLocation:Part Design → Create a datum → Create a datum line
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Utwórz linię odniesienia
+   MenuLocation:Projekt Części → Utwórz układ odniesienia → Utwórz linię odniesienia
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[PartDesign Point](PartDesign_Point.md), [PartDesign Plane](PartDesign_Plane.md)
+   SeeAlso:[Utwórz punkt odniesienia](PartDesign_Point/pl.md), [Utwórz płaszczyznę odniesienia](PartDesign_Plane/pl.md)
 ---
 
 # PartDesign Line/pl
 
-## Description
 
-Creates a **datum line** which can be used as reference for sketches, other datum geometry or features. For example it can be used as revolution axis for Revolution and Groove features.
+
+## Opis
+
+Tworzy **linię odniesienia**, która może być używana jako odniesienie dla szkiców, innej geometrii odniesienia lub elementów. Na przykład może być używana jako oś obrotu dla funkcji obrotu i rowka.
 
 <img alt="" src=images/datum_line.png  style="width:600px;"> 
-*Two Datum lines through opposite corners of the cube meet at the center of mass.*
+*Dwie linie odniesienia przechodzące przez przeciwległe narożniki sześcianu spotykają się w środku masy.*
 
-## Usage
 
-1.  Press the **<img src="images/PartDesign_Line.svg" width=24px> '''Create a datum line'''** button.
-2.  Define Line parameters. Select a first reference in the 3D view to filter the available attachment modes.
-3.  Depending on the selected reference, there may be one or more attachment modes available in the the list. The most likely one will automatically be selected and shown in bold in the list. The text *Attached with mode* along with the attachment mode name will appear in green at the top of the Parameters panel.
-4.  To add an additional reference, press the next **Reference** button. Once pressed its label changes to *Selecting\...* until a selection is made.
-5.  Select an attachment mode in the list.
-6.  Define Attachment Offset values.
-7.  Press **OK**.
 
-## Options
+## Użycie
 
-Double-click the DatumLine label in the Model tree or right-click and select **Edit datum** in the contextual menu to edit its parameters. For more details about Attachment mode and Attachment offset, see [Part EditAttachment](Part_EditAttachment.md).
+1.  Naciśnij przycisk **<img src="images/PartDesign_Line.svg" width=24px> '''Utwórz linię odniesienia'''**.
+2.  Zdefiniuj parametry linii. Wybierz pierwsze odniesienie w oknie widoku 3D, aby przefiltrować dostępne tryby mocowania.
+3.  W zależności od wybranego odniesienia, na liście może być dostępny jeden lub więcej trybów dołączania. Najbardziej prawdopodobny z nich zostanie automatycznie wybrany i wyróżniony pogrubioną czcionką na liście. Tekst \"Dołączono w trybie\" wraz z nazwą trybu dołączania pojawi się w kolorze zielonym w górnej części panelu Parametry punktu odniesienia.
+4.  Aby umieścić dodatkowe odniesienie, naciśnij następny przycisk **Odniesienie**. Po naciśnięciu jego etykieta zmienia się na *Wybieranie \...* do momentu dokonania wyboru.
+5.  Wybierz tryb dołączania z listy.
+6.  Zdefiniuj wartości przesunięcia dołączenia.
+7.  Naciśnij **OK**.
 
-## Properties
 
--    **MapMode**: lists the attachment mode used.
 
--    **Attachment Offset**: applies a transformation (translation and rotation) in reference to the attachment placement.
+## Opcje
 
--    **Label**: name given to the object, this name can be changed at convenience.
+Kliknij dwukrotnie etykietę LiniaOdniesienia w drzewie modelu lub kliknij prawym przyciskiem myszy i wybierz **Edytuj odniesienie** z menu kontekstowego, aby edytować jego parametry. Aby uzyskać więcej informacji na temat trybu dołączania i przesunięcia dołączania, zobacz stronę [Edytuj dołączenie](Part_EditAttachment/pl.md).
+
+
+
+## Właściwości
+
+-    **Tryb mapowania**: wymienia używany tryb dołączania.
+
+-    **Odsunięcie dołaczenia**: stosuje transformację (przesunięcie i obrót) w odniesieniu do umieszczenia dołaczenia.
+
+-    **Etykieta**: nazwa nadana obiektowi, nazwa ta może być dowolnie zmieniana.
 
 
 

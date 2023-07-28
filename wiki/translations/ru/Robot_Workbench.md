@@ -4,6 +4,8 @@
 
 **Причина, по которой этот верстак все ещё находится в основном исходном коде, заключается в том, что этот верстак запрограммирован на C++. Если бы этот верстак можно было запрограммировать на Python, то его можно было бы сделать [внешним верстаком](external_workbenches/ru.md) и переместить в отдельный репозиторий. **
 
+
+
 ## Введение
 
 <img alt="Логотип верстака Robot" src=images/Workbench_Robot.svg  style="width:128px;">
@@ -33,11 +35,11 @@
 
 Инструменты создания и управления 6-осевыми роботами.
 
--   <img alt="" src=images/Robot_CreateRobot.svg  style="width:30px;"> [Создать робота](Robot_CreateRobot/ru.md): Поместить нового робота на сцену
--   <img alt="" src=images/Robot_Simulate.svg  style="width:30px;"> [Имитировать траекторию](Robot_Simulate/ru.md): Открыть диалог имитации позволяющий выполнить имитацию
--   <img alt="" src=images/Robot_Export.svg  style="width:30px;"> [Экспортировать траекторию](Robot_Export/ru.md): Экспортировать в программный файл робота
--   <img alt="" src=images/Robot_SetHomePos.svg  style="width:30px;"> [Установить стартовую позицию](Robot_SetHomePos/ru.md): Установить стартовое положение робота
--   <img alt="" src=images/Robot_RestoreHomePos.svg  style="width:30px;"> [Восстановить на исходную](Robot_RestoreHomePos/ru.md): Переместить робота в стартовое положение
+-   <img alt="" src=images/Robot_CreateRobot.svg  style="width:30px;"> [Добавить робота](Robot_CreateRobot/ru.md): Добавляет нового робота в текущую сцену
+-   <img alt="" src=images/Robot_Simulate.svg  style="width:30px;"> [Воспроизвести движение инструмента по траектории](Robot_Simulate/ru.md): Открывает диалог позволяющий выполнить симуляцию движения рабочего инструмента робота по заданной траектории
+-   <img alt="" src=images/Robot_Export.svg  style="width:30px;"> [Экспортировать траекторию](Robot_Export/ru.md): Экспортировать траекторию в файл
+-   <img alt="" src=images/Robot_SetHomePos.svg  style="width:30px;"> [Сохранить текущее положение как исходное](Robot_SetHomePos/ru.md): Сохранить текущее положение робота как исходное
+-   <img alt="" src=images/Robot_RestoreHomePos.svg  style="width:30px;"> [Вернуть в исходное положение](Robot_RestoreHomePos/ru.md): Возвращает робота в исходное положение
 
 ### Траектории
 
@@ -56,6 +58,8 @@
 -   <img alt="" src=images/Robot_Edge2Trac.svg  style="width:30px;"> [Край траектории](Robot_Edge2Trac/ru.md): Поместить новый объект, который раскладывается на ребра для траектории
 -   <img alt="" src=images/Robot_TrajectoryDressUp.svg  style="width:30px;"> [Настройка траектории](Robot_TrajectoryDressUp/ru.md): Изменить одно и более свойств траектории
 -   <img alt="" src=images/Robot_TrajectoryCompound.svg  style="width:30px;"> [Объединение траекторий](Robot_TrajectoryCompound/ru.md): Создать объединение из нескольких одиночных траекторий
+
+
 
 ## Составление скриптов 
 

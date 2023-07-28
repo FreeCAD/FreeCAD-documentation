@@ -5,7 +5,7 @@
    Time:1 hour
    FCVersion:0.17 or above
    Files:
-   SeeAlso:[Creating a simple part with Part WB](Creating_a_simple_part_with_Part_WB.md), [Creating a simple part with Draft and Part WB](Creating_a_simple_part_with_Draft_and_Part_WB.md)
+   SeeAlso:[Creating a simple part with Part WB](Creating_a_simple_part_with_Part_WB/pt-br.md), [Creating a simple part with Draft and Part WB](Creating_a_simple_part_with_Draft_and_Part_WB/pt-br.md)
 ---
 
 # Creating a simple part with PartDesign/pt-br
@@ -16,261 +16,270 @@
 
 ![](images/GGTuto1_Vue.PNG )
 
-This tutorial aims to teach FreeCAD beginners a few basic features through an example. After covering the basics in the [User hub](User_hub.md), you will be able to model a first part step by step.
+Este tutorial visa ensinar aos iniciantes do FreeCAD alguns recursos básicos por meio de um exemplo. Depois de ver o básico na [Central do Usuário](User_hub/pt-br.md), você poderá modelar uma primeira peça passo a passo.
 
-**We will cover in this tutorial in particular:**
+**Abordaremos neste tutorial em particular:**
 
--   Using [Part Design workbench](PartDesign_Workbench.md), tracing the sketch.
--   Using Pad and Pocket features.
--   Changing color and transparency.
--   Moving the part manually.
--   Displaying reference dimensions in the sketch.
--   Editing one or more dimensions.
--   Using external geometry feature and using a reference plane to centre a hole.
+-   Usando a bancada [Part Design](PartDesign_Workbench.md), traçando o esboço.
+-   Usando os recursos Pad e Pocket.
+-   Mudança de cor e transparência.
+-   Mover a peça manualmente.
+-   Exibindo dimensões de referência no esboço.
+-   Editando uma ou mais dimensões.
+-   Usando recurso de geometria externa e usando um plano de referência para centralizar um furo.
 
-### Using [Part Design workbench](PartDesign_Workbench.md), tracing the sketch 
 
-Create a new document and switch to the **[<img src=images/Workbench_PartDesign.svg style="width:24px"> '''Part Design workbench'''** using either the [workbench selector](Getting_started#Exploring_the_interface.md) (labelled 10 in the linked image) or by going to the *View → Workbench* menu. FreeCAD will start with toolbars at the top, the combo view to the left and the 3D view at the right.
 
-**Create body:**
+### Usando a [Bancada Part Design](PartDesign_Workbench.md), traçando o esboço 
 
-Press <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Create body](PartDesign_Body.md). ***Note:** do not confuse the Body, which icon is blue, with the Part container which icon is yellow.* In the Model tab under the Combo View sidebar, a new object labelled \"Body\" appears under the document label, which is currently \"Unnamed\" since we haven\'t saved our document yet. The Body is a container in which Part Design features are sequentially arranged to form a single solid. It contains its own reference axes and planes. It will be highlighted in light blue in the Model tree, which means that it is active, that is to say that we can edit the elements it contains as well as add new elements to it. If it\'s not highlighted, double-click it or right-click and select *Toggle active body* in the contextual menu. In front of the Body label, there is a blue icon identical to the one above, and an arrow or a plus sign, depending on your operating system. Clicking on the arrow or plus sign in front of Body expands its content. At this point, it only contains an element labelled *Origin*. In front of this *Origin* is also an arrow or plus sign. Click on it to expand its content. It reveals the aforementioned reference axes and planes as shown in the image below:
+Crie um novo documento e mude para o **[<img src=images/Workbench_PartDesign.svg style="width:24px"> a '''bancada Part Design'''** usando o [workbench selector](Getting_started/pt-br#Exploring_the_interface.md) (rotulado 10 na imagem vinculada) ou acessando o menu *Vista → Bancada*. O FreeCAD começará com as barras de ferramentas na parte superior, a tela combinada à esquerda e a visualização 3D à direita.
 
-![](images/PartDesign_Body_tree_Unnamed.png ) *The newly created active Body with its content expanded.*
+**Crie um corpo:**
 
-The *Origin* is greyed out, which indicates that its content is not visible in the 3D view. You can make *Origin*\'s content visible in the 3D view by selecting *Origin* and pressing the spacebar on your keyboard. *Origin* will now show black in the tree. Press the spacebar again to hide its content in the 3D view. Click again on the arrow or plus sign in front of *Origin* to collapse its content in the Model tree.
+Clique em <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Criar corpo](PartDesign_Body.md). ***Nota:** não confunda o Corpo, cujo ícone é azul, com a Parte, cujo ícone é amarelo.* Na aba Modelo, na barra lateral da Tela combinada, um novo objeto chamado \"Body\" (corpo em português) aparece sob o rótulo do documento, que atualmente é \"Unnamed\" (ou \"sem nome\", em português), pois ainda não salvamos nosso documento. O Corpo é um contêiner no qual os recursos da Part Design são organizados sequencialmente para formar um único sólido. Ele contém seus próprios eixos e planos de referência. Ele será destacado em azul claro na árvore na aba Modelo, o que significa que está ativo, ou seja, podemos editar os elementos que ele contém, bem como adicionar novos elementos a ele. Se não estiver realçado, clique duas vezes ou clique com o botão direito do mouse e selecione *Alternar o corpo ativo* no menu que se abre. À frente da etiqueta Body, existe um ícone azul idêntico ao anterior, e uma seta ou um sinal de mais, dependendo do seu sistema operacional. Clicar na seta ou no sinal de adição na frente de Corpo expande seu conteúdo. Neste ponto, ele contém apenas um elemento chamado *Origin*. Na frente de *Origin* também há uma seta ou sinal de mais. Clique nele para expandir seu conteúdo. Isso revela os eixos e planos de referência acima mencionados, conforme mostrado na imagem abaixo:
 
-Before we continue, let\'s take the opportunity to rename the Body.
+![](images/PartDesign_Body_tree_Unnamed.png ) *O corpo ativo recém-criado com seu conteúdo expandido.*
 
-**Rename body:**
+A *Origin* está acinzentada, o que indica que seu conteúdo não é visível na visualização 3D. Você pode tornar o conteúdo de *Origin* visível na visualização 3D selecionando *Origin* e pressionando a barra de espaço em seu teclado. *Origem* agora aparecerá em preto na árvore. Pressione a barra de espaço novamente para ocultar seu conteúdo na visualização 3D. Clique novamente na seta ou no sinal de mais na frente de *Origin* para recolher seu conteúdo na árvore.
 
-In the Model tree, click on the Body with the right mouse button. Select Rename and type a name, for example \"Body part1\" and press **Enter** to validate.
+Antes de continuarmos, vamos aproveitar para renomear o Corpo.
 
-**Create sketch:**
+**Renomeando Body:**
 
-We will now trace the sketch which defines the general shape of the part. A sketch is a diagram describing a profile to be applied to a feature in order to produce a shape. It can be either \"positive\" or \"additive\", like a pad for example; or \"negative\" or \"subtractive\", like a pocket.
+Na árvore da aba Modelo, clique em *Body* com o botão direito do mouse. Selecione Renomear e digite um nome, por exemplo \"Body part1\" e pressione **Enter** para validar.
 
-Here, since the part\'s general shape is regular along the Y axis, we will create the Pad along this axis.
+**Criando um esboço:**
 
-Press <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [New sketch](Sketcher_NewSketch.md). The Combo View now switches to the **Tasks** tab and displays the *Select feature* dialog. This dialog expects the selection of a plane to which to attach our sketch, and lists the available planes. Select *XZ_Plane (Base plane)* and press **OK**. The interface now changes, the Sketcher now takes over and its toolbars appear above the 3D view. We find ourselves on the XZ plane of the body to trace the sketch.
+Vamos agora traçar o esboço que define a forma geral da peça. Um esboço é um diagrama que descreve um perfil a ser aplicado a um recurso para produzir uma forma. Pode ser \"positivo\" ou \"aditivo\", como um bloco, por exemplo; ou \"negativo\" ou \"subtrativo\", como um bolso.
 
-To aid with sketching, set the following options in \"Edit controls\" in the Tasks panel to the left:
+Aqui, como a forma geral da peça é regular ao longo do eixo Y, criaremos o bloco ao longo deste eixo.
 
--   Show grid: checked
--   Grid size: 10 mm
--   Auto constraints: checked
+Pressione <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Criar um esboço](Sketcher_NewSketch.md). A tela combinada agora muda para a aba **Tarefas** e exibe a caixa de diálogo *Selecione um objeto*. Esta caixa de diálogo espera a seleção de um plano ao qual anexar nosso esboço e lista os planos disponíveis. Selecione *XZ_Plane (Plano de base)* e clique em **OK**. A interface agora muda, o Sketcher (ferramenta de desenho) agora assume e suas barras de ferramentas aparecem acima da visualização 3D. Estamos no plano XZ do corpo para traçar o esboço.
 
-We will trace the following sketch:
+Para ajudar no esboço, defina as seguintes opções em \"Controles de edição\" na aba Tarefas à esquerda:
+
+-   Mostrar grade: marcado
+-   Tamanho da grade: 10 mm
+-   Restrições automáticas: marcado
+
+Traçaremos o seguinte esboço:
 
 ![](images/GGTuto1_0.PNG )
 
-**Let\'s start with the first segments:**
+**Vamos começar com os primeiros segmentos:**
 
-Select the <img alt="" src=images/Sketcher_Line.svg  style="width:24px;"> [Line](Sketcher_CreateLine.md) tool. Click on the origin point, first making sure that a small red dot appears besides and to the right of the mouse pointer. Click next on the X axis about 10 squares to the right or at about 100 mm. If the segment is not exactly 100 mm at this point, it does not matter, we will later give it a fixed dimension that will constrain this length.
+Selecione a ferramenta <img alt="" src=images/Sketcher_Line.svg  style="width:24px;"> [Criar linha](Sketcher_CreateLine.md). Clique no ponto de origem, primeiro certificando-se de que um pequeno ponto vermelho apareça ao lado e à direita do ponteiro do mouse. Clique em seguida no eixo X cerca de 10 quadrados à direita ou cerca de 100 mm. Se o segmento não tiver exatamente 100 mm neste ponto, não importa, depois daremos a ele uma dimensão fixa que garantirá esse comprimento.
 
-Do the same for the other segments, try to aim at the points that you have created which must light up in yellow. Which means that these points will be coincident. You should get pretty much this:
+Faça o mesmo para os outros segmentos, tente mirar nos pontos que você criou que devem acender em amarelo. O que significa que esses pontos serão coincidentes. Você deve obter algo assim:
 
 ![](images/GGTuto1_1.PNG )
 
-Note the small red lines above and beside the segments you have drawn: these are horizontal and vertical constraints. Your lines are forced to stay either horizontal or vertical. Note also the symbol in the form of a small arc on the left: it means that the point is fixed to the Z axis.
+Observe as pequenas linhas vermelhas acima e ao lado dos segmentos que você desenhou: são restrições horizontais e verticais. Suas linhas são forçadas a ficar na horizontal ou na vertical. Observe também o símbolo em forma de um pequeno arco à esquerda: significa que o ponto está fixo no eixo Z.
 
-Now pick different line segments with the left mouse button and while keeping the left button pressed, drag the mouse to try to move them: some are free, others not.
+Agora escolha diferentes segmentos de linha com o botão esquerdo do mouse e, mantendo o botão esquerdo pressionado, arraste o mouse para tentar movê-los: alguns são livres, outros não.
 
-**Applying constraints:**
+**Aplicando restrições:**
 
-At the top of the combo box, in the Tasks panel, you can read the number of degrees of freedom of the already sketched elements: it must be about 6, the objective of the constraints is to reduce the number of degrees of freedom to 0.
+Na parte superior da Tela combinada, nas Mensagens no painel Tarefas, você pode ler o número de graus de liberdade (DoF - do inglês \"Degrees of Freedom\") dos elementos já esboçados: deve ser cerca de 6. O objetivo das restrições é reduzir o número de graus de liberdade para 0.
 
-The slanted line should be free to rotate at this time: we will give it an angle constraint to fix it.
+A linha inclinada deve estar livre para girar neste momento: daremos a ela uma restrição de ângulo para corrigi-la.
 
-Click on the slanted line, then the bottom line; once selected these lines will turn dark green; then click the <img alt="" src=images/Constraint_InternalAngle.svg  style="width:24px;"> [Constrain internal angle](Sketcher_ConstrainAngle.md) icon.
+Clique na linha inclinada e depois na linha inferior; uma vez selecionadas, essas linhas ficarão verdes escuras; então clique no ícone <img alt="" src=images/Constraint_InternalAngle.svg  style="width:24px;"> [Ângulo de restrição](Sketcher_ConstrainAngle.md).
 
 ![](images/GGTuto1_2.PNG )
 
-Enter a value of 30°. Both lines have a fixed angle now. The constraint was created to the left of the sketch; with the mouse, move it inside the profile.
+Insira um valor de 30°. As linhas têm um ângulo fixo agora. A restrição foi criada à esquerda do esboço; com o mouse, mova-a para dentro do perfil.
 
-We will now constrain the bottom line with a dimension: select it then click on <img alt="" src=images/Constraint_HorizontalDistance.svg  style="width:24px;"> [Constrain horizontal distance](Sketcher_ConstrainDistanceX.md).
+Vamos agora restringir o tamanho da linha inferior: selecione-a e clique em <img alt="" src=images/Constraint_HorizontalDistance.svg  style="width:24px;"> [Restrição de distância horizontal](Sketcher_ConstrainDistanceX.md).
 
-Enter a value of 100 mm. The vertical line on the right now aligns exactly with the grid\'s 10th square to the right of the origin.
+Digite um valor de 100 mm. A linha vertical à direita agora se alinha exatamente com o 10º quadrado da grade à direita da origem.
 
-Let\'s set the overall height to the profile by selecting the highest point on the left then the origin point. Click on <img alt="" src=images/Constraint_VerticalDistance.svg  style="width:24px;"> [constrain vertical distance](Sketcher_ConstrainDistanceY.md), enter a value of 50 mm.
+Vamos definir a altura geral do perfil selecionando o ponto mais alto à esquerda e depois o ponto de origem. Clique em <img alt="" src=images/Constraint_VerticalDistance.svg  style="width:24px;"> [Restrição a distância vertical](Sketcher_ConstrainDistanceY.md) e insira um valor de 50 mm.
 
-Do the same for the horizontal length of the sloped line with another 50 mm horizontal distance constraint.
+Faça o mesmo para o comprimento horizontal da linha inclinada com outra restrição de distância horizontal de 50 mm.
 
-Move the dimensions away from the profile for better visibility. You should now have something like this:
+Afaste as dimensões do perfil para melhor visibilidade. Deve ficar parecido com isso:
 
 ![](images/GGTuto1_3.PNG )
 
-Notice that the number of degrees of freedom reduced to 2. These are the ends still open.
+Observe que o número de graus de liberdade foi reduzido para 2. São as extremidades ainda abertas.
 
-**Tracing the arc**
+**Traçando o arco**
 
-Click on <img alt="" src=images/Sketcher_Arc.svg  style="width:24px;"> [Arc](Sketcher_CreateArc.md), position the center at approximately x = 80 y = 30; then click to define the first starting point of the arc on the upper horizontal line\'s right end point; then click to define the end of the arc to the right vertical line\'s upper end point (make sure the points are highlighted in yellow before clicking).
+Clique em <img alt="" src=images/Sketcher_Arc.svg  style="width:24px;"> [Criar arco](Sketcher_CreateArc.md), posicione o centro em aproximadamente x = 80 y = 30; em seguida, clique para definir o primeiro ponto inicial do arco no ponto final direito da linha horizontal superior; em seguida, clique para definir o final do arco para o ponto final superior da linha vertical direita (certifique-se de que os pontos estejam destacados em amarelo antes de clicar).
 
-Give the radius a radius constraint: select the arc, then click on <img alt="" src=images/Constraint_Radius.svg  style="width:24px;"> [Constrain radius](Sketcher_ConstrainRadius.md) then enter a value of 20 mm.
+Dê ao raio uma restrição de raio: selecione o arco, então clique em <img alt="" src=images/Constraint_Radius.svg  style="width:24px;"> [Restrição de raio](Sketcher_ConstrainRadius.md) e então insira um valor de 20 mm.
 
-Now let\'s make the arc tangent to the lines it\'s connected to: select the arc, then the top line, then click on <img alt="" src=images/Constraint_Tangent.svg  style="width:24px;"> [Constrain tangent](Sketcher_ConstrainTangent.md). A *Constraint substitution* message appears, click **OK**. Do the same for the tangent constraint on the other side of the arc.
+Agora vamos fazer o arco tangente às linhas às quais ele está conectado: selecione o arco, a linha superior e clique em <img alt="" src=images/Constraint_Tangent.svg  style="width:24px;"> [Restrição tangente](Sketcher_ConstrainTangent.md). Uma mensagem *Substituição de restrição* aparece, clique em **OK**. Faça o mesmo para a restrição de tangente no outro lado do arco.
 
-We proceeded in two stages to create the sketch, but we could also have traced the profile completely before constraining it fully.
+Procedemos em duas etapas para criar o esboço, mas também poderíamos ter traçado o perfil completamente antes de restringi-lo totalmente.
 
-**Fully constrained sketch:**
+**Esboço totalmente restrito:**
 
-If you worked well, you should get this:
+Se você trabalhou direitinho, deve ter algo assim:
 
 ![](images/GGTuto1_4.PNG )
 
-The sketch has become green, which means that it is fully constrained. There is no longer any ambiguity, everything is perfectly defined. This is confirmed by the solver message at the top left. Also note that the center of the arc has moved slightly, indeed giving these last three constraints, FreeCAD has calculated the true position of the center.
+O esboço ficou verde, o que significa que está totalmente restrito. Não há mais ambiguidade, tudo está perfeitamente definido. Isso se confirma pela mensagem do solucionador no canto superior esquerdo. Observe também que o centro do arco se moveu ligeiramente, de fato. Devido a essas três últimas restrições, o FreeCAD calculou a verdadeira posição do centro.
 
-If your sketch is not yet green, one or more points are not coincident (2 points can be superimposed yet not be coincident). Make a small window (capture window) around a point to select, and create a <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:24px;"> [Coincident constraint](‎Sketcher_ConstrainCoincident.md). 
-*Note: don\'t mistake the Coincident constraint for the Sketcher Point; while their icons are very similar, the latter has a larger icon; it adds a lone point in the sketch.*
+Se o seu esboço ainda não estiver verde, um ou mais pontos não são coincidentes (2 pontos podem ser sobrepostos, mas não coincidentes). Faça uma pequena janela (janela de captura) ao redor de um ponto para selecionar e crie uma [24px](Arquivo:Constraint_PointOnPoint.svg.md) [Restrição de coincidência](u200eSketcher_ConstrainCoincident.md). *Observação: não confunda a restrição de coincidência com Criar ponto; embora seus ícones sejam semelhantes, o último tem um ícone maior; adiciona um ponto solitário no esboço.*
 
-Proceed in the same way with all the points.
+Proceda da mesma forma com todos os pontos.
 
-If your sketch is still not green, verify that all lines (but the slanted one) have either a <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> [Horizontal](Sketcher_ConstrainHorizontal.md) or <img alt="" src=images/Constraint_Vertical.svg  style="width:24px;"> [Vertical](Sketcher_ConstrainVertical.md) constraint, and add if necessary.
+Se o seu esboço ainda não estiver verde, verifique se todas as linhas (exceto a inclinada) têm restrição <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> [Horizontal](Sketcher_ConstrainHorizontal.md) ou [24px ](File:Constraint_Vertical.svg.md) [Vertical](Sketcher_ConstrainVertical.md) e adicione se necessário.
 
-### Using Pad and Pocket features 
 
-Click on **Close** in the Tasks tab, at the top left corner. We automatically exit the Sketcher workbench, and the Part Design workbench is activated again. The Combo View switches back to the Model tab. If you left your *Body part1* expanded, you will see a new **Sketch** element below *Origin*, and nested under the Body.
 
-At this point, let\'s save our document. Give it a name (for example \"tutorial1\", or any name that you find relevant). It is good practice to save your document often, for example after completing a sketch or a feature.
+### Usando os recursos Preencher e Perfuração 
 
-Click on <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> **Isometric view** then <img alt="" src=images/Std_ViewFitAll.svg  style="width:24px;"> [Fit all](Std_ViewFitAll.md), which gives a centered 3D isometric view.
+Clique em **Close** (fechar) na guia Tarefas, no canto superior esquerdo. Saímos automaticamente da bancada Sketcher e a bancada Part Design é ativada novamente. A Tela combinada volta para a aba Modelo. Se você deixou seu *Body part1* expandido, você verá um novo elemento **Sketch** abaixo de *Origin* e aninhado sob o *Body part1*.
 
-Click on <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [Pad](PartDesign_Pad.md), enter a length of 30 mm. Click **OK**, the shape is completed. In the Model tree, a **Pad** object (that we call feature) appears instead of the Sketch. In fact, it has claimed Sketch, since it is based on it; clicking on the arrow or plus sign in front of *Pad* to expand it will reveal the Sketch underneath, which was automatically made hidden (its label is grayed out).
+Neste ponto, vamos salvar nosso documento. Dê um nome a ele (por exemplo, \"tutorial1\" ou qualquer nome que você ache interessante). É uma boa prática salvar seu documento com frequência, por exemplo, depois de concluir um esboço ou um recurso.
 
-Note that the shape created forms a solid.
+Clique em <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> **Isométrico** e depois em <img alt="" src=images/Std_ViewFitAll.svg  style="width:24px;"> [Enquadrar tudo](Std_ViewFitAll.md) e ficamos com uma visão 3D isométrica centralizada.
+
+Clique em <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [Preencher](PartDesign_Pad.md), insira um comprimento de 30 mm. Clique em **OK**. A forma está completa. Na árvore, um objeto **Pad** (que chamamos de recurso) aparece no lugar do *Sketch*. Na verdade, reivindicou o *Sketch*, já que é baseado nele; clicar na seta ou no sinal de mais na frente de *Pad* para expandi-lo revelará o *Sketch* abaixo, que foi automaticamente ocultado (seu rótulo fica esmaecido).
+
+Observe que a forma criada forma um sólido.
 
 ![](images/GGTuto1_5.PNG )
 
-**Creating the hole**
+**Criando o buraco**
 
-Click on the top (square) side of the part and click the <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> icon to create a new sketch. FreeCAD creates a new sketch attached to this face. So we are on a plane parallel to the absolute plane XY, but offset in height from the height of the piece, i.e. 50 mm.
+Clique no lado superior (quadrado) da peça e clique no ícone <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> para criar um novo esboço. O FreeCAD cria um novo esboço anexado a esta face. Portanto, estamos em um plano paralelo ao plano absoluto XY, mas deslocado em altura da altura da peça, ou seja, 50 mm.
 
-You can switch the 3D window to an isometric view <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> or stay in top view <img alt="" src=images/Std_ViewTop.svg  style="width:24px;">. At any time, you can return to Sketch view (the view is oriented to face the sketch plane) using the <img alt="" src=images/Sketcher_ViewSketch.svg  style="width:24px;"> [Sketcher ViewSketch](Sketcher_ViewSketch.md) icon.
+Você pode mudar a visualização 3D para uma vista isométrica <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> ou ficar na vista superior <img alt="" src=images/Std_ViewTop.svg  style="width:24px;">. A qualquer momento, você pode retornar à visualização Sketch (a visualização é orientada para enfrentar o plano do sketch) usando o ícone <img alt="" src=images/Sketcher_ViewSketch.svg  style="width:24px;"> [Ver esboço](Sketcher_ViewSketch/pt-br.md).
 
-Note that the origin of this new sketch is that of the body. They may be different, but here are confounded with the absolute origin.
+Observe que a origem desse novo esboço é a do corpo. Podem ser diferentes, mas aqui se confundem com a origem absoluta.
 
-With the <img alt="" src=images/Sketcher_Circle.svg  style="width:24px;"> [Circle](Sketcher_CreateCircle.md) tool, click roughly in the center of the face and make a circle of any radius.
+Com a ferramenta <img alt="" src=images/Sketcher_Circle.svg  style="width:24px;"> [Criar círculo](Sketcher_CreateCircle.md), clique mais ou menos no centro da face e faça um círculo de qualquer raio.
 
-Select the circle then create a <img alt="" src=images/Constraint_Radius.svg  style="width:24px;"> [Radius constraint](Sketcher_ConstrainRadius.md), enter a value of 5 mm.
+Selecione o círculo e crie uma <img alt="" src=images/Constraint_Radius.svg  style="width:24px;"> [Restrição de raio](Sketcher_ConstrainRadius.md), insira um valor de 5 mm.
 
-Select the center of the circle then create a <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Lock constraint](Sketcher_ConstrainLock.md); double-click on the horizontal dimension and enter -65 mm (here we indicate a position relative to the origin of the sketch). Do the same for the vertical dimension (15 mm). The circle takes its correct position and the sketch becomes green, indicating it is fully constrained:
+Selecione o centro do círculo e crie uma <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Restrição de bloqueio](Sketcher_ConstrainLock.md); clique duas vezes na dimensão horizontal e insira -65 mm (aqui indicamos uma posição relativa à origem do esboço). Faça o mesmo para a dimensão vertical (15 mm). O círculo assume sua posição correta e o esboço fica verde, indicando que está totalmente restrito:
 
 ![](images/GGTuto1_6.PNG )
 
-Close the sketch; in the Model tree, a new **Sketch001** object has appeared below Pad. While Sketch001 is still selected, click on <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [Pocket](PartDesign_Pocket.md).
+Feche o esboço; na árvore um novo objeto **Sketch001** apareceu abaixo de *Pad*. Enquanto *Sketch001* ainda estiver selecionado, clique em <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [Perfuração](PartDesign_Pocket.md).
 
-Pocket is a feature called \"subtractive\", it removes material from our part, here in the form of a cylinder since the sketch is a circle. Set \"Through all\" to completely cut the part. Press **OK** to complete. In the Model tree, a new element labelled **Pocket** appears at the bottom of the Body part1, and claims Sketch001.
+Perfuração é um recurso chamado \"subtrativo\", ele retira material da nossa peça, aqui na forma de um cilindro já que o esboço é um círculo. No \"Tipo\" defina \"Atravessando de tudo\" para cortar completamente a peça. Pressione **OK** para concluir. Na árvore um novo elemento rotulado **Pocket** aparece na parte inferior do *Body part1* e reivindica *Sketch001*.
 
-### Changing color and transparency 
 
-It is possible to change the color of the part, it is often useful to distinguish a part among others. The transparency of the piece can also be modified, which is useful for visualizing its internals.
 
-Select the **Body part1** body; make sure that the Model tab of the Combo View is selected and go to the lower part of the Combo View, then click on the View tab; locate the *Shape Color* property; you may need to use the vertical scroll bar to the right to find it. *You can also widen the Property column: hover your mouse pointer over the separating line between the*Property*and*Value*headers; when the pointer turns into a double-sided arrow, press and hold your left mouse button and drag sideways, then release.* In the right column, click on the gray square, which opens the **Select Color** dialog. Pick another color then click OK. Next, again in the View tab, change the value of Transparency, for example to 50 and press **Enter** to complete (0 = totally opaque, 100 = totally transparent).
+### Mudando cor e transparência 
 
-The hole is now visible inside the part. This is often useful for seeing the hidden or internal faces of the model.
+É possível alterar a cor da peça, muitas vezes é útil distinguir uma peça entre outras. A transparência da peça também pode ser modificada, o que é útil para visualizar seu interior.
 
-You can also vary \"Line Color\" and \"Line Width\" to change the line thickness and the color of the part outline.
+Selecione o corpo **Body part1**; certifique-se de que a aba Modelo da Tela combinada esteja selecionada e, na parte inferior dela, clique na aba *Vista*; localize a propriedade *Shape Color*; pode ser necessário usar a barra de rolagem vertical à direita para encontrá-la. Você também pode ampliar a coluna *Propriedade*: passe o mouse sobre a linha de separação entre os cabeçalhos *Propriedade* e *Valor*; quando o ponteiro se transformar em uma seta de dois lados, pressione e segure o botão esquerdo do mouse, arraste para o lado e solte. Na coluna da direita, clique no quadrado cinza, que abre a caixa de diálogo **Select color** . Escolha outra cor e clique em OK. Em seguida, novamente na aba *Vista*, altere o valor de *Transparency*, por exemplo para 50 e pressione **Enter** para concluir (0 = totalmente opaco, 100 = totalmente transparente).
 
-### Manually move the part 
+O furo agora está visível dentro da peça. Isso geralmente é útil para ver as faces ocultas ou internas do modelo.
 
-Go to the *View* menu and select *Toggle axis cross*. These are the absolute axes. You should see in the 3D view, the 3 axes X, Y, Z in red, green and blue. This landmark will help us to orient ourselves in space. This landmark is fixed and immutable, it is either the view that rotates or the object that rotates in this space.
+Você também pode variar \"Line Color\" e \"Line Width\" para alterar a espessura da linha e a cor do contorno da peça.
 
-Select the Body; at the bottom of the Combo View on the left, you can see this (the *Data* tab needs to be on the foreground, you may need to click on the *Data* tab to make it visible):
+### Mova a peça manualmente 
+
+Vá para o menu *Vista* e selecione *Ligar/desligar símbolo de eixos*. Estes são os eixos absolutos. Você deve ver na visualização 3D os 3 eixos X, Y, Z em vermelho, verde e azul. Este marco nos ajudará a nos orientar no espaço. Este marco é fixo e imutável, ou é a vista que gira ou o objeto que gira neste espaço.
+
+Selecione **Body part1**. Na parte inferior da Tela combinada à esquerda, você verá isso (a guia *Dados* precisa estar selecionada, talvez seja necessário clicar nela):
 
 ![](images/GGTuto1_10.PNG )
 
-Click on the three small dots, i.e., the ellipsis (if they don\'t appear, click on the Value section of the **Placement** field); this opens a new dialog in the Tasks panel. Using the arrows you can vary the position and angles of the part. It is actually the position of the body (so its origin) that moves in space, the orientation of the 3D view does not change.
+Clique nos três pontinhos, ou seja, nas reticências (caso não apareçam, clique no *Valor* do campo **Posicionamento**). Isso abre uma nova caixa de diálogo na aba *Tarefas*. Usando as setas você pode variar a posição e os ângulos da peça. Na verdade, é a posição do corpo (portanto, sua origem) que se move no espaço, a orientação da visualização 3D não muda.
 
-Another method: in the Combo View, select the Body and click on the right button of the mouse, then select *Transform*. A view like this appears:
+Outro método: na Tela combinada, selecione o **Body part1** e clique com o botão direito do mouse, depois selecione *Transformar*. Uma visão como esta aparece:
 
 ![](images/GGTuto1_11.PNG )
 
-Hold and drag the cones along the axes or the spheres to move the body in all directions.
+Segure e arraste os cones ao longo dos eixos ou das esferas para mover o corpo em todas as direções.
 
-Validate. Then reset angles and coordinates to 0.
+Verifique, em seguida, redefina os ângulos e as coordenadas para 0.
 
-### Displaying reference dimensions in the sketch 
 
-It may be useful to know the dimensions of some parts of the sketch, from the internal calculation of FreeCAD. It can be used just for reference, or use them later to set other dimensions for example.
 
-In the Model tree, if necessary expand *Body part1* then *Pad* to show the first Sketch. Double-click on it (or right-click and select *Edit sketch* in the contextual menu) then click on <img alt="" src=images/Sketcher_ToggleConstraint.svg  style="width:24px;"> [Toggle Constraint](Sketcher_ToggleDrivingConstraint.md). (**Note:** depending on your computer display resolution, this icon may not be visible. At the right end of the Constraints toolbar, you may find a **»** button. Click on it to expand and access collapsed icons.) From now on, we can create reference dimensions rather than dimensional constraints: they will be blue and will have no influence on the shapes of the sketch from which they come, they are calculated automatically.
+### Exibindo dimensões de referência no esboço 
 
-You can display these dimensions for example:
+Pode ser útil conhecer as dimensões de algumas partes do desenho a partir do cálculo interno do FreeCAD. Isso pode ser usado apenas para referência, ou posteriormente para definir outras dimensões, por exemplo.
+
+Na árvore da aba *Modelo*, se necessário, expanda *Body part1* e depois *Pad* para mostrar o primeiro *Sketch*. Clique duas vezes nele (ou clique com o botão direito do mouse e selecione *Editar esboço* no menu que se abre). Clique em <img alt="" src=images/Sketcher_ToggleConstraint.svg  style="width:24px;"> [Ativar/desativar restrição atuante ou de referência](Sketcher_ToggleDrivingConstraint.md). (**Nota:** dependendo da resolução do seu monitor, este ícone pode não estar visível. Na extremidade direita da barra de ferramentas *Restrições*, você pode encontrar um botão **»**. Clique nele para expandir e acessar os ícones recolhidos.) A partir de agora, podemos criar dimensões de referência em vez de restrições dimensionais: elas serão azuis e não terão influência nas formas do esboço de onde vêm, elas são calculadas automaticamente.
+
+Note que as ferramentas de restrição (de distância horizontal, etc) mudaram para cor azul. Proceda como na criação de restrições normais, mas agora as informações serão apenas apresentadas e não estarão restringindo a peça de verdade. Você pode exibir essas dimensões, por exemplo:
 
 ![](images/GGTuto1_7.PNG )
 
-We can see for example that the arc has a length of 20 since it\'s tangent with the edges.
+Podemos ver, por exemplo, que o arco tem um comprimento de 20, pois é tangente às arestas.
 
-We can also see that FreeCAD calculates the left face (50-50xTAN 30 °), as well as the distance dimension of the axis of the arc with the origin.
+Também podemos ver que o FreeCAD calcula a face esquerda (50-50xTAN(30°)), bem como a dimensão da distância do eixo do arco com a origem.
 
-### Editing one or more dimensions 
 
-During modeling, you can vary the dimensions of the model. It\'s very simple: for the thickness of the piece, double-click Pad, then enter a new value, 40mm for example. In the lower part of the combo view, you can change this value as well. Validate, the shape of the object has changed.
 
-Do the same for the total length of the piece: double-click on Sketch, then double-click on the 100 mm dimensional constraint, change it to 110 mm then validate.
+### Editando uma ou mais dimensões 
 
-We can see that the piece was enlarged, but the hole is no longer centered in the middle of the top face. That\'s because it has been constrained to the sketch origin. Which does not necessarily correspond to what one would like, the hole should remain in the center, whatever the size of the face.
+Durante a modelagem, você pode variar as dimensões do modelo. É muito simples: para a espessura da peça, clique duas vezes em *Pad* e insira um novo valor, 40 mm, por exemplo. Na parte inferior da *Tela combinada* você também pode alterar esse valor. Verifique que a forma do objeto mudou.
 
-### Center the hole 
+Faça o mesmo para o comprimento total da peça: clique duas vezes em Sketch, depois clique duas vezes na restrição dimensional de 100 mm, altere para 110 mm e confirme.
 
-**First method using external geometry.**
+Podemos ver que a peça foi ampliada, mas o furo não está mais centrado no meio da face superior. Isso ocorre porque ele foi restrito à origem do esboço. O que não corresponde necessariamente ao que se gostaria. O buraco deve ficar no centro, seja qual for o tamanho da face.
 
-Edit again the sketch of the hole and erase its horizontal and vertical distance constraints.
+### Centralizando o buraco 
 
-Then click on <img alt="" src=images/Sketcher_External.svg  style="width:24px;"> [External Geometry](Sketcher_External.md).
+**Primeiro método usando geometria externa**
 
-We will now create two lines in the sketch, but extracted from a shape (or feature) external to this one and previously defined: that of the Pad.
+Edite novamente o esboço do furo e apague suas restrições de distância horizontal e vertical.
 
-Click on a vertical edge at the top of the part. For example, the edge slope side.
+Em seguida, clique em <img alt="" src=images/Sketcher_External.svg  style="width:24px;"> [Geometria externa](Sketcher_External.md).
 
-A new magenta line will appear above the edge. Repeat for the other edge, on the rounded side.
+Vamos agora criar duas linhas no esboço, mas extraídas de uma forma (ou recurso) externa a esta e previamente definida: a do Pad.
 
-We can now use these lines (and especially their end points) to centre the circle, however we must add two construction lines: for example the diagonals.
+Clique em uma aresta vertical na parte superior da peça. Por exemplo, o lado da inclinação da borda.
 
-Click on <img alt="" src=images/Sketcher_AlterConstruction.svg  style="width:24px;"> [Construction Mode](Sketcher_ToggleConstruction.md), we switch to construction mode: the lines will be blue and will be discarded outside of the sketch editing mode. They will allow to fix the center of the circle. Create the diagonals in the same way that you drew the first lines. Make sure all points are coincident.
+Uma nova linha magenta aparecerá acima da aresta. Repita para a outra borda, no lado arredondado.
 
-Then select the center of the circle, then the two blue diagonal lines and click on <img alt="" src=images/Constraint_PointOnObject.svg  style="width:24px;"> [Point on object](Sketcher_ConstrainPointOnObject.md), the circle must be centred at the intersection of the diagonals, that is at the center of the face. The sketch must be green, completely constrained (it is essential). Note that besides the radius of the circle, it is no longer necessary to create dimensional constraints.
+Agora podemos usar essas linhas (especialmente os pontos em suas extremidades) para centralizar o círculo, porém devemos adicionar duas linhas de construção: por exemplo, as diagonais.
 
-Please note that in addition to switching the the toolbar to construction mode, the <img alt="" src=images/Sketcher_AlterConstruction.svg  style="width:24px;"> [Construction Mode](Sketcher_ToggleConstruction.md) button can also switch individual Sketcher elements to construction mode if they have been selected. If you accidentally switch an element to construction mode, you may get an error when you exit the sketch.
+Clique em <img alt="" src=images/Sketcher_AlterConstruction.svg  style="width:24px;"> [Ativa/desativa geometria de construção](Sketcher_ToggleConstruction.md). Mudamos para o modo de construção: as linhas ficarão azuis e serão descartadas fora do modo de edição do esboço. Eles permitirão fixar o centro do círculo. Note que a cor dos ícones nas ferramentas também ficam azuis, indicando que estamos nesse modo. Crie as diagonais da mesma forma que desenhou as primeiras linhas. Certifique-se de que todos os pontos são coincidentes.
+
+Em seguida, selecione o centro do círculo, depois as duas linhas diagonais azuis e clique em <img alt="" src=images/Constraint_PointOnObject.svg  style="width:24px;"> [Restringir um ponto sobre um objeto](Sketcher_ConstrainPointOnObject.md), o círculo deve ser centralizado na interseção das diagonais, que está no centro da face. O croqui deve ser verde, totalmente restringido (é essencial). Observe que além do raio do círculo, não é mais necessário criar restrições dimensionais.
+
+Observe que, além de alternar a barra de ferramentas para o modo de construção, o botão <img alt="" src=images/Sketcher_AlterConstruction.svg  style="width:24px;"> [Ativa/desativa geometria de construção](Sketcher_ToggleConstruction.md) também pode alternar elementos individuais do Sketcher para o modo de construção, caso tenham sido selecionados. Se você acidentalmente alternar um elemento para o modo de construção, poderá obter um erro ao sair do esboço.
 
 ![](images/GGTuto1_8.PNG )
 
-Leave the sketch, we see that the circle is well centred. (The pocket feature was not deleted, but modified). If you change the dimensions of the part again, the thickness or the length, the circle will remain centered on the face.
+Saindo do esboço, vemos que o círculo está bem centrado. (O recurso de bolso não foi excluído, mas modificado). Se você alterar novamente as dimensões da peça, a espessura ou o comprimento, o círculo permanecerá centralizado na face.
 
-**Avoid construction lines:**
+**Evite linhas de construção:**
 
-It is often possible to avoid creating construction lines. You can edit the sketch again, erase the construction lines and use a <img alt="" src=images/Constraint_Symmetric.svg  style="width:24px;"> [Symmetric constraint](Sketcher_ConstrainSymmetric.md) between the two opposite vertices of the external geometry lines and the centre of the circle (select points in this order):
+Muitas vezes é possível evitar a criação de linhas de construção. Você pode editar o esboço novamente, apagar as linhas de construção e usar um <img alt="" src=images/Constraint_Symmetric.svg  style="width:24px;"> [Restrição simétrica](Sketcher_ConstrainSymmetric.md) entre os dois vértices opostos das linhas geométricas externas e o centro do círculo (selecione os pontos nesta ordem):
 
 ![](images/GGTuto1_12.PNG )
 
-We get exactly the same result for the position of the hole. In fact, thanks to the constraints available in the Sketcher workbench, there are many possible methods. This example shows that it is often better to choose the simplest method, thus limiting the number of objects created as well as the errors that might result.
+Obtemos exatamente o mesmo resultado para a posição do furo. De fato, graças às restrições disponíveis no ambiente de trabalho do Sketcher, existem muitos métodos possíveis. Este exemplo mostra que muitas vezes é melhor escolher o método mais simples, limitando assim o número de objetos criados, bem como os erros que podem surgir.
 
-**Second method using a datum plane.**
+**Segundo método usando um plano de referência.**
 
-Here is another, faster method that is possible since version 0.17: the use of a datum plane and its attachment.
+Aqui está outro método mais rápido, possível desde a versão 0.17: o uso de um plano de referência e sua conexão.
 
-Start by erasing the \"Pocket\" function as well as the sketch of the hole. Select the top face and click <img alt="" src=images/PartDesign_Point.svg  style="width:24px;"> [Datum point](PartDesign_Point.md): create a datum point in the active body. The attachment mode chosen must be \"Center of mass\".
+Comece apagando o \"Pocket\", bem como o esboço do furo. Selecione a face superior e clique em <img alt="" src=images/PartDesign_Point.svg  style="width:24px;"> [Criar um ponto de partida](PartDesign_Point.md): crie um ponto de referência no corpo ativo. O modo de fixação escolhido deve ser \"Centro de massa\".
 
-As the face is rectangular, its center of mass corresponds to the center of its diagonals. Validate, and a datum point is created.
+Selecione a face superior novamente e enquanto mantém pressionada a tecla CTRL, selecione o ponto que você acabou de criar na árvore Modelo, solte CTRL e clique em [24px](Arquivo:PartDesign_Plane.svg.md) [Criar um plano de referência](PartDesign_Plane.md). Um plano de referência é criado com a origem do ponto. Clique OK.
 
-Select the top face again and while holding down the CTRL key, select the point you just created in the Model tree, release CTRL and click <img alt="" src=images/PartDesign_Plane.svg  style="width:24px;"> [Datum plane](PartDesign_Plane.md). A reference plane is created with the origin of the point. Click OK.
+Agora é muito fácil centralizar o círculo! Selecione na árvore ou na visualizaçao 3D o plano que você criou e clique em <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Criar um esboço](Sketcher_NewSketch.md), um esboço (Sketch) é criado tendo, como origem, a origem do plano. Depois é só traçar o círculo de 5 mm de raio nessa origem, depois validar (o esboço deve estar obrigatoriamente verde).
 
-It is now very easy to center the circle! Select from the Model tree or in the 3D view the plane you created, and click on <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Create a sketch](Sketcher_NewSketch.md), a sketch is created with as origin, the origin of the plane. Then just trace the 5 mm radius circle on this origin, then validate (the sketch must be green imperatively).
-
-You get with \"Pocket\", as created previously, the hole and it will always be centered.
+Você obtém o furo com a \"Perfuração\", conforme criado anteriormente e ele sempre estará centralizado.
 
 ![](images/GGTuto1_9.PNG )
 
-This tutorial is completed, save this file, you can have fun exploring various features. Change other dimensions, make other shapes, put other holes on other faces, it is when making mistakes that we progress!
+Este tutorial está concluído, salve este arquivo. Você pode se divertir explorando vários recursos. Mudar outras dimensões, fazer outras formas, colocar outros buracos em outras faces. É errando que a gente evolui!
 
-You can also continue with this other tutorial of a slightly more complicated part:
+Você também pode continuar com este outro tutorial de uma peça um pouco mais complicada:
 
-[Basic Part Design Tutorial](Basic_Part_Design_Tutorial.md)
+[Tutorial de Projeto Básico de Peças](Basic_Part_Design_Tutorial/pt-br.md)
 
 
- {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+{{PartDesign Tools navi
+
+}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Creating a simple part with PartDesign/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Creating a simple part with PartDesign/pt-br

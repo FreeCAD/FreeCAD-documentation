@@ -204,10 +204,10 @@ Eticheta de pe butonul dvs. poate fi diferită, în funcție de versiunea dvs. �
 Instrucțiunile de mai sus vor funcționa, indiferent de eticheta pe care o are butonul.
 
 
-  {{Userdocnavi
+ {{Userdocnavi
 ---
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Basic modeling tutorial/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Basic modeling tutorial/ro

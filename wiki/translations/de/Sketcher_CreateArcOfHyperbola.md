@@ -11,11 +11,15 @@
 
 # Sketcher CreateArcOfHyperbola/de
 
+
+
 ## Beschreibung
 
 Dieses Werkzeug erstellt einen Hyperbelbogen mit Mittelpunkt, Scheitelpunkt (Hauptradius) und Endpunkten.
 
 ![](images/Sketcher_Arc_of_Hyperbola_01.png )
+
+
 
 ## Anwendung
 

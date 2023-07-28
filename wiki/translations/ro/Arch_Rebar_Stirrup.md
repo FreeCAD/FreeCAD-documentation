@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -37,6 +39,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -71,6 +75,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 *Taskview panel for the Arch Rebar Stirrup tool*
 
+
+
 ## Proprietăți
 
 -    **Front Cover**: Distanța dintre armături și fațetele selectate.
@@ -92,12 +98,19 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 -    **Spacing**: Distanța dintre acele fiecărei bare.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Scrip-Programare 
 
 
 </div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -124,6 +137,8 @@ Rebar = makeStirrup(l_cover, r_cover, t_cover, b_cover, f_cover,
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

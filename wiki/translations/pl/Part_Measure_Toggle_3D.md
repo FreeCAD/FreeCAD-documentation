@@ -1,22 +1,27 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Part Measure Toggle 3D
-   MenuLocation:Measure → Toggle 3D
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part Measure Toggle All](Part_Measure_Toggle_All.md), [Part Measure Toggle Delta](Part_Measure_Toggle_Delta.md)
+   Name/pl:Część: Włącz / wyłącz widok pomiarów 3D
+   MenuLocation:Pomiary → Włącz / wyłącz widok pomiarów 3D
+   Workbenches:[Część](Part_Workbench/pl.md)
+   SeeAlso:[Włącz / wyłącz widoczność pomiarów](Part_Measure_Toggle_All/pl.md), [Włącz / wyłącz widok pomiarów przyrostowych](Part_Measure_Toggle_Delta/pl.md)
 ---
 
 # Part Measure Toggle 3D/pl
 
-## Description
 
-This command toggles the visibility of linear and angular measurements in the [3D view](3D_view.md).
 
-## Usage
+## Opis
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Part_Measure_Toggle_3D.svg" width=16px> [Toggle 3D](Part_Measure_Toggle_3D.md)** button
-    -   Select the **Measure → <img src="images/Part_Measure_Toggle_3D.svg" width=16px> Toggle 3D** option from the menu.
+To polecenie przełącza widoczność pomiarów liniowych i kątowych w oknie [widoku 3D](3D_view/pl.md).
+
+
+
+## Użycie
+
+1.  Polecenie to można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Part_Measure_Toggle_3D.svg" width=16px> '''Włącz / wyłącz widok pomiarów 3D'''**.
+    -   Użyj polecenia z menu **Pomiary → Włącz / wyłącz widok pomiarów 3D**
 
 
 

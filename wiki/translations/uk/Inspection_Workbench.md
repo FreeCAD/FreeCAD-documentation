@@ -1,8 +1,10 @@
 # <img alt="Inspection workbench icon" src=images/Workbench_Inspection.svg  style="width:64px;"> Inspection Workbench/uk
 
+
+
 ## Вступ
 
-The <img alt="" src=images/Workbench_Inspection.svg  style="width:24px;"> [Inspection Workbench](Inspection_Workbench.md) is designed to give you tools for examination of shapes. It is still in development.
+The <img alt="" src=images/Workbench_Inspection.svg  style="width:24px;"> [Inspection Workbench](Inspection_Workbench.md) is designed to give you tools for examination of shapes. It is still in the early stages of development.
 
 <img alt="Screenshot" src=images/InspectionEx.png  style="width:500px;">
 

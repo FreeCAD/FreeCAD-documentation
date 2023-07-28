@@ -2,6 +2,8 @@
 ---
 - GuiCommand:/it   Name:Surface Filling   Name/it:Surface Filling   MenuLocation:Surface → Riempimento...   Workbenches:[Version:0.17](Surface_Workbench/it___Surface.md)|---
 
+
+
 ## Descrizione
 
 
@@ -32,6 +34,8 @@ Gli spigoli di base che formano il contorno chiuso, così come i vertici e gli s
 
 </div>
 
+
+
 ## Utilizzo
 
 
@@ -49,6 +53,8 @@ Gli spigoli di base che formano il contorno chiuso, così come i vertici e gli s
 
 
 </div>
+
+
 
 ## Opzioni
 
@@ -100,6 +106,8 @@ The **Support surface** acts as an additional constraint for the surface. The fo
 5.  Edit the Surface object and for the **Support surface** select the cylindrical face.
 6.  The modified shape matches the cylindrical face much more closely.
 
+
+
 ## Proprietà
 
 Una [Surface Filling](Surface_Filling/it.md) (classe `Surface::Filling`) è derivato dalla base [Part Feature](Part_Feature/it.md) (classe `Part::Feature`, attraverso la sottoclasse `Part::Spline`), quindi condivide tutte le proprietà di quest\'ultima.
@@ -111,6 +119,8 @@ Oltre alle proprietà descritte in [Part Feature](Part_Feature/it.md), Surface F
 
 
 </div>
+
+
 
 ### Dati
 
@@ -157,12 +167,16 @@ Oltre alle proprietà descritte in [Part Feature](Part_Feature/it.md), Surface F
 
 -    **Maximum Segments|Integer**: numero massimo di segmenti, il valore predefinito è {{Value|9}}.
 
+
+
 ### Vista
 
 
 {{TitleProperty|Base}}
 
 -    **Control Points|Bool**: il valore predefinito è `false`; se impostato su `true`, mostrerà una sovrapposizione con i punti di controllo della superficie.
+
+
 
 ## Script
 

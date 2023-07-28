@@ -30,6 +30,8 @@ Accédez ensuite à **Affichage → Panneau** et vérifiez :
 
 -    **Vue de rapport**coché.
 
+
+
 ## Ecrire du code Python 
 
 Il existe deux façons d\'écrire du code Python dans FreeCAD. Dans la [Console Python](Python_console/fr.md) (sélectionnez le menu**Affichage → Panneau → Console Python**) ou dans [l\'éditeur de Macro](Std_DlgMacroExecute/fr.md) (sélectionnez **Macro → Macros …** dans le menu). Dans la console vous écrivez les commandes Python une par une, en les exécutant en appuyant sur **Entrée**, tandis que les macros peuvent contenir du code plus complexe composé de plusieurs lignes, exécuté uniquement lorsque la macro est démarrée.
@@ -37,7 +39,7 @@ Il existe deux façons d\'écrire du code Python dans FreeCAD. Dans la [Console 
 ![](images/Screenshot_pythoninterpreter.jpg ) 
 *La console Python FreeCAD*
 
-Dans ce tutoriel vous pouvez utiliser les deux méthodes. Vous pouvez copier-coller chaque ligne dans la console Python puis appuyer sur **Entrée**, ou copier-coller le code entier dans une nouvelle fenêtre Macro. {{Top}}
+Dans ce tutoriel vous pouvez utiliser les deux méthodes. Vous pouvez copier-coller chaque ligne dans la console Python puis appuyer sur 
 
 ## Exploration de FreeCAD 
 
@@ -53,7 +55,7 @@ Si vous écrivez dans la console Python FreeCAD, vous remarquerez que dès que v
 ![](images/Screenshot_classbrowser.jpg ) 
 *Le mécanisme de saisie semi-automatique de la console Python FreeCAD*
 
-Maintenant notre nouveau document sera créé. Cela revient à appuyer sur le bouton **<img src="images/Std_New.svg" width=16px> [Std Nouveau](Std_New/fr.md)** dans la barre d\'outils. En fait, la plupart des boutons de FreeCAD ne font rien d\'autre que d\'exécuter une ou plusieurs lignes de code Python. Encore mieux, vous pouvez définir une option dans **Édition → Préférences → Général → Macro** avec **Montrer les commandes du script dans la console Python**. Cela affichera dans la console tout le code Python exécuté lorsque vous pressez les boutons. Très utile pour apprendre à reproduire des actions dans Python.
+Maintenant notre nouveau document sera créé. Cela revient à appuyer sur le bouton **<img src="images/Std_New.svg" width=16px> [Nouveau](Std_New/fr.md)** dans la barre d\'outils. En fait, la plupart des boutons de FreeCAD ne font rien d\'autre que d\'exécuter une ou plusieurs lignes de code Python. Encore mieux, vous pouvez définir une option dans **Édition → Préférences → Général → Macro** avec **Montrer les commandes du script dans la console Python**. Cela affichera dans la console tout le code Python exécuté lorsque vous pressez les boutons. Très utile pour apprendre à reproduire des actions dans Python.
 
 Maintenant revenons à notre document et voyons ce que nous pouvons faire avec lui :
 
@@ -99,7 +101,7 @@ Cela affichera la hauteur actuelle de notre boîte. Maintenant, essayons de chan
 box.Height = 5
 ```
 
-Si vous sélectionnez votre boîte avec la souris, vous verrez que dans l\'[Éditeur de propriétés](Property_editor/fr.md), sous l\'onglet **Données**, notre propriété **Height** apparaît. Toutes les propriétés d\'un objet FreeCAD qui y apparaissent (et également sur l\'onglet **Vue**, nous développerons plus tard), sont également directement accessibles dans Python, par leur nom, comme nous l\'avons fait avec notre propriété **Height**. Essayez de changer les autres dimensions de la boîte. {{Top}}
+Si vous sélectionnez votre boîte avec la souris, vous verrez que dans l\'[Éditeur de propriétés](Property_editor/fr.md), sous l\'onglet 
 
 ## Vecteurs et placements 
 
@@ -126,7 +128,7 @@ otherpla = FreeCAD.Placement()
 box.Placement = otherpla
 ```
 
-Avant d\'aller plus loin, vous devez comprendre quelques concepts importants. {{Top}}
+Avant d\'aller plus loin, vous devez comprendre quelques concepts importants. 
 
 ## Application et Interface Utilisateur 
 
@@ -148,7 +150,7 @@ vo.hide()
 vo.show()
 ```
 
-Lorsque vous démarrez FreeCAD, la console Python charge déjà deux modules de base : `FreeCAD` et `FreeCADGui` (qui sont également accessibles par leurs raccourcis `App` et `Gui`). Ils contiennent toutes sortes de fonctionnalités génériques pour travailler avec des documents et leurs objets. Pour illustrer notre concept, voyez que `FreeCAD` et `FreeCADGui` contiennent à la fois un attribut `ActiveDocument`, qui est le document actuellement ouvert. `FreeCAD.ActiveDocument` et `FreeCADGui.ActiveDocument` ne sont cependant pas le même objet. Ce sont les deux composants d\'un document FreeCAD et ils contiennent différents attributs et méthodes. Par exemple, `FreeCADGui.ActiveDocument` contient `ActiveView`, qui est la [Vue 3D](3D_view/fr.md) actuellement ouverte. {{Top}}
+Lorsque vous démarrez FreeCAD, la console Python charge déjà deux modules de base : 
 
 ## Les modules 
 
@@ -171,7 +173,7 @@ import Part
 Part.
 ```
 
-Mais nous parlerons plus en détail du module Part ci-dessous. {{Top}}
+Mais nous parlerons plus en détail du module Part ci-dessous. 
 
 ## Atelier Mesh 
 
@@ -195,7 +197,7 @@ doc.recompute()
 
 Il s\'agit d\'un exemple standard qui utilise la méthode `createSphere()` pour créer une sphère, mais vous pouvez également créer des maillages personnalisés à partir de zéro en définissant leurs sommets et faces.
 
-[Plus de renseignements sur les scripts Mesh\...](Mesh_Scripting/fr.md) {{Top}}
+[Plus de renseignements sur les scripts Mesh\...](Mesh_Scripting/fr.md) 
 
 ## Atelier Part 
 
@@ -226,7 +228,7 @@ Part.show(myshape)
 
 En explorant le contenu de myshape, vous remarquerez de nombreux sous-composants intéressants tels que `Faces`, `Edges`, `Vertexes`, `Solids` et `Shells` et un large éventail d\'opérations de géométrie telles que `cut` (soustraction), `common` (intersection) ou `fuse` (union). La page [Script pour création topologique](Topological_data_scripting/fr.md) explique tout cela en détail.
 
-[Ici plus de renseignements sur les scripts Part](Topological_data_scripting/fr.md) {{Top}}
+[Ici plus de renseignements sur les scripts Part](Topological_data_scripting/fr.md) 
 
 ## Atelier Draft 
 
@@ -260,13 +262,23 @@ Notez que la boîte de dialogue qui apparaît possède l\'icône FreeCAD dans sa
 
 Qt est un système (de construction) d\'interface très puissant qui vous permet de faire des choses très complexes. Il possède également des outils faciles à utiliser, tel que Qt Designer, avec lequel vous pouvez concevoir graphiquement des boîtes de dialogue, puis les ajouter à l\'interface FreeCAD avec quelques lignes de code Python.
 
-[Plus de renseignements sur PySide ici](PySide/fr.md) {{Top}}
+[Plus de renseignements sur PySide ici](PySide/fr.md) 
 
 ## Macros
 
 Maintenant que vous avez une bonne compréhension des bases, où allons-nous conserver nos scripts Python et comment allons-nous les lancer dans FreeCAD ? Il existe un mécanisme simple pour cela, appelé [Macros](Macros/fr.md). Une macro est un script Python qui peut être ajouté à une barre d\'outils et lancé via un clic de souris. FreeCAD vous fournit un éditeur de texte simple (**Macro → Macros... → Créer**) où vous pouvez écrire ou coller des scripts. Une fois le script terminé, utilisez **Outils → Personnaliser... → Macros** pour définir un bouton qui pourra être ajouté aux barres d\'outils.
 
-Vous êtes maintenant prêt pour des scripts FreeCAD plus approfondis. Alors rendez-vous sur le [Hub pour utilisateurs expérimentés](Power_users_hub/fr.md) ! {{Top}}
+
+
+## Scripts externes 
+
+Une autre méthode pour créer, enregistrer et exécuter vos propres scripts en Python consiste à les créer en dehors de FreeCAD, en utilisant l\'éditeur de votre choix (par exemple, Vim). Pour exécuter votre script en Python dans FreeCAD, assurez-vous de l\'enregistrer avec l\'extension **.py**.
+
+Utilisez ensuite **Fichier → Ouvrir** pour ouvrir votre script. Il se chargera dans un nouvel onglet de la [zone d\'affichage principale](Main_view_area/fr.md). Vous pouvez exécuter votre script en cliquant sur le bouton **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Lancer la macro ](Std_DlgMacroExecuteDirect/fr.md)**. Toute erreur ou résultat du script sera affichée dans la [vue rapport](Report_view/fr.md).
+
+Lorsque vous faites et enregistrez des modifications à votre script déjà chargé, une boîte de dialogue apparaît pour vous demander si vous voulez recharger le script modifié dans FreeCAD.
+
+Vous pouvez continuer à la page [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) ou vous pouvez accéder à cette page et à d\'autres pages pertinentes sur le [hub pour utilisateurs expérimentés](Power_users_hub/fr.md). {{Top}}
 
 
 

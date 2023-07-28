@@ -28,8 +28,8 @@ This category lists pages related to the [PartDesign Workbench](PartDesign_Workb
 | [PartDesign SubtractiveHelix/en](PartDesign_SubtractiveHelix/en.md) | [PartDesign SubtractiveLoft/en](PartDesign_SubtractiveLoft/en.md) | [PartDesign SubtractivePipe/en](PartDesign_SubtractivePipe/en.md) |
 | [PartDesign SubtractivePrism/en](PartDesign_SubtractivePrism/en.md) | [PartDesign SubtractiveSphere/en](PartDesign_SubtractiveSphere/en.md) | [PartDesign SubtractiveTorus/en](PartDesign_SubtractiveTorus/en.md) |
 | [PartDesign SubtractiveWedge/en](PartDesign_SubtractiveWedge/en.md) | [PartDesign Thickness/en](PartDesign_Thickness/en.md) | [PartDesign WizardShaft/en](PartDesign_WizardShaft/en.md) |
-| [PartDesign Workbench/en](PartDesign_Workbench/en.md) | [Thread for Screw Tutorial/en](Thread_for_Screw_Tutorial/en.md) | [Toothbrush Head Stand/en](Toothbrush_Head_Stand/en.md) |
-| [Topological naming problem/en](Topological_naming_problem/en.md) |
+| [PartDesign Workbench/en](PartDesign_Workbench/en.md) | [Sketcher Examples/en](Sketcher_Examples/en.md) | [Thread for Screw Tutorial/en](Thread_for_Screw_Tutorial/en.md) |
+| [Toothbrush Head Stand/en](Toothbrush_Head_Stand/en.md) | [Topological naming problem/en](Topological_naming_problem/en.md) |
 
 
 

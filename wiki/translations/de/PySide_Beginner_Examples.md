@@ -33,17 +33,11 @@ bewirkt, dass die 2 Teile von PySide geladen werden - QtGui enthält Klassen zur
 
 Die Importangaben werden in den folgenden Schnipseln nicht wiederholt; es wird davon ausgegangen, dass dies jeweils am Anfang geschieht.
 
-## Simplest Example 
 
-
-<div class="mw-translate-fuzzy">
 
 ## Einfachstes Beispiel 
 
 Die einfachste Interaktion mit PySide besteht darin, dem Benutzer eine Nachricht zu präsentieren, die er nur akzeptieren kann:
-
-
-</div>
 
 
 ```python
@@ -52,17 +46,11 @@ reply = QtGui.QMessageBox.information(None,"","Houston, we have a problem")
 
 ![](images/PySideScreenSnapshot5.jpg )
 
-## Yes or No Query 
 
 
-<div class="mw-translate-fuzzy">
+## Ja oder Nein Abfrage 
 
-## Ja oder Keine Abfrage 
-
-Die nächst einfachste Interaktion ist die Frage nach einer Ja/Nein Antwort:
-
-
-</div>
+Die nächst einfachste Interaktion ist die Frage nach einer Ja oder Nein Antwort:
 
 
 ```python
@@ -83,17 +71,11 @@ if reply == QtGui.QMessageBox.No:
 
 ![](images/PySideScreenSnapshot6.jpg )
 
-## Enter Text Query 
 
-
-<div class="mw-translate-fuzzy">
 
 ## Textabfrage eingeben 
 
 Der nächste Codeschnipsel fragt den Benutzer nach einem Stück Text - beachte, dass dies wirklich jede Taste auf der Tastatur sein kann:
-
-
-</div>
 
 
 ```python
@@ -117,17 +99,11 @@ anInteger = int(userInput) # to convert to an integer from a string representati
 aFloat = float(userInput) # to convert to a float from a string representation
 ```
 
-## More Than 2 Buttons 
 
-
-<div class="mw-translate-fuzzy">
 
 ## Mehr als 2 Schaltflächen 
 
-Das letzte Beispiel für das Anfängerniveau zeigt, wie man einen Dialog mit einer beliebigen Anzahl von Schaltflächen aufbaut. Dieses Beispiel ist programmtechnisch zu komplex, um von einer einzigen Python Anweisung aus aufgerufen zu werden, daher sollte es in gewisser Weise auf der nächsten Seite, die PySide Medium Beispiele enthält, aufgeführt werden. Aber andererseits ist dies oft alles, was benötigt wird, ohne sich in komplexe GUI Definitionen zu vertiefen, so dass der Code am Ende der Seite dieser PySide Einsteigerseite und nicht am Anfang der folgenden PySide Medium Seite platziert wird.
-
-
-</div>
+Das letzte Beispiel für das Anfängerniveau zeigt, wie man einen Dialog mit einer beliebigen Anzahl von Schaltflächen aufbaut. Dieses Beispiel ist programmtechnisch zu komplex, um von einer einzigen Python-Anweisung aus aufgerufen zu werden, daher sollte es in gewisser Weise auf der nächsten Seite, die [PySide weiterführende Beispiele](PySide_Intermediate_Examples/de.md) enthält, aufgeführt werden. Andererseits ist dies oft alles, was benötigt wird, ohne sich in komplexe GUI-Definitionen zu vertiefen, so dass der Code am Ende der Seite und nicht am Anfang der folgenden weiterführenden PySide-Seite platziert wird.
 
 
 ```python

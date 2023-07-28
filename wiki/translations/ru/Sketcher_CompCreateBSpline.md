@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Описание
 
 
@@ -23,16 +25,17 @@
 
 </div>
 
+
+
 ## Типы B-Cплайнов 
 
+-   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline by control points](Sketcher_CreateBSpline.md): Draws a B-spline curve by its control points.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Periodic B-spline by control points](Sketcher_CreatePeriodicBSpline.md): Draws a periodic (closed) B-spline curve by its control points.
 
--   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-Cплайн](Sketcher_CreateBSpline/ru.md) : Рисует B-Cплайн по его контрольным точкам.
--   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Периодический B-Cплайн](Sketcher_CreatePeriodicBSpline/ru.md) : Рисует периодическую (замкнутую) кривую B-Cплайна по контрольными точкам.
+-   <img alt="" src=images/Sketcher_CreateBSplineByInterpolation.svg  style="width:32px;"> [B-spline by knots](Sketcher_CreateBSplineByInterpolation.md): Draws a B-spline curve by its knots. <small>(v0.21)</small> 
 
-
-</div>
+-   <img alt="" src=images/Sketcher_CreatePeriodicBSplineByInterpolation.svg  style="width:32px;"> [Periodic B-spline by knots](Sketcher_CreatePeriodicBSplineByInterpolation.md): Draws a periodic (closed) B-spline curve by its knots. <small>(v0.21)</small> 
 
 
 <div class="mw-translate-fuzzy">

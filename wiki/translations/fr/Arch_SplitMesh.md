@@ -25,7 +25,7 @@ Cet outil sépare les composants d\'un objet [Mesh](Mesh_Workbench/fr.md) sélec
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 

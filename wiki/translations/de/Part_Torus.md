@@ -9,6 +9,8 @@
 
 # Part Torus/de
 
+
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Part_Torus.svg  style="width:24px;"> **Part Torus** erstellt einen parametrischen Volumenkörper, einen Torus. Er ist das Ergebnis der Austragung eines Kreises entlang eines kreisförmigen Pfades. Im Koordinatensystem durch seine {{PropertyData/de|Placement}} festgelegt, liegt der kreisförmige Pfad auf der XY-Ebene und seine Mitte im Ursprung.
@@ -17,15 +19,24 @@ Ein Part-Torus kann in ein Torussegment gewandelt werden, durch Änderung der Da
 
 <img alt="" src=images/Part_Torus_Example.png  style="width:400px;">
 
+
+
 ## Anwendung
 
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Part_Torus.svg" width=16px> [Torus](Part_Torus/de.md)** drücken.
+    -   Den Menüeintrag **Part → Grundkörper → <img src="images/Part_Torus.svg" width=16px> Torus** auswählen.
+2.  Der Torus wird erstellt.
+3.  Wahlweise die Abmaße und {{PropertyData/de|Placement}} des Torus anpassen durch eine der folgenden Möglichkeiten:
+    -   Ein Doppelklick auf das Objekt in der [Baumansicht](Tree_view/de.md):
+        1.  Der Aufgabenbereich **Geometrische Grundkörper** wird geöffnet.
+        2.  Eine oder mehrere Eigenschaften ändern.
+        3.  Das Objekt wird in der [3D-Ansicht](3D_view/de.md) dynamisch aktualisiert.
+        4.  Die Schaltfläche **OK** drücken.
+    -   Die Eigenschaften im [Eigenschafteneditor](Property_editor/de.md) ändern.
+    -   Die {{PropertyData/de|Placement}} mit dem Befehl <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std Bewegen](Std_TransformManip/de.md) ändern.
 
-<div class="mw-translate-fuzzy">
 
-Im Arbeitsbereich Körper (workbench Part) auf das Symbol <img alt="" src=images/Part_Torus.png  style="width:32px;"> klicken. Zunächst entsteht ein vollständiger Torus mit mittlerem Ring-Radius 10 mm und Querschnitt-Radius 2mm.
-
-
-</div>
 
 ## Beispiel
 
@@ -33,9 +44,13 @@ Im Arbeitsbereich Körper (workbench Part) auf das Symbol <img alt="" src=images
 
 Ein Part-Torus-Objekt, das mit dem [Skriptbeispiel](#Skripten.md) weiter unten erzeugt wurde, wird hier dargestellt.
 
+
+
 ## Hinweise
 
--   A Part Torus can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
+-   Ein Part kann auch mit dem Befehl <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Grundkörper](Part_Primitives/de.md) erstellt werden. Mit dem Befehl können die Abmaße und die Positionierung zum Zeitpunkt der Erstellung festgelegt werden.
+
+
 
 ## Eigenschaften
 
@@ -43,41 +58,43 @@ Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein Part-Torus-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
 
+
+
 ### Daten
 
 
 {{TitleProperty|Attachment}}
 
-The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
+Das Objekt hat dieselben Befestigungseigenschaften wie ein [Part Part2DObject](Part_Part2DObject/de#Daten.md).
 
 
 {{TitleProperty|Torus}}
 
+-    {{PropertyData/de|Radius1|Length}}: Der Radius des kreisförmigen Pfades des Torus. Der Standardwert ist {{Value|10mm}}.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Radius2|Length}}: Der Radius des kreisförmigen Profils desTorus. Der Standardwert ist {{Value|2mm}}.
 
--    {{Parameter|Radius1:}}Radius des Kreises, auf dem der Mittelpunkt der dünnen Scheibe rotiert bzw. mittlerer Radius des \"Schwimmringes\" (im abgebildeten Beispiel wurde der Erst-Wert 10 mm beibehalten).
+-    {{PropertyData/de|Angle1|Angle}}: Der Startwinkel des kreisförmigen Profils. Wertebereich: {{Value|-180° &lt;&#61; Wert &lt;&#61; 180°}}. Der Standardwert ist {{Value|-180°}}.
 
--    {{Parameter|Radius2:}}Radius der dünnen Scheibe bzw. Radius der Torus-Querschnitts-Fläche (im abgebildeten Beispiel wurde der Erst-Wert 2 mm beibehalten).
+-    {{PropertyData/de|Angle2|Angle}}: Der Endtwinkel des kreisförmigen Profils. Wertebereich: {{Value|-180° &lt;&#61; Wert &lt;&#61; 180°}}. Der Standardwert ist {{Value|180°}}. Ist der Gesamtwinkel des kreisförmigen Profils kleiner als {{Value|360°}}, hat das Profil die Form eines Tortenstücks.
 
--    {{Parameter|Angle3:}}Winkel eines Torus-Sektors (im abgebildeten Beispiel wurde der Erst-Wert 360° auf 270° verändert, 1/4-Sektor wurde entfernt). Die Winkelvermaßung beginnt bei der positiven x-Achse und erfolgt mathematisch positiv im Gegenuhrzeiger-Sinn.
+-    {{PropertyData/de|Angle3|Angle}}: Der Winkel des kreisförmigen Pfades des Torus. Wertebereich: {{Value|0° &lt; Wert &lt;&#61; 360°}}. Der Standardwert ist {{Value|360°}}. Ist er kleiner als {{Value|360°}}, ist der resultierende Festkörper ein Torussegment.
 
 
-</div>
 
 ## Skripten
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-A Part Torus can be created with the {{Incode|addObject()}} method of the document:
+Ein Part Torus wird mit der Methode `addObject()` des Dokuments erstellt.
 
 
 ```python
 torus = FreeCAD.ActiveDocument.addObject("Part::Torus", "myTorus")
 ```
 
--   Where {{Incode|"myTorus"}} is the name for the object.
--   The function returns the newly created object.
+-   Wobei {{Incode|"myTorus"}} der Name des Objekts ist.
+-   Die Funktion gibt das neu erstellte Objekt zurück.
 
 Beispiel:
 

@@ -1,96 +1,50 @@
 # Macro Unfold Box/de
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/de
 |Name=Macro Unfold Box
 |Icon=Macro_Unfold_Box.png
 |Translate=Makro-Aufklappbox
-|Description=Das Makro erlaubt es, die Oberflächen einer Box beliebiger Form zu entfalten und sie auf einer Seite zu zeichnen.<BR/>
-|Author=Hervé B.
-|Version=1.0.1
-|Date=2020-03-10
+|Description=Das Makro erlaubt es, die Oberflächen einer Box beliebiger Form zu entfalten und sie auf einer Seite zu zeichnen.
+|Author=Hervé B., heda
+|Version=1.1
+|Date=2022-07-28
 |FCVersion=
 |Download=[https://www.freecadweb.org/wiki/images/e/e4/Macro_Unfold_Box.png ToolBar Icon]
 }}
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
 Das Makro erlaubt es, die Oberflächen einer Box beliebiger Form zu entfalten und sie auf einer Seite zu zeichnen.
 
-
-</div>
-
-<img alt="" src=images/Macro_unfoldBox1.png  style="width:480px;">
-
-
-<div class="mw-translate-fuzzy">
-
 <img alt="" src=images/Macro_unfoldBox1.png  style="width:480px;"> 
-*Macro_unfoldBox*
-
-
-</div>
+*Makro Unfold Box*
 
 ## Installation
 
-
-<div class="mw-translate-fuzzy">
-
-## Installation 
-
-Kopieren Sie die Codedatei des Makros in das Verzeichnis:
-
--   *\'Linux & Mac\'*: \$ home/.FreeCad/Mod/UnfoldBox.
--   Windows: C:\\Programme\\FreeCAD0.13
-
-Vorlagen hinzufügen: A3_Landscape_Empty.svg A3_Landscape.svg A4_Landscape_Empty.svg A4_Landscape.svg
-Siehe [Macro für die Entfaltung von Box-Oberflächen](http://forum.freecadweb.org/viewtopic.php?f=17&t=4587)
-
-
-</div>
+Erhältlich im [Addon-Manager](Std_AddonMgr/de.md).
 
 Forum topic: [Macro for unfolding box surfaces](http://forum.freecadweb.org/viewtopic.php?f=17&t=4587).
 
-## Options
 
-
-<div class="mw-translate-fuzzy">
 
 ## Optionen
 
-1.  Maßstab manuell oder automatisch
-2.  Format Seite: a3/a4, Cartridge (siehe FreeCAD Vorlagen)
-3.  Gruppieren Sie Zeichnungen auf der gleichen Seite wie möglich.
-4.  Nähen oder nicht die Kanten der Stücke.
-
-
-</div>
+-   Manuell oder automatisch skalieren.
+-   Blattformat: A4/A3, Cartridge (siehe FreeCAD-Vorlagen).
+-   Gruppiert Zeichnungen auf demselben Blatt, wenn möglich.
+-   Die Kanten der Stücke verbinden oder nicht.
 
 ![Macro_unfoldBox](images/Macro_UnFoldBox_start_form.png )
 
-## Usage
 
 
-<div class="mw-translate-fuzzy">
+## Anwendung
 
-## Gebrauchsanweisung
-
-1.  Wählen Sie eine Box aus, die zum Beispiel mit dem Part :: Loft-Werkzeug erstellt wurde.
-2.  Explode es (siehe Menü Entwurf) in Planstücke
-3.  Wählen Sie die Oberflächen aus
-4.  Führe das Makro aus
-
-
-</div>
+1.  Einen Kasten auswählen, der zum Beispiel mit dem Werkzeug [Part Ausformung](Part_Loft/de.md) erstellt wurde.
+2.  Diesen aufteilen (siehe Menü Draft) in ebene Stücke.
+3.  Die Flächen auswählen
+4.  Das Makro ausführen
 
 The unfolding algorithm will place the faces on the XY plane, however it seldom does the unfolding correctly. Thus some manual post-processing is needed to get to desired result, as shown in the picture below.
 
@@ -105,6 +59,8 @@ Starting point is a box like the upper left picture.
 5.  The drawing updates automatically to the new positions.
 
 The finished result is shown in the lower right picture above.
+
+
 
 ## Skript
 

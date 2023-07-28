@@ -9,7 +9,7 @@
 
 ## Description
 
-The Drilling command generates a drilling Operation in the Job.
+The <img alt="" src=images/Path_Drilling.svg  style="width:16px;"> [Drilling](Path_Drilling.md) tool generates a drilling Operation in the Job.
 
  <img alt="" src=images/Path_Drilling_Sample.png  style="width:400px;">  
 *Above: Path Drilling operation sample*
@@ -68,42 +68,42 @@ Note: It is suggested that you do not edit the Placement property of path operat
     -   
         **Axis**
         
-        : Axis(one or multiple) around which to rotate the object, set in sub-properties: x, y, z
+        : Axis (one or multiple) around which to rotate the object, set in sub-properties: X, Y, Z
 
         -   
             **X**
             
-            : x axis value
+            : X axis value
 
         -   
             **Y**
             
-            : y axis value
+            : Y axis value
 
         -   
             **Z**
             
-            : z axis value
+            : Z axis value
 
     -   
         **Position**
         
-        : Position of the object, set in sub-properties: x, y, z - with respect to the origin (or origin of parent object container)
+        : Position of the object, set in sub-properties: X, Y, Z - with respect to the origin (or origin of parent object container)
 
         -   
             **X**
             
-            : x distance value
+            : X distance value
 
         -   
             **Y**
             
-            : y distance value
+            : Y distance value
 
         -   
             **Z**
             
-            : z distance value
+            : Z distance value
 
 -    **Label**: User-provided name of the object (UTF-8)
 
@@ -140,7 +140,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 {{TitleProperty|Path}}
 
--    **Active**: make False, to prevent operation from generating code
+-    **Active**: Make False, to prevent operation from generating code
 
 -    **Comment**: An optional comment for this Operation
 
@@ -170,15 +170,15 @@ This section is simply a layout map of the settings in the window editor for the
 
 ### Base Geometry 
 
--   **Add**: adds selected element(s) which should be the base(s) for the path(s)
--   **Delete**: delete the selected item(s) in the Base Geometry list
--   **Clear**: clear all items in the Base Geometry list
+-   **Add**: Adds selected element(s) which should be the base(s) for the path(s).
+-   **Delete**: Delete the selected item(s) in the Base Geometry list.
+-   **Clear**: Clear all items in the Base Geometry list.
 
 ### Base Location 
 
--   **Add**: add an (X,Y) coordinate location to the current drilling operation.
--   **Remove**: remove the selected location item(s) from the Base Location list
--   **Edit**: edit the selected location item
+-   **Add**: Add an (X,Y) coordinate location to the current drilling operation.
+-   **Remove**: Remove the selected location item(s) from the Base Location list.
+-   **Edit**: Edit the selected location item.
 
 ### Depths
 

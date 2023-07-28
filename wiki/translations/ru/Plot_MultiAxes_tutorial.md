@@ -136,9 +136,9 @@ When you run the tool you will see a list of all editable elements. Titles and l
 Now you can save your work. See the [previous tutorial](Plot_Basic_tutorial.md) if you don\'t remember how to do it.
 
 
-{{Tutorials_navi
+{{Plot_Tools_navi
 
-}} {{Plot_Tools_navi}}
+}}
 
 
 

@@ -25,6 +25,8 @@ Această comandă creează o plasă dintr-un obiect tip formă.
 
 The inverse operation is [Part ShapeFromMesh](Part_ShapeFromMesh.md) from the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md).
 
+
+
 ## Utilizare
 
 1.  Selectați obiectul de tip formă.
@@ -40,6 +42,8 @@ Doar selectând ** Meshes** → **<img src="images/Mesh_Mesh_from_Shape.svg" wid
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -58,6 +62,8 @@ Abaterea de suprafață: Dacă acest număr este mai mic, ochiul devine mai fin.
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ![](images/Mesh_Mesher_Mefisto.jpg )
@@ -72,6 +78,8 @@ Abaterea de suprafață: Dacă acest număr este mai mic, ochiul devine mai fin.
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -107,6 +115,8 @@ Pentru fiecare opțiune principală puteți de asemenea să alegeți:
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -165,9 +175,6 @@ Pentru fiecare opțiune principală puteți de asemenea să alegeți:
 -    **Quad dominated**: if checked, the mesh will preferably use [quadrilateral faces](https://en.wikipedia.org/wiki/Types_of_mesh#Two-dimensional).
 
 ### Gmsh mesher 
-
-
-<small>(v0.19)</small> 
 
 For Linux users: the external [Gmsh](https://gmsh.info/) module is required.
 

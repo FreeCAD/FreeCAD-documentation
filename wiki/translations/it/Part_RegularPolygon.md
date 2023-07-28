@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -16,6 +18,8 @@ Crea una primitiva geometrica Poligono regolare.
 </div>
 
 <img alt="" src=images/Part_RegularPolygon_Example.png  style="width:400px;">
+
+
 
 ## Utilizzo
 

@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Lo strumento [Staffe armatura](Arch_Rebar_Stirrup/it.md) consente all\'utente di creare un set di staffe d\'armatura all\'interno di un oggetto [Struttura](Arch_Structure/it.md).
@@ -30,7 +32,12 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 <img alt="" src=images/Arch_Rebar_Stirrup_example.png  style="width:400px;"> 
 *Un set di staffe di rinforzo all'interno di una [Struttura](Arch_Structure/it.md)*
 
+
+
 ## Utilizzo
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Selezionare una qualsiasi faccia dell\'oggetto **<img src="images/Arch_Structure.svg" width=16px> [Struttura](Arch_Structure/it.md)** creato in precedenza.
 
@@ -53,11 +60,17 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 10. Cliccare **Annulla** per uscire dal pannello delle azioni.
 
+
+</div>
+
+
 :   <img alt="" src=images/StirrupDialog.png  style="width:250px;">
 
 
 
 *Pannello Azioni per lo strumento Staffe armatura di Arch*
+
+
 
 ## Proprietà
 
@@ -81,6 +94,11 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 -    {{PropertyData/it|Spacing}}: La distanza tra gli assi di ogni barra.
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Scripting
 
 
@@ -88,7 +106,23 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 [API Arch](Arch_API/it.md), [API Reinforcement](Reinforcement_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Staffe armatura può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione: 
+
+</div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento Staffe armatura può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
+
+
+</div>
+
+
 ```python
 Rebar = makeStirrup(l_cover, r_cover, t_cover, b_cover, f_cover,
                     bentAngle, bentFactor, diameter, rounding, amount_spacing_check, amount_spacing_value,
@@ -109,6 +143,8 @@ Rebar = makeStirrup(l_cover, r_cover, t_cover, b_cover, f_cover,
 -   Se `amount_spacing_check` è `True` creerà tanti giri come indicato in `amount_spacing_value`; se è `False` crea loop di rinforzo separati dal valore numerico di `amount_spacing_value`.
 
 -    `amount_spacing_value`specifica il numero di barre di rinforzo o il valore della separazione tra di esse, secondo come sono indicato in `amount_spacing_check`.
+
+
 
 ### Esempio
 

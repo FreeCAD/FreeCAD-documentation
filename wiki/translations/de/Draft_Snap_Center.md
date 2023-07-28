@@ -1,65 +1,55 @@
 ---
 - GuiCommand:/de
    Name:Draft Snap Center
-   Name/de:Draft Mittelpunkt
-   MenuLocation:Entwurf → [Objektfang](Draft_Snap/de.md) → Mittelpunkt
+   Name/de:Draft EinrastenAufZentrum
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso:[Objektfang](Draft_Snap/de.md), [Objektfang umschalten](Draft_Snap_Lock/de.md)
+   SeeAlso:[Draft Einrasten](Draft_Snap/de.md), [Draft EinrastenSperren](Draft_Snap_Lock/de.md)
 ---
 
 # Draft Snap Center/de
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-Diese Methode rastet am Mittelpunkt von Kreisen und Kreisbögen ein.
+Die Option <img alt="" src=images/Draft_Snap_Center.svg  style="width:24px;"> **Draft EinrastenAufZentrum** raste auf Mittelpunkten von Flächen oder kreisförmigen Kanten ein und auf den Punkten der {{PropertyData/de|Placement}} von [Draft ArbeitsebenenProxies](Draft_WorkingPlaneProxy/de.md) und [Arch Gebäudeteilen](Arch_BuildingPart/de.md). Die Flächen und Kanten können zu [Draft](Draft_Workbench/de.md)- oder [Arch](Arch_Workbench.md)-Objekten gehören, aber auch zu Objekten, die mit anderen [Arbeitsbereichen](Workbenches.md) erstellt wurden.
 
-
-</div>
-
-![](images/Draft_Snap_Center_example_arc.png )
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Einrasten des zweiten Punkts einer Linie am Mittelpunkt eines Kreises*
-
-
-</div>
+![](images/Draft_Snap_Center_example_arc.png ) 
+*Einrasten des zweiten Punktes einer Linie auf dem Mittelpunkt einer kreisförmigen Kante*
 
 ![](images/Draft_Snap_Center_example_buildingpart.png ) 
-*Snapping the second point of a line to the Placement point of an Arch BuildingPart*
-
-## Usage
-
-For general information about snapping see [Draft Snap](Draft_Snap.md).
+*Einrasten des zweiten Punktes einer Linie auf dem Punkt der Positionierung eines Arch-Gebäudeteils*
 
 
-<div class="mw-translate-fuzzy">
 
-### Anwendung
+## Anwendung
 
-1.  Stelle sicher, dass **<img src="images/Draft_Snap_Lock.svg" width=16px> [Draft Umschalten Ein/Aus](Draft_Snap_Lock/de.md)** und **<img src="images/Draft_Snap_Center.svg" width=16px> [Snap Mittelpunkt](Draft_Snap_Center/de.md)** eingeschaltet sind.
-2.  Wähle ein Draft-Werkzeug zum Zeichnen einer Form.
-3.  Bewege den Cursor über ein Kreis- oder Kreisbogenobjekt.
-4.  Der Kreis oder Kreisbogen wird gelb hervorgehoben und ein kleiner weißer Kreis wird den Mittelpunkt des Kreisbogens anzeigen, an dem der neue Punkt verbunden wird.
-5.  Klicke, um den neuen Punkt zu verbinden.
+Für allgemeine Informationen zum Einrasten (Fangen) siehe [Draft Fangen](Draft_Snap/de.md).
+
+1.  Einrasten sollte aktiviert sein. Siehe <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft EinrastenSperren](Draft_Snap_Lock/de.md).
+2.  Ist **Draft EinrastenAufZentrum** nicht aktiv, gibt es folgende Möglichkeiten:
+    -   Die Schaltfläche **<img src="images/Draft_Snap_Center.svg" width=16px>** in der Symbolleiste Draft-Einrasten drücken.
+    -   Die Schaltfläche **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** im [Draft-Widget Einrasten](Draft_snap_widget/de.md) gedrückt halten und im Ausklappmenü die Option **<img src="images/Draft_Snap_Center.svg" width=16px> Zentrum fangen** auswählen.
+3.  Einen [Draft](Draft_Workbench.md)- oder [Arch](Arch_Workbench.md)-Befehl auswählen, um die gewünschte Geometrie zu erstellen.
+4.  Man beachte, dass die Einrast-Optionen auch dann geändert werden können, wenn ein Befehl aktiv ist.
+5.  Eine der folgenden Möglichkeiten auswählen:
+    -   Um einen Mittelpunkt einer Fläche oder einer kreisförmigen Kante auszuwählen:
+        -   Den Mauszeiger auf eine Fläche oder Kante bewegen.
+        -   Die Kante wird hervorgehoben.
+    -   Um den Punkt einer {{PropertyData/de|Placement}} eines [Draft ArbeitsebenenProxys](Draft_WorkingPlaneProxy/de.md) auszuwählen:
+        -   Den Mauszeiger auf ein beliebiges Element des Arbeitsebenen-Proxys bewegen.
+        -   Der Arbeitsebenen-Proxy wird nicht hervorgehoben.
+    -   Um den Punkt einer {{PropertyData/de|Placement}} eines [Arch Gebäudeteils](Arch_BuildingPart/de.md) auszuwählen:
+        -   Den Mauszeiger auf eine der Kanten des kleinen Achsensymbols des Gebäudeteils bewegen oder auf den Text in dessen Nähe, der die {{PropertyData/de|Label}} des Gebäudeteils und sein Level anzeigt.
+        -   Nur die Kanten des Achsensymbols werden hervorgehoben. Der Text wird nicht hervorgehoben.
+6.  Wurde ein Punkt ermittelt, wird der Punkt markiert und das Symbol <img alt="" src=images/Draft_Snap_Center.svg  style="width:16px;"> wird neben dem Mauszeiger angezeigt.
+7.  Klicken, um den Punkt zu bestätigen.
 
 
-</div>
 
-## Preferences
+## Einstellungen
 
-See [Draft Snap](Draft_Snap#Preferences.md).
+Siehe [Draft-Einrasten](Draft_Snap/de#Einstellungen.md).
 
 
 

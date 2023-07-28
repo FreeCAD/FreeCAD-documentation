@@ -37,7 +37,7 @@ Fügt einen Prisma-Grundkörper in den aktiven Körper (Body-Objekt) ein. Seine 
 
 ## Optionen
 
-Es ist möglich, schräge Prismen durch Angabe von Winkeln mit Bezug auf den Normalenvektor der gewählten Befestigung zu erzeugen. {{Version/de|0.19}}
+Es ist möglich, schräge Prismen durch Angabe von Winkeln mit Bezug auf den Normalenvektor der gewählten Befestigung zu erzeugen.
 
 Das Prisma kann nach seiner Erstellung auf zwei Arten bearbeitet werden:
 
@@ -58,9 +58,9 @@ Das Prisma kann nach seiner Erstellung auf zwei Arten bearbeitet werden:
 
 -    {{PropertyData/de|Height}}: Höhe des Prismas.
 
--    {{PropertyData/de|First Angle}}: Winkel in der ersten Richtung. {{Version/de|0.19}}
+-    {{PropertyData/de|First Angle}}: Winkel in der ersten Richtung.
 
--    {{PropertyData/de|Second Angle}}: Winkel in der zweiten Richtung. {{Version/de|0.19}}
+-    {{PropertyData/de|Second Angle}}: Winkel in der zweiten Richtung.
 
 
 

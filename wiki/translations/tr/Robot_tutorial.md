@@ -94,11 +94,11 @@ Bu eğitimde [endüstriyel robotlar](http://en.wikipedia.org/wiki/Industrial_rob
 </div>
 
 
-{{Tutorials navi
+{{Robot Tools navi
 
-}} {{Robot Tools navi}}
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Robot](Robot_Workbench.md) > Robot tutorial/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/tr

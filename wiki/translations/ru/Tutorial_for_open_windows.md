@@ -14,6 +14,8 @@
 
 
 
+
+
 ## Введение
 
 This tutorial shows how to place [Arch Windows](Arch_Window.md) and Doors in a building model, how to display them as open in the 3D view, and how to create a 2D drawing (plan and elevation projection) for the model. It uses the [Draft Workbench](Draft_Workbench.md), the [Arch Workbench](Arch_Workbench.md), and the [TechDraw Workbench](TechDraw_Workbench.md).
@@ -23,6 +25,8 @@ Common tools used are: [Draft Grid](Draft_Snap_Grid.md), [Draft Snap](Draft_Snap
 See also the following page for some videos on how to work with windows and doors.
 
 -   [The workbench used to create architectural projects is called Arch](http://help-freecad-jpg87.fr/04_arch_ind.php)
+
+
 
 ## Подготовка
 
@@ -35,6 +39,8 @@ See also the following page for some videos on how to work with windows and door
 4\. [Zoom out](Std_ViewZoomOut.md) of the 3D view if you are too close to the grid.
 
 Now we are ready to create a simple building with closed walls, two doors and two windows.
+
+
 
 ## Размещение стен 
 
@@ -61,6 +67,8 @@ Now we are ready to create a simple building with closed walls, two doors and tw
 
 <img alt="" src=images/02_T01_just_wall.png  style="width:600px;"> 
 *align=center|Wall constructed from the wire*
+
+
 
 ## Размещение окон и дверей 
 
@@ -93,7 +101,7 @@ Now we are ready to create a simple building with closed walls, two doors and tw
 *align=center|Snapping to the midpoint of the bottom edge of the wall to place the window*
 
 :   
-    **Note:**the `Sill height` parameter can only be set when initially creating the window with a preset. Once the window is inserted, modify its placement by editing the **Position** vector `[x, y, z]` of the underlying [Sketcher Sketch](Sketcher_Sketch.md).
+    **Note:**the `Sill height` parameter can only be set when initially creating the window with a preset. Once the window is inserted, modify its placement by editing the **Position** vector `[x, y, z]` of the underlying [Sketcher Sketch](Sketcher_Workbench.md).
 
 
 
@@ -113,6 +121,8 @@ when placing a window or a door with a preset, hover the element over the [Arch 
 **Note 2:**
 
 occasionally the window may be placed outside the [Arch Wall](Arch_Wall.md); as long as the element is parallel to that wall, you should be able to correct the position manually.
+
+
 
 ## Указание направления открытия дверей 
 
@@ -157,6 +167,8 @@ occasionally the window may be placed outside the [Arch Wall](Arch_Wall.md); as 
 <img alt="" src=images/09_T01_window_symbol_plan.png  style="width:600px;"> 
 *align=center|Door with plan symbol, top view*
 
+
+
 ## Указание направления открытия окон 
 
 15\. In the tree view select `Sketch002` underlying `Window`, and press **Space**, or change the property **Visibility** to `True`.
@@ -191,6 +203,8 @@ occasionally the window may be placed outside the [Arch Wall](Arch_Wall.md); as 
 
 <img alt="" src=images/11_T01_window_all_symbol_top.png  style="width:600px;"> 
 *align=center|Elevation and plan symbols for all elements, top view*
+
+
 
 ## Создание плана помещения 
 
@@ -241,6 +255,8 @@ set **All On** to `True` for [TechDraw ArchView](TechDraw_ArchView.md) objects s
 <img alt="" src=images/14_T01_TechDraw_window_all_symbols_elevation.png  style="width:600px;"> 
 *align=center|Section view of the building, two top views, and one elevation view, A4 sheet, scale 1:50*
 
+
+
 ## Взаимодействие между верстаками Arch и TechDraw 
 
 As of the time of writing of this document (FreeCAD 0.18, November 2018), the [TechDraw Workbench](TechDraw_Workbench.md) can only display in its pages what the [Arch Workbench](Arch_Workbench.md) exports as [SVG](SVG.md). This means that the appearance of the elements included within the [Arch SectionPlane](Arch_SectionPlane.md) tool, and displayed by the [TechDraw ArchView](TechDraw_ArchView.md) tool, is controlled by the [Arch Workbench](Arch_Workbench.md).
@@ -250,9 +266,9 @@ The [TechDraw Workbench](TechDraw_Workbench.md) only has minimal control over ho
 A closer interaction between the workbenches is planed for future versions of FreeCAD. In those versions it is expected that long-standing issues be resolved, such as controlling the characteristics of lines and faces (line width, line color, face color, hatch patterns, and others).
 
 
-   {{TechDraw Tools navi}}
+  {{TechDraw Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > Tutorial for open windows/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > Tutorial for open windows/ru

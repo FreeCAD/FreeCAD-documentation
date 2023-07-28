@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -26,6 +28,8 @@ Instrumentul de geometrie externă Sketcher( External Geometry) este folosit atu
 A note of caution, using this tool to link to generated (solid) geometry can lead to unexpected results due to [Topological Naming Problem](Topological_naming_problem.md). Also see [Advice for stable models](Feature_editing#Advice_for_creating_stable_models.md).
 
 <FILE:Sketcher_ExternalEsempio1.png>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -95,6 +99,8 @@ The external geometry can, for example, be used as a reference for a constraint 
 ### Use Of External Geometry in a Part Workbench Work Flow 
 
 You can use any Part geometry that is in coordinate system of the sketch. It is advised to link to the earliest feature possible, as it forms a more stable link.
+
+
 
 ## Exemplu
 

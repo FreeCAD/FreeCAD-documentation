@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Drawing Annotation
    MenuLocation:Drawing → Annotation
-   Workbenches:[Drawing](Drawing_Workbench.md), [Complete](Complete_Workbench.md)
+   Workbenches:[Drawing](Drawing_Workbench.md)
 ---
 
 # Drawing Annotation/en

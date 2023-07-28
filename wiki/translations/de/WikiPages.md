@@ -3,6 +3,8 @@
 
 Diese Seite ist eine Erweiterung der [Hilfe:Editieren](Help_Editing.md) Seite und gibt allgemeine Richtlinien für das Schreiben und Aktualisieren der FreeCAD Wiki Dokumentation. Es fasst mehrere Diskussionen und Ideenfindungssitzungen zusammen
 
+
+
 ## Vor dem Beginn 
 
 -   Diese Wiki Dokumentation basiert auf [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki), derselben Software, die auch [Wikipedia](https://de.wikipedia.org/wiki/Wikipedia:Hauptseite) nutzt. Wenn du bereits Beiträge zu Wikipedia geleistet hast, sollte das Bearbeiten von FreeCAD Wiki Seiten einfach sein.
@@ -13,7 +15,11 @@ Diese Seite ist eine Erweiterung der [Hilfe:Editieren](Help_Editing.md) Seite un
 -   Verwende einen Sandkasten, um deinen Code zu testen, z.B. [FreeCADDocu:Sandbox](FreeCADDocu_Sandbox.md) oder eine bestimmte Seite mit deinem Namen [Sandbox:Yourname](Sandbox_Yourname.md). Sandkasten-Seiten müssen in der Sandkasten-Kategorie platziert werden. Dies geschieht durch hinzufügen von [[Category:Sandbox]] am Ende des Wiki-Codes.
 -   Bitte beachte die Übersetzungen. Das FreeCAD Wiki verwendet eine automatische Übersetzungsunterstützung, um Seiten in vielen Sprachen bereitzustellen. Jede Seite kann in mehreren Sprachversionen existieren. Auf vielen Seiten sieht man (Bereichs-) Markierungen wie <translate>...</translate> und viele einzelne Markierungen wie . Letztere kennzeichnen sogenannte Übersetzungseinheiten (translation units) und werden durch das Übersetzungssystem erstellt, sie sollten nie manuell erstellt werden. Sie verbinden die Überschriften und Absätze mit ihren übersetzten Versionen. Du solltest sie nicht ändern, denn das würde diese Verweise zerstören. Es wäre trotzdem in Ordnung, Absätze zu verschieben oder den Wortlaut zu ändern, solange die zugehörigen Kennzeichen beibehalten werden. Wenn du eine Überschrift oder einen Absatz löschst, solltest du auch die zugehörigen Kennzeichen löschen. Bitte sei dir bewusst, dass sich das Ändern von existierenden Überschriften und Absätze auch auf bestehende Übersetzungen auswirkt. Das gilt nicht beim Hinzufügen von neuem Material, weil das System nach deinen Änderungen automatisch neue Kennzeichen hinzufügt. Mehr Informationen findest du unter [Lokalisierung](Localisation/de.md) und den Original-Seiten [Mediawiki:Extension:Translate page](https://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example).
 
+
+
 ## Allgemeine Richtlinien 
+
+
 
 ### Präzise Beschreibungen 
 
@@ -30,15 +36,21 @@ Gute Beschreibung
 
 [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md): zielt darauf ab, Werkzeuge für die Modellierung komplexer Festkörperteile bereitzustellen.
 
+
+
 ### Zentralisierte Informationen 
 
 Vermeide es, die gleichen Informationen an verschiedenen Orten zu duplizieren. Füge die Informationen in eine neue Seite ein und verknüpfe diese Seite von anderen Seiten aus, die diese Informationen benötigen.
 
 Verwende keine Transklusion von Seiten ([Hilfe:Bearbeiten#Vorlagen und Transklusion von Seiten](Help:Editing#Templates_and_transcluding_pages.md)), da dies die Übersetzung des Wikis erschwert. Verwende nur die unten unter [#Vorlagen](#Templates/de.md) beschriebenen Vorlagen.
 
+
+
 ### Formgestaltung
 
 Vorlagen werden zum Gestalten der Hilfeseiten verwendet. Sie geben der Dokumentation ein einheitliches Aussehen und Gefühl. Es gibt eine Vorlage für Menübefehle, wie **Datei → Speichern**, eine Vorlage zum Gestalten von zu drückenden Tasten, wie **Shift**, eine weitere Vorlage zum Anzeigen eines booleschen Wertes `True` usw. Bitte mache dich mit dem Abschnitt [#Templates](#Templates.md) vertraut, vor dem Schreiben von Hilfeseiten.
+
+
 
 ### Temporäre Merker 
 
@@ -48,12 +60,16 @@ Um eine Seite zu kennzeichnen, füge entweder  (Seite in Bearbeitung) oder  als 
 
 Wenn die Arbeit getan ist, vergesse bitte nicht, die Markierungen zu entfernen!
 
+
+
 ## Beispiele
 
 Um dich schnell mit der Struktur und dem Stil des FreeCAD Wikis vertraut zu machen, schaue dir die Modell Seite an: [GuiBefehl Modell](GuiCommand_model/de.md).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 ## Struktur
 
@@ -63,6 +79,8 @@ Um dich schnell mit der Struktur und dem Stil des FreeCAD Wikis vertraut zu mach
 Der [Anlaufstelle für Anwender](User_hub/de.md) bietet ein [Inhaltsverzeichnis](Online_Help_Toc/de.md). Dies wird als Hauptreferenz für die automatische Erstellung der Hilfe ohne Internetverbindung, die du von FreeCAD aus erreichen kannst, sowie der PDF Dokumentation ohne Internetverbindung verwendet.
 
 Die Vorlage [Template:Docnav](Template_Docnav.md) dient dem sequentiellen Verweisen von Seiten, entsprechend der Struktur des Inhaltsverzeichnisses der [Online-Hilfe](Online_Help_Toc/de.md). Siehe Tabelle [Vorlagen](#Vorlagen.md) für eine Liste aller Vorlagen.
+
+
 
 ### Seitennamen
 
@@ -80,9 +98,13 @@ Guter Seitenname:
 
 Die Arbeitsbereichsseite der obersten Ebene muss das Format XYZ Arbeitsbereich haben, wobei XYZ der Name des Arbeitsbereichs ist, zum Beispiel [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md). Und die Namen der Seiten, die die Befehle (oder Werkzeuge) beschreiben, die zu einem Arbeitsbereich gehören, müssen dieses Format haben: XYZ Befehl, zum Beispiel [PartDesign Polster](PartDesign_Pad/de.md). Beachte, dass du den Befehlsnamen so verwenden solltest, wie er im Quellcode vorkommt.
 
+
+
 ### Oberbegriffe
 
 Absatzüberschriften sollten kurz sein und \"Sentence Case\" verwenden: Alle Wörter, außer dem ersten und Namen (proper names), sollten kleingeschrieben werden. Man sollte keine H1 Überschriften (= Überschrift =) als Wiki-Textauszeichnung verwenden, da der Seitentitel automatisch als Hauptüberschrift H1 hinzugefügt wird.
+
+
 
 ### Verweise
 
@@ -140,6 +162,8 @@ Wenn du den optionalen Text weglässt, wird der Verweis selbst beim Schweben üb
 
 ![](images/)_[Linienzug](Draft_Wire/de.md)
 
+
+
 ### Arbeitsbereichsseiten
 
 Jede Seite eines Arbeitsbereichs sollte mit
@@ -150,11 +174,15 @@ Jede Seite eines Arbeitsbereichs sollte mit
 
 Siehe [#Screen capture](#Screen_capture.md) für Konventionen zum Einbeziehen von Bildern.
 
+
+
 ### Befehlsseiten
 
 Die Befehlsseiten, die die Arbeitsbereichswerkzeuge beschrieben werden, sollten nicht zu lang sein, sie sollten nur erklären, was ein Befehl tun kann und was nicht, und wie man ihn benutzt. Du solltest Bilder und Beispiele auf ein Minimum beschränken; Tutorien können die Anwendung des Werkzeugs erweitern und Schritt für Schritt Details liefern.
 
 Bitte beziehe dich auf die [GuiBefehlsmodell](GuiCommand_model/de.md) seite für weitere Details.
+
+
 
 ### Tutorien
 
@@ -171,6 +199,8 @@ Für Beispiele besuche die [Tutorien](Tutorials/de.md) Seite.
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
+
+
 ## Vorlagen
 
 
@@ -179,6 +209,8 @@ Für Beispiele besuche die [Tutorien](Tutorials/de.md) Seite.
 Das Gestalten der FreeCAD Wiki Seiten wird durch die Verwendung von Vorlagen ([Help:Editing#Templates_and_transcluding_pages](Help:Editing#Templates_and_transcluding_pages.md)) erreicht. Sie sorgen für ein einheitliches Erscheinungsbild aller Seiten und ermöglichen es auch, das Wiki neu zu gestalten. Die komplette Liste der definierten Vorlagen kannst du unter [Special:PrefixIndex/Template:](Special:PrefixIndex/Template:.md) einsehen. Bitte verwende aber nur die in den Tabellen unten aufgeführten Vorlagen. Nur in ganz speziellen Fällen solltest du HTML Kennzeichen direkt verwenden.
 
 Klicke auf den Vorlagenverweis, um die Gebrauchsanweisungen für eine Vorlage und ihre Einführung zu sehen. Vorlagen sind eine leistungsstarke Funktion der MediaWiki Software; Du solltest ein erfahrener Wiki Benutzer sein, wenn du Ergänzungen und Änderungen an bestehenden Vorlagen vorschlagen möchtest. Wenn Vorlagen falsch implementiert sind, erschweren sie die Übersetzung von Seiten in andere Sprachen, so dass ihre Verwendung auf die Textformatierung beschränkt werden sollte; Seitentransklusion sollte vermieden werden. Siehe [MediaWiki Hilfe:Vorlagen](https://www.mediawiki.org/wiki/Help:Templates), um mehr zu erfahren.
+
+
 
 ### Einfache Vorlagen 
 
@@ -221,6 +253,10 @@ Diese Vorlagen akzeptieren einen einfachen Textparameter und formatieren es mit 
 ++++
 | [ComboBox](Template_ComboBox.md)                                                                      |                       | Verwende es, um eine ComboBox in der grafischen Benutzeroberfläche anzuzeigen, die geändert werden muss.                                                                                                                                                                                                       |
 |                                                                                                               | {{ComboBox|Menu 1}}                  |                                                                                                                                                                                                                                                                                                                |
+|                                                                                                               |                                   |                                                                                                                                                                                                                                                                                                                |
+++++
+| [LineEdit](Template_LineEdit.md)                                                                      |                       | Use it to indicate a LineEdit in the graphical user interface that needs to be modified.                                                                                                                                                                                                                       |
+|                                                                                                               | {{LineEdit|Metal Nickel (Ni)}}       |                                                                                                                                                                                                                                                                                                                |
 |                                                                                                               |                                   |                                                                                                                                                                                                                                                                                                                |
 ++++
 | [FALSE](Template_FALSE.md), [false](Template_false.md)                                        |                       | Verwende es, um z.B. einen falschen booleschen Wert als Eigenschaft im [Eigenschaftseditor](property_editor/de.md) anzuzeigen. Dies ist eine Abkürzung. Da es sich um einen Wert handelt, bevorzuge Vorlage [Wert](Template_Value.md) {{Value|falsch}}                           |
@@ -289,6 +325,8 @@ Diese Vorlagen akzeptieren einen einfachen Textparameter und formatieren es mit 
 |                                                                                                               | {{ColoredParagraph|Farbiger Absatz}} |                                                                                                                                                                                                                                                                                                                |
 |                                                                                                               |                                   |                                                                                                                                                                                                                                                                                                                |
 ++++
+
+
 
 ### Komplexere Vorlagen 
 
@@ -360,6 +398,8 @@ Diese Vorlagen erfordern mehr Eingabeparameter oder erzeugen einen Textblock mit
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
+
+
 ## Grafiken
 
 
@@ -371,11 +411,15 @@ Vermeide animierte Bilder (GIF) in den allgemeinen Hilfeseiten. Animationen und 
 
 Bilder müssen über die [Special:Upload](Special_Upload.md) Seite hochgeladen werden.
 
+
+
 ### Namen
 
 Gib deinem Bild einen aussagekräftigen Namen. Wenn dein Bild Merkmale eines bestimmten Befehls darstellt, solltest du den originalen, englischen Namen des Befehls mit `_example` am Ende verwenden.
 
 -   Für den Befehl [Draft Versetzen](Draft_Offset/de.md) sollte das Bild `Draft_Offset_example.png` heißen.
+
+
 
 ### Bildschirmerfassung
 
@@ -395,6 +439,8 @@ Um einen Bildschirmphoto zu erstellen, kannst du die von deinem Betriebssystem b
 
 Um die Übersetzung der Dokumentation zu erleichtern, machen Sie separate Bilder von der Benutzeroberfläche und dem 3D-Modell-Viewport. Das Bild des 3D-Modells kann bei jeder Übersetzung wiederverwendet werden, während ein Übersetzer bei Bedarf ein Bild der lokalisierten Oberfläche machen kann.
 
+
+
 ### Symbole und Grafiken 
 
 Verweise auf die [Illustrationen](Artwork/de.md) Seite für alle Illustrationen und Symbole, die für FreeCAD erstellt wurden und die sofort in den Dokumentationsseiten wiederverwendet werden können. Wenn du mit Symbolen beitragen möchtest, lies bitte die [Richtlinien für Illustrationen](Artwork_Guidelines/de.md).
@@ -407,6 +453,8 @@ Verweise auf die [Illustrationen](Artwork/de.md) Seite für alle Illustrationen 
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 ## Übersetzungen
 
@@ -423,7 +471,11 @@ Weitere hilfreiche Quellen sind:
 -   [Google Translate](http://translate.google.com/): zur Hilfe beim Übersetzen.
 -   [Deepl translator](https://www.deepl.com/translator): zur Hilfe beim Übersetzen.
 
+
+
 ## Einige Hinweise für Übersetzer 
+
+
 
 ### GUIBefehl Übersetzen 
 
@@ -448,6 +500,8 @@ Weitere hilfreiche Quellen sind:
     |SeeAlso=[FEM Tutoriel](FEM_tutorial/fr.md)
     }}
 
+
+
 ### Navi Übersetzen 
 
     {{FEM_Tools_navi}}
@@ -456,6 +510,8 @@ Weitere hilfreiche Quellen sind:
 
     {{FEM_Tools_navi/fr}}
 
+
+
 ### Verweis Übersetzen 
 
     [Part Module](Part_Module.md)
@@ -463,6 +519,8 @@ Weitere hilfreiche Quellen sind:
 Übersetzt:
 
     [Atelier Part](Part_Module/fr.md)
+
+
 
 ### Docnav Übersetzen 
 
@@ -486,7 +544,11 @@ Beispiel mit Symbolen:
 
 </div>
 
+
+
 ## Erstellen, umbenennen und löschen von Seiten 
+
+
 
 ### Seiten erstellen 
 
@@ -497,6 +559,8 @@ Um eine neue Seite zu erstellen, hat man folgende Möglichkeiten:
 -   Die URL mit dem gewünschten Seitennamen aufrufen, z.B.: https://wiki.freecadweb.org/Meine_Neue_Seite/de, und auf \'Erstellen\' klicken.
 -   Eine Wiki-Suche nach dem Seitennamen durchführen und auf den roten Text in \'Erstelle die Seite \"Meine Neue Seite\" in diesem Wiki.\' klicken.
 
+
+
 ### Seiten umbenennen 
 
 Da FreeCAD ein Projekt ist, das ständig weiterentwickelt wird, ist es manchmal notwendig, den Inhalt des Wikis zu überarbeiten. Wenn die Namen von Befehlen im Quellcode geändert werden, müssen die Wiki Seiten, die sie dokumentieren, ebenfalls umbenannt werden. Dies kann nur von den Wiki Administratoren durchgeführt werden. Um diese zu informieren, eröffne ein Thema im [Wiki Forum](https://forum.freecadweb.org/viewforum.php?f=21) und liste den notwendigen Umbenennungsvorgang in diesem Formular auf:
@@ -506,21 +570,31 @@ Da FreeCAD ein Projekt ist, das ständig weiterentwickelt wird, ist es manchmal 
     Old_page_name_2  New_page_name_2
     ...
 
+
+
 ### Löschen von Dateien und Seiten 
 
 Falls du eine Datei löschen musst, gehe auf seine Seite (https://www.freecadweb.org/wiki/File:***.***) und bearbeite sie. Unabhängig davon, ob die Seite leer ist oder nicht, füge diesen Befehl als erstes Element der Seite hinzu: {{Delete}} und beschreibe unmittelbar darunter, warum die Seite gelöscht werden soll. Zusätzlich eröffne ein Thema im [Wiki Forum](https://forum.freecadweb.org/viewforum.php?f=21).
 
 Für Seiten ist das Verfahren dasselbe.
 
+
+
 ## Diskussion
 
 Das [Entwicklung/Wiki Unterforum](http://forum.freecadweb.org/viewforum.php?f=21) im [FreeCAD Forum](https://forum.freecadweb.org) bietet einen speziellen Raum für die Diskussion von Verbesserungen der Wiki Themen und des Erscheinungsbildes. Dort kann man Fragen stellen und Vorschläge anbringen.
 
+
+
 ## Terminologie - Benennungspolitik 
+
+
 
 ### Englisch
 
 Siehe [Glossar](Glossary/de.md)
+
+
 
 ### Andere Sprachen 
 

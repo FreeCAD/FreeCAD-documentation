@@ -13,15 +13,20 @@ Un contrôleur d\'outil porte des propriétés sur la manière dont un outil doi
 
 Par exemple, un outil, comme un couteau 1/4 pouce, peut fonctionner à différentes vitesses de broche et vitesses d'avance. Le même outil peut être utilisé de différentes manières dans le même travail.
 
+
+
 ## Propriétés
 
-feed speed (h) feed speed (v)
+-   **feed speed (h)**
+-   **feed speed (v)**
 
-rapid speed (h) rapid speed (v)
+-   **rapid speed (h)**
+-   **rapid speed (v)**
 
-Spindle Speed (rpm) Spindle direction (forward/reverse)
+-   **Spindle Speed (rpm)**
+-   **Spindle direction (forward/reverse)**
 
-Tool Number
+-   **Tool Number**
 
 
 

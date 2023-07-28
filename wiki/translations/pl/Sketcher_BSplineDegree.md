@@ -1,24 +1,29 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher BSplineDegree
-   MenuLocation:Sketch → Sketcher B-spline tools → Show/hide B-spline degree
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Stopień krzywej złożonej
+   MenuLocation:Szkic → Narzędzia szkicownika krzywej złożonej → Pokaż / ukryj stopień krzywej złożonej
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[Sketcher Create B-spline](Sketcher_CompCreateBSpline.md)
+   SeeAlso:[Komponent utwórz krzywą złożoną](Sketcher_CompCreateBSpline/pl.md)
 ---
 
 # Sketcher BSplineDegree/pl
 
-## Description
 
-Shows or hides the display of the **degree** of a B-spline (see [this page](B-Splines.md) for more info about B-splines).
+
+## Opis
+
+Pokazuje lub ukrywa wyświetlanie *stopnia* krzywej złożonej *(zobacz stronę [Krzywe złożone](B-Splines/pl.md) aby dowiedzieć się więcej)*.
 
 ![](images/Sketcher_B-spline_example01.png ) 
-*A B-spline curve. The green digit "3" in the center denotes the degree of the B-spline.*
+*A Krzywa złożona. Zielona cyfra "3" w środku oznacza stopień krzywej złożonej.*
 
-## Usage
 
-1.  Select a B-spline and use the toolbar button **[<img src=images/Sketcher_BSplineDegree.svg style="width:16px"> [ Show/hide B-spline degree](Sketcher_BSplineDegree.md)**.
+
+## Użycie
+
+1.  Wybierz krzywą złożoną i użyj przycisku na pasku narzędzi **[<img src=images/Sketcher_BSplineDegree.svg style="width:16px"> [Pokaż / ukryj stopień krzywej złożonej](Sketcher_BSplineDegree/pl.md)**.
 
 
 

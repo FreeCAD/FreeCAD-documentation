@@ -1,6 +1,8 @@
 # PySide Advanced Examples/ru
 {{TOCright}}
 
+
+
 ## Введение
 
 The purpose of this page is to cover advanced level examples of the [PySide](PySide.md) GUI manager (there are accompanying pages [PySide Beginner Examples](PySide_Beginner_Examples.md) and [PySide Intermediate Examples](PySide_Intermediate_Examples.md)).
@@ -11,7 +13,7 @@ By using the PySide module from inside FreeCAD, you have full control over its i
 -   Add or hide elements to existing panels
 -   Change, redirect or add connections between all those elements
 
-## Create Reference for the Main Window 
+## Create Reference to the Main Window 
 
 If you want to work on the FreeCAD interface, the very first thing to do is create a reference to the FreeCAD main window:
 

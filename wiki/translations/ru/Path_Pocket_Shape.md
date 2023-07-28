@@ -13,13 +13,17 @@
 
 </div>
 
+
+
 ## Описание
 
-This tool creates a pocketing operation from selected bottom faces, or walls, of one ore more pockets of the jobs base object.
+The <img alt="" src=images/Path_Pocket_Shape.svg  style="width:16px;"> [Pocket Shape](Path_Pocket_Shape.md) tool creates a pocketing operation from selected bottom faces, or walls, of one or more pockets of the jobs base object.
 
 The Path Pocket Shape object is made to be part of a <img alt="" src=images/Path_Job.svg  style="width:24px;"> [Path Job](Path_Job.md).
 
 <img alt="" src=images/Path_Pocket_Shape_example.png  style="width:600px;">
+
+
 
 ## Применение
 
@@ -28,6 +32,8 @@ The Path Pocket Shape object is made to be part of a <img alt="" src=images/Path
     -   Press the **<img src="images/Path_Pocket_Shape.svg" width=16px> [Path Pocket Shape](Path_Pocket_Shape.md)** button.
     -   Select the **Path → <img src="images/Path_Pocket_Shape.svg" width=16px> Pocket Shape** option from the menu.
 3.  Adjust the desired properties.
+
+
 
 ## Свойства
 
@@ -48,42 +54,42 @@ Note: It is suggested that you do not edit the Placement property of path operat
     -   
         **Axis**
         
-        : Axis(one or multiple) around which to rotate the object, set in sub-properties: x, y, z
+        : Axis (one or multiple) around which to rotate the object, set in sub-properties: X, Y, Z
 
         -   
             **X**
             
-            : x axis value
+            : X axis value
 
         -   
             **Y**
             
-            : y axis value
+            : Y axis value
 
         -   
             **Z**
             
-            : z axis value
+            : Z axis value
 
     -   
         **Position**
         
-        : Position of the object, set in sub-properties: x, y, z - with respect to the origin (or origin of parent object container)
+        : Position of the object, set in sub-properties: X, Y, Z - with respect to the origin (or origin of parent object container)
 
         -   
             **X**
             
-            : x distance value
+            : X distance value
 
         -   
             **Y**
             
-            : y distance value
+            : Y distance value
 
         -   
             **Z**
             
-            : z distance value
+            : Z distance value
 
 -    **Label**: User-provided name of the object (UTF-8)
 
@@ -120,7 +126,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 {{TitleProperty|Path}}
 
--    **Active**: make False, to prevent operation from generating code
+-    **Active**: Make False, to prevent operation from generating code
 
 -    **Comment**: An optional comment for this Operation
 
@@ -133,15 +139,15 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Cut Mode**: Specifies a CW or CCW move for the cut
 
--    **Extra Offset**: Extra offset to apply to the operation. Direction is operation dependent. (Extra value to stay away from final profile- *good for roughing toolpath*)
+-    **Extra Offset**: Extra offset to apply to the operation. Direction is operation dependent. (Extra value to stay away from final profile *good for roughing toolpath*)
 
 -    **Keep Tool Down**: Attempts to avoid unnecessary retractions.
 
 -    **Min Travel**: Use 3D Sorting of Path (when multiple base geometries used).
 
--    **Start At**: Start pocketing at center or boundary
+-    **Start At**: Start pocketing at center or boundary.
 
--    **Step Over**: Select the horizontal step over (**Percent** of tool diameter: 100% = tool diameter)
+-    **Step Over**: Select the horizontal step over (**Percent** of tool diameter: 100% = tool diameter).
 
 -    **Use Outline**: Uses the outline of the base geometry.
 
@@ -162,19 +168,21 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 {{TitleProperty|Start Point}}
 
--    **Start Point**: The start point of this path
+-    **Start Point**: The start point of this path.
 
--    **Use Start Point**: make True, if manually specifying a Start Point, then enter Start Points in the property data Start Points field
+-    **Use Start Point**: Make True, if manually specifying a Start Point, then enter Start Points in the property data Start Points field.
 
 ## Tasks Window Editor Layout 
 
-*Descriptions for the settings are provided in the Properties list above.* This section is simply a layout map of the settings in the window editor for the Operation.
+*Descriptions for the settings are provided in the Properties list above.*
+
+This section is simply a layout map of the settings in the window editor for the Operation.
 
 ### Base Geometry 
 
--   **Add**: adds selected element(s) which should be the base(s) for the path(s)
--   **Delete**: delete the selected item(s) in the Base Geometry list
--   **Clear**: clear all items in the Base Geometry list
+-   **Add**: Adds selected element(s) which should be the base(s) for the path(s)
+-   **Delete**: Delete the selected item(s) in the Base Geometry list
+-   **Clear**: Clear all items in the Base Geometry list
 
 ### Extensions
 

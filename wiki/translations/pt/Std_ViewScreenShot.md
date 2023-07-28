@@ -14,8 +14,8 @@ The **Std ViewScreenShot** command opens a dialog box to create an image file, a
 
 ## Usage
 
-1.  Select the **Tools → <img src="images/Std_ViewScreenShot.svg" width=16px> Save picture...** option from the menu.
-2.  The Save picture dialog box opens.
+1.  Select the **Tools → <img src="images/Std_ViewScreenShot.svg" width=16px> Save image...** option from the menu.
+2.  The Save image dialog box opens.
 3.  Optionally press the **Extended** button to reveal an additional panel in the dialog box. For more information see [Options](#Options.md).
 4.  Optionally browse to the correct folder.
 5.  Enter a filename and select the file type.

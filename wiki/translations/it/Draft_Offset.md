@@ -2,131 +2,100 @@
 - GuiCommand:/it
    Name:Draft Offset
    Name/it:Offset
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation:Draft → Offset
+   MenuLocation:Modifiche → Offset
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**O** **S**
-   SeeAlso:[Scala](Draft_Scale/it.md), [Part Offset 2D](Part_Offset2D/it.md)
+   SeeAlso:[Part Offset 2D](Part_Offset2D/it.md)
 ---
 
 # Draft Offset/it
 
 
-</div>
-
-
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_Offset.svg  style="width:24px;"> **Offset** sposta ogni segmento di un oggetto selezionato ad una determinata distanza, o crea una copia traslata dell\'oggetto selezionato.
 
-<div class="mw-translate-fuzzy">
-
-Lo strumento Offset sposta l\'oggetto selezionato di una determinata distanza (offset) perpendicolare a se stesso.
-
-
-</div>
-
-<img alt="" src=images/Draft_Offset_example.jpg  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Offset di un contorno a una certa distanza da uno dei suoi bordi*
-
-
-</div>
+<img alt="" src=images/Draft_Offset_example.jpg  style="width:400px;"> 
+*Offset di una Polilinea*
 
 
 
 ## Utilizzo
 
-See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare l\'oggetto che si desidera scostare.
-2.  Premere il pulsante **<img src="images/Draft_Offset.svg" width=16px> Offset**, o premere i tasti **O** e **S**. Se nessun oggetto è selezionato, si viene invitati a selezionarne uno.
-3.  Selezionare un punto nella vista 3D, o fornire una distanza
-
-
-</div>
+1.  Facoltativamente selezionare un oggetto. L\'oggetto deve trovarsi sul [piano di lavoro](Draft_SelectPlane/it.md).
+2.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_Offset.svg" width=16px> [Offset](Draft_Offset/it.md)**.
+    -   Selezionare l\'opzione **Modifiche → <img src="images/Draft_Offset.svg" width=16px> Offset** dal menu.
+    -   Usare la scorciatoia da tastiera: **O** poi **S**.
+3.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto nella [Vista 3D](3D_view/it.md).
+4.  Si apre il pannello attività **Offset**. Vedere [Opzioni](#Opzioni.md) per maggiori informazioni.
+5.  Per definire la distanza di offset, eseguire una delle seguenti operazioni:
+    -   Scegliere un punto nella [Vista 3D](3D_view/it.md).
+    -   Inserire un valore numerico:
+        1.  Assicurarsi che il puntatore si trovi sul lato corretto dell\'oggetto nella [Vista 3D](3D_view/it.md).
+        2.  Non spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md).
+        3.  Inserire una **Distanza**.
+        4.  Premere **Enter** per terminare il comando.
 
 
 
 ## Opzioni
 
-The single character keyboard shortcuts and the modifier keys mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
+Le scorciatoie da tastiera a carattere singolo menzionate qui possono essere modificate. Vedere [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
+
+-   Se la casella di controllo **Offset in OCC** è selezionata, viene utilizzato uno stile di offset speciale: le [Polilinee](Draft_Wire/it.md) aperte sono sfalsate su entrambi i lati e i nuovi bordi sono collegati con angoli arrotondati. Questo funziona solo per oggetti planari Draft con almeno due spigoli dritti. Si noti che con questo stile viene creato un nuovo oggetto non parametrico e, se la modalità di copia è disattivata, l\'oggetto originale viene eliminato.
+-   Premere **P** o fare clic sulla casella di controllo **Copia** per attivare o disattivare la modalità di copia. Se la modalità copia è attiva, il comando creerà una copia sfalsata invece di sfalsare l\'oggetto originale.
+-   Tenendo premuto **Alt** prima di selezionare i punti nella [Vista 3D](3D_view/it.md) si attiverà anche la modalità di copia. Mentre si tiene premuto **Alt** è possibile selezionare più punti di offset. Rilasciare **Alt** per terminare il comando e vedere le copie create.
+-   Tenere premuto **Maiusc** per mantenere la distanza di offset collegata al segmento corrente.
+-   Premere **S** per attivare o disattivare [Aggancia](Draft_Snap/it.md).
+-   Premere **Esc** o il pulsante **Chiudi** per interrompere il comando.
 
 
-<div class="mw-translate-fuzzy">
 
--   Premere il tasto **P** o fare clic sulla casella di controllo per attivare la modalità *copia*. Se la modalità copia è attiva, lo strumento Offset mantiene la forma originale al suo posto e crea una copia ridimensionata nel punto selezionato.
--   Tenere premuto **Alt** mentre si seleziona il punto per attivare o disattivare la modalità di copia. Tenendo premuto **Alt** si può continuare a posizionare delle copie offset; rilasciare **Alt** per terminare l\'operazione e vedere tutte le forme di offset.
--   Fare clic sulla casella di controllo \"OCC-style\" per attivare la modalità \"OCC\". Ciò crea un offset da entrambi i lati di un segmento di linea, che produce una speciale forma chiusa con i bordi arrotondati alle estremità dei segmenti.
+## Note
 
-:   
-    **Nota:**con questo stile i segmenti originali vengono rimossi, quindi utilizzare la modalità copia per conservare i bordi originali.
-
--   Tenere premuto **Ctrl** mentre si si crea l\'offset per [agganciare](Draft_Snap/it.md) in modo forzato il punto di snap più vicino, indipendentemente dalla distanza.
--   Tenere premuto **Maiusc** per mantenere la distanza di offset riferita al segmento corrente ed evitare di selezionare un altro riferimento.
--   Premere il tasto **Esc** o il pulsante **Chiudi** per interrompere il comando corrente; le copie offset già posizionate rimangono.
+-   Per creare una versione offset di una [BSpline](Draft_BSpline/it.md) i suoi punti vengono sfalsati singolarmente e dai nuovi punti viene calcolata una nuova spline. Questa nuova spline non è parallela alla spline originale. Per un esatto offset parallelo di una [BSpline](Draft_BSpline/it.md) si dovrebbe utilizzare il comando [Part Offset2D](Part_Offset2D/it.md).
+-   Il comando Draft Offset non può gestire [BezCurves](Draft_BezCurve/it.md). Utilizzare invece il comando [Part Offset2D](Part_Offset2D/it.md).
 
 
-</div>
 
-## Notes
+## Preferenze
 
--   To create an offset version of a [Draft BSpline](Draft_BSpline.md) its points are offset individually, and from the new points a new spline is calculated. This new spline is not parallel to the original spline. For an exact parallel offset of a [Draft BSpline](Draft_BSpline.md) the [Part Offset2D](Part_Offset2D.md) command should be used.
--   The Draft Offset command cannot handle [Draft BezCurves](Draft_BezCurve.md). Use the [Part Offset2D](Part_Offset2D.md) command instead.
+Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
 
-## Preferences
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of the distance: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
-
-## Scripting
+-   Per modificare il numero di decimali utilizzati per l\'inserimento delle coordinate: **Modifica → Preferenze... → Generale → Unità → Impostazioni unità → Numero di cifre decimali**.
 
 
-<div class="mw-translate-fuzzy">
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-**Vedere anche:**
-
-[Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Offset può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
+Per sfalsare gli oggetti usare il metodo `offset` del modulo Draft. Il metodo può gestire solo [Polilinee](Draft_Wire/it.md), [Cerchi](Draft_Circle/it.md), [Rettangoli](Draft_Rectangle/it.md), [ Poligoni](Draft_Polygon/it.md) e [BSplines](Draft_BSpline/it.md).
 
 
 ```python
 offset_obj = offset(obj, delta, copy=False, bind=False, sym=False, occ=False)
 ```
 
+-    `obj`è l\'oggetto da sfalsare.
 
-<div class="mw-translate-fuzzy">
+-    `delta`contiene le informazioni sull\'offset:
 
--   Crea un offset del dato contorno `obj` applicando il `delta` dato, definito come un vettore, al suo primo vertice.
--   Se `copy` è `True` viene creato un altro oggetto invece di ridimensionare l\'oggetto originale.
--   Se `bind` è `True`, e a condizione che l\'oggetto contorno sia aperto, l\'originale e l\'offset sono uniti nei loro punti finali, formando una faccia.
-    -   Se `sym` è `True`, e anche `bind` è `True`, e l\'offset è fatto su entrambi i lati del contorno, la larghezza totale è la larghezza del vettore dato.
--   Se `occ` è `True`, utilizzerà lo sfalsamento in stile OCC: crea un offset su entrambi i lati, quindi unisce i nuovi contorni e arrotonda gli angoli.
--   Restituisce un`Offsetobj` con l\'oggetto offset originale o con la nuova copia.
+    -   Per [Polilinee](Draft_Wire/it.md), [Rettangoli](Draft_Rectangle/it.md) e [Poligoni](Draft_Polygon/it.md) è un vettore di offset che deve essere perpendicolare al primo segmento dell\'oggetto.
+    -   Per [Cerchi](Draft_Circle/it.md) è il nuovo raggio.
+    -   Per [BSplines](Draft_BSpline/it.md) è un elenco di nuovi punti.
 
+-   Se `copy` è `True` l\'oggetto originale viene mantenuto e viene creato un nuovo oggetto.
 
-</div>
+-   Se `bind` è `True` viene creata una faccia collegando la forma dell\'oggetto originale e la forma del suo offset. Funziona solo per [Polilinee](Draft_Wire/it.md).
+
+-   Se `sym` è `True`, e anche `bind` è `True`, l\'offset viene eseguito su entrambi i lati dell\'oggetto originale, la larghezza totale è la lunghezza del vettore dato. Funziona solo per [Polilinee](Draft_Wire/it.md).
+
+-   Se `occ` è `True` viene utilizzato l\'offset in stile OCC. Vedere [Opzioni](#Opzioni.md). Se `occ` è `True` gli argomenti `bind` e `sym` vengono ignorati.
 
 Esempio:
 
@@ -153,15 +122,6 @@ offset5 = Draft.offset(wire, 1.5*vector, copy=True, occ=True)
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

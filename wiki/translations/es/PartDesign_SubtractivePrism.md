@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 Inserta un Prisma sustractivo en el Body (cuerpo) activo. Su forma es sustraída del sólido existente.
@@ -20,6 +22,8 @@ Inserta un Prisma sustractivo en el Body (cuerpo) activo. Su forma es sustraída
 ![](images/PartDesign_SubtractivePrism_example.svg )
 
 *A la izquierda: Body activo (A) mostrado en color gris y el Prisma sustractivo (B) mostrado en color rojo transparente. El resultado se puede apreciar a la derecha.*
+
+
 
 ## Uso
 
@@ -34,14 +38,24 @@ Inserta un Prisma sustractivo en el Body (cuerpo) activo. Su forma es sustraída
 
 </div>
 
+
+
 ## Opciones
 
+
+<div class="mw-translate-fuzzy">
+
 Es posible crear prismas torcidos especificando ángulos con respecto al vector normal del adjunto seleccionado. {{Version/es|0.19}}
+
+
+</div>
 
 Tras su creación, el Prisma puede ser editado de dos maneras:
 
 -   Haciendo doble clic con el ratón sobre el árbol del Modelo, o pinchando con el botón derecho y seleccionando **Editar primitiva** en el menú contextual. Con ello se abre la ventana de selección de parámetros de la Primitiva.
 -   Por medio del [Editor de propiedades](Property_editor/es.md).
+
+
 
 ## Propiedades
 

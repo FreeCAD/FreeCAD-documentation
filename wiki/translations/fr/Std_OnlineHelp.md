@@ -5,16 +5,18 @@
    MenuLocation:Aide → Aide
    Workbenches:Tous
    Shortcut:**F1**
-   SeeAlso:[Std Qu'est-ce que c'est?](Std_WhatsThis/fr.md)
+   SeeAlso:[Std Qu'est-ce que c'est ?](Std_WhatsThis/fr.md)
 ---
 
 # Std OnlineHelp/fr
 
 ## Description
 
-La commande **Std Aide** ouvre la documentation d\'aide. Pour ouvrir la documentation d\'une commande spécifique, utilisez la commande [Std Qu\'est-ce que c\'est?](Std_WhatsThis/fr.md).
+La commande **Std Aide** ouvre la documentation d\'aide. Pour ouvrir la documentation d\'une commande spécifique, utilisez la commande [Std Qu\'est-ce que c\'est ?](Std_WhatsThis/fr.md).
 
 Dans FreeCAD {{VersionPlus/fr|0.20}}, cette commande nécessite l\'[extension Help](https://github.com/FreeCAD/FreeCAD-Help).
+
+
 
 ## Utilisation
 
@@ -23,6 +25,8 @@ Dans FreeCAD {{VersionPlus/fr|0.20}}, cette commande nécessite l\'[extension He
     -   Sélectionnez l\'option **Aide → <img src="images/Std_OnlineHelp.svg" width=16px> Aide** du menu.
     -   Utilisez le raccourci clavier : **F1**.
 3.  La documentation d\'aide s\'ouvre.
+
+
 
 ## Remarques
 

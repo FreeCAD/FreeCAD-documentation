@@ -2,7 +2,7 @@
 - GuiCommand:/de
    Name:TechDraw Dimension Length
    Name/de:TechDraw Längenmaß
-   MenuLocation:TechDraw → Bemaßungen → Längenmaß einfügen
+   MenuLocation:TechDraw → Maßeinträge → Längenmaß einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    SeeAlso:[TechDraw MaßHorizontal](TechDraw_HorizontalDimension/de.md), [TechDraw MaßVertikal](TechDraw_VerticalDimension/de.md)
 ---
@@ -13,31 +13,72 @@
 
 ## Beschreibung
 
-Das Werkzeug <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:24px;"> **TechDraw Längenmaß** fügt einer Ansicht ein lineares Maß hinzu. Das Längenmaß kann der Abstand zwischen zwei Eckpunkten, die Länge einer Kante oder der Abstand zwischen zwei Kanten sein. Das Maß stellt zunächst den projizierten Abstand dar (wie in der Zeichnung abgebildet). Wenn das Maß auf 3D-Referenzen basiert, kann es auf die tatsächliche Länge geändert werden, indem seine {{PropertyData/de|Measure Type}} auf {{Value|True}} gesetzt wird.
 
-<img alt="" src=images/TechDraw_Dimension_Length_example.png  style="width:220px;"> 
-*Längenbemaßung zweier beliebiger Knoten der Ansicht*
+<div class="mw-translate-fuzzy">
+
+Das Werkzeug **TechDraw Längenmaß** fügt einer Ansicht ein lineares Maß hinzu. Das Längenmaß kann der Abstand zwischen zwei Eckpunkten, die Länge einer Kante oder der Abstand zwischen zwei Kanten sein. Das Maß stellt zunächst den projizierten Abstand dar (wie in der Zeichnung abgebildet). Wenn das Maß auf 3D-Referenzen basiert, kann es auf die tatsächliche Länge geändert werden, indem seine {{PropertyData/de|Measure Type}} auf {{Value|True}} gesetzt wird.
+
+
+</div>
+
+<img alt="" src=images/TechDraw_Dimension_Length_example.png  style="width:220px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+*Längenmaß als Abstand zweier beliebiger Knoten der Ansicht*
+
+
+</div>
 
 
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Die Punkte oder die Kante auswählen, die die Messung definieren. Die Geometrie kann in der Zeichnung oder in der [3D-Ansicht](3D_view/de.md) ausgewählt werden.
 2.  Es gibt verschiedene Möglichkeiten das Werkzeug aufzurufen:
     -   Die Schaltfläche **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Längenmaß einfügen](TechDraw_LengthDimension/de.md)** drücken.
-    -   Den Menüeintrag **TechDraw → <img src="images/TechDraw_LengthDimension.svg" width=16px> Längenmaß einfügen** auswählen.
+    -   Den Menüeintrag **TechDraw → Maßeinträge → <img src="images/TechDraw_LengthDimension.svg" width=16px> Längenmaß einfügen** auswählen.
 3.  Ein Maß wird der Ansicht hinzugefügt. Das Maß kann an die gewünschte Position gezogen werden.
 4.  Falls erforderlich, können Toleranzen, wie auf der [GD&T-Seite](TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen.md) beschrieben, hinzugefügt werden.
 
+
+</div>
+
+
+
+### 3D-Abmessungen anzeigen 
+
+The dimension will initially display the projected measurement (i.e. as shown in the drawing). If required, and if the dimension is based on 3D references, it can be changed to the actual 3D measurement by changing its **Measure Type** property to {{Value|True}}. To base a dimension on 3D references select geometry from the [3D view](3D_view.md) at creation time, or use the <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:16px;"> [TechDraw DimensionRepair](TechDraw_DimensionRepair.md) tool to update existing dimensions.
+
+### Change properties 
+
+
+<div class="mw-translate-fuzzy">
+
 Um die Eigenschaften eines Maßes (Dimension-Objekt) zu ändern, wird es in der Zeichnung oder in der [Baumansicht](Tree_view/de.md) doppelt angeklickt. Dadurch wird der Dialog Maßeintrag geöffnet.
+
+
+</div>
 
 
 
 ## Dialog Maßeintrag 
 
-Der Dialog Maßeintrag ermöglicht die folgenden Einstellungen:
+
+<div class="mw-translate-fuzzy">
 
 ![](images/TechDraw_DimensionDialog.png )
+
+
+</div>
+
+Der Dialog Maßeintrag ermöglicht die folgenden Einstellungen:
 
 
 
@@ -94,6 +135,46 @@ Der Dialog Maßeintrag ermöglicht die folgenden Einstellungen:
 -   **Standardwert verwenden**: Setzt den Maßhilfslinienwinkel auf den üblichen Winkel.
 
 -   **Auswahl verwenden**: Setzt den Maßhilfslinienwinkel entsprechend dem Winkel der ausgewählten Kante (oder der 2 Knotenpunkte) in der Ansicht.
+
+
+
+## Begrenzungen
+
+
+<div class="mw-translate-fuzzy">
+
+Dimension-Objekte (Maße) sind anfällig für das \"[Topological-Naming-Problem](topological_naming_problem/de.md)\" (Problem der topologischen Benennung). Das bedeutet, dass bei einer Änderung der 3D Geometrie die Flächen und Kanten des Modells intern umbenannt werden können; wenn ein Maß an eine Kante angehängt wird, die dann geändert wird, kann das Maß brechen. Im Allgemeinen ist es nicht möglich, die projizierten 2D-Bemaßungen mit den tatsächlichen 3D-Objekten synchronisiert zu halten.
+
+
+</div>
+
+Es wird daher empfohlen, Bemaßungen hinzuzufügen, wenn das 3D Modell nicht mehr verändert wird.
+
+
+
+### Zwischenlösung
+
+
+<div class="mw-translate-fuzzy">
+
+Wenn du eine TechDraw Ansicht mit Bemaßungen behalten möchtest, die nicht brechen, musst du ein Objekt bemaßen, das sich nicht ändert.
+
+-   Wähle das zu projizierende Objekt aus, wechsle dann zur <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md) und verwende **Part → <img src="images/Part_SimpleCopy.svg" width=16px> [Einfache Kopie erstellen](Part_SimpleCopy.md)**. Dadurch wird ein einzelnes Objekt erzeugt, das nicht parametrisch ist, d.h. nicht mehr bearbeitet werden kann.
+-   Wähle diese Kopie aus, verwende dann [TechDraw Ansicht](TechDraw_View/de.md) und füge die gewünschten Bemaßungen hinzu.
+-   Wenn das ursprüngliche 3D Modell geändert wird, wirken sich die Änderungen weder auf die einfache Kopie noch auf die Bemaßungen in der TechDraw Ansicht aus.
+
+
+</div>
+
+Siehe [Leitbemaßungen](TechDraw_LandmarkDimension/de.md) für einen weiteren Ansatz zur Umgehung des Problems der topologischen Benennung.
+
+
+
+## Hinweise
+
+-   **Kantenauswahl**. Die Auswahl von Kanten kann schwierig sein. Der Auswahlbereich für Kanten kann durch Ändern der Einstellung [Auswahlbereich für Kanten](TechDraw_Preferences/de#Erweitert.md) angepasst werden.
+-   **Nachkommastellen**. Maße verwenden standardmäßig die globale Einstellung der Dezimalstellen. Diese kann in den [Einstellungen](TechDraw_Preferences/de#Bemaßungen.md) oder durch Ändern der Eigenschaft FormatSpec geändert werden.
+-   **Mehrere Objekte**. Ansichten können mehrere 3D-Objekte als Quelle enthalten. Maße können zwischen Geometrien verschiedener Objekte der Ansicht erstellt werden (z.B. von Object1.Vertex0 bis Object2.Vertex3).
 
 
 
@@ -188,7 +269,7 @@ Der Dialog Maßeintrag ermöglicht die folgenden Einstellungen:
 
 -    {{PropertyData/de|Format Spec Under Tolerance|String}}: Wie {{PropertyData/de|Format Spec}}, aber für untere Abmaße.
 
--    **Arbitrary|Bool**: Gibt an, ob die Maßzahl durch den Inhalt von **Format Spec** ersetzt wird.
+-    {{PropertyData/de|Arbitrary|Bool}}: Gibt an, ob die Maßzahl durch den Inhalt von **Format Spec** ersetzt wird.
 
 :   
 
@@ -207,7 +288,7 @@ Der Dialog Maßeintrag ermöglicht die folgenden Einstellungen:
 
 {{Properties_Title/de|Override}}
 
--    {{PropertyData/de|AngleOverride|Bool}}: Ob die Richtung der Maßlinien und Maßhilfslinien überschrieben wird.
+-    {{PropertyData/de|Angle Override|Bool}}: Gibt an, ob die Richtung der Maßlinien und Maßhilfslinien überschrieben wird.
 
 :   
 
@@ -219,18 +300,32 @@ Der Dialog Maßeintrag ermöglicht die folgenden Einstellungen:
     :   
         `True`
         
-        \- die Richtungen werden mit den Werten der Eigenschaften LineAngle und ExtensionAngle überschrieben.
+        \- die Richtungen werden mit den Werten der Eigenschaften Line Angle und Extension Angle überschrieben.
 
--    {{PropertyData/de|LineAngle|Angle}}: Winkel zwischen Maßlinie und der X-Achse der Ansicht (in Grad).
+-    {{PropertyData/de|Line Angle|Angle}}: Winkel zwischen Maßlinie und der X-Achse der Ansicht (in Grad).
 
--    {{PropertyData/de|ExtensionAngle|Angle}}: Winkel zwischen Maßlinie(n) und der X-Achse der Ansicht (in Grad).
+-    {{PropertyData/de|Extension Angle|Angle}}: Winkel zwischen Maßlinie(n) und der X-Achse der Ansicht (in Grad).
+
+
+{{Properties_Title|References}}
+
+-    {{PropertyData/de|Saved Geometry|TopoShapeList|Hidden}}: Referenzgeometrie. {{Version/de|0.21}}
 
 
 
 ### Ansicht
 
 
+{{TitleProperty|Basis}}
+
+-    {{PropertyView/de|Keep Label|Bool}}: Nicht verwendet.
+
+-    {{PropertyView/de|Stack Order|Integer}}: Angabe der Lage über oder unter anderen Zeichnungsobjekten. {{Version/de|0.21}}
+
+
 {{Properties_Title|Dimension Format}}
+
+-    {{PropertyView/de|Arrowsize|Length}}: Die Größe der Maßpfeile. {{Version/de|0.21}}
 
 -    {{PropertyView/de|Color}}(Farbe): Farbe für Linien und Text.
 
@@ -252,9 +347,11 @@ Der Dialog Maßeintrag ermöglicht die folgenden Einstellungen:
 
 -    {{PropertyView/de|Fontsize|Length}}(Schrifthöhe): Höhe des Maßtextes.
 
--    **Gap Factor ASME|Float**(Lückenfaktor ASME): Legt die Weite der Lücke zwischen Geometrie und Anfang der Maßhilfslinie fest. Dieser Wert mal der Linienbreite (Line Width) ergibt die Weite der Lücke. {{Version/de|1.0}}
+-    {{PropertyView/de|Gap Factor ASME|Float}}(Lückenfaktor ASME): Legt die Weite der Lücke zwischen Geometrie und Anfang der Maßhilfslinie fest. Dieser Wert mal der Linienbreite (Line Width) ergibt die Weite der Lücke. {{Version/de|0.21}}
 
--    **Gap Factor ISO|Float**(Lückenfaktor ISO): Legt die Weite der Lücke zwischen Geometrie und Anfang der Maßhilfslinie fest. Dieser Wert mal der Linienbreite (Line Width) ergibt die Weite der Lücke. {{Version/de|1.0}}
+-    {{PropertyView/de|Gap Factor ISO|Float}}(Lückenfaktor ISO): Legt die Weite der Lücke zwischen Geometrie und Anfang der Maßhilfslinie fest. Dieser Wert mal der Linienbreite (Line Width) ergibt die Weite der Lücke. {{Version/de|0.21}}
+
+-    {{PropertyView/de|Line Spacing Factor|Float}}(Abstandsfaktor): Stellt den Abstand zwischen Maßzahl und Maßlinie ein. Der Abstand ergibt sich aus diesem Wert mal der Linienbreite. {{Version/de|0.21}}
 
 -    {{PropertyView/de|Line Width}}(Linienbreite): Maßlinienstärke.
 
@@ -286,26 +383,6 @@ Der Dialog Maßeintrag ermöglicht die folgenden Einstellungen:
 
 
 
-## Begrenzungen
-
-Dimension-Objekte (Maße) sind anfällig für das \"[Topological-Naming-Problem](topological_naming_problem/de.md)\" (Problem der topologischen Benennung). Das bedeutet, dass bei einer Änderung der 3D Geometrie die Flächen und Kanten des Modells intern umbenannt werden können; wenn ein Maß an eine Kante angehängt wird, die dann geändert wird, kann das Maß brechen. Im Allgemeinen ist es nicht möglich, die projizierten 2D-Bemaßungen mit den tatsächlichen 3D-Objekten synchronisiert zu halten.
-
-Es wird daher empfohlen, Bemaßungen hinzuzufügen, wenn das 3D Modell nicht mehr verändert wird.
-
-
-
-### Zwischenlösung
-
-Wenn du eine TechDraw Ansicht mit Bemaßungen behalten möchtest, die nicht brechen, musst du ein Objekt bemaßen, das sich nicht ändert.
-
--   Wähle das zu projizierende Objekt aus, wechsle dann zur <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md) und verwende **Part → <img src="images/Part_SimpleCopy.svg" width=16px> [Einfache Kopie erstellen](Part_SimpleCopy.md)**. Dadurch wird ein einzelnes Objekt erzeugt, das nicht parametrisch ist, d.h. nicht mehr bearbeitet werden kann.
--   Wähle diese Kopie aus, verwende dann [TechDraw Ansicht](TechDraw_View/de.md) und füge die gewünschten Bemaßungen hinzu.
--   Wenn das ursprüngliche 3D Modell geändert wird, wirken sich die Änderungen weder auf die einfache Kopie noch auf die Bemaßungen in der TechDraw Ansicht aus.
-
-Siehe [Leitbemaßungen](TechDraw_LandmarkDimension/de.md) für einen weiteren Ansatz zur Umgehung des Problems der topologischen Benennung.
-
-
-
 ## Skripten
 
 Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
@@ -319,14 +396,6 @@ dim1.Type = "Distance"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)
 ```
-
-
-
-## Anmerkungen
-
--   **Kantenauswahl**. Die Auswahl von Kanten kann schwierig sein. Der Auswahlbereich für Kanten kann mit dem Parameter \"/Mod/TechDraw/General/EdgeFuzz\" angepasst werden (siehe [Std ParameterDialog](Std_DlgParameter/de.md)). Dies ist eine dimensionslose Zahl. Die Voreinstellung ist 10.0. Werte im Bereich von 20-30 erleichtern die Auswahl von Kanten spürbar. Große Zahlen führen zu Überlappungen mit anderen Zeichnungselementen.
--   **Nachkommastellen**. Maße verwenden standardmäßig die globale Einstellung der Dezimalstellen. Diese kann über [Einstellungen](TechDraw_Preferences/de#Bemaßungen.md) oder durch Ändern der Eigenschaft FormatSpec geändert werden.
--   **Mehrere Objekte**. Ansichten können mehrere 3D-Objekte als Quelle enthalten. Maße können zwischen Geometrien verschiedener Objekte der Ansicht erstellt werden (z.B. von Object1.Vertex0 bis Object2.Vertex3).
 
 
 

@@ -9,13 +9,21 @@
 
 # TechDraw ArchView/fr
 
+
+</div>
+
 ## Description
 
-L\'outil Vue d\'un objet Arch insère une vue d\'un **<img src="images/Arch_SectionPlane.svg" width=16px> [Arch Plan de coupe](Arch_SectionPlane/fr.md)** dans une [TechDraw Page](TechDraw_PageDefault/fr.md).
+L\'outil **TechDraw Vue d\'un objet Arch** insère une vue d\'un **<img src="images/Arch_SectionPlane.svg" width=16px> [Arch Plan de coupe](Arch_SectionPlane/fr.md)** dans une [TechDraw Page](TechDraw_PageDefault/fr.md).
 
 ![](images/TechDraw_Arch_example.jpg )
 
+
+
 ## Utilisation
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Sélectionnez un plan de coupe Arch dans la vue 3D ou dans l\'arborescence
 2.  Si vous avez plusieurs pages de dessin dans votre document, vous devrez sélectionner la page désirée dans l\'arborescence.
@@ -23,27 +31,42 @@ L\'outil Vue d\'un objet Arch insère une vue d\'un **<img src="images/Arch_Sect
 **
 4.  Une vue des objets vus par le plan de coupe apparaîtra sur la page.
 
-### Limitations
 
-La Vue d\'un objet Arch est générée dans l\'[atelier Arch](Arch_Workbench/fr.md) et donc TechDraw a un contrôle limité sur son apparence. Vous devrez peut-être apporter des modifications dans Arch pour obtenir la représentation souhaitée.
+</div>
 
 ## Options
 
--   La Vue d\'un objet Arch est générée par l\'[atelier Arch](Arch_Workbench/fr.md) de la même manière que dans l\'[atelier Drawing](Drawing_Workbench/fr.md). Voir les remarques.
--   [Draft Accrochage Dimensions](Draft_Snap_Dimensions/fr.md), [Draft Texte](Draft_Text/fr.md) et tout autre objet 2D (Sketch ou Draft) pris en compte par le plan de coupe est généré \"tel quel\" (pas d\'intersection ni de lignes cachées) par dessus la géométrie solide.
+-   La Vue d\'un objet Arch est générée par l\'[atelier Arch](Arch_Workbench/fr.md).
+-   [Draft Aimantation Dimensions](Draft_Snap_Dimensions/fr.md), [Draft Texte](Draft_Text/fr.md) et tout autre objet 2D (Sketch ou Draft) pris en compte par le plan de coupe est généré \"tel quel\" (pas d\'intersection ni de lignes cachées) par dessus la géométrie solide.
 -   Le volume de [Arch Espace](Arch_Space/fr.md) n\'est pas généré, seule l\'étiquette sera crée.
 -   Les lignes de coupe, les lignes projetées (si la propriété Show Hidden est définie à True) et les lignes 2D ci-dessus peuvent être générées avec différentes largeurs de ligne. Cela peut être configuré dans les préférences Arch.
--   La Vue Arch a deux modes de rendu: Filaire qui utilise les algorithmes OpenCasCade de l\'[atelier Drawing](Drawing_Workbench/fr.md) et est rapide et ne produit que des lignes (pas de remplissage de face possible), et Solide qui est basé sur l\'[algorithme du peintre](https://fr.wikipedia.org/wiki/Algorithme_du_peintre) et est capable de rendre des surfaces remplies avec leur couleur de forme. Cependant, il est beaucoup plus lent et peut échouer dans de nombreuses situations. L\'image ci-dessous illustre la différence entre les deux modes de rendu:
+-   La Vue d\'un objet Arch a deux modes de rendu :
+    -   Filaire qui utilise les algorithmes OpenCasCade de l\'[atelier TechDraw](TechDraw_Workbench/fr.md) et est rapide et ne produit que des lignes (pas de remplissage de face possible)
+    -   Solide qui est basé sur l\'[algorithme du peintre](https://fr.wikipedia.org/wiki/Algorithme_du_peintre) et est capable de rendre des surfaces remplies avec leur couleur de forme. Cependant, il est beaucoup plus lent et peut échouer dans de nombreuses situations.
 
-![](images/TechDraw_Arch_rendering.jpg )
+:   L\'image ci-dessous illustre la différence entre les deux modes de rendu:
 
--   Seule la ligne de base des [Arch Tuyaux](Arch_Pipe/fr.md) est générée, pas le volume total des tubes:
 
-![](images/TechDraw_Arch_piping.jpg )
+
+
+
+:   ![](images/TechDraw_Arch_rendering.jpg )
+
+-   Seule la ligne de base des [Arch Conduites](Arch_Pipe/fr.md) est générée, pas le volume total des tubes:
+
+:   ![](images/TechDraw_Arch_piping.jpg )
+
+## Notes
+
+La Vue d\'un objet Arch est générée dans l\'[atelier Arch](Arch_Workbench/fr.md) et donc TechDraw a un contrôle limité sur son apparence. Vous devrez peut-être apporter des modifications dans Arch pour obtenir la représentation souhaitée.
+
+
 
 ## Propriétés
 
 Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
+
+
 
 ### Données
 
@@ -69,6 +92,8 @@ Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
 -    **Cut Line Width|Float**: largeur des lignes de coupe dans cette vue.
 
 -    **Join Arch|Bool**: si `True`, les murs et les structures seront fusionnés par matériau.
+
+
 
 ## Script
 

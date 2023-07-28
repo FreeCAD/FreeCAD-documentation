@@ -9,16 +9,29 @@
 
 # TechDraw ClipGroup/fr
 
+
+</div>
+
 ## Description
 
-Cet outil crée une fenêtre de rognage qui peut contenir des vues.
+Cet outil **TechDraw Fenêtre de rognage**crée une fenêtre de rognage qui peut contenir des vues.
 
 ![](images/TechDraw_Clipview.png ) 
 *Fenêtre de rognage de différentes vues existantes*
 
+
+
 ## Utilisation
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Appuyez sur le bouton **<img src="images/TechDraw_ClipGroup.svg" width=16px> [Insérer une fenêtre de rognage](TechDraw_ClipGroup/fr.md)** pour créer une nouvelle fenêtre de rognage.
+
+
+</div>
+
+
 
 ## Propriétés
 

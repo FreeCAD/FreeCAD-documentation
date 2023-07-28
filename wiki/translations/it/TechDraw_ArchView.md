@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -23,6 +25,8 @@ Lo strumento Vista di Arch inserisce una vista di un **<img src="images/Arch_Sec
 </div>
 
 ![](images/TechDraw_Arch_example.jpg )
+
+
 
 ## Utilizzo
 
@@ -38,15 +42,7 @@ Lo strumento Vista di Arch inserisce una vista di un **<img src="images/Arch_Sec
 
 </div>
 
-### Limitazioni
 
-
-<div class="mw-translate-fuzzy">
-
-Poiché la Vista di Arch è resa all\'interno del modulo [Arch](Arch_Workbench/it.md), TechDraw ha un controllo limitato sul suo aspetto. Potrebbe essere necessario apportare delle modifiche all\'interno di Arch per ottenere la rappresentazione desiderata.
-
-
-</div>
 
 ## Opzioni
 
@@ -62,7 +58,8 @@ Poiché la Vista di Arch è resa all\'interno del modulo [Arch](Arch_Workbench/i
 
 </div>
 
-![](images/TechDraw_Arch_rendering.jpg )
+
+:   ![](images/TechDraw_Arch_rendering.jpg )
 
 
 <div class="mw-translate-fuzzy">
@@ -72,7 +69,20 @@ Poiché la Vista di Arch è resa all\'interno del modulo [Arch](Arch_Workbench/i
 
 </div>
 
-![](images/TechDraw_Arch_piping.jpg )
+
+:   ![](images/TechDraw_Arch_piping.jpg )
+
+## Notes
+
+
+<div class="mw-translate-fuzzy">
+
+Poiché la Vista di Arch è resa all\'interno del modulo [Arch](Arch_Workbench/it.md), TechDraw ha un controllo limitato sul suo aspetto. Potrebbe essere necessario apportare delle modifiche all\'interno di Arch per ottenere la rappresentazione desiderata.
+
+
+</div>
+
+
 
 ## Proprietà
 
@@ -102,6 +112,8 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 
 </div>
+
+
 
 ## Script
 

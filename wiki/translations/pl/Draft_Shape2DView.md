@@ -8,6 +8,8 @@
 
 # Draft Shape2DView/pl
 
+
+
 ## Opis
 
 Polecenie <img alt="" src=images/Draft_Shape2DView.svg  style="width:24px;"> **Widok 2D kształtu** tworzy rzuty 2D z wybranych obiektów, zwykle brył przestrzennych lub [Płaszczyzny przekroju](Arch_SectionPlane/pl.md) środowiska Architektura. Rzuty są umieszczane w oknie [widoku 3D](3D_view/pl.md).
@@ -16,6 +18,8 @@ Rzuty **Widok 2D kształtu** mogą być wyświetlane w środowisku [Rysunek Tech
 
 ![](images/Draft_Shape2DView_example.jpg ) 
 *Rzutowanie brył na płaszczyznę XY*
+
+
 
 ## Użycie
 
@@ -27,17 +31,23 @@ Rzuty **Widok 2D kształtu** mogą być wyświetlane w środowisku [Rysunek Tech
 4.  Jeśli nie wybrałeś jeszcze żadnego obiektu: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
 5.  Rzutowane obiekty są tworzone na płaszczyźnie XY.
 
+
+
 ## Jak tworzyć plany i przekroje o różnych szerokościach linii 
 
 <img alt="" src=images/Draft_shape2dview_example_plan.png  style="width:700px;">
 
 Rysunki z różnymi szerokościami linii dla linii widocznych i linii cięcia mogą być łatwo utworzone przez użycie dwóch obiektów *Widok 2D kształtu* z tego samego [Płaszczyzna przekroju](Arch_SectionPlane/pl.md). Jeden z obiektów *Widok 2D kształtu* ma ustawiony tryb rzutowania na **Bryła**, który renderuje linie widoczne, a drugi ustawiony na **Linia cięcia** lub **Powierzchnia cięcia**, który renderuje linie cięcia. Oba obiekty *Widok 2D kształtu* są następnie umieszczone w tym samym miejscu, jeden na drugim.
 
+
+
 ## Właściwości
 
-Zobacz również: [Edytor właściwości](Property_editor/pl.md).
+Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
 
 Obiekt *Widok 2D kształtu* wywodzi się z obiektu [Część: Part2DObject](Part_Part2DObject/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
 
 ### Dane
 
@@ -93,7 +103,9 @@ Obiekt *Widok 2D kształtu* wywodzi się z obiektu [Część: Part2DObject](Part
 
 -    **Punkty wykluczenia|Vector list**: Lista punktów wykluczenia. Krawędź przechodząca przez którykolwiek z tych punktów nie zostanie narysowana. {{Version/pl|0.20}}
 
--    **Nazwy wykluczeń|String list**: Lista nazw obiektów. Każdy oglądany lub wycinany obiekt podrzędny o nazwie zawartej w tej liście nie będzie rysowany. {{Version/pl|1.0}}
+-    **Nazwy wykluczeń|String list**: Lista nazw obiektów. Każdy oglądany lub wycinany obiekt podrzędny o nazwie zawartej w tej liście nie będzie rysowany. {{Version/pl|0.21}}
+
+
 
 ### Widok
 
@@ -103,6 +115,8 @@ Obiekt *Widok 2D kształtu* wywodzi się z obiektu [Część: Part2DObject](Part
 -    **Wzór|Enumeration**: niewykorzystane.
 
 -    **Rozmiar wzoru|Float**: niewykorzystane.
+
+
 
 ## Tworzenie skryptów 
 

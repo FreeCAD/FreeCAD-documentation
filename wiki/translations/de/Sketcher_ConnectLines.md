@@ -11,9 +11,13 @@
 
 # Sketcher ConnectLines/de
 
+
+
 ## Beschreibung
 
 Wendet [Deckungsgleiche Beschränkung](Sketcher_ConstrainCoincident/de.md) auf Endpunkte mit den gleichen Koordinaten der ausgewählten Elemente an.
+
+
 
 ## Anwendung
 
@@ -22,6 +26,8 @@ Wendet [Deckungsgleiche Beschränkung](Sketcher_ConstrainCoincident/de.md) auf E
     -   Die Schaltfläche **[<img src=images/Sketcher_ConnectLines.svg style="width:16px">[Linien verbinden](Sketcher_ConnectLines/de.md)** drücken.
     -   Das Tastaturkürzel **Z** dann **J**.
     -   Verwende den **Skizze→ Skizzen-Werkzeuge → [<img src=images/Sketcher_ConnectLines.svg style="width:16px">  Linien verbinden** Eintrag aus dem oberen Menü.
+
+
 
 ## Hinweise
 

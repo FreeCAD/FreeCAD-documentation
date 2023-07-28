@@ -1,85 +1,97 @@
 # OpenCASCADE/pt-br
 {{TOCright}}
 
-## Description
 
-[OpenCASCADE Technology](OpenCASCADE.md), **OCC** or **OCCT** for short, is a collection of C++ libraries that together constitute a professional computer aided design (CAD) kernel for modelling 2D and 3D objects, and building specialized tools for manufacturing, simulation, or visualization. OpenCASCADE is the heart of the geometrical capabilities of FreeCAD.
 
-The geometrical classes of OCCT are mostly implemented and made available in FreeCAD through the [Part](Part_Workbench.md) module, on which most other [workbenches](Workbenches.md) depend. It also provides internal functions to read and write different file formats like STEP and IGES, and to perform 2D projections, which can be used to create technical drawings in [TechDraw](TechDraw_Workbench.md).
+## Descrição
+
+[OpenCASCADE Technology](OpenCASCADE/pt-br.md), **OCC** ou **OCCT** para abreviar, é uma coleção de bibliotecas C++ que juntas constituem um kernel profissional de projeto assistido por computador (CAD) para modelagem de objetos 2D e 3D, e construção de ferramentas especializadas para fabricação, simulação ou visualização. O OpenCASCADE é o coração das capacidades geométricas do FreeCAD.
+
+As classes geométricas do OCCT são principalmente implementadas e disponibilizadas no FreeCAD através do modulo [Part](Part_Workbench/pt-br.md), do qual a maioria das outras [bancadas de trabalho](Workbenches/pt-br.md) dependem. Ele também fornece funções internas para ler e gravar diferentes formatos de arquivo como STEP e IGES, e para executar projeções 2D, que podem ser usadas para criar desenhos técnicos em [TechDraw](TechDraw_Workbench/pt-br.md).
 
 <img alt="" src=images/Part_Workbench_relationships.svg  style="width:600px;">
 
 
 
-*OpenCASCADE provides the basic geometrical classes and drawing functions to the [Part](Part_Workbench.md) module, which are then used by all workbenches in FreeCAD.*
+*OpenCASCADE fornece as classes geométricas básicas e funções de desenho para o módulo[Part](Part_Workbench/pt-br.md), que são então usados por todas as bancadas de trabalho no FreeCAD.*
 
-OpenCASCADE should not be confused with [OpenSCAD](https://www.openscad.org/), which is a different open source project to build 3D models, and which is accessible through the [OpenSCAD Workbench](OpenSCAD_Workbench.md).
+OpenCASCADE não deve ser confundido com [OpenSCAD](https://www.openscad.org/), que é um projeto de código aberto diferente para construir modelos 3D, e que é acessível através da [bancada de trabalho OpenSCAD](OpenSCAD_Workbench/pt-br.md).
 
-OpenCASCADE is free software governed by the terms of the GNU Lesser General Public License (LGPL) version 2.1 with an additional exception.
+OpenCASCADE é software livre regido pelos termos da GNU Lesser General Public License (LGPL) versão 2.1 com uma exceção adicional.
 
-## Installation
 
-OpenCASCADE is a core component of FreeCAD, so if you get FreeCAD from one of the links in the [Download](Download.md) page, you will have it installed, and no further installation is necessary.
 
-However, if you would like to develop applications that use OCCT, or would like to contribute C++ code to FreeCAD, then you need to install the development files of OCCT. In this case, the procedure is explained in [Compiling](Compiling.md) for each of the main systems, Linux, Windows, and MacOS.
+## Instalação
 
-## Community edition 
+OpenCASCADE é um componente central do FreeCAD, então se você obter FreeCAD de um dos links na página [Download](Download/pt-br.md), você terá ele instalado, e nenhuma instalação adicional é necessária.
 
-A \"community edition\" of OpenCASCADE, abbreviated OCE, was released in 2011, based on the official OpenCASCADE sources (OCCT) of version 6.5. In theory the community edition OCE should be compatible with the main version OCCT in most aspects, while having some additional code contributed by the community.
+No entanto, se você gostaria de desenvolver aplicativos que usam OCCT, ou gostaria de contribuir com código C++ para FreeCAD, então você precisa instalar os arquivos de desenvolvimento do OCCT. Nesse caso, o procedimento é explicado em [Compilação](Compiling/pt-br.md) para cada um dos principais sistemas, Linux, Windows e MacOS.
 
-However, this alternative distribution stopped active development around 2017, and lagged behind the main version in terms of features and bug fixes. For this reason, since FreeCAD v0.17, FreeCAD is compiled exclusively with OCCT, and OCE is not tested.
 
-In some older Linux distributions, FreeCAD is compiled against OCE 0.18, equivalent to OCCT 6.9.x, causing various issues that have been solved already in the main OCCT 7.x releases. If this is the case, try removing OCE, and installing OCCT instead. If this is not possible, use the [AppImage](AppImage.md) to get a modern FreeCAD with an updated OCCT version.
 
-## History
+## Edição comunitária 
 
-The Cas.CADE geometric kernel was originally closed source, but it became open source under its current name around the year 2000. Shortly after, the FreeCAD project was started, with the oldest files being dated to January 2001. Read more in [History](History.md).
+Uma \"edição comunitária\" do OpenCASCADE, abreviada OCE, foi lançada em 2011, com base nos fontes oficiais do OpenCASCADE (OCCT) da versão 6.5. Em teoria, a edição da comunidade OCE deve ser compatível com a versão principal OCCT na maioria dos aspectos, tendo algum código adicional contribuído pela comunidade.
 
-OpenCASCADE version 6.6 and earlier were governed by its own \"OCCT public license\", which made it not entirely \"free software\". This was solved with the release of OCCT 6.7 (2013), when it adopted the LGPL2 license.
+No entanto, essa distribuição alternativa parou o desenvolvimento ativo por volta de 2017 e ficou atrás da versão principal em termos de recursos e correções de bugs. Por esta razão, desde o FreeCAD v0.17, o FreeCAD é compilado exclusivamente com OCCT, e o OCE não é testado.
 
-## OCCT geometric concepts 
+Em algumas distribuições Linux mais antigas, o FreeCAD é compilado contra OCE 0.18, equivalente ao OCCT 6.9.x, causando vários problemas que já foram resolvidos nas principais versões do OCCT 7.x. Se esse for o caso, tente remover o OCE e instalar o OCCT. Se isso não for possível, use o [AppImage](AppImage/pt-br.md) para obter um FreeCAD moderno com uma versão OCCT atualizada.
 
-In OpenCascade terminology, we distinguish between geometric primitives and topological shapes. A geometric primitive can be a point, a line, a circle, a plane, etc. or even some more complex types like a B-Spline curve or a surface. A shape can be a vertex, an edge, a wire, a face, a solid or a compound of other shapes. The geometric primitives are not made to be directly displayed on the 3D scene, but rather to be used as building geometry for shapes. For example, an edge can be constructed from a line or from a portion of a circle.
 
-In summary, geometry primitives are \"shapeless\" building blocks, while [topological shapes](Part_TopoShape.md) are the real objects built on them.
 
-A complete list of all primitives and shapes refer to the [OCC documentation](https://dev.opencascade.org/resources/documentation) (Alternative: [sourcearchive.com](https://www.opencascade.com/doc/occt-7.4.0/refman/html/)) and search for **Geom\_\*** (for geometric primitives) and **TopoDS\_\*** (for shapes). There you can also read more about the differences between them. Please note that the official OCC documentation is not available online (you must download an archive) and is mostly aimed at programmers, not at end-users. But hopefully you\'ll find enough information to get started here. Also see [Modeling Data User\'s Guide](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html).
+## História
 
-> *At a very high level, topology tells what pieces an object is made of, and the logical relationships between them. A shape is made of a certain set of faces. A face is bounded by a certain set of edges. Two faces are adjacent if they share a common edge.*
+O kernel geométrico Cas.CADE era originalmente de código fechado, mas tornou-se open source sob seu nome atual por volta do ano 2000. Pouco depois, o projeto FreeCAD foi iniciado, com os arquivos mais antigos sendo datados de janeiro de 2001. Leia mais em [História](History/pt-br.md).
 
-> *Topology alone does not tell you the size, curvature, or 3D locations of any of those pieces. However, each piece of topology does knows about it\'s underlying geometry. A face knows what surface it lies on. An edge knows what curve it lies on. The geometry knows about curvature and location in space.* - [Source](https://www.opencascade.com/content/geometry-and-topology)
+OpenCASCADE versão 6.6 e anteriores foram governados por sua própria \"licença pública OCCT\", o que fez com que não fosse inteiramente \"software livre\". Isso foi resolvido com o lançamento do OCCT 6.7 (2013), quando adotou a licença LGPL2.
+
+
+
+## Conceitos geométricos da OCCT 
+
+Na terminologia OpenCascade, distinguimos entre primitivas geométricas e formas topológicas. Uma primitiva geométrica pode ser um ponto, uma linha, um círculo, um plano, etc. ou mesmo alguns tipos mais complexos, como uma curva B-Spline ou uma superfície. Uma forma pode ser um vértice, uma borda, um fio, um rosto, um sólido ou um composto de outras formas. As primitivas geométricas não são feitas para serem exibidas diretamente na cena 3D, mas sim para serem usadas como geometria de construção de formas. Por exemplo, uma aresta pode ser construída a partir de uma linha ou de uma parte de um círculo.
+
+Em resumo, as primitivas de geometria são blocos de construção \"disformes\", enquanto [formas topológicas](Part_TopoShape/pt-br.md) são os objetos reais construídos sobre eles.
+
+Uma lista completa de todas as primitivas e formas refere-se à [documentação do OCC](https://dev.opencascade.org/resources/documentation) (Alternativa: [sourcearchive.com](https://www.opencascade.com/doc/occt-7.4.0/refman/html/)) e procure por **Geom\_\*** (para primitivas geométricas) e **TopoDS\_\*** (para formas). Lá você também pode ler mais sobre as diferenças entre eles em Inglês. Por favor, note que a documentação oficial do OCC não está disponível on-line (você deve baixar um arquivo) e é principalmente destinada a programadores, não a usuários finais. Mas espero que você encontre informações suficientes para começar aqui. Consulte também [Guia do usuário de dados de modelagem](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html).
+
+> \'\'Em um nível muito alto, a topologia diz de quais peças um objeto é feito e as relações lógicas entre elas. Uma forma é feita de um determinado conjunto de rostos. Um rosto é delimitado por um certo conjunto de arestas. Duas faces são adjacentes se compartilharem uma borda comum.\"
+
+> *A topologia sozinha não informa o tamanho, a curvatura ou os locais 3D de nenhuma dessas peças. No entanto, cada parte da topologia sabe sobre sua geometria subjacente. Um rosto sabe em que superfície se encontra. Uma aresta sabe em que curva se encontra. A geometria sabe sobre curvatura e localização no espaço.* - [Fonte](https://www.opencascade.com/content/geometry-and-topology)
 
 
 <hr />
 
-> *Thus, Topology defines the relationship between simple geometric entities, which can be linked together to represent complex shapes.* - [Modeling Data User\'s Guide](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html)
+> *Assim, a Topologia define a relação entre entidades geométricas simples, que podem ser ligadas entre si para representar formas complexas.* - [Modeling Data User\'s Guide](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html)
 
 ![](images/ClassTopoDS_Shape_inherit_graph.png )
 
-**Note:** Only 3 types of topological objects have geometric representations -- vertex, edge, and face ([Source](https://opencascade.blogspot.com/2009/02/topology-and-geometry-in-open-cascade.html)).
+**Nota:** Apenas 3 tipos de objetos topológicos têm representações geométricas -- vértice, aresta e face ([Fonte](https://opencascade.blogspot.com/2009/02/topology-and-geometry-in-open-cascade.html)).
 
-The geometric types actually can be divided into two major groups: curves and surfaces. Out of the curves (line, circle, \...) you can directly build an edge, out of the surfaces (plane, cylinder, \...) a face can be built. For example, the geometric primitive line is unlimited, i.e. it is defined by a base vector and a direction vector while its shape representation must be something limited by a start and end point. And a box \-- a solid \-- can be created by six limited planes.
+Os tipos geométricos, na verdade, podem ser divididos em dois grandes grupos: curvas e superfícies. A partir das curvas (linha, círculo, \...) você pode construir diretamente uma borda, a partir das superfícies (plano, cilindro, \...) uma face pode ser construída. Por exemplo, a linha primitiva geométrica é ilimitada, ou seja, é definida por um vetor base e um vetor de direção, enquanto sua representação de forma deve ser algo limitado por um ponto inicial e final. E uma caixa - um sólido - pode ser criada por seis planos limitados.
 
-From an edge or face you can also go back to its geometric primitive counterpart.
+De uma borda ou face você também pode voltar à sua contraparte primitiva geométrica.
 
-Thus, out of shapes you can build very complex parts or, the other way round, extract all sub-shapes a more complex shape is made of.
+Assim, a partir de formas, você pode construir peças muito complexas ou, ao contrário, extrair todas as subformas de que uma forma mais complexa é feita.
 
 <img alt="" src=images/Part_TopoShape_relationships.svg  style="width:600px;">
 
 
 
-*The `Part::TopoShape* class is the geometrical object that is seen on screen. Essentially all workbenches use these [TopoShapes](Part_TopoShape.md) internally to build and display edges, faces, and solids.`
+*A classe `Part::TopoShape* é o objeto geométrico que é visto na tela. Essencialmente, todas as bancadas de trabalho usam estas [TopoShapes](Part_TopoShape/pt-br.md) internamente para construir e exibir bordas, faces e sólidos.`
 
-## Related
 
--   OpenCASCADE Technology (OCCT) [main website](http://www.opencascade.com)
--   OCCT [development portal](https://dev.opencascade.org/)
--   OCCT [latest release](https://www.opencascade.com/content/latest-release)
--   OCCT [git repository](https://git.dev.opencascade.org/gitweb/?p=occt.git)
--   OpenCASCADE Community Edition (OCE) [git repository](https://github.com/tpaviot/oce)
--   [Open Cascade Technology OCCT](http://en.wikipedia.org/wiki/Open_Cascade_Technology) on Wikipedia
--   Glossary, [Open CASCADE](Glossary#Open_CASCADE.md)
--   Tracking OCCT bugs in the FreeCAD bugtracker [(thread)](https://forum.freecadweb.org/viewtopic.php?f=10&t=20264)
+
+## Relacionado
+
+-   Tecnologia OpenCASCADE (OCCT) [site principal](http://www.opencascade.com)
+-   OCCT \[Portal de desenvolvimento <https://dev.opencascade.org/>\]
+-   OCCT [versão mais recente](https://www.opencascade.com/content/latest-release)
+-   OCCT [repositório git](https://git.dev.opencascade.org/gitweb/?p=occt.git)
+-   OpenCASCADE Community Edition (OCE) [repositório git](https://github.com/tpaviot/oce)
+-   [Open Cascade Technology OCCT](http://en.wikipedia.org/wiki/Open_Cascade_Technology) na Wikipédia
+-   Glossário, [Open CASCADE](Glossary/pt-br#Open_CASCADE.md)
+-   Rastreamento de bugs OCCT no bugtracker FreeCAD [(thread)](https://forum.freecadweb.org/viewtopic.php?f=10&t=20264)
 
 
 

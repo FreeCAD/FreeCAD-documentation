@@ -11,12 +11,24 @@
 |Download=[https://www.freecadweb.org/wiki/images/6/60/BoundBoxTracing.png ToolBar Icon]
 }}
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Popis
 
 Toto makro červené stopy (lze upravovat) kolem obrysů BoundingBox 6 se 6 obdélníky.
 
+
+</div>
+
+This macro creates a red outline of the BoundingBox (6 Faces with 6 rectangles) of an object, display the dimension of the rectangle, create volume of boundBox.
+
 <img alt="" src=images/Macro_BoundingBox_Tracing_00.png  style="width:480px;"> 
 *BoundingBox Tracing macro in action*
+
+
 
 ## Použijte
 
@@ -28,17 +40,31 @@ Toto makro červené stopy (lze upravovat) kolem obrysů BoundingBox 6 se 6 obd�
 <img alt="" src=images/Macro_BoundingBox_Tracing_01.png  style="width:480px;"> 
 *Info contener*
 
+
+
 ## Poznámky
 
 Configuration: Konfigurace: viz řádek 61 to 84
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ## Ikona
 
 Stáhněte obrázek obrázku a zkopírujte do repertoáru maker.
 
+
+</div>
+
+Download the file image and copy in to your macro directory.
+
 Klikněte na obrázek, v novém okně umístěte myš nad obrázek, klikněte pravým tlačítkem myši a proveďte \"Uložit cíl jako \...\"
 
 ToolBar Icon ![](images/BoundBoxTracing.png )
+
+
 
 ## Skript
 
@@ -413,9 +439,17 @@ else:
     App.Console.PrintMessage("Select an object !"+"\n")
 }}
 
+
+
 ## Verze
 
+
+<div class="mw-translate-fuzzy">
+
 Version: 0.12 Date 2021/07/10: upgrade by edwilliams16 to handle objects in nested part containers [FCInfo CG of assemblies](https://forum.freecadweb.org/viewtopic.php?f=22&t=59852) corrected the global placement, thanks edwilliams16
+
+
+</div>
 
 
 ```python
@@ -433,11 +467,31 @@ def adjustedGlobalPlacement(obj, locVector):
 
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Version: 0.11 le Date: 2019/05/29: \"nameLabel = str(unicodedata.normalize(\'NFKD\', nameLabel).encode(\'ascii\',\'ignore\'))\" instead \"def()\"
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ver 0.10 le 2019/05/23 upgrade \> 0.19 and supp the \"éçà..\" with def() not encode()\....
 
-ver 0.9 le 2018-10-12: add test \> 17 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+ver 0.9 le 2018-10-12: add test \> 17
+
+
+</div>
+
+
 ```python
 if int(FreeCAD.Version()[1]) > 17:      # Version de FreeCAD
     DisplayModeText   = str(u"2D text") # available : u"2D text" or u"3D text" 
@@ -445,15 +499,45 @@ else:
     DisplayModeText   = str(u"Screen")  # available : u"Screen" or u"World" 
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 ver 0.8 le 05/10/2018: upgrade the ver 0.8 compatible with FC 0.17 (getGlobalPlacement)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ver 0.7 le 28/01/2018: correct error with label accent \"nameLabel = unicodedata.normalize(\'NFKD\', nameLabel).encode(\'ascii\',\'ignore\')\"
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ver 0.6 le 08/08/2017: přidat textovou kótu, kontejner pro obdélníky, obdélníky informací, objem informací, přidat barvu konfigurace oddílu, vybraný objekt štítku
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ver 0.5 le 08/05/2017 : upgrade now accept the \"mesh\" and \"Points\" thanks wmayer [Makro Bounding-Box für STL importierte Teile und für Punktewolken](http://forum.freecadweb.org/viewtopic.php?f=13&t=22331)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ver 0.4 le 04/06/2016 : test if value = 0 pak nevytvořte ohraničovací rámeček (ex: object Draft)
+
+
+</div>
 
 
 

@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -19,6 +21,8 @@
 detiene un comando actualmente activo mientras se edita un dibujo; esto puede significar una operación de dibujo, una operación de restricción, una operación de línea B, etc.
 
 Esto es similar a pulsar la tecla **Esc**.
+
+
 
 ## Utilización
 

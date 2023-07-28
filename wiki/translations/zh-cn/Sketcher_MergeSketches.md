@@ -1,24 +1,22 @@
 ---
-- GuiCommand:
-   Name:Sketcher MergeSketches
-   MenuLocation:Sketch → Merge sketches
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+- GuiCommand:/zh-cn
+   Name:合并草图
+   MenuLocation:Sketch → 合并草图
+   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md)
    Version:0.15
 ---
 
 # Sketcher MergeSketches/zh-cn
+
+
 
 ## 描述
 
 将两个或两个以上的草图合而为一。
 
 
-<div class="mw-translate-fuzzy">
 
-## 如何使用
-
-
-</div>
+## 用法
 
 1.  选择两个或两个以上的草图。
 2.  点击<img alt="" src=images/Sketcher_MergeSketch.png  style="width:32px;">或从顶部的菜单中依次选择**Sketch** → **<img src="images/Sketcher_MergeSketch.png" width=32px> Merge Sketches**。

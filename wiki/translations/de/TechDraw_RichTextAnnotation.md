@@ -2,44 +2,67 @@
 - GuiCommand:/de
    Name:TechDraw RichTextAnnotation
    Name/de:TechDraw FormatierteTextAnmerkung
-   MenuLocation:TechDraw → Anmerkungen → Einfügen Formatierte Text Anmerkungen
+   MenuLocation:TechDraw → Anmerkungen → Rich-Text-Anmerkungen einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Version:0.19
-   SeeAlso:[TechDraw Vorlagen](TechDraw_Templates/de.md), [Entwurf SVG](Draft_SVG/de.md), [TechDraw Führungslinie](TechDraw_LeaderLine/de.md)
+   SeeAlso:[TechDraw Vorlagen](TechDraw_Templates/de.md)
 ---
 
 # TechDraw RichTextAnnotation/de
 
+
+
 ## Beschreibung
 
-Das FormatierterTextBlock Werkzeug fügt einen formatierten Anmerkungsblock zu einer [Führunglinie](TechDraw_LeaderLine/de.md) oder einer Ansicht hinzu.
+Das Werkzeug **TechDraw FormatierteTextAnmerkung** fügt einer [Hinweislinie](TechDraw_LeaderLine/de.md) oder einer Ansicht einen formatierten Beschriftungsblock hinzu .
 
 <img alt="" src=images/TechDraw_RichTextBlock_sample.png  style="width:220px;"> 
-*Eigenständiger FormatierterTextBlock*
+*Eigenständige FormatierteTextAnmerkung*
+
+
 
 ## Anwendung
 
-1.  Drücke die **<img src="images/TechDraw_RichTextAnnotation.svg" width=16px> [Formatierte Text Anmerkung](TechDraw_RichTextAnnotation/de.md)** Schaltfläche
-2.  Ein Aufgabendialog wird geöffnet. Der Dialog ermöglicht eine schnelle Eingabe von Text.
-3.  Die **Formatierter Text Editor starten** Schaltfläche öffnet einen voll ausgestatteten Editor. Drücke auf das Symbol Speichern, um deine Änderungen aufzuzeichnen.
-4.  Nachdem der Block erstellt wurde, kann er durch Doppelklicken auf den FormatierterTextBlock im Baum bearbeitet werden.
-5.  Um den Block an eine [Führungslinie](TechDraw_LeaderLine/de.md) anzuhängen, wähle die Linie aus, bevor du das FormatierterTextBlock Werkzeug startest.
+1.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswahl in der [Baumansicht](Tree_view/de.md) aktivieren.
+2.  Um eine Rich-Text-Beschriftung an eine [Hinweislinie](TechDraw_LeaderLine/de.md) anzuhängen, wird die Linie in der [Baumansicht](Tree_view/de.md) oder auf dem Zeichnungsblatt ausgewählt.
+3.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_RichTextAnnotation.svg" width=16px> [Rich-Text-Anmerkung einfügen](TechDraw_RichTextAnnotation/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Anmerkungen → <img src="images/TechDraw_RichTextAnnotation.svg" width=16px> Rich-Text-Anmerkung einfügen** auswählen.
+4.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet: {{Version/de|0.20}}
+    1.  Das gewünschte Blatt auswählen.
+    2.  Die Schaltfläche **OK** drücken.
+5.  Der Aufgaben-Bereich wird geöffnet und ermöglicht eine schnelle Eingabe von Text.
+6.  Die Schaltfläche **Rich-Text-Editor starten** öffnet einen voll ausgestatteten Editor:
+    1.  Ist die Texteingabe abgaschlossen, wird die Schaltfläche **<img src="images/Document-save.svg" width=16px>** gedrückt, um die Änderungen zu speichern und den Editor zu schließen.
+7.  Die Schaltfläche **OK** drücken, um den Aufgaben-Bereich zu schließen.
+
+
+
+## Hinweise
+
+-   Nach der Erstellung kann ein RichTextAnnotation-Objekt mit einem Doppelklick auf dem Zeichnungsblatt zum Bearbeiten ausgewählt werden.
+
+
 
 ## Eigenschaften
 
--    {{PropertyData/de|X,Y}}: Die Position des Blocks. Relativ zum Ende der Zeile, wenn sie an eine [LeaderLine](TechDraw_LeaderLine/de.md) angehängt ist, ansonsten ist dies die Position auf der Seite.
+-    {{PropertyData/de|X,Y}}: Die Position des Blocks; relativ zum Ende der Linie, wenn er an eine [Hinweisline](TechDraw_LeaderLine/de.md) angehängt ist, ansonsten ist dies die Position auf dem Zeichnungsblatt.
 
--    {{PropertyData/de|AnzeigeRahmen}}: Zeichnet einen Umriss um den Block herum.
+-    {{PropertyData/de|Show Frame}}: Zeichnet einen Rahmen um den Block herum.
 
--    {{PropertyData/de|MaxBreite}}: Begrenzt die horizontale Größe des Blocks. Ein Wert von -1 ist für unbegrenzte Breite.
+-    {{PropertyData/de|Max Width}}: Begrenzt die (horizontale) Breite des Blocks. Ein Wert von -1 steht für eine unbegrenzte Breite.
 
--    {{PropertyData/de|AnmerkungsText}}: Der HTML-Text des Blocks.
+-    {{PropertyData/de|Anno Text}}: Der HTML-Text des Blocks.
+
+
 
 ## Skripten
 
 Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das FormatierterTextBlock Werkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole verwendet werden. 
+Das Werkzeug **FormatierteTextAnmerkung** kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus verwendet werden.
+
+
 ```python
 myPage = FreeCAD.ActiveDocument().Page
 myBase = FreeCAD.ActiveDocument().View
@@ -49,10 +72,6 @@ blockObj.X = 5
 blockObj.Y = 5
 blockObj.AnnoText = myHTMLText
 ```
-
-## Hinweise
-
--   Du kannst deinen FormatierterTextBlock bearbeiten, indem du in der Baumansicht darauf doppelklickst. Ein Doppelklick in den Grafikbereich wird noch nicht unterstützt.
 
 
 

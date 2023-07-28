@@ -8,9 +8,13 @@
 
 # Part CheckGeometry/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug **<img src="images/Part_CheckGeometry.svg" width=16px> [Part GeometriePrüfen](Part_CheckGeometry.md)** führt eine Überprüfung durch und meldet, ob die Geometrie ein gültiger Volumenkörper ist.
+
+
 
 ## Anwendung
 
@@ -21,19 +25,25 @@ Das Werkzeug **<img src="images/Part_CheckGeometry.svg" width=16px> [Part Geomet
 
 Ergebnisse werden im [Aufgabenbereich](Task_panel/de.md) aufgeführt. Wenn die Prüfung einen Fehler anzeigt: Im Reportfenster eine bestimmte Fehlernachricht anklicken und das entsprechende geometrische Objekt (Kante, Fläche usw.) wird in der [3D-Ansicht](3D_view/de.md) hervorgehoben.
 
+
+
 ## Optionen
 
 ### Skip settings page 
 
 If ticked, subsequent invocations of the tool skip showing the **Settings** task panel.
 
+
+
 ### BOP-Check ausführen 
 
-Wenn aktiviert, wird eine zusätzliche eine Prüfung der booleschen Operationen durchgeführt (BOP check). {{Version/de|0.19}}
+Wenn aktiviert, wird eine zusätzliche eine Prüfung der booleschen Operationen durchgeführt (BOP check).
 
 ### Log errors 
 
-Wenn aktiviert, werden alle gefundenen Fehler auch im [Ausgabefenster](Report_view/de.md) gelistet. {{Version/de|0.19}}
+Wenn aktiviert, werden alle gefundenen Fehler auch im [Ausgabefenster](Report_view/de.md) gelistet.
+
+
 
 ## Form-Inhalt 
 
@@ -57,6 +67,8 @@ In addition to detecting potential geometry errors, this tool shows a range of p
     -   Third axis of inertia
     -   Radius of gyration
     -   Global placement
+
+
 
 ## Hinweise
 

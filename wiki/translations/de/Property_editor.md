@@ -90,9 +90,6 @@ For 2D geometry, most objects are derived from `Part::Part2DObject` (itself deri
 
 ## Maßnahmen
 
-
-{{Version/de|0.19}}
-
 Right clicking in an empty space of the view, or with a property selected, shows only one command:
 
 -    **Show all**: if active, in addition to the standard properties that appear already, it shows all the hidden Data and View properties in their respective tabs.
@@ -134,13 +131,7 @@ In this section we show some common properties that are visible for a [PartDesig
 
 Most of these properties are inherited from the [Part Feature](Part_Feature.md) basic object.
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/FreeCAD_Property_editor_View.png  style="width:490px;"> {{TitleProperty|Base}}
-
-
-</div>
+<img alt="" src=images/FreeCAD_Property_editor_View.png  style="width:490px;">
 
 
 {{TitleProperty|Base}}
@@ -190,13 +181,7 @@ Most of these properties are inherited from the [Part Feature](Part_Feature.md) 
 
 In this case we observe the properties of the [PartDesign Revolution](PartDesign_Revolution.md) feature.
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/FreeCAD_Property_editor_Data.png  style="width:490px;"> {{TitleProperty|Base}}
-
-
-</div>
+<img alt="" src=images/FreeCAD_Property_editor_Data.png  style="width:490px;">
 
 
 {{TitleProperty|Base}}

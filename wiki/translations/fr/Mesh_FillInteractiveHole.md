@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande **Mesh Boucher un trou** remplit les trous sélectionnés dans les objets maillés.
+La commande **Boucher un trou** remplit les trous sélectionnés dans les objets maillés.
 
 
 

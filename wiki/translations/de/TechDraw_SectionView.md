@@ -2,16 +2,18 @@
 - GuiCommand:/de
    Name:TechDraw SectionView
    Name/de:TechDraw Schnittansicht
-   MenuLocation:TechDraw → Schnittansicht einfügen
+   MenuLocation:TechDraw→ TechDraw Ansichten → Schnittansicht einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    SeeAlso:[TechDraw KomplexerSchnitt](TechDraw_ComplexSection/de.md), [TechDraw Ansicht einfügen](TechDraw_View/de.md), [TechDraw Ansichtengruppe einfügen](TechDraw_ProjectionGroup/de.md)
 ---
 
 # TechDraw SectionView/de
 
+
+
 ## Beschreibung
 
-Das Werkzeug <img alt="" src=images/TechDraw_SectionView.svg  style="width:24px;"> **TechDraw Schnittansicht** Fügt, von einer bestehenden Bauteilansicht ausgehend, (dem Zeichnungsblatt) eine Schnittansicht (kurz: einen Schnitt) hinzu.
+Das Werkzeug **TechDraw Schnittansicht** Fügt, von einer bestehenden Bauteilansicht ausgehend, (dem Zeichnungsblatt) eine Schnittansicht (kurz: einen Schnitt) hinzu.
 
 <img alt="" src=images/TechDraw_section_ANSI.png  style="width:350px;">
 <img alt="" src=images/TechDraw_section_ISO.png  style="width:350px;"> 
@@ -20,20 +22,26 @@ Das obere Bild zeigt die Schnittpfeile nach ANSI-Vorgabe.<br>
 Das untere Bild zeigt die Schnittpfeile nach ISO-Vorgabe.
 *
 
+
+
 ## Anwendung
 
 1.  Eine Bauteilansicht in der 3D-Ansicht oder in der Baumansicht auswählen.
 2.  Es gibt mehrere Möglichkeiten dieses Werkzeug aufzurufen:
-    -   Die Schaltfläche **<img src="images/TechDraw_SectionView.svg" width=16px> [Schnittansicht einfügen](TechDraw_SectionView/de.md)** drücken.
-    -   Den Menüeintrag **TechDraw → <img src="images/TechDraw_SectionView.svg" width=16px> Schnittansicht einfügen** auswählen.
+    -   Die Schaltfläche **<img src="images/TechDraw_SectionView.svg" width=16px> [Schnittansicht](TechDraw_SectionView/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw→ TechDraw Views → <img src="images/TechDraw_SectionView.svg" width=16px> Schnittansicht einfügen** auswählen.
 3.  Im Aufgabenbereich wird ein Dialog geöffnet, der bei der Berechnung verschiedener Eigenschaften hilft. Es werden sinnvolle Werte für die Blickrichtung errechnet; diese können aber geändert werden.
 
 ![](images/TechDraw_Section_Taskview.png ) 
 *Aufgabenbereich zum Definieren des Schnitts einer Ansicht*
 
+
+
 ## Eigenschaften Schnittansicht 
 
 Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
+
+
 
 ### Daten
 
@@ -94,6 +102,8 @@ Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
 
 -    **Section Direction|Enumeration**: Die Richtung dieser Schnittansicht in der Basisansicht. Optionen: {{Value|Aligned}}, {{Value|Right}}, {{Value|Left}}, {{Value|Up}} or {{Value|Down}}.
 
+
+
 ### Ansicht
 
 
@@ -114,6 +124,8 @@ Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
 
 -    {{PropertyView/de|Weight Pattern|Float}}: Linienstärke für geometrische Schraffurmuster.
 
+
+
 ## Eigenschaften Basisansicht 
 
 Eine Schnittansicht erbt alle anwendbaren Eigenschaften der Ansicht, die in der {{{PropertyData/de|Base View}}} angegeben sind. In den Eigenschaften dieser Ansicht kann die Darstellung der Schnittlinie geändert werden:
@@ -124,6 +136,8 @@ Eine Schnittansicht erbt alle anwendbaren Eigenschaften der Ansicht, die in der 
 
 Die Standardeinstellungen für diese Parameter werden über die Einstellungen **Section Line** und **Section Line Style** in den [TechDraw Einstellungen](TechDraw_Preferences/de.md) eingestellt.
 
+
+
 ## Hinweise
 
 -   **Section Line Format**: Zwei Arten zur Schnittliniendarstellung werden unterstützt (wie oben abgebildet) und durch die Einstellung \"Normbasis für Schnittlinien\" (Section Line Standard) auf dem Reiter Anmerkung bestimmt. Die Option {{Value|ANSI}} verwendet \"ziehende Peile\" (in einigen Regionen auch als \"traditionelles Format\" bekannt) und die Option {{Value|ISO}} verwendet \"schiebende Pfeile\" (auch als \"Reference Arrow Format\", Referenzpfeilmethode bekannt).
@@ -131,11 +145,13 @@ Die Standardeinstellungen für diese Parameter werden über die Einstellungen **
 -   **Trim After Cut**: Die Schnittoperation lässt manchmal (ungewollte) Anteile der Ausgangsform übrig. Wenn **Trim After Cut** den Wert TRUE besitzt, wird an dem Ergebnis des ersten Schnittes eine zusätzliche Beschnittoperation ausgeführt, die alle ungewollten Anteile entfernen sollte.
 -   **Cut Surface Display**: Die Schnittfläche kann ausgeblendet, mit Farbe gefüllt, mit einem SVG-Muster schraffiert oder mit einem PAT-Muster schraffiert werden. Siehe [Schraffieren](TechDraw_Hatching/de.md).
 
+
+
 ## Skripten
 
 Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Werkzeug Schnittansicht kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
+Eine Schnittansicht kann mit [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen erstellt werden:
 
 
 ```python
@@ -146,17 +162,25 @@ page = doc.Page
 view = doc.addObject("TechDraw::DrawViewPart", "View")
 page.addView(view)
 view.Source = box
-view.Direction = (0.0, 0.0, 1.0)
+view.Direction = (0, 0, 1)
 
 section = doc.addObject("TechDraw::DrawViewSection", "Section")
 page.addView(section)
 section.Source = box
 section.BaseView = view
-section.Direction = (0.0, 1.0, 0.0)
-section.SectionNormal = (-1.0, 0.0, 0.0)
+section.Direction = (0, 1, 0)
+section.SectionNormal = (-1, 0, 0)
 
 doc.recompute()
 ```
+
+
+
+## Beispiele
+
+Für weitere Information über Schnittansichten und einige Beispiele siehe: [TechDraw Schnittbeispiele](TechDraw_Section_Examples/de.md).
+
+<img alt="" src=images/TechDraw_ExampleSection-10.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-13.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-15.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-17.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-34.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-35.png  style="width:80px;">
 
 
 

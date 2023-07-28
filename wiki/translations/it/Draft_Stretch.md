@@ -2,114 +2,69 @@
 - GuiCommand:/it
    Name:Draft Stretch
    Name/it:Stira
-   MenuLocation:Draft → Stira
+   MenuLocation:Modifiche → Stira
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**S** **H**
    Version:0.17
-   SeeAlso:[Offset](Draft_Offset/it.md), [Scala](Draft_Scale/it.md)
 ---
 
 # Draft Stretch/it
 
 
-</div>
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_Stretch.svg  style="width:24px;"> **Stira** allunga gli oggetti spostando i punti selezionati.
 
-<div class="mw-translate-fuzzy">
-
-Lo strumento <img alt="" src=images/Draft_Stretch.svg  style="width:16px;"> Stira allunga un oggetto spostando alcuni dei suoi vertici selezionati. L\'azione equivalente è la modifica dell\'oggetto e lo spostamento manuale dei punti in una nuova posizione.
-
-
-</div>
-
-<img alt="" src=images/Draft_Stretch_Example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Stretch_Example.jpg  style="width:400px;"> 
+*Stirare tre polilinee*
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-*Allungamento di tre polilinee racchiudendo alcuni vertici e spostandoli in un'altra posizione*
-
-
-</div>
 
 ## Utilizzo
 
-See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
+
+1.  Opzionalmente selezionare uno o più oggetti. Gli oggetti devono essere [Linee](Draft_Line/it.md), [Polilinee](Draft_Wire/it.md), [Rettangoli](Draft_Rectangle/it.md), [BSplines](Draft_BSpline/it.md) o [ BezCurves](Draft_BezCurve/it.md). Gli altri oggetti vengono ignorati.
+2.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_Stretch.svg" width=16px> [Stira](Draft_Stretch/it.md)**.
+    -   Selezionare l\'opzione **Modifiche → <img src="images/Draft_Stretch.svg" width=16px> Stira** dal menu.
+    -   Usare la scorciatoia da tastiera: **S** poi **H**.
+3.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto nella [Vista 3D](3D_view/it.md).
+4.  Si apre il pannello delle attività **Stira**. Vedi [Opzioni](#Opzioni.md) per maggiori informazioni.
+5.  Scegliere il primo punto, un angolo di un\'area di selezione rettangolare, nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
+6.  Scegliere il secondo punto, l\'angolo opposto dell\'area di selezione, nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
+7.  Vengono contrassegnati i punti degli oggetti selezionati che si trovano all\'interno dell\'area di selezione.
+8.  Scegliere il terzo punto, il punto base, nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
+9.  Scegliere il quarto punto, il punto di destinazione, nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
 
 
-<div class="mw-translate-fuzzy">
-
-## Uso
-
-1.  Selezionare un oggetto che si desidera stirare
-2.  Premere il pulsante **<img src="images/Draft_Stretch.svg" width=16px> [Stira](Draft_Stretch/it.md)**. Se nessun oggetto è selezionato, si viene invitati a selezionarne uno
-3.  Fare clic su un primo punto nella vista 3D o digitare una coordinata e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**.
-4.  \# Fare clic su un secondo punto nella vista 3D o digitare una coordinata e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**. Questi primi due punti definiscono un rettangolo di selezione. I vertici dell\'oggetto originale racchiusi da questo rettangolo diventano evidenziati.
-5.  \# Fare clic su un terzo punto nella vista 3D o digitare una coordinata e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**.
-6.  \# Fare clic su un quarto punto nella vista 3D o digitare una coordinata e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**. La seconda coppia di punti definisce una linea, la cui distanza e direzione sono utilizzate per allungare la figura attaccata ai punti evidenziati.
-
-
-</div>
 
 ## Opzioni
 
-The single character keyboard shortcuts mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
+Le scorciatoie da tastiera a carattere singolo menzionate qui possono essere modificate. Vedere [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
+
+-   Per inserire manualmente le coordinate, inserire le componenti X, Y e Z e premere **Enter** dopo ognuna di esse. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
+-   Premere **R** o fare clic sulla casella di controllo **Relativa** per attivare o disattivare la modalità relativa. Se la modalità relativa è attiva, le coordinate del secondo punto dello spostamento sono relative al primo punto, altrimenti sono relative all\'origine del sistema di coordinate.
+-   Premere **G** o fai clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **S** per attivare o disattivare [Aggancia](Draft_Snap/it.md).
+-   Premere **Esc** o il pulsante **Chiudi** per interrompere il comando.
 
 
-<div class="mw-translate-fuzzy">
 
--   Premere **X**, **Y** o **Z** dopo il primo punto per vincolare il secondo punto su un dato asse.
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** tra ciascun componente X, Y e Z.
--   Premere **R** o fare clic sulla casella di controllo per attivare la modalità \"relativa\". Se la modalità relativa è attiva, le coordinate del secondo punto sono relative alla prima; se no, sono assolute, prese dall\'origine (0,0,0).
--   Premere **T** oppure fare clic sulla casella di controllo per attivare la modalità \"continua\". Se la modalità continua è attiva, lo strumento Simmetria si riavvia dopo aver assegnato il secondo punto, consentendo di inserire un altro oggetto senza premere nuovamente il pulsante dello strumento.
--   Tenere premuto **Ctrl** mentre si disegna per forzare lo [snap](Draft_Snap.md) al punto di aggancio più vicino, indipendentemente dalla distanza.
--   Tenere premuto **Shift** mentre si disegna per [vincolare](Draft_Constrain.md) il secondo punto in orizzontale o in verticale rispetto al primo.
--   Premere il pulsante **Esc** o **Chiudi** per interrompere il comando corrente.
+## Preferenze
+
+Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
+
+-   Per modificare il numero di decimali utilizzati per l\'inserimento delle coordinate: **Modifica → Preferenze... → Generale → Unità → Impostazioni unità → Numero di cifre decimali**.
 
 
-</div>
-
-## Preferences
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-**Vedere anche:**
-
-[Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Per lo strumento Stira non esiste un\'interfaccia di programmazione disponibile. Tutto ciò che fa è cambiare alcuni attributi degli oggetti Draft selezionati, come `Placement`, `Points`, `Length`, o `Height`, che si traduce in una forma stirata.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+Non esiste un metodo Python per stirare gli oggetti. Per emulare i risultati del comando Stira è necessario modificare le proprietà geometriche degli oggetti.
 
 
 

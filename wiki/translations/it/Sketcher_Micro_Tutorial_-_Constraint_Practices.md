@@ -15,6 +15,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Benvenuto
@@ -65,6 +67,8 @@ Some actions to remember:
 in the [task panel](task_panel.md) expand the **Edit controls** section, and make sure the **Auto constraints** option is disabled. Also turn off the grid snap, and hide the grid.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Primo approccio 
@@ -96,6 +100,8 @@ A titolo di esempio, prendiamo lo schizzo di un quadrato. Nella prima schermata,
 Looking at the **Constraints** section in the [task panel](task_panel.md), we see that the constraints are too many; they also clutter the view of the sketch. These constraints are also computationally intensive for the solver; while this is not an issue with a simple shape, it can become one with more complex shapes.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Un modo migliore 
@@ -125,6 +131,8 @@ La schermata successiva mostra lo stesso quadrato, vincolato utilizzando alcuni 
 *Left: datum constraints for only two sides. Right: additional datum constraints for only two interior distances.*
 
 This is a better constrained sketch than the first one. The horizontal and vertical geometric constraints allow us to use fewer datum constraints, so our sketch looks less cluttered.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -161,6 +169,8 @@ Ora, in questa ultima schermata, è rimasto un solo vincolo dimensionale, e i vi
 This is the best way to constrain this sketch, as we only used one datum (dimensional) constraint.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Risorse aggiuntive 
@@ -177,9 +187,11 @@ This is the best way to constrain this sketch, as we only used one datum (dimens
 </div>
 
 
- {{Sketcher Tools navi}}
+{{Sketcher Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/it

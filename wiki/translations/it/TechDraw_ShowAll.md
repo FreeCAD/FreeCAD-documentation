@@ -13,19 +13,37 @@
 
 </div>
 
+
+
 ## Descrizione
+
+
+<div class="mw-translate-fuzzy">
 
 Lo strumento Mostra tutto mostra o nasconde le linee invisibili in una vista. Notare che \"invisibile\" è uno stato cosmetico, da non confondere con le linee nascoste che sono costrutti geometrici.
 
+
+</div>
+
+
+
 ## Utilizzo
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Selezionare una vista in una pagina o nella struttura.
 2.  Premere il pulsante **<img src="images/TechDraw_ShowAll.svg" width=16px> [Mostra tutto](TechDraw_ShowAll/it.md)**.
 3.  Lo stato delle linee invisibili nella vista viene invertito.
 
-## Proprietà
 
-Lo strumento Mostra tutto non ha proprietà, in quanto non è un Document Object.
+</div>
+
+## Notes
+
+-   To make invisible lines permanently visible use <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:16px;"> [TechDraw DecorateLine](TechDraw_DecorateLine.md).
+
+
 
 ## Script
 
@@ -50,10 +68,10 @@ L\'effetto dello strumento Mostra può essere replicato nelle [macro](macros/it.
 
 
 ```python
->>> v = App.ActiveDocument.View
->>> vvo = v.ViewObject
->>> vvo.ShowAllEdges = True
->>> App.activeDocument().recompute()
+v = App.ActiveDocument.View
+vvo = v.ViewObject
+vvo.ShowAllEdges = True
+App.ActiveDocument.recompute()
 ```
 
 

@@ -7,9 +7,13 @@ Uzyskanie takiej symulacji odbywa się w programie FreeCAD za pomocą środowisk
 
 <img alt="" src=images/Exercise_fem_01.jpg  style="width:600px;">
 
+
+
 ### Przygotowanie programu FreeCAD 
 
 Sama symulacja jest wykonywana przez inny program, który jest wykorzystywany przez FreeCAD do uzyskania wyników. Ponieważ jest dostępnych kilka interesujących aplikacji do symulacji MES o otwartym kodzie źródłowym, środowisko pracy [MES](FEM_Workbench/pl.md) pozwala na wybór pomiędzy nimi. Jednak obecnie tylko [CalculiX](http://www.calculix.de/) jest w pełni zaimplementowany. Wymagany jest również inny program, o nazwie [NetGen](https://sourceforge.net/projects/netgen-mesher/), który odpowiada za generowanie siatki podziału. Szczegółowe instrukcje dotyczące instalacji tych dwóch komponentów znajdują się [w dokumentacji FreeCAD](FEM_Install/pl.md).
+
+
 
 ### Przygotowanie geometrii 
 
@@ -27,6 +31,8 @@ Zaczniemy od domu, który wymodelowaliśmy w rozdziale [Modelowanie BIM](Manual:
 -   Środowisko pracy MES może obecnie obliczać deformacje tylko jednego obiektu. Dlatego musimy połączyć nasze dwa obiekty *(ścianę i płytę)*. Przejdź do środowiska pracy [Część](Part_Workbench/pl.md), wybierz dwa obiekty i naciśnij przycisk **<img src="images/Part_Fuse.svg" width=16px> [Scalenie](Part_Fuse/pl.md)**. Otrzymaliśmy teraz połączony obiekt:
 
 <img alt="" src=images/Exercise_fem_03.jpg  style="width:600px;">
+
+
 
 ### Tworzenie analizy 
 

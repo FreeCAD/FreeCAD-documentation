@@ -107,7 +107,7 @@ L\'outil <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:24px;"
 
 ## Organiser les fonctions 
 
-Si certaines des fonctions sélectionnées sont additives et d\'autres soustractives, leur ordre peut avoir un impact sur le résultat final. Vous pouvez modifier l\'ordre en faisant glisser les fonctions individuelles dans la liste. {{Version/fr|0.19}}
+Si certaines des fonctions sélectionnées sont additives et d\'autres soustractives, leur ordre peut avoir un impact sur le résultat final. Vous pouvez modifier l\'ordre en faisant glisser les fonctions individuellement dans la liste.
 
 ![](images/PartDesign_feature-order.gif ) 
 *Effet de l'ordre des fonctionnalités*

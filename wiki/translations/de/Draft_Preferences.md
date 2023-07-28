@@ -5,6 +5,8 @@ Die Einstellungen für den Arbeitsbereich [Draft](Draft_Workbench.md) findet man
 
 Es gibt fünf Reiter: [Allgemeine Einstellungen](#General_settings/de.md), [Einstellungen für die Benutzeroberfläche](#User_interface_settings/de.md), [Raster und einrasten](#Grid_and_snapping/de.md), [Visuelle Einstellungen](#Visual_settings/de.md) and [Texte und Bemaßungen](#Texts_and_dimensions/de.md).
 
+
+
 ## Allgemeine Einstellungen 
 
 On the *General settings* tab you can specify the following:
@@ -88,6 +90,8 @@ On the *General settings* tab you can specify the following:
 
 ![](images/Preferences_Draft_Tab_General_settings.png )
 
+
+
 ## Einstellungen für die Benutzeroberfläche 
 
 On the *User interface settings* tab you can specify the following:
@@ -157,7 +161,7 @@ On the *User interface settings* tab you can specify the following:
 | **Global**                  |                                                                                                                                                                                                                                               |
 |                                      |                                                                                                                                                                                                                                               |
 +++
-|                          | Shortcut to press the **Undo** button. Not available in {{VersionMinus|0.19}}.                                                                                                                             |
+|                          | Shortcut to press the **Undo** button.                                                                                                                                                                                   |
 | **Undo**                    |                                                                                                                                                                                                                                               |
 |                                      |                                                                                                                                                                                                                                               |
 +++
@@ -199,6 +203,8 @@ On the *User interface settings* tab you can specify the following:
 +++
 
 ![](images/Preferences_Draft_Tab_User_interface_settings.png )
+
+
 
 ## Raster und einrasten 
 
@@ -306,6 +312,8 @@ On the *Grid and snapping* tab you can specify the following:
 
 ![](images/Preferences_Draft_Tab_Grid_and_snapping.png )
 
+
+
 ## Visuelle Einstellungen 
 
 On the *Visual settings* tab you can specify the following:
@@ -340,10 +348,6 @@ On the *Visual settings* tab you can specify the following:
 +++
 |                                                    | If checked, a widget indicating the current working plane orientation appears during drawing operations.                                                                                                            |
 | **Show Working Plane tracker**                        |                                                                                                                                                                                                                     |
-|                                                                |                                                                                                                                                                                                                     |
-+++
-|                                                    | Obsolete. The template used by the [Draft Drawing](Draft_Drawing.md) command.                                                                                                                               |
-| **Default template sheet**                            |                                                                                                                                                                                                                     |
 |                                                                |                                                                                                                                                                                                                     |
 +++
 |                                                    | A directory with custom SVG patterns. Select a file in the directory and then remove the filename in the preferences input box, leaving only the path.                                                              |
@@ -382,6 +386,8 @@ On the *Visual settings* tab you can specify the following:
 +++
 
 ![](images/Preferences_Draft_Tab_Visual_settings.png )
+
+
 
 ## Texte und Bemaßungen 
 

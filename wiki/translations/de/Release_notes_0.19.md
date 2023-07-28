@@ -9,6 +9,8 @@
 
 *Simpson und Shipton Kurzhub Dampfmaschine um 1845, mit horizontal rotierendem Kolben, von \"un1corn\", [Anwender Schaukasten](https://forum.freecadweb.org/viewtopic.php?f=24&t=39024).*
 
+
+
 ## Höhepunkte
 
    
@@ -32,26 +34,26 @@
 +++
 
 +++
-| <img alt="" src=images/FreeCAD_highlight_4_0.19.png  style="width:512px;"> | Der <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md), der den <img alt="" src=images/Workbench_Drawing.svg  style="width:24px;"> [Arbeitsbereich Zeichnung](Drawing_Workbench/de.md) in [v0.17](Release_notes_0.17/de.md) ersetzt hat, wurde in wichtigen Punkten erweitert. Sie hat viele neue Funktionen in Bezug auf [v0.18](Release_notes_0.18/de.md), die es viel nützlicher machen, technische Illustrationen von 3D Körpern zu erstellen.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|                                                                               | <div class="mw-translate-fuzzy">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                                               | Neben vielen kleinen Verbesserungen gibt es folgende neue Funktionen: Bemaßungen entsprechen jetzt einer der Normen ISO 129-1 oder ASME Y14. 5M; neue [Stücklistensymbol Anmerkungen](TechDraw_Balloon/de.md) zum Einfügen von Text innerhalb eines Kreises oder einer Polygonform; neue [FormatierteText Anmerkungen](TechDraw_RichTextAnnotation/de.md) zum Einfügen großer Absätze, die fett oder kursiv formatiert sind; [kosmetische Knoten](TechDraw_CosmeticVertex/de.md) und [kosmetische Kanten](TechDraw_FaceCenterLine/de.md), die nicht Teil des Originalmodells sind, aber zum Erstellen eigener Bemaßungen verwendet werden können; grundlegende Unterstützung für [Schweißsymbole](TechDraw_WeldSymbol/de.md); neuer [aktive Ansicht](TechDraw_ActiveView/de.md) Modus, um einen \"Schnappschuss\" der [3D Ansicht](3D_view/de.md) zu machen; neue Grundvorlagen für ISO Größen (A0 bis A4) sowie russische und chinesische Sprachvorlagen; neue horizontale und vertikale Bemaßungen, die die [Vollausdehnung der Projektionen](TechDraw_HorizontalExtentDimension/de.md) messen; SVG Flächenschraffuren sind nun verfügbar, wenn die Seite nach SVG exportiert wird; das neue [Anwendungsverweis](App_Link/de.md) Objekt wird nun auch als Quelle für die Erstellung von Ansichten unterstützt, was bei der Arbeit mit [Baugruppen](assembly/de.md) nützlich ist. |
+| <img alt="" src=images/FreeCAD_highlight_4_0.19.png  style="width:512px;"> | Der <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md), der den <img alt="" src=images/Workbench_Drawing.svg  style="width:24px;"> [Arbeitsbereich Zeichnung](Drawing_Workbench/de.md) in [v0.17](Release_notes_0.17/de.md) ersetzt hat, wurde in wichtigen Punkten erweitert. Sie hat viele neue Funktionen in Bezug auf [v0.18](Release_notes_0.18/de.md), die es viel nützlicher machen, technische Illustrationen von 3D Körpern zu erstellen.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                               | Neben vielen kleinen Verbesserungen gibt es folgende neue Funktionen: Maße entsprechen jetzt einer der Normen ISO 129-1 oder ASME Y14. 5M; neue [Stücklistensymbol Anmerkungen](TechDraw_Balloon/de.md) zum Einfügen von Text innerhalb eines Kreises oder einer Polygonform; neue [FormatierteText Anmerkungen](TechDraw_RichTextAnnotation/de.md) zum Einfügen großer Absätze, die fett oder kursiv formatiert sind; [kosmetische Knoten](TechDraw_CosmeticVertex/de.md) und [kosmetische Kanten](TechDraw_FaceCenterLine/de.md), die nicht Teil des Originalmodells sind, aber zum Erstellen eigener Maße verwendet werden können; grundlegende Unterstützung für [Schweißsymbole](TechDraw_WeldSymbol/de.md); neuer [aktive Ansicht](TechDraw_ActiveView/de.md) Modus, um einen \"Schnappschuss\" der [3D-Ansicht](3D_view/de.md) zu machen; neue Grundvorlagen für ISO-Größen (A0 bis A4) sowie russische und chinesische Sprachvorlagen; neue horizontale und vertikale Bemaßungen, die die [Gesamtausdehnung der Projektionen](TechDraw_HorizontalExtentDimension/de.md) messen; SVG-Flächenschraffuren sind nun verfügbar, wenn die Seite nach SVG exportiert wird; das neue [App-Link](App_Link/de.md)-Objekt wird nun auch als Quelle für die Erstellung von Ansichten unterstützt, was bei der Arbeit mit [Baugruppen](assembly/de.md) nützlich ist. |
 +++
 
 
-</div>
 
 ## Allgemeines
 
 Mit mehr als 8128 Änderungen im Masterzweig seit der Version 0.18 ist dies eine der umfangreichsten Versionen aller Zeiten, mit mehreren neuen Komponenten wie dem neuen \"[App::Link](App_Link.md)\" Objekt, sowie vielen neuen Werkzeugen im [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md), welche FreeCAD noch leistungsfähiger für die 3D Volumenmodellierung und -zusammenbau machen. Daneben ist das FreeCAD Ökosystem mit spezialisierteren [externen Arbeitsbereichen](external_workbenches/de.md) weiter gewachsen.
+
+
 
 #### Python 3 und Qt5 
 
 Das Vorhaben, von Python 2 und Qt4 auf Python 3 und Qt5 zu migrieren, ist im Wesentlichen abgeschlossen, und die meisten Entwickler sind auf die Python3/Qt5 Werkzeugketten umgestiegen.
 
 Zweifellos gibt es unvorhergesehene Fehler; diese werden behoben, sobald sie gemeldet werden. Jegliche bestehende Abhängigkeit von Python 2 oder Qt4 wird nach dem 1. Januar 2020, wenn Python 2 offiziell nicht mehr von der Python Foundation unterstützt wird, nicht mehr unterstützt werden. Bitte beachte, dass bestimmte Erweiterungen noch nicht nach Python3/Qt5 portiert worden sind. Dies kann verschiedene Gründe haben, wie z.B. Zeitmangel der Entwickler, fehlerhafte Abhängigkeiten, die nicht leicht behoben werden können, oder einfach, weil die Erweiterung als veraltet angesehen wird. Personen, die an der Migration eines bestimmten Arbeitsbereichs oder eines bestimmten Werkzeugs interessiert sind, werden ermutigt, am [FreeCAD Forum](https://forum.freecadweb.org/) teilzunehmen; siehe auch [Python3- und Qt5 kompatible Erweiterungs Arbeitsbereiche (in Vorbereitung auf 0.18)](https://forum.freecadweb.org/viewtopic.php?f=10&t=30624).
+
+
 
 ### Bekannte Probleme 
 
@@ -62,6 +64,8 @@ Behobenes Thema mit der Sichtbarkeit von [Std Part](Std_Part/de.md) Containern, 
 -   Behobener Fehler in `MainWindow::setActiveWindow`, um einen Absturz bei der Rückkehr vom Vollbildschirm zu vermeiden; [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?p=326093#p326093), [commit c4e34ed9b](https://github.com/FreeCAD/FreeCAD/commit/c4e34ed9b).
 -   Behoben [issue #4088](https://freecadweb.org/tracker/view.php?id=4088) über die Sichtbarkeit des Ursprungs eines Teils, die sich ändert, wenn die 3D Ansicht abgedockt wird; [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?p=326093#p326093), [commit 1e19ef5be](https://github.com/FreeCAD/FreeCAD/commit/1e19ef5be).
 -   Behoben [issue #3130](https://freecadweb.org/tracker/view.php?id=0003130) über Qt5 Fehler bei der Verwendung eines externen Monitors mit hoher Auflösung; [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=34916), [commit 2f2d505359](https://github.com/FreeCAD/FreeCAD/commit/2f2d5053599785fdc8db481682746066911033b4).
+
+
 
 ### Entwicklung
 
@@ -76,10 +80,9 @@ Weitere Development News:
 -   Es gibt einen neuen Docker Container um FreeCAD zu bauen, siehe [Kompilieren auf Docker](Compile_on_Docker/de.md); [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=4&t=42954).
 -   Die Infrastruktur des Fehlernachverfolgers wie auch des Wiki wurden auf einen dedizierten Server verschoben, so dass sie für die Projekt Administratoren einfacher zu verwalten sind; [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=42795).
 
+
+
 ### Dokumentation
-
-
-<div class="mw-translate-fuzzy">
 
 -   Die [Kompilieren unter Linux](Compile_on_Linux/de.md) Seite wurde überarbeitet, um die Voraussetzungen für die Kompilierung auf verschiedenen Linux-Distributionen besser zu erklären. Da viele Entwickler Debian basierte Systeme verwenden, erhielt dieser Abschnitt die meiste Aufmerksamkeit. Benutzer anderer Linux Distributionen werden ermutigt, die Dokumentation für ihre spezielle Distribution zu pflegen.
 -   [Kompilieren unter Windows](Compile_on_Windows/de.md) wurde ebenfalls umgeschrieben, um zu erklären, wie man das \"LibPack\" zum Kompilieren verwendet.
@@ -87,17 +90,18 @@ Weitere Development News:
 -   Die [Quell Dokumentation](Source_documentation/de.md) Seite erhielt auch eine Bereinigung, um besser zu erklären, wie man die Programmier (API) Dokumentation aus C++- und Python Quellen erzeugt.
 -   Die Seite [Doxygen](Doxygen/de.md) wurde überarbeitet und erweitert, um mehr Details über die Syntax zu geben, die in C++ Dateien verwendet wird, um die Programmierdokumentation zu erstellen.
 -   Die [Quellcode Verwaltung](Source_code_management/de.md) Seite wurde ebenfalls überarbeitet und mit besseren Beschreibungen und Beispielen für die Verwendung von `git` zur Verwaltung von Zweigen und zum Einbringen von Code versehen.
--   Die [Externe Arbeitsbereiche](External_workbenches/de.md) Seite wurde neu organisiert, so dass alle funktionsreichen, öffentlich zugänglichen Arbeitsbereiche aufgelistet sind. Wenn du einen Arbeitsbereich zu dieser Seite hinzufügen möchtest, stelle sie im Forum vor und stelle unterstützende Informationen wie Benutzerhandbuch, Wiki Seiten und eine Verknüpfung zu ihrem Repositorium zur Verfügung. Dann dränge darauf , damit sie in den [Erweiterungsverwalter](Std_AddonMgr/de.md) aufgenommen wird.
+-   Die [Externe Arbeitsbereiche](External_workbenches/de.md) Seite wurde neu organisiert, so dass alle funktionsreichen, öffentlich zugänglichen Arbeitsbereiche aufgelistet sind. Wenn du einen Arbeitsbereich zu dieser Seite hinzufügen möchtest, stelle sie im Forum vor und stelle unterstützende Informationen wie Benutzerhandbuch, Wiki Seiten und eine Verknüpfung zu ihrem Repositorium zur Verfügung. Dann dränge darauf , damit sie in den [Addon-Manager](Std_AddonMgr/de.md) aufgenommen wird.
 -   Es gab Verbesserungen an den Seiten [Tutorien](Tutorials/de.md) und [Videotutorien](Video_tutorials/de.md). Insbesondere wurde den Lesern gegenüber betont, dass sie nur Videotutorien berücksichtigen sollten, die mit den Versionen 0.17 und höher erstellt wurden.
 
 
-</div>
 
 ### Bekannte Begrenzungen 
 
 -   Schwarzer Bildschirm aufgrund von Grafikkartentreibern, während FreeCAD in einer virtuellen Maschine ausgeführt wird; [Ausgabe #3939](https://freecadweb.org/tracker/view.php?id=3939).
 -   Der Logitech Wingman USB Joystick kann beim Drehen und Zoomen in der Ansicht ein unregelmäßiges Verhalten verursachen; [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=36712&start=10).
 -   Die Gestennavigation wird unter Windows vollständig unterstützt, muss aber unter Linux und MacOS noch gewartet werden. Problem: Der Entwickler, DeepSOIC, hat keinen MacOS Rechner mit seinem speziellen Trackpad und hat es auch nicht unter Linux getestet; [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?p=308403#p308402).
+
+
 
 ## Benutzeroberfläche
 
@@ -120,6 +124,8 @@ Weitere Development News:
 |                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                | [Wiki](https://wiki.freecadweb.org/Std_ViewScreenShot#Creation_method), [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=41950&start=10), [commit 8e5151002](https://github.com/FreeCAD/FreeCAD/commit/8e5151002).                                                                                                                                                                                                                                                                                                                                                                                               |
 +++
+
+
 
 ## Anwendung::Verknüpfung und Zusammenbau 
 
@@ -154,6 +160,8 @@ The \"App Link\" object prepares FreeCAD for the phase that was scheduled to hap
 
 [Assembly3](Assembly3_Workbench.md) is an assembly workbench written in Python by realthunder, that makes use of the \"App Link\" functionality. The workbench served as a testbed for this component during its development. While Assembly3 is still not officially part of FreeCAD, with the inclusion of \"App Link\" in the master branch, it is a matter of time for Assembly3 to be provided as an installable add-on, just like [A2plus](A2plus_Workbench.md) and [Assembly4](Assembly4_Workbench.md) are provided currently.
 
+
+
 ## Kernsystem, Anwendungs-, Basis- und Gui Namensräume 
 
 Neben der Einführung von [Anwendungsverknüpfung](App_Link/de.md) wurden mit dem \"Verknüpfung Zusammenführen\" Zweig auch einige für den Benutzer sichtbare Änderungen in Bezug auf Objekteigenschaften, [Ausdrücke](Expressions/de.md), [visuelle Auswahl](Selection_methods/de.md) und die [Baumansicht](tree_view/de.md) eingeführt. Diese sind auf der Seite [Wesentliche-Änderungen](https://github.com/realthunder/FreeCAD_assembly3/wiki/Core-Changes) beschrieben.
@@ -168,16 +176,8 @@ Neben der Einführung von [Anwendungsverknüpfung](App_Link/de.md) wurden mit de
 | <img alt="" src=images/FreeCAD_backup_timestamp.png.png  style="width:384px;">                   | Nach zwei Jahren Stillstand gibt es Verbesserungen beim Umgang mit Sicherheitskopiedateien. Sie können nun einen Zeitstempel im Format `%Y%m%d-%H%M%S` enthalten, anstatt einer einfachen Nummer. Dies kann im [Voreinstellungseditor](Preferences_Editor/de.md) eingestellt werden (**Bearbeiten -> Einstellungen -> Allgemein -> Dokument -> Datums- und FCBak Erweiterung verwenden**).                                                                                       |
 |                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |                                                                                                         | [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=27&t=26965&start=20#p217186), [pull request #1148](https://github.com/FreeCAD/FreeCAD/pull/1148).                                                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                                                                         | <div class="mw-translate-fuzzy">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 +++
-| <img alt="" src=images/FreeCAD_Parameter_editor_quick_search.png  style="width:384px;"> | Neues Eingabefeld, um schnell nach Parametern im [Parameter Editor](Std_DlgParameter/de.md) zu suchen. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=27&t=44169), [pull request #3173](https://github.com/FreeCAD/FreeCAD/pull/3173).                                                                                                                                                                                                                                                                           |
-|                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                                                                         | </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| <img alt="" src=images/FreeCAD_Parameter_editor_quick_search.png  style="width:384px;"> | Neues Eingabefeld, um schnell nach Parametern im [Parametereditor](Std_DlgParameter/de.md) zu suchen. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=27&t=44169), [pull request #3173](https://github.com/FreeCAD/FreeCAD/pull/3173).                                                                                                                                                                                                                                                                            |
 +++
 | <img alt="" src=images/Macro_recently_used.png  style="width:384px;">                                     | Das [Makro-Menü](Std_Macro_Menu/de.md) zeigt nun ein Tastaturkürzel auf kürzlich verwendete [Makros](Macros/de.md), die mit einer Tastenkombination aufgerufen werden können, z.B. **Strg**+**Shift**+**1**. Dies kann in den [Makro-Voreinstellungen](Preferences_Editor/de#Makro.md) konfiguriert werden. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=48342), [pull request #3616](https://github.com/FreeCAD/FreeCAD/pull/3616). |
 +++
@@ -192,18 +192,16 @@ Neben der Einführung von [Anwendungsverknüpfung](App_Link/de.md) wurden mit de
 -   New [glTF](Import_Export#Overview_of_file_formats.md) support (requires OCC 7.5.0) [commit](https://github.com/FreeCAD/FreeCAD/commit/74b866ed3)
 -   New [WebGL](Import_Export#Overview_of_file_formats.md) exporter [pull request #4025](https://github.com/FreeCAD/FreeCAD/pull/4025)
 
+
+
 ## Erweiterungsverwalter
 
-
-<div class="mw-translate-fuzzy">
-
    
-  <img alt="" src=images/Addon_Manager_update_0.19.png  style="width:384px;">   Der [Erweiterungsverwalter](Std_AddonMgr/de.md) wurde aktualisiert; er ist nun in der Lage, vollständigere Informationen zu allen [externen Arbeitsbereichen](external_workbenches/de.md) und [Makros](macros_recipes/de.md) anzuzeigen und für jedes von ihnen ein Symbol anzuzeigen. Es ermöglicht auch, beim Start nach Aktualisierungen zu suchen und benutzerdefinierte Repositorien zu verwenden. [Diskussion im Forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=37394).
+  <img alt="" src=images/Addon_Manager_update_0.19.png  style="width:384px;">   Der [Addon-Manager](Std_AddonMgr/de.md) wurde aktualisiert; er ist nun in der Lage, vollständigere Informationen zu allen [externen Arbeitsbereichen](external_workbenches/de.md) und [Makros](macros_recipes/de.md) anzuzeigen und für jedes von ihnen ein Symbol anzuzeigen. Es ermöglicht auch, beim Start nach Aktualisierungen zu suchen und benutzerdefinierte Repositorien zu verwenden. [Diskussion im Forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=37394).
   <img alt="" src=images/addon_manager_ui_tweak.png  style="width:384px;">         Es zeigt auch Informationen darüber an, ob die Erweiterung veraltet, bereits installiert oder zur Aktualisierung verfügbar ist. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=37394&p=340109#p340109), [pull request #2605](https://github.com/FreeCAD/FreeCAD/pull/2605).
    
 
 
-</div>
 
 ## Arbeitsbereich Architektur 
 
@@ -250,6 +248,8 @@ Die Entwickler von [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbenc
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |                                                                                               | [Commit e42a26fba1](https://github.com/FreeCAD/FreeCAD/commit/e42a26fba1), [commit 7c12c8688c](https://github.com/FreeCAD/FreeCAD/commit/7c12c8688c).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 +++
+
+
 
 ## Arbeitsbereich Entwurf 
 
@@ -329,6 +329,8 @@ Die Entwickler von [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbenc
 |                                                                                                                                 | [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=23&t=44051), [commit 1b887fa0f5](https://github.com/FreeCAD/FreeCAD/commit/1b887fa0f5), [commit 4555a77663](https://github.com/FreeCAD/FreeCAD/commit/4555a77663), [commit 5b3fea59e0](https://github.com/FreeCAD/FreeCAD/commit/5b3fea59e0).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 +++
 
+
+
 ### Weitere Entwurf Verbesserungen 
 
 -   Das [Drahtentwurfswerkzeug](Draft_Wire/de.md) heißt jetzt im Menü \"Polylinie\" statt \"DWire\"; alle Optionen und Funktionen bleiben gleich, so dass dies die Kompatibilität nicht beeinträchtigt; [commit 39e748229e](https://github.com/FreeCAD/FreeCAD/commit/39e748229e67fa93e924e355c0ce0897c870d756).
@@ -340,6 +342,8 @@ Die Entwickler von [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbenc
 -   Der \"Werkzeugleistenmodus\" beim Starten der Entwurfswerkzeuge wurde entfernt. Dies war eine Schnittstelle, die in der Vergangenheit verwendet wurde, aber obsolet wurde, als das [Aufgabenpaneel](task_panel/de.md) die vorherrschende Oberfläche wurde; [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=34&t=42782), [pull request #2973](https://github.com/FreeCAD/FreeCAD/pull/2973).
 
 -    `Draft.copy`funktioniert jetzt mit jedem Dokumentobjekt, dank der neuen Methode `Document.copyObject()`, die mit dem LinkMerge eingeführt wurde; pull request [#3658](https://github.com/FreeCAD/FreeCAD/pull/3658).
+
+
 
 ## Arbeitsbereich FEM 
 
@@ -367,6 +371,8 @@ Die Entwickler von [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbenc
 | <img alt="" src=images/FEM_tie-constraint-dialog.png  style="width:287px;">                 | There are two new constraints available:menu menu one new solver:menu  and a possibility to overwrite a constant:menu **Model → Overwrite Constraints → [<img src=images/FEM_ConstantVacuumPermittivity.svg style="width:16px"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md)**. |
 +++
 
+
+
 ### Weitere FEM Verbesserungen 
 
 -   The Elmer project has developed a library for handling batch type pre-processing for the ElmerSolver, using the FEM Workbench. This includes creating mesh objects for FreeCAD, manipulating the mesh sizes of solids, creating finite element meshes using Gmsh, running ElmerGrid and exporting the mesh for ElmerSolver, and selecting and naming bodies and boundaries for ElmerSolver; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=18&t=38950), [elmerfem](https://github.com/ElmerCSC/elmerfem) repository (Elmer main repository), [FreeCADBatchFEMTools](https://github.com/ElmerCSC/elmerfem/tree/devel/ElmerWorkflows/FreeCADBatchFEMTools) repository (library to interact with FEM Workbench, LGPL 2.1).
@@ -377,10 +383,14 @@ Die Entwickler von [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbenc
 
 -   Verbesserte Import-/Export-Kompatibilität mit proprietären CAD-Systemen bei der Verwendung von komprimiertem STEP oder STPZ; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=37469), [pull request #2323](https://github.com/FreeCAD/FreeCAD/pull/2323), [commit 7de89cf62e](https://github.com/FreeCAD/FreeCAD/commit/7de89cf62e0411dcd).
 
+
+
 ## Materialhandhabung
 
 
 **Keine**
+
+
 
 ## Polygonnetze
 
@@ -396,11 +406,15 @@ Die Entwickler von [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbenc
 |                                                                             | [Forum thread](https://forum.freecadweb.org/viewtopic.php?f=34&t=47494), [Pull request #4462](https://github.com/FreeCAD/FreeCAD/pull/4462)                                                                                                                                                                                                                                                         |
 +++
 
+
+
 ### Weitere Verbesserungen 
 
 -   It is now possible to take an OpenInventor mesh file (**.iv**), and export it to STL; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=43926#p378032), [commit 601ac707b2](https://github.com/FreeCAD/FreeCAD/commit/601ac707b2).
 -   It is now possible to export a [Mesh](Mesh.md) to [Asymptote format](Asymptote.md) (**.asy** ); [forum thread](https://forum.freecadweb.org/viewtopic.php?f=8&t=48915), [commits 4badaba5](https://github.com/FreeCAD/FreeCAD/commit/4badaba5), [50bbd522](https://github.com/FreeCAD/FreeCAD/commit/50bbd522), [58a92681](https://github.com/FreeCAD/FreeCAD/commit/58a92681), [dd7afa72](https://github.com/FreeCAD/FreeCAD/commit/dd7afa72), [b0f78f5a](https://github.com/FreeCAD/FreeCAD/commit/b0f78f5a).
 -   Most tools of the [Mesh Workbench](Mesh_Workbench.md) now have a proper icon so it is easier to recognize the function in the menu and toolbars; [forum thread](https://forum.freecadweb.org/viewtopic.php?f=34&t=47494), pull request [#3816](https://github.com/FreeCAD/FreeCAD/pull/3816), [#3864](https://github.com/FreeCAD/FreeCAD/pull/3864).
+
+
 
 ## Arbeitsbereich Part 
 
@@ -420,6 +434,8 @@ Die Entwickler von [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbenc
 |                                                                                             | [Pull request #3078](https://github.com/FreeCAD/FreeCAD/pull/3078).                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 +++
 
+
+
 ### Weitere Verbesserungen 
 
 -   Der Dialog zum Bearbeiten von [Prismen](Part_Prism/de.md) erlaubt nun die Angabe eines Winkels in Bezug auf die Normale der gewählten Befestigungsebene. Auf diese Weise kann man schiefe Prismen erzeugen. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=27&t=49343#p422857), [pull request #3793](https://github.com/FreeCAD/FreeCAD/pull/3793)
@@ -427,6 +443,8 @@ Die Entwickler von [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbenc
 -   Mit der Zusammenführung von [Anwendungsverknüpfung](App_Link/de.md) wurden zwei neue Befehle eingeführt, [Part TransformierteKopie](Part_TransformedCopy/de.md) und [Part ElementKopie](Part_ElementCopy/de.md). Diese Befehle erzeugen nicht-parametrische Kopien eines Körpers mit einer transformierten Platzierung und eines Elements (Knoten, Kante oder Fläche); [commit 6da72b9859](https://github.com/FreeCAD/FreeCAD/commit/6da72b9859f6d21119831d44a8d132c8e2dfb544). Diese Operationen machen den [Makro Repro Draht](Macro_Repro_Wire/de.md) im Wesentlichen überflüssig.
 -   Es ist nun möglich, [Ausdrücke](Expressions/de.md) für alle Parameter von [Grundelemente](Part_Workbench/de#Primitives.md) zu setzen. [commit dd4874d2](https://github.com/FreeCAD/FreeCAD/commit/dd4874d2) und [commit 7405dd0e](https://github.com/FreeCAD/FreeCAD/commit/7405dd0e).
 -   Fehlerhafte Unterstützung für \"INCH\" (Zoll) Einheiten beim Exportieren in STEP/IGES Formate behoben; [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=22&t=36808&p=314172#p314172), [commit 1b26173580](https://github.com/FreeCAD/FreeCAD/commit/1b2617358).
+
+
 
 ## Arbeitsbereich PartDesign 
 
@@ -457,12 +475,16 @@ Die Entwickler von [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbenc
 | <img alt="" src=images/PartDesign_sprocket-feature.png  style="width:384px;">                   | The new feature [Sprocket](PartDesign_Sprocket.md) allows to create chain sprockets. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=22&t=44525), [pull request #3280](https://github.com/FreeCAD/FreeCAD/pull/3280).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 +++
 
+
+
 ### Weitere Verbesserungen 
 
 -   The [hole dialog](PartDesign_Hole.md) has been overhauled to create norm-conform clearance and threaded hole dimensions.
 -   It is now possible to set [expressions](Expressions.md) for all parameters of [additive](PartDesign_CompPrimitiveAdditive.md) and [subtractive primitives](PartDesign_CompPrimitiveSubtractive.md). [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=36458), [pull request #3225](https://github.com/FreeCAD/FreeCAD/pull/3225).
 -   It is now possible to set [expressions](Expressions.md) for the attachment angles of additive and subtractive primitives. Formerly, expressions were only available for the direction offsets. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=44346), [commit 1cfe6d2cc7](https://github.com/FreeCAD/FreeCAD/commit/1cfe6d2cc7).
 -   It is now possible to change the list items in the different dialogs. For example [in this forum post](https://forum.freecadweb.org/viewtopic.php?f=27&t=48998#p420352) there is a good example why the item list matters for transformations. [Here](https://forum.freecadweb.org/viewtopic.php?f=19&t=50222#p430499) is another example for the sketch order for lofts. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=27&t=48998), [pull request #3760](https://github.com/FreeCAD/FreeCAD/pull/3760), [commit 94ca4388e](https://github.com/FreeCAD/FreeCAD/commit/94ca4388e).
+
+
 
 ## Arbeitsbereich Pfad 
 
@@ -524,11 +546,15 @@ Die Entwickler von [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbenc
         -   Output can be ordered by tool, operation, or fixture to minimize toolchanges or transit time.
         -   Gcode can be split into multiple output files
 
+
+
 ## Arbeitsbereich Rendern 
 
 Added support for Blender\'s standalone \"Cycles\" renderer; [commit 759067912f](https://github.com/FreeCAD/FreeCAD-render/commit/759067912f0640e4b3dac41b104d2372978f94a1); [FreeCAD-render](https://github.com/FreeCAD/FreeCAD-render) repository. The Cycles standalone renderer usually needs to be compiled from source, as the binary is normally not provided by itself in a complete Blender distribution.
 
 Besides this, the Render Workbench already has support for Pov-Ray, Luxrender and Appleseed.
+
+
 
 ## Arbeitsbereich Skizzierer 
 
@@ -552,6 +578,8 @@ Besides this, the Render Workbench already has support for Pov-Ray, Luxrender an
 -   Das [ Verrundung](Sketcher_CreateFillet/de.md) Werkzeug bewahrt nun alle möglichen vorhandenen Zwangsbedingungen der berührten Linien. [pull request #4296](https://github.com/FreeCAD/FreeCAD/pull/4296), [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=54179).
 -   Neue Methode zum Abrufen des geometrischen Index eines [Skizze](Sketcher_SketchObject/de.md), `SketchObject.getGeoVertexIndex(index)`; [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=48707), [pull request #3713](https://github.com/FreeCAD/FreeCAD/pull/3713).
 
+
+
 ## Arbeitsbereich Tabellenblatt 
 
 The introduction of [App Link](App_Link.md) also brought some improvements to the [expressions](expressions.md) capabilities of FreeCAD, which are visible in the [property editor](property_editor.md), and the [Spreadsheet Workbench](Spreadsheet_Workbench.md). These are described in [Core-Changes](https://github.com/realthunder/FreeCAD_assembly3/wiki/Core-Changes) and this [forum thread](https://forum.freecadweb.org/viewtopic.php?f=27&t=38974).
@@ -570,11 +598,15 @@ The previous commits changed the way the autocompletion works with [expressions]
 
 Data entered into a cell is not tested anymore as an expression by default. Now an expression needs to start with an equal sign `{{:=`}} instead. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=39665), [pull request #4215](https://github.com/FreeCAD/FreeCAD/pull/4215).
 
+
+
 ## Arbeitsbereich Start 
 
    
   <img alt="" src=images/FreeCAD_Start_WB_thumbs.png  style="width:384px;">   Re-added example files to the Start page with saved thumbnails in their icons. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=34586&start=110), [pull request #2316](https://github.com/FreeCAD/FreeCAD/pull/2316).
    
+
+
 
 ## Arbeitsbereich Oberfläche 
 
@@ -587,6 +619,8 @@ Data entered into a cell is not tested anymore as an expression by default. Now 
 |                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |                                                                                   | Likewise, the icons have been updated to be more visually attractive.                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +++
+
+
 
 ## Arbeitsbereich TechDraw 
 
@@ -642,10 +676,9 @@ Data entered into a cell is not tested anymore as an expression by default. Now 
 |                                                                                                                                                                                               | [Forum discussion](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=47013), [commit a9b718d1e0](https://github.com/FreeCAD/FreeCAD/commit/a9b718d1e0).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 +++
 
+
+
 ### Weitere TechDraw Verbesserungen 
-
-
-<div class="mw-translate-fuzzy">
 
 -   Es gab Diskussionen über die Änderung des Standardverhaltens von TechDraw. Anstatt die Zeichnungsseiten automatisch aktualisiert zu halten, würden sie nur bei Bedarf aktualisiert; dies würde die Auswirkungen von TechDraw mildern, die den Rest von FreeCAD beim Modellieren verlangsamen. Außerdem können nun, da [Anwendungsverknüpfung](App_Link/de.md) in FreeCAD enthalten ist, TechDraw Seiten in einer separaten Datei gespeichert und bei Bedarf geladen werden; [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=35&t=35086) (Hauptdiskussion), [orumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=35&t=38822) (Alternativen).
 -   Verbesserungen bei der Handhabung von Schnittansichten mit [ TechDraw SchnittAnsicht](TechDraw_SectionView/de.md); [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=35&t=40639), [pull request #2737](https://github.com/FreeCAD/FreeCAD/pull/2737).
@@ -654,18 +687,19 @@ Data entered into a cell is not tested anymore as an expression by default. Now 
 -   Hinzugefügte Optionen für Seitengröße, Linienbreite und Hintergrund beim Speichern in SVG; dies verbessert die Integration von Entwurf/Architektur und TechDraw; [pull request #2455](https://github.com/FreeCAD/FreeCAD/pull/2455).
 -   Neues Verschieben der Seite mit der mittleren Maustaste; [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=35&t=29679#p327695), [pull request #2458](https://github.com/FreeCAD/FreeCAD/pull/2458).
 -   Feinere Kontrolle von Zeichnungsaktualisierungen; [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=35&t=38956), [pull request #2468](https://github.com/FreeCAD/FreeCAD/pull/2468), [commit 5bed53f858](https://github.com/FreeCAD/FreeCAD/commit/5bed53f858), [commit b2d8eeeb65](https://github.com/FreeCAD/FreeCAD/commit/b2d8eeeb65).
--   Ebenfalls neues [TechDraw Neuzeichnen](TechDraw_RedrawPage/de.md) Werkzeug, um eine Aktualisierung des Zeichenblatts zu erzwingen, wobei der Status der Optionen \"Aktualisieren mit 3d\", \"Seite überschreiben zulässig\" oder \"AktualisiertHalten\" ignoriert wird. Dieses Werkzeug verschwand in 0.18, wurde aber für 0.19 wieder implementiert; [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=35&t=38956).
+-   Ein ebenfalls neues Werkzeug [TechDraw SeiteNeuZeichnen](TechDraw_RedrawPage/de.md), um eine Aktualisierung des Zeichenblatts zu erzwingen, wobei der Status der Optionen \"Aktualisieren mit 3d\", \"Seite überschreiben zulässig\" oder \"AktualisiertHalten\" ignoriert wird. Dieses Werkzeug verschwand in 0.18, wurde aber für 0.19 wieder implementiert; [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=35&t=38956).
 -   Das neue Objekt [Anwedndungsverknüpfung](App_Link/de.md) wird jetzt als Quelle für die Erstellung von Ansichten unterstützt; [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=35&t=41973), [commit 37b578bf49](http://github.com/FreeCAD/FreeCAD/commit/37b578bf49).
 -   Die Mittenmarkierungen, die aus kreisförmigen Kanten erzeugt werden, können nun gedruckt werden; [pull request #2335](https://github.com/FreeCAD/FreeCAD/pull/2335), [#2962](https://github.com/FreeCAD/FreeCAD/pull/2962).
 -   Es ist nun möglich, angezeigte Werte für Toleranzen zu überschreiben, z.B. um Text in Toleranzen zu verwenden. Außerdem kann man jetzt ein benutzerdefiniertes Anzeigeformat für jede, Über- und Untertoleranz verwenden. [pull request #4087](https://github.com/FreeCAD/FreeCAD/pull/4087)
 -   Die [LinienGruppe](TechDraw_LineGroup/de.md) zum Setzen der Standard Linienbreiten für Zeichnungen kann nun aus den verfügbaren Gruppen in den [Einstellungen](TechDraw_Preferences/de#Anmerkungen.md) ausgewählt werden. [pull request #4083](https://github.com/FreeCAD/FreeCAD/pull/4083)
 
 
-</div>
 
 ## Internet
 
 -   QtWebEngine Unterstützung für Qt 5.7 und höher, und Rückgriff auf QWebkit für Qt 5.6 und niedriger; [pull request #1937](https://github.com/FreeCAD/FreeCAD/pull/1937).
+
+
 
 ## Makros
 
@@ -675,12 +709,16 @@ Siehe [Makrorezepte](Macros_recipes/de.md) für viele weitere Makros.
   <img alt="" src=images/Structural_frame.png  style="width:384px;">   Automatischer Leichtbaustahlrahmen Ersteller und Paneelisierer . [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=23&t=26092); [FreeCAD-Steel_Frame](https://gitlab.com/Oriond/FreeCAD-Steel_Frame) Repositorium (GPL 3), [video](https://peertube.social/videos/watch/cbd2efd0-f763-41ac-9e38-2e0034c56703) beispiel.
    
 
+
+
 ## Zusätzliche Module 
 
 
 **Hinweis:**
 
 Dies sind die neuen Arbeitsbereiche, die in diesem Entwicklungszyklus erstellt wurden, oder ältere Arbeitsbereiche, die Aktualisierungen erhalten haben. Siehe [externe Arbeitsbereiche](External_workbenches/de.md) für weitere Arbeitsbereiche, die installiert werden können und die eine Vielzahl von Themen abdecken. Wenn du möchtest, dass dein Arbeitsbereich hinzugefügt wird, trete dem [Forum](https://forum.freecadweb.org/index.php) bei und präsentiere deinen Code.
+
+
 
 ### 3D Druckwerkzeuge 
 
@@ -698,6 +736,8 @@ Dies sind die neuen Arbeitsbereiche, die in diesem Entwicklungszyklus erstellt w
 |                                           | Bitte beachte: A2plus ist nicht mit Assembly2 oder anderen Baugruppen Arbeitsbereichen kompatibel. Wenn du frühere Baugruppen hast, müssen diese vollständig in A2plus neu erstellt werden.                                                                                                                                                                                                                                                                                                                                                                                   |
 +++
 
+
+
 ### Zusammenbau3
 
 +++
@@ -709,6 +749,8 @@ Dies sind die neuen Arbeitsbereiche, die in diesem Entwicklungszyklus erstellt w
 |                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |                                                           | Please note: Assembly3 is not compatible with Assembly2 or other assembly workbenches. If you have previous assemblies, they will need to be re-created entirely in Assembly3.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 +++
+
+
 
 ### Zusammenbau4
 
@@ -722,6 +764,8 @@ Dies sind die neuen Arbeitsbereiche, die in diesem Entwicklungszyklus erstellt w
 |                                                           | Please note: Assembly4 is not compatible with Assembly3 or other assembly workbenches. If you have previous assemblies, they will need to be re-created entirely in Assembly4.                                                                                                                                                                                                                                                                                    |
 +++
 
+
+
 ### ArchitekturTexturen
 
    
@@ -734,11 +778,15 @@ Dies sind die neuen Arbeitsbereiche, die in diesem Entwicklungszyklus erstellt w
   <img alt="" src=images/BOLTSFC_0.19.png  style="width:384px;">   BOLTS ist eine \"offene Bibliothek für technische Spezifikationen\"; sie soll freie, standardisierte und parametrisch definierte Teile zur Verfügung stellen, die in verschiedenen CAD Systemen wie OpenSCAD und FreeCAD verwendet werden können. Die BOLTS Bibliothek wurde 2013 eingeführt, wurde aber seit 2016 nur wenig gepflegt. Jetzt, mit einem neuen Betreuer und Repositorium, wurde das Projekt mit dem BOLTSFC Arbeitsbereich wiederbelebt, der eine Oberfläche zum Einfügen der verschiedenen parametrischen Objekte bietet. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=4549); [Homepage](https://www.bolts-library.org/en/index.html), [BOLTSFC](https://github.com/boltsparts/BOLTSFC)-Repository, [BOLTS](https://github.com/boltsparts/BOLTS) Haupt-Repository (GPL 3).
    
 
+
+
 ### Arbeitsbereich GekrümmteFormen 
 
    
   <img alt="" src=images/Curved_shapes_wb.png  style="width:384px;">   Die Arbeitsbereich GekrümmteFormen verfügt über Werkzeuge zum Entwerfen von 3D Oberflächen ausgehend von einem Skelett aus mehreren Kurven in der XY , XZ oder YZ Ebene. Er wurde insbesondere geschaffen, um die Modellierung der Tragflächen von Flugzeugen zu vereinfachen. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=36989); [CurvedShapesWorkbencArbeitsbereich GekrümmteFormenh](https://github.com/chbergmann/CurvedShapesWorkbench) Repositorium (LGPL 3).
    
+
+
 
 ### Dodo (ehemals Flamingo) 
 
@@ -748,11 +796,15 @@ Dies sind die neuen Arbeitsbereiche, die in diesem Entwicklungszyklus erstellt w
 |                                                       | [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=22711) (Hauptforumsbeitrag), [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?p=304165#p304165) (Dodo Ankündigung), [Tutorium](https://forum.freecadweb.org/viewtopic.php?f=36&t=38464); [dodo](https://github.com/oddtopus/dodo/) repository (LGPL 3), [flamingo](https://github.com/oddtopus/flamingo) Repositorium (LGPL 3). |
 +++
 
+
+
 ### Befestigungselemente
 
    
   <img alt="" src=images/Fastener_workbench.png  style="width:384px;">   Der [Arbeitsbereich Befestigungselemente](Fasteners_Workbench/de.md) zur Generierung von Standard ISO Schrauben, Bolzen, Unterlegscheiben und anderen Verbindungselementen wurde für die Arbeit mit Python 3 und Qt5 aktualisiert. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?t=11429); [FreeCAD_FasternersWB](https://github.com/shaise/FreeCAD_FastenersWB) Repositorium (GPL 2), [zusätzliche Details](http://theseger.com/projects/2015/07/generating-holes-for-countersunk-screws-in-freecad/).
    
+
+
 
 ### Polygonnetz Remodellierung Arbeitsbereich 
 
@@ -761,6 +813,8 @@ Dies sind die neuen Arbeitsbereiche, die in diesem Entwicklungszyklus erstellt w
 |                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |                                                                                   | [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=9&t=38670) (Nur Ankündigung); [PolygonnetzRemodellierung](https://github.com/mwganson/MeshRemodel) Repositorium (LGPL 2.1).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 +++
+
+
 
 ### MOOC Arbeitsbereich 
 
@@ -772,6 +826,8 @@ Dies sind die neuen Arbeitsbereiche, die in diesem Entwicklungszyklus erstellt w
 |                                                                     | [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=9&t=37584); [mooc-Arbeitsbereich](https://framagit.org/freecad-france/mooc-workbench) Repositorium (GPL 2).                                                           |
 +++
 
+
+
 ### KnotenEditor (PyFlow) 
 
 +++
@@ -781,6 +837,8 @@ Dies sind die neuen Arbeitsbereiche, die in diesem Entwicklungszyklus erstellt w
 |                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |                                                             | [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=36299); [KnotenEditor](https://github.com/microelly2/NodeEditor) Repositorium (MIT Lizenz), [PyFlow](https://github.com/microelly2/PyFlow) angepasster Zweig (Apache 2.0 Lizenz), [PyFlow](https://github.com/wonderworks-software/PyFlow) Originalprojekt (Apache 2.0 Lizenz).                                                                                                                                                                                                                    |
 +++
+
+
 
 ### Wege, PyTrails, Abbiege, pivy_trackers, und Geomatik 
 

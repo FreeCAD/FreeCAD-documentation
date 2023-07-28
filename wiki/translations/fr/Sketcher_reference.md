@@ -10,6 +10,8 @@ En raison de la nature évolutive du manuel, le document est également connu so
 ![](images/Sketcher_reference.png ) 
 *Exemple de dessin dans le manuel de référence.*
 
+
+
 ## Contenu
 
 La structure générale du manuel est la suivante :
@@ -60,8 +62,7 @@ La structure générale du manuel est la suivante :
     -   Positionnement et décalage référentiel
     -   Valider les esquisses
 
-
- {{Sketcher Tools navi}}
+{{Sketcher Tools navi}}
 
 
 

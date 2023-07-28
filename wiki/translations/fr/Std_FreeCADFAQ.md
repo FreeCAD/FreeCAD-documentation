@@ -15,6 +15,8 @@ La commande **Std FAQ FreeCAD** ouvre la page FAQ FreeCAD dans le navigateur Int
 
 Actuellement cette commande pointe vers [<https://wiki.freecad.org/Frequently_asked_questions>](https://wiki.freecad.org/Frequently_asked_questions).
 
+
+
 ## Utilisation
 
 1.  Sélectionnez l\'option **Aide → <img src="images/Std_FreeCADFAQ.svg" width=16px> FAQ FreeCAD** dans le menu.

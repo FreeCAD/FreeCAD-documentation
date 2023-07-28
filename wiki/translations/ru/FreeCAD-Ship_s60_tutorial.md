@@ -207,7 +207,7 @@ Resultant sections.
 
 </center>
 
-In order to plot these sections you can use the [Drawing workbench](Drawing_Workbench.md):
+In order to plot these sections you can use the [TechDraw Workbench](TechDraw_Workbench.md):
 
 ![Outline draw plot.](images/FreeCAD-Ship-S60OutlinePlot.png )
 

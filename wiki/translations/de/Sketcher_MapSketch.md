@@ -9,6 +9,8 @@
 
 # Sketcher MapSketch/de
 
+
+
 ## Beschreibung
 
 Dieses Werkzeug ordnet eine vorhandene Skizze der Fläche einer Form zu. PartDesign Formelemente, die aus dieser Skizze erstellt werden, werden bei additiven Formelementen (Polster, Umlauf) mit dem darunter liegenden Festkörper verschmolzen oder bei subtraktiven Formelementen (Tasche, Nut) vom darunter liegenden Festkörper subtrahiert.
@@ -21,12 +23,16 @@ Bitte beachte, daß dieses Werkzeug nicht zum Erstellen neuer Skizzen verwendet 
 
 <img alt="" src=images/Sketcher_MapSketch_00.png  style="width:480px;">
 
+
+
 ## Anwendung
 
 -   Eine Fläche eines PartDesign-Formelements oder eines Festkörpers auswählen.
 -   Auf die Schaltfläche **<img src="images/Sketcher_MapSketch.svg" width=16px> [Skizze einer Fläche zuordnen...](Sketcher_MapSketch/de.md)** in der Werkzeugleiste klicken (oder zum Menü PartDesign oder Skizze gehen, abhängig davon, welcher Arbeitsbereich aktiv ist)
 -   Im Dialogfenster **Skizze auswählen**, das sich öffnet, wählt man aus der Liste die Skizze aus, die der Fläche zugeordnet werden soll, und klickt OK.
 -   Die Skizze wird automatisch im Bearbeitungsmodus geöffnet.
+
+
 
 ## Anwendung beim Reparieren eines kaputten Modells 
 

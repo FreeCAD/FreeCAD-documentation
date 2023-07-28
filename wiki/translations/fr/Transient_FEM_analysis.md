@@ -14,7 +14,11 @@
 
 
 
+
+
 ## Contexte
+
+
 
 ## Créer le modèle 
 
@@ -29,7 +33,11 @@
 
 <img alt="" src=images/Transient_FEM_Bimetal_(1).JPG  style="width:700px;">
 
+
+
 ## Préparation et exécution de l\'analyse FEM 
+
+
 
 ### Affecter les matériaux 
 
@@ -38,6 +46,8 @@ Dans l'atelier FEM, nous créons une nouvelle <img alt="" src=images/FEM_Analysi
 <img alt="" src=images/Transient_FEM_Bimetal_(2).JPG  style="width:700px;">
 
 Nous fermons la fenêtre de la tâche et répétons les étapes pour créer un deuxième matériau « acier » (carte de matériau \'CalculiX-Steel\') et l\'affecter à la bande supérieure (\'BooleanFragments:Solid2\').
+
+
 
 ## Création du maillage 
 
@@ -52,6 +62,8 @@ Un clic sur \'Appliquer\' lance le mailleur et - le temps dépendant de votre or
 
 <img alt="" src=images/Transient_FEM_Bimetal_(3).JPG  style="width:700px;">
 
+
+
 ### Assigner des conditions aux limites 
 
 Une analyse FEM n\'aboutirait à rien, car rien n\'influe encore sur notre modèle. Ajoutons donc un peu de température: choisissez la <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:20px;"> température initiale à partir de l'atelier FEM et réglez-la sur 300 K. Ici, aucune partie du modèle ne peut être sélectionnée, car ce réglage s'applique à l'ensemble du modèle.
@@ -63,6 +75,8 @@ Ensuite, utilisons <img alt="" src=images/FEM_ConstraintTemperature.svg  style="
 Avant de pouvoir exécuter l\'analyse, une condition limite supplémentaire doit être définie: l\'analyse ne peut être exécutée que si notre modèle est fixé quelque part dans l\'espace. Avec <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:20px;"> sélectionnons les deux mêmes faces que pour le 400 K ci-dessus et ajoutons les à la liste. Des barres rouges apparaîtront sur le modèle, indiquant que ces faces sont fixes dans l'espace et qu'elles ne peuvent pas se déplacer pendant l'analyse.
 
 <img alt="" src=images/Transient_FEM_Bimetal_(5).JPG  style="width:700px;">
+
+
 
 ### Lancer l\'analyse 
 
@@ -82,20 +96,26 @@ Nous devrions maintenant avoir plusieurs <img alt="" src=images/FEM_ResultShow.s
 
 Dans FreeCAD, nous pouvons utiliser <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:20px;"> [pipelines](FEM_PostPipelineFromResult/fr.md) pour faire du post-traitement des résultats. Alternativement, nous pouvons exporter les résultats au format VTK et les importer dans des post-processeurs dédiés tels que ParaView. Pour l'exportation de plusieurs résultats (comme pour cette analyse), une [macro](Macro_export_transient_FEM_results/fr.md) est disponible.
 
+
+
 ## Téléchargements
 
 -   [Exemple de fichier sans les résultats (200 kB)](https://drive.google.com/file/d/1m3RiJ-JM7QSJ6YDhZnafHIbyL92V6sYU/view?usp=sharing)
 
 -   [Exemple de fichier avec les résultats (10 MB)](https://drive.google.com/file/d/157aIdVpIyfpVW9WxL-ReGz0FIsQebH_q/view?usp=sharing)
 
+
+
 ## Autre éxemple 
 
 -   [Exemple bimétallique analytique](https://forum.freecadweb.org/viewtopic.php?f=18&t=43040&start=10#p366664). L\'exemple analytique présenté dans le forum est inclus dans les exemples FreeCAD FEM. Il peut être démarré par Python à partir de femexamples.thermomech_bimetall import setup setup()
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > Transient FEM analysis/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > Transient FEM analysis/fr

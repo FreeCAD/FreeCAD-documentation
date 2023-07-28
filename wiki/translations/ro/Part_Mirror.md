@@ -1,6 +1,6 @@
 # Part Mirror/ro
 ---
-- GuiCommand:   Name:Part Mirror   MenuLocation:Part -> Mirror   Workbenches:[Complete](Part_Workbench___Part]],_[[Complete_Workbench.md)|SeeAlso:
+- GuiCommand:   Name:Part Mirror   MenuLocation:Part -> Mirror   Workbenches:[[Part Workbench   Part]]|SeeAlso:
 
 
 </div>
@@ -28,6 +28,8 @@ Un exemplu:
 
 
 </div>
+
+
 
 
 

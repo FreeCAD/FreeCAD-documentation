@@ -1,6 +1,8 @@
 # Continuous Integration/es
 {{TOCright}}
 
+## Continuous Integration 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -11,21 +13,21 @@ Actualmente, el repositorio de FreeCAD en GitHub activará una compilación en l
 
 </div>
 
-### TravisCI
+## Tips
 
-<img alt="" src=images/Travis-logo.png  style="width:50px;"> Tests against Linux and OSX. The config file is called [.travis.yml](https://github.com/FreeCAD/FreeCAD/blob/master/.travis.yml) and it lives in the top directory of FreeCAD. To view current and past buildsː <https://travis-ci.com/FreeCAD/FreeCAD/builds>
 
-### Appveyor
-
-<img alt="" src=images/Appveyor.svg  style="width:40px;"> Tests against Windows. The config file is called [appveyor.yml](https://github.com/FreeCAD/FreeCAD/blob/master/appveyor.yml) and it lives in the top directory of FreeCAD. To view current and previous Appveyor buildsː <https://ci.appveyor.com/project/yorikvanhavre/freecad/history>
+<div class="mw-translate-fuzzy">
 
 ## Consejos
 
 \- Si agrega [skip ci] o [ci skip] a un git commit, se cancelará una compilación de CI.
 
-### Relevant Links 
 
--   [LGTM](LGTM.md)
+</div>
+
+## Relevant links 
+
+-   Forum post announcing new CIs: [New CI is yours :)](https://forum.freecad.org/viewtopic.php?p=657956)
 
 
 <div class="mw-translate-fuzzy">

@@ -75,7 +75,7 @@ Esto instala los binarios de graphviz en /usr/local/bin. FreeCAD buscará allí 
 /usr/local/bin
 }}
 
-or
+or:
 
 
 {{Code|lang=text|code=
@@ -84,21 +84,80 @@ or
 
 y confirmar el campo de entrada y el diálogo de selección de archivos.
 
+
+<div class="mw-translate-fuzzy">
+
 En caso de que los binarios de Graphviz estén instalados en una ubicación no estándar, intente encontrar el programa con el comando
+
+
+</div>
 
 
 {{Code|lang=text|code=
 type dot
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 El resultado será algo así como
+
+
+</div>
 
 
 {{Code|lang=text|code=
 dot is /usr/local/bin/dot
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 Y por lo tanto puedes decirle a FreeCAD que busque en ese directorio.
+
+
+</div>
+
+If you don\'t have macOS Big Sur (11) (or higher) Homebrew might not work, but you can use [MacPorts](https://www.macports.org/index.php) instead. Just download the [appropriate version for your OS](https://www.macports.org/install.php). Once the installation is complete, enter this command in the [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)):
+
+
+{{Code|lang=text|code=
+sudo port install graphviz
+}}
+
+Enter your password and wait while the dependencies are downloaded and installed (it can take some time).
+
+The Graphviz binaries may be under **/usr/local/bin** or **/opt/local/bin/dot**. FreeCAD may automatically find the Graphviz program with the file dialog that comes up from **Tools → Dependency graph...**, if not enter this command:
+
+
+{{Code|lang=text|code=
+type dot
+}}
+
+It will output something like:
+
+
+{{Code|lang=text|code=
+dot is /opt/local/bin/dot
+}}
+
+And you can tell FreeCAD to look in that directory as explained before.
+
+It is also possible to make the opt directory visible with this command:
+
+
+{{Code|lang=text|code=
+defaults write com.apple.finder AppleShowAllFiles YES;
+}}
+
+then:
+
+
+{{Code|lang=text|code=
+killall Finder /System/Library/CoreServices/Finder.app;
+}}
+
+Therefore you can tell FreeCAD to follow this path. It has been successfully tested on macOS 10.13 (High Sierra).
 
 ### Linux
 
@@ -128,10 +187,16 @@ Y por tanto puedes indicar a FreeCAD que busque en ese directorio.
 
 ## Utilización
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Seleccione la opción **Hierramentas → <img src="images/Std_DependencyGraph.svg" width=16px> Gráfico dependencia...** en el menú.
 2.  Se abre una nueva pestaña titulada **Gráfico dependencia** en la [Área de vista principal](Main_view_area/es.md).
 3.  Utilice la rueda de desplazamiento del ratón para acercarse o alejarse.
 4.  Utiliza los deslizadores de la parte inferior y de la derecha de la pantalla para desplazar la vista. Alternativamente ({{Version/es|0.19}}) mantenga pulsado el botón izquierdo del ratón y mueva el ratón.
+
+
+</div>
 
 
 

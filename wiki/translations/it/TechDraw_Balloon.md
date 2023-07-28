@@ -17,7 +17,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Pallinatura aggiunge le bolle con una linea guida in un disegno.
+
+
+</div>
 
 <img alt="" src=images/Techdraw_balloon.png  style="width:600px;">
 

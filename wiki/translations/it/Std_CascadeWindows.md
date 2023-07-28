@@ -1,24 +1,29 @@
 ---
-- GuiCommand:
+- GuiCommand:/it
    Name:Std CascadeWindows
-   MenuLocation:Windows → Cascade
-   Workbenches:All
-   SeeAlso:[Std TileWindows](Std_TileWindows.md)
+   Name/it:A cascata
+   MenuLocation:Finestre → A cascata
+   Workbenches:Tutti
+   SeeAlso:[Affianca](Std_TileWindows/it.md)
 ---
 
 # Std CascadeWindows/it
 
-## Description
 
-The **Std CascadeWindows** command rearranges the windows in the [Main view area](Main_view_area.md) so that they are all visible but do overlap. The result is determined by the order in which the windows were last activated.
+
+## Descrizione
+
+Il comando **A cascata** riorganizza le finestre nell\'[Area della vista principale](Main_view_area/it.md) in modo che siano tutte visibili ma si sovrappongano. Il risultato è determinato dall\'ordine in cui le finestre sono state attivate l\'ultima volta.
 
 <img alt="" src=images/Std_CascadeWindows_example.png  style="width:600px;"> 
-*Main view area with three cascaded windows*
+*Vista principale con tre finestre a cascata*
 
-## Usage
 
-1.  The Main view area must contain at least two windows.
-2.  Select the **Windows → <img src="images/Std_CascadeWindows.svg" width=16px> Cascade** option from the menu.
+
+## Utilizzo
+
+1.  L\'area della vista principale deve contenere almeno due finestre.
+2.  Seleziona l\'opzione **Finestre → <img src="images/Std_CascadeWindows.svg" width=16px> A cascata** dal menu.
 
 
 

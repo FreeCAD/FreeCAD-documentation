@@ -1,21 +1,21 @@
-# <img alt="Punkte Arbeitsbereichssymbol" src=images/Workbench_Points.svg  style="width:64px;"> Points Workbench/de
+# <img alt="Symbol des Arbeitsbereichs Points" src=images/Workbench_Points.svg  style="width:64px;"> Points Workbench/de
 
 
 
-## Einführung
+## Einleitung
 
 
 {{TOCright}}
 
-Der <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Punkte Arbeitsbereich](Points_Workbench/de.md) bietet bestimmte Werkzeuge für die Arbeit mit [Punktwolken](https://de.wikipedia.org/wiki/Punktwolke). Der Arbeitsbereich befindet sich noch in der Entwicklung.
+Der Arbeitsbereich <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Points](Points_Workbench/de.md) enthält bestimmte Werkzeuge für die Arbeit mit [Punktwolken](https://de.wikipedia.org/wiki/Punktwolke). Der Arbeitsbereich befindet sich noch in der Entwicklung.
 
-Eine Punktwolke ist eine Sammlung von Punkten im 3D Raum. Eine Punktwolke entsteht im allgemeinen durch Abtasten der Oberfläche eines festen Objekts. Dann kann die Punktwolke für viele Zwecke genutzt werden, einschließlich das Erstellen eines Netzes für das Objekt, das Rekonstruieren der Oberflächen und Festvolumina, einer Rekonstruktionsingenieurwissenschaften sowie für die Sichtbarmachung und die Qualitätskontrolle.
+Eine Punktwolke ist eine Sammlung von Punkten im 3D-Raum. Eine Punktwolke entsteht im allgemeinen durch Abtasten der Oberfläche eines festen Objekts. Dann kann die Punktwolke für viele Zwecke genutzt werden, einschließlich des Erstellens eines Netzes für ein Objekt, des Rekonstruierens von Oberflächen und Festkörpern, Reverse-Engineering sowie der bildlichen Darstellung und der Qualitätskontrolle.
 
 
 
 ## Werkzeuge
 
-Alle Werkzeuge des Punkte Arbeitsbereichs sind aus dem **Punkte** Menü erreichbar. Einige Werkzeuge sind auch in der **Punktewerkzeuge** Werkzeugleiste verfügbar.
+Alle Werkzeuge des Arbeitsbereichs Points sind aus dem Menü **Punkte** erreichbar. Einige Werkzeuge sind auch in der Symbolleiste **Punktwerkzeuge** verfügbar.
 
 -   <img alt="" src=images/Points_Convert.svg  style="width:32px;"> [In Punkte umwandeln\...](Points_Convert/de.md): Erzeugt Punktwolken aus Formobjekten.
 
@@ -33,14 +33,11 @@ Alle Werkzeuge des Punkte Arbeitsbereichs sind aus dem **Punkte** Menü erreichb
 
 ## Hinweise
 
--   [Entwurfsbefehle](Draft_Workbench/de.md), wie <img alt="" src=images/Draft_Line.svg  style="width:24px;"> [Entwurf Linien](Draft_Line/de.md) und <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> [Draft BSpline](Draft_BSpline/de.md) können verwendet werden, um die Punkte in einer Punktwolke zu verbinden. Verwende <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> [Entwurf Fang Endpunkt](Draft_Snap_Endpoint/de.md) um Punkte zu fangen.
+-   [Draft](Draft_Workbench/de.md)-Befehle, wie <img alt="" src=images/Draft_Line.svg  style="width:24px;"> [Draft Linie](Draft_Line/de.md) und <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> [Draft BSpline](Draft_BSpline/de.md) können verwendet werden, um die Punkte in einer Punktwolke zu verbinden. Zum Einrasten auf Punkte wird <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> [Draft EinrastenAufEndpunkt](Draft_Snap_Endpoint/de.md) aktiviert
 -   [Python](Python/de.md) kann zur Analyse und Verarbeitung von Punktwolken verwendet werden. Siehe die folgenden Forumsdiskussionen:
     -   [Inspecting Point cloud](http://forum.freecadweb.org/viewtopic.php?f=3&t=16098).
     -   [Fläche aus Messwerten](http://forum.freecadweb.org/viewtopic.php?f=13&t=15988) (Deutsch)
     -   [Schnitte durch Flächen aus Messwerten](http://forum.freecadweb.org/viewtopic.php?f=13&t=16103) (Deutsch)
-
-
-
 
 
 

@@ -14,6 +14,8 @@
 
 
 
+
+
 ## Einführung
 
 Dieses Tutorium wurde ursprünglich von Drei geschrieben, und es wurde von vocx neu geschrieben und illustriert.
@@ -32,6 +34,8 @@ Dieses Tutorial verwendet die Schreibweise {{Value|(x, y, z)}}, um die zur Defin
 <img alt="" src=images/00_Dr01_Draft_Tutorial_final.png  style="width:" height="400px;"> 
 *Endgültige Zeichnung mit verschiedenen Entwurfsobjekten.*
 
+
+
 ## Einrichtung
 
 1\. Öffne FreeCAD, erstelle ein neues leeres Dokument mit **Datei → [<img src=images/Std_New.svg style="width:16px"> [Neu](Std_New.md)**.
@@ -44,6 +48,8 @@ Wenn Eigenschaften geändert werden, musst du eventuell eine **<img src="images/
 :   1.3. Da es sich bei den Entwurfsobjekten um ebene Formen handelt, sind sie von oben besser zu sehen. Verwende **[<img src=images/Std_ViewTop.svg style="width:16px"> [Ansicht oben](Std_ViewTop/de.md)** zum setzen der [3D Ansicht](3D_view/de.md).
 :   1.4. Obwohl es in diesem Tutorium nicht verwendet wird, ist das Entwurfsgitter hilfreich, um geometrische Elemente zu positionieren. Verwende **[<img src=images/Draft_SelectPlane.svg style="width:16px"> [WähleEbene](Draft_SelectPlane/de.md)**, um sowohl die Arbeitsebene als auch das Gitter festzulegen, und dann das Gitter mit **[<img src=images/Draft_ToggleGrid.svg style="width:16px"> [Gitter umschalten](Draft_ToggleGrid/de.md)** anzuzeigen und auszublenden.
 
+
+
 ## Fang Werkzeugleiste 
 
 2\. Die [Entwurf Fang](Draft_Snap/de.md) Werkzeugleiste wird normalerweise aktiviert, wenn du zum [Entwurf Arbeitsbereich](Draft_Workbench/de.md) wechselst.
@@ -52,6 +58,8 @@ Wenn Eigenschaften geändert werden, musst du eventuell eine **<img src="images/
 :   2.2. Stelle sicher, dass die **Werkzeugleiste Entwurfsfang anzeigen** aktiv ist.
 
 Du kannst auch die Sichtbarkeit und die Eigenschaften des Entwurfsgitters im gleichen Fenster ändern.
+
+
 
 ## Arbeitsebenen
 
@@ -62,6 +70,8 @@ Die meisten Entwurfsobjekte sind planare Formen, so dass sie natürlich auf eine
 :   3.1. Drücke **[<img src=images/Std_ViewTop.svg style="width:16px"> Oben (XY)**.
 
 Vor dem drücken der Taste kannst du auch den Wert des Versatzes in Millimetern sowie den Rasterabstand, die Hauptlinien und den Fangradius ändern.
+
+
 
 ## Linien und Bögen 
 
@@ -84,6 +94,8 @@ Vor dem drücken der Taste kannst du auch den Wert des Versatzes in Millimetern 
 <img alt="" src=images/01_Dr01_Draft_Arc_profile.png  style="width:" height="400px;"> 
 *Geschlossenes Profil, das durch zwei Bögen und zwei Linien erzeugt wird.*
 
+
+
 ## Verschmelzen oder Zusammensetzen 
 
 Wir haben jetzt mehrere Objekte in der [Baumansicht](tree_view/de.md), die ein geschlossenes Profil bilden. Dieses Profil besteht jedoch nach wie vor aus unverbundenen Objekten; jedes von ihnen kann unabhängig von den anderen bearbeitet und verschoben werden. Es ist möglich, mit den Elementen auf diese Weise weiter zu arbeiten, aber es ist auch möglich, sie zu einem einzigen Objekt zu verschmelzen.
@@ -100,6 +112,8 @@ Wir haben jetzt mehrere Objekte in der [Baumansicht](tree_view/de.md), die ein g
 
 :   6b.1. Wechsle zum <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Arbeitsbereich Part](Part_Workbench/de.md).
 :   6b.2 Wenn diese Objekte ausgewählt sind, klicke auf **[<img src=images/Part_Compound.svg style="width:16px"> [Part Verbund](Part_Compound/de.md)**.
+
+
 
 ## Rechtecke, Kreise und Polygone 
 
@@ -132,6 +146,8 @@ Das Rechteck, der Kreis, das Polygon und die meisten anderen Objekte, die mit de
 <img alt="" src=images/02_Dr01_Draft_Rectangle_circle_polygon.png  style="width:" height="400px;"> 
 *Rechteck, Kreis und Polygon hinzugefügt.*
 
+
+
 ## Anordnungen
 
 Anordnungen werden verwendet, um ein Objekt mehrmals in einer orthogonalen Richtung (X, Y, Z), um eine Drehachse oder entlang eines Pfades zu vervielfältigen.
@@ -148,6 +164,8 @@ Das Anordnungsobjekt zeigt Kopien des Objekts um den Ursprung herum an.
 
 <img alt="" src=images/03_Dr01_Draft_PolarArray.png  style="width:" height="400px;"> 
 *Polaranordnung des kleinen Profils um den Ursprung zentriert.*
+
+
 
 ## Abmessungen
 
@@ -169,6 +187,8 @@ Denke daran, die **Schriftgröße** und andere Eigenschaften anzupassen, damit d
 
 <img alt="" src=images/04_Dr01_Draft_Dimension.png  style="width:" height="400px;"> 
 *Bemaßungen, die den vertikalen Abstand vom Ursprung bis zur Oberkante des Kreises, der Bögen und des Polygons messen.*
+
+
 
 ## Texte und Formzeichenketten 
 
@@ -192,6 +212,8 @@ Denke daran, die **Schriftgröße** und andere Eigenschaften anzupassen, damit d
 *Text  und FormZeichenkettenobjekte hinzugefügt.*
 
 Um Buchstaben zu extrudieren und auf Volumenkörper zu gravieren, siehe das [Entwurf Formzeichenketten Tutorium](Draft_ShapeString_tutorial/de.md).
+
+
 
 ## Erstellen technischer Zeichnungen 
 
@@ -219,6 +241,8 @@ TechDraw funktioniert am besten mit Objekten, die eine [Part TopoForm](Part_Topo
 
 Werkzeuge wie **[<img src=images/TechDraw_ActiveView.svg style="width:16px"> [TechDraw AktiveAnsicht](TechDraw_ActiveView/de.md)**, **[<img src=images/TechDraw_DraftView.svg style="width:16px"> [TechDraw EntwurfAnsicht](TechDraw_DraftView/de.md)**, und **[<img src=images/TechDraw_ArchView.svg style="width:16px"> [TechDraw ArchitekturAnsicht](TechDraw_ArchView/de.md)** arbeiten, indem sie ein internes SVG Bild erhalten, das von internen Entwurfsfunktionen erzeugt wird; daher hat TechDraw keine große Kontrolle darüber, wie diese Ansichten angezeigt werden. Die weitere Integration von Entwurf und TechDraw ist noch in Arbeit.
 
+
+
 ## Schlussbemerkungen
 
 Der [Entwurf Arbeitsbereich](Draft_Workbench/de.md) ähnelt in vielerlei Hinsicht dem [Entwurf Arbeitsbereich](Sketcher_Workbench/de.md), da beide zur Erzeugung von 2D Formen gedacht sind. Der Hauptunterschied besteht in der Art und Weise, wie jeder Arbeitsbereich Koordinatensysteme handhabt und wie die Objekte positioniert werden. Im Entwurf werden die Objekte frei im globalen Koordinatensystem positioniert, wobei ihre Punkte normalerweise an einem Gitter oder an anderen Objekten gefangen werden. Im Skizzierer definiert ein \"[Skizzenobjekt](Sketch/de.md)\" ein lokales Koordinatensystem, das als Referenz für alle geometrischen Elemente innerhalb dieser Skizze dient. Darüber hinaus stützt sich die Skizze auf \"Beschränkungen\", um die endgültige Position deiner Punkte zu definieren.
@@ -232,4 +256,4 @@ Der [Entwurf Arbeitsbereich](Draft_Workbench/de.md) ähnelt in vielerlei Hinsich
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Draft](Draft_Workbench.md) > Draft tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft tutorial/de

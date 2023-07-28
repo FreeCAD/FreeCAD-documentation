@@ -437,9 +437,11 @@ Perfect !
 -   Print it instead of the first version or to replace it if it eventually broke ;-)
 
 
- {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+{{PartDesign Tools navi
+
+}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Toothbrush Head Stand/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Toothbrush Head Stand/it

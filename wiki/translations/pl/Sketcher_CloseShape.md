@@ -1,29 +1,36 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher CloseShape
-   MenuLocation:Sketch → Sketcher tools → Close shape
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Zamknij kształt
+   MenuLocation:Szkic → Narzędzia szkicownika → Zamknij kształt
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**Z** **W**
    Version:0.15
 ---
 
 # Sketcher CloseShape/pl
 
-## Description
 
-This tool can be used to make a selected contour in sketcher closed by making an endpoint of a sketcher element coincident with the endpoint of the sketcher element selected next.
 
-## Usage
+## Opis
 
-1.  While editing a sketch, multi-select your unconnected sketcher elements in the [tree view](Tree_view.md) or in the [3D view](3D_view.md)
-2.  Invoke the command several ways:
-    -   Press the **[<img src=images/Sketcher_CloseShape.svg style="width:16px"> [Close shape](Sketcher_CloseShape.md)** button.
-    -   Use the **Z** then **W** keyboard shortcut.
-    -   Use the **Sketch → Sketcher tools → [<img src=images/Sketcher_CloseShape.svg style="width:16px"> Close shape** entry from the top menu
+To narzędzie może być użyte do zamknięcia wybranego konturu w szkicowniku. Osiągniemy to poprzez zbieżność punktu końcowego elementu szkicownika z punktem końcowym elementu szkicownika wybranego jako następny.
 
-## Notes
 
-The tool will connect the elements in the order of their selection, so make sure to click and select in the correct order.
+
+## Użycie
+
+1.  W trakcie edycji szkicu zaznaczaj wielokrotnie niepołączone elementy szkicownika w oknie [widoku drzewa](Tree_view/pl.md) lub [widoku 3D](3D_view/pl.md).
+2.  Wywołaj polecenie na kilka sposobów:
+    -   Naciśnij przycisk **[<img src=images/Sketcher_CloseShape.svg style="width:16px"> [Zamknij kształt](Sketcher_CloseShape/pl.md)**.
+    -   Użyj skrótu klawiaturowego **Z**, a następnie **W**.
+    -   Użyj pozycji **Szkic → Narzędzia szkicownika → [<img src=images/Sketcher_CloseShape.svg style="width:16px"> Zamknij kształt** z menu głównego.
+
+
+
+## Uwagi
+
+Narzędzie połączy elementy w kolejności ich zaznaczenia, więc upewnij się, że klikasz i wybierasz w odpowiedniej kolejności.
 
 
 

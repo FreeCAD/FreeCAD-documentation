@@ -5,9 +5,13 @@
 
 </div>
 
+
+
 ## Descriere
 
 Instrumentul **Subtractive Loft** creează un solid substractiv în Corpul activ făcând o tranziție lisă între două sau mai multe schițe (denumite și secțiuni transversale). Forma sa este scăzută din solidul existent.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -23,20 +27,19 @@ Instrumentul **Subtractive Loft** creează un solid substractiv în Corpul activ
 2.  In the **Select feature** dialog, select a sketch to be used as base profile object and click **OK**.
     -   Alternatively, either a single sketch or the face of a 3D object (<small>(v0.20)</small> ) can be selected prior to pressing the subtractive loft button.
 3.  In the **Loft parameters**, press the **Add Section** button.
-4.  Select the next sketch in the [3D view](3D_view.md). Repeat to select more sketches in the order you want them to be lofted through. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.<small>(v0.19)</small> )
+4.  Select the next sketch in the [3D view](3D_view.md). Repeat to select more sketches in the order you want them to be lofted through. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.
 5.  Set options if needed and click **OK**.
 
 ### Selection-based workflow 
 
-
-<small>(v0.19)</small> 
-
 1.  Select several sketches. It is hereby important in what order you select them:
     -   The sketch selected at first will become the base profile object in the next step
-    -   The sketches selected after the first one will become the loft sections. Also here the selection order is important: The sketch selected as second will become the first loft section, the one selected as third becomes the second section and so on. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.<small>(v0.19)</small> )
+    -   The sketches selected after the first one will become the loft sections. Also here the selection order is important: The sketch selected as second will become the first loft section, the one selected as third becomes the second section and so on. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.
     -   The first or last selection can also be a face of a 3D object (<small>(v0.20)</small> )
 2.  Press the **[<img src=images/PartDesign_SubtractiveLoft.svg style="width:24px"> [Subtractive loft](PartDesign_SubtractiveLoft.md)** button.
 3.  Set options if needed and click **OK**.
+
+
 
 ## Opţiuni
 
@@ -49,6 +52,8 @@ Instrumentul **Subtractive Loft** creează un solid substractiv în Corpul activ
 
 
 </div>
+
+
 
 ## Proprietăți
 
@@ -84,6 +89,8 @@ Instrumentul **Subtractive Loft** creează un solid substractiv în Corpul activ
 
 
 </div>
+
+
 
 ## Legături
 

@@ -1,6 +1,8 @@
 # Continuous Integration/ro
 {{TOCright}}
 
+## Continuous Integration 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -11,27 +13,21 @@
 
 </div>
 
+## Tips
+
 
 <div class="mw-translate-fuzzy">
-
-### TravisCI
-
-<img alt="" src=images/Travis-logo.png  style="width:50px;"> Testeză comportamentul sub Linux și OSX. Fișierul de configurare se numește [.travis.yml](https://github.com/FreeCAD/FreeCAD/blob/master/.travis.yml) și se află în directorul de bază al FreeCAD. Pentru a vedea versiunea curentă și cele trecute: <https://travis-ci.org/FreeCAD/FreeCAD/builds>
-
-
-</div>
-
-### Appveyor
-
-<img alt="" src=images/Appveyor.svg  style="width:40px;"> Testează sub Windows. Fișierul de configurare se numește [appveyor.yml](https://github.com/FreeCAD/FreeCAD/blob/master/appveyor.yml) și trăiește în directorul de top al FreeCAD. Appveyor construiește <https://ci.appveyor.com/project/yorikvanhavre/freecad/history>
 
 ## Sugestii
 
 Dacă adăugaţi [skip ci] sau [ci skip] pentru comiterea unui \"git\", aceasta va anula o formare a CI.
 
-### Relevant Links 
 
--   [LGTM](LGTM.md)
+</div>
+
+## Relevant links 
+
+-   Forum post announcing new CIs: [New CI is yours :)](https://forum.freecad.org/viewtopic.php?p=657956)
 
 
 <div class="mw-translate-fuzzy">

@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 Środowisko pracy <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Elementów złącznych](Fasteners_Workbench.md) należy do [zewnętrznych środowisk pracy](External_workbenches/pl.md). Jest ono przeznaczone do łatwego, szybkiego i wygodnego dodawania różnych elementów złącznych z częściami.
@@ -11,6 +13,8 @@
 *Opcjonalny układ pojedynczego paska narzędzi w środowisku pracy.<br>
 Elementy złączne o wymiarach metrycznych mają pomarańczowe ikonki.<br>
 Elementy złączne o wymiarach calowych mają zielone ikonki.*
+
+
 
 ## Instalacja
 
@@ -35,9 +39,13 @@ Elementy złączne o wymiarach calowych mają zielone ikonki.*
             : Elementy złączne są zgrupowane w paskach narzędziowych z wysuwanymi przyciskami.
     3.  Uruchom ponownie program FreeCAD.
 
+
+
 ## Użycie
 
 Elementy złączne mogą być dołączone lub nie dołączone. Dołączone elementy złączne mają **obiekt bazowy**, okrągłą krawędź, a ich **Umiejscowienie** jest dynamicznie powiązane z tym obiektem. Polecenie <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> [Przesunięcie](Fasteners_Move/pl.md) może być użyte do dołączenia lub odłączenia elementu złącznego.
+
+
 
 ### Rozłączone elementy złączne 
 
@@ -47,6 +55,8 @@ Elementy złączne mogą być dołączone lub nie dołączone. Dołączone eleme
     1.  Wybierz element złączny.
     2.  Przejdź do zakładki **Dane** [Edytora właściwości](Property_editor/pl.md).
     3.  Zmień wymagane właściwości.
+
+
 
 ### Złączone elementy złączne 
 
@@ -62,10 +72,14 @@ Elementy złączne mogą być dołączone lub nie dołączone. Dołączone eleme
 7.  Elementy złączne, które wyglądają na odwrócone do góry nogami, mogą być odwrócone za pomocą narzędzia <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> [Odwróć](Fasteners_Flip/pl.md) lub poprzez zmianę ich właściwości **Odwróć**.
 8.  Opcjonalnie zmień właściwość **Odsunięcie**, aby utworzyć przestrzeń między elementami złącznymi a krawędziami, do których są przymocowane.
 
+
+
 ## Uwagi
 
 -   Aby generować gwinty, właściwość **gwint** łącznika musi być zmieniona na wartość {{TRUE/pl}}. Generowanie gwintów jest kosztowne. Przeliczenia trwają znacznie dłużej, jeśli w dokumencie jest wiele gwintowanych łączników.
 -   Właściwość **odwróć** i **odsunięcie** są ignorowane dla niezamocowanych elementów złącznych.
+
+
 
 ## Polecenia
 
@@ -87,9 +101,13 @@ Elementy złączne mogą być dołączone lub nie dołączone. Dołączone eleme
 
 -   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:32px;"> [Zmiana parametrów](Fasteners_ChangeParameters/pl.md): umożliwia dokonanie zmian parametrów elementów złącznych.
 
+
+
 ## Elementy złączne 
 
 Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańczowym. Elementy złączne o wymiarach calowych posiadają zielone ikony.
+
+
 
 #### Samokontrujące elementy złączne i elementy złączne PCB 
 
@@ -105,7 +123,11 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 
 -   <img alt="" src=images/Fasteners_IUTHeatInsert.svg  style="width:32px;"> Wkładka mocowana na gorąco.
 
+
+
 ### Śruby i wkręty z łbem sześciokątnym 
+
+-   <img alt="" src=images/Fasteners_DIN933.svg  style="width:32px;"> Śruba **DIN 933** z łbem sześciokątnym.
 
 -   <img alt="" src=images/Fasteners_ISO4017.svg  style="width:32px;"> **ISO 4017** Śruba z łbem sześciokątnym. Klasy produktów A i B.
 
@@ -120,6 +142,8 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width:32px;"> **ASME B18.2.1.6** UNC Śruba z łbem sześciokątnym.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.8.svg  style="width:32px;"> **ASME B18.2.1.8** UNC Śruba z łbem sześciokątnym z kołnierzem.
+
+
 
 ### Śruby z gniazdem sześciokątnym 
 
@@ -165,6 +189,8 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 
 -   <img alt="" src=images/Fasteners_ASMEB18.3.5D.svg  style="width:32px;"> **ASME B18.3.5D** UNC Śruba z gniazdem sześciokątnym z czubkiem.
 
+
+
 ### Śruby z gniazdem sześciokątnym 
 
 -   <img alt="" src=images/Fasteners_ISO14579.svg  style="width:32px;"> **ISO 14579** Śruba z łbem walcowym z gniazdem sześciokątnym.
@@ -176,6 +202,8 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 -   <img alt="" src=images/Fasteners_ISO14583.svg  style="width:32px;"> **ISO 14583** Śruba z łbem walcowym z gniazdem sześciokątnym.
 
 -   <img alt="" src=images/Fasteners_ISO14584.svg  style="width:32px;"> **ISO 14584** Śruba z łbem stożkowym z gniazdem sześciokątnym.
+
+
 
 ### Śruby z łbem wpuszczanym 
 
@@ -195,6 +223,8 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 
 -   <img alt="" src=images/Fasteners_ASMEB18.6.3.1A.svg  style="width:32px;"> **ASME B18.6.3.1A** UNC śruba z łbem płaskim z rowkiem stożkowym.
 
+
+
 ### Śruby z łbem krzyżowym typu H 
 
 -   <img alt="" src=images/Fasteners_DIN967.svg  style="width:32px;"> **DIN 967** Śruba z łbem walcowym z kołnierzem z wgłębieniem krzyżowym typu H.
@@ -211,11 +241,19 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 
 -   <img alt="" src=images/Fasteners_GOST1144-4.svg  style="width:32px;"> **GOST 1144-4** Wkręt do drewna z łbem półokrągłym z wgłębieniem krzyżowym typu H.
 
+
+
 ### Inne śruby z łbami 
 
 -   <img alt="" src=images/Fasteners_DIN603.svg  style="width:32px;"> **DIN 603** Śruba z okrągłym łbem i kwadratową szyjką.
 
+-   <img alt="" src=images/Fasteners_DIN478.svg  style="width:32px;"> Śruba **DIN 478** z kwadratowym łbem z kołnierzem.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.1.1.svg  style="width:32px;"> Śruba **ASME B18.2.1.1** z łbem kwadratowym UNC.
+
 -   <img alt="" src=images/Fasteners_ASMEB18.5.2.svg  style="width:32px;"> **ASME B18.5** Śruba UNC z okrągłym łbem i kwadratową szyjką.
+
+
 
 ### Nakrętki
 
@@ -229,9 +267,21 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 
 -   <img alt="" src=images/Fasteners_DIN917.svg  style="width:32px;"> **DIN 917** Nakrętka kołpakowa, niska.
 
+-   <img alt="" src=images/Fasteners_DIN928.svg  style="width:32px;"> Nakrętka kwadratowa **DIN 928** do spawania.
+
+-   <img alt="" src=images/Fasteners_DIN929.svg  style="width:32px;"> Nakrętka sześciokątna **DIN 929** do spawania.
+
+-   <img alt="" src=images/Fasteners_DIN935.svg  style="width:32px;"> Sześciokątna nakrętka zamkowa **DIN 935**.
+
+-   <img alt="" src=images/Fasteners_DIN6334.svg  style="width:32px;"> Sześciokątna nakrętka sprzęgająca **DIN 6334**.
+
+-   <img alt="" src=images/Fasteners_DIN7967.svg  style="width:32px;"> Samozabezpieczająca przeciwnakrętka **DIN 7967**.
+
 -   <img alt="" src=images/Fasteners_DIN1587.svg  style="width:32px;"> **DIN 1587** Nakrętka kołpakowa.
 
 -   <img alt="" src=images/Fasteners_GOST11860-1.svg  style="width:32px;"> **GOST 11860-1** Nakrętka kołpakowa.
+
+-   <img alt="" src=images/Fasteners_DIN315.svg  style="width:32px;"> Nakrętka motylkowa **DIN 315**.
 
 -   <img alt="" src=images/Fasteners_DIN557.svg  style="width:32px;"> **DIN 557** Nakrętka czworokątna.
 
@@ -239,17 +289,39 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 
 -   <img alt="" src=images/Fasteners_DIN985.svg  style="width:32px;"> **DIN 985** Nakrętka Nyloc.
 
--   <img alt="" src=images/Fasteners_ASMEB18.2.2.1A.svg  style="width:32px;"> **ASME B18.2.2.1A** UNC Nakrętka do śruby maszynowej.
+-   <img alt="" src=images/Fasteners_DIN1624.svg  style="width:32px;"> Nakrętka trójnikowa **DIN 1624**.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.1A.svg  style="width:32px;"> **ASME B18.2.2.1A** Nakrętka sześciokątna śruby maszynowej UNC.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.1B.svg  style="width:32px;"> **ASME B18.2.2.1B** Nakrętka śruby maszynowej kwadratowej UNC.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.2.svg  style="width:32px;"> **ASME 18.2.2** Nakrętka kwadratowa UNC.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4A.svg  style="width:32px;"> **ASME B18.2.2.4A** UNC Nakrętka sześciokątna.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4B.svg  style="width:32px;"> **ASME B18.2.2.4B** UNC Nakrętka sześciokątna cienka.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.5.svg  style="width:32px;"> **ASME 18.2.2.5** Sześciokątna nakrętka zamkowa UNC.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.12.svg  style="width:32px;"> **ASME 18.2.2.12** Nakrętka sześciokątna UNC z kołnierzem.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.13.svg  style="width:32px;"> **ASME 18.2.2.13** Sześciokątna nakrętka sprzęgająca UNC.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.6.9A.svg  style="width:32px;"> **ASME 18.6.9A** Nakrętka motylkowa, typ A.
+
+-   <img alt="" src=images/Fasteners_SAEJ483a1.svg  style="width:32px;"> **SAE J483a 1** Niska nakrętka kołpakowa.
+
+-   <img alt="" src=images/Fasteners_SAEJ483a2.svg  style="width:32px;"> **SAE J483a 2** Wysoka nakrętka kołpakowa.
+
+
 
 ### Nakrętki do rowków T 
 
 -   <img alt="" src=images/Fasteners_DIN508.svg  style="width:32px;"> **DIN 508** Nakrętka młoteczkowa - T.
 
 -   <img alt="" src=images/Fasteners_GN507.svg  style="width:32px;"> **GN 507** Nakrętka do rowka T.
+
+
 
 ### Podkładki
 
@@ -275,6 +347,8 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width:32px;"> **ASME B18.21.1.12C** UN podkładka, seria szeroka.
 
+
+
 ### Pierścienie oporowe 
 
 -   <img alt="" src=images/Fasteners_DIN471.svg  style="width:32px;"> **DIN 471** Zewnętrzny pierścień zabezpieczający.
@@ -282,6 +356,8 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 -   <img alt="" src=images/Fasteners_DIN472.svg  style="width:32px;"> **DIN 472** Wewnętrzny pierścień zabezpieczający.
 
 -   <img alt="" src=images/Fasteners_DIN6799.svg  style="width:32px;"> **DIN 6799** Pierścień zabezpieczający E-clip.
+
+
 
 ### Elementy złączne różne 
 
@@ -297,6 +373,8 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 
 -   <img alt="" src=images/Fasteners_ThreadedRodInch.svg  style="width:32px;"> PGwintownik **DIN 975** o dowolnej długości *(calowy)*.
 
+
+
 ## Bibliografia
 
 -   Autor: [shaise](http://theseger.com/projects/author/shaise/),
@@ -306,6 +384,8 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 -   Kod źródłowy: <https://github.com/shaise/FreeCAD_FastenersWB>,
 -   Zgłoszenia błędów i prośby o nowe funkcje: <https://github.com/shaise/FreeCAD_FastenersWB/issues>,
 -   Tematy na forum: <https://forum.freecadweb.org/viewtopic.php?t=11429>.
+
+
 
 ## Odnośniki internetowe 
 

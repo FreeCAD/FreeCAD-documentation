@@ -270,18 +270,11 @@ Was macht man ?
 
 ## Referenzen
 
-
-<div class="mw-translate-fuzzy">
-
 -   Autoren:
     -   Falt Werkzeuge: Urheberrechtlich geschützt 2015-2018 durch Shai Seger
     -   Abwicklungswerkzeug: Urheberrechtlich geschützt 2014 durch Ulrich Brammer
 -   Lizenz: [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
--   Offizieller Blog: [Blech Erweiterung für FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
 -   Quellcode auf github: <https://github.com/shaise/FreeCAD_SheetMetal>
-
-
-</div>
 
 
 

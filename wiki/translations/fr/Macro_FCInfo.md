@@ -1,16 +1,12 @@
 # Macro FCInfo/fr
-{{VeryImportantMessage
-|[left|45px|link=](File:Under_construction_icon-blue.svg.md) image and page no yet upgrade with the new feature ... waiting<br> (This wiki page correspond in date ver 1.22 , 12/11/2020 and not include the new features)}}
-
-
 {{Macro/fr
 |Icon=FCInfo.png
 |Name=Macro FCInfo
 |Description=Donne des informations sur la forme sélectionnée et peut afficher une conversion de la longueur, de l'inclinaison (degrés, radians, grades, pourcentage), de la surface, du volume et du poids dans différentes unités (métriques et impériales). La macro fonctionne désormais aussi pour les éléments d'une esquisse en mode édition.
-<br />[https://gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/795cac01c84fbbfa7ea68703c7138667119995d8/FCInfo_fr_Ver_1-26c-rmu_Docked.FCMacro Version française]
+<br />[https://gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/ddfd2254616b8f3127e0d930abe0b322fa99ee6a/FCInfo_fr_Ver_1-27-rmu_Docked.FCMacro Version française]
 |Author=Mario52
-|Version=1.26c
-|Date=2022/04/19
+|Version=1.27
+|Date=2023/06/30
 |FCVersion=Toutes
 |SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width:24px"> [Arch Prendre des cotes](Arch_Survey/fr.md)<br /> [Macro_SimpleProperties|<img src=images/Macro_SimpleProperties.png style="width:24px"> [Macro SimpleProperties](Macro_SimpleProperties/fr.md)<br /> [<img src=images/Macro_FCInfoGlass.png style="width:24px"> [Macro FCInfoGlass](Macro_FCInfoGlass/fr.md)
 }}
@@ -20,19 +16,25 @@
 Donne des informations sur la forme sélectionnée et peut afficher une conversion de la longueur, de l\'inclinaison (degrés, radians, grades, pourcentage), de la surface, du volume et du poids dans différentes unités (métriques et impériales). La macro fonctionne désormais aussi pour les éléments d\'une esquisse en mode édition.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/5577cf1a8818a4cbc5790cce335df158713b5841/FCInfo_en_Ver_1-26c-rmu_Docked.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/93362d69fe505714b80655756b2a3ba752767975/FCInfo_en_Ver_1-27-rmu_Docked.FCMacro}}
 
 <img alt="" src=images/Macro_FCInfo_00_en.png  style="width:480px;"> 
 *FCInfo*
 
+
+
 ## Utilisation
 
-Sélectionnez un objet ou lancez l\'application et sélectionnez un objet. Une série de renseignements s\'affichent. Les calculs sont basés sur l\'unité de FreeCAD, qui est le **mm** à chaque nouvelle sélection, l\'unité de longueur revient toujours sur **mm** et angle sur **degrés décimal**. <img alt="Fenêtre supérieure" src=images/Macro_FCInfo_06.png  style="width:200px;"><img alt="Fenêtre inférieure" src=images/Macro_FCInfo_07.png  style="width:200px;">
+Sélectionnez un objet ou lancez l\'application et sélectionnez un objet. Une série de renseignements s\'affichent. Les calculs sont basés sur l\'unité de FreeCAD, qui est le **mm** à chaque nouvelle sélection, l\'unité de longueur revient toujours sur **mm** et angle sur **degrés décimal**. <img alt="Fenêtre supérieure" src=images/Macro_FCInfo_06.png  style="width:900px;">
 
 
 
 
-**Secteur 1: Document**
+
+
+### Secteur 1 : Document 
+
+![FCInfo Document](images/Macro_FCInfo_Document_00.png )
 
 -   Nom du document courant
 -   Label de l\'objet
@@ -40,122 +42,300 @@ Sélectionnez un objet ou lancez l\'application et sélectionnez un objet. Une s
 -   Sub élément, nom du sous élément
 -   Le type d\'objet
 
-**Secteur 2: Coordinates click mouse**
+
+
+### Secteur 2 : Coordonnées au point cliqué 
+
+![FCInfo Coordinate](images/Macro_FCInfo_Coordinate_click_mouse_00.png )
 
 -   Coordonnées X,Y et Z à l\'endroit du clic de souris
--   Le bouton crée sur le point, l'axe, le plan, copie la forme de l'axe vectoriel à partir de **FreeCAD.Vector (-24.0, 240.0, 7.0)**
+-   Le **bouton** crée sur le point, l'axe, le plan, copie la forme de l'axe vectoriel à partir de **FreeCAD.Vector (-24.0, 240.0, 7.0)**
 
-**Secteur 3: Value**
 
--   Si l\'objet est un périmètre de face, la longueur de l\'objet est affichée. La taille de l\'unité peut être sélectionnée :
-    km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
--   Si l\'objet est un cercle, une deuxième ligne s\'affiche et donne le rayon du cercle.
--   Périmètre de la forme.
 
-**Secteur 4: Vertexes and details**
+### Secteur 3 : Couleur au point 
 
--   Case à cocher pour la recherche ou non de tous les détails de l\'objet. Si elle n\'est pas cochée, seule la valeur principale est affichée.
--   Sommets et détails de la forme (compt_Edge), (compt_Faces), (compt_Vector of the Face)
-    max 200 lignes dans le tableau, s\'il y a plus de 200 lignes, il apparaîtra (!+ 200) et le nombre de lignes
-    (les détails complets peuvent être sauvegardés par le bouton **Save** dans un fichier au format CSV et peuvent être visualisés dans le tableur avec le bouton **Read** ou par un tableur externe comme [LibreOffice](https://www.libreoffice.org/) [OpenOffice](http://openoffice.apache.org/downloads.html) ou autre).
+![FCInfo Color_on_point](images/Macro_FCInfo_Color_on_point_00.png )
 
-**Secteur 5: Inclination**
+-   -   valeur 0,0 à 1,0
 
--   **Inclinaison de l\'objet** est affiché dans les formats suivants :
-    -   Degrés décimal, ex : 174.831872611°
-    -   Degrés minutes secondes, ex: 174° 49\' 54.741401\'\'
-    -   Radians, ex: 3.05139181449 rad
-    -   Grades, ex: 194.257636235 gon
-    -   Pourcent, ex: 30° = 57.74%
--   **Inclinaison des plans XY, YZ, ZX** et leurs coordonnées correspondantes
--   **Direction object**, donne la direction de l\'objet. Le calcul est : coord_1 - coord_2 = direction (ou l\'inverse)
+-   Cette Line Edit affiche la valeur de couleur dans différents formats: {{LineEdit|"3435973887" , "#cccccc" , "0xcccccc" , "204,204,204" , "(0.8,0.8,0.8)"}}
+    -   **3435973887** : Mode RVBA Int non signé (format dans les préférences FreeCAD) Alpha = 255
+    -   **#cccccc** : Mode RVB Hexadécimal (Qt: `setStyleSheet("color : #cccccc")`)
+    -   **0xcccccc** : Mode RVB Hexadécimal (Python: `hex(0xcccccc`)
+    -   \"**204,204,204** \": RVB décim: Mode RVB (Qt: `setStyleSheet(u"QLineEdit {"background-color: rgb(204, 204, 204)};")`)
+    -   **(0.8,0.8,0.8)** : Flottant RVB : Mode format RVB flottant de 0.0 à 1.0
+    -   (Le nombre de décimales dépend de l\'option *\"x (Decimals)\"*)
+
+-    {{CheckBox|Sub.Objet}}: change la couleur de l\'objet ou du sous-objet sélectionné. Si cette case est cochée {{CheckBox|TRUE|Sub.Objet}} la face ou le sous objet sélectionné est modifié ou dupliqué. S\'il n\'est pas activé (par défaut) l\'objet est modifié (couleur) ou dupliqué
+
+-    **Coul. Obj**: Changer la couleur de la forme ou du visage selon le choix. Dans le cas d\'un objet Mesh ou Points, l\'objet complet est coloré.
+
+-    **Dupl. Obj**: Duplique le visage ou l\'objet selon l\'option choisie. Dans le cas d\'un objet Mesh ou Points l\'objet complet est coloré. Dupliquer un objet Mesh conserve l\'original et crée une forme solide. Dupliquer un objet Points conserve l\'original et crée une copie.
+
+-    {{SpinBox|0}}: Le degré de transparence de la face ou de l\'objet sélectionné dépend de l\'option choisie **0 = opaque** , **100 = transparent**
+
+
+
+### Secteur 4 : Unités 
+
+![FCInfo Units](images/Macro_FCInfo_Units_00.png )
+
+-    {{ComboBox|mm}} : si l\'objet est un périmètre de face, la longueur de l\'objet est affichée. La taille de l\'unité peut être sélectionnée :
+    km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique
+
+-   Longueur de l\'objet : Longueur de l\'objet ou périmètre de la face {{LineEdit|10.0 mm}}.
+
+-   Si l\'objet est un cercle, une seconde lineEdit **Rayon :** s\'ouvre et affiche le rayon et le diamètre du cercle {{LineEdit|2.0 mm (dia. 4.0 mm)}}.
+
+-   Périmètre de la forme (12). Périmètre de l\'objet et nombre de subObject (Edges) contenus dans l\'objet {{LineEdit|120.0 mm}}.
+
+
+
+### Secteur 5: Inclinaison 
+
+![FCInfo Inclination](images/Macro_FCInfo_Inclination_00.png )
+
+-   **Inclinaison de l\'objet** peut être affiché en :
+    -   degré décimal, ex : {{LineEdit|174.831872611°}}
+    -   degré minute seconde, ex : {{LineEdit|174° 49' 54.741401''}}
+    -   radian, ex : {{LineEdit|3.05139181449 rad}}
+    -   grade, ex : {{LineEdit|194.257636235 gon}}
+    -   pourcent, ex : 30° = {{LineEdit|57.74%}}
+-   **Inclinaisons dans les plans XY, YZ, ZX** et leurs coordonnées
+-   **Direction objet**, {{LineEdit|Vector (0.0, 0.0, -10.0)}} donne la direction de l\'objet. Le calcul est : coord_1 - coord_2 = direction (ou inverse)
     -   
-        **Line**
+        **Direction**
         
-        , ce bouton crée une ligne dans la direction de l\'objet.
--   **ValueAt** , renvoie le vecteur 3D correspondant à une valeur de paramètre.
+        ce bouton crée une ligne en direction de l\'objet.
+-   **ValueAt(0)**, {{LineEdit|Vector (0.0, 0.0, 10.0)}} renvoie le vecteur 3D correspondant à une valeur de paramètre.
+    -   
+        **ValueAt(0)**
+        
+        ce bouton crée une ligne dans la direction ValueAt de l\'objet.
+-   **NormalAt(0,0)**, {{LineEdit|Vector (0.0, 0.0, 1.0)}} renvoie le vecteur 3D correspondant à une valeur de paramètre.
+    -   
+        **NormalAt(0,0)**
+        
+        ce bouton crée une ligne dans la direction NormalAt de l\'objet.
 
-**Secteur 6: Surface and Volume**
 
--   Surface de la forme affichée, la taille de l\'unité peut être sélectionnée
--   Surface de la face affichée, la taille de l\'unité peut être sélectionnée.
--   Volume de la forme affichée, la taille de l\'unité peut être sélectionnée.
--   Densité du matériau en **kg par dm3**
-    (la \"spinBox\" est réglé sur **7,5** kg, densité moyenne de l\'acier. Si vous souhaitez une autre valeur par défaut, modifiez la valeur de la densité, ligne 204).
--   L\'unité de masse **gram** peut être choisie :
-    ton,quintal, kg, hg, dag, **gram**, dg, cg, mg, µg, ng, pg, fg, gr (grain), dr (drachm), oz (once), oz t (once troy),
-    lb t (livre troy), lb (livre av), st (stone), qtr (quarter), cwt (hundredweight), tonneau fr, ct
--   Poids de la forme affichée, l\'unité de masse peut être sélectionnée.
 
-**Secteur 7: BoundBox**
+### Secteur 6 : Surface et Volume 
 
--   BoundBox donne les dimensions limites de la forme.
+![FCInfo Surface and Volume](images/Macro_FCInfo_Surface_and_Volume_00.png )
 
-**Secteur 8: Center of:**
+-   Surface de la forme affichée, la taille de l\'unité peut être sélectionnée. {{LineEdit|600.0 mm2}}
+-   Surface de la face affichée, la taille de l\'unité peut être sélectionnée. {{LineEdit|0.0 mm2}}
+-   Volume de la forme affiché, la taille de l\'unité peut être sélectionnée. {{LineEdit|1000.0 mm3}}
+-   Unité, choisissez votre unité.
+-   L\'unité de grandeur {{ComboBox|gram}} peut être choisie :
+    ton,quintal, kg, hg, dag, **gram**, dg, cg, mg, µg, ng, pg, fg , gr (grain), dr (drachme), oz (once), oz t (once de troy),
+    lb t (livre de troy), lb (livre av), st (stone), qtr (quart), cwt (hundredweight), tonneau fr, ct.
+-   Poids de la forme affichée, unité de masse sélectionnable. {{LineEdit|2.7 g}}
+-   Densité de la matière en **kg par dm3** {{LineEdit|2.7000 kg (by dm3)}}
+-   Matériel {{ComboBox|Metal Nickel (Ni),8.27,10.0,adapt Price}}
+    -   Au démarrage, la macro chercher le fichier **FCInfo_material.txt**, si le fichier n\'existe pas, un fichier FCInfo_material.txt est créé.
+    -   Le fichier est créé avec 10 types de matériaux enregistrés dans ce format.
+        -   **Intitulé du matériau , Densité en dm3 , Prix par dm3 , texte info sur choix**
+        -   *(4 champs séparés par des virgules)*
+        -   Liquid Water (H2o),1,10.0,adapt Price
+        -   Mater Beton,2.4,10.0,adapt Price
+        -   Metal Aluminium (Al),2.7,10.0,adapt Price
+        -   Metal Copper (Cu),8.96,10.0,adapt Price
+        -   Metal Gold (Au),19.3,10.0,Gratis
+        -   Metal Iron (Fe),7.87,10.0,adapt Price
+        -   Metal Lead (Pb),11.35,10.0,adapt Price
+        -   Metal Magnesium (Mg),1.43,10.0,adapt Price
+        -   Metal Nickel (Ni),8.27,10.0,adapt Price
+        -   Metal Pewter (Sn),7.29,10.0,adapt Price
+        -   Metal Platinum (Pt),21.45,10.0,adapt Price
+        -   Metal Silver (Ag),10.5,10.0,adapt Price
+        -   Metal Sodium (Na),0.97,10.0,adapt Price
+        -   Metal Titanium (Ti),4.4,10.0,adapt Price
+        -   Metal Zinc (Zn),7.1,10.0,adapt Price
+        -   Wood Beechwood,0.8,10.0,adapt Price
+        -   Wood MDF,0.75,10.0,adapt Price
+        -   Wood Mahogany,0.6,10.0,adapt Price
+        -   Wood Oak,0.7,10.0,adapt Price
+        -   Wood White pine,0.4,10.0,adapt Price
+-   Nouveau matériau ou édition {{LineEdit|Metal Nickel (Ni),8.27,10.0,adapt Price}}
+    -   vous pouvez modifier ou éditer un nouveau matériau dans ce format :
 
--   Centre du shape avec ses coordonnées XYZ
--   Center massique de la forme avec ses coordonnées XYZ
--   Le bouton crée sur le point, l\'axe, le plan, la copie de l\'axe du vecteur forme **FreeCAD.Vector(-24.0, 240.0, 7.0)**.
+    -   **Title, Density on dm3, Price on dm3, text info on choice**
 
-**Secteur 9: Inertia**
+    -   *(4 champs séparés par des virgules)*
+
+    -   *vous pouvez également éditer le fichier dans votre éditeur préféré en respectant le format spécifique*
+
+    -   vous pouvez enregistrer le fichier dans un chemin souhaité avec la variable : **seTMaterialSavePathName**
+
+    -   *par défaut le fichier est créé dans le chemin de la macro*
+
+    -   
+        **Effacer 6/17**
+        
+        : supprime le champ affiché
+
+    -   
+        **Sauve**
+        
+        : enregistre la modification ou le nouveau matériau
+
+
+
+### Secteur 7 : Cost 
+
+![FCInfo Cost](images/Macro_FCInfo_Cost_00.png )
+
+-   Coût total : coût total de l\'objet sélectionné
+
+
+{{LineEdit|0.027 Eu}}
+
+-   Prix (kg/dm3) : prix du matériau choisi (*Metal Aluminium (Al),2.7,***10.0***,adapt Price*)
+
+
+{{SpinBox|10,0000 Eu (par Kg)}}
+
+
+
+### Secteur 8 : BoundBox 
+
+![FCInfo BoundBox](images/Macro_FCInfo_BoundBox_00.png )
+
+-   La boîte englobante donne les dimensions limites de la forme.
+    -   longueur X maximale : {{LineEdit|10.0 mm}}
+
+    -   longueur Y maximale : {{LineEdit|10.0 mm}}
+
+    -   longueur Z maximale : {{LineEdit|10.0 mm}}
+
+    -   Diagonale : longueur de la diagonale {{LineEdit|17.3205 mm}}
+
+    -   
+        **Tracing**
+        
+        : crée 6 rectangles aux dimensions de la boîte englobante
+
+    -   
+        **Volume**
+        
+        : crée un volume aux dimensions de la boîte englobante
+
+    -   
+        {{CheckBox|Text Dim.}}
+        
+        : crée la dimension du triangle *(boundbox)*
+
+    -   Si {{CheckBox|TRUE|Text Dim.}} est coché, la dimension de la spinbox du texte {{SpinBox|3,000}} est opérationnelle pour donner votre valeur *(3.0 par défaut)*
+
+
+
+### Secteur 9 : Centre de: 
+
+![FCInfo Center of\...](images/Macro_FCInfo_Center_of_00.png )
+
+-   Centre de la forme et ces coordonnées XYZ
+-   Centre de masse et ces coordonnées XYZ
+-   Les **Boutons** créent sur un point, un axe, un plan, copie un axe vectoriel sous forme de **FreeCAD.Vector(-24.0, 240.0, 7.0)** *(voir Secteur 13)*
+
+
+
+### Secteur 10 : Inertia 
+
+![FCInfo Inertia](images/Macro_FCInfo_Inertia_00.png )
 
 -   Moment d\'inertie et ces coordonnées longueur et poids
--   Le bouton crée sur point, axe, plan, copier vecteur axe forme **FreeCAD.Vector(-24.0, 240.0, 7.0)**.
-    -   ligne d\'action 1 : x1, y1, z1
-    -   Ligne d\'action 2 : x2, y2, z2
-    -   action ligne 3 : x3, y3, z3
-    -   action 4 diagonale : x1, y2, z3
+-   Le bouton crée sur le point, l\'axe, le plan, copier l\'axe vectoriel sous forme **FreeCAD.Vector(-24.0, 240.0, 7.0)** *(voir Secteur 13)*
+    -   action ligne 1 : {{LineEdit|x1}}, {{LineEdit|y1}}, {{LineEdit|z1}}, {{LineEdit|0.0}}
+    -   action ligne 2 : {{LineEdit|x2}}, {{LineEdit|y2}}, {{LineEdit|z2}}, {{LineEdit|0.0}}
+    -   action ligne 3 : {{LineEdit|x3}}, {{LineEdit|y3}}, {{LineEdit|z3}}, {{LineEdit|0.0}}
+    -   action ligne 4 diagonale : {{LineEdit|x1}}, {{LineEdit|y2}}, {{LineEdit|z3}}
 
-même chose pour la longueur et le poids
+idem le poids
 
--   Déterminant 1 : calcule le déterminant de la matrice, en [valeur scientifique](https://fr.wikipedia.org/wiki/Notation_scientifique)
--   Déterminant 2 : calcule le déterminant de la matrice, en valeur décimale
+-   Determinant 1 : {{LineEdit|4629629629629.633}} calcule le déterminant de la matrice, en [valeur scientifique](https://fr.wikipedia.org/wiki/Notation_scientifique)
+-   Determinant 2 : {{LineEdit|4629629629629.6328125}} calcule le déterminant de la matrice, en valeur décimale
 
-**Section 10: SpreadSheet**
 
--    **Read**: lire les données dans un tableur enregistré *.FCInfo* ou txt, asc, csv
 
--    **Save**: enregistrer les données sur disque sous la forme choisie ci-dessous *.FCInfo* ou txt, asc, csv
+### Secteur 11 : Module désactivé 
 
--    **Tabulation**: le séparateur est Tabulation
+![FCInfo Disabled](images/Macro_FCInfo_Disabled_module_00.png )
 
--    **Comma**: le séparateur est Virgule
+-    {{CheckBox|Disabled module}}la fonction est inactive par défaut, un fois activée la fonction copie tous les détails de l\'objet dans un tableur.
 
--    **Semicolon**: le séparateur est le point-virgule.
+-   Sommets et détails de la forme (compt_Edge), (compt_Faces), (compt_Vector of the Face)
 
--    **Space**: le séparateur est Espace
+200 lignes au maximum dans le tableau de FCInfo mais la totalité est copiée dans le cas d\'une sauvegarde dans un fichier, s\'il y a plus de 200 lignes, il apparaît **(!+ 200)** et le nombre réel de lignes.
+Si l\'objet est compliqué avec beaucoup d\'objets, le temps est long et la recherche est répétée à tous les clics de souris. La fonction écriture dans le spreadSheet inclus, diminue le temps d\'affichage c\'est pour cela qu\'il est désactivé par défaut
+(les détails complets peuvent être sauvegardés dans un fichier au format CSV avec le bouton **Sauve** et peut être visualisés dans un tableur avec le bouton **Lire** ou avec un tableur externe comme [LibreOffice](https://www.libreoffice.org/) [OpenOffice](http://openoffice.apache.org/downloads.html) ou autre).
+
+
+
+### Secteur 12 : SpreadSheet 
+
+![FCInfo SpreedSheet](images/Macro_FCInfo_SpreedSheet_00.png )
+
+-    **Lire**: lecture des données dans un tableur sauvegardé **.FCInfo** ou txt, asc, csv
+
+-    **Sauve**: enregistre les données sur disque sous la forme sélectionnée ci-dessous **.FCInfo** ou txt, asc, csv
+
+-    {{RadioButton|TRUE|Tabulation}}: le séparateur est Tabulation (par défaut)
+
+-    {{RadioButton|Virgule}}: le séparateur est la virgule
+
+-    {{RadioButton|Point virgule}}: le séparateur est le point-virgule
+
+-    {{RadioButton|Espace}}: le séparateur est l\'espace
 
 Option pour sauvegarder ou lire la feuille de calcul avec différents séparateurs, Tabulation, Virgule, Point-virgule, Espace
-. La tabulation est le séparateur pour l\'\[Spreadsheet_Workbench/fr\|atelier Spreadsheet\] de FreeCAD
-Les numéros de ces quatre séparateurs sont calculés pour aider en cas d\'inconnu
+La tabulation est le séparateur pour l\'\[Spreadsheet_Workbench/fr\|atelier Spreadsheet\] de FreeCAD
+Le nombre de ces quatre séparateurs est calculé pour aider en cas d\'inconnu
 Les VIRGULES sont les anciens séparateurs de la macro FCInfo (01.16 et avant)
 Maintenant pour la compatibilité avec le tableur FreeCAD et depuis la version 01.17, la TABULATION est le séparateur par défaut
 Si vous voulez convertir votre ancienne feuille de calcul FCInfo : ouvrez-la dans FCInfo et enregistrez-la avec l\'option Tabulation cochée.
 
-**Section 11: Main**
 
--    **CheckBox Clip Board**: si la case est cochée les coordonnées sont copiées en mémoire dans la format : **FreeCAD.Vector(-24.0, 240.0, 7.0)**
 
--    **CheckBox Point**: si la case est cochée un point est créé aux coordonnées affichées. **FreeCAD.Vector(-24.0, 240.0, 7.0)**
+### Secteur 13 : Commandes 
 
--    **CheckBox Axis **: si la case est cochée une série d\'axes dans les plans XYZ sont créés aux coordonnés affichées. **FreeCAD.Vector(-24.0, 240.0, 7.0)**
+![FCInfo Main](images/Macro_FCInfo_Main_00.png )
 
--    **CheckBox Plane**: si la case est cochée une série de plans dans les plans XYZ sont créés aux coordonnés affichées.
+-    {{CheckBox|Info}}: si cette case est cochée, les informations sont affichées dans la fenêtre de visualisation du rapport.
 
--    **Ref**: rafraîchi les données dans la macro.
+-    {{CheckBox|Point}}: si coché, un point est créé dans la forme de coordonnées affichée : **FreeCAD.Vector(-24.0, 240.0, 7.0)**
 
--    **Exit**: quitte la macro (la macro reste en mémoire vous pouvez la redémarrer par votre bouton ou par le menu \"Affichage → Panneaux → FCInfo\"
+-    {{CheckBox|Axes}}: si coché, un axe est créé dans le formulaire de coordonnées affiché : **FreeCAD.Vector(-24.0, 240.0, 7.0)**
 
--    **CheckBox****1** : si cette case est cochée les informations sont affichées dans la vue rapport.
+-    {{CheckBox|Plan}}: si coché, un plan d\'axe est créé dans le formulaire de coordonnées affiché : **FreeCAD.Vector(-24.0, 240.0, 7.0)**
 
--    **CheckBox****2** : Si cette case est cochée la fenêtre de la macro est placée à gauche de l\'écran sinon elle se placera à droite de l\'écran (option par défaut).
+-    {{RadioButton|Clip-B0}}: aucun presse-papier
 
-Une fois la macro lancée, la macro reste active et la fenêtre reste visible. Il faut quitter la macro par la touche **Quitter**. Si vous quittez par la petite croix, la fenêtre disparaît et la macro reste en mémoire, les données continuent de s\'afficher dans la *vue rapport* de FreeCAD.
+-    {{RadioButton|Clip-B1}}: si coché, les coordonnées sont copiées dans le presse-papier Form : **FreeCAD.Vector(X.0, Y.0, Z.0)** Modèle FreeCAD
+
+-    {{RadioButton|Clip-B2}}: si coché, les coordonnées sont copiées dans le presse-papier Form : **X, Y, Z** avec séparateur virgule
+
+-    {{RadioButton|Clip-B3}}: si coché les coordonnées sont copiées dans le presse-papier Form : **X Y Z** tel quel avec séparateur d\'espace
+
+-    {{CheckBox|Left/Right}}: si non coché, les macros de la fenêtre sont affichées à droite (par défaut). Si coché, les macros de la fenêtre sont affichées à gauche.
+    Si l\'option est 1 mode fly *(User parameter:BaseApp/Preferences/Macros/FCMmacros/FCInfo/**seTPositionFlyRightLeft**)* ce bouton n\'est pas visible .
+
+-    {{SpinBox|4 (Decimales)}}: donner le nombre de décimales a afficher
+
+-    {{SpinBox|12 (Dim. texte)}}: donner la dimension du texte de la macro a afficher
+
+-    **Raf**: rafraîchit l\'affichage des données dans la vue du rapport
+
+-    **Quitte**: quitter correctement la macro
+
+Une fois la macro lancée, la macro reste active et la fenêtre reste visible. Il faut quitter la macro par la touche **Quitte**. Si vous quittez par la petite croix, la fenêtre disparaît et la macro reste en mémoire, les données continuent de s\'afficher dans la *vue rapport* de FreeCAD. Vous devrez quitter FreeCAD pour vider la mémoire.
 
 
 <center>
 
-Image:Macro_FCInfo_04.png\|Dockée à droite, Image:Macro FCInfo 05.png\|ou à gauche avec la Vue combinée et accessible par un onglet, ou non ancré, au choix.
+Image:Macro_FCInfo_04.png\|Dockée à droite, Image:Macro FCInfo 05.png\|ou à gauche avec la Vue combinée et accessible par un onglet, ou non dockée, au choix.
 
 
 </center>
@@ -165,19 +345,25 @@ Image:Macro_FCInfo_04.png\|Dockée à droite, Image:Macro FCInfo 05.png\|ou à g
 
 ## Options
 
+
+
 ### Les unités utilisées 
+
+
 
 #### Unités de longueur : 
 
 km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
 
+
+
 #### Unités d\'angle : 
 
-1.  **degré décimal**, ex: 174.831872611°
-2.  degré minute seconde, ex: 174° 49\' 54.741401\'\'
-3.  radian, ex: 3.05139181449 rad
-4.  grade, ex: 194.257636235 gon ou gr
-5.  pourcent, ex: 30° = 57.74%
+1.  **degré décimal**, ex : 174.831872611°
+2.  degré minute seconde, ex : 174° 49\' 54.741401\'\'
+3.  radian, ex : 3.05139181449 rad
+4.  grade, ex : 194.257636235 gon ou gr
+5.  pourcent, ex : 30° = 57.74%
 
 Compréhension de l\'affichage des angles dans FCInfo.
 
@@ -193,18 +379,108 @@ Cliquez deux fois sur l\'image pour voir l\'animation (l\'image doit être en pl
 
 
 
+
+
 #### Unités de masse : 
 
 ton, quintal, kg, hg, dag, **gram**, dg, cg, mg, µg, ng, pg, fg, gr (grain), dr (drachm), oz (once), oz t (once troy),
 lb t (livre troy), lb (livre av), st (stone), qtr (quarter), cwt (hundredweight), tonneau fr, ct
-La \"spinBox\" de densité est réglé sur 7,5 kg, densité moyenne de l\'acier. Si vous désirez mettre une autre valeur par défaut, modifiez la valeur de la densité ,ligne 208.
 
+#### FCInfo Configuration 
 
-```python
- global densite       ; densite       = 7.5  # (steel = 7.5 kg par dm3)
-```
+-   Location : **Tools \> Edit parameter \> \*User parameter:BaseApp/Preferences/Macros/FCMmacros/FCInfo/**
+-   **switchNotInfoOnBeginning** **\#** SetBool {{true}} or \[{{false}}\]
+    -   Display or not this text information on run macro
+        -   \[{{false}}\] = display this information
 
-Un fichier peut être créé par le bouton **Enregistrer**. Le fichier est écrit comme un fichier [csv](https://fr.wikipedia.org/wiki/Comma-separated_values) de cette manière, les données peuvent être étudiées dans un tableur dans FreeCAD ou OpenOffice, LibreOffice\...
+        -   
+            {{true}}
+            
+            = this Information is Not displayed On Beginning
+-   **switchVersionSearch** **\#** SetBool {{true}} or \[{{false}}\]
+    -   Search if one new version exist on run macro
+-   **switchWarning** **\#** SetBool {{true}} or \[{{false}}\]
+    -   Display or not display the window warning in case not good selection
+-   **switchCreatePoint** **\#** SetBool {{true}} or \[{{false}}\]
+    -   Check the Create point checkBox
+-   **switchCreateAxis** **\#** SetBool {{true}} or \[{{false}}\]
+    -   Check the Create axis checkBox
+-   **switchCreatePlane** **\#** SetBool {{true}} or \[{{false}}\]
+    -   Check the Create plane checkBox
+-   **switchDisplayInfoObject** **\#** SetBool {{true}} or \[{{false}}\]
+    -   Check the info checkBox
+-   **switchClearDisplayReportView** **\#** SetBool {{true}} or \[{{false}}\]
+    -   if switchClearDisplayReportView is {{true}} the ReportView is cleared
+-   **seTWidgetPosition** **\#** SetBool {{true}} or \[{{false}}\]
+    -   Check the Widget Position Left/Right checkBox
+    -   if seTWidgetPosition \[{{false}}\] : if seTPositionFlyRightLeft = 2 = docked to Right
+    -   if seTWidgetPosition {{true}} : if seTPositionFlyRightLeft = 3 = docked to Left
+    -   if it is 1 the window macro is not docked
+-   **switchBoundBoxCreateText** **\#** SetBool {{true}} or \[{{false}}\]
+    -   Create the text dimension of the BoundBox
+-   **seTBoundBoxTextHeigth** **\#** seTBoundBoxTextHeigth = 3.0
+    -   Give the Heigth of the text dimension (independent of the seTTextHeigthValue)
+-   **seTBoundBoxTextArround** **\#** seTBoundBoxTextArround = 3
+    -   Give the arround of the text dimensions (independent of the seTDecimalValue)
+-   **seTMemoClipBoard** **\#** SetInt \[0\], 1, 2, 3
+    -   Give one value \[0\], 1, 2, 3 clipBoard
+        -   \[0\] = desactivate the clipBoard
+        -   1 = the data string is memorised to : FreeCAD.Vector( X, Y, Z )
+        -   2 = the data string is memorised to : X, Y, Z
+        -   3 = the data string is memorised to : X Y Z
+-   **seTTextHeigthValue** **\#** SetInt 11
+    -   Give one text heigth value of the macro
+-   **seTDecimalValue** **\#** SetInt 4
+    -   Give the number of decimal displayed
+    -   If the number is -1 the total decimal value is displayed)
+-   **seTMaterialCurrentIndex** **\#** SetInt 0
+    -   Set the index of the ComboBox
+-   **seTMaterialFileName** **\#** SetString FCInfo_material.txt
+    -   Name of the material file
+-   **seTMaterialSavePathName** **\#** SetString C:\\\...\\Macro\\FCInfo_material.txt
+    -   Path name of the material file
+-   **seTMaterialPrice** **\#** SetFloat
+    -   Material price by Kg
+-   **seTMaterialSuffixDevise** **\#** SetString
+    -   Devise money
+-   **seTMaterialSuffixCost** **\#** seTMaterialSuffixCost
+    -   Suffix Devise cost
+-   **seTMaterialCost** **\#** SetFloat
+    -   Material cost
+-   **seTDensiteValue** **\#** SetFloat 1.0
+    -   Give the densite value
+-   **seTDensiteDecimalNumber** **\#** SetInt 4
+    -   Give the number of decimal for the densite value
+-   **seTDensiteSingleStep** **\#** SetFloat 1.0
+    -   Give the step for one click, by default 1.0 (possible 0.01 or \...)
+-   **seTDensiteSuffixChain** **\#** SetString kg (by dm3)
+    -   Choice your suffix string
+-   **seTPositionFlyRightLeft** **\#** SetInt 2
+    -   Choice your position, Fly, \[Right\], Left
+        -   1 = the macro window is fly (not docked)
+        -   \[2\] = the macro window is positioned to Right
+        -   3 or other = the macro window is positioned to Left
+-   **seTIndexUnitWeight** **\#** SetInt
+    -   Set unit Weight index
+-   **seTUnitSymbolMicro** **\#** U
+    -   Set Symbol Micro
+-   **seTUnitSymbolCube** **\#** 3
+    -   Set Symbol Cube
+-   **seTUnitSymbolCarre** **\#** 2
+    -   Set Symbol Square
+-   **seTIndexUnitLength** **\#** SetInt
+    -   Set unit Length index
+-   **setBSplineToByArcValue** **\#** SetFloat 0.00001
+    -   Set unit for cut the BSpline for seack the radius on point given
+-   **setMeshTopologyValue** **\#** SetFloat 0.1
+    -   Set unit for create the Mesh to Shape
+-   **switchBSplineCreateCircleConstructorAxis** **\#**SetBool {{true}} or \[{{false}}\]
+    -   Display the axis of the circles (arcs) for create the BSpline
+-   **switchBSplineCreateCircleConstructor** **\#**SetBool {{true}} or \[{{false}}\]
+    -   Display the circles cretors for create the BSpline
+-   **switchCreateLineDiVatNatOnClick** **\#**SetBool {{true}} or \[{{false}}\]
+    -   Create the Line info on point (0,0,0) or on point mouse clicked (x,y,z) if it is {{true}}
+    -   If it is {{true}} one \'\*\' is displayed in front of text. EX: \'\*Direction\'
 
 ## Script
 
@@ -218,36 +494,6 @@ Les icônes doivent se trouver dans le même répertoire que la macro.
 Télécharger les images en vous positionnant sur les icônes <img alt="" src=images/FCInfo.png  style="width:64px;"> <img alt="" src=images/FCInfoSpreadsheet.png  style="width:64px;"> puis faites clic droit de la souris \"Enregistrer l\'image sous\" (ne pas modifier le nom)
 **PS: le code est trop long pour être contenu dans la page du wiki (pour le moment les pages du wiki n\'acceptent que 64 KB). Le code de la macro a été placé dans le forum**
 
-
-<div class="toccolours mw-collapsible mw-collapsed">
-
-
-{{ColoredParagraph|There is also a [FCInfo Alternate Linux](FCInfo_Alternate_Linux/fr.md) for only for FreeCAD version 0.13... and PyQt4. ''Maintenant totalement obsolète voir seulement comme code d'exemple''.
-}}
-
-
-<div class="mw-collapsible-content">
-
-ColoredParagraph\| Il y a aussi une version [Macro_FCInfo_Alternate_Linux](http://www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux). Ici le code est modifié (à cause de l\'erreur d\'affichage des caractères : ² ³ ° µ\" ordinal not in range (128)\") qui posaient problèmes. Dans certaines configurations les fonctions sont les mêmes
-Exemple : 
-```python
-global uniteSs       ; uniteSs       = u"mm²"
-global uniteVs       ; uniteVs       = u"mm³"
-global uniteAs       ; uniteAs       = u"°"
-``` remplacés par 
-```python
-global uniteSs       ; uniteSs       = "mm"+iso8859(unichr(178)) # also:  carre    hex="\xb2"  # also:  html=<span>&#178;</span>
-global uniteVs       ; uniteVs       = "mm"+iso8859(unichr(179)) # also:  cube     hex="\xb3"  # also:  html=<span>&#179;</span>
-global uniteAs       ; uniteAs       = iso8859(unichr(176))      # also:  degrees  hex="\xb0"  # also:  html=<span>&#176;</span>
-                                     = iso8859(unichr(181))      # also:  micro    hex="\xB5"  # also:  html=<span>&#181;</span>
-``` **Les fichiers sauvegardés avec cette version sont incompatibles avec l\'autre version (docké ou non)**.
-
-
-</div>
-
-
-</div>
-
 Téléchargez le fichier FCInfo **docké à droite**
 
 
@@ -259,8 +505,9 @@ Cette différence est tout à fait normale, le compteur de la liste/tableau dans
 
 ### Limitations
 
-Toujours utiliser le bouton **Quitter**. Si vous quittez le programme sans passer par le bouton **Quitter**, le programme reste en mémoire et continue à s\'exécuter et l\'affichage continue dans le \"rapport de visualisation\". Vous devez quitter FreeCAD pour l'effacer de la mémoire.
-Seuls les 200 premiers éléments de l'objet sont visibles dans le tableau. Si il y a plus de 200 éléments dans l'objet, un signal sera affiché par **(! +200)**. La liste complète des données est visible dans le fichier sauvegardé par le bouton **Enregistrer**.
+Toujours utiliser le bouton **Exit**. Si vous quittez le programme sans passer par le bouton **Exit**, le programme reste en mémoire et continue à s\'exécuter et l\'affichage continue dans le \"rapport de visualisation\". Vous devez quitter FreeCAD pour l'effacer de la mémoire.
+Seuls les 200 premiers éléments de l'objet sont visibles dans le tableau. Si il y a plus de 200 éléments dans l'objet, un signal sera affiché par **(! +200)**. La liste complète des données est visible dans le fichier sauvegardé par le bouton **Save**.
+
 Si la fenêtre de la macro n\'est pas visible au lancement, regardez en bas de la fenêtre :
 
 ![](images/Macro_FCInfo_08.png )
@@ -275,6 +522,14 @@ en projet :
 ~~incrustation à droite dans l\'interface de FreeCAD~~ fait
 
 ## Version
+
+ver 1.27 2023/06/30 optimiser la feuille de style, corriger la position gauche/droite et restaurer la vue après l\'édition du sketcher 
+```python
+            self.PB_00_Decrement.setStyleSheet("background-color: white; border:2px solid rgb(215, 10, 22);")      # bord white and red
+``` remplacé par 
+```python
+            self.PB_00_Decrement.setStyleSheet("QPushButton {background-color: white; border:2px solid rgb(215, 10, 22)};")      # bord white and red
+```
 
 -   ver 1.26c 2022/04/19 mise à niveau Erreur BSpline avec Gear Bspline=Line
 
@@ -356,6 +611,8 @@ Dans certaines distributions Linux et dans le cas d\'une erreur **\"ordinal not 
 -   ver 1.03 , 09/09/2013: affichage plus clair dans Vue rapport et remplacement par \"typeObject = sel\[0\].Shape.ShapeType\"
 -   ver 1.02 , 7/09/2013 : petites mises au point
 -   ver 1.00 , 6/09/2013
+
+
 
 ## Liens
 

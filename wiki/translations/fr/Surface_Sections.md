@@ -22,6 +22,8 @@ est utilisé pour créer une surface à partir d\'arêtes qui représentent des 
 
 *À gauche: bords de contrôle (coupes transversales). À droite: surface produite à partir de ces arêtes.*
 
+
+
 ## Utilisation
 
 1.  Assurez-vous d\'avoir au moins deux arêtes ou courbes dans l\'espace. Par exemple, ceux-ci peuvent être créés avec des outils de l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) ou de l\'<img alt="" src=images/_Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench.md).
@@ -42,11 +44,15 @@ est utilisé pour créer une surface à partir d\'arêtes qui représentent des 
 
 -   Appuyez sur **Cancel** ou **Echap** pour abandonner l\'opération en cours.
 
+
+
 ## Propriétés
 
 [Surface Sections](Surface_Sections/fr.md) (classe `Surface::Sections`) sont dérivées de la classe de base [Part Feature](Part_Feature/fr.md) (classe `Part::Feature` via la sous-classe `Part::Spline`). Elles partagent donc toutes les propriétés de cette dernière.
 
 Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surface Section a les propriétés suivantes dans l\'[éditeur de propriétés](property_editor/fr.md).
+
+
 
 ### Données
 
@@ -55,18 +61,24 @@ Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surfac
 
 -    {{PropertyData/fr|NSections|LinkSubList}}: une liste d\'arêtes qui seront utilisées pour construire la surface.
 
+
+
 ### Vue
 
 
 {{TitleProperty|Base}}
 
--    {{PropertyView/fr|Control Points|Bool}}: la valeur par défaut est `False`. Mis à `True`, elle affichera une superposition avec les points de contrôle de la surface.
+-    **Control Points|Bool**: par défaut `False`. Mis à `True`, elle affichera une superposition avec les points de contrôle de la surface.
+
+
 
 ## Torsion de la surface 
 
 La forme de la surface dépend de la direction des arêtes choisies. Si des arêtes sont sélectionnées et que le résultat est une surface qui \"se tord\" sur elle-même, l\'une des arêtes peut avoir besoin de sa liste de sommets dans l\'ordre inverse. Voir les informations dans **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [Surface Remplir entre les courbes limites](Surface_GeomFillSurface/fr.md)** pour une explication plus complète.
 
 <img alt="" src=images/Surface_twisting_example_smooth.png  style="width:330px;"> <img alt="" src=images/Surface_twisting_example_twisted.png  style="width:330px;">
+
+
 
 ## Script
 

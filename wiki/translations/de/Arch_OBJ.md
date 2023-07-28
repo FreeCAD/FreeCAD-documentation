@@ -11,9 +11,22 @@
 
 </div>
 
+
+{{TOCright}}
+
+
+
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Zusätzlich zur Standard-FreeCAD [OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file)-Exportfunktion hat das [Arch-Modul](Arch_Workbench/de.md) eine alternative Exportfunktion, die nebeneinander liegende Flächen als vollständige (whole) Flächen exportiert, anstatt als dreiecksbasierte [Formteil](Shape/de.md)-Objekte, wie es die Standard-Exportfunktion tut.
+
+
+</div>
+
+
 
 ## Exportieren ohne GUI 
 
@@ -43,6 +56,8 @@ for i in range(mesh.countSegments()):
 
 mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 ```
+
+
 
 ## Weitere Informationen 
 

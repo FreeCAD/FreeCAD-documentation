@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:Path Deburr
-   Name/fr:Path Ebavurage
-   MenuLocation:Path → Ebavurer
+   Name/fr:Path Ébavurage
+   MenuLocation:Path → Ébavurer
    Workbenches:[Path](Path_Workbench/fr.md)
    Version:0.18
 ---
@@ -11,14 +11,16 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/Path_Deburr.svg  style="width:24px;"> **Path Ebavurage** sert principalement à ébavurer un bord.
+L\'outil <img alt="" src=images/Path_Deburr.svg  style="width:24px;"> [Ébavurage](Path_Deburr/fr.md) sert principalement à ébavurer un bord.
+
+
 
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Path_Deburr.svg" width=16px> [Ebavurer](Path_Deburr/fr.md)**.
-    -   Sélectionnez l\'option **Path → <img src="images/Path_Deburr.svg" width=16px> Ebavurer** dans le menu.
-2.  Le panneau de tâches **Ebavurer** s\'ouvre. Voir [Options](#Options.md).
+    -   Appuyez sur le bouton **<img src="images/Path_Deburr.svg" width=16px> [Ébavurer](Path_Deburr/fr.md)**.
+    -   Sélectionnez l\'option **Path → <img src="images/Path_Deburr.svg" width=16px> Ébavurer** dans le menu.
+2.  Le panneau de tâches **Ébavurer** s\'ouvre. Voir [Options](#Options.md).
 3.  Sélectionnez **Géométrie de base**.
 4.  Spécifiez les paramètres requis.
 5.  Appuyez sur le bouton **OK**.
@@ -33,7 +35,7 @@ La dernière étape consiste à activer la section **Opération** où vous pouve
 
 -    **Commande d'outil**: sélectionnez l\'outil à utiliser.
 
--    **Mode de refroidissement**: sélectionnez {{Value|Aucun}}, {{Value|Arrosage}} ou {{Value|Brumisateur}}.
+-    **Mode de refroidissement**: sélectionnez {{Value|Aucun}}, {{Value|Liquide}} ou {{Value|Brumisateur}}.
 
 -    **Directions**: sélectionnez {{Value|Sens horaire}} (CW) ou {{Value|Sens anti-horaire}} (CCW).
 
@@ -43,7 +45,11 @@ La dernière étape consiste à activer la section **Opération** où vous pouve
 
 :   <img alt="Deburring interface with the options" src=images/Path_Deburr_Operations-tab.png  style="width:300px;">
 
+
+
 ## Propriétés
+
+
 
 ### Données
 
@@ -78,7 +84,7 @@ La dernière étape consiste à activer la section **Opération** où vous pouve
 
 -    **Start Depth**: profondeur de départ de l\'outil, première profondeur de coupe en Z.
 
--    **Step Down**: descente incrémentale de l\'outil.
+-    **Step Down**: pas de descente incrémentale de l\'outil
 
 
 {{TitleProperty|Op Values}}
@@ -102,7 +108,7 @@ La dernière étape consiste à activer la section **Opération** où vous pouve
 
 -    **Cycle Time**: durée estimée du cycle pour cette opération.
 
--    **Tool Controller**: contrôleur d\'outil qui sera utilisé pour calculer la trajectoire.
+-    **Tool Controller**: contrôleur d\'outil qui sera utilisé pour calculer le parcours.
 
 -    **User Label**: étiquette attribuée par l\'utilisateur.
 

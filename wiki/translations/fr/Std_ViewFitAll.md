@@ -10,9 +10,13 @@
 
 # Std ViewFitAll/fr
 
+
+
 ## Description
 
 La commande **Std Tout afficher** effectue un zoom et un panoramique afin que tous les objets visibles tiennent dans la [vue 3D](3D_view/fr.md) active.
+
+
 
 ## Utilisation
 
@@ -20,16 +24,15 @@ La commande **Std Tout afficher** effectue un zoom et un panoramique afin que to
     -   Appuyez sur le bouton **<img src="images/Std_ViewFitAll.svg" width=16px> [Tout afficher](Std_ViewFitAll/fr.md)**.
     -   Sélectionnez l\'option **Affichage → Vues standards → <img src="images/Std_ViewFitAll.svg" width=16px> Tout afficher** dans le menu.
     -   Sélectionnez l\'option **<img src="images/Std_ViewFitAll.svg" width=16px> Tout afficher** dans le menu contextuel de la [vue 3D](3D_view/fr.md).
-    -   Utilisez le raccourci clavier: **V** puis **F**.
+    -   Sélectionnez l\'option **<img src="images/Std_ViewFitAll.svg" width=16px> Tout afficher** dans le menu Mini-cube du [Cube de navigation](Navigation_Cube/fr.md).
+    -   Utilisez le raccourci clavier : **V** puis **F**.
 
-## Remarques
 
--   Il est également possible de passer en mode \"Affichage total\" via le menu Mini-cube du [Cube de navigation](Navigation_Cube/fr.md).
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

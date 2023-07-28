@@ -14,17 +14,23 @@ Rechnergestützte Strömungsdynamik (engl. Computational Fluid Dynamics, CFD) f�
 -   Home page: <https://github.com/qingfengxia>
 -   Source code on <https://github.com/qingfengxia/Cfd>
 
+
+
 ## Werkzeuge
 
 Detaillierte Beschreibung
 
-![](images/CFD-tools.png )
+
 
 ## Einrichtung
+
+
 
 ### Automatische Einrichtung 
 
 Dieser Arbeitsbereich kann mit dem [Addon-Manager](Std_AddonMgr/de.md) installiert werden.
+
+
 
 ### Von GitHub 
 
@@ -42,6 +48,8 @@ Um CFD für FreeCAD zu verwenden
 
 **Mac-Installationsanweisungen** (von GitHub)
 
+
+
 ## Verweise zum Arbeitsbereich CFD 
 
 -   Workbench Wiki:
@@ -51,6 +59,8 @@ Um CFD für FreeCAD zu verwenden
 -   Videos:
 -   Files:
 -   Report bugs: Please report bugs at
+
+
 
 ## Andere nützliche Verweise 
 

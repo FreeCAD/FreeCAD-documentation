@@ -2,22 +2,23 @@
 - GuiCommand:/de
    Name:FEM MaterialEditor
    Name/de:FEM MaterialEditor
-   MenuLocation:Modell → Materialien → Material-Editor
+   MenuLocation:Modell → Materialien → Material editor
    Workbenches:[FEM](FEM_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Version:0.18
-   SeeAlso:[Material (engl.)](Material.md), [Arch MaterialZuordnen](Arch_SetMaterial/de.md), [FEM Tutorium](FEM_tutorial/de.md)
+   SeeAlso:[Arch MaterialZuordnen](Arch_SetMaterial/de.md), [FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM MaterialEditor/de
 
 
-</div>
 
 ## Beschreibung
 
 Mit dem **Material-Editor** kann man die in einem [FreeCAD-Material](Material.md) gespeicherten Informationen bearbeiten und speichern. Derzeit werden diese Materialien von den Arbeitsbereichen <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM](FEM_Workbench/de.md) und <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/de.md) verwendet.
 
 ![](images/Material_editor.png )
+
+
 
 ## Anwendung
 
@@ -29,6 +30,8 @@ Derzeit hat man zwei Möglichkeiten den Material-Editor aufzurufen:
 2.  Arbeitsbereich <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM](FEM_Workbench/de.md):
     -   Die Schaltfläche **<img src="images/FEM_MaterialEditor.svg" width=16px> [Material-Editor](FEM_MaterialEditor/de.md)** drücken.
     -   Den Menüeintrag **Modell → Materialien → <img src="images/FEM_MaterialEditor.svg" width=16px> Material-Editor** auswählen.
+
+
 
 ## Optionen
 
@@ -47,6 +50,8 @@ Derzeit hat man zwei Möglichkeiten den Material-Editor aufzurufen:
 -    **Add property**: Allows to add a new custom property
 
 -    **Delete property**: Deletes a selected property. Only custom properties can be deleted
+
+
 
 ## Hinweise
 

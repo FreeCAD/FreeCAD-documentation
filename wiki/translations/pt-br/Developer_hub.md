@@ -38,7 +38,9 @@ The developer documentation comprises the following sections:
 -   [Windows packaging](Windows_packaging.md)
 -   [MacOS packaging](MacOS_packaging.md)
 
-### Build Support Tools 
+
+
+### Construir ferramentas de suporte 
 
 -   The [FreeCAD Build Tool](FreeCAD_Build_Tool.md)
     -   [Adding an application module](Workbench_creation.md) to FreeCAD
@@ -60,6 +62,7 @@ The developer documentation comprises the following sections:
 -   [Google Summer of Code](Google_Summer_of_Code.md) get involved via Google\'s student support program
 -   [Fine-tuning](Fine-tuning.md) shows different options and parameter switches that can overcome problems
 -   [Wrapping a C++ class in Python](Wrapping_a_Cplusplus_class_in_Python.md) shows how to create the Python wrapper for a C++ class
+-   [Checklist for adding a Feature to a C++ workbench](NewFeatureCheckList_C++.md) provides an aid for contributors.
 
 -   [Translating an external workbench](Translating_an_external_workbench.md)
 
@@ -113,7 +116,9 @@ FreeCAD, though usable in certain areas, is at the beginning of a long way into 
 
 [FreeCAD 1.0 Development Cycle](FreeCAD_1.0_Development_Cycle.md)
 
-## Community
+
+
+## Comunidade
 
 -   [IRC channel](ircs://irc.libera.chat:6697/freecad) ,synchronized with [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
 -   [Development forum](https://forum.freecad.org/viewforum.php?f=6)

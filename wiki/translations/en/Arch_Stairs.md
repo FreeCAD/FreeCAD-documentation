@@ -12,12 +12,12 @@
 
 ## Description
 
-The [Arch Stairs](Arch_Stairs.md) tool allows you to build automatically several types of stairs. At the moment, only straight stairs (with or without a central landing) are supported. Stairs can be built from scratch, or from a straight [Draft Line](Draft_Line.md), in which case the stairs follow the line. If the line is not horizontal but has a vertical inclination, the stairs will also follow its slope.
+The [Arch Stairs](Arch_Stairs.md) tool allows you to build several types of stairs automatically. Straight stairs (with or without a central landing) can be created from scratch. More complex stairs require base objects.
 
 See the [Stairs entry in wikipedia](https://en.wikipedia.org/wiki/Stairs) for a definition of the different terms used to describe parts of stairs.
 
-<img alt="" src=images/Arch_Stairs_example.jpg  style="width:640px;"> 
-*Two constructed stairs, one with a massive structure and a landing, and another one with a single stringer.*
+<img alt="" src=images/Arch_Stairs_example.jpg  style="width:600px;"> 
+*Two constructed stairs, one with a massive structure and a landing, the other with a single stringer.*
 
 ## Options
 
@@ -25,8 +25,19 @@ See the [Stairs entry in wikipedia](https://en.wikipedia.org/wiki/Stairs) for a 
 
 ## Usage
 
-1.  Press the **<img src="images/Arch_Stairs.svg" width=16px> [Arch Stairs](Arch_Stairs.md)** button, or press **S**, **R** keys.
-2.  Adjust the desired properties. Some parts of the stairs, such as the structure, might not appear immediately, if any of the properties makes it impossible, such as a structure thickness of 0.
+1.  Optionally select one or more base objects, for example [Draft Lines](Draft_Line.md) and [Draft Wires](Draft_Wire.md):
+    -   Draft Wires with two or more segments will be used to create landings. They must be on a plane parallel to the global XY plane. For example, select a U-shaped wire for a half-turn landing and an L-shaped wire for a corner landing.
+    -   Draft Lines will be used to create flights.
+    -   If the vertices of all lines and wires have correct Z coordinates, the created stairs will use this information.
+    -   The base objects must be selected in the correct order starting with the bottom object.
+2.  Press the **<img src="images/Arch_Stairs.svg" width=16px> [Arch Stairs](Arch_Stairs.md)** button, or press **S**, **R** keys.
+3.  Adjust the desired properties. Some parts of the stairs, such as the structure, might not appear immediately, if any of the properties makes it impossible, such as a structure thickness of 0.
+
+<img alt="" src=images/Arch_Stairs_Complex_Example.png  style="width:600px;"> 
+*Complex stairs based on a selection of lines and wired as shown on the left.<br>
+In red the wires used for the landings at Z&equals;1500mm, Z&equals;3000mm and Z&equals;4500mm.<br>
+In black the lines connecting them used for the flights.
+*
 
 ## Properties
 
@@ -81,7 +92,7 @@ See the [Stairs entry in wikipedia](https://en.wikipedia.org/wiki/Stairs) for a 
 
 -    **Nosing|Length**: The size of the nosing.
 
--    **Number Of Steps|Integer**: The numbers of steps (risers).
+-    **Number Of Steps|Integer**: The numbers of steps (risers). Must be at least 2 for a single flight, and at least 4 for a stairs with a central landing.
 
 -    **Riser Height|Length**: (read-only) The height of the risers. If **Riser Height Enforce** is 0 it is calculated (**Height** / **Number of Steps**). Else it is the same as **Riser Height Enforce**.
 

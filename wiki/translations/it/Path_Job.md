@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -29,6 +31,8 @@ Lo strumento Lavorazione (Job) crea un nuovo oggetto Lavorazione nel documento a
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -80,6 +84,8 @@ La finestra di dialogo della GUI della lavorazione ha cinque schede allineate or
 -   **Orientation**: il bordo o la faccia selezionati vengono usati per orientare di conseguenza la base o il pezzo grezzo.
 -   **Alignment**: selezionare un vertice per impostare l\'origine o spostare la base o il pezzo grezzo.
 
+
+
 ## Utensili
 
 ![](images/Job_4.jpg )
@@ -95,6 +101,8 @@ Aggiunge gli utensili necessari per le operazioni di questa lavorazione dalla [T
 Dopo aver aggiunto uno strumento, è possibile impostare o modificare l\'avanzamento e la velocità del mandrino se in questa lavorazione è necessario un avanzamento diverso. Le modifiche apportate qui non modificano i parametri memorizzati nella tabella.
 
 Lo strumento predefinito può essere eliminato se è stato aggiunto un proprio strumento.
+
+
 
 ## Flusso di lavoro 
 

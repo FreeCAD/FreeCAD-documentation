@@ -2,8 +2,8 @@
 Chaque système d\'exploitation dispose de sa page spécifique pour compiler FreeCAD dans la [Documentation d\'aide en ligne](Online_Help_Toc/fr.md).
 
      
-     <img alt="" src=images/Windows.png  style="width:" height="32px;">        <img alt="" src=images/Linux.png  style="width:" height="32px;">         <img alt="" src=images/Mac.png  style="width:" height="32px;">       <img alt="" src=images/Docker_logo_FreeCAD.svg  style="width:" height="32px;">
-   [Compiler sous Windows](Compile_on_Windows/fr.md)   [Compiler sous Linux](Compile_on_Linux/fr.md)   [Compiler sous Mac](Compile_on_MacOS/fr.md)             [Compiler sous Docker](Compile_on_Docker/fr.md)
+     <img alt="" src=images/Windows.png  style="width:" height="32px;">      <img alt="" src=images/Linux_with_text.png  style="width:" height="32px;">      <img alt="" src=images/Mac.png  style="width:" height="32px;">       <img alt="" src=images/Docker_logo_FreeCAD.svg  style="width:" height="32px;">
+   [Compiler sous Windows](Compile_on_Windows/fr.md)          [Compiler sous Linux](Compile_on_Linux/fr.md)           [Compiler sous Mac](Compile_on_MacOS/fr.md)             [Compiler sous Docker](Compile_on_Docker/fr.md)
      
 
 Pour compiler sous BSD et d\'autres systèmes Unix, vous pouvez suivre les instructions générales de [Compiler sous Linux](Compile_on_Linux/fr.md) mais en utilisant les dépendances appropriées dans ces systèmes.

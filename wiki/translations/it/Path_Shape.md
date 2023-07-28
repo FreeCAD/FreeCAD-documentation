@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -17,9 +19,23 @@ Path FromShapes non corrisponde al corrente flusso di lavoro di Path. Per questo
 
 Questo strumento genera percorsi utensile dai bordi dell\'oggetto Percorso.
 
+
+<div class="mw-translate-fuzzy">
+
 I percorsi utensile non sono compensati per il raggio utensile. Non esiste un controller utensile associato ai percorsi utensile generati.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ![](images/FromShape_image_0.png )
+
+
+</div>
+
+
 
 ## Utilizzo
 
@@ -36,6 +52,8 @@ Vengono inclusi tutti i bordi associati alla selezione del modello 3D.
 </div>
 
 L\'output del percorso dello strumento viene aggiunto al di fuori del percorso della lavorazione.
+
+
 
 ## Opzioni
 
@@ -92,7 +110,7 @@ Returns a Path object from a list of shapes.
 
 -   min_dist(0.0): minimum distance for the generated new wires. Wires maybe broken if the algorithm see fits. Set to zero to disable wire breaking.
 
--   abscissa(3.0): Controls vertex sampling on wire for nearest point searching. The sampling is dong using OCC GCPnts_UniformAbscissa.
+-   abscissa(3.0): Controls vertex sampling on wire for nearest point searching. The sampling is done using OCC GCPnts_UniformAbscissa.
 
 -   nearest_k(3): Nearest k sampling vertices are considered during sorting.
 

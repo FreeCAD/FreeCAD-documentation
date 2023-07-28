@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Descriere
@@ -23,6 +25,8 @@ The **Std OrthographicCamera** command switches the camera in the active [3D vie
 *Two cubes with the same dimensions in orthographic view*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Utilizare
@@ -34,11 +38,8 @@ Alegeți ** View** → **<img src="images/View-isometric.png" width=24px> Orthog
 
 1.  There are several ways to invoke the command:
     -   Select the **View → <img src="images/Std_OrthographicCamera.svg" width=16px> Orthographic view** option from the menu.
+    -   Select the **<img src="images/Std_OrthographicCamera.svg" width=16px> Orthographic view** option from the Mini-cube menu of the [Navigation Cube](Navigation_Cube.md).
     -   Use the keyboard shortcut: **V** then **O**.
-
-## Notes
-
--   It is also possible to switch to orthographic view mode via the Mini-cube menu of the [Navigation Cube](Navigation_Cube.md).
 
 ## Preferences
 

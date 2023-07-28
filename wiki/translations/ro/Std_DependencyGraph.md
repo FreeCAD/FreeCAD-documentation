@@ -84,7 +84,7 @@ Aceasta instalează binarele graphviz sub / usr / local / bin. Din păcate, nu p
 /usr/local/bin
 }}
 
-or
+or:
 
 
 {{Code|lang=text|code=
@@ -93,21 +93,80 @@ or
 
 și confirmați câmpul de introducere și dialogul de selectare a fișierelor.
 
+
+<div class="mw-translate-fuzzy">
+
 În cazul în care fișierele binare Graphviz sunt instalate într-o locație nestandard, încercați să găsiți programul împreună cu comanda:
+
+
+</div>
 
 
 {{Code|lang=text|code=
 type dot
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 Se va emite ceva de genul
+
+
+</div>
 
 
 {{Code|lang=text|code=
 dot is /usr/local/bin/dot
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 Și, prin urmare, puteți să îi spuneți lui FreeCAD să se uite în acel director.
+
+
+</div>
+
+If you don\'t have macOS Big Sur (11) (or higher) Homebrew might not work, but you can use [MacPorts](https://www.macports.org/index.php) instead. Just download the [appropriate version for your OS](https://www.macports.org/install.php). Once the installation is complete, enter this command in the [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)):
+
+
+{{Code|lang=text|code=
+sudo port install graphviz
+}}
+
+Enter your password and wait while the dependencies are downloaded and installed (it can take some time).
+
+The Graphviz binaries may be under **/usr/local/bin** or **/opt/local/bin/dot**. FreeCAD may automatically find the Graphviz program with the file dialog that comes up from **Tools → Dependency graph...**, if not enter this command:
+
+
+{{Code|lang=text|code=
+type dot
+}}
+
+It will output something like:
+
+
+{{Code|lang=text|code=
+dot is /opt/local/bin/dot
+}}
+
+And you can tell FreeCAD to look in that directory as explained before.
+
+It is also possible to make the opt directory visible with this command:
+
+
+{{Code|lang=text|code=
+defaults write com.apple.finder AppleShowAllFiles YES;
+}}
+
+then:
+
+
+{{Code|lang=text|code=
+killall Finder /System/Library/CoreServices/Finder.app;
+}}
+
+Therefore you can tell FreeCAD to follow this path. It has been successfully tested on macOS 10.13 (High Sierra).
 
 ### Linux
 

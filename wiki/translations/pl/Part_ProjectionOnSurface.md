@@ -2,19 +2,18 @@
 - GuiCommand:/pl
    Name:Part ProjectionOnSurface
    Name/pl:Część: Rzutowanie na powierzchnię
-   MenuLocation:Część → Utwórz rzut na powierzchnię ...
+   MenuLocation:Część → Utwórz rzut na powierzchni ...
    Workbenches:[Część](Part_Workbench/pl.md)
    Version:0.19
 ---
 
 # Part ProjectionOnSurface/pl
 
+
+
 ## Opis
 
-
-**[<img src=images/Part_ProjectionOnSurface.svg style="width:16px"> [Rzutowanie na powierzchnię](Part_ProjectionOnSurface/pl.md)**
-
-służy do rzutowania [kształtu](Shape/pl.md) na powierzchnię innego obiektu. Można użyć tej funkcji do rzutowania logo lub obiektu tekstowego *(patrz **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Kształt z tekstu](Draft_ShapeString/pl.md)**)* na różne powierzchnie, aby stworzyć interesujące efekty.
+Funkcja **[<img src=images/Part_ProjectionOnSurface.svg style="width:16px"> '''Utwórz rzut na powierzchni'''** służy do rzutowania [kształtu](Shape/pl.md) na powierzchnię innego obiektu. Można użyć tej funkcji do rzutowania logo lub obiektu tekstowego *(patrz **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Kształt z tekstu](Draft_ShapeString/pl.md)**)* na różne powierzchnie, aby stworzyć interesujące efekty.
 
 Biorąc pod uwagę [kształt](Shape/pl.md), źródłowy narzędzie to może rzutować z niego krawędzie, polilinie *(zamknięte krawędzie)* lub całe powierzchnie. Rezultatem mogą być nowe krawędzie, nowe polilinie, nowe powierzchnie, a nawet nowe wytłoczone bryły, które mogą być użyte w <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [operacjach logicznych](Part_Boolean/pl.md) do uzyskiwania efektów takich jak grawerowanie czy stemplowanie.
 
@@ -23,6 +22,8 @@ Biorąc pod uwagę [kształt](Shape/pl.md), źródłowy narzędzie to może rzut
 
 
 *Rzutowanie logo na zakrzywionej powierzchni.*
+
+
 
 ## Użycie
 
@@ -72,11 +73,15 @@ Uwagi:
 -   Możesz też nacisnąć przyciski **X:**, **Y:** lub **Z:**, aby ustawić kierunek rzutowania na główne osie globalne, +X, -X, +Y, -Y, +Z lub -Z.
 -   Aby to zrobić, musisz ponownie wybrać geometrię, naciskając przyciski **Dodaj ...** i wybierając ponownie elementy podrzędne.
 
+
+
 ## Opcje
 
 -    **Wysokość wyciągnięcia**: jest to wysokość bryły, która zostanie utworzona przez wyciągnięcie rzutowanej powierzchni, od powierzchni docelowej i wzdłuż ujemnej wartości kierunku rzutowania. Na przykład, jeśli kierunek rzutowania jest wzdłuż osi +Y {{Value|(0, 1, 0)}}, to bryła zostanie utworzona w kierunku -Y {{Value|(0, -1, 0)}}. To wyciągnięcie bryły zostanie utworzone tylko wtedy, gdy wybrany element podrzędny był zamkniętą ścianą, po naciśnięciu przycisku **Dodaj powierzchnię** i wybraniu opcji {{RadioButton|TRUE|Wyświetl wszystko}}.
 
 -    **Głębokość bryły**: jest to odległość, o jaką obiekt rzutowania jest przesuwany wzdłuż kierunku rzutowania. Wartości ujemne spowodują przesunięcie obiektu w przeciwnym kierunku; pozwala to na tworzenie rzutów, które są przesunięte względem powierzchni docelowej.
+
+
 
 ## Ograniczenia
 
@@ -90,9 +95,13 @@ Jeśli tak się stanie:
 
 Rzutowanie wykonane w środowisku pracy Część nie jest parametryczne. Jeśli potrzebujesz parametrycznego przepływu pracy, proszę skonsultuj [klasę Projection](https://gist.github.com/CsatiZoltan/f4fd10bf20923143ba0e0678ea1d3d61), która jest obiektem skryptowym środowiska Python, przeznaczonym do użytku programistycznego.
 
+
+
 ## Odnośniki internetowe 
 
 -   Wątek na forum: [Rzutowanie powierzchni czołowych na zagiętą powierzchnię](https://forum.freecadweb.org/viewtopic.php?f=9&t=33700)
+
+
 
 ## Przykłady
 

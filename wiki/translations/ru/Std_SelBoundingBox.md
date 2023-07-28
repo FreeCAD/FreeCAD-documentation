@@ -1,20 +1,22 @@
 ---
 - GuiCommand:/ru
-   Name:Std SelBoundingBox
-   Name/ru:Std SelBoundingBox
-   MenuLocation:Вид → Bounding box
-   Workbenches:All
-   SeeAlso:[Std DrawStyle](Std_DrawStyle/ru.md)
+   Name/ru:Габариты
+   Name:Std_SelBoundingBox
+   MenuLocation:Вид → Габариты
+   Workbenches:Все
+   Version:0.19
+   SeeAlso:[Стиль представления](Std_DrawStyle/ru.md)
 ---
 
 # Std SelBoundingBox/ru
 
 
-</div>
 
 ## Описание
 
 The **Std SelBoundingBox** command toggles the global bounding box highlighting mode. If this mode is switched on, selected objects are marked in a [3D view](3D_view.md) with a highlighted bounding box even if their **Selection Style** is set to \'Shape\'.
+
+
 
 ## Применение
 
@@ -22,11 +24,15 @@ The **Std SelBoundingBox** command toggles the global bounding box highlighting 
     -   Press the **<img src="images/Std_SelBoundingBox.svg" width=16px> [Std SelBoundingBox](Std_SelBoundingBox.md)** button.
     -   Select the **View → <img src="images/Std_SelBoundingBox.svg" width=16px> Bounding box** option from the menu.
 
+
+
 ## Настройки
 
 The related setting is stored: **Tools → Edit parameters... → BaseApp → Preferences → View → ShowSelectionBoundingBox**. It is a boolean value, the default is `False`.
 
-## Scripting
+
+
+## Программирование
 
 
 **Смотрите так же:**

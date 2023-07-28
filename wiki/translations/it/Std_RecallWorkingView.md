@@ -5,7 +5,7 @@
    MenuLocation:Visualizza → Viste standard → Richiama vista di lavoro
    Workbenches:Tutte
    Shortcut:**End**
-   Version:1.0
+   Version:0.21
    SeeAlso:[Memorizza vista di lavoro](Std_StoreWorkingView/it.md), [Viste bloccate](Std_FreezeViews/it.md)
 ---
 

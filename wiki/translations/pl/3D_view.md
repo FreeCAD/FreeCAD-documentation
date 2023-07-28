@@ -14,12 +14,9 @@ Niektóre właściwości widoku, takie jak kolor tła, styl [nawigacja myszki](M
 
 * [Widok 3D](3D_view/pl.md)jest komponentem [interfejsu](interface/pl.md) programu FreeCAD . Domyślnie pokazuje mały widżet z osiami współrzędnych, oraz kostkę nawigacyjną również z osiami współrzędnych. Siatka może być wyświetlana i konfigurowana przez załadowanie środowiska pracy [Rysunek roboczy](Draft_Workbench/pl.md).*
 
+
+
 ## Działania
-
-
-**Note:**
-
-działania związane z linkami zostały dodane w wersji <small>(v0.19)</small> .
 
 Ponieważ [widok drzewa](tree_view/pl.md) wyszczególnia większość obiektów widocznych w oknie widoku 3D, wiele akcji pokrywa się z tymi, które mogą być wykonane z [widoku drzewa](tree_view/pl.md).
 
@@ -69,6 +66,8 @@ Kolejny przykład, ze Środowiskiem pracy [Draft](Draft_Workbench.md) i jednym w
 -    **Draft**: polecenia tworzenia i modyfikacji obiektów ze Środowiska pracy [Draft](Draft_Workbench.md).
 
 -    **Narzędzia**: dodatkowe polecenia kontekstowe dostarczane przez Środowisko pracy [Draft](Draft_Workbench.md).
+
+
 
 ## Szczególy
 

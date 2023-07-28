@@ -1,29 +1,46 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw Image
-   Name/pl:Rysunek Techniczny: Obraz
+   Name/pl:Rysunek Techniczny: Wstaw obraz bitmapy
    MenuLocation:Rysunek Techniczny → Wstaw obraz bitmapy
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso:[SVG Symbol](TechDraw_Symbol/pl.md)
+   SeeAlso:[Wstaw symbol SVG](TechDraw_Symbol/pl.md)
 ---
 
 # TechDraw Image/pl
 
+
+</div>
+
+
+
 ## Opis
 
-Narzędzie **Obraz** wstawia z pliku do strony widok obrazu [bitmapy](Bitmap/pl.md) *(PNG, TIFF, JPEG itp.)*.
+Narzędzie **Wstaw obraz bitmapy** wstawia z pliku do strony widok obrazu [bitmapy](Bitmap/pl.md) *(PNG, TIFF, JPEG itp.)*.
 
 ![](images/TechDraw_Image_example.png ) 
 *Obraz wstawiony do strony rysunku.*
 
+
+
 ## Użycie
 
-1.  Naciśnij przycisk **<img src="images/TechDraw_Image.svg" width=16px> [Wstaw obraz bitmapy](TechDraw_Image/pl.md)**.
+
+<div class="mw-translate-fuzzy">
+
+1.  Naciśnij przycisk **<img src="images/TechDraw_Image.svg" width=16px> '''Wstaw obraz bitmapy'''**.
 2.  Otworzy się okno dialogowe pliku. Wybierz lokalizację i nazwę pliku.
+
+
+</div>
+
+
 
 ## Właściwości
 
 Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw_View/pl#Widok.md) środowiska Rysunek Techniczny.
+
+
 
 ### Dane
 
@@ -38,12 +55,16 @@ Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw
 
 -    **Wysokość|Float**: Wysokość wykadrowanego obrazu w mm. Analogicznie.
 
+
+
 ### Widok
 
 
 {{TitleProperty|Obraz}}
 
 -    **Przytnmij|Bool**: Przycina obraz do parametrów **Szerokość** x **Wysokość**.
+
+
 
 ## Tworzenie skryptów 
 

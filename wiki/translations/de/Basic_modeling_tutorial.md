@@ -15,7 +15,7 @@
 
 Dieses Tutorium grundlegende Modellierung zeigt dir, wie du einen Eisenwinkel modellierst. Eine Sache, die du wissen solltest, ist, dass FreeCAD modular aufgebaut ist, und wie bei vielen anderen CAD Programmen gibt es immer mehr als eine Möglichkeit, Dinge zu tun. Wir werden hier zwei Methoden untersuchen.
 
-This tutorial was written with version 0.15 of FreeCAD.
+Diese Anleitung wurde mit FreeCAD 0.15 geschrieben.
 
 ## Bevor wir beginnen 
 
@@ -132,10 +132,10 @@ Die Beschriftung deiner Schaltfläche kann unterschiedlich sein, je nach deiner 
 Die obigen Anweisungen werden funktionieren, unabhängig von der Beschriftung Deines Buttons.
 
 
-  {{Userdocnavi
+ {{Userdocnavi
 ---
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Basic modeling tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Basic modeling tutorial/de

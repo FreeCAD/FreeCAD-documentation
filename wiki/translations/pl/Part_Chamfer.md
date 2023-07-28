@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/pl
    Name:Part Chamfer
-   Name/pl:Część: Fazka
-   MenuLocation:Część → Fazka
+   Name/pl:Część: Sfazowanie
+   MenuLocation:Część → Sfazowanie ...
    Workbenches:[Część](Part_Workbench/pl.md)
    SeeAlso:[Zaokrąglenie](Part_Fillet/pl.md)
 ---
@@ -13,7 +13,7 @@
 
 ## Opis
 
-Fazuje wybraną krawędź obiektu. Okno dialogowe pozwala wybrać krawędź do pracy, jak również modyfikować różne parametry fazowania.
+Narzędzie **Sfazowanie** ścina wybraną krawędź obiektu. Okno dialogowe pozwala wybrać krawędź do pracy, jak również modyfikować różne parametry fazowania.
 
 ![Przykład utworzenia fazki](images/Chamfer-example.png )
 

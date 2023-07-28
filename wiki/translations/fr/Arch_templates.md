@@ -1,5 +1,5 @@
 # Arch templates/fr
-Cette page répertorie les modèles selon le standard American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute).
+Cette page répertorie les modèles selon le standard American National Standards Institute [ANSI](https://fr.wikipedia.org/wiki/American_National_Standards_Institute).
 
 ### Arch A 
 
@@ -81,11 +81,15 @@ Cette page répertorie les modèles selon le standard American National Standard
 
 <img alt="" src=images/Arch_E3_Portrait.svg  style="width:800px;">
 
+
+
 ## Autres standards disponibles 
 
--   [Drawing Modèles](Drawing_templates/fr.md): Modèles standards de FreeCAD
--   [ANSI templates](ANSI_templates/fr.md): Modèles au standard American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute)
--   [Modèles divers](Misc_templates/fr.md): Modèles mélangés.
+-   [Drawing Modèles](Drawing_templates/fr.md) : modèles par défaut de FreeCAD
+-   [Modèles ANSI](ANSI_templates/fr.md) : modèles au standard American National Standards Institute [ANSI](https://fr.wikipedia.org/wiki/American_National_Standards_Institute)
+-   [Modèles divers](Misc_templates/fr.md) : modèles mélangés.
+
+
 
 ## Crédits
 

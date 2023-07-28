@@ -16,6 +16,8 @@ Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier D
 
 Cette commande est désormais obsolète. Utilisez plutôt la commande [Draft Réseau orthogonal](Draft_OrthoArray/fr.md), [Draft Réseau polaire](Draft_PolarArray/fr.md) ou [Draft Réseau circulaire](Draft_CircularArray/fr.md)
 
+
+
 ## Utilisation
 
 1.  Pour utiliser cette commande dans FreeCAD version 0.19 et suivantes, vous devez ajouter un bouton à une barre d\'outils personnalisée. Voir [Personnalisation de l\'interface](Interface_Customization/fr.md).
@@ -25,9 +27,13 @@ Cette commande est désormais obsolète. Utilisez plutôt la commande [Draft Ré
 5.  Le réseau est créé.
 6.  Vous pouvez éventuellement modifier ses [propriétés](Draft_OrthoArray/fr#Propri.C3.A9t.C3.A9s.md).
 
+
+
 ## Propriétés
 
 Voir [Draft Réseau orthogonal](Draft_OrthoArray/fr#Propri.C3.A9t.C3.A9s.md).
+
+
 
 ## Script
 

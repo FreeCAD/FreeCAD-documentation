@@ -1,7 +1,19 @@
 # Drawing Workbench/pt-br
-**Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16, and the new [[TechDraw Workbench]] aiming to replace it was introduced in v0.17. Both workbenches are still provided in v0.17, but the Drawing Workbench may be removed in future releases.**
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+**The '''Drawing Workbench''' is no longer included after version 0.20.<br>
+The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement.**
 
 <img alt="Ícone da bancada de trabalho Drawing " src=images/Workbench_Drawing.svg  style="width:128px;">
+
+
 
 ## Introdução
 
@@ -11,6 +23,8 @@ O módulo Drawing permite que você coloque seu trabalho em 3D no papel. Ou seja
 {{TOCright}}
 
 <img alt="" src=images/Drawing_extraction.png  style="width:600px;">
+
+
 
 ## Ferramentas
 
@@ -54,7 +68,7 @@ No momento, o fluxo de trabalho da interface gráfica do usuário é muito limit
 
 See the [Drawing API example](Drawing_API_example.md) page for a description of the functions used to create drawing pages and views.
 
-The macro [CartoucheFC](Macro_CartoucheFC.md) allows you to create a custom information box on an A3 landscape page.
+
 
 ## Modelos
 
@@ -67,13 +81,32 @@ Some notes on the programming side of the drawing module will be added to the [D
 ## Tutorials
 
 -   [Drawing tutorial](Drawing_tutorial.md)
+-   [Drawing Template HowTo](Drawing_Template_HowTo.md)
+
+## Macros
+
+-    <img style="width:16px;" src="images/Macro_Automatic_drawing.png"> [Macro Automatic drawing](Macro_Automatic_drawing.md): Allows the user to get the view of his object in a drawing with 4 different position (front,top,iso,right). Needs some modification to be perfectly effective.
+
+-    <img style="width:16px;" src="images/Macro_CartoucheFC.png"> [Macro CartoucheFC](Macro_CartoucheFC.md): This GUI macro to fill simply all fields of the cartridge of the plan implementation worksheet FreeCAD, the format of the date and the symbol of the projection mode adapt to the EU region or US selected.
+
+-    <img style="width:16px;" src="images/Macro_CartoucheFC_2.png"> [Macro CartoucheFC 2](Macro_CartoucheFC_2.md): This GUI macro to fill simply all fields of the cartridge **model 2** of the plan implementation worksheet FreeCAD.
+
+-    <img style="width:16px;" src="images/Macro_CartoucheFC_Full.png"> [Macro CartoucheFC Full](Macro_CartoucheFC_Full.md): This GUI macro to fill simply all fields of the cartridge [Misc templates Full](Misc_templates_Full.md) of the plan implementation worksheet FreeCAD, the format of the date and the symbol of the projection mode adapt to the EU region or US selected.
+
+-    <img style="width:16px;" src="images/Macro_Corner_shapes_wizard.png"> [Macro Corner shapes wizard/update](Macro_Corner_shapes_wizard/update.md): Pops up a dialog asking for the dimensions of your corner piece, then creates the object in the document and creates a page view with top, front and lateral views of the piece.
 
 ## External links 
 
 -   [Intro to mechanical drawing on Youtube - by Normal Universe](https://www.youtube.com/watch?v=1Hm5Zyjmjac)
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Drawing Tools navi

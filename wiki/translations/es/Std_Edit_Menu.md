@@ -53,7 +53,7 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_Delete.svg  style="width:32px;"> [Delete](Std_Delete.md): Deletes selected objects.
 
--   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> [Send to Python Console](Std_SendToPythonConsole.md): Creates variables in the [Python console](Python_console.md) referencing an object. <small>(v0.19)</small> 
+-   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> [Send to Python Console](Std_SendToPythonConsole.md): Creates variables in the [Python console](Python_console.md) referencing an object.
 
 -   <img alt="" src=images/Std_Placement.svg  style="width:32px;"> [Placement\...](Std_Placement.md): Opens the Placement task panel for an object.
 

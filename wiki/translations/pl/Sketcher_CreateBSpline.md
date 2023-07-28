@@ -1,40 +1,55 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher CreateBSpline
-   MenuLocation:Sketch → Sketcher geometries → Create B-spline
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Utwórz krzywą złożoną
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz krzywą złożoną
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **B** **B**
    Version:0.17
-   SeeAlso:[Sketcher periodic B-spline](Sketcher_CreatePeriodicBSpline.md)
+   SeeAlso:[Utwórz okresową krzywą złożoną](Sketcher_CreatePeriodicBSpline/pl.md)
 ---
 
 # Sketcher CreateBSpline/pl
 
-## Description
 
-This tool creates a B-spline curve from its control points. (See [this page](B-Splines.md) for more info about B-splines.)
+
+## Opis
+
+To narzędzie tworzy krzywą złożoną z jej punktów kontrolnych. *(Zapoznaj się z treścią strony [Krzywe złożone](B-Splines/pl.md), aby uzyskać więcej informacji o krzywych typu B-splines)*.
 
 ![](images/Sketcher_B-spline_example01.png ) 
-*A B-spline curve (in white) defined by 4 control points. Pictured are the control polygon in green (the straight lines connecting the control points) and the weight circles in dark yellow. The green digit "3" in the center refers to the [degree](Sketcher_BSplineIncreaseDegree#Description.md) of the B-spline and the digits "(4)" at the ends of the B-spline refer to their [knot multiplicity](Sketcher_BSplineDecreaseKnotMultiplicity#Description.md). The red digit "3" denotes the control point weight which is defined as radius constraint to the control point circle.*
+*Krzywa złożona ''(w kolorze białym)'' zdefiniowana przez 4 punkty kontrolne. Na rysunku widać zielony wielokąt kontrolny ''(linie proste łączące punkty kontrolne)'' oraz koła wagowe w kolorze ciemnożółtym. Zielona cyfra "3" w środku odnosi się do [stopnia](Sketcher_BSplineIncreaseDegree/pl#Opis.md) krzywej złożonej, a cyfry "(4)" na końcach krzywej złożonej odnoszą się do ich [krotności węzła](Sketcher_BSplineDecreaseKnotMultiplicity/pl#Opis.md). Czerwona cyfra "3" oznacza wagę punktu kontrolnego, która jest zdefiniowana jako ograniczenie promienia do okręgu punktu kontrolnego.*
 
-## Usage
 
-1.  Press the **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [Create B-spline](Sketcher_CreateBSpline.md)** button.
-2.  Create a series of points by clicking in the [3D view](3D_view.md). While the command is active, the created points are connected with straight lines, and a construction circle is created centered on each point.
-3.  Optionally press **D** before terminating the input to define the degree of the B-spline. <small>(v0.20)</small> 
-4.  Optionally press **Backspace** before terminating the input to delete the last created control point. <small>(v0.20)</small> 
-5.  Right-click to terminate the input and generate the curve.
-6.  Depending on preferences, the tool may remain active to trace a new curve. Right-click again to exit the command.
 
--   It is possible to define the weight of the control points by changing the radii of the weight circles. The equality constraints on the circles need to be deleted first. The radius constraint is arbitrary, the weight of the control points will be defined by the relative radii of the circles. It works similar to gravity: the bigger a circle is in relation to the others, the more the curve will be attracted to the control point.
--   The visibility of the control polygon, the curvature comb, the degree and the knot multiplicity can be toggled on/off from the [B-spline tools](Sketcher_Workbench#Sketcher_B-spline_tools.md) toolbar.
--   Check out the other tools in the [B-spline tools](Sketcher_Workbench#Sketcher_B-spline_tools.md) toolbar for more B-spline editing tools.
+## Użycie
 
-## Limitations
+1.  Naciśnij przycisk **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> '''Krzywa złożona przez punkty kontrolne'''**.
+2.  Utwórz serię punktów, klikając w oknie [widoku 3D](3D_view.md). Gdy polecenie jest aktywne, utworzone punkty są połączone liniami prostymi, a na każdym punkcie tworzony jest okrąg konstrukcyjny.
+3.  Opcjonalnie naciśnij klawisz **D** przed zakończeniem wprowadzania danych, aby określić stopień krzywej. {{Version/pl|0.20}}
+4.  Opcjonalnie naciśnij klawisz **Backspace** przed zakończeniem wprowadzania, aby usunąć ostatnio utworzony punkt kontrolny. {{Version/pl|0.20}}
+5.  Kliknij prawym przyciskiem myszki, aby zakończyć proces wprowadzania danych i wygenerować krzywą.
+6.  W zależności od preferencji, narzędzie może pozostać aktywne do śledzenia nowej krzywej. Kliknij ponownie prawym przyciskiem myszki, aby zakończyć polecenie.
 
--   Many types of constraints are not supported at this time. Only the B-spline\'s control point and end points can be constrained.
--   [Split](Sketcher_Split.md) and [extend](Sketcher_Extend.md) tools are not supported.
--   The shape of a B-spline curve can only be edited by dragging one of the control points. The knots lying on the curve cannot be selected.
+
+
+## Uwagi
+
+-   Istnieje możliwość zdefiniowania wagi punktów kontrolnych poprzez zmianę rozmiarów promieni okręgów wagowych. Należy najpierw usunąć wiązania równościowe na okręgach. Wiązanie promienia jest dowolne, waga punktów kontrolnych będzie określona przez względne promienie okręgów. Działa to podobnie do grawitacji: im większy jest okrąg w stosunku do pozostałych, tym bardziej krzywa będzie przyciągana do punktu kontrolnego.
+-   Widoczność wielokąta kontrolnego, grzebień krzywizny, stopień i krotność węzła można włączać / wyłączać z paska narzędzi [krzywych złożonych](Sketcher_Workbench/pl#Narzędzia_szkicownika_dla_krzywych_złożonych.md)
+-   Sprawdź inne narzędzia na pasku [krzywych złożonych](Sketcher_Workbench/pl#Narzędzia_szkicownika_dla_krzywych_złożonych.md), by znaleźć więcej narzędzi do edycji krzywej złożonej.
+
+
+
+## Ograniczenia
+
+-   Wiele typów wiązań nie jest obecnie obsługiwanych.
+
+-   Narzędzie [Rozszerz](Sketcher_Extend/pl.md) nie jest obsługiwane.
+
+-   Narzędzie [Podziel](Sketcher_Split/pl.md) nie jest obsługiwane.
+
+-    {{VersionMinus/pl|0.20}}: Kształt krzywej złożonej można edytować tylko przez przeciągnięcie jednego z punktów kontrolnych. Węzły leżące na krzywej nie mogą być wybierane.
 
 
 

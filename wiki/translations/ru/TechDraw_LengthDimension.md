@@ -13,31 +13,58 @@
 
 ## Описание
 
-The <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:24px;"> **TechDraw LengthDimension** tool adds a linear dimension to a View. The dimension may be the distance between two vertices, the length of one edge or the distance between 2 edges. The dimension will initially display the projected distance (ie as shown on the drawing). If the dimension is based on 3D references, it can be changed to the actual 3D distance by changing its **Measure Type** property to {{Value|True}}.
+The **TechDraw LengthDimension** tool adds a linear dimension to a View. The dimension may be the distance between two points, the length of a straight edge, the perpendicular distance between two edges, or the perpendicular distance between a point and an edge.
 
-<img alt="" src=images/TechDraw_Dimension_Length_example.png  style="width:220px;"> 
+<img alt="" src=images/TechDraw_Dimension_Length_example.png  style="width:220px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Расстояние указанное между двумя произвольными точками фигуры.*
+
+
+</div>
 
 
 
 ## Применение
 
-1.  Select the points or edge which define your measurement. The geometry may be selected in the drawing or the [3D view](3D_view.md).
-2.  There are several ways to invoke the tool:
+1.  Select the points and/or edges which define your measurement. The geometry may be selected in the [3D view](3D_view.md) (first two options) or in the drawing (all options):
+    -   Select two points.
+    -   Select a single straight edge.
+    -   Select two edges. If both edges are straight they must be parallel. This will produce a perpendicular dimension if an endpoint of one of the edges has a perpendicular projection on the other edge (the resultant point must lie on the actual edge). If multiple solutions are possible, the endpoint that is closest to its projected point is used. If there is no valid perpendicular projection, the dimension will be the distance between the nearest endpoints of the edges.
+    -   Select a point and an edge. This will produce a perpendicular dimension if the point has a perpendicular projection on the actual edge. Else the dimension will be the distance between the point and the nearest endpoint of the edge.
+2.  If you have selected geometry in the 3D view: add the correct TechDraw View to the selection by selecting it in the [Tree view](Tree_view.md).
+3.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Insert Length Dimension](TechDraw_LengthDimension.md)** button.
     -   Select the **TechDraw → Dimensions → <img src="images/TechDraw_LengthDimension.svg" width=16px> Insert Length Dimension** option from the menu.
-3.  A dimension will be added to the View. The dimension may be dragged to the desired position.
-4.  If needed, add tolerances as described in [this page](TechDraw_Geometric_dimensioning_and_tolerancing#Tolerances.md).
+4.  A dimension is added to the View.
+5.  The dimension may be dragged to the desired position.
+6.  If needed, add tolerances as described on [this page](TechDraw_Geometric_dimensioning_and_tolerancing#Tolerances.md).
 
-To change the properties of a dimension object either double-clicking it in the drawing or in the [Tree view](Tree_view.md). This will open the dimension dialog:
+### Display 3D measurement 
+
+The dimension will initially display the projected measurement (i.e. as shown in the drawing). If required, and if the dimension is based on 3D references, it can be changed to the actual 3D measurement by changing its **Measure Type** property to {{Value|True}}. To base a dimension on 3D references select geometry from the [3D view](3D_view.md) at creation time, or use the <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:16px;"> [TechDraw DimensionRepair](TechDraw_DimensionRepair.md) tool to update existing dimensions.
+
+### Change properties 
+
+To change the properties of a dimension object either double-click it in the drawing or in the [Tree view](Tree_view.md). This will open the [Dimension dialog](#Dimension_dialog.md).
 
 
 
 ## Диалоговое окно указания размера 
 
-Диалоговое окно указания размера содержит в себе следующие параметры:
+
+<div class="mw-translate-fuzzy">
 
 ![](images/TechDraw_DimensionDialog_ru.png )
+
+
+</div>
+
+Диалоговое окно указания размера содержит в себе следующие параметры:
 
 
 
@@ -55,13 +82,13 @@ To change the properties of a dimension object either double-clicking it in the 
 
 ### Форматирование
 
--   **Format Specifier**: How the dimension value will be formatted. By default the specifier is {{Value|%.xf}} whereby {{Value|x}} is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string). There is also an additional {{Value|%w}} format that prints the specified number of digits after the decimal separator and removes trailing zeros. For example, {{Value|%.2w}} means that at most 2 decimals will be printed and any trailing zeros will be cut off.
+-   **Format Specifier**: How the dimension value will be formatted. By default the specifier is {{Value|%.xf}} where {{Value|x}} is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string). There is also an additional {{Value|%w}} format that prints the specified number of digits after the decimal separator and removes trailing zeros. For example, {{Value|%.2w}} means that at most 2 decimals will be printed and any trailing zeros will be cut off.
 
 -   **Arbitrary Text**: If checked, the dimension is replaced by the content of the **Format Specifier** field.
 
--   **OverTolerance Format Specifier**: How the overtolerance value will be formatted. By default the specifier is {{Value|%.xf}} whereby {{Value|x}} is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string).
+-   **OverTolerance Format Specifier**: How the overtolerance value will be formatted. By default the specifier is {{Value|%.xf}} where {{Value|x}} is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string).
 
--   **UnderTolerance Format Specifier**: How the undertolerance value will be formatted. By default the specifier is {{Value|%.xf}} whereby {{Value|x}} is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string).
+-   **UnderTolerance Format Specifier**: How the undertolerance value will be formatted. By default the specifier is {{Value|%.xf}} where {{Value|x}} is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string).
 
 -   **Arbitrary Tolerance Text**: If checked, the tolerances are replaced by the content of the **OverTolerance Format Specifier** **UnderTolerance Format Specifier** fields.
 
@@ -92,6 +119,32 @@ To change the properties of a dimension object either double-clicking it in the 
 -   **Use default**: Set extension line angle to the usual angle.
 
 -   **Use selection**: Set extension line angle to match the angle of the selected edge (or 2 vertices) in the view.
+
+
+
+## Ограничения
+
+Dimension objects are vulnerable to the \"[topological naming problem](Topological_naming_problem.md)\". This means that if you modify the 3D geometry, the faces and edges of the model may be renamed internally. If a dimension is attached to an edge that is then modified, the dimension may break. In general, it is not possible to keep the projected 2D dimensions synchronized with the actual 3D objects.
+
+Therefore, it is recommended that dimensions be added when the 3D model is no longer being modified.
+
+### Workaround
+
+If you want to keep a TechDraw view with dimensions that won\'t break, you need to dimension an object that won\'t change:
+
+-   Create a non-parametric copy of the object that you want to project with [Part SimpleCopy](Part_SimpleCopy.md).
+-   Select this copy, then use [TechDraw View](TechDraw_View.md), and add the desired dimensions.
+-   If the original 3D model is modified, the modifications won\'t affect the simple copy, nor the dimensions in the TechDraw view.
+
+See [Landmark Dimensions](TechDraw_LandmarkDimension.md) for another approach to circumventing the topological naming issue.
+
+
+
+## Примечания
+
+-   **Edge selection**. Edges can be difficult to select. You can adjust the selection area for edges by changing the [Edge Fuzz preference](TechDraw_Preferences#Advanced.md).
+-   **Decimal places**. Dimensions use the global decimal places setting by default. This can be changed in the [preferences](TechDraw_Preferences#Dimensions.md) or by changing the FormatSpec property.
+-   **Multiple objects**. Views may contain multiple 3D objects as Source. Dimensions may be applied to geometry from any object(s) in the View (ex from Object1.Vertex0 to Object2.Vertex3).
 
 
 
@@ -196,14 +249,14 @@ To change the properties of a dimension object either double-clicking it in the 
     :   
         `True`
         
-        \- the content of the **Format Spec** will be displayed as text instead if the dimension value.
+        \- the content of the **Format Spec** will be displayed as text instead of the dimension value.
 
 -    **Arbitrary Tolerances|Bool**: Like **Arbitrary**, but for the tolerance.
 
 
 {{Properties_Title|Override}}
 
--    **AngleOverride|Bool**: Whether the direction of dimension and extension lines is overridden.
+-    **Angle Override|Bool**: Whether the direction of dimension and extension lines is overridden.
 
 :   
 
@@ -217,14 +270,28 @@ To change the properties of a dimension object either double-clicking it in the 
         
         \- the directions are overridden by LineAngle and ExtensionAngle property values.
 
--    **LineAngle|Angle**: angle of dimension line with view X axis (in degrees).
+-    **Line Angle|Angle**: Angle of dimension line with view X axis (in degrees).
 
--    **ExtensionAngle|Angle**: angle of extension line(s) with view X axis (in degrees).
+-    **Extension Angle|Angle**: Angle of extension line(s) with view X axis (in degrees).
+
+
+{{Properties_Title|References}}
+
+-    **Saved Geometry|TopoShapeList|Hidden**: Reference geometry. <small>(v0.21)</small> 
 
 ### View
 
 
+{{TitleProperty|Base}}
+
+-    **Keep Label|Bool**: Not used.
+
+-    **Stack Order|Integer**: Over or underlap relative to other drawing objects. <small>(v0.21)</small> 
+
+
 {{Properties_Title|Dimension Format}}
+
+-    **Arrowsize|Length**: The size of the dimension arrows. <small>(v0.21)</small> 
 
 -    **Color|Color**: Color for lines and text.
 
@@ -244,11 +311,13 @@ To change the properties of a dimension object either double-clicking it in the 
 
 -    **Font|Font**: The name of the font to use for the dimension text.
 
--    **Font Size|Length**: Dimension text size.
+-    **Fontsize|Length**: Dimension text size.
 
--    **Gap Factor ASME|Float**: Adjusts the gap between the dimension points and the start of the extension lines. The gap is this value times the line width. <small>(v1.0)</small> 
+-    **Gap Factor ASME|Float**: Adjusts the gap between the dimension points and the start of the extension lines. The gap is this value times the line width. <small>(v0.21)</small> 
 
--    **Gap Factor ISO|Float**: Adjusts the gap between the dimension points and the start of the extension lines. The gap is this value times the line width. <small>(v1.0)</small> 
+-    **Gap Factor ISO|Float**: Adjusts the gap between the dimension points and the start of the extension lines. The gap is this value times the line width. <small>(v0.21)</small> 
+
+-    **Line Spacing Factor|Float**: Adjusts the gap between the dimension text and the dimension line. The gap is this value times the line width. <small>(v0.21)</small> 
 
 -    **Line Width|Length**: Dimension line weight.
 
@@ -280,24 +349,6 @@ To change the properties of a dimension object either double-clicking it in the 
 
 
 
-## Ограничения
-
-Dimension objects are vulnerable to the \"[topological naming problem](Topological_naming_problem.md)\". This means that if you modify the 3D geometry the faces and edges of the model may be renamed internally; if a dimension is attached to an edge that is then modified, the dimension may break. In general, it is not possible to keep the projected 2D dimensions synchronized with the actual 3D objects.
-
-Therefore, it is recommended that dimensions be added when the 3D model is no longer being modified.
-
-### Workaround
-
-If you want to keep a TechDraw view with dimensions that won\'t break, you need to dimension an object that won\'t change.
-
--   Select the object that you want to project, then switch to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) and use **Part → <img src="images/Part_SimpleCopy.svg" width=16px> [Create simple copy](Part_SimpleCopy.md)**. This will create a single object that is not parametric, that is, no longer editable.
--   Select this copy, then use [TechDraw View](TechDraw_View.md), and add the desired dimensions.
--   If the original 3D model is modified, the modifications won\'t affect the simple copy, nor the dimensions in the TechDraw view.
-
-See [Landmark Dimensions](TechDraw_LandmarkDimension.md) for another approach to circumventing the topological naming issue.
-
-
-
 ## Программирование
 
 
@@ -314,14 +365,6 @@ dim1.Type = "Distance"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)
 ```
-
-
-
-## Примечания
-
--   **Edge selection**. Edges can be difficult to select. You can adjust the selection area for edges using the parameter \"/Mod/TechDraw/General/EdgeFuzz\" (see [Std_DlgParameter](Std_DlgParameter.md)). This is a dimension-less number. The default is 10.0. Values in the 20-30 range will make it noticeably easier to select edges. Large numbers will cause overlaps with other drawing elements.
--   **Decimal places**. Dimensions use the global decimal places setting by default. This can be changed via [preferences](TechDraw_Preferences#Dimensions.md) or by changing the FormatSpec property.
--   **Multiple objects**. Views may contain multiple 3D objects as Source. Dimensions may be applied to geometry from any object(s) in the View (ex from Object1.Vertex0 to Object2.Vertex3).
 
 
 <div class="mw-translate-fuzzy">

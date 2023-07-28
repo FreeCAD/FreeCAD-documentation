@@ -1,22 +1,27 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher DeleteAllGeometry
-   MenuLocation:Sketch → Sketcher tools → Delete all geometry
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Usuń wszystkie geometrie
+   MenuLocation:Szkic → Narzędzia szkicownika → Usuń wszystkie geometrie
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Version:0.18
-   SeeAlso:[Sketcher Delete All Constraints](Sketcher_DeleteAllConstraints.md)
+   SeeAlso:[Usuń wszystkie wiązania](Sketcher_DeleteAllConstraints/pl.md)
 ---
 
 # Sketcher DeleteAllGeometry/pl
 
-## Description
 
-This tool deletes all geometry from the sketch being edited.
 
-## Usage
+## Opis
 
-1.  Go to the **Sketch → Sketcher tools → [<img src=images/Sketcher_DeleteAllGeometry.svg style="width:16px"> Delete all geometry** menu.
-2.  Reply **Yes** to the dialog pop up.
+To narzędzie usuwa całą geometrię z edytowanego szkicu.
+
+
+
+## Użycie
+
+1.  Przejdź do menu **Szkic → Narzędzia szkicownika → [<img src=images/Sketcher_DeleteAllGeometry.svg style="width:16px"> Usuń całą geometrię** .
+2.  Odpowiedz **Yes** w wyskakującym oknie dialogowym.
 
 
 

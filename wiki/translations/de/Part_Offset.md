@@ -9,33 +9,29 @@
 
 # Part Offset/de
 
+
+
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug Teil 3D Versatz erzeugt parallele Kopien einer ausgewählten Form in einem bestimmten Abstand von der Grundform, wodurch ein neues Objekt entsteht.
-
-
-</div>
+Das Werkzeug <img alt="" src=images/Part_Offset.svg  style="width:24px;"> **Part Versatz** erstellt parallele Kopien einer ausgewählten Form in einem bestimmten Abstand von der Grundform, wodurch ein neues Objekt entsteht.
 
 <img alt="" src=images/PartOffset0.png  style="width:400" height="200px;"> → <img alt="" src=images/PartOffset1.png  style="width:400" height="200px;">
 
+
+
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle das Objekt, von dem du den Versatz erstellen möchtest.
-2.  Drücke die **<img src="images/Part_Offset.svg" width=16px> '''3D Versatz'''** Schaltfläche
-3.  Passe Abstand und Parameter in Abhängigkeit vom Originalobjekt und der Gültigkeit der resultierenden Objekte an.
+1.  Ein Objekt auswählen, von dem ein Versatz erstellt werden soll.
+2.  Die Schaltfläche **<img src="images/Part_Offset.svg" width=16px> [3D-Versatz](Part_Offset.md)** drücken.
+3.  Anpassen des Abstands und derParameter, die vom Originalobjekt abhängen sowie der Gültigkeit der resultierenden Objekte.
 
 
-</div>
 
-## Notes
+## Hinweise
 
--   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as source objects. <small>(v0.20)</small> 
+-   [App-Link](App_Link/de.md)-Objekte, die auf geeignete Objektarten verweisen und [App-Part](App_Part/de.md)-Container, die geeignete sichtbare Objekte enthalten, können auch als Quellobjekte verwendet werden. {{Version/de|0.20}}
+
+
 
 ## Beispiele
 
@@ -63,29 +59,19 @@ dieselbe Form mit einem 3D Versatz als SKIN und *gefülltem* Versatz
 
 <img alt="" src=images/PartOffset6.png  style="width:400" height="200px;">
 
+
+
 ## Eigenschaften
 
+-    {{PropertyData/de|Versatz}}: Abstand zum Versetzen der Flächen der Form.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Modus}}: Modus der Erstellung. Oberfläche erzeugt eine neue Form um die Ausgangsform herum. Rohr ( todo ). RectoVerso ( todo ).
 
--    {{PropertyData/de|Versatz}}: Abstand zum Versetzen der Flächen der Form
+-    {{PropertyData/de|Verknüpfungstyp}}: Wie die neuen Ecken aufgebaut werden. Schnitt ergibt scharfe Ecken durch lineare Verlängerung der Kanten. Kreisbogen und Tangente ergeben abgerundete Ecken.
 
--    {{PropertyData/de|Modus}}: Modus der Erstellung . Hülle erzeugt eine neue Form um die Ausgangsform herum. Rohr ( todo ) . RectoVerso ( todo )
-
--    {{PropertyData/de|Verbinde Typ}}: Wie die neuen Ecken aufgebaut werden. Schnittpunkt ergibt scharfe Ecken durch lineare Verlängerung der Kanten. Bogen und Tangente ergeben abgerundete Ecken.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-1.  Option ː Schnittpunkt ː Erlaubt nach innen gerichtete Versätze, um die Lücke zu \"überfluten\", indem die resultierende Form so lange geschnitten wird, bis gegenüberliegende Flächen erreicht sind.
-2.  Option ː Selbstüberschneidung ː ( todo )
-3.  Option ː Fülle Versatz ː Wenn die Form 2 dimensional war, wird die Lücke zwischen den beiden Formen gefüllt. Die Füllung ist jetzt ein Festkörper, daher ist die Ausgangsform kein Festkörper, so dass boolesche Operationen zu seltsamen Ergebnissen führen können. (siehe Beispiel unten) .
-
-
-</div>
+1.  Optionː Schnittː Erlaubt nach innen gerichtete Versätze, um die Lücke zu \"überfließen\", indem die resultierende Form so lange geschnitten wird, bis gegenüberliegende Flächen erreicht sind.
+2.  Optionː Selbstdurchdringungː ( todo )
+3.  Optionː Versatz füllenː Wenn die Form 2-dimensional war, wird die Lücke zwischen den beiden Formen gefüllt. Die Füllung ist jetzt ein Festkörper, während die Ausgangsform kein Festkörper ist. Dadurch können boolesche Operationen zu seltsamen Ergebnissen führen. (siehe Beispiel unten).
 
 
 

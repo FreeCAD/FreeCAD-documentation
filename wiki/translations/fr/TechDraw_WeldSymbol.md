@@ -10,20 +10,38 @@
 
 # TechDraw WeldSymbol/fr
 
+
+</div>
+
 ## Description
 
-L\'outil Soudure ajoute les spécifications de soudage à une ligne directrice existante.
+L\'outil **TechDraw Soudure** ajoute les spécifications de soudage à une ligne directrice existante.
 
 <img alt="" src=images/TechDraw_WeldingSymbol_example.png  style="width:330px;"> 
 *Spécification de soudage ajoutée à une ligne de référence*
 
+
+
 ## Utilisation
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Sélectionnez une [Ligne de référence](TechDraw_LeaderLine/fr.md) existante.
 2.  Appuyez sur le bouton **<img src="images/TechDraw_WeldSymbol.svg" width=16px> [Ajouter les informations de soudage...](TechDraw_WeldSymbol/fr.md)**.
 3.  Une boîte de dialogue s\'ouvre. Il permet de définir des symboles de soudage individuels et le texte d\'accompagnement à ajouter à la ligne de rappel.
 4.  Appuyez sur le bouton OK pour quitter la boîte de dialogue et enregistrer les modifications.
 5.  Une fois le symbole de soudage créé, vous pouvez le modifier en double-cliquant sur le symbole de soudure dans la vue en arborescence.
+
+
+</div>
+
+## Notes
+
+-   After creation a welding symbol can be edited by double clicking it in the [Tree view](Tree_view.md).
+-   There is a [preference parameter](TechDraw_Preferences.md) for the default welding symbol directory. You can add your own symbols in a personal directory.
+
+
 
 ## Propriétés
 
@@ -36,6 +54,8 @@ L\'outil Soudure ajoute les spécifications de soudage à une ligne directrice e
 -    **Alternate Weld**: décale le symbole inférieur pour indiquer des soudures alternées.
 
 -    **Tail Text**: texte à afficher à la fin de la ligne de rappel.
+
+
 
 ### Tuile
 
@@ -56,6 +76,8 @@ Chaque symbole individuel (\"côté flèche\" et \"autre côté\") est représen
 -    **Center Text**: texte à afficher au-dessus/en dessous du symbole SVG.
 
 -    **Right Text**: texte à afficher à droite du symbole SVG.
+
+
 
 ## Script
 
@@ -87,6 +109,8 @@ App.activeDocument().DrawTileWeld001.RightText = "right text"
 App.activeDocument().DrawTileWeld001.CenterText = "center text"
 ```
 
+
+
 ## Tuiles symbole Svg 
 
 Les symboles particuliers sont formés par des fichiers SVG de 64x64 pixels. Des symboles supplémentaires peuvent être créés dans un programme SVG comme [Inkscape](https://fr.wikipedia.org/wiki/Inkscape) en utilisant l\'un des symboles fournis par FreeCAD comme modèle.
@@ -97,11 +121,6 @@ Les symboles particuliers sont formés par des fichiers SVG de 64x64 pixels. Des
 -   Le symbole est dessiné en noir sur un fond transparent. La largeur du trait est de 0.5mm.
 -   La ligne de repère passe en dessous des symboles du côté de la flèche (voir l\'image de gauche) et au-dessus des symboles de l\'\"autre\" côté (voir l\'image de droite).
 -   Il n\'y a pas de norme de dénomination particulière autre que celle d\'ajouter \"Haut/Bas\" à la flèche/autres symboles latéraux.
-
-## Remarques
-
--   Vous pouvez modifier votre symbol de soudage en double-cliquant dessus dans l\'arborescence. Le double clic dans la zone graphique n'est pas encore supporté.
--   Il existe un paramètre dans [TechDraw Préférences](TechDraw_Preferences/fr.md) pour le répertoire de symboles de soudage par défaut. Vous pouvez ajouter vos propres symboles dans un répertoire personnel.
 
 
 

@@ -1,6 +1,8 @@
 # TechDraw Geometric dimensioning and tolerancing/pl
 {{TOCright}}
 
+
+
 ## Idea
 
 Głównym celem rysunku technicznego jest to, aby inni zrozumieli, co projektant stworzył z jakimi tolerancjami ORAZ jak wyprodukować konstrukcję. Ponieważ większość części musi pasować do zespołów, również geometryczne relacje z innymi częściami są ważne. Aby to osiągnąć, opracowano system [wymiarowania geometrycznego i tolerancji](https://en.wikipedia.org/wiki/Geometric_dimensioning_and_tolerancing) *(GD&T)*.
@@ -23,9 +25,13 @@ GD&T zostało uregulowane w normach [ISO 1101](http://geo-dim-tol.ir/files/iso11
 
 Możliwości środowisk parcy Rysunek Techniczny w zakresie spełniania wspólnych standardów GD&T są obecnie niewielkie *(od wersji FreeCAD 0.20)*, ale można już osiągnąć wiele rzeczy. Ta strona Wiki wyjaśnia co jest zaimplementowane i jakie sztuczki mogą być użyte dla niezaimplementowanych funkcji. **Uwaga:** ta strona Wiki nie ma na celu nauczenia GD&T!
 
+
+
 ## Wymiarowanie
 
 Środowisko Rysunek Techniczny oferuje kilka narzędzi do tworzenia różnych typów wymiarów. Proszę spojrzeć na [różne wymiary](TechDraw_Workbench/pl#Wymiary.md), jak je tworzyć i modyfikować.
+
+
 
 ### Formatowanie
 
@@ -53,7 +59,11 @@ Zamiast sformatowanej liczby można użyć własnego tekstu, ustawiając opcję 
 
 Za pomocą właściwości **X** i **Y** można zmienić poziome i pionowe położenie tekstu wymiaru względem widoku. Alternatywnie można zmienić położenie, przeciągając wartość liczbową lub tekst.
 
+
+
 ### Tolerancja
+
+
 
 #### Tworzenie
 
@@ -62,9 +72,13 @@ Za pomocą właściwości **X** i **Y** można zmienić poziome i pionowe poło�
 3.  W pojawiającym się oknie dialogowym wymiaru podaj jako wartość **powyżej wymiaru**, wartość o którą wymiar może zostać przekroczony.Spowoduje to tolerancję równomierną, jak ta: <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">
 4.  Jeśli masz nierówne tolerancje, podaj jako wartość**poniżej wymiaru**, wielkość, o którą wymiar może być mniejszy i odznacz opcję *Równa tolerancja* Spowoduje to nierówną tolerancję, taką jak ta: <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">
 
+
+
 #### Usuwanie
 
 Aby pozbyć się tolerancji, zmień wartości **powyżej wymiaru** i **poniżej wymiaru**, każdą na zero.
+
+
 
 #### Formatowanie 
 
@@ -74,9 +88,13 @@ Domyślny format wyświetlania liczb dla nowych tolerancji jest standardowo taki
 
 Można również użyć dowolnego tekstu zamiast określenia formatu liczbowego, zaznaczając opcję **Tekst dowolny tolerancji** w oknie dialogowym wymiarowania. Wtedy zawartość pola **Wyznacznik formatu tolerancji** zostanie wyświetlona jako tekst tolerancji.
 
+
+
 ## Tolerancja geometrii 
 
 Tolerancje są tworzone poprzez użycie funkcji środowiska pracy Rysunek techniczny [Balonik](TechDraw_Balloon.md). Ponieważ dla większości obiektów wymagana jest ramka, pomocna jest zmiana opcji **Kształt dymka** na **Prostokąt** w [preferencjach](TechDraw_Preferences/pl#Adnotacje.md) środowiska Rysunek Techniczny.
+
+
 
 ### Wskaźnik tolerancji 
 
@@ -95,6 +113,8 @@ Nie ma reguły, która definiuje czy lub jak wskaźnik tolerancji musi mieć lin
 
 Przykład po prawej stronie pokazuje dwa możliwe warianty rozmieszczenia wskaźników tolerancji.
 
+
+
 ### Dane odniesienia 
 
 Punkty odniesienia w znaczeniu GD&T oznacza powierzchnie, do których tolerancja została obliczona. Tworzy się je jako baloniki:
@@ -105,6 +125,8 @@ Punkty odniesienia w znaczeniu GD&T oznacza powierzchnie, do których tolerancja
 -   ponieważ linia prosta dla punktów odniesienia jest bardzo popularna, chyba że powierzchnia punktu odniesienia nie jest prostopadła do X lub Y, upewnij się, że właściwości **X** i **punkt odniesienia położenia X** lub **Y** i **punkt odniesienia położenia Y** są równe, aby uzyskać linię prostą balonika.
 
 ![Rysunek z przykładami punktów odniesienia](images/TechDraw_GD&T-Datum.png ) 
+
+
 
 ### Znaki specjalne 
 

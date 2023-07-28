@@ -1,4 +1,3 @@
-# Post-Processing of FEM Results with Paraview/fr
 ---
 - TutorialInfo:/fr
    Topic:Post-traitement des résultats FEM avec Paraview
@@ -7,11 +6,19 @@
    Author:[http://www.freecadweb.org/wiki/index.php?title=User: HarryvL]
    FCVersion:0.19
    Files:[https://forum.freecadweb.org/download/file.php?id=103403 beam] et [https://forum.freecadweb.org/download/file.php?id=103557 wall] dans ce [https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734 fil du forum Freecad]
-}}
+---
+
+# Post-Processing of FEM Results with Paraview/fr
+
+
+
+
 
 ## Introduction
 
 Certains messages et tutoriels sur le forum utilisent Paraview pour examiner et analyser les résultats de l\'<img alt="" src=images/_Workbench_FEM.svg  style="width:24px;"> [atelier FEM](FEM_Workbench/fr.md) de FreeCAD. Ce tutoriel explique les bases du transfert de données de l\'atelier FEM vers Paraview et montre certaines des options et des paramètres d\'affichage des données.
+
+
 
 ## Prérequis
 
@@ -20,9 +27,13 @@ Certains messages et tutoriels sur le forum utilisent Paraview pour examiner et 
     -   Ce tutoriel est basé sur la version Paraview 5.8.0 pour Windows, qui était la version la plus récente au moment de la rédaction du tutoriel.
 -   Les fichiers FreeCAD utilisés pour ce tutoriel sont disponibles dans [ici](https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734) et [ici](https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&p=368315#p368315), fil de discussion FreeCAD.
 
+
+
 ## Transfert de données depuis l\'atelier FEM 
 
 Dans l\'atelier FEM, mettez en surbrillance l\'objet CCX_Results. Ensuite, utilisez l\'option de menu **Fichier > Exporter > FEM result VTK (*.vtk *.vtu)** pour exporter les données VTK.
+
+
 
 ## Importation de données dans Paraview 
 
@@ -40,7 +51,7 @@ Appuyez sur **Apply** dans l\'onglet des propriétés. Par défaut, cela affiche
 
 La géométrie grise peut être inspectée en faisant pivoter la vue. Le bouton gauche de la souris fait pivoter la géométrie, mais malheureusement d\'une manière difficile à contrôler (par rapport à FreeCAD). Pour obtenir une rotation prévisible, maintenez la touche **X**, **Y** ou **Z** enfoncée tout en faisant glisser la souris avec le bouton gauche de la souris enfoncé pour faire pivoter le modèle autour de X, Y ou Axe Z, respectivement.
 
-<img alt="" src=images/PVPic5.png  style="width:500px;">
+<img alt="" src=images/PVPic5.png  style="width:500px;"> 
 
 ## Sauvegarde/état de chargement 
 
@@ -48,9 +59,13 @@ Plutôt que d\'enregistrer des données, Paraview stocke le statut (état) des a
 
 Pour continuer là où vous vous étiez arrêté lors de la session précédente, utilisez **File > Load State**. Cela invite l\'utilisateur à spécifier un fichier VTK, ce qui signifie que les actions effectuées dans la dernière session peuvent également être appliquées à un nouveau fichier VTK. De cette façon, les données de différentes analyses de l\'atelier FEM peuvent être affichées exactement de la même manière, sans effort supplémentaire.
 
+
+
 ## Visualiser les résultats de l\'atelier FEM 
 
 Paraview propose de nombreuses options et paramètres pour afficher les résultats. Nous allons d\'abord regarder l\'affichage des données d\'importation de base sur la géométrie d\'origine et voir ensuite comment appliquer des filtres pour modifier la géométrie. Enfin, nous utiliserons la calculatrice et les filtres d\'intégration pour dériver de nouveaux résultats en combinant les données d\'importation de base.
+
+
 
 ## Données de base affichées sur la géométrie d\'origine 
 
@@ -92,7 +107,7 @@ La coloration de la carte iso peut être contrôlée via l\'éditeur de carte de
 
 Le paramètre de discrétisation des couleurs est utile pour limiter le nombre de valeurs iso, créant ainsi des plages plus pratiques pour la conception. Le nombre de plages par défaut est 256, mais ici, le nombre est fixé à 10.
 
-<img alt="" src=images/PVPic16.png  style="width:700px;">
+<img alt="" src=images/PVPic16.png  style="width:700px;"> 
 
 ## Application de filtres aux résultats de l\'atelier FEM 
 
@@ -124,15 +139,17 @@ Pour afficher la géométrie déformée superposée à la géométrie non défor
 
 **REMARQUE**: à mesure que davantage d\'objets sont ajoutés au Pipeline Browser et que davantage de fenêtres d\'affichage sont ouvertes, il devient de plus en plus important de s\'assurer que le bon objet est sélectionné dans le Pipeline Browser et que la fenêtre de droite est mise au point lors de la modification de l\'onglet Propriétés. Sinon, beaucoup de temps peut être consacré à la recherche de la bonne propriété ou les modifications apportées aux propriétés peuvent ne pas prendre effet.
 
+
+
 ## Application de filtres pour dériver les résultats composés des données d\'importation de base 
 
 Si nous voulons connaître la quantité d\'acier d\'armature dans la poutre dans son ensemble ou la quantité passant à travers une section particulière, nous devons effectuer l\'intégration (sommation sur la géométrie) des données de base.
 
-Par exemple, le volume total des barres d\'armature dans la poutre s\'étendant dans la direction x est obtenu à partir de l\'intégrale {{incode   INTEGRATE(ReinforcementRatio_x * dx * dy * dz)}} sur toute la géométrie et la surface totale de l\'acier d\'armature en cours d\'exécution bien qu\'une section efficace particulière du beam soit obtenue à partir de {{incode   INTEGRATE(ReinforcementRatio_x * dy * dz)}} sur une tranche.
+Par exemple, le volume total des barres d\'armature dans la poutre s\'étendant dans la direction x est obtenu à partir de l\'intégrale `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)` sur toute la géométrie et la surface totale de l\'acier d\'armature en cours d\'exécution bien qu\'une section efficace particulière du beam soit obtenue à partir de `INTEGRATE(ReinforcementRatio_x * dy * dz)` sur une tranche.
 
 Dans Paraview, l\'intégration peut être effectuée avec un filtre d\'intégration. Ce filtre peut être appliqué à l\'ensemble de l\'objet VTK (le beam) ou à une tranche (la section transversale).
 
-REMARQUE: en raison d\'une incompatibilité de l\'ordre des nœuds entre Freecad FEM et Paraview, l\'intégration sur un volume donne des résultats négatifs, c\'est-à-dire {{incode   INTEGRATE( 1.0 * dx * dy *dz)}} = -Volume au lieu de + Volume.
+REMARQUE: en raison d\'une incompatibilité de l\'ordre des nœuds entre Freecad FEM et Paraview, l\'intégration sur un volume donne des résultats négatifs, c\'est-à-dire `INTEGRATE( 1.0 * dx * dy *dz)` = -Volume au lieu de + Volume.
 
 Pour calculer les intégrales, nous devons appliquer un filtre d\'intégration, qui se trouve dans l\'élément de menu Filters \> Alphabetical. Mettez en surbrillance l\'objet VTK et appliquez le filtre.
 
@@ -142,7 +159,7 @@ Appuyez sur le bouton **Apply** dans l\'onglet Propriétés et les résultats s\
 
 <img alt="" src=images/PVPic24.png  style="width:700px;">
 
-Avant de ranger cela pour trouver le résultat souhaité, c\'est-à-dire {{incode   INTEGRATE(ReinforcementRatio_x * dx * dy * dz)}}, voyons d\'abord comment nous pouvons contrôler où la fenêtre est placée et ce qu\'elle contient.
+Avant de ranger cela pour trouver le résultat souhaité, c\'est-à-dire `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)`, voyons d\'abord comment nous pouvons contrôler où la fenêtre est placée et ce qu\'elle contient.
 
 Fermez d\'abord la fenêtre SpreadSheetView qui s\'est ouverte à droite. Appuyez ensuite sur l\'icône de fractionnement horizontal dans la fenêtre Renderview et une nouvelle fenêtre s\'ouvrira avec un menu d\'options d\'affichage. Avant de sélectionner une option, assurez-vous que l\'objet de filtre d\'intégration est mis en surbrillance dans le Pipeline Browser.
 
@@ -152,7 +169,7 @@ Pour afficher les résultats numériques, nous devons sélectionner SpreadSheet 
 
 <img alt="" src=images/PVPic26.png  style="width:400px;">
 
-Pour inspecter {{incode   INTEGRATE(ReinforcementRatio_x * dx * dy * dz)}}, nous pouvons faire défiler vers la droite le tableau, mais nous pouvons également supprimer tous les résultats indésirables en les désélectionnant, c\'est-à-dire désélectionner toutes les colonnes et sélectionner **ReinforcementRatio_x**.
+Pour inspecter `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)`, nous pouvons faire défiler vers la droite le tableau, mais nous pouvons également supprimer tous les résultats indésirables en les désélectionnant, c\'est-à-dire désélectionner toutes les colonnes et sélectionner **ReinforcementRatio_x**.
 
 <img alt="" src=images/PVPic27.png  style="width:300px;"> . <img alt="" src=images/PVPic28.png  style="width:500px;">
 
@@ -175,6 +192,8 @@ Par exemple, nous pouvons maintenant appliquer le filtre d\'intégration à la n
 <img alt="" src=images/PVPic31.png  style="width:700px;">
 
 Cela montre comment l\'exigence d\'armature totale se compare à celles des directions de coordonnées individuelles.
+
+
 
 ## Intégration sur une tranche 
 
@@ -229,6 +248,8 @@ Enfin, le centre de gravité peut être calculé à partir des résultats ci-des
 CoG_y = 55744,2 / 556,277 = 100,2 mm (valeur exacte: 100 mm)
 
 CoG_z = 187144 / 556,277 = 336,4 mm (valeur exacte: 5/6 \* 400 mm)
+
+
 
 ## Intégration sur une ligne 
 
@@ -308,6 +329,8 @@ Le résultat pour les 400 mm supérieurs du mur est ainsi de 8,436 mm2 / mm. Les
 
 Cette procédure pourrait être répétée pour diviser le mur en zones de renforcement constant.
 
+
+
 ## Représentation des résultats vectoriels avec le filtre Glyph 3D 
 
 Jusqu\'à présent, nous n\'avons traité que des valeurs scalaires, comme le taux de renforcement et l\'amplitude du déplacement. La visualisation des résultats vectoriels, comme les vecteurs de contrainte principale, se fait avec Glyphs.
@@ -352,12 +375,18 @@ Ajoutez ensuite un autre filtre Glyph avec les paramètres suivants pour la cont
 
 Le résultat final montre les vecteurs de contrainte principaux majeurs et mineurs superposés à la poutre avec ReinforcementRatio_x.
 
+
+
 ## Exportation des résultats graphiques 
 
-Pour exporter une fenêtre RenderView, mettez-la en surbrillance et utilisez l\'option de menu **File > Save Screenshot**  {{FEM Tools navi}} {{Userdocnavi
----
+Pour exporter une fenêtre RenderView, mettez-la en surbrillance et utilisez l\'option de menu **File > Save Screenshot**
+
+
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > Post-Processing of FEM Results with Paraview/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > Post-Processing of FEM Results with Paraview/fr

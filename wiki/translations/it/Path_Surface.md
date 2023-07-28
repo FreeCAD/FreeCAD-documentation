@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -15,7 +17,7 @@ Questo strumento crea una nuova operazione di Sfacciatura 3D. Un\'operazione di 
 
 </div>
 
-The **<img src="images/Path_Surface.svg" width=24px> [3D Surface](Path_Surface.md)** operation is also capable of generating basic rotational 3D surfacing paths. The rotational capabilities are limited to the entire model, and do not allow for specific faces or regions to be isolated. The rotational paths are also limited to line cut patterns.
+The <img alt="" src=images/Path_Surface.svg  style="width:24px;"> [3D Surface](Path_Surface.md) operation is also capable of generating basic rotational 3D surfacing paths. The rotational capabilities are limited to the entire model, and do not allow for specific faces or regions to be isolated. The rotational paths are also limited to line cut patterns.
 
 Lo strumento Sfacciatura 3D si interfaccia con OCL.pyd, un modulo Open Source di terze parti denominato OpenCamLib, che genera percorsi utensile da un modello 3D. OpenCamLib non è integrato direttamente in FreeCAD per garantire che la sua licenza non sia violata. Richiede che [Experimental Features](Path_experimental/it.md) siano abilitate.
 
@@ -124,7 +126,7 @@ NOTE: As of May 2019, only the End Mill has any type of testing to determine acc
 
 Note: It is suggested that you do not edit the Placement property of path operations. Rather, move or rotate the Path Job model as needed.
 
--    **Placement**: Overall placement\[position and rotation\] of the object - with respect to the origin (or origin of parent object container)
+-    **Placement**: Overall placement \[position and rotation\] of the object - with respect to the origin (or origin of parent object container)
 
     -   
         **Angle**
@@ -134,42 +136,42 @@ Note: It is suggested that you do not edit the Placement property of path operat
     -   
         **Axis**
         
-        : Axis(one or multiple) around which to rotate the object, set in sub-properties: x, y, z
+        : Axis (one or multiple) around which to rotate the object, set in sub-properties: X, Y, Z
 
         -   
             **X**
             
-            : x axis value
+            : X axis value
 
         -   
             **Y**
             
-            : y axis value
+            : Y axis value
 
         -   
             **Z**
             
-            : z axis value
+            : Z axis value
 
     -   
         **Position**
         
-        : Position of the object, set in sub-properties: x, y, z - with respect to the origin (or origin of parent object container)
+        : Position of the object, set in sub-properties: X, Y, Z - with respect to the origin (or origin of parent object container)
 
         -   
             **X**
             
-            : x distance value
+            : X distance value
 
         -   
             **Y**
             
-            : y distance value
+            : Y distance value
 
         -   
             **Z**
             
-            : z distance value
+            : Z distance value
 
 -    **Label**: User-provided name of the object (UTF-8)
 
@@ -192,7 +194,27 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Pattern Center Custom**: Set the start point for the cut pattern
 
--    **Profile Edges**: Profile the edges of the selection
+-    **Profile Edges**: Profile the edges of the selection. There are the following options (images can be seen in this forum post: <https://forum.freecad.org/viewtopic.php?p=676452#p676452>):
+
+    -   
+        **None**
+        
+        : Don\'t create a profile
+
+    -   
+        **Only**
+        
+        : Create only a profile and no inner paths
+
+    -   
+        **First**
+        
+        : Start with the profile and then do the rest
+
+    -   
+        **Last**
+        
+        : Start with the rest and then do the profile
 
 -    **Sample Interval**: The Sample Interval. Small values cause long wait times
 
@@ -234,7 +256,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 {{TitleProperty|Path}}
 
--    **Active**: make False, to prevent operation from generating code
+-    **Active**: Make False, to prevent operation from generating code
 
 -    **Base**: The base geometry for this operation
 
@@ -260,17 +282,17 @@ Note: It is suggested that you do not edit the Placement property of path operat
     -   
         **X**
         
-        : x distance value
+        : X distance value
 
     -   
         **Y**
         
-        : y distance value
+        : Y distance value
 
     -   
         **Z**
         
-        : z distance value
+        : Z distance value
 
 -    **Rotation Axis**: Set the axis for model rotation.
 
@@ -298,22 +320,22 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 {{TitleProperty|Start Point}}
 
--    **Start Point**: The custom start point for the path of this operation, set in sub-properties: x, y, z
+-    **Start Point**: The custom start point for the path of this operation, set in sub-properties: X, Y, Z
 
     -   
         **X**
         
-        : x axis value
+        : X axis value
 
     -   
         **Y**
         
-        : y axis value
+        : Y axis value
 
     -   
         **Z**
         
-        : z axis value
+        : Z axis value
 
 -    **Use Start Point**: Make True, if specifying a Start Point
 
@@ -333,16 +355,18 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 ## Tasks Window Editor Layout 
 
-*Descriptions for the settings are provided in the Properties list above.* This section is simply a layout map of the settings in the window editor for the Operation.
+*Descriptions for the settings are provided in the Properties list above.*
+
+This section is simply a layout map of the settings in the window editor for the Operation.
 
 ### Base Location 
 
 -   **Base Geometry import selection**: Use this list to select Base Geometry to be imported from the selected, existing operation
--   **Import**: imports the selected operation\'s Base Geometry into the current operations Base Geometry list
+-   **Import**: Imports the selected operation\'s Base Geometry into the current operations Base Geometry list
 -   **Base Geometry list for current operation**: List of Base Geometry for current operation, if any selected
--   **Add**: adds selected element(s) which should be the base(s) for the path(s)
--   **Remove**: remove the selected item(s) in the Base Location list
--   **Edit**: clear all items in the Base Location list
+-   **Add**: Adds selected element(s) which should be the base(s) for the path(s)
+-   **Remove**: Remove the selected item(s) in the Base Location list
+-   **Edit**: Clear all items in the Base Location list
 
 ### Depth
 

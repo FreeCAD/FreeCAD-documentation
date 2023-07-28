@@ -13,7 +13,9 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionLockUnlockView.svg  style="width:24px;"> **TechDraw Verrouiller/déverrouiller** verrouille ou déverrouille la position d\'une vue en basculant sa propriété **Lock Position**. Une vue verrouillée a une position fixe par rapport à la page ou au groupe auquel elle appartient.
+L\'outil **TechDraw Verrouiller/déverrouiller** verrouille ou déverrouille la position d\'une vue en basculant sa propriété **Lock Position**. Une vue verrouillée a une position fixe par rapport à la page ou au groupe auquel elle appartient.
+
+
 
 ## Utilisation
 

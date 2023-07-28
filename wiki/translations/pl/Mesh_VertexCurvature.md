@@ -9,12 +9,16 @@
 
 # Mesh VertexCurvature/pl
 
+
+
 ## Opis
 
 Polecenie **Wykres krzywizny** tworzy obiekty krzywizny dla obiektów siatki. Obiekt krzywizny wyświetla krzywiznę siatki używając różnych kolorów dla części wypukłej, płaskiej i wklęsłej.
 
 ![](images/Mesh_VertexCurvature_example.png ) 
 *Przykład obiektu krzywizny siatki*
+
+
 
 ## Użycie
 
@@ -24,23 +28,29 @@ Polecenie **Wykres krzywizny** tworzy obiekty krzywizny dla obiektów siatki. Ob
     -   Wybierz opcję z menu **Siatki → <img src="images/Mesh_VertexCurvature.svg" width=16px> Wykres krzywizny**.
     -   Wybierz opcję **<img src="images/Mesh_VertexCurvature.svg" width=16px> Wykres krzywizny** z menu podręcznego [Widoku drzewa](Tree_view/pl.md) lub [Widoku 3D](3D_view/pl.md).
 
+
+
 ## Właściwości
 
 Dla obiektu krzywizny siatki następujące właściwości są dostępne w [edytorze właściwości](Property_editor/pl.md). Wybierz opcję **Wyświetl wszystko** z menu kontekstowego Edytora właściwości, aby wyświetlić ukryte właściwości.
 
+
+
 ### Dane
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Etykieta|String**: edytowalna przez użytkownika nazwa obiektu, dowolny ciąg znaków UTF8.
 
 -    **Pochodzenie|Link**: link do obiektu siatki.
 
+
+
 #### Ukryte dane 
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Curv Info|CurvatureList**: lista informacji o krzywiźnie.
 
@@ -50,10 +60,12 @@ Dla obiektu krzywizny siatki następujące właściwości są dostępne w [edyto
 
 -    **Visibility|Bool**: jeśli opcja jest ustawiona na wartość {{TRUE/pl}}, obiekt pojawi się w oknie [widoku 3D](3D_view/pl.md).
 
+
+
 ### Widok
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Display Mode|Enumeration**: {{value|Krzywizna bezwzględna}} *(domyślnie)*, {{value|Krzywizna średnia}}, {{value|Krzywizna Gaussa}}, {{value|Krzywizna maksymalna}}, {{value|Krzywizna minimalna}}.
 
@@ -65,10 +77,12 @@ Dla obiektu krzywizny siatki następujące właściwości są dostępne w [edyto
 
 -    **Visibility|Bool**: jeśli opcja jest ustawiona na wartość {{TRUE/pl}}, obiekt pojawi się w oknie [Widoku 3D](3D_view/pl.md).
 
+
+
 #### Wyświetl ukryte 
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Texture Material|Material**: [Materiał](App_Material/pl.md) związany z obiektem.
 

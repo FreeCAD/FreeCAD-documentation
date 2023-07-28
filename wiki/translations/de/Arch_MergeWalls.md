@@ -9,18 +9,31 @@
 
 # Arch MergeWalls/de
 
+
+
 ## Beschreibung
 
 Das [Wände zusammenführen](Arch_MergeWalls/de.md) Werkzeug verschmilzt zwei oder mehr ausgewählte **<img src="images/_Arch_Wall.svg" width=16px>[Arch Wände](Arch_Wall/de.md)**.
+
+
 
 ## Anwendung
 
 1.  Wähle zwei oder mehr Wände.
 2.  Drücke die **<img src="images/Arch_MergeWalls.svg" width=16px>** Schaltfläche, oder verwende den **Arch** → **Dienstprogramme** → **<img src="images/Arch_MergeWalls.svg" width=16px> [Wände zusammenführen](Arch_MergeWalls/de.md)** aus dem oberen Menü.
 
+
+
 ## Eigenschaften
 
+
+
 ## Begrenzungen
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -29,7 +42,23 @@ Das [Wände zusammenführen](Arch_MergeWalls/de.md) Werkzeug verschmilzt zwei od
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Dieses Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der Python-Konsole heraus durch folgende Funktion angesprochen werden: 
+
+</div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
+<div class="mw-translate-fuzzy">
+
+Dieses Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der Python-Konsole heraus durch folgende Funktion angesprochen werden:
+
+
+</div>
+
+
 ```python
 base = joinWalls(walls, delete=False)
 ```

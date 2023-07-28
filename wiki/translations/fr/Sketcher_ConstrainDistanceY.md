@@ -36,7 +36,7 @@ Fixe la distance verticale entre 2 points ou extrémités de lignes. Si un seul 
 Distance depuis l\'origine :
 
 
-```pythonSketch.addConstraint(Sketcher.Constraint('DistanceY', Edge, PointOfEdge, App.Units.Quantity('123.0 mm')))```
+```pythonSketch.addConstraint(Sketcher.Constraint('DistanceY', Edge, PointOfEdge, -1, 1, App.Units.Quantity('123.0 mm')))```
 
 Distance entre deux sommets :
 

@@ -20,6 +20,8 @@
 
 </div>
 
+
+
 ## Introduzione
 
 Some forum posts and tutorials use Paraview (PV) to review and analyse FreeCAD <img alt="" src=images/_Workbench_FEM.svg  style="width:24px;"> [FEM Workbench](FEM_Workbench.md) results. This tutorial explains the basics of transferring data from FEM Workbench to PV and shows some of the options and settings for displaying data.
@@ -365,9 +367,14 @@ The final result shows the major and minor principal stress vectors superimposed
 
 ## Export of Graphical Results 
 
-To export a RenderView window highlight the window and use menu option **File > Save Screenshot**  {{FEM Tools navi}}
+To export a RenderView window highlight the window and use menu option **File > Save Screenshot**
+
+
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > Post-Processing of FEM Results with Paraview/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > Post-Processing of FEM Results with Paraview/it

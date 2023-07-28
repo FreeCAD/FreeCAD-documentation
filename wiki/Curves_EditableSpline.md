@@ -13,8 +13,11 @@ The <img alt="" src=images/Curves_EditableSpline.svg  style="width:24px;"> [Curv
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench.md) workbench (install from <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) is necessary, if not previously installed)
-2.  To invoke the command, do one of the following:
+1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench.md) workbench (install from <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) is necessary, if not previously installed).
+2.  Optionally select vertexes, edges and/or faces:
+    -   The number of vertexes of the spline will match the number of selected elements.
+    -   The spline vertexes will be snapped to the selected vertexes, and to the midpoints of the selected edges and faces.
+3.  To invoke the command, do one of the following:
     -   Press the <img alt="" src=images/Curves_EditableSpline.svg  style="width:24px;"> button in the Curves toolbar.
     -   Use the **Curves → Freehand BSpline** entry in the dropdown menu.
 

@@ -1,6 +1,8 @@
 # Path SetupSheet/it
 {{TOCright}}
 
+
+
 ## Descrizione
 
 L\'utilizzo di una Tabella delle impostazioni (SetupSheet) consente all\'utente di personalizzare il modo in cui sono calcolati i vari valori delle proprietà per le operazioni. L\'utente ha sempre la possibilità di sovrascrivere i valori del SetupSheet con un valore esplicito o modificare il modo in cui vengono calcolati i valori di SetupSheet.
@@ -8,6 +10,8 @@ L\'utilizzo di una Tabella delle impostazioni (SetupSheet) consente all\'utente 
 Poiché i SetupSheet fanno parte di una Lavorazione Path, i valori non cambiano il comportamento predefinito di Path. Piuttosto, cambiano solo il comportamento all\'interno del contesto del lavoro corrente.
 
 Le tabelle delle impostazioni sono particolarmente utili se salvate con un [Modello di lavorazione](Path_ExportTemplate/it.md).
+
+
 
 ## Proprietà
 
@@ -28,6 +32,8 @@ Le tabelle delle impostazioni sono particolarmente utili se salvate con un [Mode
 -    ** FinalDepthExpression**: Il risultato di questa espressione viene utilizzato per impostare la proprietà FinalDepth delle operazioni.
 
 -    **StepDownExpression**: Il risultato di questa espressione viene utilizzato per impostare la proprietà StepDown delle operazioni.
+
+
 
 
 <div class="mw-translate-fuzzy">

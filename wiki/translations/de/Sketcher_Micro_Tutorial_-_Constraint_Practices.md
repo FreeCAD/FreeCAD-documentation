@@ -14,6 +14,8 @@
 
 
 
+
+
 ## Einführung
 
 Dieses Tutorial wurde ursprünglich von Quick61 geschrieben, und es wurde von vocx neu geschrieben und neu illustriert.
@@ -23,6 +25,8 @@ Dieses Tutorium ist so gestaltet um dem neuen Anwender zu helfen, sich mit den b
 Es gibt eine allgemeine Regel mit Beschränkungen: je weniger **Bezugsbeschränkungen** (Dimensionen), desto besser.
 
 Vorzuziehen ist, wenn möglich, eine **geometrische Beschränkung** anstelle einer dimensionalen zu verwenden. Dies hat mit der internen Funktionsweise des Beschränkungslösers des Skizzierers zu tun.
+
+
 
 ## Einrichtung
 
@@ -36,6 +40,8 @@ Einige Aktivitäten zum Erinnern:
 -   Um den Skizzenbearbeitungsmodus zu verlassen, drücke die **Schließen** Schaltfläche im [Aufgabenpaneel](task_panel/de.md) oder drücke **Esc** zweimal auf der Tastatur.
 -   Um den Bearbeitungsmodus erneut aufzurufen, doppelklicke auf die Skizze in der [Baumansicht](tree_view/de.md) oder wähle sie aus und klicke dann auf **[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [Skizze bearbeiten](Sketcher_EditSketch/de.md)**.
 
+
+
 ## Erstellen einer Skizze 
 
 2\. Klicke auf **<img src="images/Sketcher_NewSketch.svg‎‎" width=16px> [Neue Skizze](Sketcher_NewSketch/de.md)**.
@@ -47,6 +53,8 @@ Einige Aktivitäten zum Erinnern:
 **Hinweis:**
 
 im [Augabenpaneel](task_panel/de.md) erweitere den **Bedienelemente bearbeiten** Abschnitt und stelle sicher, dass die Option **Auto Beschränkungen** deaktiviert ist. Schalte auch den Rasterfang aus und blende das Raster aus.
+
+
 
 ## Erster Näherung: Bezugsbeschränkungen 
 
@@ -71,6 +79,8 @@ im [Augabenpaneel](task_panel/de.md) erweitere den **Bedienelemente bearbeiten**
 
 Mit Blick auf die **Beschränkungen** Abschnitt im [Aufgabenpaneel](task_panel/de.md), sehen wir, dass die Beschränkungen zu zahlreich sind; sie erschweren auch den Blick auf die Skizze. Diese Beschränkungen sind auch für den Löser rechenintensiv; obwohl dies bei einer einfachen Form kein Problem darstellt, kann es bei komplexeren Formen zu einem Problem werden.
 
+
+
 ## Ein besserer Weg: Bezugs und geometrische Beschränkungen 
 
 4\. Wir werden dasselbe Quadrat vollständig beschränkt und am Ursprung zentriert zeichnen. Wenn du die neue Skizze erstellst, vergewissere dich, dass die Option **Auto Beschränkungen** deaktiviert ist.
@@ -93,6 +103,8 @@ Mit Blick auf die **Beschränkungen** Abschnitt im [Aufgabenpaneel](task_panel/d
 *Links: Bezugsbeschränkungen für nur zwei Seiten. Rechts: zusätzliche Bezugsbeschränkungen für nur zwei Innenabstände.*
 
 Dies ist eine besser beschränkte Skizze als die erste. Die horizontalen und vertikalen geometrischen Beschränkungen erlauben es uns, weniger Bezugsbeschränkungen zu verwenden, so dass unsere Skizze weniger überladen aussieht.
+
+
 
 ## Optimales Schema: meist geometrische Beschränkungen 
 
@@ -120,6 +132,8 @@ Dies ist eine besser beschränkte Skizze als die erste. Die horizontalen und ver
 
 Dies ist der beste Weg, diese Skizze zu beschränken, da wir nur eine Bezugs- (Bemaßungs-) Beschränkung verwendet haben.
 
+
+
 ## Zusätzliche Quellen 
 
 -   [Grundlegendes Skizzierer Tutorium](Basic_Sketcher_Tutorial/de.md)
@@ -127,9 +141,11 @@ Dies ist der beste Weg, diese Skizze zu beschränken, da wir nur eine Bezugs- (B
 -   [Skizzierer Tutorium](Sketcher_Tutorial/de.md)
 
 
- {{Sketcher Tools navi}}
+{{Sketcher Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/de

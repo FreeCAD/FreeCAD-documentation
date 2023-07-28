@@ -1,30 +1,38 @@
 # TechDraw Hatching/pl
 {{TOCright}}
 
-## Description
 
-The TechDraw workbench includes two hatching tools:
 
--   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [TechDraw Hatch](TechDraw_Hatch.md) (based on tiled SVG or bitmap images)
--   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [TechDraw GeometricHatch](TechDraw_GeometricHatch.md) (line based)
+## Opis
 
-## Image based hatch 
+Środowisko pracy TechDraw zawiera dwa narzędzia do kreskowania:
 
-<img alt="" src=images/TechDraw_Hatch.svg  style="width:16px;"> [TechDraw Hatch](TechDraw_Hatch.md) uses tiled [SVG](SVG.md) or bitmap (<small>(v1.0)</small> ) images to cover the selected Face. The origin of the tiling grid will match the geometric center of the face.
+-   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Kreskowanie powierzchni za pomocą pliku obrazu](TechDraw_Hatch/pl.md) *(na podstawie kafelków SVG lub obrazów bitmapowych)*.
+-   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Zastosuj na powierzchni kreskowanie geometryczne ](TechDraw_GeometricHatch/pl.md) *(na podstawie linii)*.
 
-[SVG](SVG.md) tiles are typically **64x64** pixel images. All pattern files that come with FreeCAD are available on [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
 
-Bitmap based patterns are displayed with a fixed resolution of 10 px/mm relative to the page.
 
-The default hatch pattern file can be specified in the [TechDraw Preferences](TechDraw_Preferences.md).
+## Kreskowanie oparte na obrazie 
 
-### Available SVG patterns 
+<img alt="" src=images/TechDraw_Hatch.svg  style="width:16px;"> [Kreskowanie powierzchni za pomocą pliku obrazu](TechDraw_Hatch/pl.md) używa kafelków [SVG](SVG/pl.md) lub obrazów bitmapowych ({{Version/pl|0.21}}) do pokrycia wybranej powierzchni. Początek siatki kafelków będzie odpowiadał geometrycznemu środkowi powierzchni.
+
+Kafelki [SVG](SVG/pl.md) są zazwyczaj obrazami **64x64** pikseli. Wszystkie pliki wzorów dostarczane z FreeCAD są dostępne na stronie [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
+
+Wzory oparte na mapach bitowych są wyświetlane ze stałą rozdzielczością 10 px/mm względem strony.
+
+Domyślny plik wzoru kreskowania można określić w [Ustawieniach](TechDraw_Preferences/pl.md).
+
+
+
+### Dostępne wzory SVG 
 
 Image:Aluminium.svg\|aluminium Image:Brick01.svg\|brick01 Image:Concrete.svg\|concrete Image:Cross.svg\|cross Image:Cuprous.svg\|cuprous Image:Diagonal1.svg\|diagonal1 Image:Diagonal2.svg\|diagonal2 Image:Earth.svg\|earth Image:General_steel.svg\|general_steel Image:Glass.svg\|glass Image:Hatch45L.svg\|hatch45L Image:Hatch45R.svg\|hatch45R Image:Hbone.svg\|hbone Image:Line.svg\|line Image:Plastic.svg\|plastic Image:Plus.svg\|plus Image:Simple.svg\|simple Image:Solid.svg\|solid Image:Square.svg\|square Image:Steel.svg\|steel Image:Titanium.svg\|titanium Image:Wood.svg\|wood Image:Woodgrain.svg\|woodgrain Image:Zinc.svg\|zinc
 
-## Geometric hatch 
 
-<img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:16px;"> [TechDraw GeometricHatch](TechDraw_GeometricHatch.md) forms a pattern of lines based on a specification read from a file. This file is generally compatible with the widely used AutoDesk® PAT format. A small selection of patterns is included in the FCPAT.pat file:
+
+## Kreskowanie geometryczne 
+
+Narzędzie <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:16px;"> [Zastosuj na powierzchni kreskowanie geometryczne](TechDraw_GeometricHatch/pl.md) tworzy wzór linii na podstawie specyfikacji odczytanej z pliku. Plik ten jest ogólnie kompatybilny z szeroko stosowanym formatem AutoDesk® PAT. Niewielki wybór wzorów jest zawarty w pliku FCPAT.pat:
 
 
 ```python
@@ -52,16 +60,18 @@ Image:Aluminium.svg\|aluminium Image:Brick01.svg\|brick01 Image:Concrete.svg\|co
 90,0,0,0,5.0
 ```
 
-You can add your own patterns if you have write permission to FCPAT.pat, or you can create your own \*.pat file and point to it in [TechDraw Preferences](TechDraw_Preferences.md).
+Możesz dodać własne wzorce, jeśli masz uprawnienia do zapisu do FCPAT.pat lub możesz utworzyć własny plik \*.pat i wskazać go w [ustawieniach](TechDraw_Preferences/pl.md).
 
-### PAT File Path 
 
-The `FCPAT.pat` file can be found in the following location.
 
--   **Windows**: `C:\Program Files\FreeCAD\data\Mod\TechDraw\PAT\`
--   **Mac**: `/Applications/FreeCAD.app/Contents/Mod/TechDraw/PAT/`
+### Ścieżka do pliku PAT 
+
+Plik `FCPAT.pat` można znaleźć w następującej lokalizacji.
+
 -   **Linux**: `/usr/share/freecad/Mod/TechDraw/PAT/`
     -   *freecad-daily PPA*: `/usr/share/freecad-daily/Mod/TechDraw/PAT/`
+-   **Mac**: `/Applications/FreeCAD.app/Contents/Mod/TechDraw/PAT/`
+-   **Windows**: `C:\Program Files\FreeCAD\data\Mod\TechDraw\PAT\`
 
 
 

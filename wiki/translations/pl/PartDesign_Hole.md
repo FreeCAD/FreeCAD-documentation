@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/pl
    Name:PartDesign Hole
-   Name/pl:Projekt części: otwór
-   MenuLocation:Projekt części → Utwórz cechę subtraktywną → Otwór
+   Name/pl:Projekt Części: otwór
+   MenuLocation:Projekt części → Utwórz cechę przez odjęcie → Otwór
    Workbenches:[Projekt części](PartDesign_Workbench/pl.md)
    Version:0.17
    SeeAlso:[Kieszeń](PartDesign_Pocket/pl.md)
@@ -10,9 +10,13 @@
 
 # PartDesign Hole/pl
 
+
+
 ## Opis
 
 Funkcja **Otwór** tworzy jeden lub więcej otworów z okręgów wybranego szkicu. Jeśli są obecne łuki, muszą one być częścią zamkniętych konturów. Wszystkie elementy nie będące łukami/kolami są ignorowane, ale nadal muszą tworzyć zamknięte kontury. Można ustawić wiele parametrów, takich jak gwintowanie i rozmiar, pasowanie, typ otworu *(pogłębienie stożkowe, pogłębienie walcowe, lub bez pogłębiania)* i inne.
+
+Środki okręgów i łuków są używane do pozycjonowania otworów, ale należy pamiętać, że ich promienie nie są brane pod uwagę. Wygenerowane otwory będą identyczne, nawet jeśli promienie będą się różnić.
 
 <img alt="" src=images/Countersunk_and_counterbored_holes_cross-section1.png  style="width:600px;">
 
@@ -20,12 +24,16 @@ Funkcja **Otwór** tworzy jeden lub więcej otworów z okręgów wybranego szkic
 
 *Otwory pogłębione stożkowo ''(z lewej strony)'' i otwory pogłębione walcowo ''(z prawej strony)'' przekrój podłużny.*
 
+
+
 ## Użycie
 
-1.  Naciśnij przycisk **<img src="images/PartDesign_Hole.svg" width=16px>. '''Otwór'''**.
+1.  Naciśnij przycisk **<img src="images/PartDesign_Hole.svg" width=16px> '''Otwór'''**.
 2.  Jeśli zostanie wykryty istniejący, nieużywany szkic, zostanie on automatycznie zastosowany. Jeśli zostanie znalezionych więcej niż jeden szkic, zostanie wyświetlony panel **Wybierz rysunek** umożliwiający dokonanie wyboru. Alternatywnie można wybrać szkic przed uruchomieniem polecenia Otwór.
 3.  Zdefiniuj parametry otworu, które są opisane w sekcji [Opcje](#Opcje.md).
 4.  Naciśnij przycisk **OK**.
+
+
 
 ## Opcje
 
@@ -33,7 +41,9 @@ W zależności od tego, jakiego wyboru dokonamy, niektóre pola będą aktywne l
 
 ![](images/PartDesign_Hole_parameters.png )
 
-### Gwinty i rozmiar 
+
+
+### Gwintowanie i wymiar 
 
 -   **Profil**: jeśli opcja jest ustawiona na *Brak*, nie definiuje się informacji o gwintowaniu. Profile gwintów [ISO](https://en.wikipedia.org/wiki/ISO_metric_screw_thread) i [UTS](https://en.wikipedia.org/wiki/Unified_Thread_Standard) umożliwiają włączenie pola *Rozmiar*.
 -   **Gwint**: jeżeli opcja jest zaznaczona, dane gwintu zostaną dodane do cechy *otwór* i zostanie użyta mniejsza średnica otworu. Jeżeli opcja nie jest zaznaczona, otwór jest traktowany jako niegwintowany i wybierana jest nominalna średnica główna ze zdefiniowanym *prześwitem*.
@@ -45,23 +55,34 @@ W zależności od tego, jakiego wyboru dokonamy, niektóre pola będą aktywne l
 -   **Średnica**: definiuje średnicę otworu, jeżeli *profil* jest ustawiony na *Brak*.
 -   **Głębokość**: głębokość otworu od płaszczyzny szkicu. Opcja **Wymiar** włącza pole do wpisania wartości. *Przez wszystkie* spowoduje wycięcie otworu przez cały korpus. **Uwaga:** Z powodów technicznych opcja *Przez wszystkie* to w rzeczywistości otwór o głębokości 10 metrów. Jeśli potrzebujesz głębszych otworów, użyj opcji *Wymiar*.
 
+
+
 ### Wycięcie otworu 
 
--   **Typ**: ustawia typ wycięcia otworu: *Brak* oznacza brak wycięcia, inne typy to różne normy dla śrub *({{Version/pl|0.19}})* oraz dwa typy ogólne *pogłębienie stożkowe* i *pogłębienie walcowe* oraz *nawiercenie stożkowe* *({{Version/pl|1.0}})*.
+-   **Typ**: ustawia typ wycięcia otworu: *Brak* oznacza brak wycięcia, inne typy to różne normy dla śrub oraz dwa typy ogólne *pogłębienie stożkowe* i *pogłębienie walcowe* oraz *nawiercenie stożkowe* *({{Version/pl|0.21}})*.
 -   **Średnica**: ustawia górną średnicę *(na płaszczyźnie szkicu)* dla wyciętego otworu.
--   **Głębokość**: głębokość wycięcia otworu, mierzona od płaszczyzny szkicu.
+-   **Głębokość**: Głębokość jest różnie definiowana w zależności od *Typu*:
+    -   W przypadku *pogłębienia walcowego* jest to głębokość wyciętego otworu, mierzona od płaszczyzny szkicu.
+    -   Dla \"pogłębienia stożkowego\" jest to głębokość wierzchołka łba śruby poniżej płaszczyzny szkicu.
+    -   Dla \"nawiercenia stożkowego\" jest to głębokość cylindrycznej części wyciętego otworu.
 -   **Kąt pogłębiania stożkowego**: kąt stożkowego wycięcia otworu. Dotyczy tylko pogłębiania stożkowego.
 
-### Punkt wiercenia 
+
+
+### Czubek wiertła 
 
 -   **Typ**: definiuje zakończenie otworu, jeżeli *Głębokość* jest ustawiona na *Wymiar*,
     -   **Płaski** tworzy płaskie dno,
-    -   **Kątowe** tworzy stożkowy punkt. Jego opcja **Uwzględnia głębokość** *({{Version/pl|0.19}})* odejmie wysokość stożka od *Wymiaru*. Zatem jeśli np. *Wymiar* wynosi 7.00 i opcja ta nie jest użyta, część cylindryczna otworu będzie miała wartość 7.00, a głębokość niezbędna dla części stożkowej zostanie dodana do głębokości otworu. Jeśli opcja ta zostanie użyta, całkowita głębokość otworu wraz z punktem stożkowym będzie wynosić 7.00.
+    -   **Kątowe** tworzy stożkowy punkt. Jego opcja **Uwzględnia głębokość** odejmie wysokość stożka od *Wymiaru*. Zatem jeśli np. *Wymiar* wynosi 7.00 i opcja ta nie jest użyta, część cylindryczna otworu będzie miała wartość 7.00, a głębokość niezbędna dla części stożkowej zostanie dodana do głębokości otworu. Jeśli opcja ta zostanie użyta, całkowita głębokość otworu wraz z punktem stożkowym będzie wynosić 7.00.
 
-### Różności
+
+
+### Różne
 
 -   **Stożkowy**: ustawia kąt stożka otworu. Wartość jest obliczana na podstawie płaszczyzny normalnej szkicu. 90° ustawia prosty otwór. Wartość poniżej 90 generuje mniejszy promień otworu u dołu, wartość powyżej 90 zwiększa promień otworu u dołu.
 -   **Odwrócony**: odwraca kierunek wyciskania otworu. Domyślnym kierunkiem jest kierunek odwzorowania szkicu otworu, na jego punkt zaczepienia.
+
+
 
 ## Właściwości
 
@@ -71,15 +92,18 @@ Duża część właściwości Danych jest taka sama jak te prezentowane w sekcji
 
 -    **Ulepsz **: przyjmuje wartość {{true}} lub {{false}}. Jeśli jest ustawiona na {{true}}, oczyszcza bryłę z resztek krawędzi pozostawionych przez cechy. Zobacz stronę **<img src="images/Part_RefineShape.svg" width=16px> [Część: udoskonalanie kształtu](Part_RefineShape.md)** aby uzyskać więcej szczegółów.
 
+
+
 ## Ograniczenia
 
--   Wybrany szkic musi zawierać jeden lub więcej okręgów. Promień okręgu*(ów)* na szkicu nie jest brany pod uwagę. Wygenerowane otwory będą identyczne, nawet jeśli okręgi w szkicu mają różne promienie.
 -   Domyślnie element otworu jest wysuwany poniżej płaszczyzny szkicu. Jeśli bryła leży na płaszczyźnie **XY**, a szkic otworu jest dołączony do płaszczyzny **XY**, to będzie on próbował wytłaczać się z dala od bryły i pozornie nie da żadnego rezultatu. W takim przypadku należy ustawić opcję *Odwrócony*; alternatywnie szkic można zmapować do dolnej powierzchni bryły.
 -   Modelowanie gwintu działa tylko wtedy, gdy nie jest ustawiona opcja Odwrócony.
 
+
+
 ## Definicje typów cięcia 
 
-Typy cięcia *(typy śrub)* są zdefiniowane od wersji 0.19 w plikach [json](https://de.wikipedia.org/wiki/JavaScript_Object_Notation). Istnieje zestaw plików dystrybuowanych z programem FreeCAD, ale użytkownicy mogą tworzyć własne definicje. Pliki są wyszukiwane w <UserAppDataDir>/PartDesign/Hole. Folder `UserAppDataDir` można odnaleźć, wpisując ciąg `App.getUserAppDataDir()` w [konsoli Python](Python_console/pl.md).
+Typy cięcia *(typy śrub)* są zdefiniowane w plikach [json](https://de.wikipedia.org/wiki/JavaScript_Object_Notation). Istnieje zestaw plików dystrybuowanych z programem FreeCAD, ale użytkownicy mogą tworzyć własne definicje. Pliki są wyszukiwane w <UserAppDataDir>/PartDesign/Hole. Folder `UserAppDataDir` można odnaleźć, wpisując ciąg `App.getUserAppDataDir()` w [konsoli Python](Python_console/pl.md).
 
 Plik ten powinien zawierać:
 

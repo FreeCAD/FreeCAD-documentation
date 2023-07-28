@@ -30,21 +30,21 @@ Download the **graphviz-2.xx** installer from the [Graphviz Download page](https
 
 ### macOS
 
-You can install Graphviz using [Homebrew](https://brew.sh/). (While installing Homebrew, don\'t get nervous, if macOS asks you to install updates, e.g. for the Xcode commandline tools. These updates are performed later by the installation process.)
+You can install Graphviz using [Homebrew](https://brew.sh/) if you have macOS Big Sur (11) (or higher). While installing Homebrew, don\'t get nervous, if macOS asks you to install updates, e.g. for the Xcode commandline tools. These updates are performed later by the installation process.
 
 
 {{Code|lang=text|code=
 brew install graphviz
 }}
 
-This installs the Graphviz binaries under /usr/local/bin for macOS on Intel, and /opt/homebrew for macOS on Apple Silicon/ARM. FreeCAD will look there all by itself. If the program is not found there you are asked to enter the path. Unfortunately we can\'t navigate directly there from the file dialog that comes up from **Tools → Dependency graph...**. When you get the file selection dialog you have two possibilities: You can use the key combination Cmd+Shift+. which will show you all the hidden items. Or you use the keys Cmd+Shift+G to get an input field for the path. Enter
+This installs the Graphviz binaries under **/usr/local/bin** for macOS on Intel, or **/opt/homebrew** for macOS on Apple Silicon/ARM. FreeCAD should automatically find these locations. If the Graphviz program is not found you will be asked to specify a path. Unfortunately we can\'t navigate directly to the program in the file dialog that comes up from **Tools → Dependency graph...**. There are two options: You can use the key combination Cmd+Shift+. to show hidden items. Or you can use the key combination Cmd+Shift+G to get an input field for the path. Enter one of these paths in the [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)):
 
 
 {{Code|lang=text|code=
 /usr/local/bin
 }}
 
-or
+or:
 
 
 {{Code|lang=text|code=
@@ -53,21 +53,62 @@ or
 
 and confirm the input field and the file selection dialog.
 
-In case the Graphviz binaries are installed in a non-standard location try to find the program with the command
+In case the Graphviz binaries are installed in a non-standard location try to find the program with the command:
 
 
 {{Code|lang=text|code=
 type dot
 }}
 
-It will output something like
+It will output something like:
 
 
 {{Code|lang=text|code=
 dot is /usr/local/bin/dot
 }}
 
-And therefore you can tell FreeCAD to look in that directory.
+And you can tell FreeCAD to look in that directory.
+
+If you don\'t have macOS Big Sur (11) (or higher) Homebrew might not work, but you can use [MacPorts](https://www.macports.org/index.php) instead. Just download the [appropriate version for your OS](https://www.macports.org/install.php). Once the installation is complete, enter this command in the [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)):
+
+
+{{Code|lang=text|code=
+sudo port install graphviz
+}}
+
+Enter your password and wait while the dependencies are downloaded and installed (it can take some time).
+
+The Graphviz binaries may be under **/usr/local/bin** or **/opt/local/bin/dot**. FreeCAD may automatically find the Graphviz program with the file dialog that comes up from **Tools → Dependency graph...**, if not enter this command:
+
+
+{{Code|lang=text|code=
+type dot
+}}
+
+It will output something like:
+
+
+{{Code|lang=text|code=
+dot is /opt/local/bin/dot
+}}
+
+And you can tell FreeCAD to look in that directory as explained before.
+
+It is also possible to make the opt directory visible with this command:
+
+
+{{Code|lang=text|code=
+defaults write com.apple.finder AppleShowAllFiles YES;
+}}
+
+then:
+
+
+{{Code|lang=text|code=
+killall Finder /System/Library/CoreServices/Finder.app;
+}}
+
+Therefore you can tell FreeCAD to follow this path. It has been successfully tested on macOS 10.13 (High Sierra).
 
 ### Linux
 
@@ -92,7 +133,7 @@ And therefore you can point FreeCAD to look in that directory.
 1.  Select the **Tools → <img src="images/Std_DependencyGraph.svg" width=16px> Dependency graph...** option from the menu.
 2.  A new tab titled **Dependency graph** opens in the [Main view area](Main_view_area.md).
 3.  Use the mouse scroll wheel to zoom in or out.
-4.  Use the sliders at the bottom and at the right of the screen to pan the view. Alternatively (<small>(v0.19)</small> ) hold down the left mouse button and move the mouse.
+4.  Use the sliders at the bottom and at the right of the screen to pan the view. Alternatively hold down the left mouse button and move the mouse.
 
 ## Save
 

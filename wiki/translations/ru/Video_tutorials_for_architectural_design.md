@@ -1,11 +1,15 @@
 # Video tutorials for architectural design/ru
 **Please pay attention to the version of FreeCAD used in the tutorial. If a tutorial uses an older version of the program, the general modelling process may still work but some tools may have changed in newer releases. Do not add videos made with version 0.16 or older, as these releases are considered obsolete.**
 
+
+
 ## Введение
 
 The tutorials listed here are those that deal with designing rooms, houses, and other buildings which interesting for architects and civil engineers. For other topics, see the general page [video tutorials](video_tutorials.md).
 
 Visit [tutorials](tutorials.md) for high quality written tutorials. A complete, unsorted list of tutorials can be found in [:Category:Tutorials](:Category_Tutorials.md).
+
+
 
 ## Архитектурный дизайн 
 

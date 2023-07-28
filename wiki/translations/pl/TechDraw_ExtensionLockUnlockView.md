@@ -1,8 +1,9 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ExtensionLockUnlockView
-   MenuLocation:TechDraw → Extensions: Attributes/Modifications → Lock/Unlock View
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Rozszerzenie Zablokuj / odblokuj widok
+   MenuLocation:Rysunek Techniczny → Rozszerzenie: Atrybuty / Modyfikatory → Zablokuj / odblokuj widok
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
    SeeAlso:
@@ -10,17 +11,21 @@
 
 # TechDraw ExtensionLockUnlockView/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_ExtensionLockUnlockView.svg  style="width:24px;"> **TechDraw ExtensionLockUnlockView** tool locks or unlocks the position of a view by toggling its **Lock Position** property. A locked view has a fixed position relative to the page or the group it belongs to.
 
-## Usage
+## Opis
 
-1.  Select a single drawing view.
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionLockUnlockView.svg" width=16px> [TechDraw ExtensionLockUnlockView](TechDraw_ExtensionLockUnlockView.md)** button.
-    -   Select the **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionLockUnlockView.svg" width=16px> Lock/Unlock View** option from the menu.
-3.  The **Lock Position** property of the view is toggled. Locked views have a red padlock icon <img alt="" src=images/TechDraw_Lock.svg  style="width:16px;"> in the lower left corner.
+Narzędzie **Zablokuj / odblokuj widok** blokuje lub odblokowuje pozycję widoku poprzez przełączanie jego właściwości **Zablokuj widok**. Zablokowany widok przyjmuje stałą pozycję względem strony lub grupy, do której należy.
+
+
+
+## Użycie
+
+1.  Wybierz pojedynczy widok rysunku.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionLockUnlockView.svg" width=16px> '''Zablokuj / odblokuj widok'''**.
+    -   Wybierz z menu **Rysunek Techniczny → Rozszerzenia: Atrybuty / Modyfikatory → <img src="images/TechDraw_ExtensionLockUnlockView.svg" width=16px> Zablokuj / Odblokuj widok**.
+3.  Właściwość **Zablokuj pozycję** widoku jest przełączana. Zablokowane widoki mają czerwoną ikonę kłódki <img alt="" src=images/TechDraw_Lock.svg  style="width:16px;"> w lewym dolnym rogu.
 
 
 

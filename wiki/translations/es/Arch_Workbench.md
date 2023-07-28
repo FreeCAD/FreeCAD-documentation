@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introducción
 
 El <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Ambiente de trabajo Arquitectura](Arch_Workbench/es.md) proporciona un moderno entorno de trabajo [BIM](http://es.wikipedia.org/wiki/Modelado_de_informaci%C3%B3n_de_construcci%C3%B3n) para FreeCAD, con soporte para características como entidades arquitectónicas totalmente paramétricas como paredes, vigas, techos, ventanas, escaleras, tuberías y muebles. Soporta clases de cimientos de la industria ([IFC](Arch_IFC/es.md)) archivos, y la producción de planos de planta en 2D en combinación con el <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Ambiente de trabajo TechDraw](TechDraw_Workbench/es.md).
@@ -14,6 +16,8 @@ La funcionalidad BIM de FreeCAD ahora se divide progresivamente entre este ambie
 Los desarrolladores de Borrador, Arquitectura y BIM también colaboran con la gran [comunidad OSArch](https://osarch.org), con el objetivo final de mejorar el diseño de los edificios mediante el uso de software totalmente libre.
 
 <img alt="" src=images/Screenshot_arch_window.jpg  style="width:600px;">
+
+
 
 ## Herramientas
 
@@ -47,7 +51,7 @@ Estas son herramientas para crear objetos arquitectónicos.
 
   - <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Custom Rebar](Arch_Rebar.md): Creates a custom reinforcement bar in a selected structural element using a sketch.
 
--   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Curtain Wall](Arch_CurtainWall.md): Creates a curtain wall from scratch or using a selected object as a base. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Curtain Wall](Arch_CurtainWall.md): Creates a curtain wall from scratch or using a selected object as a base.
 
 -   <img alt="" src=images/Arch_BuildingPart.svg  style="width:32px;"> [Building Part](Arch_BuildingPart.md): Creates a building part including selected objects.
 
@@ -93,11 +97,11 @@ Estas son herramientas para crear objetos arquitectónicos.
 
 -   <img alt="" src=images/Arch_Frame.svg  style="width:32px;"> [Frame](Arch_Frame.md): Creates a frame object from a selected layout.
 
--   <img alt="" src=images/Arch_Fence.svg  style="width:32px;"> [Fence](Arch_Fence.md): Creates a fence object from a selected post and path. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_Fence.svg  style="width:32px;"> [Fence](Arch_Fence.md): Creates a fence object from a selected post and path.
 
--   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Truss](Arch_Truss.md): Creates a truss from a selected line or from scratch. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Truss](Arch_Truss.md): Creates a truss from a selected line or from scratch.
 
--   <img alt="" src=images/Arch_Profile.svg  style="width:32px;"> [Profile](Arch_Profile.md): Creates a parametric 2D profile. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_Profile.svg  style="width:32px;"> [Profile](Arch_Profile.md): Creates a parametric 2D profile.
 
 -   <img alt="" src=images/Arch_CompSetMaterial.png  style="width:48px;"> [Material tools](Arch_CompSetMaterial.md)
 
@@ -113,19 +117,23 @@ Estas son herramientas para crear objetos arquitectónicos.
 
   - <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Connector](Arch_PipeConnector.md): Creates a corner or T-connection between 2 or 3 selected pipes.
 
+
+
 ### Herramientas de modificación 
 
 Estas son herramientas para modificar objetos de arquitectura.
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Cut with plane](Arch_CutPlane.md): Cuts an object according to a plane.
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line.
 
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Add component](Arch_Add.md): Adds objects to a component.
 
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Remove component](Arch_Remove.md): Subtracts or removes objects from a component.
 
 -   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Survey](Arch_Survey.md): Enters or leaves surveying mode.
+
+
 
 ### Utilidades
 
@@ -157,9 +165,13 @@ Estas son herramientas adicionales para ayudarte en tareas específicas.
 
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Toggle subcomponents](Arch_ToggleSubs.md): Shows or hides the subcomponents of an Arch object.
 
+
+
 ### Preferencias
 
 -   <img alt="" src=images/Preferences-arch.svg  style="width:32px;"> [Preferencias](Arch_Preferences/es.md): preferencias por el aspecto predeterminado de los muros, estructuras, armaduras, ventanas, escaleras, paneles, tuberías, rejillas y hachas.
+
+
 
 ### Formatos de archivo 
 
@@ -176,6 +188,8 @@ Estas son herramientas adicionales para ayudarte en tareas específicas.
 
 </div>
 
+
+
 ## API
 
 
@@ -185,6 +199,8 @@ El Módulo de arquitectura puede usarse en scripts de [Python](Python/es.md) y e
 
 
 </div>
+
+
 
 ## Tutoriales
 

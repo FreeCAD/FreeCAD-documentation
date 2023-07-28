@@ -75,7 +75,7 @@ Zobacz również informacje o [dodatkach](Addon/pl#Informacja_dla_programist.C3.
 ## Tworzenie skryptów 
 
 
-{{Version/pl|1.0}}
+{{Version/pl|0.21}}
 
 Niektóre funkcje menedżera dodatków są zaprojektowane tak, aby dostęp do nich był możliwy poprzez API Python programu FreeCAD. W szczególności dodatek może być instalowany, aktualizowany i usuwany za pomocą interfejsu środowiska Python. Większość zastosowań tego API wymaga utworzenia obiektu z co najmniej trzema atrybutami: {{Incode|name}}, {{Incode|branch}} i {{Incode|url}}. Na przykład:
 

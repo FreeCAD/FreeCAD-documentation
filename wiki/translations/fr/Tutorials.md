@@ -9,6 +9,8 @@ Veuillez prêter attention à la version de FreeCAD utilisée dans le tutoriel, 
 
 Voir aussi [Tutoriels vidéo](Video_tutorials/fr.md) et [livres](Books/fr.md).
 
+
+
 ## Architecture et BIM 
 
 <File:Arch> tutorial 00.jpg\|link=[Arch tutorial/fr](Arch_tutorial/fr.md)\|[Tutoriel Arch](Arch_tutorial/fr.md) (v0.14)
@@ -28,6 +30,8 @@ Modélisation d\'un panneau de toit de petite résidence à l\'aide des outils S
 
 <File:Arch_Wikihouse_01.jpg%7Clink=>[Wikihouse_porting_tutorial/fr](Wikihouse_porting_tutorial/fr.md)\|[Modélisation WikiHouse](Wikihouse_porting_tutorial/fr.md)
 Re-modélisation du projet WikiHouse à l\'aide d\'esquisses et de panneaux, en commençant par l\'importation d\'un modèle de maillage créé dans SketchUp.
+
+
 
 ## Modélisation de pièces 
 
@@ -83,6 +87,8 @@ Le projet Raspberry Pi propose de simples tutoriels faciles à suivre, en partic
 -   [freecad-chess-set](https://projects.raspberrypi.org/en/projects/freecad-chess-set), modèle et jeu d\'échecs complet dans le style moderne Bauhaus.
 -   [raspberrypilearning](https://github.com/raspberrypilearning?utf8=%E2%9C%93&q=freecad&type=source&language=) référentiel (CC-BY 4.0) avec d'autres exemples.
 
+
+
 ## Dessin et esquisse 
 
 Exercise cabin 01.jpg\|link=[Manual:Traditional 2D drafting/fr](Manual:Traditional_2D_drafting/fr.md)\|[Dessin 2D traditionnel](Manual:Traditional_2D_drafting/fr.md)
@@ -100,6 +106,8 @@ Introduction aux outils de l'atelier Sketcher : mode de construction, ligne, cer
 03d_Sk02_Sketcher_Rectangle_constrained_length.png\|link=[Sketcher_Micro_Tutorial\_-\_Constraint_Practices/fr](Sketcher_Micro_Tutorial_-_Constraint_Practices/fr.md)\|[Sketcher: Pratique des constraintes](Sketcher_Micro_Tutorial_-_Constraint_Practices/fr.md) (v0.19)
 Apprenez à contraindre efficacement une esquisse. Préférez les contraintes géométriques aux contraintes dimensionnelles.
 
+
+
 ## Dessin technique 
 
 TDTut ProjGroup21.png\|link=[Basic TechDraw Tutorial/fr](Basic_TechDraw_Tutorial/fr.md)\|[Tutoriel Introduction à TechDraw](Basic_TechDraw_Tutorial/fr.md) (v0.17)
@@ -110,6 +118,8 @@ Instructions pour créer un modèle de page dans Inkscape pour l'utiliser avec l
 
 <File:AnHi1.png%7Clink=>[Measurement Of Angles On Holes/fr](Measurement_Of_Angles_On_Holes/fr.md)\|[Mesure des angles sur les axes des trous](Measurement_Of_Angles_On_Holes/fr.md) (v0.19_pre)
 Instructions pour ajouter des lignes médianes et des représentations angulaires ultérieures sur les trous.
+
+
 
 ## FEM
 
@@ -131,6 +141,8 @@ Cet exemple montre comment simuler une capacité. Illustre comment configurer l\
 FEM_post-processing_Paraview.png\|link=[Post-Processing_of_FEM_Results_with_Paraview/fr](Post-Processing_of_FEM_Results_with_Paraview/fr.md)\|[Post-traitement des résultats FEM avec Paraview](Post-Processing_of_FEM_Results_with_Paraview/fr.md) (v0.19)
 Ce tutoriel explique les bases du transfert des données de l\'atelier FEM vers Paraview et montre certaines des options et paramètres d\'affichage des données.
 
+
+
 ## CNC & impression 3D 
 
 Path-WalkThroughResult.gif\|link=[Path Walkthrough for the Impatient/fr](Path_Walkthrough_for_the_Impatient/fr.md)\|[Tutoriel Path, pas à pas pour l\'impatientt](Path_Walkthrough_for_the_Impatient/fr.md)
@@ -138,6 +150,8 @@ Présentation rapide du flux de travail pour l\'atelier Path: créer un travail,
 
 Exercise meshing 03.jpg\|link=[Manual:Preparing models for 3D printing/fr](Manual:Preparing_models_for_3D_printing/fr.md)\|[Préparer les modèles pour l\'impression 3D](Manual:Preparing_models_for_3D_printing/fr.md) (v0.16)
 Convertir un objet solide en objet maillé à l'aide de l\'atelier Mesh, exporter le maillage au format STL et utiliser Slic3r pour préparer le code-G. Egalement utiliser l\'atelier Cura ou l\'atelier Path pour générer le code-G.
+
+
 
 ## Rendu
 
@@ -153,6 +167,8 @@ Travail en cours de développement: créer un projet, ajouter des objets, config
 07_T03_FreeCAD_Blender_EEVEE_render.png\|link=[Tutorial_Render_with_Blender](Tutorial_Render_with_Blender.md)\|[Rendu d\'un assemblage FreeCAD avec Blender](Tutorial_Render_with_Blender/fr.md) (v0.18)
 Exporter les corps de FreeCAD vers Blender, importer ensuite les fichiers dans Blender, installer un simple rayon de soleil, assignez des matériaux de base avec le shader Principle BSDF et produir un rendu d\'image avec EEVEE et Cycles.
 
+
+
 ## Atelier Robot 
 
 
@@ -161,6 +177,8 @@ Exporter les corps de FreeCAD vers Blender, importer ensuite les fichiers dans B
 Robot Tutorial RobotSimulation.gif\|link=[Robot_tutorial/fr](Robot_tutorial/fr.md)\|[Tutoriel Robot](Robot_tutorial/fr.md) (v0.17)
 Simuler le mouvement d\'un robot industriel: définir une trajectoire, définir la position d\'origine, modifier la position du robot, insérer différents points de cheminement et simuler le mouvement du robot.
 
+
+
 ## Création de scripts 
 
 Ce sont des tutoriels qui sont liés à des scripts ou à la programmation. Ils s\'adressent à des utilisateurs plus expérimentés, qui connaissent déjà un peu le programme.
@@ -168,6 +186,8 @@ Ce sont des tutoriels qui sont liés à des scripts ou à la programmation. Ils 
 -   [Tutoriel sur les scripts Python](Python_scripting_tutorial/fr.md)
 -   [Comment installer des Macros](How_to_install_macros/fr.md)
 -   [Comment installer des ateliers supplémentaires](How_to_install_additional_workbenches/fr.md)
+
+
 
 ## Tutoriels - liste complète 
 
@@ -227,10 +247,6 @@ Voici une liste de tous les tutoriels qui ne figurent pas dans le manuel **quell
 | [Draft Tutoriel Forme à partir de texte](Draft_ShapeString_tutorial/fr.md)                                                             | Conception produit         | Débutant                  | 0:30                     | r-frank et vocx                                                                               | 0.17 ou ultérieur       | [Draft_Shapestring_Text](https://github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true)                                                                                                                                                                  |
 ++++++++
 | [Draft : Tutoriel](Draft_tutorial/fr.md)                                                                                               | Atelier Draft              | Débutant                  | 0:30                     | [Drei](User_Drei.md) et vocx                                                          | 0.19                    | [Draft tutorial updated](https://forum.freecadweb.org/viewtopic.php?f=36&t=43651)                                                                                                                                                                                                                                             |
-++++++++
-| [Drawing : Tutoriel (obsolète)](Drawing_Template_HowTo/fr.md)                                                                          | Atelier Drawing            | Intermédiaire             | 1:00                     | [Mark Stephen (Quick61)](User_Quick61.md)                                             | 0.14.3700 ou ultérieur  | Aucun                                                                                                                                                                                                                                                                                                                         |
-++++++++
-| [Drawing : Tutoriel (obsolète)](Drawing_tutorial/fr.md)                                                                                | Atelier Drawing            | Débutant                  | 0:15                     | [Drei](User_Drei.md)                                                                  | 0.16 ou ultérieur       |                                                                                                                                                                                                                                                                                                                               |
 ++++++++
 | [Installation du module d\'importation DXF](Dxf_Importer_Install/fr.md)                                                                | Importer                   | Intermédiaire             | 0:05                     | [Mario52](User_Mario52.md)                                                            | Toutes                  | Aucun                                                                                                                                                                                                                                                                                                                         |
 ++++++++

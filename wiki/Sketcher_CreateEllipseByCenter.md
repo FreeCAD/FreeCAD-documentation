@@ -22,7 +22,7 @@ C is the center, a the major diameter, b the minor diameter, F1 and F2 are foci.
 
 -   Invoke the command by clicking a toolbar button, picking the menu item, or by using keyboard shortcut (needs to be assigned first in [Interface Customization](Interface_Customization.md)).
 -   First click in 3D view sets ellipse center. Second click sets the first radius and orientation of the ellipse. Third click sets the other radius (the distance from the line defined by first two clicks is the second radius).
--   After the third click, the ellipse is created, together with a set of construction geometry aligned to it (major diameter, minor diameter, two foci). The construction geometry can be manually deleted if not needed, and recreated later. See [Internal Alignment Constraint](Sketcher_ConstrainInternalAlignment.md) and [Sketcher Show Hide Internal Geometry](Sketcher_RestoreInternalAlignmentGeometry.md).
+-   After the third click, the ellipse is created, together with a set of construction geometry aligned to it (major diameter, minor diameter, two foci). The construction geometry can be manually deleted if not needed, and recreated later. See [Sketcher Show Hide Internal Geometry](Sketcher_RestoreInternalAlignmentGeometry.md).
 -   Pressing **ESC** or clicking the right mouse button cancels the function.
 
 ## Peculiarities

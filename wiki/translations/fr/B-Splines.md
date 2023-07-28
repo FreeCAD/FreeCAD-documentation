@@ -3,6 +3,8 @@
 
 Cette page décrit comment utiliser les B-splines dans FreeCAD. Elle donne également des informations de base sur ce que sont les B-splines et pour quelles applications elles sont utiles.
 
+
+
 ## Objectif
 
 Si vous connaissez déjà les B-splines et leur application, vous pouvez aller directement à la section [B-splines dans FreeCAD](#B-splines_dans_FreeCAD.md).
@@ -31,7 +33,11 @@ OK. Mais au fond, vous n\'avez pas besoin d\'un soutien immédiat.
 
 Ainsi, une courbe avec laquelle vous pouvez relier deux points tangentiellement à un point de référence peut être très utile pour les constructions. Les courbes de Bézier offrent cette fonctionnalité.
 
+
+
 ## Courbes de Bézier 
+
+
 
 ### Origine
 
@@ -43,7 +49,7 @@ Les courbes de Bézier sont des polynômes permettant de décrire la liaison ent
 Cependant un polynôme devient utile quand on peut le contrôler. Il doit donc y avoir un point entre les deux extrémités qui nous permet de définir comment les extrémités sont connectées. Comme dans l\'exemple ci-dessus, option 3, la courbe est utile lorsqu\'elle commence et se termine tangentiellement aux lignes qui croisent les points d\'extrémité. C\'est l\'une des principales caractéristiques des courbes de Bézier. Ajoutons donc un point de contrôle entre les deux extrémités. La courbe commencera tangentiellement vers ce point de contrôle, ce qui signifie qu\'elle est tangente à la ligne que nous pouvons tracer entre le point de départ et le point de contrôle. En reculant à partir du point d\'extrémité, la courbe sera également tangente à la ligne que nous pouvons tracer entre le point de contrôle et le point d\'extrémité. L\'animation 2 montre à quoi ressemble une telle courbe.
 
 ![](images/Bezier_quadratic_anim.gif ) 
-*Animation 2 : Courbe de Bézier quadratique. P1 est le point de contrôle.*
+*Animation 2 : courbe de Bézier quadratique. P1 est le point de contrôle.*
 
 L\'animation montre clairement ce qu\'est la courbe - une transition de P0 à P2 en faisant pivoter la ligne P0-P1 pour qu\'elle devienne la ligne P1-P2. Nous obtenons ainsi la caractéristique de début/fin tangentielle.
 
@@ -52,11 +58,13 @@ Une telle courbe ne peut être décrite que par un polynôme quadratique. (Le no
 Avoir un seul point de contrôle n\'est souvent pas suffisant. Prenons l\'exemple de la simulation ci-dessus. Dans l\'option 3, nous terminons la courbe de manière tangentielle dans la direction x. Mais comment relier les points (20, 0) et (80, 40) pour que la courbe se termine de manière tangentielle dans la direction des y ? Pour y parvenir, il faut d\'abord un virage à droite, puis un virage à gauche, donc un polynôme cubique (du troisième ordre). Et cela signifie que pour une courbe de Bézier, nous avons besoin (ou nous pouvons dire que nous gagnons) un deuxième point de contrôle. L\'animation 3 montre une courbe de Bézier cubique.
 
 ![](images/Bezier_cubic_anim.gif ) 
-*Animation 3: Courbe de Bézier cubique.*
+*Animation 3 : courbe de Bézier cubique.*
 
 Pour répondre à la question, la solution avec la terminaison tangentielle de la direction y pour l\'exemple est celle-ci :
 
 <img alt="" src=images/B-splines_Motivation-cubic-bezier.png  style="width:450px;">
+
+
 
 ### Règles
 
@@ -79,7 +87,11 @@ $\quad
 
 Si vous souhaitez en savoir plus, consultez le site [Les mathématiques des courbes de Bézier](https://pomax.github.io/bezierinfo/#explanation) qui présente une origine joliment animée des mathématiques des courbes de Bézier.
 
+
+
 ## B-splines 
+
+
 
 ### Fondamentaux
 
@@ -95,6 +107,8 @@ A partir des vidéos, nous pouvons rassembler des \"règles\" utiles pour les B-
     -   Pour une B-spline cubique, cela signifie que la courbure (dérivée de second ordre) ne change pas lors du passage d\'un segment au suivant. C\'est une caractéristique très utile comme nous le verrons plus tard.
 
 Si vous souhaitez en savoir plus sur les propriétés des B-splines, regardez [cette vidéo](https://www.youtube.com/watch?v=xXJylM2S72s).
+
+
 
 #### Base
 
@@ -122,6 +136,8 @@ Lorsque les longueurs de tous les segments $N_{i,n}$ sont égaux, on parle d\'un
 
 Pour comprendre comment les $p_{i}$ sont les coordonnées des points de contrôle de la spline B, voyez la première minute de [cette vidéo](https://www.youtube.com/watch?v=dPPTCy4L4rY&list=PL8bSwVy8_IcMvtI70tZoYesCS0hGVO5qd).
 
+
+
 #### Vecteur-nœud 
 
 Comme indiqué ci-dessus, les B-splines sont créées à partir de $N_{i,n}$ polynômes par morceaux avec une continuité jusqu\'à une certaine dérivée entre les morceaux. Les points aux extrémité de l\'intervalle de définition du segment sont appelés nœuds. Pour une spline définie sur $k$ pièces, il y a $k+1$ nœuds donnés par le soi-disant *vecteur-nœud* :$\{t_0, t_1, t_2,\dots, t_k\}$ avec $t_0 < t_1 < t_2 < \dots < t_k$.
@@ -130,6 +146,8 @@ Le vecteur-nœud comprend les nœuds des $N_{i,n}$ fonctions de base qui défini
 
 La dérivée jusqu\'à laquelle la continuité existe est donnée par la multiplicité $m$. Par conséquent, nous pouvons spécifier un vecteur avec la multiplicité pour chaque nœud : $\{m_0, m_1, \dots, m_k\}$. Un nœud sur une spline de degré *d* et de multiplicité *m* indique que la courbe à gauche et à droite du nœud a au moins une dérivée d\'ordre égale à *n* (appelée *C*^*n*^ continuité) avec $n=d-m$.
 
+
+
 ### B-splines non-uniformes 
 
 La dérivée des B-splines à partir des courbes de Bézier a pour conséquence mathématique que dans les B-splines, chaque morceau polynomial a la même longueur. De telles B-splines sont appelées *uniformes*. Dans le cas plus général, elles peuvent mais ne doivent pas avoir la même longueur. De telles splines *non-uniformes* ont l\'avantage de pouvoir contrôler la proximité des splines par rapport à leur point de contrôle.
@@ -137,6 +155,8 @@ La dérivée des B-splines à partir des courbes de Bézier a pour conséquence 
 Mathématiquement, ceci est réalisé en définissant les différents $N_{i,n}$ morceaux à des intervalles différents. Si par exemple une spline B est définie pour l\'intervalle \[0, 1\], elle est uniforme si toutes ses 5 par exemple sont également définies dans cet intervalle. Si maintenant $N_{1,4}$ est uniquement défini dans l\'intervalle \[0, 0.6\] (en dehors de l\'intervalle, il est fixé à zéro), il est plus court et la spline devient donc non uniforme.
 
 Comme décrit ci-dessus, les paramètres des nœuds sont décrits par le vecteur-nœud. Le vecteur-nœud stocke donc les intervalles de définition. Lorsqu\'une pièce reçoit un autre intervalle, le vecteur-nœud change également, voir [cette vidéo](https://www.youtube.com/watch?v=w-l5R70y6u0) pour une visualisation.
+
+
 
 ### B-splines rationnelles 
 
@@ -150,9 +170,13 @@ Remarquez que la fonction n\'est plus un polynôme, mais une fonction rationnell
 
 Les B-splines non uniformes et rationnelles sont souvent appelées **[NURBS](https://fr.wikipedia.org/wiki/NURBS)** et sont largement utilisées dans la modélisation géométrique.
 
+
+
 ## B-splines dans FreeCAD 
 
 FreeCAD propose de créer des B-splines uniformes ou non-uniformes de n\'importe quel degré en 2D via l\'[atelier Sketcher](Sketcher_Workbench/fr.md).
+
+
 
 ### Création
 
@@ -168,11 +192,15 @@ Les B-splines peuvent également être générées à partir de segments d\'esqu
 
 Lors de la création d\'une courbe B-spline, son degré peut être spécifié en appuyant sur la touche **D**. Ceci permet d\'annuler l\'option par défaut qui consiste à créer une courbe B-spline cubique si possible. {{Version/fr|0.20}}
 
+
+
 ### Changer le degré 
 
 Pour modifier le degré, sélectionnez la plaine B et utilisez les boutons de la barre d\'outils **[<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> [Sketcher Augmenter le degré d'une B-spline](Sketcher_BSplineIncreaseDegree/fr.md)** ou **[<img src=images/Sketcher_BSplineDecreaseDegree.svg style="width:24px"> [Sketcher Diminuer le degré d'une B-spline](Sketcher_BSplineDecreaseDegree/fr.md)**.
 
 **Remarque :** diminuer le degré ne peut pas annuler une augmentation antérieure du degré, voir la page Wiki [Sketcher Diminuer le degré d\'une B-spline](Sketcher_BSplineDecreaseDegree/fr.md) pour une explication.
+
+
 
 ### Changer la multiplicité des nœuds 
 
@@ -181,6 +209,8 @@ Les points où deux courbes de Bézier sont connectées pour former la B-spline 
 Pour modifier la multiplicité des nœuds, utilisez les boutons de la barre d\'outils **[<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:24px"> [Sketcher Augmenter la multiplicité d'un nœud](Sketcher_BSplineIncreaseKnotMultiplicity/fr.md)** ou **[<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:24px"> [Sketcher Diminuer la multiplicité d'un nœud](Sketcher_BSplineDecreaseKnotMultiplicity/fr.md)**.
 
 **Remarque :** la création de deux B-splines connectées l\'une à l\'autre ne s\'unira pas en une seule nouvelle B-spline. Leur point de connexion n\'est donc pas un nœud. La seule façon d\'obtenir un nouveau nœud dans une B-spline existante est de diminuer le degré. Cependant, vous risquez d\'obtenir de nombreux nouveaux nœuds. Le meilleur choix est donc de redessiner la B-spline avec plus de points de contrôle.
+
+
 
 ### Changer le poids 
 
@@ -198,6 +228,8 @@ Lorsque vous examinez la [fonction de création](#B-splines_rationnelles.md) pou
 
 **Remarque :** lorsque vous faites glisser des points, des nœuds ou des largeurs, les diamètres des cercles indiquant le poids changeront. Cela est dû au fait que le diamètre dépend de la longueur totale de la B-spline pour des raisons de visualisation. Le poids réel n\'est pas modifié.
 
+
+
 ### Modification des nœuds 
 
 De nouveaux noeuds peuvent être ajoutés en utilisant le bouton **[<img src=images/Sketcher_BSplineInsertKnot.svg style="width:24px"> [Insérer un nœud dans une B-spline](Sketcher_BSplineInsertKnot/fr.md)**. {{Version/fr|0.20}}
@@ -205,6 +237,8 @@ De nouveaux noeuds peuvent être ajoutés en utilisant le bouton **[<img src=ima
 Un nœud est supprimé en diminuant son degré à 0 (c\'est-à-dire en appliquant **[<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:24px"> [Diminuer la multiplicité d'un nœud](Sketcher_BSplineDecreaseKnotMultiplicity/fr.md)** lorsque son degré est de 1).
 
 La modification de la valeur du paramètre d\'un nœud n\'est pas encore prise en charge.
+
+
 
 ### Information sur l\'affichage 
 
@@ -234,12 +268,16 @@ Comme la forme d\'une spline B ne renseigne pas beaucoup sur ses propriétés, F
 |                            |                                                                                                                                                   |
 +++
 
+
+
 ### Limitations
 
 A l\'heure actuelle (FreeCAD 0.20), il existe quelques limitations lors de l\'utilisation des splines que vous devez connaître :
 
 1.  Vous ne pouvez pas définir de contraintes tangentielles.Dans cet exemple, vous voulez vous assurer que la spline touche la courbe bleue 2 fois tangentiellement.<img alt="" src=images/Sketcher_spline-limit-tangential.png  style="width:450px;">Cela serait utile car la ligne bleue pourrait par exemple être la frontière spatiale de votre dessin.
 2.  Vous ne pouvez pas créer une courbe de décalage pour une spline B en utilisant l\'outil [Draft Décalage](Draft_Offset/fr.md).
+
+
 
 ## Cas d\'utilisation typiques 
 
@@ -248,6 +286,8 @@ Selon les propriétés des B-splines, il y a 3 cas d\'utilisation principaux :
 1.  Les courbes qui commencent/se terminent tangentiellement à une certaine direction. L\'exemple [ci-dessus](#Motivation.md) en est un exemple.
 2.  Les courbes décrivant des conceptions plus larges et offrant la liberté de changements locaux. Voir [cette exemple](#Conception.md) ci-dessous.
 3.  Les courbes qui assurent une certaine continuité (dérivée). Voir [cette exemple](#Continuit.C3.A9_aux_transitions_g.C3.A9om.C3.A9triques.md) ci-dessous.
+
+
 
 ### Conception
 
@@ -258,6 +298,8 @@ Prenons par exemple le cas où vous concevez le boîtier d\'un mixeur de cuisine
 Pour définir la forme extérieure, il est avantageux d\'utiliser une B-spline car lorsque vous modifiez un point de contrôle pour changer la courbure du bas, la courbure du côté et du haut ne sera pas modifiée :
 
 ![](images/Sketcher_spline-exmple-mixer-sketch.gif )
+
+
 
 ### Continuité aux transitions géométriques 
 

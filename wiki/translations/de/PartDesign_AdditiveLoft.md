@@ -10,6 +10,8 @@
 
 # PartDesign AdditiveLoft/de
 
+
+
 ## Beschreibung
 
 **Additive Ausformung** erzeugt einen Festkörper im aktiven Körper, indem er einen Übergang zwischen zwei oder mehreren Skizzen (auch Querschnitte genannt) herstellt. Wenn der Körper bereits Elemente enthält, wird die additive Ausformung mit diesen zusammengeführt.
@@ -17,44 +19,40 @@
 ![](images/PartDesign_AddLoft_example.png ) 
 *Links: Querschnitte (A), (B) und (C). Rechts: Die erstellte Ausformung*
 
+
+
 ## Anwendung
+
+
 
 ### Dialogbasierter Arbeitsablauf 
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Drücke die **[<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Additive Ausformung](PartDesign_AdditiveLoft/de.md)** Schaltfläche
-2.  Wähle im **Funktion auswählen** Dialogfeld eine Skizze, die als Basisprofilobjekt verwendet werden soll, und klicke auf **OK**.
-    -   Alternativ kann eine einzelne Skizze ausgewählt werden, bevor auf die Schaltfläche Additive Ausformung geklickt wird.
-3.  Drücke in den **Ausformungsparametern** die **Abschnitt hinzufügen** Schaltfläche.
-4.  Wähle die nächste Skizze in der [3D Ansicht](3D_view/de.md). Wiederhole diesen Vorgang, um weitere Skizzen in der Reihenfolge auszuwählen, in der sie eingefügt werden sollen. (Du kannst die Schnittreihenfolge jederzeit später im Ausformungs Dialogfeld ändern, indem du die Schnitte in der Liste an die gewünschte Position ziehst. {{Version/de|0.19}})
-5.  Lege Optionen wenn notwendig fest und klicke auf **OK**.
+1.  Die Schaltfläche (additive) **[<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Ausformung](PartDesign_AdditiveLoft/de.md)** drücken.
+2.  Im Dialogfeld **Element auswählen** eine Skizze auswählen, die als Basisprofilobjekt verwendet werden soll, und auf **OK** klicken.
+    -   Alternativ kann entweder eine einzelne Skizze oder die Fläche eines 3D-Objekts ({{Version/de|0.20}}) ausgewählt werden, bevor auf die Schaltfläche Ausformung geklickt wird.
+3.  Unter **Ausformungsparameter** die Schaltfläche **Schnitt hinzufügen** drücken.
+4.  Die nächste Skizze in der [3D-Ansicht](3D_view/de.md) auswählen. Diesen Vorgang wiederholen, um weitere Skizzen in der Reihenfolge auszuwählen, in der sie eingefügt werden sollen. (Die Schnittreihenfolge kann irgendwann später im Dialogfeld der Ausformung geändert werden, indem die Schnitte in der Liste an die gewünschte Position gezogen werden.)
+5.  Wenn nötig Optionen festlegen und auf **OK** klicken.
 
 
-</div>
 
 ### Auswahlbasierter Arbeitsablauf 
 
-
-<div class="mw-translate-fuzzy">
-
-
-<small>(v0.19)</small> 
-
-1.  Wähle mehrere Skizzen aus. Dabei ist es wichtig, in welcher Reihenfolge du sie auswählst:
-    -   Die zuerst ausgewählte Skizze wird im nächsten Schritt zum Basis Profilobjekt.
-    -   Die nach der ersten ausgewählten Skizzen werden zu den Ausformungsabschnitten. Auch hier ist die Reihenfolge der Auswahl wichtig: Die als zweite ausgewählte Skizze wird zum ersten Ausformungsabschnitt, die als dritte ausgewählte zum zweiten Abschnitt und so weiter. (Du kannst die Reihenfolge der Abschnitte jederzeit später im Ausformungsdialog ändern, indem du die Abschnitte in der Liste an die gewünschte Position ziehst.<small>(v0.19)</small> )
-2.  Drücke die **[<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Additive loft](PartDesign_AdditiveLoft.md)** Schaltfläche.
-3.  Lege Optionen wenn notwendig fest und klicke auf die **OK** Schaltfläche.
+1.  Mehrere Skizzen auswählen. Dabei ist es wichtig, in welcher Reihenfolge sie ausgewählt werden:
+    -   Die zuerst ausgewählte Skizze wird im nächsten Schritt zum Basis-Profilobjekt.
+    -   Die nach der ersten ausgewählten Skizzen werden zu den Ausformungs(quer)schnitten. Auch hier ist die Reihenfolge der Auswahl wichtig: Die als zweite ausgewählte Skizze wird zum ersten Ausformungsschnitt, die als dritte ausgewählte zum zweiten Schnitt und so weiter. (Die Schnittreihenfolge kann irgendwann später im Dialogfeld der Ausformung geändert werden, indem die Schnitte in der Liste an die gewünschte Position gezogen werden.)
+    -   Der erste oder der letzte Schnitt kann auch eine Fläche eines 3D-Objekts sein. ({{Version/de|0.20}})
+2.  Die Schaltfläche **[<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Ausformung](PartDesign_AdditiveLoft/de.md)** drücken.
+3.  Wenn nötig Optionen festlegen und auf die Schaltfläche **OK** klicken.
 
 
-</div>
 
 ## Optionen
 
 -   **Regelfläche**: erstellt gerade Übergänge zwischen Querschnitten. Wird nicht auf eine Ausformung mit zwei Querschnitten angewendet. Wenn nicht angekreuzt, werden die Übergänge glatt sein.
--   **Geschlossen**: macht einen Übergang vom letzten zum ersten Querschnitt, wodurch ein Ring entsteht.
+-   **Geschlossen**: erstellt einen Übergang vom letzten zum ersten Querschnitt, wodurch ein Ring entsteht. {{Version/de|0.21}}
+
+
 
 ## Eigenschaften
 
@@ -78,30 +76,23 @@
 
 -    **Allow Multi Face**: nicht anwendbar.
 
-## Notes
 
 
-<div class="mw-translate-fuzzy">
+## Hinweise
 
--   Skizzen müssen geschlossene Profile bilden.
--   Es ist nicht möglich, einen Knoten auszuformen.
--   Ein Querschnitt kann nicht auf der gleichen Ebene liegen wie die unmittelbar vorhergehende Ebene.
--   Um die Form der Ausformung besser kontrollieren zu können, wird empfohlen, dass alle Querschnitte die gleiche Anzahl von Segmenten haben. Zum Beispiel kann eine Ausformung zwischen einem Rechteck und einem Kreis in 4 zusammenhängende Bögen zerlegt werden.
--   Die Ausformung wird in der Reihenfolge erzeugt, in der die Querschnitte hinzugefügt wurden.
+-   Um die Form der Ausformung besser kontrollieren zu können, wird empfohlen, dass alle Querschnitte die gleiche Anzahl von Segmenten haben. Zum Beispiel kann für eine Ausformung zwischen einem Rechteck und einem Kreis der Kreis in 4 zusammenhängende Bögen aufgeteilt werden.
+-   Die Ausformung kann mit einem einzelnen Knotenpunkt ([vertex](Glossary#V.md)) einer Skizze oder eines Körpers beginnen oder enden. {{Version/de|0.20}}
+-   Ein Knotenpunkt kann nur entweder Start- oder Endpunkt einer Ausformung sein. Andernfalls würde der Ausformungskörper aus zwei an der spitze verbundenen Festkörpern bestehen. Dies würde gegen die Definition eines 3D-Objekts des CAD-Kernels verstoßen.
+-   Ein Querschnitt kann nicht auf derselben Ebene liegen wie der unmittelbar vorhergehende.
 -   Wenn die Skizze eine innere Geometrie hat, d. h. die Ausformung soll Löcher haben, dann sollte die Reihenfolge, in der die Skizzengeometrie erstellt wird, für alle Schnitte gleich sein: Entweder beginnen alle Schnitte mit der inneren Geometrie oder sie beginnen alle mit der äußeren. Andernfalls kann ein ungültiger Ausformung erzeugt werden, bei dem sich Innen- und Außenwände kreuzen.
+-   Es ist nicht möglich, unzusammenhängende oder sich kreuzende Konturen zu verwenden.
+-   Einige Fehler-Modi färben das Bauteil schwarz.
 
 
-</div>
 
 ## Verweise
 
-
-<div class="mw-translate-fuzzy">
-
--   [Part Ausformung Technische Details](Part_Loft_Technical_Details/de.md) erläutert wie ein [\|Part Ausformung](Part_Loft/de.md) erstellt wird. Der größte Teil des Inhalts ist auch für den PartDesign Additive Ausformung relevant.
-
-
-</div>
+-   [Part Ausformung Technische Details](Part_Loft_Technical_Details/de.md) erläutert wie eine [Part Ausformung](Part_Loft/de.md) erstellt wird; der größte Teil des Inhalts gilt auch für die (additive) PartDesign Ausformung.
 
 
 

@@ -11,13 +11,7 @@ Este manual é um experimento para facilitar o uso da [página oficial da docume
 
 Este manual está sendo escrito para a mais nova versão estável do FreeCAD, versão **0.18**. (início de 2019).
 
-
-<div class="mw-translate-fuzzy">
-
-O conteúdo deste manual foi publicado sob a licença [Creative Commons 4.0](http://creativecommons.org/licenses/by/4.0/), e pode ser utilizada livremente, baixada, copiada e modificada. Os arquivos-fontes deste manual estão hospedados nesta [wiki](Main_Page/pt-br.md), e na conta original do [github](https://github.com/yorikvanhavre/FreeCAD-manual) utilizada para escrever a primeira versão deste livro. As versões para leitura em HTML, PDF, MOBI and EPUB estão disponíveis no [GitBook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details). Uma versão impressa está sendo preparada.
-
-
-</div>
+O conteúdo deste manual foi publicado sob a licença [Creative Commons 4.0](http://creativecommons.org/licenses/by/4.0/), e pode ser utilizado livremente, baixado, copiado e modificado. Os arquivos-fontes deste manual estão hospedados nesta [wiki](Main_Page/pt-br.md), e na conta original do [github](https://github.com/yorikvanhavre/FreeCAD-manual) utilizada para escrever a primeira versão deste livro. As versões para leitura em HTML, PDF, MOBI and EPUB estão disponíveis [aqui](https://github.com/yorikvanhavre/FreeCAD-manual/releases). Uma versão impressa está sendo preparada.
 
 
 

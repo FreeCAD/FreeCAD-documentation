@@ -2,18 +2,22 @@
 ---
 - GuiCommand:/pl
    Name:Part_XOR
-   Name/pl:Funkcja XOR
-   MenuLocation:Część → Logiczne  → Przecięcie
+   Name/pl:Część: Logiczny XOR
+   MenuLocation:Część → Rozdziel → Logiczny XOR
    Workbenches:[Część](Part_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[Funkcja logiczna rozdzielająca](Part_BooleanFragments/pl.md), [Krojenie](Part_Slice/pl.md), [Połącz obiekty](Part_CompJoinFeatures/pl.md), [Operacje logiczne na bryłach](Part_Boolean/pl.md)---
+   SeeAlso:[Fragmentacja funkcją logiczną](Part_BooleanFragments/pl.md), [Rozbij na kształty złożenia](Part_Slice/pl.md), [Połącz obiekty](Part_CompJoinFeatures/pl.md), [Operacje logiczne na bryłach](Part_Boolean/pl.md)---
+
+
 
 ## Opis
 
-Polecenie <img alt="" src=images/Part_XOR.svg  style="width:24px;"> **XOR**\' usuwa geometrię współdzieloną przez parzyste obiekty i pozostawia pustą przestrzeń między nimi. Dla dwóch obiektów jest to symetryczna wersja [Wytnij](Part_Cut/pl.md).
+Polecenie <img alt="" src=images/Part_XOR.svg  style="width:24px;"> **XOR** usuwa geometrię współdzieloną przez parzyste obiekty i pozostawia pustą przestrzeń między nimi. Dla dwóch obiektów jest to symetryczna wersja [Wytnij](Part_Cut/pl.md).
 
 <img alt="" src=images/Part_XOR-01.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/Part_XOR-02.png  style="width:300px;"> 
 *Trzy nakładające się na siebie obiekty → Obiekt wynikowy*
+
+
 
 ## Użycie
 
@@ -22,11 +26,17 @@ Polecenie <img alt="" src=images/Part_XOR.svg  style="width:24px;"> **XOR**\' us
     -   Wybierz opcję **Część → Rozdziel → <img src="images/Part_XOR.svg" width=16px> Logiczny XOR** z menu.
     -   Naciśnij przycisk **<img src="images/Part_XOR.svg" width=16px> [Logiczny XOR](Part_XOR/pl.md)**.
 
+
+
 ## Uwagi
 
 -   Puste przestrzenie są trudne do wykrycia, jeśli wybrane obiekty nie mają współpłaszczyznowych powierzchni. Aby sprawdzić wynik XOR, można użyć narzędzia [Przełącz płaszczyznę tnącą](Std_ToggleClipPlane/pl.md).
 
+
+
 ## Właściwości
+
+
 
 ## Tworzenie skryptów
 

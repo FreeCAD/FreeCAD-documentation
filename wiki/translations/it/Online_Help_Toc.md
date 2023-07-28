@@ -28,7 +28,6 @@ C\'è un altro sommario per il [Manuale di FreeCAD](Manual:Introduction/it.md).
     -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [Arch](Arch_Workbench/it.md) Architettura
     -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [Draft](Draft_Workbench/it.md) Disegno
     -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [FEM](FEM_Workbench/it.md)
-    -   <img alt="" src=images/Workbench_Image.svg  style="width:32px;"> [Image](Image_Workbench/it.md)
     -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> [Inspection](Inspection_Workbench/it.md)
     -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> [Mesh](Mesh_Workbench/it.md)
     -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Workbench/it.md)
@@ -36,7 +35,6 @@ C\'è un altro sommario per il [Manuale di FreeCAD](Manual:Introduction/it.md).
     -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [PartDesign](PartDesign_Workbench/it.md)
     -   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Path](Path_Workbench/it.md)
     -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> [Points](Points_Workbench/it.md)
-    -   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> [Raytracing](Raytracing_Workbench/it.md)
     -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> [Reverse Engineering](Reverse_Engineering_Workbench/it.md)
     -   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> [Robot](Robot_Workbench/it.md)
     -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [Sketcher](Sketcher_Workbench/it.md) Schizzo

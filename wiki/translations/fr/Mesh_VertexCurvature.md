@@ -1,20 +1,20 @@
 ---
 - GuiCommand:/fr
    Name:Mesh VertexCurvature
-   Name/fr:Mesh Tracé de courbure
-   MenuLocation:Maillages → Tracé de courbure
+   Name/fr:Mesh Courbure
+   MenuLocation:Maillages → Tracer la courbure
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Info de courbures](Mesh_CurvatureInfo/fr.md)
+   SeeAlso:[Mesh Info sur les courbures](Mesh_CurvatureInfo/fr.md)
 ---
 
 # Mesh VertexCurvature/fr
 
 ## Description
 
-La commande **Mesh Tracé de courbure** crée des objets maillés de courbure pour les objets maillés. Un objet de courbure affiche la courbure d\'un maillage en utilisant différentes couleurs pour les parties convexes, plates et concaves.
+La commande **Courbure** crée des objets de courbure pour les objets maillés. Un objet de courbure affiche la courbure d\'un maillage en utilisant différentes couleurs pour les parties convexes, plates et concaves.
 
 ![](images/Mesh_VertexCurvature_example.png ) 
-*Exemple d'un objet Mesh avec une courbure*
+*Exemple d'un objet Mesh Courbure*
 
 
 
@@ -22,15 +22,15 @@ La commande **Mesh Tracé de courbure** crée des objets maillés de courbure po
 
 1.  Sélectionnez un ou plusieurs objets maillés.
 2.  Il existe plusieurs manières de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Mesh_VertexCurvature.svg" width=16px> [Tracé de courbure](Mesh_VertexCurvature/fr.md)**.
-    -   Sélectionnez l\'option **Maillages → <img src="images/_Mesh_VertexCurvature.svg" width=16px> Tracé de courbure** du menu.
-    -   Sélectionnez l\'option **<img src="images/_Mesh_VertexCurvature.svg" width=16px> Tracé de courbure** du menu contextuel de la [vue en arborescence](Tree_view/fr.md) ou du menu contextuel de la [vue 3D](3D_view/fr.md).
+    -   Appuyez sur le bouton **<img src="images/Mesh_VertexCurvature.svg" width=16px> [Tracer la courbure](Mesh_VertexCurvature/fr.md)**.
+    -   Sélectionnez l\'option **Maillages → <img src="images/_Mesh_VertexCurvature.svg" width=16px> Tracer la courbure** du menu.
+    -   Sélectionnez l\'option **<img src="images/_Mesh_VertexCurvature.svg" width=16px> Tracer la courbure** du menu contextuel de la [vue en arborescence](Tree_view/fr.md) ou du menu contextuel de la [vue 3D](3D_view/fr.md).
 
 
 
 ## Propriétés
 
-Pour un objet Mesh courbure, les propriétés suivantes sont disponibles dans l\'[Éditeur de propriétés](Property_editor/fr.md). Sélectionnez l\'option **Tout afficher** dans le menu contextuel de l\'éditeur de propriétés pour afficher les propriétés masquées.
+Pour un objet Courbure, les propriétés suivantes sont disponibles dans l\'[éditeur de propriétés](Property_editor/fr.md). Sélectionnez l\'option **Tout afficher** dans le menu contextuel de l\'éditeur de propriétés pour afficher les propriétés masquées.
 
 
 

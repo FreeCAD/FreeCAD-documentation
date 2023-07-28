@@ -19,6 +19,8 @@ Obtaining such simulation is done in FreeCAD with the [FEM Workbench](FEM_Workbe
 
 </div>
 
+
+
 ### Pregătirea FreeCAD 
 
 

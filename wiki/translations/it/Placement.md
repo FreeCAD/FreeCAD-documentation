@@ -524,7 +524,9 @@ The axis of rotation can be accessed with
 
 where often one of these values is 1 while the others are 0.
 
-You can also use the whole Placement in a single expression: Right click on Placement property in the property editor, select \"show all\" then extra properties will show. If you then right click on Placement again the context menu will include Expression, select Expression then the Expression dialogue will open and whatever you type will go into the Placement property rather than its child properties.
+You can also use the whole Placement in a single expression:
+
+Right click on Placement property in the property editor, select \"show all\" then extra properties will show. If you then right click on Placement again the context menu will include Expression, select Expression then the Expression dialogue will open and whatever you type will go into the Placement property rather than its child properties.
 
 To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would enter in that way for Sketch the expression
 
@@ -567,22 +569,6 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
   Part.Cone                        center of bottom face (or apex if bottom radius is 0)
   Part.Torus                       center of the torus
   Features derived from Sketches   the Feature inherits the Position of the underlying Sketch. Sketches always start with Position = (0,0,0). This position corresponds to the origin in the sketch.
-
-
-
-## Limitazioni
-
-
-<div class="mw-translate-fuzzy">
-
--   A partire dalla versione 0.13, l\'aggiornamento delle proprietà **Placement** nella scheda **Dati** è stato disattivato per gli oggetti creati con **PartDesign**, fatta eccezione per il disegno iniziale da cui il solido verrà creato.
-
-Pertanto, il posizionamento di un solido creato in PartDesign da uno schizzo può essere modificato solo regolando i parametri di posizionamento del disegno di costruzione iniziale (il primo schizzo) da cui il solido viene creato.
-
--   Le funzionalità di Posizionamento saranno eventualmente trattate nell\'ambiente **Assemblaggio**.
-
-
-</div>
 
 
 

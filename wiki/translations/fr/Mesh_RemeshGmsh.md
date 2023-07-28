@@ -12,7 +12,7 @@
 
 ## Description
 
-La commande **Mesh Affiner** remet à nouveau un objet maillé en utilisant le mailleur [Gmsh](https://gmsh.info/). Le nouveau maillage peut être plus fin ou plus grossier.
+La commande **Affiner** remaille un objet maillé en utilisant le mailleur [Gmsh](https://gmsh.info/). Le nouveau maillage peut être plus fin ou plus grossier.
 
 
 

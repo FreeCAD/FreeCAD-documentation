@@ -5,11 +5,13 @@
 
 </div>
 
+
+
 ## Descriere
 
 Acest instrument desenează un cerc prin selectarea a două puncte: centrul și un punct pe circumferință, punct care determină raza cercului. La pornirea instrumentului, indicatorul mouse-ului se schimbă într-o cruce albă cu o pictogramă cu un cerc roșu. Alături sunt afișate coordonatele în timp real.
 
-![](images/Sketcher_CircleExample1.png‎ )
+![](images/Sketcher_CircleExample1.png‎ ) 
 
 
 <div class="mw-translate-fuzzy">

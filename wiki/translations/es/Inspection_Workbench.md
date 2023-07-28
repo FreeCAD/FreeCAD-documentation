@@ -1,4 +1,13 @@
-# <img alt="El icono del Ambiente de trabajo Inspección" src=images/Workbench_Inspection.svg  style="width:64px;"> Inspection Workbench/es
+# Inspection Workbench/es
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+<img alt="El icono del Ambiente de trabajo Inspección" src=images/Workbench_Inspection.svg  style="width:128px;">
 
 ## Introduction
 
@@ -13,6 +22,8 @@ El <img alt="" src=images/Workbench_Inspection.svg  style="width:24px;"> [Ambien
 </div>
 
 <img alt="Captura de pantalla" src=images/InspectionEx.png  style="width:500px;">
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -31,6 +42,15 @@ El <img alt="" src=images/Workbench_Inspection.svg  style="width:24px;"> [Ambien
 -   You will get a colored image showing the deviation between the two shapes.
 
 Alternativamente, usa la macro <img alt="" src=images/HighlightDifference.png  style="width:24px;"> [ResaltarDiferencia](Macro_HighlightDifference/es.md) para comparar dos formas.
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

@@ -1,53 +1,62 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign SubtractivePrism
-   MenuLocation:Part Design → Create a subtractive primitive → Subtractive Prism
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Subtraktywny graniastosłup
+   MenuLocation:Projekt Części → Utwórz cechę przez odjęcie → Subtraktywny graniastosłup
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign AdditivePrism](PartDesign_AdditivePrism.md)
+   SeeAlso:[Komponent bryła pierwotna do odjęcia](PartDesign_CompPrimitiveSubtractive/pl.md), [Addytywny graniastosłup](v/pl.md)
 ---
 
 # PartDesign SubtractivePrism/pl
 
-## Description
 
-Inserts a subtractive prism in the active Body. Its shape is subtracted from the existing solid.
+
+## Opis
+
+Funkcja ta wstawia pierwotny graniastosłup odejmowany od aktywnej Zawartości. Jego kształt jest odejmowany od istniejącej bryły.
 
 ![](images/PartDesign_SubtractivePrism_example.svg )
 
-*On the left: active body (A) shown in grey and subtractive prism (B) shown in transparent red; result on the right.*
+*Po lewej: aktywna zawartość (A) pokazana w kolorze szarym i graniastosłup do odjęcia (B) pokazany w kolorze czerwonym z przeźroczystością. Wynik po prawej*.
 
-## Usage
 
-1.  Press the **<img src="images/PartDesign_SubtractivePrism.svg" width=24px> '''Subtractive Prism'''** button. **Note**: the Subtractive Prism is part of an icon menu labelled *Create an subtractive primitive*. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get the Prism, click on the down arrow besides the visible icon and select Subtractive Prism in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  A Prism feature appears under the active Body.
 
-## Options
+## Użycie
 
-It is possible to create skewed prisms by specifying angles in respect to the normal vector of the chosen attachment. <small>(v0.19)</small> 
+1.  Naciśnij przycisk **<img src="images/PartDesign_SubtractivePrism.svg" width=24px> '''Subtraktywny graniastosłup'''**. **Uwaga**: Subtraktywny graniastosłup jest częścią menu narzędzi o nazwie **Utwórz bryłę pierwotną do dodania**. Po uruchomieniu programu FreeCAD, Subtraktywny prostopadłościan wyświetlany jest na pasku narzędzi domyślnie. Aby przejść do funkcji Graniastosłup, kliknij strzałkę w dół na widocznej ikonce i wybierz z menu opcję Subtraktywny graniastosłup.
+2.  Ustaw parametry bryły i [dołączenia](Part_EditAttachment/pl.md).
+3.  Kliknij **OK**.
+4.  Pod aktywnym obiektem Zawartość pojawi się element Graniastosłup.
 
-The Prism can be edited after its creation in two ways:
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
 
-## Properties
+## Opcje
 
--    **Attachment**: defines the attachment mode as well as the Attachment Offset. See [Part EditAttachment](Part_EditAttachment.md).
+Możliwe jest tworzenie przekrzywionych graniastosłupów poprzez określenie kątów w odniesieniu do wektora normalnego wybranego dołaczenia.
 
--    **Label**: label given to the Prism object. Change to suit your needs.
+Graniastosłup można edytować po jego utworzeniu na dwa sposoby:
 
--    **Polygon**: number of sides in the polygon cross-section of the prism.
+-   Klikając go dwukrotnie w drzewie modelu lub klikając prawym przyciskiem myszy i wybierając **Edytuj bryłę pierwotną** z menu podręcznego. Spowoduje to wyświetlenie parametrów bryły pierwotnej.
+-   Poprzez [Edytor właściwości](Property_editor/pl.md).
 
--    **Circumradius**: [circumscribed radius](https://en.wikipedia.org/wiki/Circumscribed_circle) of the polygon cross-section of the prism.
 
--    **Height**: height of the prism.
 
--    **First Angle**: angle in first direction. <small>(v0.19)</small> 
+## Właściwości
 
--    **Second Angle**: angle in second direction. <small>(v0.19)</small> 
+-    **Dołączenie**: definiuje tryb dołączania, a także przesunięcie dołączania. Zobacz też [Część: Edycja mocowania](Part_EditAttachment/pl.md).
+
+-    **Etykieta**: Etykieta nadana obiektowi Granistosłup. Zmień zgodnie z własnymi potrzebami.
+
+-    **Wielokąt**: liczba boków w wielokącie przekroju pryzmatu.
+
+-    **Obwód**: [promień obwodu](https://en.wikipedia.org/wiki/Circumscribed_circle) wielokąta przekroju poprzecznego graniastosłupa.
+
+-    **Wysokość**: wysokość pryzmatu.
+
+-    **Pierwszy kąt**: kąt w pierwszym kierunku.
+
+-    **Drugi kąt**: kąt w drugim kierunku.
 
 
 

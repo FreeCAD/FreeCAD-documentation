@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## 소개
 
 **표준 편집 메뉴(Std Edit Menu)**는 [표준 메뉴의](Standard_Menu/ko.md) 7개 하위 메뉴 중 하나입니다.
@@ -26,6 +28,8 @@
 }}
 
 편집 메뉴는 모델을 변경하는 도구를 제공합니다.
+
+
 
 ## 도구
 
@@ -53,7 +57,13 @@
 
 -   <img alt="" src=images/Std_Delete.svg  style="width:32px;"> [삭제](Std_Delete/ko.md): 선택한 개체를 삭제합니다.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> [파이썬 콘솔로 보내기](Std_SendToPythonConsole/ko.md): 개체를 참조하는 변수를 [파이썬 콘솔에](Python_console/ko.md) 생성합니다. {{Version/ko|0.19}}
+
+
+</div>
 
 -   <img alt="" src=images/Std_Placement.svg  style="width:32px;"> [위치 설정\...](Std_Placement/ko.md): 개체를 위한 위치 설정 작업 패널을 엽니다.
 

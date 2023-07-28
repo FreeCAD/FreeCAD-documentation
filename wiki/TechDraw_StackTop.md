@@ -4,7 +4,7 @@
    MenuLocation:TechDraw → Stacking → Move view to top of stack
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
-   Version:1.0
+   Version:0.21
    SeeAlso:[TechDraw StackBottom](TechDraw_StackBottom.md), [TechDraw StackUp](TechDraw_StackUp.md), [TechDraw StackDown](TechDraw_StackDown.md).
 ---
 
@@ -12,7 +12,7 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_StackTop.svg  style="width:24px;"> **TechDraw StackTop** tool moves Views to the top of the stacking order. The stacking order controls the apparent depth of Views on a page.
+The **TechDraw StackTop** tool moves Views to the top of the stacking order. The stacking order controls the apparent depth of Views on a page.
 
 ## Usage
 

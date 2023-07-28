@@ -117,9 +117,9 @@ Cette arborescence apparaît après la configuration du travail une fois celui-c
 
 ## Les opérations d\'usinage 
 
-11\. Deux opérations seront ajoutées pour générer des parcours de fraisage pour ce travail d\'usinage. L\'opération [Profilage](Path_Profile/fr.md) crée un parcours d\'usinage autour de la boîte et l\'opération [Poche](Path_Pocket_Shape/fr.md) crée un parcours pour la poche intérieure.
+11\. Deux opérations seront ajoutées pour générer des parcours de fraisage pour ce travail d\'usinage. L\'opération [Contournage](Path_Profile/fr.md) crée un parcours d\'usinage autour de la boîte et l\'opération [Poche](Path_Pocket_Shape/fr.md) crée un parcours pour la poche intérieure.
 
-12\. Pour l\'instant, nous allons garder les choses simples. Le bouton <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profilage](Path_Profile/fr.md) ouvre le panneau Contournage. Après avoir confirmé avec **OK** en utilisant les valeurs par défaut, le parcours d\'usinage autour de l\'objet est visible en vert.
+12\. Pour l\'instant, nous allons garder les choses simples. Le bouton <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Contournage](Path_Profile/fr.md) ouvre le panneau Contournage. Après avoir confirmé avec **OK** en utilisant les valeurs par défaut, le parcours d\'usinage autour de l\'objet est visible en vert.
 
 13\. Sélectionner le bas de la poche puis le bouton <img alt="" src=images/Path_Pocket_Shape.svg  style="width:32px;"> [Poche](Path_Pocket_Shape/fr.md) ouvre la fenêtre Forme de la poche. Les valeurs par défaut de la géométrie de base, des profondeurs et des hauteurs sont utilisées, le sous-panneau Opération est sélectionné et le pourcentage de dépassement est défini sur 50.
 
@@ -145,12 +145,12 @@ Le résultat est un modèle avec deux parcours d\'usinage:
 
 Il existe deux manières de vérifier les parcours d\'usinage créés. Le G-code peut être inspecté, notamment en mettant en évidence les segments de parcours d\'usinage correspondants. Le processus de fraisage de la tâche d\'usinage peut également être simulé pour illustrer les parcours d'outil optimisés, nécessaires aux géométries d'outil pour fraiser le brut.
 
-Pour inspecter le G-code, utilisez l\'outil <img alt="" src=images/Path_Inspect.svg  style="width:32px;"> [Path Inspecteur G-Code](Path_Inspect/fr.md). La sélection des lignes de G-code correspondantes dans la fenêtre Inspection du G-code met en surbrillance des segments de parcours d\'usinage individuels.
+Pour inspecter le G-code, utilisez l\'outil <img alt="" src=images/Path_Inspect.svg  style="width:32px;"> [Path Inspecter des commandes](Path_Inspect/fr.md). La sélection des lignes de G-code correspondantes dans la fenêtre Inspection du G-code met en surbrillance des segments de parcours d\'usinage individuels.
 
 :   ![](images/Path-InspectWindow.gif )
 :   
     
-*Ci-dessus: L'outil [Path Inspecteur G-Code](Path_Inspect/fr.md) ouvre la boîte de dialogue Inspection G-Code*
+*Ci-dessus: L'outil [Path Inspecter des commandes](Path_Inspect/fr.md) ouvre la boîte de dialogue Inspection G-Code*
     
 
 Démarrer la simulation en utilisant l\'outil <img alt="" src=images/Path_Simulator.svg  style="width:32px;"> [Simulateur d\'usinage](Path_Simulator/fr.md) .
@@ -181,9 +181,11 @@ La dernière étape pour générer le G-code pour la fraiseuse cible consiste à
     
 
 
- {{Path Tools navi}}
+{{Path Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/fr

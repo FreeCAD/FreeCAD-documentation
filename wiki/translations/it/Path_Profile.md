@@ -10,7 +10,7 @@
 
 ## Description
 
-The **<img src="images/Path_Profile.svg" width=16px> [Profile](Path_Profile.md)** tool creates a contour operation based on selected features of the model. The tool was introduced in version 0.19. It offers three operations that were handled by separate tools in previous versions.
+The <img alt="" src=images/Path_Profile.svg  style="width:16px;"> [Profile](Path_Profile.md) tool creates a contour operation based on selected features of the model. The tool was introduced in version 0.19. It offers three operations that were handled by separate tools in previous versions.
 
 All operations create objects that are made to be part of a **<img src="images/Path_Job.svg" width=24px> [Path Job](Path_Job.md)**.
 
@@ -39,7 +39,7 @@ A **Profile Edges** operation creates a simple contour path from selected edges.
     -   If no features are selected, the command defaults to a **Contour** operation, contouring the entire model.
     -   If faces are selected, then the result is a **Profile Face** operation.
     -   If edges are selected, then the result is a **Profile Edges** operation.
-        **NOTE**: This operation has received improvements to allow functionality on some open-edge (non-loop) selections. See the **Usage Notes** section below for additional information on best practice for profiling open-edges.
+        **NOTE**: This operation has received improvements to allow functionality on some open-edge (non-loop) selections. See the [Usage Notes](#Usage_Notes.md) section below for additional information on best practice for profiling open-edges.
 3.  Activate the Operation section by clicking on its tab, and adjust the operation\'s settings as desired.
 4.  Optionally press the **Apply** button to preview the operation with the current settings.
 5.  Click the **OK** button or the **Cancel** button to create or cancel the operation.
@@ -59,6 +59,8 @@ Make additional adjustments to the operation by modifying the operation\'s prope
     -   Because top edges are selected, the Final Depth for the operation will need to be set manually.
     -   When profiling open-edges, the \Side\ or \Cut Side\ property is disabled internally even though it will likely be visible within the Task editor window and the Properties list within the Data tab.
 -   When profiling the entire model (a complete contour of the model) the \Side\ or \Cut Side\ property is hard coded to \Outside\ even though it might be available for user input.
+
+
 
 ## Proprietà
 
@@ -222,9 +224,9 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 ### Base Geometry 
 
--   **Add**: adds selected element(s) which should be the base(s) for the path(s)
--   **Delete**: delete the selected item(s) in the Base Geometry list
--   **Clear**: clear all items in the Base Geometry list
+-   **Add**: Adds selected element(s) which should be the base(s) for the path(s)
+-   **Delete**: Delete the selected item(s) in the Base Geometry list
+-   **Clear**: Clear all items in the Base Geometry list
 
 ### Depths
 

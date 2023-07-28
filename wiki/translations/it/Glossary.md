@@ -12,13 +12,10 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|3D view|content=[3D view](3D_view.md)}}
 
 
-{{defn|defn=The 3D view is a component of the FreeCAD [interface](Interface.md). It shows a 3D representation of the model.}}
+{{defn|defn=La vista 3D è un componente della [interfaccia](Interface/it.md) di FreeCAD. Mostra una rappresentazione 3D del modello.}}
 
 
 {{glossend}}
-
-
-<div class="mw-translate-fuzzy">
 
 ## A
 
@@ -29,34 +26,31 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|term=Arc}}
 
 
-{{defn|defn=A portion or segment of a circle.}}
+{{defn|defn=Una porzione o segmento di un cerchio.}}
 
 
-{{term|term=Arch|content=[Arch](Arch_Workbench.md)}}
+{{term|term=Arch|content=[Arch](Arch_Workbench/it.md)}}
 
 
-{{defn|defn=An abbreviation for the Architectural [workbench](#Workbench.md) which is used primarily for modelling buildings and structures.  Closely related to the [Draft](#Draft.md) Workbench.}}
+{{defn|defn=Abbreviazione di [Architectural Workbench](#Workbench.md) un ambiente di lavoro utilizzato principalmente per la modellazione di edifici e di strutture. Strettamente correlato all'ambiente [Draft](#Draft.md).}}
 
 
 {{term|term=Assembly}}
 
 
-{{defn|no=1|defn=A set of [parts](#Part.md) that have defined positions in relation to each other.}}
+{{defn|no=1|defn=Un insieme di [Part](#Part.md) che hanno posizioni definite l'una rispetto all'altra.}}
 
 
-{{defn|no=2|defn=A [workbench](#Workbench.md) which aims to facilitate the creation of assemblies. It is currently in development and not yet part of FreeCAD.}}
+{{defn|no=2|defn=Un [workbench](#Workbench.md) che mira a facilitare la creazione di assiemi. È attualmente in fase di sviluppo e non fa ancora parte di FreeCAD.}}
 
 
 {{term|term=Axis}}
 
 
-{{defn|defn=An imaginary line through the origin of the workspace. There are 3 normal axes. They have the classic names of X, Y and Z. X is side to side. Y is up and down. Z is in and out of the page/screen.}}
+{{defn|defn=Una linea immaginaria che attraversa l'origine dello spazio di lavoro. Ci sono 3 assi normali. Hanno i nomi classici di X, Y e Z. X è da un lato all'altro. Y è su e giù. Z è dentro e fuori dalla pagina/schermo.}}
 
 
 {{glossend}}
-
-
-</div>
 
 ## B
 
@@ -67,67 +61,67 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|Backtrace}}
 
 
-{{defn|defn=Output from a debugging program that displays the series of instructions FreeCAD followed before a problem occurred.}}
+{{defn|defn=Output di un programma di debug che visualizza la serie di istruzioni eseguite da FreeCAD prima che si sia verificato un problema.}}
 
 
-{{term|Bezier Curve|content=[http://en.wikipedia.org/wiki/B%C3%A9zier_curve Bezier Curve]}}
+{{term|Bezier Curve|content=[http://en.wikipedia.org/wiki/B%C3%A9zier_curve Curva di Bezier]}}
 
 
-{{defn|defn=A type of parametric curve.}}
+{{defn|defn=Un tipo di curva parametrica.}}
 
 
 {{term|Blueprint}}
 
 
-{{defn|defn=Old term used for [drawing](#Drawing.md), and coined for its original [http://en.wikipedia.org/wiki/Blueprint reproduction process].}}
+{{defn|defn=Vecchio termine usato per [Drawing](#Drawing.md), e coniato per il [http://en.wikipedia.org/wiki/Blueprint processo di riproduzione] di un originale.}}
 
 
 {{term|Body}}
 
 
-{{defn|defn=A type of container used in the [PartDesign](PartDesign_Workbench.md) [workbench](#Workbench.md) that groups a sequence of operations ([sketches](#Sketch.md), construction geometry and [features](#Feature.md)) to create a single contiguous solid. (Introduced in FreeCAD V0.17.)}}
+{{defn|defn=Un tipo di contenitore utilizzato nel [Workbench](#Workbench.md) [PartDesign](PartDesign_Workbench/it.md) che raggruppa sequenze di operazioni di  ([Sketch](#Sketch.md), geometrie di costruzione e [Features](#Feature.md)) per creare un unico solido contiguo. (Introdotto in FreeCAD V0.17.)}}
 
 
 {{term|Boolean Logic}}
 
 
-{{defn|defn=A method of data manipulation by using of the operands: And, Or, Not.}}
+{{defn|defn=Un metodo di manipolazione dei dati utilizzando gli operandi: And, Or, Not.}}
 
 
 {{term|Boolean Operation}}
 
 
-{{defn|defn=A method of manipulating objects by using Boolean Logic. In FreeCAD, the Boolean Operations are: Union ([Fuse](#Fuse.md)), Difference ([Cut](#Cut.md)), Intersection, and Section.}}
+{{defn|defn=Un metodo per manipolare gli oggetti utilizzando la logica booleana. In FreeCAD, le operazioni booleane sono: Unione ([Fuse](#Fuse.md)), Differenza ([Cut](#Cut.md)), Intersezione e Sezione.}}
 
 
 {{term|Boolean OPerations check}}
 
 
-{{defn|defn=See [BOPcheck](#BOPcheck.md).}}
+{{defn|defn=Vedere [BOPcheck](#BOPcheck.md).}}
 
 
 {{term|BOPcheck}}
 
 
-{{defn|defn=A setting that allows the Check Geometry tools in the Part WB and OpenSCAD WB to also check geometry made from [Boolean logic](#Boolean_Logic.md). The default Check Geometry setting for BOPcheck is "false" (or off). The user can enable BOPcheck to provide more accuracy when running the Check Geometry tool but this comes at the expense of longer Check Geometry processing times. Beginning with FreeCAD 0.19, the BOPcheck setting is most easily enabled from the Settings portion of the Check Geometry widget.}}
+{{defn|defn=Un'impostazione che consente agli strumenti Verifica Geometria in Part WB e OpenSCAD WB di controllare anche la geometria creata dalla [Boolean Logic](#Boolean_Logic.md). L'impostazione predefinita Verifica Geometria per BOPcheck è "false" (o disattivata). L'utente può abilitare BOPcheck per fornire una maggiore precisione durante l'esecuzione dello strumento Check Geometry, ma ciò va a discapito di tempi di elaborazione Check Geometry più lunghi. A partire da FreeCAD 0.19, l'impostazione BOPcheck è abilitata più facilmente dalla parte Impostazioni del widget Controlla geometria.}}
 
 
 {{term|brep}}
 
 
-{{defn|defn=Native file format for [Open CASCADE](#Open_CASCADE.md) and shared by a few applications. FreeCAD can save in *.brep format.}}
+{{defn|defn=Formato di file nativo per [Open CASCADE](#Open_CASCADE.md) e condiviso da alcune applicazioni. FreeCAD può salvare in formato *.brep.}}
 
 
 {{term|B-rep}}
 
 
-{{defn|defn=Stands for [http://en.wikipedia.org/wiki/B-rep boundary representation], which is one of two types of 3D models that FreeCAD supports (the other being [mesh](#Mesh.md)).}}
+{{defn|defn=Sta per [http://en.wikipedia.org/wiki/B-rep Boundary representation], che è uno dei due tipi di modelli 3D supportati da FreeCAD (l'altro è [Mesh](#Mesh.md)).}}
 
 
 {{term|B-spline}}
 
 
-{{defn|defn=A type of parametric curve. See [http://en.wikipedia.org/wiki/B-spline B-spline]}}
+{{defn|defn=Un tipo di curva parametrica. Vedi [http://en.wikipedia.org/wiki/B-spline B-spline]}}
 
 
 {{glossend}}
@@ -141,91 +135,91 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|Callout}}
 
 
-{{defn|defn=String of text connected to a line pointing to an object in a [drawing](#Drawing.md).}}
+{{defn|defn=Stringa di testo collegata a una linea che punta a un oggetto in un [Drawing](#Drawing.md).}}
 
 
 {{term|Chamfer}}
 
 
-{{defn|defn=The cutting off of an edge, at an angle, to get rid of its sharpness; a beveled edge.}}
+{{defn|defn=Il taglio di un bordo, ad angolo, per eliminare il suo spigolo; un bordo smussato.}}
 
 
-{{term|1=Clipping Plane}}
+{{term|Clipping Plane}}
 
 
-{{defn|1=The clipping plane is used to cut away at the model in the 3D view. It is just a visual aid and does not actually cut the model.}}
+{{defn|defn=Il piano di taglio viene utilizzato per tagliare il modello nella vista 3D. È solo un aiuto visivo e in realtà non taglia il modello.}}
 
 
 {{term|Clone}}
 
 
-{{defn|defn=A copy of an object whereby the copy remains parametric.  When the original object is changed the Clone(s) also change to show modifications made to the original object.}}
+{{defn|defn=Una copia di un oggetto con cui la copia rimane parametrica. Quando l'oggetto originale viene modificato, anche i cloni cambiano per mostrare le modifiche apportate all'oggetto originale.}}
 
 
 {{term|Coin}}
 
 
-{{defn|defn=Also called Coin3D. Third-party software library used for 3D representation by FreeCAD.}}
+{{defn|defn=Detto anche Coin3D. Libreria software di terze parti utilizzata per la rappresentazione 3D da FreeCAD.}}
 
 
 {{term|COLLADA}}
 
 
-{{defn|defn=An interchange file format for [mesh](#Mesh.md) models. File extension is *.dae.}}
+{{defn|defn=Un formato file di interscambio per i modelli [Mesh](#Mesh.md). L'estensione del file è *.dae.}}
 
 
-{{term|Command|content=[Command](Command.md)}}
+{{term|Command|content=[Command](Command/it.md)}}
 
 
-{{defn|defn=An action invoked from the [GUI](#GUI.md) when you press a toolbar button or type a keyboard shortcut or type into the Python console. }}
+{{defn|defn=Un'azione richiamata dalla [GUI](#GUI.md) quando si preme un pulsante della barra degli strumenti o si digita una scorciatoia da tastiera o si digita nella console Python.}}
 
 
 {{term|Compound}}
 
 
-{{defn|defn=Groups objects together without fusing them like a [boolean union](#Boolean_Operation.md) would.}}
+{{defn|defn=Raggruppa gli oggetti insieme senza fonderli come farebbe un'[Boolean Operation](#Boolean_Operation.md).}}
 
 
 {{term|CompSolid}}
 
 
-{{defn|defn=Set of [solids](#Solid.md) connected by their [faces](#Face.md). CompSolids are needed in [FEM](#FEM.md), where more than one material is used in one FEM-mesh.}}
+{{defn|defn=Insieme di [Solid](#Solid.md) collegati dalle loro [Face](#Face.md). I CompSolid sono necessari in [FEM](#FEM.md), dove più di un materiale viene utilizzato in una mesh FEM.}}
 
 
-{{term|1=Constraint}}
+{{term|Constraint}}
 
 
-{{defn|1=A restriction on the geometric relationship between primitives in a [Sketch](#Sketch.md). If a constraint has a numerical value, it is referred to as Datum (e.g., a distance constraint has a numerical value - the length of an imaginary line connecting the two points). A constraint that has no numerical value (e.g., a Horizontal constraint) is sometimes referred to as Geometric Constraint.}}
+{{defn|defn=Una restrizione sulla relazione geometrica tra le primitive in uno [Sketch](#Sketch.md). Se un vincolo ha un valore numerico, viene indicato come Datum (ad esempio, un vincolo di distanza ha un valore numerico - la lunghezza di una linea immaginaria che collega i due punti). Un vincolo che non ha valore numerico (ad esempio un vincolo orizzontale) viene talvolta definito vincolo geometrico.}}
 
 
 {{term|Constructive Solid Geometry|content=[http://en.wikipedia.org/wiki/Constructive_solid_geometry Constructive Solid Geometry]}}
 
 
-{{defn|defn=A solid modeling method for creating shapes by using [boolean operations](#Boolean_Operation.md) on [primitives](#Primitive.md).}}
+{{defn|defn=Un metodo di modellazione solida per creare forme utilizzando [Boolean Operation](#Boolean_Operation.md) su [Primitive](#Primitive.md).}}
 
 
 {{term|Coordinate}}
 
 
-{{defn|defn=A number which defines the position of an object in space in reference to a [http://en.wikipedia.org/wiki/Cartesian_coordinate_system coordinate system].}}
+{{defn|defn=Un numero che definisce la posizione di un oggetto nello spazio in riferimento a un [http://en.wikipedia.org/wiki/Cartesian_coordinate_system sistema di coordinate].}}
 
 
 {{term|Coplanar}}
 
 
-{{defn|defn=Existing on the same plane.}}
+{{defn|defn=Esistente sullo stesso piano.}}
 
 
 {{term|CSG}}
 
 
-{{defn|defn=Short for [Constructive Solid Geometry](#Constructive_Solid_Geometry.md).}}
+{{defn|defn=Abbreviazione di [Constructive Solid Geometry](#Constructive_Solid_Geometry.md).}}
 
 
 {{term|Cut}}
 
 
-{{defn|defn=Applying a [boolean difference](#Boolean_Operation.md) between shapes.}}
+{{defn|defn=Applicazione di una [Boolean Operation](#Boolean_Operation.md) tra le forme.}}
 
 
 {{glossend}}
@@ -239,33 +233,33 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|DAG}}
 
 
-{{defn|defn=See [Directed Acyclic Graph.](#Directed_Acyclic_Graph.md)}}
+{{defn|defn=Vedere [Directed Acyclic Graph.](#Directed_Acyclic_Graph.md)}}
 
 
 {{term|Degrees Of Freedom}}
 
 
-{{defn|defn=The number of ways geometry in a [Sketch](#Sketch.md) may vary. For example, if we have a Sketch consisting of only one point, and the point has no [Constraints](#Constraint.md) applied to it, the point has two [DOF](#DOF.md) because it is free to move both vertically and horizontally. Similarly, a Sketch consisting of only a single unconstrained circle has three [DOF](#DOF.md) because the circle can move vertically and horizontally and, additionally, the radius is not defined. It is good practice to constrain a Sketch until it has no [DOF](#DOF.md) remaining, in which case it is said to be [Fully Constrained](#Fully_Constrained.md).}}
+{{defn|defn=Il numero di modi in cui la geometria in uno [Sketch](#Sketch.md) può variare. Ad esempio, se abbiamo uno schizzo costituito da un solo punto e al punto non sono applicati [Constraint](#Constraint.md), il punto ha due [DOF](#DOF.md) perché è libero di spostarsi verticalmente e orizzontalmente. Allo stesso modo, uno schizzo costituito da un solo cerchio non vincolato ha tre [DOF](#DOF.md) perché il cerchio può spostarsi verticalmente e orizzontalmente e, inoltre, il raggio non è definito. È buona norma vincolare uno schizzo fino a quando non ha alcun [DOF](#DOF.md) rimanente, nel qual caso si dice che è [Fully Constrained](#Fully_Constrained.md).}}
 
 
 {{term|Dependency Graph}}
 
 
-{{defn|defn=A third-party graphing tool used to show how objects in a FreeCAD model use or are related to one another. For more information, refer to the [Dependency Graph](Std_DependencyGraph.md)| Wiki page.}}
+{{defn|defn=Uno strumento grafico di terze parti utilizzato per mostrare come gli oggetti in un modello di FreeCAD utilizzano o sono correlati tra loro. Per ulteriori informazioni, fare riferimento alla pagina wiki [Grafico delle dipendenze](Std_DependencyGraph/it.md).}}
 
 
 {{term|Difference}}
 
 
-{{defn|no=1|defn=The result of, or remainder of, a subtraction.}}
+{{defn|no=1|defn=Il risultato o il resto di una sottrazione.}}
 
 
-{{defn|no=2|defn=A [Boolean Operation](#Boolean_operation.md) in the [Part](Part_Workbench.md) [workbench](#Workbench.md) which is used to subtract one geometry from another; it results in a [Cut](#Cut.md).}}
+{{defn|no=2|defn=Una [Boolean Operation](#Boolean_Operation.md) in [Part](Part_Workbench/it.md) [workbench](#Workbench.md) che viene utilizzata per sottrarre una geometria da un'altra; risulta in un [Cut](#Cut.md).}}
 
 
 {{term|Directed Acyclic Graph}}
 
-(abbreviated as \"DAG\") {{defn|defn=A type of [Dependency Graph](#Dependency_Graph.md) where the relationship of objects flows in a generally linear direction from start to end with no circular dependencies. When following a DAG there is no flow from one object A to any other objects and then back to that same object A again. In FreeCAD, a graph of the model must always be a DAG.}} {{term|DOF}} {{defn|[Degrees Of Freedom](#Degrees_Of_Freedom.md)}} {{term|Draft|content=[Draft](Draft_Workbench.md)}} {{defn|no=1|defn=A FreeCAD [workbench](#Workbench.md) used primarily for 2 dimensional work.}} {{defn|no=2|defn=A relief angle on a mold to allow removal of the finished product. See [PartDesign Draft](PartDesign_Draft.md).}} {{term|Drawing|content=[Drawing](Drawing_Workbench.md)}} {{defn|no=1|defn=A FreeCAD [workbench](#Workbench.md) used to generate 2D representations of a model, also called drawings.}} {{defn|no=2|defn=Describes a representation of geometry through the use of two-dimensional views. Also called plan or [blueprint](#Blueprint.md).}} {{glossend}}
+(abbreviato come \"DAG\") {{defn|defn=Un tipo di [Dependency Graph](#Dependency_Graph.md) in cui la relazione degli oggetti scorre in una direzione generalmente lineare dall'inizio alla fine senza dipendenze circolari. Quando si segue un DAG non c'è flusso da un oggetto A a nessun altro oggetto e poi di nuovo allo stesso oggetto A. In FreeCAD, un grafico del modello deve essere sempre un DAG.}} {{term|DOF}} {{defn|defn=[Degrees Of Freedom](#Degrees_Of_Freedom.md)}} {{term|Draft|content=[Draft](Draft_Workbench/it.md)}} {{defn|no=1|defn=Un [Workbench](#Workbench.md) di FreeCAD utilizzato principalmente per lavori bidimensionali.}} {{defn|no=2|defn=Un angolo di sformo su uno stampo per consentire la rimozione del prodotto finito. Vedere [PartDesign](PartDesign_Draft/it.md).}} {{term|Drawing}} {{defn|defn=Descrive una rappresentazione della geometria attraverso l'uso di viste bidimensionali. Chiamato anche piano o [Blueprint](#Blueprint.md).}} {{glossend}}
 
 ## E
 
@@ -276,22 +270,31 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|Edge}}
 
 
-{{defn|no=1|defn=A segment joining two [vertices](#Vertices.md). This segment can be a straight line or a curve. The CAD kernel defines it as: One-dimensional shape corresponding to a curve and bounded by a vertex at each extremity. A closed circle has therefore only one vertex, where it starts and ends. See [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 "Open CASCADE Technology, Profile: Defining the Topology"].}}
+{{defn|no=1|defn=Un segmento che unisce due [Vertices](#Vertices.md). Questo segmento può essere una linea retta o una curva. Il kernel CAD lo definisce come: Forma unidimensionale corrispondente a una curva e delimitata da un vertice a ciascuna estremità. Un cerchio chiuso ha quindi un solo vertice, dove inizia e dove finisce. Vedere [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 "Open CASCADE Technology, Profile: Defining the Topology"].}}
 
 
-{{defn|no=2|defn=The joining line between two faces. It can be curved or straight.}}
+{{defn|no=2|defn=La linea di congiunzione tra due facce. Può essere curva o dritta.}}
 
 
 {{term|Element}}
 
 
-{{defn|An item of Sketcher geometry such as a point, a line segment, an arc, a circle, etc.}}
+{{defn|defn=Un elemento della geometria di Sketcher come un punto, un segmento di linea, un arco, un cerchio, ecc.}}
 
 
-{{term|1=Extrude}}
+{{term|Expression}}
 
 
-{{defn|1=A general term for extending a 2D object into 3D along 1 direction. See also [Pad](#Pad.md).}}
+{{defn|no=1|defn=Termine generico utilizzato in matematica e in programmazione.}}
+
+
+{{defn|no=2|defn=In FreeCAD le [espressioni](Expressions/it.md) sono utilizzate per calcolare i valori. Possono fare riferimento e guidare le proprietà degli oggetti. Sono utilizzati in [fogli di calcolo](Spreadsheet_Workbench/it.md) e per controllare i modelli parametrici.}}
+
+
+{{term|Extrude}}
+
+
+{{defn|defn=Un termine generale per estendere un oggetto 2D in 3D lungo una direzione. Vedi anche [Pad](#Pad.md).}}
 
 
 {{glossend}}
@@ -302,88 +305,88 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{gloss}}
 
 
-{{term|1=Face}}
+{{term|Face}}
 
 
-{{defn|1=A 2 dimensional topological construct. For example, a cube has 6 Faces. A face can be curved, like in case of a sphere, which has one face in FreeCAD. The CAD kernel defines it as: Part of a surface bounded by a closed [wire(s)](#Wire.md). See [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 Profile: Defining the Topology].}}
+{{defn|defn=Un costrutto topologico bidimensionale. Ad esempio, un cubo ha 6 facce. Una faccia può essere curva, come nel caso di una sfera, che in FreeCAD ha una sola faccia. Il kernel CAD la definisce come: Parte di una superficie delimitata da un [Wire](#Wire.md) chiuso. Vedere [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 Profile: Defining the Topology].}}
 
 
 {{term|Facet}}
 
 
-{{defn|defn=Often used to describe planar faces on a [mesh](#Mesh.md).}}
+{{defn|defn=Spesso usato per descrivere facce planari su una [Mesh](#Mesh.md).}}
 
 
 {{term|FC}}
 
 
-{{defn|defn=Short for FreeCAD.}}
+{{defn|defn=Abbreviazione di FreeCAD.}}
 
 
 {{term|FCStd}}
 
 
-{{defn|defn=FreeCAD native file format. File extension *.fcstd, *.FCStd}}
+{{defn|defn=Formato di file nativo di FreeCAD. Estensione file *.fcstd, *.FCStd}}
 
 
-{{term|1=Feature}}
+{{term|Feature}}
 
 
-{{defn|1=A step in a 3d part's evolution in the [Part Design](PartDesign_Workbench.md) [workbench](#Workbench.md) workflow.  Examples are [Pad](#Pad.md), [Pocket](#Pocket.md), [Groove](#Groove.md), [Fillet](#Fillet.md), etc. As we create a model in the [Part Design](PartDesign_Workbench.md) [workbench](#Workbench.md), each feature takes the shape of the last one and adds or removes something.  Hence a "Pocket" feature is not only the pocketed hole itself, but the whole part with the pocket feature.}}
+{{defn|defn=Un passo nell'evoluzione di una parte 3D nel flusso di lavoro [Part Design](PartDesign_Workbench/it.md) [Workbench](#Workbench.md). Esempi sono [Pad](#Pad.md), [Pocket](#Pocket.md), [Groove](#Groove.md), [Fillet](#Fillet.md), ecc. Mentre creiamo un modello in [Part Design](PartDesign_Workbench/it.md) [Workbench](#Workbench.md), ogni elemento prende la forma dell'ultimo e aggiunge o toglie qualcosa. Quindi una caratteristica "Tasca" non è solo il foro a tasca stesso, ma l'intera parte con la caratteristica tasca.}}
 
 
 {{term|FEM|content=[FEM](FEM_Workbench.md)}}
 
 
-{{defn|defn=[https://en.wikipedia.org/wiki/Finite_element_method Finite Element Method], a [workbench](#Workbench.md) used to solve engineering and mathematical physics problems associated with parts, assemblies and structures.}}
+{{defn|defn=[https://en.wikipedia.org/wiki/Finite_element_method Finite Element Method], un [Workbench](#Workbench.md) utilizzato per risolvere problemi di ingegneria e fisica matematica associati a parti, assiemi e strutture.}}
 
 
 {{term|Fillet}}
 
 
-{{defn|defn=A rounded relief or cut at an edge added for a finished appearance and to break sharp edges. See [Part Fillet](Part_Fillet.md) and [PartDesign Fillet](PartDesign_Fillet.md).}}
+{{defn|defn=Un rilievo arrotondato o un taglio su un bordo aggiunto per un aspetto finito e per spezzare gli spigoli vivi. Vedere [Part Fillet](Part_Fillet/it.md) e [PartDesign Fillet](PartDesign_Fillet/it.md).}}
 
 
 {{term|Fork}}
 
 
-{{defn|defn=See [Forked Model](#Forked_Model.md).}}
+{{defn|defn=Vedere [Forked Model](#Forked_Model.md).}}
 
 
 {{term|Forked Model}}
 
 
-{{defn|defn=A modeling method, usually accidental and incorrect in FreeCAD, that creates two or more versions of a model from a previous item. (Not to be confused with intentional operations like Array, Clone, Polar Pattern, etc.)}}
+{{defn|defn=Un metodo di modellazione, solitamente accidentale e non corretto in FreeCAD, che crea due o più versioni di un modello da un elemento precedente. (Da non confondere con operazioni intenzionali come Array, Clone, Polar Pattern, ecc.)}}
 
 
 {{term|Frenet}}
 
 
-{{defn|defn=When Sweeping a profile along a 3D path, the Frenet parameter controls the orientation of the profile as it travels along the path. If Frenet is true, the profiles are oriented using the Frenet Frame (tangent, binormal, normal) of the path. If Frenet is false the profile's rotation is not restricted. [https://en.wikipedia.org/wiki/Differentiable_curve#Frenet_frame Frenet frame]}}
+{{defn|defn=Quando si esegue lo sweep di un profilo lungo un percorso 3D, il parametro Frenet controlla l'orientamento del profilo mentre si sposta lungo il percorso. Se Frenet è vero, i profili sono orientati utilizzando il Frenet Frame (tangente, binormale, normale) del percorso. Se Frenet è false la rotazione del profilo non è limitata. [https://en.wikipedia.org/wiki/Differentiable_curve#Frenet_frame Frenet frame]}}
 
 
 {{term|Freetype|content=[http://www.freetype.org FreeType]}}
 
 
-{{defn|defn=A freely available software library used to extract information from font definition files.}}
+{{defn|defn=Una libreria software disponibile gratuitamente utilizzata per estrarre informazioni dai file di definizione dei caratteri.}}
 
 
 {{term|Frustum|content=[http://en.wikipedia.org/wiki/Frustum Frustum]}}
 
 
-{{defn|defn=The portion of a solid that lies between two parallel planes cutting it. Used in computer graphics to describe the three-dimensional region which is visible on the screen, the [http://en.wikipedia.org/wiki/Viewing_frustum "viewing frustum"]}}
+{{defn|defn=La porzione di un solido che si trova tra due piani paralleli che lo intersecano. Utilizzato nella computer grafica per descrivere la regione tridimensionale visibile sullo schermo, vedere il [http://en.wikipedia.org/wiki/Viewing_frustum "viewing frustum"]}}
 
 
 {{term|Fully Constrained}}
 
 
-{{defn|defn=In [Sketcher](#Sketcher.md), when a [Sketch](#Sketch.md) has no [Degrees Of Freedom](#Degrees_Of_Freedom.md), the Sketch is said to be "fully constrained" by the applied [Constraints](#Constraint.md).}}
+{{defn|defn=In [Sketcher](#Sketcher.md), quando uno [Sketch](#Sketch.md) non ha [Degrees Of Freedom](#Degrees_Of_Freedom.md), si dice che lo Sketch è "completamente vincolato" dai [Constraint](#Constraint.md).}}
 
 
 {{term|Fuse}}
 
 
-{{defn|defn=Term commonly used in FreeCAD to refer to a [boolean union](#Boolean_Operation.md) of shapes.}}
+{{defn|defn=Termine comunemente usato in FreeCAD per riferirsi a un'[unione booleana](#Boolean_Operation.md) di forme.}}
 
 
 {{glossend}}
@@ -397,31 +400,31 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|GDB or gdb}}
 
 
-{{defn|defn=[https://www.gnu.org/software/gdb/ '''G'''NU Project '''D'''e'''B'''ugger], a debugging program used on Unix and other 'nix operating systems in order to get a [backtrace](#Backtrace.md). "gdb" (without the quotation marks) is also the first part of the command used to start the GDB program itself. An example of how to use GDB with FreeCAD is in [http://forum.freecadweb.org/viewtopic.php?t=7052#p56918 this forum post]}}
+{{defn|defn=[https://www.gnu.org/software/gdb/ '''G'''NU Project '''D'''e'''B'''ugger], un programma di debug utilizzato su Unix e altri 'nix sistemi operativi per ottenere un [Backtrace](#Backtrace.md). "gdb" (senza virgolette) è anche la prima parte del comando utilizzato per avviare il programma GDB stesso. Un esempio di come utilizzare GDB con FreeCAD è in [http://forum.freecadweb.org/viewtopic.php?t=7052#p56918 questo post del forum]}}
 
 
 {{term|Geometric modeling kernel}}
 
 
-{{defn|defn=Also called CAD kernel. A set of complex software libraries responsible for the creation of 3D shapes. All operations on objects (extrude, boolean operations, chamfer, fillet) rely on the geometric modeling kernel.}}
+{{defn|defn=Chiamato anche kernel CAD. Un insieme di librerie software complesse responsabili della creazione di forme 3D. Tutte le operazioni sugli oggetti (estrusione, operazioni booleane, smusso, raccordo) si basano sul kernel di modellazione geometrica.}}
 
 
 {{term|Git}}
 
 
-{{defn|defn=[http://en.wikipedia.org/wiki/Distributed_revision_control Distributed revision control system] used by FreeCAD to host and manage its code base.}}
+{{defn|defn=[http://en.wikipedia.org/wiki/Distributed_revision_control Distributed revision control system] utilizzato da FreeCAD per ospitare e gestire la sua base di codice.}}
 
 
 {{term|[Group](Std_Group.md)}}
 
 
-{{defn|defn=Used to organize elements in the [Tree view](#Tree_view.md).}}
+{{defn|defn=Utilizzato per organizzare gli elementi nella [Tree view](#Tree_view.md).}}
 
 
 {{term|GUI}}
 
 
-{{defn|defn='''G'''raphical '''U'''ser '''I'''nterface. Allows users to interact with FreeCAD through graphical icons and the mouse pointer.}}
+{{defn|defn='''G'''raphical '''U'''ser '''I'''nterface. Consente agli utenti di interagire con FreeCAD tramite icone grafiche e il puntatore del mouse.}}
 
 
 {{glossend}}
@@ -435,7 +438,7 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|Half_Space|content=[http://en.wikipedia.org/wiki/Half-space_%28geometry%29 Half Space]}}
 
 
-{{defn|defn=When a plane completely divides a 3D Euclidian space, the plane forms two half spaces.}}
+{{defn|defn=Quando un piano divide completamente uno spazio euclideo 3D, il piano forma due semispazi.}}
 
 
 {{glossend}}
@@ -449,13 +452,13 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|IGES}}
 
 
-{{defn|defn=A file format for the exchange of product data models. Files extensions are *.iges, *.igs. See also [STEP](#STEP.md).}}
+{{defn|defn=Un formato di file per lo scambio di modelli di dati di prodotto. Le estensioni dei file sono *.iges, *.igs. Vedere anche [STEP](#STEP.md).}}
 
 
 {{term|Intersection|content=[http://en.wikipedia.org/wiki/Intersection Intersection]}}
 
 
-{{defn|defn=That portion of two or more geometric entities that is common to all. For example, the intersection of two lines is a point.}}
+{{defn|defn=Quella porzione di due o più entità geometriche che è comune a tutte. Ad esempio, l'intersezione di due linee è un punto.}}
 
 
 {{glossend}}
@@ -469,7 +472,7 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|JT}}
 
 
-{{defn|defn=A proprietary 3D data format developed by Siemens PLM Software. FreeCAD has no support for JT at this time.}}
+{{defn|defn=Un formato di dati 3D proprietario sviluppato da Siemens PLM Software. FreeCAD non ha supporto per JT in questo momento.}}
 
 
 {{glossend}}
@@ -483,13 +486,13 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|Kernel}}
 
 
-{{defn|defn=See [Geometric modeling kernel](#Geometric_modeling_kernel.md).}}
+{{defn|defn=Vedere [Geometric modeling kernel](#Geometric_modeling_kernel.md).}}
 
 
 {{term|KML}}
 
 
-{{defn|defn=Keyhole Markup Language - an XML-based geospatial 3D data definition file used by Google Earth. FreeCAD has no support for KML at this time.}}
+{{defn|defn=Keyhole Markup Language: un file di definizione di dati geospaziali 3D basato su XML utilizzato da Google Earth. FreeCAD non ha supporto per KML in questo momento.}}
 
 
 {{glossend}}
@@ -503,37 +506,37 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|Label}}
 
 
-{{defn|no=1|defn=A user defined property of an object; used to make the [Tree view](#Tree_view.md) easier to understand by humans.}}
+{{defn|no=1|defn=Una proprietà definita dall'utente di un oggetto; usato per rendere la [Tree view](#Tree_view.md) più facile da capire per gli umani.}}
 
 
-{{defn|no=2|defn=A string of descriptive text added to a drawing (see [Draft Label](Draft_Label.md)).}}
+{{defn|no=2|defn=Una stringa di testo descrittivo aggiunta a un disegno (vedere [Draft Label](Draft_Label/it.md)).}}
 
 
-{{defn|defn=Contrast with [Name](#Name.md).}}
+{{defn|defn= A differenza di [Name](#Name.md).}}
 
 
 {{term|Line}}
 
 
-{{defn|defn=Most often this is used as a synonym for a [line segment](#Line_Segment.md). In Sketcher, it is used sometimes with its exact meaning of an infinite straight path.}}
+{{defn|defn=Molto spesso questo è usato come sinonimo di [Line Segment](#Line_Segment.md). In Sketcher, è usato a volte con il suo significato esatto di un percorso rettilineo infinito.}}
 
 
 {{term|Line Segment}}
 
 
-{{defn|defn=A straight path between two [points](#Point.md).}}
+{{defn|defn=Un percorso rettilineo tra due [Points](#Point.md).}}
 
 
 {{term|Lock}}
 
 
-{{defn|defn=[Constraint Lock](Sketcher_ConstrainLock.md)}}
+{{defn|defn=[Constraint Lock](Sketcher_ConstrainLock/it.md)}}
 
 
 {{term|Loft|content=[http://en.wikipedia.org/wiki/Loft_%283D%29 Loft]}}
 
 
-{{defn|defn=A topological form created by linking consecutive profiles with a surface. Similar to the process used to make fabric covered aeroplanes or boats. Also the FreeCAD function for creating such a form.}}
+{{defn|defn=Una forma topologica creata collegando profili consecutivi con una superficie. Simile al processo utilizzato per realizzare aeroplani o barche rivestiti in tessuto. Anche la funzione FreeCAD per creare un tale oggetto.}}
 
 
 {{glossend}}
@@ -547,37 +550,37 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|Macro}}
 
 
-{{defn|defn=A saved sequence of FreeCAD instructions, often written by end users.}}
+{{defn|defn=Una sequenza salvata di istruzioni di FreeCAD, spesso scritta dagli utenti finali.}}
 
 
 {{term|Manifold}}
 
 
-{{defn|defn=Said of a [shape](#Shape.md) that forms a perfectly enclosed volume. A familiar synonym that gives a good description is "watertight". To generate a solid, a [shell](#Shell.md) must be manifold.}}
+{{defn|defn=Detto di una [Shape](#Shape.md) che forma un volume perfettamente chiuso. Un sinonimo familiare che fornisce una buona descrizione è "impermeabile". Per generare un solido, una [Shell](#Shell.md) deve essere manifold.}}
 
 
 {{term|Mantis}}
 
 
-{{defn|defn=[Bug tracking system](#Tracker.md) used by the FreeCAD project.}}
+{{defn|defn=[Bug tracking system](#Tracker.md) utilizzato dal progetto FreeCAD.}}
 
 
 {{term|Mesh}}
 
 
-{{defn|defn=Type of object that can be imported or created by FreeCAD. See [http://en.wikipedia.org/wiki/Polygon_mesh Polygon mesh] for more details.}}
+{{defn|defn=Tipo di oggetto che può essere importato o creato da FreeCAD. Vedere [http://en.wikipedia.org/wiki/Polygon_mesh Polygon mesh] per maggiori dettagli.}}
 
 
 {{term|Model}}
 
 
-{{defn|defn=Also called 3D model. Computer representation of a three-dimensional [part](#Part.md) or [assembly](#Assembly.md).}}
+{{defn|defn=Chiamato anche modello 3D. Rappresentazione al computer di una [Part](#Part.md) o di un [Assembly](#Assembly.md).}}
 
 
 {{term|MultiTransform|content=[MultiTransform](PartDesign_MultiTransform.md)}}
 
 
-{{defn|defn=Stands for multiple transformation. A [feature](#Feature.md) from the [PartDesign](PartDesign_Workbench.md) [workbench](#Workbench.md) that applies a series of chained transformations (linear and circular pattern, mirrored) to selected features.}}
+{{defn|defn=Sta per trasformazione multipla. Una [Feature](#Feature.md) dal [PartDesign](PartDesign_Workbench/it.md) [Workbench](#Workbench.md) che applica una serie di trasformazioni concatenate (modello lineare e circolare, speculare) alle feature selezionate.}}
 
 
 {{glossend}}
@@ -591,19 +594,19 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|Name}}
 
 
-{{defn|defn=An unique identifier for a FreeCAD document object. Once assigned by the program, the Name can not be easily changed. Contrast with [Label](#Label.md).}}
+{{defn|defn=Un identificatore univoco per un oggetto documento di FreeCAD. Una volta assegnato dal programma, il Name non è facilmente modificabile. A differenza di [Label](#Label.md).}}
 
 
 {{term|Non-manifold}}
 
 
-{{defn|defn=Non-manifold topology, also called zero-thickness, is two distinct solid bodies connected at a theoretical vertex or edge. It is an unsupported type of shape (not always detected by FreeCAD) that should be avoided, as it can cause trouble with further steps and export.}}
+{{defn|defn=La topologia Non-manifold, chiamata anche spessore zero, è costituita da due corpi solidi distinti collegati a un vertice o bordo teorico. È un tipo di forma non supportato (non sempre rilevato da FreeCAD) che dovrebbe essere evitato, in quanto può causare problemi con ulteriori passaggi e con l'esportazione.}}
 
 
 {{term|Null Shape}}
 
 
-{{defn|defn=A [Shape](#Shape.md) property that has not been initialized by a program/macro. Usually an error condition.}}
+{{defn|defn=Una proprietà [Shape](#Shape.md) che non è stata inizializzata da un programma/macro. Di solito una condizione di errore.}}
 
 
 {{glossend}}
@@ -617,46 +620,46 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|OCC}}
 
 
-{{defn|defn=Acronym for [Open CASCADE](#Open_CASCADE.md). Prior to being open sourced, it used to be named CAS.CADE (abbreviated from Computer Aided Software for Computer Aided Design and Engineering).}}
+{{defn|defn=Acronimo di [Open CASCADE](#Open_CASCADE.md). Prima di essere open source, si chiamava CAS.CADE (abbreviato da Computer Aided Software for Computer Aided Design and Engineering).}}
 
 
 {{term|OCE}}
 
 
-{{defn|defn='''O'''pen CASCADE '''C'''ommunity '''E'''dition. It provides patches, improvements and experiments contributed by users over the official [Open CASCADE](#Open_CASCADE.md) library. FreeCAD is known to work on either OCC or OCE.}}
+{{defn|defn='''O'''pen CASCADE '''C'''ommunity '''E'''dition. Fornisce patch, miglioramenti ed esperienze fornite dagli utenti tramite la libreria ufficiale [Open CASCADE](#Open_CASCADE.md). FreeCAD è noto per funzionare su OCC o OCE.}}
 
 
 {{term|OCCT}}
 
 
-{{defn|Open CASCADE Technology. See [OCC](#OCC.md).}}
+{{defn|defn=Tecnologia Open CASCADE. Vedere [OCC](#OCC.md).}}
 
 
 {{term|Open CASCADE|content=[http://www.opencascade.org Open CASCADE]}}
 
 
-{{defn|The [geometric modeling kernel](#Geometric_modeling_kernel.md) (software library) underlying FreeCAD. Also called [OCC](#OCC.md) or [OCCT](#OCCT.md) (for Open CASCADE Technology). See also [OCE](#OCE.md).}}
+{{defn|defn=Il [Geometric modeling kernel](#Geometric_modeling_kernel.md) (software library) sottostante a FreeCAD. Anche detto [OCC](#OCC.md) o [OCCT](#OCCT.md) (Per CASCADE Technology). Vedere anche [OCE](#OCE.md).}}
 
 
 {{term|OpenSCAD|content=[http://www.openscad.org/ OpenSCAD]}}
 
 
-{{defn|no=1|Name of a script-only based CAD program.}}
+{{defn|no=1|defn=Nome di un programma CAD basato solo su script.}}
 
 
-{{defn|no=2|A [workbench](#Workbench.md) in FreeCAD. The [OpenSCAD](OpenSCAD_Workbench.md) [workbench](#Workbench.md) provides an interface for import/export of *.scad and *.csg models, as well as a some utility tools.}}
+{{defn|no=2|defn=Un [Workbench](#Workbench.md) di FreeCAD. [OpenSCAD](OpenSCAD_Workbench.md) [workbench](#Workbench.md) fornisce un'interfaccia per l'importazione/esportazione di modelli *.scad e *.csg, nonché alcuni strumenti di utilità.}}
 
 
 {{term|Origin}}
 
 
-{{defn|defn=The center of the coordinate system. Everything goes out from here in either the positive or negative directions. As is our view of the universe with Earth being the “origin”.}}
+{{defn|defn=Il centro del sistema di coordinate. Tutto parte da questo punto in direzione positiva o negativa. Così come la nostra visione dell'universo con la Terra come "origine".}}
 
 
 {{term|Orthographic}}
 
 
-{{defn|defn=See [http://en.wikipedia.org/wiki/Orthographic_projection Orthographic projection] and [http://en.wikipedia.org/wiki/Multiview_orthographic_projection Multiview orthographic projection].}}
+{{defn|defn=Vedere [http://en.wikipedia.org/wiki/Orthographic_projection Orthographic projection] e [http://en.wikipedia.org/wiki/Multiview_orthographic_projection Multiview orthographic projection].}}
 
 
 {{glossend}}
@@ -667,109 +670,112 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{gloss}}
 
 
-{{term|1=Pad}}
+{{term|Pad}}
 
 
-{{defn|1=An extension of a [Sketch](#Sketch.md) in a direction perpendicular to the plane of the Sketch. See also [Extrude](#Extrude.md).}}
+{{defn|defn=Un'estensione di uno [Sketch](#Sketch.md) in una direzione perpendicolare al piano dello schizzo. Vedere anche [Extrude](#Extrude.md).}}
 
 
-{{term|Part|content=[Part](Part_Workbench.md)}}
+{{term|Part}}
 
 
-{{defn|no=1|A FreeCAD [workbench](#Workbench.md) primarily used for a [http://en.wikipedia.org/wiki/Constructive_solid_geometry Constructive Solid Geometry] workflow.}}
+{{defn|no=1|defn=Un [Workbench](#Workbench.md) di FreeCAD utilizzato principalmente per un flusso di lavoro [http://en.wikipedia.org/wiki/Constructive_solid_geometry Constructive Solid Geometry]. Vedere [Ambiente Part](Part_Workbench/it.md).}}
 
 
-{{defn|no=2|A unibody solid. The lowest level component in an assembly.}}
+{{defn|no=2|defn=Un modulo Python di FreeCAD, che si interfaccia direttamente con [OCC](#OCC.md). Vedere [Script di Part](Part_scripting/it.md).}}
 
 
-{{defn|no=3|A container which groups any type of FreeCAD object and has a [placement](#Placement.md). (Introduced in FreeCAD V0.17.)}}
+{{defn|no=3|defn=Un contenitore che raggruppa qualsiasi tipo di oggetto FreeCAD e ha un [Placement](#Placement.md). Vedere [Part](Std_Part/it.md).}}
+
+
+{{defn|no=4|defn=Un solido unibody. Il componente di livello più basso in un assieme.}}
 
 
 {{term|PartDesignNext}}
 
 
-{{defn|defn=Nickname used over the forums to distinguish the [PartDesign](PartDesign_Workbench.md) [workbench](#Workbench.md) in the FreeCAD 0.17 release version from the one in v0.16 and earlier, because of the vast changes introduced.}}
+{{defn|defn=Soprannome usato nei forum per distinguere [PartDesign](PartDesign_Workbench/it.md) [Workbench](#Workbench.md) nella versione FreeCAD 0.17 da quello nella v0.16 e precedenti, a causa delle grandi modifiche introdotte.}}
 
 
 {{term|PD}}
 
 
-{{defn|defn=Abbreviation of [PartDesign](PartDesign_Workbench.md), a FreeCAD [workbench](#Workbench.md).}}
+{{defn|defn=Abbreviazione di [PartDesign](PartDesign_Workbench/it.md), un [Workbench](#Workbench.md) di FreeCAD.}}
 
 
 {{term|PDN}}
 
 
-{{defn|defn=Abbreviation of [PartDesignNext](#PartDesignNext.md).}}
+{{defn|defn=Abbreviazione di [PartDesignNext](#PartDesignNext.md).}}
 
 
 {{term|Perspective}}
 
 
-{{defn|defn=[http://en.wikipedia.org/wiki/Graphical_projection#Perspective Perspective projection]}}
+{{defn|defn=[http://en.wikipedia.org/wiki/Graphical_projection#Perspective Proiezione prospettica]}}
 
 
 {{term|Pivy|content=[http://pypi.python.org/pypi/Pivy Pivy]}}
 
 
-{{defn|defn=A software library that allows Python to use Coin.}}
+{{defn|defn=Una libreria software che consente a Python di utilizzare Coin.}}
 
 
 {{term|Placement}}
 
 
-{{defn|defn=Set of properties of an object that defines its coordinates and orientation in space. See [[Placement]].}}
+{{defn|defn=Insieme di proprietà di un oggetto che ne definisce le coordinate e l'orientamento nello spazio. Vedere [Posizionamento](Placement/it.md).}}
 
 
 {{term|Planar}}
 
 
-{{defn|defn=Said of geometry of which elements all lie on a same plane.}}
+{{defn|defn=Detto della geometria i cui elementi giacciono tutti su uno stesso piano.}}
 
 
 {{term|Plane}}
 
 
-{{defn|no=1|A flat, two-dimensional surface that extends infinitely far.}}
+{{defn|no=1|defn=Una superficie piana, bidimensionale, che si estende all'infinito.}}
 
 
-{{defn|no=2|A primitive two-dimensional object created in the [Part](Part_Workbench.md) [workbench](#Workbench.md).}}
+{{defn|no=2|defn=Un oggetto primitivo bidimensionale creato nel [Part](Part_Workbench/it.md) [Workbench](#Workbench.md).}}
 
 
 {{term|Plot}}
 
 
-{{defn|no=1|An outdated synonym for a technical drawing made by a pen plotter. See [https://en.wikipedia.org/wiki/Plotter Plotter]}}
+{{defn|no=1|defn=Un sinonimo obsoleto per un disegno tecnico realizzato con un plotter a penna. Vedere [https://en.wikipedia.org/wiki/Plotter Plotter].}}
 
 
-{{defn|no=2|Short for plot plan. See [https://en.wikipedia.org/wiki/Site_plan Site plan]}}
+{{defn|no=2|defn=Abbreviazione di piano di stampa. Vedere [https://en.wikipedia.org/wiki/Site_plan Piano di Stampa].}}
 
 
-{{defn|no=3|Graphical representation of data. See [https://en.wikipedia.org/wiki/Plot_(graphics) Plot (graphics)]}}
+{{defn|no=3|defn=Rappresentazione grafica dei dati. Vedere [https://en.wikipedia.org/wiki/Plot_(graphics) Plot (graphics)].}}
 
 
-{{term|1=Pocket}}
+{{term|Pocket}}
 
 
-{{defn|1=A [feature](#Feature.md) that removes material from a solid based on a [Sketch](#Sketch.md).}}
+{{defn|defn=Una [Feature](#Feature.md) che rimuove materiale da un solido in base a uno [Sketch](#Sketch.md).}}
 
 
-{{term|1=Point}}
+{{term|Point}}
 
 
-{{defn|1=An item used to reference a single area in the 3D workspace. A “point” is dimensionless. It has a dimension on the screen, usually represented by a “dot” only so we can see where it is. See also [Vertex](#Vertex.md).}}
+{{defn|defn=Un elemento utilizzato per fare riferimento a una singola area nell'area di lavoro 3D. Un "punto" è adimensionale. Ha una dimensione sullo schermo, solitamente rappresentata da un "punto" solo per poter vedere dove si trova. Vedere anche [Vertex](#Vertex.md).}}
 
 
 {{term|Polygon mesh}}
 
 
-{{defn|defn=See [http://en.wikipedia.org/wiki/Polygonal_mesh Polygonal_mesh]}}
+{{defn|defn=Vedere [http://en.wikipedia.org/wiki/Polygonal_mesh Polygonal_mesh]}}
 
 
 {{term|Polyline}}
 
 
-{{defn|defn=A series of connected line or arc segments.}}
+{{defn|defn=Una serie di segmenti di linea o arco collegati.}}
 
 
 {{term|POV-Ray}}
@@ -781,25 +787,25 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|PPA}}
 
 
-{{defn|defn=An acronym that stands for '''P'''ersonal '''P'''ackage '''A'''rchive. It's a type of software repository exclusive to the Ubuntu Linux operating system. The FreeCAD project offers the latest release as well as development versions through two PPA repositories. Updates are managed by the host system's update manager.}}
+{{defn|defn=Acronimo che sta per '''P'''ersonal '''P'''ackage '''A'''archive. È un tipo di repository software esclusivo del sistema operativo Ubuntu Linux. Il progetto FreeCAD offre l'ultima versione e le versioni di sviluppo attraverso due repository PPA. Gli aggiornamenti sono gestiti dal gestore degli aggiornamenti del sistema host.}}
 
 
 {{term|Primitive}}
 
 
-{{defn|defn=A basic shape used in the construction of models. Some 2D primitives are: point, line, polygon, circle, ellipse, spiral, helix. 3D primitives are: box, cylinder, cone, torus, sphere, ellipsoid, prism.}}
+{{defn|defn=Una forma base utilizzata nella costruzione di modelli. Alcune primitive 2D sono: punto, linea, poligono, cerchio, ellisse, spirale, elica. Le primitive 3D sono: scatola, cilindro, cono, toro, sfera, ellissoide, prisma.}}
 
 
 {{term|PySide|content=[https://wiki.qt.io/PySide PySide]}}
 
 
-{{defn|defn=A freely available software library that allows Python to use QT.}}
+{{defn|defn=Una libreria software disponibile gratuitamente che consente a Python di utilizzare QT.}}
 
 
 {{term|Python|content=[http://www.python.org Python]}}
 
 
-{{defn|defn=A programming language used in the development of FreeCAD as well as in user-written [macros](#Macro.md) or scripts.}}
+{{defn|defn=Un linguaggio di programmazione utilizzato nello sviluppo di FreeCAD così come in [Macro](#Macro.md) o script scritti dall'utente.}}
 
 
 {{glossend}}
@@ -813,7 +819,7 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|Qt|content=[https://www.qt.io/developers/ Qt]}}
 
 
-{{defn|1=A cross-platform application and user interface framework. Also Qt4.}}
+{{defn|defn=Un'applicazione multipiattaforma e un framework di interfaccia utente.}}
 
 
 {{glossend}}
@@ -833,7 +839,7 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|Revolve}}
 
 
-{{defn|defn=A tool in the [Part](Part_Workbench.md) [workbench](#Workbench.md). See [Part Revolve](Part_Revolve.md).}}
+{{defn|defn=Uno strumento del [Part](Part_Workbench/it.md) [workbench](#Workbench.md). Vedere [Part Revolve](Part_Revolve/it.md).}}
 
 
 {{term|Robot}}
@@ -845,7 +851,7 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|Rotate}}
 
 
-{{defn|defn=Action to spin an object unto an axis to change its orientation in space.}}
+{{defn|defn=Azione per ruotare un oggetto su un asse o per cambiarne l'orientamento nello spazio.}}
 
 
 {{glossend}}
@@ -865,85 +871,85 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|Self Intersection}}
 
 
-{{defn|defn=A condition where a curve crosses over itself (ex.'8','&'). This confuses geometric kernel algorithms and generally produces an error condition.}}
+{{defn|defn=Una condizione in cui una curva attraversa se stessa (es.'8','&'). Ciò confonde gli algoritmi del kernel geometrico e generalmente produce una condizione di errore.}}
 
 
 {{term|Shape}}
 
 
-{{defn|defn=Generic term used in FreeCAD to describe most elements (except for [meshes](#Mesh.md)).}}
+{{defn|defn=Termine generico utilizzato in FreeCAD per descrivere la maggior parte degli elementi (ad eccezione di [Mesh](#Mesh.md)).}}
 
 
 {{term|Shell}}
 
 
-{{defn|defn=Shape made of two or more contiguous [faces](#Face.md). A [manifold](#Manifold.md) (enclosed) shell can be converted into a [solid](#Solid.md).}}
+{{defn|defn=Forma composta da due o più [Face](#Face.md) contigue. Un guscio [Manifold](#Manifold.md) (chiuso) può essere convertito in un [Solid](#Solid.md).}}
 
 
-{{term|1=Sketch}}
+{{term|Sketch}}
 
 
-{{defn|1=A constrained 2D depiction of an object fixed to a plane or a [Face](#Face.md). In FreeCAD a Sketch is always a 2-dimensional object somewhere in the 3D space.}}
+{{defn|defn=Una rappresentazione 2D vincolata di un oggetto fissato su un piano o su una [Face](#Face.md). In FreeCAD uno schizzo è sempre un oggetto bidimensionale da qualche parte nello spazio 3D.}}
 
 
-{{term|Sketcher|content=[Sketcher](Sketcher_Workbench.md)}}
+{{term|Sketcher|content=[Sketcher](Sketcher_Workbench/it.md)}}
 
 
-{{defn|A [workbench](#Workbench.md) used to create 2D geometry by use of [elements](#Element.md) and [constraints](#Constraint.md).}}
+{{defn|defn=Un [Workbench](#Workbench.md) utilizzato per creare geometria 2D mediante l'uso di [Element](#Element.md) e [Constraint](#Constraint.md).}}
 
 
 {{term|Sketcher Solver}}
 
 
-{{defn|defn=The internal FreeCAD mechanism that calculates inter-dependencies and effects of adding, deleting, and modifying geometry and associated constraints in each Sketch. Sketcher Solver also calculates the arrangement of all geometry in each Sketch so it can be displayed correctly.}}
+{{defn|defn=Il meccanismo interno di FreeCAD che calcola le interdipendenze e gli effetti dell'aggiunta, eliminazione e modifica della geometria e dei vincoli associati in ogni schizzo. Sketcher Solver calcola anche la disposizione di tutta la geometria in ogni schizzo in modo che possa essere visualizzata correttamente.}}
 
 
 {{term|Smooth Line}}
 
 
-{{defn|defn=In a Drawing, a line indicating a change between tangent surfaces, as in the transition from a flat surface to a fillet. Also "tangent edge". See [Drawing View](Drawing_View#Modify_an_existing_view.md)}}
+{{defn|defn=In un disegno, una linea che indica un cambiamento tra superfici tangenti, come nella transizione da una superficie piana a un raccordo. Anche "tangent edge". Vedere [Modificare una vista esistente](Drawing_View/it#Modificare_una_vista_esistente.md)}}
 
 
 {{term|Solid}}
 
 
-{{defn|defn=Part of 3D space bounded by [Shells](#Shell.md). A solid has a volume and other properties related to objects with a mass.}}
+{{defn|defn=Parte dello spazio 3D delimitato da [Shells](#Shell.md). Un solido ha un volume e altre proprietà relative agli oggetti come una massa.}}
 
 
 {{term|Solver}}
 
 
-{{defn|defn=See [Sketcher Solver](#Sketcher_Solver.md).}}
+{{defn|defn=Vedere [Sketcher Solver](#Sketcher_Solver.md).}}
 
 
-{{term|1=Stable}}
+{{term|Stable}}
 
 
-{{defn|1=A nickname for the last general release version of the FreeCAD software. This is typically the version available from sources other than the FreeCAD project. Compare with [Unstable](#Unstable.md).}}
+{{defn|defn=Un soprannome per l'ultima versione generale del software FreeCAD. Questa è in genere la versione disponibile da fonti diverse dal progetto FreeCAD. Confrontare con [Unstable](#Unstable.md).}}
 
 
 {{term|STL}}
 
 
-{{defn|''STereoLithography'', also known as ''Standard Tessellation Language.'' A [mesh](#Mesh.md) file format defining only the surface of a 3D object. File extensions is *.stl}}
+{{defn|defn=''STereoLithography'', noto anche come ''Standard Tessellation Language.'' Un formato di file [Mesh](#Mesh.md) che definisce solo la superficie di un oggetto 3D. Le estensioni dei file sono *.stl.}}
 
 
 {{term|STEP}}
 
 
-{{defn|defn=An ISO standard (ISO 10303) for the exchange of 3D data and product manufacturing information. It replaces [IGES](#IGES.md). File extensions are *.step, *.stp.}}
+{{defn|defn=Uno standard ISO (ISO 10303) per lo scambio di dati 3D e informazioni sulla produzione dei prodotti. Sostituisce [IGES](#IGES.md). Le estensioni dei file sono *.step, *.stp.}}
 
 
 {{term|SVG|content=[SVG](SVG.md)}}
 
 
-{{defn|[https://en.wikipedia.org/wiki/Scalable_Vector_Graphics Scalable Vector Graphics]. A vector graphics file format.}}
+{{defn|defn=[https://en.wikipedia.org/wiki/Scalable_Vector_Graphics Scalable Vector Graphics]. Un formato di file di grafica vettoriale.}}
 
 
 {{term|Sweep}}
 
 
-{{defn|defn=A 3D shape generated from at least one 2D cross-section that traces along a trajectory (path). Commonly used to define the tool as well as the created shape. See [http://en.wikipedia.org/wiki/Solid_modeling#Sweeping Solid modeling]}}
+{{defn|defn=Una forma 3D generata da almeno una sezione trasversale 2D che segue una traiettoria (percorso). Comunemente utilizzato per definire lo strumento e la forma creata. Vedere [http://en.wikipedia.org/wiki/Solid_modeling#Sweeping Solid modeling]}}
 
 
 {{glossend}}
@@ -957,58 +963,58 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|Task panel}}
 
 
-{{defn|defn=A [https://en.wikipedia.org/wiki/Panel_(computer_software) control panel] in FreeCAD that displays content specific to the task at hand. It can show available tools in the active [workbench](#Workbench.md) or prompt for values and options while a [command](#Command.md) is active.}}
+{{defn|defn=Un [https://en.wikipedia.org/wiki/Panel_(computer_software) control panel] in FreeCAD che visualizza il contenuto specifico dell'attività da svolgere. Può mostrare gli strumenti disponibili nell'[Workbench](#Workbench.md) attivo o richiedere valori e opzioni mentre un [Command](#Command.md) è attivo.}}
 
 
 {{term|Tasks tab}}
 
 
-{{defn|defn=See [Task panel](#Task_panel.md).}}
+{{defn|defn=Vedere [Task panel](#Task_panel.md).}}
 
 
 {{term|Tessellation}}
 
 
-{{defn|defn=A tessellation of a surface is the tiling of the surface using one or more geometric shapes, called tiles, with no overlaps and no gaps. In FreeCAD it is needed to display the geometric shapes in the 3D-view. The tessellation relative to the dimensions of a shape can be set in the preferences to get a smoother view of round surfaces at the cost of computation time. See [Preferences Editor](Preferences_Editor.md).}}
+{{defn|defn=Una tassellatura di una superficie è la piastrellatura della superficie utilizzando una o più forme geometriche, chiamate tessere, senza sovrapposizioni e senza spazi vuoti. In FreeCAD è necessario visualizzare le forme geometriche nella vista 3D. La tassellatura relativa alle dimensioni di una forma può essere impostata nelle preferenze per ottenere una visualizzazione più uniforme delle superfici rotonde a discapito del tempo di calcolo. Vedere [Editor delle Prefereze](Preferences_Editor/it.md).}}
 
 
 {{term|Thickness}}
 
 
-{{defn|no=1|defn=A measure of how thick a shape is.}}
+{{defn|no=1|defn=Una misura dello spessore di una forma.}}
 
 
-{{defn|no=2|A [Part](Part_Workbench.md) [workbench](#Workbench.md) tool to hollow out a solid and leave a defined uniform thickness.}}
+{{defn|no=2|defn=Uno strumento [Part](Part_Workbench/it.md) [Workbench](#Workbench.md) per scavare un solido e lasciare uno spessore uniforme definito.}}
 
 
 {{term|Toggle}}
 
 
-{{defn|defn=A setting that can be changed between two options, for example between True or False or between Off and On.}}
+{{defn|defn=Un'impostazione che può essere modificata tra due opzioni, ad esempio tra True o False o tra Off e On.}}
 
 
 {{term|Topological Naming}}
 
 
-{{defn|A scheme whereby an edge or face, once created, is assigned a permanent name. Internally, FreeCAD identifies edges and faces on a solid by numbering them such as: Edge1, Edge2, Face1, Face2, etc. The problem is that these IDs are somewhat randomly applied, and they will change after something is done to the model that changes the amount of edges and faces. For example, if the model is revised an item linked to a Face2 could later erroneously become linked to a different face (which was renamed to become the new Face2), causing the user unwanted results.  As of the FreeCAD 0.20 release Topological Naming has not yet been implemented, and so if an object is modified such that the number of edges or faces changes, the names of the edges or faces of that object might change too.}}
+{{defn|defn=Uno schema in base al quale a un bordo oa una faccia, una volta creato, viene assegnato un nome permanente. Internamente, FreeCAD identifica bordi e facce su un solido numerandoli come: Edge1, Edge2, Face1, Face2, ecc. Il problema è che questi ID sono applicati in qualche modo in modo casuale e cambieranno dopo che è stato fatto qualcosa al modello che cambia la quantità di spigoli e facce. Ad esempio, se il modello viene rivisto, un elemento collegato a una Faccia2 potrebbe successivamente essere erroneamente collegato a una faccia diversa (che è stata rinominata per diventare la nuova Faccia2), causando all'utente risultati indesiderati. A partire dalla versione 0.20 di FreeCAD, la denominazione topologica non è stata ancora implementata, quindi se un oggetto viene modificato in modo tale da cambiare il numero di spigoli o facce, potrebbero cambiare anche i nomi degli spigoli o delle facce di quell'oggetto.}}
 
 
 {{term|Torus}}
 
 
-{{defn|A primitive shape.}}
+{{defn|defn=Una forma primitiva.}}
 
 
 {{term|Tracker}}
 
 
-{{defn|defn=Short for bug tracker, the online software application used to keep track of reported bugs or feature requests. See also [Mantis](#Mantis.md).}}
+{{defn|defn=Abbreviazione di bug tracker, l'applicazione software online utilizzata per tenere traccia dei bug segnalati o delle richieste di funzionalità. Vedere anche [Mantis](#Mantis.md).}}
 
 
-{{term|Tree view|content=[Tree view](Tree_view.md)}}
+{{term|Tree view|content=[Tree view](Tree_view/it.md)}}
 
 
-{{defn|defn=The Tree view is a component of the FreeCAD [interface](Interface.md). It can be shown as a separate [GUI](#GUI.md) element or as part of the [Combo View](Combo_View.md). It contains a representation of the document's structure.}}
+{{defn|defn=La vista ad albero è un componente dell'[interfaccia](Interface/it.md) di FreeCAD. Può essere mostrato come un elemento [GUI](#GUI.md) separato o come parte della [Vista Combinata](Combo_View/it.md). Contiene una rappresentazione della struttura del documento.}}
 
 
 {{glossend}}
@@ -1022,19 +1028,19 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|Union}}
 
 
-{{defn|defn=A [Part](Part_Workbench.md) [workbench](#Workbench.md) tool that performs a [Boolean operation](#Boolean_Operation.md) on selected shapes.}}
+{{defn|defn=Uno strumento [Part](Part_Workbench/it.md) [Workbench](#Workbench.md) che esegue una [Boolean operation](#Boolean_Operation.md) sulle forme selezionate.}}
 
 
-{{term|1=Unstable}}
+{{term|Unstable}}
 
 
-{{defn|1=A nickname for a very recent version of the FreeCAD software. This version will contain many changes recently implemented by the developers. It does not typically fail or produce wrong results, but it has not completed testing.}}
+{{defn|defn=Un soprannome per una versione molto recente del software FreeCAD. Questa versione conterrà molte modifiche recentemente implementate dagli sviluppatori. In genere non fallisce o produce risultati errati, ma non ha completato i test.}}
 
 
-{{term|Upgrade|content=[Upgrade](Draft_Upgrade.md)}}
+{{term|Upgrade|content=[Upgrade](Draft_Upgrade/it.md)}}
 
 
-{{defn|defn=A [Draft](Draft_Workbench.md) [workbench](#Workbench.md) tool.}}
+{{defn|defn=Uno strumento [Draft](Draft_Workbench/it.md) [workbench](#Workbench.md).}}
 
 
 {{glossend}}
@@ -1048,25 +1054,25 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|Vector}}
 
 
-{{defn|defn=A magnitude with a direction. Often represented graphically as an arrow in 2 or 3 dimensions. For example, "fifty paces north", "9.8 m/s^2 down", and "(3,5,6) units in the x, y, z, direction, respectively" are all vectors. In FreeCAD, they are most often denoted as ordered pairs (x, y) or ordered triples (x, y, z).}}
+{{defn|defn=Una grandezza con una direzione. Spesso rappresentato graficamente come una freccia in 2 o 3 dimensioni. Ad esempio, "cinquanta passi a nord", "9,8 m/s^2 in basso" e "(3,5,6) unità nelle direzioni x, y, z, rispettivamente" sono tutti vettori. In FreeCAD, sono spesso indicati come coppie ordinate (x, y) o triple ordinate (x, y, z).}}
 
 
 {{term|Vertex}}
 
 
-{{defn|defn=A lone [point](#Point.md) in space, or the corner of a [shape](#shape.md) where [edges](#Edge.md) meet. The open Cascade Technology defines it, as a zero dimensional [shape](#shape.md) corresponding to a point in geometry. See [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 OCCT Profile: Defining the topology]}}
+{{defn|defn=Un [Point](#Point.md) solitario nello spazio, o l'angolo di una [Shape](#Shape.md) dove gli [Edge](#Edge.md) si incontrano. La Open Cascade Technology lo definisce come una [Shape](#Shape.md) di dimensione zero corrispondente a un punto nella geometria. Vedere [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 OCCT Profile: Defining the topology]}}
 
 
 {{term|Vertices}}
 
 
-{{defn|defn=Plural of [Vertex](#Vertex.md)}}
+{{defn|defn=Plurale di [Vertex](#Vertex.md)}}
 
 
 {{term|Viewprovider}}
 
 
-{{defn|defn=General interface for all visual stuff in FreeCAD. A ViewProvider generates and handles all around visualizing and presenting objects from the FreeCAD [App layer](#App.md) to the user. This class and its descendents have to be implemented for any object type in order to show them in the [3D view](#3D_view.md) and [Tree view](#Tree_view.md).}}
+{{defn|defn=Interfaccia generale per tutte le cose visive in FreeCAD. Un ViewProvider genera e gestisce tutto intorno alla visualizzazione e alla presentazione di oggetti dall'[App layer](#App.md) di FreeCAD all'utente. Questa classe e i suoi discendenti devono essere implementati per qualsiasi tipo di oggetto per mostrarli nella [3D view](#3D_view.md) e [Tree view](#Tree_view.md).}}
 
 
 {{glossend}}
@@ -1080,22 +1086,22 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|WB}}
 
 
-{{defn|defn=Short for [workbench](#Workbench.md).}}
+{{defn|defn=Abbreviazione per [Workbench](#Workbench.md).}}
 
 
 {{term|Wire}}
 
 
-{{defn|no=1|A sequence of connected [edges](#Edge.md) by [vertices](#Vertex.md). The term wire is used in this sense mainly by [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 Open Cascade Technology] and therefore also inside of FreeCAD.}}
+{{defn|no=1|defn=Una sequenza di [Edge](#Edge.md) connessi da [Vertice](#Vertex.md). Il termine wire è usato in questo senso principalmente da [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 Open Cascade Technology] e quindi anche all'interno di FreeCAD.}}
 
 
-{{defn|no=2|A [Draft](Draft_Workbench.md) [workbench](#Workbench.md) command that creates a parametric wire.}}
+{{defn|no=2|defn=Un comando [Draft](Draft_Workbench/it.md) [Workbench](#Workbench.md) che crea un wire parametrico.}}
 
 
 {{term|Workbench}}
 
 
-{{defn|defn=Also called a module, each workbench groups a set of tools dedicated to a specific task.}}
+{{defn|defn=Detto anche modulo, ogni workbench raggruppa una serie di strumenti dedicati a un'attività specifica.}}
 
 
 {{glossend}}
@@ -1109,7 +1115,7 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|X}}
 
 
-{{defn|Commonly refers to the 2D or 3D X [axis](#Axis.md).}}
+{{defn|defn=Si riferisce comunemente all'[Axis](#Axis.md) X in 2D o 3D.}}
 
 
 {{glossend}}
@@ -1123,7 +1129,7 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|Y}}
 
 
-{{defn|Commonly refers to the 2D or 3D Y [axis](#Axis.md).}}
+{{defn|defn=Si riferisce comunemente all'[Axis](#Axis.md) Y in 3D.}}
 
 
 {{glossend}}
@@ -1137,7 +1143,7 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|Z}}
 
 
-{{defn|Commonly refers to the 3D Z [axis](#Axis.md).}}
+{{defn|defn=Si riferisce comunemente all'[Axis](#Axis.md) Z in 3D.}}
 
 
 {{glossend}}

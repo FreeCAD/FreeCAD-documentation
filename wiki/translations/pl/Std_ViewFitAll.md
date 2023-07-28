@@ -10,9 +10,13 @@
 
 # Std ViewFitAll/pl
 
+
+
 ## Opis
 
 Polecenie **Przybliż i dopasuj wszystko** powiększa i przesuwa ujęcie widoku tak, że wszystkie widoczne obiekty mieszczą się w aktywnym oknie [widoku 3D](3D_view/pl.md).
+
+
 
 ## Użycie
 
@@ -21,11 +25,10 @@ Polecenie **Przybliż i dopasuj wszystko** powiększa i przesuwa ujęcie widoku 
     -   Naciśnij przycisk **<img src="images/Std_ViewFitAll.svg" width=16px> [Przybliż i dopasuj wszystko](Std_ViewFitAll/pl.md)**.
     -   Wybierz z menu opcję **Widok → Widoki standardowe → <img src="images/Std_ViewFitAll.svg" width=16px> Przybliż i dopasuj wszystko**.
     -   Wybierz z menu opcję **<img src="images/Std_ViewFitAll.svg" width=16px> Przybliż i dopasuj wszystko** z menu kontekstowego w oknie [widoku 3D](3D_view/pl.md).
+    -   Wybierz opcję **<img src="images/Std_ViewFitAll.svg" width=16px> Dopasuj wszystko** z menu minikostki [kostki nawigacyjnej](Navigation_Cube/pl.md).
     -   Użyj skrótu klawiaturowego: **V**, a następnie **F**.
 
-## Uwagi
 
--   Można również przełączyć się do trybu widoku *Przybliż i dopasuj wszystko* za pomocą menu Mini-sześcianu [kostki nawigacyjnej](Navigation_Cube/pl.md).
 
 ## Tworzenie skryptów 
 

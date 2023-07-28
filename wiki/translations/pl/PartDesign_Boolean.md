@@ -1,13 +1,15 @@
 ---
 - GuiCommand:/pl
    Name:PartDesign Boolean
-   Name/pl:Projekt Części: Operacje logiczne
+   Name/pl:Projekt Części: Operacja logiczna
    MenuLocation:Projekt Części → Operacja logiczna
    Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
 ---
 
 # PartDesign Boolean/pl
+
+
 
 ## Opis
 
@@ -18,6 +20,8 @@
 
 
 *Po lewej: aktywna zawartość ''(A)'' z bryłami narzędziowymi ''(B)'' i ''(C)''. Po prawej: wynik po wykonaniu operacji przecięcia.*
+
+
 
 ## Użycie
 
@@ -30,12 +34,16 @@
 
 Alternatywnie można wybrać jedną lub więcej brył przed użyciem przycisku Operacji logicznej, zostaną one dodane automatycznie.
 
+
+
 ## Opcje
 
 -   **Scalenie:** łączy bryłę lub bryły narzędzia z bryłą aktywną.
 -   **Wytnij:** odejmuje bryłę lub bryły narzędzia od bryły aktywnej.
 -   **Część wspólna:** wycina obszar wspólny z wybranej zawartości, lub kilku zawartości z aktywną zawartością
 -   Naciśnij przycisk **Usuń zawartość**, aby usunąć zawartość, zaznaczając ją w oknie [widoku 3D](3D_view/pl.md).
+
+
 
 ## Właściwości
 
@@ -53,6 +61,8 @@ Alternatywnie można wybrać jedną lub więcej brył przed użyciem przycisku O
 -    **Wybieralne**: możliwe wartości {{true/pl}} lub {{false/pl}}. Jeśli ustawiono wartość false, element nie może być wybrany w oknie widoku 3D.
 
 -    **Widoczność**: możliwe wartości {{true/pl}} lub {{false/pl}}. Przełącza widoczność elementu w oknie widoku 3D.
+
+
 
 ## Ograniczenia
 

@@ -10,6 +10,8 @@
 
 # PartDesign SubShapeBinder/pl
 
+
+
 ## Opis
 
 Narzędzie **Łącznik kształtów podrzędnych** tworzy spoiwo kształtu odwołujące się do geometrii z jednego lub więcej obiektów nadrzędnych. Narzędzie Łącznik kształtów podrzędnych jest zazwyczaj używane wewnątrz [zawartości](PartDesign_Body/pl.md) do odwoływania się do geometrii spoza Zawartości. Używanie zewnętrznej geometrii bezpośrednio w bryle jest niedozwolone i prowadzi do błędów wykraczających poza zakres. Jednak Łącznik kształtów podrzędnych może być również używany bez zagnieżdżania w Zawartości.
@@ -25,7 +27,11 @@ Z prawej strony dwie bryły Łącznika kształtów podrzędnych odwołujące si�
 <img alt="" src=images/PartDesign_SubShapeBinder_example_3.png  style="width:" height="300px;"> 
 *Dwa obiekty Łącznik kształtu podrzędnego są używane do utworzenia obiektu [przecięcia logicznego](PartDesign_Boolean/pl.md) i [wyciągnięcia](PartDesign_Pad/pl.md) w drugim korpusie.*
 
+
+
 ## Użycie
+
+
 
 ### W tym samym dokumencie 
 
@@ -39,6 +45,8 @@ Z prawej strony dwie bryły Łącznika kształtów podrzędnych odwołujące si�
 1.  Zostanie utworzony Łącznik kształtów podrzędnych.
 2.  Jeśli w dokumencie jest tylko jeden obiekt Zawartość, obiekt Łącznik kształtów podrzędnych jest do niego automatycznie dodawany, a Zawartość zostaje automatycznie aktywowana. Jeśli tak jest, a Łącznik kształtów podrzędnych nie powinien być zagnieżdżony, można go przeciągnąć z Zawartości i upuścić na węzeł dokumentu <img alt="" src=images/Document.svg  style="width:16px;"> w oknie [widoku drzewa](Tree_view/pl.md).
 
+
+
 ### W dokumencie zewnętrznym 
 
 1.  W razie potrzeby otwórz dokument źródłowy *(dokument zewnętrzny)* i dokument docelowy. Oba dokumenty muszą być zapisane co najmniej raz.
@@ -46,6 +54,8 @@ Z prawej strony dwie bryły Łącznika kształtów podrzędnych odwołujące si�
 3.  Wybierz żądaną geometrię w dokumencie źródłowym. Elementy podrzędne można wybrać tylko w oknie [widoku 3D](3D_view/pl.md).
 4.  Przełącz się do dokumentu docelowego, klikając jego kartę w [Głównym obszarze widoku](Main_view_area/pl.md).
 5.  Wywołaj narzędzie w sposób opisany powyżej.
+
+
 
 ### Zacznij od pustego Łącznika kształtów podrzędnych 
 
@@ -56,12 +66,16 @@ Z prawej strony dwie bryły Łącznika kształtów podrzędnych odwołujące si�
 5.  Opcjonalnie dodaj więcej geometrii w ten sam sposób.
 6.  Aby zastąpić już istniejącą geometrię, przytrzymaj klawisz **Ctrl** podczas operacji przeciągania i upuszczania.
 
+
+
 ## Uwagi
 
 -   Odsunięcie 2D jest obsługiwane dla niektórych typów kształtów, w tym powierzchni płaskich, krawędzi i polilinii. Ponieważ odsunięcie jest trudną operacją dla programu, nie zawsze się udaje. {{Version/pl|0.20}}
 -   Łącznik kształtów podrzędnych, który nie jest zagnieżdżony w bryle, może zostać użyty jako [cecha podstawowa](PartDesign_Body/pl#W.C5.82a.C5.9Bciwo.C5.9B.C4.87_podstawowa.md) dla nowej Zawartości.
 -   Właściwość **Podparcie** zawiera odnośniki do geometrii, do której się odwołujemy. Domyślnie właściwość ta jest tylko do odczytu, ale można ją zmodyfikować, postępując zgodnie z instrukcjami opisanymi w sekcji [Zacznij od pustego Łącznika kształtów podrzędnych](#Zacznij_od_pustego_.C5.81.C4.85cznika_kszta.C5.82t.C3.B3w_podrz.C4.99dnych.md).
 -   Łącznik kształtów podrzędnych utworzony ze szkicu może mieć przeciwny \"kierunek narzędzia\". Na przykład [wyciągnięcie](PartDesign_Pad/pl.md) utworzone ze szkicu może rozciągać się w kierunku +Y, podczas gdy [wyciągnięcie](PartDesign_Pad/pl.md) o tych samych właściwościach utworzone z Łącznika kształtów podrzędnych rozciąga się w kierunku -Y. Przełączenie właściwości **Odwrócony** *(lub pola wyboru)* rozwiąże ten problem.
+
+
 
 ## Łącznik kształtu obiektu podrzędnego kontra łącznik kształtu 
 
@@ -75,14 +89,18 @@ Główne różnice to:
 -   Łącznik kształtów podrzędnych środowiska pracy Projekt Części zawsze śledzi względne umiejscowienie geometrii, do której się odwołuje. Dla Łącznika kształtu to zachowanie jest opcjonalne poprzez jego właściwość **Śledź podparcie**.
 -   Tylko narzędzie Łącznik kształtów podrzędnych obsługuje odsunięcie 2D.
 
+
+
 ## Właściwości
 
 Obiekt Łącznik kształtów podrzędnych środowiska Projekt Części wywodzi się z obiektu [Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada również następujące dodatkowe właściwości:
 
+
+
 ### Dane
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Support|XLinkSubList**: podparcie geometrii.
 
@@ -127,6 +145,8 @@ Obiekt Łącznik kształtów podrzędnych środowiska Projekt Części wywodzi s
 -    **Offset Open Result|Bool**: Wpływa na sposób przetwarzania otwartych polilinii. Jeśli parametr zostanie ustawiony na wartość `False`, zostanie utworzona otwarta polilinia. Jeśli {{TRUE/pl}}, powstanie zamknięta polilinia z dwustronnego odsunięcia, z zaokrągleniami wokół otwartych wierzchołków. {{Version/pl|0.20}}
 
 -    **Offset Intersection|Bool**: Wpływa na sposób przetwarzania złożeń. Jeśli parametr ten zostanie ustawiony na wartość {{FALSE/pl}}, wszystkie elementy potomne są przetwarzane niezależnie. Jeśli {{TRUE/pl}}, a elementami potomnymi są krawędzie i polilinie, są one odsuwane w sposób zbiorczy. {{Version/pl|0.20}}
+
+
 
 ## Odnośniki internetowe 
 

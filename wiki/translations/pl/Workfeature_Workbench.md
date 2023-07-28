@@ -1,38 +1,50 @@
-# <img alt="Workfeature workbench icon" src=images/WF_wf.png  style="width:64px;"> Workfeature Workbench/pl
+# <img alt="Ikonka FreeCAD dla środowiska pracy Funkcja robocza" src=images/WF_wf.png  style="width:64px;"> Workfeature Workbench/pl
 
 
-{{Note|Note|Merge with [[Macro_WorkFeatures]]??}}
+{{Note|Note|Połączyć z [makrodefinicją](Macro_WorkFeatures/pl.md)??}}
 
 
 {{TOCright}}
 
-## Introduction
 
-Tool utility to create
 
--   Origin (X, Y Z axes, Origin (0,0,0) point and XZ, XY, YZ planes)
--   Points (Center of Mass of object(s), mid points, center of circle, \...),
--   Axes (from 2 points, Normal of a plane\...),
--   Planes (from 3 points, from one axis and a point\...) and many other useful features to facilitate the creation of your project.
+## Wprowadzenie
 
-## References
+Narzędzie do tworzenia
 
--   Author: [Rentlau](https://github.com/Rentlau)
--   Home page: [WorkFeature](https://github.com/Rentlau/WorkFeature)
--   Source code on github: [WorkFeature](https://github.com/Rentlau/WorkFeature)
+-   Początki *(osie X, Y, Z, punkt początkowy (0,0,0) i płaszczyzny XZ, XY, YZ)*,
+-   Punkty *(środek masy obiektu(ów), punkty środkowe, środek okręgu, \...)*,
+-   Osie *(od 2 punktów, normalna płaszczyzny\...)*,
+-   Płaszczyzny *(z 3 punktów, z jednej osi i punktu\...)* i wiele innych przydatnych funkcji ułatwiających tworzenie projektu.
 
-## Tools
 
-### Documentation
 
--   Releases Documentation [here](https://github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_releasesDocumentation.pdf) and
--   Full Documentation [here](https://github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_documentation.pdf)
+## Bibliografia
 
-### Toolbar
+-   Autor: [Rentlau](https://github.com/Rentlau)
+-   Strona główna: [WorkFeature](https://github.com/Rentlau/WorkFeature)
+-   Kod źródłowy na GitHub: [WorkFeature](https://github.com/Rentlau/WorkFeature)
+
+
+
+## Narzędzia
+
+
+
+### Dokumentacja
+
+-   Dokumentacja wydania [tutaj](https://github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_releasesDocumentation.pdf) i
+-   Pełna dokumentacja [tutaj](https://github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_documentation.pdf).
+
+
+
+### Pasek narzędzi 
 
 ![](images/WorkFeature-menu-orizz.png )
 
-### Drop down menu 
+
+
+### Menu rozwijane 
 
 ![](images/WorkFeature-dropdown_01.png )
 
@@ -42,37 +54,47 @@ Tool utility to create
 
 ![](images/WorkFeature-dropdown_04.png )
 
-## Installation
 
-### Automatic installation 
 
-This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
+## Instalacja
 
-### From GitHub 
 
-**Prerequisites**
 
-\...\...\...
+### Instalacja automatyczna 
 
-**Linux Installation Instructions**
+To środowisko pracy można zainstalować za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md).
 
-**Windows Installation Instructions**
 
-**Mac Installation Instructions**
 
-## Links to Animation WB 
+### Z repozytorium GitHub 
 
--   Workbench Wiki:
+**Wymagania wstępne**
+
+\...
+
+**Instrukcje instalacji w systemie Linux**
+
+**Instrukcje instalacji w systemie Windows**
+
+**Instrukcje instalacji w systemie Mac**
+
+
+
+## Linki do animacji 
+
+-   Witryna Wiki dla środowiska pracy:
 -   FreeCAD Wiki:
 -   FreeCAD Forum: <http://forum.freecadweb.org/viewtopic.php?f=22&t=9056&start=160>
--   Tutorials:
--   Videos:
--   Files:
--   Report bugs: Please report bugs at [FreeCAD forum](http://forum.freecadweb.org/index.php)
+-   Poradniki:
+-   Filmy:
+-   Pliki:
+-   Zgłaszanie błędów: Prosimy o zgłaszanie błędów na [FreeCAD forum](http://forum.freecadweb.org/index.php)
 
-## Other useful links 
 
--   [External workbenches](External_workbenches.md)
+
+## Inne użyteczne odnośniki 
+
+-   [Zewnętrzne środowiska prracy](External_workbenches/pl.md)
 
 
 

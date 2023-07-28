@@ -8,9 +8,17 @@
 
 # PartDesign WizardShaft/de
 
+
+
 ## Beschreibung
 
-Dieses Werkzeug ermöglicht, eine Welle mit Hilfe einer Wertetabelle zu erstellen und Kräfte und Momente zu analysieren. Der Entwurfsassistent kann über das Menü Part Design gestartet werden **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Entwurfsassistent für Wellen...**.
+Dieses Werkzeug ermöglicht, eine Welle mit Hilfe einer Wertetabelle zu erstellen und Kräfte und Momente zu analysieren.
+
+
+
+## Anwendung
+
+Der Entwurfsassistent kann aus dem PartDesign-Menü **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Entwurfsassistent für Wellen...** gestartet werden.
 
 Der Entwurfsassistent startet und zeigt eine Standardtabelle, den entsprechenden Wellenteil und Kraft-/Momenten-Diagramme an.
 
@@ -20,9 +28,13 @@ Der obere Teil des Fensters wird von der Tabelle eingenommen. Diese ist in numme
 
 <img alt="" src=images/shaftwizard1.jpg  style="width:1024px;">
 
+
+
 ## Voraussetzungen
 
 Der Entwurfsassistent für Wellen hängt von der Bibliothek [matplotlib](http://matplotlib.org/) ab, um die Diagramme der Scherkraft und des Biegemoments zu erstellen und anzuzeigen. Auf Debian / Ubuntu-basierten Systemen ist diese über das Paket python-matplotlib verfügbar.
+
+
 
 ## Parameter
 
@@ -37,13 +49,19 @@ Für jedes Wellensegment können die folgenden Parameter definiert werden:
 -   Belastung des Wellensegments
 -   Position, an der die Last auf das Segment aufgebracht wird. Der Standort wird vom linken Rand des Segments gezählt (andere Zeilen und Lastarten existieren, aber es ist noch keine Funktionalität implementiert)
 
+
+
 ## Menüs
 
 Um ein neues Wellensegment hinzuzufügen, klickt man mit der rechten Maustaste in den leeren Bereich rechts neben der Tabelle und wählt \"Add column\" (Spalte hinzufügen) aus.
 
+
+
 ## Einschränkungen
 
 -   Es ist nicht möglich, benachbarte Wellensegmente mit demselben Durchmesser zu haben.
+
+
 
 ## Geplante Funktionalität 
 

@@ -4,9 +4,9 @@
 |Icon=easy-alias-icon.png
 |Description=Use this to quickly and easily create aliases for cells in your spreadsheets. It takes the text labels you will have already created in one column and uses those labels as aliases in the next column.
 |Author=TheMarkster
-|Version=2022.07.31
-|Date=2022-07-31
-|FCVersion=All
+|Version=2022.04.27
+|Date=2023-04-27
+|FCVersion=0.20
 |Download=[https://www.freecadweb.org/wiki/images/5/5e/Easy-alias-icon.png ToolBar Icon]
 }}
 
@@ -31,13 +31,14 @@ ToolBar icon ![](images/easy-alias-icon.png )
 {{MacroCode|code=
 # -*- coding: utf-8 -*-
 import FreeCAD
+import re
 from PySide import QtGui
 
 """
 EasyAlias.FCMacro.py
 
-This macro can be used to easily create aliases based on the content of selected spreadsheet 
-cells in the previous column.  As an example, suppose you wish to have the following:
+This macro can be used to easily create aliases based on the contents of selected spreadsheet
+cells in the previous column. As an example, suppose you wish to have the following:
 
 A1: content = 'radius', B1: content = '5', alias = 'radius'
 A2: content = 'height', B1: content = '15', alias = 'height'
@@ -78,114 +79,131 @@ Done
 """
 
 __title__ = "EasyAlias"
-__author__ = "TheMarkster"
+__author__ = "TheMarkster and rosta"
 __url__ = "https://wiki.freecadweb.org/Macro_EasyAlias"
 __Wiki__ = "https://wiki.freecadweb.org/Macro_EasyAlias"
-__date__ = "2022.07.31" #year.month.date
+__date__ = "2023.04.27" #year.month.date
 __version__ = __date__
 
+CELL_ADDR_RE = re.compile(r"([A-Za-z]+)([1-9]\d*)")
+CUSTOM_ALIAS_RE = re.compile(r".*\((.*)\)")
+MAGIC_NUMBER = 64
+REPLACEMENTS = {
+    " ": "_",
+    ".": "_",
+    "ä": "ae",
+    "ö": "oe",
+    "ü": "ue",
+    "Ä": "Ae",
+    "Ö": "Oe",
+    "Ü": "Ue",
+    "ß": "ss"
+}
 
-def getSelected(selected_sheet):
-    """returns a QModelIndex object or None if none are selected
-   use [0] to get at first cell in the selection
-   use [0].row() to get first cell's row
-   use [0].column() to get first cell's column
-   use [-1] to get last cell in the selection
-"""
-    mw=FreeCADGui.getMainWindow()
-    mdiarea=mw.findChild(QtGui.QMdiArea)
-    subw=mdiarea.subWindowList()
-    widgets = []
-    for i in subw:
-        if i.widget().metaObject().className() == "SpreadsheetGui::SheetView":
-            widgets.append(i.widget())
-    if len(widgets) > 1:
-        FreeCAD.Console.PrintError("Having more than one spreadsheet view open at a time can confuse the macro.  Close the other sheet views and try again\n")
-        return None
-    elif len(widgets) == 1:
-        return widgets[0].findChild(QtGui.QTableView).selectedIndexes()
-    return None
+def getSpreadsheets():
+    """
+    Returns a set of selected spreadsheets in the active document or None if none is selected.
+    :returns: a set of selected spreadsheets in the active document or None if none is selected
+    :rtype: set
+    """
 
-def getSelectedCellIndices(selected_sheet):
-    """returns selected cell indices in the form of a list of tuples (row,col)
-    or None if no cells are selected.  Raises exception if more than one column selected.
-"""
-    sel = getSelected(selected_sheet)
-    if not sel:
-        FreeCAD.Console.PrintWarning('Select the spreadsheet in the tree view in addition to selecting the cells in the active view.\n')
-        return []
-    elif sel[0].column() != sel[-1].column():
-        raise Exception('Multiple columns selected.  Only cells from a single column are supported.')
+    spreadsheets = set()
+    for selectedObject in Gui.Selection.getSelection():
+        if selectedObject.TypeId == 'Spreadsheet::Sheet':
+            spreadsheets.add(selectedObject)
+        elif selectedObject.TypeId == "App::Link":
+            linkedObject = selectedObject.LinkedObject
+            if linkedObject.TypeId == 'Spreadsheet::Sheet':
+                spreadsheets.add(linkedObject)
+    return spreadsheets
 
-    col = sel[0].column()
-    cellIndices=[] #will be list of tuples in form of (row,col)
-    for c in sel:
-        cellIndices.append((c.row(),c.column()))
-    return cellIndices
+# The original implementatin of a1_to_rowcol and rowcol_to_a1 can be found here:
+# https://github.com/burnash/gspread/blob/master/gspread/utils.py
 
-def getCellIndexNextColumn(ci):
-   return (ci[0],ci[1]+1) #(ci[0],ci[1]+1) gets cellIndex of the next cell to the right (next column)
+def a1_to_rowcol(label:str):
+    """Translates a cell's address in A1 notation to a tuple of integers.
+    :param str label: A cell label in A1 notation, e.g. 'B1'. Letter case is ignored.
+    :returns: a tuple containing row and column numbers. Both indexed from 1 (one).
+    :rtype: tuple
+    Example:
+    >>> a1_to_rowcol('A1')
+    (1, 1)
+    """
 
+    match = CELL_ADDR_RE.match(label)
 
-def getSpreadsheet():
-    """return first selected spreadsheet object in document or None if none selected."""
-    selObj = FreeCADGui.Selection.getSelectionEx()
-    if not selObj:
-        return None
-    for obj in selObj:
-        if 'Spreadsheet::Sheet' in obj.Object.TypeId:
-            return obj.Object
-        elif "App::Link" in obj.Object.TypeId:
-            if 'Spreadsheet::Sheet' in obj.Object.LinkedObject.TypeId:
-                return obj.Object.LinkedObject
+    row = int(match.group(2))
 
-def getCellContent(sheet, cellIndex):
-    """sheet is the spreadsheet object, cellIndex is a tuple in the form of (row,col), e.g. (3,2) to get cell
-contents of cell(3,2) of sheet, in other words C2.  Return value is content of cell."""
-    address = cellIndexToAddress(cellIndex)
-    return sheet.get(address)
+    column_label = match.group(1).upper()
+    column = 0
+    for i, c in enumerate(reversed(column_label)):
+        column += (ord(c) - MAGIC_NUMBER) * (26**i)
 
-def cellIndexToAddress(cellIndex):
-    chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-    r,c = cellIndex
-    if c > 26:
-        raise StandardError('Columns beyond Z are not supported at this time.')
-    address = chars[c]+str(r+1)
-    return address
+    return (row, column)
 
-#thanks to Ouriço for this modification to allow parentheses to define the alias
-#within the substring
-def setAlias(sheet, cellIndex, alias):
-    address = cellIndexToAddress(cellIndex)
-    # extract any text between () and use that as the alias.
-    # If brackets not found then use the original alias.
-    firstidx  = alias.find('(')
-    secondidx = alias.find(')')
-    if (firstidx != -1) and (secondidx != -1) and (firstidx < secondidx):
-        alias = alias[firstidx + 1 : secondidx]
-    sheet.setAlias(address, alias)
+def rowcol_to_a1(row:int, column:int):
+    """Translates a row and column cell address to A1 notation.
+    :param row: The row of the cell to be converted. Rows start at index 1.
+    :type row: int, str
+    :param col: The column of the cell to be converted. Columns start at index 1.
+    :type row: int, str
+    :returns: a string containing the cell's coordinates in A1 notation.
+    Example:
+    >>> rowcol_to_a1(1, 1)
+    A1
+    """
 
-s = getSpreadsheet()
-if not s:
-    raise Exception('No spreadsheet selected.  Please select a spreadsheet in the tree view.')
-cellIndices = getSelectedCellIndices(s)
-if len(cellIndices) == 0:
-    FreeCAD.Console.PrintWarning("Unable to get selected cell indices.\n");
-s.Document.openTransaction("EasyAlias")
-for ci in cellIndices:
-    #FreeCAD.Console.PrintMessage("setting alias: "+s.Name+'['+str(cellIndexToAddress(getCellIndexNextColumn(ci)))+"] ---> "+getCellContent(s,ci).replace(' ','_')+"\n")
-# credit to red6rick for this bit of code to allow for skipped rows
-    addr = cellIndexToAddress(ci)          
-    if (len(s.getContents(addr)) > 0):
-       try:
-           setAlias(s, getCellIndexNextColumn(ci), str(getCellContent(s,ci).replace(' ','_').replace('.','_')))  #use e.g. content of A5 as alias for B5
-       except:
-           FreeCAD.Console.PrintError("Error.  Unable to set alias: "+getCellContent(s,ci).replace(' ','_')+" for spreadsheet: "+str(s)+" cell "+cellIndexToAddress(getCellIndexNextColumn(ci))+"\n")
-           FreeCAD.Console.PrintError("Remember, aliases cannot begin with a numeral or an underscore or contain any invalid characters.\n")
-s.Document.commitTransaction()
+    row = int(row)
 
+    column = int(column)
+    dividend = column
+    column_label = ""
+    while dividend:
+        (dividend, mod) = divmod(dividend, 26)
+        if mod == 0:
+            mod = 26
+            dividend -= 1
+        column_label = chr(mod + MAGIC_NUMBER) + column_label
 
-App.ActiveDocument.recompute()
+    label = "{}{}".format(column_label, row)
+
+    return label
+
+def textToAlias(text:str):
+    # support for custom aliases between parentheses
+    match = CUSTOM_ALIAS_RE.match(text)
+    if match:
+        return match.group(1)
+
+    for character in REPLACEMENTS:
+        text = text.replace(character,REPLACEMENTS.get(character))
+    return text
+
+def main():
+    spreadsheets = getSpreadsheets()
+    if not spreadsheets:
+        QtGui.QMessageBox.critical(None, "Error",
+            "No spreadsheet selected.\nPlease select a spreadsheet in the tree view.")
+        return
+    for spreadsheet in spreadsheets:
+        for selectedCell in spreadsheet.ViewObject.getView().selectedCells():
+            contents = spreadsheet.getContents(selectedCell)
+            if contents:
+                alias = textToAlias(contents)
+                row, column = a1_to_rowcol(selectedCell)
+                nextCell = rowcol_to_a1(row, column + 1)
+                try:
+                    spreadsheet.setAlias(nextCell, alias)
+                except:
+                    QtGui.QMessageBox.critical(None, "Error",
+                        "Unable to set alias <i>" + alias + "</i> at cell " + nextCell +
+                        "<br>in spreadsheet <i>" + spreadsheet.FullName + "</i>." +
+                        "<br><br><b>Remember, aliases cannot begin with a numeral or an " +
+                        "underscore or contain any invalid characters.</b>")
+
+    App.ActiveDocument.recompute()
+
+main()
 }}
 
 

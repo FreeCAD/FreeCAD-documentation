@@ -9,19 +9,34 @@
 
 # TechDraw ToggleFrame/ru
 
+
+</div>
+
+
+
 ## Описание
 
-The Toggle tool turns the display of View frames, labels and vertices on or off.
+The **TechDraw ToggleFrame** tool turns the display of View frames, labels and vertices on or off.
 
 <img alt="" src=images/TechDraw_ToggleFrame.png  style="width:400px;"> 
 *View of the solid projection with frames turned on and turned off*
 
+
+
 ## Применение
 
-1.  If you have multiple drawing pages in your document, you will need to select the desired page in the tree.
-2.  Press the **<img src="images/TechDraw_ToggleFrame.svg" width=16px> [Turn View Frames On/Off](TechDraw_ToggleFrame.md)** button.
-3.  If View frames are currently visible, they will disappear. If View frames are not visible, they will appear.
-4.  It is possible for different Views to be in different states of frame display. If this happens, press the **<img src="images/TechDraw_ToggleFrame.svg" width=16px> [Turn View Frames On/Off](TechDraw_ToggleFrame.md)** button once or twice to resynchronize the Views.
+1.  If there are multiple drawing pages in the document: optionally activate the desired page by selecting it in the [Tree view](Tree_view.md).
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_ToggleFrame.svg" width=16px> [Turn View Frames On/Off](TechDraw_ToggleFrame.md)** button.
+    -   Select the **TechDraw → TechDraw Views → <img src="images/TechDraw_ToggleFrame.svg" width=16px> Turn View Frames On/Off** option from the menu.
+    -   If a page is displayed in the [Main view area](Main_view_area.md): right-click the page\'s window and select the **Toggle Frames** option from the context menu.
+3.  If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
+    1.  Select the desired page.
+    2.  Press the **OK** button.
+4.  Currently visible View frames will disappear. Currently invisible View frames will appear.
+5.  It is possible for different Views to be in different states of frame display. If this happens, invoke this tool once or twice to resynchronize the Views.
+
+
 
 ## Механизм работы 
 
@@ -30,6 +45,8 @@ The dotted view frame and the vertex dots are just for reference, they aren\'t a
 The suggested workflow is to use **<img src="images/TechDraw_ToggleFrame.svg" width=16px> [Turn View Frames On/Off](TechDraw_ToggleFrame.md)** to deactivate the frame surrounding the view, and also the additional dots. With the dots, use the measurement tools to select the correct edges to measure, then toggle the frame (and dots) off to see the final result. Not satisfied? Toggle the frame (and dots) on again, select other vertices and create new measurements, then toggle the frame off again.
 
 You can adjust the size of the vertex dots in the [TechDraw Preferences/Scale tab](TechDraw_Preferences#Scale.md). Please do not set their size to zero, just small or big enough so it\'s comfortable for you to pick them up.
+
+
 
 ## Программирование
 

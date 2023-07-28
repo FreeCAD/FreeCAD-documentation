@@ -24,7 +24,7 @@ Die Entwickler von Entwurf, Architektur und BIM arbeiten auch mit der größeren
 
 ## Installieren
 
-Der BIM Arbeitsbereich ist nicht mit dem Standard FreeCAD Paket gebündelt, kann aber einfach über den <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert werden. Rufe ihn vom **Werkzeuge → [Erweiterungsverwalter](Std_AddonMgr/de.md)** auf. Der BIM Arbeitsbereichscode ist [bereitgestellt und entwickelt auf github](https://github.com/yorikvanhavre/BIM_Workbench) und kann auch manuell installiert werden, indem er in das FreeCAD Verzeichnis **MOD** kopiert wird.
+Der BIM-Arbeitsbereich ist nicht mit dem Standard-FreeCAD-Paket gebündelt, kann aber einfach über den <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) installiert werden. Rufe ihn mit **Werkzeuge → Addon-Manager** auf. Der BIM Arbeitsbereichscode ist [bereitgestellt und entwickelt auf github](https://github.com/yorikvanhavre/BIM_Workbench) und kann auch manuell installiert werden, indem er in das FreeCAD-Verzeichnis **MOD** kopiert wird.
 
 **Hinweis**
 

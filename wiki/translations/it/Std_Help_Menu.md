@@ -3,99 +3,59 @@
 
 {{TOCright}}
 
-## Introduction
 
-The **Std Help Menu** is one of the 7 sub-menus in the [standard menu](Standard_Menu.md):
+
+## Introduzione
+
+Il menu **Aiuto** è uno dei sette sottomenu del [menu standard](Standard_Menu/it.md):
 
 
 {{StdMenu
 |
-[File](Std_File_Menu.md)
+[File](Std_File_Menu/it.md)
 &nbsp;&nbsp;&nbsp;
-[Edit](Std_Edit_Menu.md)
+[Modifica](Std_Edit_Menu/it.md)
 &nbsp;&nbsp;&nbsp;
-[View](Std_View_Menu.md)
+[Visualizza](Std_View_Menu/it.md)
 &nbsp;&nbsp;&nbsp;
-[Tools](Std_Tools_Menu.md)
+[Strumenti](Std_Tools_Menu/it.md)
 &nbsp;&nbsp;&nbsp;
-[Macro](Std_Macro_Menu.md)
+[Macro](Std_Macro_Menu/it.md)
 &nbsp;&nbsp;&nbsp;
-[Windows](Std_Windows_Menu.md)
+[Finestre](Std_Windows_Menu/it.md)
 &nbsp;&nbsp;&nbsp;
-[Help](Std_Help_Menu.md)
+[Aiuto](Std_Help_Menu/it.md)
 }}
 
-The Help menu provides access to the help system and links to the FreeCAD website and forum.
-
-## Tools
-
-The following tools are available in this menu:
+Il menu Aiuto fornisce l\'accesso al sistema di guida e collegamenti al sito Web e al forum di FreeCAD.
 
 
-<div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Std_OnlineHelp.svg  style="width:32px;"> [Aiuto](Std_OnlineHelp/it.md). Apre il file della guida offline, disponibile solo con le versioni stabili.
+## Strumenti
 
+In questo menu sono disponibili i seguenti strumenti:
 
-</div>
+-   <img alt="" src=images/Std_OnlineHelp.svg  style="width:32px;"> [Aiutoː](Std_OnlineHelp/it.md) Apre la documentazione di aiuto.
 
+-   <img alt="" src=images/Std_FreeCADWebsite.svg  style="width:32px;"> [Sito Web di FreeCADː](Std_FreeCADWebsite/it.md) Apre il sito Web principale del progetto FreeCAD.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Std_FreeCADDonation.svg  style="width:32px;"> [Donazione](Std_FreeCADDonation/it.md): Apre la pagina wiki di FreeCAD Donate.
 
--   <img alt="" src=images/Std_FreeCADWebsite.svg  style="width:32px;"> [Sito Web di FreeCAD](Std_FreeCADWebsite/it.md). Apre il sito Web di FreeCAD nell\'applicazione browser Web standard.
+-   <img alt="" src=images/Std_FreeCADUserHub.svg  style="width:32px;"> [Documentazione utenteː](Std_FreeCADUserHub/it.md) Apre la pagina wiki della documentazione degli utenti di FreeCAD.
 
+-   <img alt="" src=images/Std_FreeCADPowerUserHub.svg  style="width:32px;"> [Documentazione sugli script pythonː](Std_FreeCADPowerUserHub/it.md) Apre la pagina wiki della documentazione per gli utenti esperti di FreeCAD.
 
-</div>
+-   <img alt="" src=images/Std_PythonHelp.svg  style="width:32px;"> [Documentazione automatica sui moduli Pythonː](Std_PythonHelp/it.md) Apre l\'indice python dei moduli nell\'applicazione browser Web standard.
 
+-   <img alt="" src=images/Std_FreeCADForum.svg  style="width:32px;"> [Forum di FreeCADː](Std_FreeCADForum/it.md) Apre il forum di FreeCAD.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Std_FreeCADFAQ.svg  style="width:32px;"> [FAQ su FreeCADː](Std_FreeCADFAQ/it.md) Apre la pagina wiki delle domande frequenti di FreeCAD.
 
--   <img alt="" src=images/Std_FreeCADUserHub.svg  style="width:32px;"> [Documentazione utente](Std_FreeCADUserHub/it.md). Apre l\'hub utente del wiki di FreeCAD nell\'applicazione browser Web standard.
+-   <img alt="" src=images/Std_ReportBug.svg  style="width:32px;"> [Segnala un bug](Std_ReportBug/it.md): Apre la pagina GitHub dei problemi di FreeCAD.
 
+-   <img alt="" src=images/Std_About.svg  style="width:32px;"> [Informazioni su FreeCADː](Std_About/it.md) Apre una finestra di dialogo con informazioni su FreeCAD.
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Std_FreeCADPowerUserHub.svg  style="width:32px;"> [Documentazione sugli script python](Std_FreeCADPowerUserHub/it.md). Apre l\'hub degli utenti esperti del wiki di FreeCAD nell\'applicazione browser Web standard.
-
-
-</div>
-
--   <img alt="" src=images/Std_PythonHelp.svg  style="width:32px;"> [Documentazione automatica sui moduli Python](Std_PythonHelp/it.md). Apre l\'indice python dei moduli nell\'applicazione browser Web standard.
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Std_FreeCADForum.svg  style="width:32px;"> [Forum di FreeCAD](Std_FreeCADForum/it.md). Apre il forum di FreeCAD nell\'applicazione browser Web standard.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Std_FreeCADFAQ.svg  style="width:32px;"> [FAQ su FreeCAD](Std_FreeCADFAQ/it.md). Apre la pagina delle domande frequenti (FAQ) di FreeCAD nell\'applicazione standard del browser Web.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Std_About.svg  style="width:32px;"> [Informazioni su FreeCAD](Std_About/it.md). Apre una finestra che mostra le informazioni sull\'installazione di FreeCAD.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Std_WhatsThis.svg  style="width:32px;"> [Cos\'è questo?](Std_WhatsThis/it.md). Apre la pagina della guida per una specifica funzione di FreeCAD, nella documentazione della guida offline.
-
-
-</div>
+-   <img alt="" src=images/Std_WhatsThis.svg  style="width:32px;"> [Cos\'è questo?ː](Std_WhatsThis/it.md) Apre la documentazione della guida per un comando.
 
 
 

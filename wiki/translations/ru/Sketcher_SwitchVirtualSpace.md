@@ -9,9 +9,13 @@
 
 # Sketcher SwitchVirtualSpace/ru
 
+
+
 ## Описание
 
 The FreeCAD Sketcher has two virtual spaces on which constraints can be set. Usually all constraints gets set on virtual space one. You can move some constraints to virtual space two. This can help to inspect only on a few constraints at a time.
+
+
 
 ## Применение
 

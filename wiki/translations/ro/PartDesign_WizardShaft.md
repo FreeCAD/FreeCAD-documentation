@@ -17,6 +17,10 @@ Acest instrument vă permite să creați un arbore dintr-o tabelă de valori și
 
 </div>
 
+## Usage
+
+You can start the wizard from the Part Design menu **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Shaft design wizard...**.
+
 
 <div class="mw-translate-fuzzy">
 

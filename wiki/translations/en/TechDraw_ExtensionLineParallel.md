@@ -12,7 +12,7 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width:24px;"> **TechDraw ExtensionLineParallel** tool adds a cosmetic line parallel to another line through a vertex.
+The **TechDraw ExtensionLineParallel** tool adds a cosmetic line parallel to another line through a vertex.
 
 <img alt="" src=images/TechDraw_ExtensionLineParallelExample.png  style="width:250px;"> 
 *On the right an added cosmetic parallel line*
@@ -23,7 +23,7 @@ The <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width:24px
 2.  Select a straight edge to determine the direction and the length of the line.
 3.  Select a vertex to determine the position of the line.
 4.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionLineParallel.svg" width=16px> [TechDraw ExtensionLineParallel](TechDraw_ExtensionLineParallel.md)** button.
+    -   Press the **<img src="images/TechDraw_ExtensionLineParallel.svg" width=16px> [Add Cosmetic Parallel Line](TechDraw_ExtensionLineParallel.md)** button.
     -   Select the **TechDraw → Extensions: Centerlines/Threading → <img src="images/TechDraw_ExtensionLineParallel.svg" width=16px> Add Cosmetic Parallel Line** option from the menu.
 5.  A cosmetic line is added.
 

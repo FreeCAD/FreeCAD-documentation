@@ -489,9 +489,9 @@ ISO e altri thread hanno alleviato, cioè bordi piatti, interni ed esterni piutt
 Questo metodo produce solidi affidabili che booleano correttamente. Sebbene non produca filettature \"parametriche\" in dimensioni standard nel senso di avere un accesso semplice alla forma in base alle dimensioni del dispositivo di fissaggio, è un modo semplice di produrre una libreria accurata per il riutilizzo e modelli di forme specializzate come ACME o viti Archimedian , sono anche semplici come one-offs.
 
 
-  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+ {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Thread for Screw Tutorial/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Thread for Screw Tutorial/it

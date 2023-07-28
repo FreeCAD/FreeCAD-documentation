@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -15,7 +17,13 @@ Această comandă exporta [Job](Path_Job.md) selectat într-un fișier cu cod G.
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Fiecare controler CNC vorbește într-un dialect specific G-Cod, care necesită un Postprocesor corect pe dialect pentru a traduce ieșirea finală din dialectul agnostic intern al codului G FreeCAD.
+
+
+</div>
 
 ### Typical functions of the Postprocessor include 
 
@@ -48,6 +56,9 @@ Câteva postprocesoare furnizate generează codul adecvat pentru mai multe contr
 
 **Note:** Several provided Postprocessors generate suitable code for many CNC controllers, or can be used as templates for modification
 
+
+<div class="mw-translate-fuzzy">
+
 Postprocesoarele conțin steaguri de configurare și sunt proiectate pentru a fi reglate prin adăugarea codurilor G și M-Codurilor la definițiile furnizate pentru:
 
 -   Initializarea mașinii
@@ -56,7 +67,16 @@ Postprocesoarele conțin steaguri de configurare și sunt proiectate pentru a fi
 -   Răcire pornită / oprită
 -   Etc \...
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Postprocesoarele utilizează: [https://www.freecadweb.org/wiki/Path_scripting#FreeCAD.27s_internal_GCode_format Path Job Operations FreeCAD G-Code dialect](https://www.freecadweb.org/wiki/Path_scripting#FreeCAD.27s_internal_GCode_format_Path_Job_Operations_FreeCAD_G-Code_dialect.md), în combinație cu definițiile de configurare Postprocessor, pentru a genera G-Codul corect pentru diagramele pentru mașinile țintă. Acest lucru permite ca Atelierul Path să genereze codul G corect pentru a viza diferite controlere de mașini CNC invocând diferite postprocesoare.
+
+
+</div>
 
 CNC Machine Controller types include:
 
@@ -71,7 +91,15 @@ CNC Machine Controller types include:
 -   EDM Cutters
 -   Etc\...
 
+
+<div class="mw-translate-fuzzy">
+
 If only one CNC machine is used, or if all CNC machines share a common Postprocesor, the Path workbench would need to include only a single Postprocessor. If a single Postprocessor is inadequate to output G-Code for all target CNC controllers, then multiple Postprocessors must be installed.
+
+
+</div>
+
+
 
 ## Utilizare
 
@@ -85,11 +113,16 @@ If only one CNC machine is used, or if all CNC machines share a common Postproce
 
 </div>
 
+
+
 ## Opţiuni
 
 Fișierul de ieșire și proprietățile postprocesor pot fi setate în [ Job](Path_Job.md), în orice moment, înainte de a invoca postprocesorul.
 
 Postprocesoarele furnizate sunt scrise cu comentarii care indică zone care conțin Flaguri, Variabile de configurare și Secțiuni de G-Coduri și M-Coduri care vor fi utilizate de Postprocesor pentru a configura ieșirea.
+
+
+<div class="mw-translate-fuzzy">
 
 Typical Configuration True/False Flags include:
 
@@ -99,6 +132,12 @@ Typical Configuration True/False Flags include:
 -   SHOW_EDITOR (True = Allow, False = Suppress), Used to show the output G-Code in a Pop-up window when invoking the Postprocessor.
 -   MODAL (True = Allow, False = Suppress), Used to reduce the number of output G-Code lines by stripping Mode information when the Mode is not changing.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Typical Configuration Variables include:
 
 -   LINENR (Line Number), Used to Set the Line Number index.
@@ -106,13 +145,28 @@ Typical Configuration Variables include:
 -   MACHINE_NAME (Name of Target CNC Mill), Used to Insert a machine name label in the final output file.
 -   PRECISION, Used to Set the number of digits to include after the decimal place in final output file
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Typical Configuration Sections include:
 
 -   PREAMBLE (Code configuration inserted at beginning of the Job)
 -   POSTAMBLE (Code configuration appended to the Job, providing for parking the machine, etc\...)
 -   TOOL_CHANGE (Code inserted with each tool change in the Job)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 The Edit-\>Preferences\...-\>Path-\>Job Preferences tab, Defaults-\>Path is used to set the default Postprocessor selected on Job creation. This allows Path workbench to be configured to only display desired Postprocessors, and to set a default.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

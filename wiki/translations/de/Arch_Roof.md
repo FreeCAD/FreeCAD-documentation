@@ -10,6 +10,8 @@
 
 # Arch Roof/de
 
+
+
 ## Beschreibung
 
 Das **<img src="images/Arch_Roof.svg" width=16px> [Arch Dach](Arch_Roof.md)** Werkzeug erlaubt die Erstellung eines geneigten Daches aus einem ausgewählten Linienzug. Das erstellte Dach Objekt ist parametrisch und behält seine Verbindung zum Basisobjekt. Das Prinzip ist, dass jeder Kante ein Dachprofil (Neigung, Breite, Überhang, Dicke) zugewiesen wird.
@@ -19,7 +21,12 @@ Das **<img src="images/Arch_Roof.svg" width=16px> [Arch Dach](Arch_Roof.md)** We
 <img alt="" src=images/RoofExample.png  style="width:600px;"> 
 *Ansicht von oben auf das Dach eines Gebäudemodell mit einer gewissen Transparenz*
 
+
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Erstelle einen Linienzug entgegen dem Uhrzeigersinn und wähle ihn aus
     -   <img alt="" src=images/CounterclockwiseWire.png  style="width:600px;">
@@ -46,9 +53,22 @@ Das **<img src="images/Arch_Roof.svg" width=16px> [Arch Dach](Arch_Roof.md)** We
 9.  
     **Hinweis**: für ein besseres Verständnis siehe bitte diesen [youtube clip](https://www.youtube.com/watch?v=4Urwru71dVk).
 
+
+</div>
+
+
+
 ## Optionen
 
+
+<div class="mw-translate-fuzzy">
+
 -   Dächer teilen die gemeinsamen Eigenschaften und Verhaltensweisen aller [Arch Komponenten](Arch_Component/de.md)
+
+
+</div>
+
+
 
 ## Eigenschaften
 
@@ -64,6 +84,11 @@ Das **<img src="images/Arch_Roof.svg" width=16px> [Arch Dach](Arch_Roof.md)** We
 
 -    {{PropertyData/de|Fläche}}: Der Flächenindex des zu verwendenden Basisobjekts (nicht wirklich genutzt)
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Skripten
 
 
@@ -71,7 +96,18 @@ Das **<img src="images/Arch_Roof.svg" width=16px> [Arch Dach](Arch_Roof.md)** We
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Dach Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole durch Verwenden der folgenden Funktion verwendet werden: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Das Dach Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole durch Verwenden der folgenden Funktion verwendet werden:
+
+
+</div>
+
+
 ```python
 Roof = makeRoof(baseobj=None, facenr=0, angles=[45.,], run=[], idrel=[0,], thickness=[50.,], overhang=[100.,], name="Roof")
 ```

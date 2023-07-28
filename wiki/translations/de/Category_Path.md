@@ -13,8 +13,9 @@ Diese Kategorie zeigt eine Liste von Seiten, die zum [Part Design-Arbeitsbereich
 | [Path Post/de](Path_Post/de.md) | [Path Postprocessor Customization/de](Path_Postprocessor_Customization/de.md) | [Path Preferences/de](Path_Preferences/de.md) |
 | [Path Profile/de](Path_Profile/de.md) | [Path Sanity/de](Path_Sanity/de.md) | [Path scripting/de](Path_scripting/de.md) |
 | [Path SelectLoop/de](Path_SelectLoop/de.md) | [Path SetupSheet/de](Path_SetupSheet/de.md) | [Path Simulator/de](Path_Simulator/de.md) |
-| [Path Surface/de](Path_Surface/de.md) | [Path ToolLibraryEdit/de](Path_ToolLibraryEdit/de.md) | [Path Vcarve/de](Path_Vcarve/de.md) |
-| [Path Walkthrough for the Impatient/de](Path_Walkthrough_for_the_Impatient/de.md) | [Path Workbench/de](Path_Workbench/de.md) |
+| [Path Surface/de](Path_Surface/de.md) | [Path ToolLibraryEdit/de](Path_ToolLibraryEdit/de.md) | [Path Tools/de](Path_Tools/de.md) |
+| [Path Vcarve/de](Path_Vcarve/de.md) | [Path Walkthrough for the Impatient/de](Path_Walkthrough_for_the_Impatient/de.md) | [Path Workbench/de](Path_Workbench/de.md) |
+|
 
 
 

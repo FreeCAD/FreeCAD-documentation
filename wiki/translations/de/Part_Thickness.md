@@ -30,37 +30,34 @@ Das <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Dicke](Part
 
 ## Optionen
 
-
-<div class="mw-translate-fuzzy">
-
 -   Dicke: Wanddicke des resultierenden Objekts
     -   Ein positiver Wert versetzt die Oberflächen nach außen
     -   Ein negativer Wert versetzt die Oberflächen nach innen
+
 -   Modus
-    -   Oberfläche: Wähle diese Option, wenn Du einen Gegenstand ähnlich einer Vase haben möchtest, oben offen, aber mit einem Boden
-    -   Rohr: Wähle diese Option, wenn Du ein Objekt ähnlich einem Rohr haben möchtest, oben und unten offen. In diesem Fall kann es einfacher sein, die zu löschenden Flächen vor dem Aufruf des Werkzeugs zu löschen. Helfen können die Buttons für die vordefinierten Ansichten oder die numerischen Tasten.
-    -   Hinten-Vorne:
+    -   Oberfläche: Wähle diese Option, wenn Du einen Gegenstand ähnlich einer Vase haben möchtest, oben offen, aber mit einem Boden.
+    -   Rohr: Wähle diese Option, wenn Du ein Objekt ähnlich einem Rohr haben möchtest, oben und unten offen. In diesem Fall kann es einfacher sein, die zu löschenden Flächen vor dem Aufruf des Werkzeugs auszuwählen. Helfen können die Buttons für die vordefinierten Ansichten oder die numerischen Tasten.
+    -   Recto Verso:
+
 -   Verknüpfungstyp
-    -   Kreisbogen: Entfernt die äußeren Kanten und erstellt eine Fase mit einem Radius gleich der definierten Dicke
+    -   Kreisbogen: Entfernt die äußeren Kanten und erstellt eine Verrundung mit einem Radius gleich der definierten Dicke
     -   Tangente:
     -   Schnitt:
+
 -   Schnitt:
+
 -   Selbstdurchdringung: Aktiviert Selbstdurchdringung
--   Flächen / Fertig: Wähel die zu entfernenden Flächen, klicke dann **Fertig**
+
+-    **Flächen**: Wählt die zu entfernenden Flächen, klicke dann **Fertig**
+
 -   Ansicht akutalisieren: Automatisches Aktualisieren in Echtzeit
 
 
-</div>
 
-## Notes
+## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
-Komplexe Formen können bizarre, schwer vorherzusagende Ergebnisse produzieren. Prüfe sorgfältig die entstandene Form und speichere Deine Arbeit vor der Anwendung an komplexen Objekten.
-
-
-</div>
+-   [App-Link](App_Link/de.md)-Objekte, die auf die richtige Objektart verweisen, können auch als Quellobjekte verwendet werden. {{Version/de|0.20}}
+-   Komplexe Formen können bizarre, schwer vorherzusagende Ergebnisse produzieren. Prüfe sorgfältig die entstandene Form und speichere Deine Arbeit vor dem Anwenden der Operation.
 
 
 
@@ -81,8 +78,8 @@ Ein gutes Beispiel zur Benutzung dieses Werkzeuges gibt es im Forum: [Re: Help d
 
 Notes:
 
--   For this shape, consider using **<img src="images/Part_Tube.svg" width=16px> [Tube](Part_Tube.md)** instead <small>(v0.19)</small> 
--   Select the cylinder\'s top surface only to create a receptacle
+-   For this shape, consider using **<img src="images/Part_Tube.svg" width=16px> [Tube](Part_Tube.md)** instead.
+-   Select the cylinder\'s top surface only to create a receptacle.
 
 ![](images/ThicknessEsempio1.png )
 

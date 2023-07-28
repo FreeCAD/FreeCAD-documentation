@@ -22,11 +22,8 @@ The **Std ViewIsometric** command realigns the camera in the active [3D view](3D
     -   Press the **<img src="images/Std_ViewIsometric.svg" width=16px> [Std ViewIsometric](Std_ViewIsometric.md)** button.
     -   Select the **View → Standard views → Axonometric → <img src="images/Std_ViewIsometric.svg" width=16px> Isometric** option from the menu.
     -   Select the **Standard views → <img src="images/Std_ViewIsometric.svg" width=16px> Isometric** option from the [3D view](3D_view.md) context menu.
+    -   Select the **<img src="images/Std_ViewIsometric.svg" width=16px> Isometric** option from the Mini-cube menu of the [Navigation Cube](Navigation_Cube.md).
     -   Use the keyboard shortcut: **0**.
-
-## Notes
-
--   It is also possible to switch to isometric view via the Mini-cube menu of the [Navigation Cube](Navigation_Cube.md).
 
 ## Scripting
 

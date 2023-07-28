@@ -12,7 +12,7 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_ExtensionInsertDiameter.svg  style="width:24px;"> **TechDraw ExtensionInsertDiameter** tool inserts a \'⌀\' symbol at the beginning of the dimension text.
+The **TechDraw ExtensionInsertDiameter** tool inserts a \'⌀\' symbol at the beginning of the dimension text.
 
  <img alt="" src=images/TechDraw_ExtensionInsertDiameterExample.png  style="width:600px;">  
 *On the right dimensions with the inserted symbol*
@@ -21,7 +21,7 @@ The <img alt="" src=images/TechDraw_ExtensionInsertDiameter.svg  style="width:24
 
 1.  Select one or more dimensions.
 2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionInsertDiameter.svg" width=16px> [TechDraw ExtensionInsertDiameter](TechDraw_ExtensionInsertDiameter.md)** button.
+    -   Press the **<img src="images/TechDraw_ExtensionInsertDiameter.svg" width=16px> [Insert '⌀' Prefix](TechDraw_ExtensionInsertDiameter.md)** button.
     -   Select the **TechDraw → Extensions: Dimensions → <img src="images/TechDraw_ExtensionInsertDiameter.svg" width=16px> Insert '⌀' Prefix** option from the menu.
 3.  The \'⌀\' symbol is inserted in the dimension text of the selected dimensions.
 

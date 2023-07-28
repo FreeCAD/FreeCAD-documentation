@@ -11,7 +11,7 @@
 
 ## Description
 
-The Balloon tool can add balloons with leader line in a drawing.
+The **TechDraw Balloon** tool can add balloons with leader line in a drawing.
 
  <img alt="" src=images/Techdraw_balloon.png  style="width:600px;"> 
 
@@ -23,7 +23,7 @@ The Balloon tool can add balloons with leader line in a drawing.
     -   An edge in a View. <small>(v0.20)</small> 
     -   A closed region in a View. <small>(v0.20)</small> 
 2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_Balloon.svg" width=16px> [TechDraw Balloon](TechDraw_Balloon.md)** button.
+    -   Press the **<img src="images/TechDraw_Balloon.svg" width=16px> [Insert Balloon Annotation](TechDraw_Balloon.md)** button.
     -   Select the **TechDraw → Annotations → <img src="images/TechDraw_Balloon.svg" width=16px> Insert Balloon Annotation** option from the menu.
 3.  If a View or a region was selected:
     1.  The cursor changes to a balloon icon.
@@ -53,11 +53,11 @@ When using a rectangle shape, separators can be added using \"\|\" in the text. 
 
 -    **Origin Y**: Balloon origin y-position relative to the View.
 
--    **End Type**: End symbol for the balloon line. Options: <img alt="" src=images/Arrownone.svg  style="width:20px;"> None, <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Filled Arrow, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Open Arrow, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Tick, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Dot, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Open Circle, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Fork, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Filled Triangle
+-    **End Type**: End symbol for the balloon line. Options: <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Filled Arrow, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Open Arrow, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Tick, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Dot, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Open Circle, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Fork, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Filled Triangle, None.
 
 -    **End Type Scale**: Scale factor for the **End Type**.
 
--    **Bubble Shape**: Shape of the balloon bubble. Options: <img alt="" src=images/Circular.svg  style="width:20px;"> Circular, None, <img alt="" src=images/Triangle.svg  style="width:20px;"> Triangle, <img alt="" src=images/Inspection.svg  style="width:20px;"> Inspection, <img alt="" src=images/Hexagon.svg  style="width:20px;"> Hexagon, <img alt="" src=images/TechDraw_Square.svg  style="width:20px;"> Square, <img alt="" src=images/Rectangle.svg  style="width:20px;"> Rectangle
+-    **Bubble Shape**: Shape of the balloon bubble. Options: <img alt="" src=images/Circular.svg  style="width:20px;"> Circular, None, <img alt="" src=images/Triangle.svg  style="width:20px;"> Triangle, <img alt="" src=images/Inspection.svg  style="width:20px;"> Inspection, <img alt="" src=images/Hexagon.svg  style="width:20px;"> Hexagon, <img alt="" src=images/TechDraw_Square.svg  style="width:20px;"> Square, <img alt="" src=images/Rectangle.svg  style="width:20px;"> Rectangle.
 
 -    **Shape Scale**: Scale factor for the **Shape**.
 

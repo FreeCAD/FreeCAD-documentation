@@ -8,21 +8,15 @@ Dies ist das Dokumentations Wiki von [FreeCAD](http://www.freecadweb.org). Es gi
 
 ## Die Zentren 
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="Crystal_Clear_app_display.png" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [Anwenderzentrum](User_hub/de.md): Diese Seite enthält Dokumentation, die für FreeCAD Anwender im Allgemeinen nützlich ist: eine Liste aller Arbeitsbereiche, detaillierte Anweisungen zur Installation und Benutzung der FreeCAD Anwendung, Tutorien und alles, was Du brauchst, um loszulegen.
+<img alt="Crystal_Clear_app_display.png" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [Anwenderzentrum](User_hub/de.md): Diese Seite enthält Dokumentation, die für FreeCAD-Anwender im Allgemeinen nützlich ist: eine Liste aller Arbeitsbereiche, detaillierte Anweisungen zur Installation und Benutzung der FreeCAD-Anwendung, Tutorien und alles, was Du brauchst, um loszulegen.
 
 
 
 
 
-<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Hauptanwenderzentrum](Power_users_hub/de.md): Diese Seite enthält Dokumentation für fortgeschrittene Benutzer und Personen, die an der Erstellung von Python Skripten interessiert sind. Dort findest Du auch ein Repositorium von Makros, Anweisungen zur Installation und Verwendung sowie weitere Informationen zur Anpassung von FreeCAD an Deine speziellen Bedürfnisse. 
+<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Hauptanwenderzentrum](Power_users_hub/de.md): Diese Seite enthält Dokumentation für fortgeschrittene Benutzer und Personen, die an der Erstellung von Python-Skripten interessiert sind. Dort findest Du auch ein Repositorium von Makros, Anweisungen zur Installation und Verwendung sowie weitere Informationen zur Anpassung von FreeCAD an Deine speziellen Bedürfnisse. 
  <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Entwicklerzentrum](Developer_hub/de.md): Dieser Abschnitt enthält Material für Entwickler: Wie du FreeCAD selbst kompilierst, wie der FreeCAD-Quellcode strukturiert ist und wie du darin navigierst, und wie du neue Arbeitsbereiche entwickelst und FreeCAD in deine eigene Anwendung einbindest. 
 
-
-
-</div>
 
 
 
@@ -67,25 +61,13 @@ Innerhalb des FreeCAD Projekts gibt es viel zu tun, wenn Du daran interessiert b
 -   Unterstützung bei der Erstellung der neuesten Version von FreeCAD für Ihr bevorzugtes Betriebssystem.
 -   anderen Menschen um Sie herum zu helfen, FreeCAD zu entdecken.
 
-
-<div class="mw-translate-fuzzy">
-
-Die Seite [Hilf FreeCAD](Special:MyLanguage/help_FreeCAD/de.md) beschreibt dies alles mit weiteren Details. Ab 2016 nimmt FreeCAD auch am [Google Summer of Code](Google_Summer_of_Code.md) teil. Die Seite [Contributors hub](Contributors_hub/de.md) ist ein weiterer Versuch, die Möglichkeiten zu sammeln, wie man dem FreeCAD Projekt helfen und dazu beitragen kann.
-
-
-</div>
+Die Seite [Hilf FreeCAD](Special:MyLanguage/help_FreeCAD/de.md) beschreibt dies alles mit weiteren Details. Ab 2016 nimmt FreeCAD auch am [Google Summer of Code](Google_Summer_of_Code.md) teil.
 
 
 
 ### Quellcode
 
-
-<div class="mw-translate-fuzzy">
-
-FreeCAD kann auf allen Plattformen mit [CMake](https://cmake.org/) kompiliert werden. Der Quellcode ist [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)-lizenziert und bereitgestellt auf [GitHub](https://github.com/FreeCAD/FreeCAD). Und gespiegelt an [GitLab](https://gitlab.com/freecad/FreeCAD) and [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD). Es gibt Build Anweisungen für [Kompilieren unter Windows](Compile_on_Windows/de.md), [Kompilieren unter Linux](Compile_on_Linux/de.md) und [Kompilieren auf MacOS](Compile_on_MacOS/de.md). Die Quellcodedokumentation ist [hier bereitgestellt](http://www.freecadweb.org/api/), erstellt von [Doxygen](Doxygen/de.md), und [dokumentiert im Wiki](Source_documentation/de.md).
-
-
-</div>
+FreeCAD kann auf allen Plattformen mit [CMake](https://cmake.org/) kompiliert werden. Der Quellcode ist [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)-lizenziert und bereitgestellt auf [GitHub](https://github.com/FreeCAD/FreeCAD). Und gespiegelt auf [GitLab](https://gitlab.com/freecad/FreeCAD), [SourceForge](https://sourceforge.net/projects/free-cad/) und [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD). Es gibt Build-Anweisungen für [Kompilieren unter Windows](Compile_on_Windows/de.md), [Kompilieren unter Linux](Compile_on_Linux/de.md) und [Kompilieren auf MacOS](Compile_on_MacOS/de.md). Die Quellcodedokumentation ist [hier bereitgestellt](http://www.freecadweb.org/api/), erstellt von [Doxygen](Doxygen/de.md), und [dokumentiert im Wiki](Source_documentation/de.md).
 
 
 

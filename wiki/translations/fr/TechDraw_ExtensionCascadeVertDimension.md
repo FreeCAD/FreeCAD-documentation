@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionCascadeVertDimension.svg  style="width:24px;"> **TechDraw Cascade verticale** permet d\'espacer uniformément les cotes verticales.
+L\'outil **TechDraw Cascade verticale** permet d\'espacer uniformément les cotes verticales.
 
 <img alt="" src=images/TechDraw_ExtensionCascadeVertDimensionExample.png  style="width:400px;"> 
 *À droite, les cotes verticales régulièrement espacées*
+
+
 
 ## Utilisation
 
@@ -27,6 +29,8 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionCascadeVertDimension.svg  styl
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionCascadeVertDimension.svg" width=16px> [Cascader verticalement les cotes](TechDraw_ExtensionCascadeVertDimension/fr.md)**.
     -   Sélectionnez l\'option **TechDraw → Extensions : attributs/modifications → <img src="images/TechDraw_ExtensionCascadeVertDimension.svg" width=16px> Cascader verticalement les cotes** à partir du menu.
 5.  Les cotes sont uniformément espacées et leurs textes de cotes sont centrés.
+
+
 
 ## Remarques
 

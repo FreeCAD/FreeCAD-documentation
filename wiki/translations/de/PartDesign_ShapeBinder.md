@@ -10,140 +10,103 @@
 
 # PartDesign ShapeBinder/de
 
+
+
 ## Beschreibung
 
+Das Werkzeug **PartDesign Formbinder** erstellt einen Formbinder (ShapeBinder-Objekt), der Geometrien eines einzigen übergeordneten Objekts referenziert. Ein Formbinder wird in einem [PartDesign Körper](PartDesign_Body/de.md) (Body) verwendet, um auf Geometrie außerhalb des Körpers zuzugreifen. Externe Geometrie direkt in einem Körper zu verwenden, ist nicht erlaubt und wird zu einem \"out of scope\"-Fehler führen.
 
-<div class="mw-translate-fuzzy">
+Ein Formbinder ermittelt die relative Positionierung der referenzierten Geometrie, was im Zusammenhang mit der Erstellung von [Baugruppen](Assembly/de.md) nützlich ist, wenn seine {{PropertyData/de|Trace Support}} auf {{True}} gesetzt wird. Siehe das [Beispiel](#Beispiel.md) unten, um zu verstehen, wie dies funktioniert.
 
-Erzeugt einen **Formbinder**-Bezug innerhalb des aktiven Körpers. Ein Formbinder ist ein Bezugsobjekt, das mit Kanten oder Flächen eines anderen Körpers verknüpft ist. Es kann auch verwendet werden, um eine Skizze von einem Körper zu einem anderen Körper zu verknüpfen. Das Formbinderobjekt wird in der 3D Ansicht als durchscheinendes Gelb in der [3D-Ansicht](3D_view/de.md) dargestellt.
+Die referenzierte Geometrie kann entweder ein einzelnes Objekt sein (z.B. ein [Part-Würfel](Part_Box/de.md), ein [PartDesign-Körper](PartDesign_Body.md) oder eine [Skizze](PartDesign_NewSketch.md) oder ein [Formelement](PartDesign_Feature/de.md) innerhalb eines Körpers) oder ein oder mehrere Unterelemente (Flächen, Kanten oder Knotenpunkte), die zu demselben übergeordneten Objekt gehören. Welche Geometrie verwendet wird, hängt von der geplanten Verwendung des Formbinders ab. Für eine boolesche Operation muss ein Festkörper ausgewählt werden. Für eine Extrusion kann eine Fläche oder eine Skizze verwendet werden. Und für eine externe Geometrie in einer Skizze oder um eine Skizze zu befestigen kann jede Kombination von Unterelementen geeignet sein. Die referenzierte Geometrie kann auch zu dem Körper gehören, der den Formbinder enthält.
 
-
-</div>
-
-A ShapeBinder will track the relative placement of the referenced geometry, which is useful in the context of creating [assemblies](Assembly.md), if its **Trace Support** property is set to {{True}}. See the [Example](#Example.md) below to understand how this works.
-
-The referenced geometry can either be a single object (for example a [Part Box](Part_Box.md), a [PartDesign Body](PartDesign_Body.md), or a [sketch](PartDesign_NewSketch.md) or [Feature](PartDesign_Feature.md) inside a Body), or one or more subelements (faces, edges or vertices) belonging to the same parent object. Which geometry should be selected depends on the intended purpose of the ShapeBinder. For a Boolean operation you would need to select a solid. For a Pad operation a face or a sketch can be used. And for the external geometry in a sketch, or to attach a sketch, any combination of subelements may be appropriate. The referenced geometry can also belong to the Body the ShapeBinder is nested in.
-
-<img alt="" src=images/Shapebinder_flow.png  style="width:600px;">
+<img alt="" src=images/Shapebinder_flow.png  style="width:600px;"> 
+*Aus zwei ausgewähleten Flächen wird ein Formbinder in einem noch leeren Körper erstellt. Die Geometrie des Formbinders kann dann als externe Geometrie in einer Skizze innerhalb dieses Körpers verwendet werden.*
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-*Zwei Formen aus Body.Pad004 werden ausgewählt und ihre Bezugsobjekte sind nun in Body001.Sketch005 als Außengeometrie über Body001.ShapeBinder verfügbar.*
-
-
-</div>
 
 ## Anwendung
 
+1.  Den [Körper aktivieren](PartDesign_Body/de#Aktiver_Status.md), in den der Formbinder eingebunden werden soll.
+2.  Wahlweise ein einzelnes Objekt auswählen oder ein oder mehrere Unterelemente die zu demselben übergeordneten Objekte gehören. Unterelemente können nur in der [3D-Ansicht](3D_view/de.md) ausgewählt werden.
+3.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/PartDesign_ShapeBinder.svg" width=16px> [PartDesign Formbinder](PartDesign_ShapeBinder/de.md)** drücken.
+    -   Den Menüeintrag **Part Design → <img src="images/PartDesign_ShapeBinder.svg" width=16px> Formbinder erstellen** auswählen.
+4.  Der Aufgabenbereich **Bezugsform-Parameter** wird geöffnet.
+5.  Wahlweise ein Objekt auswählen; dies ist nicht erforderlich, wenn Unterelemente ausgwählt werden sollen:
+    1.  Die Schaltfläche **Objekt** drücken.
+    2.  Ein objekt in der [Baumansicht](Tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md) auswählen.
+    3.  Alle zuvor Ausgewählten Unterelemente werden entfernt.
+    4.  Wird hier ein Körper ausgewählt, können keine Unterelemente ausgewählt werden, da sie zu einem anderen Objekt gehören, nämlich dem Formelement an der [Spitze](PartDesign_Body/de#Spitze.md) (Arbeitsposition) des Körpers.
+6.  Wahlweise Unterelemente auswählen:
+    1.  Die Schaltfläche **Geometrie hinzufügen** drücken.
+    2.  Ein Unterelement in der [3D-Ansicht](3D_view/de.md) auswählen.
+    3.  Die Schaltfläche **Geometrie hinzufügen** muss für jedes Unterelement gedrückt werden, das hinzugefügt werden soll.
+    4.  Nur Unterelemente, die zu demselben übergeordneten Objekt gehören, können ausgewählt werden. Wenn erforderlich, die Schaltfläche **Objekt** drücken, um ein anderes übergeordnetes Objekt auszuwählen.
+7.  Wahlweise Unterelemente entfernen:
+    1.  Die Schaltfläche **Geometrie entfernen** drücken.
+    2.  Ein Unterelement in der [3D-Ansicht](3D_view/de.md) auswählen.
+    3.  Die Schaltfläche **Geometrie entfernen** muss für jedes Unterelement gedrückt werden, das entfernt werden soll.
+8.  Die Schaltfläche **OK** drücken.
 
-<div class="mw-translate-fuzzy">
 
-1.  [Aktiviere den Körper](PartDesign_Body/de#Active_status.md), der das Formbinderobjekt bekommen soll.
-2.  Klicke auf die **<img src="images/PartDesign_ShapeBinder.svg" width=16px> [Formbinder erstellen](PartDesign_ShapeBinder/de.md)** Schaltfläche.
-3.  Klicke entweder auf die **Objekt**-Schaltfläche oder die **Geometrie hinzufügen**-Schaltfläche.
-4.  Wähle in der [3D Ansicht](3D_view/de.md) das zu kopierende Objekt oder die Geometrie aus. *Objekt* wählt den ganze Körper aus;*Geometrie hinzufügen* wählt das hervorgehobene, geometrische Element, z.B. Knoten, Kante oder Fläche aus.
-5.  Um eine Geometrie zu entfernen, klicke auf die **Geometrie entfernen**-Schaltfläche und wähle die Geometrie in der [3D Ansicht](3D_view/de.md) aus.
-6.  Alternativ können geometrische Elemente in der [3D Ansicht](3D_view/de.md) ausgewählt werden, bevor die Formbinderfunktion gestartet wird.
-7.  Klicke auf die **OK**-Schaltfläche.
-
-Um die Durchführung, die mit einem Klick auf eine Schaltfläche gestartet wurde zu stoppen, muss noch einmal auf die Schaltfläche geklickt werden.
-
-
-</div>
 
 ## Optionen
 
-
-<div class="mw-translate-fuzzy">
-
-Doppelklicke auf die FormBinder Beschriftung im [Modellbaum](Tree_view/de.md) oder rechtsklicke und wähle **FormBinder bearbeiten** im Kontextmenü, um die Parameter zu bearbeiten.
+Die Bearbeitung eines Formbinders wird mit Doppelklick auf sein Symbol in der [Baumansicht](Tree_view/de.md) gestartet oder mit einem Rechtsklick darauf und anschließender Auswahl von **Formbinder bearbeiten** im Kontextmenü der [Baumansicht](Tree_view/de.md).
 
 
-</div>
 
-## Notes
+## Hinweise
 
--   A ShapeBinder can be dragged out of the Body it is nested in, and dropped onto the <img alt="" src=images/Document.svg  style="width:16px;"> document node in the [Tree view](Tree_view.md). Such an unnested ShapeBinder can be used as the [Base Feature](PartDesign_Body#Base_Feature.md) for a new Body.
--   A ShapeBinder created from a sketch can have an opposite \"tool direction\". For example a [Pad](PartDesign_Pad.md) created from the sketch may extend in the +Y direction, while a [Pad](PartDesign_Pad.md), with the same properties, created from the ShapeBinder extends in the -Y direction. Toggling the **Reversed** property (or checkbox) will solve this.
+-   Ein Formbinder kann aus dem Körper, in dem er eingebunden ist, herausgezogen und auf dem <img alt="" src=images/Document.svg  style="width:16px;"> Dokumentknoten in der [Baumansicht](Tree_view/de.md) abgelegt werden. So ein nicht eingebundener Formbinder kann als [Basis-Formelement](PartDesign_Body/de#Basis_Formelement.md) für einen neuen Körper verwendet werden.
+-   Ein aus einer Skizze erstellter Formbinder kann eine umgekehrte \"Werkzeugausrichtung\" besitzen. Beispielsweise kann sich ein aus einer Skizze extrudierter [Block](PartDesign_Pad/de.md) in die positive Y-Richtung ausdehnen, während sich ein aus einem Formbinder extrudierter [Block](PartDesign_Pad/de.md) mit den gleichen Eigenschaften in die negative Y-Richtung ausdehnt. Durch umschalten der {{PropertyData/de|Reversed}} (oder der Checkbox) kann dies angeglichen werden.
 
-## PartDesign SubShapeBinder vs. PartDesign ShapeBinder 
 
-See [PartDesign SubShapeBinder](PartDesign_SubShapeBinder#PartDesign_SubShapeBinder_vs._PartDesign_ShapeBinder.md).
+
+## Vergleich PartDesign Teilformbinder und PartDesign Formbinder 
+
+Siehe [Vergleich von PartDesign-Teilformbinder und PartDesign-Formbinder](PartDesign_SubShapeBinder/de#Vergleich_von_PartDesign_Teilformbinder_und_PartDesign_Formbinder.md).
+
+
 
 ## Eigenschaften
 
-
-<div class="mw-translate-fuzzy">
-
--    {{PropertyData/de|Label}}: Name, der dem Objekt gegeben wurde, dieser Name kann nach Belieben geändert werden.
-
--    {{PropertyData/de|Trace Support}}: Der vorgegebene Wert ist false. Wenn diese Option auf true gesetzt ist, überwacht der Formbinder die relative Positionierung der Teile und Körper durch Änderung der Werte seiner {{PropertyData/de|Placement}}-Eigenschaften. Siehe das obige Beispiel, wie dies verwendet wird und funktioniert.
+-    {{PropertyData/de|Trace Support}}: Der vorgegebene Wert ist false. Wenn diese Option auf true gesetzt ist, überwacht der Formbinder die relative Positionierung der Teile und Körper durch Änderung der Werte seiner verdeckten Eigenschaft {{PropertyData/de|Placement}}. Siehe das obige Beispiel, wie dies verwendet wird und funktioniert.
 
 
-</div>
 
-## Example
+## Beispiel
 
+Das Beispiel verwendet den Formbinder Funktion, um ein Loch (mit oder ohne Gewinde) durch mehr als einen Körper zu bohren. Normalerweise ist die Lochfunktion des Arbeitsbereichs Part Design auf einen einzigen Körper beschränkt. Das Beispiel verwendet zwei Würfel, die sich gegenüberliegen, aber willkürlich versetzt ausgerichtet sind. Die Löcher werden mit Skizzen erstellt, die für jedes Loch einen Kreis enthalten (Der Durchmesser wird von der Lochfunktion ignoriert). Wird die Skizze in den anderen Würfel kopiert, befindet sie sich an der gleichen Position im lokalen Koordinatensystem des Würfels. Im Bild ist dies durch den weißen Kreis auf dem hinteren Würfel dargestellt. Das ist nicht das, was wir wollen, denn das Loch an dieser Stelle würde nicht auf das Loch im vorderen Würfel ausgerichtet sein.
 
-<div class="mw-translate-fuzzy">
+![](images/ShapeBinderThroughHole.png ) 
+*Beispielaufbau für die Darstellung wie man Löcher durch unterschiedliche Körper erstellt. Der weiße Kreis zeigt, dass das Kopieren von Skizzen nicht ausreicht*
 
-**Beispiel**
+Und so wird das Formelement Formbinder verwendet, um das Ziel zu erreichen:
 
-:   Das Beispiel verwendet die FormBinder Funktion, um ein Loch (mit oder ohne Gewinde) durch mehr als einen Körper zu bohren. Normalerweise ist die Lochfunktion des Arbeitsbereichs Part Design auf einen einzigen Körper beschränkt. Das Beispiel verwendet zwei Würfel, die sich gegenüberliegen, aber willkürlich versetzt ausgerichtet sind. Die Löcher werden mit Skizzen erstellt, die für jedes Loch einen Kreis enthalten. Der Durchmesser wird von der Lochfunktion ignoriert. Wenn du die Skizze in den anderen Würfel kopierst, befindet sie sich an der gleichen Position im lokalen Würfelkoordinatensystem. Im Bild ist dies durch den weißen Kreis auf dem rückwärtigen Würfel dargestellt. Das ist nicht das, was wir wollen, denn das Loch an dieser Stelle würde nicht auf das Loch im vorderen Würfel ausgerichtet sein.
+1.  Eine Szene wie im obigen Bild vorbereiten. Werden Würfel aus dem Arbeitsbereich [Part](Part_Workbench/de.md) verwendet, darf man nicht vergessen sie in einen \"Körper\" (Body-Objekt als Container) zu stecken. Jeweils einen in einen separaten Körper, andernfalls würden die [PartDesign](PartDesign_Workbench/de.md)-Funktionen nicht funktionieren. Werden sie aus Skizzen erstellt, sollte das System standardmäßig einen Körper erstellen.
+2.  Im [Eigenschafteneditor](Property_editor/de.md) die Positionierung des zweiten Würfels so ändern, dass er den ersten Würfel berührt und seitlich versetzt ist.
+3.  Zum Arbeitsbereich PartDesign wechseln.
+4.  Eine Skizze auf der Vorderseite des ersten Würfels erstellen, darin an beliebiger Stelle einen Kreis hinzufügen und die Skizze schließen.
+5.  Die Skizze im Baum auswählen und die Schaltfläche **<img src="images/PartDesign_Hole.svg" width=16px> [PartDesign-Bohrung](PartDesign_Hole/de.md)** drücken. Davor sollte man sicherstellen, dass der erste Körper der [aktive Körper](PartDesign_Body/de#Aktiver_Status.md) ist (ggf. mit Doppelklick aktivieren).
+6.  Eine Bohrung in der passenden Größe auswählen. Im Bild oben ist zusätzlich eine Senkung ausgewählt. Die Funktion [Bohrung](PartDesign_Hole/de.md) schließen.
 
+    :   Jetzt sollte das Bild wie oben aussehen. Wird der erste Würfel ausgewählt und mit der Leertaste ausgeblendet, wird ersichtlich, dass die Bohrung den zweiten Würfel nicht erreicht. Das wird sie auch dann nicht, wenn **Durch Alles** ausgewählt oder ein wirklich großer Abstand im Aufgabenbereich [Bohrung](PartDesign_Hole/de.md) eingegeben wird. Bohrung ist immer auf einen einzigen Körper beschränkt.
+    :   Hier kommt nun der Formbinder ins Spiel.
+7.  Zuerst den hinteren Würfel mit einem Doppelklick auswählen. Dieser ist das Ziel, zu dem der Formbinder hinzugefügt wird. Er muss vorher [aktiviert](PartDesign_Body/de#Aktiver_Status.md) worden sein (ggf. mit Doppelklick aktivieren).
+8.  In der Baumansicht die Skizze auswählen, die für die Bohrung verwendet wurde. Es ist wichtig, den ersten Körper nicht zu aktivieren.
+9.  Die Funktion Formbinder auswählen.
 
-</div>
+    :   Der Aufgabenbereich sollte sich öffnen. In der Zeile **Objekt** sollte der Name unserer Skizze sichtbar sein. Wurde die Funktion ausgewählt ohne vorher die Skizze auszuwählen, könnte jetzt **Objekt** angeklickt und dann die Skizze aus der Liste ausgewählt werden. Die erste Vorgehensweise (zuerst die Skizze auszuwählen) wird empfohlen, um die richtige auszuwählen, besonders wenn viele Skizzen mit automatisch generierten Namen wie Sketch001und folgende vorhanden sind. **Geometrie hinzufügen** ist hier nicht sinnvoll, da die ganze Skizze ausgewählt werden soll. **Geometrie hinzufügen** wird verwendet, wenn nur Teile (der Skizze) ausgewählt werden sollen.
+10. Auf die Schaltfläche **OK** drücken, um den Aufgabenbereich zu schließen und anschließend überprüfen, ob ein neues Element zum Baum des zweiten Würfels hinzugefügt wurde.
 
-![](images/ShapeBinderThroughHole.png )
+    :   Wird die Sichtbarkeit des Formbinders umgeschaltet, wird er in der [3D-Ansicht](3D_view/de.md) gelb dargestellt. Allerdings ist er an der falschen Position, so wie der weiße Kreis im Bild oben. Dies liegt an der vorgegebenen Einstellung für den Trace-Parameter.
+11. Im Eigenschafteneditor des Formbinders im Reiter Daten den Parameter **Trace Support** auf true setzen. Die Voreinstellung war false.
 
-
-<div class="mw-translate-fuzzy">
-
-
-:   
-
-    :   ![](images/ShapeBinderThroughHole.png )
-    :   *Beispiel Aufbau für die Darstellung von wie man Löcher durch verschiedene Körper erstellt. Der weiße Kreis zeigt, dass das Kopieren von Skizzen nicht ausreicht*.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-So nutzt Du die Formbinder Funktion, um dies zu erreichen:
-
-1.  Bereite ein Szenario gemäß dem obigen Bild vor. Wenn du die Würfel aus der [Part Arbeitsbereich](Part_Workbench/de.md) verwendest, denk daran, dass du sie in einen \"Körper\" Behälter (Body) stecken musst. Jeden einzelnen in einen eigenen. Andernfalls würden die Funktionen [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) nicht funktionieren. Wenn du sie nach Skizzen erstellst, sollte das System standardmäßig einen Körper erstellen.
-2.  Im Reiter Eigenschaften im Diaglog den zweiten Würfel mit einer Seitwärtsverschiebung so bewegen, dass er den ersten Würfel berührt.
-3.  Wähle den PartDesign Arbeitsbereich aus.
-4.  Erstelle eine Skizze auf der Vorderseite des ersten Würfels und erstelle einen Kreis an beliebiger Stelle darauf und schließe die Skizze.
-5.  Vergewissere dich zuerst, dass der erste Körper der [Aktive Körper](PartDesign_Body#Active_status.md) ist (Doppelklick). Wähle die Skizze in der Baumansicht und klicke auf die [Bohrung](PartDesign_Hole/de.md)-Schaltfläche.
-6.  Wähle eine Bohrung in passenden Größe aus. Im Bild oben war auch eine Senkbohrung ausgewählt. Schließe die Funktion [Bohrung](PartDesign_Hole/de.md).
-
-    :   Jetzt sollte das Bild wie oben aussehen. Wenn Du den ersten Würfel wählst und mit der Leertaste ausblendest, kannst Du sehen, dass die Bohrung den zweiten Würfel nicht erreicht. Das wird es auch dann nicht, wenn Du \"Durch Alles\" wählst oder einen wirklich großen Abstand im Dialogfenster [Bohrung](PartDesign_Hole/de.md) wählst. Der Bohrung-Dialog ist immer auf einen einzigen Körper beschränkt.
-    :   Hier kommt nun unser Formbinder ins Spiel.
-7.  Wähle zuerst den hinteren Würfel mit einem Doppelklick aus. Dies ist das Ziel, an das der Formbinder angefügt wird. Er muss vorher [aktiviert](PartDesign_Body#Active_status.md) sein. Vergewissere Dich, dass er doppelt angeklickt wurde.
-8.  Wähle in der Baumansicht die Skizze aus, die wir für die Bohrung verwendet haben. Es ist wichtig, den ersten Körper nicht zu aktivieren.
-9.  Wähle die Formbinder Funktion.
-
-    :   Ein Dialog sollte sich öffnen. In der Zeile \"Objekt\" sollte der Name unserer Skizze sichtbar sein. Wenn du die Funktion ohne Auswahl der Skizze ausgewählt hattest, könntest du \"Objekt\" anklicken und dann die Skizze aus der Liste auswählen. Es empfielt sich, das erste in der Reihenfolge auszuwählen, um das richtige zu erhalten, besonders wenn du viele Skizzen mit automatisch generierten Namen hast Sketch001,.. \"Geometrie hinzufügen\" ist für uns nicht sinnvoll, da wir die ganze Skizze auswählen wollen. \"Geometrie hinzufügen\" wird verwendet, wenn nur Teile ausgewählt werden sollen.
-10. Klicke auf die **OK**-Schaltfläche, um den Dialog zu schließen und überprüfe, ob ein neues Element zum Baum des zweiten Würfels hinzugefügt wurde.
-
-    :   Wenn du die Sichtbarkeit des Formbinders umschaltest, wird er in der [3D-Ansicht](3D_view/de.md) gelb dargestellt. Allerdings ist er an der falschen Position, so wie der weiße Kreis im Bild oben. Dies liegt an der Standardeinstellung für den Trace Parameter.
-11. Setze in der Eigenschaftsansicht des Formbinders im Datenreiter den Parameter **Trace Support** auf true. Die Voreinstellung war false.
-
-    :   Mit **Trace Support**\' true wird der Formbinder nicht von lokalen Transformationen des Zielkörpers beeinflusst, z.B. unseren Übersetzungen. Die Form bleibt genau dort, wo die ursprüngliche vordere Objektform gewesen ist. Versuche, das vordere Objekt zu bewegen, und Du siehst, dass der Formbinder immer an die neue Position folgt.
-    :   Leider können wir den Formbinder nicht für eine [Bohrung](PartDesign_Hole/de.md) auswählen. Dazu erstellen wir eine lokale Skizze und verwenden diese für unsere Bohrung im zweiten Würfel.
-12. Wähle die Vorderseite des hinteren Würfels aus und erstelle eine neue Skizze. Klicke auf die **OK**-Schaltfläche für den Vorschlag im Dialog.
-13. Mache die gesamte Geometrie unsichtbar und den Formbinder sichtbar. Nun kannst Du die äußere Geometriefunktion verwenden und den Kreis im Formbinder auswählen. Wir benötigen den Mittelpunkt dieses Kreises.
-14. Erstelle einen neuen Kreis und setze ihn in den Mittelpunkt des Formbinderkreises. Der Radius ist nicht wichtig. Die Funktion [Bohrung](PartDesign_Hole/de.md) verwendet nur die Mittelpunkte der Kreise (Hinweis: Einzelpunkte werden von der Bohrungsfunktion ignoriert, wir müssen Kreise verwenden).
-15. Schließe die Skizze und klicke auf [Bohrung](PartDesign_Hole/de.md). Stelle den Dialog auf die gleichen Werte wie bei der ersten Bohrung und drücke OK.
-
-
-</div>
+    :   Mit **Trace Support** auf true gesetzt wird der Formbinder nicht von lokalen Transformationen des Zielkörpers beeinflusst, z.B. unsere Verschiebung. Die Form bleibt genau dort, wo die ursprüngliche Form des vorderen Objekts gewesen ist. Versucht man, das vordere Objekt zu bewegen, sieht man, dass der Formbinder immer zur neuen Position folgt.
+12. Den Formbinder in der Baumansicht auswählen und die Schaltfläche **<img src="images/PartDesign_Hole.svg" width=16px> [PartDesign-Bohrung](PartDesign_Hole/de.md)** drücken. Werden jetzt dieselben Werte wie für die Ausgangsbohrung eingegeben, erkennt man, dass im zweiten Würfel keine Bohrung erstellt wird. Dies liegt daran, dass ein Formbinder in einigen Fällen eine zur referenzierten Skizze umgekehrte \"Werkzeuausgrichtung\" aufweisen kann. Durch aktivieren der CheckBox Reverse kann die Ausrichtung angepasst werden. Zum Fertigstellen **OK** drücken.
+13. Jetzt sind die Bohrungen in zwei unterschiedlichen Körpern verknüpft. Wird die Position des Kreises in der Skizze verändert, werden beide Bohrungen angepasst. Es können sogar neue Kreise zur Skizze hinzugefügt werden, um weitere verknüpfte Bohrungen zu erstellen.
 
 
 

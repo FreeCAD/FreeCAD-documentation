@@ -13,18 +13,20 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionInsertSquare.svg  style="width:24px;"> **TechDraw Section tube** insère un symbole \"〼\" au début du texte de la cote.
+L\'outil **TechDraw Section tube** insère un symbole \"〼\" au début du texte de la cote.
 
 <img alt="" src=images/TechDraw_extensionInsertSquareExample.png  style="width:500px;"> 
 *A droite, les cotes avec le symbole inséré*
+
+
 
 ## Utilisation
 
 1.  Sélectionnez une ou plusieurs cotes.
 2.  Il existe plusieurs façons de lancer l\'outil :
-    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionInsertSquare.svg" width=16px> [Insérer un préfixe '〼'](TechDraw_ExtensionInsertSquare/fr.md)**.
-    -   Sélectionnez la commande **TechDraw → Extensions : cotes → <img src="images/TechDraw_ExtensionInsertSquare.svg" width=16px> Insérer un préfixe '〼'** à partir du menu.
-3.  Le symbole \"〼\" est inséré dans le texte de dimension des cotes sélectionnées.
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionInsertSquare.svg" width=16px> [Insérer un préfixe "〼"](TechDraw_ExtensionInsertSquare/fr.md)**.
+    -   Sélectionnez la commande **TechDraw → Extensions : cotes → <img src="images/TechDraw_ExtensionInsertSquare.svg" width=16px> Insérer un préfixe "〼"** à partir du menu.
+3.  Le symbole \"〼\" est inséré dans le texte de cote des cotes sélectionnées.
 
 
 

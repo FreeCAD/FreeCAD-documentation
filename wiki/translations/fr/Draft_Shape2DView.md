@@ -102,7 +102,7 @@ Un objet Draft Vue 2D d\'une forme est dérivé d\'un [Part Part2DObject](Part_P
 
 -    **Exclusion Points|Vector list**: Une liste de points d\'exclusion. Toute arête passant par l\'un de ces points ne sera pas dessinée. {{Version/fr|0.20}}
 
--    **Exclusion Names|String list**: Une liste de noms d\'objets. Tout objet enfant vu ou coupé dont le nom figure dans cette liste ne sera pas dessiné. {{Version/fr|1.0}}
+-    **Exclusion Names|String list**: liste de noms d\'objets. Tout objet enfant vu ou coupé dont le nom figure dans cette liste ne sera pas dessiné. {{Version/fr|0.21}}
 
 
 

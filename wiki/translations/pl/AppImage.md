@@ -107,7 +107,7 @@ Uwagi:
 -   Uruchom polecenie `./appimageupdatetool-x86_64.AppImage --help`, aby dowiedzieć się o funkcjach takich jak `--remove-old`, `--overwrite` i `--self-update`.
 -   Istnieje również wersja i386; zobacz stronę [wydania AppImageUpdate](https://github.com/AppImage/AppImageUpdate/releases).
 
-Zadanie: udostępnić skrypt, który można dodać jako alias lub zadanie [1](https://en.wikipedia.org/wiki/Cron%7Ccron).
+Zadanie: udostępnić skrypt, który można dodać jako alias lub zadanie [cron](https://en.wikipedia.org/wiki/Cron).
 
 
 

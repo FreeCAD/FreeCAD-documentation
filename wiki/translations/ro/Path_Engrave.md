@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Descriere
@@ -15,7 +17,7 @@ Path Engrave este în primul rând pentru gravarea pe ShapeString pe o piesă. C
 
 </div>
 
-The <img alt="" src=images/Path_Engrave.svg  style="width:24px;"> [Path Engrave](Path_Engrave.md) tool is primarily for engraving a <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> [Draft ShapeString](Draft_ShapeString.md) onto a part. However, it may be useful for other kinds of 2D.
+The <img alt="" src=images/Path_Engrave.svg  style="width:24px;"> [Engrave](Path_Engrave.md) tool is primarily for engraving a <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> [Draft ShapeString](Draft_ShapeString.md) onto a part. However, it may be useful for other kinds of 2D.
 
 ## Usage
 
@@ -32,9 +34,9 @@ Empty
 
 {{TitleProperty|Base}}
 
--    **Placement**: -
+-    **Placement**:
 
--    **Label**: - User name of the object (UTF-8)
+-    **Label**: User name of the object (UTF-8)
 
 
 {{TitleProperty|Depth}}
@@ -52,38 +54,38 @@ Empty
 
 {{TitleProperty|Path}}
 
--    **Active**: - Make False, to prevent operation from generating code
+-    **Active**: Make False, to prevent operation from generating code
 
--    **Base**: - The base geometry for this operation
+-    **Base**: The base geometry for this operation
 
--    **Comment**: - An optional comment for this operation
+-    **Comment**: An optional comment for this operation
 
--    **Coolant Mode**: - Coolant mode for this operation
+-    **Coolant Mode**: Coolant mode for this operation
 
--    **Cycle Time**: - Estimated cycle time for this operation
+-    **Cycle Time**: Estimated cycle time for this operation
 
--    **Start Vertex**: - The vertex index to start the path from
+-    **Start Vertex**: The vertex index to start the path from
 
--    **Tool Controller**: - The tool controller that will be used to calculate the path
+-    **Tool Controller**: The tool controller that will be used to calculate the path
 
--    **User Label**: - User assigned label
+-    **User Label**: User assigned label
 
 
 {{TitleProperty|Hidden}}
 
--    **Base Object**: -
+-    **Base Object**:
 
--    **Base Shapes**: -
+-    **Base Shapes**:
 
--    **Expression Engine**: -
+-    **Expression Engine**:
 
--    **Label2**: -
+-    **Label2**:
 
--    **Path**: -
+-    **Path**:
 
--    **Proxy**: -
+-    **Proxy**:
 
--    **Visibility**: -
+-    **Visibility**:
 
 ### View
 

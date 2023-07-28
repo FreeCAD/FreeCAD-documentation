@@ -24,7 +24,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_Line.svg  style="width:32px;"> [Ligne](Draft_Line/fr.md) : crée une ligne droite.
 
--   <img alt="" src=images/Draft_Wire.svg  style="width:32px;"> [Polyligne](Draft_Wire/fr.md) : crée une polyligne, une séquence de plusieurs segments de ligne connectés.
+-   <img alt="" src=images/Draft_Wire.svg  style="width:32px;"> [Polyligne](Draft_Wire/fr.md) : crée une polyligne (appelée aussi filaire), une séquence de plusieurs segments de ligne connectés.
 
 -   <img alt="" src=images/Draft_Fillet.svg  style="width:32px;"> [Congé](Draft_Fillet/fr.md) : crée un congé, un coin arrondi, ou un chanfrein, un bord droit, entre deux [Draft Lignes](Draft_Line/fr.md).
 
@@ -114,7 +114,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_Downgrade.svg  style="width:32px;"> [Désagréger](Draft_Downgrade/fr.md) : déclasse les objets sélectionnés.
 
--   <img alt="" src=images/Draft_WireToBSpline.svg  style="width:32px;"> [Polyligne vers B-spline](Draft_WireToBSpline/fr.md) : convertit des [Draft Polylignes](Draft_Wire/fr.md) en [Draft BSplines](Draft_BSpline/fr.md) et vice versa.
+-   <img alt="" src=images/Draft_WireToBSpline.svg  style="width:32px;"> [Polyligne vers B-spline](Draft_WireToBSpline/fr.md) : convertit des [Draft Polylignes](Draft_Wire/fr.md) en [Draft B-splines](Draft_BSpline/fr.md) et vice versa.
 
 -   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [Draft vers Esquisse](Draft_Draft2Sketch/fr.md): convertit les objets [Draft](Draft_Workbench/fr.md) en [Sketcher Esquisses](Sketcher_NewSketch/fr.md) et vice versa.
 
@@ -174,7 +174,7 @@ La barre d\'outils Draft Aimantation permet de sélectionner les options actives
 
 -   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:32px;"> [Aimantation Intersection](Draft_Snap_Intersection/fr.md) : aimante à l\'intersection de deux bords.
 
--   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:32px;"> [Aimantation Perpendiculaire](Draft_Snap_Perpendicular/fr.md) : aimante aux points perpendiculaires sur les faces ({{Version/fr|1.0}}) et les arêtes.
+-   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:32px;"> [Aimantation Perpendiculaire](Draft_Snap_Perpendicular/fr.md) : aimante aux points perpendiculaires sur les faces ({{Version/fr|0.21}}) et les arêtes.
 
 -   <img alt="" src=images/Draft_Snap_Extension.svg  style="width:32px;"> [Aimantation Extension](Draft_Snap_Extension/fr.md) : aimante à une ligne imaginaire qui s\'étend au-delà des extrémités des bords droits.
 
@@ -198,7 +198,7 @@ La barre d\'outils Draft Aimantation permet de sélectionner les options actives
 
 ## Outils utilitaires de la barre d\'outils de Draft 
 
--   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Calque](Draft_Layer/fr.md) : crée un [Draft Calque](Draft_Layer/fr.md).
+-   <img alt="" src=images/Draft_LayerManager.svg  style="width:32px;"> [Gestion des calques\...](Draft_LayerManager/fr.md) : permet de gérer les calques dans un document. {{Version/fr|0.21}}
 
 -   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:32px;"> [Nommer un groupe](Draft_AddNamedGroup/fr.md) : crée un [Std Groupe](Std_Group/fr.md) nommé et déplace les objets sélectionnés vers ce groupe. {{Version/fr|0.20}}
 
@@ -219,6 +219,8 @@ La barre d\'outils Draft Aimantation permet de sélectionner les options actives
 Le menu **Draft → Utilitaires** contient plusieurs outils. La plupart d\'entre eux sont également accessibles depuis les barres d\'outils ou [Draft La barre](Draft_Tray/fr.md) et ont déjà été mentionnés ci-dessus. Pour les outils suivants, ce n\'est pas le cas :
 
 -   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Appliquer le style](Draft_ApplyStyle/fr.md) : applique les paramètres du style en cours aux objets sélectionnés.
+
+-   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Calque](Draft_Layer/fr.md) : crée un [Draft Calque](Draft_Layer/fr.md). Disponible dans la [barre d\'outils de Draft](Draft_Workbench/fr#Outils_utilitaires_de_la_barre_d'outils_de_Draft.md), {{VersionMinus/fr|0.20}}.
 
 -   <img alt="" src=images/Draft_Heal.svg  style="width:32px;"> [Réparer](Draft_Heal/fr.md) : répare les objets Draft problématiques trouvés dans de très vieux fichiers.
 
@@ -248,7 +250,7 @@ Les options supplémentaires sont disponibles dans le menu contextuel de la [Vue
 
 Pour la plupart des objets Draft, l\'option suivante est disponible :
 
--   Editer : édite l\'objet. Selon le type d\'objet, on utilise soit [Draft Editer](Draft_Edit/fr.md) soit une solution d\'édition dédiée. {{Version/fr|1.0}}
+-   Editer : édite l\'objet. Selon le type d\'objet, on utilise soit [Draft Editer](Draft_Edit/fr.md) soit une solution d\'édition dédiée. {{Version/fr|0.21}}
 
 S\'il y a un document actif, le menu contextuel contient un sous-menu supplémentaire :
 
@@ -310,11 +312,9 @@ S\'il y a un document actif, le menu contextuel contient un sous-menu supplémen
 
 ## Outils obsolète 
 
-Ces commandes sont obsolètes mais toujours disponibles :
+-   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> [Réseau](Draft_Array/fr.md) : crée un réseau orthogonal à partir d\'un objet sélectionné. Le réseau créé peut être transformé en un [réseau polaire](Draft_PolarArray/fr.md) ou un [réseau circulaire](Draft_CircularArray/fr.md) en modifiant sa propriété **Array Type**. Elle n\'est plus disponible dans la {{VersionPlus/fr|0.21}}.
 
--   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> [Réseau](Draft_Array/fr.md) : crée un réseau orthogonal à partir d\'un objet sélectionné. Le réseau créé peut être transformé en un [réseau polaire](Draft_PolarArray/fr.md) ou un [réseau circulaire](Draft_CircularArray/fr.md) en modifiant sa propriété **Array Type**. {{Obsolete/fr|0.19}}
-
--   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Dessin](Draft_Drawing/fr.md) : insère des vues des objets sélectionnés dans une page [Drawing](Drawing_Workbench/fr.md). {{Obsolete/fr|0.17}}
+-   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Dessin](Draft_Drawing/fr.md) : insère des vues des objets sélectionnés dans une page [Drawing](Drawing_Workbench/fr.md). Elle n\'est plus disponible dans la {{VersionPlus/fr|0.21}}.
 
 
 

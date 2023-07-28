@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introdução
 
 
@@ -29,9 +31,13 @@ Os corpos criados com PartDesign estão freqüentemente sujeitos ao [problema de
 
 <img alt="" src=images/PartDesign_Example.png  style="width:500px;">
 
+
+
 ## Ferramentas
 
 As ferramentas de Projeto da Peça estão todas localizadas no menu **Part Design** e na barra de ferramentas PartDesign que aparece quando você carrega a bancada de trabalho Part Design.
+
+
 
 ### Ferramentas de estrutura 
 
@@ -40,6 +46,8 @@ Essas ferramentas, de fato, não fazem parte da bancada de trabalho PartDesign. 
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Peça](Std_Part/pt-br.md): adiciona um novo recipiente de peças no documento ativo e o torna ativo.
 
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Grupo](Std_Group/pt-br.md): adiciona um recipiente de Grupo no documento ativo, o que permite organizar os objetos no [vista em árvore](Tree_view/pt-br.md).
+
+
 
 ### Ferramentas auxiliares de projeto de peças 
 
@@ -65,7 +73,11 @@ Essas ferramentas, de fato, não fazem parte da bancada de trabalho PartDesign. 
 
 -   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Validate sketch](Sketcher_ValidateSketch.md): verifies the tolerance of different points and adjusts them.
 
+
+
 ### Ferramentas de modelagem de projeto de peças 
+
+
 
 #### Ferramentas de referência 
 
@@ -95,6 +107,8 @@ Essas ferramentas, de fato, não fazem parte da bancada de trabalho PartDesign. 
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Criar um clone](PartDesign_Clone/pt-br.md): cria um clone do corpo selecionado.
 
+
+
 #### Ferramentas aditivas 
 
 Estas são ferramentas para criar características básicas ou adicionar material a um corpo sólido existente.
@@ -107,7 +121,13 @@ Estas são ferramentas para criar características básicas ou adicionar materia
 
 -   <img alt="" src=images/PartDesign_AdditivePipe.svg  style="width:32px;"> [Aditivo de varredura](PartDesign_AdditivePipe/pt-br.md): cria um sólido ao varrer um ou mais esboços ao longo de um caminho aberto ou fechado.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Hélice aditiva](PartDesign_AdditiveHelix/pt-br.md): cria um sólido ao varrer um esboço ao longo de uma hélice. <small>(v0.19)</small> 
+
+
+</div>
 
 -   <img alt="" src=images/PartDesign_CompPrimitiveAdditive.png  style="width:48px;"> [Criar um aditivo primitivo](PartDesign_CompPrimitiveAdditive/pt-br.md): adiciona um aditivo primitivo ao corpo ativo.
 
@@ -127,6 +147,8 @@ Estas são ferramentas para criar características básicas ou adicionar materia
 
   -<img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [Cunha aditiva](PartDesign_AdditiveWedge/pt-br.md): cria uma cunha aditiva.
 
+
+
 #### Ferramentas subtrativas 
 
 Estas são ferramentas para subtrair material de um corpo existente.
@@ -141,7 +163,13 @@ Estas são ferramentas para subtrair material de um corpo existente.
 
 -   <img alt="" src=images/PartDesign_SubtractivePipe.svg  style="width:32px;"> [Escaneamento subtrativo](PartDesign_SubtractivePipe/pt-br.md): cria uma forma sólida ao varrer um ou mais esboços ao longo de um caminho aberto ou fechado e o subtrai do corpo ativo.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Hélice subtrativa](PartDesign_SubtractiveHelix/pt-br.md): cria uma forma sólida ao varrer um esboço ao longo de uma hélice e o subtrai do corpo ativo. <small>(v0.19)</small> 
+
+
+</div>
 
 -   <img alt="" src=images/PartDesign_CompPrimitiveSubtractive.png  style="width:48px;"> [Criar um primitivo subtrativo](PartDesign_CompPrimitiveSubtractive/pt-br.md): adiciona um primitivo subtrativo ao corpo ativo.
 
@@ -160,6 +188,8 @@ Estas são ferramentas para subtrair material de um corpo existente.
   -<img alt="" src=images/PartDesign_SubtractivePrism.svg  style="width:32px;"> [Prisma subtrativo](PartDesign_SubtractivePrism/pt-br.md): adiciona um prisma subtrativo ao corpo ativo.
 
   -<img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> ‎[Cunha subtrativa](PartDesign_SubtractiveWedge/pt-br.md): adiciona uma cunha subtrativa ao corpo ativo.
+
+
 
 #### Ferramentas de transformação 
 
@@ -197,6 +227,8 @@ Estas são ferramentas para transformar as características existentes. Elas per
 
 </div>
 
+
+
 #### Ferramentas de embelezamento 
 
 
@@ -220,6 +252,8 @@ Estas ferramentas aplicam um tratamento às bordas ou faces selecionadas.
 
 
 </div>
+
+
 
 #### Booleano
 
@@ -249,6 +283,8 @@ Algumas funcionalidades adicionais encontradas no menu Design da peça:
 
 -   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Assistente de projeto do eixo](PartDesign_WizardShaft/pt-br.md): Gera um eixo a partir de uma tabela de valores e permite analisar forças e momentos. O eixo é feito com um esboço giratório que pode ser editado.
 
+
+
 ### Itens do menu de contexto 
 
 -   <img alt="" src=images/PartDesign_MoveTip.svg  style="width:32px;"> [Designar como uma função resultante](PartDesign_MoveTip/pt-br.md): redefine a ponta, que é a característica exposta fora do Corpo.
@@ -257,11 +293,15 @@ Algumas funcionalidades adicionais encontradas no menu Design da peça:
 
 -   <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:32px;"> [Mover objeto após outro objeto](PartDesign_MoveFeatureInTree/pt-br.md): permite reordenar a árvore do corpo movendo o esboço, a geometria dos dados ou a característica selecionada para outra posição na lista de características.
 
+
+
 #### Itens compartilhados com a bancada de trabalho da peça 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Aparência](Std_SetAppearance/pt-br.md): determina a aparência de toda a peça (transparência de cores, etc.).
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Cores definidas](Part_FaceColors/pt-br.md): atribui cores aos rostos das peças.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -274,6 +314,8 @@ Algumas funcionalidades adicionais encontradas no menu Design da peça:
 -   <img alt="" src=images/Preferences-part_design.svg  style="width:32px;"> [Preferências](PartDesign_Preferences/pt-br.md): preferências disponíveis para as Ferramentas PartDesign.
 -   [Sintonia fina](Fine-tuning/pt-br.md): alguns parâmetros extras para afinar o comportamento do PartDesign.
 
+
+
 ## Tutoriais
 
 -   [Como usar o FreeCAD](http://help-freecad-jpg87.fr/), um website descrevendo o fluxo de trabalho para o projeto mecânico. (inglês e francês)
@@ -281,6 +323,12 @@ Algumas funcionalidades adicionais encontradas no menu Design da peça:
 -   [Tutorial de Projeto Básico de Peças](Basic_Part_Design_Tutorial/pt-br.md)
 -   [Tutorial de Projeto de Mancais de Apoio I](PartDesign_Bearingholder_Tutorial_I/pt-br.md) (precisa de atualização)
 -   [Tutorial de Projeto de Mancais de Apoio II](PartDesign_Bearingholder_Tutorial_II/pt-br.md) (precisa de atualização)
+
+## Examples
+
+For some ideas of what can be achieved with Part Design tools, have a look at: [PartDesign examples](PartDesign_Examples.md).
+
+<img alt="" src=images/PartDesign_ExampleSphere-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleTorus-01.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExamplePad-09.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-05.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSpring-04.png  style="width:80px;">
 
 
 

@@ -10,9 +10,13 @@
 
 # Std SelBoundingBox/pl
 
+
+
 ## Opis
 
 Polecenie **Ramka otaczająca** włącza globalny tryb wyróżniania ramek obramowań. Jeśli ten tryb jest włączony, wybrane obiekty są oznaczane w oknie [widoku 3D](3D_view/pl.md) podświetlonym obramowaniem, nawet jeśli ich parametr **Styl zaznaczenia** jest ustawiony na wartość `Kształt`.
+
+
 
 ## Użycie
 
@@ -20,9 +24,13 @@ Polecenie **Ramka otaczająca** włącza globalny tryb wyróżniania ramek obram
     -   Naciśnij przycisk **<img src="images/Std_SelBoundingBox.svg" width=16px> [Ramka otaczająca](Std_SelBoundingBox/pl.md)**.
     -   Wybierz opcję z menu **Widok → <img src="images/Std_SelBoundingBox.svg" width=16px> Ramka otaczająca**.
 
+
+
 ## Ustawienia
 
 Odpowiednie ustawienie jest zapisywane w: **Przybory → Edycja parametrów ... → BaseApp → Preferences → View → ShowSelectionBoundingBox**. Jest to wartość typu {{value|boolean}}, domyślnie ustawiona na wartość {{FALSE/pl}}.
+
+
 
 ## Tworzenie skryptów 
 

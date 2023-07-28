@@ -11,6 +11,8 @@
 
 # PartDesign ShapeBinder/it
 
+
+
 ## Descrizione
 
 
@@ -37,6 +39,8 @@ The referenced geometry can either be a single object (for example a [Part Box](
 
 </div>
 
+
+
 ## Utilizzo
 
 
@@ -54,6 +58,8 @@ Uso generale:
 
 
 </div>
+
+
 
 ## Opzioni
 
@@ -73,6 +79,8 @@ Fare doppio clic sull\'etichetta ShapeBinder nell\'albero del modello o fare cli
 ## PartDesign SubShapeBinder vs. PartDesign ShapeBinder 
 
 See [PartDesign SubShapeBinder](PartDesign_SubShapeBinder#PartDesign_SubShapeBinder_vs._PartDesign_ShapeBinder.md).
+
+
 
 ## Proprietà
 

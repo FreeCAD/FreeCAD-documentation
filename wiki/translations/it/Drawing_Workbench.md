@@ -1,7 +1,19 @@
 # Drawing Workbench/it
-**Lo sviluppo del modulo Drawing è stato interrotto in FreeCAD 0.16 con il proposito di sostituirlo con il nuovo modulo [TechDraw](TechDraw_Workbench/it.md) che sarà introdotto nella versione 0.17. Nella versione 0.17 sono forniti entrambi i moduli, ma il modulo Drawing potrebbe essere rimosso nelle versioni future.**
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+**The '''Drawing Workbench''' is no longer included after version 0.20.<br>
+The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement.**
 
 <img alt="L\'icona di Drawing" src=images/Workbench_Drawing.svg  style="width:128px;">
+
+
 
 ## Introduzione
 
@@ -13,6 +25,8 @@ Permette di produrre delle viste (proiezioni sul piano) del modello, di posizion
 {{TOCright}}
 
 <img alt="" src=images/Drawing_extraction.png  style="width:600px;">
+
+
 
 ## Strumenti
 
@@ -50,32 +64,68 @@ Il documento contiene un oggetto di forma 3D (Schenkel) da si vuole produrre un 
 
 Nella pagina si possono inserire una o più viste. Ogni vista ha una posizione nella pagina, un fattore di scala (proprietà di scala) e delle proprietà aggiuntive. Ogni volta che la pagina, la vista o l\'oggetto a cui si fa riferimento subiscono delle modifiche, la pagina viene rigenerata e viene anche aggiornata la sua visualizzazione.
 
+
+
 ## Script
 
 Per ora le funzioni offerte dall\'interfaccia grafica (GUI) sono molto limitate, quindi gli script API sono più interessanti.
 
 Vedere la pagina [Esempi dell\'API di Drawing](Drawing_API_example/it.md) per una descrizione delle funzioni utilizzate per creare pagine e viste di disegno.
 
-Lo script [Macro_CartoucheFC](Macro_CartoucheFC/it.md) permette di compilare agevolmente la tabella del modello di tavola FreeCAD A3_Landscape.
+
 
 ## Modelli di squadrature 
 
 FreeCAD viene fornito con una serie di modelli di pagina predefiniti, ma si possono trovare altri modelli in [Modelli di squadrature](Drawing_templates/it.md).
 
+
+
 ## Estendere il modulo Drawing 
 
 Alcune ulteriori note sulla programmazione del Modulo Disegno sono contenute nella pagina [Drawing Documentation (en)](Drawing_Documentation.md) [Drawing Documentation (it)](Drawing_Documentation/it.md). Dette note aiutano a capire rapidamente come lavora questo modulo e permettono ai programmatori di avviare rapidamente la programmazione per esso.
 
+
+<div class="mw-translate-fuzzy">
+
 ## Tutorial
 
 -   [Drawing tutorial](Drawing_tutorial/it.md)
+
+
+</div>
+
+## Macros
+
+-    <img style="width:16px;" src="images/Macro_Automatic_drawing.png"> [Macro Automatic drawing](Macro_Automatic_drawing.md): Allows the user to get the view of his object in a drawing with 4 different position (front,top,iso,right). Needs some modification to be perfectly effective.
+
+-    <img style="width:16px;" src="images/Macro_CartoucheFC.png"> [Macro CartoucheFC](Macro_CartoucheFC.md): This GUI macro to fill simply all fields of the cartridge of the plan implementation worksheet FreeCAD, the format of the date and the symbol of the projection mode adapt to the EU region or US selected.
+
+-    <img style="width:16px;" src="images/Macro_CartoucheFC_2.png"> [Macro CartoucheFC 2](Macro_CartoucheFC_2.md): This GUI macro to fill simply all fields of the cartridge **model 2** of the plan implementation worksheet FreeCAD.
+
+-    <img style="width:16px;" src="images/Macro_CartoucheFC_Full.png"> [Macro CartoucheFC Full](Macro_CartoucheFC_Full.md): This GUI macro to fill simply all fields of the cartridge [Misc templates Full](Misc_templates_Full.md) of the plan implementation worksheet FreeCAD, the format of the date and the symbol of the projection mode adapt to the EU region or US selected.
+
+-    <img style="width:16px;" src="images/Macro_Corner_shapes_wizard.png"> [Macro Corner shapes wizard/update](Macro_Corner_shapes_wizard/update.md): Pops up a dialog asking for the dimensions of your corner piece, then creates the object in the document and creates a page view with top, front and lateral views of the piece.
+
+## External links 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Link esterni 
 
 -   [Intro to mechanical drawing on Youtube - by Normal Universe](https://www.youtube.com/watch?v=1Hm5Zyjmjac)
 
 
+</div>
 
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 {{Drawing Tools navi

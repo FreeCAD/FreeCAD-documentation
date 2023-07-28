@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -21,7 +23,7 @@ La herramienta Punto crea un punto en el croquis actual, que puede utilizarse pa
 
 </div>
 
-[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md)
+[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md) 
 
 ## Utilización
 
@@ -34,6 +36,8 @@ La herramienta Punto crea un punto en el croquis actual, que puede utilizarse pa
 
 
 </div>
+
+
 
 ## Opciones
 

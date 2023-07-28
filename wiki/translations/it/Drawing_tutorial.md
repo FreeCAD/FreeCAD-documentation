@@ -116,9 +116,11 @@ Il flusso di lavoro di base per l\'ambiente [Drawing](Drawing_Workbench/it.md) Ã
 -   Per ulteriori informazioni sugli strumenti disponibili consultare la pagina [Ambiente Drawing](Drawing_Workbench/it.md)
 
 
- {{Drawing Tools navi}}
+{{Drawing Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Drawing](Category_Drawing.md) > Drawing tutorial/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing tutorial/it

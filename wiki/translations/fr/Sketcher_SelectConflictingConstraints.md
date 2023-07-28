@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/fr
    Name:Sketcher SelectConflictingConstraints
-   Name/fr:Sketcher Sélection des contraintes conflictuelles
+   Name/fr:Sketcher Contraintes conflictuelles
    MenuLocation:Esquisse → Outils d'esquisse → Sélectionner les contraintes conflictuelles
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**Z** **P** **C**

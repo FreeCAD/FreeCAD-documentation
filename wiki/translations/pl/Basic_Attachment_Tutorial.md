@@ -20,6 +20,8 @@ Ten poradnik powinien służyć jako wprowadzenie do pracy z narzędziem [Edytuj
 
 Mocowanie jest narzędziem służącym do dołączania obiektu do innego. Łączy to właściwości umiejscowienia obu obiektów, dołączony obiekt będzie podążał za oryginalnym *(jeśli jego umiejscowienie zostanie zmienione)*. Skupiamy się na środowisku pracy Projekt Części i dołączaniu szkiców do innych szkiców, jest to zalecana metoda do tworzenia [*stabilnych*](Feature_editing/pl#Porady_dotycz.C4.85ce_tworzenia_stabilnych_modeli.md) modeli. Funkcjonalność została napisana dla v0.19, ale powinna działać dla każdej wersji 0.17 i późniejszych. Jednakże, niektóre szczegóły mogą się różnić. Oryginalny model został zaprojektowany przez Md. Aminul Islam i został pobrany stąd:-https://grabcad.com/library/50-cad-exercise-drawing-1
 
+
+
 ## Wymagania wstępne 
 
 Przed przystąpieniem do wykonywania tego poradnika użytkownik powinien
@@ -30,11 +32,15 @@ Przed przystąpieniem do wykonywania tego poradnika użytkownik powinien
 4.  Posiadać podstawową wiedzę na temat środowiska pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md).
 5.  Posiadać podstawową wiedzę na temat [Wyrażeń](Expressions/pl.md).
 
+
+
 ## Cele
 
 Celem tego poradnika jest pokazanie, w jaki sposób można zbudować model poprzez pozycjonowanie szkiców względem innych geometrii przy użyciu niektórych z dostępnych trybów dołączania.
 
 Chociaż możliwe jest użycie geometrii bryłowej ( wierzchołków, krawędzi i ścian) jako geometrii odniesienia, w interesie tego, co jest uważane za dobrą praktykę, ten poradnik powstrzyma się od tego. Zobacz stronę [Edycja cech](Feature_editing/pl.md) aby uzyskać więcej wyjaśnień.
+
+
 
 ## Czynności wstępne 
 
@@ -52,6 +58,8 @@ Możemy wykonać szkic na każdej z głównych płaszczyzn. Moglibyśmy dołącz
 
 ![centre\|Wspólna oś](images/CommonAxis.png )
 
+
+
 ## Dołączenie
 
 Zaczniemy od bloku i zgarniemy nadmiar za pomocą kieszeni.
@@ -68,6 +76,8 @@ Zaznacz szkic, naciśnij klawisz **F2** i zmień nazwę na \"BaseSketch\".
 
 
 {{top}}
+
+
 
 ### Odsunięcie dołączenia 
 
@@ -98,6 +108,8 @@ Powinny pozostać dwa stopnie swobody, czyli położenie względem Odniesienie p
 
 {{top}}
 
+
+
 ### Zmiana dołączenia 
 
 Zamknij szkic. Zmień nazwę szkicu, nazywając go \"IsoscelesSketch\". Początek szkicu jest punktem, który zostanie dołączony w przyszłości, dlatego ważny jest wybór sposobu związania szkicu z Odniesieniem położenia. Odniesienie położenia można traktować jako haczyk, który łapie miejsce odniesienia. Możemy dostosować położenie szkicu za pomocą przesunięć, ale lepiej jest wybrać mądrze na początku.
@@ -124,7 +136,7 @@ Tutaj widzimy dołączenie, które wybraliśmy podczas tworzenia szkicu *(w okni
 
 Przycisk **Reference 1** jest w trybie wyboru, więc w oknie [widoku 3D](3D_view/pl.md) wybierz jeden z długich boków szkicu bazowego.
 
-Szkic równoramienny zostanie dołączony do wybranej linii, a okno trybu dołączania zmieni się, aby odzwierciedlić dostępne tryby.
+Szkic trójkąta równoramiennego zostanie dołączony do wybranej linii, a okno trybu dołączania zmieni się, aby odzwierciedlić dostępne tryby. Jeśli trójkąt jest skierowany w złą stronę możesz to skorygować zaznaczając pole wyboru \"Odwróć strony\" na dole okna dialogowego *(lub później po zamknięciu okna dialogowego można to zmienić w zakładce danych właściwości ustawiając wartość parametru \"Map Reversed\" na {{True/pl}})*.
 
 ![centre\|Normalny do krawędzi Równoramiennego](images/NormalToEdgeIsosceles.png )
 
@@ -154,6 +166,8 @@ Teraz można wprowadzić [kieszeń](PartDesign_Pocket/pl.md) do szkicu.
 
 
 {{top}}
+
+
 
 ### O krok dalej 
 
@@ -191,6 +205,8 @@ Możesz teraz wykonać kieszeń ze szkicu. Tym razem użyj opcji \"Symetrycznie 
 
 
 {{top}}
+
+
 
 ### Manipulowanie dołączeniem 
 
@@ -239,6 +255,8 @@ Potwierdźmy więc i zakończmy na razie tą czynność zamykając okno dialogow
 
 {{top}}
 
+
+
 ### Mapowanie parametru ścieżki 
 
 Wybierz FinalSketch i poszukaj w widoku połączonym, w panelu właściwości w sekcji dołączania, tuż pod właściwością Tryb Mapowania znajduje się parametr Ścieżka Mapy.
@@ -257,6 +275,8 @@ Możesz teraz wykonać kieszeń na szkicu. Nie zapomnij użyć opcji Symetryczni
 
 
 {{top}}
+
+
 
 ### Inny tryb wyboru 
 
@@ -287,11 +307,15 @@ Potwierdź i zamknij okno dialogowe. Możemy teraz użyć płaszczyzny odniesien
 
 {{top}}
 
+
+
 ### Tymczasowe dołączenie do generowanej płaszczyzny 
 
 Czasami trudno jest dowiedzieć się, jak wyrównać szkic lub płaszczyznę odniesienia do wygenerowanej powierzchni bez faktycznego dołączenia do niej, co, jak wspomniano powyżej, może być problematyczne. Jednym z rozwiązań jest dołączenie do wygenerowanej geometrii, a następnie zmiana dołączenia na jedną z płaszczyzn współrzędnych. FreeCAD zachowa istniejące położenie i orientację, ale teraz odniesie je do stabilnych płaszczyzn, unikając w ten sposób problemów ze zmianą nazwy topologicznej. Jednakże, kosztem tego jest utrata parametrycznego powiązania z wygenerowaną geometrią. Jeśli model bazowy ulegnie zmianie, nie rozpadnie się, jak to się często zdarza podczas dołączania do wygenerowanej geometrii, ale dołączenie nie będzie podążało za zmianami i będzie wymagało dostosowania poprzez powtórzenie sztuczki z tymczasowym dołączeniem.
 
 Poprzednia metoda jest bardziej stabilna, ale bardziej abstrakcyjna i skomplikowana do osiągnięcia. Sztuczka z tymczasowym mocowaniem jest szybka i łatwa do wdrożenia, bardziej wytrzymała niż mocowanie do wygenerowanej geometrii, ale traci pewien stopień powiązania w procesie modelowania parametrycznego.
+
+
 
 ## Rozważania
 
@@ -307,9 +331,9 @@ Miłego dołączania!
 {{top}}
 
 
-{{Tutorials_navi
+{{PartDesign_Tools_navi
 
-}} {{PartDesign_Tools_navi}} {{Sketcher_Tools_navi}}
+}} {{Sketcher_Tools_navi}}
 
 
 

@@ -30,7 +30,7 @@ Les lignes bleues sont des lignes de construction aléatoires à des fins d'illu
 -   Appuyer sur le bouton **[<img src=images/Sketcher_CreateEllipseBy3Points.svg style="width:16px"> [Créer une ellipse via 3 points](Sketcher_CreateEllipseBy3Points/fr.md)**.
 -   Cliquer d\'abord dans la vue 3D pour définir un point de croisement du diamètre majeur avec l\'ellipse (périapside). Le second point dans la vue 3D définit le croisement avec l\'ellipse opposé au centre (apoapside). Le troisième clic définit un point sur l\'ellipse définissant le rayon mineur.
 
--   Après le troisième clic, l\'ellipse est créée, ainsi qu\'un ensemble de géométrie de construction alignée sur l\'ellipse (diamètres majeur et intérieur, 2 points focaux). La géométrie de construction peut être supprimée manuellement si non requise, et recréée plus tard. Consultez [contrainte d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) et [afficher/basculer la géométrie interne](Sketcher_RestoreInternalAlignmentGeometry/fr.md).
+-   Après le troisième clic, l\'ellipse est créée, ainsi qu\'un ensemble de géométrie de construction alignée sur l\'ellipse (diamètres majeur et intérieur, 2 points focaux). La géométrie de construction peut être supprimée manuellement si non requise, et recréée plus tard. Consultez [afficher/basculer la géométrie interne](Sketcher_RestoreInternalAlignmentGeometry/fr.md).
 -   Appuyer sur **Echap** ou un clic droit sur la souris annule la fonction.
 
 

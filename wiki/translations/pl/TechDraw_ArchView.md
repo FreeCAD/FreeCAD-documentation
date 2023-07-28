@@ -1,78 +1,110 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ArchView
-   MenuLocation:TechDraw → Insert Arch Workbench Object
-   Workbenches:[TechDraw](TechDraw_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso:[Arch Section Plane](Arch_SectionPlane.md)
+   Name/pl:Rysunek Techniczny: Wstaw obiekt środowiska Architektura
+   MenuLocation:Rysunek Techniczny → Insert Arch Workbench Object
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   SeeAlso:[Płaszczyzna przekroju](Arch_SectionPlane/pl.md)
 ---
 
 # TechDraw ArchView/pl
 
-## Description
 
-The ArchView tool inserts a view of an **<img src="images/Arch_SectionPlane.svg" width=16px> [Arch SectionPlane](Arch_SectionPlane.md)** on a [TechDraw page](TechDraw_PageDefault.md).
+</div>
+
+
+
+## Opis
+
+Narzędzie **Wstaw obiekt środowiska Architektura** wstawia widok **<img src="images/Arch_SectionPlane.svg" width=16px> [przekroju](Arch_SectionPlane/pl.md)** na stronie [Rysunku Technicznego](TechDraw_PageDefault/pl.md).
 
 ![](images/TechDraw_Arch_example.jpg )
 
-## Usage
-
-1.  Select an Arch section plane in the 3D view or in the tree
-2.  If you have multiple drawing pages in your document, you will need to select the desired page in the tree.
-3.  Press the **<img src="images/TechDraw_ArchView.svg" width=24px> [Insert Arch Workbench Object](TechDraw_ArchView.md)** button
-4.  A view of the objects seen by the section plane will appear on the page.
-
-### Limitations
-
-The ArchView is rendered within the [Arch Workbench](Arch_Workbench.md), therefore TechDraw has limited control over its appearance. You may need to make changes within Arch to get the representation you want.
-
-## Options
-
--   The Arch View is rendered by the [Arch Workbench](Arch_Workbench.md), the same way as in the [Drawing Workbench](Drawing_Workbench.md). See Notes.
--   [Draft Dimensions](Draft_Snap_Dimensions.md), [Draft Texts](Draft_Text.md) and any other 2D (Sketch or Draft) object considered by the section plane is rendered \"as is\" (no intersection or hidden lines) on top of the solid geometry
--   The volume of [Arch Spaces](Arch_Space.md) is not rendered, only the label will be rendered
--   Cut lines, projected lines (if Show Hidden property is set to True) and 2D lines above can be rendered with different line widths. This can be configured in the Arch preferences.
--   The ArchView has two rendering modes: Wireframe, which uses the OpenCasCade algorithms of the [Drawing Workbench](Drawing_Workbench.md), is fast and produces only lines (no face fill possible), and Solid, which is based on the [Painter\'s algorithm](https://en.wikipedia.org/wiki/Painter%27s_algorithm), and is capable of rendering faces filled with their shape color. However, it is much slower and can fail in many situations. The image below illustrates the difference between the two rendering modes:
-
-![](images/TechDraw_Arch_rendering.jpg )
-
--   Only the base line of [Arch Pipes](Arch_Pipe.md) is rendered, not the full volume of the tube:
-
-![](images/TechDraw_Arch_piping.jpg )
-
-## Properties
-
-See also [TechDraw View](TechDraw_View#Properties.md).
-
-### Data
 
 
-{{TitleProperty|Arch view}}
+## Użycie
 
--    **Source|Link**: The section plane object to be displayed.
 
--    **All On|Bool**: If hidden objects must be shown or not. If `False`, only objects that are visible in the 3D view are rendered.
+<div class="mw-translate-fuzzy">
 
--    **Render Mode|Enumeration**: The render mode to use, {{Value|Solid}} or {{Value|Wireframe}}.
+1.  Wybierz płaszczyznę przekroju architektonicznego w oknie widoku 3D lub w widoku drzewa.
+2.  Jeśli w dokumencie znajduje się wiele stron rysunku, należy wybrać żądaną stronę w drzewie.
+3.  Naciśnij **<img src="images/TechDraw_ArchView.svg" width=24px> '''Wstaw obiekt środowiska Architektura'''**.
+4.  Na stronie pojawi się widok obiektów widzianych przez płaszczyznę przekroju.
 
--    **Fill Spaces|Bool**: If `True`, Arch Spaces are shown as a colored area.
 
--    **Show Hidden|Bool**: If the hidden geometry (the part of the geometry that lies behind the section plane) is shown or not. It will be rendered in dashed line, which can be configured in the Arch preferences.
+</div>
 
--    **Show Fill|Bool**: If cut areas must be filled with a grey color or not.
 
--    **Line Width|Float**: The width of the main lines. Cut lines and projected/2D line widths ratios can be configured in the Arch preferences.
 
--    **Font Size|Float**: The size of all texts that appear in this view.
+## Opcje
 
--    **Cut Line Width|Float**: Width of the cut lines in this view.
+-   Widok Architektoniczny jest renderowany przez środowisko pracy [Architektura](Arch_Workbench/pl.md).
+-   [Wymiary](Draft_Snap_Dimensions/pl.md), [teksty](Draft_Text/pl.md) i każdy inny obiekt 2D *(szkic lub rysunek)* uwzględniany przez płaszczyznę przekroju jest renderowany \"tak jak jest\" *(bez przecięć lub ukrytych linii)* na wierzchu geometrii bryłowej.
+-   Objętość [kubatury](Arch_Space/pl.md) nie jest renderowana, renderowana jest tylko etykieta.
+-   Linie przecięcia, linie rzutowane *(jeśli właściwość Pokaż ukryte jest ustawiona na {{True/pl}})* i linie 2D powyżej mogą być renderowane z różnymi szerokościami linii. Można to skonfigurować w preferencjach środowiska Architektura.
+-   Widok Architektoniczny posiada dwa tryby renderowania:
+    -   Szkielet, który wykorzystuje algorytmy OpenCasCade środowiska [Rysunek Techniczny](TechDraw_Workbench/pl.md), jest szybki i generuje tylko linie *(bez możliwości wypełniania ścian)*.
+    -   Bryła, który jest oparty na algorytmie [Paintera](https://en.wikipedia.org/wiki/Painter%27s_algorithm) i jest w stanie renderować ściany wypełnione kolorem kształtu. Jest jednak znacznie wolniejszy i może zawieść w wielu sytuacjach.
 
--    **Join Arch|Bool**: If `True`, walls and structures will be fused by material.
+:   Poniższy obraz ilustruje różnicę między tymi dwoma trybami renderowania:
 
-## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The ArchView tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+
+
+:   ![](images/TechDraw_Arch_rendering.jpg )
+
+-   Renderowana jest tylko linia bazowa [Rury](Arch_Pipe/pl.md), a nie cała objętość rury:
+
+:   ![](images/TechDraw_Arch_piping.jpg )
+
+
+
+## Uwagi
+
+Widok architektoniczny jest renderowany w środowisku [Architektura](Arch_Workbench/pl.md), dlatego środowisko Rysunek Techniczny ma ograniczoną kontrolę nad jego wyglądem. Może być konieczne wprowadzenie zmian w środowisku pierwotnym, aby uzyskać pożądaną reprezentację.
+
+
+
+## Właściwości
+
+Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw_View/pl#Widok.md) środowiska Rysunek Techniczny.
+
+
+
+### Dane
+
+
+{{TitleProperty|Widok Architektury}}
+
+-    **źródło|Link**: Obiekt płaszczyzny przekroju do wyświetlenia.
+
+-    **Wszystko włączone|Bool**: Czy ukryte obiekty muszą być wyświetlane, czy nie. Jeśli parametr ma wartość `False`, renderowane są tylko obiekty widoczne w widoku 3D.
+
+-    **Tryb renderowania|Enumeration**: Tryb renderowania do użycia, {{Value|Solid}} lub {{Value|Wireframe}}.
+
+-    **Wypełnij przestrzenie|Bool**: Jeśli parametr ma wartość {{TRUE/pl}}, Arch Spaces są wyświetlane jako kolorowy obszar.
+
+-    **Pokaż ukryte|Bool**: Czy ukryta geometria (część geometrii, która leży za płaszczyzną przekroju) jest pokazywana, czy nie. Będzie ona renderowana linią przerywaną, którą można skonfigurować w preferencjach środowiska Architektura.
+
+-    **Pokaż wypełnienie|Bool**: Czy wycięte obszary muszą być wypełnione szarym kolorem, czy nie.
+
+-    **Szerokość linii|Float**: Szerokość głównych linii. Współczynniki szerokości linii cięcia i linii rzutowanych/2D można skonfigurować w preferencjach Arch.
+
+-    **Rozmiar czcionki|Float**: Rozmiar wszystkich tekstów wyświetlanych w tym widoku.
+
+-    **Szerokość linii cięcia|Float**: Szerokość linii cięcia w tym widoku.
+
+-    **Dołącz do Arch|Bool**: Jeśli parametr ma wartość {{TRUE/pl}}, ściany i struktury zostaną połączone materiałem.
+
+
+
+## Tworzenie skryptów 
+
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Wstaw obiekt środowiska Architektura** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
 
 
 ```python

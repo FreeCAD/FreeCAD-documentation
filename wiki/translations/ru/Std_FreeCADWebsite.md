@@ -1,22 +1,27 @@
 ---
-- GuiCommand:
-   Name:Std FreeCADWebsite
-   MenuLocation:Help → FreeCAD Website
-   Workbenches:All
-   SeeAlso:[Std FreeCADUserHub](Std_FreeCADUserHub.md), [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub.md), [Std FreeCADForum](Std_FreeCADForum.md), [Std FreeCADFAQ](Std_FreeCADFAQ.md)
+- GuiCommand:/ru
+   Name/ru:Сайт FreeCAD
+   Name:Std_FreeCADWebsite
+   MenuLocation:Помощь → Сайт FreeCAD
+   Workbenches:Все
+   SeeAlso:[Пользовательская документация](Std_FreeCADUserHub/ru.md), [Документация по созданию скриптов на Python](Std_FreeCADPowerUserHub/ru.md), [Форум FreeCAD](Std_FreeCADForum/ru.md), [FreeCAD Часто Задаваемые  Вопросы](Std_FreeCADFAQ/ru.md)
 ---
 
 # Std FreeCADWebsite/ru
 
+
+
 ## Описание
 
-The **Std FreeCADWebsite** command opens the main website of the FreeCAD project in the system\'s default Internet browser. The command requires a working Internet connection.
+Команда **Сайт FreeCAD** открывает главный веб-сайт проекта FreeCAD в интернет-браузере назначенном по умолчанию. Для работы команды требуется подключение к Интернет.
 
-Currently the command points to [<https://www.freecad.org>](https://www.freecad.org/).
+На текущий момент команда направляет на сайт [<https://www.freecad.org>](https://www.freecad.org/).
+
+
 
 ## Применение
 
-1.  Select the **Help → <img src="images/Std_FreeCADWebsite.svg" width=16px> FreeCAD Website** option from the menu.
+1.  Выберите пункт меню **Помощь → <img src="images/Std_FreeCADWebsite.svg" width=16px> Сайт FreeCAD**.
 
 
 

@@ -14,25 +14,28 @@
 
 L\'outil **<img src="images/Arch_Roof.svg" width=16px> [Toiture](Arch_Roof/fr.md)** permet de créer un toit en pente à partir d\'un fil sélectionné. L\'objet Toiture créé est paramétrique et garde sa relation avec l\'objet de base. Le principe est que chaque bord se voit attribuer un profil de toiture (pente, largeur, surplomb, épaisseur).
 
-**Remarque:** cet outil est encore en développement et peut échouer avec des formes très complexes.
+**Remarque :** cet outil est encore en développement et peut échouer avec des formes très complexes.
 
 <img alt="" src=images/RoofExample.png  style="width:600px;"> 
 *Vue d'en haut d'un modèle de bâtiment montrant le toit avec une certaine transparence*
 
+
+
 ## Utilisation
 
-1.  Créez un fil dans le sens antihoraire et sélectionnez le.
-    -   <img alt="" src=images/CounterclockwiseWire.png  style="width:600px;">
+1.  Créez une polyligne fermée dans le sens anti-horaire et sélectionnez la.
+
+    :   <img alt="" src=images/CounterclockwiseWire.png  style="width:600px;">
 
 2.  Cliquez sur le bouton **<img src="images/Arch_Roof.svg" width=16px> [Toiture](Arch_Roof/fr.md)** ou appuyez sur les touches **R** puis **F**.
 
-3.  L\'objet Toit par défaut a l\'air étrange car l\'outil manque certaines informations nécessaires.
+3.  L\'objet Toiture par défaut a l\'air étrange car l\'outil manque de certaines informations nécessaires.
 
-4.  Après la création du toit par défaut, double cliquez sur l\'objet dans la [Vue par arborescence](Tree_view/fr.md) pour accéder à son édition et ses propriétés. Les angles doivent être compris entre 0 et 90 degrés.
+4.  Après la création de la par défaut, double cliquez sur l\'objet dans la [vue par arborescence](Tree_view/fr.md) pour accéder à son édition et ses propriétés. Les angles doivent être compris entre 0 et 90 degrés.
 
     :   ![](images/RoofTable.png )
 
-5.  Chaque ligne correspond à un pan de toit. Vous pouvez ainsi définir les propriétés que vous dédirez pour chaque pan du toit.
+5.  Chaque ligne correspond à un pan de la toiture. Vous pouvez ainsi définir les propriétés que vous dédirez pour chaque pan de la toiture.
 
 6.  Pour vous aider, vous pouvez régler `Angle` ou `Run` sur `0` et définir un `Relative Id`, cela effectue un calcul automatique pour trouver les données relatives au `Relative Id`.
 
@@ -45,43 +48,49 @@ L\'outil **<img src="images/Arch_Roof.svg" width=16px> [Toiture](Arch_Roof/fr.md
     :   <img alt="" src=images/RoofProfil.png  style="width:600px;">
 
 8.  
-    **Remarque**: pour une meilleure compréhension, veuillez consulter ce [vidéo youtube](https://www.youtube.com/watch?v=4Urwru71dVk).
+    **Remarque**: pour une meilleure compréhension, veuillez consulter cette [vidéo youtube](https://www.youtube.com/watch?v=4Urwru71dVk).
 
 ## Options
 
--   L\'objet Roofs partage les propriétés communes et le comportement de tous les objet [Arch Composants](Arch_Component/fr.md)
+-   L\'objet Roof partage les propriétés communes et le comportement de tous les objet [Arch Composants](Arch_Component/fr.md)
+
+
 
 ## Propriétés
 
--    **Angles**: Liste les angles des pans de la toiture (un angle pour chaque pan) de la pente.
+-    **Angles**: liste les angles des pans de la toiture (un angle pour chaque pan) de la pente.
 
--    **Runs**: Liste de la largeur du pan de la toiture (une pour chaque bord).
+-    **Runs**: liste de la largeur du pan de la toiture (une pour chaque bord).
 
--    **IdRel**: Liste des relations Id de l\'angle de pente du toit.
+-    **IdRel**: liste des relations Id de l\'angle de pente du toit.
 
--    **Thickness**: Liste de l\'épaisseur du pan de la toiture. (Une épaisseur pour chaque bord).
+-    **Thickness**: liste de l\'épaisseur du pan de la toiture. (Une épaisseur pour chaque bord).
 
--    **Overhang**: Liste de la saillie du pan de la toiture (un surplomb pour chaque bord).
+-    **Overhang**: liste de la saillie du pan de la toiture (un surplomb pour chaque bord).
 
--    **Face**: Indice de la face de l\'objet de base utilisée (Pas vraiment utilisé).
+-    **Face**: indice de la face de l\'objet de base utilisée (pas vraiment utilisé).
+
+
 
 ## Script
 
 
 **Voir aussi :**
 
-[Arch API](Arch_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Toiture peut être utilisé dans les [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante: 
+L\'outil Toiture peut être utilisé dans les [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante :
+
+
 ```python
 Roof = makeRoof(baseobj=None, facenr=0, angles=[45.,], run=[], idrel=[0,], thickness=[50.,], overhang=[100.,], name="Roof")
 ```
 
--   Crée un objet `Roof` (toiture) à partir du `baseobj` donné qui peut être un fil fermé ou un objet solide.
-    -   Si `baseobj` est un fil, vous pouvez fournir des listes pour les `angles`, `run`, `idrel`, `thickness` et `overhang` pour chaque bord du câble définissant la forme du toit.
-    -   Les listes sont automatiquement complétées pour correspondre au nombre d\'arêtes.
+-   Crée un objet `Roof` à partir de `baseobj` donné, qui peut être une polyligne fermée ou un objet solide.
+    -   Si `baseobj` est une polyligne, vous pouvez fournir des listes de `angles`, `run`, `idrel`, `thickness` et `overhang` pour chaque arête de la polyligne afin de définir la forme du toit.
+    -   Les listes sont automatiquement complétées pour correspondre au nombre d\'arêtes de la polyligne.
 
-Exemple:
+Exemple :
 
 
 ```python

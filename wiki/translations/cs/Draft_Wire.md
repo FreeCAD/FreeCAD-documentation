@@ -144,6 +144,8 @@ A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) 
 -    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Skriptování

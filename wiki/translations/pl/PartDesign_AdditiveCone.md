@@ -1,47 +1,56 @@
 ---
 - GuiCommand:
    Name:PartDesign AdditiveCone
-   MenuLocation:Part Design → Create an additive primitive → Additive Cone
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Addytywny stożek
+   MenuLocation:Projekt Części → Utwórz cechę przez dodanie → Addytywny stożek
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md), [PartDesign SubtractiveCone](PartDesign_SubtractiveCone.md)
+   SeeAlso:[Komponent bryła pierwotna do dodania](PartDesign_CompPrimitiveAdditive/pl.md), [Subtraktywny stożek](PartDesign_SubtractiveCone/pl.md)
 ---
 
 # PartDesign AdditiveCone/pl
 
-## Description
 
-Inserts a primitive cone in the active Body as the first feature, or fuses it to the existing feature(s).
+
+## Opis
+
+Funkcja ta wstawia pierwotny stożek do aktywnej Zawartości jako pierwszy element lub łączy go z istniejącymi elementami.
 
 <img alt="" src=images/PartDesign_AdditiveCone_example.png  style="width:200px;">
 
-## Usage
 
-1.  Press the **<img src="images/PartDesign_AdditiveCone.svg" width=24px> '''Additive Cone'''** button. **Note**: the Additive Cone is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. To get to the Cone button, click on the down arrow besides the visible icon and select Additive Cone in the menu.
-2.  Set the Primitive parameters (for a complete cone, set one of the radii to zero) and the [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  A Cone feature appears under the active Body.
 
-## Options
+## Użycie
 
-The Cone can be edited after its creation in two ways:
+1.  Naciśnij przycisk **<img src="images/PartDesign_AdditiveCone.svg" width=24px> '''Addytywny stożek'''**. **Uwaga**: Addytywny stożek jest częścią menu narzędzi o nazwie **Utwórz bryłę pierwotną do dodania**. Po uruchomieniu programu FreeCAD, Addytywny prostopadłościan wyświetlany jest na pasku narzędzi domyślnie. Aby przejść do funkcji Walec, kliknij strzałkę w dół na widocznej ikonce i wybierz z menu opcję Addytywny stożek.
+2.  Ustaw parametry bryły i [dołączenia](Part_EditAttachment/pl.md).
+3.  Kliknij **OK**.
+4.  Pod aktywnym obiektem Zawartość pojawi się element Prostopadłościanu.
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
 
-## Properties
 
--    **Attachment**: defines the attachment mode as well as the Attachment Offset. See [Part EditAttachment](Part_EditAttachment.md).
+## Opcje
 
--    **Label**: label given to the Cone object. Change to suit your needs.
+Stożek można edytować po jego utworzeniu na dwa sposoby:
 
--    **Radius1**: the radius value at the cone\'s base.
+-   Klikając go dwukrotnie w drzewie modelu lub klikając prawym przyciskiem myszy i wybierając **Edytuj bryłę pierwotną** z menu podręcznego. Spowoduje to wyświetlenie parametrów bryły pierwotnej.
+-   Poprzez [Edytor właściwości](Property_editor/pl.md).
 
--    **Radius2**: the radius value at the cone\'s top. A non-zero value creates a truncated cone.
 
--    **Height**: the height of the cone along its axis.
 
--    **Angle**: angle of rotation of the cross section (360 degrees in a full cone).
+## Właściwości
+
+-    **Dołączenie**: definiuje tryb dołączania, a także przesunięcie dołączania. Zobacz też [Część: Edycja mocowania](Part_EditAttachment/pl.md).
+
+-    **Etykieta**: Etykieta nadana obiektowi Stożka. Zmień zgodnie z własnymi potrzebami.
+
+-    **Promień1**: wartość promienia u podstawy stożka.
+
+-    **Promień2**: wartość promienia na wierzchołku stożka. Wartość większa od zera tworzy stożek ścięty.
+
+-    **Wysokość**: wysokość stożka wzdłuż jego osi.
+
+-    **Kąt**: kąt obrotu przekroju *(360° dla pełnego stożka)*.
 
 
 

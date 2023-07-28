@@ -12,25 +12,38 @@
 
 ## Description
 
-L\'outil Point cosmétique ajoute un [Vertex](Glossary/fr#V.md) (sommet) qui ne fait pas partie de la géométrie d\'origine à une vue. Ce point se comporte comme n\'importe quel autre point et peut être utilisé pour le dimensionnement.
+L\'outil **TechDraw Point cosmétique** ajoute un [Vertex](Glossary/fr#V.md) (sommet) qui ne fait pas partie de la géométrie d\'origine à une vue. Ce point se comporte comme n\'importe quel autre point et peut être utilisé pour le dimensionnement.
 
 <img alt="" src=images/TechDraw_CosmeticVertex_Sample.png  style="width:300px;"> 
 *Point cosmétique utilisé pour créer une dimension supplémentaire*
 
+
+
 ## Utilisation
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Sélectionnez une vue dans le dessin.
 2.  Appuyez sur le bouton **<img src="images/TechDraw_CosmeticVertex.svg" width=16px> [Ajouter un sommet cosmétique](TechDraw_CosmeticVertex/fr.md)**.
 3.  Une boîte de dialogue de tâche s\'ouvre. Il permet de définir l\'emplacement du sommet cosmétique en sélectionnant un point ou en saisissant un décalage x, y par rapport au centre de la vue sélectionnée.
 4.  Pour choisir une position, appuyez sur le bouton **Point Picker**. Cliquez sur une position dans la vue et appuyez ensuite sur **OK** pour créer le point. Pour quitter la sélection de points sans créer de sommet cosmétique, appuyez sur le bouton **Escape picking** dans la boîte de dialogue.
 
-Pour supprimer un sommet cosmétique (Cosmetic Vertex), sélectionnez-le et utilisez le bouton de la barre d\'outils **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md)**.
 
-**Remarque:** vous ne pouvez pas modifier l\'emplacement du Cosmetic Vertex après sa création. Pour le moment, il n\'y a pas d\'autre moyen que de le supprimer et d\'en créer un nouveau.
+</div>
+
+## Notes
+
+-   You cannot change the position of an existing cosmetic vertex. At the moment there is no other way than to delete it and create a new one.
+-   To delete a cosmetic vertex use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
+
+
 
 ## Propriétés
 
 Les points cosmétiques n\'ont pas de propriétés propres car ils ne sont pas des objets du document. Ils partagent les paramètres de couleur et de taille avec des points de géométrie réguliers.
+
+
 
 ## Script
 

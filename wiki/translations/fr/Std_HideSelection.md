@@ -18,7 +18,7 @@ La commande **Std Masquer la sélection** masque les objets sélectionnés dans 
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets.
-2.  Il existe plusieurs façons d\'appeler la commande:
+2.  Il existe plusieurs façons d\'appeler la commande :
     -   Sélectionnez l\'option **Affichage → Visibilité → <img src="images/Std_HideSelection.svg" width=16px> Masquer la selection** dans le menu.
     -   Sélectionnez l\'option **<img src="images/Std_HideSelection.svg" width=16px> Masquer la selection** dans le menu contextuel de la [vue en arborescence](Tree_view/fr.md). Cette option n\'est pas disponible dans l\'[atelier PartDesign](PartDesign_Workbench/fr.md).
 
@@ -37,7 +37,7 @@ La commande **Std Masquer la sélection** masque les objets sélectionnés dans 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

@@ -1,51 +1,60 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign AdditiveEllipsoid
-   MenuLocation:Part Design → Create an additive primitive → Additive Ellipsoid
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Addytywna elipsoida
+   MenuLocation:Projekt Części → Utwórz cechę przez dodanie → Addytywna elipsoida
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md), [PartDesign SubtractiveEllipsoid](PartDesign_SubtractiveEllipsoid.md)
+   SeeAlso:[Komponent bryła pierwotna do dodania](PartDesign_CompPrimitiveAdditive/pl.md), [Subtraktywna elipsoida](PartDesign_SubtractiveEllipsoid/pl.md)
 ---
 
 # PartDesign AdditiveEllipsoid/pl
 
-## Description
 
-Inserts a primitive ellipsoid in the active Body as the first feature, or fuses it to the existing feature(s).
+
+## Opis
+
+Funkcja ta wstawia pierwotną elipsoidę do aktywnej Zawartości jako pierwszy element lub łączy ją z istniejącymi elementami.
 
 <img alt="" src=images/PartDesign_AdditiveEllipsoid_example.png  style="width:200px;">
 
-## Usage
 
-1.  Press the **<img src="images/PartDesign_AdditiveEllipsoid.svg" width=24px> '''Additive Ellipsoid'''** button. **Note**: the Additive Ellipsoid is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. To get to the Ellipsoid button, click on the down arrow besides the visible icon and select Additive Ellipsoid in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  An Ellipsoid feature appears under the active Body.
 
-## Options
+## Użycie
 
-The Ellipsoid can be edited after its creation in two ways:
+1.  Naciśnij przycisk **<img src="images/PartDesign_AdditiveEllipsoid.svg" width=24px> '''Addytywna elipsoida'''**. **Uwaga**: Addytywna elipsoida jest częścią menu narzędzi o nazwie **Utwórz bryłę pierwotną do dodania**. Po uruchomieniu programu FreeCAD, Addytywna elipsoida wyświetlana jest na pasku narzędzi domyślnie. Aby przejść do funkcji Elipsoia, kliknij strzałkę w dół na widocznej ikonce i wybierz z menu opcję Addytywny walec.
+2.  Ustaw parametry bryły i [dołączenia](Part_EditAttachment/pl.md).
+3.  Kliknij **OK**.
+4.  Pod aktywnym obiektem Zawartość pojawi się element Prostopadłościanu.
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
 
-## Properties
 
--    **Attachment**: defines the attachment mode as well as the Attachment Offset. See [Part EditAttachment](Part_EditAttachment.md).
+## Opcje
 
--    **Label**: label given to the Ellipsoid object. Change to suit your needs.
+Elipsoidę można edytować po jej utworzeniu na dwa sposoby:
 
--    **Radius1**: the radius value along the ellipsoid\'s vertical axis; by default, parallel to the Z-axis.
+-   Klikając ją dwukrotnie w drzewie modelu lub klikając prawym przyciskiem myszy i wybierając **Edytuj bryłę pierwotną** z menu podręcznego. Spowoduje to wyświetlenie parametrów bryły pierwotnej.
+-   Poprzez [Edytor właściwości](Property_editor/pl.md).
 
--    **Radius2**: the radius value along the ellipsoid\'s length; by default, parallel to the X-axis.
 
--    **Radius3**: the radius value along the ellipsoid\'s width; by default, parallel to the Y-axis. At the default value of zero, the ellipsoid forms an [oblate spheroid](http://en.wikipedia.org/wiki/Oblate_spheroid). This has the same form as if Radius3 is identical to Radius2.
 
--    **Angle1**: (labelled *V parameter* in the Primitive parameters) lower truncation of the ellipsoid, parallel to the circular cross section (-90 degrees in a full spheroid)
+## Właściwości
 
--    **Angle2**: (unlabelled in the Primitive parameters) upper truncation of the ellipsoid, parallel to the circular cross section (90 degrees in a full spheroid).
+-    **Dołączenie**: definiuje tryb dołączania, a także przesunięcie dołączania. Zobacz też [Część: Edycja mocowania](Part_EditAttachment/pl.md).
 
--    **Angle3**: (labelled *U parameter* in the Primitive parameters) angle of rotation of the elliptical cross section (360 degrees in a full spheroid).
+-    **Etykieta**: Etykieta nadana obiektowi Elipsoida. Zmień zgodnie z własnymi potrzebami.
+
+-    **Promień1**: wartość promienia wzdłuż pionowej osi elipsoidy; domyślnie równoległa do osi Z.
+
+-    **Promień2**: wartość promienia wzdłuż długości elipsoidy; domyślnie równoległa do osi X.
+
+-    **Promień3**: wartość promienia wzdłuż szerokości elipsoidy; domyślnie równolegle do osi Y. Przy domyślnej wartości zero, elipsoida tworzy [spłaszczoną sferoidę](http://en.wikipedia.org/wiki/Oblate_spheroid). Ma to taką samą postać, jak gdyby parametr Promień3 był identyczny z Promień2.
+
+-    **Kąt1**: *(oznaczony jako **parametr V** w parametrach Prymitywu)* dolne obcięcie elipsoidy, równoległe do przekroju kołowego *(-90° w pełnej sferoidzie)*.
+
+-    **Kąt2**: *(nieoznaczone w parametrach Prymitywu)* górne obcięcie elipsoidy, równoległe do przekroju kołowego *(90° w pełnej sferoidzie)*.
+
+-    **Kąt3**: *(oznaczony jako **parametr U** w parametrach Prymitywu)* kąt obrotu eliptycznego przekroju poprzecznego *(360° w pełnej sferoidzie)*.
 
 
 

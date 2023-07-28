@@ -28,9 +28,9 @@ Elmer requires two components to be interfaced with FreeCAD:
 
 There are standalone programs for both of these applications but their installation and usage are beyond the scope of the FreeCAD integration.
 
-1.  Download and install the version best suited to your Operating System ([Windows](https://www.nic.funet.fi/pub/sci/physics/elmer/bin/windows/) or [Linux](https://www.nic.funet.fi/pub/sci/physics/elmer/bin/linux/Readme1st.txt)). It is recommended to install the `mpi` version to get multi-core support (<small>(v1.0)</small> ).
+1.  Download and install the version best suited to your Operating System ([Windows](https://www.nic.funet.fi/pub/sci/physics/elmer/bin/windows/) or [Linux](https://www.nic.funet.fi/pub/sci/physics/elmer/bin/linux/Readme1st.txt)). It is recommended to install the `mpi` version to get multi-core support (<small>(v0.21)</small> ).
 2.  In FreeCAD go to **Edit → Preferences → FEM → Elmer**
-3.  In the [FEM preferences](FEM_Preferences#Elmer.md) set the correct path for both `ElmerGrid` and `ElmerSolver`, or <small>(v1.0)</small> : set the path for `ElmerSolver_mpi` instead of `ElmerSolver` to make Elmer use all available CPU cores.
+3.  In the [FEM preferences](FEM_Preferences#Elmer.md) set the correct path for both `ElmerGrid` and `ElmerSolver`, or <small>(v0.21)</small> : set the path for `ElmerSolver_mpi` instead of `ElmerSolver` to make Elmer use all available CPU cores.
 
     :   ![Elmer Tab in FEM Preferences](images/Preferences-ElmerPath.png )
     :   
@@ -77,6 +77,7 @@ You are ready to use Elmer in FreeCAD.
 
 1.  Click on the **<img src="images/FEM_SolverElmer.svg" width=22px> SolverElmer** object in the model [tree view](Tree_view.md)
 2.  Select one ore several of the available equations:
+    -   <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [Deformation equation](FEM_EquationDeformation.md)
     -   <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Elasticity equation](FEM_EquationElasticity.md)
     -   <img alt="" src=images/FEM_EquationElectricforce.svg  style="width:32px;"> [Electricforce equation](FEM_EquationElectricforce.md)
     -   <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:32px;"> [Electrostatic equation](FEM_EquationElectrostatic.md)
@@ -89,9 +90,24 @@ You are ready to use Elmer in FreeCAD.
 ### Solver Settings 
 
 -   Depending on the used equations, you must change the default solver settings. They are explained in the [Elmer solver settings](FEM_SolverElmer_SolverSettings.md).
--   The solver will by default perform a steady-state simulation. To perform a transient simulation (how the model behaves/develops over time) see the [Elmer solver settings](FEM_SolverElmer_SolverSettings#Solver.md).
+-   The solver will by default perform a steady-state simulation. To perform a transient simulation (how the model behaves/develops over time) see the section *Timestepping (transient analyses)* in the [Elmer solver settings](FEM_SolverElmer_SolverSettings#Timestepping_(transient_analyses).md).
 
-Elmer has plenty of settings to determine how the equations should be solved. They are described in detail in the [Elmer solver settings](FEM_SolverElmer_SolverSettings.md).
+### Visualization
+
+The Elmer solver results are output in [result pipeline](FEM_PostPipelineFromResult.md) objects. ([Result objects](FEM_ResultShow.md) are not possible.)
+
+
+<small>(v0.21)</small> 
+
+For transient analyses you get a result pipeline for every output time step. To edit all of them at once, select them in the [tree view](Tree_view.md) and set the parameters in the [property editor](property_editor.md). To make animations of the temporal progression, the best method is currently to:
+
+-   Hide the view of the first time result.
+-   Select an object of your choice in the tree view, but not a pipeline object.
+-   Hover with the mouse over the pipelines.
+
+The result is an animation like this:
+
+![](images/ElmerSolver_TransientAnalysis.gif )
 
 ## Notes
 

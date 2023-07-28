@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:TechDraw MoveView
    Name/fr:TechDraw Déplacer une vue
-   MenuLocation:TechDraw → Déplacer une vue
+   MenuLocation:TechDraw → Vues de Techdraw → Déplacer une vue
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Version:0.20
    SeeAlso:[TechDraw Copier une vue](TechDraw_ShareView/fr.md)
@@ -12,16 +12,20 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_MoveView.svg  style="width:24px;"> **TechDraw Déplacer une vue** déplace une vue et toutes ses dépendances (infobulles, cotes, etc.) vers une autre page.
+L\'outil **TechDraw Déplacer une vue** déplace une vue et toutes ses dépendances (infobulles, cotes, etc.) vers une autre page.
+
+
 
 ## Utilisation
 
 1.  Sélectionnez au choix une vue, une page de départ et une page d\'arrivée. Les pages doivent être sélectionnées dans cet ordre.
 2.  Il existe plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_MoveView.svg" width=16px> [Déplacer une vue](TechDraw_MoveView/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → <img src="images/TechDraw_MoveView.svg" width=16px> Déplacer la vue** à partir du menu.
+    -   Sélectionnez l\'option **TechDraw → Vues de Techdraw → <img src="images/TechDraw_MoveView.svg" width=16px> Déplacer la vue** à partir du menu.
 3.  Une boîte de dialogue s\'ouvre pour vous permettre de sélectionner une Vue, de la Page de départ et à la Page d\'arrivée.
 4.  Appuyez sur le bouton **OK**.
+
+
 
 ## Script
 

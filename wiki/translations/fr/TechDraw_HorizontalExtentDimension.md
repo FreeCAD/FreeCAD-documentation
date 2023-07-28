@@ -12,7 +12,7 @@
 
 ## Description
 
-L\'outil Cote étendue horizontale ajoute une cote linéaire à une vue. La cote s\'étend du point le plus à gauche sur les objets sélectionnés au point le plus à droite. Un CosmeticVertex (point cosmétique) sera placé à chaque point.
+L\'outil **TechDraw Cote étendue horizontale** ajoute une cote linéaire à une vue. La cote s\'étend du point le plus à gauche sur les objets sélectionnés au point le plus à droite. Un CosmeticVertex (point cosmétique) sera placé à chaque point.
 
 <img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
 *Cote étendue horizontale d'une surface B-spline*

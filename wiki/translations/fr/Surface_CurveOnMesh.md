@@ -16,7 +16,7 @@
 
 crée des segments de spline approximatifs par dessus un [maillage](Mesh_Workbench/fr.md) sélectionné.
 
-Si l\'objet n\'est pas un [Maillage](Mesh/fr.md), mais une [Forme](Shape/fr.md) ou une surface paramétrique, il doit d\'abord être converti en un maillage à l\'aide de **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh Tesselation](Mesh_FromPartShape/fr.md)**.
+Si l\'objet n\'est pas un [maillage](Mesh/fr.md), mais une [Forme](Shape/fr.md) ou une surface paramétrique, il doit d\'abord être converti en un maillage à l\'aide de **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh Créer un maillage](Mesh_FromPartShape/fr.md)**.
 
 Ces arêtes créées par dessus le maillage peuvent être utilisées pour recréer la surface de manière paramétrique en utilisant des outils tels que **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [Remplir entre les courbes limites](Surface_GeomFillSurface/fr.md)** et **[<img src=images/Surface_Sections.svg style="width:16px"> [Sections](Surface_Sections/fr.md)**.
 
@@ -26,7 +26,9 @@ Ces arêtes créées par dessus le maillage peuvent être utilisées pour recré
 
 
 
-*En haut à gauche: objet maillé avec des points sélectionnés sur la surface. En haut à droite: splines créées en sélectionnant plusieurs points sur le maillage. En bas à gauche: une surface paramétrique reconstruite à partir des splines approximées en utilisant [Surface Sections](Surface_Sections/fr.md).*
+*En haut à gauche: objet maillé avec des points sélectionnés sur la surface.<br/>En haut à droite: splines créées en sélectionnant plusieurs points sur le maillage.<br/>En bas à gauche: une surface paramétrique reconstruite à partir des splines approximées en utilisant [Surface Sections](Surface_Sections/fr.md).*
+
+
 
 ## Utilisation
 
@@ -39,7 +41,7 @@ Ces arêtes créées par dessus le maillage peuvent être utilisées pour recré
 7.  La nouvelle spline sera créée et apparaîtra dans la [Vue en arborescence](Tree_view/fr.md) immédiatement après avoir choisi **Create**. Le [Panneau des tâches](Task_panel/fr.md) restera actif.
 8.  Appuyez sur **Close** pour fermer le [Panneau des tâches](Task_panel/fr.md) et terminer complètement la commande.
 
-Après avoir appuyé sur **Start**, le menu contextuel (clic droit) dans la [Vue 3D](3D_view/fr.md) affiche diverses options à côté de **Create**.
+Après avoir appuyé sur **Start**, le menu contextuel (clic droit) dans la [vue 3D](3D_view/fr.md) affiche diverses options à côté de **Create**.
 
 -    **Close wire**: si au moins trois points ont été choisis, cette option sera disponible pour joindre le dernier point au premier point par une ligne.
 
@@ -50,24 +52,26 @@ Après avoir appuyé sur **Start**, le menu contextuel (clic droit) dans la [Vue
 ## Options
 
 
-**(Editeur: ces informations doivent être vérifiées)**
+**(Editeur : ces informations doivent être vérifiées)**
 
-Section **Wire**:
+Section **Wire** :
 
--    **Snap tolerances to vertices**: la valeur par défaut est {{Value|10 px}}. Indique la distance minimale entre un point et un autre lors du prélèvement avec le pointeur.
+-    **Snap tolerances to vertices**: par défaut {{Value|10 px}}. Indique la distance minimale entre un point et un autre lors du prélèvement avec le pointeur.
 
--    **Split threshold**: il vaut par défaut {{Value|45 deg}}. Indique l\'écart angulaire d\'un point du maillage à un autre point nécessaire pour créer une nouvelle spline au lieu d\'étendre la spline précédente.
+-    **Split threshold**: par défaut {{Value|45 deg}}. Indique l\'écart angulaire d\'un point du maillage à un autre point nécessaire pour créer une nouvelle spline au lieu d\'étendre la spline précédente.
 
 
 **Spline approximation**
 
-, s\'il est {{CheckBox|TRUE|coché}}, cela créera des objets spline sinon créera de simples objets de ligne droite (polyligne).
+, si {{CheckBox|TRUE|coché}}, cela créera des objets spline sinon créera de simples objets de ligne droite (polyligne).
 
--    **Tolerance to mesh**: la valeur par défaut est {{Value|0.2}}. C\'est un paramètre qui prend en compte les imperfections du maillage. Plus ce nombre est petit, plus il considérera le maillage avec précision, surtout s\'il s\'agit d\'un maillage très fin.
+-    **Tolerance to mesh**: par défaut {{Value|0.2}}. C\'est un paramètre qui prend en compte les imperfections du maillage. Plus ce nombre est petit, plus il considérera le maillage avec précision, surtout s\'il s\'agit d\'un maillage très fin.
 
--    **Continuity**: la valeur par défaut est {{Value|C2}}. Détermine la continuité de la spline. Il peut s\'agir de {{Value|C0}} (toucher), {{Value|C1}} (tangente), {{Value|C2}} (courbure) et {{Value|C3}} (courbure d\'accélération).
+-    **Continuity**: par défaut {{Value|C2}}. Détermine la continuité de la spline. Il peut s\'agir de {{Value|C0}} (toucher), {{Value|C1}} (tangente), {{Value|C2}} (courbure) et {{Value|C3}} (courbure d\'accélération).
 
--    **Maximum curve degree**: il vaut par défaut {{Value|5}}. Détermine le degré maximum de la spline pour se rapprocher de la surface. Il peut s\'agir d\'une valeur comprise entre {{Value|1}} et {{Value|8}}.
+-    **Maximum curve degree**: par défaut {{Value|5}}. Détermine le degré maximum de la spline pour se rapprocher de la surface. Il peut s\'agir d\'une valeur comprise entre {{Value|1}} et {{Value|8}}.
+
+
 
 ## Propriétés
 
@@ -77,12 +81,14 @@ Si {{CheckBox|TRUE|Spline approximation}} est coché, l\'outil [Courbe sur maill
 
 Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Part Spline a les propriétés suivantes dans l\'[éditeur de propriétés](Property_editor/fr.md).
 
+
+
 ### Vue
 
 
 {{TitleProperty|Base}}
 
--    {{PropertyView/fr|Control Points|Bool}}: la valeur par défaut est `False`. Mis à `True`, elle affichera une superposition avec les points de contrôle de la surface.
+-    {{PropertyView/fr|Control Points|Bool}}: par défaut `False`. Mis à `True`, elle affichera une superposition avec les points de contrôle de la surface.
 
 
 

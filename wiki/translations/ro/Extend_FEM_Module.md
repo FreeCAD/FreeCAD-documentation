@@ -121,6 +121,8 @@ One package doesn\'t follow this pattern: FemSolver. It has its place on the sam
     .femsolver.z88
     .femsolver.z88.equations
 
+
+
 ## Rezolvitor
 
 
@@ -149,7 +151,7 @@ Most files related to a solver reside in a sub-package of the FemSolver package 
 
 </div>
 
-There is a tutorial of adding a new solver: [Add FEM Solver Tutorial](Sandbox_Add_FEM_Solver_Tutorial.md)
+
 
 ## Ecuații
 
@@ -195,6 +197,8 @@ Adding a new equations to elmer should be very easy. For newcomers there exists 
 
 
 </div>
+
+
 
 ## Constrângeri
 

@@ -8,14 +8,20 @@
 
 # Arch MergeWalls/pt-br
 
+
+
 ## Descrição
 
 The [MergeWalls](Arch_MergeWalls.md) tool fuses two or more selected **<img src="images/_Arch_Wall.svg" width=16px> [Arch Walls](Arch_Wall.md)**.
+
+
 
 ## Utilização
 
 1.  Select two or more walls.
 2.  Press the **<img src="images/Arch_MergeWalls.svg" width=16px>** button, or use the **Arch** → **Utilities** → **<img src="images/Arch_MergeWalls.svg" width=16px> [Merge Walls](Arch_MergeWalls.md)** from the top menu.
+
+
 
 ## Propriedades
 
@@ -28,7 +34,7 @@ The [MergeWalls](Arch_MergeWalls.md) tool fuses two or more selected **<img src=
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-This tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 base = joinWalls(walls, delete=False)
 ```

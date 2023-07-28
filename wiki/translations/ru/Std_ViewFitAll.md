@@ -10,9 +10,13 @@
 
 # Std ViewFitAll/ru
 
+
+
 ## Описание
 
 The **Std ViewFitAll** command zooms and pans the camera so that all visible objects fit inside the active [3D view](3D_view.md).
+
+
 
 ## Применение
 
@@ -20,11 +24,10 @@ The **Std ViewFitAll** command zooms and pans the camera so that all visible obj
     -   Press the **<img src="images/Std_ViewFitAll.svg" width=16px> [Std ViewFitAll](Std_ViewFitAll.md)** button.
     -   Select the **View → Standard views → <img src="images/Std_ViewFitAll.svg" width=16px> Fit all** option from the menu.
     -   Select the **<img src="images/Std_ViewFitAll.svg" width=16px> Fit all** option from the [3D view](3D_view.md) context menu.
+    -   Select the **<img src="images/Std_ViewFitAll.svg" width=16px> Fit all** option from the Mini-cube menu of the [Navigation Cube](Navigation_Cube.md).
     -   Use the keyboard shortcut: **V** then **F**.
 
-## Примечания
 
--   It is also possible to zoom to \'fit all\' via the Mini-cube menu of the [Navigation Cube](Navigation_Cube.md).
 
 ## Программирование
 

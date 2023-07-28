@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande **Mesh Section** crée une coupe transversale à travers un objet maillé. La section transversale est une [Part Feature](Part_Feature/fr.md).
+La commande **Section** crée une coupe transversale à travers un objet maillé. La section transversale est une [Part Feature](Part_Feature/fr.md).
 
 
 

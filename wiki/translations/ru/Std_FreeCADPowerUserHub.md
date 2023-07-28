@@ -1,26 +1,27 @@
 ---
 - GuiCommand:/ru
-   Name:Std FreeCADPowerUserHub
-   Name/ru:Std FreeCADPowerUserHub
-   MenuLocation:{{StdMenu|[Help](Std_Help_Menu/ru.md)}} → Python scripting documentation
-   Workbenches:All
-   SeeAlso:[Online help](Std_OnlineHelp/ru.md), [Python help](Std_PythonHelp/ru.md), [Help menu](Std_Help_Menu/ru.md)
+   Name/ru:Документация по созданию скриптов на Python
+   Name:Std_FreeCADPowerUserHub
+   MenuLocation:Помощь → Документация по созданию скриптов на Python
+   Workbenches:Все
+   SeeAlso:[Сайт FreeCAD](Std_FreeCADWebsite/ru.md), [Пользовательская документация](Std_FreeCADUserHub/ru.md), [Форум FreeCAD](Std_FreeCADForum/ru.md), [FreeCAD Часто Задаваемые  Вопросы](Std_FreeCADFAQ/ru.md)
 ---
 
 # Std FreeCADPowerUserHub/ru
 
 
-</div>
 
 ## Описание
 
-The **Std FreeCADPowerUserHub** command opens the FreeCAD Power users documentation page in the system\'s default Internet browser. The command requires a working Internet connection.
+Команда **Документация для опытных пользователей** открывает wiki страницу документации для опытных пользователей в интернет-браузере назначенном по умолчанию. Для работы команды требуется подключение к Интернет.
 
-Currently the command points to [<https://wiki.freecad.org/Power_users_hub>](https://wiki.freecad.org/Power_users_hub).
+На текущий момент команда направляет пользователя на wiki страницу: [<https://wiki.freecad.org/Power_users_hub>](https://wiki.freecad.org/Power_users_hub).
+
+
 
 ## Применение
 
-1.  Select the **Help → <img src="images/Std_FreeCADPowerUserHub.svg" width=16px> Python scripting documentation** option from the menu.
+1.  Выберите пункт меню **Помощь → <img src="images/Std_FreeCADPowerUserHub.svg" width=16px> Документация по созданию скриптов на Python**.
 
 
 

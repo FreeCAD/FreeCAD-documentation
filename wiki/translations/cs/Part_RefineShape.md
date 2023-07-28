@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Popis
@@ -24,6 +26,8 @@ After certain boolean operations, like [Part Fuse](Part_Fuse.md), some lines fro
 
 ![](images/PartRefineShape_it.png ) 
 *Original boolean result with 11 faces (left), and refined shape copy with 7 faces (right).*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -58,6 +62,7 @@ See other parameters in [Fine-tuning](Fine-tuning.md).
 -   This function may help to clean up the model before applying another feature, such as a [Fillet](Part_Fillet.md).
 -   This clean up may stop 3D printers from printing unwanted edges once the solid model is exported to a mesh format.
 -   This function can also be used after converting a mesh to a shape ([ShapeFromMesh](Part_ShapeFromMesh.md)) to clean up the residual edges on flat faces.
+-   Some interesting information about what is happening with placement and how to access by Python can be found in this [forum post](https://forum.freecad.org/viewtopic.php?t=77568#p675456).
 
 ## Limitations
 

@@ -52,9 +52,13 @@ There are many more options on the other tabs, please explore them yourself, or 
 
 ## Installation
 
-This workbench can be installed and updated from the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). The [POV-Ray](http://www.povray.org/) renderer used by the workbench has to be installed separately. See [Install POV](http://wiki.povray.org/content/HowTo:Install_POV).
+This workbench can be installed and updated from the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). The [POV-Ray](http://www.povray.org/) renderer used by the workbench has to be installed separately. For Windows users, the installer can be downloaded from the [POV-Ray Download Page](https://www.povray.org/download/), for Linux users it can usually be installed from the package manager. Look up the detailed instructions in the [POV-Ray Wiki](https://wiki.povray.org/content/HowTo:Install_POV) if you\'re on a Mac.
 
-To complete the installation the path to the POV-Ray executable has to be defined in the workbench preferences:
+To complete the installation the path to the POV-Ray executable has to be defined in the workbench preferences, usually these are the default paths:
+
+-   **Windows:** **C:/Program Files/POV-Ray/v3.7/bin/pvengine64.exe** (the **v*.*** folder may change depending on the POV-Ray version)
+-   **Linux:** **/usr/bin/povray**
+-   **MacOS:** Not available. If you have more information, please let us know.
 
  <img alt="" src=images/POV-Ray-Rendering_ExePath.png  style="width:600px;"> 
 

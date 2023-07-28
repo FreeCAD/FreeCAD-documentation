@@ -1,10 +1,10 @@
 ---
 - GuiCommand:/pl
    Name:Part Cut
-   Name/pl:Częśc: Wytnij
-   MenuLocation:Część → Logiczne → Wytnij
+   Name/pl:Część: Wytnij
+   MenuLocation:Część → Operacje logiczne → Wytnij
    Workbenches:[Part](Part_Workbench/pl.md)
-   SeeAlso:[Part: Działania logiczne na bryłach](Part_Boolean/pl.md), [Part: Fuse](Part_Fuse/pl.md), [Part: Common](Part_Common/pl.md)
+   SeeAlso:[Operacja logiczna](Part_Boolean/pl.md), [Połączenie](Part_Fuse/pl.md), [Część wspólna](Part_Common/pl.md)
 ---
 
 # Part Cut/pl
@@ -13,7 +13,7 @@
 
 ## Opis
 
-Tnie *(odejmuje)* wybrane obiekty typu Część, przy czym ostatni jest odejmowany od pierwszego. Operacja ta jest w pełni parametryczna, a komponenty mogą być modyfikowane, a wynik przeliczany.
+Tnie *(odejmuje)* wybrane obiekty środowiska Część, przy czym ostatni jest odejmowany od pierwszego. Operacja ta jest w pełni parametryczna, a komponenty mogą być modyfikowane, a wynik przeliczany.
 
 **Uwaga:** To polecenie jest zautomatyzowaną formą <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [Operacji na bryłach](Part_Boolean/pl.md).
 

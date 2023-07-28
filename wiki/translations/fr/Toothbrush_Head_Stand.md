@@ -14,6 +14,8 @@
 
 
 
+
+
 ## Un problème de la vie courante 
 
 Les brosses à dents électriques viennent rarement avec une tête, tandis que dans une famille, vous verrez souvent plusieurs têtes utilisées avec un seul moteur. Beaucoup de personnes confrontées à un problème commun nous conduisent à une variété de solutions, comme vous pouvez le voir sur Thingiverse (200 à 800 projets sont liés à cela). Voici la première réponse et comment la concevoir.
@@ -22,11 +24,15 @@ Ce tutoriel vous guidera à travers les étapes nécessaires pour modéliser la 
 
 ![](images/TBHS-model.png )
 
+
+
 ## Première idée : un plateau 
 
 -   A partir de la page d\'accueil, sélectionnez ![](images/Workbench_PartDesign.svg‎‎ ) \"Part Design\" ou créez un nouveau document et sélectionnez l\'atelier \"Part Design\".
 
 ![](images/TBHS-0.png )
+
+
 
 ### Créer une esquisse 
 
@@ -78,6 +84,8 @@ Une esquisse sous-contrainte peut laisser la place à des changements non souhai
 
 Vous ne voyez plus que le carré, et le menu contextuel des tâches sur la gauche vous montre plus d\'options qu\'auparavant.
 
+
+
 ### Créer une protrusion 
 
 -   Cliquez sur le bouton <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonométrique** parmi les vues standard, pour mieux voir ce qui va se passer.
@@ -87,6 +95,8 @@ Vous ne voyez plus que le carré, et le menu contextuel des tâches sur la gauch
 <img alt="" src=images/TBHS-7.JPG  style="width:800px;">
 
 Votre carré est désormais un volume !
+
+
 
 ### Créer une esquisse dessus 
 
@@ -136,6 +146,8 @@ Ces lignes seront les références pour positionner les cercles
 
 <img alt="" src=images/TBHS-15.JPG  style="width:800px;">
 
+
+
 ### Créer une protrusion 
 
 -   Cliquez sur le bouton <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometrique** en vue standard, pour mieux voir ce qui se passe devant vos yeux ébahis.
@@ -145,6 +157,8 @@ Ces lignes seront les références pour positionner les cercles
 <img alt="" src=images/TBHS-16.JPG  style="width:800px;">
 
 Vous avez la forme de base, il ne manque que les touches finales.
+
+
 
 ### Arrondir les coins 
 
@@ -161,6 +175,8 @@ N\'hésitez pas à vous aider en changeant le mode d\'affichage (juste à gauche
 
 C\'est mieux.
 
+
+
 ### Rendre plus robuste 
 
 Nous devons ajouter de la matière à la base des cylindres pour qu'ils soient moins enclins à se casser. En raison de l'orientation de l'impression, ces petites surfaces seront fragiles à la jonction avec la base.
@@ -173,6 +189,8 @@ Nous devons ajouter de la matière à la base des cylindres pour qu'
 -   Mettez la valeur à 2 mm.
 
 <img alt="" src=images/TBHS-20.JPG  style="width:800px;">
+
+
 
 ### Chanfreiner les bords 
 
@@ -191,6 +209,8 @@ La première couche de plastique est souvent écrasée un peu trop, ceci compens
 <img alt="" src=images/TBHS-22.JPG  style="width:800px;">
 
 Et voilà!
+
+
 
 ## Exporter en .STL 
 
@@ -213,9 +233,13 @@ Ne vous inquiétez pas, il est souvent nécessaire de passer par plusieurs révi
 
 Dans cette deuxième partie, vous apprendrez également à utiliser d\'autres outils, comme la puissante *Répétition linéaire*.
 
+
+
 ## Deuxième idée : un groupe 
 
 -   Créez un nouveau document et sélectionnez l\'atelier ![](images/Workbench_PartDesign.svg‎‎ ) *Part Design*.
+
+
 
 ### Créer une esquisse 
 
@@ -272,6 +296,8 @@ Maintenant nous avons un contour oblong mobile et sans dimensions spécifiées
 
 <img alt="" src=images/TBHS2-8.JPG  style="width:800px;">
 
+
+
 ### Créer une protrusion 
 
 -   Cliquez sur <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometrique** parmi les vues standards, pour mieux voir ce qui va se passer.
@@ -279,6 +305,8 @@ Maintenant nous avons un contour oblong mobile et sans dimensions spécifiées
 -   Entrez 30mm et cliquez sur OK.
 
 <img alt="" src=images/TBHS2-9.JPG  style="width:800px;">
+
+
 
 ### Créer une esquisse dessus 
 
@@ -326,6 +354,8 @@ Maintenant nous avons un contour oblong mobile et sans dimensions spécifiées
 
 <img alt="" src=images/TBHS2-17.JPG  style="width:800px;">
 
+
+
 ### Créer un trou 
 
 -   Cliquez sur <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonométrique** parmi les vues standards, pour mieux voir ce qui va se passer.
@@ -334,6 +364,8 @@ Maintenant nous avons un contour oblong mobile et sans dimensions spécifiées
 
 <img alt="" src=images/TBHS2-18.JPG  style="width:800px;">
 
+
+
 ### Répétition linéaire 
 
 -   Dans la vue combinée de gauche, sélectionnez la vue arborescente au lieu du menu contextuel des tâches, cliquez sur la fonction pocket.
@@ -341,6 +373,8 @@ Maintenant nous avons un contour oblong mobile et sans dimensions spécifiées
 -   Définissez la longueur à 55mm et les occurrences à 3, puis cliquez sur OK.
 
 <img alt="" src=images/TBHS2-19.JPG  style="width:800px;">
+
+
 
 ### Créer une esquisse dessus 
 
@@ -380,6 +414,8 @@ Maintenant nous avons un contour oblong mobile et sans dimensions spécifiées
 
 <img alt="" src=images/TBHS2-26.JPG  style="width:800px;">
 
+
+
 ### Créer une protrusion 
 
 -   Cliquez sur <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonométrique** parmi les vues standards, pour mieux voir ce qui va se passer.
@@ -388,6 +424,8 @@ Maintenant nous avons un contour oblong mobile et sans dimensions spécifiées
 
 <img alt="" src=images/TBHS2-27.JPG  style="width:800px;">
 
+
+
 ### Répétition linéaire 
 
 -   Dans la vue combinée de gauche, sélectionnez la vue arborescente au lieu du menu contextuel des tâches, cliquez sur la fonction pad.
@@ -395,6 +433,8 @@ Maintenant nous avons un contour oblong mobile et sans dimensions spécifiées
 -   Définissez la longueur à 55mm et les occurrences à 3, puis cliquez sur OK.
 
 <img alt="" src=images/TBHS2-28.JPG  style="width:800px;">
+
+
 
 ### Dépouille
 
@@ -415,6 +455,8 @@ Chanfrein = gauche / Ébauche = droite
 
 <img alt="" src=images/TBHS2-30-chamfer.JPG  style="width:200px;"><img alt="" src=images/TBHS2-30-draft.JPG  style="width:200px;">
 
+
+
 ### Finitions
 
 -   En maintenant **CTRL**, vous sélectionnez les faces inférieure et supérieure.
@@ -427,6 +469,8 @@ Chanfrein = gauche / Ébauche = droite
 
 Parfait !
 
+
+
 ## Exporter en .STL 
 
 -   Dans la vue combinée de gauche, sélectionnez la vue arborescente au lieu du menu contextuel des tâches, cliquez sur la dernière caractéristique (le chanfrein).
@@ -437,9 +481,11 @@ Parfait !
 -   Imprimez-la à la place de la première version ou pour la remplacer si elle finit par se casser ;-)
 
 
- {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+{{PartDesign Tools navi
+
+}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Toothbrush Head Stand/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Toothbrush Head Stand/fr

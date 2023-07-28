@@ -11,11 +11,15 @@
 
 </div>
 
+
+
 ## Tanım
 
 Eskiz düzenleme modundan çıkar.
 
 The **Leave sketch** command exits the sketch editing mode and frees up the [Task panel](Task_panel.md).
+
+
 
 
 <div class="mw-translate-fuzzy">

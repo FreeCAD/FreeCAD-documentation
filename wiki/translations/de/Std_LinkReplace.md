@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/de
    Name:Std LinkReplace
-   Name/de:Std LinkReplace
+   Name/de:Std DurchVerknüpfungErsetzen
    MenuLocation:None
    Workbenches:All
    Version:0.19
@@ -10,42 +10,48 @@
 
 # Std LinkReplace/de
 
+
+
 ## Beschreibung
 
 
 **[<img src=images/Std_LinkReplace.svg style="width:16px"> [Std DurchVerknüpfungErsetzen](Std_LinkReplace/de.md)**
 
-ersetzt ein Objekt, das sich in einem anderen befindet durch eine [App-Link](App_Link.md)-Version von ersterem.
+ersetzt ein Objekt, das sich in einem anderen befindet, durch eine [Anwendung Verknüpfung](App_Link/de.md)-Version von diesem Objekt.
 
-This operation acts on the \"children\" of a \"parent\" object as seen in the [tree view](tree_view.md). For example, given two objects (A and B) that participate in a **[<img src=images/Part_Boolean.svg style="width:16px"> [Part Boolean](Part_Boolean.md)** operation, say, C = A + B, the A object can be replaced by a Link, so that C = A_link + B.
+Dies wirkt auf das \"Kind\"-Objekt eines \"Eltern\"-Objectes wie in der [Baumansicht](tree_view/de.md) zu sehen. Sind beispielsweise zwei Objekte A und B gegeben, die Teil einer **[<img src=images/Part_Boolean.svg style="width:16px"> [Part BoolescheOperation](Part_Boolean/de.md)** sind, z.B. C = A + B, kann das Objekt A durch eine Verknüpfung ersetzt werden, so daß C = A_link + B wird.
 
-This operation can be done to replace nested objects that are in a complex [assembly](assembly.md) for a Link, which may be more efficient if that nested object is used many times in different sub-assemblies. The inverse operation is **[<img src=images/Std_LinkUnlink.svg style="width:16px"> [Std LinkUnlink](Std_LinkUnlink.md)**. To create a generic Link see **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)**.
+Damit können in einer komplexen Baugruppe eingebettete Objekte durch eine Verknüpfung ersetzt werden. Das ist effizienter, als eingebettete Objekte mehrere Male in unterschiedlichen Unterbaugruppen zu verwenden. Die hierzu entgegengerichtete Funktion ist **[<img src=images/Std_LinkUnlink.svg style="width:16px"> [Std VerknüpfungAuflösen](Std_LinkUnlink/de.md)**. Um eine allgemeine Verknüpfung zu erstellen, siehe **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std VerknüpfungErstellen](Std_LinkMake/de.md)**.
+
+
 
 ## Anwendung
 
-1.  Make sure you have one object that is inside another one. For example, consider that a **[<img src=images/Part_Fuse.svg style="width:16px"> [Part Fuse](Part_Fuse.md)** was used with two previously created objects, a **[<img src=images/Part_Sphere.svg style="width:16px"> [Part Sphere](Part_Sphere.md)** and a **[<img src=images/Part_Cylinder.svg style="width:16px"> [Part Cylinder](Part_Cylinder.md)**.
-2.  Select the <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> [Sphere](Part_Sphere.md) in the [tree view](tree_view.md).
-3.  Press **[<img src=images/Std_LinkReplace.svg style="width:16px"> [Replace with link](Std_LinkReplace.md)**.
+1.  Wir benötigen ein Ojekt, das sich in einem anderen befindet. Betrachten wir z.B. eine **[<img src=images/Part_Fuse.svg style="width:16px"> [Part Vereinigung](Part_Fuse/de.md)**, die sich in zwei zuvor erstellten Objekten befindet, z.B. einer **[<img src=images/Part_Sphere.svg style="width:16px"> [Part Kugel](Part_Sphere/de.md)** und einem **[<img src=images/Part_Cylinder.svg style="width:16px"> [Part Zylinder](Part_Cylinder/de.md)**.
+2.  Wähle <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> [Part Kugel](Part_Sphere/de.md) in der [Baumansicht](tree_view/de.md).
+3.  Klicke auf die Schaltfläche **[<img src=images/Std_LinkReplace.svg style="width:16px"> [Std DurchVerknüpfungErsetzen](Std_LinkReplace/de.md)**.
 
-The original <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> [Sphere](Part_Sphere.md) must now be outside the **[<img src=images/Part_Fuse.svg style="width:16px"> [Part Fuse](Part_Fuse.md)**, and inside there must be a Link instead (a small overlay arrow is shown in the icon).
+Die Original-<img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> [Part Kugel](Part_Sphere/de.md) muß sich nun außerhalb von **[<img src=images/Part_Fuse.svg style="width:16px"> [Part Vereinigung](Part_Fuse/de.md)** und innerhalb eine Verknüpfung statt dessen befinden. Im Icon wird ein kleiner überlagernder Pfeil gezeigt.
 
 ![](images/Std_Link_tree_replace_fuse_1_example.png ) ![](images/Std_Link_tree_replace_fuse_2_example.png )
 
 
 
-*An object inside another one is replaced by a Link; the Link is now inside, and the real object is placed outside.*
+*Ein Objekt in einem anderen wird durch eine Verknüpfung ersetzt. Jetzt ist die Verknüpfung innen und das reale Objekt liegt außerhalb.*
 
-This can also be done with objects contained inside {{button|[<img src=images/Std_Part.svg style="width:16px"> [Std Parts](Std_Part.md)}} and {{button|[<img src=images/Std_Group.svg style="width:16px"> [Std Groups](Std_Group.md)}}.
+Dies ist auch bei Objekten, die {{button|[<img src=images/Std_Part.svg style="width:16px"> [Standard Teile](Std_Part/de.md)}} und {{button|[<img src=images/Std_Group.svg style="width:16px"> [Std Gruppe](Std_Group/de.md)}} enthalten möglich.
 
 ![](images/Std_Link_tree_replace_part_1_examples.png ) ![](images/Std_Link_tree_replace_part_2_examples.png )
 
 
 
-*An object inside a container is replaced by a Link; the Link is now inside, and the real object is placed outside.*
+*Ein Objekt in einem Behälter wird durch eine Verknüpfung ersetzt. Die Verknüpfung liegt nun innerhalb und das reale Objekt liegt außerhalb.*
+
+
 
 ## Eigenschaften
 
-Dieser Befehl erstellt einen neuen [App-Link](App_Link/de.md); seine Eigenschaften sind unter **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std VerknüpfungErstellen](Std_LinkMake/de.md)** beschrieben.
+Diese Anweisung erstellt eine neue [Anwendung Verknüpfung](App_Link/de.md). Seine Eigenschaften sind unter **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std VerknüpfungErstellen](Std_LinkMake/de.md)** beschrieben.
 
 
 

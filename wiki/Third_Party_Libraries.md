@@ -159,7 +159,7 @@ Coin3D is compatible with SGI\'s Open Inventor 2.1 API. This API has become the 
 
 Coin3D (Open Inventor) is used as the 3D viewer in FreeCAD because the OpenCASCADE viewer (AIS and Graphics3D) has limitations and performance bottlenecks, especially with large-scale engineering rendering; other things like textures or volumetric rendering are not entirely supported by the OpenCASCADE viewer.
 
-Coin3D is portable over a wide range of platforms: UNIX, Linux, BSD, MacOS X, and Microsoft Windows operating systems. To read more about this library visit [Coin3D homepage](https://github.com/coin3d/coin).
+Coin3D is portable over a wide range of platforms: UNIX, Linux, BSD, macOS, and Microsoft Windows operating systems. To read more about this library visit [Coin3D homepage](https://github.com/coin3d/coin).
 
 #### SoQt (deprecated) 
 

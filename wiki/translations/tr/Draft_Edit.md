@@ -38,7 +38,7 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
     -   Press the **<img src="images/Draft_Edit.svg" width=16px> [Draft Edit](Draft_Edit.md)** button.
     -   Select the **Modification → <img src="images/Draft_Edit.svg" width=16px> Edit** option from the menu.
     -   Use the keyboard shortcut: **D** then **E**.
-    -   For a single object: select the **Edit** option from the [Tree view](Tree_view.md) context menu. This only works for supported Draft objects. <small>(v1.0)</small> 
+    -   For a single object: select the **Edit** option from the [Tree view](Tree_view.md) context menu. This only works for supported Draft objects. <small>(v0.21)</small> 
 3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
 4.  The selected objects are marked with temporary nodes, and the [Main task panel](#Main_task_panel.md) opens. See [Options](#Options.md) for more information.
 5.  Optionally use a node or edge context menu. These context menus are only available for some Draft objects. See [Supported objects](#Supported_objects.md) for more information.
@@ -88,7 +88,7 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 -   If the start or end node of an open wire is moved so that they coincide, the wire is closed.
 -   Node context menu: {{Value|Delete point}}. At least two points must remain.
--   Edge context menu: {{Value|Add point}}, {{Value|Close/Open wire}} (<small>(v1.0)</small> ) and {{Value|Reverse wire}} (<small>(v0.20)</small> ).
+-   Edge context menu: {{Value|Add point}}, {{Value|Close/Open wire}} (<small>(v0.21)</small> ) and {{Value|Reverse wire}} (<small>(v0.20)</small> ).
 
 ### <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> [Draft Arc](Draft_Arc.md) and <img alt="" src=images/Draft_Arc_3Points.svg  style="width:24px;"> [Draft Arc 3Points](Draft_Arc_3Points.md) 
 
@@ -118,13 +118,13 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 -   If the start or end node of an open spline is moved so that they coincide, the spline is closed.
 -   Node context menu: {{Value|Delete point}}. At least two points must remain for an open spline. For a closed spline the minimum number of points is three.
--   Edge context menu: {{Value|Add point}}, {{Value|Close/Open spline}} (<small>(v1.0)</small> ) and {{Value|Reverse spline}} (<small>(v1.0)</small> ).
+-   Edge context menu: {{Value|Add point}}, {{Value|Close/Open spline}} (<small>(v0.21)</small> ) and {{Value|Reverse spline}} (<small>(v0.21)</small> ).
 
 ### <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> [Draft CubicBezCurve](Draft_CubicBezCurve.md) and <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> [Draft BezCurve](Draft_BezCurve.md) 
 
 -   If the start or end node of an open curve is moved so that they coincide, the curve is closed.
 -   Node context menu: {{Value|Delete point}}, {{Value|Make sharp}}, {{Value|Make tangent}} and {{Value|Make symmetric}}.
--   Edge context menu: {{Value|Add point}}, {{Value|Close/Open curve}} (<small>(v1.0)</small> ) and {{Value|Reverse curve}} (<small>(v1.0)</small> ).
+-   Edge context menu: {{Value|Add point}}, {{Value|Close/Open curve}} (<small>(v0.21)</small> ) and {{Value|Reverse curve}} (<small>(v0.21)</small> ).
 
 ### <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> [Draft Dimension](Draft_Dimension.md) 
 

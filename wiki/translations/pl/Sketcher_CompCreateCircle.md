@@ -1,17 +1,19 @@
 ---
 - GuiCommand:/pl
-   Name:Sketcher Circles
-   Name/pl:Szkicownik: Komponent utwórz okrąg
-   Icon:Sketcher_CompCreateCircle.png
-   MenuLocation:''(wyłącznie pasek narzędzi)''
+   Name:Sketcher CompCreateCircle
+   Name/pl:Szkicownik: Komponent Utwórz okrąg
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
 ---
 
 # Sketcher CompCreateCircle/pl
 
+
+
 ## Opis
 
 **Tworzenie okręgu** to przycisk ikony na pasku narzędzi geometrii szkicownika, który grupuje narzędzia do tworzenia okręgu. Kliknij na strzałkę w dół po jej prawej stronie, aby rozwinąć znajdujące się pod nią ikony i wybrać narzędzie.
+
+
 
 ## Rodzaje okręgów 
 

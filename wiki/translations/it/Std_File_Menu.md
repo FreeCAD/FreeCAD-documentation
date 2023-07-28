@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introduzione
 
 Il menu **File** è uno dei sette sottomenu del [menu standard](Standard_Menu/it.md):
@@ -29,93 +31,31 @@ Il menu File fornisce strumenti relativi all\'input e all\'output del file.
 
 ## Strumenti
 
-
-<div class="mw-translate-fuzzy">
-
 In questo menu sono disponibili i seguenti strumenti:
 
--   <img alt="" src=images/Std_New.svg  style="width:32px;"> [Nuovo](Std_New/it.md): crea un nuovo documento di FreeCAD.
+-   <img alt="" src=images/Std_New.svg  style="width:32px;"> [Nuovo](Std_New/it.md): crea un nuovo documento vuoto.
 
+-   <img alt="" src=images/Std_Open.svg  style="width:32px;"> [Apri\...](Std_Open/it.md): apre un documento o importa file.
 
-</div>
+-   <img alt="" src=images/Std_CloseActiveWindow.svg  style="width:32px;"> [Chiudi](Std_CloseActiveWindow/it.md): chiude la finestra attiva.
 
--   <img alt="" src=images/Std_New.svg  style="width:32px;"> [New](Std_New.md): Creates a new empty document.
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Std_Open.svg  style="width:32px;"> [Apri\...](Std_Open/it.md): apre un documento o importa i file.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   [Chiudi](Std_Close/it.md): chiude la finestra e il documento attivo.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   [Chiudi tutto](Std_CloseAll/it.md): chiude tutte le finesttre e tutti i documenti aperti.
-
-
-</div>
+-   <img alt="" src=images/Std_CloseAllWindows.svg  style="width:32px;"> [Chiudi Tutto](Std_CloseAllWindows/it.md): chiude tutte le finestre.
 
 -   <img alt="" src=images/Std_Save.svg  style="width:32px;"> [Salva](Std_Save/it.md): salva il documento attivo.
 
 -   <img alt="" src=images/Std_SaveAs.svg  style="width:32px;"> [Salva con nome\...](Std_SaveAs/it.md): salva con un nuovo nome il documento attivo.
 
+-   <img alt="" src=images/Std_SaveCopy.svg  style="width:32px;"> [Salva una Copia\...](Std_SaveCopy/it.md): salva una copia del documento con un nuovo nome file.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Std_SaveAll.svg  style="width:32px;"> [Salva tutto](Std_SaveAll/it.md): salva tutti i documenti aperti.
 
--   [Salva una copia\...](Std_SaveaCopy/it.md): salva una copia del documento con un nuovo nome file
+-   <img alt="" src=images/Std_Revert.svg  style="width:32px;"> [Ripristina](Std_Revert/it.md): ripristina la versione salvata del documento.
 
+-   <img alt="" src=images/Std_Import.svg  style="width:32px;"> [Importa\...](Std_Import/it.md): importa un file nel documento.
 
-</div>
+-   <img alt="" src=images/Std_Export.svg  style="width:32px;"> [Esporta\...](Std_Export/it.md): esporta gli oggetti dal documento.
 
-
-<div class="mw-translate-fuzzy">
-
--   [Salva tutto](Std_SaveAll/it.md): salva tutti i documenti aperti.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   [Ripristina](Std_Revert/it.md): ripristina la versione salvata del documento.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   [Importa\...](Std_Import/it.md): importa un file nel documento.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   [Esporta\...](Std_Export/it.md): esporta gli oggetti dal documento.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   [Unisci progetti\...](Std_MergeProjects/it.md): aggiunge al documento gli oggetti da un file FreeCAD.
-
-
-</div>
+-   <img alt="" src=images/Std_MergeProjects.svg  style="width:32px;"> [Unisci progetti\...](Std_MergeProjects/it.md): aggiunge al documento gli oggetti da un file FreeCAD.
 
 -   <img alt="" src=images/Std_ProjectInfo.svg  style="width:32px;"> [Informazioni sul progetto\...](Std_ProjectInfo/it.md): mostra i dettagli del documento.
 
@@ -123,13 +63,7 @@ In questo menu sono disponibili i seguenti strumenti:
 
 -   <img alt="" src=images/Std_PrintPreview.svg  style="width:32px;"> [Anteprima di stampa\...](Std_PrintPreview/it.md): mostra un\'anteprima di stampa.
 
-
-<div class="mw-translate-fuzzy">
-
--   [Esporta PDF\...](Std_PrintPdf/it.md): esporta il documento in un file pdf.
-
-
-</div>
+-   <img alt="" src=images/Std_PrintPdf.svg  style="width:32px;"> [Esporta PDF\...](Std_PrintPdf/it.md): Esporta il documento in un file PDF.
 
 -   [File recenti](Std_RecentFiles/it.md): mostra l\'elenco dei file recenti.
 

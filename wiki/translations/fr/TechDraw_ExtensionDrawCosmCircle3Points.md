@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle3Points.svg  style="width:24px;"> **TechDraw Cercle par 3 points** ajoute un cercle cosmétique basé sur trois sommets.
+L\'outil **TechDraw Cercle par 3 points** ajoute un cercle cosmétique basé sur trois sommets.
 
 <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle3PointsExample.png  style="width:250px;"> 
 *A droite, un cercle cosmétique ajouté*
+
+
 
 ## Utilisation
 
@@ -24,7 +26,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle3Points.svg  sty
 2.  Sélectionnez trois sommets sur la circonférence pour déterminer le cercle.
 3.  Il existe plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionDrawCosmCircle3Points.svg" width=16px> [Cercle par 3 points](TechDraw_ExtensionDrawCosmCircle3Points/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions : taraudages/filetages → <img src="images/TechDraw_ExtensionDrawCosmCircle3Points.svg" width=16px> Ajouter un cercle cosmétique 3 points** à partir du menu.
+    -   Sélectionnez l\'option **TechDraw → Extensions : taraudages/filetages → <img src="images/TechDraw_ExtensionDrawCosmCircle3Points.svg" width=16px> Cercle par 3 points** à partir du menu.
 4.  Un cercle cosmétique est ajouté.
 
 

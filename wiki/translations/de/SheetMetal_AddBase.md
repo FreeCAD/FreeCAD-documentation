@@ -9,6 +9,8 @@
 
 # SheetMetal AddBase/de
 
+
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> [Basisprofil erstellen](SheetMetal_AddBase/de.md) erzeugt ein SheetMetal-Basisobjekt aus einer Skizze.
@@ -21,7 +23,11 @@ Aus einer geschlossenen Kontur erzeugt er eine Grund**platte** (Platine):
 
 <img alt="" src=images/SheetMetal_AddBase-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddBase-04.png  style="width:200px;">
 
+
+
 ## Anwendung
+
+
 
 ### Profil
 
@@ -35,6 +41,8 @@ Aus einer geschlossenen Kontur erzeugt er eine Grund**platte** (Platine):
     -   Die {{PropertyData/de|thickness}} für die Profilwandstärke.
     -   Die {{PropertyData/de|radius}} für den Innenradius der Bögen.
 
+
+
 ### Platine
 
 1.  Eine <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Skizze](Sketcher_Workbench/de.md) **mit geschlossener Kontur** auswählen.
@@ -46,11 +54,15 @@ Aus einer geschlossenen Kontur erzeugt er eine Grund**platte** (Platine):
 
     :   (Die {{PropertyData/de|length}} und {{PropertyData/de|radius}} werden für Platinen nicht verwendet.)
 
+
+
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein SheetMetal-BaseBend-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
 

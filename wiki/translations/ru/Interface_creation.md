@@ -1,6 +1,8 @@
 # Interface creation/ru
 {{TOCright}}
 
+
+
 ## Введение
 
 Power users have the possibility of [creating interfaces](Interface_creation.md) to help them produce complex tools for their custom [addons](Addon.md), such as [macros](Macros.md) or full [workbenches](Workbenches.md).
@@ -10,11 +12,15 @@ Interfaces are created using [PySide](PySide.md), which is a library for using Q
 <img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> 
 *Two general methods to create interfaces, by including the interface in the Python file, or by using `.ui* files.`
 
+
+
 ## Описание
 
-There are typically two ways of creating interfaces with PySide.
+Существует два способа создания интерфейсов с применением PySide.
 
-### Interface in a .ui file 
+
+
+### Интерфейс записанный в .ui файл 
 
 In this method the interface is defined in a `.ui` file (an XML document that defines the structure of the interface), which is then imported into [Python](Python.md) code that uses it. This is the recommended approach.
 
@@ -24,7 +30,9 @@ In this method the interface is defined in a `.ui` file (an XML document that de
 -   The `.ui` interface can be used in a standalone window (modal), or in an embedded window (non-modal); therefore, this method is ideal to create custom [task panels](Task_panel.md).
 -   Since the `.ui` file just describes the \"appearance\" of the interface, it does not need to be tied to a particular programming language; it may be used both in [Python](Python.md) and C++ code.
 
-### Interface completely in Python code 
+
+
+### Интерфейс полностью созданный с помощью Python кода 
 
 In this method the entire interface is defined by several Python calls.
 

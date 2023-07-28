@@ -9,36 +9,59 @@
 
 # TechDraw ArchView/ru
 
+
+</div>
+
+
+
 ## Описание
 
-The ArchView tool inserts a view of an **<img src="images/Arch_SectionPlane.svg" width=16px> [Arch SectionPlane](Arch_SectionPlane.md)** on a [TechDraw page](TechDraw_PageDefault.md).
+The **TechDraw ArchView** tool inserts a view of an **<img src="images/Arch_SectionPlane.svg" width=16px> [Arch SectionPlane](Arch_SectionPlane.md)** on a [TechDraw page](TechDraw_PageDefault.md).
 
 ![](images/TechDraw_Arch_example.jpg )
 
+
+
 ## Применение
 
-1.  Select an Arch section plane in the 3D view or in the tree
-2.  If you have multiple drawing pages in your document, you will need to select the desired page in the tree.
-3.  Press the **<img src="images/TechDraw_ArchView.svg" width=24px> [Insert Arch Workbench Object](TechDraw_ArchView.md)** button
-4.  A view of the objects seen by the section plane will appear on the page.
+1.  Select a single Arch section plane in the [3D view](3D_view.md) or [Tree view](Tree_view.md).
+2.  If there are multiple drawing pages in the document: optionally add the desired page to the selection by selecting it in the [Tree view](Tree_view.md).
+3.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_ArchView.svg" width=16px> [Insert Arch Workbench Object](TechDraw_ArchView.md)** button.
+    -   Select the **TechDraw → Views From Other Workbenches → <img src="images/TechDraw_ArchView.svg" width=16px> Insert Arch Workbench Object** option from the menu.
+4.  If there are multiple drawing pages in the document and you have not yet selected a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
+    1.  Select the desired page.
+    2.  Press the **OK** button.
 
-### Ограничения
 
-The ArchView is rendered within the [Arch Workbench](Arch_Workbench.md), therefore TechDraw has limited control over its appearance. You may need to make changes within Arch to get the representation you want.
 
 ## Опции
 
--   The Arch View is rendered by the [Arch Workbench](Arch_Workbench.md), the same way as in the [Drawing Workbench](Drawing_Workbench.md). See Notes.
+-   The Arch View is rendered by the [Arch Workbench](Arch_Workbench.md).
 -   [Draft Dimensions](Draft_Snap_Dimensions.md), [Draft Texts](Draft_Text.md) and any other 2D (Sketch or Draft) object considered by the section plane is rendered \"as is\" (no intersection or hidden lines) on top of the solid geometry
 -   The volume of [Arch Spaces](Arch_Space.md) is not rendered, only the label will be rendered
 -   Cut lines, projected lines (if Show Hidden property is set to True) and 2D lines above can be rendered with different line widths. This can be configured in the Arch preferences.
--   The ArchView has two rendering modes: Wireframe, which uses the OpenCasCade algorithms of the [Drawing Workbench](Drawing_Workbench.md), is fast and produces only lines (no face fill possible), and Solid, which is based on the [Painter\'s algorithm](https://en.wikipedia.org/wiki/Painter%27s_algorithm), and is capable of rendering faces filled with their shape color. However, it is much slower and can fail in many situations. The image below illustrates the difference between the two rendering modes:
+-   The ArchView has two rendering modes:
+    -   Wireframe, which uses the OpenCasCade algorithms of the [TechDraw Workbench](TechDraw_Workbench.md), is fast and produces only lines (no face fill possible)
+    -   Solid, which is based on the [Painter\'s algorithm](https://en.wikipedia.org/wiki/Painter%27s_algorithm), and is capable of rendering faces filled with their shape color. However, it is much slower and can fail in many situations.
 
-![](images/TechDraw_Arch_rendering.jpg )
+:   The image below illustrates the difference between the two rendering modes:
+
+
+
+
+
+:   ![](images/TechDraw_Arch_rendering.jpg )
 
 -   Only the base line of [Arch Pipes](Arch_Pipe.md) is rendered, not the full volume of the tube:
 
-![](images/TechDraw_Arch_piping.jpg )
+:   ![](images/TechDraw_Arch_piping.jpg )
+
+## Notes
+
+The ArchView is rendered within the [Arch Workbench](Arch_Workbench.md), therefore TechDraw has limited control over its appearance. You may need to make changes within Arch to get the representation you want.
+
+
 
 ## Свойства
 
@@ -68,6 +91,8 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 -    **Cut Line Width|Float**: Width of the cut lines in this view.
 
 -    **Join Arch|Bool**: If `True`, walls and structures will be fused by material.
+
+
 
 ## Программирование
 

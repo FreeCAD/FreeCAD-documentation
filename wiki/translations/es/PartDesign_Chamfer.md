@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -21,6 +23,8 @@ Esta herramienta crea chaflanes en los bordes seleccionados de un objeto. Se cre
 
 
 </div>
+
+
 
 ## Utilización
 
@@ -66,13 +70,13 @@ Esta herramienta crea chaflanes en los bordes seleccionados de un objeto. Se cre
     -   
         **Two distances**
         
-        : Two distances are used to place the chamfer edges. <small>(v0.19)</small> 
+        : Two distances are used to place the chamfer edges.
 
     -   
         **Distance and angle**
         
-        : A distance is used to place one chamfer edge, the placement of the other chamfer edge is defined by the angle of the chamfer. <small>(v0.19)</small> 
--   Press the **<img src="images/PartDesign_Flip_Direction.svg" width=16px> Flip direction** button to flip the direction of the chamfer (deactivated for **Equal distance**). <small>(v0.19)</small> 
+        : A distance is used to place one chamfer edge, the placement of the other chamfer edge is defined by the angle of the chamfer.
+-   Press the **<img src="images/PartDesign_Flip_Direction.svg" width=16px> Flip direction** button to flip the direction of the chamfer (deactivated for **Equal distance**).
 -   Set the **Size** of the chamfer.
 -   Set the **Size2** of the chamfer (only available if **Two distances** is selected).
 -   Set the **Angle** of the chamfer (only available if **Distance and angle** is selected).

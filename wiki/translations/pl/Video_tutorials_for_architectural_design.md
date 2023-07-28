@@ -1,11 +1,15 @@
 # Video tutorials for architectural design/pl
 **Proszę zwrócić uwagę na wersję FreeCAD użytą w poradniku. Jeśli w opracowaniu została wykorzystana starsza wersja programu, ogólny proces modelowania może nadal działać, ale niektóre narzędzia w nowszych wydaniach mogły ulec zmianie. Nie dodawaj filmów wykonanych w wersji '''0.16''' lub starszej, ponieważ te wydania są uważane za przestarzałe.**
 
+
+
 ## Wprowadzenie
 
 Przedstawione tutaj poradniki dotyczą projektowania pomieszczeń, domów i innych budynków, które są interesujące dla architektów i inżynierów budownictwa. Inne tematy można znaleźć na stronie [poradniki wideo](video_tutorials/pl.md).
 
 Odwiedź stronę [Poradniki](tutorials/pl.md), aby uzyskać wysokiej jakości poradniki w formie artykułów tekstowych. Pełna, nieposortowana lista poradników znajduje się w [Kategorii Poradniki](:Category:Tutorials/pl.md).
+
+
 
 ## Projektowanie architektoniczne 
 

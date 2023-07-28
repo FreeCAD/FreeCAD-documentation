@@ -10,6 +10,8 @@
 
 # Sketcher BSplinePoleWeight/de
 
+
+
 ## Beschreibung
 
 Blendet die Darstellung der Kontrollpunkt**gewichte** für die Kontrollpunkte einer B-Spline-Kurve ein oder aus (siehe [unten](#Erklärung_Gewichte.md) für eine Erklärung der Gewichte).
@@ -17,10 +19,14 @@ Blendet die Darstellung der Kontrollpunkt**gewichte** für die Kontrollpunkte ei
 <img alt="" src=images/sketcher_BSplineWeightShow.png  style="width:468px;"> 
 *B-Spline mit Kontrollpunktgewichten in eckigen Klammern*
 
+
+
 ## Anwendung
 
 1.  Eine B-Spline-Kurve auswählen.
 2.  Die Schaltfläche **[<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Gewicht der B-Spline-Kontrollpunkte anzeigen / ausblenden](Sketcher_BSplinePoleWeight/de.md)** drücken.
+
+
 
 ## Gewicht, kurz erklärt 
 
@@ -51,6 +57,8 @@ Ein Gewicht von Null wäre eine Definitionslücke der Gleichung zur Berechnung r
 
 <img alt="" src=images/sketcher_BSplineWeightZero.png  style="width:468px;"> 
 *Derselbe B-Spline mit einem Kontrollpunkt, dessen Gewicht fast Null ist*
+
+
 
 ## Gewichte Ändern 
 

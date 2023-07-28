@@ -1,15 +1,19 @@
 # Scripted objects/fr
 {{TOCright}}
 
+
+
 ## Introduction
 
 Outre les types d\'objets standard tels que les annotations, les maillages et les objets de pièces, FreeCAD offre également l\'étonnante possibilité de construire des objets paramétrique 100% Python, appelés [Python Features](App_FeaturePython/fr.md). Ces objets se comporteront exactement comme tout autre objet FreeCAD, et seront enregistrés et restaurés automatiquement lors de la sauvegarde/du chargement du fichier.
 
-Une particularité doit être comprise: pour des raisons de sécurité, les fichiers FreeCAD ne portent jamais de code embarqué. Le code Python que vous écrivez pour créer des objets paramétriques n\'est jamais enregistré dans un fichier. Cela signifie que si vous ouvrez un fichier contenant un tel objet sur une autre machine, si ce code Python n\'est pas disponible sur cette machine, l\'objet ne sera pas entièrement recréé. Si vous distribuez de tels objets à d\'autres, vous devrez également distribuer votre script Python, par exemple sous forme de [Macro](Macros/fr.md).
+Une particularité doit être comprise : pour des raisons de sécurité, les fichiers FreeCAD ne portent jamais de code embarqué. Le code Python que vous écrivez pour créer des objets paramétriques n\'est jamais enregistré dans un fichier. Cela signifie que si vous ouvrez un fichier contenant un tel objet sur une autre machine, si ce code Python n\'est pas disponible sur cette machine, l\'objet ne sera pas entièrement recréé. Si vous distribuez de tels objets à d\'autres, vous devrez également distribuer votre script Python, par exemple sous forme de [Macro](Macros/fr.md).
 
-**Remarque**: Il est possible d\'empaqueter du code Python dans un fichier FreeCAD en utilisant la sérialisation json avec un App::PropertyPythonObject, mais ce code ne peut jamais être exécuté directement et a donc peu d\'utilité pour notre propos ici.
+**Remarque** : Il est possible d\'empaqueter du code Python dans un fichier FreeCAD en utilisant la sérialisation json avec un App::PropertyPythonObject, mais ce code ne peut jamais être exécuté directement et a donc peu d\'utilité pour notre propos ici.
 
-Les [Python Features](App_FeaturePython/fr.md) suivent la même règle que toutes les fonctionnalités FreeCAD: elles sont séparées en plusieurs parties App (application) et GUI (interface graphique). La partie applicative, l\'objet document, définit la géométrie de notre objet, tandis que sa partie graphique, l\'objet fournisseur de vues, définit la façon dont l\'objet sera affiché à l\'écran. L\'outil View Provider Object (créateur de vue), comme toute autre fonctionnalité de FreeCAD, n\'est disponible que lorsque vous exécutez FreeCAD dans sa propre interface graphique. Plusieurs propriétés et méthodes sont disponibles pour construire votre objet. Les propriétés doivent être de l\'un des types de propriétés prédéfinis offerts par FreeCAD et apparaîtront dans la fenêtre de visualisation des propriétés, de sorte qu\'elles puissent être modifiées par l\'utilisateur. De cette façon, les objets FeaturePython sont véritablement et totalement paramétriques. Vous pouvez définir les propriétés de l\'objet et de l\'affichage ViewObject de l\'objet séparément.
+Les [Python Features](App_FeaturePython/fr.md) suivent la même règle que toutes les fonctionnalités FreeCAD : elles sont séparées en plusieurs parties App (application) et GUI (interface graphique). La partie applicative, l\'objet document, définit la géométrie de notre objet, tandis que sa partie graphique, l\'objet fournisseur de vues, définit la façon dont l\'objet sera affiché à l\'écran. L\'outil View Provider Object (créateur de vue), comme toute autre fonctionnalité de FreeCAD, n\'est disponible que lorsque vous exécutez FreeCAD dans sa propre interface graphique. Plusieurs propriétés et méthodes sont disponibles pour construire votre objet. Les propriétés doivent être de l\'un des types de propriétés prédéfinis offerts par FreeCAD et apparaîtront dans la fenêtre de visualisation des propriétés, de sorte qu\'elles puissent être modifiées par l\'utilisateur. De cette façon, les objets FeaturePython sont véritablement et totalement paramétriques. Vous pouvez définir les propriétés de l\'objet et de l\'affichage ViewObject de l\'objet séparément.
+
+
 
 ## Exemples de base 
 
@@ -148,6 +152,8 @@ def makeBox():
 makeBox()
 ```
 
+
+
 ### Choses à noter 
 
 Si votre objet doit être recalculé dès sa création, vous devez le faire manuellement dans la fonction `__init__` car il n\'est pas appelé automatiquement. Cet exemple n\'en a pas besoin car la méthode `onChanged` de la classe `Box` a le même effet que la fonction `execute`, mais les exemples ci-dessous reposent sur le fait d\'être recalculés avant que quoi que ce soit ne soit affiché dans la vue 3D. Dans les exemples, cela est fait manuellement avec `ActiveDocument.recompute()` mais dans des scénarios plus complexes, vous devez décider où recalculer soit le document entier, soit l\'objet FeaturePython.
@@ -156,9 +162,13 @@ Cet exemple produit un certain nombre de traces de la pile d\'exception dans la 
 
 Une explication de `__getstate__` et `__setstate__` se trouve dans le fil de discussion du forum [obj.Proxy.Type is a dict, not a string](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009&start=10#p377892).
 
+
+
 ## Méthodes disponibles 
 
 Voir [Méthodes FeaturePython](FeaturePython_methods/fr.md) pour la référence complète.
+
+
 
 ## Propriétés disponibles 
 
@@ -170,7 +180,7 @@ en faisant:
 obj.supportedProperties()
 ```
 
-Vous obtiendrez une liste des propriétés disponibles, décrites plus en détail sur la page [Propriétés personnalisées de FeaturePython](FeaturePython_Custom_Properties/fr.md):
+Vous obtiendrez une liste des propriétés disponibles, décrites plus en détail sur la page [Propriétés personnalisées de FeaturePython](FeaturePython_Custom_Properties/fr.md) :
 
 -   [App::PropertyAcceleration](FeaturePython_Custom_Properties#App:_PropertyAcceleration.md)
 -   [App::PropertyAngle](FeaturePython_Custom_Properties#App:_PropertyAngle.md)
@@ -261,7 +271,7 @@ Vous obtiendrez une liste des propriétés disponibles, décrites plus en détai
 -   [TechDraw::PropertyCosmeticVertexList](FeaturePython_Custom_Properties#TechDraw:_PropertyCosmeticVertexList.md)
 -   [TechDraw::PropertyGeomFormatList](FeaturePython_Custom_Properties#TechDraw:_PropertyGeomFormatList.md)
 
-Lors de l\'ajout de propriétés à vos objets, prenez soin de ceci:
+Lors de l\'ajout de propriétés à vos objets, prenez soin de ceci :
 
 -   Ne pas utiliser de caractères **\"\<\"** ou **\"\>\"** dans les descriptions des propriétés (qui coupent des portions de code dans le fichier xml.Fcstd)
 -   Les propriétés sont stockées dans un fichier texte .Fcstd.
@@ -274,9 +284,11 @@ Une liste complète des attributs de propriété est disponible dans le [fichier
 prop = (value, lower, upper, stepsize)
 ```
 
+
+
 ## Type de propriété 
 
-Par défaut, les propriétés peuvent être actualisées. Il est possible de rendre les propriétés en lecture seule, par exemple dans le cas ou l\'on veut montrer le résultat d\'une méthode. Il est également possible de cacher la propriété. Le type de propriété peut être définie à l\'aide:
+Par défaut, les propriétés peuvent être actualisées. Il est possible de rendre les propriétés en lecture seule, par exemple dans le cas ou l\'on veut montrer le résultat d\'une méthode. Il est également possible de cacher la propriété. Le type de propriété peut être définie à l\'aide :
 
 
 ```python
@@ -293,23 +305,26 @@ Les EditorModes ne sont pas fixés dans le fichier reload de FreeCAD. Cela pourr
 
 En utilisant le paramètre direct dans la fonction addProperty, vous avez également plus de possibilités. En particulier, un point intéressant est de marquer une propriété en tant que propriété en sortie. De cette façon, FreeCAD ne marquera pas la fonctionnalité comme étant touchée lors de la modification (inutile donc de recalculer).
 
-Exemple de sortie de property (see also <https://forum.freecadweb.org/viewtopic.php?t=24928>):
+Exemple de sortie de property (see also <https://forum.freecadweb.org/viewtopic.php?t=24928>) :
 
 
 ```python
 obj.addProperty("App::PropertyString","MyCustomProperty","","",8)
 ```
 
-Les types de propriétés pouvant être définis au dernier paramètre de la fonction addProperty sont les suivants:
+Les types de propriétés pouvant être définis au dernier paramètre de la fonction addProperty sont les suivants :
 
-  0 - Prop_None, pas de type de propriété spécial
-  1 - Prop_ReadOnly, la propriété est en lecture seule dans l'éditeur
-  2 - Prop_Transient, la propriété ne sera pas sauvegardée dans un fichier
-  4 - Prop_Hidden, la propriété n'apparaîtra pas dans l'éditeur
-  8 - Prop_Output, modifier la propriété  ne touche pas son conteneur parent
+  0 -- Prop_None, pas de type de propriété spécial
+  1 -- Prop_ReadOnly, la propriété est en lecture seule dans l'éditeur
+  2 -- Prop_Transient, la propriété ne sera pas sauvegardée dans un fichier
+  4 -- Prop_Hidden, la propriété n'apparaîtra pas dans l'éditeur
+  8 -- Prop_Output, modifier la propriété  ne touche pas son conteneur parent
   16 - Prop_NoRecompute, modifier la propriété ne touche pas son conteneur pour le recalcul
+  32 -- Prop_NoPersist, la propriété ne sera pas du tout sauvegardée dans le fichier
 
 Vous pouvez trouver ces différents types de propriétés définis dans [source code C++ header for PropertyContainer](https://github.com/FreeCAD/FreeCAD/blob/master/src/App/PropertyContainer.h).
+
+
 
 ## Autres exemples plus complexes 
 
@@ -361,7 +376,7 @@ class Octahedron:
      return face
 ```
 
-Puis, nous avons **view provider object**, qui est responsable d\'afficher l\'objet dans la scène 3D (votre projet à l\'écran):
+Puis, nous avons **view provider object**, qui est responsable d\'afficher l\'objet dans la scène 3D (votre projet à l\'écran) :
 
 
 ```python
@@ -504,7 +519,7 @@ class ViewProviderOctahedron:
      return None
 ```
 
-Enfin, une fois que notre objet et son **viewobject** sont définis, nous n\'avons qu\'a les appeler:
+Enfin, une fois que notre objet et son **viewobject** sont définis, nous n\'avons plus qu\'a les appeler (la classe Octahedron et le code de la classe viewprovider peuvent être copiés directement dans la console python FreeCAD) :
 
 
 ```python
@@ -514,13 +529,15 @@ Octahedron(a)
 ViewProviderOctahedron(a.ViewObject)
 ```
 
+
+
 ## Création d\'objets sélectionnables 
 
 Si vous souhaitez rendre votre objet sélectionnable, ou au moins une partie de celui-ci, en cliquant dessus dans la fenêtre, vous devez inclure sa géométrie de pièce dans un nœud SoFCSelection. Si votre objet a une représentation complexe, avec des widgets, des annotations, etc\..., vous souhaiterez peut-être n\'en inclure qu\'une partie dans une SoFCSelection. Tout ce qui est un SoFCSelection est constamment analysé par FreeCAD pour détecter la sélection/présélection, il est donc logique de ne pas le surcharger avec un balayage inutile.
 
 Une fois que les parties du scénario qui doivent être sélectionnables se trouvent à l\'intérieur des nœuds SoFCSelection, vous devez alors fournir deux méthodes pour gérer le chemin de sélection. Le chemin de sélection peut prendre la forme d\'une chaîne donnant les noms de chaque élément du chemin ou d\'un tableau d\'objets scénographiques. Les deux méthodes que vous fournissez sont `getDetailPath` qui convertit un chemin de chaîne en un tableau d\'objets de scénario, et `getElementPicked` qui prend un élément sur lequel on a cliqué dans le scénario et renvoie son nom de chaîne (notez, pas son chemin de chaîne).
 
-Voici l\'exemple de molécule ci-dessus, adapté pour rendre les éléments de la molécule sélectionnables:
+Voici l\'exemple de molécule ci-dessus, adapté pour rendre les éléments de la molécule sélectionnables :
 
 
 ```python
@@ -618,9 +635,11 @@ def makeMolecule():
     FreeCAD.ActiveDocument.recompute()
 ```
 
+
+
 ## Travailler avec des formes simples 
 
-Si votre objet paramétrique renvoie simplement une forme, vous n\'avez pas besoin d\'utiliser un objet créateur de vue (*view provider object*). La forme sera affichée à l\'aide du module standard de représentation des formes de FreeCAD:
+Si votre objet paramétrique renvoie simplement une forme, vous n\'avez pas besoin d\'utiliser un objet créateur de vue (*view provider object*). La forme sera affichée à l\'aide du module standard de représentation des formes de FreeCAD :
 
 
 ```python
@@ -680,11 +699,13 @@ ViewProviderLine(a.ViewObject)
 App.ActiveDocument.recompute()
 ```
 
+
+
 ## Structure du scénogramme 
 
 Vous avez peut-être remarqué que les exemples ci-dessus construisent leurs scénarios de manière légèrement différente. Certains utilisent `obj.addDisplayMode(node, "modename")` tandis que d\'autres utilisent `obj.SwitchNode.getChild(x).addChild(y)`.
 
-Chaque fonctionnalité d\'un document FreeCAD est basée sur la structure du scénogramme suivant:
+Chaque fonctionnalité d\'un document FreeCAD est basée sur la structure du scénogramme suivant :
 
 
 ```python
@@ -706,7 +727,7 @@ Les exemples qui utilisent `SwitchNode.getChild(x).addChild` construisent égale
 
 Lorsque vous utilisez `addDisplayMode()` pour ajouter une géométrie au graphe de scène, chaque mode d\'affichage doit avoir son propre nœud qui est transmis à `addDisplayMode()`. Ne réutilisez pas le même nœud pour cela. Cela entraînerait une confusion dans le mécanisme de sélection. C\'est correct si chaque nœud du mode d\'affichage a les mêmes nœuds de géométrie ajoutés en dessous, juste la racine de chaque mode d\'affichage doit être distincte.
 
-Exemple de molécule ci-dessus, adapté pour être dessiné uniquement avec des objets scénégraphiques Coin3D au lieu d\'utiliser des objets de l\'atelier Part:
+Exemple de molécule ci-dessus, adapté pour être dessiné uniquement avec des objets scénégraphiques Coin3D au lieu d\'utiliser des objets de l\'atelier Part :
 
 
 ```python
@@ -866,6 +887,8 @@ def makeMolecule():
 
 a,b = makeMolecule()
 ```
+
+
 
 ## Objets scriptés dans Part Design 
 
@@ -1047,16 +1070,18 @@ else:
         body.addObject(tube) #optionally we can also use body.insertObject() for placing at particular place in tree
 ```
 
+
+
 ## Plus d\'informations 
 
-Pages supplémentaires:
+Pages supplémentaires :
 
 -   [Objets créés par script enregistrant des attributs](Scripted_objects_saving_attributes/fr.md)
 -   [Scripted objects migration](Scripted_objects_migration.md)
 -   [Objets créés par script avec pièce jointe](Scripted_objects_with_attachment/fr.md)
 -   [Viewproviders](Viewprovider/fr.md)
 
-Fils de discussion intéressants sur les objets scriptés:
+Fils de discussion intéressants sur les objets scriptés :
 
 -   [Python object attributes lost at load](http://forum.freecadweb.org/viewtopic.php?f=22&t=13740)
 -   [New FeaturePython is grey](http://forum.freecadweb.org/viewtopic.php?t=12139)

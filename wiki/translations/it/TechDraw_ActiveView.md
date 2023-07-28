@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -35,6 +37,8 @@ Lo strumento Vista attiva inserisce una copia di una finestra 3D in una pagina d
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -65,6 +69,8 @@ The following can be specified:
 
 -    **Use 3d Background**: If checked, the generated bitmap will use the background from the 3D window.
 
+
+
 ## Note
 
 
@@ -77,33 +83,14 @@ The following can be specified:
 
 </div>
 
+
+
 ## Proprietà
 
 
 <div class="mw-translate-fuzzy">
 
 Vedere <img alt="" src=images/TechDraw_Symbol.svg  style="width:16px;"> [Simbolo](TechDraw_Symbol/it.md)
-
-
-</div>
-
-## Script
-
-
-<div class="mw-translate-fuzzy">
-
-
-**Vedere anche:**
-
-[TechDraw API](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Vista attiva può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
 
 </div>

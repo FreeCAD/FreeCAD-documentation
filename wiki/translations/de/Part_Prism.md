@@ -10,15 +10,21 @@
 
 # Part Prism/de
 
+
+
 ## Beschreibung
 
 Ein <img alt="" src=images/Part_Prism.svg  style="width:24px;"> **Part Prisma** ist ein parametrischer Volumenkörper, der mit dem Befehl <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Grundelemente](Part_Primitives/de.md) erstellt werden kann. Im Koordinatensystem durch seine {{PropertyData/de|Placement}} festgelegt, liegt die Unterseite des Prismas auf der XY-Ebene mit seinem Mittelpunkt im Ursprung und einem seiner Eckpunkte auf der X-Achse.
 
 <img alt="" src=images/Part_Prism_Example.png  style="width:400px;">
 
+
+
 ## Anwendung
 
 Siehe [Part Grundelemente](Part_Primitives/de#Anwendung.md).
+
+
 
 ## Beispiel
 
@@ -26,11 +32,15 @@ Siehe [Part Grundelemente](Part_Primitives/de#Anwendung.md).
 
 Ein Part-Prisma-Objekt, das mit dem [Skriptbeispiel](#Skripten.md) weiter unten erzeugt wurde, wird hier dargestellt.
 
+
+
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein Part-Prism-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
 
@@ -48,9 +58,11 @@ The object has the same attachment properties as a [Part Part2DObject](Part_Part
 
 -    **Height|Length**: The height of the prism. The default is {{Value|10mm}}.
 
--    **First Angle|Angle**: The angle between the extrusion direction of the prism and its positive Z axis, measured around its Y axis. The angle is positive towards its positive X axis. Valid range: {{Value|0° &lt;&#61; value &lt; 90°}}. The default is {{Value|0°}}. <small>(v0.19)</small> 
+-    **First Angle|Angle**: The angle between the extrusion direction of the prism and its positive Z axis, measured around its Y axis. The angle is positive towards its positive X axis. Valid range: {{Value|0° &lt;&#61; value &lt; 90°}}. The default is {{Value|0°}}.
 
--    **Second Angle|Angle**: The angle between the extrusion direction of the prism and its positive Z axis, measured around its X axis. The angle is positive towards its positive Y axis. Valid range: {{Value|0° &lt;&#61; value &lt; 90°}}. The default is {{Value|0°}}. <small>(v0.19)</small> 
+-    **Second Angle|Angle**: The angle between the extrusion direction of the prism and its positive Z axis, measured around its X axis. The angle is positive towards its positive Y axis. Valid range: {{Value|0° &lt;&#61; value &lt; 90°}}. The default is {{Value|0°}}.
+
+
 
 ## Skripten
 

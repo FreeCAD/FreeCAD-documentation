@@ -13,7 +13,7 @@ FreeCAD utilizes a third party collaborative on-line translation system called [
 
 <img alt="" src=images/Logo-crowdin.png  style="width:320px;">
 
-It is proprietary software but free to FOSS projects. Below are instructions on how to use it:
+It is proprietary software but free to [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) projects. Below are instructions on how to use it:
 
 -   Go to the [FreeCAD translation project page on Crowdin](http://crowdin.net/project/freecad)
 -   Login by creating a new profile, or using a third-party account (GitHub, GitLab, GMail etc\...)

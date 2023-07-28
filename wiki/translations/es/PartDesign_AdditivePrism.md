@@ -13,11 +13,15 @@
 
 </div>
 
+
+
 ## Descripción
 
 Inserta un prisma primitiva en el Cuerpo activo como primera característica, o lo fusiona con la(s) característica(s) existente(s).
 
 <img alt="" src=images/PartDesign_AdditivePrism_example.png  style="width:200px;">
+
+
 
 ## Uso
 
@@ -32,14 +36,24 @@ Inserta un prisma primitiva en el Cuerpo activo como primera característica, o 
 
 </div>
 
+
+
 ## Opciones
 
+
+<div class="mw-translate-fuzzy">
+
 Es posible crear prismas torcidos especificando ángulos con respecto al vector normal del adjunto seleccionado. {{Version/es|0.19}}
+
+
+</div>
 
 Tras su creación, el Prisma puede ser editado de dos maneras:
 
 -   Haciendo doble clic con el ratón sobre el árbol del Modelo, o pinchando con el botón derecho y seleccionando **Editar primitiva** en el menú contextual. Con ello se abre la ventana de selección de parámetros de la Primitiva.
 -   Por medio del [Editor de propiedades](Property_editor/es.md).
+
+
 
 ## Propiedades
 

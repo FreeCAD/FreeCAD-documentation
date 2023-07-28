@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:24px;"> **TechDraw Personnaliser le format d\'infobulle** personnalise le formatage du texte d\'une bulle ou d\'une cote. Il est possible d\'ajouter des [symboles GD&T](TechDraw_Geometric_dimensioning_and_tolerancing/fr.md) et d\'autres caractères spéciaux.
+L\'outil **TechDraw Personnaliser le format d\'infobulle** personnalise le formatage du texte d\'une bulle ou d\'une cote. Il est possible d\'ajouter des [symboles GD&T](TechDraw_Geometric_dimensioning_and_tolerancing/fr.md) et d\'autres caractères spéciaux.
 
 <img alt="" src=images/TechDraw_ExtensionCustomizeFormatExample.png  style="width:250px;"> 
 *Le panneau de tâches Personnaliser le format*
+
+
 
 ## Utilisation
 

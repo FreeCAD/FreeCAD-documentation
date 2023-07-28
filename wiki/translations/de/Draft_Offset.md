@@ -1,57 +1,56 @@
 ---
 - GuiCommand:/de
    Name:Draft Offset
-   Name/de:Entwurf Versetzen
-   MenuLocation:Entwurf → Versetzen
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Name/de:Draft Versatz
+   MenuLocation:Änderung → Versatz
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**O** **S**
-   SeeAlso:[Part 2D Versatz](Part_Offset2D/de.md)
+   SeeAlso:[Part 2DVersatz](Part_Offset2D/de.md)
 ---
 
 # Draft Offset/de
 
 
-</div>
 
 ## Beschreibung
 
+Das Werkzeug <img alt="" src=images/Draft_Offset.svg  style="width:24px;"> **Draft Versatz** verschiebt jedes Teilstück eines ausgewählten Objekts um einen gegebenen Abstand oder erstellt eine versetzte Kopie des ausgewählten Objekts.
 
-<div class="mw-translate-fuzzy">
-
-Das Versatzwerkzeug verschiebt das ausgewählte Objekt um einen bestimmten Abstand (Versatz) senkrecht zu sich selbst.
-
-
-</div>
-
-<img alt="" src=images/Draft_Offset_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Offset_example.jpg  style="width:400px;"> 
+*Versetzen eines Draft-Drahtes*
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-*Versetzen eines Drahtes um einen bestimmten Abstand von einer seiner Kanten*
-
-
-</div>
 
 ## Anwendung
 
-See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+Siehe auch: [Draft Fangen](Draft_Snap/de.md) und [Draft Beschränken](Draft_Constrain/de.md).
+
+1.  Ein Objekt auswählen. Das Objekt muß auf der aktuellen [EntwurfWähleEbene](Draft_SelectPlane/de.md) liegen.
+2.  Es gibt mehrere Wege die Anweisung zu geben:
+    -   Die **<img src="images/Draft_Offset.svg" width=16px> [Entwurf Versetzen](Draft_Offset/de.md)** Schaltfläche anklicken oder die Taste **O** und dann die Taste**S** drücken.
+
+    -   
+        **Änderung → <img src="images/Draft_Offset.svg" width=16px> Versetzen
+**
+        
+        aus dem Menü wählen.
+
+    -   Tastenkürzel: **O** dann **S** drücken.
+3.  Wenn kein Objekt ausgewählt ist: ein Objekt in der [3D-Ansicht](3D_view/de.md) auswählen.
+4.  Die **Offset** Aufgabenansicht öffnet sich. Siehe auch [Options](#Options.md).
+5.  Der Versatz wird wie folgt angegeben:
+    -   Einen Punkt in der [3D-Ansicht](3D_view/de.md) wählen
+    -   Eine Zahl eingeben:
+        1.  Der Zeiger muß auf die richtigen Seite des Objektes in der [3D-Ansicht](3D_view/de.md) zeigen.
+        2.  Der Zeiger darf nicht aus der [3D-Ansicht](3D_view/de.md) bewegt werden.
+        3.  Einen **Abstand** eingeben.
+        4.  Die Taste **Enter** drücken, um die Anweisung abzuschließen.
 
 
-<div class="mw-translate-fuzzy">
-
-1.  Wähle das Objekt aus, das du versetzen möchtest.
-2.  Drücke die **<img src="images/Draft_Offset.svg" width=16px> [Entwurf Versetzen](Draft_Offset/de.md)** Schaltfläche oder drücke **O** und dann **S** Tasten. Wenn kein Objekt ausgewählt ist, wirst du aufgefordert, eines auszuwählen.
-3.  Klicke auf einen Punkt in der 3D Ansicht, oder gib einen Abstand ein.
-
-
-</div>
 
 ## Optionen
 
-The single character keyboard shortcuts and the modifier keys mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
+Die hier genannten Tastaturkürzel für einzelne Zeichen und die hier beschriebenen Auswahltasten können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -70,31 +69,26 @@ The single character keyboard shortcuts and the modifier keys mentioned here can
 
 </div>
 
-## Notes
+
+
+## Hinweise
 
 -   To create an offset version of a [Draft BSpline](Draft_BSpline.md) its points are offset individually, and from the new points a new spline is calculated. This new spline is not parallel to the original spline. For an exact parallel offset of a [Draft BSpline](Draft_BSpline.md) the [Part Offset2D](Part_Offset2D.md) command should be used.
 -   The Draft Offset command cannot handle [Draft BezCurves](Draft_BezCurve.md). Use the [Part Offset2D](Part_Offset2D.md) command instead.
 
-## Preferences
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of the distance: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
-
-## Scripting
 
 
-<div class="mw-translate-fuzzy">
+## Einstellungen
+
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
+
+-   Um die Anzahl der Dezimalstellen für die Eingabe des Abstands zu ändern: **Bearbeiten → Eigenschaften... → Allgemein → Einheiten → Einheiten-Einstellungen → Anzahl der Nachkommastellen**
+
+
 
 ## Skripten
 
-
-**Siehe auch:**
-
-[Draft API](Draft_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -151,15 +145,6 @@ offset5 = Draft.offset(wire, 1.5*vector, copy=True, occ=True)
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

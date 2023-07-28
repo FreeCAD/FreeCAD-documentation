@@ -1,12 +1,16 @@
 # Draft annotation scale widget/de
 {{TOCright}}
 
+
+
 ## Beschreibung
 
-The **Draft annotation scale widget** can be used to specify the Draft annotation scale. This scale determines the **Scale Multiplier** of new [Draft Texts](Draft_Text.md), [Draft Dimensions](Draft_Dimension.md) and [Draft Labels](Draft_Label.md). The widget is available in the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) and the <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbench](Arch_Workbench.md). It is an [optional](#Preferences.md) GUI element that is located in the [Status bar](Status_bar.md).
+The **Draft annotation scale widget** can be used to specify the Draft annotation scale. This scale determines the **Scale Multiplier** of new [Draft Texts](Draft_Text.md), [Draft Dimensions](Draft_Dimension.md) and [Draft Labels](Draft_Label.md). The widget is only available in the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md). It is an [optional](#Preferences.md) GUI element that is located in the [Status bar](Status_bar.md).
 
 ![](images/Draft_annotation_scale_widget_button.png ) 
 *The Draft annotation scale widget*
+
+
 
 ## Anwendung
 
@@ -21,12 +25,16 @@ The **Draft annotation scale widget** can be used to specify the Draft annotatio
 ![](images/Draft_annotation_scale_widget_menu.png ) 
 *The menu of the widget*
 
+
+
 ## Einstellungen
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
 -   The Draft annotation scale widget is optional: **Edit → Preferences... → Draft → User interface settings → Draft Statusbar → Annotation scale widget**.
 -   To change the annotation scale without the widget: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → DraftAnnotationScale**. The scale is defined by a single number. For a scale of {{Value|1:50}} enter {{Value|0.02}}.
+
+
 
 ## Hinweise
 

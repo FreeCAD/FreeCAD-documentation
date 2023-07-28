@@ -24,6 +24,8 @@ Voir également la page suivante pour quelques vidéos sur la façon de travaill
 
 -   [L\'atelier utilisé pour créer des projets architecturaux s\'appelle Arch](http://help-freecad-jpg87.fr/04_arch_ind.php)
 
+
+
 ## Installation
 
 1\. Ouvrez FreeCAD, créez un nouveau document vide et passez à l\'[atelier Arch](Arch_Workbench/fr.md)
@@ -35,6 +37,8 @@ Voir également la page suivante pour quelques vidéos sur la façon de travaill
 4\. [Zoom arrière](Std_ViewZoomOut/fr.md) de la vue 3D si vous êtes trop près de la grille.
 
 Nous sommes maintenant prêts à créer un bâtiment simple avec des murs fermés, deux portes et deux fenêtres.
+
+
 
 ## Placement d\'un mur 
 
@@ -61,6 +65,8 @@ Nous sommes maintenant prêts à créer un bâtiment simple avec des murs fermé
 
 <img alt="" src=images/02_T01_just_wall.png  style="width:600px;"> 
 *align=center|Mur construit à partir du fil*
+
+
 
 ## Placement de portes et fenêtres 
 
@@ -93,7 +99,7 @@ Nous sommes maintenant prêts à créer un bâtiment simple avec des murs fermé
 *align=center|Accrochage au milieu du bord inférieur du mur pour placer la fenêtre*
 
 :   
-    **Remarque:**le paramètre `Sill height` ne peut être défini que lors de la création initiale de la fenêtre avec un préréglage. Une fois la fenêtre insérée, modifiez son emplacement en éditant le vecteur {{PropertyData/fr|Position}} `[x, y, z]` du [Sketcher Sketch](Sketcher_Sketch/fr.md) sous-jacent.
+    **Remarque :**le paramètre `Sill height` ne peut être défini que lors de la création initiale de la fenêtre à l\'aide d\'un préréglage. Une fois la fenêtre insérée, modifiez son emplacement en éditant le vecteur **Position** `[x, y, z]` de l\'[Sketcher Esquisse](Sketcher_Workbench/fr.md) sous-jacente.
 
 
 
@@ -113,6 +119,8 @@ lorsque vous placez une fenêtre ou une porte avec un préréglage, survolez l\'
 **Remarque 2:**
 
 occasionnellement, la fenêtre peut être placée à l\'extérieur du [Arch Mur](Arch_Wall/fr.md); tant que l\'élément est parallèle à ce mur, vous devriez pouvoir corriger la position manuellement.
+
+
 
 ## Ouvertures des portes 
 
@@ -157,6 +165,8 @@ occasionnellement, la fenêtre peut être placée à l\'extérieur du [Arch Mur]
 <img alt="" src=images/09_T01_window_symbol_plan.png  style="width:600px;"> 
 *align=center|Porte avec symbole de plan, vue de dessus*
 
+
+
 ## Ouvertures des fenêtres 
 
 10\. Dans l\'arborescence, sélectionnez `Sketch002` sous-jacent à `Window` et appuyez sur **Espace** ou modifiez la propriété {{PropertyView/fr|Visibility}} en `True`.
@@ -192,6 +202,8 @@ occasionnellement, la fenêtre peut être placée à l\'extérieur du [Arch Mur]
 <img alt="" src=images/11_T01_window_all_symbol_top.png  style="width:600px;"> 
 *align=center|Symboles d'élévation et de plan pour tous les éléments, vue de dessus*
 
+
+
 ## Réalisation d\'un plan d\'étage du bâtiment 
 
 20\. Toujours dans l\'[atelier Arch](Arch_Workbench/fr.md), sélectionnez tous les composants de l\'arborescence, les [Arch Murs](Arch_Wall/fr.md), les deux [Arch Fenêtres](Arch_Window/fr.md) et les deux [Arch Portes](Arch_Door/fr.md), puis utilisez l\'outil [Arch Plan de coupe](Arch_SectionPlane/fr.md) pour créer un élément `Section`.
@@ -226,6 +238,8 @@ définissez {{PropertyData/fr|All On}} sur `True` pour les objets [TechDraw Vue 
 <img alt="" src=images/13_T01_TechDraw_window_all_symbols_higher.png  style="width:600px;"> 
 *align=center|Vue en section du bâtiment, avec un deuxième plan coupé, feuille A4, échelle 1:50*
 
+
+
 ## Faire une projection d\'élévation du bâtiment 
 
 25\. Revenez à l\'[atelier Arch](Arch_Workbench/fr.md). Dans l\'arborescence, sélectionnez tous les composants, le [Arch Mur](Arch_Wall/fr.md), les deux [Arch Fenêtre](Arch_Window/fr.md) s et les deux [Arch Portes](Arch_Door/fr.md), puis utilisez l\'outil [Arch Plan de coupe](Arch_SectionPlane/fr.md) pour créer un troisième élément `Section002`.
@@ -241,6 +255,8 @@ définissez {{PropertyData/fr|All On}} sur `True` pour les objets [TechDraw Vue 
 <img alt="" src=images/14_T01_TechDraw_window_all_symbols_elevation.png  style="width:600px;"> 
 *align=center|Vue de section du bâtiment, deux vues de dessus et une vue d'élévation, feuille A4, échelle 1:50*
 
+
+
 ## Interaction Arch et TechDraw 
 
 Au moment de la rédaction de ce document (FreeCAD 0.18, novembre 2018), l\'[atelier TechDraw](TechDraw_Workbench/fr.md) ne peut afficher dans ses pages que ce que l\'[atelier Arch](Arch_Workbench/fr.md) exporte en [SVG](SVG/fr.md). Cela signifie que l\'apparence des éléments inclus dans l\'outil [Arch Plan de coupe](Arch_SectionPlane/fr.md) et affichés par l\'outil [TechDraw Vue Arch](TechDraw_ArchView/fr.md) est contrôlée par l\'[atelier Arch](Arch_Workbench/fr.md).
@@ -250,9 +266,9 @@ l\'[atelier TechDraw](TechDraw_Workbench/fr.md) n\'a qu\'un contrôle minimal su
 Une interaction plus étroite entre les ateliers est prévue pour les futures versions de FreeCAD. Dans ces versions, on s\'attend à ce que les problèmes de longue date soient résolus, tels que le contrôle des caractéristiques des lignes et des faces (largeur de ligne, couleur de ligne, couleur de face, motifs de hachures, etc\...).
 
 
-   {{TechDraw Tools navi}}
+  {{TechDraw Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > Tutorial for open windows/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > Tutorial for open windows/fr

@@ -5,7 +5,7 @@
    MenuLocation:TechDraw → Empiler → Déplacer la vue vers le haut de la pile
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut:
-   Version:1.0
+   Version:0.21
    SeeAlso:[TechDraw Empiler en bas](TechDraw_StackBottom/fr.md), [TechDraw Empiler vers le haut](TechDraw_StackUp/fr.md), [TechDraw Empiler vers le bas](TechDraw_StackDown/fr.md).
 ---
 
@@ -13,7 +13,9 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_StackTop.svg  style="width:24px;"> **TechDraw Empiler en haut** déplace les vues au sommet de l\'ordre d\'empilement. L\'ordre d\'empilement contrôle la profondeur apparente des vues sur une page.
+L\'outil **TechDraw Empiler en haut** déplace les vues au sommet de l\'ordre d\'empilement. L\'ordre d\'empilement contrôle la profondeur apparente des vues sur une page.
+
+
 
 ## Utilisation
 
@@ -22,6 +24,8 @@ L\'outil <img alt="" src=images/TechDraw_StackTop.svg  style="width:24px;"> **Te
     -   Appuyez sur le bouton **<img src="images/TechDraw_StackTop.svg" width=16px> [Déplacer la vue vers le haut de la pile](TechDraw_StackTop/fr.md)**.
     -   Sélectionnez la **TechDraw → Empiler → <img src="images/TechDraw_StackTop.svg" width=16px> Déplacer la vue vers le haut de la pile** dans le menu.
 3.  La propriété **Stack Order** des vues est modifiée.
+
+
 
 ## Script
 

@@ -17,13 +17,7 @@ Die Installation von FreeCAD auf den bekanntesten Linux Systemen wurde nun von d
 
 ## Ubuntu und Ubuntu-basierte Systeme 
 
-
-<div class="mw-translate-fuzzy">
-
-Viele Linuxdistributionen basieren auf Ubuntu und teilen Ihre Repositorien. Neben den offiziellen Varianten (Kubuntu, Lubuntu und Xubuntu) gibt es nicht offizielle Ableitungen wie etwa Linux Mint, Voyager und andere. Die nachfolgenden Installationsoptionen sollten kompatibel zu allen diesen Systemen sein.
-
-
-</div>
+Viele Linuxdistributionen basieren auf Ubuntu und teilen Ihre Repositorien. Neben den offiziellen Varianten (Kubuntu, Lubuntu und Xubuntu) gibt es nicht offizielle Ableitungen wie etwa Linux Mint, Voyager und andere. Die nachfolgenden Installationsoptionen (Ausklappen) sollten kompatibel zu allen diesen Systemen sein.
 
 
 <div class="mw-collapsible-content">
@@ -367,23 +361,7 @@ zypper install freecad
 pacman -Sy freecad
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Beim Paketnamen ist fallabhängig, also versuche \FreeCAD\ sowie \freecad\. Wenn das nicht funktioniert, entweder weil der Paketmanager keine vorkompilierte FreeCAD-Version zur Verfügung hat, oder weil die verfügbare Version für Deine Zwecke zu alt ist, kann versucht werden, eine der folgenden Dateien herunterzuladen.
-
-
-</div>
-
-[.AppImage](https://github.com/FreeCAD/FreeCAD/releases/)
-
-
-<div class="mw-translate-fuzzy">
-
-Veröffentlichungen aus den github Repositorien. Diese funktionieren in der Regel auf den meisten 64 Bit Linux Distributionen, ohne spezielle Installation. Stelle einfach sicher, dass die heruntergeladene Datei als ausführbar markiert ist, und führe sie dann aus.
-
-
-</div>
+Der Paketname unterscheidet Groß- und Kleinschreibung, also versuche \FreeCAD\ sowie \freecad\. Wenn das nicht funktioniert, entweder weil der Paketmanager keine vorkompilierte FreeCAD-Version enthält, oder weil die verfügbare Version für Deine Zwecke zu alt ist, versuche die Pakete [Flatpak](Flatpak/de.md) oder [Snap](Ubuntu_Snap/de.md) zu installieren (sie funktionieren mit den meisten x86_64-Linux-Distributionen) oder versuche eine der folgenden Dateien herunterzuladen. [.AppImage](https://github.com/FreeCAD/FreeCAD/releases/) Veröffentlichungen aus den github Repositorien. Diese funktionieren in der Regel auch mit den meisten x86_64-Linux-Distributionen, ohne spezielle Installation. Stelle einfach sicher, dass die heruntergeladene Datei als ausführbar markiert ist, und führe sie dann aus.
 
 Wenn das immer noch nicht gut genug ist und keine andere Quelle eines vorkompilierten Pakets für Deine Umstände finden kannst, wirst Du [FreeCAD selbst kompilieren](Compile_on_Linux/de.md) müssen.
 

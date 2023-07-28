@@ -11,7 +11,7 @@
 
 ## Description
 
-The **Std ActivatePrevWindow** command does not work properly [1](https://forum.freecadweb.org/viewtopic.php?f=3&t=45157).
+The **Std ActivatePrevWindow** command activates the previous window in the [Main view area](Main_view_area.md). The previous window is determined by the tabs order in Main view area.
 
 ## Usage
 

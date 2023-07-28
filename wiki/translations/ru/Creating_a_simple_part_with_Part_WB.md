@@ -1,11 +1,12 @@
 ---
-- TutorialInfo:   Topic:Modeling
-   Level:Beginner
+- TutorialInfo:/ru
+   Topic:Моделирование
+   Level:Для начинающих
    Author:heda
-   Time:2 hours
-   FCVersion:0.19 or above
+   Time:2 часа
+   FCVersion:0.19 и выше
    Files:
-   SeeAlso:[Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md), [Creating a simple part with Draft and Part WB](Creating_a_simple_part_with_Draft_and_Part_WB.md)
+   SeeAlso:[Создание простой детали в верстаке PartDesign](Creating_a_simple_part_with_PartDesign/ru.md), [Создание простой детали в верстаках Draft и Part](Creating_a_simple_part_with_Draft_and_Part_WB/ru.md)
 ---
 
 # Creating a simple part with Part WB/ru
@@ -14,316 +15,362 @@
 
 
 
+
+
 ## Введение
 
-This tutorial aims to be used as a first introduction to 3D modeling using the [Part Workbench](Part_Workbench.md) ![](images/Switch_PartWorkbench.JPG ) of FreeCAD. After having finished this tutorial you should be able to make simple 3D models by using primitives like cubes, cylinders, etc with a technique called [Constructive Solid Geometry](https://en.wikipedia.org/wiki/Constructive_solid_geometry), short **CSG** modeling. Another way to create 3D models is by using a 2D shape by for example extruding or revolving the 2D shape in 3D space. For an introduction of that technique please follow the sister-tutorial *[Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md)*. The two tutorials intentionally have exactly the same model generated, this presents the beginner with a hands on experience of the two different techniques and how they are implemented in FreeCAD. The definition of the two techniques can be viewed as strictly divided from a semantic point of view, however there is nothing directly hindering a mix of the techniques when creating models. There are some caveats to watch out for when mixing modeling techniques, those are mainly related to aspects of how FreeCAD is programmed. There is a [third tutorial](Creating_a_simple_part_with_Draft_and_Part_WB.md) intended as a first introduction to a mixed modeling example. That tutorial uses the **Draft Workbench** to create a 2D profile utilized to extrude a solid in the **Part Workbench** to make the same model as in this tutorial.
+Это руководство является введением в 3D моделирование с использованием верстака [Part](Part_Workbench/ru.md) ![](images/Switch_PartWorkbench.JPG ) в системе FreeCAD. После его прочтения вы сможете создавать простые 3D модели с использованием таких примитивов как кубы, цилиндры, и т.д. с применением техники [Конструктивная сплошная геометрия](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D0%BF%D0%BB%D0%BE%D1%88%D0%BD%D0%B0%D1%8F_%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F). Другим способом создать 3D модели можно с использованием двумерных фигур путем вращения и движения этих фигур в 3D пространстве. Подробнее об этой технике читайте, пожалуйста, в руководстве *[Создание простой детали в PartDesign](Creating_a_simple_part_with_PartDesign/ru.md)*. В этих двух руководствах специально рассматривается одна и та же модель для того, чтобы начинающие на собственном опыте изучили две разные техники их создания и то, как они реализованы в системе FreeCAD. Эти техники различаются концептуально, но при создании моделей их можно использовать одновременно. Есть некоторые ограничения при одновременном использовании двух техник моделирования, но они касаются встроенного языка программирования FreeCAD. Существует руководство [Создание простой детали в верстаках Draft и Part](Creating_a_simple_part_with_Draft_and_Part_WB/ru.md), которое является примером использования двух техник моделирования одновременно. Оно использует верстак **Draft** и 2D фигуры, с помощью которых затем в верстаке **Part** создаётся 3D модель такая же, как в этом руководстве.
 
-Before you start please have a look at how to **[navigate](Mouse_navigation.md)** in 3D space. When hoovering over the mouse model selector in the lower right corner of the FreeCAD window, a cheat-sheet of the current mouse model appears as in the picture below.
+Перед тем как мы начнем, пожалуйста, посмотрите, как осуществлять **[навигацию](Mouse_navigation.md)** в 3D пространстве. При наведении указателя мыши на иконку с изображением мыши в нижнем правом углу окна FreeCAD, появляется подсказка как на картинке ниже.
 
 ![](images/T101pwb00-01_navi.png )
 
-Many newcomers to CAD programs get stuck while learning the software, if that happens to you, please go ahead and search the wiki or forum for further information -- chances are that others also have been stuck on the same specific thing in the past so there is already an answer to your specific question. Or make a post on the forum with your questions or findings. The forum has several threads where users are helped to complete all sorts of different tasks, those threads are often similar to tutorials, and often have specific illustrations included.
+Многие новички в CAD системах застревают на решении тех или иных проблем при их изучении. Если это произошло с вами, пожалуйста, ищите решение в wiki или на форуме -- возможно другие уже сталкивались с такой проблемой ранее и уже нашли её решение. Или создайте на форуме сообщение с вашим вопросом или решением проблемы. Форум имеет множество тем, где пользователи могут помочь найти решение по всем проблемам, эти темы бывают похожи на руководства и часто имеют полезные фотографии.
 
-### The tutorial covers 
 
--   The model to make
--   Using the Part Workbench to create and manipulate the primitive building blocks
--   Changing the color and transparency
--   A different way to locate the hole
--   Making the hole a countersunk hole
--   Making a hollow piece
--   A different way to position the chamfer
--   Editing dimensions
--   Organizing the tree a bit differently
--   Wrapping up
 
-## The model to make 
+### Содержание руководства 
+
+-   Создаваемая модель
+-   Применение верстака Part для создания модели с использованием примитивов
+-   Изменение цвета и прозрачности
+-   Другой способ размещения отверстий
+-   Создание отверстия с фаской
+-   Создание полой детали
+-   Другой способ создания фаски
+-   Редактирование размеров
+-   Организация дерева немного по-другому
+-   Подведение итогов
+
+
+
+## Создаваемая модель 
 
 <img alt="" src=images/GGTuto1_Vue.PNG  style="width:372px;">
 
 ![](images/T101pwb01-02_dims.png )
 
-## Using the Part Workbench to create and manipulate the primitive building blocks 
 
-Create a new document and save it directly under a new name, it is good practice to make sure that you save the document at regular intervals, or just before larger operations. Then switch to the **[Part Workbench](Part_Workbench.md)** using either the [workbench selector](Getting_started#Exploring_the_interface.md) (labeled 10 in the linked image) or by going to the **View → Workbench** menu. FreeCAD will start with toolbars at the top, the combo view to the left and the 3D view at the right.
 
-### Create the main solid block 
+## Применение верстака Part для создания модели с использованием примитивов 
 
-Press <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Box](Part_Box.md) to make a default solid cube. The cube appears in the [3D view](3D_view.md) and also as a new object in the [Tree view](Tree_view.md) in the sidebar.
+Создайте новый документ и сразу же сохраните его под новым именем. Возьмите хорошую привычку регулярно сохранять документ, или сохраняйте его хотя бы перед большими изменениями. Затем включите верстак **[Part](Part_Workbench/ru.md)** используя либо [переключатель верстаков](Getting_started/ru#Exploring_the_interface.md) (помечен числом 10 на картинке по ссылке), либо через главное меню **Вид → Верстак**. FreeCAD запустится с панелями инструментов вверху, комбинированным видом слева и 3D видом справа.
 
-Press <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [Isometric](Std_ViewIsometric.md) to see the cube in 3D.
+
+
+### Создание основного твердого тела 
+
+Кликните мышкой на иконке <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Создать твердотельный куб](Part_Box/ru.md) чтобы создать исходный куб. Он появится в окне [3D вид](3D_view/ru.md) и в виде нового объекта в [Дереве проекта](Tree_view/ru.md) на боковой панели.
+
+Нажмите <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [Установить изометрический вид](Std_ViewIsometric/ru.md) чтобы видеть куб в 3D пространстве.
 
 ![](images/T101pwb01-03_cube1.png )
 
-Select the cube in the [Tree view](Tree_view.md), it becomes green in the 3D view. Below the tree view you will now see that the cube by default is created with the dimensions **Length x Width x Height** as *10 x 10 x 10 mm*. Change those dimensions to **100 x 30 x 50** as per the initial drawing of the model.
+Выберите куб в [Дереве проекта](Tree_view/ru.md), в окне 3D вида он окрасится в зелёный цвет. Ниже в дереве проекта вы теперь сможете увидеть, что по умолчанию куб создан с размерами **Длина x Ширина x Высота** в *10 x 10 x 10 mm*. Измените эти размеры на **100 x 30 x 50**, это будут исходные размеры модели.
 
 ![](images/T101pwb01-04_cubedims.png )
 
-When changing a property, like *Length* through the spinbox, one can either enter the values, or use the scroll-wheel to tick values up or down. The arrows for ticking values up or down can of course also be used. In the right most picture above, the *Height* property is in edit mode, rolling the scroll wheel when the mouse is over that cell will change the value by one up or down.
+Для изменения свойств объекта, таких как *Длина*, можно воспользоваться спинбоксом, можно непосредственно ввести числовое значение или изменить его с помощью колесика мышки. Клавиши со стрелками вверх и вниз так же можно использовать. В самом правом окне на картинке выше, свойство *Высота* изображено в режиме редактирования, и если в таком режиме покрутить колесико мышки, то значение свойства можно изменить.
 
-Click <img alt="" src=images/Std_ViewFitAll.svg  style="width:24px;"> **[Fit all](Std_ViewFitAll.md)** to see the whole cube.
+Кликните мышкой на иконке <img alt="" src=images/Std_ViewFitAll.svg  style="width:24px;"> **[Уместить все содержимое на экране](Std_ViewFitAll/ru.md)** чтобы поместить модель в центр окна 3D вида.
 
 ![](images/T101pwb01-05_cube2.png )
 
-### Create the fillet 
 
-To make the filleted corner, in the toolbar press <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> **[Fillet](Part_Fillet.md)** which opens the *task panel* for fillets in the [combo view](Combo_view.md) to the side. Change the *radius* spinbox to 20 mm, then in the 3D view, select the width edge to the upper right and click **OK**.
+
+### Создание скругления 
+
+Для того, чтобы создать скругление ребра модели, на панели инструментов выберите иконку <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> **[Скругление выбранного края формы](Part_Fillet/ru.md)**, которая откроет *панель задач* для скруглений в [Комбо панели](Combo_view/ru.md). Указателем мыши выберите верхний правый угол модели и установите значение *Радиус* в 20 мм, и нажмите кнопку **OK**.
 
 ![](images/T101pwb01-06_filletrad.png )
 
-The *task panel* closes and you are back to the Tree view which now has a fillet object instead of the earlier cube.
+*Панель задач* закроется и на дереве проекта появится объект *Fillet* вместо прежнего куба.
 
-### Visibility of children 
 
-Click the plus sign/caret to expand the children of the fillet, which in this case is the *cube* we created earlier, but it is grayed out. Select the cube and press the space bar -- this toggles visibility so the cube is now visible again and the icon is no longer grayed out. To deselect the cube click in a blank area in the Tree view or the 3D view.
+
+### Видимость дочерних объектов 
+
+Кликните мышкой на плюсике/стрелочке вниз в дереве проекта чтобы посмотреть дочерние объекты *Fillet*. Это в нашем случае будет объект *Cube*, который мы создали ранее. Но он сейчас стал не активным, серым. Выберите его и нажмите пробел -- это переключит видимость объекта *Cube* и он сейчас снова станет видимым и его иконка уже не будет серой. Чтобы зафиксировать изменения кликните мышкой в пустом пространстве дерева проектов или окна 3D вида.
 
 ![](images/T101pwb01-07_fillet.png )
 
-### Create the chamfer 
 
-Next is to create the 30 degree *chamfer*, start by toggling the visibility of the child cube of the fillet. There is a chamfer tool in [Part Workbench](Part_Workbench.md), but instead of using it we will make the chamfer with another block and a boolean cut.
 
-Create a new <img alt="" src=images/Part_Box.svg  style="width:24px;"> **[Box](Part_Box.md)** with dimensions 60 x 30 x 30. Change the **placement angle** to -30 degrees.
+### Создание фаски 
+
+Теперь создадим 30-ти градусную фаску, предварительно сделав видимым дочерний объект *Куб* объекта *Скругление*. В верстаке [Part](Part_Workbench/ru.md) имеется специальный инструмент для создания фасок, но мы сейчас сделаем фаску с помощью другого примитива и булевой операции обрезания.
+
+Создайте новый объект <img alt="" src=images/Part_Box.svg  style="width:24px;"> **[Твердотельный куб](Part_Box/ru.md)** и дайте ему размеры 60 x 30 x 30. В свойстве **Placement** установите угол в -30 градусов.
 
 ![](images/T101pwb01-08_chamfer1.png )
 
-The placement angle is using the **placement vector** (Axis) as axis of rotation. The default is the z-axis, which is not matching our target direction, changing the placement vector to the **y-axis** produces the desired orientation of the cutting tool for the chamfer.
+Угол положения объекта использует **координатные оси** как оси вращения. Осью вращения по умолчанию является ось Z, которая нам не подходит. Поэтому смените ось вращения на ось Y, установив значение z свойства объекта *Ось* в 0, а значение y в 1.
 
 ![](images/T101pwb01-09_chamfer2.png )
 
-The same placement can be attained with other values as well, the simplest alternative example of a placement that is the same is an angle of +30 degrees and a y-axis of -1.
+Того эффекта можно достичь, если угол вращения мы установим в +30 градусов, а значение у объекта *Ось* в -1.
 
-#### Python console 
 
-Furthermore the position needs to be adjusted, looking at the drawing of the finished part, there is no direct dimension to use for the intended translation upwards. Since the upward dimension is the one needed, we have to calculate it. Let's make use of the built in **[Python console](Python_console.md)** for those calculations, it is basic trigonometry. If the FreeCAD Python console is not visible for you, just right-click in an empty space in the toolbar area and check the *Python console* and it should appear in the workspace, when there you should as well add the **[report view](Report_view.md)** if not already visible. The *report view* most of the times provides useful information or even hints of what to do next for different commands.
+
+#### Консоль Python 
+
+Если посмотреть на чертеж готовой детали, то положение тела, которое мы сейчас добавили, нужно скорректировать. Но нет точной величины, на которую мы должны поднять его вверх. Её мы должны вычислить. Давайте вычисления сделаем в **[Консоли Python](Python_console/ru.md)**, это основы тригонометрии. Если консоль Python системы FreeCAD у вас не отображается, то в пустом месте панели инструментов нажмите правую кнопку мыши, а затем поставьте галочку в строчке *Консоль Python*. Консоль появится в рабочем пространстве FreeCAD. То же самое сделайте с консолью **[Отчет](Report_view/ru.md)**. На ней обычно выводится полезная информация или сообщения о том, что нужно делать дальше для некоторых комманд.
 
 ![](images/T101pwb01-10_pyconsole.png )
 
-After importing the **[math](https://docs.python.org/3/library/math.html#module-math)** module from the standard libraries in python we can use the formula *(50 - math.tan(math.radians(30)) \* 50)* to find the distance in z-direction that the block should be moved. Copy the result of the formula from the Python console and paste it into the z position for **Cube001**. The *tool* to use for the chamfer *cut* is now properly oriented and positioned.
+В консоли Python прежде всего мы должны загрузить стандартную библиотеку **[math](https://docs.python.org/3/library/math.html#module-math)**, после чего по формуле *(50 - math.tan(math.radians(30)) \* 50)* мы можем вычислить величину, на которую нужно поднять тело в направлении оси Z. Скопируйте результат вычислений из консоли Python и вставьте его в значение z свойства *Положение* объекта **Cube001**. Инструмент для снятия фаски теперь правильно ориентирован и расположен.
 
 ![](images/T101pwb01-11_chamfer3.png )
 
-#### Expressions
 
-One does not have to use the Python console to do the calculation, In most cases when dealing with numeric parametric values, FreeCAD has a short-cut to a built-in calculator. It is called **[Expressions](Expressions.md)** in FreeCAD, you can enter the *expression mode* by first clicking in the spinbox for the z-position, a small blueish circular icon will appear at the right side.
+
+#### Выражения
+
+Для вычислений не обязательно использовать консоль Python, в большинстве случаев при работе с числовыми значениями можно обойтись встроенным калькулятором FreeCAD. Во FreeCAD это называется **[Выражения](Expressions/ru.md)**. В режим *Выражения* вы можете войти по первому нажатию левой кнопки мыши на значении z свойства *Положение* в дереве проекта, после которого справа появится маленький круглый голубой значок.
 
 ![](images/T101pwb01-12_expression1.png )
 
-Clicking that icon opens new window *Formula editor* where formulas and expressions can be entered as shown below. Using expressions is a powerful tool, since one can access parameters from the model, effectively making all parameters in the model available as variables to be used when creating an expression. In short, in our formula, instead of entering the number 50 when in the formula editor, we could enter a *named parameter* holding the value 50 from the cube, with the benefit that if we change the cube *height*, the position of the chamfer will automatically follow. The value of 50 in the current model is referred to as *Cube.Length*, i.e. the *Length* property of the *Cube* feature. Further information on this can be found on the wiki.
+Если мы нажмем на этот значок, появится маленькое окно *Редактор формул*, где, как показано ниже, можно вводить формулы и выражения. Выражения - это мощный инструмент, т.к. они могут оперировать параметрами модели, используя их как переменные при вычислениях. Короче, в нашей формуле вместо числа 50 мы могли бы ввести *Имя параметра*, содержащего высоту основного тела. Тогда бы при изменении высоты основного тела автоматически изменялось бы положение фаски. 50 - это высота исходного куба, на которую можно ссылаться как *Cube.Height*, т.е. свойство *Height* объекта *Cube*. Более подробную информацию вы можете найти на wiki.
 
 ![](images/T101pwb01-13_expression2.png )
 
-To make the cut, with the **Ctrl** key pressed down first select the **Fillet** in the Tree view and then the latest created cube (named **Cube001**) and finally in the toolbar press the <img alt="" src=images/Part_Cut.svg  style="width:24px;"> **[Cut](Part_Cut.md)** button. Your Tree view should now again be a single object in the root called **Cut**.
+Чтобы снять фаску, нажмите и держите нажатой кнопку **Ctrl**, затем левой кнопкой мыши кликните на объекте **Fillet** в дереве проекта, потом на объекте второго добавленного куба (называется **Cube001**) и, наконец, в панели инструментов кликните на иконке <img alt="" src=images/Part_Cut.svg  style="width:24px;"> **[Обрезать две фигуры](Part_Cut/ru.md)**. На вашем дереве проекта теперь должен оказаться единственный объект под названием **Cut**.
 
 ![](images/T101pwb01-14_model1.png )
 
-#### The toolbars 
 
-A sidenote on the toolbars, since they are the typical avenue to invoke commands. Although there is a basic setting for the layout of the toolbars, the actual layout on your computer could turn out to be less than ideal. In such cases it is easy to adjust. Consider the upper section of the below image. There are two rows of toolbars and only a limited number of the [Part Workbench](Part_Workbench.md) toolbar buttons are visible. The simplest way to see more toolbar buttons is to maximize the FreeCAD window, unless it already is maximized of course.
 
-More common is to adjust the layout of the toolbars to suit your needs and your specific computer. The repositioning is done with the handle on the left of each toolbar. You can just click and drag the handle to a new location. In the lower section of the below image the toolbar positions have been adjusted, revealing their full content. Changes to toolbar positions are persistent through sessions.
+#### Панели инструментов 
+
+Поговорим о панелях инструментов, т.к. они являются самым распространенным способом выполнения команд. Расположение панелей инструментов по умолчанию может быть далеким от идеала на мониторе вашего компьютера. Но, к счастью, их расположение легко настроить. Посмотрите на верхнюю часть картинки ниже. На ней два ряда панелей инструментов, но видно только ограниченное количество кнопок инструментов верстака [Part](Part_Workbench/ru.md). Простейший путь сделать видимым большее количество кнопок инструментов - это расширить окно FreeCAD, если это еще не сделано.
+
+Обычно расположение панелей инструментов настраивается под свой вкус и возможности монитора. Для перемещения панели необходимо нажать левую кнопку на левом крае панели и не отпуская кнопку перенести панель в нужное место, затем кнопку отпустить. В нижней части картинки расположение панелей инструментов было скорректировано, для того, чтобы показать их полное содержание. Расположение панелей инструментов запоминается.
 
 ![](images/T101pwb01-141_toolbars.png )
 
-#### The measurement tool 
 
-The **[measurement tool](Part_Workbench#Measure.md)** in the **Part Workbench** can be used to check that our calculation and placement of the chamfer is correct. Press the <img alt="" src=images/Part_Measure_Linear.svg  style="width:24px;"> **[Measure Linear](Part_Measure_Linear.md)** button and a *task panel* opens up, then select the 2 endpoints of one side of the chamfer.
+
+#### Измерительный инструмент 
+
+Для проверки наших вычислений и верности расположения фаски можно использовать **[Измерительный инструмент](Part_Workbench/ru#Measure.md)** верстака **Part**. Для этого нажмите на иконку <img alt="" src=images/Part_Measure_Linear.svg  style="width:24px;"> **[Рулетка](Part_Measure_Linear/ru.md)**, откроется *панель задач*. Затем мышкой на модели выберите два конца ребра фаски.
 
 ![](images/T101pwb01-15_model1measure1.png )
 
-It checks out with an x dimension of 50 mm, clear the measurement and close the dialogue.
+Убедившись, что размеры соответствуют вычисленным, можно нажать на кнопку *Clear all dimensions* и закрыть диалог.
 
-### Create the hole 
 
-To make the hole, press the <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> **[Cylinder](Part_Cylinder.md)** button, set the *radius* to 5 mm and *height* to 50 mm.
+
+### Создание отверстия 
+
+Чтобы создать отверстие нажмите на иконку <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> **[Создать цилиндр](Part_Cylinder/ru.md)**, установите *радиус* в 5 мм и *высоту* в 50 мм.
 
 ![](images/T101pwb01-16_cyl1.png )
 
-Next we need to position the hole according to the dimensions in the drawing. Change the view to <img alt="" src=images/Std_ViewTop.svg  style="width:24px;"> **[Top](Std_ViewTop.md)** view, then right-click the **Cylinder** in the Tree view and select **Transform** from the pop-up menu.
+Далее нам нужно разместить отверстие согласно размерам на чертеже. Установите <img alt="" src=images/Std_ViewTop.svg  style="width:24px;"> **[Вид сверху](Std_ViewTop/ru.md)**, нажатием правой кнопкой мыши на объекте **Цилиндр** в дереве проекта откройте меню и выберите в нем строку **Преобразовать**.
 
 ![](images/T101pwb01-17_cyl1translate.png )
 
-Change the *Translation increment* to 5 and use the red and green arrow to position the cylinder in the right position, moving it 15 mm in y and 65 in x by dragging the arrow ends with the mouse. Click **OK** to close the *Transform* dialogue. To make the hole press the **Ctrl** key and select the **Cut** and **Cylinder** in the Tree view, then press the <img alt="" src=images/Part_Cut.svg  style="width:24px;"> **[Cut](Part_Cut.md)** button in the toolbar. Your Tree view should once again have a single object in the root called **Cut001**.
+Установите *Приращение перемещения* в 5 мм. Используя красную и зеленую стрелки переместите цилиндр на 15мм по оси y и на 65мм по оси x. Для этого нужно на стрелке нажать на левую кнопку мыши и не отпуская ее вести цилиндр к нужной позиции, затем кнопку отпустить. Нажмите кнопку **OK** и закройте диалог *Приращения*. Чтобы сделать отверстие, нажмите кнопку **Ctrl**, левой кнопкой мыши на дереве проекта выберите объекты **Cut** и **Цилиндр**, затем нажмите на иконку <img alt="" src=images/Part_Cut.svg  style="width:24px;"> **[Обрезать две фигуры](Part_Cut/ru.md)** в панели инструментов. Теперь на вашем дереве проекта будет один объект **Cut001**.
 
-Congratulations, the model is now ready.
+Поздравляем, модель готова.
 
 ![](images/T101pwb01-18_model1complete.png )
 
-With the basic model ready, let us explore different ways to alter this model, some examples are related to the appearance, additional features, or simply a different way to do the same.
+Теперь, когда модель готова, давайте изучим возможности по изменению самой модели, ее внешнего вида, некоторые дополнительные возможности и разные варианты изменений.
 
-## Changing the color and transparency 
 
-There are several different ways one can change the appearance of objects, for this case, let\'s use the view tab in the property part of the combo view. First select the object in the Tree view and then edit any property like line color, shape color or transparency via the **view tab** (found at the bottom of the *combo view*).
+
+## Изменение цвета и прозрачности 
+
+Внешний вид объекта можно изменить различными способами, например, с помощью вкладки *Вид* таблицы свойств на комбо панели. Просто выберите объект на дереве проекта и изменяйте свойства объекта - цвет линий, цвет формы или её прозрачность.
 
 ![](images/T101pwb02-01_appearance1.png )
 
-Unfortunately when the object is selected it is a bit hard to see how it will look when tuning the new appearance. To see the final result one has to deselect the object. Here is the new look of the model, where one now can see the through hole also in the iso-view. Another way to edit the appearance is via the **View → ![](images/)_Appearance...** menu.
+К сожалению, когда объект активен , т.е. выделен, не видно, каким будет его внешний вид после изменений. Чтобы увидеть изменения нужно сделать его не активным. Установите изометрический вид, так отверстие в модели будет видно лучше. Другим способом изменить внешний вид можно через меню **Вид → ![](images/)_Внешний_вид...**.
 
 ![](images/T101pwb02-02_appearance2.png )
 
-## A different way to locate the hole 
 
-Do a *save-as* under a new name. Then delete the cut that added the hole and move the cylinder back to zero position. Your model should look like the below picture, which is the starting point for using a different technique to locate the hole at the center of the upper face. Note that the color is back to the default gray, the change in appearance we did was on the cut object which now is deleted.
+
+## Другой способ размещения отверстия 
+
+В меню **Файл → Сохранить как...** сохраните проект под новым именем. Удалите объект **Cut001** и переместите цилиндр в исходную позицию. Ваша модель должна выглядеть как на картинке ниже. Рассмотрим различные варианты создания отверстия в центре верхней грани модели. Заметьте, что цвет модели опять стал серым и все изменения, которые мы сделали, исчезли.
 
 ![](images/T101pwb03-01_cyl.png )
 
-This time the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> **[Draft Workbench](Draft_Workbench.md)** will be used to locate the hole. The hole is as before to be located at the center of the upper face, which is the same as the midpoint of the diagonal of the upper face.
+Для размещения отверстия теперь мы будем использовать верстак <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> **[Чертеж](Draft_Workbench/ru.md)**. Оно по-прежнему должно быть расположено в центре верхней грани модели, т.е. посередине диагональных линий верхней грани.
 
-Start by switching the workbench to **Draft**, it might be that a *grid* appears in the 3D view, the grid visibility can be toggled with <img alt="" src=images/Draft_ToggleGrid.svg  style="width:24px;"> [Toggle Grid](Draft_ToggleGrid.md) in the toolbar. When making use of the **[snap](Draft_Snap.md)** functionality in the **Draft Workbench** it helps to only have the *snap types* of interest enabled. This time it is sufficient to leave *endpoint, midpoint and circle center enabled*, so the settings for snapping should look something like below.
+Включите верстак **Draft**, в 3D пространстве должна появится *сетка*. Она включается и выключается кнопкой <img alt="" src=images/Draft_ToggleGrid.svg  style="width:24px;"> [Toggle Grid](Draft_ToggleGrid/ru.md) на панели инструментов. Используя функции **[привязок](Draft_Snap/ru.md)** верстака **Draft** включайте только те *типы привязок* которые нужны в данный момент. Сейчас нам достаточно оставить включенными *конечную точку, среднюю точку и центр круга*, т.е. настройки привязок должны выглядеть как на картинке ниже.
 
 ![](images/T101pwb03-02_snap.png )
 
-Finding the point to place the center of the cylinder could be done by making a diagonal as helpline and use the center of the cylinder and midpoint of the diagonal to identify the points to move between, however it turns out that we do not even need to make any helplines, we can snap on already existing solid geometry.
+Найти точку для размещения центра цилиндра можно сделав диагональ в качестве вспомогательной линии и использовать середину диагонали в качестве точки, в которую переместить центр цилиндра. Однако оказывается, что нам даже не нужно делать вспомогательные линии, мы можем привязать к уже существующей твердотельной геометрии.
 
-Select the **Cylinder** in the Tree view (it turns green in the 3D view) and press the <img alt="" src=images/Draft_Move.svg  style="width:24px;"> **[Move](Draft_Move.md)** button in the toolbar. A *task panel* opens for moving objects, make sure that *Copy* is unchecked.
+Выберите **Цилиндр** на дереве проекта (он станет зеленым в 3D пространстве) и нажмите иконку <img alt="" src=images/Draft_Move.svg  style="width:24px;"> **[Move](Draft_Move/ru.md)** на панели инструментов. Откроется *панель задач* для передвигаемых объектов, убедитесь, что чекбокс *Копировать* выключен.
 
 ![](images/T101pwb03-03_move.png )
 
-Then move the mouse to the upper face of the cylinder so that you see a *white dot* in the center of the circle as per the left picture below, this together with the center symbol next to the mouse pointer means that a left button mouse click will snap to the white point.
+Затем переместите мышь к верхней грани цилиндра так, чтобы вы увидели *белую точку* в центре круга, как показано на левом рисунке ниже. Это вместе с символом рядом с указателем мыши означает, что щелчок левой кнопкой мыши приведет к привязке к белой точке.
 
 ![](images/T101pwb03-04_snapselect.png )
 
-When you have the white dot on the upper face, click the left mouse button, and repeat for the upper square face of the main solid, like the right picture above, and confirm the choice with a left mouse button click. The snap function makes use of *mass-center* for any type of face, and in this case the mass center is the same as the geometrical center that is sought after. You will by now have noticed that the move of the cylinder is animated, so you always see what is about to happen.
+Когда у вас появится белая точка на верхней грани, щелкните левой кнопкой мыши, повторите то же самое для верхней квадратной грани основного тела, как показано на правом рисунке выше. Функция привязки использует центр масс для любого типа поверхности. В нашем случае центр масс верхней грани совпадает с её геометрическим центром. Вы уже заметили, что движение цилиндра анимировано, поэтому вы видите, что должно произойти.
 
-Repeating the step of the **boolean cut** from earlier once again will make the through hole that completes the model. Using the **linear measurement tool** in the Part Workbench, a check that the hole is correctly placed is done. The measurement can only be done between *points*, so the measurement is done from main body zero to the seam point of the cylinder, meaning that the correct distance is 70 mm instead of the 65 that is on the drawing to account for the extra radius that is included in the distance.
+Создайте сквозное отверстие повторив булевую операция обрезания, о которой говорилось выше. Модель готова. С помощью *рулетки* на верстаке **Part** убедитесь, что отверстие расположено правильно. Измерить расстояние можно только между *точками*, поэтому измерение надо делать от нулевой точки главного тела до дальнего края отверстия. У нас это расстояние составит 70мм включая радиус отверстия.
 
 ![](images/T101pwb03-05_modelmeasure.png )
 
-## Making the hole a countersunk hole 
 
-Switch back to the [Part Workbench](Part_Workbench.md) and create a *cone* by pressing the <img alt="" src=images/Part_Cone.svg  style="width:24px;"> **[Cone](Part_Cone.md)** button in the toolbar. Change *radius1* to 0 mm and *radius2* to 7 mm -- this will give a 2 mm *countersink* on the radius. Making the *height* of the cone 7 mm results in a 90 degree top angle of the cone, or 45 degree countersink angle. Worth to note is that again one could as well use the <img alt="" src=images/Part_Chamfer.svg  style="width:24px;"> [Chamfer](Part_Chamfer.md) operation.
 
-When working with FreeCAD you will continuously be faced with several different ways to achieve seemingly the same result. There is hardly any absolute truth in what is the right way to achieve a particular end result -- however when looking in a specific context one specific workflow can be more flexible, allow for later features to actually be used etc. How you build 3D models will evolve over time as you along the way learn more and more about the features and capabilities of FreeCAD.
+## Создание отверстия с фаской 
+
+Вернитесь на верстак [Part](Part_Workbench/ru.md) и с помощью иконки <img alt="" src=images/Part_Cone.svg  style="width:24px;"> **[Создать твердотельный конус](Part_Cone/ru.md)** на панели инструментов создайте *конус*. Установите свойство *radius1* в 0 мм и *radius2* в 7 мм, это даст 2 мм *фаски* по радиусу. Установите *высоту* конуса в 7 мм, в результате угол вершины конуса будет 90 градусов, а угол фаски - 45 градусов. Стоит отметить, что можно было бы так же использовать операцию <img alt="" src=images/Part_Chamfer.svg  style="width:24px;"> [Фаска](Part_Chamfer/ru.md).
+
+Во время работы с FreeCAD вы постоянно будете иметь возможность достичь одного и того же результата разными путями. Трудно сказать заранее, какой из них более правильный. Некоторые варианты могут оказаться более гибкими, иметь больше возможностей для трансформации и т.д. Ваши подходы к построению 3D моделей будут меняться по мере того, как вы будете узнавать больше о возможностях FreeCAD.
 
 ![](images/T101pwb04-01_cone.png )
 
-Translate the cone so that it is *concentric* with the hole and *coplanar* with the main solid upper surface. Use any method described earlier in this tutorial to accomplish that.
+С помощью любого указанного выше метода совместите конус с отверстием.
 
-In the picture below the move is made with *Transform* and an *increment* setting of 1 mm, since the cone has a characteristic dimension of 7 mm, meaning that the earlier increment setting of 5 mm will not allow for correct positioning. The <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:24px;"> **[Wireframe](Std_DrawStyle#Wireframe.md)** rendering is used to easier see that the cone is in the right position.
+На рисунке ниже совмещение конуса и отверстия делается командой *Преобразовать*, которая имеется в меню, доступном при нажатии на правую кнопку мыши. Приращение перемещения установлено в 1 мм т.к. если бы приращение было установлено в 5 мм как было ранее, то это не позволило бы совместить конус и отверстие из-за того, что диаметр конуса у нас 7 мм. Для того, чтобы было легче установить конус в правильную позицию используется <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:24px;"> **[Каркасный режим](Std_DrawStyle/ru#Wireframe.md)** прорисовки модели.
 
 ![](images/T101pwb04-02_conetranslate.png )
 
-To complete the model, let\'s make use of the <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> **[Boolean](Part_Boolean.md)** command instead of first selecting objects and apply a specific boolean operation. Press the toolbar button and a *task panel* opens as per the below picture to the left.
+Чтобы закончить модель, давайте будем использовать <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> **[Булеву операцию с двуми выбранными формами](Part_Boolean/ru.md)** вместо того, чтобы сначала выделить объекты, а потом применить булеву операцию. Выберите ее на панели инструментов и в результате откроется окно как на левом рисунке ниже.
 
 ![](images/T101pwb04-03_boolean.png )
 
-Three items needs to be specified, the *operation type*, the *first shape* and the *second shape*. The cone is supposed to be cut, this is called *Difference* in this command, instead of *Cut*. The first shape is our **Cut001**, it is listed under *compounds*, since it is build from several solids. The second shape is the **Cone**. Once the correct settings are made for the command, click the **Apply** button to execute the operation. This has all been done in the picture to the right, and there one can also see that a *compound* **Cut002** is now listed, this is our final model shape. After having changed the appearance the final model looks like this.
+Необходимо указать три параметра: *Тип операции*, *Первая фигура* и *Вторая фигура*. Конус предполагается срезать, в данной команде это называется *Разность*, а не *Вырезать*. Первая фигура - это наша **Cut001**, она находится в группе *Соединения*, т.к. она является соединением нескольких твердых тел. Вторая фигура - **Конус**. Указав параметры команды нажмите кнопку **Применить**, как показано на картинке справа. В группе *Соединения* должна появиться фигура **Cut002**, это наша готовая модель. Она должна выглядеть так, как показано ниже.
 
 ![](images/T101pwb04-04_modelcomplete.png )
 
-## Making a hollow piece 
 
-Do a *save-as* under a new name. FreeCAD has all of the typical operations of a 3D modeller, one of them is <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> **[Thickness](Part_Thickness.md)**, which is used to *hollow out* parts.
 
-Rotate the view so that the bottom face of the model is visible.
+## Создание полой модели 
+
+Сохраните модель под новым именем при помощи команды *Сохранить как\...* в главном меню. FreeCAD может выполнять все типичные операции 3D моделирования, одна из них это <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> **[Смена толщины](Part_Thickness/ru.md)**, которую можно использовать для создания *полой* детали.
+
+Поверните модель так, чтобы была видна нижняя её поверхность.
 
 ![](images/T101pwb05-01_frombottom.png )
 
-Select the *bottom face* of the model, then in the [Part Workbench](Part_Workbench.md) select <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> **[Thickness](Part_Thickness.md)** and the screen should look like below.
+Выберите *нижнюю поверхность* модели, затем на верстаке [Part ](Part_Workbench/ru.md) выберите инструмент <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> **[Смена толщины](Part_Thickness/ru.md)** и на экране появится фигура как на рисунке ниже.
 
 ![](images/T101pwb05-02_thickness_cmd.png )
 
-Click **OK**, as you can see there is now a *radius* on the hollowed out part.
+Нажмите кнопку **OK**. Как вы можете видеть теперь наружные углы фигуры имеют *скругления*.
 
 ![](images/T101pwb05-03_thickness_dimension.png )
 
-Moreover, when taking a measurement of the width of the part, it is now 32 mm, so the *thickness* has been applied *outwards*. Let's edit that, double-click the model in the Tree view and modify the *join-type* settings to *intersection* and the *thickness* setting to -1.
+Кроме того, если сейчас измерить ширину детали, она будет составлять 32 мм, т.к. *толщина* как бы прикладывается *снаружи*. Давайте исправим это. Кликните дважды на модели и в дереве проекта измените свойство *join* на *intersection* и значение *толщины* установите в -1.
 
 ![](images/T101pwb05-04_thickness_modify.png )
 
-Now the outer width of the part is 30 mm, same as before and the corners are all sharp corners.
+Теперь ширина детали составляет 30 мм как и было, а наружные углы снова острые.
 
 ![](images/T101pwb05-05_thickness_modified.png )
 
-## A different way to position the chamfer 
+ Другой способ позиционирования фаски
 
-Do a *save-as* under a new name. Then delete features so that the model looks like below.
+Сохраните модель под новым именем и удалите последние изменения так, чтобы модель смотрелась как на рисунке ниже.
 
 ![](images/T101pwb06-01_startingpoint.png )
 
-Make a **Cube** with dimensions **30x30x60**, ending up like below.
+Сделайте **Куб** с размерами **30x30x60** как показано ниже.
 
 ![](images/T101pwb06-02_with_cube.png )
 
-Change the **placement** by first rotating -120 degrees around the Y-axis.
+Поверните его на -120 градусов вокруг оси Y изменив свойство *Угол* в группе **placement**.
 
 ![](images/T101pwb06-03_rotated_cube.png )
 
-Finally, change the position to **X=50** and **Z=50** and make the *cut* to produce the same result as earlier.
+Измените положение в **X=50**, **Z=50** и выполните операцию *Вырезать* чтобы получить такую же фаску.
 
 ![](images/T101pwb06-04_cube_cut.png )
 
-This once again highlights that there are always several ways to produce the same outcome, which is a recurring theme when it comes to 3D modeling. When it comes to basic geometries or solids, one can use different workbenches in FreeCAD as well as different commands and still have the same outer shape of a solid. You simply need to find your own way to a set of preferred tools and workflow that you are comfortable in using. Modeling in parametric 3D is a process of constant learning, and takes practice to master.
+Это еще раз подчеркивает, что в 3D-моделировании часто имеется несколько способов получить один и тот же результат. Когда дело доходит до базовой геометрии или твердых тел, в FreeCAD можно использовать разные верстаки, а также разные команды и получить при этом ту же внешнюю форму твердого тела. Вам просто нужно найти свой собственный набор предпочтительных инструментов и рабочих процессов, которые вам удобны в использовании. Моделирование в параметрическом 3D --- это процесс постоянного обучения, для освоения которого требуется практика.
 
-## Editing dimensions, face colors and TNP 
+ Редактирование размеров, цветов граней и TNP
 
-FreeCAD is a parametric 3D modeler, this allows you to change any *placement* or *dimension* and the model will update accordingly. In general this works, but it is possible to break a model when edited -- for example when a fillet is based on an edge that no longer exists due to editing. When a model breaks during editing, it is referred to as **TNP, [Topological Naming Problem](Topological_naming_problem.md)**.
+FreeCAD --- это средство параметрического 3D-моделирования, которое позволяет вам изменять любое расположение или размер модели, и она будет обновляться в соответствии с изменениями. Обычно все работает, но при редактировании модель можно сломать --- например, когда скругление основано на кромке, которой больше не существует из-за редактирования. Когда модель ломается во время редактирования - это **[Проблема топологического именования](Topological_naming_problem/ru.md)**.
 
-Go ahead and experiment with changing dimensions and placements to see if you can break the model, do not forget to recalculate the model after changes if required. This can be done with the <img alt="" src=images/Std_Refresh.svg  style="width:24px;"> [Refresh](Std_Refresh.md) button in the toolbar, if the icon is grayed out it is not needed to refresh the object.
+Давайте поэкспериментируем с изменением размеров и расположения чтобы посмотреть, сможем ли мы сломать модель. Не забывайте обновлять модель после изменений, если это требуется. Это можно сделать кнопкой <img alt="" src=images/Std_Refresh.svg  style="width:24px;"> [Обновить](Std_Refresh/ru.md) на панели инструментов. Если иконка закрашена серым, значит нет необходимости обновлять модель.
 
-### Reposition the cylinder 
 
-Here is an example of the cylinder moved from the center to one side of the main body by using *Transform* on the cylinder. As can be seen in the picture, the cone is still in the original position, not affected by the move of the cylinder.
+
+### Перемещение цилиндра 
+
+Например, давайте переместим цилиндр из центра в одну из сторон основного тела с помощью команды *Transform*. Как вы видите на картинке, конус остался на своем месте, хотя должен был переместиться вместе с отверстием.
 
 ![](images/T101pwb07-01_cylindermoved.png )
 
-When you move the cylinder and break through the outer surface, in version 0.19 you are loosing part of the color settings on your model. FreeCAD reverts to the user default settings for shape colors and transparency in the 3D view, however the **Cut002** shape still shows the colors and transparency that it had before as seen in below picture.
+Когда вы перемещаете цилиндр в сквозь поверхность модели, в версии 0.19 вы теряете часть настроек цвета вашей модели. FreeCAD возвращается к пользовательским настройкам по умолчанию для цветов и прозрачности формы в 3D-виде, однако форма Cut002 по-прежнему показывает цвета и прозрачность, которые были у нее раньше, как показано на рисунке ниже.
 
-### Fixing the colors 
+
+
+### Исправление цветов 
 
 ![](images/T101pwb07-02_wrongcolor.png )
 
-Here is one way to get it back. First change *transparency* one tick up or down and then back, that brings back the transparency. You can do the same trick on *shape color*. Another way to get the color back is to *right-click* **Cut002** in the Tree view and select **Set Colors** in the context menu. In the *task panel* that displays, click **Set to Default**, that brings back the color to the one set in the view-properties.
+Вот способ исправить это. Сначала измените *Прозрачность* мышкой на один тик вверх или вниз, а затем обратно, чтобы вернуть прозрачность. Сделайте то же самое с *цветом формы*. Другой способ вернуть цвет - это нажать правую кнопку мыши на фигуре **Cut002** в дереве проекта и выбрать в меню **Установите цвета\...**. В *Панели задач*, которая появится, кликните **Установить по умолчанию**, это вернет цвет к тому, который был установлен в свойствах вида.
 
 ![](images/T101pwb07-03_set_colors.png )
 
-The **Set Colors** command allows you to select individual faces of a shape and set a unique color on the selected faces.
+Команда **Установите цвета\...** позволяет выбрать свой цвет для каждой поверхности.
 
-### Multiple solids 
 
-Another example where the cube that is making the chamfer has been translated and rotated.
+
+### Множественные твердые тела 
+
+Другой пример, где куб, создающий фаску, был перемещен и повернут.
 
 ![](images/T101pwb07-04_3solids.png )
 
-As can be seen when repositioning the chamfer in this way, the end result is *3 disjoint solids*. [Part Workbench](Part_Workbench.md) allows this, [PartDesign Workbench](PartDesign_Workbench.md) does not, either you will get an *multiple solids error* or it will simply not render all solids.
+Если изменить положение тела, из которого образована фаска, таким же образом как на картинке, то в результате появятся 3 не пересекающихся тела. Верстак [Part](Part_Workbench/ru.md) позволит вам это сделать, а [PartDesign](PartDesign_Workbench/ru.md) нет. Вы получите сообщение об ошибке с несколькими телами, либо он просто не отобразит все тела.
 
-### TNP
 
-Going back to the original completed model, let's explore how the faces are named.
 
-Here the **[selection view](Selection_view.md)** has been made active, just to show clearly what is selected and not, also coloring is adjusted so that the selection is easier to see.
+### Проблема топологического именования 
+
+Давайте вернемся к завершенной модели и посмотрим, как именуются её поверхности.
+
+На рисунке ниже включена панель **[Просмотр выделения](Selection_view/ru.md)**, чтобы показать, что выделено, а что нет, а также изменен цвет, чтобы выделение было легче увидеть.
 
 ![](images/T101pwb07-05_face2and9.png )
 
-Selecting one side face and the cylinder inner face gives that they are internally called face *2* and *9*, where face *2* is the side face. Face numbering can be different for you.
+Если выбрать боковую грань и внутреннюю грань цилиндра, то в системе они называются Face2 и Face9, где Face2 --- это боковая грань. Нумерация граней у вас может отличаться.
 
-Moving the cylinder so that the cavity ends up on the side face, and doing the selection of faces now gives a different number for the cylindrical face.
+Переместите цилиндр так, чтобы он пересекал боковую грань и в **Просмотре выделения** цилиндр теперь будет иметь другое имя.
 
 ![](images/T101pwb07-06_newfacenumbers.png )
 
-Face 2 is the right side of the original face 2, the left side of former face 2 is now face 8. The cylindrical part was face 9, but is now face 7. FreeCAD reassigns the numbering and the order is not necessarily preserved. The total face count in the first model is 10, in the version with the cylindrical face piercing the side face, the total face count is 11. So obviously face numbering has to change when the so called *topology* changes. This probably feels like a minute detail, but turns out to be quite important in parametric 3D CAD. Imagine that you have used the cylindrical face as reference for another feature, it used to be called face 9, but is now called face 8. The reference to the intended cylindrical surface is lost. Since FreeCAD, at least in currently released versions does not keep track of the *intended face*, it only keeps track of the *numbered face*, a model breaks when a reference is made to a face that later is renumbered. This is called **TNP, [Topological Naming Problem](Topological_naming_problem.md)**.
+Face2 - это теперь правая часть исходной поверхности Face2, а Face8 - левая её часть. Цилиндр прежде назывался Face9, а теперь Face7. FreeCAD изменяет нумерацию объектов. Общее количество граней в исходной модели было 10, после переноса цилиндра на поверхность модели их стало 11. Таким образом, очевидно, что нумерация граней должна измениться, когда изменится так называемая топология. Это, вероятно, кажется незначительной деталью, но оказывается весьма важным в параметрическом 3D CAD. Представьте, что вы использовали цилиндрическую грань в качестве ссылки для другого элемента, раньше она называлась Face9, а теперь называется Face8. Ссылка на предполагаемую цилиндрическую поверхность потеряна. Поскольку FreeCAD, по крайней мере, в выпущенных в настоящее время версиях, не отслеживает предполагаемую грань, а только отслеживает пронумерованную грань, модель ломается, когда делается ссылка на грань, которая позже меняет наименование.
 
-You are encouraged to learn how to avoid broken models due to TNP, further reading can be done [elsewhere on the wiki](Topological_naming_problem.md), which largely focuses on a *sketch driven* workflow, the underlying mechanism is the same though. The renumbering described here for faces goes for all geometrical entities, faces, edges and vertexes.
+Это называется **[Проблема топологического именования](Topological_naming_problem/ru.md)**. Желательно изучить, как избежать поломки моделей.
 
-## Organizing the tree a bit differently 
 
-Do a *save-as* under a new name. Then delete all the cuts ending up with a model looking like below.
+
+## Другая организация дерева проекта 
+
+Сохраните модель под новым именем. Удалите все разрезы, чтобы получилась модель, как показано ниже.
 
 ![](images/T101pwb08-01_primitives.png )
 
-When using the **Part Workbench** and modelling feature rich solids, the tree structure of a solid can become hard to decipher. So far we have created one primitive / feature and applied a boolean operation. In the Part Workbench one can bundle primitives into one boolean operation. In our case we have the cylinder, cone and cube that are all a cut boolean operation.
+При использовании верстака **Part** и создании сложных моделей, структура дерева проекта может стать сложной для понимания. На данный момент мы создали деталь и применили к ней логическую операцию. В верстаке Part можно объединить примитивы в одну логическую операцию. В нашем случае у нас есть цилиндр, конус и куб, которые являются логическими операциями разрезания.
 
-Instead of making a cut for each primitive, we can first apply a boolean union, <img alt="" src=images/Part_Fuse.svg  style="width:24px;"> **[Fuse](Part_Fuse.md)** the primitives intended for the boolean cut, and then make the *cut* between the **Fillet** and the **Fusion**.
+Вместо применения разрезания для каждого примитива, мы можем сначала их логически объединить операцией <img alt="" src=images/Part_Fuse.svg  style="width:24px;"> **[Объединение](Part_Fuse/ru.md)**, а затем выполнить разрезание между фигурами **Fillet** и **Fusion**.
 
-Using this approach, the Tree view ends up looking like below, which is just a different way of building the same model. Compare this with the original Tree view, none is better than the other, however when making more complex models, one approach over the other can have benefits in ease of modifying/reorganizing the model if needed.
+Используя этот подход, дерево проекта в конечном итоге выглядит так, как показано ниже, что является просто другим способом построения той же модели. Сравните это с исходным древовидным представлением, ни одно из них не лучше другого, однако при создании более сложных моделей один подход по сравнению с другим может иметь преимущества в простоте изменения/реорганизации модели, если это необходимо.
 
 ![](images/T101pwb08-02_fused.png )
 
-## Wrapping up 
 
-Having gone through the tutorial you are now briefly acquainted with the user interface of FreeCAD and you have learned the basics in using the **Part Workbench**. You should now be able to build simple models after your own liking. The **Part Workbench** is one of the workbenches that can be used to create solids, the **PartDesign Workbench** is another. The different workbenches have different capabilities and workflows. Learning FreeCAD in full, especially considering all add-ons and macros takes years, so keep on exploring new and different ways of making models -- take different tutorials on the wiki, the learning never stops when working with FreeCAD. It is suggested that you learn *sketches* and the **PartDesign Workbench** next if your focus is on creating solids. If your focus is modelling buildings your next learning should be the **Draft** and **Arch** workbenches.
 
-At last, FreeCAD is made by volunteers in their spare time. If you want to further advance FreeCAD's capabilities, consider [contributing](Help_FreeCAD.md) to FreeCAD, for example by improving the documentation.
+## Подведение итогов 
+
+Теперь вы кратко ознакомились с пользовательским интерфейсом FreeCAD, изучили основы использования верстака **Part** и должны уметь строить простые модели по своему вкусу. Верстак **Part** - это один из верстаков, который можно использовать для создания твердых моделей. Верстак **PartDesign** - это другой верстак. Разные верстаки имеют разные возможности и разные рабочие процессы. Полное изучение FreeCAD, особенно с учетом всех надстроек и макросов, занимает годы, поэтому продолжайте изучать новые и разные способы создания моделей --- просматривайте различные учебные пособия на вики. Обучение никогда не прекращается при работе с FreeCAD. Рекомендуется изучить *sketches* (эскизы) и верстак **PartDesign**, если вы сосредоточены на создании твердых тел. Если вы сосредоточены на моделировании зданий, вы должны изучить верстаки **Draft** и **Arch**.
+
+FreeCAD делают добровольцы в свободное время. Если вы хотите еще больше расширить возможности FreeCAD, подумайте о том, чтобы внести свой [вклад](Help_FreeCAD/ru.md) в FreeCAD, например, помочь улучшить документацию.
 
 
 

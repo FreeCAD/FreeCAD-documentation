@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Введение
 
 Меню \"Вид\" это одно из 7-ми меню [стандартного меню](Standard_Menu/ru.md):
@@ -26,6 +28,8 @@
 }}
 
 Меню Вид предоставляет инструменты для настройки [3D вида](3D_view/ru.md), свойств отображения объектов, а также инструменты, связанные с отображением компонентов интерфейса.
+
+
 
 ## Инструменты
 
@@ -58,6 +62,8 @@
     -   <img alt="" src=images/Std_ViewLeft.svg  style="width:32px;"> [Слева](Std_ViewLeft/ru.md): Установить вид слева.
     -   <img alt="" src=images/Std_RotateLeft.png  style="width:32px;"> [Повернуть влево](Std_ViewRotateLeft/ru.md): Повернуть вид на 90 градусов против часовой стрелки.
     -   <img alt="" src=images/Std_RotateRight.png  style="width:32px;"> [Повернуть вправо](Std_ViewRotateRight/ru.md): Повернуть вид на 90 градусов по часовой стрелке.
+    -   [Сохранить рабочий вид](Std_StoreWorkingView/ru.md): Сохраняет настройки камеры активного 3D-вида. {{Version/ru|1.0}}
+    -   [Восстановить рабочий вид](Std_RecallWorkingView/ru.md): Восстанавливает сохраненные настройки камеры активного 3D-вида. {{Version/ru|1.0}}
 
 
 </div>
@@ -77,7 +83,7 @@
     -   <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:32px;"> [Только грани](Std_DrawStyle/ru#Только_грани.md): Переключает стиль представления в режим: Только грани.
     -   <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:32px;"> [Плоские линии](Std_DrawStyle/ru#Плоские_линии.md): Переключает стиль представления в режим: Плоские линии.
 
--   <img alt="" src=images/Std_SelBoundingBox.svg  style="width:32px;"> [Bounding box](Std_SelBoundingBox.md): Toggles the bounding box highlighting mode. <small>(v0.19)</small> 
+-   <img alt="" src=images/Std_SelBoundingBox.svg  style="width:32px;"> [Bounding box](Std_SelBoundingBox.md): Toggles the bounding box highlighting mode.
 
 -   Стерео
     -   <img alt="" src=images/Std_ViewIvStereoRedGreen.svg  style="width:32px;"> [Стерео красный/голубой](Std_ViewIvStereoRedGreen/ru.md): Переключить режим стерео в красного/голубой режим.
@@ -105,6 +111,9 @@
 
 -   <img alt="" src=images/Std_TextureMapping.svg  style="width:32px;"> [Текстурирование\...](Std_TextureMapping/ru.md): Временно накладывает текстуру поверх всех объектов.
 
+
+<div class="mw-translate-fuzzy">
+
 -   Видимость
     -   <img alt="" src=images/Std_ToggleVisibility.svg  style="width:32px;"> [Скрыть/показать выделенное](Std_ToggleVisibility/ru.md): Переключает видимость выбранных объектов.
     -   <img alt="" src=images/Std_ShowSelection.svg  style="width:32px;"> [Показать выделенное](Std_ShowSelection/ru.md): Показывает выбранные объекты.
@@ -117,7 +126,8 @@
     -   <img alt="" src=images/View_Measure_Toggle_All.svg  style="width:32px;"> [Скрыть/показать всё измерения](View_Measure_Toggle_All/ru.md): Откл/вкл отображение измерений деталей.
     -   <img alt="" src=images/View_Measure_Clear_All.svg  style="width:32px;"> [Удалить все измерения](View_Measure_Clear_All/ru.md): Удаляет все измерения детали.
 
--   <img alt="" src=images/Std_ToggleVisibility.svg  style="width:32px;"> [Видимость](Std_ToggleVisibility/ru.md): Переключает видимость выбранных объектов.
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -137,13 +147,10 @@
 
 -   <img alt="" src=images/Std_RandomColor.svg  style="width:32px;"> [Случайный цвет](Std_RandomColor/ru.md): Устанавливает цвет фигуры случайным образом.
 
+-   [Верстак](Std_Workbench/ru.md) **-- Выбрать верстак из подменю.**
+
 
 <div class="mw-translate-fuzzy">
-
--   [Верстак](Std_Workbench/ru.md) **Выбрать верстак из подменю.**
-
-
-</div>
 
 -   Панели инструментов **-- Каждая панель инструментов может быть включена или выключена в подменю. Некоторые верстаки добавляют свои собственные панели инструментов.**
     -   Файл
@@ -151,6 +158,9 @@
     -   Макрос
     -   Вид
     -   Structure
+
+
+</div>
 
 -   Панели **-- Каждую панель можно включить или выключить в этом подменю.**
     -   [Отчёт](Report_view/ru.md)
@@ -162,16 +172,16 @@
     -   [Просмотр DAG](DAG_view/ru.md)
 
 -   Tree view actions
-    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sync view](Std_TreeSyncView.md): Toggles the [Tree view](Tree_view.md) SyncView mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Sync selection](Std_TreeSyncSelection.md): Toggles the Tree view SyncSelection mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Sync placement](Std_TreeSyncPlacement.md): Toggles the Tree view SyncPlacement mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Pre-selection](Std_TreePreSelection.md): Toggles the Tree view PreSelection mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeRecordSelection.svg  style="width:32px;"> [Record selection](Std_TreeRecordSelection.md): Toggles the Tree view RecordSelection mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeSingleDocument.svg  style="width:32px;"> [Single document](Std_TreeSingleDocument.md): Switches the Tree view to SingleDocument mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeMultiDocument.svg  style="width:32px;"> [Multi document](Std_TreeMultiDocument.md): Switches the Tree view to MultiDocument mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeCollapseDocument.svg  style="width:32px;"> [Collapse/Expand](Std_TreeCollapseDocument.md): Switches the Tree view to CollapseDocument mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Initiate dragging](Std_TreeDrag.md): Initiates a drag operation for selected objects in the Tree view. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Go to selection](Std_TreeSelection.md): Scrolls the Tree view to the first created object in a 3D view selection. <small>(v0.19)</small> 
+    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sync view](Std_TreeSyncView.md): Toggles the [Tree view](Tree_view.md) SyncView mode.
+    -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Sync selection](Std_TreeSyncSelection.md): Toggles the Tree view SyncSelection mode.
+    -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Sync placement](Std_TreeSyncPlacement.md): Toggles the Tree view SyncPlacement mode.
+    -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Pre-selection](Std_TreePreSelection.md): Toggles the Tree view PreSelection mode.
+    -   <img alt="" src=images/Std_TreeRecordSelection.svg  style="width:32px;"> [Record selection](Std_TreeRecordSelection.md): Toggles the Tree view RecordSelection mode.
+    -   <img alt="" src=images/Std_TreeSingleDocument.svg  style="width:32px;"> [Single document](Std_TreeSingleDocument.md): Switches the Tree view to SingleDocument mode.
+    -   <img alt="" src=images/Std_TreeMultiDocument.svg  style="width:32px;"> [Multi document](Std_TreeMultiDocument.md): Switches the Tree view to MultiDocument mode.
+    -   <img alt="" src=images/Std_TreeCollapseDocument.svg  style="width:32px;"> [Collapse/Expand](Std_TreeCollapseDocument.md): Switches the Tree view to CollapseDocument mode.
+    -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Initiate dragging](Std_TreeDrag.md): Initiates a drag operation for selected objects in the Tree view.
+    -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Go to selection](Std_TreeSelection.md): Scrolls the Tree view to the first created object in a 3D view selection.
 
 [Строка состояния](Std_ViewStatusBar/ru.md): Переключает видимость [строки состояния](Status_bar/ru.md).
 

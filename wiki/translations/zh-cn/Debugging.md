@@ -1,9 +1,13 @@
 # Debugging/zh-cn
 {{TOCright}}
 
+
+
 ## 测试先行
 
 在你经历痛苦的调试过程之前请使用 [测试框架](Testing.md) 来检查标准测试是否正常工作。如果它们未完全运行, 则可能这是不完整的安装。
+
+
 
 ## 命令行
 
@@ -41,9 +45,13 @@ FreeCAD 的 \"调试\" 是由一些内部机制支持的。FreeCAD 的命令行�
 
 </div>
 
+
+
 ## 生成回溯
 
 如果你运行 FreeCAD 开发中的出血边缘(bleeding edge)版本, 则可能会发生 \"崩溃 \"。 您可以通过向开发人员提供 \"回溯 \" 来帮助解决此类问题。 为此, 您需要运行软件的 \"调试版本 \"。 \"调试生成 \" 是在编译时设置的参数, 因此您需要自己编译 FreeCAD, 或者获取预编译的\"调试 \" 版本。
+
+
 
 ### 对于 Linux 
 
@@ -125,6 +133,8 @@ Print the values of the local variables also. This can be combined with a number
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -222,6 +232,8 @@ This prints a long list of loaded resources. So for example, if trying to ascert
 
 
 `lsof -p process_id &#124; grep Coin`
+
+
 
 
 <div class="mw-translate-fuzzy">

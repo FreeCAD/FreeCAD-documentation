@@ -9,6 +9,8 @@ Aceasta pagina prezinta o mare parte dintre funcționalitățile FreeCAD. Daca d
 
 {{TOCright}}
 
+
+
 ## Descrierea versiunilor 
 
 
@@ -24,6 +26,8 @@ Aceasta pagina prezinta o mare parte dintre funcționalitățile FreeCAD. Daca d
 
 
 </div>
+
+
 
 ## Funcționalități importante 
 
@@ -46,6 +50,8 @@ Aceasta pagina prezinta o mare parte dintre funcționalitățile FreeCAD. Daca d
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

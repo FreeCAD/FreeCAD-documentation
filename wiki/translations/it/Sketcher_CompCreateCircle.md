@@ -12,9 +12,13 @@
 
 </div>
 
+
+
 ## Descrizione
 
 **Crea un cerchio** è un pulsante icona nella barra degli strumenti delle geometrie dello Sketcher che raggruppa gli strumenti per creare i cerchi. Fare clic sulla freccia giù alla sua destra per espandere le icone sotto di esso e selezionare uno strumento.
+
+
 
 ## Tipi di cerchi 
 

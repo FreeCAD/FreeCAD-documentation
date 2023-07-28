@@ -61,7 +61,7 @@ There is plenty to do inside the FreeCAD project, if you are interested in helpi
 -   helping with the packaging of the latest release of FreeCAD for your favourite operating system
 -   helping other people around you to discover FreeCAD.
 
-The [help FreeCAD](Special:MyLanguage/help_FreeCAD.md) page describes it all with more details. Starting from 2016, FreeCAD also participates in the [Google Summer of Code](Google_Summer_of_Code.md). The [Contributors hub](Contributors_hub.md) page is another effort to gather the possible ways to help and contribute to the FreeCAD project.
+The [help FreeCAD](Special:MyLanguage/help_FreeCAD.md) page describes it all with more details. Starting from 2016, FreeCAD also participates in the [Google Summer of Code](Google_Summer_of_Code.md).
 
 ### Source code 
 

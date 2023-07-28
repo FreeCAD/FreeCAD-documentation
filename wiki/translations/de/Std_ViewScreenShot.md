@@ -9,6 +9,8 @@
 
 # Std ViewScreenShot/de
 
+
+
 ## Beschreibung
 
 Der **Std AnsichtAufnehmen** Befehl öffnet ein Dialogfeld, um eine Bilddatei, einen Bildschirmfoto, von der aktiven [3D-Ansicht](3D_view/de.md) zu erstellen.
@@ -16,21 +18,29 @@ Der **Std AnsichtAufnehmen** Befehl öffnet ein Dialogfeld, um eine Bilddatei, e
 <img alt="" src=images/Save_picture.png  style="width:800px;"> 
 *Das Dialogfeld Bildinhalt speichern nach Drücken der Schaltfläche Erweitert*
 
+
+
 ## Anwendung
 
 1.  Wähle die **Werkzeuge → <img src="images/Std_ViewScreenShot.svg" width=16px> Bild speichern...** Option aus dem Menü.
-2.  Es öffnet sich das Dialogfeld Bild speichern.
-3.  Drücke optional die **Erweitert** Schaltfläche, um ein zusätzliches Feld im Dialogfeld einzublenden. Für weitere Informationen siehe [Optionen](#Options.md).
-4.  Suche optional nach dem richtigen Ordner.
-5.  Gib einen Dateinamen ein und wähle den Dateityp.
-6.  Drücke die **Speichern** Schaltfläche, um die Bilddatei zu erstellen und das Dialogfeld zu schließen.
+2.  Es öffnet sich das Dialogfeld Bildinhalt speichern.
+3.  Wahlweise die Schaltfläche **Erweitert** drücken, um ein zusätzlichen Bereich im Dialogfeld einzublenden. Für weitere Informationen siehe [Optionen](#Optionen.md).
+4.  Wahlweise nach dem richtigen Ordner suchen.
+5.  Einen Dateinamen eingeben und den Dateityp auswählen.
+6.  Die Schaltfläche **Speichern** drücken, um die Bilddatei zu erstellen und das Dialogfeld zu schließen.
+
+
 
 ## Optionen
+
+
 
 #### Bildabmessungen
 
 1.  Wähle eine Standardgröße aus der Auswahlliste **Standardauflösungen**. Oder gib **Breite** und **Höhe** für eine benutzerdefinierte Größe an.
 2.  Klicke optional auf eine **Seitenverhältnis**-Schaltfläche , um das Verhältnis von Breite zu Höhe des Bildes festzulegen. Wenn das Eingabefeld **Breite** den Fokus hat, ändert sich die Höhe des Bildes und umgekehrt.
+
+
 
 ### Bildeigenschaften
 
@@ -65,21 +75,29 @@ Der **Std AnsichtAufnehmen** Befehl öffnet ein Dialogfeld, um eine Bilddatei, e
         
         Diese Methode verwendet die gleichen Techniken wie **Bildpuffer (benutzerdefiniert)**. Sie unterstützt auch Anti-Aliasing, hat aber einige Einschränkungen in Bezug auf benutzerdefinierte Größen und verwendet immer den aktuellen Hintergrund der 3D Ansicht.
 
+
+
 ### Kommentar zum Bild 
 
 1.  Wähle die Option {{RadioButton|TRUE|MIBA Informationen einfügen}}, um [MIBA](MIBA.md)-Informationen in die Datei einzufügen. Nicht alle Bildformate unterstützen dies.
 2.  Oder wähle die Option {{RadioButton|TRUE|Kommentar einfügen}} und gib einen Kommentar in das Textfeld ein, um einen Kommentar in die Datei einzubetten. Dies wird nicht von allen Bildformaten unterstützt.
 3.  Aktiviere das Kontrollkästchen {{CheckBox|TRUE|Wasserzeichen einfügen}}, um ein Wasserzeichen hinzuzufügen. Das Wasserzeichen wird in der unteren linken Ecke des Bildes platziert und besteht aus dem FreeCAD-Logo und dem Namen über der FreeCAD-Haupt-URL: [www.freecadweb.org](http://www.freecadweb.org).
 
+
+
 ## Hinweise
 
 -   Die Anzahl der verfügbaren Bilddateiformate kann je nach Betriebssystem variieren.
 -   Einige OpenGL-Treiber lassen keine Renderings über einer bestimmten Maximalgröße zu.
 
+
+
 ## Einstellungen
 
 -   Der Hintergrund der 3D-Ansicht kann in den Voreinstellungen geändert werden: **Bearbeiten → Einstellungen... → Anzeige → Farben → Hintergrundfarbe**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Farben.md).
 -   Um das Anti Aliasing der 3D-Ansicht zu ändern: **Bearbeiten → Einstellungen... → Anzeige → 3D-Viewer → Rendern → Kantenglättung**. Siehe [Voreinstellungseditor](Preferences_Editor/de#3D-Ansicht.md).
+
+
 
 ## Skripten
 

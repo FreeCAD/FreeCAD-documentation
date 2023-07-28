@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -35,6 +37,8 @@ Resetting the **angle** property to about 180° in a second step will create a *
 
 <img alt="" src=images/SheetMetal_AddWall-14.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddWall-15.png  style="width:200px;"> 
 *Two selected edges → two hems*
+
+
 
 ## Utilizzo
 
@@ -113,11 +117,15 @@ To create a blank with the [PartDesign Workbench](PartDesign_Workbench.md):
 
 </div>
 
+
+
 ## Proprietà
 
 See also: [Property editor](Property_editor.md).
 
 A SheetMetal Bend object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties and its label has a default value:
+
+
 
 ### Dati
 

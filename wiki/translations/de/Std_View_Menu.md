@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Einführung
 
 Das **Std Menü Ansicht** ist eines der 7 Untermenüs im [Standardmenü](Standard_Menu/de.md):
@@ -27,6 +29,8 @@ Das **Std Menü Ansicht** ist eines der 7 Untermenüs im [Standardmenü](Standar
 
 Das Menü Ansicht stellt Werkzeuge bereit zum Ändern der [3D-Ansicht](3D_view/de.md) und der Ansichtseigenschaften von Objekten im Modell sowie Werkzeuge für die Anzeige von Oberflächenkomponenten.
 
+
+
 ## Werkzeuge
 
 Die folgenden Werkzeuge sind in diesem Menü verfügbar:
@@ -43,20 +47,20 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
     -   <img alt="" src=images/Std_ViewFitAll.svg  style="width:32px;"> [Alles einpassen](Std_ViewFitAll/de.md): Passt alle sichtbaren Objekte in die Ansicht ein.
     -   <img alt="" src=images/Std_ViewFitSelection.svg  style="width:32px;"> [Auswahl einpassen](Std_ViewFitSelection/de.md): Passt ausgewählte Objekte innerhalb der Ansicht ein.
     -   Axonometrisch
-        -   <img alt="" src=images/Std_ViewIsometric.svg  style="width:32px;"> [Isometrisch](Std_ViewIsometric/de.md): Schaltet auf eine isometrische Ansicht um.
-        -   <img alt="" src=images/Std_ViewDimetric.svg  style="width:32px;"> [Dimetrisch](Std_ViewDimetric/de.md): Wechselt zu einer dimetrischen Ansicht.
-        -   <img alt="" src=images/Std_ViewTrimetric.svg  style="width:32px;"> [Trimetrisch](Std_ViewTrimetric/de.md): Wechselt zu einer trimetrischen Ansicht.
-    -   <img alt="" src=images/Std_ViewHome.svg  style="width:32px;"> [Startansicht](Std_ViewHome/de.md): Wechselt zur Standard-Startansicht. {{Version/de|0.19}}
-    -   <img alt="" src=images/Std_ViewFront.svg  style="width:32px;"> [Vorderseite](Std_ViewFront/de.md): Schaltet auf die Vorderansicht um.
-    -   <img alt="" src=images/Std_ViewTop.svg  style="width:32px;"> [Oben](Std_ViewTop/de.md): Schaltet auf die Draufsicht um.
-    -   <img alt="" src=images/Std_ViewRight.svg  style="width:32px;"> [Rechts](Std_ViewRight/de.md): Wechselt zur rechten Ansicht.
-    -   <img alt="" src=images/Std_ViewRear.svg  style="width:32px;"> [Hinten](Std_ViewRear/de.md): Schaltet auf die Rückansicht um.
-    -   <img alt="" src=images/Std_ViewBottom.svg  style="width:32px;"> [Unten](Std_ViewBottom/de.md): Wechselt zur Unteransicht.
-    -   <img alt="" src=images/Std_ViewLeft.svg  style="width:32px;"> [Links](Std_ViewLeft/de.md): Wechselt zur linken Ansicht.
+        -   <img alt="" src=images/Std_ViewIsometric.svg  style="width:32px;"> [Isometrisch](Std_ViewIsometric/de.md): Wechselt zur isometrischen Ansicht.
+        -   <img alt="" src=images/Std_ViewDimetric.svg  style="width:32px;"> [Dimetrisch](Std_ViewDimetric/de.md): Wechselt zur dimetrischen Ansicht.
+        -   <img alt="" src=images/Std_ViewTrimetric.svg  style="width:32px;"> [Trimetrisch](Std_ViewTrimetric/de.md): Wechselt zur trimetrischen Ansicht.
+    -   <img alt="" src=images/Std_ViewHome.svg  style="width:32px;"> [Startansicht](Std_ViewHome/de.md): Wechselt zur Standard-Startansicht.
+    -   <img alt="" src=images/Std_ViewFront.svg  style="width:32px;"> [Vorderansicht](Std_ViewFront/de.md): Wechselt zur Ansicht von vorne.
+    -   <img alt="" src=images/Std_ViewTop.svg  style="width:32px;"> [Draufsicht](Std_ViewTop/de.md): Wechselt zur Ansicht von oben.
+    -   <img alt="" src=images/Std_ViewRight.svg  style="width:32px;"> [Seitenansicht von rechts](Std_ViewRight/de.md): Wechselt zur Ansicht von rechts.
+    -   <img alt="" src=images/Std_ViewRear.svg  style="width:32px;"> [Rückansicht](Std_ViewRear/de.md): Wechselt zur Ansicht von hinten.
+    -   <img alt="" src=images/Std_ViewBottom.svg  style="width:32px;"> [Untersicht](Std_ViewBottom/de.md): Wechselt zur Ansicht von unten.
+    -   <img alt="" src=images/Std_ViewLeft.svg  style="width:32px;"> [Seitenansicht von links](Std_ViewLeft/de.md): Wechselt zur Ansicht von links.
     -   <img alt="" src=images/Std_RotateLeft.png  style="width:32px;"> [Nach links drehen](Std_ViewRotateLeft/de.md): Dreht die Ansicht nach links.
     -   <img alt="" src=images/Std_RotateRight.png  style="width:32px;"> [Nach rechts drehen](Std_ViewRotateRight/de.md): Dreht die Ansicht nach rechts.
-    -   [Arbeitsansicht speichern](Std_StoreWorkingView/de.md): Speichert die Kameraeinstellungen der aktiven 3D-Ansicht in ihrer Arbeitsansicht. <small>(v1.0)</small> 
-    -   [Arbeitsansicht wiederherstellen](Std_RecallWorkingView/de.md): Stellt die in der Arbeitsansicht gespeicherte 3D-Ansicht wieder her. <small>(v1.0)</small> 
+    -   [Arbeitsansicht speichern](Std_StoreWorkingView/de.md): Speichert die Kameraeinstellungen der aktiven 3D-Ansicht in ihrer Arbeitsansicht. {{Version/de|0.21}}
+    -   [Arbeitsansicht wiederherstellen](Std_RecallWorkingView/de.md): Stellt die in der Arbeitsansicht gespeicherte 3D-Ansicht wieder her. {{Version/de|0.21}}
 
 -   [Anzeige einfrieren](Std_FreezeViews/de.md)
     -   [Ansichten speichern\...](Std_FreezeViews/de#Ansichten_speichern....md): Speichert eingefrorene Ansichten in einer Datei.
@@ -64,16 +68,16 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
     -   [Ansicht einfrieren](Std_FreezeViews/de#Ansicht_einfrieren.md): Speichert die aktuelle Ansicht in einer eingefrorenen Ansicht.
     -   [Ansichten löschen](Std_FreezeViews/de#Ansichten_löschen.md): Löscht alle eingefrorenen Ansichten.
 
--   [Zeichenstil](Std_DrawStyle/de.md)
-    -   <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:32px;"> [Wie vorhanden](Std_DrawStyle/de#Wie_vorhanden.md): Schaltet den Zeichenstil auf um: Wie vorhanden.
-    -   <img alt="" src=images/Std_DrawStylePoints.svg  style="width:32px;"> [Punkte](Std_DrawStyle/de#Punkte.md): Schaltet den Zeichenstil um auf: Punkte.
-    -   <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:32px;"> [Drahtgitter](Std_DrawStyle/de#Drahtgitter.md): Schaltet den Zeichenstil auf: Drahtgitter.
-    -   <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:32px;"> [Verdeckte Linie](Std_DrawStyle/de#Verdeckte_Linie.md): Schaltet den Zeichenstil auf: Verdeckte Linie.
-    -   <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:32px;"> [Keine Schattierung](Std_DrawStyle/de#Keine_Schattierung.md): Schaltet den Zeichenstil auf: Keine Schattierung.
-    -   <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:32px;"> [Schattiert](Std_DrawStyle/de#Schattiert.md): Schaltet den Zeichenstil auf: Schattiert.
-    -   <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:32px;"> [Flache Linien](Std_DrawStyle/de#Flache_Linien.md): Schaltet den Zeichenstil um auf: Flache Linien.
+-   [Darstellungsart](Std_DrawStyle/de.md)
+    -   <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:32px;"> [Original](Std_DrawStyle/de#Original.md): Wechselt zur Darstellungsart Original.
+    -   <img alt="" src=images/Std_DrawStylePoints.svg  style="width:32px;"> [Punkte](Std_DrawStyle/de#Punkte.md): Wechselt zur Darstellungsart Punkte.
+    -   <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:32px;"> [Drahtgitter](Std_DrawStyle/de#Drahtgitter.md): Wechselt zur Darstellungsart Drahtgitter.
+    -   <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:32px;"> [Versteckte Linie](Std_DrawStyle/de#Versteckte_Linie.md): Wechselt zur Darstellungsart Versteckte Linie.
+    -   <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:32px;"> [Keine Schattierung](Std_DrawStyle/de#Keine_Schattierung.md): Wechselt zur Darstellungsart Keine Schattierung.
+    -   <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:32px;"> [Schattiert](Std_DrawStyle/de#Schattiert.md): Wechselt zur Darstellungsart Schattiert.
+    -   <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:32px;"> [Flache Linien](Std_DrawStyle/de#Flache_Linien.md): Wechselt zur Darstellungsart Flache Linien.
 
--   <img alt="" src=images/Std_SelBoundingBox.svg  style="width:32px;"> [Begrenzungsrahmen](Std_SelBoundingBox/de.md): Schaltet den Begrenzungsrahmen Hervorhebungsmodus um. {{Version/de|0.19}}
+-   <img alt="" src=images/Std_SelBoundingBox.svg  style="width:32px;"> [Begrenzungsrahmen](Std_SelBoundingBox/de.md): Schaltet den Hervorhebungsmodus Begrenzungsrahmen um.
 
 -   Stereo
     -   <img alt="" src=images/Std_ViewIvStereoRedGreen.svg  style="width:32px;"> [Stereo rot/cyan](Std_ViewIvStereoRedGreen/de.md): Schaltet auf Rot/Cyan Stereoansicht um.
@@ -102,8 +106,7 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 -   <img alt="" src=images/Std_TextureMapping.svg  style="width:32px;"> [Texture mapping\...](Std_TextureMapping/.md): Bildet Texturen zetweise auf allen Objekten ab.
 
 -   Sichtbarkeit
-
--   -   <img alt="" src=images/Std_ToggleVisibility.svg  style="width:32px;"> [Sichtbarkeit umschalten](Std_ToggleVisibility/de.md): Schaltet die Sichtbarkeit von ausgewählten Objekten um.
+    -   <img alt="" src=images/Std_ToggleVisibility.svg  style="width:32px;"> [Sichtbarkeit umschalten](Std_ToggleVisibility/de.md): Schaltet die Sichtbarkeit von ausgewählten Objekten um.
     -   <img alt="" src=images/Std_ShowSelection.svg  style="width:32px;"> [Auswahl anzeigen](Std_ShowSelection/de.md): Zeigt ausgewählte Objekte an.
     -   <img alt="" src=images/Std_HideSelection.svg  style="width:32px;"> [Auswahl ausblenden](Std_HideSelection/de.md): Blendet ausgewählte Objekte aus.
     -   <img alt="" src=images/Std_SelectVisibleObjects.svg  style="width:32px;"> [Sichtbare Objekte auswählen](Std_SelectVisibleObjects/de.md): Wählt alle sichtbaren Objekte aus.
@@ -113,8 +116,6 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
     -   <img alt="" src=images/Std_ToggleSelectability.svg  style="width:32px;"> [Auswählbarkeit umschalten](Std_ToggleSelectability/de.md): Schaltet die Wählbarkeit von Objekten um.
     -   <img alt="" src=images/View_Measure_Toggle_All.svg  style="width:32px;"> [Messung umschalten](View_Measure_Toggle_All/de.md): Schaltet die Anzeige von Teilmessungen um.
     -   <img alt="" src=images/View_Measure_Clear_All.svg  style="width:32px;"> [Messung löschen](View_Measure_Clear_All/de.md): Löscht Teilmessungen.
-
--   <img alt="" src=images/Std_ToggleVisibility.svg  style="width:32px;"> [Sichtbarkeit umschalten](Std_ToggleVisibility/de.md) Schaltet die Sichtbarkeit der ausgewählten Objekte um.
 
 -   <img alt="" src=images/Std_ToggleNavigation.svg  style="width:32px;"> [Navigations-/Editier-Modus](Std_ToggleNavigation/de.md): Schaltet zwischen Navigations- und Editier-Modus um.
 
@@ -126,10 +127,13 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 -   Werkzeugleisten **-- Jede Werkzeugleiste kann im Untermenü ein- oder ausgeschaltet werden. Einige Arbeitsbereiche fügen ihre eigenen Werkzeugleisten hinzu.**
     -   Datei
+    -   Bearbeiten {{Version/de|0.21}}
+    -   Zwischenablage {{Version/de|0.21}}
     -   Arbeitsbereich
     -   Makro
     -   Ansicht
     -   Struktur
+    -   Hilfe {{Version/de|0.21}}
 
 -   Fensterbereiche **-- Jeder Bereich kann im Untermenü ein- oder ausgeschaltet werden.**
     -   [Ausgabefenster](Report_view/de.md)
@@ -141,16 +145,16 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
     -   [DAG-Ansicht](DAG_view/de.md)
 
 -   Aktionen in der Baumansicht
-    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sync-Ansicht](Std_TreeSyncView/de.md): Schaltet den SyncView-Modus der [Baumansicht](Tree_view/de.md) ein/aus. {{Version/de|0.19}}
-    -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Sync-Auswahl](Std_TreeSyncSelection/de.md): Schaltet den SyncSelection-Modus der Baumansicht ein/aus. {{Version/de|0.19}}
-    -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Sync-Platzierung](Std_TreeSyncPlacement/de.md): Schaltet den SyncPlacement-Modus der Baumansicht ein/aus. {{Version/de|0.19}}
-    -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Vorauswahl](Std_TreePreSelection/de.md): Schaltet den PreSelection-Modus der Baumansicht ein/aus. {{Version/de|0.19}}
-    -   <img alt="" src=images/Std_TreeRecordSelection.svg  style="width:32px;"> [Auswahl aufzeichnen](Std_TreeRecordSelection/de.md): Schaltet den RecordSelection-Modus der Baumansicht ein/aus. {{Version/de|0.19}}
-    -   <img alt="" src=images/Std_TreeSingleDocument.svg  style="width:32px;"> [Einzeldokment](Std_TreeSingleDocument/de.md): Schaltet die Baumansicht in den SingleDocument-Modus. {{Version/de|0.19}}
-    -   <img alt="" src=images/Std_TreeMultiDocument.svg  style="width:32px;"> [Mehrfachdokument](Std_TreeMultiDocument/de.md): Schaltet die Baumansicht in den MultiDocument-Modus. {{Version/de|0.19}}
-    -   <img alt="" src=images/Std_TreeCollapseDocument.svg  style="width:32px;"> [Reduzieren/Erweitern](Std_TreeCollapseDocument/de.md): Schaltet die Baumansicht in den CollapseDocument-Modus. {{Version/de|0.19}}
-    -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Ziehen initiieren](Std_TreeDrag/de.md): Startet das Ziehen von ausgewählten Objekten in der Baumansicht. {{Version/de|0.19}}
-    -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Gehe zu Selektion](Std_TreeSelection/de.md): Scrollt die Baumansicht auf das zuerst erstellte Objekt einer Auswahl in der 3D-Ansicht. {{Version/de|0.19}}
+    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sync-Ansicht](Std_TreeSyncView/de.md): Schaltet den SyncView-Modus der [Baumansicht](Tree_view/de.md) ein/aus.
+    -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Sync-Auswahl](Std_TreeSyncSelection/de.md): Schaltet den SyncSelection-Modus der Baumansicht ein/aus.
+    -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Sync-Platzierung](Std_TreeSyncPlacement/de.md): Schaltet den SyncPlacement-Modus der Baumansicht ein/aus.
+    -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Vorauswahl](Std_TreePreSelection/de.md): Schaltet den PreSelection-Modus der Baumansicht ein/aus.
+    -   <img alt="" src=images/Std_TreeRecordSelection.svg  style="width:32px;"> [Auswahl aufzeichnen](Std_TreeRecordSelection/de.md): Schaltet den RecordSelection-Modus der Baumansicht ein/aus.
+    -   <img alt="" src=images/Std_TreeSingleDocument.svg  style="width:32px;"> [Einzeldokment](Std_TreeSingleDocument/de.md): Schaltet die Baumansicht in den SingleDocument-Modus.
+    -   <img alt="" src=images/Std_TreeMultiDocument.svg  style="width:32px;"> [Mehrfachdokument](Std_TreeMultiDocument/de.md): Schaltet die Baumansicht in den MultiDocument-Modus.
+    -   <img alt="" src=images/Std_TreeCollapseDocument.svg  style="width:32px;"> [Reduzieren/Erweitern](Std_TreeCollapseDocument/de.md): Schaltet die Baumansicht in den CollapseDocument-Modus.
+    -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Ziehen initiieren](Std_TreeDrag/de.md): Startet das Ziehen von ausgewählten Objekten in der Baumansicht.
+    -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Gehe zu Selektion](Std_TreeSelection/de.md): Scrollt die Baumansicht auf das zuerst erstellte Objekt einer Auswahl in der 3D-Ansicht.
 
 -   [Statusleiste](Std_ViewStatusBar/de.md): Schaltet die Anzeige der [Statusleiste](Status_bar/de.md) ein/aus.
 

@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimension.svg  style="width:24px;"> **TechDraw Cote horizontale chanfrein** crée une cote horizontale de la dimension et de l\'angle pour un chanfrein.
+L\'outil **TechDraw Cote horizontale chanfrein** crée une cote horizontale de la dimension et de l\'angle pour un chanfrein.
 
 <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimensionExample.png  style="width:450px;"> 
 *A droite, la cote créée*
+
+
 
 ## Utilisation
 

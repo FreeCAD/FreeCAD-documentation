@@ -13,9 +13,17 @@
 
 </div>
 
+
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questo strumento imposta il dispositivo di coordinate dell\'offset del lavoro del controllore CNC della macchina. Questo strumento imposta un punto di fissaggio (G53-G59) per le successive operazioni
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -37,6 +45,8 @@ The G59 Fixture is used to expand available fixtures. The degree of expansion im
 
 </div>
 
+
+
 ## Utilizzo
 
 
@@ -48,6 +58,8 @@ The G59 Fixture is used to expand available fixtures. The degree of expansion im
 
 
 </div>
+
+
 
 ## Proprietà
 

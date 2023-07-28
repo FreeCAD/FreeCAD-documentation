@@ -1,21 +1,19 @@
 # Task panel/de
 {{TOCright}}
 
+
+
 ## Einführung
 
-
-<div class="mw-translate-fuzzy">
-
-Der [Aufgabenbereich](Task_panel/de.md) erscheint im Reiter **Aufgaben** der [Combo-Ansicht](combo_view/de.md) und ist einer der wichtigen Bereiche der [Oberfläche](interface/de.md). Er ist ein anpassbarer Bereich, der jede Art von grafischen Fensterbestandteilen (Widgets), wie z.B. ausklappbare Unterfenster, Tabellen, Eingabefelder, Kontrollkästchen, Drehfelder, Auswahlfelder, Textfelder, Schaltflächen, Beschriftungen, Bilder und andere Elemente enthalten kann, abhängig vom gerade aktiven [Arbeitsbereich](Workbenches/de.md) und dem gerade aktiven Werkzeug.
-
-
-</div>
+Der [Aufgabenbereich](Task_panel/de.md) erscheint im Reiter **Aufgaben** der [Combo-Ansicht](Combo_view/de.md) und ist einer der wichtigen Bereiche der [Oberfläche](interface/de.md). Er ist ein anpassbarer Bereich, der jede Art von grafischen Fensterbestandteilen (Widgets), wie z.B. ausklappbare Unterfenster, Tabellen, Eingabefelder, Kontrollkästchen, Drehfelder, Auswahlfelder, Textfelder, Schaltflächen, Beschriftungen, Bilder und andere Elemente enthalten kann, abhängig vom gerade aktiven [Arbeitsbereich](Workbenches/de.md) und dem gerade aktiven Werkzeug.
 
 <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="550px;">
 
 
 
 *Der Reiter Aufgaben zeigt verschiedene (passende) Befehle an, wenn der Arbeitsbereich [PartDesign](PartDesign_Workbench/de.md) aktiv ist und eine [Skizze](sketch/de.md) ausgewählt ist.*
+
+
 
 ## Arbeiten mit dem Aufgabenbereich 
 
@@ -39,15 +37,11 @@ Es gibt viele Befehle, die die Auswahl von vorhandenen Formen oder Objekten aus 
 
 **Hinweis:** Bitte beachte, dass der Wechsel vom **Aufgaben** Reiter zum **Modell** Reiter den aktiven Befehl nicht beendet; die Aufgabe läuft weiterhin im Hintergrund. Der Benutzer ist dafür verantwortlich, den aktiven Befehl ordnungsgemäß zu beenden oder abzubrechen, bevor er eine andere Aufgabe startet; eine laufende Aufgabe zu verlassen, kann beim Versuch, andere Werkzeuge zu starten, zu Fehlern führen.
 
+
+
 ## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
--   Benutzer, die von anderen CAD Lösungen umsteigen, die die **ESC** Taste als Teil ihres Arbeitsablaufs verwenden, können in FreeCAD andere Ergebnisse erhalten. Wenn die **ESC** Taste in FreeCAD gedrückt wird und der Aufgabenbereich im Fokus ist, wird der Aufgabenbereich automatisch verlassen. Um diese Funktion zu deaktivieren, siehe [Fine-tuning/de#ESC Taste](Fine-tuning/de#ESC_Taste.md).
-
-
-</div>
+-   Benutzer, die von anderen CAD-Anwendungen umsteigen, die die **ESC**-Taste als Teil ihres Arbeitsablaufs verwenden, können in FreeCAD andere Ergebnisse erhalten. Wenn die **ESC**-Taste in FreeCAD gedrückt wird, wird der Aufgabenbereich geschlossen, der im Fokus liegt. Um diese Funktion zu deaktivieren, siehe [Fine-tuning/de#ESC TasteFine tuning](Fine-tuning/de#ESC_TasteFine_tuning.md) und [Sketcher Voreinstellungen](Sketcher_Preferences#Allgemein.md).
 
 
 {{Interface navi

@@ -11,17 +11,15 @@
 |Download=[https://www.freecadweb.org/wiki/images/c/ca/Macro_Recompute_Profiler.png ToolBar Icon]
 }}
 
+
+
 ## Descrizione
 
 Questa macro serve per trovare quali sono le funzioni che causano lunghi ritardi negli aggiornamenti del progetto. Essa esegue un ricalcolo, misurando il tempo necessario per ricalcolare ogni funzione.
 
 
-<div class="mw-translate-fuzzy">
 
-## Uso
-
-
-</div>
+## Utilizzo
 
 Questa macro richiede almeno la versione 0.17.10644 di FreeCAD
 
@@ -37,7 +35,7 @@ Appare una barra di avanzamento. Man mano che ogni oggetto viene ricalcolato, vi
 
 ## Macro
 
-ToolBar Icon ![](images/Macro_Recompute_Profiler.png )
+Icona barra strumenti ![](images/Macro_Recompute_Profiler.png )
 
 **RecomputeProfiler.FCMacro**
 
@@ -164,6 +162,8 @@ def run():
 run()
 }}
 
+
+
 ## Post-processing resultati 
 
 La sortita della macro sarà interfogliato con i messaggi generici prodotti dalle funzioni di ricalcolo. Generalmente si presenta così:
@@ -211,17 +211,11 @@ Le righe dei risultati hanno una firma semplice per separarle: iniziano con una 
 
 (Per MS-Excel, facendo copia-incolla del testo dal rapporto non lo divide in colonne, non so perché \... incollando il testo in Notepad e ri-copiandolo poi da Notepad funziona meglio.)
 
-## FreeCAD version 
 
-
-<div class="mw-translate-fuzzy">
 
 ## Versione di FreeCAD 
 
 Questa macro richiede una versione di FreeCAD non inferiore alla 0.17.10644, che è la versione in cui è stato reso disponibile App.ActiveDocument.RecomputesFrozen. Potrebbe essere funzionare anche con una vesrsione di FreeCAD un po\' più vecchia, ma certamente non funziona con v0.16.
-
-
-</div>
 
 Questa macro è stata creata usando questa versione di FreeCAD:
 

@@ -70,7 +70,7 @@ Im Reiter *Erscheinungsbild der Form* kann Folgendes eingestellt werden:
 | **Shape color**        |                                                                                                                                                                                                                           |
 |                                 |                                                                                                                                                                                                                           |
 +++
-|                     | Transparency for new shapes <small>(v1.0)</small> .                                                                                                                                                                |
+|                     | Transparency for new shapes <small>(v0.21)</small> .                                                                                                                                                               |
 | **Shape transparency** |                                                                                                                                                                                                                           |
 |                                 |                                                                                                                                                                                                                           |
 +++
@@ -113,7 +113,7 @@ Im Reiter *Erscheinungsbild der Form* kann Folgendes eingestellt werden:
 
 These preferences control the appearance of measurements created with the [Measure tools](Part_Workbench#Measure.md) available in the [Part Workbench](Part_Workbench.md) and [PartDesign Workbench](PartDesign_Workbench.md).
 
-On the *Measure* tab (<small>(v1.0)</small> ) you can specify the following:
+On the *Measure* tab (<small>(v0.21)</small> ) you can specify the following:
 
 +++
 | Name                                     | Description                                                          |

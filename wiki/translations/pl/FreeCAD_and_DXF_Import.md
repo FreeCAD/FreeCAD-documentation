@@ -1,9 +1,13 @@
 # FreeCAD and DXF Import/pl
 {{TOCright}}
 
+
+
 ## Kontekst
 
 DXF jest zastrzeżonym formatem danych CAD dla rysunków 2D, który wywodzi się z programu AutoCAD. Więcej szczegółów można znaleźć na stronie Wiki [DXF](DXF/pl.md).
+
+
 
 ## Wprowadzenie
 
@@ -11,13 +15,19 @@ Od wersji 0.18 FreeCAD posiada nowy importer C++ DXF, a od wersji 0.19 również
 
 Aby używać starszego importera i eksportera DXF, musisz zainstalować kilka plików. Te pliki nie mogą być dołączone do programu FreeCAD, ponieważ używają bibliotek opublikowanych na licencji, która nie jest kompatybilna z programem FreeCAD.
 
+
+
 ## Jak zainstalować starszy importer i eksporter DXF 
+
+
 
 ### Automatycznie
 
 Jeśli pliki nie są jeszcze zainstalowane, przejdź do menu **Edycja → Preferencje ... → Import-Export → DXF** i włącz opcję **Pozwól programowi FreeCAD na automatyczne pobieranie i aktualizacje bibliotek DXF**, aby program FreeCAD automatycznie pobierał i instalował te pliki.
 
 W przypadku programu FreeCAD 0.14 lub starszego należy zainstalować go ręcznie:
+
+
 
 ### Samodzielnie
 
@@ -35,6 +45,8 @@ C:\Użytkownicy \AppData\Roaming\FreeCAD
 
 Zobacz również: [Instalacja importera Dxf](Dxf_Importer_Install/pl.md)
 
+
+
 ## Porady i sztuczki 
 
 Czasami pliki DXF nie importują się, mimo że otwierają się bez problemów w innych programach CAD.
@@ -42,8 +54,7 @@ Czasami pliki DXF nie importują się, mimo że otwierają się bez problemów w
 Możesz spróbować:
 
 1.  Przejdź do menu **Edycja → Preferencje ... → Import-Export → DXF** i usuń zaznaczenie opcji **Łącz geometrie** i spróbuj ponownie.
-2.  Pamiętaj, że być może teraz nie będziesz miał zbieżnych punktów końcowych. Będziesz musiał sprawić, by były one zbieżne same z sobą.
-3.  Możesz to zrobić za pomocą polecenia [Zamknij kształt](Sketcher_CloseShape/pl.md) {{VersionPlus/pl|0.15}} lub zastosować wiązania samodzielnie.
+2.  Pamiętaj, że być może teraz nie będziesz miał zbieżnych punktów końcowych. Możesz sprawić, że będą one zbieżne dzięki funkcji [Sprawdź poprawność szkicu](Sketcher_ValidateSketch/pl.md).
 
 Możesz również spróbować:
 

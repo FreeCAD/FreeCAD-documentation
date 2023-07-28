@@ -1,17 +1,22 @@
 ---
-- GuiCommand:
-   Name:Std LinkSelectAllLinks
+- GuiCommand:/ru
+   Name/ru:Выбрать все ссылки
+   Name:Std_LinkSelectAllLinks
    MenuLocation:
-   Workbenches:All
+   Workbenches:Все
    Version:0.19
-   SeeAlso:[Std LinkSelectLinked](Std_LinkSelectLinked.md), [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std SelBack](Std_SelBack.md), [Std SelForward](Std_SelForward.md)
+   SeeAlso:[Перейти к связанному объекту](Std_LinkSelectLinked/ru.md), [Перейти на самый глубокий связанный объект](Std_LinkSelectLinkedFinal/ru.md), [Назад](Std_SelBack/ru.md), [Вперёд](Std_SelForward/ru.md)
 ---
 
 # Std LinkSelectAllLinks/ru
 
+
+
 ## Описание
 
 The **Std LinkSelectAllLinks** command selects all [App Link](App_Link.md) objects, links, that directly or indirectly link to the same source object.
+
+
 
 ## Применение
 

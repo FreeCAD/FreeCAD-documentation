@@ -157,7 +157,7 @@ On the *User interface settings* tab you can specify the following:
 | **Global**                  |                                                                                                                                                                                                                                               |
 |                                      |                                                                                                                                                                                                                                               |
 +++
-|                          | Shortcut to press the **Undo** button. Not available in {{VersionMinus|0.19}}.                                                                                                                             |
+|                          | Shortcut to press the **Undo** button.                                                                                                                                                                                   |
 | **Undo**                    |                                                                                                                                                                                                                                               |
 |                                      |                                                                                                                                                                                                                                               |
 +++
@@ -340,10 +340,6 @@ On the *Visual settings* tab you can specify the following:
 +++
 |                                                    | If checked, a widget indicating the current working plane orientation appears during drawing operations.                                                                                                            |
 | **Show Working Plane tracker**                        |                                                                                                                                                                                                                     |
-|                                                                |                                                                                                                                                                                                                     |
-+++
-|                                                    | Obsolete. The template used by the [Draft Drawing](Draft_Drawing.md) command.                                                                                                                               |
-| **Default template sheet**                            |                                                                                                                                                                                                                     |
 |                                                                |                                                                                                                                                                                                                     |
 +++
 |                                                    | A directory with custom SVG patterns. Select a file in the directory and then remove the filename in the preferences input box, leaving only the path.                                                              |

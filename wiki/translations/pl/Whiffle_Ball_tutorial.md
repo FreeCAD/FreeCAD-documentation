@@ -96,7 +96,7 @@ You will practice:
 :   7.4. Change **Height** to {{incode   120 mm}}.
 :   7.5. Open the [Placement](Std_Placement.md) dialog.
 :   7.6. Change **Y** to {{incode   60 mm}}.
-:   7.7. Change the **Rotation** to {{incode   Rotation axis with angle}}; **Axis** to {{incode   X}} (by setting the {{incode   X}}, {{incode   Y}} and {{incode   Z}} values of the axis inputboxes to {{incode   0}}, {{incode   0}} and {{incode   1}} respectively, {{incode   Z}} is the third inputbox), and **Angle** to {{incode   90 deg}}.
+:   7.7. Change the **Rotation** to {{incode   Rotation axis with angle}}; **Axis** to {{incode   X}} (by setting the {{incode   X}}, {{incode   Y}} and {{incode   Z}} values of the axis inputboxes to {{incode   1}}, {{incode   0}} and {{incode   0}} respectively), and **Angle** to {{incode   90 deg}}.
 :   7.8. Press the **OK** button to close the dialog.
 
 8\. Insert another cylinder. This time create a duplicate so that the radius and height don\'t have to be changed, only its placement.
@@ -255,10 +255,10 @@ We\'ll duplicate the previous two objects again to use once more as cutting obje
 *Final whiffle ball model with fillets applied to the edges.*
 
 
-  {{Userdocnavi
+ {{Userdocnavi
 ---
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Whiffle Ball tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Whiffle Ball tutorial/pl

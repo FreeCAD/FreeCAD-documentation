@@ -5,56 +5,46 @@
    MenuLocation:Part Design → Klon erzeugen
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
-   SeeAlso:[Entwurf Klon](Draft_Clone/de.md)
+   SeeAlso:[Draft Klon](Draft_Clone/de.md)
 ---
 
 # PartDesign Clone/de
 
+
+
 ## Beschreibung
 
-**PartDesign Clone** erzeugt eine verknüpfte Kopie eines gewählten Objekts, das allen zukünftigen Bearbeitungen des Originalobjekts (außer der Positionierung) folgt. Ein Anwendungsfall ist z.B., wenn du [PartDesign boolsche Opeartion](PartDesign_Boolean/de.md) für ein in einem anderen Arbeitsbereich erstelltes Objekt ausführen möchtest. Die meisten Objekttypen werden akzeptiert, solange es sich um einzelne Volumenkörper handelt. Wenn du mehrere Objekte (d.h. Körper) oder einen [Part Behälter](Std_Part/de.md) klonen musst, könntest du [Entwurf Arbeitsbereich Klon](Draft_Clone/de.md) verwenden. Ein Vorbehalt ist, dass der Klon des Part Design Arbeitsbereich die aktuelle Positionierung des Klons auf Null setzt (sowohl die kartesische Übersetzung als auch die räumliche Orientierung). Während der Klon des Entwurfs Arbeitsbereich berechnet und setzt die numerischen Werte der aktuellen Positionierung und Orientierung der geklonten Objekte in Bezug auf den geklonten Objektbehälter.
+**PartDesign Klon** erstellt eine verknüpfte Kopie eines ausgewählten Objekts, das allen zukünftigen Bearbeitungen des Originalobjekts (außer der Positionierung) folgt. Ein Anwendungsfall ist z.B., wenn [PartDesign boolesche Operationen](PartDesign_Boolean/de.md) für ein in einem anderen Arbeitsbereich erstelltes Objekt ausgeführt werden sollen. Die meisten Objektarten werden akzeptiert, solange es sich um einzelne Festkörper handelt. Sollen mehrere Objekte (d.h. Körper) oder ein [Part-Behälter](Std_Part/de.md) geklont werden, könnte man [Draft Klonen](Draft_Clone/de.md) verwenden. Ein Unterschied ist, dass der Klon des Arbeitsbereichs PartDesign die aktuelle Positionierung des Klons auf Null setzt (sowohl die kartesische Bewegung als auch die räumliche Orientierung), während der Klon des Arbeitsbereichs Draft die Zahlenwerte der aktuellen Positionierung und Orientierung der geklonten Objekte unter Berücksichtigung des Behälters für geklonte Objekte berechnet und einsetzt.
 
 ![*Clone of the inner gear while being translated in 3D space as an independent object*](images/clone.png ) 
 *Klon des Innenzahnrades, der als eigenständiges Objekt im 3D-Raum bewegt wird*
+
+
 
 ## Anwendung
 
 1.  Das zu klonenden Objekt im Modellbaum auswählen.
 2.  Die Schaltfläche **[<img src=images/PartDesign_Clone.svg style="width:24px"> '''Klon erzeugen'''**.
 
+
+
 ## Eigenschaften
 
+-    {{PropertyData/de|Base Feature}}: Bestimmt das Ausgangsobjekt, auf dem der Klon basiert. Um es auszutauschen klickt man auf die Schaltfläche **...** und erhält eine Liste vorhandener Objekte.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Placement}}: bestimmt die Ausrichtung und die Position des Klons im 3D-Raum. Siehe [Positionierung](Placement/de.md).
 
--    **Base Feature**: Bestimmt das Objekt, welches geklont wird. Um dies zu ändern klicke auf das **...** Icon und wähle ein Objekt aus der Liste
-
--    **Placement**: definiert die Ausrichtung und die Position des Klon im 3D Raum. Siehe [Platzierung](Placement/de.md).
-
--    **Label**: Benennung des Klon, beliebig.
+-    {{PropertyData/de|Label}}: Bezeichnung die dem Klon-Objekt gegeben wurde. Nach eigenem Bedarf änderbar.
 
 
-</div>
 
 ## Begrenzungen
 
-
-<div class="mw-translate-fuzzy">
-
--   Nur ein einzelnes Objekt kann für einen PartDesign Klon verwendet werden.
--   Nur Objekte, die aus einem einzelnen Volumenkörper bestehen, werden unterstützt. Deshalb werden [Teileverbünde](Glossary#Compound.md) wie [Part Container](Std_Part/de.md), [Part Compound](Part_MakeCompound/de.md) oder [Draft Array](Draft_Array/de.md) nicht unterstützt.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   Nur ein einzelnes Objekt kann für einen PartDesign-Klon verwendet werden.
+-   Nur Objekte, die aus einem einzelnen Festkörper bestehen, werden unterstützt. Deshalb werden [Verbunde](Glossary/de#Compound.md) wie [Part-Container](Std_Part/de.md), [Part-Verbund](Part_MakeCompound/de.md) oder [Draft RechtwinkligeAnordnung](Draft_OrthoArray/de.md) nicht unterstützt.
 
 
 
-
-
-</div>
 
 
 {{PartDesign_Tools_navi

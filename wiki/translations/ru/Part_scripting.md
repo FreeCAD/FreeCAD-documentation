@@ -1,6 +1,8 @@
 # Part scripting/ru
 {{TOCright}}
 
+
+
 ## Введение
 
 The main data structure used in the Part module is the [BRep](http://en.wikipedia.org/wiki/Boundary_representation) data type from [OpenCASCADE](OpenCASCADE.md). Almost all contents and object types of the Part module are available in [Python](Python.md) scripting. This includes geometric primitives, such as Lines, Circles and Arcs, and the whole range of TopoShapes, like Vertexes, Edges, Wires, Faces, Solids and Compounds. For each of those objects, several creation methods exist, and for some of them, especially the TopoShapes, advanced operations like boolean union/difference/intersection are also available. Explore the contents of the Part module, as described in the [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) page, to know more.
@@ -16,7 +18,7 @@ Another simple object used in 2D geometrical objects is the [Part Part2DObject](
 
 ## Test script 
 
-Test the creation of [Part Primitives](Part_Primitives.md) with a script. <small>(v0.19)</small> 
+Test the creation of [Part Primitives](Part_Primitives.md) with a script.
 
 
 ```python

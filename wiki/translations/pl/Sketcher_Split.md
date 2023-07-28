@@ -1,45 +1,54 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher Split
-   MenuLocation:Sketch → Sketcher geometries → Split edge
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Podziel krawędź
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Podziel krawędź
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **Z**
    Version:0.20
-   SeeAlso:[Sketcher Trimming](Sketcher_Trimming.md)
+   SeeAlso:[Przytnij krawędź](Sketcher_Trimming/pl.md)
 ---
 
 # Sketcher Split/pl
 
-## Description
 
-This tool splits an edge into two, with existing applicable constraints being copied to the new edge. The position of the point where the edges meet is not constrained. Periodic curves (i.e. circles, ellipses and periodic B-splines) are converted to non-periodic curves (respectively arcs of circles, arcs of ellipses and non-periodic B-splines).
+
+## Opis
+
+To narzędzie dzieli krawędź na dwie, a istniejące wiązania są kopiowane do nowej krawędzi. Pozycja punktu styku krawędzi nie jest objęta wiązaniami. Krzywe okresowe *(tj. koła, elipsy i okresowe krzywe złożone)* są przekształcane na krzywe nieokresowe *(odpowiednio łuki okręgów, łuki elips i nieokresowe krzywe złożone z krzywych złożonych)*.
 
 ![](images/SketcherSplitExample1.png ) ![](images/SketcherSplitExample2.png ) ![](images/SketcherSplitExample3.png )
 
-## Usage
 
-1.  Press the **[<img src=images/Sketcher_Split.svg style="width:16px"> [Split edge](Sketcher_Split.md)** button. The mouse pointer turns into a white cross with a red split symbol.
-2.  Click on the edge in the place where you want to split it.
-3.  From the line and arc edges, two new will be created, connected at the point clicked. A circle is converted to an arc with the very same center point and other constraints the original circle had.
-4.  Pressing **Esc** or pressing the right mouse button will terminate the function.
 
-## Limitations
+## Użycie
 
--   In {{VersionMinus|0.20}} the action is not supported for ellipses, parabolas, hyperbolas and B-splines.
+1.  Naciśnij przycisk **[<img src=images/Sketcher_Split.svg style="width:16px"> '''Podziel krawędź'''**. Kursor myszki zmieni się w biały krzyż z czerwonym symbolem podziału.
+2.  Kliknij krawędź w miejscu, w którym chcesz ją podzielić.
+3.  Z krawędzi linii i łuku zostaną utworzone dwie nowe, połączone w miejscu kliknięcia. Okrąg jest zamieniany na łuk z tym samym punktem środkowym i innymi wiązaniami, które miał oryginalny okrąg.
+4.  Naciśnięcie klawisza **Esc** lub wciśnięcie prawego przycisku myszy zakończy działanie funkcji.
 
-## Notes
 
--   All coincidences are transferred - start point, end point and center point (if applicable).
--   Point on object constraint is transferred to the closer newly created edge.
--   Vertical and horizontal constraints are copied to both offsprings.
--   Parallel and perpendicular constraints are copied for both line segments, for arc only once, to the closer part.
--   Equality constraint is transferred only for resulting arc edges, line segments do not receive it.
--   Symmetry constraint is currently not transferred.
--   Block constraint is currently not transferred.
--   Horizontal, vertical and length constraints between points are transferred to the outer points of the new edges.
--   Point distance constraint is assigned only once, to the closer edge segment.
--   Radius and diameter constraints are copied to any resulting arc.
--   Angle constraint is currently not transferred
+
+## Ograniczenia
+
+-   W FreeDAD{{VersionMinus/pl|0.20}} działanie nie jest obsługiwane dla elips, paraboli, hiperbol i krzywych złożonych.
+
+
+
+## Uwagi
+
+-   Wszystkie zbieżności są przenoszone - punkt początkowy, punkt końcowy i punkt środkowy (jeśli dotyczy).
+-   Punkt na wiązaniu obiektu jest przenoszony do bliższej, nowo utworzonej krawędzi.
+-   Wiązania pionowe i poziome są kopiowane do obu obiektów pochodnych.
+-   Wiązania równoległe i prostopadłe są kopiowane dla obu odcinków linii, dla łuku tylko raz, do bliższej części.
+-   Wiązanie równości jest przenoszone tylko dla powstałych krawędzi łuku, segmenty linii go nie otrzymują.
+-   Wiązanie symetrii nie jest obecnie przenoszone.
+-   Wiązanie zablokowania nie jest obecnie przenoszone.
+-   Więzy poziome, pionowe i długości pomiędzy punktami są przenoszone na zewnętrzne punkty nowych krawędzi.
+-   Wiązania odległości punktów są przypisywane tylko raz, do bliższego odcinka krawędzi.
+-   Wiązania promienia i średnicy są kopiowane do każdego powstałego łuku.
+-   Wiązanie kąta nie jest obecnie przenoszone.
 
 
 

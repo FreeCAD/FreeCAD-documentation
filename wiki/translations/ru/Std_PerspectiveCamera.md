@@ -10,6 +10,8 @@
 
 # Std PerspectiveCamera/ru
 
+
+
 ## Описание
 
 Команда **Std PerspectiveCamera** переводит камеру в активном [трёхмерном виде](3D_view/ru.md) в режим перспективы. В этом режиме объекты, которые находятся дальше от камеры, выглядят меньше, чем те, которые находятся ближе.
@@ -17,19 +19,27 @@
 ![](images/Std_PerspectiveCamera_example.svg ) 
 *Два куба с одинаковыми размерами в перспективе*
 
+
+
 ## Применение
+
+
+<div class="mw-translate-fuzzy">
 
 1.  :Есть несколько способов вызвать команду:
     -   Выберите в меню опцию **Вид → <img src="images/Std_PerspectiveCamera.svg" width=16px> Перспективная проекция**.
     -   Используйте клавиатурное сокращение: **V**, затем **P**.
 
-## Примечания
 
--   It is also possible to switch to perspective view mode via the Mini-cube menu of the [Navigation Cube](Navigation_Cube.md).
+</div>
+
+
 
 ## Настройки
 
 -   The camera type can be changed in the preferences: **Edit → Preferences... → Display → 3D View → Camera type**. The selected type will be used for all 3D views of all opened documents and also for new documents. See [Preferences Editor](Preferences_Editor#3D_View.md).
+
+
 
 ## Программирование
 

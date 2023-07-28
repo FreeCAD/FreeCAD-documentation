@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -35,6 +37,8 @@ Lo strumento Vista di sezione crea una vista in sezione trasversale basata sulla
 
 </div>
 
+
+
 ## Utilizzo
 
 
@@ -55,6 +59,8 @@ Lo strumento Vista di sezione crea una vista in sezione trasversale basata sulla
 ## Properties Section View 
 
 See also [TechDraw View](TechDraw_View#Properties.md).
+
+
 
 ### Dati
 
@@ -112,6 +118,8 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 </div>
 
+
+
 ### Vista
 
 
@@ -164,6 +172,8 @@ Una vista in sezione eredita tutte le proprietà applicabili della vista specifi
 
 Le impostazioni predefinite per questi parametri sono impostate tramite le impostazioni **Linea di sezione** e **Stile linea di sezione** nelle [preferenze di TechDraw](TechDraw_Preferences/it.md).
 
+
+
 ## Note
 
 
@@ -175,6 +185,8 @@ Le impostazioni predefinite per questi parametri sono impostate tramite le impos
 
 
 </div>
+
+
 
 ## Script
 
@@ -206,17 +218,23 @@ page = doc.Page
 view = doc.addObject("TechDraw::DrawViewPart", "View")
 page.addView(view)
 view.Source = box
-view.Direction = (0.0, 0.0, 1.0)
+view.Direction = (0, 0, 1)
 
 section = doc.addObject("TechDraw::DrawViewSection", "Section")
 page.addView(section)
 section.Source = box
 section.BaseView = view
-section.Direction = (0.0, 1.0, 0.0)
-section.SectionNormal = (-1.0, 0.0, 0.0)
+section.Direction = (0, 1, 0)
+section.SectionNormal = (-1, 0, 0)
 
 doc.recompute()
 ```
+
+## Examples
+
+For some more information about section views and some use cases, have a look at: [TechDraw section examples](TechDraw_Section_Examples.md).
+
+<img alt="" src=images/TechDraw_ExampleSection-10.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-13.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-15.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-17.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-34.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-35.png  style="width:80px;">
 
 
 <div class="mw-translate-fuzzy">

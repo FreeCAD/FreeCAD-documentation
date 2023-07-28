@@ -9,23 +9,15 @@
 
 # Sketcher LeaveSketch/zh-cn
 
+
+
 ## 描述
 
-
-<div class="mw-translate-fuzzy">
-
-**离开草图（Leave sketch）**命令将退出草图编辑模式，并清空任务选项卡（Tasks tab）。
+**离开草图（Leave sketch）**命令将退出草图编辑模式，并清空任务选项卡[Task panel](Task_panel/zh-cn.md)。
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-## 如何使用
-
-
-</div>
+## 用法
 
 
 <div class="mw-translate-fuzzy">

@@ -1,15 +1,22 @@
-# Plot Legend/de
 ---
-- GuiCommand:/de   Name:Plot Legend   MenuLocation:Plot → Legend‏‎   |Workbenches:[[Plot_Workbench   Plot]]|Shortcut:   SeeAlso:---
+- GuiCommand:/de
+   Name:Plot Legend
+   Name/de:Plot Legende
+   MenuLocation:Plot → Show/hide legend‏‎
+   Workbenches:[Plot](Plot_Workbench/de.md)
+---
+
+# Plot Legend/de
 
 
-</div>
 
 ## Beschreibung
 
-This tool allows the user to enable/disable the data series legend on a specific plot.
+Dieses Werkzeug erlaubt dem Anwender die Legende der Datenreihe eines bestimmten Diagramms zu aktivieren bzw. deaktivieren.
 
 <img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
+
+
 
 ## Anwendung
 

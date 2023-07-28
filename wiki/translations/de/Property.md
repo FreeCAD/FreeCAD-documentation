@@ -9,68 +9,315 @@ Eigenschaften spielen in FreeCAD eine sehr wichtige Rolle. Objekte in FreeCAD si
 
 ## Alle Arten von Eigenschaften 
 
-Benutzerdefinierte [skriptgenerierte Objekte](scripted_objects/de.md) können jede Art der Eigenschaften verwenden, die im Basis-System definiert sind:
+Benutzerdefinierte [skriptgenerierte Objekte](scripted_objects/de.md) können jede Art der Eigenschaften verwenden, die im Basis-System definiert ist:
 
-
-```python
-Acceleration
-Angle
-Area
-Bool
-BoolList
-Color
-ColorList
-Direction
-Distance
-ElectricPotential
-Enumeration
-ExpressionContainer
-ExpressionEngine
-File
-FileIncluded
-Float
-FloatConstraint
-FloatList
-Font
-Force
-Frequency
-Geometry
-Integer
-IntegerConstraint
-IntegerList
-IntegerSet
-Length
-Link
-LinkList
-LinkSubList
-Lists
-Map
-Material
-MaterialList
-Matrix
-PartShape
-Path
-Percent
-Placement
-PlacementLink
-PlacementList
-Position
-Precision
-Pressure
-PythonObject
-Quantity
-QuantityConstraint
-Rotation
-Speed
-Stiffness
-String
-StringList
-VacuumPermittivity
-Vector
-VectorDistance
-VectorList
-Volume
-```
+++++
+| Name                                  | Unit (if any)           | Remark                                                                                        |
++=======================================+=========================+===============================================================================================+
+| Acceleration                          | m/s\^2                  |                                                                                               |
+++++
+| AmountOfSubstance                     | mol                     |                                                                                               |
+++++
+| Angle                                 | °                       |                                                                                               |
+++++
+| Area                                  | m\^2                    |                                                                                               |
+++++
+| Bool                                  |                         |                                                                                               |
+++++
+| BoolList                              |                         |                                                                                               |
+++++
+| Color                                 |                         |                                                                                               |
+++++
+| ColorList                             |                         |                                                                                               |
+++++
+| CurrentDensity                        | A/m\^2                  |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| Density                               | kg/m\^3                 |                                                                                               |
+++++
+| Direction                             |                         |                                                                                               |
+++++
+| DissipationRate                       | m\^2/s\^3               |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| Distance                              | m                       |                                                                                               |
+++++
+| DynamicViscosity                      | Pa\*s                   |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| ElectricalCapacitance                 | F                       |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| ElectricalConductance                 | S                       |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| ElectricalConductivity                | S/m                     |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| ElectricalInductance                  | H                       |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| ElectricalResistance                  | Ohm                     |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| ElectricCharge                        | C                       |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| ElectricCurrent                       | A                       |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| ElectricPotential                     | V                       |                                                                                |
+|                                       |                         | <small>(v0.20)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| Enumeration                           |                         |                                                                                               |
+++++
+| ExpressionEngine                      |                         |                                                                                               |
+++++
+| File                                  |                         |                                                                                               |
+++++
+| FileIncluded                          |                         |                                                                                               |
+++++
+| Float                                 |                         |                                                                                               |
+++++
+| FloatConstraint                       |                         |                                                                                               |
+++++
+| FloatList                             |                         |                                                                                               |
+++++
+| Font                                  |                         |                                                                                               |
+++++
+| Force                                 | N                       |                                                                                               |
+++++
+| Frequency                             | Hz                      |                                                                                               |
+++++
+| HeatFlux                              | W/m\^2                  |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| Integer                               |                         |                                                                                               |
+++++
+| IntegerConstraint                     |                         |                                                                                               |
+++++
+| IntegerList                           |                         |                                                                                               |
+++++
+| IntegerSet                            |                         |                                                                                               |
+++++
+| InverseArea                           | 1/m\^2                  |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| InverseLength                         | 1/m                     |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| InverseVolume                         | 1/m\^3                  |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| KinematicViscosity                    | m\^2/s                  |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| Length                                | m                       |                                                                                               |
+++++
+| Link                                  |                         |                                                                                               |
+++++
+| LinkChild                             |                         |                                                                                               |
+++++
+| LinkGlobal                            |                         |                                                                                               |
+++++
+| LinkHidden                            |                         |                                                                                               |
+++++
+| LinkList                              |                         |                                                                                               |
+++++
+| LinkListChild                         |                         |                                                                                               |
+++++
+| LinkListGlobal                        |                         |                                                                                               |
+++++
+| LinkListHidden                        |                         |                                                                                               |
+++++
+| LinkSub                               |                         |                                                                                               |
+++++
+| LinkSubChild                          |                         |                                                                                               |
+++++
+| LinkSubGlobal                         |                         |                                                                                               |
+++++
+| LinkSubHidden                         |                         |                                                                                               |
+++++
+| LinkSubList                           |                         |                                                                                               |
+++++
+| LinkSubListChild                      |                         |                                                                                               |
+++++
+| LinkSubListGlobal                     |                         |                                                                                               |
+++++
+| LinkSubListHidden                     |                         |                                                                                               |
+++++
+| LuminousIntensity                     | cd                      |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| MagneticFieldStrength                 | A/m                     |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| MagneticFlux                          | Wb or V\*s              |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| MagneticFluxDensity                   | T                       |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| Magnetization                         | A/m                     |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| Map                                   |                         |                                                                                               |
+++++
+| Mass                                  | kg                      |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| Material                              |                         |                                                                                               |
+++++
+| MaterialList                          |                         |                                                                                               |
+++++
+| Matrix                                |                         |                                                                                               |
+++++
+| PartShape                             |                         | a Part property, is accessed as`Part::PropertyPartShape` |
+++++
+| Path                                  |                         |                                                                                               |
+++++
+| Percent                               |                         |                                                                                               |
+++++
+| PersistentObject                      |                         |                                                                                               |
+++++
+| Placement                             |                         |                                                                                               |
+++++
+| PlacementLink                         |                         |                                                                                               |
+++++
+| PlacementList                         |                         |                                                                                               |
+++++
+| Position                              |                         |                                                                                               |
+++++
+| Power                                 | W                       |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| Precision                             |                         |                                                                                               |
+++++
+| Pressure                              | Pa                      |                                                                                               |
+++++
+| PythonObject                          |                         |                                                                                               |
+++++
+| Quantity                              |                         |                                                                                               |
+++++
+| QuantityConstraint                    |                         |                                                                                               |
+++++
+| Rotation                              |                         |                                                                                               |
+++++
+| ShearModulus                          | Pa                      |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| SpecificEnergy                        | m\^2/s\^2 or J/kg       |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| SpecificHeat                          | J/kg/K                  |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| Speed                                 | m/s                     |                                                                                               |
+++++
+| Stiffness                             | m/s\^2                  |                                                                                               |
+++++
+| Stress                                | Pa                      |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| String                                |                         |                                                                                               |
+++++
+| StringList                            |                         |                                                                                               |
+++++
+| Temperature                           | K                       |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| ThermalConductivity                   | W/m/K                   |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| ThermalExpansionCoefficient           | 1/K                     |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| ThermalTransferCoefficient            | W/m\^2/K                |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| Time                                  | s                       |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| UltimateTensileStrength               | Pa                      |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| UUID                                  |                         |                                                                                               |
+++++
+| VacuumPermittivity                    | s\^4\*A\^2 / (m\^3\*kg) |                                                                                               |
+++++
+| Vector                                |                         |                                                                                               |
+++++
+| VectorDistance                        |                         |                                                                                               |
+++++
+| VectorList                            |                         |                                                                                               |
+++++
+| Velocity                              | m/s                     |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| Volume                                | l or m\^3               |                                                                                               |
+++++
+| VolumeFlowRate                        | l/s or m\^3/s           |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| VolumetricThermalExpansionCoefficient | 1/K                     |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| Work                                  | J                       |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| XLink                                 |                         |                                                                                               |
+++++
+| XLinkList                             |                         |                                                                                               |
+++++
+| XLinkSub                              |                         |                                                                                               |
+++++
+| XLinkSubList                          |                         |                                                                                               |
+++++
+| YieldStrength                         | Pa                      |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
+| YoungsModulus                         | Pa                      |                                                                                |
+|                                       |                         | <small>(v0.21)</small>                                                                               |
+|                                       |                         |                                                                                            |
+++++
 
 Intern wird den Eigenschaften das Präfix App:: vorangestellt `App::Property`: 
 ```python
@@ -80,7 +327,7 @@ App::PropertyFloatList
 ...
 ```
 
-Remember that these are property **types**. A single object may have many properties of the same type, but with different names.
+Nicht vergessen, diese sind **Arten** von Eigenschaften (property **types**). Ein einzelnes Objekt kann mehrere Eigenschaften derselben Art aber mit unterschiedlichen Namen besitzen.
 
 Zum Beispiel:
 
@@ -91,7 +338,7 @@ obj.addProperty("App::PropertyFloat", "Width")
 obj.addProperty("App::PropertyFloat", "Height")
 ```
 
-This indicates an object with three properties of type \"Float\", named \"Length\", \"Width\", and \"Height\", respectively.
+Dies stellt ein Objekt mit drei Eigenschaften der Art \"Float\" (Fließkommawert)dar, die \"Length\", \"Width\" und \"Height\" heißen.
 
 
 
@@ -102,7 +349,7 @@ This indicates an object with three properties of type \"Float\", named \"Length
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Ein [skriptgeneriertes Objekt](scripted_objects/de.md) wird zuerst erstellt und danach werden ihm Eigenschaften hinzugefügt. 
+Ein [skriptgeneriertes Objekt](Scripted_objects/de.md) wird zuerst erstellt und danach werden ihm Eigenschaften hinzugefügt. 
 ```python
 obj = App.ActiveDocument.addObject("Part::Feature", "CustomObject")
 
@@ -117,7 +364,9 @@ For example:
 -   Deriving from `App::FeaturePython` provides only 4 **View** properties: \"Display Mode\", \"On Top When Selected\", \"Show In Tree\", and \"Visibility\".
 -   Deriving from `Part::Feature` provides 17 **View** properties: the previous four, plus \"Angular Deflection\", \"Bounding Box\", \"Deviation\", \"Draw Style\", \"Lighting\", \"Line Color\", \"Line Width\", \"Point Color\", \"Point Size\", \"Selectable\", \"Selection Style\", \"Shape Color\", and \"Transparency\".
 
-Nevertheless, **View** properties can also be assigned using the view provider object\'s `addProperty()` method. 
+Nevertheless, **View** properties can also be assigned using the view provider object\'s `addProperty()` method.
+
+
 ```python
 obj.ViewObject.addProperty("App::PropertyBool", "SuperVisibility", "Base", "Make the object glow")
 ```
@@ -128,7 +377,10 @@ obj.ViewObject.addProperty("App::PropertyBool", "SuperVisibility", "Base", "Make
 
 In the source code, properties are located in various **src/App/Property*** files.
 
-They are imported and initialized in `[https://github.com/FreeCAD/FreeCAD/blob/9c27f1078e5ec516fe882aac1a27f5c6c6174554/src/App/Application.cpp#L1681-L1758 src/App/Application.cpp]`. {{Code|lang=cpp|code=
+They are imported and initialized in `[https://github.com/FreeCAD/FreeCAD/blob/9c27f1078e5ec516fe882aac1a27f5c6c6174554/src/App/Application.cpp#L1681-L1758 src/App/Application.cpp]`.
+
+
+{{Code|lang=cpp|code=
 #include "Property.h"
 #include "PropertyContainer.h"
 #include "PropertyUnits.h"

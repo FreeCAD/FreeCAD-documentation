@@ -9,28 +9,28 @@
 
 # View Measure Clear All/it
 
+
+
 ## Descrizione
 
-The **View Measure Clear All** command clears the active [3D view](3D_view.md)\'s [Part](Part_Workbench.md) measurements.
+Il comando **Cancella tutte le misure** cancella le misure della [3D view](3D_view/it.md) attiva di [Part](Part_Workbench/it.md).
+
+
 
 ## Utilizzo
 
-1.  There are several ways to invoke the command:
-    -   Select the **View → Visibility → <img src="images/View_Measure_Clear_All.svg" width=16px> Clear measurement** option from the menu.
-    -   Select the **Measure → <img src="images/View_Measure_Clear_All.svg" width=16px> Clear measurement** option from the 3D view context menu.
+1.  Esistono diversi modi per invocare il comando:
+    -   Selezionare l\'opzione **Visualizza → Visibilità → <img src="images/View_Measure_Clear_All.svg" width=16px> Cancella le misure** dal menu.
+    -   Selezionare l\'opzione **Misura → <img src="images/View_Measure_Clear_All.svg" width=16px> Cancella le misure** dal menu contestuale della vista 3D.
+
+
 
 ## Note
 
--   This command is identical to the [Part Measure Clear All](Part_Measure_Clear_All.md) command.
-
-
-<div class="mw-translate-fuzzy">
+-   Questo comando è identico al comando [Part Cancella tutte le misure](Part_Measure_Clear_All/it.md).
 
 
 
-
-
-</div>
 
 
 {{Std Base navi

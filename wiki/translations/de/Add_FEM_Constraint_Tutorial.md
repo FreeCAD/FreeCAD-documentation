@@ -14,11 +14,15 @@
 
 
 
-## Einführung
 
-In diesem Tutorium werden wir die Fließgeschwindigkeitsbeschränkung zu FreeCAD hinzufügen und Unterstützung für den Elmer Löser implementieren. Bitte stelle sicher, dass du [FEM Modul erweitern](Extend_FEM_Module/de.md) gelesen und verstanden hast, bevor du dieses Tutorial liest.
 
-Dieses Tutorium umfasst nur die Implementierung von Beschränkungen in Python. Im Gegensatz zu Löser und Gleichungsbeschränkungen folge der klassischen FEM Modulstruktur. Das heißt, alle Module einer Beschränkung haben dort entweder im `femobjects` oder `femviewprovider` Paket Platz.
+## Einleitung
+
+In dieser Anleitung werden wir FreeCAD die Randbedingung Strömungsgeschwindigkeit hinzufügen und die Unterstützung für den Löser Elmer implementieren. Bitte stelle sicher, dass du [FEM-Modul erweitern](Extend_FEM_Module/de.md) gelesen und verstanden hast, bevor du diese Anleitung liest.
+
+Dieses Tutorium deckt nur die Implementierung von Randbedingungen in Python ab. Im Gegensatz zu Löser und Gleichungen folgen Randbedingungen der klassischen FEM-Modulstruktur. Das heißt, alle Module einer Randbedingung befinden sich entweder im Paket `femobjects` oder im Paket `femviewprovider`.
+
+
 
 ## Zusammenfassung
 
@@ -26,6 +30,8 @@ Dieses Tutorium umfasst nur die Implementierung von Beschränkungen in Python. I
 2.  **Erstelle GUI Befehl:** Füge dem FEM Arbeitsbereich einen Befehl hinzu, der der aktiven Analyse eine Durchflussbeschränkung hinzufügt.
 3.  **Erstelle ein Aufgabenpaneel:** Das Aufgabenpaneel ist erforderlich, um dem Anwender die Möglichkeit zu gewähren, die Grenzen festzulegen, an denen er die Geschwindigkeitsbeschränkung festlegen möchte. Es macht auch die Eingabe der Parameter etwas benutzerfreundlicher.
 4.  **Erweitere Elmers Schreiber:** Füge Unterstützung für die neue Beschränkung Elmer hinzu, durch erweitern seines sif Datei Exportierers.
+
+
 
 ## Dokument-Objekt erstellen 
 
@@ -112,6 +118,8 @@ def makeConstraintFlowVelocity(name="FlowVelocity"):
     return obj
 ```
 
+
+
 ## GUI Befehl erstellen 
 
 In diesem Schritt werden wir die folgenden Dateien modifizieren:
@@ -162,6 +170,8 @@ Gui.addCommand('FEM_AddConstraintFlowVelocity', Command())
 Füge die neue Befehlsdatei zum Bausystem hinzu, wie in [FEM Modul erweitern](https://www.freecadweb.org/wiki/Extend_FEM_Module) beschrieben. Ermittle die richtige Liste, durch Suchen nach vorhandenen Befehlsmodulen.
 
 Gib den Befehl in Gui/Workbench.cpp ein, um ihn der Symbolleiste und dem Menü hinzuzufügen. Suche nach einer vorhandenen Beschränkung der gleichen Kategorie wie die neue (z.B. Flow), kopiere und füge sie ein und passe die Befehls ID an. Dies sollte zweimal durchgeführt werden. Einmal für das Menü und noch einmal für die Werkzeugleiste.
+
+
 
 ## Erstelle ein Aufgabenpaneel 
 
@@ -284,6 +294,8 @@ class ViewProxy(FemConstraint.ViewProxy):
         Gui.ActiveDocument.setEdit(vobj.Object.Name)
         return True
 ```
+
+
 
 ## Elmers Schreiber erweitern 
 

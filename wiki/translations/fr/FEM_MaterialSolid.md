@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:FEM MaterialSolid
    Name/fr:FEM Matériau pour solide
-   MenuLocation:Modèle → Matériaux → Matériau pour le solide
+   MenuLocation:Modèle → Matériaux → Matériau pour solide
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Shortcut:**M** **S**
    SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
@@ -17,9 +17,11 @@ Ajoute des propriétés de matériau à une pièce.
 ![](images/FEMMaterialSolidProperties.png ) 
 *Le panneau des tâches des matériaux FEM*
 
+
+
 ## Utilisation
 
-1.  Pour créer un nouvel objet MaterialSolid, effectuez l\'une des opérations suivantes:
+1.  Pour créer un nouvel objet MaterialSolid, effectuez l\'une des opérations suivantes :
     -   Appuyez sur le bouton **<img src="images/FEM_MaterialSolid.svg" width=16px> [Matériau pour le solide](FEM_MaterialSolid/fr.md)**.
     -   Sélectionnez l\'option **Modèle → Matériaux → <img src="images/FEM_MaterialSolid.svg" width=16px> Matériau pour le solide** dans le menu.
 2.  Pour éditer un objet MaterialSolid existant:
@@ -30,6 +32,8 @@ Ajoute des propriétés de matériau à une pièce.
 6.  Vous pouvez ajuster les propriétés des matériaux telles que la densité, le module de Young, le rapport de poisson, etc., mais la plupart des matériaux courants sont déjà disponibles dans les préréglages et ils n\'ont pas besoin d\'être modifiés.
 7.  Si vous apportez des modifications, vous pouvez enregistrer votre matériau personnalisé.
 8.  Appuyez sur le bouton **Fermer** pour fermer le panneau des tâches.
+
+
 
 ## Remarques
 

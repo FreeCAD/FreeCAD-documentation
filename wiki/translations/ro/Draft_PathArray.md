@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -27,6 +29,8 @@ Both commands can be used on 2D objects created with the [Draft Workbench](Draft
 
 <img alt="" src=images/Draft_PathArray_Example.png  style="width:400px;"> 
 *Draft PathArray*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -75,6 +79,8 @@ This mode is similar to **Align Mode** {{Value|Original}} but includes the possi
 These properties are only available if **Align Mode** is {{Value|Original}} or {{Value|Tangent}}. If **Force Vertical** is set to `True` the local coordinate system is calculated in a different manner. The **Vertical Vector** is used as a fixed normal vector. From this normal vector and the local tangent vector (the local X axis) again a cross product is calculated. But now this vector is used as the local Y axis. The orientation of the local Z axis is determined from the local X and Y axes.
 
 Using these properties can be required if one of the edged of the path is (almost) parallel to the default normal of the path.
+
+
 
 ## Proprietăți
 

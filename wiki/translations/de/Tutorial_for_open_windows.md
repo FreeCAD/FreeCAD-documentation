@@ -14,6 +14,8 @@
 
 
 
+
+
 ## Einleitung
 
 Dieses Tutorium zeigt, wie man [Arch Fenster](Arch_Window/de.md) und Türen in einem Gebäudemodell platziert, wie man sie in der 3D Ansicht als offen anzeigt und wie man eine 2D Zeichnung (Grund- und Aufriss) für das Modell erstellt. Es verwendet die [Entwurf Arbeitsbereich](Draft_Workbench/de.md), [Architektur Arbeitsbereich](Arch_Workbench/de.md) und den [Technisches Zeichnen Arbeitsbereich](TechDraw_Workbench/de.md).
@@ -23,6 +25,8 @@ Häufig verwendete Werkzeuge sind: [Entwurf Gitter](Draft_Snap_Grid/de.md), [Ent
 Siehe auch die folgende Seite für einige Videos über das Ausrichten von Fenstern.
 
 -   [Der Arbeitsbereich, der zum Erstellen von Architekturprojekten verwendet wird, heißt Arch](http://help-freecad-jpg87.fr/04_arch_ind.php)
+
+
 
 ## Einrichtung
 
@@ -35,6 +39,8 @@ Siehe auch die folgende Seite für einige Videos über das Ausrichten von Fenste
 4\. [Zoome im 3D-Ansichtsfenster heraus](Std_ViewZoomOut/de.md), wenn Du zu nahe am Raster bist.
 
 Jetzt sind wir bereit, ein einfaches Gebäude mit geschlossenen Wänden, 2 Türen und 2 Fenstern zu erstellen.
+
+
 
 ## Wände erstellen 
 
@@ -61,6 +67,8 @@ Jetzt sind wir bereit, ein einfaches Gebäude mit geschlossenen Wänden, 2 Türe
 
 <img alt="" src=images/02_T01_just_wall.png  style="width:600px;"> 
 *align=center|Die aus dem Linienzug konstruierten Wände*
+
+
 
 ## Türen und Fenster platzieren 
 
@@ -93,7 +101,7 @@ Jetzt sind wir bereit, ein einfaches Gebäude mit geschlossenen Wänden, 2 Türe
 *align=center|Fangen des Mittelpunktes der unteren Wandkante um das Fenster zu platzieren*
 
 :   
-    **Hinweis:**Der Parameter `Sill height` (Brüstungshöhe) kann nur während des ursprünglichen Erzeugens eines Fensters mittels Voreinstellung (preset) eingegeben werden. Ist das Fenster erst einmal eingefügt, lässt sich seine Lage durch Editieren der Eigenschaft **Position** `[x, y, z]` der zugrundeliegenden [Skizze](Sketcher_Sketch.md) modifizieren.
+    **Hinweis:**Der Parameter `Sill height` (Brüstungshöhe) kann nur während des ursprünglichen Erzeugens eines Fensters mittels Voreinstellung (preset) eingegeben werden. Ist das Fenster erst einmal eingefügt, lässt sich seine Lage durch Editieren der Eigenschaft **Position** `[x, y, z]` der zugrundeliegenden [Skizze](Sketcher_Workbench.md) modifizieren.
 
 
 
@@ -113,6 +121,8 @@ Beim Platzieren eines Fensters oder einer Tür mittels der Voreinstellung (prese
 **Hinweis 2:**
 
 Mitunter wird das Fenster außerhalb der [Wand](Arch_Wall/de.md) platziert. Solange es jedoch parallel zu dieser Wand ist, solltest Du imstande sein, seine Position manuell zu korrigieren.
+
+
 
 ## Die Türen öffnen 
 
@@ -157,6 +167,8 @@ Mitunter wird das Fenster außerhalb der [Wand](Arch_Wall/de.md) platziert. Sola
 <img alt="" src=images/09_T01_window_symbol_plan.png  style="width:600px;"> 
 *align=center|Tür mit Öffnungssymbol im Grundriss*
 
+
+
 ## Die Fenster öffnen 
 
 15\. Wähle im Modellbaum den unter `Window` liegenden `Sketch002` und drücke **Space** oder ändere die Eigenschaft **Visibility** auf `True`.
@@ -192,6 +204,8 @@ Mitunter wird das Fenster außerhalb der [Wand](Arch_Wall/de.md) platziert. Sola
 <img alt="" src=images/11_T01_window_all_symbol_top.png  style="width:600px;"> 
 *align=center|Auf- und Grundriss-Symbole für alle Elemente, Draufsicht*
 
+
+
 ## Erstellung eines Grundrissplans des Gebäudes 
 
 20\. Noch im [Architektur-Arbeitsbereich](Arch_Workbench/de.md) wähle im Modellbaum alle Elemente, also die [Wände](Arch_Wall/de.md), die beiden [Fenster](Arch_Window/de.md) und die beiden [Türen](Arch_Door/de.md), aus. Benutze anschließend das [Schnittebenen-Werkzeug](Arch_SectionPlane/de.md), um ein `Section`-Element zu erstellen.
@@ -226,6 +240,8 @@ Setze **All On** für [TechDraw:ArchView](TechDraw_ArchView.md)-Objekte auf `Tru
 <img alt="" src=images/13_T01_TechDraw_window_all_symbols_higher.png  style="width:600px;"> 
 *align=center|Schnittansicht des Gebäudes, mit einer zweiten Schnittdarstellung, Format DIN A4 , Maßstab 1:50*
 
+
+
 ## Erstellung einer Aufriss-Projektion des Gebäudes 
 
 25\. Gehe zurück zum [Architektur-Arbeitsbereich](Arch_Workbench/de.md). wähle im Modellbaum alle Elemente, also die [Wände](Arch_Wall/de.md), die beiden [Fenster](Arch_Window/de.md) und die beiden [Türen](Arch_Door/de.md), aus. Benutze anschließend das [Schnittebenen-Werkzeug](Arch_SectionPlane/de.md), um ein drittes `Section002` - Element zu erstellen.
@@ -241,6 +257,8 @@ Setze **All On** für [TechDraw:ArchView](TechDraw_ArchView.md)-Objekte auf `Tru
 <img alt="" src=images/14_T01_TechDraw_window_all_symbols_elevation.png  style="width:600px;"> 
 *align=center|Schnittansicht des Gebäudes, mit zwei Draufsichten und einem Aufriss, Format DIN A4, Maßstab 1:50*
 
+
+
 ## Interaktion zwischen Arch- und TechDraw-Arbeitsbereichen 
 
 Zum Zeitpunkt der Erstellung dieses Dokumentes (FreeCAD 0.18, November 2018) kann der [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) in seinen Seiten nur das darstellen, was der [Arch-Arbeitsbereich](Arch_Workbench/de.md) als [SVG](SVG/de.md) ausgibt. Das heißt, dass das Erscheinungsbild der mit dem [Arch: Schnittebenen-Werkzeug](Arch_SectionPlane/de.md) eingefügten und durch das Werkzeug [TechDraw:Arch-Ansicht](TechDraw_ArchView/de.md) dargestellten Elemente vom [Arch-Arbeitsbereich](Arch_Workbench/de.md) kontrolliert wird.
@@ -250,9 +268,9 @@ Der [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) hat nur minimale Kontrol
 Für zukünftige FreeCAD-Versionen ist eine engere Interaktion zwischen beiden Arbeitsbereichen geplant. Für diese Versionen wird erwartet, dass seit langem bestehende Probleme gelöst werden, wie zum Beispiel die Charakteristika von Linien und Flächen (Linienbreite, Linienfarbe, Flächenfarbe, Schraffuren u.a.).
 
 
-   {{TechDraw Tools navi}}
+  {{TechDraw Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > Tutorial for open windows/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > Tutorial for open windows/de

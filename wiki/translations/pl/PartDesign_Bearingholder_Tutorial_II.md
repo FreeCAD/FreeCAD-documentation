@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Modeling
-   Level:Experienced User
+- TutorialInfo:/pl
+   Topic:Modelowanie
+   Level:Użytkownik zaawansowany
    Author:NormandC
-   Time:
-   FCVersion:0.19.23300 or higher
-   Files:
+   Time: nieokreślony
+   FCVersion:0.19.23300 lub nowszy
+   Files:brak
 ---
 
 # PartDesign Bearingholder Tutorial II/pl
@@ -15,11 +16,11 @@
 
 
 
-**This tutorial was originally written for a now deprecated development version of FreeCAD. As of April 2016 these features have been integrated in the 0.17 pre-development release available [https://github.com/FreeCAD/FreeCAD/releases/tag/0.17_pre here].
-<br />
-Please note that this version of FreeCAD is still in an early stage of development. Moreover this tutorial may require updating. If you want to participate in its review and update, please post to the Wiki section of the [http://forum.freecadweb.org forum].**
+**Ten poradnik został pierwotnie napisany dla przestarzałej wersji rozwojowej FreeCAD. Od kwietnia 2016 r. funkcje te zostały zintegrowane w wersji 0.17 pre-development dostępnej [https://github.com/FreeCAD/FreeCAD/releases/tag/0.17_pre w serwisie GitHub].
+<br>
+Należy pamiętać, że ta wersja FreeCAD jest wciąż na wczesnym etapie rozwoju. Ponadto poradnik ten może wymagać aktualizacji. Jeśli chcesz wziąć udział w jego przeglądzie i aktualizacji, napisz w sekcji Wiki na [https://forum.freecad.org/viewforum.php?style=4&f=21 forum].**
 
-![Bearing Holder Tutorial - Finished bearing holder (top)\|thumb\|right\|400px](images/HolderTop2-19.jpg )
+![Poradnik dotyczący oprawki łożyska - Gotowa oprawka łożyska *(góra)*\|thumb\|right\|400px](images/HolderTop2-19.jpg )
 
 ~~As the warning at the top of the page already indicates, this **tutorial will NOT WORK unless you compile a special highly experimental branch from FreeCAD source code** and is an introductory tutorial to modeling with the PartDesign workbench in FreeCAD **using Datum planes which are a feature that does not yet exist in most FreeCAD versions**.~~
 

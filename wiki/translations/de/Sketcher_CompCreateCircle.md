@@ -1,17 +1,19 @@
 ---
 - GuiCommand:/de
-   Name:Sketcher Circles
+   Name:Sketcher CompCreateCircle
    Name/de:Sketcher AuswahlKreisErstellen
-   Icon:Sketcher_CompCreateCircle.png
-   MenuLocation:
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
 ---
 
 # Sketcher CompCreateCircle/de
 
+
+
 ## Beschreibung
 
 **Einen Kreis erstellen** ist eine Symbolschaltfläche in der Skizzierer Geometrien Symbolleiste, die Werkzeuge zum Erstellen eines Kreises gruppiert. Klicke auf den Abwärtspfeil auf seiner rechten Seite, um die Symbole darunter zu erweitern und ein Werkzeug auszuwählen.
+
+
 
 ## Kreistypen
 

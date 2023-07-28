@@ -1,20 +1,23 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:TechDraw StackBottom
-   MenuLocation:TechDraw → Stacking → Move view to bottom of stack
+   Name/de:TechDraw StapelUnterseite
+   MenuLocation:TechDraw → Stacking → Ansicht zur Stapelunterseite bewegen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
-   Version:1.0
-   SeeAlso:[TechDraw StackTop](TechDraw_StackTop/de.md), [TechDraw StackUp](TechDraw_StackUp/de.md), [TechDraw StackDown](TechDraw_StackDown/de.md)
+   Version:0.21
+   SeeAlso:[TechDraw StapelOberseite](TechDraw_StackTop/de.md), [TechDraw StapelNachOben](TechDraw_StackUp/de.md), [TechDraw StapelNachUnten](TechDraw_StackDown/de.md)
 ---
 
 # TechDraw StackBottom/de
 
+
+
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_StackTop.svg  style="width:24px;"> **TechDraw StackBottom** Werkzeug bewegt Ansichten an die Unterseite des Stapels. Die Stapel Reihenfolge bestimmt die Tiefe der Sichtbarkeit von Ansichten auf einer Seite.
+Das Werkzeug **TechDraw StapelUnterseite** bewegt Ansichten zur Unterseite des Stapels. Die Stapelreihenfolge bestimmt, welche Ansicht auf dem Zeichnungsblatt dargestellt wird (und welche bei Überschneidung verdeckt wird).
 
-Siehe [TechDraw StackTop](TechDraw_StackTop/de.md).
+Siehe [TechDraw StapelOberseite](TechDraw_StackTop/de.md).
 
 
 

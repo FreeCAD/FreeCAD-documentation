@@ -642,8 +642,9 @@ Jednym ze sposobów rozwiązania tego problemu jest po prostu usunięcie wszystk
 -   [FreeCAD assembly3](https://github.com/realthunder/FreeCAD_assembly3) repozytorium i dokumentacja.
 -   [podgląd Złożenie 3](https://forum.freecadweb.org/viewtopic.php?f=20&t=25712), duży wątek dyskusyjny.
 -   [Przewodnik dla środowiska Złożenie 3](http://help-freecad-jpg87.fr/02_ass_ind.php) autorstwa jpg87.
--   [Aktualny status Złożenia](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
--   [Zewnętrzne środowiska pracy](External_workbenches/pl.md)
+-   Poradniki dotyczące [Złożenia kinematycznego](Tutorial_KinematicAssembly/pl.md), [Szkieletu kinematycznego](Tutorial_KinematicSkeleton/pl.md) oraz dopasowania [Sterownika kinematycznego](Tutorial_KinematicController/pl.md).
+-   [Aktualny status Złożenia](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583).
+-   [Zewnętrzne środowiska pracy](External_workbenches/pl.md).
 
 
 

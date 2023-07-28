@@ -21,6 +21,8 @@ There are various properties for Names:
 
 In summary, the `Name` essentially acts like a unique identifier (UID) for an object. Since a unique `Name` is very restrictive, all objects also have a `Label` property which allows \"renaming\" the object to something more descriptive. The internal `Name` actually remains fixed, but the user editable `Label` can be used in most situations where the `Name` would be used. In common usage in the program and the documentation, \"renaming\" means changing the `Label` and not the actual `Name` of the object.
 
+
+
 ## Etykiety
 
 There are various properties for Labels:
@@ -38,9 +40,9 @@ There are various properties for Labels:
 <<Label may use UTF8 characters>>.Width
 ```
 
-### Label2 <small>(v0.19)</small> 
+### Label2
 
-This property was introduced in v0.19. It is a simple string that can contain arbitrary text, and therefore can be used for documenting (describing with more detail) the created object.
+It is a simple string that can contain arbitrary text, and therefore can be used for documenting (describing with more detail) the created object.
 
 -   In the [tree view](Tree_view.md) edit the field next to the icon, under \"Description\", by clicking on it and pressing **F2** (or rather **Return** on macOS).
 -   You can also change this property by modifying the `Label2` attribute from the [Python console](Python_console.md).
@@ -74,6 +76,8 @@ The `addObject` function has two basic string arguments.
     -   The `Name` cannot start with a number; it must start with a letter or the underscore, `[_a-zA-Z]`. For example, `"123ABC"` is converted to `"_23ABC"`.
     -   The `Name` is fixed at creation time; it cannot be modified afterwards.
     -   The `Name` must be unique in the entire document. If the same `"Name"` is used, a sequential number will be appended automatically so that the resulting names are unique; for example, if `"Name"` already exists, then new objects will be called `"Name001"`, `"Name002"`, `"Name003"`, etc.
+
+
 
 ### Etykieta
 

@@ -1,53 +1,62 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign SubtractiveEllipsoid
-   MenuLocation:Part Design → Create a subtractive primitive → Subtractive Ellipsoid
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Subtraktywna elipsoida
+   MenuLocation:Projekt Części → Utwórz cechę przez odjęcie → Subtraktywna elipsoida
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign AdditiveEllipsoid](PartDesign_AdditiveEllipsoid.md)
+   SeeAlso:[Komponent bryła pierwotna do odjęcia](PartDesign_CompPrimitiveSubtractive/pl.md), [Addytywna elipsoida](PartDesign_AdditiveEllipsoid/pl.md)
 ---
 
 # PartDesign SubtractiveEllipsoid/pl
 
-## Description
 
-Inserts a subtractive ellipsoid in the active Body. Its shape is subtracted from the existing solid.
+
+## Opis
+
+Funkcja ta wstawia pierwotną elipsoidę odejmowaną od aktywnej Zawartości. Jej kształt jest odejmowany od istniejącej bryły.
 
 ![](images/PartDesign_SubtractiveEllipsoid_example.svg )
 
-*On the left: active body (A) shown in grey and subtractive ellipsoid (B) shown in transparent red; result on the right.*
+*Po lewej: aktywna zawartość (A) pokazana w kolorze szarym i elipsoida do odjęcia (B) pokazana w kolorze czerwonym z przeźroczystością. Wynik po prawej*.
 
-## Usage
 
-1.  Press the **<img src="images/PartDesign_SubtractiveEllipsoid.svg" width=24px> '''Subtractive Ellipsoid'''** button. **Note**: the Subtractive Ellipsoid is part of an icon menu labelled *Create an subtractive primitive*. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get to the Ellipsoid button, click on the down arrow besides the visible icon and select Subtractive Ellipsoid in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  An Ellipsoid feature appears under the active Body.
 
-## Options
+## Użycie
 
-The Ellipsoid can be edited after its creation in two ways:
+1.  Naciśnij przycisk **<img src="images/PartDesign_SubtractiveEllipsoid.svg" width=24px> '''Subtraktywna elipsoida'''**. **Uwaga**: Subtraktywna elipsoida jest częścią menu narzędzi o nazwie **Utwórz bryłę pierwotną do odjęcia**. Po uruchomieniu programu FreeCAD, Subtraktywny prostopadłościan wyświetlany jest na pasku narzędzi domyślnie. Aby przejść do funkcji Elipsoia, kliknij strzałkę w dół na widocznej ikonce i wybierz z menu opcję Subtraktywna elipsoida.
+2.  Ustaw parametry bryły i [dołączenia](Part_EditAttachment/pl.md).
+3.  Kliknij **OK**.
+4.  Pod aktywnym obiektem Zawartość pojawi się element Elipsoia.
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
 
-## Properties
 
--    **Attachment**: defines the attachment mode as well as the Attachment Offset. See [Part EditAttachment](Part_EditAttachment.md).
+## Opcje
 
--    **Label**: label given to the Ellipsoid object. Change to suit your needs.
+Elipsoidę można edytować po jej utworzeniu na dwa sposoby:
 
--    **Radius1**: the radius value along the ellipsoid\'s vertical axis; by default, parallel to the Z-axis.
+-   Klikając ją dwukrotnie w drzewie modelu lub klikając prawym przyciskiem myszy i wybierając **Edytuj bryłę pierwotną** z menu podręcznego. Spowoduje to wyświetlenie parametrów bryły pierwotnej.
+-   Poprzez [Edytor właściwości](Property_editor/pl.md).
 
--    **Radius2**: the radius value along the ellipsoid\'s length; by default, parallel to the X-axis.
 
--    **Radius3**: the radius value along the ellipsoid\'s width; by default, parallel to the Y-axis. At the default value of zero, the ellipsoid forms an [oblate spheroid](http://en.wikipedia.org/wiki/Oblate_spheroid).
 
--    **Angle1**: (labelled *V parameter* in the Primitive parameters) lower truncation of the ellipsoid, parallel to the circular cross section (-90 degrees in a full spheroid)
+## Właściwości
 
--    **Angle2**: (unlabelled in the Primitive parameters) upper truncation of the ellipsoid, parallel to the circular cross section (90 degrees in a full spheroid).
+-    **Dołączenie**: definiuje tryb dołączania, a także przesunięcie dołączania. Zobacz też [Część: Edycja mocowania](Part_EditAttachment/pl.md).
 
--    **Angle3**: (labelled *U parameter* in the Primitive parameters) angle of rotation of the elliptical cross section (360 degrees in a full spheroid).
+-    **Etykieta**: Etykieta nadana obiektowi Elipsoida. Zmień zgodnie z własnymi potrzebami.
+
+-    **Promień1**: wartość promienia wzdłuż pionowej osi elipsoidy; domyślnie równoległa do osi Z.
+
+-    **Promień2**: wartość promienia wzdłuż długości elipsoidy; domyślnie równoległa do osi X.
+
+-    **Promień3**: wartość promienia wzdłuż szerokości elipsoidy, domyślnie równolegle do osi Y. Przy domyślnej wartości zero, elipsoida tworzy [spłaszczoną sferoidę](http://en.wikipedia.org/wiki/Oblate_spheroid).
+
+-    **Kąt1**: *(oznaczony jako **parametr V** w parametrach Prymitywu)* dolne obcięcie elipsoidy, równoległe do przekroju kołowego *(-90° w pełnej sferoidzie)*.
+
+-    **Kąt2**: *(nieoznaczone w parametrach Prymitywu)* górne obcięcie elipsoidy, równoległe do przekroju kołowego *(90° w pełnej sferoidzie)*.
+
+-    **Kąt3**: *(oznaczony jako **parametr U** w parametrach Prymitywu)* kąt obrotu eliptycznego przekroju poprzecznego *(360° w pełnej sferoidzie)*.
 
 
 

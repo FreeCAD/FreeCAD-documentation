@@ -28,6 +28,8 @@ The **Std View Menu** is one of the 7 sub-menus in the [standard menu](Standard_
 The View menu provides tools to change the [3D view](3D_view.md) and the view properties of objects in the model, and tools related to the display of interface components.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 Conține toate funcțiile legate de afișarea modelului, cum ar prezentarea panourilor, zoom, etc.
@@ -111,7 +113,7 @@ The following tools are available in this menu:
 
 </div>
 
--   <img alt="" src=images/Std_SelBoundingBox.svg  style="width:32px;"> [Bounding box](Std_SelBoundingBox.md): Toggles the bounding box highlighting mode. <small>(v0.19)</small> 
+-   <img alt="" src=images/Std_SelBoundingBox.svg  style="width:32px;"> [Bounding box](Std_SelBoundingBox.md): Toggles the bounding box highlighting mode.
 
 -   Stereo
     -   <img alt="" src=images/Std_ViewIvStereoRedGreen.svg  style="width:32px;"> [Stereo red/cyan](Std_ViewIvStereoRedGreen/ro.md): Switches to red/cyan stereo view.
@@ -181,14 +183,6 @@ The following tools are available in this menu:
 
 <div class="mw-translate-fuzzy">
 
--   Toggle visibility
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   Toggle navigation/edit mode
 
 
@@ -248,16 +242,16 @@ The following tools are available in this menu:
     -   [DAG view](DAG_view/ro.md)
 
 -   Tree view actions
-    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sync view](Std_TreeSyncView.md): Toggles the [Tree view](Tree_view.md) SyncView mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Sync selection](Std_TreeSyncSelection.md): Toggles the Tree view SyncSelection mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Sync placement](Std_TreeSyncPlacement.md): Toggles the Tree view SyncPlacement mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Pre-selection](Std_TreePreSelection.md): Toggles the Tree view PreSelection mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeRecordSelection.svg  style="width:32px;"> [Record selection](Std_TreeRecordSelection.md): Toggles the Tree view RecordSelection mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeSingleDocument.svg  style="width:32px;"> [Single document](Std_TreeSingleDocument.md): Switches the Tree view to SingleDocument mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeMultiDocument.svg  style="width:32px;"> [Multi document](Std_TreeMultiDocument.md): Switches the Tree view to MultiDocument mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeCollapseDocument.svg  style="width:32px;"> [Collapse/Expand](Std_TreeCollapseDocument.md): Switches the Tree view to CollapseDocument mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Initiate dragging](Std_TreeDrag.md): Initiates a drag operation for selected objects in the Tree view. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Go to selection](Std_TreeSelection.md): Scrolls the Tree view to the first created object in a 3D view selection. <small>(v0.19)</small> 
+    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sync view](Std_TreeSyncView.md): Toggles the [Tree view](Tree_view.md) SyncView mode.
+    -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Sync selection](Std_TreeSyncSelection.md): Toggles the Tree view SyncSelection mode.
+    -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Sync placement](Std_TreeSyncPlacement.md): Toggles the Tree view SyncPlacement mode.
+    -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Pre-selection](Std_TreePreSelection.md): Toggles the Tree view PreSelection mode.
+    -   <img alt="" src=images/Std_TreeRecordSelection.svg  style="width:32px;"> [Record selection](Std_TreeRecordSelection.md): Toggles the Tree view RecordSelection mode.
+    -   <img alt="" src=images/Std_TreeSingleDocument.svg  style="width:32px;"> [Single document](Std_TreeSingleDocument.md): Switches the Tree view to SingleDocument mode.
+    -   <img alt="" src=images/Std_TreeMultiDocument.svg  style="width:32px;"> [Multi document](Std_TreeMultiDocument.md): Switches the Tree view to MultiDocument mode.
+    -   <img alt="" src=images/Std_TreeCollapseDocument.svg  style="width:32px;"> [Collapse/Expand](Std_TreeCollapseDocument.md): Switches the Tree view to CollapseDocument mode.
+    -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Initiate dragging](Std_TreeDrag.md): Initiates a drag operation for selected objects in the Tree view.
+    -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Go to selection](Std_TreeSelection.md): Scrolls the Tree view to the first created object in a 3D view selection.
 
 
 <div class="mw-translate-fuzzy">

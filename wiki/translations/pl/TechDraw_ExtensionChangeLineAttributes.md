@@ -1,30 +1,35 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ExtensionChangeLineAttributes
-   MenuLocation:TechDraw → Extensions: Attributes/Modifications → Change Line Attributes
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Rozszerzenie Zmień atrybuty linii
+   MenuLocation:Rysunek Techniczny → Rozszerzenia: Atrybuty / Modyfikatory → Zmień atrybuty linii
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md)
+   SeeAlso:[Wybierz atrybuty linii](TechDraw_ExtensionSelectLineAttributes/pl.md)
 ---
 
 # TechDraw ExtensionChangeLineAttributes/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_ExtensionChangeLineAttributes.svg  style="width:24px;"> **TechDraw ExtensionChangeLineAttributes** tool changes the attributes (style, width and color) of cosmetic lines and centerlines.
+
+## Opis
+
+Narzędzie **Zmień atrybuty linii** zmienia atrybuty *(styl, szerokość i kolor)* linii kosmetycznych i linii środkowych.
 
 <img alt="" src=images/TechDraw_ExtensionChangeLineAttributesExample.png  style="width:300px;"> 
-*On the right centerlines with updated line attributes: style&#61;DashDot, width&#61;Thin and color&#61;Blue*
+*Po prawej linie środkowe ze zaktualizowanymi atrybutami linii: styl&#61; Kreska kropka, szerokość&#61; Cienka i kolor&#61; Niebieski*
 
-## Usage
 
-1.  Optionally specify the line attributes with the <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) tool.
-2.  Select one or more cosmetic lines and/or centerlines.
-3.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionChangeLineAttributes.svg" width=16px> [TechDraw ExtensionChangeLineAttributes](TechDraw_ExtensionChangeLineAttributes.md)** button.
-    -   Select the **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionChangeLineAttributes.svg" width=16px> Change Line Attributes** option from the menu.
-4.  The attributes of the selected lines are updated.
+
+## Użycie
+
+1.  Opcjonalnie określ atrybuty linii za pomocą narzędzia <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [Wybierz atrybuty linii](TechDraw_ExtensionSelectLineAttributes/pl.md).
+2.  Wybierz jedną lub więcej linii kosmetycznych i / lub linii środka.
+3.  Narzędzie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionChangeLineAttributes.svg" width=16px> '''Zmień atrybuty linii'''**.
+    -   Wybierz z menu **Rysunek Techniczny → Tozszerzenia: Atrybuty / Modyfikatory → <img src="images/TechDraw_ExtensionChangeLineAttributes.svg" width=16px> Zmień atrybuty linii**.
+4.  Atrybuty wybranych linii zostaną zaktualizowane.
 
 
 

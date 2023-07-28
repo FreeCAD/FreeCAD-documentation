@@ -1,76 +1,97 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign Revolution
-   MenuLocation:Part Design → Create an additive feature → Revolution
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[PartDesign Groove](PartDesign_Groove.md)
+   Name/pl:Projekt Części: Wyciągnij przez obrót
+   MenuLocation:Projekt Części → Utwórz cechę przez dodanie → Wyciągnij przez obrót
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
+   SeeAlso:[Rowek](PartDesign_Groove/pl.md)
 ---
 
 # PartDesign Revolution/pl
 
-## Description
 
-The **Revolution** tool creates a solid by revolving a selected sketch or 2D object about a given axis.
+
+## Opis
+
+Narzędzie **Wyciągnij przez obrót** tworzy bryłę poprzez obrót wybranego szkicu lub obiektu 2D wokół określonej osi.
 
 ![](images/PartDesign_Revolution_example.svg ) 
-*Above: sketch (A) is revolved 270 degrees counter-clockwise around axis (B); resulting solid (C) is shown right.*
+*Powyżej: szkic ''(A)'' jest obracany o 270 stopni w kierunku przeciwnym do ruchu wskazówek zegara wokół osi ''(B)'', wynikowa bryła ''(C)'' jest pokazana po prawej stronie.*
 
-## Usage
 
-1.  Select the sketch to be revolved. A face on the existing solid can alternatively be used.
-2.  Press the **<img src="images/PartDesign_Revolution.svg" width=24px> '''Revolution'''** button.
-3.  Set the Revolution parameters (see next section).
-4.  Press **OK**.
 
-## Options
+## Użycie
 
-When creating a revolution, the **Revolution parameters** dialogue offers several parameters specifying how the sketch should be revolved.
+1.  Wybierz szkic, który ma zostać obrócony. Alternatywnie można użyć ściany na istniejącej bryle.
+2.  Naciśnij przycisk **<img src="images/PartDesign_Revolution.svg" width=24px> '''Wyciągnij przez obrót'''**.
+3.  Ustaw parametry wyciągnięcia *(patrz następna sekcja)*.
+4.  Naciśnij przycisk **OK**.
+
+
+
+## Opcje
+
+Podczas tworzenia obrotu okno dialogowe *Parametry wyciągnięcia przez obrót* oferuje kilka różnych właściwości określających sposób obrotu szkicu.
 
 +++
-| ![](images/partdesign_revolution_parameters.png ) | ### Axis                                                                                                                                                                                                                                                                                                                                                                    |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | This option specifies the axis about which the sketch is to be revolved.                                                                                                                                                                                                                                                                                                    |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | -   **Vertical sketch axis**: selects the vertical sketch axis.                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | -   **Horizontal sketch axis**: selects the horizontal sketch axis.                                                                                                                                                                                                                                                                                                         |
-|                                                                                  | -   **Construction line**: selects a construction line contained in the sketch used by the Revolution. The drop down list will contain an entry for each construction line. The first construction line will be labelled *Construction line 1*.                                                                                                                             |
-|                                                                                  | -   **Base (X/Y/Z) axis**: selects the X, Y or Z axis of the Body\'s Origin.                                                                                                                                                                                                                                                                                                |
-|                                                                                  | -   **Select reference\...**: allows selection in the 3D view of an edge on the Body, or a [datum line](PartDesign_Line.md).                                                                                                                                                                                                                                        |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | ### Angle                                                                                                                                                                                                                                                                                                                                                                   |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | This controls the angle through which the revolution is to be formed, e.g. 360° would be a full, contiguous revolution. The images in the [examples](#Examples.md) section demonstrate some of the possibilities with specifying different angles. It is not possible to specify negative angles (use the **Reversed** option instead) or angles greater than 360°. |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | ### Symmetric to plane                                                                                                                                                                                                                                                                                                                                 |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | If checked, the revolution will extend half of the specified angle in both directions from the sketch plane.                                                                                                                                                                                                                                                                |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | ### Reversed                                                                                                                                                                                                                                                                                                                                                                |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | If checked, the direction of revolution is reversed from default clockwise to counterclockwise.                                                                                                                                                                                                                                                                             |
+| ![](images/partdesign_revolution_parameters.png ) |                                                                                                                                                                                                                                                                                                  |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                  | ### Oś                                                                                                                                                                                                                                                                                                                                    |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                  | Ta opcja określa oś, wokół której szkic ma być obracany.                                                                                                                                                                                                                                                                                  |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                  | -   **Pionowa oś szkicu**: wybiera pionową oś szkicu.                                                                                                                                                                                                                                                                                     |
+|                                                                                  | -   **Pozioma oś szkicu**: wybiera poziomą oś szkicu.                                                                                                                                                                                                                                                                                     |
+|                                                                                  | -   **Linia konstrukcyjna**: wybiera linię konstrukcyjną zawartą w szkicu używanym przez wyciągnięcie. Lista rozwijana będzie zawierać pozycję dla każdej linii konstrukcyjnej. Pierwsza linia konstrukcyjna będzie oznaczona jako *Linia konstrukcyjna 1*.                                                                               |
+|                                                                                  | -   **Oś bazowa (X/Y/Z)**: wybiera oś X, Y lub Z odniesienia położenia bryły.                                                                                                                                                                                                                                                             |
+|                                                                                  | -   **Wybierz odniesienie \...**: umożliwia wybór w widoku 3D krawędzi na bryle lub [linii odniesienia](PartDesign_Line/pl.md).                                                                                                                                                                                                   |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                  |                                                                                                                                                                                                                                                                                                 |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                  | ### Kąt                                                                                                                                                                                                                                                                                                                                   |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                  | Kontroluje to kąt, przez który ma zostać utworzony obrót, np. 360° będzie pełnym, ciągłym obrotem. Obrazy w sekcji [Przykłady](#Przykłady.md) demonstrują niektóre z możliwości określania różnych kątów. Nie jest możliwe określenie kątów ujemnych (zamiast tego należy użyć opcji **Odwrócony**) lub kątów większych niż 360°. |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                  |                                                                                                                                                                                                                                                                                    |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                  | ### Symetrycznie do płaszczyzny                                                                                                                                                                                                                                                                             |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                  | Jeśli opcja ta jest zaznaczona, obrót będzie rozciągał się o połowę określonego kąta w obu kierunkach od płaszczyzny szkicu.                                                                                                                                                                                                              |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                  |                                                                                                                                                                                                                                                                                              |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                  | ### Odwrócony                                                                                                                                                                                                                                                                                                                             |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                  | Jeśli opcja zostanie zaznaczona, kierunek obrotu ulegnie odwróceniu z domyślnego zgodnego z ruchem wskazówek zegara na przeciwny.                                                                                                                                                                                                         |
 +++
 
-## Properties
 
-Below are properties which can be defined after creation of the feature. Data properties *Base* and *Axis* are uneditable.
 
--    **Angle**: angle of rotation. See [Angle](#Angle.md).
+## Właściwości
 
--    **Label**: label given to the operation, can be changed at convenience.
+Poniżej znajdują się właściwości, które można zdefiniować po utworzeniu elementu. Właściwości danych \"Podstawowe\" i \"Oś\" nie można edytować.
 
--    **Midplane**: true or false. See [Symmetric to plane](#Symmetric_to_plane.md).
+-    **Kąt**: kąt obrotu. Patrz sekcja [Kąt](#Kąt.md).
 
--    **Reversed**: true or false. See [Reversed](#Reversed.md).
+-    **Etykieta**: etykieta nadana operacji, może zostać zmieniona w dogodny sposób.
 
--    **Refine**: true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details.
+-    **Midplane**: przyjmuje wartość {{true/pl}} lub {{false/pl}}. Zobacz sekcję [Symetrycznie do płaszczyzny](#Symetrycznie_do_płaszczyzny.md).
 
-## Examples
+-    **Odwrócony**: przyjmuje wartość prawda lub fałsz. Zobacz sekcję [Odwrócony](#Odwrócony.md).
 
-![Example revolution using a construction line as the Revolution axis: In this image the angle is 75°, revolution is about the construction line (Sketch axis 0).](images/PartDesign_Revolution_axis_fromconstructionlines1.jpg )
+-    **Ulepsz**: przyjmuje wartość {{true/pl}} lub {{false/pl}}. Ustawienie na prawda powoduje oczyszczenie bryły z resztek krawędzi pozostawionych przez elementy. Zobacz stronę [Udoskonal kształt](Part_RefineShape/pl.md) aby uzyskać więcej szczegółów.
 
-## Useful links 
 
-A [detailed example of use](http://forum.freecadweb.org/viewtopic.php?f=3&t=3674) on the forum.
+
+## Przykłady
+
+![Przykładowy obrót przy użyciu linii konstrukcyjnej jako osi obrotu: Na tym obrazku kąt wynosi 75°, obrót odbywa się wokół linii konstrukcyjnej *(oś szkicu 0)*.](images/PartDesign_Revolution_axis_fromconstructionlines1.jpg )
+
+
+
+## Przydatne odnośniki internetowe 
+
+[Szczegółowy przykład użycia](http://forum.freecadweb.org/viewtopic.php?f=3&t=3674) na forum.
 
 
 

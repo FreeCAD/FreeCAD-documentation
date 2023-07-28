@@ -14,6 +14,8 @@
 
 
 
+
+
 ## Introducción
 
 Este tutorial fue escrito originalmente por Drei, y fue reescrito e ilustrado por vocx.
@@ -35,6 +37,8 @@ Para una descripción más profunda del croquizador, lee la [Referencia del croq
 ![](images/00_Sk01_Sketcher_fully_constrained_final.png ) 
 *Resultado final del croquis, con toda la geometría totalmente restringida, incluida la geometría de construcción para el soporte.*
 
+
+
 ## Instalación
 
 1\. Abre FreeCAD, crea un nuevo documento vacío con **Archivo → [<img src=images/Std_New.svg style="width:16px"> [Nuevo](Std_New/es.md)**.
@@ -46,6 +50,8 @@ Algunas acciones para recordar:
 -   Pulsar el botón derecho del ratón, o pulsar **Esc** en el teclado una vez, para deseleccionar la herramienta activa en el modo de edición.
 -   Para salir del modo de edición de croquis, pulse el botón **Cerrado** en el [panel de tareas](task_panel/es.md), o pulse **Esc** dos veces en el teclado.
 -   Para entrar de nuevo en el modo de edición, haz doble clic en el croquis en la [vista de árbol](tree_view/es.md), o selecciónalo, y luego haz clic en el **[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [Editar croquis](Sketcher_EditSketch/es.md)**.
+
+
 
 ## Crear un croquis 
 
@@ -67,6 +73,8 @@ la [vista de árbol](tree_view/es.md) cambiará al [panel de tareas](task_panel/
 
 
 *Parte superior del [panel de tareas](task_panel/es.md) del croquizador.*
+
+
 
 ## Geometría de la construcción 
 
@@ -99,11 +107,15 @@ Mira las secciones **Restricciones** y **Elementos** para ver la nueva lista de 
 
 *Líneas de construcción que forman una forma de estrella con su centro en el origen.*
 
+
+
 ## Geometría real 
 
 La geometría real debe hacer una forma cerrada si se va a utilizar como un perfil que pueda ser extruido por herramientas como **[<img src=images/PartDesign_Pad.svg style="width:16px"> [DiseñoPiezas Pastilla](PartDesign_Pad/es.md)**.
 
 Asegúrate de que no estás en modo construcción haciendo clic en **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Conmutar construcción](Sketcher_ToggleConstruction/es.md)**, si no has salido previamente de este modo.
+
+
 
 ### Arcos exteriores 
 
@@ -127,6 +139,8 @@ Asegúrate de que no estás en modo construcción haciendo clic en **[<img src=i
 
 *Arcos circulares añadidos en los puntos finales de las líneas de construcción. También un círculo central.*
 
+
+
 ### Arcos interiores 
 
 6\. Crear un arco entre cada par de los anteriores O-arcos.
@@ -143,6 +157,8 @@ En resumen, los arcos O deben tener su curvatura hacia fuera y su concavidad hac
 
 *Arcos circulares añadidos entre el primer conjunto de arcos colocados.*
 
+
+
 ## Restricciones
 
 Vuelve a echar un vistazo al [panel de tareas](task_panel/es.md). Debido a los nuevos elementos geométricos que hemos dibujado, la sección **Mensajes del solucionador** indica aún más **grados de libertad**. Un **grado de libertad** (DOF) indica un posible movimiento de un elemento. Por ejemplo, un punto se puede mover tanto en dirección horizontal como vertical, por lo que tiene dos grados de libertad. Una línea está definida por dos puntos, por lo que en total tiene cuatro grados de libertad. Si fijamos uno de esos puntos, entonces todo el sistema sólo dispone de dos grados de libertad; si además fijamos el movimiento horizontal del punto restante, sólo nos queda un grado de libertad; y si también fijamos el movimiento vertical de este punto, entonces el último grado de libertad desaparece, y la línea ya no puede moverse de su posición.
@@ -155,7 +171,11 @@ Hay dos tipos principales de restricciones:
 
 -    **Las restricciones de datos**definen las características de las formas especificando las dimensiones, por ejemplo, una longitud numérica o un ángulo.
 
+
+
 ## Restricciones geométricas 
+
+
 
 ### Igualdad de longitud y radio 
 
@@ -201,6 +221,8 @@ if you wish to temporarily disable the constraint, you may select it and press *
 
 *Sketch with equality constraints applied to the construction lines, and to the two sets of arcs.*
 
+
+
 ### Tangencia
 
 8\. Apply tangency to the arcs.
@@ -222,9 +244,13 @@ As of this step, we have now created a closed profile, as all arcs have been tie
 
 *Sketch with tangential constraints applied to the arcs, which closes the shape.*
 
+
+
 ## Restricciones de los datos 
 
 These constraints specify the numerical distances between two points, and angles between two lines.
+
+
 
 ### Distancias y ángulos 
 
@@ -248,6 +274,8 @@ These constraints specify the numerical distances between two points, and angles
 
 
 *Sketch with length constraint applied to one vertical construction line (left), and angle constraints to three pairs of construction lines (right).*
+
+
 
 ### Radio
 
@@ -277,6 +305,8 @@ We should end up with a fully constrained sketch. It can be confirmed by noticin
 
 *Sketch with all geometrical and datum constraints applied.*
 
+
+
 ## Extrusión
 
 12\. Ahora que tenemos un croquis totalmente restringido, puede utilizarse para crear un cuerpo sólido.
@@ -292,6 +322,8 @@ We should end up with a fully constrained sketch. It can be confirmed by noticin
 
 *Izquierda: croquis totalmente restringido en el que sólo se muestran las restricciones más importantes. Derecha: extrusión sólida producida con [DiseñoPiezas Pastilla](PartDesign_Pad/es.md).*
 
+
+
 ## Información adicional 
 
 Para una descripción más profunda del croquizador, visita la documentación de [Ambiente de trabajo Croquizador](Sketcher_Workbench/es.md) y lee también la [Referencia Croquizador](Sketcher_reference/es.md).
@@ -304,9 +336,11 @@ La restricción de un croquis puede hacerse de muchas maneras diferentes. En gen
 -   Intente utilizar otra geometría de construcción.
 
 
- {{Sketcher Tools navi}}
+{{Sketcher Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/es

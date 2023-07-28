@@ -9,6 +9,8 @@
    Files:[https://github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true WhiffleBall_Tutorial_FCWiki.FCStd]
 }}
 
+
+
 ## Einführung
 
 Dieses Tutorium wurde ursprünglich von Roland Frank (†2017, r-frank) verfasst, und es wurde von vocx neu geschrieben und illustriert.
@@ -27,6 +29,8 @@ Du wirst üben:
 ![](images/10_T03_Part_ball_fillet.png ) 
 *Endgültiges Modell des Wiffleballs*
 
+
+
 ## Einrichtung
 
 1\. Öffne FreeCAD, erstelle ein neues leeres Dokument mit **Datei → [Neu](File:Std_New.svg   16px]] [[Std_New/de.md)**, und wechsle zum [Part Arbeitsbereich](Part_Workbench/de.md).
@@ -34,6 +38,8 @@ Du wirst üben:
 :   1.1. Drücke die **[Isometrische Ansicht](File:Std_ViewIsometric.svg   16px]] [[Std_ViewIsometric/de.md)** Schaltfläche oder drücke **0** auf dem Ziffernblock deiner Tastatur, um die Ansicht auf isometrisch zu ändern und die 3D Volumenkörper besser zu visualisieren.
 :   1.2. Drücke die **[Ansicht alles einpassen](File:Std_ViewFitAll.svg   16px]] [[Std_ViewFitAll/de.md)** Schaltfläche wann immer du Objekte zum Schwenken und Zoomen der [3D Ansicht](3D_view/de.md) hinzufügst, so dass alle Elemente in der Ansicht zu sehen sind.
 :   1.3. Halte **Strg** gedrückt, währen du klickst, um mehrere Elemente auszuwählen. Wenn du etwas falsch ausgewählt hast oder die Auswahl aufheben möchtest, klicke einfach auf eine leere Stelle in der [3D Ansicht](3D_view/de.md).
+
+
 
 ## Einfügen von Grundelementwürfeln 
 
@@ -67,6 +73,8 @@ Du wirst üben:
 :   4.9. Ändere **Z** auf {{incode   -40 mm}}.
 :   4.10. Drücke die **OK** Schaltfläche um den Dialog zu schließen.
 
+
+
 ## Ändern der visuellen Eigenschaften 
 
 
@@ -82,6 +90,8 @@ Du wirst üben:
 
 ![](images/01_T03_Part_cubes_visibility.png ) 
 *Solid cube inside another solid cube*
+
+
 
 ## Einfügen von Grundelementzylindern 
 
@@ -103,7 +113,7 @@ Du wirst üben:
 :   7.4. Change **Height** to {{incode   120 mm}}.
 :   7.5. Open the [Placement](Std_Placement.md) dialog.
 :   7.6. Change **Y** to {{incode   60 mm}}.
-:   7.7. Change the **Rotation** to {{incode   Rotation axis with angle}}; **Axis** to {{incode   X}} (by setting the {{incode   X}}, {{incode   Y}} and {{incode   Z}} values of the axis inputboxes to {{incode   0}}, {{incode   0}} and {{incode   1}} respectively, {{incode   Z}} is the third inputbox), and **Angle** to {{incode   90 deg}}.
+:   7.7. Change the **Rotation** to {{incode   Rotation axis with angle}}; **Axis** to {{incode   X}} (by setting the {{incode   X}}, {{incode   Y}} and {{incode   Z}} values of the axis inputboxes to {{incode   1}}, {{incode   0}} and {{incode   0}} respectively), and **Angle** to {{incode   90 deg}}.
 :   7.8. Press the **OK** button to close the dialog.
 
 8\. Insert another cylinder. This time create a duplicate so that the radius and height don\'t have to be changed, only its placement.
@@ -113,6 +123,8 @@ Du wirst üben:
 :   8.3. Change **X** to {{incode   -60 mm}}, and change **Y** back to {{incode   0 mm}}.
 :   8.4. Change the **Rotation** to {{incode   Rotation axis with angle}}; **Axis** to {{incode   Y}}, and **Angle** to {{incode   90 deg}}.
 :   8.5. Press the **OK** button to close the dialog.
+
+
 
 ## Ändern der visuellen Eigenschaften 
 
@@ -126,6 +138,8 @@ Du wirst üben:
 
 ![](images/02_T03_Part_cylinders_visibility.png ) 
 *Solid cylinders that intersect themselves and the solid cubes.*
+
+
 
 ## Verschmelzen und Schneiden 
 
@@ -141,6 +155,8 @@ Du wirst üben:
 
 ![](images/03_T03_Part_cube_cut.png ) 
 *Hohle Form, hergestellt durch Schneiden eines Würfels und dreier Zylinder aus einem größeren Würfel.*
+
+
 
 ## Einfügen von Grundelementwürfeln, um die Ecken des Teilkörpers zu schneiden 
 
@@ -184,6 +200,8 @@ We\'ll duplicate the previous two objects again to use once more as cutting obje
 ![](images/04_T03_Part_cube_additional.png ) 
 *Additional external cubes that will be used as cutting objects for the internal solid.*
 
+
+
 ## Schneiden der Ecken 1 
 
 17\. In the [tree view](tree_view.md) select {{incode   Cube002}} and {{incode   Cube003}}.
@@ -205,6 +223,8 @@ We\'ll duplicate the previous two objects again to use once more as cutting obje
 
 ![](images/05_T03_Part_cube_additional_cut_1.png ) 
 *A rotated, hollowed solid, which will be used as a cutting object for some corners of the internal solid.*
+
+
 
 ## Schneiden der Ecken 2 
 
@@ -228,6 +248,8 @@ We\'ll duplicate the previous two objects again to use once more as cutting obje
 
 ![](images/06_T03_Part_cube_additional_cut_2.png ) 
 *Ein gedrehter ausgehöhlter Volumenkörper, der als Beschnittobjekt für einige Ecken des inneren Volumenkörpers verwendet wird.*
+
+
 
 ## Fertigstellung des Modells 
 
@@ -262,10 +284,10 @@ We\'ll duplicate the previous two objects again to use once more as cutting obje
 *Final whiffle ball model with fillets applied to the edges.*
 
 
-  {{Userdocnavi
+ {{Userdocnavi
 ---
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Whiffle Ball tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Whiffle Ball tutorial/de

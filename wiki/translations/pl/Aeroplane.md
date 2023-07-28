@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Part Workbench
-   Level:Beginner
-   Time:10 minutes
+- TutorialInfo:/pl
+   Topic:środowisko praczy Część
+   Level:początkujący
+   Time:10 minut
    Author:Hughthecat
-   FCVersion:
-   Files:
+   FCVersion:wszystkie
+   Files:brak
 ---
 
 # Aeroplane/pl
@@ -13,95 +14,101 @@
 
 
 
-## First Steps 
 
-We will be working in the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) - select it from menus via **View → Workbench → Part** or from the [Workbench Selector](Std_Workbench.md).
 
--   Create a new empty document.
--   Switch to <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [isometric view](Std_ViewIsometric.md).
--   Toggle axis cross **ON** (via View Menu).
--   Ensure you have the [Combo View](Combo_view.md) showing (via **View → Views**).
+## Pierwszy krok 
 
--   Create a cylinder by clicking on the <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> [Cylinder](Part_Cylinder.md) button.
--   Select it by clicking on Cylinder in the Project viewer.
--   Click on the Data tab at the bottom of the Project viewer.
+Będziemy pracować w środowisku pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) - wybierając go z menu **Widok → Środowiska pracy → Część** lub z [okienka wyboru środowiska pracy](Std_Workbench/pl.md).
 
-Change the Height to 20mm. Leave the Radius at 2mm.
+-   Utwórz nowy pusty dokument.
+-   Przełącz na <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [widok izometryczny](Std_ViewIsometric/pl.md).
+-   Przełącz krzyż osi **ON** *(poprzez menu widoku)*.
+-   Upewnij się, że [Widok połączony](Combo_view/pl.md) jest włączony *(poprzez menu **Widok → Panele**)*.
 
-Click on [Placement](Placement.md) (note the little **[+]**) and a button with three dots will appear **...**. Click on it. (You can also select: **Menu → Edit → Placement**) The Tasks viewer appears.
+-   Utwórz walec, klikając przycisk <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> [Walec](Part_Cylinder/pl.md).
+-   Wybierz go, klikając obiekt Walec w przeglądarce projektu.
+-   Kliknij w zakładkę Dane w dolnej części przeglądarki projektu.
+
+Zmień wysokość na {{Value|20 mm}}. Pozostaw promień na wartości {{Value|2 mm}}
+
+Kliknij na [Umiejscowienie](Placement/pl.md) *(zwróć uwagę na mały **[+]**)*, a pojawi się przycisk z trzema kropkami **…**. Kliknij go *(Możesz także wybrać: **Menu → Edycja → Umiejscowienie**)*. Pojawi się panel zadań.
 
 <img alt="" src=images/HTCaeroplane01.png  style="width:300px;">
 
-If you are unfamiliar with the XYZ axes then have a play with the numbers in the Translation box. When finished playing click on the **Reset** button.
+Jeśli nie jesteś zaznajomiony z osiami XYZ, pobaw się liczbami w polu Przesunięcia. Po zakończeniu testów kliknij przycisk **Reset**.
 
-## Second Steps 
+
+
+## Drugi krok 
 
 <img alt="" src=images/HTCaeroplane02.png  style="width:400px;">
 
-We are now going to rotate the cylinder so that it is lying along the X axis. To do this it needs to be rotated around the Y axis. The Rotation box should say \'Rotation axis with angle\' so change the Axis to Y and increment the Angle until it reaches 90. Click on **OK**.
+Teraz obrócimy walec tak, aby leżał wzdłuż osi X. W tym celu należy go obrócić wokół osi Y. W polu Obrót powinien pojawić się napis **Oś obrotu z zadanym kątem**, więc zmień Oś na Y i zwiększaj Kąt, aż osiągnie 90°. Kliknij **OK**.
 
-I like to play with rotating the view at this point (and often!) so by all means do so. You should find the \'seam\' of the cylinder on the underside.
+Lubię bawić się obracaniem widoku w tym momencie *(i to często!)*, więc jak najbardziej. Powinieneś znaleźć *szew* cylindra na spodzie.
 
 <img alt="" src=images/HTCaeroplane03.png  style="width:400px;">
 
-We are now going to add and modify a box so click on the <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Cube](Part_Box.md) button. Select it by clicking on Box in the Project viewer. Change the Height to 1mm, the Length to 5mm and the Width to 20mm.
+Teraz dodamy i zmodyfikujemy sześcian, więc kliknij przycisk <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Sześcian](Part_Box/pl.md). Wybierz go klikając na obiekt Sześcian w oknie [Widoku drzewa](Tree_view/pl.md) w przeglądarce projektów. Zmień wysokość na {{Value|1 mm}}, długość na {{Value|5}} mm i szerokość na {{Value|20 mm}}.
 
-Click on [Placement → **...**](Placement.md) to get the Tasks viewer. Using the Translation box enter Y: -10 and Z: -1. Click on **OK**
+Kliknij [Umiejscowienie → **…**](Placement/pl.md), aby wyświetlić Panel zadań. W polu translacji wpisz Y: -10 i Z: -1. Kliknij **OK**.
 
-We are now going to merge these two shapes together with a Boolean Operation. Click on the <img alt="" src=images/Part_Boolean.svg  style="width:32px;"> [Boolean](Part_Boolean.md) button and the Tasks viewer will display the Boolean Operation selector.
+Teraz połączymy te dwa kształty za pomocą operacji logicznej. Kliknij przycisk <img alt="" src=images/Part_Boolean.svg  style="width:32px;"> [Operacja logiczna](Part_Boolean/pl.md), a Panel zadań wyświetli okno wyboru operacji logicznych.
 
-Make sure Union is selected, and that the Cylinder and the Box are each ticked once in the two shape lists. Click on **Apply**. Click on **Close**. You now have a single object called **Fusion**.
-
-
+Upewnij się, że opcja **Połączenie** jest zaznaczona, a Walec i Sześcian są zaznaczone na dwóch listach kształtów. Kliknij przycisk **Zastosuj**. Kliknij przycisk **Zamknij**. Masz teraz pojedynczy obiekt o nazwie **Połączenie**.
 
 
-Let\'s add one more box to finish off our model. Create a Box, Select it and change its Height to 5mm, Length to 3mm and Width to 1mm. Change its Placement by Y: -0.5.
 
-We now need to join our Fusion to Box001 so we\'ll do it the quick way. Click on Fusion in the Project viewer and **Ctrl**+click on Box001. This selects both parts together. Now click on the <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Fuse](Part_Fuse.md) button to get **Fusion001**.
 
-You should now have a simple aeroplane model. Right-click on **Fusion001** and Rename it **Aeroplane**.
+Dodajmy jeszcze jeden prostopadłościan, aby zakończyć nasz model. Utwórz Sześcian, wybierz go i zmień jego wysokość na {{Value|5 mm}}, długość na {{Value|3 mm}} i szerokość na {{Value|1 mm}}. Zmień jego położenie na Y: -0.5.
+
+Musimy teraz dołączyć nasz obiekt Scalenie do Box001, więc zrobimy to w szybki sposób. Kliknij Scalenie w Widoku drzewa i **Ctrl** + kliknij Box001. Spowoduje to zaznaczenie obu części razem. Teraz kliknij na przycisk <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Scalenie](Part_Fuse/pl.md), aby uzyskać **Fusion001**.
+
+Powinieneś teraz mieć prosty model samolotu. Kliknij prawym przyciskiem myszy na **Fusion001** i zmień jego nazwę na **Aeroplane**.
 
 <img alt="" src=images/HTCaeroplane04.png  style="width:500px;">
 
-I think the wings need to be moved forward a bit but if I select Aeroplane and try changing its Placement X Translation the whole thing moves. I only want to move the wings so cancel the Placement.
+Myślę, że skrzydła powinny być przesunięte nieco do przodu, ale jeśli wybiorę Aeroplane i spróbuję zmienić jego Umiejscowienie przesunięcia X, całość się przesunie. Chcę przesunąć tylko skrzydła, więc anuluję Umiejscowienie.
 
-Expand Aeroplane (click on the **[+]** beside it) and expand Fusion.
+Rozwiń obiekt Samolot *(kliknij przycisk **[+]** obok niego)* i rozwiń obiekt Scalenie.
 
-Click on Box and get its [Placement into Tasks](Placement.md). Notice it already has Y: -10 and Z: -1 in the Translation. Change the X translation to 3 and click on **Apply**. That\'s better. Click **OK**.
-
-
+Kliknij na obiekt Sześcian i uzyskaj jego [Umiejscowienie](Placement/pl.md) w Panelu zadań. Zauważ, że ma już wartości Y: -10 i Z: -1 w przesunięciu. Zmień tłumaczenie X na 3 i kliknij **Zastosuj**. Tak jest lepiej. Kliknij **OK**.
 
 
-## Rotations
 
-Click on Aeroplane and get its [Placement into Tasks](Placement.md). In the Rotation section change where it says \'Rotation axis with angle\' to \'Euler angles\' because they\'re a lot easier to work with.
 
-![](images/Tache_Placement_Lacet_fr_Mini.gif )**Yaw** is the rotation about the **Z axis**, that is to say a rotation from left to right. (The yaw angle is the **Psi ψ**).  ![](images/Tache_Placement_Tangage_fr_Mini.gif )**Pitch** is rotation about the **Y axis**, that is to say nose-up and nose-down. (The Pitch angle is the **Phi φ**).  ![](images/Tache_Placement_Roulis_fr_Mini.gif )**Roll** is rotation about the **X axis**, that is to say wing up and down. (The Roll angle is the **Thêta θ**). 
 
-However, even here there are some important things to remember:
 
--   Positive Rotations are clockwise when viewed from the Origin outwards along a positive axis. Or to put it another way: Positive Rotations are anticlockwise when viewed from a positive axis towards the Origin.
+## Obrót
 
--   Although the three labels are Yaw, Pitch and Roll that\'s not really what they are. Yaw, Pitch and Roll are references to the *body coordinates* of an object in 3D space. The labels should be Heading, Elevation and Bank or even Azimuth, Inclination and Bank because they actually refer to the *space coordinates* of the 3D system. These are the **Tait-Bryan angles**. If you want more information then try [Euler Angles](http://en.wikipedia.org/wiki/Euler_angles#Tait-Bryan_angles).
+Kliknij na Aeroplane i przejdź do [Umiejscowienie](Placement/pl.md) w Panelu zadań. W sekcji Obrót zmień **Oś obrotu z zadanym kątem** na **Kąty Eulera (ZY\'X\')**, ponieważ łatwiej się z nimi pracuje.
 
--   With the Aeroplane in its present position simple rules apply. Yaw is rotation around the Z axis, ie left and right. Pitch is rotation around the Y axis, ie nose up and down. Roll is rotation around the X axis, ie wings up and down. That\'s fine to start with but it\'s not going to be true later!
+![](images/Tache_Placement_Lacet_fr_Mini.gif )**Yaw** to obrót wokół osi *Z*, czyli obrót od lewej do prawej. *(Kąt odchylenia to **Psi ψ**)*.  ![](images/Tache_Placement_Tangage_fr_Mini.gif )**Pitch** to obrót wokół osi Y, czyli nosem w górę i nosem w dół. *(Kąt nachylenia to **Phi φ**)*.  ![](images/Tache_Placement_Roulis_fr_Mini.gif )**Roll** to obrót wokół osi **X**, czyli skrzydło w górę i w dół. *(Kąt obrotu to **Thêta θ**)*. 
 
-Have a play with the three YPR numbers. You only need to change things by a few degrees to get the idea. Reset when you finished.
+Jednak nawet w tym przypadku należy pamiętać o kilku ważnych rzeczach:
 
-Now we\'re going to see why the Yaw-Pitch-Roll labels are not really suitable. Change the Roll number to 90°. Yaw should move the nose of the aeroplane up and down and Pitch should move it side to side *as viewed from outside the aeroplane* which is where we are. Do they? No they don\'t! Pitch changes the yaw and Yaw changes the pitch. OK, Reset.
+-   Pozytywne obroty są zgodne z ruchem wskazówek zegara, gdy patrzy się od początku na zewnątrz wzdłuż dodatniej osi. Lub mówiąc inaczej: Obroty dodatnie są przeciwne do ruchu wskazówek zegara, gdy patrzy się na nie od osi dodatniej w kierunku początku.
 
-So, a better way of thinking about rotations is that Yaw changes your Longitude, Pitch changes your Latitude and Roll changes the direction (NSEW) that you\'re facing. Or you could check out [Axes conventions](http://en.wikipedia.org/wiki/Axes_conventions) for other descriptions.
+-   Chociaż te trzy etykiety to Yaw, Pitch i Roll, tak naprawdę nie są tym, czym są. Odchylenie, pochylenie i przechylenie są odniesieniami do \"współrzędnych Zawartości\" obiektu w przestrzeni 3D. Etykiety powinny brzmieć Nagłówek, Wysokość i Brzeg lub nawet Azymut, Nachylenie i Brzeg, ponieważ w rzeczywistości odnoszą się do **współrzędnych przestrzennych** systemu 3D. Są to **kąty Taita-Bryana**. Więcej informacji można znaleźć na stronie [Kąty Eulera](http://en.wikipedia.org/wiki/Euler_angles#Tait-Bryan_angles).
 
-Right, back to work. Change Yaw to 45° and Pitch to -30°. Click on OK to show that the operation has been completed. Now get back the [Placement Task](Placement.md) and look at the Rotation box. It has reverted to \'Rotation axis with angle\' and has some wierd numbers Axis and Angle boxes. Mine had Axis: (0.219493,-0.529904,0.819161) and Angle: 53.65°. The three numbers in brackets are the XYZ components of a unit vector in the 3D space. It is the axis about which our original Aeroplane was rotated to get our final Aeroplane. The angle is how much it was rotated. Clever, huh, but not very friendly! It was Euler who showed that you could combine a series of XYZ rotations into one rotation about one axis.
+-   Gdy samolot znajduje się w obecnej pozycji, obowiązują proste zasady. Odchylenie to obrót wokół osi Z, tj. w lewo i w prawo. Pitch to obrót wokół osi Y, czyli nos w górę i w dół. Roll to obrót wokół osi X, czyli skrzydła w górę i w dół. Jest to dobre na początek, ale nie będzie prawdziwe później!
 
-Here\'s some more suggestions for playing with the Aeroplane:
+Pobaw się trzema liczbami YPR. Wystarczy zmienić je o kilka stopni, aby zrozumieć ideę. Zresetuj po zakończeniu.
 
--   Change the Z Location (and Apply) then change the YPR numbers and see what the effect is. Then try changing the X and Y Locations and rotating.
--   Change the X Centre (and Apply) then change the YPR numbers and see what the effect is. Then try changing the Y and Z Centres and rotating.
+Teraz zobaczymy, dlaczego etykiety Yaw-Pitch-Roll nie są odpowiednie. Zmień wartość Roll na 90°. Odchylenie powinno przesuwać nos samolotu w górę i w dół, a pochylenie powinno przesuwać go na boki \"patrząc z zewnątrz samolotu\", czyli tam, gdzie jesteśmy. Czy tak? Nie, nie zmieniają! Pitch zmienia przechylenie, a Yaw zmienia pochylenie. OK, reset.
 
-I hope this little tutorial has helped you to get a feel for rotations.
+Tak więc lepszym sposobem myślenia o rotacjach jest to, że odchylenie zmienia długość geograficzną, pochylenie zmienia szerokość geograficzną, a przechylenie zmienia kierunek *(NSEW)*, w którym stoisz. Lub możesz sprawdzić [Konwencje osi](http://en.wikipedia.org/wiki/Axes_conventions) dla innych opisów.
+
+W porządku, wracamy do pracy. Zmień Yaw na 45° i Pitch na -30°. Kliknij OK, aby pokazać, że operacja została zakończona. Teraz wróć do [Umiejscowienie](Placement/pl.md) w Panelu zadań i spójrz na pole Obrót. Wartość została zmieniona na *Oś obrotu z zadanym kątem* i zawiera dziwne liczby w polach Oś i Kąt. Mój miał Oś: *(0.219493,-0.529904,0.819161)* i Kąt: 53.65°. Trzy liczby w nawiasach to składowe XYZ wektora jednostkowego w przestrzeni 3D. Jest to oś, wokół której nasz oryginalny samolot został obrócony, aby uzyskać nasz ostateczny samolot. Kąt określa, o ile został obrócony. Sprytne, ale niezbyt przyjazne! To Euler pokazał, że można połączyć serię obrotów XYZ w jeden obrót wokół jednej osi.
+
+Oto kilka innych sugestii dotyczących zabawy z samolotem:
+
+-   Zmień lokalizację Z *(i zastosuj)*, a następnie zmień wartości YPR i zobacz, jaki będzie efekt. Następnie spróbuj zmienić lokalizacje X i Y i obrócić.
+-   Zmień środek X *(i zastosuj)*, a następnie zmień wartości YPR i zobacz, jaki będzie efekt. Następnie spróbuj zmienić centra Y i Z i obrócić.
+
+Mam nadzieję, że ten mały poradnik pomógł Ci zrozumieć rotacje.
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Aeroplane/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Aeroplane/pl

@@ -1,61 +1,33 @@
 ---
 - GuiCommand:/de
    Name:PartDesign SubShapeBinder
-   Name/de:PartDesign UnterFormBinder
-   Workbenches:[PartDesign Arbeitsbereich](PartDesign_Workbench/de.md)
-   MenuLocation:Part Design → Erstellen eines Unterobjekt-Formbinders
+   Name/de:PartDesign Teilformbinder
+   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
+   MenuLocation:Part Design → Formbinder für Teilobjekt erstellen
    Version:0.19
-   SeeAlso:[PartDesign FormBinder](PartDesign_ShapeBinder/de.md), [PartDesign Klon](PartDesign_Clone/de.md)
+   SeeAlso:[PartDesign Formbinder](PartDesign_ShapeBinder/de.md), [PartDesign Klon](PartDesign_Clone/de.md)
 ---
 
 # PartDesign SubShapeBinder/de
 
 
-</div>
 
 ## Beschreibung
 
+Das Werkzeug **PartDesign Teilformbinder** erstellt einen Teilformbinder (Binder-Objekt), der Geometrien eines oder mehrerer übergeordneter Objekte referenziert. Ein Teilformbinder. Ein Teilformbinder wird üblicherweise in einem [PartDesign Körper](PartDesign_Body/de.md) (Body) verwendet, um auf Geometrie außerhalb des Körpers zuzugreifen.Externe Geometrie direkt in einem Körper zu verwenden, ist nicht erlaubt und wird zu \"out of scope\"-Fehlern führen. Ein Teilformbinder kann aber auch verwendet werden, ohne dass er in einem Körper eingebunden ist.
 
-<div class="mw-translate-fuzzy">
+Ein Teilformbinder ermittelt die relative Positionierung der referenzierten Geometrien, was im Zusammenhang mit der Erstellung von [Baugruppen](Assembly/de.md) nützlich ist, aber darüber hinaus besitzt er auch eine eigene Positionierung.
 
-Ein [PartDesign UnterFormBinder](PartDesign_SubShapeBinder/de.md) importiert ein Element aus einem anderen Körper in den aktiven [Körper](PartDesign_Body/de.md). Es kann die [Form](Shape/de.md) eines anderen Objekts übernehmen oder an ein oder mehrere Objekte oder Unterelemente (Kanten oder Flächen) eines anderen Objekts \"gebunden\" werden.
+Die referenzierte Geometrie kann aus einem oder mehreren Elementen bestehen. Jedes Element kann ein einzelnes Objekt sein (z.B. ein [PartDesign Körper](PartDesign_Body/de.md)), ein Unterobjekt (z.B. ein [Part Würfel](Part_Box/de.md) innerhalb eines [Std Teiles](Std_Part/de.md) oder eine [Skizze](PartDesign_NewSketch/de.md) oder ein [Formelement](PartDesign_Feature/de.md) innerhalb eines Körpers) oder ein Unterelement (eine Fläche, eine Kante oder ein Knotenpunkt). Welche Geometrie verwendet wird, hängt von der geplanten Verwendung des Teilformbinders ab. Für eine boolesche Operation muss ein Festkörper ausgewählt werden. Für eine Extrusion mit [Aufpolsterung](PartDesign_Pad.md) kann eine Fläche, eine Skizze oder ein ebener Draht verwendet werden. Und für eine [externe Geometrie](Sketcher_External/de.md) in einer Skizze oder um eine Skizze zu befestigen kann jede Kombination von Unterelementen geeignet sein. Die Elemente können zu unterschiedlichen übergeordneten Objekten gehören und sogar zu dem Körper, der den Teilformbinder enthält. Da ein Teilformbinder [link-basiert](Std_LinkMake.md) ist, kann die referenzierte Geometrie auch zu einem externen Dokument gehören.
 
+<img alt="" src=images/PartDesign_SubShapeBinder_example_1.png  style="width:" height="300px;"> <img alt="" src=images/PartDesign_SubShapeBinder_example_2.png  style="width:" height="300px;"> 
+*Links: zwei Festkörper, die in zwei separaten [Körpern](PartDesign_Body/de.md) erstellt wurden.<br> 
+Rechts: zwei Teilformbinder, die Geometrien des ersten Körpers referenzieren, innerhalb des zweiten Körpers und an eine andere Position verschoben.*
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Es kann auch an Objekte binden, die innerhalb von [Std Parts](Std_Part/de.md) verschachtelt sind, und es verfolgt die relative Platzierung dieser Merkmale. Dies ist im Zusammenhang mit der Erstellung von [Baugruppen](Assembly/de.md) nützlich, da der Anwender oft auf [Formelemente](PartDesign_Feature/de.md) verweisen muss, die bereits korrekt in einer anderen Unterbaugruppe platziert sind.
-
-
-</div>
-
-The referenced geometry can consist of one or multiple elements. Each element can be an individual object (for example a [PartDesign Body](PartDesign_Body.md)), a subobject (for example a [Part Box](Part_Box.md) inside a [Std Part](Std_Part.md), or a [sketch](PartDesign_NewSketch.md) or [Feature](PartDesign_Feature.md) inside a Body), or a subelement (a face, edge or vertex). Which geometry should be selected depends on the intended purpose of the SubShapeBinder. For a Boolean operation you would need to select a solid. For a [Pad operation](PartDesign_Pad.md) a face, a sketch or a planar wire can be used. And for the [external geometry](Sketcher_External.md) in a sketch, or to attach a sketch, any combination of subelements may be appropriate. Elements can belong to different parent objects, and can even belong to the Body the SubShapeBinder is nested in. Because a SubShapeBinder is [Link-based](Std_LinkMake.md) the referenced geometry can also belong to an external document.
-
-<img alt="" src=images/PartDesign_SubShapeBinder_example_1.png  style="width:" height="300px;"> <img alt="" src=images/PartDesign_SubShapeBinder_example_2.png  style="width:" height="300px;">
+<img alt="" src=images/PartDesign_SubShapeBinder_example_3.png  style="width:" height="300px;"> 
+*Die beiden Teilfornbinder werden verwendet, um im zweiten Körper mit der [booleschen Operation](PartDesign_Boolean/de.md) Differenz einen Ausschnitt zu erstellen und mit [Aufpolsterung](PartDesign_Pad/de.md) einen Block hinzuzufügen.*
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-*Links: zwei Körper, die in zwei separaten [Körpern](PartDesign_Body/de.md) erzeugt wurden. Rechts: zwei UnterFormBinder, die aus dem ersten Körper extrahiert, in den zweiten Körper importiert und an eine andere Position verschoben wurden.*
-
-
-</div>
-
-<img alt="" src=images/PartDesign_SubShapeBinder_example_3.png  style="width:" height="300px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Die beiden UnterFormBinder werden verwendet, um einen [booleschen Schnitt](PartDesign_Boolean/de.md) und ein [Polster](PartDesign_Pad/de.md), mit dem zweiten Körper, zu erstellen.*
-
-
-</div>
 
 ## Anwendung
 
@@ -77,7 +49,9 @@ The referenced geometry can consist of one or multiple elements. Each element ca
 4.  Switch to the target document by clicking its tab in the [Main view area](Main_view_area.md).
 5.  Invoke the tool as described above.
 
-### Start with empty SubShapeBinder 
+
+
+### Mit leerem Teilformbinder starten 
 
 1.  Follow the instructions described under [Same document](#Same_document.md) above but without selecting geometry.
 2.  An empty SubShapeBinder is created.
@@ -86,65 +60,66 @@ The referenced geometry can consist of one or multiple elements. Each element ca
 5.  Optionally add more geometry in the same manner.
 6.  To replace already referenced geometry hold down **Ctrl** during the drag and drop operation.
 
-## Notes
 
--   2D offsetting is supported for some shape types, included planar faces, edges and wires. Because offsetting is a difficult operation for the software it does not always succeed. <small>(v0.20)</small> 
--   A SubShapeBinder that is not nested in a Body can be used as the [Base Feature](PartDesign_Body#Base_Feature.md) for a new Body.
--   The **Support** property contains the links to the referenced geometry. The property is read only by default, but can be changed by following the instructions described under [Start with empty SubShapeBinder](#Start_with_empty_SubShapeBinder.md).
--   A SubShapeBinder created from a sketch can have an opposite \"tool direction\". For example a [Pad](PartDesign_Pad.md) created from the sketch may extend in the +Y direction, while a [Pad](PartDesign_Pad.md), with the same properties, created from the SubShapeBinder extends in the -Y direction. Toggling the **Reversed** property (or checkbox) will solve this.
 
-## PartDesign SubShapeBinder vs. PartDesign ShapeBinder 
+## Hinweise
 
-The PartDesign SubShapeBinder tool and the [PartDesign ShapeBinder](PartDesign_ShapeBinder.md) tool are quite similar. Their names are somewhat confusing as both can reference whole objects and subelements.
+-   2D-Versatz wird für einige Formarten unterstützt, eingeschlossen ebene Flächen, Kanten und Drähte. Da Versetzen für die Software eine schwierige Aufgabe ist, ist diese nicht immer erfolgreich. {{Version/de|0.20}}
+-   Ein Teilformbinder der sich nicht innerhalb eines Körpers befindet, kann als [Basis-Formelement](PartDesign_Body/de#Basis_Formelement.md) eines neuen Körpers dienen.
+-   Die {{PropertyData/de|Support}} enthält die Verknüpfungen zu den referenzierten Geometrien. Die Eigenschaft ist schreibgeschützt, kann aber durch das unter [Mit leerem Teilformbinder starten](#Mit_leerem_Teilformbinder_starten.md) beschriebenen Vorgehen geändert werden.
+-   Ein aus einer Skizze erstellter Teilformbinder kann eine umgekehrte \"Werkzeugausrichtung\" besitzen. Beispielsweise kann sich ein aus einer Skizze extrudierter [Block](PartDesign_Pad/de.md) in die positive Y-Richtung ausdehnen, während sich ein aus einem Teilformbinder extrudierter [Block](PartDesign_Pad/de.md) mit den gleichen Eigenschaften in die negative Y-Richtung ausdehnt. Durch umschalten der {{PropertyData/de|Reversed}} (oder der Checkbox) kann dies angeglichen werden.
 
-The main differences are:
 
--   Editing a PartDesign ShapeBinder is easier. Double-clicking the object in the [Tree view](Tree_view.md) will open a task panel.
--   A PartDesign ShapeBinder can either reference a single whole object, or subelements belong to a single parent object. A PartDesign SubShapeBinder does not have these restrictions.
--   Only PartDesign SubShapeBinders can reference geometry from an external file.
--   A PartDesign SubShapeBinder always tracks the relative placement of the referenced geometry. For a PartDesign ShapeBinder this behavior is optional through its **Trace Support** property.
--   Only PartDesign SubShapeBinders support 2D offsetting.
+
+## Vergleich von PartDesign Teilformbinder und PartDesign Formbinder 
+
+Die Werkzeuge PartDesign Teilformbinder und [PartDesign Formbinder](PartDesign_ShapeBinder/de.md) sind ziemlich ähnlich. Ihre Namen sind etwas verwirrend, da beide sowohl ganze Objekte als auch Unterelemente referenzieren können.
+
+Die Hauptunterschiede sind:
+
+-   Das Ändern eines PartDesign-Formbinders ist einfacher. Ein Doppelklick auf das Objekt in der [Baumansicht](Tree_view/de.md) öffnet den Aufgabenbereich.
+-   Ein PartDesign-Formbinder kann entweder ein einzelnes, ganzes Objekt referenzieren oder Unterelemente die zu einem einzigen übergeordneten Objekt gehören. Ein PartDesign-Teilformbinder besitzt diese Einschränkung nicht.
+-   Nur PartDesign-Teilformbinder können Geometrien aus externen Dateien referenzieren.
+-   ein PartDesign-Teilformbinder ermittelt immer die relative Positionierung der referenzierten Geometrie. Dieses Verhalten ist für den PartDesign-Formbinder optional und kann über seine {{PropertyData/de|Trace Support}} aktiviert werden.
+-   Nur PartDesign-Teilformbinder unterstützen 2D-Versatz (parallele Konturen).
+
+
 
 ## Eigenschaften
 
-
-<div class="mw-translate-fuzzy">
-
-Der [UnterFormBinder](PartDesign_SubShapeBinder/de.md) ist abgeleitet von [Part Formelement](Part_Feature/de.md) (`Part::Feature` Klasse). Zusätzlich zu den in [Part Formelement](Part_Feature/de.md) aufgelisteten Eigenschaften sind die folgenden Eigenschaften im [Eigenschaftseditor](property_editor/de.md) verfügbar.
+Ein PartDesign-Teilformbinder (Binder-Objekt) ist von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
 
 
-</div>
 
 ### Daten
 
 
 {{TitleProperty|Base}}
 
+-    {{PropertyData/de|Support|XLinkSubList}}: Aufnahme/Träger der Geometrie.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Fuse|Bool}}: wenn auf `True` gesetzt, werden die verknüpften Festkörperformen vereinigt.
 
--    **Unterstützung|XVerknüpfungUnterListe|ausgeblendet**: Unterstützung für die Geometrie.
+-    {{PropertyData/de|Make Face|Bool}}: wenn auf `True` gesetzt, wird eine Fläche aus den verknüpften Drähten erstellt.
 
--    **Verschmelzen|Bool**: wenn es `True` ist, werden die verknüpften Volumenkörperformen verschmolzen.
+-    {{PropertyData/de|Claim Children|PropertyBool}}: wenn auf `True` gesetzt, werden die verknüpften Objekte in der [Baumannsicht](Tree_view/de.md) als untergeordnete Elemente beansprucht.
 
--    **Flächen erstellen|Bool**: Wenn der Wert `True` ist, wird eine Fläche für die verknüpften Drahtobjekte erstellt.
+-    {{PropertyData/de|Relative|Bool}}: wenn auf `True` gesetzt, ermöglicht es die relative Verknüpfung von Unterobjekten.
 
--    **Kindobjekte beanspruchen|EigenschaftBool**: Wenn der Wert `True` ist, werden die verknüpften Objekte in der [Baumansicht](Tree_view/de.md) als Kindobjekte beansprucht.
+-    {{PropertyData/de|Bind Mode|Enumeration}}: Bindungsmodus, {{value|Synchronized}}, {{Value|Frozen}}, {{Value|Detached}}.
 
--    **Relativ|Bool**: wenn es`True` ist, ermöglicht es die relative Verknüpfung von Unterobjekten.
+-    {{PropertyData/de|Partial Load|Bool}}: wenn auf `True` gesetzt, ermöglicht es Objekte teilweise zu Laden.
 
--    **Bindungsmodus|Aufzählung**: Bindungsmodus, {{value|Synchronisiert}}, {{value|Eingefroren}}, {{value|Abgehängt}}.
+-    {{PropertyData/de|Context|XLink|hidden}}: Containerobjekt dieses Binderobjekts.
 
--    **Teilweise laden|Bool**}: wenn es `True` ist, ermöglicht es Objekte teilweise zu Laden.
+-    {{PropertyData/de|Bind Copy On Change|Enumeration}}
+    
 
--    **Kontext|XVerknüpfung|ausgeblendet**: Containerobjekt dieses Binderobjekts.
+-    {{PropertyData/de|Refine|Bool}}: wenn auf `True` gesetzt, werden überzählige Kanten entfernt (z.B. nach einer booleschen Operation). {{Version/de|0.20}}
 
--    **_Version|Integer|ausgeblendet**: Version dieses Objekttyps.
+-    {{PropertyData/de|_ Version|Integer|hidden}}: Version dieses Objekttyps.
 
--    **Form|PartForm|ausgeblendet**: [Part TopoForm](Part_TopoShape/de.md) dieses Objekttyps.
-
-
-</div>
+-    {{PropertyData/de|_ Copied Link|XLinkSub|hidden}}.
 
 
 {{TitleProperty|Cache}}
@@ -164,18 +139,14 @@ Der [UnterFormBinder](PartDesign_SubShapeBinder/de.md) ist abgeleitet von [Part 
 
 -    **Offset Intersection|Bool**: Affects the way compounds are processed. If `False`, all children are processed independently. If `True`, and children are edges and wires, the children are offset in a collective manner. <small>(v0.20)</small> 
 
+
+
 ## Verweise
 
 -   [New Sublink Link Feature](https://forum.freecadweb.org/viewtopic.php?t=41450), Gebrauchserklärung mit Video.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{PartDesign_Tools_navi

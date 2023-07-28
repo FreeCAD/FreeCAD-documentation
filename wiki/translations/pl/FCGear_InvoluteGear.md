@@ -1,227 +1,245 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:FCGear InvoluteGear
-   MenuLocation:Gear → Involute Gear
-   Workbenches:[FCGear](FCGear_Workbench.md)
-   Shortcut:None
+   Name/pl:FCGear: Koło zębate ewolwentowe
+   MenuLocation:Gear → Koło zębate ewolwentowe
+   Workbenches:[FCGear](FCGear_Workbench/pl.md)
    Version:v0.16
-   SeeAlso:[FCGear CycloideGear](FCGear_CycloideGear.md)
+   SeeAlso:[Koło zębate cykloidalne](FCGear_CycloideGear/pl.md)
 ---
 
 # FCGear InvoluteGear/pl
 
-## Description
 
-Due to the favourable meshing ratio and the relatively simple production, involute gearing is the most common tooth form in mechanical engineering. Gear wheels can be found wherever movement and force are to be transferred from one part to another. For example, they can be found in machines, cars, watches or household appliances. The movement is often transferred directly from one gear wheel to the other, but sometimes also via a chain. In addition, the direction of rotation can be changed. It is also possible to change a radial movement into a linear one via an [involute rack](FCGear_InvoluteRack.md).
+
+## Opis
+
+Ze względu na korzystny współczynnik zazębienia i stosunkowo prostą produkcję, przekładnie ewolwentowe są najczęściej stosowaną formą zębów w inżynierii mechanicznej. Koła zębate można znaleźć wszędzie tam, gdzie ruch i siła mają być przenoszone z jednej części na drugą. Na przykład można je znaleźć w maszynach, samochodach, zegarkach lub urządzeniach gospodarstwa domowego. Ruch jest często przenoszony bezpośrednio z jednego koła zębatego na drugie, ale czasami również za pomocą łańcucha. Ponadto można zmienić kierunek obrotu. Możliwa jest również łatwa zmiana ruchu promieniowego na liniowy za pomocą [ewolwentowej listwy zębatej](FCGear_InvoluteRack/pl.md).
 
 ![](images/Involute-Gear_example.png ) 
-*From left to right: Spur gearing, helical gearing, double helical gearing*
-
-## Usage
-
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  There are several ways to invoke the command:
-    -   Press the **[<img src=images/FCGear_InvoluteGear.svg style="width:16px"> [Involute Gear](FCGear_InvoluteGear.md)** button in the toolbar.
-    -   Select the **Gear → [<img src=images/FCGear_InvoluteGear.svg style="width:16px"> Involute Gear** option from the menu.
-3.  Change the gear parameter to the required conditions (see [Properties](#Properties.md)).
-
-## Properties
-
-An FCGear InvoluteGear object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
-
-### Data
+*Od lewej do prawej: Przekładnia czołowa, przekładnia walcowa, podwójna przekładnia walcowa*
 
 
-{{Properties_Title|accuracy}}
 
--    **numpoints|Integer**: Default is {{Value|6}}. Change of the involute profile. Changing the value can lead to unexpected results.
+## Użycie
 
--    **simple|Bool**: Default is {{False}}, {{True}} generates a simplified display (without teeth and only a cylinder in pitch diameter).
-
-
-{{Properties_Title|base}}
-
--    **height|Length**: Default is {{Value|5 mm}}. Value of the gear width.
-
--    **module|Length**: Default is {{Value|1 mm}}. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see [Notes](#Notes.md)).
-
--    **teeth|Integer**: Default is {{Value|15}}. Number of teeth (see [Notes](#Notes.md)).
+1.  Przejdź do środowiska pracy <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear](FCGear_Workbench/pl.md).
+2.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk **[<img src=images/FCGear_InvoluteGear.svg style="width:16px"> '''Koło zębate ewolwentowe'''** na pasku narzędzi.
+    -   Wybierz z menu opcję **Gear → [<img src=images/FCGear_InvoluteGear.svg style="width:16px"> Koło zębate ewolwentowe**.
+3.  Zmień parametry zębatki na wymagane *(patrz [Właściwości](#Właściwości.md))*.
 
 
-{{Properties_Title|computed}}
 
--    **angular_backlash|Angle**: (read-only)
+## Właściwości
 
--    **da|Length**: (read-only) Outside diameter, measured at the addendum (the tip of the teeth).
-
--    **df|Length**: (read-only) Root diameter, measured at the foot of the teeth.
-
--    **dw|Length**: (read-only) Working pitch diameter.
-
--    **transverse_pitch|Length**: (read-only) Pitch in the plane of rotation.
+Obiekt InvoluteGear wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
-{{Properties_Title|fillets}}
 
--    **head_fillet|Float**: Default is {{Value|0 mm}}.
-
--    **root_fillet|Float**: Default is {{Value|0 mm}}.
-
--    **undercut|Bool**: Default is {{False}}, {{True}} changes the profile of the tooth root (see [Notes](#Notes.md)).
+### Dane
 
 
-{{Properties_Title|helical}}
+{{Properties_Title|Dokładność}}
 
--    **beta|Angle**: Default is {{Value|0 °}}. With the helix angle β a helical gear is created -- positive value → rotation direction right, negative value → rotation direction left (see [Notes](#Notes.md)).
+-    **liczba punktów|Integer**: Domyślnie {{Value|6}}. Zmiana profilu ewolwentowego. Zmiana wartości może prowadzić do nieoczekiwanych rezultatów.
 
--    **double_helix|Bool**: Default is {{False}}, {{True}} creates a double helix gear (see [Notes](#Notes.md)).
-
--    **properties_from_tool|Bool**: Default is {{False}}. If {{True}} and **beta** is not zero, gear parameters are recomputed internally for the rotated gear.
+-    **uprość|Bool**: Wartością domyślną jest {{False/pl}}, {{True/pl}} generuje uproszczone wyświetlanie *(bez zębów i tylko cylinder o średnicy podziałowej)*.
 
 
-{{Properties_Title|involute}}
+{{Properties_Title|Podstawowe}}
 
--    **pressure_angle|Angle**: Default is {{Value|20 °}} (see [Notes](#Notes.md)).
+-    **wysokość|Length**: Wartością domyślną jest {{Value|5 mm}}. Wartość szerokości koła zębatego.
 
--    **shift|Float**: Default is {{Value|0}}. Generates a positive and negative profile shift (see [Notes](#Notes.md)).
+-    **moduł|Length**: Domyślnie {{Value|1 mm}}. Moduł jest stosunkiem średnicy referencyjnej koła zębatego podzielonej przez liczbę zębów *(patrz [Uwagi](#Uwagi.md))*.
 
-
-{{Properties_Title|tolerance}}
-
--    **backlash|Length**: Default is {{Value|0}}. Backlash, also called lash or play, is the distance between the teeth at a gear pair.
-
--    **clearance|Float**: Default is {{Value|0.25}} (see [Notes](#Notes.md)).
-
--    **head|Float**: Default is {{Value|0}}. This value is used to change the tooth height.
-
--    **reversed_backlash|Bool**: {{True}} backlash decrease or {{False}} (default) backlash increase see [Notes](#Notes.md)).
+-    **zęby|Integer**: Domyślną wartością jest {{Value|15}}. Liczba zębów *(patrz [Uwagi](#Uwagi.md))*.
 
 
-{{Properties_Title|version}}
+{{Properties_Title|Obliczone}}
 
--    **version|String**:
+-    **angular_backlash|Angle**: *(tylko do odczytu)*.
 
-## Notes
+-    **da|Length**: *(tylko do odczytu)* Średnica zewnętrzna, mierzona na wierzchołku zęba *(końcówki zębów)*.
 
--    **beta**: When **beta** is changed, **pitch diameter** also changes. The following formula illustrates how the parameters interact: d = m \* Z / cos beta (Z = number of teeth, d = pitch diameter, m = module). This means for the spur gear: cos beta = 0 and for the helical gear: cos beta \> 0. However, a helix angle of less than 10° has hardly any advantages over straight teeth.
+-    **df|Length**: *(tylko do odczytu)* Średnica korzenia, mierzona u podstawy zębów.
 
--    **clearance**: At a gear pair, clearance is the distance between the tooth tip of the first gear and the tooth root of the second gear.
+-    **dw|Length**: *(tylko do odczytu)* Średnica podziałki roboczej.
 
--    **double_gear**: To use the double helical gearing the helix angle β (**beta**) for the helical gearing must first be entered.
+-    **transverse_pitch|Length**: *(tylko do odczytu)* Podziałka w płaszczyźnie obrotu.
 
--    **module**: Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth.
 
--    **shift**: Profile shift is not merely used to prevent undercut. It can be used to adjust center distance between two gears. If a positive correction is applied, such as to prevent undercut in a pinion, the tooth thickness at top is thinner.
+{{Properties_Title|Zaokrąglenie}}
 
--    **teeth**: If the number of teeth is changed, the pitch diameter also changes (**dw**).
+-    **zaokrąglenie_głowy|Float**: Domyślnie {{Value|0 mm}}.
 
--    **undercut**: Undercut is used when the number of teeth of a gear is too small. Otherwise the mating gear will cut into the tooth root. The undercut not only weakens the tooth with a wasp-like waist, but also removes some of the useful involute adjacent to the base circle.
+-    **zaokrąglenie_stopy|Float**: Domyślnie {{Value|0 mm}}.
 
--    **pressure_angle**: 20° is a standard value here. The pressure angle is defined as the angle between the line-of-action (common tangent to the base circles) and a perpendicular to the line-of-centers. Thus, for standard gears, 14.5° pressure angle gears have base circles much nearer to the roots of teeth than 20° gears. It is for this reason that 14.5° gears encounter greater undercutting problems than 20° gears. Important. the pressure angle changes with a profile shift. Only change the parameter, if sufficient knowledge of the gear geometry is available.
+-    **podcięcie|Bool**: Domyślną wartością jest {{False/pl}}, {{True/pl}} zmienia profil korzenia zęba *(patrz [Uwagi](#Uwagi.md))*.
 
--    **reversed_backlash**: If there are several gears, pay attention to which gear the parameter is set for.
 
-## Limitations
+{{Properties_Title|Śrubowy}}
 
-A 2D tooth profile, obtained by setting the **height** to zero, cannot be used with features requiring a 2D shape. For example [PartDesign Pad](PartDesign_Pad.md) and [PartDesign AdditiveHelix](PartDesign_AdditiveHelix.md) features do not accept such a profile as base. For technical details, please refer to the related [issue on GitHub](https://github.com/looooo/freecad.gears/issues/97).
+-    **beta|Angle**: Domyślnie {{Value|0 °}}. Z kątem helisy β tworzone jest koło zębate śrubowe - wartość dodatnia → kierunek obrotu w prawo, wartość ujemna → kierunek obrotu w lewo *(patrz [Uwagi](#Uwagi.md))*.
 
-## Useful formulas 
+-    **double_helix|Bool**: Domyślną wartością jest {{False/pl}}, {{True/pl}} tworzy podwójną helisę *(patrz [Uwagi](#Uwagi.md))*.
 
-### Standard Spur Gears 
+-    **properties_from_tool|Bool**: Domyślną wartością jest {{False/pl}}. Jeśli wybrano {{True/pl}} i parametr **beta** nie jest równy zero, parametry koła zębatego są obliczane wewnętrznie dla obróconego koła zębatego.
 
-Here "standard" refers to those spur gears with no profile shift coefficient ($x$).
+
+{{Properties_Title|Ewolwenta}}
+
+-    **kąt_natarcia|Angle**: Domyślnie {{Value|20 °}} *(patrz [Uwagi](#Uwagi.md))*.
+
+-    **przesunięcie|Float**: Domyślnie {{Value|0}}. Generuje dodatnie i ujemne przesunięcie profilu *(patrz [Uwagi](#Uwagi.md))*.
+
+
+{{Properties_Title|tolerancja}}
+
+-    **backlash|Length**: Domyślnie {{Value|0}}. Luz zwrotny, zwany również lagiem lub swobodnym biegiem, to odległość między zębami w parze kół zębatych.
+
+-    **prześwit|Float**: Domyślnie {{Value|0.25}}. *(patrz [Uwagi](#Uwagi.md))*.
+
+-    **head|Float**: Domyślnie {{Value|0}}. Wartość ta jest używana do zmiany wysokości zęba.
+
+-    **reversed_backlash|Bool**: Wartość {{True/pl}} zmniejsza luz lub {{False/pl}} *(domyślnie)* i właściwość backslash zwiększa luz *(patrz [Uwagi](#Uwagi.md))*.
+
+
+{{Properties_Title|wersja}}
+
+-    **Wersja|String**:
+
+
+
+## Uwagi
+
+-    **beta**: Gdy zmienia się **beta**, zmienia się również **pitch diameter**. Poniższy wzór ilustruje wzajemne oddziaływanie parametrów: d = m \* Z / cos beta *(Z = liczba zębów, d = średnica podziałowa, m = moduł)*. Oznacza to, że dla koła zębatego czołowego: cos beta = 0, a dla koła zębatego walcowego: cos beta \> 0. Jednak kąt pochylenia linii śrubowej mniejszy niż 10° nie ma prawie żadnych zalet w porównaniu z zębami prostymi.
+
+-    **prześwit**: W przypadku pary kół zębatych prześwit to odległość między wierzchołkiem zęba pierwszego koła zębatego a korzeniem zęba drugiego koła zębatego.
+
+-    **double_gear**: Aby użyć podwójnej przekładni śrubowej, należy najpierw wprowadzić kąt spirali β (**beta**) dla przekładni śrubowej.
+
+-    **moduł**: Korzystając z wytycznych ISO (Międzynarodowej Organizacji Normalizacyjnej), rozmiar modułu jest określany jako jednostka reprezentująca rozmiary zębów przekładni. Moduł *(m)*: m = 1 *(p = 3,1416)*, m = 2 *(p = 6,2832)*, m = 4 *(p = 12,566)*. Jeśli pomnożymy moduł przez Pi, otrzymamy Skok - Pitch *(p)*. Skok to odległość między odpowiednimi punktami na sąsiednich zębach.
+
+-    **przesunięcie**: Przesunięcie profilu nie służy wyłącznie do zapobiegania podcięciu. Może być używane do regulacji odległości między dwoma kołami zębatymi. Jeśli stosowana jest dodatnia korekta, np. w celu zapobieżenia podcięciu w zębniku, grubość zęba na górze jest mniejsza.
+
+-    **zęby**: Jeśli zmienia się liczba zębów, zmienia się również średnica podziałowa (**dw**).
+
+-    **podcięcie**: Podcięcie jest stosowane, gdy liczba zębów koła zębatego jest zbyt mała. W przeciwnym razie współpracujące koło zębate wbije się w korzeń zęba. Podcięcie nie tylko osłabia ząb za pomocą talii podobnej do osy, ale także usuwa część użytecznej ewolwenty przylegającej do koła podstawowego.
+
+-    **pressure_angle**: 20° jest tutaj wartością standardową. Kąt nacisku jest definiowany jako kąt pomiędzy linią działania *(wspólną styczną do okręgów bazowych)* a prostopadłą do linii środków. Tak więc, dla standardowych kół zębatych, koła zębate o kącie natarcia 14,5° mają koła bazowe znacznie bliżej korzeni zębów niż koła zębate o kącie natarcia 20°. Z tego powodu koła zębate 14,5° napotykają większe problemy z podcinaniem niż koła zębate 20°. Kąt natarcia zmienia się wraz ze zmianą profilu. Parametr należy zmieniać tylko wtedy, gdy dostępna jest wystarczająca wiedza na temat geometrii koła zębatego.
+
+-    **reversed_backlash**: Jeśli istnieje kilka przełożeń, należy zwrócić uwagę na to, dla którego przełożenia ustawiony jest parametr.
+
+
+
+## Ograniczenia
+
+Profil zęba 2D, uzyskany przez ustawienie właściwości **wysokość** na zero, nie może być używany z elementami wymagającymi kształtu 2D. Na przykład funkcje [Wyciągnij](PartDesign_Pad/pl.md) i [Addytywna helisa](PartDesign_AdditiveHelix/pl.md) nie akceptują takiego profilu jako podstawy. Szczegóły techniczne można znaleźć w powiązanym [problemie w serwisie GitHub](https://github.com/looooo/freecad.gears/issues/97).
+
+
+
+## Przydatne wzory 
+
+
+
+### Standardowe koła zębate czołowe 
+
+Tutaj \"standard\" odnosi się do tych kół zębatych czołowych, które nie mają współczynnika zmiany profilu *($x$)*.
 
 +++++
-| Symbol   | Term                                     | Formula                        | FCGear Parameter                            |
-+==========+==========================================+================================+=============================================+
-| $m$      | *Module*                                 | \-                             | $\texttt{module}$                           |
+| Symbol   | Terminy                                          | Formuła                            | Parametry FCGear                            |
++==========+==================================================+====================================+=============================================+
+| $m$      | *Moduł*                                          | \-                                 | $\texttt{module}$                           |
 +++++
-| $z$      | *Number of Teeth*                        | \-                             | $\texttt{teeth}$                            |
+| $z$      | *Liczba zębów*                                   | \-                                 | $\texttt{teeth}$                            |
 +++++
-| $\alpha$ | *Pressure Angle*                         | \-                             | $\texttt{pressure} {\_} \texttt{parameter}$ |
-|          |                                          | Typically, $\alpha = 20^\circ$ |                                             |
+| $\alpha$ | *Kąt natarcia*                                   | \-                                 | $\texttt{pressure} {\_} \texttt{parameter}$ |
+|          |                                                  | Typowo, $\alpha = 20^\circ$        |                                             |
 +++++
-| d        | *Reference Diameter* or *Pitch Diameter* | $z \cdot m$                    | \-                                          |
+| d        | *Średnica odniesienia* lub *Średnica podziałowa* | $z \cdot m$                        | \-                                          |
 +++++
-| $h^*_a$  | *Addendum Coefficient*                   | \-                             | $h^*_a = 1 + \texttt{ head}$                |
-|          |                                          | Typically, $h^*_a = 1$         |                                             |
+| $h^*_a$  | *współczynnik Addendum*                          | \-                                 | $h^*_a = 1 + \texttt{ head}$                |
+|          |                                                  | Typowo, $h^*_a = 1$                |                                             |
 +++++
-| $h^*_f$  | *Dedendum Coefficient*                   | \-                             | $h^*_f = 1 + \texttt{ clearance}$           |
-|          |                                          | Typically, $h^*_f = 1.25$      |                                             |
+| $h^*_f$  | *współczynnik Dedendum*                          | \-                                 | $h^*_f = 1 + \texttt{ clearance}$           |
+|          |                                                  | Typowo, $h^*_f = 1.25$             |                                             |
 +++++
-| $h_a$    | *Addendum*                               | $h_a = h^*_a \cdot m$          | \-                                          |
+| $h_a$    | *Addendum*                                       | $h_a = h^*_a \cdot m$              | \-                                          |
 +++++
-| $h_f$    | *Dedendum*                               | $h_f = h^*_f \cdot m$          | \-                                          |
+| $h_f$    | *Dedendum*                                       | $h_f = h^*_f \cdot m$              | \-                                          |
 +++++
-| $h$      | *Tooth Height* or *Tooth Depth*          | $h = h_a + h_f$                | \-                                          |
-|          |                                          | Typically, $h = 2.25 \cdot m$  |                                             |
+| $h$      | *Wysokość zęba* lub *Głębokość zęba*             | $h = h_a + h_f$                    | \-                                          |
+|          |                                                  | Typowo, $h = 2.25 \cdot m$         |                                             |
 +++++
-| $x$      | *Profile Shift Coefficient*              | \-                             | $\texttt{shift}$                            |
-|          |                                          | For standard gears, $x = 0$    |                                             |
+| $x$      | *Współczynnik przesunięcia profilu*              | \-                                 | $\texttt{shift}$                            |
+|          |                                                  | Dla standardowych zębatek, $x = 0$ |                                             |
 +++++
 
-: style=\"text-align: left;\" \| Basic formulas common to internal and external standard spur gears
+: style=\"text-align: left;\" \| Podstawowe wzory wspólne dla wewnętrznych i zewnętrznych standardowych kół zębatych czołowych
 
 ++++
-| Symbol | Term            | Formula                              |
-+========+=================+======================================+
-| $d_a$  | *Tip Diameter*  | $d_a = d + 2 \cdot h_a$              |
-|        |                 | Typically, $d_a = (z + 2) \cdot m$   |
+| Symbol | Terminy             | Formuła                           |
++========+=====================+===================================+
+| $d_a$  | *Średnica końcówki* | $d_a = d + 2 \cdot h_a$           |
+|        |                     | Typowo, $d_a = (z + 2) \cdot m$   |
 ++++
-| $d_f$  | *Root Diameter* | $d_f = d - 2 \cdot h_f$              |
-|        |                 | Typically, $d_f = (z - 2.5) \cdot m$ |
+| $d_f$  | *Średnica korzenia* | $d_f = d - 2 \cdot h_f$           |
+|        |                     | Typowo, $d_f = (z - 2.5) \cdot m$ |
 ++++
 
-: style=\"text-align: left;\" \| Basic formulas specific to external standard spur gears
+: style=\"text-align: left;\" \| Podstawowe wzory specyficzne dla zewnętrznych standardowych kół zębatych czołowych
 
 ++++
-| Symbol | Term            | Formula                              |
-+========+=================+======================================+
-| $d_a$  | *Tip Diameter*  | $d_a = d - 2 \cdot h_a$              |
-|        |                 | Typically, $d_a = (z - 2) \cdot m$   |
+| Symbol | Terminy             | Formuła                           |
++========+=====================+===================================+
+| $d_a$  | *Średnica końcówki* | $d_a = d - 2 \cdot h_a$           |
+|        |                     | Typowo, $d_a = (z - 2) \cdot m$   |
 ++++
-| $d_f$  | *Root Diameter* | $d_f = d + 2 \cdot h_f$              |
-|        |                 | Typically, $d_f = (z + 2.5) \cdot m$ |
+| $d_f$  | *Średnica korzenia* | $d_f = d + 2 \cdot h_f$           |
+|        |                     | Typowo, $d_f = (z + 2.5) \cdot m$ |
 ++++
 
 : style=\"text-align: left;\" \| Basic formulas specific to internal standard spur gears
 
 ++++
-| Symbol | Term                     | Formula                       |
-+========+==========================+===============================+
-| $a$    | *Center Distance*        | $d = \frac{d_1 + d_2}{2}$     |
+| Symbol | Terminy                                     | Formuła                    |
++========+=============================================+============================+
+| $a$    | *Odległość od środka*                       | $d = \frac{d_1 + d_2}{2}$  |
 ++++
-| $c$    | *Tip and Root Clearance* | $c_1 = h_{f2} - h_{a1}$       |
-|        |                          | $c_2 = h_{f1} - h_{a2}$       |
-|        |                          | Typically, $c = 0.25 \cdot m$ |
+| $c$    | *Prześwit pomiędzy końcówkami i korzeniami* | $c_1 = h_{f2} - h_{a1}$    |
+|        |                                             | $c_2 = h_{f1} - h_{a2}$    |
+|        |                                             | Typowo, $c = 0.25 \cdot m$ |
 ++++
 
 : style=\"text-align: left;\" \| Basic formulas specific for a pair of external standard spur gears
 
--   **Helical and double helical gearing**
+-   **Zębatka walcowa i podwójna zębatka walcowa**
     -   
-        **pitch diameter (dw)**
+        **średnica podziałowa (dw)**
         
-        = **module** \* **teeth** : **cos beta**
-
-    -   
-        **axle base**
-        
-        = **(pitch diameter (dw) 1 + 2)** : 2
+        = **moduł** \* **zęby** : **cos beta**
 
     -   
-        **addendum diameter**
+        **rozstaw osi**
         
-        = **pitch diameter (dw)** + 2 \* **module**
+        = **(średnica podziałowa (dw) 1 + 2)** : 2
 
     -   
-        **module**
+        **średnica koła wierzchołkowego**
         
-        = **pitch diameter (dw)** \* **cos beta** : **teeth**
+        = **średnica podziałowa (dw)** + 2 \* **moduł**
 
-## Scripting
+    -   
+        **moduł**
+        
+        = **średnica podziałowa (dw)** \* **cos beta** : **zęby**
 
-Use the power of python to automate your gear modeling: 
+
+
+## Tworzenie skryptów 
+
+Wykorzystaj moc środowiska Python, aby zautomatyzować modelowanie kół zębatych: 
 ```python
 import FreeCAD as App
 import freecad.gears.commands

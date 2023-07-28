@@ -1,32 +1,39 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:TechDraw StackTop
-   MenuLocation:TechDraw → Stacking → Move view to top of stack
+   Name/de:TechDraw StapelOberseite
+   MenuLocation:TechDraw → Stacking → Ansicht auf die Stapeloberseite bewegen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
-   Version:1.0
-   SeeAlso:[TechDraw StackBottom](TechDraw_StackBottom/de.md), [TechDraw StackUp](TechDraw_StackUp/de.md), [TechDraw StackDown](TechDraw_StackDown/de.md).
+   Version:0.21
+   SeeAlso:[TechDraw StapelUnterseite](TechDraw_StackBottom/de.md), [TechDraw StapelNachOben](TechDraw_StackUp/de.md), [TechDraw StapelNachUnten](TechDraw_StackDown/de.md).
 ---
 
 # TechDraw StackTop/de
 
+
+
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_StackTop.svg  style="width:24px;"> **TechDraw StackTop** Werkzeug bewegt Ansichten an die Oberseite des Stapels. Die Stapel Reihenfolge bestimmt die Tiefe der Sichtbarkeit von Ansichten auf einer Seite.
+Das Werkzeug **TechDraw StapelOberseite** bewegt Ansichten auf die Oberseite des Stapels. Die Stapelreihenfolge bestimmt, welche Ansicht auf dem Zeichnungsblatt dargestellt wird (und welche bei Überschneidung verdeckt wird).
+
+
 
 ## Verwendung
 
-1.  Wähle eine oder mehrere Ansichten auf der [Page](TechDraw_PageDefault.md) oder in der [Tree view](Tree_view.md). Für dieses Werkzeug, und [TechDraw StackBottom](TechDraw_StackBottom.md), ist die Reihenfolge der Auswahl wichtig.
+1.  Eine oder mehrere Ansichten auf dem [Zeichnungsblatt](TechDraw_PageDefault/de.md) oder in der [Baumansicht](Tree_view/de.md) auswählen. Für dieses Werkzeug und für [TechDraw StapelUnterseite](TechDraw_StackBottom/de.md), ist die Reihenfolge der Auswahl wichtig.
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-    -   Wähle das **<img src="images/TechDraw_StackTop.svg" width=16px> [Move view to top of stack](TechDraw_StackTop.md)** Symbol.
-    -   Wähle die **TechDraw → Stacking → <img src="images/TechDraw_StackTop.svg" width=16px> Move view to top of stack** Option aus dem Menü.
-3.  Die **Stack Order** der Ansichten wird geändert.
+    -   Die Schaltfläche **<img src="images/TechDraw_StackTop.svg" width=16px> [Stapel Oben](TechDraw_StackTop/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Stacking → <img src="images/TechDraw_StackTop.svg" width=16px> Ansicht auf die Stapeloberseite bewegen** auswählen.
+3.  Die {{PropertyView/de|Stack Order}} der Ansichten wird geändert.
+
+
 
 ## Skripten
 
 Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Die Stapel Reihenfolge kann in Skripts durch Ändern der {{Incode|StackOrder}} Eigenschaft eines {{Incode|ViewObject}} erfolgen.
+Die Stapelreihenfolge kann in Skripten durch Ändern der Eigenschaft {{Incode|StackOrder}} des {{Incode|ViewObject}}s einer Ansicht erfolgen.
 
 
 

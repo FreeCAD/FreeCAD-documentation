@@ -21,6 +21,8 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 <img alt="" src=images/Arch_Rebar_ColumnReinforcement_example.png  style="width:400px;"> 
 *Renfort de colonne à l'intérieur d'une colonne [Arch Structure](Arch_Structure/fr.md)*
 
+
+
 ## Utilisation
 
 1\. Sélectionnez n\'importe quelle face d\'un objet **<img src="images/_Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md)** précédemment créé.
@@ -47,6 +49,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 7\. Sélectionnez le type d\'armatures souhaitées et remplissez les données pour les armatures de direction Y.
 8. Cliquez sur **OK** ou **Apply** pour générer un renforcement de colonne.
 9. Cliquez sur **Cancel** pour quitter la boîte de dialogue.
+
 
 ## Propriétés
 
@@ -122,6 +125,8 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 -    {{PropertyData/fr|Number#Diameter}}: Number#Diameter ensemble des armatures dans la direction Y.
 
+
+
 ## Script
 
 
@@ -129,7 +134,9 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 [Arch API](Arch_API/fr.md), [API de renforts](Reinforcement_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
 
-L'outil Renfort de colonne (ColumnReinforcement) peut être utilisé dans une [macros](macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante :
+L'outil Renfort de colonne (ColumnReinforcement) peut être utilisé dans une [macros](Macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante :
+
+
 
 ### Création d\'un seul cadre pour quatre armatures 
 
@@ -188,6 +195,8 @@ RebarGroup = makeSingleTieFourRebars(
 -    `l_rebar_rounding`est le paramètre qui détermine le rayon de courbure des armatures principales en forme de L, exprimé en fois le diamètre.
 
 -    `hook_extension`est la longueur du crochet des barres d\'armature en forme de L.
+
+
 
 #### Exemple
 
@@ -281,6 +290,8 @@ RebarGroup = SingleTie.makeSingleTieFourRebars(
 
 ```
 
+
+
 ### Création d\'un seul cadre pour plusieurs armatures 
 
 
@@ -357,6 +368,8 @@ RebarGroup = makeSingleTieMultipleRebars(
 -    `l_sec_rebar_rounding`est un tuple (l_xdir_rebar_rounding, l_ydir_rebar_rounding) qui détermine le rayon de courbure des barres d\'armature secondaires en X et en Y en forme de L, exprimé en nombre de diamètre des barres en L en direction x et y respectivement.
 
 -    `sec_hook_extension`est un tuple (xdir_hook_extension, ydir_hook_extension) qui définit la longueur du crochet des armatures secondaires en forme de L en direction x et y.
+
+
 
 #### Exemple 
 
@@ -443,6 +456,8 @@ rebar_group = editSingleTieFourRebars(
 
 -    `structure`et `facename` peuvent être omis afin que l\'armature reste dans la structure d\'origine.
 
+
+
 #### Exemple 
 
 
@@ -519,6 +534,8 @@ rebar_group = editSingleTieMultipleRebars(
 -   Les autres paramètres sont les mêmes que ceux requis par la fonction `makeSingleTieFourRebars()`.
 
 -    `structure`et `facename` peuvent être omis afin que l\'armature reste dans la structure d\'origine.
+
+
 
 #### Exemple 
 

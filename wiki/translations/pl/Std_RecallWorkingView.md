@@ -1,34 +1,41 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std RecallWorkingView
-   MenuLocation:View → Standard views → Recall working view
-   Workbenches:All
+   Name/pl:Std: Odtwórz widok
+   MenuLocation:Widok → Widoki standardowe → Odtwórz widok
+   Workbenches:wszystkie
    Shortcut:**End**
-   Version:1.0
-   SeeAlso:[Std StoreWorkingView](Std_StoreWorkingView.md), [Std FreezeViews](Std_FreezeViews.md)
+   Version:0.21
+   SeeAlso:[Przechowaj widok roboczy](Std_StoreWorkingView/pl.md), [Zamroź widok](Std_FreezeViews/pl.md)
 ---
 
 # Std RecallWorkingView/pl
 
-## Description
-
-The **Std RecallWorkingView** recalls the active [3D view](3D_view.md)\'s stored working view. For more information see [Std StoreWorkingView](Std_StoreWorkingView.md).
-
-## Usage
-
-1.  Make sure a [3D view](3D_view.md) is active for which the [Std StoreWorkingView](Std_StoreWorkingView.md) command has been used at least once.
-2.  There are several ways to invoke the command:
-    -   Select the **View → Standard views → Recall working view** option from the menu.
-    -   Use the keyboard shortcut: **End**.
-
-## Scripting
 
 
-**See also:**
+## Opis
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Polecenie **Odtwórz widok** przywołuje zapisany widok roboczy aktywnego okna [widoku 3D](3D_view/pl.md). Więcej informacji można znaleźć na stronie [Przechowaj widok roboczy](Std_StoreWorkingView/pl.md).
 
-To recall the stored working view of the active 3D view:
+
+
+## Użycie
+
+1.  Upewnij się, że aktywne jest okno [widoku 3D](3D_view/pl.md), dla którego co najmniej raz użyto polecenia [Przechowaj widok roboczy](Std_StoreWorkingView/pl.md).
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Wybierając z menu opcję **Widok → Widoki standardowe → Odtwórz widok**.
+    -   Użyć skrótu klawiaturowego: **End**.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
+
+Odtworzenie zapisanego widoku roboczego do aktywnego okna widoku 3D:
 
 
 ```python

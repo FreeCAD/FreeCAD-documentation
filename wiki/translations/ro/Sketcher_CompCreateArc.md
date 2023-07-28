@@ -11,9 +11,11 @@
 
 </div>
 
+
+
 ## Descriere
 
-**Create an arc** is an icon button in the Sketcher geometries toolbar that groups tools to create an arc by picking three points. Click on the down arrow to its right to expand the icons below it and select a tool.
+**Create arc** is an icon button in the Sketcher geometries toolbar that groups tools to create an arc by picking three points. Click on the down arrow to its right to expand the icons below it and select a tool.
 
 ## Types of arcs 
 

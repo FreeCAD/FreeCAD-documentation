@@ -9,6 +9,8 @@
    Files:[https://github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true WhiffleBall_Tutorial_FCWiki.FCStd]
 }}
 
+
+
 ## Introduction
 
 Ce tutoriel a été écrit à l\'origine par Roland Frank († 2017, r-frank). Il a été réécrit et illustré par vocx.
@@ -27,6 +29,8 @@ Vous vous exercerez à :
 ![](images/10_T03_Part_ball_fillet.png ) 
 *Modèle terminé de la balle à trous*
 
+
+
 ## Installation
 
 1\. Ouvrez FreeCAD, créez un nouveau document vide avec **Fichier → [Nouveau](File:Std_New.svg   16px]] [[Std_New/fr.md)** et passez à l\'[atelier Part](Part_Workbench/fr.md).
@@ -34,6 +38,8 @@ Vous vous exercerez à :
 :   1.1. Appuyez sur le bouton **[Vue isométrique](File:Std_ViewIsometric.svg   16px]] [[Std_ViewIsometric/fr.md)** ou appuyez sur **0** sur le pavé numérique pour changer la vue à isométrique pour mieux visualiser les solides 3D.
 :   1.2. Appuyez sur le bouton **[Tout afficher](File:Std_ViewFitAll.svg   16px]] [[Std_ViewFitAll.md)** chaque fois que vous ajoutez des objets afin de faire un panoramique et un zoom sur la [Vue 3D](3D_view/fr.md) afin que tous les éléments sont visibles dans la vue.
 :   1.3. Maintenez **Ctrl** pendant que vous cliquez pour sélectionner plusieurs éléments. Si vous avez sélectionné quelque chose de mal ou que vous voulez tout désélectionner, cliquez simplement sur un espace vide dans la [Vue 3D](3D_view/fr.md).
+
+
 
 ## Insérer des cubes primitifs 
 
@@ -67,6 +73,8 @@ Vous vous exercerez à :
 :   4.9. Remplacez **Z** par {{incode   -40 mm}}.
 :   4.10. Appuyez sur le bouton **OK** pour fermer la boîte de dialogue.
 
+
+
 ## Modifier les propriétés visuelles 
 
 5\. Les opérations précédentes créent un cube plus petit à l\'intérieur d\'un cube plus grand. Pour visualiser cela, nous pouvons modifier les propriétés **View** dans l\'[Éditeur de propriétés](Property_editor/fr.md).
@@ -76,6 +84,8 @@ Vous vous exercerez à :
 
 ![](images/01_T03_Part_cubes_visibility.png ) 
 *Cube solide à l'intérieur d'un autre cube solide*
+
+
 
 ## Insérer des cylindres primitifs 
 
@@ -92,12 +102,12 @@ Vous vous exercerez à :
 7\. Répétez le processus en insérant un deuxième cylindre en cliquant sur **![](images/)**.
 
 :   7.1. Le deuxième cylindre sera créé avec le même nom, mais avec un numéro supplémentaire pour distinguer l\'objet.
-:   7.2. Sélectionnez {{incode   Cylinder001}} dans la [Vue en arborescence](Tree_view/fr.md) et modifiez les dimensions et le placement comme avec l\'objet précédent.
+:   7.2. Sélectionnez {{incode   Cylinder001}} dans la [vue en arborescence](Tree_view/fr.md) et modifiez les dimensions et le placement comme avec l\'objet précédent.
 :   7.3. Remplacez **Radius** par {{incode   27,5 mm}}.
 :   7.4. Remplacez **Height** par {{incode   120 mm}}.
 :   7.5. Ouvrez la boîte de dialogue [Placement](Std_Placement/fr.md).
 :   7.6. Remplacez **Y** par {{incode   60 mm}}.
-:   7.7. Remplacez **Rotation** par {{incode   Rotation axis with angle}}; **Axis** à {{incode   X}} (en fixant les valeurs de {{incode   X}}, {{incode   Y}} et {{incode   Z}} des valeurs de l\'axe à {{incode   0}}, {{incode   0}} et {{incode   1}} respectivement, {{incode   Z}} étant la troisième boîte d\'entrée), et **Angle** à {{incode   90 deg}}.
+:   7.7. Remplacez **Rotation** par {{incode   Rotation axis with angle}}; **Axis** à {{incode   X}} (en fixant les valeurs de {{incode   X}}, {{incode   Y}} et {{incode   Z}} des valeurs de l\'axe à {{incode   1}}, {{incode   0}} et {{incode   0}} respectivement) et **Angle** à {{incode   90 deg}}.
 :   7.8. Appuyez sur le bouton **OK** pour fermer la boîte de dialogue.
 
 8\. Insérez un autre cylindre. Cette fois, créez un doublon afin que le rayon et la hauteur ne doivent pas être modifiés, seulement son placement.
@@ -107,6 +117,8 @@ Vous vous exercerez à :
 :   8.3. Changez **X** en {{incode   -60 mm}}, et changez **Y** en {{incode   0 mm}}.
 :   8.4. Changez **Rotation** par {{incode   Rotation axis with angle}}; **Axis** à {{incode   Y}} et **Angle** à {{incode   90 deg}}.
 :   8.5. Appuyez sur le bouton **OK** pour fermer la boîte de dialogue.
+
+
 
 ## Modifier les propriétés visuelles 
 
@@ -120,6 +132,8 @@ Vous vous exercerez à :
 
 ![](images/02_T03_Part_cylinders_visibility.png ) 
 *Cylindres solides qui se croisent et les cubes solides.*
+
+
 
 ## Union et Soustraction 
 
@@ -135,6 +149,8 @@ Vous vous exercerez à :
 
 ![](images/03_T03_Part_cube_cut.png ) 
 *Forme creuse produite en coupant un cube et trois cylindres à partir d'un plus gros cube.*
+
+
 
 ## Insérer des cubes primitifs pour couper les coins du solide partiel 
 
@@ -178,6 +194,8 @@ Nous dupliquerons à nouveau les deux objets précédents pour les utiliser à n
 ![](images/04_T03_Part_cube_additional.png ) 
 *Cubes externes supplémentaires qui seront utilisés comme objets de coupe pour le solide interne.*
 
+
+
 ## Couper les coins partie 1 
 
 17\. Dans la [Vue en arborescence](Tree_view/fr.md) sélectionnez {{incode   Cube002}} et {{incode   Cube003}}.
@@ -199,6 +217,8 @@ Nous dupliquerons à nouveau les deux objets précédents pour les utiliser à n
 
 ![](images/05_T03_Part_cube_additional_cut_1.png ) 
 *Un solide tourné et évidé, qui sera utilisé comme objet de coupe pour certains coins du solide interne.*
+
+
 
 ## Couper les coins partie 2 
 
@@ -222,6 +242,8 @@ Nous dupliquerons à nouveau les deux objets précédents pour les utiliser à n
 
 ![](images/06_T03_Part_cube_additional_cut_2.png ) 
 *Un solide tourné et évidé, qui sera utilisé comme objet de coupe pour certains coins du solide interne.*
+
+
 
 ## Finalisation du modèle 
 
@@ -256,10 +278,10 @@ Nous dupliquerons à nouveau les deux objets précédents pour les utiliser à n
 *Modèle terminé de la balle à trous avec des congés appliqués sur les bords.*
 
 
-  {{Userdocnavi
+ {{Userdocnavi
 ---
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Whiffle Ball tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Whiffle Ball tutorial/fr

@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle.svg  style="width:24px;"> **TechDraw Cercle** ajoute un cercle cosmétique basé sur deux sommets.
+L\'outil **TechDraw Cercle** ajoute un cercle cosmétique basé sur deux sommets.
 
 <img alt="" src=images/TechDraw_ExtensionDrawCosmCircleExample.png  style="width:250px;"> 
 *A droite, un cercle cosmétique ajouté*
+
+
 
 ## Utilisation
 

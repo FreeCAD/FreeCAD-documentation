@@ -1,23 +1,28 @@
 ---
-- GuiCommand:
+- GuiCommand:/it
    Name:Std PythonHelp
-   MenuLocation:Help → Automatic python modules documentation
-   Workbenches:All
-   SeeAlso:[Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub.md)
+   Name/it:Documentazione dei moduli Python
+   MenuLocation:Aiuto → Documentazione automatica dei moduli Python
+   Workbenches:Tutti
+   SeeAlso:[Documentazione di scripting Python](Std_FreeCADPowerUserHub/it.md)
 ---
 
 # Std PythonHelp/it
 
+
+
 ## Descrizione
 
-The **Std PythonHelp** command starts a web server that communicates with the system\'s default Internet browser over a local socket. The web server displays information about the available [Python](Python.md) modules, classes and functions of FreeCAD. The required pages are generated automatically.
+Il comando **Documentazione automatica dei moduli Python** avvia un server Web che comunica con il browser Internet predefinito del sistema tramite un socket locale. Il server Web visualizza le informazioni sui moduli [Python](Python/it.md) disponibili, le classi e le funzioni di FreeCAD. Le pagine richieste vengono generate automaticamente.
 
-The web server is based on Python\'s [pydoc](https://docs.python.org/3.8/library/pydoc.html#module-pydoc) module, and thus extracts the docstrings of Python files (`.py`), and textual documentation defined in the Python wrappers (`.xml`) which expose the underlying C++ code.
+Il web server è basato sul modulo [pydoc](https://docs.python.org/3.8/library/pydoc.html#module-pydoc) di Python, e quindi estrae le docstring dei file Python (`.py` ) e la documentazione testuale definita nei wrapper Python (`.xml`) che espongono il codice C++ sottostante.
 
-## Usage
 
-1.  Select the **Help → <img src="images/Std_PythonHelp.svg" width=16px> Automatic python modules documentation** option from the menu.
-2.  Click on any of the links to go to the documentation of a specific class or function.
+
+## Utilizzo
+
+1.  Selezionare l\'opzione **Aiuto → <img src="images/Std_PythonHelp.svg" width=16px> Documentazione automatica dei moduli Python** dal menu.
+2.  Fare clic su uno dei collegamenti per accedere alla documentazione di una classe o funzione specifica.
 
 
 

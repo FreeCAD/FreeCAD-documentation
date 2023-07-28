@@ -10,7 +10,7 @@
 
 ## Description
 
-The <img alt="" src=images/Path_Deburr.svg  style="width:24px;"> **Path Deburr** tool is primarily for Deburring an edge.
+The <img alt="" src=images/Path_Deburr.svg  style="width:24px;"> [Deburr](Path_Deburr.md) tool is primarily for Deburring an edge.
 
 ## Usage
 

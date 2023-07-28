@@ -65,7 +65,8 @@ Le [Packaging](Packaging/fr.md) consiste à prendre les fichiers binaires compil
 -   [Modules Python supplémentaires](Extra_python_modules/fr.md) ou *comment étendre les fonctionnalités de FreeCAD avec Python*
 -   [Google Summer of Code 2020](Google_Summer_of_Code_2020.md) participer via les programmes étudiants de Google
 -   [Réglage fin](Fine-tuning/fr.md) affiche différentes options et commutateurs de paramètres permettant de résoudre les problèmes.
--   [Encapsuler une classe Cplusplus dans Python](Wrapping_a_Cplusplus_class_in_Python/fr.md) montre comment créer le wrapper Python d\'une classe C++.
+-   [Encapsuler une classe C++ dans Python](Wrapping_a_Cplusplus_class_in_Python/fr.md) montre comment créer le wrapper Python d\'une classe C++.
+-   [Checklist for adding a Feature to a C++ workbench](NewFeatureCheckList_C++.md) fournit une aide aux contributeurs.
 
 -   [Traduction et ateliers externes](Translating_an_external_workbench/fr.md)
 

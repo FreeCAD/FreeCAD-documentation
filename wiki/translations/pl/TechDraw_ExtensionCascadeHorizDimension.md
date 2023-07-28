@@ -1,35 +1,42 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ExtensionCascadeHorizDimension
-   MenuLocation:TechDraw → Extensions: Attributes/Modifications → Cascade Horizontal Dimensions
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Rozszerzenie Wymiar poziomy kaskadowo
+   MenuLocation:Rysunek Techniczny → Rozszerzenia: Atrybuty / Modyfikatory → Wymiar poziomy kaskadowo
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionCascadeVertDimension](TechDraw_ExtensionCascadeVertDimension.md), [TechDraw ExtensionCascadeObliqueDimension](TechDraw_ExtensionCascadeObliqueDimension.md)
+   SeeAlso:[Wymiar pionowy kaskadowo](TechDraw_ExtensionCascadeVertDimension/pl.md), [Wymiar ukośny kaskadowo](TechDraw_ExtensionCascadeObliqueDimension/pl.md)
 ---
 
 # TechDraw ExtensionCascadeHorizDimension/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_ExtensionCascadeHorizDimension.svg  style="width:24px;"> **TechDraw ExtensionCascadeHorizDimension** tool evenly spaces horizontal dimensions.
+
+## Opis
+
+Narzędzie **Wymiar poziomy kaskadowo** równomiernie rozmieszcza wymiary poziome.
 
 <img alt="" src=images/TechDraw_ExtensionCascadeHorizDimensionExample.png  style="width:400px;"> 
-*On the right the evenly spaced horizontal dimensions*
+*Po prawej stronie widoczne są równomiernie rozmieszczone wymiary poziome.*
 
-## Usage
 
-1.  Optionally specify the cascade spacing with the <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) tool.
-2.  Select two or more horizontal dimensions.
-3.  The first dimension defines the position. This dimension will not be moved, the other dimensions will be positioned relative to this dimension.
-4.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionCascadeHorizDimension.svg" width=16px> [TechDraw ExtensionCascadeHorizDimension](TechDraw_ExtensionCascadeHorizDimension.md)** button.
-    -   Select the **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionCascadeHorizDimension.svg" width=16px> Cascade Horizontal Dimensions** option from the menu.
-5.  The dimensions are evenly spaced and their dimension texts are centered.
 
-## Notes
+## Użycie
 
--   The tool can also be used to center the dimension text of a single dimension.
+1.  Opcjonalnie określ odstęp kaskadowy za pomocą narzędzia <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [Wybierz atrybuty linii](TechDraw_ExtensionSelectLineAttributes/pl.md).
+2.  Wybierz dwa lub więcej wymiarów poziomych.
+3.  Pierwszy wymiar definiuje pozycję. Wymiar ten nie zostanie przemieszczony, a pozostałe wymiary będą pozycjonowane względem tego wymiaru.
+4.  Narzędzie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionCascadeHorizDimension.svg" width=16px> '''Wymiar poziomy kaskadowo'''**.
+    -   Wybierz z menu opcję **Rysunek Techniczny → Rozszerzenia: Atrybuty / Modyfikatory → <img src="images/TechDraw_ExtensionCascadeHorizDimension.svg" width=16px> Wymiar poziomy kaskadowo**.
+5.  Wymiary zostaną równomiernie rozmieszczone, a ich teksty wymiarów zostaną wyśrodkowane.
+
+
+
+## Uwagi
+
+-   Narzędzie to może być również używane do wyśrodkowania tekstu wymiaru pojedynczego.
 
 
 

@@ -37,6 +37,18 @@
 
 *Самый верхний объект создается путем выполнения параметрических операций над объектами, которые сами были созданы предыдущими операциями. Разворачивание списка в древе на много уровней, раскрывает исходные элементы, которые были использованы для создания элементов твердых тел.*
 
+### Labels & Attributes 
+
+In the Labels & Attributes column the labels and icons of the objects are displayed.
+
+Selecting an object in this column and pressing **F2** (on Windows and Linux), or **Enter** (on macOS), allows to edit the object\'s **Label** property in situ without detour via the context menu action described below or the [Property editor](Property_editor.md).
+
+### Description
+
+The Description column displays further information about objects, if available.
+
+This information is stored in an object\'s **Label2** property which can be edited in situ by selecting the object in this column and pressing **F2** (on Windows and Linux), or **Enter** (on macOS), or via the [Property editor](Property_editor.md).
+
 
 
 ## Действия
@@ -49,6 +61,8 @@
 
 </div>
 
+### Application start 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -59,27 +73,14 @@
 
 </div>
 
+### New document 
+
 
 <div class="mw-translate-fuzzy">
 
 После создания нового документа активными становятся следующие:
 
 -    **Действия с выражениями**: [Копировать активный документ](Std_Expressions/ru.md), [Копировать все документы](Std_Expressions/ru.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Кроме того, становятся доступны [Link](Std_LinkMake/ru.md) actions.
-
--    **Link actions**: [Создать ссылку](Std_LinkMake/ru.md).
-
-    -   
-        **Создать группу ссылок**
-        
-        : [Простая группа](Std_LinkMakeGroup/ru.md), [Группа со ссылками](Std_LinkMakeGroup/ru.md), [Группа со ссылками преобразования](Std_LinkMakeGroup/ru.md).
 
 
 </div>
@@ -180,7 +181,13 @@ The following keyboard actions are available when the focus is on the Tree view:
 
 ## Накладные иконки 
 
+
+<div class="mw-translate-fuzzy">
+
 Одна или несколько небольших накладных иконок могут отображаться поверх иконки по умолчанию на объекте в древе проекта. Доступные накладные иконки и их значение перечислены ниже. <small>(v0.19)</small> 
+
+
+</div>
 
 
 
@@ -216,7 +223,7 @@ The following keyboard actions are available when the focus is on the Tree view:
 
 ### ![](images/FreeCAD_Tree_view_hidden.png ) Eye symbol 
 
-This indicates that the object will be hidden in the Tree view because its **Hide item** context menu option is checked. Check and then uncheck the **Show hidden items** context menu option of the document, or reopen the document, to update the Tree view.
+This indicates that the object will be hidden in the Tree view if the **Show items hidden in tree view** context menu option is unchecked.
 
 
 {{Interface navi

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher CarbonCopy
-   MenuLocation:Sketch → Sketcher geometries → Carbon copy
+   MenuLocation:Sketch → Sketcher geometries → Create carbon copy
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**G** **W**
    Version:0.17
@@ -18,7 +18,7 @@ Dimensional constraints which exist before the copy function remain linked to th
 ## Usage
 
 1.  Make sure you are in the edit mode of an existing **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketch](Sketcher_NewSketch.md)**. This sketch is the target of the operation.
-2.  Press the **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Carbon copy](Sketcher_CarbonCopy.md)** button.
+2.  Press the **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Create carbon copy](Sketcher_CarbonCopy.md)** button.
 3.  Click on an edge from another sketch. This sketch is the source of the operation.
 4.  Geometry elements as well as constraints are copied into the active sketch.
 5.  Press **Esc** or the right mouse button to terminate the operation.
@@ -29,6 +29,8 @@ Dimensional constraints which exist before the copy function remain linked to th
 -   Normally, the sketch to select should be in a plane that is parallel to the currently active sketch. If the sketch to be copied is not parallel to the currently active sketch, hold **Ctrl**+**Alt** to allow selection of non-parallel sketches. The object will then be adjusted to the active sketch\'s plane. Noteː as of this writing this needs a save and reload of the document to make it visible. This works for sketches located outside of the currently active [Body](PartDesign_Body.md) as well.
 -   Since carbon-copied dimensional constraints use expressions they are rendered in a different color. The color can be customized with the [Preferences Editor](Preferences_Editor.md) at **Edit → Preferences → Sketcher → Colors → Expression dependent constraint color**.
 -   If the Sketcher mode has been changed to construction mode using **[<img src=images/Sketcher_ToggleConstruction.svg style="width:24px"> [Toggle construction geometry](Sketcher_ToggleConstruction.md)** all copied geometry will be created in construction mode.
+
+
 
 ## Ograničenja
 

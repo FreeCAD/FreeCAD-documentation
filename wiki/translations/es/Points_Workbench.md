@@ -1,4 +1,13 @@
-# <img alt="El icono del Ambiente de trabajo Puntos" src=images/Workbench_Points.svg  style="width:64px;"> Points Workbench/es
+# Points Workbench/es
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+<img alt="El icono del Ambiente de trabajo Puntos" src=images/Workbench_Points.svg  style="width:128px;">
 
 
 
@@ -46,10 +55,13 @@ Se puede acceder a todas las herramientas del ambiente de trabajo de puntos desd
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
 
 
 
+
+</div>
 
 
 {{Points Tools navi

@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -25,6 +27,8 @@ Lo strumento Tratteggio geometrico riempie una regione chiusa in una vista con u
 <img alt="" src=images/TechDraw_GeomHatch_example.png  style="width:300px;"> 
 *Esempio di tratteggio geometrico su una faccia*
 
+
+
 ## Utilizzo
 
 
@@ -37,6 +41,8 @@ Lo strumento Tratteggio geometrico riempie una regione chiusa in una vista con u
 
 
 </div>
+
+
 
 ## Note
 
@@ -62,6 +68,8 @@ dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 /usr/share/freecad/data/Mod/TechDraw/PAT/FCPAT.pat
 ```
 
+
+
 ## Proprietà
 
 -    **Source**: La vista e la faccia che devono ricevere il modello di tratteggio.
@@ -75,6 +83,8 @@ dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 -    **Weight Pattern**: Lo spessore delle linee del modello.
 
 -    **Color Pattern**: Il colore delle linee del modello.
+
+
 
 ## Script
 
@@ -99,11 +109,11 @@ Lo strumento GeometricHatch può essere utilizzato nelle [macro](macros/it.md) e
 
 
 ```python
-hatch = FreeCAD.ActiveDocument.addObject('TechDraw::DrawGeomHatch','GeomHatch')
-hatch.Source = (view1,["Face0"])
+hatch = FreeCAD.ActiveDocument.addObject("TechDraw::DrawGeomHatch", "GeomHatch")
+hatch.Source = (view1, ["Face0"])
 hatch.FilePattern = "path/to/myPATfile.pat"
 hatch.NamePattern = "Diamond"
-rc = page.addView(hatch)
+page.addView(hatch)
 ```
 
 It is also possible to use TechDraw\'s geometric hatch engine to produce a compound object in the 3D space. One must take care that the base face lies on the XY plane, as the algorithm is not tailored yet for other cases:
@@ -111,7 +121,7 @@ It is also possible to use TechDraw\'s geometric hatch engine to produce a compo
 
 ```python
 import TechDraw
-face = Part.makePlane(10,10)
+face = Part.makePlane(10, 10)
 patfile = "path/to/myPATfile.pat"
 pattern = "Diamond"
 scale = 10

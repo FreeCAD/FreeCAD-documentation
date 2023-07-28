@@ -2,7 +2,7 @@
 - GuiCommand:/de
    Name:TechDraw Symbol
    Name/de:TechDraw Symbol
-   MenuLocation:TechDraw → SVG-Zeichnungselement einfügen
+   MenuLocation:TechDraw → TechDraw Views → SVG-Zeichnungselement einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    SeeAlso:[TechDraw Vorlagen](TechDraw_Templates/de.md), [Draft SVG](Draft_SVG/de.md)
 ---
@@ -13,7 +13,7 @@
 
 ## Beschreibung
 
-Das Werkzeug *Symbol* fügt eine [SVG](SVG/de.md)-Datei als Ansicht auf dem Zeichnungsblatt ein. Dieses Symbol kann alles sein, was als Erläuterung zur Zeichnung beiträgt und nicht weiter verändert werden muss.
+Das Werkzeug *TechDraw Symbol* fügt eine [SVG](SVG/de.md)-Datei als Ansicht auf dem Zeichnungsblatt ein. Dieses Symbol kann alles sein, was als Erläuterung zur Zeichnung beiträgt und nicht weiter verändert werden muss.
 
 <img alt="" src=images/TechDraw_SymbolSVG_sample.png  style="width:250px;"> 
 *Kompassrose zum Zeichnungsblatt hinzugefügt; dieses Symbol erhält man durch Installation der Erweiterung "symbols_library" mit dem [Addon-Manager](Std_AddonMgr/de.md)*
@@ -22,16 +22,17 @@ Das Werkzeug *Symbol* fügt eine [SVG](SVG/de.md)-Datei als Ansicht auf dem Zeic
 
 ## Anwendung
 
-1.  Die Schaltfläche **<img src="images/TechDraw_Symbol.svg" width=16px> [SVG-Zeichnungselement einfügen](TechDraw_Symbol/de.md)** drücken.
-
-2.  Ein Dateidialog wird geöffnet.
-
-3.  Einen Speicherort und einen Dateinamen auswählen.
-
-4.  
-    **OK**drücken.
-
-Wenn das Symbol größer als erwartet dargestellt wird, kann die Eigenschaft Scale (Skalierung) genutzt werden, um die Größe anzupassen.
+1.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswahl in der [Baumansicht](Tree_view/de.md) aktivieren.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_Symbol.svg" width=16px> [SVG-Zeichnungselement einfügen](TechDraw_Symbol/de.md)** button.
+    -   Den Menüeintrag **TechDraw → TechDraw Views → <img src="images/TechDraw_Symbol.svg" width=16px> SVG-Zeichnungselement einfügen** auswählen.
+3.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet: {{Version/de|0.20}}
+    1.  Das gewünschte Blatt auswählen.
+    2.  Die Schaltfläche **OK** drücken.
+4.  Ein Dateidialog wird geöffnet.
+5.  Einen Speicherort und einen Dateinamen auswählen.
+6.  Das Symbol wird eingefügt.
+7.  Wahlweise seine {{PropertyData/de|Scale}} ändern, um seine Größe anzupassen.
 
 
 

@@ -32,6 +32,8 @@ Ce tutoriel utilise la notation {{Value|(x, y, z)}} pour désigner les coordonn�
 <img alt="" src=images/00_Dr01_Draft_Tutorial_final.png  style="width:" height="400px;"> 
 *Dessin final comprenant divers objets Draft.*
 
+
+
 ## Installation
 
 1\. Ouvrez FreeCAD, créez un nouveau document vide avec **Fichier → [<img src=images/Std_New.svg style="width:16px"> [Nouveau](Std_New/fr.md)**.
@@ -40,6 +42,8 @@ Ce tutoriel utilise la notation {{Value|(x, y, z)}} pour désigner les coordonn�
 :   1.2. Assurez-vous de comprendre comment utiliser l\'[éditeur de propriétés](property_editor/fr.md), en particulier les onglets **Données** et **Affichage** pour modifier les propriétés. Lors de la modification des propriétés, vous devrez peut-être effectuer une action **<img src="images/Std_Refresh.svg" width=16px> [Std Rafraîchir](Std_Refresh/fr.md)** pour voir le résultat dans la [vue 3D](3D_view/fr.md).
 :   1.3. Comme les objets Draft sont des formes planes, ils sont mieux vus du dessus. Utilisez **[<img src=images/Std_ViewTop.svg style="width:16px"> [vue de dessus](Std_ViewTop/fr.md)** pour définir la [Vue 3D](3D_view/fr.md).
 :   1.4. Bien qu\'elle ne soit pas utilisée dans ce tutoriel, la grille Draft est utile pour positionner des éléments géométriques. Utilisez **[<img src=images/Draft_SelectPlane.svg style="width:16px"> [Plan de travail](Draft_SelectPlane/fr.md)** pour définir à la fois le plan de travail et la grille, puis affichez et masquez la grille avec **[<img src=images/Draft_ToggleGrid.svg style="width:16px"> [Visibilité de la grille](Draft_ToggleGrid/fr.md)**.
+
+
 
 ## Verrouillage de la barre d\'outils 
 
@@ -50,6 +54,8 @@ Ce tutoriel utilise la notation {{Value|(x, y, z)}} pour désigner les coordonn�
 
 Vous pouvez aussi changer la visibilité et les propriétés de la grille Draft dans cette même fenêtre.
 
+
+
 ## Plans de travail 
 
 La plupart des objets Draft sont des formes planes, ils sont donc naturellement basés sur un **plan de travail**. Un plan de travail peut être l\'un des plans de coordonnées globaux principaux XY, XZ et YZ, ou il peut s\'agir d\'un plan qui leur est parallèle avec un décalage positif ou négatif, ou il peut s\'agir d\'un plan défini par la face d\'un objet solide.
@@ -59,6 +65,8 @@ La plupart des objets Draft sont des formes planes, ils sont donc naturellement 
 :   3.1. Appuyez sur **[<img src=images/Std_ViewTop.svg style="width:16px"> Top (XY)**.
 
 Avant d\'appuyer sur le bouton, vous pouvez également modifier la valeur du décalage en millimètres, ainsi que l\'espacement de la grille, les lignes principales et le rayon d\'accrochage.
+
+
 
 ## Lignes et arcs 
 
@@ -81,6 +89,8 @@ Avant d\'appuyer sur le bouton, vous pouvez également modifier la valeur du dé
 <img alt="" src=images/01_Dr01_Draft_Arc_profile.png  style="width:" height="400px;"> 
 *Profil fermé créé par deux arcs et deux lignes.*
 
+
+
 ## Fusion ou composition 
 
 Nous avons maintenant plusieurs objets dans la [Vue en arborescence](Tree_view/fr.md) qui forment un profil fermé. Cependant, ce profil est toujours composé d\'objets déconnectés. Chacun d\'eux peut être édité et déplacé indépendamment des autres. Il est possible de continuer à travailler avec les éléments de cette manière mais il est également possible de les fusionner en un seul objet.
@@ -95,6 +105,8 @@ Nous avons maintenant plusieurs objets dans la [Vue en arborescence](Tree_view/f
 
 :   6b.1. Basculez vers <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md).
 :   6b.2. Une fois ces objets sélectionnés, cliquez sur **[<img src=images/Part_Compound.svg style="width:16px"> [Part Composé](Part_Compound/fr.md)**.
+
+
 
 ## Rectangles, cercles et polygones 
 
@@ -127,6 +139,8 @@ Le rectangle, le cercle, le polygone et la plupart des autres objets créés ave
 <img alt="" src=images/02_Dr01_Draft_Rectangle_circle_polygon.png  style="width:" height="400px;"> 
 *Rectangle, cercle et polygone ajoutés.*
 
+
+
 ## Réseaux
 
 Les réseaux sont utilisés pour répliquer un objet plusieurs fois dans une direction orthogonale (X, Y, Z) autour d\'un axe de révolution ou le long d\'une trajectoire.
@@ -143,6 +157,8 @@ L\'objet réseau montre des copies de l\'objet autour de l\'origine.
 
 <img alt="" src=images/03_Dr01_Draft_PolarArray.png  style="width:" height="400px;"> 
 *Réseau polaire du petit profil centré autour de l'origine.*
+
+
 
 ## Cotes
 
@@ -164,6 +180,8 @@ N\'oubliez pas d\'ajuster {{PropertyView/fr|Font Size}} et d\'autres propriété
 
 <img alt="" src=images/04_Dr01_Draft_Dimension.png  style="width:" height="400px;"> 
 *Cotes qui mesurent la distance verticale entre l'origine et le haut du cercle, des arcs et du polygone.*
+
+
 
 ## Textes et Formes à partir de texte 
 
@@ -187,6 +205,8 @@ N\'oubliez pas d\'ajuster {{PropertyView/fr|Font Size}} et d\'autres propriété
 *Objets Text et ShapeString ajoutés.*
 
 Pour extruder des lettres et les graver sur des solides, voir le [Draft Tutoriel Forme à partir de texte](Draft_ShapeString_tutorial/fr.md).
+
+
 
 ## Création de dessins techniques 
 
@@ -214,6 +234,8 @@ TechDraw fonctionne mieux avec les objets qui ont une [Part TopoShape](Part_Topo
 
 Les outils tels que **[<img src=images/TechDraw_ActiveView.svg style="width:16px"> [TechDraw Vue active](TechDraw_ActiveView/fr.md)**, **[<img src=images/TechDraw_DraftView.svg style="width:16px"> [TechDraw Vue Draft](TechDraw_DraftView/fr.md)** et **[<img src=images/TechDraw_ArchView.svg style="width:16px"> [TechDraw Vue architecturale](TechDraw_ArchView/fr.md)** fonctionnent en recevant une image SVG interne générée par les fonctions Draft internes; par conséquent, TechDraw n\'a pas beaucoup de contrôle sur la façon dont ces vues sont affichées. Une plus grande intégration de Draft et TechDraw est un travail en cours.
 
+
+
 ## Remarques finales 
 
 L\'[atelier Draft](Draft_Workbench/fr.md) est à bien des égards similaire au [atelier Sketcher](Sketcher_Workbench/fr.md), car tous deux sont destinés à produire des formes 2D. La principale différence réside dans la façon dont chaque atelier gère les systèmes de coordonnées et la façon dont les objets sont positionnés. Dans Draft, les objets sont librement positionnés dans le système de coordonnées global, en alignant généralement leurs points sur une grille ou sur d\'autres objets. Dans Sketcher, un \"[objet sketch](Sketch/fr.md)\" définit un système de coordonnées local qui sert de référence pour tous les éléments géométriques de cette esquisse. De plus, l\'esquisse s\'appuie sur des «contraintes» pour définir la position finale de ses points.
@@ -227,4 +249,4 @@ L\'[atelier Draft](Draft_Workbench/fr.md) est à bien des égards similaire au [
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Draft](Draft_Workbench.md) > Draft tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft tutorial/fr

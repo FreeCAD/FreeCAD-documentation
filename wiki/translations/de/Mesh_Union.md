@@ -1,65 +1,42 @@
-# Mesh Union/de
 ---
-- GuiCommand:/de   Name:Mesh Union‏‎   MenuLocation:Netze → Boolsche Verknüpfung → Vereinigung   Workbenches:[Shortcut:   SeeAlso:[[Mesh_Merge|Merge](Mesh_Workbench/de___Netz]].md)---
+- GuiCommand:
+   Name:Mesh Union
+   Name:Mesh Vereinigung
+   MenuLocation:Meshes → Boolesche Verknüpfungen → Vereinigung
+   Workbenches:[Mesh](Mesh_Workbench.md)
+   SeeAlso:[Mesh Schnitt](Mesh_Intersection.md), [Mesh Differenz](Mesh_Difference.md)
+---
+
+# Mesh Union/de
 
 
-</div>
 
-## Description
+## Beschreibung
 
+Der Befehl **Mesh Vereinigung** erstellt ein neues nicht parametrisches Netzobjekt, ein [Mesh Formelement](Mesh_Feature/de.md), das aus der Vereinigung (Verschmelzung) zweier Netzobjekte entsteht.
 
-<div class="mw-translate-fuzzy">
+[OpenSCAD](http://www.openscad.org/) muss installiert sein, um diesen Befehl benutzen zu können und der Pfad zur ausführbaren Datei muss in den [OpenSCAD-Einstellungen](OpenSCAD_Preferences/de.md) eingetragen sein.
 
-## Einleitung
-
-Erstellt eine Vereinigung (Verschmelzung) von ausgewählten Polygonnetzen.
-
-
-</div>
+![](images/Mesh_Union_example.png ) 
+*Links: zwei Netzobjekte. Rechts: das Netzobjekt aus der Vereinigung beider Objekte*
 
 
-<div class="mw-translate-fuzzy">
-
-Der Befehl erzeugt ein neues separates Netz mit allen Außenflächen aller selektierten Netze.
-
-
-</div>
-
-![](images/Mesh_Union_example.png )
-
-
-<div class="mw-translate-fuzzy">
-
-Beispiel: Würfel verschmolzen mit einer Kugel
-
-
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
 
 ## Anwendung
 
-1.  Wähle in der Baumansicht oder der 3D Ansicht die zu verschmelzenden Netze.
-2.  Wähle **Netze** → **Boolean** → **Vereinigung**
-
-
-</div>
-
-## Properties
-
-See: [Mesh Feature](Mesh_Feature.md).
-
-
-<div class="mw-translate-fuzzy">
+1.  Zwei Netzobjekte, die sich teilweise überlappen, auswählen.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Mesh_Union.svg" width=16px> [Vereinigung](Mesh_Union/de.md)** drücken.
+    -   Den Menüeintrag **Netze → Boolesche Verknüpfungen → <img src="images/Mesh_Union.svg" width=16px> Vereinigung** auswählen.
 
 
 
+## Eigenschaften
+
+Siehe: [Mesh Formelement](Mesh_Feature/de.md).
 
 
-</div>
+
 
 
 {{Mesh Tools navi

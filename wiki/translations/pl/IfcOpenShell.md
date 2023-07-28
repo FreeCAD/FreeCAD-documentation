@@ -17,9 +17,17 @@ To verify that IfcOpenShell is installed in your system, try to import it from t
 import ifcopenshell
 ```
 
+
+
 ## Instalacja
 
 IfcOpenShell can be installed in various ways depending on your operating system and Python environment. In the past, IfcOpenShell was a bit difficult to install as it needed to be compiled for your specific system; however, as of this writing (2020) it is easier to start using it, as it is now included together with FreeCAD in many FreeCAD distributions. In general, it is advisable to use one of these pre-compiled distributions, and only compile it yourself if you are an advanced user.
+
+### From BlenderBIM 
+
+[BlenderBIM](https://blenderbim.org) is another project that uses IfcOpenShell. They provide up-to-date IfcOpenShell packages for several platforms. This is the best way to make sure you have a recent version of IfcOpenShell.
+
+BlenderBIM IfcOpenShell install page: <https://blenderbim.org/docs-python/ifcopenshell-python/installation.html>
 
 ### Pip
 

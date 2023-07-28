@@ -22,6 +22,8 @@ extrapole une face ou une surface existante à ses limites avec ses paramètres 
 
 *À gauche: surface d'origine. À droite: surface étendu.*
 
+
+
 ## Utilisation
 
 1.  Assurez-vous que vous avez un objet qui a des faces. L\'objet peut être créé avec l\'<img alt="" src=images/Workbench_Surface.svg  style="width:24px;"> [atelier Surface](Surface_Workbench/fr.md) mais il peut également s\'agir de tout autre objet, par exemple, créé avec \[[1](File:Workbench_Part.svg%7C24px) \] [Part](Part_Workbench/fr.md) ou <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/fr.md).
@@ -32,11 +34,15 @@ extrapole une face ou une surface existante à ses limites avec ses paramètres 
 
 Cette commande n\'a pas d\'options. Soit cela fonctionne avec la sélection, soit non.
 
+
+
 ## Propriétés
 
 [Surface ExtendFace](Surface_ExtendFace/fr.md) (classe `Surface::Extend`) est dérivée de la classe de base [Part Feature](Part_Feature/fr.md) (classe `Part::Feature` via la sous-classe `Part::Spline`). Elles partagent donc toutes les propriétés de cette dernière.
 
 Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surface Remplissage a les propriétés suivantes dans l\'[éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ### Données
 
@@ -63,12 +69,16 @@ Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surfac
 
 -    {{PropertyData/fr|SampleV|IntegerConstraint}}: par défaut {{Value|32}}.
 
+
+
 ### Vue
 
 
 {{TitleProperty|Base}}
 
--    {{PropertyView/fr|Control Points|Bool}}: la valeur par défaut est `False`. Mis à `True`, elle affichera une superposition avec les points de contrôle de la surface.
+-    **Control Points|Bool**: par défaut `False`. Mis à `True`, elle affichera une superposition avec les points de contrôle de la surface.
+
+
 
 ## Script
 

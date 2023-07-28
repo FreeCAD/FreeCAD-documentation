@@ -1,10 +1,11 @@
 ---
 - GuiCommand:/de
-   Name:TechDraw Balloon   Name/de:Ballon
-   MenuLocation:TechDraw → Anmerkungen → Ballon-Anmerkung einfügen
+   Name:TechDraw Balloon
+   Name/de: TechDraw Hinweisfeld
+   MenuLocation:TechDraw → Anmerkungen → Hinweisfeld einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Version:0.19
-   SeeAlso:[TechDraw Anmerkung](TechDraw_Annotation/de.md)
+   SeeAlso:[TechDraw Beschriftung](TechDraw_Annotation/de.md)
 ---
 
 # TechDraw Balloon/de
@@ -13,7 +14,7 @@
 
 ## Beschreibung
 
-Das Werkzeug Ballon kann einer Zeichnung Hinweisfelder mit zugehöriger Hinweislinie hinzufügen. (Voreingestellt ist ein kreisförmiges Hinweisfeld, das u.a. zur Kennzeichnung der Elemente einer Stückliste dienen kann)
+Das Werkzeug **TechDraw Hinweisfeld** kann einer Zeichnung Hinweisfelder mit zugehöriger Hinweislinie hinzufügen. (Voreingestellt ist ein kreisförmiges Hinweisfeld, das u.a. zur Kennzeichnung der Elemente einer Stückliste dienen kann)
 
 <img alt="" src=images/Techdraw_balloon.png  style="width:600px;">
 
@@ -21,21 +22,27 @@ Das Werkzeug Ballon kann einer Zeichnung Hinweisfelder mit zugehöriger Hinweisl
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Eins der folgenden auswählen:
-    -   Eine Ansicht (auf dem Blatt oder in der [Baumansicht](Tree_view.md)).
+    -   Eine Ansicht (auf dem Blatt oder in der [Baumansicht](Tree_view/de.md)).
     -   Einen Knoten in einer Ansicht. {{Version/de|0.20}}
     -   Eine Kante in einer Ansicht. {{Version/de|0.20}}
     -   Einen abgeschlossenen Bereich in einer Ansicht. {{Version/de|0.20}}
-2.  Es gibt verschiedene Möglichkeiten das Werkzeug aufzurufen:
-    -   Drücken der Schaltfläche **<img src="images/TechDraw_Balloon.svg" width=16px> [TechDraw Ballon-Anmerkung einfügen](TechDraw_Balloon/de.md)**.
-    -   Auswahl des Menüeintrags **TechDraw → Anmerkungen → <img src="images/TechDraw_Balloon.svg" width=16px> Ballon-Anmerkung einfügen**.
+2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_Balloon.svg" width=16px> [Hinweisfeld einfügen](TechDraw_Balloon/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Anmerkungen → <img src="images/TechDraw_Balloon.svg" width=16px> Hinweisfeld einfügen** auswählen.
 3.  Wenn eine Ansicht oder ein Bereich ausgewählt wurde:
-    1.  Der Mauszeiger wird als Balloon-Symbols angezeigt.
-    2.  Einen Punkt auf dem Blatt anklicken, um den Ursprung des Hinweisfeldes zu setzen.
+    1.  wird der Mauszeiger mit dem Symbol dieses Werkzeuges angezeigt.
+    2.  muss ein Punkt auf dem Blatt angeklickt werden, um den Ursprung der Hinweisfeldes (Startpunkt der Hinweislinie) zu setzen.
+
+
+</div>
 
 Um ein Hinweisfeld zu verschieben, positioniert man den Mauszeiger über seiner Mitte, drückt und hält die linke Maustaste und zieht die Maus.
 
-Um die Eigenschaften eines Hinweisfeldes zu ändern, wählt man es per Doppelklick auf dem Blatt oder in der Baumansicht aus. Dies Öffnet den Aufgabenbereich des Hinweisfeldes.
+Um die Eigenschaften eines Hinweisfeldes zu ändern, wählt man es per Doppelklick auf dem Blatt oder in der [Baumansicht](Tree_view/de.md) aus. Dies Öffnet den Aufgabenbereich des Hinweisfeldes.
 
 *Hinweis:*\' Die Position eines Hinweisfeldes ist relativ zu seiner Ursprungsansicht und verwendet den gleichen Maßstabsfaktor.
 
@@ -43,7 +50,7 @@ Um die Eigenschaften eines Hinweisfeldes zu ändern, wählt man es per Doppelkli
 
 ## Verwendung von Trennzeichen 
 
-Bei Verwendung einer Rechteckform können Trennzeichen mit \"\|\" im Text hinzugefügt werden. Zum Beispiel \"AAA\|TEST\|111\" ergibt:
+Bei Verwendung einer Rechteckform können Trennzeichen mit \"\|\" im Text hinzugefügt werden. Zum Beispiel ergibt \"AAA\|TEST\|111\":
 
 <img alt="" src=images/balloon_separator.png  style="width:300px;">
 
@@ -54,6 +61,9 @@ Bei Verwendung einer Rechteckform können Trennzeichen mit \"\|\" im Text hinzug
 
 
 ### Daten
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/de|Text}}: anzuzeigender Text
 
@@ -80,6 +90,9 @@ Optionen: <img alt="" src=images/Circular.svg  style="width:20px;"> Kreisförmig
 -    {{PropertyData/de|X}}: Horizontale Lage des Hinweisfeldes relativ zur Ansicht.
 
 -    {{PropertyData/de|Y}}: Vertikale Lage des Hinweisfeldes relativ zur Ansicht.
+
+
+</div>
 
 
 

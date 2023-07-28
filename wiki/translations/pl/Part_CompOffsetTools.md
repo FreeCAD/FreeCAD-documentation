@@ -1,21 +1,24 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Part CompOffsetTools
-   MenuLocation:Part → CompOffsetTools
-   Workbenches:[Part](Part_Workbench.md)
+   Name/pl:Część: Komponent narzędzia odsunięcia
+   MenuLocation:brak
+   Workbenches:[Część](Part_Workbench/pl.md)
    SeeAlso:
 ---
 
 # Part CompOffsetTools/pl
 
-## Description
 
-A set of Offset tools
 
-## Types of Offset 
+## Opis
 
--   <img alt="" src=images/Part_Offset.svg  style="width:32px;"> [3D Offset](Part_Offset.md): Constructs a parallel shape at a certain distance from original.
--   <img alt="" src=images/Part_Offset2D.svg  style="width:32px;"> [2D Offset](Part_Offset2D.md): Constructs a parallel wire at certain distance from original, or enlarges/shrinks a planar face.
+Jest to zestaw narzędzi do odsunięć.
+
+ ==Typ odsunięcia=
+
+-   <img alt="" src=images/Part_Offset.svg  style="width:32px;"> [Odsunięcie 3D](Part_Offset/pl.md): Konstruuje równoległy kształt w pewnej odległości od oryginału.
+-   <img alt="" src=images/Part_Offset2D.svg  style="width:32px;"> [Odsunięcie 2D](Part_Offset2D/pl.md): Tworzy równoległą polilinię w określonej odległości od oryginału lub powiększa / zmniejsza płaską ścianę.
 
 
 

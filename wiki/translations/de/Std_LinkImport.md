@@ -10,16 +10,20 @@
 
 # Std LinkImport/de
 
+
+
 ## Beschreibung
 
+Mit der Schaltfläche **[<img src=images/Std_LinkImport.svg style="width:16px"> [Std VerknüpfungImportieren](Std_LinkImport/de.md)** wird ein **Linked Object** aus einer Verknüpfung in das aktuelle Dokument importiert und der Anhang zu diesem Objekt geändert.
 
-**[<img src=images/Std_LinkImport.svg style="width:16px"> [Std LinkImport](Std_LinkImport.md)**
+Das hilft beim Arbeiten mit Baugruppen ([Zusammenbau](assembly/de.md)) um Modelle aus anderen Dokumenten wieder zu verwenden.
 
-imports the **Linked Object** from a Link into the current document, and then changes the attachment to this object.
 
-This operation is helpful when working with [assemblies](assembly.md) in order to organize re-usable models that may be located in other documents.
+**[<img src=images/Std_LinkImportAll.svg style="width:16px"> [Std AlleVerknüpfungenImportieren](Std_LinkImportAll/de.md)**
 
-Use **[<img src=images/Std_LinkImportAll.svg style="width:16px"> [Std LinkImportAll](Std_LinkImportAll.md)** to import all linked objects.
+wird verwendet, um alle verknüpften Objekte zu importieren.
+
+
 
 ## Anwendung
 

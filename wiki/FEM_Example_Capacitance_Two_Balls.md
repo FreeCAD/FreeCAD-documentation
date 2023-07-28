@@ -126,9 +126,9 @@ Note that when <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:24p
     StatElecSolve:   2  2    5.07201E+00
 -   Here, our desired result is C~12~ = 1.69328. This value is close to the `1.691` given in the [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf). We can get an even closer value by making a finer [Mesh Region](FEM_MeshRegion.md) but this activity is left for the user. Also, the user is advised to play with the [Clip Filter](FEM_PostFilterClipRegion.md) to get a visual result similar to the first picture of this tutorial.
 
-  {{FEM Tools navi}}
+ {{FEM Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM Example Capacitance Two Balls
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Example Capacitance Two Balls

@@ -5,7 +5,7 @@
    MenuLocation:Visualizza→ Viste standard → Memorizza vista di lavoro
    Workbenches:Tutte
    Shortcut:**Shift**+**End**
-   Version:1.0
+   Version:0.21
    SeeAlso:[Richiama vista di lavoro](Std_RecallWorkingView/it.md), [Viste bloccate](Std_FreezeViews/it.md)
 ---
 

@@ -19,13 +19,17 @@ La rectitude est importante car un axe tordu ne passerait pas à travers les tro
 
 Si vous n\'êtes pas familier avec le concept de GD&T, nous vous recommandons vivement de vous renseigner dès maintenant. Par exemple, une brève introduction est donnée dans [cette vidéo](https://www.youtube.com/watch?v=P5GT9ZSRYl0). Pour plus d\'informations sur le concept de \"condition matérielle maximale\", jetez un œil à [cette vidéo](https://www.youtube.com/watch?v=UXZjTb3ZUQI). Pour plus de détails sur toutes sortes de fonctionnalités GD&T, regardez autour de vous sur Internet. Par exemple, [cette chaîne YouTube](https://www.youtube.com/c/Gdandtbasics/videos) fournit quelques bonnes explications.
 
-GD&T est normalisé dans les normes [ISO 1101](http://geo-dim-tol.ir/files/iso1101.pdf) and [ASME Y14.5](http://www.sharifcadcam.ir/uploaded/2e22f9ef-dfc5-47bc-a126-cc51e9686c4f.pdf).
+GD&T est défini dans les normes [ISO 1101](http://geo-dim-tol.ir/files/iso1101.pdf) and [ASME Y14.5](http://www.sharifcadcam.ir/uploaded/2e22f9ef-dfc5-47bc-a126-cc51e9686c4f.pdf).
 
 Les possibilités de TechDraws pour répondre aux normes GD&T courantes sont limitées (à partir de FreeCAD 0.20), mais vous pouvez déjà accomplir beaucoup de choses. Cette page Wiki explique ce qui est implémenté et quelles astuces peuvent être utilisées pour les fonctionnalités non implémentées. **Remarque :** cette page Wiki n\'est pas là pour enseigner GD&T!
+
+
 
 ## Cotations
 
 TechDraw fournit plusieurs outils pour créer différents types de cotations. Veuillez consulter les [differentes cotations](TechDraw_Workbench/fr#Cotations.md) pour savoir comment les créer et les modifier.
+
+
 
 ### Mise en forme 
 
@@ -53,7 +57,11 @@ Vous pouvez utiliser votre propre texte au lieu d\'un nombre formaté en défini
 
 Avec les propriétés **X** et **Y**, vous pouvez modifier la position horizontale et verticale du texte de cote par rapport à la vue. Vous pouvez également modifier la position en faisant glisser le numéro de cote ou le texte.
 
+
+
 ### Tolérances
+
+
 
 #### Création
 
@@ -62,9 +70,13 @@ Avec les propriétés **X** et **Y**, vous pouvez modifier la position horizonta
 3.  Dans la boîte de dialogue de dimension qui apparaît, spécifiez comme **Overtolerance** la valeur de laquelle la dimension peut être dépassée. Cela entraînera une tolérance égale comme celle-ci: <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">
 4.  Si vous avez des tolérances inégales, spécifiez **Undertolerance** la valeur de laquelle la dimension peut être plus petite et décochez l\'option **Equal Tolerance**. Cela entraînera une tolérance inégale comme ceci: <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">
 
+
+
 #### Suppression
 
 Pour se débarrasser d\'une tolérance, remplacez *Surtolérance* et *Sous-tolérance* par zéro.
+
+
 
 #### Mise en forme 
 
@@ -74,9 +86,13 @@ Le format des nombres par défaut pour les nouvelles tolérances est par défaut
 
 Vous pouvez également utiliser votre propre texte au lieu d\'un nombre formaté en cochant l\'option **Arbitrary Tolerance Text** dans la boîte de dialogue de dimension. Ensuite, le contenu de **Tolerance Format Specifier** sera utilisé comme texte de tolérance.
 
+
+
 ## Tolérance géométrique 
 
 Les tolérances sont créées à l\'aide de la fonction [Infobulle](TechDraw_Balloon/fr.md) de TechDraw. Comme pour la plupart des fonctionnalités, un cadre est requis, il est utile de changer dans les [TechDraw Préférences](TechDraw_Preferences/fr#Annotation.md), la **forme de l\'infobulle** en **rectangle**.
+
+
 
 ### Indicateur de tolérance 
 
@@ -95,6 +111,8 @@ Aucune règle ne définit si ou comment l\'indicateur de tolérance doit avoir u
 
 L\'exemple sur le côté droit montre les deux dispositions d\'indicateur de tolérance possibles.
 
+
+
 ### Points de référence 
 
 Les points de référence au sens de la GD&T sont des surfaces auxquelles votre tolérance est relative. Ils sont créés comme des infobulles :
@@ -105,6 +123,8 @@ Les points de référence au sens de la GD&T sont des surfaces auxquelles votre 
 -   Comme il est courant d\'avoir une ligne droite pour les points de référence, à moins que la surface du point de référence ne soit pas perpendiculaire à X ou Y, assurez-vous que les propriétés **X** et **Origin X** ou **Y** et **Origin Y** sont égales pour obtenir une ligne de l\'infobulle droite.
 
 ![Exemple de référence dans un dessin](images/TechDraw_GD&T-Datum.png ) 
+
+
 
 ### Référencement de symboles 
 

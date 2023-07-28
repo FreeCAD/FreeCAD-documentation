@@ -8,9 +8,13 @@
 
 # Mesh BuildRegularSolid/pl
 
+
+
 ## Opis
 
 Polecenie **Utwórz bryłę pierwotną** tworzy regularną parametryczną bryłę obiektu siatkowego.
+
+
 
 ## Użycie
 
@@ -55,15 +59,23 @@ Polecenie **Utwórz bryłę pierwotną** tworzy regularną parametryczną brył�
 8.  Opcjonalnie utwórz więcej obiektów siatki.
 9.  Naciśnij przycisk {{button|Zamknij}}, aby zamknąć okno dialogowe i zakończyć polecenie.
 
+
+
 ## Uwagi
 
 -   Obiekty siatkowe utworzone za pomocą tego polecenia są parametryczne. Kiedykolwiek są one ponownie obliczane, na przykład po zmianie jednego z ich parametrów, ich siatka jest rekonstruowana. Oznacza to, że manipulowanie nimi za pomocą poleceń takich jak [Ulepsz przez Gmsh](Mesh_RemeshGmsh/pl.md), [Skaluj](Mesh_Scale/pl.md) itp. zwykle nie ma sensu.
+
+
 
 ## Właściwości
 
 Obiekty siatkowe utworzone za pomocą tego polecenia dziedziczą wszystkie właściwości typu [Cecha siatki](Mesh_Feature/pl.md). Dodatkowo każdy typ obiektu siatkowego posiada szereg właściwości pozwalających kontrolować jego parametryczne zachowanie:
 
+
+
 ### <img alt="" src=images/Mesh_Cube.svg  style="width:32px;"> Sześcian 
+
+
 
 #### Dane
 
@@ -76,12 +88,16 @@ Obiekty siatkowe utworzone za pomocą tego polecenia dziedziczą wszystkie wła�
 
 -    **Szerokość|FloatConstraint**: szerokość sześcianu.
 
+
+
 ### <img alt="" src=images/Mesh_Cylinder.svg  style="width:32px;"> Walec 
+
+
 
 #### Dane 
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Zamknięty|Bool**: jeśli ustawiono na wartość `False`, planarne końce walca pozostają otwarte.
 
@@ -93,12 +109,16 @@ Obiekty siatkowe utworzone za pomocą tego polecenia dziedziczą wszystkie wła�
 
 -    **Próbkowanie|IntegerConstraint**: liczba ścian wzdłuż zakrzywionej powierzchni.
 
+
+
 ### <img alt="" src=images/Mesh_Cone.svg  style="width:32px;"> Stożek 
+
+
 
 #### Dane 
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Zamknięty|Bool**: jeśli ustawiono na wartość `False`, planarny koniec *(końce)* stożka pozostają otwarte.
 
@@ -112,23 +132,31 @@ Obiekty siatkowe utworzone za pomocą tego polecenia dziedziczą wszystkie wła�
 
 -    **Próbkowanie|IntegerConstraint**: liczba ścian wzdłuż zakrzywionej powierzchni.
 
+
+
 ### <img alt="" src=images/Mesh_Sphere.svg  style="width:32px;"> Sfera 
+
+
 
 #### Dane 
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Promień|FloatConstraint**: promień kuli.
 
 -    **Próbkowanie|IntegerConstraint**: liczba ścian wzdłuż obu kierunków zakrzywionej powierzchni.
 
+
+
 ### <img alt="" src=images/Mesh_Ellipsoid.svg  style="width:32px;"> Ellipsoida 
+
+
 
 #### Dane 
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Promień 1|FloatConstraint**: pierwszy promień elipsy.
 
@@ -138,10 +166,12 @@ Obiekty siatkowe utworzone za pomocą tego polecenia dziedziczą wszystkie wła�
 
 ### <img alt="" src=images/Mesh_Torus.svg  style="width:32px;"> Torus 
 
+
+
 #### Dane 
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Promień 1|FloatConstraint**: pierwszy *(główny)* promień torusa.
 

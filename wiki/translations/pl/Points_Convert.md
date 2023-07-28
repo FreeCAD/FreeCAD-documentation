@@ -48,7 +48,7 @@ Obiekty chmury punktów są obiektami typu [Cecha geometrii](App_GeoFeature/pl.m
 #### Ukryte dane 
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Punkty|PointsKernel**: jądro punktów związane z tym obiektem.
 
@@ -59,7 +59,7 @@ Obiekty chmury punktów są obiektami typu [Cecha geometrii](App_GeoFeature/pl.m
 ### Widok
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Rozmiar punktu|FloatConstraint**: rozmiar punktów w pikselach w oknie [widoku 3D](3D_view/pl.md).
 

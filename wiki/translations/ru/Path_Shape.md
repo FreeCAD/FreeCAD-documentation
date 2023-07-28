@@ -15,15 +15,32 @@
 
 ## Description
 
+
+<div class="mw-translate-fuzzy">
+
 Инструмент Path Shape не соответствует текущему рабочему процессу верстака Path. По этой причине он перемещён в экспериментальные функции.
+
+
+</div>
 
 Этот инструмент генерирует траектории инструмента из краев Path Object.
 
+
+<div class="mw-translate-fuzzy">
+
 Траектории инструмента не имеют компенсации по радиусу инструмента. Нет контроллера инструментов, связаного с созданными траекториями инструмента.
+
+
+</div>
 
 ![](images/FromShape_image_0.png )
 
+
+
 ## Применение
+
+
+<div class="mw-translate-fuzzy">
 
 Будут включены все ребра, связанные с выбранной 3D-моделью.
 
@@ -31,7 +48,12 @@
 2.  Нажмите кнопку **<img src="images/Path_Shape.svg" width=16px> [From Shape](Path_Shape/ru.md)
 **
 
+
+</div>
+
 Итоговый путь инструмента добавляется вне задания Path.
+
+
 
 ## Опции
 
@@ -49,11 +71,17 @@
 
 </div>
 
+
+
 ## Свойства
+
+
 
 ### Данные
 
 Empty
+
+
 
 ### Вид
 
@@ -104,7 +132,7 @@ Empty
 
 -   min_dist(0.0): minimum distance for the generated new wires. Wires maybe broken if the algorithm see fits. Set to zero to disable wire breaking.
 
--   abscissa(3.0): Controls vertex sampling on wire for nearest point searching. The sampling is dong using OCC GCPnts_UniformAbscissa.
+-   abscissa(3.0): Controls vertex sampling on wire for nearest point searching. The sampling is done using OCC GCPnts_UniformAbscissa.
 
 -   nearest_k(3): Nearest k sampling vertices are considered during sorting.
 
@@ -145,7 +173,13 @@ Path.fromShapes(shapes, start=Vector(), return_end=False arc_plane=1, sort_mode=
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Path_Tools_navi

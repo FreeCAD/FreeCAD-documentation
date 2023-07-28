@@ -1,53 +1,48 @@
 ---
 - GuiCommand:/de
    Name:Draft Snap Grid
-   Name/de:Entwurf Raster
-   MenuLocation:Entwurf → [Fangen](Draft_Snap/de.md) → Raster
+   Name/de:Draft EinrastenAufRaster
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso:[Entwurfsraster ein-/ausschalten](Draft_ToggleGrid/de.md), [Fangen](Draft_Snap/de.md)
+   SeeAlso:[Draft Einrasten](Draft_Snap/de.md), [Draft EinrastenSperren](Draft_Snap_Lock.md), [Draft RasterUmschalten](Draft_ToggleGrid/de.md), [Draft EbeneAuswählen](Draft_SelectPlane/de.md)
 ---
 
 # Draft Snap Grid/de
 
 
-</div>
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Diese Methode rastet am Schnittpunkt zweier Rasterlinien ein, wenn das Raster sichtbar ist.
-
-
-</div>
+Die Option <img alt="" src=images/Draft_Snap_Grid.svg  style="width:24px;"> **Draft EinrastenAufRaster** Rastet auf den Schnittstellen von Rasterlinien ein. Das Raster kann nur verwendet werden, wenn die Eigenschaft **Use grid** ausgewählt wurde. Siehe [Einstellungen](#Einstellungen.md).
 
 ![](images/Draft_Snap_Grid_example.png ) 
-*Einrasten des zweiten Punkts einer Linie am Raster*
+*Einrasten des zweiten Punktes einer Linie am Raster*
+
+
 
 ## Anwendung
 
-For general information about snapping see [Draft Snap](Draft_Snap.md).
+Für allgemeine Informationen zum Einrasten (Fangen) siehe [Draft Fangen](Draft_Snap/de.md).
+
+1.  Wahlweise [Arbeitsebene und/oder Raster](Draft_SelectPlane/de.md) auswählen.
+2.  Vergewissern, dass Einrasten aktiviert ist. Siehe <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft EinrastenSperren](Draft_Snap_Lock/de.md).
+3.  Ist **Draft EinrastenSperren** nicht aktiv, gibt es folgende Möglichkeiten:
+    -   Die Schaltfläche **<img src="images/Draft_Snap_Grid.svg" width=16px>** in der Symbolleiste Draft-Einrasten drücken.
+    -   Die Schaltfläche **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** im [Draft-Widget Einrasten](Draft_snap_widget.md) gedrückt halten und im Ausklappmenü die Option **<img src="images/Draft_Snap_Grid.svg" width=16px> Raster fangen** auswählen.
+4.  Einen [Draft](Draft_Workbench/de.md)- oder [Arch](Arch_Workbench.md)-Befehl zur Geometrieerstellung auswählen.
+5.  Man beachte, dass sich die Einrast-Optionen auch ändern lassen, während ein Befehl aktiv ist.
+6.  Das Raster wird jetzt angezeigt, wenn es vorher noch nicht sichtbar war.
+7.  Den Mauszeiger in die Nähe einer Schnittstelle zweier Rasterlinien bewegen.
+8.  Wird eine Schnittstelle gefunden, wird der Schnittpunkt markiert und das Symbol <img alt="" src=images/Draft_Snap_Grid.svg  style="width:16px;"> neben dem Mauszeiger angezeigt.
+9.  Klicken, um den Punkt zu bestätigen.
 
 
-<div class="mw-translate-fuzzy">
 
-1.  Der **<img src="images/Draft_Snap_Grid.svg" width=16px> [[Draft ToggleGrid]]**-Button muss aktiviert sein.
-2.  Die Buttons **<img src="images/Draft_Snap_Lock.svg" width=16px> [Draft Objektfang](Draft_Snap_Lock/de.md)** und **<img src="images/Draft_Snap_Grid.svg" width=16px> [Raster](Draft_Snap_Grid/de.md)** sind aktiviert.
-3.  Wähle ein Draft-Werkzeug, um eine Form zu zeichnen.
-4.  Bewege den Cursor nahe an den Schnittpunkt zweier Linien, bis das Einrastsymbol erscheint.
-5.  Klicke, um den neuen Punkt zu verbinden
+## Einstellungen
 
+Siehe [Draft-Einrasten](Draft_Snap/de#Einstellungen.md).
 
-</div>
-
-
-{{Userdocnavi/de}}
-
-See [Draft Snap](Draft_Snap#Preferences.md).
-
--   To use the grid select: **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. After changing this preference you must restart FreeCAD.
--   Several other grid preferences are also available: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
+-   Um das Raster zu verwenden: **Bearbeiten → Einstellungen... → Draft → Raster und einrasten → Raster → Raster verwenden** auswählen. Das Ändern dieser Einstellung erfordert einen Neustart von FreeCAD.
+-   Unter ** Bearbeiten → Einstellungen... → Draft → Raster und einrasten → Raster** sind auch noch andere Raster-Einstellungen vorhanden:.
 
 
 

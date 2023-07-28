@@ -5,7 +5,7 @@ Workbenches are sets of tools, buttons, panels and other interface elements that
 
 FreeCAD comes with several [built-in workbenches](Workbenches.md), but [many more are available](External_workbenches.md) and can easily be installed via the [addons manager](Std_AddonMgr.md).
 
-New FreeCAD users generally start using and learning one or two specific workbenches, then explore other areas of FreeCAD and add the tools they find interesting there to their skills set. Before diving into specific workbenches, though, make sure you read the [Getting started](Getting_started.md) and [Navigating in the 3D space](Manual_Navigating_in_the_3D_view.md) pages, as they provide generic knowledge you\'ll need everywhere in FreeCAD.
+New FreeCAD users generally start using and learning one or two specific workbenches, then explore other areas of FreeCAD and add the tools they find interesting there to their skills set. Before diving into specific workbenches, though, make sure you read the [Getting started](Getting_started.md) and [Navigating in the 3D space](Manual_Navigating_in_the_3D_view.md) pages, as they provide generic knowledge you\'ll need everywhere in FreeCAD. The [FreeCAD manual](Manual_Introduction.md) is another good way to discover FreeCAD step by step, in a linear way.
 
 The first workbench you should use depends on what you intent to do with FreeCAD. We usually see new users coming with one of the following requirements:
 
@@ -37,6 +37,18 @@ There are many other places in this documentation to learn more about the PartDe
 -   Tutorial: [Basic Part Design Tutorial](Basic_Part_Design_Tutorial.md)
 -   Tutorial: [Modeling for product design](Manual_Modeling_for_product_design.md)
 -   Tutorial: [Export to STL or OBJ](Export_to_STL_or_OBJ.md)
+
+## I have some experience with SolidWorks or something similar. I want to do product design and assemblies 
+
+The first part of your use case is pretty similar to the one above. You would typically use the [PartDesign Workbench](PartDesign_Workbench.md), which also contains all the tools of the [Sketcher Workbench](Sketcher_Workbench.md). You will typically design one body for each individual part of your assembly.
+
+Once you have your different parts, you\'ll need to assemble them together. FreeCAD does not at the moment feature a default, unique assembly workbench. Rather, there are several assembly add-ons that you can easily install via the [Addons manager](Std_AddonMgr.md):
+
+-   The [A2plus Workbench](A2plus_Workbench.md) provides tools to create multi-part assemblies. It is the oldest that we have in FreeCAD. It was born before advanced features like App Link objects were available in FreeCAD, so it is more basic and simpler, which can be a problem or an advantage.
+-   The [Assembly3 Workbench](Assembly3_Workbench.md) is used to perform assembly of different bodies contained in a single file or in multiple documents. It was a testbed for the App Link object that was eventually included in the master code. It is the most complex solution and supports things like interactive kinematics.
+-   The [Assembly4 Workbench](Assembly4_Workbench.md) is a solution based on the enhanced expression engine and the App Link object developed in the branch of Assembly3. Assembly4 does not work with a proper constraint solver, instead it uses the expression engine to position bodies with respect to Local Coordinate Systems (LCS).
+
+The one best for you to choose depends on your requirements, and it\'s not easy to tell beforehand.We suggest you try Assembly4 first, then try Assembly3 if you need something more complex, or A2Plus if it is too complex for your needs.
 
 ## I have some experience with AutoCAD or something similar. I want to do 2D drawing 
 

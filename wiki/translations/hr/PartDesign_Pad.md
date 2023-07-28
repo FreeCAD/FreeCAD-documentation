@@ -8,6 +8,8 @@
 
 # PartDesign Pad/hr
 
+
+
 ## Opis
 
 The **Pad** tool extrudes a sketch or a face of a solid along a straight path.
@@ -15,6 +17,8 @@ The **Pad** tool extrudes a sketch or a face of a solid along a straight path.
 ![](images/PartDesign_Pad_example.svg )
 
 *Sketch (A) shown on the left; end result after pad operation (B) on the right.*
+
+
 
 ## Kako koristiti 
 
@@ -25,6 +29,8 @@ The **Pad** tool extrudes a sketch or a face of a solid along a straight path.
 
 When selecting a single sketch, it can have multiple enclosed profiles inside a larger one, for example a rectangle with two circles inside it. But the profiles may not intersect each other. <small>(v0.20)</small> 
 
+
+
 ## Opcije
 
 When creating a pad, the **Pad parameters** dialog will be shown. It offers the following settings:
@@ -34,6 +40,8 @@ When creating a pad, the **Pad parameters** dialog will be shown. It offers the 
 ### Type
 
 Type offers five different ways of specifying the length to which the pad will be extruded:
+
+
 
 #### Dimenzija
 
@@ -47,6 +55,8 @@ The pad will extrude up to the last face of the support in the extrusion directi
 
 The pad will extrude up to the first face of the support in the extrusion direction. If there is no support, an error message will appear.
 
+
+
 #### Do površine 
 
 The pad will extrude up to a face in the model that can be chosen by clicking on it.
@@ -54,6 +64,8 @@ The pad will extrude up to a face in the model that can be chosen by clicking on
 #### Two dimensions 
 
 This allows to enter a second length in which the pad should extend in the opposite direction (into the support). The directions can be switched by ticking the **Reversed** option.
+
+
 
 ### Dužina
 
@@ -69,9 +81,9 @@ Offset from face at which the pad will end. This option is only available when *
 
 You can select the direction of the extrusion:
 
--   **Sketch normal** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
--   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion. <small>(v0.20)</small> 
--   **Custom direction** The sketch is extruded along a direction that can be specified via vector values. <small>(v0.19)</small> 
+-   **Sketch normal:** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
+-   **Select reference\...:** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion. <small>(v0.20)</small> 
+-   **Custom direction:** The sketch is extruded along a direction that can be specified via vector values.
 
 #### Show direction 
 
@@ -120,17 +132,19 @@ Tapers the pad in the opposite extrusion direction by the given angle. A positiv
 
 -    **Length2**: Second pad length in case the **Type** is **TwoLengths**, see [Options](#Options.md).
 
--    **Use Custom Vector**: <small>(v0.19)</small>  If checked, the pad direction will not be the normal vector of the sketch but the given vector, see [Options](#Options.md).
+-    **Use Custom Vector**: If checked, the pad direction will not be the normal vector of the sketch but the given vector, see [Options](#Options.md).
 
--    **Direction**: <small>(v0.19)</small>  Vector of the pad direction if **Use Custom Vector** is used.
+-    **Direction**: Vector of the pad direction if **Use Custom Vector** is used.
 
--    **Along Sketch Normal**: <small>(v0.20)</small>  If *true*, the pad length is measured along the sketch normal. Otherwise and if **Use Custom Vector** is used, it is measured along the custom direction.
+-    **Along Sketch Normal**: If *true*, the pad length is measured along the sketch normal. Otherwise and if **Use Custom Vector** is used, it is measured along the custom direction. <small>(v0.20)</small> 
 
 -    **Up To Face**: A face the pad will extrude up to, see [Options](#Options.md).
 
 -    **Offset**: Offset from face in which the pad will end. This is only taken into account if the **Type** option **UpToLast**, **UpToFirst** or **UpToFace** is used.
 
 -    **Refine**: True or false. Cleans up residual edges left after the operation. This property is initially set according to the user\'s settings (found in **Preferences → Part design → General → Model settings**). It can be manually changed afterwards. This property will be saved with the FreeCAD document.
+
+
 
 ## Ograničenja
 

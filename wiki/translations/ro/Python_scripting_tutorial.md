@@ -62,6 +62,8 @@ Acest lucru vă va feri de o mulțime de probleme grave!
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Scrierea codului python 
@@ -93,6 +95,8 @@ There are two ways to write Python code in FreeCAD. In the [Python console](Pyth
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -217,6 +221,8 @@ Dacă selectați o casetă cu mouse-ul, veți vedea că în panoul proprietăți
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Vectori și Plasamente 
@@ -255,7 +261,7 @@ otherpla = FreeCAD.Placement()
 box.Placement = otherpla
 ```
 
-Acum trebuie să înțelegeți câteva concepte importante înainte de a ajunge mai departe. {{Top}}
+Acum trebuie să înțelegeți câteva concepte importante înainte de a ajunge mai departe. 
 
 
 <div class="mw-translate-fuzzy">
@@ -309,6 +315,8 @@ Când porniți FreeCAD, consola python are încarcate deja 2 module de bază: Fr
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Module
@@ -349,7 +357,7 @@ import Part
 Part.
 ```
 
-Dar vom vorbi mai multe despre modulul Piese mai jos. {{Top}}
+Dar vom vorbi mai multe despre modulul Piese mai jos. 
 
 
 <div class="mw-translate-fuzzy">
@@ -403,7 +411,7 @@ Acesta este un exemplu standard, care folosește metoda createSphere() pentru a 
 
 </div>
 
-[Read more about mesh scripting\...](Mesh_Scripting.md) {{Top}}
+[Read more about mesh scripting\...](Mesh_Scripting.md) 
 
 
 <div class="mw-translate-fuzzy">
@@ -472,6 +480,8 @@ Prin explorarea conținutului myshape, veți observa multe subcomponente interes
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Desen 2 D 
@@ -502,6 +512,8 @@ Draft.move(box, mvec)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -537,7 +549,7 @@ Qt este un sistem de interfață foarte puternic, care vă permite să faceți l
 
 </div>
 
-[Read more about PySide here\...](PySide.md) {{Top}}
+[Read more about PySide here\...](PySide.md) 
 
 
 <div class="mw-translate-fuzzy">
@@ -550,6 +562,14 @@ Acum, că aveți o bună înțelegere a principiilor de bază, unde vom păstra 
 </div>
 
 Now that you have a good understanding of the basics, where are we going to keep our Python scripts, and how are we going to launch them inside FreeCAD? There is an easy mechanism for that, called [Macros](Macros.md). A macro is a Python script that can be added to a toolbar and launched via a mouse click. FreeCAD provides you with a simple text editor (**Macro → Macros... → Create**) where you can write or paste scripts. Once the script is done, use **Tools → Customize... → Macros** to define a button for it that can be added to toolbars.
+
+## External scripts 
+
+An alternative method for creating, saving, and running your own Python scripts is to create them outside FreeCAD, using an editor of your choice (for example, Vim). To run your Python script inside FreeCAD, be sure to save it with the **.py** extension.
+
+Then use **File → Open** to open your script. It will load into a new tab in the [Main view area](Main_view_area.md). You can run your script by clicking the **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Execute macro](Std_DlgMacroExecuteDirect.md)** button. Any errors or script output will be shown in the [Report view](Report_view.md).
+
+When you make and save any modifications to your already-loaded script, a dialog box will appear asking whether you want to reload the modified script into FreeCAD.
 
 
 <div class="mw-translate-fuzzy">

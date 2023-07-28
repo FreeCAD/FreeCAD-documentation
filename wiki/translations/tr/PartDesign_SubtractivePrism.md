@@ -9,6 +9,8 @@
 
 # PartDesign SubtractivePrism/tr
 
+
+
 ## Tanım
 
 Inserts a subtractive prism in the active Body. Its shape is subtracted from the existing solid.
@@ -26,7 +28,7 @@ Inserts a subtractive prism in the active Body. Its shape is subtracted from the
 
 ## Options
 
-It is possible to create skewed prisms by specifying angles in respect to the normal vector of the chosen attachment. <small>(v0.19)</small> 
+It is possible to create skewed prisms by specifying angles in respect to the normal vector of the chosen attachment.
 
 The Prism can be edited after its creation in two ways:
 
@@ -45,9 +47,9 @@ The Prism can be edited after its creation in two ways:
 
 -    **Height**: height of the prism.
 
--    **First Angle**: angle in first direction. <small>(v0.19)</small> 
+-    **First Angle**: angle in first direction.
 
--    **Second Angle**: angle in second direction. <small>(v0.19)</small> 
+-    **Second Angle**: angle in second direction.
 
 
 

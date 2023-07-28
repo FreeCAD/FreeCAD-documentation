@@ -12,49 +12,61 @@
 
 
 
-This tutorial introduces the new user to some of the tools and techniques used in the [PartDesign Workbench](PartDesign_Workbench.md). This tutorial is not a complete and comprehensive guide to the Part Design Workbench and many of the tools and capabilities are not covered. This tutorial will take user through the steps needed to model the part shown in the image below using sketches.
+Este tutorial apresenta ao novo usuário algumas das ferramentas e técnicas usadas na bancada [Part Design](PartDesign_Workbench.md). Este tutorial não é um guia completo e abrangente para a bancada Part Design e muitas das ferramentas e recursos não são abordados. Este tutorial guiará o usuário pelas etapas necessárias para modelar a peça mostrada na imagem abaixo usando esboços.
 
 ![](images/Tut17_final_refined.png )
 
-A video of the whole construction is here: <https://youtu.be/geIrH1cOCzc>
+Aqui um vídeo de toda a construção: <https://youtu.be/geIrH1cOCzc>
 
-(each section has its own split Video below)
+(cada seção tem seu próprio vídeo abaixo)
 
-## Before You Begin 
 
-## The Task 
 
-In this tutorial, you will be using the Part Design Workbench to create a 3D solid model of the part shown in the [Drawing](TechDraw_Workbench.md) below. All of the necessary dimensions to complete this task are given. You will start by creating a core shape from a base Sketch and then build on that shape, adding what is known as Features. These features will either add material to, or remove material from the solid by use of additional sketches and accompanying feature operations. This Tutorial will not use every feature and tool available within the Part Design Workbench, but should use enough to give the user of this tutorial a basic foundation upon which to build their knowledge and skills.
+## Antes de começar 
 
-## The Part 
+
+
+## A tarefa 
+
+Neste tutorial você usará a bancada Part Design para criar um modelo sólido 3D da peça mostrada no [Desenho](TechDraw_Workbench/pt-br.md) abaixo. Todas as dimensões necessárias para completar esta tarefa são dadas. Você começará criando uma forma central a partir de um esboço básico e, em seguida, construirá nessa forma, adicionando o que é conhecido como recursos. Esses recursos adicionarão ou removerão material do sólido por meio do uso de esboços adicionais e operações de recurso que os acompanham. Este tutorial não usará todos os recursos e ferramentas disponíveis na bancada Part Design, mas deve usar o suficiente para fornecer ao usuário deste tutorial uma base básica sobre a qual construir seus conhecimentos e habilidades.
+
+
+
+## A peça 
 
 ![](images/Tutorial_Drawing_Sheet.png )
 
-## Constructing The Part 
 
-### Startup
 
-First begin by making sure you are in the Part Design Workbench. Once there, you will want to create a new document if you have not done so already. It is a good habit to save your work often, so before anything else save the new document, giving it any name you might like.
+## Construindo a peça 
 
-All work in Part Design begins with a [Body](Glossary#Body.md). Then we will build the solid inside the body by starting with a [sketch](Glossary#Sketch.md).
 
-1.  Click on <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Create new body](PartDesign_Body.md) to create and activate a new Body Container. 
-*Note: this step can be omitted. When creating a sketch, if no existing Body is found, a new one will be automatically created and activated.*
-2.  Click on <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Create new sketch](PartDesign_NewSketch.md). This will create the sketch within the just created body.
-3.  We need to define where the sketch will be attached. We will attach it to a plane from the Body´s [Origin](Glossary#Origin.md).
-4.  In the [Tasks tab](Task_panel.md) from the [Combo view](Combo_view.md), select **YZ_Plane** in the list and press **OK**:
+
+## Começo
+
+Primeiro comece certificando-se de que você está na bancada Part Design. Uma vez lá, você deverá criar um novo documento, caso ainda não o tenha feito. É um bom hábito salvar seu trabalho com frequência, portanto, antes de mais nada, salve o novo documento, dando-lhe o nome que desejar.
+
+Todo trabalho em Part Design começa com um [Body](Glossary/pt-br#Body.md) (corpo). Em seguida, construiremos o sólido dentro do corpo começando com um [Sketch](Glossary/pt-br#Sketch.md) (esboço).
+
+1.  Clique em <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Criar corpo](PartDesign_Body/pt-br.md) para criar e ativar um novo corpo. 
+*Nota: esta etapa pode ser omitida. Ao criar um esboço, se nenhum existente for encontrado, um novo será automaticamente criado e ativado.*
+2.  Clique em <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Criar novo esboço](PartDesign_NewSketch.md). Isso criará o esboço dentro do corpo recém-criado.
+3.  Precisamos definir onde o esboço (Sketch) será anexado. Vamos anexá-lo a um plano da [Origem](Glossary/pt-br#Origin.md) do corpo (Body).
+4.  Na aba [Tarefas](Task_panel.md) da [Tela combinada](Combo_view.md), selecione **YZ_Plane** na lista e pressione **OK**:
 
 <img alt="" src=images/Tut17_sketchplanes.png  style="width:250px;">
 
-*Note: it\'s possible that the **OK** button may not be visible if the side panel is not wide enough. You can make it wider by dragging its right border. Place your mouse pointer over the border; when the pointer changes to a two-way arrow, press and hold the left mouse button and drag.*
+*Observação: é possível que o botão **OK** não esteja visível se o painel lateral não for largo o suficiente. Você pode aumentá-lo arrastando sua borda direita. Coloque o ponteiro do mouse sobre a borda; quando o ponteiro mudar para uma seta de duas direções, pressione e segure o botão esquerdo do mouse e arraste.*
 
-Once you click OK, FreeCAD automatically switches to the [Sketcher workbench](Sketcher_Workbench.md) and opens the sketch in edit mode:
+Depois de clicar em OK, o FreeCAD muda automaticamente para a bancada [Sketcher](Sketcher_Workbench.md) e abre o esboço no modo de edição:
 
 ![](images/Tut17_sketcherempty.png )
 
-### Create the sketch 
 
-Next you will want to use the <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:24px;"> [Polyline](Sketcher_CreatePolyline.md) tool and make a shape roughly like that in the next image. It does not need to be perfect as the final shape is done with constraints. Once you have the basic shape, we will start applying the constraints. If you had Auto constraints on, some of these constraints will have been applied automatically, if not, do the following. But first make sure that you have exited the Polyline tool by right-clicking or pressing **ESC** twice; the mouse cursor should turn back from a cross-hair to the standard arrow cursor. Don\'t press **ESC** a third time or you will exit edit mode; if this happens, click on the Model tab, then double-click the Sketch element in the tree, or right-click and select **Edit sketch** in the context menu. To avoid leaving edit mode when pressing **Esc** too often, change the **Esc can leave sketch edit mode** preference (<small>(v0.19)</small> ), see [Sketcher Preferences](Sketcher_Preferences#General.md).
+
+### Crie o esboço 
+
+Em seguida, use a ferramenta <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:24px;"> [Polyline](Sketcher_CreatePolyline/pt-br.md) e fazça uma forma mais ou menos como a da próxima imagem. Não precisa ser perfeito, pois a forma final é alcançada com restrições. Depois de ter a forma básica, começaremos a aplicar as restrições. Se as \"Restrições automáticas\" estavam ativadas, algumas dessas restrições foram aplicadas automaticamente, caso contrário, faça os próximos procedimentos, mas primeiro certifique-se de ter saído da ferramenta Polyline clicando com o botão direito do mouse ou pressionando **ESC** duas vezes. O cursor do mouse deve voltar de uma cruz para o cursor de seta padrão. Não pressione **ESC** uma terceira vez ou você sairá do modo de edição. Se isso acontecer, clique na aba *Modelo* e, em seguida, clique duas vezes no elemento **Sketch** na árvore ou clique nele com o botão direito do mouse e selecione **Editar esboço** no menu de contexto. Para evitar sair do modo de edição ao pressionar **Esc** com muita frequência, altere a preferência **Esc pode sair do modo de edição de esboço** (<small>(v0.19)</small> ), consulte [Preferências Sketcher](Sketcher_Preferences/pt-br#General.md).
 
 *NOTE: Since this tutorial was written there have been improvements to the sketcher solver, if it detects a redundant constraint it will turn the sketch orange in colour, and before further constraints are added, the redundant constraint should be removed. (The redundant constraint is shown in the Task view, click on the blue reference and press delete.)*
 

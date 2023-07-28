@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionCreateVertChainDimension.svg  style="width:24px;"> **TechDraw Cotes verticales** crée une chaîne verticale de cotes : une séquence de cotes alignées.
+L\'outil **TechDraw Cotes verticales** crée une chaîne verticale de cotes : une séquence de cotes alignées.
 
 <img alt="" src=images/TechDraw_ExtensionCreateVertChainDimensionExample.png  style="width:300px;"> 
 *A droite, les cotes créées*
+
+
 
 ## Utilisation
 

@@ -38,6 +38,8 @@ The following tools are available in this menu:
 
 </div>
 
+-   <img alt="" src=images/Std_ViewLoadImage.svg  style="width:32px;"> [Load image\...](Std_ViewLoadImage.md): Loads an image. <small>(v0.21)</small> 
+
 
 <div class="mw-translate-fuzzy">
 

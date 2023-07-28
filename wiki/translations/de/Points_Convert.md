@@ -1,9 +1,9 @@
 ---
 - GuiCommand:/de
    Name:Points Convert
-   Name/de:Punkte umwandeln
+   Name/de:Points umwandeln
    MenuLocation:Punkte → In Punkte umwandeln...
-   Workbenches:[Punkte](Points_Workbench/de.md)
+   Workbenches:[Points](Points_Workbench/de.md)
 ---
 
 # Points Convert/de
@@ -12,25 +12,25 @@
 
 ## Beschreibung
 
-Der **Punkte umwandeln** Befehl erzeugt Punktwolken aus Formobjekten oder Netzobjekten.
+Der Befehl **Points Umwandeln** erzeugt Punktwolken aus Formobjekten (shape objects) oder Netzobjekten (mesh objects).
 
-Ein Formobjekt bezeichnet hier jedes Objekt mit einer **Form** Eigenschaft. Objekte, die mit dem [Part](Part_Workbench/de.md) und [PartDesign](PartDesign_Workbench/de.md) Arbeitsbereich erzeugt wurden, sind Formobjekte. Aber auch Objekte, die mit dem [Skizzierer](Sketcher_Workbench/de.md) und dem [Entwurf](Draft_Workbench/de.md) Arbeitsbereich erstellt wurden.
+Ein Formobjekt bezeichnet hier jedes Objekt mit einer {{PropertyData/de|Shape}}. Objekte, die mit den Arbeitsbereichen [Part](Part_Workbench/de.md) und [PartDesign](PartDesign_Workbench/de.md) erstellt wurden, sind Formobjekte. Aber auch Objekte, die mit den Arbeitsbereichen [Sketcher](Sketcher_Workbench/de.md) und [Draft](Draft_Workbench/de.md) erstellt wurden.
 
 
 
 ## Anwendung
 
-1.  Wähle ein oder mehrere Objekte aus.
-2.  Wähle die Option **Punkte → On Punkte umwandeln...** aus dem Menü.
+1.  Ein oder mehrere Objekte auswählen.
+2.  Den Menüeintrag **Punkte → In Punkte umwandeln...** auswählen.
 3.  Das Dialogfeld **Abstand** wird geöffnet.
-4.  Gib den **Maximalabstand** ein. Der Wert muss im Bereich {{Value|0.05}} - Bereich von {{Value|10.0}} liegen.
-5.  Drücke die Schaltfläche **OK**, um das Dialogfeld zu schließen und den Befehl zu beenden.
+4.  Den **Maximalabstand** eingeben. Der Wert muss im Bereich {{Value|0.05}} - {{Value|10.0}} liegen.
+5.  Die Schaltfläche **OK** drücken, um das Dialogfeld zu schließen und den Befehl zu beenden.
 
 
 
 ## Eigenschaften
 
-Punktwolkenobjekte sind [App GeoFeature](App_GeoFeature/de.md) Objekte mit den folgenden zusätzlichen Eigenschaften. Wähle die Option **Alles anzeigen** im Kontextmenü des [Eigenschaftseditors](Property_editor/de.md), um die ausgeblendeten Eigenschaften anzuzeigen.
+Punktwolkenobjekte sind [App GeoFeature](App_GeoFeature/de.md)-Objekte mit den folgenden zusätzlichen Eigenschaften. Die Option **Alles anzeigen** im Kontextmenü des [Eigenschaftseditors](Property_editor/de.md) aktivieren, um die ausgeblendeten Eigenschaften anzuzeigen.
 
 
 

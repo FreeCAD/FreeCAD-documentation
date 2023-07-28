@@ -21,6 +21,8 @@
 
 See also [video tutorials](Video_tutorials.md) and [books](Books.md).
 
+
+
 ## 建筑物与BIM
 
 
@@ -36,6 +38,8 @@ See also [video tutorials](Video_tutorials.md) and [books](Books.md).
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -103,6 +107,8 @@ The Raspberry Pi project has made simple tutorials that are easy to follow, part
 -   [freecad-chess-set](https://projects.raspberrypi.org/en/projects/freecad-chess-set), model and entire chess set in Bauhaus modernist style.
 -   [raspberrypilearning](https://github.com/raspberrypilearning?utf8=%E2%9C%93&q=freecad&type=source&language=) repository (CC-BY 4.0) with other examples.
 
+
+
 ## 绘制底图与草图
 
 
@@ -116,6 +122,8 @@ Exercise cabin 01.jpg\|link=[Manual:Traditional 2D drafting](Manual_Traditional_
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -155,11 +163,15 @@ This example shows how to simulate a capacitance. It illustrates how to setup th
 FEM_post-processing_Paraview.png\|link=[Post-Processing_of_FEM_Results_with_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)\|[Post-Processing of FEM results with Paraview](Post-Processing_of_FEM_Results_with_Paraview.md) (v0.19)
 This tutorial explains the basics of transferring data from the FEM Workbench to Paraview and shows some of the options and settings for displaying data.
 
+
+
 ## CNC & 3D打印 
 
 Path-WalkThroughResult.gif\|link=[Path Walkthrough for the Impatient](Path_Walkthrough_for_the_Impatient.md)\|[Path Workbench for the impatient](Path_Walkthrough_for_the_Impatient.md)
 This is a quick presentation of the workflow for the Path Workbench: create a job, define the output, define the milling tool, define the path operations, start the simulation, and generate a G-code output file. Exercise meshing 03.jpg\|link=[Manual:Preparing models for 3D printing](Manual_Preparing_models_for_3D_printing.md)\|[Preparing models for 3D printing](Manual_Preparing_models_for_3D_printing.md) (v0.16)
 Convert a solid object to a mesh object using the Mesh Workbench, export the mesh to STL format, and use Slic3r to prepare the G-code. Alternatively use the Cura Workbench or the Path Workbench to generate the G-code.
+
+
 
 ## 渲染
 
@@ -254,10 +266,6 @@ Here are listed all the tutorials that are not in the manual **regardless of the
 | [Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)                                                        | Product Design          | Beginner              | 0:30                   | r-frank and vocx                                                                               | 0.17 or above       | [Draft_Shapestring_Text](https://github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true)                                                                                                                                                                  |
 ++++++++
 | [Draft tutorial](Draft_tutorial.md)                                                                                | Draft Workbench         | Beginner              | 0:30                   | [Drei](User_Drei.md) and vocx                                                          | 0.19                | [Draft tutorial updated](https://forum.freecadweb.org/viewtopic.php?f=36&t=43651)                                                                                                                                                                                                                                             |
-++++++++
-| [Drawing Template HowTo (obsolete)](Drawing_Template_HowTo.md)                                                     | Drawing Workbench       | Intermediate          | 1:00                   | [Mark Stephen (Quick61)](User_Quick61.md)                                              | 0.14.3700 or above  | None                                                                                                                                                                                                                                                                                                                          |
-++++++++
-| [Drawing tutorial (obsolete)](Drawing_tutorial.md)                                                                 | Drawing Workbench       | Beginner              | 0:15                   | [Drei](User_Drei.md)                                                                   | 0.16 or above       |                                                                                                                                                                                                                                                                                                                               |
 ++++++++
 | [Dxf Importer Install](Dxf_Importer_Install.md)                                                                    | Import                  | Intermediate          | 0:05                   | [Mario52](User_Mario52.md)                                                             | Any                 | None                                                                                                                                                                                                                                                                                                                          |
 ++++++++

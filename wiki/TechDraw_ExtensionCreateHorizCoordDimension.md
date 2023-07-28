@@ -12,7 +12,7 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_ExtensionCreateHorizCoordDimension.svg  style="width:24px;"> **TechDraw ExtensionCreateHorizCoordDimension** tool creates horizontal coordinate dimensions: multiple evenly spaced dimensions starting from the same baseline.
+The **TechDraw ExtensionCreateHorizCoordDimension** tool creates horizontal coordinate dimensions: multiple evenly spaced dimensions starting from the same baseline.
 
  <img alt="" src=images/TechDraw_ExtensionCreateHorizCoordDimensionExample.png  style="width:400px;">  
 *On the right the created dimensions*
@@ -23,7 +23,7 @@ The <img alt="" src=images/TechDraw_ExtensionCreateHorizCoordDimension.svg  styl
 2.  Select three or more vertexes.
 3.  The selection order of the first two vertexes determines the position of the baseline. If the vertex that is selected first is to the left of the second, the baseline is created at the leftmost vertex, else it is created at the rightmost vertex.
 4.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionCreateHorizCoordDimension.svg" width=16px> [TechDraw ExtensionCreateHorizCoordDimension](TechDraw_ExtensionCreateHorizCoordDimension.md)** button.
+    -   Press the **<img src="images/TechDraw_ExtensionCreateHorizCoordDimension.svg" width=16px> [Create Horizontal Coordinate Dimensions](TechDraw_ExtensionCreateHorizCoordDimension.md)** button.
     -   Select the **TechDraw → Extensions: Dimensions → <img src="images/TechDraw_ExtensionCreateHorizCoordDimension.svg" width=16px> Create Horizontal Coordinate Dimensions** option from the menu.
 5.  Coordinate dimensions with centered dimension texts are created.
 

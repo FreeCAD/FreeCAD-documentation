@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -14,6 +16,8 @@ Applica il [Vincolo coincidenza](Sketcher_ConstrainCoincident/it.md) ai punti fi
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -28,6 +32,8 @@ Applica il [Vincolo coincidenza](Sketcher_ConstrainCoincident/it.md) ai punti fi
 
 
 </div>
+
+
 
 ## Note
 

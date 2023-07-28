@@ -73,6 +73,8 @@ Pokud nejste obeznámeni s prací s osami XYZ pak si pohrajte s čísly v poli P
 
 </div>
 
+
+
 ## Další kroky 
 
 <img alt="" src=images/HTCaeroplane02.png  style="width:400px;">
@@ -173,6 +175,8 @@ Klikneme na Box a dostaneme jeho [Umístění do Úloh](Tasks_Placement/cs.md). 
 
 </div>
 
+
+
 ## Otáčení
 
 
@@ -245,4 +249,4 @@ Doufám, že Vám tento výukový program pomohl orientovat se v otáčení obje
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Aeroplane/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Aeroplane/cs

@@ -20,20 +20,34 @@
 
 </div>
 
+
+
 ## Введение
 
 Данное руководство знакомит пользователя с основными принципами работы верстака FEM, а также с большинством доступных инструментов, предназначенных для выполнения статического анализа.
 
 <img alt="" src=images/FEM_tutorial_result.png  style="width:600px;">
 
+
+
 ## Требования
+
+
+<div class="mw-translate-fuzzy">
 
 -   Версия FreeCAD должна быть 0.17 и старше.
 -   Наличие [Netgen](http://sourceforge.net/projects/netgen-mesher/) и/или [GMSH](http://geuz.org/gmsh/) в системе (устанавливаются вместе с FreeCAD).
 -   Наличие [Calculix](http://www.calculix.de/) в системе (устанавливается вместе с FreeCAD).
 -   Пользователь изучающий данный пример должен обладать базовыми понятиями о том, как использовать верстаки [Part](Part_Workbench/ru.md) и [PartDesign](PartDesign_Workbench/ru.md).
 
+
+</div>
+
+
+
 ## Последовательность действий 
+
+
 
 ### Моделирование
 
@@ -67,10 +81,14 @@
 
 </div>
 
+
+
 ### Проведение анализа 
 
 1.  Activate the <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM Workbench](FEM_Workbench.md).
 2.  Select the **Model → <img src="images/FEM_Analysis.svg" width=16px> Analysis container‏‎** option from the menu.
+
+
 
 ### Установка ограничений и приложение силы 
 
@@ -85,6 +103,8 @@
 
 Теперь мы установили ограничения и силы для нашего статического анализа.
 
+
+
 ### Выбор материала 
 
 
@@ -97,6 +117,8 @@
 
 
 </div>
+
+
 
 ### Создание Mesh 
 
@@ -124,7 +146,11 @@
 
 Мы создали сетку для нашего объекта и готовы добавить к нему ограничения и действующие силы.
 
+
+
 ### Запуск решателя 
+
+
 
 #### Стандартный способ 
 
@@ -133,6 +159,8 @@
 3.  Выберите **Write .inp File**.
 4.  Выберите **Run Calculix**.
 5.  Click **OK**.
+
+
 
 #### Быстрый способ 
 
@@ -147,6 +175,8 @@
 
 
 </div>
+
+
 
 ### Анализ Результатов 
 
@@ -176,9 +206,11 @@
 </div>
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM tutorial/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM tutorial/ru

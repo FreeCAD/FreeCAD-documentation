@@ -19,7 +19,13 @@ One issue that arises in a professional CNC shop is that there are many assumpti
 
 Commercial shops will often create a \'setup book\' which documents all these assumptions and gives the operators what they need to configure the machine and produce a part.
 
-[Path Sanity](Path_Sanity.md) is the tool in Path workbench to generate this kind of information. The output of the Path Sanity command is a stand-alone .html file with embedded images. <img alt="Above: Example of a Path Sanity generated report" src=images/Sanity.jpg  style="width:400" height="600px;">
+<img alt="" src=images/Path_Sanity.svg  style="width:16px;"> [Path Sanity](Path_Sanity.md) is the tool in Path workbench to generate this kind of information. The output of this command is a stand-alone .html file with embedded images.
+
+<img alt="" src=images/Sanity.jpg  style="width:600px;">
+
+
+
+*Above: Example of a Path Sanity generated report*
 
 ## About the Report 
 
@@ -47,7 +53,7 @@ Gives details about where and when the G-code was post-processed. It also shows 
 
 ### Coolant
 
-Self-explanatory.
+What kind of coolant, if any, is required.
 
 ### Fixtures and Work-holding 
 
@@ -69,11 +75,11 @@ Warnings and errors detected by [Path Sanity](Path_Sanity.md). These may or may 
 5.  An external process calls asciidoctor to read the asciidoc and generate the .html.
 6.  This will auto-launch the system web browser to view the generated standalone HTML report.
 
-## Note an ASCIIDOC and Asciidoctor 
+## Notes
 
-Asciidoc is a lightweight markup format for authoring notes, articles, books ,etc. It is human-readable and easily translated into other formats.
+-   Asciidoc is a lightweight markup format for authoring notes, articles, books ,etc. It is human-readable and easily translated into other formats.
 
-Asciidoctor is a fast open-source text processor for converting asciidoc into HTML, PDF, or other formats. It\'s available for Linux, Windows, and MacOS. Asciidoctor is not installed with FreeCAD. If you use Path-Sanity without installing Asciidoctor, the asciidoc source file will be generated but the resulting HTML will not be produced. [Asciidoctor website](https://asciidoctor.org/)
+-   Asciidoctor is a fast open-source text processor for converting asciidoc into HTML, PDF, or other formats. It\'s available for Linux, Windows, and MacOS. Asciidoctor is not installed with FreeCAD. If you use **Path Sanity** without installing Asciidoctor, the asciidoc source file will be generated but the resulting HTML will not be produced. See [Asciidoctor website](https://asciidoctor.org/)
 
 
 

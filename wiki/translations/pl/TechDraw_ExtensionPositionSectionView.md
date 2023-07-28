@@ -1,8 +1,9 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ExtensionPositionSectionView
-   MenuLocation:TechDraw → Extensions: Attributes/Modifications → Position Section View
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Rozszerzenie Wyrównaj widok przekroju
+   MenuLocation:Rysunek Techniczny → Rozszerzenie: Atrybuty / Modyfikatory → Wyrównaj widok przekroju
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
    SeeAlso:
@@ -10,20 +11,24 @@
 
 # TechDraw ExtensionPositionSectionView/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_ExtensionPositionSectionView.svg  style="width:24px;"> **TechDraw ExtensionPositionSectionView** tool orthogonally aligns a section view with its source view.
+
+## Opis
+
+Narzędzie **Wyrównaj widok przekroju** wyrównuje prostopadle widok przekroju z jego widokiem źródłowym.
 
 <img alt="" src=images/TechDraw_ExtensionPositionSectionViewExample.png  style="width:400px;"> 
-*On the right an aligned section view*
+*Po prawej wyrównany widok przekroju.*
 
-## Usage
 
-1.  Select a single section view.
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionPositionSectionView.svg" width=16px> [TechDraw ExtensionPositionSectionView](TechDraw_ExtensionPositionSectionView.md)** button.
-    -   Select the **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionPositionSectionView.svg" width=16px> Position Section View** option from the menu.
-3.  The section view is aligned with its source view.
+
+## Użycie
+
+1.  Wybierz widok pojedynczego przekroju.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionPositionSectionView.svg" width=16px> '''Wyrównaj widok przekroju'''**.
+    -   Wybierz z menu **Rysunek Techniczny → Rozszerzenia: Atrybuty / Modyfikatory → <img src="images/TechDraw_ExtensionPositionSectionView.svg" width=16px> Wyrównaj widok przekroju**.
+3.  Widok przekroju jest wyrównany do widoku źródłowego.
 
 
 

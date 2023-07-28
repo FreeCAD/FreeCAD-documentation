@@ -9,9 +9,11 @@ Le solveur est capable de faire des calculs linéaires et non linéaires pour de
 
 CalculiX est conçu pour fonctionner sur les plates-formes Unix telles que les ordinateurs Linux et Irix mais également sur MS-Windows. CalculiX a été développé par des ingénieurs de MTU Aero Engines, Munich, Allemagne, pour les aider à concevoir des machines telles que des turbines à jet. Le logiciel est actuellement disponible au public selon les termes de la GPL version 2.
 
+
+
 ## Intégration à FreeCAD 
 
-L\'interaction entre l\'[atelier FEM](FEM_Workbench/fr.md) et CalculiX s\'effectue par l\'écriture et la lecture de fichiers texte. La séquence des opérations est la suivante:
+L\'interaction entre l\'[atelier FEM](FEM_Workbench/fr.md) et CalculiX s\'effectue par l\'écriture et la lecture de fichiers texte. La séquence des opérations est la suivante :
 
 1.  Un fichier d\'entrée CalculiX est créé avec les détails nécessaires à l\'exécution de la simulation.
 2.  Le solveur CalculiX est démarré avec ce fichier d\'entrée.
@@ -20,14 +22,18 @@ L\'interaction entre l\'[atelier FEM](FEM_Workbench/fr.md) et CalculiX s\'effect
 
 L\'outil [FEM Réglage du solveur](FEM_SolverControl/fr.md) gère l\'ensemble du processus. L\'interaction de l\'utilisateur dans le processus est possible.
 
+
+
 ## L\'interface de post-traitement 
 
-Le fichier d\'entrée utilisé par CalculiX peut être préparé et édité avant le démarrage du solveur. Les unités utilisées dans le fichier d\'entrée sont indépendantes des unités définies dans FreeCAD; ils seront toujours millimètres (mm) et Newton (N).
+Le fichier d\'entrée utilisé par CalculiX peut être préparé et édité avant le démarrage du solveur. Les unités utilisées dans le fichier d\'entrée sont indépendantes des unités définies dans FreeCAD ; ils seront toujours en millimètres (mm) et en Newton (N).
 
 
-**(A faire: vérifiez ceci. Que se passe-t-il avec le maillage est si l'unité inch est utilisée dans FreeCAD? Parce que la densité a été introduite, avec cela nous avons kg et s et non plus N ?! comment ça?!)**
+**(À faire : vérifiez ceci. Que se passe-t-il avec le maillage est si l'unité inch est utilisée dans FreeCAD ? Parce que la densité a été introduite, avec cela nous avons kg et s et non plus N ?! comment ça ?!)**
 
-L\'interface CalculiX prend en charge les objets suivants:
+L\'interface CalculiX prend en charge les objets suivants :
+
+
 
 ### Eléments MEF 
 
@@ -36,16 +42,22 @@ L\'interface CalculiX prend en charge les objets suivants:
 -   B31 et B32
 -   et ceux décrits dans [FEM Maillage avec Calculix](FEM_Mesh_CalculiX/fr.md)
 
+
+
 ### Analyses
 
 -   analyse statique linéaire
 -   analyse fréquencielle
 -   analyse structurale thermique couplée
 
+
+
 ### Matériaux
 
 -   un matériau élastique linéaire isotrope (uniformité dans toutes les directions)
 -   plusieurs matériaux sont en développement
+
+
 
 ## Interface de post-traitement 
 
@@ -60,6 +72,8 @@ L\'atelier FEM charge les résultats de CalculiX dans l\'[objet résultat](FEM_R
 FreeCAD lit les résultats du fichier \*.frd qui a été créé par CalculiX. Si ces résultats contiennent plusieurs pas de temps, chaque pas de temps est importé dans FreeCAD comme un nouvel objet résultat. Le même comportement s\'applique à l\'analyse fréquentielle ou de flambage avec de multiples valeurs propres.
 
 Les forces de réaction se trouvent dans le fichier ccx_dat_file qui contient les composantes des forces de réaction (fx, fy, fz) pour chaque contrainte fixée et pour chaque déplacement de contrainte qui contraint les degrés de liberté de déplacement.
+
+
 
 ## En relation 
 

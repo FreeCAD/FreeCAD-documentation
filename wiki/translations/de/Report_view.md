@@ -42,23 +42,42 @@ Diese Funktionen können direkt von der [Python-Konsole](Python_console/de.md) a
 
 ## Maßnahmen
 
+Ein Rechtsklick auf das Ausgabefenster öffnet ein Kontextmenü mit den folgenden Befehlen:
 
-<div class="mw-translate-fuzzy">
+-    **Optionen**:
 
-Rechtsklick auf die Berichtsansicht zeigt einige Befehle:
+    -   
+        **Nachrichtenarten anzeigen**
+        
+        : siehe [Voreinstellungseditor](Preferences_Editor/de#Output_window.md).
 
--    **Optionen**: Protokollierung, Warnung, Fehler, Python Ausgabe umleiten, Python Fehler umleiten, zum Ende gehen.
+    -   
+        **Show Report view on**
+        
+        : wie vorher.
+
+    -   
+        **Python-Ausgabe umleiten**
+        
+        : wie vorher.
+
+    -   
+        **Python-Fehler umleiten**
+        
+        : wie vorher.
+
+    -   
+        **Go to end**
+        
+        : Wenn aktiviert, wird zur untersten Zeile gescrollt, wenn eine neue Meldung hinzugefügt wird.
 
 -    **Kopieren**: speichert den markierten Text in der Zwischenablage zum späteren Einfügen; er ist deaktiviert, wenn nichts markiert ist.
 
--    **Alles markieren**: wählt den gesamten Text in der Berichtsansicht aus.
+-    **Alles auswählen**: wählt den gesamten Text in der Berichtsansicht aus.
 
 -    **Löschen**: löscht alle Meldungen in der Berichtsansicht. Dies ist nützlich, wenn du eine Fehlersuche bei einem Werkzeug durchführen willst, das Meldungen in der Berichtsansicht ausgibt, und sicher sein willst, dass keine alten Meldungen von früheren Werkzeugen vorhanden sind.
 
--    **Speichern als**: speichert die Meldungen in der Berichtsansicht in einer Textdatei.
-
-
-</div>
+-    **Speichern unter**: speichert die Meldungen in der Berichtsansicht in einer Textdatei.
 
 
 {{Interface navi

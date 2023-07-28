@@ -11,6 +11,8 @@ Un documento FreeCAD può contenere oggetti di diversi tipi. Ogni ambiente di la
 
 In FreeCAD può essere attivo un solo documento alla volta. Il documento attivo è quello che viene visualizzato nella vista 3D corrente ed è il documento in lavorazione.
 
+
+
 ## Applicazione e Interfaccia utente 
 
 Come per quasi tutto il resto, in FreeCAD, la parte interfaccia grafica utente (GUI) è separata dalla parte applicazione (App). Questo vale anche per i documenti.
@@ -20,6 +22,8 @@ I documenti sono composti da due parti: il documento **Applicazione**, che conti
 Pensate a due spazi in cui sono definiti gli oggetti. I loro parametri costruttivi (si tratta di un cubo? di un cono? quanto misura?) sono memorizzati nel documento *Applicazione*, mentre la loro rappresentazione grafica (è disegnata con linee nere? con le facce blu?) sono memorizzati nel documento *Visualizzazione*. Questo permette di utilizzare FreeCAD anche senza interfaccia grafica, ad esempio all\'interno di altri programmi, e di manipolare gli oggetti, anche senza disegnare nulla sullo schermo.
 
 Il documento Visualizzazione contiene anche le viste 3D. Un documento può avere contemporaneamente diverse viste aperte, in modo da poterlo controllare da diversi punti di vista. Ad esempio, si può visualizzare allo stesso tempo una vista dall\'alto e una vista frontale. Tutte le viste dello stesso progetto vengono memorizzate nel documento Visualizzazione. La produzione di nuove viste o la chiusura di viste attive si può fare dal menu Visualizza o facendo clic destro su una scheda di visualizzazione.
+
+
 
 ## Script
 

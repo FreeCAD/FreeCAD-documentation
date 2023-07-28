@@ -5,7 +5,12 @@
 
 ## Introduction
 
-L\'interface FreeCAD est basée sur la boîte à outils [Qt](https://fr.wikipedia.org/wiki/Qt) et possède une organisation de pointe. Certains aspects de l\'interface peuvent être personnalisés. Vous pouvez, par exemple, ajouter des barres d\'outils personnalisées avec des outils de plusieurs ateliers ou des outils définis dans des macros et vous pouvez créer vos propres raccourcis clavier. Mais les menus et barres d\'outils par défaut fournis avec FreeCAD et ses ateliers ne peuvent pas être modifiés.
+L\'interface FreeCAD est basée sur la boîte à outils [Qt](https://fr.wikipedia.org/wiki/Qt) et possède une bonne organisation. Certains aspects de l\'interface peuvent être personnalisés. Vous pouvez, par exemple, ajouter des barres d\'outils personnalisées avec des outils de plusieurs ateliers ou des outils définis dans des macros et vous pouvez créer vos propres raccourcis clavier. Mais les menus et barres d\'outils par défaut fournis avec FreeCAD et ses ateliers ne peuvent pas être modifiés.
+
+
+{{Version/fr|0.21}}
+
+: l\'onglet des Ateliers n\'est plus disponible. Sa fonction a été déplacée vers l\'onglet [Ateliers disponibles](Preferences_Editor/fr#Ateliers_disponibles.md) dans la section Ateliers de [Réglage des préférences](Preferences_Editor/fr.md).
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *La boite de dialogue de personnalisation de l'interface*
@@ -15,39 +20,18 @@ L\'interface FreeCAD est basée sur la boîte à outils [Qt](https://fr.wikipedi
 ## Utilisation
 
 1.  Les commandes disponibles dans la boite de dialogue de personnalisation d\'interface dépendent des ateliers qui ont été chargés dans la session FreeCAD en cours. Vous devez donc d\'abord charger tous les établis dont vous souhaitez avoir accès aux commandes.
-2.  Il existe plusieurs façons d\'appeler la commande <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> [Std Personnalisation](Std_DlgCustomize/fr.md):
+2.  Il existe plusieurs façons d\'appeler la commande <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> [Std Personnalisation](Std_DlgCustomize/fr.md) :
     -   Sélectionnez l\'option **Outils → <img src="images/Std_DlgCustomize.svg" width=16px> Personnaliser...** dans le menu.
     -   Cliquez avec le bouton droit sur une zone de barre d\'outils et choisissez **<img src="images/Std_DlgCustomize.svg" width=16px> Personnaliser...** dans le menu contextuel.
 3.  La boîte de dialogue Personnaliser s\'ouvre. Pour plus d\'informations, voir [Options](#Options.md).
-4.  Le bouton **Aide** ne fonctionne pas pour le moment.
+4.  Le bouton **Aide** démarre la commande <img alt="" src=images/Std_WhatsThis.svg  style="width:16px;"> [Std Qu\'est-ce que c\'est ?](Std_WhatsThis/fr.md)
 5.  Appuyez sur le bouton **Fermer** pour fermer la boîte de dialogue.
 
 
 
 ## Options
 
-Dans la boîte de dialogue Personnaliser, les onglets suivants sont disponibles:
-
-
-
-### Commandes
-
-![](images/Std_DlgCustomize_tab_Commands.png ) 
-*L'onglet Commandes*
-
-Avec cet onglet, vous pouvez parcourir les commandes disponibles.
-
-
-
-#### Parcourir les commandes 
-
-1.  Sélectionnez une catégorie de commandes dans le panneau **Catégorie** à gauche. Certaines catégories correspondent aux entrées de menu.
-2.  Les outils disponibles dans la catégorie sélectionnée sont affichés dans le panneau de droite.
-3.  Survolez une commande: son infobulle apparaît.
-4.  Sélectionnez une commande: son texte dans la barre d\'état s\'affiche sous les deux panneaux.
-
-
-{{Top}}
+Dans la boîte de dialogue Personnaliser, les onglets suivants sont disponibles :
 
 
 
@@ -60,19 +44,41 @@ Dans cet onglet, des raccourcis clavier personnalisés peuvent être définis. L
 
 
 
-#### Ajouter un raccourci personnalisé 
+#### Recherche
 
-1.  Sélectionnez une catégorie de commandes dans la liste déroulante **Catégorie**.
+Vous pouvez rechercher des commandes en saisissant au moins 3 caractères de leur texte de menu ou de leur nom dans le champ de recherche. La recherche est insensible à la casse.
+
+Il est également possible de rechercher des raccourcis :
+
+-   Dans le champ de recherche, les touches spéciales des raccourcis doivent être saisies sous forme de chaînes. Par exemple, pour rechercher des commandes qui utilisent **Ctrl** dans leur raccourci, entrez {{Value|ctrl}} (4 lettres).
+-   Ajoutez des parenthèses pour rechercher des raccourcis à un seul caractère, par exemple : {{Value|(c)}}.
+-   Ajoutez une virgule et un espace entre les caractères des raccourcis multi-caractères, par exemple : {{Value|g, b, b}}.
+
+
+
+#### Ajouter un raccourci 
+
+1.  Sélectionnez une catégorie de commande dans la liste déroulante **Catégorie**.
 2.  Sélectionnez une commande dans le panneau **Commandes**.
-3.  La case **Raccourci actuel** affiche le raccourci actuel, si disponible.
-4.  Entrez un nouveau raccourci dans la zone de saisie **Appuyez sur nouveau raccourci**. Les raccourcis peuvent comporter jusqu\'à 4 entrées. Chaque entrée est soit un seul caractère, une combinaison d\'une ou plusieurs touches spéciales ou une combinaison d\'une ou plusieurs touches spéciales et un caractère. Utilisez **Retour Arrière** pour corriger les erreurs.
-5.  Si le raccourci est déjà utilisé, une boîte de dialogue vous demandera si vous souhaitez le remplacer, et la commande à laquelle le raccourci est affecté apparaîtra dans le panneau **Actuellement assigné à**.
+    -   Cliquez sur les en-têtes de colonne {{Value|Commande}}, {{Value|Raccourci}} ou {{Value|Défaut}} pour réorganiser la liste.
+    -   Vous pouvez également faire glisser le séparateur à droite du panneau pour le redimensionner.
+3.  La case **Raccourci actuel** affiche le raccourci actuel, s\'il est disponible.
+4.  Entrez un nouveau raccourci dans la zone de saisie **Nouveau raccourci**. Les raccourcis peuvent comporter jusqu\'à 4 entrées. Chaque entrée est soit un caractère unique, soit une combinaison d\'une ou plusieurs touches spéciales, soit une combinaison d\'une ou plusieurs touches spéciales et d\'un caractère. Utilisez **Retour** pour corriger les erreurs.
+5.  Les autres commandes actives (voir [Remarques](#Remarques.md)) qui utilisent déjà le raccourci seront listées dans la **Liste de priorité des raccourcis**.
 6.  Appuyez sur le bouton **Attribuer** pour attribuer le nouveau raccourci.
-7.  Appuyez sur le bouton **Effacer** pour supprimer le raccourci entré. Cela supprimera également le contenu de la boîte **Raccourci actuel**. Notez que les raccourcis par défaut ne sont pas supprimés définitivement. Ils seront restaurés au redémarrage de FreeCAD.
+7.  Si la **Liste de priorité des raccourcis** contient plus d\'une commande, vous pouvez modifier son ordre en sélectionnant les commandes individuelles et en appuyant sur le bouton **Haut** ou sur le bouton **Bas**. Si des commandes actives partagent le même raccourci, le raccourci déclenchera celle qui est la plus haute dans la liste.
 
 
 
-#### Supprimer un raccourci personnalisé 
+#### Supprimer un raccourci 
+
+1.  Sélectionnez une catégorie de commande dans la liste déroulante **Catégorie**.
+2.  Sélectionnez une commande dans le panneau **Commandes**.
+3.  Appuyez sur le bouton **Clear**.
+
+
+
+#### Restaurer un raccourci par défaut 
 
 1.  Sélectionnez une catégorie de commandes dans la liste déroulante **Catégorie**.
 2.  Sélectionnez une commande dans le panneau **Commandes**.
@@ -80,66 +86,15 @@ Dans cet onglet, des raccourcis clavier personnalisés peuvent être définis. L
 
 
 
-#### Supprimer tous les raccourcis personnalisés 
+#### Restaurer tous les raccourcis par défaut 
 
 1.  Appuyez sur le bouton **Tout réinitialiser**.
 
 
 
-#### Remarques (clavier) 
+#### Remarques
 
--   Les raccourcis ne fonctionnent que si leurs commandes apparaissent dans le menu standard ou dans le menu d\'un plan de travail qui a été chargé dans la session FreeCAD en cours, ou si leurs commandes apparaissent sur une barre d\'outils *visible* .
-
--   Dans V0.19 il y a un problème avec certaines commandes Draft. Leurs raccourcis par défaut ne fonctionnent pas et/ou des raccourcis personnalisés ne peuvent pas leur être attribués.
--   Pour réaffecter un raccourci par défaut, un nouveau raccourci doit d\'abord être affecté à sa commande d\'origine.
-
-
-{{Top}}
-
-
-
-### Ateliers
-
-![](images/Std_DlgCustomize_tab_Workbenches.png ) 
-*L'onglet Ateliers*
-
-Dans cet onglet, la liste des [Ateliers](Std_Workbench/fr.md) peut être modifiée. La liste **Ateliers activés** affiche les Ateliers tels qu\'ils apparaîtront dans le sélecteur d\'Ateliers.
-
-
-
-#### Désactiver un atelier 
-
-1.  Sélectionnez un établi dans la liste des **ateliers activés**.
-2.  Appuyez sur le bouton **<img src="images/Button_left.svg" width=16px>**.
-3.  L\'atelier sera déplacé vers la liste des **ateliers désactivés**
-
-
-
-#### Réactiver un atelier 
-
-1.  Sélectionnez un établi dans la liste des **ateliers désactivés**.
-2.  Appuyez sur le bouton **<img src="images/Button_right.svg" width=16px>**.
-3.  L\'atelier sera déplacé vers la liste des **ateliers désactivés**.
-
-
-
-#### Réactiver tous les ateliers 
-
-1.  Appuyez sur le bouton **<img src="images/Button_add_all.svg" width=16px>**.
-
-
-
-#### Modifier une position d\'un atelier 
-
-1.  Sélectionnez un établi dans la liste des **Ateliers activés**.
-2.  Appuyez sur le bouton **<img src="images/Button_up.svg" width=16px>** ou sur le bouton **<img src="images/Button_down.svg" width=16px>**.
-3.  Répétez éventuellement cette opération jusqu\'à ce que l\'atelier soit à la bonne position.
-
-
-
-#### Trier les ateliers par ordre alphabétique 
-
-1.  Appuyez sur le bouton **<img src="images/Button_sort.svg" width=16px>**.
+-   Les raccourcis ne fonctionnent que pour les commandes actives. Les commandes actives sont des commandes qui apparaissent dans le menu standard, ou dans le menu d\'un atelier qui a été chargé dans la session FreeCAD en cours, ou des commandes qui apparaissent sur une barre d\'outils *visible*.
 
 
 {{Top}}
@@ -152,6 +107,12 @@ Dans cet onglet, la liste des [Ateliers](Std_Workbench/fr.md) peut être modifi�
 *L'onglet Barres d'outils*
 
 Dans cet onglet, des barres d\'outils personnalisées peuvent être créées et modifiées.
+
+
+
+#### Recherche 
+
+Voir [Clavier](#Recherche.md).
 
 
 
@@ -197,10 +158,10 @@ Dans cet onglet, des barres d\'outils personnalisées peuvent être créées et 
 
 1.  Il faut au moins une barre d\'outils personnalisée. Voir [Créer une barre d\'outils](#Cr.C3.A9er_une_barre_d.27outils.md).
 2.  Sélectionnez la barre d\'outils appropriée dans le panneau de droite. Si aucune barre d\'outils n\'est sélectionnée, la commande sera ajoutée à la première barre d\'outils de la liste.
-3.  Sélectionnez une catégorie dans la liste déroulante de gauche. Les macros commandes qui ont été configurées dans l\'onglet [Macros](#Macros.md) apparaissent dans la catégorie \'Macros\'.
-4.  Sélectionnez une commande dans le panneau de gauche.
-5.  Ou sélectionnez \"\" pour ajouter un séparateur (une ligne entre deux boutons de la barre d\'outils).
-6.  Appuyez sur le bouton **<img src="images/Button_right.svg" width=16px>**.
+3.  Sélectionnez une catégorie de commande dans la liste déroulante **Catégorie**. Les macro-commandes qui ont été configurées dans l\'onglet [Macros](#Macros.md) apparaissent dans la catégorie {{Value|Macros}}.
+4.  Sélectionnez une commande dans le panneau **Commandes** ou sélectionnez {{Value|<Séparateur>}} pour ajouter un séparateur (une ligne entre deux boutons de la barre d\'outils).
+    -   Vous pouvez également faire glisser le séparateur à droite du panneau pour le redimensionner.
+5.  Appuyez sur le bouton **<img src="images/Button_right.svg" width=16px>**.
 
 
 
@@ -221,12 +182,10 @@ Dans cet onglet, des barres d\'outils personnalisées peuvent être créées et 
 
 
 
-#### Remarques (Barres d\'outils) 
+#### Remarques 
 
 -   Les barres d\'outils appartenant à l\'atelier en cours sont mises à jour immédiatement, mais après avoir désactivé/réactivé une barre d\'outils, un changement d\'atelier est requis (basculer vers un atelier puis revenir en arrière).
 -   Pour mettre à jour les barres d\'outils globales, un changement d\'atelier (si des commandes ont été ajoutées ou supprimées) ou un redémarrage (si l\'ordre d\'une barre d\'outils a changé ou une barre d\'outils a été renommée) est requis.
-
--   Dans la V0.19, il y a un problème avec certaines commandes de Draft. Après les avoir ajoutées à une barre d\'outils personnalisée et quitté l\'application FreeCAD, le fichier **user.cfg** doit être modifié manuellement pour ces commandes. Recherchez le nom de la barre d\'outils personnalisée et dans cette section, changez le contenu des éléments `FCText` qui commencent par `gui_` en `DraftTools`.
 
 
 {{Top}}
@@ -236,11 +195,9 @@ Dans cet onglet, des barres d\'outils personnalisées peuvent être créées et 
 ![](images/Std_DlgCustomize_tab_Macros.png ) 
 *L'onglet Macros*
 
-Avec cet onglet, les commandes de macro utilisateur peuvent être configurées. Une fois configurés, ils peuvent être ajoutés à des barres d\'outils personnalisées. FreeCAD utilise un dossier dédié pour les macros dutilisateurs et seules les macros de ce dossier peuvent être configurées. Utilisez la commande <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Std Lancer la macro](Std_DlgMacroExecute/fr.md) pour rechercher ce dossier sur votre système.
+Cet onglet permet de définir des commandes de macro. Une fois configurées, elles peuvent être ajoutées à des barres d\'outils personnalisées. Les macros installées avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [gestionnaire des extensions](Std_AddonMgr/fr.md) sont configurées automatiquement et ajoutées à une barre d\'outils {{Value|Globale}} (voir [Barre d\'outils](#Barre_d'outils.md)), si vous confirmez le popup **Ajouter un bouton** pendant le processus d\'installation.
 
-Si vous téléchargez une macro avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Gestionnaire d\'extensions](Std_AddonMgr/fr.md), assurez-vous de télécharger également son fichier image d\'icône. La plupart des macros ont un lien d\'image sur la page d\'informations qui apparaît dans le gestionnaire d\'extensions. Vous pouvez par exemple placer ce fichier image dans le dossier des macros utilisateur.
-
-Si vous souhaitez utiliser une macro téléchargée à partir d\'une autre source, vous devrez l\'installer manuellement. Voir [Comment installer les macros](How_to_install_macros/fr.md) pour plus d\'informations.
+Si vous souhaitez utiliser une macro téléchargée à partir d\'une autre source, vous devrez l\'installer manuellement. Voir [Comment installer des macros](How_to_install_macros/fr.md) pour plus d\'informations. Notez que FreeCAD utilise un dossier dédié aux macros et que seules les macros de ce dossier peuvent être configurées. Utilisez la <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Std Exécuter une macro](Std_DlgMacroExecute/fr.md) pour trouver ce dossier sur votre système.
 
 
 
@@ -254,9 +211,9 @@ Si vous souhaitez utiliser une macro téléchargée à partir d\'une autre sourc
 6.  Vous pouvez également saisir un raccourci dans la zone de saisie **Accélérateur**. Voir [Clavier](#Clavier.md) pour plus d\'informations.
 7.  Pour ajouter une icône:
     1.  Appuyez sur le bouton **Pixmap** **...**.
-    2.  La boîte de dialogue Choisir une icône s\'ouvre.
+    2.  La boîte de dialogue **Choisir une icône** s\'ouvre.
     3.  Si nécessaire, appuyez sur le bouton **Dossiers d'icônes...** pour ajouter un dossier d\'icônes.
-    4.  Sélectionnez une icône dans le panneau. La boîte de dialogue Choisir une icône se ferme automatiquement.
+    4.  Sélectionnez une icône dans le panneau. La boîte de dialogue **Choisir une icône** se ferme automatiquement.
 8.  Appuyez sur le bouton **Ajouter**.
 9.  La macro-commande apparaît dans le panneau de gauche.
 10. La macro-commande peut maintenant être sélectionnée dans l\'onglet [Barre d\'outils](#Barre_d'outils.md).
@@ -308,47 +265,17 @@ Vous pouvez également créer votre propre thème si vous n\'êtes pas satisfait
 
 ## Extensions
 
-Les extensions offrent une autre façon de personnaliser l\'interface d\'utilisation. Vous trouverez ci-dessous quelques extensions créées par les utilisateurs de la communauté FreeCAD. Elles peuvent être téléchargées via le <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [gestionnaire des extensions](Std_AddonMgr/fr.md) (remarque: elles sont répertoriées dans l\'onglet Ateliers).
+Les extensions du <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [gestionnaire des extensions](Std_AddonMgr/fr.md) offrent un autre moyen de personnaliser l\'interface utilisateur. Plusieurs [kits de preférences](Preference_Packs/fr.md) permettent de modifier le [thème](#Thèmes.md) sont disponibles.
 
+Dans la catégorie Ateliers du gestionnaire des extensions, certaines extensions de l\'utilisateur triplus peuvent être trouvées :
 
-
-### Menu Cube 
-
--   Dépôt Github : <https://github.com/triplus/CubeMenu>
-
-
-
-### Transparence
-
--   Dépôt Github : <https://github.com/triplus/Glass>.
-
-
-
-### Thèmes des icônes 
-
--   Dépôt Github : <https://github.com/triplus/IconThemes>
-
-
-
-### Lanceur
-
--   Dépôt Github: <https://github.com/triplus/Launcher>
-
-
-
-### Menu Camembert 
-
--   Dépôt Github : <https://github.com/triplus/PieMenu>
-
-### RemBench
-
--   Dépôt Github : <https://github.com/triplus/RemBench>
-
-
-
-### Raccourci
-
--   Dépôt Github : <https://github.com/triplus/ShortCuts>
+-   <https://github.com/triplus/CubeMenu> ({{VersionMinus/fr|0.20}})
+-   <https://github.com/triplus/Glass>.
+-   <https://github.com/triplus/IconThemes>
+-   <https://github.com/triplus/Launcher>
+-   <https://github.com/triplus/PieMenu>
+-   <https://github.com/triplus/RemBench>
+-   <https://github.com/triplus/ShortCuts>
 
 
 {{Top}}

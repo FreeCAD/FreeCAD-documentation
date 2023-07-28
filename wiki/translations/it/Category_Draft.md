@@ -23,21 +23,22 @@
 | [Draft PointLinkArray/it](Draft_PointLinkArray/it.md) | [Draft PolarArray/it](Draft_PolarArray/it.md) | [Draft Polygon/it](Draft_Polygon/it.md) |
 | [Draft Preferences/it](Draft_Preferences/it.md) | [Draft Rectangle/it](Draft_Rectangle/it.md) | [Draft Rotate/it](Draft_Rotate/it.md) |
 | [Draft Scale/it](Draft_Scale/it.md) | [Draft SelectGroup/it](Draft_SelectGroup/it.md) | [Draft SelectPlane/it](Draft_SelectPlane/it.md) |
-| [Draft Shape2DView/it](Draft_Shape2DView/it.md) | [Draft ShapeString/it](Draft_ShapeString/it.md) | [Draft ShowSnapBar/it](Draft_ShowSnapBar/it.md) |
-| [Draft Slope/it](Draft_Slope/it.md) | [Draft Snap Angle/it](Draft_Snap_Angle/it.md) | [Draft Snap Center/it](Draft_Snap_Center/it.md) |
-| [Draft Snap Dimensions/it](Draft_Snap_Dimensions/it.md) | [Draft Snap Endpoint/it](Draft_Snap_Endpoint/it.md) | [Draft Snap Extension/it](Draft_Snap_Extension/it.md) |
-| [Draft Snap Grid/it](Draft_Snap_Grid/it.md) | [Draft Snap Intersection/it](Draft_Snap_Intersection/it.md) | [Draft Snap Lock/it](Draft_Snap_Lock/it.md) |
-| [Draft Snap Midpoint/it](Draft_Snap_Midpoint/it.md) | [Draft Snap Near/it](Draft_Snap_Near/it.md) | [Draft Snap Ortho/it](Draft_Snap_Ortho/it.md) |
-| [Draft Snap Parallel/it](Draft_Snap_Parallel/it.md) | [Draft Snap Perpendicular/it](Draft_Snap_Perpendicular/it.md) | [Draft Snap Special/it](Draft_Snap_Special/it.md) |
-| [Draft Snap WorkingPlane/it](Draft_Snap_WorkingPlane/it.md) | [Draft Snap/it](Draft_Snap/it.md) | [Draft Split/it](Draft_Split/it.md) |
-| [Draft Stretch/it](Draft_Stretch/it.md) | [Draft SubelementHighlight/it](Draft_SubelementHighlight/it.md) | [Draft SVG/it](Draft_SVG/it.md) |
-| [Draft Text/it](Draft_Text/it.md) | [Draft ToggleConstructionMode/it](Draft_ToggleConstructionMode/it.md) | [Draft ToggleContinueMode/it](Draft_ToggleContinueMode/it.md) |
-| [Draft ToggleDisplayMode/it](Draft_ToggleDisplayMode/it.md) | [Draft ToggleGrid/it](Draft_ToggleGrid/it.md) | [Draft Tray/it](Draft_Tray/it.md) |
-| [Draft Trimex/it](Draft_Trimex/it.md) | [Draft tutorial/it](Draft_tutorial/it.md) | [Draft Upgrade/it](Draft_Upgrade/it.md) |
-| [Draft Wire/it](Draft_Wire/it.md) | [Draft WireToBSpline/it](Draft_WireToBSpline/it.md) | [Draft Workbench/it](Draft_Workbench/it.md) |
-| [Draft WorkingPlaneProxy/it](Draft_WorkingPlaneProxy/it.md) | [DXF/it](DXF/it.md) | [FreeCAD and DWG Import/it](FreeCAD_and_DWG_Import/it.md) |
-| [Macro FCCircularText/it](Macro_FCCircularText/it.md) | [Manual:Traditional 2D drafting/it](Manual_Traditional_2D_drafting/it.md) | [SVG/it](SVG/it.md) |
-| [Tutorial custom placing of windows and doors/it](Tutorial_custom_placing_of_windows_and_doors/it.md) | [Tutorial for open windows/it](Tutorial_for_open_windows/it.md) |
+| [Draft SetStyle/it](Draft_SetStyle/it.md) | [Draft Shape2DView/it](Draft_Shape2DView/it.md) | [Draft ShapeString/it](Draft_ShapeString/it.md) |
+| [Draft ShowSnapBar/it](Draft_ShowSnapBar/it.md) | [Draft Slope/it](Draft_Slope/it.md) | [Draft Snap Angle/it](Draft_Snap_Angle/it.md) |
+| [Draft Snap Center/it](Draft_Snap_Center/it.md) | [Draft Snap Dimensions/it](Draft_Snap_Dimensions/it.md) | [Draft Snap Endpoint/it](Draft_Snap_Endpoint/it.md) |
+| [Draft Snap Extension/it](Draft_Snap_Extension/it.md) | [Draft Snap Grid/it](Draft_Snap_Grid/it.md) | [Draft Snap Intersection/it](Draft_Snap_Intersection/it.md) |
+| [Draft Snap Lock/it](Draft_Snap_Lock/it.md) | [Draft Snap Midpoint/it](Draft_Snap_Midpoint/it.md) | [Draft Snap Near/it](Draft_Snap_Near/it.md) |
+| [Draft Snap Ortho/it](Draft_Snap_Ortho/it.md) | [Draft Snap Parallel/it](Draft_Snap_Parallel/it.md) | [Draft Snap Perpendicular/it](Draft_Snap_Perpendicular/it.md) |
+| [Draft Snap Special/it](Draft_Snap_Special/it.md) | [Draft Snap WorkingPlane/it](Draft_Snap_WorkingPlane/it.md) | [Draft Snap/it](Draft_Snap/it.md) |
+| [Draft Split/it](Draft_Split/it.md) | [Draft Stretch/it](Draft_Stretch/it.md) | [Draft SubelementHighlight/it](Draft_SubelementHighlight/it.md) |
+| [Draft SVG/it](Draft_SVG/it.md) | [Draft Text/it](Draft_Text/it.md) | [Draft ToggleConstructionMode/it](Draft_ToggleConstructionMode/it.md) |
+| [Draft ToggleContinueMode/it](Draft_ToggleContinueMode/it.md) | [Draft ToggleDisplayMode/it](Draft_ToggleDisplayMode/it.md) | [Draft ToggleGrid/it](Draft_ToggleGrid/it.md) |
+| [Draft Tray/it](Draft_Tray/it.md) | [Draft Trimex/it](Draft_Trimex/it.md) | [Draft tutorial/it](Draft_tutorial/it.md) |
+| [Draft Upgrade/it](Draft_Upgrade/it.md) | [Draft Wire/it](Draft_Wire/it.md) | [Draft WireToBSpline/it](Draft_WireToBSpline/it.md) |
+| [Draft Workbench/it](Draft_Workbench/it.md) | [Draft WorkingPlaneProxy/it](Draft_WorkingPlaneProxy/it.md) | [DXF/it](DXF/it.md) |
+| [FreeCAD and DWG Import/it](FreeCAD_and_DWG_Import/it.md) | [Macro FCCircularText/it](Macro_FCCircularText/it.md) | [Manual:Traditional 2D drafting/it](Manual_Traditional_2D_drafting/it.md) |
+| [SVG/it](SVG/it.md) | [Tutorial custom placing of windows and doors/it](Tutorial_custom_placing_of_windows_and_doors/it.md) | [Tutorial for open windows/it](Tutorial_for_open_windows/it.md) |
+|
 
 
 

@@ -25,7 +25,7 @@ Partie de bâtiment (BuildingPart) remplace les anciens [Arch Niveaux](Arch_Floo
 
 ### Remarques
 
-Les Partie de bâtiment ont un [Arch Plan de coupe](Arch_SectionPlane/fr.md) implicite intégré. {{Version/fr|0.19}}
+Les Parties de bâtiment ont un [Arch Plan de coupe](Arch_SectionPlane/fr.md) implicite intégré.
 
 Ce plan est toujours parallèle au plan de base du BuildingPart, mais vous pouvez spécifier le décalage entre eux. Ainsi, tous les outils qui fonctionnent avec un plan de coupe, tels que [Draft Vue 2D d\'une forme](Draft_Shape2DView/fr.md) et [TechDraw Vue Architecturale](TechDraw_ArchView/fr.md) fonctionnent également avec Parties de bâtiment.
 
@@ -33,11 +33,11 @@ Ce plan est toujours parallèle au plan de base du BuildingPart, mais vous pouve
 
 -   Après avoir créé une Partie de bâtiment, vous pouvez ajouter d\'autres objets à celui-ci en les faisant glisser dans la vue en arborescence ou en utilisant l\'outil **<img src="images/Arch_Add.svg" width=16px> [Arch Ajouter](Arch_Add/fr.md)**.
 -   Vous pouvez supprimer des objets d\'une Partie de bâtiment en les faisant glisser dans l\'arborescence ou en utilisant l\'outil **<img src="images/Arch_Remove.svg" width=16px> [Arch Soustraire](Arch_Remove/fr.md)**.
--   En double-cliquant sur l\'objet Partie de bâtiment dans la vue arborescente, le [Draft Plan de travail](Draft_SelectPlane/fr.md) sera défini sur son emplacement et la Partie de bâtiment deviendra active, ce qui signifie que de nouveaux objets lui seront automatiquement ajoutés. Double-cliquez à nouveau sur la Partie de bâtiment pour la désactiver et ramener le plan de travail à sa position précédente. (dans la version 0.19, pour être disponible, cette option doit être définie sur true, dans le panneau Propriété - Interaction - Double-cliquer pour active).
+-   En double-cliquant sur l\'objet Partie de bâtiment dans la vue arborescente, le [Draft Plan de travail](Draft_SelectPlane/fr.md) sera défini sur son emplacement et la Partie de bâtiment deviendra active, ce qui signifie que de nouveaux objets lui seront automatiquement ajoutés. Double-cliquez à nouveau sur la Partie de bâtiment pour la désactiver et ramener le plan de travail à sa position précédente. (pour être disponible, cette option doit être définie sur true, dans le panneau Propriété - Interaction - Double-cliquer pour active).
 -   La Partie de bâtiment peut afficher une marque dans la vue 3D avec une étiquette et une indication de niveau.
 -   Lorsqu\'un élément Partie de bâtiment est déplacé/pivoté, tous ses enfants qui ne possèdent pas de propriété **Move With Host** ou qui l\'ont activé sont déplacés/pivotés ensemble.
 -   Les Parties de bâtiment peuvent être [Draft Clonées](Draft_Clone/fr.md).
--   Les Parties de bâtiment peuvent prendre n'importe quel type d'IFC. Leur propriété **IFC Type** détermine son utilisation. Si vous la définissez sur **Building Storey**, ce sera comme un niveau. Si vous la définissez sur **Building**, ce sera comme un bâtiment et si vous la définissez sur **Element Assembly**, ce sera comme un assemblage. Son icône changera pour refléter ce paramètre mais à part cela, cela n'a aucun autre impact dans FreeCAD. Toutefois, le fait d\'être exporté vers IFC sous un type ou un autre peut avoir un impact sur d\'autres applications BIM.
+-   Les Parties de bâtiment peuvent prendre n'importe quel type d'IFC. Leur propriété **IFC Type** détermine leur utilisation. Si vous la définissez sur **Building Storey**, ce sera comme un niveau. Si vous la définissez sur **Building**, ce sera comme un bâtiment et si vous la définissez sur **Element Assembly**, ce sera comme un assemblage. Son icône changera pour refléter ce paramètre mais à part cela, cela n'a aucun autre impact dans FreeCAD. Toutefois, le fait d\'être exporté vers IFC sous un type ou un autre peut avoir un impact sur d\'autres applications BIM.
 -   Les Parties de bâtiment permettent de définir une **boîte de capture de groupe automatique**. Les objets Draft et Arch suivants, ou tout autre objet qui utilise Draft.autogroup(), seront automatiquement ajoutés à cet objet Partie de bâtiment s\'ils se trouvent entièrement à l\'intérieur de la boîte de capture. {{Version/fr|0.20}}
 
 

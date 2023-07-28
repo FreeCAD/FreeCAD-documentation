@@ -8,6 +8,8 @@
    Files:nessuno
 }}
 
+
+
 ## Introduzione
 
 This tutorial shows how to place custom designed [Arch Windows](Arch_Window.md) and [Arch Doors](Arch_Door.md) in a building model. It uses the [Draft Workbench](Draft_Workbench.md), the [Arch Workbench](Arch_Workbench.md), and the [Sketcher Workbench](Sketcher_Workbench.md).
@@ -103,7 +105,7 @@ w = Draft.makeWire(p, closed=False)
 
 
 :   
-    **Note:**the `Sill height` is the distance from the floor to the lower edge of the element. For doors the `Sill height` is usually 0 m as doors are normally touching the floor; on the other hand, windows have a usual separation of 0.5 m to 1.5 m from the floor. The `Sill height` can only be set when initially creating the window or door from a preset. Once the window or door is inserted, modify its placement by editing the **Position** vector `[x, y, z]` of the underlying [Sketcher Sketch](Sketcher_Sketch.md).
+    **Note:**the `Sill height` is the distance from the floor to the lower edge of the element. For doors the `Sill height` is usually 0 m as doors are normally touching the floor; on the other hand, windows have a usual separation of 0.5 m to 1.5 m from the floor. The `Sill height` can only be set when initially creating the window or door from a preset. Once the window or door is inserted, modify its placement by editing the **Position** vector `[x, y, z]` of the underlying [Sketcher Sketch](Sketcher_Workbench.md).
 
 ## Creating custom doors and windows 
 
@@ -346,11 +348,11 @@ abs(N) = 1 = sqrt(sin^2(angle) + cos^2(angle) + z^2)
 ```
 
 
-{{Tutorials navi
+{{Arch Tools navi
 
-}}   {{Sketcher Tools navi}}
+}}  {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > Tutorial custom placing of windows and doors/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > Tutorial custom placing of windows and doors/it

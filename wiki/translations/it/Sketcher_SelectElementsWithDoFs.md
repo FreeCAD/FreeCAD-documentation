@@ -12,9 +12,13 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Questo strumento ha lo scopo di aiutare a vincolare completamente uno schizzo evidenziando in verde gli elementi dello schizzo con residui gradi di libertà (DoF).
+
+
 
 ## Utilizzo
 

@@ -10,18 +10,22 @@
 
 # Sketcher External/pl
 
+
+
 ## Opis
 
-Użyj narzędzia**<img src="images/Sketcher_External.svg" width=16px> [Geometria zewnętrzna](Sketcher_External/pl.md)** kiedy musisz zastosować wiązanie pomiędzy geometrią szkicu a czymś na zewnątrz szkicu. To działa przez wstawienie do szkicu połączonej geometrii konstrukcyjnej. Domyślny kolor połączonych zewnętrznych krawędzi to magenta. Tak samo jak w przypadku standardowych, niepołączonej geometrii konstrukcyjnej *(niebieska)*, zewnętrznie połączona geometria jest widoczna tylko gdy szkic jest w trybie edycji i nie jest bezpośrednio wykorzystywana w późniejszym użyciu gotowego szkicu w innym narzędziu. Oba typy geometrii konstrukcyjnej mogą być używane jako odniesienie dla wiązań w szkicu.
+Użyj narzędzia**<img src="images/Sketcher_External.svg" width=16px> '''Geometria zewnętrzna'''** kiedy musisz zastosować wiązanie pomiędzy geometrią szkicu a czymś na zewnątrz szkicu. To działa przez wstawienie do szkicu połączonej geometrii konstrukcyjnej. Domyślny kolor połączonych zewnętrznych krawędzi to magenta. Tak samo jak w przypadku standardowych, niepołączonej geometrii konstrukcyjnej *(niebieska)*, zewnętrznie połączona geometria jest widoczna tylko gdy szkic jest w trybie edycji i nie jest bezpośrednio wykorzystywana w późniejszym użyciu gotowego szkicu w innym narzędziu. Oba typy geometrii konstrukcyjnej mogą być używane jako odniesienie dla wiązań w szkicu.
 
 Ostrzeżenie: użycie tego narzędzia do łączenia z wygenerowaną geometrią *(bryłą)* może prowadzić do nieoczekiwanych wyników z powodu [Problemu nazewnictwa topologicznego](Topological_naming_problem/pl.md). Zobacz również [Porady dotyczące tworzenia stabilnych modeli](Feature_editing/pl#Porady_dotycz.C4.85ce_tworzenia_stabilnych_modeli.md).
 
 <FILE:Sketcher_ExternalEsempio1.png>
 
+
+
 ## Użycie
 
 -   Utwórz nowy szkic lub otwórz istniejący szkic.
--   Kliknij przycisk **[<img src=images/Sketcher_External.svg style="width:16px"> [Geometria zewnętrzna](Sketcher_External/pl.md)**.
+-   Kliknij przycisk **[<img src=images/Sketcher_External.svg style="width:16px"> '''Geometria zewnętrzna'''**.
 -   Wybierz krawędź lub wierzchołek, do którego chcesz łączyć w szkicu.
 -   Naciśnij klawisz **Esc** lub wybierz inne narzędzie, aby zatrzymać importowanie geometrii do szkicu.
 
@@ -47,15 +51,21 @@ Gdy krawędź zostanie pomyślnie połączona, zostanie na nią nałożona linia
 
 Linie geometrii zewnętrznej *(domyślnie w kolorze magenta)* są podobne *(domyślny kolor niebieski)* do [linii konstrukcyjnych](Sketcher_ToggleConstruction/pl.md) z tą różnicą, że linie geometrii zewnętrznej w kolorze magenta są parametrycznie połączone z elementem bryły, na której szkic jest mapowany. Geometria konstrukcyjna stanowi linie, które są liniami wewnętrznymi w szkicu i są widoczne tylko wtedy, gdy szkic znajduje się w trybie edycji, i będą używane tylko jako referencje wiązań, a nie bezpośrednio do późniejszych operacji na bryłach, takich jak Wyciągnięcie czy Kieszeń.
 
+
+
 ### Użycie Geometrii Zewnętrznej podczas pracy w Środowisku Projekt Części 
 
 Podczas pracy w środowisku Projekt Części, narzędzie Geometria Zewnętrzna jest używane do pomocy w pozycjonowaniu konstruowanej bryły w stosunku do poprzedniego etapu jej budowy. Środowisko Projekt Części jest przeznaczone do tworzenia pojedynczej bryły, dlatego te szkice w połączeniu z geometrią zewnętrzną są używane do tworzenia nowych cech tej samej bryły.
 
 Geometria zewnętrzna może być na przykład użyta jako odniesienie dla wiązania używanego w celu umieszczenia otworu na obiekcie w określonym miejscu względem krawędzi lub wierzchołka tego obiektu.
 
+
+
 ### Użycie Geometrii Zewnętrznej podczas pracy w Środowisku Część 
 
 Można użyć dowolnej geometrii środowiska Część, która znajduje się w układzie współrzędnych szkicu. Zaleca się łączenie z najwcześniejszą możliwą cechą, ponieważ tworzy to bardziej stabilne połączenie.
+
+
 
 ## Przykład
 

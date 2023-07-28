@@ -123,6 +123,8 @@ FreeCAD supports the export of SVG and PDF files based on your **Drawings**
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Recommended Reading 
@@ -134,9 +136,11 @@ FreeCAD supports the export of SVG and PDF files based on your **Drawings**
 -   For more information about the tools available check out the [Drawing Workbench](Drawing_Workbench.md) page
 
 
- {{Drawing Tools navi}}
+{{Drawing Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Drawing](Category_Drawing.md) > Drawing tutorial/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing tutorial/ro

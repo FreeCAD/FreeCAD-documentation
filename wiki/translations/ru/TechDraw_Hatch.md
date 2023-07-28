@@ -9,9 +9,14 @@
 
 # TechDraw Hatch/ru
 
+
+</div>
+
+
+
 ## Описание
 
-The <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> **TechDraw Hatch** tool fills a closed region in a View with a tiled [SVG](SVG.md) or bitmap (<small>(v1.0)</small> ) based hatch pattern. Alternatively the <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:16px;"> [TechDraw GeometricHatch](TechDraw_GeometricHatch.md) tool uses PAT based hatch patterns. See [Hatching](TechDraw_Hatching.md) for details.
+The **TechDraw Hatch** tool fills a closed region in a View with a tiled [SVG](SVG.md) or bitmap (<small>(v0.21)</small> ) based hatch pattern. Alternatively the <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:16px;"> [TechDraw GeometricHatch](TechDraw_GeometricHatch.md) tool uses PAT based hatch patterns. See [Hatching](TechDraw_Hatching.md) for details.
 
 <img alt="" src=images/TechDraw_Hatch_example.png  style="width:300px;">
 
@@ -19,16 +24,20 @@ The <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> **TechDraw H
 
 *SVG hatch pattern on a face*
 
+
+
 ## Применение
 
 1.  Select a closed region in a View.
 2.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_Hatch.svg" width=16px> [TechDraw Hatch](TechDraw_Hatch.md)** button.
-    -   Select the **TechDraw → <img src="images/TechDraw_Hatch.svg" width=16px> Hatch a Face using Image File** option from the menu.
+    -   Select the **TechDraw → Hatching → <img src="images/TechDraw_Hatch.svg" width=16px> Hatch a Face using Image File** option from the menu.
 3.  The **Apply Hatch to Face** task panel opens.
 4.  Optionally change the **Pattern File**.
 5.  Optionally change the **Pattern Scale** and the **Line Color**. These settings are ignored for bitmap patterns.
 6.  Press the **OK** button.
+
+
 
 ## Примечания
 
@@ -55,6 +64,8 @@ The <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> **TechDraw H
 
 :   They are also available on [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
 
+
+
 ## Свойства
 
 -    **Source**: The View and Face to receive the hatch pattern.
@@ -65,6 +76,8 @@ The <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> **TechDraw H
 
 -    **Hatch Scale**: Hatch pattern size modifier.
 
+
+
 ## Программирование
 
 
@@ -72,14 +85,14 @@ The <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> **TechDraw H
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The Hatch tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+A Hatch can be created with [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 
 
 ```python
-hatch = FreeCAD.ActiveDocument.addObject('TechDraw::DrawHatch','Hatch')
-hatch.Source = (view1,["Face0"])
+hatch = FreeCAD.ActiveDocument.addObject("TechDraw::DrawHatch", "Hatch")
+hatch.Source = (view1, ["Face0"])
 hatch.HatchPattern = hatchFileSpec
-rc = page.addView(hatch)
+page.addView(hatch)
 ```
 
 

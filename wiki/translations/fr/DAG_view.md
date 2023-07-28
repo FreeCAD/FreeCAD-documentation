@@ -8,6 +8,8 @@ La [Vue DAG](DAG_view/fr.md) signifie [Directed Acyclic Graph (Graphe orienté a
 
 La vue DAG ressemble au graphe qui peut être produit à partir d'un référentiel Git et de ses branches. Associée à la [vue en arborescence](tree_view/fr.md) et au [Graphique de dépendance](Std_DependencyGraph/fr.md), la vue DAG est un outil permettant d\'inspecter l\'historique paramétrique des objets d\'un document.
 
+
+
 ## Exemple
 
 Un modèle simple sera vu avec différentes vues.
@@ -19,13 +21,15 @@ Un modèle simple sera vu avec différentes vues.
 
 
 
-*A gauche: objets affichés dans la [vue en arborescence](tree_view.md) standard. A droite: objets affichés dans la vue DAG.*
+*À gauche : objets affichés dans la [vue en arborescence](tree_view.md) standard. À droite : objets affichés dans la vue DAG.*
 
 ![](images/FreeCAD_DAG_view_Std_DependencyGraph.png )
 
 
 
 *Relations entre les objets affichés dans le [Graphique de dépendance](Std_DependencyGraph/fr.md).*
+
+
 
 ## Activation de la vue DAG 
 
@@ -55,9 +59,11 @@ Dans l\'[Editeur des paramètres](Std_DlgParameter/fr.md), vous pouvez égalemen
     -   1 - enfant en haut, parent en dessous
     -   -1 - parent en haut, enfants en dessous
 
+
+
 ## Liens
 
-See also:
+Voir aussi :
 
 -   [DAGView](https://forum.freecadweb.org/viewtopic.php?f=20&t=11276), fil de discussion présentant le nouvel outil.
 -   [easter egg of PartDesign Next: DAG View](https://forum.freecadweb.org/viewtopic.php?f=20&t=15375), y compris la vue avec la mise à jour de PartDesign.

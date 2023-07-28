@@ -1,29 +1,34 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Part CompJoinFeatures
-   MenuLocation:Part → Join
-   Workbenches:[Part](Part_Workbench.md)
+   Name/pl:Część: Połącz obiekty
+   MenuLocation:Część → Połącz
+   Workbenches:[Część](Part_Workbench/pl.md)
    Version:0.16
-   SeeAlso:[Part JoinConnect](Part_JoinConnect.md), [Part JoinEmbed](Part_JoinEmbed.md), [Part JoinCutout](Part_JoinCutout.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)
+   SeeAlso:[Połącz obiekty](Part_JoinConnect/pl.md), [Osadź obiekty](Part_JoinEmbed/pl.md), [Wycięcie dla obiektu](Part_JoinCutout/pl.md), [Operacja logiczna](Part_Boolean/pl.md), [Grubość](Part_Thickness/pl.md)
 ---
 
 # Part CompJoinFeatures/pl
 
-## Description
 
-This command is a dropdown toolbar button containing all the Join tools. See individual tool pages for more info.
 
-## Tools
+## Opis
 
--   <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> [Connect](Part_JoinConnect.md): connects interiors of two walled objects (e.g., pipes). It can also join shells and wires.
--   <img alt="" src=images/Part_JoinEmbed.svg  style="width:24px;"> [Embed](Part_JoinEmbed.md): embeds a walled object (e.g., a pipe) into another walled object.
--   <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Cutout](Part_JoinCutout.md): creates a cutout in a walled object (e.g., a pipe) to fit another walled object.
+To polecenie jest rozwijanym przyciskiem paska narzędzi zawierającym wszystkie narzędzia połączenia. Więcej informacji można znaleźć na stronach poszczególnych narzędzi.
+
+
+
+## Narzędzia
+
+-   <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> [Połącz obiekty](Part_JoinConnect/pl.md): łączy wnętrza dwóch obiektów ze ściankami *(np. rur)*. Może również łączyć powłoki i linie.
+-   <img alt="" src=images/Part_JoinEmbed.svg  style="width:24px;"> [Osadź obiekt](Part_JoinEmbed/pl.md): osadza obiekt ze ściankami *(np. rurę)* w innym obiekcie ze ściankami.
+-   <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Wycięcie dla obiektu](Part_JoinCutout/pl.md): tworzy wycięcie w obiekcie ze ściankami *(np. rurze)*, aby dopasować je do innego obiektu ze ściankami.
 
 ![](images/JoinFeatures_dropdownToolbarButton.png ) 
-*Dropdown menu of the different Join Features within the [[interface]]*
+*Rozwijane menu różnych funkcji dołączania w ramach [Interfejsu użytkownika](Interface/pl.md).*
 
 <img alt="" src=images/JoinFeatures_demo.png  style="width:668px;"> 
-*Above: showing the result of each tool available*
+*Powyżej: pokazuje wynik działania każdego dostępnego narzędzia*
 
 
 

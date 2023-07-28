@@ -2,28 +2,29 @@
 - GuiCommand:/de
    Name:FEM CompPostCreateFunctions
    Name/de:FEM NachbereitungFunktionenErstellen
-   MenuLocation:Ergebnisse → Filterfunktionen
+   MenuLocation:
    Workbenches:[FEM](FEM_Workbench/de.md)
-   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
+   SeeAlso:
 ---
 
 # FEM PostCreateFunctions/de
 
 
-</div>
-
-
 
 ## Beschreibung
 
-**FEM CompPostCreateFunctions** is an icon button in the FEM Results toolbar that groups tools to create functions for the result filters <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:16px;"> [PostFilterCutFunction](FEM_PostFilterCutFunction.md) and <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:16px;"> [PostFilterClipRegion](FEM_PostFilterClipRegion.md), that define how the mesh is cut geometrically. Click on the down arrow to its right to expand the icons below it and select a tool.
+**FEM PostCreateFunctions** (Filterfunktionen) ist eine Symbolschaltfläche in der Werkzeugleiste FEM Results, die Werkzeuge zur Erstellung der Ergebnisfilter <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:16px;"> [NachbereitungFilterSchnittebene](FEM_PostFilterCutFunction/de.md) und <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:16px;"> [NachbereitungFilterSchnittbereich](FEM_PostFilterClipRegion/de.md) gruppiert, die geometrisch festlegen, wie ein Netz geschnitten wird. Klicke auf den Abwärtspfeil rechts daneben, um die Symbole darunter zu erweitern und ein Werkzeug auszuwählen.
 
-## Types
 
-You can choose these functions:
 
--   <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> [FEM PostCreateFunctionPlane](FEM_PostCreateFunctionPlane.md)
--   <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:24px;"> [FEM PostCreateFunctionSphere](FEM_PostCreateFunctionSphere.md).
+## Filterfunktionen
+
+Es stehen diese Funktionen zur Auswahl:
+
+-   <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> [NachbereitungFunktionEbene](FEM_PostCreateFunctionPlane/de.md)
+-   <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:24px;"> [NachbereitungFunktionKugel](FEM_PostCreateFunctionSphere/de.md)
+-   <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:24px;"> [NachbereitungFunktionZylinder](FEM_PostCreateFunctionCylinder/de.md)
+-   <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:24px;"> [NachbereitungFunktionQuader](FEM_PostCreateFunctionBox/de.md)
 
 
 

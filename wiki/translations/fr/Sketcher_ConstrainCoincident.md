@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainCoincident
    Name/fr:Sketcher Contrainte de coïncidence
-   MenuLocation:Sketch → Contraintes d'esquisse → Contrainte coïncidente
+   MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte coïncidente
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**C**
    SeeAlso:[Sketcher Contrainte fixe](Sketcher_ConstrainLock/fr.md), [Sketcher Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md)
@@ -12,7 +12,9 @@
 
 ## Description
 
-Associe un point à (coïncider avec) un ou plusieurs autres points. {{Version/fr|1.0}} : cela agit comme une contrainte concentrique si deux ou plusieurs cercles, arcs, ellipses ou arcs d\'ellipses sont sélectionnés.
+Associe un point à (coïncider avec) un ou plusieurs autres points. {{Version/fr|0.21}} : agit comme une contrainte concentrique si deux ou plusieurs cercles, arcs, ellipses ou arcs d\'ellipses sont sélectionnés.
+
+
 
 ## Utilisation
 
@@ -24,6 +26,8 @@ Associe un point à (coïncider avec) un ou plusieurs autres points. {{Version/f
     -   Utilisez le raccourci clavier **C**.
     -   Utilisez l\'entrée **Esquisse → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> Contrainte coïncidente** dans le menu supérieur.
 
+
+
 ## Alternatives à la contrainte de coïncidence 
 
 Les deux éléments contraints d\'une contrainte [Coincidente](Sketcher_ConstrainCoincident/fr.md) doivent être des points de départ ou des sommets de point finaux, ou des points centraux d\'arcs, de cercles ou d\'ellipses. Certaines combinaisons qui ne sont pas possibles avec une contrainte coïncidente peuvent être émulées à l\'aide d\'autres contraintes:
@@ -34,6 +38,8 @@ Les deux éléments contraints d\'une contrainte [Coincidente](Sketcher_Constrai
 -   Un placement colinéaire de deux lignes droites peut être obtenu en leur appliquant une contrainte <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> [Tangente](Sketcher_ConstrainTangent/fr.md), ou en combinant une <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md) et une contrainte <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> [Parallèle](Sketcher_ConstrainParallel/fr.md).
 -   Deux arêtes peuvent être rendues identiques en utilisant deux contraintes de <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Coincidence](Sketcher_ConstrainCoincident/fr.md), une pour chaque paire d\'extrémités.
 -   Deux cercles peuvent être rendus identiques en utilisant une contrainte <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Coincidence](Sketcher_ConstrainCoincident/fr.md) pour fusionner les centres, et en appliquant une contrainte <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> [Egalité](Sketcher_ConstrainEqual/fr.md) à leurs bords. Pour les arcs, cela garantira que les deux arcs font partie du même cercle, tout en leur permettant d\'avoir des points de départ et d\'arrivée différents.
+
+
 
 ## Script
 

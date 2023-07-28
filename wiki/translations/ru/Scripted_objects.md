@@ -1,6 +1,8 @@
 # Scripted objects/ru
 {{TOCright}}
 
+
+
 ## Введение
 
 Кроме стандартных типов объектов, таких как аннотации, полигональные сетки и детали, FreeCAD также предлагает удивительную возможность создавать параметрические объекты, 100% написанные на Python, такие объекты называются ([Python Features](App_FeaturePython/ru.md)). Они ведут себя точно так же, как любой другой объект FreeCAD, автоматически сохраняются и восстанавливаются при сохранении или загрузке файла.
@@ -16,6 +18,8 @@
 **Примечание**: Имеется возможность упаковки python кода внутрь FreeCAD файла, используя json сериализацию с помощью App::PropertyPythonObject, но этот код в конечном счете нельзя будет запустить напрямую, поэтому это мало подходит для наших целей.
 
 [Python Features](App_FeaturePython/ru.md) следуют тому же правилу что и все остальные FreeCAD features: они разделены на App и GUI части. App часть, Объект Документ (Document Object), определяет геометрию нашего объекта, тогда как его GUI часть, Объект Визуального Представления (View Provider Object) определяет, как объект будет отображаться на экране. Объект View Provider, как и любая другая FreeCAD feature, доступен только при запуске FreeCAD в его собственном графическом интерфейсе. Существует несколько свойств и методов, доступных для создания вашего объекта. Свойства должны принадлежать к любому из предопределенных типов свойств, предлагаемых FreeCAD, и отображаться в окне просмотра свойств, чтобы пользователь мог их редактировать. Таким образом, объекты Feature Python полностью параметричны. Вы можете задать свойства как Данных, так и свойства Вида.
+
+
 
 ## Простой пример 
 
@@ -154,6 +158,8 @@ def makeBox():
 makeBox()
 ```
 
+
+
 ### Что необходимо отметить 
 
 Если Ваш объект полагается на то, что будет пересчитан во время создания, Вы должны сделать это вручную в функции `__init__`, поскольку пересчёт не вызывается автоматически. Этот пример не требует этого поскольку метод `onChanged` класса `Box` имеет тот же эффект, что и функция `execute`, но пример ниже полагается на то, что будет пересчитан перед тем как будет показан в окне трёхмерного просмотра. В этих примерах это делается вручную с помощью `ActiveDocument.recompute()`, но в более сложных сценариях Вы должны решить, где пересчитать либо весь документ, или объект FeaturePython.
@@ -162,9 +168,13 @@ makeBox()
 
 Описание `__getstate__` и `__setstate__` находится в теме форума [obj.Proxy.Type is a dict, not a string](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009&start=10#p377892).
 
+
+
 ## Доступные методы 
 
 Полное описание доступно на странице [методы FeaturePython](FeaturePython_methods/ru.md).
+
+
 
 ## Доступные свойства 
 
@@ -278,6 +288,8 @@ obj.supportedProperties()
 prop = (value, lower, upper, stepsize)
 ```
 
+
+
 ## Типы свойств 
 
 По умолчанию свойства могут быть обновлены. Имеется возможность сделать свойство только для чтения (read-only), например, в случае если требуется отображать только результат выполнения метода. Также возможно создать скрытое (hidden) свойство. Сам же тип свойства можно задать с помощью:
@@ -312,8 +324,11 @@ The property types that can be set at last parameter of the addProperty function
  4 -- Prop_Hidden, Property won't appear in the editor
  8 -- Prop_Output, Modified property doesn't touch its parent container
  16 -- Prop_NoRecompute, Modified property doesn't touch its container for recompute
+ 32 -- Prop_NoPersist, Property won't be saved to file at all
 
 Вы можете найти эти различные типы свойств, определённые в [заголовочном файле PropertyContainer исходного кода C++](https://github.com/FreeCAD/FreeCAD/blob/master/src/App/PropertyContainer.h).
+
+
 
 ## Другой более сложный пример 
 
@@ -518,6 +533,8 @@ Octahedron(a)
 ViewProviderOctahedron(a.ViewObject)
 ```
 
+
+
 ## Создание выделяемых объектов 
 
 Если вы хотите чтобы ваш объект можно было выбрать, или по крайней мере его часть, щелкнув по нему в окне, вы должны включить его Coin геометрию внутрь узла SoFCSelection. Если ваш объект обладает сложным представлением, с виджетами, аннотациями, и т.д, вам может потребоваться только часть его в SoFCSelection. Всё, что находится в SoFCSelection постоянно сканируется FreeCAD для обнаружения выделения/предварительного отбора, так что имеет смысл попробовать не перегружать его ненужным сканированием.
@@ -622,6 +639,8 @@ def makeMolecule():
     FreeCAD.ActiveDocument.recompute()
 ```
 
+
+
 ## Работа с простыми формами 
 
 Если ваш параметрический объект - это просто геометрическая форма, то вам не нужно использовать view provider объект. Форма будет отображаться стандартными способами представления форм FreeCAD:
@@ -683,6 +702,8 @@ Line(a)
 ViewProviderLine(a.ViewObject)
 App.ActiveDocument.recompute()
 ```
+
+
 
 ## Структура графа сцены 
 
@@ -868,6 +889,8 @@ def makeMolecule():
 a,b = makeMolecule()
 ```
 
+
+
 ## Программируемый объект Part Design 
 
 When making scripted objects in Part Design the process is similar to the scripted objects discussed above, but with a few additional considerations. We must handle 2 shape properties, one for the shape we see in the 3D view and another for the shape used by the pattern tools, such as polar pattern features. The object shapes also needs to be fused to any existing material already in the Body (or cut from it in the case of Subtractive features). And we must account for the placement and attachment of our objects a little bit differently.
@@ -1047,6 +1070,8 @@ else:
         pdtube.PDTubeVP(tube.ViewObject)
         body.addObject(tube) #optionally we can also use body.insertObject() for placing at particular place in tree
 ```
+
+
 
 ## Дополнительная информация 
 

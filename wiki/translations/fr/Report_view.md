@@ -14,7 +14,7 @@ Certaines propriétés de la vue, telles que la couleur du texte et son affichag
 ## Messages
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [Console API](Console_API/fr.md) et [Débuter avec les scripts sous Freecad](FreeCAD_Scripting_Basics/fr.md).
 
@@ -34,7 +34,7 @@ Ces fonctions peuvent être utilisées à partir de la [console Python](Python_c
 
 
 
-*Exemples de messages dans la vue rapport: un message général, un avertissement, une erreur et un message enregistré.*
+*Exemples de messages dans la vue rapport : un message général, un avertissement, une erreur et un message enregistré.*
 
 ## Actions
 

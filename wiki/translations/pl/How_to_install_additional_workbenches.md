@@ -14,55 +14,63 @@
 
 
 
-## Description
-
-Power users have extended FreeCAD with various custom [external workbenches](external_workbenches.md) that are not integrated into the core source code but are easy to install on an existing FreeCAD distribution. Here we will cover the installation methods for the different operating systems.
 
 
-**Note:**
+## Opis
 
-starting from version 0.17, FreeCAD features an <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) in the **Tools → Addon Manager** menu, that allows installing both macros and workbenches. The instructions below are only required if you wish to manually install a workbench. This may be necessary if for some reason the Addon Manager doesn\'t work but you have access to the workbench downloaded as a **.zip** package.
+Zaawansowani użytkownicy rozszerzyli FreeCAD o różne niestandardowe [zewnętrzne środowiska](External_workbenches/pl.md) pracy, które nie są zintegrowane z podstawowym kodem źródłowym, ale są łatwe do zainstalowania na istniejącej dystrybucji FreeCAD. Tutaj omówimy metody instalacji dla różnych systemów operacyjnych.
+
+
+**Uwaga:**
+
+Począwszy od wersji 0.17, FreeCAD posiada <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżer dodatków](Std_AddonMgr.md) w menu **Przybory → Menadżer dodatków**, który umożliwia instalację zarówno makrodefinicji, jak i środowisk pracy. Poniższe instrukcje są wymagane tylko wtedy, gdy chcesz zainstalować środowisko pracy samodzielnie. Może to być konieczne, jeśli z jakiegoś powodu Menedżer dodatków nie działa, ale masz dostęp do środowiska roboczego pobranego jako pakiet **.zip**.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-## Installing on Windows 
 
-How to install additional workbenches and addons on Windows
+
+## Instalacja w środowisku Windows 
+
+Jak zainstalować dodatkowe środowiska pracy i dodatki w systemie Windows
 
 
 <div class="mw-collapsible-content">
 
-### Obsolete
 
 
-**Note:**
-
-using the \"addons-installer\" is not recommended any more. Using the [Addon Manager](Std_AddonMgr.md) in all systems is the recommended way.
-
-Use the [addons-installer from Github](https://github.com/FreeCAD/FreeCAD-addons).
-
-During Google Summer of Code 2016 student Mandeep Singh started work on an improved version ([available here](https://github.com/mandeeps708/PluginManager)) but that version needs further work before it can be fully integrated in FreeCAD.
-
-### Manual Install 
+### Przestarzałe
 
 
-**Note:**
+**Uwaga:**
 
-This method is possible but not necessary with the introduction of the [Addon Manager](Std_AddonMgr.md). Nevertheless, the information here may still be useful to some.
+Używanie {{Incode|addons-installer}} nie jest już zalecane. Zalecanym sposobem jest instalacja przez [Menadżera dodatków](Std_AddonMgr/pl.md) we wszystkich systemach.
 
--   Download the workbench from github by clicking on the button **Clone** or **Download** on the github page (upper right corner) and choosing \"Download ZIP\"
--   Unpack the downloaded archive on your local hard disk
--   Within FreeCAD, locate the macro path by choosing **Edit → Preferences → General → Macro** and look for the "Macro path"
--   Supposed your Windows-Login is "*username*" the default macro path is **%APPDATA%\FreeCAD\** which is usually **C:\Users\''username''\Appdata\Roaming\FreeCAD**
--   Within the macro-directory create (if not already present) a folder called "**Mod**"
--   Within the Mod folder, create a folder with the name of the workbench, for example "Curves"
--   Now move the unpacked files and sub-folders of the workbench to the just created workbench-folder
--   After restart of FreeCAD you should now have an entry in the [workbench selector](Std_Workbench.md)
+Użyj [addons-installer z Github](https://github.com/FreeCAD/FreeCAD-addons).
 
-**Additional Recommendation for updating workbenches**
+Podczas Google Summer of Code 2016 student Mandeep Singh rozpoczął pracę nad ulepszoną wersją ([dostępne tutaj](https://github.com/mandeeps708/PluginManager)), ale ta wersja wymaga dalszych prac, zanim będzie mogła zostać w pełni zintegrowana z FreeCAD.
 
-On windows, when updating an already installed workbench, Windows keeps the old .py files as .pyc. Since this may lead to trouble, it is recommended to uninstall the workbench, restart FreeCAD and install the new version of the workbench.
+
+
+### Instalacja samodzielna 
+
+
+**Uwaga:**
+
+Ta metoda jest możliwa, ale nie jest konieczna po wprowadzeniu [Menadżera dodatków](Std_AddonMgr/pl.md). Niemniej jednak, informacje tutaj zawarte mogą być nadal przydatne dla niektórych.
+
+-   Pobierz środowisko pracy z GitHub, klikając przycisk **Klonuj** lub **Pobierz** na stronie GitHub *(prawy górny róg)* i wybierając \"Pobierz ZIP\".
+-   Rozpakuj pobrane archiwum na lokalnym dysku twardym.
+-   W programie FreeCAD zlokalizuj ścieżkę makra, wybierając **Edycja → Preferencje → Python → Makropolecenia** i poszukaj pozycji *Ścieżka do plików makrodefinicji*.
+-   Domyślna ścieżka makrodefinicji to **%APPDATA%\FreeCAD**, którą zwykle jest **C:\Users\\'username''\Appdata\Roaming\FreeCAD**.
+-   W katalogu makr utwórz *(jeśli jeszcze nie istnieje)* folder o nazwie \"**Mod**\".
+-   W folderze Mod utwórz folder z nazwą środowiska pracy, na przykład \"Curves\".
+-   Teraz przenieś rozpakowane pliki i podfoldery środowiska pracy do właśnie utworzonego folderu środowiska pracy.
+-   Po ponownym uruchomieniu FreeCAD powinieneś mieć teraz wpis w okienku wyboru [środowiska pracy](Std_Workbench/pl.md).
+
+**Dodatkowe zalecenia dotyczące aktualizacji środowisk pracy**
+
+W systemie Windows, podczas aktualizacji już zainstalowanego środowiska pracy, system zachowuje stare pliki **.py** jako **.pyc**. Ponieważ może to prowadzić do problemów, zaleca się odinstalowanie środowiska pracy, ponowne uruchomienie FreeCAD i zainstalowanie nowej wersji środowiska pracy.
 
 
 </div>
@@ -73,17 +81,21 @@ On windows, when updating an already installed workbench, Windows keeps the old 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-## Installing on Linux 
 
-How to install additional workbenches and addons on Linux
+
+## Instalacja w środowisku Linux 
+
+Jak zainstalować dodatkowe środowiska pracy i dodatki w systemie Linux
 
 
 <div class="mw-collapsible-content">
 
-### Using git 
 
-Adding the [community-ppa](https://launchpad.net/~freecad-community/+archive/ubuntu/ppa) within the ppa-manager.
-Installing the workbenches via Synaptic Packet Manager.
+
+### Przy użycu Git 
+
+Dodając [community-ppa](https://launchpad.net/~freecad-community/+archive/ubuntu/ppa) w ppa-manager.
+Instalacja środowiska roboczego poprzez Synaptic Packet Manager.
 
 
 ```python
@@ -93,7 +105,7 @@ $ cd ~/.FreeCAD/Mod
 $ git clone  https://github.com/tomate44/CurvesWB.git
 ```
 
-In FreeCAD you will now have a new workbench-entry called \"CurvesWB\". Once installed, use git to upgrade to the latest version:
+W programie FreeCAD pojawi się teraz nowe środowisko pracy o nazwie \"CurvesWB\". Po zainstalowaniu użyj Git, aby zaktualizować je do najnowszej wersji:
 
 
 ```python
@@ -102,21 +114,23 @@ $ git pull
 $ rm *.pyc
 ```
 
-### Manual Installation 
 
 
-**Note:**
+### Instalacja samodzielna 
 
-This method is possible but not necessary with the introduction of the [Addon Manager](Std_AddonMgr.md). Nevertheless, the information here may still be useful to some.
 
--   Download the workbench from github by clicking on the button **Clone** or **Download** on the github page (upper right corner) and choosing \"Download ZIP\"
--   Unpack the downloaded archive on your local hard disk
--   Within FreeCAD, locate the macro path by choosing **Edit → Preferences → General → Macro** and look for the "Macro path"
--   By default, the macro directory is the (hidden) **./.FreeCAD/** directory in your home-directory
--   Within the macro-directory create (if not already present) a folder called "**Mod**"
--   Within the Mod/ folder, create a folder with the name of the workbench, for example "Curves"
--   Now move the unpacked files and sub-folders of the workbench to the just created workbench-folder
--   After restart of FreeCAD you should now have an entry in the [workbench selector](Std_Workbench.md)
+**Uwaga:**
+
+Ta metoda jest możliwa, ale nie jest konieczna po wprowadzeniu [Menadżera dodatków](Std_AddonMgr/pl.md). Niemniej jednak, informacje tutaj zawarte mogą być nadal przydatne dla niektórych.
+
+-   Pobierz środowisko pracy z GitHub, klikając przycisk **Klonuj** lub **Pobierz** na stronie GitHub *(prawy górny róg)* i wybierając \"Pobierz ZIP\".
+-   Rozpakuj pobrane archiwum na lokalnym dysku twardym.
+-   W programie FreeCAD zlokalizuj ścieżkę makra, wybierając **Edycja → Preferencje → Python → Makropolecenia** i poszukaj pozycji *Ścieżka do plików makrodefinicji*.
+-   Domyślna ścieżka makrodefinicji to *(ukryty)* katalog **./.FreeCAD/** w twoim katalogu domowym.
+-   W katalogu makr utwórz *(jeśli jeszcze nie istnieje)* folder o nazwie \"**Mod**\".
+-   W folderze Mod utwórz folder z nazwą środowiska pracy, na przykład \"Curves\".
+-   Teraz przenieś rozpakowane pliki i podfoldery środowiska pracy do właśnie utworzonego folderu środowiska pracy.
+-   Po ponownym uruchomieniu FreeCAD powinieneś mieć teraz wpis w okienku wyboru [środowiska pracy](Std_Workbench/pl.md).
 
 
 </div>
@@ -127,34 +141,36 @@ This method is possible but not necessary with the introduction of the [Addon Ma
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-## Installing on Mac 
+## Instalacja w środowisku Mac 
 
-How to install additional workbenches and addons on macOS
+Jak zainstalować dodatkowe środowiska pracy i dodatki w systemie macOS
 
 
 <div class="mw-collapsible-content">
 
-### Manual Installation 
 
 
-**Note:**
+### Instalacja samodzielna 
 
-This method is possible but not necessary with the introduction of the [Addon Manager](Std_AddonMgr.md). Nevertheless, the information here may still be useful to some.
 
-For the sake of this example, say you\'ve chosen the [Curves Workbench](Curves_Workbench.md) as the external workbench you want to install:
+**Uwaga:**
 
--   Choose and download the git repository of your chosen external workbench as a ZIP file
--   There are two possible locations for your Addon workbench \'Mods\':
+Ta metoda jest możliwa, ale nie jest konieczna po wprowadzeniu [Menadżera dodatków](Std_AddonMgr/pl.md). Niemniej jednak, informacje tutaj zawarte mogą być nadal przydatne dla niektórych.
 
-1.  All Users: **/Applications/FreeCAD.app/Contents/Resources/Mod**
-2.  Current user only: **/Users/myusername/Library/Application Support/FreeCAD/Mod**
+Na potrzeby tego przykładu powiedzmy, że wybrałeś środowisko pracy [Krzywe](Curves_Workbench/pl.md) jako zewnętrzne środowisko pracy, które chcesz zainstalować:
 
--   If you use Finder to navigate manually to the All Users location in Applications you will need to
-    -   go to **/Applications**\" and select FreeCAD.app
-    -   right-mouse-click and select \"Show Package Contents\", a new window will appear with a folder named \"Contents\"
-    -   single-click on the folder \"Contents\" then on \"Resources\" and double-click to open the folder \"Mod\"
--   Once you are in whichever \"Mod\" folder you want to use, create a New Folder named \"Curves\"
--   Unzip downloaded repository in the folder \"Mod/Curves\"
+-   Wybierz i pobierz repozytorium git wybranego zewnętrznego środowiska pracy jako plik ZIP.
+-   Istnieją dwie możliwe lokalizacje dla dodatkowych środowisk pracy \"Mods\":
+
+1.  Wszyscy użytkownicy: **/Applications/FreeCAD.app/Contents/Resources/Mod**
+2.  Tylko bieżący użytkownik: **/Users/myusername/Library/Application Support/FreeCAD/Mod**
+
+-   Jeśli używasz Findera do ręcznej nawigacji do lokalizacji Wszyscy użytkownicy w aplikacjach, będziesz musiał
+    -   przejść do **/Applications**\" i wybrać FreeCAD.app
+    -   kliknąć prawym przyciskiem myszy i wybrać \"Pokaż zawartość pakietu\", pojawi się nowe okno z folderem o nazwie \"Zawartość\"
+    -   Pojedyncze kliknięcie na folderze \"Zawartość\", a następnie na \"Zasoby\" i podwójne kliknięcie, aby otworzyć folder \"Mod\".
+-   Gdy znajdziesz się w folderze \"Mod\", którego chcesz użyć, utwórz nowy folder o nazwie \"Curves\".
+-   Rozpakuj pobrane repozytorium do folderu \"Mod/Curves\".
 
 
 </div>
@@ -162,14 +178,16 @@ For the sake of this example, say you\'ve chosen the [Curves Workbench](Curves_W
 
 </div>
 
-## General troubleshooting 
 
--   Don\'t use special characters (for example German umlauts) in your windows user name, otherwise FreeCAD will not recognize files and folders in the macro path.
--   If you have already set up a user name with special characters either create a new user name or point the macro path to a directory not using special characters.
--   Go to **Tools → Customize → Workbenches** and make sure the workbench is not set to invisible.
--   With 32-bit systems and FreeCAD 0.16.6706, after attempts to install, the additional Workbenches may not be available. In this case
-    -   keep the [report view](report_view.md) open while starting FreeCAD, and read the error,
-    -   see this forum thread [Assembly2 in Version: 0.16.5602 (Git)](http://forum.freecadweb.org/viewtopic.php?t=12839#p102933)
+
+## Rozwiązywanie problemów ogólnych 
+
+-   Nie używaj znaków specjalnych (na przykład niemieckich umlautów) w nazwie użytkownika systemu Windows, w przeciwnym razie FreeCAD nie rozpozna plików i folderów w ścieżce makra.
+-   Jeśli już skonfigurowałeś nazwę użytkownika ze znakami specjalnymi, utwórz nową nazwę użytkownika lub wskaż ścieżkę makra do katalogu bez znaków specjalnych.
+-   Przejdź do menu **Edycja → Preferencje ... → Środowiska pracy** i upewnij się, że środowisko pracy nie jest ustawione jako niewidoczne.
+-   W przypadku systemów 32-bitowych i FreeCAD 0.16.6706, po próbie instalacji dodatkowe środowiska robocze mogą nie być dostępne. W takim przypadku
+    -   trzymaj [widok raportu](Report_view/pl.md) otwarty podczas uruchamiania FreeCAD i przeczytaj błąd,
+    -   zobacz ten wątek na forum [Assembly2 w wersji: 0.16.5602 *(Git)*](http://forum.freecadweb.org/viewtopic.php?t=12839#p102933).
 
 
 

@@ -2,6 +2,8 @@
 } <img alt="" src=images/Lattice2_Lattice2.svg  style="width:240px;"> 
 *align=center|Das FreeCAD Lattice2 Externer Arbeitsbereichssymbol*
 
+
+
 ## Einführung
 
 
@@ -10,13 +12,7 @@
 
 {{TOCright}}
 
-
-<div class="mw-translate-fuzzy">
-
-Der Lattice2 Arbeitsbereich ist eine FreeCAD [Externer Arbeitsbereich](external_workbenches/de.md), der dem Zweck dient, mit Platzierungen und Platzierungsanordnungen zu arbeiten. Es ist eine Art Zusammenbau Arbeitsbereich, jedoch mit Schwerpunkt auf Anordnungen. Es gibt keine Beschränkungen und Beziehungen, es gibt nur Platzierungsfelder, die erzeugt, kombiniert, transformiert, überlagert und mit Formen bestückt werden können.
-
-
-</div>
+Der Arbeitsbereich Lattice2 ist ein [externer FreeCAD-Arbeitsbereich](External_workbenches/de.md), der dem Zweck dient, mit Positionierungen und Anordnungen von Positionierungen zu arbeiten. Es ist eine Art Zusammenbau-Arbeitsbereich, jedoch mit Schwerpunkt auf Anordnungen. Es gibt keine Randbedingungen und Beziehungen, es gibt nur Anordnungen von Positionierungen, die erzeugt, kombiniert, transformiert, überlagert und mit Formen bestückt werden können.
 
 Ever wondered how to create a protractor with FreeCAD? That\'s the aim of the workbench (including tick labeling). Also, exploded assemblies can be made with the workbench.
 
@@ -24,20 +20,28 @@ Additionally, the workbench features a few general-purpose tools, such as parame
 
 One of the big design goals of the workbench is being as parametric as possible.
 
+
+
 ## Referenzen
 
 -   Autor: DeepSOIC
 -   Startseite: <https://github.com/DeepSOIC/Lattice2>
 -   Quellcode auf github: <https://github.com/DeepSOIC/Lattice2>
 
+
+
 ## Werkzeuge
 
 Detaillierte Beschreibung auf dem [Lattice2 Github wiki](https://github.com/DeepSOIC/Lattice2/wiki)
+
+
 
 ### Werkzeugleiste
 
 ![](images/Lattice2-menu-orizz.png ) 
 *Lattice2 Werkzeugleiste*
+
+
 
 ### Befehle
 
@@ -121,12 +125,16 @@ Other
 
 ## Installation
 
-**Prerequisites** Lattice2 Workbench requires FreeCAD \>= v0.16.5155.
+**Prerequisites**: Lattice2 Workbench requires FreeCAD \>= v0.16.5155.
+
+
 
 ### Automatische Installation 
 
 As of v0.17 one can use the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) to install the <img alt="" src=images/Lattice2_Lattice2.svg  style="width:24px;"> Lattice2 Workbench. Use 
 **Tools → Addon Manager**
+
+
 
 ### Manuelles Einrichten 
 
@@ -136,6 +144,8 @@ As of v0.17 one can use the <img alt="" src=images/Std_AddonMgr.svg  style="widt
 
 After you install the workbench, it should appear at the bottom of list of workbench selector in FreeCAD.
 
+
+
 ## Tutorien
 
 -   Tutorials: [Gallery](https://github.com/DeepSOIC/Lattice2/wiki/Gallery)
@@ -144,13 +154,23 @@ After you install the workbench, it should appear at the bottom of list of workb
 -   [Making a Cogset](https://github.com/DeepSOIC/Lattice2/wiki/Cogset-Tutorial)
 -   [Feature Patterns in Lattice2 Workbench](https://www.youtube.com/watch?v=BXmeEGnhszo) by \@sliptonic
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Verknüpfungen zum Lattice2 Arbeitsbereich 
+
+
+</div>
 
 -   Lattice2 Wiki: <https://github.com/DeepSOIC/Lattice2/wiki>
 -   FreeCAD Wiki: <https://www.freecadweb.org/wiki/Lattice2_Workbench>
 -   FreeCAD Forum: [Lattice workbench - v2.0 is becoming stable](http://forum.freecadweb.org/viewtopic.php?t=12464)
 -   Gallery: <https://github.com/DeepSOIC/Lattice2/wiki/Gallery>
 -   Report bugs: Please report bugs at <https://github.com/DeepSOIC/Lattice2/issues>
+
+
 
 ## Andere nützliche Verknüpfungen 
 

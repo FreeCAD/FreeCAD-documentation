@@ -10,6 +10,8 @@
 
 # Std ViewIsometric/ko
 
+
+
 ## 설명
 
 **표준 등각투영(Std ViewIsometric)** 명령은 [3D 보기의](3D_view/ko.md) 카메라를 재조정하여 등각투영([isometric](https://en.wikipedia.org/wiki/Isometric_projection)) 보기 각도로 전환합니다. 진정한 등각투영(isometric) 보기를 하려면 3D 보기가 [직교투영(orthographic) 모드이어야](Std_OrthographicCamera/ko.md) 하지만 이 명령은 [원근투영(perspective) 모드일](Std_PerspectiveCamera/ko.md) 때도 작동합니다.
@@ -17,7 +19,12 @@
 ![](images/Std_ViewIsometric_example.svg ) 
 *등각투영(isometric) 일 때 [좌표축](Std_AxisCross/ko.md)과 육면체*
 
+
+
 ## 용법
+
+
+<div class="mw-translate-fuzzy">
 
 1.  이 명령을 실행하는 방법은 여러 가지입니다:
     -   
@@ -32,9 +39,10 @@
 
     -   단축키를 사용합니다: **0**.
 
-## 비고
 
--   [네비게이션 큐브의](Navigation_Cube/ko.md) 미니-큐브 메뉴를 이용하여 등각투영(isometric) 각도로 변경할 수도 있습니다.
+</div>
+
+
 
 ## 스크립트
 

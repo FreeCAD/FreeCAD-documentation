@@ -23,6 +23,8 @@ Tenga en cuenta la versión de FreeCAD utilizada en el tutorial, ya que algunos 
 
 See also [video tutorials](Video_tutorials.md) and [books](Books.md).
 
+
+
 ## Arquitectura y BIM 
 
 
@@ -38,6 +40,8 @@ Remodelación del proyecto WikiHouse utilizando bocetos y paneles, partiendo de 
 
 
 </div>
+
+
 
 ## Modelado Piezas 
 
@@ -84,6 +88,8 @@ This is a basic introduction to the tools of the Sketcher Workbench: constructio
 Learn to efficiently constrain a sketch. Prefer geometric constraints over datum constraints.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 
@@ -98,6 +104,8 @@ TDTut ProjGroup21.png\|link=[Basic TechDraw Tutorial](Basic_TechDraw_Tutorial.md
 This is the essential introduction to the tools of the TechDraw Workbench: page, view, scale, vertical and horizontal dimensions, annotations, projection groups, linking dimensions to the 3D view. <File:FCTemplateHow.png%7Clink=>[TechDraw_TemplateHowTo](TechDraw_TemplateHowTo.md)\|[Creating a new background template](TechDraw_TemplateHowTo.md) (v0.17)
 Instructions to create a page template in Inkscape for using it with the TechDraw Workbench. Determine the size of the sheet, draw a frame for the page, define fixed text, and editable text fields. <File:AnHi1.png%7Clink=>[Measurement Of Angles On Holes](Measurement_Of_Angles_On_Holes.md)\|[Measurement Of Angles On Holes](Measurement_Of_Angles_On_Holes.md) (v0.19)
 Instructions for adding center lines and subsequent angle representations on holes.
+
+
 
 ## MEF
 
@@ -119,11 +127,15 @@ This example shows how to simulate a capacitance. It illustrates how to setup th
 FEM_post-processing_Paraview.png\|link=[Post-Processing_of_FEM_Results_with_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)\|[Post-Processing of FEM results with Paraview](Post-Processing_of_FEM_Results_with_Paraview.md) (v0.19)
 This tutorial explains the basics of transferring data from the FEM Workbench to Paraview and shows some of the options and settings for displaying data.
 
+
+
 ## CNC e impresión 3D 
 
 Path-WalkThroughResult.gif\|link=[Path Walkthrough for the Impatient](Path_Walkthrough_for_the_Impatient.md)\|[Path Workbench for the impatient](Path_Walkthrough_for_the_Impatient.md)
 This is a quick presentation of the workflow for the Path Workbench: create a job, define the output, define the milling tool, define the path operations, start the simulation, and generate a G-code output file. Exercise meshing 03.jpg\|link=[Manual:Preparing models for 3D printing](Manual_Preparing_models_for_3D_printing.md)\|[Preparing models for 3D printing](Manual_Preparing_models_for_3D_printing.md) (v0.16)
 Convert a solid object to a mesh object using the Mesh Workbench, export the mesh to STL format, and use Slic3r to prepare the G-code. Alternatively use the Cura Workbench or the Path Workbench to generate the G-code.
+
+
 
 ## Renderizado
 
@@ -145,6 +157,8 @@ Export bodies from FreeCAD to Wavefront .obj, import the file into Blender, set 
 
 Robot Tutorial RobotSimulation.gif\|link=[Robot tutorial](Robot_tutorial.md)\|[Robot tutorial](Robot_tutorial.md) (v0.17)
 Simulate the movement of an industrial robot: set up a trajectory, set up home position, change the robot position, insert various waypoints, and simulate the robot movement.
+
+
 
 ## Guión
 
@@ -220,10 +234,6 @@ Aquí están listados todos los tutoriales que no están en el manual **independ
 | [Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)                                                        | Product Design          | Beginner              | 0:30                   | r-frank and vocx                                                                               | 0.17 or above       | [Draft_Shapestring_Text](https://github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true)                                                                                                                                                                  |
 ++++++++
 | [Draft tutorial](Draft_tutorial.md)                                                                                | Draft Workbench         | Beginner              | 0:30                   | [Drei](User_Drei.md) and vocx                                                          | 0.19                | [Draft tutorial updated](https://forum.freecadweb.org/viewtopic.php?f=36&t=43651)                                                                                                                                                                                                                                             |
-++++++++
-| [Drawing Template HowTo (obsolete)](Drawing_Template_HowTo.md)                                                     | Drawing Workbench       | Intermediate          | 1:00                   | [Mark Stephen (Quick61)](User_Quick61.md)                                              | 0.14.3700 or above  | None                                                                                                                                                                                                                                                                                                                          |
-++++++++
-| [Drawing tutorial (obsolete)](Drawing_tutorial.md)                                                                 | Drawing Workbench       | Beginner              | 0:15                   | [Drei](User_Drei.md)                                                                   | 0.16 or above       |                                                                                                                                                                                                                                                                                                                               |
 ++++++++
 | [Dxf Importer Install](Dxf_Importer_Install.md)                                                                    | Import                  | Intermediate          | 0:05                   | [Mario52](User_Mario52.md)                                                             | Any                 | None                                                                                                                                                                                                                                                                                                                          |
 ++++++++

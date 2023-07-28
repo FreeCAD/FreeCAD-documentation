@@ -5,9 +5,13 @@
 
 </div>
 
+
+
 ## Descriere
 
 Această comandă vă permite să plasați un bloc de text pe un [Drawing page](Drawing_Landscape_A3.md).
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -28,6 +32,8 @@ Această comandă vă permite să plasați un bloc de text pe un [Drawing page](
 
 
 </div>
+
+
 
 ## Limite
 

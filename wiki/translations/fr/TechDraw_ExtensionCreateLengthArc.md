@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionCreateLengthArc.svg  style="width:24px;"> **TechDraw Longueur d\'arc** crée une cote de longueur d\'arc.
+L\'outil **TechDraw Longueur d\'arc** crée une cote de longueur d\'arc.
 
 <img alt="" src=images/TechDraw_ExtensionCreateLengthArcExample.png  style="width:300px;"> 
 *A droite, la cote créée*
+
+
 
 ## Utilisation
 

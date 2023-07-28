@@ -9,21 +9,38 @@
 
 # TechDraw Image/de
 
+
+</div>
+
+
+
 ## Beschreibung
 
-Das Bild Werkzeug fügt ein [Bitmap](bitmap/de.md) Bild (PNG, JPEG, JPG, BMP usw.) aus einer Datei als Ansicht in die Seite ein.
+Das Werkzeug **TechDraw Bild** fügt eine [Bitmap](Bitmap/de.md)-Grafik (PNG, JPEG, JPG, BMP usw.) aus einer Datei als Ansicht auf einem Zeichnungsblatt ein.
 
 ![](images/TechDraw_Image_example.png ) 
 *In die Zeichnungsseite eingefügtes Bild*
 
+
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Die Schaltfläche **<img src="images/TechDraw_Image.svg" width=16px> [Bitmap-Grafik einfügen](TechDraw_Image/de.md)** drücken.
 2.  Ein Dateidialog wird geöffnet. Einen Speicherort und einen Dateinamen auswählen.
 
+
+</div>
+
+
+
 ## Eigenschaften
 
 Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
+
+
 
 ### Daten
 
@@ -40,6 +57,8 @@ Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
 
 :   Die beiden letzten Eigenschaften werden nur verwendet, wenn der Wert der {{PropertyView/de|Crop}} `True` ist.
 
+
+
 ### Ansicht
 
 
@@ -47,11 +66,13 @@ Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
 
 -    {{PropertyView/de|Crop|Bool}}: Schneidet das Bild auf {{PropertyData/de|Width}} x {{PropertyData/de|Height}} zu.
 
+
+
 ## Skripten
 
 Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Bildwerkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole aus mit den folgenden Funktionen verwendet werden:
+Das Werkzeug Bild kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
 
 
 ```python

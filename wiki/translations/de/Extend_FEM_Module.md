@@ -1,10 +1,10 @@
 ---
 - TutorialInfo:/de
-   Topic: 
-   Level: 
-   Time: 
+   Topic:FEM
+   Level:fortgeschrittener Anfänger
+   Time:1 Stunde
    Author:[M42kus](User_M42kus.md)
-   FCVersion:
+   FCVersion:0.17
    Files:
 ---
 
@@ -13,16 +13,10 @@
 
 
 
-<div class="mw-translate-fuzzy">
 
+Der Arbeitsbereich FEM unterstützt schon viele unterschiedliche Randbedingungen und mehrere Berechnungsprogramme (Löser). Trotzdem brauchen Anwender oft Randbedingungen, die noch nicht von FreeCAD unterstützt werden. Diese Seite ist Startpunkt für eine Reihe von Anleitungen und anderen Quellen, die beschreiben, wie der Arbeitsbereich FEM mit dem vorhandenen Framework (\<-?) erweitert werden kann. Während diese Reihe auch für Software-Entwickler hilfreich sein kann, ist die Idee dahinter, dass FEM-Anwender mit etwas Interesse für Python-Programmierung ermöglicht wird, selbst hinzuzufügen, was sie brauchen.
 
-
-
-</div>
-
-The FEM workbench already supports a lot of different constraints and several solvers. Despite that users often need constraints not yet supported by FreeCAD. This page is the starting point to a series of tutorials and other resources describing how to extend the FEM workbench using the existing framework. While this series can prove helpful to software developers too the idea is to allow FEM users with a bit of interest into python coding to add the stuff they need themselves.
-
-Adding new constraints, equations or solver is mostly routine work. But doing it for the first time will not be as easy as it might seem. An understanding of the following topics will prove helpful:
+Neue Randbedingungen, Gleichungen oder Löser hinzuzufügen ist hauptsächlich Routinearbeit. Aber beim ersten Mal ist es wahrscheinlich nicht so einfach, wie es aussieht. Ein Verständnis für die folgenden Themen wird hilfreich sein:
 
 -   Python scripting in FreeCAD.
     -   [FreeCAD Scripting Tutorial](Python_scripting_tutorial.md)
@@ -105,6 +99,8 @@ One package doesn\'t follow this pattern: `femsolver`. It has its place on the s
     .femsolver.z88
     .femsolver.z88.equations
 
+
+
 ## Löser
 
 In FreeCAD a solver can be split into two parts:
@@ -118,9 +114,9 @@ Most files related to a solver reside in a sub-package of the `femsolver` packag
 -   **femsolver/elmer/tasks.py:** Module containing one task class per task required for a solver implementation. Those tasks divide the process of solving a analysis into the following steps: check, prepare, solve, results.
 -   **femcommands/commands.py:** Adds the solver document object to the active document. Required to access the solver object from the GUI.
 
-There is a tutorial of adding a new solver: [Add FEM Solver Tutorial](Sandbox_Add_FEM_Solver_Tutorial.md)
 
-## Equations
+
+## Gleichungen
 
 An equation represents a particular physics that shall be considered when solving the analysis (e.g. Flow, Heat). Not all solver in FreeCAD support (all) equations. Equations are represented by child objects of the corresponding solver object. In the tree-view this looks like this:
 
@@ -136,7 +132,9 @@ The actual implementation can be split into the generic and the solver specific 
 
 Adding a new equations to Elmer should be very easy. For newcomers there exists a tutorial which shows how to add a new equation to Elmer by adding the existing elasticity solver to FreeCAD: [Add FEM Equation Tutorial](Add_FEM_Equation_Tutorial.md).
 
-## Constraints
+
+
+## Randbedingungen
 
 Constraints define boundary conditions for the problem that shall be solved. In FreeCAD constraints aren\'t specific to a particular solver. A problem setup can be solved by all solver that support all conditions in the analysis.
 

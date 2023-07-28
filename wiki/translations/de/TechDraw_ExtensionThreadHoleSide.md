@@ -11,14 +11,27 @@
 
 # TechDraw ExtensionThreadHoleSide/de
 
+
+
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Das Werkzeug <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:24px;"> **TechDraw ErgänzungInnengewindeSeitlich** ergänzt eine von der Seite gesehene Bohrung mit 2 Gewindelinien (Hilfslinien - Cosmetic lines).
+
+
+</div>
 
 <img alt="" src=images/TechDraw_ExtensionThreadHoleSideExample.png  style="width:200px;"> 
 *Rechts eine Bohrung mit Gewindedarstellung*
 
+
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Optional: definiere die Eigenschaften der Linien mit dem <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) Werkzeug.
 2.  Wähle zwei parallele Linien.
@@ -26,6 +39,9 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style=
     -   Drücke die **<img src="images/TechDraw_ExtensionThreadHoleSide.svg" width=16px> [TechDraw ExtensionThreadHoleSide](TechDraw_ExtensionThreadHoleSide.md)** Schaltfläche.
     -   Wähle die **TechDraw → Extensions: Centerlines/Threading → <img src="images/TechDraw_ExtensionThreadHoleSide.svg" width=16px> Add Cosmetic Thread Hole Side View** Option aus dem Menü
 4.  Ein symbolisches Gewinde wird eingefügt.
+
+
+</div>
 
 
 

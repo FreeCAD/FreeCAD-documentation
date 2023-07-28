@@ -41,14 +41,8 @@ Um den Arbeitsablauf und die Möglichkeiten des Entwurf Arbeitsbereichs zu präs
 
 ![](images/Exercise_cabin_03.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
--   Das ist alles, was wir jetzt brauchen, so dass wir den Konstruktionsmodus ausschalten können. Überprüfen Sie, dass all die gerade erzeugten Objekte in einer \"Konstruktions\" Gruppe zusammengefasst sind, denn das erleichtert das einfache Verstecken oder auch das spätere Löschen.
--   Lassen Sie uns mit dem <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Polygonzug](Draft_Wire/de.md) Werkzeug die beiden Wandteile zeichnen. Stelle sicher, dass der <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:16px;"> [Schnittpunktfang](Draft_Snap/de.md) aktiviert ist, weil wir die Schnittpunkte von Linien und Rechtecken fangen wollen. Zeichne wie folgt zwei Polygonzüge durch anklicken aller Punkte der Umrisslinien. Zum Schließen klicke entweder erneut auf den ersten Punkt oder drücke die **Schließen** Schaltfläche:
-
-
-</div>
+-   Das ist alles, was wir jetzt brauchen, so dass wir den Konstruktionsmodus ausschalten können. Nun sollte überprüft werden, dass alle gerade erzeugten Objekte in einer Gruppe \"Construction\" zusammengefasst sind; das erleichtert alle auf einmal auszublenden oder später komplett zu löschen.
+-   Nun werden mit dem Werkzeug <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Polylinie](Draft_Wire/de.md) die beiden Wandteile gezeichnet. <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:16px;"> [Schnittpunkt fangen](Draft_Snap_Intersection/de.md) sollte aktiviert sein, um auf die Schnittpunkte von Linien und Rechtecken einzurasten. Zwei Polygonzüge, wie folgend dargestellt, durch anklicken aller Punkte der Umrisslinien zeichnen. Um sie zu schließen, klickt man entweder erneut auf den ersten Punkt oder drückt die Schaltfläche **Schließen**:
 
 ![](images/Exercise_cabin_04.jpg )
 
@@ -56,14 +50,8 @@ Um den Arbeitsablauf und die Möglichkeiten des Entwurf Arbeitsbereichs zu präs
 
 ![](images/Exercise_cabin_05.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
--   Wir können jetzt die Konstruktionsgeometrie ausblenden, indem wir durch rechtsklicken der Konstruktiongruppe und **Auswahl ausblenden** wählen.
--   Lass uns nun die Fenster und Türen zeichnen. Stelle sicher, dass das <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:16px;"> [Mittelpunktsfang](Draft_Snap/de.md) aktiviert ist und zeichne sechs Linien wie folgt:
-
-
-</div>
+-   Jetzt kann die Konstruktionsgeometrie ausgeblendet werden, durch einen Rechtsklick auf die Konstruktiongruppe und anschließendes Auswählen von **Auswahl ausblenden**.
+-   Nun werden die Fenster und Türen gezeichnet. <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:16px;"> [Mittelpunkt fangen](Draft_Snap_Midpoint/de.md) sollte aktiviert sein, wenn sechs Linien, wie folgend dargestellt, gezeichnet werden:
 
 ![](images/Exercise_cabin_06.jpg )
 
@@ -106,12 +94,16 @@ Um den Arbeitsablauf und die Möglichkeiten des Entwurf Arbeitsbereichs zu präs
 
 Im Wesentlichen bietet der Entwurf Arbeitsbereich grafische Möglichkeiten, um einfache Part-Operationen zu erledigen. Während Sie im Part-Arbeitsbereich normalerweise Objekte mit ihren Platzierungsparametern positionieren, können Sie das im Entwurf Arbeitsbereich direkt am Bildschirm tun. Es gibt Zeiten, wenn das Eine besser ist, und andere Zeiten, während man das Andere vorzieht. Vergessen Sie nicht, dass Sie [Angepasste Werkzeugleisten](Interface_Customization/de.md) in einem der Arbeitsbereiche anlegen können, Werkzeuge aus dem anderen hinzufügen können, und das Beste aus beiden Welten bekommen.
 
+
+
 ## Herunterladen
 
 -   Die während dieser Übung erstellte Datei: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/cabin.FCStd>
 -   Die Waschbecken-DXF-Datei: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/sink.dxf>
 -   Die Kochfeld-DXF-Datei: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/cooktop.dxf>
 -   Die endgültige von dieser Übung produzierte DXF-Datei: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/cabin.dxf>
+
+
 
 ## Verwandt
 

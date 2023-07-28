@@ -1,29 +1,34 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher BSplineApproximate
-   MenuLocation:Sketch → Sketcher B-spline tools → Convert geometry to B-spline
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Konwertuj geometrię na krzywą złożoną
+   MenuLocation:Szkic → Narzędzia szkicownika krzywej złożonej → Konwertuj geometrię na krzywą złożoną
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[Sketcher Create B-spline](Sketcher_CompCreateBSpline.md)
+   SeeAlso:[Komponent utwórz krzywą złożoną](Sketcher_CompCreateBSpline/pl.md)
 ---
 
 # Sketcher BSplineApproximate/pl
 
-## Description
 
-Converts compatible geometry, edges and curves, into a B-spline (see [this page](B-Splines.md) for more info about B-splines).
+
+## Opis
+
+Konwertuje zgodną geometrię, krawędzie i krzywe, na krzywą złożoną *(zobacz stronę [Krzywe złożone](B-Splines/pl.md), aby uzyskać więcej informacji)*.
 
 <img alt="" src=images/sketcher_BSplineConvertToNurb.png  style="width:400px;"> 
-*Various objects before conversion.*
+*Różne obiekty przed przebudową.*
 
 <img alt="" src=images/sketcher_BSplineConvertToNurb1.png  style="width:400px;"> 
-*The same objects after conversion to B-splines.*
+*Te same obiekty po konwersji do krzywych złożonych.*
 
-## Usage
 
-1.  Select one or several sketch segments and press the the toolbar button **[<img src=images/Sketcher_BSplineApproximate.svg style="width:24px"> [Convert geometry to B-spline](Sketcher_BSplineApproximate.md)**.
 
-Make sure to have either the spline [degree](Sketcher_BSplineDegree.md), [polygon](Sketcher_BSplinePolygon.md), [comb](Sketcher_BSplineComb.md), [multiplicity](Sketcher_BSplineKnotMultiplicity.md) or [weight](Sketcher_BSplinePoleWeight.md) visible, otherwise nothing seems to happen. If you converted straight lines, you first need to [increase the degree](Sketcher_BSplineIncreaseDegree.md) of the lines to make them \"bendable\".
+## Użycie
+
+1.  Zaznacz jeden lub kilka segmentów szkicu i naciśnij przycisk na pasku narzędzi **[<img src=images/Sketcher_BSplineApproximate.svg style="width:24px"> '''Konwertuj geometrię na krzywą złożoną'''**.
+
+Upewnij się, że elementy [stopień](Sketcher_BSplineDegree/pl.md), [ramka kontrolna](Sketcher_BSplinePolygon/pl.md), [grzebień](Sketcher_BSplineComb/pl.md), [węzeł](Sketcher_BSplineKnotMultiplicity/pl.md) lub [waga](Sketcher_BSplinePoleWeight/pl.md) są widoczne, w przeciwnym razie nic się nie stanie. Jeśli przekształciłeś linie proste, musisz najpierw [zwiększyć stopień](Sketcher_BSplineIncreaseDegree/pl.md) linii, aby stały się one \"zginane\".
 
 
 

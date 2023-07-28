@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -35,6 +37,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -69,6 +73,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 *Taskview panel for the Arch Rebar Stirrup tool*
 
+
+
 ## Propiedades
 
 -    {{PropertyData/es|Front Cover}}: la distancia entre la barra de refuerzo y la cara seleccionada.
@@ -90,12 +96,19 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 -    {{PropertyData/es|Spacing}}: la distancia entre los ejes de cada barra.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Programación
 
 
 </div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -122,6 +135,8 @@ Rebar = makeStirrup(l_cover, r_cover, t_cover, b_cover, f_cover,
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

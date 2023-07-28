@@ -14,6 +14,8 @@
 
 
 
+
+
 ## Introducción
 
 Este tutorial fue escrito originalmente por Drei, y posteriormente reescrito e ilustrado por vocx.
@@ -38,6 +40,8 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
 <img alt="" src=images/00_Dr01_Draft_Tutorial_final.png  style="width:" height="400px;"> 
 *Final drawing including various Draft objects.*
 
+
+
 ## Configuración
 
 
@@ -51,6 +55,7 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
     :1.4. Aunque no se utiliza en este tutorial, la parrilla de Draft es muy útil para situar elementos geométricos. Utiliza **[<img src=images/Draft_SelectPlane.svg style="width:16px"> [Seleccionar Plano](Draft_SelectPlane.md)** para fijar tanto el plano de trabajo como la parrilla, y muestra y oculta la parrilla con  **[<img src=images/Draft_ToggleGrid.svg style="width:16px"> [Toggle grid](Draft_ToggleGrid.md)**.
     </div>
 
+    <span id="Snap_toolbar"></span>
     == Barra de herramientas de captura ==
 
     2. The [Draft Snap toolbar](Draft_Snap.md) is normally activated when you switch to the [Draft Workbench](Draft_Workbench.md).
@@ -59,6 +64,7 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
 
     You can also change the visibility and properties of the Draft grid in this same window.
 
+    <span id="Working_planes"></span>
     == Planos de trabajo ==
 
     Most Draft objects are planar shapes so they are naturally based on a **working plane**. A working plane can be one of the main XY, XZ, and YZ global coordinate planes, or it can be a plane that is parallel to them with a positive or negative offset, or it can be a plane defined by the face of a solid object.
@@ -68,6 +74,7 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
 
     Before pressing the button, you can also change the value of the offset in millimeters, as well as the grid spacing, the main lines and snapping radius.
 
+    <span id="Lines_and_arcs"></span>
     == Líneas y arcos ==
 
     4. We will create arcs and lines.
@@ -88,6 +95,7 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
     
 *Closed profile created by two arcs and two lines.*
 
+    <span id="Fusing_or_compounding"></span>
     == Fusión o composición ==
 
     We now have several objects in the [tree view](tree_view.md) that form a closed profile. However, this profile is still composed of disconnected objects; each of them can be edited and moved independently of the others. It is possible to continue working with the elements in this way, but it is also possible to fuse them into a single object.
@@ -101,6 +109,7 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
     :6b.1. Switch to the <img src="images/Workbench_Part.svg" width=24px> [Part Workbench](Part_Workbench.md).
     :6b.2. With these objects selected, click on **[<img src=images/Part_Compound.svg style="width:16px"> [Part Compound](Part_Compound.md)**.
 
+    <span id="Rectangles,_circles,_and_polygons"></span>
     == Rectángulos, círculos y polígonos.
 
     7. We will draw a rectangular frame. (Switch back to the <img src="images/Workbench_Draft.svg" width=24px> [ Draft Workbench](Draft_Workbench.md).)
@@ -147,6 +156,7 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
     
 *Polar array of the small profile centered around the origin.*
 
+    <span id="Dimensions"></span>
     == Dimensiones ==
 
     Linear dimensions work best when using the appropriate [Draft Snap](Draft_Snap.md) methods to select points and edges to measure. However, they can also be created by specifying absolute coordinates.
@@ -168,6 +178,7 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
     
 *Dimensions that measure the vertical distance from the origin to the top of the circle, arcs, and polygon.*
 
+    <span id="Texts_and_ShapeStrings"></span>
     == Textos y cuerdas de forma ==
 
     14. Text objects are simple planar figures that are created in the [3D view](3D_view.md) but don't have an actual "[shape](Shape.md)" underneath. This means that they cannot be used in complex operations with shapes like extrusions or boolean operations.
@@ -190,6 +201,7 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
 
     To extrude letters and engrave them on to solids, see the [Draft ShapeString tutorial](Draft_ShapeString_tutorial.md).
 
+    <span id="Creating_technical_drawings"></span>
     == Creando dibujos técnicos ==
 
     As it is now, the objects that we have created can be saved, exported to other formats like [SVG](SVG.md) or [DXF](DXF.md), or printed.
@@ -216,6 +228,7 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
 
     Tools like **[<img src=images/TechDraw_ActiveView.svg style="width:16px"> [TechDraw ActiveView](TechDraw_ActiveView.md)**, **[<img src=images/TechDraw_DraftView.svg style="width:16px"> [TechDraw DraftView](TechDraw_DraftView.md)**, and **[<img src=images/TechDraw_ArchView.svg style="width:16px"> [TechDraw ArchView](TechDraw_ArchView.md)** work by receiving an internal SVG image that is generated by internal Draft functions; therefore, TechDraw doesn't have much control about how these views are displayed. More integration of Draft and TechDraw is a work in progress.
 
+    <span id="Final_remarks"></span>
     ==Comentarios finales==
 
     The [Draft Workbench](Draft_Workbench.md) in many ways is similar to the [Sketcher Workbench](Sketcher_Workbench.md), as both are intended to produce 2D shapes. The main difference is in the way each workbench handles coordinate systems, and how the objects are positioned. In Draft, objects are freely positioned in the global coordinates system, usually snapping their points to a grid, or to other objects. In Sketcher, a "[sketch object](Sketch.md)" defines a local coordinate system which serves as the reference for all geometrical elements within that sketch. Moreover, the sketch relies on "constraints" to define the final position of its points.
@@ -229,4 +242,4 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Draft](Draft_Workbench.md) > Draft tutorial/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft tutorial/es

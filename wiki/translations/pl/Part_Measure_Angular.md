@@ -1,35 +1,42 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Part Measure Angular
-   MenuLocation:Measure → Measure Angular‏‎
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Draft Dimension](Draft_Dimension.md)
+   Name/pl:Część: Pomiar kątowy
+   MenuLocation:Pomiary → Pomiar kątowy
+   Workbenches:[Część](Part_Workbench/pl.md)
+   SeeAlso:[Wymiarowanie](Draft_Dimension/pl.md)
 ---
 
 # Part Measure Angular/pl
 
-## Description
 
-This command measures the angle between two straight edges, two planar faces or one straight edge and a planar face and displays the measurement in the [3D view](3D_view.md).
 
-The appearance of the measurements can be changed in the [preferences](PartDesign_Preferences#Measure.md).
+## Opis
+
+To polecenie mierzy kąt między dwiema prostymi krawędziami, dwiema płaskimi ścianami lub jedną prostą krawędzią i płaską ścianą i wyświetla pomiar w oknie [widoku 3D](3D_view/pl.md).
+
+Wygląd pomiarów można zmienić w [ustawieniach](PartDesign_Preferences/pl#Pomiary.md).
 
 <img alt="" src=images/MeasureAngular1.PNG  style="width:400px;">
 
-## Usage
 
-1.  Select two straight edges, two planar faces or one straight edge
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Part_Measure_Angular.svg" width=16px> [Measure Angular](Part_Measure_Angular.md)** button.
-    -   Select the **Measure → <img src="images/Part_Measure_Angular.svg" width=16px> Measure Angular‏‎** option from the menu.
-3.  Alternatively the command can be launched without prior selection. A selection dialog then opens in the [Task panel](Task_panel.md). A Control widget also provides buttons to reset the selection, toggle the measurement display in the [3D view](3D_view.md), and clear all measurements.
-4.  Measurements are automatically discarded when closing the document.
 
-## Notes
+## Użycie
 
--   You cannot use the [Draft](Draft_Workbench.md) snap tools with this command.
--   To add dimensions to drawings use the dimension tools from the [TechDraw Workbench](TechDraw_Workbench.md).
--   For more comprehensive measuring tools, install the <img alt="" src=images/Manipulator_workbench_icon.svg  style="width:24px;"> [Manipulator Workbench](Manipulator_Workbench.md) (an [external workbench](External_workbenches.md)).
+1.  Wybierz dwie proste krawędzie, dwie płaskie ściany lub jedną prostą krawędź.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Part_Measure_Angular.svg" width=16px> '''Pomiar kątowy'''**.
+    -   Wybierz z menu opcję **Pomiary → <img src="images/Part_Measure_Angular.svg" width=16px>Pomiar kątowy**.
+3.  Alternatywnie polecenie można uruchomić bez wcześniejszego wyboru. Wówczas w [Panel zadań](Task_panel/pl.md) otworzy się okno dialogowe **Wybór**. Widżet sterowania zawiera również przyciski do resetowania Wyboru, przełączania wyświetlania pomiarów w oknie [widoku 3D](3D_view/pl.md) i usuwania wszystkich pomiarów.
+4.  Pomiary są automatycznie usuwane podczas zamykania dokumentu.
+
+
+
+## Uwagi
+
+-   Nie można używać narzędzi przyciągania środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) z tym poleceniem.
+-   Aby dodać wymiary do rysunków, użyj narzędzi wymiarowych środowiska pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md).
+-   Aby uzyskać bardziej wszechstronne narzędzia pomiarowe, zainstaluj środowisko pracy <img alt="" src=images/Manipulator_workbench_icon.svg  style="width:24px;"> [Manipulator](Manipulator_Workbench/pl.md) *(środowisko [zewnętrzne](External_workbenches/pl.md))*.
 
 
 

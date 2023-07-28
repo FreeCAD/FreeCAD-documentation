@@ -21,19 +21,27 @@ The solver settings can be found in the [property editor](Property_editor.md) af
 
 The default coordinate system is *Cartesian 3D*. For some equations, not all coordinate systems can be can be used. This is noted on the Wiki pages of the corresponding equations.
 
-### Timestepping
+### Timestepping (transient analyses) 
 
-For transient simulations the time steps need to be defined. This is done by the following settings:
+**Note**: FreeCAD 0.20.x already provides the following settings but only the last time result is output. Starting with FreeCAD 0.21 you will get an output for the different times.
 
--    **BDFOrder**: Order for the method *BDF* ([Backward Differentiation Formula](https://en.wikipedia.org/wiki/Backward_differentiation_formula)). It is currently only used for the <img alt="" src=images/FEM_EquationHeat.svg  style="width:24px;"> [Heat equation](FEM_EquationHeat.md). It is recommended to use the default of *2*.
+For transient analyses the time steps need to be defined. This is done by the following settings:
 
--    **Timestep Intervals**: An array of calculations per time interval.The solver will perform one time interval after another. For example if the solver should calculate the first 10 seconds in steps of 0.1 second, then 50 seconds in steps of 1 second and then stop, you need to set the timestep intervals \[100, 50\] and the timestep size intervals \[0.1, 1.0\].
+-    **BDFOrder**: Order for the method *BDF* ([Backward Differentiation Formula](https://en.wikipedia.org/wiki/Backward_differentiation_formula)). It is recommended to use the default of *2*.
+
+-    **Output Intervals**: An array of intervals. A solver result file will be output every interval time step. For example if a result file should be output every third time step, set it to *3*. The array corresponds to the **Note:** The first result in every case will be created for the first time step. To get for example results after 25 % of the total time and if the last result should be the final time, set **Output Intervals** to *5* and **Timestep Intervals** to *21*. <small>(v0.21)</small> 
+
+-    **Timestep Intervals**: An array of time intervals. The solver will perform one time interval after another. For example if the solver should calculate the first 10 seconds in steps of 0.1 second, then 50 seconds in steps of 1 second and then stop, you need to set the timestep intervals \[100, 50\] and the timestep size intervals \[0.1, 1.0\].
 
 -    **Timestep Sizes**: An array of timestep sizes. The time unit is second. The array corresponds to the **Timestep Intervals**.
 
+**Note:** Although the terms \"times\" and \"seconds\" are used the times are actually solver progressions if the analysis is not time-dependent.
+
+For how to visualize the results, see the [Elmer visualization](FEM_SolverElmer#Visualization.md) info.
+
 ### Type
 
--    **Simulation type**: If the simulation is *Steady state*, *Transient* or just *Scanning*. Transient means the development over time is calculated. See section [Timestepping](#Timestepping.md) for the necessary settings.
+-    **Simulation type**: If the simulation is *Steady state*, *Transient* or just *Scanning*. Transient means the development over the solver time is calculated. See section [Timestepping](#Timestepping_(transient_analyses).md) for the necessary settings.
 
 -    **Steady State Max Iterations**: The maximum number of steady-state solver runs.
 
@@ -59,7 +67,7 @@ This system has the following properties:
 
 -    **Idrs Parameter**: Parameter for the iterative solver method *Idrs*. This has only an effect if **Linear Solver Type** is *Iterative* and **Linear Iterative Method** is *Idrs*. Starting with the default of 2 is recommended. Setting the parameter to 3 might increase the solving speed a bit. For flow analyses the *Idrs* method is up to 30 % faster than the default *BiCGStab* method.
 
--    **Linear Direct Method**: Method used for direct solving. This has only an effect if The possible methods are *Banded*, *MUMPS* and *Umpfpack*. Note that *MUMPS* usually needs to be installed before you can use it.**Note**: when you use more than one CPU core for the solver (<small>(v1.0)</small> ) only *MUMPS* can be used.
+-    **Linear Direct Method**: Method used for direct solving. This has only an effect if The possible methods are *Banded*, *MUMPS* and *Umpfpack*. Note that *MUMPS* usually needs to be installed before you can use it.**Note**: when you use more than one CPU core for the solver (<small>(v0.21)</small> ) only *MUMPS* can be used. [MUMPS](https://mumps-solver.org/) has to be installed manually to Elmer. It is only available as download per request via email.
 
 -    **Linear Iterations**: Maximal number of iterations for an iterative solver run. This has only an effect if **Linear Solver Type** is *Iterative*.
 
@@ -79,9 +87,9 @@ This system is iterative and has the following properties:
 
 -    **Nonlinear Iterations**: Maximal number of iterations.
 
--    **Nonlinear Newton After Iterations**:
+-    **Nonlinear Newton After Iterations**: The nonlinear solver starts with the robust *Picard* algorithm. After some iterations, the algorithm is changed to the *Newton* algorithm which converges faster but is less robust if the results temporarily diverge (oscillations might occur). This setting sets the number of iterations after which the switch from the *Picard* to the *Newton* algorithm is made.**Note**: the switch is made whatever is reached first, **Nonlinear Newton After Iterations** or **Nonlinear Newton After Tolerance**.
 
--    **Nonlinear Newton After Tolerance**:
+-    **Nonlinear Newton After Tolerance**: The same as **Nonlinear Newton After Iterations** but here a tolerance is set. The tolerance is the norm of the nonlinear residual. If this is reached, the switch from the *Picard* to the *Newton* algorithm is made.
 
 -    **Nonlinear Tolerance**: The tolerance for the solver to stop. If the error is smaller than the tolerance, the solver run will be is finished. Otherwise the full number of In the Elmer output you see in how the error is minimized while the solver is running. In case it does not go down below a certain value that is acceptable but above the current tolerance, you can increase the tolerance.
 

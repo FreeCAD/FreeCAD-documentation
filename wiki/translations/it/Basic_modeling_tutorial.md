@@ -136,10 +136,10 @@ L\'etichetta sul pulsante potrebbe essere diversa, secondo la versione e secondo
 Le istruzioni di cui sopra funzionano comunque, non importa quale etichetta compaia sul pulsante.
 
 
-  {{Userdocnavi
+ {{Userdocnavi
 ---
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Basic modeling tutorial/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Basic modeling tutorial/it

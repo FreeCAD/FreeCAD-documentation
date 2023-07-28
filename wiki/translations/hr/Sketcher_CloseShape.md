@@ -21,6 +21,8 @@ This tool can be used to make a selected contour in sketcher closed by making an
     -   Use the **Z** then **W** keyboard shortcut.
     -   Use the **Sketch → Sketcher tools → [<img src=images/Sketcher_CloseShape.svg style="width:16px"> Close shape** entry from the top menu
 
+
+
 ## Zabilješke
 
 The tool will connect the elements in the order of their selection, so make sure to click and select in the correct order.

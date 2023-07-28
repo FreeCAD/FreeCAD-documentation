@@ -10,11 +10,15 @@
 
 # Sketcher CreateTriangle/de
 
+
+
 ## Beschreibung
 
 Zeichnet ein gleichseitiges Dreieck, das in einen Konstruktionsgeometriekreis eingeschrieben ist. Beim Starten des Werkzeugs ändert sich der Mauszeiger in ein weißes Kreuz mit einem roten Sechsecksymbol. Die Koordinaten des Mauszeigers werden daneben in Echtzeit in blau angezeigt.
 
 ![](images/SketcherCreateTriangleExample.png‎ )
+
+
 
 ## Anwendung
 
@@ -22,6 +26,8 @@ Zeichnet ein gleichseitiges Dreieck, das in einen Konstruktionsgeometriekreis ei
 2.  Klicke einmal, um das Zentrum zu setzen.
 3.  Bewege die Maus und klicke ein zweites Mal, um einen der Knoten zu setzen.
 4.  Drücken von **Esc** oder Klicken der rechten Maustaste bricht die Funktion ab.
+
+
 
 ## Hinweise
 

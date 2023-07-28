@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Lo strumento [Armatura a L](Arch_Rebar_LShape/it.md) consente all\'utente di creare un set di barre d\'armatura a forma di L all\'interno di un oggetto [Struttura](Arch_Structure/it.md).
@@ -29,6 +31,8 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 <img alt="" src=images/Arch_Rebar_LShape_example.png  style="width:400px;"> 
 *Quattro serie di barre di rinforzo a forma di L all'interno di una [Struttura](Arch_Structure/it.md)*
+
+
 
 ## Utilizzo
 
@@ -59,6 +63,8 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 *Pannello Azioni per lo strumento Armatura a L di Arch*
 
+
+
 ## Proprietà
 
 -    {{PropertyData/it|Orientation}}: Decide l\'orientamento dell\'armatura (es. verso il basso, verso l\'alto, a destra o a sinistra).
@@ -79,6 +85,11 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 -    {{PropertyData/it|Spacing}}: La distanza tra gli assi di ogni barra.
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Scripting
 
 
@@ -86,7 +97,23 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 [API Arch](Arch_API/it.md), [API Reinforcement](Reinforcement_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Armatura a L può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+
+</div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento Armatura a L può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
+</div>
+
+
 ```python
 Rebar = makeLShapeRebar(f_cover, b_cover, l_cover, r_cover,
                         diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom Left",
@@ -107,6 +134,8 @@ Rebar = makeLShapeRebar(f_cover, b_cover, l_cover, r_cover,
 -    `amount_spacing_value`specifica il numero di barre di rinforzo o il valore della separazione tra di esse, secondo come sono indicate in `amount_spacing_check`.
 
 -    `orientation`specifica l\'orientamento della barra d\'armatura; può essere `"Bottom Right"`, `"Bottom Left"`, `"Top Right"`, o `"Top Left"`.
+
+
 
 ### Esempio
 

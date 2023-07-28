@@ -16,11 +16,6 @@ Certain properties of the view, like background color, [mouse navigation](Mouse_
 
 ## Actions
 
-
-**Note:**
-
-link actions <small>(v0.19)</small> .
-
 Since the [tree view](tree_view.md) lists most objects that are visible in the 3D view, many of the actions are the same to those that can be executed from the [tree view](tree_view.md).
 
 When the default [Start Workbench](Start_Workbench.md) is active, right clicking on the 3D view shows only one command:

@@ -114,7 +114,7 @@ Ein Draft Text-Objekt ist von einem [App FeaturePython](App_FeaturePython/de.md)
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|World}} the text will be displayed on a plane defined by its **Placement**. If it is {{value|Screen}} the text will always face the screen. This is an inherited property. The mentioned options are the renamed options (<small>(v1.0)</small> ).
+-    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|World}} the text will be displayed on a plane defined by its **Placement**. If it is {{value|Screen}} the text will always face the screen. This is an inherited property. The mentioned options are the renamed options (<small>(v0.21)</small> ).
 
 
 {{TitleProperty|Graphics}}

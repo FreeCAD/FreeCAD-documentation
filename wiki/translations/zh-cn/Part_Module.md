@@ -45,6 +45,8 @@ A more detailed discussion of Part workbench versus Part Design workbench can be
 
 </div>
 
+
+
 ## 工具
 
 
@@ -54,6 +56,8 @@ A more detailed discussion of Part workbench versus Part Design workbench can be
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -87,7 +91,7 @@ A more detailed discussion of Part workbench versus Part Design workbench can be
 
 -   <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Torus](Part_Torus.md): Creates a torus.
 
--   <img alt="" src=images/Part_Tube.svg  style="width:32px;"> [Tube](Part_Tube.md): Creates a tube. <small>(v0.19)</small> 
+-   <img alt="" src=images/Part_Tube.svg  style="width:32px;"> [Tube](Part_Tube.md): Creates a tube.
 
 -   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Create primitives\...](Part_Primitives.md): A tool to create one of the following primitives:
     -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Plane](Part_Plane.md): Creates a plane.
@@ -108,6 +112,8 @@ A more detailed discussion of Part workbench versus Part Design workbench can be
     -   <img alt="" src=images/Part_RegularPolygon.svg  style="width:32px;"> [Regular polygon](Part_RegularPolygon.md): Creates a regular polygon.
 
 -   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Shape builder\...](Part_Builder.md): Creates shapes from various primitives.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -148,7 +154,7 @@ A more detailed discussion of Part workbench versus Part Design workbench can be
 
 -   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Chamfer](Part_Chamfer.md): Chamfers edges of an object.
 
--   <img alt="" src=images/Part_MakeFace.svg  style="width:32px;"> [Make face from wires](Part_MakeFace.md): Makes a face from a set of wires (contours). <small>(v0.19)</small> 
+-   <img alt="" src=images/Part_MakeFace.svg  style="width:32px;"> [Make face from wires](Part_MakeFace.md): Makes a face from a set of wires (contours).
 
 -   <img alt="" src=images/Part_RuledSurface.svg  style="width:32px;"> [Ruled Surface](Part_RuledSurface.md): Creates a ruled surface.
 
@@ -201,7 +207,7 @@ These tools perform boolean operations.
 
 -   <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Cut](Part_Cut.md): Cuts (subtracts) one object from another.
 
--   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Fuse](Part_Fuse.md): Fuses (unions) two objects.
+-   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Fuse](Part_Fuse.md): Fuses (unions) two or more objects.
 
 -   <img alt="" src=images/Part_Common.svg  style="width:32px;"> [Common](Part_Common.md): Extracts the common (intersection) part of two objects.
 
@@ -233,6 +239,8 @@ These tools perform boolean operations.
 -   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width:32px;"> [Toggle Delta](Part_Measure_Toggle_Delta.md): Shows or hides delta measurements.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### 其他工具
@@ -252,9 +260,9 @@ These tools perform boolean operations.
 
 -   <img alt="" src=images/Part_BoxSelection.svg  style="width:32px;"> [Box selection](Part_BoxSelection.md): Selects faces from a rectangular area.
 
--   <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:32px;"> [Shape from Mesh](Part_ShapeFromMesh.md): Creates a shape object from a mesh object.
+-   <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:32px;"> [Create shape from mesh](Part_ShapeFromMesh.md): Creates a shape object from a mesh object.
 
--   <img alt="" src=images/Part_PointsFromMesh.svg  style="width:32px;"> [Points from mesh](Part_PointsFromMesh.md): Creates a shape object made of points from a mesh object. <small>(v0.19)</small> 
+-   <img alt="" src=images/Part_PointsFromMesh.svg  style="width:32px;"> [Create points object from geometry](Part_PointsFromMesh.md): Creates a points object from a geometric object.
 
 -   <img alt="" src=images/Part_MakeSolid.svg  style="width:32px;"> [Convert to solid](Part_MakeSolid.md): Converts a shape object to a solid object.
 
@@ -262,8 +270,8 @@ These tools perform boolean operations.
 
 -   Create a copy:
     -   <img alt="" src=images/Part_SimpleCopy‎.svg  style="width:32px;"> [Create simple copy](Part_SimpleCopy.md): Creates a simple copy of a selected object.
-    -   <img alt="" src=images/Part_TransformedCopy.svg  style="width:32px;"> [Create transformed copy](Part_TransformedCopy.md): Creates a transformed copy of a selected object. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Part_ElementCopy.svg  style="width:32px;"> [Create shape element copy](Part_ElementCopy.md): Creates a copy from an element (vertex, edge, face) of a selected object. <small>(v0.19)</small> 
+    -   <img alt="" src=images/Part_TransformedCopy.svg  style="width:32px;"> [Create transformed copy](Part_TransformedCopy.md): Creates a transformed copy of a selected object.
+    -   <img alt="" src=images/Part_ElementCopy.svg  style="width:32px;"> [Create shape element copy](Part_ElementCopy.md): Creates a copy from an element (vertex, edge, face) of a selected object.
     -   <img alt="" src=images/Part_RefineShape.svg  style="width:32px;"> [Refine shape](Part_RefineShape.md): Cleans faces by removing unnecessary lines.
 
 -   <img alt="" src=images/Part_CheckGeometry.svg  style="width:32px;"> [Check geometry](Part_CheckGeometry.md): Checks the geometry of selected objects for errors.
@@ -276,6 +284,8 @@ These tools perform boolean operations.
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Set colors](Part_FaceColors.md): Assigns colors to individual faces of objects.
 
+
+
 ## 首选项
 
 
@@ -285,6 +295,8 @@ These tools perform boolean operations.
 
 
 </div>
+
+
 
 ## 脚本
 
@@ -298,6 +310,8 @@ These tools perform boolean operations.
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

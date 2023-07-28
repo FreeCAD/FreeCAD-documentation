@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:Mesh Segmentation
-   Name/fr:Mesh Division
-   MenuLocation:Maillages → Diviser le maillage...
+   Name/fr:Mesh Segmentation
+   MenuLocation:Maillages → Segmenter le maillage...
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
    SeeAlso:[Mesh Segmentation adaptée](Mesh_SegmentationBestFit/fr.md)
 ---
@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande **Mesh Division** crée des segments de maillage séparés pour les types de surface spécifiés d\'un objet maillé.
+La commande **Segmentation** crée des segments de maillage séparés pour des types de surface spécifiés d\'un maillage.
 
 
 
@@ -19,9 +19,9 @@ La commande **Mesh Division** crée des segments de maillage séparés pour les 
 
 1.  Sélectionnez un seul objet maillé.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Mesh_Segmentation.svg" width=16px> [Diviser le maillage...](Mesh_Segmentation/fr.md)
+    -   Appuyez sur le bouton **<img src="images/Mesh_Segmentation.svg" width=16px> [Segmenter le maillage...](Mesh_Segmentation/fr.md)
 **
-    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_Segmentation.svg" width=16px> Diviser le maillage...** du menu.
+    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_Segmentation.svg" width=16px> Segmenter le maillage...** du menu.
 3.  Le panneau des tâches **Segmentation du maillage** s\'ouvre.
 4.  Cochez éventuellement l\'option **Lissage du maillage** et spécifiez une valeur pour le lissage du maillage. Plus la valeur est élevée, plus le maillage est supposé lisse. La spécification de {{Value|0}} a le même effet que la désactivation de cette option. Ne sélectionnez pas cette option si vous souhaitez créer des segments plans.
 5.  Sélectionnez le type de surface pour lequel vous souhaitez créer des segments de maillage. Vous pouvez sélectionner plusieurs types, mais cela peut conduire à de moins bons résultats. Les types de surface disponibles sont :

@@ -15,7 +15,7 @@ Crée un composant [Arch](Arch_Workbench/fr.md) non-paramétrique à partir de n
 
 
 
-## utilisation
+## Utilisation
 
 1.  Sélectionnez un objet issu de [Atelier Part](Part_Workbench/fr.md)
 2.  Lancer Arch Composant en utilisant plusieurs méthodes :

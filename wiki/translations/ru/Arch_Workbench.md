@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Введение
 
 <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Верстак Arch](Arch_Workbench/ru.md) обеспечивает современный процесс [информационного моделирования здания](http://ru.wikipedia.org/wiki/BIM) (Building Information Modeling, BIM) внутри FreeCAD, c поддержкой таких функций как полностью параметрические архитектурные элементы вроде стен, балок, крыш, окон, лестниц, труб и фурнитуры. Он поддерживает Industry Foundation Classes ([IFC](Arch_IFC/ru.md)) данные, и создание двумерных планов строений совместно с [верстаком TechDraw](TechDraw_Workbench/ru.md).
@@ -14,6 +16,8 @@
 Разработчики Draft, Arch и BEAM также сотрудничают с крупным [OSArch сообществом](https://osarch.org), в целях улучшения проектирования зданий с помощью полностью бесплатного программного обеспечения.
 
 <img alt="" src=images/Screenshot_arch_window.jpg  style="width:600px;">
+
+
 
 ## Инструменты
 
@@ -47,7 +51,13 @@
 
   - <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Арматура по эскизу](Arch_Rebar.md): Создает арматурный стержень в выбранном элементе конструкции по эскизу.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Светопрозрачный фасад](Arch_CurtainWall/ru.md): Создает светопрозрачный фасад с нуля или на основе выбранного объекта. {{Version/ru|0.19}}
+
+
+</div>
 
 -   <img alt="" src=images/Arch_BuildingPart.png  style="width:32px;"> [Building Part](Arch_BuildingPart/ru.md): Создает часть здания, включающее выбранные объекты.
 
@@ -93,11 +103,29 @@
 
 -   <img alt="" src=images/Arch_Frame.svg  style="width:32px;"> [Каркас](Arch_Frame/ru.md): Создает объект каркас из выбранного макета.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_Fence.svg  style="width:32px;"> [Ограждение](Arch_Fence/ru.md): Создаёт объект - ограждение из выбранных элементов и пути. {{Version/ru|0.19}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Ферма](Arch_Truss/ru.md): Создает ферму по выбранному контуру или с нуля. {{Version/ru|0.19}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_Profile.svg  style="width:32px;"> [Profile](Arch_Profile/ru.md): Создает плоский параметрический профиль. {{Version/ru|0.19}}
+
+
+</div>
 
 -   <img alt="" src=images/Arch_CompSetMaterial.png  style="width:48px;"> [Инструменты материалов](Arch_CompSetMaterial/ru.md)
 
@@ -113,19 +141,23 @@
 
   - <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Соединитель труб](Arch_PipeConnector/ru.md): Создает угловое или Т-образное соединение между двумя или тремя указанными трубами.
 
+
+
 ### Инструменты изменения 
 
 Эти инструменты предназначены для изменения архитектурных объектов.
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Обрезать плоскостью](Arch_CutPlane/ru.md): Обрезает объект по указанной плоскости.
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line.
 
 -   <img alt="" src=images/Arch_Add.png  style="width:32px;"> [Добавить компонент](Arch_Add/ru.md): Добавляет объекты к компоненту.
 
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Удалить компонент](Arch_Remove/ru.md): Вычитает или удаляет объекты из компонента.
 
 -   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Анализ](Arch_Survey/ru.md): Переводит или выводит из режима анализа.
+
+
 
 ### Утилиты
 
@@ -157,9 +189,13 @@
 
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Toggle subcomponents](Arch_ToggleSubs.md): Shows or hides the subcomponents of an Arch object.
 
+
+
 ### Настройки
 
 -   <img alt="" src=images/Std_DlgParameter.png  style="width:32px;"> [Настройки](Arch_Preferences/ru.md): предпочтения для стен, структур, арматуры, окон, лестниц, панелей, труб, сеток и осей.
+
+
 
 ### Форматы файлов 
 
@@ -179,6 +215,8 @@
 ## API
 
 Архитектурный верстак может быть задействован в [Python](Python/ru.md)-скриптах и [макросах](Macros/ru.md), посредством [Arch Python API](Arch_API/ru.md).
+
+
 
 ## Учебники
 

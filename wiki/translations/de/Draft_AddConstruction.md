@@ -10,9 +10,13 @@
 
 # Draft AddConstruction/de
 
+
+
 ## Beschreibung
 
-Der <img alt="" src=images/Draft_AddConstruction.svg  style="width:24px;"> **Draft ZurKonstruktionsgruppeHinzufügen**-Befehl verschiebt Objekte zur [Draft Konstruktionsgruppe](Draft_ToggleConstructionMode/de.md). Er wendet auch die [Hilfsgeometriefarbe](Draft_ToggleConstructionMode/de#Preferences.md) auf die Objekte an.
+Der Befehl <img alt="" src=images/Draft_AddConstruction.svg  style="width:24px;"> **Draft ZurKonstruktionsgruppeHinzufügen** verschiebt Objekte in die [Draft Konstruktionsgruppe](Draft_ToggleConstructionMode/de.md). Er wendet auch die [Hilfsgeometriefarbe](Draft_ToggleConstructionMode/de#Einstellungen.md) auf die Objekte an.
+
+
 
 ## Anwendung
 
@@ -23,19 +27,12 @@ Der <img alt="" src=images/Draft_AddConstruction.svg  style="width:24px;"> **Dra
 3.  Falls sie noch nicht existiert, wird sie zuerst erstellt.
 4.  Die Objekte werden zur Konstruktionsgruppe hinzugefügt und ihre Farbeigenschaften geändert.
 
+
+
 ## Hinweise
 
 -   Objekte können auch durch ziehen und fallen lassen (drag&drop) auf die Gruppen in der [Baumansicht](Tree_view/de.md) zur Konstruktionsgruppe hinzugefügt werden oder durch Verwendung des [Draft ZurGruppehinzufügen](Draft_AddToGroup/de.md)-Befehls. Allerdings wird in beiden Fällen die [Hilfskonstruktionsfarbe](Draft_ToggleConstructionMode/de#Einstellungen.md) nicht angewendet.
 -   Mehr Informationen zur Organisation deines Modells findest du unter [Dokumentstruktur](Document_structure/de.md) und [Arch Tutorium](Arch_tutorial/de#Ihr_Modell_organisieren.md).
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

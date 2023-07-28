@@ -4,9 +4,9 @@
 |Icon=Macro_Screen_Wiki.png
 |Description=Macro spéciale pour l'utilisateur du wiki. Cette macro permet de sauvegarder la vue 3D dans le format souhaité. La vue 3D ou la fenêtre 3D complète de FreeCAD prend les dimensions souhaitées. Une rotation de l'objet sélectionné ou de la vue 3D est possible; pour donner un angle de rotation, le nombre d'images est calculé automatiquement. Il est possible de donner un angle de départ et un angle d'arrivée. Vous devez utiliser un autre programme d'exemple Gimp pour assembler les images et créer le fichier animé.
 |Author=Mario52
-|Version=00.05
-|Date=2021/05/21
-|FCVersion=0.19
+|Version=00.06b
+|Date=2023/06/26
+|FCVersion=0.19 et plus
 |Download=Téléchargez [https://wiki.freecadweb.org/images/f/f5/Macro_Screen_Wiki.png Macro_Screen_Wiki.png] et copiez la dans la même répertoire que la macro
 |SeeAlso= <img src="images/Macro_Copy3DViewToClipboard.png" width=24px>[Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard/fr.md)<br/><img src="images/Snip.png" width=24px> [Macro Snip](Macro_Snip/fr.md)
 }}
@@ -16,7 +16,7 @@
 Cette macro permet à l\'utilisateur de sauvegarder la [vue 3D](3D_view/fr.md) dans le format souhaité. La vue 3D ou la fenêtre 3D complète de FreeCAD prend les dimensions souhaitées. Une rotation de l\'objet sélectionné ou de la vue 3D est possible; pour donner un angle de rotation, le nombre d\'images est calculé automatiquement; il est possible de donner un angle de départ et un angle d\'arrivée. Vous devez utiliser un autre programme d\'exemple Gimp pour assembler les images et créer le fichier animé.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/61571ce0bd41af0471995df7c3ea855f/raw/4fdc5b2db7ed3ed062a2575637e035f728b2e40d/Macro_Screen_Wiki.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/61571ce0bd41af0471995df7c3ea855f/raw/2e2f5d1f30acd9fee9ea58596d0bcaa8d19f03f3/Macro_Screen_Wiki.FCMacro}}
 
 ![](images/Macro_Screen_Wiki_00.png )
 
@@ -29,6 +29,8 @@ Cette macro permet à l\'utilisateur de sauvegarder la [vue 3D](3D_view/fr.md) d
 
 
 *Fenêtre Rotation de la Macro Screen Wiki*
+
+
 
 ## Utilisation
 
@@ -189,7 +191,17 @@ Cette macro permet à l\'utilisateur de sauvegarder la [vue 3D](3D_view/fr.md) d
 3.  
     **+**: augmente la valeur de 10 degrés
 
--   Number images : nombre d\'images enregistrées avec les valeurs données est calculé (approximation + 1)
+-   Number images
+
+1.  
+    **-**: diminue la valeur de 10 images
+
+2.  
+    {{SpinBox|0 Images (+1)}}: Value
+
+3.  
+    **+**: augmente la valeur de 10 images
+
 -   Angle Begin Rotation
 
 1.  
@@ -223,10 +235,18 @@ Cette macro permet à l\'utilisateur de sauvegarder la [vue 3D](3D_view/fr.md) d
     {{CheckBox|Reverse}}: cochée, cette option inverse la rotation de la vue 3D ou de l\'objet.
 
 3.  
-    {{CheckBox|TRUE|Original position}}: cette option rétablit la position originale de la vue 3D ou de l\'objet ayant subi une rotation. Au lieu que la vue 3D ou l\'objet reste dans la dernière position de la rotation.
+    **Point center**: visualise point de rotation, si le point est visible il est inclus dans l\'image sauvée (PS: the point can be hidden by an object)
 
 4.  
+    {{CheckBox|TRUE|Original position}}: cette option rétablit la position originale de la vue 3D ou de l\'objet ayant subi une rotation. Au lieu que la vue 3D ou l\'objet reste dans la dernière position de la rotation.
+
+5.  
+    **Test Rot.**: teste la rotation sans sauver d\'images
+
+6.  
     **Save the animation**: enregistre l\'animation
+
+
 
 ## Exemples
 
@@ -263,6 +283,22 @@ Les images doivent être assemblées à l'aide d'une application tierce qui cré
 *La fenêtre de FreeCAD a été redimensionnée. La dimension peut être différente de la<br/>définition (selon le widget, la barre de titre etc... utilisés.)*
 
 ## Versions
+
+Version=00.06: Version=00.06b: 2023/06/26 : sélectionner le nombre d\'images voulue, bouton pour visualiser la rotation sans sauvegarde, bouton visualiser le point de rotation, ajout du code de wmayer pour rotation au centre de l\'écran:
+
+
+```python
+                #https://forum.freecadweb.org/viewtopic.php?f=22&t=10157
+                cam = Gui.ActiveDocument.ActiveView.getCameraNode()
+                position = cam.position.getValue()
+                orient = cam.orientation.getValue()
+                focalDistance = cam.focalDistance.getValue()
+                viewdir = coin.SbVec3f(0, 0, -1)
+                viewdir = orient.multVec(viewdir)
+                pointRotation = position + viewdir * focalDistance
+                pointRotation = pointRotation2 = App.Vector(pointRotation.getValue()[0], pointRotation.getValue()[1], pointRotation.getValue()[2])
+
+```
 
 Version=00.05 : 2021/05/21 : ajout de code dans la section du fichier Save pour Linux Mint, QFileDialog ignore l\'extension. Seul le chemin+nom est affiché
 

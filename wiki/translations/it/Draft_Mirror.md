@@ -1,164 +1,115 @@
 ---
 - GuiCommand:/it
    Name:Draft Mirror
-   Name/it:Simmetria
-   MenuLocation:Draft → Simmetria
+   Name/it:Specchio
+   MenuLocation:Modifiche → Specchio
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   SeeAlso:[Draft Scala](Draft_Scale/it.md), [Clone](Draft_Clone/it.md)
+   SeeAlso:[Clona](Draft_Clone/it.md)
 ---
 
 # Draft Mirror/it
 
 
-</div>
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_Mirror.svg  style="width:24px;"> **Specchio** crea copie speculari, oggetti [Part Specchio](Part_Mirror/it.md), dagli oggetti selezionati. Un oggetto [Part Specchio](Part_Mirror/it.md) è parametrico, si aggiornerà se il suo oggetto sorgente cambia.
 
-<div class="mw-translate-fuzzy">
+Il comando può essere utilizzato su oggetti 2D creati con [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md), ma anche su molti oggetti 3D come quelli creati con gli ambienti [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) o [Arch](Arch_Workbench/it.md).
 
-Lo strumento <img alt="" src=images/Draft_Mirror.svg  style="width:16px;"> Simmetria produce una copia speculare di un oggetto selezionato, usando l\'operazione [Specchia di Part](Part_Mirror/it.md). La copia è collegata all\'oggetto originale, esattamente come un [Clone](Draft_Clone/it.md). Ciò significa che se l\'oggetto originale cambia forma e proprietà, anche la forma specchiata cambia.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Questo strumento può essere utilizzato su forme 2D create con [Draft](Draft_Workbench/it.md) ma può anche essere utilizzato su molti tipi di oggetti 3D come quelli creati con [Part](Part_Workbench/it.md) o [PartDesign](PartDesign_Workbench/it.md) o [Arch](Arch_Workbench/it.md).
+<img alt="" src=images/Draft_Mirror_example.jpg  style="width:400px;"> 
+*Specchiare un oggetto*
 
 
-</div>
-
-<img alt="" src=images/Draft_Mirror_example.jpg  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Oggetto speculare creato utilizzando una linea di riflessione*
-
-
-</div>
 
 ## Utilizzo
 
-See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
+
+1.  Opzionalmente selezionare uno o più oggetti.
+2.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_Mirror.svg" width=16px> [Specchio](Draft_Mirror/it.md)**.
+    -   Selezionare l\'opzione **Modifiche → <img src="images/Draft_Mirror.svg" width=16px> Specchio** dal menu.
+    -   Usare la scorciatoia da tastiera: **M** poi **I**.
+3.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto nella [Vista 3D](3D_view/it.md).
+4.  Si apre il pannello attività **Specchio**. Vedere [Opzioni](#Opzioni.md) per maggiori informazioni.
+5.  Scegliere il primo punto del piano speculare nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
+6.  Scegliere il secondo punto del piano speculare nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premi il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
+7.  Il piano speculare è definito dai punti selezionati e dalla normale del [piano di lavoro](Draft_SelectPlane/it.md).
 
 
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare un oggetto che si desidera riflettere
-2.  Premere il pulsante **<img src="images/Draft_Mirror.svg" width=16px> [Simmetria](Draft_Mirror/it.md)**. Se nessun oggetto è selezionato, si viene invitati a selezionarne uno.
-3.  Fare clic su un primo punto nella vista 3D o digitare una coordinata e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**.
-4.  Fare clic su un secondo punto nella vista 3D o digitare una coordinata e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**. Questi punti definiscono una linea che, insieme alla vista della telecamera, definisce un piano specchiante che viene utilizzato per creare l\'oggetto specchiato.
-
-
-</div>
-
-## Options
-
-The single character keyboard shortcuts mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
-
-
-<div class="mw-translate-fuzzy">
 
 ## Opzioni
 
--   Premere **X**, **Y** o **Z** dopo il primo punto per vincolare il secondo punto su un dato asse.
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** tra ciascun componente X, Y e Z.
--   Premere **R** o fare clic sulla casella di controllo per attivare la modalità \"relativa\". Se la modalità relativa è attiva, le coordinate del secondo punto sono relative alla prima; se no, sono assolute, prese dall\'origine (0,0,0).
--   Premere **T** oppure fare clic sulla casella di controllo per attivare la modalità \"continua\". Se la modalità continua è attiva, lo strumento Simmetria si riavvia dopo aver assegnato il secondo punto, consentendo di inserire un altro oggetto senza premere nuovamente il pulsante dello strumento.
--   Tenere premuto **Ctrl** mentre si disegna per forzare lo [snap](Draft_Snap.md) al punto di aggancio più vicino, indipendentemente dalla distanza.
--   Tenere premuto **Maiusc** mentre si disegna per [vincolare](Draft_Constrain.md) il secondo punto in orizzontale o in verticale rispetto al primo.
--   Premere il pulsante **Esc** o **Chiudi** per interrompere il comando corrente.
+Le scorciatoie da tastiera a carattere singolo menzionate qui possono essere modificate. Vedere [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
+
+-   Per inserire manualmente le coordinate, inserire le componenti X, Y e Z e premere **Enter** dopo ognuna di esse. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
+-   Premere **R** o fare clic sulla casella di controllo **Relativa** per attivare o disattivare la modalità relativa. Se la modalità relativa è attiva, le coordinate del secondo punto sono relative al primo punto, altrimenti sono relative all\'origine del sistema di coordinate.
+-   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **S** per attivare o disattivare [Aggancia](Draft_Snap/it.md).
+-   Premere **Esc** o il pulsante **Chiudi** per interrompere il comando.
 
 
-</div>
 
-## Notes
+## Note
 
--   Mirrored copies of [Draft Lines](Draft_Line.md), [Draft Wires](Draft_Wire.md), [Draft Arcs](Draft_Arc.md) and [Draft Circles](Draft_Circle.md) can be turned into independent editable Draft objects by using [Draft Downgrade](Draft_Downgrade.md) and then [Draft Upgrade](Draft_Upgrade.md).
--   The [Part SimpleCopy](Part_SimpleCopy.md) command can be used to create a copy of a mirrored object that is not linked to its source object.
+-   Le copie speculari di [Lineee](Draft_Line/it.md), [Polilinee](Draft_Wire/it.md), [Archi](Draft_Arc/it.md) e [Cerchi](Draft_Circle/it.md) possono essere trasformate in oggetti Draft modificabili indipendenti utilizzando \[ \[Draft_Downgrade/it\|Declassa\]\] e poi [Promuovi](Draft_Upgrade/it.md).
+-   Il comando [Part Copia Semplice](Part_SimpleCopy/it.md) può essere utilizzato per creare una copia di un oggetto specchiato che non è collegato al suo oggetto di origine.
 
-## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+## Preferenze
 
-## Properties
+Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
 
-See also: [Property editor](property_editor.md).
+-   Per modificare il numero di decimali utilizzati per l\'inserimento delle coordinate: **Modifica → Preferenze... → Generale → Unità → Impostazioni unità → Numero di cifre decimali**.
 
-A [Part Mirror](Part_Mirror.md) object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
-### Data
+
+## Proprietà
+
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
+
+Un oggetto [Part Specchia](Part_Mirror/it.md) deriva da un oggetto [Funzione Part](Part_Feature/it.md) e ne eredita tutte le proprietà. Ha anche le seguenti proprietà aggiuntive:
+
+
+
+### Dati
 
 
 {{TitleProperty|Base}}
 
--    **Source|Link**: specifies the object that is mirrored.
+-    **Source|Link**: specifica l\'oggetto di cui è stata eseguita la specchiatura.
 
 
 {{TitleProperty|Plane}}
 
+-    **Base|Vector**: specifica il punto base del piano speculare.
 
-<div class="mw-translate-fuzzy">
-
-## Proprietà
-
--    **Source**: specifica l\'oggetto da rispecchiare,
-
--    **Base**: specifica il punto base del piano speculare.
-
--    **Normal**: specifica la direzione normale del piano speculare.
+-    **Normal|Vector**: specifica la direzione normale del piano speculare.
 
 
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-**Vedere anche:**
-
-[Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Simmetria può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
+Per specchiare gli oggetti usare il metodo `mirror` del modulo Draft.
 
 
 ```python
 mirrored_list = mirror(objlist, p1, p2)
 ```
 
+-    `objlist`contiene gli oggetti da specchiare. È un singolo oggetto o un elenco di oggetti.
 
-<div class="mw-translate-fuzzy">
+-    `p1`è il primo punto del piano speculare.
 
--   Crea unoggetto [Simmetria](Part_Mirror/it.md) di Part da una `objlist`, che può essere un singolo oggetto o un elenco di oggetti.
--   Til piano di riflessione è definito dalla linea costruita con i punti `p1` e `p2`, e parallelo alla vista corrente.
--   Viene restituita una `mirrored_list` con i nuovi oggetti.
-    -   
-        `mirrored_list`
-        
-        è un singolo oggetto o un elenco di oggetti, a seconda dell\'input di `objlist`.
+-    `p2`è il secondo punto del piano speculare.
 
+-   Se il [piano di lavoro](Draft_SelectPlane/it.md) è disponibile, l\'allineamento del piano speculare è determinato dalla sua normale, altrimenti viene utilizzata la direzione della vista della telecamera nella [Vista 3D](3D_view/it.md) attiva. Se l\'interfaccia grafica non è disponibile, viene utilizzato l\'asse Z.
 
-</div>
+-    `mirrored_list`viene restituito con i nuovi oggetti `Part::Mirroring`. È un singolo oggetto o un elenco di oggetti, a seconda di `objlist`.
 
 Esempio:
 
@@ -184,15 +135,6 @@ mirrored2 = Draft.mirror([polygon1, polygon2], -p1, -p2)
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

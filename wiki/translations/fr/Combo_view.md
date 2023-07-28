@@ -3,15 +3,17 @@
 
 ## Introduction
 
-La [vue combinée](combo_view/fr.md) est l'un des panneaux principaux de l'[interface](interface/fr.md) FreeCAD. Il est situé sur le côté gauche de l\'écran par défaut. Il est composé de **deux parties**:
+La [vue combinée](combo_view/fr.md) est l'un des panneaux principaux de l'[interface](interface/fr.md) FreeCAD. Il est situé sur le côté gauche de l\'écran par défaut. Il est composé de **deux parties** :
 
--   la [partie supérieure](#Partie_sup.C3.A9rieure.md) comporte deux onglets: l\'onglet **Modèle** et l\'onglet **Tâches**
--   la [partie inférieure](#Partie_inf.C3.A9rieure.md) affiche l\'[éditeur de propriétés](property_editor/fr.md). Il comporte deux onglets: pour les propriétés **Vue** et les **Données**. **\'Remarque:** L\'[éditeur de propriétés](property_editor/fr.md) s\'affiche uniquement lorsque l\'onglet **Modèle** est **actif**, c\'est-à-dire lorsque la [vue arborescente](tree_view/fr.md) est visible.
+-   la [partie supérieure](#Partie_sup.C3.A9rieure.md) comporte deux onglets : l\'onglet **Modèle** et l\'onglet **Tâches**
+-   la [partie inférieure](#Partie_inf.C3.A9rieure.md) affiche l\'[éditeur de propriétés](property_editor/fr.md). Il comporte deux onglets: pour les propriétés **Vue** et les **Données**. **\'Remarque :** L\'[éditeur de propriétés](property_editor/fr.md) s\'affiche uniquement lorsque l\'onglet **Modèle** est **actif**, c\'est-à-dire lorsque la [vue arborescente](tree_view/fr.md) est visible.
 
 
 **Remarque:**
 
 à l\'origine, la partie supérieure ([vue arborescente](tree_view/fr.md)) était séparée de la partie inférieure ([éditeur de propriétés](property_editor/fr.md)), mais elles ont ensuite été combinées et la vue \"combo\" a donc été créée.
+
+
 
 ## Partie supérieure 
 
@@ -24,6 +26,8 @@ L\'onglet **Tâches** affiche le [panneau des tâches](task_panel/fr.md), qui in
 
 
 *La vue combinée comporte deux onglets : l'onglet Modèle qui permet d'afficher la [vue arborescente](tree_view/fr.md) avec l'[éditeur de propriétés](property_editor/fr.md), et l'onglet Tâches qui contrôle l'affichage du [panneau de tâches](task_panel/fr.md).*
+
+
 
 ## Partie inférieure 
 

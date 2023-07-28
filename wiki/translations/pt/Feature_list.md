@@ -9,6 +9,8 @@ Esta é uma lista extensiva, ainda que incompleta dos recursos que o FreeCAD dis
 
 {{TOCright}}
 
+
+
 ## Notas da Versão 
 
 
@@ -24,6 +26,8 @@ Esta é uma lista extensiva, ainda que incompleta dos recursos que o FreeCAD dis
 
 
 </div>
+
+
 
 ## Recursos Principais 
 
@@ -42,6 +46,8 @@ Esta é uma lista extensiva, ainda que incompleta dos recursos que o FreeCAD dis
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

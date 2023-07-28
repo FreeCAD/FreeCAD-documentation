@@ -10,45 +10,58 @@
 
 # Arch BuildingPart/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug Gebäudeteil ersetzt die alten Werkzeuge [Arch Geschoss](Arch_Floor/de.md) und [Arch Gebäude](Arch_Building/de.md) durch eine leistungsfähigere Version, die nicht nur für Geschosse/Etagen/Ebenen verwendet werden kann, sondern auch für alle möglichen Situationen, in denen verschiedene Arch- oder BIM-Objekte gruppiert werden sollen, um diese Gruppe als ein Objekt zu verwenden oder zu vervielfältigen.
+
+
 
 ## Anwendung
 
 1.  Wahlweise ein oder mehrere Objekte auswählen, die in dem neuen Gebäudeteil enthalten sein sollen.
 2.  Die Schaltfläche **<img src="images/Arch_BuildingPart.svg" width=16px> [Arch Gebäudeteil](Arch_BuildingPart/de.md)** drücken.
 
+
+
 ### Hinweise
 
-GebäudeTeile haben eine eingebaute, implizite [Arch SchnittEbene](Arch_SectionPlane/de.md). <small>(v0.19)</small> 
+Gebäudeteile haben eine eingebaute, implizite [Arch SchnittEbene](Arch_SectionPlane/de.md).
 
 Diese Ebene ist immer parallel zur GebäudeTeil Basisebene, aber du kannst den Versatz zwischen ihnen angeben. Daher arbeiten alle Werkzeuge, die mit einer Schnittebene arbeiten, wie z.B. [Entwurf Form2DAnsicht](Draft_Shape2DView/de.md) und [TechDraw ArchAnsicht](TechDraw_ArchView/de.md) auch mit GebäudeTeilen.
+
+
 
 ## Optionen
 
 
 <div class="mw-translate-fuzzy">
 
--   Nach der Erstellung eines GebäudeTeil kannst du weitere Objekte durch Ziehen und Ablegen in der Baumansicht oder mit dem **<img src="images/Arch_Add.svg" width=16px> [Arch Hinzufügen](Arch_Add/de.md)** Werkzeug verwenden.
--   Du kannst Objekte, durch Ziehen und Ablegen aus der Baumansicht heraus oder durch verwenden des **<img src="images/Arch_Remove.svg" width=16px> [Arch Entfernen](Arch_Remove.md)** Werkzeugs aus einem GebäudeTeil entfernen.
--   Durch doppelklicken auf das GebäudeTeil Objekt in der Baumansicht wird die [Working Plane](Draft_SelectPlane.md) auf dessen Stelle gesetzt, und das BuildingPart wird aktiv, was bedeutet daß neue Objekte automatisch dazu hinzugefügt werden.
+-   Nach der Erstellung eines Gebäudeteils können weitere Objekte durch Ziehen und Ablegen in der Baumansicht hinzugefügt werden oder durch Verwenden des Werkzeugs **<img src="images/Arch_Add.svg" width=16px> [Arch Hinzufügen](Arch_Add/de.md)**.
+-   Objekte können, durch Ziehen und Ablegen aus der Baumansicht heraus aus einem Gebäudeteil entfernt werden oder durch Verwenden des Werkzeugs **<img src="images/Arch_Remove.svg" width=16px> [Arch Entfernen](Arch_Remove/de.md)**.
+-   Mit einem Doppelklick auf den Gebäudeteil (BuildingPart-Objekt) in der Baumansicht wird die [Arbeitsebene](Draft_SelectPlane/de.md) auf seine Position gesetzt, und der Gebäudeteil wird aktiviert, was bedeutet daß neue Objekte automatisch zu ihm hinzugefügt werden.
 
-Erneutes Doppelklicken auf das GebäudeTeil deaktiviert es und setzt die Arbeitsebene wieder auf die vorherige Position zurück (in Version 0.19, damit diese Option verfügbar ist, muss sie als true gesetzt werden, im Paneel Ansichtseigenschaften - Interaktion - Doppelklick aktiviert es).
+Erneutes Doppelklicken auf den Gebäudeteil deaktiviert ihn und setzt die Arbeitsebene wieder auf die vorherige Position zurück (in version 0.19 muss diese Option im Eigenschafteneditor unter Ansicht - Interaction - Double Click Activates auf true gesetzt werden, damit sie zur Verfügung steht).
 
--   Das GebäudeTeil kann in der 3D Ansicht eine Markierung mit einer Beschriftung und einer Niveauanzeige anzeigen.
--   Wenn ein GebäudeTeil verschoben/gedreht wird, werden alle seine Kinder, die entweder keine **Bewegen mit dem Bereitsteller** Eigenschaft haben oder diese aktiviert haben, gemeinsam verschoben/gedreht.
--   Gebäudeteile können [Entwurf Klone](Draft_Clone/de.md) sein.
--   Gebäudeteile können jeden IFC Typ annehmen. Ihre Eigenschaft **IFC Typ** bestimmt ihre Verwendung. Wenn du es auf **Gebäude Geschoss** setzt, verhält es sich wie ein Stockwerk. Wenn du es auf **Gebäude** setzt, verhält es sich wie ein Gebäude, und wenn du es auf **Element Baugruppe** setzt, verhält es sich wie eine Baugruppe. Das Symbol ändert sich entsprechend dieser Einstellung, aber ansonsten hat es keine weiteren Auswirkungen in FreeCAD. Der Export in IFC als der eine oder andere Typ kann jedoch Auswirkungen auf andere BIM Anwendungen haben.
+-   Das Gebäudeteil-Objekt kann in der 3D-Ansicht eine Markierung mit einer Benennung und einer Höhenangabe anzeigen.
+-   Wenn ein Gebäudeteil verschoben oder gedreht wird, werden alle abhängigen Objekte, die entweder die {{PropertyData/de|Move With Host}} nicht besitzen oder bei denen diese aktiviert wurde, mit ihm zusammen verschoben bzw. gedreht.
+-   Gebäudeteile können [Draft Klone](Draft_Clone/de.md) sein.
+-   Gebäudeteile können jeden IFC-Typ annehmen. Ihre Eigenschaft **Ifc Type** bestimmt ihre Verwendung. Ist sie auf **Building Storey** gesetzt, verhält er sich wie ein Stockwerk. Ist sie auf **Building** gesetzt, verhält er sich wie ein Gebäude, und ist sie auf **Element Assembly** gesetzt, verhält er sich wie eine Baugruppe. Das Symbol ändert sich entsprechend dieser Einstellung, hat aber ansonsten keine weiteren Auswirkungen in FreeCAD. Der Export nach IFC als der eine oder andere Typ kann jedoch Auswirkungen auf andere BIM-Anwendungen haben.
+-   Gebäudeteile ermöglichen das Festlegen einer **Auto-group capture box**. Nachfolgende Draft- und Arch-Objekte oder alles was Draft.autogroup() verwendet, weden automatisch zum Gebäudeteil hinzugefügt, wenn sie sich vollständig innerhalb der Auswahl-Box befinden. {{Version/de|0.20}}
 
 
 </div>
+
+
 
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein Arch Gebäudeteil (BuildingPart-Objekt) wird von einem [App GeoFeature](App_GeoFeature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
 
@@ -118,6 +131,8 @@ Ein Arch Gebäudeteil (BuildingPart-Objekt) wird von einem [App GeoFeature](App_
 
 -    **User Defined Partitioning Type|String**
     
+
+
 
 ### Ansicht
 
@@ -193,6 +208,8 @@ Ein Arch Gebäudeteil (BuildingPart-Objekt) wird von einem [App GeoFeature](App_
 -    **Set Working Plane|Bool**: If true, when activated, the working plane will automatically adapt to this Building Part.
 
 -    **View Data|FloatList|Hidden**: Camera position data associated with this object.
+
+
 
 ## Skripten
 

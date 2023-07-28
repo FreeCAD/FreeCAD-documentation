@@ -10,6 +10,8 @@
 
 # FEM SolverCalculixCxxtools/de
 
+
+
 ## Beschreibung
 
 [CalculiXccxTools](FEM_SolverCalculixCxxtools.md) enables usage of the [CalculiX](https://en.wikipedia.org/wiki/Calculix) solver. It may be used for:
@@ -17,6 +19,8 @@
 1.  Setting analysis parameters
 2.  Selecting working directory
 3.  Running the CalculiX solver
+
+
 
 ## Anwendung
 
@@ -30,9 +34,13 @@
 5.  Click the **Write .inp file** button.
 6.  Click the **Run CalculiX** button.
 
+
+
 ## Optionen
 
 Click the **Edit .inp file** button to display and edit the CalculiX input file manually before running the analysis. In that case it can be useful to set the **Split Input Writer** property to {{True}}.
+
+
 
 ## Eigenschaften
 
@@ -43,7 +51,7 @@ Default values can be set in the menu **Edit → Preferences → FEM → Calculi
     -   static
     -   frequency
     -   thermomech - for mechanical and thermal loads
-    -   check - to check only the mesh <small>(v0.19)</small> 
+    -   check - to check only the mesh
     -   buckling - for buckling analyses <small>(v0.20)</small> 
 
 -    **Beam Shell Result Output 3D**: note that CalculiX internally expands 1D and 2D elements into 3D elements to accomplish FE analysis
@@ -116,9 +124,13 @@ When running a CalculiX, you might end up with **error 4294977295**. This means 
 1.  reduce the number of mesh nodes, preferably by omitting geometry that is not absolutely necessary for your analysis
 2.  buy more RAM for your PC
 
+
+
 ## Hinweise
 
 Original CalculiX documentation can be found at <http://dhondt.de/> in the \"ccx\" paragraph.
+
+
 
 ## Skripten
 

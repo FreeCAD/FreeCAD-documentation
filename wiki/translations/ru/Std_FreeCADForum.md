@@ -1,26 +1,27 @@
 ---
 - GuiCommand:/ru
-   Name:Std FreeCADForum
-   Name/ru:Std FreeCADForum
-   MenuLocation:{{StdMenu|[Help](Std_Help_Menu/ru.md)}} → FreeCAD Forum
-   Workbenches:All
-   SeeAlso:[Online help](Std_OnlineHelp/ru.md), [User hub](Std_FreeCADUserHub/ru.md), [Help menu](Std_Help_Menu/ru.md)
+   Name/ru:Форум FreeCAD
+   Name:Std_FreeCADForum
+   MenuLocation:Справка → Форум FreeCAD
+   Workbenches:Все
+   SeeAlso:[Сайт FreeCAD](Std_FreeCADWebsite/ru.md), [Пользовательская документация](Std_FreeCADUserHub/ru.md), [Документация по созданию скриптов на Python](Std_FreeCADPowerUserHub/ru.md), [FreeCAD Часто Задаваемые  Вопросы](Std_FreeCADFAQ/ru.md)
 ---
 
 # Std FreeCADForum/ru
 
 
-</div>
 
 ## Описание
 
 The **Std FreeCADForum** command opens the FreeCAD forum website in the system\'s default Internet browser. The command requires a working Internet connection.
 
-Currently the command points to [<https://forum.freecadweb.org>](https://forum.freecadweb.org).
+На текущий момент команда направляет пользователя на сайт [<https://forum.freecad.org>](https://forum.freecad.org).
+
+
 
 ## Применение
 
-1.  Select the **Help → <img src="images/Std_FreeCADForum.svg" width=16px> FreeCAD Forum** option from the menu.
+1.  Выберите пункт меню **Помощь → <img src="images/Std_FreeCADForum.svg" width=16px> Форум FreeCAD**.
 
 
 

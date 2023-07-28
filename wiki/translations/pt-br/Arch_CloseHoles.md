@@ -8,9 +8,13 @@
 
 # Arch CloseHoles/pt-br
 
+
+
 ## Descrição
 
 This tool identifies holes (circular sequence of open edges) in a [Shape](Part_Workbench.md) object and attempts to close it by adding it a new face made from that edges sequence. You must still verify yourself that the result is a solid, though.
+
+
 
 ## Utilização
 
@@ -24,7 +28,7 @@ This tool identifies holes (circular sequence of open edges) in a [Shape](Part_W
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-This tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 solid = closeHole(shape)
 ```

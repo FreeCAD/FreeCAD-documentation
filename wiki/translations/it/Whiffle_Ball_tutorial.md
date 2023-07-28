@@ -21,6 +21,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Introduzione
@@ -50,6 +52,8 @@ You will practice:
 
 ![](images/10_T03_Part_ball_fillet.png ) 
 *Final model of the wiffle ball*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -183,7 +187,7 @@ cliccare semplicemente nello spazio vuoto della vista 3D (Con lo stile di Naviga
 :   7.4. Change **Height** to `120 mm`.
 :   7.5. Open the [Placement](Std_Placement.md) dialog.
 :   7.6. Change **Y** to `60 mm`.
-:   7.7. Change the **Rotation** to `Rotation axis with angle`; **Axis** to `X` (by setting the `X`, `Y` and `Z` values of the axis inputboxes to `0`, `0` and `1` respectively, `Z` is the third inputbox), and **Angle** to `90 deg`.
+:   7.7. Change the **Rotation** to `Rotation axis with angle`; **Axis** to `X` (by setting the `X`, `Y` and `Z` values of the axis inputboxes to `1`, `0` and `0` respectively), and **Angle** to `90 deg`.
 :   7.8. Press the **OK** button to close the dialog.
 
 8\. Insert another cylinder. This time create a duplicate so that the radius and height don\'t have to be changed, only its placement.
@@ -272,6 +276,8 @@ We\'ll duplicate the previous two objects again to use once more as cutting obje
 *Additional external cubes that will be used as cutting objects for the internal solid.*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Tagliare gli angoli, prima parte 
@@ -330,6 +336,8 @@ We\'ll duplicate the previous two objects again to use once more as cutting obje
 *A rotated, hollowed solid, which will be used as a cutting object for some corners of the internal solid.*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Tagliare gli angoli, seconda parte 
@@ -376,6 +384,8 @@ Se tutto è andato bene, il modello dovrebbe assomigliare a questo:
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -426,4 +436,4 @@ Se tutto è andato bene, il modello dovrebbe assomigliare a questo:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Whiffle Ball tutorial/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Whiffle Ball tutorial/it

@@ -29,11 +29,11 @@ If ticked, subsequent invocations of the tool skip showing the **Settings** task
 
 ### Run BOP check 
 
-If ticked, additionally a Boolean OPerations (BOP) check is performed. <small>(v0.19)</small> 
+If ticked, additionally a Boolean OPerations (BOP) check is performed.
 
 ### Log errors 
 
-If ticked, any errors found are also logged in the [report view](Report_view.md). <small>(v0.19)</small> 
+If ticked, any errors found are also logged in the [report view](Report_view.md).
 
 ## Shape Content 
 

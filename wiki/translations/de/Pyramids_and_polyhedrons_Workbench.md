@@ -11,13 +11,7 @@ Dieser Arbeitsbereich erstellt:
 -   Parametrische Polyeder: Tetraeder, Hexaeder, Oktaeder, Dodekaeder, Ikosaeder, Ikosaeder_abgestumpft
 -   Geodätische Kugeln (mit den Unterteilungen 1 bis 10)
 
-
-<div class="mw-translate-fuzzy">
-
-Parameter wie Radius und Seite, \...können genau wie bei normalen Teilen eingestellt werden
-
-
-</div>
+Parameter wie Radius und Seite, \...können genau wie bei normalen Teilen eingestellt werden.
 
 <img alt="" src=images/Pyramids-and-Polyhedrons_workbench.png  style="width:600px;">
 
@@ -33,26 +27,21 @@ Manual install
 
 Go to <https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons> and follow the instructions there. Further details about this workbench can also be found there.
 
+
+
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
--   Einmal installiert, öffne den Arbeitsbereich Polygone
--   Klicke auf einen Teil deiner Wahl und passe die Parameter deinen Wünschen an.
+-   Einmal installiert, öffne den Arbeitsbereich Pyramiden und Vielecke
+-   Klicke auf ein Teil deiner Wahl und passe die Parameter deinen Wünschen an.
 
 
-</div>
 
-## Tutorials on youtube 
+## Anleitungen auf Youtube 
 
-
-<div class="mw-translate-fuzzy">
-
-Weitere Einzelheiten über diesen Arbeitsbereich findest du auf dem speziellen GitHub Repo: <https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons>
+-   Pyramiden Verwendung und Möglichkeiten: <https://youtu.be/H8IgmzpMpSg>
+-   Weiter fortgeschrittene: Das Modell einer geodätischen Kuppel: <https://youtu.be/FsYHYnVcVvI>
 
 
-</div>
 
 ## Diskussion
 

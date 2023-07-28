@@ -33,15 +33,11 @@ Wenn Sie einen Kreis in einem Loch auswählen, oder alternativ gleichzeitig die 
 
 Die Erstellung des Threads dauert einige Zeit. Seien Sie geduldig und sehen Sie sich die CPU-Auslastung an.
 
+
+
 ## Skript
 
-
-<div class="mw-translate-fuzzy">
-
-Die neueste Version des Makros finden Sie unter [ScrewMaker.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/ScrewMaker.FCMacro) Der einfachste Weg, dieses Makro zu installieren, ist jedoch die[Addon Manager](Std_AddonMgr/de.md).
-
-
-</div>
+Die neueste Version des Makros finden Sie unter [ScrewMaker.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/ScrewMaker.FCMacro), aber der einfachste Weg, dieses Makro zu installieren, ist mit dem [Addon-Manager](Std_AddonMgr/de.md).
 
 ToolBar Icon ![](images/Macro_screw_maker1_2.png )
 

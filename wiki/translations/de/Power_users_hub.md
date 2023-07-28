@@ -14,6 +14,8 @@ FreeCAD ist durch [Python](Python/de.md) Code erweiterbar, der direkt in der [Py
 
 Wenn du Inhalte zu diesen Seiten beitragen möchtest, beantrage ein Wiki Zugang mit Berabeiterberechtigungen [im Forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830), und lies die [WikiSeiten](WikiPages/de.md) für die allgemeinen Richtlinien, die du befolgen solltest. Für weitere Möglichkeiten, zum Projekt beizutragen, siehe die [FreeCAD Hilfe](Help_FreeCAD/de.md) Seite.
 
+
+
 ## Anpassen von FreeCAD 
 
 -   [Anpassung der Benutzeroberfläche](Interface_Customization/de.md): Beginnend mit dem Anfang: Werkzeugleisten und Tastaturkürzel
@@ -22,23 +24,26 @@ Wenn du Inhalte zu diesen Seiten beitragen möchtest, beantrage ein Wiki Zugang 
 -   [Anpassung der Werkzeugleisten](Customize_Toolbars/de.md)
 -   [Weitere Arbeitsbereiche installieren](Installing_more_workbenches/de.md)
 
+
+
 ## Skripten in FreeCAD 
+
+
 
 ### Allgemein
 
-
-<div class="mw-translate-fuzzy">
-
--   [Einführung in Python](Introduction_to_Python/de.md) - Siehe auch andere Python Tutorien am Ende dieser Seite.
--   [Python Skriptsprache Tutorien](Python_scripting_tutorial/de.md) - Ein allgemeiner Blick auf Python Scriptsprache in FreeCAD
--   [FreeCAD Grundlagen Scriptsprache](FreeCAD_Scripting_Basics/de.md): Nun, die Grundlagen\...
--   [Gui Befehl](Gui_Command/de.md): Hinzufügen von benutzerdefinierten Befehlen zur GUI
+-   [Skripterstellung und Makros](Scripting_and_macros/de.md) - Eine Liste zugehöriger Wiki-Seiten
+-   [Einführung in Python](Introduction_to_Python/de.md) - Siehe auch andere Python-Tutorien am Ende dieser Seite.
+-   [Anleitung zur Skripterstellung in FreeCAD](Python_scripting_tutorial/de.md) - Ein allgemeiner Blick auf die Skriptsprache Python in FreeCAD
+-   [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md): Nun, die Grundlagen\...
+-   [FreeCAD-Handbuch - Abschnitt Skripterstellung mit Python](Manual:A_gentle_introduction/de.md): Mehrere Kapitel Einführung in die Skripterstellung mit Python in FreeCAD
+-   [Gui Befehl](Gui_Command/de.md): Hinzufügen von benutzerdefinierten Befehlen zur Benutzerschnittstelle
 -   Verwendung von gemischten [Einheiten](Units/de.md) in FreeCAD
--   [Profilerstellung](Profiling/de.md) des Python Code
--   [Fehlerdiagnose](Debugging#Python_Debugging/de.md) des Python-Kodes
+-   [Profilieren](Profiling/de.md) des Python Codes
+-   [Fehlerdiagnose](Debugging/de#Python_Fehlerdiagnose.md) des Python-Codes
+-   [Python Entwicklungsumgebung](Python_Development_Environment/de.md) - Eine einfache in FreeCAD enthaltene Entwicklungsumgebung für Python
 
 
-</div>
 
 ### Module
 
@@ -47,9 +52,13 @@ Die Funktionalität von FreeCAD ist in Module unterteilt, die sich mit spezielle
 -   Die [Einbaumodule](Builtin_modules/de.md) sind die wichtigsten FreeCAD Module. Sie enthalten Werkzeuge zur Manipulation allgemeiner FreeCAD Konfigurationen, Dokumente und deren Inhalte.
 -   [Arbeitsbereich Erstellung](Workbench_creation/de.md) zeigt Dir, wie Du Deine eigene Arbeitsbereich erstellen kannst.
 
+
+
 #### Arbeiten mit Netzen 
 
 -   [Polygonnetz Skripten](Mesh_Scripting/de.md): Wie man mit dem [Polygonnetz Arbeitsbereich](Mesh_Workbench/de.md) interagiert
+
+
 
 #### Arbeiten mit Teilen 
 
@@ -58,15 +67,21 @@ Die Funktionalität von FreeCAD ist in Module unterteilt, die sich mit spezielle
 -   [PythonOCC](PythonOCC/de.md): Wie man die gesamte Open CASCADE Leistung entfesselt
 -   [Polygonnetz zu Teil](Mesh_to_Part/de.md): Konvertierung zwischen Objekttypen
 
+
+
 #### Der Zugriff auf die Coin Szenengraph 
 
 -   [Szenengraph](Scenegraph/de.md): Wie die FreeCAD Szenendarstellung funktioniert
 -   [Pivy](Pivy/de.md): Wie man auf den Szenengraph zugreift und ihn ändert
 
+
+
 ### Steuerung der Qt Schnittstelle 
 
 -   [PySide](PySide/de.md): Wie man auf die Schnittstelle zugreift und deren Inhalt ändert
 -   [Einbetten von FreeCADGui](Embedding_FreeCADGui/de.md) in eine andere Qt Anwendung mit PyQt
+
+
 
 ### Arbeiten mit parametrischen Objekten 
 
@@ -74,6 +89,8 @@ Die Funktionalität von FreeCAD ist in Module unterteilt, die sich mit spezielle
     -   [Geskriptete Objekte mit Anhang](Scripted_objects_with_attachment/de.md): wie man geskriptete Objekte an andere Objekte anhängen kann.
     -   [Geskriptete Objekte, die Attribute speichern](Scripted_objects_migration/de.md): wie man Attribute der Proxy Klasse mit `__getstate__` und `__setstate__` speichert und wiederherstellt.
     -   [Geskriptete Objekte migrieren](Scripted_objects_migration/de.md): wie man alte geskriptete Objekte in eine neue Klasse überführt.
+
+
 
 ### Beispiele
 
@@ -84,11 +101,15 @@ Die Funktionalität von FreeCAD ist in Module unterteilt, die sich mit spezielle
 -   Der [Arbeitsbereich Entwurf](Draft_Workbench/de.md) fügt FreeCAD grundlegende 2D Zeichenfunktionen hinzu. Es ist vollständig in Python geschrieben, so dass es ein gutes Beispiel sein kann, wenn man eigene Module schreiben will.
 -   [FreeCAD Vektor Mathematische Bibliothek](FreeCAD_vector_math_library/de.md) : Einige praktische Funktionen zur Manipulation von FreeCAD Vektoren. Diese Bibliothek ist auch im Draft Modul enthalten.
 
+
+
 ## API Funktionen 
 
 Die vollständige API-Dokumentation von FreeCAD findest Du unter <http://www.freecadweb.org/api/> . Es enthält sowohl C++ als auch Python-APIs und ist noch nicht vollständig gut formatiert, was bei der Suche nach nur Python Code verwirrend sein kann. Eine einfacher zu durchsuchende Version findest Du [here]([:Category_API.md)\]. Beachte, dass es unvollständig sein kann, da es manuell aktualisiert wird. Für genauere Informationen durchsuche die Module direkt von der Python-Konsole von FreeCAD aus.
 
 Verwandt: [Aussetzen von C++ in Python ](Exposing_C%2B%2B_to_Python/de.md)
+
+
 
 ## Erweiterte Modifikation 
 
@@ -97,6 +118,8 @@ Verwandt: [Aussetzen von C++ in Python ](Exposing_C%2B%2B_to_Python/de.md)
 -   [Kompilieren auf Windows](Compile_on_Windows/de.md) und [Kompilieren auf Linux](Compile_on_Linux/Unix/de.md)
 -   [Markenbindung](Branding/de.md): Einfache Änderungen, die am Quellcode vorgenommen werden können, um einige Aspekte von FreeCAD zu ändern.
 -   [Zusätzliche Python Module](Extra_python_modules/de.md) : Erweitere den FreeCAD Python Übersetzer mit diesen leistungsstarken Modulen!
+
+
 
 ## Python Tutorien 
 
@@ -127,6 +150,8 @@ Die folgenden beiden Referenzen sind PyQt spezifisch (nicht PySide), könnten ab
 -   [Pivy - Einbetten einer dynamischen Skriptsprache in eine Szenengrafik-Bibliothek](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.108.947&rep=rep1&type=pdf) : These, die Pivy im Detail erklärt
 -   [Hochwertige 3D-Grafikprogrammierung in Python](http://ftp.ntua.gr/mirror/python/pycon/dc2004/papers/47/) : Pivy Beispiel von Pycon 2004
 -   [Einführung von Pivy in die studierstube](https://www.semanticscholar.org/paper/Integrating-Pivy-into-Studierstube-4.2-Gruber/08c9a89c8326c87f81c2d83428029fbfb6c2ae64) [(Spiegel)](https://www.researchgate.net/publication/228737136_Integrating_Pivy_into_Studierstube_42) : Ein Papier, die nicht wirklich ein Tutorium ist, aber gut veranschaulicht, wie Pivy arbeitet (erfordert ein akademisches Konto)
+
+
 
 ## Gemeinschaftsprojekte
 

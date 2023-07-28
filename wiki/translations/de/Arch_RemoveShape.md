@@ -9,26 +9,20 @@
 
 # Arch RemoveShape/de
 
+
+
 ## Beschreibung
 
-Dieses Werkzeug versucht, beim entfernen der inneren kubische Form eines **<img src="images/Arch_Wall.svg" width=16px> [Arch Wand](Arch_Wall/de.md)** oder **<img src="images/Arch_Structure.svg" width=16px> [Arch Struktur](Arch_Structure/de.md)**, und einstellen seiner Eigenschaften, es vollständig parametrisch zu machen. Dieses Werkzeug funktioniert nur, wenn die zugrunde liegende Form kubisch ist (genau 6 Flächen, alle Ecken haben nur rechte Winkel).
+Dieses Werkzeug versucht sich daran, die innere kubische Form einer **<img src="images/Arch_Wall.svg" width=16px> [Wand](Arch_Wall/de.md)** oder einer **<img src="images/Arch_Structure.svg" width=16px> [Struktur](Arch_Structure/de.md)** zu entfernen sowie ihre Eigenschaften anzupassen und sie damit vollständig zu parametrisieren. Dieses Werkzeug funktioniert nur, wenn die zugrundeliegende Form kubisch ist (genau 6 Flächen, alle Ecken haben nur rechte Winkel).
+
+
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle eine **<img src="images/Arch_Wall.svg" width=16px> [Wand](Arch_Wall/de.md)
-** oder ein **<img src="images/Arch_Structure.svg" width=16px>[Arch Struktur](Arch_Structure/de.md)**
-2.  Drücke die **<img src="images/Arch_RemoveShape.svg" width=16px>** Schaltfläche oder verwende **Arch** → **Dientsprogramme** → **<img src="images/Arch_RemoveShape.svg" width=16px> [Entferne Form](Arch_RemoveShape/de.md)** aus dem Hauptmenü.
+1.  Eine **<img src="images/Arch_Wall.svg" width=16px> [Wand](Arch_Wall/de.md)** oder eine **<img src="images/Arch_Structure.svg" width=16px>[Struktur](Arch_Structure/de.md)** auswählen
+2.  Die Schaltfläche **<img src="images/Arch_RemoveShape.svg" width=16px> [FormEntfernen](Arch_RemoveShape/de.md)** drücken oder den Menüeintrag **Arch** → **Dientsprogramme** → **<img src="images/Arch_RemoveShape.svg" width=16px> [FormEntfernen](Arch_RemoveShape/de.md)** auswählen.
 
 
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -37,18 +31,7 @@ Dieses Werkzeug versucht, beim entfernen der inneren kubische Form eines **<img 
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden:
-
-
-</div>
-
-
+Dieses Werkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus durch folgende Funktion verwendet werden: 
 ```python
 removeShape(objs, mark=True)
 ```
@@ -76,15 +59,6 @@ FreeCAD.ActiveDocument.recompute()
 Arch.removeShape(Structure)
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

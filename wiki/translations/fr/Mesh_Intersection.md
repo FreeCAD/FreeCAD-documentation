@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande **Mesh Intersection** crée un nouvel objet maillé non paramétrique, un [Mesh Feature](Mesh_Feature/fr.md), qui est l\'intersection (partie commune) de deux objets maillés.
+La commande **Intersection** crée un nouvel objet maillé non paramétrique, un [Mesh Feature](Mesh_Feature/fr.md), qui est l\'intersection (partie commune) de deux objets maillés.
 
 [OpenSCAD](http://www.openscad.org/) doit être installé pour utiliser cette commande et le chemin d\'accès à son exécutable doit être défini dans les [Préférences d\'OpenSCAD](OpenSCAD_Preferences/fr.md).
 

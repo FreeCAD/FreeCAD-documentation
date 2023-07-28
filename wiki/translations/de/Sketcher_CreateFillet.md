@@ -10,6 +10,8 @@
 
 # Sketcher CreateFillet/de
 
+
+
 ## Beschreibung
 
 Dieses Werkzeug erzeugt eine Verrundung zwischen zwei Linien.
@@ -17,6 +19,8 @@ Dieses Werkzeug erzeugt eine Verrundung zwischen zwei Linien.
 Beim Starten des Werkzeugs werden Auswahlen gelöscht und der Mauszeiger ändert sich in ein weißes Kreuz mit einem roten Verrundungssymbol. Es bleibt aktiv, so dass du mehrere Verrundungen vornehmen kannst.
 
 ![](images/SketcherCreateFilletExample.png‎ )
+
+
 
 ## Anwendung
 

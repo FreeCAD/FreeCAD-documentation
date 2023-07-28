@@ -16,6 +16,8 @@ La commande **Std Fenêtres** ouvre une boîte de dialogue avec une liste de fen
 ![](images/Std_Windows_dialog.png ) 
 *La boîte de dialogue Choisir une fenêtre*
 
+
+
 ## Utilisation
 
 1.  Sélectionnez l\'option **Fenêtres → <img src="images/Std_Windows.svg" width=16px> Fenêtres...** dans le menu.
@@ -29,6 +31,8 @@ La commande **Std Fenêtres** ouvre une boîte de dialogue avec une liste de fen
 ## Options
 
 -   Appuyez sur **Echap** ou sur le bouton **Annuler** pour annuler la commande.
+
+
 
 ## Remarques
 

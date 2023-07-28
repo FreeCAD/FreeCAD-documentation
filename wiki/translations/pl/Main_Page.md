@@ -53,7 +53,7 @@ W projekcie FreeCAD jest wiele do zrobienia, jeśli jesteś zainteresowany pomoc
 -   pomoc w przygotowaniu pakietów najnowszej wersji FreeCAD dla Twojego ulubionego systemu operacyjnego,
 -   pomagając innym ludziom wokół ciebie odkrywajmy FreeCAD.
 
-Strona [Pomóż w rozwoju FreeCAD](Special:MyLanguage/help_FreeCAD.md) opisuje wszystko bardziej szczegółowo. Od 2016 roku FreeCAD uczestniczy również w [Google Summer of Code](Google_Summer_of_Code.md). Strona [Centrum współtwórców](Contributors_hub/pl.md) to kolejny wysiłek, aby zebrać możliwe sposoby pomocy i udziału w projekcie FreeCAD.
+Strona [Pomóż w rozwoju FreeCAD](Special:MyLanguage/help_FreeCAD.md) opisuje wszystko bardziej szczegółowo. Od 2016 roku FreeCAD uczestniczy również w [Google Summer of Code](Google_Summer_of_Code.md).
 
 
 

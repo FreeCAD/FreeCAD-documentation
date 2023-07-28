@@ -13,9 +13,11 @@
 
 
 
-## Einführung
 
-In diesem Tutorium werden wir die Fließgeschwindigkeit zu FreeCAD hinzufügen und die Unterstützung für den Elmer-Löser einführen. Bitte stelle sicher, dass du [Extend FEM Module](Extend_FEM_Module/de.md) gelesen und verstanden hast, bevor du dieses Tutorium liest.
+
+## Einleitung
+
+In dieser Anleitung werden wir FreeCAD die Gleichung **Strömung** (Flow) hinzufügen und die Unterstützung für den Löser Elmer implementieren. Bitte stelle sicher, dass du [FEM-Modul erweitern](Extend_FEM_Module/de.md) gelesen und verstanden hast, bevor du diese Anleitung liest.
 
 Die Aufgabe kann in fünf Teile aufgeteilt werden.
 
@@ -24,6 +26,8 @@ Die Aufgabe kann in fünf Teile aufgeteilt werden.
 -   **Löserobjekt erweitern**. Dem Elmer-Löserobjekt Unterstützung für die neue Gleichung hinzufügen.
 -   **Writer-Objekt erweitern**. Erweitern des Elmer-Analyseexports zur Unterstützung des neuen Gleichungstyps.
 -   **GUI-Werkzeug zum Erstellen einer Gleichung**. Zugriff auf die neue Gleichungsfunktion über den GUI-Arbeitsbereich.
+
+
 
 ## Neuer Gleichungstyp 
 
@@ -46,6 +50,8 @@ class FlowViewProxy(BaseViewProxy):
         return ":/icons/FEM_EquationFlow.svg"
 ```
 
+
+
 ## Neues Elmers Gleichungs Objekt 
 
 In diesem Schritt werden wir das Dokumentobjekt implementieren. Wir müssen eine neue Datei {{Incode|flow.py}} hinzufügen unter:
@@ -63,12 +69,16 @@ und die folgenden Dateien ändern:
 
 Beginnen wir dem Hinzufügen der neuen Datei {{Incode|flow.py}}. Diese Datei kann aus einer bestehenden Gleichung kopiert werden.
 
+
+
 ### Schlüsselwörter
 
 -   Falls die neue Gleichung nur Schlüsselworte für **lineare** Systeme unterstützt, kopiere das {{Incode|femsolver/elmer/equations/elasticity.py}}-Modul.
 -   Falls die neue Gleichung Schlüsselworte für **lineare** und **nicht-lineare** Systeme unterstützt, kopiere das {{Incode|femsolver/elmer/equations/heat.py}}-Modul.
 
 Die Strömungsgleichung ist eine potenziell nicht-lineare Gleichung. Das bedeutet, dass unsere Arbeit auf `heat.py` basieren wird.
+
+
 
 ### Dateien bearbeiten 
 
@@ -105,6 +115,8 @@ Schließlich muss man eine **makeEquationFlow**-Definition in {{Incode|src/Mod/F
 
 FreeCAD benutzt **make** zur Erstellung des Programms. Deshalb müssen wir die neue Moduldatei ({{Incode|flow.py}}) in `src/Mod/Fem/CMakeLists.txt` registrieren, wie in [FEM Modul erweitern](https://www.freecadweb.org/wiki/Extend_FEM_Module) beschriebenen. Die passenden Listen lassen sich leicht finden, indem man nach vorhandenen Gleichungsmoduldateien von Elmer sucht.
 
+
+
 ## Löser Objekt erweitern 
 
 In diesem Schritt werden wir die folgenden Dateien modifizieren:
@@ -129,6 +141,8 @@ _EQUATIONS = {
 +    "Flow": flow,
 }
 ```
+
+
 
 ## Schreiber Objekt erweitern 
 
@@ -182,6 +196,8 @@ kann eine Reihe weiterer detaillierter Methoden kontrollieren. Unsere Fließ-Gle
     
 
 Nun haben wir den Funktionsteil der neuen Gleichung beendet. Nun werden wir die neue Gleichung an die GUI anbinden.
+
+
 
 ## GUI Werkzeug zum Erstellen einer Gleichung 
 

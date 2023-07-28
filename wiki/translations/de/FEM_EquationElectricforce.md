@@ -1,21 +1,26 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:FEM EquationElectricforce
-   MenuLocation:Solve → Electromagnetic Equations → Electricforce equation
-   Workbenches:[FEM](FEM_Workbench.md)
+   Name/de:FEM GleichungElektrischeKraft
+   MenuLocation:Lösen → Electromagnetic Equations → Gleichung für elektrische Kraft
+   Workbenches:[FEM](FEM_Workbench/de.md)
    Version:0.19
-   SeeAlso:[FEM Electrostatic equation](FEM_EquationElectrostatic.md)
+   SeeAlso:[FEM GleichungElektrostatik](FEM_EquationElectrostatic/de.md)
 ---
 
 # FEM EquationElectricforce/de
 
-## Description
 
-This equation describes the electrostatic force acting on a surface.
+
+## Beschreibung
+
+Diese Gleichung beschreibt die elektrostatische Kraft, die auf einer Oberfläche wirkt.
 
 For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Electrostatic force*.
 
-## Usage
+
+
+## Anwendung
 
 1.  After adding an Elmer solver as described [here](FEM_SolverElmer#Equations.md), select it in the [tree view](Tree_view.md).
 2.  Either use the toolbar button <img alt="" src=images/FEM_EquationElectricforce.svg  style="width:24px;"> or the menu **Solve → Electromagnetic Equations → Electricforce equation**.
@@ -36,9 +41,11 @@ The electricforce equation provides this special setting:
 
 The electricforce equation does not have own constraints. It takes the <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [electrostatic potential constraint](FEM_ConstraintElectrostaticPotential.md) from the <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> [Electrostatic equation](FEM_EquationElectrostatic.md). In the constraint it is important to use the option **Calculate Electric Force**.
 
-## Result
 
-The result is the electric force density in $\rm N/m^2$.
+
+## Ergebnis
+
+Das Ergebnis it die elektrische Kraft in $\rm N/m^2$.
 
 
 

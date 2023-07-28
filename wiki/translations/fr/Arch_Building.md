@@ -14,6 +14,8 @@
 
 Arch Bâtiment est un type spécial d\'objet de groupe FreeCAD particulièrement adapté pour représenter une unité de construction entière. Ils sont principalement utilisés pour organiser votre modèle, en contenant des objets [Arch Niveaux](Arch_Floor/fr.md).
 
+
+
 ## Utilisation
 
 1.  Optionnellement, sélectionnez un ou plusieurs objets que vous voulez inclure dans votre nouveau bâtiment
@@ -25,6 +27,8 @@ Arch Bâtiment est un type spécial d\'objet de groupe FreeCAD particulièrement
 -   Après la création du bâtiment, vous pouvez ajouter un ou plusieurs objets que vous pouvez copier/coller dans la vue arborescente ou utilisez l\'outil **<img src="images/Arch_Add.svg" width=16px> [Arch Ajouter](Arch_Add/fr.md)**.
 -   Vous pouvez effacer le bâtiment que vous avez copier/coller dans la vue arborescente ou utiliser l\'outil **<img src="images/Arch_Remove.svg" width=16px> [Arch Soustraire](Arch_Remove/fr.md)**.
 
+
+
 ## Propriétés
 
 -    **Building Type**: Le type de ce bâtiment, à choisir dans une liste.
@@ -32,11 +36,11 @@ Arch Bâtiment est un type spécial d\'objet de groupe FreeCAD particulièrement
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Bâtiment peut être utilisé à l\'intérieur d\'une [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante: 
+L\'outil Bâtiment peut être utilisé à l\'intérieur d\'une [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante : 
 ```python
 Building = makeBuilding(objectslist=None, baseobj=None, name="Building")
 ```

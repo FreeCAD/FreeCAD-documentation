@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -16,6 +18,8 @@ The base geometry can belong to curves created with the [Draft Workbench](Draft_
 
 <img alt="" src=images/Surface_Filling_example.png  style="width:600px;"> 
 *Two filled surfaces delimited by four edges located on the XY plane. The surface on the right is additionally controlled by a non-boundary edge.*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -34,6 +38,8 @@ The base geometry can belong to curves created with the [Draft Workbench](Draft_
 
 
 </div>
+
+
 
 ## Opţiuni
 
@@ -64,6 +70,8 @@ The **Support surface** acts as an additional constraint for the surface. The fo
 4.  The result matches the four boundary edges, but the inner shape is quite different from the cylindrical face.
 5.  Edit the Surface object and for the **Support surface** select the cylindrical face.
 6.  The modified shape matches the cylindrical face much more closely.
+
+
 
 ## Proprietăți
 

@@ -9,14 +9,20 @@
 
 # Std DlgPreferences/pl
 
+
+
 ## Opis
 
 Polecenie **Std: Okno dialogowe preferencji** otwiera edytor [Edytor ustawień](Preferences_Editor/pl.md).
+
+
 
 ## Użycie
 
 1.  Wybierz opcję z menu **Edycja → <img src="images/Std_DlgPreferences.svg" width=24px> Preferencje
 **
+
+
 
 ## Uwagi
 

@@ -5,7 +5,7 @@
    MenuLocation:brak
    Workbenches:wszystkie
    Version:0.17
-   SeeAlso:[Grupa](Std_Group.md), [Zawartość](PartDesign_Body/pl.md)
+   SeeAlso:[Grupa](Std_Group/pl.md), [Zawartość](PartDesign_Body/pl.md)
 ---
 
 # Std Part/pl
@@ -15,23 +15,23 @@
 ## Opis
 
 
-**[<img src=images/Std_Part.svg style="width:16px"> [Std: Część](Std_Part.md)**
+**[<img src=images/Std_Part.svg style="width:16px"> [Std: Część](Std_Part/pl.md)**
 
-*(wewnętrznie nazywany [App: Część](App_Part.md))* jest to uniwersalny kontener, który gromadzi wspólnie grupę obiektów, dzięki czemu można je przesuwać razem jako całość w oknie [widoku 3D](3D_view/pl.md).
+*(wewnętrznie nazywany [App: Część](App_Part/pl.md))* jest to uniwersalny kontener, który gromadzi wspólnie grupę obiektów, dzięki czemu można je przesuwać razem jako całość w oknie [widoku 3D](3D_view/pl.md).
 
-Element **Std: Część** został opracowany jako podstawowy element konstrukcyjny do tworzenia [zespołów](Assembly/pl.md) mechanicznych. W szczególności, ma on za zadanie uporządkować obiekty, które mają kształt [części TopoShape](Part_TopoShape/pl.md), jak [Część: Bryły pierwotne](Part_Primitives/pl.md), [Projekt Części: Zawartość](PartDesign_Body/pl.md) i inne [cechy Części](Part_Feature/pl.md). Std: Część dostarcza [obiekt Odniesienie położenia](#Odniesienie_położenia.md) z lokalnymi osiami X, Y i Z oraz płaszczyznami standardowymi, które mogą być używane jako odniesienie do położenia obiektów zamkniętych. Ponadto Std: Część mogą być zagnieżdżone wewnątrz innych Std: Część w celu utworzenia dużego zespołu z mniejszych podzespołów.
+Element **Std: Część** został opracowany jako podstawowy element konstrukcyjny do tworzenia [zespołów](Assembly/pl.md) mechanicznych. W szczególności, ma on za zadanie uporządkować obiekty, które mają kształt [części TopoShape](Part_TopoShape/pl.md), jak [Część: Bryły pierwotne](Part_Primitives/pl.md), [Projekt Części: Zawartość](PartDesign_Body/pl.md) i inne [cechy Części](Part_Feature/pl.md). Std: Część dostarcza [obiekt Odniesienie położenia](#Odniesienie_położenia.md) z lokalnymi osiami X, Y i Z oraz płaszczyznami standardowymi, które mogą być używane jako odniesienie do położenia obiektów zamkniętych. Ponadto obiekty Std: Część mogą być zagnieżdżone wewnątrz innych obiektów Std: Część w celu utworzenia dużego zespołu z mniejszych podzespołów.
 
 Chociaż jest on przeznaczony głównie dla brył, Std: Część może być użyty do zarządzania dowolnym obiektem, który posiada właściwość [Umiejscowienie](Placement/pl.md), więc może również zawierać [cechy siatki](Mesh_Feature/pl.md), [szkice](Sketch/pl.md) i inne obiekty pochodzące z klas [App: GeoFeature](App_GeoFeature.md).
 
-Nie należy mylić elementu **[<img src=images/PartDesign_Body.svg style="width:16px"> [Projekt Części: Zawartość](PartDesign_Body/pl.md)** z częścią **[<img src=images/Std_Part.svg style="width:16px"> [Std: Część](Std_Part/pl.md)**. Pierwszym z nich jest określony obiekt używany w środowisku pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md), przeznaczony do modelowania [pojedynczej, ciągłej bryły](PartDesign_Body/pl#Single_contiguous_solid.md) za pomocą funkcji [właściwości](PartDesign_Feature.md). Z drugiej strony [Std: Część](Std_Part/pl.md) nie jest używana do modelowania, a jedynie do rozmieszczania różnych obiektów w przestrzeni z zamiarem tworzenia [złożeń](assembly.md).
+Nie należy mylić elementu **[<img src=images/PartDesign_Body.svg style="width:16px"> [Projekt Części: Zawartość](PartDesign_Body/pl.md)** z częścią **[<img src=images/Std_Part.svg style="width:16px"> [Std: Część](Std_Part/pl.md)**. Pierwszym z nich jest określony obiekt używany w środowisku pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md), przeznaczony do modelowania [pojedynczej, ciągłej bryły](PartDesign_Body/pl#Single_contiguous_solid.md) za pomocą funkcji [właściwości](PartDesign_Feature.md). Z drugiej strony [Std: Część](Std_Part/pl.md) nie jest używana do modelowania, a jedynie do rozmieszczania różnych obiektów w przestrzeni z zamiarem tworzenia [złożeń](Assembly/pl.md).
 
-Narzędzie **[<img src=images/Std_Part.svg style="width:16px"> [Std: Część](Std_Part/pl.md)** nie jest zdefiniowane przez konkretne środowisko pracy, lecz przez system bazowy, a więc znajduje się na pasku **narzędzi struktury**, który jest dostępny we wszystkich [Środowiskach pracy.](Workbenches/pl.md) Aby dowolnie grupować obiekty bez względu na ich położenie, należy użyć funkcji **[<img src=images/Std_Group.svg style="width:16px"> [Std: Group](Std_Group/pl.md)**. Obiekt ten nie ma wpływu na rozmieszczenie elementów, które zawiera, w zasadzie jest to tylko folder, który jest używany do utrzymania widoku drzewa w sposób zorganizowany.
+Narzędzie **[<img src=images/Std_Part.svg style="width:16px"> [Std: Część](Std_Part/pl.md)** nie jest zdefiniowane przez konkretne środowisko pracy, lecz przez system bazowy, a więc znajduje się na pasku **narzędzi konstrukcja**, który jest dostępny we wszystkich [środowiskach pracy.](Workbenches/pl.md) Aby dowolnie grupować obiekty bez względu na ich położenie, należy użyć funkcji **[<img src=images/Std_Group.svg style="width:16px"> [Std: Grupa](Std_Group/pl.md)**. Obiekt ten nie ma wpływu na rozmieszczenie elementów, które zawiera, w zasadzie jest to tylko folder, który jest używany do utrzymania widoku drzewa w sposób zorganizowany.
 
 ![](images/Std_Part-tree.png )![](images/Std_Part_example.png )
 
 
 
-*Z lewej: elementy wewnątrz Std: Część w [widoku drzewa](Tree_view/pl.md). <br>Z prawej: obiekty umieszczone w przestrzeni, odnoszące się do odniesienia położenia Std: Części.*
+*Z lewej: elementy wewnątrz obiektu Std: Część w [widoku drzewa](Tree_view/pl.md). <br>Z prawej: obiekty umieszczone w przestrzeni, odnoszące się do odniesienia położenia Std: Części.*
 
 
 
@@ -54,7 +54,7 @@ Narzędzie **[<img src=images/Std_Part.svg style="width:16px"> [Std: Część](S
 
 ## Właściwości
 
-[Std: Część](Std_Part/pl.md) jest wewnętrznie nazywana [App: Part](App_Part.md) *(klasa App::Part)*, i pochodzi z [App: GeoFeature](App_GeoFeature.md) *(klasa App::GeoFeature)*, ioraz dziedziczy wszystkie jego właściwości. Posiada również kilka dodatkowych właściwości. W szczególności właściwości, które pomagają zarządzać informacjami w kontekście złożenia, na przykład **Typ**, **Id**, **Licencja**, **LicencjaURL** i **Grupa**.
+[Std: Część](Std_Part/pl.md) jest wewnętrznie nazywana [App: Part](App_Part/pl.md) *(klasa App::Part)*, i pochodzi z [App: GeoFeature](App_GeoFeature/pl.md) *(klasa App::GeoFeature)*, ioraz dziedziczy wszystkie jego właściwości. Posiada również kilka dodatkowych właściwości. W szczególności właściwości, które pomagają zarządzać informacjami w kontekście złożenia, na przykład **Typ**, **Id**, **Licencja**, **LicencjaURL** i **Grupa**.
 
 Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.md). Ukryte właściwości można wyświetlić za pomocą polecenia **Wyświetl wszystko** w menu kontekstowym [edytora właściwości](Property_editor/pl.md).
 
@@ -63,7 +63,7 @@ Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.m
 ### Dane
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Typ|String**: opis dla obiektu. Domyślnie jest to pusty łańcuch znaków {{value|""}}.
 

@@ -1,12 +1,14 @@
 ---
 - GuiCommand:/pl
    Name:Part Revolve
-   Name/pl:Część: Wyciągnij przez obrót
-   MenuLocation:Część → Wyciągnij przez obrót
+   Name/pl:Część: Obrót
+   MenuLocation:Część → Obrót ...
    Workbenches:[Część](Part_Workbench/pl.md)
 ---
 
 # Part Revolve/pl
+
+
 
 ## Opis
 
@@ -27,6 +29,8 @@ Można też użyć [Szkicu](Sketcher_Workbench/pl.md). Bryły lub bryły złożo
 Argument **Kąt** określa, jak daleko obiekt ma być obrócony. Współrzędne przesuwają początek osi obrotu w stosunku do początku układu współrzędnych.
 
 Jeśli wybierzemy oś zdefiniowaną przez użytkownika, to liczby określają kierunek osi obrotu w stosunku do układu współrzędnych: Jeśli współrzędna Z wynosi 0, a współrzędne Y i X są niezerowe, to oś znajduje się na płaszczyźnie X-Y. Jej kąt jest taki, że jej styczna jest stosunkiem podanych współrzędnych X i Y.
+
+
 
 ## Uwagi
 

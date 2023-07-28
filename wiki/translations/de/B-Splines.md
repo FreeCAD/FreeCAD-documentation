@@ -31,28 +31,20 @@ GUT. Aber ganz unten brauchst du keine sofortige Unterstützung.
 
 So kann eine Kurve, mit der du zwei Punkte tangential zu einem Bezugspunkt verbinden kannst, sehr nützlich für Konstruktionen sein. Bézierkurven bieten diese Möglichkeit.
 
+
+
 ## Bézierkurven
+
+
 
 ### Herleitung
 
-
-<div class="mw-translate-fuzzy">
-
-Bézierkurven sind Polynome zur Beschreibung der Verbindung zwischen 2 Punkten. Das einfachste Polynom, das 2 Punkte verbindet, ist eine Gerade ($A*x^1+B$), daher sind auch lineare Bézierkurven linear:
-
-
-</div>
+Bézierkurven sind Polynome zur Beschreibung der Verbindung zwischen 2 Punkten. Das einfachste Polynom, das 2 Punkte verbindet, ist eine Gerade ($A*x^1+B$), also sind lineare Bézierkurven auch Strecken (Geradenabschnitte):
 
 ![](images/Bezier_linear_anim.gif ) 
 *Animation 1: Lineare Bézierkurve.*
 
-
-<div class="mw-translate-fuzzy">
-
-Ein Polynom wird jedoch erst dann nützlich, wenn wir es kontrollieren können. Es sollte also einen Punkt zwischen den beiden Endpunkten geben, der es uns erlaubt zu definieren, wie die Endpunkte verbunden sind. Wie im obigen Beispiel, Option 3, ist die Kurve hilfreich, wenn sie tangential zu Linien beginnt und endet, die die Endpunkte kreuzen. Und das ist ein Hauptmerkmal von Bézierkurven. Fügen wir also einen Kontrollpunkt zwischen den 2 Endpunkten ein. Die Kurve beginnt tangential zu diesem Kontrollpunkt, d. h. sie verläuft tangential zu der Linie, die wir zwischen dem Startpunkt und dem Kontrollpunkt ziehen können. Wenn man vom Endpunkt aus rückwärts geht, verläuft die Kurve ebenfalls tangential zu der Linie, die wir zwischen dem Kontrollpunkt und dem Endpunkt zeichnen können. Animation 2 zeigt, wie eine solche Kurve aussieht.
-
-
-</div>
+Ein Polynom wird jedoch erst dann nützlich, wenn wir es steuern können. Es sollte also einen Punkt zwischen den beiden Endpunkten geben, der es uns erlaubt festzulegen, wie die Endpunkte verbunden werden. Wie unter Option 3 im Beispiel oben, ist die Kurve hilfreich, wenn sie tangential zu Linien beginnt und endet, die über die Endpunkte verlaufen. Und das ist ein Hauptmerkmal von Bézierkurven. Fügen wir also einen Kontrollpunkt zwischen den 2 Endpunkten ein. Die Kurve beginnt tangential, auf diesem Kontrollpunkt zulaufend, d. h. sie ist tangential zu der Linie, die wir zwischen dem Startpunkt und dem Kontrollpunkt ziehen können. Wenn man vom Endpunkt aus rückwärts geht, ist die Kurve ebenfalls tangential zu der Linie, die wir zwischen dem Kontrollpunkt und dem Endpunkt zeichnen können. Animation 2 zeigt, wie eine solche Kurve aussieht.
 
 ![](images/Bezier_quadratic_anim.gif ) 
 *Animation 2: Quadratische Bézierkurve. P1 ist hierbei der Kontrollpunkt.*
@@ -70,19 +62,17 @@ Um die Frage zu beantworten: Die Lösung mit dem tangentialen Ende in y-Richtung
 
 <img alt="" src=images/B-splines_Motivation-cubic-bezier.png  style="width:450px;">
 
+
+
 ### Regeln
 
-
-<div class="mw-translate-fuzzy">
-
-Im obigen Text sind dir vielleicht schon einige \"Regeln\" für Bézierkurven aufgefallen:
+Im der Herleitung sind vielleicht schon einige \"Regeln\" für Bézierkurven aufgefallen:
 
 -   Der Polynomgrad ist auch der Grad der Kurven.
--   Wenn du $n$ Krümmungen benötigst, benötigst du mindestens eine Bézierkurve vom Grad $n+1$.
+-   Werden $n$ Krümmungen benötigt, muss die Bézierkurve mindestens vom Grad $n+1$ sein.
 -   Eine Bézierkurve beginnt immer tangential zu der Linie zwischen dem Startpunkt und dem ersten Kontrollpunkt (und endet tangential zu der Linie zwischen dem letzten Kontrollpunkt und dem Endpunkt).
 
 
-</div>
 
 ### Mathe
 
@@ -99,6 +89,8 @@ Wenn du weiter interessiert bist, sieh dir [Die Mathematik der Bézierkurven](ht
 
 ## B-Splines 
 
+
+
 ### Grundlagen
 
 [Dieses Video](https://www.youtube.com/watch?v=bE1MrrqBAl8) listet zu Beginn die praktischen Probleme mit Bézierkurven auf. Zum Beispiel, dass das Hinzufügen oder Ändern eines Kontrollpunktes die gesamte Kurve verändert. Diese Probleme können gelöst werden, indem man mehrere Bézierkurven miteinander verbindet. Das Ergebnis ist ein sogenannter Spline, insbesondere ein B-Spline (Basis Spline). Das Video erklärt auch, dass eine Vereinigung von quadratischen Bézierkurven einen uniformen quadratischen B-Spline und eine Vereinigung von kubischen Bézierkurven einen uniformen kubischen B-Spline bildet.
@@ -112,13 +104,7 @@ Aus den Videos können wir nützliche \"Regeln\" für B-Splines entnehmen:
 -   Ein B-Spline mit dem Grad $D$ bietet in jedem Punkt eine stetige Ableitung $D-1$ der Ordnung.
     -   Für einen kubischen B-Spline bedeutet dies, dass sich die Krümmung (Ableitung zweiter Ordnung) nicht ändert, wenn man von einem Segment zum nächsten reist. Dies ist eine sehr nützliche Eigenschaft, wie wir später sehen werden.
 
-
-<div class="mw-translate-fuzzy">
-
-Wenn du an weiteren Details über die Eigenschaften von B-Splines interessiert bist, dann schau dir das Video [MOOC Curves 8.2: Eigenschaften von B-Spline Kurven](https://www.youtube.com/watch?v=xXJylM2S72s) an.
-
-
-</div>
+Wenn du an weiteren Details über die Eigenschaften von B-Splines interessiert bist, dann schau dir [dieses Video](https://www.youtube.com/watch?v=xXJylM2S72s) an.
 
 #### Basis
 
@@ -154,60 +140,41 @@ The knot vector comprises the knots of the $N_{i,n}$ basis functions that define
 
 The derivative until which continuity exists is given by the multiplicity $m$. Therefore we can specify a vector with the multiplicity for every knot: $\{m_0, m_1,\dots, m_k\}$. A knot on a spline with degree *d* and the multiplicity *m* tells that the curve left and right to the knot has at least an equal *n* order derivative (called *C*^*n*^ continuity) whereas $n=d-m$.
 
+
+
 ### Nicht-uniforme B-Splines 
 
-
-<div class="mw-translate-fuzzy">
-
-Eine Eigenschaft der Bernstein Polynome ist, dass bei Betrachtung der verschiedenen S-Spline Bézier Teile die Pfadlänge jedes Teils gleich ist. (Die Pfadlänge wird oft als \"Laufzeit\" bezeichnet). Wie Sie sich vorstellen können, kann es nützlich sein, B-Splines zu haben, deren Bézier Teile unterschiedliche Pfadlängen haben. Dies kann durch Gewichtung der verschiedenen Polynome erreicht werden:
-
-
-</div>
+Die Ableitung der B-Splines von Bézier-Kurven hat die mathematische Konsequenz, dass in B-Splines jeder Polynomabschnitt dieselbe Länge hat. Solche B-Splines werden *uniform* genannt. Der allgemeinere Fall ist, dass sie dieselbe Längen haben können aber nicht müssen. Diese *nicht-uniformen* Splines haben den Vorteil, man kontrollieren kann, wie dicht die Splines an den Kontrollpunkten vorbeilaufen.
 
 Mathematically this is achieved by defining the different $N_{i,n}$ pieces at different intervals. If for example a B-spline is defined for the interval \[0, 1\], it is uniform if all its e.g. 5 pieces are also defined in this interval. If now $N_{1,4}$ is only defined in the interval \[0, 0.6\] (outside the interval it is set to zero), it is shorter and thus the spline becomes non-uniform.
 
 As described above the parameters of the knots are described by the knot vector. So the knot vector stores the definition intervals. When now one piece gets another interval, also the knot vector changes, see [this video](https://www.youtube.com/watch?v=w-l5R70y6u0) for a visualization.
 
-### Rational B-splines 
+
+
+### Rationale B-splines 
 
 A further generalization can be made for B-splines by introducing weights for the control points. This way it can be controlled \"how important\" a control point is.
 
 The equation for such a spline is
 
-
-<div class="mw-translate-fuzzy">
-
-$\quad
-c(t)=\cfrac{\sum_{k=0}^{N}p_{k}B_{k, D}(t)w_k}{\sum_{k=0}^{N}B_{k, D}(t)w_k}$
-
-
-</div>
+$$c(n, t)=\cfrac{\sum_{i=0}^{n}d_{i}N_{i, n}(t)\cdot w_i}{\sum_{i=0}^{n}N_{i, n}(t)\cdot w_i}$$
 
 Notice that the function is no longer a polynomial, but a rational function, and these splines are called rational B-splines. Observe that when all $w_i$ are equal, the equation reduces to a regular non-rational B-spline. So non-rational B-splines are a subset of rational B-splines.
 
-
-<div class="mw-translate-fuzzy">
-
-Diese nicht-uniformen und rationalen (wegen der Division) B-Splines werden oft **NURBS** genannt. Ein Blick auf die Formel zeigt, dass es sich tatsächlich um einen B-Spline mit einer gewichteten Basis $R_{k, D}(t)$ handelt:
-
-
-</div>
+Nicht-uniforme und rationale B-Splines werden oft **[NURBS](https://de.wikipedia.org/wiki/Non-Uniform_Rational_B-Spline)** genannt und werden in vielen Bereichen des geometrischen Modellierens eingesetzt.
 
 ## B-splines in FreeCAD 
 
 FreeCAD bietet die Möglichkeit, uniforme oder nicht-uniforme B-Splines beliebigen Grades in 2D über die [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) zu erstellen.
 
+
+
 ### Erstellung
 
 Um B-Splines zu erstellen, gehe in eine Skizze und verwende die Werkzeugleistenschaltfläche **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [B-spline erstellen](Sketcher_CreateBSpline/de.md)**. Dann Linksklick um einen Kontrollpunkt zu setzen, bewege die Maus Linksklick, um den nächsten Kontrollpunkt zu setzen und so weiter. Abschließend Rechtsklick, um die Definition abzuschließen und den B-Spline zu erstellen.
 
-
-<div class="mw-translate-fuzzy">
-
-Standardmäßig werden gleichmäßige kubische Splines erstellt, es sei denn, es gibt nicht genügend Kontrollpunkte, um dies zu tun. Wenn du also einen B-Spline mit nur 2 Kontrollpunkten erstellst, erhältst du natürlich einen Spline, der eine einzelne lineare Bézierkurve ist, für 3 Kontrollpunkte erhältst du eine quadratische Bézierkurve, erst mit 5 Kontrollpunkten erhältst du einen kubischen B-Spline, der aus 2 Béziersegmenten besteht.
-
-
-</div>
+Standardmäßig werden uniforme kubische Splines erstellt, es sei denn, es stehen nicht genügend Kontrollpunkte zur Verfügung, um dies zu tun. Wird also einen B-Spline mit nur 2 Kontrollpunkten erstellt, erhält man natürlich einen Spline, der eine einzelne lineare Bézierkurve ist, mit 3 Kontrollpunkte erhält man eine quadratische Bézierkurve, erst mit 5 Kontrollpunkten erhält man einen kubischen B-Spline, der aus 2 Béziersegmenten besteht. {{Version/de|0.20}} Wird während der Erstellung eines B-Splines D gedrückt, kann sein Grad festgelegt werden (er wird auf einen geringeren Grad gesetzt, wenn nicht genügend punkte vorhanden sind).
 
 Um periodische B-Splines (B-Splines, die eine geschlossene Kurve bilden) zu erstellen, verwende die Werkzeugleistenschaltfläche **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Periodische B-spline](Sketcher_CreatePeriodicBSpline/de.md)**. Es ist nicht notwendig, den letzten Kontrollpunkt auf den ersten zu setzen, da der B-Spline automatisch geschlossen wird:
 
@@ -217,11 +184,15 @@ B-Splines können auch aus bestehenden Skizzen Segmenten erzeugt werden. Markier
 
 Während der Erstellung eines B-Splines kann sein Grad angegeben werden, indem die Taste **D** gedrückt wird. Hiermit kann die Voreinstellung, die Erstellung eines kubischen B-Splines, überschrieben werden. {{Version/de|0.20}}
 
+
+
 ### Ändern des Grads 
 
 Um den Grad zu ändern, wähle den B-Spline und verwende entweder die Werkzeugleistenschaltfläche **[<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> [B-Spline-Grad erhöhen](Sketcher_BSplineIncreaseDegree.md)** oder **[<img src=images/Sketcher_BSplineDecreaseDegree.svg style="width:24px"> [B-Spline-Grad vermindern](Sketcher_BSplineDecreaseDegree/de.md)**.
 
 **Hinweis:** Das Verringern des Grads kann eine vorherige Erhöhung des Grads nicht rückgängig machen, siehe die Wiki Seite [B-spline Grad vermindern](Sketcher_BSplineDecreaseDegree/de.md) für eine Erklärung.
+
+
 
 ### Ändern der Knotenvielfalt 
 
@@ -230,6 +201,8 @@ Die Punkte, an denen zwei Bézierkurven miteinander verbunden werden, um den B-S
 Um die Knotenvielfalt zu ändern, verwende die Werkzeugleistenschaltflächen in der **[<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:24px"> [B-spline Knotenvielfalt erhöhen](Sketcher_BSplineIncreaseKnotMultiplicity/de.md)** oder **[<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:24px"> [B-spline Knotenvielfalt vermindern](Sketcher_BSplineDecreaseKnotMultiplicity/de.md)**.
 
 **Hinweis:** Das Erstellen von zwei B-Splines, die miteinander verbunden sind, wird sich nicht zu einem einzigen neuen B-Spline vereinigen. Ihr Verbindungspunkt ist also kein Knoten. Die einzige Möglichkeit, einen neuen Knoten in einem bestehenden B-Spline zu erhalten, besteht darin, den Grad zu verringern. Dabei können jedoch viele neue Knoten entstehen. Daher ist es besser, den B-Spline mit mehr Kontrollpunkten neu zu zeichnen.
+
+
 
 ### Ändern des Gewichts 
 
@@ -243,29 +216,21 @@ Wenn keine Radiusbeschränkung festgelegt ist, kannst du den Radius auch durch Z
 
 Am Beispiel des Ziehens siehst du, dass ein hohes Gewicht die Kurve zum Kontrollpunkt zieht, während ein sehr niedriges Gewicht die Kurve so verändert, als ob der Kontrollpunkt fast nicht existiert.
 
-
-<div class="mw-translate-fuzzy">
-
-Wenn du dir die [Erstellungsfunktion](#Nicht-uniforme_B-splines.md) für nicht-uniformee rationale B-Splines ansehst, siehst du, dass ein Gewicht von Null zu einer Division durch Null führen würde. Daher kannst du nur Gewichte größer als Null angeben.
-
-
-</div>
+Betrachtet man die [Funktion zur Erstellung](#Rationale_B-splines.md) nicht-uniformer rationaler B-Splines, erkennt man, dass ein Gewicht von Null zu einer Division durch Null führen würde. Negative Gewichte sind theoretisch möglich, werden aber nicht unterstützt. Daher können nur Gewichte größer als Null angegenben werden.
 
 **Note:** When dragging points, knots or widths, the circle diameters denoting the weight will change. This is because the diameter depends on the overall B-spline length for visualization reasons. The actual weight is not changed.
+
+
 
 ### Knoten barbeiten 
 
 Neue Knoten (Kontrollpunkte) können mit der Schaltfläche **[<img src=images/Sketcher_BSplineInsertKnot.svg style="width:24px"> [ Knoten einfügen](Sketcher_BSplineInsertKnot/de.md)** hinzugefügt werden. {{Version/de|0.20}}
 
-
-<div class="mw-translate-fuzzy">
-
-Das Löschen von Knoten ist bisher noch nicht möglich, siehe Abschnitt [Begrenzungen](#Begrenzungen.md).
-
-
-</div>
+Ein Knoten wird gelöscht, wenn sein Grad auf 0 verkleinert wird (d.h. dass **[<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:24px"> [Vielfachheit eines Spline-Knotens verringern](Sketcher_BSplineDecreaseKnotMultiplicity/de.md)** angewendet wird, wenn sein Grad 1 beträgt).
 
 Changing the parameter value of a knot is not yet supported.
+
+
 
 ### Informationen anzeigen 
 
@@ -295,20 +260,16 @@ Da die Form eines B-Splines nicht viel über seine Eigenschaften aussagt, bietet
 |                        |                                                                                                                                                        |
 +++
 
+
+
 ### Begrenzungen
 
+Aktuell (FreeCAD 0.20) gibt es einige Einschränkungen bei der Verwendung von Splines, die man kennen sollte:
 
-<div class="mw-translate-fuzzy">
-
-Im Augenblick (FreeCAD 0.19) gibt es einige Begrenzungen bei der Verwendung von Splines, die du kennen solltest:
-
-1.  Du kannst keine tangentialen Beschränkungen festlegen. In diesem Beispiel <img alt="" src=images/Sketcher_spline-limit-tangential.png  style="width:450px;"> willst du sicherstellen, dass der Spline die blaue Kurve 2 mal tangential berührt. Dies ist sinnvoll, da die blaue Linie z.B. die räumliche Grenze für deinen Entwurf sein könnte.
-2.  Du kannst keinen neuen Kontrollpunkt zwischen zwei ausgewählten bestehenden Kontrollpunkten einfügen. Es gibt keine andere Möglichkeit, als den Spline neu zu zeichnen.
-3.  Du kannst einen Kontrollpunkt nicht löschen. Auch in diesem Fall musst du den Spline neu zeichnen.
-4.  Du kannst keine Versatzkurve für einen B-Spline mit dem Werkzeug [Entwurf Versatz](Draft_Offset/de.md) erstellen.
+1.  Es können keine tangentialen Randbedingungen festgelegt werden. In diesem Beispiel <img alt="" src=images/Sketcher_spline-limit-tangential.png  style="width:450px;"> soll sichergestellt werden, dass der Spline die blaue Kurve 2 mal tangential berührt. Dies ist sinnvoll, wenn die blaue Linie z.B. die räumliche Grenze eines Entwurfs darstellt.
+2.  Es kann keine Versatzkurve für einen B-Spline mit dem Werkzeug [Draft Versatz](Draft_Offset/de.md) erstellt werden.
 
 
-</div>
 
 ## Typische Anwendungsfälle 
 
@@ -317,6 +278,8 @@ Entsprechend den Eigenschaften von B-Splines gibt es 3 Hauptanwendungsfälle:
 1.  Kurven, die tangential zu einer bestimmten Richtung beginnen/enden. Ein Beispiel hierfür ist das Motivationsbeispiel [oben](#Motivation.md).
 2.  Kurven, die größere Entwürfe beschreiben und die Freiheit lokaler Änderungen bieten. Siehe [dieses Beispiel](#Gestaltung.md) unten.
 3.  Kurven, die eine gewisse Stetigkeit (Ableitung) bieten. Siehe [dieses Beispiel](#Stetigkeit_an_geometrischen_Übergängen.md) unten.
+
+
 
 ### Gestaltung
 
@@ -327,6 +290,8 @@ Nimm zum Beispiel den Fall, dass du ein Gehäuse für eine Küchenmaschine entwi
 Für die Definition der äußeren Form ist es vorteilhaft, einen B-Spline zu verwenden, denn wenn du einen Kontrollpunkt änderst, um die Krümmung an der Unterseite zu ändern, wird die Krümmung an den Seiten und oben nicht geändert:
 
 ![](images/Sketcher_spline-exmple-mixer-sketch.gif )
+
+
 
 ### Stetigkeit an geometrischen Übergängen 
 

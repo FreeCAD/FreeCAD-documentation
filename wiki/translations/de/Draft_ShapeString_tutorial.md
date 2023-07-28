@@ -322,9 +322,9 @@ Siehe den Forumsbeitrag, [Wie man FormZeichenfolgen in PartDesign verwendet](htt
 -   Um Text aus einer SVG Datei zu importieren, schaue dir das Tutorium [Importieren von Text und Geometrie aus Inkscape](Import_text_and_geometry_from_Inkscape/de.md) an.
 
 
-  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+ {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Draft](Draft_Workbench.md) > Draft ShapeString tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Draft](Draft_Workbench.md) > Draft ShapeString tutorial/de

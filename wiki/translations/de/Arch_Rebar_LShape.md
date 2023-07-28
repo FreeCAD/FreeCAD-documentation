@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Beschreibung
 
 Das [L-förmiger Bewehrungsstab](Arch_Rebar_LShape/de.md)-Werkzeug erlaubt es dem Anwender, einen Satz von L-förmigen Bewehrungsstäben in einem [Struktur](Arch_Structure/de.md)-Objekt zu erstellen.
@@ -22,6 +24,8 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 <img alt="" src=images/Arch_Rebar_LShape_example.png  style="width:400px;"> 
 *Vier Sätze von L-förmigen Bewehrungsstäben in einer [Struktur](Arch_Structure/de.md)*
+
+
 
 ## Anwendung
 
@@ -41,6 +45,8 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 
 *Aufgaben-Ansicht für das Arch Bewehrungsstab L-förmig-Werkzeug*
+
+
 
 ## Eigenschaften
 
@@ -62,6 +68,11 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 -    **Spacing**: Der Abstand zwischen den Achsen der Bewehrungsstäbe.
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Scripting
 
 
@@ -69,7 +80,23 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 [Arch API](Arch_API/de.md), [Reinforcement-API](Reinforcement_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das L-förmiger Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden: 
+
+</div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
+<div class="mw-translate-fuzzy">
+
+Das L-förmiger Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden:
+
+
+</div>
+
+
 ```python
 Rebar = makeLShapeRebar(f_cover, b_cover, l_cover, r_cover,
                         diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom Left",
@@ -90,6 +117,8 @@ Rebar = makeLShapeRebar(f_cover, b_cover, l_cover, r_cover,
 -    `amount_spacing_value`gibt die Anzahl von Bewehrungsstäben an oder den Abstandswert, abhängig von `amount_spacing_check`.
 
 -    `orientation`gibt die Ausrichtung der Bewehrung an; möglich sind `"Bottom Right"` (unten rechts), `"Top Rechts"` (oben rechts), `"Bottom Left"` (unten links) oder `"Bottom Right"` (unten rechts).
+
+
 
 ### Beispiel
 

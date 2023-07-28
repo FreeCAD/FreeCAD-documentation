@@ -1,91 +1,112 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw Balloon
-   MenuLocation:TechDraw → Annotations → Insert Balloon Annotation
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Wstaw adnotację w formie dymka
+   MenuLocation:Rysunek Techniczny → Adnotacje → Wstaw adnotację w formie dymka
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Version:0.19
-   SeeAlso:[TechDraw Annotation](TechDraw_Annotation.md)
+   SeeAlso:[Wstaw adnotację](TechDraw_Annotation/pl.md)
 ---
 
 # TechDraw Balloon/pl
 
-## Description
 
-The Balloon tool can add balloons with leader line in a drawing.
+
+## Opis
+
+Narzędzie **Wstaw adnotację w formie dymka** może dodawać do rysunku dymki z linią odniesienia.
 
 <img alt="" src=images/Techdraw_balloon.png  style="width:600px;">
 
-## Usage
 
-1.  Select one of the following:
-    -   A View (on the page or in the [Tree view](Tree_view.md)).
-    -   A vertex in a View. <small>(v0.20)</small> 
-    -   An edge in a View. <small>(v0.20)</small> 
-    -   A closed region in a View. <small>(v0.20)</small> 
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_Balloon.svg" width=16px> [TechDraw Balloon](TechDraw_Balloon.md)** button.
-    -   Select the **TechDraw → Annotations → <img src="images/TechDraw_Balloon.svg" width=16px> Insert Balloon Annotation** option from the menu.
-3.  If a View or a region was selected:
-    1.  The cursor changes to a balloon icon.
-    2.  Click a point on the page for the origin of the Balloon.
 
-To move the bubble of a Balloon, press and hold the left mouse button on its center and drag the mouse.
+## Użycie
 
-To change the properties of a Balloon double-click it on the page or in the [Tree view](Tree_view.md). This will open the Balloon task panel.
+1.  Wybierz jedną z poniższych opcji:
+    -   Widok *(na stronie lub w oknie [Widoku drzewa](Tree_view/pl.md))*.
+    -   Wierzchołek w widoku. {{Version/pl|0.20}}
+    -   Krawędź w widoku. {{Version/pl|0.20}}
+    -   Zamknięty region w widoku. {{Version/pl|0.20}}
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnięcie przycisku **<img src="images/TechDraw_Balloon.svg" width=16px> '''Wstaw adnotację w formie dymka'''**.
+    -   Wybierz **Rysunek Techniczny → Adnotacje → <img src="images/TechDraw_Balloon.svg" width=16px> Wstaw adnotację w formie dymka** z menu.
+3.  Jeśli wybrano widok lub obszar:
+    1.  Kursor zmienia się w ikonę dymka.
+    2.  Kliknij punkt na stronie, który będzie początkiem dymka.
 
-**Note:** The position of a Balloon is relative to its Source View and uses the same scale factor.
+Aby przesunąć bańkę dymka, naciśnij i przytrzymaj lewy przycisk myszy na jego środku i przeciągnij kursor myszki.
 
-## Using separators 
+Aby zmienić właściwości dymka, kliknij go dwukrotnie na stronie lub w oknie [widoku Drzewa](Tree_view/pl.md). Spowoduje to otwarcie panelu zadań Dymek.
 
-When using a rectangle shape, separators can be added using \"\|\" in the text. For example \"AAA\|TEST\|111\" gives:
+**Uwaga:** Położenie dymka odnosi się do jego widoku źródłowego i wykorzystuje ten sam współczynnik skali.
+
+
+
+## Używanie separatorów 
+
+W przypadku korzystania z kształtu prostokąta, separatory można dodawać za pomocą znaku \"\|\" w tekście. Na przykład \"AAA\|TEST\|111\" daje:
 
 <img alt="" src=images/balloon_separator.png  style="width:300px;">
 
-## Properties
 
-### Data
 
--    **Text**: Text to be displayed.
+## Właściwości
 
--    **Source View**: Source View for the balloon.
 
--    **Origin X**: Balloon origin x-position relative to the View.
 
--    **Origin Y**: Balloon origin y-position relative to the View.
+### Dane
 
--    **End Type**: End symbol for the balloon line. Options: <img alt="" src=images/Arrownone.svg  style="width:20px;"> None, <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Filled Arrow, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Open Arrow, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Tick, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Dot, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Open Circle, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Fork, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Filled Triangle
 
--    **End Type Scale**: Scale factor for the **End Type**.
+<div class="mw-translate-fuzzy">
 
--    **Bubble Shape**: Shape of the balloon bubble. Options: <img alt="" src=images/Circular.svg  style="width:20px;"> Circular, None, <img alt="" src=images/Triangle.svg  style="width:20px;"> Triangle, <img alt="" src=images/Inspection.svg  style="width:20px;"> Inspection, <img alt="" src=images/Hexagon.svg  style="width:20px;"> Hexagon, <img alt="" src=images/TechDraw_Square.svg  style="width:20px;"> Square, <img alt="" src=images/Rectangle.svg  style="width:20px;"> Rectangle
+-    **Tekst**: Tekst do wyświetlenia.
 
--    **Shape Scale**: Scale factor for the **Shape**.
+-    **Widok źródłowy**: Widok źródłowy balonu.
 
--    **Text Wrap**: Text wrap length; -1 means the text will never be wrapped and the result is in every case a single line.
+-    **Odniesienie położenia X**: Pozycja x początku dymka względem widoku.
 
--    **Kink Length**: Distance from the **Shape** to the leader line kink.
+-    **Odniesienie położenia Y**: Pozycja y początku dymka względem widoku.
 
--    **X**: Horizontal position of the balloon bubble relative to the View.
+-    **Typ zakończenia**: Symbol końca linii balonu. Opcje: <img alt="" src=images/Arrownone.svg  style="width:20px;"> Brak, <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Wypełniona strzałka, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Otwarta strzałka, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Grot, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Kropka, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Otwarte koło, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Widelec, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Wypełniony trójkąt.
 
--    **Y**: Vertical position of the balloon bubble relative to the View.
+-    **Skala typu zakończenia**: Współczynnik skali dla **Typu zakończenia**.
 
-### View
+-    **Kształt dymka**: Kształt bańki dymka. Opcje: <img alt="" src=images/Circular.svg  style="width:20px;"> Okrągły, Żaden, <img alt="" src=images/Triangle.svg  style="width:20px;"> Trójkąt, <img alt="" src=images/Inspection.svg  style="width:20px;"> Inspekcja, <img alt="" src=images/Hexagon.svg  style="width:20px;"> Sześciokąt, <img alt="" src=images/TechDraw_Square.svg  style="width:20px;"> Kwadrat, <img alt="" src=images/Rectangle.svg  style="width:20px;"> Prostokąt
 
--    **Color**: Color of the balloon text.
+-    **Skala kształtu**: Współczynnik skali dla **Kształtu**.
 
--    **Font**: The name of the font to use for the balloon bubble.
+-    **Zawijanie tekstu**: Długość zawijania tekstu; -1 oznacza, że tekst nigdy nie zostanie zawinięty, a wynikiem będzie w każdym przypadku pojedyncza linia.
 
--    **Fontsize**: Dimension text size in mm.
+-    **Długość załamania**: Odległość od **kształtu** do załamania linii prowadzącej.
 
--    **Line Visible**: Whether the balloon line is visible.
+-    **X**: Poziome położenie dymku względem widoku.
 
--    **Line Width**: Balloon line width
+-    **Y**: Pionowe położenie bańki balonu względem widoku.
 
-## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+</div>
 
-The Balloon tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+
+
+### Widok
+
+-    **Kolor**: Kolor tekstu w dymku.
+
+-    **Czcionka**: Nazwa czcionki używanej w dymku.
+
+-    **Rozmiar czcionki**: Rozmiar tekstu w mm.
+
+-    **Linia widoczna**: Czy linia dymka jest widoczna.
+
+-    **Szerokość linii**: Szerokość linii dymka.
+
+
+
+## Tworzenie skryptów 
+
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Wstaw adnotację w formie dymka** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
 
 
 ```python

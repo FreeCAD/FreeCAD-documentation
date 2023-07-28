@@ -8,7 +8,7 @@
 
 ## Presentazione
 
-Questa pagina descrive come compilare il codice sorgente di FreeCAD su MacOS X. Per altre piattaforme, vedere la pagina [Compilare FreeCAD](Compiling/it.md).
+Questa pagina descrive come compilare il codice sorgente di FreeCAD su MacOS. Per altre piattaforme, vedere la pagina [Compilare FreeCAD](Compiling/it.md).
 
 Queste istruzioni sono state testate su macOS Catalina con XCode 11.6 standard. È noto che funzioni su macOS BigSur Beta con XCode 12.0 beta. Se si prevede di utilizzare XCode Beta, assicurarsi di scaricare il componente aggiuntivo degli strumenti della riga di comando tramite un pacchetto dmg, per risolvere alcuni problemi di dipendenza libz.
 

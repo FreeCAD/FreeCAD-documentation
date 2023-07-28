@@ -27,7 +27,7 @@ Può essere utilizzato per creare un\'estrusione da una raccolta di facce. Quest
 
 1.  Seleziona una o più facce.
 2.  Esistono diversi modi per invocare il comando:
-    -   Premere il pulsante **<img src="images/Draft_Facebinder.svg" width=16px> [Lega facce](Draft_Facebinder.md)**.
+    -   Premere il pulsante **<img src="images/Draft_Facebinder.svg" width=16px> [Lega facce](Draft_Facebinder/it.md)**.
     -   Selezionare l\'opzione **Drafting → <img src="images/Draft_Facebinder.svg" width=16px> Lega facce** dal menu.
     -   Usare la scorciatoia da tastiera: **F** poi **F**.
 

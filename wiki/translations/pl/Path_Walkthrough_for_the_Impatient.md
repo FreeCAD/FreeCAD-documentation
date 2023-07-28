@@ -1,11 +1,11 @@
 ---
 - TutorialInfo:/pl
-   Topic:Path Workbench
-   Level:Beginner/Moderate
-   Time:15 minutes
+   Topic:środowisko pracy CAM
+   Level:początkujący / średnio zaawansowany
+   Time:15 minut
    Author:Chrisb
    FCVersion:0.19
-   Files:
+   Files:brak
 ---
 
 # Path Walkthrough for the Impatient/pl
@@ -14,13 +14,17 @@
 
 
 
-## Aim
 
-Demonstrating the creation of a <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Path Workbench](Path_Workbench.md) Job derived from a 3D Model. Then generating dialect-correct G-Code for a target CNC mill.
 
-## The 3D Model 
+## Przeznaczenie
 
-1\. The Project begins with a simple FreeCAD model designed in the <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Part Design](PartDesign_Workbench.md) a cube with a rectangular pocket,
+Demonstracja tworzenia **Zadania** środowiska pracy <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [CAM](Path_Workbench/pl.md) na podstawie modelu 3D. Następnie generowanie poprawnego dialektycznie G-Code dla docelowej frezarki CNC.
+
+
+
+## Model 3D 
+
+1\. Projekt rozpoczyna się od prostego modelu FreeCAD zaprojektowanego w środowisku pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Projekt Części](PartDesign_Workbench/pl.md) prostopadłościanu z kieszenią w kształcie prostokąta,
 
 :   ![](images/Path-SquarePocketModel.png )
 
@@ -30,19 +34,19 @@ Demonstrating the creation of a <img alt="" src=images/Workbench_Path.svg  style
 
 :   
     
-*Above: Created  in the <img src="images/Workbench_PartDesign.svg" width=24px> [Part Design](PartDesign_Workbench.md) including a Body, a Box with a Pocket, based on a Sketch oriented in the 
-**![](images/)*_XY_plane.**
+*Powyżej: Prostopadłościan z kieszenią utworzony w środowisku pracy <img src="images/Workbench_PartDesign.svg" width=24px> [Projekt Części](PartDesign_Workbench/pl.md) obejmujący Zawartość, na podstawie szkicu zorientowanego w 
+**![](images/)*_płaszczyźnie_XY.**
     
 
-2\. With the 3D Model completed, switch to the <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Path Workbench](Path_Workbench.md) via the [Workbench selector](Std_Workbench.md) (drop-down menu)
+2\. Po ukończeniu modelu 3D przełącz się na środowisko <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [CAM](Path_Workbench/pl.md) poprzez *(menu rozwijane)* [wyboru środowiska pracy](Std_Workbench/pl.md)
 
-## The Job 
+## Zadanie
 
-3\. Now we create a [Path Job](Path_Job.md) by either of the following methods:
+3\. Teraz tworzymy [Zadanie](Path_Job/pl.md) za pomocą jednej z następujących metod:
 
--   Press the **![](images/)_[Job](Path_Job.md)** button from the toolbar.
--   Using the **P** then **J** keyboard shortcut.
--   Using the **Path → Job** entry from the top menu.
+-   Naciskamy przycisk **![](images/)_[Zadanie](Path_Job/pl.md)** z paska narzędzi.
+-   Używając skrótu klawiaturowego **P**, a następnie **J**.
+-   Używając polecenia z menu głównego **CAM → Zadanie**.
 
 ![](images/Path-JobCreationDialog.png )
 
@@ -50,128 +54,144 @@ Demonstrating the creation of a <img alt="" src=images/Workbench_Path.svg  style
 
     :   
         
-*Above: [Path Job](Path_Job.md) creation dialog*
+*Powyżej: Okienko dialogowe [Utwórz zadanie](Path_Job/pl.md)*
         
 
-4\. This opens a Job creation dialog. Within this dialog, click **OK** to accept the Body as the Base Model, with no Template.
+4\. Zostanie otwarte okno dialogowe edycja zadania. W tym oknie dialogowym kliknij **OK**, aby zaakceptować Zawartość jako model podstawowy, bez szablonu.
 
-### Job Setup 
 
-5\. The Job Edit window opens in the Task window, and the model view Window shows the Stock as a wire frame cube surrounding the Base Body. The Setup Tab is selected.
 
-### Job Output 
+### Konfiguracja
 
-6\. The Output tab defines the output file path, name, extension, and the Postprocessor. For advanced users, Post Processor Arguments can be customized (mouse over to show tooltips of common arguments).
+5\. Okno Edycja zadania zostanie otwarte w oknie zadań, a w oknie widoku modelu zostanie wyświetlony element materiału jako prostopadłościan szkieletu otaczający podstawową Zawartość. Zostanie wybrana karta **Konfiguracja**.
+
+
+
+### Wyjście zadania 
+
+6\. Zakładka Wyjście definiuje ścieżkę pliku wyjściowego, nazwę, rozszerzenie i postprocesor. Zaawansowani użytkownicy mogą dostosować Argumenty postprocesora *(wskazanie kursorem myszki powoduje wyświetlenie podpowiedzi typowych argumentów)*.
 
 :   ![](images/Path-JobOutput.png )
 :   
     
-*Above: [Path Job](Path_Job.md) Edit dialog with the Output tab selected*
+*Powyżej: Okienko dialogowe Edycja [zadania](Path_Job/pl.md) z wybraną zakładką '''Wyjście'''*
     
 
-### Job Tools 
+
+
+### Narzędzia
 
 :   ![](images/Path-JobTools.png )
 :   
     
-*Above: [Path Job](Path_Job.md) Edit dialog with the Tools tab selected*
+*Powyżej: Okienko dialogowe Edycja [zadania](Path_Job/pl.md) z wybraną zakładką '''Narzędzia'''*
     
 
-7\. Modify the Default tool by selecting it and clicking the **Edit** button. This opens the Tool Controller edit window.
+7\. Zmodyfikuj domyślne narzędzie, zaznaczając je i klikając przycisk **Edycja**. Spowoduje to otwarcie okna **Edytor kontrolera narzędzi**.
 
 :   ![](images/Path-ToolConfig.gif )
 :   
     
-*Above: [Path Job](Path_Job.md) Tool Controller subpanel Edit dialog*
+*Powyżej: Okienko dialogowe Edycja [zadania](Path_Job/pl.md) Kontrolera narzędzi*
     
 
-8\. The name given to the tool and the tool number correspond with the tool number of the machine. In the dialog (see above) it\'s Tool Nr. 4. The tool controller is configured for horizontal and vertical feed rates of `2mm/s` and a spindle speed of `2000 rpm`.
+8\. Nazwa nadana narzędziu i numer narzędzia odpowiadają numerowi narzędzia maszyny. W oknie dialogowym (patrz wyżej) jest to narzędzie nr 4. Sterownik narzędzia jest skonfigurowany dla posuwu poziomego i pionowego `2mm/s` i prędkości wrzeciona `2000 rpm`.
 
-9\. Select the Tool subpanel of the Tool controller. Set the diameter (and if you wish to use the <img alt="" src=images/Path_Simulator.svg  style="width:24px;"> [Path Simulation](Path_Simulator.md) tool later: add a cutting edge angle and cutting edge height).
+9\. Wybierz zakładkę **Narzędzia** w Kontrolerze narzędzi. Ustaw średnicę *(a jeśli chcesz użyć narzędzia <img alt="" src=images/Path_Simulator.svg  style="width:24px;"> [Symulator](Path_Simulator/pl.md) później: dodaj kąt krawędzi tnącej i wysokość krawędzi tnącej)*.
 
 :   ![](images/Path-ToolAdd.gif )
 :   
     
-*Above: [Path Job](Path_Job.md) Tool controller 'Tool' subpanel dialog*
+*Powyżej: Okienko dialogowe Edycja [zadania](Path_Job/pl.md) Kontrolera narzędzi i zakładka '''Narzędzia'''*
     
 
-10\. The values are confirmed with **OK**
+10\. Wartości są potwierdzane przyciskiem **OK**.
 
-Note: For easy access, all the tools can be predefined and selected from the <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width:24px;">[Tool manager](Path_ToolLibraryEdit.md).
+Uwaga: Aby ułatwić dostęp, wszystkie narzędzia można wstępnie zdefiniować i wybrać z <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width:24px;"> [Menadżera narzędzi](Path_ToolLibraryEdit/pl.md).
 
-### Job Workplan 
 
-The Workplan tab initially is shown as empty. It is then populated by the sequence of Job Operations, Partial Path Commands, and Path Dressups. The sequence of these items is ordered here.
 
-This tree is shown after the Job\'s configuration once the Path Job is unfolded:
+### Plan pracy 
+
+Zakładka **Plan pracy** jest początkowo wyświetlana jako pusta. Następnie jest wypełniana sekwencją operacji zadania, poleceń ścieżki częściowej i elementów wykończenia ścieżki. Kolejność tych elementów jest tutaj uporządkowana.
+
+To drzewo jest wyświetlane po konfiguracji zadania, po rozwinięciu zadania ścieżki:
 
 :   ![](images/Path-TreeWithJob.png )
 
-## The Path Operations 
 
-11\. Two operations will be added to generate milling paths for this Path Job. The [Profile](Path_Profile.md) operation creates a path around the box and the [Pocket](Path_Pocket_Shape.md) operation creates a path for the inner pocket.
 
-12\. For now we will keep it simple. The <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profile](Path_Profile.md) button opens the Contour panel. After confirming with **OK** using the default values, see the green path around the object is visible.
+## Operacje
 
-13\. Selecting the bottom of the pocket and then the <img alt="" src=images/Path_Pocket_Shape.svg  style="width:32px;"> [Pocket](Path_Pocket_Shape.md) button opens the Pocket Shape window. The default values for Base Geometry, Depths, and Heights are used, and the Operation subpanel is selected, and the Step Over Percent is set at 50.
+11\. Dwie operacje zostaną dodane w celu wygenerowania ścieżek frezowania dla tego zadania ścieżki. Operacja [Kontur](Path_Profile/pl.md) tworzy ścieżkę wokół prostopadłościanu, a operacja [Kształt kieszeni](Path_Pocket_Shape/pl.md) tworzy ścieżkę dla wewnętrznej kieszeni.
+
+12\. Na razie zachowamy prostotę. Przycisk <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Kontur](Path_Profile/pl.md) otwiera panel Kontur. Po potwierdzeniu przyciskiem **OK** przy użyciu domyślnych wartości, widoczna jest zielona ścieżka wokół obiektu.
+
+13\. Wybranie spodu kieszeni, a następnie przycisku <img alt="" src=images/Path_Pocket_Shape.svg  style="width:32px;"> [Kształt kieszeni](Path_Pocket_Shape/pl.md) otwiera okno Kształt kieszeni. Używane są domyślne wartości Geometrii bazowej, Głębokości i Wysokości, wybrana jest zakładka Operacja, a wartość procentowa Kroku nad jest ustawiona na wartość 50.
 
 :   ![](images/Path-PocketOperation.gif )
 :   
     
-*Above: Pocket Shape dialog with the Operation subpanel selected*
+*Powyżej: Okno dialogowe Kształt kieszeni z wybranym panelem Operacja*
     
 
-14\. The pattern is changed to \"Offset\" and the Job Operation is confirmed for the pocket configuration with **OK**
+14\. Wzór zostanie zmieniony na \"Odsunięcie\", a zadanie dla konfiguracji kieszeni zostanie potwierdzone przyciskiem **OK**.
 
-The result is a model with two paths:
+Rezultatem jest model z dwiema ścieżkami:
 
 :   ![](images/Path-WalkThroughResult.gif )
 :   
     
-*Above: resulting with a model with two paths*
+*Powyżej: wynik dla modelu z dwiema ścieżkami*
     
 
-## Verifying Paths 
 
-There are two ways to verify the created paths. The G-Code can be inspected, including highlighting the corresponding path segments. The milling process of the Path Job can also be simulated to demonstrate the idealized tool paths, required for the Tool geometries to mill the Stock.
 
-To inspect the G-Code use the <img alt="" src=images/Path_Inspect.svg  style="width:32px;"> [Path Inspect](Path_Inspect.md) tool. Selecting the corresponding G-Code lines within the G-Code Inspection window highlights individual path segments.
+## Sprawdzanie ścieżek 
+
+Istnieją dwa sposoby weryfikacji utworzonych ścieżek. Można sprawdzić G-code, w tym podświetlić odpowiednie segmenty ścieżki. Proces frezowania zadania ścieżki może być również symulowany w celu zademonstrowania wyidealizowanych ścieżek narzędzia, wymaganych dla geometrii narzędzia do frezowania materiału.
+
+Aby sprawdzić G-Code użyj narzędzia <img alt="" src=images/Path_Inspect.svg  style="width:32px;"> [Przeglądaj polecenia ścieżki](Path_Inspect/pl.md). Wybranie odpowiednich linii G-code w oknie G-code podświetla poszczególne segmenty ścieżki.
 
 :   ![](images/Path-InspectWindow.gif )
 :   
     
-*Above: [Path Inspection](Path_Inspect.md) tool opens the G-Code Inspection dialog*
+*Powyżej: Narzędzie [Przeglądaj polecenia ścieżki](Path_Inspect/pl.md) otwiera okno dialogowe G-code*
     
 
-To start the simulation use the <img alt="" src=images/Path_Simulator.svg  style="width:32px;"> [Path Simulator](Path_Simulator.md) tool.
+Aby rozpocząć symulację, użyj narzędzia <img alt="" src=images/Path_Simulator.svg  style="width:32px;"> [Symulator CAM](Path_Simulator/pl.md).
 
-Adjust speed and accuracy and start the simulation with the <img alt="" src=images/Path_BPlay.svg  style="width:24px;"> (Play) button.
+Dostosuj prędkość i dokładność i rozpocznij symulację za pomocą przycisku <img alt="" src=images/Path_BPlay.svg  style="width:24px;"> *(Play)*.
 
 :   ![](images/Path-Simulation.gif )
 :   
     
-*Above: [Path Simulation](Path_Simulator.md) in progress*
+*Powyżej: [Symulacja CAM](Path_Simulator/pl.md) w toku*
     
 
-If you want to end the simulation click the **Cancel** button, it will remove the stock created for the simulation. If you click **OK** this object will be kept in your Job.
+Jeśli chcesz zakończyć symulację, kliknij przycisk **Anuluj**, co spowoduje usunięcie półproduktu utworzonego na potrzeby symulacji. Jeśli klikniesz przycisk **OK**, obiekt ten zostanie zachowany w zadaniu.
 
-## Postprocess the Job 
 
-The final step to generate G-Code for the target mill is to postprocess the Job. This outputs the G-Codes to a file that can be uploaded to the target CNC machine controller. To invoke the Postprocessor:
 
--   Select the Job object in the [tree view](Tree_view.md)
--   Select the <img alt="" src=images/Path_Post.svg  style="width:32px;"> [Path Postprocessing](Path_Post.md) tool to postprocess the file. This opens a G-Code window allowing inspection of the final output file before it is saved.
+## Przetwarzanie końcowe zadania 
+
+Ostatnim krokiem do wygenerowania G-code dla docelowej frezarki jest postprocessing zadania. Powoduje to przesłanie G-code do pliku, który można przesłać do docelowego sterownika maszyny CNC. Aby wywołać postprocesor:
+
+-   Wybierz obiekt Zadanie w oknie [Widoku drzewa](Tree_view/pl.md).
+-   Wybierz narzędzie <img alt="" src=images/Path_Post.svg  style="width:32px;"> [Przetwarzanie końcowe](Path_Post/pl.md) do przetwarzania pliku. Spowoduje to otwarcie okna G-code umożliwiającego sprawdzenie końcowego pliku wyjściowego przed jego zapisaniem.
 
 :   ![](images/Path-PostOutput.gif )
 :   
     
-*Above: G-Code window allowing inspection of the final output file*
+*Powyżej: Okno G-code umożliwiające przeglądanie końcowego pliku wyjściowego*
     
 
 
- {{Path Tools navi}}
+{{Path Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/pl

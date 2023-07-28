@@ -1,48 +1,55 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher ConstrainRadiam
-   MenuLocation:Sketch → Sketcher constraints → Constrain auto radius/diameter
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Zwiąż automatycznie promień / średnicę
+   MenuLocation:Szkic → Wiązania szkicownika → Zwiąż automatycznie promień / średnicę
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md),
    Shortcut:**K** **S**
    Version:0.20
-   SeeAlso:[Sketcher Constrain distance](Sketcher_ConstrainDistance.md), [Sketcher Constrain horizontal distance](Sketcher_ConstrainDistanceX.md), [Sketcher Constrain vertical distance](Sketcher_ConstrainDistanceY.md)
+   SeeAlso:[Wiązanie odległości](Sketcher_ConstrainDistance/pl.md), [Zwiąż w poziomie](Sketcher_ConstrainDistanceX/pl.md), [Zwiąż w pionie](Sketcher_ConstrainDistanceY/pl.md)
 ---
 
 # Sketcher ConstrainRadiam/pl
 
-## Description
 
-This constraint automatically constrains the value of the radius/diameter of a circle or arc to have a specific value. Following rules are applied :
 
--   If object is a B-spline pole, a weight constrain is added
--   If object is a complete circle, a diameter constrain is added
--   In other cases (typically an arc), a radius constrain is added
+## Opis
 
-If more than one circle or arc is selected before launching the command :
+Więz ten automatycznie ustala, że wartość promienia / średnicy okręgu lub łuku będzie miała określoną wartość. Stosowane są następujące zasady:
 
--   If the constrain is applied in \'Reference\' mode, a new reference constrain is added to each object separately according above rules
--   If the constrain is applied in \'Normal\' (driving) mode, following rules are applied
-    -   A reference constrain is applied separately on each object which is an external geometry
+-   Jeśli obiekt jest biegunem krzywej złożonej, dodawane jest wiązanie wagi.
+-   Jeśli obiekt jest pełnym kołem, dodawane jest wiązanie średnicy.
+-   W innych przypadkach *(zazwyczaj łuk)* dodawane jest wiązanie promienia.
+
+Jeśli przed uruchomieniem polecenia wybrano więcej niż jeden okrąg lub łuk :
+
+-   Jeśli wiązanie jest stosowane w trybie *Informacyjnym*, nowe wiązanie informacyjne jest dodawane do każdego obiektu osobno zgodnie z powyższymi zasadami.
+-   Jeśli polecenie jest stosowane w trybie *Konstrukcji*, stosowane są następujące zasady.
+    -   Wiązanie informacyjne jest stosowane oddzielnie na każdym obiekcie, który jest zewnętrzną geometrią
 
     -   
-        **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Equal constrains](Sketcher_ConstrainEqual.md)**
+        **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Wiązania równości](Sketcher_ConstrainEqual/pl.md)**
         
-        are applied sequentially between all real/construction geometry objects and a dimensional constrain is applied to the first selected object according above rules
+        są stosowane kolejno pomiędzy wszystkimi obiektami geometrii rzeczywistej / konstrukcyjnej, a wiązanie wymiarowe jest stosowane do pierwszego wybranego obiektu zgodnie z powyższymi zasadami.
 
-NB : B-spline poles can\'t be mixed with other object type in the selection
+Uwaga: Bieguny krzywej złożonej nie mogą być mieszane z innymi typami obiektów w wyborze.
 
-## Usage
 
-1.  Pick one or more circles or arcs.
-2.  Press the **[<img src=images/Sketcher_ConstrainRadiam.svg style="width:16px"> [Constrain auto radius/diameter](Sketcher_ConstrainRadiam.md)** button.
-3.  A pop up dialog opens to edit or confirm the value. Press **OK** to validate.
-4.  Optionally the dimension label and line can be moved and rotated in the 3D view by clicking on the value and dragging while keeping the left mouse button pressed.
 
-**Note:** the constraint tool can also be started with no prior selection. By default the command will be in continue mode to create new constraints; press the right mouse button or **Esc** once to quit the command.
+## Użycie
 
-## Scripting
+1.  Wybierz jeden lub więcej okręgów lub łuków.
+2.  Naciśnij przycisk **[<img src=images/Sketcher_ConstrainRadiam.svg style="width:16px"> [Zwiąż automatycznie promień / średnicę](Sketcher_ConstrainRadiam/pl.md)**.
+3.  Otworzy się okno dialogowe, w którym można edytować lub potwierdzić wartość. Naciśnij **OK**, aby zatwierdzić.
+4.  Opcjonalnie etykieta wymiaru i linia mogą być przesuwane i obracane w oknie widoku 3D poprzez kliknięcie na wartość i przeciąganie przy wciśniętym lewym przycisku myszy.
 
-No specific scripting applies. See the [Sketcher scripting](Sketcher_scripting.md) page that explains the values which can be used for `ArcOrCircle` and `Circle`, and contains further examples on how to create constraints from Python scripts.
+**Uwaga:** Narzędzie wiązania może być również uruchomione bez wcześniejszego zaznaczenia obiektu. Domyślnie polecenie będzie w trybie kontynuacji, aby utworzyć nowe wiązanie. Naciśnij prawy przycisk myszy lub klawisz **Esc** raz, aby zakończyć wykonywanie polecenia.
+
+
+
+## Tworzenie skryptów 
+
+Nie ma zastosowania żaden konkretny skrypt. Zobacz stronę [skrypty szkicownika](Sketcher_scripting/pl.md), opisującą wartości, które mogą być używane dla `ArcOrCircle` i `Circle`, i zawiera dalsze przykłady, jak tworzyć wiązania przy użyciu skryptów języka Python.
 
 
 

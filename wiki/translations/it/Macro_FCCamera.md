@@ -1,4 +1,7 @@
 # Macro FCCamera/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro FCCamera
 |Translate=Posizione camera
@@ -11,20 +14,47 @@
 |Download=[https://forum.freecadweb.org/download/file.php?id=79288 FCCamera_Icones.zip]. Unzippato il pacchetto e incollare l'icona totale nella stessa directory della macro. 
 }}
 
+
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Questa macro serve per ruotare lo schermo di un determinato angolo lungo l\'asse voluto e per creare un piano frontale allo schermo in cui produrre una forma in una specifica posizione del piano della faccia selezionata rivolta verso lo schermo, inoltre serve per rilevare la posizione della fotocamera, per allineare la vista alla faccia o all\'asse e per allineare l\'oggetto alla vista.
 
 
+</div>
+
+This macro can rotate the screen in a defined angle and the defined axis and creates a plan to face the screen to create a form in the specified plan positions the selected face facing the screen, to detect the position of the camera, align view to face or to axis, align the object to view.
+
+
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/4aa545c23b323cf68824/raw/98d90ee303e9fa5d6aed6e9f2e36e7ca1a18ca19/Macro%2520FCCamera.FCMacro}}
+
+
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 ![FCCamera](images/Macro_FCCamera_00.png )
+
+
+</div>
 
 **Camera of Axis**: La finestra di dialogo per immettere il valore dell\'angolo di rotazione in gradi.
 
+
+<div class="mw-translate-fuzzy">
+
 **Angle rotation Axis in degrees**: Selezionare l\'asso di rotazione **X, Y,**, **Z** o **D**.
+
+
+</div>
 
 **Axe of rotation**: Serve per selezionare l\'asse di rotazione X, Y, Z o D.
 
@@ -32,7 +62,13 @@ Questa macro serve per ruotare lo schermo di un determinato angolo lungo l\'asse
 
 **Virtual**
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FCCamera_02.png  style="width:24px;"> **Detect camera orientation** : Rileva l\'orientamento della fotocamera e lo stampa nella vista Report. Il valore restituito è il valore fornito dalla funzione getCameraOrientation().
+
+
+</div>
 
 **Align view to face selected**
 
@@ -40,7 +76,13 @@ Questa macro serve per ruotare lo schermo di un determinato angolo lungo l\'asse
 
 -   <img alt="" src=images/FCCamera_04.png  style="width:24px;"> **To Axis.** : Allinea la vista della faccia selezionata agli Assi. Fare clic e ripetere il clic per **Surface Axis** : \"(0,0,1) (0,0,-1) (0,1,0) (0,-1,0) (1,0,0) (-1,0,0)\"
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FCCamera_05.png  style="width:24px;"> **Align object to view.** : Allinea l\'oggetto selezionato alla vista attiva. Modifica i valori di : Rotation Axis((X, Y, Z), Angle) come angoli di Eulero : Yaw, Pitch, Roll. Translation non viene modificata.
+
+
+</div>
 
 -   <img alt="" src=images/FCCamera_06.png  style="width:24px;"> **Create plane of view.** : crea un piano circolare frontale allo schermo con le coordinate del punto cliccato con il mouse su un oggetto. Il raggio del piano è uguale alla dimensione massima di boundbox. Se non è selezionato alcun oggetto, il piano viene creato nel punto 0, 0, 0 con un raggio di 20 mm. Il raggio è modificabile nella riga 515:
 
@@ -49,12 +91,33 @@ Questa macro serve per ruotare lo schermo di un determinato angolo lungo l\'asse
         rayon = 20                            # Radius of plane
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FCCamera_07.png  style="width:24px;"> **Reset.** : Ripristina tutti i valori.
 -   <img alt="" src=images/FCCamera_08.png  style="width:24px;"> **Quit.** : Esce da FCCamera.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ## Sezione Photo 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ![FCCamera](images/Macro_FCCamera_00b.png ) 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -    **ComboBox Actual **: scegliere la propria definizione dello schermo per il formato dell\'immagine
 
@@ -75,6 +138,9 @@ Questa macro serve per ruotare lo schermo di un determinato angolo lungo l\'asse
         -   \"UXGA 1600 x 1200\"
         -   \"QXGA 2048 x 1536\"
         -   \"Free\"
+
+
+</div>
 
 -    **SpinBox X and Y **
     
@@ -110,11 +176,27 @@ Questa macro serve per ruotare lo schermo di un determinato angolo lungo l\'asse
 
 
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Link
 
 Link delle macro collegate a FCCamera
 
+
+</div>
+
+Related Links with FCCamera
+
+
+<div class="mw-translate-fuzzy">
+
 [Macro Rotate View](Macro_Rotate_View/it.md), [Macro Align Object to View](Macro_Align_Object_to_View/it.md), [Macro Align Face Object to View](Macro_Align_Face_Object_to_View/it.md), [Macro WorkFeatures](Macro_WorkFeatures/it.md)
+
+
+</div>
 
 La discussione nel forum [MACRO:Work Feature 2014_12](http://forum.freecadweb.org/viewtopic.php?f=22&t=9056)
 
@@ -124,9 +206,16 @@ Scaricare gli icone [FCCamera_Icones.zip](https://forum.freecadweb.org/download/
 
 Scaricare la macro da Gist [**Macro FCCamera.FCMacro**](https://gist.github.com/mario52a/4aa545c23b323cf68824)
 
+
+
 ## Esempi
 
+
+
 ### Come creare un foro inclinato 
+
+
+<div class="mw-translate-fuzzy">
 
 
 <center>
@@ -139,6 +228,12 @@ Scegliere l\'asse, assegnare l\'angolo di inclinazione, ad es. 15°, e poi clicc
 </center>
 
 
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+
 <center>
 
 <File:FCCamera> 11.png\|Selezionare il cilindro da usare per creare il foro <File:FCCamera> 12.png\|In FCCamera cliccare su <img alt="" src=images/FCCamera_05.png  style="width:24px;"> 
@@ -146,6 +241,12 @@ Scegliere l\'asse, assegnare l\'angolo di inclinazione, ad es. 15°, e poi clicc
 
 
 </center>
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 <center>
@@ -156,7 +257,19 @@ Poi eseguire l\'operazione booleana. <File:FCCamera> 14.png\|Ecco il foro inclin
 
 </center>
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Si può ottenere lo stesso risultato posizionando uno schizzo su un piano inclinato
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 <center>
@@ -173,6 +286,11 @@ Si può ottenere lo stesso risultato posizionando uno schizzo su un piano inclin
 
 
 </center>
+
+
+</div>
+
+
 
 ## Versione
 

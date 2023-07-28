@@ -1,45 +1,54 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign SubtractiveBox
-   MenuLocation:Part Design → Create a subtractive primitive → Subtractive box
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Subtraktywny prostopadłościan
+   MenuLocation:Projekt Części → Utwórz cechę przez odjęcie → Subtraktywny prostopadłościan
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign AdditiveBox](PartDesign_AdditiveBox.md)
+   SeeAlso:[Komponent bryła pierwotna do odjęcia](PartDesign_CompPrimitiveSubtractive/pl.md), [Addytywny prostopadłościan](PartDesign_AdditiveBox/pl.md)
 ---
 
 # PartDesign SubtractiveBox/pl
 
-## Description
 
-Inserts a subtractive box in the active Body. Its shape is subtracted from the existing solid.
 
-![](images/PartDesign_SubtractiveBox_example.png ) *On the left: active body (A) shown in grey and subtractive box (B) shown in transparent red; result on the right.*
+## Opis
 
-## Usage
+Funkcja ta wstawia pierwotny prostopadłościan odejmowany od aktywnej Zawartości. Jego kształt jest odejmowany od istniejącej bryły.
 
-1.  Press the **<img src="images/PartDesign_SubtractiveBox.svg" width=24px> '''Subtractive Box'''** button. **Note**: the Subtractive Box is part of an icon menu labelled *Create a subtractive primitive*. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. If a different primitive is displayed, click on the down arrow besides the icon and select Subtractive Box in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  A Box feature appears under the active Body.
+![](images/PartDesign_SubtractiveBox_example.png ) *Po lewej: aktywna zawartość (A) pokazana w kolorze szarym i prostopadłościan do odjęcia (B) pokazany w kolorze czerwonym z przeźroczystością. Wynik po prawej*.
 
-## Options
 
-The Box can be edited after its creation in two ways:
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
+## Użycie
 
-## Properties
+1.  Naciśnij przycisk **<img src="images/PartDesign_SubtractiveBox.svg" width=24px> '''Subtraktywny prostopadłościan'''**. **Uwaga**: Subtraktywny prostopadłościan jest częścią menu narzędzi o nazwie **Utwórz bryłę pierwotną do odjęcia**. Po uruchomieniu programu FreeCAD, Subtraktywny prostopadłościan wyświetlany jest na pasku narzędzi domyślnie. Jeśli wyświetlany jest inny prymityw, kliknij strzałkę w dół obok ikony i wybierz Addytywny prostopadłościan z menu.
+2.  Ustaw parametry bryły i [dołączenia](Part_EditAttachment/pl.md).
+3.  Kliknij **OK**.
+4.  Pod aktywnym obiektem Zawartość pojawi się element Prostopadłościan.
 
--    **Attachment**: defines the attachment mode as well as the Attachment Offset. See [Part EditAttachment](Part_EditAttachment.md).
 
--    **Label**: Label given to the Box object. Change to suit your needs.
 
--    **Length**: the Box\'s dimension in the X-direction.
+## Opcje
 
--    **Width**: the Box\'s dimension in the Y-direction.
+Prostopadłościan można edytować po jego utworzeniu na dwa sposoby:
 
--    **Height**: the Box\'s dimension in the Z-direction.
+-   Klikając go dwukrotnie w drzewie modelu lub klikając prawym przyciskiem myszy i wybierając **Edytuj bryłę pierwotną** z menu podręcznego. Spowoduje to wyświetlenie parametrów bryły pierwotnej.
+-   Poprzez [Edytor właściwości](Property_editor/pl.md).
+
+
+
+## Właściwości
+
+-    **Dołączenie**: definiuje tryb dołączania, a także przesunięcie dołączania. Zobacz też [Część: Edycja mocowania](Part_EditAttachment/pl.md).
+
+-    **Etykieta**: Etykieta nadana obiektowi Prostopadłościanu. Zmień zgodnie z własnymi potrzebami.
+
+-    **Długość**: wymiar prostopadłościanu w kierunku X.
+
+-    **Szerokość**: wymiar prostopadłościanu w kierunku Y.
+
+-    **Wysokość**: wymiar prostopadłościanu w kierunku Z.
 
 
 

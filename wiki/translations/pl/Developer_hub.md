@@ -17,97 +17,114 @@ Dokumentacja dla programisty składa się z następujących części:
 
 ### Kompilacja programu FreeCAD 
 
--   [Github repo](https://github.com/FreeCAD/FreeCAD). If you are new to git, read [Source code management](Source_code_management.md)
--   [Compile with Docker](Compile_on_Docker.md)
--   [Compiling on Windows](Compile_on_Windows.md)
--   [Compiling on Linux](Compile_on_Linux.md)
--   [Compiling on MacOS](Compile_on_MacOS.md)
--   [Licence details](Licence.md) about the FreeCAD licences
--   [Third Party Libraries](Third_Party_Libraries.md)
--   [Third Party Tools](Third_Party_Tools.md)
--   [Start up and Configuration](Start_up_and_Configuration.md)
--   [Source documentation](Source_documentation.md)
--   Use the [bug tracker](Tracker.md) when you have a problem or think you may have found a bug
+-   [repozytorium GitHub](https://github.com/FreeCAD/FreeCAD). Jeśli jesteś nowy w git, przeczytaj [Zarządzanie kodem źródłowym](Source_code_management/pl.md)
+-   [kompilacja z użyciem Docker](Compile_on_Docker/pl.md)
+-   [kompilacja w systemie Linux](Compile_on_Linux/pl.md)
+-   [Kompilacja w systemie MacOS](Compile_on_MacOS/pl.md)
+-   [kompilacja w systemie Windows](Compile_on_Windows/pl.md)
+-   [Szczegóły licencji](Licence/pl.md) o licencjach programu FreeCAD.
+-   [Biblioteki zewnętrzne](Third_Party_Libraries/pl.md)
+-   [Narzędzia zewnętrzne](Third_Party_Tools/pl.md)
+-   [Uruchomienie i konfiguracja](Start_up_and_Configuration/pl.md)
+-   [Dokumentacja źródłowa](Source_documentation/pl.md)
+-   Użyj [bug tracker](Tracker/pl.md), gdy masz problem lub myślisz, że mogłeś znaleźć błąd
 
-### Packaging
 
-[Packaging](Packaging.md) consists in taking the compiled binaries and Python source files of FreeCAD, and distributing them for use in a particular system.
 
--   [Linux packaging](Linux_packaging.md)
-    -   [Debian development](Debian_development.md)
-    -   [Debian Unstable](Debian_Unstable.md)
-    -   [Git buildpackage](Git_buildpackage.md)
--   [Windows packaging](Windows_packaging.md)
+### Przygotowanie pakietów 
+
+[Paczkowanie](Packaging/pl.md) polega na pobraniu skompilowanych binariów i plików źródłowych Python programu FreeCAD i rozpowszechnieniu ich w celu wykorzystania w konkretnym systemie.
+
+-   [Paczkowanie w Linux OS](Linux_packaging/pl.md)
+    -   [Debian development](Debian_development/pl.md)
+    -   [Debian Unstable](Debian_Unstable/pl.md)
+    -   [Git buildpackage](Git_buildpackage/pl.md)
 -   [MacOS packaging](MacOS_packaging.md)
+-   [Windows packaging](Windows_packaging/pl.md)
 
-### Build Support Tools 
 
--   The [FreeCAD Build Tool](FreeCAD_Build_Tool.md)
-    -   [Adding an application module](Workbench_creation.md) to FreeCAD
--   [Debugging](Debugging.md) FreeCAD
--   [Testing](Testing.md) FreeCAD
--   [Compiling (Speeding up)](Compiling_(Speeding_up).md) FreeCAD
--   [Continuous Integration](Continuous_Integration.md)
 
-### Modifying FreeCAD 
+### Narzędzia wspomagające tworzenie wydania 
 
--   Understanding [The FreeCAD source code](The_FreeCAD_source_code.md)
--   [Submitting patches](Tracker#Submitting_patches.md)
--   Add [Features](Gui_Command.md) to FreeCAD or a Workbench
--   [Branding](Branding.md) or *how to give FreeCAD a unique look*
--   [Artwork](Artwork.md) we made for FreeCAD, that you can freely reuse
--   [Artwork guidelines](Artwork_Guidelines.md) standards for icons
--   [Translating FreeCAD](Localisation.md)
--   [Extra python modules](Extra_python_modules.md), or *how to extend python functionality within FreeCAD*
--   [Google Summer of Code](Google_Summer_of_Code.md) get involved via Google\'s student support program
--   [Fine-tuning](Fine-tuning.md) shows different options and parameter switches that can overcome problems
--   [Wrapping a C++ class in Python](Wrapping_a_Cplusplus_class_in_Python.md) shows how to create the Python wrapper for a C++ class
+-   [FreeCAD Narzędzie do kompilacji](FreeCAD_Build_Tool/pl.md).
+    -   [Tworzenie Środowiska pracy](Workbench_creation/pl.md) dla programu FreeCAD.
+-   [Debugowanie](Debugging/pl.md) FreeCAD.
+-   [Testowanie](Testing/pl.md) FreeCAD.
+-   [Kompilacja (przyspieszamy)](Compiling_(Speeding_up)/pl.md) FreeCAD.
+-   [Ciągła integracja](Continuous_Integration/pl.md).
 
--   [Translating an external workbench](Translating_an_external_workbench.md)
 
-### Module developer\'s guide 
 
-[FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide): This is an ebook under writing on github, please fork and send pull request to contribute.
+### Modyfikacja programu FreeCAD 
 
-Chapters:
+-   Zrozumienie [kodu źródłowego FreeCAD](The_FreeCAD_source_code/pl.md).
+-   [Przesyłanie łatek](Tracker/pl#Przesyłanie_łatek.md).
+-   Dodawanie [funkcjonalności](Gui_Command/pl.md) do programu FreeCAD lub środowiska pracy.
+-   [FreeCAD jako produkt obcej marki](Branding/pl.md) czyli *jak nadać programowi FreeCAD unikalny wygląd*.
+-   [Opracowanie graficzne](Artwork/pl.md), które wykonaliśmy dla programu FreeCAD, a które możesz dowolnie wykorzystać.
+-   [Wytyczne dotyczące grafiki](Artwork_Guidelines/pl.md) standardy dla ikon.
+-   [Tłumaczenia dla FreeCAD](Localisation/pl.md).
+-   [Dodatkowe moduły Python](Extra_python_modules/pl.md), czyli *jak rozszerzyć funkcjonalność pythona w ramach FreeCADa*.
+-   [Google Summer of Code](Google_Summer_of_Code_2023.md) zaangażuj się poprzez program wsparcia studentów Google.
+-   [Dostrajanie parametrów](Fine-tuning/pl.md) pokazuje różne opcje i przełączniki parametrów, które mogą pokonać problemy
+-   [Zawijanie klasy Cplusplus w środowisku Python](Wrapping_a_Cplusplus_class_in_Python/pl.md) pokazuje, jak stworzyć w Pythonie wrapper dla klasy C++
+-   [Lista kontrolna dodawania funkcji do środowiska pracy w języku C++](NewFeatureCheckList_C++.md) stanowi pomoc dla współtwórców.
 
--   Overview and Software Architecture
--   Source code structure
--   Base and App module
--   Gui module
--   Python wrapping
--   Modular design
--   Fem module source analysis (mixed C++ and Python)
--   Development of CFD Module (pure Python)
--   Module testing and debugging
--   Contribute code with git
+-   [Tłumaczenie interfejsu zewnętrznych środowisk pracy](Translating_an_external_workbench/pl.md).
 
-Latest pdf preview can be downoaded from [pdf folder](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide/tree/master/pdf) of this git repo
 
-### Internals
 
-#### OpenCascade Documentation 
+### Przewodnik dla twórców modułów 
 
-OpenCascade is a software development platform for 3D surface and solid modeling, CAD data exchange, and visualization, mostly in the form of C++ libraries.
+[FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide): To jest ebook w trakcie pisania na platformie GitHub, proszę rozwidlić i wysłać pull request, aby wnieść swój wkład.
 
--   [Roman Lygin\'s tutorials](http://opencascade.wikidot.com/romansarticles)
--   [Full Online Documentation](https://dev.opencascade.org/cdoc/overview/html/index.html)
--   [Reference Manual](https://dev.opencascade.org/doc/refman/html/index.html)
--   [The openCascade wiki](http://opencascade.wikidot.com) (currently containing ?? Chinese spam)
+Rozdziały:
 
-#### File format 
+-   Przegląd i architektura oprogramowania.
+-   Struktura kodu źródłowego.
+-   Baza i moduł App.
+-   Moduł GUI.
+-   Paczkowanie w Pythonie.
+-   Modułowa konstrukcja.
+-   Analiza źródeł modułu MES *(mieszane C++ i Python)*.
+-   Rozwój modułu CFD *(czysty Python)*.
+-   Testowanie i debugowanie modułu.
+-   Współtworzenie kodu za pomocą git.
 
-[File Format FCStd](File_Format_FCStd.md). The files created with FreeCAD are `.zip` files that include the [BREP](https://en.wikipedia.org/wiki/Boundary_representation) geometry, as well as XML data that describes the document.
+Najnowszy PDF może być pobrany z [tego repo git](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide/tree/master/pdf).
 
-#### Sketcher solver 
 
--   [Sketcher Solver Architecture Booklet](https://forum.freecadweb.org/viewtopic.php?f=10&t=36355) (forum thread), [source](https://github.com/abdullahtahiriyo/FreeCADBooks/tree/master/FreeCAD_Solver_Architecture) in GitHub.
--   [PlaneGCS solver](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/) in the FreeCAD source code; important files are [GCS.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/GCS.cpp) and [SubSystem.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/SubSystem.cpp).
--   [Recent Several Sketcher improvements](https://forum.freecadweb.org/viewtopic.php?f=9&t=29192).
 
-The sketcher solver isn\'t perfect, as there are some issues with numerical precision when using large values, see [Adventure of fixing sketcher solver for large sketches](https://forum.freecadweb.org/viewtopic.php?f=10&t=40502).
+### Wewnętrzne
 
-The development of a new solver architecture could improve the way the solver is used both in the [Sketcher Workbench](Sketcher_Workbench.md), and for assembly of 3D bodies. See [Reimplementing constraint solver](https://forum.freecadweb.org/viewtopic.php?f=20&t=40525).
+
+
+#### Dokumentacja OpenCascade 
+
+OpenCascade to platforma programistyczna do modelowania powierzchniowego i bryłowego 3D, wymiany danych CAD oraz wizualizacji, głównie w postaci bibliotek C++.
+
+-   [Poradniki Romana Lygina](http://opencascade.wikidot.com/romansarticles).
+-   [Pełna dokumentacja online](https://dev.opencascade.org/cdoc/overview/html/index.html).
+-   [Podręcznik referencyjny](https://dev.opencascade.org/doc/refman/html/index.html).
+-   [Wiki dla openCascade](http://opencascade.wikidot.com) *(obecnie zawiera ?chiński spam)*.
+
+
+
+#### Format plików 
+
+[Format pliku FCStd](File_Format_FCStd/pl.md). Pliki tworzone za pomocą FreeCAD to pliki `.zip`, które zawierają geometrię [BREP](https://en.wikipedia.org/wiki/Boundary_representation), a także dane XML opisujące dokument.
+
+
+
+#### Solver szkicownika 
+
+-   [Broszura dotycząca architektury solvera szkicownika](https://forum.freecadweb.org/viewtopic.php?f=10&t=36355) *(wątek na forum)*, [źródło](https://github.com/abdullahtahiriyo/FreeCADBooks/tree/master/FreeCAD_Solver_Architecture) w serwisie GuitHub.
+-   [Solver PlaneGCS](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/) w kodzie źródłowym FreeCAD; ważne pliki to [GCS.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/GCS.cpp) i [SubSystem.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/SubSystem.cpp)
+-   [Kilka ostatnich ulepszeń szkicownika](https://forum.freecadweb.org/viewtopic.php?f=9&t=29192).
+
+Solwer szkicownika nie jest doskonały, ponieważ istnieją pewne problemy z precyzją numeryczną podczas używania dużych wartości, zobacz wątek na forum [Przygoda z naprawianiem solvera szkicownika dla dużych szkiców](https://forum.freecadweb.org/viewtopic.php?f=10&t=40502).
+
+Opracowanie nowej architektury solvera mogłoby poprawić sposób jego wykorzystania zarówno w środowisku pracy [Szkicownik](Sketcher_Workbench/pl.md), jak i przy składaniu brył 3D. Zobacz stronę [Reimplementacja wiązań solvera](https://forum.freecadweb.org/viewtopic.php?f=20&t=40525).
 
 
 
@@ -121,14 +138,8 @@ FreeCAD, choć użyteczny w pewnych obszarach, jest na początku długiej drogi 
 
 ## Społeczność
 
-
-<div class="mw-translate-fuzzy">
-
--   [IRC channel](irc://chat.freenode.net/freecad) ,zsynchronizowany z [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
--   [Forum programistów](https://forum.freecadweb.org/viewforum.php?f=6)
-
-
-</div>
+-   [IRC channel](ircs://irc.libera.chat:6697/freecad) ,zsynchronizowany z [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
+-   [Forum programistów](https://forum.freecad.org/viewforum.php?f=6)
 
 -   [Plan rozwoju](Development_roadmap/pl.md)
 

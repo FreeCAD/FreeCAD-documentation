@@ -1,27 +1,34 @@
 ---
 - GuiCommand:/de
-   Name/de:Punkte strukturieren
-   MenuLocation:Punkte → Strukturierte Punktwolke 
-   Workbenches:[Punkte](Points_Workbench/de.md)
+   Name:Points Structure
+   Name/de:Points Strukturieren
+   MenuLocation:Punkte → Strukturierte Punktwolke
+   Workbenches:[Points](Points_Workbench/de.md)
 ---
 
 # Points Structure/de
 
+
+
 ## Beschreibung
 
-Der Befehl **Punkte strukturieren** erzeugt eine strukturierte Punktwolke aus den Punkten einer vorhandenen verstreuten Punktwolke. Eine strukturierte Punktwolke hat den Vorteil, dass die Tesselierung wesentlich einfacher ist.
+Der Befehl **Points Strukturieren** erzeugt eine strukturierte Punktwolke aus den Punkten einer vorhandenen verstreuten Punktwolke. Eine strukturierte Punktwolke hat den Vorteil, dass die Tesselierung wesentlich einfacher ist.
 
-Der Befehl funktioniert nur für Punktwolken, deren Punkte, aus einer bestimmten Richtung betrachtet, in einem regelmäßigen 2D Gitter organisiert sind. Diese Punktwolken werden typischerweise von [Streifenlicht 3D Scanner](https://en.wikipedia.org/wiki/Structured-light_3D_scanner) erzeugt und haben keine Hinterschneidungen. Für komplexe Objekte müssen Punktwolken aus vielen verschiedenen Blickrichtungen kombiniert werden.
+Der Befehl funktioniert nur für Punktwolken, deren Punkte, aus einer bestimmten Richtung betrachtet, in einem regelmäßigen 2D-Gitter organisiert sind. Diese Punktwolken werden typischerweise von [Streifenlicht-3D-Scanner](https://en.wikipedia.org/wiki/Structured-light_3D_scanner) erzeugt und haben keine Hinterschneidungen. Für komplexe Objekte müssen Punktwolken aus vielen verschiedenen Blickrichtungen kombiniert werden.
+
+
 
 ## Anwendung
 
-1.  Der Befehl geht davon aus, dass die Blickrichtung der Punktwolke parallel zur Z Achse des globalen Koordinatensystems ist. Wenn dies nicht der Fall ist: Passe die **Platzierung** des Punktwolkenobjekts entsprechend an.
-2.  Wähle das Punktwolkenobjekt.
-3.  Wähle die **Punkte → Strukturierte Punktwolke** Option aus dem Menü.
+1.  Der Befehl geht davon aus, dass die Blickrichtung der Punktwolke parallel zur Z-Achse des globalen Koordinatensystems ist. Wenn dies nicht der Fall ist: Die {{PropertyData/de|Placement}} des Punktwolkenobjekts entsprechend anpassen.
+2.  Das Punktwolkenobjekt auswählen.
+3.  den Menüeintrag **Punkte → Strukturierte Punktwolke** auswählen.
+
+
 
 ## Eigenschaften
 
-Siehe [Punkte konvertieren](Points_Convert/de.md).
+Siehe [Points Konvertieren](Points_Convert/de.md).
 
 
 

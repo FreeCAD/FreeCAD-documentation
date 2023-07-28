@@ -70,7 +70,13 @@ Ora selezioniamo la faccia superiore di Pad e quindi selezioniamo lo strumento M
 ![](images/JschremppFCADEdit4.png )
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher Tools navi

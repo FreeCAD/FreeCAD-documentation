@@ -1,15 +1,21 @@
 # Video tutorials for product design/de
 **Bitte beachte die im Tutorial verwendete Version von FreeCAD. Wenn ein Tutorial eine ältere Version des Programms verwendet, kann der allgemeine Modellierungsprozess noch funktionieren, aber einige Werkzeuge können sich in neueren Versionen geändert haben. Füge keine Videos hinzu, die mit Version 0.16 oder älter erstellt wurden, da diese Versionen als veraltet betrachtet werden.**
 
+
+
 ## Einführung
 
 Die hier aufgeführten Tutorien befassen sich mit dem Gestalten von physischen Produkten für die Fertigung oder den 3D Druck. Weitere Themen findest du auf der allgemeinen Seite [Video Tutorien](video_tutorials/de.md).
 
 Besuche [Tutorien](tutorials/de.md) für schriftliche Tutorien von hoher Qualität. Eine vollständige, unsortierte Liste der Tutorials findest Du unter [:Category:Tutorials](:Category_Tutorials.md).
 
+
+
 ## Produktgestaltung
 
 Videos, die die Modellierung verschiedener Festkörperobjekte mit Hilfe von Arbeitsbereichen wie <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md) und <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Skizzierer](Sketcher_Workbench/de.md) durchlaufen.
+
+
 
 ### Englisch
 
@@ -47,9 +53,13 @@ Videos, die die Modellierung verschiedener Festkörperobjekte mit Hilfe von Arbe
 
 -   [FreeCAD Beginners Tutorials](https://www.youtube.com/watch?v=VEk4RuNIlRY&list=PL1Fv0Kg44dc0WbIB_OoFnEqzanDI7nRQi): FreeCAD 0.17, eine Serie von 5 Videos von Eklavya Self Learning Tutorials, in englischer Sprache, die die Grundlagen von FreeCAD, wie z.B. die Installation und die Benutzeroberfläche lehren und grundlegende Arbeitsbereiche wie [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md), [Part](Part_Workbench/de.md) und [Sketcher](Sketcher_Workbench/de.md) vorstellen.
 
+
+
 ### Französisch
 
 -   [jp willm playlists](https://www.youtube.com/channel/UCJwHW5GwrK1fq16cxUoBOUw/videos): for beginners to more experienced users, jp willm produces many videos on 3D modelling with tools mainly from [Part](Part_Workbench.md) and [PartDesign](PartDesign_Workbench.md), but also exploring [TechDraw](TechDraw_Workbench.md) and of course [Sketcher](Sketcher_Workbench.md).
+
+
 
 ### Deutsch
 
@@ -70,6 +80,8 @@ Obwohl sich diese Liste auf deutsche Inhalte konzentriert, haben viele dieser Ka
 -   [German_Plasma_CNC](https://www.youtube.com/channel/UCGuJsIoXW-exBAwdn38dXow/playlists) Wiedergabelisten für FreeCAD, CNC, G-Code, Blender und andere Themen. Meistens auf Deutsch, einige Videos auf Englisch.
     -   [FreeCAD Deutsch 2019](https://www.youtube.com/watch?v=JOtCL11UAUI&list=PLugsaCAoG3EmYbYuLSU8cz80gBXDeJ6QL): eine Serie von 53 Videos in deutscher Sprache, die sich mit Gebäudeformen und deren Vorbereitung für die CNC Fertigung beschäftigen. Einige Themen sind: Vorbereitung eines Auftrags, Simulation, Nachbearbeitung, Fräsen der Profile, Taschenfräsen, Bohren, Gravieren und Bearbeiten der Werkzeuge.
     -   [FreeCAD English](https://www.youtube.com/watch?v=CPjvnY8hOwY&list=PLugsaCAoG3EnW3SwdM6a-aml_WT1eS6s6): eine Serie von 4 Videos auf Englisch mit einigen Tipps zur Arbeit mit FreeCAD.
+
+
 
 ### Spanisch
 

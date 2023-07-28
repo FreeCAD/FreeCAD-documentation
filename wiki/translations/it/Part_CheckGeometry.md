@@ -17,6 +17,8 @@ Lo strumento di controllo della geometria consente di verificare se si dispone d
 
 </div>
 
+
+
 ## Utilizzo
 
 
@@ -56,7 +58,7 @@ La funzione Controlla geometria verifica se il [Boundary representation](https:/
 
 ### Log errors 
 
-If ticked, any errors found are also logged in the [report view](Report_view.md). <small>(v0.19)</small> 
+If ticked, any errors found are also logged in the [report view](Report_view.md).
 
 ## Shape Content 
 

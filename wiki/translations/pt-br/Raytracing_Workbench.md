@@ -1,10 +1,19 @@
 # Raytracing Workbench/pt-br
-**The Raytracing workbench is essentially obsolete. New development is happening in the [https://github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. This workbench is fully programmed in Python so it is much easier to extend.
+<div class="mw-translate-fuzzy">
 
-Nevertheless, the information in this page is generally useful for the new workbench, as both modules work basically in the same way.
-**
+
+
+
+
+</div>
+
+
+**The '''Raytracing Workbench''' is no longer included after version 0.20.<br>
+ The external [https://github.com/FreeCAD/FreeCAD-render Render Workbench] should be used instead.**
 
 <img alt="Raytracing workbench icon" src=images/Workbench_Raytracing.svg  style="width:128px;">
+
+
 
 ## Introdução
 
@@ -17,7 +26,13 @@ A bancada Raytracing trabalha com [ templates](Raytracing_templates.md), que sã
 
 Atualmente, dois renderizadores são suportados: [povray](http://en.wikipedia.org/wiki/POV-Ray) e [luxrender](http://en.wikipedia.org/wiki/LuxRender). Para poder renderizar a partir do FreeCAD, pelo menos um desses programas deve ser instalado e configurado em seu sistema. No entanto, se nenhum renderizador estiver instalado, você ainda poderá exportar um arquivo de projeto para ser renderizado em outro momento.
 
+
+<div class="mw-translate-fuzzy">
+
 The Raytracing workbench is essentially obsolete. New development is happening in the [Render Workbench](https://github.com/FreeCAD/FreeCAD-render), which is intended as its replacement. This workbench is fully programmed in Python so it is much easier to extend than the current workbench which is programmed in C++. Nevertheless, the information in this page is generally useful for the new workbench, as both modules work basically in the same way.
+
+
+</div>
 
 <img alt="" src=images/Raytracing_example.jpg  style="width:1024px;">
 
@@ -39,7 +54,11 @@ The Raytracing workbench is essentially obsolete. New development is happening i
 
 {{Caption | Fluxo de trabalho da bancada Raytracing; o ambiente de trabalho prepara um arquivo de projeto de um determinado modelo e, em seguida, chama um programa externo para produzir a renderização real da cena. O renderizador externo pode ser usado independentemente do FreeCAD.}}
 
+
+
 ## Ferramentas
+
+
 
 ### Ferramentas de Projeto 
 
@@ -58,6 +77,8 @@ Essas são as principais ferramentas para exportar o seu trabalho 3D para os ren
 
 </div>
 
+
+
 ### Utilidades
 
 Estas são ferramentas auxiliares para realizar tarefas específicas manualmente.
@@ -65,6 +86,8 @@ Estas são ferramentas auxiliares para realizar tarefas específicas manualmente
 -   <img alt="" src=images/Raytracing_WriteView.svg  style="width:32px;"> [Exportar vista para povray](Raytracing_WriteView.md): Escreve uma vista 3D ativa com câmera e todo seu conteúdo para um arquivo povray.
 -   <img alt="" src=images/Raytracing_WriteCamera.svg  style="width:32px;"> [Exportar câmera para o povray](Raytracing_WriteCamera.md): Exporta a posição da câmera de uma vista 3D ativa no formato POV-Ray para um arquivo.
 -   <img alt="" src=images/Raytracing_WritePart.svg  style="width:32px;"> [Exportar peça para o povray](Raytracing_WritePart.md): Escreve a Peça selecionada (objeto) como um arquivo povray.
+
+
 
 ## Preferências
 
@@ -141,7 +164,13 @@ These pages refer to the new workbench, programmed in Python, meant to replace t
 -   [FreeCAD Renderer Workbench improvements](https://forum.freecadweb.org/viewtopic.php?t=39168)
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Raytracing Tools navi
@@ -151,4 +180,4 @@ These pages refer to the new workbench, programmed in Python, meant to replace t
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/pt-br

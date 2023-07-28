@@ -9,46 +9,37 @@
 
 # Part FaceColors/de
 
+
+
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Die **FlächenFarben** Funktion ermöglicht es dir, eine Farbe für jede Fläche oder Oberfläche eines Objekts zu definieren. Auf diese Weise kannst du einem Teil mehrere Farben zuweisen. Um ganze Teile einzufärben, verwende stattdessen das Feature *[SettzeErscheinungsbild](Std_SetAppearance/de.md)*.
+Die Funktion **FlächenFarben** ermöglicht es, für jede Fläche oder Oberfläche eines Objekts eine Farbe zu definieren. Auf diese Weise können einem Teil mehrere Farben zugewiesen werden. Um ganze Teile einzufärben, wird stattdessen die Funktion *[Std Darstellung](Std_SetAppearance/de.md)* verwendet.
 
 
-</div>
 
 ## Verwendung
 
+Flächen einfärben:
 
-<div class="mw-translate-fuzzy">
+1.  Ein Objekt mit der rechten Maustaste in der [Baumansicht](Tree_view/de.md) anklicken. Wenn das Objekt die Flächenfarben-Funktionalität (FaceColors) unterstützt, findet man im Kontextmenü den Eintrag **Farben festlegen\...** zum Anklicken.
+2.  Fläche(n) auswählen:
+    -   Eine einzelne Fläche wird mit einem einfachen Klick ausgewählt.
+    -   Mehrere Flächen auswählen:
+        -   
+            **Ctrl**
+            
+            gedrückt halten und mehrere Flächen anklicken.
 
-Um Flächen einzufärben:
-
-1.  Rechtsklicke auf ein Element in der Baumansicht. Wenn das Element die Funktion *FlächenFarben* unterstützt, gibt es einen Kontextmenüeintrag **Setze Farben\...** und du kannst darauf klicken.
-2.  Um Fläche(n) auszuwählen:
-    1.  Für eine einzelne Fläche klicke einfach darauf und wählen dann im Dialogfeld ihre Farbe
-    2.  Um mehrere Flächen auszuwählen, halte entweder **Ctrl** gedrückt und klicke auf mehrere Flächen.
-        Oder klicke im Dialogfeld auf die Schaltfläche **Boxauswahl**. Dann kannst du mit der Maus ein Auswahlrechteck im Modell ziehen. Jede Fläche, die sich teilweise im Auswahlrechteck befindet, wird ausgewählt.
-3.  Wähle im Dialogfeld eine Farbe für die ausgewählten Flächen.
-4.  Klicke auf **OK** , um das Dialogfeld zu schließen und die von dir vorgenommenen Änderungen zu übernehmen.
-
-
-</div>
+        -   Die Schaltfläche **Rechteckauswahl** im Aufgabenbereich drücken. Dann kann mit der Maus in der [3D-Ansicht](3D_view/de.md) ein Auswahlrechteck aufgezogen werden. Jede Fläche, die sich teilweise im Auswahlrechteck befindet, wird ausgewählt.
+3.  Im Aufgabenbereich eine Farbe für die ausgewählten Flächen festlegen. {{Version/de|0.20}}: Der Farbe kann durch Ändern des Wertes für den \"Alphakanal\" eine Transparenz zugeordnet werden.
+4.  Die Schaltfläche **OK** drücken, um den Aufgabenbereich zu schließen und die Änderungen zu akzeptieren.
 
 Um alle Flächenfarben zurückzusetzen:
 
 1.  Klicke auf **Auf Standard setzen**. Dadurch werden die Farben aller Flächen des Teils auf die Standardfarbe gesetzt. Die Schaltfläche funktioniert sofort, d. h., du kannst dies nicht mit der **Abbrechen** Schaltfläche rückgängig machen.
 
-
-<div class="mw-translate-fuzzy">
-
 ![](images/Part_FaceColors-dialog.png ) 
-*Der FlächenFarben Dialog*
-
-
-</div>
+*Der Aufgabenbereich Festlegen der Farben pro Fläche*
 
 
 

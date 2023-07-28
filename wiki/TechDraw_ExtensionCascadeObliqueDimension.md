@@ -12,7 +12,7 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_ExtensionCascadeObliqueDimension.svg  style="width:24px;"> **TechDraw ExtensionCascadeObliqueDimension** tool evenly spaces oblique dimensions.
+The **TechDraw ExtensionCascadeObliqueDimension** tool evenly spaces oblique dimensions.
 
  <img alt="" src=images/TechDraw_ExtensionCascadeObliqueDimensionExample.png  style="width:400px;">  
 *On the right the evenly spaced oblique dimensions*
@@ -23,7 +23,7 @@ The <img alt="" src=images/TechDraw_ExtensionCascadeObliqueDimension.svg  style=
 2.  Select two or more parallel oblique dimensions.
 3.  The first dimension defines the position. This dimension will not be moved, the other dimensions will be positioned relative to this dimension.
 4.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionCascadeObliqueDimension.svg" width=16px> [TechDraw ExtensionCascadeObliqueDimension](TechDraw_ExtensionCascadeObliqueDimension.md)** button.
+    -   Press the **<img src="images/TechDraw_ExtensionCascadeObliqueDimension.svg" width=16px> [Cascade Oblique Dimensions](TechDraw_ExtensionCascadeObliqueDimension.md)** button.
     -   Select the **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionCascadeObliqueDimension.svg" width=16px> Cascade Oblique Dimensions** option from the menu.
 5.  The dimensions are evenly spaced.
 

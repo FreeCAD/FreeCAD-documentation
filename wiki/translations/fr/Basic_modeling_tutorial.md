@@ -125,10 +125,10 @@ L\'étiquette sur votre bouton peut-être être différente en fonction de votre
 Les instructions ci-dessus fonctionneront, quelle que soit l\'étiquette sur le bouton.
 
 
-  {{Userdocnavi
+ {{Userdocnavi
 ---
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Basic modeling tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Basic modeling tutorial/fr

@@ -1,13 +1,16 @@
 ---
-- GuiCommand:
-   Name:Std LinkImportAll
-   MenuLocation:None
-   Workbenches:All
+- GuiCommand:/ru
+   Name/ru:Импорт всех ссылок
+   Name:Std_LinkImportAll
+   MenuLocation:Нет
+   Workbenches:Все
    Version:0.19
-   SeeAlso:[Std LinkMake](Std_LinkMake.md), [Std LinkMakeRelative](Std_LinkMakeRelative.md), [Std LinkImport](Std_LinkImport.md)
+   SeeAlso:[Создать ссылку](Std_LinkMake/ru.md), [Ссылка](Std_LinkMakeRelative/ru.md), [Импорт ссылок](Std_LinkImport/ru.md)
 ---
 
 # Std LinkImportAll/ru
+
+
 
 ## Описание
 
@@ -17,6 +20,8 @@
 imports all **Linked Object**s from Links into the current document, and then changes the attachment to point to these imported objects.
 
 This command essentially runs **[<img src=images/Std_LinkImport.svg style="width:16px"> [Std LinkImport](Std_LinkImport.md)** for all Links in a document.
+
+
 
 ## Применение
 

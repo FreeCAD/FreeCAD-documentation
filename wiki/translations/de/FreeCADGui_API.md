@@ -1,11 +1,5 @@
 # FreeCADGui API/de
-<div class="mw-translate-fuzzy">
-
-
-**(November 2018) Diese Information kann unvollständig und veraltet sein. Für die letzte API siehe die (engl.) [https://www.freecadweb.org/api autogenerierte API-Dokumentation].**
-
-
-</div>
+**(Oktober 2019) Diese Seite nicht bearbeiten. Die Informationen sind unvollständig und veraltet. Für die aktuelle API siehe die (engl.) [https://www.freecadweb.org/api autogenerierte API-Dokumentation] oder erstelle die Dokumentation selbst, siehe [Quellendokumentation](Source_documentation/de.md).**
 
 This module is the counterpart of the FreeCAD module. It contains everything related to the User interface and the 3D views. Example: 
 ```python

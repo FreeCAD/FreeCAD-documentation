@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -38,6 +40,8 @@ La imagen de arriba muestra un objeto estructural, donde se dibujan dos bocetos,
 
 </div>
 
+
+
 ## Extensión disponible 
 
 
@@ -47,6 +51,8 @@ La herramienta Rebar se ha mejorado mucho durante la edición 2017 de [Google Su
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -76,6 +82,8 @@ La herramienta Rebar se ha mejorado mucho durante la edición 2017 de [Google Su
 
 Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 the rebar can be created outside of any host object. To host a rebar inside an object, you just need to set its **Host**.
 
+
+
 ## Opciones
 
 -   Las barras de refuerzo comparten las propiedades y los comportamientos comunes de todos [Arch Components](Arch_Component/es.md)
@@ -83,6 +91,8 @@ Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 t
 -   Los valores predeterminados para nuevas barras de refuerzo se pueden configurar en la configuración de preferencias de Arch.
 -   Si no se especifica un vector de dirección, la dirección y la distancia a lo largo de las cuales se extenderán las barras se calcula automáticamente desde el objeto estructural del anfitrión, tomando la dirección normal del boceto base y tomando su intersección con el objeto estructural. Si especifica un vector de dirección, también se tendrá en cuenta la longitud de ese vector.
 -   El valor de espaciado se calcula a partir de la cantidad actual de barras, y representa la distancia entre los ejes de cada barra. Por lo tanto, debe restar el diámetro de la barra para obtener el tamaño del espacio libre entre barras.
+
+
 
 ## Propiedades
 
@@ -101,12 +111,19 @@ Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 t
 -    {{PropertyData/es|Spacing}}: La distancia entre los ejes de cada barra.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Programación
 
 
 </div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">

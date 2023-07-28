@@ -167,6 +167,8 @@ Lo que graficará los datos. El comando **plot** admite que se le pase el títul
 
 </div>
 
+
+
 ## Configuración del gráfico 
 
 ### Showing grid and legend 
@@ -392,9 +394,9 @@ También puede seleccionar el tamaño de la imagen de salida en pulgadas, por ej
 </div>
 
 
-{{Tutorials_navi
+{{Plot_Tools_navi
 
-}} {{Plot_Tools_navi}}
+}}
 
 
 

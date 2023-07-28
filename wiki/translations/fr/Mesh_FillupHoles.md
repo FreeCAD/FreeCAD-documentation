@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande **Mesh Remplir les trous** remplit les trous dans les objets maillés.
+La commande **Remplir les trous** remplit les trous dans les objets maillés.
 
 
 

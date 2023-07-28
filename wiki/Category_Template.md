@@ -21,8 +21,8 @@ See also [UncategorizedTemplates](Special_UncategorizedTemplates.md).
 | [Template:TutorialInfo/pl](Template_TutorialInfo/pl.md) | [Template:TutorialInfo/ru](Template_TutorialInfo/ru.md) | [Template:TutorialInfo/tr](Template_TutorialInfo/tr.md) |
 | [Category:Template:Doc](Category_Template_Doc.md) | [Category:Template:Link](Category_Template_Link.md) | [Category:Template:Effect](Category_Template_Effect.md) |
 | [Category:Template:Image](Category_Template_Image.md) | [Category:Template:Navigation](Category_Template_Navigation.md) | [Category:Template:Navigation/it](Category_Template_Navigation/it.md) |
-| [Category:Template:Text](Category_Template_Text.md) | [Category:Template:Text Box](Category_Template_Text_Box.md) | [Category:Template:Text Format](Category_Template_Text_Format.md) |
-| [Category:Template:Text Long](Category_Template_Text_Long.md) |
+| [Category:Template:Text](Category_Template_Text.md) | [Category:Template:Text Box](Category_Template_Text_Box.md) | [Category:Template:Text Box/fr](Category_Template_Text_Box/fr.md) |
+| [Category:Template:Text Format](Category_Template_Text_Format.md) | [Category:Template:Text Long](Category_Template_Text_Long.md) |
 
 
 

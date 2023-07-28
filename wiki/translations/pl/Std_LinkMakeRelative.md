@@ -1,50 +1,56 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std LinkMakeRelative
-   MenuLocation:None
-   Workbenches:All
+   Name/pl:Std: Utwórz łącze względne
+   MenuLocation:brak
+   Workbenches:wszystkie
    Version:0.19
-   SeeAlso:[Std Part](Std_Part.md), [Std Group](Std_Group.md), [Std LinkMake](Std_LinkMake.md)
+   SeeAlso:[Część](Std_Part/pl.md), [Grupa](Std_Group/pl.md), [Utwórz łącze](Std_LinkMake/pl.md)
 ---
 
 # Std LinkMakeRelative/pl
 
-## Description
 
 
-**[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> [Std LinkMakeRelative](Std_LinkMakeRelative.md)**
+## Opis
 
-creates an [App Link](App_Link.md) (`App::Link` class), just like **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)**, but it operates on selected subelements first, and sets the **Link Transform** to `True`.
+Narzędzie **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> '''Utwórz łącze względne'''** tworzy [App Łącze](App_Link/pl.md) (klasa `App::Link`), podobnie jak narzędzie **[<img src=images/Std_LinkMake.svg style="width:16px"> [Utwórz łącze](Std_LinkMake/pl.md)**, ale najpierw działa na wybranych elementach podrzędnych i ustawia parametr **Przekształć łącze** na wartość {{TRUE/pl}}.
 
-## Usage
 
-With selection:
 
-1.  Select a subelement in the [3D view](3D_view.md), this means a vertex, edge, or face, or any combination of these. These subelements must belong to a single object.
-2.  Press the **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> [Make sub-link](Std_LinkMakeRelative.md)** button. The produced object has the same icon as the original object, but has two arrow overlays indicating it is a relative Link.
+## Użycie
 
-Without selection:
+Przy użyciu zaznaczenia:
 
--   If no object is selected, this command does nothing.
--   If an object is selected in the [tree view](tree_view.md) only, but no subelement is selected in the [3D view](3D_view.md), the command does nothing either.
+1.  Wybierz element podrzędny w oknie [widoku 3D](3D_view/pl.md), oznacza to wierzchołek, krawędź lub ścianę, lub dowolną ich kombinację. Te elementy podrzędne muszą należeć do jednego obiektu.
+2.  Naciśnij przycisk **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> '''Utwórz łącze względne'''**. Utworzony obiekt ma taką samą ikonę jak oryginalny obiekt, ale posiada dwie strzałki wskazujące, że jest to link względny.
+
+Bez zaznaczenia:
+
+-   Jeśli żaden obiekt nie jest zaznaczony, to polecenie nic nie robi.
+-   Jeśli obiekt jest zaznaczony tylko w oknie [Widoku drzewa](Tree_view/pl.md), ale żaden element podrzędny nie jest zaznaczony w oknie [Widoku 3D](3D_view/pl.md), to polecenie również nic nie robi.
 
 <img alt="" src=images/Std_Link_tree_sublink_example.png ) ![](images/Std_Link_sublink_example.png  style="width:500px;">
 
 
 
-*Original body, and three Links created from the subelements of it, including edges and faces.*
+*Oryginalna Zawartość i trzy linki utworzone z jej elementów podrzędnych, w tym krawędzi i ścian.*
 
-## Properties
 
-This command creates a new [App Link](App_Link.md); its properties are described in **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)**.
 
-In particular, **Link Transform** is set to `True`, so **Placement** becomes hidden, and instead **Link Placement** controls the position of the Link with respect to the position of **Linked Object**.
+## Właściwości
 
-## Scripting
+Polecenie to tworzy nowy obiekt [App: Łącze](App_Link/pl.md). Jego właściwości opisane są na stronie **[<img src=images/Std_LinkMake.svg style="width:16px"> [Utwórz łącze](Std_LinkMake/pl#Właściwości.md)**.
 
-See [Std LinkMake](Std_LinkMake.md) for the general information.
+W szczególności właściwość **Przekształć łącze** jest ustawione na wartość {{TRUE/pl}}, więc właściwość **Umiejscowienie** staje się ukryte, a zamiast tego **Umiejscowienie łącza** kontroluje pozycję linku w odniesieniu do pozycji **Obiekt połączony**.
 
-An App Link is created with the `addObject()` method of the document. To define a relative link, its `setLink` method is used to pick the source object, and one or more of its subelements. Then the `LinkTransform` attribute is set to `True`.
+
+
+## Tworzenie skryptów 
+
+Informacje ogólne znajdują się na stronie [Utwórz łącze](Std_LinkMake/pl.md).
+
+Obiekt App Łącze jest tworzony za pomocą metody `addObject()` dokumentu. Aby zdefiniować łącze względne, jego metoda `setLink` jest używana do wybrania obiektu źródłowego i jednego lub więcej jego elementów podrzędnych. Następnie atrybut `LinkTransform` jest ustawiany na wartość {{True/pl}}.
 
 
 ```python

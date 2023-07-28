@@ -13,25 +13,48 @@
 
 </div>
 
+
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Punti mediani aggiunge dei [vertici](Glossary#V.md) cosmetici nei punti medi di uno o più bordi.
+
+
+</div>
 
 <img alt="" src=images/TechDraw_CosmeticMidpoint_Sample.png  style="width:250px;"> 
 *Vertici cosmetici nei punti mediani dei bordi*
 
+
+
 ## Utilizzo
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Selezionare uno o più bordi in una vista.
 2.  Premere il pulsante **<img src="images/TechDraw_Midpoints.svg" width=16px> Punti mediani
 **
 3.  I vertici cosmetici vengono aggiunti nei punti medi dei bordi.
 
-Per eliminare un punto mediano, selezionarlo e utilizzare il pulsante della barra degli strumenti **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Rimuovi oggetto cosmetico](TechDraw_CosmeticEraser/it.md)**.
+
+</div>
+
+## Notes
+
+-   The created cosmetic vertices are not parametrically linked to the selected edges.
+-   To delete a cosmetic vertex use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
+
+
 
 ## Proprietà
 
 I vertici cosmetici non hanno proprietà proprie, in quanto non sono dei Document Objects. Condividono le impostazioni di colore e dimensione con i normali vertici della geometria.
+
+
 
 ## Script
 
@@ -56,9 +79,9 @@ In questo momento i vertici cosmetici non sono accessibili dalle [macro](macros/
 
 
 ```python
->>> v = App.ActiveDocument.View
->>> v.clearCV()
->>> App.activeDocument().recompute()
+v = App.ActiveDocument.View
+v.clearCV()
+App.ActiveDocument.recompute()
 ```
 
 

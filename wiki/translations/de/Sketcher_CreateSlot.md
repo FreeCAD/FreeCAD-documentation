@@ -9,6 +9,8 @@
 
 # Sketcher CreateSlot/de
 
+
+
 ## Beschreibung
 
 Zeichnet eine Nut durch Auswahl des Mittelpunktes von zwei Halbkreisen. (In älteren FreeCAD Versionen durch Auswahl des Mittelpunkts eines Halbkreises und eines Endpunkts des anderen Halbkreises).
@@ -17,11 +19,15 @@ Beim Starten des Werkzeugs ändert sich der Mauszeiger in ein weißes Kreuz mit 
 
 ![](images/SketcherCreateSlotExample.png‎ )
 
+
+
 ## Anwendung
 
 -   Nach Drücken der Schaltfläche <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:24px;"> **Nut erstellen**, einmal klicken, um den Mittelpunkt eines Halbkreises festzulegen, dann die Maus bewegen und ein zweites Mal klicken, um den Mittelpunkt des anderen Halbkreises festzulegen.
 
 -    **Esc**drücken oder ein Klick mit der rechten Maustaste bricht die Funktion ab.
+
+
 
 ## Hinweise
 

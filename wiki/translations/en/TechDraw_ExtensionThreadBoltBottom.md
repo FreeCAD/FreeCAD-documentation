@@ -12,7 +12,7 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:24px;"> **TechDraw ExtensionThreadBoltBottom** tool adds a cosmetic thread to the top or bottom view of bolts/screws/rods.
+The **TechDraw ExtensionThreadBoltBottom** tool adds a cosmetic thread to the top or bottom view of bolts/screws/rods.
 
 <img alt="" src=images/TechDraw_ExtensionThreadBoltBottomExample.png  style="width:200px;"> 
 *On the right a rod with a cosmetic thread*
@@ -22,7 +22,7 @@ The <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:
 1.  Optionally specify the line attributes with the <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) tool.
 2.  Select one or more circles.
 3.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionThreadBoltBottom.svg" width=16px> [TechDraw ExtensionThreadBoltBottom](TechDraw_ExtensionThreadBoltBottom.md)** button.
+    -   Press the **<img src="images/TechDraw_ExtensionThreadBoltBottom.svg" width=16px> [Add Cosmetic Thread Bolt Bottom View](TechDraw_ExtensionThreadBoltBottom.md)** button.
     -   Select the **TechDraw → Extensions: Centerlines/Threading → <img src="images/TechDraw_ExtensionThreadBoltBottom.svg" width=16px> Add Cosmetic Thread Bolt Bottom View** option from the menu.
 4.  Cosmetic threads are added.
 

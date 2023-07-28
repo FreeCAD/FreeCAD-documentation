@@ -5,9 +5,13 @@
 
 </div>
 
+
+
 ## Descriere
 
 Selectați constrângerile unui element al schiței.
+
+
 
 
 <div class="mw-translate-fuzzy">

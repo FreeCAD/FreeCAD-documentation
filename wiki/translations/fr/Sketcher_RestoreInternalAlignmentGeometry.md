@@ -1,11 +1,11 @@
 ---
 - GuiCommand:/fr
    Name:Sketcher RestoreInternalAlignmentGeometry
-   Name/fr:Sketcher Basculer la géométrie interne
+   Name/fr:Sketcher Géométrie interne
    MenuLocation:Esquisse → Outils d'esquisse → Afficher/masquer la géométrie interne
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**Z** **I**
-   SeeAlso:[Sketcher Ellipse](Sketcher_CreateEllipseByCenter/fr.md), [Sketcher Contrainte d'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md)
+   SeeAlso:
 ---
 
 # Sketcher RestoreInternalAlignmentGeometry/fr
@@ -18,7 +18,7 @@ La commande supprime les éléments inutilisés alignés sur la géométrie inte
 
 ## Utilisation
 
--   Sélectionnez un élément d\'une esquisse qui prend en charge l\'alignement interne (uniquement Ellipse/Arc et B-spline).
+-   Sélectionnez un élément d\'une esquisse qui prend en charge l\'alignement interne ([Ellipse](Sketcher_CreateEllipseByCenter/fr.md), [Arc d\'ellipse](Sketcher_CreateArcOfEllipse/fr.md), [Arc d\'hyperbole](Sketcher_CreateArcOfHyperbola/fr.md), [Arc de parabole](Sketcher_CreateArcOfParabola/fr.md) ou [B-spline](Sketcher_CreateBSpline/fr.md)).
 -   Lancez la commande en cliquant sur un bouton de la barre d'outils **[<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> [Afficher/masquer la géométrie interne](Sketcher_RestoreInternalAlignmentGeometry/fr.md)** ou choisissez **Esquisse → Outils d'esquisse → [<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> Afficher/masquer la géométrie interne** ou utilisez le raccourci clavier.
 
 S\'il existe des emplacements d\'alignement libres pour l\'élément sélectionné, une nouvelle géométrie de construction est créée et alignée sur les emplacements disponibles. Si tous les emplacements d\'alignement sont occupés, la géométrie interne non utilisée est supprimée (l\'élément est considéré comme inutilisé s\'il n\'est contraint à rien d\'autre).

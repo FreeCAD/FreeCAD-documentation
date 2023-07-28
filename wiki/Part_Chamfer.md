@@ -10,7 +10,7 @@
 
 ## Description
 
-Chamfers the selected edge(s) of an object. A dialog allows you to choose which edge(s) to work on as well as modify various chamfer parameters.
+**Part Chamfer** chamfers the selected edge(s) of an object. A dialog allows you to choose which edge(s) to work on as well as modify various chamfer parameters.
 
 ![Chamfer example](images/Chamfer-example.png )
 

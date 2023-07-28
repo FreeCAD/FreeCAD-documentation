@@ -22,6 +22,8 @@
 
 ![](images/Arch_tutorial_00.jpg )
 
+
+
 ## Introducción
 
 
@@ -107,6 +109,8 @@ En el momento de escribir este tutorial, [Módulo de arquitectura](Arch_Workbenc
 
 </div>
 
+
+
 ## Flujos de trabajo típicos 
 
 
@@ -131,6 +135,8 @@ El [Módulo de arquitectura](Arch_Workbench/es.md) está pensado principalmente 
 
 En este tutorial modelaremos la casa en 3D basándonos en planos 2D que habremos descargado previamenet de la red y luego extraeremos documentación en 2D tal como plantas, alzados y secciones.
 
+
+
 ## Preparación
 
 En lugar de crear el proyecto desde cero nos basaremos en un ejemplo concreto para ahorrar tiempo. Elegí esta vivienda del famoso arquitecto brasileño [Vilanova Artigas](http://es.wikipedia.org/wiki/Jo%C3%A3o_Batista_Vilanova_Artigas) (ver la [galería de fotografías](http://www.leonardofinotti.com/projects/architects-second-house/image/40409-130405-010d) de Leonardo Finotti) porque está próxima a donde vivo, es sencilla, es un ejemplo perfecto de la arquitectura moderna de São Paulo y es fácil encontrar planos [en dwg](http://www.bibliocad.com/library/second-house-vilanova-artigas_72926#).
@@ -144,6 +150,8 @@ Este es el aspecto que tiene el archivo tras ser abierto en FreeCAD. También mo
 ![](images/Arch_tutorial_02.jpg )
 
 El [importador DXF](Draft_DXF/es.md) (que también se encarga de los archivos DWG, pues en el fondo éstos se convierten primero a DXF) agrupa los objetos importados a través de las capas. En FreeCAD no existen capas, sino [grupos](Std_Group/es.md). Los [grupos](Std_Group/es.md) ofrecen una forma similar de organizar los objetos de un archivo, pero no tienen propiedades específicas que se apliquen a sus contenidos, tal y como ocurre con las capas de AutoCAD, sin embargo un grupo puede contenerse dentro de otro grupo, lo cual es bastante útil. Lo primero que deberemos hacer es crear un nuevo [grupo](Std_Group/es.md), para lo cual deberemos hacer clic derecho en el icono de documento de la [vista de árbol](Document_structure/es.md), añadir un grupo, hacer clic derecho de nuevo y renombrarlo como \"planos base 2D\" y arrastrar y soltar todos los objetos importados dentro de él.
+
+
 
 ## Construyendo los muros 
 
@@ -513,7 +521,7 @@ The section plane automatically produces cut views of the objects it intersects.
 
 <img alt="" src=images/Arch_tutorial_49.jpg  style="width:1024px;">
 
-The section planes can produce two different outputs: [shape](Part_Workbench.md) objects, that live in the same document as your 3D model, or [drawing views](Drawing_Workbench.md), that are made to use on a drawing sheet produced by the [Drawing workbench](Drawing_Workbench.md). Each of these behave differently, and has its own advantages.
+The section plane can produce two different outputs: [shape](Part_Workbench.md) objects in the 3D view, or [TechDraw ArchViews](TechDraw_ArchView.md) that are displayed on a drawing sheet produced by the [TechDraw Workbench](TechDraw_Workbench.md). Each of these behave differently, and have their own advantages.
 
 **Shape views**
 
@@ -527,15 +535,15 @@ On the image above, two [Shape2D views](Draft_Shape2DView.md) have been produced
 
 Note that some features are still not supported by the [DXF/DWG exporter](Draft_DXF.md) so the result in your 2D application might differ a bit. For example, in the image above, I had to redo the hatching, and correct the position of some dimension texts. If you place your objects in different groups in FreeCAD, these become layers in your 2D CAD application.
 
-**Drawing views**
+**ArchViews**
 
-The other kind of output that can be produced from [section planes](Arch_SectionPlane.md) is a [Drawing view](Drawing_Workbench.md). These are produced by using the [Draft Drawing](Draft_Drawing.md) tool with a section plane selected. This method has one big limitation compared to the previous one: you have limited possibilities to edit the results, and at the moment, things like dimensioning or hatching are still not natively supported.
+The other kind of output that can be produced from [section planes](Arch_SectionPlane.md) are [TechDraw ArchViews](TechDraw_ArchView.md). This method has one big limitation compared to the previous one: you have limited possibilities to edit the results, and at the moment, things like dimensioning or hatching are still not natively supported.
 
 On the other hand, the final output being easier to manipulate, and the graphical possibilities of the SVG format being huge, in the future, undoubtedly this will be the preferred method. At the moment, though, you\'ll get better results using the previous one.
 
 <img alt="" src=images/Arch_tutorial_52.jpg  style="width:1024px;">
 
-On the image above, the geometry is the direct output of the section plane, but some other Draft objects have been added, such as dimensions and hatched polygons, and another view object with same scale and offset values has been produced from them with the [Draft Drawing](Draft_Drawing.md) tool. In the future, such operations will be done directly on the Drawing page, leaving your model totally clean.
+On the image above, the geometry is the direct output of the section plane, but some other Draft objects have been added, such as dimensions and hatched polygons, and another view object with same scale and offset values has been produced from them with the [TechDraw DraftView](TechDraw_DraftView.md) tool. In the future, such operations will be done directly on the Drawing page, leaving your model totally clean.
 
 ### Quantities extraction 
 
@@ -562,4 +570,4 @@ The file created during this tutorial can be found [here](http://yorik.uncreated
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Arch_Workbench.md) > Arch tutorial/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/es

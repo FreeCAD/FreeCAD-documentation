@@ -4,17 +4,18 @@
    Name/it:Misura la distanza
    MenuLocation:Strumenti → Misura la distanza
    Workbenches:Tutti
-   SeeAlso:[Menu Misure](Std_Measure_Menu/it.md), [Dimensioni di Draft](Draft_Dimension/it.md), [Ispeziona di Arch](Arch_Survey/it.md)
+   SeeAlso:[Misura lineare](Part_Measure_Linear/it.md), [Quotatura di Draft](Draft_Dimension/it.md)
 ---
 
 # Std MeasureDistance/it
 
 
-</div>
 
 ## Descrizione
 
 Il comando **Misura la distanza** crea un oggetto distanza che misura e visualizza la distanza tra due punti.
+
+
 
 ## Utilizzo
 
@@ -26,18 +27,19 @@ Il comando **Misura la distanza** crea un oggetto distanza che misura e visualiz
 4.  L\'ordine di selezione dei punti può avere un impatto sulla posizione della linea di quota.
 5.  Facoltativamente, capovolgere la posizione della linea di quota modificando la proprietà **Mirror** dell\'oggetto distanza.
 
+
+
 ## Note
 
-
-<div class="mw-translate-fuzzy">
-
--   Con questo comando non è possibile utilizzare gli strumenti snap di [Draft](Draft_Workbench/it.md).
--   Per aggiungere quote ai disegni, utilizzare gli strumenti di quotatura di [TechDraw](TechDraw_Workbench/it.md).
+-   Non è possibile utilizzare gli strumenti snap di [Draft](Draft_Workbench/it.md) con questo comando.
+-   Per aggiungere quote ai disegni utilizzare gli strumenti di quotatura da [TechDraw](TechDraw_Workbench/it.md).
+-   Per strumenti di misurazione più completi, installare <img alt="" src=images/Manipulator_workbench_icon.svg  style="width:24px;"> [Manipulator](Manipulator_Workbench/it.md) (un [ambiente complementare](External_workbenches/it.md)).
 
 
-</div>
 
 ## Proprietà
+
+
 
 ### Dati
 
@@ -55,6 +57,8 @@ Il comando **Misura la distanza** crea un oggetto distanza che misura e visualiz
 
 -    **Distance**: (sola lettura) la distanza misurata tra P1 e P2.
 
+
+
 ### Vista
 
 
@@ -67,13 +71,7 @@ Il comando **Misura la distanza** crea un oggetto distanza che misura e visualiz
 -    **Mirror**: se impostato su `True`, la posizione della linea di quota relativa a P1 e P2 viene invertita.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

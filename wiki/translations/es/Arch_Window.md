@@ -10,6 +10,8 @@
 
 # Arch Window/es
 
+
+
 ## Descripción
 
 Un [Arquitectura Ventana](Arch_Window/es.md) es un objeto base para todo tipo de objetos \"incrustables\", como ventanas y puertas. Está diseñado para ser independiente, o \"alojado\" dentro de otro componente como un [Arquitectura Muro](Arch_Wall/es.md), [Arquitectura Estructura](Arch_Structure/es.md), o [Arquitectura Techo](Arch_Roof/es.md). Tiene su propia geometría, que puede estar formada por varios componentes sólidos (comúnmente un marco y paneles interiores), y también define un volumen que se sustrae de los objetos anfitriones, para crear una abertura.
@@ -26,7 +28,11 @@ All information applicable to an [Arch Window](Arch_Window.md) also applies to a
 <img alt="" src=images/Arch_Window_example2.jpg  style="width:600px;"> 
 *Complex window being constructed on top of a [Sketch](Sketcher_Workbench.md). When entering the window's edit mode you can create different components, set their thickness, and select and assign wires from the sketch to them.*
 
+
+
 ## Utilización
+
+
 
 ### Usando un preajustado 
 
@@ -57,7 +63,12 @@ If you install the [Parts Library](Parts_Library_Workbench.md) from the [Addon M
     -   On Mac OSX it is usually **/Users/username/Library/Preferences/FreeCAD/**
 -   The subdirectory name **Custom** is just a suggestion, any name can be used. But the files must be placed in one or more subdirectories inside the **Doors** or **Windows** directories.
 
+
+
 ### Creando desde cero 
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Opcionalmente, seleccione una cara en el objeto Arch donde desee que se incluya la ventana
 2.  Cambie al [Sketcher Workbench](Sketcher_Workbench.md)
@@ -68,17 +79,28 @@ If you install the [Parts Library](Parts_Library_Workbench.md) from the [Addon M
 7.  Presione el botón {{KEY | <img src="images/_Arch_Window.png_" width= 16px> [[Arch Window]]}}, o presione {{KEY | W}} luego la tecla {{KEY | I}}
 8.  Ingrese al modo Editar haciendo doble clic en la ventana en la vista de árbol, para ajustar los componentes de la ventana
 
-When creating the sketch, pay close attention to the creation order of the loops; the numbering of the \"wires\" in the [task panel](task_panel.md) (\"Window elements\") depends on this.
+
+</div>
+
+
 
 ## Predefinidos
 
 Los siguientes predefinidos están disponibles:
 
-Image:ParametersDoorGlass.svg\|Glass door Image:ParametersDoorSimple.svg\|Simple door Image:ParametersWindowDouble.svg\|Double-opening window Image:ParametersWindowFixed.svg\|Fixed window Image:ParametersWindowSimple.svg\|Single-opening window Image:ParametersWindowStash.svg\|Sash-opening window
+Image:ParametersWindowFixed.svg\|Fixed Image:ParametersWindowSimple.svg\|Open 1-pane Image:ParametersWindowDouble.svg\|Open 2-pane Image:ParametersWindowStash.svg\|Sash 2-pane Image:ParametersWindowDouble.svg\|Sliding 2-pane Image:ParametersDoorSimple.svg\|Simple door Image:ParametersDoorGlass.svg\|Glass door Image:ParametersWindowDouble.svg\|Sliding 4-pane Image:ParametersWindowSimple.svg\|Awning
+
+
 
 ## Componentes constructivos 
 
+
+<div class="mw-translate-fuzzy">
+
 Windows puede incluir 3 tipos de componentes: paneles, marcos y louvres. Los paneles y las louvres están hechos de una linea cerrada, que se extruye, mientras que los marcos están hechos de 2 o más lineas cerradas, donde cada uno se extruye, luego los más pequeños se restan del más grande. Puede acceder, crear, modificar y eliminar componentes de una ventana en el modo de edición (haga doble clic en la ventana en la vista de árbol). Los componentes tienen las siguientes propiedades:
+
+
+</div>
 
 -   **Nombre**: un nombre para el componente
 -   **Tipo**: el tipo de componente. Puede ser \"Marco\", \"Panel de vidrio\", \"Panel sólido\" o \"Louvres\"
@@ -89,6 +111,8 @@ Windows puede incluir 3 tipos de componentes: paneles, marcos y louvres. Los pan
 -   **Modo de apertura**: si definió una bisagra en este componente o en cualquier otro anterior de la lista, establecer el modo de apertura permitirá que la ventana parezca abierta o que muestren símbolos de apertura 2D en planta o alzado.
 
 <img alt="" src=images/Arch_Window_options.jpg  style="width:600px;">
+
+
 
 ## Opciones
 
@@ -105,6 +129,8 @@ Windows puede incluir 3 tipos de componentes: paneles, marcos y louvres. Los pan
 
 
 </div>
+
+
 
 ## Aberturas
 
@@ -167,6 +193,8 @@ You can use any other kind of workflow than the one described above, the importa
 -   The type object must be one object, no matter the type (App Part, PartDesign Body, Part Compound, or even another Arch Window)
 -   The type object must have a \"Subvolume\" property (linked to the window\'s Subvolume property) for openings in host objects to work
 -   The type object must have a \"Group\" property with different children with same names as multi-material items for multi-materials to work
+
+
 
 ## Propiedades
 

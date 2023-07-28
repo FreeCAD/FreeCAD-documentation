@@ -22,7 +22,7 @@ Usage instructions for the [Adaptive](Path_Adaptive.md) operation are presented 
 3.  Adjust the operation depths as needed in the Depths tab: Start Depth, Finish Depth, Step Down.
 4.  Make adjustments in Heights tab if needed.
 5.  Configure settings in the Operations tab:
-    1.  (**See the Properties → Adaptive section below.**)
+    1.  (**See the [Properties](#Properties.md) → Adaptive section below.**)
     2.  Set the Step Over value as a percentage of the diameter of the Tool.
 6.  If you wish to preview the result before accepting the settings, click **Apply**
 7.  Click **OK** button to confirm and generate paths.
@@ -81,42 +81,42 @@ Note: It is suggested that you do not edit the Placement property of path operat
     -   
         **Axis**
         
-        : Axis(one or multiple) around which to rotate the object, set in sub-properties: x, y, z
+        : Axis (one or multiple) around which to rotate the object, set in sub-properties: X, Y, Z
 
         -   
             **X**
             
-            : x axis value
+            : X axis value
 
         -   
             **Y**
             
-            : y axis value
+            : Y axis value
 
         -   
             **Z**
             
-            : z axis value
+            : Z axis value
 
     -   
         **Position**
         
-        : Position of the object, set in sub-properties: x, y, z - with respect to the origin (or origin of parent object container)
+        : Position of the object, set in sub-properties: X, Y, Z - with respect to the origin (or origin of parent object container)
 
         -   
             **X**
             
-            : x distance value
+            : X distance value
 
         -   
             **Y**
             
-            : y distance value
+            : Y distance value
 
         -   
             **Z**
             
-            : z distance value
+            : Z distance value
 
 -    **Label**: User-provided name of the object (UTF-8)
 
@@ -138,7 +138,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 {{TitleProperty|Path}}
 
--    **Active**: make False, to prevent operation from generating code
+-    **Active**: Make False, to prevent operation from generating code
 
 -    **Comment**: An optional comment for this Operation
 
@@ -148,13 +148,15 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 ## Tasks Window Editor Layout 
 
-*Descriptions for these settings are provided in the Properties list above.* This section is simply a layout map of the settings in the window editor for the Operation.
+*Descriptions for these settings are provided in the Properties list above.*
+
+This section is simply a layout map of the settings in the window editor for the Operation.
 
 ### Base Geometry 
 
--   **Add**: adds selected element(s) which should be the base(s) for the path(s)
--   **Delete**: delete the selected item(s) in the Base Geometry list
--   **Clear**: clear all items in the Base Geometry list
+-   **Add**: Adds selected element(s) which should be the base(s) for the path(s).
+-   **Delete**: Delete the selected item(s) in the Base Geometry list.
+-   **Clear**: Clear all items in the Base Geometry list.
 
 ### Depths
 
@@ -215,6 +217,14 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Stop**
     
+
+## Known Issues 
+
+In case Path Adaptive creates some unwanted paths, try with a **Stock to Leave** set to {{Value|0.001 mm}} or more. You can reduce the diameter of the tool by double that amount to keep the paths exact.
+
+A proposed bugfix is available (but no one is working on integrating it):
+
+<https://github.com/FreeCAD/FreeCAD/pull/5276>
 
 ## Resources
 

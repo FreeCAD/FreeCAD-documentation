@@ -7,12 +7,16 @@
 
 # Draft Draft2Sketch/pt-br
 
+
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> **Draft Draft2Sketch** command converts [Draft](Draft_Workbench.md) objects to [Sketcher Sketches](Sketcher_NewSketch.md) and vice versa.
 
 ![](images/Draft_Draft2Sketch_example.png ) 
 *Converting Draft objects to Sketcher Sketches*
+
+
 
 ## Utilização
 
@@ -22,6 +26,8 @@ The <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> **Draft 
     -   Select the **Modification → <img src="images/Draft_Draft2Sketch.svg" width=16px> Draft to Sketch** option from the menu.
 3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
 4.  A new object is created.
+
+
 
 ## Notas
 

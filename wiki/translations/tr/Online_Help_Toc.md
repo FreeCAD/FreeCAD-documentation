@@ -47,6 +47,9 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   Tezgahlar
     -   [Mimari Tezgah](Arch_Workbench/tr.md)
     -   [FreeCAD Test Alanı](Debugging/tr.md)
@@ -72,6 +75,9 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
     -   [Yüzey tezgahı](Surface_Workbench/tr.md)
     -   [Teknik Resim Tezgahı](TechDraw_Workbench/tr.md)
     -   [The Web Tezgahı](Web_Workbench/tr.md)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

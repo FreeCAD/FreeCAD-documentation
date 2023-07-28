@@ -24,30 +24,21 @@ Crea un vincolo di velocità iniziale del flusso per un\'analisi del flusso del 
 
 </div>
 
+## Formulas
 
-
-
-<div class="mw-translate-fuzzy">
-
-## Limitazioni
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   Il vincolo applica la velocità del flusso iniziale a tutti i nodi nel modello FEA
--   Il vincolo non può essere orientato se non utilizzando le principali componenti cartesiane.
-
-
-</div>
+For a description how to input formulas, see section *Formulas* in the page for the [Flow velocity constraint](FEM_ConstraintFlowVelocity#Formulas.md).
 
 
 
 ## Note
 
+
+<div class="mw-translate-fuzzy">
+
 Nelle analisi più semplici non è necessario specificare la velocità di flusso iniziale, tuttavia è consigliata come buona pratica.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

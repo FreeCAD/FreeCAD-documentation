@@ -8,12 +8,16 @@
 
 # Draft Snap Near/pl
 
+
+
 ## Opis
 
-Opcja <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> **Przyciągnij do najbliższego** powoduje przyciąganie do najbliższego punktu na powierzchniach oraz krawędziach. Ściany i krawędzie mogą należeć do obiektów środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md), ale także do obiektów stworzonych w innych [środowiskach pracy](Workbenches/pl.md).
+Opcja <img alt="" src=images/Draft_Snap_Near.svg  style="width:24px;"> **Przyciągnij do najbliższego** powoduje przyciąganie do najbliższego punktu na powierzchniach oraz krawędziach. Ściany i krawędzie mogą należeć do obiektów środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md), ale także do obiektów stworzonych w innych [środowiskach pracy](Workbenches/pl.md).
 
 ![](images/Draft_Snap_Near_example.png ) 
 *Przyciąganie drugiego punktu prostej do najbliższego punktu na krawędzi*
+
+
 
 ## Użycie
 
@@ -31,10 +35,14 @@ Ogólne informacje na temat przyciągania można znaleźć na stronie [Przyciąg
 8.  Opcjonalnie przesuń kursor wzdłuż powierzchni lub krawędzi, aby wybrać inny najbliższy punkt.
 9.  Kliknij, aby potwierdzić punkt.
 
+
+
 ## Uwagi
 
 -   Nie jest dobrym pomysłem, aby opcja [Przyciągnij do najbliższego](Draft_Snap_Near/pl.md) była stale aktywna, ponieważ ma ona pierwszeństwo przed wieloma innymi opcjami przyciągania.
 -   W wersji {{VersionMinus/pl|0.20}} podczas przyciągania do krzywych, narzędzie [Draft Snap Near](Draft_Snap_Near/pl.md) przyciąga je do ich segmentów w oknie [widoku 3D](3D_view.md), co powoduje niedokładność. Aby uzyskać dokładny punkt na krzywej, w środowisku Rysunek Roboczy narysuj [linię](Draft_Line/pl.md) w poprzek krzywej, a następnie wytnij linię za pomocą narzędzia [przytnij](Draft_Trimex/pl.md), używając krzywej jako narzędzia tnącego.
+
+
 
 ## Ustawienia
 

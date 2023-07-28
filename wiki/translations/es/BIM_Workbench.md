@@ -6,6 +6,8 @@
 
 {{TOCright}}
 
+
+
 ## Introducción
 
 El <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [Ambiente de trabajo BIM](BIM_Workbench/es.md) es un [Ambiente de trabajo externo](External_workbenches/es.md) destinado a implementar herramientas completas de [Building Information Modeling](https://en.wikipedia.org/wiki/Building_information_modeling) (BIM) y flujo de trabajo en FreeCAD. Se puede instalar desde el <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/es.md).
@@ -26,15 +28,25 @@ Los desarrolladores de Draft, Arch y BIM también colaboran con la gran [OSArch 
 
 <img alt="" src=images/BIM_workbench_presentation.png  style="width:800px;">
 
+
+
 ## Instalación
 
+
+<div class="mw-translate-fuzzy">
+
 El ambiente de trabajo BIM no está incluido en el paquete predeterminado de FreeCAD, pero puede ser instalado fácilmente a través de la <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/es.md). Invóquelo desde **Herramientas → [Addons Manager](Std_AddonMgr/es.md)**. El código del ambiente de trabajo BIM es [alojado y desarrollado en github](https://github.com/yorikvanhavre/BIM_Workbench) y también puede ser instalado manualmente copiándolo en el directorio **MOD** de FreeCAD.
+
+
+</div>
 
 **Nota**
 
 El ambiente de trabajo BIM es un trabajo en progreso, y cambiará a menudo. ¡Asegúrese de actualizarlo regularmente! Si tiene instalado el módulo [Python-Git](https://github.com/chidimo/python-git), el ambiente de trabajo de BIM buscará automáticamente las actualizaciones disponibles al inicio, y mostrará un icono en la barra de estado si hay una actualización disponible.
 
 Las herramientas que se enumeran a continuación pueden no estar todas presentes si su versión de FreeCAD no está totalmente actualizada. Sin embargo, el ambiente de trabajo BIM debería funcionar sin problemas en todas las versiones de FreeCAD, sólo eliminará las herramientas no disponibles.
+
+
 
 ## Cómo empezar 
 
@@ -50,6 +62,8 @@ Si estás acostumbrado a otra aplicación BIM, consulta nuestra [Tabla de compat
 
 The [in-game tutorial](BIM_ingame_tutorial.md) is an easy way to quickly get on track with the BIM workbench.
 
+
+
 ## Herramientas
 
 El ambiente de trabajo BIM reúne herramientas de otros ambientes de trabajo de FreeCAD, principalmente [Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md) y [Pieza](Part_Workbench/es.md), reorganizados a grandes rasgos en categorías lógicas: **dibujo 2D**, **modelado 3D**, **anotación** y **modificación**. La categoría **gestión** contiene herramientas específicas del ambiente de trabajo BIM.
@@ -63,6 +77,8 @@ Además, si se instalan estos [addons](External_workbenches/es.md), las herramie
 </div>
 
 El ambiente de trabajo BIM también añade una serie de elementos en la **barra de estado** de FreeCAD, y un par de elementos del **menú contextual**\', accesibles haciendo clic con el botón derecho en la vista 3D o en la vista de árbol.
+
+
 
 ### 2D Elaboración 
 
@@ -81,6 +97,8 @@ Los objetos 2D se utilizan habitualmente como ayudas al dibujo, o para dibujar l
 -   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:32px;"> [Curva cúbica de Bezier](Draft_CubicBezCurve/es.md): dibuja una curva de Bezier de tercer grado arrastrando dos puntos.
 -   <img alt="" src=images/Draft_BezCurve.svg  style="width:32px;"> [Curva de Bézier](Draft_BezCurve/es.md): Dibuja una curva de Bézier a partir de una serie de puntos
 -   <img alt="" src=images/Draft_Point.svg  style="width:32px;"> [Punto](Draft_Point/es.md): Inserta un objeto de punto
+
+
 
 ### Anotación
 
@@ -102,6 +120,8 @@ Anotaciones son objetos de ayuda visual que se pueden colocar dentro de su model
 
 
 </div>
+
+
 
 ### 3D / BIM Modelado 
 
@@ -143,6 +163,8 @@ Los objetos 3D y BIM son los elementos del mundo real que compondrán tu proyect
 -   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Constructor formas](Part_Builder/es.md): Una herramienta para crear formas más complejas a partir de varias primitivas geométricas paramétricas
 -   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Facebinder](Draft_Facebinder/es.md): Crea un nuevo objeto a partir de caras seleccionadas en objetos existentes
 
+
+
 ### Herramientas de modificación 
 
 -   <img alt="" src=images/Draft_Move.svg  style="width:32px;"> [Move](Draft_Move.md): Moves object(s) from one location to another
@@ -171,6 +193,8 @@ Los objetos 3D y BIM son los elementos del mundo real que compondrán tu proyect
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Add component](Arch_Add.md): Adds objects to a component
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Remove component](Arch_Remove.md): Subtracts or removes objects from a component
 
+
+
 ### Herramientas de gestión 
 
 -   <img alt="" src=images/BIM_Setup.png  style="width:32px;"> [BIM setup](BIM_Setup.md): Configures some of the FreeCAD preferences most commonly used for BIM
@@ -187,6 +211,8 @@ Los objetos 3D y BIM son los elementos del mundo real que compondrán tu proyect
 -   <img alt="" src=images/BIM_Preflight.svg  style="width:32px;"> [Preflight checks](BIM_Preflight.md): Perform different checks on your model before exporting to IFC
 -   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:32px;"> [Annotation style editor](Draft_AnnotationStyleEditor.md): Manages annotation styles used by texts and dimensions
 
+
+
 ## Tutoriales y aprendizaje 
 
 
@@ -199,6 +225,8 @@ Los objetos 3D y BIM son los elementos del mundo real que compondrán tu proyect
 
 
 </div>
+
+
 
 ## Ambiente de trabajo externos 
 

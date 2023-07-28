@@ -47,13 +47,15 @@ Kliknięcie okrągłego przycisku w prawym górnym rogu kostki nawigacyjnej spow
 
 Kliknięcie małego sześcianu w prawym dolnym rogu Kostki nawigacji spowoduje wyświetlenie menu z następującymi opcjami:
 
--    **[Ortogonalny](Std_OrthographicCamera/pl.md)**: przełącza na widok ortogonalny.
+-   <img alt="" src=images/Std_OrthographicCamera.svg  style="width:16px;"> **[Ortogonalny](Std_OrthographicCamera/pl.md)**: przełącza na widok ortogonalny.
 
--    **[Perspektywa](Std_PerspectiveCamera/pl.md)**: przełącza na widok perspektywiczny.
+-   <img alt="" src=images/Std_PerspectiveCamera.svg  style="width:16px;"> **[Perspektywa](Std_PerspectiveCamera/pl.md)**: przełącza na widok perspektywiczny.
 
--    **[Isometryczny](Std_ViewIsometric/pl.md)**: przełącza na widok izometryczny.
+-   <img alt="" src=images/Std_ViewIsometric.svg  style="width:16px;"> **[Isometryczny](Std_ViewIsometric/pl.md)**: przełącza na widok izometryczny.
 
--    **[Przybliż i dopasuj](Std_ViewFitAll/pl.md)**: powiększa i pochyla ujęcie widoku tak, aby wszystkie widoczne obiekty zmieściły się w aktualnym kadrze.
+-   <img alt="" src=images/Std_ViewFitAll.svg  style="width:16px;"> **[Przybliż i dopasuj](Std_ViewFitAll/pl.md)**: powiększa i pochyla ujęcie widoku tak, aby wszystkie widoczne obiekty zmieściły się w aktualnym kadrze.
+
+-    **Ruchoma kostka nawigacyjna**: jeśli to pole wyboru ({{Version/pl|0.21}}) jest zaznaczone, cała kostka nawigacji może zostać przesunięta poprzez przytrzymanie lewego przycisku myszy w dowolnym miejscu na głównej kostce i przeciągnięcie. Ma to na celu tymczasowe przesunięcie kostki z drogi. [Parametry zaawansowane](#Parametry_zaawansowane.md) OffsetX i OffsetY mogą być użyte do trwałej zmiany położenia kostki, patrz poniżej.
 
 
 
@@ -61,62 +63,103 @@ Kliknięcie małego sześcianu w prawym dolnym rogu Kostki nawigacji spowoduje w
 
 
 
-### Przesuwanie Kostki Nawigacyjnej 
-
-Możesz przesunąć całą strukturę sterowania kostki nawigacyjnej w inne miejsce obrazu w oknie z widokiem 3D, naciskając myszą w dowolnym miejscu głównego sześcianu i przeciągając. Struktura zacznie się przesuwać dopiero po przesunięciu kursora poza jedną z krawędzi głównego sześcianu.
-
-
-
 ### Ustawienia
 
 Sześcian nawigacyjny jest konfigurowalny, włącznie z dostosowaniem jego rozmiaru: **Edycja → Preferencje → Wyświetlanie → Nawigacja → Kostka nawigacyjna**. Zobacz [Edytor preferencji](Preferences_Editor/pl#Nawigacja.md).
 
-### Advanced parameters 
 
-Some advanced Navigation Cube parameters cannot be changed in the [Preferences Editor](Preferences_Editor#Navigation.md). These parameters can be set manually in the [Parameter editor](Std_DlgParameter.md) or via the [CubeMenu external workbench](Interface_Customization#CubeMenu.md). Changes will become visible when a new 3D view is created (with [Std New](Std_New.md), [Std Open](Std_Open.md) or [Std ViewCreate](Std_ViewCreate.md)).
 
-To manually set colors:
+### Parametry zaawansowane 
 
-1.  Start the <img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> [Parameter editor](Std_DlgParameter.md).
-2.  In the panel on the left browse to **BaseApp → Preferences → NaviCube**.
-3.  Right-click the panel on the right and select **New unsigned item** from the context menu.
-4.  Enter the name of one of these colors:
+Niektóre zaawansowane parametry kostki nawigacyjnej nie mogą być zmienione w [Edytorze ustawień](Preferences_Editor/pl#Nawigacja.md). Parametry te można ustawić ręcznie w [Edytorze parametrów](Std_DlgParameter/pl.md).
+
+Aby samodzielnie ustawić kolory:
+
+1.  Uruchom <img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> [Edytor parametrów](Std_DlgParameter/pl.md).
+2.  W panelu po lewej stronie przejrzyj **BaseApp → Preferences → NaviCube**.
+3.  Kliknij prawym przyciskiem myszy na panelu po prawej stronie i wybierz z menu kontekstowego **Nowy element z liczbą całkowitą**.
+4.  Wpisz nazwę jednego z tych kolorów:
     -   
-        **BorderColor**
+        **BaseColor**
         
-        : the lines separating the cube faces, default is {{Value|4281479730}} (hex: {{Value|ff323232}}).
-
-    -   
-        **ButtonColor**
-        
-        : all elements around the cube, default is {{Value|2162354671}} (hex: {{Value|80e2e9ef}}).
+        : kolor bazowy wszystkich elementów, domyślnie jest to {{Value|3806916544}}. (hex: {{Value|e2e8efc0}}). Kolor ten można również ustawić w [Edytorze parametrów](Preferences_Editor#Navigation.md). {{Version/pl|0.21}}
 
     -   
-        **FrontColor**
+        **EmphaseColor**
         
-        : all cube faces, default is {{Value|3236096495}} (hex: {{Value|c0e2e9ef}}).
+        : kolor tekstów i linii, domyślny zależy od **BaseColor**. Jest to albo czarny: {{Value|255}} (hex: {{Value|000000ff}}), lub biały: {{Value|4294967295}} (hex: {{Value|ffffff}}). {{Version/pl|0.21}}
 
     -   
         **HiliteColor**
         
-        : the cube or arrow face that is currently highlighted, default is {{Value|4289389311}} (hex: {{Value|ffaae2ff}}).
+        : kolor używany do podświetlania ścian i przycisków, domyślnie {{Value|2867003391}}. (hex: {{Value|aae2ffff}}).
+5.  Wartość koloru musi być wprowadzona jako 32-bitowa liczba całkowita bez znaku. W postaci szesnastkowej ta liczba całkowita ma postać {{Value|RRGGBBAA}}. Gdzie {{Value|AA}} oznacza kanał alfa (miarę przezroczystości), a pozostałe trzy pary cyfr oznaczają kolor czerwony, zielony i niebieski. Aby przekonwertować wartość szesnastkową na liczbę całkowitą bez znaku, można użyć [konsoli Python](Python_console/pl.md), wpisując na przykład {{Incode|int("323232ff", 16)}}.
+6.  Opcjonalnie ustaw więcej parametrów.
+7.  Naciśnij przycisk **Zamknij**.
 
-    -   
-        **TextColor**
-        
-        : the text on the cube faces, default is {{Value|4278190080}} (hex: {{Value|ff000000}}).
-5.  The color value must be entered as a 32-bit unsigned integer. Translated to the hexadecimal format this integer has the form {{Value|AARRGGBB}}. Where {{Value|AA}} stands for the alpha channel (a measure for the transparency), and the other three digit pairs stand for red, green and blue. To convert a hexadecimal value to an unsigned integer you can use the [Python console](Python_console.md), enter for example {{Incode|int("ff323232", 16)}}, or an online service such as [this one](https://cryptii.com/pipes/integer-encoder).
-6.  Optionally set more colors.
-7.  Press the **Close** button.
+Poniższa tabela zawiera listę innych zaawansowanych parametrów Kostki nawigacyjnej, które można ustawić w podobny sposób. Użyj informacji z kolumny **Typ**, aby utworzyć prawidłowy nowy element w kroku 3.
 
-To manually set the border width:
-
-1.  Start the <img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> [Parameter editor](Std_DlgParameter.md).
-2.  In the panel on the left browse to **BaseApp → Preferences → NaviCube**.
-3.  Right-click the panel on the right and select **New float item** from the context menu.
-4.  Enter the name **BorderWidth**, {{Value|default is 1.1}}.
-5.  Enter the width.
-6.  Press the **Close** button.
++++++
+| Nazwa                  | Opis                                                                                                                                               | Typ                       | Wartość domyślna |
++========================+====================================================================================================================================================+===========================+==================+
+| Szerokość ramki        | Szerokość krawędzi sześcianu i obramowania wokół przycisków w pikselach.                                                                           | Liczba zmiennoprzecinkowa | 1.1              |
++++++
+| Rozmiar fazowania      | Rozmiar krawędzi i narożników jako współczynnik rozmiaru sześcianu. Wartości powinny mieścić się w zakresie 0,05 - 0,18.                           | Liczba zmiennoprzecinkowa | 0.12             |
+|                        |                                                                                                                                                    |                           |                  |
+|                        |                                                                                                                                     |                           |                  |
+|                        | {{Version/pl|0.21}}                                                                                                                                |                           |                  |
+|                        |                                                                                                                                                 |                           |                  |
++++++
+| Rozciągnięcie czcionki | Szerokość czcionki jako procent domyślnej szerokości. Użyj 0 lub 100 dla domyślnej szerokości czcionki.                                            | Liczba całkowita          | 0                |
++++++
+| Grubość czcionki       | Grubość czcionki. Wyższe wartości sprawiają, że czcionka jest bardziej pogrubiona. Efekt może zależeć od czcionki. Domyślna grubość czcionki to 0. | Liczba całkowita          | 0                |
++++++
+| Powiększenie czcionki  | Rozmiar etykiet:                                                                                                                                   | Liczba zmiennoprzecinkowa | 0.3              |
+|                        |                                                                                                                                                    |                           |                  |
+|                        | -                                                                                                                                   |                           |                  |
+|                        |     {{Value|FontZoom &#61; 1.0}}                                                                                                                   |                           |                  |
+|                        |                                                                                                                                                 |                           |                  |
+|                        |     : Spraw, aby etykiety były jak największe indywidualnie.                                                                                       |                           |                  |
+|                        |                                                                                                                                                    |                           |                  |
+|                        | -                                                                                                                                   |                           |                  |
+|                        |     {{Value|0.0 < FontZoom < 1.0}}                                                                                                                 |                           |                  |
+|                        |                                                                                                                                                 |                           |                  |
+|                        |     : Podobnie, ale ogranicz maksymalny rozmiar czcionki.                                                                                          |                           |                  |
+|                        |                                                                                                                                                    |                           |                  |
+|                        | -                                                                                                                                   |                           |                  |
+|                        |     {{Value|FontZoom &#61; 0.0}}                                                                                                                   |                           |                  |
+|                        |                                                                                                                                                 |                           |                  |
+|                        |     : Tak samo, ale użyj tego samego rozmiaru czcionki dla wszystkich.                                                                             |                           |                  |
+|                        |                                                                                                                                                    |                           |                  |
+|                        | -                                                                                                                                   |                           |                  |
+|                        |     {{Value|FontZoom < 0.0}}                                                                                                                       |                           |                  |
+|                        |                                                                                                                                                 |                           |                  |
+|                        |     : Użyj tego samego rozmiaru czcionki dla wszystkich, ale w mniejszej skali.                                                                    |                           |                  |
+|                        |                                                                                                                                                    |                           |                  |
+|                        |                                                                                                                                     |                           |                  |
+|                        | {{Version/pl|0.21}}                                                                                                                                |                           |                  |
+|                        |                                                                                                                                                 |                           |                  |
++++++
+| OffsetX                | Przesunięcie sześcianu w kierunku X względem położenia narożnika w pikselach.                                                                      | Liczba całkowita          | 0                |
++++++
+| OffsetY                | Przesunięcie sześcianu w kierunku Y względem położenia narożnika w pikselach.                                                                      | Liczba całkowita          | 0                |
++++++
+| ShowCS                 | Włącza wyświetlanie układu współrzędnych *(wskaźniki osi X, Y i Z)*.                                                                               | Wartość logiczna          |   |
+|                        |                                                                                                                                                    |                           | {{true|pl}}      |
+|                        |                                                                                                                                                    |                           |               |
++++++
+| Tekst na dole          | Tekst na dolnej ścianie kostki. Wartość domyślna powinna zostać przetłumaczona.                                                                    | Ciąg znaków               | BOTTOM           |
++++++
+| Tekst z przodu         | Tekst na przedniej ścianie kostki. Analogicznie.                                                                                                   | Ciąg znaków               | FRONT            |
++++++
+| Tekst po lewej         | Tekst na lewej ścianie kostki. Analogicznie.                                                                                                       | Ciąg znaków               | LEFT             |
++++++
+| Tekst z tyłu           | Tekst na tylnej ścianie kostki. Analogicznie.                                                                                                      | Ciąg znaków               | REAR             |
++++++
+| Tekst po prawej        | Tekst na prawej ścianie kostki. Analogicznie.                                                                                                      | Ciąg znaków               | RIGHT            |
++++++
+| Tekst na górze         | Tekst na górnej ścianie kostki. Analogicznie.                                                                                                      | Ciąg znaków               | TOP              |
++++++
 
 
 

@@ -13,6 +13,8 @@ Phases planifiées pour générer du contenu :
 2.  Ajout de descriptions de flux de travail
 3.  Ajout de tutoriels plus détaillés
 
+
+
 ## Charnière
 
 <img alt="" src=images/SheetMetal_Example-01.png  style="width:400px;">
@@ -50,6 +52,8 @@ Phases planifiées pour générer du contenu :
 
 </div>
 
+
+
 ## Clip papier 
 
 <img alt="" src=images/SheetMetal_Example-02.png  style="width:400px;">
@@ -80,7 +84,7 @@ cloner, retourner et fusionner,
     -   Définissez **thickness** à 0,3 mm.
 4.  Sélectionnez la face entre les sections rondes et activez l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;">[atelier Sketcher](Sketcher_Workbench/fr.md).
     <img alt="Face pour supporter l\'esquisse" src=images/SheetMetal_Example-02g.png  style="width:200px;">
-5.  Pour cacher la partie recourbée, utilisez <img alt="" src=images/Sketcher_ViewSection.svg  style="width:16px;"> [Sketcher Vue en section](Sketcher_ViewSection/fr.md).
+5.  Pour cacher la partie recourbée, utilisez <img alt="" src=images/Sketcher_ViewSection.svg  style="width:16px;"> [Sketcher Vue de la section](Sketcher_ViewSection/fr.md).
 6.  Créez le contour de la découpe.
     <img alt="Contour de la découpe" src=images/SheetMetal_Example-02h.png  style="width:" height="240px;"> <img alt="Contour découpé touchant légèrement la face sélectionnée" src=images/SheetMetal_Example-02i.png  style="width:" height="240px;">
 7.  Terminez l\'esquisse en utilisant <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:16px;"> [Sketcher Quitter l\'esquisse](Sketcher_LeaveSketch/fr.md).
@@ -130,6 +134,8 @@ cloner, retourner et fusionner,
 
 </div>
 
+
+
 ## Collier oméga 
 
 <img alt="" src=images/SheetMetal_Example-03.png  style="width:400px;">
@@ -140,6 +146,8 @@ cloner, retourner et fusionner,
 **<img src="images/PartDesign_Fillet.svg" width=16px> [PartDesign Congé](PartDesign_Fillet/fr.md)**,
 **<img src="images/SheetMetal_Unfold.svg" width=16px> [Unfold](SheetMetal_Unfold/fr.md)**.
 }}
+
+
 
 ## Bol hexagonal 
 
@@ -156,6 +164,8 @@ cloner, retourner et fusionner,
 
 Lorsqu\'un grugeage d\'angle est ajouté (côté droit), il peut être nécessaire d\'ajuster la valeur de la propriété *Taille*.
 
+
+
 ## Pince à crayon 
 
 <img alt="" src=images/SheetMetal_Example-05.png  style="width:400px;">
@@ -166,6 +176,8 @@ Lorsqu\'un grugeage d\'angle est ajouté (côté droit), il peut être nécessai
 3x **<img src="images/SheetMetal_AddWall.svg" width=16px> [Make Wall](SheetMetal_AddWall/fr.md)**,
 **<img src="images/SheetMetal_Unfold.svg" width=16px> [Unfold](SheetMetal_Unfold/fr.md)**.
 }}
+
+
 
 ## Exemple de dépliage 
 
@@ -181,6 +193,8 @@ Lorsqu\'un grugeage d\'angle est ajouté (côté droit), il peut être nécessai
 
 Pour la deuxième utilisation de **Extend Face**, une Esquisse avec deux contours est utilisée pour la forme de l\'extension(s) et avec la valeur de \"use subtraction\" réglée à true, elle fournit la forme pour les découpes aussi.
 
+
+
 ## Blindage d\'USB 
 
 <img alt="" src=images/SheetMetal_Example-07.png  style="width:400px;">
@@ -195,6 +209,8 @@ Pour la deuxième utilisation de **Extend Face**, une Esquisse avec deux contour
 }}
 
 (La forme de la languette n\'est qu\'une vision artistique de ce qui pourrait être caché à l\'intérieur d\'une vraie prise).
+
+
 
 ## Propriétés de SheetMetal 
 
@@ -363,7 +379,7 @@ Faites passer **Use Relief Factor** de `False` (valeur par défaut) à `True` po
 
 :   Dans ce cas, l\'option ronde est inutile, puisque la profondeur du grugeage est aussi grande que la largeur du grugeage. (Voir ci-dessus)
 
-Une nouvelle propriété **Length Spec** {{Version/fr|1.0}} nous permet de choisir comment mesurer la longueur de l\'objet Bend :
+Une nouvelle propriété **Length Spec** {{Version/fr|0.21}} nous permet de choisir comment mesurer la longueur de l\'objet Bend :
 
 <img alt="" src=images/SheetMetal_Example-09t.png  style="width:500px;"> 
 *Vue latérale de quatre brides de 120° avec une longueur par défaut (10 mm) et différentes valeurs de **Length Spec* : <br> {{value|Leg** (par défaut), {{value|Outer Sharp}}, {{value|Inner Sharp}}, {{value|Tangential}}}}

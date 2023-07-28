@@ -1,38 +1,53 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:FEM ElementGeometry1D
-   MenuLocation:Model → Element Geometry → Beam cross section
-   Workbenches:[FEM](FEM_Workbench.md)
+   Name/de:FEM ElementGeometrie1D
+   MenuLocation:Model → Element-Geometrie → Beam cross section
+   Workbenches:[FEM](FEM_Workbench/de.md)
    Shortcut:**C** **B**
-   SeeAlso:[FEM tutorial](FEM_tutorial.md)
+   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM ElementGeometry1D/de
 
+
+
 ## Beschreibung
 
-Ein **ElementGeometry1D**-Objekt wird zur Festlegung der Querschnitte von Balkenelementen verwendet. Derzeit sind folgende drei Querschnitte vorhanden: Rechteckig, kreisförmig und Röhre.
+**ElementGeometrie1D** wird zur Festlegung der Querschnitte (BeamCrossSection-Objekte) von Stabelementen (Träger, Balken, Säulen usw.) verwendet. Derzeit sind folgende drei Querschnittformen vorhanden: Rechteck, Kreis und Ring.
+
+
 
 ## Anwendung
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/FEM_ElementGeometry1D.svg" width=16px> [FEM ElementGeometry1D](FEM_ElementGeometry1D.md)** button.
-    -   Select the **Model → Element Geometry → <img src="images/FEM_ElementGeometry1D.svg" width=16px> Beam cross section** option from the menu.
-2.  Choose the type of cross section and specify the necessary dimensions:
-    -   Rectangular: width and height,
-    -   Circular: diameter,
-    -   Pipe: diameter and thickness.
-3.  Optionally press the **Add** button in the task panel and then click on the edge you want to have a prescribed cross section. If the edge selection is free, all remaining edges (whose cross section is not defined by other [FEM ElementGeometry1D](FEM_ElementGeometry1D.md) objects) will be automatically assigned.
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/FEM_ElementGeometry1D.svg" width=16px> [Beam cross section](FEM_ElementGeometry1D/de.md)** drücken.
+    -   Den Menüeintrag **Model → Element-Geometrie → <img src="images/FEM_ElementGeometry1D.svg" width=16px> Beam cross section** auswählen.
+2.  Die Art des Querschnitts auswählen und die erforderlichen Abmaße eingeben:
+    -   Rectangular (Rechteck): width and height (Breite und Höhe),
+    -   Circular (Kreis): diameter (Durchmesser),
+    -   Pipe (Ring): diameter and thickness (Durchmesser und Wandstärke).
+3.  Wahlweise die Schaltfläche **Hinzufügen** im Aufgabenbereich drücken und anschließend die Kante anklicken, die einen festgelegten Querschnitt erhalten soll. Ist die Auswahl leer, werden alle verbleibenden Kanten (deren Querschnitte nicht durch andere [ElementGeometrie1D](FEM_ElementGeometry1D/de.md)-Objekte festgelegt sind) automatisch zugeordnet.
+
+
 
 ## Optionen
 
+
+
 ## Eigenschaften
 
-## Limitations
+
+
+## Einschränkungen
+
+
 
 ## Hinweise
 
--   For viewing results from CalculiX solver on the mesh expanded to the prescribed cross section, property `Beam Shell Result Output 3D` in the [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) need to be set to `True`.
+-   Um die Ergebnisse sehen zu können, die der CalculiX-Löser aus dem Netz ableitet, das auf dem vorgegebenen Querschnitt basiert, muss die Eigenschaft `Beam Shell Result Output 3D` des [SolverCcxTools](FEM_SolverCalculixCxxtools/de.md)-Objekts auf `True` gesetzt werden.
+
+
 
 ## Skripten
 

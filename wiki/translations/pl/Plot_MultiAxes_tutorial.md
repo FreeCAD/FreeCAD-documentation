@@ -26,9 +26,13 @@ Na poprzednim obrazku możesz zobaczyć rezultat, jaki w przybliżeniu uzyskamy.
 -   Jak kontrolować siatkę / legendę, gdy obecnych jest kilka osi.
 -   Jak edytować etykiety, tytuły i pozycje legendy.
 
+
+
 ## Wykreślanie danych 
 
 Podobnie jak w [poprzednim poradniku](Plot_Basic_tutorial/pl.md) do wykreślania danych użyjemy [konsoli Python](Python_console/pl.md) lub [makrodefinicji](Macros.md), z tą różnicą, że w tym przypadku będziemy wykreślać dane na dwóch różnych osiach.
+
+
 
 ### Tworzenie danych wykresu 
 
@@ -46,6 +50,8 @@ c = [math.cos(math.pi*2.0*tt) for tt in t]
 ```
 
 Gdy *x* zmienia się od 0 do 2, funkcja *y* ma maksymalną wartość 4, więc jeśli spróbujemy wykreślić tę funkcję za pomocą funkcji trygonometrycznych, przynajmniej jedna funkcja będzie obcięta lub źle przeskalowana, więc potrzebujemy wykresu wieloosiowego. Funkcja Multiaxes plot w FreeCAD jest zorientowana na uzyskanie wykresu z wieloma osiami, a nie na uzyskanie wielu wykresów w tym samym dokumencie.
+
+
 
 ### Rysowanie funkcji, dodawanie nowych osi 
 
@@ -74,7 +80,11 @@ Plot.plot(x,y,r"$x^2$")
 
 Jak widzisz, wykres oszalał, znaczniki osi nałożyły się na siebie, krzywe mają ten sam kolor itd. Teraz musimy użyć środowiska pracy [Wykres](Plot_Workbench/pl.md), aby naprawić ten wykres.
 
+
+
 ## Konfiguracja wykresu 
+
+
 
 ### Konfigurowanie osi 
 
@@ -87,9 +97,13 @@ Za pomocą narzędzia [Konfiguruj osie](Plot_Axes/pl.md) możesz dodawać i usuw
 
 Aby zmienić rozmiar pierwszego zestawu osi, związanego z funkcjami trygonometrycznymi, należy go najpierw uaktywnić, zmieniając aktywną oś z {{Value|1}} na {{Value|0}}. Następnie możemy przesuwać suwaki wymiarów poziomych i pionowych, aby zmniejszyć jego rozmiar *(spróbuj odtworzyć przykład)*. Musimy również zmienić wyrównanie osi: wybieramy odpowiednio górę i prawo.
 
+
+
 ### Konfiguracja serii 
 
 Ustaw właściwości serii tak jak to robiliśmy w [poprzednim poradniku](Plot_Basic_tutorial/pl.md).
+
+
 
 ### Wyświetlenie siatki i legendy 
 
@@ -98,6 +112,8 @@ Ustaw właściwości serii tak jak to robiliśmy w [poprzednim poradniku](Plot_B
 Linie siatki są dodawane do aktywnego zestawu osi. Aby dodać linie do drugiego zestawu osi w naszym przykładzie, musi on być najpierw aktywowany poprzez zmianę aktywnych osi z {{Value|0}} na {{Value|1}} w [Konfiguruj osie](Plot_Axes/pl.md).
 
 Jak już wspomnieliśmy, legenda zostanie umieszczona względem ostatniej ustawionej osi. Jeśli pokażesz teraz legendę, zobaczysz, że jest ona naprawdę źle umieszczona, ale naprawimy to później.
+
+
 
 ### Ustawianie etykiet osi 
 
@@ -116,6 +132,8 @@ Kiedy przychodzi do ustawiania [etykiet](Plot_Labels/pl.md) dla osi, znów mamy 
 
 Zmień rozmiar czcionki wszystkich etykiet na {{Value|20}} oraz rozmiar czcionki tytułu do {{Value|24}}. Znów pojawia się element, tytuł, który jest źle umiejscowiony.
 
+
+
 ## Ustawianie pozycji elementów 
 
 =
@@ -127,14 +145,16 @@ Zmień rozmiar czcionki wszystkich etykiet na {{Value|20}} oraz rozmiar czcionki
 
 Gdy uruchomisz narzędzie, zobaczysz listę wszystkich edytowalnych elementów. Tytuły i legendy mogą być przesuwane w obu kierunkach, ale etykiety osi mogą być przesuwane tylko wzdłuż osi, do której należą. Wybierz tytuł osi 1 i przesuń go na pozycję (0.24,1.01), następnie wybierz legendę i przesuń ją na lepszą pozycję. Możesz również zwiększyć rozmiar czcionki etykiet legendy.
 
+
+
 ## Zapisanie wykresu 
 
 Teraz możesz zapisać swoją pracę. Zobacz [poprzedni poradnik](Plot_Basic_tutorial/pl.md) jeśli nie pamiętasz jak to zrobić.
 
 
-{{Tutorials_navi
+{{Plot_Tools_navi
 
-}} {{Plot_Tools_navi}}
+}}
 
 
 

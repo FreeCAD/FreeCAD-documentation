@@ -10,6 +10,8 @@
 
 # PartDesign ShapeBinder/pl
 
+
+
 ## Opis
 
 Narzędzie **Łącznik kształtu** tworzy spoiwo kształtu odwołujące się do geometrii z jednego obiektu nadrzędnego. Łącznik kształtu jest używany wewnątrz [Zawartości](PartDesign_Body/pl.md) do odwoływania się do geometrii spoza obiektu Zawartości. Używanie zewnętrznej geometrii bezpośrednio w bryle jest niedozwolone i prowadzi do błędów wykraczających poza zakres.
@@ -20,6 +22,8 @@ Geometrią odniesienia może być pojedynczy obiekt *(na przykład [Prostopadło
 
 <img alt="" src=images/Shapebinder_flow.png  style="width:600px;"> 
 *Z dwóch wybranych powierzchni tworzony jest Łącznik kształtu w pustej jeszcze zawartości. Geometrii z Łącznika kształtu można następnie użyć jako geometrii zewnętrznej w szkicu w tej bryle zawartości.*
+
+
 
 ## Użycie
 
@@ -45,18 +49,26 @@ Geometrią odniesienia może być pojedynczy obiekt *(na przykład [Prostopadło
     3.  Przycisk **Usuń geometrię** musi być wciśnięty dla każdego elementu podrzędnego, który chcesz usunąć.
 8.  Naciśnij przycisk **OK**.
 
+
+
 ## Opcje
 
 Aby edytować Łącznik kształtu, kliknij go dwukrotnie w oknie [widoku drzewa](Tree_view/pl.md) lub kliknij go prawym przyciskiem myszki i wybierz **Edytuj łącznik kształtu** z menu kontekstowego [widoku drzewa](Tree_view/pl.md).
+
+
 
 ## Uwagi
 
 -   Łącznik kształtu może być przeciągnięty z bryły, w której jest zagnieżdżony, i upuszczony na węzeł dokumentu <img alt="" src=images/Document.svg  style="width:16px;"> w oknie [widoku drzewa](Tree_view/pl.md). Taki niezagnieżdżony Łącznik kształtu może być użyty jako [właściwość podstawowa](PartDesign_Body/pl#W.C5.82a.C5.9Bciwo.C5.9B.C4.87_podstawowa.md) dla nowej bryły.
 -   Łącznik kształtu utworzony ze szkicu może mieć przeciwny \"kierunek narzędzia\". Na przykład [wyciągnięcie](PartDesign_Pad/pl.md) utworzone ze szkicu może rozciągać się w kierunku +Y, podczas gdy [wyciągnięcie](PartDesign_Pad/pl.md) o tych samych właściwościach utworzone z Łącznika kształtu rozciąga się w kierunku -Y. Przełączenie właściwości **Odwrócony** *(lub pola wyboru)* rozwiąże ten problem.
 
+
+
 ## Łącznik kształtu obiektu podrzędnego kontra łącznik kształtu 
 
 Zapoznaj się z akapitem: [Łącznik kształtu obiektu podrzędnego](PartDesign_SubShapeBinder/pl#.C5.81.C4.85cznik_kszta.C5.82tu_obiektu_podrz.C4.99dnego_kontra_.C5.82.C4.85cznik_kszta.C5.82tu.md).
+
+
 
 ## Właściwości
 
@@ -65,6 +77,8 @@ Zapoznaj się z akapitem: [Łącznik kształtu obiektu podrzędnego](PartDesign_
 -    **Wsparcie śledzenia|Bool**:
 
 Domyślnie przyjmuje wartość {{false/pl}}. Przy ustawieniu tej opcji na wartość {{true/pl}}, Łącznik kształtów obserwuje względne rozmieszczenie części i zawartości *(poprzez manipulowanie wartościami ukrytej właściwości **Umiejscowienie**)*.
+
+
 
 ## Przykład
 

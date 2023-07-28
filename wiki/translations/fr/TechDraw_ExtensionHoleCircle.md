@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionHoleCircle.svg  style="width:24px;"> **TechDraw Axes de centrage de trous/vis** ajoute des axes de centrage à des cercles disposés sur une circonférence.
+L\'outil **TechDraw Axes de centrage de trous/vis** ajoute des axes de centrage à des cercles disposés sur une circonférence.
 
 <img alt="" src=images/TechDraw_ExtensionHoleCircleExample.png  style="width:400px;"> 
 *A droite, un motif circulaire avec des axes de centrage*
+
+
 
 ## Utilisation
 

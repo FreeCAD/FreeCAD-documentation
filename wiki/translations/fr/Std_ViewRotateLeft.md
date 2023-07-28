@@ -14,17 +14,21 @@
 
 La commande **Std Rotation à gauche** fait pivoter la caméra dans la [vue 3D](3D_view/fr.md) active dans la direction de la vue par incréments de 90 degrés vers la gauche (dans le sens antihoraire).
 
+
+
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Sélectionnez l\'option **Affichage → Vues standards → <img src="images/Std_ViewRotateLeft.svg" width=16px> Rotation à gauche** dans le menu.
     -   Sélectionnez l\'option **Vues standards → <img src="images/Std_ViewRotateLeft.svg" width=16px> Rotation à gauche** dans le menu contextuel de la [vue 3D](3D_view/fr.md).
-    -   Utilisez le raccourci clavier: **Maj**+**Gauche**.
+    -   Utilisez le raccourci clavier : **Maj**+**Gauche**.
+
+
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

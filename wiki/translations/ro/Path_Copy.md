@@ -5,9 +5,19 @@
 
 </div>
 
+
+
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Acest instrument creează o copie a traiectoriei selectate
+
+
+</div>
+
+
 
 ## Utilizare
 
@@ -21,9 +31,13 @@ Acest instrument creează o copie a traiectoriei selectate
 
 </div>
 
+
+
 ## Proprietăți
 
 -    **Base**: The base path to be copied
+
+
 
 ## Opţiuni
 

@@ -1,44 +1,52 @@
 ---
 - GuiCommand:/de
    Name:Draft Wire
-   Name/de:Entwurf Draht
-   MenuLocation:Entwurf → Polylinie
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   Name/de:Draft Polylinie
+   MenuLocation:Entwurf → Polyline
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**P** **L**
    Version:0.7
-   SeeAlso:[Entwurf Linie](Draft_Line/de.md), [Entwurf BSpline](Draft_BSpline/de.md)
+   SeeAlso:[Draft Linie](Draft_Line/de.md), [Draft BSpline](Draft_BSpline/de.md)
 ---
 
 # Draft Wire/de
 
 
-</div>
 
 ## Beschreibung
 
-Der <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> **Entwurf Draht** Befehl [erzeugt](#Erzeugt.md) eine Polylinie, eine Folge von mehreren Liniensegmenten. Der Befehl kann auch verwendet werden um [Entwurf Linien](Draft_Line/de.md) und Entwurf Drähte zu [verbinden](#verbinden.md).
+Der Befehl <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> **Draft Polylinie** [erstellt](#Erstellen.md) eine Polylinie, eine Folge von mehreren Liniensegmenten (Linienzug). Der Befehl kann auch verwendet werden um [Draft-Linien](Draft_Line/de.md) und Draft-Polylinien zu [verbinden](#Verbinden.md).
 
-The corners of a Draft Wire can be filleted (rounded) or chamfered by changing its **Fillet Radius** or **Chamfer Size** respectively. It is also possible to subdivide the edges of a Draft Wire by changing its **Subdivisions** property.
+Die Ecken einer Draft-Polylinie können verrundet oder mit einer Fase versehen werden, indem ihre {{PropertyData/de|Fillet Radius}} oder **Chamfer Size** geändert wird. Außerdem ist es möglich die Kanten einer Polylinie zu unterteilen, indem ihre {{PropertyData/de|Subdivisions}} geändert wird.
 
 <img alt="" src=images/Draft_Polyline_example.jpg  style="width:400px;"> 
-*Draht definiert durch mehrfache Punkte*
+*Eine durch mehrere Punkte festgelegte Polylinie (Linienzug)*
+
+
 
 ## Erstellen
+
+
 
 ### Anwendung
 
 Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md) und [Entwurf beschränken](Draft_Constrain/de.md).
 
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_Wire.svg" width=16px> [Polylinie](Draft_Wire/de.md)** drücken.
+    -   Den Menüeintrag **Entwurf → <img src="images/Draft_Wire.svg" width=16px> Polylinie** auswählen.
+    -   Das Tastaturkürzel **P** dann **L**.
 
-<div class="mw-translate-fuzzy">
+2.  Der Aufgabenbereich **Polylinie** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 
-1.  Drücke die **<img src="images/Draft_Wire.svg" width=16px> [Entwurf Draht](Draft_Wire/de.md)** Schaltfläche, oder drücke **P** dann **L** Tasten.
-2.  Klicke auf einen ersten Punkt in der 3D Ansicht, oder gib eine Koordinate ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Schaltfläche im zugehörigen Aufgabenpaneel Linie.
-3.  Klicke auf weitere Punkte in der 3D Ansicht, oder gib eine Koordinate und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Schaltfläche im zugehörigen Aufgabenpaneel Linie.
-4.  Drücke **Esc** oder die **Close** Schaltfläche, um die Bearbeitung abzuschließen.
+3.  Den ersten Punkt in der [3D-Ansicht](3D_view/de.md) festlegen, oder Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt  eingeben** drücken.
+
+4.  Weitere Punkte in der [3D-Ansicht](3D_view/de.md) festlegen oder Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt  eingeben** drücken.
+
+5.  
+    **Esc**drücken oder die Schaltfläche **Close**, um den Befehl abzuschließen.
 
 
-</div>
 
 ### Optionen
 
@@ -68,7 +76,11 @@ Die im Aufgabenpaneel verfügbaren Einzelzeichen Tastaturkürzel können geände
 
 </div>
 
+
+
 ## Verbinden
+
+
 
 ### Anwendung 
 
@@ -78,6 +90,8 @@ Die im Aufgabenpaneel verfügbaren Einzelzeichen Tastaturkürzel können geände
     -   Press the **<img src="images/Draft_Wire.svg" width=16px> [Draft Wire](Draft_Wire.md)** button.
     -   Select the **Drafting → <img src="images/Draft_Wire.svg" width=16px> Polyline** option from the menu.
     -   Use the keyboard shortcut: **P** then **L**.
+
+
 
 ## Hinweise
 
@@ -89,6 +103,8 @@ Der Draht kann nach doppelklicken auf das Element in der Baumansicht oder durch 
 
 </div>
 
+
+
 ## Einstellungen
 
 Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstellungen](Draft_Preferences/de.md).
@@ -96,17 +112,15 @@ Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstell
 -   Um die Anzahl der Dezimalstellen zu ändern, die bei der Eingabe von Koordinaten verwendet werden: **Bearbeiten → Einstellungen... → Allgemein → Einheiten → Einheiteneinstellungen → Anzahl der Dezimalstellen**.
 -   Um den Anfangswert des Füllmodus zu ändern: **Bearbeiten → Einstellungen... → Entwurf → Allgemeine Einstellungen → Entwurf Werkzeuge Optionen → Objekte mit Flächen füllen, wann immer möglich**. Ändern des Füllmodus in einem Aufgabenpaneel, wird diese Voreinstellung für die aktuelle FreeCAD Sitzung überschreiben.
 
+
+
 ## Eigenschaften
 
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-<div class="mw-translate-fuzzy">
-
-Siehe auch: [Eigenschafteneditor](property_editor/de.md).
+Ein Draft-Polylinie-Objekt wird von einem [Part Part2DObject](Part_Part2DObject/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
 
 
-</div>
-
-A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
 
 ### Daten
 
@@ -138,6 +152,8 @@ A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) 
 
 </div>
 
+
+
 ### Ansicht
 
 
@@ -159,17 +175,13 @@ A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) 
 
 </div>
 
+
+
 ## Skripten
 
 Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Das Drahtwerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit der folgenden Funktion verwendet werden:
-
-
-</div>
+Zum Erstellen einer Draft-Polylinie wird die Methode `make_wire` des Draft-Moduls verwendet ({{Version/de|0.19}}). Diese Methode ersetzt die veraltete Methode `makeWire`.
 
 
 ```python
@@ -209,15 +221,6 @@ wire3 = Draft.make_wire([1.3*p3, p1, -1.7*p2], closed=True)
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

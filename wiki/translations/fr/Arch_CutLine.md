@@ -18,7 +18,9 @@ L\'outil [Arch Couper selon une ligne](Arch_CutLine/fr.md) vous permet de couper
 
 
 
-*Un [Arch Mur](Arch_Wall/fr.md) coupé par une ligne. À gauche: boîte soustractive qui apparaît lors de l'utilisation de l'outil. À droite: le mur résultant après la coupe.*
+*Un [Arch Mur](Arch_Wall/fr.md) coupé par une ligne. À gauche : boîte soustractive qui apparaît lors de l'utilisation de l'outil. À droite : le mur résultant après la coupe.*
+
+
 
 ## Utilisation
 
@@ -28,10 +30,12 @@ L\'outil [Arch Couper selon une ligne](Arch_CutLine/fr.md) vous permet de couper
 4.  Choisissez **Derrière** ou **Devant** pour indiquer quelle partie du solide sera supprimée.
 5.  Cliquez sur le bouton **OK**.
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 

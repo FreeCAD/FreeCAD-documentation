@@ -13,6 +13,8 @@ SeeAlso=[Crea B-spline](Sketcher_CompCreateBSpline/it.md)
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -25,6 +27,8 @@ Mostra o nasconde la visualizzazione del poligono di definizione di una B-spline
 
 ![](images/Sketcher_B-spline_example01.png ) 
 *A B-spline curve. The control polygon are the green straight lines connecting the control points.*
+
+
 
 ## Utilizzo
 

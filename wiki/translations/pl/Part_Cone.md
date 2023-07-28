@@ -4,18 +4,22 @@
    Name/pl:Część: Stożek
    MenuLocation:Część → Bryła pierwotna → Stożek
    Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Bryły pierwotne](Part_CreatePrimitives/pl.md)
+   SeeAlso:[Utwórz geometrie pierwotne](Part_CreatePrimitives/pl.md)
 ---
 
 # Part Cone/pl
 
+
+
 ## Opis
 
-Polecenie <img alt="" src=images/Part_Cone.svg  style="width:24px;"> Polecenie **Stożek** środowiska pracy Część tworzy parametryczną bryłę stożka. W układzie współrzędnych zdefiniowanym przez właściwość **Umiejscowienie** dolna ściana stożka leży na płaszczyźnie XY, a jej środek jest w punkcie początkowym.
+Polecenie <img alt="" src=images/Part_Cone.svg  style="width:24px;"> **Stożek** środowiska pracy Część tworzy parametryczną bryłę stożka. W układzie współrzędnych zdefiniowanym przez właściwość **Umiejscowienie** dolna ściana stożka leży na płaszczyźnie XY, a jej środek jest w punkcie początkowym.
 
 Domyślnie stożek środowiska Części jest ścięty. Można go przekształcić w pełny, nieobcięty stożek, zmieniając jego właściwość **Promień1** lub **Promień2** na zero. Można go przekształcić w fragment stożka, zmieniając jego właściwość **Kąt**.
 
 <img alt="" src=images/Part_Cone_Example.png  style="width:400px;">
+
+
 
 ## Użycie
 
@@ -32,21 +36,29 @@ Domyślnie stożek środowiska Części jest ścięty. Można go przekształcić
     -   Zmień właściwości w [Edytorze właściwości](Property_editor/pl.md).
     -   Zmień **Umiejscowienie** za pomocą narzędzia <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std: Przemieszczenie](Std_TransformManip/pl.md).
 
+
+
 ## Przykład
 
 ![Stożek środowiska pracy Część na przykładzie skryptu](images/Part_Cone_Scripting_Example.png )
 
 Poniżej pokazano obiekt Stożka utworzony za pomocą [przykładowego skryptu](#Tworzenie_skrypt.C3.B3w.md).
 
+
+
 ## Uwagi
 
--   Stożek środowiska pracy Część można również utworzyć za pomocą narzędzia <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Geometrie pierwotne](Part_Primitives/pl.md). Za jego pomocą można określić wymiary i umiejscowienie w czasie tworzenia.
+-   Stożek środowiska pracy Część można również utworzyć za pomocą narzędzia <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Utwórz geometrie pierwotne](Part_Primitives/pl.md). Za jego pomocą można określić wymiary i umiejscowienie w czasie tworzenia.
+
+
 
 ## Właściwości
 
 Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
 
 Obiekt Stożek wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
 
 ### Dane
 
@@ -65,6 +77,8 @@ Obiekt ten ma takie same właściwości dołączania jak [Part: Part2DObject](Pa
 -    **Wysokość|długość**: Wysokość stożka. Wartość domyślna to {{Value|10mm}}.
 
 -    **Kąt|kąt**: Kąt łuku okręgu, który definiuje górną i dolną ścianę stożka. Poprawny zakres: {{Value|0° &lt; wartość &lt;&#61; 360°}}. Domyślnie jest to {{Value|360°}}. Jeśli wartość jest mniejsza niż {{Value|360°}}, to bryła wynikowa będzie segmentem stożka.
+
+
 
 ## Tworzenie skryptów 
 

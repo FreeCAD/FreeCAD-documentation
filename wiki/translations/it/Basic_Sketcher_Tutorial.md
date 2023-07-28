@@ -14,6 +14,8 @@
 
 
 
+
+
 ## Introduzione
 
 Questo tutorial ha lo scopo di introdurre il lettore al flusso di lavoro di base dell\'ambiente <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Schizzo](Sketcher_Workbench/it.md).
@@ -33,6 +35,8 @@ Per una descrizione più approfondita dello sketcher, leggere il [Manuale di rif
 ![](images/00_Sk01_Sketcher_fully_constrained_final.png ) 
 *Risultato finale dello schizzo, con tutta la geometria completamente vincolata, inclusa la geometria di costruzione per il supporto.*
 
+
+
 ## Setup
 
 1\. Open FreeCAD, create a new empty document with **File → [<img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)**.
@@ -44,6 +48,8 @@ Some actions to remember:
 -   Press the right mouse button, or press **Esc** in the keyboard once, to deselect the active tool in edit mode.
 -   To exit the sketch edit mode, press the **Close** button in the [task panel](task_panel.md), or press **Esc** twice in the keyboard.
 -   To enter again edit mode, double click on the sketch in the [tree view](tree_view.md), or select it, and then click on **[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [Edit sketch](Sketcher_EditSketch.md)**.
+
+
 
 ## Creare uno schizzo 
 
@@ -65,6 +71,8 @@ la [vista ad albero](tree_view/it.md) passa alla [scheda azioni](task_panel/it.m
 
 
 *Upper part of the [task panel](task_panel.md) of the sketcher.*
+
+
 
 ## La geometria di costruzione 
 
@@ -100,6 +108,8 @@ Look at the **Constraints** and **Elements** sections to see the new listed cons
 
 
 *Construction lines forming a star shape with its center in the origin.*
+
+
 
 ## La geometria reale 
 
@@ -156,6 +166,8 @@ There are two principal types of constraints:
 -    **Geometric constraints**define characteristics of the shapes without specifying exact dimensions, for example, horizontality, verticality, parallelism, perpendicularity, and tangency.
 
 -    **Datum constraints**define characteristics of the shapes by specifying dimensions, for example, a numeric length or an angle.
+
+
 
 ## I vincoli geometrici 
 
@@ -234,6 +246,8 @@ A questo punto, il profilo è chiuso e può essere regolato con le dimensioni de
 
 
 *Sketch with tangential constraints applied to the arcs, which closes the shape.*
+
+
 
 ## I vincoli di dati 
 
@@ -323,9 +337,11 @@ Constraining a sketch can be done in many different ways. In general, it is reco
 -   Try using other construction geometry.
 
 
- {{Sketcher Tools navi}}
+{{Sketcher Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/it

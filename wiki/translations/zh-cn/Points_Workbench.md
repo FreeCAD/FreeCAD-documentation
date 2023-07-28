@@ -1,4 +1,13 @@
-# <img alt="Points workbench icon" src=images/Workbench_Points.svg  style="width:64px;"> Points Workbench/zh-cn
+# Points Workbench/zh-cn
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+<img alt="Points workbench icon" src=images/Workbench_Points.svg  style="width:128px;">
 
 
 
@@ -44,10 +53,13 @@ All Points Workbench tools can be accessed from the **Points** menu. Some tools 
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
 
 
 
+
+</div>
 
 
 {{Points Tools navi

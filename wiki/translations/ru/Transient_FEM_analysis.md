@@ -16,6 +16,8 @@
 
 ## Background
 
+
+
 ## Создание модели 
 
 
@@ -35,7 +37,11 @@
 
 <img alt="" src=images/Transient_FEM_Bimetal_(1).JPG  style="width:700px;">
 
+
+
 ## Подготовка и выполнение расчёта по МКЭ 
+
+
 
 ### Назначение материалов 
 
@@ -44,6 +50,8 @@
 <img alt="" src=images/Transient_FEM_Bimetal_(2).JPG  style="width:700px;">
 
 Мы закрываем окно задачи и повторяем шаги для создания второго материала \'Steel\' (карта материала «CalculiX-Steel») и назначаем его верхней полосе (\'BooleanFragments:Solid2\').
+
+
 
 ### Создание сетки 
 
@@ -58,6 +66,8 @@
 
 <img alt="" src=images/Transient_FEM_Bimetal_(3).JPG  style="width:700px;">
 
+
+
 ### Задание граничных условий 
 
 Анализ МКЭ сейчас ни к чему не приведет, потому что с нашей моделью еще ничего не происходит. Итак, давайте добавим немного температуры: используйте <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:20px;"> начальную температуру из верстака FEM и установите температуру на 300 K. Здесь нельзя выбрать никакие части модели, так как этот параметр применяется ко всей модели.
@@ -69,6 +79,8 @@
 Прежде чем мы сможем запустить анализ, необходимо установить дополнительное граничное условие: анализ может выполняться только в том случае, если наша модель зафиксирована где-то в пространстве. С помощью <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:20px;"> мы выбираем те же две грани, что и для 400 K выше, и добавляем их в список. На модели появятся красные полосы, визуализирующие, что эти грани зафиксированы в пространстве и не могут перемещаться во время анализа.
 
 <img alt="" src=images/Transient_FEM_Bimetal_(5).JPG  style="width:700px;">
+
+
 
 ### Запуск анализа 
 
@@ -88,11 +100,15 @@
 
 В FreeCAD мы можем использовать <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:20px;"> [pipelines](FEM_PostPipelineFromResult/ru.md) для последующей обработки результатов. Как вариант, мы можем экспортировать результаты в формат VTK и импортировать их в специальные постпроцессоры, такие как ParaView. Доступен [макрос](Macro_export_transient_FEM_results/ru.md) для экспорта нескольких результатов (как в этом анализе).
 
+
+
 ## Загрузки
 
 -   [Файл примера без результатов (200 kB)](https://drive.google.com/file/d/1m3RiJ-JM7QSJ6YDhZnafHIbyL92V6sYU/view?usp=sharing)
 
 -   [Файл примера с результатом (10 MB)](https://drive.google.com/file/d/157aIdVpIyfpVW9WxL-ReGz0FIsQebH_q/view?usp=sharing)
+
+
 
 ## Другие примеры 
 
@@ -102,9 +118,11 @@ from femexamples.thermomech_bimetall import setup
 setup()
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > Transient FEM analysis/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > Transient FEM analysis/ru

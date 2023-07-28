@@ -13,24 +13,30 @@
 
 
 
+
+
 ## Einleitung
 
-The FEM workbench has toolbars and menus. This tutorial shows how to add a test button to a toolbar. It also shows how to add a menuitem to a menu.
+Der Arbeitsbereich FEM enthält Symbolleisten und Menüs. Diese Anleitung zeigt, wie eine Test-Schaltfläche zu einer Symbolleiste hinzugefügt wird. Sie zeigt auch, wie einem Menü ein Menüeintrag hinzugefügt wird.
 
-The task can be split into four parts:
+Die Aufgabe lässt sich in vier Teile aufteilen:
 
--   **Create a new icon file**.
--   **Register the new icon file**. Modification needed to `src/Mod/Fem/Gui/Resources/Fem.qrc`
--   **Create a new command class**. Modification needed to `src/Mod/Fem/femcommands/commands.py`
--   **Add new command to workbench**. Modification needed to `src/Mod/Fem/Gui/Workbench.cpp`
+-   **Eine neue Symboldatei erstellen**.
+-   **Die neue Symboldatei registrieren**. `src/Mod/Fem/Gui/Resources/Fem.qrc` muss geändert werden.
+-   **Eine neue Befehlsklasse erstellen**. `src/Mod/Fem/femcommands/commands.py` muss geändert werden
+-   **Einem Arbeitsbereich einen neuen Befehl hinzufügen**. `src/Mod/Fem/Gui/Workbench.cpp` muss geändert werden.
 
-## Create a new icon file 
 
-For the button we need an icon file. You can use any of your favorite tools to create it, but it must be in the SVG format. Here we will use the **FEM_testButton.svg** file as an example.
 
-It must be placed in: `src/Mod/Fem/Gui/Resources/icons/`.
+## Eine neue Symboldatei erstellen 
 
-## Register the new icon file 
+Für die Schaltfläche brauchen wir eine Symboldatei. Sie kann mit jedem deiner Lieblingswerkzeuge erstellt werden, muss aber im SVG-Format gespeichert werden. Wir verwenden als Beispiel **FEM_testButton.svg**
+
+Sie muss hier abgelegt werden: `src/Mod/Fem/Gui/Resources/icons/`.
+
+
+
+## Die neue Symboldatei registrieren 
 
 The new SVG icon file has to be registered for the GUI-button by inserting it in `src/Mod/Fem/Gui/Resources/Fem.qrc`:
 
@@ -39,7 +45,9 @@ The new SVG icon file has to be registered for the GUI-button by inserting it in
      <file>icons/FEM_testButton.svg</file>
 }}
 
-## Create a new command class 
+
+
+## Eine neue Befehlsklasse erstellen 
 
 A new command class has to be added to the `src/Mod/Fem/femcommands/commands.py` module.
 
@@ -70,7 +78,9 @@ FreeCADGui.addCommand(
 
 **Note**: Please see this [discussion thread](https://forum.freecadweb.org/viewtopic.php?f=18&t=46693&start=10#p402004) in the forum if icons are involved.
 
-## Add new command to workbench 
+
+
+## Einem Arbeitsbereich einen neuen Befehl hinzufügen 
 
 We will add the new command to both the **solve** toolbar and the **solve** menu.
 

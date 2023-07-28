@@ -14,11 +14,15 @@
 
 
 
+
+
 ## Einführung
 
 In diesem Tutorium werden wir mit einem Serie 60 Schiff der Universität von Iowa arbeiten. Das Tutorium soll zeigen, wie man mit einem symmetrischen Einrumpfschiff arbeiten kann, aber auch Mehrrumpf- oder nicht-symmetrische Schiffe können mit dem gleichen Verfahren ausgeführt werden.
 
 Erfahre mehr über <img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> [Arbeitsbereich Schiff](Ship_Workbench/de.md).
+
+
 
 ## Belastungsgeometrie
 
@@ -207,7 +211,7 @@ Resultierende Schnitte.
 
 </center>
 
-Zum Plotten dieser Schnitte kannst du den [Arbeitsbereich Zeichnung](Drawing_Workbench/de.md) verwenden:
+Zum Plotten dieser Schnitte kann den Arbeitsbereich [TechDraw](TechDraw_Workbench.md) verwendet werden:
 
 ![Umrisszeichnungsplot.](images/FreeCAD-Ship-S60OutlinePlot.png )
 
@@ -303,6 +307,8 @@ Hydrostatik Kurven.
 
 
 </center>
+
+
 
 ## Weiter lernen 
 

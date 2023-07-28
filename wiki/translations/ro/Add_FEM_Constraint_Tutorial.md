@@ -18,7 +18,15 @@
 
 În acest tutorial vom adăuga constrângerea vitezei fluxului la FreeCAD și vom implementa suportul pentru elmer solver. Asigurați-vă că ați citit și ați înțeles [Extend FEM Module](Extend_FEM_Module.md) înainte de a citi acest tutorial.
 
+
+<div class="mw-translate-fuzzy">
+
 Acest tutorial acoperă doar modul de implementare a constrângerilor în Python. Spre deosebire de constrângerile solver și ecuații, urmați structura modulului FEM clasic. Adică toate modulele unei constrângeri au loc în pachetul PyObjects sau PyGui.
+
+
+</div>
+
+
 
 ## Sumar
 
@@ -26,6 +34,8 @@ Acest tutorial acoperă doar modul de implementare a constrângerilor în Python
 2.  **Create GUI command:** Adăugați o comandă la atelierul FEM care adaugă o constrângere a fluxului la analiza activă.
 3.  **Create a task panel:** Panoul de sarcini este necesar pentru a permite utilizatorului să definească limitele la care dorește să definească constrângerea de viteză. Acest lucru face ca intrarea parametrilor să fie mai ușor de utilizat.
 4.  **Extend elmers writer:** Adăugați suport pentru noua constrângere modulul Elmer FEM solver prin dezactivarea exportatorului de fișiere sif.
+
+
 
 ## Crearea Documentului Obiect 
 
@@ -112,6 +122,8 @@ def makeConstraintFlowVelocity(name="FlowVelocity"):
     return obj
 ```
 
+
+
 ## Creează o camandă GUI 
 
 În acest pas vom modifica următoarele fișiere:
@@ -162,6 +174,8 @@ Gui.addCommand('FEM_AddConstraintFlowVelocity', Command())
 Adăugați noua comandă în sistem așa cum este încorporată [Extend FEM Module](https://www.freecadweb.org/wiki/Extend_FEM_Module). Identificați lista corectă pentru a căuta modulele de comandă existente.
 
 Puneți o comandă în Gui/Workbench.cpp pentru a o adăuga în bara de instrumente și în meniu. Căutați o constrângere existentă din aceeași categorie ca cea nouă (de exemplu, Flow) copiați-o și adaptați id-ul comenzii. Acest lucru ar trebui făcut de două ori. Odată pentru meniu și din nou pentru bara de instrumente.
+
+
 
 ## Creara Task Panel 
 
@@ -284,6 +298,8 @@ class ViewProxy(FemConstraint.ViewProxy):
         Gui.ActiveDocument.setEdit(vobj.Object.Name)
         return True
 ```
+
+
 
 ## Extensia Elmer FEM solver Writer 
 

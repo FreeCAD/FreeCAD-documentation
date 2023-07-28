@@ -1,9 +1,9 @@
 ---
 - GuiCommand:/it
    Name:Draft ToggleConstructionMode
-   Name/it:Costruzione
-   MenuLocation:Draft → Utilità → Costruzione
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   Name/it:Modalità Costruzione
+   MenuLocation:Utilità → Attiva/Disattiva modalità di costruzione
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**C** **M**
    SeeAlso:[Aggiungi al gruppo Costruzione](Draft_AddConstruction/it.md)
 ---
@@ -11,50 +11,36 @@
 # Draft ToggleConstructionMode/it
 
 
-</div>
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="width:24px;"> **Draft Attiva/Disattiva modalità di costruzione** attiva o disattiva la modalità di costruzione Draft. Se la modalità di costruzione è su nuovi oggetti [Draft](Draft_Workbench/it.md), eccetto [Draft Punti](Draft_Point/it.md), vengono posizionati in un gruppo dedicato e dotati di un colore predefinito. Questa funzione è destinata alla geometria di costruzione, spesso temporanea, utilizzata per fornire nuovi [punti di aggancio](Draft_Snap/it.md) per la creazione di altri oggetti. Quando la geometria di costruzione non è più necessaria, il gruppo di costruzione può essere facilmente [nascosto](Std_HideSelection/it.md) o [eliminato](Std_Delete/it.md).
 
-<div class="mw-translate-fuzzy">
-
-L\'[Ambiente Draft](Draft_Workbench/it.md) <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> presenta una modalità di costruzione, che consente all\'utente di disegnare forme in uno speciale [Gruppo](Std_Group/it.md), con un colore definito. La geometria di costruzione è composta da linee, punti e altre forme che fungono da riferimenti o [elementi di aggancio](Draft_Snap/it.md) che sono utili per costruire la geometria principale. La geometria della costruzione può essere nascosta (**Visibility** `False`) o cancellata dopo che non è più necessaria.
-
-
-</div>
-
-<img alt="" src=images/Draft_construction_mode_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_construction_mode_example.jpg  style="width:400px;"> 
+*Geometria di costruzione, in blu, utilizzata per determinare il centro e il raggio di un cerchio*
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-*Geometria di costruzione in blu che aiuta a impostare il centro del cerchio*
-
-
-</div>
 
 ## Utilizzo
 
+1.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_ToggleConstructionMode.svg" width=16px> [Attiva/Disattiva modalità di costruzione](Draft_ToggleConstructionMode/it.md)** nella [Barra di Draft](Draft_Tray/it.md). Questo pulsante è premuto se la modalità di costruzione Draft è attualmente attiva.
+    -   Selezionare l\'opzione **Utilità → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Attiva/Disattiva modalità di costruzione** dal menu.
+    -   Usare la scorciatoia da tastiera: **C** poi **M**.
+2.  Il pulsante nella [Barra di Draft](Draft_Tray.md) viene aggiornato.
 
-<div class="mw-translate-fuzzy">
-
-1.  Premere il pulsante **<img src="images/Draft_ToggleConstructionMode.png" width=16px> [Attiva/disattiva modalità di costruzione](Draft_ToggleConstructionMode/it.md)**.
-2.  Disegnare alcuni oggetti.
-3.  Premere di nuovo il pulsante **<img src="images/Draft_ToggleConstructionMode.png" width=16px> [Attiva/disattiva modalità di costruzione](Draft_ToggleConstructionMode/it.md)** per tornare alla modalità normale.
 
 
-</div>
+## Note
 
-## Notes
+-   Se la modalità di costruzione Draft è attivata, il [layer](Draft_Layer/it.md) attivo viene ignorato.
 
--   If Draft construction mode is switched on the active [layer](Draft_Layer.md) is ignored.
 
-## Preferences
 
--   To change the label of the construction group: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**.
--   To change the color that is used: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction geometry color**.
+## Preferenze
+
+-   Per cambiare l\'etichetta del gruppo di costruzione: **Modifica → Preferenze... → Draft → Impostazioni generali → Geometria di costruzione → Nome gruppo di costruzione**.
+-   Per cambiare il colore utilizzato: **Modifica → Preferenze... → Draft → Impostazioni generali → Geometria di costruzione → Colore della geometria di costruzione**.
 
 
 

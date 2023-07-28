@@ -37,21 +37,21 @@ Pobierz instalator **graphviz-2.xx** ze [Graphviz strona do pobrania](https://gr
 
 ### Mac OS 
 
-Grafviz można zainstalować za pomocą [Homebrew](https://brew.sh/). *(Podczas instalacji Homebrew nie denerwuj się, jeśli MacOS poprosi Cię o zainstalowanie aktualizacji, np. dla narzędzi wiersza poleceń Xcode. Te aktualizacje są wykonywane później przez proces instalacji)*.
+Grafviz można zainstalować za pomocą [Homebrew](https://brew.sh/) jeśli używasz macOS w wersji Big Sur *(11) (lub nowszy)*. *(Podczas instalacji Homebrew nie denerwuj się, jeśli MacOS poprosi Cię o zainstalowanie aktualizacji, np. dla narzędzi wiersza poleceń Xcode. Te aktualizacje są wykonywane później przez proces instalacji)*.
 
 
 {{Code|lang=text|code=
 brew install graphviz
 }}
 
-Wykona instalacje binarek graphviz pod /usr/local/bin dla macOS na Intelu, oraz /opt/homebrew dla macOS na Apple Silicon/ARM. FreeCAD sam będzie tam zaglądał. Jeśli program nie zostanie tam znaleziony zostaniemy poproszeni o podanie ścieżki. Niestety nie możemy nawigować tam bezpośrednio z okna dialogowego pliku, które pojawia się z poziomu **Przybory → Graf zależności ...**. Gdy pojawi się okno dialogowe wyboru pliku, masz dwie możliwości: Możesz użyć kombinacji klawiszy Cmd+Shift+. która pokaże Ci wszystkie ukryte elementy. Albo używasz klawiszy Cmd+Shift+G, aby uzyskać pole wejściowe dla ścieżki. Wpisz
+Wykona instalację binariów Graphviz w **/usr/local/bin** dla macOS na Intelu, lub **/opt/homebrew** dla macOS na Apple Silicon/ARM. FreeCAD powinien automatycznie znaleźć te lokalizacje. Jeśli program Graphviz nie zostanie znaleziony, zostaniesz poproszony o podanie ścieżki. Niestety nie możemy nawigować bezpośrednio do programu w oknie dialogowym pliku, który pojawia się z poziomu **Przybory → Graf zależności ...**. Istnieją dwie możliwości: Możesz użyć kombinacji klawiszy Cmd+Shift+. aby pokazać ukryte elementy. Lub możesz użyć kombinacji klawiszy Cmd+Shift+G, aby uzyskać pole wprowadzania ścieżki. Wprowadź jedną z tych ścieżek w [konsoli](https://en.wikipedia.org/wiki/Terminal_(macOS)):
 
 
 {{Code|lang=text|code=
 /usr/local/bin
 }}
 
-lub
+lub:
 
 
 {{Code|lang=text|code=
@@ -60,14 +60,14 @@ lub
 
 i zatwierdzić pole wejściowe oraz okno dialogowe wyboru pliku.
 
-W przypadku, gdy binaria Graphviz są zainstalowane w niestandardowej lokalizacji, spróbuj znaleźć program za pomocą polecenia
+W przypadku, gdy binaria Graphviz są zainstalowane w niestandardowej lokalizacji, spróbuj znaleźć program za pomocą polecenia:
 
 
 {{Code|lang=text|code=
 type dot
 }}
 
-Wynikiem będzie coś takiego jak
+Wynikiem będzie coś takiego jak:
 
 
 {{Code|lang=text|code=
@@ -75,6 +75,47 @@ dot is /usr/local/bin/dot
 }}
 
 I dlatego możesz powiedzieć programowi FreeCAD, aby szukał w tym katalogu.
+
+Jeśli nie używasz macOS w wersji Big Sur *(11) (lub nowszego)* Homebrew może nie działać, ale możesz użyć [MacPorts](https://www.macports.org/index.php) zamiast tego. Wystarczy pobrać [odpowiednią wersję dla Twojego systemu operacyjnego](https://www.macports.org/install.php). Po zakończeniu instalacji wpisz to polecenie w [konsoli](https://en.wikipedia.org/wiki/Terminal_(macOS)):
+
+
+{{Code|lang=text|code=
+sudo port install graphviz
+}}
+
+Wpisz swoje hasło i poczekaj, aż instalacja dobiegnie końca *(z uwagi na zależności może to zająć trochę czasu)*.
+
+Binaria Graphviz mogą znajdować się pod **/usr/local/bin** lub **/opt/local/bin/dot**. FreeCAD może automatycznie znaleźć program Graphviz za pomocą okna dialogowego plików, które pojawia się po wybraniu **Przybory → Graf zależności ...**, jeśli nie wprowadź to polecenie:
+
+
+{{Code|lang=text|code=
+type dot
+}}
+
+W rezultacie otrzymamy:
+
+
+{{Code|lang=text|code=
+dot is /opt/local/bin/dot
+}}
+
+I możesz wskazać programowi FreeCAD, aby przeszukał ten katalog, jak wyjaśniono wcześniej.
+
+Możliwe jest również uczynienie katalogu *opt* dostępnym za pomocą tego polecenia:
+
+
+{{Code|lang=text|code=
+defaults write com.apple.finder AppleShowAllFiles YES;
+}}
+
+wtedy:
+
+
+{{Code|lang=text|code=
+killall Finder /System/Library/CoreServices/Finder.app;
+}}
+
+Dlatego możesz nakazać programowi FreeCAD, aby podążał tą ścieżką. Zostało to pomyślnie przetestowane na macOS 10.13 *(High Sierra)*.
 
 ### Linux
 
@@ -101,7 +142,7 @@ I dlatego możesz wskazać programowi FreeCAD, aby szukał w tym katalogu.
 1.  Wybierz z menu opcję **Przybory → <img src="images/Std_DependencyGraph.svg" width=16px> Graf zależności ...**.
 2.  W [Głównym obszarze widoku](Main_view_area/pl.md) otworzy się nowa zakładka zatytułowana **Graf zależności**.
 3.  Użyj kółka przewijania myszy, aby przybliżyć lub oddalić widok.
-4.  Użyj suwaków na dole i po prawej stronie ekranu, aby przesunąć widok. Alternatywnie ({{Version/pl|0.19}}) przytrzymaj lewy przycisk myszy i poruszaj kursorem.
+4.  Użyj suwaków na dole i po prawej stronie ekranu, aby przesunąć widok. Alternatywnie przytrzymaj lewy przycisk myszy i poruszaj kursorem.
 
 
 

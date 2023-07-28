@@ -4,6 +4,8 @@
 {{BIMTutorialAction
 |descr=Это внутреннее руководство по [верстаку BIM](BIM_Workbench/ru.md). Он не предназначен для чтения здесь, в вики, а скорее для запуска из FreeCAD, в рабочей среде BIM, в меню '''Справка -> Обучение BIM'''. Он включает в себя ряд шагов, которые должен выполнить пользователь. Каждый шаг завершается экземпляром шаблона [<nowiki>{{BIMTutorialAction|descr|goal1|test1|goal2|test2}}</nowiki>](Template_BIMTutorialAction.md), который информирует появлении необходимых условий. Изображения должны быть 300 пикселей в ширину. На этой странице нельзя использовать изображения SVG, так как они не поддерживаются виджетом QTextBrowser.}}
 
+
+
 ### Добро пожаловать в верстак BIM! 
 
 <img alt="" src=images/BIM_Tutorial_title.jpg  style="width:300px;">
@@ -14,9 +16,13 @@
 
 Некоторые шаги этого руководства требуют от вас действий. Они будут указаны под этим текстовым полем со значком, показывающим, была ли задача выполнена или нет. Но поскольку мы здесь, в FreeCAD, хорошие люди, необязательно выполнять действия для продвижения по этим страницам. Вы можете просто просмотреть руководство и пропустить действия по своему усмотрению.
 
+
+
 #### О версиях FreeCAD 
 
 Это руководство написано для [самой последней доступной разрабатываемой версии FreeCAD](Download/ru.md) (в настоящее время 0.19). Однако инструментальные средства BIM совместимы с любой версией FreeCAD. Если вы используете более старую версию FreeCAD, чем указанная здесь, некоторые инструменты BIM могут выглядеть иначе, работать по-другому или даже быть недоступными. Обратитесь к [документации](BIM_Workbench/ru.md), чтобы узнать больше в случае сомнений.
+
+
 
 #### Примечания
 
@@ -39,12 +45,20 @@ FreeCAD имеет обширную систему настроек с множ�
 
 <img alt="" src=images/BIM_Tutorial_02.jpg  style="width:300px;">
 
+
+<div class="mw-translate-fuzzy">
+
 В этом уроке мы будем работать в сантиметрах. Поэтому мы предлагаем вам установить предпочтительные единицы измерения как «сантиметры», а размер квадрата сетки по умолчанию - «10 см». Эти настройки можно изменить в любое время с помощью кнопки рабочей плоскости, расположенной на основных панелях инструментов, и индикатора единиц, расположенного в строке состояния (справа внизу):
+
+
+</div>
 
 <img alt="" src=images/BIM_tutorial_14.jpg  style="width:300px;">
 
 
 {{BIMTutorialAction|goal1=Открыть экран настройки BIM|test1=True if hasattr(FreeCADGui,"BIMSetupDialog") else False|goal2=Установить единицы измерения в сантиметры, а размер сетки - 10 см.|test2=True if ((FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Units").GetInt("UserSchema",0) == 4) and (FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetFloat("gridSpacing",10) == 100)) else False}}
+
+
 
 ### Создать новый документ 
 
@@ -62,6 +76,8 @@ FreeCAD имеет обширную систему настроек с множ�
 
 
 {{BIMTutorialAction|goal1=Создать новый документ|test1=True if FreeCAD.ActiveDocument else False}}
+
+
 
 ### Навигация в окне трёхмерного просмотра 
 
@@ -82,6 +98,8 @@ FreeCAD имеет обширную систему настроек с множ�
 
 {{BIMTutorialAction|goal1=Выбрать стиль навигации|test1=True|goal2=Установить вид сверху|test2=True if FreeCADGui.ActiveDocument.ActiveView.getViewDirection().getAngle(FreeCAD.Vector(0,0,-1)) < 0.01 else False}}
 
+
+
 ### Реорганизовать интерфейс 
 
 Все панели и панели инструментов FreeCAD можно перемещать и реорганизовывать. Панели большего размера также можно соединить, перетащив их на другую. Если ваш экран слишком мал для отображения всех панелей инструментов и их содержимого (усеченные панели инструментов будут отображаться со знаком \>\>), было бы неплохо переместить их в лучшее положение.
@@ -97,15 +115,21 @@ FreeCAD имеет обширную систему настроек с множ�
 
 {{BIMTutorialAction|descr=На этом шаге нет действий}}
 
+
+
 ### Инструменты верстака BIM 
 
 [Верстак BIM](BIM_Workbench/ru.md) содержит инструменты, заимствованные из других инструментальных средств, таких как [Arch](Arch_Workbench/ru.md), [Draft](Draft_Workbench/ru.md) или [Part](Part_Workbench/ru.md), а также несколько собственных инструментов. Они разделены на несколько категорий. У каждой категории есть меню и панель инструментов. Найдите минутку, чтобы изучить содержание меню, описанного ниже.
+
+
 
 #### Двумерное черчение 
 
 Эти инструменты позволяют рисовать плоские объекты, такие как линии, полилинии, прямоугольники, дуги и т.д., которые станут основой ваших объектов BIM. Например, вы можете использовать полилинию, чтобы определить базовую линию стены, или прямоугольник как профиль балки. Все двумерные объекты создаются в текущей [рабочей плоскости](Draft_SelectPlane/ru.md).
 
 <img alt="" src=images/BIM_Tutorial_35.jpg  style="width:300px;">
+
+
 
 #### Трёхмерное моделирование и BIM 
 
@@ -117,19 +141,27 @@ FreeCAD имеет обширную систему настроек с множ�
 
 Объекты, не относящиеся к BIM, включая объекты, созданные в других инструментальных средствах, всегда можно превратить в объекты BIM, выбрав их и нажав любую из кнопок инструментов BIM.
 
+
+
 #### Аннотации
 
 Эти инструменты создают объекты аннотации, такие как размеры, текст, метки или сетки, используемые не для моделирования, а для аннотирования ваших моделей и создания понятных чертежей.
 
 <img alt="" src=images/BIM_Tutorial_34.jpg  style="width:300px;">
 
+
+
 #### Привязки
 
 Эти инструменты включают/выключают [привязку](Draft_Snap/ru.md) к позиции. Как и в большинстве приложений BIM, каждая дополнительная позиция привязки увеличивает время расчета при рисовании, поэтому лучше оставить включенными только те, которые вам нужны.
 
+
+
 #### Модификация
 
 Эти инструменты изменяют существующие объекты. Они содержат обычные инструменты преобразования, такие как «Перемещение» или «Поворот», а также ряд других, которые работают только для определенных типов объектов.
+
+
 
 #### Управление
 
@@ -139,6 +171,8 @@ FreeCAD имеет обширную систему настроек с множ�
 
 
 {{BIMTutorialAction|descr=На этом шаге нет действий}}
+
+
 
 ### Подготовка рабочего места 
 
@@ -167,9 +201,17 @@ FreeCAD имеет обширную систему настроек с множ�
 
 {{BIMTutorialAction|goal1=Установите рабочую плоскость в режим «Сверху» (XY).|test1=True if ((FreeCAD.DraftWorkingPlane.axis.getAngle(FreeCAD.Vector(0,0,1)) < 0.01) and (FreeCAD.DraftWorkingPlane.weak == False)) else False|goal2=Обзор различных инструментов привязки|test2=True}}
 
+
+
 ### Проведём первую стену 
 
+
+<div class="mw-translate-fuzzy">
+
 Начнем строить павильон со стен. Стены можно нарисовать либо напрямую с помощью инструмента [стена](Arch_Wall/ru.md), либо сначала нарисовав 2D-объекты, такие как [линии](Draft_Line/ru.md), [полилинии](Draft_Wire/ru.md) или \[\[Sketcher_NewSketch/ru\|эскизы\] \], которые будут определять базовую линию наших стен. Когда у вас выбран такой базовый объект, нажатие инструмента «Стена» автоматически преобразует его в стену.
+
+
+</div>
 
 Сначала масштабируйте, пока не будет видна большая часть или вся сетка. Так будет легче видеть, что мы делаем:
 
@@ -184,13 +226,15 @@ FreeCAD имеет обширную систему настроек с множ�
 
 {{BIMTutorialAction|goal1=Создать стену|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "MakeBlocks" in o.PropertiesList]) == 1)}}
 
+
+
 ### Проведём вторую стену 
 
 Сделайте вторую горизонтальную стену длиной 4 метра (или 400 сантиметров). Снова выберите инструмент <img alt="" src=images/Arch_Wall.png  style="width:16px;"> **Стена**, панорамируйте и масштабируйте, пока не увидите нужную область сетки, и выберите две точки из сетки, чтобы определить начало и конечные точки новой стены:
 
 <img alt="" src=images/BIM_tutorial_11.jpg  style="width:300px;">
 
-After they are created, select both walls by pressing CTRL and clicking them both in the 3D view or in the [tree view](Document_structure.md), and adjust their **height** property to 2.5 meters and their **width** to 20 centimeters (or any other measurement you are comfortable with, if working in another unit), so they look like this (Use the mouse to rotate the view, according to the navigation style you chose):
+After they are created, select both walls by pressing CTRL and clicking them both in the 3D view or in the [tree view](Document_structure.md), and adjust their **height** property to 2.5 meters and their **width** to 20 centimeters (or any other measurement you are comfortable with, if working in another unit), so they look like this (Use the mouse to rotate the view, according to the navigation style you choose):
 
 <img alt="" src=images/BIM_tutorial_08.jpg  style="width:300px;">
 
@@ -245,7 +289,7 @@ Now we need to move our new roof slab to its correct position, that is, above th
 
 <img alt="" src=images/BIM_Tutorial_21.jpg  style="width:300px;">
 
-Another way to move our slab to its correct position, is to use the <img alt="" src=images/Draft_Move.png  style="width:16px;"> **Move** tool from the **Modify** menu. For that, we need to set our working plane in a vertical plane first, by pressing the <img alt="" src=images/Draft_SelectPlane.png  style="width:16px;"> **working plane** button (make sure you don\'t have any face selected), and setting it to **XY (Front)**. By setting ourselves in front view (press key **1**), we can now select the slab, press the <img alt="" src=images/Draft_Move.png  style="width:16px;"> **Move** button, and move our slab by clicking one of its base points, and, with **Shift** pressed to restrict the movement vertically, click one point on top of the walls:
+Another way to move our slab to its correct position, is to use the <img alt="" src=images/Draft_Move.png  style="width:16px;"> **Move** tool from the **Modify** menu. For that, we need to set our working plane in a vertical plane first, by pressing the <img alt="" src=images/Draft_SelectPlane.png  style="width:16px;"> **working plane** button (make sure you don\'t have any face selected), and setting it to **XZ (Front)**. By setting ourselves in front view (press key **1**), we can now select the slab, press the <img alt="" src=images/Draft_Move.png  style="width:16px;"> **Move** button, and move our slab by clicking one of its base points, and, with **Shift** pressed to restrict the movement vertically, click one point on top of the walls:
 
 <img alt="" src=images/BIM_Tutorial_23.jpg  style="width:300px;">
 
@@ -268,7 +312,7 @@ Let\'s add a metallic column to give better support to our slab. Make sure the w
 
 In FreeCAD, it is very easy to turn objects or groups on and off, and the tree shows you clearly what is shown and what is hidden. Be sure to use that often!
 
-The **Column** tool (as well as the Beam tool) has some built-in profiles that we will use now. Make sure nothing is selected, then press the Column button. In the **Structure options**, select **CTH**:
+The **Column** tool (as well as the Beam tool) has some built-in profiles that we will use now. Make sure nothing is selected, then press the Column button. In the **Structure options**, select **CHS** (for \"Circular Hollow Section\"; RHS is \"Rectangular Hollow Section\", HEA, HEB, etc. are various \"H\" sections, etc.):
 
 <img alt="" src=images/BIM_Tutorial_24.jpg  style="width:300px;">
 
@@ -276,7 +320,7 @@ And click a point to place your column, more or less at this position. Make sure
 
 <img alt="" src=images/BIM_Tutorial_25.jpg  style="width:300px;">
 
-Unfortunately, the CTH preset has only one diameter option of 42mm, which is very thin to support our concrete roof slab. Fortunately, as everything is parametric, it is easy to change the diameter. Expand the new structural object in the tree view, and you will find its profile object, named CTH423. Change its diameter to 12cm and its thickness to 8mm. Now we have a strong enough column. Notice that you can specify units on the fly and switch between 0,8cm and 8mm without issue. FreeCAD will take care of conversion.
+Unfortunately, the CHS preset has only one diameter option of 42mm, which is very thin to support our concrete roof slab. Fortunately, as everything is parametric, it is easy to change the diameter. Expand the new structural object in the tree view, and you will find its profile object, named CHS423. Change its diameter to 12cm and its thickness to 8mm. Now we have a strong enough column. Notice that you can specify units on the fly and switch between 0,8cm and 8mm without issue. FreeCAD will take care of conversion.
 
 #### Add a support plate 
 
@@ -332,9 +376,9 @@ A first very simple and very good habit to take is to give proper and meaningful
 
 Another interesting operation to do is **grouping**. Groups allow you to organize your objects in the tree view, like files and folders. An object can only belong to one group. Groups are created by right-clicking the document root or any other group in the tree view, and selecting **Create group**. You can then drag objects in and out of groups in the tree view.
 
-A third way to organize things is by using layers. Layers are independent to groups, you can use both systems at the same time if you wish. Like groups, layers allow you to easily turn on/off a series of objects, but unlike groups, they cannot be stacked inside one another. They also allow you to override visual settings such as color and line width of their child objects. Layers are created and managed using the Layers manager tool found under menu **Manage -\> Layers manager**. Objects are added or removed by dragging them in and out of layers in the tree view.
+A third way to organize things is by using layers. Layers are independent of groups, you can use both systems at the same time if you wish. Like groups, layers allow you to easily turn on/off a series of objects, but unlike groups, they cannot be stacked inside one another. They also allow you to override visual settings such as the color and line width of their child objects. Layers are created and managed using the Layers manager tool found under menu **Manage -\> Layers manager**. Objects are added or removed by dragging them in and out of layers in the tree view.
 
-The **Layer selector** on the main toolbars allow you to set a current layer. After doing so, any new 2D or BIM object will automatically be placed in that layer.
+The **Layer selector** on the main toolbar allows you to set a current layer. After doing so, any new 2D or BIM object will automatically be placed in that layer.
 
 Finally, BIM applications usually allow you to group objects into **levels** (or storeys) and **buildings**. FreeCAD offers these tools as well under the **3D/BIM modeling** menu. Like beams and columns, levels and buildings use a same object type called [Building Part](Arch_BuildingPart.md) with a different IFC type. They work the same way as groups, once created, you can drag and drop any object in and out of it. Building Parts are compatible with groups, so you can place groups inside them.
 

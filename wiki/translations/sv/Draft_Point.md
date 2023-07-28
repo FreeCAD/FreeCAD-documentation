@@ -5,11 +5,15 @@
 
 </div>
 
+
+
 #### Beskrivning
 
 The <img alt="" src=images/Draft_Point.svg  style="width:24px;"> **Draft Point** command creates a simple point. Draft points can be useful as a reference for placing lines, wires or other objects.
 
 <img alt="" src=images/Draft_point_example.jpg  style="width:400px;">
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -39,7 +43,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Notes
 
--   Use <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Draft Snap Near](Draft_Snap_Near.md) ({{VersionMinus|0.20}}) or <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:16px;"> [Draft Snap Endpoint](Draft_Snap_Endpoint.md) (<small>(v1.0)</small> ) to snap to Draft points.
+-   Use <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Draft Snap Near](Draft_Snap_Near.md) ({{VersionMinus|0.20}}) or <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:16px;"> [Draft Snap Endpoint](Draft_Snap_Endpoint.md) (<small>(v0.21)</small> ) to snap to Draft points.
 
 ## Preferences
 

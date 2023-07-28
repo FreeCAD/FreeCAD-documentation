@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande **Mesh Inverser les normales‏‎** inverse, retourne, les normales des objets maillés.
+La commande **Inverser les normales‏‎** inverse, retourne, les normales des objets maillés.
 
 
 

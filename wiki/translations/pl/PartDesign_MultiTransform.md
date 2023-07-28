@@ -1,143 +1,160 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign MultiTransform
-   MenuLocation:Part Design → Apply a pattern → Create MultiTransform
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[PartDesign Mirrored](PartDesign_Mirrored.md), [PartDesign LinearPattern](PartDesign_LinearPattern.md), [PartDesign PolarPattern](PartDesign_PolarPattern.md), [PartDesign Scaled](PartDesign_Scaled.md)
+   Name/pl:Projekt Części: Transformacja wielokrotna
+   MenuLocation:Projekt Części → Zastosuj przekształcenie → Utwórz transformację wielokrotną
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
+   SeeAlso:[Odbicie lustrzane](PartDesign_Mirrored/pl.md), [Szyk liniowy](PartDesign_LinearPattern/pl.md), [Szyk kołowy](PartDesign_PolarPattern/pl.md), [Skaluj](PartDesign_Scaled/pl.md)
 ---
 
 # PartDesign MultiTransform/pl
 
-## Description
 
-The <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:24px;"> **PartDesign MultiTransform** tool creates a pattern of one or more features. The pattern can include multiple transformations where each subsequent transformation is applied to the result of the previous transformation.
 
-The available transformations are: <img alt="" src=images/PartDesign_Mirrored.svg  style="width:16px;"> [Mirrored](PartDesign_Mirrored.md), <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:16px;"> [LinearPattern](PartDesign_LinearPattern.md), <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:16px;"> [PolarPattern](PartDesign_PolarPattern.md) and <img alt="" src=images/PartDesign_Scaled.svg  style="width:16px;"> [Scaled](PartDesign_Scaled.md). The first three are also available as separate tools.
+## Opis
+
+Narzędzie <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:24px;"> **Transformacja wielokrotna** tworzy szyk jednego lub więcej elementów. Szyk może zawierać wiele przekształceń, gdzie każde kolejne przekształcenie jest stosowane do wyniku poprzedniego przekształcenia.
+
+Dostępne transformacje to: <img alt="" src=images/PartDesign_Mirrored.svg  style="width:16px;"> [Odbicie lustrzane](PartDesign_Mirrored/pl.md), <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:16px;"> [Szyk liniowy](PartDesign_LinearPattern/pl.md), <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:16px;"> [Szyk kołowy](PartDesign_PolarPattern/pl.md) i <img alt="" src=images/PartDesign_Scaled.svg  style="width:16px;">. [Skaluj](PartDesign_Scaled/pl.md). Pierwsze trzy są również dostępne jako osobne narzędzia.
 
 <img alt="" src=images/multitransform_example.png  style="width:600px;"> 
-*A pattern of holes created from a single Hole feature by applying a LinearPattern with 2 occurences, followed by a PolarPattern with 8 occurrences.*
+*Wzór otworów utworzony z pojedynczej cechy Otwór poprzez zastosowanie Szyku liniowego z 2 wystąpieniami, a następnie Szyku kołowego z 8 wystąpieniami.*
 
-## Usage
 
-### Create
 
-1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
-2.  Optionally select one or more features in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-3.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/PartDesign_MultiTransform.svg" width=16px> [Create MultiTransform](PartDesign_MultiTransform.md)** button.
-    -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_MultiTransform.svg" width=16px> Create MultiTransform** option from the menu.
-4.  If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
-5.  If no features were selected the **Select feature** [task panel](Task_panel.md) opens: select one or more (hold down the **Ctrl** key) from the list and press the **OK** button.
-6.  The **MultiTransform parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
-7.  Press the **OK** button at the top to finish.
+## Użycie
 
-### Edit
 
-1.  Do one of the following:
-    -   Double-click the MultiTransform object in the [Tree view](Tree_view.md).
-    -   Right-click the MultiTransform object in the [Tree view](Tree_view.md) and select **Edit MultiTransform** from the context menu.
-2.  The **MultiTransform parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
-3.  Press the **OK** button at the top to finish.
 
-### Combine existing transformations 
+### Tworzenie
 
-It is possible to create a MultiTransform object from existing [Mirrored](PartDesign_Mirrored.md), [LinearPattern](PartDesign_LinearPattern.md) and [PolarPattern](PartDesign_PolarPattern.md) transformations.
+1.  Opcjonalnie [aktywuj](PartDesign_Body/pl#Aktywny_status.md) właściwą bryłę.
+2.  Opcjonalnie wybierz jedną lub więcej cech w oknie [widoku drzewa](Tree_view/pl.md) lub w oknie [widoku 3D](3D_view/pl.md).
+3.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/PartDesign_MultiTransform.svg" width=16px> '''Utwórz transformację wielokrotną'''**.
+    -   Wybierz z menu opcję **Projekt Części → Zastosuj przekształcenie → <img src="images/PartDesign_MultiTransform.svg" width=16px>. Utwórz transformację wielokrotną**.
+4.  Jeśli nie ma aktywnej Zawartości, a w dokumencie są dwie lub więcej Zawartości, otworzy się okno dialogowe **Wymagana jest aktywna zawartość** i poprosi o uaktywnienie jednej z nich. Jeśli istnieje jedna Zawartość, zostanie ona aktywowana automatycznie.
+5.  Jeśli nie wybrano żadnych cech, zostanie wyświetlone okno dialogowe **Wybierz cechę** otworzy się [panel zadań](Task_panel/pl.md): wybierz jedną lub więcej *(przytrzymaj klawisz **Ctrl**)* z listy i naciśnij przycisk **OK**.
+6.  Otworzy się [panel zadań](Task_panel/pl.md) **Parametry Transformacji wielokrotnej**. Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
+7.  Naciśnij przycisk **OK**, aby zakończyć.
 
-1.  Check the **Originals** property of the existing transformations to make sure they have been applied to the same features.
-2.  Select those features in the [Tree view](Tree_view.md).
-3.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/PartDesign_MultiTransform.svg" width=16px> [Create MultiTransform](PartDesign_MultiTransform.md)** button.
-    -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_MultiTransform.svg" width=16px> Create MultiTransform** option from the menu.
-4.  The **MultiTransform parameters** [task panel](Task_panel.md) opens.
-5.  Press the **OK** button at the top.
-6.  Edit the **Tranformations** property of the created MultiTransform object:
-    1.  Click in the field.
-    2.  Press the **...** button that appears.
-    3.  The **Link** dialog opens.
-    4.  Hold down the **Ctrl** key and select the existing transformations.
-    5.  Press the **OK** button.
-7.  Optionally [edit](#Edit.md) the MultiTransform object, see above.
 
-## Options
 
--   To add features:
-    1.  Press the **Add feature** button.
-    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-    3.  Repeat to add more features.
--   To remove features:
-    1.  Press the **Remove feature** button.
-    2.  Do one of the following:
-        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-        -   Select a feature in the list at the top and press the **Del** key.
-        -   Right-click a feature in the list at the top and select **Remove** from the context menu.
-    3.  Repeat to remove more features.
--   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
--   To add transformations:
-    1.  If there are existing transformations: select the transformation after which the new transformation should be added.
-    2.  Right-click the **Transformations** list.
-    3.  Select one the following options from the context menu:
+### Edycja
+
+1.  Wykonaj jedną z poniższych czynności:
+    -   Kliknij dwukrotnie obiekt Transformacja wielokrotna w oknie [Widok drzewa](Tree_view/pl.md).
+    -   Kliknij obiekt Transformacja wielokrotna prawym przyciskiem myszy w oknie [Widok drzewa](Tree_view/pl.md) i wybierz **Edycja funkcji transformacji wielokrotnej** z menu podręcznego.
+2.  Otworzy się panel [Panel zadań](Task_panel/pl.md) **Parametry odbicia lustrzanego**. Więcej informacji można znaleźć w punkcie [Opcje](#Opcje.md).
+3.  Naciśnij przycisk **OK**, aby zakończyć.
+
+
+
+### Łączenie istniejących transformacji 
+
+Możliwe jest utworzenie obiektu Transformacji wielokrotnej z istniejących przekształceń [Odbicia lustrzanego](PartDesign_Mirrored/pl.md), [Szyku linowego](PartDesign_LinearPattern/pl.md) i [Szyku kołowego](PartDesign_PolarPattern/pl.md).
+
+1.  Sprawdź właściwość **Oryginały** istniejących przekształceń, aby upewnić się, że zostały one zastosowane do tych samych elementów.
+2.  Wybierz te cechy w [Widoku Drzewa](Tree_view/pl.md).
+3.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/PartDesign_MultiTransform.svg" width=16px> [Utwórz transformację wielokrotną](PartDesign_MultiTransform/pl.md)**.
+    -   Wybierz z menu opcję **Projekt Części → Zastosuj przekształcenie → <img src="images/PartDesign_MultiTransform.svg" width=16px> Utwórz transformację wielokrotną**.
+4.  Otworzy się [panel zadań](Task_panel/pl.md) **Parametry Transformacji wielokrotnej** .
+5.  Naciśnij przycisk **OK** u góry.
+6.  Edytuj właściwość **Transformacje** utworzonego obiektu Transformacji wielokrotnej:
+    1.  Kliknij pole.
+    2.  Naciśnij przycisk **…**, który się pojawi.
+    3.  Otworzy się okno dialogowe **Łącze**.
+    4.  Przytrzymaj klawisz **Ctrl** i wybierz istniejące transformacje.
+    5.  Naciśnij przycisk **OK**.
+7.  Opcjonalnie [edytuj](#Edycja.md) obiekt Transformacji wielokrotnej, patrz wyżej.
+
+
+
+## Opcje
+
+-   Aby dodać cechy:
+    1.  Naciśnij przycisk **Dodaj element**.
+    2.  Wybierz element w oknie [Widoku drzewa](Tree_view/pl.md) lub [Widoku 3D](3D_view/pl.md).
+    3.  Powtórz czynność, aby dodać więcej elementów.
+-   Aby usunąć cechy:
+    1.  Naciśnij przycisk **Usuń element**.
+    2.  Wykonaj jedną z następujących czynności:
+        -   Wybierz element w oknie [Widoku drzewa](Tree_view/pl.md) lub [Widoku 3D](3D_view/pl.md).
+        -   Zaznacz element na liście u góry i naciśnij klawisz **Del**.
+        -   Kliknij prawym przyciskiem myszy element na liście u góry i wybierz **Usuń** z menu podręcznego.
+    3.  Powtórz czynność, aby usunąć więcej funkcji.
+-   Jeśli we wzorcu znajduje się kilka elementów, ich kolejność może być istotna. Zobacz stronę [Szyk kołowy](PartDesign_PolarPattern/pl#Oczekiwane_funkcje.md).
+-   Aby dodać transformacje:
+    1.  Jeśli już istnieją transformacje: wybierz jedną, po której ma zostać dodana nowa transformacja.
+    2.  Kliknij prawym przyciskiem myszy listę **Przekształcenia**.
+    3.  Wybierz jedną z następujących opcji z menu podręcznego:
         -   
-            **Add mirrored transformation**
+            **Dodaj transformację odbicia lustrzanego**
             
-            . See [PartDesign Mirrored](PartDesign_Mirrored.md).
+            . Zobacz stronę [Odbicie lustrzane](PartDesign_Mirrored/pl.md).
 
         -   
-            **Add linear pattern**
+            **Dodaj transformację szyku liniowego**
             
-            . See [PartDesign LinearPattern](PartDesign_LinearPattern.md).
+            . Zobacz stronę [Szyk liniowy](PartDesign_LinearPattern/pl.md).
 
         -   
-            **Add polar pattern**
+            **Dodaj transformację szyku kołowego**
             
-            See [PartDesign PolarPattern](PartDesign_PolarPattern.md).
+            . Zobacz stronę [Szyk kołowy](PartDesign_PolarPattern/pl.md).
 
         -   
-            **Add scaled transformation**
+            **Dodaj transformację zmiany skali**
             
-            . See [PartDesign Scaled](PartDesign_Scaled.md).
-    4.  The selected transformation is added to the list and the settings for the transformation are displayed below the list.
-    5.  Adjust the settings to suit.
-    6.  Press the **OK** bar at the bottom.
-    7.  Repeat to add more transformations.
--   To edit a transformation:
-    1.  Right-click the transformation in the **Transformations** list.
-    2.  Select **Edit** from the context menu.
-    3.  Adjust the settings to suit.
-    4.  Press the **OK** bar at the bottom.
--   To change the order of the transformations:
-    1.  Right-click a transformation in the **Transformations** list.
-    2.  Select **Move up** or **Move down** from the context menu.
--   If the **Update view** checkbox is checked the view will update in real time.
+            . Zobacz stronę [Skaluj](PartDesign_Scaled/pl.md).
+    4.  Wybrana transformacja jest dodawana do listy, a ustawienia transformacji są wyświetlane poniżej listy.
+    5.  Dostosuj ustawienia do własnych potrzeb.
+    6.  Naciśnij przycisk **OK** na pasku u dołu.
+    7.  Powtórz czynność, aby dodać więcej operacji przekształceń.
+-   Aby edytować transformację:
+    1.  Kliknij prawym przyciskiem myszy transformację na liście **Transformacje**.
+    2.  Wybierz **Edytuj** z menu kontekstowego.
+    3.  Dostosuj ustawienia.
+    4.  Naciśnij **OK** na pasku u dołu.
+-   Aby zmienić kolejność transformacji:
+    1.  Kliknij prawym przyciskiem myszy transformację na liście **Transformacje**.
+    2.  Wybierz **Przenieś wyżej** lub **Przenieś w dółj** z menu podręcznego.
+-   Jeśli pole wyboru **Aktualizuj widok** jest zaznaczone, widok będzie aktualizowany w czasie rzeczywistym.
 
-## Limitations
 
-See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
 
-## Example
+## Ograniczenia
 
-You can use this tool to create a fully parametric part that is symmetrical about two axes from a sketch.
+Zobacz stronę o ograniczeniach [Szyku kołowego](PartDesign_PolarPattern/pl#Ograniczenia.md).
 
-This could be a 150x100x10mm large mounting plate for a motor with symmetric holes.
+
+
+## Przykład
+
+Za pomocą tego narzędzia można utworzyć ze szkicu w pełni parametryczną część, która jest symetryczna względem dwóch osi.
+
+Może to być płyta montażowa o wymiarach 150x100x10 mm dla silnika z symetrycznymi otworami.
 
 <img alt="" src=images/PartDesign_MultiTransform_Example2.png  style="width:400px;">
 
-1.  Create a <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Body](PartDesign_Body.md) and add a <img alt="" src=images/PartDesign_NewSketch.svg  style="width:16px;"> [sketch](PartDesign_NewSketch.md) on one of its base planes.
-2.  In the sketch create geometry for one quadrant of the part (i.e. the upper right quadrant).
-    -   Note that the constraints must also only cover a quarter of the part, e.g. instead of the full dimension of {{Value|150mm}} enter {{Value|150/2mm}} or {{Value|75mm}}.
-    -   Make sure the sketch is closed by adding lines along the vertical and horizontal axes.
-3.  Extrude the part with <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [PartDesign Pad](PartDesign_Pad.md).
-4.  Select <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:16px;"> **PartDesign MultiTransform**.
-5.  The task dialog opens.
-6.  The last feature of the Body is already selected. Since we want to mirror that feature we can ignore the **Add feature** and **Remove feature** buttons.
-7.  Right-click in the **Transformations** field and select **Add mirrored transform** from the context menu.
-8.  For the **Plane** select **Vertical sketch axis**.
-9.  If the **Update view** checkbox is checked, you should now see the part mirrored about one axis.
-10. Again select **Add mirrored transform** from the context menu of the **Transformations** field.
-11. Now for the **Plane** select **Horizontal sketch axis**.
-12. Press the **OK** button to finish.
-13. To remove the edges along the axes of symmetry in the final result, set the **Refine** property of the new feature to {{Value|true}} in the [Property editor](Property_editor.md).
+1.  Utwórz <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Zawartość](PartDesign_Body/pl.md) i dodaj <img alt="" src=images/PartDesign_NewSketch.svg  style="width:16px;"> [szkic](PartDesign_NewSketch/pl.md) na jednej z jego płaszczyzn bazowych.
+2.  W szkicu utwórz geometrię dla jednej ćwiartki części *(tj. górnej prawej ćwiartki)*.
+    -   Zwróć uwagę, że wiązania muszą również obejmować tylko jedną czwartą części, np. zamiast pełnego wymiaru {{Value|150mm}} wpisz {{Value|150/2mm}} lub {{Value|75mm}}.
+    -   Upewnij się, że szkic jest zamknięty, dodając linie wzdłuż osi pionowej i poziomej.
+3.  Wyciągnij część za pomocą fukcji <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [Projekt Części: Wyciągnij](PartDesign_Pad/pl.md).
+4.  Wybierz narzędzie <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:16px;"> **Utwórz transformacje wielokrotną**.
+5.  Zostanie otwarte okno dialogowe zadania.
+6.  Ostatnia cecha Zawartości jest już wybrana. Ponieważ chcemy wykonać odbicie lustrzane tego elementu, możemy zignorować przyciski **Dodaj element** i **Usuń element**.
+7.  Kliknij prawym przyciskiem myszki w polu **Transformacje** i wybierz **Dodaj transformację odbicia lustrzanego** z menu podręcznego.
+8.  Jako **Płaszczyznę** wybierz **Pionowa oś szkicu**.
+9.  Jeśli pole wyboru **Aktualizuj widok** jest zaznaczone, część powinna być teraz odbita symetrycznie względem jednej z osi.
+10. Ponownie wybierz **Dodaj transformację odbicia lustrzanego** z menu podręcznego w polu **Transformacje**.
+11. Teraz jako **Płaszczyznę** wybierz **Pozioma oś szkicu**.
+12. Naciśnij przycisk **OK**, aby zakończyć operację.
+13. Aby usunąć krawędzie wzdłuż osi symetrii w wyniku końcowym, ustaw właściwość **Ulepsz** nowego elementu na {{true/pl}} w [edytorze właściwości](Property_editor/pl.md).
 
-To verify that the part is fully parametric open the initial sketch with the quarter part and change one dimension, say a hole diameter. After closing the sketch the three other holes will have changed accordingly. This works with all other dimensions as well. A sketch modelling the full part with a single extrusion and no mirroring would be a lot more complex and all later changes would be more complicated.
+Aby sprawdzić, czy część jest w pełni parametryczna, otwórz początkowy szkic z ćwiartką części i zmień jeden wymiar, na przykład średnicę otworu. Po zamknięciu szkicu trzy pozostałe otwory zostaną odpowiednio zmienione. Działa to również w przypadku wszystkich innych wymiarów. Szkic modelujący całą część z pojedynczym wyciągnięciem i bez odbicia lustrzanego byłby znacznie bardziej złożony, a wprowadzenie wszystkich późniejszych zmian byłoby bardziej skomplikowane.
 
 
 

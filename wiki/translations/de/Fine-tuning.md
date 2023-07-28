@@ -1,17 +1,17 @@
 # Fine-tuning/de
 {{TOCright}}
 
-Diese Seite enthält verschiedene Einstellungen und Parameter, die du zur Feinabstimmung deiner FreeCAD Installation oder zur Behebung von Problemen verwenden kannst.
 
 
-
-## Optionsparameter
+## Einleitung
 
 Der FreeCAD [Einstellungseditor](Preferences_Editor/de.md) unter dem Menüpunkt **Bearbeitungen → Einstellungen** wird üblicherweise verwendet, um die FreeCAD Parametertabelle festzulegen und zu ändern.
 
 Jedoch ist es auch möglich, unter Verwendung des [Parameter Editors](Std_DlgParameter/de.md) der im Menü **Werkzeuge → Parameter bearbeiten** gefunden werden kann, auf Parameter manuell zuzugreifen, diese zu ändern und zu erstellen.
 
-Die folgende Liste zeigt Parameter, die nicht über den Einstellungseditor zugänglich sind, die du aber manuell festlegen kannst (befindet sich in **BaseApp/Preferences**)
+Diese Seite listet Parameter, die nicht über den Einstellungseditor zugänglich sind, aber manuell festgelegt werden können, für das Fine-Tuning der FreeCAD-Installation oder zur Fehlerbeseitigung. Alle Parameter befinden sich in **BaseApp/Preferences/**.
+
+## General
 
 
 <div class="mw-translate-fuzzy">
@@ -33,7 +33,13 @@ Die folgende Liste zeigt Parameter, die nicht über den Einstellungseditor zugä
 
 
 
+
+<div class="mw-translate-fuzzy">
+
 ### Standard Dateinamen exportieren 
+
+
+</div>
 
 -   **General/ExportDefaultFilenameMultiple** (string): Set the default filename to use when exporting multiple objects. Defaults to \"%F\".
 -   **General/ExportDefaultFilenameSingle** (string): Set the default filename to use when exporting a single object. Defaults to \"%F-%P-\".
@@ -47,19 +53,6 @@ Both of these options support the automatic insertion of various pieces of infor
 -   %D - the date and time, in local timezone, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
 
 Any other characters are treated literally. If the resulting filename is illegal it will be changed on saving, with illegal characters replaced by the underscore (\_).
-
-### Sketcher Constraint Label Colors 
-
-The label in Sketcher that displays the current status of the constraints (e.g. \"Underconstrained,\" \"Overconstrained,\" \"Fully Constrained,\" etc.) is styleable on a per-state basis either using the Qt stylesheet, or via user preferences. User preferences take precedence if they have been set (in **Mod/Sketcher/General**):
-
--   **EmptySketchMessageColor** - Defaults to 50% opacity black
--   **UnderconstrainedMessageColor** - Defaults to black
--   **MalformedConstraintMessageColor** - Defaults to red
--   **ConflictingConstraintMessageColor** - Defaults to red
--   **RedundantConstraintMessageColor** - Defaults to orange red
--   **PartiallyRedundantConstraintMessageColor** - Defaults to royal blue
--   **SolverFailedMessageColor** - Defaults to red
--   **FullyConstrainedMessageColor** - Defaults to green
 
 
 
@@ -82,7 +75,13 @@ The label in Sketcher that displays the current status of the constraints (e.g. 
 
 
 
+
+<div class="mw-translate-fuzzy">
+
 ### Abbruchtaste
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -93,21 +92,59 @@ The label in Sketcher that displays the current status of the constraints (e.g. 
 
 </div>
 
+## Navigation Cube 
+
+See [Navigation Cube](Navigation_Cube#Advanced_parameters.md).
+
 
 
 ## Bestimmte Arbeitsbereiche 
 
--   <img alt="" src=images/Workbench_TechDraw.svg  style="width:16px;"> [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) hat mehrere versteckte Schalter, die in [TechDraw Einstellungen](TechDraw_Preferences/de#Ausgeblendete_Einstellungen.md) dokumentiert sind.
--   <img alt="" src=images/Workbench_Path.svg  style="width:16px;"> [Pfad Arbeitsbereich](Path_Workbench/de.md) hat einen Schalter zur Aktivierung experimenteller Funktionen, die in [Pfad experimentell](Path_experimental/de.md) dokumentiert sind.
--   <img alt="" src=images/Workbench_BIM.svg  style="width:16px;"> [BIM Arbeitsbereich](BIM_Workbench/de.md):
-    -   **Mod/BIM/DefaultPageScale** (Float): Standard Skalierung für neue TechDraw Seiten, die vom BIM Arbeitsbereich aus erstellt werden, falls die Vorlage kein editierbares Textfeld \"Skalieren\" oder \"Skalierung\" (Text unempfindlich) enthält.
+### <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM Workbench](BIM_Workbench.md) 
 
+-   **Mod/BIM/DefaultPageScale** (float): Default scaling for new TechDraw pages created from the BIM Workbench, in case the template doesn\'t contain any \"Scale\" or \"Scaling\" (case insensitive) editable text field.
 
+### <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) 
 
-## Verwandtes
+-   **Mod/Draft/defaultCameraHeight** (int): Sets the height of the camera when Draft starts in an empty document. 0 disables, FreeCAD default is 5, good when working in millimeters, a good height for arch work is 4500.
 
--   [Parametereditor](Std_DlgParameter.md)
--   [Eigenschaftseditor](Preferences_editor.md)
+### <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) 
+
+-   **Mod/Part/ParametricRefine** (boolean): Set to `False` so [Part RefineShape](Part_RefineShape.md) creates an independent copy rather than a linked one. Defaults to `True`.
+
+### <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md) 
+
+-   **Mod/PartDesign/AdditiveHelixPreview** (boolean): Set to `True` to ensure an additive helix that does not intersect the body is visible in the preview. Defaults to `False`.
+-   **Mod/PartDesign/SubtractiveHelixPreview** (boolean): Set to `True` to ensure a subtractive helix that does not intersect the body is visible in the preview. Defaults to `True`.
+-   **Mod/PartDesign/SwitchToTask** (boolean): Set to `False` to prevent the [PartDesign Workbench](PartDesign_Workbench.md) from switching to the Task panel when starting. Defaults to `True`.
+-   **Mod/PartDesign/SwitchToWB** (boolean): Set to `False` to prevent the [PartDesign Workbench](PartDesign_Workbench.md) to be automatically called when a [PartDesign Body](PartDesign_Body.md) is activated. Defaults to `True`.
+
+### <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Path Workbench](Path_Workbench.md) 
+
+-   The [Path Workbench](Path_Workbench.md) has two switches to enable experimental features documented on the [Path experimental](Path_experimental.md) page.
+
+### <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md) 
+
+-   **Mod/Sketcher/RadiusDiameterConstraintDisplayAngleRandomness** (float): Set an angle randomness on the above value. Value is the range of the random angle, centered on base angle. Default is 0 degree.
+-   **Mod/Sketcher/RadiusDiameterConstraintDisplayBaseAngle** (float): Set the angle (from horizontal) used to display radius/diameter constraints in Sketcher at creation time. Default is 15 degrees (if no value set).
+-   **Mod/Sketcher/RoundRectangleSuggConstraints** (boolean): Set to `False` to disable the addition of two extra construction points when creating a rounded rectangle. <small>(v0.21)</small> 
+
+#### Constraint label colors 
+
+The label in Sketcher that displays the current status of the constraints (e.g. \"Underconstrained,\" \"Fully Constrained,\" etc.) is styleable on a per-state basis either using the Qt stylesheet, or via user preferences. User preferences take precedence if they have been set (in **Mod/Sketcher/General**):
+
+-   **EmptySketchMessageColor** - Defaults to 50% opacity black
+-   **UnderconstrainedMessageColor** - Defaults to black
+-   **MalformedConstraintMessageColor** - Defaults to red
+-   **ConflictingConstraintMessageColor** - Defaults to red
+-   **RedundantConstraintMessageColor** - Defaults to orange red
+-   **PartiallyRedundantConstraintMessageColor** - Defaults to royal blue
+-   **SolverFailedMessageColor** - Defaults to red
+-   **FullyConstrainedMessageColor** - Defaults to green
+
+### <img alt="" src=images/Workbench_Start.svg  style="width:24px;"> [Start Workbench](Start_Workbench.md) 
+
+-   **Mod/Start/DefaultImportXXX** (string): Where XXX is a lowercase file extension. For example DefaultImportifc for .IFC files. Allows to set a default import module to be used when clicking an icon on the start page, when several importers are available. For example, setting DefaultImportifc = ifc_import will use the NativeIFC importer if available. <small>(v0.21)</small>
 
 
 

@@ -10,6 +10,8 @@
 
 # Draft Clone/ru
 
+
+
 ## Описание
 
 
@@ -20,34 +22,31 @@
 
 </div>
 
-The command can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [Arch Workbench](Arch_Workbench.md). Clones of 2D objects can be used in [PartDesign Bodies](PartDesign_Body.md).
+Команду можно применить к 2D-объектам, созданным в [верстаке Draft](Draft_Workbench/ru.md) или [верстаке Sketcher](Sketcher_Workbench/ru.md), а также на многих 3D-объектах, которые созданы в [верстаке Part](Part_Workbench/ru.md), [верстаке PartDesign](PartDesign_Workbench/ru.md) или [верстаке Arch](Arch_Workbench/ru.md). Клоны 2D-объектов могут быть использованы при [создании тел](PartDesign_Body/ru.md).
 
-<img alt="" src=images/Draft_Clone_example.jpg  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Draft_Clone_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Clone_example.jpg  style="width:400px;"> 
+*Клонированная копия рядом с исходным объектом*
 
 
-</div>
 
 ## Применение
 
+1.  Выберите один или несколько объектов.
+2.  Есть несколько способов вызвать команду:
+    -   Нажатием кнопки **<img src="images/Draft_Clone.svg" width=16px>[Клонировать](Draft_Clone/ru.md)**.
+    -   Через меню **Modification → <img src="images/Draft_Clone.svg" width=16px> Клонировать**.
+    -   Используйте сочетание клавиатуры: **C** затем **L**.
+3.  Если вы еще не выбрали объект: выберите его в окне [3D Вида](3D_view/ru.md).
 
-<div class="mw-translate-fuzzy">
 
-1.  Выберите объекты, которые вы хотите клонировать
-2.  Нажмите кнопку {{KEY | <img src="images/Draft_Clone.svg" width=16px> Черновик}}
-
-
-</div>
 
 ## Свойства
 
-See also: [Property editor](property_editor.md).
+Смотрите также: [Редактор свойств](property_editor/ru.md).
 
 An object created with the Draft Clone command is derived from a [Part Part2DObject](Part_Part2DObject.md), a [Part Feature](Part_Feature.md) object or, if an Arch Clone is created, from the object type of the source object. It inherits all properties from that object. A clone derived from one of the first two objects also has the following additional properties:
+
+
 
 ### Данные
 
@@ -59,6 +58,8 @@ An object created with the Draft Clone command is derived from a [Part Part2DObj
 -    **Objects|LinkListGlobal**: specifies the objects that are cloned.
 
 -    **Scale|Vector**: specifies the X, Y and Z scale factors.
+
+
 
 ## Программирование
 
@@ -99,15 +100,6 @@ cloned_object.Fuse = True
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

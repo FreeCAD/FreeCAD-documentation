@@ -14,11 +14,15 @@
 
 
 
+
+
 ## Introducción
 
 En este tutorial trabajaremos con un nave de la Serie 60, de la Universidad de Iowa. El tutorial está orientado a mostrar cómo se trabaja con un nave monocasco simétrico, sin embargo se pueden realizar nave multicasco o no simétricos con el mismo procedimiento.
 
 Más información sobre <img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> [Ambiente de trabajo de naves](Ship_Workbench/es.md).
+
+
 
 ## Cargando geometría 
 
@@ -209,7 +213,13 @@ Plano de formas.
 
 </center>
 
+
+<div class="mw-translate-fuzzy">
+
 Para trazar estas secciones puedes utilizar el [Ambiente de trabajo de dibujo](Drawing_Workbench/es.md):
+
+
+</div>
 
 ![Secciones resultantes.](images/FreeCAD-Ship-S60Outline3DSections.png )
 
@@ -305,6 +315,8 @@ Curvas hidrostáticas.
 
 
 </center>
+
+
 
 ## Seguir aprendiendo 
 

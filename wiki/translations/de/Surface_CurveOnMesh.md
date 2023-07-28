@@ -9,6 +9,8 @@
 
 # Surface CurveOnMesh/de
 
+
+
 ## Beschreibung
 
 
@@ -28,6 +30,8 @@ Diese auf der Oberfläche des Netzes erstellten Kanten können später genuzt we
 
 *Above left: mesh object with selected points on the surface. Above right: splines created by picking several points on the mesh. Lower left: a parametric surface reconstructed from the approximated splines, using [Surface Sections](Surface_Sections.md).*
 
+
+
 ## Anwendung
 
 1.  Make sure you have a [mesh object](Mesh.md). This can be created by the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md), or by importing a mesh file type, like STL, [OBJ](Arch_OBJ.md), or [DAE](Arch_DAE.md). If a solid object or solid file type (STEP) is used, it can be converted to a mesh using **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh FromPartShape](Mesh_FromPartShape.md)**.
@@ -46,6 +50,8 @@ After pressing **Start**, the context menu (right-click) in the [3D view](3D_vie
 -    **Clear**: it will erase the tentative points that have been picked on the mesh, and will allow you to pick new ones.
 
 -    **Cancel**: it will erase the tentative points that have been picked, and will stop the picking operation. Press **Start** again to pick points once more.
+
+
 
 ## Optionen
 
@@ -72,6 +78,8 @@ section:
 
 -    **Maximum curve degree**: it defaults to {{Value|5}}. It determines the maximum degree of the spline to approximate the surface; it can be a value from {{Value|1}} to {{Value|8}}.
 
+
+
 ## Eigenschaften
 
 If {{CheckBox|FALSE|Spline approximation}} is unchecked, the [Curve on mesh](Surface_CurveOnMesh.md) tool creates a basic [Part Feature](Part_Feature.md).
@@ -79,6 +87,8 @@ If {{CheckBox|FALSE|Spline approximation}} is unchecked, the [Curve on mesh](Sur
 If {{CheckBox|TRUE|Spline approximation}} is checked, the [Curve on mesh](Surface_CurveOnMesh.md) tool creates a **[<img src=images/Part_Spline.svg style="width:16px"> [Part Spline](Part_Spline.md)** (`Part::Spline` class) which is derived from the basic [Part Feature](Part_Feature.md) (`Part::Feature` class), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [Part Feature](Part_Feature.md), the Part Spline has the following properties in the [property editor](Property_editor.md).
+
+
 
 ### Ansicht
 

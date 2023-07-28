@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 #### Beskrivning
 
 The <img alt="" src=images/Draft_Shape2DView.svg  style="width:24px;"> **Draft Shape2DView** command creates 2D projections from selected objects, usually 3D solids or [Arch SectionPlanes](Arch_SectionPlane.md). The projections are placed in the [3D view](3D_view.md).
@@ -13,6 +15,8 @@ Draft Shape2DView projections can be displayed on a [TechDraw Workbench](TechDra
 
 ![](images/Draft_Shape2DView_example.jpg ) 
 *Projection of solid shapes onto the XY plane*
+
+
 
 #### Bruk
 
@@ -90,7 +94,7 @@ A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObje
 
 -    **Exclusion Points|Vector list**: A list of exclusion points. Any edge passing through any of those points will not be drawn. <small>(v0.20)</small> 
 
--    **Exclusion Names|String list**: A list of object names. Any viewed or cut child object with a name in that list will not be drawn. <small>(v1.0)</small> 
+-    **Exclusion Names|String list**: A list of object names. Any viewed or cut child object with a name in that list will not be drawn. <small>(v0.21)</small> 
 
 ### View
 

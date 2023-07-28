@@ -11,34 +11,24 @@
 |SeeAlso=[Macro Align Working Plane to Camera](Macro_Align_Working_Plane_to_Camera.md) [<img src=images/Macro_Align_Working_Plane_to_Camera.png style="width:24px"> 
 }}
 
-## Description
 
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-== Dieses Makro richtet die Kamera auf die aktuelle [Draft Working Plane](Draft_SelectPlane/de.md) aus.
+Dieses Makro richtet die Kamera auf die aktuelle [Draft Arbeitsebene](Draft_SelectPlane/de.md) aus.
 
 
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
 
 ## Anwendung
 
--   Setze die [Draft Wähle Ebene](Draft_SelectPlane/de.md) entsprechend deinen Vorlieben
--   Starte das Makro
+-   Lege die [Draft Arbeitsebene](Draft_SelectPlane/de.md) entsprechend deiner Vorlieben fest.
+-   Starte das Makro.
 
 
-</div>
 
 ## Skript
 
-ToolBar Icon ![](images/Macro_Align_Camera_to_Working_Plane.png )
+Werkzeugleisten-Symbol ![](images/Macro_Align_Camera_to_Working_Plane.png )
 
 **Macro_Align_Camera_to_Working_Plane.FCMacro**
 

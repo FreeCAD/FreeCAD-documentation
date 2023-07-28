@@ -18,11 +18,6 @@ Bestimmte Eigenschaften der Ansicht, wie Hintergrundfarbe, Art der [Mausnavigati
 
 ## Maßnahmen
 
-
-**Hinweis:**
-
-Aktionen zu Verknüpfungen (link actions) {{Version/de|0.19}}.
-
 Da die [Baumansicht](tree_view/de.md) die meisten Objekte auflistet, die in der 3D-Ansicht sichtbar sind, sind viele der Aktionen identisch mit denen, die über die [Baumansicht](tree_view/de.md) ausgeführt werden können.
 
 Wenn der Standardarbeitsbereich [Start](Start_Workbench/de.md) aktiv ist, zeigt ein Rechtsklick auf die 3D-Ansicht nur einen Befehl:

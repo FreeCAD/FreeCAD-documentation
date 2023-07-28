@@ -26,6 +26,8 @@ See [Release notes 0.20](Release_notes_0.20#Core.md) for more information. This 
 
 </div>
 
+
+
 ## Запуск FreeCAD из командной строки 
 
 FreeCAD может быть запущен, как правило, двойным щелчком по иконке на рабочем столе или выбором в стартовом меню, его также можно запустить напрямую из командной строки. Это позволяет вам изменять при запуске некоторые параметры по умолчанию.
@@ -42,6 +44,8 @@ FreeCAD может быть запущен, как правило, двойны�
 
 
 </div>
+
+
 
 ### Параметры командной строки 
 
@@ -95,6 +99,8 @@ In the following table, selected options are described in more detail:
 
 Options can written in two forms: `--long-option arg` and `--long-option<nowiki>=</nowiki>arg`.
 
+
+
 ### Файлы конфигурации и ответов(response) 
 
 FreeCAD может считать некоторые параметры из конфигурационного файла. Этот файл должен находится в пути bin и должен называться **FreeCAD.cfg**. Помните, у параметров командной строки приоритет над конфигурационным файлом!
@@ -111,6 +117,8 @@ FreeCAD может считать некоторые параметры из к�
 
     FreeCAD --response-file ResponseFile.txt
 
+
+
 ### Скрытые опции 
 
 Существует несколько параметров не видных пользователю. Эти параметры такие как X-Window параметры, анализируются оконной системой:
@@ -126,6 +134,8 @@ FreeCAD может считать некоторые параметры из к�
 -   -visual TrueColor, заставляет приложение использовать TrueColor визуальное отображение на 8-битном дисплее.
 -   -ncols count, граничивает число цветов выделенных в цветовой куб на 8-битном дисплее, если приложение использует QApplication::ManyColor цветовую спецификацию. Если количество 216 то используется цветовой куб 6x6x6 (т.е. 6 уровней красного, 6 зеленого, и 6 синего); для остальных значений, используется куб пропорциональный 2x3x1.
 -   -cmap, вызывает приложение для установки вашей карты цветов на 8-битном дисплее.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -154,6 +164,8 @@ FreeCAD --console
 </div>
 
 To read more about console or headless mode, refer to [Headless FreeCAD](Headless_FreeCAD.md).
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -196,6 +208,8 @@ To read more about console or headless mode, refer to [Headless FreeCAD](Headles
 </div>
 
 See [Macro at Startup](Macro_at_Startup.md) on how to set up a macro to automatically run at FreeCAD startup.
+
+
 
 ## Переменные Среды Окружения 
 
@@ -264,6 +278,8 @@ The default temporary directory is **/tmp/**. The `TMPDIR` environmental variabl
 -   CSF_STEPDefaults
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Конфигурационные параметры 
@@ -278,6 +294,8 @@ The default temporary directory is **/tmp/**. The `TMPDIR` environmental variabl
 
 
 </div>
+
+
 
 ### Пользовательская информация 
 
@@ -327,6 +345,8 @@ The default temporary directory is **/tmp/**. The `TMPDIR` environmental variabl
 
 Note: For Linux distributions, an additional configuration file that relates to [Qt](Third_Party_Tools#Qt-Toolkit.md) may exist at path **/home/username/.config/FreeCAD/FreeCAD.conf**.
 
+
+
 ### Аргументы командной строки 
 
 
@@ -359,6 +379,8 @@ Note: For Linux distributions, an additional configuration file that relates to 
 
 </div>
 
+
+
 ### Связанные с системой 
 
 
@@ -378,6 +400,8 @@ Note: For Linux distributions, an additional configuration file that relates to 
 
 
 </div>
+
+
 
 ### Информация связанная со Сборкой 
 
@@ -401,6 +425,8 @@ Note: For Linux distributions, an additional configuration file that relates to 
 
 
 </div>
+
+
 
 ### Связанная с Брендированием 
 
@@ -487,9 +513,6 @@ The following assumes that your desktop is configured such that you can launch F
 4.  As a result, an additional entry in your start menu/application launcher is available. This way, you can have multiple FreeCAD entries with various launch options.
 
 ## Starting FreeCAD from a portable USB medium 
-
-
-<small>(v0.19)</small> 
 
 **Windows**
 

@@ -49,6 +49,18 @@ Molte operazioni creano oggetti che dipendono da un oggetto precedentemente esis
 
 *L'oggetto di livello più alto viene creato eseguendo operazioni parametriche su oggetti che sono stati creati da operazioni precedenti. L'espansione dell'albero di molti livelli rivela gli elementi originali che sono stati usati per creare i solidi parziali.*
 
+### Labels & Attributes 
+
+In the Labels & Attributes column the labels and icons of the objects are displayed.
+
+Selecting an object in this column and pressing **F2** (on Windows and Linux), or **Enter** (on macOS), allows to edit the object\'s **Label** property in situ without detour via the context menu action described below or the [Property editor](Property_editor.md).
+
+### Description
+
+The Description column displays further information about objects, if available.
+
+This information is stored in an object\'s **Label2** property which can be edited in situ by selecting the object in this column and pressing **F2** (on Windows and Linux), or **Enter** (on macOS), or via the [Property editor](Property_editor.md).
+
 
 
 ## Azioni
@@ -61,6 +73,8 @@ Poiché la vista ad albero elenca oggetti che possono essere visibili nella [vis
 
 </div>
 
+### Application start 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -71,27 +85,14 @@ All\'avvio dell\'applicazione, per impostazione predefinita è attivo l\'ambient
 
 </div>
 
+### New document 
+
 
 <div class="mw-translate-fuzzy">
 
 Una volta creato un nuovo documento, diventano attivi i seguenti elementi:
 
 -    **Expression actions**: [Copia il documento attivo](Std_Expressions/it.md), [Copia tutti i documenti](Std_Expressions/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Inoltre, sono disponibili le azioni [Link](Std_LinkMake/it.md).
-
--    **Link actions**: [Crea Link](Std_LinkMake/it.md).
-
-    -   
-        **Make Link group**
-        
-        : [Gruppo semplice](Std_LinkMakeGroup/it.md), [Gruppo con link](Std_LinkMakeGroup/it.md), [Gruppo con link di trasformazione](Std_LinkMakeGroup/it.md).
 
 
 </div>
@@ -188,7 +189,7 @@ The following keyboard actions are available when the focus is on the Tree view:
 
 ## Overlay icons 
 
-One or more smaller overlay icons can be displayed on top of an object\'s default icon in the tree view. The available overlay icons and their meaning are listed below. <small>(v0.19)</small> 
+One or more smaller overlay icons can be displayed on top of an object\'s default icon in the tree view. The available overlay icons and their meaning are listed below.
 
 ### ![](images/FreeCAD_Tree_view_recompute.png ) White check mark on blue background 
 
@@ -214,7 +215,7 @@ This indicates that the object has an error that needs to be fixed. After recomp
 
 ### ![](images/FreeCAD_Tree_view_hidden.png ) Eye symbol 
 
-This indicates that the object will be hidden in the Tree view because its **Hide item** context menu option is checked. Check and then uncheck the **Show hidden items** context menu option of the document, or reopen the document, to update the Tree view.
+This indicates that the object will be hidden in the Tree view if the **Show items hidden in tree view** context menu option is unchecked.
 
 
 {{Interface navi

@@ -10,6 +10,8 @@
 
 # Draft Trimex/pl
 
+
+
 ## Opis
 
 Narzędzie <img alt="" src=images/Draft_Trimex.svg  style="width:24px;"> **Przytnij** przycina lub wydłuża [Linie](Draft_Line/pl.md) i [Polilinie](Draft_Wire/pl.md) tak, że ich koniec znajduje się na przecięciu z inną linią lub krawędzią.
@@ -19,11 +21,15 @@ Polecenie <img alt="" src=images/Draft_Trimex.svg  style="width:24px;"> **Przytn
 <img alt="" src=images/Draft_trimex_example.jpg  style="width:400px;"> 
 *Wyżej: Przedłużony odcinek linii, następnie przycięty odcinek linii. Niżej: Powierzchnia wyciągnięta w bryłę*
 
+
+
 ## Przytnij lub rozszerz 
+
+
 
 ## Użycie
 
-1.  Opcjonalnie wybierz jeden obiekt. Musi to być obiekt środowiska Rysunek Roboczy [Linia](Draft_Line/pl.md), [Linia łamana](Draft_Wire/pl.md), [Łuk](Draft_Arc/pl.md) lub [Okrąg](Draft_Line/pl.md) *(tylko te mogą być tylko przycinane)*. Jeśli wybrany obiekt jest zamknięty, musi mieć ustawioną właściwość **Make Face** na wartość `False`.
+1.  Opcjonalnie wybierz jeden obiekt. Musi to być obiekt środowiska Rysunek Roboczy [Linia](Draft_Line/pl.md), [Linia łamana](Draft_Wire/pl.md), [Łuk](Draft_Arc/pl.md) lub [Okrąg](Draft_Circle/pl.md) *(tylko te mogą być tylko przycinane)*. Jeśli wybrany obiekt jest zamknięty, musi mieć ustawioną właściwość **Make Face** na wartość `False`.
 2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Trimex.svg" width=16px> [Przytnij](Draft_Trimex/pl.md)**.
     -   Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_Trimex.svg" width=16px> Przytnij / Wydłuż**.
@@ -35,6 +41,8 @@ Polecenie <img alt="" src=images/Draft_Trimex.svg  style="width:24px;"> **Przytn
     -   Wybierz punkt w oknie [widoku 3D](3D_view/pl.md)
     -   Wprowadź **Odległość** lub **Kąt**. Odległość jest odległością delta. Ta opcja nie działa, jeśli używane są klawisze modyfikatorów.
     -   Przesuń kursor nad krawędź należącą do innego obiektu i kliknij, gdy ta krawędź zostanie podświetlona, aby przyciąć lub wydłużyć wybrany obiekt, używając przecięcia z podświetloną krawędzią jako nowego punktu końcowego. Podczas ucinania rzut punktu, w którym krawędź tnąca jest zaznaczona, na obiekt, który ma zostać ucięty, określa wynik domyślny. Zauważ, że [przyciąganie](Draft_Snap/pl.md) może mieć tutaj niepożądany wpływ. W niektórych przypadkach może być konieczne tymczasowe wyłączenie tej funkcjonalności.
+
+
 
 ### Opcje
 
@@ -52,7 +60,11 @@ Poniżej znajduje się przykład wyjaśniający działanie klawiszy modyfikator�
 2.  Klawisz **Alt** został przytrzymany, gdy łuk został kliknięty w pobliżu lewego dolnego rogu linii.
 3.  Wciśnięto klawisz **Y**, a po najechaniu na lewą krawędź wciśnięto klawisz **Shift** i kliknięto na łuk. Naciśnięcie przycisku **Y** jest wymagane tylko w przypadku krawędzi, które są mniej więcej równoległe do osi Y.
 
+
+
 ## Wyciągnij
+
+
 
 ## Użycie 
 
@@ -70,17 +82,23 @@ Zobacz także strony: [Rysunek Roboczy: Przyciąganie](Draft_Snap/pl.md) i [Rysu
     -   Wybierz punkt w oknie [widoku 3D](3D_view/pl.md), który nie leży na tej samej płaszczyźnie co ściana.
     -   Upewnij się, że kursor znajduje się po właściwej stronie ściany w [widoku 3D](3D_view.md) i wprowadź **Odległość**.
 
+
+
 ### Opcje 
 
 Wspomniane tutaj klawisze modyfikatorów mogą zostać zmienione. Zobacz stronę [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
 
 -   Przytrzymaj klawisz **Shift**, by uzyskać wyciągnięcie w kierunku, który nie jest równoległy do wektora normalnego ściany.
 
+
+
 ## Ustawienia
 
 Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
 
 -   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania odległości: **Edycja → Preferencje... → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
+
+
 
 ## Tworzenie skryptów 
 

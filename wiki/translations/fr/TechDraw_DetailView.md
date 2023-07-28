@@ -12,10 +12,12 @@
 
 ## Description
 
-L\'outil Vue détaillée crée une vue d\'une petite zone d\'une vue existante.
+L\'outil **TechDraw Vue détaillée** crée une vue d\'une petite zone d\'une vue existante.
 
 ![](images/ViewDetail.png ) 
 *Vue détaillée avec vue circulaire d'une vue existante*
+
+
 
 ## Utilisation
 
@@ -27,9 +29,13 @@ L\'outil Vue détaillée crée une vue d\'une petite zone d\'une vue existante.
 
 La Vue détaillée peut être affichée dans une boîte de vue ronde ou carrée. Ceci est contrôlé par les paramètres de [préférences](TechDraw_Preferences/fr#Annotation.md) **Forme de contour de la vue détaillée**.
 
+
+
 ## Propriétés Vue détaillée 
 
 Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
+
+
 
 ### Données
 
@@ -44,6 +50,8 @@ Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
 
 -    **Reference|String**: un identifiant pour la vue détaillée dans la **Base View**.
 
+
+
 ## Propriétés Vue de base 
 
 Une vue détaillée hérite de toutes les propriétés applicables de la vue spécifiée comme **Base View**. Dans les propriétés de cette vue, vous pouvez modifier l\'apparence du contour du détail :
@@ -54,9 +62,13 @@ Une vue détaillée hérite de toutes les propriétés applicables de la vue sp�
 
 -    **Highlight Line Style**: style de ligne pour la forme du contour. Le paramètre par défaut pour cela est le paramètre **Detail Highlight Style** dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
 
+
+
 ## Remarques
 
 -   [Une bonne discussion sur la configuration de Anchor](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
+
+
 
 ## Script
 

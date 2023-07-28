@@ -1,10 +1,10 @@
 ---
 - TutorialInfo:/de
-   Topic:Plot Arbeitsbereich
+   Topic:Arbeitsbereich Plot Basis-Tutorial
    Level:Anfänger
    Time:
    Author:
-   FCVersion:
+   FCVersion:0.19
    Files:
 ---
 
@@ -13,23 +13,11 @@
 
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-In diesem Tutorium lernen wir, wie man mit Hilfe des Plotmoduls und der Python Konsole einen grundlegenden Plot durchführt. Du kannst mehr über [Plot Arbeitsbereich hier](Plot_Workbench/de.md) erfahren.
-
-
-</div>
+In diesem Tutorium lernen wir, wie man mit Hilfe des Arbeitsbereichs [Plot](Plot_Workbench/de.md) und der [Python-Konsole](Python_console/de.md) ein einfaches Diagramm erstellt.
 
 <img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;"> 
-*Basic plot example*
+*Einfaches Beispieldiagramm*
 
 In the image you can see the result that we will approximately obtain. Following this tutorial you will learn:
 
@@ -164,9 +152,9 @@ First select the path and filename for the output file.
 Set the output image size in inches, for example use 11.7x8.3 to get a **DIN A4** size. DPI (Dots per inch) will control the image resolution, for example use 100 dpi. In combination with the given dimensions this will result in an image of 1170x830 pixels.
 
 
-{{Tutorials_navi
+{{Plot_Tools_navi
 
-}} {{Plot_Tools_navi}}
+}}
 
 
 

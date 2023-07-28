@@ -10,15 +10,21 @@
 
 # Part RegularPolygon/de
 
+
+
 ## Beschreibung
 
 Ein <img alt="" src=images/Part_RegularPolygon.svg  style="width:24px;"> **Part Regelmäßiges Polygon** ist eine parametrische Form, die mit dem Befehl <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Grundelemente](Part_Primitives/de.md) erstellt werden kann. Im Koordinatensystem durch seine {{PropertyData/de|Placement}} festgelegt, liegt das Polygon auf der XY-Ebene mit seinem Mittelpunkt im Ursprung und einem seiner Eckpunkte auf der X-Achse.
 
 <img alt="" src=images/Part_RegularPolygon_Example.png  style="width:400px;">
 
+
+
 ## Anwendung
 
 Siehe [Part Grundelemente](Part_Primitives/de#Anwendung.md).
+
+
 
 ## Beispiel
 
@@ -26,11 +32,15 @@ Siehe [Part Grundelemente](Part_Primitives/de#Anwendung.md).
 
 Ein Part-Regelmäßiges-Polygon-Objekt, das mit dem [Skriptbeispiel](#Skripten.md) weiter unten erzeugt wurde wird hier dargestellt.
 
+
+
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein Part-Regelmäßiges-Polygon-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
 
@@ -45,6 +55,8 @@ The object has the same attachment properties as a [Part Part2DObject](Part_Part
 -    **Polygon|IntegerConstraint**: The number of sides of the polygon. The default is {{Value|6}}.
 
 -    **Circumradius|Length**: The radius of the circle that circumscribes the polygon, the distance from the center of the polygon to one of its vertices. The default is {{Value|2mm}}.
+
+
 
 ## Skripten
 

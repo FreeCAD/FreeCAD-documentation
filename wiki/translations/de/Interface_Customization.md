@@ -7,6 +7,11 @@
 
 Die FreeCAD Oberfläche basiert auf dem modernen [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit)) Werkzeugsatz und hat einen Aufbau nach Stand der Technik. Einige Aspekte der Oberfläche können angepasst werden. Du kannst z.B. benutzerdefinierte Werkzeugleisten hinzufügen, mit Werkzeugen von mehreren Arbeitsbereichen oder in Makros festgelegten Werkzeugen, und du kannst eigene Tastaturkürzel erstellen. Die Menüs und Standardwerkzeugleisten, die mit FreeCAD und seinen Arbeitsbereichen geliefert werden, können jedoch nicht geändert werden.
 
+
+{{Version/de|0.21}}
+
+: Der Reiter Arbeitsbereiche ist nicht länger vorhanden. Seine Funktionalität wurde in den Reiter [Verfügbare Arbeitsbereiche](Preferences_Editor/de#Verfügbare_Arbeitsbereiche.md) im Abschnitt Arbeitsbereiche des [Voreinstellungseditors](Preferences_Editor/de.md) verschoben.
+
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *Das Dialogfeld Anpassen*
 
@@ -14,40 +19,19 @@ Die FreeCAD Oberfläche basiert auf dem modernen [Qt](http://en.wikipedia.org/wi
 
 ## Anwendung
 
-1.  Die im Dialogfeld Anpassen verfügbaren Befehle hängen von den Arbeitsbereichen ab, die in der aktuellen FreeCAD Sitzung geladen wurden. Du solltest also zunächst alle Arbeitsbereiche laden, auf deren Befehle du Zugriff haben möchtest.
+1.  Die im Dialogfeld Anpassen verfügbaren Befehle hängen von den Arbeitsbereichen ab, die in der aktuellen FreeCAD-Sitzung geladen wurden. Es sollten also zunächst alle Arbeitsbereiche geladen werden, auf deren Befehle zugegriffen werden soll.
 2.  Es gibt mehrere Wege, das Dialogfeld <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> [Std DlgAnpassen](Std_DlgCustomize/de.md) aufzurufen:
-    -   Wähle die **Werkzeuge → <img src="images/Std_DlgCustomize.svg" width=16px> Anpassen...** Option aus dem Menü.
-    -   Rechtsklicke einen Werkzeugleistenbereich und wähle **<img src="images/Std_DlgCustomize.svg" width=16px> Anpaasen...** aus dem Kontextmenü.
-3.  Ein Dialogfeld Anpassen öffnet sich. Für weitere Informationen siehe [Optionen](#Optionen.md).
-4.  Die **Hilfe** Schaltfläche funktioniert zur Zeit nicht.
-5.  Drücke die **Schließen** Schaltfläche um das Dialogfeld zu schließen.
+    -   Den Menüeintrag **Werkzeuge → <img src="images/Std_DlgCustomize.svg" width=16px> Benutzerdefiniert...** auswählen.
+    -   Einen Werkzeugleistenbereich mit der rechten Maustaste anklicken und im Kontextmenü **<img src="images/Std_DlgCustomize.svg" width=16px> Benutzerdefiniert...** auswählen.
+3.  Das Dialogfeld Benutzerdefiniert öffnet sich. Für weitere Informationen siehe [Optionen](#Optionen.md).
+4.  Die Schaltfläche **Hilfe** startet den Befehl <img alt="" src=images/Std_WhatsThis.svg  style="width:16px;"> [Std Direkthilfe](Std_WhatsThis/de.md).
+5.  Die Schaltfläche **Schließen** drücken, um das Dialogfeld zu schließen.
 
 
 
 ## Optionen
 
 Im Dialogfeld Anpassen sind die folgenden Reiter verfügbar:
-
-
-
-### Befehle
-
-![](images/Std_DlgCustomize_tab_Commands.png ) 
-*Der Befehlsreiter*
-
-Auf diesem Reiter kannst Du die verfügbaren Befehle durchsuchen.
-
-
-
-#### Befehle durchsuchen 
-
-1.  Wähle eine Befehlskategorie im **Kategorie** Paneel auf der linken Seite. Einige Kategorien entsprechen Menüeinträgen.
-2.  Die in der gewählten Kategorie verfügbaren Werkzeuge werden im Paneel auf der rechten Seite angezeigt.
-3.  Bewege den Mauszeiger über einen Befehl: Seine Werkzeugspitze wird angezeigt.
-4.  Wähle einen Befehl aus: Sein Statusleistentext wird unterhalb der beiden Paneele angezeigt.
-
-
-{{Top}}
 
 
 
@@ -58,9 +42,22 @@ Auf diesem Reiter kannst Du die verfügbaren Befehle durchsuchen.
 
 Auf diesem Reiter können benutzerdefinierte Tastaturkürzel definiert werden. Tastaturkürzel für Makrobefehle können auf dem [Makros](#Makros.md) Reiter definiert werden.
 
+#### Search
+
+You can search for commands by entering at least 3 characters of their menu text or name in the search field. The search is case-insensitive.
+
+It is also possible to search for shortcuts:
+
+-   In the search field special keys in shortcuts must be entered as strings. For example to search for commands that use **Ctrl** in their shortcut enter {{Value|ctrl}} (4 letters).
+-   Add parenthesis to search for single character shortcuts, for example: {{Value|(c)}}.
+-   Add a comma and space between the characters of multi-character shortcuts, for example: {{Value|g, b, b}}.
 
 
-#### Hinzufügen eines benutzerdefinierten Tastenkürzels 
+
+#### Hinzufügen eines Tastaturkürzels 
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Wähle eine Befehlskategorie aus der Aufklappliste **Kategorie**.
 2.  Wähle einen Befehl aus dem **Befehle** Paneel.
@@ -71,75 +68,27 @@ Auf diesem Reiter können benutzerdefinierte Tastaturkürzel definiert werden. T
 7.  Drücke die Schaltfläche **Löschen**, um das eingegebenen Tastenkürzel zu entfernen. Dadurch wird auch der Inhalt des Feldes **Aktuelle Tastenkombination** entfernt. Beachte, dass Standardverknüpfungen nicht dauerhaft entfernt werden. Sie werden beim Neustart von FreeCAD wiederhergestellt.
 
 
+</div>
 
-#### Entfernen eines benutzerdefinierten Tastenkürzels 
+#### Remove a shortcut 
+
+1.  Select a command category from the **Category** dropdown list.
+2.  Select a command from the **Commands** panel.
+3.  Press the **Clear** button.
+
+#### Restore a default shortcut 
 
 1.  Wähle eine Befehlskategorie aus der Ausklappliste **Kategorie**.
 2.  Wähle einen Befehl aus dem **Befehle** Paneel.
 3.  Drücke die **Zurücksetzen** Taste.
 
-
-
-#### Alle benutzerdefinierten Tastenkürzel entfernen 
+#### Restore all default shortcuts 
 
 1.  Drücke die **Alles Zurücksetzen** Schaltfläche.
 
+#### Notes
 
-
-#### Hinweise (Tastatur) 
-
--   Tastenkürzel funktionieren nur, wenn ihre Befehle im Standardmenü oder im Menü eines Arbeitsbereichs erscheinen, die in der aktuellen FreeCAD Sitzung geladen wurde, oder wenn ihre Befehle in einer *sichtbaren* Werkzeugleiste erscheinen.
-
--   In V0.19 gibt es ein Problem mit einigen Entwurf Befehlen. Ihre Standard Tastenkürzel funktionieren nicht und/oder ihnen können keine benutzerdefinierten Tastenkürzel zugewiesen werden.
--   Um eine Standard Tastenkürzel neu zuzuweisen, muss zuerst ein neues Tastenkürzel dem ursprünglichen Befehl zugewiesen werden.
-
-
-{{Top}}
-
-
-
-### Arbeitsbereiche
-
-![](images/Std_DlgCustomize_tab_Workbenches.png ) 
-*Der Arbeitsbereiche Reiter*
-
-Auf diesem Reiter kann die [Arbeitsbereichswählerliste](Std_Workbench/de.md) geändert werden. Die Liste **Aktivierte Arbeitsbereiche** zeigt die Arbeitsbereiche, wie sie in der Arbeitsbereichsauswahl erscheinen werden.
-
-
-
-#### Deaktivieren eines Arbeitsbereichs 
-
-1.  Wähle einen Arbeitsbereich in der Liste **Aktivierte Arbeitsbereiche** aus.
-2.  Drücke die **<img src="images/Button_left.svg" width=16px>** Taste.
-3.  Der Arbeitsbereich wird in die Liste **Deaktivierte Arbeitsbereiche** verschoben.
-
-
-
-#### Wieder-aktiviere einen Arbeitsbereich 
-
-1.  Wähle einen Arbeitsbereich in der Liste **Deaktivierte Arbeitsbereiche** aus.
-2.  Drücke die Taste **<img src="images/Button_right.svg" width=16px>**.
-3.  Der Arbeitsbereich wird in die Liste **Aktivierte Arbeitsbereiche** verschoben.
-
-
-
-#### Wieder-aktiviere alle Arbeitsbereiche 
-
-1.  Drücke die **<img src="images/Button_add_all.svg" width=16px>** Schaltfläche.
-
-
-
-#### Ändern einer Arbeitsbereichsposition 
-
-1.  Wähle einen Arbeitsbereich in der Liste \"aktive Arbeitsbereiche\" aus.
-2.  Drücke die Taste **<img src="images/Button_up.svg" width=16px>** oder **<img src="images/Button_down.svg" width=16px>**.
-3.  Wiederhole bis sich der Arbeitsbereich in der richtigen Position befindet.
-
-
-
-#### Arbeitsbereiche alphabetisch sortieren 
-
-1.  Drücke die **<img src="images/Button_sort.svg" width=16px>** Schaltfläche.
+-   Tastenkürzel funktionieren nur für aktive Befehle. Aktive Befehle sind solche, die im Standardmenü angezeigt werden oder im Menü eines Arbeitsbereichs, der in der aktuellen FreeCAD-Sitzung geladen wurde oder die Befehle einer *sichtbaren* Werkzeugleiste.
 
 
 {{Top}}
@@ -152,6 +101,10 @@ Auf diesem Reiter kann die [Arbeitsbereichswählerliste](Std_Workbench/de.md) ge
 *Der Werkzeugleistenreiter*
 
 Auf diesem Reiter können benutzerdefinierte Werkzeugleisten erstellt und geändert werden.
+
+#### Search 
+
+See [Keyboard](#Search.md).
 
 
 
@@ -196,12 +149,18 @@ Eine inaktive Werkzeugleiste wird im FreeCAD Userinterface nicht angezeigt.
 
 #### Einen Befehl hinzufügen 
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Mindestens eine benutzerdefinierte Symbolleiste ist erforderlich. Siehe [Werkzeugleiste Erstellen](#Werkzeugleiste_erstellen.md).
 2.  Wähle die entsprechende Werkzeugleiste in der Liste auf der rechten Seite aus. Wenn keine Werkzeugleiste ausgewählt ist, wird dein neues Kommando zur ersten Werkzeugleiste in der Liste hinzugefügt.
 3.  Wähle eine Kategorie aus der linken Liste. Macro-Kommandos, die im Tab [Macros](#Macros.md) eingerichtet wurden, erscheinen in der \'Macros\'-Kategorie.
 4.  Wähle ein Kommando aus der linken Liste.
 5.  Oder wähle \'\' um einen Abstandshalter hinzuzufügen (eine Trennlinie).
 6.  Drücke die Schaltfläche **<img src="images/Button_right.svg" width=16px>**.
+
+
+</div>
 
 
 
@@ -220,14 +179,10 @@ Eine inaktive Werkzeugleiste wird im FreeCAD Userinterface nicht angezeigt.
 3.  Drücke die Taste **<img src="images/Button_up.svg" width=16px>** oder **<img src="images/Button_down.svg" width=16px>**.
 4.  Wiederhole das bis die Schaltfläche an der richtigen Position erscheint.
 
+#### Notes 
 
-
-#### Hinweise (Werkzeugleisten) 
-
--   Werkzeugleisten, die zum aktuellen Arbeitsbereich gehören, werden sofort aktualisiert. Aber nach einer Aktivierung oder Deaktivierung einer Werkzeugleiste muss zunächst irgend ein anderer Arbeitsbereich ausgewählt werden um die Darstellung zu aktualisieren.
--   Das Gleiche gilt für globale Werkzeugleisten. Auch hier muss erst ein anderer Arbeitsbereich aufgerufen werden um Änderungen (Hinzufügen oder Entfernen von Schaltflächen) zu aktualisieren. Falls die Reihenfolge von globalen Werkzeugleisten geändert wurde oder diese umbenannt wurden, braucht es sogar einen Neustart um die Änderungen anzuzeigen.
-
--   In der version 0.19 gibt es ein Problem mit manchen neuen (\'Draft\') Kommandos. Nachdem sie zu einer Werkzeugleiste hinzugefügt wurden müssen sie noch manuell im File **user.cfg** bearbeitet werden. Dazu muss man zunächst das Programm schließen. Suche dann in dem File die entsprechende Werkzeugleiste und ändere in diesem Abschnitt den Inhalt der `FCText`-Elemente, die mit `gui_` beginnen, auf `DraftTools`.
+-   Werkzeugleisten, die zum aktuellen Arbeitsbereich gehören, werden sofort aktualisiert. Aber nach einer Aktivierung oder Deaktivierung einer Werkzeugleiste muss zunächst irgend ein anderer Arbeitsbereich ausgewählt werden, um die Darstellung zu aktualisieren.
+-   Das Gleiche gilt für globale Werkzeugleisten. Auch hier muss erst ein anderer Arbeitsbereich aufgerufen werden, um Änderungen (Hinzufügen oder Entfernen von Schaltflächen) zu aktualisieren. Falls die Reihenfolge von globalen Werkzeugleisten geändert wurde oder diese umbenannt wurden, braucht es sogar einen Neustart um die Änderungen anzuzeigen.
 
 
 {{Top}}
@@ -239,15 +194,16 @@ Eine inaktive Werkzeugleiste wird im FreeCAD Userinterface nicht angezeigt.
 ![](images/Std_DlgCustomize_tab_Macros.png ) 
 *Der Reiter Makros*
 
-Auf diesem Tab können Makro-Kommandos eingerichtet werden. Sobald sie eingerichtet wurden, können sie einer Werkzeugleiste hinzugefügt werden. FreeCAD verwendet einen speziellen Ordner für User-Makros und nur Makros in diesem Folder können eingerichtet werden. Verwende die Kommandos <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Std DlgMacroExecute](Std_DlgMacroExecute.md) um diesen Ordner auf deinem System zu finden.
+On this tab macro commands can be set up. Once set up, they can be added to custom toolbars. Macros installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) are set up automatically, and added to a {{Value|Global}} toolbar (see [Toolbars](#Toolbars.md)), if you confirm the **Add button** popup during the installation process.
 
-Wenn du ein Makro mit <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) herunterladest, vergiss nicht auch das zugehörige Icon-File herunterzuladen. Die meisten Makros haben einen Link auf ein Bild das im Addon Manager dargestellt wird. Du kannst dieses Bild z.B. in den Ordner für User-Makros legen.
-
-Wenn du Makros aus einer anderen Quelle verwenden willst, musst du sie manuell installieren. Dazu findest du mehr Informationen unter [How to install macros](How_to_install_macros.md).
+If you want to use a macro downloaded from a different source you will have to install it manually. See [How to install macros](How_to_install_macros.md) for more information. Note that FreeCAD uses a dedicated folder for macros and only macros in that folder can be set up. Use the <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Std DlgMacroExecute](Std_DlgMacroExecute.md) command to find this folder on your system.
 
 
 
 #### Hinzufügen eines Makrobefehls 
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Wähle ein Makro in der \"Makro\"-Dropdownliste.
 2.  Gib einen \"Menu text\" ein. Das ist der Name des Makros der auch in Werkzeugleisten angezeigt wird, wenn kein zugehöriges Icon vorhanden ist.
@@ -263,6 +219,9 @@ Wenn du Makros aus einer anderen Quelle verwenden willst, musst du sie manuell i
 8.  Drücke die Schaltfläche **Add**.
 9.  Daraufhin erscheint das Makro in der linken Liste.
 10. Jetzt kann das Makro im [Toolbars](#Toolbars.md)-Tab ausgewählt werden.
+
+
+</div>
 
 
 
@@ -290,14 +249,11 @@ Wenn kein Spaceball erkannt wurde ist dieser Reiter leer. Siehe: [3DVerbindung E
 
 ### Spaceball Tasten 
 
-Wenn kein Spaceball erkannt wurde ist dieser Tab leer. Siehe: [3Dconnexion input devices](3Dconnexion_input_devices.md). 
+Wenn kein Spaceball erkannt wurde, ist dieser Reiter leer. Siehe: [3Dconnexion Eingabegeräte](3Dconnexion_input_devices/de.md). 
 
 ## Themen
 
 FreeCAD unterstützt die vollständige Themensetzung der Oberfläche über .qss stylesheets. Das [qss Format](https://doc.qt.io/qt-5/stylesheet-syntax.html) ist dem in Webseiten verwendeten [css Format](https://en.wikipedia.org/wiki/CSS) sehr ähnlich, es fügt im Grunde Methoden hinzu, um die verschiedenen Widgets und Elemente der Qt Oberfläche zu referenzieren. Du kannst das Standardthema (das einfach den von deinem Desktopsystem definierten Stil übernimmt) ändern, indem du ein **Stylesheet** in den [FreeCAD Voreinstellungen](Preferences_Editor/de#Allgemein.md) auswählst.
-
-
-<div class="mw-translate-fuzzy">
 
 Du kannst auch ein eigenes Thema erstellen, wenn du mit den Themen, die mit FreeCAD mitgeliefert werden, nicht zufrieden bist, z.B. indem du ein [existierende Gestaltungsbögen](https://github.com/FreeCAD/FreeCAD/tree/master/src/Gui/Stylesheets) bearbeitest. Ihre neue Grstaltung muss in einem bestimmten Ordner abgelegt werden, damit er von FreeCAD gefunden wird:
 
@@ -305,10 +261,7 @@ Du kannst auch ein eigenes Thema erstellen, wenn du mit den Themen, die mit Free
 
 -    **$HOME/.FreeCAD/Gui/Stylesheets**(unter Linux).
 
--    **$HOME/Library/Preferences/FreeCAD/Gui/Stylesheets**(unter MacOS).
-
-
-</div>
+-    **$HOME/Library/Application Support/FreeCAD/Gui/Stylesheets**(unter macOS).
 
 
 {{Top}}
@@ -317,45 +270,23 @@ Du kannst auch ein eigenes Thema erstellen, wenn du mit den Themen, die mit Free
 
 ## Erweiterungen
 
+
+<div class="mw-translate-fuzzy">
+
 Erweiterungen bieten eine weitere Möglichkeit, die Benutzeroberfläche anzupassen. Nachfolgend sind einige von Anwendern erstellte Erweiterungen aus der FreeCAD Gemeinschaft. Sie können über den <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) heruntergeladen werden (Hinweis: Sie sind auf dem Arbeitsbereiche Reiter aufgeführt).
 
 
+</div>
 
-### KubusMenü
+In the Workbenches category of the Addon Manager some addons by user triplus can be found:
 
--   Github Repositorium: <https://github.com/triplus/CubeMenu>
-
-### Glass
-
--   Github Repositorium: <https://github.com/triplus/Glass>.
-
-
-
-### SymbolGestaltung
-
--   Github Repositorium: <https://github.com/triplus/IconThemes>
-
-
-
-### Startprogramm
-
--   Github Repositorium: <https://github.com/triplus/Launcher>.
-
-
-
-### PieMenü
-
--   Github Repositorium: <https://github.com/triplus/PieMenu>.
-
-### RemBench
-
--   Github Repositorium: <https://github.com/triplus/RemBench>.
-
-
-
-### TastenKürzel
-
--   Github Repositorium: <https://github.com/triplus/ShortCuts>.
+-   <https://github.com/triplus/CubeMenu> (for {{VersionMinus|0.20}})
+-   <https://github.com/triplus/Glass>.
+-   <https://github.com/triplus/IconThemes>
+-   <https://github.com/triplus/Launcher>
+-   <https://github.com/triplus/PieMenu>
+-   <https://github.com/triplus/RemBench>
+-   <https://github.com/triplus/ShortCuts>
 
 
 {{Top}}

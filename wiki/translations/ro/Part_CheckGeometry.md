@@ -17,6 +17,8 @@ L'outil de vérification de la géométrie vous permet de vérifier si vous avez
 
 </div>
 
+
+
 ## Utilizare
 
 
@@ -47,7 +49,7 @@ Dacă doriți să activați verificările extra BOP (BOP = Operații booleene), 
 
 ### Log errors 
 
-If ticked, any errors found are also logged in the [report view](Report_view.md). <small>(v0.19)</small> 
+If ticked, any errors found are also logged in the [report view](Report_view.md).
 
 ## Shape Content 
 

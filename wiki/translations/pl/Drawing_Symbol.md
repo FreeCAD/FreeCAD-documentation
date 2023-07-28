@@ -2,16 +2,20 @@
 - GuiCommand:/pl
    Name:Drawing Symbol
    Name/pl:Drawing: Symbol
-   Workbenches:[Kreślenie](Drawing_Workbench/pl.md), [Complete](Complete_Workbench/pl.md)
+   Workbenches:[Kreślenie](Drawing_Workbench/pl.md)
    MenuLocation:Kreślenie → Symbol
    Shortcut:brak
 ---
 
 # Drawing Symbol/pl
 
+
+
 ## Opis
 
 To polecenie pozwala na dodanie zawartości obrazu SVG na wybranej stronie [stronie rysunku](Drawing_Landscape_A3/pl.md). Zawartość ta może być następnie przeniesiona i przeskalowana na stronie. Zawartość obrazu SVG jest kopiowana do dokumentu FreeCAD, więc jest ona niezależna od oryginalnego pliku i będzie wyświetlana w ten sam sposób na innym komputerze, który nie posiada oryginalnego pliku SVG.
+
+
 
 ## Użycie
 

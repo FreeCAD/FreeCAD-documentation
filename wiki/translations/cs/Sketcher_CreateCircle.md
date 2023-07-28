@@ -5,11 +5,13 @@
 
 </div>
 
+
+
 ## Popis
 
 Tento nástroj nakreslí kružnici zadáním dvou bodů: střed a bod na poloměru. Při spuštění nástroje se ukazatel myši změní na bílý křížek s ikonou červené kružnice. Vedle jsou zobrazeny souřadnice v reálném čase.
 
-![](images/Sketcher_CircleExample1.png‎ )
+![](images/Sketcher_CircleExample1.png‎ ) 
 
 
 <div class="mw-translate-fuzzy">

@@ -1,19 +1,22 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:FEM EquationFlow
-   MenuLocation: Solve → Flow equation
-   Workbenches:[FEM](FEM_Workbench.md)
-   Version:0.19
+   Name/de:FEM GleichungStrömung
+   MenuLocation:Lösen → Flow equation
+   Workbenches:[FEM](FEM_Workbench/de.md)
+   Version:0.17
    SeeAlso:
 ---
 
 # FEM EquationFlow/de
 
-This equation calculate viscous fluid flows using the [Navier-Stokes equations](https://en.wikipedia.org/wiki/Navier-Stokes_Equations).
+Diese Gleichung berechnet zähflüssige Fluidströme unter Verwendung der [Navier-Stokes-Gleichungen](https://en.wikipedia.org/wiki/Navier-Stokes_Equations) (engl.).
 
 For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Navier-Stokes Equations*.
 
-## Usage
+
+
+## Anwendung
 
 1.  After adding an Elmer solver as described [here](FEM_SolverElmer#Equations.md), select it in the [tree view](Tree_view.md).
 2.  Now either use the toolbar button <img alt="" src=images/FEM_EquationFlow.svg  style="width:24px;"> or the menu **Solve → Flow equation**.
@@ -39,6 +42,15 @@ Equation:
 
 -    **Magnetic Induction**: If set to *true* the magnetic induction equation will be solved along with the [Navier-Stokes equations](https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations).
 
+### Notes for Convergence 
+
+If the solver results do not converge, you can try these things (in the given order):
+
+1.  Reduce the **Relaxation Factor**, see the [nonlinear system settings](FEM_SolverElmer_SolverSettings#Relaxation_Factor.md).
+2.  Increase the value for **Nonlinear Newton After Iterations**, see the [nonlinear system settings](FEM_SolverElmer_SolverSettings#Nonlinear_System.md).
+3.  Reduce the number of CPU cores used, see the [FEM preferences](FEM_Preferences#Elmer.md).
+4.  Increase the mesh density (make it more fine).
+
 ## Constraint Information 
 
 The electrostatic equation takes the following constraints into account if they are set:
@@ -46,7 +58,7 @@ The electrostatic equation takes the following constraints into account if they 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Constraint flow velocity](FEM_ConstraintFlowVelocity.md)
 -   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Constraint initial flow velocity](FEM_ConstraintInitialFlowVelocity.md)
 -   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Constraint pressure](FEM_ConstraintPressure.md)
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md) (<small>(v1.0)</small> )
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md) (<small>(v0.21)</small> )
 
 ### Notes
 
@@ -54,9 +66,11 @@ The electrostatic equation takes the following constraints into account if they 
 -   Since <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [Constraint pressure](FEM_ConstraintPressure.md) can only be set to faces, pressure constraints cannot be used for calculations in 2D.
 -   If there is no <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [Constraint pressure](FEM_ConstraintPressure.md) set, <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md) will only be taken into account if **Gradp Discretization** is set to *true*.
 
-## Results
 
-The results are the velocity in $\rm m/s$ and the pressure in $\rm Pa$. If there is no <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md) and <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [Constraint pressure](FEM_ConstraintPressure.md) constraint given, the resulting pressure will be relative not absolute. Since a pressure must act on a face, absolute pressure results cannot be obtained in 2D simulations.
+
+## Ergebnisse
+
+Die Ergebnisse sind die Geschwindigkeit in $\rm m/s$ und der Druck in $\rm Pa$. Sind weder <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [StartbedingungDruck](FEM_ConstraintInitialPressure/de.md) noch <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [RandbedingungDruck](FEM_ConstraintPressure/de.md) gegeben, ist der resultierende Druck relativ statt absolut. Da ein Druck auf eine Fläche wirken muss, kann der absolute Druck nicht mit 2D-Simulationen ermittelt werden.
 
 
 

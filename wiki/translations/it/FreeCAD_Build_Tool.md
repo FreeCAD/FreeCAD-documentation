@@ -3,10 +3,10 @@
 
 ## Introduzione
 
-Lo **Strumento per la costruzione di FreeCAD** (FreeCAD build tool o **fcbt**) è uno script in Python ubicato in 
+Lo **Strumento per la compilazione di FreeCAD** (FreeCAD build tool o **fcbt**) è uno script in Python ubicato in 
 ```python
 trunc/src/Tools/fcbt.py
-``` Può essere usato per semplificare alcune frequenti operazioni nella costruzione, distribuzione e estensione di FreeCAD.
+``` Può essere usato per semplificare alcune frequenti operazioni nella compilazione, distribuzione e estensione di FreeCAD.
 
 ### Utilizzo
 
@@ -53,7 +53,7 @@ Il comando \"DA\" esegue \"DS\", \"DB\" e \"DI\" in sequenza.
 
 #### NextBuildNumber
 
-Il comando \"NBN\" **incrementa il numero della costruzione** per creare una nuova versione di FreeCAD.
+Il comando \"NBN\" **incrementa il numero della build** per creare una nuova versione di FreeCAD.
 
 ### CreateModule
 

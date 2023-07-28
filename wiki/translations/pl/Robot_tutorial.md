@@ -52,10 +52,12 @@ Niniejszy poradnik jest skierowany do wykorzystania [Robotów przemysłowych](ht
 4.  Oglądaj efekty.
 
 
- {{Robot Tools navi}} {{Userdocnavi
+{{Robot Tools navi
+
+}} {{Userdocnavi
 ---
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Robot](Robot_Workbench.md) > Robot tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/pl

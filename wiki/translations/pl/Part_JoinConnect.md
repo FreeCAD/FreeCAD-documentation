@@ -1,85 +1,109 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Part JoinConnect
-   MenuLocation:Part → Join → Connect objects
-   Workbenches:[Part](Part_Workbench.md)
+   Name/pl:Część: Połącz obiekty
+   MenuLocation:Część → Połącz → Połącz obiekty
+   Workbenches:[Część](Part_Workbench/pl.md)
    Version:0.16
-   SeeAlso:[Part JoinEmbed](Part_JoinEmbed.md), [Part JoinCutout](Part_JoinCutout.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)
+   SeeAlso:[Osadź obiekty](Part_JoinEmbed/pl.md), [Wycięcie dla obiektu](Part_JoinCutout/pl.md), [Operacja logiczna](Part_Boolean/pl.md), [Grubość](Part_Thickness/pl.md)
 ---
 
 # Part JoinConnect/pl
 
-## Description
 
-Connect tool connects interiors of two walled objects (e.g., pipes). It can also join shells and wires.
+
+## Opis
+
+Narzędzie Połącz łączy wnętrza obiektów posiadających dwie ścianki *(np. rur)*. Może również łączyć powłoki i linie.
 
 ![600px](images/JoinFeatures_Connect.png)
 
-## Usage
-
-1.  Select objects to be connected.
-    The order of selection is not important, since the action of the tool is symmetric. It is enough to select one sub-shape of each object (e.g., faces). You can also select a compound containing all the shapes to be connected, e.g. [Draft OrthoArray](Draft_OrthoArray.md).
-2.  Invoke the Part JoinConnect command using several ways:
-    -   Press the <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> [Part JoinConnect](Part_JoinConnect.md) button in the Part toolbar
-    -   Use the **Part → Join → Connect objects** entry in the Part menu
-
-A Connect parametric object is created. Original objects are hidden, and the result of connecting is shown in [3D view](3D_view.md).
-
-## Properties
 
 
-{{TitleProperty|Connect}}
+## Użycie
 
--    **Objects**: List of objects to be connected. Generally, at least two objects are needed, but a single compound containing the shapes to connect will do as well. (as of FreeCAD v0.17.8053, this property is not displayed in [Property editor](Property_editor.md), and can only be accessed via [Python](#Scripting.md)).
+1.  Wybierz obiekty do połączenia.
 
--    **Refine**: Sets whether to apply [Refine](Part_RefineShape.md) operation or not, to the final shape. The default value is determined by a \'Automatically refine shape after boolean operation\' checkbox in [PartDesign Preferences](PartDesign_Preferences.md).
+Kolejność wyboru nie ma znaczenia, ponieważ działanie narzędzia jest symetryczne. Wystarczy wybrać jeden z kształtów podrzędnych każdego obiektu *(np. ściany)*. Można również wybrać złożenie zawierające wszystkie kształty do połączenia, np. [Szyk ortogonalny](Draft_OrthoArray/pl.md).
 
--    **Tolerance**: \"fuzziness\" value. This is an extra tolerance to apply when searching for intersections, in addition to tolerances stored in the input shapes.
+1.  Polecenie **Połącz obiekty** można wywołać na kilka sposobów:
+    -   Naciśnij przycisk <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> **Połącz obiekty** na pasku narzędzi.
+    -   Użyj polecenia **Część → Połącz → Połącz obiekty** w menu głównym.
 
-## Example
+Tworzony jest obiekt parametryczny Połączenie. Oryginalne obiekty są ukrywane, a wynik połączenia jest wyświetlany w oknie [widoku 3D](3D_view/pl.md).
 
-1.  Create a pipe by applying [thickness](Part_Thickness.md) to a [cylinder](Part_Cylinder.md):
-    ![320px](images/JoinFeatures_Example_step1.png)
-2.  Create another, smaller diameter pipe, and [place](Placement.md) it so that it pierces the wall of the first pipe:
-    ![320px](images/JoinFeatures_Example_step2.png)
-3.  Select the first pipe and the second pipe, and click the \'Connect objects\' option from the Join tools dropdown toolbar button.
-    ![320px](images/JoinFeatures_Example_step3_Connect.png)
-4.  Use some cross-section tool ([Clipping plane](Std_ToggleClipPlane.md), [Arch Section Plane](Arch_SectionPlane.md), [Arch Cut Plane](Arch_CutPlane.md)) to reveal internals. In the picture below, Arch Section Plane is used.
-    ![320px](images/JoinFeatures_Example_step4_Connect.png)
 
-## Algorithm
 
-The algorithms behind Join tools are quite simple, and understanding them is important to use the tools correctly. The algorithm of Connect, in particular, is quite a bit more complex than others, but it\'s generally enough to think of it as a symmetric variant of [Embed algorithm](Part_JoinEmbed#Algorithm.md)
+## Właściwości
 
-1\. Each object is split into pieces by intersections with other objects. (see [Part BooleanFragments](Part_BooleanFragments.md))
 
-2\. From the pieces of an object, only the largest one is kept; all the rest are thrown away.
+{{TitleProperty|Połączenie}}
 
-3\. Intersection pieces that touch at least two objects are added to result. Then, the pieces are joined together to form the result of Connect.
+-    **Obiekty**: Lista obiektów do połączenia. Ogólnie rzecz biorąc, potrzebne są co najmniej dwa obiekty, ale wystarczy również pojedyncze złożenie zawierające kształty do połączenia. *(od wersji FreeCAD v0.17.8053 właściwość ta nie jest wyświetlana w [Edytorze właściwości](Property_editor/pl.md) i można uzyskać do niej dostęp tylko za pośrednictwem skryptów [Python](#Tworzenie_skryptów.md))*.
 
-### Notes
+-    **Ulepsz**: Określa, czy zastosować operację [ulepszania](Part_RefineShape/pl.md) wobec ostatecznego kształtu. Wartość domyślna jest określona przez pole wyboru \"Automatycznie udoskonal model po wykonaniu operacji logicznej\" w [Preferencjach środowiska Projekt Części](PartDesign_Preferences/pl.md).
 
--   If at step 1 each object remains in one piece, the result of Connect will be equivalent to [union](Part_Fuse.md) of Objects.
--   Now, all compounds supplied are exploded prior to connecting. This means that self-intersecting compounds, which are invalid for all other Boolean operations, are valid for Connect. (This may be changed in the future.)
--   The \"largest\" piece is the one that has largest mass. That is, for solids, volumes are compared; for shells and faces, areas are compared, and so on.
--   Since FreeCAD v0.17.8053, and if OCC version is 6.9.0 and above, Connect is almost as fast as all other Boolean operations. For older versions, Connect is approximately 5 times slower than a regular Boolean operation, and works only on solids.
+-    **Tolerancja**: wartość \"rozmycia\". Jest to dodatkowa tolerancja stosowana podczas wyszukiwania przecięć, oprócz tolerancji przechowywanych w przetwarzanych kształtach wejściowych.
 
-## Scripting
 
-The Join tools can by used in [macros](Macros.md) and from the [Python console](Python_console.md) by using the following function:
+
+## Przykład
+
+1.  Utwórz rurę, stosując narzędzie [grubość](Part_Thickness/pl.md) do bryły [cylindra](Part_Cylinder/pl.md):
+
+![320px](images/JoinFeatures_Example_step1.png)
+
+1.  Utwórz kolejną rurę o mniejszej średnicy i [umieść](Placement/pl.md) ją tak, aby przebiła ścianę pierwszej rury:
+
+![320px](images/JoinFeatures_Example_step2.png)
+
+1.  Zaznacz pierwszą i drugą rurę, a następnie kliknij polecenie **Połącz obiekty** na rozwijanym pasku narzędzi Połącz.
+
+![320px](images/JoinFeatures_Example_step3_Connect.png)
+
+1.  Zastosuj narzędzie przekroju *([Przełącz płaszczyznę tnącą](Std_ToggleClipPlane/pl.md), [Płaszczyzna przekroju](Arch_SectionPlane/pl.md) środowiska Architektura, [Płaszczyzna cięcia](Arch_CutPlane/pl.md) środowiska Architektura)*, aby odsłonić elementy wewnętrzne. Na poniższym obrazku użyto narzędzia Płaszczyzna przekroju środowiska Architektura.
+
+![320px](images/JoinFeatures_Example_step4_Connect.png)
+
+
+
+## Sposób działania 
+
+Algorytmy stojące za narzędziami Połącz są dość proste, a ich zrozumienie jest ważne dla prawidłowego korzystania z narzędzi. Zauważmy, że algorytm narzędzia Połącz jest nieco bardziej złożony od innych, ale wystarczy myśleć o nim jako o symetrycznym wariancie algorytmu [osadzania](Part_JoinEmbed/pl#Sposób_działania.md).
+
+1\. Każdy obiekt jest dzielony na części przez skrzyżowania z innymi obiektami. *(patrz [Fragmentacja funkcją logiczną](Part_BooleanFragments/pl.md))*.
+
+2\. Z kawałków danego obiektu zachowuje się tylko największy, wszystkie pozostałe są usuwane.
+
+3\. Elementy przecięcia, które dotykają co najmniej dwóch obiektów, są dodawane do wyniku. Następnie elementy są łączone, aby utworzyć wynik operacji połączenia.
+
+
+
+### Uwagi
+
+-   Jeśli w kroku 1 każdy obiekt pozostaje w jednym kawałku, wynik połączenia będzie równoważny działaniu funkcji [połączenia logicznego](Part_Fuse/pl.md) obiektów.
+-   Teraz wszystkie dostarczone złożenia są rozbijane przed połączeniem. Oznacza to, że samoprzecinające się złożenia, które są nieprawidłowe dla wszystkich innych operacji logicznych, są prawidłowe dla funkcji Połącz *(Może to zostać zmienione w przyszłości)*.
+-   \"Największy\" element to ten, który ma największą masę. Oznacza to, że dla brył porównywane są objętości; dla powłok i ścian porównywane są powierzchnie i tak dalej.
+-   Od wersji FreeCAD v0.17.8053 i wersji OCC 6.9.0 lub wyższej, funkcja Połącz jest prawie tak szybka, jak wszystkie inne operacje logiczne. W starszych wersjach funkcja Połącz jest około 5 razy wolniejsza niż zwykła operacja logiczna i działa tylko na bryłach.
+
+
+
+## Tworzenie skryptów 
+
+Narzędzie **Połącz obiekty** może być używane w [makrodefinicjach](macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następującej funkcji:
 
 **BOPTools.JoinFeatures.makeConnect(name)**
 
--   Creates an empty Connect feature. The \'Objects\' property must be assigned explicitly, afterwards.
--   Returns the newly created object.
+-   Tworzy pustą funkcję Połącz. Właściwość \"Obiekty\" musi zostać przypisana jawnie, a następnie.
+-   Zwraca nowo utworzony obiekt.
 
-Connect can also be applied to plain shapes, without the need to have a document object, via:
+Funkcja Połącz może być również stosowana do zwykłych kształtów, bez konieczności posiadania obiektu dokumentu:
 
 **Part.BOPTools.JoinAPI.connect(list_of_shapes, tolerance = 0.0)**
 
-This can be useful for making custom Python scripted features.
+Może to być przydatne do tworzenia niestandardowych funkcji skryptowych Python.
 
-Example:
+Przykład:
 
 
 {{code|code=
@@ -88,7 +112,7 @@ j = Part.BOPTools.JoinFeatures.makeConnect(name= 'Connect')
 j.Objects = FreeCADGui.Selection.getSelection()
 }}
 
-The tool itself is implemented in Python, see **/Mod/Part/BOPTools/JoinFeatures.py** ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/JoinFeatures.py)) under where FreeCAD is installed.
+Samo narzędzie jest zaimplementowane w środowisku Python, patrz **/Mod/Part/BOPTools/JoinFeatures.py** ([Link do Github](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/JoinFeatures.py)) w miejscu, w którym zainstalowany jest FreeCAD.
 
 
 

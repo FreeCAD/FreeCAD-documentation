@@ -4,6 +4,8 @@ Esta é lista recursos uma extensa, porém incompleta, que o FreeCAD disponibili
 
 {{TOCright}}
 
+
+
 ## Notas da Versão 
 
 -   [Versão 0.20](Release_notes_0.20.md) - Junho de 2022
@@ -16,6 +18,8 @@ Esta é lista recursos uma extensa, porém incompleta, que o FreeCAD disponibili
 -   [Versão 0.13](Release_notes_0.13.md) - Janeiro de 2013
 -   [Versão 0.12](Release_notes_0.12.md) - Dezembro de 2011
 -   [Versão 0.11](Release_notes_0.11.md) - Março de 2011
+
+
 
 ## Recursos Principais 
 
@@ -46,6 +50,8 @@ Esta é lista recursos uma extensa, porém incompleta, que o FreeCAD disponibili
 
 
 </div>
+
+
 
 ## Recursos gerais: 
 
@@ -122,6 +128,8 @@ Esta é lista recursos uma extensa, porém incompleta, que o FreeCAD disponibili
 -   **thumbnailer**. (atualmente apenas sistemas Linux) Os ícones do documento FreeCAD mostram o conteúdo do arquivo na maioria das aplicações de gerenciamento de arquivos, como o Nautilus do Gnome.
 
 -   **Instalador MSI modular**. O instalador do FreeCAD permite instalações flexíveis em sistemas Windows. Pacotes para sistemas Ubuntu(baseados em Debian) também são mantidos.
+
+
 
 ## Bancadas de Trabalho Externas 
 

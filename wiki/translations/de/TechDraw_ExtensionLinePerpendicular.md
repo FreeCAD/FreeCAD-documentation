@@ -11,14 +11,27 @@
 
 # TechDraw ExtensionLinePerpendicular/de
 
+
+
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Das Werkzeug <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  style="width:24px;"> **TechDraw ErgänzungRechtwinkligeLinie** fügt eine Hilfslinie rechtwinklig zu einer anderen Linie und durch einen Knotenpunkt verlaufend ein.
+
+
+</div>
 
 <img alt="" src=images/TechDraw_ExtensionLinePerpendicularExample.png  style="width:250px;"> 
 *Rechts eine eingefügte rechtwinklige Hilfslinie*
 
+
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Optional könne die Eigenschaften der Linien mit dem Werkzeug <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ErgänzungLinienmerkmaleAuswählen](TechDraw_ExtensionSelectLineAttributes/de.md) definiert werden.
 2.  Eine gerade Linie auswählen, um die Richtung und die Länge der Linie festzulegen.
@@ -27,6 +40,9 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  sty
     -   Die Schalrfläche **<img src="images/TechDraw_ExtensionLinePerpendicular.svg" width=16px> [Senkrechte Hilfslinie hinzufügen](TechDraw_ExtensionLinePerpendicular/de.md)** drücken.
     -   Den Menüeintrag **TechDraw → Ergänzungen: Mittellinien/Gewinde → <img src="images/TechDraw_ExtensionLinePerpendicular.svg" width=16px> Senkrechte Hilfslinie hinzufügen** auswählen.
 5.  Eine Hilfslinie wird eingefügt.
+
+
+</div>
 
 
 

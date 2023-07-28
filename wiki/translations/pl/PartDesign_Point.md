@@ -1,46 +1,57 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign Point
-   MenuLocation:Part Design → Create a datum → Create a datum point
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Utwórz punkt odniesienia
+   MenuLocation:Projekt Części → Utwórz układ odniesienia → Utwórz punkt odniesienia
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[PartDesign Line](PartDesign_Line.md), [PartDesign Plane](PartDesign_Plane.md)
+   SeeAlso:[Utwórz linię odniesienia](PartDesign_Line/pl.md), [Utwórz płaszczyznę odniesienia](PartDesign_Plane/pl.md)
 ---
 
 # PartDesign Point/pl
 
-## Description
 
-Creates a **datum point** which can be used as reference for sketches or other datum geometry.
+
+## Opis
+
+Tworzy **punkt odniesienia**, który może być użyty jako odniesienie dla szkiców oraz innej geometrii odniesienia.
 
 ![](images/DatumPoint.png ) 
-*A datum point attached to a sphere with an attachment offset of {{Value|2* in the Z direction.}}
+*Punkt odniesienia dołączony do kuli z przesunięciem dołączenia {{Value|2* w kierunku Z.}}
 
-## Usage
 
-1.  Press the **<img src="images/PartDesign_Point.svg" width=24px> '''Create a datum point'''** button.
-2.  Define Point parameters. Select a first reference in the 3D view to filter the available attachment modes.
-3.  Depending on the selected reference, there may be one or more attachment modes available in the the list. The most likely one will automatically be selected and shown in bold in the list. The text *Attached with mode* along with the attachment mode name will appear in green at the top of the Parameters panel.
-4.  To add an additional reference, press the next **Reference** button. Once pressed its label changes to *Selecting\...* until a selection is made.
-5.  Select an attachment mode in the list.
-6.  Define Attachment Offset values.
-7.  Press **OK**.
 
-## Options
+## Użycie
 
-Double-click the DatumPoint label in the Model tree or right-click and select **Edit datum** in the contextual menu to edit its parameters. For more details about Attachment mode and Attachment offset, see [Part EditAttachment](Part_EditAttachment.md).
+1.  Naciśnij przycisk **<img src="images/PartDesign_Point.svg" width=24px> '''Utwórz punkt odniesienia'''**.
+2.  Zdefiniuj parametry punktu. Wybierz pierwsze odniesienie w oknie widoku 3D, aby przefiltrować dostępne tryby dołączania.
+3.  W zależności od wybranego odniesienia, na liście może być dostępny jeden lub więcej trybów dołączania. Najbardziej prawdopodobny z nich zostanie automatycznie wybrany i wyróżniony na liście pogrubioną czcionką. Tekst *Dołączono w trybie* wraz z nazwą trybu załącznika pojawi się na zielono w górnej części panelu Parametrów.
+4.  Aby dodać dodatkowe odniesienie, naciśnij następny przycisk **Odniesienie**. Po naciśnięciu jego etykieta zmieni się na *Wybieranie\...* do momentu dokonania wyboru.
+5.  Wybierz tryb dołączania z listy.
+6.  Zdefiniuj wartości przesunięcia dołączenia.
+7.  Naciśnij **OK**.
 
-## Properties
 
--    **MapMode**: lists the attachment mode used.
 
--    **Attachment Offset**: applies a transformation (translation and rotation) in reference to the attachment placement.
+## Opcje
 
--    **Label**: name given to the object, this name can be changed at convenience.
+Kliknij dwukrotnie etykietę PunktDołączenia w drzewie modelu lub kliknij prawym przyciskiem myszy i wybierz **Edytuj odniesienie** z menu kontekstowego, aby edytować jego parametry. Aby uzyskać więcej informacji na temat trybu dołączania i przesunięcia dołączania, zobacz stronę [Edytuj dołączenie](Part_EditAttachment/pl.md).
 
-## Limitations
 
--   The datum point cannot be used as section for Pipe and Loft features.
+
+## Właściwości
+
+-    **Tryb mapowania**: wymienia używany tryb dołączania.
+
+-    **Odsunięcie dołaczenia**: stosuje transformację (przesunięcie i obrót) w odniesieniu do umieszczenia dołaczenia.
+
+-    **Etykieta**: nazwa nadana obiektowi, nazwa ta może być dowolnie zmieniana.
+
+
+
+## Ograniczenia
+
+-   Punkt odniesienia nie może być użyty jako przekrój dla funkcji Rura i Wyciągnięcie przez profile.
 
 
 

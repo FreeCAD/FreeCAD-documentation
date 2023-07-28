@@ -1,60 +1,48 @@
 ---
 - GuiCommand:/de
    Name:Draft Snap Perpendicular
-   Name/de:Entwurf Senkrecht
-   MenuLocation:Entwurf → [Fangen](Draft_Snap/de.md) → Senkrecht
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso:[Fangen](Draft_Snap/de.md), [Fangen ein/aus](Draft_Snap_Lock/de.md)
+   Name/de:Draft EinrastenSenkrecht
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso:[Draft Einrasten](Draft_Snap/de.md), [Draft EinrastenSperren](Draft_Snap_Lock/de.md)
 ---
 
 # Draft Snap Perpendicular/de
 
 
-</div>
 
 ## Beschreibung
 
+Die Option <img alt="" src=images/Draft_Snap_Angle.svg  style="width:24px;"> **Draft EinrastenSenkrecht** rastet auf senkrechten Projektionen eines vorherigen Punktes auf Flächen ({{Version/de|0.21}}) oder Kanten ein. Die Flächen und Kanten können zu [Draft](Draft_Workbench.md)- oder [Arch](Arch_Workbench.md)-Objekten gehören, aber auch zu Objekten, die mit anderen [Arbeitsbereichen](Workbenches/de.md) erstellt wurden.
 
-<div class="mw-translate-fuzzy">
+Diese Einrast-Option findet auch punkte auf verlängerten Flächen und Kanten.
 
-Diese Methode rastet an einer Linie oder Kante oder ihrer Verlängerung ein, um eine Linie zu erzeugen, die senkrecht zur Kante ist.
-
-
-</div>
-
-This snap option will also find points on extended faces and edges.
-
-![](images/Draft_Snap_Perpendicular_example.png )
+![](images/Draft_Snap_Perpendicular_example.png ) 
+*Einrasten des zweiten Punkts einer Linie auf einem Punkt senkrecht zu einer verlängerten Kante*
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-*Einrasten des zweiten Punkts einer Linie an einer unsichtbaren Verlängerung einer anderen Linie, so dass die erste rechtwinklig zur zweiten ist*
-
-
-</div>
 
 ## Anwendung
 
-For general information about snapping see [Draft Snap](Draft_Snap.md).
+Für allgemeine Informationen zum Einrasten (Fangen) siehe [Draft Einrasten](Draft_Snap/de.md).
+
+1.  Einrasten sollte aktiviert sein. Siehe <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft EinrastenSperren](Draft_Snap_Lock/de.md).
+2.  Ist **Draft EinrastenSenkrecht** nicht aktiv, gibt es folgende Möglichkeiten:
+    -   Die Schaltfläche **<img src="images/Draft_Snap_Perpendicular.svg" width=16px>** in der Symbolleiste Draft-Einrasten drücken.
+    -   Die Schaltfläche **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** im [Draft-Widget Einrasten](Draft_snap_widget/de.md) gedrückt halten und im Ausklappmenü die Option **<img src="images/Draft_Snap_Perpendicular.svg" width=16px> Senkrecht fangen** auswählen.
+3.  Einen [Draft](Draft_Workbench/de.md)- oder [Arch](Arch_Workbench/de.md)-Befehl auswählen, um die gewünschte Geometrie zu erstellen.
+4.  Man beachte, dass die Einrast-Optionen auch dann geändert werden können, wenn ein Befehl aktiv ist.
+5.  Einen ersten Punkt auswählen. Diese Einrast-Option erfordert einen vorherigen Punkt. Der senkrechte Punkt wird mit Bezug auf diesen Punkt ermittelt.
+6.  Den Mauszeiger auf eine Fläche oder Kante bewegen.
+7.  Die Fläche bzw. Kante wird hervorgehoben.
+8.  Wurde ein senkrechter Punkt ermittelt, wird der Punkt markiert und das Symbol <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:16px;"> wird neben dem Mauszeiger angezeigt.
+9.  Sind mehrere senkrechte Punkte vorhanden: wahlweise den Mauszeiger näher an einen anderen Schnittpunkt heran bewegen. {{Version/de|0.21}}
+10. Klicken, um den Punkt zu bestätigen.
 
 
-<div class="mw-translate-fuzzy">
 
-1.  Stelle sicher, dass **<img src="images/Draft_Snap_Lock.svg" width=16px> [Umschalten ein/aus](Draft_Snap_Lock/de.md)** und **<img src="images/Draft_Snap_Perpendicular.svg" width=16px> [Senkrecht fangen](Draft_Snap_Perpendicular/de.md)** eingeschaltet sind.
-2.  Wähle [Entwurf Linie](Draft_Line/de.md) zum Zeichnen einer Form. Gib einen ersten Punkt ein.
-3.  Bewege den Cursor über ein Liniensegment oder eine Kante eines anderen Objektes zur Auswahl des Punktes fürdie Senkrechte.
-4.  Die Kante wird gelb hervorgehoben und ein kleiner weißer Kreis wird den Punkt auf der Kante oder ihrer Verlängerung anzeigen, an den der neue Punkt verbunden wird.
-5.  Klicke, um den neuen Punkt zu verbinden.
+## Einstellungen
 
-
-</div>
-
-## Preferences
-
-See [Draft Snap](Draft_Snap#Preferences.md).
+Siehe [Draft-Einrasten](Draft_Snap/de#Einstellungen.md).
 
 
 

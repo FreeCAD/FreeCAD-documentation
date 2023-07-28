@@ -14,13 +14,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Der Befehl **Part Schnittansicht** steht allen Arbeitsbereichen zur Verfügung, arbeitet aber nur mit Part- und PartDesign-Objekten sowie mit Baugruppen aus diesen zusammen. Er erstellt ein dauerhaftes Cut-Objekt aus (vorhandenen) Objekten und Baugruppen. Da das ausgeschnittene Ergebnis ein normales [Part Cut](Part_Cut/de.md)-Objekt ist, kann es weiterbearbeitet werden oder z.B. 3D-gedruckt werden. Siehe unten für mögliche Anwendungen.
-
-
-</div>
+Der Befehl **Part Schnittansicht** steht allen Arbeitsbereichen zur Verfügung, arbeitet aber nur mit Part- und PartDesign-Objekten sowie mit Baugruppen aus diesen zusammen. Er erstellt ein dauerhaft beschnittenes Objekt aus (vorhandenen) Objekten und Baugruppen. Da das ausgeschnittene Ergebnis ein normales <img alt="" src=images/Part_Cut.svg  style="width:24px;"> [Part Differenz](Part_Cut/de.md)-Objekt (Cut-Objekt) ist, kann es weiterbearbeitet werden oder z.B. 3D-gedruckt werden. Siehe unten für mögliche Anwendungen.
 
 <img alt="" src=images/Part_SectionCut_example.png  style="width:300px;"> 
 *Eine Baugruppe mit Ausschnitt. Einige der Schnittflächen sind von Hand eingefärbt. Das gelbe Teil wurde nicht ausgeschnitten, da es absichtlich um ein Tausendstel (mm) in ein anderes Teil verschoben wurde.*
@@ -31,13 +25,7 @@ Der Befehl **Part Schnittansicht** steht allen Arbeitsbereichen zur Verfügung, 
 
 ![Das Dialogfeld Section Cut.](images/Part_SectionCut_Dialog.png )
 
-
-<div class="mw-translate-fuzzy">
-
-Das Dialogfeld **Section Cutting** wird mit dem Menüeintrag **Ansicht → <img src="images/Part_SectionCut.svg" width=16px> Dauerhafte Schnittdarstellung** geöffnet. Es ist unabhängig vom aktuellen Arbeitsbereich und vom aktuell geöffneten Dokument. Es kann durch drücken der Schaltfläche in der oberen linken Ecke des Dialogfeldes von seiner Ursprungsposition gelöst werden.
-
-
-</div>
+Das Dialogfeld **Section Cutting** wird mit dem Menüeintrag **Ansicht → <img src="images/Part_SectionCut.svg" width=24px> Dauerhafte Schnittdarstellung** geöffnet. Es ist unabhängig vom aktuellen Arbeitsbereich und vom aktuell geöffneten Dokument. Es kann durch drücken der Schaltfläche in der oberen linken Ecke des Dialogfeldes von seiner Ursprungsposition gelöst werden.
 
 The **Section Cut** feature takes all currently visible Part objects in the active document into account. Therefore you can control what will be cut, by making a part visible or not. By checking one of the **Cutting** options in the dialog the feature is activated. You can then either enter a position (in coordinates of the document) or use the sliders to set the cut position. It is also possible to combine cuts, for example to cut in X and Z direction. The buttons **Flip** flip the side that is cut.
 

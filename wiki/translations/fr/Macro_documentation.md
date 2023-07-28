@@ -137,25 +137,24 @@ Ou
 
 </pre>
 
-Ajouter les informations d\'en-tête avant votre code réel.
-
-{{MacroCode|code=
+Ajouter les informations d\'en-tête avant votre code réel. 
+```python
 __Title__="Title_Of_macro"
-__Author__ = "User_Name"
-__Version__ = "00.11"
-__Date__    = "2015-07-25"
-__Comment__ = "This is the comment of the macro"
-__Web__ = "http://forum.freecadweb.org/viewtopic.php?f=3&t=7384"
-__Wiki__ = "http://www.freecadweb.org/wiki/index.php?title=Macro_Title_Of_macro"
-__Icon__  = "/usr/lib/freecad/Mod/plugins/icons/Title_Of_macro"
-__IconW__  = "C:/Documents and Settings/YourUserName/Application Data/FreeCAD"
-__Help__ = "start the macro and follow the instructions"
-__Status__ = "stable"
-__Requires__ = "freecad 0.14.3706"
-__Communication__ = "http://www.freecadweb.org/wiki/index.php?title=User:User_Name"
+__Author__ = "User_Name"
+__Version__ = "00.11"
+__Date__    = "2015-07-25"
+__Comment__ = "This is the comment of the macro"
+__Web__ = "http://forum.freecadweb.org/viewtopic.php?f=3&t=7384"
+__Wiki__ = "http://www.freecadweb.org/wiki/index.php?title=Macro_Title_Of_macro"
+__Icon__  = "/usr/lib/freecad/Mod/plugins/icons/Title_Of_macro"
+__IconW__  = "C:/Documents and Settings/YourUserName/Application Data/FreeCAD"
+__Help__ = "start the macro and follow the instructions"
+__Status__ = "stable"
+__Requires__ = "freecad 0.14.3706"
+__Communication__ = "http://www.freecadweb.org/wiki/index.php?title=User:User_Name"
 
-«Your code should be here»
-}}
+«Your code should be here»
+```
 
 À partir de FreeCAD 0.17, ces informations sont utilisées par le [Gestionnaire des extensions](Std_AddonMgr/fr.md) qui télécharge la macro à partir du dépôt [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros).
 

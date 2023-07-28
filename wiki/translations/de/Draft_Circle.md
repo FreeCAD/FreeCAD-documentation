@@ -1,48 +1,28 @@
 ---
 - GuiCommand:/de
    Name:Draft Circle
-   Name/de:Entwurf Kreis
+   Name/de:Draft Kreis
    MenuLocation:Entwurf → Kreis
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**C** **I**
    Version:0.7
-   SeeAlso:[Entwurf Bogen](Draft_Arc/de.md), [Entwurf Ellipse](Draft_Ellipse/de.md), [Makro KreisPlus](Macro_CirclePlus/de.md)
+   SeeAlso:[Draft Bogen](Draft_Arc/de.md), [Draft Bogen 3Punkte](Draft_Arc_3Points/de.md)
 ---
 
 # Draft Circle/de
 
 
-</div>
 
 ## Beschreibung
 
+Das Werkzeug <img alt="" src=images/Draft_Circle.svg  style="width:24px;"> **Draft Kreis** erstellt einen Kreis auf der aktuellen [Arbeitsebene](Draft_SelectPlane/de.md) aus Mittelpunkt und Radius. Der Radius kann durch Indizieren eines Punktes festgelegt werden.
 
-<div class="mw-translate-fuzzy">
+Ein Draft-Kreis kann in einen Bogen gewandelt werden, indem seine {{PropertyData/de|First Angle}} und {{PropertyData/de|Last Angle}} auf unterschiedliche Werte gesetzt werden
 
-Das Kreiswerkzeug erstellt einen Kreis in der aktuellen [Arbeitsebene](Draft_SelectPlane/de.md) durch Eingabe von zwei Punkten, dem Mittelpunkt und dem Radius, oder durch Aufnehmen von Tangenten oder einer beliebigen Kombination davon. Es wird das [Entwurf Linienstil](Draft_Linestyle/de.md) verwendet, das auf dem [Entwurf Tray](Draft_Tray/de.md) eingestellt ist.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug arbeitet genau wie das [Entwurf Bogen](Draft_Arc/de.md) Werkzeug, außer dass es einen vollen Umkreis erstellt. Um eine Ellipse zu zeichnen, verwende [Entwurf Ellipse](Draft_Ellipse/de.md).
+<img alt="" src=images/Draft_Circle_example.jpg  style="width:400px;"> 
+*Ein durch zwei Punkte festgelegter Kreis aus Mittelpunkt und Radius*
 
 
-</div>
-
-<img alt="" src=images/Draft_Circle_example.jpg  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Kreis definiert durch zwei Punkte*
-
-
-</div>
 
 ## Anwendung
 
@@ -58,14 +38,16 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 </div>
 
-## Options
+
+
+## Optionen
 
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
 
 
 <div class="mw-translate-fuzzy">
 
-## Optionen
+## Optionen 
 
 -   Die primäre Anwendung des Kreis-Werkzeugs erfolgt durch Auswahl von zwei Punkten: dem Mittelpunkt und einem Punkt auf dem Umkreis zur Definition des Radius.
 -   Durch Drücken von **Alt** kannst Du eine Tangente anstatt eines Punkts zur Definition des Basiskreises des Bogens auswählen. Du kannst deshalb verschiedene Kreisarten durch Auswahl von ein, zwei oder drei Tangenten erstellen.
@@ -82,7 +64,9 @@ Klicke das Ankreuzkästchen zum de/aktivieren des **'''Gefüllt'''**-Modus. Wenn
 
 </div>
 
-## Notes
+
+
+## Hinweise
 
 
 <div class="mw-translate-fuzzy">
@@ -92,21 +76,27 @@ Der Kreis kann durch doppelklicken des Elements in der Baumansicht geändert wer
 
 </div>
 
-## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+
+## Einstellungen
+
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
 
 -   To change the number of decimals used for the input of coordinates and radii: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 -   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
 
-## Properties
 
-See also: [Property editor](Property_editor.md).
 
-A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
+## Eigenschaften
 
-### Data
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
+
+Ein Draft-Kreis-Objekt wird von einem [Part Part2DObject](Part_Part2DObject/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
+
+### Daten
 
 
 {{TitleProperty|Draft}}
@@ -114,7 +104,7 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 <div class="mw-translate-fuzzy">
 
-### Daten
+### Daten 
 
 -    {{PropertyData/de|First Angle}}: Gibt den Startwinkel des Kreises an; normalerweise 0°.
 
@@ -129,7 +119,9 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 </div>
 
-### View
+
+
+### Ansicht
 
 
 {{TitleProperty|Draft}}
@@ -137,7 +129,7 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 <div class="mw-translate-fuzzy">
 
-### Ansicht
+### Ansicht 
 
 -    {{PropertyView/de|Pattern}}: definiert ein [Entwurfsmuster](Draft_Pattern/de.md), mit dem die Kreisoberfläche gefüllt wird. Diese Eigenschaft funktioniert nur, wenn {{PropertyData/de|Make Face}} auf `True` und {{PropertyView/de|Display Mode}} auf \"Flat Lines\" gesetzt ist.
 
@@ -146,28 +138,13 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 </div>
 
-## Scripting
 
 
-<div class="mw-translate-fuzzy">
+## Skripten
 
-## Skriptsprache
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-**Siehe auch:**
-
-[Draft API](Draft_API/de.md) und [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das Kreis Werkzeug kann sowohl in [Makros](macros/de.md) als auch aus der [Python](Python/de.md)-Konsole heraus mittels folgender Funktion angesprochen werden:
-
-
-</div>
+Zum Erstellen eines Draft-Kreises wird die Methode `make_circle` des Draft-Moduls verwendet ({{Version/de|0.19}}). Diese Methode ersetzt die veraltete Methode `makeCircle`.
 
 
 ```python
@@ -210,15 +187,6 @@ circle3 = Draft.make_circle(750, placement=place3)
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

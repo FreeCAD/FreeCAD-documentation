@@ -14,6 +14,8 @@
 
 
 
+
+
 ## Problem z życia codziennego 
 
 Elektryczne szczoteczki do zębów rzadko występują ze stojakiem na główkę, natomiast w rodzinie często można zobaczyć wiele główek używanych z jednym korpusem. Wiele osób borykających się ze wspólnym problemem prowadzi nas do różnych rozwiązań, co można zobaczyć na Thingiverse *(200-800 projektów jest związanych z tym tematem)*. Oto pierwsza odpowiedź i jak ją zaprojektować.
@@ -22,6 +24,8 @@ Ten poradnik przeprowadzi Cię przez proces wymodelowania części pokazanej na 
 
 ![](images/TBHS-model.png )
 
+
+
 ## Pierwszy pomysł: płyta 
 
 -   Na stronie startowej wybierz ![](images/Workbench_PartDesign.svg ) *Projekt Części* lub utwórz nowy dokument i wybierz środowisko *Projekt Części*.
@@ -29,6 +33,8 @@ Ten poradnik przeprowadzi Cię przez proces wymodelowania części pokazanej na 
 ![](images/TBHS-0.png )
 
 ![](images/TBHS-0.png )
+
+
 
 ## Utwórz szkic 
 
@@ -441,9 +447,11 @@ Perfect !
 -   Print it instead of the first version or to replace it if it eventually broke ;-)
 
 
- {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+{{PartDesign Tools navi
+
+}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Toothbrush Head Stand/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Toothbrush Head Stand/pl

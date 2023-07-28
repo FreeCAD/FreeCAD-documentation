@@ -1,20 +1,23 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw StackBottom
-   MenuLocation:TechDraw → Stacking → Move view to bottom of stack
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Przesuń poziom na górę
+   MenuLocation:Rysunek Techniczny → Sortowanie → Przesuń poziom na dół
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
-   Version:1.0
-   SeeAlso:[TechDraw StackTop](TechDraw_StackTop.md), [TechDraw StackUp](TechDraw_StackUp.md), [TechDraw StackDown](TechDraw_StackDown.md)
+   Version:0.21
+   SeeAlso:[Przesuń poziom na górę](TechDraw_StackTop/pl.md), [Przesuń poziom w górę](TechDraw_StackUp/pl.md), [Przesuń poziom w dół](TechDraw_StackDown/pl.md).
 ---
 
 # TechDraw StackBottom/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_StackTop.svg  style="width:24px;"> **TechDraw StackBottom** tool moves Views to the bottom of the stacking order. The stacking order controls the apparent depth of Views on a page.
 
-See [TechDraw StackTop](TechDraw_StackTop.md).
+## Opis
+
+Narzędzie **Przesuń poziom na dół** przenosi widoki na dół porządku układania. Kolejność układania kontroluje widoczną głębokość widoków na stronie.
+
+Zobacz również [Przesuń poziom na górę](TechDraw_StackTop/pl.md).
 
 
 

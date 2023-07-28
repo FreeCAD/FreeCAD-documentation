@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -20,6 +22,8 @@ Questo strumento identifica i fori (sequenza circolare di bordi aperti) in un og
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -32,6 +36,11 @@ Questo strumento identifica i fori (sequenza circolare di bordi aperti) in un og
 
 </div>
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Script
 
 
@@ -39,7 +48,23 @@ Questo strumento identifica i fori (sequenza circolare di bordi aperti) in un og
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+
+</div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
+</div>
+
+
 ```python
 solid = closeHole(shape)
 ```

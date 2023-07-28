@@ -1,6 +1,8 @@
 # PySide/fr
 {{TOCright}}
 
+
+
 ## Introduction
 
 La bibliothèque [PySide](PySide/fr.md) donne accès à la boîte à outils d\'interface utilisateur graphique (GUI) Qt de [Python](Python/fr.md). Qt est une collection de bibliothèques C++, mais avec l\'aide de PySide, les mêmes composants peuvent être utilisés à partir de [Python](Python/fr.md). Chaque interface graphique qui peut être créée en C++, peut également être créée et modifiée en Python. Un avantage de l\'utilisation de Python est que les interfaces Qt peuvent être développées et testées en direct, car nous n\'avons pas besoin de compiler les fichiers source.
@@ -9,13 +11,15 @@ Lorsque vous [installez](Installing/fr.md) FreeCAD, vous devriez obtenir à la f
 
 Dans le passé, FreeCAD utilisait PyQt, une autre liaison Qt pour Python, mais en 2013 ([commit 1dc122dc9a](https://github.com/FreeCAD/FreeCAD/commit/1dc122dc9a)) le projet a migré vers PySide car il a une [licence](licence/fr.md) plus permissible.
 
-Pour plus d\'informations, consultez:
+Pour plus d\'informations, consultez :
 
--   [Wikipédia: PySide](https://fr.wikipedia.org/wiki/PySide)
+-   [Wikipédia : PySide](https://fr.wikipedia.org/wiki/PySide)
 -   [Différences entre PySide et PyQt](https://wiki.qt.io/Differences_Between_PySide_and_PyQt)
 
 ![](images/PySideScreenSnapshot1.jpg ) ![](images/PySideScreenSnapshot2.jpg ) 
 *Exemples créés avec PySide. À gauche: un simple dialogue. À droite: un dialogue plus complexe avec des graphiques.*
+
+
 
 ## PySide dans FreeCAD avec Qt5 
 
@@ -39,7 +43,7 @@ PySide2.QtUiTools -> PySide.QtUiTools
 Le seul aspect inhabituel est que les classes `PySide2.QtWidgets` sont placées dans l\'espace de noms `PySide.QtGui`. 
 ```python
 PySide2.QtWidgets.QCheckBox -> PySide.QtGui.QCheckBox
-``` {{Top}}
+```
 
 ## Exemples d\'utilisation de PySide 
 

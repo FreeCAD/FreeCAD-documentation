@@ -1,10 +1,11 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:FEM EquationElectrostatic
-   MenuLocation:Solve → Electromagnetic Equations → Electrostatic equation
-   Workbenches:[FEM](FEM_Workbench.md)
+   Name/de:FEM GleichungElektrostatik
+   MenuLocation:Lösen → Electromagnetic Equations → Electrostatic equation
+   Workbenches:[FEM](FEM_Workbench/de.md)
    Version:0.19
-   SeeAlso:[FEM Electricforce equation](FEM_EquationElectricforce.md), [FEM Example Capacitance Two Balls](FEM_Example_Capacitance_Two_Balls.md)
+   SeeAlso:[FEM GleichungElektrischeKraft](FEM_EquationElectricforce/de.md), [FEM Beispiel Kapazität Zweier Kugeln](FEM_Example_Capacitance_Two_Balls/de.md)
 ---
 
 # FEM EquationElectrostatic/de
@@ -13,7 +14,9 @@ This equation perform electrostatic analyses using [Gauss\' law](https://en.wiki
 
 For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Electrostatics*.
 
-## Usage
+
+
+## Anwendung
 
 1.  After adding an Elmer solver as described [here](FEM_SolverElmer#Equations.md), select it in the [tree view](Tree_view.md).
 2.  Now either use the toolbar button <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> or the menu **Solve → Electromagnetic Equations → Electrostatic equation**.
@@ -52,7 +55,9 @@ The electrostatic equation takes the following constraints into account if they 
 
 Except for calculations in 2D, for <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [electrostatic potential constraints](FEM_ConstraintElectrostaticPotential.md) it is important that they act on a face or body. Constraints for 3D set to lines or vertices are not recognized by the Elmer solver.
 
-## Results
+
+
+## Ergebnisse
 
 The available results depend on the [solver settings](#Solver_Settings.md). If none of the **Calculate *** settings was set to *true*, only the electric force density and the electric potential are calculated. Otherwise also the corresponding results will be available.
 

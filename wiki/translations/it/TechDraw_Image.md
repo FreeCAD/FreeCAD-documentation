@@ -5,12 +5,22 @@
 
 </div>
 
+
+
 ## Descrizione
+
+
+<div class="mw-translate-fuzzy">
 
 Lo strumento Immagine inserisce un\'immagine [bitmap](bitmap/it.md) (PNG, TIFF, JPEG, ecc.) da un file nella pagina come una vista
 
+
+</div>
+
 ![](images/TechDraw_Image_example.png ) 
 *Immagine inserita nella pagina di disegno*
+
+
 
 ## Uso
 
@@ -22,6 +32,8 @@ Lo strumento Immagine inserisce un\'immagine [bitmap](bitmap/it.md) (PNG, TIFF, 
 
 
 </div>
+
+
 
 ## Proprietà
 
@@ -46,6 +58,8 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 {{TitleProperty|Image}}
 
 -    **Crop|Bool**: Crop the image to **Width** x **Height**.
+
+
 
 ## Script
 

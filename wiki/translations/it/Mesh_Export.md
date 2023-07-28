@@ -9,9 +9,13 @@
 
 # Mesh Export/it
 
+
+
 ## Descrizione
 
 Il comando **Esporta mesh** esporta un oggetto mesh in un formato file mesh. Sono supportati diversi formati di file.
+
+
 
 ## Utilizzo
 
@@ -24,13 +28,19 @@ Il comando **Esporta mesh** esporta un oggetto mesh in un formato file mesh. Son
 4.  Inserisci un nome file. Se nel passaggio precedente è stata selezionata l\'opzione {{Value|Tutti i file (*.*)}} e non si specifica un\'estensione di file, viene utilizzata l\'estensione **.stl**.
 5.  Premere il pulsante **Salva**.
 
+
+
 ## Note
 
 -   Esistono alcune preferenze di esportazione correlate ai [Formati mesh](Import_Export_Preferences/it#Formati_mesh.md) ma queste non si applicano a questo comando. Sono utilizzati dal comando [Esporta](Std_Export/it.md).
 
+
+
 ## Preferenze
 
 -   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
+
+
 
 ## Script
 

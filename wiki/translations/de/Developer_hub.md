@@ -57,16 +57,19 @@ Die Entwicklerdokumentation umfasst die folgenden Abschnitte:
 
 ### FreeCAD ändern 
 
--   [Den FreeCAD Quellcode](The_FreeCAD_source_code/de.md) verstehen
--   [Patches einreichen](Tracker#Submitting_patches/de.md)
--   [Merkmale](Gui_Command/de.md) zu FreeCAD oder einem Arbeitsbereich hinzufügen
+-   Den[FreeCAD Quellcode](The_FreeCAD_source_code/de.md) verstehen
+-   [Patches einreichen](Tracker/de#Einreichen_von_Änderungssätzen.md)
+-   Add [Methoden](Gui_Command.md) (Befehle) zu FreeCAD oder einem Arbeitsbereich hinzufügen
 -   [Branding](Branding/de.md) oder *FreeCAD ein unverwechselbares Aussehen geben*
--   [Illustrationen](Artwork/de.md) die wir für FreeCAD erstellen, kannst Du ungehindert wiederverwenden
--   [Illustrationsrichtlinien](Artwork_Guidelines/de.md) Standards für Symbole
+-   [Grafik](Artwork/de.md) die wir für FreeCAD erstellen, kannst Du ungehindert wiederverwenden
+-   [Illustrationsrichtlinien](Artwork_Guidelines/de.md) Vorgaben für Symbole
 -   [FreeCAD übersetzen](Localisation/de.md)
--   [Zusätzliche Python Module](Extra_python_modules/de.md), oder *Wie die Python Funktionalität in FreeCAD erweitern*
+-   [Zusätzliche Python Module](Extra_python_modules/de.md), oder *Wie die Python-Funktionalität in FreeCAD erweitern*
 -   [Google Summer of Code](Google_Summer_of_Code/de.md) Engagieren über das Schülerförderprogramm von Google
 -   [Feinabstimmung](Fine-tuning/de.md) zeigt verschiedene Optionen und Parameterschalter, die Probleme lösen können.
+
+-   [Eine C++ Klasse in Python einbetten](Wrapping_a_Cplusplus_class_in_Python/de.md) zeigt, wie ein Python-Wrapper für eine C++ Klasse erstellt wird
+-   [Checkliste für das Hinzufügen einer Methode zu einem C++ Arbeitsbereich](NewFeatureCheckList_C++/de.md) enthält Hilfestellungen für Contributors.
 
 -   [Übersetzen eines externen Arbeitsbereichs](Translating_an_external_workbench/de.md)
 
@@ -136,14 +139,8 @@ FreeCAD, obwohl in bestimmten Bereichen verwendbar, steht am Anfang eines langen
 
 ## Gemeinschaft
 
-
-<div class="mw-translate-fuzzy">
-
--   [IRC Kanal](irc://chat.freenode.net/freecad) ,synchronisiert mit [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
--   [Entwicklungsforum](https://forum.freecadweb.org/viewforum.php?f=6)
-
-
-</div>
+-   [IRC Kanal](ircs://irc.libera.chat:6697/freecad), synchronisiert mit [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
+-   [Entwicklungsforum](https://forum.freecad.org/viewforum.php?f=6)
 
 -   [Entwicklungsfahrplan](Development_roadmap/de.md)
 

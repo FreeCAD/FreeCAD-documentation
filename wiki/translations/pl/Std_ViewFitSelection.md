@@ -10,9 +10,13 @@
 
 # Std ViewFitSelection/pl
 
+
+
 ## Opis
 
-Polecenie **Dopasuj do wyboru** powiększa i przesuwa ujęcie widoku tak, że wszystkie wybrane obiekty mieszczą się w aktywnym oknie [widoku 3D](3D_view/pl.md).
+Polecenie **Dopasuj do wyboru** powiększa i przesuwa ujęcie widoku tak, że wszystkie wybrane obiekty mieszczą się w aktywnym oknie [widoku 3D](3D_view/pl.md). Polecenie to jest przydatne w przypadkach, gdy z jakiegoś powodu obiekty znajdują się poza granicami bieżącego widoku 3D lub nie mogą być łatwo znalezione przy użyciu [nawigacji myszką](Mouse_navigation/pl.md).
+
+
 
 ## Użycie
 
@@ -22,6 +26,8 @@ Polecenie **Dopasuj do wyboru** powiększa i przesuwa ujęcie widoku tak, że ws
     -   Wybierz z menu opcję **Widok → Widoki standardowe → <img src="images/Std_ViewFitSelection.svg" width=24px>Dopasuj do wyboru**.
     -   Wybierz z menu opcję **<img src="images/Std_ViewFitSelection.svg" width=24px> Dopasuj do wyboru** z menu kontekstowego w oknie [widoku 3D](3D_view/pl.md).
     -   Użyj skrótu klawiaturowego: **V**, a następnie **S**.
+
+
 
 ## Tworzenie skryptów 
 

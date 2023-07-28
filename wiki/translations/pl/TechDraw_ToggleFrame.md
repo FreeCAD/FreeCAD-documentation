@@ -2,12 +2,14 @@
 - GuiCommand:
    Name:TechDraw ToggleFrame
    Name/pl:Rysunek Techniczny: Włącz / wyłącz wyświetlanie ramek
-   MenuLocation:Rysunek Techniczny → Włącz / wyłącz wyświetlanie ramek
+   MenuLocation:Rysunek Techniczny → Widoki → Włącz / wyłącz wyświetlanie ramek
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso:[Widok](TechDraw_View/pl.md), [Grupa rzutów](TechDraw_ProjectionGroup/pl.md)
+   SeeAlso:[Wstaw widok](TechDraw_View/pl.md), [Wstaw grupę rzutów](TechDraw_ProjectionGroup/pl.md)
 ---
 
 # TechDraw ToggleFrame/pl
+
+
 
 ## Opis
 
@@ -16,20 +18,32 @@ Narzędzie **Włącz / wyłącz wyświetlanie ramek** włącza lub wyłącza wy�
 <img alt="" src=images/TechDraw_ToggleFrame.png  style="width:400px;"> 
 *Widok rzutu bryły z włączonymi i wyłączonymi ramkami.*
 
+
+
 ## Użycie
 
-1.  Jeśli masz wiele stron rysunków w swoim dokumencie, będziesz musiał wybrać odpowiednią stronę w drzewie.
-2.  Naciśnij przycisk **<img src="images/TechDraw_ToggleFrame.svg" width=16px> [Włącz / wyłącz wyświetlanie ramek](TechDraw_ToggleFrame/pl.md)**.
-3.  Jeśli ramki widoku są aktualnie wyświetlane, znikną. Jeśli ramki widoku są ukryte, zostaną wyświetlone.
-4.  Możliwe jest, aby różne widoki były wyświetlane w różnych trybach. Jeśli tak się stanie, naciśnij przycisk **<img src="images/TechDraw_ToggleFrame.svg" width=16px> [Włącz / wyłącz wyświetlanie ramek](TechDraw_ToggleFrame/pl.md)** raz lub dwa razy, aby zsynchronizować widoki.
+1.  Jeśli w dokumencie znajduje się wiele stron rysunku: opcjonalnie aktywuj żądaną stronę, wybierając ją w oknie [widoku drzewa](Tree_view/pl.md).
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ToggleFrame.svg" width=16px> '''Włącz / wyłącz wyświetlanie ramek'''**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Widoki → <img src="images/TechDraw_ToggleFrame.svg" width=16px> Włącz / wyłącz wyświetlanie ramek**.
+    -   Jeśli strona jest wyświetlana w [głównym obszarze widoku](Main_view_area.md): kliknij prawym przyciskiem myszk na oknie strony i wybierz opcję **Włącz / wyłącz wyświetlanie ramek** z menu podręcznego.
+3.  Jeśli w dokumencie znajduje się wiele stron rysunków, a strona nie została jeszcze aktywowana, otworzy się okno dialogowe **Wybór strony**: {{Version/pl|0.20}}.
+    1.  Wybierz żądaną stronę.
+    2.  Naciśnij przycisk **OK**.
+4.  Aktualnie widoczne ramki widoku znikną. Pojawią się aktualnie niewidoczne ramki widoku.
+5.  Różne widoki mogą znajdować się w różnych trybach wyświetlania ramek. Jeśli tak się stanie, wywołaj to narzędzie raz lub dwa razy, aby ponownie zsynchronizować widoki.
+
+
 
 ## Kontekst
 
 Kropkowana ramka widoku i punkty wierzchołków służą jedynie do celów poglądowych, nie są w rzeczywistości częścią rysunku, więc nie będą widoczne po wyeksportowaniu strony do formatu PDF lub SVG.
 
-Sugerowany sposób działania to użycie narzędzia **<img src="images/TechDraw_ToggleFrame.svg" width=16px> [Włącz / wyłącz wyświetlanie ramek](TechDraw_ToggleFrame/pl.md)**, aby ukryć widoczność ramki otaczającej widok, a także dodatkowych punktów. Przy użyciu punktów, użyj narzędzi pomiarowych, aby wybrać odpowiednie krawędzie do pomiaru, a następnie wyłącz widoczność ramek *(i wierzchołków)*, aby zobaczyć efekt końcowy. Nie jesteś zadowolony? Ponownie włącz widoczność ramki *(i wierzchołków)*, wybierz inne wierzchołki i utwórz nowe pomiary, a następnie ponownie wyłącz widoczność ramki.
+Sugerowany sposób działania to użycie narzędzia **<img src="images/TechDraw_ToggleFrame.svg" width=16px> '''Włącz / wyłącz wyświetlanie ramek'''**, aby ukryć widoczność ramki otaczającej widok, a także dodatkowych punktów. Przy użyciu punktów, użyj narzędzi pomiarowych, aby wybrać odpowiednie krawędzie do pomiaru, a następnie wyłącz widoczność ramek *(i wierzchołków)*, aby zobaczyć efekt końcowy. Nie jesteś zadowolony? Ponownie włącz widoczność ramki *(i wierzchołków)*, wybierz inne wierzchołki i utwórz nowe pomiary, a następnie ponownie wyłącz widoczność ramki.
 
 Rozmiar punktów wierzchołków można dostosować w zakładce [skala](TechDraw_Preferences/pl#Skala.md). Nie należy ustawiać wartości ich rozmiaru na zero, a jedynie na tyle mały lub duży, aby wygodnie było je zaznaczać.
+
+
 
 ## Tworzenie skryptów 
 

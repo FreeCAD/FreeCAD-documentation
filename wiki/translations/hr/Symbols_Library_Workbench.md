@@ -6,7 +6,7 @@
 
 This repository contains a library of SVG symbols to be used in FreeCAD. Although they consist of simple SVG files, so they can also be imported inside the 3D document, they are primarily made for use on Drawing pages.
 
-It is maintained by the community of users of FreeCAD and is not part of the FreeCAD project, although it is made with the aim to bemused as a repository of parts by FreeCAD in the future.
+It is maintained by the community of users of FreeCAD and is not part of the FreeCAD project, although it is made with the aim to be used as a repository of parts by FreeCAD in the future.
 
 ## References
 
@@ -18,7 +18,11 @@ It is maintained by the community of users of FreeCAD and is not part of the Fre
 
 <img alt="" src=images/CompassRose.svg  style="width:128px;"> ![](images/FirstAngleProjection.svg ) ![](images/ThirdAngleProjection.svg ) ![](images/SectionMark01.png ) ![](images/SectionMark02.png ) ![](images/SectionMark03.png ) ![](images/SectionMark04.png )
 
+
+
 ## Instalacija
+
+
 
 ### Automatska instalacija 
 
@@ -40,7 +44,7 @@ The library is a simple container for SVG files. You can download it anywhere an
 
 ## Other useful links 
 
--   [Parts Library](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Parts_Library), [Bolts](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Bolts), [Fastners](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Fasteners), [FCGear](http://www.freecadweb.org/wiki/index.php?title=Sandbox:FCGear)
+-   [Parts Library](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Parts_Library), [Bolts](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Bolts), [Fasteners](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Fasteners), [FCGear](http://www.freecadweb.org/wiki/index.php?title=Sandbox:FCGear)
 -   [External workbenches](External_workbenches.md)
 -   [Macros recipes](Macros_recipes.md)
 -   [FreeCAD Download](Download.md)

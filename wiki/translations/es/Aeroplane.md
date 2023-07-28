@@ -43,6 +43,8 @@ Haga clic en [Colocación](Placement/es.md) (fíjate en la pequeña **[+]**) y a
 
 Si no está familiarizado con los ejes XYZ, juegue con los números del cuadro de traducción. Cuando termine de jugar haga clic en el botón **Reset**.
 
+
+
 ## Segundos pasos 
 
 <img alt="" src=images/HTCaeroplane02.png  style="width:400px;">
@@ -81,6 +83,8 @@ Haga clic en Caja y obtenga su [Colocación en Tareas](Placement/es.md). Observa
 
 
 
+
+
 ## Rotaciones
 
 Haz clic en Aeroplano y obtén su [Colocación en Tareas](Placement.md). En la sección de Rotación cambia donde dice \'Eje de rotación con ángulo\' por \'Ángulos de Euler\' porque son mucho más fáciles de trabajar.
@@ -113,4 +117,4 @@ Espero que este pequeño tutorial te ayude a manejar mejor las rotaciones.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Aeroplane/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Aeroplane/es

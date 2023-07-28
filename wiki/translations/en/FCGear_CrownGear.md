@@ -30,7 +30,7 @@ Known field of application of crown gears:
 2.  There are several ways to invoke the command:
     -   Press the **[<img src=images/FCGear_CrownGear.svg style="width:16px"> [Crown Gear](FCGear_CrownGear.md)** button in the toolbar.
     -   Select the **Gear → [<img src=images/FCGear_CrownGear.svg style="width:16px"> Crown Gear** option from the menu.
-3.  The crown gear is displayed without teeth by default. (<small>(v1.0)</small> )
+3.  The crown gear is displayed without teeth by default. (<small>(v0.21)</small> )
 4.  Change the gear parameters to the required conditions (see [Properties](#Properties.md)).
 5.  Set the **preview_mode** property to {{false}} to display the teeth (see [Notes](#Notes.md)).
 

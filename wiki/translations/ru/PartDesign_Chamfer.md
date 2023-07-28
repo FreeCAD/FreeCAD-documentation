@@ -12,9 +12,13 @@
 
 </div>
 
+
+
 ## Описание
 
 The <img alt="" src=images/PartDesign_Chamfer.svg  style="width:24px;"> **PartDesign Chamfer** tool creates chamfers on the selected edges of an object. It adds a **Chamfer** object to the document with its corresponding representation in the [Tree view](Tree_view.md).
+
+
 
 ## Применение
 
@@ -41,6 +45,8 @@ The <img alt="" src=images/PartDesign_Chamfer.svg  style="width:24px;"> **PartDe
 2.  The **Chamfer parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 3.  Press the **OK** button to finish.
 
+
+
 ## Опции
 
 -   To add edges do one of the following:
@@ -60,22 +66,26 @@ The <img alt="" src=images/PartDesign_Chamfer.svg  style="width:24px;"> **PartDe
     -   
         **Two distances**
         
-        : Two distances are used to place the chamfer edges. <small>(v0.19)</small> 
+        : Two distances are used to place the chamfer edges.
 
     -   
         **Distance and angle**
         
-        : A distance is used to place one chamfer edge, the placement of the other chamfer edge is defined by the angle of the chamfer. <small>(v0.19)</small> 
--   Press the **<img src="images/PartDesign_Flip_Direction.svg" width=16px> Flip direction** button to flip the direction of the chamfer (deactivated for **Equal distance**). <small>(v0.19)</small> 
+        : A distance is used to place one chamfer edge, the placement of the other chamfer edge is defined by the angle of the chamfer.
+-   Press the **<img src="images/PartDesign_Flip_Direction.svg" width=16px> Flip direction** button to flip the direction of the chamfer (deactivated for **Equal distance**).
 -   Set the **Size** of the chamfer.
 -   Set the **Size2** of the chamfer (only available if **Two distances** is selected).
 -   Set the **Angle** of the chamfer (only available if **Distance and angle** is selected).
 -   Check the **Use all edges** checkbox to select all edges of the previous feature. This deactivates the selection list and the related buttons. <small>(v0.20)</small> 
 
+
+
 ## Примечания
 
 -   PartDesign Chamfer should not be confused with [Part Chamfer](Part_Chamfer.md). Unless you know what you are doing, [Part Chamfer](Part_Chamfer.md) should not be used on a PartDesign Body. See [Part and PartDesign](Part_and_PartDesign.md).
 -   Chamfers cannot completely consume the adjacent faces.
+
+
 
 ## Свойства
 

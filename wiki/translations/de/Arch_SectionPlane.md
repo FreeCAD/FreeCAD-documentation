@@ -10,6 +10,8 @@
 
 # Arch SectionPlane/de
 
+
+
 ## Beschreibung
 
 Dieses Werkzeug platziert im aktuellen Dokument eine Schnittebene \"Ding\", die eine Schnitt- oder Ansichtsebene definiert. Das \"Ding\" wird entsprechend der aktuellen [Entwurf Arbeitsebene](Draft_SelectPlane/de.md) platziert und kann durch Verschieben und Drehen verschoben und neu ausgerichtet werden, bis es die 2D Ansicht beschreibt, die du erhalten möchtest. Das Objekt Schnittebene berücksichtigt nur einen bestimmten Satz von Objekten. Objekte, die beim Erstellen einer Schnittebene ausgewählt werden, werden automatisch zu diesem Satz hinzugefügt. Andere Objekte können später mit den [Arch Komponente hinzufügen](Arch_Add/de.md) und [Arch Komponente entfernen](Arch_Remove/de.md) Werkzeugen hinzugefügt oder daraus entfernt werden oder durch Doppelklicken auf die Schnittebene in der Baumansicht.
@@ -17,6 +19,8 @@ Dieses Werkzeug platziert im aktuellen Dokument eine Schnittebene \"Ding\", die 
 Die Schnittebene allein wird keine Ansicht der gesetzten Objekte erzeugen. Dazu musst du eine [TechDraw ArchAnsicht](TechDraw_ArchView/de.md) erzeugen, um eine Ansicht auf einer [TechDraw StandardSeite](TechDraw_Workbench/de.md) zu erzeugen.
 
 <img alt="" src=images/Arch_SectionPlane_example.jpg  style="width:600px;">
+
+
 
 ## Anwendung
 
@@ -33,6 +37,8 @@ Die Schnittebene allein wird keine Ansicht der gesetzten Objekte erzeugen. Dazu 
 
 </div>
 
+
+
 ## Optionen
 
 
@@ -43,17 +49,11 @@ Die Schnittebene allein wird keine Ansicht der gesetzten Objekte erzeugen. Dazu 
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
--   Wenn ein Schnittebenenobjekt ausgewählt ist, verwendedas [Entwurf Form2DAnsicht](Draft_Shape2DView/de.md) Werkzeug, um ein Formobjekt zu erstellen, das die Schnittansicht im Dokument darstellt.
-
-
-</div>
+-   Wenn ein Schnittebenenobjekt ausgewählt ist, verwende das Werkzeug [Draft Form2DAnsicht](Draft_Shape2DView/de.md), um ein Formobjekt zu erstellen, das die Schnittansicht im Dokument darstellt.
 
 <img alt="" src=images/Arch_Section_example2.jpg  style="width:600px;">
 
--   Erstelle [Zeichnungs EntwurfsAnsichten](Draft_Drawing/de.md), wenn du mit dem [Zeichnung Arbeitsbereich](Drawing_Workbench/de.md) arbeitest, oder [TechDraw ArchAnsicht](TechDraw_ArchView/de.md), wenn du den [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) verwendest.
+-   Eine [TechDraw Arch-Ansicht](TechDraw_ArchView/de.md) erstellen.
 
 <img alt="" src=images/Arch_Section_example3.jpg  style="width:600px;">
 
@@ -61,7 +61,12 @@ Die Schnittebene allein wird keine Ansicht der gesetzten Objekte erzeugen. Dazu 
 
 <img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width:600px;">
 
+
+
 ## Eigenschaften
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Nur Festkörper**: Wenn dies True ist, werden nicht-feste Objekte in der Einstellung nicht berücksichtigt.
 
@@ -75,15 +80,31 @@ Die Schnittebene allein wird keine Ansicht der gesetzten Objekte erzeugen. Dazu 
 
 -    **Clipansicht**: Wenn dies `True` ist, wird die Ansicht auf die Anzeigehöhe und -länge der Schnittebene zugeschnitten. Dadurch wird die Schnittebene effektiv zu einer orthografischen Kamera, wodurch das Sichtfeld begrenzt wird. <small>(v0.19)</small> 
 
+
+</div>
+
 <img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width:600px;">
 
 
 
 *Die Arch Schnittebene mit der Option Clip Ansicht verhält sich wie eine Kamera und begrenzt das Sichtfeld.*
 
+
+
 ## Kleine Verbesserungen 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Das manuelle Hinzufügen einer Eigenschaft namens **RotateSolidRender** des Typs **App::PropertyAngle** zu den Schnittebene **Ansicht**-Eigenschaften (rechtsklicke in die Ansicht-Eigenschaften → Alle anzeigen, rechtsklicke erneut → Eigenschaft hinzufügen) erlaubt es, das Render-Objekt zu drehen, wenn der Volumenkörper-Modus benutzt wird. Dies ist sinnvoll, wenn eine gerenderte Ansicht bspw. sowohl Arch- als auch Draft-Element enthält und die Arch-Elemente im Verhältnis zu den Draft-Elementen gedreht sind. {{version/de|0.19}}
+
+
+</div>
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -92,7 +113,16 @@ Die Schnittebene allein wird keine Ansicht der gesetzten Objekte erzeugen. Dazu 
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Das SchnittEbene Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole verwendet werden, in dem die folgende Funktion verwendet wird:
+
+
+</div>
 
 
 ```python

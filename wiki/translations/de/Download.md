@@ -5,21 +5,9 @@
 
 ## Aktuelle stabile Version 
 
+Die Version 0.20.2 von FreeCAD (29603) wurde am 07.12.2022 veröffentlicht. Um herauszufinden, was es Neues gibt, sIehe die [Veröffentlichungshinweise](Release_notes_0.20/de.md).
 
-<div class="mw-translate-fuzzy">
-
-Die Version 0.20.1 von FreeCAD (29410) wurde am 10.08.2022 veröffentlicht. Um herauszufinden, was es Neues gibt, sIehe die [Veröffentlichungshinweise](Release_notes_0.20/de.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-SHA256 Prüfsummen zur Überprüfung der Integrität eines Downloads kann man auf der [0.20.1 Release-Page](https://github.com/FreeCAD/FreeCAD/releases/tag/0.20.1).
-
-
-</div>
+SHA256 Prüfsummen zur Überprüfung der Integrität eines Downloads kann man auf der [0.20.2 Release-Page](https://github.com/FreeCAD/FreeCAD/releases/tag/0.20.2).
 
 Frühere Versionen können von der Seite der veröffentlichten [Versionen](https://github.com/FreeCAD/FreeCAD/releases) heruntergeladen werden.
 
@@ -28,7 +16,7 @@ Frühere Versionen können von der Seite der veröffentlichten [Versionen](https
 |                                                                                                                        |                                                                                                                                    |                                                    |
 | [Install on Windows](Installing_on_Windows.md)                                                                 | [Install on Mac](Installing_on_Mac.md)                                                                                     | [Install on Linux](Installing_on_Linux.md) |
 |                                                                                                                        |                                                                                                                                    |                                                    |
-| [64-bit installer](https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD-0.20.2-WIN-x64-installer-2.exe) | [macOS 64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD_0.20.2-2022-12-27-conda-macOS-x86_64-py310.dmg) | [AppImage 64-bit](AppImage.md)             |
+| [64-bit installer](https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD-0.20.2-WIN-x64-installer-3.exe) | [macOS 64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD_0.20.2-2022-12-27-conda-macOS-x86_64-py310.dmg) | [AppImage 64-bit](AppImage.md)             |
 ++++
 
 ### Hinweise für Windowsbenutzer 
@@ -37,15 +25,9 @@ Frühere Versionen können von der Seite der veröffentlichten [Versionen](https
 -   Eine portable Version, die keine Installation benötigt, steht unter [Veröffentlichungen](https://github.com/FreeCAD/FreeCAD/releases/) zur Verfügung.
 -   Das Paket kann auch vom [Chocolatey](https://chocolatey.org/packages/freecad)-Manager installiert werden.
 
+### Hinweise für macOS-Benutzer 
 
-<div class="mw-translate-fuzzy">
-
-### Hinweise für Mac OS X Benutzer 
-
-Mac OS X 10.12 Sierra ist die minimal unterstützte Version.
-
-
-</div>
+macOS 10.12 Sierra ist die minimal unterstützte Version.
 
 
 
@@ -66,31 +48,18 @@ HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./name_of_AppImage_file.A
 
 Weitere Informationen über die Umgebungsvariablen von FreeCAD können auf der [Konfigurationsseite](Start_up_and_Configuration/de#Environment_variables.md) gefunden werden.
 
-
-<div class="mw-translate-fuzzy">
-
 ## Entwicklungsversionen
 
 Die Entwicklung von FreeCAD ist aktiv.
 
--   Für Linux Anwender probiere die Entwicklung [AppImage](AppImage/de.md) aus.
--   Für MacOS und Windows Entwicklungsbuilds und Entwicklungsquellcode siehe die [weekly builds](https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds) Seite.
+-   Für Entwicklungs-Builds und Entwicklungsquellcode siehe die Seite [Weekly-Builds](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds).
 -   Um den neuesten Quellcode zu kompilieren, siehe [Kompilieren](Compiling/de.md).
-
-
-</div>
 
 
 
 ## Zusätzliche Module und Makros 
 
-
-<div class="mw-translate-fuzzy">
-
-Die FreeCAD Gemeinschaft bietet viele zusätzliche Module und Makros. Seit 0.17 können sie einfach aus FreeCAD heraus mit dem [Addon-Manager](Std_AddonMgr/de.md) installiert werden <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;">.
-
-
-</div>
+Die FreeCAD Gemeinschaft bietet viele zusätzliche Module und Makros. Seit 0.17 können sie einfach aus FreeCAD heraus mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr.md) installiert werden.
 
 
 

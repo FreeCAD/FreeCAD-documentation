@@ -106,15 +106,19 @@ FreeCAD unterstützt den Export als SVG und PDF Dateien, basierend auf den eigen
 
 Wir sind nun fertig mit dem grundlegenden Arbeitsablauf für den [Drawing-Arbeitsbereich](Drawing_Workbench/de.md).
 
+
+
 ## Empfohlene Lektüre 
 
 -   Um zu lernen, wie man eigene Vorlagen erstellt, siehe [Zeichnungsvorlage Anleitung](Drawing_Template_HowTo/de.md)
 -   Für weitere Informationen über die verfügbaren Werkzeuge siehe die Seite [Zeichnung-Arbeitsbereich](Drawing_Workbench/de.md)
 
 
- {{Drawing Tools navi}}
+{{Drawing Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Drawing](Category_Drawing.md) > Drawing tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing tutorial/de

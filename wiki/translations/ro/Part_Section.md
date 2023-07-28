@@ -1,6 +1,6 @@
 # Part Section/ro
 ---
-- GuiCommand:   Name:Part Section   MenuLocation:Part → Section   Workbenches:[Complete](Part_Workbench___Part]],_[[Complete_Workbench.md)|SeeAlso:[Cross-sections](Part_SectionCross.md)---
+- GuiCommand:   Name:Part Section   MenuLocation:Part → Section   Workbenches:[SeeAlso:[[Part_SectionCross|Cross-sections](Part_Workbench___Part]].md)---
 
 
 </div>
@@ -22,6 +22,8 @@ Extrage o secțiune din intersecția a două forme selectate, cea de-a doua serv
 
 ![](images/PartSection1_it.png ) 
 *A cube sectioned with a cylinder*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -67,6 +69,8 @@ A PartDesign Section object is derived from a [Part Feature](Part_Feature.md) ob
 {{Properties_Title|Section}}
 
 -    **Approximation|Bool**: Approximate the output edges.
+
+
 
 ## Legături
 

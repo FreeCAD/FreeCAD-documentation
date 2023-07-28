@@ -25,7 +25,7 @@
 
 -   Après la création d\'un site, vous pouvez ajouter des objets par glisser-déposer dans la [vue en arborescence](Tree_view/fr.md) ou en utilisant le bouton **<img src="images/Arch_Add.svg" width=16px> [Arch Ajouter](Arch_Add/fr.md)**. Cela ne détermine que les objets qui font partie du site donné et n\'a aucun effet sur le terrain.
 -   Vous pouvez supprimer les objets d\'un site par un glisser-déposer hors du site de la [vue en arborescence](Tree_view/fr.md) ou en utilisant le bouton **<img src="images/Arch_Remove.svg" width=16px> [Arch Soustraire](Arch_Remove/fr.md)**.
--   Vous pouvez ajouter un objet terrain en modifiant la propriété **Terrain** du site. Le terrain peut être une coque ouverte ou ({{Version/fr|1.0}}) un solide.
+-   Vous pouvez ajouter un objet terrain en modifiant la propriété **Terrain** du site. Le terrain peut être une coque ouverte ou ({{Version/fr|0.21}}) un solide.
 -   Vous pouvez ajouter des volumes à ajouter ou à soustraire du terrain de base en double-cliquant sur le site et en ajoutant des objets à ses groupes Additions ou Soustractions. Les objets doivent être des solides.
 -   La propriété **Extrusion Vector** peut être utilisée pour résoudre certains problèmes qui peuvent apparaître lorsque le terrain est une coque ouverte et qu\'il y a des additions et/ou des soustractions. Afin d\'effectuer ces additions/soustractions, la coque ouverte est extrudée en un solide, qui est ensuite assemblé/soustrait de manière appropriée. Selon la topologie du terrain, cette extrusion peut échouer avec le vecteur d\'extrusion par défaut. Vous pouvez alors remédier au problème en modifiant cette valeur. Cette propriété est ignorée si le terrain est un solide.
 
@@ -65,9 +65,9 @@
 
 -    **Remove Splitter**: efface les séparations de la forme résultante
 
--    **Declination**: angle entre le nord vrai et le nord dans ce document, c'est-à-dire l'axe des Y. {{version/fr|0.18}} Cela signifie que par défaut (déclinaison de 0 degré) le Nord pointe vers l'axe Y et est vers l'est dans l\'Axe X; l\'angle est incrémenté dans les sens contraire des aiguilles d\'une montre. Cette propriété était connue auparavant comme une **North Deviation**.
+-    **Declination**: angle entre le nord vrai et le nord dans ce document, c'est-à-dire l'axe des Y. Cela signifie que par défaut (déclinaison de 0 degré) le Nord pointe vers l'axe Y et est vers l'est dans l\'Axe X; l\'angle est incrémenté dans les sens contraire des aiguilles d\'une montre. Cette propriété était connue auparavant comme une **North Deviation**.
 
--    **EPW File**: permet de joindre à ce site un fichier EPW provenant du [site Ladybug données EPW](https://www.ladybug.tools/epwmap/). Ceci est nécessaire pour afficher les diagrammes de la rose des vents. {{version/fr|0.19}}
+-    **EPW File**: permet de joindre à ce site un fichier EPW provenant du [site Ladybug données EPW](https://www.ladybug.tools/epwmap/). Ceci est nécessaire pour afficher les diagrammes de la rose des vents.
 
 
 
@@ -103,7 +103,7 @@ La géométrie du site est alors calculée, les surfaces les périmètres et vol
 
 ## Diagrammes solaires et éoliens 
 
-Si [Ladybug](https://www.ladybug.tools/ladybug.html) est installé, [Arch Site](Arch_Site/fr.md) peut afficher un diagramme solaire et/ou une rose des vents. Pour cela, les propriétés **Longitude**, **Latitude** et **NorthDeviation** doivent être correctement définies et {{PropertyView/fr|SolarDiagram}} ou {{PropertyView/fr|Wind Rose}} activée `True`. Respectivement {{Version/fr|0.17}} et {{Version/fr|0.19}}
+Si [Ladybug](https://www.ladybug.tools/ladybug.html) est installé, [Arch Site](Arch_Site/fr.md) peut afficher un diagramme solaire et/ou une rose des vents. Pour cela, les propriétés **Longitude**, **Latitude** et **NorthDeviation** doivent être correctement définies et {{PropertyView/fr|SolarDiagram}} ou {{PropertyView/fr|Wind Rose}} activée `True`.
 
 **Remarque** : si vous n\'avez pas Ladybug, [pysolar](http://pysolar.org/) est toujours pris en charge pour générer des diagrammes solaires mais pas les roses des vents. Pysolar 0.7 ou supérieur est requis. Cette version ne fonctionne qu\'avec Python 3. Si vous avez besoin de cette fonctionnalité avec Python 2, vous devriez avoir Pysolar 0.6 car c\'est la dernière version qui fonctionne avec Python 2. Cependant, Ladybug est un outil beaucoup plus puissant qui sera probablement plus utilisé dans l\'avenir. Nous vous recommandons donc de l\'utiliser au lieu de pysolar. Ladybug peut être installé simplement via [pip](https://github.com/ladybug-tools/ladybug).
 

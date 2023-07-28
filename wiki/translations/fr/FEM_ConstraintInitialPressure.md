@@ -4,7 +4,7 @@
    Name/fr:FEM Contrainte de pression initiale
    MenuLocation:Modèle → Contraintes du fluide → Contrainte de pression initiale
    Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:1.0
+   Version:0.21
    SeeAlso:[FEM Contrainte de vitesse d'écoulement](FEM_ConstraintInitialFlowVelocity/fr.md)
 ---
 
@@ -14,6 +14,8 @@
 
 Crée une contrainte de pression initiale pour une analyse d\'écoulement de fluide.
 
+
+
 ## Utilisation
 
 1.  Vous pouvez
@@ -22,6 +24,8 @@ Crée une contrainte de pression initiale pour une analyse d\'écoulement de flu
     -   soit sélectionner le menu **Modèle → Contraintes du fluide → Contrainte de pression initiale**.
 2.  Saisissez une valeur de pression initiale.
 3.  Pour une analyse 3D, sélectionnez un \"solide\" (corps) de votre modèle. Pour une analyse 2D, sélectionnez une face.
+
+
 
 ## Remarques
 

@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -40,6 +42,8 @@ Iconița **Toggle Constraint** comută constrângerile dimensionale (bloc, dista
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

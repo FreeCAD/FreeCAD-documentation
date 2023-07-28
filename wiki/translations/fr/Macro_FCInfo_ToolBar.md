@@ -2,10 +2,10 @@
 {{Macro/fr
 |Name=Macro FCCInfo ToolBar
 |Icon=FCInfoToolBar.png
-|Description=Donne des informations en temps réel sur la forme sélectionnée et peut afficher une conversion de rayon, diamètre, longueur, surface, volume... dans différentes unités (métriques et impériales) dans une barre d'outils. Les informations à afficher sont paramétrables dans les Paramètres de FreeCAD.
+|Description=Donne des informations en temps réel sur la forme sélectionnée et peut afficher une conversion de rayon, diamètre, longueur, surface, volume... dans différentes unités (métriques et impériales) dans une barre d'outils. Les informations à afficher sont paramétrables dans les paramètres de FreeCAD.
 |Author=Mario52
-|Version=00.03
-|Date=2022/03/29
+|Version=00.04
+|Date=2023/06/28
 |FCVersion=0.18 et plus
 |Download=[https://wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png Icône de la barre d'outils]
 |SeeAlso=[Arch Prendre des cotes](Arch_Survey/fr.md), [Macro FCInfo](Macro_FCInfo/fr.md), [Macro FCInfoGlass](Macro_FCInfoGlass/fr.md)
@@ -13,13 +13,15 @@
 
 ## Description
 
-Donne des informations sur la forme sélectionnée et peut afficher une conversion de rayon, diamètre, longueur, surface, volume \... dans différentes unités (métriques et impériales) dans une barre d\'outils. Les informations à afficher sont paramétrables dans les Paramètres de FreeCAD.
+Donne des informations sur la forme sélectionnée et peut afficher une conversion de rayon, diamètre, longueur, surface, volume \... dans différentes unités (métriques et impériales) dans une barre d\'outils. Les informations à afficher sont paramétrables dans les paramètres de FreeCAD.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/45da6835214d570588244705d2c0f37f97320874/FCInfo_ToolBar.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/40ca52f49edb1e29c70f0eaef42934aec19ca594/FCInfo_ToolBar.FCMacro}}
 
 ![FCInfo_ToolBar](images/Macro_FCInfo_ToolBar_00.png ) 
 *FCInfo ToolBar*
+
+
 
 ## Utilisation
 
@@ -142,7 +144,11 @@ Les options sont situées dans les paramètres de FreeCAD :
 -   ***seT_User_UnitSymbolMicro***
     -   donne le symbole micro (Défaut **u**)
 
+
+
 ## Démarrage automatique 
+
+
 
 #### Par lignes de commande 
 
@@ -150,16 +156,18 @@ Dans votre raccourci *verify your right path*
 
 \"Chemin_complet_de_FreeCAD\" \"Chemin_complet_de_la_macro.FCMacro\"
 
-exemple:
+exemple :
 
 
 ```python
 "C:/FreeCAD_0.20.26858_Win-LPv12.5.4_vc17.x-x86-64/bin/FreeCAD.exe" "C:/Users/User/AppData/Roaming/FreeCAD/Macro/FCInfo_ToolBar.FCMacro"
 ```
 
+
+
 #### Dans le répertoire Mod 
 
-1.  Après avoir installé la macro avec le [Gestionnaire des extensions](Std_AddonMgr/fr.md)
+1.  Après avoir installé la macro avec le [gestionnaire des extensions](Std_AddonMgr/fr.md)
 2.  Créez le répertoire *FCInfo_ToolBar*.
 3.  Copiez la macro FCInfo_ToolBar.FCMacro (copier et non déplacer) dans le répertoire *FCInfo_ToolBar* et renommez-la en FCInfo_ToolBar.py
 4.  Créez un fichier nommé InitGui.py
@@ -195,17 +203,31 @@ if switch_User_NotRunAuto == False:
 3.  Si la macro n\'est pas exécutée (normal), exécutez la macro FCInfo_ToolBar.FCMacro comme une macro normale.
 4.  Au prochain démarrage de FreeCAD, la macro doit démarrer automatiquement.
 
+
+
 ## Liens
 
-La discussion sur le Forum [Feature request: coordinates display](https://forum.freecadweb.org/viewtopic.php?f=8&t=66294)
+La discussion sur le forum [Feature request: coordinates display](https://forum.freecadweb.org/viewtopic.php?f=8&t=66294)
 
 ## Version
+
+version 00.04 28/06/2023 : correction styleSheet et:
+
+
+```python
+                        sommeEdgesSTR = str(sommeEdges)
+```
+
+remplacé par: 
+```python
+                        sommeEdgesSTR = str(round(sommeEdges * uniteM, seT_User_DecimalValue)) + " " + uniteMs
+```
 
 version: (00.02 +) 00.03 2022/03/22 : ajout de somme à tous les bords (edges)
 
 version: 00.02 2022/03/14 : ajout de calculs en temps réel (avec présélection), dimension de la barre d\'outils, ajout d\'informations sur les maillages et les points
 
-version: 00.01 2022/02/16 :
+version: 00.01 2022/02/16 : création
 
 
 

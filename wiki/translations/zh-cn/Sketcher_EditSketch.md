@@ -9,6 +9,8 @@
 
 # Sketcher EditSketch/zh-cn
 
+
+
 ## 描述
 
 
@@ -20,12 +22,8 @@
 </div>
 
 
-<div class="mw-translate-fuzzy">
 
-## 如何使用
-
-
-</div>
+## 用法
 
 
 <div class="mw-translate-fuzzy">
@@ -38,13 +36,15 @@
 
 ## Notes
 
--   Choosing [Leave Sketch](Sketcher_LeaveSketch.md) will terminate the edit mode.
+-   Choosing [Sketcher LeaveSketch](Sketcher_LeaveSketch.md) will terminate the edit mode.
 
 
 <div class="mw-translate-fuzzy">
 
 
 
+
+}
 
 
 </div>

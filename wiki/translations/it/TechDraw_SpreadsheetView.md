@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -25,6 +27,8 @@ Questo strumento ti consente di posizionare una vista di un [foglio di calcolo](
 ![](images/TechDraw_Spreadsheetview.png ) 
 *Elemento Figlio di calcolo inserito nella pagina di disegno TechDraw*
 
+
+
 ## Utilizzo
 
 
@@ -36,6 +40,12 @@ Questo strumento ti consente di posizionare una vista di un [foglio di calcolo](
 
 
 </div>
+
+## Notes
+
+-   In {{VersionMinus|0.19}} some characters in spreadsheet cells will cause errors when displayed in a Spreadsheet View. These characters have to be XML encoded. Currently known characters are: {{Incode|&}} (replace with {{Incode|&amp;amp;}}) and {{Incode|&lt;}} (replace with {{Incode|&amp;lt;}}). See also this [discussion](https://forum.freecadweb.org/viewtopic.php?p=629853#p629885) in the forum.
+
+
 
 ## Proprietà
 
@@ -65,10 +75,6 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 
 </div>
-
-## Notes
-
--   In {{VersionMinus|0.19}} some characters in spreadsheet cells will cause errors when displayed in a Spreadsheet View. These characters have to be XML encoded. Currently known characters are: {{Incode|&}} (replace with {{Incode|&amp;amp;}}) and {{Incode|&lt;}} (replace with {{Incode|&amp;lt;}}). See also this [discussion](https://forum.freecadweb.org/viewtopic.php?p=629853#p629885) in the forum.
 
 
 <div class="mw-translate-fuzzy">

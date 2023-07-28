@@ -21,7 +21,7 @@
 
 </div>
 
-Due to changes to the GitHub platform in the year 2020 the Addon manager no longer works if you use FreeCAD version 0.17 or earlier. You need to upgrade to version [0.18.5](https://github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) or later. Alternatively you can install addons manually, see [Notes](#Notes.md) below.
+Из-за изменений в платформе GitHub в 2020 году Менеджер дополнений больше не работает в FreeCAD 0.17 и в более ранних версиях. Вам нужно перейти на версию [0.18.5](https://github.com/freecad/freecad/releases/tag/0.18.5) или более позднюю. В качестве альтернативы вы можете устанавливать дополнения вручную, см. [Примечания](#Примечания.md) ниже.
 
 
 
@@ -47,13 +47,15 @@ Due to changes to the GitHub platform in the year 2020 the Addon manager no long
 7.  At any time you can choose to manually update your local cache to see the latest updates available for each addon.
 8.  Update checks may be set up to be automatic, or done manually via a button click (configured in user preferences). If GitPython and git are installed on your system then update information is fetched using git. If not, then update information is obtained from any present metadata file.
 
-Clicking on an addon in this view brings up the addon\'s Details page:
+При нажатии на блок с кратким описанием дополнения в представленном окне, открывается страница с более детальными сведениями о дополнении:
 
 <img alt="" src=images/AddonManager_Details.png  style="width:600px;">
 
-The details page shows buttons allowing installing, uninstalling, updating, and temporarily disabling an addon. For installed addons it lists the currently installed version and the installation date, and whether that is the most recent version available. Below is an embedded web browser window showing the addon\'s README page (for workbenches and preference packs), or Wiki page (for macros).
+На странице детального описания дополнения отображаются кнопки, позволяющие устанавливать, удалять, обновлять и временно отключать дополнение. Для уже установленных дополнений в нем указана текущая установленная версия и дата установки, а также является ли это самой последней доступной версией. Ниже показано встроенное окно веб-браузера, показывающее страницу README дополнения (для верстаков и пакетов настроек) или страницу Wiki (для макросов).
 
-## Preferences
+
+
+## Настройки
 
 The preferences for the Addon manager can be found in the [Preferences Editor](Preferences_Editor#Addon_Manager.md). <small>(v0.20)</small> 
 
@@ -69,20 +71,22 @@ The preferences for the Addon manager can be found in the [Preferences Editor](P
 
 
 
+## Информация для разработчиков дополнений 
+
+См. [Дополнения](Addon/ru#Информация_для_разработчиков.md).
+
+
+
+## Программирование
+
 
 <div class="mw-translate-fuzzy">
 
-## Информация для разработчиков 
+
+{{Version/ru|1.0}}
 
 
 </div>
-
-See [Addon](Addon#Information_for_developers.md).
-
-## Scripting
-
-
-<small>(v1.0)</small> 
 
 Some features of the Addon manager are designed for access via FreeCAD\'s Python API. In particular an addon can be installed, updated, and removed via the Python interface. Most uses of this API require you to create an object with at least three attributes: {{Incode|name}}, {{Incode|branch}} and {{Incode|url}}. For example:
 
@@ -111,7 +115,7 @@ installer.run()
 
 Note that this code blocks until complete, so you shouldn\'t run it on the main GUI thread. To the Addon manager, \"install\" and \"update\" are the same call: if this addon is already installed, and git is available, it will be updated via \"git pull\". If it is not installed, or was installed via a non-git installation method, it is downloaded from scratch (using git if available).
 
-To uninstall, use:
+Для удаления (деинсталляции), используйте:
 
 
 ```python

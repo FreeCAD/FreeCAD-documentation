@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw DraftView
-   MenuLocation:TechDraw → Insert Draft Workbench Object
+   MenuLocation:TechDraw → Views From Other Workbenches → Insert Draft Workbench Object
    Workbenches:[TechDraw](TechDraw_Workbench.md), [Draft](Draft_Workbench.md)
    SeeAlso:[TechDraw Arch View](TechDraw_ArchView.md)
 ---
@@ -10,17 +10,22 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> [DraftView](TechDraw_DraftView.md) tool inserts a view of a selected [Part](Part_Workbench.md)-based or Group object into a drawing page. Unlike the standard <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [View](TechDraw_View.md) tool, views created with this tool are handled by the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md), and specially designed for showing 2D objects. See [Notes](#Notes.md).
+The **TechDraw DraftView** tool inserts a view of a selected [Part](Part_Workbench.md)-based or Group object into a drawing page. Unlike the standard <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [View](TechDraw_View.md) tool, views created with this tool are handled by the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md), and specially designed for showing 2D objects. See [Notes](#Notes.md).
 
 ![](images/TechDraw_DraftView_example.png ) 
 *Draft elements like circles and arrays imported into a TechDraw drawing page*
 
 ## Usage
 
-1.  Select a Draft object in the 3D view or in the tree
-2.  If you have multiple drawing pages in your document, you will need to select the desired page in the tree.
-3.  Press the **<img src="images/TechDraw_DraftView.svg" width=16px> [Insert Draft Workbench Object](TechDraw_DraftView.md)** button
-4.  A view of the draft object will appear on the page.
+1.  Optionally rotate the [3D view](3D_view.md). The camera direction in the [3D view](3D_view.md) determines the initial value of the **Direction** property of the View.
+2.  Select one or more objects in the [3D view](3D_view.md) or [Tree view](Tree_view.md). A separate view will created for each object.
+3.  If there are multiple drawing pages in the document: optionally add the desired page to the selection by selecting it in the [Tree view](Tree_view.md).
+4.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_DraftView.svg" width=16px> [Insert Draft Workbench Object](TechDraw_DraftView.md)** button.
+    -   Select the **TechDraw → Views From Other Workbenches → <img src="images/TechDraw_DraftView.svg" width=16px> Insert Draft Workbench Object** option from the menu.
+5.  If there are multiple drawing pages in the document and you have not yet selected a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
+    1.  Select the desired page.
+    2.  Press the **OK** button.
 
 ## Options
 
@@ -29,6 +34,10 @@ The <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> [DraftVi
 -   The Draft View also supports all Draft objects that are not Part-based, such as dimensions and texts
 -   Color, line width and line pattern can be specified in the properties. Line patterns can be fine-tuned by directly giving a [stroke-dasharray](https://www.w3.org/TR/SVG/painting.html#StrokeProperties) value, such as 3,5
 -   Projected faces are filled with the face color
+
+## Notes
+
+The DraftView is rendered within the [Draft Workbench](Draft_Workbench.md), therefore TechDraw has limited control over its appearance. You may need to make changes within Draft to get the representation you want.
 
 ## Properties
 
@@ -54,10 +63,6 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 -    **Line Spacing|Float**: The spacing to use between lines of texts for multiline texts.
 
 -    **Override Style|Bool**: If `True`, line color, width and style of this view will override those of the rendered object.
-
-## Notes
-
-The DraftView is rendered within the [Draft Workbench](Draft_Workbench.md), therefore TechDraw has limited control over its appearance. You may need to make changes within Draft to get the representation you want.
 
 ## Scripting
 

@@ -14,11 +14,13 @@
 
 La commande **Std Zoom fenêtre** effectue un zoom avant sur une zone rectangulaire définie par l\'utilisateur, une boîte, dans la [vue 3D](3D_view/fr.md) active.
 
+
+
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande:
+1.  Il existe plusieurs façons d\'appeler la commande :
     -   Sélectionnez l\'option **Affichage → Zoom → <img src="images/Std_ViewBoxZoom.svg" width=16px> Zoom fenêtre** dans le menu.
-    -   Utilisez le raccourci clavier: **Ctrl**+**B**.
+    -   Utilisez le raccourci clavier : **Ctrl**+**B**.
 2.  Faites glisser un rectangle dans la vue 3D.
 
 

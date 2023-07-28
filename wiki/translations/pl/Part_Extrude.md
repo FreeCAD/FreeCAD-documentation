@@ -1,114 +1,140 @@
 ---
 - GuiCommand:/pl
    Name:Part Extrude
-   Name/pl:Część: Wyciągnij
+   Name/pl:Część: Wyciągnięcie
    MenuLocation:Część → Wyciągnięcie
-   Workbenches:[środowisko pracy Część](Part_Workbench/pl.md)
+   Workbenches:[Część](Part_Workbench/pl.md)
    SeeAlso:[Przytnij](Draft_Trimex/pl.md), [Wyciągnij](PartDesign_Pad/pl.md)
 ---
 
 # Part Extrude/pl
 
-![600px](images/Part_Extrude_demo.png)
+
 
 ## Opis
 
 **Wyciągnięcie części** powoduje wydłużenie kształtu o określoną odległość i w określonym kierunku. Typ kształtu wyjściowego zależy od typu kształtu wejściowego i wybranych opcji.
 
-In most common scenarios, the following lists the expected output shape type from a given input shape type,
+W najczęstszych scenariuszach poniższa lista zawiera oczekiwany typ kształtu wyjściowego z danego typu kształtu wejściowego,
 
--   Extrude a Vertex (point), will produce a lineal Edge (Line)
--   Extrude a open edge (e.g. line, arc), will produce a open face (e.g. plane)
--   Extrude a closed edge (e.g. circle), will optionally produce a closed face (e.g. an open ended cylinder) or if the parameter \"solid\" is \"true\" will produce a solid (e.g. a closed solid cylinder)
--   Extrude a open Wire (e.g. a Draft Wire), will produce a open shell (several joined faces)
--   Extrude a closed Wire (e.g. a Draft Wire), will optionally produce a shell (several joined faces) or if the parameter \"solid\" is \"true\" will produce a solid
--   Extrude a face (e.g. plane), will produce a solid (e.g. Cuboid)
--   Extrude a **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Draft ShapeString](Draft_ShapeString.md)**, will produce a compound of solids (the string is a compound of the letters which are each a solid)
--   Extrude a shell of faces, will produce a Compsolid.
+-   Wyciągnięcie wierzchołka *(punktu)* spowoduje utworzenie krawędzi liniowej *(linii)*.
+-   Wyciągnięcie otwartej krawędzi *(np. linii, łuku)*, spowoduje utworzenie otwartej ściany *(np. płaszczyzny)*
+-   Wyciągnięcie zamkniętej krawędzi *(np. okręgu)*, opcjonalnie utworzy zamkniętą ścianę *(np. otwarty walec)* lub, jeśli parametr *bryła* ma wartość {{true/pl}}, utworzy bryłę *(np. zamknięty, pełny walec)*.
+-   Wyciągnięcie otwartej krzywej *(np. krzywa środowiska Rysunek Roboczy)*, spowoduje utworzenie otwartej powłoki *(kilka połączonych ścian)*.
+-   wyciągnięcie zamkniętej krzywej *(np. krzywa środowiska Rysunek Roboczy)*, opcjonalnie utworzy powłokę *(kilka połączonych ścian)* lub, jeśli parametr *bryła* ma wartość {{true/pl}}, utworzy bryłę
+-   Wyciągnięcie ściany *(np. płaszczyzny)*, spowoduje utworzenie bryły *(np. prostopadłościanu)*.
+-   Wyciągnięcie **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Kształt z tekstu](Draft_ShapeString/pl.md)**, utworzy złożenie brył *(ciąg jest złożeniem liter, z których każda jest bryłą)*
+-   Wyciągnięcie powłoki ze ścian, {{true/pl}} utworzy bryłę Złożoną.
 
-## Usage
+![600px](images/Part_Extrude_demo.png)
 
-1.  Select the shape(s) in the [3D view](3D_view.md) or in the Model [tree view](Tree_view.md)
-2.  Click on the **<img src="images/Part_Extrude.svg" width=16px> [Part Extrude](Part_Extrude.md)** button in the toolbar, or go to the **Part → Extrude** menu
-3.  Set the direction and length and optionally other parameters (see the following [Parameters](#Parameters.md) section for more details).
-4.  Click **OK**.
 
-Alternatively, the selection can be done after launching the tool, by selecting one or more shape from the list in the [Tasks panel](Task_panel.md).
 
-The Model tree will list as many Extrude objects as there were selected shapes. Each input shape is placed underneath its Extrude object.
+*Przykłady wytłaczania*
 
-## Parameters
 
-The Extrude shape is defined by the following parameters, which can be edited after its creation in [Property editor](Property_editor.md).
 
--   **Base**: the input shape (the shape upon which the Part Extrude was applied).
+## Użycie
 
--   **Dir**: the direction to extend the shape. If **Dir Mode** is \'Custom\', you can edit **Dir**. Otherwise, **Dir** is read-only, and computed from the linked shape.
+1.  Wybierz kształt*(y)* w oknie [widoku 3D](3D_view/pl.md) lub [Widoku drzewa](Tree_view/pl.md).
+2.  Kliknij przycisk **<img src="images/Part_Extrude.svg" width=16px> [Wyciągnięcie ...](Part_Extrude/pl.md)
+** na pasku narzędzi lub przejdź do menu **Część → Wyciągnięcie ...**
+3.  Ustaw kierunek i długość oraz opcjonalnie inne parametry (więcej szczegółów znajduje się w sekcji [Parametry](#Parametry.md)).
+4.  Kliknij **OK**.
 
--   **Dir Link**: parametric link to a edge (line) that sets the direction of extrusion.
+Alternatywnie, wyboru można dokonać po uruchomieniu narzędzia, wybierając jeden lub więcej kształtów z listy w [Panelu zadań](Task_panel/pl.md).
 
--   **Dir Mode**: sets how **Dir** is controlled. \'Custom\' means **Dir** is editable. \'Edge\' means Dir is obtained from an edge (line) linked by **Dir Link**. \'Normal\' means Dir is perpendicular to plane of the input shape.
+Drzewo modelu wyświetli tyle obiektów Wyciągnięcia, ile wybrano kształtów. Każdy kształt wejściowy jest umieszczony pod swoim obiektem Wyciągnięcie.
 
--   **Length Fwd**: The distance to extrude by. If both **Length Fwd** and **Length Rev** are zero, the length of **Dir** vector is used.
 
--   **Length Rev**: Additional length to extrude against **Dir**.
 
--   **Solid**: if True, extruding a closed edge or a closed wire will yield a solid. If False, a shell will result.
+## Parametry
 
--   **Reversed**: reverses the extrusion to go against **Dir**.
+Kształt Wyciągnięcia jest definiowany przez następujące parametry, które mogą być edytowane po jego utworzeniu w [Edytorze właściwości](Property_editor/pl.md).
 
--   **Symmetric**: if True, extrusion is centered at the input shape, and total length is **Length Fwd**. **Length Rev** is ignored.
+-   **Podstawa**: kształt wejściowy *(kształt, na którym zastosowano wyciągnięcie)*.
 
--   **Taper Angle** and **Taper Angle Rev**: applies an angle to the extrusion, so that sides of the extrusion are drafted by the specified angle. Positive angle means the cross-section expands. **Taper Angle Rev** sets the taper for the reversed part of the extrusion (the part from **Length Rev**).{{VersionMinus|0.19}} Tapered extrusion is only supported for shapes without inner structures. Taper does not work well if the shape contains B-splines.
+-   **Kierunek**: kierunek rozszerzenia kształtu. Jeśli \"Tryb kierunku\" ma wartość \"Użytkownika\", można edytować \"Kierunek\". W przeciwnym razie **Kierunek** jest tylko do odczytu i jest obliczany na podstawie połączonego kształtu.
 
--   **Face Maker Class**: sets C++ class name of face making code, which is used when making solids from wires. This property is here mainly for maintaining backward compatibility. Do not touch, unless you know what you are doing.
+-   **Kierunek połączenia**: parametryczne połączenie z krawędzią *(linią)*, które określa kierunek wytłaczania.
 
--   **Placement**: the standard [placement](Placement.md) parameters.
+-   **Kierunek**: kierunek wydłużenia kształtu. Jeśli **Tryb Kierunku** ma wartość *Użytkownika*, można edytować **Kierunek**. W przeciwnym razie **Kierunek** jest tylko do odczytu i jest obliczany na podstawie połączonego kształtu.
 
--   **Label**: label to be shown in the Model [tree view](Tree_view.md) (not available on Extrude creation).
+-   **Długość wzdłuż**: Odległość do wyciągnięcia. Jeśli zarówno **Długość wzdłuż**, jak i **Długość przeciwnie** wynoszą zero, używana jest długość wektora **Kierunek**.
 
-## Task dialog 
+-   **Długość przeciwnie**: Dodatkowa długość do wyciągnięcia względem **Długość**.
+
+-   **Utwórz bryłę**: jeśli wartość wynosi {{True/pl}}, wyciągnięcie zamkniętej krawędzi lub zamkniętego krzywej spowoduje utworzenie bryły. Jeśli wartość ta wynosi {{False/pl}}, wynikiem będzie powłoka.
+
+-   **Odwrócony**: odwraca wyciskanie w kierunku przeciwnym do parametry **Kierunek**.
+
+-   **Symetrycznie**: jeśli wartość ta jest równa True, wytłaczanie jest wyśrodkowane na kształcie wejściowym, a całkowita długość jest równa *Długość wzdłuż*. **Długość przeciwnie** jest ignorowana.
+
+-   **Kąt ścięcia** oraz **Kąt ścięcia przeciwnie**: stosuje kąt do wyciągnięcia, dzięki czemu boki wyciągnięcia są wyciągnięte pod określonym kątem. Dodatni kąt oznacza rozszerzenie przekroju. **Kąt ścięcia przeciwnie** ustawia odwrotne zwężenie dla części wytłoczenia *(część z **Długość przeciwnie**)*.
+    -   
+        {{Version/pl|0.20}}
+        
+        Wewnętrzne struktury otrzymują przeciwny kąt stożka. Ma to na celu ułatwienie projektowania form i wyprasek.
+
+    -   
+        {{VersionMinus/pl|0.19}}
+        
+        Stożkowe wytłaczanie jest obsługiwane tylko w przypadku kształtów bez struktur wewnętrznych. Wytłaczanie stożkowe nie działa dobrze, jeśli kształt zawiera krzywe złożone.
+
+-   **Klasa kreatora ścian**: ustawia nazwę klasy C++ kodu tworzącego ściany, który jest używany podczas tworzenia brył z krzywych. Ta właściwość służy głównie do zachowania kompatybilności wstecznej. Nie używaj jej, chyba że wiesz co robisz.
+
+-   **Umiejscowienie**: standardowe parametry [Umiejscowienia](Placement/pl.md).
+
+-   **Etykieta**: etykieta wyświetlana w oknie [widoku drzewa](Tree_view/pl.md) *(niedostępna w trakcie tworzenia Wyciągnięcia)*.
+
+
+
+## Okno dialogowe zadania 
 
 ![](images/Part_Extrude_dialog.png )
 
--    **OK**button creates the extrusion, and closes the dialog.
+-   Przycisk **OK** tworzy wytłoczenie i zamyka okno dialogowe.
 
--    **Close**button closes dialog, without doing anything.
+-   Przycisk **Zamknij** zamyka okno dialogowe, nie robiąc nic.
 
--    **Apply**button creates the extrusion, but does not close the dialog. You can then select another shape in the list on the bottom, and create more extrusions. Clicking **Apply** may times creates many extrusions.
+-   Przycisk **Zastosuj** tworzy wyciągnięcie, ale nie zamyka okna dialogowego. Następnie można wybrać inny kształt z listy na dole i utworzyć więcej wyciągnięć. Kliknięcie przycisku **Zastosuj** może spowodować utworzenie wielu wyciągnięć.
 
--   \'Direction\' radio buttons: set the way extrusion direction is computed.
+-   Przyciski wyboru **Kierunek**: ustawiają sposób obliczania kierunku wyciągnięcia.
 
--    **Select**button: click it, and then pick an edge in [3D view](3D_view.md). That edge will appear in text field next to the button, in format \"ObjectName:EdgeN\". You can also type the link manually. Values X,Y,Z will be filled according to the edge direction.
+-   Przycisk **Wybierz**: kliknij go, a następnie wybierz krawędź w oknie [Widoku 3D](3D_view/pl.md). Krawędź ta pojawi się w polu tekstowym obok przycisku, w formacie \"ObjectName:EdgeN\". Możesz również wpisać link ręcznie. Wartości X,Y,Z zostaną wypełnione zgodnie z kierunkiem krawędzi.
 
--    **X**, **Y**, **Z** buttons: Click *x* button to set extrusion direction to +*x* axis. Click it again to set -*x* axis.
+-   Przyciski **X**, **Y**, **Z**: Kliknij przycisk **X**, aby ustawić kierunek wyciągnięcia na oś **+X**. Kliknij go ponownie, aby ustawić oś **-X**.
 
--    **X**, **Y**, **Z** input fields: set or display the direction vector of extrusion. If both lengths are zero, the length of this vector sets the length of extrusion, and values are always in mm, regardless of unit preferences.
+-   Pola wejściowe **X**, **Y**, **Z**: ustawiają lub wyświetlają wektor kierunku wyciągnięcia. Jeśli obie długości wynoszą zero, długość tego wektora ustawia długość wyciągnięcia, a wartości są zawsze w mm, niezależnie od preferencji dotyczących jednostek.
 
--   Length fields: set length of extrusion. These input fields have unit support.
+-   Pola długości: ustawiają długość wyciągnięcia. Te pola wejściowe obsługują jednostki.
 
--   Symmetric: spreads out the extrusion into both directions, so that the profile remains in the middle.
+-   Symetrycznie: rozkłada wyciągnięcie w obu kierunkach, dzięki czemu profil pozostaje ustawiony środkowo.
 
--   Taper Outward Angle: positive angle means profile is expanded at other end of extrusion.
+-   Kąt ścięcia wzdłuż: dodatni kąt oznacza, że profil jest rozszerzany na drugim końcu wytłoczenia.
 
--   Create Solid checkbox: if checked, extruding a closed wire or edge will yield a solid. It is checked by default, if a closed wire was preselected before invoking Part Extrude.
+-   Pole wyboru Utwórz bryłę: jeśli pole jest zaznaczone, wyciągnięcie zamkniętej krawędzi lub krzywej spowoduje utworzenie bryły. Jest domyślnie zaznaczone, jeśli zamknięta krawędź została wstępnie wybrana przed wywołaniem funkcji Wyciągnięcia.
 
--   Shape list: here you select, what shapes to extrude. If multiple objects are selected, multiple Extrude objects are created.
+-   Lista kształtów: tutaj można wybrać kształty do wyciągnięcia. W przypadku wybrania wielu obiektów tworzonych jest wiele obiektów wyciągnięcia.
 
-## Notes
 
--   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles and to specify the direction. <small>(v0.20)</small> 
 
--   The task dialog does not offer a preview, yet. **Apply** will create an extrusion object every time you click it, which can be useful as preview; however, they will remain and yet another one will be created as you click **OK**. [Undo](Std_Undo.md) can be useful to clean them up before clicking **OK**.
+## Uwagi
 
-## Comparison with PartDesign Pad 
+-   Obiekty typu [odnośnik](App_Link/pl.md) powiązane z odpowiednimi typami obiektów i kontenery [App: Część](App_Part/pl.md) z odpowiednimi widocznymi obiektami wewnątrz mogą być również używane jako profile i do określania kierunku. {{Version/pl|0.20}}
 
-[PartDesign Pad](PartDesign_Pad.md) is also an extrusion feature, but there are important differences:
+-   Okno dialogowe zadania nie oferuje jeszcze podglądu. Przycisk **Zastosuj** utworzy obiekt wyciągnięcia za każdym razem, gdy go klikniesz, co może być przydatne jako podgląd. Jednak pozostaną one i kolejne zostaną utworzone po kliknięciu przycisku **OK**. [Cofnij](Std_Undo/pl.md) może być przydatne do wyczyszczenia ich przed kliknięciem **OK**.
 
--   Part Extrude always creates a standalone shape. PartDesign Pad fuses the extrusion result to the rest of the Body.
--   Part Extrude doesn\'t care where it is in model tree. PartDesign Pad can only live inside a [PartDesign Body](PartDesign_Body.md).
--   Part Extrude can extrude any object that has a Part geometry ([OpenCASCADE](OpenCASCADE.md) shape), except for solids and CompSolids.
--   Part Extrude can extrude individual faces of other objects. PartDesign Pad will only accept either Sketch or faces of PartDesign objects as a profile.
+
+
+## Porównanie z wyciągnięciem Projekt Części 
+
+[Wyciągnięcie](PartDesign_Pad/pl.md) środowiska Projekt Części jest również funkcją wyciągnięcia, ale istnieją między nimi istotne różnice:
+
+-   Wyciągnięcie środowiska Część zawsze tworzy samodzielny kształt. Wyciągnięcie środowiska Projekt Części łączy wynik wyciągnięcia z resztą Zawartości.
+-   Wyciągnięcie środowiska Część nie dba o to, gdzie znajduje się w drzewie modelu. Wyciągnięcie środowiska Projekt Części może znajdować się tylko wewnątrz [Zawartości](PartDesign_Body/pl.md) środowiska Projekt Części.
+-   Wyciągnięcie części może wytłaczać dowolny obiekt, który ma geometrię części *(kształt [OpenCASCADE](OpenCASCADE/pl.md))*, z wyjątkiem brył i brył złożonych.
+-   Wyciągnięcie środowiska Część może wytłaczać pojedyncze ściany innych obiektów. Wyciągnięcie środowiska Projekt Części będzie akceptować jako profil tylko szkic lub ściany obiektów środowiska Projekt Części.
 
 
 

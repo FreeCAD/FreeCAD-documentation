@@ -11,7 +11,7 @@
 
 ## Description
 
-Les outils de suppression vous permettent d\'effectuer 2 types d\'opérations:
+Les outils de suppression vous permettent d\'effectuer 2 types d\'opérations :
 
 -   Supprimer un sous-composant d\'un objet Arch, par exemple supprimer une boîte qui a été ajoutée à un mur avec **<img src="images/Arch_Add.svg" width=16px> [Arch Ajouter](Arch_Add/fr.md)**.
 -   Soustraire un objet issu de l\'[Atelier Part](Part_Workbench/fr.md) d\'un composant Arch tel qu\'un **<img src="images/Arch_Wall.svg" width=16px> [Arch Mur](Arch_Wall/fr.md)** ou **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md)**.
@@ -21,6 +21,8 @@ La contrepartie de cet outil est l\'outil **<img src="images/Arch_Add.svg" width
 
 <img alt="" src=images/Arch_Remove_example.jpg  style="width:600px;"> 
 *Une boîte soustraite d'un mur, laissant un trou dedans.*
+
+
 
 ## Utilisation
 
@@ -47,7 +49,7 @@ removeComponents(objectsList, host=None)
 -   Supprime les objets donnés dans `objectsList` de leurs parents.
 -   Si un objet `host` est spécifié, cette fonction essaiera d\'ajouter les objets dans `objectsList` en tant que trous de l\'élément `host`.
 
-Exemple: 
+Exemple : 
 ```python
 import FreeCAD, Draft, Arch
 

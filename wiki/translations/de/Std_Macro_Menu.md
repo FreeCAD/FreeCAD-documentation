@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Einführung
 
 Das **Std Menü Makro** ist eines der 7 Untermenüs im [Standardmenü](Standard_Menu/de.md):
@@ -27,6 +29,8 @@ Das **Std Menü Makro** ist eines der 7 Untermenüs im [Standardmenü](Standard_
 
 Das Menü Makro stellt Werkzeuge bereit für die Aufnahme und Ausführung von [Makros](Macros/de.md).
 
+
+
 ## Werkzeuge
 
 Die folgenden Werkzeuge sind in diesem Menü verfügbar:
@@ -37,7 +41,7 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 -   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:32px;">[Makros\...](Std_DlgMacroExecute/de.md) Öffnet ein Dialogfeld zum Verwalten und Ausführen von Makros.
 
--   Zuletzt verwendete Makros: zeigt eine Liste der zuletzt verwendeten Makros, die mit einer Tastenkombination aufgerufen werden können, z.B. **Strg**+**Umschalt**+**1**. Dies kann in den [Einstellungen](Preferences_Editor/de.md) konfiguriert werden. <small>(v0.19)</small> 
+-   <img alt="" src=images/Std_RecentMacros.svg  style="width:32px;"> Zuletzt verwendete Makros: zeigt eine Liste der zuletzt verwendeten Makros, die mit einer Tastenkombination aufgerufen werden können, z.B. **Strg**+**Umschalt**+**1**. Dies kann in den [Einstellungen](Preferences_Editor/de.md) konfiguriert werden.
 
 -   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:32px;">[Makro ausführen](Std_DlgMacroExecuteDirect/de.md)
 

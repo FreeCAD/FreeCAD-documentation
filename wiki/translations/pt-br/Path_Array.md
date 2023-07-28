@@ -9,7 +9,7 @@
 
 ## Description
 
-This tool creates a new path by duplicating another path several times at a certain interval distance.
+The tool <img alt="" src=images/Path_Array.svg  style="width:24px;"> [Array](Path_Array.md) creates a new path by duplicating another path several times at a certain interval distance.
 
 ## Usage
 

@@ -158,6 +158,9 @@ git clone https://github.com/FreeCAD/FreeCAD.git
 
 Это приведет к началу настройки и \"завершится ошибкой\" из-за отсутствия настроек. Это нормально, вы еще не указали местоположение пакета LibPack. Однако могут возникнуть и другие сбои, которые потребуют некоторых дальнейших действий с вашей стороны.
 
+
+<div class="mw-translate-fuzzy">
+
 Если произойдет сбой с сообщением о том, что Visual Studio не найдена, поддержка CMake в MSVC еще не установлена. Для этого:
 
 1.  Откройте среду разработки MSVC
@@ -166,12 +169,21 @@ git clone https://github.com/FreeCAD/FreeCAD.git
 4.  На правой стороне теперь вы должны видеть, что будет установлен компонент \"Visual C++ tools for CMake\".
 5.  Установите его.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Если он завершится ошибкой с сообщением о неверной версии Python или отсутствующем Python, то:
 
 1.  Используйте поле \"Search:\" в CMake для поиска строки \"Python\".
 2.  Если вы видите там путь, подобный \"C:/Program Files/Python38/python.exe\", CMake распознал Python, который уже установлен на вашем компьютере, но эта версия несовместима с LibPack. Поскольку LibPack включает совместимую версию Python, измените следующие параметры Python в CMake в соответствии с его путями (при условии, что LibPack находится в папке \"D:\\FreeCAD-build\\FreeCADLibs_12.5.2_x64_VC17\"):
 
 ![](images/CMake_Python_settings.png )
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -186,8 +198,6 @@ git clone https://github.com/FreeCAD/FreeCAD.git
 </div>
 
 Теперь ошибок быть не должно. Если вы по-прежнему сталкиваетесь с ошибками, которые не можете диагностировать, посетите [Install/Compile forum](https://forum.freecadweb.org/viewforum.php?f=4) на веб-сайте форума FreeCAD. Если CMake прошел правильно, нажмите на кнопку \"Generate\". После этого вы можете закрыть CMake и начать компиляцию FreeCAD с помощью Visual Studio. Однако для первой компиляции держите его открытым на случай, если вам захочется или потребуется изменить некоторые параметры процесса сборки.
-
-\"Примечание:\" При компиляции FreeCAD 0.19 переменная CMake \"BUILD_ENABLE_CXX_STD\" будет установлена в \"C++14\", в то время как она будет установлена для FreeCAD 0.20 в \"C++17\". Это связано с тем, что для FreeCAD 0.20 требуется, по крайней мере, стандартная версия языка C++ 17. Поэтому, когда вы в последний раз компилировали FreeCAD 0.19, необходимо повторно запустить CMake для FreeCAD 0.20, чтобы изменить стандарт языка C++.
 
 
 
@@ -262,7 +272,13 @@ git clone https://github.com/FreeCAD/FreeCAD.git
 
 Если вы не получили никаких ошибок, значит все готов. \"Поздравляю!\" Теперь вы можете выйти из MSVC или оставить его открытым.
 
+
+<div class="mw-translate-fuzzy">
+
 \"Примечание:\" Для FreeCAD 0.20 требуется, по крайней мере, стандартная версия языка C++ 17, но сторонний компонент \"flann\" из LibPack еще не готов для этого. Поэтому вы получите ошибки компиляции для целевого \"обратного проектирования\". Чтобы исправить это, щелкните правой кнопкой мыши на этом целевом объекте в обозревателе решений MSVC и выберите в контекстном меню последнюю запись \"Properties\". В появившемся диалоговом окне измените \"C++ Language Standard\" на \"ISO C++14\". Наконец, снова создайте цель \"ALL_BUILD\".
+
+
+</div>
 
 
 
@@ -296,6 +312,11 @@ As prerequisite for the debug build, you need to do this:
 
 
 </div>
+
+If there were no compilation errors, and if the **FREECAD_COPY\_\*** options mentioned in the [CMake Configuration step](#CMake.md) above were enabled, you can start the debug build:
+
+1.  Right-click on the target **FreeCADMain** and then choose **Set as Startup Project** in the context menu.
+2.  Finally click in the toolbar on the button with the green triangle named **Local Windows Debugger**.
 
 Это запустит отладочную сборку FreeCAD, и вы сможете использовать среду разработки MSVC для ее отладки.
 
@@ -435,6 +456,9 @@ As prerequisite for the debug build, you need to do this:
 
 Метод 2 является более простым, поскольку он автоматически гарантирует, что все библиотеки, необходимые для запуска FreeCAD.exe находятся в нужной папке. В FreeCAD.exe и библиотеки будут выведены в папку, указанную вами в переменной CMake \"CMAKE_INSTALL_PREFIX\".
 
+
+<div class="mw-translate-fuzzy">
+
 Для метода 1 вам нужно поместить библиотеки в папку \"bin\" вашей папки сборки (где FreeCAD.exe есть). Это можно легко сделать:
 
 1.  Откройте графический интерфейс CMake.
@@ -442,6 +466,9 @@ As prerequisite for the debug build, you need to do this:
 3.  Найдите там параметр переменной \"FREECAD_COPY_LIBPACK_BIN_TO_BUILD\" и проверьте его.
 4.  Найдите там параметр переменной \"FREECAD_COPY_PLUGINS_BIN_TO_BUILD\" и проверьте его.
 5.  Нажмите на кнопку \"Configure\". В конце настройки CMake автоматически скопирует необходимые библиотеки из папки LibPack.
+
+
+</div>
 
 ### Troubleshooting
 

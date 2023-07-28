@@ -11,7 +11,7 @@
 
 ## Description
 
-The Vertical Extent Dimension tool adds a linear dimension to a View. The dimension extends from the bottom most point on the selected objects to the top most point. A CosmeticVertex will be placed at each point.
+The **TechDraw VerticalExtentDimension** tool adds a linear dimension to a View. The dimension extends from the bottom most point on the selected objects to the top most point. A CosmeticVertex will be placed at each point.
 
 <img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
 *Vertical Extent dimension of B-spline Face*

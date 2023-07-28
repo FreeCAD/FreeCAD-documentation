@@ -21,6 +21,8 @@ Module allows you to import/create PCB boards in FreeCAD. Scope of module:
 -   Home page: <https://sourceforge.net/projects/eaglepcb2freecad/>
 -   Source code on github: <https://github.com/marmni/FreeCAD-PCB>
 
+
+
 ## Alati
 
 For detailed workbench use description see **index.pdf** in the source code or [manual](https://raw.githubusercontent.com/marmni/FreeCAD-PCB/master/index.pdf)
@@ -34,6 +36,8 @@ Drop down menu
 ![](images/PCB-export-BOM.png ) ![](images/PCB-export-hole.png ) ![](images/PCB-create-new.png ) ![](images/PCB-explode.png ) ![](images/PCB-bounding-box.png )
 
 ## Installation
+
+
 
 ### Automatska instalacija 
 
@@ -109,4 +113,4 @@ Security → Edit → Users and mark all checkboxes under \'Allow\' option.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > PCB Workbench/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > PCB Workbench/hr

@@ -5,7 +5,7 @@
 
 ## Введение
 
-The standard menu gives access to tools that can be used in all workbenches. The menu may look slightly different depending on the desktop environment (KDE, Gnome, Windows, macOS, etc.). Workbenches can also add sub-menus depending on how they decide to structure their tools.
+Стандартное меню содержит инструменты, применимые во всех верстаках. Меню может немного отличаться в зависимости от среды рабочего стола (KDE, Gnome, Windows, macOS и т. д.). Верстаки также могут внедрять собственные подменю если это требуется.
 
 
 {{StdMenu
@@ -29,23 +29,25 @@ The standard menu gives access to tools that can be used in all workbenches. The
 
 *The standard menu*
 
-## Sub-menus 
 
-The standard menu is composed of 7 sub-menus:
 
--    {{StdMenu|[File](Std_File_Menu.md)}}The File menu provides tools related to file input and output.
+## Состав стандартного меню 
 
--    {{StdMenu|[Edit](Std_Edit_Menu.md)}}The Edit menu provides tools to change the model.
+Стандартное меню включает в себя 7 меню:
 
--    {{StdMenu|[View](Std_View_Menu.md)}}The View menu provides tools to change the [3D view](3D_view.md) and the view properties of objects in the model, and tools related to the display of interface components.
+-    {{StdMenu|[Файл](Std_File_Menu/ru.md)}}Меню «Файл» содержит инструменты, связанные с вводом и выводом файлов.
 
--    {{StdMenu|[Tools](Std_Tools_Menu.md)}}The Tools menu provides tools for debugging models, customizing FreeCAD\'s behavior, as well as auxiliary tools.
+-    {{StdMenu|[Правка](Std_Edit_Menu/ru.md)}}Меню «Правка» содержит инструменты, предназначенные для изменения моделей.
 
--    {{StdMenu|[Macro](Std_Macro_Menu.md)}}The Macro menu provides tools related to the recording and execution of [macros](Macros.md).
+-    {{StdMenu|[Вид](Std_View_Menu/ru.md)}}Меню «Вид» предоставляет инструменты для настройки [3D вида](3D_view/ru.md), свойств отображения объектов, а также инструменты, связанные с отображением компонентов интерфейса.
 
--    {{StdMenu|[Windows](Std_Windows_Menu.md)}}The Windows menu allows switching and rearranging of [Main view area](Main_view_area.md) windows.
+-    {{StdMenu|[Инструменты](Std_Tools_Menu/ru.md)}}Меню «Инструменты» предоставляет инструменты для отладки моделей, настройки поведения FreeCAD, а также вспомогательные инструменты.
 
--    {{StdMenu|[Help](Std_Help_Menu.md)}}The Help menu provides access to the help system and links to the FreeCAD website and forum.
+-    {{StdMenu|[Макросы](Std_Macro_Menu/ru.md)}}Меню «Макросы» предоставляет инструменты, связанные с записью и выполнением [макросов](Macros/ru.md).
+
+-    {{StdMenu|[Окна](Std_Windows_Menu/ru.md)}}Меню Окна позволяет переключать и переставлять окна [области основного вида](Main_view_area/ru.md).
+
+-    {{StdMenu|[Справка](Std_Help_Menu/ru.md)}}Меню «Справка» обеспечивает доступ к справочной системе, веб-сайту и форуму FreeCAD.
 
 
 {{Std Base navi

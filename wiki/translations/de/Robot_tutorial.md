@@ -55,10 +55,12 @@ klicken auf <img alt="" src=images/Robot_InsertWaypoint.svg  style="width:24px;"
 4.  Simulation beobachten
 
 
- {{Robot Tools navi}} {{Userdocnavi
+{{Robot Tools navi
+
+}} {{Userdocnavi
 ---
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Robot](Robot_Workbench.md) > Robot tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/de

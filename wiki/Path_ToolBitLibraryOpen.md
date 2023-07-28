@@ -11,11 +11,11 @@
 
 ## Description
 
-The **<img src="images/Path_ToolBitLibraryOpen.svg" width=16px> [ToolBit Library editor](Path_ToolBitLibraryOpen.md)**:
+The <img alt="" src=images/Path_ToolBitLibraryOpen.svg  style="width:16px;"> [ToolBit Library editor](Path_ToolBitLibraryOpen.md):
 
  ![](images/Toolbitmanager.png ) 
 
-The library manager (shown above) is the dialog for creating, managing, and organize toolbits. Launching the library manager from either the Path menu or from the \'manager\' button in the dock will display the manager as a modal dialog.
+The library manager (shown above) is the dialog for creating, managing, and organize toolbits. Launching the library manager from either the Path menu or from the \'manager\' button in the [dock](Path_ToolBitDock.md) will display the manager as a modal dialog.
 
 From here the user can perform all task related to toolbit management :
 
@@ -28,19 +28,19 @@ From here the user can perform all task related to toolbit management :
 
 Only the creation of new toolshapes cannot be done from the toolbit library manager. This is an advanced topic. (see [Path ToolShape](Path_ToolShape.md) creation).
 
-The left pane (1) shows a list of all libraries in the current working directory. The current library is highlighted.
+The left pane **(1)** shows a list of all libraries in the current working directory. The current library is highlighted.
 
-The current working directory path is shown in the window title bar (2). A file selector (3) can be used to select a different working directory.
+The current working directory path is shown in the window title bar **(2)**. A file selector **(3)** can be used to select a different working directory.
 
-The right side pane (4) shows all toolbits in the currently selected library. Doubleclicking in the left column allows you to change the default tool number for this toolbit. The toolnumber will be used when creating a tool controller. The number is an attribute of the library. This means the same toolbit can exist in multiple tool libraries and have different default toolnumbers in each.
+The right side pane **(4)** shows all toolbits in the currently selected library. Doubleclicking in the left column allows you to change the default tool number for this toolbit. The toolnumber will be used when creating a tool controller. The number is an attribute of the library. This means the same toolbit can exist in multiple tool libraries and have different default toolnumbers in each.
 
-Tools at the top (5) are used to create/add/remove toolbits from the current library.
+Tools at the top **(5)** are used to create/add/remove toolbits from the current library.
 
-The save as button (6) can be used to write the library to a new file or export to a valid tooltable format. Currently only LinuxCNC format is supported.
+The save as button **(6)** can be used to write the library to a new file or export to a valid tooltable format. Currently only LinuxCNC format is supported.
 
 The manager will remember the last active tool library and working directory between uses.
 
-The close button (7) at bottom right will dismiss the tool library manager. Any changes to the current library are persisted to disk. Pressing the Escape key will dismiss the manager but not make any changes to the current library. Whichever library is selected when the manager is dismissed will become the new default and will be shown in the Toolbit Dock.
+The close button **(7)** at bottom right will dismiss the tool library manager. Any changes to the current library are persisted to disk. Pressing the Escape key will dismiss the manager but not make any changes to the current library. Whichever library is selected when the manager is dismissed will become the new default and will be shown in the Toolbit Dock.
 
 ## Usage
 
@@ -48,7 +48,7 @@ The close button (7) at bottom right will dismiss the tool library manager. Any 
 
 1.  There are several ways to open the Toolbit Library Manager:
     -   Select the **Path → <img src="images/Path_ToolBitLibraryOpen.svg" width=16px> ToolBit Library editor** option from the menu.
-    -   Open the Toolbit dock as described above and press the **<img src="images/Path_ToolBitLibraryOpen.svg" width=16px>** button to open the Library manager.
+    -   Open the [ToolBit Dock](Path_ToolBitDock.md) as described above and press the **<img src="images/Path_ToolBitLibraryOpen.svg" width=16px>** button to open the Library manager.
 2.  Select a library from the list.
 3.  Create/Add/Remove toolbits from the library.
 4.  Double-click a row to edit the toolbit.

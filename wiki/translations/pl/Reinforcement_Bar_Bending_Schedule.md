@@ -1,106 +1,117 @@
 ---
 - GuiCommand:
    Name:Reinforcement Bar Bending Schedule
-   MenuLocation:Reinforcement → Bar Bending Schedule
-   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Name/pl:Zbrojenie: Schemat gięcia prętów
+   MenuLocation:brak
+   Workbenches:[Architektura](Arch_Workbench/pl.md), [BIM](BIM_Workbench/pl.md)
    Version:0.19
-   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar BOM](Arch_Rebar_BOM.md), [Arch Rebar Reinforcement Drawing](Arch_Rebar_Drawing_Dimensioning.md)
+   SeeAlso:[Zbrojenie](Reinforcement_Workbench/pl.md), [Zestawienie zbrojenia](Arch_Rebar_BOM/pl.md), [Wymiarowanie rysunku zbrojenia](Arch_Rebar_Drawing_Dimensioning/pl.md)
 ---
 
 # Reinforcement Bar Bending Schedule/pl
 
-## Description
 
-The [Bar Bending Schedule](Reinforcement_Bar_Bending_Schedule.md) tool allows the user to create the bar bending schedule of reinforcing bars.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+## Opis
+
+Narzędzie **Schemat gięcia prętów** umożliwia użytkownikowi utworzenie harmonogramu gięcia prętów zbrojeniowych.
+
+To polecenie jest częścią [zewnętrznego środowiska pracy](External_workbenches/pl.md) [Zbrojenie](Reinforcement_Workbench/pl.md), które można zainstalować za pomocą <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md) poprzez menu **Przybory → Menadżera dodatków → Zbrojenie**.
 
 <img alt="" src=images/Reinforcement_Bar_Bending_Schedule_example.svg  style="width:1300px;">
 
 
 
-*Bar Bending Schedule of reinforcing bars*
+*Schemat gięcia prętów zbrojeniowych*
 
-## Usage
 
-1\. Select **<img src="images/Arch_Rebar.svg" width=16px> [Arch Rebar](Arch_Rebar.md)** and Rebar2 objects you want to include in Bar Bending Schedule. Or select **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** objects to include **<img src="images/Arch_Rebar.svg" width=16px> [Arch Rebar](Arch_Rebar.md)** and Rebar2 objects hosted by that into Bar Bending Schedule. If nothing is selected, then Bar Bending Schedule will be generated for all **<img src="images/Arch_Rebar.svg" width=16px> [Arch Rebar](Arch_Rebar.md)** and Rebar2 objects present in the model.
 
-2\. Then select **<img src="images/Reinforcement_Bar_Bending_Schedule.svg" width=16px> [Bar Bending Schedule](Reinforcement_Bar_Bending_Schedule.md)** from the rebar tools.
+## Użycie
 
-3\. A dialog box will pop-out on the screen as shown below.
+1\. Wybierz obiekty **<img src="images/Arch_Rebar.svg" width=16px> [Prętów](Arch_Rebar/pl.md)** i Prętów2, które chcesz uwzględnić w harmonogramie gięcia prętów. Lub wybierz obiekty **<img src="images/Arch_Structure.svg" width=16px> [konstrukcji](Arch_Structure/pl.md)** do uwzględnienia obiektów **<img src="images/Arch_Rebar.svg" width=16px> [Pręta](Arch_Rebar/pl.md)** i Pręta2 w harmonogramie gięcia prętów. Jeśli nic nie zostanie zaznaczone, wygenerowany zostanie harmonogram gięcia prętów dla wszystkich **<img src="images/Arch_Rebar.svg" width=16px> obiektów [Prętów](Arch_Rebar/pl.md)** i Prętów2 obecnych w modelu.
+
+2\. Następnie wybierz **<img src="images/Reinforcement_Bar_Bending_Schedule.svg" width=16px> '''Schemat gięcia prętów'''** z narzędzi prętów zbrojeniowych.
+
+3\. Na ekranie pojawi się okno dialogowe, jak pokazano poniżej.
 
 ![](images/Reinforcement_Bar_Bending_Schedule_Dialog.png )
 
 
 
-*Dialog Box for the Reinforcement Bar Bending Schedule tool*
+*Okno dialogowe narzędzia Schemat gięcia prętów zbrojeniowych*
 
-4\. Modify data to suit your requirements.
+4\. Zmodyfikuj dane, aby dostosować je do swoich wymagań.
 
-5\. Click **OK** or **Apply** to generate Bar Bending Schedule for rebars.
+5\. Kliknij **OK** lub **Zastosuj**, aby wygenerować zestawienie gięcia prętów zbrojeniowych.
 
-6\. Click **Cancel** to exit the dialog box.
-
-## Properties
-
-**General:**
-
--    **Reinforcement Group By**: Reinforcement Group By specifies how reinforcement objects should be grouped in Bar Bending Schedule i.e. \"Host\" or \"Mark\".
-
--    **Rebar Length Type**: Rebar Length Type specifies the type of rebar length used for BOM calculations i.e. \"RealLength\" or \"LengthWithSharpEdges\".
-
--    **Column Headers**: A dictionary with column_data as key and tuple (column_display_header, column_sequence) as value.
-
--    **Column Units**: A dictionary with keys: \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" and their corresponding units as value.
-
--    **Font Family**: Font Family of text in Bar Bending Schedule SVG.
-
--    **Font Size**: Font size in mm.
-
--    **Column Width**: Width of each column in Bar Bending Schedule SVG.
-
--    **Row Height**: Height of each row in Bar Bending Schedule SVG.
-
--    **SVG Output File**: The output file to write generated rebar shape cut list SVG.
-
-**Rebar Shape column data:** The data related to the Rebar Shape column in Bar Bending Schedule
-
--    **Column Header**: The column header for the rebar shape column.
-
--    **Stirrup Extended Edge Offset**: The offset of extended end edges of the stirrup, so that end edges of the stirrup with a 90-degree bent angle do not overlap with stirrup edges.
-
--    **Rebars Stroke Width**: The stroke-width of rebars in the rebar shape column.
-
--    **Rebars Color Style**: The color style of rebars.
-
-**Rebar Shape Column Dimension Data:** The data related to rebar shape dimensions in the Rebar Shape column
-
--    **Include Dimensions**: If True, then each rebar edge dimensions and bent angle dimensions will be included in the rebar shape cut list.
-
--    **Include Units in Dimension Label**: If it is True, then rebar edge length units will be shown in dimension label.
-
--    **Rebar Edge Dimension Units**: The units to be used for rebar edge length dimensions.
-
--    **Rebar Edge Dimension Precision**: The number of decimals that should be shown for rebar edge length as a dimension label.
-
--    **Dimension Font Family**: The font-family of dimension text.
-
--    **Dimension Font Size**: The font-size of dimension text.
-
--    **Bent Angle Dimension Exclude List**: The list of bent angles to not include their dimensions.
-
--    **Helical Rebar Dimension Label Format**: The format of the helical rebar dimension label. e.g. \"%L,r=%R,pitch=%P\" where %L -\> Length of helical rebar, %R -\> Helix radius of helical rebar, %P -\> Helix pitch of helical rebar.
-
-## Scripting
+6\. Kliknij **Anuluj**, aby zamknąć okno dialogowe.
 
 
-**See also:**
 
-[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+## Właściwości
 
-The [Bar Bending Schedule](Reinforcement_Bar_Bending_Schedule.md) tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
+**Ogólne:**
 
-### Create Bar Bending Schedule 
+-    **Grupowanie zbrojenia według**: określa sposób grupowania obiektów zbrojenia w zestawieniu gięcia prętów, tj. \"Obiekt\" lub \"Oznaczenie\".
+
+-    **Typ długości pręta**: określa typ długości pręta zbrojeniowego używany do obliczeń BOM, tj. \"Długość rzeczywista\" lub \"Długość z ostrymi krawędziami\".
+
+-    **Nagłówki kolumn**: Słownik z column_data jako kluczem i krotką *(column_display_header, column_sequence)* jako wartością.
+
+-    **Jednostki kolumn**: Słownik z kluczami: \"Średnica\", \"Długość pręta zbrojeniowego\", \"Długość całkowita pręta zbrojeniowego\" i odpowiadającymi im jednostkami jako wartością.
+
+-    **Rodzaj czcionki**: Rodzina czcionki tekstu w zestawieniu gięcia prętów SVG.
+
+-    **Rozmiar czcionki**: Rozmiar czcionki w mm.
+
+-    **Szerokość kolumny**: Szerokość każdej kolumny w harmonogramie gięcia prętów SVG.
+
+-    **Wysokość wiersza**: Wysokość każdego wiersza w harmonogramie gięcia prętów SVG.
+
+-    **Plik wyjściowy SVG**: Plik wyjściowy SVG, do zapisu wygenerowanej listy cięć kształtów prętów zbrojeniowych.
+
+**Dane kolumny Kształt pręta zbrojeniowego:** Dane związane z kolumną Kształt pręta zbrojeniowego w Zestawieniu gięcia prętów.
+
+-    **Nagłówek kolumny**: definiuje nagłówek kolumny dla kolumny kształtu pręta zbrojeniowego.
+
+-    **Przesunięcie przedłużonej krawędzi strzemienia**: określa przesunięcie przedłużonych krawędzi końcowych strzemion, tak aby krawędzie końcowe strzemion o kącie zagięcia 90 stopni nie pokrywały się z krawędziami strzemion.
+
+-    **Szerokość skoku prętów zbrojeniowych**: definiuje szerokość obrysu prętów zbrojeniowych w kolumnie kształtu prętów zbrojeniowych..
+
+-    **Styl koloru prętów zbrojeniowych**: definiuje styl koloru prętów zbrojeniowych.
+
+**Dane wymiarowe kolumny Kształt pręta zbrojeniowego:** Dane związane z wymiarami kształtu pręta zbrojeniowego w kolumnie Kształt pręta zbrojeniowego.
+
+-    **Uwzględnij wymiary**: Jeśli opcja ta ma wartość {{True/pl}}, wówczas każdy wymiar krawędzi pręta zbrojeniowego i wymiary kąta gięcia zostaną uwzględnione na liście cięć kształtu pręta zbrojeniowego.
+
+-    **Uwzględnij jednostki w etykiecie wymiaru**: Jeśli ma wartość {{True/pl}}, jednostki długości krawędzi prętów zbrojeniowych będą wyświetlane w etykiecie wymiaru.
+
+-    **Jednostki wymiaru krawędzi prętów zbrojeniowych**: Jednostki używane dla wymiarów długości krawędzi prętów zbrojeniowych.
+
+-    **Dokładność wymiarowania krawędzi prętów zbrojeniowych**: Liczba miejsc dziesiętnych, które powinny być wyświetlane dla długości krawędzi pręta zbrojeniowego jako etykieta wymiaru.
+
+-    **Rodzina czcionki wymiaru**: Rodzina czcionki tekstu wymiaru.
+
+-    **Rozmiar czcionki wymiaru**: Rozmiar czcionki tekstu wymiaru.
+
+-    **Lista wykluczeń wymiaru kąta zagięcia**: Lista kątów giętych, których wymiary nie będą uwzględniane.
+
+-    **Format etykiety wymiaru spiralnego pręta zbrojeniowego**: Format etykiety wymiaru spiralnego pręta zbrojeniowego. np. \"%L,r=%R,pitch=%P\", gdzie %L → Długość spiralnego pręta zbrojeniowego, %R → Promień spirali spiralnego pręta zbrojeniowego, %P → Skok spirali spiralnego pręta zbrojeniowego.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[Skrypty Architektury](Arch_API/pl.md), [Skrypty Zbrojenia](Reinforcement_API/pl.md) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Schemat gięcia prętów** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następującej funkcji:
+
+
+
+### Tworzenie zestawienia gięcia prętów 
 
 
 ```python
@@ -138,13 +149,13 @@ getBarBendingSchedule(
 ) -> xml.ElementTree.Element
 ```
 
--   Generates and returns a bar bending schedule SVG element for given `rebar_objects`.
+-   Generuje i zwraca element zestawienia SVG gięcia prętów dla danego `rebar_objects`.
 
--    `rebar_objects`is a list of \<ArchRebar.\_Rebar\> or \<rebar2.BaseRebar\> objects, to generate their bar bending schedule. If not provided, then all ArchRebars and rebar2.BaseRebar objects with unique Mark from ActiveDocument will be selected.
+-    `rebar_objects`jest listą obiektów \<ArchRebar.\_Rebar\> lub \<rebar2.BaseRebar\>, aby wygenerować ich zestawienie gięcia prętów. Jeśli nie zostanie podana, wybrane zostaną wszystkie obiekty ArchRebar i rebar2.BaseRebar z unikalnym znakiem z ActiveDocument.
 
--    `column_headers`is a dictionary with keys: \"Host\", \"Mark\", \"RebarsCount\", \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" and values are tuple of column_header and their sequence number.
+-    `column_headers`jest słownikiem z kluczami: \"Obiekt\", \"Oznaczenie\", \"Liczba prętów zbrojeniowych\", \"Średnica\", \"Długość pręta zbrojeniowego\", \"Całkowita długość pręta zbrojeniowego\", a wartości są krotkami nagłówków kolumn i ich numerów sekwencji.
 
-   Example: {
+  Przykład: {
                 "Host": ("Member", 1),
                 "Mark": ("Mark", 2),
                 "RebarsCount": ("No. of Rebars", 3),
@@ -152,19 +163,19 @@ getBarBendingSchedule(
                 "RebarLength": ("Length in m/piece", 5),
                 "RebarsTotalLength": ("Total Length in m", 6),
             }
-            set column sequence number to 0 to hide column.
+            ustaw numer sekwencji kolumny na 0, aby ukryć kolumnę.
 
--    `column_units`is a dictionary with keys: \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" and their corresponding units as value.
+-    `column_units`jest słownikiem z kluczami: \"Średnica\", \"Długość pręta zbrojeniowego\", \"Całkowita długość pręta zbrojeniowego\" i odpowiadającymi im jednostkami jako wartością.
 
-   Example: {
+  Przykład: {
                 "Diameter": "mm",
                 "RebarLength": "m",
                 "RebarsTotalLength": "m",
             }
 
--    `dia_weight_map`is a dictionary with diameter as key and corresponding weight as value.
+-    `dia_weight_map`jest słownikiem ze średnicą jako kluczem i odpowiadającą jej wagą jako wartością.
 
-   Syntax: {
+  Składnia: {
                 6: FreeCAD.Units.Quantity("0.222 kg/m"),
                 8: FreeCAD.Units.Quantity("0.395 kg/m"),
                 10: FreeCAD.Units.Quantity("0.617 kg/m"),
@@ -172,49 +183,51 @@ getBarBendingSchedule(
                 ...,
             }
 
--    `rebar_length_type`specifies the type of rebar length used for bar bending schedule calculations; it can be \"RealLength\" or \"LengthWithSharpEdges\".
+-    `rebar_length_type`określa typ długości pręta zbrojeniowego używany do obliczeń rozkładu zginania prętów. Może to być \"Długość rzeczywista\" lub \"Długość z ostrymi krawędziami\".
 
--    `reinforcement_group_by`specifies how reinforcement objects should be grouped; it can be \"Mark\" or \"Host\".
+-    `reinforcement_group_by`określa sposób grupowania obiektów zbrojenia. Może to być \"Oznaczenie\" lub \"Obiekt\".
 
--    `font_family`specifies the font family of data text.
+-    `font_family`określa krój czcionek tekstu danych.
 
--    `font_size`specifies the font size of the data text.
+-    `font_size`określa rozmiar czcionki tekstu danych.
 
--    `column_width`specifies the width of each column in the bar bending schedule SVG.
+-    `column_width`określa szerokość każdej kolumny w zestawieniu SVG zginania prętów.
 
--    `row_height`specifies the height of each row in the bar bending schedule SVG.
+-    `row_height`określa wysokość każdego wiersza w zestawieniu SVG gięcia prętów.
 
--    `rebar_shape_column_header`specifies the column header for the rebar shape column.
+-    `rebar_shape_column_header`określa nagłówek kolumny dla kolumny kształtu pręta zbrojeniowego.
 
--    `rebar_shape_view_directions`is a list of viewpoint directions for each rebar shape. It can be either of type `FreeCAD.Vector` or `WorkingPlane.Plane` OR their list. Keep it `FreeCAD.Vector(0, 0, 0)` to automatically choose view_directions.
+-    `rebar_shape_view_directions`to lista kierunków widoku dla każdego kształtu pręta zbrojeniowego. Może być typu `FreeCAD.Vector` lub `WorkingPlane.Plane`. LUB ich lista. Zachowaj `FreeCAD.Vector(0, 0, 0)`, aby automatycznie wybrać view_directions.
 
--    `rebar_shape_stirrup_extended_edge_offset`specifies the offset of extended end edges of the stirrup, so that end edges of the stirrup with a 90-degree bent angle do not overlap with stirrup edges.
+-    `rebar_shape_stirrup_extended_edge_offset`określa przesunięcie przedłużonych krawędzi końcowych strzemienia, tak aby krawędzie końcowe strzemienia o kącie zagięcia 90 stopni nie pokrywały się z krawędziami strzemienia.
 
--    `rebar_shape_color_style`specifies the color style of rebars. It can be \"shape color\" or \"color_name or hex_value_of_color\". \"shape color\" means to select the color of rebar shape.
+-    `rebar_shape_color_style`określa styl koloru prętów zbrojeniowych. Może to być \"kolor kształtu\" lub \"color_name lub hex_value_of_color\". \"kolor kształtu\" oznacza wybór koloru kształtu pręta zbrojeniowego.
 
--    `rebar_shape_stroke_width`specifies the stroke-width of rebars in rebar shape SVG.
+-    `rebar_shape_stroke_width`określa szerokość obrysu prętów zbrojeniowych w zestawieniu SVG kształtu pręta zbrojeniowego.
 
--    `rebar_shape_include_dimensions`specifies if each rebar edge dimensions and bent angle dimensions are to be included in rebar shape SVG.
+-    `rebar_shape_include_dimensions`określa, czy każdy wymiar krawędzi pręta zbrojeniowego i wymiary kąta gięcia mają być zawarte w SVG kształtu pręta zbrojeniowego.
 
--    `rebar_shape_dimension_font_size`specifies the font-size of dimension text in rebar shape SVG.
+-    `rebar_shape_dimension_font_size`określa rozmiar czcionki tekstu wymiaru w SVG kształtu pręta zbrojeniowego.
 
--    `rebar_shape_edge_dimension_units`specifies the units to be used for rebar edge length dimensions in rebar shape SVG.
+-    `rebar_shape_edge_dimension_units`określa jednostki używane dla wymiarów długości krawędzi pręta zbrojeniowego w SVG kształtu pręta zbrojeniowego.
 
--    `rebar_shape_edge_dimension_precision`specifies the number of decimals that should be shown for rebar length as dimension label in rebar shape SVG. Set it to None to use user preferred unit precision from FreeCAD unit preferences.
+-    `rebar_shape_edge_dimension_precision`określa liczbę miejsc dziesiętnych, które powinny być wyświetlane dla długości pręta zbrojeniowego jako etykieta wymiaru w zestawieniu SVG kształtu pręta zbrojeniowego. Ustaw wartość \"Brak\", aby użyć preferowanej przez użytkownika precyzji jednostki z preferencji FreeCAD.
 
--    `include_edge_dimension_units_in_dimension_label`specifies if rebars edge length units are to be shown in dimension label in rebar shape SVG.
+-    `include_edge_dimension_units_in_dimension_label`określa, czy jednostki długości krawędzi prętów zbrojeniowych mają być wyświetlane w etykiecie wymiaru w zestawieniu SVG kształtu pręta zbrojeniowego.
 
--    `rebar_shape_bent_angle_dimension_exclude_list`specifies the list of bent angles to not include their dimensions in rebar shape SVG.
+-    `rebar_shape_bent_angle_dimension_exclude_list`określa listę kątów gięcia, których wymiary nie mają być uwzględniane w zestawieniu SVG kształtu pręta zbrojeniowego.
 
--    `helical_rebar_dimension_label_format`specifies the format of the helical rebar dimension label in rebar shape SVG. E.g. \"%L,r=%R,pitch=%P\" where:
+-    `helical_rebar_dimension_label_format`określa format etykiety wymiaru spiralnego pręta zbrojeniowego w zestawieniu SVG kształtu pręta zbrojeniowego. Np. \"%L,r=%R,pitch=%P\" gdzie:
 
-   %L -> Length of helical rebar
-   %R -> Helix radius of helical rebar
-   %P -> Helix pitch of helical rebar
+   %L → długość spiralnego pręta zbrojeniowego
+   %R → promień spirali spiralnego pręta zbrojeniowego
+   %P → skok spirali spiralnego pręta zbrojeniowego
 
--    `output_file`specifies the output file to write generated bar bending schedule SVG.
+-    `output_file`określa plik wyjściowy do zapisu wygenerowanego zestawienia SVG gięcia prętów.
 
-#### Example
+
+
+#### Przykład
 
 
 ```python
@@ -233,7 +246,7 @@ Structure2.ViewObject.Transparency = 80
 Structure2.Placement = FreeCAD.Placement(FreeCAD.Vector(1000, 0, 0), FreeCAD.Rotation(FreeCAD.Vector(0, 0, 1), 0))
 FreeCAD.ActiveDocument.recompute()
 
-# Create Straight Rebars
+# Tworzenie prostych prętów zbrojeniowych.
 rebar_group = SingleTie.makeSingleTieFourRebars(
     l_cover_of_tie=40,        
     r_cover_of_tie=40,
@@ -257,12 +270,12 @@ rebar_group = SingleTie.makeSingleTieFourRebars(
     facename="Face6",
 ).rebar_group
 
-# Assign Mark to straight rebars
+# Przypisz znak do prostych prętów zbrojeniowych.
 for straight_rebar in rebar_group.RebarGroups[1].MainRebars:
     straight_rebar.Mark = "main_sb"
 
 
-# Create LShaped Rebars with hook along x-axis
+# Utwórz pręty zbrojeniowe w kształcie litery L z hakiem wzdłuż osi x.
 rebar_group = SingleTie.makeSingleTieFourRebars(
     l_cover_of_tie=40,
     r_cover_of_tie=40,
@@ -286,7 +299,7 @@ rebar_group = SingleTie.makeSingleTieFourRebars(
     facename="Face6",
 ).rebar_group
 
-# Assign Mark to lshape rebars
+# Przypisz znak do prętów zbrojeniowych w kształcie litery L.
 for lshape_rebar in rebar_group.RebarGroups[1].MainRebars:
     lshape_rebar.Mark = "main_lb"
 
@@ -328,7 +341,7 @@ DIA_WEIGHT_MAP = {
 
 output_file = str(Path.home() / "BarBendingSchedule.svg")
 
-# Create Bar Bending Schedule for all rebars in model
+# Utwórz harmonogram gięcia prętów dla wszystkich prętów zbrojeniowych w modelu.
 BBSfunc.getBarBendingSchedule(
     rebar_objects=None,
     column_headers=COLUMN_HEADERS,

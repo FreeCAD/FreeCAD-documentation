@@ -10,13 +10,15 @@
 
 # Sketcher CreateRectangle/pl
 
+
+
 ## Opis
 
 Narzędzie to rysuje prostokąt, wybierając dwa przeciwstawne punkty. Po uruchomieniu narzędzia wskaźnik myszy zmienia się w biały krzyż z czerwoną prostokątną ikoną. Na bieżąco wyświetlane są obok niego współrzędne wskaźnika w kolorze niebieskim.
 
 Aby zdefiniować prostokąt za pomocą punktu środkowego i punktu na krawędzi, użyj narzędzia [Utwórz wyśrodkowany prostokąt](Sketcher_CreateRectangle_Center/pl.md).
 
-![](images/SketcherCreateRectangleExample.png‎ )
+![](images/SketcherCreateRectangleExample.png‎ ) 
 
 ## Użycie
 

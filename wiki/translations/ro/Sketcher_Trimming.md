@@ -14,6 +14,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Descriere
@@ -23,9 +25,11 @@ Acest instrument taie/tunde o linie sau un cerc la cea mai apropiată suprapuner
 
 </div>
 
-This tool trims an edge to the nearest overlapping edge.
+This tool trims an edge at the nearest intersections with other edges. If the selected edge does not intersect other edges it will be deleted.
 
 ![](images/SketcherTrimExample1.png ) ![](images/SketcherTrimExample2.png ) ![](images/SketcherTrimExample3.png )
+
+
 
 
 <div class="mw-translate-fuzzy">

@@ -1,61 +1,56 @@
 ---
 - GuiCommand:/it
    Name:Std ToggleNavigation
-   Name/it:Std ToggleNavigation
-   Empty:1
+   Name/it:Attiva/disattiva la modalità modifica
    MenuLocation:Visualizza → Attiva/disattiva la modalità modifica
    Workbenches:Tutti
+   Shortcut:**Esc**
 ---
 
 # Std ToggleNavigation/it
 
 
-</div>
 
-## Description
+## Descrizione
 
-The **Std ToggleNavigation** command is intended for certain inspection operations and certain interactive mesh editing operations. These operations are quite \'expensive\' and therefore rely on an edit mode during which most navigation options are disabled. With this command it is possible to temporarily switch from edit mode to navigation mode, and, after changing the [3D view](3D_view.md), switch back to edit mode.
+Il comando **Attiva/disattiva la modalità modifica** è destinato a determinate operazioni di ispezione ed a determinate operazioni interattive di modifica della mesh. Queste operazioni sono abbastanza \"onerose\" e quindi si basano su una modalità di modifica durante la quale la maggior parte delle opzioni di navigazione sono disabilitate. Con questo comando è possibile passare temporaneamente dalla modalità di modifica alla modalità di navigazione e, dopo aver modificato la [Vista 3D](3D_view/it.md), tornare alla modalità di modifica.
 
-Do not confuse this command with the [Std Edit](Std_Edit.md) command.
-
-## Usage
-
-*An example to demonstrate the command:*
-
-1.  Switch to the <img alt="" src=images/Workbench_Mesh.svg  style="width:16px;"> [Mesh Workbench](Mesh_Workbench.md).
-2.  Select the **Meshes → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Regular solid...** option from the menu.
-3.  The Regular Solid dialog box opens.
-4.  Choose **Ellipsoid** from the dropdown list.
-5.  Press the **Create** button.
-6.  Press the **Close** button to close the dialog box.
-7.  Select the mesh object.
-8.  Press the **<img src="images/Mesh_PolyCut.svg" width=16px> [Mesh PolyCut](Mesh_PolyCut.md)** button.
-9.  Pick points in the 3D view to define a polygon that overlaps one half of the mesh.
-10. Right-click and choose **Inner** from the context menu.
-11. The result is an open mesh with a boundary.
-12. Make sure the mesh is still selected.
-13. Select the **Meshes → <img src="images/Mesh_AddFacet.svg" width=16px> Add triangle** option from the menu to invoke the [Mesh AddFacet](Mesh_AddFacet.md) command.
-14. If you hover over a boundary point a yellow marker will appear and a left-click will select it.
-15. Optionally select two more points and add a triangle to the mesh.
-16. You are now in edit mode and it is impossible to rotate or pan the 3D view, although zooming still works.
-17. Invoke the **Std ToggleNavigation** command to switch to navigation mode:
-    -   Select the **View → <img src="images/Std_ToggleNavigation.svg" width=16px> Toggle navigation/Edit mode** option from the menu.
-    -   Or use the keyboard shortcut: **Esc**.
-18. Now you can rotate and pan the 3D view, but you cannot pick points to add triangles.
-19. Invoke the **Std ToggleNavigation** command to switch back to edit mode:
-    -   Select the **View → <img src="images/Std_ToggleNavigation.svg" width=16px> Toggle navigation/Edit mode** option from the menu.
-    -   Or use the keyboard shortcut: **Esc**.
-20. You can again pick points and add triangles.
-21. Right-click in the 3D view and choose **Finish** from the context menu to end the [Mesh AddFacet](Mesh_AddFacet.md) command.
-
-
-<div class="mw-translate-fuzzy">
+Non confondere questo comando con il comando [Modalità modifica](Std_Edit/it.md).
 
 
 
+## Utilizzo
+
+*Un esempio per dimostrare il comando:*
+
+1.  Passare all\'ambiente <img alt="" src=images/Workbench_Mesh.svg  style="width:16px;"> [Mesh](Mesh_Workbench/it.md).
+2.  Selezionare l\'opzione **Mesh → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Solido regolare...** dal menu.
+3.  Si apre la finestra di dialogo Solido regolare.
+4.  Scegliere **Ellissoide** dall\'elenco a discesa.
+5.  Premere il pulsante **Crea**.
+6.  Premere il pulsante **Chiudi** per chiudere la finestra di dialogo.
+7.  Selezionare l\'oggetto mesh.
+8.  Premere il pulsante **<img src="images/Mesh_PolyCut.svg" width=16px> [Taglia la mesh](Mesh_PolyCut/it.md)**.
+9.  Scegliere i punti nella vista 3D per definire un poligono che si sovrapponga a metà della mesh.
+10. Fare clic con il tasto destro e scegli **Interno** dal menu contestuale.
+11. Il risultato è una mesh aperta con un contorno.
+12. Assicurarsi che la mesh sia ancora selezionata.
+13. Selezionare l\'opzione **Meshes → <img src="images/Mesh_AddFacet.svg" width=16px> Aggiungi triangolo** dal menu per invocare il comando [Aggiungi triangolo](Mesh_AddFacet/it.md).
+14. Se si passa con il mouse su un punto di confine, apparirà un indicatore giallo e un clic sinistro lo selezionerà.
+15. Facoltativamente, selezionare altri due punti e aggiungere un triangolo alla mesh.
+16. Ora ci si trova in modalità di modifica ed è impossibile ruotare o eseguire una panoramica della vista 3D, sebbene lo zoom funzioni ancora.
+17. Invocare il comando **Attiva/disattiva la modalità modifica** per passare alla modalità di navigazione:
+    -   Selezionare l\'opzione **Visualizza → <img src="images/Std_ToggleNavigation.svg" width=16px> Attiva/disattiva navigazione/Modifica** dal menu.
+    -   Oppure usare la scorciatoia da tastiera: **Esc**.
+18. Ora si può ruotare e spostare la vista 3D, ma non si può selezionare i punti per aggiungere triangoli.
+19. Invocare il comando **Attiva/disattiva la modalità modifica** per tornare alla modalità di modifica:
+    -   Selezionare l\'opzione **Visualizza → <img src="images/Std_ToggleNavigation.svg" width=16px> Attiva/disattiva navigazione/Modifica** dal menu.
+    -   Oppure usa la scorciatoia da tastiera: **Esc**.
+20. Si può nuovamente selezionare punti ed aggiungere triangoli.
+21. Fare clic con il pulsante destro del mouse nella vista 3D e scegliere **Termina** dal menu contestuale per terminare il comando [Aggiungi triangolo](Mesh_AddFacet/it.md).
 
 
-</div>
+
 
 
 {{Std Base navi

@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -27,32 +29,59 @@ Lo strumento **Linea tra 2 punti** aggiunge una linea cosmetica tra due vertici 
 <img alt="" src=images/CosLine2PointsSample.png  style="width:200px;">
 
 
+<div class="mw-translate-fuzzy">
+
+
 
 *Linea tra 2 punti*
 
+
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Utilizzo
 
-1.  Select 2 Vertexes in a View or 2 Vertexes in the 3D view.
-2.  Press the **<img src="images/TechDraw-line2points.svg" width=16px> Add Cosmetic line between 2 Points** button.
-3.  A dialog will open where you can adjust the coordinates of the 2 points.
-4.  A line will be added to connect the 2 selected Vertices. In the case of 3d points, the line will connect the projection of the selected points.
 
-## Editing Cosmetic Lines 
+</div>
+
+1.  Select two points in a TechDraw View or two points in the [3D view](3D_view.md).
+2.  If you have selected points in the 3D view: add the correct TechDraw View to the selection by selecting it in the [Tree view](Tree_view.md).
+3.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_2PointCosmeticLine.svg" width=16px> [Add Cosmetic Line Through 2 points](TechDraw_2PointCosmeticLine.md)** button.
+    -   Select the **TechDraw → Add Lines → <img src="images/TechDraw_2PointCosmeticLine.svg" width=16px> Add Cosmetic Line Through 2 points** option from the menu.
+4.  A task panel opens.
+5.  Optionally adjust the coordinates of the points.
+6.  Press the **OK** button.
+7.  A cosmetic line connecting the two points is added. In the case of 3D points, the line connects the projection of the points.
+
+## Usage edit 
 
 To change the endpoints of a cosmetic line:
 
 1.  Select the cosmetic line.
-2.  Press **<img src="images/TechDraw-line2points.svg" width=16px> Add Cosmetic line between 2 Points**.
-3.  A dialog will open where you can change the coordinates of the endpoints.
-4.  Press **OK** to see your changes.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_2PointCosmeticLine.svg" width=16px> [Add Cosmetic Line Through 2 points](TechDraw_2PointCosmeticLine.md)** button.
+    -   Select the **TechDraw → Add Lines → <img src="images/TechDraw_2PointCosmeticLine.svg" width=16px> Add Cosmetic Line Through 2 points** option from the menu.
+3.  A task panel opens.
+4.  Adjust the coordinates of the points.
+5.  Press the **OK** button.
 
-To delete a cosmetic line use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [Remove Cosmetic Object](TechDraw_CosmeticEraser.md).
+## Notes
 
-To change the appearance of a cosmetic line use <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:16px;"> [Change Appearance of Line(s)](TechDraw_DecorateLine.md).
+-   To delete a cosmetic line use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
+-   To change the appearance of a cosmetic line use <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:16px;"> [TechDraw DecorateLine](TechDraw_DecorateLine.md).
+
+
 
 ## Proprietà
 
 Cosmetic lines have no properties of their own, as they are not document objects.
+
+
 
 ## Script
 
@@ -67,7 +96,7 @@ Cosmetic lines have no properties of their own, as they are not document objects
 
 </div>
 
-Cosmetic lines can be created using the makeCosmeticLine(v1, v2) or makeCosmeticLine3d(v1, v2) methods of DrawViewPart.
+Cosmetic lines can be created using the {{Incode|makeCosmeticLine(v1, v2)}} or {{Incode|makeCosmeticLine3d(v1, v2)}} methods of DrawViewPart.
 
 
 <div class="mw-translate-fuzzy">

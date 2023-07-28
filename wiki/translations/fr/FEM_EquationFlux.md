@@ -2,9 +2,9 @@
 - GuiCommand:/fr
    Name:FEM EquationFlux
    Name/fr:FEM Équation de flux
-   MenuLocation:Solveur → Équation de flux
+   MenuLocation:Résolution → Équation de flux
    Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:0.19
+   Version:0.17
    SeeAlso:
 ---
 
@@ -14,17 +14,21 @@ Cette équation est utilisée pour calculer les flux résultant généralement d
 
 Pour plus d\'informations sur les mathématiques de l\'équation, voir [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Flux Computation*.
 
+
+
 ## Utilisation
 
-1.  Après avoir ajouté un solveur Elmer comme décrit [ici](FEM_SolverElmer/fr#.C3.89quations.md), sélectionnez-le dans la [Vue en arborescence](Tree_view/fr.md)
-2.  Utilisez le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationFlux.svg  style="width:24px;"> ou le menu **Solveur → Equation de flux**.
-3.  Ajoutez maintenant une équation de chaleur (bouton de la barre d\'outils <img alt="" src=images/FEM_EquationHeat.svg  style="width:24px;"> ou menu **Solveur → [Equation de chaleur](FEM_EquationHeat/fr.md)**) ou une équation électrostatique (bouton de la barre d\'outils <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> ou menu **Solveur → [Equation électrostatique](FEM_EquationElectrostatic/fr.md)**). Ceci est important car l\'équation de flux a besoin des contraintes définies pour ces équastions.
+1.  Après avoir ajouté un solveur Elmer comme décrit [ici](FEM_SolverElmer/fr#.C3.89quations.md), sélectionnez-le dans la [vue en arborescence](Tree_view/fr.md)
+2.  Utilisez le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationFlux.svg  style="width:24px;"> ou le menu **Résolution → Equation de flux**.
+3.  Ajoutez maintenant une équation de chaleur (bouton de la barre d\'outils <img alt="" src=images/FEM_EquationHeat.svg  style="width:24px;"> ou menu **Résolution → [Equation de chaleur](FEM_EquationHeat/fr.md)**) ou une équation électrostatique (bouton de la barre d\'outils <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> ou menu **Résolution → [Equation électrostatique](FEM_EquationElectrostatic/fr.md)**). Ceci est important car l\'équation de flux a besoin des contraintes définies pour ces équastions.
 4.  Lorsque vous utilisez l\'équation électrostatique, changez la propriété **Flux Coefficient** en *None* et la propriété **Flux Variable** en *Potential*.
 5.  Modifiez les [paramètres du solveur de l\'équation](#Param.C3.A8tres_du_solveur.md) ou les [paramètres généraux du solveur](FEM_SolverElmer_SolverSettings/fr.md) si nécessaire.
 
+
+
 ## Paramètres du solveur 
 
-Pour les paramètres généraux du solveur, voir les [Paramètres du solveur Elmer](FEM_SolverElmer_SolverSettings/fr.md).
+Pour les paramètres généraux du solveur, voir les [paramètres du solveur Elmer](FEM_SolverElmer_SolverSettings/fr.md).
 
 L\'équation de flux fournit ces paramètres spéciaux :
 
@@ -50,9 +54,13 @@ L\'équation de flux fournit ces paramètres spéciaux :
 
 -    **Flux Variable**: nom de la variable potentielle utilisée pour calculer le gradient.
 
+
+
 ## Informations sur les contraintes 
 
 L\'équation de flux n\'a pas de contraintes propres. Elle prend les contraintes de l\'<img alt="" src=images/FEM_EquationHeat.svg  style="width:24px;"> [Equation de chaleur](FEM_EquationHeat/fr.md) ou de l\'<img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> [Equation électrostatique](FEM_EquationElectrostatic/fr.md).
+
+
 
 ## Résultats
 

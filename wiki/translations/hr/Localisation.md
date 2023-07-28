@@ -14,9 +14,13 @@
 
 **Localisation** is in general the process of providing a Software with a multiple language user interface. In FreeCAD you can set the language of the user interface under **Edit → Preferences → General**. FreeCAD uses [Qt](wikipedia:Qt_(toolkit).md) to enable multiple language support. On Unix/Linux systems, FreeCAD uses the current locale settings of your system by default.
 
+
+
 ## Pomozite prevesti FreeCAD 
 
 One of the very important things users can contribute to FreeCAD (if for example they don\'t have programming skills) is to help translate its different aspects (source code, wiki, website, documentation etc\...) in to another language. Here are the ways to do that.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -32,7 +36,7 @@ FreeCAD utilizes a third party collaborative on-line translation system called [
 
 <img alt="" src=images/Logo-crowdin.png  style="width:320px;">
 
-It is proprietary software but free to FOSS projects. Below are instructions on how to use it:
+It is proprietary software but free to [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) projects. Below are instructions on how to use it:
 
 -   Go to the [FreeCAD translation project page on Crowdin](http://crowdin.net/project/freecad)
 -   Login by creating a new profile, or using a third-party account (GitHub, GitLab, GMail etc\...)
@@ -46,6 +50,8 @@ It is proprietary software but free to FOSS projects. Below are instructions on 
 **Note:**
 
 Details on how to use crowdin can be found on the [Crowdin Administration](Crowdin_Administration.md) page.
+
+
 
 ## Prevođenje vanjskih Radnih stolova 
 
@@ -63,6 +69,8 @@ Starting with FreeCAD 0.20, the following variables can be manually added to the
 
     <FCText Name="AdditionalTranslationsDirectory">C:/Users/FreeCADUser/TestTranslations</FCText>
 
+
+
 ## Prevedite FreeCAD wiki-stranicu 
 
 This wiki hosts a lot of contents, the majority of which build up the manual. You can browse the documentation starting from the [Main Page](Main_Page.md), or have a look at the user\'s manual [Online Help Toc](Online_Help_Toc.md).
@@ -70,6 +78,8 @@ This wiki hosts a lot of contents, the majority of which build up the manual. Yo
 To translate the wiki, you must have wiki edit permissions; see [How can I get edit permission on the wiki?](Frequently_asked_questions#How_can_I_get_edit_permission_on_the_wiki?.md).
 
 You should also have enough knowledge of wiki markup and follow the general styling guidelines described on [WikiPages](WikiPages.md).
+
+
 
 ### Mediawiki prijevodni dodatak 
 
@@ -91,6 +101,8 @@ When adding new content, the English page should be created first, then translat
 
 If you are unsure on how to proceed with the translations, don\'t hesitate to ask for help in the [Development → Wiki subforum](https://forum.freecadweb.org/viewforum.php?f=21) or in the [specific language subforum](https://forum.freecadweb.org/viewforum.php?f=11) in the [FreeCAD forum](http://forum.freecadweb.org).
 
+
+
 ### Važne zabilješke 
 
 Every wiki user that has \"Editor\" permissions is able to launch the translate utility to write, save and review translations.
@@ -100,6 +112,8 @@ However, only users with \"Administrator\" permissions are able to mark pages fo
 The left sidebar is also translatable, but only Administrators can modify this element of the site. Please follow the dedicated instructions on [Localisation Sidebar](Localisation_Sidebar.md).
 
 The first time you switch a page to the new translation system, it loses all its old \"manual\" translations. To recover a translation, you should save an offline copy of the old text before the switch. Then you can use this old translated text to fill in the translation units in the new system. You can also open an earlier version from the history, and get the old text in this way. This has to be done for every language that had a translated page.
+
+
 
 ## Prevedite FreeCAD dokumentacija 
 
@@ -138,6 +152,8 @@ As per general consensus, the reference page in the wiki is the English page, wh
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | The page \"Bienvenue dans l\'aide en ligne de FreeCAD\" redirects to Online_Help_Startpage/fr, and the page \"Fonctionnalités\" redirects to Feature_list/fr.                                                                                                                                                                                                                                                                                                                                                                                                            |
 ++
+
+
 
 
 <div class="mw-translate-fuzzy">

@@ -13,9 +13,13 @@
 
 </div>
 
+
+
 ## Описание
 
-This tool creates a new path by duplicating another path several times at a certain interval distance.
+The tool <img alt="" src=images/Path_Array.svg  style="width:24px;"> [Array](Path_Array.md) creates a new path by duplicating another path several times at a certain interval distance.
+
+
 
 ## Применение
 
@@ -23,6 +27,8 @@ This tool creates a new path by duplicating another path several times at a cert
 2.  Press the **<img src="images/Path_Array.svg" width=24px> [Array](Path_Array.md)** button
 3.  Press **Apply**
 4.  Adjust the desired properties at the data box
+
+
 
 ## Свойства
 

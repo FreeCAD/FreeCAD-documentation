@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introduzione
 
 L\'[Ambiente Mesh](Mesh_Workbench/it.md) <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> gestisce i reticoli triangolari degli oggetti [mesh](http://en.wikipedia.org/wiki/Triangle_mesh). Gli oggetti mesh sono un tipo speciale di oggetti 3D, composti da facce triangolari (le maglie della griglia) connesse lungo i loro bordi e nei loro vertici. Oggetti tessellati.
@@ -12,6 +14,8 @@ Molte applicazioni 3D utilizzano i mesh come tipo principale di oggetti 3D, ad e
 Tuttavia, nel campo ingegneristico le mesh presentano una grande limitazione: non possono definire con precisione le superfici curve. Questo è il motivo per cui FreeCAD si affida invece a [Brep](wikipedia_Boundary_representation.md). L\'ambiente Mesh offre alcuni comandi per manipolare direttamente le mesh, ma viene spesso utilizzato per importare dati di mesh 3D e convertirle in un solido da utilizzare con <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/it.md) o <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md).
 
 <img alt="" src=images/Mesh_example.jpg  style="width:500px;">
+
+
 
 ## Strumenti
 
@@ -23,7 +27,7 @@ Tutti gli strumenti dell\'ambiente Mesh sono accessibili dal menu **Meshes**. Qu
 
 -   <img alt="" src=images/Mesh_FromPartShape.svg  style="width:32px;"> [Crea mesh da una forma\...](Mesh_FromPartShape/it.md): crea oggetti mesh da oggetti forma.
 
--   <img alt="" src=images/Mesh_RemeshGmsh.svg  style="width:32px;"> [Affinamento\...](Mesh_RemeshGmsh/it.md): affina un oggetto mesh. {{Version/it|0.19}}
+-   <img alt="" src=images/Mesh_RemeshGmsh.svg  style="width:32px;"> [Affinamento\...](Mesh_RemeshGmsh/it.md): affina un oggetto mesh.
 
 -   Analizza
     -   <img alt="" src=images/Mesh_Evaluation.svg  style="width:32px;"> [Valuta e ripara la mesh\...](Mesh_Evaluation/it.md): analizza e ripara un oggetto mesh.
@@ -54,7 +58,7 @@ Tutti gli strumenti dell\'ambiente Mesh sono accessibili dal menu **Meshes**. Qu
 
 -   <img alt="" src=images/Mesh_Smoothing.svg  style="width:32px;"> [Leviga\...](Mesh_Smoothing/it.md): leviga un oggetto mesh.
 
--   <img alt="" src=images/Mesh_Decimating.svg  style="width:32px;"> [Decima\...](Mesh_Decimating/it.md): riduce il numero di facce negli oggetti mesh. {{Version/it|0.19}}
+-   <img alt="" src=images/Mesh_Decimating.svg  style="width:32px;"> [Decima\...](Mesh_Decimating/it.md): riduce il numero di facce negli oggetti mesh.
 
 -   <img alt="" src=images/Mesh_Scale.svg  style="width:32px;"> [Scala\...](Mesh_Scale/it.md): scala un oggetto mesh.
 
@@ -70,15 +74,17 @@ Tutti gli strumenti dell\'ambiente Mesh sono accessibili dal menu **Meshes**. Qu
     -   <img alt="" src=images/Mesh_PolyTrim.svg  style="width:32px;"> [Rifila con un poligono](Mesh_PolyTrim/it.md): taglia facce e parti di facce da oggetti mesh..
     -   <img alt="" src=images/Mesh_TrimByPlane.svg  style="width:32px;"> [Rifila con un piano](Mesh_TrimByPlane/it.md): taglia facce e parti di facce su un lato di un piano da un oggetto mesh.
     -   <img alt="" src=images/Mesh_SectionByPlane.svg  style="width:32px;"> [Sezione da mesh e piano](Mesh_SectionByPlane/it.md): crea una sezione trasversale attraverso un oggetto mesh.
-    -   <img alt="" src=images/Mesh_CrossSections.svg  style="width:32px;"> [Sezioni\...](Mesh_CrossSections/it.md): crea più sezioni trasversali su oggetti mesh. {{Version/it|0.19}}
+    -   <img alt="" src=images/Mesh_CrossSections.svg  style="width:32px;"> [Sezioni\...](Mesh_CrossSections/it.md): crea più sezioni trasversali su oggetti mesh.
 
 -   <img alt="" src=images/Mesh_Merge.svg  style="width:32px;"> [Unisci](Mesh_Merge/it.md): crea un oggetto mesh combinando le maglie di due o più oggetti mesh.
 
--   <img alt="" src=images/Mesh_SplitComponents.svg  style="width:32px;"> [Dividi in componenti](Mesh_SplitComponents/it.md): Divide un oggetto mesh nei suoi componenti. {{Version/it|0.19}}
+-   <img alt="" src=images/Mesh_SplitComponents.svg  style="width:32px;"> [Dividi in componenti](Mesh_SplitComponents/it.md): Divide un oggetto mesh nei suoi componenti.
 
--   <img alt="" src=images/MeshPart_CreateFlatMesh.svg  style="width:32px;"> [Sviluppa una mesh](MeshPart_CreateFlatMesh/it.md): crea una rappresentazione piatta di un oggetto mesh. {{Version/it|0.19}}
+-   <img alt="" src=images/MeshPart_CreateFlatMesh.svg  style="width:32px;"> [Sviluppa una mesh](MeshPart_CreateFlatMesh/it.md): crea una rappresentazione piatta di un oggetto mesh.
 
--   <img alt="" src=images/MeshPart_CreateFlatFace.svg  style="width:32px;"> [Sviluppa una faccia](MeshPart_CreateFlatFace/it.md): Crea una rappresentazione piatta di una faccia di un oggetto forma. {{Version/it|0.19}}
+-   <img alt="" src=images/MeshPart_CreateFlatFace.svg  style="width:32px;"> [Sviluppa una faccia](MeshPart_CreateFlatFace/it.md): Crea una rappresentazione piatta di una faccia di un oggetto forma.
+
+
 
 ## Preferenze
 
@@ -88,6 +94,8 @@ Le preferenze di Mesh si trovano nelle seguenti categorie dell\'[editor delle pr
 
 -   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Visualizzazione](Preferences_Editor/it#Visualizzazione.md): Nella scheda [Visualizzazione mesh](Preferences_Editor/it#Visualizzazione_mesh.md) possono essere impostate diverse preferenze.
 -   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences/it.md): I comandi [Mesh Unione](Mesh_Union/it.md), [Mesh Intersezione](Mesh_Intersection/it.md) e [Mesh Differenza](Mesh_Difference/it.md) richiedono [OpenSCAD](http://www.openscad.org/) e usano le preferenze **OpenSCAD executable** per trovare il loro eseguibile.
+
+
 
 ## Note
 

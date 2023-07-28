@@ -875,9 +875,9 @@ The user is advised to read the POV-Ray documentation and more tutorials or exam
 -   [POV-Ray Tutorial](http://www.povray.org/documentation/3.7.0/t2_0.html)
 -   [POV-Ray Reference](http://www.povray.org/documentation/3.7.0/r3_0.html)
 
-  {{Raytracing Tools navi}}
+ {{Raytracing Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Raytracing](Category_Raytracing.md) > Tutorial FreeCAD POV ray
+![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Tutorial FreeCAD POV ray

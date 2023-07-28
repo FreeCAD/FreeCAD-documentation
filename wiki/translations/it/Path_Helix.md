@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -14,6 +16,8 @@ Il comando Elica aggiunge un\'operazione di interpolazione elicoidale al lavoro.
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -32,7 +36,14 @@ Il comando Elica aggiunge un\'operazione di interpolazione elicoidale al lavoro.
 
 ## Options
 
-Empty
+Extra Offset adds a margin of material to be left unmachined. This is typically to allow a light finishing pass as a separate operation.
+
+## Comments
+
+-   Step Down is not respected exactly. It is always rounded to give a complete number of turns from Start Depth to Final Depth.
+-   Similarly Step Over is not respected exactly. It is always rounded to give a number of equal steps.
+
+The feedrate parameter is constant across all cuts and is based on the position of the tool\'s axis, thus actual feedrate of the cutting edge of the tool can vary considerably between the inner most cut and the outside surface. If the job dimensions produce a path diameter smaller than the tool diameter, this can lead to much faster cutting speeds than the feedrate given for the tool in the tool controller. This may need to considered when selecting \"feed and speeds\" for the job.
 
 ## Properties
 

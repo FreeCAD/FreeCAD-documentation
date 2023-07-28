@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## 説明
 
 このツールは中心、円上の点の二点のピックによって円を描きます。
@@ -20,7 +22,7 @@
 
 ![](images/Sketcher_CircleExample1.png )
 
-![](images/Sketcher_CircleExample1.png‎ )
+![](images/Sketcher_CircleExample1.png‎ ) 
 
 
 <div class="mw-translate-fuzzy">

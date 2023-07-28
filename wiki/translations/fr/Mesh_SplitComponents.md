@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande **Mesh Éclater par composants** divise un objet maillé en ses composants. Un composant de maillage est un groupe complet de faces connectées. Pour chaque composant, un nouvel objet maillage non paramétrique, un [Mesh Feature](Mesh_Feature/fr.md), est créé. Si l\'objet maillage d\'origine ne contient qu\'un seul composant, et c\'est généralement le cas, un seul nouvel objet maillage, en fait une copie, est créé. Cette commande est le pendant de la commande [Mesh Fusionner](Mesh_Merge/fr.md).
+La commande **Éclater par composants** divise un objet maillé en ses composants. Un composant de maillage est un groupe complet de faces connectées. Pour chaque composant, un nouvel objet maillage non paramétrique, un [Mesh Feature](Mesh_Feature/fr.md), est créé. Si l\'objet maillage d\'origine ne contient qu\'un seul composant, et c\'est généralement le cas, un seul nouvel objet maillage, en fait une copie, est créé. Cette commande est le pendant de la commande [Mesh Fusionner](Mesh_Merge/fr.md).
 
 
 

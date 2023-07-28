@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 Funkcje modelowania brył w FreeCAD są oparte na jądrze *(OCCT)* [Technologia Open Cascade](OpenCASCADE/pl.md), profesjonalnym systemie CAD, który oferuje możliwość zaawansowanego tworzenia i manipulacji geometrii 3D.
@@ -20,9 +22,13 @@ Obiekty części są bardziej złożone niż obiekty siatkowe utworzone przy uż
 
 *Środowisko pracy Część jest podstawową warstwą, która udostępnia funkcje rysowania '''OCCT''' dla każdego środowiska pracy w programie FreeCAD.*
 
+
+
 ## Narzędzia
 
 Wszystkie narzędzia zostały umieszczone w menu głównym środowiska pracy **Część**, lub menu **Wymiarowanie**.
+
+
 
 ### Bryły pierwotne 
 
@@ -38,7 +44,7 @@ Są to narzędzia do tworzenia obiektów o charakterze elementarnym.
 
 -   <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Torus](Part_Torus/pl.md): rysuje torus.
 
--   <img alt="" src=images/Part_Tube.svg  style="width:32px;"> [Rura](Part_Tube.md): rysuje rurę. {{Version/pl|0.19}}
+-   <img alt="" src=images/Part_Tube.svg  style="width:32px;"> [Utwórz rurę](Part_Tube/pl.md): rysuje rurę.
 
 -   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Utwórz geometrie pierwotne \...](Part_Primitives/pl.md): Narzędzie do tworzenia jednego z następujących elementów pierwotnych:
     -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Płaszczyzna](Part_Plane/pl.md): tworzy płaszczyznę.
@@ -60,6 +66,8 @@ Są to narzędzia do tworzenia obiektów o charakterze elementarnym.
 
 -   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Konstruktor kształtu \...](Part_Builder/pl.md): tworzy kształty z różnych elementów pierwotnych.
 
+
+
 ### Tworzenie i modyfikowanie obiektów 
 
 Są to narzędzia do tworzenia i modyfikacji istniejących obiektów.
@@ -74,7 +82,7 @@ Są to narzędzia do tworzenia i modyfikacji istniejących obiektów.
 
 -   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Fazka \...](Part_Chamfer/pl.md): fazowanie krawędzi obiektu.
 
--   <img alt="" src=images/Part_MakeFace.svg  style="width:32px;"> [Utwórz ścianę z linii łamanych](Part_MakeFace/pl.md): Tworzy ścinę z zestawu linii. {{Version/pl|0.19}}
+-   <img alt="" src=images/Part_MakeFace.svg  style="width:32px;"> [Utwórz ścianę z linii łamanych](Part_MakeFace/pl.md): Tworzy ścinę z zestawu linii.
 
 -   <img alt="" src=images/Part_RuledSurface.svg  style="width:32px;"> [Utwórz powierzchnię prostokreślną](Part_RuledSurface/pl.md): tworzy powierzchnie bazującą np. na łuku.
 
@@ -92,9 +100,11 @@ Są to narzędzia do tworzenia i modyfikacji istniejących obiektów.
 
 -   <img alt="" src=images/Part_Thickness.svg  style="width:32px;"> [Narzędzie do ustawiania grubości](Part_Thickness.md): wydrąża bryłę, nadaje powierzchni określoną grubość.
 
--   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Projekcja na powierzchni](Part_ProjectionOnSurface.md): Rzutuje logo, tekst lub dowolną ściankę, linie łamaną lub krawędź na powierzchnię. {{Version/pl|0.19}}
+-   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Utwórz rzut na powierzchni](Part_ProjectionOnSurface/pl.md): Rzutuje logo, tekst lub dowolną ściankę, linie łamaną lub krawędź na powierzchnię.
 
 -   <img alt="" src=images/Part_EditAttachment.svg  style="width:32px;"> [Edycja mocowania](Part_EditAttachment/pl.md): jest to narzędzie służące do dołączania obiektu do innego obiektu.
+
+
 
 ### Narzędzia do przeprowadzania operacji logicznych 
 
@@ -109,7 +119,7 @@ Narzędzia te wykonują operacje logiczne.
 
 -   <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Wycięcie](Part_Cut/pl.md): Wycina *(odejmuje)* jeden obiekt z drugiego.
 
--   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Łączenie](Part_Fuse/pl.md): zespaja *(dodaje)* dwa obiekty.
+-   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Łączenie](Part_Fuse/pl.md): zespaja *(dodaje)* dwa lub więcej obiektów.
 
 -   <img alt="" src=images/Part_Common.svg  style="width:32px;"> [Część wspólna](Part_Common/pl.md): wyodrębnia wspólną *(krzyżującą się)* część dwóch obiektów.
 
@@ -123,6 +133,8 @@ Narzędzia te wykonują operacje logiczne.
     -   <img alt="" src=images/Part_SliceApart.svg  style="width:32px;"> [Pokrój część](Part_SliceApart/pl.md): Przecina i dzieli obiekt przez przecięcie go przez inne obiekty.
     -   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Rozkrój częścią](Part_Slice/pl.md): Dzieli obiekt na części, przecinając go innym obiektem.
     -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [XOR](Part_XOR/pl.md): usuwa przestrzeń współdzieloną elementów o parzystym numerze.
+
+
 
 ### Pomiary
 
@@ -140,6 +152,8 @@ Narzędzia te wykonują operacje logiczne.
 
 -   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width:32px;"> [Przełącz deltę](Part_Measure_Toggle_Delta/pl.md): narzędzie to przełącza widoczność pomiarów delta *(kolor zielony)*.
 
+
+
 ### Pozostałe narzędzia 
 
 -   <img alt="" src=images/Part_Import.svg  style="width:32px;"> [Importuj CAD](Part_Import.md): narzędzie to umożliwia import pliku \*.IGES, \*.STEP, \*.BREP do bieżącego dokumentu.
@@ -148,23 +162,25 @@ Narzędzia te wykonują operacje logiczne.
 
 -   <img alt="" src=images/Part_BoxSelection.svg  style="width:32px;"> [Pole wyboru](Part_BoxSelection/pl.md): dodaj do zaznaczenia powierzchnie czołowe bryły, które są objęte zaznaczeniem prostokątnym.
 
--   <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:32px;"> [Utwórz kształt z siatki](Part_ShapeFromMesh.md): tworzy bryłę z obiektu siatki.
+-   <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:32px;"> [Utwórz kształt z siatki](Part_ShapeFromMesh.md): tworzy kształt z obiektu siatki.
 
--   <img alt="" src=images/Part_PointsFromMesh.svg  style="width:32px;"> [Punkty z siatki](Part_PointsFromMesh.md): tworzy kształt obiektu utworzonego na podstawie punktów z siatki. <small>(v0.19)</small> 
+-   <img alt="" src=images/Part_PointsFromMesh.svg  style="width:32px;"> [Punkty z siatki](Part_PointsFromMesh/pl.md): Tworzy obiekt punktowy z obiektu geometrycznego.
 
 -   [Konwersja do bryły](Part_MakeSolid.md): konwertuje obiekt kształtu na bryłę.
 
 -   <img alt="" src=images/Part_ReverseShapes.svg  style="width:32px;"> [Odwróć kształty](Part_ReverseShapes.md): przerzuca normalne wszystkich powierzchni zaznaczonego obiektu.
 
 -   Wykonaj duplikat:
-    -   <img alt="" src=images/Part_SimpleCopy‎.svg  style="width:32px;"> [Create simple copy](Part_SimpleCopy.md): Creates a simple copy of the selected object.
-    -   <img alt="" src=images/Part_TransformedCopy.svg  style="width:32px;"> [Utwórz przekształconą kopię](Part_TransformedCopy.md): tworzy przesuniętą kopię wybranego obiektu. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Part_ElementCopy.svg  style="width:32px;"> [Utworz kopię kształtu elementu](Part_ElementCopy.md): tworzy kopię z elementu *(wierzchołka, krawędzi, ścianki)* wybranego obiektu. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Part_RefineShape.svg  style="width:32px;"> [Udoskonal kształt](Part_RefineShape.md): czyści ściany usuwając niepotrzebne linie.
+    -   <img alt="" src=images/Part_SimpleCopy‎.svg  style="width:32px;"> [Utwórz prostą kopię](Part_SimpleCopy/pl.md): Tworzy kopię prostą wybranych obiektów.
+    -   <img alt="" src=images/Part_TransformedCopy.svg  style="width:32px;"> [Utwórz przekształconą kopię](Part_TransformedCopy/pl.md): tworzy przesuniętą kopię wybranego obiektu.
+    -   <img alt="" src=images/Part_ElementCopy.svg  style="width:32px;"> [Utworz kopię kształtu elementu](Part_ElementCopy/pl.md): tworzy kopię z elementu *(wierzchołka, krawędzi, ścianki)* wybranego obiektu.
+    -   <img alt="" src=images/Part_RefineShape.svg  style="width:32px;"> [Udoskonal kształt](Part_RefineShape/pl.md): czyści ściany usuwając niepotrzebne linie.
 
 -   <img alt="" src=images/Part_CheckGeometry.svg  style="width:32px;"> [Analizuje geometrię \...](Part_CheckGeometry.md): sprawdza geometrię wybranych obiektów pod kątem błędów.
 
 -   <img alt="" src=images/Part_Defeaturing.svg  style="width:32px;"> [Usuń właściwość z kształtu](Part_Defeaturing.md): Usuwa cechy z danego obiektu.
+
+
 
 ### Pozycje w menu kontekstowym 
 
@@ -172,15 +188,21 @@ Narzędzia te wykonują operacje logiczne.
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Ustaw kolor](Part_FaceColors.md): przypisuje kolory do poszczególnych powierzchni obiektu.
 
+
+
 ## Ustawienia
 
 -   <img alt="" src=images/Preferences-part_design.svg  style="width:32px;"> [Preferencje](PartDesign_Preferences/pl.md): preferencje dostępne dla narzędzi środowiska Część *(Środowisko Part korzysta również z Preferencji Projekt Części)*.
 -   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Ustawienia import - eksport](Import_Export_Preferences/pl.md): preferencje dostępne przy imporcie z i eksporcie do różnych formatów plików.
 -   [Dostrajanie parametrów](Fine-tuning/pl.md): kilka dodatkowych parametrów, aby dostosować zachowanie środowiska pracy Część.
 
+
+
 ## Tworzenie skryptów 
 
 Zobacz również: [skrypty dla środowiska Część](Part_scripting/pl.md)
+
+
 
 ## Poradniki
 

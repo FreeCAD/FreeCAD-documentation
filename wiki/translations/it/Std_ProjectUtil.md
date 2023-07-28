@@ -2,7 +2,6 @@
 - GuiCommand:/it
    Name:Std_ProjectUtil
    Name/it:Utilità di progetto
-   Empty:1
    MenuLocation:Strumenti → Utilità di progetto...
    Workbenches:Tutti
 ---
@@ -10,7 +9,6 @@
 # Std ProjectUtil/it
 
 
-</div>
 
 ## Descrizione
 
@@ -19,14 +17,15 @@ Con il comando **Utilità di progetto** è possibile estrarre i file da un file 
 ![](images/Project_utility_en.png ) 
 *La finestra di dialogo Utilità di progetto*
 
+
+
 ## Utilizzo
+
+
 
 ### Estrarre un progetto 
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare l\'opzione **Strumenti → Utilità di progetto...** dal menu.
+1.  Selezionare l\'opzione **Strumenti →  <img src="images/Std_ProjectUtil.svg" width=16px> Utilità di progetto...** dal menu.
 2.  Viene visualizzata la finestra di dialogo Utilità di progetto.
 3.  Premere il pulsante **...** alla destra di **Estrai progetto → Sorgente**.
 4.  Selezionare il file ***.FCStd** che si vuole editare.
@@ -36,24 +35,16 @@ Con il comando **Utilità di progetto** è possibile estrarre i file da un file 
 8.  Premere il pulsante **Chiudi** per chiudere la finestra di dialogo.
 
 
-</div>
 
 ### Modifiche manuali 
 
-
-<div class="mw-translate-fuzzy">
-
-È importante ricordare che i file all\'interno di un file di progetto di FreeCAD sono interconnessi. Basta modificare un singolo file per ottenere degli errori. Per apportare modifiche coerenti su più file, utilizzare un buon editor di codice, come [Notepad++](http://notepad-plus-plus.org/) (per il sistema operativo Windows).
+È importante ricordare che i file all\'interno di un file di progetto di FreeCAD sono interconnessi. Basta modificare un singolo file per ottenere degli errori. Per apportare modifiche coerenti su più file, utilizzare un buon editor di codice, come [Notepad++](http://notepad-plus-plus.org/) (per il sistema operativo Windows) o [Notepadqq](https://notepadqq.com/s/) (per il sistema operativo Linux).
 
 
-</div>
 
 ### Creare un progetto 
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare l\'opzione **Strumenti → Utilità di progetto...** dal menu.
+1.  Selezionare l\'opzione **Strumenti →  <img src="images/Std_ProjectUtil.svg" width=16px> Utilità di progetto...** dal menu.
 2.  Viene visualizzata la finestra di dialogo Utilità di progetto.
 3.  Premere il pulsante **...** alla destra di **Crea progetto → Sorgente**.
 4.  Selezionare un file **Document.xml**. Il comando trova automaticamente tutti i file collegati.
@@ -65,20 +56,13 @@ Con il comando **Utilità di progetto** è possibile estrarre i file da un file 
 10. Premere il pulsante **Chiudi** per chiudere la finestra di dialogo.
 
 
-</div>
 
 ## Note
 
 -   Per ulteriori informazioni sul formato del file di progetto di FreeCAD, consultare [Formato dei file FCStd](File_Format_FCStd/it.md).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

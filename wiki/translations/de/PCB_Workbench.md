@@ -15,11 +15,15 @@ Mit dem Modul kannst Du Leiterplatten in FreeCAD importieren/erstellen. Umfang d
 -   Modul ermöglicht den Import von IGES/STP Modellen mit Farben,
 -   Möglichkeit, Löcher/Durchkontaktierungen unabhängig darzustellen.
 
+
+
 ## Referenzen
 
 -   Autor: marmni
 -   Hauptseite: <https://sourceforge.net/projects/eaglepcb2freecad/>
 -   Quellcode auf github: <https://github.com/marmni/FreeCAD-PCB>
+
+
 
 ## Werkzeuge
 
@@ -33,11 +37,17 @@ Aufklappmenü
 
 ![](images/PCB-export-BOM.png ) ![](images/PCB-export-hole.png ) ![](images/PCB-create-new.png ) ![](images/PCB-explode.png ) ![](images/PCB-bounding-box.png )
 
+
+
 ## Einrichtung
+
+
 
 ### Automatische Einrichtung 
 
 Dieser Arbeitsbereich kann über den [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert werden.
+
+
 
 ### Von GitHub 
 
@@ -89,6 +99,8 @@ Sicherheit → Bearbeiten → Benutzer und markiere alle Kontrollkästchen unter
 
 **MacOS Installationsanweisungen** (von GitHub)
 
+
+
 ## Verweise zum FreeCAD-PCB Arbeitsbereich 
 
 -   Arbeitsbereich Wiki: [Externe Arbeitsbereiche](https://wiki.freecadweb.org/External_workbenches/de)
@@ -98,6 +110,8 @@ Sicherheit → Bearbeiten → Benutzer und markiere alle Kontrollkästchen unter
 -   Videos: [EaglePCB_2\_FreeCAD - FreeCAD odczyt plików brd z programu Eagle](https://www.youtube.com/watch?v=81NsljRJx8c&feature=youtu.be)
 -   Dateien: [PCB Bibliothek](https://github.com/marmni/FreeCAD-PCB-library)
 -   Fehler melden: Bitte melde Fehler unter <https://github.com/marmni/FreeCAD-PCB/issues>
+
+
 
 ## Andere nützliche Verweise 
 
@@ -109,4 +123,4 @@ Sicherheit → Bearbeiten → Benutzer und markiere alle Kontrollkästchen unter
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > PCB Workbench/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > PCB Workbench/de

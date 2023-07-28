@@ -9,22 +9,37 @@
 
 # TechDraw Image/fr
 
+
+</div>
+
 ## Description
 
-L\'outil Image insère une image [bitmap](bitmap/fr.md) (png, jpeg, jpg, bmp, etc.) à partir d\'un fichier dans la page en tant que vue.
+L\'outil **TechDraw Image** insère une image [bitmap](Bitmap/fr.md) (png, jpeg, jpg, bmp, etc.) à partir d\'un fichier dans la page en tant que vue.
 
 ![](images/TechDraw_Image_example.png ) 
 *Image insérée dans la page de dessin*
 
+
+
 ## Comment faire 
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Appuyez sur le bouton**<img src="images/TechDraw_Image.svg" width=16px> [Insérer une image Bitmap](TechDraw_Image/fr.md)
 **
 2.  Une boîte de dialogue de fichier s\'ouvrira. Sélectionnez un emplacement et un nom de fichier.
 
+
+</div>
+
+
+
 ## Propriétés
 
 Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
+
+
 
 ### Données
 
@@ -39,12 +54,16 @@ Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
 
 -    **Height|Float**: hauteur de l\'image recadrée en mm. Idem.
 
+
+
 ### Vue
 
 
 {{TitleProperty|Image}}
 
 -    **Crop|Bool**: recadrer l\'image à **Width** x **Height**.
+
+
 
 ## Script
 

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:FEM ConstraintBodyHeatSource
    Name/fr:FEM Contrainte source thermique
-   MenuLocation:Modèle → Contraintes thermiques → Contrainte de chaleur du corps
+   MenuLocation:Modèle → Contraintes thermiques → Contrainte source de chaleur pour le corps
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Version:0.19
    SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
@@ -14,9 +14,11 @@
 
 Définit une température interne du corps en W/kg.
 
+
+
 ## Utilisation
 
-1.  Soit vous appuyez sur le bouton **<img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> '''Contrainte de chaleur du corps'''** ou sélectionnez le menu **Modèle → Contraintes thermiques → <img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> Contrainte de chaleur du corps **.
+1.  Soit vous appuyez sur le bouton **<img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> '''Contrainte source de chaleur pour le corps'''** ou sélectionnez le menu **Modèle → Contraintes thermiques → <img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> Contrainte source de chaleur pour le corps**.
 2.  Définissez la valeur :
     -   
         {{VersionPlus/fr|1.0}}
@@ -34,6 +36,8 @@ Définit une température interne du corps en W/kg.
 {{VersionMinus/fr|0.20}}
 
 : la source de chaleur du corps est appliquée à l\'ensemble du modèle, c\'est-à-dire à tous les corps de la configuration. Il n\'est pas possible de sélectionner un corps individuellement.
+
+
 
 ## Remarques
 

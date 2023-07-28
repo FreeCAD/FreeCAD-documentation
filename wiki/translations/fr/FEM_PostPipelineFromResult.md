@@ -25,7 +25,7 @@ Pipeline est un objet résultat, qui crée une nouvelle représentation graphiqu
 
 <img alt="" src=images/Pipeline.PNG  style="width:500px;">
 
-Si vous ne voyez aucun modèle dans la zone graphique, allez dans et activez **Edition → Préférences → Affichage → Vue 3D → Rendu → Couleur du rétroéclairage**.
+Si vous ne voyez aucun modèle dans la zone graphique, allez dans et activez **Édition → Préférences → Affichage → Vue 3D → Rendu → Couleur du rétroéclairage**.
 
 Si vous utilisez un [système d\'unités](Preferences_Editor/fr#Unit.C3.A9s.md) de FreeCAD dérivé du [Système international d\'unités](https://fr.wikipedia.org/wiki/Syst%C3%A8me_international_d%27unit%C3%A9s), les valeurs de l\'échelle de sortie seront également basées sur les unités du système international d\'unités. Cela signifie que le déplacement est en mètre, la contrainte est en Pascal et la température est en Kelvin.
 
@@ -49,7 +49,7 @@ Cette boîte de dialogue du pipeline a les paramètres suivants :
 
 
 
-### Echelle
+### Échelle
 
 Si vous double-cliquez sur l\'échelle, vous obtenez cette boîte de dialogue de paramétrage :
 

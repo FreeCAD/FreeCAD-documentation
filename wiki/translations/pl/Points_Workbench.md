@@ -43,9 +43,6 @@ Wszystkie narzędzia Środowiska pracy **Punkty** są dostępne w menu **Punkty*
 
 
 
-
-
-
 {{Points Tools navi
 
 }}

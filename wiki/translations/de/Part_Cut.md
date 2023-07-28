@@ -32,13 +32,7 @@ Beschneidet ausgewählte Part-Objekte, wobei das letzte vom ersten abgezogen (su
 
 ## Unterstützte Eingaben 
 
-
-<div class="mw-translate-fuzzy">
-
-Eingabeobjekte müssen [OpenCASCADE](OpenCASCADE/de.md) Formen sein. Beispiele: Sachen, die mit den Arbeitsbereichen Part, PartDesign, Skizzierer erstellt wurden. Keine Polygonnetze (es sei denn, diese wurden in Formen umgewandelt) - für Polygonnetze gibt es spezielle boolesche Werkzeuge im Arbeitsbereich Netzkonstruktion.
-
-
-</div>
+Eingabeobjekte müssen [OpenCASCADE](OpenCASCADE/de.md)-Formen sein. Zum Beispiel Objekte die mit den Arbeitsbereichen Part, PartDesign oder Sketcher erstellt wurden. Für Polygonnetze gibt es eigene boolesche Werkzeuge im Arbeitsbereich [Mesh](Mesh_Workbench/de.md).
 
 
 

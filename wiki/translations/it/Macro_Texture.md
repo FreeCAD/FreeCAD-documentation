@@ -97,6 +97,8 @@ Attenzione: secondo le dimensioni dell\'immagine, il file del disegno può diven
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### L\'interfaccia
@@ -275,6 +277,8 @@ Le icone in formato .png <img alt="" src=images/FCTexture.png  style="width:64px
 
 Scaricare la macro da Gist [Macro FCTexture.FCMacro](https://gist.github.com/mario52a/262317bc7d8555885b0e)
 
+
+
 ## Esempio
 
 Le immagini sono state inclinate per esaltare l\'effetto 3D.
@@ -398,6 +402,8 @@ La <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro 
 [apply hair cell texture](http://forum.freecadweb.org/viewtopic.php?f=3&t=4708&start=10#p46353)
 
 [How to handle pdf import properly and feasibly?](http://forum.freecadweb.org/viewtopic.php?f=3&t=6123&hilit=teobo&start=10#p49024)
+
+
 
 ## Revisioni
 

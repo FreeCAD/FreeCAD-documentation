@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Описание
 
 The **Std ViewScreenShot** command opens a dialog box to create an image file, a screenshot, from the active [3D view](3D_view.md).
@@ -19,14 +21,18 @@ The **Std ViewScreenShot** command opens a dialog box to create an image file, a
 <img alt="" src=images/Save_picture.png  style="width:800px;"> 
 *The Save picture dialog box after pressing the Extended button*
 
+
+
 ## Применение
 
-1.  Select the **Tools → <img src="images/Std_ViewScreenShot.svg" width=16px> Save picture...** option from the menu.
-2.  The Save picture dialog box opens.
+1.  Select the **Tools → <img src="images/Std_ViewScreenShot.svg" width=16px> Save image...** option from the menu.
+2.  The Save image dialog box opens.
 3.  Optionally press the **Extended** button to reveal an additional panel in the dialog box. For more information see [Options](#Options.md).
 4.  Optionally browse to the correct folder.
 5.  Enter a filename and select the file type.
 6.  Press the **Save** button to create the image file and close the dialog box.
+
+
 
 ## Опции
 
@@ -82,10 +88,14 @@ The **Std ViewScreenShot** command opens a dialog box to create an image file, a
 2.  Or select the {{RadioButton|TRUE|Insert comment}} option and type a comment in the text field to embed a comment in the file. Not all image formats support this.
 3.  Check the {{CheckBox|TRUE|Add watermark}} checkbox to add a watermark. The watermark is placed in the lower left corner of the image and consists of the FreeCAD logo and name above the main FreeCAD URL: [www.freecadweb.org](http://www.freecadweb.org).
 
+
+
 ## Примечания
 
 -   The number of available image file formats may vary depending on your OS.
 -   Some OpenGL drivers don\'t allow renderings above a certain maximum size.
+
+
 
 ## Настройки
 
@@ -124,7 +134,13 @@ App.closeDocument(App.ActiveDocument.Name)
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Std Base navi

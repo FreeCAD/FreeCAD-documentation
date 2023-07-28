@@ -11,9 +11,9 @@
 
 ## Description
 
-Cet outil crée une nouvelle opération **<img src="images/Path_Surface.svg" width=24px> [Surface](Path_Surface/fr.md)** qui est capable de générer des trajectoires G-Code pour toute la surface supérieure d\'un modèle 3D (ou est capable de travailler avec des faces sélectionnées) et permet d\'éviter les faces. Cette opération offre plusieurs motifs de coupe: ligne, zigzag, circulaire, zigzag circulaire, décalage et spirale (similaire à un motif adaptatif). Depuis la version 0.19, cette opération propose de nombreuses personnalisations pour permettre une plus grande productivité.
+Cet outil crée une nouvelle opération de <img alt="" src=images/Path_Surface.svg  style="width:24px;"> [Surface](Path_Surface/fr.md), capable de générer des trajectoires G-code pour toute la surface supérieure d\'un modèle 3D (ou capable de travailler avec des faces sélectionnées) et permet d\'éviter des faces. Cette opération offre plusieurs motifs de coupe: ligne, zigzag, circulaire, zigzag circulaire, décalage et spirale (similaire à un motif adaptatif). Depuis la version 0.19, cette opération propose de nombreuses personnalisations pour permettre une plus grande productivité.
 
-L\'opération **<img src="images/Path_Surface.svg" width=24px> [Surface](Path_Surface/fr.md)** est également capable de générer des trajectoires de surfaçage 3D de base. Les capacités de rotation sont limitées à l\'ensemble du modèle et ne permettent pas d\'isoler des faces ou des régions spécifiques. Les trajectoires de rotation sont également limités aux motifs de coupe de ligne.
+L\'opération <img alt="" src=images/Path_Surface.svg  style="width:24px;"> [Surface](Path_Surface/fr.md) est également capable de générer des parcours de surfaçage 3D de base. Les capacités de rotation sont limitées à l\'ensemble du modèle et ne permettent pas d\'isoler des faces ou des régions spécifiques. Les parcours rotatifs sont également limités aux motifs de coupe de lignes.
 
 L\'outil 3D Surface s\'interface avec OCL.pyd, un module Open Source tiers intitulé [OpenCamLib](OpenCamLib/fr.md) qui génère des chemins d\'outil à partir d\'un modèle 3D. OpenCamLib n\'est pas directement intégré à FreeCAD.
 
@@ -23,9 +23,13 @@ L\'outil 3D Surface s\'interface avec OCL.pyd, un module Open Source tiers intit
 2.  Activez [Fonctions expérimentales](Path_experimental/fr.md) de l\'atelier Path.
 3.  Vérifiez **Édition → Préférences... → Path → Advanced → Enable OCL dependent features**.
 
+
+
 ## Utilisation
 
 Les instructions d\'utilisation pour plusieurs variantes de [Surface](Path_Surface/fr.md) sont présentées ici.
+
+
 
 #### Opération de base 
 
@@ -54,6 +58,8 @@ Les instructions d\'utilisation pour plusieurs variantes de [Surface](Path_Surfa
 
 Pour obtenir des effets différents ou plus complexes, définissez des propriétés d\'opération supplémentaires dans l\'onglet Données de la vue Propriétés pour l\'opération.
 
+
+
 #### Scans rotationnels (4ème axe) 
 
 1.  Lancez une [Opération de base](#Op.C3.A9ration_de_base.md) comme décrit ci-dessus et définissez le **Type de scan** à **Rotationel**.
@@ -70,15 +76,19 @@ Pour obtenir des effets différents ou plus complexes, définissez des propriét
 5.  Cliquez sur l\'icône **[<img src=images/_View-refresh.svg style="width:16px"> [Rafraîchir](Std_Refresh/fr.md)** dans la barre d\'outils.
 6.  Attendez les résultats \...
 
+
+
 ##### Remarques sur les scans rotationnels 
 
 -   Les balayages **Rotationnels** nécessitent beaucoup plus de temps et de traitement que les balayages **Planaires**. Les facteurs ayant une incidence sur le temps de traitement comprennent: l\'intervalle d\'échantillonnage, l\'interpolation, le diamètre de l\'outil et la taille du modèle. Encore une fois, les analyses en rotation peuvent prendre beaucoup de temps. Certains peuvent prendre 3, 5 ou 10 minutes ou plus.
--   Pour des raisons de temps, il est préférable de ne pas recalculer un balayage rotationnel après chaque changement de propriété. considérez plutôt l'un des éléments suivants:
+-   Pour des raisons de temps, il est préférable de ne pas recalculer un balayage rotationnel après chaque changement de propriété. Considérez plutôt l'un des éléments suivants :
     -   utilisez la technique **pour modifier tous les paramètres avec la touche ENTREE** mentionnée à l\'étape 2 ci-dessus puis l\'opération **[<img src=images/View-refresh.svg style="width:16px"> [Rafraîchir](Std_Refresh/fr.md)**.
-    -   désactiver l\'opération avec l\'outil **<img src="images/Path_OpActiveToggle.svg" width=16px> [Activation d'opération](Path_OpActiveToggle/fr.md)**, apportez vos modifications aux propriétés de l\'opération, puis cliquez sur le **<img src="images/Path_OpActiveToggle.svg" width=16px> [Activation d'opération](Path_OpActiveToggle/fr.md)** à nouveau pour réactiver l\'opération, ce qui déclenche un recalcul en interne.
+    -   désactiver l\'opération avec l\'outil **<img src="images/Path_OpActiveToggle.svg" width=16px> [Activer une opération](Path_OpActiveToggle/fr.md)**, apportez vos modifications aux propriétés de l\'opération, puis cliquez sur le **<img src="images/Path_OpActiveToggle.svg" width=16px> [Activer une opération](Path_OpActiveToggle/fr.md)** à nouveau pour réactiver l\'opération, ce qui déclenche un recalcul en interne.
 -   L\'opération **<img src="images/Path_Surface.svg" width=16px> [Surface](Path_Surface/fr.md)** est toujours considérée comme une \"fonctionnalité expérimentale\" au 25/06/2019. En tant que tel, elle peut contenir quelques bugs qui doivent encore être clairement identifiés. Veuillez signaler les bogues et les problèmes sur le [FreeCAD Path/CAM Forum](https://forum.freecadweb.org/viewforum.php?f=15).
--   Le **<img src="images/Path_Simulator.svg" width=16px> [Path Simulateur d'usinage](Path_Simulator/fr.md)** intégré ne prend pas en charge la simulation du 4ème axe. Vous devrez utiliser un simulateur tiers pour inspecter ou vérifier visuellement les chemins. Voir la section [Ressources](#Ressources.md) ci-dessous pour des suggestions.
+-   Le **<img src="images/Path_Simulator.svg" width=16px> [Path Simulateur FAO](Path_Simulator/fr.md)** intégré ne prend pas en charge la simulation du 4ème axe. Vous devrez utiliser un simulateur tiers pour inspecter ou vérifier visuellement les parcours. Voir la section [Ressources](#Ressources.md) ci-dessous pour des suggestions.
 -   Vous verrez probablement des lignes de rotation rouges autour de votre modèle dans la fenêtre. C\'est normal dans FreeCAD pour le moment.
+
+
 
 ##### Remarques sur les scans de modèles complexes 
 
@@ -109,6 +119,8 @@ Si les résultats comprennent des éléments comme *BOPAlgo SelfIntersect*, alor
 (Conseil : les opérations booléennes et les commandes Loft peuvent parfois introduire des *Self Intersections*)
 .
 
+
+
 #### Formes d\'outils (de coupe) disponibles 
 
 Cette opération 3D Surface utilise actuellement [OpenCamLib](OpenCamLib/fr.md) pour extraire les trajectoires de la base de la pièce. En tant que tel, une traduction des paramètres de l\'outil est nécessaire entre le contrôleur d\'outil de FreeCAD et OCL afin de compléter le balayage avec la forme de votre outil (cutter).
@@ -124,6 +136,8 @@ Ces formes d'outils sont respectées et disponibles pour cette opération 3D Sur
 Si vous choisissez d\'exécuter le simulateur de trajectoire dans l\'atelier Path, il utilise uniquement la fraise de bout standard pour simuler des trajectoires. Par conséquent, vous ne verrez pas l'enlèvement de matière spécifique à une forme d'outil. L\'enlèvement de matière est illustré à l\'aide de la forme de la fraise.
 
 REMARQUE: à compter de mai 2019, seule la fraise en bout dispose d\'un type de test permettant de déterminer l\'exactitude de la traduction des paramètres de l\'outil FreeCAD-OCL. Veuillez poster tout commentaire concernant une utilisation autre que l'usine finale dans la section [Path/CAM](https://forum.freecadweb.org/viewforum.php?f=15) des forums FreeCAD.
+
+
 
 ## Propriétés: Version 0.19 
 
@@ -144,42 +158,42 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
     -   
         **Axis**
         
-        : axe (un ou plusieurs) autour duquel faire pivoter l\'objet, défini dans les sous-propriétés: x, y, z.
+        : axe (un ou plusieurs) autour duquel faire pivoter l\'objet, défini dans les sous-propriétés: X, Y, Z.
 
         -   
             **X**
             
-            : valeur de l\'axe x.
+            : valeur de l\'axe X.
 
         -   
             **Y**
             
-            : valeur de l\'axe y.
+            : valeur de l\'axe Y.
 
         -   
             **Z**
             
-            : valeur de l\'axe z.
+            : valeur de l\'axe Z.
 
     -   
         **Position**
         
-        : position de l\'objet, définie dans les sous-propriétés: x, y, z - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
+        : position de l\'objet, définie dans les sous-propriétés: X, Y, Z - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
 
         -   
             **X**
             
-            : valeur de distance x.
+            : valeur de distance X.
 
         -   
             **Y**
             
-            : valeur de distance y.
+            : valeur de distance Y.
 
         -   
             **Z**
             
-            : valeur de distance z.
+            : valeur de distance Z.
 
 -    **Label**: nom de l\'objet fourni par l\'utilisateur (UTF-8).
 
@@ -188,21 +202,41 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Bound Box**: si l\'opération est limitée par l\'objet stock ou par le cadre englobant de l\'objet de base
 
--    **Cut Mode**: la direction dans laquelle le parcours d\'outil doit aller autour de la pièce: Climb (sens horaire) ou Conventionnel (anti sens horaire)
+-    **Cut Mode**: la direction dans laquelle le parcours d\'outil doit aller autour de la pièce: Climb (sens horaire) ou Conventionnel (sens anti horaire)
 
 -    **Cut Pattern**: motif d\'effacement à utiliser
 
--    **Cut Pattern Reversed**: inverse l\'ordre de coupe des trajectoires des recouvrement entre les passes. Pour les motifs de coupe circulaire, commencez par l\'extérieur et travaillez vers le centre
+-    **Cut Pattern Reversed**: inverser l\'ordre de coupe des trajectoires des recouvrement entre les passes. Pour les motifs de coupe circulaire, commencez par l\'extérieur et travaillez vers le centre
 
 -    **Depth Offset**: décalage de l\'axe Z par rapport à la surface de l\'objet
 
--    **Layer Mode**: le mode de complétion de l\'opération: simple ou multi-passes
+-    **Layer Mode**: mode de complétion de l\'opération: simple ou multi-passes
 
--    **Pattern Center At**: choisissez l\'emplacement du point central pour commencer le motif de coupe
+-    **Pattern Center At**: choisir l\'emplacement du point central pour commencer le motif de coupe
 
 -    **Pattern Center Custom**: définit le point de départ du motif de coupe
 
--    **Profile Edges**: profiler les bords de la sélection
+-    **Profile Edges**: permet de profiler des bords de la sélection. Les options suivantes sont disponibles (les images peuvent être vues dans ce message du forum : <https://forum.freecad.org/viewtopic.php?p=676452#p676452>) :
+
+    -   
+        **None**
+        
+        : ne pas créer de profil
+
+    -   
+        **Only**
+        
+        : ne crée qu\'un profil et aucune trajectoire interne
+
+    -   
+        **First**
+        
+        : commencer par le profil, puis le reste
+
+    -   
+        **Last**
+        
+        : commencer par le reste, puis le profil
 
 -    **Sample Interval**: l\'intervalle d\'échantillonnage. Les petites valeurs entraînent de longs temps d\'attente
 
@@ -263,24 +297,24 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Cutter Tilt**: définit l\'angle d\'inclinaison de la fraise (broche).
 
--    **Drop Cutter Dir**: direction le long de laquelle les lignes de dropcutter sont créées
+-    **Drop Cutter Dir**: direction le long de laquelle les lignes de Dropcutter sont créées
 
 -    **Drop Cutter Extra Offset**: décalage supplémentaire par rapport au cadre de sélection sélectionné - utilisez des sous-propriétés pour définir les valeurs
 
     -   
         **X**
         
-        : valeur de distance x
+        : valeur de distance X
 
     -   
         **Y**
         
-        : valeur de distance y
+        : valeur de distance Y
 
     -   
         **Z**
         
-        : valeur de distance z
+        : valeur de distance Z
 
 -    **Rotation Axis**: définit l\'axe de rotation du modèle.
 
@@ -308,29 +342,29 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 {{TitleProperty|Start Point}}
 
--    **Start Point**: point de départ personnalisé pour la trajectoire de cette opération, défini dans les sous-propriétés: x, y, z
+-    **Start Point**: point de départ personnalisé pour lE PARCOURS de cette opération, défini dans les sous-propriétés : X, Y, Z
 
     -   
         **X**
         
-        : valeur de l\'axe x
+        : valeur de l\'axe X
 
     -   
         **Y**
         
-        : valeur de l\'axe y
+        : valeur de l\'axe Y
 
     -   
         **Z**
         
-        : valeur de l\'axe z
+        : valeur de l\'axe Z
 
 -    **Use Start Point**: mis à True, si vous spécifiez un point de départ
 
 
 {{TitleProperty|Surface}}
 
--    **Scan Type**: Planaire : scan de surface plat et 3D. Rotationnel : balayage de rotation sur le 4ème axe.
+-    **Scan Type**: planaire : balayage surfacique plat et 3D. Rotationnel : balayage rotatif sur le 4ème axe.
 
 
 {{TitleProperty|Waste}}
@@ -341,20 +375,28 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Release From Waste**: coupe les déchets jusqu\'à la profondeur sur le bord du modèle, ce qui libère le modèle.
 
+
+
 ## Editeur de la fenêtre des tâches 
 
-*Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.* Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
+*Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.*
+
+Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
+
+
 
 ### Localisation de la base 
 
--   **Base Geometry import selection**: utilisez cette liste pour sélectionner la géométrie de base à importer à partir de l\'opération existante sélectionnée
--   **Import**: importe la géométrie de base de l\'opération sélectionnée dans la liste des géométries de base des opérations courantes
--   **Base Geometry list for current operation**: liste des géométries de base pour l\'opération en cours, le cas échéant
--   **Add**: ajoute le ou les éléments sélectionnés qui devraient être la (les) base(s) du (des) trajectoire(s)
--   **Remove**: supprimez les éléments sélectionnés dans la liste Base Location
--   **Edit**: efface tous les éléments de la liste Base Location
+-   **Sélection de géométrie de base à importer**: utilisez cette liste pour sélectionner la géométrie de base à importer à partir de l\'opération existante sélectionnée
+-   **Importer**: importe la géométrie de base de l\'opération sélectionnée dans la liste des géométries de base des opérations courantes
+-   **Liste des géométries de base pour l\'opération en cours**: liste des géométries de base pour l\'opération en cours, le cas échéant
+-   **Ajouter**: ajoute le ou les éléments sélectionnés qui devraient être la (les) base(s) du (des) parcours
+-   **Supprimer**: supprimez les éléments sélectionnés dans la liste Base Location
+-   **Editer**: efface tous les éléments de la liste Base Location
 
-### Profondeurs
+
+
+### Profondeur
 
 -    **Start Depth**
     
@@ -365,13 +407,17 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -    **Step Down**
     
 
-### Hauteurs
+
+
+### Hauteur
 
 -    **Safe Height**
     
 
 -    **Clearance Height**
     
+
+
 
 ### Opération
 
@@ -419,6 +465,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Optimize Linear Paths**
     
+
+
 
 ## Ressources
 

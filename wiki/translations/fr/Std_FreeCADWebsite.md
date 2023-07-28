@@ -15,6 +15,8 @@ La commande **Std Site Web de FreeCAD** ouvre le site Web principal du projet Fr
 
 Actuellement, cette commande pointe vers [<https://www.freecad.org/>](https://www.freecad.org/).
 
+
+
 ## Utilisation
 
 1.  Sélectionnez l\'option **Aide → [<img src=images/Std_FreeCADWebsite.svg style="width:16px"> Site Web de FreeCAD** dans le menu.

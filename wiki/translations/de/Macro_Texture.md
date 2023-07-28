@@ -18,6 +18,8 @@
 
 </div>
 
+
+
 ## Beschreibung
 
 Mit diesem kleinen Makro können Sie aus einem Bitmap-Bild mit 256 Graustufen sehr einfach ein 3D-Projekt erstellen.
@@ -32,13 +34,21 @@ Ich hoffe, dass dieses Makro die Denkweise von CAD und CNC jedes Bild revolution
 
 Alles wird möglich, unabhängig von der Komplexität des Bildes!
 
+
+<div class="mw-translate-fuzzy">
+
 Das Makro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft/de.md) wird zum Automatisieren der Multi Loft-Operation benutzt.
+
+
+</div>
 
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/262317bc7d8555885b0e/raw/3ec2ab127d8ad01a6b657aa5df9a6127ff07c7c0/Macro%2520FCTexture.FCMacro}}
 
 <img alt="" src=images/Texture_004_Honda.png  style="width:480px;"> 
 *Texture 004 Honda*
+
+
 
 ## Anwendung
 
@@ -55,6 +65,8 @@ Die Bilddatei wird wie ein Scanner x1 x2 x3 \... in 1-mm-Schritten in FreeCAD ä
 Wichtiger Hinweis: Je nach Größe des Bildes kann das Projekt sehr groß werden! Bspw. ergibt ein Bild mit einer Breite von 100 px und einer Höhe von 100 px **100 x 100 = 10000 Punkte** und da jeder Punkt einer Koordinate entspricht, sind es 10000 X-, 10000 Y- und 10000 Z-Koordinaten.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Die Schnittstelle 
@@ -63,6 +75,8 @@ Wichtiger Hinweis: Je nach Größe des Bildes kann das Projekt sehr groß werden
 </div>
 
 <img alt="Texture 002" src=images/Texture_002.png  style="width:300px;">
+
+
 
 #### Koordinaten
 
@@ -213,6 +227,8 @@ Der Anfangswert des Bedienungswerts passt sich automatisch an die ausgewählte F
 
 -    **Quit**: beendet die Funktion.
 
+
+
 ## Skript
 
 The icons .png <img alt="" src=images/FCTexture.png  style="width:64px;"> and .svg<img alt="" src=images/FCTexture.svg  style="width:64px;">
@@ -220,6 +236,8 @@ The icons .png <img alt="" src=images/FCTexture.png  style="width:64px;"> and .s
 **Macro_Texture.FCMacro**
 
 Laden Sie das Makro in Gist herunter [Macro FCTexture.FCMacro](https://gist.github.com/mario52a/262317bc7d8555885b0e)
+
+
 
 ## Beispiel
 
@@ -318,6 +336,7 @@ Image:Texture_003_napperon.png\|A portion of a tablecloth. Image:Texture_005_lar
 
 
 </center>
+
 
 
 ## Verweise

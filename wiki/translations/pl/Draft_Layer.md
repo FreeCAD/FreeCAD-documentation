@@ -4,7 +4,7 @@
    MenuLocation:Utilities → Layer
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    Version:0.19
-   SeeAlso:[Draft AutoGroup](Draft_AutoGroup.md)
+   SeeAlso:[Draft AutoGroup](Draft_AutoGroup.md), [Draft LayerManager](Draft_LayerManager.md)
 ---
 
 # Draft Layer/pl
@@ -27,6 +27,8 @@ The <img alt="" src=images/Draft_Layer.svg  style="width:24px;"> **Draft Layer**
 
 ## Context menu 
 
+
+
 ### Opcje kontenera warstw 
 
 For a Draft LayerContainer these additional options are available in the [Tree view](Tree_view.md) context menu:
@@ -48,7 +50,7 @@ For a Draft Layer these additional options are available in the [Tree view](Tree
 ## Drag and drop behavior 
 
 
-<small>(v1.0)</small> 
+<small>(v0.21)</small> 
 
 If you drop an object from a [Std Group](Std_Group.md), or a group-like object such as an [Arch BuildingPart](Arch_BuildingPart.md), on a layer in the [Tree view](Tree_view.md), it is not removed from the group, and vice versa. To remove an object from a layer it must be dropped on another layer or on the document node. There is no need to hold down the **Ctrl** key when dragging from or dropping on a layer.
 

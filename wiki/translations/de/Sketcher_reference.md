@@ -10,6 +10,8 @@ Aufgrund des sich entwickelnden Charakters des Handbuchs wird das Dokument auch 
 ![](images/Sketcher_reference.png ) 
 *Beispielskizze im Referenzhandbuch*
 
+
+
 ## Inhalte
 
 Die allgemeine Struktur des Dokuments ist
@@ -61,8 +63,7 @@ Die allgemeine Struktur des Dokuments ist
     -   Allgemeine Empfehlungen zu Beschränkungen
     -   Externe Geometrie
 
-
- {{Sketcher Tools navi}}
+{{Sketcher Tools navi}}
 
 
 

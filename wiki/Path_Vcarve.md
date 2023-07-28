@@ -10,13 +10,13 @@
 
 ## Description
 
-The <img alt="" src=images/Path_Vcarve.svg  style="width:24px;"> [Path Vcarve](Path_Vcarve.md) tool is primarily for center-line engraving a <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> [Draft ShapeString](Draft_ShapeString.md) onto a part. However, it may be useful for other kinds of 2D.
+The <img alt="" src=images/Path_Vcarve.svg  style="width:24px;"> [Vcarve](Path_Vcarve.md) tool is primarily for center-line engraving a <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> [Draft ShapeString](Draft_ShapeString.md) onto a part. However, it may be useful for other kinds of 2D.
 
 Unlike engraving which follows the lines in the shapestring, V-carving uses a V-shaped cutter and attempts to clear the area by moving the cutter down the center of the region and varying the depth of cut. Since a v-cutter radius varies with the depth, the width of cut varies as well. The result is a more natural looking cut, particularly for serif fonts.
 
  ![](images/Engravepath.png ) ![Example Vcarving Path](images/Vcarvepath.png ) ![](images/Vcarved.png ) ![](images/Scrolltest.png ) 
 
-The V-carve algorithm calculates a path down the center-line of a region using a voronoi diagram. This center-line is the path the tool will follow in the XY plane. It next calculates a \'maximum inscribed circle\' along the path. This is the largest circle that can be drawn at that point and remain entirely inside the clearing area. Using the circle radius and the tip angle of the cutter, the depth of cut is calculated.
+The V-carve algorithm calculates a path down the center-line of a region using a Voronoi diagram. This center-line is the path the tool will follow in the XY plane. It next calculates a \'maximum inscribed circle\' along the path. This is the largest circle that can be drawn at that point and remain entirely inside the clearing area. Using the circle radius and the tip angle of the cutter, the depth of cut is calculated.
 
 ## Usage
 

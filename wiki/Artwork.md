@@ -9,11 +9,7 @@ Here is the artwork that has been created for FreeCAD. Feel free to reuse in oth
 
 ### Workbench icons used in the wiki 
 
- <img alt="" src=images/Workbench_Arch.svg  style="width:64px;"> <img alt="" src=images/Workbench_Complete.svg  style="width:64px;"> <img alt="" src=images/Workbench_Draft.svg  style="width:64px;"> <img alt="" src=images/Workbench_Drawing.svg  style="width:64px;"> <img alt="" src=images/Workbench_FEM.svg  style="width:64px;"> <img alt="" src=images/Workbench_Image.svg  style="width:64px;"> <img alt="" src=images/Workbench_Inspection.svg  style="width:64px;"> <img alt="" src=images/Workbench_Mesh.svg  style="width:64px;"> <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> <img alt="" src=images/Workbench_Part.svg  style="width:64px;"> <img alt="" src=images/Workbench_PartDesign.svg  style="width:64px;"> <img alt="" src=images/Workbench_Path.svg  style="width:64px;"> <img alt="" src=images/Workbench_Plot.svg  style="width:64px;"> <img alt="" src=images/Workbench_Points.svg  style="width:64px;"> <img alt="" src=images/Workbench_Raytracing.svg  style="width:64px;"> <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> <img alt="" src=images/Workbench_Robot.svg  style="width:64px;"> <img alt="" src=images/Workbench_Ship.svg  style="width:64px;"> <img alt="" src=images/Workbench_Sketcher.svg  style="width:64px;"> <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> <img alt="" src=images/Workbench_Start.svg  style="width:64px;"> <img alt="" src=images/Workbench_TechDraw.svg  style="width:64px;"> <img alt="" src=images/Workbench_Test.svg  style="width:64px;"> <img alt="" src=images/Workbench_Web.svg  style="width:64px;"> 
-
-### Emoticons
-
- <img alt="" src=images/FreeCAD05_Tango_Face-angel.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Face-blush.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Face-crying.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Face-devil-grin.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Face-glasses.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Face-grin.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Face-grin-braces.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Face-kiss.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Face-plain.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Face-sad.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Face-smile.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Face-smile-big.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Face-surprise.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Face-wink.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Anaglyph.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Applications-games.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Applications-ristretto.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Dialog-error.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Dialog-warning.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Measure.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Process-stop.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Text-x-python.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Camera-photo.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Preferences-system.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Camera-video.svg  style="width:64px;"> <img alt="" src=images/FreeCAD05_Tango_Applications-graphics.svg  style="width:64px;"> <img alt="" src=images/FC_Christmas.svg  style="width:64px;"> 
+ <img alt="" src=images/Workbench_Arch.svg  style="width:64px;"> <img alt="" src=images/Workbench_Draft.svg  style="width:64px;"> <img alt="" src=images/Workbench_FEM.svg  style="width:64px;"> <img alt="" src=images/Workbench_Inspection.svg  style="width:64px;"> <img alt="" src=images/Workbench_Mesh.svg  style="width:64px;"> <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> <img alt="" src=images/Workbench_Part.svg  style="width:64px;"> <img alt="" src=images/Workbench_PartDesign.svg  style="width:64px;"> <img alt="" src=images/Workbench_Path.svg  style="width:64px;"> <img alt="" src=images/Workbench_Points.svg  style="width:64px;"> <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> <img alt="" src=images/Workbench_Robot.svg  style="width:64px;"> <img alt="" src=images/Workbench_Sketcher.svg  style="width:64px;"> <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> <img alt="" src=images/Workbench_Start.svg  style="width:64px;"> <img alt="" src=images/Workbench_Surface.svg  style="width:64px;"> <img alt="" src=images/Workbench_TechDraw.svg  style="width:64px;"> <img alt="" src=images/Workbench_Test.svg  style="width:64px;"> <img alt="" src=images/Workbench_Web.svg  style="width:64px;"> 
 
 ## Splash screens 
 
@@ -29,29 +25,13 @@ See [Artwork Gui](Artwork_Gui.md).
 
 See [Artwork Arch](Artwork_Arch.md).
 
-### From src/Mod/Assembly/ 
-
-See [Artwork Assembly](Artwork_Assembly.md).
-
-### From src/Mod/Complete/ 
-
-See [Artwork Complete](Artwork_Complete.md).
-
 ### From src/Mod/Draft/ 
 
 See [Artwork Draft](Artwork_Draft.md).
 
-### From src/Mod/Drawing/ 
-
-See [Artwork Drawing](Artwork_Drawing.md).
-
 ### From src/Mod/Fem/ 
 
 See [Artwork Fem](Artwork_Fem.md).
-
-### From src/Mod/Image/ 
-
-See [Artwork Image](Artwork_Image.md).
 
 ### From src/Mod/Inspection/ 
 
@@ -88,10 +68,6 @@ See [Artwork Path](Artwork_Path.md).
 ### From src/Mod/Points/ 
 
 See [Artwork Points](Artwork_Points.md).
-
-### From src/Mod/Raytracing/ 
-
-See [Artwork Raytracing](Artwork_Raytracing.md).
 
 ### From src/Mod/ReverseEngineering/ 
 

@@ -1,48 +1,59 @@
 # TechDraw LineGroup/pl
 {{TOCright}}
 
-## Overview
 
-LineGroups are used to control the appearance of various types of lines.
 
-### Usage
+## Opis
 
-1.  Go to the preferences tab *[Annotation](TechDraw_Preferences#Annotation.md)*.
-2.  Select in the field **Line Width Group** a LineGroup. These are the groups defined in the LineGroup definition csv file.
+Grupy linii służą do kontrolowania wyglądu różnych typów linii.
 
-To change the LineGroups definition file
 
-1.  Go to the preferences tab *[General](TechDraw_Preferences#General.md)*.
-2.  Select in the field **Line Group File** a LineGroup definition file.
 
-### Customizing LineGroups 
+## Użycie
 
-If you have write permission you can edit `LineGroup.csv` to add your own LineGroups.
+1.  Przejdź do zakładki preferencji *[Adnotacja](TechDraw_Preferences/pl#Adnotacje.md)*.
+2.  Wybierz w polu **Szerokość linii w grupie** grupę linii. Są to grupy zdefiniowane w pliku csv definicji *LineGroup*.
 
-This file is usually in:
+Aby zmienić plik definicji LineGroups
+
+1.  Przejdź do zakładki preferencji *[Ogólne](TechDraw_Preferences/pl#Ogólne.md)*.
+2.  Wybierz w polu **Plik grupy linii** plik definicji grupy linii.
+
+
+
+## Dostosowywanie grup linii 
+
+Jeśli masz uprawnienia do zapisu, możesz edytować `LineGroup.csv`, aby dodać własne grupy linii.
+
+Plik ten zazwyczaj znajduje się w:
 
 
 ```python
 $INSTALL_DIR/Mod/TechDraw/LineGroup/LineGroup.csv
 ```
 
-Where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example
+Gdzie `$INSTALL_DIR` to katalog, w którym zainstalowano FreeCAD, na przykład:
 
 
 ```python
 /usr/share/freecad/Mod/TechDraw/LineGroup/LineGroup.csv
 ```
 
-You can specify your favorite defaults in the [TechDraw Preferences](TechDraw_Preferences.md).
+Możesz określić swoje ulubione ustawienia domyślne w [ustawieniach](TechDraw_Preferences/pl.md).
 
-## LineGroup File Path 
+
+
+## Ścieżka pliku LineGroup 
+
+-   -   ***freecad-daily PPA***: `/usr/share/freecad-daily/Mod/TechDraw/LineGroup/`
+
+-   **Linux**: `/usr/share/freecad/Mod/TechDraw/LineGroup/`
+
+-   **Mac**: `/Applications/FreeCAD.app/Contents/Mod/TechDraw/LineGroup/`
 
 -   **Windows**: `C:\Program Files\FreeCAD\data\Mod\TechDraw\LineGroup\`
--   **Mac**: `/Applications/FreeCAD.app/Contents/Mod/TechDraw/LineGroup/`
--   **Linux**: `/usr/share/freecad/Mod/TechDraw/LineGroup/`
-    -   ***freecad-daily PPA***: `/usr/share/freecad-daily/Mod/TechDraw/LineGroup/`
 
-Note: A new preference has been added to allow you to use your own personal LineGroup file.
+Uwaga: Dodano nową preferencję, aby umożliwić korzystanie z własnego pliku LineGroup.
 
 
 ```python
@@ -63,9 +74,11 @@ Note: A new preference has been added to allow you to use your own personal Line
 *FC 1.00mm,0.50,0.70,1.00,2.00
 ```
 
-## Note
 
--   Line width in TechDraw is always specified in mm, even when using other unit systems.
+
+## Uwagi
+
+-   Szerokość linii w środowisku pracy Rysunek Techniczny jest zawsze określana w mm, nawet w przypadku korzystania z innych systemów jednostek.
 
 
 

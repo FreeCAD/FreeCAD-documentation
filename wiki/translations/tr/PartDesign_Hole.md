@@ -9,9 +9,13 @@
 
 # PartDesign Hole/tr
 
+
+
 ## Tanım
 
 The **Hole** feature creates one or more holes from a selected sketch\'s circles and arcs. If arcs are present they must be part of closed contours. All non arc/circle entities are ignored but they still must form closed contours. Many parameters can be set such as threading and size, fit, hole type (countersink, counterbore, straight) and more.
+
+The centers of the circles and arcs are used to position the holes, but please note that their radii are not taken into account. The generated holes will be identical even if the radii vary.
 
 <img alt="" src=images/Countersunk_and_counterbored_holes_cross-section1.png  style="width:600px;">
 
@@ -42,20 +46,23 @@ Depending on which selection is made, some fields will activate or stay disabled
 -   **Clearance**: sets either standard, close or wide clearance hole diameter. For ISO threads the diameters are according to the ISO 273 standard, for UTS they are calculated using a rule of thumb because there is no norm defining them. Only available for non-threaded holes.
 -   **Class**: defines the tolerance class.
 -   **Diameter**: defines the hole diameter if the *Profile* is set to *None*.
--   **Depth**: depth of the hole from the sketch plane. *Dimension* enables a field to type a value. *Through All* will cut the hole through the whole Body. **Note:** For technical reasons, *Through All* is actually a 10 meter deep hole. If you need deeper holes, use *Dimension*.
+-   **Depth**: depth of the hole from the sketch plane. *Dimension* enables a field to enter a value. *Through All* will cut the hole through the whole Body. **Note:** For technical reasons, *Through All* is actually a 10 meter deep hole. If you need deeper holes, use *Dimension*.
 
 ### Hole cut 
 
--   **Type**: sets type of hole cut: *None* means no cut, other types are the various norms for screws (<small>(v0.19)</small> ) and the generic types *Counterbore*, *Countersink* and (<small>(v1.0)</small> ) *Counterdrill*.
+-   **Type**: sets type of hole cut: *None* means no cut, other types are the various norms for screws and the generic types *Counterbore*, *Countersink* and (<small>(v0.21)</small> ) *Counterdrill*.
 -   **Diameter**: sets the upper diameter (at the sketch plane) for the hole cut.
--   **Depth**: depth of the hole cut, measured from the sketch plane.
+-   **Depth**: The depth is defined differently depending on the *Type*:
+    -   For a *Counterbore* it is the depth of the hole cut, measured from the sketch plane.
+    -   For a *Countersink* it is the depth of the screw head top below the sketch plane.
+    -   For a *Counterdrill* it is the depth of the cylindrical part of the hole cut.
 -   **Countersink angle**: angle of the conical hole cut. Only applicable for countersinks.
 
 ### Drill point 
 
 -   **Type**: defines the ending of the hole if *Depth* is set to *Dimension*.
     -   **Flat** produces a flat bottom
-    -   **Angled** sets a conical point. Its option **Take into account for depth** (<small>(v0.19)</small> ) will subtract the conical height from the *Dimension*. So if for example *Dimension* is 7.00 and the option is not used, the cylindrical part of the hole will be 7.00 and the depth necessary for the conical part is added to the hole depth. If the option is used, the overall hole depth including the conical point will be 7.00.
+    -   **Angled** sets a conical point. Its option **Take into account for depth** will subtract the conical height from the *Dimension*. So if for example *Dimension* is 7.00 and the option is not used, the cylindrical part of the hole will be 7.00 and the depth necessary for the conical part is added to the hole depth. If the option is used, the overall hole depth including the conical point will be 7.00.
 
 ### Misc
 
@@ -72,13 +79,12 @@ Much of the Data properties are the same as those shown in [Options](#Options.md
 
 ## Limitations
 
--   The selected sketch must contain one or more circle(s). The radius of the circle(s) inside the sketch is not taken into account. The generated holes will be identical even if the circles in the sketch have varying radii.
 -   By default, the hole feature extrudes below the sketch plane. If the solid lies on the XY_Plane, and the hole sketch is attached to the XY_Plane, it will try to extrude away from the solid and seemingly produce no result. In such a case, the option *Reversed* needs to be set; alternatively the sketch can be mapped to the bottom face of the solid.
 -   Model Thread works only if Reversed is not set.
 
 ## Cut Type Definitions 
 
-Cut types (screw-types) are defined in [json](https://de.wikipedia.org/wiki/JavaScript_Object_Notation) files since version 0.19. There is a set of files distributed with FreeCAD, but users can create their own definitions. Files are searched in <UserAppDataDir>/PartDesign/Hole. The `UserAppDataDir` can be found by typing `App.getUserAppDataDir()` in the [Python console](Python_console.md).
+Cut types (screw-types) are defined in [json](https://de.wikipedia.org/wiki/JavaScript_Object_Notation) files. There is a set of files distributed with FreeCAD, but users can create their own definitions. Files are searched in <UserAppDataDir>/PartDesign/Hole. The `UserAppDataDir` can be found by typing `App.getUserAppDataDir()` in the [Python console](Python_console.md).
 
 The file should contain:
 

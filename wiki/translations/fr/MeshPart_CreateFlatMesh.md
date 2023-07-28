@@ -4,6 +4,7 @@
    Name/fr:Mesh Développer un maillage
    MenuLocation:Maillages → Développer un maillage
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
+   Version:0.19
    SeeAlso:[Mesh Développer la face](MeshPart_CreateFlatFace/fr.md)
 ---
 
@@ -11,10 +12,10 @@
 
 ## Description
 
-La commande **Mesh Développer un maillage** crée une représentation plate d\'un objet maillé en le développant, en le dépliant. Le contour créé est une [Part Feature](Part_Feature/fr.md).
+La commande **Développer un maillage** crée une représentation plate d\'un objet maillé en le développant, en le dépliant. Le contour créé est une [Part Feature](Part_Feature/fr.md).
 
 ![](images/MeshPart_CreateFlatMesh_example.png ) 
-*Un objet maillé et en rouge sa représentation plate*
+*Un objet maillé et en rouge sa représentation aplatie*
 
 
 

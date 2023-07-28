@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -26,6 +28,8 @@ Usa la herramienta **<img src="images/Sketcher_External.svg" width=16px> [Geomet
 Una nota de precaución, usar esta herramienta para enlazar con la geometría (sólida) generada puede llevar a resultados inesperados debido a [Problema de denominación topológica](Topological_naming_problem/es.md). Vea también [Consejo para modelos estables](Feature_editing/es#Consejo_para_modelos_estables.md).
 
 <FILE:Sketcher_ExternalEsempio1.png>
+
+
 
 ## Utilización
 
@@ -68,9 +72,13 @@ In the PartDesign workbench work flow, the External Geometry tool is used to ass
 
 The external geometry can, for example, be used as a reference for a constraint being used to position a hole in an object at a specific location relative to an edge or vertex.
 
+
+
 ### Uso de la geometría externa en un flujo de trabajo del ambiente de trabajo Pieza 
 
 You can use any Part geometry that is in coordinate system of the sketch. It is advised to link to the earliest feature possible, as it forms a more stable link.
+
+
 
 ## Ejemplo
 

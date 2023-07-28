@@ -3,13 +3,19 @@
 
 {{TOCright}}
 
+
+
 ## Introducción
 
 **Std Base** no es realmente un Ambiente de trabajo, sino más bien una categoría de comandos y herramientas \'estándar\' que pueden ser utilizados en todos los Ambiente de trabajo.
 
+
+
 ## Herramientas
 
 Se puede acceder a la mayoría de las herramientas de **Std Base** desde el [menú estándar](Standard_Menu/es.md). Las que sólo están disponibles a través de una barra de herramientas o de un menú contextual están listadas en [Herramientas adicionales](#Herramientas_adicionales.md).
+
+
 
 ### Herramientas de menú estándar 
 
@@ -32,6 +38,8 @@ El menú estándar se compone de 7 submenús. Cada submenú tiene una página de
 &nbsp;&nbsp;&nbsp;
 [Ayuda](Std_Help_Menu/es.md)
 }}
+
+
 
 ### Herramientas adicionales 
 

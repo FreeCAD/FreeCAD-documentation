@@ -94,13 +94,15 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 -   about FEM history: <https://forum.freecadweb.org/viewtopic.php?f=18&t=48646#p416389>
 -   about FEM mesher history: <https://forum.freecadweb.org/viewtopic.php?f=18&t=48733#p417627>
 
+
+
 ## История релизов 
 
 #### Обзор
 
   Версия   Название релиза   Дата выпуска     Примечания к выпуску                                  Release commit                                                                            Release branch
        
-  1.0      \-                in development   [Release notes 1.0](Release_notes_1.0.md)     [head master](https://github.com/FreeCAD/FreeCAD/commits/master)                          
+  0.21     \-                in development   [Release notes 0.21](Release_notes_0.21.md)   [head master](https://github.com/FreeCAD/FreeCAD/commits/master)                          
   0.20     \-                2022-06-14       [Release notes 0.20](Release_notes_0.20.md)   [release commit 0.20](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-20)   [branch bugfixes 0.20](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-20)
   0.19     \-                2021-03-20       [Release notes 0.19](Release_notes_0.19.md)   [release commit 0.19](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-19)   [branch bugfixes 0.19](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-19)
   0.18     \-                2019-03-12       [Release notes 0.18](Release_notes_0.18.md)   [release commit 0.18](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-18)   [branch bugfixes 0.18](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-18)
@@ -123,7 +125,7 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
   0.1      \-                2003-01-27                                                                                                                                                       
   0.0.1    \-                2002-10-29       Initial Upload of a version                                                                                                                     
 
-Условные обозначения
+ Условные обозначения
 
   Цвет   Тип версии
    

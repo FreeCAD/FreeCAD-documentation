@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -20,6 +22,8 @@ Tento nástroj funguje podobně jako [Skicář Přímka](Sketcher_CreateLine/cs.
 
 
 *Polyline started with a line, a tangent arc, a perpendicular arc then a tangent line.*
+
+
 
 
 <div class="mw-translate-fuzzy">

@@ -18,6 +18,8 @@
 
 Create points, lines, circles, arcs, etc. in TechDraw views and/ or entire \"cosmetic\" drawings with absolute precision, suitable for the dimensioning tools that the workbench is equipped with, to generate compliant and detailed technical drawings.
 
+
+
 ## Вступление
 
 This tutorial introduces the experienced user to some advanced use of existing tools and techniques from other workbenches to extend actually missing functionality in <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md). This tutorial is not a complete and comprehensive guide to the TechDraw Workbench and many of the tools and capabilities are not covered. It should contribute to overcome the difficulties that are encountered in quoting and enriching the technical drawing using TechDraw. This tutorial will take advanced users through the steps needed to produce challenging technical drawings of the part from the [Basic Part Design Tutorial](Basic_Part_Design_Tutorial.md) using drawing tools of the
@@ -33,6 +35,8 @@ This tutorial introduces the experienced user to some advanced use of existing t
 
 *Note: These planes can be joined together by overlapping/ coinciding of two edges using the Boolean feature of <img alt="" src=images/Part_Fuse.svg  style="width:24px;"> [Part Union](Part_Fuse.md).* The planes thus formed and suitably positioned (according to our provisions) will be used as **cutting blades** <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Part SliceApart](Part_SliceApart.md), cutting our 3D object into several parts according to the chosen planar confirmation.\'\'
 
+
+
 ## Прежде Чем Начать 
 
 The Workbenches that are used to produce the drawings of the attached examples are:
@@ -42,6 +46,8 @@ The Workbenches that are used to produce the drawings of the attached examples a
 -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md)
 -   <img alt="" src=images/Workfeature_workbench_icon.svg  style="width:24px;"> [Workfeature Workbench](Workfeature_Workbench.md)
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md)
+
+
 
 ## Задание
 
@@ -78,11 +84,14 @@ It is up to each of us, with imagination and inventiveness, to optimize it to th
 I am attaching the files of some workflow examples of technical drawings (not feasible with TechDraw only) from which the images shown below were taken.
 In the hope of having been useful, good work and good experimentation!
 
+
 ## Примечания
 
 ## Future Outlook 
 
 However, the described path could represent the starting point (or the idea) to write additional code to automate the system and integrate it directly into TechDraw with appropriate button / command functions.
+
+
 
 ## Ссылки
 
@@ -92,9 +101,11 @@ However, the described path could represent the starting point (or the idea) to 
 -   [TechDraw: -- come utilizzare gli strumenti Draft/Snaps per creare " vertici/punti cosmetici"](https://forum.freecadweb.org/viewtopic.php?f=28&t=53329) Forum Thread in Italian language
 
 
- {{TechDraw Tools navi}}
+{{TechDraw Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Advanced TechDraw Tutorial/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Advanced TechDraw Tutorial/ru

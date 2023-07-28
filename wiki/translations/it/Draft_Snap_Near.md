@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -35,6 +37,8 @@ Questo metodo si aggancia al punto o al bordo più vicino sull\'oggetto più vic
 
 </div>
 
+
+
 ## Utilizzo
 
 For general information about snapping see [Draft Snap](Draft_Snap.md).
@@ -50,6 +54,8 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

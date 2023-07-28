@@ -12,7 +12,7 @@
 
 This simple macro generate properties list of selected object. The parameters list is printed to the [Report view](Report_view.md) of FreeCAD. This example is more educational in nature and is not applicable for use without editing after generate, since it includes absolutely all the parameters of the object. The lists of properties that are published in this wiki contain, as a rule, only unique parameters. The parameters inherited from the parents objects are not published.
 
-## How To Use 
+## Usage
 
 -   Preparing:
     -   Copy code of Macro from this page and place it in a new \*.FCMacro file.

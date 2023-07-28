@@ -28,6 +28,9 @@
 
 ## Основные функции 
 
+
+<div class="mw-translate-fuzzy">
+
 -   ![](images/Feature1.jpg ) Полное **геометрическое ядро**, основанное на [OpenCasCade](http://ru.wikipedia.org/wiki/Open_CASCADE_Technology), позволяет производить сложные трёхмерные операции над сложными типами форм, со встроенной поддержкой таких понятий, как: [Граничное представление](https://ru.wikipedia.org/wiki/Граничное_представление) (boundary representation, BREP), Кривые и поверхности [неоднородных рациональных B-сплайнов](https://ru.wikipedia.org/wiki/NURBS) (Non-uniform rational basis spline, NURBS), широкий спектр геометрических объектов, булевы операции над фигурами или [сопряжения](http://en.wikipedia.org/wiki/Fillet_%28mechanics%29) и встроенную поддержку форматов [STEP](https://ru.wikipedia.org/wiki/STEP_(стандарт)) и [IGES](https://ru.wikipedia.org/wiki/IGES) 
 -   ![](images/Feature3.jpg ) **Полностью параметрическая** модель данных. Объекты FreeCAD параметрические в основе, то есть их форма может полностью зависеть от [параметров](Property/ru.md) или даже зависеть от других объектов, все изменения пересчитываются по запросу, и записываются в стеке отмен-возвратов. Легко могут быть добавлены новые объекты, которые могут быть даже [написаны на python](Scripted_objects/ru.md)
 -   ![](images/Feature4.jpg ) **Модульная архитектура**, позволяющая добавлять функциональность через плагины (модули). Эти расширения могут быть комплексными и программироваться на C++, или простыми как [скрипты Python](Power_users_hub/ru.md) или записываемые самостоятельно [макросы](macros/ru.md). У Вас есть полный доступ из встроенного интерпретатора **Python**, макросов или внешних сценариев к практически любой части FreeCAD, позволяя [создавать и изменять геометрию](Topological_data_scripting/ru.md), двумерное и объёмное представление этой геометрии ([scenegraph](scenegraph/ru.md)) или даже [интерфейс FreeCAD](PySide/ru.md) 
@@ -39,6 +42,9 @@
 -   ![](images/Feature-arch.jpg ) Модуль [архитектуры](Arch_Workbench/ru.md) позволяет работать по процессу [информационного моделирования здания](http://ru.wikipedia.org/wiki/BIM) (Building Information Modeling, BIM), при совместимости со спецификацией [IFC](http://ru.wikipedia.org/wiki/Industry_Foundation_Classes). 
 -   ![](images/Feature-CAM.jpg ) [Модуль Path](Path_Workbench/ru.md) посвящён [автоматизации механической обработки](https://ru.wikipedia.org/wiki/CAM) (Computer-aided manufacturing, CAM), например, фрезерования, и может выводить, показывать и настраивать [G-код](https://ru.wikipedia.org/wiki/G-code).
 -   ![](images/Feature_spreadsheet.png ) Интегрированный обработчик [электронных таблиц](Spreadsheet_Workbench/ru.md) и [выражений](Expressions/ru.md), который может использоваться для управления моделями через формулы и централизованной организации данных моделей.
+
+
+</div>
 
 
 

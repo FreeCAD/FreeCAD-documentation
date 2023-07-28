@@ -1,40 +1,47 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher CreateEllipseBy3Points
-   MenuLocation:Sketch → Sketcher geometries → Create ellipse by 3 points
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Utwórz elipsę przez trzy punkty
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz elipsę przez trzy punkty
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **3** **E**
    Version:0.15
-   SeeAlso:[Sketcher Ellipse by center](Sketcher_CreateEllipseByCenter.md), [Sketcher Circle](Sketcher_CreateCircle.md), [Sketcher Arc of Ellipse](Sketcher_CreateArcOfEllipse.md)
+   SeeAlso:[Utwórz elipsę przez środek](Sketcher_CreateEllipseByCenter/pl.md), [Utwórz okrąg](Sketcher_CreateCircle/pl.md), [Utwórz łuk na podstawie elipsy](Sketcher_CreateArcOfEllipse/pl.md)
 ---
 
 # Sketcher CreateEllipseBy3Points/pl
 
-## Description
 
-This tool draws an ellipse by picking three points : (1) the periapsis (first crossing of longer diameter with ellipse), (2) the apoapsis (second crossing of longer diameter with ellipse), (3) one point on a side of the longer diameter (a) defining the minor radius (b). (c) is the resulting center and (f) are the focal points.
 
-When starting the tool, the mouse pointer changes to a white cross with a red ellipse icon.
+## Opis
+
+Narzędzie to rysuje elipsę wybierając trzy punkty: **(1)** periapsis (pierwsze przecięcie dłuższej średnicy z elipsą), **(2)** apoapsis *(drugie przecięcie dłuższej średnicy z elipsą)*, **(3)** jeden punkt na boku dłuższej średnicy **(a)** określający mniejszy promień **(b)**. **(c)** to wynikowy środek, a **(f)** to punkty ogniskowe.
+
+Podczas uruchamiania narzędzia kursor myszki zmienia kształt na biały krzyż z czerwoną ikoną elipsy.
 
 ![](images/Ellipse_3Point.png‎ ) 
-*The sequence of clicks is indicated by yellow arrows with numbers.<br>
-1 is the periapsis, 2 is the apoapsis, 3 is the defining point for the minor diameter.<br>
-The green lines are the major and minor diameters.<br>
-The blue lines are construction lines for illustration purposes.*
+*Kolejność kliknięć jest oznaczona żółtymi strzałkami z cyframi.<br>
+1 to perycentrum, 2 to apocentrum, 3 to punkt definiujący mniejszą średnicę.<br>
+Zielone linie to główne i mniejsze średnice.<br>
+Niebieskie linie to linie konstrukcyjne w celach ilustracyjnych.*
 
-## Usage
 
--   Press the **[<img src=images/Sketcher_CreateEllipseBy3Points.svg style="width:16px"> [Create ellipse by 3 points](Sketcher_CreateEllipseBy3Points.md)** button.
--   First click in 3D view sets a point that defines the crossing of the major diameter with the ellipse (periapsis). Second click in 3D view sets a point that defines the crossing of the major diameter with the ellipse opposite to the center point (apoapsis). Third click sets a point on the ellipsis defining the minor radius.
 
--   After the third click, the ellipse is created, together with a set of construction geometry aligned to it (major diameter, minor diameter, two foci). The construction geometry can be manually deleted if not needed, and recreated later. See [Internal Alignment Constraint](Sketcher_ConstrainInternalAlignment.md) and [Sketcher Show Hide Internal Geometry](Sketcher_RestoreInternalAlignmentGeometry.md).
--   Pressing **ESC** or clicking the right mouse button cancels the function.
+## Użycie
 
-## Peculiarities
+-   Naciśnij przycisk **[<img src=images/Sketcher_CreateEllipseBy3Points.svg style="width:16px"> [Utwórz elipsę przez trzy punkty](Sketcher_CreateEllipseBy3Points/pl.md)**.
+-   Pierwsze kliknięcie w oknie widoku 3D ustawia punkt określający przecięcie średnicy głównej z elipsą *(periapsis)*. Drugie kliknięcie w oknie widoku 3D wyznacza punkt określający przecięcie średnicy głównej z elipsą w kierunku przeciwnym do punktu środkowego *(apoapsis)*. Trzecie kliknięcie ustawia punkt na elipsie definiujący promień mniejszy.
 
--   Major and minor axes of ellipses are strict and cannot be swapped by resizing the ellipse. This is a consequence of the solver parametrization used (center (x,y), focus1 (x,y) and minor radius length (b)) and the same strict behavior of OpenCascade. The ellipse must be rotated to swap the axes.
--   Ellipse can function as a circle when its major and minor diameter lines are deleted, and one of the foci is constrained to coincide with the center. But radius constraint won\'t work on such a circle.
--   Moving the ellipse by edge is the same as moving ellipse\'s center.
+-   Po trzecim kliknięciu tworzona jest elipsa wraz z zestawem geometrii konstrukcyjnych do niej dopasowanych (średnica główna, średnica mała, dwie ogniskowe). Geometria konstrukcyjna może być ręcznie usunięta, jeśli nie jest potrzebna, i odtworzona później. Zobacz [Pokaż / ukryj geometrię wewnętrzną](Sketcher_RestoreInternalAlignmentGeometry/pl.md).
+-   Naciśnięcie **ESC** lub kliknięcie prawym przyciskiem myszy powoduje przerwanie funkcji.
+
+
+
+## Szczególe cechy 
+
+-   Osie główne i mniejsze elipsy są sztywno określone i nie mogą być zamienione przez zmianę rozmiaru elipsy. Jest to konsekwencją zastosowanej parametryzacji solwera *(środek (x,y), ogniskowa1 (x,y) i długość promienia mniejszego (b))* oraz tego samego zachowania ścisłego OpenCascade. Elipsa musi być obrócona, aby zamienić osie.
+-   Elipsa może funkcjonować jako koło, gdy jej linie średnicy głównej i mniejszej są usuwane, a jedno z ognisk jest związane, aby pokryć się ze środkiem. Ale wiązanie promienia nie będzie działać na takim okręgu.
+-   Przesuwanie elipsy po krawędzi jest takie samo jak przesuwanie jej środka.
 
 
 

@@ -12,11 +12,21 @@
 
 </div>
 
+
+
 ## Descriere
+
+
+<div class="mw-translate-fuzzy">
 
 Acest instrument permite inspectarea dialectului de codul G intern FreeCAD pentru o operațiune a traiectoriei.
 
+
+</div>
+
 ![](images/Path_inspector.jpg )
+
+
 
 ## Utilizare
 
@@ -28,6 +38,8 @@ Acest instrument permite inspectarea dialectului de codul G intern FreeCAD pentr
 
 
 </div>
+
+
 
 ## Opţiuni
 

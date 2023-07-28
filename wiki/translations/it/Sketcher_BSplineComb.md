@@ -13,6 +13,8 @@ SeeAlso=[Crea B-spline](Sketcher_CompCreateBSpline/it.md)
 
 </div>
 
+
+
 ## Descrizione
 
 

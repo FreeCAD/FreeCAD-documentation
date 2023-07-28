@@ -1,79 +1,110 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Path Sanity
-   MenuLocation:Path → Check the path job for common errors
-   Workbenches:[Path](Path_Workbench.md)
+   Name/pl:Path: Bezpieczeństwo
+   MenuLocation:Ścieżka → Sprawdź zadanie ścieżki pod kątem typowych błędów
+   Workbenches:[Path](Path_Workbench/pl.md)
    Shortcut:**P** **S**
    Version:0.19
 ---
 
 # Path Sanity/pl
 
-## Description
 
-Many Path users are hobbyists and DIYers. As such, they use their CNC machines to run G-code that they configured and generated themselves. That isn\'t the case for most professional/commercial users. In professional shops, different people are responsible for creating the G-code (CNC programmers) from those who run it on the machines (CNC operator).
 
-Hobbyists usually run the G-code just a few minutes after post-processing it and probably only once or twice. In a professional shop, proven G-code may be run many times for months or years after initially generated.
+## Opis
 
-One issue that arises in a professional CNC shop is that there are many assumptions made by the programmer that are NOT communicated in the G-code itself. For example, the G-code can call for a tool \"T3\" but unless its commented, the G-code doesn\'t say what kind of tool \"T3\" refers to. It\'s just assumed that T3 in the CAM system is the same as T3 on the machine. There are many assumptions like this involving machine setup, tooling, material, part orientation, etc. Even if the G-code is perfect, if the operator doesn\'t set up the machine with the same assumptions, it can crash.
+Wielu użytkowników środowiska pracy Path to hobbyści i majsterkowicze. W związku z tym używają oni swoich maszyn CNC do uruchamiania G-kodu, który sami skonfigurowali i wygenerowali. Inaczej jest w przypadku większości profesjonalnych / komercyjnych użytkowników. W profesjonalnych warsztatach za tworzenie G-kodu odpowiadają *(programiści CNC)* inni ludzie, niż ci, którzy uruchamiają go na maszynach *(operator CNC)*.
 
-Commercial shops will often create a \'setup book\' which documents all these assumptions and gives the operators what they need to configure the machine and produce a part.
+Hobbyści zwykle uruchamiają G-kod zaledwie kilka minut po jego przetworzeniu i prawdopodobnie tylko raz lub dwa razy. W profesjonalnym warsztacie sprawdzony G-kod może być uruchamiany wiele razy przez miesiące lub lata po jego wygenerowaniu.
 
-[Path Sanity](Path_Sanity.md) is the tool in Path workbench to generate this kind of information. The output of the Path Sanity command is a stand-alone .html file with embedded images. <img alt="Above: Example of a Path Sanity generated report" src=images/Sanity.jpg  style="width:400" height="600px;">
+Jedną z kwestii, która pojawia się w profesjonalnym warsztacie CNC, jest to, że programista przyjmuje wiele założeń, które NIE są przekazywane w samym G-kodzie. Na przykład, G-kod może wywoływać narzędzie \"T3\", ale o ile nie jest to skomentowane, G-kod nie mówi, do jakiego rodzaju narzędzia odnosi się \"T3\". Zakłada się po prostu, że T3 w systemie CAM jest tym samym, co T3 na maszynie. Istnieje wiele takich założeń dotyczących konfiguracji maszyny, narzędzi, materiału, orientacji części itp. Nawet jeśli G-kod jest doskonały, jeśli operator nie skonfiguruje maszyny z tymi samymi założeniami, może dojść do awarii.
 
-## About the Report 
+Komercyjne warsztaty często tworzą \"książkę ustawień\", która dokumentuje wszystkie te założenia i daje operatorom wszystko, czego potrzebują do skonfigurowania maszyny i wyprodukowania części.
 
-As much as possible, the content is FreeCAD agnostic. The CNC Operator may never use FreeCAD so FreeCAD/Path specific terminology is confusing. The report has distinct sections and is formatted to make finding things easy and predictable.
+<img alt="" src=images/Path_Sanity.svg  style="width:16px;"> **Path: Bezpieczeństwo** jest narzędziem w środowisku pracy Path do generowania tego rodzaju informacji. Wynikiem tego polecenia jest samodzielny plik {{Value|.html}} z osadzonymi obrazami.
 
-### Part Information 
+<img alt="" src=images/Sanity.jpg  style="width:600px;">
 
-This section gives an overview of what is being made. Ideally the image should show the base objects. If there are multiple base objects, the image should show how they nest.
 
-### Run Summary 
 
-Gives a quick view of minimum and maximum heights and run times.
+*Powyżej: Przykład wygenerowanego raportu Path Bezpieczeństwo*
 
-### Rough Stock 
 
-Details the Stock object from the Job. This is an area where Path would benefit from some improvement. A rudimentary material property for the stock would be useful here and could also be used to help suggest feeds/speeds.
 
-### Tool Data 
+## Informacje o raporcie 
 
-Has subsections for each tool number used in the job. It details what the programmer assumes the tool to be and which operations are using it. This section only works with the new Toolbit system. This is another area where Path needs improvement. Specifically, Toolbits need additional attributes about the tool like manufacturer/url/part number.
+O ile to możliwe, treść jest niezależna od programu FreeCAD. Operator CNC może nigdy nie używać FreeCAD, więc terminologia specyficzna dla FreeCAD / Path jest myląca. Raport ma odrębne sekcje i jest sformatowany tak, aby wyszukiwanie było łatwe i przewidywalne.
 
-### Output
 
-Gives details about where and when the G-code was post-processed. It also shows whether the job contains optional/mandatory stops so the operator knows if it\'s safe to walk away from the machine during a run.
 
-### Coolant
+## Informacje o detalu 
 
-Self-explanatory.
+Ta sekcja zawiera przegląd tego, co jest tworzone. Idealnie obraz powinien pokazywać obiekty bazowe. Jeśli istnieje wiele obiektów bazowych, obraz powinien pokazywać sposób ich zagnieżdżania.
 
-### Fixtures and Work-holding 
 
-Shows the parts in the context of the stock envelope and also shows the Part origin.
 
-### Squawks
+### Podsumowanie procesu 
 
-Warnings and errors detected by [Path Sanity](Path_Sanity.md). These may or may not be problems but they\'re noted for additional attention. For example if the same tool number is used for different toolbits, it will show as an error. If a tool controller has no feed/speed configured, it will appear as a warning. It will also detect and warn about unused tool controllers. Path would benefit here from the ability to add arbitrary notes or warnings.
+Umożliwia szybki podgląd minimalnej i maksymalnej wysokości oraz czasu pracy.
 
-## Usage
 
-1.  Select a <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Path Job](Path_Job.md) in the [Tree view](Tree_view.md).
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Path_Sanity.svg" width=16px> [Path Sanity](Path_Sanity.md)** button.
-    -   Select the **Path → <img src="images/Path_Sanity.svg" width=16px> Check the path job for common errors** option from the menu.
-    -   Use the keyboard shortcut: **P** then **S**.
-3.  The relevant information is collected into a Python dictionary and then formatted into asciidoc format.
-4.  The asciidoc file is written to disk in the same location as the file that will be post-processed.
-5.  An external process calls asciidoctor to read the asciidoc and generate the .html.
-6.  This will auto-launch the system web browser to view the generated standalone HTML report.
 
-## Note an ASCIIDOC and Asciidoctor 
+### Surowe naddatki 
 
-Asciidoc is a lightweight markup format for authoring notes, articles, books ,etc. It is human-readable and easily translated into other formats.
+Szczegóły obiektu naddatków z zadania. Jest to obszar, w którym środowisku Path przydałaby się pewna poprawa. Przydałaby się tutaj podstawowa właściwość materiału dla naddatku, a także mogłaby zostać wykorzystana do sugerowania posuwów / prędkości.
 
-Asciidoctor is a fast open-source text processor for converting asciidoc into HTML, PDF, or other formats. It\'s available for Linux, Windows, and MacOS. Asciidoctor is not installed with FreeCAD. If you use Path-Sanity without installing Asciidoctor, the asciidoc source file will be generated but the resulting HTML will not be produced. [Asciidoctor website](https://asciidoctor.org/)
+
+
+### Dane narzędzi 
+
+Zawiera sekcje dla każdego numeru narzędzia używanego w zadaniu. Zawiera szczegółowe informacje na temat tego, co programista zakłada jako narzędzie i które operacje go używają. Ta sekcja działa tylko z nowym systemem magazynu narzędzi. Jest to kolejny obszar, w którym środowisko Path wymaga poprawy. W szczególności zestawy narzędzi wymagają dodatkowych atrybutów dotyczących narzędzia, takich jak producent / url / numer części.
+
+
+
+### Rezultat
+
+Podaje szczegółowe informacje o tym, gdzie i kiedy G-kod został przetworzony. Pokazuje również, czy zadanie zawiera opcjonalne / obowiązkowe postoje, dzięki czemu operator wie, czy można bezpiecznie odejść od maszyny podczas pracy.
+
+
+
+### Chłodzenie
+
+Jaki rodzaj chłodziwa jest wymagany, jeżeli jest stosowane.
+
+
+
+### Oprawki i uchwyty robocze 
+
+Wyświetla części w kontekście obszaru magazynowego, a także pokazuje pochodzenie części.
+
+
+
+### Problemy
+
+Ostrzeżenia i błędy wykryte przez funkcję **Bezpieczeństwo**. Mogą to być problemy lub nie, ale są one odnotowywane w celu zwrócenia dodatkowej uwagi. Na przykład, jeśli ten sam numer narzędzia jest używany dla różnych zestawów narzędzi, zostanie to wyświetlone jako błąd. Jeśli kontroler narzędzia nie ma skonfigurowanego posuwu/prędkości, zostanie to wyświetlone jako ostrzeżenie. Wykryje również i ostrzeże o nieużywanych kontrolerach narzędzi. Środowisko Path skorzystałoby tutaj z możliwości dodawania dowolnych notatek lub ostrzeżeń.
+
+
+
+## Użycie
+
+1.  Wybierz <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Zadanie](Path_Job/pl.md) w oknie [Widoku drzewa](Tree_view/pl.md).
+2.  Istnieje kilka sposobów wywołania polecenia:
+    -   Naciśnij przycisk **<img src="images/Path_Sanity.svg" width=16px> '''Sprawdź zadanie ścieżki pod kątem typowych błędów'''**.
+    -   Wybierz z menu opcję **Ścieżka → <img src="images/Path_Sanity.svg" width=16px> Sprawdź zadanie ścieżki pod kątem typowych błędów**.
+    -   Użyj skrótu klawiaturowego: **P**, a następnie **S**.
+3.  Odpowiednie informacje są gromadzone w słowniku Python, a następnie formatowane do formatu asciidoc.
+4.  Plik asciidoc jest zapisywany na dysku w tej samej lokalizacji, co plik, który zostanie przetworzony.
+5.  Zewnętrzny proces wywołuje asciidoctor, aby odczytać asciidoc i wygenerować plik w formacie {{Value|.html}}.
+6.  Spowoduje to automatyczne uruchomienie systemowej przeglądarki internetowej w celu wyświetlenia wygenerowanego samodzielnego raportu HTML.
+
+
+
+## Uwagi
+
+-   Asciidoc to lekki format znaczników do tworzenia notatek, artykułów, książek itp. Jest czytelny dla człowieka i łatwy do przetłumaczenia na inne formaty.
+
+-   Asciidoctor to szybki procesor tekstu o otwartym kodzie źródłowym do konwersji asciidoc na HTML, PDF lub inne formaty. Jest dostępny dla systemów Linux, Windows i MacOS. Asciidoctor nie jest instalowany z programem FreeCAD. Jeśli użyjesz **Path Bezpieczeństwo** bez zainstalowania Asciidoctor, plik źródłowy asciidoc zostanie wygenerowany, ale wynikowy HTML nie zostanie wygenerowany. Zobacz informacje na stronie [domowej tego narzędzia](https://asciidoctor.org/).
 
 
 

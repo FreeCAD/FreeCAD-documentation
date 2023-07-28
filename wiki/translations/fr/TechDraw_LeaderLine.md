@@ -10,14 +10,37 @@
 
 # TechDraw LeaderLine/fr
 
+
+</div>
+
 ## Description
 
-L\'outil Ligne de référence ajoute une ligne à une vue. D\'autres objets d\'annotation (tels que [Annotation par texte enrichi](TechDraw_RichTextAnnotation/fr.md)) peuvent être connectés à Ligne de référence pour former des annotations complexes.
+L\'outil **TechDraw Ligne de référence** ajoute une ligne à une vue. D\'autres objets d\'annotation (tels que [Annotation par texte enrichi](TechDraw_RichTextAnnotation/fr.md)) peuvent être connectés à Ligne de référence pour former des annotations complexes.
 
-![](images/TechDraw_LeaderLine_sample.png ) 
+![](images/TechDraw_LeaderLine_sample.png )
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Ligne de référence ajoutée à View001*
 
+
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Utilisation
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Sélectionnez une vue.
 2.  Appuyez sur le bouton **<img src="images/TechDraw_LeaderLine.svg" width=16px> Insérer une ligne de référence à la vue**. Une boîte de dialogue s\'ouvrira permettant de dessiner la ligne de repère et d\'assigner des symboles de fin à la ligne.
@@ -28,36 +51,84 @@ L\'outil Ligne de référence ajoute une ligne à une vue. D\'autres objets d\'a
     2.  ajoutez d\'autres points pour définir davantage de segments de ligne.
 6.  Pour terminer la création, appuyez sur **OK** pour fermer la boîte de dialogue.
 
-**Remarque:** Si vous n\'avez défini aucun point lors de la création de la ligne de référence, une ligne courte sera placée au centre de la vue.
 
-### Édition
+</div>
+
+## Usage edit 
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Sélectionnez la ligne de référence dans l\'arborescence des documents et double-cliquez dessus.
 2.  Une boîte de dialogue s\'ouvrira où vous pourrez changer l\'apparence.
 3.  Pour modifier les points, cliquez sur **Edit points** et les points de ligne deviennent visibles dans le dessin.
 4.  Faites glisser les points vers un endroit que vous aimez et terminez la modification en cliquant sur **Save changes**.
 
+
+</div>
+
+
+
+## Remarques
+
+
+<div class="mw-translate-fuzzy">
+
+-   Vous pouvez modifier une Ligne de référence en double-cliquant dessus dans l\'arborescence. Le double-clic dans la zone graphique n\'est pas encore pris en charge. Le ou les segments de la ligne peuvent être modifiés en appuyant sur **Edit points**. Pour quitter la modification des points, appuyez sur **Save changes** ou **Discard changes**.
+-   Si vous n\'avez défini aucun point lors de la création de la Ligne de référence, une ligne courte sera placée au centre de la vue. Vous ne pourrez plus ajouter ultérieurement de points.
+-   Par défaut, l\'option [TechDraw Préférences](TechDraw_Preferences/fr.md) **Ligne de référence automatique horizontale** est activée. Par conséquent, le dernier segment de ligne sera horizontal. Donc, si vous n\'avez qu\'un seul segment, vous obtenez une ligne horizontale, peu importe où vous avez choisi le deuxième point.
+-   Vous pouvez désactiver la fonction horizontale automatique pour les lignes de référence existantes en modifiant la propriété {{PropertyData/fr|Auto Horizontal}}.
+
+
+</div>
+
+
+
 ## Propriétés
 
--    **X, Y**: point auquel la ligne de référence est connectée à la vue.
+### Data
 
--    **Leader Parent**: vue à laquelle la ligne est attachée.
 
--    **Start Symbol**: symbole au début: <img alt="" src=images/Arrownone.svg  style="width:20px;"> Aucun, <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Flèche pleine, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Flèche ouverte, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Coché, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Point, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Cercle ouvert, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Fourche, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Triangle rempli
+{{Properties_Title|Base}}
 
--    **End Symbol**: symbole de fin de ligne à l\'autre extrémité.
+-    **Start Symbol|Enumeration**: The symbol at the start of the leaderline. Options: <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Filled Arrow, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Open Arrow, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Tick, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Dot, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Open Circle, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Fork, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Filled Triangle, None.
 
--    **WayPoints**: noeuds sur la ligne de rappel.
+-    **End Symbol|Enumeration**: The symbol at the end of the leaderline. Idem.
 
--    **Scalable**: mise en échelle de la ligne de référence avec le parent de la ligne de référence.
+-    **X|Distance**: The X coordinate of the leaderline relative to the View.
 
--    **Auto Horizontal**: force le dernier segment de la ligne de référence à être horizontal.
+-    **Y|Distance**: The Y coordinate of the leaderline relative to the View.
 
--    **Color**: couleur de stylo pour la ligne de référence.
 
--    **Line Style**: 0 Pas de ligne, 1 <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Continu, 2 <img alt="" src=images/Dash-line.svg  style="width:20px;"> Tiret, 3 <img alt="" src=images/Dot-line.svg  style="width:20px;"> Point , 4 <img alt="" src=images/DashDot-line.svg  style="width:20px;"> Tiret Point, 5 <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> Tiret Point Point
+{{Properties_Title|Leader}}
 
--    **Line Width**: largeur de la ligne de référence.
+-    **Leader Parent|Link**: The View the leaderline is attached to.
+
+-    **Way Points|VectorList**: The points of the leaderline.
+
+-    **Scalable|Bool**: Specifies if the leaderline scales with **Leader Parent**.
+
+-    **Auto Horizontal|Bool**: Specifies if the last leaderline segment is forced to be horizontal.
+
+### View
+
+
+{{TitleProperty|Base}}
+
+-    **Keep Label|Bool**: Not used.
+
+-    **Stack Order|Integer**: Over or underlap relative to other drawing objects. <small>(v0.21)</small> 
+
+
+{{TitleProperty|Line Format}}
+
+-    **Color|Color**: The color of the leaderline.
+
+-    **Line Style|Enumeration**: The style of the leaderline. Options: NoLine, <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Continuous, <img alt="" src=images/Dash-line.svg  style="width:20px;"> Dash, <img alt="" src=images/Dot-line.svg  style="width:20px;"> Dot, <img alt="" src=images/DashDot-line.svg  style="width:20px;"> DashDot, <img alt="Length" src=images/DashDotDot-line.svg  style="width:20px;"> DashDotDot.
+
+-    **Line Width|Length**: The width of the leaderline.
+
+
 
 ## Script
 
@@ -78,13 +149,6 @@ leaderObj.WayPoints = [p0,p1,p2]
 leaderObj.X = 5
 leaderObj.Y = 5
 ```
-
-## Remarques
-
--   Vous pouvez modifier une Ligne de référence en double-cliquant dessus dans l\'arborescence. Le double-clic dans la zone graphique n\'est pas encore pris en charge. Le ou les segments de la ligne peuvent être modifiés en appuyant sur **Edit points**. Pour quitter la modification des points, appuyez sur **Save changes** ou **Discard changes**.
--   Si vous n\'avez défini aucun point lors de la création de la Ligne de référence, une ligne courte sera placée au centre de la vue. Vous ne pourrez plus ajouter ultérieurement de points.
--   Par défaut, l\'option [TechDraw Préférences](TechDraw_Preferences/fr.md) **Ligne de référence automatique horizontale** est activée. Par conséquent, le dernier segment de ligne sera horizontal. Donc, si vous n\'avez qu\'un seul segment, vous obtenez une ligne horizontale, peu importe où vous avez choisi le deuxième point.
--   Vous pouvez désactiver la fonction horizontale automatique pour les lignes de référence existantes en modifiant la propriété {{PropertyData/fr|Auto Horizontal}}.
 
 
 

@@ -1,30 +1,35 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ExtensionCreateVertChainDimension
-   MenuLocation:TechDraw → Extensions: Dimensions → Create Vertical Chain Dimensions
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Rozszerzenie Seria wymiarów pionowo
+   MenuLocation:Rysunek Techniczny → Rozszerzenia: Wymiary → Seria wymiarów pionowo
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionCreateHorizChainDimension](TechDraw_ExtensionCreateHorizChainDimension.md), [TechDraw ExtensionCreateObliqueChainDimension](TechDraw_ExtensionCreateObliqueChainDimension.md)
+   SeeAlso:[Seria wymiarów poziomo](TechDraw_ExtensionCreateHorizChainDimension/pl.md), [Seria wymiarów ukośnie](TechDraw_ExtensionCreateObliqueChainDimension/pl.md)
 ---
 
 # TechDraw ExtensionCreateVertChainDimension/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_ExtensionCreateVertChainDimension.svg  style="width:24px;"> **TechDraw ExtensionCreateVertChainDimension** tool creates vertical chain dimensions: a sequence of aligned dimensions.
+
+## Opis
+
+Narzędzie **Seria wymiarów pionowo** tworzy pionowe wymiary łańcuchowe: sekwencję wyrównanych wymiarów.
 
 <img alt="" src=images/TechDraw_ExtensionCreateVertChainDimensionExample.png  style="width:300px;"> 
-*On the right the created dimensions*
+*Po prawej utworzony ciąg wymiarów*
 
-## Usage
 
-1.  Select three or more vertexes.
-2.  The two highest vertexes determine the position of the chain dimension.
-3.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionCreateVertChainDimension.svg" width=16px> [TechDraw ExtensionCreateVertChainDimension](TechDraw_ExtensionCreateVertChainDimension.md)** button.
-    -   Select the **TechDraw → Extensions: Dimensions → <img src="images/TechDraw_ExtensionCreateVertChainDimension.svg" width=16px> Create Vertical Chain Dimensions** option from the menu.
-4.  Chain dimensions with centered dimension texts are created.
+
+## Użycie
+
+1.  Wybierz trzy lub więcej wierzchołków.
+2.  Dwa najbardziej wysunięte na lewo wierzchołki określają położenie ciągu wymiarowego.
+3.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionCreateVertChainDimension.svg" width=16px> '''Seria wymiarów pionowo'''**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Rozszerzenia: Wymiary → <img src="images/TechDraw_ExtensionCreateVertChainDimension.svg" width=16px> Seria wymiarów pionowo**.
+4.  Zostanie utworzony ciąg wymiarów a teksty wymiarów są wyśrodkowane.
 
 
 

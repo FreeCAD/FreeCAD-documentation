@@ -1,80 +1,95 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:FCGear LanternGear
-   MenuLocation:Gear → Lantern Gear
-   Workbenches:[FCGear](FCGear_Workbench.md)
-   Shortcut:None
+   Name/pl:Gear: Koło drabinkowe
+   MenuLocation:Gear → Koło drabinkowe
+   Workbenches:[FCGear](FCGear_Workbench/pl.md)
    Version:v0.16
    SeeAlso:
 ---
 
 # FCGear LanternGear/pl
 
+
+
 ## Opis
 
 Zębatka latarniowa jest specjalną formą zębatki cykloidalnej, w której koło toczne i koło podziałowe są równej wielkości. Ponadto zęby większego koła w przekładni są zastąpione przez cylindry. Małe koło otrzymuje zazębienie cykloidalne. W ten sposób powstaje jednostronne przełożenie punktowe. Przekładnie latarniowe mogą mieć tylko uzębienie proste.
 
-Because their construction is very simple, they are among the oldest forms of gearing. Lantern gearings are used when large gear ratios are required, for example in the slewing gears of mills or timber handling cranes.
+Ponieważ ich konstrukcja jest bardzo prosta, należą one do najstarszych form przekładni. Przekładnie latarniowe są stosowane, gdy wymagane są duże przełożenia, na przykład w przekładniach obrotowych młynów lub dźwigów do transportu drewna.
 
-Lantern gear wheel with roller chains are a cost-effective and robust alternative to rack and pinion drives. By guiding the stretched lantern gear wheel chain tangentially along the lantern gear wheel, a linear movement of the chain is converted into a rotational movement of the wheel. Conversely, a linear motion of the chain can also be achieved by the rotary motion of the lantern gear wheel (motorbike/bicycle).
+Koło zębate latarniowe z łańcuchami rolkowymi to ekonomiczna i wytrzymała alternatywa dla napędów zębatkowych. Prowadząc rozciągnięty łańcuch koła zębatego stycznie wzdłuż koła zębatego, ruch liniowy łańcucha jest przekształcany w ruch obrotowy koła. I odwrotnie, ruch liniowy łańcucha można również uzyskać poprzez ruch obrotowy koła zębatego latarni *(motocykl / rower)*.
 
 ![](images/Lantern-Gear_example.png ) 
-*Above: Lantern gear*
+*Powyżej: Przekładnia latarniowa*
+
+
 
 ## Użycie
 
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  There are several ways to invoke the command:
-    -   Press the **[<img src=images/FCGear_LanternGear.svg style="width:16px"> [Lantern Gear](FCGear_LanternGear.md)** button in the toolbar.
-    -   Select the **Gear → [<img src=images/FCGear_LanternGear.svg style="width:16px"> Lantern Gear** option from the menu.
-3.  Change the gear parameter to the required conditions (see [Properties](#Properties.md)).
-
-## Properties
-
-### Data
-
-An FCGear LanternGear object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+1.  Przejdź do środowiska pracy <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear](FCGear_Workbench/pl.md).
+2.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk **[<img src=images/FCGear_LanternGear.svg style="width:16px"> '''Koło drabinkowe'''** na pasku narzędzi.
+    -   Wybierz z menu opcję **Gear → [<img src=images/FCGear_LanternGear.svg style="width:16px"> Koło drabinkowe**.
+3.  Zmień parametry zębatki na wymagane *(patrz [Właściwości](#Właściwości.md))*.
 
 
-{{Properties_Title|accuracy}}
 
--    **num_profiles|Integer**: Default is {{Value|10}}. The value normally does not need to be changed.
+## Właściwości
 
 
-{{Properties_Title|base}}
 
--    **bolt_radius|Length**: Default is {{Value|1 mm}}. Diameter of the cylinder on the rotating disc which functions as a second \"gear wheel\".
+### Dane
 
--    **height|Length**: Default is {{Value|5 mm}}. Value of the gear width.
+Obiekt LanternGear wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
--    **module|Length**: Default is {{Value|1 mm}}. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see [Notes](#Notes.md)).
+
+{{Properties_Title|dokładność}}
+
+-    **num_profiles|Integer**: Domyślnie {{Value|10}}. Wartość zwykle nie musi być zmieniana.
+
+
+{{Properties_Title|Podstawowe}}
+
+-    **bolt_radius|Length**: Domyślnie {{Value|1 mm}}. Średnica cylindra na obracającym się dysku, który działa jako drugie \"koło zębate\".
+
+-    **szerokość|Length**: Domyślnie {{Value|5 mm}}. Wartość szerokości koła zębatego.
+
+-    **moduł|Length**: Domyślnie {{Value|1 mm}}. Moduł jest stosunkiem średnicy referencyjnej koła zębatego podzielonej przez liczbę zębów *(patrz [Uwagi](#Uwagi.md))*.
 
 
 {{Properties_Title|gear_parameter}}
 
--    **teeth|Integer**: Default is {{Value|15}}. Number of teeth.
+-    **zęby|Integer**: Domyślnie {{Value|15}}. Liczba zębów.
 
 
-{{Properties_Title|tolerance}}
+{{Properties_Title|tolerancja}}
 
--    **head|Float**: Default is {{Value|0}}.
+-    **head|Float**: Domyślnie {{Value|0}}.
 
 
-{{Properties_Title|version}}
+{{Properties_Title|wersja}}
 
--    **version|String**:
+-    **wersja|String**:
 
-## Notes
 
--    **module**: Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth.
 
-## Useful formulas 
+## Uwagi
 
--    **addendum diameter**= **module** \* **(teeth +2)**
+-    **module**: Korzystając z wytycznych ISO (Międzynarodowej Organizacji Normalizacyjnej), rozmiar modułu jest określany jako jednostka reprezentująca rozmiary zębów przekładni. Moduł (m): m = 1 (p = 3,1416), m = 2 (p = 6,2832), m = 4 (p = 12,566). Jeśli pomnożymy moduł przez Pi, otrzymamy Pitch - Skok (p). Skok to odległość między odpowiednimi punktami na sąsiednich zębach.
 
--    **pitch diameter**= **module** \* **teeth**
 
--    **axle base**= **pitch diameter (lantern gear 1 + 2)** : 2
+
+## Przydatne wzory 
+
+
+**średnica koła wierzchołkowego**
+
+= **moduł** \* **(zęby +2)**.
+
+-    **średnica podziałowa**= **moduł** \* **zęby**
+
+-    **rozstaw osi**= **średnica podziałowa (średnica kół drabinkowych 1 + 2)** : 2
 
 
 

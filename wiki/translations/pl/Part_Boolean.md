@@ -2,16 +2,18 @@
 ---
 - GuiCommand:/pl
    Name:Part Boolean
-   Name/pl:Część: Działania logiczne na bryłach
-   MenuLocation:Część → Logiczne → Logiczne ...
+   Name/pl:Część: Operacja logiczna
+   MenuLocation:Część → Operacje logiczne → Operacja logiczna ...
    Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Suma obiektów](Part_Fuse/pl.md), [Część wspólna obiektów](Part_Common/pl.md), [Wytnij](Part_Cut/pl.md), [Przecięcie](Part_Section/pl.md)---
+   SeeAlso:[Suma](Part_Fuse/pl.md), [Część wspólna](Part_Common/pl.md), [Wytnij](Part_Cut/pl.md), [Przecięcie](Part_Section/pl.md)---
+
+
 
 ## Opis
 
-To **[<img src=images/Part_Boolean.svg style="width:16px"> [Part Boolean](Part_Boolean/pl.md)** polecenie jest ogólnym narzędziem logicznym wszystko w jednym. Pozwala ono na określenie obiektów i operacji do wykonania za pomocą jednego okna dialogowego.
+Narzędzie **[<img src=images/Part_Boolean.svg style="width:16px"> '''Operacja logiczna'''** jest ogólnym narzędziem logicznym wszystko w jednym. Pozwala ono na określenie obiektów i operacji do wykonania za pomocą jednego okna dialogowego.
 
-Aby uzyskać szybszy dostęp do tych operacji, użyj **[<img src=images/Part_Fuse.svg style="width:16px"> [Suma](Part_Fuse/pl.md)**, **[<img src=images/Part_Common.svg style="width:16px"> [Część wspólna brył](Part_Common/pl.md)**, **[<img src=images/Part_Cut.svg style="width:16px"> [Wytnij](Part_Cut/pl.md)**, oraz **[<img src=images/Part_Section.svg style="width:16px"> [Przecięcie](Part_Section/pl.md)**.
+Aby uzyskać szybszy dostęp do tych operacji, użyj **[<img src=images/Part_Fuse.svg style="width:16px"> [Połączenie](Part_Fuse/pl.md)**, **[<img src=images/Part_Common.svg style="width:16px"> [Część wspólna](Part_Common/pl.md)**, **[<img src=images/Part_Cut.svg style="width:16px"> [Wytnij](Part_Cut/pl.md)**, oraz **[<img src=images/Part_Section.svg style="width:16px"> [Przecięcie](Part_Section/pl.md)**.
 
 ![](images/PartBooleansDialog.png )
 
@@ -19,27 +21,31 @@ Aby uzyskać szybszy dostęp do tych operacji, użyj **[<img src=images/Part_Fus
 
 *Okno dialogowe do wyboru obiektów i wykonywania na nich operacji logicznych.*
 
+
+
 ## Jak używać 
 
 Patrz poszczególne polecenia:
 
--    **<img src="images/Part_Cut.svg" width=16px> [Part: Cut](Part_Cut/pl.md)
+-    **<img src="images/Part_Cut.svg" width=16px> [Wytnij](Part_Cut/pl.md)
 **
     
 
--    **<img src="images/Part_Fuse.svg" width=16px> [Part: suma](Part_Union/pl.md)
+-    **<img src="images/Part_Fuse.svg" width=16px> [Połączenie](Part_Union/pl.md)
 **
     
 
--    **<img src="images/Part_Common.svg" width=16px> [Part: Iloczyn](Part_Common/pl.md)
+-    **<img src="images/Part_Common.svg" width=16px> [Część wspólna](Part_Common/pl.md)
 **
     
 
--    **<img src="images/Part_Section.svg" width=16px> [Part: Iloraz dwóch obiektów - sekcja](Part_Section/pl.md)
+-    **<img src="images/Part_Section.svg" width=16px> [Przecięcie](Part_Section/pl.md)
 **
     
 
-Patrz również menu **Part → Utwórz kopi → [Udoskonal kształt](Part_RefineShape/pl.md)**.
+Patrz również menu **Część → Utwórz kopię → [Udoskonal kształt](Part_RefineShape/pl.md)**.
+
+
 
 ## Problemy współpłaszczyznowe 
 

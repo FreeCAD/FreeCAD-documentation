@@ -27,7 +27,7 @@ C est le centre, a le diamètre majeur, b le diamètre mineur, F1 et F2 sont les
 
 -   Cliquer sur le bouton **[<img src=images/Sketcher_CreateArcOfEllipse.svg style="width:16px"> [Créer un arc d'ellipse](Sketcher_CreateArcOfEllipse/fr.md)**.
 -   Le premier clic dans la vue 3D, définit le centre de l\'ellipse. Le deuxième clic définit le premier rayon et l\'orientation de l\'ellipse. Le troisième clic définit l\'autre rayon et le début de l\'arc. le quatrième clic définit le point final.
--   Après le quatrième clic, l\'arc d\'ellipse est créée, ainsi que l\' ensemble de géométrie de construction (en traits bleu) aligné (diamètre principal, diamètre mineur, deux foyers). La géométrie de la construction peut être supprimée manuellement si elle n\'est pas nécessaire et recréée ultérieurement. Consulter [contrainte d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) et [Afficher/masquer la géométrie interne](Sketcher_RestoreInternalAlignmentGeometry/fr.md).
+-   Après le quatrième clic, l\'arc d\'ellipse est créée, ainsi que l\' ensemble de géométrie de construction (en traits bleu) aligné (diamètre principal, diamètre mineur, deux foyers). La géométrie de la construction peut être supprimée manuellement si elle n\'est pas nécessaire et recréée ultérieurement. Consulter [Afficher/masquer la géométrie interne](Sketcher_RestoreInternalAlignmentGeometry/fr.md).
 -   En appuyant sur **Echap** ou en cliquant sur le bouton droit de la souris, vous annulez la fonction.
 
 

@@ -5,6 +5,8 @@
 
 A partir de la version 0.20 de FreeCAD, les extensions externes (ateliers, macros, et kits de préférences) peuvent être distribuées avec un fichier de métadonnées décrivant le contenu du package. Si le fichier \"package.xml\" est présent, il est lu par FreeCAD et son contenu est utilisé dans diverses parties de l\'interface utilisateur. Il est pour l\'instant facultatif pour les ateliers et les macros, et obligatoire pour les kits de préférences. Cette page documente le format de ce fichier de métadonnées. Le format (et le contenu de cette page Wiki) est basé sur [REP 149](https://ros.org/reps/rep-0149.html).
 
+
+
 ## Format général du fichier 
 
 Ce document décrit actuellement la version 1 du format de fichier.
@@ -12,6 +14,8 @@ Ce document décrit actuellement la version 1 du format de fichier.
 Le fichier de métadonnées doit être un document XML 1.0 valide et bien formé. Il doit s\'appeler \"package.xml\", et doit exister dans le répertoire de base de la branche principale du logiciel (comme spécifié par le [fichier .gitmodules des extensions de FreeCAD](https://github.com/FreeCAD/FreeCAD-addons/blob/master/.gitmodules)) dans son dépôt git. Seul le fichier package.xml de la branche principale est pris en compte par le gestionnaire des extensions. Toutes les balises XML comprises sont en minuscules, mais les balises non reconnues ne sont **pas** une erreur. La plupart des balises sont facultatives, et certaines ne s\'appliquent qu\'à certains types de contenu de paquet (par exemple, seuls les ateliers fournissent actuellement un élément \"classname\"). Les éléments inutiles ou non reconnus sont ignorés.
 
 Tout chemin de fichier spécifié dans package.xml doit utiliser la barre oblique (\"/\") comme séparateur de répertoire : sur les systèmes qui attendent un séparateur différent pendant l\'exécution (par exemple Windows), FreeCAD convertira automatiquement vers le séparateur correct.
+
+
 
 ## Éléments de contenu 
 
@@ -23,10 +27,14 @@ Le seul élément de haut niveau autorisé est , et le fichier ne peut contenir 
 
 La balise  est la balise unique de premier niveau dans un fichier package.xml. Toutes les autres balises sont imbriquées sous elle.
 
+
+
 #### Attributs
 
 -   format=\"NUMERO\" : Spécifier le format package.xml utilisé. Pour cette interface, vous devez spécifier format=\"1\".
 -   xmlns=\"NAMESPACE\" : Spécifie l\'espace de noms XML pour ce paquet, et doit être inclus exactement comme indiqué ci-dessus, comme un lien vers <https://wiki.freecad.org/Package_Metadata>.
+
+
 
 #### Balises enfant requises 
 
@@ -40,6 +48,8 @@ L\'élément  de niveau supérieur doit contenir au moins les balises suivantes 
 -   [](#.3Clicense.3E.md) (plusieurs, mais au moins un)
 -   [](#.3Cicon.3E.md) (plusieurs, mais au moins un)
 -   [](#.3Ccontent.3E.md) (élément conteneur pour les éléments de contenu du paquet)
+
+
 
 #### Balises enfant facultatives 
 
@@ -83,6 +93,8 @@ AU MOINS UN OBLIGATOIRE (plusieurs autorisés)
 
 Le nom de la personne qui maintient le paquet. Tous les paquets nécessitent un mainteneur. Pour les paquets orphelins, voir ci-dessous.
 
+
+
 #### Attributs 
 
 -   email=\"name@domain.tld\" (obligatoire) : Adresse électronique du responsable.
@@ -95,9 +107,7 @@ Un paquet orphelin est un paquet qui n\'a pas de mainteneur attitré. Les paquet
 
 AU MOINS UN OBLIGATOIRE (plusieurs autorisés)
 
-Nom de la licence de ce paquet, par exemple BSD, GPL, LGPL. Afin de faciliter la lecture par les machines, n\'incluez que l\'identifiant court SPDX de la licence (documenté par l\'OSI [leur site](https://opensource.org/licenses/alphabetical)). Pour les licences multiples, plusieurs balises distinctes doivent être utilisées. Un paquet aura plusieurs licences si différents fichiers sources ont des licences différentes. Chaque licence apparaissant dans les fichiers sources doit avoir une balise  correspondante. Pour tout texte explicatif sur les mises en garde relatives aux licences, veuillez utiliser la balise .
-
-Les licences de logiciels libres les plus courantes sont décrites sur le [site web de l\'OSI](https://opensource.org/licenses/alphabetical).
+Identifiant court SPDX de la (des) licence(s) pour ce paquet, par exemple BSD-2-Clause, GPL-3, LGPL-2.1. Afin de faciliter la lecture par les machines, n\'incluez que l\'identifiant court SPDX de la licence (voir [le site SPDX](https://spdx.org/licenses/)). Pour les licences multiples, plusieurs balises distinctes doivent être utilisées. Un paquet aura plusieurs licences si les différents fichiers sources ont des licences différentes. Chaque licence présente dans les fichiers source doit avoir une balise  correspondante. Pour tout texte explicatif sur les mises en garde concernant les licences, veuillez utiliser la balise .
 
 Les licences les plus utilisées :
 
@@ -113,16 +123,16 @@ Les licences les plus utilisées :
 -    `"BSL-1.0"`
     
 
--    `"GPL-2"`
+-    `"GPL-2.0-or-later"`
     
 
--    `"GPL-3"`
+-    `"GPL-3.0-or-later"`
     
 
--    `"LGPL-2.1"`
+-    `"LGPL-2.1-or-later"`
     
 
--    `"LGPL-3"`
+-    `"LGPL-3.0-or-later"`
     
 
 -    `"MIT"`
@@ -131,7 +141,9 @@ Les licences les plus utilisées :
 -    `"MPL-1.1"`
     
 
--    `"CC0v1"`(Déclaration du domaine public)
+-    `"CC0-1.0"`(Déclaration du domaine public)
+
+
 
 #### Attributs 
 
@@ -209,6 +221,8 @@ Lorsque vous spécifiez le type \"readme\", un lien direct vers une version rest
 
 C\'est une bonne idée d\'inclure des balises  pointant les utilisateurs vers les ressources en ligne de votre paquet. Il s\'agit généralement d\'une page wiki de wiki.freecad.org où les utilisateurs peuvent trouver et mettre à jour des informations sur le paquet, par exemple. Le gestionnaire d\'addons répertorie ces URL et fournit des liens cliquables vers celles-ci dans la description du paquet.
 
+
+
 #### Attributs 
 
 -   type=\"TYPE\" (obligatoire) : Le type doit être l\'un des identifiants suivants : \"website\", \"bugtracker\", \"repository\", \"readme\", \"documentation\" ou \"discussion\".
@@ -220,6 +234,8 @@ Multiple autorisé
 
 Le nom d\'une personne qui est un auteur du paquet, comme reconnaissance de son travail et pour les questions.
 
+
+
 #### Attributs 
 
 -   email=\"name@domain.tld\" (facultatif) : Adresse électronique de l\'auteur.
@@ -229,6 +245,8 @@ Le nom d\'une personne qui est un auteur du paquet, comme reconnaissance de son 
 Multiple autorisé
 
 Déclare une dépendance sur une autre extension de FreeCAD ou un atelier interne, ou un module en Python. La dépendance nommée est d\'abord vérifiée par rapport à la liste des extensions connues (par exemple ceux disponibles soit dans le dépôt git officiel des extensions de FreeCAD, soit dans un dépôt personnalisé spécifié par l\'utilisateur). La vérification porte sur le nom canonique de l\'extension. Si un fichier package.xml est présent pour cette extension, le nom est l\'élément  de ce package. Une correspondance exacte est requise. Si aucune correspondance n\'est trouvée, le nom est comparé à la liste des ateliers internes connus (installés et désinstallés). Enfin, si la dépendance nommée n\'a pas été localisée lors des deux étapes précédentes, elle est supposée être une dépendance du module en Python. Notez que toutes les fonctionnalités liées aux dépendances ne sont pas encore complètement implémentées.
+
+
 
 #### Attributs 
 
@@ -249,6 +267,8 @@ Multiple autorisé
 
 Déclare un nom de paquet avec lequel ce paquet est en conflit. Ce paquet et le paquet en conflit ne doivent pas être installés en même temps.
 
+
+
 #### Attributs 
 
 Voir .
@@ -258,6 +278,8 @@ Voir .
 Multiple autorisé
 
 Déclare un nom de paquet que ce paquet est destiné à remplacer.
+
+
 
 #### Attributs 
 
@@ -283,9 +305,13 @@ La version maximale de FreeCAD requise pour utiliser le paquetage/élément, sou
 
 Pour valider votre fichier package.xml, vous pouvez activer le \"mode développeur\" dans le gestionnaire d\'addons : créez une variable booléenne appelée \"developerMode\" dans le groupe de paramètres \"Addons\" et définissez-la sur True : **Outils → Editer les paramètres... → BaseApp → Préférences → Addons → developerMode**. Lorsque le gestionnaire d\'addons a fini de lire la base de données des addons, il examine tous les fichiers package.xml disponibles à la recherche d\'erreurs.
 
+
+
 ## Guide rapide 
 
 Pour un guide rapide sur la façon de créer un fichier package.xml de base et d\'ajouter un atelier au [Gestionnaire des extensions](Std_AddonMgr/fr.md) voir : [Ajouter un atelier au gestionnaire des extensions](Add_Workbench_to_Addon_Manager/fr.md).
+
+
 
 ## Exemples
 
@@ -300,7 +326,7 @@ Un paquet simple réservé à l\'atelier (par exemple, pour ajouter un fichier d
       <version>1.0.1</version> 
       <date>2022-01-07</date> 
       <maintainer email="your_address@null.com">Your Name</maintainer>
-      <license file="LICENSE">LGPL-2.1</license> 
+      <license file="LICENSE">LGPL-2.1-or-later</license> 
       <url type="repository" branch="main">https://github.com/chennes/FreeCAD-Package</url> 
       <url type="readme">https://github.com/chennes/FreeCAD-Package/blob/main/README.md</url> 
       <icon>Resources/icons/PackageIcon.svg</icon> 
@@ -323,7 +349,7 @@ Un paquet complexe, à plusieurs composantes :
       <version>2022.01</version>
       <date>2022-01-07</date>
       <maintainer email="no-one@freecad.org">No Maintainer</maintainer>
-      <license file="LICENSE">GPL-3</license>
+      <license file="LICENSE">GPL-3.0-or-later</license>
       <url type="repository" branch="main">https://github.com/chennes/FreeCAD-Package</url>
       <icon>PackageIcon.svg</icon>
 
@@ -363,7 +389,7 @@ Un paquet avec des dépendances :
       <version>1.0.1-beta3</version>
       <date>2022-01-07</date>
       <maintainer email="no-one@freecad.org">No Maintainer</maintainer>
-      <license file="LICENSE">GPL-3</license>
+      <license file="LICENSE">GPL-3.0-or-later</license>
       <url type="repository" branch="main">https://github.com/chennes/FreeCAD-Package</url>
       <icon>PackageIcon.svg</icon>
 

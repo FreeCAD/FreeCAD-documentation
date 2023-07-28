@@ -1,30 +1,35 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher RemoveAxesAlignment
-   MenuLocation:Sketch → Sketcher tools → Remove axes alignment
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Usuń wyrównanie osi
+   MenuLocation:Szkic → Narzędzia szkicownika → Usuń wyrównanie osi
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**Z** **R**
    Version:0.20
 ---
 
 # Sketcher RemoveAxesAlignment/pl
 
-## Description
 
-This tool removes axes alignments (<img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:16px;"> [Horizontal](Sketcher_ConstrainHorizontal.md), <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:16px;"> [Vertical](Sketcher_ConstrainVertical.md) constraints) from the selected elements by trying to preserve the constraint relationship.
 
-## Usage
+## Opis
 
-1.  Select geometry with axes alignments, for example a [rectangle](Sketcher_CreateRectangle.md).
-2.  Press the <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> **Remove axes alignment** toolbar button.
+To narzędzie usuwa wyrównania osi *(wiązania <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:16px;"> [Poziome](Sketcher_ConstrainHorizontal/pl.md), <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:16px;"> [Pionowe](Sketcher_ConstrainVertical/pl.md))* z wybranych elementów, próbując zachować relację wiązań.
 
-As result the (horizontal, vertical constraints) will be removed. In the example of a rectangle, it stays a rectangle but becomes rotatable.
+
+
+## Użycie
+
+1.  Wybierz geometrię z wyrównaniem osi, na przykład [prostokąt](Sketcher_CreateRectangle/pl.md).
+2.  Naciśnij przycisk <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> **Usuń wyrównanie osi** na pasku narzędzi.
+
+W rezultacie wiązania *(poziome, pionowe)* zostaną usunięte. W przykładzie prostokąta, pozostaje on prostokątem, ale staje się obracalny.
 
 <img alt="" src=images/SketcherRemoveAxesAlignmentStart.png  style="width:300px;"> 
-*A selected rectangle with horizontal and vertical constraints.*
+*Wybrany prostokąt z wiązaniami poziomymi i pionowymi.*
 
 <img alt="" src=images/SketcherRemoveAxesAlignmentResult.png  style="width:300px;"> 
-*The rectangle after the usage of Remove Axes Alignment.*
+*Prostokąt po użyciu funkcji ''Usuń wyrównanie osi''.*
 
 
 

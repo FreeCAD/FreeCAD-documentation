@@ -4,6 +4,8 @@ Dies ist eine umfangreiche, aber nicht vollständige Liste von Funktionen, die F
 
 {{TOCright}}
 
+
+
 ## Versionshinweise
 
 -   [Version 0.20](Release_notes_0.20/de.md) - Juni 2022
@@ -17,6 +19,8 @@ Dies ist eine umfangreiche, aber nicht vollständige Liste von Funktionen, die F
 -   [Version 0.12](Release_notes_0.12.md) - Dezember 2011
 -   [Version 0.11](Release_notes_0.11/de.md) - März 2011
 
+
+
 ## Schlüsselfunktionen
 
 -   ![](images/Feature1.jpg ) Ein vollständiger [Open CASCADE Technologie](https://de.wikipedia.org/wiki/Open_CASCADE_Technology)-basierter **Geometriekernel**, der komplexe 3D Arbeitsabläufe auf komplexen Formtypen ermöglicht, mit eigener Unterstützung für Konzepte wie [Begrenzungsflächenmodell](https://de.wikipedia.org/wiki/Boundary_Representation) (BREP), [Nicht-uniforme rationale B-Splines](https://de.wikipedia.org/wiki/Non-Uniform_Rational_B-Spline) (NURBS) Kurven und Oberflächen, eine ausgedehnter Bereich von geometrischen Gebilden, booleschen Operationen und [Verrundungen](https://en.wikipedia.org/wiki/Fillet_(mechanics)) sowie eingebaute Unterstützung der Formate [STEP](https://de.wikipedia.org/wiki/Standard_for_the_exchange_of_product_model_data) und [IGES](https://de.wikipedia.org/wiki/Initial_Graphics_Exchange_Specification) 
@@ -25,11 +29,13 @@ Dies ist eine umfangreiche, aber nicht vollständige Liste von Funktionen, die F
 -   ![](images/Feature5.jpg ) Import/Export in **Standardformate** wie [STEP](http://en.wikipedia.org/wiki/ISO_10303), [IGES](http://en.wikipedia.org/wiki/IGES), [OBJ](http://en.wikipedia.org/wiki/Obj), [STL](http://en.wikipedia.org/wiki/STL_%28file_format%29), [DXF](http://en.wikipedia.org/wiki/Dxf), [SVG](http://en.wikipedia.org/wiki/Svg), \[<http://en.wikipedia>. org/wiki/STL\_(file_format) STL\], [DAE](http://en.wikipedia.org/wiki/COLLADA), [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) oder [OFF](http://people.sc.fsu.edu/~jburkardt/data/off/off.html), [NASTRAN](http://en.wikipedia.org/wiki/NASTRAN), [VRML](http://en.wikipedia.org/wiki/VRML) zusätzlich zu FreeCADs eigenem **[FCStd](File_Format_FCStd/de.md)**-Dateiformat. Das Niveau der Kompatibilität zwischen FreeCAD und einem bestimmten Dateiformat kann variieren, da es von dem Modul abhängt, das es implementiert.
 -   ![](images/Feature7.jpg ) Ein [Skizzierer](Sketcher_Workbench/de.md) mit integriertem Löser für Randbedingungen, der das skizzieren geometrisch bestimmter 2D-Formen erlaubt. Die mit dem Sizzierer erstellten (und) festgelegten 2D-Formen können dann als Basis für die Erstellung anderer Objekte in allen Bereichen von FreeCAD verwendet werden.
 -   ![](images/Feature9.jpg ) Ein Modul [Robotersimulation](Robot_Workbench/de.md), das erlaubt, Roboterbewegungen in einer grafischen Umgebung zu studieren.
--   ![](images/Feature8.jpg ) Ein Arbeitsbereich [TechnischeZeichnung](TechDraw_Workbench/de.md) mit Optionen für Detailansichten, Schnittansichten, Bemaßung u.a., der es erlaubt, 2D-Ansichten von vorhandenen 3D-Modellen zu erzeugen. Das Modul erzeugt dann exportfertige SVG- oder PDF-Dateien. Ein älteres [Zeichnungsmodul](Drawing_Workbench/de.md) mit spärlichen GUI-Befehlen, aber einer leistungsfähigen Python-Funktionalität, ist ebenfalls vorhanden.
+-   ![](images/Feature8.jpg ) Ein Arbeitsbereich [TechDraw](TechDraw_Workbench/de.md) mit Optionen für Detailansichten, Schnittansichten, Bemaßung u.a., der es erlaubt, 2D-Ansichten von vorhandenen 3D-Modellen zu abzuleiten. Das Modul erzeugt dann exportfertige SVG- oder PDF-Dateien.
 -   ![](images/Feature-raytracing.jpg ) Ein Modul für die [Bildsynthese](Raytracing_Workbench/de.md), das 3D-Objekte zum Rendern mit externen Renderern exportieren kann. Es unterstützt derzeit nur [povray](http://en.wikipedia.org/wiki/POV-Ray) und [LuxRender](http://en.wikipedia.org/wiki/LuxRender), soll aber in Zukunft auf andere Renderer erweitert werden.
 -   ![](images/Feature-arch.jpg ) Ein [Architektur](Arch_Workbench/de.md)-Modul, das Arbeitsabläufe ähnlich der [Bauwerksdatenmodellierung](https://de.wikipedia.org/wiki/Building_Information_Modeling) (BIM) ermöglicht, mit Kompatibilität zu [Industry Foundation Classes](https://de.wikipedia.org/wiki/Industry_Foundation_Classes) (IFC).
 -   ![](images/Feature-CAM.jpg ) Ein [Pfad](Path_Workbench/de.md)-Modul für die mechanische Bearbeitung für die [Computerunterstützte Fertigung](https://de.wikipedia.org/wiki/Computer-aided_manufacturing) (CAM). Durch Verwendung des Pfad-Moduls kannst der [G-Code](http://en.wikipedia.org/wiki/G-code), der zur Steuerung der Zielmaschine verwendet wird, ausgrgeben, angezeigt und angepasst werden. 
 -   ![](images/Feature_spreadsheet.png ) Eine integrierte [Kalkulationstabelle](Spreadsheet_Workbench/de.md) und ein [Syntaxanalysierer für Ausdrücke](Expressions/de.md), die zur Steuerung formelbasierter Modelle und zur Organisation von Modelldaten an einem zentralen Ort verwendet werden können.
+
+
 
 ## Allgemeine Funktionen 
 
@@ -82,6 +88,8 @@ Dies ist eine umfangreiche, aber nicht vollständige Liste von Funktionen, die F
 -   **Vorschaubildner** (derzeit nur Linux Systeme) FreeCAD Dokumentensymbole zeigen den Inhalt der Datei in den meisten Dateimanager Anwendungen wie Gnomes Nautilus an.
 
 -   **Modularer MSI-Installierer**. Das FreeCAD-Installationsprogramm ermöglicht eine flexible Installation auf Windows-Systemen. Pakete für Ubuntu-Systeme werden ebenfalls gepflegt.
+
+
 
 ## Zusätzliche Arbeitsbereiche 
 

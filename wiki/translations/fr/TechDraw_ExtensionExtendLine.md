@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width:24px;"> **TechDraw Prolonger** prolonge une ligne cosmétique ou une ligne centrale à ses deux extrémités.
+L\'outil **TechDraw Prolonger** prolonge une ligne cosmétique ou une ligne centrale à ses deux extrémités.
 
 <img alt="" src=images/TechDraw_ExtensionExtendLineExample.png  style="width:300px;"> 
 *À droite, une ligne centrale prolongée aux deux extrémités*
+
+
 
 ## Utilisation
 

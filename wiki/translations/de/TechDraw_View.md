@@ -2,9 +2,9 @@
 - GuiCommand:/de
    Name:TechDraw View
    Name/de:TechDraw Ansicht
-   MenuLocation:TechDraw → Ansicht einfügen
+   MenuLocation:TechDraw→ TechDraw Ansichten → Ansicht einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[TechDraw Projektionsgruppe einfügen](TechDraw_ProjectionGroup/de.md), [TechDraw Abschnittssansicht einfügen](TechDraw_SectionView/de.md)
+   SeeAlso:[TechDraw Ansichtengruppe einfügen](TechDraw_ProjectionGroup/de.md), [TechDraw Schnittansicht einfügen](TechDraw_SectionView/de.md)
 ---
 
 # TechDraw View/de
@@ -13,7 +13,7 @@
 
 ## Beschreibung
 
-Das Werkzeug Ansicht fügt eine Darstellung eines oder mehrerer Objekte einer Zeichnungsseite hinzu. Dies ist der Grundbaustein des TechDraw-Arbeitsbereichs. Die meisten anderen Ansichten werden in irgendeiner Weise von dieser Ansicht (dem View-Objekt) abgeleitet.
+Das Werkzeug **TechDraw Ansicht** fügt eine Darstellung eines oder mehrerer Objekte einer Zeichnungsseite hinzu. Dies ist der Grundbaustein des TechDraw-Arbeitsbereichs. Die meisten anderen Ansichten werden in irgendeiner Weise von dieser Ansicht (dem View-Objekt) abgeleitet.
 
 Ansicht wird versuchen, alles, was eine Eigenschaft `Shape` besitzt, zu zeichnen. Es können [Skizzen](Sketcher_Workbench/de.md), [PartDesign Bodies](PartDesign_Body/de.md), [Draft Objekte](Draft_Workbench/de.md) usw. ausgewählt werden. Ansicht extrahiert auch beliebige Formen aus Objekten innerhalb eines [Std Part](Std_Part/de.md) oder einer [Std Gruppe](Std_Group/de.md).
 
@@ -24,12 +24,12 @@ Ansicht wird versuchen, alles, was eine Eigenschaft `Shape` besitzt, zu zeichnen
 
 ## Anwendung
 
-1.  Wahlweise die [3D-Ansicht](3D_view/de.md) ausrichten. Die Kamerarichtung in der [3D-Ansicht](3D_view/de.md) bestimmt die Startwerte der {{PropertyData/de|Direction}} der Ansicht.
-2.  Ein oder mehrere Objekte in der [3D-Ansicht](3D_view/de.md) oder [Baumansicht](Tree_view/de.md) auswählen.
-3.  Wenn das Dokument mehrere Zeichnungsblätter enthält: Wahlweise das gewünschte Blatt durch Auswahl in der [Baumansicht](Tree_view/de.md) zur Auswahl hinzufügen. Dies ist ein Muss für {{VersionMinus/de|0.19}}.
-4.  Es gibr mehrere Möglichkeiten das Werkzeug aufzurufen:
+1.  Wahlweise die [3D-Ansicht](3D_view/de.md) ausrichten. Wenn nicht im nächsten Schritt eine Fläche ausgewählt wird, bestimmt die Kamerarichtung in der [3D-Ansicht](3D_view/de.md) die Startwerte der {{PropertyData/de|Direction}} der Ansicht.
+2.  Ein oder mehrere Objekte in der [3D-Ansicht](3D_view/de.md) oder [Baumansicht](Tree_view/de.md) auswählen. Wird in der 3D-Ansicht ausgewählt wird, bestimmt die erste ausgewählte Fläche die Startwerte der {{PropertyData/de|Direction}}.
+3.  Wenn das Dokument mehrere Zeichnungsblätter enthält: Wahlweise das gewünschte Blatt durch Auswahl in der [Baumansicht](Tree_view/de.md) zur Auswahl hinzufügen.
+4.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
     -   Die Schaltfläche **<img src="images/TechDraw_View.svg" width=16px> [Ansicht einfügen](TechDraw_View/de.md)** drücken.
-    -   Den Menüeintrag **TechDraw → <img src="images/TechDraw_View.svg" width=16px> Ansicht einfügen** auswählen.
+    -   Den Menüeintrag **TechDraw → TechDraw Ansichten → <img src="images/TechDraw_View.svg" width=16px> Ansicht einfügen** auswählen.
 5.  Wenn das Dokument mehrere Zeichnungsblätter enthält und kein Blatt ausgewählt wurde, öffnet sich der Dialog **Blattauswahl**: {{Version/de|0.20}}
     1.  Das gewünschte Zeichnungsblatt auswählen.
     2.  Die Schaltfläche **OK** drücken.
@@ -115,11 +115,11 @@ Ansicht wird versuchen, alles, was eine Eigenschaft `Shape` besitzt, zu zeichnen
 
 -    {{PropertyData/de|Source|LinkList}}: Verweise auf die darstellbaren Objekte, die abgebildet werden sollen.
 
--    {{PropertyData/de|XSource|XLinkList}}: Verweise auf die darstellbaren Objekten in einer externen Datei. {{Version/de|0.19}}
+-    {{PropertyData/de|XSource|XLinkList}}: Verweise auf die darstellbaren Objekten in einer externen Datei.
 
 -    {{PropertyData/de|Direction|Vector}}: Dieser Vektor steuert die Richtung, aus der das Objekt betrachtet wird. +X ist rechts, -X ist links, +Y ist hinten, -Y ist vorne (Blick auf den Bildschirm), +Z ist oben und -Z ist unten. Eine Vorderansicht ist also (0,-1,0) und eine isometrische Ansicht ist (1,-1,1).
 
--    {{PropertyData/de|XDirection|Vector}}: Dieser Vektor steuert die Rotation der Ansicht um die Blickrichtung (Direction). {{Version/de|0.19}}.
+-    {{PropertyData/de|XDirection|Vector}}: Dieser Vektor steuert die Rotation der Ansicht um die Blickrichtung (Direction).
 
 -    {{PropertyData/de|Perspective|Bool}}: `True` für perspektivische Projektion `False` für orthogonale Projektion.
 
@@ -134,7 +134,7 @@ Ansicht wird versuchen, alles, was eine Eigenschaft `Shape` besitzt, zu zeichnen
 
 -    {{PropertyView/de|Keep Label|Bool}}: Zeigt die Bezeichnung (Label) der Ansicht immer an, wenn `True`. (1)
 
--    {{PropertyView/de|Stack Order|Integer}}: Liegt davor oder dahinter im Bezug auf andere Ansichten. (1) {{Version/de|1.0}}
+-    {{PropertyView/de|Stack Order|Integer}}: Liegt davor oder dahinter im Bezug auf andere Ansichten. (1) {{Version/de|0.21}}
 
 
 {{TitleProperty|Decoration}}
@@ -183,14 +183,33 @@ Ansicht wird versuchen, alles, was eine Eigenschaft `Shape` besitzt, zu zeichnen
 
 Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Werkzeug Ansicht kann mit [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
+Eine Ansicht kann mit [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen erstellt werden:
 
 
 ```python
-view = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewPart', 'View')
-rc = page.addView(view)
-FreeCAD.ActiveDocument.View.Source = [App.ActiveDocument.Box]
-FreeCAD.ActiveDocument.View.Direction = (0.0, 0.0, 1.0)
+import FreeCAD as App
+
+doc = App.ActiveDocument
+box = doc.addObject("Part::Box", "Box")
+
+page = doc.addObject("TechDraw::DrawPage", "Page")
+template = doc.addObject("TechDraw::DrawSVGTemplate", "Template")
+template.Template = App.getResourceDir() + "Mod/TechDraw/Templates/A4_LandscapeTD.svg"
+page.Template = template
+
+# Toggle the visibility of the page to ensure its width and height are updated (hack):
+page.Visibility = False
+page.Visibility = True
+
+view = doc.addObject("TechDraw::DrawViewPart", "View")
+page.addView(view)
+view.Source = [box]
+view.Direction = (0, 0, 1)
+
+view.X = page.PageWidth / 2
+view.Y = page.PageHeight / 2
+
+doc.recompute()
 ```
 
 

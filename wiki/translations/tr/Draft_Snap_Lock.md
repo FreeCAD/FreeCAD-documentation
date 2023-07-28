@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Açıklama
 
 
@@ -21,6 +23,8 @@ Bu araç, [Yakalama](Draft_Snap/tr.md) yöntemlerini genel olarak etkinleştirme
 
 
 </div>
+
+
 
 ## Nasıl kullanılır 
 

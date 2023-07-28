@@ -39,9 +39,6 @@ All Points Workbench tools can be accessed from the **Points** menu. Some tools 
 
 
 
-
-
-
 {{Points Tools navi
 
 }}

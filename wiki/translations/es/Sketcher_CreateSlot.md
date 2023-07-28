@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 Draws a slot by selecting the center of two semicircle. (In older FreeCAD versions by selecting one semicircle center and an endpoint of the other semicircle.)

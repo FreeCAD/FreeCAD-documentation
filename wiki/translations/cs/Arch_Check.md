@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -14,6 +16,8 @@ Tento nástroj kontroluje daný dokument nebo jen vybrané objekty na objekty kt
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -32,12 +36,19 @@ Tento nástroj kontroluje daný dokument nebo jen vybrané objekty na objekty kt
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Skriptování
 
 
 </div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">

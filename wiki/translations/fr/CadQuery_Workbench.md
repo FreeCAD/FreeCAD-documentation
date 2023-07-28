@@ -6,6 +6,8 @@ Le développement actif de CadQuery s'est éloigné de FreeCAD [https://github.c
 L'atelier CadQuery n'est '''plus activement maintenu''' mais peut recevoir des corrections sporadiques de la part de son auteur.
 **
 
+
+
 ## Introduction
 
 
@@ -13,10 +15,14 @@ L'atelier CadQuery n'est '''plus activement maintenu''' mais peut recevoir des c
 
 Un combo module-atelier qui ajoute un éditeur CadQuery à FreeCAD. Veuillez consulter le [wiki](https://github.com/jmwright/cadquery-freecad-module/wiki) pour des informations plus détaillées sur la mise en route.
 
+
+
 ## Références
 
 -   Auteur: Jeremy Wright
 -   Page d\'accueil: <https://github.com/jmwright/cadquery-freecad-module>
+
+
 
 ## Outils
 
@@ -25,6 +31,8 @@ Un combo module-atelier qui ajoute un éditeur CadQuery à FreeCAD. Veuillez con
 ## Installation
 
 Installer le avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md).
+
+
 
 ## Liens
 
@@ -45,9 +53,13 @@ Autres exemples:
 
 -   Prise en charge de l\'imprimante Prusa i3 (directement disponible en tant qu\'exemple de script de l\'atelier **Ex032_3D_Printer_Extruder_Support**): <https://github.com/adam-urbanczyk/cadquery-models>
 
+
+
 ## Dernière version de CadQuery 
 
 La dernière version de CadQuery n\'utilise plus FreeCAD et n\'est pas compatible avec l\'atelier CadQuery. Si vous êtes intéressé par la dernière version, jetez un œil au \[module <https://github.com/CadQuery/cadquery> module Python CadQuery\] et à l\'[éditeur graphique CadQuery](https://github.com/CadQuery/CQ-editor).
+
+
 
 ## Autres liens intéressants 
 
@@ -57,4 +69,4 @@ La dernière version de CadQuery n\'utilise plus FreeCAD et n\'est pas compatibl
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > CadQuery Workbench/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > CadQuery Workbench/fr

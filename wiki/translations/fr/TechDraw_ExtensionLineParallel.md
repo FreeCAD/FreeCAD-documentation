@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width:24px;"> **TechDraw Ligne parallèle** ajoute une ligne cosmétique parallèle à une autre ligne passant par un sommet.
+L\'outil **TechDraw Ligne parallèle** ajoute une ligne cosmétique parallèle à une autre ligne passant par un sommet.
 
 <img alt="" src=images/TechDraw_ExtensionLineParallelExample.png  style="width:250px;"> 
 *A droite, une ligne parallèle cosmétique a été ajoutée*
+
+
 
 ## Utilisation
 

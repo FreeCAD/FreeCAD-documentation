@@ -2,223 +2,236 @@
 - GuiCommand:/it
    Name:Draft Edit
    Name/it:Modifica
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   MenuLocation:Modifiche → Modifica
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**D** **E**
-   MenuLocation:Draft → Modifica
-   SeeAlso:[Modifica standard](Std_Edit/it.md)
+   SeeAlso:[Modalità modifica](Std_Edit/it.md)
 ---
 
 # Draft Edit/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento <img alt="" src=images/Draft_Edit.svg  style="width:16px;"> Modifica di Draft consente di modificare graficamente determinate proprietà dell\'oggetto selezionato, come i vertici di una <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [polilinea](Draft_Wire/it.md), la lunghezza e la larghezza di un <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> [rettangolo](Draft_Rectangle/it.md), o il raggio di un <img alt="" src=images/Draft_Circle.svg  style="width:16px;"> [cerchio](Draft_Circle/it.md).
-
-
-</div>
+Il comando <img alt="" src=images/Draft_Edit.svg  style="width:24px;"> **Modifica** mette gli oggetti selezionati in modalità Draft Modifica. In questa modalità le proprietà degli oggetti possono essere modificate graficamente. In genere i nodi possono essere spostati e in alcuni casi è possibile selezionare le opzioni del menu contestuale. Il comando può gestire la maggior parte degli oggetti Draft, ma anche alcuni altri oggetti. Vedi [Oggetti supportati](#Oggetti_supportati.md). Gli oggetti Draft supportati possono anche essere messi in modalità Draft Modifica con il comando [Modalità Modifica](Std_Edit/it.md).
 
 ![](images/Draft_Edit_example.png ) 
-*4 objects in Draft Edit mode: a Draft Wire (red), a Draft Arc (black), a Draft BSpline (green) and a Draft BezCurve (magenta)*
+*4 oggetti in modalità Draft Modifica: Polilinea (rosso), Arco (nero), BSpline (verde) e BezCurve (magenta)*
 
-## Usage
 
-See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
-1.  Optionally select one or more objects. Note that although multiple objects can be in Draft Edit mode, objects can only be edited one at a time.
-2.  There are several ways to invoke the command:
-    -   If you have not yet selected an object: double-click an object in the [Tree view](Tree_view.md). This only works for supported Draft objects.
-    -   Press the **<img src="images/Draft_Edit.svg" width=16px> [Draft Edit](Draft_Edit.md)** button.
-    -   Select the **Modification → <img src="images/Draft_Edit.svg" width=16px> Edit** option from the menu.
-    -   Use the keyboard shortcut: **D** then **E**.
-    -   For a single object: select the **Edit** option from the [Tree view](Tree_view.md) context menu. This only works for supported Draft objects. <small>(v1.0)</small> 
-3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
-4.  The selected objects are marked with temporary nodes, and the [Main task panel](#Main_task_panel.md) opens. See [Options](#Options.md) for more information.
-5.  Optionally use a node or edge context menu. These context menus are only available for some Draft objects. See [Supported objects](#Supported_objects.md) for more information.
-    -   Do one of the following:
-        -   On all operating systems: hold down **E** and click the node or edge. To use **E** you may have to click in the [3D view](3D_view.md) once to ensure that it has the focus.
-        -   On Windows: hold down **Alt** and click the node or edge.
-        -   On Linux: hold down **Shift**+**Alt**, **Ctrl**+**Alt** or **Alt**, and click the node or edge.
-        -   On macOS: hold down **Option** and click the node or edge.
-    -   Select an option from the context menu.
-    -   If the selected option requires point input:
-        -   The [Edit node task panel](#Edit_node_task_panel.md) opens. See [Options](#Options.md) for more information.
-        -   Pick a point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-6.  Optionally move a node:
-    -   Click the node in the [3D view](3D_view.md).
-    -   The [Edit node task panel](#Edit_node_task_panel.md) opens. See [Options](#Options.md) for more information.
-    -   Pick a point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-    -   The result depends on the object and the selected node.
-7.  Press **Esc** or the **Close** button (the button at the top of the task panel, without the image) to finish the command.
+## Utilizzo
+
+Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
+
+1.  Opzionalmente selezionare uno o più oggetti. Si noti che sebbene più oggetti possano trovarsi in modalità Modifica, gli oggetti possono essere modificati solo uno alla volta.
+2.  Esistono diversi modi per invocare il comando:
+    -   Se non si ha ancora selezionato un oggetto: fare doppio clic su un oggetto nella [Vista ad albero](Tree_view/it.md). Funziona solo per gli oggetti Draft supportati.
+    -   Premere il pulsante **<img src="images/Draft_Edit.svg" width=16px> [Modifica](Draft_Edit/it.md)**.
+    -   Selezionare l\'opzione **Modifica → <img src="images/Draft_Edit.svg" width=16px> Modifica** dal menu.
+    -   Usare la scorciatoia da tastiera: **D** poi **E**.
+    -   Per un singolo oggetto: selezionare l\'opzione **Modifica** dal menu contestuale [Vista ad albero](Tree_view/it.md). Funziona solo per gli oggetti Draft supportati. {{Version/it|0.21}}
+3.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto nella [Vista 3D](3D_view/it.md).
+4.  Gli oggetti selezionati vengono contrassegnati con nodi temporanei e si apre il [Pannello attività principale](#Main_task_panel/it.md). Vedere [Opzioni](#Opzioni.md) per maggiori informazioni.
+5.  Facoltativamente, utilizzare un menu contestuale del nodo o del bordo. Questi menu contestuali sono disponibili solo per alcuni oggetti Draft. Vedi [Oggetti supportati](#Oggetti_supportati.md) per ulteriori informazioni.
+    -   Effettuare una delle seguenti operazioni:
+        -   Su tutti i sistemi operativi: tenere premuto **E** e fare clic sul nodo o sul bordo. Per utilizzare **E** potrebbe essere necessario fare clic nella [Vista 3D](3D_view/it.md) una volta per assicurarsi che abbia il focus.
+        -   Su Windows: tenere premuto **Alt** e fare clic sul nodo o sul bordo.
+        -   Su Linux: tenere premuto **Maiusc**+**Alt**, **Ctrl**+**Alt** o **Alt** e fare clic sul nodo o bordo.
+        -   Su macOS: tenere premuto **Option** e fare clic sul nodo o sul bordo.
+    -   Selezionare un\'opzione dal menu contestuale.
+    -   Se l\'opzione selezionata richiede l\'inserimento di punti:
+        -   Si apre il [Pannello attività modifica nodo](#Pannello_attività_modifica_nodo.md). Vediere [Opzioni](#Opzioni.md) per maggiori informazioni.
+        -   Scegliere un punto nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
+6.  Facoltativamente spostare un nodo:
+    -   Fare clic sul nodo nella [Vista 3D](3D_view/it.md).
+    -   Si apre il [Pannello attività modifica nodo](#Pannello_attività_modifica_nodo.md). Vedere [Opzioni](#Opzioni.md) per maggiori informazioni.
+    -   Scegliere un punto nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
+    -   Il risultato dipende dall\'oggetto e dal nodo selezionato.
+7.  Premere **Esc** o il pulsante **Chiudi** (il pulsante nella parte superiore del pannello delle attività, senza l\'immagine) per terminare il comando.
 
 
 
 ## Opzioni
 
-The single character keyboard shortcuts mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
-
-### Main task panel 
-
--   Press **Esc** or the **Close** button to finish the command.
-
-### Edit node task panel 
+Le scorciatoie da tastiera a carattere singolo menzionate qui possono essere modificate. Vedere [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
 
 
-<div class="mw-translate-fuzzy">
 
--   Premere **X**, **Y** o **Z** dopo un punto per vincolare il prossimo punto sull\'asse dato.
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando si hanno i valori desiderati per inserire il punto.
--   Tenere premuto **Ctrl** mentre si disegna per forzare [l\'aggancio](Draft_Snap.md) del proprio punto alla posizione di aggancio più vicina, indipendentemente dalla distanza.
--   Tenere premuto **Shift** mentre si disegna per [vincolare](Draft_Constrain.md) il prossimo punto in orizzontale o in verticale rispetto all\'ultimo.
--   Premere il tasto **Esc** o il pulsante {{button|Chiudi}} o il pulsante **<img src="images/Draft_Edit.svg" width=16px> [Draft Edizione](Draft_Edit/it.md)** per interrompere il comando corrente.
+### Pannello attività principale 
+
+-   Premere **Esc** o il pulsante **Chiudi** per interrompere il comando.
 
 
-</div>
 
-## Supported objects 
+### Pannello attività modifica nodo 
 
-### <img alt="" src=images/Draft_Line.svg  style="width:24px;"> [Draft Line](Draft_Line.md) and <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Draft Wire](Draft_Wire.md) 
-
--   If the start or end node of an open wire is moved so that they coincide, the wire is closed.
--   Node context menu: {{Value|Delete point}}. At least two points must remain.
--   Edge context menu: {{Value|Add point}}, {{Value|Close/Open wire}} (<small>(v1.0)</small> ) and {{Value|Reverse wire}} (<small>(v0.20)</small> ).
-
-### <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> [Draft Arc](Draft_Arc.md) and <img alt="" src=images/Draft_Arc_3Points.svg  style="width:24px;"> [Draft Arc 3Points](Draft_Arc_3Points.md) 
-
--   Center node context menu: {{Value|Move arc}}.
--   Start node context menu: {{Value|Set first angle}}.
--   End node context menu: {{Value|Set last angle}}.
--   Mid node context menu: {{Value|Set radius}}.
--   Edge context menu: {{Value|Invert arc}}.
-
-### <img alt="" src=images/Draft_Circle.svg  style="width:24px;"> [Draft Circle](Draft_Circle.md) 
-
--   No context menus for this object.
-
-### <img alt="" src=images/Draft_Ellipse.svg  style="width:24px;"> [Draft Ellipse](Draft_Ellipse.md) 
-
--   No context menus for this object.
-
-### <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> [Draft Rectangle](Draft_Rectangle.md) 
-
--   No context menus for this object.
-
-### <img alt="" src=images/Draft_Polygon.svg  style="width:24px;"> [Draft Polygon](Draft_Polygon.md) 
-
--   No context menus for this object.
-
-### <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> [Draft BSpline](Draft_BSpline.md) 
-
--   If the start or end node of an open spline is moved so that they coincide, the spline is closed.
--   Node context menu: {{Value|Delete point}}. At least two points must remain for an open spline. For a closed spline the minimum number of points is three.
--   Edge context menu: {{Value|Add point}}, {{Value|Close/Open spline}} (<small>(v1.0)</small> ) and {{Value|Reverse spline}} (<small>(v1.0)</small> ).
-
-### <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> [Draft CubicBezCurve](Draft_CubicBezCurve.md) and <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> [Draft BezCurve](Draft_BezCurve.md) 
-
--   If the start or end node of an open curve is moved so that they coincide, the curve is closed.
--   Node context menu: {{Value|Delete point}}, {{Value|Make sharp}}, {{Value|Make tangent}} and {{Value|Make symmetric}}.
--   Edge context menu: {{Value|Add point}}, {{Value|Close/Open curve}} (<small>(v1.0)</small> ) and {{Value|Reverse curve}} (<small>(v1.0)</small> ).
-
-### <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> [Draft Dimension](Draft_Dimension.md) 
-
--   Angular dimensions cannot be edited.
--   The start and end nodes of parametric dimensions cannot be moved.
--   No context menus for this object.
-
-### <img alt="" src=images/Arch_Wall.svg  style="width:24px;"> [Arch Wall](Arch_Wall.md) 
-
--   A single node to control the height of the wall is displayed above the **Placement** of the wall.
--   No context menus for this object.
-
-### <img alt="" src=images/Arch_Structure.svg  style="width:24px;"> [Arch Structure](Arch_Structure.md) 
-
--   No context menus for this object.
-
-### <img alt="" src=images/Arch_Window.svg  style="width:24px;"> [Arch Window](Arch_Window.md) 
-
--   No context menus for this object.
-
-### <img alt="" src=images/Arch_Space.svg  style="width:24px;"> [Arch Space](Arch_Space.md) 
-
--   No context menus for this object.
-
-### <img alt="" src=images/Arch_Panel_Cut.svg  style="width:24px;"> [Arch Panel Cut](Arch_Panel_Cut.md) 
-
--   No context menus for this object.
-
-### <img alt="" src=images/Arch_Panel_Sheet.svg  style="width:24px;"> [Arch Panel Sheet](Arch_Panel_Sheet.md) 
-
--   No context menus for this object.
-
-### <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Box](Part_Box.md) 
-
--   No context menus for this object.
-
-### <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> [Part Cylinder](Part_Cylinder.md) 
-
--   No context menus for this object.
-
-### <img alt="" src=images/Part_Sphere.svg  style="width:24px;"> [Part Sphere](Part_Sphere.md) 
-
--   No context menus for this object.
-
-### <img alt="" src=images/Part_Cone.svg  style="width:24px;"> [Part Cone](Part_Cone.md) 
-
--   No context menus for this object.
-
-### <img alt="" src=images/Part_Line.svg  style="width:24px;"> [Part Line](Part_Line.md) 
-
--   No context menus for this object.
-
-### <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketcher Sketch](Sketcher_NewSketch.md) 
-
--   Only sketches that contain a single unconstrained line can be edited.
--   No context menus for this object.
-
-## Preferences
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   The color of the temporary nodes is the same as the color of the snap symbols. This color can be changed in the preferences: **Edit → Preferences... → Draft → Visual settings → Visual Settings → Color**. Note that this color is not used for the temporary nodes displayed for [Draft BezCurves](Draft_BezCurve.md). These nodes use the **Line Color** of the curve instead.
-
-## Scripting
+-   Per inserire manualmente le coordinate, inserire le componenti X, Y e Z e premere **Invio** dopo ognuna di esse. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando hai i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
+-   Per usare le coordinate polari inserire un valore per **Lunghezza** e un valore per **Angolo**, e premere **Enter** dopo ciascuno.
+-   Selezionare la casella **Angolo** per vincolare il puntatore all\'angolo specificato.
+-   Premere **G** o fai clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **S** per attivare o disattivare [Aggancia](Draft_Snap/it.md).
 
 
-<div class="mw-translate-fuzzy">
+
+## Oggetti supportati 
+
+
+
+### <img alt="" src=images/Draft_Line.svg  style="width:24px;"> [Draft Linea](Draft_Line/it.md) e <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Draft Polilinea](Draft_Wire/it.md) 
+
+-   Se il nodo iniziale o finale di una polilinea aperta viene spostato in modo che coincidano, la polilinea viene chiusa.
+-   Menu contestuale del nodo: {{Value|Elimina punto}}. Devono rimanere almeno due punti.
+-   Menu contestuale bordo: {{Value|Aggiungi punto}}, {{Value|Close/Apri polilinea}} ({{Version/it|0.21}}) e {{Value|Inverti polilinea}} ({{Version/it|0.20}}).
+
+
+
+### <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> [Draft Arco](Draft_Arc/it.md) e <img alt="" src=images/Draft_Arc_3Points.svg  style="width:24px;"> [Draft Arco da tre punti](Draft_Arc_3Points/it.md) 
+
+-   Menu contestuale del nodo centrale: {{Value|Sposta arco}}.
+-   Avvia il menu contestuale del nodo: {{Value|Imposta primo angolo}}.
+-   Menu contestuale del nodo finale: {{Value|Imposta ultimo angolo}}.
+-   Menu contestuale del nodo centrale: {{Value|Imposta raggio}}.
+-   Menu contestuale bordo: {{Value|Inverti arco}}.
+
+
+
+### <img alt="" src=images/Draft_Circle.svg  style="width:24px;"> [Draft Cerchio](Draft_Circle/it.md) 
+
+-   Nessun menu contestuale per questo oggetto.
+
+
+
+### <img alt="" src=images/Draft_Ellipse.svg  style="width:24px;"> [Draft Ellisse](Draft_Ellipse/it.md) 
+
+-   Nessun menu contestuale per questo oggetto.
+
+
+
+### <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> [Draft Rettangolo](Draft_Rectangle/it.md) 
+
+-   Nessun menu contestuale per questo oggetto.
+
+
+
+### <img alt="" src=images/Draft_Polygon.svg  style="width:24px;"> [Draft Poligono](Draft_Polygon/it.md) 
+
+-   Nessun menu contestuale per questo oggetto.
+
+
+
+### <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> [Draft BSpline](Draft_BSpline/it.md) 
+
+-   Se il nodo iniziale o finale di una spline aperta viene spostato in modo che coincidano, la spline viene chiusa.
+-   Menu contestuale del nodo: {{Value|Elimina punto}}. Per una spline aperta devono rimanere almeno due punti. Per una spline chiusa il numero minimo di punti è tre.
+-   Menu contestuale bordo: {{Value|Aggiungi punto}}, {{Value|Chiudi/Apri spline}} ({{Version/it|0.21}}) e {{Value|Inverti spline}} ({{Version/it|0.21}} ).
+
+
+
+### <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> [Draft Curva di Bézier cubica](Draft_CubicBezCurve/it.md) e <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> [Draft Curva di Bézier](Draft_BezCurve/it.md) 
+
+-   Se il nodo iniziale o finale di una curva aperta viene spostato in modo che coincidano, la curva viene chiusa.
+-   Menu contestuale del nodo: {{Value|Cancella punto}}, {{Value|Rendi acuto}}, {{Value|Rendi tangente}} e {{Value|Rendi simmetrico}}.
+-   Menu contestuale bordo: {{Value|Aggiungi punto}}, {{Value|Chiudi/Apri curva}} ({{Version/it|0.21}}) e {{Value|Inverti curva}} ({{Version/it|0.21}} ).
+
+
+
+### <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> [Draft Quotatura](Draft_Dimension/it.md) 
+
+-   Le quote angolari non possono essere modificate.
+-   I nodi iniziale e finale delle quote parametriche non possono essere spostati.
+-   Nessun menu contestuale per questo oggetto.
+
+
+
+### <img alt="" src=images/Arch_Wall.svg  style="width:24px;"> [Arch Muro](Arch_Wall/it.md) 
+
+-   Un singolo nodo per controllare l\'altezza del muro viene visualizzato sopra **Placement** del muro.
+-   Nessun menu contestuale per questo oggetto.
+
+
+
+### <img alt="" src=images/Arch_Structure.svg  style="width:24px;"> [Arch Struttura](Arch_Structure/it.md) 
+
+-   Nessun menu contestuale per questo oggetto.
+
+
+
+### <img alt="" src=images/Arch_Window.svg  style="width:24px;"> [Arch Finestra](Arch_Window/it.md) 
+
+-   Nessun menu contestuale per questo oggetto.
+
+
+
+### <img alt="" src=images/Arch_Space.svg  style="width:24px;"> [Arch Spazio](Arch_Space/it.md) 
+
+-   Nessun menu contestuale per questo oggetto.
+
+
+
+### <img alt="" src=images/Arch_Panel_Cut.svg  style="width:24px;"> [Arch Sagoma di pannello](Arch_Panel_Cut.md) 
+
+-   Nessun menu contestuale per questo oggetto.
+
+
+
+### <img alt="" src=images/Arch_Panel_Sheet.svg  style="width:24px;"> [Arch Foglio di pannello](Arch_Panel_Sheet/it.md) 
+
+-   Nessun menu contestuale per questo oggetto.
+
+
+
+### <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Cubo](Part_Box/it.md) 
+
+-   Nessun menu contestuale per questo oggetto.
+
+
+
+### <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> [Part Cilindro](Part_Cylinder/it.md) 
+
+-   Nessun menu contestuale per questo oggetto.
+
+
+
+### <img alt="" src=images/Part_Sphere.svg  style="width:24px;"> [Part Sfera](Part_Sphere/it.md) 
+
+-   Nessun menu contestuale per questo oggetto.
+
+
+
+### <img alt="" src=images/Part_Cone.svg  style="width:24px;"> [Part Cono](Part_Cone/it.md) 
+
+-   Nessun menu contestuale per questo oggetto.
+
+
+
+### <img alt="" src=images/Part_Line.svg  style="width:24px;"> [Part Linea](Part_Line/it.md) 
+
+-   Nessun menu contestuale per questo oggetto.
+
+
+
+### <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketcher Schizzo](Sketcher_NewSketch/it.md) 
+
+-   È possibile modificare solo gli schizzi che contengono una singola linea non vincolata.
+-   Nessun menu contestuale per questo oggetto.
+
+
+
+## Preferenze
+
+Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
+
+-   Il colore dei nodi temporanei è lo stesso del colore dei simboli di snap. Questo colore può essere modificato nelle preferenze: **Modifica → Preferenze... → Draft → Impostazioni visive → Impostazioni visive → Colore**. Si noti che questo colore non viene utilizzato per i nodi temporanei visualizzati per [Draft BezCurves](Draft_BezCurve/it.md). Questi nodi usano invece il **Line Color** della curva.
+
+
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-**Vedere anche:**
-
-[Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Per lo strumento Modifica non è disponibile un\'interfaccia di programmazione. Ogni oggetto viene modificato cambiandone direttamente gli attributi.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+Non esiste un metodo Python per modificare gli oggetti Draft. Per emulare i risultati del comando è necessario modificare le proprietà geometriche degli oggetti.
 
 
 

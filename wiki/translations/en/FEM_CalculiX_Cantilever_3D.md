@@ -122,9 +122,11 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 -   We will create the CalculiX cantilever by ourselves and compare the results with the beam theory.
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM CalculiX Cantilever 3D/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CalculiX Cantilever 3D/en

@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introducción
 
 El <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente de trabajo de diseño de piezas](PartDesign_Workbench/es.md) proporciona herramientas avanzadas para modelar piezas sólidas complejas. Se centra principalmente en la creación de piezas mecánicas que pueden ser fabricadas y ensambladas en un producto terminado. Sin embargo, los sólidos creados pueden ser utilizados en general para cualquier otro propósito como [diseño arquitectónico](Arch_Workbench/es.md), [análisis de elementos finitos](FEM_Workbench/es.md), o [mecanizado e impresión 3D](Path_Workbench/es.md).
@@ -17,9 +19,13 @@ Los cuerpos creados con PartDesign suelen estar sujetos al [problema de denomina
 
 <img alt="" src=images/PartDesign_Example.png  style="width:500px;">
 
+
+
 ## Herramientas
 
 Las herramientas de Diseño de Piezas están ubicadas en el menú **Diseño de Piezas** y la barra de herramientas de Diseño de Piezas que aparece cuando se carga el Ambiente de Trabajo de Diseño de Piezas.
+
+
 
 ### Herramientas de la estructura 
 
@@ -28,6 +34,8 @@ Estas herramientas no son de hecho parte de l\'Ambiente de Trabajo de diseño de
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Pieza](Std_Part/es.md): añade un nuevo contenedor de Parte en el documento activo y lo hace activo.
 
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Grupo](Std_Group/es.md): añade un contenedor de Grupo en el documento activo, que permite organizar los objetos en el [vista de árbol](Tree_view/es.md).
+
+
 
 ### DiseñoPiezas herramientas de ayuda 
 
@@ -53,7 +61,11 @@ Estas herramientas no son de hecho parte de l\'Ambiente de Trabajo de diseño de
 
 -   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Validate sketch](Sketcher_ValidateSketch.md): verifies the tolerance of different points and adjusts them.
 
+
+
 ### Herramientas de modelado 
+
+
 
 #### Herramientas de geometría de referencia 
 
@@ -83,6 +95,8 @@ Estas herramientas no son de hecho parte de l\'Ambiente de Trabajo de diseño de
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Crear un clón](PartDesign_Clone/es.md): crea un clon del cuerpo seleccionado.
 
+
+
 #### Herramientas aditivas 
 
 Son herramientas para crear operaciones base o para añadir material a un cuerpo sólido preexistente.
@@ -95,7 +109,13 @@ Son herramientas para crear operaciones base o para añadir material a un cuerpo
 
 -   <img alt="" src=images/PartDesign_AdditivePipe.svg  style="width:32px;"> [Barrido aditivo](PartDesign_AdditivePipe/es.md): crea un sólido barriendo uno o varios croquis a lo largo de una trayectoria abierta o cerrada.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Hélice aditiva](PartDesign_AdditiveHelix/es.md): crea un sólido barriendo un boceto a lo largo de una hélice. {{Version/es|0.19}}
+
+
+</div>
 
 -   <img alt="" src=images/PartDesign_CompPrimitiveAdditive.png  style="width:48px;"> [Crear una primitiva aditiva](PartDesign_CompPrimitiveAdditive/es.md): añade una primitiva aditiva al cuerpo activo.
 
@@ -115,6 +135,8 @@ Son herramientas para crear operaciones base o para añadir material a un cuerpo
 
   -<img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [Cuña aditiva](PartDesign_AdditiveWedge/es.md): crea una cuña aditiva.
 
+
+
 #### Herramientas sustractivas 
 
 Son herramientas para sustraer material de un cuerpo existente.
@@ -129,7 +151,13 @@ Son herramientas para sustraer material de un cuerpo existente.
 
 -   <img alt="" src=images/PartDesign_SubtractivePipe.svg  style="width:32px;"> [Barrido sustractivo](PartDesign_SubtractivePipe/es.md): crea un sólido barriendo uno o más croquis a lo largo de una trayectoria abierta o cerrada y sustrayendo el sólido resultante del cuerpo activo.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Hélice sustractiva](PartDesign_SubtractiveHelix/es.md): crea una forma sólida barriendo un boceto a lo largo de una hélice y la sustrae del cuerpo activo. {{Version/es|0.19}}
+
+
+</div>
 
 -   <img alt="" src=images/PartDesign_CompPrimitiveSubtractive.png  style="width:48px;"> [Crear una primitiva sustractiva](PartDesign_CompPrimitiveSubtractive/es.md): añade una primitiva sustractiva al cuerpo actual.
 
@@ -148,6 +176,8 @@ Son herramientas para sustraer material de un cuerpo existente.
   -<img alt="" src=images/PartDesign_SubtractivePrism.svg  style="width:32px;"> [Prisma sustractivo](PartDesign_SubtractivePrism/es.md): añade un prisma sustractivo al cuerpo activo.
 
   -<img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> ‎[Cuña sustractiva](PartDesign_SubtractiveWedge/es.md): añade una cuña sustractiva al cuerpo activo.
+
+
 
 #### Herramientas de transformación 
 
@@ -185,6 +215,8 @@ Son herramientas que permite transformar operaciones existentes. Permiten elegir
 
 </div>
 
+
+
 #### Herramientas de alteración 
 
 
@@ -208,6 +240,8 @@ Estas operaciones alteran las caras o aristas seleccionadas.
 
 
 </div>
+
+
 
 #### Operaciones booleanas 
 
@@ -237,6 +271,8 @@ Otras funcionalidades adicionales disponibles en el menú de diseño de piezas:
 
 -   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Asistente de diseño de eje](PartDesign_WizardShaft/es.md): Genera un eje a partir de una serie de valores y permite analizar fuerzas y momentos de fuerza. El eje se genera mediante revolución de un croquis que puede ser editado a posteriori.
 
+
+
 ### Elementos del menú contextua 
 
 -   <img alt="" src=images/PartDesign_MoveTip.svg  style="width:32px;"> [Establecer Punta](PartDesign_MoveTip/es.md): redefine la punta, que es la característica expuesta fuera del Cuerpo.
@@ -245,11 +281,15 @@ Otras funcionalidades adicionales disponibles en el menú de diseño de piezas:
 
 -   <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:32px;"> [Mover objeto después de otro objeto](PartDesign_MoveFeatureInTree/es.md): permite reordenar el árbol de Cuerpos moviendo el croquis, la geometría datum o la característica seleccionada a otra posición en la lista de características.
 
+
+
 #### Artículos compartidos con Ambiente de Trabajo Pieza 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Apariencia](Std_SetAppearance/es.md): determina la apariencia de toda la parte (transparencia del color, etc.).
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Asignar colores](Part_FaceColors/es.md): asigna colores a las caras de las partes.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -264,6 +304,8 @@ Otras funcionalidades adicionales disponibles en el menú de diseño de piezas:
 -   <img alt="" src=images/Preferences-part_design.svg  style="width:32px;"> [Preferences](PartDesign_Preferences/es.md): preferencias disponibles para las herramientas de PartDesign.
 -   [Ajuste fino](Fine-tuning/es.md): algunos parámetros extra para ajustar el comportamiento de PartDesign.
 
+
+
 ## Tutoriales
 
 -   [Cómo usar FreeCAD](http://help-freecad-jpg87.fr/), un sitio web que describe el flujo de trabajo para el diseño mecánico.
@@ -271,6 +313,12 @@ Otras funcionalidades adicionales disponibles en el menú de diseño de piezas:
 -   [Tutorial de diseño de piezas básicas](Basic_Part_Design_Tutorial/es.md)
 -   [PartDesign Bearingholder Tutorial I](PartDesign_Bearingholder_Tutorial_I/es.md) (necesita actualizarse) (en inglés)
 -   [PartDesign Bearingholder Tutorial II](PartDesign_Bearingholder_Tutorial_II/es.md) (necesita actualizarse) (en inglés)
+
+## Examples
+
+For some ideas of what can be achieved with Part Design tools, have a look at: [PartDesign examples](PartDesign_Examples.md).
+
+<img alt="" src=images/PartDesign_ExampleSphere-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleTorus-01.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExamplePad-09.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-05.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSpring-04.png  style="width:80px;">
 
 
 

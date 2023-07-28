@@ -1,22 +1,27 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Part Measure Refresh
-   MenuLocation:Measure → Refresh
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part Measure Linear](Part_Measure_Linear.md), [Part Measure Angular](Part_Measure_Angular.md)
+   Name/pl:Część: Odśwież pomiary
+   MenuLocation:Pomiary → Odśwież pomiary
+   Workbenches:[Część](Part_Workbench/pl.md)
+   SeeAlso:[Part Measure Linear](Part_Measure_Linear/pl.md), [Pomiar kątowy](Part_Measure_Angular/pl.md)
 ---
 
 # Part Measure Refresh/pl
 
-## Description
 
-[Part Measure Refresh](Part_Measure_Refresh.md) updates the [3D view](3D_view.md) to display all measurements created with <img alt="" src=images/Part_Measure_Linear.svg  style="width:16px;"> [Measure Linear](Part_Measure_Linear.md) and <img alt="" src=images/Part_Measure_Angular.svg  style="width:16px;"> [Measure Angular](Part_Measure_Angular.md).
 
-## Usage
+## Opis
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Part_Measure_Refresh.svg" width=16px> [Refresh](Part_Measure_Refresh.md)** button.
-    -   Select the **Measure → <img src="images/Part_Measure_Refresh.svg" width=16px> Refresh** option from the menu.
+Funkcja **Odśwież pomiary** aktualizuje okno [widoku 3D](3D_view/pl.md), aby wyświetlić wszystkie pomiary utworzone za pomocą narzędzi <img alt="" src=images/Part_Measure_Linear.svg  style="width:16px;"> [Pomiar liniowy](Part_Measure_Linear/pl.md) i <img alt="" src=images/Part_Measure_Angular.svg  style="width:16px;"> [Pomiar kątowy](Part_Measure_Angular/pl.md).
+
+
+
+## Użycie
+
+1.  Istnieje kilka sposobów wywołania polecenia:
+    -   Naciśnij przycisk **<img src="images/Part_Measure_Refresh.svg" width=16px> '''Odśwież pomiary'''**.
+    -   Wybierz z menu opcję **Pomiary → <img src="images/Part_Measure_Refresh.svg" width=16px> Odśwież pomiary**.
 
 
 

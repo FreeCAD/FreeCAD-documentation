@@ -1,6 +1,8 @@
 # PartDesign Examples/de
 {{TOCright}}
 
+
+
 ## Einführung
 
 Manchmal braucht man einen Hinweis darauf, wie mächtig ein Werkzeug ist, ohne zu viele Erklärungen.
@@ -24,6 +26,8 @@ Standardmäßig wird die Normalenrichtung der Ebene verwendet, die die Kontur en
 
 <div class="mw-collapsible-content toccolours">
 
+
+
 ### Prismatisch Grundkörper 
 
 ++++
@@ -39,7 +43,25 @@ Standardmäßig wird die Normalenrichtung der Ebene verwendet, die die Kontur en
 | **Keil**                | <img alt="Keil" src=images/PartDesign_ExamplePad-05.png  style="width:200px;">                               | -   Kontur: **Dreieck**.                                     |
 ++++
 
+
+
 ### Prismatische Profile 
+
+++++
+| **L-Profil**        | <img alt="L-Profil" src=images/PartDesign_ExamplePad-06.png  style="width:200px;">               | -   Kontur: **L**-Form.                                      |
+|                     |                                                                                 |                                                              |
+|                     |                                                                                 | :                                                            |
+++++
+| **C-Profil**        | <img alt="C-Profil" src=images/PartDesign_ExamplePad-07.png  style="width:200px;">               | -   Kontur: **C**-Form.                                      |
+++++
+| **Z-Profil**        | <img alt="Z-Profil" src=images/PartDesign_ExamplePad-11.png  style="width:200px;">               | -   Kontur: **Z**-Form.                                      |
+++++
+| **T-Profil**        | <img alt="T-Profil" src=images/PartDesign_ExamplePad-09.png  style="width:200px;">               | -   Kontur: **T**-Form.                                      |
+++++
+| **Doppel-T-Profil** | <img alt="Doppel-T-Profil" src=images/PartDesign_ExamplePad-10.png  style="width:200px;"> | -   Kontur: **H**-Form, mit Flanschbreite \< Flanschabstand. |
+++++
+| **H-Profil**        | <img alt="H-Profil" src=images/PartDesign_ExamplePad-08.png  style="width:200px;">               | -   Kontur: **H**-Form., mit Breite = Höhe.                  |
+++++
 
 
 </div>
@@ -65,6 +87,8 @@ Es ist nicht schwer zu erkennen, dass einige Objekte auch mit anderen Werkzeugen
 
 
 <div class="mw-collapsible-content toccolours">
+
+
 
 ### Kreisförmig ausgetragene Objekte 
 
@@ -93,6 +117,8 @@ Es ist nicht schwer zu erkennen, dass einige Objekte auch mit anderen Werkzeugen
 | Hohlzylinder     |                                                                                           | -   Pfad: **Kreis**.                                                                                                                                    |
 ++++
 
+
+
 ### Prismatische Objekte 
 
 Gerade ausgetragene Objekte
@@ -120,6 +146,8 @@ Gerade ausgetragene Objekte
 |                         |                                                                                               | -   Pfad: gerade **Linie**.                                            |
 ++++
 
+
+
 ### Konische Objekte 
 
 ++++
@@ -138,6 +166,8 @@ Gerade ausgetragene Objekte
 |                   |                                                                                       |                                                         |
 |                   |                                                                                       | :   (Die Spitze ist der Endpunkt des Pfades)            |
 ++++
+
+
 
 ### Gekrümmte ausgetragene Objekte 
 
@@ -158,6 +188,8 @@ Gerade ausgetragene Objekte
 | **Sechskantschlüssel** |                                                                                           | -   Pfad: **Kurve**.                                         |
 ++++
 
+
+
 ### Spiral- und wendelförmige Objekte 
 
 ++++
@@ -170,6 +202,8 @@ Gerade ausgetragene Objekte
 | **Evolutfeder**, | <img alt="Wickelfeder" src=images/PartDesign_ExampleSpring-04.png  style="width:200px;">       | -   Kontur: **Rechteck**.                                                                                        |
 | Wickelfeder      |                                                                                  | -   Pfad: <img alt="" src=images/Part_Helix.svg  style="width:16px;"> [Part Helix](Part_Helix.md) mit einem Winkel. |
 ++++
+
+
 
 ### Übergangsobjekte
 
@@ -184,7 +218,11 @@ Gerade ausgetragene Objekte
 |                   |                                                                                                         | -   Pfad: Gerade **Linie**.                              |
 ++++
 
+
+
 ### Optionen
+
+
 
 #### Eckübergang
 
@@ -207,6 +245,8 @@ Ein Linienzug kann als Pfad verwendet werden, wobei die Eigenschaft **Transition
 |                  |                                                                                                          |                                                                                                        |
 |                  | :   Die Ecken, die außerhalb des Pfades liegen, werden abgerundet.                                       | :   Die Grundform folgt der Ausrichtung der Linie.                                                     |
 ++++
+
+
 
 #### Ausrichtungsmodus
 

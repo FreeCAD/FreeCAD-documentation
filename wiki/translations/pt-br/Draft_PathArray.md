@@ -9,6 +9,8 @@
 
 # Draft PathArray/pt-br
 
+
+
 ## Descrição
 
 The <img alt="" src=images/Draft_PathArray.svg  style="width:24px;"> **Draft PathArray** command creates a regular array from a selected object by placing copies along a path. Use the [Draft PathLinkArray](Draft_PathLinkArray.md) command to create a more efficient [Link](App_Link.md) array instead. Except for the type of array that is created, Link array or regular array, the [Draft PathLinkArray](Draft_PathLinkArray.md) command is identical to this command.
@@ -17,6 +19,8 @@ Both commands can be used on 2D objects created with the [Draft Workbench](Draft
 
 <img alt="" src=images/Draft_PathArray_Example.png  style="width:400px;"> 
 *Draft PathArray*
+
+
 
 ## Utilização
 
@@ -56,6 +60,8 @@ This mode is similar to **Align Mode** {{Value|Original}} but includes the possi
 These properties are only available if **Align Mode** is {{Value|Original}} or {{Value|Tangent}}. If **Force Vertical** is set to `True` the local coordinate system is calculated in a different manner. The **Vertical Vector** is used as a fixed normal vector. From this normal vector and the local tangent vector (the local X axis) again a cross product is calculated. But now this vector is used as the local Y axis. The orientation of the local Z axis is determined from the local X and Y axes.
 
 Using these properties can be required if one of the edged of the path is (almost) parallel to the default normal of the path.
+
+
 
 ## Propriedades
 
@@ -107,9 +113,13 @@ The properties in this group are only available for Link arrays. See [Std LinkMa
 
 -    **Align Mode|Enumeration**: specifies the align mode, which can be {{Value|Original}}, {{Value|Frenet}} or {{Value|Tangent}}.
 
+-    **End Offset|Length**: specifies the length from the end of the path to the last copy. Must be smaller than the length of the path minus the **Start Offset**. <small>(v0.21)</small> 
+
 -    **Extra Translation|VectorDistance**: specifies an additional displacement for each element along the path.
 
 -    **Force Vertical|Bool**: specifies whether to override the default normal direction with the value of **Vertical Vector**. Only used if **Align Mode** is {{Value|Original}} or {{Value|Tangent}}.
+
+-    **Start Offset|Length**: specifies the length from the start of the path to the first copy. Must be smaller than the length of the path. <small>(v0.21)</small> 
 
 -    **Tangent Vector|Vector**: specifies the alignment vector. Only used if **Align Mode** is {{Value|Tangent}}.
 
@@ -127,6 +137,8 @@ The properties in this group are only available for Link arrays. See [Std LinkMa
 -    **Path Object|LinkGlobal**: specifies the object to be used for the path. It must contain {{Value|Edges}} in its [Part TopoShape](Part_TopoShape.md).
 
 -    **Path Subelements|LinkSubListGlobal**: specifies a list of edges of the **Path Object**. If supplied only these edges are used for the path.
+
+
 
 ### Vista
 

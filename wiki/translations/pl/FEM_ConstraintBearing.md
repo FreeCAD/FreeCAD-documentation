@@ -8,17 +8,27 @@
 
 # FEM ConstraintBearing/pl
 
-## Description
 
-Not supported by CalculiX Interface!
 
-## Usage
+## Opis
 
-## Options
+Brak obsługi w interfejsie CalculiX!
 
-## Properties
 
-## Scripting
+
+## Użycie
+
+
+
+## Opcje
+
+
+
+## Właściwości
+
+
+
+## Tworzenie skryptów 
 
 
 

@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionCreateHorizChainDimension.svg  style="width:24px;"> **TechDraw Cotes horizontales** crée une chaîne horizontale de cotes : une séquence de cotes alignées.
+L\'outil **TechDraw Cotes horizontales** crée une chaîne horizontale de cotes : une séquence de cotes alignées.
 
 <img alt="" src=images/TechDraw_ExtensionCreateHorizChainDimensionExample.png  style="width:400px;"> 
 *A droite, les cotes créées*
+
+
 
 ## Utilisation
 

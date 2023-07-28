@@ -1,13 +1,15 @@
 ---
 - GuiCommand:/pl
    Name:Sketcher_MapSketch
-   Name/pl:Szkicownik: Mapuj Szkic
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md), [Projekt części](PartDesign_Workbench/pl.md)
-   MenuLocation:Projekt części / Szkicownik → Mapuj szkic na powierzchnię
+   Name/pl:Szkicownik: Mapuj szkic na powierzchnię
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md)
+   MenuLocation:Projekt Części / Szkicownik → Mapuj szkic na powierzchnię ...
    SeeAlso:[Utwórz szkic](Sketcher_NewSketch/pl.md)
 ---
 
 # Sketcher MapSketch/pl
+
+
 
 ## Opis
 
@@ -21,10 +23,14 @@ Proszę zauważyć, że narzędzie to nie jest używane do tworzenia nowych szki
 
 <img alt="" src=images/Sketcher_MapSketch_00.png  style="width:480px;">
 
+
+
 ## Użycie
 
 -   Wybierz powierzchnię elementu Part Design lub bryły.
 -   Kliknij na ikonę **<img src="images/Sketcher_MapSketch.svg" width=16px> [Mapuj szkic na powierzchnię](Sketcher_MapSketch.md)** na pasku narzędzi *(lub przejdź do menu PartDesign lub Sketch w zależności od tego, które Środowisko pracy jest aktywne)*.
+
+
 
 ## Stosować przy naprawie uszkodzonego modelu 
 

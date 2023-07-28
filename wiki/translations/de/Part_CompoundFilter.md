@@ -15,13 +15,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Der VerbundFilter kann verwendet werden, um die einzelnen Teile des Ergebnisses z.B. eines [Part Scheibe](Part_Slice/de.md) Vorgangs zu entnehmen, bei dem Du ein Objekt geteilt hast.
-
-
-</div>
+Der Verbundfilter kann verwendet werden, um die einzelnen Teile des Ergebnisses zu entnehmen z.B. eines [Part-Zerschneiden](Part_Slice/de.md)-Vorgangs, bei dem ein Objekt aufgeteilt wurde.
 
 Es kann Kinder nach ihren Indizes herausnehmen, Kinder auf Kollisionen mit Schablonenform testen und Kinder nach ihren Eigenschaften wie Länge, Fläche, Volumen filtern.
 
@@ -31,29 +25,32 @@ Wenn im Ergebnis nur ein Kind vorhanden ist, ist die Ausgabe das Kind. Wenn es m
 
 ## Anwendung
 
+1.  Das aufgeteilte Objekt auswählen.
 
-<div class="mw-translate-fuzzy">
+2.  
+    **Part → Verbund → VerbundFilter**anwenden.
 
-1.  Wähle das geschnittene Objekt
-2.  Wende **Menü → Teil → Verbund → VerbundFilter** an
-3.  Wähle das VerbundFilterObjekt im Baum aus
-4.  In der Registerkarte Eigenschaften stelle \"Filtertyp\" auf \"bestimmte Punkte\" ein.
-5.  Setze Punkte auf die Elemente, die Sie herausnehmen möchten.
-    1.  Für ein einzelnes Stück ist dies eine Zahl, die mit 0 beginnt, d.h. wenn du das erste Element extrahieren möchtest, gib 0 in dieses Feld ein, 1 für das nächste Element\....
-    2.  Wenn Du mehr als ein Stück auf einmal extrahieren möchtest, trenne die Zahlen mit \";\", z.B. wird ein Wert von \"0;2\" das erste und das dritte Element extrahieren.
+3.  Das CompoundFilter-Objekt im Baum auswählen.
+
+4.  In der Registerkarte Eigenschaften den \"Filter Type\" auf \"specific items\" einstellen.
+
+5.  Unter \"Items\" die Elemente auflisten, die extrahiert werden sollen.
+    1.  Dies ist eine Nummer für jedes einzelne Stück; die Zählung beginnt mit 0, d.h. wenn das erste Element extrahiert werden soll, wird 0 in dieses Feld eingegeben, 1 für das nächste Element\....
+    2.  Soll mehr als ein Stück auf einmal extrahiert werden, trennt man die Nummern mit \";\", z.B. wird \"0;2\" eingegeben, um das erste und das dritte Element zu extrahieren.
     3.  Der allgemeine Fall - der auch die oben genannten Möglichkeiten abdeckt - ist eine Liste von Indexbereichen, die in Python-Notation angegeben ist, aber ohne Klammern. Bereiche können mit Semikolon verkettet werden. Zum Beispiel:
-        -   7:10 nehmen Kinder der Indizes 7, 8 und 9 auf (Indizes sind nullbasiert; Bereich bis Index ist ausgeschlossen).
-        -   1;2 Kinder 1 und 2 nehmen (erster Bereich ist Kind 1, zweiter Bereich ist Kind 2, Bereiche, die durch Semikolon verbunden sind).
-        -   0;-1 erste Kinder (Index 0) und letztes Kind (Index -1 bedeutet letztes Kind, -2 - eines aber letztes, und so weiter) nehmen.
-        -   1: nimm alles außer dem ersten Kind (fehlender Index bedeutet \"bis zum Ende\").
-        -   ::-1 nimm alle Kinder in umgekehrter Reihenfolge.
-        -   ::2 nimm alle ungeraden Kinder, d.h. Indizes, 1,3,5,\...., das sind die Einschübe 2,4,6, \.....
-        -   :;: wiederhole den Eingangsverbund zweimal.
-6.  Wenn du ein anderes Stück extrahieren möchtest, wähle das geschnittene Objekt erneut aus. Es wird nun unter dem VerbundFilter im Baum platziert.
-7.  Wiederhole den Auswahlprozess von oben. Die Scheibe und seine Unterelemente werden unter beiden VerbundFiltern angezeigt; sie werden natürlich im Modell nicht wiederholt. Eine sehr schnelle Möglichkeit, ein anderes Stück zu extrahieren, ist das Kopieren des VerbundFilters. Aber **Achtung**: Du wirst gefragt, ob du auch die Elemente unter dem VerbundFilter kopieren möchtest, was du mit *Nein* beantworten musst, du willst sie nicht kopieren, du referenzierst sie nur.
+        -   7:10 nimmt die zu den Indizes 7, 8 und 9 gehörenden Kindobjekte auf (Indizes sind nullbasiert; das Kindobjekt, das zum letzten Index 10 gehört, ist nicht mehr enthalten).
+        -   1;2 nimmt die Kindobjekte 1 und 2 auf (der erster Bereich besteht (nur) aus Kind 1, der zweite Bereich aus Kind 2; die Bereiche werden durch Semikolon verbunden).
+        -   0;-1 nimmt das erste Kind (Index 0) und das letzte Kind auf (Index -1 entspricht dem letzten Kind, -2 dem vorletzten usw.).
+        -   1: nimmt alles außer dem ersten Kind auf (der fehlende Index bedeutet \"bis zum Ende\").
+        -   ::-1 nimmt alle Kinder in umgekehrter Reihenfolge auf.
+        -   ::2 nimm alle zu ungeraden Indizes gehörenden Kinder auf, d.h. Indizes, 1,3,5,\..., das sind die Elemente 2,4,6, \...
+        -   :;: wiederholt den Eingangsverbund zweimal.
 
+6.  Soll ein weiteres Stück extrahiert werden, wird das
 
-</div>
+aufgeteilte Objekt erneut ausgewählt. Es wird nun unter dem VerbundFilter im Baum platziert.
+
+1.  Den obigen Auswahlprozess wiederholen. Das Slice-Objekt und seine Unterelemente werden unter beiden VerbundFiltern angezeigt; sie werden natürlich im Modell nicht wiederholt. Eine sehr schnelle Möglichkeit, ein weiteres Stück zu extrahieren, ist das Kopieren des VerbundFilters. Aber **Aufgepasst**: Wenn gefragt wird, ob auch die Elemente unter dem VerbundFilter kopiert werden sollen, muss dies mit *Nein* beantwortet werden; sie sollen nicht kopiert, sondern nur referenziert werden.
 
 
 

@@ -9,36 +9,64 @@
 
 # FEM ConstraintFlowVelocity/fr
 
+
+
 ## Description
 
 Applique une vitesse d\'écoulement comme condition limite à un bord en 2D ou à une face en 3D.
 
-<img alt="" src=images/FEM-constraint-flow-velocity_task-panel.png  style="width:400px;"> 
-*Menus des contraintes de vitesse d'écoulement dans le [Panneau des tâches](Task_panel/fr.md)*
+
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Appuyez sur le bouton **<img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> [Contrainte de vitesse d'écoulement](FEM_ConstraintFlowVelocity/fr.md)**.
-    -   Sélectionnez l\'option **Modèle → Contraintes du fluide → <img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> Contrainte de vitesse d'écoulement** dans le menu.
-2.  Le [Panneau des tâches](Task_panel/fr.md) affichera des menus pour la contrainte de vitesse d\'écoulement
-3.  Sélectionnez les arêtes cibles ou faces cibles.
-4.  Appuyez sur le bouton **Ajouter**.
-5.  Désélectionnez \"unspecified\" pour activer les champs nécessaires à l\'édition.
-6.  Renseignez les valeurs en mm/s pour les principales composantes cartésiennes.
+1.  Appuyez sur le bouton **<img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> '''Contrainte de vitesse d'écoulement'''** ou sélectionnez le menu **Modèle → Contraintes du fluide → <img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> Contrainte de vitesse d'écoulement**.
+2.  Sélectionnez les arêtes ou les faces cibles.
+3.  Appuyez sur le bouton **Ajouter**.
+4.  Décocher *non spécifié* pour activer les champs nécessaires à l\'édition.
+5.  Définir les valeurs de vitesse ou ({{Version/fr|0.21}}) spécifier une formule.
+
+
+
+## Formules
+
+
+{{Version/fr|0.21}}
+
+Il est possible de définir une vitesse en spécifiant le profil de vitesse par une formule. Dans ce cas, le solveur définit les vitesses aux différentes positions en fonction du profil.
+
+Pour spécifier par exemple le profil de la vitesse
+
+$\quad
+v_{x} (y)=6\left(y-1\right)\left(2-y\right)$
+
+avec $y\in[1;2]$ (en supposant que, par exemple, la paroi d\'un tuyau se trouve à y = 1 m et à y = 2 m)
+
+entrez ceci dans le champ *Formula*: ` Variable Coordinate 2; Real MATC "6*(tx-1)*(2-tx)"`
+
+Ce code a la syntaxe suivante :
+
+-   le préfixe *Variable* spécifie que la vitesse n\'est pas une constante mais une variable
+-   la variable pour calculer la vitesse est *Coordinate 2*, c\'est à dire y
+-   les valeurs de vitesse sont retournées sous forme de *Real* (valeur à virgule flottante)
+-   *MATC* est le préfixe du solveur Elmer que le code suivant est une formule
+-   *tx* est toujours le nom de la variable dans les formules *MATC*, peu importe que *tx* dans notre cas soit en fait *y*
+
+Le fait que *y* ne soit compris que dans l\'intervalle $y\in[1;2]$ est dû au fait que *MATC* n\'évalue que l\'intervalle *tx* où le résultat est positif. Ce comportement est un peu spécial mais présente l\'avantage de ne pas avoir à spécifier l\'intervalle manuellement.
+
+Il est également possible d\'utiliser plus d\'une variable. Voir par exemple la définition des rotations dans la [contrainte de déplacement](FEM_ConstraintDisplacement/fr#Rotations.md).
+
+
 
 ## Remarques
 
--   Les composants vectoriels cochés comme \"unspecified\" (non spécifiés) seront interpolés par le solveur sélectionné.
+-   Toute composante vectorielle qui devrait être le résultat du solveur doit être définie comme *Non spécifié*.
+-   Si la face ou l\'arête cible n\'est pas alignée sur le système de coordonnées cartésiennes principal, il est possible de définir l\'option **Normal à la limite**.
 
-    :   Tout vecteur qui devrait être le résultat du solveur doit être coché comme \"unspecified\".
--   Si la face ou l\'arête cible n\'est pas alignée avec le système de coordonnées cartésiennes principal, il est possible de cocher \"normal to boundary\".
+    :   Si l\'option **Normal à la limite** est cochée, le vecteur normal à l\'arête ou à la face sélectionnée est X et il sera orienté à l\'opposé du domaine du maillage.
+    :   Par exemple, si un flux d\'air de 20 mm/s doit entrer dans le domaine, alors avec **Normal à la limite** il faut entrer -20 mm/s dans le champ **Vitesse x**.
 
-    :   Si \"normal to boundary\" est coché, le vecteur normal au bord ou à la face sélectionné est X et il sera orienté loin du domaine du maillage.
-    :   Par exemple, si un flux de 20 mm/s d\'air doit entrer dans le domaine, après avoir coché \"normal à la limite\", l\'utilisateur devra entrer -20 mm/s dans le champ \"velocity X\".
-
--   Pour une paroi avec une condition adhérente, le débit sera de (0,0,0)
--   Pour une condition de symétrie, l\'écoulement sera (0, Unspecified, Unspecified) si \"normal to boundary\" est coché.
+-   Pour une paroi avec une condition d\'adhérence, définir toutes les composantes de la vitesse à 0.
+-   Pour une condition de symétrie, définir l\'écoulement à (0, Non spécifié, Non spécifié) si **Normal à la limite** est coché.
 
 
 

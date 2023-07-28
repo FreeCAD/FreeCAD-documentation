@@ -1,11 +1,11 @@
 # Main Page/ru
 ## Введение
 
-Это интернет версия документации о [FreeCAD](http://www.freecadweb.org/?lang=ru). Существует несколько способов изучения данной документации: путём изучения центров поддержки пользователя, следуя руководству или используя пункт меню справки (Help) в FreeCAD . Это пока еще незавершенная работа, написанная сообществом пользователей и разработчиков FreeCAD. Если вы обнаружили неверную или отсутствующую информацию, пожалуйста [сделайте FreeCAD лучше](Special:MyLanguage/help_FreeCAD/ru.md)!
+Это вики-страница документации [FreeCAD](http://www.freecadweb.org/?lang=ru). Существует несколько способов использования этой документации: путём изучения центров, следуя руководству или используя пункты меню Справка во FreeCAD . Это пока ещё незавершённая работа, написанная сообществом пользователей и разработчиков FreeCAD. Если вы обнаружили неверную или отсутствующую информацию, пожалуйста, [помогите FreeCAD](Special:MyLanguage/help_FreeCAD/ru.md)!
 
 
 
-## Центры (хабы) 
+## Центры
 
 <img alt="" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [Центр пользователей](User_hub/ru.md): Эта страница содержит документацию, полезную для пользователей FreeCAD в целом: список всех верстаков, подробные инструкции по установке и использованию FreeCAD, учебные пособия и всё необходимое для начала работы. 
  <img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Центр опытных пользователей](Power_users_hub/ru.md): На этой странице собрана документация для опытных пользователей и людей, заинтересованных в написании скриптов на Python. Вы также найдете там репозиторий макросов, инструкции по их установке и использованию, а также дополнительную информацию о настройке FreeCAD в соответствии с вашими конкретными потребностями. 
@@ -16,7 +16,7 @@
 
 ## Руководство
 
-<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> [Руководство по FreeCAD](Manual:Introduction/ru.md) это еще один, способ представления информации, содержащейся в этой вики, но более упорядоченный. Руководство разработанно таким способом, чтобы вы читали его, как книгу, и непринужденно знакомились со множеством других страниц из вышеуказанных уголков. Также доступна [версия в формате ebook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) и [несколько переводов в формате pdf](https://www.freecadweb.org/manual/).
+<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> [Руководство по FreeCAD](Manual:Introduction/ru.md) это ещё один, более линейный способ представления информации, содержащейся в этой вики. Руководство разработано таким способом, чтобы вы его читали как книгу, и непринужденно знакомились со множеством других страниц из вышеуказанных центров. Также доступна [версия в формате ebook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) и [несколько переводов в формате pdf](https://www.freecadweb.org/manual/).
 
 
 
@@ -55,19 +55,13 @@
 -   помогать создавать установщики последних версий для вашей любимой операционной системы
 -   просто помогать другим людям узнавать о FreeCAD
 
-Страница [Помоги FreeCAD](help_FreeCAD/ru.md) описывает это более детально. Начиная с 2016 года, FreeCAD так же участвует в [Google Summer of Code](Google_Summer_of_Code.md). Ещё один возможный путь помочь и внести вклад в проект FreeCAD это страница [Центр участников](Contributors_hub.md)
+Страница [Помоги FreeCAD](Special:MyLanguage/help_FreeCAD/ru.md) описывает это более детально. Начиная с 2016 года, FreeCAD так же участвует в [Google Summer of Code](Google_Summer_of_Code.md).
 
 
 
 ### Исходный код 
 
-
-<div class="mw-translate-fuzzy">
-
-FreeCAD может быть собран на всех платформах с помощью [CMake](https://cmake.org/). Исходный код распространяется по лицензии [LGPL](https://ru.wikipedia.org/wiki/GNU_Lesser_General_Public_License) и расположен на [GitHub](https://github.com/FreeCAD/FreeCAD), зеркала на [GitLab](https://gitlab.com/freecad/FreeCAD) и [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD). Имеются инструкции по сборке для [Windows](Compile_on_Windows/ru.md), [Linux](Compile_on_Linux/ru.md) и [MacOS](Compile_on_MacOS/ru.md). Документация на исходный код, сгенерированная при помощи [Doxygen](Doxygen/ru.md), и [документированная на wiki](Source_documentation/ru.md) [располагается здесь](http://www.freecadweb.org/api/).
-
-
-</div>
+FreeCAD может быть скомпилирован на всех платформах с помощью [CMake](https://cmake.org/). Исходный код распространяется под лицензией [LGPL](https://ru.wikipedia.org/wiki/GNU_Lesser_General_Public_License) и размещается на [GitHub](https://github.com/FreeCAD/FreeCAD) и дублируется на [GitLab](https://gitlab.com/freecad/FreeCAD), [SourceForge](https://sourceforge.net/projects/free-cad/) и [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD). Есть инструкции по сборке для [Windows](Compile_on_Windows/ru.md), [Linux](Compile_on_Linux/ru.md) и [MacOS](Compile_on_MacOS/ru.md). Документация по исходному коду [размещена здесь](http://www.freecadweb.org/api/), сгенерирована [Doxygen](Doxygen/ru.md), и [задокументирована на wiki](Source_documentation/ru.md) .
 
 
 

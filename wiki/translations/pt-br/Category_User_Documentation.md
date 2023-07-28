@@ -116,62 +116,62 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 | [Part Revolve/pt-br](Part_Revolve/pt-br.md) | [Part RuledSurface/pt-br](Part_RuledSurface/pt-br.md) | [Part Section/pt-br](Part_Section/pt-br.md) |
 | [Part ShapeFromMesh/pt-br](Part_ShapeFromMesh/pt-br.md) | [Part SimpleCopy/pt-br](Part_SimpleCopy/pt-br.md) | [Part Slice/pt-br](Part_Slice/pt-br.md) |
 | [Part SliceApart/pt-br](Part_SliceApart/pt-br.md) | [Part Sphere/pt-br](Part_Sphere/pt-br.md) | [Part Spiral/pt-br](Part_Spiral/pt-br.md) |
-| [Part Sweep/pt-br](Part_Sweep/pt-br.md) | [Part Thickness/pt-br](Part_Thickness/pt-br.md) | [Part Torus/pt-br](Part_Torus/pt-br.md) |
-| [Part TransformedCopy/pt-br](Part_TransformedCopy/pt-br.md) | [Part Tube/pt-br](Part_Tube/pt-br.md) | [Part Wedge/pt-br](Part_Wedge/pt-br.md) |
-| [Part XOR/pt-br](Part_XOR/pt-br.md) | [PartDesign AdditiveBox/pt-br](PartDesign_AdditiveBox/pt-br.md) | [PartDesign AdditiveCone/pt-br](PartDesign_AdditiveCone/pt-br.md) |
-| [PartDesign AdditiveCylinder/pt-br](PartDesign_AdditiveCylinder/pt-br.md) | [PartDesign AdditiveEllipsoid/pt-br](PartDesign_AdditiveEllipsoid/pt-br.md) | [PartDesign AdditiveHelix/pt-br](PartDesign_AdditiveHelix/pt-br.md) |
-| [PartDesign AdditiveLoft/pt-br](PartDesign_AdditiveLoft/pt-br.md) | [PartDesign AdditivePipe/pt-br](PartDesign_AdditivePipe/pt-br.md) | [PartDesign AdditivePrism/pt-br](PartDesign_AdditivePrism/pt-br.md) |
-| [PartDesign AdditiveSphere/pt-br](PartDesign_AdditiveSphere/pt-br.md) | [PartDesign AdditiveTorus/pt-br](PartDesign_AdditiveTorus/pt-br.md) | [PartDesign AdditiveWedge/pt-br](PartDesign_AdditiveWedge/pt-br.md) |
-| [PartDesign Body/pt-br](PartDesign_Body/pt-br.md) | [PartDesign Boolean/pt-br](PartDesign_Boolean/pt-br.md) | [PartDesign Chamfer/pt-br](PartDesign_Chamfer/pt-br.md) |
-| [PartDesign Clone/pt-br](PartDesign_Clone/pt-br.md) | [PartDesign CompPrimitiveAdditive/pt-br](PartDesign_CompPrimitiveAdditive/pt-br.md) | [PartDesign CompPrimitiveSubtractive/pt-br](PartDesign_CompPrimitiveSubtractive/pt-br.md) |
-| [PartDesign CoordinateSystem/pt-br](PartDesign_CoordinateSystem/pt-br.md) | [PartDesign Draft/pt-br](PartDesign_Draft/pt-br.md) | [PartDesign Fillet/pt-br](PartDesign_Fillet/pt-br.md) |
-| [PartDesign Groove/pt-br](PartDesign_Groove/pt-br.md) | [PartDesign Hole/pt-br](PartDesign_Hole/pt-br.md) | [PartDesign InvoluteGear/pt-br](PartDesign_InvoluteGear/pt-br.md) |
-| [PartDesign Line/pt-br](PartDesign_Line/pt-br.md) | [PartDesign LinearPattern/pt-br](PartDesign_LinearPattern/pt-br.md) | [PartDesign Migrate/pt-br](PartDesign_Migrate/pt-br.md) |
-| [PartDesign Mirrored/pt-br](PartDesign_Mirrored/pt-br.md) | [PartDesign MoveFeature/pt-br](PartDesign_MoveFeature/pt-br.md) | [PartDesign MoveFeatureInTree/pt-br](PartDesign_MoveFeatureInTree/pt-br.md) |
-| [PartDesign MoveTip/pt-br](PartDesign_MoveTip/pt-br.md) | [PartDesign MultiTransform/pt-br](PartDesign_MultiTransform/pt-br.md) | [PartDesign NewSketch/pt-br](PartDesign_NewSketch/pt-br.md) |
-| [PartDesign Pad/pt-br](PartDesign_Pad/pt-br.md) | [PartDesign Plane/pt-br](PartDesign_Plane/pt-br.md) | [PartDesign Pocket/pt-br](PartDesign_Pocket/pt-br.md) |
-| [PartDesign Point/pt-br](PartDesign_Point/pt-br.md) | [PartDesign PolarPattern/pt-br](PartDesign_PolarPattern/pt-br.md) | [PartDesign Preferences/pt-br](PartDesign_Preferences/pt-br.md) |
-| [PartDesign Revolution/pt-br](PartDesign_Revolution/pt-br.md) | [PartDesign ShapeBinder/pt-br](PartDesign_ShapeBinder/pt-br.md) | [PartDesign Sprocket/pt-br](PartDesign_Sprocket/pt-br.md) |
-| [PartDesign SubShapeBinder/pt-br](PartDesign_SubShapeBinder/pt-br.md) | [PartDesign SubtractiveBox/pt-br](PartDesign_SubtractiveBox/pt-br.md) | [PartDesign SubtractiveCone/pt-br](PartDesign_SubtractiveCone/pt-br.md) |
-| [PartDesign SubtractiveCylinder/pt-br](PartDesign_SubtractiveCylinder/pt-br.md) | [PartDesign SubtractiveEllipsoid/pt-br](PartDesign_SubtractiveEllipsoid/pt-br.md) | [PartDesign SubtractiveHelix/pt-br](PartDesign_SubtractiveHelix/pt-br.md) |
-| [PartDesign SubtractiveLoft/pt-br](PartDesign_SubtractiveLoft/pt-br.md) | [PartDesign SubtractivePipe/pt-br](PartDesign_SubtractivePipe/pt-br.md) | [PartDesign SubtractivePrism/pt-br](PartDesign_SubtractivePrism/pt-br.md) |
-| [PartDesign SubtractiveSphere/pt-br](PartDesign_SubtractiveSphere/pt-br.md) | [PartDesign SubtractiveTorus/pt-br](PartDesign_SubtractiveTorus/pt-br.md) | [PartDesign SubtractiveWedge/pt-br](PartDesign_SubtractiveWedge/pt-br.md) |
-| [PartDesign Thickness/pt-br](PartDesign_Thickness/pt-br.md) | [PartDesign WizardShaft/pt-br](PartDesign_WizardShaft/pt-br.md) | [PartDesign Workbench/pt-br](PartDesign_Workbench/pt-br.md) |
-| [Path Adaptive/pt-br](Path_Adaptive/pt-br.md) | [Path Area Workplane/pt-br](Path_Area_Workplane/pt-br.md) | [Path Area/pt-br](Path_Area/pt-br.md) |
-| [Path Array/pt-br](Path_Array/pt-br.md) | [Path Comment/pt-br](Path_Comment/pt-br.md) | [Path Copy/pt-br](Path_Copy/pt-br.md) |
-| [Path Custom/pt-br](Path_Custom/pt-br.md) | [Path DressupDogbone/pt-br](Path_DressupDogbone/pt-br.md) | [Path DressupDragKnife/pt-br](Path_DressupDragKnife/pt-br.md) |
-| [Path DressupLeadInOut/pt-br](Path_DressupLeadInOut/pt-br.md) | [Path DressupPathBoundary/pt-br](Path_DressupPathBoundary/pt-br.md) | [Path DressupRampEntry/pt-br](Path_DressupRampEntry/pt-br.md) |
-| [Path DressupTag/pt-br](Path_DressupTag/pt-br.md) | [Path Drilling/pt-br](Path_Drilling/pt-br.md) | [Path Engrave/pt-br](Path_Engrave/pt-br.md) |
-| [Path experimental/pt-br](Path_experimental/pt-br.md) | [Path ExportTemplate/pt-br](Path_ExportTemplate/pt-br.md) | [Path Fixture/pt-br](Path_Fixture/pt-br.md) |
-| [Path Helix/pt-br](Path_Helix/pt-br.md) | [Path Inspect/pt-br](Path_Inspect/pt-br.md) | [Path Job/pt-br](Path_Job/pt-br.md) |
-| [Path MillFace/pt-br](Path_MillFace/pt-br.md) | [Path OpActiveToggle/pt-br](Path_OpActiveToggle/pt-br.md) | [Path Pocket 3D/pt-br](Path_Pocket_3D/pt-br.md) |
-| [Path Pocket Shape/pt-br](Path_Pocket_Shape/pt-br.md) | [Path Post/pt-br](Path_Post/pt-br.md) | [Path Postprocessor Customization/pt-br](Path_Postprocessor_Customization/pt-br.md) |
-| [Path Preferences/pt-br](Path_Preferences/pt-br.md) | [Path Profile/pt-br](Path_Profile/pt-br.md) | [Path Sanity/pt-br](Path_Sanity/pt-br.md) |
-| [Path SelectLoop/pt-br](Path_SelectLoop/pt-br.md) | [Path Shape/pt-br](Path_Shape/pt-br.md) | [Path SimpleCopy/pt-br](Path_SimpleCopy/pt-br.md) |
-| [Path Simulator/pt-br](Path_Simulator/pt-br.md) | [Path Slot/pt-br](Path_Slot/pt-br.md) | [Path Stop/pt-br](Path_Stop/pt-br.md) |
-| [Path Surface/pt-br](Path_Surface/pt-br.md) | [Path ToolLibraryEdit/pt-br](Path_ToolLibraryEdit/pt-br.md) | [Path Vcarve/pt-br](Path_Vcarve/pt-br.md) |
-| [Path Walkthrough for the Impatient/pt-br](Path_Walkthrough_for_the_Impatient/pt-br.md) | [Path Waterline/pt-br](Path_Waterline/pt-br.md) | [Path Workbench/pt-br](Path_Workbench/pt-br.md) |
-| [Plot Workbench/pt-br](Plot_Workbench/pt-br.md) | [Points Convert/pt-br](Points_Convert/pt-br.md) | [Points Export/pt-br](Points_Export/pt-br.md) |
-| [Points Import/pt-br](Points_Import/pt-br.md) | [Points Merge/pt-br](Points_Merge/pt-br.md) | [Points PolyCut/pt-br](Points_PolyCut/pt-br.md) |
-| [Points Structure/pt-br](Points_Structure/pt-br.md) | [Points Workbench/pt-br](Points_Workbench/pt-br.md) | [Preferences Editor/pt-br](Preferences_Editor/pt-br.md) |
-| [Property editor/pt-br](Property_editor/pt-br.md) | [Python console/pt-br](Python_console/pt-br.md) | [Raytracing Workbench/pt-br](Raytracing_Workbench/pt-br.md) |
-| [Reinforcement Bar Bending Schedule/pt-br](Reinforcement_Bar_Bending_Schedule/pt-br.md) | [Reinforcement Bar Shape Cut List/pt-br](Reinforcement_Bar_Shape_Cut_List/pt-br.md) | [Reinforcement Workbench/pt-br](Reinforcement_Workbench/pt-br.md) |
-| [Report view/pt-br](Report_view/pt-br.md) | [Reverse Engineering Workbench/pt-br](Reverse_Engineering_Workbench/pt-br.md) | [Robot 6-Axis/pt-br](Robot_6-Axis/pt-br.md) |
-| [Robot API example/pt-br](Robot_API_example/pt-br.md) | [Robot CreateRobot/pt-br](Robot_CreateRobot/pt-br.md) | [Robot CreateTrajectory/pt-br](Robot_CreateTrajectory/pt-br.md) |
-| [Robot Edge2Trac/pt-br](Robot_Edge2Trac/pt-br.md) | [Robot Export/pt-br](Robot_Export/pt-br.md) | [Robot InsertWaypoint/pt-br](Robot_InsertWaypoint/pt-br.md) |
-| [Robot InsertWaypointPre/pt-br](Robot_InsertWaypointPre/pt-br.md) | [Robot RestoreHomePos/pt-br](Robot_RestoreHomePos/pt-br.md) | [Robot SetDefaultOrientation/pt-br](Robot_SetDefaultOrientation/pt-br.md) |
-| [Robot SetDefaultValues/pt-br](Robot_SetDefaultValues/pt-br.md) | [Robot SetHomePos/pt-br](Robot_SetHomePos/pt-br.md) | [Robot Simulate/pt-br](Robot_Simulate/pt-br.md) |
-| [Robot TrajectoryCompound/pt-br](Robot_TrajectoryCompound/pt-br.md) | [Robot TrajectoryDressUp/pt-br](Robot_TrajectoryDressUp/pt-br.md) | [Robot tutorial/pt-br](Robot_tutorial/pt-br.md) |
-| [Robot Workbench/pt-br](Robot_Workbench/pt-br.md) | [Screenshots/pt-br](Screenshots/pt-br.md) | [Selection methods/pt-br](Selection_methods/pt-br.md) |
-| [Selection view/pt-br](Selection_view/pt-br.md) | [Ship Workbench/pt-br](Ship_Workbench/pt-br.md) | [Sketch/pt-br](Sketch/pt-br.md) |
-| [Sketcher BSplineApproximate/pt-br](Sketcher_BSplineApproximate/pt-br.md) | [Sketcher BSplineComb/pt-br](Sketcher_BSplineComb/pt-br.md) | [Sketcher BSplineDecreaseDegree/pt-br](Sketcher_BSplineDecreaseDegree/pt-br.md) |
-| [Sketcher BSplineDecreaseKnotMultiplicity/pt-br](Sketcher_BSplineDecreaseKnotMultiplicity/pt-br.md) | [Sketcher BSplineDegree/pt-br](Sketcher_BSplineDegree/pt-br.md) | [Sketcher BSplineIncreaseDegree/pt-br](Sketcher_BSplineIncreaseDegree/pt-br.md) |
-| [Sketcher BSplineIncreaseKnotMultiplicity/pt-br](Sketcher_BSplineIncreaseKnotMultiplicity/pt-br.md) | [Sketcher BSplineKnotMultiplicity/pt-br](Sketcher_BSplineKnotMultiplicity/pt-br.md) | [Sketcher BSplinePoleWeight/pt-br](Sketcher_BSplinePoleWeight/pt-br.md) |
-| [Sketcher BSplinePolygon/pt-br](Sketcher_BSplinePolygon/pt-br.md) | [Sketcher CarbonCopy/pt-br](Sketcher_CarbonCopy/pt-br.md) | [Sketcher Clone/pt-br](Sketcher_Clone/pt-br.md) |
-| [Sketcher CloseShape/pt-br](Sketcher_CloseShape/pt-br.md) | [Sketcher CompCreateArc/pt-br](Sketcher_CompCreateArc/pt-br.md) | [Sketcher CompCreateBSpline/pt-br](Sketcher_CompCreateBSpline/pt-br.md) |
-| [Sketcher CompCreateCircle/pt-br](Sketcher_CompCreateCircle/pt-br.md) | [Sketcher CompCreateConic/pt-br](Sketcher_CompCreateConic/pt-br.md) | [Sketcher CompCreateRectangles/pt-br](Sketcher_CompCreateRectangles/pt-br.md) |
-| [Sketcher CompCreateRegularPolygon/pt-br](Sketcher_CompCreateRegularPolygon/pt-br.md) | [Sketcher ConnectLines/pt-br](Sketcher_ConnectLines/pt-br.md) | [Sketcher ConstrainAngle/pt-br](Sketcher_ConstrainAngle/pt-br.md) |
-| [Sketcher ConstrainBlock/pt-br](Sketcher_ConstrainBlock/pt-br.md) | [Sketcher ConstrainCoincident/pt-br](Sketcher_ConstrainCoincident/pt-br.md) |
+| [Part Sweep/pt-br](Part_Sweep/pt-br.md) | [Part Thickness/pt-br](Part_Thickness/pt-br.md) | [Part TopoShape/pt-br](Part_TopoShape/pt-br.md) |
+| [Part Torus/pt-br](Part_Torus/pt-br.md) | [Part TransformedCopy/pt-br](Part_TransformedCopy/pt-br.md) | [Part Tube/pt-br](Part_Tube/pt-br.md) |
+| [Part Wedge/pt-br](Part_Wedge/pt-br.md) | [Part XOR/pt-br](Part_XOR/pt-br.md) | [PartDesign AdditiveBox/pt-br](PartDesign_AdditiveBox/pt-br.md) |
+| [PartDesign AdditiveCone/pt-br](PartDesign_AdditiveCone/pt-br.md) | [PartDesign AdditiveCylinder/pt-br](PartDesign_AdditiveCylinder/pt-br.md) | [PartDesign AdditiveEllipsoid/pt-br](PartDesign_AdditiveEllipsoid/pt-br.md) |
+| [PartDesign AdditiveHelix/pt-br](PartDesign_AdditiveHelix/pt-br.md) | [PartDesign AdditiveLoft/pt-br](PartDesign_AdditiveLoft/pt-br.md) | [PartDesign AdditivePipe/pt-br](PartDesign_AdditivePipe/pt-br.md) |
+| [PartDesign AdditivePrism/pt-br](PartDesign_AdditivePrism/pt-br.md) | [PartDesign AdditiveSphere/pt-br](PartDesign_AdditiveSphere/pt-br.md) | [PartDesign AdditiveTorus/pt-br](PartDesign_AdditiveTorus/pt-br.md) |
+| [PartDesign AdditiveWedge/pt-br](PartDesign_AdditiveWedge/pt-br.md) | [PartDesign Body/pt-br](PartDesign_Body/pt-br.md) | [PartDesign Boolean/pt-br](PartDesign_Boolean/pt-br.md) |
+| [PartDesign Chamfer/pt-br](PartDesign_Chamfer/pt-br.md) | [PartDesign Clone/pt-br](PartDesign_Clone/pt-br.md) | [PartDesign CompPrimitiveAdditive/pt-br](PartDesign_CompPrimitiveAdditive/pt-br.md) |
+| [PartDesign CompPrimitiveSubtractive/pt-br](PartDesign_CompPrimitiveSubtractive/pt-br.md) | [PartDesign CoordinateSystem/pt-br](PartDesign_CoordinateSystem/pt-br.md) | [PartDesign Draft/pt-br](PartDesign_Draft/pt-br.md) |
+| [PartDesign Fillet/pt-br](PartDesign_Fillet/pt-br.md) | [PartDesign Groove/pt-br](PartDesign_Groove/pt-br.md) | [PartDesign Hole/pt-br](PartDesign_Hole/pt-br.md) |
+| [PartDesign InvoluteGear/pt-br](PartDesign_InvoluteGear/pt-br.md) | [PartDesign Line/pt-br](PartDesign_Line/pt-br.md) | [PartDesign LinearPattern/pt-br](PartDesign_LinearPattern/pt-br.md) |
+| [PartDesign Migrate/pt-br](PartDesign_Migrate/pt-br.md) | [PartDesign Mirrored/pt-br](PartDesign_Mirrored/pt-br.md) | [PartDesign MoveFeature/pt-br](PartDesign_MoveFeature/pt-br.md) |
+| [PartDesign MoveFeatureInTree/pt-br](PartDesign_MoveFeatureInTree/pt-br.md) | [PartDesign MoveTip/pt-br](PartDesign_MoveTip/pt-br.md) | [PartDesign MultiTransform/pt-br](PartDesign_MultiTransform/pt-br.md) |
+| [PartDesign NewSketch/pt-br](PartDesign_NewSketch/pt-br.md) | [PartDesign Pad/pt-br](PartDesign_Pad/pt-br.md) | [PartDesign Plane/pt-br](PartDesign_Plane/pt-br.md) |
+| [PartDesign Pocket/pt-br](PartDesign_Pocket/pt-br.md) | [PartDesign Point/pt-br](PartDesign_Point/pt-br.md) | [PartDesign PolarPattern/pt-br](PartDesign_PolarPattern/pt-br.md) |
+| [PartDesign Preferences/pt-br](PartDesign_Preferences/pt-br.md) | [PartDesign Revolution/pt-br](PartDesign_Revolution/pt-br.md) | [PartDesign ShapeBinder/pt-br](PartDesign_ShapeBinder/pt-br.md) |
+| [PartDesign Sprocket/pt-br](PartDesign_Sprocket/pt-br.md) | [PartDesign SubShapeBinder/pt-br](PartDesign_SubShapeBinder/pt-br.md) | [PartDesign SubtractiveBox/pt-br](PartDesign_SubtractiveBox/pt-br.md) |
+| [PartDesign SubtractiveCone/pt-br](PartDesign_SubtractiveCone/pt-br.md) | [PartDesign SubtractiveCylinder/pt-br](PartDesign_SubtractiveCylinder/pt-br.md) | [PartDesign SubtractiveEllipsoid/pt-br](PartDesign_SubtractiveEllipsoid/pt-br.md) |
+| [PartDesign SubtractiveHelix/pt-br](PartDesign_SubtractiveHelix/pt-br.md) | [PartDesign SubtractiveLoft/pt-br](PartDesign_SubtractiveLoft/pt-br.md) | [PartDesign SubtractivePipe/pt-br](PartDesign_SubtractivePipe/pt-br.md) |
+| [PartDesign SubtractivePrism/pt-br](PartDesign_SubtractivePrism/pt-br.md) | [PartDesign SubtractiveSphere/pt-br](PartDesign_SubtractiveSphere/pt-br.md) | [PartDesign SubtractiveTorus/pt-br](PartDesign_SubtractiveTorus/pt-br.md) |
+| [PartDesign SubtractiveWedge/pt-br](PartDesign_SubtractiveWedge/pt-br.md) | [PartDesign Thickness/pt-br](PartDesign_Thickness/pt-br.md) | [PartDesign WizardShaft/pt-br](PartDesign_WizardShaft/pt-br.md) |
+| [PartDesign Workbench/pt-br](PartDesign_Workbench/pt-br.md) | [Path Adaptive/pt-br](Path_Adaptive/pt-br.md) | [Path Area Workplane/pt-br](Path_Area_Workplane/pt-br.md) |
+| [Path Area/pt-br](Path_Area/pt-br.md) | [Path Array/pt-br](Path_Array/pt-br.md) | [Path Comment/pt-br](Path_Comment/pt-br.md) |
+| [Path Copy/pt-br](Path_Copy/pt-br.md) | [Path Custom/pt-br](Path_Custom/pt-br.md) | [Path DressupDogbone/pt-br](Path_DressupDogbone/pt-br.md) |
+| [Path DressupDragKnife/pt-br](Path_DressupDragKnife/pt-br.md) | [Path DressupLeadInOut/pt-br](Path_DressupLeadInOut/pt-br.md) | [Path DressupPathBoundary/pt-br](Path_DressupPathBoundary/pt-br.md) |
+| [Path DressupRampEntry/pt-br](Path_DressupRampEntry/pt-br.md) | [Path DressupTag/pt-br](Path_DressupTag/pt-br.md) | [Path Drilling/pt-br](Path_Drilling/pt-br.md) |
+| [Path Engrave/pt-br](Path_Engrave/pt-br.md) | [Path experimental/pt-br](Path_experimental/pt-br.md) | [Path ExportTemplate/pt-br](Path_ExportTemplate/pt-br.md) |
+| [Path Fixture/pt-br](Path_Fixture/pt-br.md) | [Path Helix/pt-br](Path_Helix/pt-br.md) | [Path Inspect/pt-br](Path_Inspect/pt-br.md) |
+| [Path Job/pt-br](Path_Job/pt-br.md) | [Path MillFace/pt-br](Path_MillFace/pt-br.md) | [Path OpActiveToggle/pt-br](Path_OpActiveToggle/pt-br.md) |
+| [Path Pocket 3D/pt-br](Path_Pocket_3D/pt-br.md) | [Path Pocket Shape/pt-br](Path_Pocket_Shape/pt-br.md) | [Path Post/pt-br](Path_Post/pt-br.md) |
+| [Path Postprocessor Customization/pt-br](Path_Postprocessor_Customization/pt-br.md) | [Path Preferences/pt-br](Path_Preferences/pt-br.md) | [Path Profile/pt-br](Path_Profile/pt-br.md) |
+| [Path Sanity/pt-br](Path_Sanity/pt-br.md) | [Path SelectLoop/pt-br](Path_SelectLoop/pt-br.md) | [Path Shape/pt-br](Path_Shape/pt-br.md) |
+| [Path SimpleCopy/pt-br](Path_SimpleCopy/pt-br.md) | [Path Simulator/pt-br](Path_Simulator/pt-br.md) | [Path Slot/pt-br](Path_Slot/pt-br.md) |
+| [Path Stop/pt-br](Path_Stop/pt-br.md) | [Path Surface/pt-br](Path_Surface/pt-br.md) | [Path ToolLibraryEdit/pt-br](Path_ToolLibraryEdit/pt-br.md) |
+| [Path Vcarve/pt-br](Path_Vcarve/pt-br.md) | [Path Walkthrough for the Impatient/pt-br](Path_Walkthrough_for_the_Impatient/pt-br.md) | [Path Waterline/pt-br](Path_Waterline/pt-br.md) |
+| [Path Workbench/pt-br](Path_Workbench/pt-br.md) | [Plot Workbench/pt-br](Plot_Workbench/pt-br.md) | [Points Convert/pt-br](Points_Convert/pt-br.md) |
+| [Points Export/pt-br](Points_Export/pt-br.md) | [Points Import/pt-br](Points_Import/pt-br.md) | [Points Merge/pt-br](Points_Merge/pt-br.md) |
+| [Points PolyCut/pt-br](Points_PolyCut/pt-br.md) | [Points Structure/pt-br](Points_Structure/pt-br.md) | [Points Workbench/pt-br](Points_Workbench/pt-br.md) |
+| [Preferences Editor/pt-br](Preferences_Editor/pt-br.md) | [Property editor/pt-br](Property_editor/pt-br.md) | [Python console/pt-br](Python_console/pt-br.md) |
+| [Raytracing Workbench/pt-br](Raytracing_Workbench/pt-br.md) | [Reinforcement Bar Bending Schedule/pt-br](Reinforcement_Bar_Bending_Schedule/pt-br.md) | [Reinforcement Bar Shape Cut List/pt-br](Reinforcement_Bar_Shape_Cut_List/pt-br.md) |
+| [Reinforcement Workbench/pt-br](Reinforcement_Workbench/pt-br.md) | [Report view/pt-br](Report_view/pt-br.md) | [Reverse Engineering Workbench/pt-br](Reverse_Engineering_Workbench/pt-br.md) |
+| [Robot 6-Axis/pt-br](Robot_6-Axis/pt-br.md) | [Robot API example/pt-br](Robot_API_example/pt-br.md) | [Robot CreateRobot/pt-br](Robot_CreateRobot/pt-br.md) |
+| [Robot CreateTrajectory/pt-br](Robot_CreateTrajectory/pt-br.md) | [Robot Edge2Trac/pt-br](Robot_Edge2Trac/pt-br.md) | [Robot Export/pt-br](Robot_Export/pt-br.md) |
+| [Robot InsertWaypoint/pt-br](Robot_InsertWaypoint/pt-br.md) | [Robot InsertWaypointPre/pt-br](Robot_InsertWaypointPre/pt-br.md) | [Robot RestoreHomePos/pt-br](Robot_RestoreHomePos/pt-br.md) |
+| [Robot SetDefaultOrientation/pt-br](Robot_SetDefaultOrientation/pt-br.md) | [Robot SetDefaultValues/pt-br](Robot_SetDefaultValues/pt-br.md) | [Robot SetHomePos/pt-br](Robot_SetHomePos/pt-br.md) |
+| [Robot Simulate/pt-br](Robot_Simulate/pt-br.md) | [Robot TrajectoryCompound/pt-br](Robot_TrajectoryCompound/pt-br.md) | [Robot TrajectoryDressUp/pt-br](Robot_TrajectoryDressUp/pt-br.md) |
+| [Robot tutorial/pt-br](Robot_tutorial/pt-br.md) | [Robot Workbench/pt-br](Robot_Workbench/pt-br.md) | [Screenshots/pt-br](Screenshots/pt-br.md) |
+| [Selection methods/pt-br](Selection_methods/pt-br.md) | [Selection view/pt-br](Selection_view/pt-br.md) | [Ship Workbench/pt-br](Ship_Workbench/pt-br.md) |
+| [Sketch/pt-br](Sketch/pt-br.md) | [Sketcher BSplineApproximate/pt-br](Sketcher_BSplineApproximate/pt-br.md) | [Sketcher BSplineComb/pt-br](Sketcher_BSplineComb/pt-br.md) |
+| [Sketcher BSplineDecreaseDegree/pt-br](Sketcher_BSplineDecreaseDegree/pt-br.md) | [Sketcher BSplineDecreaseKnotMultiplicity/pt-br](Sketcher_BSplineDecreaseKnotMultiplicity/pt-br.md) | [Sketcher BSplineDegree/pt-br](Sketcher_BSplineDegree/pt-br.md) |
+| [Sketcher BSplineIncreaseDegree/pt-br](Sketcher_BSplineIncreaseDegree/pt-br.md) | [Sketcher BSplineIncreaseKnotMultiplicity/pt-br](Sketcher_BSplineIncreaseKnotMultiplicity/pt-br.md) | [Sketcher BSplineKnotMultiplicity/pt-br](Sketcher_BSplineKnotMultiplicity/pt-br.md) |
+| [Sketcher BSplinePoleWeight/pt-br](Sketcher_BSplinePoleWeight/pt-br.md) | [Sketcher BSplinePolygon/pt-br](Sketcher_BSplinePolygon/pt-br.md) | [Sketcher CarbonCopy/pt-br](Sketcher_CarbonCopy/pt-br.md) |
+| [Sketcher Clone/pt-br](Sketcher_Clone/pt-br.md) | [Sketcher CloseShape/pt-br](Sketcher_CloseShape/pt-br.md) | [Sketcher CompCreateArc/pt-br](Sketcher_CompCreateArc/pt-br.md) |
+| [Sketcher CompCreateBSpline/pt-br](Sketcher_CompCreateBSpline/pt-br.md) | [Sketcher CompCreateCircle/pt-br](Sketcher_CompCreateCircle/pt-br.md) | [Sketcher CompCreateConic/pt-br](Sketcher_CompCreateConic/pt-br.md) |
+| [Sketcher CompCreateRectangles/pt-br](Sketcher_CompCreateRectangles/pt-br.md) | [Sketcher CompCreateRegularPolygon/pt-br](Sketcher_CompCreateRegularPolygon/pt-br.md) | [Sketcher ConnectLines/pt-br](Sketcher_ConnectLines/pt-br.md) |
+| [Sketcher ConstrainAngle/pt-br](Sketcher_ConstrainAngle/pt-br.md) | [Sketcher ConstrainBlock/pt-br](Sketcher_ConstrainBlock/pt-br.md) |
 
 
 

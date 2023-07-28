@@ -9,9 +9,13 @@
 
 # Path Deburr/pl
 
+
+
 ## Opis
 
-Narzędzie <img alt="" src=images/Path_Deburr.svg  style="width:24px;"> **Usuwanie zadziorów** służy przede wszystkim do odgratowywania krawędzi.
+Narzędzie <img alt="" src=images/Path_Deburr.svg  style="width:24px;"> **Usuwanie zadziorów** służy przede wszystkim do gratowywania krawędzi.
+
+
 
 ## Użycie
 

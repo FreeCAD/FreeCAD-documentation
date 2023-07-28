@@ -1,5 +1,5 @@
 # Dialog creation image and animated GIF/pl
-## Introduction
+## Wprowadzenie
 
 This is an example of [dialog creation](Dialog_creation.md) with [PySide](PySide.md).
 

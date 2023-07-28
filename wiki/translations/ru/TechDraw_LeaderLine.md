@@ -10,54 +10,107 @@
 
 # TechDraw LeaderLine/ru
 
+
+</div>
+
+
+
 ## Описание
 
-The LeaderLine tool adds a line to a View. Other annotation objects (such as [Rich Text Annotations](TechDraw_RichTextAnnotation.md)) can be connected to the leaderline to form complex annotations.
+The **TechDraw LeaderLine** tool adds a line to a View. Other annotation objects (such as [Rich Text Annotations](TechDraw_RichTextAnnotation.md)) can be connected to the leaderline to form complex annotations.
 
 ![](images/TechDraw_LeaderLine_sample.png ) 
-*Leaderline added to View001*
+*Leaderline added to a View*
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ## Применение
 
-1.  Select a view.
-2.  Press the **<img src="images/TechDraw_LeaderLine.svg" width=16px> Add Leaderline to View** button. A dialog will open allowing to draw the leaderline and assigning end symbols to the line.
-3.  Click on **Pick points** and then click into the page to define the starting point of the line.
-4.  Move the mouse and click on another point to create a line. Hold **Ctrl** to snap to multiples of 22.5° angles.
-5.  Now you can either
-    1.  finish the line drawing by double-clicking or pressing **Save Points**.
-    2.  add further points to define more line segments.
-6.  To finish the creation, press **OK** to close the dialog.
 
-**Note:** If you did not define any points when creating the leaderline, a short line will be placed at the center of the view.
+</div>
 
-### Editing
+1.  Select a View.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_LeaderLine.svg" width=16px> [Add Leaderline to View](TechDraw_LeaderLine.md)** button.
+    -   Select the **TechDraw → Add Lines → <img src="images/TechDraw_LeaderLine.svg" width=16px> Add Leaderline to View** option from the menu.
+3.  A task panel opens.
+4.  Press the **Pick points** button.
+5.  Pick the first point on the page to define the start point of the line.
+6.  Pick the next point on the page. Hold down **Ctrl** to snap to multiples of 22.5° angles. Optionally use a double-click instead of a single-click to finish entering points.
+7.  Optionally add more points.
+8.  If you have not double-clicked a point: press the **Save Points** button.
+9.  Optionally change the **Start Symbol**, **End Symbol**, **Color**, **Width** and **Style** of the leader. See [Properties](#Properties.md) for more information.
+10. Press the **OK** button.
 
-1.  Select the Leaderline in the document tree and double-click on it.
-2.  A dialog will open where you can change the appearance.
-3.  To edit the points, click on **Edit points** and the line points become visible in the drawing.
-4.  Drag the points to a place you like and finish the change by clicking on **Save changes**.
+## Usage edit 
+
+1.  Double-click a Leaderline in the [Tree view](Tree_view.md).
+2.  A task panel opens.
+3.  To edit the points:
+    1.  Press the **Edit points** button.
+    2.  The Leaderline is marked with temporary nodes.
+    3.  Drag one or more of the nodes to a new position.
+    4.  Press the **Save changes** button.
+4.  Optionally change the **Start Symbol**, **End Symbol**, **Color**, **Width** and **Style** of the leader. See [Properties](#Properties.md) for more information.
+5.  Press the **OK** button.
+
+## Notes
+
+-   You cannot add or remove points from an existing Leaderline.
+-   If no points were specified at creation time a short line is placed at the center of the View. There is no way to fix such a line, it should be deleted.
+-   By default the **Leader Line Auto Horizontal** [preference](TechDraw_Preferences#Annotation.md) is checked. This means that the last line segment of new Leaderlines is drawn horizontally. If there is only one segment the result is then a single horizontal line.
+-   You can turn off this auto horizontal feature for existing Leaderlines by changing their **Auto Horizontal** property.
+
+
 
 ## Свойства
 
--    **X,Y**: The point at which the leaderline is connected to the View.
+### Data
 
--    **Leader Parent**: The View to which the leader is attached.
 
--    **Start Symbol**: The symbol at the start: <img alt="" src=images/Arrownone.svg  style="width:20px;"> None, <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Filled Arrow, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Open Arrow, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Tick, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Dot, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Open Circle, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Fork, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Filled Triangle
+{{Properties_Title|Base}}
 
--    **End Symbol**: The symbol at the end.
+-    **Start Symbol|Enumeration**: The symbol at the start of the leaderline. Options: <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Filled Arrow, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Open Arrow, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Tick, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Dot, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Open Circle, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Fork, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Filled Triangle, None.
 
--    **WayPoints**: Nodes on the leaderline.
+-    **End Symbol|Enumeration**: The symbol at the end of the leaderline. Idem.
 
--    **Scalable**: Leader scales with Leader Parent.
+-    **X|Distance**: The X coordinate of the leaderline relative to the View.
 
--    **Auto Horizontal**: Forces last leaderline segment to be horizontal.
+-    **Y|Distance**: The Y coordinate of the leaderline relative to the View.
 
--    **Color**: Pen colour for the leaderline.
 
--    **Line Style**: 0 NoLine, 1 <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Continuous, 2 <img alt="" src=images/Dash-line.svg  style="width:20px;"> Dash, 3 <img alt="" src=images/Dot-line.svg  style="width:20px;"> Dot, 4 <img alt="" src=images/DashDot-line.svg  style="width:20px;"> DashDot, 5 <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> DashDotDot
+{{Properties_Title|Leader}}
 
--    **Line Width**: Width of leaderline.
+-    **Leader Parent|Link**: The View the leaderline is attached to.
+
+-    **Way Points|VectorList**: The points of the leaderline.
+
+-    **Scalable|Bool**: Specifies if the leaderline scales with **Leader Parent**.
+
+-    **Auto Horizontal|Bool**: Specifies if the last leaderline segment is forced to be horizontal.
+
+### View
+
+
+{{TitleProperty|Base}}
+
+-    **Keep Label|Bool**: Not used.
+
+-    **Stack Order|Integer**: Over or underlap relative to other drawing objects. <small>(v0.21)</small> 
+
+
+{{TitleProperty|Line Format}}
+
+-    **Color|Color**: The color of the leaderline.
+
+-    **Line Style|Enumeration**: The style of the leaderline. Options: NoLine, <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Continuous, <img alt="" src=images/Dash-line.svg  style="width:20px;"> Dash, <img alt="" src=images/Dot-line.svg  style="width:20px;"> Dot, <img alt="" src=images/DashDot-line.svg  style="width:20px;"> DashDot, <img alt="Length" src=images/DashDotDot-line.svg  style="width:20px;"> DashDotDot.
+
+-    **Line Width|Length**: The width of the leaderline.
+
+
 
 ## Программирование
 
@@ -81,13 +134,6 @@ leaderObj.WayPoints = [p0,p1,p2]
 leaderObj.X = 5
 leaderObj.Y = 5
 ```
-
-## Notes
-
--   You can edit a Leaderline by double clicking on it in the tree view. Double clicking in the graphics area is not yet supported. The line segment(s) can be edited by pressing **Edit points**. To exit the point editing, press **Save changes** or **Discard changes**.
--   If you did not define any points when creating the leaderline, a short line will be placed at the center of the view. You can later not add further points.
--   By default the [preferences](TechDraw_Preferences.md) option **Leader Line Auto Horizontal** is activated. Therefore the last line segment will be horizontal. So if you only have one segment, you get a horizontal line, no matter where you picked the second point.
--   You can turn off the auto horizontal feature for existing Leaderlines changing the **Auto Horizontal** property.
 
 
 

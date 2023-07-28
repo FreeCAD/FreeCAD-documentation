@@ -1,24 +1,29 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std LinkSelectLinkedFinal
-   MenuLocation:''None''
-   Workbenches:All
+   Name/pl:Std: Przejdź do najgłębiej połączonego obiektu
+   MenuLocation:brak
+   Workbenches:wszystkie
    Version:0.19
-   SeeAlso:[Std LinkSelectLinked](Std_LinkSelectLinked.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelBack](Std_SelBack.md), [Std SelForward](Std_SelForward.md)
+   SeeAlso:[Std LinkSelectLinked](Std_LinkSelectLinked.md), [Wybierz wszystkie łącza](Std_LinkSelectAllLinks/pl.md), [Przywróć wybór](Std_SelBack/pl.md), [Ponów wybór](Std_SelForward/pl.md)
 ---
 
 # Std LinkSelectLinkedFinal/pl
 
-## Description
 
-The **Std LinkSelectLinkedFinal** command selects the **Linked Object**, the source object, of an [App Link](App_Link.md) object, a link. But if that source object is also a link its linked object is selected instead. This is repeated until the linked object is not a link. This final source object is the deepest linked object.
 
-## Usage
+## Opis
 
-1.  Select a link.
-2.  Select the **Link actions → <img src="images/Std_LinkSelectLinkedFinal.svg" width=16px> Go to deepest linked object** option from the [Tree view](Tree_view.md) context menu.
-3.  The deepest linked object is selected. If this object belongs to an external document that document is activated.
-4.  Optionally use **<img src="images/Std_SelBack.svg" width=16px> [Std SelBack](Std_SelBack.md)** to reselect the link.
+Polecenie **Przejdź do najgłębiej połączonego obiektu** wybiera właściwość **Połączony obiekt**, obiektu źródłowego, obiektu [App: Łącze](App_Link/pl.md), czyli link. Ale jeśli ten obiekt źródłowy jest również łączem, zamiast niego wybierany jest obiekt połączony. Powtarza się to do momentu, gdy obiekt powiązany nie jest łączem. Ten końcowy obiekt źródłowy jest najgłębiej połączonym obiektem.
+
+
+
+## Użycie
+
+1.  Wybierz łącze.
+2.  Z menu podręcznego [Widoku drzewa](Tree_view/pl.md) wybierz opcję **Akcje z łączami → <img src="images/Std_LinkSelectLinkedFinal.svg" width=16px> '''Przejdź do najgłębiej połączonego obiektu'''**.
+3.  Połączony obiekt zostanie zaznaczony. Jeśli ten obiekt należy do zewnętrznego dokumentu, dokument ten jest aktywowany.
+4.  Opcjonalnie użyj **<img src="images/Std_SelBack.svg" width=16px> [Std SelBack](Std_SelBack/pl.md)**, aby ponownie wybrać łacze.
 
 
 

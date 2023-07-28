@@ -1,6 +1,8 @@
 # Part scripting/fr
 {{TOCright}}
 
+
+
 ## Introduction
 
 La structure principale de données utilisée dans le module Part est le type de données [BRep](https://fr.wikipedia.org/wiki/B-Rep) de [OpenCASCADE](OpenCASCADE/fr.md). Presque tous les contenus et types d\'objets du module Part sont disponibles par script en [Python](Python/fr.md). Cela inclut les primitives géométriques, telles que les lignes, les cercles et les arcs, et toute la gamme des TopoShapes, comme les vertex, les arêtes, les fils, les faces, les solides et les composés. Pour chacun de ces objets, plusieurs méthodes de création existent, et pour certains d\'entre eux, notamment les TopoShapes, des opérations avancées telles que l\'union/différence/intersection booléenne sont également disponibles. Explorez le contenu du module Part, comme décrit dans la page [Notions de base sur les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md), pour en savoir plus.
@@ -9,14 +11,18 @@ L\'objet le plus simple pouvant être créé est une [Part Feature](Part_Feature
 
 Un autre objet simple utilisé dans les objets géométriques 2D est un [Part Part2DObject](Part_Part2DObject/fr.md) qui constitue la base des [Sketcher SketchObject](Sketcher_SketchObject/fr.md) et de la plupart des [éléments de Draft](Draft_Workbench/fr.md).
 
+
+
 ### Voir aussi 
 
 -   [Scripts pour création topologique](Topological_data_scripting/fr.md)
 -   [OpenCASCADE](OpenCASCADE/fr.md)
 
+
+
 ## Script de test 
 
-Testez la création de [Part Primitives](Part_Primitives/fr.md) avec un script. {{Version/fr|0.19}}
+Testez la création de [Part Primitives](Part_Primitives/fr.md) avec un script.
 
 
 ```python
@@ -31,7 +37,11 @@ Ce script se trouve dans le répertoire d\'installation du programme et peut êt
 $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 ```
 
+
+
 ## Exemples
+
+
 
 ### Ligne
 
@@ -113,9 +123,11 @@ def my_create_line(pt1, pt2, obj_name):
 line = my_create_line((0, 0, 0), (0, 10, 0), "LineName")
 ```
 
+
+
 ### Cercle
 
-Un cercle peut être créé de la même manière:
+Un cercle peut être créé de la même manière :
 
 
 ```python
@@ -187,7 +199,7 @@ obj.Shape = circle.toShape()
 doc.recompute()
 ```
 
-Notez qu\'une fois encore, nous avons utilisé le cercle (primitive géométrique) pour construire une forme. Nous pouvons bien sûr toujours accéder à notre géométrie de construction par la suite, en faisant:
+Notez qu\'une fois encore, nous avons utilisé le cercle (primitive géométrique) pour construire une forme. Nous pouvons bien sûr toujours accéder à notre géométrie de construction par la suite, en faisant :
 
 
 ```python

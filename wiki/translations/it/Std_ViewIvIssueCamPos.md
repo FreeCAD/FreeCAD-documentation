@@ -2,19 +2,11 @@
 ---
 - GuiCommand:/it   Name:Std ViewIvIssueCamPos   Name/it:Pubblica la posizione della camera   MenuLocation:Visualizza → Stereo → Pubblica la posizione della camera   Workbenches:Tutti   Shortcut:   SeeAlso:[Viste bloccate](Std_FreezeViews/it.md)---
 
+
+
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Questo comando serve a conoscere i dati della posizione, dell\'orientamento e le altre informazioni sulla camera.
-
-Esempio casuale dei dati di posizione della camera nel pannello Report:
-
-![](images/CameraPosition1_it.png )
-
-
-</div>
+Il comando **Pubblica la posizione della camera** stampa le impostazioni della fotocamera della [Vista 3D](3D_view/it.md) attiva nella [Finestra dei Report](Report_view/it.md) e nella [Console Python](Python_console/it.md).
 
 
 ```python   OrthographicCamera {   viewportMapping ADJUST_CAMERA   position 57.73505 -57.73502 57.735027   orientation 0.74290609 0.30772209 0.59447283  1.2171158   nearDistance 81.588844   farDistance 109.60551   aspectRatio 1   focalDistance 100   height 100  } 
@@ -22,15 +14,21 @@ Esempio casuale dei dati di posizione della camera nel pannello Report:
 
 
 
-*Example output: camera settings after changing to [isometric view](Std_ViewIsometric.md) in a new document*
+*Esempio di output: impostazioni della fotocamera dopo la modifica in [vista isometrica](Std_ViewIsometric/it.md) in un nuovo documento*
+
+
 
 ## Utilizzo
 
-1.  Select the **View → Stereo → <img src="images/Std_ViewIvIssueCamPos.svg" width=16px> Issue camera position** option from the menu.
+1.  Selezionare l\'opzione **Visualizza → Stereo → <img src="images/Std_ViewIvIssueCamPos.svg" width=16px> Pubblica la posizione della camera** dal menu.
+
+
 
 ## Note
 
--   The camera settings can be used to add frozen views to a \*.cam file. See [Std FreezeViews](Std_FreezeViews.md).
+-   Le impostazioni della fotocamera possono essere utilizzate per aggiungere viste bloccate a un file \*.cam. Vedere [Viste bloccate](Std_FreezeViews/it.md).
+
+
 
 ## Script
 
@@ -39,7 +37,7 @@ Esempio casuale dei dati di posizione della camera nel pannello Report:
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
-The `getCamera` method of the ActiveView object returns the same camera settings in a single string. This method is not available if FreeCAD is in console mode.
+Il metodo `getCamera` dell\'oggetto ActiveView restituisce le stesse impostazioni della fotocamera in una singola stringa. Questo metodo non è disponibile se FreeCAD è in modalità console.
 
 
 ```python
@@ -49,13 +47,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCamera()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

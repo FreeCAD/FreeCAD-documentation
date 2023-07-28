@@ -1,29 +1,33 @@
-# <img alt="Pfad Arbeitsbereichssymbol" src=images/Workbench_Path.svg  style="width:64px;"> Path Workbench/de
+# <img alt="Symbol des Arbeitsbereichs Path" src=images/Workbench_Path.svg  style="width:64px;"> Path Workbench/de
 
 
 {{TOCright}}
 
-## Einführung
 
-Der <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Arbeitsbereich Path](Path_Workbench/de.md) wird verwendet, um Maschinenanweisungen für [CNC Maschinen](https://en.wikipedia.org/wiki/CNC_router) aus einem FreeCAD 3D Modell zu erstellen. Diese erzeugen reale 3D Objekte auf CNC Maschinen wie Fräsmaschinen, Drehbänken, Laserschneidern oder ähnlichem. Typischerweise handelt es sich bei den Anweisungen um einen [G-code](https://en.wikipedia.org/wiki/G-code) Dialekt. Hier wird ein [allgemeines Beispiel für die Simulation einer CNC Drehbank Werkzeugpfadfolge](https://www.ange-softs.com/SIMULCNCHTML/index.html) vorgestellt.
+
+## Einleitung
+
+Der Arbeitsbereich <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Path](Path_Workbench/de.md) wird verwendet, um Maschinenanweisungen für [CNC-Maschinen](https://en.wikipedia.org/wiki/CNC_router) aus einem FreeCAD-3D-Modell zu erstellen. Diese erzeugen reale 3D-Objekte auf CNC-Maschinen wie Fräsmaschinen, Drehbänken, Laserschneidern oder ähnlichen. Typischerweise handelt es sich bei den Anweisungen um einen [G-Code](https://en.wikipedia.org/wiki/G-code)-Dialekt. Hier wird ein [allgemeines Beispiel für die Ablaufsimulation eines Werkzeugpfades einer CNC-Drehbank](https://www.ange-softs.com/SIMULCNCHTML/index.html) vorgestellt.
 
 <img alt="" src=images/pathwb.png  style="width:600px;">
 
-Der FreeCAD Arbeitsbereich Path erstellt diese Maschinenanweisungen mit folgendem Arbeitsablauf:
+Der FreeCAD-Arbeitsbereich Path erstellt diese Maschinenanweisungen mit folgendem Arbeitsablauf:
 
--   Ein 3D Modell ist das Basisobjekt, das typischerweise mit einer oder mehreren der Arbeitsbereiche <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Part Design](PartDesign_Workbench/de.md), <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) oder <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md) erstellt wird.
--   Ein [Path Auftrag](Path_Job/de.md) wird im Arbeitsbereich Path erstellt. Dieser enthält alle Informationen, die zur Erzeugung des notwendigen G-codes für die Bearbeitung des Arbeitsauftrags auf einer CNC Fräse erforderlich sind: es gibt Rohmaterial, die Fräse hat einen bestimmten [Werkzeugsatz](Path_ToolLibraryEdit/de.md) und es folgen bestimmte Befehle, die die Geschwindigkeit und die Bewegungen steuern (normalerweise G-code).
--   Die Werkzeuge werden entsprechend den Anforderungen der Arbeitsauftragsabläufe ausgewählt.
--   Fräsbahnen werden z.B. mit [Kontur](Path_Profile/de.md) und [Tasche](Path_Pocket_3D/de.md) Abläufen erzeugt. Diese Bahnobjekte verwenden den internen FreeCAD G-code Dialekt, unabhängig von der CNC Maschine.
--   Der [Path Auftrag](Path_Job/de.md) wird mit einem Post Processor als G-code exportiert. Der eingesetzte Post Processor muss zur verwendeten Maschine passen, da dieser den FreeCAD intern verwendeten G-code in den \"Dialekt\" der Maschine übersetzt.
+-   Ein 3D-Modell ist das Basisobjekt, das typischerweise mit einem oder mehreren der Arbeitsbereiche <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Part Design](PartDesign_Workbench/de.md), <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) oder <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md) erstellt wird.
+-   Ein [Path Auftrag](Path_Job/de.md) wird im Arbeitsbereich Path erstellt. Dieser enthält alle Informationen, die zur Erzeugung des notwendigen G-Codes für die Bearbeitung des Arbeitsauftrags auf einer CNC-Fräse erforderlich sind: Es gibt Rohmaterial, die Fräse hat einen bestimmten [Werkzeugsatz](Path_ToolLibraryEdit/de.md) und sie folgt bestimmten Befehlen, die die Geschwindigkeit und die Bewegungen steuern (normalerweise G-Code).
+-   [Path Werkzeuge](Path_Tools/de.md) werden den Anforderungen der Arbeitsauftragsabläufe entsprechend ausgewählt.
+-   Fräsbahnen werden erzstellt, z.B. mit den Abläufen [Kontur](Path_Profile/de.md) und [Tasche](Path_Pocket_3D/de.md). Diese Bahnobjekte verwenden FreeCADs internen G-code-Dialekt, unabhängig von der CNC-Maschine.
+-   Den Auftrag mit einem zur Maschine passenden G-Code exportieren. Dieser Schritt wird *Post-Processing* (Nachbereitung) genannt. Es stehen mehrere Post-Prozessoren zur Verfügung.
+
+
 
 ## Allgemeine Konzepte 
 
-Der Pfad Arbeitsbereich erzeugt einen G-code, der die Pfade definiert, die zum Fräsen des durch das 3D Modell auf der Zielfräse in [Der Pfad Auftragsvorgang FreeCAD G-code Dialekt](Path_scripting/de#Das_FreeCAD_Interne_GCode_Format.md), die später durch Auswahl des entsprechenden Postprozessors in den entsprechenden Dialekt für die Ziel CNC Steuerung übersetzt wird.
+Der Arbeitsbereich Path erzeugt G-Code, der die Bewegungsbahnen (Pfade), die zum Fräsen des durch das 3D-Modell repräsentierten Projekts auf der Zielfräse benötigt werden, in [FreeCADs G-Code-Dialekt](Path_scripting/de#FreeCADs_internes_G-Code-Format.md) festlegt, der später in den entsprechenden Dialekt für die Ziel-CNC-Steuerung übersetzt wird, indem der passende Postprozessor ausgewählt wird.
 
-Der G-code wird aus den in einem Pfadauftrag enthaltenen Anweisungen und Operationen generiert. Der Auftrags Arbeitsablauf listet diese in der Reihenfolge ihrer Ausführung auf. Die Liste wird durch Hinzufügen von Pfadoperationen, Pfadaufbereitungen, Pfadteilbefehlen und Pfadänderungen aus dem Pfadmenü oder den GUI Schaltflächen ausgefüllt.
+Der G-code wird aus den in einem Pfadauftrag enthaltenen Anweisungen und Operationen generiert. Der Arbeitsablauf des Auftrags listet diese in der Reihenfolge ihrer Ausführung auf. Die Liste wird durch Hinzufügen von Pfadoperationen, Pfadaufbereitungen, Pfadergänzungsbefehlen und Pfadänderungen aus dem Pfadmenü oder den GUI-Schaltflächen ausgefüllt.
 
-Der Path Arbeitsbereich enthält einen Werkzeugverwalter (Bibliothek, Werkzeugtabelle), eine G-code Überprüfung und Simulationswerkzeuge. Es verknüpft den Postprozessor und erlaubt den Im- und Export von Auftragsvorlagen.
+Der Arbeitsbereich Path enthält einen Werkzeugverwalter (Bibliothek, Werkzeugtabelle), eine G-Code-Überprüfung und Simulationswerkzeuge. Es verknüpft den Postprozessor und erlaubt den Im- und Export von Auftragsvorlagen.
 
 Der Pfad Arbeitsbereich hat externe Abhängigkeiten einschließlich:
 
@@ -33,20 +37,18 @@ Der Pfad Arbeitsbereich hat externe Abhängigkeiten einschließlich:
 4.  Die Parameter der Halte Merker werden in dem **Bearbeiten → Einstellungen → Pfad → Aufbereitungen** Reiter definiert.
 5.  Dass die Qualität des Basis 3D Modells die Anforderungen an die Pfad Arbeitsbereich unterstützt, wird durch Prüfe Geometrie bestätigt.
 
-## Begrenzungen
 
 
-<div class="mw-translate-fuzzy">
+## Einschränkungen
 
-Einige aktuelle Begrenzungen, derer du dir bewusst sein solltest, sind:
+Einige aktuelle Einschränkungen, derer du dir bewusst sein solltest, sind:
 
--   Die meisten der Pfadwerkzeuge sind keine echten 3D Werkzeuge, sondern nur 2,5D fähig. Das bedeutet, dass sie eine festgelegte 2D Form nehmen und diese bis zu einer bestimmten Tiefe herunterschneiden können. Es gibt jedoch zwei Werkzeuge, die echte 3D Pfade erzeugen: **<img src="images/Path_3DPocket.svg" width=24px> [3D Tasche](Path_Pocket_3D/de.md)** und **<img src="images/Path_Surface.svg" width=24px> [3D Oberfläche](Path_Surface/de.md)** (was ab November 2020 noch ein [experimentelle Funktion](Path_experimental/de.md) ist).
--   Der größte Teil des Pfad Arbeitsbereichs ist für eine einfache, standardmäßige 3-Achsen (xyz) CNC Fräse/Router ausgelegt, aber Drehwerkzeuge sind in 0.19_pre in Entwicklung.
--   Die meisten Operationen im Pfad Arbeitsbereich geben nur Pfade zurück, die auf einem Standard Endfräser Werkzeug/Bit basieren, unabhängig vom zugewiesenen Werkzeug/Bit Typ in einer bestimmten Werkzeugsteuerung, mit Ausnahme der **<img src="images/Path_Engrave.svg" width=24px> [Gravur](Path_Engrave/de.md)** und **<img src="images/Path_Surface.svg" width=24px> [3D Oberfläche](Path_Surface/de.md)** Operationen.
--   Die Operationen innerhalb des Pfad Arbeitsbereichs kennen keine Spannmechanismen, die zur Befestigung des Modells an deiner Maschine verwendet werden. Überprüfe und simuliere daher die von dir erzeugten Bahnen, bevor du den Code an deine Maschine sendest. Wenn nötig, modelliere deine Spannmechanismen in FreeCAD, um die erzeugten Bahnen besser überprüfen zu können. Achte auf mögliche Kollisionen mit Spannern oder anderen Hindernissen entlang der Bahnen.
+-   Die meisten der Pfadwerkzeuge sind keine echten 3D-Werkzeuge, sondern nur 2,5D fähig. Das bedeutet, dass sie eine festgelegte 2D-Form nehmen und diese bis zu einer bestimmten Tiefe herunterschneiden können. Es gibt jedoch zwei Werkzeuge, die echte 3D-Pfade erzeugen: **<img src="images/Path_3DPocket.svg" width=24px> [3D-Tasche](Path_Pocket_3D/de.md)** und **<img src="images/Path_Surface.svg" width=24px> [3D-Oberfläche](Path_Surface/de.md)** (die im November 2020 noch immer [experimentelle Funktionen](Path_experimental/de.md) sind).
+-   Der größte Teil des Arbeitsbereichs Pfad ist für eine einfache, standardmäßige 3-Achsen- (xyz) CNC-Fräse ausgelegt, aber Dreh-(maschinen-)werkzeuge sind seit 0.19_pre in Entwicklung.
+-   Die meisten Operationen im Arbeitsbereich Pfad geben nur Pfade zurück, die auf einem Standard-Schaftfräser-Werkzeug bzw. -Bit basieren, ohne Rücksicht auf einen, in einer bestimmten Werkzeugsteuerung zugewiesenen, Werkzeug- bzw. Bit-Typ, mit Ausnahme der Operationen **<img src="images/Path_Engrave.svg" width=24px> [Gravur](Path_Engrave/de.md)** und **<img src="images/Path_Surface.svg" width=24px> [3D-Oberfläche](Path_Surface/de.md)**.
+-   Die Operationen innerhalb des Arbeitsbereichs Pfad kennen keine Spannvorrichtungen, die zur Befestigung des Modells an einer Maschine verwendet werden. Überprüfe und simuliere daher die erzeugten Bahnen, bevor du den Code an deine Maschine sendest. Wenn nötig, modelliere deine Spannvorrichtungen in FreeCAD, um die erzeugten Bahnen besser überprüfen zu können. Achte auf mögliche Kollisionen mit Spannern oder anderen Hindernissen entlang der Bahnen.
 
 
-</div>
 
 ## Einheiten
 
@@ -73,16 +75,22 @@ Pfad Untersuchen:
 
 1.  Wenn du das Werkzeug zum Untersuchen des Pfades benutzt, wird als Einheit \'mm/s\' benutzt, da der Postprozessor noch nicht angewendet wurde.
 
+
+
 ## Höhen und Tiefen 
 
 Viele der Befehle haben unterschiedliche Höhen und Tiefen:
 
 <img alt="" src=images/Path-DepthsAndHeights.gif  style="width:500px;"> 
-*Sichtreferenz für Tiefeneigenschaften (Einstellungen)*
+*Visuelle Referenz für Tiefeneinstellungen*
+
+
 
 ## Befehle
 
 Einige Befehle sind experimentell und standardmäßig nicht verfügbar. Um sie zu aktivieren, siehe [Pfad experimentell](Path_experimental/de.md).
+
+
 
 ### Projektbefehle
 
@@ -90,13 +98,27 @@ Einige Befehle sind experimentell und standardmäßig nicht verfügbar. Um sie z
 
 -   <img alt="" src=images/Path_PostProcess.svg  style="width:32px;"> [Nach Prozess](Path_Post/de.md): Exportiert ein Projekt in G-code.
 
--   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> [Überprüfen des Pfadauftrags auf allgemeine Fehler](Path_Sanity/de.md): Überprüft den gewählten Auftrag auf fehlende Werte. [/de**Experimentell**](Path_experimental.md). {{Version/de|0.19}}
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> [Überprüfen des Pfadauftrags auf allgemeine Fehler](Path_Sanity/de.md): Überprüft den gewählten Auftrag auf fehlende Werte. [/de**Experimentell**](Path_experimental.md).
+
+
+</div>
 
 -   <img alt="" src=images/Path_ExportTemplate.svg  style="width:32px;"> [Export Vorlage](Path_ExportTemplate/de.md): Den aktuellen Auftrag als Vorlage exportieren.
 
+
+
 ### Werkzeugbefehle
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Path_Inspect.svg  style="width:32px;"> [G-Code untersuchen](Path_Inspect/de.md): Zeigt den G-code zur Überprüfung.
+
+
+</div>
 
 -   <img alt="" src=images/Path_Simulator.svg  style="width:32px;"> [CAM Simulator](Path_Simulator/de.md): Zeigt die Fräsbearbeitung wie sie auf der Maschine durchgeführt wird.
 
@@ -104,59 +126,113 @@ Einige Befehle sind experimentell und standardmäßig nicht verfügbar. Um sie z
 
 -   <img alt="" src=images/Path_OpActive.svg  style="width:32px;"> [Umschalten des aktiven Zustands der Bearbeitung](Path_OpActiveToggle/de.md): Aktiviert oder deaktiviert eine Pfadbearbeitung.
 
--   <img alt="" src=images/Path_ToolBitLibraryOpen.svg  style="width:32px;"> [ToolBit Library editor](Path_ToolBitLibraryOpen.md): Opens an editor to manage ToolBit libraries. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_ToolBitLibraryOpen.svg  style="width:32px;"> [ToolBit Library editor](Path_ToolBitLibraryOpen.md): Opens an editor to manage ToolBit libraries.
 
--   <img alt="" src=images/Path_ToolBitDock.svg  style="width:32px;"> [ToolBit Dock](Path_ToolBitDock.md): Toggles the ToolBit Dock. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_ToolBitDock.svg  style="width:32px;"> [ToolBit Dock](Path_ToolBitDock.md): Toggles the ToolBit Dock.
+
+
 
 ### Grundlegende Bearbeitungen 
 
--   <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profile](Path_Profile/de.md): Erzeugt eine Profilbearbeitung des gesamten Modells oder von einer oder mehreren ausgewählten Flächen oder Kanten. {{Version/de|0.19}}
+-   <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profile](Path_Profile/de.md): Erzeugt eine Profilbearbeitung des gesamten Modells oder von einer oder mehreren ausgewählten Flächen oder Kanten.
+
+-   <img alt="" src=images/Path_Pocket.svg  style="width:32px;"> [Taschenform](Path_Pocket_Shape/de.md): Erzeugt eine Taschenbearbeitung aus einer oder mehreren ausgewählten Taschen.
+
+-   <img alt="" src=images/Path_Drilling.svg  style="width:32px;"> [Bohren](Path_Drilling/de.md): Führt einen Bohrzyklus durch.
 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Path_Pocket.svg  style="width:32px;"> [Taschenform](Path_Pocket_Shape/de.md): Erzeugt eine Taschenbearbeitung aus einer oder mehreren ausgewählten Taschen.
+-   <img alt="" src=images/Path_Face.svg  style="width:32px;"> [Fläche](Path_MillFace/de.md): Erzeugt einen Oberflächenpfad
 
 
 </div>
-
--   <img alt="" src=images/Path_Drilling.svg  style="width:32px;"> [Bohren](Path_Drilling/de.md): Führt einen Bohrzyklus durch.
-
--   <img alt="" src=images/Path_Face.svg  style="width:32px;"> [Fläche](Path_MillFace/de.md): Erzeugt einen Oberflächenpfad
 
 -   <img alt="" src=images/Path_Helix.svg  style="width:32px;"> [Helix](Path_Helix/de.md): Erzeugt eine spiralförmige Bahn.
 
 -   <img alt="" src=images/Path_Adaptive.svg  style="width:32px;"> [Adaptiv](Path_Adaptive/de.md): Erstellt eine adaptive Räum- und Profilierungsbearbeitung.
 
--   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> [Nut](Path_Slot/de.md): Erzeugt eine Nutenbearbeitung aus ausgewählten Formelementen oder benutzerdefinierten Punkten. [**Experimentell**](Path_experimental/de.md). {{Version/de|0.19}}
+-   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> [Nut](Path_Slot/de.md): Erzeugt eine Nutenbearbeitung aus ausgewählten Formelementen oder benutzerdefinierten Punkten. [**Experimentell**](Path_experimental/de.md).
 
 -   <img alt="" src=images/Path_Engrave.svg  style="width:32px;"> [Gravieren](Path_Engrave/de.md): Erstellt einen Gravurpfad.
 
 -   <img alt="" src=images/Path_Deburr.svg  style="width:32px;"> [Deburr](Path_Deburr.md): Creates a deburr path.
 
--   <img alt="" src=images/Path_Vcarve.svg  style="width:32px;"> [VGravur](Path_Vcarve/de.md): Erzeugt einen Gravurpfad unter Verwendung einer V-Werkzeugform. {{Version/de|0.19}}
+-   <img alt="" src=images/Path_Vcarve.svg  style="width:32px;"> [VGravur](Path_Vcarve/de.md): Erzeugt einen Gravurpfad unter Verwendung einer V-Werkzeugform.
 
-### 3D Bearbeitungen 
 
--   <img alt="" src=images/Path_3DPocket.svg  style="width:32px;"> [3D Tasche](Path_Pocket_3D/de.md): Erzeugt einen Pfad für eine 3D Tasche.
 
--   <img alt="" src=images/Path_Surface.svg  style="width:32px;"> [3D Oberfläche](Path_Surface/de.md): Erstellt einen Pfad für eine 3D Oberfläche. [**Experimentell**](Path_experimental/de.md). {{Version/de|0.19}}
+### 3D-Bearbeitungen 
 
--   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Wasserlinie](Path_Waterline/de.md): Erzeugt einen Wasserlinienpfad für eine 3D Oberfläche. [**Experimentell**](Path_experimental/de.md). {{Version/de|0.19}}
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Path_3DPocket.svg  style="width:32px;"> [3D Tasche](Path_Pocket_3D/de.md): Erzeugt einen Pfad für eine 3D-Tasche.
+
+
+</div>
+
+-   <img alt="" src=images/Path_Surface.svg  style="width:32px;"> [3D Oberfläche](Path_Surface/de.md): Erstellt einen Pfad für eine 3D-Oberfläche. [**Experimentell**](Path_experimental/de.md).
+
+-   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Wasserlinie](Path_Waterline/de.md): Erzeugt einen Wasserlinienpfad für eine 3D-Oberfläche. [**Experimentell**](Path_experimental/de.md).
+
+
 
 ### Pfad Aufbereitung 
 
+-   <img alt="" src=images/Path_DressupAxisMap.svg  style="width:32px;"> [Axis Map](Path_DressupAxisMap.md): Remaps one axis to another.
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:32px;"> [Randaufbereitung](Path_DressupPathBoundary/de.md): Fügt eine Randaufbereitungsänderung einem ausgewählten Pfad hinzu.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Path_DressupDogbone.svg  style="width:32px;"> [Hundeknochen Aufbereitung](Path_DressupDogbone/de.md): Fügt eine Hundeknochen Aufbereitungsänderung einem ausgewählten Pfad hinzu.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Path_DressupDragKnife.svg  style="width:32px;"> [Ziehmesser Aufbereitung](Path_DressupDragKnife/de.md): Fügt eine Ziehmesser Aufbereitungsänderung einem ausgewählten Pfad hinzu.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Path_DressupLeadInOut.svg  style="width:32px;"> [EinAusAusführung Aufbereitung](Path_DressupLeadInOut/de.md): Fügt einen Einführungs- und/oder Ausführungspunkt einem ausgewählten Pfad hinzu.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Path_DressupRampEntry.svg  style="width:32px;"> [Anfahrrampen Aufbereitung](Path_DressupRampEntry/de.md): Fügt dem ausgewählten Pfad eine vertikale Anfahrrampe hinzu.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Path_DressupTag.svg  style="width:32px;"> [Tag Aufbereitung](Path_DressupTag/de.md): Fügt dem ausgewählten Pfad eine Erweiterung für Haltestege zu.
+
+
+</div>
+
+-   <img alt="" src=images/Path_DressupZCorrect.svg  style="width:32px;"> [Z Depth Correction](Path_DressupZCorrect.md): Corrects the Z depth using Probe Map.
+
+
 
 ### Ergänzende Befehle 
 
@@ -168,7 +244,11 @@ Einige Befehle sind experimentell und standardmäßig nicht verfügbar. Um sie z
 
 -   <img alt="" src=images/Path_Custom.svg  style="width:32px;"> [Benutzerdefiniert](Path_Custom/de.md): Fügt benutzerdefinierten G-Code ein.
 
+-   <img alt="" src=images/Path_Probe.svg  style="width:32px;"> [Probe](Path_Probe.md): Creates a Probing Grid from a job stock.
+
 <img alt="Path_GcodeFromShape.svg" src=images/Path_GcodeFromShape.svg  style="width:32px;"> [Aus Form](Path_Shape/de.md): Erstellt ein  Pfadobjekt aus einem gewählten Part Objekt. [**Experimentell**](Path_experimental/de.md).
+
+
 
 ### Pfadänderungen
 
@@ -178,19 +258,29 @@ Einige Befehle sind experimentell und standardmäßig nicht verfügbar. Um sie z
 
 -   <img alt="" src=images/Path_SimpleCopy.svg  style="width:32px;"> [Einfache Kopie](Path_SimpleCopy/de.md): Erstellt eine nichtparametrische Kopie eines ausgewählten Pfadobjekts.
 
+### Specialty Operations 
+
+-   <img alt="" src=images/Path_ThreadMilling.svg  style="width:32px;"> [Thread Milling](Path_ThreadMilling.md): Creates a Path Thread Milling operation from features of a base object. [**Experimental**](Path_experimental.md).
+
+
+
 ### Sonstiges
 
 -   <img alt="" src=images/Path_Area.svg  style="width:32px;"> [Bereich](Path_Area/de.md): Erstellt einen Formelementbereich aus gewählten Objekten. [**Experimentell**](Path_experimental/de.md).
 
 -   <img alt="" src=images/Path_Area_Workplane.svg  style="width:32px;"> [Bereich Arbeitsebene](Path_Area_Workplane/de.md): Erstellt eine Formelementbereich Arbeitsebene. [**Experimentell**](Path_experimental/de.md).
 
+
+
 ### Veraltet
 
 -   <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width:32px;"> [Werkzeugverwalter](Path_ToolLibraryEdit/de.md): Bearbeiten des Werkzeugverwalters. \'Altes\' Werkzeugsystem. {{VersionMinus/de|0.18}}
 
+
+
 ## ToolBit Architektur 
 
-Verwalte Werkzeuge, Bits und die Werkzeugbibliothek. Basiert auf der ToolBit Architektur. {{Version/de|0.19}}
+Verwalte Werkzeuge, Bits und die Werkzeugbibliothek. Basiert auf der ToolBit Architektur.
 
 -   [Pfad Werkzeuge](Path_Tools/de.md)
 -   [Pfad WerkzeugForm](Path_ToolShape/de.md)
@@ -198,23 +288,28 @@ Verwalte Werkzeuge, Bits und die Werkzeugbibliothek. Basiert auf der ToolBit Arc
 -   [Pfad WerkzeugBit Bibliothek](Path_ToolBit_Library/de.md)
 -   [Pfad WerkzeugController](Path_ToolController/de.md)
 
+
+
 ## Andere
 
+-   [Path HäufigGestellteFragen](Path_FAQ/de.md): Der Arbeitsbereich Pfad teilt viele Konzepte mit anderen CAM-Softwarepaketen, hat aber seine eigenen Besonderheiten. Wenn etwas nicht stimmt, ist dies vielleicht ein guter Anfang.
+-   [Path SetupSheet](Path_SetupSheet/de.md): Es kann ein SetupSheet verwendet werden zum Anpassen, wie die Werte verschiedener Eigenschaften von Operationen berechnet werden. to customize how various property values for operations are calculated.
+-   [Path Postprozessor Anpassung](Path_Postprocessor_Customization/de.md): Hast Du eine spezielle Maschine, die die Daten der vorhandenen Postprozessoren nicht verwenden kann, musst Du eventuell deinen eigenen Postprozessoren schreiben.
+-   [Path VierteAchse](Path_fourth_axis/de.md): Experimentelles Vier-Achs-Fräsen.
 
-<div class="mw-translate-fuzzy">
 
-Der Pfad Arbeitsbereich teilt viele Konzepte mit anderen CAM Softwarepaketen, hat aber ihre eigenen Besonderheiten. Wenn etwas nicht stimmt, ist dies vielleicht ein guter Anfang.
-
-
-</div>
 
 ## Einstellungen
 
 -   <img alt="" src=images/Std_DlgParameter.svg  style="width:32px;"> [Einstellungen\...](Path_Preferences/de.md): Einstellungen verfügbar für den Pfad Arbeitsbereich.
 
+
+
 ## Skripten
 
 Siehe [Pfad Skripten](Path_scripting/de.md).
+
+
 
 ## Tutorien
 

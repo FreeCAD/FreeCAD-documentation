@@ -1,15 +1,21 @@
 # Video tutorials for product design/es
 **Por favor, presten atención a la versión de FreeCAD utilizada en el tutorial. Si un tutorial utiliza una versión anterior del programa, el proceso de modelado general puede seguir funcionando, pero algunas herramientas pueden haber cambiado en versiones más recientes. No añada vídeos hechos con la versión 0.16 o anterior, ya que estas versiones se consideran obsoletas.**
 
+
+
 ## Introducción
 
 Los tutoriales que se enumeran aquí son los que tratan del diseño de productos físicos para la fabricación o la impresión en 3D. Para otros temas, consulte la página general [video tutoriales](video_tutorials/es.md).
 
 Visite [tutoriales](tutorials/es.md) para obtener tutoriales escritos de alta calidad. Puedes encontrar una lista completa y sin clasificar de tutoriales en [:Category:Tutorials](:Category_Tutorials.md).
 
+
+
 ## Diseño de productos 
 
 Videos que pasan por el modelado de varios objetos sólidos usando ambientes de trabajo como <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/es.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/es.md), and <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/es.md)
+
+
 
 ### Inglés
 
@@ -56,6 +62,8 @@ Videos que pasan por el modelado de varios objetos sólidos usando ambientes de 
 
 -   [jp willm playlists](https://www.youtube.com/channel/UCJwHW5GwrK1fq16cxUoBOUw/videos): for beginners to more experienced users, jp willm produces many videos on 3D modelling with tools mainly from [Part](Part_Workbench.md) and [PartDesign](PartDesign_Workbench.md), but also exploring [TechDraw](TechDraw_Workbench.md) and of course [Sketcher](Sketcher_Workbench.md).
 
+
+
 ### Alemán
 
 Aunque esta lista se centra en el contenido alemán, muchos de estos canales también tienen videos en inglés.
@@ -75,6 +83,8 @@ Aunque esta lista se centra en el contenido alemán, muchos de estos canales tam
 -   [German_Plasma_CNC](https://www.youtube.com/channel/UCGuJsIoXW-exBAwdn38dXow/playlists) playlists for FreeCAD, CNC, G-code, Blender, and other topics. Mostly in German, some videos in English.
     -   [FreeCAD Deutsch 2019](https://www.youtube.com/watch?v=JOtCL11UAUI&list=PLugsaCAoG3EmYbYuLSU8cz80gBXDeJ6QL): a series of 53 videos in German dealing with building shapes and preparing them for CNC manufacturing. Some topics include: preparing a job, simulating, postprocessing, milling the profiles, pocketing, drilling, engraving, and editing the tools.
     -   [FreeCAD English](https://www.youtube.com/watch?v=CPjvnY8hOwY&list=PLugsaCAoG3EnW3SwdM6a-aml_WT1eS6s6): a series of 4 videos in English with some tips of working with FreeCAD.
+
+
 
 ### Español
 

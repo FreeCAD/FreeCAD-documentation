@@ -13,18 +13,20 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionInsertDiameter.svg  style="width:24px;"> **TechDraw Diamètre** insère un symbole \"⌀\" au début du texte de la cote.
+L\'outil **TechDraw Diamètre** insère un symbole \"⌀\" au début du texte de la cote.
 
 <img alt="" src=images/TechDraw_ExtensionInsertDiameterExample.png  style="width:600px;"> 
 *A droite, les cotes avec le symbole inséré*
+
+
 
 ## Utilisation
 
 1.  Sélectionnez une ou plusieurs cotes.
 2.  Il existe plusieurs façons de lancer l\'outil :
-    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionInsertDiameter.svg" width=16px> [Insérer un préfixe '⌀'](TechDraw_ExtensionInsertDiameter/fr.md)**.
-    -   Sélectionnez la commande **TechDraw → Extensions : cotes → <img src="images/TechDraw_ExtensionInsertDiameter.svg" width=16px> Insérer un préfixe '⌀'** à partir du menu.
-3.  Le symbole \"⌀\" est inséré dans le texte de dimension des cotes sélectionnées.
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionInsertDiameter.svg" width=16px> [Insérer un préfixe "⌀"](TechDraw_ExtensionInsertDiameter/fr.md)**.
+    -   Sélectionnez la commande **TechDraw → Extensions : cotes → <img src="images/TechDraw_ExtensionInsertDiameter.svg" width=16px> Insérer un préfixe "⌀"** à partir du menu.
+3.  Le symbole \"⌀\" est inséré dans le texte de cote des cotes sélectionnées.
 
 
 

@@ -13,7 +13,9 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionIncreaseDecimal.svg  style="width:24px;"> **TechDraw Plus de décimales** augmente le nombre de décimales du texte de la cote.
+L\'outil **TechDraw Plus de décimales** augmente le nombre de décimales du texte de la cote.
+
+
 
 ## Utilisation
 
@@ -22,6 +24,8 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionIncreaseDecimal.svg  style="wi
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionIncreaseDecimal.svg" width=16px> [Plus de décimales](TechDraw_ExtensionIncreaseDecimal/fr.md)**.
     -   Sélectionnez l\'option **TechDraw → Extensions : cotes → <img src="images/TechDraw_ExtensionIncreaseDecimal.svg" width=16px> Plus de décimales** à partir du menu.
 3.  Le nombre de décimales des cotes sélectionnées est augmenté d\'une unité.
+
+
 
 ## Remarques
 

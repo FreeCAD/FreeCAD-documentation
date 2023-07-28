@@ -10,9 +10,13 @@
 
 # Std ViewRotateRight/pl
 
+
+
 ## Opis
 
 Polecenie **Odwróć widok w prawo** obraca widok w aktywnym oknie [widoku 3D](3D_view/pl.md) wokół osi normalnej *(prostopadłej do widoku)*, w 90-stopniowych przyrostach w prawo *(zgodnie z ruchem wskazówek zegara)*.
+
+
 
 ## Użycie
 
@@ -20,6 +24,8 @@ Polecenie **Odwróć widok w prawo** obraca widok w aktywnym oknie [widoku 3D](3
     -   Wybierz opcję **Widok → Widoki standardowe → <img src="images/Std_ViewRotateRight.svg" width=16px|16px> Odwróć w prawo** z menu.
     -   Wybierz opcję **Widoki standardowe → <img src="images/Std_ViewRotateRight.svg" width=16px> Odwróć w prawo** z menu podręcznego w oknie [widoku 3D](3D_view/pl.md).
     -   Użyj skrótu klawiaturowego: **Shift** + **Prawo**.
+
+
 
 ## Tworzenie skryptów 
 

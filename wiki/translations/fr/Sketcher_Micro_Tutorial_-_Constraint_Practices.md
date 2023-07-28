@@ -24,6 +24,8 @@ Il existe une règle générale avec des contraintes : moins il y a de **contrai
 
 Il est préférable d\'utiliser une **contrainte géométrique** à la place d\'une dimensionnelle si possible. Cela a à voir avec le fonctionnement interne du solveur de contraintes de l\'esquisse.
 
+
+
 ## Installation
 
 1\. Ouvrez FreeCAD, créez un nouveau document vide avec **Fichier → [<img src=images/Std_New.svg style="width:16px"> [Nouveau](Std_New/fr.md)**.
@@ -36,6 +38,8 @@ Quelques actions à retenir :
 -   Pour quitter le mode d\'édition d\'esquisse, appuyez sur le bouton **Fermer** dans le [Panneau des tâches](Task_Panel/fr.md) ou appuyez deux fois sur **Echap** au le clavier.
 -   Pour entrer à nouveau en mode édition, double-cliquez sur l\'esquisse dans la [vue en arborescence](tree_view/fr.md) ou sélectionnez-la puis cliquez sur **[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [Sketcher Modifier l'esquisse](Sketcher_EditSketch/fr.md)**.
 
+
+
 ## Créer une esquisse 
 
 2\. Cliquez sur **<img src="images/Sketcher_NewSketch.svg‎‎" width=16px> [Nouvel esquisse](Sketcher_NewSketch/fr.md)**.
@@ -47,6 +51,8 @@ Quelques actions à retenir :
 **Remarque :**
 
 dans le [Panneau des tâches](Task_Panel/fr.md) développez la section **Edit controls** et assurez-vous que l\'option **Contraintes automatiques** est désactivée. Désactivez également l\'accrochage à la grille et masquez la grille.
+
+
 
 ## Première approche : les contraintes numériques 
 
@@ -70,6 +76,8 @@ dans le [Panneau des tâches](Task_Panel/fr.md) développez la section **Edit co
 *A gauche : contraintes de référence pour les côtés. À droite : contraintes de référence supplémentaires pour les distances intérieures.*
 
 En regardant la section **Constraints** du [Panneau des tâches](Task_Panel/fr.md), nous voyons que les contraintes sont trop nombreuses. Ils encombrent également la vue du croquis. Ces contraintes sont également gourmandes en calcul pour le solveur bien que ce ne soit pas un problème avec une forme simple, il peut le devenir avec des formes plus complexes.
+
+
 
 ## Une meilleure façon : numériques et contraintes géométriques 
 
@@ -95,6 +103,7 @@ En regardant la section **Constraints** du [Panneau des tâches](Task_Panel/fr.m
 
     Il s'agit d'une esquisse mieux contrainte que la première. Les contraintes géométriques horizontales et verticales nous permettent d'utiliser moins de contraintes de référence, de sorte que notre esquisse semble moins encombrée.
 
+    <span id="Optimum_scheme:_mostly_geometric_constraints"></span>
     == Esquisse optimale : principalement des contraintes géométriques ==
 
     5. Nous allons dessiner le même carré entièrement contraint et centré à l'origine. Lorsque vous créez la nouvelle esquisse, assurez-vous que l'option **Auto constraints** est désactivée.
@@ -123,20 +132,17 @@ En regardant la section **Constraints** du [Panneau des tâches](Task_Panel/fr.m
 
     C'est la meilleure manière de contraindre cette esquisse car nous n'avons utilisé qu'une seule contrainte de référence (dimensionnelle).
 
+    <span id="Additional_resources"></span>
     == Ressources additionnelles == 
 
     * [Tutoriel d'introduction à Sketcher](Basic_Sketcher_Tutorial/fr.md)
     * [Manuel de référence pour Sketcher](Sketcher_reference/fr.md)
     * [Tutoriel Sketcher (Esquisseur)](Sketcher_Tutorial/fr.md)
 
-    
 
-
-{{Sketcher Tools navi
-
-}}
+    {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/fr

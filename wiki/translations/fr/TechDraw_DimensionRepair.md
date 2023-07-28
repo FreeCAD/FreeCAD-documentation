@@ -4,7 +4,7 @@
    Name/fr:TechDraw Réparation des cotes
    MenuLocation:TechDraw → Dimensions → Réparer les références d'une cote
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:1.0
+   Version:0.21
    SeeAlso:[TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md)
 ---
 
@@ -12,13 +12,16 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:24px;"> **TechDraw Réparation des cotes** peut ajuster les références géométriques 2D ou 3D d\'une cote. Ces références peuvent devenir incorrectes en raison du \"[problème de dénomination topologique](Topological_naming_problem/fr.md)\" ou de la suppression de lignes cachées.
+L\'outil **TechDraw Réparation des cotes** peut ajuster les références géométriques 2D ou 3D d\'une cote. Ces références peuvent devenir incorrectes en raison du \"[problème de dénomination topologique](Topological_naming_problem/fr.md)\" ou de la suppression de lignes cachées.
 
 Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr#Limitations.md) pour en savoir plus sur les dimensions et le problème de dénomination topologique.
 
 
 
 ## Utilisation
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Sélectionnez la cote à corriger et, éventuellement, les nouvelles références géométriques, sommets ou arêtes, dans la vue TechDraw ou dans la [vue 3D](3D_view/fr.md).
 2.  Il existe plusieurs façons de lancer l\'outil :
@@ -28,6 +31,9 @@ Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr#Limitations.md) pou
 4.  Sélectionnez de nouvelles références géométriques si vous ne l\'avez pas encore fait.
 5.  Cliquez sur le bouton **Remplacer les références par la sélection courante**.
 6.  Appuyez sur le bouton **OK** pour mettre à jour la dimension.
+
+
+</div>
 
 
 

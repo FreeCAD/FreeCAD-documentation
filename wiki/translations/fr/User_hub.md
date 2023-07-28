@@ -27,7 +27,7 @@ Si vous souhaitez découvrir comment le développement de FreeCAD a débuté il 
 
 
 
-#### Vous venez d\'un autre logiciel? 
+#### Vous venez d\'un autre logiciel ? 
 
 -   [Solutions de contournement](Workarounds/fr.md)
 -   [Migrer de Fusion360 vers FreeCAD](Migrating_to_FreeCAD_from_Fusion360/fr.md)
@@ -62,27 +62,23 @@ Les [ateliers](Workbenches/fr.md) sont des ensembles d'outils utilisés pour des
 
 -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> L\'[atelier FEM](FEM_Workbench/fr.md) fournit un flux de travail d\'analyse par éléments finis (FEA).
 
--   <img alt="" src=images/Workbench_Image.svg  style="width:32px;"> L\'[atelier Image](Image_Workbench/fr.md) pour travailler avec des images bitmap.
-
--   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> L\'[atelier Inspection](Inspection_Workbench/fr.md) est fait pour vous donner des outils spécifiques pour l\'examen des formes. Il est toujours en cours de développement.
+-   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> L\'[atelier Inspection](Inspection_Workbench/fr.md) est fait pour vous donner des outils spécifiques pour l\'examen des formes. Il en est encore aux premiers stades de développement.
 
 -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> L\'[atelier Mesh](Mesh_Workbench/fr.md) pour travailler avec des maillages triangulés.
 
 -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> L\'[atelier OpenSCAD](OpenSCAD_Workbench/fr.md) pour l\'interopérabilité avec OpenSCAD et la réparation de [Géométrie Solide Constructive](Constructive_solid_geometry/fr.md) (CSG).
 
--   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> L\'[atelier Part](Part_Workbench/fr.md) pour travailler avec des pièces de CAO.
+-   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> L\' [atelier Part](Part_Workbench/fr.md) pour travailler avec des primitives géométriques et des opérations booléennes.
 
 -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> L\'[atelier Part Design](PartDesign_Workbench/fr.md) pour créer des formes de pièces à partir de dessins.
 
--   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> L\'[atelier Path](Path_Workbench/fr.md) est utilisé pour produire des instructions en G-code. Il est toujours en cours de développement.
+-   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> L\'[atelier Path](Path_Workbench/fr.md) est utilisé pour produire des instructions en G-code.
 
 -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> L\'[atelier Points](Points_Workbench/fr.md) pour travailler avec des nuages de points.
 
--   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> L\'[atelier Raytracing](Raytracing_Workbench/fr.md) pour travailler avec le lancer de rayons (rendu).
+-   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> L\'[atelier Reverse Engineering](Reverse_Engineering_Workbench/fr.md) est destiné à fournir des outils spécifiques pour convertir des formes/solides/mailles en fonctionnalités paramétriques compatibles avec FreeCAD.
 
--   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> L\'[atelier Reverse Engineering](Reverse_Engineering_Workbench/fr.md) est destiné à fournir des outils spécifiques pour convertir des formes/solides/mailles en fonctionnalités paramétriques compatibles avec FreeCAD. Il est toujours en cours de développement.
-
--   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> L\'[atelier Robot](Robot_Workbench/fr.md) pour étudier les mouvements des robots.
+-   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> L\'[atelier Robot](Robot_Workbench/fr.md) pour étudier les mouvements des robots. Non maintenu pour le moment.
 
 -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> L\'[atelier Sketcher](Sketcher_Workbench/fr.md) pour travailler avec des esquisses à géométrie contrainte.
 
@@ -92,7 +88,7 @@ Les [ateliers](Workbenches/fr.md) sont des ensembles d'outils utilisés pour des
 
 -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> L\'[atelier Surface](Surface_Workbench/fr.md) fournit des outils pour créer et modifier des surfaces. Il est similaire à l\'outil [Part Générateur de formes](Part_Builder/fr.md) à partir des bords.
 
--   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> L\'[atelier TechDraw](TechDraw_Workbench/fr.md) pour produire des dessins techniques à partir de modèles 3D. C\'est le successeur de l\'[atelier Drawing](Drawing_Workbench/fr.md).
+-   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> L\'[atelier TechDraw](TechDraw_Workbench/fr.md) pour produire des dessins techniques à partir de modèles 3D.
 
 -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> L\'[atelier Test](Testing/fr.md) est destiné au débogage de FreeCAD.
 

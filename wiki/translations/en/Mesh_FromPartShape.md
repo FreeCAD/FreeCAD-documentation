@@ -99,9 +99,6 @@ These are the available meshers and their settings:
 
 ### Gmsh mesher 
 
-
-<small>(v0.19)</small> 
-
 For Linux users: the external [Gmsh](https://gmsh.info/) module is required.
 
 -    **Meshing**: select a meshing option:

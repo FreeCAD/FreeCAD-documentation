@@ -1,5 +1,5 @@
 # Donate/de
-Untenable werden mehrere Möglichkeiten dargestellt, die zurzeit vom Projekt unterstützt werden. Zur Erinnerung: Es wird nie nötig sein, Geld zu bezahlen, um FreeCAD zu nutzen, zu studieren, zu vertreiben oder weiterzuentwickeln. Aber Spenden helfen FreeCAD und seinen Entwicklern dabei, Zeit und Ressourcen zu opfern, um das Projekt schneller und weiter wachsen zu lassen.
+Unten werden mehrere Möglichkeiten dargestellt, die zurzeit vom Projekt unterstützt werden. Zur Erinnerung: Es wird nie nötig sein, Geld zu bezahlen, um FreeCAD zu nutzen, zu studieren, zu vertreiben oder weiterzuentwickeln. Aber Spenden helfen FreeCAD und seinen Entwicklern dabei, Zeit und Ressourcen zu opfern, um das Projekt schneller und weiter wachsen zu lassen.
 
    --  -- 
    <img alt="" src=images/Liberapay_logo.svg  style="width:128px;"> [FreeCAD LiberaPay team](https://liberapay.com/FreeCAD) (recommended)      <img alt="" src=images/PayPal_Logo_Icon_2014.svg  style="width:128px;"> [PayPal](https://www.paypal.com/donate/?hosted_button_id=M3Z8BGW6DB69Q)                    <img alt="" src=images/SepaLogoEN.jpg  style="width:128px;"> SEPA bank transfer: IBAN BE04 0019 2896 4531
@@ -23,23 +23,11 @@ Es gibt auch immer andere Wege zu helfen, anstatt Geld zu spenden oder zu progra
 
 -   <img alt="" src=images/_GitHub.svg  style="width:24px;"> [GitHub sponsors](https://github.com/sponsors/FreeCAD) is a sponsoring platform offered by GitHub, where the FreeCAD source code is hosted. There you can donate any amount monthly to FreeCAD, via credit card or Paypal. The GitHub sponsors account is managed by the [FPA](https://github.com/FreeCAD/FPA).
 
-
-<div class="mw-translate-fuzzy">
-
--   Es gibt ein [Bountysource](https://salt.bountysource.com/teams/freecad) Konto; spende Geld für das FreeCAD Projekt als Ganzes, oder biete eine \"Prämie\" an, um ein bestimmtes Problem oder einen Fehler zu beheben. Dies ist eine interessante Option, da deine Spende gezielt in einem bestimmten Bereich eingesetzt werden kann. Allerdings ist die Verwendung des Bountysource Geldes für uns ein komplexerer Prozess, und es könnte eine Verzögerung zwischen der Spende und der effektiven Verwendung deiner Spende geben.
-
-
-</div>
+-   <img alt="" src=images/Bountysource_logo.png  style="width:24px;"> FreeCAD hat ein offizielles [Bountysource](https://salt.bountysource.com/teams/freecad)-Konto; spende Geld für das FreeCAD-Projekt als Ganzes, oder biete eine \"Prämie\" an, um ein bestimmtes Problem oder einen Fehler zu beheben. Dies ist eine interessante Option, da deine Spende gezielt in einem bestimmten Bereich eingesetzt werden kann. Allerdings ist die Verwendung des Bountysource-Geldes für uns ein komplexerer Prozess, und es könnte eine Verzögerung zwischen der Spende und der effektiven Verwendung deiner Spende geben. **Warnung**: Es gab aktuell eine Serie von Problemen bezüglich bountysource und wir empfehlen derzeit nicht diese Plattform zu nutzen. Wir empfehlen auf ihrer [wikipedia-Seite](https://en.wikipedia.org/wiki/Bountysource) nach aktuellen Informationen zu suchen.
 
 -   <img alt="" src=images/Stripe-logo.png  style="width:24px;"> FreeCAD has a [Stripe donation account](https://donate.stripe.com/14k3ei9TYgwFclq145) where you can make a one-time donation via a credit card.
 
-
-<div class="mw-translate-fuzzy">
-
--   Unterstütze die Webhosting Kosten, durch direkte Spenden an [Jürgen Riegel\'s paypal Konto](https://www.paypal.com/cgi-bin/webscr?item_name=Donation+to+FreeCAD&cmd=_donations&business=Mail%40juergen-riegel.net). Jürgen ist der ursprüngliche Entwickler von FreeCAD.
-
-
-</div>
+-   Du kannst dabei helfen die Webhosting-Kosten zu decken, durch direkte Spenden an [Jürgen Riegel\'s paypal Konto](https://www.paypal.com/cgi-bin/webscr?item_name=Donation+to+FreeCAD&cmd=_donations&business=Mail%40juergen-riegel.net). Jürgen ist der ursprüngliche Entwickler von FreeCAD.
 
 
 
@@ -77,7 +65,9 @@ To encourage persons and companies to sponsor the FreeCAD project, we have creat
 
 Instead of donating each month, you might find it more comfortable to make a one-tine donation that, when divided by twelve, would give you right to enter a sponsoring tier. Don\'t hesitate to do so!
 
-## The FPA 
+
+
+## Die FPA 
 
 The **FreeCAD project association** (FPA) is a non-profit association created in 2022 by FreeCAD\'s administrators and core developers and seated in Belgium. It is responsible for transparently collecting, handling and distributing the money collected via donations. More details and reports are available on the [FPA page](https://github.com/FreeCAD/FPA). Excepting the [LiberaPay team account](https://liberapay.com/FreeCAD), which is directly manager by its members, all other donation channels above are handled and managed by the FPA.
 

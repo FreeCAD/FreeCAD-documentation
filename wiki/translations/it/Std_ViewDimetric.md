@@ -10,6 +10,8 @@
 
 # Std ViewDimetric/it
 
+
+
 ## Descrizione
 
 Il comando **Vista dimetrica** orienta la camera della [vista 3D](3D_view/it.md) in proiezione [assonometria dimetrica](https://en.wikipedia.org/wiki/Axonometric_projection#Three_types). Per una vista veramente dimetrica la vista 3D deve essere in [modalità ortografica](Std_OrthographicCamera/it.md), ma il comando funziona anche se la vista è in [modalità prospettiva](Std_PerspectiveCamera.md).
@@ -17,15 +19,13 @@ Il comando **Vista dimetrica** orienta la camera della [vista 3D](3D_view/it.md)
 ![](images/Std_ViewDimetric_example.svg ) 
 *Il [sistema di assi](Std_AxisCross.md) e un cubo in vista dimetrica.*
 
+
+
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
--   Selezionare l\'opzione **Visualizza → Viste standard → Assonometria → Dimetrica** dal menu.
+-   Selezionare l\'opzione **Visualizza → Viste standard → Assonometria → <img src="images/Std_ViewDimetric.svg" width=16px> Dimetrica** dal menu.
 
 
-</div>
 
 ## Script
 
@@ -45,13 +45,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

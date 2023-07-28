@@ -6,7 +6,13 @@
 
 Questo repository contiene una libreria di simboli SVG da utilizzare in FreeCAD. Sebbene siano costituiti da semplici file SVG, quindi possono essere importati anche all\'interno del documento 3D, sono realizzati principalmente per l\'uso nelle pagine di disegno tecnico.
 
+
+<div class="mw-translate-fuzzy">
+
 È mantenuto dalla comunità degli utenti di FreeCAD e non fa parte del progetto FreeCAD, sebbene sia realizzato con l\'obiettivo di essere utilizzato come repository di parti da FreeCAD in futuro.
+
+
+</div>
 
 ## References
 

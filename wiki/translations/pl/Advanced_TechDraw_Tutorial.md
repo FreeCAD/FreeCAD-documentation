@@ -17,9 +17,13 @@
 
 
 
+
+
 ## Krótko o celu 
 
 Tworzenie punktów, linii, okręgów, łuków, itp. w widokach środowiska Rysunek Techniczny i / lub całych rysunkach \"kosmetycznych\" z absolutną precyzją, odpowiednią dla narzędzi wymiarujących, w które wyposażone jest środowisko pracy, w celu wygenerowania zgodnych i szczegółowych rysunków technicznych.
+
+
 
 ## Wprowadzenie
 
@@ -36,6 +40,8 @@ Ten poradnik wprowadza doświadczonego użytkownika do korzystania z zaawansowan
 
 **Uwaga:** Płaszczyzny te mogą być połączone przez nałożenie / zbieżność dwóch krawędzi przy użyciu funkcji logicznej <img alt="" src=images/Part_Fuse.svg  style="width:24px;"> [Złączenie](Part_Fuse/pl.md) w środowisku **Część**. Tak powstałe i odpowiednio ustawione *(zgodnie z naszymi przepisami)* płaszczyzny posłużą jako **ostrza tnące** <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Pokroić na plasterki](Part_SliceApart/pl.md) właściwość w środowisku **Część**, tnąc nasz obiekt 3D na kilka części zgodnie z wybranym planarnym potwierdzeniem.
 
+
+
 ## Nim zaczniesz 
 
 Do wykonania rysunków z załączonych przykładów użyto następujących środowisk pracy:
@@ -45,6 +51,8 @@ Do wykonania rysunków z załączonych przykładów użyto następujących środ
 -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Szkicownik](Sketcher_Workbench/pl.md)
 -   <img alt="" src=images/Workfeature_workbench_icon.svg  style="width:24px;"> [Workfeature](Workfeature_Workbench/pl.md)
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+
+
 
 ## Zadanie
 
@@ -77,11 +85,16 @@ To zależy od każdego z nas, od wyobraźni i pomysłowości, aby zoptymalizowa�
 Załączam pliki niektórych przykładów przepływu pracy rysunków technicznych *(niemożliwe do wykonania tylko w środowisku Rysunek Techniczny)*, z których obrazy pokazane poniżej zostały podjęte.
 W nadziei, że będzie przydatne, dobra praca i dobre eksperymenty!
 
+
 ## Uwagi
+
+
 
 ## Perspektywy na przyszłość 
 
 Opisana ścieżka może jednak stanowić punkt wyjścia *(lub pomysł)* do napisania dodatkowego kodu automatyzującego system i zintegrowania go bezpośrednio ze środowiskiem Rysunek Roboczy za pomocą odpowiednich funkcji przycisków / poleceń.
+
+
 
 ## Odnośniki internetowe 
 
@@ -91,9 +104,11 @@ Opisana ścieżka może jednak stanowić punkt wyjścia *(lub pomysł)* do napis
 -   [Rysunek Roboczy: -- jak używać narzędzi przyciągania środowiska Rysunek Roboczy do tworzenia \"wierzchołków / punktów kosmetycznych\"](https://forum.freecadweb.org/viewtopic.php?f=28&t=53329) Wątek na forum w języku włoskim.
 
 
- {{TechDraw Tools navi}}
+{{TechDraw Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Advanced TechDraw Tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Advanced TechDraw Tutorial/pl

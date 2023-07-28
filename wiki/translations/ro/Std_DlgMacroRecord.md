@@ -10,6 +10,8 @@
 # Std DlgMacroRecord/ro
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Descriere
@@ -29,6 +31,8 @@ Această funcție înregistrează la macro, toate operațiile efectuate în spa�
 *The Macro recording dialog box*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Utilizare
@@ -46,7 +50,7 @@ Este accesibil via **Macro → Macro recording ...**, sau pe calea apăsării bu
 
 ## Options
 
--   When the Macro recording dialog box is displayed: press **Esc** or the **Cancel** button to abort the command.
+-   When the Macro recording dialog box is displayed: press **Esc** or the **Close** button to abort the command.
 
 ## Notes
 
@@ -55,8 +59,8 @@ Este accesibil via **Macro → Macro recording ...**, sau pe calea apăsării bu
 
 ## Preferences
 
--   The macro path can also be changed in the preferences: **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
--   In most cases it is undesirable to record actions that do not change the model: under **Edit → Preferences... → General → Macro → GUI commands** do one of the following:
+-   The macro path can also be changed in the preferences: **Edit → Preferences... → Python → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
+-   In most cases it is undesirable to record actions that do not change the model: under **Edit → Preferences... → Python → Macro → GUI commands** do one of the following:
     -   To exclude these actions uncheck the {{CheckBox|FALSE|Record GUI commands}} checkbox.
     -   To include them as comments only check both the {{CheckBox|TRUE|Record GUI commands}} and {{CheckBox|TRUE|Record as comment}} checkboxes.
 

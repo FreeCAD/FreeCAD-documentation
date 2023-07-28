@@ -114,42 +114,44 @@ Une fois que vous avez tous les outils, bibliothèques et code source FreeCAD n�
 
 ### CMake
 
-Tout d\'abord, configurez l\'environnement de construction à l\'aide de CMake :
+Tout d\'abord, configurez l\'environnement de compilation en utilisant CMake :
 
 1.  Ouvrez l\'interface graphique de CMake
 2.  Spécifiez le dossier source de FreeCAD.
-3.  Spécifiez un dossier de compilation (n\'utilisez pas le dossier source - CMake créera ce dossier s\'il n\'existe pas).
+3.  Spécifiez un dossier de compilation. Cela peut être **compilé** dans le dossier où vous avez cloné le repo car ce chemin est ignoré par git. N\'utilisez pas le dossier source. CMake va créer ce dossier s\'il n\'existe pas.
 4.  Cliquez sur **Configure**.
-5.  Dans la boîte de dialogue qui apparaît, spécifiez le générateur que vous souhaitez utiliser: dans la plupart des cas, vous utiliserez les valeurs par défaut de cette boîte de dialogue. Pour le MS Visual Studio standard, utilisez *Visual Studio xx 2yyy* où xx est la version du compilateur et 2yyy l\'année de sa sortie. Il est recommandé d\'utiliser l\'option par défaut *Use default native compilers*.
+5.  Dans la boîte de dialogue qui apparaît, spécifiez le générateur que vous voulez utiliser : dans la plupart des cas, vous utiliserez les valeurs par défaut de cette boîte de dialogue. Pour le MS Visual Studio standard, utilisez *Visual Studio xx 2yyy* où xx est la version du compilateur et 2yyy l\'année de sa sortie. Il est recommandé d\'utiliser l\'option par défaut *Use default native compilers*.
 
 **Remarque:** Il est important de spécifier la variante de bit correcte. Si vous avez la variante 64 bits de LibPack, vous devez également utiliser le compilateur x64.
 
 Cela commencera la configuration et *échouera* à cause de paramètres manquants. C\'est normal, vous n\'avez pas encore spécifié l\'emplacement du LibPack. Cependant, d\'autres problèmes peuvent survenir et nécessiter une action supplémentaire de votre part.
 
-S\'il échoue avec le message \"Visual Studio est introuvable\", la prise en charge de CMake dans MSVC n\'est pas encore installée. Pour l\'installer :
+S\'il échoue avec le message Visual Studio est introuvable, la prise en charge de CMake dans MSVC n\'est pas encore installée. Pour l\'installer :
 
 1.  Ouvrez l\'EDI MSVC
-2.  Utilisez le menu Outils → Obtenir les outils et fonctionnalités
-3.  Dans l\'onglet *Workloads*, activez *Développement de bureau avec C++*
-4.  Sur le côté droit, vous devriez maintenant voir que le composant *Outils Visual C++ pour CMake* sera installé.
+2.  Utilisez le menu Tools → Get Tools and Features
+3.  Dans l\'onglet *Workloads*, activez *Desktop development with C++*
+4.  Sur le côté droit, vous devriez maintenant voir que le composant *Visual C++ tools for CMake* sera installé.
 5.  Installez-le.
 
 Si cela échoue avec un message sur la mauvaise version de Python ou Python manquant, alors :
 
 1.  Utilisez la case \"Search:\" dans CMake pour rechercher la chaîne \"Python\"
-2.  Si vous y voyez un chemin comme *C:/Program Files/Python38/python.exe*, CMake a reconnu le Python qui est déjà installé sur votre PC, mais cette version n\'est pas compatible avec le LibPack. Étant donné que le LibPack inclut une version compatible de Python, modifiez les paramètres Python suivants dans CMake sur ses chemins (en supposant que le LibPack se trouve dans le dossier *D:\\FreeCAD-build\\FreeCADLibs_12.5.2_x64_VC17*) :
+2.  Si vous y voyez un chemin comme *C:/Program Files/Python38/python.exe*, CMake a reconnu le Python qui est déjà installé sur votre PC, mais cette version n\'est pas compatible avec le LibPack. Étant donné que le LibPack inclut une version compatible de Python, modifiez les paramètres Python suivants dans CMake sur ses chemins (en supposant que le LibPack se trouve dans le dossier *D:/FreeCAD-build/FreeCADLibs_2\_8_x64_VC2019*) :
 
 ![](images/CMake_Python_settings.png )
 
-S\'il n\'y a pas d\'erreur à propos de Visual Studio ou Python, tout va bien, mais CMake ne connaît pas encore tous les paramètres nécessaires. Donc maintenant :
+S\'il n\'y a pas d\'erreur concernant Visual Studio ou Python, tout va bien, mais CMake ne connaît pas encore tous les paramètres nécessaires. Donc maintenant :
 
-1.  Recherchez dans CMake la variable **FREECAD_LIBPACK_DIR** et spécifiez l\'emplacement du dossier LibPack que vous avez téléchargé précédemment.
-2.  Seulement si vous compilez FreeCAD 0.19, cherchez la variable **BUILD_QT5** et activez cette option.
-3.  Cliquez à nouveau sur **Configure**.
+1.  Cherchez dans CMake la variable **FREECAD_LIBPACK_DIR** et spécifiez l\'emplacement du dossier LibPack que vous avez téléchargé plus tôt.
+2.  (*Si vous compilez FreeCAD 0.19*) cherchez la variable **BUILD_QT5** et activez cette option.
+3.  (*Si vous prévoyez d\'exécuter directement à partir du dossier de compilation comme pour le débogage*) recherchez et activez les options suivantes :
+    -   **FREECAD_COPY_DEPEND_DIRS_TO_BUILD**
+    -   **FREECAD_COPY_LIBPACK_BIN_TO_BUILD**
+    -   **FREECAD_COPY_PLUGINS_BIN_TO_BUILD**
+4.  Cliquez à nouveau sur **Configure**.
 
 Il ne devrait plus y avoir d'erreurs. Si vous continuez à rencontrer des erreurs que vous ne pouvez pas diagnostiquer, allez sur le [Forum Install/Compile](https://forum.freecadweb.org/viewforum.php?f=4) de FreeCAD. Si CMake a procédé correctement, cliquez sur **Generate**. Une fois cela fait, vous pouvez fermer CMake et démarrer la compilation de FreeCAD à l\'aide de Visual Studio. Cependant, pour la première compilation, gardez-le ouvert au cas où vous voudriez ou auriez besoin de changer certaines options pour le processus de construction.
-
-**Remarque :** Lors de la compilation de FreeCAD 0.19, la variable CMake **BUILD_ENABLE_CXX_STD** sera fixée à **C++14** alors que pour FreeCAD 0.20 elle sera fixée à **C++17**. Ceci est dû au fait que FreeCAD 0.20 requiert au moins la version 17 du standard du langage C++. Donc quand vous avez compilé la dernière fois FreeCAD 0.19, il est nécessaire de relancer CMake pour FreeCAD 0.20 pour changer le standard du langage C++.
 
 
 
@@ -206,7 +208,7 @@ Pour compiler un FreeCAD prêt à l'emploi, compilez la cible *INSTALL*, voir la
 
 Si vous n\'obtenez aucune erreur, vous avez terminé. **Félicitations !** Vous pouvez quitter MSVC ou le garder ouvert.
 
-Remarque : FreeCAD 0.20 nécessite au moins la version 17 du langage standard C++ mais le composant tiers *flann* du LibPack n\'est pas encore prêt pour cela. Par conséquent, vous aurez des erreurs de compilation pour la cible *ReverseEngineering*. Pour résoudre ce problème, faites un clic droit sur cette cible dans l\'explorateur de solutions MSVC et sélectionnez dans le menu contextuel la dernière entrée *Properties*. Dans la boîte de dialogue qui apparaît, changez le *C++ Language Standard* en *ISO C++14*. Enfin, recompilez la cible **ALL_BUILD**.
+**Important :** à partir de Visual Studio 17.4, vous ne pouvez pas utiliser l\'optimisation de code activée par défaut pour la cible **SketcherGui**. Si vous le faites, les contraintes d\'angle seront mal placées dans les esquisses. Pour résoudre ce problème, cliquez avec le bouton droit de la souris sur cette cible dans l\'explorateur de solutions MSVC et sélectionnez la dernière entrée **Properties** dans le menu contextuel. Dans la boîte de dialogue qui apparaît, allez dans C/C++ → Optimisation et désactivez le paramètre **Optimization**. Enfin, recompilez la cible **ALL_BUILD**.
 
 
 
@@ -226,14 +228,16 @@ Comme pré-requis pour la compilation debug, vous devez faire ceci :
 
 Maintenant vous pouvez compiler :
 
-1.  Démarrez l\'IDE de Visual Studio. Cela peut être fait en appuyant sur le bouton *Open Project* dans l\'interface graphique de CMake ou en double-cliquant sur le fichier «FreeCAD.sln» que vous trouvez dans votre dossier de construction.
-2.  Dans la barre d\'outils de MSVC IDE, assurez-vous que vous utilisez pour la première compilation *Debug*.
-3.  Il existe une fenêtre appelée *Solution Explorer*. Il répertorie toutes les cibles de compilation possibles. Pour démarrer une compilation complète, faites un clic droit sur la cible **ALL_BUILD** puis choisissez **Build** dans le menu contextuel.
+1.  Démarrez l\'IDE de Visual Studio. Cela peut être fait soit en appuyant sur le bouton *Open Project* dans la GUI de CMake ou en double-cliquant sur le fichier *FreeCAD.sln* que vous trouvez dans votre dossier de compilation.
+2.  Dans la barre d\'outils de l\'IDE de MSVC, assurez-vous que vous utilisez pour la première compilation *Debug*.
+3.  Il y a une fenêtre appelée *Solution Explorer*. Elle liste toutes les cibles de compilation possibles. Pour lancer une compilation complète, cliquez avec le bouton droit de la souris sur la cible **ALL_BUILD** et choisissez ensuite **Build** dans le menu contextuel.
 
-Cela prendra maintenant beaucoup de temps. S\'il n\'y a pas eu d\'erreurs de compilation, vous pouvez démarrer la compilation de débogage :
+Cette opération va maintenant prendre beaucoup de temps.
 
-1.  Faites un clic droit sur la cible **FreeCADMain** puis choisissez **Set as Startup Project** dans le menu contextuel.
-2.  Cliquez enfin dans la barre d\'outils sur le bouton avec le triangle vert nommé **Local Windows Debugger**.
+S\'il n\'y a pas eu d\'erreurs de compilation, et si les options **FREECAD_COPY\_\*** mentionnées dans l\'[étape configuration avec CMake](#CMake.md) ci-dessus ont été activées, vous pouvez commencer la compilation de débogage :
+
+1.  Faites un clic droit sur la cible **FreeCADMain** et choisissez ensuite **Set as Startup Project** dans le menu contextuel.
+2.  Enfin, cliquez dans la barre d\'outils sur le bouton avec le triangle vert nommé **Local Windows Debugger**.
 
 Cela lancera la version de débogage de FreeCAD et vous pourrez utiliser MSVC IDE pour le déboguer.
 
@@ -361,13 +365,7 @@ Il existe 2 méthodes pour exécuter la compilation de FreeCAD :
 
 La méthode 2 est la plus simple, car elle assure automatiquement que toutes les bibliothèques requises pour exécuter FreeCAD.exe se trouvent dans le bon dossier. FreeCAD.exe et les bibliothèques seront sortis dans le dossier que vous avez spécifié dans la variable CMake *CMAKE_INSTALL_PREFIX*.
 
-Pour la méthode 1, vous devez placer les bibliothèques dans le dossier *bin* de votre dossier de construction (où se trouve FreeCAD.exe). Cela peut être facilement fait en utilisant les variables CMake en option :
-
-1.  Ouvrez l\'interface graphique de CMake.
-2.  Recherchez et cochez la variable *FREECAD_COPY_DEPEND_DIRS_TO_BUILD*. S\'il n\'y a pas une telle option, les bibliothèques ont déjà été copiées, voir la [description des options](#Options_pour_le_procédé_de_compilation.md).
-3.  Recherchez et cochez la variable *FREECAD_COPY_LIBPACK_BIN_TO_BUILD*.
-4.  Recherchez et cochez la variable *FREECAD_COPY_PLUGINS_BIN_TO_BUILD*.
-5.  Cliquez sur **Configurer**. A la fin de la configuration, CMake copiera automatiquement les bibliothèques nécessaires du dossier LibPack.
+Pour la méthode 1, vous devez activer les options **FREECAD_COPY\_\*** mentionnées dans l\'[étape configuration avec CMake](#CMake.md) ci-dessus.
 
 
 
@@ -467,9 +465,9 @@ Le résultat est le fichier du plugin **FreeCAD_widgets.dll** dans le dossier*\~
 
 #### Installation
 
-Pour installer le plugin, copiez-le dans l\'un des deux endroits suivants :
+Pour installer le plugin, copiez la DLL soit vers :
 
--   Si vous utilisez le LibPack : dans le dossier*\~\\FreeCADLibs_12.5.4_x64_VC17\\bin\\designer*Puisqu\'il n\'y aura qu\'un dossier *bin* et que vous devez d\'abord créer le sous-dossier *designer*.
+-   Si vous utilisez le LibPack : dans le dossier*\~\\FreeCADLibs_2\_8_x64_VC2019\\plugins\\designer*
 -   Si vous avez une installation complète de Qt : vous pouvez choisir entre le dossier*C:\\Qt\\5.15.2\\msvc2019_64\\plugins\\designer*ou*C:\\Qt\\5.15.2\\msvc2019_64\\bin\\designer* (vous devez d\'abord créer le sous-dossier *designer*.)(adaptez les chemins à votre installation !).
 
 Enfin, (re)lancez Qt Designer et vérifiez son menu **Help → Plugins**. Si le plugin **FreeCAD_widgets.dll** est répertorié comme étant chargé, vous pouvez maintenant concevoir et modifier les fichiers .ui de FreeCAD, sinon vous devez [compiler](#Compilation.md) vous-même la DLL.

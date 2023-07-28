@@ -1,42 +1,31 @@
 ---
 - GuiCommand:/de
    Name:Draft PointArray
-   Name/de:Entwurf Punktanordnung
-   MenuLocation:Änderung → Anordnungswerkzeuge → Punktanordnung
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   Name/de:Draft PunktAnordnung
+   MenuLocation:Änderung → Array tools →  Punkt-Anordnung
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Version:0.18
-   SeeAlso:[Entwurf OrthoAnordnung](Draft_OrthoArray/de.md), [Entwurf PolarAnordnung](Draft_PolarArray/de.md), [Entwurf KreisAnordnung](Draft_CircularArray/de.md), [Entwurf PfadAnordnung](Draft_PathArray/de.md), [Entwurf PfadVerweisAnordnung](Draft_PathLinkArray/de.md), [Entwurf PunktVerweisAnordnung](Draft_PointLinkArray/de.md)
+   SeeAlso:[Draft RechtwinkligeAnordnung](Draft_OrthoArray/de.md), [Draft PolareAnordnung](Draft_PolarArray/de.md), [Draft KreisAnordnung](Draft_CircularArray/de.md), [Draft PfadAnordnung](Draft_PathArray/de.md), [Draft PfadVerknüpfungsanordnung](Draft_PathLinkArray/de.md), [Draft PunktVerknüpfungsanordnung](Draft_PointLinkArray/de.md)
 ---
 
 # Draft PointArray/de
 
 
-</div>
 
 ## Beschreibung
 
+Der Befehl <img alt="" src=images/Draft_PointArray.svg  style="width:24px;"> **Draft Punkt-Anordnung** erstellt eine regelmäßige Anordnung aus einem ausgewählten Basisobjekt, indem er Kopien auf den Punkten eines Punktobjekts positioniert. Der Befehl [Draft PunktVerknüpfungsanordnung](Draft_PointLinkArray/de.md) erstellt alternativ eine effizientere Verknüpfungsanordnung ([Link](App_Link/de.md)-Array). Außer der Art der Anordnung die erstellt wird, normale Anordnung oder Verknüpfungsanordnung, ist der Befehl [Draft PunktVerknüpfungsanordnung](Draft_PointLinkArray/de.md) identisch mit diesem Befehl.
 
-<div class="mw-translate-fuzzy">
+Das Basisobjekt kann ein 2D-Objekt sein, das mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench.md) erstellt wurde, aber auch ein 3D-Objekt, das mit den Arbeitsbereichen [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md) oder [Arch](Arch_Workbench/de.md) erstellt wurde.
 
-Der <img alt="" src=images/Draft_PointArray.svg  style="width:24px;"> **Entwurf PunktAnordnung** Befehl erzeugt eine regelmäßige Anordnung aus einem ausgewählten Objekt, indem er Kopien an den Punkten aus einer [Punkt Verbund](#Punkt_Verbund.md) platziert. Verwende stattdessen den Befehl [Entwurf PunktVerweisAnordnung](Draft_PointLinkArray/de.md), um eine effizientere [Verweis](App_Link/de.md) Anordnung zu erzeugen. Bis auf den Typ der erzeugten Anordnung, Verweis Anordnung oder regulärer Anordnung, ist der Befehl [Entwurf PunktVerweisAnordnung](Draft_PointLinkArray/de.md) identisch mit diesem Befehl.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Beide Befehle können auf 2D Objekte angewendet werden, die mit dem [ Arbeitsbereich Entwurf](Draft_Workbench/de.md) oder [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) erzeugt wurden, aber auch auf viele 3D-Objekte, wie sie mit dem [Part Arbeitsbereich](Part_Workbench/de.md), [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) oder [Arbeitsbereich Architektur](Arch_Workbench/de.md) erzeugt wurden.
-
-
-</div>
-
-The point object can be any object with a shape and vertices (including a [Std Part](Std_Part.md) containing one or more of such objects), as well as a [mesh](Mesh_Workbench.md) and a [point cloud](Points_Workbench.md). Duplicate points in the point object are filtered out. <small>(v1.0)</small> 
+Das Punktobjekt kann ein beliebiges Objekt mit einer Form und Knotenpunkten sein (einschließlich einem [Std Part](Std_Part/de.md), das ein oder mehrere solcher Objekte enthält), ein [Netz-Objekt](Mesh_Workbench/de.md) oder eine [Punktewolke](Points_Workbench/de.md). Doppelte Punkte im Punktobjekt werden herausgefiltert. {{Version/de|0.21}}
 
 In {{VersionMinus|0.20}} only three point object types are supported see [Point object version 0.20 and below](#Point_object_version_0.20_and_below.md).
 
 <img alt="" src=images/Draft_PointArray_Example.png  style="width:400px;"> 
-*Entwurf PunktAnordnung*
+*Draft PunktAnordnung*
+
+
 
 ## Anwendung
 
@@ -50,17 +39,13 @@ In {{VersionMinus|0.20}} only three point object types are supported see [Point 
 
 ## Point object version 0.20 and below 
 
-
-<div class="mw-translate-fuzzy">
-
-Eine Punktverbindung ist ein Objekt, das einen oder mehrere Punkte enthält. Dies sind die unterstützten Punktverbindungen und wie sie erstellt werden können:
+Dies sind die unterstützten Punktobjekte in {{VersionMinus/de|0.20}} und wie sie erstellt werden können:
 
 -   [Part Verbund](Part_Compound/de.md): Erzeugen einen oder mehrere [Entwurf Punkte](Draft_Point/de.md) oder [Part Punkte](Part_Point/de.md), wähle diese aus und rufe den Befehl [Part Verbund](Part_Compound/de.md) auf.
 -   Zeichnungsblock: Erzeuge einen oder mehrere [Entwurf Punkte](Draft_Point/de.md) oder [Part Punkte](Part_Point/de.md), markiere diese und rufe den Befehl [Entwurf Heraufstufen](Draft_Upgrade/de.md) auf.
 -   [Skizzierer Skizze](Sketcher_NewSketch/de.md): Erstelle eine [Skizze](Sketcher_NewSketch/de.md) und füge der Skizze einen oder mehrere [Skizzierer Punkte](Sketcher_CreatePoint/de.md) hinzu.
 
 
-</div>
 
 ## Eigenschaften
 
@@ -73,6 +58,8 @@ Eine [PunktAnordnung](Draft_PointArray/de.md) ist abgeleitet von einer l[Part Fo
 
 
 </div>
+
+
 
 ### Daten
 
@@ -123,6 +110,8 @@ The properties in this group are only available for Link arrays. See [Std LinkMa
 -    **Extra Placement|Placement**: : specifies an additional [placement](Placement.md), translation and rotation, for each element in the array.
 
 -    **Point Object|Link**: specifies the compound object whose points are used to position the elements in the array. The object must have a **Links**, **Components** or **Geometry** property, and contain at least one element with **X**, **Y**, and **Z** properties.
+
+
 
 ### Ansicht
 
@@ -194,6 +183,8 @@ The properties in this group are inherited properties. See [Part Feature](Part_F
 
 The properties in this group are not inherited by Link arrays.
 
+
+
 ## Skripten
 
 Siehe auch: [Autogenerierte API Dokumentation](https://www.freecadweb.org/api) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
@@ -234,15 +225,6 @@ compound.Links = [p1, p2, p3]
 point_array = Draft.make_point_array(polygon, compound)
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

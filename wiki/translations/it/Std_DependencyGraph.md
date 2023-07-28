@@ -2,7 +2,6 @@
 - GuiCommand:/it
    Name:Std_DependencyGraph
    Name/it:Grafico delle dipendenze
-   Empty:1
    MenuLocation:Strumenti → Grafico delle dipendenze...
    Workbenches:Tutti
 ---
@@ -10,21 +9,12 @@
 # Std DependencyGraph/it
 
 
-</div>
-
-
 
 ## Descrizione
 
 Il **Grafico delle dipendenze** mostra sotto forma di grafico le dipendenze tra gli oggetti presenti nel documento attivo. A differenza della [Vista ad albero](Tree_view/it.md), gli oggetti sono elencati in ordine cronologico inverso, con il primo oggetto creato situato nella parte inferiore.
 
-
-<div class="mw-translate-fuzzy">
-
-Può essere utile per analizzare un documento di FreeCAD e localizzare le biforcazioni nell\'albero della struttura. L\'aspetto grafico delle dipendenze dipende da quale ambiente di lavoro è stato utilizzato per creare gli oggetti presenti nel documento. Ad esempio, un modello realizzato esclusivamente nell\'ambiente [PartDesign](PartDesign_Workbench/it.md) dovrebbe visualizzare un grafico delle dipendenze lineare con un singolo ramo verticale. Un modello realizzato con operazioni [Parte](Part_Workbench/it.md) ha molti rami, ma per avere una sola parte questi rami devono confluire in un unico elemento collocato in cima dopo le [operazioni booleane](Part_Boolean/it.md). Se non lo fanno, vuol dire che ci sono degli oggetti separati.
-
-
-</div>
+Può essere utile per analizzare un documento di FreeCAD e localizzare le biforcazioni nell\'albero della struttura. L\'aspetto grafico delle dipendenze dipende da quale ambiente di lavoro è stato utilizzato per creare gli oggetti presenti nel documento. Ad esempio, un modello realizzato esclusivamente nell\'ambiente [PartDesign](PartDesign_Workbench/it.md) dovrebbe visualizzare un grafico delle dipendenze lineare con un singolo ramo verticale. Un modello realizzato con operazioni [Part](Part_Workbench/it.md) ha molti rami, ma per avere una sola parte questi rami devono confluire in un unico elemento collocato in cima dopo le [operazioni booleane](Part_Boolean/it.md). Se non lo fanno, vuol dire che ci sono degli oggetti separati.
 
 Il grafico delle dipendenze è uno strumento di pura visualizzazione, quindi non può essere modificato, Si aggiorna automaticamente se vengono apportate delle modifiche al modello.
 
@@ -41,53 +31,25 @@ Per utilizzare il grafico delle dipendenze, si deve prima installare un software
 
 ### Windows
 
+Scaricare il programma di installazione **graphviz-2.xx** dalla [Graphviz Download page](https://graphviz.org/download/#windows) ed eseguirlo per l\'installazione. Alcune versioni precedenti sembrano avere problemi nella visualizzazione del grafico; la versione 2.38 e successive sono note per essere affidabili. E\' possibile trovare tutte le versioni di graphviz su [Gitlab](https://gitlab.com/graphviz/graphviz/-/releases).
 
-<div class="mw-translate-fuzzy">
+### macOS
 
-Scaricare l\'installatore **graphviz-2.xx.msi** dalla pagina [Graphviz Download](https://graphviz.gitlab.io/_pages/Download/Download_windows.html) e lanciarlo per eseguire l\'installazione.
-
-
-</div>
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-### Mac/OSX
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-È possibile installare graphviz usando [Homebrew](https://brew.sh/):
-
-
-</div>
+E\' possibile installare Graphviz usando [Homebrew](https://brew.sh/) avendo macOS Big Sur (11) (o superiore). Durante l\'installazione di Homebrew, non innervosirsi, se macOS chiede di installare aggiornamenti, ad es. per gli strumenti della riga di comando Xcode. Questi aggiornamenti vengono eseguiti successivamente dal processo di installazione.
 
 
 {{Code|lang=text|code=
 brew install graphviz
 }}
 
-
-<div class="mw-translate-fuzzy">
-
-Questo installa i binari graphviz in /usr/local/bin. Purtroppo non è possibile esplorare quella posizione direttamente dalla finestra di dialogo sui file che si apre con **Strumenti → Grafico delle dipendenze...**.
-
-Quando si ottiene la finestra di selezione dei file utilizzare i tasti Cmd+Shift+G per ottenere un campo di input per il percorso. Inserire
-
-
-</div>
+Questo installa i binari di Graphviz in **/usr/local/bin** per macOS su Intel, o **/opt/homebrew** per macOS su Apple Silicon/ARM. FreeCAD dovrebbe trovare automaticamente queste posizioni. Se il programma Graphviz non viene trovato, verrà chiesto di specificare un percorso. Sfortunatamente non è possibile navigare direttamente al programma nella finestra di dialogo del file che appare da **Strumenti → Grafico delle dipendenze...**. Ci sono due opzioni: E\' possibile usare la combinazione di tasti Cmd+Maiusc+. per mostrare gli elementi nascosti. Oppure è possibile utilizzare la combinazione di tasti Cmd+Maiusc+G per ottenere un campo di input per il percorso. Inserire uno di questi percorsi nel [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)):
 
 
 {{Code|lang=text|code=
 /usr/local/bin
 }}
 
-or
+oppure:
 
 
 {{Code|lang=text|code=
@@ -96,14 +58,14 @@ or
 
 poi confermare il campo di immissione e la finestra di dialogo di selezione dei file.
 
-Nel caso in cui i binari di Graphviz non siano installati nella posizione standard, cercare di trovare il programma con il comando
+Nel caso in cui i binari di Graphviz non siano installati nella posizione standard, cercare di trovare il programma con il comandoː
 
 
 {{Code|lang=text|code=
 type dot
 }}
 
-Uscirà qualcosa di simile
+Uscirà qualcosa di simileː
 
 
 {{Code|lang=text|code=
@@ -112,15 +74,50 @@ dot is /usr/local/bin/dot
 
 Quindi si può dire a FreeCAD di cercare in quella directory.
 
+Se non si ha macOS Big Sur (11) (o superiore) Homebrew potrebbe non funzionare, ma è possibile utilizzare [MacPorts](https://www.macports.org/index.php). Basta scaricare la [versione appropriata per il proprio sistema operativo](https://www.macports.org/install.php). Una volta completata l\'installazione, inserire questo comando nel [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)):
+
+
+{{Code|lang=text|code=
+sudo port install graphviz
+}}
+
+Inserire la propria password e attendere mentre le dipendenze vengono scaricate e installate (può richiedere del tempo).
+
+I binari di Graphviz possono trovarsi in **/usr/local/bin** o **/opt/local/bin/dot**. FreeCAD potrebbe trovare automaticamente il programma Graphviz con la finestra di dialogo del file che viene visualizzata da **Strumenti → Grafico delle dipendenze...**, in caso contrario immettere questo comando:
+
+
+{{Code|lang=text|code=
+type dot
+}}
+
+Uscirà qualcosa di simileː
+
+
+{{Code|lang=text|code=
+dot is /opt/local/bin/dot
+}}
+
+E si può dire a FreeCAD di cercare in quella directory come spiegato prima.
+
+È anche possibile rendere visibile la directory opt con questo comando:
+
+
+{{Code|lang=text|code=
+defaults write com.apple.finder AppleShowAllFiles YES;
+}}
+
+poiː
+
+
+{{Code|lang=text|code=
+killall Finder /System/Library/CoreServices/Finder.app;
+}}
+
+Pertanto si puoò dire a FreeCAD di seguire questo percorso. È stato testato con successo su macOS 10.13 (High Sierra).
+
 ### Linux
 
-
-<div class="mw-translate-fuzzy">
-
-Sulla maggior parte delle distribuzioni Linux (Debian/Ubuntu, Fedora, OpenSUSE), è sufficiente installare il pacchetto graphviz dai repository. Nel caso in cui i binari di Graphviz non siano installati nella posizione standard, cercare di trovare il programma con il comando:
-
-
-</div>
+Sulla maggior parte delle distribuzioni Linux (Debian/Ubuntu, Fedora, OpenSUSE), è sufficiente installare il pacchetto Graphviz dai repository. Tuttavia, analogamente a macOS, nel caso in cui i binari di Graphviz non siano installati nella posizione standard, cercare di trovare il programma con il comando:
 
 
 {{Code|lang=text|code=
@@ -140,16 +137,10 @@ Quindi si può dire a FreeCAD di cercare in quella directory.
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Andare nel menu **Strumenti → Grafico delle dipendenze...**.
+1.  Andare nel menu **Strumenti →  <img src="images/Std_DependencyGraph.svg" width=16px> Grafico delle dipendenze...**.
 2.  Nella [vista principale](Main_view_area/it.md) si apre una nuova finestra dal titolo **Grafico delle dipendenze**.
 3.  Utilizzare la rotellina del mouse per ingrandire o rimpicciolire il grafico.
-4.  Utilizzare il dispositivo di scorrimento orizzontale nella parte inferiore dello schermo per scorrere la vista lateralmente.
-
-
-</div>
+4.  Utilizzare il dispositivo di scorrimento orizzontale nella parte inferiore dello schermo per scorrere la vista lateralmente. In alternativa tenere premuto il pulsante sinistro del mouse e muoverlo.
 
 
 
@@ -166,9 +157,6 @@ Quindi si può dire a FreeCAD di cercare in quella directory.
 
 ## Principi generali 
 
-
-<div class="mw-translate-fuzzy">
-
 -   Il grafico mostra gli oggetti in ordine cronologico inverso, dal basso verso l\'alto.
 -   La direzione delle frecce che mostrano le dipendenze dovrebbe sempre puntare verso il basso, dall\'oggetto figlio all\'oggetto genitore. Una freccia rivolta verso l\'alto indica una dipendenza ciclica, ed è un problema che deve essere risolto.
 -   Uno schizzo che contiene collegamenti a una [geometria esterna](Sketcher_External/it.md), oltre alla freccia che lo collega al suo genitore, ha un numero con un suffisso \'x\' e mostra il numero della geometria esterna collegata nello schizzo.
@@ -178,28 +166,13 @@ Quindi si può dire a FreeCAD di cercare in quella directory.
 -   Un [Gruppo](Std_Group/it.md) viene visualizzato come un singolo elemento collegato al suo contenuto.
 
 
-</div>
-
-
 
 ## Limitazioni
 
-
-<div class="mw-translate-fuzzy">
-
--   Il grafico delle dipendenze non è di aiuto con problemi causati dal problema della [denominazione topologica](topological_naming_problem/it.md). Se uno schizzo scambia le facce di una funzione dopo una modifica, esso è ancora collegato alla funzione. Anche se alcune funzioni sono interrotte, il grafico delle dipendenze rimane invariato.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   Il grafico delle dipendenze non è di aiuto con problemi causati dal problema della [denominazione topologica](Topological_naming_problem/it.md). Se uno schizzo scambia le facce di una funzione dopo una modifica, esso è ancora collegato alla funzione. Anche se alcune funzioni sono interrotte, il grafico delle dipendenze rimane invariato.
 
 
 
-
-
-</div>
 
 
 {{Std Base navi

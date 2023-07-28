@@ -67,6 +67,9 @@ La `$ROOT_DIR` è la directory dell\'utente in cui sono archiviati la configuraz
 
 ### Creare dall\'inizio 
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Opzionalmente, selezionare una faccia sull\'oggetto Arch in cui si desidera inserire la finestra.
 2.  Passare nell\'ambiente [Sketcher](Sketcher_Workbench/it.md).
 3.  Creare un nuovo schizzo.
@@ -77,25 +80,26 @@ La `$ROOT_DIR` è la directory dell\'utente in cui sono archiviati la configuraz
 8.  Per regolare i componenti della finestra e le varie proprietà, entrare nella finestra del [pannello Azioni](task_panel/it.md) facendo doppio clic sull\'oggetto creato nella [vista ad albero](tree_view/it.md).
 
 
-<div class="mw-translate-fuzzy">
-
-
-**Nota:**
-
-quando si crea lo schizzo, prestare molta attenzione all\'ordine di creazione dei contorni; la numerazione dei \"segmenti\" nel [ pannello delle azioni](task_panel/it.md) (\"Elementi della finestra\") dipende da questo.
-
-
 </div>
 
 ## Presets
 
 Sono disponibili i seguenti modelli preimpostati:
 
+
+<div class="mw-translate-fuzzy">
+
 Image:ParametersDoorGlass.svg\|Glass door Image:ParametersDoorSimple.svg\|Simple door Image:ParametersWindowDouble.svg\|Double-opening window Image:ParametersWindowFixed.svg\|Fixed window Image:ParametersWindowSimple.svg\|Single-opening window Image:ParametersWindowStash.svg\|Sash-opening window
+
+
+</div>
 
 
 
 ## Creare i componenti 
+
+
+<div class="mw-translate-fuzzy">
 
 La finestra può includere 3 tipi di componenti: i pannelli, le cornici e le persiane.
 
@@ -104,6 +108,9 @@ I pannelli e le persiane sono costituiti da un contorno chiuso che viene estruso
 È possibile accedere, creare, modificare ed eliminare i componenti di una finestra in modalità di modifica (doppio clic sull\'oggetto finestra nella struttura ad albero).
 
 I componenti hanno le seguenti proprietà:
+
+
+</div>
 
 -   **Name** : Un nome per il componente
 -   **Type**: Il tipo di componente. Può essere \"Frame\", \"Glass panel\" \"Solid panel\", o \"Louvres\"
@@ -144,7 +151,13 @@ uno strato di materiale denominato \"OuterFrame\". Se trova questo materiale lo 
 
 il [Tutorial per finestre aperte](Tutorial_for_open_windows/it.md).
 
+
+<div class="mw-translate-fuzzy">
+
 Le porte e le finestre possono apparire parzialmente o completamente aperte nel modello 3D oppure si possono visualizzare i simboli di apertura sia in pianta che in altezza. Di conseguenza, queste appariranno anche nelle viste in 2D estratte e generate da [Draft Viste 2D](Draft_Shape2DView/it.md) o [TechDraw](TechDraw_Workbench/it.md) o [Drawing](Drawing_Workbench/it.md). Per ottenere ciò, almeno uno dei componenti della finestra deve avere una cerniera e una modalità di apertura definita (vedere la sezione precedente \"Componenti dell\'edificio\"). Quindi, usando le proprietà **Opening**, **Symbol Plan** o **Symbol Elevation**, si può configurare l\'aspetto della finestra:
+
+
+</div>
 
 <img alt="" src=images/Arch_window_openings.png  style="width:600px;"> 
 *Una porta che mostra da sinistra a destra  come lavorano le proprietà Symbol Plan, Symbol Elevation e Opening*
@@ -232,9 +245,15 @@ Lo strumento Finestra può essere utilizzato nelle [macro](macros/it.md) e dalla
 Window = makeWindow(baseobj=None, width=None, height=None, parts=None, name="Window")
 ```
 
--   Crea un oggetto `Window` basato su un `baseobj`, che deve essere un [Wire](Draft_Wire/it.md) o uno [Sketcher Schizzo](Sketcher_Sketch/it.md) chiuso.
+
+<div class="mw-translate-fuzzy">
+
+-   Crea un oggetto `Window` basato su un `baseobj`, che deve essere un [Wire](Draft_Wire/it.md) o uno [Sketcher Schizzo](Sketcher_Workbench/it.md) chiuso.
 -   Se disponibile, imposta `width`, `height`, e `name` (label) della finestra.
 -   Se `baseobj` non è una forma chiusa, lo strumento non può creare un oggetto solido corretto.
+
+
+</div>
 
 Esempio: 
 ```python

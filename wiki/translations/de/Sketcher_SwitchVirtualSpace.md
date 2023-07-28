@@ -9,9 +9,13 @@
 
 # Sketcher SwitchVirtualSpace/de
 
+
+
 ## Beschreibung
 
 Der FreeCAD-Sketcher verfügt über zwei virtuelle Räume, denen Einschränkungen zugeordnet werden können. Generell werden alle Beschränkungen dem virtuellen Bereich eins zugeordnet. Es können einige Einschränkungen in den virtuellen Bereich zwei verschoben werden. Dies kann helfen, wenn nur wenige Einschränkungen gleichzeitig untersucht werden sollen.
+
+
 
 ## Anwendung
 

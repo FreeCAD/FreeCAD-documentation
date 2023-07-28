@@ -7,6 +7,8 @@ Parfois, vous avez besoin d\'un indice de la puissance d\'un outil, sans trop d\
 
 Il s\'agit d\'une série d\'exemples qui peuvent être réalisés avec certains outils. Pour des explications détaillées, consultez les descriptions des outils et cherchez des tutoriels sur le web.
 
+
+
 ## Protrusion
 
 <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Protrusion](PartDesign_Pad/fr.md) est un outil permettant de créer des objets Protrusion, qui sont des objets prismatiques tels que des objets d\'extrusion, des cylindres, des cônes, des cubes, des coins \...
@@ -24,6 +26,8 @@ Par défaut, il s\'agit de la direction normale du plan contenant le contour (pl
 
 <div class="mw-collapsible-content toccolours">
 
+
+
 ### Primitives prismatiques 
 
 ++++
@@ -40,13 +44,33 @@ Par défaut, il s\'agit de la direction normale du plan contenant le contour (pl
 | tronquée**            |                                                                                   |                                                                   |
 ++++
 
+
+
 ### Profils prismatiques 
 
+++++
+| **Profil en L** | <img alt="Profil en L" src=images/PartDesign_ExamplePad-06.png  style="width:200px;"> | -   Contour : forme en **L**.                                          |
+|                 |                                                                         |                                                                        |
+|                 |                                                                         | :                                                                      |
+++++
+| **Profil en C** | <img alt="Profil en C" src=images/PartDesign_ExamplePad-07.png  style="width:200px;"> | -   Contour : forme en **C**.                                          |
+++++
+| **Profil en Z** | <img alt="Profil en Z" src=images/PartDesign_ExamplePad-11.png  style="width:200px;"> | -   Contour : forme en **Z**.                                          |
+++++
+| **Profil en T** | <img alt="Profil en T" src=images/PartDesign_ExamplePad-09.png  style="width:200px;"> | -   Contour : forme en **T**.                                          |
+++++
+| **Profil en I** | <img alt="Profil en I" src=images/PartDesign_ExamplePad-10.png  style="width:200px;"> | -   Contour : forme en **I**, avec la largeur de la semelle \< l\'âme. |
+++++
+| **Profil en H** | <img alt="Profil en H" src=images/PartDesign_ExamplePad-08.png  style="width:200px;"> | -   Contour : forme en **H**, avec la largeur = la hauteur.            |
+++++
+
 
 </div>
 
 
 </div>
+
+
 
 ## Balayage additif 
 
@@ -66,6 +90,8 @@ Il n\'est pas difficile de réaliser que certains objets peuvent également êtr
 
 
 <div class="mw-collapsible-content toccolours">
+
+
 
 ### Objets à balayage circulaire 
 
@@ -94,6 +120,8 @@ Il n\'est pas difficile de réaliser que certains objets peuvent également êtr
 | Cylindre creux       |                                                                                                       | -   Trajectoire : **cercle** complet                                                                                                                                                |
 ++++
 
+
+
 ### Objets prismatiques 
 
 Objets à balayage droit
@@ -117,9 +145,11 @@ Objets à balayage droit
 | Prisme en forme d\'étoile | <img alt="Prisme en forme d\'étoile" src=images/PartDesign_ExamplePrism-06.png  style="width:200px;"> | -   Contour : **forme régulière d\'étoile**.                                    |
 |                           |                                                                                                      | -   Trajectoire : **ligne** droite.                                             |
 ++++
-| Poutre en double T        | <img alt="Poutre en double T" src=images/PartDesign_ExamplePrism-07.png  style="width:200px;">              | -   Contour : **section de poutre**                                             |
+| Poutre en I               | <img alt="Poutre en I" src=images/PartDesign_ExamplePrism-07.png  style="width:200px;">                            | -   Contour : **section de poutre**                                             |
 |                           |                                                                                                      | -   Trajectoire : **ligne** droite.                                             |
 ++++
+
+
 
 ### Objets coniques 
 
@@ -140,6 +170,8 @@ Objets à balayage droit
 |                   |                                                                                       | :   (Le point d\'extrémité est le point final de la trajectoire)       |
 ++++
 
+
+
 ### Objets à balayage courbe 
 
 ++++
@@ -155,9 +187,11 @@ Objets à balayage droit
 | Cornet                   | <img alt="Cornet" src=images/PartDesign_ExampleSweep-03.png  style="width:200px;">               | -   Contours : la base : **cercle**, le dessus : **cercle** (plus petit). |
 |                          |                                                                               | -   Trajectoire : une **ligne** courbe.                                   |
 ++++
-| Légendaire **clé Allen** | <img alt="Clé Allen" src=images/PartDesign_ExampleSweep-05.png  style="width:200px;">         | -   Contours : **héxagone**.                                              |
+| Légendaire **clé Allen** | <img alt="Clé Allen" src=images/PartDesign_ExampleSweep-05.png  style="width:200px;">         | -   Contours : **hexagone**.                                              |
 |                          |                                                                               | -   Trajectoire : une **ligne** courbe.                                   |
 ++++
+
+
 
 ### Objets spiralés et hélicoïdaux 
 
@@ -171,6 +205,8 @@ Objets à balayage droit
 | **Ressort de volute**, | <img alt="Ressort de volute" src=images/PartDesign_ExampleSpring-04.png  style="width:200px;">       | -   Contour : **rectangle**.                                                                                              |
 | Ressort conique        |                                                                                              | -   Trajectoire : <img alt="" src=images/Part_Helix.svg  style="width:16px;"> [Part Hélice](Part_Helix/fr.md) avec un angle. |
 ++++
+
+
 
 ### Objets de transition 
 
@@ -186,6 +222,8 @@ Objets à balayage droit
 ++++
 
 ### Options
+
+
 
 #### Transition d\'angle 
 
@@ -208,6 +246,8 @@ La transformation nécessite une attention particulière car elle peut produire 
 |                   |                                                                                                             |                                                                                                                         |
 |                   | :   Les coins situés en dehors de la trajectoire sont arrondis.                                             | :   La forme de base suit l\'orientation de la ligne.                                                                   |
 ++++
+
+
 
 #### Mode d\'orientation 
 

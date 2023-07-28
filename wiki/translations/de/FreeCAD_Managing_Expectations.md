@@ -4,6 +4,8 @@
 
 {{TOCright}}
 
+
+
 ## Zweck
 
 Diese Wiki-Seite ist für neue FreeCAD-Nutzer gedacht, die von anderen CAD/CAM-Anwendungen kommen.
@@ -12,15 +14,11 @@ Diese Wiki-Seite ist für neue FreeCAD-Nutzer gedacht, die von anderen CAD/CAM-A
 
 Many hobbyists, freelance designers and small businesses often seek refuge from the high costs and licensing restrictions of commercial software, or perhaps you merely choose FreeCAD because you believe in the philosophy behind [FOSS](https://en.wikipedia.org/wiki/FOSS). In either case, WELCOME! There are many users, just like you who have successfully made the transition to FreeCAD for their personal and professional needs. This wiki page is designed to help set you on the path to success and establish some realistic expectations while diving into the *FreeCAD Way*, which is most likely quite a bit different from what you may have grown accustomed to with other popular CAD software.
 
+
+
 ## Was kann ich erwarten? 
 
-
-<div class="mw-translate-fuzzy">
-
-Im Kern ist FreeCAD ein parametrischer Modellierer. Sein Konzept basiert auf der Verwendung von Arbeitsbereichen, wobei jeder Arbeitsbereich für bestimmte Aufgaben und Funktionen verantwortlich ist. Als solches kann es für viele Zwecke eingesetzt werden. Es wird aktiv der Produktion eingesetzt und ist ziemlich stabil. Aber wie jedes andere CAD-Programm auch ist FreeCAD nicht zu 100% stabil.
-
-
-</div>
+Im Kern ist FreeCAD ein leistungsfähiger parametrischer Modellierer. Sein Konzept basiert auf der Verwendung von modularen Arbeitsbereichen, wobei jeder Arbeitsbereich für bestimmte Aufgaben und Funktionen verantwortlich ist. Dieses Konzept ist sehr flexibel und kann für viele Zwecke erfolgreich eingesetzt werden. FreeCAD wird aktiv weiterentwickelt, produktiv eingesetzt und ist ziemlich stabil; aber wie jedes andere CAD-Programm ist auch FreeCAD nicht zu 100% stabil.
 
 
 <div class="mw-translate-fuzzy">
@@ -29,6 +27,8 @@ Wenn man von einem anderen CAD-Programm kommt, muss man sicherlich seine Arbeits
 
 
 </div>
+
+
 
 ## Wie kann ich unterstützen? 
 
@@ -88,6 +88,8 @@ One of the powerful features of FreeCAD is it\'s modularity. This is done by com
 FreeCAD is built around an open-source Geometric Modeling Kernel called \"[OpenCascade Technology](OpenCASCADE.md)\" (or OCC). It is the most feature rich and mature open source modeling kernel available. However it does have bugs, quirks and limitations. One of these is referred to as the [\"Topological Naming Problem\"](Topological_naming_problem.md) (or TNP). Whenever a model is modified, the internal names of faces and edges are changed by the kernel causing undesirable behavior for any model features that reference them. The current development cycle is focused around implementing a naming algorithm designed to mitigate this effect under most circumstances. However, be aware that TNP mitigation is not a replacement for [good modeling practice and techniques](Feature_editing.md).
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### OpenCascade-Kernel 
@@ -99,6 +101,8 @@ OpenCascade (OCC) is an external CAD kernel that FreeCAD is utterly dependent on
 
 -   [Bugtracker](https://github.com/FreeCAD/FreeCAD/issues?q=is%3Aopen+is%3Aissue+label%3A%223rd+Party%3A+OCC%22)
 -   [OCC Bugs in the Bugtracker (forum thread)](https://forum.freecad.org/viewtopic.php?t=20264)
+
+
 
 
 <div class="mw-translate-fuzzy">

@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -25,9 +27,19 @@ Questo strumento crea una finestra di ritaglio che può contenere una o più vis
 ![](images/TechDraw_Clipview.png ) 
 *Finestra di ritaglio di diverse viste esistenti*
 
+
+
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Premere il pulsante **<img src="images/TechDraw_ClipGroup.svg" width=16px> [Gruppo di clip](TechDraw_ClipGroup/it.md)** per creare una nuova Clip.
+
+
+</div>
+
+
 
 ## Proprietà
 

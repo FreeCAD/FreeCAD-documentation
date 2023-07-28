@@ -14,6 +14,8 @@
 
 La commande **Std Rétablir** inverse l\'action de la commande [Std Annuler](Std_Undo/fr.md).
 
+
+
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande :
@@ -25,10 +27,14 @@ La commande **Std Rétablir** inverse l\'action de la commande [Std Annuler](Std
 
 -   Pour Rétablir plusieurs actions, cliquez sur la flèche noire vers le bas à droite du bouton **<img src="images/Std_Redo.svg" width=16px> [Std Rétablir](Std_Redo.md)** et sélectionnez dans la liste.
 
+
+
 ## Préférences
 
--   La fonctionnalité Annuler/Rétablir peut être désactivée en définissant **Outils → Editer paramètres... → BaseApp → Preferences → Document → UsingUndo** sur `False`, mais ce n\'est pas recommandé. Ce paramètre peut également être modifié dans l\'[Editeur de préférences](Preferences_Editor/fr#Document.md).
--   Le nombre maximum d\'étapes Annuler / Rétablir est contrôlé par **Outils → Éditer paramètres... → BaseApp → Préférences → Document → MaxUndoSize**. Ce paramètre peut également être modifié dans l\'[Éditeur de préférences](Preferences_Editor/fr#Document.md).
+-   La fonctionnalité Annuler/Rétablir peut être désactivée en définissant **Outils → Éditer les paramètres... → BaseApp → Preferences → Document → UsingUndo** sur `False`, mais ce n\'est pas recommandé. Ce paramètre peut également être modifié dans l\'[Editeur de préférences](Preferences_Editor/fr#Document.md).
+-   Le nombre maximum d\'étapes Annuler / Rétablir est contrôlé par **Outils → Éditer les paramètres... → BaseApp → Preferences → Document → MaxUndoSize**. Ce paramètre peut également être modifié dans l\'[Éditeur de préférences](Preferences_Editor/fr#Document.md).
+
+
 
 ## Script
 

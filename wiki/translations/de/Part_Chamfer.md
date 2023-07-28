@@ -2,7 +2,7 @@
 - GuiCommand:/de
    Name:Part Chamfer
    Name/de:Part Fase
-   MenuLocation:Formteil → Fase...
+   MenuLocation:Part → Anfasen...
    Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:[Part Verrundung](Part_Fillet/de.md)
 ---
@@ -13,7 +13,7 @@
 
 ## Beschreibung
 
-Anfasen der gewählten Kante(n) eines Objekts. Ein Dialog erlaubt die Auswahl, welche Kante(n) betroffen sind, sowie die Anpassung verschiedener Anfasungsparameter.
+**Part Fase** versieht ausgewählten Kanten eines Objekts mit einer Fase. Ein Dialog erlaubt die Auswahl der betroffenen Kanten sowie die Anpassung verschiedener Fasenparameter.
 
 ![Anfasungsbeispiel](images/Chamfer-example.png )
 
@@ -21,13 +21,18 @@ Anfasen der gewählten Kante(n) eines Objekts. Ein Dialog erlaubt die Auswahl, w
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Part_Chamfer.svg" width=16px> Abschrägung...** drücken.
-    -   Den Menüeintrag **Formteil → Abschrägung...** auswählen.
-2.  Wähle die anzufasende Form aus dem Dialogfeld aus.
-3.  Wähle die anzufasenden Kanten aus, indem du das entsprechende Kästchen im Dialogfeld für Fasen anhakst oder indem du sie direkt am Modell auswählst.
-4.  Bearbeite Fasenparameter.
-5.  Drücke **OK**, um das Dialogfeld für die Fase zu schließen und die Fase anzuwenden.
+    -   Den Menüeintrag **Part → Abschrägung...** auswählen.
+
+2.  Die anzufasende Form aus dem Dialogfeld auswählen.
+
+3.  Die anzufasenden Kanten auswählen, indem das entsprechende Kästchen im Dialogfeld für Fasen angehakt wird oder indem sie direkt am Modell ausgewählt werden.
+
+4.  Parameter der Fasen bearbeiten.
+
+5.  
+    **OK**drücken, um das Dialogfeld für die Fase zu schließen und die Fase anzuwenden.
 
 
 
@@ -35,10 +40,10 @@ Anfasen der gewählten Kante(n) eines Objekts. Ein Dialog erlaubt die Auswahl, w
 
 ![Dialog-chamfer](images/Dialog-chamfer.png )
 
--   Wenn du Kanten am Modell auswählst, hast du die Möglichkeit, nach Kante oder Fläche zu wählen. Die Auswahl nach Fläche wählt alle angrenzenden Kanten dieser Fläche aus.
--   Fase mit konstanter Länge oder Fase mit variabler Länge.
-    -   Eine Fase mit konstanter Länge erzeugt eine Fase mit Kanten, die in dem angegebenen Abstand gleich weit von der Originalkante entfernt sind.
-    -   Eine Fase mit variabler Länge hat Kanten, die in unterschiedlichen Abständen von der ursprünglichen Kante eingestellt werden können, so dass du eine Fase in einem variablen Winkel erstellen kannst.
+-   Werden Kanten am Modell ausgewählt, hat man die Möglichkeiten \"Kanten auswählen\" und \"Flächen auswählen\" zu verwenden. Durch Auswahl einer Fläche werden alle angrenzenden Kanten dieser Fläche ausgewählt.
+-   Für die Art der Fase kann \"Konstante Länge\" oder \"Variable Länge\" festgelegt werden. (Durch ein Übersetzungsproblem findet man im Auswahlfeld Radius anstatt Länge\...)
+    -   Die Auswahl \"Konstante Länge\" erzeugt eine Fase mit Kanten, die im gegebenen Abstand gleich weit von der ursprünglichen Kante entfernt sind.
+    -   Die Auswahl \"Variable Länge\" erzeugt eine Fase mit Kanten, die mit unterschiedlichen Abständen von der ursprünglichen Kante festgesetzt werden können, sodass eine Fase in einem einstellbaren Winkel erstellt werden kann.
 
 
 
@@ -62,15 +67,9 @@ Anfasen der gewählten Kante(n) eines Objekts. Ein Dialog erlaubt die Auswahl, w
 
 ## Einschränkungen
 
-Die Fase könnte nichts ausrichten, wenn das Ergebnis die nächste angrenzende Kante berühren oder überqueren würde. Wenn du also nicht das erwartete Ergebnis erhälst, versuche es mit einem kleineren Wert. Dies gilt auch für <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Verrundung](Part_Fillet/de.md).
+(Der Befehl) Fase bewirkt möglicherweise nichts, wenn das Ergebnis die nächste angrenzende Kante berühren oder überqueren würde. Wenn also nicht das erwartete Ergebnis erscheint, kann man es mit einem kleineren Wert versuchen. Dies gilt auch für <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Verrundung](Part_Fillet/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Beachte auch, dass die Fasenfunktion von dem [Topologischen Benennungsproblem](Topological_naming_problem/de.md) betroffen ist, wenn die Änderung in einem Modellierungsschritt vorgenommen wird, der früher in der Kette liegt und die Anzahl der Facetten oder Eckpunkte beeinflusst. Dies kann zu unvorhersehbaren Ergebnissen führen. Bis dies gelöst ist (möglicherweise mit V0.20), wird empfohlen, die Operationen Fase und <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Verrundung](Part_Fillet/de.md) auf die letzten Schritte in der Kette anzuwenden.
-
-
-</div>
+Beachte auch, dass die Fasenfunktion von dem [Problem der topologischen Benennung](Topological_naming_problem/de.md) betroffen ist, wenn die Änderung in einem Modellierungsschritt vorgenommen wird, der früher in der Kette liegt und die Anzahl der Facetten oder Eckpunkte beeinflusst. Dies kann zu unvorhersehbaren Ergebnissen führen. Bis dies gelöst ist, wird empfohlen, die Operationen Fase und <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Verrundung](Part_Fillet/de.md) als letzte Schritte in der Kette anzuwenden.
 
 
 

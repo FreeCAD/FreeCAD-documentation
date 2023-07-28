@@ -74,6 +74,8 @@ importOBJ.export(objs, "/home/user/assembly.obj")
 
 ## Blender
 
+
+
 ### Préparez le modèle 
 
 4\. Ouvrez Blender. Changez le panneau `Timeline` dans une `console Python` (**Shift**+**F4**). Cela vous aidera à saisir des commandes et à voir les résultats. Vous pouvez diviser ce panneau, pour garder la console d\'un côté, et faire de l\'autre division un panneau `Info`; cela vous permettra de voir le code des actions en cliquant sur l\'interface.
@@ -148,6 +150,8 @@ for obj in bpy.data.objects:
 
 *align=center|Assemblage créé dans FreeCAD importé dans Blender; le modèle a été tourné et les unités de la scène ont été ajustées pour correspondre aux objets importés.*
 
+
+
 ### Préparez la caméra de la scène 
 
 8\. Réglez la caméra dans la bonne position.
@@ -179,6 +183,8 @@ bpy.context.object.data.display_size = 20
 bpy.context.object.data.show_limits = True
 ```
 
+
+
 ### Préparez la caméra de la scène 
 
 9\. Sélectionnez la lumière dans `Outliner`, allez dans le panneau `Properties`, puis `Object Data`, puis appuyez sur `Sun`, et réglez le `Strength` à `5.0`.
@@ -207,6 +213,8 @@ Appuyez à nouveau sur **F12** pour voir un rendu préliminaire du modèle.
 
 *align=center|Rendu de l'assemblage dans Blender avec une lampe solaire ajoutée qui émet des rayons lumineux parallèles avec un angle fixe*
 
+
+
 ### Plus de configuration: sol, éclairage global, reflets et ombres douces 
 
 10\. Ajoutez un plan d\'étage. Appuyez sur **Shift**+**A** puis choisissez `Mesh`, `Plane`, et donnez-lui des dimensions environ 10 fois plus grandes que votre modèle. Cet objet maillé servira de plan de sol ou de dessus de table sur lequel le modèle se trouve. Déplacez également le plan un peu vers le bas afin qu\'il n\'intersecte pas le modèle; `-1 mm` sous l\'objet suffit.
@@ -227,6 +235,7 @@ bpy.context.scene.eevee.use_ssr = True
 bpy.context.scene.eevee.use_soft_shadows = True
 ```
 
+<span id="Set_the_materials_of_the_objects"></span>
 === Définir les matériaux des objets ===
 
 13. Transformez le panneau `Python Console` en un panneau `Shader Editor` (**Shift**+**F3**).
@@ -248,6 +257,8 @@ En général, les métaux sont naturellement lisses et donc leur valeur de rugos
 14\. Testez différentes combinaisons de matériaux jusqu\'à ce qu\'elles semblent acceptables. Appuyez sur **Z** puis sur **8** (pavé numérique) pour passer en mode `Rendered`; dans ce mode, le moteur de rendu EEVEE montre en temps réel dans la fenêtre 3D à quoi ressemblera l\'image finale. Utilisez **Z** pour ouvrir le menu à secteurs et revenir en mode `Solid` (**Z** **6**), ou accédez à `LookDev` mode (**Z** **2**), un mode qui ajoute différents types d\'éclairage à la scène pour tester l\'apparence des matériaux.
 
 Appuyez sur **F12** pour rendre la vue à travers la caméra et vérifier la qualité de l\'image.
+
+
 
 ### Rendu et sauvegarde 
 
@@ -282,6 +293,8 @@ Appuyez sur **F12** pour rendre la vue finale à travers la caméra. Selon votre
 
 *align=center|Assemblage rendu produit avec Blender Cycles; toutes les options, matériaux et lumières utilisés avec EEVEE ont été conservés pour être utilisés avec Cycles.*
 
+
+
 ### Rendu depuis la ligne de commande 
 
 18\. Si la scène est complètement terminée, vous souhaiterez peut-être effectuer le rendu depuis l\'extérieur de Blender, depuis la ligne de commande du système d\'exploitation. Cela peut être utile pour effectuer le rendu par lots de différentes scènes dans un système distant. EEVEE et Cycles sont pris en charge.
@@ -297,6 +310,8 @@ blender -b assembly.blend -E CYCLES -o //assembly_CYCLES_#### -t 3 -F PNG -x 1 -
 }}
 
 Ceci spécifie que le rendu doit avoir lieu en arrière-plan avec `-b`; le moteur de rendu est choisi avec `-E`; le nom du fichier de sortie est sélectionné avec `-o`; la double barre oblique `//` indique un chemin relatif au fichier d\'entrée; le signe dièse `#` est utilisé pour indiquer le numéro de la trame, complété avec des zéros si nécessaire, par exemple, `0001`; le nombre de threads CPU utilisés dans le rendu est choisi avec `-t 3`; le format du fichier de sortie est indiqué par `-F`, et l\'option `-x 1` ajoute automatiquement l\'extension au nom; la dernière option est `-f 1` qui indique que seule la première image sera rendue, ce qui est le cas normal pour une scène statique; pour les animations, utilisez le commutateur `-a` pour produire une image pour chaque image, qui peut ensuite être assemblée pour produire un fichier vidéo.
+
+
 
 ## Importation du plugin 
 
@@ -336,6 +351,8 @@ import sys
 sys.path.append("/usr/lib/freecad/lib/FreeCAD.so")
 ```
 
+
+
 ## Remarques finales 
 
 EEVEE n\'est pas un moteur de rendu physiquement précis, mais sa principale force est qu\'il s\'agit d\'un moteur en temps réel, ce qui lui permet de produire des rendus rapides directement dans la fenêtre 3D. Dans de nombreux cas, ces images ont une qualité suffisante pour la production finale, ce qui signifie qu\'il est possible d\'obtenir un bon résultat en très peu de temps. Dans les cas où des interactions lumineuses complexes sont souhaitées (réflexions, réfractions, lumière volumétrique et caustiques), EEVEE est plus limité et nécessite certaines options et astuces pour contourner certaines de ces limitations.
@@ -344,9 +361,14 @@ D\'autre part, Cycles est un véritable moteur de rendu par lancer de rayons, ce
 
 Les deux moteurs de rendu peuvent être utilisés pour tirer parti des avantages de chacun. Dans de nombreux cas, la scène peut être rapidement préparée et testée avec EEVEE pour obtenir des rendus préliminaires; Ensuite, la même scène peut être utilisée avec des modifications mineures avec Cycles afin de produire un rendu final de meilleure qualité. En particulier, lorsqu\'une scène configurée avec EEVEE sera utilisée avec Cycles, la valeur et la position des lumières peuvent devoir être ajustées car les deux moteurs de rendu traitent la lumière de différentes manières.
 
-L\'obtention de bons résultats dépend fortement des options de rendu, des matériaux et de l\'éclairage. Le shader de matériau `Principled BSDF` est une solution générique qui fonctionne bien dans de nombreux cas, cependant, pour produire des résultats vraiment photoréalistes, l\'utilisation de textures et de textures normales, ainsi que d\'un éclairage soigné de la scène est toujours très importante .  {{Raytracing Tools navi}}
+L\'obtention de bons résultats dépend fortement des options de rendu, des matériaux et de l\'éclairage. Le shader de matériau `Principled BSDF` est une solution générique qui fonctionne bien dans de nombreux cas, cependant, pour produire des résultats vraiment photoréalistes, l\'utilisation de textures et de textures normales, ainsi que d\'un éclairage soigné de la scène est toujours très importante .
+
+
+{{Raytracing Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Raytracing](Category_Raytracing.md) > Tutorial Render with Blender/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Tutorial Render with Blender/fr

@@ -113,6 +113,8 @@ Eskiz, 2D planlar üretmek için tasarlanmamıştır. Eskizler, katı bir özell
 
 </div>
 
+The tool [Draft2Sketch](Draft_Draft2Sketch.md) converts a Draft object to a Sketch object, and vice versa. Many tools that require a 2D element as input work with either type of object as an internal conversion is done automatically.
+
 ## Sketching Workflow 
 
 
@@ -155,7 +157,14 @@ Eskiz Tezgahı araçlarının tümü, Eskiz Tezgahını yüklediğinizde görün
 
 </div>
 
+
+<small>(v0.21)</small> 
+
+: If a sketch is in edit mode the Structure toolbar is hidden as none of its tools can then be used.
+
 ### General
+
+#### Sketcher toolbar 
 
 
 <div class="mw-translate-fuzzy">
@@ -169,30 +178,6 @@ Eskiz Tezgahı araçlarının tümü, Eskiz Tezgahını yüklediğinizde görün
 <div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_EditSketch.png  style="width:32px;"> [Eskizi düzenle](Sketcher_EditSketch/tr.md): Seçilen Eskiz\'i düzenler.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_LeaveSketch.png  style="width:32px;"> [Eskizden çık](Sketcher_LeaveSketch/tr.md): Eskiz düzenleme modundan çıkar.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_ViewSketch.png‎  style="width:32px;"> [Eskiz görünümü](Sketcher_ViewSketch/tr.md): Model görünümünü eskiz düzlemine dik olarak ayarlar.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_ViewSection.png  style="width:32px;"> [Bölümü görüntüle](Sketcher_ViewSection/tr.md): Eskiz düzleminin önünde herhangi bir cismi geçici olarak gizleyen bir bölüm düzlemi oluşturur.<small>(v0.18)</small> 
 
 
 </div>
@@ -236,6 +221,42 @@ Eskiz Tezgahı araçlarının tümü, Eskiz Tezgahını yüklediğinizde görün
 
 
 </div>
+
+#### Sketcher Edit Mode toolbar 
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_LeaveSketch.png  style="width:32px;"> [Eskizden çık](Sketcher_LeaveSketch/tr.md): Eskiz düzenleme modundan çıkar.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ViewSketch.png‎  style="width:32px;"> [Eskiz görünümü](Sketcher_ViewSketch/tr.md): Model görünümünü eskiz düzlemine dik olarak ayarlar.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ViewSection.png  style="width:32px;"> [Bölümü görüntüle](Sketcher_ViewSection/tr.md): Eskiz düzleminin önünde herhangi bir cismi geçici olarak gizleyen bir bölüm düzlemi oluşturur.<small>(v0.18)</small> 
+
+
+</div>
+
+#### Sketcher edit tools toolbar 
+
+-   <img alt="" src=images/Sketcher_Grid.svg  style="width:32px;"> [Toggle grid](Sketcher_Grid.md): Toggles the grid in the sketch currently being edited. Settings can be changed in the related menu. <small>(v0.21)</small> 
+
+-   <img alt="" src=images/Sketcher_Snap.svg  style="width:32px;"> [Toggle snap](Sketcher_Snap.md): Toggles snapping in all sketches. Settings can be changed in the related menu. <small>(v0.21)</small> 
+
+-   <img alt="" src=images/Sketcher_RenderingOrder.svg  style="width:32px;"> [Configure rendering order](Sketcher_RenderingOrder.md): The rendering order of all sketches can be changed in the related menu. <small>(v0.21)</small> 
+
+#### Other
 
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Stop operation](Sketcher_StopOperation.md): When in edit mode, stop the current operation, whether that is drawing, setting constraints, etc.
 
@@ -330,9 +351,13 @@ Bunlar nesne oluşturma araçlarıdır.
 
 </div>
 
-  - <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline](Sketcher_CreateBSpline.md): Draws a B-spline curve by its control points.
+  - <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline by control points](Sketcher_CreateBSpline.md): Draws a B-spline curve by its control points.
 
-  - <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Periodic B-spline](Sketcher_CreatePeriodicBSpline.md): Draws a periodic (closed) B-spline curve by its control points.
+  - <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Periodic B-spline by control points](Sketcher_CreatePeriodicBSpline.md): Draws a periodic (closed) B-spline curve by its control points.
+
+  - <img alt="" src=images/Sketcher_CreateBSplineByInterpolation.svg  style="width:32px;"> [B-spline by knots](Sketcher_CreateBSplineByInterpolation.md): Draws a B-spline curve by its knots. <small>(v0.21)</small> 
+
+  - <img alt="" src=images/Sketcher_CreatePeriodicBSplineByInterpolation.svg  style="width:32px;"> [Periodic B-spline by knots](Sketcher_CreatePeriodicBSplineByInterpolation.md): Draws a periodic (closed) B-spline curve by its knots. <small>(v0.21)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -342,7 +367,7 @@ Bunlar nesne oluşturma araçlarıdır.
 
 </div>
 
--   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Create a rectangle](Sketcher_CompCreateRectangles.md): This is an icon menu in the Sketcher toolbar that holds the following commands: <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Create rectangle](Sketcher_CompCreateRectangles.md): This is an icon menu in the Sketcher toolbar that holds the following commands: <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -422,7 +447,7 @@ Bunlar nesne oluşturma araçlarıdır.
 
 </div>
 
--   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width:48px;"> [Create a fillet](Sketcher_CompCreateFillets.md): This is an icon menu in the Sketcher toolbar that holds the following commands:
+-   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width:48px;"> [Create fillet](Sketcher_CompCreateFillets.md): This is an icon menu in the Sketcher toolbar that holds the following commands:
 
 
 <div class="mw-translate-fuzzy">
@@ -616,7 +641,7 @@ Bu kısıtlamalar sayısal verilerle ilişkili değildir.
 
 </div>
 
--   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width:48px;"> [Arc or circle](Sketcher_CompConstrainRadDia.md): This is an icon menu in the Sketcher constraints toolbar that holds the following commands:
+-   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width:48px;"> [Constrain radius or diameter](Sketcher_CompConstrainRadDia.md): This is an icon menu in the Sketcher constraints toolbar that holds the following commands:
 
 
 <div class="mw-translate-fuzzy">
@@ -627,9 +652,9 @@ Bu kısıtlamalar sayısal verilerle ilişkili değildir.
 
 </div>
 
-  - <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Diameter](Sketcher_ConstrainDiameter.md): Defines the diameter of a selected arc or circle by constraining the diameter.
+  - <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Diameter](Sketcher_ConstrainDiameter.md): Defines the diameter of an arc or circle.
 
-  - <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Radiam](Sketcher_ConstrainRadiam.md): Automatically defines radius/diameter of a selected arc or circle (weight for a B-spline pole, diameter for a complete circle, radius for an arc). <small>(v0.20)</small> 
+  - <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Auto radius/diameter](Sketcher_ConstrainRadiam.md): Defines the radius of an arc, the diameter of a circle or the weight of a B-spline pole. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle.md): Defines the internal angle between two selected lines.
 
@@ -639,14 +664,6 @@ Bu kısıtlamalar sayısal verilerle ilişkili değildir.
 <div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Constraint_SnellsLaw.png  style="width:32px;"> [Snell yasası](Sketcher_ConstrainSnellsLaw/tr.md):Bir arayüzden geçen ışığı simüle etmek için bir kırılma yasasına uymak için iki satır kısıtlar. <small>(v0.15)</small> 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Constraint_InternalAlignment.png  style="width:32px;"> [Dahili hizalama](Sketcher_ConstrainInternalAlignment/tr.md): Seçilen öğeleri seçilen şekle hizalar (örneğin bir elipsin ana ekseni olacak bir çizgi).
 
 
 </div>
@@ -663,7 +680,7 @@ The following tools can be used the change the effect of constraints:
 
 </div>
 
--   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Activate/deactivate constraint](Sketcher_ToggleActiveConstraint.md): Enable or disable an already placed constraint. <small>(v0.19)</small> 
+-   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Activate/deactivate constraint](Sketcher_ToggleActiveConstraint.md): Enable or disable an already placed constraint.
 
 
 
@@ -673,24 +690,6 @@ The following tools can be used the change the effect of constraints:
 <div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [DOF çözücü seç](Sketcher_SelectElementsWithDoFs/tr.md): Yeşil renkte geometriyi serbestlik dereceli (DOF), yani tamamen kısıtlanmayan şekilde vurgular.<small>(v0.18)</small> 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CloseShape.png‎  style="width:32px;"> [CŞekli kapat](Sketcher_CloseShape/tr.md): Bitiş noktalarını çakıştırarak kısıtlanmış kapalı bir şekil oluşturur. <small>(v0.15)</small> 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_ConnectLines.png‎  style="width:32px;"> \[\[Sketcher ConnectLines/tr\|
-
-Kenarları Bağla\]\]: Uç noktalarını çakıştırarak eskiz elemanlarını bağlar.<small>(v0.15)</small> 
 
 
 </div>
@@ -746,7 +745,7 @@ Kenarları Bağla\]\]: Uç noktalarını çakıştırarak eskiz elemanlarını b
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Sketcher_SelectVerticalAxis.png‎  style="width:32px;"> [Dikey eksen seç](Sketcher_SelectVerticalAxis/tr.md): Eskizin dikey eksenini seçer.<small>(v0.15)</small> 
+-   <img alt="" src=images/Sketcher_SelectHorizontalAxis.png‎  style="width:32px;"> [Yatay ekseni seç](Sketcher_SelectHorizontalAxis.md): Eskizin yatay eksenini seçer.<small>(v0.15)</small> 
 
 
 </div>
@@ -754,7 +753,7 @@ Kenarları Bağla\]\]: Uç noktalarını çakıştırarak eskiz elemanlarını b
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Sketcher_SelectHorizontalAxis.png‎  style="width:32px;"> [Yatay ekseni seç](Sketcher_SelectHorizontalAxis.md): Eskizin yatay eksenini seçer.<small>(v0.15)</small> 
+-   <img alt="" src=images/Sketcher_SelectVerticalAxis.png‎  style="width:32px;"> [Dikey eksen seç](Sketcher_SelectVerticalAxis/tr.md): Eskizin dikey eksenini seçer.<small>(v0.15)</small> 
 
 
 </div>
@@ -853,9 +852,15 @@ Kenarları Bağla\]\]: Uç noktalarını çakıştırarak eskiz elemanlarını b
 
 </div>
 
--   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Show/hide B-spline control point weight](Sketcher_BSplinePoleWeight.md), <small>(v0.19)</small> 
+-   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Show/hide B-spline control point weight](Sketcher_BSplinePoleWeight.md): Shows or hides the display of the weights for the control points of a B-spline.
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_BSplineApproximate.svg  style="width:32px;"> [Geometriyi B-spline\'a Dönüştür](Sketcher_BSplineApproximate/tr.md)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -865,15 +870,27 @@ Kenarları Bağla\]\]: Uç noktalarını çakıştırarak eskiz elemanlarını b
 
 </div>
 
--   <img alt="" src=images/Sketcher_BSplineDecreaseDegree.svg  style="width:32px;"> [Decrease B-spline degree](Sketcher_BSplineDecreaseDegree.md), <small>(v0.19)</small> 
+-   <img alt="" src=images/Sketcher_BSplineDecreaseDegree.svg  style="width:32px;"> [Decrease B-spline degree](Sketcher_BSplineDecreaseDegree.md): Decreases the degree (order) of a B-spline.
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg  style="width:32px;"> [Düğüm çokluğunu arttır](Sketcher_BSplineIncreaseKnotMultiplicity/tr.md)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Düğüm çokluğunu azalt](Sketcher_BSplineDecreaseKnotMultiplicity/tr.md)
 
--   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Insert knot](Sketcher_BSplineInsertKnot.md), <small>(v0.20)</small> 
 
--   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md), <small>(v1.0)</small> 
+</div>
+
+-   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Insert knot](Sketcher_BSplineInsertKnot.md): Inserts a knot into an existing B-spline. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md): Joins two curves at selected end points. <small>(v0.21)</small> 
 
 
 
@@ -883,6 +900,26 @@ Kenarları Bağla\]\]: Uç noktalarını çakıştırarak eskiz elemanlarını b
 <div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.png‎  style="width:32px;"> [Sanal alana geç](Sketcher_SwitchVirtualSpace/tr.md): Kısıtlamaları **gizlemenizi** ve onları tekrar görünür hale getirmenizi sağlar.<small>(v0.17)</small>  <https://forum.freecadweb.org/viewtopic.php?f=9&t=26614> bakınız.
+
+
+</div>
+
+### Obsolete tools 
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_CloseShape.png‎  style="width:32px;"> [CŞekli kapat](Sketcher_CloseShape/tr.md): Bitiş noktalarını çakıştırarak kısıtlanmış kapalı bir şekil oluşturur. <small>(v0.15)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConnectLines.png‎  style="width:32px;"> \[\[Sketcher ConnectLines/tr\|
+
+Kenarları Bağla\]\]: Uç noktalarını çakıştırarak eskiz elemanlarını bağlar.<small>(v0.15)</small> 
 
 
 </div>
@@ -949,6 +986,12 @@ Her CAD kullanıcısı zaman içinde kendi çalışma tarzını geliştirir, anc
 ## Scripting
 
 The [Sketcher scripting](Sketcher_scripting.md) page contains examples on how to create constraints from Python scripts.
+
+## Examples
+
+For some ideas of what can be achieved with Sketcher tools, have a look at: [Sketcher examples](Sketcher_Examples.md).
+
+<img alt="" src=images/Sketcher_ExampleHinge-01.gif  style="width:80px;"> <img alt="" src=images/Sketcher_ExampleHinge-15.png  style="width:90px;">
 
 
 <div class="mw-translate-fuzzy">

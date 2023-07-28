@@ -8,6 +8,8 @@ All objects in the program have an [object name](Object_name.md) that uniquely i
 
 This information applies to all objects derived from [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class), which essentially comprises all objects that are possible to create in a document.
 
+
+
 ## Nomes
 
 There are various properties for Names:
@@ -38,9 +40,9 @@ There are various properties for Labels:
 <<Label may use UTF8 characters>>.Width
 ```
 
-### Label2 <small>(v0.19)</small> 
+### Label2
 
-This property was introduced in v0.19. It is a simple string that can contain arbitrary text, and therefore can be used for documenting (describing with more detail) the created object.
+It is a simple string that can contain arbitrary text, and therefore can be used for documenting (describing with more detail) the created object.
 
 -   In the [tree view](Tree_view.md) edit the field next to the icon, under \"Description\", by clicking on it and pressing **F2** (or rather **Return** on macOS).
 -   You can also change this property by modifying the `Label2` attribute from the [Python console](Python_console.md).

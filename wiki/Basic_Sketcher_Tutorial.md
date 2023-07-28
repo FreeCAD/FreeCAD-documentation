@@ -302,9 +302,9 @@ Constraining a sketch can be done in many different ways. In general, it is reco
 -   Or set the angle of the construction lines before adding more elements.
 -   Try using other construction geometry.
 
-  {{Sketcher Tools navi}}
+ {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial

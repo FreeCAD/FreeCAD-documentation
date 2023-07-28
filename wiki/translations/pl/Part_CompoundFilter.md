@@ -1,8 +1,9 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Part Compound‏‎Filter
-   MenuLocation:Part → Compound → Compound Filter
-   Workbenches:[Part](Part_Workbench.md)
+   Name/pl:Część: Filtr złożeń
+   MenuLocation:Część → Złożenie → Filtr złożeń
+   Workbenches:[Część](Part_Workbench/pl.md)
    Version:0.17
 ---
 
@@ -10,63 +11,69 @@
 
 ![](images/CompoundFilter.png )
 
-## Description
 
-The CompoundFilter can be used to extract the individual pieces of the result of e.g. a [Part Slice](Part_Slice.md) operation, with which you have split an object.
 
-It can extract children by their indexes, test children for collisions with stencil shape, and filter children based on their properties, such as length, area, volume.
+## Opis
 
-If there is only one child in the result, the output is the child. If there is more than one child to output, the output is a new compound.
+Narzędzie **Filtr złożeń** może być użyte do wyodrębnienia poszczególnych części składowych wyniku np. operacji [Krojenie](Part_Slice/pl.md), za pomocą której podzielono obiekt.
 
-## Usage
+Umożliwia wyodrębnianie elementów podrzędnych na podstawie ich indeksów, testowanie elementów pod kątem kolizji z kształtem szablonu oraz filtrowanie elementów podrzędnych na podstawie ich właściwości, takich jak długość, powierzchnia czy objętość.
 
-1.  Select the sliced object
-2.  Apply **Part → Compound → CompoundFilter**
-3.  Select the CompoundFilter Object in the tree
-4.  In the properties tab set \"Filter Type\" to \"specific items\"
-5.  Set items to the elements you want to extract
-    1.  For a single piece this is a number starting with 0, i.e. if you want to extract the first element enter 0 in this field, 1 for the next element \...
-    2.  If you want to extract more than one piece at a time separate the numbers with \";\", e.g. a value of \"0;2\" will extract the first and the third element
-    3.  The general case - which covers the possibilities mentioned above as well - is a list of index ranges, specified in Python notation, but without brackets. Ranges can be chained with semicolon. For example:
-        -   7:10 take children of indexes 7, 8 and 9 (indexes are zero-based; range-to index is excluded).
-        -   1;2 take children 1 and 2 (first range is child 1, second range is child 2, ranges joined by semicolon)
-        -   0;-1 take first children (index 0) and last one (index -1 means last child, -2 - one but last, and so on)
-        -   1: take all but first child (missing index means \"all the way to the end\").
-        -   ::-1 take all children in reversed order
-        -   ::2 take all odd-indexed children, i.e. indexes, 1,3,5,\..., which are the elments 2,4,6, \...
-        -   :;: repeat the input compound twice
-6.  If you want to extract another piece select the sliced object again. It is now placed under the CompoundFilter in the tree
-7.  Repeat the selection procedure from above. The slice and its subelements will be displayed under both CompoundFilters; they are, of course not repeated in the model. A very fast way to extract another piece is to copy the CompoundFilter. But **watch out**: You are asked if you want to copy the elements under the CompoundFilter too, which you must answer with *no*, you don\'t want to copy them, you only reference them.
+Jeśli w wyniku znajduje się tylko jeden element podrzędny, wynikiem jest ten element podrzędny. Jeśli w wyniku jest więcej niż jeden element podrzędny, wynikiem jest nowe złożenie.
 
-## Properties
 
--    **Base**: Object to be filtered.
 
--    **Filter Type**selectable options:
+## Użycie
 
-    -   bypass; no filter. The original compound is output, unchanged.
-    -   specific items; extract the items listed in the \"items\" property
-    -   collision-pass; extract pieces that touch or intersect with \'Stencil\' shape.
-    -   window-volume (default); extract all pieces which have a volume between \"Window From\" and \"Window To\" where 100% is the biggest piece - and not the unsliced object. The value of 100% is a reference value which can be overridden by \"OverrideMaxVal\".
-    -   window-area; the same as window-volume where the sliced area determines the selection instead of the volume.
-    -   window-length; the same as window-volume where the length of the edges determines the selection instead of the volume.
-    -   window-distance; extract children whose distance to \'Stencil\' shape is within value window, defined by properties \"WindowFrom\", \"WindowTo\", \"OverrideMaxVal\".
+1.  Wybierz pocięty obiekt
+2.  Zastosuj **Część → Złożenie → Filtr złożeń**
+3.  Wybierz obiekt *FiltrZłożeń* w Widoku drzewa
+4.  W zakładce właściwości ustaw **Typ Filtra** na **Wybrana pozycja**.
+5.  Ustaw pozycję na elementy, które chcesz wyodrębnić
+    1.  Dla pojedynczego elementu jest to liczba zaczynająca się od 0, tj. jeśli chcesz wyodrębnić pierwszy element, wpisz 0 w tym polu, 1 dla następnego elementu \...
+    2.  Jeżeli chcesz wyodrębnić więcej niż jeden element na raz, oddziel liczby znakiem **;**, np. wartość {{Value|0;2}} spowoduje wyodrębnienie pierwszego i trzeciego elementu.
+    3.  Ogólnie przyjętym przypadkiem - który obejmuje również możliwości wymienione powyżej - jest lista zakresów indeksów, określona w notacji Pythona, ale bez nawiasów. Przedziały można łączyć w łańcuchy za pomocą średnika. Na przykład:
+        -   7:10 pobierz elementy podrzędne o indeksach 7, 8 i 9 *(indeksy numerowane są od zera; indeks od zakresu do indeksu jest wykluczony)*.
+        -   1;2 pobierz elementy podrzędne o indeksach 1 i 2 *(pierwszy indeks oznacza element podrzędny 2, drugi indeks to element 3, zakresy połączone średnikiem)*,
+        -   0;-1 weź pierwszy element podrzędny *(indeks 0)* i ostatni *(indeks -1 oznacza ostatni element, -2 - jeden przedostatni itd.)*,
+        -   1: weź wszystko poza pierwszym elementem *(brak indeksu oznacza „do końca")*,
+        -   ::-1 pobierz wszystkie elementy podrzędne w odwrotnej kolejności.
+        -   ::2 pobierz wszystkie elementy z indeksami nieparzystymi, tj. indeksy, 1,3,5,\..., które są elementami 2,4,6, \...
+        -   :;: powiel dwa razy złożony element wejściowy
+6.  Jeśli chcesz wyodrębnić kolejny element, ponownie wybierz pocięty obiekt. Jest teraz umieszczony pod obiektem o nazwie **CompoundFilter** w Widoku drzewa
+7.  Powtórz procedurę wyboru od góry. Plasterek i jego elementy podrzędne zostaną wyświetlone pod obydwoma filtrami **CompoundFilters**. Oczywiście nie powtarzają się one w modelu. Bardzo szybkim sposobem wyodrębnienia kolejnego fragmentu jest skopiowanie obiektu *CompoundFilter**. Ale**uważaj**: Zostaniesz zapytany, czy chcesz skopiować również elementy pod CompoundFilter, musisz odpowiedzieć**nie*\', nie chcesz ich kopiować, tylko się do nich odwołujesz.
 
--    **Invert**: If set to true the list as described above is excluded instead of included.
 
--    **Override Max Val**: Value window range is defined in percentages of maximum value. The maximum value is computed according to the following set of rules:
 
-    -   if \'OverrideMaxVal\' is nonzero - use it.
-    -   otherwise, if \'Stencil\' link is supplied - calculate the corresponding value of stencil shape (not applicable to window-distance \'FilterType\')
-    -   otherwise, take maximum value from children in compound to be filtered.
+## Właściwości
 
--    **Stencil**: Link to a stencil shape. For collision-pass and window-distance FilterType\'s, stencil is the object to test collision/distance against. For other \"window-\*\*\*\" filter types, stencil is used to provide reference value for window percentages (maximum value override). In all other modes, \'Stencil\' is ignored.
+-    **Baza**: Obiekt do filtrowania.
 
--    **Window From**: Upper threshold percentage for selecting pieces, 100% is relative to the biggest piece.
+-    **Typ Filtra**opcje do wyboru:
 
--    **Window To**: Lower threshold percentage for selecting pieces, 100% is relative to the biggest piece.
+    -   **Omiń**: brak filtra. Oryginalne złożenie jest wyprowadzane bez zmian.
+    -   **Wybrana pozycja**: wyodrębnia elementy wymienione we właściwości **pozycje**.
+    -   **kolizja-przebieg**: wyodrębnia elementy, które dotykają lub przecinają się z kształtem **Wzór**.
+    -   **okno-objętość**: *(domyślnie)*: wyodrębnia wszystkie elementy, które mają objętość między \"Okno od\" i \"Okno do\", gdzie 100% to największy element - a nie nieobcięty obiekt. Wartość 100% jest wartością referencyjną, która może zostać zastąpiona przez \"Nadpisz wartość Max\".
+    -   **okno-obszar**: to samo co okno-objętość, gdzie wycięty obszar określa wybór zamiast objętości.
+    -   **okno-długość**: to samo co okno-objętość, gdzie długość krawędzi określa wybór zamiast objętości.
+    -   **okno-odległość**: wyodrębnia elementy podrzędne, których odległość od kształtu \"Wzór\" mieści się w oknie wartości, zdefiniowanym przez właściwości \"Okno od\", \"Okno do\", \"Nadpisz wartość Max\".
 
--    **items**: List or range of elements to be selected if Filter Type is \"specific items\".
+-    **Odwróć**: Jeśli wartość jest ustawiona na {{true|/pl}} lista opisana powyżej zostanie wykluczona zamiast uwzględniona.
+
+-    **Nadpisz wartość Max**: Zakres okna wartości jest określony w procentach wartości maksymalnej. Wartość maksymalna jest obliczana zgodnie z następującym zestawem reguł:
+
+    -   jeśli parametr \"Nadpisz wartość Max\" jest niezerowy - użyj go.
+    -   w przeciwnym razie, jeśli podano łącze \"Wzór\" - oblicz odpowiednią wartość kształtu szablonu *(nie dotyczy odległości okna \"Typ Filtra\")*,
+    -   w przeciwnym razie, weź maksymalną wartość z elementów podrzędnych w złożeniu, które ma zostać przefiltrowane.
+
+-    **Wzór**: Link do kształtu szablonu. W przypadku filtrów typu \"kolizja-przebieg\" i \"okno-odległość\" szablon jest obiektem, względem którego testowana jest kolizja / odległość. W przypadku innych typów filtrów \"okno-\*\*\*\" szablon jest używany do zapewnienia wartości odniesienia dla wartości procentowych okna *(nadpisanie wartości maksymalnej)*. We wszystkich innych trybach \"Wzór\" jest ignorowany.
+
+-    **Okno Od**: Górny próg procentowy wyboru elementów, wartość 100% odnosi się do największego elementu.
+
+-    **Okno Do**: Dolny próg procentowy wyboru elementów, wartość 100% odnosi się do największego elementu.
+
+-    **Pozycja**: Lista lub zakres elementów do wybrania, jeśli typ filtra to \"określone elementy\".
 
 
 

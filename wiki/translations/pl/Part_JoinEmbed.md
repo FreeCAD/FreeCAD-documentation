@@ -1,81 +1,103 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Part JoinEmbed
-   MenuLocation:Part → Join → Embed Object
-   Workbenches:[Part](Part_Workbench.md)
+   Name/pl:Część: Osadź obiekt
+   MenuLocation:Część → Połącz → Osadź obiekt
+   Workbenches:[Część](Part_Workbench/pl.md)
    Version:0.16
-   SeeAlso:[Part JoinConnect](Part_JoinConnect.md), [Part JoinCutout](Part_JoinCutout.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)
+   SeeAlso:[Połącz obiekty](Part_JoinConnect/pl.md), [Wycięcie dla obiektu](Part_JoinCutout/pl.md), [Operacja logiczna](Part_Boolean/pl.md), [Grubość](Part_Thickness/pl.md)
 ---
 
 # Part JoinEmbed/pl
 
-## Description
 
-Embed tool embeds a walled object (e.g., a pipe) into another walled object.
+
+## Opis
+
+Narzędzie **Osadź** umożliwia umieszczenie obiektu ze ściankami *(np. rury)* w innym obiekcie ze ściankami.
 
 ![600px](images/JoinFeatures_Embed.png)
 
-## Usage
-
-1.  Select the base object first, then the object to be embedded. The order of selection is important. It is enough to select one sub-shape of each object (e.g., faces).
-2.  Invoke the Part JoinEmbed command.
-
-A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objects are hidden, and the result of embedding is shown in 3D view.
-
-## Properties
 
 
-{{TitleProperty|Base}}
+## Użycie
 
--    **Base**: Reference to base object (the one the other object is to be embedded into). The object should be a single solid.
+1.  Wybierz najpierw obiekt bazowy, a następnie obiekt, który ma zostać osadzony. Kolejność wyboru jest ważna. Wystarczy wybrać jeden kształt podrzędny każdego obiektu *(np. ściany)*.
+2.  Wywołaj polecenie Osadź obiekt.
 
--    **Tool**: Reference to tool object (the object to be embedded). The object can be a single solid, or a [valid compound](Part_Compound.md) of solids.
+Tworzony jest obiekt środowiska Część CechaPołączenia z ustawionym trybem \"Osadź\". Oryginalne obiekty są ukryte, a wynik osadzenia jest wyświetlany w oknie widoku 3D.
 
--    **Mode**: The mode of operation, equals \'Embed\' (Changing that will transform the tool into another Part_JoinXXX). The value of \'bypass\' can be used to temporarily disable the long computations (a compound of Base and Tool will be created, which is a fast operation).
 
--    **Refine**: Sets whether to apply [Refine](Part_RefineShape.md) operation or not, to the final shape. The default value is determined by a \'Automatically refine shape after boolean operation\' checkbox in PartDesign preferences. When Mode property is \'bypass\', Refine is ignored (never applied).
 
-## Example
+## Właściwości
 
-1.  Create a pipe by applying [thickness](Part_Thickness.md) to a [cylinder](Part_Cylinder.md):
-    <img alt="" src=images/JoinFeatures_Example_step1.png  style="width:320px;">
-2.  Create another, smaller diameter pipe, and [place](Placement.md) it so that it pierces the wall of the first pipe:
-    ![320px](images/JoinFeatures_Example_step2.png)
-3.  Select the first pipe, then the second pipe (order of selection is important), and click the \'Embed object\' option from the Join tools dropdown toolbar button.
-    ![320px](images/JoinFeatures_Example_step3_Embed.png)
-4.  Use some cross-section tool ([Clipping plane](Std_ToggleClipPlane.md), [Arch Section Plane](Arch_SectionPlane.md), [Arch Cut Plane](Arch_CutPlane.md)) to reveal internals. On the picture below, Arch Section Plane is used.
-    ![320px](images/JoinFeatures_Example_step4_Embed.png)
 
-## Algorithm
+{{TitleProperty|Podstawa}}
 
-The algorithms behind Join tools are quite simple, and understanding them is important to use the tools correctly.
+-    **Baza**: Odniesienie do obiektu bazowego *(tego, w którym ma zostać osadzony inny obiekt)*. Obiekt powinien być pojedynczą bryłą.
 
-1\. Base object is [boolean-cut](Part_Cut.md) with Tool object. The resulting shape is a set ([compound](Part_Compound.md)) of non-intersecting solids (typically, two).
+-    **Narzędzie**: Odniesienie do obiektu narzędzia (obiektu, który ma zostać osadzony). Obiekt może być pojedynczą bryłą lub [prawidłowym złożeniem](Part_Compound.md) brył.
 
-2\. The resulting compound is filtered: only the largest solid is kept.
+-    **Tryb**: Tryb działania, równy **Osadź** *(Zmiana, która przekształci narzędzie w inne Part_JoinXXX)*. Wartość **obejdź** może być użyta do tymczasowego wyłączenia długich obliczeń (zostanie utworzone połączenie bazy i narzędzia, co jest szybką operacją).
 
-3\. That largest solid is [boolean-fused](Part_Fuse.md) with Tool object.
+-    **Ulepsz**: Określa, czy zastosować operację [ulepszania](Part_RefineShape/pl.md) wobec ostatecznego kształtu. Wartość domyślna jest określona przez pole wyboru \"Automatycznie udoskonal model po wykonaniu operacji logicznej\" w [Preferencjach środowiska Projekt Części](PartDesign_Preferences/pl.md). Gdy właściwość **Tryb** ma wartość **Obejdź**, Ulepszanie jest ignorowane *(nigdy nie jest stosowane)*.
 
-4\. If Refine property is true, the resulting shape is [refined](Part_RefineShape.md).
+
+
+## Przykład
+
+1.  Utwórz rurę, stosując narzędzie [grubość](Part_Thickness/pl.md) do bryły [cylindra](Part_Cylinder/pl.md):
+
+<img alt="" src=images/JoinFeatures_Example_step1.png  style="width:320px;">
+
+1.  Utwórz kolejną rurę o mniejszej średnicy i [umieść](Placement/pl.md) ją tak, aby przebiła ścianę pierwszej rury:
+
+![320px](images/JoinFeatures_Example_step2.png)
+
+1.  Wybierz pierwszą rurę, a następnie drugą rurę (kolejność wyboru jest ważna) i kliknij opcję \"Osadź obiekt\" na rozwijanym pasku narzędzi Dołącz.
+
+![320px](images/JoinFeatures_Example_step3_Embed.png)
+
+1.  Zastosuj narzędzie przekroju *([Przełącz płaszczyznę tnącą](Std_ToggleClipPlane/pl.md), [Płaszczyzna przekroju](Arch_SectionPlane/pl.md) środowiska Architektura, [Płaszczyzna cięcia](Arch_CutPlane/pl.md) środowiska Architektura)*, aby odsłonić elementy wewnętrzne. Na poniższym obrazku użyto narzędzia Płaszczyzna przekroju środowiska Architektura.
+
+![320px](images/JoinFeatures_Example_step4_Embed.png)
+
+
+
+## Sposób działania 
+
+Algorytmy stojące za narzędziami Połącz są dość proste, a ich zrozumienie jest ważne dla prawidłowego korzystania z narzędzi.
+
+1\. Obiekt bazowy jest [wycięty logicznie](Part_Cut/pl.md) za pomocą obiektu narzędzia. Wynikowy kształt jest zestawem *([złożeń](Part_Compound/pl.md))* nieprzecinających się brył *(zazwyczaj dwóch)*.
+
+2\. Uzyskane złożenie jest kolejnie filtrowane, przy czym zachowywana jest tylko największa bryła.
+
+3\. Ta największa bryła jest [logicznym połączeniem](Part_Fuse/pl.md) z obiektem narzędzia.
+
+4\. Jeśli właściwość Ulepsz ma wartość {{true/pl}}, wynikowy kształt to obiekt funkcji [Ulepsz](Part_RefineShape.md).
 ![800px](images/JoinFeatures-Algo-Embed.png)
 
-### Notes
 
--   If after step 1, the object remains in one piece, the result of Embed will be equivalent to [union](Part_Fuse.md) of Base and Tool, but taking longer to compute.
--   Now, the tool will produce unexpected result, if a compound is supplied as Base. This may be changed in the future.
--   Because the largest piece is determined by comparing volumes of pieces, the tool can only work with solids. This may be changed in the future.
 
-## Scripting
+### Uwagi
 
-The Join tools can by used in [macros](macros.md) and from the python console by using the following function:
+-   Jeśli po kroku 1 obiekt pozostaje w jednym kawałku, wynik operacji Osadź będzie równoważny [połączeniu](Part_Fuse/pl.md) bazy i narzędzia, ale jego obliczenie zajmie więcej czasu.
+-   Obecnie narzędzie wygeneruje nieoczekiwany wynik, jeśli jako baza zostanie użyte złożenie. *(Może to zostać zmienione w przyszłości.)*
+-   Ponieważ największy element jest określany przez porównanie objętości elementów, narzędzie może działać tylko z bryłami. *(Może to zostać zmienione w przyszłości.)*
+
+
+
+## Tworzenie skryptów 
+
+Narzędzie Osadź może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następującej funkcji:
 
 
 ```pythonJoinFeatures.makePartJoinFeature(name = 'Embed', mode = 'Embed')```
 
--   Creates an empty Embed feature (or other Join feature, depending on mode passed). The properties Base and Tool must be assigned explicitly, afterwards.
--   Returns the newly created object.
+-   Tworzy pusty element osadzania *(lub inny element dołączania, w zależności od przekazanego trybu)*. Następnie należy jawnie przypisać właściwości Baza i Narzędzie.
+-   Zwraca nowo utworzony obiekt.
 
-Example:
+Przykład:
 
 
 {{code|code=
@@ -85,7 +107,7 @@ j.Base = FreeCADGui.Selection.getSelection()[0]
 j.Tool = FreeCADGui.Selection.getSelection()[1]
 }}
 
-The tool itself is implemented in Python, see **/Mod/Part/JoinFeatures.py** ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) under where FreeCAD is installed.
+Samo narzędzie jest zaimplementowane w środowisku Python, patrz **/Mod/Part/JoinFeatures.py** ([Link do Github](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) w miejscu, w którym zainstalowany jest FreeCAD.
 
 
 

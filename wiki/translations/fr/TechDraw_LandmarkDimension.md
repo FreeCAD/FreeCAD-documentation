@@ -12,7 +12,7 @@
 
 ## Description
 
-L\'outil **Insérer une cote à partir des points du repère** ajoute une cote linéaire à une vue. La cote est basée sur deux points **feature** (Draft.Point ou Part.Vertex) du modèle 3D. Remarquez que les points doivent être des objets **feature** qui apparaissent dans le modèle de la [vue en arborescence](Tree_view/fr.md). Les sommets aléatoires d\'une forme ne fonctionneront pas.
+L\'outil **TechDraw Insérer une cote à partir des points du repère** ajoute une cote linéaire à une vue. La cote est basée sur deux points **feature** (Draft.Point ou Part.Vertex) du modèle 3D. Remarquez que les points doivent être des objets **feature** qui apparaissent dans le modèle de la [vue en arborescence](Tree_view/fr.md). Les sommets aléatoires d\'une forme ne fonctionneront pas.
 
 Le but de cet outil est de fournir une solution de contournement à la corruption des cotes provoquée par des problèmes de \"[dénomination topologique](Topological_naming_problem/fr.md)\". Les points sources doivent utiliser des [Expressions](Expressions/fr.md) ou un autre mécanisme contenant pour établir leur position. Étant donné que les points sont des [Objets Document](App_DocumentObject/fr.md) et non des composants de forme, leur nom ne change pas avec les recalculs et donc ils sont faciles à trouver.
 

@@ -9,7 +9,7 @@
 
 # TechDraw LinkDimension/de
 
-**TechDraw MaßVerknüpfen** wird zukünftig als überholt gelten. Das Werkzeug [TechDraw Maßreparatur](TechDraw_DimensionRepair/de.md) kann zum Ändern von sowohl 2D- als auch 3D-Referenzen verwendet werden.
+Das Werkzeug **TechDraw MaßVerknüpfen** wird zukünftig als überholt gelten. Das Werkzeug [TechDraw Maßreparatur](TechDraw_DimensionRepair/de.md) kann zum Ändern von sowohl 2D- als auch 3D-Referenzen verwendet werden.
 
 
 
@@ -25,11 +25,17 @@ Diese Verknüpfung veranlasst das Maß seinen Wert direkt von der 3D-Geometrie a
 
 ## Anwendung
 
-1.  Ein geeignetes Maß auf dem Zeichenblatt erstellen; mit einer der Bemaßungsfunktionen [Längenmaß](TechDraw_LengthDimension/de.md), [MaßHorizontal](TechDraw_HorizontalDimension/de.md), usw. Dieses Maß steht an der richtigen Stelle auf der Seite, zeigt aber den Wert des projizierten Maßes an.
+
+<div class="mw-translate-fuzzy">
+
+1.  Ein geeignetes Maß mit einer der Bemaßungsfunktionen [Längenmaß](TechDraw_LengthDimension/de.md), [MaßHorizontal](TechDraw_HorizontalDimension/de.md) usw. auf dem Zeichnungsblatt erstellen. Dieses Maß steht an der richtigen Stelle auf der Seite, zeigt aber den Wert des projizierten Maßes an.
 2.  Auswahl der Geometrie in der 3D-Ansicht, z.B. eine Kante, die der bemaßten projizierten Geometrie entspricht.
 3.  Schaltfläche **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Maß mit 3D-Geometrie verknüpfen](TechDraw_LinkDimension/de.md)** drücken.
 4.  Ein Dialog öffnet sich. Ein oder mehrere Maß(e) auswählen, die mit der ausgewählten 3D-Geometrie verknüpft werden sollen.
 5.  Drücke **OK**.
+
+
+</div>
 
 Die Verknüpfungsoperation ändert die {{PropertyData/de|MeasureType}} des Maßes von `Projected` (projiziertes Maß) auf `True` (tatsächliche Länge).
 

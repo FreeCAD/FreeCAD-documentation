@@ -9,9 +9,13 @@
 
 # FEM ConstraintPlaneRotation/pl
 
+
+
 ## Opis
 
 Tworzy wiązanie metodą elementów skończonych, aby węzły na powierzchni płaskiej znajdowały się w tej samej płaszczyźnie.
+
+
 
 ## Użycie
 
@@ -20,10 +24,14 @@ Tworzy wiązanie metodą elementów skończonych, aby węzły na powierzchni pł
     -   Wybierz opcję z menu **Model → Wiązania geometryczne → <img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> Zdefiniuj obrót w płaszczyźnie**.
 2.  W oknie [widoku 3D](3D_view/pl.md) wybierz obiekt, do którego ma być zastosowane wiązanie, może to być ściana.
 
+
+
 ## Ograniczenia
 
 1.  Wiązanie obrotu w płaszczyźnie może być zastosowane tylko do jednej ściany płaskiej.
 2.  Jeśli wiązanie obrotu w płaszczyźnie zostanie zastosowane do tej samej ściany co wiązanie przemieszczenia / stałości, pierwszeństwo ma wiązanie przemieszczenia /stałości.
+
+
 
 ## Uwagi
 

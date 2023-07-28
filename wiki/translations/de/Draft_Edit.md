@@ -31,7 +31,7 @@ Siehe auch: [Draft Fangen](Draft_Snap/de.md) und [Draft Beschränken](Draft_Cons
     -   Die Schaltfläche **<img src="images/Draft_Edit.svg" width=16px> [Bearbeiten](Draft_Edit/de.md)** drücken.
     -   Den Menüeintrag **Änderung → <img src="images/Draft_Edit.svg" width=16px> Bearbeiten** auswählen.
     -   Das Tastaturkürzel: **D** und dann **E**.
-    -   Für ein einzelnes Objekt: Den Eintrag **Edit** im MKontextmenü der [Baumansicht](Tree_view/de.md) auswählen. Dies funktioniert nur mit unterstützten Draft-Objekten. {{Version/de|1.0}}
+    -   Für ein einzelnes Objekt: Den Eintrag **Edit** im MKontextmenü der [Baumansicht](Tree_view/de.md) auswählen. Dies funktioniert nur mit unterstützten Draft-Objekten. {{Version/de|0.21}}
 3.  Wenn noch kein Objekt ausgewählt wurde: Ein Objekt in der [3D-Ansicht](3D_view/de.md) auswählen.
 4.  Die ausgewählten Objekte werden mit temporären Knoten markiert, und der [Haupt-Aufgabenbereich](#Haupt_Aufgabenfeld.md) wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 5.  Wahlweise das Kontextmenü eines Knotens oder einer Kante verwenden. Diese Kontextmenüs sind nur für einige Draft-Objekte verfügbar. Weitere Informationen finden sich unter [Unterstützte Objekte](#Unterstützte_Objekte.md).
@@ -94,7 +94,7 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 -   Wenn der Anfangs- oder Endknoten eines offenen Drahtes so verschoben wird, dass sie zusammenfallen, wird der Draht geschlossen.
 -   Kontextmenü des Knotens: {{Value|Punkt löschen}}. Es müssen mindestens zwei Punkte verbleiben.
--   Kontextmenü der Kante: {{Value|Punkt hinzufügen}}, {{Value|Draht schließen/öffnen}} ({{Version/de|1.0}}) und {{Value|Draht umkehren}} ({{Version/de|0.20}}).
+-   Kontextmenü der Kante: {{Value|Punkt hinzufügen}}, {{Value|Draht schließen/öffnen}} ({{Version/de|0.21}}) und {{Value|Draht umkehren}} ({{Version/de|0.20}}).
 
 
 
@@ -136,7 +136,7 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 -   Wenn der Anfangs- oder Endknoten eines offenen Splines so verschoben wird, dass sie zusammenfallen, wird der Spline geschlossen.
 -   Kontextmenü des Knotens: {{Value|Punkt löschen}}. Für einen offenen Spline müssen mindestens zwei Punkte übrig bleiben. Bei einem geschlossenen Spline sind es mindestens drei Punkte.
--   Kontextmenü der Kante: {{Value|Punkt hinzufügen}}., {{Value|Spline schließen/öffnen}} ({{Version/de|1.0}}) and {{Value|Spline umkehren}} ({{Version/de|1.0}}).
+-   Kontextmenü der Kante: {{Value|Punkt hinzufügen}}., {{Value|Spline schließen/öffnen}} ({{Version/de|0.21}}) and {{Value|Spline umkehren}} ({{Version/de|0.21}}).
 
 
 
@@ -144,7 +144,7 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 -   Wenn der Anfangs- oder Endknoten einer offenen Kurve so verschoben wird, dass sie zusammenfallen, wird die Kurve geschlossen.
 -   Kontextmenü des Knotens: {{Value|Punkt löschen}}, {{Value|Scharf machen}}, {{Value|Tangente machen}} und {{Value|Symmetrisch machen}}.
--   Kontextmenü der Kante: {{Value|Punkt hinzufügen}}, {{Value|Kurve schließen/öffnen}} ({{Version/de|1.0}}) and {{Value|Kurve umkehren}} ({{Version/de|1.0}}).
+-   Kontextmenü der Kante: {{Value|Punkt hinzufügen}}, {{Value|Kurve schließen/öffnen}} ({{Version/de|0.21}}) and {{Value|Kurve umkehren}} ({{Version/de|0.21}}).
 
 
 

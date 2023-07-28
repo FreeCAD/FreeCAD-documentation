@@ -11,14 +11,6 @@ Dimensiones, secciones, áreas sombreadas, anotaciones y [SVG](SVG/es.md) símbo
 
 <div class="mw-translate-fuzzy">
 
-Dibujo Técnico se incluyó oficialmente en FreeCAD a partir de la versión 0.17; su intención es reemplazar el [Ambiente des trabajo Dibujo](Drawing_Workbench/es.md) no soportado. Ambos Ambiente des trabajo siguen estando disponibles en la versión 0.17, pero el dibujo Ambiente des trabajo puede ser eliminado en futuras versiones. Para mantenerse al día con los planes y desarrollos de TechDraw, visite el [Dibujo Técnico Hoja de ruta](TechDraw_Roadmap.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 FreeCAD es principalmente una aplicación de modelado en 3D, y por lo tanto no tiene muchas herramientas de dibujo en 2D, las cuales están incluidas en su mayoría en el [Draft](Draft_Workbench/es.md) y [Ambiente des trabajo Croquizador](Sketcher_Workbench/es.md). Si su objetivo principal es la producción de complejos dibujos 2D y archivos [DXF](DXF/es.md), y no necesita modelado 3D, puede considerar un programa de software dedicado al dibujo técnico como [LibreCAD](https://en.wikipedia.org/wiki/LibreCAD), [QCad](https://en.wikipedia.org/wiki/QCad), TurboCad, y otros.
 
 
@@ -59,7 +51,7 @@ Estas son herramientas para crear objetos de la página.
 
 </div>
 
--   <img alt="" src=images/TechDraw_PrintAll.svg  style="width:32px;"> [Print All Pages](TechDraw_PrintAll.md): prints all pages in a document. <small>(v1.0)</small> 
+-   <img alt="" src=images/TechDraw_PrintAll.svg  style="width:32px;"> [Print All Pages](TechDraw_PrintAll.md): prints all pages in a document. <small>(v0.21)</small> 
 
 
 
@@ -69,7 +61,13 @@ Estas son herramientas para crear objetos de la Vista.
 
 -   <img alt="" src=images/TechDraw_View.svg  style="width:32px;"> [Insertar Vista](TechDraw_View/es.md): Agrega una vista de proyección 2D de un objeto.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ActiveView.svg  style="width:32px;"> [Insertar la vista activa](TechDraw_ActiveView/es.md): inserta una vista de la vista 3D activa. <small>(v0.19)</small> 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -89,7 +87,7 @@ Estas son herramientas para crear objetos de la Vista.
 
 </div>
 
-  - <img alt="" src=images/TechDraw_ComplexSection.svg  style="width:32px;"> [Insert Complex Section View](TechDraw_ComplexSection.md): inserts a cross-section view of an existing view based on a profile. <small>(v1.0)</small> 
+  - <img alt="" src=images/TechDraw_ComplexSection.svg  style="width:32px;"> [Insert Complex Section View](TechDraw_ComplexSection.md): inserts a cross-section view of an existing view based on a profile. <small>(v0.21)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -135,13 +133,13 @@ These are tools for changing the stacking order which controls the apparent dept
 
 -   <img alt="" src=images/TechDraw_StackTop.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Adjust Stacking Order:
 
-  - <img alt="" src=images/TechDraw_StackTop.svg  style="width:32px;"> [Move view to top of stack](TechDraw_StackTop.md): moves views to the top of the stacking order. <small>(v1.0)</small> 
+  - <img alt="" src=images/TechDraw_StackTop.svg  style="width:32px;"> [Move view to top of stack](TechDraw_StackTop.md): moves views to the top of the stacking order. <small>(v0.21)</small> 
 
-  - <img alt="" src=images/TechDraw_StackBottom.svg  style="width:32px;"> [Move view to bottom of stack](TechDraw_StackBottom.md): moves views to the bottom of the stacking order. <small>(v1.0)</small> 
+  - <img alt="" src=images/TechDraw_StackBottom.svg  style="width:32px;"> [Move view to bottom of stack](TechDraw_StackBottom.md): moves views to the bottom of the stacking order. <small>(v0.21)</small> 
 
-  - <img alt="" src=images/TechDraw_StackUp.svg  style="width:32px;"> [Move view up one level](TechDraw_StackUp.md): moves views up one level in the stacking order. <small>(v1.0)</small> 
+  - <img alt="" src=images/TechDraw_StackUp.svg  style="width:32px;"> [Move view up one level](TechDraw_StackUp.md): moves views up one level in the stacking order. <small>(v0.21)</small> 
 
-  - <img alt="" src=images/TechDraw_StackDown.svg  style="width:32px;"> [Move view down one level](TechDraw_StackDown.md): moves views down one level in the stacking order. <small>(v1.0)</small> 
+  - <img alt="" src=images/TechDraw_StackDown.svg  style="width:32px;"> [Move view down one level](TechDraw_StackDown.md): moves views down one level in the stacking order. <small>(v0.21)</small> 
 
 
 
@@ -319,6 +317,8 @@ Agrega una dimensión de ángulo usando tres vértices.
 
 </div>
 
+-   <img alt="" src=images/TechDraw_AxoLengthDimension.svg  style="width:32px;"> [Insert Axonometric Length Dimension](TechDraw_AxoLengthDimension.md): adds an axonometric length dimension. <small>(v0.21)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -327,7 +327,7 @@ Agrega una dimensión de ángulo usando tres vértices.
 
 </div>
 
--   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Dimension Repair](TechDraw_DimensionRepair.md): can adjust the 2D or 3D geometry references of a dimension. <small>(v1.0)</small> 
+-   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Dimension Repair](TechDraw_DimensionRepair.md): can adjust the 2D or 3D geometry references of a dimension. <small>(v0.21)</small> 
 
 
 
@@ -457,7 +457,9 @@ Los instrumentos de anotación sirven para \"marcar\" un dibujo con información
 
 </div>
 
--   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:32px;"> [Add Surface Finish Symbol](TechDraw_SurfaceFinishSymbol.md): adds a surface finish symbol to a page. <small>(v1.0)</small> 
+-   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:32px;"> [Add Surface Finish Symbol](TechDraw_SurfaceFinishSymbol.md): adds a surface finish symbol to a page. <small>(v0.21)</small> 
+
+-   <img alt="" src=images/TechDraw_HoleShaftFit.svg  style="width:32px;"> [Add Hole/Shaft Fit](TechDraw_HoleShaftFit.md): adds hole or shaft tolerances using ISO 286 to a dimension. <small>(v0.21)</small> 
 
 ## Extensions
 
@@ -645,18 +647,8 @@ Las herramientas de TechDraw pueden ser utilizadas en [macros](macros/es.md) y d
 
 ## Limitations
 
-
-<div class="mw-translate-fuzzy">
-
-## Limitaciones
-
--   Los dibujos de TechDraw y la API de Python no son intercambiables con el viejo módulo de Dibujo. Es posible convertir páginas de dibujo en páginas de TechDraw con Python (moveViews.py).
--   Es posible tener tanto TechDraw como Dibujo Paginas en el mismo documento de FreeCAD.
--   Existen pequeñas diferencias en la especificación de textos editables en plantillas en comparación con el módulo de dibujo. Vea la discusión del foro [Escala de plantillas DibujoTécnico](https://forum.freecadweb.org/viewtopic.php?f=3&t=24981&p=196271#p196271) para más detalles.
--   No corte, copie y pegue objetos de DibujoTécnico en la vista de árbol, ya que generalmente no funciona bien.
-
-
-</div>
+-   Do not cut, copy and paste TechDraw objects in the [Tree view](Tree_view.md) as this generally does not work out well.
+-   Do not drag TechDraw objects in the [Tree view](Tree_view.md) with the mouse.
 
 
 
@@ -678,6 +670,10 @@ Tutoriales de vídeo de sliptonic
 
 -   Ambiente de trabajo TechDraw [Parte 1 (Básico)](https://www.youtube.com/watch?v=7LbOmSGW9F0), [Parte 2 (Dimensiones)](https://www.youtube.com/watch?v=z3w84RfvqaE), [Parte 3 (Multiview)](https://www.youtube.com/watch?v=uNjXg-m38aI)
 -   Ambiente de trabajo de TechDraw [Parte 4 (Sección y detalle)](https://www.youtube.com/watch?v=3zSdeFV6I5o), [Parte 5 (Plantillas de personalización)](https://www.youtube.com/watch?v=kcmdJ7xa7gg)
+
+## Development
+
+Do you want to know about the future of the TechDraw Workbench? Visit [the TechDraw Roadmap Page](TechDraw_Roadmap.md) to learn more.
 
 
 

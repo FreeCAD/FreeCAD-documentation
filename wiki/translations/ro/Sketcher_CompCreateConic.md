@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -20,6 +22,8 @@
 
 
 </div>
+
+
 
 ## Tipuri de conice 
 

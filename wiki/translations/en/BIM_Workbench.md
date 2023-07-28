@@ -20,7 +20,7 @@ The developers of Draft, Arch and BIM also collaborate with the greater [OSArch 
 
 ## Installing
 
-The BIM workbench is not bundled with the default FreeCAD package, but can easily be installed via the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). Invoke it from **Tools → [Addons Manager](Std_AddonMgr.md)**. The BIM workbench code is [hosted and developed on github](https://github.com/yorikvanhavre/BIM_Workbench) and can also be installed manually by copying it into FreeCAD\'s **MOD** directory.
+The BIM workbench is not bundled with the default FreeCAD package, but can easily be installed via the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). Invoke it from **Tools → Addon Manager**. The BIM workbench code is [hosted and developed on github](https://github.com/yorikvanhavre/BIM_Workbench) and can also be installed manually by copying it into FreeCAD\'s **MOD** directory.
 
 **Note**
 

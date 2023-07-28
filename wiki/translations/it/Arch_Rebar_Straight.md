@@ -53,6 +53,8 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 </div>
 
+
+
 ## Utilizzo
 
 
@@ -75,6 +77,8 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 <img alt="" src=images/StraightRebarDialog.png  style="width:250px;"> 
 *Pannello Azioni per lo strumento Armatura dritta di Arch*
+
+
 
 ## Proprietà
 
@@ -161,6 +165,8 @@ Rebar = makeStraightRebar(f_cover, coverAlong, rt_cover, lb_cover,
 
 A seconda dell\'orientamento della barra di armatura, la funzione può essere chiamata in due modi generali impostando `coverAlong` in modo appropriato.
 
+
+
 ### La barra è orizzontale 
 
 
@@ -173,6 +179,8 @@ Rebar = makeStraightRebar(f_cover, ("Bottom Side", value), right_cover, left_cov
 
 -   In questo caso `rt_cover` si riferisce all\'offset `right_cover`, e `lb_cover` si riferisce all\'offset `left_cover`.
 
+
+
 ### La barra è verticale 
 
 
@@ -184,6 +192,8 @@ Rebar = makeStraightRebar(f_cover, ("Right Side", value), top_cover, bottom_cove
 -    `coverAlong`è una tupla con un `value` di offset `"Left Side"` o `"Right Side"`.
 
 -   In questo caso `rt_cover` si riferisce all\'offset `top_cover`, e `lb_cover` si riferisce all\'offset `bottom_cover`.
+
+
 
 ### Esempio orizzontale 
 
@@ -203,6 +213,8 @@ Rebar2 = StraightRebar.makeStraightRebar(50, ("Bottom Side", 50), 100, 100,
                                          12, True, 5, "Horizontal", Structure, "Face6")
 Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9)
 ```
+
+
 
 ### Esempio vericale 
 

@@ -8,28 +8,16 @@ Este é o índice utilizado para criação automática do sistema de ajuda on-li
 
 There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.md).
 
+<img alt="" src=images/Online_Help_Toc.svg  style="width:64px;">
 
-<div class="mw-translate-fuzzy">
-
--   [ Bem-vindo](Online_Help_Startpage/pt-br.md)
 -   Introdução
+-   [ Bem-vindo](Online_Help_Startpage/pt-br.md)
     -   [Sobre o FreeCAD](About_FreeCAD/pt-br.md)
     -   [Recursos](Feature_list/pt-br.md)
     -   [Instalando no Windows](Install_on_Windows/pt-br.md)
     -   [Instalando no Linux/Unix](Install_on_Unix/pt-br.md)
     -   [Instalando no Mac](Install_on_Mac/pt-br.md)
-
-
-</div>
-
--   Introduction
-    -   [Welcome](Online_Help_Startpage.md)
-    -   [About FreeCAD](About_FreeCAD.md)
-    -   [Features](Feature_list.md)
-    -   [Installing on Windows](Installing_on_Windows.md)
-    -   [Installing on Linux](Installing_on_Linux.md)
-    -   [Installing on Mac](Installing_on_Mac.md)
-    -   [Installing additional components](Installing_additional_components.md)
+    -   [Instalar conteúdo adicional](Installing_additional_components/pt-br.md)
 
 
 <div class="mw-translate-fuzzy">
@@ -70,14 +58,7 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Lista de todos documentos do FreeCAD](List_of_Commands.md)
--   [Tutoriais](Tutorials.md)
-
-
-</div>
 
 -   [List of file formats (import-export)](Import_Export.md)
 
@@ -85,7 +66,7 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
 
 -   [Workarounds](Workarounds.md)
 
--   [Tutorials](Tutorials.md)
+-   [Tutoriais](Tutorials.md)
 
 
 <div class="mw-translate-fuzzy">

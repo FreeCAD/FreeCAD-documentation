@@ -77,7 +77,7 @@ A SheetMetal Bend object is derived from a [Part Feature](Part_Feature.md) objec
 
 -    **Bend Type|Enumeration**: \"Bend Type\". {{value|Material Outside}} (default), {{value|Material Inside}}, {{value|Thickness Outside}}, {{value|Offset}}.
 
--    **Length Spec|Enumeration**: \"Type of Length Specification\". {{value|Leg}} (default), {{value|Outer Sharp}}, {{value|Inner Sharp}}, {{value|Tangential}}. <small>(v1.0)</small> 
+-    **Length Spec|Enumeration**: \"Type of Length Specification\". {{value|Leg}} (default), {{value|Outer Sharp}}, {{value|Inner Sharp}}, {{value|Tangential}}. <small>(v0.21)</small> 
 
 -    **angle|Angle**: \"Bend Angle\". Default angle: {{value|90,00°}}.
 

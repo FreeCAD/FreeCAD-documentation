@@ -1,33 +1,40 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher RestoreInternalAlignmentGeometry
-   MenuLocation:Sketch → Sketcher tools → Show/hide internal geometry
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Pokaż / ukryj geometrię wewnętrzną
+   MenuLocation:Szkic → Narzędzia szkicownika → Pokaż / ukryj geometrię wewnętrzną
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**Z** **I**
-   SeeAlso:[Sketcher Ellipse](Sketcher_CreateEllipseByCenter.md), [Sketcher Internal Alignment Constraint](Sketcher_ConstrainInternalAlignment.md)
+   SeeAlso:
 ---
 
 # Sketcher RestoreInternalAlignmentGeometry/pl
 
-## Description
 
-The command deletes unused elements aligned to internal geometry, or recreates the missing ones.
 
-## Usage
+## Opis
 
--   Select an element of a sketch that supports internal alignment (currently only Ellipse/Arc and B-spline).
--   Invoke the command by clicking **[<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> [Show/hide internal geometry](Sketcher_RestoreInternalAlignmentGeometry.md)** or choose **Sketch → Sketcher tools → [<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> Show/hide internal geometry** or using the keyboard shortcut.
+Polecenie usuwa nieużywane elementy wyrównane do geometrii wewnętrznej lub odtwarza brakujące.
 
-If there are free alignment places for the selected element, new construction geometry is created and aligned to the available places. If all alignment places are occupied, the unused internal geometry is deleted (the element is treated as unused if it is not constrained to anything else).
 
-## Example
 
-1.  Create a new ellipse. New ellipses are always fully-packed. You\'ll see an ellipse and a bunch of construction geometry: major diameter, minor diameter, foci.
-2.  Select minor diameter line and hit **Del**. The diameter is gone, but the ellipse remains. How do we get the diameter back?
-3.  Select the ellipse and invoke the **[<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> [Show/hide internal geometry](Sketcher_RestoreInternalAlignmentGeometry.md)** command. The diameter is restored.
-4.  Now, constrain the major diameter of the ellipse to some length. Select the ellipse and invoke the **[<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> [Show/hide internal geometry](Sketcher_RestoreInternalAlignmentGeometry.md)** command.
+## Użycie
 
-**Result:** Minor diameter and foci are deleted, but the major diameter is kept, because it participates in other constraints. Ellipse\'s center remains too, because it is inherent, like center of a circle.
+-   Wybierz element szkicu, który obsługuje wewnętrzne wyrównanie *([Elipsa](Sketcher_CreateEllipseByCenter/pl.md), [Łuk elipsy](Sketcher_CreateArcOfEllipse/pl.md) [Okrąg hiperboli](Sketcher_CreateArcOfHyperbola/pl.md), [Okrąg paraboli](Sketcher_CreateArcOfParabola/pl.md) lub [krzywa złożona](Sketcher_CreateBSpline/pl.md))*.
+-   Wywołaj polecenie, klikając **[<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> [Pokaż / ukryj geometrię wewnętrzną](Sketcher_RestoreInternalAlignmentGeometry/pl.md)** lub wybierając **Szkic → Narzędzia szkicownika → [<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> Pokaż / ukryj geometrię wewnętrzną** lub za pomocą skrótu klawiaturowego.
+
+Jeśli istnieją wolne miejsca wyrównania dla wybranego elementu, tworzona jest nowa geometria konstrukcji i wyrównywana do dostępnych miejsc. Jeśli wszystkie miejsca wyrównania są zajęte, nieużywana geometria wewnętrzna jest usuwana *(element jest traktowany jako nieużywany, jeśli nie jest ograniczony do niczego innego)*.
+
+
+
+## Przykład
+
+1.  Utwórz nową elipsę. Nowe elipsy są zawsze w pełni upakowane. Zobaczysz elipsę i garść geometrii konstrukcyjnej: główną średnicę, małą średnicę, punkty centralne.
+2.  Wybierz linię o mniejszej średnicy i naciśnij klawisz **Del**. Średnica zniknęła, ale elipsa pozostała. Jak odzyskać średnicę?
+3.  Wybierz elipsę i wywołaj polecenie **[<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> [Pokaż / ukryj geometrię wewnętrzną](Sketcher_RestoreInternalAlignmentGeometry/pl.md)**. Średnica zostaje przywrócona.
+4.  Teraz zwiąż główną średnicę elipsy do pewnej długości. Zaznacz elipsę i wywołaj polecenie **[<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> [Pokaż / ukryj geometrię wewnętrzną](Sketcher_RestoreInternalAlignmentGeometry/pl.md)**.
+
+**Wynik:** Średnica mniejsza i ogniska zostają usunięte, ale średnica większa zostaje zachowana, ponieważ uczestniczy w innych wiązaniach. Środek elipsy też pozostaje, bo jest nieodłączny, jak środek okręgu.
 
 
 

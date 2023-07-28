@@ -11,14 +11,27 @@
 
 # TechDraw ExtensionLineParallel/de
 
+
+
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Das Werkzeug <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width:24px;"> **TechDraw ErgänzunParalleleLinie** fügt eine Hilfslinie parallel zu einer anderen Linie, durch einen Knotenpunkt verlaufend, ein.
+
+
+</div>
 
 <img alt="" src=images/TechDraw_ExtensionLineParallelExample.png  style="width:250px;"> 
 *Rechts eine eingefügte parallele Hilfslinie*
 
+
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Optional können die Eigenschaften der Linien mit dem Werkzeug <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ErgänzungLinienmerkmaleAuswählen](TechDraw_ExtensionSelectLineAttributes/de.md) definiert werden.
 2.  Eine gerade Linie auswählen, um die Richtung und die Länge der Linie festzulegen.
@@ -27,6 +40,9 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="w
     -   Die Schaltfläche **<img src="images/TechDraw_ExtensionLineParallel.svg" width=16px> [Parallele Hilfslinie hinzufügen](TechDraw_ExtensionLineParallel/de.md)** drücken.
     -   Den Menüeintrag **TechDraw → Ergänzungen: Mittellinien/Gewinde → <img src="images/TechDraw_ExtensionLineParallel.svg" width=16px> Parallele Hilfslinie hinzufügen** auswählen.
 5.  Eine Hilfslinie wird eingefügt.
+
+
+</div>
 
 
 

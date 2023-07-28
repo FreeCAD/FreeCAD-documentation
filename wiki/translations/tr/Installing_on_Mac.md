@@ -29,7 +29,15 @@ brew install freecad
 
 If there are any issues with the HomeBrew Cask or Formula you may report them to [here](https://github.com/FreeCAD/homebrew-freecad).
 
+
+<div class="mw-translate-fuzzy">
+
 Bu sayfada, FreeCAD yükleyicinin kullanımı ve özellikleri açıklanmaktadır. Ayrıca kaldırma talimatlarını içerir. Şimdi kuralım ve çalışmaya [başlayalım](Getting_started.md)!
+
+
+</div>
+
+
 
 ### Kolay Kurulum 
 
@@ -41,7 +49,15 @@ Son sürüm yükleme dosyasını [İndirme sayfasından](Download.md) indirebili
 
 ![](images/mac_installer_1.png )
 
+
+<div class="mw-translate-fuzzy">
+
 İşte bu kadar. FreeCAD\'i başlatmak için uygulamaya tıklayın. \"FreeCAD, kimliği belirsiz geliştiriciden olduğu için açılmıyor.\" Bu iletiye sahipseniz, Uygulama klasörünü açın ve uygulamaya sağ tıklayın, ardından uygulamayı açmak için aç ve kabul et seçeneğine tıklayın.
+
+
+</div>
+
+
 
 ### Uygulamayı Kaldırma 
 

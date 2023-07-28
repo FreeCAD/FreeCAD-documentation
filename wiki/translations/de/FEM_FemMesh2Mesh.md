@@ -9,9 +9,13 @@
 
 # FEM FemMesh2Mesh/de
 
+
+
 ## Beschreibung
 
 This tool converts surfaces of 3D elements of a selected FEM mesh to mesh, or converts 2D FEM mesh to mesh. Internally it picks FEM mesh element faces which are unique (not shared by two elements) and uses them to create faces of a mesh. Optionally it allows to create a deformed mesh caused by the action of the defined forces. This is done by adding the displacement of the FEM results to the mesh nodes (scale of the displacement can be set by Python).
+
+
 
 ## Anwendung
 
@@ -21,9 +25,11 @@ This tool converts surfaces of 3D elements of a selected FEM mesh to mesh, or co
     -   Die Schaltfläche **<img src="images/FEM_FemMesh2Mesh.svg" width=16px> [FEM-Netz zu Netz](FEM_FemMesh2Mesh/de.md)** drücken.
     -   Den Menüeintrag **Netz → <img src="images/FEM_FemMesh2Mesh.svg" width=16px> FEM-Netz zu Netz** auswählen.
 
+
+
 ## Skripten
 
-**Note**: The parameter *scale* was <small>(v1.0)</small> . For older versions of FreeCAD omit it from your code.
+**Note**: The parameter *scale* was <small>(v0.21)</small> . For older versions of FreeCAD omit it from your code.
 
 When you just require the displacement scale factor, check your mesh object name and the scale factor in the following code:
 

@@ -51,7 +51,7 @@ Strumenti per creare gli oggetti architettonici.
 
   - <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Armatura personalizzata](Arch_Rebar/it.md): Crea una barra d\'armatura personalizzata in un elemento strutturale selezionato utilizzando uno schizzo.
 
--   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Facciata continua](Arch_CurtainWall/it.md): Crea una facciata continua da zero o utilizzando un oggetto selezionato come base. {{Version/it|0.19}}
+-   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Facciata continua](Arch_CurtainWall/it.md): Crea una facciata continua da zero o utilizzando un oggetto selezionato come base.
 
 -   <img alt="" src=images/Arch_BuildingPart.svg  style="width:32px;"> [Parte di edificio](Arch_BuildingPart/it.md): Crea una parte dell\'edificio che include gli oggetti selezionati.
 
@@ -97,11 +97,11 @@ Strumenti per creare gli oggetti architettonici.
 
 -   <img alt="" src=images/Arch_Frame.svg  style="width:32px;"> [Telaio](Arch_Frame/it.md): Crea un oggetto di carpenteria da un layout selezionato.
 
--   <img alt="" src=images/Arch_Fence.svg  style="width:32px;"> [Recinzione](Arch_Fence/it.md): Crea un oggetto recinzione da un palo e un percorso selezionati. {{Version/it|0.19}}
+-   <img alt="" src=images/Arch_Fence.svg  style="width:32px;"> [Recinzione](Arch_Fence/it.md): Crea un oggetto recinzione da un palo e un percorso selezionati.
 
--   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Travatura](Arch_Truss/it.md): Crea una travatura reticolare da una linea selezionata o da zero. {{Version/it|0.19}}
+-   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Travatura](Arch_Truss/it.md): Crea una travatura reticolare da una linea selezionata o da zero.
 
--   <img alt="" src=images/Arch_Profile.svg  style="width:32px;"> [Profilo](Arch_Profile/it.md): Crea un profilo 2D parametrico. {{Version/it|0.19}}
+-   <img alt="" src=images/Arch_Profile.svg  style="width:32px;"> [Profilo](Arch_Profile/it.md): Crea un profilo 2D parametrico.
 
 -   <img alt="" src=images/Arch_CompSetMaterial.png  style="width:48px;"> [Materiali](Arch_CompSetMaterial/it.md)
 
@@ -125,7 +125,7 @@ Strumenti per modificare gli oggetti architettonici.
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Taglio con piano](Arch_CutPlane/it.md): Taglia un oggetto secondo un piano.
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Taglio con una linea](Arch_CutLine/it.md): Taglia un oggetto secondo una linea. {{Version/it|0.19}}
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Taglio con una linea](Arch_CutLine/it.md): Taglia un oggetto secondo una linea.
 
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Aggiungi componente](Arch_Add/it.md): Aggiunge oggetti a un componente.
 

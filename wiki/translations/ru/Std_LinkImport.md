@@ -1,13 +1,16 @@
 ---
-- GuiCommand:
-   Name:Std LinkImport
-   MenuLocation:None
-   Workbenches:All
+- GuiCommand:/ru
+   Name/ru:Импорт ссылок
+   Name:Std_LinkImport
+   MenuLocation:Нет
+   Workbenches:Все
    Version:0.19
-   SeeAlso:[Std LinkMake](Std_LinkMake.md), [Std LinkMakeRelative](Std_LinkMakeRelative.md), [Std LinkImportAll](Std_LinkImportAll.md)
+   SeeAlso:[Создать ссылку](Std_LinkMake/ru.md), [Ссылка](Std_LinkMakeRelative/ru.md), [Импорт всех ссылок](Std_LinkImportAll/ru.md)
 ---
 
 # Std LinkImport/ru
+
+
 
 ## Описание
 
@@ -19,6 +22,8 @@ imports the **Linked Object** from a Link into the current document, and then ch
 This operation is helpful when working with [assemblies](assembly.md) in order to organize re-usable models that may be located in other documents.
 
 Use **[<img src=images/Std_LinkImportAll.svg style="width:16px"> [Std LinkImportAll](Std_LinkImportAll.md)** to import all linked objects.
+
+
 
 ## Применение
 

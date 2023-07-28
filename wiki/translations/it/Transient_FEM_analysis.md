@@ -14,7 +14,11 @@
 
 
 
+
+
 ## Introduzione
+
+
 
 ## Creare il modello 
 
@@ -29,7 +33,11 @@
 
 <img alt="" src=images/Transient_FEM_Bimetal_(1).JPG  style="width:700px;">
 
+
+
 ## Preparazione ed esecuzione dell\'analisi FEM 
+
+
 
 ### Assegnazione dei materiali 
 
@@ -64,6 +72,8 @@ Before we can run the analysis, an additional boundary condition has to be set: 
 
 <img alt="" src=images/Transient_FEM_Bimetal_(5).JPG  style="width:700px;">
 
+
+
 ### Eseguire l\'analisi 
 
 The analysis should already contain a solver object \'[CalculiXccx Tools](FEM_SolverCalculixCxxtools.md)\'. If not, we add one by using the <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:20px;"> solver icon from the toolbar. (There are two identical icons, the experimental solver should also work.) The solver object has a list of properties below in the left section of the window. Here we select the following options (leave the ones unmentioned unchanged):
@@ -82,6 +92,8 @@ We should now have multiple <img alt="" src=images/FEM_ResultShow.svg  style="wi
 
 Within FreeCAD, we can use <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:20px;"> [pipelines](FEM_PostPipelineFromResult.md) to do some post-processing of the results. Alternatively, we can export the results in the VTK format and import them into dedicated post-processors like ParaView. For the export of multiple results (as for this analysis), there is a [macro](Macro_export_transient_FEM_results.md) available.
 
+
+
 ## Download
 
 -   [File di esempio senza risultati (200 kB)](https://drive.google.com/file/d/1m3RiJ-JM7QSJ6YDhZnafHIbyL92V6sYU/view?usp=sharing)
@@ -96,9 +108,11 @@ from femexamples.thermomech_bimetall import setup
 setup()
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > Transient FEM analysis/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > Transient FEM analysis/it

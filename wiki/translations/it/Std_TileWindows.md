@@ -1,24 +1,29 @@
 ---
-- GuiCommand:
+- GuiCommand:/it
    Name:Std TileWindows
-   MenuLocation:Windows → Tile
-   Workbenches:All
-   SeeAlso:[Std CascadeWindows](Std_CascadeWindows.md)
+   Name/it:Affianca
+   MenuLocation:Finestre → Affianca
+   Workbenches:Tutti
+   SeeAlso:[A cascata](Std_CascadeWindows/it.md)
 ---
 
 # Std TileWindows/it
 
-## Description
 
-The **Std TileWindows** command rearranges the windows in the [Main view area](Main_view_area.md) so that they are all visible and do not overlap. The result is determined by the order in which the windows were last activated.
+
+## Descrizione
+
+Il comando **Affianca** riorganizza le finestre nell\'[Area della vista principale](Main_view_area/it.md) in modo che siano tutte visibili e non si sovrappongano. Il risultato è determinato dall\'ordine in cui le finestre sono state attivate l\'ultima volta.
 
 <img alt="" src=images/Std_TileWindows_example.png  style="width:600px;"> 
-*Main view area with three tiled windows*
+*Vista principale con tre finestre affiancate*
 
-## Usage
 
-1.  The Main view area must contain at least two windows.
-2.  Select the **Windows → <img src="images/Std_TileWindows.svg" width=16px> Tile** option from the menu.
+
+## Utilizzo
+
+1.  L\'area della vista principale deve contenere almeno due finestre.
+2.  Selezionare l\'opzione **Finestre → <img src="images/Std_TileWindows.svg" width=16px> Affianca** dal menu.
 
 
 

@@ -1,65 +1,41 @@
 ---
 - GuiCommand:/de
    Name:OpenSCAD AddOpenSCADElement
-   Name/de:OpenSCAD HinzufügenOpenSCADElement
+   Name/de:OpenSCAD OpenSCADElementHinzufügen
    Empty:1
-   MenuLocation:OpenSCAD -> Hinzufügen OpenSCAD Element
+   MenuLocation:OpenSCAD -> OpenSCAD Element hinzufügen
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
 ---
 
 # OpenSCAD AddOpenSCADElement/de
 
-## Description
 
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-Füge ein OpenSCAD Element hinzu, indem du OpenSCAD Code in das Aufgabenfeld eingibst und die OpenSCAD Binärdatei ausführst (erfordert OpenSCAD).
+Ein OpenSCAD Element hinzufügen, indem OpenSCAD-Code im Aufgabenbereich eingegeben und die OpenSCAD-Binärdatei ausgeführt wird (erfordert OpenSCAD).
 
-
-</div>
-
-When \'as mesh\' is selected, OpenSCAD renders a Mesh.
+Wird \'as mesh\' ausgewählt, rendert OpenSCAD ein Netz.
 
 Jedesmal beim Drücken von Einfügen wird OpenSCAD-Code ausgeführt und Elemente werden importiert.
 
+Falls OpenSCAD erfolgreich zurückkehrt, werden seine Meldungen als Warnungen im Ausgabefenster angezeigt. Dies wird der Fall sein, wenn der Pfad zu importierten, eingefügten und verwendeten Dateien defekt ist. Im Falle von ungewünschten Ergebnissen wird dringend empfohlen, einen Blick auf das Ausgabefenster zu werfen, denn dort könnten viele weitere vom Importer erstellte Ausgaben zu finden sein. Falls OpenSCAD fehlschlägt, werden seine Meldungen als Fehler aufgezeichnet.
 
-<div class="mw-translate-fuzzy">
-
-Falls OpenSCAD erfolgreich zurückkehrt, werden die Meldungen als Warnungen im Reportfenster angezeigt. Dies wird der Fall sein, wenn der Pfad importiert und eingefügt wird und benutzte Dateien defekt sind. Im Falle von ungewünschten Ergebnissen wird dringend empfohlen, einen Blick auf das Reportfenster zu werfen, denn dort könnten viele Ausgaben vom Importer sein. Falls OpenSCAD fehlschlägt, werden die Meldungen als Fehler dargestellt. Bibliotheken können wie gewohnt erreichbar sein, Beispiele hingegen können wie unten gezeigt erreicht werden
-
-
-</div>
-
-Libraries should be accessible as usual, whereas example can be reached as stated below.
+Bibliotheken sollten wie üblich erreichbar sein, dabei können Beispiele, wie folgend dargestellt ist, erreicht werden.
 
 
 ```python
 include <../examples/example001.scad>;
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-würde die ersten Beispiele einbinden, auch als das OpenSCAD-Symbol bekannt
+würde das erste Beispiel beinhalten, auch als das OpenSCAD-Symbol bekannt.
 
 
-</div>
 
-## Setup OpenSCAD within FreeCAD 
-
-
-<div class="mw-translate-fuzzy">
-
-## Installation von OpenSCAD innerhalb von FreeCAD 
+## OpenSCAD innerhalb von FreeCAD einrichten 
 
 **Hinweis:** OpenSCAD muss auf deinem Computer installiert sein, damit FreeCAD diese Funktionalität nutzen kann
-Installiere OpenSCAD in der für dein Betriebssystem entsprechenden Weise. Siehe [the OpenSCAD web site](https://www.openscad.org/) für mehr Informationen
-
-
-</div>
+Installiere OpenSCAD in der für dein Betriebssystem entsprechenden Weise. Siehe [the OpenSCAD web site](https://www.openscad.org/) für mehr Informationen.
 
 FreeCAD needs to be told where to find the OpenSCAD executable:
 
@@ -74,13 +50,7 @@ FreeCAD needs to be told where to find the OpenSCAD executable:
 
 Hinweis: Es ist ebenso möglich einen anderen Optionalen Paramter hinzuzufügen, der die maximalen Seiten eines Polygons steuert bevor es als ein Kreis angesehen wird (fn).
 
-
-<div class="mw-translate-fuzzy">
-
-Beginnend mit <small>(v0.14)</small>  sucht FreeCAD nach der OpenSCAD ausführbaren wenn oben genannte Einstellung leer ist.
-
-
-</div>
+Beginnend mit {{VersionPlus/de|0.14}} sucht FreeCAD nach der ausführbaren Datei von OpenSCAD, wenn die oben genannte Einstellung leer ist.
 
 
 

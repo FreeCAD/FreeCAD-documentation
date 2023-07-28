@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:TechDraw ExportPageSVG
    Name/fr:TechDraw Exporter au format SVG
-   MenuLocation:TechDraw → Exporter une page au format SVG
+   MenuLocation:TechDraw → Page → Exporter une page au format SVG
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Version:0.19
    SeeAlso:[TechDraw Modèles](TechDraw_Templates/fr.md), [Draft SVG](Draft_SVG/fr.md)
@@ -12,17 +12,31 @@
 
 ## Description
 
-L\'outil Exporter la page enregistre la page de dessin en cours sous forme de fichier [SVG](SVG/fr.md).
+L\'outil **TechDraw Exporter au format SVG** enregistre la page de dessin en cours sous forme de fichier [SVG](SVG/fr.md).
+
+
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **<img src="images/TechDraw_ExportPageSVG.svg" width=16px> [Exporter une page au format SVG](TechDraw_ExportPageSVG/fr.md)**.
-2.  Une boîte de dialogue d\'enregistrement de fichier s\'ouvrira. Sélectionnez un emplacement et un nom de fichier.
+1.  S\'il y a plusieurs pages de dessin dans le document : activez éventuellement la page souhaitée en la sélectionnant dans la [Vue arborescente](Tree_view/fr.md).
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le **<img src="images/TechDraw_ExportPageSVG.svg" width=16px> [Exporter une page au format SVG](TechDraw_ExportPageSVG/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Page → <img src="images/TechDraw_ExportPageSVG.svg" width=16px> Exporter une page au format SVG** dans le menu.
+    -   Si une page est affichée dans la [zone de vue principale](Main_view_area/fr.md) : cliquez avec le bouton droit de la souris sur la fenêtre de la page et sélectionnez l\'option **Exporter en SVG** dans le menu contextuel.
+3.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore activé une page, la boîte de dialogue **Sélecteur de page** s\'ouvre : {{Version/fr|0.20}}
+    1.  Sélectionnez la page désirée.
+    2.  Appuyez sur le bouton **OK**.
+4.  La boîte de dialogue **Exporter la page en SVG** s\'ouvre.
+    1.  Sélectionnez un emplacement et un nom de fichier.
+
+
 
 ## Remarques
 
 -   Les modèles [TechDraw Hachures par motifs](TechDraw_Hatch/fr.md) ne sont pas exportés vers [SVG](SVG/fr.md) en raison d\'une limitation de la prise en charge SVG de Qt4.
 -   Les positions et tailles de texte ne sont pas correctes dans le fichier exporté. L\'utilisation de la police par défaut \"système\" dans le dessin améliore considérablement le problème de taille.
+
+
 
 ## Script
 

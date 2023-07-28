@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -14,6 +16,8 @@ Acest instrument transformă suprafețele elementelor 3D dintr-o plasă FEM sele
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -35,7 +39,7 @@ Acest instrument transformă suprafețele elementelor 3D dintr-o plasă FEM sele
 
 ## Scripting
 
-**Note**: The parameter *scale* was <small>(v1.0)</small> . For older versions of FreeCAD omit it from your code.
+**Note**: The parameter *scale* was <small>(v0.21)</small> . For older versions of FreeCAD omit it from your code.
 
 When you just require the displacement scale factor, check your mesh object name and the scale factor in the following code:
 

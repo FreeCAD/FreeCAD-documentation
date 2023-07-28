@@ -1,20 +1,12 @@
 # Online Help Toc/zh-cn
-<div class="mw-translate-fuzzy">
+这是用于自动构建 FreeCAD **在线帮助**系统的目录。这份手册也有一份可打印版本在 [发布页](https://github.com/FreeCAD/FreeCAD/releases)。如果您对 FreeCAD 有任何疑问或需要帮助，请查阅 [帮助页面](help.md)，包括论坛和聊天组。
 
- 这是用于自动构建 FreeCAD **在线帮助**系统的目录。这份手册也有一份可打印版本在 [发布页](https://github.com/FreeCAD/FreeCAD/releases)。
+另外，这里还有一份[FreeCAD手册的目录](Manual:Introduction/zh-cn.md)。
 
+<img alt="" src=images/Online_Help_Toc.svg  style="width:64px;">
 
-</div>
-
-另外，这里还有一份[FreeCAD手册的目录](Manual:Introduction/zh-cn.md).
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Online_Help_Toc.svg  style="width:64px;"> 
-
--   [ 欢迎词](Online_Help_Startpage/zh-cn.md)
 -   引言
+    -   [ 欢迎词](Online_Help_Startpage/zh-cn.md)
     -   [关于 FreeCAD](About_FreeCAD/zh-cn.md)
     -   [功能](Feature_list/zh-cn.md)
     -   [在 Windows 中安装](Install_on_Windows/zh-cn.md)
@@ -22,32 +14,15 @@
     -   [在 Mac 中安装](Install_on_Mac/zh-cn.md)
     -   [安装额外的内容](Installing/zh-cn.md)
 
-
-</div>
-
--   Introduction
-    -   [Welcome](Online_Help_Startpage.md)
-    -   [About FreeCAD](About_FreeCAD.md)
-    -   [Features](Feature_list.md)
-    -   [Installing on Windows](Installing_on_Windows.md)
-    -   [Installing on Linux](Installing_on_Linux.md)
-    -   [Installing on Mac](Installing_on_Mac.md)
-    -   [Installing additional components](Installing_additional_components.md)
-
-
-<div class="mw-translate-fuzzy">
-
 -   使用FreeCAD
     -   [入门](Getting_started/zh-cn.md)
-    -   [三维观察](Mouse_Model/zh-cn.md)
+    -   [三维观察](Mouse_navigation/zh-cn.md)
+    -   [选型方法](Selection_methods/zh-cn.md)
     -   [使用导航立方](Navigation_Cube/zh-cn.md)
     -   [FreeCAD 文档](Document_structure/zh-cn.md)
     -   [使用参数化对象](Property_editor/zh-cn.md)
     -   [使用工作台](Workbenches/zh-cn.md)
     -   [导入和导出到其它文件类型](Import_Export/zh-cn.md)
-
-
-</div>
 
 -   [工作区](Workbenches/zh-cn.md)
 
@@ -55,7 +30,6 @@
     -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [建筑工作台](Arch_Workbench/zh-cn.md)
     -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [底图工作台](Draft_Workbench/zh-cn.md)
     -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [FEM 工作台](FEM_Workbench/zh-cn.md)
-    -   <img alt="" src=images/Workbench_Image.svg  style="width:32px;"> [图像工作台](Image_Workbench/zh-cn.md)
     -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> [形状检测工作台](Inspection_Workbench/zh-cn.md)
     -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> [网格工作台](Mesh_Workbench/zh-cn.md)
     -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> [OpenSCAD 工作台](OpenSCAD_Workbench/zh-cn.md)
@@ -63,7 +37,6 @@
     -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [零件设计工作台](PartDesign_Workbench/zh-cn.md)
     -   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [路径工作台](Path_Workbench/zh-cn.md)
     -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> [点集工作台](Points_Workbench/zh-cn.md)
-    -   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> [光线追踪工作台](Raytracing_Workbench/zh-cn.md)
     -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> [逆向工程工作台](Reverse_Engineering_Workbench/zh-cn.md)
     -   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> [机器人仿真工作台](Robot_Workbench/zh-cn.md)
     -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [草图工作台](Sketcher_Workbench/zh-cn.md)
@@ -75,34 +48,21 @@
     -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> [网页工作台](Web_Workbench/zh-cn.md)
     -   [外部扩展工作台](External_workbenches/zh-cn.md)
 
-
-<div class="mw-translate-fuzzy">
-
 -   [FreeCAD 命令清单](List_of_Commands/zh-cn.md)
--   [教程](Tutorials/zh-cn.md)
 
-
-</div>
-
--   [List of file formats (import-export)](Import_Export.md)
+-   [文件格式列表（导入-导出）](Import_Export/zh-cn.md)
 
 -   [FAQ](Frequently_asked_questions.md)
 
--   [Workarounds](Workarounds.md)
+-   [解决方法](Workarounds/zh-cn.md)
 
--   [Tutorials](Tutorials.md)
-
-
-<div class="mw-translate-fuzzy">
+-   [教程](Tutorials/zh-cn.md)
 
 -   定制 FreeCAD
     -   [用户界面定制](Interface_Customization/zh-cn.md)
     -   [用户首选项设置](Preferences_Editor/zh-cn.md)
-    -   [设置导入-导出首选项](Import_Export_Preferences.md)
+    -   [设置导入-导出首选项](Import_Export_Preferences/zh-cn.md)
     -   [使用宏](Macros/zh-cn.md)
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">

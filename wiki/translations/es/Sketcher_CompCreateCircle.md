@@ -12,9 +12,13 @@
 
 </div>
 
+
+
 ## Descripción
 
 **Crear un círculo** es un botón de icono en la barra de herramientas de geometrías de Croquizador que agrupa herramientas para crear un círculo. Haz clic en la flecha hacia abajo situada a su derecha para desplegar los iconos que hay debajo y seleccionar una herramienta.
+
+
 
 ## Tipos de círculos 
 

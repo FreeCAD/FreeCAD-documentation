@@ -1,49 +1,58 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign SubtractiveCone
-   MenuLocation:Part Design → Create a subtractive primitive → Subtractive Cone
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Subtraktywny stożek
+   MenuLocation:Projekt Części → Utwórz cechę przez odjęcie → Subtraktywny stożek
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign AdditiveCone](PartDesign_AdditiveCone.md)
+   SeeAlso:[Komponent bryła pierwotna do odjęcia](PartDesign_CompPrimitiveSubtractive/pl.md), [Addytywny stożek](PartDesign_AdditiveCone/pl.md)
 ---
 
 # PartDesign SubtractiveCone/pl
 
-## Description
 
-Inserts a subtractive cone in the active Body. Its shape is subtracted from the existing solid.
+
+## Opis
+
+Funkcja ta wstawia pierwotny stożek odejmowany od aktywnej Zawartości. Jego kształt jest odejmowany od istniejącej bryły.
 
 ![](images/PartDesign_SubtractiveCone_example.png )
 
-*On the left: active body (A) shown in grey and subtractive cone (B) shown in transparent red; result on the right.*
+*Po lewej: aktywna zawartość (A) pokazana w kolorze szarym i stożek do odjęcia (B) pokazany w kolorze czerwonym z przeźroczystością. Wynik po prawej*.
 
-## Usage
 
-1.  Press the **<img src="images/PartDesign_SubtractiveCone.svg" width=24px> '''Subtractive Cone'''** button. **Note**: the Subtractive Cone is part of an icon menu labelled *Create a subtractive primitive*. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get to the Cone button, click on the down arrow besides the visible icon and select Subtractive Cone in the menu.
-2.  Set the Primitive parameters (for a complete cone, set one of the radii to zero) and the [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  A Cone feature appears under the active Body.
 
-## Options
+## Użycie
 
-The Cone can be edited after its creation in two ways:
+1.  Naciśnij przycisk **<img src="images/PartDesign_SubtractiveCone.svg" width=24px> '''Subtraktywny stożek'''**. **Uwaga**: Subtraktywny stożek jest częścią menu narzędzi o nazwie **Utwórz bryłę pierwotną do odjęcia**. Po uruchomieniu programu FreeCAD, Subtraktywny prostopadłościan wyświetlany jest na pasku narzędzi domyślnie. Aby przejść do funkcji Stożek, kliknij strzałkę w dół na widocznej ikonce i wybierz z menu opcję Subtraktywny stożek.
+2.  Ustaw parametry bryły i [dołączenia](Part_EditAttachment/pl.md).
+3.  Kliknij **OK**.
+4.  Pod aktywnym obiektem Zawartość pojawi się element Stożek.
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
 
-## Properties
 
--    **Attachment**: defines the attachment mode as well as the Attachment Offset. See [Part EditAttachment](Part_EditAttachment.md).
+## Opcje
 
--    **Label**: label given to the Cone object. Change to suit your needs.
+Stożek można edytować po jego utworzeniu na dwa sposoby:
 
--    **Radius1**: the radius value at the cone\'s base.
+-   Klikając go dwukrotnie w drzewie modelu lub klikając prawym przyciskiem myszy i wybierając **Edytuj bryłę pierwotną** z menu podręcznego. Spowoduje to wyświetlenie parametrów bryły pierwotnej.
+-   Poprzez [Edytor właściwości](Property_editor/pl.md).
 
--    **Radius2**: the radius value at the cone\'s top. A non-zero value creates a truncated cone.
 
--    **Height**: the height of the cone along its axis.
 
--    **Angle**: angle of rotation of the cross section (360 degrees in a full cone).
+## Właściwości
+
+-    **Dołączenie**: definiuje tryb dołączania, a także przesunięcie dołączania. Zobacz też [Część: Edycja mocowania](Part_EditAttachment/pl.md).
+
+-    **Etykieta**: Etykieta nadana obiektowi Stożka. Zmień zgodnie z własnymi potrzebami.
+
+-    **Promień1**: wartość promienia u podstawy stożka.
+
+-    **Promień2**: wartość promienia na wierzchołku stożka. Wartość większa od zera tworzy stożek ścięty.
+
+-    **Wysokość**: wysokość stożka wzdłuż jego osi.
+
+-    **Kąt**: kąt obrotu przekroju *(360° dla pełnego stożka)*.
 
 
 

@@ -14,6 +14,8 @@ FreeCAD è estendibile con il codice [Python](Python/it.md) che viene eseguito d
 
 Se si desidera contribuire con contenuti a queste pagine, richiedere un account wiki con autorizzazioni dell\'editor [nel forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830) e leggere le [WikiPages](WikiPages.md) per le linee guida generali da seguire. Per gli altri modi di contribuire al progetto, vedere la pagina [Contribuire a FreeCAD](Help_FreeCAD/it.md).
 
+
+
 ## Personalizzare FreeCAD 
 
 -   [Personalizzare l\'interfaccia](Interface_Customization/it.md): Cominciando dall\'inizio: le barre degli strumenti e i tasti di scelta rapida
@@ -22,7 +24,11 @@ Se si desidera contribuire con contenuti a queste pagine, richiedere un account 
 -   [Personalizzare la barra degli strumenti](Customize_Toolbars/it.md)
 -   [Installare ambienti aggiuntivi](Installing_more_workbenches/it.md)
 
+
+
 ## Script in FreeCAD 
+
+
 
 ### Generale
 
@@ -37,6 +43,8 @@ Se si desidera contribuire con contenuti a queste pagine, richiedere un account 
 -   [Debugging](Debugging/it#Eliminare_errori_Python.md) del codice Python
 -   [Python Development Environment](Python_Development_Environment/it.md) - Un ambiente di sviluppo semplicistico per Python all\'interno di FreeCAD
 
+
+
 ### Moduli
 
 Le funzionalità di FreeCAD sono suddivise in moduli che trattano tipi specifici di dati e di applicazioni. FreeCAD è composto da moduli built-in e da moduli di estensione (plug-in). Quando i moduli plugin sono installati, sono disponibili come i moduli built-in. I moduli descritti di seguito sono i moduli di default, inclusi in ogni installazione FreeCAD.
@@ -44,9 +52,13 @@ Le funzionalità di FreeCAD sono suddivise in moduli che trattano tipi specifici
 -   I [Moduli builtin](Builtin_modules/it.md) sono i moduli principali di FreeCAD. Essi contengono gli strumenti per manipolare le configurazioni generali di FreeCAD, i documenti e il loro contenuto.
 -   La pagina [Creare un Ambiente di lavoro](Workbench_creation/it.md) spiega come creare un proprio ambiente di lavoro.
 
+
+
 #### Lavorare con Meshes 
 
 -   [Script per Mesh](Mesh_Scripting/it.md): Come interagire con il [Ambiente Mesh](Mesh_Workbench/it.md)
+
+
 
 #### Lavorare con Parts 
 
@@ -55,15 +67,21 @@ Le funzionalità di FreeCAD sono suddivise in moduli che trattano tipi specifici
 -   [PythonOCC](PythonOCC.md) - [PythonOCC](PythonOCC/it.md): Come utilizzare tutta la potenza di Open CASCADE
 -   [Da Mesh a Parte](Mesh_to_Part/it.md): Conversione tra tipi di oggetti
 
+
+
 #### Accedere alla scenografia di Coin 
 
 -   [La grafica di scena di Coin/Inventor](Scenegraph/it.md): Come funziona la rappresentazione della scena in FreeCAD
 -   [Pivy](Pivy/it.md): Come accedere alla grafica della scena e come modificarla
 
+
+
 ### Controllare l\'interfaccia di Qt 
 
 -   [PySide](PySide/it.md): Come accedere alla gestione dell\'interfaccia e modificare il suo contenuto
 -   [Using the FreeCAD GUI](Embedding_FreeCADGui.md) - [Utlizzare l\'interfaccia grafica utente di FreeCAD](Embedding_FreeCADGui/it.md) in una diversa applicazione Qt tramite PyQt
+
+
 
 ### Lavorare con oggetti parametrici 
 
@@ -72,20 +90,26 @@ Le funzionalità di FreeCAD sono suddivise in moduli che trattano tipi specifici
     -   [Oggetti creati da script che salvano gli attributi](Scripted_objects_saving_attributes/it.md): come salvare e ripristinare gli attributi della classe proxy con `__getstate__` e `__setstate__`.
     -   [Migrazione di oggetti creati da script](Scripted_objects_migration/it.md): come migrare dei vecchi oggetti creati da script in una nuova classe.
 
+
+
 ### Esempi
 
 -   [Parti di codici](Code_snippets/it.md) : Una raccolta di esempi di codice Python di FreeCAD, da utilizzare negli script \...
 -   [Funzione per tracciare linee](Line_drawing_function/it.md): Come costruire un semplice strumento per tracciare linee
 -   [Creare finestre di dialogo](Dialog_creation/it.md): Come creare finestre di dialogo con Qt designer, e come utilizzarle in FreeCAD
 -   [Incorporare FreeCAD](Embedding_FreeCAD/it.md): Come importare FreeCAD sotto forma di un modulo Python in altre applicazioni
--   Il [Ambiente Draft](Draft_Workbench/it.md) aggiunge a FreeCAD funzioni base di disegno 2D. E \'scritto interamente in Python, e costituisce un valido esempio per scrivere moduli personali.
+-   L\'[Ambiente Draft](Draft_Workbench/it.md) aggiunge a FreeCAD funzioni base di disegno 2D. E \'scritto interamente in Python, e costituisce un valido esempio per scrivere moduli personali.
 -   [FreeCAD vector math library](FreeCAD_vector_math_library.md) - [Libreria di matematica vettoriale di FreeCAD](FreeCAD_vector_math_library/it.md) : Un paio di funzioni utili per manipolare i vettori in FreeCAD. Questa libreria è inclusa anche nel modulo Draft.
+
+
 
 ## Funzioni API 
 
 La documentazione completa di FreeCAD si trova in <http://www.freecadweb.org/api/> . Essa contiene le API C++ e Python, e non è ancora del tutto formattata, il che può essere fonte di confusione quando si cerca solo il codice Python. Una versione delle API più facile da esplorare si trova [in questa pagina in inglese](:Category_API.md) e [in questa in italiano](:Category:API/it.md). Ricordare che può essere incompleta in quanto viene aggiornata manualmente. Per informazioni più accurate, esplorare i moduli direttamente dalla console di FreeCAD.
 
 Relazionato: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
+
+
 
 ## Modifiche avanzate 
 
@@ -94,6 +118,8 @@ Relazionato: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 -   [Compilare FreeCAD in Windows](Compile_on_Windows/it.md) e [Compilare FreeCAD in Linux](Compile_on_Linux/it.md)
 -   [Marchiare e Personalizzare](Branding/it.md): Semplici modifiche che si possono apportare al codice sorgente per modificare alcuni aspetti del FreeCAD
 -   [Moduli extra in Python](Extra_python_modules/it.md) : Potenzia l\'interprete di Python in FreeCAD con questi moduli aggiuntivi!
+
+
 
 ## Guide di Python 
 
@@ -124,6 +150,8 @@ I seguenti sono due riferimenti specifici di PyQt (non di PySide) che possono of
 -   [Pivy - Embedding a Dynamic Scripting Language into a Scene Graph Library](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.108.947&rep=rep1&type=pdf) : Tesi che illustra Pivy nel dettaglio
 -   [High Level 3D Graphics Programming in Python](http://ftp.ntua.gr/mirror/python/pycon/dc2004/papers/47/) : esempio Pivy da Pycon 2004
 -   [Introducing Pivy into studierstube](https://www.semanticscholar.org/paper/Integrating-Pivy-into-Studierstube-4.2-Gruber/08c9a89c8326c87f81c2d83428029fbfb6c2ae64) [(Mirror)](https://www.researchgate.net/publication/228737136_Integrating_Pivy_into_Studierstube_42) : Uno scritto che non è un vero tutorial, ma illustra bene come Pivy funziona (richiede un account accademico)
+
+
 
 ## Progetti della comunità 
 

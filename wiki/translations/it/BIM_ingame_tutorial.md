@@ -38,7 +38,7 @@ In case of need, hover the mouse over any option or setting to see a description
 
 <img alt="" src=images/BIM_Tutorial_02.jpg  style="width:300px;">
 
-In this tutorial, we will work in centimeters. We therefore suggest you to set preferred units as **centimeters**, and the default grid square size to **10 cm**. These settings can be changed at any time from the working plane button located on the main toolbars, and the units indicator located on the status bar (bottom right):
+In this tutorial, we will work in centimeters. We therefore suggest you to set preferred units as **centimeters**, and the default grid square size to **10 cm**. These settings can be changed at any time from the working plane button located on the main toolbar, and the units indicator located on the status bar (bottom right):
 
 <img alt="" src=images/BIM_tutorial_14.jpg  style="width:300px;">
 
@@ -156,7 +156,7 @@ Take special notice of the last one, the **working plane snapping** tool, as it 
 
 ### Draw a first wall 
 
-Let\'s start building our pavilion by creating some walls. Walls can be drawn either directly with the [wall](Arch_Wall.md) tool, or by first drawing 2D objects such as [lines](Draft_Line.md), [wires](Draft_Wire.md) (polylines) or [sketches](Sketcher_NewSketch.md), that will define the baseline of our walls. When you have such a baseline object selected, pressing the Wall tool will automatically convert it into a wall.
+Let\'s start building our pavilion by creating some walls. Walls can be made either directly with the [wall](Arch_Wall.md) tool, or by first drawing 2D objects such as [lines](Draft_Line.md), [wires](Draft_Wire.md) (polylines) or [sketches](Sketcher_NewSketch.md), that will define the baseline of our walls. When you have such a baseline object selected, pressing the Wall tool will automatically convert it into a wall.
 
 First, zoom out until a good part or all of the grid is seen. This will make it much easier to see what we are doing:
 
@@ -177,7 +177,7 @@ Make a second, horizontal wall of 4 meters (or 400 centimeters) long. Select the
 
 <img alt="" src=images/BIM_tutorial_11.jpg  style="width:300px;">
 
-After they are created, select both walls by pressing CTRL and clicking them both in the 3D view or in the [tree view](Document_structure.md), and adjust their **height** property to 2.5 meters and their **width** to 20 centimeters (or any other measurement you are comfortable with, if working in another unit), so they look like this (Use the mouse to rotate the view, according to the navigation style you chose):
+After they are created, select both walls by pressing CTRL and clicking them both in the 3D view or in the [tree view](Document_structure.md), and adjust their **height** property to 2.5 meters and their **width** to 20 centimeters (or any other measurement you are comfortable with, if working in another unit), so they look like this (Use the mouse to rotate the view, according to the navigation style you choose):
 
 <img alt="" src=images/BIM_tutorial_08.jpg  style="width:300px;">
 
@@ -232,7 +232,7 @@ Now we need to move our new roof slab to its correct position, that is, above th
 
 <img alt="" src=images/BIM_Tutorial_21.jpg  style="width:300px;">
 
-Another way to move our slab to its correct position, is to use the <img alt="" src=images/Draft_Move.png  style="width:16px;"> **Move** tool from the **Modify** menu. For that, we need to set our working plane in a vertical plane first, by pressing the <img alt="" src=images/Draft_SelectPlane.png  style="width:16px;"> **working plane** button (make sure you don\'t have any face selected), and setting it to **XY (Front)**. By setting ourselves in front view (press key **1**), we can now select the slab, press the <img alt="" src=images/Draft_Move.png  style="width:16px;"> **Move** button, and move our slab by clicking one of its base points, and, with **Shift** pressed to restrict the movement vertically, click one point on top of the walls:
+Another way to move our slab to its correct position, is to use the <img alt="" src=images/Draft_Move.png  style="width:16px;"> **Move** tool from the **Modify** menu. For that, we need to set our working plane in a vertical plane first, by pressing the <img alt="" src=images/Draft_SelectPlane.png  style="width:16px;"> **working plane** button (make sure you don\'t have any face selected), and setting it to **XZ (Front)**. By setting ourselves in front view (press key **1**), we can now select the slab, press the <img alt="" src=images/Draft_Move.png  style="width:16px;"> **Move** button, and move our slab by clicking one of its base points, and, with **Shift** pressed to restrict the movement vertically, click one point on top of the walls:
 
 <img alt="" src=images/BIM_Tutorial_23.jpg  style="width:300px;">
 
@@ -255,7 +255,7 @@ Let\'s add a metallic column to give better support to our slab. Make sure the w
 
 In FreeCAD, it is very easy to turn objects or groups on and off, and the tree shows you clearly what is shown and what is hidden. Be sure to use that often!
 
-The **Column** tool (as well as the Beam tool) has some built-in profiles that we will use now. Make sure nothing is selected, then press the Column button. In the **Structure options**, select **CTH**:
+The **Column** tool (as well as the Beam tool) has some built-in profiles that we will use now. Make sure nothing is selected, then press the Column button. In the **Structure options**, select **CHS** (for \"Circular Hollow Section\"; RHS is \"Rectangular Hollow Section\", HEA, HEB, etc. are various \"H\" sections, etc.):
 
 <img alt="" src=images/BIM_Tutorial_24.jpg  style="width:300px;">
 
@@ -263,7 +263,7 @@ And click a point to place your column, more or less at this position. Make sure
 
 <img alt="" src=images/BIM_Tutorial_25.jpg  style="width:300px;">
 
-Unfortunately, the CTH preset has only one diameter option of 42mm, which is very thin to support our concrete roof slab. Fortunately, as everything is parametric, it is easy to change the diameter. Expand the new structural object in the tree view, and you will find its profile object, named CTH423. Change its diameter to 12cm and its thickness to 8mm. Now we have a strong enough column. Notice that you can specify units on the fly and switch between 0,8cm and 8mm without issue. FreeCAD will take care of conversion.
+Unfortunately, the CHS preset has only one diameter option of 42mm, which is very thin to support our concrete roof slab. Fortunately, as everything is parametric, it is easy to change the diameter. Expand the new structural object in the tree view, and you will find its profile object, named CHS423. Change its diameter to 12cm and its thickness to 8mm. Now we have a strong enough column. Notice that you can specify units on the fly and switch between 0,8cm and 8mm without issue. FreeCAD will take care of conversion.
 
 #### Add a support plate 
 
@@ -319,9 +319,9 @@ A first very simple and very good habit to take is to give proper and meaningful
 
 Another interesting operation to do is **grouping**. Groups allow you to organize your objects in the tree view, like files and folders. An object can only belong to one group. Groups are created by right-clicking the document root or any other group in the tree view, and selecting **Create group**. You can then drag objects in and out of groups in the tree view.
 
-A third way to organize things is by using layers. Layers are independent to groups, you can use both systems at the same time if you wish. Like groups, layers allow you to easily turn on/off a series of objects, but unlike groups, they cannot be stacked inside one another. They also allow you to override visual settings such as color and line width of their child objects. Layers are created and managed using the Layers manager tool found under menu **Manage -\> Layers manager**. Objects are added or removed by dragging them in and out of layers in the tree view.
+A third way to organize things is by using layers. Layers are independent of groups, you can use both systems at the same time if you wish. Like groups, layers allow you to easily turn on/off a series of objects, but unlike groups, they cannot be stacked inside one another. They also allow you to override visual settings such as the color and line width of their child objects. Layers are created and managed using the Layers manager tool found under menu **Manage -\> Layers manager**. Objects are added or removed by dragging them in and out of layers in the tree view.
 
-The **Layer selector** on the main toolbars allow you to set a current layer. After doing so, any new 2D or BIM object will automatically be placed in that layer.
+The **Layer selector** on the main toolbar allows you to set a current layer. After doing so, any new 2D or BIM object will automatically be placed in that layer.
 
 Finally, BIM applications usually allow you to group objects into **levels** (or storeys) and **buildings**. FreeCAD offers these tools as well under the **3D/BIM modeling** menu. Like beams and columns, levels and buildings use a same object type called [Building Part](Arch_BuildingPart.md) with a different IFC type. They work the same way as groups, once created, you can drag and drop any object in and out of it. Building Parts are compatible with groups, so you can place groups inside them.
 

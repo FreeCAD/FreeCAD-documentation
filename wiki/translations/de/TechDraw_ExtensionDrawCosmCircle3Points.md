@@ -11,14 +11,27 @@
 
 # TechDraw ExtensionDrawCosmCircle3Points/de
 
+
+
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Das Werkzeug <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle3Points.svg  style="width:24px;"> **TechDraw ErgänzungHilfskreisDurch3PunkteZeichnen** fügt einen durch 3 Punkte definierten Hilfslinienkreis hinzu.
+
+
+</div>
 
 <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle3PointsExample.png  style="width:250px;"> 
 *Rechts ein eingefügter Hilfslinienkreis*
 
+
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Optional können die Linienmerkmale mit dem Werkzeug <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ErgänzungLinienmerkmaleAuswählen](TechDraw_ExtensionSelectLineAttributes/de.md) definiert werden.
 2.  Drei Knotenpunkte auswählen, die den Umfang des Kreises definieren.
@@ -26,6 +39,9 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle3Points.svg 
     -   Die Schaltfläche **<img src="images/TechDraw_ExtensionDrawCosmCircle3Points.svg" width=16px> [Hilfskreis über 3 Punkte hinzufügen](TechDraw_ExtensionDrawCosmCircle3Points/de.md)** drücken.
     -   Den Menüeintrag **TechDraw → Ergänzungen: Mittellinien/Gewinde → <img src="images/TechDraw_ExtensionDrawCosmCircle3Points.svg" width=16px> Hilfskreis über 3 Punkte hinzufügen** auswählen.
 4.  Ein Hilfsliniekreis wird eingefügt.
+
+
+</div>
 
 
 

@@ -126,7 +126,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 ## Notes
 
 -   Linear and radial Draft Dimensions can be edited with the [Draft Edit](Draft_Edit.md) command.
--   Draft Dimensions created or saved with [FreeCAD version 1.0](Release_notes_1.0.md) are not backward compatible.
+-   Draft Dimensions created or saved with [FreeCAD version 0.21](Release_notes_0.21.md) are not backward compatible.
 
 
 
@@ -235,7 +235,7 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|World}} the text will be displayed on a plane defined by the **Normal** of the measurement. If it is {{value|Screen}} the text will always face the screen. This is an inherited property. The mentioned options are the renamed options (<small>(v1.0)</small> ).
+-    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|World}} the text will be displayed on a plane defined by the **Normal** of the measurement. If it is {{value|Screen}} the text will always face the screen. This is an inherited property. The mentioned options are the renamed options (<small>(v0.21)</small> ).
 
 
 {{TitleProperty|Graphics}}
@@ -269,7 +269,7 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 -    **Override|String**: specifies a custom text to display instead of the actual measurement. Use the string {{value|$dim}} inside the text to include the measurement.
 
--    **Text Color|Color**: specifies the color of the text. <small>(v1.0)</small> 
+-    **Text Color|Color**: specifies the color of the text. <small>(v0.21)</small> 
 
 -    **Text Position|VectorDistance**: specifies the position of the text in absolute coordinates. {{Value|[0, 0, 0]}} will display the text in its default position near the dimension line or arc.
 

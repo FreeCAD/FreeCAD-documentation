@@ -2,8 +2,7 @@
 - GuiCommand:/it
    Name:Std Transform
    Name/it:Trasforma
-   Empty:1
-   MenuLocation:Fare doppio clic su un oggetto nella vista ad albero → Trasforma
+   MenuLocation:Fare clic con il pulsante destro del mouse su un oggetto nella vista ad albero → Trasforma
    Workbenches:All
    SeeAlso:[Menu standard di base](Std_Base/it.md)
 ---
@@ -11,7 +10,6 @@
 # Std TransformManip/it
 
 
-</div>
 
 ## Descrizione
 
@@ -19,29 +17,24 @@ Questo strumento consente di applicare incrementi di rotazione o incrementi di t
 
 ![](images/Manipulators.png )
 
+
+
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
--   Per molti oggetti Part questo strumento è disponibile facendo doppio clic nella struttura del modello, mentre per altri oggetti, come il [Corpo di PartDesign](PartDesign_Body/it.md) è disponibile nel menu contestuale.
--   Tenerer premuto il pulsante sinistro del mouse su una freccia dell\'asse e trascinare per traslare l\'oggetto in quella direzione.
--   Tenere premuto il pulsante sinistro del mouse su una sfera e trascinarla per ruotare l\'oggetto su quell\'asse.
--   I parametri Incrementi nel pannello Azioni consentono di definire con precisione il movimento
--   Il pulsante OK consente di uscire facilmente dall\'utilità.
+1.  Fare clic con il pulsante destro del mouse sull\'oggetto nel modello [Vista ad albero](Tree_view/it.md). Per alcuni oggetti lo strumento è disponibile anche facendo doppio clic sull\'oggetto nell\'albero del modello.
+    -   Tenere premuto il pulsante sinistro del mouse su una freccia dell\'asse e trascinare per traslare l\'oggetto in quella direzione.
+    -   Tenere premuto il pulsante sinistro del mouse su una sfera e trascinare per ruotare l\'oggetto su quell\'asse.
+    -   I parametri Incrementi nel [Pannello Azioni](Task_panel/it.md) consentono di definire con precisione il movimento
+2.  Il pulsante **OK** consente di uscire facilmente dall\'utility.
 
 
-</div>
 
-## Notes
+## Note
 
-
-<div class="mw-translate-fuzzy">
-
-Non appena si ruota o si sposta l\'oggetto nella vista 3D, vengono applicate le modifiche. Non esiste un pulsante Annulla. Le caselle dei valori sono per incrementi, non per valori assoluti. OK serve solo per uscire dall\'utilità. Si può annullare in seguito.
-
-
-</div>
+-   Non appena si ruota/sposta l\'oggetto nella [Vista 3D](3D_view/it.md), le modifiche vengono applicate.
+-   Non è presente alcun pulsante Annulla. Premendo **OK** serve solo per uscire dall\'utility.
+-   È possibile <img alt="" src=images/Std_Undo.svg  style="width:20px;"> [annullare](Std_Undo/it.md) le modifiche in seguito.
+-   Le caselle dei valori sono per incrementi, non valori assoluti.
 
 
 

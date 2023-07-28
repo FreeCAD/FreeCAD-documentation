@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -34,6 +36,8 @@ Questo strumento traccia una curva B-spline aperta dai suoi punti di controllo.
 
 </div>
 
+
+
 ## Utilizzo
 
 
@@ -50,6 +54,14 @@ Questo strumento traccia una curva B-spline aperta dai suoi punti di controllo.
 
 
 </div>
+
+## Notes
+
+-   After a B-spline is created, it is possible to define the weight of the control points by changing the radii of the weight circles. The equality constraints on the circles need to be deleted first. The radius constraint is arbitrary, the weight of the control points will be defined by the relative radii of the circles. It works similar to gravity: the bigger a circle is in relation to the others, the more the curve will be attracted to the control point.
+-   The visibility of the control polygon, the curvature comb, the degree and the knot multiplicity can be toggled on/off from the [B-spline tools](Sketcher_Workbench#Sketcher_B-spline_tools.md) toolbar.
+-   Check out the other tools in the [B-spline tools](Sketcher_Workbench#Sketcher_B-spline_tools.md) toolbar for more B-spline editing tools.
+
+
 
 ## Limitazioni
 

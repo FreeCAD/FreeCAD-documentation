@@ -19,6 +19,8 @@ Ce tutoriel explique comment créer des lignes de perçage centrales à l\'aide 
 
 En créant des angles pour les trous, il n\'est pas possible d\'utiliser des lignes médianes verticales ou horizontales (false/true) à partir des propriétés de la vue. Pour cette nécessité des lignes guides et/ou des points guides sont créés.
 
+
+
 ## Procédure
 
 1\. Définir des axes sur les trous :
@@ -51,4 +53,4 @@ Sélection des points du quadrant avec <img alt="" src=images/TechDraw_Quadrants
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Measurement Of Angles On Holes/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Measurement Of Angles On Holes/fr

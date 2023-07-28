@@ -1,19 +1,22 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:FEM EquationFlux
-   MenuLocation:Solve → Flux equation
-   Workbenches:[FEM](FEM_Workbench.md)
-   Version:0.19
+   Name/de:FEM GleichungFluss
+   MenuLocation:Lösen → Flux equation
+   Workbenches:[FEM](FEM_Workbench/de.md)
+   Version:0.17
    SeeAlso:
 ---
 
 # FEM EquationFlux/de
 
-This equation is used to calculate the fluxes resulting usually from Poisson kind of equations. These include the <img alt="" src=images/FEM_EquationHeat.svg  style="width:24px;"> [Heat equation](FEM_EquationHeat.md) and the <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> [Electrostatic equation](FEM_EquationElectrostatic.md).
+Diese Gleichung wird für die Berechnung der Flussgrößen verwendet, die normalerweise aus poisson-artigen Gleichungen resultieren. Diese enthalten die <img alt="" src=images/FEM_EquationHeat.svg  style="width:24px;"> [FEM GleichungWärme](FEM_EquationHeat/de.md) und die <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> [FEM GleichungElektrostatik](FEM_EquationElectrostatic/de.md).
 
 For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Flux Computation*.
 
-## Usage
+
+
+## Anwendung
 
 1.  After adding an Elmer solver as described [here](FEM_SolverElmer#Equations.md), select it in the [tree view](Tree_view.md).
 2.  Either use the toolbar button <img alt="" src=images/FEM_EquationFlux.svg  style="width:24px;"> or the menu **Solve → Flux equation**.
@@ -53,11 +56,13 @@ The flux equation provides these special settings:
 
 The flux equation does not have own constraints. It takes the constraints from the <img alt="" src=images/FEM_EquationHeat.svg  style="width:24px;"> [Heat equation](FEM_EquationHeat.md) or the <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> [Electrostatic equation](FEM_EquationElectrostatic.md).
 
-## Results
+
+
+## Ergebnisse
 
 The available results depend on the [solver settings](#Solver_Settings.md). If none of the **Calculate *** settings was set to *true*, nothing is calculated. Otherwise also the corresponding results will be available.
 
-The resulting flux is either the heat flux $\rm W/m^2$ (misleadingly named \"temperature flux\") or the potential flux in $\rm W/m^2$ ($\rm A\cdot V/m^2$).
+Die resultierende Flussgröße ist entweder der Wärmefluss $\rm W/m^2$ (fälschlicher Weise auch \"Temperaturfluss\" genannt) oder der Potentialfluss (\<-?) in $\rm W/m^2$ ($\rm A\cdot V/m^2$).
 
 
 

@@ -10,6 +10,8 @@
 
 # Arch Rebar BentShape/ru
 
+
+
 ## Описание
 
 
@@ -34,6 +36,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 </div>
 
+
+
 ## Применение
 
 1.  Select any face of a previously created **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object.
@@ -44,7 +48,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 4.  Select the desired orientation.
 
-5.  Populate the inputs like \'Left Cover\', Right Cover, Top Cover, \'Bottom Cover\', \'Front Cover\', \'Bent Angle\', \'Bent Factor\', \'Rounding\' and \'Diameter\' of the rebar.
+5.  Populate the inputs like \'Left Cover\', \'Right Cover\', \'Top Cover\', \'Bottom Cover\', \'Front Cover\', \'Bent Angle\', \'Bent Factor\', \'Rounding\' and \'Diameter\' of the rebar.
 
 6.  Select the mode of distribution either \'Amount\' or \'Spacing\'.
     -   If \'Spacing\' is selected, a user can also opt for [custom spacing](Custom_Spacing.md).
@@ -61,6 +65,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 
 *Taskview panel for the Arch Rebar BentShape tool*
+
+
 
 ## Свойства
 
@@ -85,12 +91,19 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 -    **Spacing**: The distance between the axes of each bar.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Скриптование
 
 
 </div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -123,6 +136,8 @@ Rebar = makeBentShapeRebar(f_cover, b_cover, l_cover, r_cover,
 -    `amount_spacing_value`specifies the number of reinforcement bars, or the value of the separation between them, depending on `amount_spacing_check`.
 
 -    `orientation`specifies the orientation of the rebar; it can be `"Bottom"`, `"Top"`, `"Left"`, or `"Right"`.
+
+
 
 ### Пример
 

@@ -19,6 +19,8 @@ Cette commande est maintenant obsolète. Utilisez plutôt l\'[atelier TechDraw](
 <img alt="" src=images/Draft_drawing_example.jpg  style="width:640px;"> 
 *A gauche, les objets Draft sélectionnés. A droite, les vues de dessin créées.*
 
+
+
 ## Utilisation
 
 1.  Pour utiliser cette commande dans FreeCAD version 0.19 et suivantes, vous devez ajouter un bouton à une barre d\'outils personnalisée. Voir [Personnalisation de l\'interface](Interface_Customization/fr.md).

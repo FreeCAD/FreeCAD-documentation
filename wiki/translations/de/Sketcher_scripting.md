@@ -1,6 +1,8 @@
 # Sketcher scripting/de
 {{TOCright}}
 
+
+
 ## Erstellen eines Sketch-Objekts mit Python 
 
 So wird ein Sketch-Objekt erstellt:
@@ -26,9 +28,11 @@ doc.recompute()
 
 Es werden der neu erstellten Skizze auch noch drei Linien hinzugefügt.
 
+
+
 ## Erstellen einer Randbedingung mit Python 
 
-Die geometrischen Randbedingungen <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:24px;"> und die spezielle Randbedingung <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> [InterneAusrichtung](Sketcher_ConstrainInternalAlignment/de.md) können mit Makros und von der Python-Konsole aus durch Verwendung des folgenden Befehls erstellt werden:
+Die geometrischen Randbedingungen <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> und <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:24px;"> können mit Makros und von der Python-Konsole aus durch Verwendung des folgenden Befehls erstellt werden:
 
 
 ```pythonsketch.addConstraint(Sketcher.Constraint(ConstraintType, EdgeOrPartOfEdge…)) 
@@ -49,6 +53,8 @@ z\. B.
 Das erste Argument `ConstraintType` wird weiter unten unter [Arten von Randbedingungen](#Arten_von_Randbedingungen.md) beschrieben.
 
 Eine Randbedingung kann bis zu sechs Argumente besitzen; das können Kanten sein oder Angaben, welcher Bestandteil einer Kante von der Randbedingung verwendet wird. In den Dokumentationen der einzelnen Randbedingungen findet man Details zu den Kombinationen von Kanten und Bestandteilen von Kanten, die als Argumente übergeben werden können. Das Hauptproblem bei dieser Funktion besteht darin, die Liniennummer und die Knotennummer der zu bearbeitenden Linien korrekt zu identifizieren. Die folgenden Abschnitte beschreiben, wie man die [Nummerierung einer Linie](#Identifizierung_der_Nummerierung_einer_Linie.md) und die [Nummerierung der Bestandteile einer Linie](#Identifizierung_der_Nummerierung_der_Abschnittsteile_einer_Linie.md) herausfindet.
+
+
 
 ## Arten von Randbedingungen 
 
@@ -98,28 +104,6 @@ Bei geometrischen Randbedingungen ist das erste Argument eines der folgenden. Di
 |                         |                                                                                            |                                                                             |
 ++++
 
-Die Randbedingung <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> [Interne Ausrichtung festlegen](Sketcher_ConstrainInternalAlignment/de.md) verhält sich im Zusammenhang mit der Skripterstellung wie eine geometrische Randbedingung. Auch hier findet man auf der zugehörigen Referenzseite die möglichen Kombinationen von Argumenten, die für diese Randbedingung zulässig sind.
-
-++++
-| Schlüsselwort                                       | Symbol                                                                                             | Funktion                                                                           |
-+=====================================================+====================================================================================================+====================================================================================+
-|                                      | <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> | [Interne Ausrichtung festlegen](Sketcher_ConstrainInternalAlignment/de.md) |
-| `"InternalAlignment:EllipseMajorDiameter"` |                                                                                                    |                                                                                    |
-|                                                  |                                                                                                    |                                                                                    |
-++++
-|                                      | <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> | [Interne Ausrichtung festlegen](Sketcher_ConstrainInternalAlignment/de.md) |
-| `"InternalAlignment:EllipseMinorDiameter"` |                                                                                                    |                                                                                    |
-|                                                  |                                                                                                    |                                                                                    |
-++++
-|                                      | <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> | [Interne Ausrichtung festlegen](Sketcher_ConstrainInternalAlignment/de.md) |
-| `"InternalAlignment:EllipseFocus1"`        |                                                                                                    |                                                                                    |
-|                                                  |                                                                                                    |                                                                                    |
-++++
-|                                      | <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> | [Interne Ausrichtung festlegen](Sketcher_ConstrainInternalAlignment/de.md) |
-| `"InternalAlignment:EllipseFocus2"`        |                                                                                                    |                                                                                    |
-|                                                  |                                                                                                    |                                                                                    |
-++++
-
 Bei maßlichen Randbedingungen ist das erste Argument eines der folgenden. Die möglichen Kombinationen von Argumenten, die für jede Randbedingung zulässig sind, findet man auf der Referenzseite der zugehörigen Funktion.
 
 ++++
@@ -166,6 +150,8 @@ Die Randbedingung <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style=
 
 Die Randbedingung <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Sperren](Sketcher_ConstrainLock/de.md) ist ein GUI-Befehl, der die Randbedingungen <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Horizontalen Abstand festlegen](Sketcher_ConstrainDistanceX/de.md) und <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Vertikalen Abstand festlegen](Sketcher_ConstrainDistanceY/de.md) erstellt; sie ist keine eigenständige Randbedingung.
 
+
+
 ## Identifizierung der Nummerierung einer Linie 
 
 Ich habe drei Linien gezeichnet, wie in der folgenden Abbildung dargestellt.
@@ -186,6 +172,8 @@ Positive Zahlen bezeichnen Skizzenkanten (Geraden, Kreise, Kegelschnitte, B-Spli
 
 -    `-n`bezeichnet die Nummer des externen Geometrieelements `n-3` (z. B. würde das externe Geometrieelement mit Index 0 in der reduzierten Liste `Sketch.ExternalGeometry` mit -3 bezeichnet, das folgende Element in der reduzierten Liste mit -4 usw.).
 
+
+
 ## Identifizierung der Nummerierung der Bestandteile einer Linie 
 
 Um festzulegen, welcher Bestandteile einer Linie von einer Randbedingung betroffen ist, können die folgenden Werte verwendet werden:
@@ -205,6 +193,8 @@ Die mit 1 und 2 gekennzeichneten Knoten sind in der Reihenfolge ihrer Erstellung
 <img alt="" src=images/PartDesignConstraintPointOnPointScriptingFigure3.jpg  style="width:600px;">
 
 Liest man z. B. 4 und 5, bedeutet dies, dass der Knoten mit der niedrigeren Nummer (4 in diesem Beispiel) mit der Nummer 1 (zuerst im Skriptbefehl) und der Knoten mit der höheren Nummer (5 in diesem Beispiel) mit der Nummer 2 im Skriptbefehl referenziert wird.
+
+
 
 ## Beispiel
 

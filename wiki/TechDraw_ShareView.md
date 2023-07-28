@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ShareView
-   MenuLocation:TechDraw → Share View
+   MenuLocation:TechDraw → TechDraw Views → Share View
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Version:0.20
    SeeAlso:[TechDraw MoveView](TechDraw_MoveView.md)
@@ -11,14 +11,14 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_ShareView.svg  style="width:24px;"> **TechDraw ShareView** tool makes a View and all its dependents (Balloons, Dimensions, etc) visible on a second Page.
+The **TechDraw ShareView** tool makes a View and all its dependents (Balloons, Dimensions, etc) visible on a second Page.
 
 ## Usage
 
 1.  Optionally select a View, a from Page and a to Page. The pages must be selected in that order.
 2.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_ShareView.svg" width=16px> [Share View](TechDraw_ShareView.md)** button.
-    -   Select the **TechDraw → <img src="images/TechDraw_ShareView.svg" width=16px> Share View** option from the menu.
+    -   Select the **TechDraw → TechDraw Views → <img src="images/TechDraw_ShareView.svg" width=16px> Share View** option from the menu.
 3.  A dialog will open to allow you to select a View, from Page and to Page.
 4.  Press the **OK** button.
 

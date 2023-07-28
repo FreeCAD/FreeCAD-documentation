@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Vcarve
    Name/fr:Path Gravure en V
-   MenuLocation:Path → Gravure en V
+   MenuLocation:Path → Graver en V
    Workbenches:[Path](Path_Workbench/fr.md)
    Version:0.19
 ---
@@ -17,18 +17,22 @@ Contrairement à la gravure qui suit les lignes d\'une Forme à partir texte, la
 
 ![](images/Engravepath.png ) ![Example Vcarving Path](images/Vcarvepath.png ) ![](images/Vcarved.png ) ![](images/Scrolltest.png )
 
-L\'algorithme V-carve calcule une trajectoire le long de la ligne médiane d\'une région à l\'aide d\'un diagramme de voronoï. Cette ligne centrale est le chemin que l\'outil suivra dans le plan XY. Il calcule ensuite un \'cercle inscrit maximum\' le long de la trajectoire. C\'est le plus grand cercle qui peut être dessiné à ce point et rester entièrement à l\'intérieur de la zone de compensation. En utilisant le rayon du cercle et l\'angle de pointe de la fraise, la profondeur de coupe est calculée.
+L\'algorithme V-carve calcule une trajectoire le long de la ligne centrale d\'une région à l\'aide d\'un diagramme de Voronoï. Cette ligne centrale est le parcours que l\'outil suivra dans le plan XY. Il calcule ensuite un \"cercle inscrit maximal\" le long du parcours. Il s\'agit du plus grand cercle qui peut être tracé à ce point et qui reste entièrement à l\'intérieur de la zone de dégagement. La profondeur de coupe est calculée à l\'aide du rayon du cercle et de l\'angle de la pointe de l\'outil.
+
+
 
 ## Utilisation
+
+
 
 ### Préparation des formes à graver 
 
 -   Les **[<img src=images/Draft_ShapeString.svg style="width:24px"> [Draft Formes à partir texte](Draft_ShapeString/fr.md)** sont utilisables dès la sortie de la boîte
--   Les fichiers SVG nécessitent un certain traitement, à la fois dans l\'éditeur et dans l\'<img alt="" src=images/_Workbench_Draft.svg  style="width:24px;"> [Atelier Draft](Draft_Workbench/fr.md):
-    -   Dans l\'éditeur (par exemple [Inkscape](https://www.inkscape.org)): assurez-vous que le fichier ne contient que des chemins et que les chemins sont dissociés; assurez-vous qu\'il n\'y a pas de chemins auto-sécants, (dans Inkscape) utilisez Chemin → Simplifier et union pour joindre les chemins qui se chevauchent.
-    -   Basculez vers l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Atelier Draft](Draft_Workbench/fr.md) depuis la [liste déroulante des ateliers](Std_Workbench/fr.md)
+-   Les fichiers SVG nécessitent un certain traitement, à la fois dans l\'éditeur et dans l\'<img alt="" src=images/_Workbench_Draft.svg  style="width:24px;"> [Atelier Draft](Draft_Workbench/fr.md) :
+    -   Dans l\'éditeur (par exemple [Inkscape](https://www.inkscape.org)) : assurez-vous que le fichier ne contient que des parcours et que les parcours sont dissociés. Assurez-vous qu\'il n\'y a pas de parcours auto-sécants, (dans Inkscape) utilisez Path → Simplify and union to join paths that overlap.
+    -   Basculez vers l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) depuis la [liste déroulante des ateliers](Std_Workbench/fr.md)
     -   Importez le SVG en utilisant **Fichier → Importer → sélectionnez "SVG as geometry"**
-    -   Le résultat devrait ressembler à ceci:
+    -   Le résultat devrait ressembler à ceci :
 
         :   ![](images/Svgimport.png )
         :   
@@ -38,36 +42,42 @@ L\'algorithme V-carve calcule une trajectoire le long de la ligne médiane d\'un
 
 :   
 
-    :   Les trajectoires avec des trous (lettres, la vigne dans l\'image ci-dessus) sont importés comme 2 chemins séparés (nommés le long des lignes de `Path905` et `Path905001` dans la [Vue en arborescence](Tree_view/fr.md)), l\'un d\'eux est le trou et l\'autre est le contour; nous traiterons de cela dans la prochaine étape
+    :   Les trajectoires avec des trous (lettres, la vigne dans l\'image ci-dessus) sont importés comme 2 parcours séparés (nommés le long des lignes de `Path905` et `Path905001` dans la [vue en arborescence](Tree_view/fr.md)), l\'un d\'eux est le trou et l\'autre est le contour. Nous traiterons de cela dans la prochaine étape
 
--   -   Pour obtenir les faces 2D, [Path Gravure en V](Path_Vcarve/fr.md) a besoin de:
-        -   Pour les trajectoires sans trous:
-            1.  Sélectionnez le chemin
+-   -   Pour obtenir les faces 2D, [Path Gravure en V](Path_Vcarve/fr.md) a besoin de :
+        -   Pour les parcours sans trous :
+            1.  Sélectionnez le parcours
             2.  Choisissez **Modification → ![](images/)_[Agréger](Draft_Upgrade/fr.md)**
             3.  Suivi de **Modification → ![](images/)_[Désagréger](Draft_Downgrade/fr.md)**
-        -   Pour les trajectoires sans trous:
-            1.  Sélectionnez la trajectoire extérieure puis la trajectoire intérieur
+        -   Pour les parcours avec trous :
+            1.  Sélectionnez le parcours extérieur puis le parcours intérieur
             2.  Choisissez **Modification → ![](images/)_[Désagréger](Draft_Downgrade/fr.md)** **deux fois**
 
-        :   Certaines trajectoires se comportent différemment, vous devrez donc peut-être jouer avec **<img src="images/Draft_Upgrade.svg" width=16px> Agréger** et **<img src="images/Draft_Downgrade.svg" width=16px> Désagréger** jusqu\'à ce que vous obteniez quelque chose nommé: `Face<number>`
-        :   Le résultat final devrait ressembler à ceci:
+        :   Certains parcours se comportent différemment, vous devrez donc peut-être jouer avec **<img src="images/Draft_Upgrade.svg" width=16px> Agréger** et **<img src="images/Draft_Downgrade.svg" width=16px> Désagréger** jusqu\'à ce que vous obteniez quelque chose nommé : `Face<number>`
+        :   Le résultat final devrait ressembler à ceci :
         :   ![](images/Svgfaces.png )
+
+
 
 ### Création de l\'opération Gravure en V 
 
--   Passez à l\'**[<img src=images/Workbench_Path.svg style="width:16px"> [atelier Path](Path_Workbench/fr.md)** depuis le [menu déroulant des ateliers](Std_Workbench/fr.md)
--   Ajoutez un travail, utilisez les objets nommés `Face<number>` (ou le ShapeString) comme base, ajoutez un contrôleur d\'outil v-bit, définissez les flux, les vitesses, etc.
--   L\'opération ne prend en charge qu\'un seul objet (soit un seul objet Face, soit un ShapeString), donc pour chaque objet:
-    -   Sélectionnez **Path → <img src="images/Path_Vcarve.svg" width=24px> Gravure en V** dans le menu supérieur. Cela ouvre le panneau de configuration.
-    -   Ouvrez l\'onglet **Base Geometry** et ajoutez toutes les faces du ShapeString, ou la face d\'un seul objet Face obtenu ci-dessus
-    -   Appuyez sur **Appliquer** et inspectez le chemin généré; si nécessaire, ajustez les paramètres de fonctionnement (le seuil peut être réglé plus haut dans la plupart des situations)
-    -   Appuyez sur **OK** pour terminer
+-   Passer à l\'**[<img src=images/Workbench_Path.svg style="width:16px"> [atelier Path](Path_Workbench/fr.md)** depuis le [menu déroulant des ateliers](Std_Workbench/fr.md)
+-   Ajouter une tâche, utilisez les objets nommés `Face<number>` (ou le ShapeString) comme base, ajouter contrôleur d\'objets coupants en V, définir les avances, les vitesses, etc.
+-   L\'opération ne prend en charge qu\'un seul objet (soit un seul objet Face, soit un ShapeString), donc pour chaque objet :
+    -   Sélectionner **Path → <img src="images/Path_Vcarve.svg" width=24px> Gravure en V** dans le menu supérieur. Cela ouvre le panneau de configuration.
+    -   Ouvrir l\'onglet **Géométrie de base** et ajouter toutes les faces du ShapeString, ou la face d\'un seul objet Face obtenu ci-dessus.
+    -   Cliquer sur **Appliquer** et inspecter le parcours généré; si nécessaire, ajuster les paramètres d\'opération (le seuil peut être réglé plus haut dans la plupart des situations).
+    -   Appuyez sur **OK** pour terminer.
 
 ## Options
 
 Vide
 
+
+
 ## Propriétés
+
+
 
 ### Données
 
@@ -137,9 +147,13 @@ Vide
 
 -    **Visibility**: -
 
+
+
 ### Vue
 
 Vide
+
+
 
 ## Script
 

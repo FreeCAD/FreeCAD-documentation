@@ -1,29 +1,36 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher EditSketch
-   MenuLocation:Sketch → Edit sketch
-   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[Sketcher LeaveSketch](Sketcher_LeaveSketch.md)
+   Name/pl:Szkicownik: Edycja szkicu
+   MenuLocation:Szkic → Edycja szkicu
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md)
+   SeeAlso:[Opuść szkic](Sketcher_LeaveSketch/pl.md)
 ---
 
 # Sketcher EditSketch/pl
 
-## Description
 
-This command will let you edit an existing sketch. It will open the [Sketcher Dialog](Sketcher_Dialog.md).
 
-## Usage
+## Opis
 
-There are several ways to invoke the Edit Sketch command:
+Polecenie **Edycja szkicu** pozwoli Ci edytować istniejący szkic. Otworzy ono [okienko dialogowe](Sketcher_Dialog/pl.md) szkicownika.
 
--   Right-click on a sketch in the [tree view](Tree_view.md) and choose *Edit Sketch*
--   Select sketch in the [tree view](Tree_view.md) and choose **Sketch → Edit Sketch** from the pull-down-menu.
--   Simply double-clicking on the sketch
--   Clicking on the <img alt="" src=images/Sketcher_EditSketch.svg  style="width:24px;"> button in the Sketcher toolbar.
 
-## Notes
 
--   Choosing [Leave Sketch](Sketcher_LeaveSketch.md) will terminate the edit mode.
+## Użycie
+
+Istnieje kilka sposobów wywołania polecenia:
+
+-   Kliknij dwukrotnie na szkicu w okienku [widoku drzewa](Tree_view/pl.md) i wybierz *Edycja szkicu*
+-   Zaznacz szkic i kliknij w przycisk **<img src="images/Sketcher_EditSketch.svg" width=16px> '''Edycja szkicu'''**.
+-   Zaznacz szkic i z menu wybierz opcję **Szkic → <img src="images/Sketcher_EditSketch.svg" width=16px> Edycja szkicu**.
+-   Zaznacz szkic w [widoku drzewa](Tree_view/pl.md) i wybierz opcję z menu podręcznego **Edytuj szkic**.
+
+
+
+## Uwagi
+
+-   Wybranie opcji [Opuść szkic](Sketcher_LeaveSketch/pl.md) spowoduje zakończenie trybu edycji.
 
 
 

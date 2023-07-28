@@ -1,51 +1,31 @@
 ---
 - GuiCommand:/de
    Name:Draft PolarArray
-   Name/de:Draft PolarAnordnung
-   MenuLocation:Entwurf → Polare Anordnung
-   Workbenches:[Entwurf](Draft_Workbench/de.md)
+   Name/de:Draft PolareAnordnung
+   MenuLocation:Änderung → Array tools → Polare Anordnung
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Version:0.19
-   SeeAlso:[Anordnung](Draft_Array/de.md), [KreisAnordnung](Draft_CircularArray/de.md), [PfadAnordnung](Draft_PathArray/de.md), [Punkt Anordnung](Draft_PointArray/de.md), [Klonen](Draft_Clone/de.md)
+   SeeAlso:[Draft RechtwinkligeAnordnung](Draft_OrthoArray/de.md), [Draft KreisAnordnung](Draft_CircularArray/de.md), [Draft PfadAnordnung](Draft_PathArray/de.md), [Draft PfadVerknüpfungsanordnung](Draft_PathLinkArray/de.md), [Draft Punktanordnung](Draft_PointArray/de.md), [Draft PunktVerknüpfungsanordnung](Draft_PointLinkArray/de.md)
 ---
 
 # Draft PolarArray/de
 
 
-</div>
 
 ## Beschreibung
 
+Der Befehl <img alt="" src=images/Draft_PolarArray.svg  style="width:24px;"> **Draft PolareAnordnung** erstellt eine Anordnung aus einem ausgewählten Objekt, indem er Kopien entlang einer Kreisumfangslinie positioniert. Der Befehl kann wahlweise auch eine Verknüpfungsanordnung ([Link](App_Link/de.md)-Array,) erstellen, die effizienter ist, als eine normale Anordnung.
 
-<div class="mw-translate-fuzzy">
+Dieser Befehl kann für 2D-Objekte verwendet werden, die mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench/de.md) erstellt wurden, aber auch für viele 3D-Objekte, die mit anderen Arbeitsbereichen wie [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md) oder [Arch](Arch_Workbench/de.md) erstellt wurden.
 
-Das **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Entwurf PolarAnordnung](Draft_PolarArray/de.md)** Werkzeug erstellt eine Anordnung aus einem ausgewählten Objekt und platziert die Kopien entlang eines Umfangs.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug kann für 2D Formen verwendet werden, die mit dem [Entwurf Arbeitsbereich](Draft_Workbench/de.md) erstellt wurden, aber auch für viele Arten von 3D Objekten, wie sie mit der [Part Arbeitsbereich](Part_Workbench/de.md) oder [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) erstellt wurden.
+<img alt="" src=images/Draft_PolarArray_example.png  style="width:400px;"> 
+*Draft PolareAnordnung*
 
 
-</div>
-
-<img alt="" src=images/Draft_PolarArray_example.png  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Eine polar Anordnung eines Objekts.*
-
-
-</div>
 
 ## Anwendung
 
-See also: [Draft Snap](Draft_Snap.md).
+Siehe auch: [Draft Fangen](Draft_Snap/de.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -61,6 +41,8 @@ See also: [Draft Snap](Draft_Snap.md).
 
 </div>
 
+
+
 ## Optionen
 
 
@@ -74,7 +56,9 @@ See also: [Draft Snap](Draft_Snap.md).
 
 </div>
 
-## Notes
+
+
+## Hinweise
 
 
 <div class="mw-translate-fuzzy">
@@ -89,46 +73,33 @@ Hinweise:
 
 </div>
 
-## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+## Einstellungen
+
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
+
+-   Um die Anzahl der Dezimalstellen für die Eingabe der Koordinaten und Winkel zu ändern: **Bearbeiten → Eigenschaften... → Allgemein → Einheiten → Einheiten-Einstellungen → Anzahl der Nachkommastellen**
+
+
 
 ## Eigenschaften
 
-
-<div class="mw-translate-fuzzy">
-
-Siehe das **<img src="images/Draft_Array.svg" width=16px> [OrthoAnordnung](Draft_OrthoArray.md)** Werkzeug für die vollständige Information.
+Siehe [Draft RechtwinkligeAnordnung](Draft_OrthoArray/de#Eigenschaften.md).
 
 
-</div>
 
 ## Skripten
 
-
-<div class="mw-translate-fuzzy">
-
-
-**Siehe auch:**
-
-[Draft API](Draft_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 
-</div>
 
-### Parametric array 
+### Parametrische Anordnung 
 
+Zum Erstellen einer parametrischen polaren Anordnung wird die Methode `make_array` des Draft-Moduls verwendet ({{Version/de|0.19}}). Diese Methode ersetzt die veraltete Methode `makeArray`. Die Methode `make_array` kann [Draft RechtwinkligeAnordnungen](Draft_OrthoArray/de.md), Draft PolareAnordnungen und [Draft KreisAnordnungen](Draft_CircularArray/de.md) erstellen. Für jede Anordnungsart stehen eine oder mehrere Wrapper-Methoden zur Verfügung.
 
-<div class="mw-translate-fuzzy">
-
-Das Anordnungswerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden:
-
-
-</div>
-
-The main method:
+Die Hauptmethode:
 
 
 ```python
@@ -179,16 +150,18 @@ array = Draft.make_polar_array(tri, 8, 270, center)
 doc.recompute()
 ```
 
-### Non-parametric array 
 
-To create a non-parametric polar array use the `array` method of the Draft module. This method returns `None`.
+
+### Nichtparametrische Anordnung 
+
+Zum Erstellen einer nichtparametrischen Anordnung wird die Methode `array` des Draft-Moduls verwendet. Diese Methode gibt `None` zurück.
 
 
 ```python
 array(objectslist, center, angle, number)
 ```
 
-Example:
+Beispiel:
 
 
 ```python
@@ -203,15 +176,6 @@ center = App.Vector(-1600, 0, 0)
 Draft.array(tri, center, 270, 8)
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

@@ -4,8 +4,8 @@
 |Icon=FCInfoToolBar.png
 |Description=Gives information about the selected shape and can display a conversion of radius, diameter, length, area, volume ... in different units (metric and imperial) in a toolBar. The information to be displayed in real time is parametrizable in the Parameter of FreeCAD.
 |Author=Mario52
-|Version=00.03
-|Date=2022/03/29
+|Version=00.04
+|Date=2023/06/28
 |FCVersion=0.18 and more
 |Download=[https://wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png The toolBar icon]
 |SeeAlso=[Arch Survey](Arch_Survey.md) <img src="images/Arch_Survey.svg" width=32px></br>[Macro FCInfo](Macro_FCInfo.md) <img src="images/FCInfo.png" width=32px></br>[Macro FCInfoGlass](Macro_FCInfoGlass.md) <img src="images/Macro_FCInfoGlass.png" width=32px>
@@ -16,7 +16,7 @@
 Gives information about the selected shape and can display a conversion of radius, diameter, length, area, volume \... in different units (metric and imperial) in a toolBar. The information to be displayed is parametrizable in the Parameter of FreeCAD.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/45da6835214d570588244705d2c0f37f97320874/FCInfo_ToolBar.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/40ca52f49edb1e29c70f0eaef42934aec19ca594/FCInfo_ToolBar.FCMacro}}
 
 ![FCInfo_ToolBar](images/Macro_FCInfo_ToolBar_00.png ) 
 *FCInfo_ToolBar*
@@ -202,6 +202,18 @@ enjoy
 The forum discussion [Feature request: coordinates display](https://forum.freecadweb.org/viewtopic.php?f=8&t=66294)
 
 ## Version
+
+version 00.04 28/06/2023 : correction styleSheet and:
+
+
+```python
+                        sommeEdgesSTR = str(sommeEdges)
+```
+
+replaced by: 
+```python
+                        sommeEdgesSTR = str(round(sommeEdges * uniteM, seT_User_DecimalValue)) + " " + uniteMs
+```
 
 version: (00.02 +) 00.03 2022/03/22 : add somme all edges
 

@@ -113,7 +113,13 @@ FreeCAD有许多不同的[鼠标操控模式可用](Mouse_Model.md), 选择不�
 
 ## 和FreeCAD一起迈进的第一步
 
+
+<div class="mw-translate-fuzzy">
+
 Freecad的关注点是让你能够制作高精度的3D模型，对这些模型保持严格的控制（能够回溯建模历史并更改参数），并最终建立这些模型（通过3D打印、CNC加工甚至施工现场）。因此，它与其他一些用于其他目的的3D应用程序非常不同，例如动画电影或游戏。它的学习曲线可能很陡，特别是如果这是你第一次接触三维建模。如果你学习的过程在某个点上被卡住了，不要忘记[freecad论坛](http://forum.freecadweb.org/index.php)上友好的用户社区可能很快就能帮你解决问题。
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

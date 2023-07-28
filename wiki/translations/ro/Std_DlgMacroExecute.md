@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Descriere
@@ -23,6 +25,8 @@ Această funcție execută macroul selectat sau activ în editor. Este accesibil
 
 ![](images/Std_DlgMacroExecute_dialog.png ) 
 *The Execute macro dialog box*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -110,9 +114,9 @@ Când tastați în **[<img src=images/Std_DlgMacroExecuteDirect.png style="width
 2.  Press the **Toolbar** button.
 3.  Two \'walkthrough\' dialogs will guide you through the required steps. See [Interface Customization](Interface_Customization.md) for more information.
 
-### Addons
+### Download
 
-1.  Press the **Addons...** button to start the [Addon manager](Std_AddonMgr.md).
+1.  Press the **Download** button to start the [Addon manager](Std_AddonMgr.md).
 
 ## Notes
 
@@ -120,7 +124,7 @@ Când tastați în **[<img src=images/Std_DlgMacroExecuteDirect.png style="width
 
 ## Preferences
 
--   The user macros location can also be changed in the preferences: **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
+-   The user macros location can also be changed in the preferences: **Edit → Preferences... → Python → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
 
 
 

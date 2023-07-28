@@ -8,6 +8,8 @@ Tous les objets du programme ont un [object name](Object_name/fr.md) qui les ide
 
 Ces informations s\'appliquent à tous les objets dérivés de [App DocumentObject](App_DocumentObject/fr.md) (classe `App::DocumentObject`), qui comprend essentiellement tous les objets qu\'il est possible de créer dans un document.
 
+
+
 ## Les Names 
 
 Il existe différentes propriétés pour les noms:
@@ -20,6 +22,8 @@ Il existe différentes propriétés pour les noms:
 -   Une fois l\'objet supprimé, son `Name` devient disponible pour être utilisé par un objet nouvellement créé. Cela signifie que si `Box`, `Box001` et `Box002` existent et que nous supprimons le premier élément, la boîte suivante créée avec [Part Cube](Part_Box/fr.md) ne sera pas `Box003`, ce sera à nouveau `Box`, cette chaîne étant disponible pour être réutilisée. Notez qu\'il n\'est pas possible de renommer `Box001` ou `Box002` en `Box` car leurs noms sont fixes.
 
 En résumé, `Name` agit essentiellement comme un identifiant unique (UID) pour un objet. Puisqu\'un `Name` unique est très restrictif, tous les objets ont également une propriété `Label` qui permet de \"renommer\" l\'objet en quelque chose de plus descriptif. Le `Name` interne reste en fait fixe, mais le `Label` modifiable par l\'utilisateur peut être utilisé dans la plupart des situations où le `Name` serait utilisé. Dans l\'utilisation courante dans le programme et la documentation, \"renommer\" signifie changer le `Label` et non le `Name` réel de l\'objet.
+
+
 
 ## Les Labels 
 
@@ -38,13 +42,15 @@ Il existe différentes propriétés pour les étiquettes:
 <<Label may use UTF8 characters>>.Width
 ```
 
-### Label2 {{Version/fr|0.19}}
+### Label2
 
-Cette propriété a été introduite dans la version 0.19. Il s\'agit d\'une chaîne simple qui peut contenir du texte arbitraire et peut donc être utilisée pour documenter (décrire plus en détail) l\'objet créé.
+Il s\'agit d\'une chaîne simple qui peut contenir du texte arbitraire et peut donc être utilisée pour documenter (décrire plus en détail) l\'objet créé.
 
--   Dans la [vue en arborescence](Tree_view/fr.md), modifiez le champ à côté de l\'icône, sous \"Description\", en cliquant dessus et en appuyant sur **F2** (ou plutôt **Return** sur macOS).
+-   Dans la [vue en arborescence](Tree_view/fr.md), modifiez le champ à côté de l\'icône, sous \"Description\", en cliquant dessus et en appuyant sur **F2** (ou plutôt **Retour** sur macOS).
 -   Vous pouvez également modifier cette propriété en modifiant l\'attribut `Label2` à partir de la [console Python](Python_console/fr.md).
--   L\'attribut **Label2** est normalement masqué dans [Éditeur de propriétés](Property_editor/fr.md) mais peut être rendu visible en ouvrant le menu contextuel (clic droit) et en sélectionnant **Show all**.
+-   L\'attribut **Label2** est normalement masqué dans l\'[éditeur de propriétés](Property_editor/fr.md) mais peut être rendu visible en ouvrant le menu contextuel (clic droit) et en sélectionnant **Afficher tout**.
+
+
 
 ## Script
 
@@ -64,6 +70,8 @@ obj = doc.addObject("Part::Box", "Name")
 obj.Label = "Custom label"
 ```
 
+
+
 ### Name (Nom) 
 
 La fonction `addObject` a deux arguments de chaîne de base.
@@ -75,6 +83,7 @@ La fonction `addObject` a deux arguments de chaîne de base.
     -   Le `Name` est fixe au moment de la création; il ne peut pas être modifié par la suite.
     -   Le `Name` doit être unique dans tout le document. Si le même `"Nom"` est utilisé, un numéro séquentiel sera ajouté automatiquement afin que les noms résultants soient uniques; par exemple, si `"Name"` existe déjà, les nouveaux objets seront appelés `"Name001"`, `"Name002"`, `"Name003"} } etc...
 
+        <span id="Label"></span>
         ===Label (Etiquette) ===
 
         {{Incode|Label` est une propriété de l'objet créé et peut être changé en un texte plus significatif.
@@ -82,6 +91,7 @@ La fonction `addObject` a deux arguments de chaîne de base.
         * Cependant, contrairement au `Name`, `Label` peut accepter n'importe quelle chaîne UTF8 y compris les accents et les espaces.
         * Le `Label` peut être modifié à tout moment en affectant simplement la chaîne souhaitée, <code>obj.Label = "New label"</code>
 
+        <span id="Getting_an_object_by_Name_or_Label"></span>
         === Accéder à un objet par Name ou Label  ===
 
         Tous les objets d'un document sont des attributs de données de l'objet [Document](App_DocumentObject/fr.md) correspondant. Le nom de l'attribut correspond à `Name` interne de l'objet.

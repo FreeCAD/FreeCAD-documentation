@@ -1,6 +1,8 @@
 # SheetMetal Examples/de
 {{TOCright}}
 
+
+
 ## Einführung
 
 Der Arbeitsbereich <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:24px;"> [SheetMetal](SheetMetal_Workbench/de.md) (ein [externer Arbeitsbereich](External_workbenches/de.md), der durch den [Addon-Manager](Std_AddonMgr/de.md) zur Verfügung gestellt wird) ist ziemlich mächtig geworden und verlangt jetzt nach einer angemessenen Dokumentation.
@@ -12,6 +14,8 @@ Geplante Phasen um Inhalte zu erstellen:
 1.  Bilder sammeln
 2.  Beschreibungen der Arbeitsabläufe hinzufügen
 3.  Detailliertere Anleitungen erstellen
+
+
 
 ## Scharnier
 
@@ -49,6 +53,8 @@ Geplante Phasen um Inhalte zu erstellen:
 
 
 </div>
+
+
 
 ## Aktenklammer
 
@@ -128,6 +134,8 @@ klonen, umdrehen und vereinigen,
 
 </div>
 
+
+
 ## Schelle
 
 <img alt="" src=images/SheetMetal_Example-03.png  style="width:400px;">
@@ -138,6 +146,8 @@ klonen, umdrehen und vereinigen,
 **<img src="images/PartDesign_Fillet.svg" width=16px> [PartDesign Verrundung](PartDesign_Fillet/de.md)**,
 **<img src="images/SheetMetal_Unfold.svg" width=16px> [Abwickeln](SheetMetal_Unfold/de.md)**.
 }}
+
+
 
 ## Sechsseitige Schale 
 
@@ -154,6 +164,8 @@ klonen, umdrehen und vereinigen,
 
 Wenn eine Eckentlastung hinzugefügt wurde (rechte Seite), kann es nötig sein den wert der Eigenschaft **Size** anzupassen.
 
+
+
 ## Bleistiftklipp
 
 <img alt="" src=images/SheetMetal_Example-05.png  style="width:400px;">
@@ -164,6 +176,8 @@ Wenn eine Eckentlastung hinzugefügt wurde (rechte Seite), kann es nötig sein d
 3x **<img src="images/SheetMetal_AddWall.svg" width=16px> [Kante ansetzen](SheetMetal_AddWall/de.md)**,
 **<img src="images/SheetMetal_Unfold.svg" width=16px> [Abwickeln](SheetMetal_Unfold/de.md)**.
 }}
+
+
 
 ## Beispiel zu Fläche erweitern 
 
@@ -179,6 +193,8 @@ Wenn eine Eckentlastung hinzugefügt wurde (rechte Seite), kann es nötig sein d
 
 Für die zweite Anwendung von **Fläche erweitern** wird eine Skizze mit zwei Konturen für die Form der Erweiterung(en) verwendet; und mit dem Setzen des Wertes von \"use subtraction\" auf true liefert sie auch die Form der Ausschnitte.
 
+
+
 ## USB-Massekontakt 
 
 <img alt="" src=images/SheetMetal_Example-07.png  style="width:400px;">
@@ -193,6 +209,8 @@ Für die zweite Anwendung von **Fläche erweitern** wird eine Skizze mit zwei Ko
 }}
 
 (Die Zugentlastung ist nur eine künstlerische Darstellung von dem, was in einem echten Stecker versteckt sein kann)
+
+
 
 ## SheetMetal Eigenschaften 
 
@@ -361,7 +379,7 @@ Die {{PropertyData/de|Use Relief Factor}} von `False` (Standardwert) auf `True` 
 
 :   In diesem Falle ist die Option rund nutzlos, da die Ausschnitttiefe und die Ausschnittbreite gleich groß sind. (Siehe oben)
 
-Eine neue {{PropertyData/de|Length Spec}} <small>(v1.0)</small>  ermöglicht es, auszuwählen, wie die Länge des Bend-Objekts gemessen wird:
+Eine neue {{PropertyData/de|Length Spec}} {{Version/de|0.21}} ermöglicht es, auszuwählen, wie die Länge des Bend-Objekts gemessen wird:
 
 <img alt="" src=images/SheetMetal_Example-09t.png  style="width:500px;"> 
 *Seitenansicht auf vier 120°-Kanten mit der Vorgabelänge (10 mm) und unterschiedlichen Werten der {{PropertyData/de|Length Spec*: <br> Nur der ebene Streifen {{value|Leg}} (Standard), Außenmaß zur theoretischen Ecke {{value|Outer Sharp}}, Innenmaß zur theoretischen Ecke {{value|Inner Sharp}}, Außenmaß bie Bogen {{value|Tangential}}}}
@@ -382,76 +400,76 @@ und {{value|Tangential}} sind gleich für 90°-Winkel.
 
 <div class="mw-collapsible mw-collapsed">
 
-### Extend object <img alt="" src=images/SheetMetal_Extrude.svg  style="width:24px;"> 
+### Extend-Objekt <img alt="" src=images/SheetMetal_Extrude.svg  style="width:24px;"> 
 
 
 <div class="mw-collapsible-content toccolours">
 
-An Extend object extends a sheet metal plate at one or more selected edge faces or edges.
+Ein Extend-Objekt verlängert eine SheetMetal-Platine an einer oder mehreren ausgewählten Randflächen oder Kanten.
 
 <img alt="" src=images/SheetMetal_Example-10a.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Example-10b.png  style="width:200px;">
 
 
 
-*Selected edge face and edges + 
-**<img src="images/SheetMetal_Extrude.svg" width=16px> [Extend Face](SheetMetal_Extrude.md)* 
-→ One Extend object with default settings.**
+*Ausgewählte Randflächen und Kanten + 
+**<img src="images/SheetMetal_Extrude.svg" width=16px> [KanteVerlängern](SheetMetal_Extrude/de.md)* 
+→ Ein Extend-Objekt mit Standardeinstellungen.**
 
-A first issue occurs here: Although the property **Refine** is set to `True` two of the extensions still show their seam lines. Only the extension of the last selected element will be refined.
+Hier tritt ein erstes Problem auf: Obwohl die {{PropertyData/de|Refine}} (Aufbereiten) auf `True` gesetzt ist, zeigen zwei der Verlängerungen noch ihre Nahtlinien. Nur die Verlängerung des zuletzt ausgewählten Elements werden durch Aufbereiten entfernt.
 
-To refine all extensions they have to be created separately:
+Um alle Verlängerungen aufzubereiten, müssen sie einzeln erstellt werden:
 
 <img alt="" src=images/SheetMetal_Example-10c.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Example-10d.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Example-10e.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Example-10f.png  style="width:200px;">
 
 
 
-*3x Selected edge face or edge + 
-**<img src="images/SheetMetal_Extrude.svg" width=16px> [Extend Face](SheetMetal_Extrude.md)* 
-→ Three Extend objects completely refined and with default settings.**
+*3x ausgewählte Randfläche oder Kante + 
+**<img src="images/SheetMetal_Extrude.svg" width=16px> [KanteVerlängern](SheetMetal_Extrude/de.md)* 
+→ Drei Extend-Ojekte komplett aufbereitet und mit Standardeinstellungen.**
 
-Altered properties apply to all edges listed in the related **base Object** of the Extension object.
+Veränderte Eigenschaften betreffen alle kanten, die in der zugehörigen {{PropertyData/de|base Object}} des Extension-Objekts gelistet sind.
 
-Edit **length** to adjust the length of the extension.
+Die {{PropertyData/de|length}} anpassen, um die Länge der Verlängerung einzustellen.
 
 <img alt="" src=images/SheetMetal_Example-10h.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-10g.png  style="width:200px;">
 
 
 
-*Edit **gap1* and {{PropertyData|gap2** to reduce the width of the extension.<br>
-Left: Extension object with 3 edges. Right: One of the Extension objects with one single edge.}}
+*Die {{PropertyData/de|gap1* und {{PropertyData/de|gap2}} anpassen, um die Breite der Verlängerung zu verringern.<br>
+Links: Extension-Objekt mit 3 Kanten. Rechts: Eins der Extension-Objekte mit einer einzelnen Kante.}}
 
-Link a sketch to the property **Sketch** to shape an extension. The properties **length**, **gap1** and **gap2** will be ignored once a sketch is linked. (This seems not to work with still unbent blanks).
+Eine Skizze mit der {{PropertyData/de|Sketch}} verknüpfen, um die Form einer Verlängerung zu erweitern. Die {{PropertyData/de|length}}, {{PropertyData/de|gap1}} und {{PropertyData/de|gap2}} werden ignoriert, sobald eine Skizze verknüpft wurde. (Dies scheint mit noch ungebogenen Platinen nicht zu funktionieren).
 
 <img alt="" src=images/SheetMetal_Example-10i.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Example-10j.png  style="width:200px;">
 
 
 
-*A selected sketch lying on the flange to be extended → Resulting extension*
+*Eine ausgewählte Skizze auf der zu erweiternden Kante liegend → Resultierende Erweiterung*
 
-It is plain to see that it doesn\'t matter which edge was selected for the Extend object, the shape of the flange is changed wherever sketch geometry protrudes, the new shape can even contain parts that are disconnected from the original flange. Multiple outlines are no problem, but the flange is not cut into.
+Es ist deutlich zu erkennen, dass es egal ist, welche Kante für das Extend-Objekt ausgewählt wurde, die Form des Flansches wird überall erweitert, wo Skizzengeometrie hervorsteht, die neue Form kann sogar Elemente ohne Verbindung zum originalen Flansch enthalten. Mehrfache Konturen sind kein Problem, aber es wird nicht in den Flansch hineingeschnitten.
 
-This example shows that designers are responsible for their construction and shouldn\'t rely on the results of their tools, which do not make sense in this case. The Sketch attached to a flange face is problematic as well due to the toponaming problem, but for this a solution is in sight.
+Dieses Beispiel zeigt, dass Konstrukteure für ihre Konstruktion verantwortlich sind und sich nicht auf die Ergebnisse ihrer Werkzeuge verlassen sollten, die in diesem Falle keinen Sinn machen. Die Skizze direkt am Flansch angebracht ist auch problematisch aufgrund des Problems der topologischen Benennung, aber dafür ist eine Lösung in Sicht.
 
-But there are better use cases for this tool involving almost closed shapes such as one of the examples on the [SheetMetal Extrude](SheetMetal_Extrude.md) page:
+Aber es gibt bessere Anwendungsfälle für dieses Werkzeug, die fast ganz geschlossene Formen beinhalten, so wie eins der Beispiele auf der Seite [SheetMetal KanteVerlängern](SheetMetal_Extrude/de.md):
 
 <img alt="" src=images/SheetMetal_Example-10k.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Example-10l.png  style="width:200px;">
 
 
 
-*An almost closed profile → The added default extension is fused with the opposite side creating a closed profile (a tube) that is not unfoldable*
+*Ein fast geschlossenes Profil → Die hinzugefügte Erweiterung ist standardmäßig mit der gegenüberliegenden Seite verschmolzen und bildet so ein geschlossenes Profil (ein Rohr), das nicht abwickelbar ist.*
 
 <img alt="" src=images/SheetMetal_Example-10l.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Example-10m.png  style="width:200px;">
 
 
 
-*Link a rectangular sketch to the property **Sketch*: Closed profile → Profile with rectangular extension, still fused**
+*Eine rechteckige Skizze mit der {{PropertyData/de|Sketch* verknüpft: Geschlossenes Profil → Profil mit rechteckiger Erweiterung, noch immer verschmolzen}}
 
 <img alt="" src=images/SheetMetal_Example-10m.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Example-10n.png  style="width:200px;">
 
 
 
-*Switch **Use Subtraction* to {{true** to provide a (hardly visible) default gap between the Extension object and the opposite side, then increase **Offset** to widen the gap:<br>
-Fused profile → Profile with interlocking extension, this final result is unfoldable}}
+*Die {{PropertyData/de|Use Subtraction* auf {{true}} umschalten, um einen (kaum sichtbaren) Spalt zwischen dem Extension-Objekt und der gegenüberliegenden Seite zu erhalten, dann den Wert der {{PropertyData/de|Offset}} erhöhen, um den Spalt aufzuweiten:<br>
+Verschmolzenes Profil → Profil mit verzahnter Erweiterung; dieses Endergebnis ist abwickelbar}}
 
 
 </div>

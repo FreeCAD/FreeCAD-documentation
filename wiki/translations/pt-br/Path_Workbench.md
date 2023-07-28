@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introdução
 
 
@@ -67,6 +69,8 @@ A bancada de trabalho Path tem dependências externas, incluindo:
 
 </div>
 
+
+
 ## Limitações
 
 
@@ -80,6 +84,8 @@ Algumas das limitações atuais das quais você deve estar ciente são: A maiori
 
 
 </div>
+
+
 
 ## Unidades
 
@@ -194,9 +200,11 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
--   <img alt="" src=images/Path_ToolBitLibraryOpen.svg  style="width:32px;"> [ToolBit Library editor](Path_ToolBitLibraryOpen.md): Opens an editor to manage ToolBit libraries. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_ToolBitLibraryOpen.svg  style="width:32px;"> [ToolBit Library editor](Path_ToolBitLibraryOpen.md): Opens an editor to manage ToolBit libraries.
 
--   <img alt="" src=images/Path_ToolBitDock.svg  style="width:32px;"> [ToolBit Dock](Path_ToolBitDock.md): Toggles the ToolBit Dock. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_ToolBitDock.svg  style="width:32px;"> [ToolBit Dock](Path_ToolBitDock.md): Toggles the ToolBit Dock.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -307,12 +315,16 @@ Some commands are experimental and not available by default. To enable them see 
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Otimização de percurso 
 
 
 </div>
+
+-   <img alt="" src=images/Path_DressupAxisMap.svg  style="width:32px;"> [Axis Map](Path_DressupAxisMap.md): Remaps one axis to another.
 
 
 <div class="mw-translate-fuzzy">
@@ -362,6 +374,10 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
+-   <img alt="" src=images/Path_DressupZCorrect.svg  style="width:32px;"> [Z Depth Correction](Path_DressupZCorrect.md): Corrects the Z depth using Probe Map.
+
+
+
 
 <div class="mw-translate-fuzzy">
 
@@ -402,6 +418,8 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
+-   <img alt="" src=images/Path_Probe.svg  style="width:32px;"> [Probe](Path_Probe.md): Creates a Probing Grid from a job stock.
+
 
 <div class="mw-translate-fuzzy">
 
@@ -409,6 +427,8 @@ Some commands are experimental and not available by default. To enable them see 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -442,6 +462,10 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
+### Specialty Operations 
+
+-   <img alt="" src=images/Path_ThreadMilling.svg  style="width:32px;"> [Thread Milling](Path_ThreadMilling.md): Creates a Path Thread Milling operation from features of a base object. [**Experimental**](Path_experimental.md).
+
 ### Miscellaneous
 
 
@@ -472,7 +496,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 ## ToolBit architecture 
 
-Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <small>(v0.19)</small> 
+Manage tools, bits, and the Tool Library. Based on the ToolBit architecture.
 
 -   [Path Tools](Path_Tools.md)
 -   [Path ToolShape](Path_ToolShape.md)
@@ -489,6 +513,8 @@ A bancada Path compartilha muitos conceitos com outros pacotes de software CAM, 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

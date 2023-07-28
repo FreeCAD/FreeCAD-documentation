@@ -44,7 +44,7 @@ Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.m
 ### Dane
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Pośrednik|PythonObject|Hidden**: niestandardowa klasa związana z tym obiektem. Istnieje to tylko dla wersji [Python](Python.md). Zobacz akapit [Tworzenie skryptów](#Tworzenie_skryptów/pl.md).
 
@@ -80,7 +80,7 @@ Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.m
 ### Widok
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Proxy|PythonObject|Ukryte**: klasa własna [dostawca widoku](Viewprovider/pl.md) związana z tym obiektem. Istnieje wyłącznie dla wersji środowiska [Python](Python/pl.md). Zobacz sekcję [tworzenie skryptów](#Tworzenie_skrypt.C3.B3w.md).
 

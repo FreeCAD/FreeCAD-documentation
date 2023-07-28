@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -48,12 +50,16 @@ Walls can also have additions or subtractions. Additions are other objects whose
 When several walls should intersect, you need to place them into a [floor](Arch_Floor.md) to have their geometry intersected.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Cum se folosește 
 
 
 </div>
+
+
 
 ### Desenarea unui zid de la zero 
 
@@ -67,6 +73,8 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 
 </div>
 
+
+
 ### Desenarea unui zid deasupra unui obiect selectat 
 
 
@@ -78,6 +86,8 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 
 
 </div>
+
+
 
 ## Opţiuni
 
@@ -100,6 +110,8 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 
 </div>
 
+
+
 ## Ancorarea
 
 
@@ -120,7 +132,46 @@ Snapping funcționează un pic diferit cu pereții arcului decât alte obiecte A
 
 </div>
 
+
+
 ## Proprietăți
+
+Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and also have the following extra properties:
+
+### Data
+
+
+{{TitleProperty|Blocks}}
+
+
+<div class="mw-translate-fuzzy">
+
+-    **Make Blocks**: Enable this to make the wall generate blocks
+
+-    **Block Length**: The length of each block
+
+-    **Block Height**: The height of each block
+
+-    **Offset First**: The horizontal offset of the first line of blocks
+
+-    **Offset Second**: The horizontal offset of the second line of blocks
+
+-    **Joint**: The size of the joints between each block
+
+-    **Count Entire**: The number of entire blocks (read-only)
+
+-    **Count Broken**: The number of broken blocks (read-only)
+
+
+</div>
+
+
+{{TitleProperty|Component}}
+
+-    **Base**: The base object this wall is built on
+
+
+{{TitleProperty|Wall}}
 
 
 <div class="mw-translate-fuzzy">
@@ -147,25 +198,6 @@ Obiectele de pe perete moștenesc proprietățile obiectelor [ Part](Part_Workbe
 
 
 </div>
-
-
-<small>(v0.18)</small> 
-
--    **Make Blocks**: Enable this to make the wall generate blocks
-
--    **Block Length**: The length of each block
-
--    **Block Height**: The height of each block
-
--    **Offset First**: The horizontal offset of the first line of blocks
-
--    **Offset Second**: The horizontal offset of the second line of blocks
-
--    **Joint**: The size of the joints between each block
-
--    **Count Entire**: The number of entire blocks (read-only)
-
--    **Count Broken**: The number of broken blocks (read-only)
 
 ## Scripting
 

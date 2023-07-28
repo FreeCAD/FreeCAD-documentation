@@ -9,16 +9,27 @@
 
 # TechDraw ClipGroupRemove/fr
 
+
+</div>
+
 ## Description
 
-Cet outil supprime une vue d\'un fenêtre de rognage existante et la renvoie dans la zone Page.
+L\'outil **TechDraw Suppression vue d\'une fenêtre de rognage** supprime une vue d\'un fenêtre de rognage existante et la renvoie dans la zone Page.
 
 ![](images/TechDraw_Clipview.png ) 
 *Fenêtre de rognage de différentes vues existantes*
 
+
+
 ## Utilisation
 
+
+<div class="mw-translate-fuzzy">
+
 -   Sélectionnez une vue faisant partie d\'un denêtre rognage et appuyez sur le bouton **<img src="images/TechDraw_ClipGroupRemove.svg" width=16px> [Supprimer la vue de la fenêtre de rognage](TechDraw_ClipGroupRemove/fr.md)** pour supprimer la vue.
+
+
+</div>
 
 
 

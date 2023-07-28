@@ -10,27 +10,73 @@
 
 # TechDraw 3PtAngleDimension/fr
 
+
+</div>
+
 ## Description
 
-L\'outil Mesure d\'angle par 3 points ajoute une cote angulaire à une vue. La dimension peut être spécifiée en sélectionnant trois sommets dans une vue. **Notez que le second des trois sommets est le sommet de l\'angle**. La Mesure d\'angle par 3 pts sera initialement l\'angle projeté (c\'est-à-dire, comme indiqué sur le dessin) mais peut être remplacé par la distance 3D réelle à l\'aide de l\'outil **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw Lier une dimension](TechDraw_LinkDimension/fr.md)**.
 
-<img alt="" src=images/TechDraw_Dimension_Angle3Pt_example.png  style="width:200px;"> 
+<div class="mw-translate-fuzzy">
+
+L\'outil **TechDraw Mesure d\'angle par 3 points** ajoute une cote angulaire à une vue. La dimension peut être spécifiée en sélectionnant trois sommets dans une vue.
+
+
+</div>
+
+<img alt="" src=images/TechDraw_Dimension_Angle3Pt_example.png  style="width:200px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Mesurer l'angle entre deux lignes droites à l'aide de trois sommets; le deuxième sommet devrait être le sommet de l'angle*
+
+
+</div>
 
 
 
 ## Comment faire 
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Sélectionnez les points ou les arêtes qui définissent votre mesure.
 2.  Appuyez sur le bouton **<img src="images/TechDraw_3PtAngleDimension.svg" width=16px> [Insérer une cote angulaire par 3 points](TechDraw_3PtAngleDimension/fr.md)**.
 3.  Une dimension sera ajoutée à la vue. La cote peut être déplacée à la position souhaitée.
 4.  Si nécessaire, ajoutez des tolérances comme décrit dans [cette page](TechDraw_Geometric_dimensioning_and_tolerancing/fr#Tol.C3.A9rances.md).
 
+
+</div>
+
+### Display 3D measurement 
+
+See [TechDraw LengthDimension](TechDraw_LengthDimension#Display_3D_measurement.md).
+
+### Change properties 
+
+
+<div class="mw-translate-fuzzy">
+
 Pour modifier les propriétés d\'un objet dimension, double-cliquez dessus dans le dessin ou dans la [Vue en arborescence](Tree_view/fr.md). Cela ouvrira la [Boîte de dialogue Dimension](TechDraw_LengthDimension/fr#Bo.C3.AEte_de_dialogue_Dimension.md).
+
+
+</div>
 
 ## Limitations
 
+
+<div class="mw-translate-fuzzy">
+
 Les objets Cote sont vulnérables au \"[problèmes de nommage topologique](Topological_naming_problem/fr.md)\". Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md) pour plus d\'informations.
+
+
+</div>
+
+## Notes
+
+See [TechDraw LengthDimension](TechDraw_LengthDimension#Notes.md).
 
 
 

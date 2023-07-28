@@ -4,14 +4,19 @@
    Name/pl:Siatka: Rozbij na komponenty
    MenuLocation:Siatki → Rozbij na komponenty
    Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   Version:0.19
    SeeAlso:[Scal](Mesh_Merge/pl.md)
 ---
 
 # Mesh SplitComponents/pl
 
+
+
 ## Opis
 
 Polecenie **Rozbij na komponenty** dzieli obiekt siatki na jego komponenty. Komponent siatki to kompletna grupa połączonych powierzchni. Dla każdego komponentu tworzony jest nowy nieparametryczny obiekt siatki, [cecha siatki](Mesh_Feature/pl.md). Jeśli oryginalny obiekt siatki zawiera tylko jeden komponent, co zwykle ma miejsce, tworzony jest pojedynczy nowy obiekt siatki, będący faktycznie jego kopią. To polecenie jest odpowiednikiem polecenia [Scal siatkę](Mesh_Merge/pl.md).
+
+
 
 ## Użycie
 
@@ -19,6 +24,8 @@ Polecenie **Rozbij na komponenty** dzieli obiekt siatki na jego komponenty. Komp
 2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Mesh_SplitComponents.svg" width=16px> '''Rozbij na komponenty'''**.
     -   Wybierz z menu opcję **Siatki → <img src="images/Mesh_SplitComponents.svg" width=16px> Rozbij na komponenty**.
+
+
 
 ## Właściwości
 

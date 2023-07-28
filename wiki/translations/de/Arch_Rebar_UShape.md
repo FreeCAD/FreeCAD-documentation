@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Beschreibung
 
 
@@ -44,6 +46,8 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 </div>
 
+
+
 ## Anwendung
 
 
@@ -69,6 +73,8 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 
 *Aufgaben-Ansicht für das Arch Bewehrungsstab U-förmig-Werkzeug*
+
+
 
 ## Eigenschaften
 
@@ -140,6 +146,8 @@ Rebar = makeUShapeRebar(f_cover, b_cover, r_cover, l_cover,
 
 
 </div>
+
+
 
 ### Beispiel
 

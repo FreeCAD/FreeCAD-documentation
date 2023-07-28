@@ -197,10 +197,10 @@ La etiqueta en tu botón podría ser diferente, dependiendo de tu versión y tam
 Las instrucciones de arriba funcionarán, sin importar la etiqueta que tenga el botón.
 
 
-  {{Userdocnavi
+ {{Userdocnavi
 ---
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Basic modeling tutorial/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Basic modeling tutorial/es

@@ -10,11 +10,15 @@
 
 # PartDesign NewSketch/de
 
+
+
 ## Beschreibung
 
-Dieses Werkzeug erzeugt eine neue Skizze und erzeugt - falls es keinen gibt - einen neuen [PartDesign Körper](PartDesign_Body/de.md), der die Skizze enthält. Anschließend wird die [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) automatisch geöffnet.
+Dieses Werkzeug erstellt eine neue Skizze und, falls es noch keinen gibt, einen neuen [PartDesign-Körper](PartDesign_Body/de.md), der die Skizze enthält. Anschließend wird der Arbeitsbereich [Sketcher](Sketcher_Workbench/de.md) automatisch geöffnet.
 
-Wenn Modelle unter Verwendung des [PartDesign Arbeitsbereichs](PartDesign_Workbench/de.md) erzeugt werden sollte dieses Werkzeug gegenüber dem entsprechenden **[<img src=images/Sketcher_NewSketch.svg style="width:16px">[Sketcher Neue Skizze](Sketcher_NewSketch/de.md)** Werkzeug aus dem [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) bevorzugt werden.
+Werden Modelle unter Verwendung des Arbeitsbereichs [PartDesign](PartDesign_Workbench/de.md) erstellt, sollte dieses Werkzeug den Vorzug vor dem Werkzeug **[<img src=images/Sketcher_NewSketch.svg style="width:16px">[Sketcher NeueSkizze](Sketcher_NewSketch/de.md)** des Arbeitsbereichs [Sketcher](Sketcher_Workbench/de.md) bekommen.
+
+
 
 ## Anwendung
 
@@ -29,16 +33,18 @@ Wenn Modelle unter Verwendung des [PartDesign Arbeitsbereichs](PartDesign_Workbe
 
 5.  Es kann auch eine Ebene oder eine Oberfläche eines existierenden Körpers gewählt werden, bevor eine Skizze erstellt wird. In diesem Fall wird die Skizze sofort erstellt.
 
+
+
 ## Optionen
 
--   Um die Zuordnung einer existierenden Skizze zu ändern, muss ihre **Schwerpunkt**-Eigenschaft (siehe [Eigenschaften](#Properties.md)) im Abbildungsmodus geändert werden.
+-   Um die Zuordnung einer existierenden Skizze zu ändern, muss ihre Eigenschaft **Map Mode** geändert werden. (siehe [Eigenschaften](#Eigenschaften.md))
 
--   The *Select feature* Dialog defines the features of the new sketch
+-   Der Dialog *Element auswählen* legt die Elemente der neuen Skizze fest
 
 :   
 
     :   <img alt="" src=images/PartDesign.CreateSketch.SelectFeatureDialog.jpeg  style="width:300px;">
-    :   *Select feature* dialog. These settings create a sketch on the XY plane and allow cross-references from other items of the same body\'\'
+    :   Dialog *Element auswählen*. Diese Einstellungen erstellen eine Skizze auf der XY-Ebene und lassen die Verwendung von Querverweisen anderer Elemente desselben Körpers
 
 Dialog-Einstellungen
 
@@ -54,6 +60,8 @@ Dialog-Einstellungen
 -   Querverweis erstellen: Die verknüpften Elemente sind keine Kopien, sondern verweisen auf die Originalelemente, z. B. eine Masterskizze. Alle Änderungen werden auf diese Skizze übertragen
 
 Um beliebige Elemente im [Sketcher](Sketcher_Workbench/de.md) zu referenzieren, können die beiden Werkzeuge **<img src="images/Sketcher_External.svg" width=16px> [ExterneGeometrie](Sketcher_External/de.md)** und **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Pause](Sketcher_CarbonCopy/de.md)** verwendet werden. Generell ist es empfehlenswert, andere Skizzen als Quelle für Referenzen zu verwenden, anstatt Flächen oder Kanten, da diese weniger von dem Problem der topologischen Benennung betroffen sind.
+
+
 
 ## Eigenschaften
 

@@ -19,8 +19,10 @@
 
 Vous pouvez choisir ces fonctions :
 
--   <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> [FEM Plan](FEM_PostCreateFunctionPlane/fr.md)
--   <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:24px;"> [FEM Sphère](FEM_PostCreateFunctionSphere/fr.md)
+-   <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> [FEM Filtre fonction plan](FEM_PostCreateFunctionPlane/fr.md)
+-   <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:24px;"> [FEM Filtre fonction sphère](FEM_PostCreateFunctionSphere/fr.md)
+-   <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:24px;"> [FEM Filtre fonction cylindre](FEM_PostCreateFunctionCylinder/fr.md)
+-   <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:24px;"> [FEM Filtre fonction boîte](FEM_PostCreateFunctionBox/fr.md)
 
 
 

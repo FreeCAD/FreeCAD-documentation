@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introducción
 
 
@@ -13,7 +15,11 @@ El <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> de FreeCAD [A
 
 </div>
 
+
+
 ## El Herramientas 
+
+
 
 ### Diseño Náutico 
 
@@ -29,6 +35,8 @@ El <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> de FreeCAD [A
 
 </div>
 
+
+
 ### Cargas
 
 
@@ -43,10 +51,14 @@ El <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> de FreeCAD [A
 
 </div>
 
+
+
 ## Tutoriales
 
 -   [Tutorial de FreeCAD-Nave s60](FreeCAD-Ship_s60_tutorial/es.md)
 -   [Tutorial de FreeCAD-Nave s60 (II)](FreeCAD-Ship_s60_tutorial_(II)/es.md)
+
+
 
 ## Historia
 
@@ -58,11 +70,24 @@ El Ambiente de Trabajo Nave no se mantenía desde la v0.17 pero ha sido resucita
 
 </div>
 
+
+
 ## Referencias
 
 -   Desarrollador: José Luis Cercós Pita ([\@sanguinariojoe](https://github.com/sanguinariojoe))
 -   Github: <https://github.com/FreeCAD/freecad.ship>
 -   Discusión: <https://forum.freecadweb.org/viewtopic.php?f=8&t=60885>
+
+## Acknowledgments
+
+Many developers have contributed to this module development, and we want to express our gratitude to them.
+
+-   All the FreeCAD team for the maintenance operations over all these years.
+-   Jose Luis Cercós Pita as the main developer.
+-   Juan Manuel Muñoz-Godin for the ship resistance prediction tools (Holtrop & Amadeo) development, as part of his Bachelor Thesis.
+-   Antonio Souto-Iglesias and Jose Luis Cercos-Pita as the advisor and co-advisor of Juan Manuel Muñoz-Godin.
+
+If you feel your name is missing on this list, please feel free to add it yourself or send me a private message.
 
 
 

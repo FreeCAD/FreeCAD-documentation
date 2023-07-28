@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande **Mesh Fusionner** crée un nouvel objet maillé non paramétrique, un [Mesh Feature](Mesh_Feature/fr.md), en combinant les maillages d\'au moins deux objets maillés. La commande n\'effectue pas d\'union booléenne. Le nouvel objet contiendra des composants de maillage séparés. Pour une union booléenne, utilisez plutôt la commande [Mesh Union](Mesh_Union/fr.md). Cette commande est le pendant de la commande [Mesh Éclater par composants](Mesh_SplitComponents/fr.md).
+La commande **Fusionner** crée un nouvel objet maillé non paramétrique, un [Mesh Feature](Mesh_Feature/fr.md), en combinant les maillages d\'au moins deux objets maillés. La commande n\'effectue pas d\'union booléenne. Le nouvel objet contiendra des composants de maillage séparés. Pour une union booléenne, utilisez plutôt la commande [Mesh Union](Mesh_Union/fr.md). Cette commande est le pendant de la commande [Mesh Éclater par composants](Mesh_SplitComponents/fr.md).
 
 
 

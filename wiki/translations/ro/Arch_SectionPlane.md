@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -26,6 +28,8 @@ Acest instrumetn plasează în documentul curent un plan de secțiune gizmo, car
 The Section Plane alone won\'t create any view of its objects set. For that, you must create a [TechDraw ArchView](TechDraw_ArchView.md) to create a view in a [TechDraw page](TechDraw_Workbench.md).
 
 <img alt="" src=images/Arch_SectionPlane_example.jpg  style="width:600px;">
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -48,6 +52,8 @@ The Section Plane alone won\'t create any view of its objects set. For that, you
 
 
 </div>
+
+
 
 ## Opţiuni
 
@@ -83,6 +89,8 @@ The Section Plane alone won\'t create any view of its objects set. For that, you
 
 <img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width:600px;">
 
+
+
 ## Proprietăți
 
 
@@ -109,7 +117,9 @@ The Section Plane alone won\'t create any view of its objects set. For that, you
 
 ## Tweaks
 
--   Adding manually a property named **RotateSolidRender** of type **App::PropertyAngle** to the section plane\'s **View** properties (right-click the properties view -\> show all, right-click again -\> add property) allows to rotate the render when using Solid mode. This is useful when a rendered view has for example both Arch and Draft elements, and the rendering of the Arch elements is rotated in relation to the Draft elements. <small>(v0.19)</small> 
+-   Adding manually a property named **RotateSolidRender** of type **App::PropertyAngle** to the section plane\'s **View** properties (right-click the properties view -\> show all, right-click again -\> add property) allows to rotate the render when using Solid mode. This is useful when a rendered view has for example both Arch and Draft elements, and the rendering of the Arch elements is rotated in relation to the Draft elements.
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">

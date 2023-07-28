@@ -1,34 +1,41 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher ConstrainBlock
-   MenuLocation:Sketch → Sketcher constraints → Constrain block
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Wiązanie zablokowania
+   MenuLocation:Szkic → Wiązania szkicownika → Wiązanie zablokowania
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**K** **B**
    Version:0.17
-   SeeAlso:[Sketcher Constrain Lock](Sketcher_ConstrainLock.md)
+   SeeAlso:[Wiązanie blokady odległości](Sketcher_ConstrainLock/pl.md)
 ---
 
 # Sketcher ConstrainBlock/pl
 
-## Description
 
-**Constrain Block** blocks a geometric element in place with a single constraint.
 
-It is mainly intended to be used with **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [B-splines](Sketcher_CreateBSpline.md)**, which can be difficult to fully constrain otherwise.
+## Opis
 
-## Usage
+**Wiązanie zablokowania** powoduje unieruchomienie elementu geometrycznego w miejscu za pomocą pojedynczego wiązania.
 
-1.  Select an element to constrain.
-2.  Press the **[<img src=images/Sketcher_ConstrainBlock.svg style="width:16px"> [Constrain block](Sketcher_ConstrainBlock.md)** button.
+Jest ono przeznaczone głównie do użycia z narzędziem **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [Utwórz krzywą złożoną](Sketcher_CreateBSpline/pl.md)**, która może być trudna do pełnego związania w inny sposób.
 
-Or press the button first, and then select the elements.
 
-## Scripting
+
+## Użycie
+
+1.  Wybierz element, który chcesz związać.
+2.  Naciśnij przycisk **[<img src=images/Sketcher_ConstrainBlock.svg style="width:16px"> '''Wiązanie zablokowania'''**.
+
+Albo najpierw naciśnij przycisk, a potem wybierz elementy.
+
+
+
+## Tworzenie skryptów 
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Block', Edge))```
 
-The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Edge` and contains further examples on how to create constraints from Python scripts.
+Strona [skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, których można użyć dla `Krawędzi` oraz zawiera dalsze przykłady tworzenia wiązań przy użyciu skryptów języka Python.
 
 
 

@@ -26,9 +26,13 @@ Dans l\'image, vous pouvez voir le résultat que nous obtiendrons approximativem
 -   Comment contrôler la grille et la légende lorsque plusieurs ensembles d\'axes sont présents.
 -   Comment éditer la position des étiquettes, titres et légendes.
 
+
+
 ## Traçage des données 
 
 Comme nous l\'avons fait dans le [tutoriel précédent](Plot_Basic_tutorial/fr.md), nous allons utiliser la [console Python](Python_console/fr.md) ou des [macros](Macros/fr.md) pour tracer les données, mais dans ce cas, nous allons tracer les données en utilisant deux ensembles d\'axes.
+
+
 
 ### Création de données de tracé 
 
@@ -46,6 +50,8 @@ c = [math.cos(math.pi*2.0*tt) for tt in t]
 ```
 
 Comme *x* se déplace de 0 à 2, la fonction *y* a une valeur maximale de 4, donc si nous essayons de tracer cette fonction avec les fonctions trigonométriques, au moins une fonction sera tronquée ou mal mise à l\'échelle, donc nous avons besoin d\'un tracé multi-axes. Un tracé multiaxe dans FreeCAD est destiné à obtenir un tracé avec plusieurs axes, et non à obtenir plusieurs tracés dans le même document.
+
+
 
 ### Fonctions de dessin, ajout de nouveaux axes 
 
@@ -74,7 +80,11 @@ Plot.plot(x,y,r"$x^2$")
 
 Comme vous pouvez le constater, votre graphique est devenu fou, avec des repères d\'axes qui se chevauchent, des courbes de la même couleur, etc. Nous devons maintenant utiliser l\'[atelier Plot](Plot_Workbench/fr.md) pour corriger ce graphique.
 
+
+
 ## Configurer Plot 
+
+
 
 ### Configurer les axes 
 
@@ -87,9 +97,13 @@ Avec l\'outil [axes](Plot_Axes/fr.md), vous pouvez ajouter ou supprimer des axes
 
 Pour modifier la taille du premier ensemble d\'axes, associé aux fonctions trigonométriques, il faut d\'abord l\'activer en faisant passer les axes actifs de 1 à 0. Nous pouvons ensuite déplacer les curseurs de dimension horizontale et verticale pour réduire sa taille (essayez d\'imiter l\'exemple). Nous devons également modifier l\'alignement des axes : sélectionnez respectivement haut et droite.
 
+
+
 ### Configurer les séries 
 
 Définissez les propriétés de la série comme nous l\'avons fait dans le [tutoriel précédent](Plot_Basic_tutorial/fr.md).
+
+
 
 ### Affichage de la grille et de la légende 
 
@@ -98,6 +112,8 @@ La [grille](Plot_Grid/fr.md) et la [légende](Plot_Legend/fr.md) peuvent être a
 Les lignes de la grille sont ajoutées à l\'ensemble des axes actifs. Pour ajouter des lignes au deuxième ensemble d\'axes dans notre exemple, il faut d\'abord l\'activer en faisant passer les axes actifs de 0 à 1 dans l\'outil [axes](Plot_Axes/fr.md).
 
 Comme déjà mentionné, la légende sera positionnée par rapport aux derniers axes définis. Si vous montrez la légende maintenant, vous verrez qu\'elle est vraiment mal placée mais nous corrigerons cela plus tard.
+
+
 
 ### Définir les étiquettes des axes 
 
@@ -116,6 +132,8 @@ Lorsqu\'il s\'agit de définir les [étiquettes](Plot_Labels/fr.md) des axes, no
 
 Modifiez la taille de la police de toutes les étiquettes à 20, et celle du titre à 24. Encore une fois, il y a un élément, le titre, qui est mal placé.
 
+
+
 ### Définir la position des éléments 
 
 L\'[atelier Plot](Plot_Workbench/fr.md) fournit un outil permettant de modifier la position de plusieurs éléments de tracé, tels que les titres, les étiquettes et les légendes.
@@ -125,14 +143,16 @@ L\'[atelier Plot](Plot_Workbench/fr.md) fournit un outil permettant de modifier 
 
 Lorsque vous exécutez l\'outil, vous verrez une liste de tous les éléments modifiables. Les titres et les légendes peuvent être déplacés dans les deux sens, mais les étiquettes d\'axe ne peuvent être déplacées que le long de l\'axe auquel elles appartiennent. Sélectionnez le titre de l\'axe 1 et déplacez-le vers (0,24,1,01), puis sélectionnez la légende et déplacez-la vers une meilleure position. Vous pouvez également augmenter la taille de la police des étiquettes de la légende.
 
+
+
 ## Sauvegarder un fichier Plot 
 
 Vous pouvez maintenant enregistrer votre travail. Voir le [tutoriel précédent](Plot_Basic_tutorial/fr.md) si vous ne savez pas comment faire.
 
 
-{{Tutorials_navi
+{{Plot_Tools_navi
 
-}} {{Plot_Tools_navi}}
+}}
 
 
 

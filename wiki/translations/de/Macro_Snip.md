@@ -1,24 +1,20 @@
 # Macro Snip/de
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/de
-|Name=Schnitt
+|Name=Makro Snip
 |Icon=Snip.png
 |Description=Verwende dieses Makro, um Bildschirmfotos im FreeCAD-Forum zu veröffentlichen.<br/> Am besten füge dieses Makro zu deiner globalen benutzerdefinierten Makro-Werkzeugleiste hinzu, damit du schnell und einfach darauf zugreifen kannst.<br/> Wenn du im FreeCAD-Forum veröffentlichst, ist es oft nützlich, Bildschirmfotos einbinden zu können. Das Problem ist, dass dies eine etwas mühsame Aufgabe ist. Dieses Makro soll diese Aufgabe etwas erleichtern.<br/>Das Makro kann Bildschirmfotos machen oder es kann vorhandene Bildschirmfotos verwenden, die bereits in die Zwischenablage des Systems kopiert wurden. Um das bereits in der Zwischenablage befindliche Bild zu umgehen, drücke die Umschalttaste, während du das Makro aufrufst. Um das Makro zur Aufnahme des Bildschirmfotos zu verwenden, passe die Größe und Platzierung des eingeblendeten Dialogfelds an, und klicke dann auf OK. Wenn du auf OK klickst, versucht das Makro, ein Bildschirmfoto des vom Dialogfeld abgedeckten Bildschirmbereichs zu erstellen. Das Dialogfeld selbst ist halbtransparent, so dass du den Inhalt darunter sehen kannst. 
 |Author=TheMarkster
-|Version=1.21
-|Date=19.10.2020
+|Version=1.22
+|Date=2022.02.23
 |FCVersion=Alle
 |Download=[https://wiki.freecadweb.org/images/a/a0/Snip.png ToolBar Icon]
-|SeeAlso=[Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md) <img src="images/Macro_Copy3DViewToClipboard.png" width=24px><br/>[Macro Screen Wiki](Macro_Screen_Wiki.md) <img src="images/Macro_Screen_Wiki.png" width=24px>
+|SeeAlso=[Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md), [Macro Screen Wiki](Macro_Screen_Wiki.md)
 |Shortcut=Unter Windows: Windows Key + Shift + S<br/>
 Unter Mac: Command + Shift + 4<br/>
-Unter Linux: gnone-screenshot utility<br/>
+Unter Linux: gnome-screenshot utility<br/>
 }}
 
 
-</div>
 
 ## Beschreibung
 
@@ -26,117 +22,67 @@ Verwende dieses Makro, um Bildschirmfotos auf einfache Weise im [FreeCAD Forum](
 
 Am besten füge dieses Makro zu deiner globalen benutzerdefinierten Makro Werkzeugleiste hinzu, damit du schnell und einfach darauf zugreifen kannst.
 
-
-<div class="mw-translate-fuzzy">
-
-Beim Veröffentlichen im FreeCAD Forum ist es oft nützlich, Bildschirmfotos beifügen zu können. Das Problem ist, dass dies eine etwas mühsame Aufgabe ist. Dieses Makro soll diese Aufgabe daher etwas erleichtern.
+Beim Veröffentlichen im FreeCAD-Forum ist es oft nützlich, Bildschirmfotos beifügen zu können. Das Problem ist, dass dies eine etwas mühsame Aufgabe ist. Dieses Makro soll diese Aufgabe daher etwas erleichtern.
 
 
-</div>
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
 Das Makro kann Bildschirmfotos erstellen oder vorhandene Bildschirmfotos verwenden, die bereits in die Zwischenablage des Systems kopiert wurden. Um das bereits in der Zwischenablage befindliche Bild zu umgehen, drücke die Taste **Umschalten**, während du das Makro aufrufst. Um das Makro zur Aufnahme des Bildschirmfotos zu verwenden, passe die Größe und Platzierung des eingeblendeten Dialogfelds an und klicke dann auf **OK**. Wenn du auf **OK** klickst, versucht das Makro, ein Bildschirmfoto des vom Dialogfeld abgedeckten Bildschirmbereichs zu erstellen. Das Dialogfeld selbst ist halbtransparent, so dass du den Inhalt darunter sehen kannst.
 
-
-</div>
-
-<img alt="" src=images/Snip-Screenshot1.png  style="width:600px;">
-
-
-<div class="mw-translate-fuzzy">
-
 <img alt="" src=images/Snip-Screenshot1.png  style="width:600px;"> 
-*Schnitt screenshot1, Beachte, wie der Dialog halbtransparent ist.  Es wird nur der Bildschirminhalt unterhalb des Dialogs erfasst.*
+*Beachte den halbtransparenten Dialog. Es wird nur der Bildschirminhalt unterhalb des Dialogs erfasst.*
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Nach dem Klicken auf **OK** erstellt das Makro dann das Bildschirmfoto und speichert es in einer temporären Datei. Am Speicherort der Datei wird dann ein Datei Öffnen Dialogfeld geöffnet. Du kannst die Datei von dort in das Forum ziehen und loslassen im Textbereich, wo du deinen Text für deinen Forumsbeitrag eingibst. Bei Abbruch des Dialogs wird die temporäre Bildschirmfoto Datei automatisch gelöscht. Du könntest die Bildschirmfoto Datei auch in deiner Standardanwendung öffnen, die zum Öffnen von **.png** Dateien installiert ist (unter Windows ist dies typischerweise Paint). Dies kann nützlich sein, wenn du dem Bildschirmfoto einige Anmerkungen hinzufügen oder vielleicht zusätzliche Bearbeitungen, wie z.B. Zuschneiden, vornehmen möchtest.
-
-
-</div>
-
-<img alt="" src=images/Snip-Screenshot2.png  style="width:600px;">
-
-
-<div class="mw-translate-fuzzy">
+Nach dem Klicken auf **OK** erstellt das Makro dann das Bildschirmfoto und speichert es in einer temporären Datei. Am Speicherort der Datei wird dann ein Datei Öffnen Dialogfeld geöffnet. Du kannst die Datei von dort in das Forum ziehen und loslassen im Textbereich, wo du deinen Text für deinen Forumsbeitrag eingibst. Bei Abbruch des Dialogs wird die temporäre Bildschirmfoto-Datei automatisch gelöscht. Du könntest die Bildschirmfotodatei auch in deiner Standardanwendung öffnen, die zum Öffnen von **.png**-Dateien installiert ist (unter Windows ist dies typischerweise Paint). Dies kann nützlich sein, wenn du dem Bildschirmfoto einige Anmerkungen hinzufügen oder vielleicht zusätzliche Bearbeitungen, wie z.B. Zuschneiden, vornehmen möchtest.
 
 <img alt="" src=images/Snip-Screenshot2.png  style="width:600px;"> 
-*Snip screenshot2, Dies ist der Dateiöffnungsdialog, der nach der Aufnahme des Bildschirmfotos automatisch aufklappt. Das Bild kann in das Forum gezogen und losgelassen werden oder es kann zur weiteren Bearbeitung in deiner System Standardanwendung zum Öffnen von png Dateien geöffnet werden. 
+*Dies ist der Dateiöffnungsdialog, der nach der Aufnahme des Bildschirmfotos automatisch aufklappt. Das Bild kann in das Forum gezogen und losgelassen werden oder es kann zur weiteren Bearbeitung in deiner System-Standardanwendung zum Öffnen von .png-Dateien geöffnet werden. 
 Alternativ dazu kannst du auf das Bild rechtsklicken und **Öffnen mit..* mit einer anderen Anwendung deiner Wahl öffnen.**
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 Wenn das Makro auf deinem System nicht funktioniert, um Bildschirmfotos zu erstellen, kann es trotzdem nützlich sein für Bildschirmfotos, die du mit anderen Werkzeugen erstellt hast. Kopiere das Bildschirmfoto einfach in die Zwischenablage und führe dann das Makro aus. Das Makro erstellt die temporäre Datei und öffnet das Verzeichnis der Datei in einem Datei Öffnen Dialog für dich. Einige andere Werkzeuge zum Erstellen von Bildschirmfotos:
-
-
-</div>
-
 
 :   Windows: Windows Taste + **Umschalten** + **S**
 :   MacOS: **Command** + **Umschalten** + **4**
 :   Linux: gnome-Bildschirmfoto Hilfsprogramm
 
-## Parameters
 
-
-<div class="mw-translate-fuzzy">
 
 ## Parameter
 
-Das Makro unterstützt Benutzerparameter, die mit **Werkzeuge → Parameter bearbeiten... → Zusatzmodule → Schnitt_Makro**
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
+Das Makro unterstützt Benutzerparameter, die mit **Werkzeuge → Parameter bearbeiten... → Plugins → Snip_Macro**
 
 :   
-    `LetzteX`, `LetzteY`, `LetzteBreite`, `LetzteHöhe`: Lage und Größe des zuletzt verwendeten Schnittkastens
+    `LastX`, `LastY`, `LastWidth`, `LastHight`: Lage und Größe des zuletzt verwendeten Snip-Rahmens
 
 :   
-    `FensterDurchsichtigkeit`(0.85): ein Wert zwischen 0.0 (weniger durchsichtig) und 1.0 (mehr durchsichtig)
+    `WindowOpacity`(0.85): ein Wert zwischen 0.0 (weniger durchsichtig) und 1.0 (durchsichtiger)
 
 :   
-    `SchnittVerzögerung`(0.5): Zeit (in Sekunden) Verzögerung zwischen schliessen des Schnittkastens und Schnitt
+    `SnipDelay`(0.5): Zeitverzögerung (in Sekunden) zwischen schliessen des Snip-Rahmens und der Aufnahme
+
+:   
+    `DesiredWidth`(0): gewünschte Breite (in Pixeln), wird ignoriert, wenn 0 \-- skaliert die Aufnahme auf die gewünschte Größe unter Beibehaltung des Seitenverhältnisses.
+
+:   
+    `ScaleFactor`(1.0): gewünschter Größenfaktor, (überschreibt die gewünsche Breite, wenn der ScaleFactor nicht 1.0 ist) \-- skaliert die Aufnahme dem Größenfaktor entsprechend
+
+Die `Last`-Parameter werden von dem Makro bei jeder Ausführung zurückgesetzt. So wird festgehalten, wo das Snip-Fenster zu platzieren ist, d.h. an der Stelle, an der es sich zuletzt befand, als der Benutzer ein Bildschirmfoto gemacht hat.
+
+Der Parameter `WindowOpacity` ist die Durchsichtigkeit des Snip-Rahmens.
+
+Der Parameter `SnipDelay` (Aufnahmeverzögerung) kann angepasst werden, um die Dinge etwas zu beschleunigen, aber wenn der Wert zu klein ist, könnte das aufgenommene Bildschirmfoto den Snip-Rahmen selbst enthalten, weil vor der Aufnahme des Bildschirmfotos eine gewisse Zeitspanne zum Schließen des Dialogs benötigt wird.
+
+Der Parameter `DesiredWidth` (gewünschte Breite) skaliert die Abbildung auf die gewünschte Breite, solange er nicht 0 ist (Standardwert); in dem Falle wird gar nicht skaliert. Wird z.B. die gewünschte Breite auf 800 gesetzt, erhält man Bilder die 800 Pixel breit sind. Die Höhe wird automatisch so angepasst, dass das aktuelle Seitenverhältnis erhalten bleibt. War die originale Abbildung 1600x1200 und DesiredWidth ist 800, wird das resultierende Bild 800x600 sein.
+
+DerParameter `ScaleFactor` (Größenfaktor) skaliert die Abbildung auf das gewünscht Verhältnis, z.B. 0,5. Der Standardwert ist 1,0; in diesem Falle wird gar nicht skaliert. Dieser Überschreibt den Parameter DesiredWidth, wenn ScaleFactor nicht 1.0 ist.
+
+Das Skalieren kann übersprungen werden, wenn die Ctrl-Taste gedrückt gehalten wird, während die Schaltfläche OK angeklickt wird, um das Bildschirmfoto aufzunehmen.
 
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Die `Letzten` Parameter werden von dem Makro bei jeder Ausführung zurückgesetzt. So wird er verfolgt, wo der Schnittkasten zu platzieren ist, d.h. an der Stelle, an der er sich zuletzt befand, als der Benutzer ein Bildschirmfoto gemacht hat.
-
-
-</div>
-
-Der `FensterDurchsichtigkeit` Parameter ist die Durchsichtigkeit des Schnittkastens.
-
-Der `SchnittVerzögerung` Parameter kann angepasst werden, um die Dinge etwas zu beschleunigen, aber wenn der Wert zu klein ist, könnte das aufgenommene Bildschirmfoto den Schnittkasten selbst enthalten, weil vor der Aufnahme des Bildschirmfotos eine gewisse Zeitspanne zum Schließen des Dialogs benötigt wird.
-
-The `DesiredWidth` parameter scales the image to the desired width unless it is 0 (the default) in which case no scaling is done. For example, if you set the desired width to 800 then you will get images that are 800 pixels wide. The height will be automatically scaled to maintain the current aspect ratio. If the original image was 1600x1200 and the DesiredWidth is 800, then the resulting image will be 800x600.
-
-The `ScaleFactor` parameter scales the image to the desired ratio, e.g. 0.5. The default is 1.0, in which case no scaling is done. This overrides the DesiredWidth parameter if ScaleFactor is not 1.0.
-
-You can bypass all scaling by holding down the Ctrl key while clicking the Ok button to take the screen shot.
 
 ## Skript
 
-ToolBar icon ![](images/Snip.png )
+Werkzeugleistensymbol ![](images/Snip.png )
 
 **Macro_Snip.FCMacro**
 
@@ -393,6 +339,8 @@ if not userCanceled:
         QtGui.QApplication.processEvents()
     shutil.rmtree(dirPath)
 }}
+
+
 
 ## Verweis
 

@@ -4,14 +4,14 @@
    Name/fr:Mesh Ajuster par plan
    MenuLocation:Maillages → Couper → Ajuster le maillage avec un plan
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Couper le maillage](Mesh_PolyCut/fr.md), [Mesh Découper](Mesh_PolyTrim/fr.md)
+   SeeAlso:[Mesh Couper le maillage](Mesh_PolyCut/fr.md), [Mesh Ajuster](Mesh_PolyTrim/fr.md)
 ---
 
 # Mesh TrimByPlane/fr
 
 ## Description
 
-La commande **Mesh Ajuster par plan** permet de découper les faces et parties de faces d\'un côté d\'un plan à partir d\'un objet maillé.
+La commande **Ajuster par plan** permet de découper les faces et parties de faces d\'un côté d\'un plan à partir d\'un objet maillé.
 
 
 
@@ -24,10 +24,10 @@ La commande **Mesh Ajuster par plan** permet de découper les faces et parties d
 **
     -   Sélectionnez l\'option **Maillages → Couper → <img src="images/Mesh_TrimByPlane.svg" width=16px> Ajuster le maillage avec un plan** du menu.
 
-3.  La boîte de dialogue **Découper par un plan** s\'ouvre.
+3.  La boîte de dialogue **Découpe par un plan** s\'ouvre.
 
 4.  
-    **Sélectionner le côté que vous souhaitez garder**en appuyant sur l\'un des boutons:
+    **Sélectionnez le côté que vous souhaitez garder**en appuyant sur l\'un des boutons:
 
     -   
         **En-dessous**
@@ -40,7 +40,7 @@ La commande **Mesh Ajuster par plan** permet de découper les faces et parties d
     -   
         **Scinder**
         
-        : supprime les faces et les parties de faces au-dessus du plan, et crée un nouvel objet maillé les contenant.
+        : supprime les faces et les parties de faces au-dessus du plan et crée un nouveau maillage les contenant.
 
 
 

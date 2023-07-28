@@ -1,28 +1,35 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher CreateSquare
-   MenuLocation:Sketch → Sketcher geometries → Create square
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Utwórz kwadrat
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz kwadrat
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **P** **4**
    Version:0.15
 ---
 
 # Sketcher CreateSquare/pl
 
-## Description
 
-Draws a square inscribed in a construction geometry circle. When starting the tool, the mouse pointer changes to a white cross with a red hexagon icon. The coordinates of the pointer are shown beside it in blue in real time.
+
+## Opis
+
+Rysuje kwadrat wpisany w okrąg z geometrii konstrukcyjnej. Po uruchomieniu narzędzia kursor myszki zmienia kształt na biały krzyż z czerwoną ikoną sześciokąta. W czasie rzeczywistym wyświetlane są obok niego współrzędne wskaźnika w kolorze niebieskim.
 
 ![](images/SketcherCreateSquareExample.png‎ )
 
-## Usage
 
--   After pressing the **[<img src=images/Sketcher_CreateSquare.svg style="width:16px"> [Create square](Sketcher_CreateSquare.md)** button, click once to set the center, then move the mouse and click a second time to set one of the vertices.
--   Pressing **Esc** or clicking the right mouse button cancels the function.
 
-## Notes
+## Użycie
 
-The circumscribed circle is construction geometry, which is only visible when editing the sketch.
+-   Po naciśnięciu przycisku **[<img src=images/Sketcher_CreateSquare.svg style="width:16px"> [Kwadrat](Sketcher_CreateSquare/pl.md)**, kliknij raz, aby ustawić środek, a następnie przesuń kursor i kliknij drugi raz, aby ustawić jeden z wierzchołków.
+-   Naciśnięcie klawisza **Esc** lub kliknięcie prawym przyciskiem myszki powoduje przerwanie działania narzędzia.
+
+
+
+## Uwagi
+
+Wyznaczony okrąg to geometria konstrukcyjna, która jest widoczna tylko podczas edycji szkicu.
 
 
 

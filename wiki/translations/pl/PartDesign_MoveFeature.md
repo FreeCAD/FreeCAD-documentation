@@ -1,24 +1,29 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign MoveFeature
-   MenuLocation:Context menu → Move object to other body
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Przesuń cechę do innej zawartości
+   MenuLocation:Menu kontekstowe → Przesuń cechę do innej zawartości
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[PartDesign Set tip](PartDesign_MoveTip.md), [PartDesign Move object after other object](PartDesign_MoveFeatureInTree.md)
+   SeeAlso:[Ustaw czubek](PartDesign_MoveTip/pl.md), [Przesuń cechę w drzewie](PartDesign_MoveFeatureInTree/pl.md)
 ---
 
 # PartDesign MoveFeature/pl
 
-## Description
 
-<img alt="" src=images/PartDesign_MoveFeature.svg  style="width:24px;"> [Move object to other body](PartDesign_MoveFeature.md), as this command is labeled in the context menu, allows moving objects under a Body to another Body. The moved object is placed right below the other Body\'s tip. Sketches, datum geometry and features are supported.
 
-## Usage
+## Opis
 
-1.  In the Model [tree view](tree_view.md), right-click on the object to be moved.
-2.  Select **Move object to other body** from the list in the context menu
-3.  In the **Select body** dialog, select the Body to move the object to from the drop-down menu.
-4.  Press **OK**.
+Funkcja <img alt="" src=images/PartDesign_MoveFeature.svg  style="width:24px;"> **Przesuń cechę do innej zawartości** zgodnie z nazwą tego polecenia w menu podręcznym, umożliwia przenoszenie obiektów znajdujących się w obrębie Zawartości do innej Zawartości. Przenoszony obiekt jest umieszczany bezpośrednio pod wierzchołkiem innej Zawartości. Obsługiwane są szkice, geometria odniesienia i elementy.
+
+
+
+## Użycie
+
+1.  W [widoku drzewa](Tree_view/pl.md) kliknij prawym przyciskiem myszki na obiekcie, który ma zostać przeniesiony.
+2.  Wybierz **Przenieś cechę do innej zawartości** z listy w menu podręcznym.
+3.  W oknie dialogowym **Wybierz zawartość** wybierz z rozwijanego menu zawartość, do której chcesz przenieść obiekt.
+4.  Naciśnij **OK**.
 
 
 

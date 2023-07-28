@@ -263,7 +263,9 @@ Die Achse der Rotation kann angesprochen werden mit:
 
 wobei oft einer der Faktoren den Wert 1 hat und die anderen den Wert 0.
 
-Das gesamte Positionieren kann auch in einem einzigen Ausdruck verwendet werden: Rechtklick auf Positionierungseigenschaft im Eigenschaftseditor, Ausdruck wählen und das Ausdrucksfenster wird geöffnet und alles, was eingegeben wird, wird in die Positionierungseigenschaft eingetragen und nicht in seine untergeordneten Eigenschaften.
+Die gesamte Positionierung kann auch in einem einzigen Ausdruck verwendet werden:
+
+Ein Rechtklick auf Eigenschaft Placement im Eigenschaftseditor und \"Alle anzeigen\" wählen, um weitere Eigenschaften anzuzeigen. Beim nächsten Rechtsklick auf Placement enthält das Kontextmenü auch den Eintrag \"Ausdruck\". Wird dieser ausgewählt, öffnet sich der Dialog Formel-Editor und was auch immer dort eingegeben wird, wird in die Eigenschaft Placement eingetragen und nicht in ihre untergeordneten Eigenschaften.
 
 Um die Positionierung von \"Sketch\" mit der von \"Cylinder\" gleichzusetzen, würde auf diese Weise für Skizze folgender Ausdruck eingegeben werden.
 
@@ -292,12 +294,6 @@ Um die Positionierung von \"Sketch\" mit der von \"Cylinder\" gleichzusetzen, w�
   Part.Cone                          Mitte der unteren Fläche (oder Scheitelpunkt, wenn der untere Radius 0 ist)
   Part.Torus                         Zentrum eines Torus
   Von Skizzen abgeleitete Merkmale   das Merkmal erbt die Position der zugrundeliegenden Skizze. Skizzen beginnen immer mit der Position = (0,0,0). Diese Position entspricht dem Ursprung in der Skizze.
-
-
-
-## Probleme
-
--   Die relative Positionierung von Objekten wird letztendlich im Arbeitsbereich Zusammenbau durchgeführt.
 
 
 

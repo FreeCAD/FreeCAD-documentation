@@ -10,9 +10,13 @@
 
 # Std ActivatePrevWindow/de
 
+
+
 ## Beschreibung
 
-Der **Std VorherigesFenster**-Befehl funktioniert nicht korrekt [1](https://forum.freecadweb.org/viewtopic.php?f=3&t=45157).
+Der Befehl **Std VorherigesFensterAktivieren** aktiviert das vorherige Fenster im [Hauptansichtsbereich](Main_view_area.md). Das vorherige Fenster wird aus der Reihenfolge der Reiter im Hauptansichtsbereich abgeleitet.
+
+
 
 ## Anwendung
 
@@ -20,6 +24,8 @@ Der **Std VorherigesFenster**-Befehl funktioniert nicht korrekt [1](https://foru
 2.  Es gibt mehrere Wege, den Befehl aufzurufen:
     -   Wähle die **Fenster → <img src="images/Std_ActivatePrevWindow.svg" width=16px> Vorheriges Fenster**-Option aus dem Menü.
     -   Benutze den Tastaturkurzbefehl: **Strg**+**Shift**+**Tab**.
+
+
 
 ## Hinweise
 

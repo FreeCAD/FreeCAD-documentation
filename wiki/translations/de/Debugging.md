@@ -24,14 +24,11 @@ Grundlegende Optionen:
  --dump-config         Dump der Konfiguration
  --get-config arg      Gibt den Wert des angegebenen Konfigurationsschlüssels aus
 
-
-<div class="mw-translate-fuzzy">
-
 Konfiguration:
 
  -l [ --write-log ]       Schreibt eine Log-Datei nach:
-                          $HOME/.FreeCAD/FreeCAD.log
-                          $HOME/Library/Preferences/FreeCAD/FreeCAD.log (macOS)
+                          $HOME/.local/share/FreeCAD/FreeCAD.log (Linux)
+                          $HOME/Library/Application/Support/FreeCAD/FreeCAD.log (macOS)
                           %APPDATA%\FreeCAD\FreeCAD.log (Windows)
  --log-file arg           Anders als bei --write-log wird hier in eine Datei mit beliebigem Namen geschrieben
  -u [ --user-cfg ] arg    Benutzerkonfigurationsdatei, um Benutzereinstellungen zu laden/speichern
@@ -39,10 +36,7 @@ Konfiguration:
  -t [ --run-test ] arg    Test-Level - oder 0 für alles
  -M [ --module-path ] arg Zusätzliche Modulpfade
  -P [ --python-path ] arg Zusätzliche Python-Pfade
- --single-instance        Startet eine (einzige) Instanz der Applikation zu starten
-
-
-</div>
+ --single-instance        Ermöglicht eine (einzige) Instanz der Applikation zu starten
 
 
 
@@ -259,13 +253,7 @@ VS Code Fehlerdiagnose →
 
 Voraussetzungen:
 
-
-<div class="mw-translate-fuzzy">
-
--   Das ptvsd Paket muss installiert werden
-
-
-</div>
+-   Das ptvsd-Paket muss in einer Python 3-Installation außerhalb von FreeCAD installiert werden, und anschließend muss das Modul in FreeCADs Python-Bibliothek-Ordner kopiert werden.
 
 
 ```python
@@ -293,13 +281,11 @@ ptvsd.enable_attach(address=('localhost', 5678), redirect_output=True)
 ptvsd.wait_for_attach()
 ```
 
-
-<div class="mw-translate-fuzzy">
-
--   Füge eine Fehlerdiagnosekonfiguration in Visual Studio Code **Fehlerdiagnose → Konfigurationen hinzufügen...**. Es sollte so aussehen:
+-   Eine Fehlerdiagnosekonfiguration in Visual Studio Code hinzufügen **Fehlerdiagnose → Konfigurationen hinzufügen...**.
+-   Die Konfiguration sollte so aussehen:
 
 
-</div>
+
 
         "configurations": [
             {
@@ -316,20 +302,17 @@ ptvsd.wait_for_attach()
                 ]
             },
 
-
-<div class="mw-translate-fuzzy">
-
 -   Füge im VS-Code einen Haltepunkt hinzu, wo immer Du willst.
 -   Starte das Skript in FreeCAD. FreeCAD Freeze wartet auf den Anhang.
 -   In VS Code startest Du die Fehlerdiagnose durch Verwendung der erstellten Konfiguration. Du solltest Variablen im Fehlerdiagnosebereich sehen.
--   Beim Setzen von Haltepunkten wird sich VS Code darüber beschweren, die im VS Code-Editor geöffnete .py-Datei nicht zu finden.
+-   Beim Setzen von Haltepunkten wird sich VS-Code darüber beschweren, die im VS-Code-Editor geöffnete .py-Datei nicht zu finden.
     -   Ändere \"remoteRoot\": \".\" zu \"remoteRoot\": \"\"
-    -   z.B. wenn sich die Python-Datei in */home/FC_myscripts/myscript.py* befindet
-    -   ändere zu \"remoteRoot\": \"/home/FC_myscripts/myscript.py\"
+        -   z.B. wenn sich die Python-Datei in */home/FC_myscripts/myscript.py* befindet
+        -   wechsle zu \"remoteRoot\": \"/home/FC_myscripts\"
+    -   Wenn Du nur FreeCAD-Makros aus dem FreeCAD-Makro-Ordner folder überprüfst und dieser Ordner \"C:/Users//AppData/Roaming/FreeCAD/Macro\" heißt, dann verwende:
+        -   \"localRoot\": \"C:/Users//AppData/Roaming/FreeCAD/Macro\",
+        -   \"remoteRoot\": \"C:/Users//AppData/Roaming/FreeCAD/Macro\"
 -   Wenn dein Makro ptvsd nicht findet, obwohl du es irgendwo installiert hast, stelle \'import ptvsd\' folgendes voran
-
-
-</div>
 
 
 ```python
@@ -337,17 +320,11 @@ from sys import path
 sys.path.append('/path/to/site-packages')
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-wobei der Pfad das Verzeichnis ist, in dem ptvsd installiert wurde
+Dabei zeigt der Pfad auf das Verzeichnis, in dem ptvsd installiert wurde.
 
 -   Auf der linken unteren Seite des VSCode kannst Du das Python-Programm auswählen - es ist das Beste, die mit FreeCAD ausgelieferte Version zu verwenden.
 
 In der Mac-Version ist es /Applications/FreeCAD.App/Contents/Resources/bin/python
-
-
-</div>
 
 Du kannst es auf deinem System lokalisieren durch Eingabe von
 

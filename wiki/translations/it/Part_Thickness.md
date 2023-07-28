@@ -98,8 +98,8 @@ Un buon esempio su come utilizzare questo strumento nel forum: [Re: Help designi
 
 Notes:
 
--   For this shape, consider using **<img src="images/Part_Tube.svg" width=16px> [Tube](Part_Tube.md)** instead <small>(v0.19)</small> 
--   Select the cylinder\'s top surface only to create a receptacle
+-   For this shape, consider using **<img src="images/Part_Tube.svg" width=16px> [Tube](Part_Tube.md)** instead.
+-   Select the cylinder\'s top surface only to create a receptacle.
 
 ![](images/ThicknessEsempio1.png )
 

@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Dans ce tutoriel, nous aborderons comment importer des fichiers STL/OBJ dans FreeCAD. Étant donné que le format de maille STL/OBJ est sans dimension, FreeCAD supposera à l\'importation que les unités utilisées dans le modèle sont mm. Si ce n\'est pas le cas, vous devez étaler votre modèle, soit dans l\'application où il a été créé avec (avant de l\'exporter) ou vous devez mettre à l\'échelle votre modèle dans FreeCAD après l\'importation et la convertir en un solide.
+Dans ce tutoriel, nous verrons comment importer des fichiers STL/OBJ dans FreeCAD. Le format de maillage STL/OBJ étant sans dimension, FreeCAD supposera à l\'importation que les unités utilisées dans le modèle sont des mm. Si ce n\'est pas le cas, vous devez mettre votre modèle à l\'échelle soit dans l\'application avec laquelle il a été créé (avant de l\'exporter), soit dans FreeCAD après l\'importation et la conversion en solide.
 
 ## Pièce d\'échantillon 
 

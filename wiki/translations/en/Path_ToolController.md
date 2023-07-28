@@ -15,13 +15,16 @@ For example a tool, like a 1/4 inch cutter can run at many different spindle spe
 
 ## Properties
 
-feed speed (h) feed speed (v)
+-   **feed speed (h)**
+-   **feed speed (v)**
 
-rapid speed (h) rapid speed (v)
+-   **rapid speed (h)**
+-   **rapid speed (v)**
 
-Spindle Speed (rpm) Spindle direction (forward/reverse)
+-   **Spindle Speed (rpm)**
+-   **Spindle direction (forward/reverse)**
 
-Tool Number
+-   **Tool Number**
 
 
 

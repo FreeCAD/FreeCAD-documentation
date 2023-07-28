@@ -10,13 +10,23 @@
 
 # FEM ConstraintSpring/pl
 
-## Description
 
-Defines a spring boundary condition to be used by MoFEM (currently unsupported).
 
-## Usage
+## Opis
 
-For now, this constraint will not work since the MoFEM solver is not yet implemented.
+Definiuje warunek brzegowy sprężyny, do wykorzystania w analizach mechanicznych z użyciem <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solvera Elmer](FEM_SolverElmer/pl.md).
+
+
+<small>(v0.21)</small> 
+
+: The spring constraint can be used for the equations <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [Deformation](FEM_EquationDeformation.md) and <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Elasticity](FEM_EquationElasticity.md).
+
+
+
+## Użycie
+
+1.  Either use the toolbar button **<img src="images/FEM_ConstraintSpring.svg" width=16px> [[FEM ConstraintSpring]]** or the menu **Model → Mechanical Constraints → <img src="images/FEM_ConstraintSpring.svg" width=16px> Constraint spring**.
+2.  In the [3D view](3D_view.md) select the objects the constraint should be applied to, which have to be faces.
 
 
 

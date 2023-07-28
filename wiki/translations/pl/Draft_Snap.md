@@ -1,6 +1,8 @@
 # Draft Snap/pl
 {{TOCright}}
 
+
+
 ## Opis
 
 W środowisku pracy <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md) i <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Architektura](Arch_Workbench/pl.md) możesz tworzyć geometrię przez wybieranie punktów w oknie [widoku 3D](3D_view/pl.md) lub przez wprowadzanie współrzędnych w poleceniach [panelu zadań](Task_panel/pl.md). Innym sposobem dokładnego wybierania punktów jest przyciąganie. Przyciąganie pozwala na wybranie dokładnych punktów geometrycznych na lub zdefiniowanych przez istniejące obiekty lub siatkę. Można na przykład przyciągnąć do punktu końcowego prostej, środka okręgu lub przecięcia dwóch krawędzi.
@@ -9,6 +11,8 @@ Przyciąganie jest dostępne z większością poleceń środowisk [Rysunek Roboc
 
 ![](images/Draft_Snap_Endpoint_example.png ) 
 *Przyciąganie do punktu końcowego krawędzi*
+
+
 
 ## Narzędzia przyciągania 
 
@@ -28,7 +32,7 @@ Zauważ, że koliste krawędzie nie muszą być pełnymi okręgami.
 
 -   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:32px;"> [Przecięcie](Draft_Snap_Intersection.md): Przyciąga do przecięcia dwóch odcinków linii lub łuku. Najedź kursorem myszki na dwa pożądane obiekty, aby aktywować przyciąganie ich przecięcia.
 
--   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:32px;"> [Prostopadle](Draft_Snap_Perpendicular/pl.md): Na odcinkach linii i łuku, przyciąga prostopadle do ostatniego punktu ściany *({{Version/pl|1.0}})* loraz krawędzi.
+-   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:32px;"> [Prostopadle](Draft_Snap_Perpendicular/pl.md): Na odcinkach linii i łuku, przyciąga prostopadle do ostatniego punktu ściany *({{Version/pl|0.21}})* oraz krawędzi.
 
 -   <img alt="" src=images/Draft_Snap_Extension.svg  style="width:32px;"> [Rozszerzenie](Draft_Snap_Extension/pl.md): Przyciąga do umownej linii, która rozciąga się poza punkty końcowe segmentów linii. Aby uaktywnić przyciąganie rozszerzenia, należy najechać myszką na żądany obiekt.
 
@@ -48,6 +52,8 @@ Zauważ, że koliste krawędzie nie muszą być pełnymi okręgami.
 
 -   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Przełącz widoczność siatki](Draft_ToggleGrid/pl.md): włącza lub wyłącza widoczność siatki.
 
+
+
 ## Przyciąganie zaawansowane 
 
 -   Dodatkowe punkty przyciągania można uzyskać poprzez połączenie dwóch metod przyciągania, takich jak np [Ortho](Draft_Snap_Ortho/pl.md) i [Extension](Draft_Snap_Extension/pl.md), które dadzą Ci punkt przyciągania na przecięciu ich umownych linii.
@@ -61,10 +67,14 @@ Zauważ, że koliste krawędzie nie muszą być pełnymi okręgami.
 ![](images/Draft_Snap_example_cycling_2.png ) 
 *Przyciąganie cykliczne 2: Po jednokrotnym użyciu klawisza cyklu przyciągania zielony prostokąt otrzymuje priorytet przyciągania. Możliwe jest teraz przyciąganie do punktu środkowego nałożonej zielonej krawędzi.*
 
+
+
 ## Uwagi
 
 -   Wiele opcji przyciągania może być aktywnych w tym samym czasie, ale zaleca się, aby aktywować tylko te opcje, które są naprawdę potrzebne. Aktywowanie zbyt wielu może spowolnić działanie.
 -   Nie jest dobrym pomysłem posiadanie na stałe aktywnej opcji [przyciągnij do najbliżeszgo](Draft_Snap_Near/pl.md), ponieważ ma ona pierwszeństwo przed wieloma innymi opcjami przyciągania.
+
+
 
 ## Ustawienia
 

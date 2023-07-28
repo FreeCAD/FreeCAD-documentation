@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -17,9 +19,23 @@ Traiectoria de prelucrare din forme nu se potrivește cu fluxul curent de lucru 
 
 Acest instrument generează traiectorii de unelte de la marginile unui obiect Path.
 
+
+<div class="mw-translate-fuzzy">
+
 Traiectoria uneltelor nu sunt compensate pentru raza sculei. Nici un controler de unelte nu este asociat cu traiectoriile de unelte generate.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ![](images/FromShape_image_0.png )
+
+
+</div>
+
+
 
 ## Utilizare
 
@@ -36,6 +52,8 @@ Toate muchiile asociate cu selecția Modelului 3D vor fi incluse.
 </div>
 
 Traiectoria de ieșire a sculei este adăugată în afara traiectoriei de lucru.
+
+
 
 ## Opțiuni
 
@@ -92,7 +110,7 @@ Returns a Path object from a list of shapes.
 
 -   min_dist(0.0): minimum distance for the generated new wires. Wires maybe broken if the algorithm see fits. Set to zero to disable wire breaking.
 
--   abscissa(3.0): Controls vertex sampling on wire for nearest point searching. The sampling is dong using OCC GCPnts_UniformAbscissa.
+-   abscissa(3.0): Controls vertex sampling on wire for nearest point searching. The sampling is done using OCC GCPnts_UniformAbscissa.
 
 -   nearest_k(3): Nearest k sampling vertices are considered during sorting.
 

@@ -15,7 +15,17 @@
 
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Данный инструмент позволяет создать вал на основе значений таблицы, также проводить анализ силы и моментов. Мастер можно запустить через меню **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Мастер проектирования вала...**.
+
+
+</div>
+
+## Usage
+
+You can start the wizard from the Part Design menu **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Shaft design wizard...**.
 
 Запущенный Мастер отобразит таблицу с значениями по умолчанию, соответствующую деталь вала и графики сил/моментов.
 

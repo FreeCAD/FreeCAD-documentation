@@ -1,13 +1,17 @@
 # TechDraw Templates/de
 {{TOCright}}
 
-## Überblick
+
+
+## Beschreibung
 
 Jedes TechDraw-Zeichnungsblatt (Page-Objekt) basiert auf einer Vorlage (Template-Objekt). Die Vorlage steuert die Blattgröße und enthält unveränderliche grafische Elemente und Text, z.B. einen Zeichnugsrahmen oder eine Beschnittkante.
 
 Die Vorlage kann auch editierbare Textfelder für Attribute wie *Titel*, *Untertitel*, *Autor*, *Datum*, *Maßstab*, *Gewicht\",*Zeichnungsnummer*und*Blatt\'\'.
 
 Die Vorlagen sind [SVG](SVG.md)-Dateien, die außerhalb von FreeCAD mit einer Anwendung wie [Inkscape](https://de.wikipedia.org/wiki/Inkscape) erstellt und geändert werden können.
+
+
 
 ## Eigenschaften
 
@@ -20,6 +24,8 @@ Die Vorlagen sind [SVG](SVG.md)-Dateien, die außerhalb von FreeCAD mit einer An
 -    **Page Result**: Eine Kopie der originalen Vorlagendatei einschließlich aller Änderungen an editierbaren Texten. Dies erlaubt Anwendern, die möglicherweise keine Kopie der Vorlagendatei haben, die Seite wie vorgesehen anzuzeigen. Für Endanwender in der Regel nicht nützlich.
 
 -    **Template**: a) Ein Verweis auf die Kopie der ursprünglichen Vorlagendatei, die in dieser \*.FCStd Datei eingebunden ist. b) Ein Dateipfad zu einer auf dem aktuellen Rechner vorhandenen Vorlage. Auf das Dateiauswahl-Zeichen (\...) klicken, um zu einer anderen Vorlage zu wechseln.
+
+
 
 ## Eine andere Vorlagendatei auswählen 
 
@@ -36,6 +42,8 @@ Um eine andere Vorlage einer Zeichnung auszuwählen:
 9.  Die Schaltfläche **OK** drücken.
 
 Wurde eine Vorlagendatei geändert und das dazugehörige Zeichnungsblatt, das in der aktuellen FreeCAD-Sitzung erstellt wurde, die diese Vorlage verwendet, soll aktualisiert werden, wählt man zuerst temporär eine andere Datei aus und dann wieder die geänderte Datei.
+
+
 
 ## Benutzerdefinierte Vorlagen 
 
@@ -55,7 +63,9 @@ wobei `$INSTALL_DIR` das Verzeichnis ist, in dem FreeCAD installiert wurde, z.B.
 
 Benutzerdefinierte Vorlagen können auch als Standard in den [TechDraw Einstellungen](TechDraw_Preferences/de.md) festgelegt werden.
 
-Siehe auch [So wird eine benutzerdefinierte TechDraw Vorlage erstellt](TechDraw_TemplateHowTo/de.md)
+Siehe auch [So wird eine benutzerdefinierte TechDraw Vorlage erstellt](TechDraw_TemplateHowTo/de.md) oder, wenn man skriptgenerierte Vorlagen bevorzugt, [TechDraw Vorlagengenerator](TechDraw_TemplateGenerator/de.md) und [Makro TemplateHelper](Macro_TemplateHelper/de.md).
+
+
 
 ## Hinweise
 

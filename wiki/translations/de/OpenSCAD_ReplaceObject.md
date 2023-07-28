@@ -1,54 +1,35 @@
-# OpenSCAD ReplaceObject/de
 ---
-- GuiCommand:/de   Name:OpenSCAD ReplaceObject   Name/de:Objekt ersetzen   MenuLocation:OpenSCAD → Objekt ersetzen   |Workbenches:[[OpenSCAD_Workbench/de   OpenSCAD]]|Shortcut:   SeeAlso:---
+- GuiCommand:/de
+   Name:OpenSCAD ReplaceObject‏‎
+   Name/de:OpenSCAD ReplaceObject‏‎
+   MenuLocation:OpenSCAD → Objekt ersetzen
+   Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
+---
+
+# OpenSCAD ReplaceObject/de
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-Ersetzen eines Objektes im Strukturbaum.
+Ersetzen eines Objektes in der [Baumansicht](Tree_view/de.md).
 
 
-</div>
 
-## Usage
+## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-## Benutzung
-
-1.  Wähle in der korrekten Reihenfolge altes, neues und Eltern-Objekt in der Baumansicht aus.
-2.  Klicke auf <img alt="" src=images/OpenSCAD_ReplaceObject.png  style="width:32px;"> oder wähle ** OpenSCAD** → **<img src="images/OpenSCAD_ReplaceObject.png" width=32px> Replace Object** aus dem Hauptmenü aus.
+1.  Altes, neues und Eltern-Objekt in der korrekten Reihenfolge in der [Baumansicht](Tree_view/de.md) auswählen.
+2.  <img alt="" src=images/OpenSCAD_ReplaceObject.svg  style="width:32px;"> anklicken oder den Menüeintrag ** OpenSCAD** → **<img src="images/OpenSCAD_ReplaceObject.svg" width=32px> Objekt ersetzen** auswählen
 
 
-</div>
+
+## Einschränkungen
 
 
-<div class="mw-translate-fuzzy">
 
-## Beschränkungen
+## Hinweise
 
-
-</div>
-
-## Notes
-
-
-<div class="mw-translate-fuzzy">
-
-## Bemerkungen
-
-Man kann dieses Werkzeug zum Beispiel nutzen, um ein Teil innerhalb einer Fusion/Cut/Common/Verbund-Struktur zu ersetzen.
-
-
-</div>
+Man kann dieses Werkzeug zum Beispiel nutzen, um ein Teil innerhalb eines Vereinigungs-/Differenz-/Schnitt-/Verbund-Objekts zu ersetzen.
 
 
 

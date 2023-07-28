@@ -1,9 +1,9 @@
 # Important information/ru
 ## Обзор
 
-[Important information](Important_information.md) helps troubleshoot problems in your installation and usage of the program.
+Информация изложенная [на данной странице](Important_information/ru.md) поможет вам устранить неполадки при установке или использовании программы.
 
-[Форум FreeCAD](https://forum.freecadweb.org/viewforum.php?f=3) это лучшее место для получения помощи от пользователей-экспертов и разработчиков. для остального смотрите [Help](Help/ru.md).
+[Форум FreeCAD](https://forum.freecadweb.org/viewforum.php?f=3) это лучшее место для получения помощи от пользователей-экспертов и разработчиков. Так же вы можете попробовать воспользоваться [другими способами получения поддержки](Help/ru.md).
 
 ## Directions
 

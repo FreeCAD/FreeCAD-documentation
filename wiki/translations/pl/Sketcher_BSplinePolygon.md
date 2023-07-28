@@ -1,24 +1,29 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher BSplinePolygon
-   MenuLocation:Sketch → Sketcher B-spline tools → Show/hide B-spline control polygon
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Pokaż / ukryj ramkę kontrolną krzywej złożonej
+   MenuLocation:Szkic → Narzędzia szkicownika krzywej złożonej → Pokaż / ukryj ramkę kontrolną krzywej złożonej
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[Sketcher Create B-spline](Sketcher_CompCreateBSpline.md)
+   SeeAlso:[Komponent utwórz krzywą złożoną](Sketcher_CompCreateBSpline/pl.md)
 ---
 
 # Sketcher BSplinePolygon/pl
 
-## Description
 
-Shows or hides the display of the defininig Polygon of a B-spline (see [this page](B-Splines.md) for more info about B-splines).
+
+## Opis
+
+Pokazuje lub ukrywa wyświetlanie zdefiniowanego wielokąta krzywej złożonej *(zobacz stronę [Krzywe złożone](B-Splines/pl.md) aby dowiedzieć się więcej)*.
 
 ![](images/Sketcher_B-spline_example01.png ) 
-*A B-spline curve. The control polygon are the green straight lines connecting the control points.*
+*A Krzywa złożona. Wielokąty kontrolne to zielone linie proste łączące punkty kontrolne.*
 
-## Usage
 
-1.  Select a B-spline and use the toolbar button **[<img src=images/Sketcher_BSplinePolygon.svg style="width:16px"> [Show/hide B-spline control polygon](Sketcher_BSplinePolygon.md)**.
+
+## Użycie
+
+1.  Wybierz krzywą złożoną i użyj przycisku na pasku narzędzi **[<img src=images/Sketcher_BSplinePolygon.svg style="width:16px"> '''Pokaż / ukryj ramkę kontrolną krzywej złożonej'''**.
 
 
 

@@ -7,6 +7,10 @@ FreeCAD is a large application that may take from 10 minutes to one hour to comp
 
 Install `ccache` to cache builds.
 
+[Ccache](https://ccache.dev/) speeds up recompilation by caching previous compilations and detecting when the same compilation is done again. Ccache is free software, released under GPLv3 or later.
+
+On most systems ccache will be automatically detected and enabled, you can use the `FREECAD_USE_CCACHE` `cmake` option to control this behavior.
+
 ## Disable modules 
 
 When using `cmake` to configure the build, you can disable the compilation of certain workbenches that you may not need at the moment. This is useful if you only need to test a few workbenches.
@@ -46,6 +50,10 @@ make -j$(nproc --ignore=2)
 ## distcc
 
 The `distcc` program can be used to perform distributed compilation of C and C++ code across several machines in a network.
+
+[Distcc](https://www.distcc.org/) should always generate the same results as a local compilation. It is free, simple to install and use, and often two or more times faster than compiling locally.
+
+FreeCAD dev \'etrombly\' has published a short explanation on [how to install distcc to compile FreeCAD on a network of computers using Docker](https://forum.freecadweb.org/viewtopic.php?f=4&t=50810&p=459142#p458614).
 
 
 

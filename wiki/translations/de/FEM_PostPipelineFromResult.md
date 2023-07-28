@@ -2,7 +2,7 @@
 - GuiCommand:/de
    Name:FEM PostPipelineFromResult
    Name/de:FEM PostPipelineFromResult
-   MenuLocation: Ergebnisse → Nachbearbeitungs-Pipeline aus Ergebnis
+   MenuLocation:Ergebnisse → Nachbearbeitungs-Pipeline aus Ergebnis
    Workbenches:[FEM](FEM_Workbench/de.md)
    Version:0.17
    SeeAlso:[FEM ErgebnisAnzeigen](FEM_ResultShow/de.md), [FEM Tutorium](FEM_tutorial/de.md)
@@ -11,11 +11,12 @@
 # FEM PostPipelineFromResult/de
 
 
-</div>
 
 ## Beschreibung
 
 ResultPipeline ist ein Ergebnisobjekt, das eine neue grafische Darstellung von FEM-Analyse-Ergebnissen des analysierten Teils erstellt. Es fügt eine Farbskala und einige Darstellungsoptionen hinzu.
+
+
 
 ## Anwendung
 
@@ -29,6 +30,8 @@ ResultPipeline ist ein Ergebnisobjekt, das eine neue grafische Darstellung von F
 If you see no model in the graphical area, go to and enable **Edit → Preferences → Display → 3D View → Rendering → Backlight color**.
 
 If you use a [SI](https://en.wikipedia.org/wiki/International_System_of_Units)-derived FreeCAD [unit system](Preferences_Editor#Units.md), the values in the output scale are based on SI units as well. This means the displacement is in meter, the stress is in Pascal and the temperature is in Kelvin.
+
+
 
 ## Eigenschaften
 

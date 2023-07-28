@@ -1,19 +1,18 @@
 ---
 - GuiCommand:/ru
-   Name:Draft Scale
-   Name/ru:Draft Scale
-   MenuLocation:Черчение → Масштаб
+   Name/ru:Масштаб
+   Name:Draft_Scale
+   MenuLocation:Modification → Масштаб
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:**S** **C**
-   SeeAlso:[Draft Clone](Draft_Clone/ru.md)
+   SeeAlso:[Draft SubelementHighlight](Draft_SubelementHighlight/ru.md), [Клонировать](Draft_Clone/ru.md)
 ---
 
 # Draft Scale/ru
 
 
-</div>
 
-## Description
+## Описание
 
 The <img alt="" src=images/Draft_Scale.svg  style="width:24px;"> **Draft Scale** command scales or copies selected objects around a base point. In subelement mode the command scales selected points and edges of [Draft Lines](Draft_Line.md) and [Draft Wires](Draft_Wire.md).
 
@@ -22,7 +21,9 @@ The command can be used on 2D objects created with the [Draft Workbench](Draft_W
 <img alt="" src=images/Draft_Scale_example.png  style="width:400px;"> 
 *Scaling an object around a base point*
 
-## Usage
+
+
+## Применение
 
 See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
@@ -60,11 +61,15 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 -   Press the **Pick from/to points** button and pick two additional points in the [3D view](3D_view.md) to calculate the scale factors. This will automatically check the **Uniform scaling** checkbox. The X, Y and Z scale factors will therefore be equal and will be set to the distance between the base point and the \'from\' point, divided by the distance between the base point and the \'to\' point.
 -   Press **Esc** or the **Cancel** button to abort the command.
 
-## Notes
+
+
+## Примечания
 
 -   The command can also scale [Image Planes](Image_CreateImagePlane.md), but not in clone mode.
 
-## Preferences
+
+
+## Настройки
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
@@ -92,7 +97,7 @@ scaled_list = scale(objectslist, scale=Vector(1,1,1), center=Vector(0,0,0), copy
 
 -    `scaled_list`is returned with the original scaled objects, or with the new copies. It is either a single object or a list of objects, depending on `objectslist`.
 
-Example:
+Пример:
 
 
 ```python

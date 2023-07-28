@@ -7,9 +7,13 @@
 
 {{TOCright}}
 
+
+
 ## Resumen
 
 Entre las opciones para componer e instalar FreeCAD, existe la opción de utilizar Docker. Este método es principalmente útil para los desarrolladores de FreeCAD, utilizando ordenadores Linux o Mac OS.
+
+
 
 ### Beneficios
 
@@ -20,17 +24,25 @@ All of FreeCAD\'s dependencies are already installed, compatible with each other
 -   For those using obscure \*nix distros and [instructions are not available](Compile_on_Linux#Getting_the_dependencies.md) for fetching dependencies, all you need to install on your workstation is docker, which is quite commonly available across many distributions.
 -   It provides a static, immutable development environment. I personally find this useful when developing to reduce the number of potential variables that could be causing an issue. You know you\'ve not altered something esoteric in the environment between builds. For developers collaborating, and both using the same docker container, you can be sure you\'re both working from the same environment, which reduces communication errors caused by differences in environment.
 
+
+
 ## Docker Repositorio 
 
 -   Original: <https://gitlab.com/daviddaish/freecad_docker_env>
 -   Official: <https://GitHub.com/FreeCAD/Docker>
+
+
 
 ## Prerequisitos
 
 -   10 GB de almacenamiento libre
 -   Docker
 
+
+
 ## Instalación
+
+
 
 ### Descargar la fuente 
 

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:FEM ConstraintSelfWeight
-   Name/fr:FEM Contrainte du poids propre
-   MenuLocation:Modèle → Contraintes mécaniques → Contrainte du poids propre
+   Name/fr:FEM Contrainte de poids propre
+   MenuLocation:Modèle → Contraintes mécaniques → Contrainte de poids propre
    Workbenches:[FEM](FEM_Workbench/fr.md)
    SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
@@ -11,14 +11,18 @@
 
 ## Description
 
-La contrainte du propre poids est définie par l\'accélération gravitationnelle de 9,81 m/s\^2 qui agit sur l\'ensemble du modèle dans la direction imposée.
+La contrainte de poids propre est définie par l\'accélération gravitationnelle de 9,81 m/s\^2 qui agit sur l\'ensemble du modèle dans la direction imposée.
+
+
 
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande :
-2.  \* Appuyez sur le bouton **<img src="images/FEM_ConstraintSelfWeight.svg" width=16px> [Contrainte du poids propre](FEM_ConstraintSelfWeight/fr.md)**.
-3.  \* Sélectionnez l\'option **Modèle → Contraintes mécaniques → <img src="images/FEM_ConstraintSelfWeight.svg" width=16px> Contrainte du poids propre** dans le menu.
-4.  Vous pouvez modifier la direction de la gravitation en modifiant ses coordonnées vectorielles dans la barre de propriétés du nouvel objet ConstraintSelfWeight.
+    -   Appuyez sur le bouton **<img src="images/FEM_ConstraintSelfWeight.svg" width=16px> [Contrainte de poids propre](FEM_ConstraintSelfWeight/fr.md)**.
+    -   Sélectionnez l\'option **Modèle → Contraintes mécaniques → <img src="images/FEM_ConstraintSelfWeight.svg" width=16px> Contrainte de poids propre** dans le menu.
+2.  Vous pouvez modifier la direction de la gravitation en modifiant ses coordonnées vectorielles dans la barre de propriétés du nouvel objet ConstraintSelfWeight.
+
+
 
 ## Script
 
@@ -46,12 +50,16 @@ selfweight_obj = ObjectsFem.makeConstraintSelfWeight("MySelfWeightObject")
 App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [selfweight_obj]
 ```
 
+
+
 ## Solveur CalculiX 
 
 ### Limitations
 
 -   Vous devez modifier le fichier .inp pour modifier l\'accélération de la gravité.
 -   Le poids propre est appliqué à l\'ensemble d\'éléments Eall signifie à l\'ensemble du modèle.
+
+
 
 ### Modification du fichier d'entrée CalculiX 
 
@@ -67,7 +75,9 @@ Eall,GRAV,9810,0.0,0.0,-1.0
 
 où 9810 est la magnitude de l\'accélération de la gravité en \[mm/s\^2\], et 0,0,-1 est le vecteur directionnel.
 
-## Solver Z88 
+
+
+## Solveur Z88 
 
 -   non implémenté dans le solveur Z88 (March 2017)
 

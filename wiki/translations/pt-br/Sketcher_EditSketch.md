@@ -8,22 +8,28 @@
 
 # Sketcher EditSketch/pt-br
 
+
+
 ## Descrição
 
-This command will let you edit an existing sketch. It will open the [Sketcher Dialog](Sketcher_Dialog.md).
+The **Edit Sketch** command opens the [Sketcher Dialog](Sketcher_Dialog.md) to edit an existing sketch.
+
+
 
 ## Utilização
 
-There are several ways to invoke the Edit Sketch command:
+There are several ways to invoke the command:
 
--   Right-click on a sketch in the [tree view](Tree_view.md) and choose *Edit Sketch*
--   Select sketch in the [tree view](Tree_view.md) and choose **Sketch → Edit Sketch** from the pull-down-menu.
--   Simply double-clicking on the sketch
--   Clicking on the <img alt="" src=images/Sketcher_EditSketch.svg  style="width:24px;"> button in the Sketcher toolbar.
+-   Double-click a sketch in the [Tree view](Tree_view.md).
+-   Select a sketch and press the **<img src="images/Sketcher_EditSketch.svg" width=16px> [Edit sketch](Sketcher_EditSketch.md)** button.
+-   Select a sketch and choose the **Sketch → <img src="images/Sketcher_EditSketch.svg" width=16px> Edit sketch** option from the menu.
+-   Right-click a sketch in the [Tree view](Tree_view.md) and choose the **Edit sketch** option from the context menu.
+
+
 
 ## Notas
 
--   Choosing [Leave Sketch](Sketcher_LeaveSketch.md) will terminate the edit mode.
+-   Choosing [Sketcher LeaveSketch](Sketcher_LeaveSketch.md) will terminate the edit mode.
 
 
 

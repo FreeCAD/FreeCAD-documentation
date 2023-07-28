@@ -89,9 +89,6 @@ Pour la géométrie 2D, la plupart des objets sont dérivés de [`Part::Part2DOb
 
 ## Actions
 
-
-{{Version/fr|0.19}}
-
 Un clic droit dans un espace vide de la vue ou avec une propriété sélectionnée ne montre qu\'une seule commande :
 
 -    **Tout afficher**: si coché, en plus des propriétés standard qui apparaissent déjà, il affiche toutes les propriétés masquées des données et de vues dans leurs onglets respectifs.

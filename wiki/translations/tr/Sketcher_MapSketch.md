@@ -50,6 +50,8 @@ Lütfen bu aracın yeni eskizler oluşturmak için kullanılmadığını unutmay
 
 </div>
 
+
+
 ## Bozuk bir modeli onarmak için kullanın 
 
 Ezkizi yüze eşle, bozuk bir modeli onarmak için sıklıkla kullanılır.

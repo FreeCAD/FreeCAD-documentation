@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -25,6 +27,8 @@ Lo strumento Geometria esterna di Sketcher serve quando è necessario applicare 
 A note of caution, using this tool to link to generated (solid) geometry can lead to unexpected results due to [Topological Naming Problem](Topological_naming_problem.md). Also see [Advice for stable models](Feature_editing#Advice_for_creating_stable_models.md).
 
 <FILE:Sketcher_ExternalEsempio1.png>
+
+
 
 ## Utilizzo
 
@@ -79,15 +83,21 @@ Se la linea è tratta con successo diventa di colore magenta. Se non viene tratt
 
 Le linee magenta di geometria esterna possono essere usate come [Linee di costruzione](Sketcher_ToggleConstruction/it.md). Le linee di costruzione sono linee che sono interne al disegno e sono utilizzate per la costruzione della geometria, ma non per le successive operazioni di modellazione di solidi, quali ad es. le estrusioni.
 
+
+
 ### I due principali utilizzi delle linee geometria esterna 
 
 Nel flusso di lavoro dell\'ambiente PartDesign, lo strumento geometria esterna viene utilizzato per supportare il posizionamento di un aspetto del solido che si sta costruendo, relativo alla fase precedente nella sua costruzione. L\'ambiente PartDesign è destinato a produrre un unico solido, quindi questi schizzi con geometria esterna vengono utilizzati per creare una nuova funzionalità di un singolo solido.
 
 Lo strumento Geometria esterna può, per esempio, essere utilizzato come riferimento per un vincolo utilizzato per posizionare un foro in un oggetto, in una data posizione con riferimento a un bordo o ad un vertice.
 
+
+
 ### Uso della geometria esterna in un flusso di lavoro di Part 
 
 È possibile utilizzare qualsiasi geometria della parte che si trova nel sistema di coordinate dello schizzo. Si consiglia di collegarsi alla prima caratteristica possibile, in quanto forma un collegamento più stabile.
+
+
 
 ## Esempio
 

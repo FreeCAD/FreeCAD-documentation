@@ -1,7 +1,7 @@
 # Artwork Part/pl
-These icons are in the indicated source path.
+Ikony te znajdują się we wskazanej ścieżce źródłowej.
 
-For all icons in the source tree, see [Artwork](Artwork.md).
+Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md).
 
 ## src/Mod/Part/
 

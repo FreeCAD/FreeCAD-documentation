@@ -1,51 +1,60 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign AdditivePrism
-   MenuLocation:Part Design → Create an additive primitive → Additive Prism
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Addytywny graniastosłup
+   MenuLocation:Projekt Części → Utwórz cechę przez dodanie → Addytywny graniastosłup
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md), [PartDesign SubtractivePrism](PartDesign_SubtractivePrism.md)
+   SeeAlso:[Komponent bryła pierwotna do dodania](PartDesign_CompPrimitiveAdditive/pl.md), [Subtraktywny graniastosłup](PartDesign_SubtractivePrism/pl.md)
 ---
 
 # PartDesign AdditivePrism/pl
 
-## Description
 
-Inserts a primitive prism in the active Body as the first feature, or fuses it to the existing feature(s).
+
+## Opis
+
+Funkcja ta wstawia pierwotny graniastosłup do aktywnej Zawartości jako pierwszy element lub łączy go z istniejącymi elementami.
 
 <img alt="" src=images/PartDesign_AdditivePrism_example.png  style="width:200px;">
 
-## Usage
 
-1.  Press the **<img src="images/PartDesign_AdditivePrism.svg" width=24px> '''Additive Prism'''** button. **Note**: the Additive Prism is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. To get the Prism, click on the down arrow besides the visible icon and select Additive Prism in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  A Prism feature appears under the active Body.
 
-## Options
+## Użycie
 
-It is possible to create skewed prisms by specifying angles in respect to the normal vector of the chosen attachment. <small>(v0.19)</small> 
+1.  Naciśnij przycisk **<img src="images/PartDesign_AdditivePrism.svg" width=24px> '''Addytywny graniastosłup'''**. **Uwaga**: Addytywny graniastosłup jest częścią menu narzędzi o nazwie **Utwórz bryłę pierwotną do dodania**. Po uruchomieniu programu FreeCAD, Addytywny prostopadłościan wyświetlany jest na pasku narzędzi domyślnie. Aby przejść do funkcji Graniastosłup, kliknij strzałkę w dół na widocznej ikonce i wybierz z menu opcję Addytywny walec.
+2.  Ustaw parametry bryły i [dołączenia](Part_EditAttachment/pl.md).
+3.  Kliknij **OK**.
+4.  Pod aktywnym obiektem Zawartość pojawi się element Torus.
 
-The Prism can be edited after its creation in two ways:
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
 
-## Properties
+## Opcje
 
--    **Attachment**: defines the attachment mode as well as the Attachment Offset. See [Part EditAttachment](Part_EditAttachment.md).
+Możliwe jest tworzenie przekrzywionych graniastosłupów poprzez określenie kątów w odniesieniu do wektora normalnego wybranego dołaczenia.
 
--    **Label**: label given to the Prism object. Change to suit your needs.
+Graniastosłup można edytować po jego utworzeniu na dwa sposoby:
 
--    **Polygon**: number of sides in the polygon cross-section of the prism.
+-   Klikając go dwukrotnie w drzewie modelu lub klikając prawym przyciskiem myszy i wybierając **Edytuj bryłę pierwotną** z menu podręcznego. Spowoduje to wyświetlenie parametrów bryły pierwotnej.
+-   Poprzez [Edytor właściwości](Property_editor/pl.md).
 
--    **Circumradius**: [circumscribed radius](https://en.wikipedia.org/wiki/Circumscribed_circle) of the polygon cross-section of the prism.
 
--    **Height**: height of the prism.
 
--    **First Angle**: angle in first direction. <small>(v0.19)</small> 
+## Właściwości
 
--    **Second Angle**: angle in second direction. <small>(v0.19)</small> 
+-    **Dołączenie**: definiuje tryb dołączania, a także przesunięcie dołączania. Zobacz też [Część: Edycja mocowania](Part_EditAttachment/pl.md).
+
+-    **Etykieta**: Etykieta nadana obiektowi Granistosłup. Zmień zgodnie z własnymi potrzebami.
+
+-    **Wielokąt**: liczba boków w wielokącie przekroju pryzmatu.
+
+-    **Obwód**: [promień obwodu](https://en.wikipedia.org/wiki/Circumscribed_circle) wielokąta przekroju poprzecznego graniastosłupa.
+
+-    **Wysokość**: wysokość pryzmatu.
+
+-    **Pierwszy kąt**: kąt w pierwszym kierunku.
+
+-    **Drugi kąt**: kąt w drugim kierunku.
 
 
 

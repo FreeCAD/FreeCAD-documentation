@@ -12,10 +12,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:24px;"> **TechDraw Corps de filetage** ajoute un filetage cosmétique à la vue latérale des boulons/vis/tiges.
+L\'outil **TechDraw Corps de filetage** ajoute un filetage cosmétique à la vue latérale des boulons/vis/tiges.
 
 <img alt="" src=images/TechDraw_ExtensionThreadBoltSideExample.png  style="width:300px;"> 
 *À droite, une tige avec un corps de filetage cosmétique.*
+
+
 
 ## Utilisation
 

@@ -40,6 +40,8 @@ Rețineți că acest instrument nu este utilizat pentru a crea schițe noi. It o
 
 </div>
 
+
+
 ## Utilizarea când se repară un model distrus 
 
 Sketcher MapSketch este adesea utilizat pentru a repara un model distrus.

@@ -11,12 +11,16 @@
 
 # TechDraw ExtensionThreadBoltSide/pl
 
+
+
 ## Opis
 
-Narzędzie <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:24px;"> **Geometria pomocnicza dla gwintu śruby, widok z boku** dodaje kosmetyczną geometrię gwintu do widoku z boku śruby / wkręta / trzpienia.
+Narzędzie **Geometria pomocnicza dla gwintu śruby, widok z boku** dodaje kosmetyczną geometrię gwintu do widoku z boku śruby / wkręta / trzpienia.
 
 <img alt="" src=images/TechDraw_ExtensionThreadBoltSideExample.png  style="width:300px;"> 
 *Z prawej strony pręt z geometrią pomocniczą gwintu*
+
+
 
 ## Użycie
 

@@ -43,6 +43,22 @@ By default it is the normal direction of the plane containing the outline (sketc
 
 ### Prismatic Profiles 
 
+++++
+| **L-profile**        | <img alt="L-profile" src=images/PartDesign_ExamplePad-06.png  style="width:200px;">               | -   Outline: **L** shape.                                     |
+|                      |                                                                                   |                                                               |
+|                      |                                                                                   | :                                                             |
+++++
+| **C-profile**        | <img alt="C-profile" src=images/PartDesign_ExamplePad-07.png  style="width:200px;">               | -   Outline: **C** shape.                                     |
+++++
+| **Z-profile**        | <img alt="Z-profile" src=images/PartDesign_ExamplePad-11.png  style="width:200px;">               | -   Outline: **Z** shape.                                     |
+++++
+| **T-profile**        | <img alt="T-profile" src=images/PartDesign_ExamplePad-09.png  style="width:200px;">               | -   Outline: **T** shape.                                     |
+++++
+| **Double-T-profile** | <img alt="Double-T-profile" src=images/PartDesign_ExamplePad-10.png  style="width:200px;"> | -   Outline: **H** shape, with flange width \< flange offset. |
+++++
+| **H-profile**        | <img alt="H-profile" src=images/PartDesign_ExamplePad-08.png  style="width:200px;">               | -   Outline: **H** shape, with width = height.                |
+++++
+
 
 </div>
 

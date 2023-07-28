@@ -18,15 +18,19 @@ Les développeurs de Draft, Arch et BIM collaborent également avec la [communau
 
 <img alt="" src=images/BIM_workbench_presentation.png  style="width:800px;">
 
+
+
 ## Installation
 
-L\'atelier BIM n\'est pas fourni avec le package FreeCAD par défaut, mais peut être facilement installé via le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Pour le lancer, faire **Outils → [Gestionnaire des extensions](Std_AddonMgr/fr.md)**. Le code de l\'atelier BIM est [hébergé et développé sur github](https://github.com/yorikvanhavre/BIM_Workbench) et peut également être installé manuellement en le copiant dans le répertoire **MOD** de FreeCAD.
+L\'atelier BIM n\'est pas fourni avec le package FreeCAD par défaut, mais peut être facilement installé via le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Pour le lancer, faire **Outils → Gestionnaire des extensions**. Le code de l\'atelier BIM est [hébergé et développé sur github](https://github.com/yorikvanhavre/BIM_Workbench) et peut également être installé manuellement en le copiant dans le répertoire **MOD** de FreeCAD.
 
 **Remarque**
 
 L\'atelier BIM est en cours de réalisation et sera souvent modifié. Veillez à le mettre à jour régulièrement ! Si vous avez installé le module [Python-Git](https://github.com/chidimo/python-git), l\'atelier BIM recherchera automatiquement les mises à jour disponibles au démarrage et affichera une icône dans la barre d\'état si une mise à jour est disponible.
 
 Les outils répertoriés ci-dessous peuvent également ne pas tous être présents si votre version de FreeCAD n\'est pas entièrement à jour. L\'atelier BIM devrait cependant fonctionner de manière transparente sur toutes les versions de FreeCAD, il ne supprimera que les outils non disponibles.
+
+
 
 ## Commencer
 
@@ -42,6 +46,8 @@ Si vous êtes habitué à une autre application BIM, consultez notre [Tableau de
 
 Le [BIM Tutoriel](BIM_ingame_tutorial/fr.md) est un moyen facile de se mettre rapidement sur la bonne voie avec l\'atelier BIM.
 
+
+
 ## Outils
 
 L\'atelier BIM regroupe les outils de plusieurs autres ateliers FreeCAD, principalement [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md) et [Part](Part_Workbench/fr.md), grossièrement réorganisés en catégories logiques: **dessin 2D**, **modélisation 3D**, **annotation** et **modification**. La catégorie **gérer** contient des outils spécifiques à l\'atelier BIM.
@@ -49,6 +55,8 @@ L\'atelier BIM regroupe les outils de plusieurs autres ateliers FreeCAD, princip
 De plus, si de tels [Ateliers externes](External_workbenches/fr.md) sont installés, des outils de [Reinforcement](Arch_Rebar/fr.md) (outils de barre de renforcement supplémentaires), [Fasteners](Fasteners_Workbench/fr.md) (boulons et vis), [Flamingo/Dodo](Flamingo_Workbench/fr.md) (outils de structure métallique et de tuyauterie) et [Atelier Bibliothèques de pièces](Parts_Library_Workbench/fr.md) sont automatiquement inclus dans l\'atelier BIM.
 
 L\'atelier BIM ajoute également une série d\'éléments dans la **barre d\'état** de FreeCAD et quelques **éléments de menu contextuel**, accessibles en cliquant avec le bouton droit de la souris dans la vue 3D ou dans l\'arborescence.
+
+
 
 ### Dessin 2D 
 
@@ -82,6 +90,8 @@ Les annotations sont des objets d\'aide visuels pouvant être placés dans votre
 -   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Plan de coupe](Arch_SectionPlane/fr.md): ajoute un plan de coupe au document. Les plans de coupe définissent des vues 2D telles que des plans, des coupes et des élévations
 -   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Page](TechDraw_PageDefault/fr.md): crée une nouvelle page [TechDraw](TechDraw_Workbench/fr.md) à partir d\'un [modèle SVG](TechDraw_Templates/fr.md)
 -   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Vue architecturale](TechDraw_ArchView/fr.md): insère une vue d\'un plan de coupe sur une page
+
+
 
 ### 3D / modélisation BIM 
 
@@ -123,6 +133,8 @@ Les objets 3D et BIM sont les éléments du monde réel qui composeront votre pr
 -   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Générateur de formes](Part_Builder/fr.md) : outil avancé de création de formes complexes à partir de diverses primitives géométriques paramétriques.
 -   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Faces liées](Draft_Facebinder/fr.md) : crée un nouvel objet à partir de faces sélectionnées sur des objets existants.
 
+
+
 ### Outils de modification 
 
 -   <img alt="" src=images/Draft_Move.svg  style="width:32px;"> [Déplacer](Draft_Move/fr.md) : déplace l\'objet (ou des objets) d\'un emplacement à un autre.
@@ -151,6 +163,8 @@ Les objets 3D et BIM sont les éléments du monde réel qui composeront votre pr
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Ajouter](Arch_Add/fr.md) : ajoute un objet à un composant.
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Soustraire](Arch_Remove/fr.md) : soustrait ou efface un ou des objets d\'un composant.
 
+
+
 ### Outils de gestion 
 
 -   <img alt="" src=images/BIM_Setup.png  style="width:32px;"> [Configuration BIM](BIM_Setup/fr.md) : configure certaines des préférences FreeCAD les plus couramment utilisées pour le BIM.
@@ -167,6 +181,8 @@ Les objets 3D et BIM sont les éléments du monde réel qui composeront votre pr
 -   <img alt="" src=images/BIM_Preflight.svg  style="width:32px;"> [Vérifications préalables](BIM_Preflight/fr.md) : effectue différentes vérifications sur votre modèle avant d\'exporter vers IFC.
 -   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:32px;"> [Editeur styles d\'annotations](Draft_AnnotationStyleEditor/fr.md) : gère les styles des annotations utilisés par les textes et les cotes.
 
+
+
 ## Tutoriels et apprentissage 
 
 -   [Migrer de Revit vers FreeCAD](Migrating_to_FreeCAD_from_Revit/fr.md)
@@ -174,6 +190,8 @@ Les objets 3D et BIM sont les éléments du monde réel qui composeront votre pr
 -   [\"BIM with FreeCAD\" série de vidéos de Yorik](https://www.youtube.com/playlist?list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU)
 -   [\"FreeCAD tutorials\" série de vidéos de Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwkkxVOfVmR8ObpPN5QbL7ye)
 -   [\"Quinta Monroy\" série de vidéos de Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwnAYyutuKhrPY51skaBhrVU)
+
+
 
 ## Ateliers externes 
 

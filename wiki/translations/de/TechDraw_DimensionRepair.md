@@ -4,7 +4,7 @@
    Name/de:TechDraw Maßreparatur
    MenuLocation:TechDraw → Maßeinträge → Maßreferenzen reparieren
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:1.0
+   Version:0.21
    SeeAlso:[TechDraw Längenmaß](TechDraw_LengthDimension/de.md)
 ---
 
@@ -14,13 +14,16 @@
 
 ## Beschreibung
 
-Das Werkzeug <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:24px;"> **TechDraw Maßreparatur** kann die 2D- oder 3D-Geometriereferenzen eines Maßes anpassen. diese Referenzen können aufgrund des \"[Problems der topologischen Benennung](Topological_naming_problem/de.md)\" oder durch das Ausblenden verdeckter Kanten ungültig werden.
+Das Werkzeug **TechDraw Maßreparatur** kann die 2D- oder 3D-Geometriereferenzen eines Maßes anpassen. Solche Referenzen können aufgrund des \"[Problems der topologischen Benennung](Topological_naming_problem/de.md)\" oder durch das Ausblenden verdeckter Kanten ungültig werden.
 
 Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de#Begrenzungen.md) für Weiteres über Maße und das Problem der topologische Benennung.
 
 
 
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Das Maß, das korrigiert werden soll, auswählen und wahlweise die neuen Geometriereferenzen wie Knoten oder Kanten in der TechDraw-Ansicht oder in der [3D-Ansicht](3D_view/de.md) auswählen.
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
@@ -30,6 +33,9 @@ Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de#Begrenzungen.md) für W
 4.  Wenn noch nicht erfolgt, neue Geometriereferenzen auswählen.
 5.  Die Schaltfläche **Referenzen durch aktuelle Auswahl ersetzen** drücken.
 6.  Die Schaltfläche **OK** drücken, um das Maß zu aktualisieren.
+
+
+</div>
 
 
 

@@ -259,7 +259,7 @@ Ein Draft Dimension-Objekt ist von einem [App FeaturePython](App_FeaturePython/d
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|World}} the text will be displayed on a plane defined by the **Normal** of the measurement. If it is {{value|Screen}} the text will always face the screen. This is an inherited property. The mentioned options are the renamed options (<small>(v1.0)</small> ).
+-    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|World}} the text will be displayed on a plane defined by the **Normal** of the measurement. If it is {{value|Screen}} the text will always face the screen. This is an inherited property. The mentioned options are the renamed options (<small>(v0.21)</small> ).
 
 
 {{TitleProperty|Graphics}}
@@ -293,7 +293,7 @@ Ein Draft Dimension-Objekt ist von einem [App FeaturePython](App_FeaturePython/d
 
 -    **Override|String**: specifies a custom text to display instead of the actual measurement. Use the string {{value|$dim}} inside the text to include the measurement.
 
--    **Text Color|Color**: specifies the color of the text. <small>(v1.0)</small> 
+-    **Text Color|Color**: specifies the color of the text. <small>(v0.21)</small> 
 
 -    **Text Position|VectorDistance**: specifies the position of the text in absolute coordinates. {{Value|[0, 0, 0]}} will display the text in its default position near the dimension line or arc.
 

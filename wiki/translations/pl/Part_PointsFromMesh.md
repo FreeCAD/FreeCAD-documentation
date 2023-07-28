@@ -1,37 +1,32 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Part PointsFromMesh‎
-   MenuLocation:Part → Create points object from mesh
-   Workbenches:[Part](Part_Workbench.md)
+   Name/pl:Część: Utwórz obiekt punktów z siatki
+   MenuLocation:Część → Utwórz obiekt punktów z siatki
+   Workbenches:[Część](Part_Workbench/pl.md)
    Version:0.19
-   SeeAlso:[Part ShapeFromMesh](Part_ShapeFromMesh.md), [Part ConvertToSolid](Part_MakeSolid.md), [Part RefineShape](Part_RefineShape.md)
+   SeeAlso:[Utwórz kształt z siatki](Part_ShapeFromMesh/pl.md), [Przekształć na bryłę](Part_MakeSolid/pl.md), [Udoskonal kształt](Part_RefineShape/pl.md)
 ---
 
 # Part PointsFromMesh/pl
 
-## Description
 
-The **<img src="images/Part_PointsFromMesh.svg" width=16px> [Part PointsFromMesh](Part_PointsFromMesh.md)
-** tool creates a shape starting from a [mesh object](Glossary#Mesh.md) imported or produced from the **<img src="images/Workbench_Mesh.svg" width=16px> [Mesh Workbench](Mesh_Workbench.md)**
 
-The resulting shape is a collection of vertices or points, which can be used as reference to further create lines, sketches and faces with other tools, like those from the **<img src="images/Workbench_Sketcher.svg" width=16px> [Sketcher](Sketcher_Workbench.md)** or the **<img src="images/Workbench_Draft.svg" width=16px> [Draft](Draft_Workbench.md)** workbenches.
+## Opis
 
-## Usage
+Narzędzie <img alt="" src=images/Part_PointsFromMesh.svg  style="width:24px;"> [Utwórz obiekt punktów z siatki](Part_PointsFromMesh/pl.md) tworzy obiekt punktowy z obiektu geometrycznego. W {{VersionMinus/pl|0.20}} obiektem bazowym musi być obiekt środowiska Siatka, w późniejszych wersjach można wybrać dowolny obiekt geometryczny.
 
-1.  Select the mesh object.
-2.  Go to **Part → <img src="images/Part_PointsFromMesh.svg" width=24px> Create points object from mesh**.
-3.  A shape from the mesh object is created as a separate new object.
+Wynikowy kształt jest złożeniem wierzchołków, które mogą być użyte jako odniesienie do dalszego tworzenia linii, szkiców i powierzchni za pomocą innych narzędzi, takich jak te z środowiska pracy <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Szkicownik](Sketcher_Workbench/pl.md) lub <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Rysunek Roboczy](Draft_Workbench/pl.md).
 
-There will be no analyzing or validating of the mesh object. Analyzing and repairing of the mesh should be done manually before conversion, if needed. Appropriate tools are available in the **<img src="images/Workbench_Mesh.svg" width=24px> [Mesh Workbench](Mesh_Workbench.md)
-**
 
-## Notes
 
-## Properties
+## Użycie
 
-## Limitations
-
-## Scripting
+1.  Wybierz obiekt.
+2.  Wybierz z menu opcję **Część → <img src="images/Part_PointsFromMesh.svg" width=16px> Utwórz obiekt punktów z siatki**.
+3.  Otworzy się okno dialogowe **Odległość w przestrzeni parametrycznej**.
+4.  Wprowadź wartość odległości.
+5.  Naciśnij przycisk **OK**.
 
 
 

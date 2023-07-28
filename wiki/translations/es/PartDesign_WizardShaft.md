@@ -19,6 +19,10 @@ Esta herramienta permite crear un árbol a partir de una tabla de valores y anal
 
 </div>
 
+## Usage
+
+You can start the wizard from the Part Design menu **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Shaft design wizard...**.
+
 El asistente se iniciará y mostrará una tabla por defecto, la parte eje correspondiente y los gráficos de fuerza/momento.
 
 

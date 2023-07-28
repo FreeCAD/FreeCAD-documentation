@@ -1,23 +1,26 @@
 ---
-- GuiCommand:
-   Name:Sketcher Rectangles
-   Icon:Sketcher_CompCreateRectangles.png
-   MenuLocation:
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+- GuiCommand:/pl
+   Name:Sketcher CompCreateRectangles
+   Name/pl:Szkicownik: Komponent Utwórz prostokąt
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Version:0.20
 ---
 
 # Sketcher CompCreateRectangles/pl
 
-## Description
 
-**Create a rectangle** is an icon button in the Sketcher geometries toolbar that groups tools to create rectangles. Click on the down arrow to its right to expand the icons below it and select a tool.
 
-## Types of rectangles 
+## Opis
 
--   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> [Rectangle](Sketcher_CreateRectangle.md): Draws a rectangle from 2 opposite points.
--   <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:32px;"> [Centered rectangle](Sketcher_CreateRectangle_Center.md): Draws a rectangle from a central point and an edge point. <small>(v0.20)</small> 
--   <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:32px;"> [Rounded rectangle](Sketcher_CreateOblong.md): Draws a rounded rectangle from 2 opposite points. <small>(v0.20)</small> 
+**Utwórz prostokąt** to przycisk z ikoną na pasku narzędziowym geometrii Szkicownika, który grupuje narzędzia do tworzenia prostokątów. Kliknij strzałkę w dół po jego prawej stronie, aby zobaczyć znajdujące się pod nim pozycje i wybrać odpowiednie narzędzie.
+
+
+
+## Rodzaje prostokątów 
+
+-   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> [Utwórz prostokąt](Sketcher_CreateRectangle/pl.md): Rysuje prostokąt z 2 przeciwległych punktów.
+-   <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:32px;"> [Utwórz wyśrodkowany prostokąt](Sketcher_CreateRectangle_Center/pl.md): Rysuje prostokąt z punktu centralnego i punktu na krawędzi. {{Version/pl|0.20}}
+-   <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:32px;"> [Utwórz zaokrąglony prostokąt](Sketcher_CreateOblong/pl.md): Rysuje zaokrąglony prostokąt z 2 przeciwległych punktów. {{Version/pl|0.20}}
 
 
 

@@ -3,7 +3,7 @@
    Name:Part Cut
    Name/ru:Обрезать
    MenuLocation:Деталь → Булевы операции → Обрезать
-   Workbenches:[Part](Part_Workbench/ru.md), [Complete](Complete_Workbench/ru.md)
+   Workbenches:[Part](Part_Workbench/ru.md)
    SeeAlso:[Объединение](Part_Union/ru.md), [Пересечение](Part_Common/ru.md), [Part Boolean](Part_Boolean/ru.md)
 ---
 

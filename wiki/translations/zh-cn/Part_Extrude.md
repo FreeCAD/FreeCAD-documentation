@@ -8,8 +8,6 @@
 
 # Part Extrude/zh-cn
 
-![600px](images/Part_Extrude_demo.png)
-
 ## Description
 
 
@@ -38,6 +36,12 @@
 
 
 </div>
+
+![600px](images/Part_Extrude_demo.png)
+
+
+
+*Examples of extrusion*
 
 ## Usage
 
@@ -106,7 +110,16 @@
 
 -   **Symmetric**: 如果此项为True，则以输入形状为中心向指定方向及其相反方向进行挤型，且挤型总长度为**Length Fwd**。并忽略**Length Rev**。
 
--   **Taper Angle** and **Taper Angle Rev**: applies an angle to the extrusion, so that sides of the extrusion are drafted by the specified angle. Positive angle means the cross-section expands. **Taper Angle Rev** sets the taper for the reversed part of the extrusion (the part from **Length Rev**).{{VersionMinus|0.19}} Tapered extrusion is only supported for shapes without inner structures. Taper does not work well if the shape contains B-splines.
+-   **Taper Angle** and **Taper Angle Rev**: applies an angle to the extrusion, so that sides of the extrusion are drafted by the specified angle. Positive angle means the cross-section expands. **Taper Angle Rev** sets the taper for the reversed part of the extrusion (the part from **Length Rev**).
+    -   
+        <small>(v0.20)</small> 
+        
+        Inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
+
+    -   
+        {{VersionMinus|0.19}}
+        
+        Tapered extrusion is only supported for shapes without inner structures. Taper does not work well if the shape contains B-splines.
 
 -   **Face Maker Class**: sets C++ class name of face making code, which is used when making solids from wires. This property is here mainly for maintaining backward compatibility. Do not touch, unless you know what you are doing.
 
@@ -125,6 +138,8 @@
 
 
 </div>
+
+
 
 ## Task对话框
 
@@ -183,6 +198,8 @@
 -   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles and to specify the direction. <small>(v0.20)</small> 
 
 -   The task dialog does not offer a preview, yet. **Apply** will create an extrusion object every time you click it, which can be useful as preview; however, they will remain and yet another one will be created as you click **OK**. [Undo](Std_Undo.md) can be useful to clean them up before clicking **OK**.
+
+
 
 
 <div class="mw-translate-fuzzy">

@@ -140,9 +140,11 @@ Se non si vedono le caselle verdi, per i tuoi testi modificabili, potrebbe esser
 Se i testi appaiono sfalsati in FreeCAD, potrebbe essere necessario rimuovere gli attributi {{Incode|xml:space<nowiki>=</nowiki>"preserve"}} nel file SVG. Vedere: <https://www.forum.freecadweb.org/viewtopic.php?t=50897>.
 
 
- {{TechDraw Tools navi}}
+{{TechDraw Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/it

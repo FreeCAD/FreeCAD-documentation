@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -26,6 +28,8 @@ Nástroj Střecha umožňuje vytvořit šikmou střechu z vybraných drátů. Vy
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -59,7 +63,9 @@ Nástroj Střecha umožňuje vytvořit šikmou střechu z vybraných drátů. Vy
 
 ## Options
 
--   Roofs share the common properties and behaviors of all [Arch Components](Arch_Component.md)
+-   Roofs share the common properties and behaviors of all [Arch Components](Arch_Component.md).
+
+
 
 ## Vlastnosti
 
@@ -80,6 +86,8 @@ Nástroj Střecha umožňuje vytvořit šikmou střechu z vybraných drátů. Vy
 
 
 </div>
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">

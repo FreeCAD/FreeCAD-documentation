@@ -30,11 +30,11 @@ S\'il n\'y a pas eu une transformation au préalable lors de la <img alt="" src=
 ### Mise à l\'échelle d\'une fonction transformée 
 
 1.  Effectuez l\'une des opérations suivantes :
-    -   Double-cliquez sur l\'objet MultiTransform dans la [Vue en arborescence](Tree_view/fr.md).
-    -   Cliquez avec le bouton droit de la souris sur l\'objet MultiTransform dans la [Vue en arborescence](Tree_view/fr.md) et sélectionnez **Modifier MultiTransform** dans le menu contextuel.
-2.  Le [Panneau des tâches](Task_panel/fr.md) **Paramètres de la transformation multiple** s\'ouvre.
+    -   Double-cliquez sur l\'objet MultiTransform dans la [vue en arborescence](Tree_view/fr.md).
+    -   Cliquez avec le bouton droit de la souris sur l\'objet MultiTransform dans la [vue en arborescence](Tree_view/fr.md) et sélectionnez **Modifier la transformation multiple** dans le menu contextuel.
+2.  Le [panneau des tâches](Task_panel/fr.md) **Paramètres de la transformation multiple** s\'ouvre.
 3.  Cliquez du bouton droit de la souris dans la liste **Transformations** et sélectionnez **Ajouter une transformation de mise à l'échelle** dans le menu contextuel.
-4.  Un élément **Scaled** est ajouté à la liste. Le panneau des tâches sétend vers le bas pour permettre de définir le **Facteur** et les **Occurrences**. Voir [Options](#Options.md) pour plus d\'informations.
+4.  Un élément **Mise à l'échelle** est ajouté à la liste. Le panneau des tâches sétend vers le bas pour permettre de définir le **Facteur** et les **Occurrences**. Voir [Options](#Options.md) pour plus d\'informations.
 5.  Appuyez sur **OK** de la barre en bas.
 6.  Appuyez sur le bouton **OK** en haut pour terminer.
 
@@ -50,9 +50,9 @@ S\'il n\'y a pas eu une transformation au préalable lors de la <img alt="" src=
 
 ## Options
 
--    **Facteur**: Le facteur d\'échelle qui sera appliqué sur la dernière fonction.
+-    **Facteur**: le facteur d\'échelle qui sera appliqué sur la dernière fonction.
 
--    **Occurrences**: Nombre d\'occurrences de 1 à la valeur du **Facteur** (incluant la base et la dernière fonction).
+-    **Occurrences**: nombre d\'occurrences de 1 à la valeur du **Facteur** (incluant la base et la dernière fonction).
 
     -   Une transformation de mise à l\'échelle accepte le nombre d\'occurrences de la transformation précédente comme valeur maximale ou tout diviseur entier de ce nombre retournant un résultat entier. Ainsi, {{Value|12}}, {{Value|6}}, {{Value|4}}, {{Value|3}} et {{Value|2}} sont valides pour une répétition linéaire ou polaire avec 12 occurrences.
     -   Une fonction unique de mise à l\'échelle accepte tout nombre entier supérieur à 1.

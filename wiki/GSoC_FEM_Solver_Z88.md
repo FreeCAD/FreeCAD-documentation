@@ -1,6 +1,8 @@
 # GSoC FEM Solver Z88
 This page is dedicated to the description of the Google Summer of Code project idea regarding extending FEM solver Z88OS.
 
+**Obsolete**: This page has been moved to <https://github.com/FreeCAD/FreeCAD/issues/8559>
+
 ## Outline
 
 FreeCAD is not only a traditional CAD platform but also aims at providing general engeneering functionality. One of the most valuable design tools for modern product development is the finite element method. It provides advanced means for design analysis, stress tests and optimisation. Over the last two years a FEM workbench in FreeCAD has been developed based on the CalculiX solver and already reached a usable state in the 0.16 release. However, since CalculiX has neither real Shell nor real Beam elements, CalculiX has limitations in the regard of these element types. This was the main reason to start an implementation of an additional solver for the FreeCAD FEM workbench. Z88OS was choosen, since it is OpenSource and thus runs on all major plattforms and has real Beam and Shell elements. The solver Z88OS has been integrated in FreeCAD FEM already. But only very limited parameter are supported at the moment. Only fixed constraints in main axis directions and simple node loads are supported on the pre processing side. On the contrary the post processing only the displacements are read into FreeCAD FEM. To really be able to use Z88 as an additional solver more of his capabilities need to be supported by FreeCAD.

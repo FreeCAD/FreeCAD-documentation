@@ -1,42 +1,28 @@
 ---
 - GuiCommand:/de
    Name:Draft Line
-   Name/de:Entwurf Linie
+   Name/de:Draft Linie
    MenuLocation:Entwurf → Linie
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch Arbeitsbereich](Arch_Workbench/de.md)
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**L** **I**
    Version:0.7
-   SeeAlso:[Entwurf Draht](Draft_Wire/de.md), [Entwurf Punkt](Draft_Point/de.md)
+   SeeAlso:[Draft Polylinie](Draft_Wire/de.md)
 ---
 
 # Draft Line/de
 
 
-</div>
 
 ## Beschreibung
 
+Der Befehl <img alt="" src=images/Draft_Line.svg  style="width:24px;"> **Draft Linie** erstellt eine gerade Linie.
 
-<div class="mw-translate-fuzzy">
+Eine Draft-Linie ist eigentlich eine [Draft-Polylinie](Draft_Wire/de.md) mit nur zwei Punkten.
 
-Das Linienwerkzeug erzeugt eine gerade Linie, die durch zwei Punkte definiert ist. Es wird das [Entwurf Linienstil](Draft_Linestyle/de.md) verwendet, das auf dem [Entwurf Tablett](Draft_Tray/de.md) gesetzt ist. Das Linienwerkzeug verhält sich genau wie das [Entwurf Draht](Draft_Wire/de.md) Werkzeug, nur dass es nach zwei Punkten stoppt.
-
-
-</div>
-
-A Draft Line is in fact a [Draft Wire](Draft_Wire.md) with only two points.
-
-<img alt="" src=images/Draft_Line_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Line_example.jpg  style="width:400px;"> 
+*Eine durch zwei Punkte festgelegte Linie*
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-*Linie erzeugt durch zwei Punkte*
-
-
-</div>
 
 ## Anwendung
 
@@ -52,14 +38,16 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 </div>
 
-## Options
+
+
+## Optionen
 
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
 
 
 <div class="mw-translate-fuzzy">
 
-## Optionen
+## Optionen 
 
 -   Drücke **X**, **Y** oder **Z** nach dem ersten Punkt, um den zweiten Punkt auf der angegebenen Achse zu beschränken.
 -   Um Koordinaten manuell einzugeben, gib einfach die Zahlen ein und drücken dann **Enter** zwischen den einzelnen X-, Y- und Z-Komponenten.
@@ -75,7 +63,9 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 </div>
 
-## Notes
+
+
+## Hinweise
 
 
 <div class="mw-translate-fuzzy">
@@ -85,7 +75,9 @@ Die Linie kann durch doppelklicken des Elements in der Baumansicht geändert wer
 
 </div>
 
-## Preferences
+
+
+## Einstellungen
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
@@ -93,40 +85,19 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 -   To change the initial focus of the task panel to the **Length** input box: **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Line](Part_Line.md) instead of a Draft Line.
 
-## Properties
 
-
-<div class="mw-translate-fuzzy">
 
 ## Eigenschaften
 
-Ein Linienobjekt teilt alle Eigenschaften eines **<img src="images/Draft_Wire.svg" width=16px>[Entwurf Draht](Draft_Wire/de.md)**, jedoch sind nur einige dieser Eigenschaften auf die Linie anwendbar.
+Siehe [Draft-Polylinie](Draft_Wire/de#Eigenschaften.md).
 
 
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Skripten
 
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-**Siehe auch:**
-
-[Draft API](Draft_API/de.md) und [FreeCAD Skripten Grundlagen](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das Linienwerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole heraus durch folgende Funktion angesprochen werden:
-
-
-</div>
+Zum Erstellen einer Draft-Linie wird die Methode `make_line` des Draft-Moduls verwendet ({{Version/de|0.19}}). Diese Methode ersetzt die veraltete Methode `makeLine`.
 
 
 ```python
@@ -158,15 +129,6 @@ line2 = Draft.make_line(p3, p4)
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

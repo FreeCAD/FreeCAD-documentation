@@ -1,48 +1,61 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign CoordinateSystem
-   MenuLocation:Part Design → Create a local coordinate system
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Utwórz lokalny układ współrzędnych.
+   MenuLocation:Projekt Części → Utwórz lokalny układ współrzędnych
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.18
-   SeeAlso:[PartDesign Point](PartDesign_Point.md), [PartDesign Line](PartDesign_Line.md), [PartDesign Plane](PartDesign_Plane.md)
+   SeeAlso:[Punkt odniesienia](PartDesign_Point/pl.md), [Linia odniesienia](PartDesign_Line/pl.md), [Płaszczyzna odniesienia](PartDesign_Plane/pl.md)
 ---
 
 # PartDesign CoordinateSystem/pl
 
-## Description
 
-Creates a **local coordinate system** which can be used as reference for other datum geometry. It also helps identify the orientation of the referenced datum geometry in 3D space. ![](images/PartDesign_LocalCoordinateSystem_Example.png ) 
-*Local coordinate system originating out of a datum plane's origin.*
 
-## Usage
+## Opis
 
-1.  Press the **[<img src=images/PartDesign_CoordinateSystem.svg style="width:16px"> [Create a local coordinate system](PartDesign_CoordinateSystem.md)** button.
-2.  Define Coordinate System parameters. Select a first reference in the 3D view to filter the available attachment modes.
-3.  Depending on the selected reference, there may be one or more attachment modes available in the the list. The most likely one will automatically be selected and shown in bold in the list. The text *Attached with mode* along with the attachment mode name will appear in green at the top of the Parameters panel.
-4.  To add an additional reference, press the next **Reference** button. Once pressed its label changes to *Selecting\...* until a selection is made.
-5.  Select an attachment mode in the list.
-6.  Define Attachment Offset values.
-7.  Press **OK**.
+Tworzy **lokalny układ współrzędnych**, który może być użyty jako odniesienie dla innej geometrii układu odniesienia. Pomaga również zidentyfikować orientację geometrii odniesienia w przestrzeni 3D. ![](images/PartDesign_LocalCoordinateSystem_Example.png ) 
+*Lokalny układ współrzędnych pochodzący z punktu położenia odniesienia płaszczyzny.*
 
-## Options
 
-Double-click the **Local_CS** label in the Model tree or right-click and select **Edit datum** in the contextual menu to edit its parameters. For more details about Attachment mode and Attachment offset, see [Attachment](Part_EditAttachment.md).
 
-## Properties
+## Użycie
 
-### Data
+1.  Naciśnij przycisk **[<img src=images/PartDesign_CoordinateSystem.svg style="width:16px"> '''Utwórz lokalny układ współrzędnych'''**.
+2.  Zdefiniuj parametry układu współrzędnych. Wybierz pierwsze odniesienie w oknie widoku 3D, aby filtrować dostępne tryby dołączania.
+3.  W zależności od wybranego odniesienia, na liście może być dostępny jeden lub więcej trybów dołączania. Najbardziej prawdopodobny z nich zostanie automatycznie wybrany i wyróżniony pogrubioną czcionką na liście. Tekst \"Dołączono w trybie\" wraz z nazwą trybu dołączania pojawi się w kolorze zielonym w górnej części panelu Parametry punktu odniesienia.
+4.  Aby dodać dodatkowe odniesienie, naciśnij następny przycisk **Odniesienie**. Po naciśnięciu jego etykieta zmienia się na *Wybieranie \...* do momentu dokonania wyboru.
+5.  Wybierz tryb dołączania z listy.
+6.  Zdefiniuj wartości przesunięcia dołączenia.
+7.  Naciśnij **OK**.
 
--    **MapMode**: lists the attachment mode used.
 
--    **Attachment Reversed**: indicates if the coordinate system is reversed in orientation.
 
--    **Attachment Offset**: applies a transformation (translation and rotation) in reference to the attachment placement.
+## Opcje
 
--    **Placement**: indicates the coordinates and alignment of the coordinates system´s origin .
+Kliknij dwukrotnie etykietę **Local_CS** w Drzewie modelu lub kliknij prawym przyciskiem myszy i wybierz **Edytuj odniesienie** z menu kontekstowego, aby edytować jego parametry. Aby uzyskać więcej informacji na temat trybu dołączania i przesunięcia dołączania, zobacz stronę [Edytuj dołączenie](Part_EditAttachment/pl.md).
 
--    **Label**: name given to the object, this name can be changed at convenience.
 
-## Scripting
+
+## Właściwości
+
+
+
+### Dane
+
+-    **Tryb mapowania**: wymienia używany tryb dołączania.
+
+-    **Odwrócenie dołączenia**: wskazuje, czy układ współrzędnych jest odwrócony w orientacji.
+
+-    **Odsunięcie dołaczenia**: stosuje transformację *(przesunięcie i obrót)* w odniesieniu do umieszczenia dołączenia.
+
+-    **Umiejscowienie**: wskazuje współrzędne i wyrównanie początku układu współrzędnych.
+
+-    **Etykieta**: nazwa nadawana obiektowi, nazwa ta może być dowolnie zmieniana.
+
+
+
+## Tworzenie skryptów 
 
 
 ```python

@@ -76,12 +76,12 @@ la [vue en arborescence](tree_view/fr.md) basculera en [Panneau des tâches](Tas
 
 3\. La géométrie de construction est utilisée pour guider la création d\'une \"vraie\" géométrie. La géométrie réelle sera celle montrée en dehors du mode d\'édition d\'esquisse, tandis que la géométrie de construction ne sera montrée qu\'à l\'intérieur du mode d\'édition. Par conséquent, vous pouvez utiliser autant de géométrie de construction que nécessaire pour créer de vraies formes.
 
-:   3.1. Cliquez sur **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> [Sketcher Basculer en géométrie de construction](Sketcher_ToggleConstruction/fr.md)**. Les éléments géométriques seront désormais dessinés en **Construction mode**.
+:   3.1. Cliquez sur **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> [Sketcher Basculer le mode de la géométrie de construction](Sketcher_ToggleConstruction/fr.md)**. Les éléments géométriques seront désormais dessinés en **Construction mode**.
 :   3.2. Cliquez sur **<img src="images/Sketcher_Line.svg" width=16px> [Sketcher Ligne](Sketcher_CreateLine/fr.md)**.
 :   3.3. Approchez-vous de l\'origine de l\'esquisse, le point doit être en surbrillance et à l\'approche de votre curseur, l\'icône <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [Sketcher Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md) apparaîtra.
 :   3.4. Cliquez sur le point puis déplacez le pointeur pour commencer à dessiner une nouvelle ligne à partir de celui-ci. Déplacez le pointeur de sorte que la ligne ait une longueur d\'environ {{Value|30 mm}}. Vous n\'avez pas besoin d\'être très précis dans cette étape. Plus tard, nous définirons la bonne dimension.
 :   3.5. Répétez cette procédure quatre fois de plus pour placer les lignes de construction en étoile. Ne vous inquiétez pas trop de leur taille ou de leur position, il suffit de les étendre dans les quatre quadrants.
-:   3.6. Maintenant quitter le mode de construction, en cliquant simplement à nouveau sur **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Sketcher Basculer en géométrie de construction](Sketcher_ToggleConstruction/fr.md)**.
+:   3.6. Maintenant quitter le mode de construction, en cliquant simplement à nouveau sur **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Sketcher Basculer le mode de la géométrie de construction](Sketcher_ToggleConstruction/fr.md)**.
 
 
 **Remarque 1:**
@@ -109,7 +109,7 @@ Consultez les sections **Constraints** et **Elements** pour voir les nouvelles c
 
 La géométrie réelle doit créer une forme fermée si elle doit être utilisée comme un profil pouvant être extrudé par des outils tels que **[<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Protrusion](PartDesign_Pad/fr.md)**.
 
-Assurez-vous que vous n\'êtes pas en mode construction en cliquant sur **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Basculer la construction](Sketcher_ToggleConstruction/fr.md)**, si vous n\'avez pas déjà quitté ce mode.
+Assurez-vous que vous n\'êtes pas en mode construction en cliquant sur **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Basculer le mode de la géométrie de construction ](Sketcher_ToggleConstruction/fr.md)**, si vous n\'avez pas déjà quitté ce mode.
 
 
 
@@ -330,9 +330,11 @@ Contraindre une esquisse peut se faire de différentes manières. En général, 
 -   Essayez d\'utiliser une autre géométrie de construction.
 
 
- {{Sketcher Tools navi}}
+{{Sketcher Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/fr

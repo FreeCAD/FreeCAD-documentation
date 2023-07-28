@@ -15,11 +15,15 @@ Moduł pozwala na importowanie/tworzenie płytek PCB w programie FreeCAD. Zakres
 -   moduł pozwala na import modeli IGES/STP z kolorami,
 -   możliwość niezależnego pokazywania otworów/szczelin.
 
+
+
 ## Bibliografia
 
 -   Autor: marmni
 -   Strona domowa projektu: <https://sourceforge.net/projects/eaglepcb2freecad/>
 -   Źródła kodu na Github: <https://github.com/marmni/FreeCAD-PCB>
+
+
 
 ## Przybory
 
@@ -33,11 +37,17 @@ Menu rozwijane
 
 ![](images/PCB-export-BOM.png ) ![](images/PCB-export-hole.png ) ![](images/PCB-create-new.png ) ![](images/PCB-explode.png ) ![](images/PCB-bounding-box.png )
 
+
+
 ## Instalacja
+
+
 
 ### Instalacja automatyczna 
 
 Można je zainstalować z [Menadżera dodatków](Std_AddonMgr/pl.md).
+
+
 
 ### Z repozytorium GitHub 
 
@@ -89,6 +99,8 @@ Zabezpieczenia → Edytuj → Użytkownicy i zaznacz wszystkie pola wyboru w opc
 
 **Instrukcja instalacji dla systemu MacOS** *(z GitHub)*
 
+
+
 ## Odnośniki do środowiska pracy FreeCAD-PCB 
 
 -   Wiki środowiska: [Zewnętrzne środowiska pracy](https://wiki.freecadweb.org/External_workbenches)
@@ -98,6 +110,8 @@ Zabezpieczenia → Edytuj → Użytkownicy i zaznacz wszystkie pola wyboru w opc
 -   Wideo: [EaglePCB_2\_FreeCAD - FreeCAD odczyt plików brd z programu Eagle](https://www.youtube.com/watch?v=81NsljRJx8c&feature=youtu.be)
 -   Files: [PCB library](https://github.com/marmni/FreeCAD-PCB-library)
 -   Zgłaszanie błędów: Proszę zgłaszać błędy na stronie <https://github.com/marmni/FreeCAD-PCB/issues>
+
+
 
 ## Inne użyteczne odnośniki 
 
@@ -109,4 +123,4 @@ Zabezpieczenia → Edytuj → Użytkownicy i zaznacz wszystkie pola wyboru w opc
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > PCB Workbench/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > PCB Workbench/pl

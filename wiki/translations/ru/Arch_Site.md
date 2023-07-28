@@ -29,7 +29,7 @@ The Arch Site is a special object that combines properties of a standard FreeCAD
 
 -   After creating a site, you can add objects to it by drag and dropping them in the [Tree view](Tree_view.md) or by using the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** tool. This only determines which objects are part of the given site, and has no effect on the terrain.
 -   You can remove objects from a site by drag and dropping them out of it in the [Tree view](Tree_view.md) or by using the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** tool.
--   You can add a terrain object by editing the Site\'s **Terrain** property. The terrain can be an open shell or (<small>(v1.0)</small> ) a solid.
+-   You can add a terrain object by editing the Site\'s **Terrain** property. The terrain can be an open shell or (<small>(v0.21)</small> ) a solid.
 -   You can add volumes to be added or subtracted from the base terrain, by double-clicking the Site, and adding objects to its Additions or Subtractions groups. The objects must be solids.
 -   The **Extrusion Vector** property can be used to solve some problems that can appear when the terrain is an open shell and there are additions and/or subtractions. In order to perform those additions/subtractions, the open shell is extruded into a solid, which is then appropriately unioned/subtracted. Depending on the terrain topology, this extrusion might fail with the default extrusion vector. You might then be able to remedy the problem by changing this to a different value. This property is ignored if the terrain is a solid.
 
@@ -69,9 +69,9 @@ The Arch Site is a special object that combines properties of a standard FreeCAD
 
 -    **Remove Splitter**: Remove splitters from the resulting shape
 
--    **Declination**: The angle between the true North and the North direction in this document, that is, the Y axis. <small>(v0.18)</small>  This means that by default North points to the Y axis, and East to the X axis; the angle increments counterclockwise. This property was previously known as **North Deviation**.
+-    **Declination**: The angle between the true North and the North direction in this document, that is, the Y axis. This means that by default North points to the Y axis, and East to the X axis; the angle increments counterclockwise. This property was previously known as **North Deviation**.
 
--    **EPW File**: Allow to attach an EPW file from the [Ladybug EPW data website](https://www.ladybug.tools/epwmap/) to this site. This is needed to display wind rose diagrams <small>(v0.19)</small> 
+-    **EPW File**: Allow to attach an EPW file from the [Ladybug EPW data website](https://www.ladybug.tools/epwmap/) to this site. This is needed to display wind rose diagrams
 
 
 
@@ -105,7 +105,7 @@ The site geometry will be recomputed and the areas, perimeter, and volumes prope
 
 ## Solar and wind diagrams 
 
-If [Ladybug](https://www.ladybug.tools/ladybug.html) is installed on your system, [Arch Sites](Arch_Site.md) can display a solar diagram and/or a wind rose. For this, **Longitude**, **Latitude** and **Declination** (previously **North Deviation**) must be correctly set, and **Solar Diagram** or **Wind Rose** set to `True`. Respectively <small>(v0.17)</small>  and <small>(v0.19)</small> 
+If [Ladybug](https://www.ladybug.tools/ladybug.html) is installed on your system, [Arch Sites](Arch_Site.md) can display a solar diagram and/or a wind rose. For this, **Longitude**, **Latitude** and **Declination** (previously **North Deviation**) must be correctly set, and **Solar Diagram** or **Wind Rose** set to `True`.
 
 **Note**: If you don\'t have Ladybug, [pysolar](http://pysolar.org/) is still supported to generate solar diagrams, but not wind roses. Pysolar 0.7 or above is required; this version only works with Python 3. If you require this feature with Python 2, you should have Pysolar 0.6 as this is the last version that works with Python 2. However, Ladybug is a much more powerful tool that will probably be used more in the future, so we recommend using it instead of pysolar. Ladybug can be installed simply via [pip](https://github.com/ladybug-tools/ladybug).
 

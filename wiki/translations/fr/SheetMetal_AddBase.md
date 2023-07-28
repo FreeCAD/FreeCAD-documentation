@@ -21,7 +21,11 @@ A partir d\'un contour fermé, il crée une *plaque* de base (vierge) :
 
 <img alt="" src=images/SheetMetal_AddBase-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddBase-04.png  style="width:200px;">
 
+
+
 ## Utilisation
+
+
 
 ### Profilage
 
@@ -35,6 +39,8 @@ A partir d\'un contour fermé, il crée une *plaque* de base (vierge) :
     -   La propriété **thickness** pour l\'épaisseur du profil,
     -   La propriété **radius** pour le rayon intérieur des plis.
 
+
+
 ### Plaque
 
 1.  Sélectionnez une <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [esquisse](Sketcher_Workbench/fr.md) à **contour fermé**.
@@ -46,11 +52,15 @@ A partir d\'un contour fermé, il crée une *plaque* de base (vierge) :
 
     :   (Les propriétés **length** et **radius** ne sont pas utilisées pour les plaques).
 
+
+
 ## Propriétés
 
 Voir aussi: [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet SheetMetal Tôle de base est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 

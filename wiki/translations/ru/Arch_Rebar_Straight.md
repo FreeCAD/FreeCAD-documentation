@@ -10,6 +10,8 @@
 
 # Arch Rebar Straight/ru
 
+
+
 ## Описание
 
 
@@ -29,21 +31,35 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 <img alt="" src=images/Arch_Rebar_Straight_example.png  style="width:400px;"> 
 *Two sets of straight reinforcement bars inside an [Arch Structure](Arch_Structure.md)*
 
+
+
 ## Применение
 
 1.  Select any face of a previously created **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object.
+
 2.  Then select **<img src="images/Arch_Rebar_Straight.svg" width=16px> [Straight Rebar](Arch_Rebar_Straight.md)** from the rebar tools.
+
 3.  A task panel will pop-out on the left side of the screen as shown below.
+
 4.  Select the desired orientation.
-5.  Give the inputs like front cover, right side cover, left side cover, bottom cover and diameter of the rebar.
-6.  Select the mode of distribution either amount or spacing.
+
+5.  Give the inputs like \'Front cover\', \'Right side cover\', \'Left side cover\', \'Bottom cover\' and \'Diameter\' of the rebar.
+
+6.  Select the mode of distribution either \'Amount\' ou \'Spacing\'.
+
 7.  If spacing is selected, a user can also opt for [custom spacing](Custom_Spacing.md).
-8.  Pick selected face is used to verify or change the face for rebar distribution.
+
+8.  
+    **Pick Selected Face**is used to verify or change the face for rebar distribution.
+
 9.  Click **OK** or **Apply** to generate the rebars.
+
 10. Click **Cancel** to exit the task panel.
 
 <img alt="" src=images/StraightRebarDialog.png  style="width:250px;"> 
 *Taskview panel for the Arch Rebar Straight tool*
+
+
 
 ## Свойства
 
@@ -64,6 +80,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 -    **Amount**: The amount of rebars.
 
 -    **Spacing**: The distance between the axes of each bar.
+
+
 
 ## Программирование
 

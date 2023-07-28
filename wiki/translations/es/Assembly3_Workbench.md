@@ -685,6 +685,7 @@ One way to solve this is to just delete all invalid constraints and elements, im
 -   [FreeCAD_assembly3](https://github.com/realthunder/FreeCAD_assembly3) repository and documentation.
 -   [Assembly3 preview](https://forum.freecadweb.org/viewtopic.php?f=20&t=25712), big discussion thread.
 -   [Tutorial for Assembly 3 Workbench](http://help-freecad-jpg87.fr/02_ass_ind.php) by jpg87.
+-   Tutorials about [kinematic assembly](Tutorial_KinematicAssembly.md), [kinematic skeleton](Tutorial_KinematicSkeleton.md), and matching [kinematic controller](Tutorial_KinematicController.md).
 -   [Current Assembly Status](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [External workbenches](External_workbenches.md)
 

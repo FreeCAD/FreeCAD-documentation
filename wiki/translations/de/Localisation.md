@@ -21,7 +21,7 @@ FreeCAD verwendet ein gemeinschaftlich genutztes Online Übersetzungssystem von 
 
 <img alt="" src=images/Logo-crowdin.png  style="width:320px;">
 
-Es ist geschützte Software, aber für FOSS Projekte kostenlos. Nachfolgend sind Anweisungen wie es verwendet werden kann:
+Es ist geschützte Software, aber kostenlos für [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software)-Projekte. Nachfolgend sind Anweisungen wie es verwendet wird:
 
 -   Gehe zur [FreeCAD Übersetzungsprojektseite auf Crowdin](http://crowdin.net/project/freecad)
 -   Melde Dich an, indem Du ein neues Profil erstellst oder ein Drittanbieterkonto verwendest (GitHub, GitLab, GMail usw\....)

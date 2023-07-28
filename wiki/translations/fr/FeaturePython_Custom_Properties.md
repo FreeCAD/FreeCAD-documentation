@@ -83,6 +83,8 @@ obj.ThePropertyName = {{TODO```"example value for setter"
 obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
+## App::PropertyAmountOfSubstance
+
 ## App::PropertyAngle
 
 Une propriété d\'angle. Elle peut contenir une valeur `angle`. Vous pouvez utiliser la variable \"Value\" pour obtenir une variable flottante. Pour plus de détails, voir la section [Créer un objet FeaturePython et lui ajouter une propriété](#Creating.md).
@@ -164,9 +166,21 @@ obj.ThePropertyName = {{TODO```"example value for setter"
 obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
+## App::PropertyCurrentDensity
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyDensity
+
 ## App::PropertyDirection
 
 Identique à [App::PropertyVectorDistance](#App:_PropertyVectorDistance.md).
+
+## App::PropertyDissipationRate
+
+
+{{Version/fr|0.21}}
 
 ## App::PropertyDistance
 
@@ -183,6 +197,48 @@ obj.ThePropertyName = 500
 obj.ThePropertyName # returns "500.0 mm"
 obj.ThePropertyName.Value # returns 500.0
 ```
+
+## App::PropertyDynamicViscosity
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyElectricalCapacitance
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyElectricalConductance
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyElectricalConductivity
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyElectricalInductance
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyElectricalResistance
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyElectricCharge
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyElectricCurrent
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyElectricPotential
 
 ## App::PropertyEnumeration
 
@@ -339,6 +395,11 @@ obj.ThePropertyName = {{TODO```"example value for setter"
 obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
+## App::PropertyHeatFlux
+
+
+{{Version/fr|0.21}}
+
 ## App::PropertyInteger
 
 Une propriété entière. Elle peut contenir une valeur entière comprise entre -2147483646 et 2147483647 inclus. Pour plus de détails, voir la section sur [Créer un objet FeaturePython et lui ajouter une propriété](#Créer_un_objet_FeaturePython_et_lui_ajouter_une_propriété.md).
@@ -390,6 +451,26 @@ obj.addProperty("App::PropertyIntegerSet", "ThePropertyName", "Subsection", "Des
 obj.ThePropertyName = {{TODO```"example value for setter"
 obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
+
+## App::PropertyInverseArea
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyInverseLength
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyInverseVolume
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyKinematicViscosity
+
+
+{{Version/fr|0.21}}
 
 ## App::PropertyLength
 
@@ -620,6 +701,31 @@ obj.ThePropertyName = {{TODO```"example value for setter"
 obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
+## App::PropertyLuminousIntensity
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyMagneticFieldStrength
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyMagneticFlux
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyMagneticFluxDensity
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyMagnetization
+
+
+{{Version/fr|0.21}}
+
 ## App::PropertyMap
 
 Une propriété {{TODO}}map. Elle peut contenir des {{TODO}} \"types et/ou valeurs autorisés\". Pour plus de détails, voir la section sur [Créer un objet FeaturePython et lui ajouter une propriété](#Creating.md).
@@ -632,6 +738,11 @@ obj.addProperty("App::PropertyMap", "ThePropertyName", "Subsection", "Descriptio
 obj.ThePropertyName = {{TODO```"example value for setter"
 obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
+
+## App::PropertyMass
+
+
+{{Version/fr|0.21}}
 
 ## App::PropertyMaterial
 
@@ -769,6 +880,11 @@ obj.ThePropertyName # returns [placement0, placement1, placement2]
 
 Identique à [App::PropertyVectorDistance](#App:_PropertyVectorDistance.md).
 
+## App::PropertyPower
+
+
+{{Version/fr|0.21}}
+
 ## App::PropertyPrecision
 
 Une propriété {{TODO}}precision. Elle peut contenir des {{TODO}} \"types et/ou valeurs autorisés\". Pour plus de détails, voir la section [Créer un objet FeaturePython et lui ajouter une propriété](#Creating.md).
@@ -834,6 +950,23 @@ obj.ThePropertyName = {{TODO```"example value for setter"
 obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
+## App::PropertyRotation
+
+## App::PropertyShearModulus
+
+
+{{Version/fr|0.21}}
+
+## App::PropertySpecificEnergy
+
+
+{{Version/fr|0.21}}
+
+## App::PropertySpecificHeat
+
+
+{{Version/fr|0.21}}
+
 ## App::PropertySpeed
 
 Une propriété {{TODO}}speed. Elle peut contenir des {{TODO}} \"types et/ou valeurs autorisés\". Pour plus de détails, voir la section sur [Créer un objet FeaturePython et lui ajouter une propriété](#Creating.md).
@@ -846,6 +979,13 @@ obj.addProperty("App::PropertySpeed", "ThePropertyName", "Subsection", "Descript
 obj.ThePropertyName = {{TODO```"example value for setter"
 obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
+
+## App::PropertyStiffness
+
+## App::PropertyStress
+
+
+{{Version/fr|0.21}}
 
 ## App::PropertyString
 
@@ -872,6 +1012,36 @@ obj.addProperty("App::PropertyStringList", "ThePropertyName", "Subsection", "Des
 obj.ThePropertyName = {{TODO```"example value for setter"
 obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
+
+## App::PropertyTemperature
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyThermalConductivity
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyThermalExpansionCoefficient
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyThermalTransferCoefficient
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyTime
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyUltimateTensileStrength
+
+
+{{Version/fr|0.21}}
 
 ## App::PropertyUUID
 
@@ -960,6 +1130,14 @@ obj.ThePropertyName = [v0, (1, 2, 3), v2, (4, 5, 6)]
 obj.ThePropertyName # returns [Vector (0, 10, 0), Vector (1, 2, 3), Vector (30, -10, 0), Vector (4, 5, 6)]
 ```
 
+
+{{Version/fr|0.21}}
+
+## App::PropertyVelocity
+
+
+{{Version/fr|0.21}}
+
 ## App::PropertyVolume
 
 Une propriété {{TODO}}volume. Elle peut contenir des {{TODO}} \"types et/ou valeurs autorisés\". Pour plus de détails, voir la section sur [Créer un objet FeaturePython et lui ajouter une propriété](#Creating.md).
@@ -972,6 +1150,21 @@ obj.addProperty("App::PropertyVolume", "ThePropertyName", "Subsection", "Descrip
 obj.ThePropertyName = {{TODO```"example value for setter"
 obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
+
+## App::PropertyVolumeFlowRate
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyVolumetricThermalExpansionCoefficient
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyWork
+
+
+{{Version/fr|1.0}}
 
 ## App::PropertyXLink
 
@@ -1024,6 +1217,16 @@ obj.addProperty("App::PropertyXLinkSubList", "ThePropertyName", "Subsection", "D
 obj.ThePropertyName = {{TODO```"example value for setter"
 obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
+
+## App::PropertyYieldStrength
+
+
+{{Version/fr|0.21}}
+
+## App::PropertyYoungsModulus
+
+
+{{Version/fr|0.21}}
 
 ## Mesh::PropertyCurvatureList
 

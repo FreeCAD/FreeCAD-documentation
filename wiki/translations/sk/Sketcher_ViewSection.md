@@ -12,12 +12,16 @@
 
 </div>
 
+
+
 ## Opis
 
 Nástroj \"Zobrazenie rezu\" vytvorí reznú rovinu, ktorá dočasne skryje akýkoľvek materiál nachádzajúci sa pred reznou rovinou.
 
 <img alt="" src=images/Sketcher_ViewSection1.png  style="width:300px;"> <img alt="" src=images/Sketcher_ViewSection2.png  style="width:320px;"> 
 *Čiastočne skrytý náčrt a plne viditeľný náčrt*
+
+
 
 ## Použitie
 
@@ -27,7 +31,13 @@ Tento príkaz môžete spustiť viacerými spôsobmi:
 -   Použite príkaz **Náčrt → Zobraziť rez** z rozbaľovacieho menu.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher_Tools_navi

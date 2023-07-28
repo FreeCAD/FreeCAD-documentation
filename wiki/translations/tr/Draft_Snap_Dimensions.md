@@ -28,6 +28,8 @@ Taslak boyutunu oluşturan üç satırdan birini yakalamanızı sağlar.
 <img alt="" src=images/Draft_Snap_Dimensions_example.png  style="width:400px;"> 
 *Temporary dimensions show the position of the cursor*
 
+
+
 ### Kullanım
 
 1.  Yakalama modunun açık olduğundan emin olun

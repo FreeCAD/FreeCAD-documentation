@@ -1,16 +1,14 @@
 ---
 - GuiCommand:/de
    Name:Part TransformedCopy
+   Name/de:Part TransformierteKopie
    MenuLocation:Part → Erzeuge eine Kopie → Erzeuge transformierte Kopie
    Workbenches:[Arbeitsbereich Part](Part_Workbench/de.md)
    Version:0.19
-   SeeAlso:[SimpleCopy](Part_SimpleCopy.md), [ElementKopie](Part_ElementCopy/de.md), [Form Verfeinern](Part_RefineShape/de.md)
+   Siehe auch:[Part_EinfacheKopie](Part_SimpleCopy.md), [Part_ElementKopie](Part_ElementCopy/de.md), [Form Verfeinern](Part_RefineShape/de.md)
 ---
 
 # Part TransformedCopy/de
-
-
-</div>
 
 
 
@@ -18,23 +16,11 @@
 
 [Part TransformierteKopie](Part_TransformedCopy/de.md) erzeugt eine nichtparametrische Kopie eines Objekts, das aus seiner ursprünglichen Position verschoben wurde.
 
-
-<div class="mw-translate-fuzzy">
-
-To produce other non-parametric copies use [EinfacheKopie](Part_SimpleCopy/de.md), [ElementKopie](Part_ElementCopy/de.md), oder [FormVerfeinern](Part_RefineShape/de.md).
+Mit [Part_EinfacheKopie](Part_SimpleCopy/de.md), [Part_ElementKopie](Part_ElementCopy/de.md) oder [FormVerfeinern](Part_RefineShape/de.md) können weitere nicht-parametrische Kopien erstellt werden.
 
 
-</div>
-
-
-
-
-<div class="mw-translate-fuzzy">
 
 ## Anwendung
-
-
-</div>
 
 1.  Wähle ein Objekt aus, das Du kopieren möchtest.
 2.  Gehe zum Menü **Teil → Erstelle eine Kopie → [<img src=images/Part_TransformedCopy.svg style="width:16px"> [Erzeuge transformierte Kopie](Part_TransformedCopy/de.md)**.

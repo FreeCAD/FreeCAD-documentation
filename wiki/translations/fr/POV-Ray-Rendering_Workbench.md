@@ -1,7 +1,4 @@
-# POV-Ray-Rendering Workbench/fr
-}
-
-<img alt="Icône de l\'atelier POV-Ray-Rendering" src=images/POV-Ray-Rendering_workbench_icon.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier POV-Ray-Rendering" src=images/POV-Ray-Rendering_workbench_icon.svg  style="width:64px;"> POV-Ray-Rendering Workbench/fr
 
 
 {{TOCright}}
@@ -12,7 +9,11 @@ L\'atelier de rendu POV-Ray est un [Atelier externe](External_workbenches/fr.md)
 
 <img alt="" src=images/POV-Ray-Rendering_Example.png  style="width:600px;">
 
+
+
 ## Fonctionnalités
+
+
 
 ### Appliquer des textures 
 
@@ -20,9 +21,13 @@ Il existe plus de 100 textures prédéfinies que vous pouvez appliquer, mais vou
 
 <img alt="" src=images/POV-Ray-Rendering_Textures.png  style="width:600px;">
 
+
+
 #### Vignettes et aperçu en temps réel 
 
 Pour voir l\'impact des options de texture sélectionnées, vous pouvez consulter la vignette pré-rendu ou utiliser l\'aperçu en direct pour effectuer le rendu de la texture.
+
+
 
 ### Éclairage
 
@@ -30,11 +35,15 @@ Avec les trois types d\'éclairage : éclairage de zone, éclairage ponctuel et 
 
 <img alt="" src=images/POV-Ray-Rendering_Lights.png  style="width:600px;">
 
+
+
 #### Éclairage indirect (GI) 
 
 L\'atelier a la possibilité d\'activer l\'éclairage indirect pour créer des images plus réalistes.
 
 <img alt="" src=images/POV-Ray-Rendering_IndirectLighting.png  style="width:600px;">
+
+
 
 ### Environnements HDRI 
 
@@ -42,9 +51,13 @@ Avec la prise en charge des environnements HDRI, les environnements remarquables
 
 <img alt="" src=images/POV-Ray-Rendering_HDRI.png  style="width:600px;">
 
+
+
 ### Fichier inc de l\'utilisateur 
 
 Les utilisateurs expérimentés qui souhaitent accéder à toutes les options du moteur de rendu [POV-Ray](http://www.povray.org/) peuvent le faire en créant un fichier spécial. Pour plus de détails, voir la page [Power User](https://gitlab.com/usbhub/exporttopovray/-/blob/master/doc/PowerUser.md) sur notre Wiki.
+
+
 
 ## Utilisation
 
@@ -56,11 +69,17 @@ Il existe de nombreuses autres options sur les autres onglets, veuillez les expl
 
 ## Installation
 
-Cet atelier peut être installé et mis à jour à partir du <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Le moteur de rendu [POV-Ray](http://www.povray.org/) utilisé par l\'atelier doit être installé séparément. Voir [Installer POV](http://wiki.povray.org/content/HowTo:Install_POV).
+Cet atelier peut être installé et mis à jour à partir du <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Le moteur de rendu [POV-Ray](http://www.povray.org/) utilisé par l\'atelier doit être installé séparément. Voir [Installer POV](http://wiki.povray.org/content/HowTo:Install_POV). Pour les utilisateurs de Windows, le programme d\'installation peut être téléchargé depuis la [POV-Ray Download Page](https://www.povray.org/download/), pour les utilisateurs de Linux, il peut généralement être installé depuis le gestionnaire de paquets. Consultez les instructions détaillées sur le [wiki de POV-Ray](https://wiki.povray.org/content/HowTo:Install_POV) si vous êtes sur Mac.
 
-Pour terminer l\'installation, le chemin d\'accès à l\'exécutable POV-Ray doit être défini dans les préférences dz l\'atelier :
+Pour terminer l\'installation, le chemin d\'accès à l\'exécutable POV-Ray doit être défini dans les préférences de l\'atelier :
+
+-   **Windows :** **C:/Program Files/POV-Ray/v3.7/bin/pvengine64.exe** (le dossier **v*.*** peut changer en fonction de la version de POV-Ray)
+-   **Linux :** **/usr/bin/povray**
+-   **MacOS :** non disponible. Si vous avez plus d\'informations, n\'hésitez pas à nous en faire part.
 
 <img alt="" src=images/POV-Ray-Rendering_ExePath.png  style="width:600px;">
+
+
 
 ## Outils
 
@@ -72,6 +91,8 @@ Pour terminer l\'installation, le chemin d\'accès à l\'exécutable POV-Ray doi
 
 -   <img alt="" src=images/POV-Ray-Rendering_SpotLight.svg  style="width:32px;"> Spot Light : Insère un spot lumineux.
 
+
+
 ## Références
 
 -   Auteurs :
@@ -79,11 +100,15 @@ Pour terminer l\'installation, le chemin d\'accès à l\'exécutable POV-Ray doi
     -   DerUhrmacher : <https://gitlab.com/DerUhrmacher>
 -   Code source sur GitHub : <https://github.com/TheRaytracers/freecad-povray-render>
 
+
+
 ## Liens vers l\'atelier POV-Ray 
 
 -   Wiki de l\'atelier: <https://gitlab.com/usbhub/exporttopovray/-/tree/master/doc>
 -   Forum FreeCAD : <https://forum.freecadweb.org/viewtopic.php?f=9&t=48629>
 -   Signalez les bogues : Veuillez signaler les bogues sur GitHub ou sur le forum FreeCAD.
+
+
 
 ## Autres liens intéressants 
 

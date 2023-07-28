@@ -15,6 +15,8 @@ Pour une analyse par éléments finis, la géométrie doit être discrétisée e
 
 En fonction de votre système d\'exploitation et de votre paquetage d\'installation, Netgen peut être fourni avec FreeCAD ou pas. Pour plus d\'informations voir [FEM Installation des composants requis](FEM_Install/fr.md).
 
+
+
 ## Utilisation
 
 1.  Sélectionnez la forme que vous voulez analyser. Pour un volume, il doit s\'agir d\'un solide ou d\'un compsolide (composé de solides). Un compsolid est nécessaire si votre pièce est faite de plusieurs matériaux. (Un compsolid peut être créé avec la commande [Part Fragments booléens](Part_BooleanFragments/fr.md)).
@@ -22,6 +24,8 @@ En fonction de votre système d\'exploitation et de votre paquetage d\'installat
     -   Sélectionnez le bouton **Maillage → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> Maillage FEM à partir d'une forme de Netgen** dans le menu.
 2.  Modifiez éventuellement les paramètres.
 3.  Cliquez sur le bouton **Appliquer** pour réaliser un maillage, ou sur le bouton **OK** pour réaliser un maillage et fermer le dialogue.
+
+
 
 ## Propriétés
 
@@ -42,8 +46,8 @@ En fonction de votre système d\'exploitation et de votre paquetage d\'installat
 
 -    **Optimize**:
 
-    -   true (valeur par défaut); applique un algorithme d\'optimisation pour améliorer la qualité du maillage,
-    -   false;
+    -   true (valeur par défaut) ; applique un algorithme d\'optimisation pour améliorer la qualité du maillage,
+    -   false ;
 
 
 

@@ -50,6 +50,8 @@ Acest exemplu este menit a arăta cât de simplă este Metoda Elementelor Finite
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Să începem 
@@ -79,6 +81,8 @@ FreeCADGui.SendMsgToActiveView("ViewFit")
 
 #
 ```
+
+
 
 ### Analiza și analiza obiectelor 
 
@@ -506,6 +510,8 @@ doc.recompute()
 analysis_object.addObject(mesh)
 ```
 
+
+
 ### Recalculare
 
 
@@ -535,6 +541,8 @@ FemGui.setActiveAnalysis(doc.Analysis)
 
 ###
 ```
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -582,6 +590,8 @@ else:
 ```
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Prezentarea rezultatelor 
@@ -603,7 +613,11 @@ femmesh_obj.ViewObject.applyDisplacement(10)
 ###
 ```
 
+
+
 ### Informații suplimentere 
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -687,9 +701,11 @@ Distracție plăcută!
 </div>
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Python Code](Category_Python Code.md) > [FEM](Category_FEM.md) > FEM Tutorial Python/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Python Code](Category_Python Code.md) > [FEM](Category_FEM.md) > FEM Tutorial Python/ro

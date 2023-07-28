@@ -12,7 +12,7 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:24px;"> **TechDraw ExtensionSelectLineAttributes** tool opens a dialog box where you can select the attributes (style, width and color) for new cosmetic lines and centerlines created with the [Extensions tools](TechDraw_Workbench#Extensions.md), and specify the cascade spacing and delta distance. The line attributes are also used by the [TechDraw ExtensionChangeLineAttributes](TechDraw_ExtensionChangeLineAttributes.md) tool.
+The **TechDraw ExtensionSelectLineAttributes** tool opens a dialog box where you can select the attributes (style, width and color) for new cosmetic lines and centerlines created with the [Extensions tools](TechDraw_Workbench#Extensions.md), and specify the cascade spacing and delta distance. The line attributes are also used by the [TechDraw ExtensionChangeLineAttributes](TechDraw_ExtensionChangeLineAttributes.md) tool.
 
  ![](images/TechDraw_ExtensionSelectLineAttributes_Taskpanel.png )  
 *The Select line attributes task panel*
@@ -20,7 +20,7 @@ The <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="wi
 ## Usage
 
 1.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionSelectLineAttributes.svg" width=16px> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md)** button.
+    -   Press the **<img src="images/TechDraw_ExtensionSelectLineAttributes.svg" width=16px> [Select Line Attributes, Cascade Spacing and Delta Distance](TechDraw_ExtensionSelectLineAttributes.md)** button.
     -   Select the **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionSelectLineAttributes.svg" width=16px> Select Line Attributes, Cascade Spacing and Delta Distance** option from the menu.
 2.  The **Select line attributes** task panel opens.
 3.  Optionally change the **Line style**, the **Line width** and the **Line color**.

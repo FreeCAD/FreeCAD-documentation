@@ -382,10 +382,6 @@ Optionally you can also install these extra packages:
 
 -    `checkinstall`, if you intend to register your installed files into your system\'s package manager, so you can uninstall it later.
 
--    `python3-markdown`, for Addon Manager to display Markdown-formatted README.md files natively.
-
--    `python3-git`, for Addon Manager to use git to fetch and update workbenches and macros.
-
 #### Single command for Python 3 and Qt5 
 
 Requires Pyside2 available in Debian buster and the [freecad-stable/freecad-daily PPAs](Installing_on_Linux#Official_Ubuntu_repository.md).

@@ -39,16 +39,10 @@ Acest instrument desenează un arc de elipsă prin alegerea a patru puncte: cent
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
 -   Apăsați butonul **[<img src=images/Sketcher_CreateArcOfEllipse.png style="width:24px"> '''arc of ellipse'''**.
 -   Primul clic în vizualizarea 3D stabilește centrul de elipsă. Al doilea clic definește prima semiaxă și orientarea elipsei. Al treilea clic stabilește cealaltă semiaxă și începutul arcului. Cel de-al patrulea clic stabilește sfârșitul arcului.
--   După al patrulea clic, arcul de elipsă este creat, împreună cu un ansamblu de geometrie a construcției (cu linii albastre) aliniate la el (semiaxă major, semiaxă minor, două focare). Geometria construcției poate fi ștearsă dacă este necesar și este recreată mai târziu. Vezi [Constrânge alinierea internă](Sketcher_ConstrainInternalAlignment/ro.md) și [Afișează/Ascunde geometria internă](Sketcher_RestoreInternalAlignmentGeometry/ro.md).
+-   După al patrulea clic, arcul de elipsă este creat, împreună cu un ansamblu de geometrie a construcției (cu linii albastre) aliniate la el (semiaxă major, semiaxă minor, două focare). Geometria construcției poate fi ștearsă dacă este necesar și este recreată mai târziu. Vezi [Afișează/Ascunde geometria internă](Sketcher_RestoreInternalAlignmentGeometry/ro.md).
 -   Apăsați **ESC** sau click dreapta pe butonul mouse-ului pentru abandonarea funcțiie.
-
-
-</div>
 
 ## Peculiarities
 

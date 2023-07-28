@@ -9,7 +9,7 @@ By using the PySide module from inside FreeCAD, you have full control over its i
 -   Add or hide elements to existing panels
 -   Change, redirect or add connections between all those elements
 
-## Create Reference for the Main Window 
+## Create Reference to the Main Window 
 
 If you want to work on the FreeCAD interface, the very first thing to do is create a reference to the FreeCAD main window:
 

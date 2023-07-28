@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw WeldSymbol
-   MenuLocation:TechDraw → Add Welding Information to Leaderline
+   MenuLocation:TechDraw → Symbols → Add Welding Information to Leaderline
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Version:0.19
    SeeAlso:[TechDraw Leaderline](TechDraw_LeaderLine.md)
@@ -11,7 +11,7 @@
 
 ## Description
 
-The WeldingSymbol tool adds welding specifications to an existing leader line.
+The **TechDraw WeldingSymbol** tool adds welding specifications to an existing leader line.
 
  <img alt="" src=images/TechDraw_WeldingSymbol_example.png  style="width:330px;">  
 *Welding specification added to a leader line*
@@ -19,10 +19,17 @@ The WeldingSymbol tool adds welding specifications to an existing leader line.
 ## Usage
 
 1.  Select an existing [leaderline](TechDraw_LeaderLine.md).
-2.  Press the **<img src="images/TechDraw_WeldSymbol.svg" width=16px> [Add Welding Information to Leaderline](TechDraw_WeldSymbol.md)** button.
-3.  A task panel will open. It allows to set individual welding symbols and accompanying text to be added to the leader line.
-4.  Press the OK button to exit the dialog and save the changes.
-5.  After the welding symbol is created, it can be edited by double clicking the Welding Symbol in the Tree.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_WeldSymbol.svg" width=16px> [Add Welding Information to Leaderline](TechDraw_WeldSymbol.md)** button.
+    -   Select the **TechDraw → Symbols → <img src="images/TechDraw_WeldSymbol.svg" width=16px> Add Welding Information to Leaderline** option from the menu.
+3.  A task panel opens.
+4.  Specify the welding symbols and accompanying text to be added to the leader line.
+5.  Press the **OK** button.
+
+## Notes
+
+-   After creation a welding symbol can be edited by double clicking it in the [Tree view](Tree_view.md).
+-   There is a [preference parameter](TechDraw_Preferences.md) for the default welding symbol directory. You can add your own symbols in a personal directory.
 
 ## Properties
 
@@ -96,11 +103,6 @@ Individual symbols are formed by 64x64 pixel SVG files. Additional symbols can b
 -   The symbol is drawn in black on a transparent background. The stroke width is 0.5mm.
 -   The leader passes below symbols for the arrow side (see image on the left) and above symbols for the \"other\" side (see image on the right).
 -   There is no particular naming standard other than to append \"Up/Down\" to the arrow/other side symbols.
-
-## Notes
-
--   You can edit your WeldingSymbol by double clicking on it in the tree view. Double clicking in the graphics area is not yet supported.
--   There is a [preference parameter](TechDraw_Preferences.md) for the default welding symbol directory. You can add your own symbols in a personal directory.
 
 
 

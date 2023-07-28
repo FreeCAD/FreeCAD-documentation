@@ -108,15 +108,19 @@ FreeCAD prend en charge l\'exportation de fichiers SVG et PDF en fonction de vos
 
 Nous avons terminé le travail de base pour l\'[atelier Drawing](Drawing_Workbench/fr.md).
 
+
+
 ## Lecture recommandée 
 
 -   Pour savoir comment créer des modèles personnalisés, voir [Modèle de dessin ](Drawing_Template_HowTo/fr.md)
 -   Pour plus d\'informations sur les outils disponibles, consultez la page [Atelier Drawing](Drawing_Workbench/fr.md).
 
 
- {{Drawing Tools navi}}
+{{Drawing Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Drawing](Category_Drawing.md) > Drawing tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing tutorial/fr

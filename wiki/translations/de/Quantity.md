@@ -1,21 +1,19 @@
 # Quantity/de
 Die Größe ist eine Kombination einer Fließkommazahl und einer Einheit. Sie wird überall in FreeCAD benutzt, um Parameter und alle Arten von Ein- und Ausgaben zu behandeln.
 
+
+
 ## Allgemein
 
 In einem CAD- oder CAE-System ist es sehr wichtig, die Einheit eines Wertes im Auge zu behalten. Viel Ärger kann entstehen, wenn Einheiten durcheinander geworfen oder Ergebnisse in unterschiedlichen Einheitensystemen berechnet werden. Ein berühmtes Missgeschick ist der [Verlust des Mars Climate Orbiter](https://de.wikipedia.org/wiki/Mars_Climate_Orbiter) durch unterschiedliche Einheiten. Selbst innerhalb des gleichen Einheitensystems kommen die Einheiten in unterschiedlichen Varianten abhängig vom Verwendungszweck. Einfache Beispiele sind die Geschwindigkeit in km/h (Autos), m/s (Robotik) oder mm/min (Fräsen). Ein CAD-System muss verlässlich auf die Einheiten achten. Es muss auch mit ihnen rechnen und auf die richtige Einheit bei speziellen Parametern achten.
 
 Aus diesem Grund wurde das FreeCAD-Mengengerüst geschaffen. Es umfasst den gesamten Code und die Objekte zum Umgang mit Einheiten, Berechnungen, Benutzereingaben, Umrechnung in andere Einheitensysteme und die schöne Ausgabe von Werten und Einheiten. Langfristig sollte in FreeCAD kein Parameter nur eine Zahl sein.
 
+
+
 ### Unterstützte Einheiten 
 
-
-<div class="mw-translate-fuzzy">
-
-Der FreeCAD-Eingabe-Parser unterstützt eine Vielzahl von Einheiten und Einheitensystemen. Wir benutzen den griechischen Buchstaben für micro, aber akzeptieren auch \'u\' als Ersatz.
-
-
-</div>
+Der FreeCAD-Eingabe-Parser unterstützt eine Vielzahl von Einheiten und Einheitensystemen. FreeCAD unterstützt den griechischen Buchstaben \'µ\' für micro, akzeptiert aber auch \'u\' als Ersatz. Eine vollständige Liste aller unterstützter Einheiten befindet sich [hier](Expressions/de#Einheiten.md).
 
 Die detaillierte Beschreibung findest Du im Code:
 
@@ -51,13 +49,7 @@ Weil Winkel pysikalisch dimensionslos, aber trotzdem wichtig für ein CAD-System
 
 Oft muss man Einheiten von einem System in ein anderes umrechnen. Du hast beispielsweise alte Parametertabellen (with wired units). In diesen Fällen bietet FreeCAD ein Umrechnungswerkzeug genannt \'UnitsCalculator\', das bei der Übersetzung von Einheiten hilft.
 
-
-<div class="mw-translate-fuzzy">
-
-Die Beschreibung im Detail findest Du [hier](Std_UnitsCalculator/de.md).
-
-
-</div>
+Die Beschreibung im Detail befinden sich hier: [Std Einheitenrechner](Std_UnitsCalculator/de.md).
 
 ## InputField
 
@@ -74,13 +66,7 @@ The InputField is a QLineEdit derived Qt widget to handle all kinds of user inte
 
 The UnitsCalculator uses the InputField already.
 
-
-<div class="mw-translate-fuzzy">
-
-Hauptdokumentation: [InputField/de](InputField/de.md)
-
-
-</div>
+Hauptdokumentation: [Eingabefeld](InputField/de.md)
 
 Code:
 
@@ -236,6 +222,8 @@ import FreeCAD
 params = App.ParamGet("User parameter:BaseApp/Preferences/Units")
 params.GetInt('Decimals') # returns an int
 ```
+
+
 
 ## Anhang
 

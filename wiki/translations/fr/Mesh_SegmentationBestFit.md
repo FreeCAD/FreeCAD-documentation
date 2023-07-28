@@ -4,14 +4,14 @@
    Name/fr:Mesh Segmentation adaptée
    MenuLocation:Maillages → Créer des segments de maillage de surfaces ajustées...
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Division](Mesh_Segmentation/fr.md)
+   SeeAlso:[Mesh Segmentation](Mesh_Segmentation/fr.md)
 ---
 
 # Mesh SegmentationBestFit/fr
 
 ## Description
 
-La commande **Mesh Segmentation adaptée** crée des segments de maillage séparés pour les types de surface spécifiés d\'un objet maillé. La commande peut également identifier leurs paramètres, lesquels peuvent être utiles lors de la reconfiguration d\'un objet maillé.
+La commande **Segmentation adaptée** crée des segments de maillage séparés pour les types de surface spécifiés d\'un objet maillé. La commande peut également identifier leurs paramètres, lesquels peuvent être utiles lors de la reconfiguration d\'un objet maillé.
 
 
 
@@ -22,9 +22,9 @@ La commande **Mesh Segmentation adaptée** crée des segments de maillage sépar
     -   La **Shape Color** de l\'objet maillé ne doit pas être rouge.
 2.  Sélectionnez un seul objet maillé.
 3.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Mesh_SegmentationBestFit.svg" width=16px> [Créer des segments de maillage de surfaces ajustées...](Mesh_SegmentationBestFit/fr.md)**.
-    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_SegmentationBestFit.svg" width=16px> Créer des segments de maillage de surfaces ajustées...** du menu.
-4.  Le panneau des tâches **Segmentation du maillages** s\'ouvre.
+    -   Appuyez sur le bouton **<img src="images/Mesh_SegmentationBestFit.svg" width=16px> [Segmenter le maillage par des surfaces adaptées...](Mesh_SegmentationBestFit/fr.md)**.
+    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_SegmentationBestFit.svg" width=16px> Segmenter le maillage par des surfaces adaptées...** du menu.
+4.  Le panneau des tâches **Segmentation du maillage** s\'ouvre.
 5.  Appuyez sur l\'un des boutons **Paramètres...** pour identifier les paramètres d\'une surface :
     -   La boîte de dialogue **Ajustement de la surface** s\'ouvre.
     -   Sélectionnez une ou plusieurs faces appartenant à la surface :

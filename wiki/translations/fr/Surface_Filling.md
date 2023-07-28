@@ -21,6 +21,8 @@ La géométrie de base peut appartenir à des courbes créées avec l\'[atelier 
 <img alt="" src=images/Surface_Filling_example.png  style="width:600px;"> 
 *Deux surfaces remplies délimitées par quatre arêtes situées sur le plan XY. La surface de droite est en plus contrôlée par une arête non délimitée.*
 
+
+
 ## Utilisation
 
 1.  Appuyez sur le bouton **[<img src=images/Surface_Filling.svg style="width:16px"> [Remplissage](Surface_Filling/fr.md)**.
@@ -56,6 +58,8 @@ La géométrie de base peut appartenir à des courbes créées avec l\'[atelier 
 
 -   Appuyez sur **Echap** ou sur le bouton **Annuler** pour annuler l\'opération.
 
+
+
 ## Exemple
 
 
@@ -70,11 +74,15 @@ agit comme une contrainte supplémentaire pour la surface. L\'exemple simple sui
 5.  Editez l\'objet Surface et pour la **Support surface** sélectionnez la face cylindrique.
 6.  La forme modifiée correspond beaucoup mieux à la face cylindrique.
 
+
+
 ## Propriétés
 
 [Surface Remplissage](Surface_Filling/fr.md) (classe `Surface::Filling`) est dérivée de la classe de base [Part Feature](Part_Feature/fr.md) (classe `Part::Feature` via la sous-classe `Part::Spline`), elle partage donc toutes les propriétés de cette dernière.
 
 Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surface Remplissage a les propriétés suivantes dans l\'[éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ### Données
 
@@ -121,12 +129,16 @@ Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surfac
 
 -    {{PropertyData/fr|Maximum Segments|Integer}}: nombre maximum de segments, la valeur par défaut est {{Value|9}}.
 
+
+
 ### Vue
 
 
 {{TitleProperty|Base}}
 
--    {{PropertyView/fr|Control Points|Bool}}: la valeur par défaut est `False`. Mis à `True`, elle affichera une superposition avec les points de contrôle de la surface.
+-    **Control Points|Bool**: par défaut `False`. Mis à `True`, elle affichera une superposition avec les points de contrôle de la surface.
+
+
 
 ## Script
 

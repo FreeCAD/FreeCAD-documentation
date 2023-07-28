@@ -402,10 +402,6 @@ Opcjonalnie można również zainstalować te dodatkowe pakiety:
 
 -    `checkinstall`, jeśli chcesz zarejestrować zainstalowane pliki w systemowym menedżerze pakietów, aby móc je później odinstalować.
 
--    `python3-markdown`, aby Menadżer dodatków wyświetlał natywnie pliki README.md w formacie Markdown.
-
--    `python3-git`, aby Menadżer dodatków używał repozytorium Git do pobierania i aktualizowania środowisk pracy i makrodefinicji.
-
 
 
 #### Pojedyncze polecenie dla środowisk Python 3 i Qt5 

@@ -19,18 +19,22 @@ Mělo by být poznamenáno, že výsledná pevná látka nebude **parametrická*
 
 <img alt="Einige Beispiele für das Fegen mit dem gleichen länglichen Abschnitt und drei Arten von Flugbahnen." src=images/Solid_sweep.png‎  style="width:500px;">
 
+## Anwendung
 
-<div class="mw-translate-fuzzy">
+1.  Zwei 2D-Elemente der weiter unten gelisteten Arten erstellen, eins für den Querschnitt und eins für die Verschiebekurve.
 
-## Wie verwende ich 
+2.  Dafür wird entweder in der [Baumansicht](Tree_view/de.md) oder in der [3D-Ansicht](3D_view/de.md) ausgewählt (**Die Reihenfolge ist wichtig!**):
+    1.  Die Verschiebekurve (Pfad)
+    2.  Dann das Profil (Querschnitt)
 
--   Erstellen Sie zwei 2D-Elemente (eines für den Abschnitt und eines für die Flugbahn) der unten aufgeführten Typen.
--   Wählen Sie entweder in der Projektnavigation oder in der 3D-Ansicht zuerst die Flugbahn und dann das Profil aus. Die Reihenfolge ist wichtig!
--   Öffnen Sie den Makro-Manager, wählen Sie das Makro aus und klicken Sie auf \"Ausführen\".
--   Ein **Sweep** Objekt wird in der Projektnavigation erstellt.
+3.  Den [Makro-Manager](Macros/de.md) öffnen.
 
+4.  Das Makro **Solid Sweep** auswählen.
 
-</div>
+5.  
+    **Ausführen**anklicken.
+
+**Ergebnis:** Ein **Sweep**-Objekt wird im Projektbaum erstellt.
 
 ## Unterstützte 2D-Elemente 
 
@@ -46,6 +50,8 @@ Mělo by být poznamenáno, že výsledná pevná látka nebude **parametrická*
 -   Die Flugbahn kann entweder ein offenes oder ein geschlossenes Profil sein (Kreis-, Linien- und Bogensegmente), aber alle Elemente müssen tangential sein, da sonst die Form unerwartet ist. Beispielsweise erzeugt eine Flugbahn mit geraden Ecken wie ein Rechteck keinen Volumenkörper.
 -   Wenn der Volumenkörper verdreht wird, bearbeiten Sie das Makro, um den Wert *isFrenet* in 0 (Null) zu ändern, und versuchen Sie es erneut.
 -   Wenn Sie die Variable *makeSolid* im Makro auf 0 (Null) setzen, werden mehrere Flächen mit offenen Enden erzeugt.
+
+
 
 ## Skript
 

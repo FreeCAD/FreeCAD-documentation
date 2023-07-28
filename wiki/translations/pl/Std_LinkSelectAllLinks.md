@@ -1,25 +1,30 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std LinkSelectAllLinks
-   MenuLocation:
-   Workbenches:All
+   Name/pl:Std: Wybierz wszystkie łącza
+   MenuLocation:brak
+   Workbenches:wszystkie
    Version:0.19
-   SeeAlso:[Std LinkSelectLinked](Std_LinkSelectLinked.md), [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std SelBack](Std_SelBack.md), [Std SelForward](Std_SelForward.md)
+   SeeAlso:[Przejdź do połączonego obiektu](Std_LinkSelectLinked/pl.md), [Przejdź do najgłębiej połączonego obiektu](Std_LinkSelectLinkedFinal/pl.md), [Przywróć wybór](Std_SelBack/pl.md), [Ponów wybór](Std_SelForward/pl.md)
 ---
 
 # Std LinkSelectAllLinks/pl
 
-## Description
 
-The **Std LinkSelectAllLinks** command selects all [App Link](App_Link.md) objects, links, that directly or indirectly link to the same source object.
 
-## Usage
+## Opis
 
-1.  To find links in multiple documents make sure the [Tree view](Tree_view.md) is switched to [MultiDocument mode](Std_TreeMultiDocument.md).
-2.  Select a source object.
-3.  Select the **Link actions → <img src="images/Std_LinkSelectAllLinks.svg" width=16px> Select all links** option from the [Tree view](Tree_view.md) context menu. This option is only available if the selected object does have links.
-4.  All links that link to the source object are selected.
-5.  Optionally use **<img src="images/Std_SelBack.svg" width=16px> [Std SelBack](Std_SelBack.md)** to reselect the source object.
+Polecenie **Wybierz wszystkie łącza** wybiera wszystkie obiekty [App Link](App_Link/pl.md), łącza, które bezpośrednio lub pośrednio łączą się z tym samym obiektem źródłowym.
+
+
+
+## Użycie
+
+1.  Aby znaleźć linki w wielu dokumentach, upewnij się, że [Widok drzewa](Tree_view/pl.md) jest przełączony w tryb [Wiele dokumentów](Std_TreeMultiDocument/pl.md).
+2.  Wybierz obiekt źródłowy.
+3.  Z menu kontekstowego [Widoku drzewa](Tree_view/pl.md) wybierz opcję **Akcje złączami → <img src="images/Std_LinkSelectAllLinks.svg" width=16px> Wybierz wszystkie łącza**. Opcja ta jest dostępna tylko wtedy, gdy wybrany obiekt posiada powiązania.
+4.  Zaznaczone zostaną wszystkie łącza, które prowadzą do obiektu źródłowego.
+5.  Opcjonalnie użyj **<img src="images/Std_SelBack.svg" width=16px> [Przywróć wybór](Std_SelBack/pl.md)**, aby ponownie wybrać obiekt źródłowy.
 
 
 

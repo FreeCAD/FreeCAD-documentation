@@ -202,7 +202,7 @@ Validez. Puis remettez angles et coordonnées à 0.
 
 Il peut être utile de connaître des dimensions de certaines parties du sketch, issues du calcul interne de FreeCAD. On peut s\'en servir juste pour contrôle, ou les utiliser par la suite pour paramétrer d\'autres dimensions par exemple.
 
-Dans l\'arborescence Modèle, développez si nécessaire le corps *Body part1* puis *Pad* pour afficher la première esquisse (Sketch). Double-cliquez dessus (ou cliquez avec le bouton droit de la souris et sélectionnez *Modifier l\'esquisse* dans le menu contextuel), puis cliquez sur <img alt="" src=images/Sketcher_ToggleConstraint.svg  style="width:24px;"> [Basculer entre contrainte référence/pilote](Sketcher_ToggleDrivingConstraint/fr.md). (**Remarque:** En fonction de la résolution d\'affichage de votre ordinateur, cette icône pourrait ne pas être visible. À l\'extrémité droite de la barre d\'outils Contraintes, vous pouvez trouver un bouton **»**. Cliquez dessus pour le développer et accéder aux icônes réduites.) À partir de maintenant, nous pouvons créer des cotes de référence plutôt que des contraintes dimensionnelles : elles seront bleues et n'auront aucune influence sur les géométries de l'esquisse, elles sont calculées automatiquement.
+Dans l\'arborescence Modèle, développez si nécessaire le corps *Body part1* puis *Pad* pour afficher la première esquisse (Sketch). Double-cliquez dessus (ou cliquez avec le bouton droit de la souris et sélectionnez *Modifier l\'esquisse* dans le menu contextuel), puis cliquez sur <img alt="" src=images/Sketcher_ToggleConstraint.svg  style="width:24px;"> [Basculer les contraintes pilotantes/pilotées](Sketcher_ToggleDrivingConstraint/fr.md). (**Remarque :** En fonction de la résolution d\'affichage de votre ordinateur, cette icône pourrait ne pas être visible. À l\'extrémité droite de la barre d\'outils Contraintes, vous pouvez trouver un bouton **»**. Cliquez dessus pour le développer et accéder aux icônes réduites.) À partir de maintenant, nous pouvons créer des cotes de référence plutôt que des contraintes dimensionnelles : elles seront bleues et n'auront aucune influence sur les géométries de l'esquisse, elles sont calculées automatiquement.
 
 Vous pouvez afficher ces cotes par exemple :
 
@@ -238,11 +238,11 @@ Il doit apparaître maintenant un segment violet à la place de cette arrête. F
 
 On peut maintenant se servir de ces segments (et surtout les points des extrémités) pour centrer le cercle, il faut cependant rajouter encore deux segments de construction : par exemple les diagonales.
 
-Cliquez sur <img alt="" src=images/Sketcher_AlterConstruction.svg  style="width:24px;"> [Mode Construction](Sketcher_ToggleConstruction/fr.md), nous passons en mode lignes de construction: les segments seront en bleu et ne seront pas des arrêtes sur la pièce. Ils vont permettre d\'accrocher le centre du cercle. Créez les diagonales de la même manière que vous avez dessiné les premiers segments. Assurez vous que tous les points soient coïncidents.
+Cliquez sur <img alt="" src=images/Sketcher_AlterConstruction.svg  style="width:24px;"> [Basculer le mode de la géométrie de construction](Sketcher_ToggleConstruction/fr.md), nous passons en mode lignes de construction: les segments seront en bleu et ne seront pas des arrêtes sur la pièce. Ils vont permettre d\'accrocher le centre du cercle. Créez les diagonales de la même manière que vous avez dessiné les premiers segments. Assurez vous que tous les points soient coïncidents.
 
 Sélectionnez ensuite le centre du cercle, puis les deux diagonales bleues et cliquez sur <img alt="" src=images/Constraint_PointOnObject.svg  style="width:24px;"> [Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md), le cercle doit se centrer à l\'intersection des diagonales, c\'est dire au centre de la face. L\'esquisse doit être verte, complètement contrainte (c\'est indispensable). Remarquez qu\'à part le rayon du cercle, il n\'est donc plus nécessaire de donner une valeur numérique comme contrainte.
 
-Veuillez noter qu\'en plus de faire passer la barre d\'outils en mode construction, le bouton <img alt="" src=images/Sketcher_AlterConstruction.svg  style="width:24px;"> [Mode construction](Sketcher_ToggleConstruction/fr.md) peut également basculer des éléments Sketcher individuels en mode construction s\'ils ont été sélectionnés. Si vous basculez accidentellement un élément en mode construction, vous pouvez obtenir une erreur lorsque vous quittez l\'esquisse.
+Veuillez noter qu\'en plus de faire passer la barre d\'outils en mode construction, le bouton <img alt="" src=images/Sketcher_AlterConstruction.svg  style="width:24px;"> [Basculer le mode de la géométrie de construction](Sketcher_ToggleConstruction/fr.md) peut également basculer des éléments Sketcher individuels en mode construction s\'ils ont été sélectionnés. Si vous basculez accidentellement un élément en mode construction, vous pouvez obtenir une erreur lorsque vous quittez l\'esquisse.
 
 ![](images/GGTuto1_8.PNG )
 
@@ -279,9 +279,11 @@ Vous pouvez aussi continuer avec cet autre tutoriel d\'une pièce un peu plus co
 [Tutoriel d\'introduction PartDesign](Basic_Part_Design_Tutorial/fr.md)
 
 
- {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+{{PartDesign Tools navi
+
+}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Creating a simple part with PartDesign/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Creating a simple part with PartDesign/fr

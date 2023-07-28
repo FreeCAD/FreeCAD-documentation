@@ -17,7 +17,11 @@ Se você gostaria de contribuir com o FreeCAD, por favor [doar](donate/pt-br.md)
 
 Se você gostaria de saber como o FreeCAD começou há anos, visite a página [História](History/pt-br.md).
 
+
+
 ## Usando o FreeCAD 
+
+
 
 ### Introdução
 
@@ -41,6 +45,8 @@ Veja também:
 
 </div>
 
+
+
 ### Conceitos Básicos do Software 
 
 
@@ -55,6 +61,8 @@ Veja também:
 
 
 </div>
+
+
 
 ### Bancadas de trabalho 
 
@@ -74,9 +82,13 @@ Veja também:
 
 -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> A [bancada de trabalho FEM](FEM_Workbench/pt-br.md) fornece um fluxo de trabalho de Análise de Elementos Finitos (FEA).
 
--   <img alt="" src=images/Workbench_Image.svg  style="width:32px;"> A[bancada de trabalho Image](Image_Workbench/pt-br.md) por trabalhar com imagens bitmap.
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> A [bancada de trabalho Inspection Workbench](Inspection_Workbench/pt-br.md) é feito para lhe dar ferramentas específicas para o exame das formas. Ainda está em desenvolvimento.
+
+
+</div>
 
 -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> A [bancada de trabalho Mesh](Mesh_Workbench/pt-br.md) por trabalhar com malhas trianguladas.
 
@@ -88,19 +100,41 @@ Veja também:
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> A [bancada de trabalho Part](Part_Workbench/pt-br.md) para trabalhar com peças CAD.
+
+
+</div>
 
 -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> A [bancada de trabalho Part Design](PartDesign_Workbench/pt-br.md) para a construção de formas de peças a partir de esboços.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> A [bancada de trabalho Path](Path_Workbench/pt-br.md) é usado para produzir instruções do Código G. Ainda está em desenvolvimento.
+
+
+</div>
 
 -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> A [bancada de trabalho Points](Points_Workbench/pt-br.md) por trabalhar com nuvens de pontos.
 
--   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> A [bancada de trabalho Raytracing](Raytracing_Workbench/pt-br.md) por trabalhar com o Ray Tracing (renderização).
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> A [bancada de trabalho Reverse Engineering ](Reverse_Engineering_Workbench/pt-br.md) destina-se a fornecer ferramentas específicas para converter formas/sólidos/malhas em características paramétricas compatíveis com o FreeCAD. Ainda está em desenvolvimento.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> A [bancada de trabalho Robot](Robot_Workbench/pt-br.md) para o estudo dos movimentos dos robôs.
+
+
+</div>
 
 -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> A [bancada de trabalho Sketcher](Sketcher_Workbench/pt-br.md) por trabalhar com esboços com restrições geométricas.
 
@@ -110,7 +144,13 @@ Veja também:
 
 -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> A [bancada de trabalho Surface](Surface_Workbench/pt-br.md) fornece ferramentas para criar e modificar superfícies. É similar ao [Construtor de formas](Part_Builder/pt-br.md) opção de face a partir das bordas.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> A [bancada de trabalho TechDraw](TechDraw_Workbench/pt-br.md) para a produção de desenhos técnicos a partir de modelos 3D. É o sucessor da [bancada de trabalho Drawing](Drawing_Workbench/pt-br.md).
+
+
+</div>
 
 -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> A [bancada de trabalho Test Framework](Testing/pt-br.md) é para a depuração do FreeCAD.
 
@@ -124,6 +164,8 @@ Os usuários de avançados escreveram vários [macros](macros.md) para melhorar 
 
 Desde FreeCAD 0.17, muitas macros podem ser instaladas usando o [Gerenciador de Extensões](Std_AddonMgr/pt-br.md). Para uma lista das macros, consulte a página [receitas macro](Macros_recipes/pt-br.md). Para instalação manual veja [Como instalar macros](How_to_install_macros/pt-br.md).
 
+
+
 ### Bancadas de Trabalho Externas 
 
 Quando muitas macros ou funções são desenvolvidas em conjunto e organizadas em barras de ferramentas e menus, elas podem se tornar uma nova bancada de trabalho.
@@ -132,15 +174,21 @@ As [Bancadas de trabalho externas](External_workbenches/pt-br.md) são coleçõe
 
 Desde FreeCAD 0.17, muitas bancadas de trabalho podem ser instaladas usando o [Gerenciador de Extensões](Std_AddonMgr/pt-br.md). Para instalação manual veja [Como instalar bancadas de trabalho adicionais](How_to_install_additional_workbenches/pt-br.md).
 
+
+
 ## Referências
 
 -   [Lista de Comandos](List_of_Commands/pt-br.md): Uma lista completa dos comandos do FreeCAD disponíveis
+
+
 
 ## Ajuda Online 
 
 Esta é a ajuda online oficial do FreeCAD. Note que o sistema de ajuda online está sendo refeito neste momento. Será usado para gerar um arquivo .CHM, que virá com as distribuições em binário do FreeCAD. Neste momento a ajuda online resume algumas das seções mais completas deste wiki.
 
 -   [Conteúdos da Ajuda Online](Online_Help_Toc/pt-br.md)
+
+
 
 ## Mais Informações 
 

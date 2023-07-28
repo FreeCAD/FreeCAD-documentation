@@ -1,6 +1,8 @@
 # Installing on Linux/es
 {{TOCright}}
 
+
+
 ## Vista general 
 
 
@@ -17,6 +19,8 @@ La instalación de FreeCAD en los sistemas Linux más conocidos ha sido aprobada
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
+
+
 ## Ubuntu y sistemas basados en Ubuntu 
 
 
@@ -29,6 +33,8 @@ Muchas distribuciones de Linux están basadas en Ubuntu y comparten sus reposito
 
 
 <div class="mw-collapsible-content">
+
+
 
 ### Versión oficial 
 
@@ -43,6 +49,8 @@ sudo apt install freecad
 **Nota:**
 
 el paquete del Universo Ubuntu puede estar desactualizado, ya que el paquete puede ir por detrás del último código fuente estable. En este caso, se sugiere instalar el paquete desde el `-estable` PPA abajo. Además, se puede instalar el paquete `-diario` para probar la rama de desarrollo.
+
+
 
 ### Versión estable PPA 
 
@@ -120,6 +128,8 @@ Instale el APP estable a través de la Interfaz de Línea de Comando (CLI):
 
 debido a problemas de empaquetado, en ciertas versiones de Ubuntu el paquete `freecad-doc` ha colisionado con la instalación de FreeCAD o una de sus dependencias; si este es el caso, retire el paquete `freecad-doc` y sólo instale el paquete `freecad`. Si el paquete `freecad-doc` no existe, entonces ignóralo.
 
+
+
 #### Comprobando la instalación 
 
 :   4\. Una vez que tenga el APP estable añadido a sus fuentes usando uno de los métodos anteriores, el paquete `freecad` instalará esta versión de PPA sobre la proporcionada por el repositorio del Universo Ubuntu. Puede ver las versiones disponibles con el siguiente comando `apt-cache`:
@@ -159,6 +169,8 @@ ubuntu@ubuntu:~$ apt-cache policy freecad-doc
     
 ```
     
+
+
 
 ### Desarrollo APP (Diario) 
 
@@ -205,6 +217,8 @@ Es posible instalar los paquetes `-estable` y `-diario` en el mismo sistema. Est
 
 </div>
 
+
+
 ## Debian y otros sistemas basados en Debian 
 
 A partir de Debian Lenny, FreeCAD está disponible directamente de los repositorios de software Debian y puede ser installado vía synaptic o simplemente con:
@@ -243,11 +257,15 @@ Se ofrece un vasto programa de lanzamiento de paquetes de FreeCAD. Por favor, vi
 
 Generalmente para seleccionar la distribución correcta de openSUSE que se necesita es necesario hacer clic en el botón particular **View**.
 
+
+
 ### Estable
 
 La versión del paquete estable: [Repositorios estables en openSUSE](https://software.opensuse.org/package/FreeCAD). La versión correcta de la distribución de openSUSE debe ser seleccionada en la parte inferior de la página web.
 
 Nota: openSUSE tiene varias opciones para elegir al descargar FreeCAD. Para ver estas opciones, visite [Encuesta sobre los repositorios estables en openSUSE](https://software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=FreeCAD).
+
+
 
 ### Desarrollo
 
@@ -330,11 +348,15 @@ Instalando FreeCAD en Arch Linux y derivados (ex. Manjaro):
 pacman -S freecad
 ```
 
+
+
 ## Otros
 
 Si averiguas que tu sistema incorpora FreeCAD pero no está incluido en esta página, por favor dínoslo en los [foros](http://forum.freecadweb.org/viewforum.php?f=21)!
 
 Diversos paquetes de FreeCAD alternativos, no oficiales están disponibles en la red, por ejemplo para sistemas como Slackware o Fedora. Una búsqueda en la red puede darte rápidamente algunos resultados.
+
+
 
 ### Instalación en otros sistemas Linux/Unix 
 
@@ -370,6 +392,8 @@ El nombre del paquete es sensible a las mayúsculas y minúsculas, así que prue
 </div>
 
 Si eso todavía no es lo suficientemente bueno, y no puedes localizar otra fuente de un paquete precompilado para tu situación, necesitarás [Compilar FreeCAD tú mismo](Compile_on_Linux/es.md).
+
+
 
 ## Próximo paso 
 

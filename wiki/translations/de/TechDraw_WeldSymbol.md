@@ -2,7 +2,7 @@
 - GuiCommand:/de
    Name:TechDraw WeldSymbol
    Name/de:TechDraw Schweißsymbol
-   MenuLocation:TechDraw → Hinzufügen von Schweißinformationen zur Hinweislinie
+   MenuLocation:TechDraw → Symbols → Hinzufügen von Schweißinformationen zur Hinweislinie
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Version:0.19
    SeeAlso:[TechDraw Hinweislinie](TechDraw_LeaderLine/de.md)
@@ -10,22 +10,39 @@
 
 # TechDraw WeldSymbol/de
 
+
+
 ## Beschreibung
 
-Das Werkzeug Schweißsymbol fügt einer bestehenden Hinweislinie Schweißspezifikationen hinzu.
+Das Werkzeug **TechDraw Schweißsymbol** fügt einer bestehenden Hinweislinie Schweißspezifikationen hinzu.
 
 <img alt="" src=images/TechDraw_WeldingSymbol_example.png  style="width:330px;"> 
 *Schweißspezifikation zu einer Hinweislinie hinzugefügt*
 
+
+
 ## Anwendung
 
 1.  Eine vorhandene [Hinweislinie](TechDraw_LeaderLine/de.md) auswählen.
-2.  Die Schaltfläche **<img src="images/TechDraw_WeldSymbol.svg" width=16px> [Hinzufügen von Schweißinformationen zur Hinweislinie](TechDraw_WeldSymbol/de.md)** drücken.
-3.  Der Aufgabenbereich wird geöffnet. Er ermöglicht es, individuelle Schweißsymbole und begleitenden Text festzulegen, die der Hinweislinie hinzugefügt werden.
-4.  Die Schaltfläche OK drücken, um den Dialog zu verlassen und die Änderungen zu speichern.
-5.  Nachdem das Schweißsymbol erstellt wurde, kann es durch Doppelklicken auf das Schweißsymbol im Baum bearbeitet werden.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_WeldSymbol.svg" width=16px> [Hinzufügen von Schweißinformationen zur Hinweislinie](TechDraw_WeldSymbol/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Symbols → <img src="images/TechDraw_WeldSymbol.svg" width=16px> Hinzufügen von Schweißinformationen zur Hinweislinie** auswählen.
+3.  Der Aufgaben-Bereich wird geöffnet.
+4.  Schweißsymbole und begleitenden Text festlegen, die der Hinweislinie hinzugefügt werden sollen.
+5.  Die Schaltfläche **OK** drücken.
+
+
+
+## Hinweise
+
+-   Nach Erstellung kann ein Schweißsymbol mit Doppelklick in der [Baumansicht](Tree_view/de.md) zum Bearbeiten aktiviert werden.
+-   Es gibt einen [Parameter](TechDraw_Preferences/de.md) in den Einstellungen für das Standardverzeichnis mit Schweißsymbolen. Eigene Symbole können in einem persönlichen Verzeichnis hinzugefügt werden.
+
+
 
 ## Eigenschaften
+
+
 
 ### Schweißsymbol
 
@@ -36,6 +53,8 @@ Das Werkzeug Schweißsymbol fügt einer bestehenden Hinweislinie Schweißspezifi
 -    {{PropertyData/de|Alternating Weld}}: Versetzt das untere Symbol, um wechselseitig Schweißungen anzuzeigen.
 
 -    {{PropertyData/de|Tail Text}}: Text, der am Ende der Hinweislinie angezeigt werden soll.
+
+
 
 ### Kacheln
 
@@ -54,6 +73,8 @@ Jedes einzelne Symbol (\"Pfeilseite\" und \"andere Seite\") wird durch ein \"Kac
 -    {{PropertyData/de|Center Text}}: Text, der oberhalb/unterhalb des SVG-Symbols angezeigt werden soll.
 
 -    {{PropertyData/de|Right Text}}: Text, der rechts neben dem SVG-Symbol angezeigt werden soll.
+
+
 
 ## Skripten
 
@@ -85,6 +106,8 @@ App.activeDocument().DrawTileWeld001.RightText = "right text"
 App.activeDocument().DrawTileWeld001.CenterText = "center text"
 ```
 
+
+
 ## Svg Symbol Kacheln 
 
 -   Einzelne Symbole werden durch 64x64 Pixel große SVG-Dateien gebildet. Zusätzliche Symbole können in einem SVG-Programm wie z.B. [Inkscape](https://en.wikipedia.org/wiki/Inkscape) aus einem der mitgelieferten Symbole als Vorlage erstellt werden.
@@ -95,11 +118,6 @@ App.activeDocument().DrawTileWeld001.CenterText = "center text"
 -   Das Symbol wird in Schwarz auf einem transparenten Hintergrund gezeichnet. Die Strichstärke beträgt 0,5 mm.
 -   Die Hinweislinie verläuft unterhalb der Symbole für die Pfeilseite (siehe Abbildung links) und oberhalb der Symbole für die \"andere\" Seite (siehe Abbildung rechts).
 -   Es gibt keinen besonderen Namensstandard, außer dass bei Bedarf \"Auf/Ab\" an die Symbole der Pfeil- und der anderen Seite angehängt wird.
-
-## Hinweise
-
--   Du kannst dein Schweißsymbol bearbeiten, indem du in der Baumansicht darauf doppelklickst. Ein Doppelklick in den Grafikbereich wird noch nicht unterstützt.
--   Es gibt einen [Einstellungsparameter](TechDraw_Preferences/de.md) für das Standard Schweißsymbolverzeichnis. Du kannst deine eigenen Symbole in einem persönlichen Verzeichnis hinzufügen.
 
 
 

@@ -1,27 +1,34 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std PrintPreview
-   MenuLocation:File → Print preview...
-   Workbenches:All
-   SeeAlso:[Std Print](Std_Print.md)
+   Name/pl:Std: Podgląd wydruku
+   MenuLocation:Plik → Podgląd wydruku ...
+   Workbenches:wszystkie
+   SeeAlso:[Drukuj](Std_Print/pl.md)
 ---
 
 # Std PrintPreview/pl
 
-## Description
 
-The **Std PrintPreview** command will show a preview of the result of the [Std Print](Std_Print.md) command. You can also print directly from the preview dialog box.
 
-## Usage
+## Opis
 
-1.  If required activate the correct [TechDraw](TechDraw_Workbench.md) page or change the [3D view](3D_View.md) to your liking.
-2.  Select the **File → <img src="images/Std_PrintPreview.svg" width=16px> Print preview...** option from the menu.
-3.  The Print Preview dialog box that pops up has several button options. If you have zoomed in you can pan by holding down the left mouse button and moving the mouse.
-4.  Use the dialog box\'s **Print** button.
+Polecenie **Podgląd wydruku** wyświetli podgląd wyniku polecenia [Drukuj](Std_Print/pl.md). Można też drukować bezpośrednio z okna dialogowego podglądu.
 
-## Options
 
--   Press **Esc** or the **Close** button (provided by the OS) to abort the command.
+
+## Użycie
+
+1.  W razie potrzeby aktywuj właściwą stronę [Rysunku Roboczego](TechDraw_Workbench/pl.md) lub zmień okno [widoku 3D](3D_view/pl.md) według własnych upodobań.
+2.  Wybierz z menu opcję **Plik → <img src="images/Std_PrintPreview.svg" width=16px> Podgląd wydruku...**.
+3.  Wyświetlone okno dialogowe podglądu wydruku zawiera kilka opcji przycisków. Jeśli powiększyłeś obraz, możesz go przesuwać, przytrzymując lewy przycisk myszy i poruszając myszą.
+4.  Użyj przycisku **Drukuj** w oknie dialogowym.
+
+
+
+## Opcje
+
+-   Naciśnij **Esc** lub przycisk **Zamknij** *(dostarczany przez system operacyjny)*, aby przerwać wykonywanie polecenia.
 
 
 

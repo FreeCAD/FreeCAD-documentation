@@ -1,9 +1,7 @@
 ---
 - GuiCommand:/fr
-   Name:Sketcher Conics
+   Name:Sketcher CompCreateConic
    Name/fr:Sketcher Coniques
-   Icon:Sketcher_CompCreateConic.png
-   MenuLocation:
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
 ---
 
@@ -12,6 +10,8 @@
 ## Description
 
 **Créer une conique** est un bouton d\'icône dans la barre d\'outils Géométries d\'esquisse qui regroupe les outils de création de courbes basées sur la section d\'un cône. Il suffit de cliquer sur la flèche bas à sa droite pour dérouler les icônes qu\'il regroupe et sélectionner un outil.
+
+
 
 ## Types de coniques 
 

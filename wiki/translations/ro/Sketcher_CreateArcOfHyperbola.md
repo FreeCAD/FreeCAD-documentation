@@ -13,11 +13,15 @@
 
 </div>
 
+
+
 ## Descriere
 
 Acest instrument creează un arc de hiperbola definit prin centru, rază majoră și puncte finale.
 
 ![](images/Sketcher_Arc_of_Hyperbola_01.png )
+
+
 
 
 <div class="mw-translate-fuzzy">

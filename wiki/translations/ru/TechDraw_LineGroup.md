@@ -10,11 +10,19 @@
 
 {{TOCright}}
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Обзор
+
+
+</div>
 
 LineGroups are used to control the appearance of various types of lines.
 
-### Usage
+## Usage
 
 1.  Go to the preferences tab *[Annotation](TechDraw_Preferences#Annotation.md)*.
 2.  Select in the field **Line Width Group** a LineGroup. These are the groups defined in the LineGroup definition csv file.
@@ -24,9 +32,9 @@ To change the LineGroups definition file
 1.  Go to the preferences tab *[General](TechDraw_Preferences#General.md)*.
 2.  Select in the field **Line Group File** a LineGroup definition file.
 
-### Customizing LineGroups 
+## Customizing LineGroups 
 
-If you have write permission you can edit `LineGroup.csv` to add your own LineGroups.
+If you have write permission, you can edit `LineGroup.csv` to add your own LineGroups.
 
 This file is usually in:
 
@@ -71,6 +79,8 @@ Note: A new preference has been added to allow you to use your own personal Line
 *FC 0.70mm,0.35,0.50,0.70,1.4
 *FC 1.00mm,0.50,0.70,1.00,2.00
 ```
+
+
 
 ## Примечания
 

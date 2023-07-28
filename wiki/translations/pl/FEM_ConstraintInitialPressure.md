@@ -3,7 +3,7 @@
    Name:FEM ConstraintInitialPressure
    MenuLocation:Model → Fluid Constraints → Constraint initial pressure
    Workbenches:[FEM](FEM_Workbench.md)
-   Version:1.0
+   Version:0.21
    SeeAlso:[FEM Constraint initial flow velocity](FEM_ConstraintInitialFlowVelocity.md)
 ---
 

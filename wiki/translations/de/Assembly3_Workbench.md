@@ -1,37 +1,31 @@
-# <img alt="Assembly3 workbench icon" src=images/Assembly3_workbench_icon.svg  style="width:64px;"> Assembly3 Workbench/de
+# <img alt="Symbol des Arbeitsbereichs Assembly3" src=images/Assembly3_workbench_icon.svg  style="width:64px;"> Assembly3 Workbench/de
 
 
 {{TOCright}}
 
 
 
-## Einführung
+## Einleitung
 
-<img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/de.md) ist ein [externer Arbeitsbereich](External_workbenches/de.md), der dem Zusammenbau von verschiedenen Körpern dient, die entweder in einem einzigen oder in mehreren separaten Dokumenten gespeichert sind. Der Arbeitsbereich basiert auf einigen Änderungen der Kernfunktionen, die mit FreeCAD 0.19 eingeführt wurden (z.B. [App-Link](App_Link/de.md)), sodass der Assembly3 Arbeitsbereich nicht mit früheren Versionen verwendet werden kann.
+<img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/de.md) ist ein [externer Arbeitsbereich](External_workbenches/de.md), der dem Zusammenbau von verschiedenen Körpern dient, die entweder in einem einzigen oder in mehreren separaten Dokumenten gespeichert sind. Der Arbeitsbereich basiert auf einigen Änderungen der Kernfunktionen, die mit FreeCAD 0.19 eingeführt wurden (z.B. [App-Link](App_Link/de.md)), sodass der Arbeitsbereich Assembly3 nicht mit früheren Versionen verwendet werden kann.
 
 Die Hauptmerkmale des Assembly3-Arbeitsbereichs sind
 
 -   ein **dynamischer/interaktiver Löser**. Das heißt, dass man Teile mit der Maus bewegen kann, während der Löser die Bewegung(sfreiheit) einschränkt. Dies erlaubt z. B. ein Rad mit einer Achse zu verbinden und das Rad interaktiv mit der Maus zu drehen.
--   **Verknüpfungen**. Das bedeutet, dass man ein einzelnes Teil, z. B. eine Schraube, mehrfach in einer Baugruppe (an verschiedenen Stellen) verwenden kann, ohne die Geometrie zu duplizieren.
--   **externe Verknüpfungen**. Es ist möglich, dass ein Freecad-Dokument nur eine Baugruppe und keine Einzelteile enthält. Alle Teile können in separaten Dateien abgelegt sein. Die Dateien könnten sich auch in einer Bibliothek oder sonstwo im Dateisystem befinden. Als einzige Voraussetzung muss die Datei geladen sein, wenn die Verknüpfung angelegt wird. Nachdem die Verknüpfung erstellt wurde, muss die Datei geöffnet sein, um Verknüpfungen, die die Datei betreffen, zu aktualisieren. Assembly3 erreicht dies, indem es die Dateien bei Bedarf im Hintergrund öffnet.
--   **hierarchische Baugruppen**. Wie im wirklichen Leben kann eine mechanische Baugruppe aus Unterbaugruppen bestehen. Diese können wiederum aus Unterbaugruppen bestehen und so weiter.
--   das **Einfrieren von Baugruppen**. Da die CPU nur eine bestimmte Anzahl gleichzeitiger Bedingungen in Echtzeit verarbeiten kann, ermöglicht das Einfrieren von Baugruppen die Anwendung von Bedingungen auch für große Baugruppen. Durch das Einfrieren von fertigen Baugruppen oder Bedingungen, die nicht dynamisch bleiben müssen (z. B. geschweißte, geschraubte oder geklebte Teile), werden diese von Aktualisierungsberechnungen ausgeschlossen und vom Assembly3-Löser als starre Geometrie betrachtet.
+-   **Verknüpfungen**. Damit kann ein einzelnes Teil, z. B. eine Schraube, mehrfach (an unterschiedlichen Stellen) in einem Zusammenbau (einer Baugruppe) zu verwenden, ohne die Geometrie zu vervielfachen.
+-   **externe Verknüpfungen**. Es ist möglich, dass ein FreeCAD-Dokument nur einen Zusammenbau und keine Einzelteile enthält. Alle Bauteile können in separaten Dateien abgelegt sein. Die Dateien könnten auch in einer Bibliothek oder anderswo im Dateisystem abgelegt sein. Die einzige Voraussetzung ist die, dass die Datei geladen sein muss, wenn die Verknüpfung angelegt wird. Nachdem die Verknüpfung erstellt wurde, muss die Datei geöffnet sein, um Verknüpfungen, die die Datei betreffen, zu aktualisieren. Assembly3 erreicht dies, indem es die Dateien bei Bedarf im Hintergrund öffnet.
+-   **hierarchische Baugruppen**. Wie im wirklichen Leben darf ein mechanischer Zusammenbau aus Unterbaugruppen bestehen. Auch diese können aus Unterbaugruppen bestehen und so weiter.
+-   das **Einfrieren von Baugruppen**. Da die CPU nur eine bestimmte Anzahl gleichzeitiger Bedingungen in Echtzeit verarbeiten kann, ermöglicht das Einfrieren von Baugruppen die Anwendung von Bedingungen sogar für große Baugruppen. Durch das Einfrieren von fertigen Baugruppen oder Bedingungen, die nicht dynamisch verändert werden müssen (z.B. bei verschweißten, vernieteten oder verklebten Bauteilen), werden diese von Aktualisierungsberechnungen ausgenommen und vom Assembly3-Löser als fixierte Geometrie angesehen.
 
-    :   Man beachte, dass andere Herangehensweisen andere Lösungen für dieses Problem bieten, z. B. der <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench/de.md)-Arbeitsbereich.
+    :   Man beachte, dass andere Herangehensweisen andere Lösungen für dieses Problem anbieten, z. B. der Arbeitsbereich <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench/de.md).
 
 [Anfang](#top.md)
 
-### Toolbars
 
 
-<div class="mw-translate-fuzzy">
+### Symbolleisten
 
-### Werkzeugleisten
-
-Seit 2020 enthält der Assembly3-Arbeitsbereich die folgenden Werkzeugleisten.
-
-
-</div>
+Seit 2020 enthält der Arbeitsbereich Assembly3 die folgenden Symbolleisten.
 
 
 
@@ -43,7 +37,7 @@ Seit 2020 enthält der Assembly3-Arbeitsbereich die folgenden Werkzeugleisten.
 <div class="mw-collapsible mw-collapsed">
 
 
-:   Die **Hauptwerkzeugleiste** enthält Werkzeuge, die die am häufigsten gebrauchten Eigenschaften des Arbeitsbereiches abdecken. Die zugehörigen Tastenkürzel findet man in den Tooltips.
+:   Die **Hauptwerkzeugleiste** enthält Werkzeuge, die die am häufigsten gebrauchten Funktionen des Arbeitsbereiches abdecken. Die zugehörigen Tastaturkürzel findet man in den Tooltips.
 
 
 <div class="mw-collapsible-content toccolours">
@@ -301,17 +295,11 @@ Seit 2020 enthält der Assembly3-Arbeitsbereich die folgenden Werkzeugleisten.
     :   ob 2D / 3D oder ob mehr als 2 Elemente zusammengefügt werden können.
 :   Eine ausführliche Beschreibung ist im GitHub-Wiki zu finden.
 
-#### Navigation Toolbar 
 
-
-<div class="mw-translate-fuzzy">
 
 #### Navigationswerkzeugleiste
 
 :   <img alt="" src=images/Assembly_GotoRelation.svg‎‎  style="width:28px;"> <img alt="" src=images/LinkSelect.svg‎‎  style="width:28px;"> <img alt="" src=images/LinkSelectFinal.svg‎‎  style="width:28px;">
-
-
-</div>
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -371,17 +359,11 @@ Wie gewohnt, kann die Werkzeugleiste geändert und einzelne Werkzeuge hinzugefü
 
 [Anfang](#top.md)
 
-### Constraints
 
-
-<div class="mw-translate-fuzzy">
 
 ### Bedingungen
 
-Der Konstrukteur benutzt Bedingungen um zwei Teile zueinander auszurichten. Die Kunst besteht darin, die Bedingungen zu wählen, die am besten zu den jeweiligen Anforderungen passen. Jeder bestimmte Freiheitsgrad (**D**egree **O**f **F**reedom) sollte theoretisch nur einmal zwischen zwei Objekten festgelegt sein, aber in der Praxis vieler CAD-Werkzeuge erzeugen die ausgewählten Bedingungen überbestimmte Kombinationen, die oft durch komplexe Algorithmen ausgeglichen werden können, manchmal aber auch nicht. Assembly3 benutzt solche Algorithmen, um überzählige Bedingungen zu entdecken und auszugleichen, aber sie sind bisher noch nicht besonders ausgereift. Am besten vermeidet man Schwierigkeiten im Umgang mit Assembly3-Bedingungen, indem man darauf achtet, wieviele Freiheitsgrade schon bestimmt sind und welche durch weitere Bedingungen noch festzulegen sind. Kein Teil sollte durch Bedingungen so verbunden werden, dass mehr als 6 Freiheitsgrade festlegt werden.
-
-
-</div>
+Der Konstrukteur benutzt Bedingungen (auch Randbedingung, Einschränkung, Beschränkung, Zwang, Zwangsbedingung, Festlegung genannt) um zwei Teile zueinander auszurichten. Die Kunst besteht darin, die Bedingungen zu wählen, die am besten zu den jeweiligen Anforderungen passen. Jeder bestimmte Freiheitsgrad (**D**egree **O**f **F**reedom) sollte theoretisch nur einmal zwischen zwei Objekten festgelegt sein, aber in der Praxis vieler CAD-Werkzeuge erzeugen die ausgewählten Bedingungen überbestimmte Kombinationen, die oft durch komplexe Algorithmen ausgeglichen werden können, manchmal aber auch nicht. Assembly3 benutzt solche Algorithmen, um überzählige Bedingungen zu entdecken und auszugleichen, aber sie sind bisher noch nicht besonders ausgereift. Am besten vermeidet man Schwierigkeiten im Umgang mit Assembly3-Bedingungen, indem man darauf achtet, wieviele Freiheitsgrade schon bestimmt sind und welche durch weitere Bedingungen noch festzulegen sind. Kein Teil sollte durch Bedingungen so verbunden werden, dass mehr als 6 Freiheitsgrade festlegt werden.
 
 Hinweis: Wenn der Gleichungslöser auf eine Kombination trifft, die nicht gelöst werden kann, gibt er eine Fehlermeldung aus. Es ist für den Löser sehr schwierig, die Ursache des Problems herauszufinden, sodass man normalerweise aus dem angegebenen Fehler nicht klar erkennen kann, *wo* sich das Problem befindet. Bei größeren Baugruppen kann dies zu aufwändigen Fehlersuchen führen. Leider gibt es keinen einfachen Weg, diese zu vermeiden. Allerdings hilft es, im Blick zu behalten, wie das System funktioniert (siehe z.B. [Elemente](#Elemente.md) weiter unten), eindeutige Namen für alle beteiligten Komponenten zu verwenden und nur dann weitere Bedingungen hinzuzufügen, wenn der Gleichungslöser die aktuelle Baugruppe erfolgreich berechnen kann. Sehr hilfreich, um ein Problem zu finden, ist die Funktion \"ContexMenu/Deactivate\" der jeweiligen Bedingung.
 
@@ -416,17 +398,11 @@ Other
 
 [Zum Anfang](#top.md)
 
-### Elements
 
-
-<div class="mw-translate-fuzzy">
 
 ### Elemente
 
-Elemente wird in der Assembly3-Arbeitsumgebung als besonderer Begriff benutzt, und Elemente zu verstehen ist wichtig für das Verständnis, wie Assembly3 benutzt werden sollte.
-
-
-</div>
+Elemente wird in der Arbeitsumgebung Assembly3 als besonderer Begriff benutzt, und Elemente zu verstehen ist wichtig für das Verständnis, wie Assembly3 benutzt werden sollte.
 
 Es ist hilfreich ein Element als einen generellen Begriff für \'auswählbarer Bestandteil\' eines Teiles zu sehen wie z.B. eine Fläche , eine Kante, ein Kreis, eine Ecke oder ein Punkt. Dies sind die Elemente, die ausgewählt werden, um Teile zueinander in Beziehung zu setzen. Im Baum hat ein \'Assembly\'-Ordner drei Unterordner. Neben \'Parts\' und \'Constraints\' gibt es einen Ordner namens \'Elements\', der leer bleibt, solange keine Einschränkungen hinzugefügt werden. Wenn eine Einschränkungen hinzugefügt wird, erhält sie selbst zwei (oder mehr) Blätter, dies sind die ausgewählten Elemente. Auch werden diese Elemente dem \'Elements\'-Ordner hinzugefügt, der eine Liste aller im Zusammenbau benutzten Elemente darstellt. Es ist eine gute Idee, ihre Namen zu ändern (mit der F2-Taste), besonders in größeren Zusammenbauten.
 
@@ -468,20 +444,14 @@ Obwohl sie möglicherweise ähnliche Werkzeuge haben, ist Assembly3 nicht kompat
 
 Der Arbeitsbereich [Assembly3](Assembly3_Workbench/de.md) ist (seit März 2022) über den [Addon-Manager](Std_AddonMgr/de.md) verfügbar. Jede Abhängigkeit von Assembly3 zu (Modulen von) Drittanbietern sollte automatisch durch den Addon_Manager verwaltet werden.
 
-#### Alternate installations 
 
-
-<div class="mw-translate-fuzzy">
 
 #### Alternative Installationen 
 
 Es gibt 2 alternative Wege Assembly3 zu installieren:
 
--   Eine spezielle Abspaltung von FreeCAD von realthunder; siehe [FreeCAD_assembly3 releases](https://github.com/realthunder/FreeCAD_assembly3/releases). Dieser Fork basiert auf einem bestimmten Commit des Master-Zweiges von FreeCAD, hat aber auch zusätzliche Funktionen, die derzeit im Master-Zweig nicht vorhanden sind. Da dieser Fork auf einem bestimmten Entwicklungs-Snapshot basiert, verfügt er nicht über die neuesten Funktionen, die täglich in den Master-Zweig eingebunden werden.
+-   Eine spezielle Abspaltung von FreeCAD von realthunder; siehe [hier](https://github.com/realthunder/FreeCAD/releases). Dieser Fork basiert auf einem bestimmten Commit des Master-Zweiges von FreeCAD, hat aber auch zusätzliche Funktionen, die derzeit im Master-Zweig nicht vorhanden sind. Da dieser Fork auf einem bestimmten Entwicklungs-Snapshot basiert, verfügt er nicht über die neuesten Funktionen, die täglich in den Master-Zweig eingebunden werden.
 -   Das Entwicklungs-[App-Image](AppImage/de.md); dieses basiert auf dem aktuellen Master-Zweig und beinhaltet die Abhängigkeiten, die für die Arbeit mit Assembly3 benötigt werden, wie z.B. den SolveSpace Solver.
-
-
-</div>
 
 Da das App-Image nur unter Linux funktioniert, ist für Windows-Benutzer (die gerne eine alternative Assembly3-Installation hätten) die erste Option die einzige Möglichkeit, Assembly3 zu testen (realthunder\'s fork) .
 
@@ -491,24 +461,17 @@ Da das App-Image nur unter Linux funktioniert, ist für Windows-Benutzer (die ge
 
 ## GewusstWie
 
-### Get Started 
 
-
-<div class="mw-translate-fuzzy">
 
 ### Loslegen
 
-Es gibt viele Wege einen Zusammenbau mit Assembly3 zu erstellen. Hier ist der einfachste, den du machen kannst.
-
-
-</div>
-
+Es gibt viele Wege einen Zusammenbau mit Assembly3 zu erstellen. Hier ist der einfachste.
 
 :   <img alt="" src=images/Assembly3_Example-GettingStarted.jpg  style="width:600px;">
 :   *Endergebnis des \'Wie man startet\'-Beispiels. In dem Bild ist die Arbeitsumgebung Assembly3 ausgewählt, sodass ihre unterschiedlichen Werkzeugleisten sichtbar sind. Beachte, dass die vertikale \'TabBar\'-Leiste links neben der Baumansicht eine zusätzliche Arbeitsumgebung ist und nicht Bestandteil von Standard-FreeCAD (aber mit dem Addon-Manager installiert werden kann).*
 
 -   Schaltfläche **<img src="images/Std_New.svg" width=16px> [Neu](Std_New/de.md)** drücken, um eine neue FreeCAD-Datei zu erstellen
--   Zur <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [Assembly3 Arbeitsumgebung](Assembly3_Workbench/de.md) wechseln
+-   Zur Arbeitsumgebung <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [Assembly3](Assembly3_Workbench/de.md) wechseln
 -   Schaltfläche **<img src="images/Assembly_New_Assembly.svg‎‎" width=16px> [Baugruppe anlegen](Assembly3_CreateAssembly/de.md)** drücken
 -   Zur <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Arbeitsumgebung](Part_Workbench/de.md) wechseln und einen <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> [Zylinder](Part_Cylinder/de.md) und einen <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Würfel](Part_Box/de.md) hinzufügen
 -   Die Datei unter einem selbstgewählten Dateinamen <img alt="" src=images/Std_Save.svg  style="width:16px;"> [speichern](Std_Save/de.md). Anschließend die Datei <img alt="" src=images/Std_CloseActiveWindow.svg  style="width:16px;"> [schließen](Std_CloseActiveWindow/de.md) und erneut <img alt="" src=images/Std_Open.svg  style="width:16px;"> [öffnen](Std_Open/de.md)
@@ -520,10 +483,10 @@ Die Baumansicht sollte so aussehen (0.20.pre and Link Branch):
 -   Nun mit der Maus per *Drag&Drop* **Zylinder** und **Würfel** auf den **Parts**-Ordner ziehen und ablegen. Beide werden in den Ordner verschoben.
 
     :   Das ist der schnellste Weg und geeignet für einfache Fälle wie diesen. Ein besserer Weg geht über die Nutzung von Link-Objekten:
-    :   **Würfel** sowie **Zylinder** auswählen und dann den Befehl <img alt="" src=images/Std_LinkMake.svg  style="width:16px;"> [Link erstellen](Std_LinkMake/de.md) entweder aus dem **Kontextmenü** (-\> LinkActions -\> MakeLink) oder aus der **Struktur**leiste auswählen
+    :   **Würfel** sowie **Zylinder** auswählen und dann den Befehl <img alt="" src=images/Std_LinkMake.svg  style="width:16px;"> [Link erstellen](Std_LinkMake/de.md) entweder aus dem **Kontextmenü** (-\> LinkActions -\> MakeLink) oder aus der Symbolleiste **Struktur** auswählen
     :   Dies fügt zwei Link-Objekte hinzu. Diese werden dann auf den **Parts**-Ordner gezogen und abgelegt
 -   Anklicken der beiden Oberseiten von Zylinder und Würfel (Strg gedrückt halten (Cmd am Mac))
--   Zur <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [Assembly3 Arbeitsumgebung](Assembly3_Workbench/de.md) wechseln.
+-   Zur Arbeitsumgebung <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [Assembly3](Assembly3_Workbench/de.md) wechseln.
 -   Schaltfläche **<img src="images/Assembly_ConstraintCoincidence.svg‎‎" width=16px> [Deckungsgleiche Ebenen](Assembly3_ConstraintCoincidence/de.md)** aus der [Hauptwerkzeugleiste für Beschränkungen](#Main_Constraints_Toolbar/de.md) auswählen.
 
 Jetzt sollten beide Teile miteinander verbunden sein und der Baum sollte so aussehen (0.20.pre and Link Branch):
@@ -545,73 +508,55 @@ Der fertige Baugruppenbaum sollte so aussehen (0.20.pre and Link Branch):
 
 <img alt="" src=images/Assembly3_Example-Tree-05.png  style="width:300px;"> <img alt="" src=images/Assembly3_Example-Tree-06.png  style="width:280px;">:
 
-Wenn du möchtest, kannst du die **Gesperrt** Beschränkung im Baum nach oben verschieben. Verwende die **<img src="images/Assembly_TreeItemUp.svg‎‎" width=16px> [Objekt aufwärts bewegen](Assembly3_MoveItemUp/de.md)** Schaltfläche auf der [Hauptwerkzeugleiste](#Hauptwerkzeugleiste.md) dafür.
+Wer möchte, kann die Bedingung **Festsetzen** im Baum nach oben verschieben. Dafür wird die Schaltfläche **<img src="images/Assembly_TreeItemUp.svg‎‎" width=16px> [Objekt nach oben bewegen](Assembly3_MoveItemUp/de.md)** in der [Hauptwerkzeugleiste](#Hauptwerkzeugleiste.md) verwendet.
 
-**Hinweis:** Alle neuen externen Dateien müssen mindestens einmal **gespeichert**, **geschlossen** und wieder **geöffnet** werden, damit Assembly3 sie finden kann.
+**Hinweis:** Alle neuen externen Dateien müssen mindestens einmal **gespeichert**, **geschlossen** und erneut **geöffnet** werden, damit Assembly3 sie finden kann.
 
-:   Andernfalls kann FreeCAD dem Assembly3-Arbeitsbereich kein Datei-Handle übergeben und dieser kann das neue Teil nicht finden.
-:   Wenn sich alle Teile in derselben Datei befinden, sollte man auch diese Datei **speichern**, **schließen** und wieder **öffnen**.
+:   Andernfalls kann FreeCAD dem Arbeitsbereich Assembly3 kein Datei-Handle übergeben und dieser kann das neue Teil nicht finden.
+:   Auch wenn sich alle Teile in derselben Datei befinden, sollte man diese Datei **speichern**, **schließen** und erneut **öffnen**.
 
 [Anfang](#top.md)
 
-### Add an Offset 
 
 
-<div class="mw-translate-fuzzy">
+### Einen Versatz hinzufügen 
 
-### Hinzufügen eines Versatzes 
+Assembly3 sieht es nicht vor, mit den Bedingungen auch einen Versatz festzulegen, wie es der Arbeitsbereich [A2plus](A2plus_Workbench/de.md) oder andere CAD-Werkzeuge vorsehen. Stattdessen verwendet er ein allgemeineres und flexibleres System, um Abstände, Versätze und sogar Winkel festzulegen.
 
-Assembly3 bietet keinen Versatz mit den Beschränkungen, wie es der [A2plus Arbeitsbereich](A2plus_Workbench/de.md) oder andere CAD Werkzeuge tun. Stattdessen bietet er ein allgemeineres und flexibleres System um Versätze, Übersetzungen, aber auch von Winkeln hinzuzufügen.
+-   Einen Versatz in den Eigenschaften eines [Elements](#Elemente.md) einer [Bedingung](#Bedingungen.md) festlegen.
 
-
-</div>
-
--   Füge einen Versatz in den Eigenschaften eines [Elemente](#Elemente.md) einer [Beschränkung](#Beschränkung.md) hinzu.
-
-    :   Du kannst wählen, welche der beiden du nutzen möchtest.
+    :   Man kann wählen, welches der beiden man verwenden möchte.
 
 Beispiel:
 
--   Füge 2 Würfel zu einer Baugruppe hinzu und wähle ihre Seitenflächen aus.
--   Wähle \"EbenenDeckungsgleich\". Die Würfel werden ineinander angebracht.
--   Wähle ein Element und *KontextMenü/Teil kippen*. Die Würfel werden Seite an Seite angebracht.
--   Wähle eine Elementeigenschaft Versatz/Position/Zz und setze sie auf 5mm. Die Würfel sind nun 5mm voneinander entfernt.
+-   2 Würfel zu einer Baugruppe hinzufügen und ihre Seitenflächen auswählen.
+-   Bedingung \"Deckungsgleiche Ebenen\" auswählen. Die Würfel werden ineinanderliegend zusammengefügt.
+-   Ein Element und anschließend *KontextMenü/Flip part* auswählen. Die Würfel werden jetzt Seite an Seite zusammengefügt.
+-   Eine Element auswählen und anschließend seine Eigenschaft Offset/Position/z und auf 5mm setzen. Die Würfel sind nun 5mm voneinander entfernt.
 
-Teste mit anderen Achsen oder den Feldern Winkel/Achse. Prüfe auch , dass du das gleiche Ergebnis erhältst, wenn du das andere Element verwendest. Dies ist die gleiche Herangehensweise für alle anderen Beschränkungen.
-
-[Anfang](#top.md)
-
-### Solve a Solver Failure 
-
-
-<div class="mw-translate-fuzzy">
-
-### Löse einen Löserfehler 
-
-Dies geschieht häufig, wenn Teile über-beschränkt sind, d.h. mehr als 6 Freiheitsgrade sind gesperrt.
-
-
-</div>
-
-Der einfachste Weg das Problem zu finden, ist das Anklicken der entsprechenden Einschränkungen, die Auswahl von *ContextMenu/Disable* und anschließender Neuberechnung. Es ist hilfreich zu wissen, welche Einschränkungen als letzte hinzugefügt wurden, bevor die Berechnung des Gleichungslösers fehlgeschlagen ist, um diese einfach zurückzunehmen.
-
-Achtung: Da Assembly3 hinter den Kulissen versucht überbestimmte Teile auszugleichen, kann es vorkommen, dass eine neue Einschränkung scheinbar eine Fehlfunktion auslöst, die tatsächliche Ursache aber an einer anderen Stelle zu finden ist. Bevor man nun alles löscht und von vorne beginnt, sollte man daran denken, dass man Elemente wiederverwenden kann. Wenn sie benannt wurden, können die erforderlichen Elemente leicht ermittelt und die Einschränkungen erneut aufgebaut werden, ohne die 3D-Ansicht zu verwenden. Siehe auch obigen [Elemente](#Elements.md)-Abschnitt.
+  - Dies testet man auch mit den anderen Koordinaten der Position oder den Eigenschaften Winkel oder Achse. Man sollte auch überprüfen, ob man das gleiche Ergebnis erhält, wenn das andere Element verwendet wird. Diese Herangehensweise gilt auch für alle anderen Bedingungen.
 
 [Anfang](#top.md)
 
-### Replace a part or rename a filename 
 
 
-<div class="mw-translate-fuzzy">
+### Fehler des Lösers beheben 
 
-### Ersetze ein Teil oder benenne einen Dateinamen um 
+Diese treten häufig auf, wenn Einzelteile überbestimmt sind, d.h. wenn mehr als 6 Freiheitsgrade festgelegt sind.
 
-Wenn ein Teil entfernt wird oder wenn sich ein Dateiname ändert, bricht die Baugruppe, sie kann nicht mehr gelöst werden und der Löser gibt die Meldung \"Widersprüchliche Beschränkungen\" aus. Der Löser kennzeichnet ungültige Elemente und Beschränkungen mit einem Fragezeichen im Baum.
+Der einfachste Weg das Problem zu finden, ist das Anklicken der entsprechenden Bedingung im Konstruktionsbaum und die Auswahl von *ContextMenu/Disable* mit anschließender Neuberechnung. Es hilft zu wissen, welche Bedingungen zuletzt hinzugefügt wurden, bevor die Berechnung des Gleichungslösers fehlgeschlagen ist, um diese einfach zurückzunehmen.
+
+Achtung: Da Assembly3 hinter den Kulissen versucht überbestimmte Teile auszugleichen, kann es vorkommen, dass eine neue Bedingung scheinbar eine Fehlfunktion auslöst, die tatsächliche Ursache aber an einer anderen Stelle zu finden ist. Bevor man nun alles löscht und von vorne beginnt, sollte man daran denken, dass man Elemente wiederverwenden kann. Wenn sie benannt wurden, können die erforderlichen Elemente leicht ermittelt und die Bedingungen erneut aufgebaut werden, ohne die 3D-Ansicht zu verwenden. Siehe auch obigen Abschnitt [Elemente](#Elemente.md).
+
+[Anfang](#top.md)
 
 
-</div>
 
-Ein Weg, dieses zu lösen ist, einfach alle ungültigen Beschränkungen und Elemente zu löschen, das neue Teil zu importieren und alles neu zu machen. Aber es gibt einen besseren Weg:
+### Ein Bauteil ersetzen oder einen Dateinamen umbenennen 
+
+Wenn ein Bauteil entfernt wird oder wenn sich ein Dateiname ändert, \"zerbricht\" die Baugruppe und kann nicht mehr berechnet werden; der Löser gibt die Meldung \"Inconsistent constraints\" (Widersprüchliche Bedingungen) aus. Der Löser kennzeichnet ungültige Elemente und Bedingungen mit einem Fragezeichen im Baum.
+
+Ein Weg, dieses zu beheben ist, einfach alle ungültigen Bedingungen und Elemente zu löschen, das neue Bauteil zu importieren und alles erneut auzubauen. Aber es gibt einen besseren Weg:
 
 -   Eine Datei umbenennen
     1.  Einen Dateimanager benutzen, um die Datei zu kopieren, umbenannt werden soll. Anschließend gibt man der Kopie den neuen Namen.
@@ -626,14 +571,14 @@ Ein Weg, dieses zu lösen ist, einfach alle ungültigen Beschränkungen und Elem
         -   Falls ein Element ausversehen einer falschen Fläche zugeordnet wurde, wird die Zuordnung einfach mit der korrekten Fläche wiederholt.
     7.  Ändern des Objektnamens in FreeCAD, falls gewünscht
 
--   Ein Teil durch ein anderes Teil ersetzen
+-   Ein Bauteil durch ein anderes ersetzen
 
-    :   *Welches dem originalen Teil ähnlich genug ist, dass die originalen Einschränkungen noch sinnvoll sind.*
+    :   *Eins das dem originalen Bauteil ähnlich genug ist, dass die originalen Bedingungen noch sinnvoll sind.*
 
-    1.  Das alteTeil aus dem Baum entfernen. Die Datei kann jetzt auch gelöscht werden.
-    2.  Die Einschränkungen und Elemente des alten Teiles sind ungültig geworden. Jetzt wird die Einschränkung oder die \'Elements\'-Liste im Baum geöffnet.
+    1.  Das alte Bauteil aus dem Baum entfernen. Die Datei kann jetzt auch gelöscht werden.
+    2.  Die Bedingungen und Elemente des alten Teiles sind ungültig geworden. Jetzt wird die Bedingung oder die \'Elements\'-Liste im Baum geöffnet.
         -   Eine Element-Fläche am neuen Teil auswählen. Ein Objekt im Baum wird hervorgehoben.
-        -   Das Objekt per \'drag&drop\' auf das alte Element ziehen und ablegen (entweder in der \'Elements\'-Liste oder in einer der Einschränkungen, wo es benutzt wurde). Das Element sollte jetzt gültig werden.
+        -   Das Objekt per \'drag&drop\' auf das alte Element ziehen und ablegen (entweder in der \'Elements\'-Liste oder in einer der Bedingungen, wo es benutzt wurde). Das Element sollte jetzt gültig werden.
         -   Diesen Ablauf für die übrigen Elemente wiederholen.
         -   Falls ein Element ausversehen einer falschen Fläche zugeordnet wurde, wird die Zuordnung einfach mit der korrekten Fläche wiederholt.
     3.  Ändern des Objektnamens in FreeCAD, falls gewünscht
@@ -646,10 +591,7 @@ Ein Weg, dieses zu lösen ist, einfach alle ungültigen Beschränkungen und Elem
 
 [Zum Anfang](#top.md)
 
-### Tips & Tricks 
 
-
-<div class="mw-translate-fuzzy">
 
 ### Tipps & Tricks 
 
@@ -664,10 +606,7 @@ Ein Weg, dieses zu lösen ist, einfach alle ungültigen Beschränkungen und Elem
 -   Mehrfach verknüpfte Dateien. Wenn man eine Dateiverknüpfung zu einem Zusammenbau hinzufügt, wird eine Eigenschaft \"Element Count\" angelegt mit Standardwert 0. Wenn man diesen auf 3 setzt, erhält man 3 Instanzen dieses Teils. Sie werden in einem Unterordner hinzugefügt und können wie vollständig unabhängige Teile verwendet werden. Diese Einstellung kann genutzt werden, um den Speicherplatzverbrauch der Datei klein zu halten, da das Teil nur einmal gespeichert wird. Die Instanzen enthalten nur die Unterschiede.
 -   Einsetzen mehrfacher Teile, wie z.B. Schrauben, mit einem Klick. Siehe [Assembly3 Wiki](https://github.com/realthunder/FreeCAD_assembly3/wiki/Constraints-and-Solvers) auf der Github-Seite. Dies ist nicht nur eine erstaunliche Funktion (vielleicht ein bisschen magisch), sondern auch sehr sehr nützlich.
 
-
-</div>
-
--   Die Benutzung der [TabBar-Arbeitsumgebung](https://github.com/triplus/TabBar) beschleunigt die Arbeit mit Zusammenbauten. Es wird eine Werkzeugleiste mit je einem Knopf für jede Arbeitsumgebung hinzugefügt. Man kann die Reihenfolge ändern und man kann die Werkzeugleiste nach belieben platzieren. Veile Leute legen sie vertikal an den linken Rand direkt neben der Baumansicht. Wenn man Assembly3, Part, PartDesign und andere oft genutzte Arbeitsumgebungen am oberen Ende platziert, macht es das Umschalten zwischen den Arbeitsumgebungen extrem einfach.
+-   Die Benutzung des Arbeitsbereichs [TabBar](https://github.com/triplus/TabBar) beschleunigt die Arbeit mit Zusammenbauten. Es wird eine Werkzeugleiste mit je einem Knopf für jeden Arbeitsbereich hinzugefügt. Man kann die Reihenfolge ändern und man kann die Werkzeugleiste nach belieben platzieren. Viele Leute legen sie vertikal an den linken Rand direkt neben der Baumansicht. Wenn man Assembly3, Part, PartDesign und andere oft genutzte Arbeitsbereiche am oberen Ende platziert, macht es das Umschalten zwischen den Arbeitsbereichen extrem einfach.
 
 [Zum Anfang](#top.md)
 
@@ -679,6 +618,7 @@ Ein Weg, dieses zu lösen ist, einfach alle ungültigen Beschränkungen und Elem
 -   [FreeCAD_assembly3](https://github.com/realthunder/FreeCAD_assembly3) Repository und Dokumentation.
 -   [Assembly3 preview](https://forum.freecadweb.org/viewtopic.php?f=20&t=25712), große Diskussionsrunde.
 -   [Tutorial for Assembly 3 Workbench](http://help-freecad-jpg87.fr/02_ass_ind.php) von jpg87.
+-   Anleitungen zum [kinematischen Zusammenbau](Tutorial_KinematicAssembly/de.md), [Kinematik-Skelett](Tutorial_KinematicSkeleton/de.md) und passender [Kinematiksteuerung](Tutorial_KinematicController/de.md).
 -   [Current Assembly Status](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [Externe Arbeitsbereiche](External_workbenches.md)
 

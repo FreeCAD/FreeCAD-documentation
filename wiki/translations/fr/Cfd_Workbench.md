@@ -8,23 +8,29 @@ Computational Fluid Dynamics (CFD) pour FreeCAD basé sur le solveur OpenFOAM
 
 <img alt="" src=images/FreeCAD_CFDworkbench_screenshot.png  style="width:512px;">
 
+
+
 ## Références
 
 -   auteur: qingfengxia Qingfeng Xia
 -   page d\'accueil: <https://github.com/qingfengxia>
 -   code source sur <https://github.com/qingfengxia/Cfd>
 
+
+
 ## Outils
 
 Description détaillée
 
-![](images/CFD-tools.png )
-
 ## Installation
+
+
 
 ### Installation Automatique 
 
 Cet atelier peut être installé à partir du [Gestionnaire des extensions](Std_AddonMgr/fr.md).
+
+
 
 ### Depuis GitHub 
 
@@ -42,6 +48,8 @@ Pour utiliser CFD pour FreeCAD
 
 **Instructions d\'installation Mac** (Depuis GitHub)
 
+
+
 ## Liens avec l\'atelier CFD 
 
 -   Atelier Wiki:
@@ -51,6 +59,8 @@ Pour utiliser CFD pour FreeCAD
 -   Vidéos:
 -   Des dossiers:
 -   Signaler les bogues: veuillez signaler les bogues à
+
+
 
 ## Autres liens intéressants 
 

@@ -8,6 +8,8 @@
 
 # Sketcher MirrorSketch/ro
 
+
+
 ## Descriere
 
 
@@ -17,6 +19,8 @@ Construiți o schiță simetrică(o reflexie în oglindă) cu prima față de ax
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

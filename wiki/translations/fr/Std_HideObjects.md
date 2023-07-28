@@ -13,9 +13,13 @@
 
 La commande **Std Masquer tous les objets** masque tous les objets appartenant au document actif dans la [vue 3D](3D_view/fr.md).
 
+
+
 ## Utilisation
 
 1.  Sélectionnez l\'option **Affichage → Visibilité → <img src="images/Std_HideObjects.svg" width=16px> Masquer tous les objets** dans le menu.
+
+
 
 ## Remarques
 
@@ -23,10 +27,12 @@ La commande **Std Masquer tous les objets** masque tous les objets appartenant a
 -   L\'action de cette commande ne peut pas être annulée avec [Std Annuler](Std_Undo/fr.md).
 -   La visibilité d\'un objet peut également être modifiée via sa propriété {{PropertyData/fr|Visibility}} associée dans l\'[Éditeur de propriétés](Property_editor/fr.md) ou la [Vue Combinée](Combo_view/fr.md).
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

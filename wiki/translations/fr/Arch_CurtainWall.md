@@ -137,7 +137,7 @@ La procédure décrite ci-dessous crée un mur et un mur-rideau sur la base d\'u
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 

@@ -14,7 +14,9 @@
 La commande **Std Cascade** réorganise les fenêtres dans la [Zone de vue principale](Main_view_area/fr.md) afin qu\'elles soient toutes visibles mais se chevauchent. Le résultat est déterminé par l\'ordre dans lequel les fenêtres ont été activées pour la dernière fois.
 
 <img alt="" src=images/Std_CascadeWindows_example.png  style="width:600px;"> 
-*Zone de vue principale avec trois fenêtres en cascade*
+*Zone de la vue principale avec trois fenêtres en cascade*
+
+
 
 ## Utilisation
 

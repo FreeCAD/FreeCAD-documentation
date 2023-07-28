@@ -16,7 +16,7 @@
 
 The <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Draft SetStyle** command sets the default style for new objects.
 
-![](images/Draft_SetStyle_Taskpanel.png ) 
+<img alt="" src=images/Draft_SetStyle_Taskpanel.png  style="width:" height="550px;"> 
 *The Style settings task panel*
 
 
@@ -36,18 +36,18 @@ The <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Draft SetS
 
 ## Opções
 
--   From the dropdown list at the top of the task panel an exiting style can be selected. <small>(v0.20)</small> 
--   Press the **<img src="images/Document-save.svg" width=16px> Save style** button to save the style settings. <small>(v0.20)</small> 
+-   From the dropdown list at the top of the task panel an exiting style preset can be selected. <small>(v0.20)</small> 
+-   Press the **<img src="images/Document-save.svg" width=16px> Save style** button to save the style settings as a preset. <small>(v0.20)</small> 
 -   In the **Lines and faces** section the following settings can be specified:
     -   
         **Line color**
         
-        . This is also used for annotations (<small>(v1.0)</small> ) and for the **Point Color** of objects.
+        . This is also used for annotations (<small>(v0.21)</small> ) and for the **Point Color** of objects.
 
     -   
         **Line width**
         
-        . This is also used for annotations (<small>(v1.0)</small> ) and for the **Point Size** of objects.
+        . This is also used for annotations (<small>(v0.21)</small> ) and for the **Point Size** of objects.
 
     -   
         **Draw style**
@@ -68,7 +68,7 @@ The <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Draft SetS
         **Transparency**
         
         .
--   In the **Annotations** section the following settings can be specified:
+-   The settings in the **Annotations** section apply to [Draft Texts](Draft_Text.md), [Draft Dimensions](Draft_Dimension.md) and [Draft Labels](Draft_Label.md). The following settings can be specified (see [Draft Text](Draft_Text#View.md) for details):
     -   
         **Text font**
         
@@ -80,11 +80,6 @@ The <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Draft SetS
         . This is in fact the default line height, the letters are smaller.
 
     -   
-        **Text spacing**
-        
-        . This is used for [Draft Dimensions](Draft_Dimension.md). It is the distance between the text and the dimension line. <small>(v0.20)</small> 
-
-    -   
         **Text color**
         
         .
@@ -92,8 +87,8 @@ The <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Draft SetS
     -   
         **Line spacing**
         
-        . This scale factor is applied to the default line height. <small>(v0.20)</small> 
-
+        . Not used for dimensions. <small>(v0.20)</small> 
+-   In the **Dimensions** section the following settings can be specified (see [Draft Dimension](Draft_Dimension#View.md) for details):
     -   
         **Arrow style**
         
@@ -105,6 +100,26 @@ The <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Draft SetS
         .
 
     -   
+        **Dim overshoot**
+        
+        . <small>(v0.21)</small> 
+
+    -   
+        **Ext lines**
+        
+        . <small>(v0.21)</small> 
+
+    -   
+        **Ext overshoot**
+        
+        . <small>(v0.21)</small> 
+
+    -   
+        **Text spacing**
+        
+        . <small>(v0.20)</small> 
+
+    -   
         **Show units**
         
         .
@@ -114,7 +129,7 @@ The <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Draft SetS
         
         .
 -   Press the **<img src="images/Draft_SetStyle.svg" width=16px> Selected** button to apply the settings to selected objects or groups. Objects can be selected while the task panel is open. <small>(v0.20)</small> 
--   Press the **<img src="images/Draft_Text.svg" width=16px> Annotations** button to apply the settings to all [Draft Texts](Draft_Text.md), [Draft Dimensions](Draft_Dimension.md) and [Draft Labels](Draft_Label.md) in the current document. <small>(v1.0)</small> 
+-   Press the **<img src="images/Draft_Text.svg" width=16px> Annotations** button to apply the settings to all [Draft Texts](Draft_Text.md), [Draft Dimensions](Draft_Dimension.md) and [Draft Labels](Draft_Label.md) in the current document. <small>(v0.21)</small> 
 -   Press the **Cancel** button to finish the command without saving the settings.
 
 
@@ -135,19 +150,22 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 The following preferences are involved:
 
--   Line color: **Edit → Preferences... → Part/Part Design → Shape appearance → Default Shape view properties → Line color**.
--   Line width: **Edit → Preferences... → Part/Part Design → Shape appearance → Default Shape view properties → Line width**.
+-   Line color: **Edit → Preferences... → Part/Part Design → Shape appearance → Default Shape view properties → Line color** and **Vertex color**.
+-   Line width: **Edit → Preferences... → Part/Part Design → Shape appearance → Default Shape view properties → Line width** and **Vertex size**.
 -   Draw style: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → DefaultDrawStyle**.
 -   Display mode: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → DefaultDisplayMode**.
 -   Shape color: **Edit → Preferences... → Part/Part Design → Shape appearance → Default Shape view properties → Shape color**.
 -   Transparency: **Edit → Preferences... → Part/Part Design → Shape appearance → Default Shape view properties → Shape transparency**.
 -   Text font: **Edit → Preferences... → Draft → Texts and dimensions → Text settings → Font family**.
 -   Text size: **Edit → Preferences... → Draft → Texts and dimensions → Text settings → Font size**.
--   Text spacing: **Edit → Preferences... → Draft → Texts and dimensions → Dimension settings → Text spacing**.
 -   Text color: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → DefaultTextColor**.
 -   Line spacing: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → LineSpacing**.
 -   Arrow style: **Edit → Preferences... → Draft → Texts and dimensions → Dimension settings → Arrow style**.
 -   Arrow size: **Edit → Preferences... → Draft → Texts and dimensions → Dimension settings → Arrow size**.
+-   Dim overshoot: **Edit → Preferences... → Draft → Texts and dimensions → Dimension settings → Dimension line overshoot**.
+-   Ext lines: **Edit → Preferences... → Draft → Texts and dimensions → Dimension settings → Extension lines size**.
+-   Ext overshoot: **Edit → Preferences... → Draft → Texts and dimensions → Dimension settings → Extension line overshoot**.
+-   Text spacing: **Edit → Preferences... → Draft → Texts and dimensions → Dimension settings → Text spacing**.
 -   Show units: **Edit → Preferences... → Draft → Texts and dimensions → Dimension settings → Show the unit suffix in dimensions**.
 -   Unit override: **Edit → Preferences... → Draft → Texts and dimensions → Dimension settings → Override unit**.
 

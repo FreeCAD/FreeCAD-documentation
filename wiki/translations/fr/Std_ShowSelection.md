@@ -13,15 +13,19 @@
 
 La commande **Std Afficher la sélection** masque les objets sélectionnés dans la [Vues 3D](3D_view/fr.md).
 
+
+
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets.
     -   Les objets invisibles peuvent être sélectionnés dans la [vue en arborescence](Tree_view/fr.md).
     -   Soyez prudent lorsque vous utilisez **Ctrl**+**A** pour sélectionner tous les objets dans l\'arborescence. Cela sélectionnera également les sous-éléments du [PartDesign Corps](PartDesign_Body/fr.md) et les objets utilisés par les [Part Opérations booléennes](Part_Boolean/fr.md). Dans la plupart des cas, ceux-ci doivent rester invisibles.
     -   Les objets utilisés par les [Part Opérations booléennes](Part_Boolean/fr.md) sont également sélectionnés lorsque vous utilisez **Ctrl**+**A** dans une vue 3D.
-2.  Il existe plusieurs façons d\'appeler la commande:
+2.  Il existe plusieurs façons d\'appeler la commande :
     -   Sélectionnez l\'option **Affichage → Visibilité → <img src="images/Std_ShowSelection.svg" width=16px> Afficher la sélection** dans le menu.
     -   Sélectionnez l\'option **<img src="images/Std_ShowSelection.svg" width=16px> Afficher la sélection** dans le menu contextuel de l\'arborescence. Cette option n\'est pas disponible dans l\'[atelier PartDesign](PartDesign_Workbench/fr.md).
+
+
 
 ## Remarques
 
@@ -31,10 +35,12 @@ La commande **Std Afficher la sélection** masque les objets sélectionnés dans
 -   L\'action de cette commande ne peut pas être annulée avec [Std Annuler](Std_Undo/fr.md).
 -   La visibilité d\'un objet peut également être modifiée via sa propriété {{PropertyData/fr|Visibility}} associée dans l\'[Éditeur de propriétés](Property_editor/fr.md) ou la [Vue Combinée](Combo_view/fr.md).
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

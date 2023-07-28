@@ -2,9 +2,9 @@
 - GuiCommand:/de
    Name:TechDraw ProjectionGroup
    Name/de:TechDraw Ansichtengruppe
-   MenuLocation:TechDraw → Ansichtengruppe einfügen
+   MenuLocation:TechDraw→ TechDraw Ansichten → Ansichtengruppe einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[TechDraw Ansicht einfügen](TechDraw_View/de.md), [TechDraw Schnitt Ansicht einfügen](TechDraw_SectionView/de.md)
+   SeeAlso:[TechDraw Ansicht einfügen](TechDraw_View/de.md), [TechDraw Schnittansicht einfügen](TechDraw_SectionView/de.md)
 ---
 
 # TechDraw ProjectionGroup/de
@@ -13,7 +13,7 @@
 
 ## Beschreibung
 
-Das Werkzeug <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:24px;"> [Ansichtengruppe](TechDraw_ProjectionGroup/de.md) erstellt eine Mehrtafelprojektion eines oder mehrerer 3D-Objekte (Siehe [Normalprojektion](https://de.wikipedia.org/wiki/Normalprojektion)). Die isometrischen Ansichten der vier Frontecken können ebenfalls enthalten sein.
+Das Werkzeug **TechDraw Ansichtengruppe** erstellt eine Mehrtafelprojektion eines oder mehrerer 3D-Objekte (Siehe [Normalprojektion](https://de.wikipedia.org/wiki/Normalprojektion)). Die isometrischen Ansichten der vier vorderen Ecken können ebenfalls enthalten sein.
 
 Soll nur eine einzige Ansicht erzeugt werden, bringt die Verwendung von Ansichtengruppe keinen Vorteil; stattdessen sollte man [Ansicht](TechDraw_View/de.md) verwenden. Wenn man nicht die herkömmliche europäische Projektion: Erster Winkel (engl. [first-angle projection](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection)) bzw. amerikanische Projektion: Dritter Winkel (engl. [third-angle projection](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#Third-angle_projection)) verwenden möchte, sollte man mehrmals [Ansicht](TechDraw_View/de.md) anstelle von *Ansichtengruppe* verwenden.
 
@@ -24,13 +24,13 @@ Soll nur eine einzige Ansicht erzeugt werden, bringt die Verwendung von Ansichte
 
 ## Anwendung
 
-1.  Wahlweise die [3D-Ansicht](3D_view/de.md) zurechtdrehen. Die Blickrichtung der Kamera in der [3D-Ansicht](3D_view/de.md) legt den Anfangswert der **Hauptrichtung** der Ansichtengruppe (die {{PropertyData/de|Direction}} der zentralen Ansicht).
+1.  Wahlweise die [3D-Ansicht](3D_view/de.md) zurechtdrehen. Die Blickrichtung der Kamera in der [3D-Ansicht](3D_view/de.md) legt den Anfangswert der **Hauptrichtung** der Ansichtengruppe (die {{PropertyData/de|Direction}} der zentralen Ansicht) fest.
 2.  Ein oder mehrere Objekte in der [3D-Ansicht](3D_view/de.md) oder [Baumansicht](Tree_view/de.md) auswählen.
-3.  Wenn das Dokument mehrere Zeichnungsblätter enthält, kann das gewünschte Blatt wahlweise zur Auswahl hinzugefügt werden, indem es in der [Baumansicht](Tree_view/de.md) auswählt wird. Dies ist ein Muss für {{VersionMinus/de|0.19}}.
+3.  Wenn das Dokument mehrere Zeichnungsblätter enthält, kann das gewünschte Blatt wahlweise zur Auswahl hinzugefügt werden, indem es in der [Baumansicht](Tree_view/de.md) auswählt wird.
 4.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
     -   Die Schaltfläche **<img src="images/TechDraw_ProjectionGroup.svg" width=16px> [Ansichtengruppe einfügen](TechDraw_ProjectionGroup/de.md)** drücken.
-    -   Den Menüeintrag **TechDraw → <img src="images/TechDraw_ProjectionGroup.svg" width=16px> Ansichtengruppe einfügen** auswählen.
-5.  Wenn das Dokument mehrere Zeichnungsblätter enthält und noch kein Blatt ausgewählt wurde, öffnet sich der **Seitenauswahl**-Dialog {{Version/de|0.20}}:
+    -   Den Menüeintrag **TechDraw → TechDraw Views → <img src="images/TechDraw_ProjectionGroup.svg" width=16px> Ansichtengruppe einfügen** auswählen.
+5.  Wenn das Dokument mehrere Zeichnungsblätter enthält und noch kein Blatt ausgewählt wurde, öffnet sich der Dialog **Blattauswahl** {{Version/de|0.20}}:
     1.  Die gewünscht Seite auswählen.
     2.  Die Schaltfläche **OK** drücken.
 6.  Der Aufgabenbereich **Ansichtengruppe** wird geöffnet.
@@ -55,7 +55,7 @@ Soll nur eine einzige Ansicht erzeugt werden, bringt die Verwendung von Ansichte
 
 -    **Source|LinkList**: Links to the drawable objects to be depicted.
 
--    **XSource|XLinkList**: Links to the drawable objects in an external file. <small>(v0.19)</small> 
+-    **XSource|XLinkList**: Links to the drawable objects in an external file.
 
 -    **Anchor|Link**: The central view in the group. Normally the Front view.
 
@@ -102,42 +102,44 @@ Beachte, dass der mittlere Kasten die aktuelle Projektionsrichtung der primären
 
 Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Werkzeug Ansichtengruppe kann in [Makros](Macros/de.md) und von der [Python](Python/de.md) Konsole aus verwendet werden. Ein vollständiges Skript ist im Installationspaket im Verzeichnis \"source-dir/src/Mod/TechDraw/TDTest/DProjGroupTest.py\" enthalten.
+A Projection Group can be created with [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 
 
 ```python
-    #make a page
-    print("making a page")
-    page = FreeCAD.ActiveDocument.addObject('TechDraw::DrawPage','Page')
-    FreeCAD.ActiveDocument.addObject('TechDraw::DrawSVGTemplate','Template')
-    FreeCAD.ActiveDocument.Template.Template = templateFileSpec
-    FreeCAD.ActiveDocument.Page.Template = FreeCAD.ActiveDocument.Template
+import FreeCAD as App
 
-    #make projection group
-    group = FreeCAD.ActiveDocument.addObject('TechDraw::DrawProjGroup','ProjGroup')
-    rc = page.addView(group)
-    group.Source = [fusion]
+doc = App.ActiveDocument
+cyl = doc.addObject("Part::Cylinder", "Cylinder")
+doc.recompute()
 
-    #add Front(Anchor) view
-    frontView = group.addProjection("Front")               ##need an Anchor
+page = doc.addObject("TechDraw::DrawPage", "Page")
+template = doc.addObject("TechDraw::DrawSVGTemplate", "Template")
+template.Template = App.getResourceDir() + "Mod/TechDraw/Templates/A4_LandscapeTD.svg"
+page.Template = template
 
-    #update group
-    group.Anchor.Direction = FreeCAD.Vector(0,0,1)
-    group.Anchor.RotationVector = FreeCAD.Vector(1,0,0)
+# Toggle the visibility of the page to ensure its width and height are updated (hack):
+page.Visibility = False
+page.Visibility = True
 
-    #add more projections
-    leftView = group.addProjection("Left")
-    topView = group.addProjection("Top")
-    rightView = group.addProjection("Right")
-    rearView = group.addProjection("Rear")
-    BottomView = group.addProjection("Bottom")
+group = doc.addObject("TechDraw::DrawProjGroup", "ProjGroup")
+page.addView(group)
+group.Source = [cyl]
+group.ProjectionType = "Third Angle"
 
-    #remove a view from projection group
-    iv = group.removeProjection("Left")
+front_view = group.addProjection("Front") # First projection will become the Anchor.
+group.Anchor.Direction = (0, 1, 0)
+group.Anchor.RotationVector = (1, 0, 0)
 
+left_view = group.addProjection("Left")
+top_view = group.addProjection("Top")
+
+group.X = page.PageWidth / 2
+group.Y = page.PageHeight / 2
+
+doc.recompute()
 ```
 
-Programmierhinweis: Die Ansichtengruppe sollte immer zum Zeichnungsblatt hinzugefügt werden (z.B. page.addView(group), bevor Ansichten zur Gruppe hinzugefügt werden. Dies ermöglicht es der Ansichtengruppe, von der übergeordneten Seite übernommene Parameterwerte als Vorgaben zu verwenden.
+Hinweis: Die Ansichtengruppe sollte immer zum Zeichnungsblatt hinzugefügt werden,{{Incode|page.addView(group)}}, bevor Ansichten zur Gruppe hinzugefügt werden. Dies ermöglicht es der Ansichtengruppe, von der übergeordneten Seite übernommene Parameterwerte als Vorgaben zu verwenden.
 
 
 

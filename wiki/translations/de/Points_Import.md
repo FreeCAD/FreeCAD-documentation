@@ -1,10 +1,10 @@
 ---
 - GuiCommand:/de
    Name:Points Import
-   Name/de:Punkte Importieren
-   MenuLocation:Punkte → Punkte Importieren...
-   Workbenches:[Punkte](Points_Workbench/de.md)
-   SeeAlso:[Punkte Exportieren](Points_Export/de.md)
+   Name/de:Points Importieren
+   MenuLocation:Punkte → Punkte importieren...
+   Workbenches:[Points](Points_Workbench/de.md)
+   SeeAlso:[Import Export](Import_Export/de.md)
 ---
 
 # Points Import/de
@@ -13,30 +13,30 @@
 
 ## Beschreibung
 
-Der **Punkte Importieren** Befehl importiert eine Punktwolke aus einer Datei.
+Der Befehl **Points Importieren** importiert eine Punktwolke aus einer Datei.
 
 
 
 ## Anwendung
 
-1.  Rufe den Befehl Import Punkte auf verschiedene Weise auf:
-    -   Drücke auf die <img alt="" src=images/Points_Import.svg  style="width:24px;"> [Points Import](Points_Import.md) Schaltfläche in der Punkte Werkzeugleiste
-    -   Verwende den **Punkte → <img src="images/Points_Import.svg" width=16px> Punkte importieren** aus dem Punkte Menü .
-2.  Wähle die Punktwolkendatei
-3.  Drücke **Öffnen**.
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Die Schaltfläche <img alt="" src=images/Points_Import.svg  style="width:24px;"> [Punkte importieren\...](Points_Import.md) drücken.
+    -   Den Menüeintrag **Punkte → <img src="images/Points_Import.svg" width=16px> Punkte importieren...** auswählen.
+2.  Eine Punktwolkendatei auswöhlen
+3.  Die Schaltfläche **Öffnen** drücken.
 
 
 
 ## Eigenschaften
 
-Siehe [Punkte Umwandeln](Points_Convert/de.md).
+Siehe [Points Umwandeln](Points_Convert/de.md).
 
 
 
-## Punktwolkendateiformat
+## Dateiformat der Punktwolken 
 
--   Eine Punktwolkendatei muss die **.asc**, **.pcd** or **.ply** Erweiterung haben.
--   Jede Linie in der Datei muss die X, Y und Z Koordinaten eines Punktes auflisten.
+-   Eine Punktwolkendatei muss die Erweiterung **.asc**, **.pcd** oder **.ply** besitzen.
+-   Jede Zeile der Datei muss die X-, Y- und Z-Koordinaten eines Punktes auflisten.
 -   Die Koordinaten müssen durch Leerzeichen getrennt sein.
 -   Die Koordinaten müssen einen Dezimalpunkt verwenden, kein Dezimalkomma.
 

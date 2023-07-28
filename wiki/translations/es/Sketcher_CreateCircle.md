@@ -12,13 +12,15 @@
 
 </div>
 
+
+
 ## Descripción
 
 Esta herramienta dibuja una circunferencia indicando dos puntos: el centro, y un punto a lo largo del radio.
 
 Cuando se inicia la herramienta, el puntero del ratón cambia a una cruz blanca con un icono de circunferencia rojo. Además se muestran las coordenadas en tiempo real.
 
-![](images/Sketcher_CircleExample1.png‎ )
+![](images/Sketcher_CircleExample1.png‎ ) 
 
 ## Utilización
 

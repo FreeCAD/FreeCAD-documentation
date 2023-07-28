@@ -9,11 +9,27 @@
 
 # Path ExportTemplate/de
 
+
+
 ## Beschreibung
+
+
+<div class="mw-translate-fuzzy">
 
 Der Export von Auftragsvorlagen bietet einen bequemen Mechanismus zum Speichern häufig verwendeter Auftragsdefinitionen aus einem bestehenden Auftrag heraus. Dies erleichtert die Einrichtung zukünftiger Aufträge, die weitgehend ähnlich sind, indem der Import von Auftrag Vorlagen während des Auftragserstellungsprozesses ermöglicht wird.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Der **Bearbeiten → Voreinstellungen... → Pfad →  Auftragsvorgaben Reiter, Standardeinstellungen → Vorlage** legt die Standardvorlage fest.
+
+
+</div>
+
+
 
 ## Anwendung
 
@@ -22,6 +38,8 @@ Der **Bearbeiten → Voreinstellungen... → Pfad →  Auftragsvorgaben Reiter, 
 3.  The template must be saved in the Macro directory or the Path directory, as configured in the [Path Preferences](Path_Preferences.md).
 4.  The template name must follow the pattern of **job_<template name>.json**. When shown in the selection combobox, the **job_** prefix and the extension are left out.
 5.  Press the **OK** button and save the template.
+
+
 
 ## Optionen
 
@@ -47,13 +65,7 @@ Der **Bearbeiten → Voreinstellungen... → Pfad →  Auftragsvorgaben Reiter, 
 -   Selected Tool controllers.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Path_Tools_navi

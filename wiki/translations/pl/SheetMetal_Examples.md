@@ -1,6 +1,8 @@
 # SheetMetal Examples/pl
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 Środowisko pracy <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:24px;"> [Arkusz Blachy](SheetMetal_Workbench/pl.md) *(jest [zewnętrznym środowiskiem](External_workbenches/pl.md) dostępnym poprzez [Menadżer dodatków](Std_AddonMgr/pl.md))* stało się bardzo rozbudowane i wymaga odpowiedniej dokumentacji.
@@ -12,6 +14,8 @@ Zaplanowane etapy tworzenia treści:
 1.  Zbieranie zdjęć
 2.  Dodawanie opisów przepływów pracy
 3.  Dodawanie bardziej szczegółowych samouczków
+
+
 
 ## Zawias
 
@@ -49,6 +53,8 @@ Zaplanowane etapy tworzenia treści:
 
 
 </div>
+
+
 
 ## Klips do papieru 
 
@@ -124,6 +130,8 @@ Aby zastosować obrót o 180°, ustaw parametr **Kąt** we właściwości Umiejs
 
 </div>
 
+
+
 ## Klamra Omega 
 
 <img alt="" src=images/SheetMetal_Example-03.png  style="width:400px;">
@@ -134,6 +142,8 @@ Aby zastosować obrót o 180°, ustaw parametr **Kąt** we właściwości Umiejs
 **<img src="images/PartDesign_Fillet.svg" width=16px> [Projekt Części: Zaokrąglenie](PartDesign_Fillet/pl.md)**,
 **<img src="images/SheetMetal_Unfold.svg" width=16px> [Arkusz Blachy: Rozwiń](SheetMetal_Unfold/pl.md)**.
 }}
+
+
 
 ## Sześciokątna miska 
 
@@ -150,6 +160,8 @@ Aby zastosować obrót o 180°, ustaw parametr **Kąt** we właściwości Umiejs
 
 Po dodaniu podcięcia narożnego *(prawa strona)* może być konieczne dostosowanie wartości właściwości **Rozmiar**.
 
+
+
 ## Klips do długopisu 
 
 <img alt="" src=images/SheetMetal_Example-05.png  style="width:400px;">
@@ -160,6 +172,8 @@ Po dodaniu podcięcia narożnego *(prawa strona)* może być konieczne dostosowa
 3x **<img src="images/SheetMetal_AddWall.svg" width=16px> [Arkusz Blachy: Dodaj ścianę](SheetMetal_AddWall/pl.md)**,
 **<img src="images/SheetMetal_Unfold.svg" width=16px> [Arkusz Blachy: Rozwiń](SheetMetal_Unfold/pl.md)**.
 }}
+
+
 
 ## Przykład przedłużenia ściany 
 
@@ -175,6 +189,8 @@ Po dodaniu podcięcia narożnego *(prawa strona)* może być konieczne dostosowa
 
 Przy drugim użyciu **Wyciągnięcia ściany** do kształtu przedłużenia (przedłużeń) używany jest szkic z dwoma konturami, a przy wartości parametru \"użyj odjęcia\" ustawionej na wartość {{true/pl}} zapewnia on kształt dla wycięć, jak również
 
+
+
 ## Korpus złącza USB 
 
 <img alt="" src=images/SheetMetal_Example-07.png  style="width:400px;">
@@ -189,6 +205,8 @@ Przy drugim użyciu **Wyciągnięcia ściany** do kształtu przedłużenia (prze
 }}
 
 *(Płaskorzeźba jest tylko artystycznym wyrazem tego, co może być ukryte wewnątrz prawdziwej wtyczki)*.
+
+
 
 ## Właściwości środowiska pracy Arkusz Blachy 
 
@@ -357,7 +375,7 @@ Przełącz wartość właściwości **Użyj współczynnika szczeliny** z {{FALS
 
 :   W tym przypadku opcja zaokrąglenia jest bezużyteczna, ponieważ głębokość szczeliny jest tak duża, jak jej szerokość. *(Patrz wyżej)*
 
-Nowa właściwość **DługośćSpec** {{Version/pl|1.0}} umożliwia nam wybór sposobu pomiaru długości obiektu wygięcia:
+Nowa właściwość **DługośćSpec** {{Version/pl|0.21}} umożliwia nam wybór sposobu pomiaru długości obiektu wygięcia:
 
 <img alt="" src=images/SheetMetal_Example-09t.png  style="width:500px;"> 
 *Widok z boku czterech kołnierzy 120° o domyślnej długości {{Value|10 mm* i różnych wartościach **Length Spec**: <br> {{value|Leg}} ''(domyślnie)'', {{value|Outer Sharp}}, {{value|Inner Sharp}}, {{value|Tangential}}}}

@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -14,6 +16,8 @@ Questo strumento veste un percorso esistente per oltrepassare gli angoli negli a
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -26,12 +30,20 @@ Questo strumento veste un percorso esistente per oltrepassare gli angoli negli a
 
 </div>
 
+
+
 ## Opzioni
+
+
+<div class="mw-translate-fuzzy">
 
 -   Side - Il lato del percorso a cui viene aggiunta la modifica.
 -   Style - Stile di taglio (Dogbone, T-Bone Horizontal, T-Bone Vertical, T-Bone Long Edge, T-Bone Short Edge).
 -   incision - L\'algoritmo per utilizzare il calcolo della lunghezza del taglio aggiuntivo
 -   Custom- Se Incision è personalizzata, per impostare la lunghezza viene utilizzata la proprietà Custom.
+
+
+</div>
 
 ## Limitations
 

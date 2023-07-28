@@ -3,9 +3,9 @@
 
 ## Introduction
 
-The Path workbench offers tools to import, create, manipulate and export [machine toolpaths](http://en.wikipedia.org/wiki/G-code) in FreeCAD. With it, the user is able to import, visualize and modify existing gcode programs, generate toolpaths from 3D shapes, and export these toolpaths to gcode.
+The Path workbench offers tools to import, create, manipulate and export [machine toolpaths](https://en.wikipedia.org/wiki/G-code) in FreeCAD. With it, the user is able to import, visualize and modify existing G-code programs, generate toolpaths from 3D shapes, and export these toolpaths to G-code.
 
-The Path workbench is currently in early development, and does not offer all the advanced functions found in some commercial alternatives. However, the python scripting interface makes it easy to modify or develop more powerful tools.
+The Path workbench is currently in early development, and does not offer all the advanced functions found in some commercial alternatives. However, the Python scripting interface makes it easy to modify or develop more powerful tools.
 
 ## Quickstart
 
@@ -16,26 +16,26 @@ FreeCAD\'s Path objects are made of a sequence of motion commands. A typical use
 >>> import Path
 >>> c1 = Path.Command("g1x1")
 >>> c2 = Path.Command("g1y4")
->>> c3 = Path.Command("g1 x2 y2") # spaces end newlines are not considered
+>>> c3 = Path.Command("g1 x2 y2") # spaces end newlines are ignored
 >>> p = Path.Path([c1,c2,c3])
 >>> o = App.ActiveDocument.addObject("Path::Feature","mypath")
 >>> o.Path = p
->>> print p.toGCode()
+>>> print (p.toGCode())
 ```
 
-## The FreeCAD Internal GCode Format 
+## The FreeCAD Internal G-code Format 
 
-A preliminary concept is important to grasp. Most of the implementation below relies heavily on motion commands that have the same names as GCode commands, but aren\'t meant to be close to a particular controller\'s implementation. We chose names such as \'G0\' to represent \'rapid\' move or \'G1\' to represent \'feed\' move for performance (efficient file saving) and to minimize the work needed to translate to/from other GCode formats. Since the CNC world speaks thousands of GCode dialects, we chose to stick with a very simplified subset of it. You could describe FreeCAD\'s GCode format as a \"machine-agnostic\" form of GCode.
+A preliminary concept is important to grasp. Most of the implementation below relies heavily on motion commands that have the same names as G-code commands, but aren\'t meant to be close to a particular controller\'s implementation. Names such as \'G0\' to represent \'rapid\' move or \'G1\' were chosen to represent \'feed\' move for performance (efficient file saving) and to minimize the work needed to translate to/from other G-code formats. Since the CNC world speaks thousands of G-code dialects, a very simplified subset of it was chosen. You could describe FreeCAD\'s G-code format as a \"machine-agnostic\" form of G-code.
 
-Inside .FCStd files, Path data is saved directly into that GCode form.
+Inside .FCStd files, Path data is saved directly into that G-code form.
 
-All translations to/from dialects to FreeCAD GCode are done through pre and post scripts. That means that if you want to work with a machine that uses a specific LinuxCNC, Fanuc, Mitusubishi, or HAAS controller etc, you will have to use (or write if inexistant) a post processor for that particular control (see the \"Importing and exporting GCode\" section below).
+All translations to/from dialects to FreeCAD G-code are done through pre- and post- scripts. That means that if you want to work with a machine that uses a specific LinuxCNC, Fanuc, Mitusubishi, or HAAS controller etc, you will have to use (or write if nonexistent) a post processor for that particular controller (see the \"Importing and exporting G-code\" section below).
 
-### GCode Reference 
+### G-code Reference 
 
-The following rules and guidelines define the GCode subset used internally in FreeCAD:
+The following rules and guidelines define the G-code subset used internally in FreeCAD:
 
--   GCode data, inside FreeCAD Path objects, is separated into \"Commands\". A Command is defined by a command name, which must begin with G or M, and (optionally) arguments, which are in the form Letter = Float, for example X 0.02 or Y 3.5 or F 300. These are examples of typical GCode commands in FreeCAD:
+-   G-code data, inside FreeCAD Path objects, is separated into \"Commands\". A Command is defined by a command name, which must begin with G or M, and (optionally) arguments, which are in the form Letter plus a Float, for example X 0.02 or Y 3.5 or F 300. These are examples of typical G-code commands in FreeCAD:
 
 
 
@@ -48,15 +48,15 @@ The following rules and guidelines define the GCode subset used internally in Fr
 
 -   For the numeric part of a G or M command, both \"G1\" or \"G01\" forms are supported.
 -   Only commands starting with G or M are supported at the moment.
--   Only millimeters are accepted at the moment. G20/G21 are not considered.
+-   Only millimeters are accepted at the moment. G20/G21 are ignored.
 -   Arguments are always sorted alphabetically. This means that if you create a command with \"G1 X2 Y4 F300\", it will be stored as \"G1 F300 X2 Y4\"
 -   Arguments cannot be repeated inside a same command. For example, \"G1 X1 Y2 X2 Y3\" will not work. You will need to split it into two commands, for example: \"G1 X1 Y2, G1 X2 Y3\"
 -   X, Y, Z, A, B, C arguments are absolute or relative, depending on the current G90/G91 mode. Default (if not specified) is absolute.
 -   I, J, K are always relative to the last point. K can be omitted.
 -   X, Y, or Z (and A, B, C) can be omitted. In this case, the previous X, Y or Z coordinates are maintained.
--   Gcode commands other than the ones listed in the table below are supported, that is, they are saved inside the path data (as long as they comply to the rules above, of course), but they simply won\'t produce any visible result on screen. For example, you could add a G81 command, it will be stored, but not displayed.
+-   G-code commands other than the ones listed in the table below are supported, that is, they are saved inside the path data (as long as they comply to the rules above, of course), but they simply won\'t produce any visible result on screen. For example, you could add a G81 command, it will be stored, but not displayed.
 
-### List of currently supported GCode commands 
+### List of currently supported G-code commands 
 
   Command         Description                                     Supported Arguments   Displayed
      
@@ -72,7 +72,7 @@ The following rules and guidelines define the GCode subset used internally in Fr
 
 ## The Command object 
 
-The Command object represents a gcode command. It has three attributes: Name, Parameters and Placement, and two methods: toGCode() and setFromGCode(). Internally, it contains only a name and a dictionary of parameters. The rest (placement and gcode) is computed to/from this data.
+The Command object represents a G-code command. It has three attributes: Name, Parameters and Placement, and two methods: toGCode() and setFromGCode(). Internally, it contains only a name and a dictionary of parameters. The rest (placement and gcode) is computed to/from this data.
 
 
 ```python
@@ -173,14 +173,14 @@ for line in slines:
 o = App.ActiveDocument.addObject("Path::Feature","mypath")
 o.Path = p
 
-# but you can also create a path directly form a piece of gcode.
+# but you can also create a path directly form a piece of G-code.
 # The commands will be created automatically:
 
 p = Path.Path()
 p.setFromGCode(lines)
 ```
 
-As a shortcut, a Path object can also be created directly from a full GCode sequence. It will be divided into a sequence of commands automatically.
+As a shortcut, a Path object can also be created directly from a full G-code sequence. It will be divided into a sequence of commands automatically.
 
 
 ```python
@@ -275,7 +275,7 @@ Creating a compound with just one child path allows you therefore to turn the ch
 
 ### The Path Project feature 
 
-The Path project is an extended kind of Compound, that has a couple of additional machine-related properties such as a tooltable. It is made mainly to be the main object type you\'ll want to export to gcode once your whole path setup is ready. The Project object is now coded in python, so its creation mechanism is a bit different:
+The Path project is an extended kind of Compound, that has a couple of additional machine-related properties such as a tooltable. It is made mainly to be the main object type you\'ll want to export to G-code once your whole path setup is ready. The Project object is now coded in Python, so its creation mechanism is a bit different:
 
 
 ```python
@@ -287,7 +287,7 @@ The Path project is an extended kind of Compound, that has a couple of additiona
 Tooltable containing 0 tools
 ```
 
-The Path module also features a GUI tooltable editor that can be called from python, giving it an object that has a ToolTable property:
+The Path module also features a GUI tooltable editor that can be called from Python, giving it an object that has a ToolTable property:
 
 
 ```python
@@ -317,17 +317,17 @@ Assign the shape of wire Part to a normal Path object, using Path.fronShape() sc
 
 ### Python features 
 
-Both Path::Feature and Path::FeatureShape features have a python version, respectively named Path::FeaturePython and Path::FeatureShapePython, that can be used in python code to create more advanced parametric objects derived from them.
+Both Path::Feature and Path::FeatureShape features have a Python version, respectively named Path::FeaturePython and Path::FeatureShapePython, that can be used in Python code to create more advanced parametric objects derived from them.
 
-## Importing and exporting GCode 
+## Importing and exporting G-code 
 
 ### Native format 
 
-GCode files can be directly imported and exported via the GUI, by using the \"open\", \"insert\" or \"export\" menu items. After the file name is acquired, a dialog pops up to ask which processing script must be used. It can also be done from python:
+G-code files can be directly imported and exported via the GUI, by using the \"open\", \"insert\" or \"export\" menu items. After the file name is acquired, a dialog pops up to ask which processing script must be used. It can also be done from Python:
 
-Path information is stored into Path objects using a subset of gcode described in the \"FreeCAD\'s internal GCode format\"section above. This subset can be imported or exported \"as is\", or converted to/from a particular version of GCode suited for your machine.
+Path information is stored into Path objects using a subset of G-code described in the \"FreeCAD\'s internal G-code format\"section above. This subset can be imported or exported \"as is\", or converted to/from a particular version of G-code suited for your machine.
 
-If you have a very simple and standard GCode program, that complies to the rules described in the \"FreeCAD\'s internal GCode format\" section above, for example the boomerang from <http://www.cnccookbook.com/GWESampleFiles.html> , it can be imported directly into a Path object, without translation (this is equivalent to using the \"None\" option of the GUI dialog):
+If you have a very simple and standard G-code program, that complies to the rules described in the \"FreeCAD\'s internal G-code format\" section above, for example the boomerang from [cnccookbook](https://www.cnccookbook.com/g-code-examples-files/), it can be imported directly into a Path object, without translation (this is equivalent to using the \"None\" option of the GUI dialog):
 
 
 ```python
@@ -339,7 +339,7 @@ o = App.ActiveDocument.addObject("Path::Feature","boomerang")
 o.Path = p
 ```
 
-In the same manner, you can obtain the path information as \"agnostic\" gcode, and store it manually in a file:
+In the same manner, you can obtain the path information as \"agnostic\" G-code, and store it manually in a file:
 
 
 ```python
@@ -350,13 +350,13 @@ myfile.write(text)
 myfile.close()
 ```
 
-If you need a different output, though, you will need to convert this agnostic GCode into a format suited for your machine. That is the job of post-processing scripts.
+If you need a different output, though, you will need to convert this agnostic G-code into a format suited for your machine. That is the job of post-processing scripts.
 
 ### Using pre- and post-processing scripts 
 
-If you have a gcode file written for a particular machine, which doesn\'t comply to the internal rules used by FreeCAD, described in the \"FreeCAD\'s internal GCode format\" section above, it might fail to import and/or render properly in the 3D view. To remedy to this, you must use a pre-processing script, which will convert from your machine-specific format to the FreeCAD format.
+If you have a G-code file written for a particular machine, which doesn\'t comply to the internal rules used by FreeCAD, described in the \"FreeCAD\'s internal G-code format\" section above, it might fail to import and/or render properly in the 3D view. To remedy to this, you must use a pre-processing script, which will convert from your machine-specific format to the FreeCAD format.
 
-If you know the name of the pre-processing script to use, you can import your file using it, from the python console like this:
+If you know the name of the pre-processing script to use, you can import your file using it, from the Python console like this:
 
 
 ```python
@@ -364,7 +364,7 @@ import example_pre
 example_pre.insert("/path/to/myfile.ncc","DocumentName")
 ```
 
-In the same manner, you can output a path object to GCode, using a post_processor script like this:
+In the same manner, you can output a Path object to G-code, using a post_processor script like this:
 
 
 ```python
@@ -376,7 +376,7 @@ example_post.export (myObjectName,"/path/to/outputFile.ncc")
 
 Pre- and post-processing scripts behave like other common FreeCAD imports/exporters. When choosing a pre/post processing script from the dialog, the import/export process will be redirected to the specified given script. Preprocessing scripts must contain at least the following methods open(filename) and insert(filename,docname). Postprocessing scripts need to implement export(objectslist,filename).
 
-Scripts are placed into either the Mod/Path/PathScripts folder or the user\'s macro path directory. You can give them any name you like but by convention, and to be picked by the GUI dialog, pre-processing scripts names must end with \"\_pre\", post-processing scripts with \"\_post\" (make sure to use the underscore, not the hyphen, otherwise python cannot import it). This is an example of a very, very simple preprocessor. More complex examples are found in the Mod/Path/PathScripts folder:
+Scripts are placed into either the Mod/Path/PathScripts folder or the user\'s macro path directory. You can give them any name you like but by convention, and to be picked by the GUI dialog, pre-processing scripts names must end with \"\_pre\", post-processing scripts with \"\_post\" (make sure to use the underscore, not the hyphen, otherwise Python cannot import it). This is an example of a very, very simple preprocessor. More complex examples are found in the Mod/Path/PathScripts folder:
 
 
 ```python
@@ -404,7 +404,7 @@ def open(filename):
     FreeCAD.ActiveDocument.recompute()
 ```
 
-Pre- and post-processors work exactly the same way. They just do the contrary: The pre scripts convert from specific GCode to FreeCAD\'s \"agnostic\" GCode, while post scripts convert from FreeCAD\'s \"agnostic\" GCode to machine-specific GCode.
+Pre- and post-processors work exactly the same way. They just do the contrary: The pre scripts convert from specific G-code to FreeCAD\'s \"agnostic\" G-code, while post scripts convert from FreeCAD\'s \"agnostic\" G-code to machine-specific G-code.
 
 ## Adding all faces of a ShapeString to the BaseFeature\'s list of a ProfileFromFaces operation 
 

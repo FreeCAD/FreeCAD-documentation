@@ -10,6 +10,8 @@
 
 # Arch Roof/it
 
+
+
 ## Descrizione
 
 Lo strumento **<img src="images/Arch_Roof.svg" width=16px> [Tetto](Arch_Roof/it.md)** consente di creare un tetto inclinato selezionando un contorno. L\'oggetto Tetto creato in questo modo è parametrico e mantiene le sue relazioni con l\'oggetto base. Si basa sul principio che ad ogni bordo viene assegnata una falda del tetto (con le caratteristiche di pendenza, larghezza coperta, sbalzo, spessore).
@@ -19,9 +21,11 @@ Lo strumento **<img src="images/Arch_Roof.svg" width=16px> [Tetto](Arch_Roof/it.
 <img alt="" src=images/RoofExample.png  style="width:600px;"> 
 *Vista dall'alto di un modello di edificio che mostra il tetto in trasparenza*
 
+
+
 ## Utilizzo
 
-1.  Creare un contorno seguendo il senso antiorario e selezionarlo.
+1.  Creare un contorno chiuso seguendo il senso antiorario e selezionarlo.
 
     :   <img alt="" src=images/CounterclockwiseWire.png  style="width:600px;">
 
@@ -49,9 +53,19 @@ Lo strumento **<img src="images/Arch_Roof.svg" width=16px> [Tetto](Arch_Roof/it.
 9.  
     **Nota**: per una migliore comprensione, vedere questo [youtube clip](https://www.youtube.com/watch?v=4Urwru71dVk).
 
+
+
 ## Opzioni
 
+
+<div class="mw-translate-fuzzy">
+
 -   Gli elementi Tetto condividono le proprietà e i comportamenti comuni di tutti i [Componenti Arch](Arch_Component/it.md)
+
+
+</div>
+
+
 
 ## Proprietà
 
@@ -67,6 +81,11 @@ Lo strumento **<img src="images/Arch_Roof.svg" width=16px> [Tetto](Arch_Roof/it.
 
 -    {{PropertyData/it|Face}}: L\'indice della faccia dell\'oggetto di base da utilizzare (non ancora usato)
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Script
 
 
@@ -74,7 +93,18 @@ Lo strumento **<img src="images/Arch_Roof.svg" width=16px> [Tetto](Arch_Roof/it.
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Tetto può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento Tetto può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
+
+
+</div>
+
+
 ```python
 Roof = makeRoof(baseobj=None, facenr=0, angles=[45.,], run=[], idrel=[0,], thickness=[50.,], overhang=[100.,], name="Roof")
 ```

@@ -93,7 +93,13 @@ También tiene varias vistas preconfiguradas (vista superior, vista frontal, etc
 
 ## Primeros paso con FreeCAD 
 
+
+<div class="mw-translate-fuzzy">
+
 El enfoque de FreeCAD es permitirte hacer modelos 3D de alta presición, para mantener un control ajustado sobre estos modelos(ser capaz de retroceder dentro del historial de modelado y cambiar parametros), y eventualmente construir estos modelos (impresion 3D, mecanizado CNC o incluso sitio de construción). Es por lo tanto muy diferente de algunas otras aplicaciones 3D hechas para otros propositos, tal como animacion o juegos. Su curva de aprendizaje puede ser doloroza, especialmente si este es tu primer contacto con modelado 3D. Si esta atorado en algun punto, no olvides que la amigable comunidad de usuarios en el [Foro de FreeCAD](http://forum.freecadweb.org/index.php) podrian sacarte en poco tiempo.
+
+
+</div>
 
 El ambiente de trabajo que empezaras a utilizar depende sobre el tipo de trabajo que necesitas hacer: Si tu vas a trabajar sobre modelos mecanicos, o más generalmente hablando cualquier objecto de pequeña escala, tu podrias probablemente querer probar el [Ambiente de trabajo DiseñoPiezas](PartDesign_Workbench/es.md). Si vas a trabajar en 2D, entonces cambia a el [Ambiente de trabajo Borrador](Draft_Workbench/es.md) o el [Ambiente de trabajo Croquizador](Sketcher_Workbench/es.md) si necesitas acotaciones. si tu quieres hacer BIM, ejecuta el [Ambiente de trabajo Arquitectura](Arch_Workbench/es.md). Si estas trabajando con diseño de barcos, allí esta un [Ambiente de trabajo Navío](Ship_Workbench/es.md) para tí. Y si tu vienes del mundo de OpenSCAD prueba el [Ambiente de trabajo OpenSCAD](OpenSCAD_Workbench/es.md). También hay disponibles muchos [Ambientes de trabajo externos](External_workbenches/es.md) desarrollados por la comunidad.
 

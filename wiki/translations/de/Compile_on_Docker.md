@@ -7,9 +7,13 @@
 
 {{TOCright}}
 
+
+
 ## Überblick
 
 Unter den Möglichkeiten, FreeCAD zu bauen und zu installieren, gibt es die Möglichkeit, Docker zu verwenden. Diese Methode ist vor allem für FreeCAD Entwickler nützlich, die Linux oder Mac OS Rechner verwenden.
+
+
 
 ### Vorteile
 
@@ -20,10 +24,14 @@ Alle Abhängigkeiten von FreeCAD sind bereits installiert, miteinander kompatibe
 -   Für diejenigen, die obskure \*nix Distributionen und [Gebrauchsanweisungen sind nicht verfügbar](Compile_on_Linux/de#Erhalten_der_Abhängigkeiten.md) für das Holen von Abhängigkeiten verwenden, ist alles, was du auf deinem Arbeitsplatzrechner installieren musst, ein Docker, der in vielen Distributionen recht häufig verfügbar ist.
 -   Er bietet eine statische, unveränderliche Entwicklungsumgebung. Ich persönlich finde das nützlich, wenn ich bei der Entwicklung die Anzahl der potentiellen Variablen, die ein Problem verursachen könnten, reduzieren möchte. Du weist, dass du zwischen den Builds nichts Esoterisches in der Umgebung verändert hast. Für Entwickler, die zusammenarbeiten und beide den gleichen Docker Container verwenden, kannst du sicher sein, dass ihr beide von der gleichen Umgebung aus arbeitet, was Kommunikationsfehler aufgrund von Unterschieden in der Umgebung reduziert.
 
+
+
 ## Docker Repositorien 
 
 -   Original: <https://gitlab.com/daviddaish/freecad_docker_env>
 -   Offiziell: <https://GitHub.com/FreeCAD/Docker>
+
+
 
 ## Vorbedingungen
 
@@ -31,6 +39,8 @@ Alle Abhängigkeiten von FreeCAD sind bereits installiert, miteinander kompatibe
 -   Docker
 
 ## Installation
+
+
 
 ### Herunterladen der Quelle 
 
@@ -49,6 +59,8 @@ Weitere Informationen über die Verwendung von Git und das Einbringen von Code i
 
 Alternativ kannst du den Quellcode als [archive](https://github.com/FreeCAD/FreeCAD/releases/latest), eine `.zip` oder `.tar.gz` Datei herunterladen und in das gewünschte Verzeichnis entpacken.
 
+
+
 ### Erstelle ein Build Verzeichnis 
 
 Erstelle ein Verzeichnis, das deine kompilierten FreeCAD Quellen enthält.
@@ -58,6 +70,8 @@ Erstelle ein Verzeichnis, das deine kompilierten FreeCAD Quellen enthält.
 mkdir ~/my_code/freecad_build
 }}
 
+
+
 ### Docker Abbild ziehen 
 
 Ziehe das Docker Abbild. (Offizielle Bild kommt bald.)
@@ -66,6 +80,8 @@ Ziehe das Docker Abbild. (Offizielle Bild kommt bald.)
 {{Code|lang=bash|code=
 docker pull registry.gitlab.com/daviddaish/freecad_docker_env:latest
 }}
+
+
 
 ### Zugriff auf deinen Windowmanager erlauben 
 
@@ -78,9 +94,13 @@ xhost +
 
 Wenn du mit nicht vertrauenswürdigen Systemen verbunden bist, z.B. über `ssh`, macht dich das anfällig für bösartigen Code. Schließe entweder alle `ssh` Verbindungen, oder schau dir sicherere xhost Berechtigungen an, was außerhalb des Umfanges dieses Tutorials liegt.
 
+
+
 #### Mac OS Anwender 
 
 Für diejenigen, die Mac OS verwenden, ist das X Fenster System möglicherweise nicht installiert. Das XQuartz Projekt ist ein seit langem laufendes quelloffenes Projekt, das es dir erlaubt, es auf deinem Computer zu installieren. [Du kannst es hier finden](https://www.xquartz.org/).
+
+
 
 ### Starte das Docker Abbild 
 
@@ -105,6 +125,8 @@ docker run -it --rm \
 registry.gitlab.com/daviddaish/freecad_docker_env:latest
 }}
 
+
+
 ### FreeCAD bauen 
 
 Du kannst FreeCAD mit dem installierten Build Skript oder mit deiner bevorzugten Methode bauen.
@@ -113,6 +135,8 @@ Du kannst FreeCAD mit dem installierten Build Skript oder mit deiner bevorzugten
 {{Code|lang=bash|code=
 /root/build_script.sh
 }}
+
+
 
 ### FreeCAD ausführen 
 
@@ -125,11 +149,15 @@ Sobald FreeCAD gebaut wurde, kann es wie gewohnt ausgeführt werden.
 
 Du kannst die angehängten Verzeichnisse im `/mnt` Verzeichnis finden.
 
+
+
 ## Diskussion
 
 -   [Docker env build container](https://forum.freecadweb.org/viewtopic.php?f=4&t=42954)
 -   [VSCode setup with Docker (1)](https://forum.freecadweb.org/viewtopic.php?f=10&t=48266)
 -   [VSCode setup with Docker (2)](https://forum.freecadweb.org/viewtopic.php?p=427812#p427812)
+
+
 
 ## Verwandt
 

@@ -1,4 +1,3 @@
-# Basic TechDraw Tutorial/pl
 ---
 - TutorialInfo:/pl
    Topic:Modelowanie
@@ -6,40 +5,56 @@
    Author:[WandererFan](User_WandererFan.md)
    Time:Mniej niż godzinę
    FCVersion:0.17 lub nowszy
-   Files:[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd  Basic Part Design for v0.17 Sample]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd Basic TechDraw Tutorial Sample]
-}}
+   Files:[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd?raw=true  Basic Part Design for v0.17 Sample]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd?raw=true Basic TechDraw Tutorial Sample]
+---
+
+# Basic TechDraw Tutorial/pl
+
+
+
+
+
+
 
 ## Wprowadzenie
 
-Ten poradnik ma za zadanie zapoznać nowego użytkownika z wybranymi narzędziami i technikami używanymi w środowisku pracy **![](images/)**. Ten poradnik nie jest kompletnym i wyczerpującym przewodnikiem po środowisku pracy Rysunek Techniczny i nie obejmuje wielu narzędzi i możliwości. Poradnik przeprowadzi użytkownika przez kroki niezbędne do wykonania rysunków technicznych części na przykładzie [Poradnika projektowania części - podstawy](Basic_Part_Design_Tutorial/pl.md).
+Ten poradnik ma za zadanie zapoznać nowego użytkownika z wybranymi narzędziami i technikami używanymi w środowisku pracy **<img src="images/Workbench_TechDraw.svg" width=24px> [Rysunek Techniczny](TechDraw_Workbench/pl.md)**. Ten poradnik nie jest kompletnym i wyczerpującym przewodnikiem po środowisku pracy Rysunek Techniczny i nie obejmuje wielu narzędzi i możliwości. Poradnik przeprowadzi użytkownika przez kroki niezbędne do wykonania rysunków technicznych części na przykładzie [Poradnika projektowania części - podstawy](Basic_Part_Design_Tutorial/pl.md).
+
+
 
 ## Nim zaczniesz 
 
-Pobierz przykładowy [plik projektu](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd) z poradnika dotyczącego projektowania części *(środowisko pracy Part)*.
+Pobierz przykładowy [plik projektu](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd?raw=true) z poradnika dotyczącego projektowania części *(środowisko pracy Part)*.
+
+
 
 ## Zadanie
 
-W tym poradniku będziesz używał Środowiska pracy **<img src="images/Workbench_TechDraw.svg___24px]]_[[TechDraw_Workbench/pl" width=Rysunek techniczny]]** do tworzenia rysunków 2D dla modelu 3D. Stworzymy wiele widoków detalu i dodamy kluczowe wymiary. Ten poradnik nie będzie wykorzystywał każdej funkcji i narzędzia dostępnego w ramach Środowiska pracy **![](images/)**,_ale_powinien_dostarczyć_użytkownikowi_niezbędnych_podstaw_do_zbudowania_jego_wiedzy_i_umiejętności.
+W tym poradniku będziesz używał Środowiska pracy **<img src="images/Workbench_TechDraw.svg" width=24px> [Rysunek techniczny](TechDraw_Workbench/pl.md)** do tworzenia rysunków 2D dla modelu 3D. Stworzymy wiele widoków detalu i dodamy kluczowe wymiary. Ten poradnik nie będzie wykorzystywał każdej funkcji i narzędzia dostępnego w ramach Środowiska pracy **<img src="images/Workbench_TechDraw.svg" width=24px> [Rysunek techniczny](TechDraw_Workbench/pl.md)**, ale powinien dostarczyć użytkownikowi niezbędnych podstaw do zbudowania jego wiedzy i umiejętności.
+
+
 
 ## Model detalu 
 
 ![](images/Tut17_final_refined.png )
 
-## Tworzenie Rysunku 
+
+
+## Tworzenie rysunku 
+
+
 
 ### Rozpoczynamy
 
--   Możesz chcieć dostosować ustawienia [konfiguracji](TechDraw_Preferences.md) przed rozpoczęciem pracy. Patrz uwaga 1.
+-   Możesz chcieć dostosować ustawienia [konfiguracji](TechDraw_Preferences/pl.md) przed rozpoczęciem pracy. Patrz uwaga 1.
 -   Otwórz najpierw plik zawierający nasz detal w 3D. Następnie upewnij się, że znajdujesz się w Środowisku pracy TechDraw.
 -   W oknie rysunku i/lub panelu widoku połączonego będziesz wybierał elementy. Zaznaczenie w Środowisku TechDraw działa tak samo jak w oknie widoku 3D. Elementy zmieniają kolor na żółty, gdy kursor znajduje się w pozycji umożliwiającej ich wybranie, i zmieniają kolor na zielony, gdy są wybrane. Aby wybrać wiele elementów, przytrzymaj klawisz klawiatury **Ctrl** podczas klikania.
 
+
+
 ### Widoki i wymiarowanie 
 
-Wszystkie prace w Środowisku **![](images/)**_rozpoczynają_się_od_utworzenia_strony. Strony są oparte na Szablonach i zawierają widoki.
-
-1.  Kliknij w przycisk <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Wstaw nową domyślną stronę rysunku](TechDraw_PageDefault/pl.md) aby utworzyć nową stronę.
-2.  Kliknij w Zawartość w oknie [widoku 3D](3D_view/pl.md) lub [widoku połączonego](Combo_view.md).
-3.  Kliknij w przycisk <img alt="" src=images/TechDraw_View.svg  style="width:32px;"> [Wstaw widok](TechDraw_View/pl.md). Spowoduje to dodanie widoku do strony, którą właśnie utworzyliśmy.
+Wszystkie prace w środowisku Rysunek Techniczny rozpoczynają się od utworzenia strony. Strony są oparte na Szablonach i zawierają widoki.
 
 Teraz mamy widok na stronę patrząc w dół na górę bryły. Jest on jednak trochę mały.
 
@@ -58,6 +73,8 @@ Wygląda lepiej, jednak widok wciąż pozostaje trochę nudny. Dodajmy więc kil
 3.  Spróbuj jeszcze raz z lewym górnym i prawym górnym wierzchołkiem i <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:32px;"> [Wstaw wymiar poziomy](TechDraw_HorizontalDimension/pl.md).
 
 ![](images/TDTut_TopView2Dims.png )
+
+
 
 ### Pola tekstowe bloku dokumentacji 
 
@@ -83,6 +100,8 @@ Zanim opuścimy tę stronę, zobaczmy, jak będzie wyglądać, gdy ją wydrukuje
 
 ![](images/TDTut_Toggle.png )
 
+
+
 ### Wiele widoków detalu 
 
 Stwórzmy rysunek wielu widoków używając innego szablonu jako punktu startowego. Będziemy używać konwencji **Kąta pierwszego**, ale możesz też przejść na **Kąt trzeci**, jeśli jest to twoja właściwa metoda.
@@ -99,6 +118,8 @@ Stwórzmy rysunek wielu widoków używając innego szablonu jako punktu startowe
 1.  W widoku oznaczonym jako **TopLeftFront**, wybierz dwa wierzchołki na skrajnych końcach przedniej krawędzi elementu.
 2.  Kliknij na narzędzie <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:32px;"> [Wstaw nowy wymiar długości](TechDraw_LengthDimension/pl.md). Przeciągnij tekst wymiarowy z dala od bryły.
 
+
+
 ### Powiązanie wymiarów z modelem 3D 
 
 Czy widzisz problem z wymiarem, który właśnie powstał?
@@ -113,9 +134,11 @@ Od pierwszej części tego poradnika wiemy, że przedmiot posiada szerokość **
 4.  W oknie dialogowym, przenieś nasz wymiar z dostępnej kolumny do wybranej kolumny. Naciśnij przycisk **OK**.
 5.  Wróć na stronę001. Nasz wymiar powinien teraz odczytać prawidłową wartość 53. *(Jeśli nadal widzisz 43.27, może być konieczne wciśnięcie przycisku **Przelicz** lub trochę przesuń wartość wymiaru na rysunku, aż się zmieni)*.
 
+
+
 ## Dalsze postępowanie 
 
-W tym samouczku nauczyłeś się wystarczająco dużo o Środowisku pracy **![](images/)**,_aby_stworzyć_taki_rysunek_*(autor:_[NormandC](User_Normandc.md))*. Uwaga 2.
+W tym samouczku nauczyłeś się wystarczająco dużo o Środowisku pracy **<img src="images/Workbench_TechDraw.svg" width=24px> [TechDraw](TechDraw_Workbench/pl.md)**, aby stworzyć taki rysunek *(autor: [NormandC](User_Normandc.md))*. Uwaga 2.
 
 ![](images/TDTut_FC018_TechDraw_Dim_Iso_View_01_NC.png )
 
@@ -125,20 +148,25 @@ W tym samouczku nauczyłeś się wystarczająco dużo o Środowisku pracy **![](
 
 oferuje o wiele więcej funkcjonalności - widoki przekrojów, widoki szczegółów, symbole Svg, obrazy, kreskowanie powierzchni.
 
+
+
 ## Uwagi
 
 1.  W tym [wpisie na forum](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=30083#p248189) znajduje się doskonały zestaw sugerowanych preferencji.
 2.  Ten rysunek został wykonany w wersji **0.18**. Pokazuje wymiary w odpowiednim formacie dla widoku izometrycznego. W wersji **0.17** linie pomocnicze będą prostopadłe do krawędzi, a nie wyrównane z osiami.
 
+
+
 ## Dodatkowe zasoby 
 
--   Plik FreeCAD tego ćwiczenia do porównania *(wykonany w wersji programu 0.17)* [Pobierz](https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd)
+-   Plik FreeCAD tego ćwiczenia do porównania *(wykonany w wersji programu 0.17)* [Pobierz](https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd?raw=true)
 
 
- {{TechDraw Tools navi}} {{Userdocnavi
+{{TechDraw Tools navi
+
+}}
+
+
+
 ---
-
-
-
----
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial/pl

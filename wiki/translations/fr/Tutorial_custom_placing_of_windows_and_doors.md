@@ -8,6 +8,8 @@
    Files:aucun
 }}
 
+
+
 ## Introduction
 
 Ce didacticiel montre comment placer des [fenêtres Arch](Arch_Window/fr.md) et des [portes Arch](Arch_Door/fr.md) personnalisées dans un modèle de bâtiment. Il utilise l\'[atelier Draft](Draft_Workbench/fr.md), l\'[atelier Arch](Arch_Workbench/fr.md) et l\'[atelier Sketcher](Sketcher_Workbench/fr.md).
@@ -27,6 +29,8 @@ Voir également la page suivante pour quelques vidéos sur la façon d\'aligner 
 
 -   [L\'atelier utilisé pour créer des projets architecturaux s\'appelle Arch](http://help-freecad-jpg87.fr/04_arch_ind.php)
 
+
+
 ## Installation
 
 1\. Ouvrez FreeCAD, créez un nouveau document vide et passez à l\'[atelier Arch](Arch_Workbench/fr.md)
@@ -38,6 +42,8 @@ Voir également la page suivante pour quelques vidéos sur la façon d\'aligner 
 4\. [Zoom arrière](Std_ViewZoomOut/fr.md) de la vue 3D si vous êtes trop près de la grille.
 
 Nous sommes maintenant prêts à créer un mur simple sur lequel nous pouvons positionner les fenêtres et les portes.
+
+
 
 ## Placement d\'un mur 
 
@@ -88,6 +94,8 @@ w = Draft.makeWire(p, closed=False)
 
 *align=center|Mur construit à partir du fil*
 
+
+
 ## Placement de portes et fenêtres prédéfinies 
 
 7\. Cliquez sur l\'outil [Arch Fenêtre](Arch_Window/fr.md); comme préréglage, sélectionnez `Simple door` et modifiez la hauteur à 2 m.
@@ -103,7 +111,9 @@ w = Draft.makeWire(p, closed=False)
 
 
 :   
-    **Note:**la `Sill height` est la distance entre le sol et le bord inférieur de l\'élément. Pour les portes, la `Sill height` (Hauteur du seuil) est généralement de 0 m car les portes touchent normalement le sol; d\'autre part, les fenêtres ont une séparation habituelle de 0,5 m à 1,5 m du sol. `Sill height` ne peut être définie que lors de la création initiale de la fenêtre ou de la porte à partir d\'un préréglage. Une fois la fenêtre ou la porte insérée, modifiez son emplacement en éditant la {{PropertyData/fr|Position}} du vecteur `[x, y, z]` de l\'[Sketcher Esquisse](Sketcher_Sketch/fr.md) sous-jacente.
+    **Note:**la `Sill height` est la distance entre le sol et le bord inférieur de l\'élément. Pour les portes, la `Sill height` (Hauteur du seuil) est généralement de 0 m car les portes touchent normalement le sol; d\'autre part, les fenêtres ont une séparation habituelle de 0,5 m à 1,5 m du sol. `Sill height` ne peut être définie que lors de la création initiale de la fenêtre ou de la porte à partir d\'un préréglage. Une fois la fenêtre ou la porte insérée, modifiez son emplacement en éditant la {{PropertyData/fr|Position}} du vecteur `[x, y, z]` de l\'[Sketcher Esquisse](Sketcher_Workbench/fr.md) sous-jacente.
+
+
 
 ## Création de portes et fenêtres personnalisées 
 
@@ -114,7 +124,7 @@ w = Draft.makeWire(p, closed=False)
 :   9.1. Le fil extérieur est le plus gros et définira les principales dimensions de l\'objet fenêtre, ainsi que la taille du trou créé lorsqu\'il est intégré dans un [Arch Mur](Arch_Wall/fr.md). Assurez-vous que les dimensions sont nommées correctement, par exemple `Width` et `Height`. Une contrainte définit également la courbure du fil extérieur; donnez-lui un nom approprié, comme `HeightCurve`.
 :   9.2. Le deuxième fil est décalé du fil extérieur et, ensemble, ils définissent la largeur du cadre fixe de la fenêtre. Nommez le décalage de manière appropriée, par exemple `FrameFixedOffset`. Il sera utilisé pour les décalages verticaux et horizontaux supérieurs. Le décalage du bas, s\'il est défini sur zéro, aura pour effet que le cadre fixe touche le bas de la fenêtre; cela peut être utilisé pour modéliser une porte au lieu d\'une fenêtre. Donnez-lui un nom approprié, comme `FrameFixedBottom`.
 :   9.3. Le troisième fil, le plus à l\'intérieur, est décalé du deuxième fil, et avec lui, ils définissent le cadre de la fenêtre qui peut s\'ouvrir. Le fil le plus à l\'intérieur définit également la taille du panneau de verre. Encore une fois, donnez des noms significatifs à ces décalages, par exemple, `FrameInnerOffset` et `FrameInnerBottom`.
-:   9.4. Afin de construire avec succès l\'esquisse, utilisez les contraintes horizontales ([Sketcher Contrainte horizontale](Sketcher_ConstrainHorizontal/fr.md)) et verticales ([Sketcher Contrainte verticale](Sketcher_ConstrainVertical/fr.md)) pour les côtés droits; utilisez la géométrie de construction auxiliaire ([Sketcher Basculer en géométrie de construction](Sketcher_ToggleConstruction/fr.md)) et les contraintes tangentielles ([Sketcher Contrainte tangente](Sketcher_ConstrainTangent/fr.md)) pour placer correctement les arcs de cercle en haut. Comme dans ce cas, la fenêtre est symétrique, considérez les contraintes d\'égalité ([Sketcher Contrainte d\'egalité](Sketcher_ConstrainEqual/fr.md)), symétrique ([Sketcher Contrainte de symétrie](Sketcher_ConstrainSymmetric/fr.md)) et de point sur objet ([Sketcher Contrainte Point sur un objet](Sketcher_ConstrainPointOnObject/fr.md)) là où cela a du sens.
+:   9.4. Afin de construire avec succès l\'esquisse, utilisez les contraintes horizontales ([Sketcher Contrainte horizontale](Sketcher_ConstrainHorizontal/fr.md)) et verticales ([Sketcher Contrainte verticale](Sketcher_ConstrainVertical/fr.md)) pour les côtés droits; utilisez la géométrie de construction auxiliaire ([Sketcher Géométrie de construction](Sketcher_ToggleConstruction/fr.md)) et les contraintes tangentielles ([Sketcher Contrainte tangente](Sketcher_ConstrainTangent/fr.md)) pour placer correctement les arcs de cercle en haut. Comme dans ce cas, la fenêtre est symétrique, considérez les contraintes d\'égalité ([Sketcher Contrainte d\'egalité](Sketcher_ConstrainEqual/fr.md)), symétrique ([Sketcher Contrainte de symétrie](Sketcher_ConstrainSymmetric/fr.md)) et de point sur objet ([Sketcher Contrainte Point sur un objet](Sketcher_ConstrainPointOnObject/fr.md)) là où cela a du sens.
 
 ![](images/04_T02_window_constraints_outer_frame.png )
 
@@ -152,6 +162,8 @@ w = Draft.makeWire(p, closed=False)
 
 
 *align=center|Fenêtre personnalisée créée à partir de l'esquisse; elle n'a toujours pas de cadre approprié, ni de verre*
+
+
 
 ## Configuration de la fenêtre personnalisée 
 
@@ -209,6 +221,8 @@ w = Draft.makeWire(p, closed=False)
 
 *align=center|Fenêtre finie avec des composants appropriés intégrés dans le mur*
 
+
+
 ## Duplication de la fenêtre personnalisée 
 
 14\. Dans l\'arborescence, sélectionnez `Window` et son sous-jacent `Sketch002`. Puis allez dans **Edition → Copier la sélection**, et répondez **No** si on vous demande de dupliquer les dépendances non sélectionnées. Un nouveau `Window001` et `Sketch003` apparaîtront dans la même position que les éléments d\'origine.
@@ -233,6 +247,8 @@ w = Draft.makeWire(p, closed=False)
 
 
 *align=center|Ouverture incorrecte dans le mur en raison d'une mauvais normale de la fenêtre*
+
+
 
 ## Normales des portes et fenêtres 
 
@@ -323,6 +339,8 @@ Après avoir effectué ces modifications, recalculez le modèle avec **Ctrl**+**
 
 *align=center|Ouverture correcte dans le mur en raison de la bonne  normale de la fenêtre*
 
+
+
 ## Remarques finales 
 
 20\. Comme démontré, l\'emplacement initial de la [Arch Fenêtre](Arch_Window/fr.md) est très important. L\'utilisateur doit soit
@@ -346,9 +364,9 @@ abs(N) = 1 = sqrt(sin^2(angle) + cos^2(angle) + z^2)
 ```
 
 
-   {{Sketcher Tools navi}}
+  {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > Tutorial custom placing of windows and doors/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > Tutorial custom placing of windows and doors/fr

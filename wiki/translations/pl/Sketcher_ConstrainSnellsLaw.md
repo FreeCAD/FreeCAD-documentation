@@ -2,13 +2,15 @@
 - GuiCommand:/pl
    Name:Sketcher ConstrainSnellsLaw
    Name/pl:Szkicownik: Wiązanie prawo Snella
-   MenuLocation:Szkicownik → Wiązania Szkicownika → Wiązanie refrakcji (prawo Snell'a)
+   MenuLocation:Szkic → Wiązania szkicownika → Wiązanie refrakcji (prawo Snell'a)
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**K** **W**
    Version:0.15
 ---
 
 # Sketcher ConstrainSnellsLaw/pl
+
+
 
 ## Opis
 
@@ -19,6 +21,8 @@ Powoduje związanie dwóch linii do przestrzegania prawa załamania światła, k
 
 
 *Prawo Snell'a*
+
+
 
 ## Użycie
 
@@ -34,6 +38,8 @@ Zauważ, że kilka [wiązań pomocniczych](Sketcher_helper_constraint.md) zostan
 
 Za pomocą przyboru **[<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Linia łamana](Sketcher_CreatePolyline.md)**, możliwe jest przyspieszenie rysowania promieni świetlnych. W tym przypadku można wybrać dwa przypadkowe punkty końcowe przez użycie pola wyboru.
 
+
+
 ## Uwagi
 
 -   Rzeczywiste wiązanie prawna Snell\'a narzuca równanie prawa jawnego n1\*sin(theta1) = n2\*sin(theta2). Wymaga, aby końce linii były zbieżne i umieszczone bezpośrednio na powierzchni styku różnych wiązań. Niezbędne wiązania pomocnicze są dodawane automatycznie w oparciu o bieżące współrzędne elementów.
@@ -42,6 +48,8 @@ Za pomocą przyboru **[<img src=images/Sketcher_CreatePolyline.svg style="width:
 -   W przeciwieństwie do rzeczywistości, współczynniki załamania są powiązane z promieniami światła, ale nie zgodnie z krawędzią granicy. Jest to użyteczne w celu emulowania dwupłaszczyzn, konstruowania ścieżek o różnych długościach fal spowodowanych załamaniem i łatwego konstruowania kąta początku całkowitego wewnętrznego odbicia.
 -   Oba promienie mogą znajdować się po tej samej stronie powierzchni styku, spełniając równanie wiązania. Jest to fizyczny nonsens, chyba że stosunek n2/n1 wynosi 1,0, w którym to przypadku ograniczenie emuluje odbicie.
 -   Łuki okręgu i elipsy są również akceptowane jako promienie *(fizyczny nonsens)*.
+
+
 
 ## Tworzenie skryptów 
 

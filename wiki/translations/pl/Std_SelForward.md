@@ -1,27 +1,34 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std SelForward
+   Name/pl:Std: Ponów wybór
    MenuLocation:
-   Workbenches:All
+   Workbenches:wszystkie
    Version:0.19
-   SeeAlso:[Std LinkSelectLinked](Std_LinkSelectLinked.md), [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelBack](Std_SelBack.md)
+   SeeAlso:[Przejdź do połączonego obiektu](Std_LinkSelectLinked/pl.md), [Przejdź do najgłębiej połączonego obiektu](Std_LinkSelectLinkedFinal/pl.md),  [Wybierz wszystkie łącza](Std_LinkSelectAllLinks/pl.md), [Przywróć wybór](Std_SelBack/pl.md)
 ---
 
 # Std SelForward/pl
 
-## Description
 
-The **Std SelForward** command restores the next recorded [Tree view](Tree_view.md) selection. Note that selections are only recorded if [Tree RecordSelection mode](Std_TreeRecordSelection.md) is switched on.
 
-## Usage
+## Opis
 
-1.  There has to be a next Tree view selection.
-2.  Press the **<img src="images/Std_SelForward.svg" width=16px> [Forward](Std_SelForward.md)** button.
-3.  The next selection is restored.
+Polecenie **Ponów wybór** przywraca następny zarejestrowany wybór z [Widoku drzewa](Tree_view/pl.md). Należy pamiętać, że zaznaczenia są zapisywane tylko wtedy, gdy włączony jest tryb [Zapisz zaznaczenie](Std_TreeRecordSelection/pl.md).
 
-## Notes
 
--   Only [Tree view](Tree_view.md) selections are recorded. To record a selection made in the [3D view](3D_view.md) a final object has to be added in the Tree view.
+
+## Użycie
+
+1.  Musi istnieć poprzedni wybór widoku Drzewa.
+2.  Naciśnij przycisk **<img src="images/Std_SelForward.svg" width=16px> [Ponów wybór](Std_SelForward/pl.md)**.
+3.  Następny wybór zostanie przywrócony.
+
+
+
+## Uwagi
+
+-   Rejestrowane są tylko wybory dokonane w [Widoku Drzewa](Tree_view/pl.md). Aby zapisać wybór dokonany w oknie [Widoku 3D](3D_view/pl.md), obiekt końcowy musi zostać dodany w widoku Drzewa.
 
 
 

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Custom
    Name/fr:Path Personnaliser
-   MenuLocation:Path → Commandes additionnelles → Personnalisé
+   MenuLocation:Path → Autres commandes → Personnaliser
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
@@ -10,29 +10,33 @@
 
 ## Description
 
-Cet outil insère un objet chemin créé à partir de G-code personnalisé codé à la main.
+L\'outil <img alt="" src=images/Path_Custom.svg  style="width:24px;"> [Personnaliser](Path_Custom/fr.md) insère un objet chemin créé à partir de G-code personnalisé codé à la main.
 
-Etant donné que la commande Code G personnalisé ne fournit aucun lien vers un contrôleur d'outil, si un outil est utilisé par le code G personnalisé, vous devez écrire l'index de l\'outil, ainsi que le code M de démarrage de la broche, afin qu\'il soit transmis au post-processeur. Cela garantit que les changements d'outil et les démarrages seront correctement générés.
+Comme la commande de G-code personnalisé ne fournit aucun lien avec un contrôleur d\'outil, si un outil est utilisé par le G-code personnalisé, l\'index de l\'outil doit être écrit, ainsi que le M-code de démarrage de la broche, afin qu\'il soit transmis au post-processeur. Cela garantit que les changements et les démarrages d\'outils seront correctement générés.
 
-Par exemple, pour indiquer au postprocesseur que l\'outil utilisé dans l\'opération Custom G-Code a l\'index 6 et une vitesse de rotation de 10 000, insérez le code suivant au début de l\'opération Custom G-Code:
+Par exemple, pour indiquer au post-processeur que l\'outil utilisé dans l\'opération du G-code personnalisé a l\'indice d\'outil 6 et une vitesse de broche de 10 000, insérez le code suivant au début de l\'opération du G-code personnalisé :
 
-(T6: 4mm Endmill)
+(T6 : 4mm Endmill)
 
 M6 T6
 
 M3 S10000
 
-Notez que les taux d'alimentation seront correctement générés par le post-processeur, uniquement si les taux d'alimentation personnalisés du code G sont écrits en unités / seconde.
+Notez que les vitesses d\'avance ne seront correctement générées par le post-processeur que si les vitesses d\'avance du G-code personnalisé sont écrites en unités/seconde.
+
+
 
 ## Utilisation
 
-1.  Pressez le bouton **<img src="images/Path_Custom.svg" width=16px>  [Personnalisé](Path_Custom/fr.md)
+1.  Pressez le bouton **<img src="images/Path_Custom.svg" width=16px>  [Personnaliser](Path_Custom/fr.md)
 **
-2.  Écrivez le G-Code adapté dans la propriété **G Code** de l\'objet nouvellement créé. Voyez la page [Path Script](Path_scripting/fr.md) pour les commandes G-Code acceptées.
+2.  Écrivez le G-code adapté dans la propriété **G Code** de l\'objet juste créé. Voir la page [Path Script](Path_scripting/fr.md) pour les commandes G-code acceptées.
+
+
 
 ## Propriétés
 
--    **G Code**: Les commandes G-Code personnalisées pour programmer le chemin.
+-    **G Code**: commandes G-code personnalisées pour programmer le parcours.
 
 
 

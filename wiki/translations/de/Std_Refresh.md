@@ -9,9 +9,13 @@
 
 # Std Refresh/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std Aktualisieren** berechnet das aktuelle Dokument neu. Der Befehl ist deaktiviert, solange das Dokument keine Neuberechnung benötigt.
+
+
 
 ## Anwendung
 
@@ -20,14 +24,20 @@ Der Befehl **Std Aktualisieren** berechnet das aktuelle Dokument neu. Der Befehl
     -   Den Menüeintrag **Bearbeiten → <img src="images/Std_Refresh.svg" width=16px> Aktualisieren** auswählen.
     -   Das Tastaturkürzel **F5**.
 
+
+
 ## Optionen
 
--   Um eine Neuberechnung zu erzwingen, wählt man das Dokument oder ein bzw. mehrere Objekte in der [Baumansicht](Tree_view/de.md) aus, markiert den Menüeintrags **<img src="images/Std_MarkToRecompute.svg" width=16px> Markieren, um neu zu berechnen** im Kontextmenü, und ruft den Befehl auf.
--   Für Objekte, aber nicht für Dokumente, kann man auch **Objekt neu berechnen** aus demselben Kontextmenü auswähen ({{Version/de|0.19}}).
+-   Um eine Neuberechnung zu erzwingen, wählt man das Dokument oder ein bzw. mehrere Objekte in der [Baumansicht](Tree_view/de.md) aus, markiert den Menüeintrag **<img src="images/Std_MarkToRecompute.svg" width=16px> Markieren, um neu zu berechnen** im Kontextmenü, und ruft den Befehl auf.
+-   Für Objekte, aber nicht für Dokumente, kann man auch **Objekt neu berechnen** aus demselben Kontextmenü auswähen.
+
+
 
 ## Hinweise
 
 -   Für ein Makro, das das aktive Dokument neu berechnet, siehe: [Makro Neuberechnung Erzwingen](Macro_ForceRecompute/de.md).
+
+
 
 ## Skripten
 

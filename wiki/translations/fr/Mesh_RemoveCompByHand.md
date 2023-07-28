@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande **Mesh Suppression manuelle de composants** supprime des composants d\'objets maillés.
+La commande **Suppression manuelle de composants** supprime des composants d\'objets maillés.
 
 
 

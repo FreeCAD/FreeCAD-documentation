@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande **Mesh Solidité du maillage** vérifie si un objet maillé est solide. Un objet maillé solide ne comporte aucun trou.
+La commande **Solidité du maillage** vérifie si un objet maillé est solide. Un objet maillé solide ne comporte aucun trou.
 
 
 

@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -21,7 +23,7 @@ Accanto al puntatore sono visualizzate, in blu, le coordinate della sua posizion
 
 To define a rectangle via a center point and an edge point, use the [Centered rectangle](Sketcher_CreateRectangle_Center.md) tool.
 
-![](images/SketcherCreateRectangleExample.png‎ )
+![](images/SketcherCreateRectangleExample.png‎ ) 
 
 ## Utilizzo
 

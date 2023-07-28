@@ -10,6 +10,8 @@ Ze względu na rozwojowy charakter podręcznika, dokument ten znany jest równie
 ![](images/Sketcher_reference.png ) 
 *Przykładowy szkic w instrukcji obsługi.*
 
+
+
 ## Treść
 
 Ogólna struktura podręcznika to:
@@ -60,8 +62,7 @@ Ogólna struktura podręcznika to:
     -   Odsunięcie położenia i mocowania
     -   Weryfikuj szkice
 
-
- {{Sketcher Tools navi}}
+{{Sketcher Tools navi}}
 
 
 

@@ -85,10 +85,12 @@ This tutorial is targeting on the use of [industrial robots](http://en.wikipedia
 </div>
 
 
- {{Robot Tools navi}} {{Userdocnavi
+{{Robot Tools navi
+
+}} {{Userdocnavi
 ---
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Robot](Robot_Workbench.md) > Robot tutorial/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/ro

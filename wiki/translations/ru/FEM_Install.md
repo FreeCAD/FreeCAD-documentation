@@ -1,6 +1,8 @@
 # FEM Install/ru
 {{TOCright}}
 
+
+
 ## Введение
 
 
@@ -32,7 +34,7 @@ If the solver is installed, make sure the FEM Workbench is able to find the bina
 
 ### FEM mesh generator 
 
-In order to create a [FEM Mesh](FEM_Mesh.md), FreeCAD uses [Gmsh](http://gmsh.info/) as the default mesher. Depending or your operating system and your FreeCAD installation Gmsh is bundled with the FreeCAD installation binaries or not. If it is not bundled you can install it separately from FreeCAD and then use the menu **Edit → Preferences → FEM → Gmsh** to set the path to the *gmsh.exe*.
+In order to create a [FEM Mesh](FEM_Mesh.md), FreeCAD uses [Gmsh](http://gmsh.info/) as the default mesher. Depending on your operating system and your FreeCAD installation Gmsh may be bundled with the FreeCAD installation binaries. If it is not, you can install it separately from FreeCAD and then use the menu **Edit → Preferences → FEM → Gmsh** to set the path to the *gmsh.exe*.
 
 If the program is correctly installed, you may run the command `gmsh` in the terminal to launch the graphical interface of the program. This interface is not used by FreeCAD but demonstrates that the program is installed.
 
@@ -59,21 +61,9 @@ If the mesher is installed, make sure the FEM Workbench is able to find the bina
 
 ### Netgen
 
+In order to create a FEM Mesh, you can use *Netgen* as an alternative to *Gmsh*. Depending on your operating system and your FreeCAD installation Netgen may be bundled with the FreeCAD installation binaries.
 
-**Note: The Netgen mesher was disabled in March 2017, when FreeCAD transitioned to using OCCT 7.1. Please edit this information if Netgen is usable again with the stable release of FreeCAD.**
-
-In previous versions of FreeCAD, [Netgen](https://sourceforge.net/projects/netgen-mesher/) was the default mesher. For it to work with the FEM Workbench, FreeCAD had to be linked against the Netgen libraries at compile time. As FreeCAD transitioned from OCE 0.17 to OCCT 7.1, Netgen 4.9.13 failed to link against this version of OCCT, so it was decided to drop Netgen support in the [FEM Workbench](FEM_Workbench.md) (the [Netgen button](FEM_MeshNetgenFromShape.md) was removed). Nevertheless, shortly afterwards some users reported success in patching Netgen 5.3.1, so that it worked with OCCT 7.x and FreeCAD.
-
-For historical reference, see the threads:
-
--   [(Ubuntu Daily PPA) Transitioning to OCCT7, VTK7\...](https://forum.freecadweb.org/viewtopic.php?f=4&t=17501)
--   [Ubuntu Daily Builds PPA now using OCC 7.1.0](https://forum.freecadweb.org/viewtopic.php?t=21246)
--   [patching Netgen 5.3.1](https://forum.freecadweb.org/viewtopic.php?f=4&t=17501&start=200#p165769) to work with OCCT 7.1
--   [Troubles with gmsh in FEM wb (netgen nostalgy)](https://forum.freecadweb.org/viewtopic.php?t=28368)
-
-Despite Netgen not being available from within the [FEM Workbench](FEM_Workbench.md), it can still be used by itself to produce meshes that can then be imported.
-
-If the program is correctly installed, you may run the command `netgen` in the terminal to launch the graphical interface of the program.
+If the program is correctly installed, you can run the command `netgen` in the terminal under Linux to launch the graphical interface of the program.
 
 
 {{SystemInput|User@PC:~$ netgen -V}}

@@ -1,6 +1,6 @@
 # Part Common/es
 ---
-- GuiCommand:/es   Name:Part_Common   Name/es:Part_Common   MenuLocation:Part → Common   Workbenches:[Completo](Part_Workbench/es___Pieza]],[[Complete_Workbench/es.md)|SeeAlso:[Part Union](Part_Union/es.md), [Part Cut](Part_Cut/es.md)---
+- GuiCommand:/es   Name:Part_Common   Name/es:Part_Common   MenuLocation:Part → Common   Workbenches:[SeeAlso:[[Part Union/es|Part Union](Part_Workbench/es___Pieza]].md), [Part Cut](Part_Cut/es.md)---
 
 
 </div>

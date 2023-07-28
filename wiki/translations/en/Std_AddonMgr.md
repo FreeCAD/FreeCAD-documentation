@@ -60,7 +60,7 @@ See [Addon](Addon#Information_for_developers.md).
 ## Scripting
 
 
-<small>(v1.0)</small> 
+<small>(v0.21)</small> 
 
 Some features of the Addon manager are designed for access via FreeCAD\'s Python API. In particular an addon can be installed, updated, and removed via the Python interface. Most uses of this API require you to create an object with at least three attributes: {{Incode|name}}, {{Incode|branch}} and {{Incode|url}}. For example:
 

@@ -1,6 +1,8 @@
 # FreeCAD-BRLCAD integration
 This page is dedicated to the description of the [Google Summer of Code 2023](Google_Summer_of_Code.md) project idea of integrating FreeCAD and BRL-CAD.
 
+**Obsolete**: This page has been moved to <https://github.com/FreeCAD/FreeCAD/issues/8557>
+
 ## Outline
 
 FreeCAD and [BRL-CAD](http://www.brlcad.org) are very complementary applications: BRL-CAD is a powerful engine which could do with a better modelling UI, and FreeCAD has an increasingly vast modelling UI but could make great use of the support for large models that BRL-CAD can offer.
@@ -49,7 +51,7 @@ High, mostly because you have two different applications to learn and work with
 
 ### Additional Information 
 
--   Potential mentors: [Yorik](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68) (FreeCAD), [rossberg](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=23847) (BRL-CAS)
+-   Potential mentors: [Yorik](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68) (FreeCAD), [rossberg](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=23847) (BRL-CAD)
 
 
 

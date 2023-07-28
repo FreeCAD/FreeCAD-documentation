@@ -1,84 +1,99 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Part Wedge
-   MenuLocation:Part → [Create primitives](Part_Primitives.md) → Wedge
-   Workbenches:[Part](Part_Workbench.md), [OpenSCAD](OpenSCAD_Workbench.md)
-   SeeAlso:[Part Primitives](Part_Primitives.md)
+   Name/pl:Część: Klin
+   MenuLocation:Część → Utwórz geometrie pierwotne ... → Klin
+   Workbenches:[Część](Part_Workbench/pl.md), [OpenSCAD](OpenSCAD_Workbench/pl.md)
+   SeeAlso:[Utwórz geometrie pierwotne](Part_Primitives/pl.md)
 ---
 
 # Part Wedge/pl
 
-## Description
 
-A <img alt="" src=images/Part_Wedge.svg  style="width:24px;"> **Part Wedge** is a parametric solid that can be created with the <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Primitives](Part_Primitives.md) command. It has four to six planar faces. It is defined by virtual front and rear main planes on which a rectangular face (the default), a single straight edge or a single vertex is created. These base shapes define the four quadrilateral or triangular faces that connect them. The resulting solid is only a true wedge if one of the base shapes is a rectangular face and the other a straight edge. In the coordinate system defined by its **Placement** property, the virtual front and rear main planes of the wedge are plane-parallel to XZ plane, and the edges of the base shapes are parallel to the X or Z axis. All its coordinates are relative to that coordinate system.
+
+## Opis
+
+<img alt="" src=images/Part_Wedge.svg  style="width:24px;"> **Klin** środowiska praczy Część to parametryczna bryła, którą można utworzyć za pomocą polecenia <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Utwórz geometrie pierwotne \...](Part_Primitives/pl.md). Ma od czterech do sześciu płaskich ścian. Jest on definiowany przez wirtualne przednie i tylne płaszczyzny główne, na których tworzona jest prostokątna ściana *(domyślnie)*, pojedyncza prosta krawędź lub pojedynczy wierzchołek. Te kształty bazowe definiują cztery czworoboczne lub trójkątne ściany, które je łączą. Wynikowa bryła jest prawdziwym klinem tylko wtedy, gdy jeden z kształtów bazowych jest ścianą prostokątną, a drugi krawędzią prostą. W układzie współrzędnych zdefiniowanym przez właściwość **Umiejscowienie**, wirtualne przednie i tylne główne płaszczyzny klina są równoległe do płaszczyzny XZ, a krawędzie kształtów bazowych są równoległe do osi X lub Z. Wszystkie jego współrzędne odnoszą się do tego układu współrzędnych.
 
 <img alt="" src=images/Part_Wedge_Example.png  style="width:400px;">
 
-## Usage
-
-See [Part Primitives](Part_Primitives#Usage.md).
-
-## Example
-
-![Part Wedge from the scripting example](images/Part_Wedge_Scripting_Example.png )
-
-A Part Wedge object created with the [scripting example](#Scripting.md) below is shown here.
-
-## Notes
-
--   The values of the coordinates of the wedge must be such that a valid solid can be create. This means that the front and rear base shapes can both be single edges, but not if they are parallel. And if one of the base shapes is a vertex the other shape must be a rectangular face.
-
-## Properties
-
-See also: [Property editor](Property_editor.md).
-
-A Part Wedge object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
-
-### Data
 
 
-{{TitleProperty|Attachment}}
+## Użycie
 
-The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
+Zobacz stronę [Geometrie pierwotne](Part_Primitives/pl#Użycie.md).
 
 
-{{TitleProperty|Wedge}}
 
--    **Xmin|Distance**: The lowest X coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+## Przykład
 
--    **Ymin|Distance**: The Y coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+![Klin środowiska pracy Część na przykładzie skryptu](images/Part_Plane_Scripting_Example.png )
 
--    **Zmin|Distance**: The lowest Z coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+Poniżej pokazano obiekt Klina utworzony za pomocą [przykładowego skryptu](#Tworzenie_skryptów.md).
 
--    **X2min|Distance**: The lowest X coordinate of the rear face of the wedge. The default is {{Value|2mm}}.
 
--    **Z2min|Distance**: The lowest Z coordinate of the rear face of the wedge. The default is {{Value|2mm}}.
 
--    **Xmax|Distance**: The highest X coordinate of the front face of the wedge. The default is {{Value|10mm}}.
+## Uwagi
 
--    **Ymax|Distance**: The Y coordinate of the rear face of the wedge. The default is {{Value|10mm}}.
+-   Wartości współrzędnych klina muszą być takie, aby można było utworzyć prawidłową bryłę. Oznacza to, że przednie i tylne kształty bazowe mogą być pojedynczymi krawędziami, ale nie mogą być równoległe. A jeśli jeden z kształtów bazowych jest wierzchołkiem, drugi kształt musi być ścianą prostokątną.
 
--    **Zmax|Distance**: The highest Z coordinate of the front face of the wedge. The default is {{Value|10mm}}.
 
--    **X2max|Distance**: The highest X coordinate of the rear face of the wedge. The default is {{Value|8mm}}.
 
--    **Z2max|Distance**: The highest Z coordinate of the rear face of the wedge. The default is {{Value|8mm}}.
+## Właściwości
 
-## Scripting
+Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Obiekt Klina wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
-A Part Wedge can be created with the {{Incode|addObject()}} method of the document:
+
+
+### Dane
+
+
+{{TitleProperty|Dołączenie}}
+
+Obiekt ten ma takie same właściwości dołączania jak [Part: Part2DObject](Part_Part2DObject/pl#Dane.md).
+
+
+{{TitleProperty|Klin}}
+
+-    **Xmin|Distance**: Najmniejsza współrzędna X ściany czołowej klina. Domyślnie {{Value|0mm}}.
+
+-    **Ymin|Distance**: Współrzędna Y przedniej ściany klina. Domyślnie {{Value|0mm}}.
+
+-    **Zmin|Distance**: Najmniejsza współrzędna Z przedniej ściany klina. Domyślnie {{Value|0mm}}.
+
+-    **X2min|Distance**: Najmniejsza współrzędna X tylnej ściany klina. Domyślnie {{Value|2mm}}.
+
+-    **Z2min|Distance**: Najmniejsza współrzędna Z tylnej ściany klina. Domyślnie {{Value|2mm}}.
+
+-    **Xmax|Distance**: Największa współrzędna X przedniej ściany klina. Domyślnie {{Value|10mm}}.
+
+-    **Ymax|Distance**: Współrzędna Y tylnej ściany klina. Domyślnie {{Value|10mm}}.
+
+-    **Zmax|Distance**: Największa współrzędna Z przedniej ściany klina. Domyślnie {{Value|10mm}}.
+
+-    **X2max|Distance**: Największa współrzędna X tylnej ściany klina. Domyślnie {{Value|8mm}}.
+
+-    **Z2max|Distance**: Największa współrzędna Z tylnej ściany klina. Domyślnie {{Value|8mm}}.
+
+
+
+## Tworzenie skryptów 
+
+Zobacz również: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Skrypty w środowisku Część](Part_scripting/pl.md) i [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Klin środowiska pracy Część jest tworzony za pomocą metody `addObject()`.
 
 
 ```python
 wedge = FreeCAD.ActiveDocument.addObject("Part::Wedge", "myWedge")
 ```
 
--   Where {{Incode|"myWedge"}} is the name for the object.
--   The function returns the newly created object.
+-   Gdzie parametr {{Incode|"myWedge"}} jest etykietą dla obiektu.
+-   Funkcja zwraca nowo utworzony obiekt.
 
-Example:
+Przykład:
 
 
 ```python

@@ -30,7 +30,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 4.  Select the desired orientation.
 
-5.  Populate the inputs like \'Left Cover\', Right Cover, Top Cover, \'Bottom Cover\', \'Front Cover\', \'Bent Angle\', \'Bent Factor\', \'Rounding\' and \'Diameter\' of the rebar.
+5.  Populate the inputs like \'Left Cover\', \'Right Cover\', \'Top Cover\', \'Bottom Cover\', \'Front Cover\', \'Bent Angle\', \'Bent Factor\', \'Rounding\' and \'Diameter\' of the rebar.
 
 6.  Select the mode of distribution either \'Amount\' or \'Spacing\'.
     -   If \'Spacing\' is selected, a user can also opt for [custom spacing](Custom_Spacing.md).

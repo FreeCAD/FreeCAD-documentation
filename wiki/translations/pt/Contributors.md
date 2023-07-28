@@ -6,6 +6,8 @@
 O FreeCAD não seria o que é sem as generosas contribuições de muitas pessoas. Aqui está uma visão geral das pessoas que contribuíram para o FreeCAD ao longo do tempo. Para bibliotecas de terceiros Consulte a página [Bibliotecas de Terceiros](Third_Party_Libraries.md).
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Desenvolvimento

@@ -20,6 +20,10 @@ Questo strumento permette di creare un albero da una tabella di valori, e di ana
 
 </div>
 
+## Usage
+
+You can start the wizard from the Part Design menu **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Shaft design wizard...**.
+
 L\'assistente si avvierà e mostrerà una tabella predefinita, la parte d\'albero corrispondente e i grafici forza/momento.
 
 

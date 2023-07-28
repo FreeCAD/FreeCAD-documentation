@@ -24,8 +24,17 @@ Lo strumento Nuovo disegno standard crea una nuova pagina utilizzando il file mo
 
 </div>
 
-<img alt="" src=images/A4_LandscapeTD.svg  style="width:400px;"> 
+<img alt="" src=images/A4_LandscapeTD.svg  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Modello predefinito fornito con TechDraw: pagina A4 con orientamento orizzontale, con i campi di testo modificabili*
+
+
+</div>
 
 
 
@@ -124,69 +133,13 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 -    **Show Grid**: Show a grid over this Page. <small>(v0.20)</small> 
 
--    **Grid Spacing**: Distance between grid lines in mm. <small>(v0.20)</small> 
+-    **Grid Spacing**: Distance between grid lines. <small>(v0.20)</small> 
 
 
 
 ## Script
 
-
-<div class="mw-translate-fuzzy">
-
-
-**Vedere anche:**
-
-[API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento New Default può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
-
-
-</div>
-
-
-```python
-page = FreeCAD.ActiveDocument.addObject('TechDraw::DrawPage','Page')
-template = FreeCAD.ActiveDocument.addObject('TechDraw::DrawSVGTemplate','Template')
-template.Template = templateFileSpec
-page.Template = FreeCAD.ActiveDocument.Template
-```
-
--   Crea una nuova pagina nel documento corrente
-
-
-
-### Campi di testo modificabili 
-
-
-<div class="mw-translate-fuzzy">
-
-
-**Per ulteriori informazioni sulla creazione di modelli vedere anche:**
-
-[Modelli di squadrature](TechDraw_Templates/it.md).
-
-
-</div>
-
-Una volta creata una nuova pagina, il suo attributo `Template` contiene un dizionario `EditableTexts` con il nome dei campi modificabili (chiavi) e i loro valori testuali. Copiare questo dizionario in una variabile, apportare le modifiche, quindi riassegnare il dizionario all\'attributo `EditableTexts` per vedere le modifiche.
-
-
-```python
-page = FreeCAD.ActiveDocument.Page
-texts = page.Template.EditableTexts
-
-for key, value in texts.items():
-    print("{0} = {1}".format(key, value))
-
-texts["FC-Title"] = "The title of my page"
-page.Template.EditableTexts = texts
-```
+See [TechDraw PageTemplate](TechDraw_PageTemplate#Scripting.md).
 
 
 <div class="mw-translate-fuzzy">

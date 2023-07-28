@@ -19,7 +19,7 @@ Polecenie **Informacje o FreeCAD** otwiera okno dialogowe, w którym wyświetlan
 ***
 
 ![](images/Std_About_example.png ) 
-*Okienko dialogowe Informacje o FreeCAD*
+*Widok okienka dialogowego Informacje o FreeCAD*
 
 
 **'''UWAGA''': Nie rób zrzutu ekranu tego okna dialogowego! Zamiast tego naciśnij przycisk <br>**Skopiuj do schowka**, a następnie wklej te informacje w swoim żądaniu pomocy.**
@@ -59,15 +59,15 @@ Locale: English/UnitedStates (en_US)
 
 
 
-### Zasłużeni
-
-Zakładka Zasłużeni pokazuje listę osób, które przyczyniły się do powstania projektu FreeCAD. Aby znaleźć się na tej liście, możesz wnieść swój wkład na wiele różnych sposobów, w tym programując, usuwając błędy, pakując oprogramowanie, pisząc dokumentację użytkownika i samouczki, tłumacząc oprogramowanie i dokumentację, pracując nad ikonami, grafiką i interfejsami graficznymi oraz pomagając na forum. Więcej informacji można znaleźć w dziale [Pomóż w rozwoju FreeCAD](Help_FreeCAD/pl.md).
-
-
-
 ### Licencja
 
 FreeCAD jest licencjonowany zgodnie z warunkami [GNU Lesser General Public License 2](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) *(LGPL 2)*. Pełny tekst tej licencji znajduje się tutaj. Zobacz stronę [licencja](Licence/pl.md), aby uzyskać więcej szczegółów.
+
+
+
+### Zasłużeni
+
+Zakładka Zasłużeni pokazuje listę osób, które przyczyniły się do powstania projektu FreeCAD. Aby znaleźć się na tej liście, możesz wnieść swój wkład na wiele różnych sposobów, w tym programując, usuwając błędy, pakując oprogramowanie, pisząc dokumentację użytkownika i samouczki, tłumacząc oprogramowanie i dokumentację, pracując nad ikonami, grafiką i interfejsami graficznymi oraz pomagając na forum. Więcej informacji można znaleźć w dziale [Pomóż w rozwoju FreeCAD](Help_FreeCAD/pl.md).
 
 Ponieważ FreeCAD korzysta z zewnętrznych bibliotek, mogą one mieć własne warunki licencjonowania. Zapoznaj się z ich konkretnymi licencjami dostępnymi na stronie [Biblioteki zewnętrzne](Third_Party_Libraries/pl.md).
 

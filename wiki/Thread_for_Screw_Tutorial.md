@@ -240,9 +240,9 @@ ISO and other threads have relieved, ie flat, inner and outer edges rather than 
 
 This method produces reliable solids that boolean properly. While it doesn\'t produce \"parametric\" screw threads in standard sizes in the sense of having simple access to form by fastener size, it\'s an easy way of producing an accurate library for reuse, and models of specialised forms like ACME, or Archimedian screws, are also uncomplicated as one-offs.
 
-   {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Thread for Screw Tutorial
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Thread for Screw Tutorial

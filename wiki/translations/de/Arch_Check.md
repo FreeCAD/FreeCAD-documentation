@@ -9,13 +9,22 @@
 
 # Arch Check/de
 
+
+
 ## Beschreibung
 
 Dieses Werkzeug prüft das aktuelle Dokument oder die ausgewählten Objekte auf Nicht-Volumenkörper **<img src="images/_Workbench_Part.svg" width=16px> [Part](Part_Workbench/de.md)**- oder **<img src="images/_Workbench_Arch.svg" width=16px> [Arch](Arch_Workbench.md)**-Objekte, die Probleme bereiten könnten, da die meisten Operationen des Arch-Arbeitsbereichs Volumenkörper erfordern.
 
+
+
 ## Anwendung
 
 1.  Drücke die **<img src="images/Arch_Check.svg" width=16px>[Überprüfung](Arch_Check/de.md)** Schaltfläche oder **Arch** → **Dienstprogramme** → **<img src="images/Arch_Check.svg" width=16px> [Überprüfung](Arch_Check/de.md)** im oberen Menü.
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -24,7 +33,23 @@ Dieses Werkzeug prüft das aktuelle Dokument oder die ausgewählten Objekte auf 
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Dieses Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit der folgenden Funktion verwendet werden: 
+
+</div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
+<div class="mw-translate-fuzzy">
+
+Dieses Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit der folgenden Funktion verwendet werden:
+
+
+</div>
+
+
 ```python
 list_bad = check(objectslist, includehidden=False)
 ```

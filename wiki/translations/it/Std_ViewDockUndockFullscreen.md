@@ -12,6 +12,8 @@
 
 # Std ViewDockUndockFullscreen/it
 
+
+
 ## Introduzione
 
 La [Vista 3D](3D_view/it.md) può essere sganciata dall\'[interfaccia di FreeCAD](Interface/it.md) e spostata in un altro posto.
@@ -19,47 +21,55 @@ La [Vista 3D](3D_view/it.md) può essere sganciata dall\'[interfaccia di FreeCAD
 ![](images/FinestraNonAgganciata.png ) 
 *Una vista 3D sganciata*
 
+
+
 ## Agganciata
+
+
 
 ### Descrizione
 
-The **Docked** menu option docks the active [3D view](3D_view.md) inside the main FreeCAD interface.
+L\'opzione di menu **Agganciata** aggancia la [Vista 3D](3D_view/it.md) attiva all\'interno dell\'interfaccia principale di FreeCAD.
+
+
 
 ### Utilizzo
 
-1.  Activate an undocked 3D view.
-2.  There are several ways to invoke the option:
-    -   If there are no docked 3D views: select the **View → Document window → Docked** option from the menu.
-    -   Select the **Document window → Docked** option from the 3D view context menu.
-    -   Use the keyboard shortcut: **V** then **D**.
+1.  Attivare una vista 3D sganciata.
+2.  Esistono diversi modi per invocare l\'opzione:
+    -   Se non ci sono viste 3D agganciate: selezionare l\'opzione **Visualizza → Finestra del documento → Agganciata** dal menu.
+    -   Selezionare l\'opzione **Finestra del documento → Agganciata** dal menu contestuale della vista 3D.
+    -   Usare la scorciatoia da tastiera: **V** poi **D**.
+
+
 
 ## Sganciata
 
+
+
 ### Descrizione 
 
-The **Undocked** menu option undocks the active [3D view](3D_view.md) from the main FreeCAD interface.
+L\'opzione di menu **Sganciata** sgancia la [Vista 3D](3D_view/it.md) attiva dall\'interfaccia principale di FreeCAD.
+
+
 
 ### Utilizzo 
 
-1.  Activate a docked 3D view.
-2.  There are several ways to invoke the option:
-    -   Select the **View → Document window → Undocked** option from the menu.
-    -   Select the **Document window → Undocked** option from the 3D view context menu.
-    -   Use the keyboard shortcut: **V** then **U**.
+1.  Attivare una vista 3D agganciata.
+2.  Esistono diversi modi per invocare l\'opzione:
+    -   Selezionare l\'opzione **Visualizza → Finestra del documento → Sganciata** dal menu.
+    -   Selezionare l\'opzione **Finestra del documento → Sganciata** dal menu contestuale della vista 3D.
+    -   Usare la scorciatoia da tastiera: **V** poi **U**.
+
+
 
 ## Note
 
--   Multiple 3D views for the same document can be created with the [Std ViewCreate](Std_ViewCreate.md) command.
--   3D views can also be docked and undocked with the [Std ViewFullscreen](Std_ViewFullscreen.md) command.
-
-
-<div class="mw-translate-fuzzy">
+-   È possibile creare più viste 3D per lo stesso documento con il comando [Crea una nuova vista](Std_ViewCreate/it.md).
+-   Le viste 3D possono anche essere agganciate e sganciate con il comando [Vista 3D a schermo intero](Std_ViewFullscreen/it.md).
 
 
 
-
-
-</div>
 
 
 {{Std Base navi

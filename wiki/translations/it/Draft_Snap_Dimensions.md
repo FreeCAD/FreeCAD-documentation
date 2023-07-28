@@ -37,6 +37,8 @@ Questa modalità di aggancio mostra le quote X e Y temporanee tra il punto corre
 
 </div>
 
+
+
 ## Utilizzo
 
 For general information about snapping see [Draft Snap](Draft_Snap.md).

@@ -66,6 +66,8 @@ Then go to **View → Panels** and check:
 -    **Report view**.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Pythonのコードを書く
@@ -97,6 +99,8 @@ There are two ways to write Python code in FreeCAD. In the [Python console](Pyth
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -221,6 +225,8 @@ box.Height = 5
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## ベクトルと配置
@@ -259,7 +265,7 @@ otherpla = FreeCAD.Placement()
 box.Placement = otherpla
 ```
 
-さて、さらに進む前にいくつかの重要な概念を理解しておく必要があります。 {{Top}}
+さて、さらに進む前にいくつかの重要な概念を理解しておく必要があります。 
 
 
 <div class="mw-translate-fuzzy">
@@ -345,7 +351,7 @@ import Part
 Part.
 ```
 
-しかし今はここまでにしておいてPartモジュールについては後で詳しく説明します。 {{Top}}
+しかし今はここまでにしておいてPartモジュールについては後で詳しく説明します。 
 
 
 <div class="mw-translate-fuzzy">
@@ -399,7 +405,7 @@ doc.recompute()
 
 </div>
 
-[Read more about mesh scripting\...](Mesh_Scripting.md) [メッシュのスクリプト処理についてもっと読む・・・](Mesh_Scripting/jp.md) {{Top}}
+[Read more about mesh scripting\...](Mesh_Scripting.md) [メッシュのスクリプト処理についてもっと読む・・・](Mesh_Scripting/jp.md) 
 
 
 <div class="mw-translate-fuzzy">
@@ -472,6 +478,8 @@ myshapeの中身を調べるとFaces、Edges、Vertexes、Solids、Shellsとい�
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Draft
@@ -502,6 +510,8 @@ Draft.move(box, mvec)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -537,7 +547,7 @@ Qtは非常に強力なインターフェイスシステムで非常に複雑な
 
 </div>
 
-[Read more about PySide here\...](PySide.md) [pyqtについてもっと読む・・・](PyQt/ja.md) {{Top}}
+[Read more about PySide here\...](PySide.md) [pyqtについてもっと読む・・・](PyQt/ja.md) 
 
 
 <div class="mw-translate-fuzzy">
@@ -550,6 +560,14 @@ Qtは非常に強力なインターフェイスシステムで非常に複雑な
 </div>
 
 Now that you have a good understanding of the basics, where are we going to keep our Python scripts, and how are we going to launch them inside FreeCAD? There is an easy mechanism for that, called [Macros](Macros.md). A macro is a Python script that can be added to a toolbar and launched via a mouse click. FreeCAD provides you with a simple text editor (**Macro → Macros... → Create**) where you can write or paste scripts. Once the script is done, use **Tools → Customize... → Macros** to define a button for it that can be added to toolbars.
+
+## External scripts 
+
+An alternative method for creating, saving, and running your own Python scripts is to create them outside FreeCAD, using an editor of your choice (for example, Vim). To run your Python script inside FreeCAD, be sure to save it with the **.py** extension.
+
+Then use **File → Open** to open your script. It will load into a new tab in the [Main view area](Main_view_area.md). You can run your script by clicking the **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Execute macro](Std_DlgMacroExecuteDirect.md)** button. Any errors or script output will be shown in the [Report view](Report_view.md).
+
+When you make and save any modifications to your already-loaded script, a dialog box will appear asking whether you want to reload the modified script into FreeCAD.
 
 
 <div class="mw-translate-fuzzy">

@@ -2,10 +2,10 @@
 - GuiCommand:/fr
    Name:Arch Rebar BentShape
    Name/fr:Arch Rebar Armature cintrée
-   MenuLocation:Arch → Rebar tools → Bent-Shape Rebar<br>3D/BIM → Reinforcement → Bent-Shape Rebar
+   MenuLocation:Arch → Outils pour les armatures → Armature cintrée<br>3D/BIM → Reinforcement → Armature cintrée
    Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
    Version:0.17
-   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature en étrier](Arch_Rebar_Stirrup/fr.md), 
+   SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature en étrier](Arch_Rebar_Stirrup/fr.md), 
 ---
 
 # Arch Rebar BentShape/fr
@@ -14,12 +14,14 @@
 
 L\'outil [Rebar Armature cintrée](Arch_Rebar_BentShape/fr.md) permet à l\'utilisateur de créer un ensemble de barres d\'armature pliées à l\'intérieur d\'un objet [Structure](Arch_Structure/fr.md).
 
-L\'outil [BentShape Rebar](Arch_Rebar_BentShape/fr.md) est également intégré dans l\'[atelier BIM](BIM_Workbench/fr.md).
+L\'outil [Armature cintrée](Arch_Rebar_BentShape/fr.md) est également intégré dans l\'[atelier BIM](BIM_Workbench/fr.md).
 
 Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire des extensions → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_BentShape_example.png  style="width:400px;"> 
-*Deux jeux de barres de ferraillage pliées à l'intérieur d'une [Structure](Arch_Structure/fr.md)*
+*Deux jeux de barres de ferraillage pliées à l'intérieur d'une [Arch Structure](Arch_Structure/fr.md)*
+
+
 
 ## Utilisation
 
@@ -31,17 +33,17 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 4.  Sélectionnez l\'orientation souhaitée.
 
-5.  Remplissez les entrées telles que \'Left Cover\', Right Cover, Top Cover, \'Bottom Cover\', \'Front Cover\', \'Bent Angle\', \'Bent Factor\', \'Rounding\' et \'Diameter\' of the rebar.
+5.  Remplissez les entrées telles que \"Face gauche\", \"Face droite\", \"Face supérieure\", \"Face inférieure\", \"Face avant\", \"Angle de flexion\", \"Facteur de courbure\", \"Arrondi\" et \"Diamètre\" de l\'armature.
 
-6.  Sélectionnez le mode de distribution \'Amount\' ou \'Spacing\'.
-    -   Si \'Spacing\' est sélectionné, un utilisateur peut également opter pour [espacement personnalisé](Custom_Spacing/fr.md).
+6.  Sélectionnez le mode de distribution \"Quantité\" ou \"Écartement\".
+    -   Si \"Écartement\" est sélectionné, l\'utilisateur peut également opter pour [espacement personnalisé](Custom_Spacing/fr.md).
 
 7.  
-    **Pick Selected Face**(choisir la face sélectionnée) est utilisé pour vérifier ou modifier la face pour la distribution des barres.
+    **Choisir la face sélectionnée**est utilisé pour vérifier ou modifier la face pour la distribution des barres.
 
-8.  Cliquez sur **OK** ou **Apply** pour générer les barres.
+8.  Cliquez sur **OK** ou **Appliquer** pour générer les barres.
 
-9.  Cliquez sur **Cancel** pour quitter le panneau de tâches.
+9.  Cliquez sur **Annuler** pour quitter le panneau de tâches.
 
 :   <img alt="" src=images/BentShapeDialog.png  style="width:250px;">
 
@@ -49,36 +51,40 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 *Panneau de tâches pour l'outil Armature cintrée*
 
+
+
 ## Propriétés
 
--    {{PropertyData/fr|Orientation}}: Il définit l\'orientation de l\'armature (comme fond, haut, droite et gauche).
+-    **Orientation**: définit l\'orientation de l\'armature (comme un bas, haut, droite et gauche).
 
--    {{PropertyData/fr|Front Cover}}: La distance entre l\'armature et la face sélectionnée.
+-    **Front Cover**: distance entre l\'armature et la face sélectionnée.
 
--    {{PropertyData/fr|Left Cover}}: La distance entre l\'extrémité gauche de l\'armature et la face gauche de la structure.
+-    **Left Cover**: distance entre l\'extrémité gauche de l\'armature et la face gauche de la structure.
 
--    {{PropertyData/fr|Right Cover}}: La distance entre l\'extrémité droite de l\'armature et la face droite de la structure.
+-    **Right Cover**: distance entre l\'extrémité droite de l\'armature et la face droite de la structure.
 
--    {{PropertyData/fr|Bottom Cover}}: La distance entre l\'armature et la face inférieure de la structure.
+-    **Bottom Cover**: distance entre l\'armature et la face inférieure de la structure.
 
--    {{PropertyData/fr|Top Cover}}: La distance entre l\'armature et la face supérieure de la structure.
+-    **Top Cover**: distance entre l\'armature et la face supérieure de la structure.
 
--    {{PropertyData/fr|Anchor Length}}: Il s\'agit de la longueur de la forme courbée de l\'armature .
+-    **Anchor Length**: longueur de la forme courbée de l\'armature .
 
--    {{PropertyData/fr|Bent Angle}}: Il définit l\'angle de cintrage de l\'armature.
+-    **Bent Angle**: définit l\'angle de cintrage de l\'armature.
 
--    {{PropertyData/fr|Amount}}: La quantité de barres d\'armature.
+-    **Amount**: quantité de barres d\'armature.
 
--    {{PropertyData/fr|Spacing}}: La distance entre les axes de chaque barre.
+-    **Spacing**: distance entre les axes de chaque barre.
+
+
 
 ## Script
 
 
 **Voir aussi :**
 
-[Arch API](Arch_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md), [API de renforts](Reinforcement_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Armature cintrée peut être utilisé dans une [macro](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante : 
+L\'outil Armature cintrée peut être utilisé dans une [macro](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante : 
 ```python
 Rebar = makeBentShapeRebar(f_cover, b_cover, l_cover, r_cover,
                            diameter, t_cover, bentLength, bentAngle, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom",
@@ -102,6 +108,8 @@ Rebar = makeBentShapeRebar(f_cover, b_cover, l_cover, r_cover,
 
 -    `orientation`spécifie l\'orientation de la barre. Il peut s\'agir de `"Bottom"`, `"Top"`, `"Left"`, ou `"Right"`.
 
+
+
 ### Exemples
 
 
@@ -120,6 +128,8 @@ Rebar2 = BentShapeRebar.makeBentShapeRebar(50, 40, 20, 20,
                                            8, 20, 100, 135, 2, True, 4, "Bottom", Structure, "Face6")
 Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9) 
 ```
+
+
 
 ### Modifier la barre 
 

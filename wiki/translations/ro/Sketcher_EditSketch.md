@@ -10,6 +10,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -19,6 +21,8 @@ Această comandă permite editarea unei schițe deja existente.
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -39,7 +43,7 @@ Această comandă permite editarea unei schițe deja existente.
 
 ## Notes
 
--   Choosing [Leave Sketch](Sketcher_LeaveSketch.md) will terminate the edit mode.
+-   Choosing [Sketcher LeaveSketch](Sketcher_LeaveSketch.md) will terminate the edit mode.
 
 
 <div class="mw-translate-fuzzy">

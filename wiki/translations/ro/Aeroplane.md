@@ -73,6 +73,8 @@ If you are unfamiliar with the XYZ axes then have a play with the numbers in the
 
 </div>
 
+
+
 ## Pașii Second 
 
 <img alt="" src=images/HTCaeroplane02.png  style="width:400px;">
@@ -173,6 +175,8 @@ Click on Box and get its [Placement into Tasks](Tasks_Placement.md). Notice it a
 
 </div>
 
+
+
 ## Rotații
 
 
@@ -230,4 +234,4 @@ Sper că acest tutorial mic v-a ajutat să vă resimțiți rotațiile.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Aeroplane/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Aeroplane/ro

@@ -1,106 +1,112 @@
-# Draft Shape2DView/it
 ---
 - GuiCommand:/it
    Name:Draft Shape2DView
-   Name/it:Vista 2D
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation:Draft → Vista profilo 2D
-   SeeAlso:[Part](Part_Workbench/it.md), [TechDraw](TechDraw_Workbench/it.md)---
+   Name/it:Vista forma 2D
+   MenuLocation:Modifiche → Vista forma 2D
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   SeeAlso:[TechDraw Proietta forma](TechDraw_ProjectShape/it.md)
+---
+
+# Draft Shape2DView/it
 
 
-</div>
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_Shape2DView.svg  style="width:24px;"> **Draft Vista forma 2D** crea proiezioni 2D da oggetti selezionati, solitamente solidi 3D o [Arch Piani di sezione](Arch_SectionPlane/it.md). Le proiezioni vengono posizionate nella [Vista 3D](3D_view/it.md).
 
-<div class="mw-translate-fuzzy">
+Le proiezioni Draft Vista forma 2D possono essere visualizzate su una pagina [TechDraw](TechDraw_Workbench/it.md) utilizzando il comando [TechDraw DraftView](TechDraw_DraftView/it.md). In alternativa, [TechDraw](TechDraw_Workbench/it.md) offre i propri comandi di proiezione. Ma questi creano proiezioni che vengono visualizzate solo sulla pagina di disegno e non nella [Vista 3D](3D_view/it.md).
 
-Questo strumento produce una proiezione 2D da un oggetto solido 3D selezionato come quelli creati con gli ambienti [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md), e [Arch](Arch_Workbench/it.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-La proiezione risultante è un oggetto Draft e viene posizionata nella vista 3D. Questo oggetto può essere visualizzato in una pagina di [TechDraw](TechDraw_Workbench/it.md), usando lo strumento [Nuova vista di Draft](TechDraw_DraftView/it.md). In alternativa, TechDraw ha i suoi propri strumenti per creare delle viste proiettate. Ma questi creano proiezioni che vengono visualizzate solo sulla pagina di disegno e non nella [3D view](3D_view.md).
+![](images/Draft_Shape2DView_example.jpg ) 
+*Proiezione di forme solide sul piano XY*
 
 
-</div>
-
-![](images/Draft_Shape2DView_example.jpg )
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Proiezione di forme solide nel piano XY*
-
-
-</div>
 
 ## Utilizzo
 
+1.  Facoltativamente, ruotare la [Vista 3D](3D_view/it.md). La direzione della telecamera nella [Vista 3D](3D_view/it.md) determina il vettore di proiezione. Ad esempio, una [vista dall\'alto](Std_ViewTop/it.md) verrà proiettata sul piano XY. Il vettore di proiezione viene ignorato per le proiezioni create da [Arch Piano sezione](Arch_SectionPlane/it.md).
+2.  Opzionalmente selezionare uno o più oggetti.
+3.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_Shape2DView.svg" width=16px> [Draft Vista forma 2D](Draft_Shape2DView/it.md)**.
+    -   Selezionare l\'opzione **Modifiche → <img src="images/Draft_Shape2DView.svg" width=16px> Vista forma 2D** dal menu.
+4.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto nella [Vista 3D](3D_view/it.md).
+5.  Gli oggetti proiettati vengono creati sul piano XY.
 
-<div class="mw-translate-fuzzy">
-
-1.  Ruotare la vista in modo che rifletta la direzione della proiezione desiderata. Ad esempio, una vista dall\'alto proietta l\'oggetto sul piano XY.
-2.  Selezionare un oggetto 3D.
-3.  Premere il pulsante **<img src="images/Draft_Shape2DView.svg" width=16px> [Vista profilo 2D](Draft_Shape2DView/it.md)**. Se non è selezionato nessun oggetto, si viene inviti a selezionarne uno.
 
 
-</div>
-
-## How to produce plans and sections with different linewidths 
+## Come produrre piante e sezioni con spessori di linea diversi 
 
 <img alt="" src=images/Draft_shape2dview_example_plan.png  style="width:700px;">
 
-Drawings with different linewidths for viewed and cut lines can easily be produced by using two shape2Dview objects from a same [Arch SectionPlane](Arch_SectionPlane.md). One of the shape2Dview objects has its projection mode set to **Solid**, which renders the viewed lines, and another set to **Cut lines** or **Cut faces** to render the cut lines. The two shape2Dviews are then placed at the same location, one on top of the other.
+I disegni con spessori di linea diversi per le linee visualizzate e tagliate possono essere facilmente prodotti utilizzando due oggetti VistaForma2D da uno stesso [Arch Piano Sezione](Arch_SectionPlane/it.md). Uno degli oggetti VistaForma2D ha la sua modalità di proiezione impostata su **Solid**, che esegue il rendering delle linee visualizzate, e un altro impostato su **Cut lines** o **Cut faces** per eseguire il rendering del taglio linee. Le due viste shape2D vengono quindi posizionate nella stessa posizione, una sopra l\'altra.
+
+
 
 ## Proprietà
 
-See also: [Property editor](Property_editor.md).
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
 
-A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
+Un oggetto Draft Vista Forma 2D è derivato da un [Part Part2DObject](Part_Part2DObject/it.md) e ne eredita tutte le proprietà. Ha anche le seguenti proprietà aggiuntive:
 
 ### Data
 
 
 {{TitleProperty|Draft}}
 
+-    **Auto Update|Bool**: specifica se la proiezione deve essere ricalcolata automaticamente se l\'oggetto **Base** cambia. Selezionare {{False}} può essere utile se ci sono molte Draft VistaForma2D in un documento o se sono complesse. Se impostato su {{False}} il comando [Aggiorna](Std_Refresh/it.md) deve essere utilizzato per aggiornare la proiezione. {{Version/it|0.20}}
 
-<div class="mw-translate-fuzzy">
+-    **Base|Link**: specifica l\'oggetto da proiettare.
 
--    **Projection**: specifica la direzione della proiezione come un vettore. Ad esempio, (0,0,1) è una proiezione che guarda lungo l\'asse Z, e che proietta sul piano XY; (1,0,0) è una proiezione che guarda lungo l\'asse X, e che proietta sul piano YZ; (0,1,0) è una proiezione che guarda lungo l\'asse Y, e che proietta sul piano XZ. I valori possono anche essere negativi, nel qual caso la direzione di proiezione è invertita.
+-    **Face Numbers|IntegerList**: specifica gli indici delle facce da proiettare. Funziona solo se **Projection Mode** è {{Value|Individual Faces}}.
 
--    **Projection Mode**: può essere \"Solid\", \"Individual Faces\", \"Cutlines\", e \"Cutfaces\".
+-    **Fuse Arch|Bool**: specifica se [Oggetti Arch](Arch_Workbench/it.md) dello stesso tipo e materiale sono fusi o meno.
 
-    -   La proiezione predefinita è \"Solid\", che proietta l\'intera forma selezionata.
-    -   Se sono selezionate solo alcune facce dell\'oggetto base, la modalità \"Individual Faces\" proietta solo quelle facce.
-    -   Se l\'oggetto selezionato è un [Piano di sezione](Arch_SectionPlane/it.md) di Arch, la modalità \"Cutlines\" proietta solo i bordi tagliati dal piano della sezione.
-    -   Se l\'oggetto selezionato è un [Piano di sezione](Arch_SectionPlane/it.md) di Arch, la modalità \"Cutfaces\" mostra le aree di taglio dei solidi come facce.
+-    **Hidden Lines|Bool**: specifica se le linee nascoste vengono visualizzate o meno.
 
--    **In Place**: se è `True`, in combinazione con la modalità \"Cutlines\" o \"Cutfaces\", la proiezione risultante appare complanare con il [Piano di sezione](Arch_SectionPlane/it.md) di Arch. {{Version/it|0.17}}
+-    **In Place|Bool**: funziona solo se l\'oggetto selezionato è un [Arch Piano Sezione](Arch_SectionPlane/it.md) e **Projection Mode** è {{Value|Cutlines}} o {{Value |Cutfaces}}, specifica se la proiezione apparirà complanare al piano di sezione.
 
--    **HiddenLines**: se è `True` mostra le linee nascoste della proiezione.
+-    **Projection|Vector**: specifica la direzione della proiezione. Ignorato se **Base** è un [Arch Piano Sezione](Arch_SectionPlane/it.md).
 
--    **Tessellation**: se è `True` esegue la tassellatura di ellissi e spline, cioè rappresenta le curve con segmenti di linea molto sottili.
+-    **Projection Mode|Enumeration**: specifica la modalità di proiezione. Sono disponibili le seguenti modalità:
 
-:   
-    **Note:**questo potrebbe essere intensivo dal punto di vista computazionale se **Segment Length** è molto piccolo.
+    -   
+        {{Value|Solid}}
+        
+        : proietta l\'intero oggetto selezionato.
 
--    **Segment Length**: specifica la dimensione in millimetri dei segmenti lineari se **Tessellation** è `True`.
+    -   
+        {{Value|Individual Faces}}
+        
+        : proietta solo i volti nell\'elenco **Face Numbers**.
 
-:   
-    **Note:**impostare prima un valore più grande e poi cambiarlo in un valore più piccolo per ottenere una risoluzione migliore.
+    -   
+        {{Value|Cutlines}}
+        
+        : funziona solo se l\'oggetto selezionato è un [Arch Piano Sezione](Arch_SectionPlane/it.md), proietta solo i bordi tagliati dal piano di sezione.
 
--    **Visible Only**: se è `True` la proiezione viene ricalcolata solo se è visibile.
+    -   
+        {{Value|Cutfaces}}
+        
+        : funziona solo se l\'oggetto selezionato è un [Arch Piano Sezione](Arch_SectionPlane/it.md), proietta le aree tagliate attraverso i solidi dal piano di sezione come facce.
+
+    -   
+        {{Value|Facce solide}}
+        
+        : proietta l\'intero oggetto selezionato tagliando le facce una per una. Può essere utilizzato se la modalità {{Value|Solid}} dà risultati errati. {{Version/it|0.20}}
+
+-    **Segment Length|Float**: specifica la dimensione in millimetri dei segmenti lineari se **Tessellation** è `True`.
+
+-    **Tessellation|Bool**: specifica se deve essere eseguita la tassellazione. La tassellatura significa che le curve vengono sostituite da sequenze di segmenti di linea. Questo può essere computazionalmente intenso se **Segment Length** è troppo breve.
+
+-    **Visible Only|Bool**: specifica se la proiezione deve essere ricalcolata solo se è visibile.
+
+-    **Exclusion Points|Vector list**: un elenco di punti di esclusione. Qualsiasi bordo che passa attraverso uno di questi punti non verrà disegnato. {{Version/it|0.20}}
+
+-    **Exclusion Names|String list**ː un elenco di nomi oggetto. Qualsiasi oggetto figlio visualizzato o tagliato con un nome in quell\'elenco non verrà disegnato. {{Version/it|0.21}}
 
 
-</div>
 
-### View
+### Vista
 
 
 {{TitleProperty|Draft}}
@@ -109,51 +115,28 @@ A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObje
 
 -    **Pattern Size|Float**: not used.
 
-## Scripting
 
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-**Vedere anche:**
-
-[Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Vista 2D può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
-
-
-</div>
+Per creare una proiezione 2D usare il metodo `make_shape2dview` ({{Version/it|0.19}}) del modulo Draft. Questo metodo sostituisce il metodo deprecato `makeShape2DView`.
 
 
 ```python
 shape2dview = make_shape2dview(baseobj, projectionVector=None, facenumbers=[])
 ```
 
+-    `baseobj`è l\'oggetto da proiettare.
 
-<div class="mw-translate-fuzzy">
+-    `projectionVector`è il vettore di proiezione. Se non fornito viene utilizzato l\'asse Z.
 
--   Crea una `Shape2DView` come proiezione del dato `baseobj`.
-    -   Se `facenumbers` è dato, esso è una lista di numeri di faccia da considerare per la proiezione.
--   Se è dato un `projectionVector`, esso viene usato; altrimenti la proiezione predefinita è lungo l\'asse Z.
+-    `facenumbers`è un elenco di numeri di facce (in base 0). Se fornite vengono considerate solo queste facce.
 
+-    `shape2dview`viene restituito con la proiezione 2D creata.
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-L\'attributo `ProjectionMode` deve essere sovrascritto con la modalità desiderata, che può essere `"Solid"`, `"Individual Faces"`, `"Cutlines"`, o `"Cutfaces"`.
-
-
-</div>
+Se necessario, modificare la proprietà `ProjectionMode` dell\'oggetto creato. Può essere: `"Solid"`, `"Individual Faces"`, `"Cutlines"`, `"Cutfaces"` o `" Facce solide"`.
 
 Esempio:
 

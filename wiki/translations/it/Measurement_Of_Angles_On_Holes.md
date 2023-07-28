@@ -13,11 +13,15 @@
 
 
 
+
+
 ## Introduzione
 
 Questo tutorial spiega come creare linee centrali a fori orientati (assi dei fori) usando <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench/it.md).
 
 Con i fori non ortigonali non è possibile utilizzare le linee centrali verticali o orizzontali (false/true) dalle proprietà della vista. Per questo è necessario creare delle linee o dei punti di supporto.
+
+
 
 ## Procedura
 
@@ -51,4 +55,4 @@ Selezionare i punti del quadrante con <img alt="" src=images/TechDraw_Quadrants.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Measurement Of Angles On Holes/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Measurement Of Angles On Holes/it

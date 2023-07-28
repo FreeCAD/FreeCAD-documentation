@@ -42,17 +42,11 @@ Kopiere den Arbeitsbereichsordner in `$INSTALL_DIR/Mod/`, wobei `$INSTALL_DIR` d
 
 Auf diese Weise installierte Arbeitsbereiche stehen nur einem Benutzer zur Verfügung, erfordern aber keine Administratorrechte.
 
+Kopiere den Arbeitsbereichsordner nach `$USER_DIR/Mod/`, wobei `$USER_DIR` das FreeCAD Verzeichnis für einen bestimmten `Benutzernamen` ist (letzterer lässt sich finden, wenn man `App.getUserAppDataDir()` in die [Python-Konsole](Python_console/de.md)) eingibt.
 
-<div class="mw-translate-fuzzy">
-
-Kopiere den Arbeitsbereichsordner nach `$USER_DIR/Mod/`, wobei `$USER_DIR` das FreeCAD Verzeichnis für einen bestimmten `Benutzername` ist.
-
--   Unter Linux ist es normalerweise `/home/username/.FreeCAD/Mod/`.
+-   Unter Linux ist es normalerweise `/home/username/.local/share/FreeCAD/Mod/`. ({{VersionPlus/de|0.20}}) oder `/home/username/.FreeCAD/Mod/` ({{VersionMinus/de|0.19}}).
 -   Unter Windows ist es `%APPDATA%\FreeCAD\Mod\`, das ist normalerweise `C:\Users\''username''\Appdata\Roaming\FreeCAD\Mod\`
--   Unter macOS ist es normalerweise `/Users/username/Library/Preferences/FreeCAD/Mod/`. Eine Möglichkeit, in das Einstellungsverzeichnis zu gelangen, besteht darin, den \"Finder\" Menüeintrag **Gehe → Gehe zu Ordner** zu benutzen und `~/Library/Preferences/FreeCAD` einzugeben.
-
-
-</div>
+-   Unter macOS ist es normalerweise `/Users/username/Library/Preferences/FreeCAD/Mod/`.
 
 
 

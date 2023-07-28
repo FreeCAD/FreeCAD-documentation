@@ -1,4 +1,7 @@
 # ANSI templates/ro
+**The templates on this page are for the old [Drawing Workbench](Drawing_Workbench.md).<br>
+ There will be issues when using them with the [TechDraw Workbench](TechDraw_Workbench.md).**
+
 Această pagină listează șabloanele conform cu standardul American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute)
 
 ### ANSI A 
@@ -51,11 +54,15 @@ Această pagină listează șabloanele conform cu standardul American National S
 
 <img alt="" src=images/ANSI_E_Portrait.svg  style="width:800px;">
 
+
+
 ## Alte standarde valabile 
 
 -   [Drawing templates](Drawing_templates.md): șabloane implicite FreeCAD
 -   [Arch templates](Arch_templates.md): în conformitate cu American National Standards Institute [Arch](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standard
 -   [Misc templates](Misc_templates.md): șabloane amestecate
+
+
 
 ## Contribuții
 

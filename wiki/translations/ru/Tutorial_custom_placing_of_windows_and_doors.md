@@ -8,6 +8,8 @@
    Files:нет
 }}
 
+
+
 ## Введение
 
 Этот учебник покажет как поместить спроектированное пользователем [окна](Arch_Window/ru.md) и [двери](Arch_Door/ru.md) в модели здания. Он использует верстаки [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md), и [Sketcher](Sketcher_Workbench/ru.md).
@@ -33,6 +35,8 @@
 
 -   [The workbench used to create architectural projects is called Arch](http://help-freecad-jpg87.fr/04_arch_ind.php)
 
+
+
 ## Установка
 
 1\. Откройте FreeCAD, создайте новый пустой документ, и переключитесь на [Верстак Arch](Arch_Workbench/ru.md).
@@ -44,6 +48,8 @@
 4\. [Отодвиньте](Zoom_out/ru.md) трёхмерный вид, если сетка слишком близка.
 
 Теперь мы готовы сделать простейшую стену, где мы установим окна и двери.
+
+
 
 ## Установка стены 
 
@@ -100,6 +106,8 @@ w = Draft.makeWire(p, closed=False)
 
 *align=center|Стена, полученная из полилинии*
 
+
+
 ## Установка стандартных дверей и окон 
 
 
@@ -120,8 +128,16 @@ w = Draft.makeWire(p, closed=False)
 *align=center|Захват по средней точке нижней грани стены для установки двери*
 
 
+<div class="mw-translate-fuzzy">
+
+
 :   
-    **Примечание:**`Sill height` это дистанция от пола до нижнего края элемента. Для дверей `Sill height` обычно 0 m, поскольку двери обычно на уровне пола; с другой стороны, окна обычно отделяет от пола от 0.5 до 1.5 m. `Sill height` может быть установлен только при создании окна или двери из заготовки. Когда окно или двери вставлены, корректируйте их размещение редактированием вектора **Position** `[x, y, z]` базового эскиза ([Sketch](Sketcher_Sketch/ru.md)).
+    **Примечание:**`Sill height` это дистанция от пола до нижнего края элемента. Для дверей `Sill height` обычно 0 m, поскольку двери обычно на уровне пола; с другой стороны, окна обычно отделяет от пола от 0.5 до 1.5 m. `Sill height` может быть установлен только при создании окна или двери из заготовки. Когда окно или двери вставлены, корректируйте их размещение редактированием вектора **Position** `[x, y, z]` базового эскиза ([Sketch](Sketcher_Workbench/ru.md)).
+
+
+</div>
+
+
 
 ## Создание пользовательских дверей и окон 
 
@@ -170,6 +186,8 @@ w = Draft.makeWire(p, closed=False)
 
 
 *align=center|Пользовательское окно, созданное из эскиза, у него пока нет правильной рамы или стекла*
+
+
 
 ## Настройка пользовательского окна 
 
@@ -227,6 +245,8 @@ w = Draft.makeWire(p, closed=False)
 
 *align=center|Итоговое окно с соответствующими компонентами, внедрёнными в стену*
 
+
+
 ## Размножение пользовательского окна 
 
 14\. В древе проектов выделите `Window` и нижележащий `Sketch002`. Затем выполните **Edit → Duplicate selection**, и при запросе ответьте **No** для дублирования невыбранных зависимостей. Новые `Window001` и `Sketch003` появятся там же, где оригинальные элементы.
@@ -257,6 +277,8 @@ w = Draft.makeWire(p, closed=False)
 
 
 *align=center|Неправильный проём в стене из-за ошибочной нормали (Normal) окна*
+
+
 
 ## Нормали дверей и окон 
 
@@ -347,6 +369,8 @@ z = 0
 
 *align=center|Корректный проём в стене в соответствии с нормалью окна*
 
+
+
 ## Конечные замечания 
 
 20\. Как показано, [Arch Window](Arch_Window/ru.md) очень важно. Пользователь должен либо
@@ -370,11 +394,11 @@ abs(N) = 1 = sqrt(sin^2(angle) + cos^2(angle) + z^2)
 ```
 
 
-{{Tutorials navi
+{{Arch Tools navi
 
-}}   {{Sketcher Tools navi}}
+}}  {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > Tutorial custom placing of windows and doors/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > Tutorial custom placing of windows and doors/ru

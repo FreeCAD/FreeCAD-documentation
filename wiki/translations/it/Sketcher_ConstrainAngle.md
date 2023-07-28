@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -22,6 +24,8 @@ Il vincolo Angolo è un [vincolo valore](Sketcher_Workbench/it#Vincoli_dello_sch
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -51,7 +55,11 @@ Per applicare il vincolo angolo, si dovrebbe il seguire la seguente procedura:
 
 Come per qualsiasi vincolo valore, è possibile modificare in seguito il valore dell\'angolo facendo doppio clic sul vincolo nella lista dei vincoli o nella vista 3D. Un valore negativo inverte la direzione dell\'angolo.
 
+
+
 ## Modalità di vincolo 
+
+
 
 ### Angolo di inclinazione di una linea 
 
@@ -60,6 +68,8 @@ Come per qualsiasi vincolo valore, è possibile modificare in seguito il valore 
 <img alt="" src=images/Sketcher_ConsraintAngle_mode1.png  style="width:600px;">
 
 Il vincolo imposta l\'angolo polare della direzione della linea. È l\'angolo tra la linea e l\'asse X dello schizzo.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -75,6 +85,8 @@ Il vincolo imposta l\'angolo polare della direzione della linea. È l\'angolo tr
 
 In questa modalità, il vincolo fissa l\'ampiezza di un arco di circonferenza.
 
+
+
 ### Tra due linee 
 
 **Selezioni accettate:** linea + linea
@@ -82,6 +94,8 @@ In questa modalità, il vincolo fissa l\'ampiezza di un arco di circonferenza.
 <img alt="" src=images/Sketcher_ConsraintAngle_mode3.png  style="width:600px;">
 
 In questa modalità, il vincolo imposta l\'angolo tra due linee. Non è necessario che le linee siano intersecanti.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -104,6 +118,8 @@ Affinchè il vincolo funzioni correttamente, il punto deve appartenere a entramb
 
 
 </div>
+
+
 
 ## Script
 

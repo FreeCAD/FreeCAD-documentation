@@ -1,57 +1,42 @@
 ---
 - GuiCommand:/de
    Name:FEM ConstraintInitialFlowVelocity
-   Name/de:FEM RandbedingungInitialeFließgeschwindigkeit
-   MenuLocation:Modell → Strömungs-Randbedingungen → Randbedingung initiale Fließgeschwindigkeit
+   Name/de:FEM StartbedingungStrömungsgeschwindigkeit
+   MenuLocation:Model → Fluid-Randbedingungen → Constraint initial flow velocity
    Workbenches:[FEM](FEM_Workbench/de.md)
-   SeeAlso:[FEM RandbedingungFließgeschwindigkeit](FEM_ConstraintFlowVelocity/de.md)
+   SeeAlso:[RandbedingungStrömungsgeschwindigkeit](FEM_ConstraintFlowVelocity/de.md), [StartbedingungDruck](FEM_ConstraintInitialPressure/de.md)
 ---
 
 # FEM ConstraintInitialFlowVelocity/de
 
 
-</div>
-
-
 
 ## Beschreibung
 
-Erstellt eine Startbedingung einer Fließgeschwindigkeit für die Strömungsanalyse einer Flüssigkeit.
+Erstellt eine Randbedingung für den Startwert einer Strömungsgeschwindigkeit für die Strömungsanalyse eines Fluids.
 
 
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> [Randbedingung initiale Fließgeschwindigkeit](FEM_ConstraintInitialFlowVelocity/de.md)** drücken.
-    -   Den Menüeintrag **Modell → Strömungs-Randbedingungen → <img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> Randbedingung initiale Fließgeschwindigkeit** auswählen.
-2.  Den Startwert der Fließgeschwindigkeit für die Analyse eingeben.
-3.  Der Wert wird als Kombination der 3 kartesischen Hauptvektorkomponenten (X,Y,Z) angegeben.
+1.  Entweder die Schaltfläche **<img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> '''FEM ConstraintInitialFlowVelocity'''** drücken oder den Menüeintrag **Model → Fluid-Randbedingungen → <img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> Constraint initial flow velocity** auswählen.
+2.  Einen Startwert der Strömungsgeschwindigkeit für die Analyse eingeben. Der Wert wird als Kombination der 3 kartesischen Hauptvektorkomponenten (X,Y,Z) angegeben.
+3.  Für eine 3D-Analyse wird ein Festkörper (Body) des Modells ausgewählt, für eine 2D-Analyse eine Fläche. Es ist aber auch möglich eine Fläche (z.B. den Einlass einer Leitung) in 3D oder eine Kante in 2D auszuwählen.
 
 
-</div>
 
-## Limitation
+## Formeln
 
--   The constraint cannot be oriented other then using the main Cartesian components. This is a limitation of Elmer.
+Eine Beschreibung, wie man Formeln einsetzt, befindet sich im Abschnitt *Formeln* auf der Seite [RandbedingungStrömungsgeschwindigkeit](FEM_ConstraintFlowVelocity/de#Formeln.md).
 
 
 
 ## Hinweise
 
-In the most simple analyses, it is not necessary to specify the initial flow velocity, however it is recommended as best practice.
-
-
-<div class="mw-translate-fuzzy">
+In einfachen Analysen ist es nicht erforderlich, einen Startwert für die Strömungsgeschwindigkeit anzugeben, wird aber als bewährte Vorgehensweise empfohlen.
 
 
 
-
-
-</div>
 
 
 {{FEM Tools navi

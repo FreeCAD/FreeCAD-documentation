@@ -112,9 +112,6 @@ Voici les mailleurs disponibles et leurs paramètres :
 
 ### Mailleur Gmsh 
 
-
-{{Version/fr|0.19}}
-
 Pour les utilisateurs Linux : le module externe [Gmsh](https://gmsh.info/) est requis.
 
 -    **Maillage**: sélectionnez une option de maillage :

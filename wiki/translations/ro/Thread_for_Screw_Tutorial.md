@@ -356,9 +356,9 @@ ISO and other threads have relieved, ie flat, inner and outer edges rather than 
 Această metodă produce solide fiabile, care sunt boolean în mod corespunzător. În timp ce nu produce șuruburi \"parametrice\" în dimensiuni standard, în sensul de a avea un acces simplu la forma prin mărimea șurubului, este o modalitate ușoară de a produce o bibliotecă precisă pentru reutilizare și modele de forme specializate cum ar fi ACME sau șuruburi Archimedian , sunt, de asemenea, necomplicate ca excepții.
 
 
-  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+ {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Thread for Screw Tutorial/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Thread for Screw Tutorial/ro

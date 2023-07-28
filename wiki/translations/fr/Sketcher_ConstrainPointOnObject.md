@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainPointOnObject
    Name/fr:Sketcher Contrainte point sur objet
-   MenuLocation:Sketch → Contraintes d'esquisse  → Contrainte point sur objet
+   MenuLocation:Esquisse → Contraintes d'esquisse  → Contrainte point sur objet
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**O**
    SeeAlso:[Sketcher Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md)
@@ -14,13 +14,17 @@
 
 Appose un point sur un autre objet tel qu\'une ligne, un arc ou un axe d\'esquisse.
 
+
+
 ## Utilisation
 
 1.  Sélectionnez un point et un bord dans n\'importe quel ordre.
 2.  Il existe plusieurs façons de lancer cette commande :
     -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md)** dans la barre d\'outils.
     -   Utilisez le raccourci clavier **O**.
-    -   Utilisez l\'entrée **Sketch → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> Contrainte point sur objet**.
+    -   Utilisez l\'entrée **Esquisse → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> Contrainte point sur objet**.
+
+
 
 ## Script
 

@@ -44,7 +44,7 @@ Polecenie **Wymiarowanie odległości** tworzy obiekt odległość, który mierz
 ### Dane
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Etykieta**: domyślnie etykieta zawiera zmierzoną odległość, ale ta odległość nie jest aktualizowana, gdy P1 lub P2 zostaną później przestawione.
 
@@ -62,7 +62,7 @@ Polecenie **Wymiarowanie odległości** tworzy obiekt odległość, który mierz
 ### Widok
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Współczynnik odległości**: współczynnik ten, pomnożony przez zmierzoną odległość, określa przesunięcie linii wymiarowej.
 

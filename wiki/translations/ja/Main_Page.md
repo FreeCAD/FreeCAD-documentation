@@ -86,7 +86,7 @@ This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There ar
 
 <div class="mw-translate-fuzzy">
 
-[help FreeCAD](help_FreeCAD.md) ページにすべての詳細が記載されています。 FreeCADは2016年から[Google Summer of Code](Google_Summer_of_Code.md) にも参加しています。 [Contributors hubページは](Contributors_hub.md)、FreeCADプロジェクトを支援し、貢献するための可能な方法を収集するためのもう一つの取り組みです。
+[help FreeCAD](help_FreeCAD.md) ページにすべての詳細が記載されています。 FreeCADは2016年から[Google Summer of Code](Google_Summer_of_Code.md) にも参加しています。
 
 
 </div>

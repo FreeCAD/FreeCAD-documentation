@@ -21,6 +21,14 @@ import ifcopenshell
 
 IfcOpenShell peut être installé de différentes manières en fonction de votre système d\'exploitation et de votre environnement Python. Dans le passé, IfcOpenShell était un peu difficile à installer car il devait être compilé pour votre système spécifique; Cependant, au moment d\'écrire ces lignes (2020), il est plus facile de commencer à l\'utiliser, car il est maintenant inclus avec FreeCAD dans de nombreuses distributions FreeCAD. En général, il est conseillé d\'utiliser l\'une de ces distributions précompilées et de ne la compiler vous-même que si vous êtes un utilisateur avancé.
 
+
+
+### A partir de BlenderBIM 
+
+[BlenderBIM](https://blenderbim.org) est un autre projet qui utilise IfcOpenShell. Ils fournissent des paquets IfcOpenShell à jour pour plusieurs plateformes. C\'est la meilleure façon de s\'assurer que vous avez une version récente d\'IfcOpenShell.
+
+Page d\'installation de BlenderBIM IfcOpenShell : <https://blenderbim.org/docs-python/ifcopenshell-python/installation.html>
+
 ### Pip
 
 La manière la plus simple d\'installer IfcOpenShell est d\'utiliser [pip](https://pypi.org/project/pip/). Une fois que pip est installé sur votre système, vous pouvez [installer](https://datatofish.com/install-package-python-using-pip/) IfcOpenShell facilement à partir d\'une fenêtre de terminal :
@@ -46,6 +54,8 @@ sudo apt install ifcopenshell
 ```
 
 Cependant, veuillez noter que les packages fournis par plusieurs dépôts Linux ont tendance à être anciens et peuvent ne pas contenir les derniers développements du logiciel. Si vous voulez être sûr que vous utilisez le logiciel le plus récent, utilisez une distribution de FreeCAD basée sur [Conda](Conda.md), une distribution IfcOpenShell précompilée, ou compilez IfcOpenShell vous-même.
+
+
 
 ### Utilisation d\'un package IfcOpenShell pré-compilé 
 
@@ -99,6 +109,8 @@ rm -rf $HOME/.local/lib/python3.6/site-packages/ifcopenshell/
 sudo rm -rf /usr/local/lib/python3.6/dist-packages/ifcopenshell/
 ```
 
+
+
 ### Compiler
 
 La compilation d\'IfcOpenShell n\'est recommandée que pour les utilisateurs avancés. Le processus est similaire à [compiler FreeCAD sous Linux](Compile_on_Linux/fr.md), donc si vous l\'avez déjà fait, alors vous pouvez déjà avoir les prérequis nécessaires comme les fichiers de développement [OpenCASCADE](OpenCASCADE/fr.md). Le processus utilise l\'outil de configuration CMake pour produire un `Makefile` personnalisé à utiliser avec l\'outil Make.
@@ -114,6 +126,8 @@ Les instructions générales sont décrites dans le [dépôt IfcOpenShell](https
 **Remarque:**
 
 les exemples suivants supposent un système basé sur Debian/Ubuntu, mais la procédure générale devrait fonctionner pour d\'autres systèmes d\'exploitation. Par exemple, dans Debian, les bibliothèques partagées se trouvent normalement dans `/usr/lib/x86_64-linux-gnu/` alors que dans d\'autres distributions, cela peut être `/usr/lib64/` donc les chemins devraient être ajusté en conséquence.
+
+
 
 ### Prérequis
 
@@ -165,6 +179,8 @@ make -j 3
 sudo make install
 ```
 
+
+
 ### Wrapper Python 
 
 Pour une utilisation avec FreeCAD, vous avez besoin du wrapper [Python](Python/fr.md) qui utilise SWIG pour générer les interfaces appropriées à partir des classes C ++.
@@ -173,6 +189,8 @@ Pour une utilisation avec FreeCAD, vous avez besoin du wrapper [Python](Python/f
 ```python
 sudo apt-get install python-all-dev swig
 ```
+
+
 
 ### Configuration de CMake 
 
@@ -190,6 +208,8 @@ Notez que le fichier `CMakeLists.txt` qui pilote CMake se trouve dans le sous-r�
 
 En fonction de votre distribution Linux et de la façon dont vous avez installé les dépendances, vous devrez peut-être définir certaines variables CMake afin que les bibliothèques soient trouvées correctement.
 
+
+
 #### Spécification des bibliothèques OpenCASCADE 
 
 Si vous avez compilé manuellement OpenCASCADE, ou si les bibliothèques ne sont pas dans un répertoire standard, vous devrez peut-être définir les variables appropriées.
@@ -204,6 +224,8 @@ cmake \
 
 Par défaut, le système build attend l\'édition communautaire (OCE) d\'OpenCASCADE (`/usr/include/oce /`), cependant, veuillez noter que cette version est ancienne et n\'est plus recommandée par FreeCAD à partir de 2020. C\'est pourquoi l\'installation des fichiers de développement de la version principale de [OpenCASCADE](OpenCASCADE/fr.md) (OCCT) est recommandée.
 
+
+
 #### Sans OpenCOLLADA 
 
 Si vous n\'avez pas besoin du support OpenCOLLADA (fichiers [DAE](Arch_DAE/fr.md)), vous devez le désactiver explicitement avec la variable `COLLADA_SUPPORT`.
@@ -215,6 +237,8 @@ cmake \
     -DCOLLADA_SUPPORT=FALSE \
     ../IfcOpenShell-source/cmake/
 ```
+
+
 
 #### Avec OpenCOLLADA 
 
@@ -230,6 +254,8 @@ cmake \
     ../IfcOpenShell-source/cmake/
 ```
 
+
+
 #### Spécification des bibliothèques libxml2 
 
 Si les bibliothèques `libxml2` ne sont pas trouvées pendant la compilation et la liaison, ou si les bibliothèques ne sont pas dans un répertoire standard, vous devrez peut-être définir les variables appropriées.
@@ -243,6 +269,8 @@ cmake \
     ../IfcOpenShell-source/cmake/
 ```
 
+
+
 #### Spécification de l\'installation dans le répertoire personnel de l\'utilisateur 
 
 Par défaut, le module Python `ifcopenshell` sera installé dans un répertoire système `site-packages/`. Il nécessite donc des privilèges de superutilisateur. En définissant la variable `USERSPACE_PYTHON_PREFIX`, l\'installation du module Python se fera dans le répertoire personnel de l\'utilisateur.
@@ -255,6 +283,8 @@ cmake \
     ../IfcOpenShell-source/cmake/
 ```
 
+
+
 #### Spécification de la version Python 
 
 Si vous souhaitez générer une liaison pour une version particulière de Python, définissez la variable `PYTHON_EXECUTABLE` sur l\'exécutable spécifique. N\'oubliez pas que cette version doit être la même version de Python avec laquelle FreeCAD a été compilé. 
@@ -264,6 +294,8 @@ cmake \
     -DPYTHON_EXECUTABLE=/usr/bin/python3.6 \
     ../IfcOpenShell-source/cmake/
 ```
+
+
 
 #### Ligne de configuration unique 
 
@@ -277,6 +309,8 @@ Sans OpenCOLLADA:
 cmake -DOCC_INCLUDE_DIR=/usr/include/opencascade -DOCC_LIBRARY_DIR=/usr/lib/x86_64-linux-gnu -DCOLLADA_SUPPORT=FALSE -DLIBXML2_INCLUDE_DIR=/usr/include/libxml2 -DLIBXML2_LIBRARIES=/usr/lib/x86_64-linux-gnu/libxml2.so -DUSERSPACE_PYTHON_PREFIX=ON ../IfcOpenShell-source/cmake/
 ```
 
+
+
 ### Compilation réelle 
 
 S\'il n\'y avait pas de message d\'erreur lors de la configuration avec CMake, un `Makefile` aurait dû être créé dans le répertoire build, vous pouvez donc procéder à la compilation des bibliothèques en exécutant `make`. 
@@ -289,6 +323,8 @@ make -j N
 
 est le nombre de processeurs que vous attribuez au processus de compilation; choisissez au moins un de moins que le nombre total de cœurs de processeur dont vous disposez.
 
+
+
 ### Dépannage et autres options 
 
 Toutes les options de configuration sont disponibles dans le fichier `CMakeLists.txt` situé dans le répertoire `IfcOpenShell-source/cmake/`. S\'il y a des problèmes lors de l\'exécution de CMake ou Make, recherchez ici d\'autres options qui peuvent devoir être définies.
@@ -299,6 +335,8 @@ Dans toutes les instructions ci-dessus, au lieu de `cmake`, l\'interface graphiq
 ```python
 cmake-gui ../IfcOpenShell-source/cmake/
 ```
+
+
 
 ### Test de la compilation dans le répertoire build 
 
@@ -313,6 +351,8 @@ L\'exemple de fichier [IFC](Arch_IFC/fr.md) doit apparaître dans le répertoire
 ```
 
 Si aucun fichier de sortie n\'est spécifié, il créera par défaut un fichier [OBJ](Arch_OBJ/fr.md) et sa table de matériaux d\'accompagnement (MTL).
+
+
 
 ### Installation des bibliothèques compilées 
 
@@ -347,6 +387,8 @@ Si la variable `USERSPACE_PYTHON_PREFIX` a été définie lors de l\'étape de c
 $HOME/.local/lib/python3.6/site-packages/ifcopenshell/
 ```
 
+
+
 ### Suppression des bibliothèques compilées 
 
 Pour supprimer les bibliothèques installées, supprimez simplement les fichiers correspondants qui ont été installés et le répertoire `ifcopenshell/` avec tous les modules à l\'intérieur. 
@@ -370,6 +412,8 @@ Ou si la variable `USERSPACE_PYTHON_PREFIX` a été définie.
 ```python
 sudo rm -rf $HOME/.local/lib/python3.6/site-packages/ifcopenshell/
 ```
+
+
 
 ### Installation manuelle 
 
@@ -417,6 +461,8 @@ Maintenant, le module `ifcopenshell` devrait être disponible pour être import�
 ['/home/user/.local/lib/python3.6/site-packages/ifcopenshell']
 ```
 
+
+
 ## Application de visualisation IFC 
 
 La bibliothèque IfcOpenShell comprend en fait une petite visionneuse graphique pour les fichiers IFC qui utilise PyQt5 et PythonOCC.
@@ -434,12 +480,16 @@ python3 /home/user/.local/lib/python3.6/site-packages/ifcopenshell/geom/app.py
 
 Au moment de la rédaction de cet article (2020), seule la version [PythonOCC](PythonOCC/fr.md) compilée pour l\'édition communautaire (OCE) [OpenCASCADE](OpenCASCADE/fr.md) était prise en charge.
 
+
+
 ## Visionneuse en ligne IFC 
 
 Le projet IfcOpenShell a également développé \"IFC Pipeline\", un programme de traitement et de visualisation IFC auto-hébergé. Il fournit également une petite application Web qui accepte les téléchargements de fichiers, que tout le monde peut utiliser. Cela signifie que pour visualiser les données IFC, vous n\'avez pas besoin d\'installer localement IfcOpenShell ou d\'autres visionneuses. Vous pouvez simplement charger votre fichier IFC dans ce système pour voir le résultat.
 
 -   Visionneuse en ligne: <https://view.ifcopenshell.org/>
 -   Dépôt: [AECgeeks/ifc-pipeline](https://github.com/AECgeeks/ifc-pipeline)
+
+
 
 ## Plus d\'informations 
 

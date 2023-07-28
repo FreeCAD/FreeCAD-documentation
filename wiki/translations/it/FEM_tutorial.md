@@ -50,6 +50,8 @@ Questo tutorial ha lo scopo di introdurre il lettore al flusso di lavoro di base
 
 </div>
 
+
+
 ## Procedura
 
 ### Modeling
@@ -224,9 +226,11 @@ A questo punto il flusso di lavoro di base per il [Modulo FEM](FEM_Workbench/it.
 </div>
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM tutorial/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM tutorial/it

@@ -1,6 +1,8 @@
 # TechDraw Geometric dimensioning and tolerancing/ru
 {{TOCright}}
 
+
+
 ## Концепция
 
 Важной целью технического чертежа является то, чтобы читающий его человек понимал, какими характеристиками должна обладать деталь, с какой точностью и как она должна быть изготовлена. Поскольку большинство деталей стыкуются друг с другом в процессе сборки, важны их геометрические размеры. Для достижения этой цели была разработана [система геометрических размеров и допусков](https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BF%D1%83%D1%81%D0%BA) (англ. аббревиатура GD&T).
@@ -19,7 +21,7 @@ The straightness is important because a bent axis would not fit through the hole
 
 If you are not familiar with the concept of GD&T, we highly recommend to learn about it now. For example a quick introduction is given in [this video](https://www.youtube.com/watch?v=P5GT9ZSRYl0). For more like the concept of the \"maximum material condition\", have a look at [this video](https://www.youtube.com/watch?v=UXZjTb3ZUQI). For details to all sorts of GD&T features, look around in the Internet. For example [this YouTube channel](https://www.youtube.com/c/Gdandtbasics/videos) provides some good explanations.
 
-GD&T is normed in the norms [ISO 1101](http://geo-dim-tol.ir/files/iso1101.pdf) and [ASME Y14.5](http://www.sharifcadcam.ir/uploaded/2e22f9ef-dfc5-47bc-a126-cc51e9686c4f.pdf).
+GD&T is defined in the standards [ISO 1101](http://geo-dim-tol.ir/files/iso1101.pdf) and [ASME Y14.5](http://www.sharifcadcam.ir/uploaded/2e22f9ef-dfc5-47bc-a126-cc51e9686c4f.pdf).
 
 TechDraws\' capabilities to fulfill the common GD&T standards is limited (as of FreeCAD 0.20) but you can achieve already many things. This Wiki page explains what is implemented and what tricks can be used for non-implemented features. **Note:** this Wiki page is not about to teach GD&T!
 
@@ -94,6 +96,8 @@ There is no rule that defines if or how the tolerance indicator must have a lead
 -   set **End Symbol** to **Filled Arrow** or **Dot**.
 
 The example at the right side shows the two possible tolerance indicator layouts.
+
+
 
 ### Опорные элементы 
 

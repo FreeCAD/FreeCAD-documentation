@@ -14,6 +14,8 @@ Visit [tutorials](tutorials.md) for high quality written tutorials. A complete, 
 If you\'d like to contribute with writing wiki documentation and tutorials, see [Help FreeCAD](Help_FreeCAD.md), the general wiki guidelines in [WikiPages](WikiPages.md), and follow the [tutorial guidelines](tutorial_guidelines.md).
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 [YouTube](http://YouTube.com) má také [FreeCAD kanál](http://www.youtube.com/user/FreeCADNews) sbírající některé z nejzajímavějších výukových videí.
@@ -79,32 +81,6 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 -   [Evgeniy Ivanov](https://www.youtube.com/c/CFDIntech/videos) by Evgeniy Ivanov in English: a nice series of videos concerning FreeCAD 0.19, from basic to intermediate level.
 
 
-<div class="mw-translate-fuzzy">
-
-## Zastaralá videa 
-
-
-</div>
-
-
-**In FreeCAD 0.17 the [PartDesign Workbench](PartDesign_Workbench.md) received important updates that change the way solids are created with respect to previous versions. New users should watch videos for versions 0.17 and above to understand the concept of working with a [PartDesign Body](PartDesign_Body.md) and datum objects.**
-
-
-**These videos are considered obsolete because they use v0.16 or earlier versions of the program.**
-
-Although these videos are considered obsolete, they are included here for historical reference as the information they contain may still be useful for intermediate and advanced users. Absolute beginners are advised to avoid these videos until they have a better understanding of various modelling techniques.
-
--   [BPLRFE playlists](https://www.youtube.com/user/BPLRFE/playlists): these are playlists in German by the late Roland Frank (✝2017), a beloved member of the FreeCAD community.
-    -   [FreeCAD-Tutorials (deutsch)](https://www.youtube.com/watch?v=m49z0weonog&list=PLsrwVwvqYb8G4Ri0iz1JIebsOXkgoytAY), FreeCAD 0.14 to 0.16, a series of 32 videos in German, showing how to model many different objects, and use many of the capabilities of the software. They pre-date the \"Learn FreeCAD\" channel videos.
-    -   [FreeCAD-Forumsantworten](https://www.youtube.com/watch?v=NWS0czLKn68&list=PLsrwVwvqYb8EZyMnFb7Ogn4yjTZNLTKTB), FreeCAD 0.16, a series of 27 videos in German. These videos answer questions asked in the forum.
-
--   [Learn FreeCAD playlists](https://www.youtube.com/channel/UC_9HwDkwxllq5lFGkYBIH9g/playlists): these are playlists in English by the late Roland Frank (✝2017), a beloved member of the FreeCAD community.
-    -   [FreeCAD Lessons for Beginners (english)](https://www.youtube.com/watch?v=_HEvhclR4-o&list=PL6fZ68Cq3L8k0JhxnIVjZQN26cn9idJrj), FreeCAD 0.14 to 0.16, a series of 13 videos in English, showing how to model many objects. These are the English versions of the \"FreeCAD-Tutorials (deutsch)\" videos.
-    -   [FreeCAD- forum replies](https://www.youtube.com/watch?v=jkVYWUBPvAQ&list=PL6fZ68Cq3L8mW-mFAAkdXHiL26KrAKe5P), FreeCAD 0.16, a series of 4 videos in English. These videos answer questions asked in the forum.
-
-For more see [Video tutorials obsolete](Video_tutorials_obsolete.md).
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Common Questions](Category_Common Questions.md) > Video tutorials/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Video tutorials/cs

@@ -2,152 +2,108 @@
 - GuiCommand:/it
    Name:Draft_Scale
    Name/it:Scala
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation:Draft → Scala
+   MenuLocation:Modifiche → Scala
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**S** **C**
-   SeeAlso:[Clona](Draft_Clone/it.md), [Offset](Draft_Offset/it.md)
+   SeeAlso:[Evidenzia i sottoelementi](Draft_SubelementHighlight/it.md), [Clona](Draft_Clone/it.md)
 ---
 
 # Draft Scale/it
 
 
-</div>
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_Scale.svg  style="width:24px;"> **Scala** ridimensiona o copia gli oggetti selezionati intorno ad un punto base. In modalità sottoelemento il comando ridimensiona i punti e i bordi selezionati di [Linee](Draft_Line/it.md) e [Polilinee](Draft_Wire/it.md).
 
-<div class="mw-translate-fuzzy">
+Il comando può essere utilizzato su oggetti 2D creati con [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md), ma anche su molti oggetti 3D come quelli creati con gli ambienti [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) o [Arch](Arch_Workbench/it.md).
 
-Lo strumento <img alt="" src=images/Draft_Scale.svg  style="width:16px;"> Scala ridimensiona o copia gli oggetti selezionati attorno a un punto base.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Questo strumento può essere utilizzato su forme 2D create con <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft](Draft_Workbench/it.md) ma può anche essere utilizzato su molti tipi di oggetti 3D come quelli creati con <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_Workbench/it.md) o <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign](PartDesign_Workbench/it.md).
+<img alt="" src=images/Draft_Scale_example.png  style="width:400px;"> 
+*Ridimensionamento di un oggetto attorno a un punto base*
 
 
-</div>
-
-<img alt="" src=images/Draft_Scale_example.png  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Ridimensionamento di un oggetto da un punto di riferimento a un secondo punto*
-
-
-</div>
 
 ## Utilizzo
 
-See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
+
+1.  Opzionalmente selezionare uno o più oggetti, o uno o più sottoelementi di [Linee](Draft_Line/it.md) o [Polilinee](Draft_Wire/it.md).
+2.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_Scale.svg" width=16px> [Scala](Draft_Scale/it.md)**.
+    -   Selezionare l\'opzione **Modifica → <img src="images/Draft_Scale.svg" width=16px> Scala** dal menu.
+    -   Usare la scorciatoia da tastiera: **S** poi **C**.
+3.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto nella [Vista 3D](3D_view/it.md).
+4.  Si apre il pannello attività **Scala**. Vedi [Opzioni](#Opzioni.md) per maggiori informazioni.
+5.  Se i sottoelementi sono stati selezionati: selezionare la casella **Modifica i sottoelementi** per attivare la modalità sottoelemento.
+6.  Scegliere il punto base nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
+7.  Immettere i fattori di scala X, Y e Z.
+8.  Premere **Enter** o il pulsante **OK** per terminare il comando.
 
 
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare gli oggetti che si desidera scalare
-2.  Premere il pulsante **<img src="images/Draft_Scale.svg" width=16px> [Scala](Draft_Scale/it.md)**, o premere i tasti **S** quindi **C**. Se nessun oggetto è selezionato, si viene invitati a selezionarne uno.
-3.  Fare clic su un primo punto nella vista 3D o digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**. Questo serve come punto base dell\'operazione.
-4.  Impostare i fattori X, Y e Z e le opzioni appropriate, quindi premere **Invio** o **OK** per completare l\'operazione.
-
-
-</div>
 
 ## Opzioni
 
-### First task panel 
-
-The single character keyboard shortcuts mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
-
--   To manually enter the coordinates for the base point enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
--   Press the **Close** button to abort the command.
-
-### Second task panel 
 
 
-<div class="mw-translate-fuzzy">
+### Pannello prima attività 
 
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** tra ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto** quando si hanno i valori desiderati per inserire il punto.
--   Inserire i fattori X, Y e Z per definire il ridimensionamento lungo tali direzione.
-    -   Fare clic sulla casella di controllo \"Scalatura uniforme\" per bloccare i fattori X, Y e Z sullo stesso valore.
-    -   Fare clic sulla casella di controllo \"Orientamento del piano di lavoro\" per bloccare il ridimensionamento X, Y e Z lungo il corrente [piano di lavoro](Draft_SelectPlane/it.md); altrimenti, vengono utilizzate le direzioni globali X, Y e Z.
--   Tre opzioni controllano il risultato dell\'operazione di ridimensionamento:
-    -   Crea un clone. Viene creato un [Clone](Draft_Clone/it.md) dell\'oggetto originale. Questo funziona per tutti i tipi di oggetto.
+Le scorciatoie da tastiera a carattere singolo menzionate qui possono essere modificate. Vedere [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
 
-:   
-
-    :   
-        **Nota:**
-        
-        anche se i fattori di scala vengono lasciati ai valori predefiniti (1.0, 1.0, 1.0), un clone può essere modificato manualmente editando i fattori nell\'[editor delle proprietà](property_editor/it.md).
+-   Per inserire manualmente le coordinate per il punto base, inserire le componenti X, Y e Z e premere **Invio** dopo ciascuna. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
+-   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **S** per attivare o disattivare [Aggancia](Draft_Snap/it.md).
+-   Premere il pulsante **Chiudi** per interrompere il comando.
 
 
-</div>
 
-## Notes
+### Pannello seconda attività 
 
--   The command can also scale [Image Planes](Image_CreateImagePlane.md), but not in clone mode.
-
-## Preferences
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of scale factors (<small>(v0.20)</small> ) and coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To reselect the base objects after copying objects: **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
-
-## Scripting
+-   Immettere i fattori X, Y e Z per definire il ridimensionamento. I valori devono essere maggiori di zero.
+-   Selezionare la casella **Scalatura uniforme** per bloccare i fattori X, Y e Z sullo stesso valore.
+-   Se la checkbox **Orientamento del piano di lavoro** è spuntata i fattori di scala sono relativi al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md), altrimenti sono relativi al sistema di coordinate globale.
+-   Se la checkbox **Copia** è spuntata, viene creata una copia in scala dell\'oggetto originale. Questo funziona solo per gli oggetti Draft che hanno una proprietà **Points**, come [Polilinee](Draft_Wire/it.md).
+-   Se la casella di controllo **Modifica i sottoelementi** è selezionata, il comando utilizzerà i sottoelementi selezionati anziché tutti gli oggetti. I sottoelementi devono appartenere a [Linee](Draft_Line/it.md) o [Polilinee](Draft_Wire/it.md).
+-   Se la casella di controllo **Crea un clone** è selezionata, vengono creati [cloni](Draft_Clone/it.md) ridimensionati degli oggetti originali. Questo funziona per tutti i tipi di oggetto. Per oggetti che non sono oggetti Draft, o per oggetti Draft che non hanno una proprietà **Points**, questa opzione **deve** essere selezionata.
+-   Premere il pulsante **Selezionare i punti da/a** e scegliere due punti aggiuntivi nella [Vista 3D](3D_view/it.md) per calcolare i fattori di scala. Questo selezionerà automaticamente la casella di controllo **Scalatura uniforme**. I fattori di scala X, Y e Z saranno quindi uguali e saranno impostati alla distanza tra il punto base e il punto \'da\', divisa per la distanza tra il punto base e il punto \'a\'.
+-   Premere **Esc** o il pulsante **Annulla** per interrompere il comando.
 
 
-<div class="mw-translate-fuzzy">
+
+## Note
+
+-   Il comando può anche ridimensionare [Piani Immagine](Image_CreateImagePlane/it.md), ma non in modalità clone.
+
+
+
+## Preferenze
+
+Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
+
+-   Per modificare il numero di decimali utilizzati per l\'inserimento dei fattori di scala ({{Version/it|0.20}}) e delle coordinate: **Modifica → Preferenze... → Generale → Unità → Impostazioni unità → Numero di cifre decimali**.
+-   Per riselezionare gli oggetti di base dopo averli copiati: **Modifica → Preferenze... → Draft → Impostazioni generali → Opzioni strumenti di disegno → Seleziona gli oggetti di base dopo la copia**.
+
+
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-**Vedere anche:**
-
-[Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Scala può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
+Per scalare gli oggetti usare il metodo `scale` del modulo Draft.
 
 
 ```python
 scaled_list = scale(objectslist, scale=Vector(1,1,1), center=Vector(0,0,0), copy=False)
 ```
 
+-    `objectslist`contiene gli oggetti da scalare. È un singolo oggetto o un elenco di oggetti.
 
-<div class="mw-translate-fuzzy">
+-    `scale`è il vettore che specifica i fattori di scala X, Y e Z.
 
--   Scala gli oggetti della `objectslist` con i fattori specificati dai componenti di `delta`, definiti come un `FreeCAD.Vector`, e usando `center` come punto base.
-    -   
-        `objectslist`
-        
-        è un singolo oggetto o un elenco di oggetti.
--   Se `copy` è `True` vengono create delle copie invece di modificare gli oggetti originali.
--   Se `legacy` è `True`, viene utilizzata la modalità copia diretta (obsoleta), altrimenti viene eseguita una copia parametrica.
--   Viene restituita una `scaledlist` con gli oggetti in scala originali o con i nuovi cloni.
-    -   
-        `scaledlist`
-        
-        è un singolo oggetto o un elenco di oggetti, a seconda dell\'input `objectslist`.
+-    `center`è il punto centrale dell\'operazione di ridimensionamento.
 
+-   Se `copy` è `True` vengono create delle copie invece di ridimensionare gli oggetti originali.
 
-</div>
+-    `scaled_list`viene restituito con gli oggetti ridimensionati originali o con le nuove copie. È un singolo oggetto o un elenco di oggetti, a seconda di `objectslist`.
 
 Esempio:
 
@@ -170,15 +126,6 @@ scale2 = App.Vector(-2, -1.5, 0)
 wires = Draft.scale([wire1, wire2], scale2, copy=True)
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

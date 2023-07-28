@@ -92,9 +92,9 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 2.  Press the **Toolbar** button.
 3.  Two \'walkthrough\' dialogs will guide you through the required steps. See [Interface Customization](Interface_Customization.md) for more information.
 
-### Addons
+### Download
 
-1.  Press the **Addons...** button to start the [Addon manager](Std_AddonMgr.md).
+1.  Press the **Download** button to start the [Addon manager](Std_AddonMgr.md).
 
 ## Notes
 
@@ -102,7 +102,7 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 
 ## Preferences
 
--   The user macros location can also be changed in the preferences: **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
+-   The user macros location can also be changed in the preferences: **Edit → Preferences... → Python → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
 
 
 

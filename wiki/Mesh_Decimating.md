@@ -3,6 +3,7 @@
    Name:Mesh Decimating
    MenuLocation:Meshes → Decimation...
    Workbenches:[Mesh](Mesh_Workbench.md)
+   Version:0.19
 ---
 
 # Mesh Decimating

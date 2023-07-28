@@ -1,69 +1,89 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw DraftView
-   MenuLocation:TechDraw → Insert Draft Workbench Object
-   Workbenches:[TechDraw](TechDraw_Workbench.md), [Draft](Draft_Workbench.md)
-   SeeAlso:[TechDraw Arch View](TechDraw_ArchView.md)
+   Name/pl:Rysunek Techniczny: Wstaw obiekt środowiska Rysunek Roboczy
+   MenuLocation:Rysunek Techniczny → Widoki → Wstaw obiekt środowiska Rysunek Roboczy
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md), [Rysunek Roboczy](Draft_Workbench/pl.md)
+   SeeAlso:[Wstaw obiekt środowiska Architektura](TechDraw_ArchView/pl.md)
 ---
 
 # TechDraw DraftView/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> [DraftView](TechDraw_DraftView.md) tool inserts a view of a selected [Part](Part_Workbench.md)-based or Group object into a drawing page. Unlike the standard <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [View](TechDraw_View.md) tool, views created with this tool are handled by the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md), and specially designed for showing 2D objects. See [Notes](#Notes.md).
+
+## Opis
+
+Narzędzie **Wstaw obiekt środowiska Rysunek Roboczy** wstawia widok wybranego obiektu opartego na obiekcie [Część](Part_Workbench/pl.md) lub grupy do strony rysunku. W przeciwieństwie do standardowego <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [widoku](TechDraw_View/pl.md), widoki utworzone za pomocą tego narzędzia są obsługiwane przez środowisko <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md) i specjalnie zaprojektowane do wyświetlania obiektów 2D. Zobacz [uwagi](#Uwagi.md).
 
 ![](images/TechDraw_DraftView_example.png ) 
-*Draft elements like circles and arrays imported into a TechDraw drawing page*
-
-## Usage
-
-1.  Select a Draft object in the 3D view or in the tree
-2.  If you have multiple drawing pages in your document, you will need to select the desired page in the tree.
-3.  Press the **<img src="images/TechDraw_DraftView.svg" width=16px> [Insert Draft Workbench Object](TechDraw_DraftView.md)** button
-4.  A view of the draft object will appear on the page.
-
-## Options
-
--   Creating a DraftView of a layer will recursively handle all objects found in that layer. The View is updated automatically when the contents of the layer changes
--   There is no hidden line removal. Each face found in the handled object(s) will simply be projected along the Direction vector, no specific action is taken when faces overlap
--   The Draft View also supports all Draft objects that are not Part-based, such as dimensions and texts
--   Color, line width and line pattern can be specified in the properties. Line patterns can be fine-tuned by directly giving a [stroke-dasharray](https://www.w3.org/TR/SVG/painting.html#StrokeProperties) value, such as 3,5
--   Projected faces are filled with the face color
-
-## Properties
-
-See also [TechDraw View](TechDraw_View#Properties.md).
-
-### Data
+*Elementy szkicu, takie jak okręgi i szyki, importowane do strony Rysunku Technicznego.*
 
 
-{{TitleProperty|Draft view}}
 
--    **Source|Link**: The Draft object to be displayed.
+## Użycie
 
--    **Line Width|Float**: The width of the lines, independently of the scale.
+1.  Opcjonalnie obróć [widok 3D](3D_view/pl.md). Kierunek ujęcia widoku w oknie [widoku 3D](3D_view/pl.md) określa początkową wartość właściwości widoku **Kierunek**.
+2.  Wybierz jeden lub więcej obiektów w oknie [widoku 3D](3D_view/pl.md) lub [widoku drzewa](Tree_view/pl.md). Dla każdego obiektu zostanie utworzony osobny widok.
+3.  Jeśli w dokumencie znajduje się wiele stron rysunku: opcjonalnie dodaj żądaną stronę do zaznaczenia, wybierając ją w oknie [widoku drzewa](Tree_view/pl.md).
+4.  Istnieje kilka sposobów wywołania narzędzia:
+5.  Naciśnij przycisk **<img src="images/TechDraw_DraftView.svg" width=16px> '''Wstaw obiekt środowiska Rysunek Roboczy'''**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Widoki → <img src="images/TechDraw_DraftView.svg" width=16px> Wstaw obiekt środowiska Rysunek Roboczy**.
+6.  Jeśli w dokumencie znajduje się wiele stron rysunku, a strona nie została jeszcze wybrana, otworzy się okno dialogowe **Wybór strony**: {{Version/pl|0.20}}.
+    1.  Wybierz żądaną stronę.
+    2.  Naciśnij przycisk **OK**.
 
--    **Font Size|Float**: The size of all texts appearing in this view (texts and dimensions).
 
--    **Direction|Vector**: The projection direction to use.
 
--    **Color|Color**: The color of lines.
+## Opcje
 
--    **Line Style|String**: A line style to use for this view. Can be {{Value|Solid}}, {{Value|Dashed}}, {{Value|Dashdot}}, {{Value|Dot}} or an SVG line pattern like {{Value|0.20,0.20}}.
+-   Utworzenie warstwy DraftView będzie rekurencyjnie obsługiwać wszystkie obiekty znajdujące się w tej warstwie. Widok jest aktualizowany automatycznie po zmianie zawartości warstwy
+-   Nie ma usuwania ukrytych linii. Każda ściana znaleziona w obsługiwanym obiekcie *(obiektach)* zostanie po prostu rzutowana wzdłuż wektora kierunku, nie są podejmowane żadne konkretne działania, gdy ściany nakładają się na siebie.
+-   Widok szkicu obsługuje również wszystkie obiekty szkicu, które nie są oparte na częściach, takie jak wymiary i teksty.
+-   Kolor, szerokość linii i wzór linii można określić we właściwościach. Wzory linii można precyzyjnie dostosować, bezpośrednio podając wartość [stroke-dasharray](https://www.w3.org/TR/SVG/painting.html#StrokeProperties), np. 3,5
+-   Rzutowane ściany są wypełniane kolorem ściany.
 
--    **Line Spacing|Float**: The spacing to use between lines of texts for multiline texts.
 
--    **Override Style|Bool**: If `True`, line color, width and style of this view will override those of the rendered object.
 
-## Notes
+## Uwagi
 
-The DraftView is rendered within the [Draft Workbench](Draft_Workbench.md), therefore TechDraw has limited control over its appearance. You may need to make changes within Draft to get the representation you want.
+Widok Rysunku Roboczego jest renderowany w środowisku [Rysunek Roboczy](Draft_Workbench/pl.md), dlatego środowisko Rysunek Techniczny ma ograniczoną kontrolę nad jego wyglądem. Konieczne może być wprowadzenie zmian w środowisku pierwotnym, aby uzyskać pożądaną reprezentację.
 
-## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The New Draft tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+## Właściwości
+
+Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw_View/pl#Widok.md) środowiska Rysunek Techniczny.
+
+
+
+### Dane
+
+
+{{TitleProperty|Widok Rysunek Roboczy}}
+
+-    **Źródło|Link**: Obiekt Draft do wyświetlenia.
+
+-    **Szerokość linii|Float**: Szerokość linii, niezależnie od skali.
+
+-    **Rozmiar czcionki|Float**: Rozmiar wszystkich tekstów pojawiających się w tym widoku *(tekstów i wymiarów)*.
+
+-    **Kierunek |Vector**: Kierunek rzutowania do użycia.
+
+-    **Kolor|Color**: Kolor linii.
+
+-    **Styl linii|String**: Styl linii używany dla tego widoku. Może to być {{Value|Solid}}, {{Value|Kreskowana}}, {{Value|Kreska kropka}}, {{Value|Kropkowana}} lub wzór linii SVG, taki jak {{Value|0.20,0.20}}.
+
+-    **odstęp wierszy|Float**: Odstęp między wierszami tekstu dla tekstów wielowierszowych.
+
+-    **Nadpisz styl|Bool**: Jeśli parametr przyjmuje wartość {{TRUE/pl}}, kolor linii, szerokość i styl tego widoku będą zastępować kolory, szerokość i styl renderowanego obiektu.
+
+
+
+## Tworzenie skryptów 
+
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Wstaw obiekt środowiska Rysunek Roboczy** może być używane w [makrodefinicjach](macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
 
 
 ```python

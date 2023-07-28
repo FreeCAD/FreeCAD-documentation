@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -36,6 +38,8 @@ This snap option will also find points on extended faces and edges.
 
 
 </div>
+
+
 
 ## Utilizzo
 

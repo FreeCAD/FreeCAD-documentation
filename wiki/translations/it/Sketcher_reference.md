@@ -62,8 +62,7 @@ The general structure of the manual is:
     -   Placement and attachment offset
     -   Validate sketches
 
-
- {{Sketcher Tools navi}}
+{{Sketcher Tools navi}}
 
 
 

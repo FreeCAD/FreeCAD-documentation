@@ -3,21 +3,15 @@
 
 ![150\|center](images/Crystal_Clear_manual.png )
 
-[FreeCAD](http://www.freecadweb.org) 是自由的、开源的、参数化的 3D 建模应用软件，首要用于对现实世界对象建模，小至电子元器件，大至建筑物和市政工程，特别强调制作能 3D 打印的实体对象。FreeCAD 可以自由下载，自由使用，自由分发和自由修改。其源代码是开放的，公开的，遵守非常宽容的 [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) 协议。使用 FreeCAD 产生的数据完全是你的，不用 FreeCAD 也可以寻回它们。
+[FreeCAD](http://www.freecadweb.org) 是一个免费、开源的参数化三维建模应用程序。它主要用于建模现实世界的物体，从小型电子元件到建筑和土木工程项目等大型物体，尤其注重三维打印物体。 FreeCAD 可以免费下载、使用、分发和修改，其源代码是开放的，使用非常宽松的 [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) 许可进行发布。您使用 FreeCAD 生成的数据完全属于您，即使不使用 FreeCAD 也可以恢复。
 
-从本质上说，FreeCAD 也是一个社会工程，因为是一个社区在做它的开发和维护，这个社区由开发者和用户组成，他们因对 FreeCAD 的热情而团结在了一起。
+FreeCAD 也是一个社区项目，由一群对 FreeCAD 充满热情的开发者和用户共同开发和维护。
 
-本手册尝试一种与[ FreeCAD 官方维基文档不同的方式](Main_Page.md)。维基文档是几十个社区成员合作撰写的。像大多数维基文档一样，那里信息量巨大，但是新手很难找到入门之路，也很难在其中有效穿行。维基是不错的参考资源，然而学习 FreeCAD 却不太实用。本手册陪你走进维基，浏览众多既有信息。只是手册的内容基于例子，步步为营，作者只有几位，口吻一致，因此本手册更适用于第一次接触 FreeCAD 的情况。我们希望让这手册成为维基文档的伴侣，而不是替身。
+本手册是一个实验，采用了与官方 FreeCAD 文档维基不同的方法。维基由数十个社区成员合作撰写。像大多数维基一样，它包含了大量的信息，但对新手来说访问和导航起来有些困难。这使它成为一个很好的参考资源，但对于学习 FreeCAD 来说，它不是一个很实用的工具。本手册将引导您了解维基上提供的大部分信息，但我们希望基于示例的逐步方法和较少作者的更统一的风格能够使其更适合初次接触 FreeCAD 的用户。它将成为维基的一个伙伴，而不是取代它。
 
-本手册正在为 FreeCAD 最新的稳定版本 **0.18** (2019 年初发布)撰写。
+写作手册时 FreeCAD 最新稳定版本是 **0.18** (2019 年初发布)。
 
-
-<div class="mw-translate-fuzzy">
-
-本手册的内容都公开，遵照 [Creative Commons 4.0](http://creativecommons.org/licenses/by/4.0/) 协议，可以自由使用，自由下载，自由复制，和自由更改。手册的原文件挂在这个[维基上](Main_Page.md)，第一次写作的原始文档保存于 [github](https://github.com/yorikvanhavre/FreeCAD-manual) 上的个人账户里。在 [GitBook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) 上有更容易阅读的 HTML, PDF, MOBI 和 EPUB 版本。印刷版正（仍）在准备中。
-
-
-</div>
+这本手册内容公开，遵照 [Creative Commons 4.0](http://creativecommons.org/licenses/by/4.0/) 协议，自由使用，自由下载，自由复制，和自由更改。手册更新文件挂在这个 [维基](Main_Page/zh-cn.md) 页面上，第一次写作的原始文档保存于 [github](https://github.com/yorikvanhavre/FreeCAD-manual) 上第一作者的个人仓库里。在 [GitBook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) 上有更易于阅读的 HTML, PDF, MOBI 和 EPUB 格式（英文）。印刷版本仍在准备之中。 本手册的内容以知识共享 4.0 许可发布，可以自由使用、下载、复制和修改。本手册的源文件托管在此 [维基](Main_Page/zh-cn.md) 和用于编写本书第一版本的原始 [github](https://github.com/yorikvanhavre/FreeCAD-manual) 帐户上。在 [GitBook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) 上还提供了易于阅读的 HTML、PDF、MOBI 和 EPUB 格式。正在准备印刷版本。
 
 
 

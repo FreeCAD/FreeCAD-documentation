@@ -17,11 +17,11 @@ L\'immagine Docker di FreeCAD compilata senza GUI. Questa immagine Docker è spe
 
 ### Vantaggi
 
-All of FreeCAD\'s dependencies are already installed, compatible with each other, and configured appropriately, allowing you to get started developing very quickly.
+Tutte le dipendenze di FreeCAD sono già installate, compatibili tra loro e configurate in modo appropriato, consentendo di iniziare a sviluppare molto rapidamente.
 
--   Easy to use and lightweight.
--   It gives better performance in terms of speed.
--   No need to add FreeCAD paths to import it into Python.
+-   Facile da usare e leggero.
+-   Offre prestazioni migliori in termini di velocità.
+-   Non è necessario aggiungere percorsi a FreeCAD per importarlo in Python.
 
 
 
@@ -41,10 +41,10 @@ All of FreeCAD\'s dependencies are already installed, compatible with each other
 
 ## Installazione
 
-1.  Pull the Docker image.{{Code|lang=bash|code=
+1.  Prelevare l\'immagine Docker.{{Code|lang=bash|code=
     docker pull amrit3701/freecad-cli:latest
     }}
-2.  When you successfully pulled Docker image, now you can run image.{{Code|lang=bash|code=
+2.  Quando hai scaricato correttamente l\'immagine Docker, si può eseguire l\'immagine.{{Code|lang=bash|code=
     docker run -it amrit3701/freecad-cli:lastest bash
     }}
 
@@ -52,9 +52,11 @@ All of FreeCAD\'s dependencies are already installed, compatible with each other
 
 ## Informazioni aggiuntive 
 
-### Extend Docker image 
 
-You can also extend this Docker images to add additional dependencies for your project. For eg {{Code|lang=docker|code=
+
+### Estendere l\'immagine Docker 
+
+Si può anche estendere queste immagini Docker per aggiungere ulteriori dipendenze per il progetto. Per esempio: {{Code|lang=docker|code=
 
 # Dockerfile
 
@@ -65,9 +67,11 @@ FROM amrit3701/freecad-cli:lastest
 # pip3.8 install <some_package>
 }}
 
-### Import FreeCAD in Python 
 
-After running Docker image, just run Python.
+
+### Importare FreeCAD in Python 
+
+Dopo aver eseguito l\'immagine Docker, eseguire semplicemente Python.
 
 
 {{Code|lang=bash|code=
@@ -82,24 +86,17 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> import Arch
 }}
 
-### Launch FreeCADCmd 
 
-To launch FreeCAD inside Docker image, just run FreeCADCmd command.
+
+### Avviare FreeCADCmd 
+
+Per avviare FreeCAD all\'interno dell\'immagine Docker, basta eseguire il comando FreeCADCmd.
 
 
 
 ## Discussione
 
 FreeCAD forum thread: <https://forum.freecadweb.org/viewtopic.php?f=8&t=45877>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

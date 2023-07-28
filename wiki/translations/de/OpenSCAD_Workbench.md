@@ -1,5 +1,7 @@
 # <img alt="OpenSCAD Arbeitsbereichssymbol" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> OpenSCAD Workbench/de
 
+
+
 ## Einführung
 
 Der <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Arbeitsbereich](OpenSCAD_Workbench/de.md) soll Interoperabilität mit der Open Source Software [OpenSCAD](http://www.openscad.org/) bieten. Dieses Programm wird nicht als Bestandteil von FreeCAD verteilt, sollte aber installiert werden, um diesen Arbeitsbereich voll nutzen zu können. OpenSCAD sollte nicht mit [OpenCASCADE](OpenCASCADE/de.md) verwechselt werden, welches der geometrische Kernel ist, den FreeCAD zur Erstellung von Geometrie auf dem Bildschirm verwendet. Die OpenCASCADE Bibliotheken werden immer benötigt, um FreeCAD zu verwenden, während die ausführbare OpenSCAD Datei vollkommen optional ist.
@@ -12,6 +14,8 @@ Dieser Arbeitsbereich enthält Funktionen, um den CSG Funktionssbaum zu ändern 
 {{TOCright}}
 
 ![](images/OpenSCADexamaple1.png )
+
+
 
 ## Abhängigkeiten
 
@@ -38,9 +42,13 @@ Die allgemeine Installation auf allen Plattformen kann über den Python Paketind
 pip3 install --user ply
 ```
 
+
+
 ## OpenSCAD Sprache und Dateiformat 
 
 Die OpenSCAD Sprache erlaubt die Benutzung von Variablen und Schleifen. Sie erlaubt die Deklarierung von Sub Modulen, um Geometrie und Code wieder zu verwenden. Dieser hohe Grad an Flexibilität macht parsing (Übersetzen) sehr kompliziert. Im Moment kann der OpenSCAD Arbeitsbereich in FreeCAD die OpenSCAD Sprache nicht direkt verarbeiten. Andernfalls, wenn OpenSCAD installiert ist, kann es dazu verwendet werden, die Eingabe in ein Ausgabeformat namens \"CSG\" zu verwandeln. Dies ist ein Unterbereich der OpenSCAD Sprache und kann als Eingabe für OpenSCAD zur weiteren Bearbeitung verwendet werden. Während der Umwandlung wird jegliches parametrisches Verhalten verlorengehen - alle Variablennamen werden verworfen, Schleifen aufgelöst und mathematische Ausdrücke errechnet.
+
+
 
 ## Werkzeuge
 
@@ -60,29 +68,19 @@ Die OpenSCAD Sprache erlaubt die Benutzung von Variablen und Schleifen. Sie erla
 -   <img alt="" src=images/OpenSCAD_Hull.svg  style="width:32px;"> [Hülle](OpenSCAD_Hull/de.md): Wendet eine Hülle auf selektierte Formen an.
 -   <img alt="" src=images/OpenSCAD_Minkowski.svg  style="width:32px;"> [Minkowski](OpenSCAD_Minkowski/de.md): Wendet eine Minkowski-Summe auf selektierte Formen an.
 
+
+
 ## Einstellungen
 
 -   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Einstellungen](OpenSCAD_Preferences/de.md): verfügbare Einstellungen für die OpenSCAD Werkzeuge.
 
-## Limitations
 
 
-<div class="mw-translate-fuzzy">
-
-## Begrenzungen
+## Einschränkungen
 
 OpenSCAD erstellt CSG (constructive solid geometry) genauso wie es Netz-Körper importiert und 2D-Geometrie extrudiert (aus [DXF](DXF/de.md)-Dateien). FreeCAD erlaubt es, CSG auch mit Grundkörpern zu erstellen. Der Geometriekern von FreeCAD (OCCT) arbeitet mit einer Umgrenzungsdarstellung. Deshalb sollte die Umwandlung von CSG nach BREP in der Theorie möglich sein, während die Umwandlung von BREP nach CSG im Allgemeinen nicht funktionieren dürfte.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-OpenSCAD nutzt intern Netz-Körper. Manche Operationen, die bei Netz-Körpern nützlich sind, sind bei BREP-Körpern nicht sinnvoll und können daher nicht voll unterstützt werden. Unter diesen sind konvexe Hülle, Minkowski-Summe, glide und subdiv. Im Moment benutzen wir die OpenSCAD-Ausführungsdatei, um Hüllen und Minkowski-Operationen durchzuführen und die Ergebnisse zu importieren. Das bedeutet, das die beteiligte Geometrie trianguliert (temporär in Netz-Körper verwandelt) wird. In OpenSCAD wird nicht-einheitliches Skalieren oft benutzt, das keinerlei Probleme bei der Benutzung mit Netz-Köpern macht. In unserem Geometriekern werden geometrische Grundelemente (Linien, Kreissegmente) in BSplines konvertiert, bevor man solche Operationen durchführt. Diese BSplines sind bekannt dafür, dass Sie später in bool\'schen Operationen Fehler verursachen. Eine automatisierte Lösung ist im Moment nicht verfügbar. Bitte posten Sie im Fourm, wenn Sie solche Fehler entdecken. Oft können solche Problem dadurch vermieden werden, dass man kleine Teile des Modelles anders aufbaut. Ein Zylindersegment kann ersetzt werden durch ein extrudiertes Stück einer Ellipse.
-
-
-</div>
+OpenSCAD nutzt intern Netz-Körper. Manche Operationen, die bei Netz-Körpern nützlich sind, sind bei BREP-Körpern nicht sinnvoll und können daher nicht voll unterstützt werden. Unter diesen sind konvexe Hülle, Minkowski-Summe, glide und subdiv. Im Moment benutzen wir die OpenSCAD-Ausführungsdatei, um Hüllen und Minkowski-Operationen durchzuführen und die Ergebnisse zu importieren. Das bedeutet, das die beteiligte Geometrie trianguliert (temporär in Netz-Körper verwandelt) wird. In OpenSCAD wird nicht-einheitliches Skalieren oft benutzt, das keinerlei Probleme bei der Benutzung mit Netz-Köpern macht. In unserem Geometriekern werden geometrische Grundelemente (Linien, Kreissegmente) in BSplines konvertiert, bevor man solche Operationen durchführt. Diese BSplines sind bekannt dafür, dass Sie später in booleschen Operationen Fehler verursachen. Eine automatisierte Lösung ist im Moment nicht verfügbar. Bitte posten Sie im Fourm, wenn Sie solche Fehler entdecken. Oft können solche Problem dadurch vermieden werden, dass man kleine Teile des Modelles anders aufbaut. Ein Zylindersegment kann ersetzt werden durch ein extrudiertes Stück einer Ellipse.
 
 ## Importing text 
 
@@ -101,27 +99,27 @@ The {{Incode|<nowiki>script="Latn"</nowiki>}} parameter can be left out here, bu
 
 Please note that {{Incode|<nowiki>use <FONT>;</nowiki>}} statements in your source files are ignored when importing in FreeCAD. Under OpenSCAD the effect of a {{Incode|use}} statement is that the provided font file is temporarily added to the list of known fonts (although even there the statement does not work when a script is modified interactively).
 
+
+
 ## Hinweise
 
 Wenn [DXF](DXF/de.md) importiert wird, sollte die \"Draft Präzision\" auf einen sinnvollen Wert eingestellt werden, um so die Erkennung von verbundenen Kanten zu erleichtern.
 
 Wenn FreeCAD beim Import von CSG abstürzt, wird dringend empfohlen, \"Modell automatisch nach Boolescher Operation überprüfen\" im Menü **Bearbeiten → Einstellungen → Part Design → Allgemein** zu aktivieren.
 
+
+
 ## Tutorien
 
 -   [OpenSCAD Code Importieren](Import_OpenSCAD_code/de.md)
 
+
+
 ## Verweise
 
-
-<div class="mw-translate-fuzzy">
-
--   OpenSCAD Quellcode Repositorium auf [GitHub](https://github.com/openscad/openscad)
--   [Offene Tickets gekennzeichnet \"Openscad\" auf dem FreeCAD Fehlerverfolger](https://freecadweb.org/tracker/search.php?tag_string=OpenSCAD)
--   [Dinge, die mit \"Openscad\" auf Thingiverse gekennzeichnet sind](http://www.thingiverse.com/tag:openscad)
-
-
-</div>
+-   Das offizielle Quellcodeverzeichnis des OpenSCAD-Projekts wird auf [GitHub](https://github.com/openscad/openscad) gehosted.
+-   Offene Tickets gekennzeichnet mit \"OpenSCAD\" auf [FreeCADs Github-Issue-Tracker](https://github.com/FreeCAD/FreeCAD/labels/WB%20OpenSCAD). Es gibt auch Tickets auf dem jetzt archvierten [Mantis-Bugtracker](https://freecadweb.org/tracker/search.php?tag_string=OpenSCAD).
+-   Modelle gekennzeichnet mit \"OpenSCAD\" auf [Thingiverse](http://www.thingiverse.com/tag:openscad).
 
 
 

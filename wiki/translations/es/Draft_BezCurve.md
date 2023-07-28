@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -29,6 +31,8 @@ Los comandos [Borrador CubicBezCurva](Draft_CubicBezCurve/es.md) utilizan **punt
 
 <img alt="" src=images/Draft_BezCurve_Example.png  style="width:400px;"> 
 *Curva de Bézier definida por múltiples puntos*
+
+
 
 ## Utilización
 
@@ -47,6 +51,8 @@ Ver también: [Bandeja Borrador](Draft_Tray/es.md), [Borrador Atrapar](Draft_Sna
 
 
 </div>
+
+
 
 ## Opciones
 
@@ -71,10 +77,14 @@ Los atajos de teclado de un solo carácter disponibles en el panel de tareas se 
 
 </div>
 
+
+
 ## Notas
 
 -   Un Borrador de Curva de Bézier puede ser editado con el comando [Borrador Edición](Draft_Edit/es.md).
 -   OpenCascade, y por tanto FreeCAD, no soporta curvas Bézier de grados superiores a 25. Esto no debería ser un problema en la práctica, ya que la mayoría de los usuarios suelen utilizar curvas Bézier de grados 3 a 5.
+
+
 
 ## Preferencias
 
@@ -82,6 +92,8 @@ Ver también: [Editor de preferencias](Preferences_Editor/es.md) y [Borrador Pre
 
 -   Para cambiar el número de decimales utilizados para la entrada de coordenadas: **Edición → Preferencias... → General → Unidades → Configuración de unidades → Número de decimales**.
 -   Para cambiar el valor inicial del modo relleno: **Edición → Preferencias... → Borrador → Ajustes generales → Borrador Opciones de las herramientas → Rellenar objetos con caras siempre que sea posible**. Cambiar el modo de relleno en un panel de tareas anulará esta preferencia para la sesión actual de FreeCAD.
+
+
 
 ## Propiedades
 
@@ -94,6 +106,8 @@ Ver también: [Editor de propiedades](property_editor/es.md).
 </div>
 
 Un objeto Draft BezCurva deriva de un [Pieza2DObjeto](Part_Part2DObject/es.md) y hereda todas sus propiedades. También tiene las siguientes propiedades adicionales:
+
+
 
 ### Datos
 
@@ -114,6 +128,8 @@ Un objeto Draft BezCurva deriva de un [Pieza2DObjeto](Part_Part2DObject/es.md) y
 
 -    **Points|VectorList**: specifies the control points of the curve in its local coordinate system.
 
+
+
 ### Vistas
 
 
@@ -128,6 +144,8 @@ Un objeto Draft BezCurva deriva de un [Pieza2DObjeto](Part_Part2DObject/es.md) y
 -    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the closed curve. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
 
 -    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
+
+
 
 ## Guión
 

@@ -14,9 +14,9 @@
 
 Cet outil permet de créer un profil 2D d\'une roue d\'engrenage à développante ou un arbre cannelé. Ce profil 2D est pleinement paramétrique et peut être extrudé avec la fonction [PartDesign Protrusion](PartDesign_Pad/fr.md) ou [PartDesign Hélice additive](PartDesign_AdditiveHelix/fr.md).
 
-Pour des informations plus détaillées, voir également [Engrenage](https://fr.wikipedia.org/wiki/Engrenage) et [Involute Gear](https://en.wikipedia.org/wiki/Involute_gear)
+Pour des informations plus détaillées, voir également [Engrenage](https://fr.wikipedia.org/wiki/Engrenage) et [fonction involute](https://fr.wikipedia.org/wiki/Involute)
 
-![](images/PartDesign_Involute_Gear_01.png )
+<img alt="" src=images/PartDesign_Involute_Gear_01.png  style="width:200px;">
 
 
 
@@ -44,9 +44,6 @@ Pour des informations plus détaillées, voir également [Engrenage](https://fr.
 
 
 ### Créer un engrenage hélicoïdal 
-
-
-{{Version/fr|0.19}}
 
 1.  Sélectionnez le profil d\'engrenage dans la [vue en arborescence](Tree_view/fr.md).
 2.  Appuyez sur le bouton **<img src="images/PartDesign_AdditiveHelix.svg" width=16px> [PartDesign Hélice additive](PartDesign_AdditiveHelix/fr.md)**.
@@ -78,7 +75,7 @@ Conseil : pour faire de l\'angle d\'hélice un paramètre accessible, utilisez u
 ### Créer un moyeu pour un arbre cannelé en développante 
 
 
-{{Version/fr|1.0}}
+{{Version/fr|0.21}}
 
 1.  Activez le corps.
 2.  Créez un profil d\'engrenage à développante interne avec le nombre requis de rainures et adaptez les valeurs de l\'angle de pression, du coefficient de l\'addendum, du dedendum et du congé. Voir également le tableau dans les [Remarques](#Remarques.md) ci-dessous pour les valeurs réalisables. Par exemple :
@@ -121,6 +118,10 @@ Conseil : pour faire de l\'angle d\'hélice un paramètre accessible, utilisez u
 
 ## Propriétés
 
+-    **Addendum Coefficient**: hauteur de la dent depuis le cercle primitif jusqu\'à sa pointe, normalisée par le module. La valeur par défaut est de 1,0 pour le système standard de pleine profondeur. {{Version/fr|0.21}}
+
+-    **Dedendum Coefficient**: hauteur de la dent depuis le cercle primitif jusqu\'à sa racine, normalisée par le module. La valeur par défaut est 1,25 pour le système standard de pleine profondeur. {{Version/fr|0.21}}
+
 -    **External Gear**: vrai ou faux
 
 -    **High Precision**: vrai ou faux
@@ -131,17 +132,17 @@ Conseil : pour faire de l\'angle d\'hélice un paramètre accessible, utilisez u
 
 -    **Pressure Angle**: angle aigu entre la ligne d\'action et une normale à la ligne reliant les centres d\'engrenage. La valeur par défaut est de 20 degrés. Voir [Involute gear](https://en.wikipedia.org/wiki/Involute_gear).
 
--    **Addendum Coefficient**: hauteur de la dent depuis le cercle primitif jusqu\'à sa pointe, normalisée par le module. La valeur par défaut est de 1,0 pour le système standard de pleine profondeur. {{Version/fr|1.0}}
+-    **Profile Shift Coefficient**: distance par laquelle le profil de référence est décalé vers l\'extérieur, normalisé par le module. La valeur par défaut est zéro. Le décalage du profil peut être positif ou négatif. {{Version/fr|0.21}}
 
--    **Dedendum Coefficient**: hauteur de la dent depuis le cercle primitif jusqu\'à sa racine, normalisée par le module. La valeur par défaut est 1,25 pour le système standard de pleine profondeur. {{Version/fr|1.0}}
-
--    **Root Fillet Coefficient**: rayon du congé à la racine de la dent, normalisé par le module. La valeur par défaut est 0,38 comme défini par le rack ISO. {{Version/fr|1.0}}
+-    **Root Fillet Coefficient**: rayon du congé à la racine de la dent, normalisé par le module. La valeur par défaut est 0,38 comme défini par le rack ISO. {{Version/fr|0.21}}
 
 
 
 ## Remarques
 
--   Pour que deux engrenages puissent s\'engrener, ils doivent partager le même module et le même angle de pression. Des [expressions](Expressions/fr.md) peuvent aider à assurer la cohérence. Leur entraxe doit être `(NumberOfTeeth + OtherGear.NumberOfTeeth) * Modules / 2`. (soustraire le nombre de dents dans le cas d\'un engrenage interne).
+-   Pour que deux engrenages puissent s\'engrener, ils doivent partager le même module et le même angle de pression. Des [expressions](Expressions/fr.md) peuvent aider à assurer la cohérence. Leur entraxe doit être `(NumberOfTeeth + OtherGear.NumberOfTeeth) * Modules / 2`. (c\'est-à-dire dans le cas où le décalage du profil de la somme est nul). Soustraire le nombre de dents dans le cas d\'un engrenage intérieur.
+
+-   Le décalage de profil peut être utilisé pour éviter les contre-dépouilles sur les engrenages ayant un petit nombre de dents. Une autre application consiste à ajuster l\'entraxe de deux engrenages ayant un nombre donné de dents et un module.
 
 -   Lors de la vérification visuelle d\'un engrenage ou des interférences, une valeur beaucoup plus faible de **Deviation** est utile, par exemple 0,05 au lieu de la valeur par défaut 0,5. Sinon, la représentation dans la [vue 3D](3D_view/fr.md) peut être trop grossière.
 

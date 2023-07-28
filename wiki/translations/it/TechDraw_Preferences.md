@@ -10,6 +10,8 @@
 
 {{TOCright}}
 
+
+
 ## Introduzione
 
 
@@ -22,11 +24,18 @@ Le preferenze per l\'ambiente [TechDraw](TechDraw_Workbench/it.md) si trovano ne
 
 Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori predefiniti per i nuovi oggetti inseriti nel disegno. Non hanno alcun effetto sugli oggetti esistenti.
 
+
+
 ## Generale
 
 <img alt="Preferenze generali" src=images/TechDraw_PreferencesGeneral.png  style="width:350px;">
 
+
+
 ### Aggiornamento del disegno 
+
+
+<div class="mw-translate-fuzzy">
 
 
 {{Version/it|0.19}}
@@ -35,6 +44,11 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 -   **Consenti sostituzione pagina**: Controlla se la proprietà **[Keep Update](TechDraw_PageDefault/it#Proprietà.md)** di una pagina può o meno sostituire il parametro **Aggiorna con il 3D** a livello di sistema. Questa è un\'impostazione di gestione globale.
 -   **Mantieni aggiornate le pagine**: mantiene le pagine di disegno sincronizzate con i cambiamenti del modello 3D in tempo reale. Può rallentare i tempi di risposta.
 -   **Viste secondarie distribuite automaticamente**: distribuisce automaticamente le viste secondarie per i [Gruppi di proiezioni](TechDraw_ProjectionGroup/it.md).
+
+
+</div>
+
+
 
 ### Etichette
 
@@ -47,6 +61,8 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 
 </div>
 
+
+
 ### Convenzioni
 
 
@@ -58,7 +74,12 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 
 </div>
 
+
+
 ### File
+
+
+<div class="mw-translate-fuzzy">
 
 -   **Modello predefinito**: file del [modello](TechDraw_Templates.md) predefinito per le nuove pagine.
 -   **Directory del modello**: la directory di partenza per il pulsante **<img src="images/TechDraw_PageTemplate.svg" width=16px> [Nuovo disegno da modello](TechDraw_PageTemplate.md)**.
@@ -68,10 +89,15 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 -   **File PAT**: file di default per il modello PAT predefinito per il [tratteggio geometrico](TechDraw_GeometricHatch/it.md).
 -   **Nome del modello**: il nome del motivo PAT predefinito.
 
+
+</div>
+
 ### Grid
 
 -   **Show Grid**: Default Show Grid setting for new pages. <small>(v0.20)</small> 
 -   **Grid Spacing**: Default distance between grid lines for new pages. <small>(v0.20)</small> 
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -83,11 +109,15 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 
 <img alt="Preferenze di Scala" src=images/TechDraw_PreferencesScale.png  style="width:350px;">
 
+
+
 ### Scala
 
 -   **Scala della pagina**: Scala predefinita per le nuove pagine.
 -   **Scala delle viste**: Scala predefinita per le nuove viste.
 -   **Scala personalizzata delle viste**: Scala predefinita per le viste se **Scala delle viste** è *Personalizzata*.
+
+
 
 ### Regolazioni delle dimensioni 
 
@@ -102,6 +132,8 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 
 
 </div>
+
+
 
 ## Dimensioni
 
@@ -122,6 +154,8 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 
 
 </div>
+
+
 
 ## Annotazioni
 
@@ -152,9 +186,17 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 
 </div>
 
+
+
 ## Colori
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="Preferenze per i colori" src=images/TechDraw_Preferences_Colors.PNG  style="width:350px;">
+
+
+</div>
 
 Impostazione dei colori predefiniti per le nuove pagine.
 
@@ -180,6 +222,8 @@ Impostazione dei colori predefiniti per le nuove pagine.
 
 </div>
 
+
+
 ## HLR
 
 <img alt="Preferenze per HLR" src=images/TechDraw_PreferencesHLR.png  style="width:350px;">
@@ -193,7 +237,15 @@ HLR sta per *hidden line removal* (rimozione della linea nascosta).
 -   **Mostra le linee iso U, V**: mostra le linee isoparametriche. Iso sta per *isoparametriche*. [Ecco una descrizione](https://knowledge.autodesk.com/support/alias-products/learn-explore/caas/CloudHelp/cloudhelp/2014/ENU/Alias/files/GUID-4CCDF144-DB4F-4BEB-BA5A-E69CED27F4B9-htm.html) di quali sono le linee isoparametriche (in realtà le curve).
 -   **Numero di isoparametriche**: il numero di linee isoparametriche per bordo della faccia.
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Avanzate
+
+
+</div>
 
 <img alt="Preferenze avanzate" src=images/TechDraw_PreferencesAdvanced.png  style="width:350px;">
 

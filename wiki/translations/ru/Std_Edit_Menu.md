@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Введение
 
 Меню \"Правка\" это одно из 7-ми меню [стандартного меню](Standard_Menu/ru.md):
@@ -26,6 +28,8 @@
 }}
 
 Меню Правка содержит инструменты, предназначенные для изменения моделей.
+
+
 
 ## Инструменты
 
@@ -53,7 +57,13 @@
 
 -   <img alt="" src=images/Std_Delete.svg  style="width:32px;"> [Удалить](Std_Delete/ru.md): Удаляет всё выбранное.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> [Отправить в консоль Python](Std_SendToPythonConsole/ru.md): Создает переменные в [консоли Python](Python_console/ru.md) ссылающиеся на объект. {{Version/ru|0.19}}
+
+
+</div>
 
 -   <img alt="" src=images/Std_Placement.svg  style="width:32px;"> [Расположение\...](Std_Placement/ru.md): Открывает панель редактирования орентации и расположения выбранного объекта.
 

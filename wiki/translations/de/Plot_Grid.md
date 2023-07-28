@@ -1,17 +1,22 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:Plot Grid
+   Name/de:Plot Raster
    MenuLocation:Plot → Show/hide grid‏‎
-   Workbenches:[Plot](Plot_Workbench.md)
+   Workbenches:[Plot](Plot_Workbench/de.md)
 ---
 
 # Plot Grid/de
 
+
+
 ## Beschreibung
 
-This tool allows the user to enable/disable the grid lines on a specific plot.
+Dieses Werkzeug erlaubt dem Anwender die Rasterlinien eines bestimmten Diagramms zu aktivieren bzw. deaktivieren.
 
 <img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
+
+
 
 ## Anwendung
 

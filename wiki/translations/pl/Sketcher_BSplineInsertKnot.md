@@ -10,9 +10,13 @@
 
 # Sketcher BSplineInsertKnot/pl
 
+
+
 ## Opis
 
 Wstawia węzeł do istniejącej [krzywej złożonej](B-Splines/pl.md). Jeśli przy podanym parametrze istnieje już węzeł, zwiększa krotność tego węzła o jeden.
+
+
 
 ## Użycie
 

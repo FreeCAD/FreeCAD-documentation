@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrição
 
 This tool works like the [Sketcher Line](Sketcher_CreateLine.md) tool, but creates continuous line and arc segments connected by their vertices. When starting the tool, the mouse pointer changes to a white cross with a red polyline icon. The coordinates of the pointer are shown beside it in blue in real time.

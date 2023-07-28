@@ -14,7 +14,7 @@
 
 La commande **Afficher les résultats** ouvre la boîte de dialogue pour un objet résultat FEM. Un objet Result est automatiquement créé lorsqu\'une analyse FEM a été effectuée en utilisant le solveur [Calculix](FEM_SolverCalculixCxxtools/fr.md) ou [Z88](FEM_SolverZ88/fr.md).
 
-Un objet Result contient le maillage résultant et permet de visualiser les résultats. Il est conçu et donc limité aux résultats thermomécaniques. Pour ces types de résultats, l\'objet Result peut être utilisé comme alternative à un [pipeline de résultats](FEM_PostPipelineFromResult.md). Un pipeline de résultats peut être utilisé pour visualiser n\'importe quel type de résultats (également électriques, etc.).
+Un objet Résultat contient le maillage résultant et permet de visualiser les résultats. Il est conçu et donc limité aux résultats thermomécaniques. Sauf pour le [solveur Elmer](FEM_SolverElmer/fr.md), il peut être utilisé comme alternative à un [pipeline de résultats](FEM_PostPipelineFromResult/fr.md). Un pipeline de résultats peut être utilisé pour visualiser n\'importe quel type de résultats (électriques, etc.).
 
 Les unités utilisées pour l\'objet Result sont celles du [système d\'unités](Preferences_Editor/fr#Unit.C3.A9s.md) alors que pour un pipeline de résultats les unités sont [SI](https://fr.wikipedia.org/wiki/Syst%C3%A8me_international_d%27unit%C3%A9s).
 

@@ -8,12 +8,16 @@
 
 # Std Windows/ru
 
+
+
 ## Описание
 
 The **Std Windows** command opens a dialog box with a list of [Main view area](Main_view_area.md) windows. From this list a selected window can be activated.
 
 ![](images/Std_Windows_dialog.png ) 
 *The Choose Window dialog box*
+
+
 
 ## Применение
 
@@ -25,9 +29,13 @@ The **Std Windows** command opens a dialog box with a list of [Main view area](M
 4.  The dialog box closes.
 5.  The selected window is activated.
 
+
+
 ## Опции
 
 -   Press **Esc** or the **Cancel** button to abort the command.
+
+
 
 ## Примечания
 

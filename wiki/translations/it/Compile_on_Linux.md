@@ -403,10 +403,6 @@ Opzionalmente si possono anche installare i seguenti pacchetti extra:
 
 -    `checkinstall`, se si intende registrare i file installati nel gestore pacchetti del tuo sistema, in modo da poterlo disinstallare in seguito.
 
--    `python3-markdown`, l\'Addon Manager per visualizzare i file README.md in formato Markdown in modo nativo.
-
--    `python3-git`, affinché Addon Manager utilizzi git per recuperare e aggiornare workbench e macro.
-
 
 
 #### Comando Singolo per Python 3 e Qt5 
@@ -875,7 +871,7 @@ Come alternativa, utilizzare il comando `cmake -LH` per elencare la configurazio
 
 
 
-##### Per una compilazione di Degug 
+##### Per una compilazione di Debug 
 
 Creare una build `Debug` per risolvere i problemi di crash in FreeCAD. Attenzione che con questa build l\'[Ambiente Sketcher](Sketcher_Workbench/it.md) diventa molto lento quando sono presenti schizzi complessi.
 

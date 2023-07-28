@@ -2,28 +2,19 @@
 - GuiCommand:/de
    Name:Draft Layer
    Name/de:Draft Layer
-   Workbenches:[Draft Arbeitsbereich](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   MenuLocation:Draft → Utilities → Layer
+   MenuLocation:Dienstprogramme → Ebene
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Version:0.19
-   SeeAlso:[Draft AutoGroup](Draft_AutoGroup.md)
+   SeeAlso:[Draft AutoGruppe](Draft_AutoGroup/de.md), [Draft LayerManager](Draft_LayerManager/de.md)
 ---
 
 # Draft Layer/de
 
 
-</div>
-
-
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Die [Entwurf Schicht](Draft_Layer/de.md) erstellt eine spezielle Art von Gruppe, die die visuellen Eigenschaften von Objekten steuert, die in ihr platziert sind. Durch die Änderung der Eigenschaften der Ebene, wie Linienbreite, Linienfarbe, Formfarbe und Transparenz, werden die Änderungen auf die Objekte übertragen, die die Schichteigenschaft verwenden.
-
-
-</div>
+Der Befehl <img alt="" src=images/Draft_Layer.svg  style="width:24px;"> **Draft Layer** erstellt einen Draft-Layer. Ein Layer ist eine besondere Art von Gruppe mit einigen [Sichtbarkeits-Einstellungen](#View.md). Diese Einstellungen und alle Änderungen an ihnen werden an die Objekte auf diesem Layer weitergegeben. Die Layer an sich werden in einer weiteren besonderen Gruppe abgelegt: dem Draft LayerContainer.
 
 
 
@@ -38,7 +29,9 @@ Die [Entwurf Schicht](Draft_Layer/de.md) erstellt eine spezielle Art von Gruppe,
 
 </div>
 
-## Context menu 
+
+
+## Kontextmenü
 
 ### Layer container options 
 
@@ -61,11 +54,13 @@ For a Draft Layer these additional options are available in the [Tree view](Tree
 ## Drag and drop behavior 
 
 
-<small>(v1.0)</small> 
+<small>(v0.21)</small> 
 
 If you drop an object from a [Std Group](Std_Group.md), or a group-like object such as an [Arch BuildingPart](Arch_BuildingPart.md), on a layer in the [Tree view](Tree_view.md), it is not removed from the group, and vice versa. To remove an object from a layer it must be dropped on another layer or on the document node. There is no need to hold down the **Ctrl** key when dragging from or dropping on a layer.
 
-## Notes
+
+
+## Hinweise
 
 -   A new layer can also be created with the [Draft AutoGroup](Draft_AutoGroup.md) command.
 -   The [BIM Workbench](BIM_Workbench.md) offers a complete [layer manager tool](BIM_Layers.md) which will eventually be included in the [Draft Workbench](Draft_Workbench.md).
@@ -74,11 +69,13 @@ If you drop an object from a [Std Group](Std_Group.md), or a group-like object s
 
 ## Eigenschaften
 
-See also: [Property editor](Property_editor.md).
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-A Draft Layer object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. It also has the following additional properties:
+Ein Draft Layer-Objekt wird von einem [App FeaturePython](App_FeaturePython/de.md)-Objekt abgeleitet und erbt alle seine Eigenschaften. Außerdem besitzt es die folgenden zusätzlichen Eigenschaften:
 
-### Data
+
+
+### Daten
 
 
 {{TitleProperty|Layer}}
@@ -144,15 +141,6 @@ layer.Group = [polygon1, polygon2, polygon3]
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

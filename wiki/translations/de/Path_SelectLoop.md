@@ -9,17 +9,19 @@
 
 # Path SelectLoop/de
 
-## Description
+
+
+## Beschreibung
 
 
 <div class="mw-translate-fuzzy">
 
-## Beschreibung
-
-Der Befehl WähleSchleife vervollständigt eine Auswahl von Kanten, die eine Schleife bilden.
+Der Befehl **<img src="images/Path_SelectLoop.svg" width=16px> [Path SelectLoop](Path_SelectLoop/de.md)** vervollständigt eine Auswahl von Kanten, die eine Schleife bilden.
 
 
 </div>
+
+
 
 ## Anwendung
 
@@ -30,7 +32,9 @@ Der Befehl WähleSchleife vervollständigt eine Auswahl von Kanten, die eine Sch
     -   Use the keyboard shortcut: **P** then **L**.
 3.  The remaining edges of the loop are added to the selection.
 
-## Notes
+
+
+## Hinweise
 
 -   This command can also be very useful in other workbenches.
 

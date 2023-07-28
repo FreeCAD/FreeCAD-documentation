@@ -10,36 +10,34 @@
 
 # Part Offset2D/de
 
+
+
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Part 2D-Versatz konstruiert einen Draht, parallel zum ursprünglichen Draht, in einem bestimmten Abstand von diesem. Oder vergrößert/schrumpft entsprechend eine ebene Fläche.
-
-
-</div>
+Das Werkzeug <img alt="" src=images/Part_Offset2D.svg  style="width:24px;"> **Part Offset2D** konstruiert einen Draht, parallel zum ursprünglichen Draht, in einem bestimmten Abstand von diesem. Oder vergrößert/schrumpft entsprechend eine ebene Fläche.
 
 Der Draht/Fläche muss plan sein. Es kann mehrere Drähte in einem Objekt geben, nicht unbedingt koplanar.
 
 ![600px](images/Part_Offset2D_Demo.png)
 
+
+
 ## Anwendung
 
+1.  Ein Objekt zum Versetzen auswählen.
 
-<div class="mw-translate-fuzzy">
+2.  Die Schaltfläche **<img src="images/Part_Offset2D.svg" width=16px> [2D Offset](Part_Offset2D/de.md)** drücken.
 
-1.  Wähle ein Objekt zum Versetzen aus.
-2.  Drücke die **[<img src=images/Part_Offset2D.svg style="width:24px">** **2D-Versatz**-Taste.
-3.  Richte den Versatz im [Aufgabenbereich](Task_Panel/de.md) ein.
-4.  Drücke **OK**.
+3.  Den Versatz im [Aufgabenbereich](Task_Panel/de.md) einstellen.
 
-
-</div>
+4.  
+    **OK**drücken.
 
 ## Notes
 
 -   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as source objects. <small>(v0.20)</small> 
+
+
 
 ## Bekannte Probleme 
 
@@ -58,6 +56,8 @@ Der Draht/Fläche muss plan sein. Es kann mehrere Drähte in einem Objekt geben,
 -   \"Tangente\" Fügemodus funktioniert nicht (OCC 7.0.0.0)
 
 -   Versatzdrähte aus einem einzigen Liniensegment werden nicht unterstützt (da der Linienabschnitt keine Ebene definiert). Auch einzelne Linienabschnitte können nicht am Kollektivversatz teilnehmen.
+
+
 
 ## Eigenschaften
 
@@ -98,6 +98,8 @@ Der Draht/Fläche muss plan sein. Es kann mehrere Drähte in einem Objekt geben,
 -    {{PropertyData/de|Ausfüllen}}(\"false\", \"true\"): wenn \"true\", wird der Raum zwischen dem ursprünglichen Draht/Fläche und dem Offset mit einer Fläche gefüllt.
 
 :   ![600px](images/Part_Offset2D_Fill.png)
+
+
 
 ## Skripten
 

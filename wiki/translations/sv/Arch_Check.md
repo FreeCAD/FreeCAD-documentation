@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Beskrivning
 
 This tool checks the current document or the selected objects for non-solid **<img src="images/_Workbench_Part.svg" width=16px> [Part](Part_Workbench.md)** or **<img src="images/_Workbench_Arch.svg" width=16px> [Arch](Arch_Workbench.md)** objects, that might give problems, since most operations of the Arch Workbench require solid objects.
@@ -20,7 +22,7 @@ This tool checks the current document or the selected objects for non-solid **<i
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-This tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 list_bad = check(objectslist, includehidden=False)
 ```

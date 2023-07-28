@@ -1,29 +1,34 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ExtensionCreateHorizChamferDimension
-   MenuLocation:TechDraw → Extensions: Dimensions → Create Horizontal Chamfer Dimension
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Rozszerzenie Wymiar poziomy sfazowania
+   MenuLocation:Rysunek Techniczny → Rozszerzenia: Wymiary → Wymiar poziomy sfazowania
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionCreateVertChamferDimension](TechDraw_ExtensionCreateVertChamferDimension.md)
+   SeeAlso:[Wymiar pionowy sfazowania](TechDraw_ExtensionCreateVertChamferDimension/pl.md)
 ---
 
 # TechDraw ExtensionCreateHorizChamferDimension/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimension.svg  style="width:24px;"> **TechDraw ExtensionCreateHorizChamferDimension** tool creates a horizontal size and angle dimension for a chamfer.
+
+## Opis
+
+Narzędzie **Wymiar poziomy sfazowania** tworzy poziomy wymiar i kąt fazowania.
 
 <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimensionExample.png  style="width:450px;"> 
-*On the right the created dimension*
+*Po prawej utworzony wymiar.*
 
-## Usage
 
-1.  Select two vertexes.
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionCreateHorizChamferDimension.svg" width=16px> [TechDraw ExtensionCreateHorizChamferDimension](TechDraw_ExtensionCreateHorizChamferDimension.md)** button.
-    -   Select the **TechDraw → Extensions: Dimensions → <img src="images/TechDraw_ExtensionCreateHorizChamferDimension.svg" width=16px> Create Horizontal Chamfer Dimension** option from the menu.
-3.  A chamfer dimension is created.
+
+## Użycie
+
+1.  Wybierz dwa wierzchołki.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionCreateHorizChamferDimension.svg" width=16px> '''Wymiar poziomy sfazowania'''**.
+    -   Wybierz z menu opcję **Rysunek Techniczny → Rozszerzenia: Wymiary → <img src="images/TechDraw_ExtensionCreateHorizChamferDimension.svg" width=16px> Wymiar poziomy sfazowania**.
+3.  Zostanie utworzony wymiar fazowania.
 
 
 

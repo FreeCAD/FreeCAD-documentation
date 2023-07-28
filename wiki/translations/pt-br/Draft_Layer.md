@@ -4,14 +4,18 @@
    MenuLocation:Utilities → Layer
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    Version:0.19
-   SeeAlso:[Draft AutoGroup](Draft_AutoGroup.md)
+   SeeAlso:[Draft AutoGroup](Draft_AutoGroup.md), [Draft LayerManager](Draft_LayerManager.md)
 ---
 
 # Draft Layer/pt-br
 
+
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Layer.svg  style="width:24px;"> **Draft Layer** command creates a Draft Layer. A layer is a special kind of group with a number of [visual properties](#View.md). These properties, and any changes to them, are propagated to the objects placed inside the layer. The layers themselves are put in another special group: the Draft LayerContainer.
+
+
 
 ## Utilização
 
@@ -48,7 +52,7 @@ For a Draft Layer these additional options are available in the [Tree view](Tree
 ## Drag and drop behavior 
 
 
-<small>(v1.0)</small> 
+<small>(v0.21)</small> 
 
 If you drop an object from a [Std Group](Std_Group.md), or a group-like object such as an [Arch BuildingPart](Arch_BuildingPart.md), on a layer in the [Tree view](Tree_view.md), it is not removed from the group, and vice versa. To remove an object from a layer it must be dropped on another layer or on the document node. There is no need to hold down the **Ctrl** key when dragging from or dropping on a layer.
 
@@ -56,6 +60,8 @@ If you drop an object from a [Std Group](Std_Group.md), or a group-like object s
 
 -   A new layer can also be created with the [Draft AutoGroup](Draft_AutoGroup.md) command.
 -   The [BIM Workbench](BIM_Workbench.md) offers a complete [layer manager tool](BIM_Layers.md) which will eventually be included in the [Draft Workbench](Draft_Workbench.md).
+
+
 
 ## Propriedades
 

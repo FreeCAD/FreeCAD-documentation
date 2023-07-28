@@ -7,6 +7,11 @@
 
 Интерфейс FreeCAD базируется на современном инструментарии [Qt](http://ru.wikipedia.org/wiki/Qt_(toolkit)), и имеет современную организацию. Некоторые аспекты интерфейса могут быть настроены. Вы можете, например, добавить пользовательские панели инструментов с инструментами из нескольких рабочих мест или инструментами, определенными в макросах, и вы можете создавать свои собственные сочетания клавиш. Не могут быть изменены меню и панели инструментов по умолчанию, которые поставляются с FreeCAD и его верстаками.
 
+
+<small>(v0.21)</small> 
+
+: The Workbenches tab is no longer available. Its functionality has been moved to the [Available Workbenches](Preferences_Editor#Available_Workbenches.md) tab in the Workbenches section of the [Preferences Editor](Preferences_Editor.md).
+
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *Диалоговое окно настройки*
 
@@ -19,7 +24,7 @@
     -   Select the **Tools → <img src="images/Std_DlgCustomize.svg" width=16px> Customize...** option from the menu.
     -   Right-click a toolbar area and choose **<img src="images/Std_DlgCustomize.svg" width=16px> Customize...** from the context menu.
 3.  The Customize dialog box opens. For more information see [Options](#Options.md).
-4.  The **Help** button does not work at this time.
+4.  The **Help** button starts the <img alt="" src=images/Std_WhatsThis.svg  style="width:16px;"> [Std WhatsThis](Std_WhatsThis.md) command.
 5.  Press the **Close** button to close the dialog box.
 
 
@@ -30,27 +35,6 @@ In the Customize dialog box the following tabs are available:
 
 
 
-### Команды
-
-![](images/Std_DlgCustomize_tab_Commands.png ) 
-*Вкладка "Команды"*
-
-On this tab you can browse the available commands.
-
-
-
-#### Поиск команд 
-
-1.  Select a command category in the **Category** panel on the left. Some categories match menu entries.
-2.  The tools available in the selected category are shown in the panel on the right.
-3.  Hover a command: its tooltip appears.
-4.  Select a command: its status bar text is displayed below the two panels.
-
-
-{{Top}}
-
-
-
 ### Клавиатура
 
 ![](images/Std_DlgCustomize_tab_Keyboard.png ) 
@@ -58,82 +42,55 @@ On this tab you can browse the available commands.
 
 On this tab custom keyboard shortcuts can be defined. Shortcuts for macro commands can be defined on the [Macros](#Macros.md) tab.
 
+#### Search
 
+You can search for commands by entering at least 3 characters of their menu text or name in the search field. The search is case-insensitive.
+
+It is also possible to search for shortcuts:
+
+-   In the search field special keys in shortcuts must be entered as strings. For example to search for commands that use **Ctrl** in their shortcut enter {{Value|ctrl}} (4 letters).
+-   Add parenthesis to search for single character shortcuts, for example: {{Value|(c)}}.
+-   Add a comma and space between the characters of multi-character shortcuts, for example: {{Value|g, b, b}}.
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 #### Добавление пользовательской комбинации клавиш 
 
+
+</div>
+
 1.  Select a command category from the **Category** dropdown list.
 2.  Select a command from the **Commands** panel.
+    -   Optionally click the {{Value|Command}}, {{Value|Shortcut}} or {{Value|Default}} column headings to reorder the list.
+    -   Optionally drag the splitter to the right of the panel to resize it.
 3.  The **Current shortcut** box displays the current short cut, if available.
-4.  Enter a new shortcut in the **Press new shortcut** input box. Shortcuts can be up to 4 inputs long. Each input is either a single character, a combination of one or more special keys or a combination of one or more special keys and a character. Use **Backspace** to correct mistakes.
-5.  If the shortcut is already in use, a dialog box will ask you if you want to override it, and the command the shortcut is assigned to will appear in the **Currently assigned to** panel.
+4.  Enter a new shortcut in the **New shortcut** input box. Shortcuts can be up to 4 inputs long. Each input is either a single character, a combination of one or more special keys or a combination of one or more special keys and a character. Use **Backspace** to correct mistakes.
+5.  Other active commands (see [Notes](#Notes.md)) that already use the shortcut will be listed in the **Shortcut priority list**.
 6.  Press the **Assign** button to assign the new shortcut.
-7.  Press the **Clear** button to remove the entered shortcut. This will also remove the content of the **Current shortcut** box. Note that default shortcuts are not permanently removed. They will be restored upon restarting FreeCAD.
+7.  If the **Shortcut priority list** contains more than one command: optionally change its order by selecting individual commands and pressing the **Up** button or the **Down** button. If active commands share the same shortcut, the shortcut will trigger the one that is highest in the list.
 
-#### Remove a custom shortcut 
+#### Remove a shortcut 
+
+1.  Select a command category from the **Category** dropdown list.
+2.  Select a command from the **Commands** panel.
+3.  Press the **Clear** button.
+
+#### Restore a default shortcut 
 
 1.  Select a command category from the **Category** dropdown list.
 2.  Select a command from the **Commands** panel.
 3.  Press the **Reset** button.
 
-#### Remove all custom shortcuts 
+#### Restore all default shortcuts 
 
 1.  Нажмите на кнопку **Reset All**.
 
-#### Notes (Keyboard) 
+#### Notes
 
--   Shortcuts only work if their commands appear in the standard menu or in the menu of a workbench that has been loaded in the current FreeCAD session, or if their commands appear on a *visible* toolbar.
-
--   In V0.19 there is an issue with some Draft commands. Their default shortcuts do not work and/or custom shortcuts cannot be assigned to them.
--   To reassign a default shortcut a new shortcut has to be assigned to its original command first.
-
-
-{{Top}}
-
-
-
-### Верстаки
-
-![](images/Std_DlgCustomize_tab_Workbenches.png ) 
-*Вкладка "Верстаки"*
-
-On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The **Enabled workbenches** list shows the workbenches as they will appear in the Workbench selector.
-
-
-
-#### Отключение верстака 
-
-1.  Select a workbench in the **Enabled workbenches** list.
-2.  Press the **<img src="images/Button_left.svg" width=16px>** button.
-3.  The workbench will be moved to the **Disabled workbenches** list
-
-
-
-#### Подключение верстака 
-
-1.  Select a workbench in the **Disabled workbenches** list.
-2.  Press the **<img src="images/Button_right.svg" width=16px>** button.
-3.  The workbench will be moved to the **Enabled workbenches** list
-
-
-
-#### Подключение всех отключенных верстаков 
-
-1.  Нажмите на кнопку **<img src="images/Button_add_all.svg" width=16px>**.
-
-
-
-#### Изменение порядка верстака в списке 
-
-1.  Select a workbench in the **Enabled workbenches** list.
-2.  Press the **<img src="images/Button_up.svg" width=16px>** button or the **<img src="images/Button_down.svg" width=16px>** button.
-3.  Optionally repeat this until the workbench is in the correct position.
-
-
-
-#### Сортировка верстаков по алфавиту 
-
-1.  Нажмите на кнопку **<img src="images/Button_sort.svg" width=16px>**.
+-   Shortcuts only work for active commands. Active commands are commands that appear in the standard menu, or in the menu of a workbench that has been loaded in the current FreeCAD session, or commands that appear on a *visible* toolbar.
 
 
 {{Top}}
@@ -146,6 +103,10 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 *Вкладка "Панели инструментов"*
 
 На этой вкладке можно создать и изменить специальные панели инструментов.
+
+#### Search 
+
+See [Keyboard](#Search.md).
 
 
 
@@ -189,10 +150,10 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 
 1.  At least one custom toolbar is required. See [Create a toolbar](#Create_a_toolbar.md).
 2.  Select the correct toolbar in the panel on the right. If no toolbar is selected, the command will be added to the first toolbar in the list.
-3.  Select a category from the dropdown list on the left. Macro commands that have been set up on the [Macros](#Macros.md) tab appear in the \'Macros\' category.
-4.  Select a command from the panel on the left.
-5.  Or select \'\' to add a separator (a line between two toolbar buttons).
-6.  Press **<img src="images/Button_right.svg" width=16px>** button.
+3.  Select a command category from the **Category** dropdown list. Macro commands that have been set up on the [Macros](#Macros.md) tab appear in the {{Value|Macros}} category.
+4.  Select a command from the **Commands** panel, or select {{Value|<Separator>}} to add a separator (a line between two toolbar buttons).
+    -   Optionally drag the splitter to the right of the panel to resize it.
+5.  Press **<img src="images/Button_right.svg" width=16px>** button.
 
 
 
@@ -211,14 +172,10 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 3.  Press the **<img src="images/Button_up.svg" width=16px>** button or the **<img src="images/Button_down.svg" width=16px>** button.
 4.  Optionally repeat this until the command is in the correct position.
 
-
-
-#### Примечания касаемо панелей инструментов 
+#### Notes 
 
 -   Toolbars belonging to the current workbench are updated immediately, but after disabling/re-enabling a toolbar a workbench change is required (switch to a different workbench and then switch back).
 -   To update global toolbars a workbench change (if commands have been added or removed) or a restart (if the order of a toolbar has changed or a toolbar was renamed) is required.
-
--   In V0.19 there is an issue with some Draft commands. After adding them to a custom toolbar and exiting the FreeCAD application the **user.cfg** file must be manually edited for these commands. Search for the name of the custom toolbar and in that section change the content of the `FCText` items that start with `gui_` to `DraftTools`.
 
 
 {{Top}}
@@ -230,11 +187,9 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 ![](images/Std_DlgCustomize_tab_Macros.png ) 
 *Вкладка "Макросы"*
 
-On this tab user macro commands can be set up. Once set up, they can be added to custom toolbars. FreeCAD uses a dedicated folder for user macros and only macros in that folder can be set up. Use the <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Std DlgMacroExecute](Std_DlgMacroExecute.md) command to find this folder on your system.
+On this tab macro commands can be set up. Once set up, they can be added to custom toolbars. Macros installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) are set up automatically, and added to a {{Value|Global}} toolbar (see [Toolbars](#Toolbars.md)), if you confirm the **Add button** popup during the installation process.
 
-If you download a macro with the <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) then make sure that you also download its icon image file. Most macros have an image link on the information page that appears in the Addon Manager. You can for example put this image file in the user macros folder.
-
-If you want to use a macro downloaded from a different source you will have to install it manually. See [How to install macros](How_to_install_macros.md) for more information.
+If you want to use a macro downloaded from a different source you will have to install it manually. See [How to install macros](How_to_install_macros.md) for more information. Note that FreeCAD uses a dedicated folder for macros and only macros in that folder can be set up. Use the <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Std DlgMacroExecute](Std_DlgMacroExecute.md) command to find this folder on your system.
 
 
 
@@ -248,9 +203,9 @@ If you want to use a macro downloaded from a different source you will have to i
 6.  Optionally enter a shortcut in the **Accelerator** input box. See [Keyboard](#Keyboard.md) for more information.
 7.  To add an icon:
     1.  Press the **Pixmap** **...** button.
-    2.  The Choose Icon dialog box opens.
+    2.  The **Choose Icon** dialog box opens.
     3.  If required press the **Icon folders...** button to add an icon folder.
-    4.  Select an icon from the panel. The Choose Icon dialog box closes automatically.
+    4.  Select an icon from the panel. The **Choose Icon** dialog box closes automatically.
 8.  Press the **Add** button.
 9.  The macro command appears in the panel on the left.
 10. The macro command can now be selected on the [Toolbars](#Toolbars.md) tab.
@@ -279,7 +234,7 @@ This tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](
 
 ### Spaceball Buttons 
 
-This is tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md). 
+This tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md). 
 
 ## Темы
 
@@ -300,37 +255,17 @@ You can also create your own theme if you are not satisfied with the themes that
 
 ## Дополнения
 
-Addons offer yet another way to customize the use interface. Below are some addons created by users in the FreeCAD community. They can be downloaded through the <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) (note: they are listed on the Workbenches tab).
+Addons from the <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) offer yet another way to customize the user interface. Several [Preference Packs](Preference_Packs.md) to change the [theme](#Themes.md) are available.
 
-### CubeMenu
+In the Workbenches category of the Addon Manager some addons by user triplus can be found:
 
--   Github repository: <https://github.com/triplus/CubeMenu>
-
-### Glass
-
--   Github repository: <https://github.com/triplus/Glass>.
-
-### IconThemes
-
--   Github repository: <https://github.com/triplus/IconThemes>
-
-### Launcher
-
--   Github repository: <https://github.com/triplus/Launcher>
-
-### PieMenu
-
--   Github repository: <https://github.com/triplus/PieMenu>
-
-### RemBench
-
--   Github repository: <https://github.com/triplus/RemBench>
-
-
-
-### Закладки
-
--   Github repository: <https://github.com/triplus/ShortCuts>
+-   <https://github.com/triplus/CubeMenu> (for {{VersionMinus|0.20}})
+-   <https://github.com/triplus/Glass>.
+-   <https://github.com/triplus/IconThemes>
+-   <https://github.com/triplus/Launcher>
+-   <https://github.com/triplus/PieMenu>
+-   <https://github.com/triplus/RemBench>
+-   <https://github.com/triplus/ShortCuts>
 
 
 {{Top}}

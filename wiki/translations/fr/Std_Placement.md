@@ -11,37 +11,43 @@
 
 ## Description
 
-La commande **Std Positionnement** affiche le [Panneau des tâches](Task_Panel/fr.md) Placement pour un objet sélectionné.
+La commande **Std Positionnement** affiche le [panneau des tâches](Task_Panel/fr.md) Positionnement pour un objet sélectionné.
 
 ![](images/Std_Placement_taskpanel.png ) 
-*Le panneau des tâches Placement*
+*Le panneau des tâches Positionnement*
+
+
 
 ## Utilisation
 
-1.  Sélectionnez un seul objet ayant une propriété {{PropertyData/fr|Placement}} dans l\'[Éditeur de propriétés](Property_editor/fr.md).
-2.  Sélectionnez l\'option **Edition → Positionnement...** dans le menu.
+1.  Sélectionnez un seul objet ayant une propriété **Placement** dans l\'[éditeur de propriétés](Property_editor/fr.md).
+2.  Sélectionnez l\'option **Édition → Positionnement...** du menu.
 3.  Modifiez un ou plusieurs paramètres de translation et de rotation.
-4.  Effectuez l\'une des actions suivantes:
+4.  Effectuez l\'une des actions suivantes :
     -   Appuyez sur le bouton **OK** pour appliquer les modifications et fermer le panneau des tâches.
     -   Appuyez sur le bouton **Appliquer** pour appliquer les modifications mais gardez le panneau des tâches ouvert pour d\'autres modifications.
 5.  Appuyez sur **Echap** ou sur le bouton **Annuler** pour abandonner l\'opération. Cela annulera toutes les modifications qui n\'ont pas été appliquées.
 
-La boîte de dialogue peut également être lancée en cliquant sur le bouton de sélection **...** qui apparaît dans l\'[Éditeur de propriétés](Property_editor/fr.md) lorsque vous cliquez sur la propriété {{PropertyData/fr|Placement}}.
+La boîte de dialogue peut également être lancée en cliquant sur le bouton de sélection **...** qui apparaît dans l\'[éditeur de propriétés](Property_editor/fr.md) lorsque vous cliquez sur la propriété **Placement**.
+
+
 
 ## Remarques
 
 -   Pour plus d\'informations sur les paramètres de placement, consultez la page [Placement](Placement/fr.md) et le tutoriel [Aéroplane](Aeroplane/fr.md).
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
 Voir le [Tutoriel pour scripter en Python](Python_scripting_tutorial/fr#Vecteurs_et_placements.md).
 
-Un placement est défini en interne par une matrice. Dans de nombreux cas, il est plus simple de le représenter au moyen de deux composants, un point (vecteur) `Base` et une valeur `Rotation`. `Rotation` lui-même a différentes représentations. Il peut être entièrement défini par la valeur d\'un \"[quaternion](https://fr.wikipedia.org/wiki/Quaternion)\" `(xi + yj + zk + w)`, mais il peut aussi être décrit par une rotation `Axis` (vecteur unitaire) et une rotation `Angle` (radians).
+Un positionnement est défini en interne par une matrice. Dans de nombreux cas, il est plus simple de le représenter au moyen de deux composants, un point (vecteur) `Base` et une valeur `Rotation`. `Rotation` lui-même a différentes représentations. Il peut être entièrement défini par la valeur d\'un \"[quaternion](https://fr.wikipedia.org/wiki/Quaternion)\" `(xi + yj + zk + w)`, mais il peut aussi être décrit par une rotation `Axis` (vecteur unitaire) et une rotation `Angle` (radians).
 
 
 ```python

@@ -11,82 +11,102 @@
 
 ## Presentazione
 
-Among the options for building and installing FreeCAD, there is the option of using Docker. This method is primarily useful for FreeCAD developers, using Linux or Mac OS computers.
+Tra le opzioni per la compilazione e l\'installazione di FreeCAD, c\'è la possibilità di utilizzare Docker. Questo metodo è utile principalmente per gli sviluppatori di FreeCAD che utilizzano computer Linux o Mac OS.
 
-### Benefits
 
-All of FreeCAD\'s dependencies are already installed, compatible with each other, and configured appropriately, allowing you to get started developing very quickly.
 
--   The dependencies are contained within the docker container, preventing any unwanted packages contaminating your workstation, and preventing any clashing versions.
--   The source code and build directories are outside the docker container. This allows you to use your preferred editors, versioning systems, dev tools etc, without having to set them up in the docker container. You can just use them as normal, right from your workstation. (Also, it means you don\'t have to rebuild the docker container each time you want to build FreeCAD.)
--   For those using obscure \*nix distros and [instructions are not available](Compile_on_Linux#Getting_the_dependencies.md) for fetching dependencies, all you need to install on your workstation is docker, which is quite commonly available across many distributions.
--   It provides a static, immutable development environment. I personally find this useful when developing to reduce the number of potential variables that could be causing an issue. You know you\'ve not altered something esoteric in the environment between builds. For developers collaborating, and both using the same docker container, you can be sure you\'re both working from the same environment, which reduces communication errors caused by differences in environment.
+### Vantaggi
 
-## Docker Repository 
+Tutte le dipendenze di FreeCAD sono già installate, compatibili tra loro e configurate in modo appropriato, consentendo di iniziare a sviluppare molto rapidamente.
 
--   Original: <https://gitlab.com/daviddaish/freecad_docker_env>
--   Official: <https://GitHub.com/FreeCAD/Docker>
+-   Le dipendenze sono contenute all\'interno del contenitore docker, impedendo ad eventuali pacchetti indesiderati di contaminare la tua workstation e prevenendo eventuali conflitti tra versioni.
+-   Il codice sorgente e le directory di compilazione sono al di fuori del contenitore docker. Ciò ti consente di utilizzare i tuoi editor preferiti, i sistemi di controllo delle versioni, gli strumenti di sviluppo e così via, senza doverli configurare nel contenitore docker. Puoi semplicemente usarli normalmente, direttamente dalla tua postazione di lavoro. (Inoltre, significa che non è necessario ricostruire il contenitore docker ogni volta che si desidera creare FreeCAD.)
+-   Per coloro che usano oscure distribuzioni \*nix per le quali le [istruzioni non sono disponibili](Compile_on_Linux/it#Ottenere_le_dipendenze.md) per recuperare le dipendenze, tutto ciò che si deve installare sulla workstation è docker, che è comunemente disponibile in molte distribuzioni.
+-   Fornisce un ambiente di sviluppo statico e immutabile. Personalmente lo trovo utile durante lo sviluppo per ridurre il numero di potenziali variabili che potrebbero causare un problema. Si è sicuri di non aver alterato qualcosa di esoterico nell\'ambiente tra le build. Per gli sviluppatori che collaborano ed utilizzano lo stesso contenitore docker, si può essere certi di lavorare tutti sullo stesso ambiente, il che riduce gli errori di comunicazione causati dalle differenze nell\'ambiente.
 
-## Prerequisites
 
--   10GB of free storage
+
+## Repository Docker 
+
+-   Originario: <https://gitlab.com/daviddaish/freecad_docker_env>
+-   Ufficiale: <https://GitHub.com/FreeCAD/Docker>
+
+
+
+## Prerequisiti
+
+-   10GB di spazio libero
 -   Docker
 
-## Installation
 
-### Download the source 
 
-The best way to get FreeCAD\'s source code is to clone the [Git repository](https://github.com/FreeCAD/FreeCAD). For this you need the `git` program which can be easily installed in most Linux and Mac OS distributions, and it can also be obtained from the [official website](http://git-scm.com/).
+## Installazione
 
-This will place a copy of the latest version of the FreeCAD source code in a new directory called `freecad_source`.
+
+
+### Scarica i sorgenti 
+
+Il modo migliore per ottenere il codice sorgente di FreeCAD è clonare il [repository Git](https://github.com/FreeCAD/FreeCAD). Per questo è necessario il programma `git` che può essere facilmente installato nella maggior parte delle distribuzioni Linux e Mac OS, e può anche essere ottenuto dal [sito ufficiale](http://git-scm.com/).
+
+Questo collocherà una copia dell\'ultima versione del codice sorgente di FreeCAD in una nuova directory chiamata `freecad_source`.
 
 
 {{Code|lang=bash|code=
 git clone https://github.com/FreeCAD/FreeCAD.git ~/my_code/freecad_source
 }}
 
-For more information on using Git, and contributing code to the project, see [Source code management](Source_code_management.md).
+Per ulteriori informazioni sull\'utilizzo di Git e sul contributo del codice al progetto, vedere [Gestione del codice sorgente](Source_code_management/it.md).
 
-#### Source archive 
+#### Archivio dei sorgenti 
 
-Alternatively you can download the source as an [archive](https://github.com/FreeCAD/FreeCAD/releases/latest), a `.zip` or `.tar.gz` file, and unpack it in the desired directory.
+In alternativa si può scaricare il sorgente dall\'[archivio](https://github.com/FreeCAD/FreeCAD/releases/latest), in un file `.zip` o `.tar.gz` e scompattarlo nella directory desiderata.
 
-### Create build directory 
 
-Create a directory to hold your compiled FreeCAD source.
+
+### Creare la cartella di compilazione 
+
+Creare una directory per contenere il sorgente di FreeCAD compilato.
 
 
 {{Code|lang=bash|code=
 mkdir ~/my_code/freecad_build
 }}
 
-### Pull Docker image 
 
-Pull the Docker image. (Official image coming soon.)
+
+### Prelevare l\'immagine Docker 
+
+Prelevare l\'immagine Docker. (Immagine ufficiale in arrivo.)
 
 
 {{Code|lang=bash|code=
 docker pull registry.gitlab.com/daviddaish/freecad_docker_env:latest
 }}
 
-### Allow access to your window manager 
 
-In order for FreeCAD to launch it\'s GUI from within the Docker container, you need to give Docker access permissions to your window manager. In most Linux distributions, this is the X window system. You can use the below command to allow blanket access to X, until you reboot or logoff your computer.
+
+### Consentire l\'accesso al tuo gestore di finestre 
+
+Affinché FreeCAD possa avviare la sua GUI dall\'interno del contenitore Docker, è necessario concedere le autorizzazioni di accesso a Docker al gestore delle finestre. Nella maggior parte delle distribuzioni Linux, questo è il sistema X Window. È possibile utilizzare il comando seguente per consentire l\'accesso generale a X, fino al riavvio o alla disconnessione dal computer.
 
 
 {{Code|lang=bash|code=
 xhost +
 }}
 
-If you\'re connected to any untrusted systems, such as via `ssh`, this will make you vulnerable to malicious code. Either close any `ssh` connections, or look into more secure xhost permissions, which is outside the scope of this tutorial.
+Se si è connessi a qualsiasi sistema non affidabile, ad esempio tramite `ssh`, questo ti renderà vulnerabile al codice dannoso. Chiudere tutte le connessioni `ssh` o cercare autorizzazioni xhost più sicure, ciò esula dallo scopo di questo tutorial.
 
-#### Mac OS users 
 
-For those using Mac OS, the X window system may not be installed. The XQuartz project is a long running open source project that will allow you to add it to your computer. [You can find it here](https://www.xquartz.org/).
 
-### Launch the docker image 
+#### Utenti Mac OS 
 
-Assign environment variables so the Docker container will mount FreeCAD\'s source code, and build directory. In addition, you can mount an extra directory to contain any files you\'d like to use for testing purposes. In the below snippet, we\'ve left it as your home directory as a simple default.
+Per coloro che utilizzano Mac OS, il sistema X Window potrebbe non essere installato. Il progetto XQuartz è un progetto open source di lunga durata che ti consentirà di aggiungerlo al tuo computer. [Lo trovi qui](https://www.xquartz.org/).
+
+
+
+### Lanciare l\'immagine the docker 
+
+Assegnare le variabili di ambiente in modo che il contenitore Docker monti il ​​codice sorgente di FreeCAD e crei la directory. Inoltre, si può montare una cartella aggiuntiva per contenere tutti i file che si desidera utilizzare a scopo di test. Nello snippet sottostante, è stata lasciata come home directory per semplice impostazione predefinita.
 
 
 {{Code|lang=bash|code=
@@ -95,7 +115,7 @@ fc_build=~/my_code/freecad_build
 other_files=~/
 }}
 
-Launch the Docker image.
+Avviare l\'immagine Docker.
 
 
 {{Code|lang=bash|code=
@@ -107,33 +127,41 @@ docker run -it --rm \
 registry.gitlab.com/daviddaish/freecad_docker_env:latest
 }}
 
-### Build FreeCAD 
 
-You can build FreeCAD using the installed build script, or using your preferred method.
+
+### Compilare FreeCAD 
+
+È possibile creare FreeCAD utilizzando lo script di compilazione installato o utilizzando il metodo preferito.
 
 
 {{Code|lang=bash|code=
 /root/build_script.sh
 }}
 
-### Run FreeCAD 
 
-Once FreeCAD has been built, it can be run as normal.
+
+### Eseguire FreeCAD 
+
+Una volta che FreeCAD è stato compilato, può essere eseguito normalmente.
 
 
 {{Code|lang=bash|code=
 /mnt/build/bin/FreeCAD
 }}
 
-You can find the attached directories in the `/mnt` directory.
+Puoi trovare le directory allegate nella cartella `/mnt`.
 
-## Discussion
+
+
+## Discussioni
 
 -   [Docker env build container](https://forum.freecadweb.org/viewtopic.php?f=4&t=42954)
 -   [VSCode setup with Docker (1)](https://forum.freecadweb.org/viewtopic.php?f=10&t=48266)
 -   [VSCode setup with Docker (2)](https://forum.freecadweb.org/viewtopic.php?p=427812#p427812)
 
-## Related
+
+
+## Correlazioni
 
 -   [AppImage](AppImage.md)
 

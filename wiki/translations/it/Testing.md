@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introduzione
 
 [Test Framework](Testing/it.md) non è in realtà un ambiente di modellazione, ma contiene un set di script [Python](Python/it.md) per eseguire diversi test sui componenti principali di FreeCAD, al fine di eseguire il debug dei problemi. Vedere anche come [individuare gli errori](debugging/it.md).
@@ -35,6 +37,8 @@ freecad -c -t TestPartDesignApp
 Ogni directory di primo livello in FreeCAD dovrebbe avere un file con i test che possono essere eseguiti per quel particolare ambiente di lavoro o modulo. Il file di solito inizia con la parola `Test`.
 
 Per eseguire un test da FreeCAD, passare all\'Ambiente Test, quindi **Test commands → TestToolsGui → Self test → Select test name**, quindi immettere il nome del file Python con i test; ad esempio, per l\' [ Ambiente Draft](Draft_Workbench/it.md), sarebbe **TestDraft**, quindi premere **Start**.
+
+
 
 ## Funzioni di test 
 
@@ -131,7 +135,9 @@ Aggiungi funzione di test
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
-### Ottieni un elenco di tutti i moduli di test di primo livello 
+
+
+### Ottienere un elenco di tutti i moduli di test di primo livello 
 
 
 ```python
@@ -139,6 +145,8 @@ FreeCAD.__unit_test__
 ```
 
 Si noti che i moduli di test restituiti qui dipendono dal fatto che una GUI sia disponibile o meno. Cioè, quando viene eseguito in modalità console, mancano vari test che terminano in \"Gui\".
+
+
 
 ### Eseguire test specifici 
 
@@ -155,6 +163,8 @@ Eseguire tutti i test definiti in una classe Python:
 import Test, femtest.app.test_solver_calculix
 Test.runTestsFromClass(femtest.app.test_solver_calculix.TestSolverCalculix)
 ```
+
+
 
 ### Esempio 1 
 
@@ -175,7 +185,11 @@ r = unittest.TextTestRunner()
 r.run(suite)
 ```
 
+
+
 ## Risorse aggiuntive 
+
+
 
 ### Argomenti del Forum 
 

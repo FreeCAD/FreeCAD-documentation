@@ -1,26 +1,32 @@
 ---
 - GuiCommand:/pl
    Name:Part Fuse
-   Name/pl:Część: Scalenie
-   MenuLocation:Część → Operacje logiczne → Suma
+   Name/pl:Część: Połączenie
+   MenuLocation:Część → Operacje logiczne → Połączenie
    Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Wytnij](Part_Cut/pl.md), [Część wspólna](Part_Common/pl.md), [Operacje logiczne](Part_Boolean/pl.md)
+   SeeAlso:[Wytnij](Part_Cut/pl.md), [Część wspólna](Part_Common/pl.md), [Operacja logiczna](Part_Boolean/pl.md)
 ---
 
 # Part Fuse/pl
 
+
+
 ## Opis
 
-Narzędzie **![](images/)_[Scalenie](Part_Fuse/pl.md)** łączy *(jednoczy)* wybrane obiekty środowiska Części w jeden. Ta operacja jest w pełni parametryczna i komponenty mogą być modyfikowane, a wynik ponownie obliczany.
+Narzędzie **![](images/)_'''Połączenie'''**_łączy_*(jednoczy)*_wybrane_obiekty_środowiska_Części_w_jeden. Ta operacja jest w pełni parametryczna i komponenty mogą być modyfikowane, a wynik ponownie obliczany.
 
-**Uwaga:** To polecenie jest zautomatyzowaną formą <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [Operacji na bryłach](Part_Boolean/pl.md).
+**Uwaga:** To polecenie jest zautomatyzowaną formą narzędzia <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [Operacja logiczna](Part_Boolean/pl.md).
+
+
 
 ## Użycie
 
 1.  Wybierz dwa lub więcej kształtów
 2.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **![](images/) Utwórz sumę kilku kształtów** na pasku narzędzi **Narzędzia środowiska Część**
-    -   Użyj pozycji z menu **Część → Funkcje logiczne → Suma**.
+    -   Naciśnij przycisk **![](images/) Połączenie** na pasku narzędzi **Operacje logiczne**
+    -   Użyj pozycji z menu **Część → Operacje logiczne → Połączenie**.
+
+
 
 ### Obsługiwane dane wejściowe 
 
@@ -33,6 +39,8 @@ Obiekty wejściowe muszą być kształtami [OpenCascade](OpenCASCADE/pl.md). Prz
 -   Polilinia + Polilinia, Krawędź + Polilinia, Krawędź + Krawędź: wynikiem jest polilinia. Krawędzie są dzielone tam, gdzie się przecinają.
 
 Obsługiwane są związki; zakłada się jednak, że kształty upakowane w związku nie dotykają się ani nie przecinają. Jeśli tak jest w rzeczywistości, funkcja Scalanie prawdopodobnie zawiedzie lub da nieprawidłowy wynik.
+
+
 
 ## Opcje
 

@@ -10,6 +10,8 @@
 
 # Std ViewFitAll/ko
 
+
+
 ## 설명
 
 
@@ -20,7 +22,12 @@
 
 </div>
 
+
+
 ## 용법
+
+
+<div class="mw-translate-fuzzy">
 
 1.  이 명령을 실행하는 방법은 여러 가지입니다:
     -   
@@ -35,15 +42,10 @@
 
     -   단축키를 사용합니다: **V** 다음 **F**.
 
-## 비고
-
-
-<div class="mw-translate-fuzzy">
-
--   [네비게이션 큐브의](Navigation_Cube/ko.md) 미니-큐브 메뉴를 이용하여 \'전체 보기\'로 맞출 수 있습니다.
-
 
 </div>
+
+
 
 ## 스크립트
 

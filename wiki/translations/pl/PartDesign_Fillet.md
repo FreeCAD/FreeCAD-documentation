@@ -1,99 +1,117 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign Fillet
-   MenuLocation:Part Design → Apply a dress-up feature → Fillet
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[PartDesign Chamfer](PartDesign_Chamfer.md)
+   Name/pl:Projekt Części: Zaokrąglenie
+   MenuLocation:Projekt Części → Zastosuj funkcję ulepszenia → Zaokrąglenie
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
+   SeeAlso:[Sfazowanie](PartDesign_Chamfer/pl.md)
 ---
 
 # PartDesign Fillet/pl
 
+
+
 ## Opis
 
-The <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> **PartDesign Fillet** tool creates fillets (rounds) on the selected edges of an object. It adds a **Fillet** object to the document with its corresponding representation in the [Tree view](Tree_view.md).
+Narzędzie <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> **Zaokrąglenie** tworzy zaokrąglenia na wybranych krawędziach obiektu. Dodaje on do dokumentu obiekt **Zaokrąglenie** wraz z jego reprezentacją w oknie [Widoku drzewa](Tree_view/pl.md).
+
+
 
 ## Użycie
 
-### Add a fillet 
 
-1.  Optionally [activate](PartDesign_Body#Active_status.md) the Body to fillet.
-2.  There are several ways to select edges to fillet:
-    -   Select one or more edges of the Body individually.
-    -   Select one or more faces of the Body to select all their edges.
-    -   Select a feature (usually the last feature) of the Body to select all its edges. <small>(v0.20)</small> 
-3.  For a chain of tangentially connected edges only a single edge needs to be selected, the fillet will propagate along the chain.
-4.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/PartDesign_Fillet.svg" width=16px> [Fillet](PartDesign_Fillet.md)** button.
-    -   Select the **Part Design → Apply a dress-up feature → <img src="images/PartDesign_Fillet.svg" width=16px> Fillet** option from the menu.
-5.  If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
-6.  The **Fillet parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
-7.  Press the **OK** button to finish.
 
-### Edit a fillet 
+### Dodanie zaokrąglenia 
 
-1.  Do one of the following:
-    -   Double-click the Fillet object in the [Tree view](Tree_view.md)
-    -   Right-click the Fillet object in the [Tree view](Tree_view.md) and select **Edit Fillet** from the context menu.
-2.  The **Fillet parameters** [task panel](Task_panel.md) opens.See [Options](#Options.md) for more information.
-3.  Press the **OK** button to finish.
+1.  Opcjonalnie [zaznacz](PartDesign_Body/pl#Aktywny_status.md) bryłę do zaokrąglenia.
+2.  Istnieje kilka sposobów wyboru krawędzi do zaokrąglenia:
+    -   Wybierz jedną lub więcej krawędzi bryły indywidualnie.
+    -   Wybierz jedną lub więcej ścian bryły, aby wybrać wszystkie ich krawędzie.
+    -   Wybierz element (zwykle ostatni) bryły, aby wybrać wszystkie jej krawędzie. {{Version/pl|0.20}}
+3.  W przypadku łańcucha stycznie połączonych krawędzi należy wybrać tylko jedną krawędź, zaokrąglenie będzie rozchodzić się wzdłuż łańcucha.
+4.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/PartDesign_Fillet.svg" width=16px> '''Zaokrąglenie'''**.
+    -   Wybierz z nemu opcję **Projekt Części → Zastosuj funkcję ulepszenia → <img src="images/PartDesign_Fillet.svg" width=16px> Zaokrąglenie**.
+5.  Jeśli nie ma aktywnej Zawartości, a w dokumencie znajdują się dwie lub więcej, otworzy się okno dialogowe **Wymagana jest aktywna zawartość** z monitem o aktywację jednej z nich. Jeśli w dokumencie znajduje się tylko jedna Zawartość, zostanie ona aktywowana automatycznie.
+6.  Otworzy się [Panel zadań](Task_panel/pl.md) **Parametry zaokrąglenia**. Więcej informacji można znaleźć w akapicie [Opcje](#Opcje.md).
+7.  Naciśnij przycisk **OK**, aby zakończyć.
 
-## Options
 
--   To add edges do one of the following:
-    -   Press the **Add** button to start selecting edges and/or faces in the [3D view](3D_view.md).
-    -   To select all remaining edges do the following:
-        1.  If required press the **Add** button.
-        2.  Use the **Ctrl**+**Shift**+**A** keyboard shortcut, or right-click the list and select **Add all edges** from the context menu. <small>(v0.20)</small> 
--   To remove edges do one of the following:
-    -   Press the **Remove** button to start deselecting edges and/or faces in the [3D view](3D_view.md). Selected elements are highlighted in purple.
-    -   Select one or more elements in the list and press the **Del** key, or right-click the list and select **Remove** from the context menu.
--   Set the **Radius** of the fillet.
--   Check the **Use all edges** checkbox to select all edges of the previous feature. This deactivates the selection list and the related buttons. <small>(v0.20)</small> 
+
+### Edycja zaokrąglenia 
+
+1.  Wykonaj jedną z poniższych czynności:
+    -   Kliknij dwukrotnie obiekt Szkic w oknie [Widoku drzewa](Tree_view/pl.md).
+    -   Kliknij obiekt Szkic prawym przyciskiem myszy w oknie [Widoku drzewa](Tree_view/pl.md) i wybierz **Edycja funkcji zaokrąglenia** z menu podręcznego.
+2.  Otworzy się [Panel zadań](Task_panel/pl.md) **Parametry zaokrąglenia**. Więcej informacji można znaleźć w punkcie [Opcje](#Opcje.md).
+3.  Naciśnij przycisk **OK**, aby zakończyć.
+
+
+
+## Opcje
+
+-   Aby dodać krawędzie, wykonaj jedną z poniższych czynności:
+    -   Naciśnij przycisk **Dodaj**, aby rozpocząć zaznaczanie krawędzi i / lub ścian w oknie [Widoku 3D](3D_view/pl.md).
+    -   Aby zaznaczyć wszystkie pozostałe krawędzie, wykonaj następujące czynności:
+        1.  W razie potrzeby naciśnij przycisk **Dodaj**.
+        2.  Użyj skrótu klawiaturowego **Ctrl** + **Shift** + **A** lub kliknij listę prawym przyciskiem myszy i wybierz **Dodaj wszystkie krawędzie** z menu podręcznego. {{Version/pl|0.20}}
+-   Aby usunąć krawędzie, wykonaj jedną z następujących czynności:
+    -   Naciśnij przycisk **Usuń**, aby rozpocząć odznaczanie krawędzi i / lub ścian w oknie [Widoku 3D](3D_view/pl.md). Wybrane elementy są podświetlone na fioletowo.
+    -   Zaznacz jeden lub więcej elementów na liście i naciśnij klawisz **Del** lub kliknij listę prawym przyciskiem myszki i wybierz **Usuń** z menu podręcznego.
+-   Wyznacz **Promień** zaokrąglenia.
+-   Zaznacz pole wyboru **Użyj wszystkich krawędzi**, aby wybrać wszystkie krawędzie poprzedniego elementu. Spowoduje to dezaktywację listy wyboru i powiązanych przycisków. {{Version/pl|0.20}}
+
+
 
 ## Uwagi
 
--   PartDesign Fillet should not be confused with [Part Fillet](Part_Fillet.md). Unless you know what you are doing, [Part Fillet](Part_Fillet.md) should not be used on a PartDesign Body. See [Part and PartDesign](Part_and_PartDesign.md).
--   Fillets cannot completely consume the adjacent faces.
-
-## Properties
-
-See also: [Property editor](Property_editor.md).
-
-A PartDesign Fillet object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
-
-### Data
+-   Zaokrąglenia środowiska pracy Projekt Części nie należy mylić z [Zaokrągleniem](Part_Fillet/pl.md) środowiska Część. Jeśli nie wiesz, co robisz [Część: Zaokrąglenie](Part_Fillet/pl.md) nie powinno być używane na Zawartości środowiska Projekt Części. Zobacz stronę [Część i Projekt Części](Part_and_PartDesign/pl.md).
+-   Zaokrąglenia nie mogą całkowicie wchłonąć sąsiednich ścian.
 
 
-{{Properties_Title|Base}}
 
--    **Base|LinkSub**: Link to the selected edges and faces of the parent feature. Can be a link to only the parent feature if **Use All Edges** is `True`.
+## Właściwości
 
--    **Support Transform|Bool**: If `True` the filleted shape of the additive/subtractive parent feature will be used when the fillet object is included in a [pattern](PartDesign_Workbench#Transformation_tools.md), else only the shape of the fillet itself will be used. The default is `False`.
+Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
 
--    **Add Sub Shape|PartShape|hidden**
-    
-
--    **Base Feature|Link|hidden**: Link to the parent feature.
-
--    **_ Body|LinkHidden|hidden**: Link to the parent body.
+Obiekt Zaokrąglenie środowiska Projekt Części wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
-{{Properties_Title|Fillet}}
 
--    **Radius|QuantityConstraint**: The fillet radius. The default is {{value|1 mm}}.
-
--    **Use All Edges|Bool**: If `True` all edges of the feature are filleted, and the edges specified by **Base** are ignored. The default is `False`.
+### Dane
 
 
-{{Properties_Title|Part Design}}
+{{Properties_Title|Podstawowe}}
 
--    **Refine|Bool**: If `True` redundant edges are removed from the result of the operation. The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+-    **Baza|LinkSub**: Powiązanie z wybranymi krawędziami i ścianami elementu nadrzędnego. Może być linkiem tylko do elementu nadrzędnego, jeśli parametr **Użyj wszystkich krawędzi** ma wartość {{TRUE/pl}}.
 
-## Known issues 
+-    **Wsparcie przekształcenia|Bool**: Jeśli wartość jest ustawiona na {{TRUE/pl}} zostanie użyty zaokrąglony kształt addytywnego / subtraktywnego elementu nadrzędnego, gdy obiekt zaokrąglenia zostanie włączony do [szyku](PartDesign_Workbench/pl#Narzędzia_do_przekształcania.md), w przeciwnym razie zostanie użyty tylko kształt samego zaokrąglenia. Domyślną wartością jest {{FALSE/pl}}.
 
-Fillets, chamfers, and other features that operate on solid bodies depend on the underlying [OpenCASCADE](OpenCASCADE.md) Technology (OCCT) kernel that FreeCAD uses. The OCCT kernel occasionally has difficulty handling coincident sharp edges, where two faces meet. If this is the case FreeCAD may crash without an explanation.
+-    **Dodaj kształt podrzędny|PartShape|ukryty**.
 
-If run from the terminal, FreeCAD may output a log like this after a crash:
+-    **Cecha podstawowa|Link|ukryty**: Odnośnik do elementu nadrzędnego.
+
+-    **_ Body|LinkHidden|ukryty**: Link do elementu nadrzędnego.
+
+
+{{Properties_Title|Zaokrąglenie}}
+
+-    **Promień|QuantityConstraint**: Promień zaokrąglenia. Domyślnie {{value|1 mm}}.
+
+-    **Użyj wszystkich krawędzi|Bool**: Jeśli wartość to {{TRUE/pl}} wszystkie krawędzie elementu są zaokrąglane, a krawędzie określone przez **Bazę** są ignorowane. Domyślną wartością jest {{FALSE/pl}}.
+
+
+{{Properties_Title|Projekt Części}}
+
+-    **Ulepsz|Bool**: Jeśli ma wartość {{TRUE/pl}}, nadmiarowe krawędzie są usuwane z wyniku operacji. Wartość domyślna jest określona przez preferencję **Automatycznie udoskonal model po wykonaniu operacji opartej na szkicu**. Zobacz stronę [Projekt Części: Ustawienia](PartDesign_Preferences/pl#Ogólne.md).
+
+
+
+## Znane problemy 
+
+Zaokrąglenia, fazowania i inne funkcje działające na bryłach zależą od jądra Technologii [OpenCASCADE](OpenCASCADE/pl.md) *(OCCT)*, z której korzysta FreeCAD. Jądro OCCT czasami ma trudności z obsługą zbieżnych ostrych krawędzi, gdzie spotykają się dwie ściany. W takim przypadku FreeCAD może ulec awarii bez wyjaśnienia.
+
+W przypadku uruchomienia z terminala, FreeCAD może wyświetlić taki dziennik po awarii:
 
 
 {{code|lang=text|code=
@@ -108,18 +126,20 @@ If run from the terminal, FreeCAD may output a log like this after a crash:
 ...
 }}
 
-This output references functions from OCCT libraries. If this type of crash occurs, the problem may need to be reported and solved in OCCT rather than in FreeCAD.
+Dane wyjściowe odwołują się do funkcji z bibliotek OCCT. Jeśli wystąpi tego typu awaria, problem może wymagać zgłoszenia i rozwiązania w OCCT, a nie w FreeCAD.
 
-See the forum threads for more information:
+Więcej informacji można znaleźć w wątkach na forum:
 
--   [Bug Chamfer bigger than 2mm crashes freecad](https://forum.freecadweb.org/viewtopic.php?p=263818#p263818)
--   [Segfault when using part design fillet](https://forum.freecadweb.org/viewtopic.php?p=264827#p264827)
+-   [Błąd Fazowanie większe niż 2 mm rozbija FreeCAD](https://forum.freecadweb.org/viewtopic.php?p=263818#p263818)
+-   [Błąd podczas korzystania z zaokrąglenia środowiska Projekt Części](https://forum.freecadweb.org/viewtopic.php?p=264827#p264827).
+
+
 
 ### Nazewnictwo topologiczne 
 
-Edge numbers are not completely stable, therefore it is advisable that you finish the main design work of your solid body before applying features like fillets and chamfers, otherwise edges could change names and filleted edges would likely become invalid. When the **Use All Edges** property (<small>(v0.20)</small> ) is `True` there is some protection from this. Because in such cases all the edges of the base object are used and there is no dependence on individual edge names.
+Numery krawędzi nie są całkowicie stabilne, dlatego zaleca się zakończenie głównych prac projektowych bryły przed zastosowaniem funkcji takich jak zaokrąglenia i fazowania, w przeciwnym razie krawędzie mogą zmienić nazwy, a zaokrąglone krawędzie prawdopodobnie staną się nieprawidłowe. Gdy właściwość **Użyj wszystkich krawędzi** ({{Version/pl|0.20}}) ma wartość {{TRUE/pl}}, istnieje pewna ochrona przed taką sytuacją. Ponieważ w takich przypadkach używane są wszystkie krawędzie obiektu bazowego i nie ma zależności od indywidualnych nazw krawędzi.
 
-Read more in [topological naming problem](Topological_naming_problem.md).
+Przeczytaj więcej na stronie [problem nazewnictwa topologicznego](Topological_naming_problem/pl.md).
 
 
 

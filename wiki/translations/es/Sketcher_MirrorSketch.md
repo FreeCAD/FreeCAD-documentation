@@ -9,9 +9,13 @@
 
 # Sketcher MirrorSketch/es
 
+
+
 ## Descripción
 
 Simetría de un croquis a lo largo del eje x, el eje y o el origen. Este comando se invoca mientras \"no\" se edita un croquis. Crea un nuevo croquis que contiene la geometría simétrica.
+
+
 
 ## Utilización
 

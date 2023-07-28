@@ -72,7 +72,7 @@ Dobry przykład korzystania z tego narzędzia można odnaleźć na forum:[Re: Po
 
 Uwagi:
 
--   Dla tego kształtu, rozważ użycie narzędzia **<img src="images/Part_Tube.svg" width=16px> [Rura](Part_Tube/pl.md)** {{Version/pl|0.19}}.
+-   Dla tego kształtu, rozważ użycie narzędzia **<img src="images/Part_Tube.svg" width=16px> [Rura](Part_Tube/pl.md)**.
 -   Wybierz tylko górną powierzchnię cylindra, aby utworzyć zbiornik.
 
 ![](images/ThicknessEsempio1.png )

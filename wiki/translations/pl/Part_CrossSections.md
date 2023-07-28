@@ -1,41 +1,50 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Part CrossSections
-   MenuLocation:Part → Cross-sections...
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part Section](Part_Section.md)
+   Name/pl:Część: Przekrój poprzeczny
+   MenuLocation:Część → Przekrój poprzeczny ...
+   Workbenches:[Część](Part_Workbench/pl.md)
+   SeeAlso:[Przekrój](Part_Section/pl.md)
 ---
 
 # Part CrossSections/pl
 
-## Description
 
-The **Cross-sections** utility creates one or more cross-sections through the selected shape, parallel to one of the default global planes (XY, XZ or YZ).
 
-## Usage
+## Opis
 
-1.  Select a shape.
-2.  Press the **[24px|link=Part_CrossSections](File:Part_CrossSections.svg.md) '''Cross-sections'''** button.
-3.  Define the guiding plane.
-4.  Define the position (height of the cross-section).
-5.  Optionally, check **Sections** to create more than one cross-section:
-    -   Checking *On both sides* will distribute the cross-sections on each side of the guiding plane location.
-    -   Set the count.
-6.  Press **OK**.
+Narzędzie **Przekrój poprzeczny** tworzy jeden lub więcej przekrojów przez wybrany kształt, równolegle do jednej z domyślnych płaszczyzn globalnych *(XY, XZ lub YZ)*.
 
-## Notes
 
--   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as source objects. <small>(v0.20)</small> 
--   The resulting object is not parametric, that is it is not linked to the original shape.
--   A single object is created, even with more than one cross-section.
 
-## Example
+## Użycie
 
-![Select an object](images/SectionCross1.png )
+1.  Wybierz kształt.
+2.  Naciśnij przycisk **[24px|link=Part_CrossSections](File:Part_CrossSections.svg.md) '''Przekrój'''**.
+3.  Zdefiniuj płaszczyznę prowadzącą.
+4.  Zdefiniuj położenie *(wysokość przekroju)*.
+5.  Opcjonalnie zaznacz opcję **Przekroje**, aby utworzyć więcej niż jeden przekrój:
+    -   Zaznaczenie opcji **Po obu stronach** spowoduje rozmieszczenie przekrojów po każdej stronie położenia płaszczyzny prowadzącej.
+    -   Ustaw liczbę.
+6.  Naciśnij **OK**.
 
-![Dialog window](images/SectionCross2.png )
 
-![Result](images/SectionCross3.png )
+
+## Uwagi
+
+-   Obiekty [App: Łącze](App_Link/pl.md) powiązane z odpowiednimi typami obiektów i kontenery [App: Część](App_Part/pl.md) z odpowiednimi widocznymi obiektami wewnątrz mogą być również używane jako obiekty źródłowe. {{Version/pl|0.20}}
+-   Obiekt wynikowy nie jest parametryczny, tzn. nie jest powiązany z oryginalnym kształtem.
+-   Tworzony jest pojedynczy obiekt, nawet z więcej niż jednym przekrojem.
+
+
+
+## Przykład
+
+![Zaznacz obiekt](images/SectionCross1.png )
+
+![Okienko dialogowe](images/SectionCross2.png )
+
+![Rezultat](images/SectionCross3.png )
 
 
 

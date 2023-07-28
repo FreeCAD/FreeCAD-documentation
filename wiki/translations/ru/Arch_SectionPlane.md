@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Описание
 
 Этот инструмент помещает в текущий документ \"что-то\" секущей плоскости, которое определяет сечение или план. \"Что-то\" получает своё положение в соответствии с текущей [рабочей плоскостью](Draft_SelectPlane/ru.md), и может быть перемещён и переориентирован через её перемещение и вращение, пока не получится требуемый двумерный вид. Секущая плоскость учитывает только определённый набор объектов. Выделенные в момент создания секущей плоскости добавляются в этот набор автоматически. Другие объекты могут быть позднее добавлены или удалены из объекта SectionPlane инструментами [Arch Add component](Arch_Add/ru.md) или [Arch Remove component](Arch_Remove/ru.md), или двойным кликом секущей плоскости в древе проекта.
@@ -26,6 +28,8 @@
 </div>
 
 <img alt="" src=images/Arch_SectionPlane_example.jpg  style="width:600px;">
+
+
 
 ## Применение
 
@@ -42,6 +46,8 @@
 
 
 </div>
+
+
 
 ## Опции
 
@@ -71,7 +77,12 @@
 
 <img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width:600px;">
 
+
+
 ## Свойства
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Only Solids**: Если это `True`, объекты не твердых тел не будут учитываться в наборе.
 
@@ -85,6 +96,9 @@
 
 -    **Clip view**: Если это `True`, он будет обрезать вид до отображаемой высоты и длины плоскости сечения. Это эффективно превращает плоскость сечения в ортогональную камеру, ограничивая поле зрения. <small>(v0.19)</small> 
 
+
+</div>
+
 <img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width:600px;">
 
 
@@ -93,7 +107,12 @@
 
 ## Tweaks
 
--   Adding manually a property named **RotateSolidRender** of type **App::PropertyAngle** to the section plane\'s **View** properties (right-click the properties view -\> show all, right-click again -\> add property) allows to rotate the render when using Solid mode. This is useful when a rendered view has for example both Arch and Draft elements, and the rendering of the Arch elements is rotated in relation to the Draft elements. <small>(v0.19)</small> 
+-   Adding manually a property named **RotateSolidRender** of type **App::PropertyAngle** to the section plane\'s **View** properties (right-click the properties view -\> show all, right-click again -\> add property) allows to rotate the render when using Solid mode. This is useful when a rendered view has for example both Arch and Draft elements, and the rendering of the Arch elements is rotated in relation to the Draft elements.
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Программирование
 
@@ -102,7 +121,16 @@
 
 [Arch API](Arch_API/ru.md) и [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Инструмент SectionPlane может использоваться в [макросах](macros/ru.md) и в консоли [Python](Python.md) с использованием следующих функций:
+
+
+</div>
 
 
 ```python

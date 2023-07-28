@@ -5,33 +5,41 @@
 ## Introduction
 
 
-**Lattice2 est stable. De nouvelles fonctionnalités peuvent être ajoutées mais aucun changement de rupture n'est censé se produire.**
+**Lattice2 est stable. De nouvelles fonctionnalités peuvent être ajoutées, mais aucun changement radical n'est censé se produire.**
 
 
 {{TOCright}}
 
 L\'atelier Lattice2 est un [Atelier externe](External_workbenches/fr.md) de FreeCAD qui sert à travailler avec des emplacements et des réseaux d\'emplacements. Il s\'agit d\'une sorte d\'atelier d\'assemblage mais en mettant l\'accent sur les zones. Il n\'y a pas de contraintes et de relations, il n\'y a que des réseaux d\'emplacements qui peuvent être générés, combinés, transformés, superposés et peuplés de formes.
 
-Vous êtes-vous déjà demandé comment créer un assemblage avec FreeCAD? C\'est le but de l\'atelier (y compris l\'étiquetage des objets). De plus, des assemblages éclatés peuvent être réalisés avec l\'établi.
+Vous êtes-vous déjà demandé comment créer un rapporteur avec FreeCAD ? C\'est l\'objectif de l\'atelier (y compris l\'étiquetage). L\'atelier permet également de réaliser des assemblages éclatés.
 
 En outre, l\'atelier dispose de quelques outils à usage général, tels que le déclassement paramétrique, les boîtes englobantes, l\'outil d\'information sur les formes et les outils permettant de travailler avec des collections de formes (composés).
 
 L\'un des grands objectifs de conception de l\'atelier est d\'être aussi paramétrique que possible.
 
+
+
 ## Références
 
--   Auteur: DeepSOIC
+-   Auteur : DeepSOIC
 -   Page d\'accueil : <https://github.com/DeepSOIC/Lattice2>
 -   Code source sur github : <https://github.com/DeepSOIC/Lattice2>
+
+
 
 ## Outils
 
 Description détaillée sur le [Lattice2 wiki Github](https://github.com/DeepSOIC/Lattice2/wiki)
 
+
+
 ### Barre d\'outils 
 
 ![](images/Lattice2-menu-orizz.png ) 
-*Barre d'outils Lattice2*
+*Barre d'outils de Lattice2*
+
+
 
 ### Commandes
 
@@ -103,52 +111,62 @@ Description détaillée sur le [Lattice2 wiki Github](https://github.com/DeepSOI
 
 Autre
 
--   Recalcule
-    -   <img alt="" src=images/Lattice2_RecomputeMakeFeature.svg  style="width:32px;"> [Make recompute locher object](Lattice2_RecomputeMakeFeature.md):
-    -   <img alt="" src=images/Lattice2_RecomputeLock.svg  style="width:32px;"> [Lock recomputes](Lattice2_RecomputeLock.md):
-    -   <img alt="" src=images/Lattice2_RecomputeUnlock.svg  style="width:32px;"> [Unlock recomputes](Lattice2_RecomputeUnlock.md):
-    -   <img alt="" src=images/Lattice2_RecomputeFeature.svg  style="width:32px;"> [Recompute feature](Lattice2_RecomputeFeature.md):
-    -   <img alt="" src=images/Lattice2_RecomputeDocument.svg  style="width:32px;"> [Recompute document](Lattice2_RecomputeDocument.md):
-    -   <img alt="" src=images/Lattice2_RecomputeForce.svg  style="width:32px;"> [Force recompute](Lattice2_RecomputeForce.md):
-    -   <img alt="" src=images/Lattice2_RecomputeTouch.svg  style="width:32px;"> [Touch selected feature](Lattice2_RecomputeTouch.md):
--   <img alt="" src=images/Lattice2_Lattice2.svg  style="width:32px;"> Lattice2 Workbench icon
+-   Recalculer
+    -   <img alt="" src=images/Lattice2_RecomputeMakeFeature.svg  style="width:32px;"> [Make recompute locher object](Lattice2_RecomputeMakeFeature.md) :
+    -   <img alt="" src=images/Lattice2_RecomputeLock.svg  style="width:32px;"> [Lock recomputes](Lattice2_RecomputeLock.md) :
+    -   <img alt="" src=images/Lattice2_RecomputeUnlock.svg  style="width:32px;"> [Unlock recomputes](Lattice2_RecomputeUnlock.md) :
+    -   <img alt="" src=images/Lattice2_RecomputeFeature.svg  style="width:32px;"> [Recompute feature](Lattice2_RecomputeFeature.md) :
+    -   <img alt="" src=images/Lattice2_RecomputeDocument.svg  style="width:32px;"> [Recompute document](Lattice2_RecomputeDocument.md) :
+    -   <img alt="" src=images/Lattice2_RecomputeForce.svg  style="width:32px;"> [Force recompute](Lattice2_RecomputeForce.md) :
+    -   <img alt="" src=images/Lattice2_RecomputeTouch.svg  style="width:32px;"> [Touch selected feature](Lattice2_RecomputeTouch.md) :
+-   <img alt="" src=images/Lattice2_Lattice2.svg  style="width:32px;"> Icône de l\'atelier Lattice2
 
 ## Installation
 
-**Conditions préalables** L\'atelir Lattice2 nécessite FreeCAD\>= v0.16.5155.
+**Conditions préalables** : l\'atelier Lattice2 nécessite FreeCAD\>= v0.16.5155.
+
+
 
 ### Installation Automatique 
 
 Depuis v0.17, on peut utiliser le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Pour installer l\'<img alt="" src=images/Lattice2_Lattice2.svg  style="width:24px;"> atelier Lattice2, utilisez **Outils → Gestionnaire des extensions**.
 
+
+
 ### Installation manuelle 
 
--   Faites défiler vers le haut de la page et cliquez sur le bouton \'télécharger le zip\'
+-   Remontez en haut de la page et cliquez sur le bouton \"télécharger le zip\"
 -   Décompressez le contenu dans un dossier \"Lattice2\" créé dans \\Path\\to\\FreeCAD\\Mod et redémarrez FreeCAD.
 -   Notez que InitGui.py (et le reste des fichiers .py) doivent se retrouver directement sous Mod\\Lattice2 (pas sous un répertoire imbriqué comme Mod\\Lattice2\\Lattice2).
 
 Après avoir installé l\'atelier, il devrait apparaître en bas de la liste du sélecteur d\'atelier dans FreeCAD.
 
+
+
 ## Tutoriels
 
--   Tutoriels: [Gallery](https://github.com/DeepSOIC/Lattice2/wiki/Gallery)
+-   Tutoriels : [Gallery](https://github.com/DeepSOIC/Lattice2/wiki/Gallery)
 -   [Tutoriel de base](https://github.com/DeepSOIC/Lattice2/wiki/Basic-Tutorial)
 -   [Lattice2 dans PartDesign](https://github.com/DeepSOIC/Lattice2/wiki/PartDesign-Pattern-Tutorial)
 -   [Faire un pédalier](https://github.com/DeepSOIC/Lattice2/wiki/Cogset-Tutorial)
 -   [Modèles de fonctions dans l\'atelier Lattice2](https://www.youtube.com/watch?v=BXmeEGnhszo) par \@sliptonic
 
-## Liens vers Lattice2 WB 
 
--   Wiki Lattice2: <https://github.com/DeepSOIC/Lattice2/wiki>
--   Wiki FreeCAD: <https://www.freecadweb.org/wiki/Lattice2_Workbench>
--   Forum FreeCAD: [Lattice workbench - la v2.0 devient stable](http://forum.freecadweb.org/viewtopic.php?t=12464)
--   Galerie: <https://github.com/DeepSOIC/Lattice2/wiki/Gallery>
--   Signaler les bogues: veuillez signaler les bogues sur <https://github.com/DeepSOIC/Lattice2/issues>
+
+## Liens vers l\'atelier Lattice2 
+
+-   Wiki Lattice2 : <https://github.com/DeepSOIC/Lattice2/wiki>
+-   Wiki FreeCAD : <https://www.freecadweb.org/wiki/Lattice2_Workbench>
+-   Forum FreeCAD : [Lattice workbench - la v2.0 devient stable](http://forum.freecadweb.org/viewtopic.php?t=12464)
+-   Galerie : <https://github.com/DeepSOIC/Lattice2/wiki/Gallery>
+-   Signaler les bogues : merci de signaler les bogues sur <https://github.com/DeepSOIC/Lattice2/issues>
+
+
 
 ## Autres liens intéressants 
 
 -   [Atelier Lattice1 (obsolète)](https://github.com/DeepSOIC/Lattice)
--   [Ateliers externes](External_workbenches/fr.md): Listes des ateliers de FreeCAD.
+-   [Ateliers externes](External_workbenches/fr.md) : listes des ateliers de FreeCAD.
 -   [Macros](Macros_recipes/fr.md)
 -   [FreeCAD Portail communautaire](FreeCAD_Community_Portal/fr.md)
 

@@ -1,6 +1,6 @@
 # Part Cut/sv
 ---
-- GuiCommand:/sv   Name:Part_Cut   Name/sv:Part Cut   MenuLocation:Part → Cut   Workbenches:[Komplett](Part_Workbench/sv___Del]],[[Complete_Workbench/sv.md)|SeeAlso:[Union](Part_Union/sv.md), [Common](Part_Common/sv.md)---
+- GuiCommand:/sv   Name:Part_Cut   Name/sv:Part Cut   MenuLocation:Part → Cut   Workbenches:[SeeAlso:[[Part Union/sv|Union](Part_Workbench/sv___Del]].md), [Common](Part_Common/sv.md)---
 
 
 </div>

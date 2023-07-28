@@ -1,31 +1,24 @@
 ---
 - GuiCommand:/de
    Name:PartDesign InvoluteGear
-   Name/de:PartDesign Evolventenzahnrad
-   MenuLocation:Part Design → Evolventenzahnrad...
+   Name/de:PartDesign Evolventenrad
+   Icon:PartDesign_InternalExternalGear.svg
+   MenuLocation:Part Design → Evolventenrad...
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso:[Arbeitsbereich FCGear](FCGear_Workbench/de.md)
 ---
 
 # PartDesign InvoluteGear/de
 
 
-</div>
-
-
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug erlaubt es ein 2D-Profil eines Evolventenzahnrades zu erstellen. Dieses 2D-Profil ist vollständig parametrisch und kann mit den Formelementen [PartDesign Aufpolsterung](PartDesign_Pad/de.md) oder [PartDesign Wendel](PartDesign_AdditiveHelix/de.md) extrudiert werden.
-
-
-</div>
+Dieses Werkzeug erlaubt es ein 2D-Profil eines Evolventenrades oder einer Evolventenverzahnung zu erstellen. Dieses 2D-Profil ist vollständig parametrisch und kann mit den Formelementen [PartDesign Aufpolsterung](PartDesign_Pad/de.md) oder [PartDesign Wendel](PartDesign_AdditiveHelix/de.md) extrudiert werden.
 
 Für detailliertere Informationen siehe Wikipedia: [Gear](https://en.wikipedia.org/wiki/Gear) und [Involute Gear](https://en.wikipedia.org/wiki/Involute_gear) (engl.).
 
-![](images/PartDesign_Involute_Gear_01.png )
+<img alt="" src=images/PartDesign_Involute_Gear_01.png  style="width:200px;">
 
 
 
@@ -63,9 +56,6 @@ Für detailliertere Informationen siehe Wikipedia: [Gear](https://en.wikipedia.o
 
 ### Ein schrägverzahntes Stirnrad erstellen 
 
-
-{{Version/de|0.19}}
-
 1.  Select the gear profile in the [Tree view](Tree_view.md).
 2.  Press the **<img src="images/PartDesign_AdditiveHelix.svg" width=16px> [PartDesign AdditiveHelix](PartDesign_AdditiveHelix.md)** button.
 3.  Choose as Axis the normal of the gear profile, that is **Normal sketch axis** <small>(v0.20)</small> . (In earlier versions the **Base Z axis** can be used as long as the profile\'s plane has not been altered.)
@@ -94,7 +84,7 @@ Hint: To make the helical angle an accessible parameter, use a *dynamic property
 ### Cut a hub for an involute splined shaft 
 
 
-<small>(v1.0)</small> 
+<small>(v0.21)</small> 
 
 1.  Activate the correct body.
 2.  Create an internal involute gear profile with the required number of grooves and adapt the values of pressure angle, addendum-, dedendum- and root fillet coefficient. See also the table in [Notes](#Notes.md) below for feasible values. For example:
@@ -137,6 +127,10 @@ Hint: To make the helical angle an accessible parameter, use a *dynamic property
 
 ## Eigenschaften
 
+-    **Addendum Coefficient**: The height of the tooth from the pitch circle up to its tip, normalized by the module. Default is 1.0 for the standard full-depth system. <small>(v0.21)</small> 
+
+-    **Dedendum Coefficient**: The height of the tooth from the pitch circle down to its root, normalized by the module. Default is 1.25 for the standard full-depth system. <small>(v0.21)</small> 
+
 -    {{PropertyData/de|External Gear}}(Stirnrad): Wahr oder Falsch
 
 -    {{PropertyData/de|High Precision}}(Hohe Präzision): Wahr oder Falsch
@@ -145,23 +139,17 @@ Hint: To make the helical angle an accessible parameter, use a *dynamic property
 
 -    {{PropertyData/de|Number Of Teeth}}: Legt die Anzahl der Zähne fest.
 
+-    {{PropertyData/de|Pressure Angle}}(Eingriffswinkel): Winkel zwischen der Wirkungslinie und einer Normalen zu der Linie, die die Zahnradmitten verbindet. Standard ist 20°. Siehe ([Evolventenverzahnung](https://de.wikipedia.org/wiki/Evolventenverzahnung))
 
-<div class="mw-translate-fuzzy">
+-    **Profile Shift Coefficient**: The distance by which the reference profile is shifted outwards, normalized by the module. Default is zero. Profile shift may be positive or negative. <small>(v0.21)</small> 
 
--    {{PropertyData/de|Pressure Angle}}(Eingriffswinkel): Winkel zwischen der Wirkungslinie und einer Normalen zu der Linie, die die Zahnradmitten verbindet. Standard ist 20 Grad. ([Weitere Informationen](https://de.wikipedia.org/wiki/Evolventenverzahnung))
-
-
-</div>
-
--    **Addendum Coefficient**: The height of the tooth from the pitch circle up to its tip, normalized by the module. Default is 1.0 for the standard full-depth system. <small>(v1.0)</small> 
-
--    **Dedendum Coefficient**: The height of the tooth from the pitch circle down to its root, normalized by the module. Default is 1.25 for the standard full-depth system. <small>(v1.0)</small> 
-
--    **Root Fillet Coefficient**: The radius of the fillet at the root of the tooth, normalized by the module. Default is 0.38 as defined by the ISO rack. <small>(v1.0)</small> 
+-    **Root Fillet Coefficient**: The radius of the fillet at the root of the tooth, normalized by the module. Default is 0.38 as defined by the ISO rack. <small>(v0.21)</small> 
 
 ## Notes
 
--   In order for two gears to mesh they need to share the same module and pressure angle. [Expressions](Expressions.md) may help to ensure consistency. Their center distance needs to be `(NumberOfTeeth + OtherGear.NumberOfTeeth) * Modules / 2` (subtract the number of teeth in case of an internal gear).
+-   In order for two gears to mesh they need to share the same module and pressure angle. [Expressions](Expressions.md) may help to ensure consistency. Their center distance needs to be `(NumberOfTeeth + OtherGear.NumberOfTeeth) * Modules / 2` (that is in case of the sum profile shift being zero). Subtract the number of teeth in case of an internal gear.
+
+-   Profile shifting can be used to prevent undercut on gears with a small number of teeth. Another application is to adjust the center distance of two gears with a given number of teeth and module.
 
 -   When visually checking for proper meshing or interferences a much lower value for **Deviation** is helpful, e.g. 0.05 instead of the default 0.5. Otherwise the representation in the [3D view](3D_view.md) may be too coarse.
 

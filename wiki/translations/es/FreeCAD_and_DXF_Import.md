@@ -1,9 +1,13 @@
 # FreeCAD and DXF Import/es
 {{TOCright}}
 
+
+
 ## Fondo
 
 DXF es un formato de datos CAD propietario para dibujos 2D que se originó con AutoCAD. Se pueden encontrar más detalles en la página wiki [DXF](DXF/es.md).
+
+
 
 ## Introducción
 
@@ -11,13 +15,19 @@ Desde la versión 0.18 de FreeCAD hay un nuevo importador DXF en C++, y desde la
 
 Para utilizar el importador y exportador DXF más antiguo, heredado, es necesario instalar varios archivos. Estos archivos no se pueden incluir con FreeCAD ya que utilizan bibliotecas publicadas bajo una licencia que no es compatible con FreeCAD.
 
+
+
 ## Cómo instalar el importador y exportador DXF heredado 
+
+
 
 ### Automáticamente
 
 Si los archivos no están ya instalados, ve al menú **Edición → Preferencias → Importar-Exportar → DXF** y activa la opción **Permitir a FreeCAD descargar y actualizar automáticamente las bibliotecas DXF** para que FreeCAD las descargue e instale automáticamente.
 
 Para FreeCAD 0.14 o anterior hay que instalarlo manualmente:
+
+
 
 ### Manualmente
 
@@ -35,6 +45,8 @@ C:\Users\your_user_name\AppData\Roaming\FreeCAD
 
 Ver también: [Instalación del Importador Dxf](Dxf_Importer_Install/es.md)
 
+
+
 ## Consejos y trucos 
 
 A veces los archivos DXF no se importan aunque se abren en otros programas CAD sin problemas.
@@ -42,8 +54,7 @@ A veces los archivos DXF no se importan aunque se abren en otros programas CAD s
 You can try:
 
 1.  Go to **Edit → Preferences → Import-Export → DXF** and untick the option **Join geometry** and try again.
-2.  Remember that maybe now you won\'t have coincident endpoints. You will have to make them coincident yourself.
-3.  You can do this with the [Sketcher CloseShape](Sketcher_CloseShape.md) command <small>(v0.15)</small>  or you can apply the constraints manually.
+2.  Remember that maybe now you won\'t have coincident endpoints. You can make them coincident with [Sketcher ValidateSketch](Sketcher_ValidateSketch.md)
 
 You can also try:
 

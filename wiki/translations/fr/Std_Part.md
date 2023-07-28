@@ -63,7 +63,7 @@ Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](Property
 
 {{TitleProperty|Base}}
 
--    **Type|String**: a description for this object. Par défaut, il s\'agit d\'une chaîne vide {{value|""}}.
+-    **Type|String**: une description pour cet objet. Par défaut, il s\'agit d\'une chaîne vide {{value|""}}.
 
 -    **Material|Link**: le matériau de cet objet.
 

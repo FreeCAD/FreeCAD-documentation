@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Lo strumento [Armatura di pilastro](Arch_Rebar_ColumnReinforcement/it.md) consente all\'utente di creare delle barre di rinforzo all\'interno di un oggetto [Struttura](Arch_Structure/it.md) Pilastro.
@@ -29,6 +31,8 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 <img alt="" src=images/Arch_Rebar_ColumnReinforcement_example.png  style="width:400px;"> 
 *Armatura di pilastro all'interno di un [Struttura](Arch_Structure/it.md) pilastro*
+
+
 
 ## Utilizzo
 
@@ -57,6 +61,7 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 11\. Selezionare il tipo di armatura desiderata e compilare i dati per le armature in direzione y.
 12. Cliccare su **OK** o su **Applica** per generare il rinforzo del pilastro.
 13. Cliccare su **Cancella** per uscire dalla finestra di dialogo.
+
 
 ## Proprietà
 
@@ -132,6 +137,8 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 -    **Number#Diameter**: Numero#Diametro del gruppo di armature in direzione y.
 
+
+
 ## Script
 
 
@@ -139,7 +146,15 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 [API Arch](Arch_API/it.md), [API Reinforcement](Reinforcement_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Armatura di pilastro può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
+</div>
+
+
 
 ### Creare una singola staffa e quattro barre 
 
@@ -198,6 +213,8 @@ RebarGroup = makeSingleTieFourRebars(
 -    `l_rebar_rounding`is the parameter that determines the bending radius of the LShaped main rebars, expressed as times the diameter.
 
 -    `hook_extension`is the length of hook of LShaped rebars.
+
+
 
 #### Esempio
 
@@ -291,6 +308,8 @@ RebarGroup = SingleTie.makeSingleTieFourRebars(
 
 ```
 
+
+
 ### Creare una singola staffa e multiple barre 
 
 
@@ -367,6 +386,8 @@ RebarGroup = makeSingleTieMultipleRebars(
 -    `l_sec_rebar_rounding`is a tuple (l_xdir_rebar_rounding, l_ydir_rebar_rounding) that determines the bending radius of the LShaped secondary x-direction and y-direction LShaped rebars, expressed as times the diameter of x-direction and y-direction LShaped rebars, respectively.
 
 -    `sec_hook_extension`is a tuple (xdir_hook_extension, ydir_hook_extension) that defines the length of hook of secondary x-direction and y-direction LShaped rebars.
+
+
 
 #### Esempio 
 
@@ -453,6 +474,8 @@ rebar_group = editSingleTieFourRebars(
 
 -    `structure`e `facename` possono essere omesse in modo che l\'armatura rimanga nella struttura originale..
 
+
+
 #### Esempio 
 
 
@@ -529,6 +552,8 @@ rebar_group = editSingleTieMultipleRebars(
 -   Gli altri parametri sono gli stessi richiesti dalla funzione `makeSingleTieMultipleRebars()`.
 
 -    `structure`e `facename` possono essere omesse in modo che l\'armatura rimanga nella struttura originale.
+
+
 
 #### Esempio 
 

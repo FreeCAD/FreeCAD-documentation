@@ -12,9 +12,13 @@
 
 </div>
 
+
+
 ## Descripción
 
 Los espejos esbozan la geometría en referencia a una línea elegida o a un eje de esbozo.
+
+
 
 ## Utilización
 

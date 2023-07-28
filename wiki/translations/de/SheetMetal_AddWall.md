@@ -9,6 +9,8 @@
 
 # SheetMetal AddWall/de
 
+
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/SheetMetal_AddWall.svg  style="width:24px;"> [Kante ansetzen](SheetMetal_AddWall/de.md) erzeugt Kanten (Falze) an den ausgewählten Flächenrändern einer Grundplatte. Durch das Ändern der {{PropertyData/de|angle}} kann aus einer Kante ein Falz werden.
@@ -23,6 +25,8 @@ Trägt man in einem zweiten Schritt die für die {{PropertyData/de|angle}} ungef
 <img alt="" src=images/SheetMetal_AddWall-14.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddWall-15.png  style="width:200px;"> 
 *Zwei gewählte Kanten (edges) → zwei Falze (hems)*
 
+
+
 ## Anwendung
 
 1.  Eine oder mehrere Randflächen einer Grundplatte auswählen.
@@ -30,6 +34,8 @@ Trägt man in einem zweiten Schritt die für die {{PropertyData/de|angle}} ungef
     -   Die Schaltfläche **<img src="images/SheetMetal_AddWall.svg" width=16px> [Kante ansetzen](SheetMetal_AddWall/de.md)**.
     -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_AddWall.svg" width=16px> Kante ansetzen**.
     -   Das Tastenkürzel: **W**.
+
+
 
 ## Hinweise
 
@@ -56,11 +62,15 @@ Eine Platine mit dem Arbeitsbereich [PartDesign](PartDesign_Workbench.md) erstel
 
 Wenn mit <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Körper erstellen](PartDesign_Body/de.md) gestartet wird, können SheetMetal-Werkzeuge mit PartDesign-Werkzeugen wie z.B. <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [Tasche](PartDesign_Pocket/de.md) oder <img alt="" src=images/PartDesign_Hole.svg  style="width:16px;"> [Bohrung](PartDesign_Hole/de.md) kombiniert werden.
 
+
+
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein SheetMetal-Bend-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften und sein Label hat eine Standardwert:
+
+
 
 ### Daten
 
@@ -78,7 +88,7 @@ Ein SheetMetal-Bend-Objekt wird von einem [Part-Formelement](Part_Feature/de.md)
 
 -    {{PropertyData/de|Bend Type|Enumeration}}: \"Bend Type\". {{value|Material Outside}} (standard), {{value|Material Inside}}, {{value|Thickness Outside}}, {{value|Offset}}.
 
--    {{PropertyData/de|Length Spec|Enumeration}}: \"Type of Length Specification\". Art der Längenbestimmung. {{value|Leg}} (standard), {{value|Outer Sharp}}, {{value|Inner Sharp}}, {{value|Tangential}}. {{Version/de|1.0}}
+-    {{PropertyData/de|Length Spec|Enumeration}}: \"Type of Length Specification\". Art der Längenbestimmung. {{value|Leg}} (standard), {{value|Outer Sharp}}, {{value|Inner Sharp}}, {{value|Tangential}}. {{Version/de|0.21}}
 
 -    {{PropertyData/de|angle|Angle}}: \"Bend Angle\". Biegewinkel. Standardwinkel {{value|90,00°}}.
 
@@ -148,6 +158,8 @@ Ein SheetMetal-Bend-Objekt wird von einem [Part-Formelement](Part_Feature/de.md)
 
 -    {{PropertyData/de|reliefw|Length}}: \"Relief Width\". Standardwert: {{value|0,80 mm}}. Enabled only when a gap value is set.
 
+
+
 ## Beispiel
 
 <img alt="" src=images/SheetMetal_AddWall-01.png  style="width:300px;"> 
@@ -159,12 +171,16 @@ Ein SheetMetal-Bend-Objekt wird von einem [Part-Formelement](Part_Feature/de.md)
 
 <div class="mw-collapsible-content">
 
+
+
 ### Vorbereitung
 
 Diese Schale besteht aus einer rechteckigen Platine mit an ihren Umrisskanten (-Linien) angefügten Kanten. Also muss eine Skizze für die Platine vorbereitet werden.
 
 <img alt="" src=images/SheetMetal_AddWall-02.png  style="width:200px;"> 
 *Nur eine rechteckige Kontur*
+
+
 
 ### Arbeitsablauf
 

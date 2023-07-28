@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 El <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> comando **Borrador BSpline** crea una [curva B-spline](https://es.wikipedia.org/wiki/B-spline) a partir de varios puntos.
@@ -22,6 +24,8 @@ El comando Borrador BSpline especifica los **puntos exactos** por los que pasar�
 
 <img alt="" src=images/Draft_bspline_example.jpg  style="width:400px;"> 
 *Spline definida por múltiples puntos*
+
+
 
 ## Utilización
 
@@ -35,6 +39,8 @@ Ver también: [Bandeja Borrador](Draft_Tray/es.md), [Borrador Atrapar](Draft_Sna
 3.  Elige el primer punto en la [Vista 3D](3D_view/es.md), o escribe las coordenadas y pulsa el **<img src="images/Draft_AddPoint.svg" width=16px> Introducir punto** botón.
 4.  Elige puntos adicionales en la [Vista 3D](3D_view/es.md), o escribe las coordenadas y pulsa el botón **<img src="images/Draft_AddPoint.svg" width=16px> Introducir punto** botón.
 5.  Pulse **Esc** o el botón **Cerrar** para finalizar el comando.
+
+
 
 ## Opciones
 
@@ -59,10 +65,14 @@ Los atajos de teclado de un solo carácter disponibles en el panel de tareas se 
 
 </div>
 
+
+
 ## Notas
 
 -   Un Borrador BSpline puede ser editado con el comando [Borrador Edición](Draft_Edit/es.md).
 -   Un Borrador BSpline puede convertirse en un [Borrador Hilo](Draft_Wire/es.md) con el comando [Borrador HiloABSpline](Draft_WireToBSpline/es.md).
+
+
 
 ## Preferencias
 
@@ -70,6 +80,8 @@ Ver también: [Editor de preferencias](Preferences_Editor/es.md) y [Borrador Pre
 
 -   Para cambiar el número de decimales utilizados para la entrada de coordenadas: **Edición → Preferencias... → General → Unidades → Configuración de unidades → Número de decimales**.
 -   Para cambiar el valor inicial del modo relleno: **Edición → Preferencias... → Borrador → Ajustes generales → Borrador Opciones de las herramientas → Rellenar objetos con caras siempre que sea posible**. Cambiar el modo de relleno en un panel de tareas anulará esta preferencia para la sesión actual de FreeCAD.
+
+
 
 ## Propiedades
 
@@ -82,6 +94,8 @@ Ver también: [Editor de propiedades](property_editor/es.md).
 </div>
 
 Un objeto Borrador BSpline deriva de un [Pieza2DObjeto](Part_Part2DObject/es.md) y hereda todas sus propiedades. También tiene las siguientes propiedades adicionales:
+
+
 
 ### Datos
 
@@ -98,6 +112,8 @@ Un objeto Borrador BSpline deriva de un [Pieza2DObjeto](Part_Part2DObject/es.md)
 
 -    **Points|VectorList**: specifies the points of the spline in its local coordinate system.
 
+
+
 ### Vista
 
 
@@ -112,6 +128,8 @@ Un objeto Borrador BSpline deriva de un [Pieza2DObjeto](Part_Part2DObject/es.md)
 -    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the closed spline. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
 
 -    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
+
+
 
 ## Guión
 

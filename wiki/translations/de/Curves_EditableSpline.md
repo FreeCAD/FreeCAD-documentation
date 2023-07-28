@@ -8,20 +8,29 @@
 
 # Curves EditableSpline/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug <img alt="" src=images/Curves_EditableSpline.svg  style="width:24px;"> [Curves EditierbarerSpline](Curves_EditableSpline.md) erstellt eine Freihand-B-Spline-Kurve. Dieses Werkzeug ist Teil des [Externen Arbeitsbereichs](external_workbenches/de.md) [Curves](Curves_Workbench/de.md).
 
+
+
 ## Anwendung
 
-1.  Zum Arbeitsbereich <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench/de.md) wechseln (muss mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) installiert werden, wenn noch nicht geschehen)
-2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+1.  Zum Arbeitsbereich <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench/de.md) wechseln (muss mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) installiert werden, wenn noch nicht geschehen).
+2.  Wahlweise Knotenpunkte, Kanten und/oder Flächen auswählen:
+    -   Die Anzahl der Knotenpunkte des Splines entspricht der Anzahl der ausgewählten Elemente.
+    -   Die Spline-Knoten rasten auf die ausgewählten Knotenpunkte und die Mittelpunkte der ausgewählten Kanten und Flächen ein.
+3.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche <img alt="" src=images/Curves_EditableSpline.svg  style="width:24px;"> in der Curves-Symbolleiste drücken.
     -   Den Menüeintrag **Curves → Freehand BSpline** auswählen.
 
+
+
 ## Optionen
 
-During the command a special edit mode is active and there are several actions and behaviors that can be controlled by keys and mouse clicks.
+Während der Ausführung des Befehls ist ein besonderer Bearbeitungsmodus aktiv und es gibt einige Aktionen und Verhaltensweisen, die mit Tasten und Mausklicks gesteuert werden können.
 
 -   To move a vertex or guide line (guide lines are the straight lines between vertexes) press and hold down the left mouse button on it, and move the mouse.
 -   The **A** key selects or deselects all vertexes and guide lines.
@@ -34,9 +43,15 @@ During the command a special edit mode is active and there are several actions a
 -   The **X**, **Y** or **Z** keys can be used to constrain the movement of the object being dragged. While dragging, hit the desired axis key. Hit the same key again to disable the constraint.
 -   The **Q** key finishes the command and exits edit mode.
 
-## Limitations
+
+
+## Einschränkungen
+
+
 
 ## Eigenschaften
+
+
 
 ## Skripten
 

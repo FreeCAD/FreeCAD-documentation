@@ -10,16 +10,24 @@
 
 # Raytracing WriteView/pl
 
+
+
 ## Opis
 
 Eksport aktualnych właściwości widoku do pliku Pov przeznaczonego do użytku w projekcie POV-Ray.
 
-## Jak używać 
+
+
+## Użycie
 
 1.  Upewnij się, że widok jest ustawiony na <img alt="" src=images/Raytracing_WriteView.svg  style="width:32px;">.
 2.  Wybierz z menu głównego **Raytracing** → ** Narzędzia** → **<img src="images/Raytrace_Export.svg" width=32px> Eksport widoku do POV-Ray ...**.
 
+
+
 ## Ograniczenia
+
+
 
 ## Uwagi
 

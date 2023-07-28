@@ -1,7 +1,10 @@
 # Drawing Workbench/hr
-**Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16, and the new [[TechDraw Workbench]] aiming to replace it was introduced in v0.17. Both workbenches are still provided in v0.17, but the Drawing Workbench may be removed in future releases.**
+**The '''Drawing Workbench''' is no longer included after version 0.20.<br>
+The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement.**
 
 <img alt="Drawing workbench icon" src=images/Workbench_Drawing.svg  style="width:128px;">
+
+
 
 ## Predstavljanje
 
@@ -11,6 +14,8 @@ The Drawing module allows you to put your 3D work on paper. That is, to put view
 {{TOCright}}
 
 <img alt="" src=images/Drawing_extraction.png  style="width:600px;">
+
+
 
 ## GUI Alati 
 
@@ -48,13 +53,13 @@ The document contains a 3D shape object (leg) from which we want to produce a dr
 
 In this page we can insert one or more views. Each view has a position on the page, a scale factor, and additional properties. Every time the page or the view or the referenced object changes, the page is regenerated and the page display updated.
 
-Skriptiranje
+ Skriptiranje
 
 At the moment the graphical user interface workflow is very limited, so the scripting API is more interesting.
 
 See the [Drawing API example](Drawing_API_example.md) page for a description of the functions used to create drawing pages and views.
 
-The macro [CartoucheFC](Macro_CartoucheFC.md) allows you to create a custom information box on an A3 landscape page.
+
 
 ## Predlošci
 
@@ -64,16 +69,48 @@ FreeCAD comes bundled with a set of default templates, but you can find more on 
 
 Some notes on the programming side of the drawing module will be added to the [Drawing Documentation](Drawing_Documentation.md) page. This is to help quickly understand how the drawing module works, enabling programmers to rapidly start programming for it.
 
+
+<div class="mw-translate-fuzzy">
+
 ## Vježbe
 
 -   [TehCrtanje](Drawing_tutorial/hr.md)
+
+
+</div>
+
+## Macros
+
+-    <img style="width:16px;" src="images/Macro_Automatic_drawing.png"> [Macro Automatic drawing](Macro_Automatic_drawing.md): Allows the user to get the view of his object in a drawing with 4 different position (front,top,iso,right). Needs some modification to be perfectly effective.
+
+-    <img style="width:16px;" src="images/Macro_CartoucheFC.png"> [Macro CartoucheFC](Macro_CartoucheFC.md): This GUI macro to fill simply all fields of the cartridge of the plan implementation worksheet FreeCAD, the format of the date and the symbol of the projection mode adapt to the EU region or US selected.
+
+-    <img style="width:16px;" src="images/Macro_CartoucheFC_2.png"> [Macro CartoucheFC 2](Macro_CartoucheFC_2.md): This GUI macro to fill simply all fields of the cartridge **model 2** of the plan implementation worksheet FreeCAD.
+
+-    <img style="width:16px;" src="images/Macro_CartoucheFC_Full.png"> [Macro CartoucheFC Full](Macro_CartoucheFC_Full.md): This GUI macro to fill simply all fields of the cartridge [Misc templates Full](Misc_templates_Full.md) of the plan implementation worksheet FreeCAD, the format of the date and the symbol of the projection mode adapt to the EU region or US selected.
+
+-    <img style="width:16px;" src="images/Macro_Corner_shapes_wizard.png"> [Macro Corner shapes wizard/update](Macro_Corner_shapes_wizard/update.md): Pops up a dialog asking for the dimensions of your corner piece, then creates the object in the document and creates a page view with top, front and lateral views of the piece.
+
+## External links 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Vanjske poveznice 
 
 -   [Intro to mechanical drawing on Youtube - by Normal Universe](https://www.youtube.com/watch?v=1Hm5Zyjmjac)
 
 
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+
 {{docnav/hr|[ Tjelo Modul](Part_Workbench/hr.md)|[ Osvijetljenje Modul](Raytracing_Workbench/hr.md)}}
+
+
+</div>
 
 
 {{Drawing Tools navi

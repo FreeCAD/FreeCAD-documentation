@@ -12,14 +12,18 @@
 
 ## Description
 
-La commande **Std Suivante** active la fenêtre suivante dans [Zone de vue principale](Main_view_area/fr.md). La fenêtre suivante est déterminée par l\'ordre dans lequel les fenêtres de la zone d\'affichage principal ont été activées pour la dernière fois.
+La commande **Std Suivante** active la fenêtre suivante dans la [zone de vue principale](Main_view_area/fr.md). La fenêtre suivante est déterminée par l\'ordre des onglets dans la zone d\'affichage principale.
+
+
 
 ## Utilisation
 
 1.  La zone de vue principale doit contenir au moins deux fenêtres.
-2.  Il existe plusieurs façons d\'appeler la commande:
-    -   Sélectionnez l\'option **Fenêtre → <img src="images/Std_ActivateNextWindow.svg" width=16px> Suivante** dans le menu.
-    -   Utilisez le raccourci clavier: **Ctrl**+**Tab**.
+2.  Il existe plusieurs façons de lancer la commande :
+    -   Sélectionnez l\'option **Fenêtre → <img src="images/Std_ActivateNextWindow.svg" width=16px> Suivante** du menu.
+    -   Utilisez le raccourci clavier : **Ctrl**+**Tab**.
+
+
 
 ## Remarques
 

@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -20,6 +22,8 @@ Acest instrument verifică documentul curent sau obiectele selectate pentru obie
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -38,12 +42,19 @@ Acest instrument verifică documentul curent sau obiectele selectate pentru obie
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Scrip-Programare 
 
 
 </div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">

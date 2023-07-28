@@ -157,13 +157,7 @@ Mit dem <img alt="" src=images/Sketcher_Circle.svg  style="width:24px;"> [ Kreis
 
 Wähle den Kreis aus und erstelle eine <img alt="" src=images/Constraint_Radius.svg  style="width:24px;"> [Radius Beschränkung](Sketcher_ConstrainRadius/de.md), gib einen Wert von 5 mm ein.
 
-
-<div class="mw-translate-fuzzy">
-
-Wähle den Mittelpunkt des Kreises aus und erstelle eine <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Sperr Beschränkung](Sketcher_ConstrainLock/de.md); doppelklicke auf die horizontale Bemaßung und gib -65 mm ein (hier geben wir eine Position relativ zum Ursprung der Skizze an). Mache dasselbe für die vertikale Bemaßung (-15 mm). Der Kreis nimmt seine korrekte Position ein und die Skizze wird grün und zeigt damit an, dass sie vollständig beschränkt ist:
-
-
-</div>
+Wähle den Mittelpunkt des Kreises aus und erstelle eine <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Sperr Beschränkung](Sketcher_ConstrainLock/de.md); doppelklicke auf die horizontale Bemaßung und gib -65 mm ein (hier geben wir eine Position relativ zum Ursprung der Skizze an). Mache dasselbe für die vertikale Bemaßung (15 mm). Der Kreis nimmt seine korrekte Position ein und die Skizze wird grün und zeigt damit an, dass sie vollständig beschränkt ist:
 
 ![](images/GGTuto1_6.PNG )
 
@@ -284,9 +278,11 @@ Du kannst auch mit diesem anderen Tutorial eines etwas komplizierteren Teils for
 [Erstellen eines einfachen Bauteils mit PartDesign](Basic_Part_Design_Tutorial/de.md)
 
 
- {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+{{PartDesign Tools navi
+
+}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Creating a simple part with PartDesign/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Creating a simple part with PartDesign/de

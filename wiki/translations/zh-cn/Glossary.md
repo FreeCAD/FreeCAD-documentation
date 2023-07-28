@@ -17,10 +17,12 @@ Jump to letter: {{CompactTOC|center=yes}}
 
 {{glossend}}
 
+## A
+
 
 <div class="mw-translate-fuzzy">
 
-## A
+## A 
 
 
 {{gloss}}
@@ -162,10 +164,10 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{defn|defn=The cutting off of an edge, at an angle, to get rid of its sharpness; a beveled edge.}}
 
 
-{{term|1=Clipping Plane}}
+{{term|Clipping Plane}}
 
 
-{{defn|1=The clipping plane is used to cut away at the model in the 3D view. It is just a visual aid and does not actually cut the model.}}
+{{defn|defn=The clipping plane is used to cut away at the model in the 3D view. It is just a visual aid and does not actually cut the model.}}
 
 
 {{term|Clone}}
@@ -204,10 +206,10 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{defn|defn=Set of [solids](#Solid.md) connected by their [faces](#Face.md). CompSolids are needed in [FEM](#FEM.md), where more than one material is used in one FEM-mesh.}}
 
 
-{{term|1=Constraint}}
+{{term|Constraint}}
 
 
-{{defn|1=A restriction on the geometric relationship between primitives in a [Sketch](#Sketch.md). If a constraint has a numerical value, it is referred to as Datum (e.g., a distance constraint has a numerical value - the length of an imaginary line connecting the two points). A constraint that has no numerical value (e.g., a Horizontal constraint) is sometimes referred to as Geometric Constraint.}}
+{{defn|defn=A restriction on the geometric relationship between primitives in a [Sketch](#Sketch.md). If a constraint has a numerical value, it is referred to as Datum (e.g., a distance constraint has a numerical value - the length of an imaginary line connecting the two points). A constraint that has no numerical value (e.g., a Horizontal constraint) is sometimes referred to as Geometric Constraint.}}
 
 
 {{term|Constructive Solid Geometry|content=[http://en.wikipedia.org/wiki/Constructive_solid_geometry Constructive Solid Geometry]}}
@@ -263,7 +265,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Dependency Graph}}
 
 
-{{defn|defn=A third-party graphing tool used to show how objects in a FreeCAD model use or are related to one another. For more information, refer to the [Dependency Graph](Std_DependencyGraph.md)| Wiki page.}}
+{{defn|defn=A third-party graphing tool used to show how objects in a FreeCAD model use or are related to one another. For more information, refer to the [Dependency Graph](Std_DependencyGraph.md) Wiki page.}}
 
 
 {{term|Difference}}
@@ -277,7 +279,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 
 {{term|Directed Acyclic Graph}}
 
-(abbreviated as \"DAG\") {{defn|defn=A type of [Dependency Graph](#Dependency_Graph.md) where the relationship of objects flows in a generally linear direction from start to end with no circular dependencies. When following a DAG there is no flow from one object A to any other objects and then back to that same object A again. In FreeCAD, a graph of the model must always be a DAG.}} {{term|DOF}} {{defn|[Degrees Of Freedom](#Degrees_Of_Freedom.md)}} {{term|Draft|content=[Draft](Draft_Workbench.md)}} {{defn|no=1|defn=A FreeCAD [workbench](#Workbench.md) used primarily for 2 dimensional work.}} {{defn|no=2|defn=A relief angle on a mold to allow removal of the finished product. See [PartDesign Draft](PartDesign_Draft.md).}} {{term|Drawing|content=[Drawing](Drawing_Workbench.md)}} {{defn|no=1|defn=A FreeCAD [workbench](#Workbench.md) used to generate 2D representations of a model, also called drawings.}} {{defn|no=2|defn=Describes a representation of geometry through the use of two-dimensional views. Also called plan or [blueprint](#Blueprint.md).}} {{glossend}}
+(abbreviated as \"DAG\") {{defn|defn=A type of [Dependency Graph](#Dependency_Graph.md) where the relationship of objects flows in a generally linear direction from start to end with no circular dependencies. When following a DAG there is no flow from one object A to any other objects and then back to that same object A again. In FreeCAD, a graph of the model must always be a DAG.}} {{term|DOF}} {{defn|defn=[Degrees Of Freedom](#Degrees_Of_Freedom.md)}} {{term|Draft|content=[Draft](Draft_Workbench.md)}} {{defn|no=1|defn=A FreeCAD [workbench](#Workbench.md) used primarily for 2 dimensional work.}} {{defn|no=2|defn=A relief angle on a mold to allow removal of the finished product. See [PartDesign Draft](PartDesign_Draft.md).}} {{term|Drawing}} {{defn|defn=Describes a representation of geometry through the use of two-dimensional views. Also called plan or [blueprint](#Blueprint.md).}} {{glossend}}
 
 ## E
 
@@ -297,13 +299,22 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Element}}
 
 
-{{defn|An item of Sketcher geometry such as a point, a line segment, an arc, a circle, etc.}}
+{{defn|defn=An item of Sketcher geometry such as a point, a line segment, an arc, a circle, etc.}}
 
 
-{{term|1=Extrude}}
+{{term|Expression}}
 
 
-{{defn|1=A general term for extending a 2D object into 3D along 1 direction. See also [Pad](#Pad.md).}}
+{{defn|no=1|defn=A general term used in mathematics and programming.}}
+
+
+{{defn|no=2|defn=In FreeCAD [expressions](Expressions.md) are used to compute values. They can reference and drive object properties. They are used in [spreadsheets](Spreadsheet_Workbench.md) and to control parametric models.}}
+
+
+{{term|Extrude}}
+
+
+{{defn|defn=A general term for extending a 2D object into 3D along 1 direction. See also [Pad](#Pad.md).}}
 
 
 {{glossend}}
@@ -314,10 +325,10 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{gloss}}
 
 
-{{term|1=Face}}
+{{term|Face}}
 
 
-{{defn|1=A 2 dimensional topological construct. For example, a cube has 6 Faces. A face can be curved, like in case of a sphere, which has one face in FreeCAD. The CAD kernel defines it as: Part of a surface bounded by a closed [wire(s)](#Wire.md). See [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 Profile: Defining the Topology].}}
+{{defn|defn=A 2 dimensional topological construct. For example, a cube has 6 Faces. A face can be curved, like in case of a sphere, which has one face in FreeCAD. The CAD kernel defines it as: Part of a surface bounded by a closed [wire(s)](#Wire.md). See [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 Profile: Defining the Topology].}}
 
 
 {{term|Facet}}
@@ -338,10 +349,10 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{defn|defn=FreeCAD native file format. File extension *.fcstd, *.FCStd}}
 
 
-{{term|1=Feature}}
+{{term|Feature}}
 
 
-{{defn|1=A step in a 3d part's evolution in the [Part Design](PartDesign_Workbench.md) [workbench](#Workbench.md) workflow.  Examples are [Pad](#Pad.md), [Pocket](#Pocket.md), [Groove](#Groove.md), [Fillet](#Fillet.md), etc. As we create a model in the [Part Design](PartDesign_Workbench.md) [workbench](#Workbench.md), each feature takes the shape of the last one and adds or removes something.  Hence a "Pocket" feature is not only the pocketed hole itself, but the whole part with the pocket feature.}}
+{{defn|defn=A step in a 3d part's evolution in the [Part Design](PartDesign_Workbench.md) [workbench](#Workbench.md) workflow.  Examples are [Pad](#Pad.md), [Pocket](#Pocket.md), [Groove](#Groove.md), [Fillet](#Fillet.md), etc. As we create a model in the [Part Design](PartDesign_Workbench.md) [workbench](#Workbench.md), each feature takes the shape of the last one and adds or removes something.  Hence a "Pocket" feature is not only the pocketed hole itself, but the whole part with the pocket feature.}}
 
 
 {{term|FEM|content=[FEM](FEM_Workbench.md)}}
@@ -441,6 +452,11 @@ Jump to letter: {{CompactTOC|center=yes}}
 ## H
 
 
+<div class="mw-translate-fuzzy">
+
+## H 
+
+
 {{gloss}}
 
 
@@ -451,6 +467,9 @@ Jump to letter: {{CompactTOC|center=yes}}
 
 
 {{glossend}}
+
+
+</div>
 
 ## I
 
@@ -472,10 +491,12 @@ Jump to letter: {{CompactTOC|center=yes}}
 
 {{glossend}}
 
+## J
+
 
 <div class="mw-translate-fuzzy">
 
-## J
+## J 
 
 
 {{gloss}}
@@ -492,10 +513,12 @@ Jump to letter: {{CompactTOC|center=yes}}
 
 </div>
 
+## K
+
 
 <div class="mw-translate-fuzzy">
 
-## K
+## K 
 
 
 {{gloss}}
@@ -653,22 +676,22 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|OCCT}}
 
 
-{{defn|Open CASCADE Technology. See [OCC](#OCC.md).}}
+{{defn|defn=Open CASCADE Technology. See [OCC](#OCC.md).}}
 
 
 {{term|Open CASCADE|content=[http://www.opencascade.org Open CASCADE]}}
 
 
-{{defn|The [geometric modeling kernel](#Geometric_modeling_kernel.md) (software library) underlying FreeCAD. Also called [OCC](#OCC.md) or [OCCT](#OCCT.md) (for Open CASCADE Technology). See also [OCE](#OCE.md).}}
+{{defn|defn=The [geometric modeling kernel](#Geometric_modeling_kernel.md) (software library) underlying FreeCAD. Also called [OCC](#OCC.md) or [OCCT](#OCCT.md) (for Open CASCADE Technology). See also [OCE](#OCE.md).}}
 
 
 {{term|OpenSCAD|content=[http://www.openscad.org/ OpenSCAD]}}
 
 
-{{defn|no=1|Name of a script-only based CAD program.}}
+{{defn|no=1|defn=Name of a script-only based CAD program.}}
 
 
-{{defn|no=2|A [workbench](#Workbench.md) in FreeCAD. The [OpenSCAD](OpenSCAD_Workbench.md) [workbench](#Workbench.md) provides an interface for import/export of *.scad and *.csg models, as well as a some utility tools.}}
+{{defn|no=2|defn=A [workbench](#Workbench.md) in FreeCAD. The [OpenSCAD](OpenSCAD_Workbench.md) [workbench](#Workbench.md) provides an interface for import/export of *.scad and *.csg models, as well as a some utility tools.}}
 
 
 {{term|Origin}}
@@ -691,22 +714,25 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{gloss}}
 
 
-{{term|1=Pad}}
+{{term|Pad}}
 
 
-{{defn|1=An extension of a [Sketch](#Sketch.md) in a direction perpendicular to the plane of the Sketch. See also [Extrude](#Extrude.md).}}
+{{defn|defn=An extension of a [Sketch](#Sketch.md) in a direction perpendicular to the plane of the Sketch. See also [Extrude](#Extrude.md).}}
 
 
-{{term|Part|content=[Part](Part_Workbench.md)}}
+{{term|Part}}
 
 
-{{defn|no=1|A FreeCAD [workbench](#Workbench.md) primarily used for a [http://en.wikipedia.org/wiki/Constructive_solid_geometry Constructive Solid Geometry] workflow.}}
+{{defn|no=1|defn=A FreeCAD [workbench](#Workbench.md) primarily used for a [http://en.wikipedia.org/wiki/Constructive_solid_geometry Constructive Solid Geometry] workflow. See [Part Workbench](Part_Workbench.md).}}
 
 
-{{defn|no=2|A unibody solid. The lowest level component in an assembly.}}
+{{defn|no=2|defn=A FreeCAD Python module, directly interfacing with [OCC](#OCC.md). See [Part scripting](Part_scripting.md).}}
 
 
-{{defn|no=3|A container which groups any type of FreeCAD object and has a [placement](#Placement.md). (Introduced in FreeCAD V0.17.)}}
+{{defn|no=3|defn=A container which groups any type of FreeCAD object and has a [placement](#Placement.md). See [Std Part](Std_Part.md).}}
+
+
+{{defn|no=4|defn=A unibody solid. The lowest level component in an assembly.}}
 
 
 {{term|PartDesignNext}}
@@ -754,34 +780,34 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Plane}}
 
 
-{{defn|no=1|A flat, two-dimensional surface that extends infinitely far.}}
+{{defn|no=1|defn=A flat, two-dimensional surface that extends infinitely far.}}
 
 
-{{defn|no=2|A primitive two-dimensional object created in the [Part](Part_Workbench.md) [workbench](#Workbench.md).}}
+{{defn|no=2|defn=A primitive two-dimensional object created in the [Part](Part_Workbench.md) [workbench](#Workbench.md).}}
 
 
 {{term|Plot}}
 
 
-{{defn|no=1|An outdated synonym for a technical drawing made by a pen plotter. See [https://en.wikipedia.org/wiki/Plotter Plotter]}}
+{{defn|no=1|defn=An outdated synonym for a technical drawing made by a pen plotter. See [https://en.wikipedia.org/wiki/Plotter Plotter]}}
 
 
-{{defn|no=2|Short for plot plan. See [https://en.wikipedia.org/wiki/Site_plan Site plan]}}
+{{defn|no=2|defn=Short for plot plan. See [https://en.wikipedia.org/wiki/Site_plan Site plan]}}
 
 
-{{defn|no=3|Graphical representation of data. See [https://en.wikipedia.org/wiki/Plot_(graphics) Plot (graphics)]}}
+{{defn|no=3|defn=Graphical representation of data. See [https://en.wikipedia.org/wiki/Plot_(graphics) Plot (graphics)]}}
 
 
-{{term|1=Pocket}}
+{{term|Pocket}}
 
 
-{{defn|1=A [feature](#Feature.md) that removes material from a solid based on a [Sketch](#Sketch.md).}}
+{{defn|defn=A [feature](#Feature.md) that removes material from a solid based on a [Sketch](#Sketch.md).}}
 
 
-{{term|1=Point}}
+{{term|Point}}
 
 
-{{defn|1=An item used to reference a single area in the 3D workspace. A “point” is dimensionless. It has a dimension on the screen, usually represented by a “dot” only so we can see where it is. See also [Vertex](#Vertex.md).}}
+{{defn|defn=An item used to reference a single area in the 3D workspace. A “point” is dimensionless. It has a dimension on the screen, usually represented by a “dot” only so we can see where it is. See also [Vertex](#Vertex.md).}}
 
 
 {{term|Polygon mesh}}
@@ -831,6 +857,11 @@ Jump to letter: {{CompactTOC|center=yes}}
 ## Q
 
 
+<div class="mw-translate-fuzzy">
+
+## Q 
+
+
 {{gloss}}
 
 
@@ -843,9 +874,14 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{glossend}}
 
 
-<div class="mw-translate-fuzzy">
+</div>
 
 ## R
+
+
+<div class="mw-translate-fuzzy">
+
+## R 
 
 
 {{gloss}}
@@ -910,16 +946,16 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{defn|defn=Shape made of two or more contiguous [faces](#Face.md). A [manifold](#Manifold.md) (enclosed) shell can be converted into a [solid](#Solid.md).}}
 
 
-{{term|1=Sketch}}
+{{term|Sketch}}
 
 
-{{defn|1=A constrained 2D depiction of an object fixed to a plane or a [Face](#Face.md). In FreeCAD a Sketch is always a 2-dimensional object somewhere in the 3D space.}}
+{{defn|defn=A constrained 2D depiction of an object fixed to a plane or a [Face](#Face.md). In FreeCAD a Sketch is always a 2-dimensional object somewhere in the 3D space.}}
 
 
 {{term|Sketcher|content=[Sketcher](Sketcher_Workbench.md)}}
 
 
-{{defn|A [workbench](#Workbench.md) used to create 2D geometry by use of [elements](#Element.md) and [constraints](#Constraint.md).}}
+{{defn|defn=A [workbench](#Workbench.md) used to create 2D geometry by use of [elements](#Element.md) and [constraints](#Constraint.md).}}
 
 
 {{term|Sketcher Solver}}
@@ -946,16 +982,16 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{defn|defn=See [Sketcher Solver](#Sketcher_Solver.md).}}
 
 
-{{term|1=Stable}}
+{{term|Stable}}
 
 
-{{defn|1=A nickname for the last general release version of the FreeCAD software. This is typically the version available from sources other than the FreeCAD project. Compare with [Unstable](#Unstable.md).}}
+{{defn|defn=A nickname for the last general release version of the FreeCAD software. This is typically the version available from sources other than the FreeCAD project. Compare with [Unstable](#Unstable.md).}}
 
 
 {{term|STL}}
 
 
-{{defn|''STereoLithography'', also known as ''Standard Tessellation Language.'' A [mesh](#Mesh.md) file format defining only the surface of a 3D object. File extensions is *.stl}}
+{{defn|defn=''STereoLithography'', also known as ''Standard Tessellation Language.'' A [mesh](#Mesh.md) file format defining only the surface of a 3D object. File extensions is *.stl}}
 
 
 {{term|STEP}}
@@ -967,7 +1003,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|SVG|content=[SVG](SVG.md)}}
 
 
-{{defn|[https://en.wikipedia.org/wiki/Scalable_Vector_Graphics Scalable Vector Graphics]. A vector graphics file format.}}
+{{defn|defn=[https://en.wikipedia.org/wiki/Scalable_Vector_Graphics Scalable Vector Graphics]. A vector graphics file format.}}
 
 
 {{term|Sweep}}
@@ -1008,7 +1044,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{defn|no=1|defn=A measure of how thick a shape is.}}
 
 
-{{defn|no=2|A [Part](Part_Workbench.md) [workbench](#Workbench.md) tool to hollow out a solid and leave a defined uniform thickness.}}
+{{defn|no=2|defn=A [Part](Part_Workbench.md) [workbench](#Workbench.md) tool to hollow out a solid and leave a defined uniform thickness.}}
 
 
 {{term|Toggle}}
@@ -1020,13 +1056,13 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Topological Naming}}
 
 
-{{defn|A scheme whereby an edge or face, once created, is assigned a permanent name. Internally, FreeCAD identifies edges and faces on a solid by numbering them such as: Edge1, Edge2, Face1, Face2, etc. The problem is that these IDs are somewhat randomly applied, and they will change after something is done to the model that changes the amount of edges and faces. For example, if the model is revised an item linked to a Face2 could later erroneously become linked to a different face (which was renamed to become the new Face2), causing the user unwanted results.  As of the FreeCAD 0.20 release Topological Naming has not yet been implemented, and so if an object is modified such that the number of edges or faces changes, the names of the edges or faces of that object might change too.}}
+{{defn|defn=A scheme whereby an edge or face, once created, is assigned a permanent name. Internally, FreeCAD identifies edges and faces on a solid by numbering them such as: Edge1, Edge2, Face1, Face2, etc. The problem is that these IDs are somewhat randomly applied, and they will change after something is done to the model that changes the amount of edges and faces. For example, if the model is revised an item linked to a Face2 could later erroneously become linked to a different face (which was renamed to become the new Face2), causing the user unwanted results.  As of the FreeCAD 0.20 release Topological Naming has not yet been implemented, and so if an object is modified such that the number of edges or faces changes, the names of the edges or faces of that object might change too.}}
 
 
 {{term|Torus}}
 
 
-{{defn|A primitive shape.}}
+{{defn|defn=A primitive shape.}}
 
 
 {{term|Tracker}}
@@ -1043,10 +1079,12 @@ Jump to letter: {{CompactTOC|center=yes}}
 
 {{glossend}}
 
+## U
+
 
 <div class="mw-translate-fuzzy">
 
-## U
+## U 
 
 
 {{gloss}}
@@ -1075,10 +1113,12 @@ Jump to letter: {{CompactTOC|center=yes}}
 
 </div>
 
+## V
+
 
 <div class="mw-translate-fuzzy">
 
-## V
+## V 
 
 
 {{gloss}}
@@ -1101,10 +1141,12 @@ Jump to letter: {{CompactTOC|center=yes}}
 
 </div>
 
+## W
+
 
 <div class="mw-translate-fuzzy">
 
-## W
+## W 
 
 
 {{gloss}}
@@ -1139,6 +1181,11 @@ Jump to letter: {{CompactTOC|center=yes}}
 ## X
 
 
+<div class="mw-translate-fuzzy">
+
+## X 
+
+
 {{gloss}}
 
 
@@ -1150,7 +1197,15 @@ Jump to letter: {{CompactTOC|center=yes}}
 
 {{glossend}}
 
+
+</div>
+
 ## Y
+
+
+<div class="mw-translate-fuzzy">
+
+## Y 
 
 
 {{gloss}}
@@ -1164,7 +1219,15 @@ Jump to letter: {{CompactTOC|center=yes}}
 
 {{glossend}}
 
+
+</div>
+
 ## Z
+
+
+<div class="mw-translate-fuzzy">
+
+## Z 
 
 
 {{gloss}}
@@ -1177,6 +1240,9 @@ Jump to letter: {{CompactTOC|center=yes}}
 
 
 {{glossend}}
+
+
+</div>
 
 
 

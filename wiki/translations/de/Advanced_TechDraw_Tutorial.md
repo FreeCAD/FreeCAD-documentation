@@ -15,9 +15,13 @@
 
 
 
+
+
 ## Zielsetzung in Kürze 
 
 Erstelle Punkte, Linien, Kreise, Bögen usw. in TechDraw Ansichten und/oder ganze \"kosmetische\" Zeichnungen mit absoluter Präzision, passend zu den Bemaßungswerkzeugen, mit denen der Arbeitsbereich ausgestattet ist, um konforme und detaillierte technische Zeichnungen zu erzeugen.
+
+
 
 ## Einführung
 
@@ -34,6 +38,8 @@ Dieses Tutorium führt den erfahrenen Anwender in die fortgeschrittene Nutzung v
 
 *Hinweis: Diese Ebenen können durch Überlappung/ Deckungsgleichheit von zwei Kanten unter Verwendung der booleschen Funktion von <img alt="" src=images/Part_Fuse.svg  style="width:24px;"> [Part Vereinigen](Part_Fuse/de.md) zusammengefügt werden.* Die so geformten und entsprechend positionierten Ebenen (gemäß unseren Bestimmungen) werden als **Schneidklingen** verwendet <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Part AuseinanderSchneiden](Part_SliceApart/de.md) zerschneiden unser 3D Objekt entsprechend der gewählten Flächenbestätigung in mehrere Teile.\'\'
 
+
+
 ## Bevor du anfängst 
 
 Die Arbeitsbereiche, mit denen die Zeichnungen der angehängten Beispiele erstellt werden, sind:
@@ -43,6 +49,8 @@ Die Arbeitsbereiche, mit denen die Zeichnungen der angehängten Beispiele erstel
 -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md)
 -   <img alt="" src=images/Workfeature_workbench_icon.svg  style="width:24px;"> [Workfeature Arbeitsbereich](Workfeature_Workbench/de.md)
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md)
+
+
 
 ## Die Aufgabe 
 
@@ -79,11 +87,16 @@ Es liegt an jedem von uns, mit Phantasie und Erfindungsreichtum, das Ganze zu op
 Ich füge die Dateien einiger Arbeitsablauf Beispiele von technischen Zeichnungen bei (nicht nur mit TechDraw machbar), aus denen die unten gezeigten Bilder entnommen wurden.
 In der Hoffnung, nützlich gewesen zu sein, gute Arbeit und gutes Experimentieren!
 
+
 ## Hinweise
+
+
 
 ## Zukunftsperspektiven
 
 Jedoch könnte der beschriebene Weg den Ausgangspunkt (oder die Idee) darstellen, zusätzlichen Code zu schreiben, um das System zu automatisieren und es direkt in TechDraw mit entsprechenden Schaltflächen-/Befehlsfunktionen zu integrieren.
+
+
 
 ## Verweise
 
@@ -93,9 +106,11 @@ Jedoch könnte der beschriebene Weg den Ausgangspunkt (oder die Idee) darstellen
 -   [TechDraw: - come utilizzare gli strumenti Draft/Snaps per creare \" vertici/punti cosmetici\"](https://forum.freecadweb.org/viewtopic.php?f=28&t=53329) Forum Thema in italienischer Sprache
 
 
- {{TechDraw Tools navi}}
+{{TechDraw Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Advanced TechDraw Tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Advanced TechDraw Tutorial/de

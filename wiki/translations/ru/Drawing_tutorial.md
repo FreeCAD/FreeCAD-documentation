@@ -114,9 +114,11 @@ We are now finished with the basic workflow for the [Drawing Workbench](Drawing_
 -   For more information about the tools available check out the [Drawing Workbench](Drawing_Workbench.md) page
 
 
- {{Drawing Tools navi}}
+{{Drawing Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Drawing](Category_Drawing.md) > Drawing tutorial/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing tutorial/ru

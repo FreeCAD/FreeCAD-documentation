@@ -20,6 +20,8 @@
 
 </div>
 
+
+
 ## Fondo
 
 El ambiente de trabajo MEF tiene la capacidad de estimar el nivel de refuerzo requerido en una estructura de hormigón para evitar fallos frágiles bajo tensión o cizallamiento.
@@ -193,9 +195,11 @@ The tensile stress pattern suggests an alternative design concept using pre-stre
 -   [FEM Concrete](FEM_Concrete.md)
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > Analysis of reinforced concrete with FEM/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > Analysis of reinforced concrete with FEM/es

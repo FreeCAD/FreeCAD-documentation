@@ -1,4 +1,13 @@
-# <img alt="El icono del Ambiente de trabajo Ingeniería inversa" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> Reverse Engineering Workbench/es
+# Reverse Engineering Workbench/es
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+<img alt="El icono del Ambiente de trabajo Ingeniería inversa" src=images/Workbench_Reverse_Engineering.svg  style="width:128px;">
 
 ## Introduction
 
@@ -14,6 +23,8 @@ El <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:24px;"
 
 Por el momento no hay ninguna funcionalidad presente en este banco de trabajo. Es usado como una caja de arena por los programadores.
 
+
+
 ## Herramientas
 
 
@@ -26,9 +37,20 @@ Las herramientas de ingeniería inversa (RE) se encuentran en el menú RE y en l
 
 -   <img alt="" src=images/FitSurface.svg  style="width:32px;"> Aproximar una superficie B-spline:
 
+
+
 ## Desarrollo
 
 Enlace a los hilos apropiados en los que se habla de este ambiente de trabajo
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

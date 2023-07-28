@@ -7,7 +7,7 @@
 |Version=0.14c
 |Date=2021/01/16
 |FCVersion=0.18 et ultérieur
-|Download=[https://www.freecadweb.org/wiki/images/9/90/FCTexture.png Icône de la barre d'outils], [https://www.freecadweb.org/wiki/Macro_Loft Macro Loft] [16px|FCCreaLoft](File:FCCreaLoft.png.md)
+|Download=[https://www.freecadweb.org/wiki/images/9/90/FCTexture.png Icône de la barre d'outils]
 |SeeAlso=[32px|FCCreaLoft](File:FCCreaLoft.png.md) [Macro Loft](Macro_Loft/fr.md)
 }}
 
@@ -19,7 +19,7 @@ J\'espère que cette macro va changer notre façon de penser lors de la modélis
 
 Tout devient possible quelle que soit la complexité de l\'image!
 
-La macro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft/fr.md) est utilisé pour automatiser les opérations de multi lissage.
+La <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft/fr.md) est utilisé pour automatiser les opérations de multi lissage.
 
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/262317bc7d8555885b0e/raw/3ec2ab127d8ad01a6b657aa5df9a6127ff07c7c0/Macro%2520FCTexture.FCMacro}}
@@ -27,9 +27,11 @@ La macro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [
 <img alt="" src=images/Texture_004_Honda.png  style="width:480px;"> 
 *Texture 004 Honda*
 
+
+
 ## Utilisation
 
-Cette macro nécessite une image en 256 nuances de gris (0-255). Par conséquent, avant d\'exécuter la macro, convertissez votre image en niveaux de gris (noir et blanc). Lors de l\'exécution de la macro, le nombre de couleurs est détecté automatiquement. Note : si l\'image a plus de 256 couleurs, une autre fonction est attendue (WIP). Chaque couleur (niveau de gris) est considérée comme une profondeur, le blanc (255) le niveau haut et le noir (0) le niveau le plus bas (profond).
+Cette macro nécessite une image en 256 nuances de gris (0-255). Par conséquent, avant d\'exécuter la macro, convertissez votre image en niveaux de gris (noir et blanc). Lors de l\'exécution de la macro, le nombre de couleurs est détecté automatiquement. Note : si l\'image a plus de 256 couleurs, une autre fonction est attendue (en cours). Chaque couleur (niveau de gris) est considérée comme une profondeur, le blanc (255) le niveau haut et le noir (0) le niveau le plus bas (profond).
 
 La configuration se fait avant l\'ouverture du fichier, les valeurs par défaut sont les réglages prévu pour obtenir un projet de dimensions :
 
@@ -45,13 +47,17 @@ Remarque importante : selon la taille de l\'image, le projet peut devenir très 
 
 <img alt="Texture 002" src=images/Texture_002.png  style="width:300px;">
 
+
+
 #### Coordonnées
 
--    **Coordinate X <img src="images/Std_CoordinateSystem.svg" width=24px>**{{SpinBox|0,00 mm}} : La position des coordonnées **X** de l\'objet (par défaut: 0).
+-    **Coordinate X <img src="images/Std_CoordinateSystem.svg" width=24px>**{{SpinBox|0,00 mm}} : position des coordonnées **X** de l\'objet (par défaut: 0).
 
--    **Coordinate Y <img src="images/Std_CoordinateSystem.svg" width=24px>**{{SpinBox|0,00 mm}} : La position de la coordonnée **Y** de l\'objet (par défaut: 0).
+-    **Coordinate Y <img src="images/Std_CoordinateSystem.svg" width=24px>**{{SpinBox|0,00 mm}} : position de la coordonnée **Y** de l\'objet (par défaut: 0).
 
--    **Coordinate Z <img src="images/Std_CoordinateSystem.svg" width=24px>**{{SpinBox|0,00 mm}} : La position de la coordonnée **Z** de l\'objet (par défaut: 0).
+-    **Coordinate Z <img src="images/Std_CoordinateSystem.svg" width=24px>**{{SpinBox|0,00 mm}} : position de la coordonnée **Z** de l\'objet (par défaut: 0).
+
+
 
 #### Étirement
 
@@ -69,19 +75,23 @@ Remarque importante : selon la taille de l\'image, le projet peut devenir très 
 
 -    {{CheckBox|Axis Z}}: inverse les coordonnées *Z* de l\'image.
 
+
+
 #### Mode 8 Bits 
 
 La valeur de début de l\'opération s\'adapte automatiquement à la fonction choisie : 0 si le réglage est sur noir (**Black**) ou sur 255 si le réglage est sur blanc (**White**) ou 19 si le réglage est sur noir (**Black**)
 
--    {{RadioButton|TRUE|<img src="images/Draft_Wire.svg" width=24px> Wire}}: Construit la ligne (les vecteurs) sous forme de Wire.
+-    {{RadioButton|TRUE|<img src="images/Draft_Wire.svg" width=24px> Wire}}: construit la ligne (les vecteurs) sous forme de Wire.
 
--    {{RadioButton|<img src="images/Draft_BSpline.svg" width=24px> Bspline}}: Construit la ligne (les vecteurs) sous forme de Bspline.
+-    {{RadioButton|<img src="images/Draft_BSpline.svg" width=24px> Bspline}}: construit la ligne (les vecteurs) sous forme de Bspline.
 
--    {{RadioButton|<img src="images/Workbench_Points.svg" width=24px> Cloud}}: Construire les vecteurs de points dans un nuage de points.
+-    {{RadioButton|<img src="images/Workbench_Points.svg" width=24px> Cloud}}: construit les vecteurs de points dans un nuage de points.
 
--    {{RadioButton|<img src="images/Draft_Point.svg" width=24px> Point}}: Crée un point à chaque pixel (vecteur) (Note : cette procédure est gourmande en ressources CPU)
+-    {{RadioButton|<img src="images/Draft_Point.svg" width=24px> Point}}: crée un point à chaque pixel (vecteur) (Note : cette procédure est gourmande en ressources CPU)
 
--    {{CheckBox|Nuance}}: Si l\'option ombre est cochée, la couleur du point est représentée sous forme d\'image.
+-    {{CheckBox|Nuance}}: si l\'option ombre est cochée, la couleur du point est représentée sous forme d\'image.
+
+
 
 #### Mode 32 Bits 
 
@@ -89,19 +99,23 @@ La valeur de début de l\'opération s\'adapte automatiquement à la fonction ch
 
 -    {{RadioButton|Plan}}: permet d\'importer une **image 32 bits** et d\'ignorer le fond du plan. Par défaut le fond de plan est noir à ignorer les couleurs sont ajustables avec la commande **Capping**. Si Blanc est coché, le fond a ignorer sera blanc. (Note : cette procédure est gourmande en ressources CPU)
 
+
+
 #### Fichier
 
 -    {{CheckBox|.pcd}}: si coché, un fichier (originalName.bmp.pcd) est enregistré dans le même répertoire que le fichier (pcd v0.7).
 
 -    {{CheckBox|.asc}}: si coché, un fichier (originalName.bmp.asc) est enregistré dans le même répertoire que le fichier. Ce fichier peut être utilisé comme un nuage de points (format : X Y Z).
 
+
+
 #### Ecrêtement (10 mm) 
 
--   Slider : Entrez la hauteur du formulaire. La hauteur est affichée sur le cadre du titre.
+-   Slider : entrer la hauteur du forme. La hauteur est affichée sur le cadre du titre.
 
--    {{SpinBox|0 height}}: Entrez la hauteur du formulaire. La hauteur est affichée dans le cadre titre.
+-    {{SpinBox|0 height}}: entrer la hauteur du forme. La hauteur est affichée dans le cadre titre.
 
--   Mode brut {{CheckBox|20}} : Permet de régler le nombre de couleurs (profondeur). Le mode par défaut est de 0-20 (ce qui constitue un filtre et permet d\'obtenir plus de détails selon la complexité de l\'image) ; une fois coché, le mode est de 0 à 255 (toute la gamme des couleurs).
+-   Mode brut {{CheckBox|20}} : permet de régler le nombre de couleurs (profondeur). Le mode par défaut est de 0-20 (ce qui constitue un filtre et permet d\'obtenir plus de détails selon la complexité de l\'image). Une fois coché, le mode est de 0 à 255 (toute la gamme des couleurs).
 
 -    {{CheckBox}}: cette option permet d\'accéder à la fenêtre de saisie des contours
 
@@ -111,20 +125,22 @@ La valeur de début de l\'opération s\'adapte automatiquement à la fonction ch
 
 -    {{SpinBox|20 Capping}}: cette fenêtre de saisie donne les degrés d\'ecrêtement.
 
+
+
 #### Commande
 
--    **File and launch**: Ouvre le fichier image et lance la conversion.
+-    **File and launch**: ouvre le fichier image et lance la conversion.
 
 -    **Help**:
 
     -   Affichez la page Wiki dans le navigateur FreeCAD
     -   Pour modifier le paramètre disponible : allez dans **Outils → Editeur de paramètres\...**
-    -   \_\_L\'étape globale de la fenêtre de saisie:\_\_
+    -   \_\_L\'étape globale de la fenêtre de saisie :\_\_
     -   Paramètre utilisateur : **BaseApp/Preferences/Macros/FCMmacros/FCTexture → SingleStep**
     -   Ajustez la valeur souhaitée (1.0 par défaut)
-    -   \_\_Pour la recherche si la macro est mise à jour:\_\_
+    -   \_\_Pour la recherche si la macro est mise à jour :\_\_
     -   Paramètre utilisateur : **BaseApp/Preferences/Macros/FCMmacros/FCTexture → switchVesionMacroSearch**
-    -   Réglez switchVesionMacroSearch sur `True` (`False` par défaut)
+    -   Régler switchVesionMacroSearch sur `True` (`False` par défaut)
 
 -    **Quit**: sort de la fonction.
 
@@ -135,6 +151,8 @@ Les icônes .png <img alt="" src=images/FCTexture.png  style="width:64px;"> et .
 **Macro_Texture.FCMacro**
 
 Téléchargez la macro sur Gist [Macro FCTexture.FCMacro](https://gist.github.com/mario52a/262317bc7d8555885b0e)
+
+
 
 ## Exemples
 
@@ -234,6 +252,7 @@ Image:Texture_003_napperon.png\|Une portion d\'une nappe de table. Image:Texture
 
 
 </center>
+
 
 
 ## Liens

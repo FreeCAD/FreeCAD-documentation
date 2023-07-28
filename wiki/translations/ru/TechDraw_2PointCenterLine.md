@@ -10,58 +10,42 @@
 
 # TechDraw 2PointCenterLine/ru
 
+
+</div>
+
+
+
 ## Описание
 
-The 2PointCenterLine tool adds a centerline between two Vertices (Points).
+The **TechDraw 2PointCenterLine** tool adds a centerline between two points.
 
 <img alt="" src=images/CL2PointsSample.png  style="width:200px;">
 
 
 
-*Centerline between 2 Points*
+*Centerline between two points*
 
-## Применение
+## Usage create 
 
-1.  Select 2 Vertexes in a View.
-2.  Press the **<img src="images/TechDraw_2PointCenterLine.svg" width=16px> Add Centerline between 2 Points** button
-3.  A dialog will open where you can specify attributes of the new centerline.
-4.  A centerline will be added between the 2 selected Vertices.
+1.  Select two points in a View.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_2PointCenterLine.svg" width=16px> [Add Centerline between 2 points](TechDraw_2PointCenterLine.md)** button.
+    -   Select the **TechDraw → Add Lines → <img src="images/TechDraw_2PointCenterLine.svg" width=16px> Add Centerline between 2 points** option from the menu.
+3.  A task panel opens. See [TechDraw FaceCenterLine](TechDraw_FaceCenterLine#Options.md) for more information.
+4.  Press the **OK** button to confirm.
+5.  A centerline is added between the selected points.
 
-To delete a Centerline, select it and use the toolbar button **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Remove Cosmetic Object](TechDraw_CosmeticEraser.md)**.
+## Usage edit 
 
-## Editing Centerlines 
+See [TechDraw FaceCenterLine](TechDraw_FaceCenterLine#Usage_edit.md).
 
-Any of the centerline command buttons ( **<img src="images/TechDraw_FaceCenterLine.svg" width=16px> [Add Centerline to Face(s)](TechDraw_FaceCenterLine.md)**, **<img src="images/TechDraw_2LineCenterLine.svg" width=16px> [Add Centerline between 2 Lines](TechDraw_2LineCenterLine.md)**, **<img src="images/TechDraw_2PointCenterLine.svg" width=16px> Add Centerline between 2 Points**) can be used to edit any centerline.
+## Notes
 
-1.  Select a centerline.
-2.  Press any centerline command button.
-3.  A dialog will open where you can change attributes of the centerline.
-4.  Press **OK** to see your changes.
+-   To delete a centerline use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
 
-## Свойства
+## Properties
 
-Centerlines have no properties of their own, as they are no document objects. They have attributes that can be changed in the centerline edit dialog.
-
-1.  Mode (radio buttons):
-    -   **Vertical**: Forces a centerline vertical
-    -   **Horizontal**: Forces a centerline horizontal
-    -   **Aligned**: Follows the general direction of the Edge for 2 Edge centerline
-2.  **Shift Horiz**: Moves the centerline left or right of its normal position
-3.  **Shift Vert**: Moves the centerline up or down from its normal position
-4.  **Rotate**: Rotates the centerline around its center (degrees. + counterclockwise, - clockwise)
-5.  **Extend**: Makes the centerline longer by this amount
-6.  **Color**: Color of centerline
-7.  **Weight**: Thickness of the centerline
-8.  **Style**: <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Continuous, <img alt="" src=images/Dash-line.svg  style="width:20px;"> Dash, <img alt="" src=images/Dot-line.svg  style="width:20px;"> Dot, <img alt="" src=images/DashDot-line.svg  style="width:20px;"> DashDot, <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> DashDotDot
-
-## Программирование
-
-
-**См. так же:**
-
-[TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
-
-Centerlines are not accessible from [macros](Macros.md) or the [Python](Python.md) console at this time.
+Centerlines have no properties of their own, as they are not document objects.
 
 
 

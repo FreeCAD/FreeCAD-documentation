@@ -102,7 +102,7 @@ First, configure the build environment using CMake:
 
 1.  Open the CMake GUI
 2.  Specify the source folder of FreeCAD.
-3.  Specify a build folder (do not use the source folder \-- CMake will create this folder if it does not exist).
+3.  Specify a build folder. This can be **build** in the folder you cloned the repo because this path is ignored by git. Do not use the source folder. CMake will create this folder if it does not exist.
 4.  Click **Configure**.
 5.  In the dialog that appears specify the generator you want to use: in most cases you will use the defaults in this dialog. For the standard MS Visual Studio use *Visual Studio xx 2yyy* where xx is the compiler version and 2yyy the year of its release. It is recommended to use the default option *Use default native compilers*.
 
@@ -121,19 +121,21 @@ If it fails with the message that Visual Studio could not be found, the CMake su
 If it fails with a message about the wrong Python version or missing Python, then:
 
 1.  Use the \"Search:\" box in CMake to search for the string \"Python\"
-2.  If you see there a path like *C:/Program Files/Python38/python.exe*, CMake recognized the Python that is already installed on your PC, but that version is not compatible with the LibPack. Since the LibPack includes a compatible version of Python, modify the following Python settings in CMake to its paths (assuming the LibPack is in the folder *D:\\FreeCAD-build\\FreeCADLibs_12.5.2_x64_VC17*):
+2.  If you see there a path like *C:/Program Files/Python38/python.exe*, CMake recognized the Python that is already installed on your PC, but that version is not compatible with the LibPack. Since the LibPack includes a compatible version of Python, modify the following Python settings in CMake to its paths (assuming the LibPack is in the folder *D:/FreeCAD-build/FreeCADLibs_2\_8_x64_VC2019*):
 
 ![](images/CMake_Python_settings.png )
 
 If there is no error about Visual Studio or Python, everything is fine, but CMake does not yet know all necessary settings. Therefore now:
 
 1.  Search in CMake for the variable **FREECAD_LIBPACK_DIR** and specify the location of the LibPack folder you downloaded earlier.
-2.  Only if building FreeCAD 0.19, search for the variable **BUILD_QT5** and enable this option.
-3.  Click **Configure** again.
+2.  (*If building FreeCAD 0.19*) Search for the variable **BUILD_QT5** and enable this option.
+3.  (*If planning on running directly from the build folder such as for debugging*) Search for and enable the following options:
+    -   **FREECAD_COPY_DEPEND_DIRS_TO_BUILD**
+    -   **FREECAD_COPY_LIBPACK_BIN_TO_BUILD**
+    -   **FREECAD_COPY_PLUGINS_BIN_TO_BUILD**
+4.  Click **Configure** again.
 
 There should now be no errors. If you continue to encounter errors that you cannot diagnose, visit the [Install/Compile forum](https://forum.freecadweb.org/viewforum.php?f=4) on the FreeCAD forum website. If CMake proceeded correctly, click on **Generate**. After this is done you can close CMake and start the compilation of FreeCAD using Visual Studio. However, for the first compilation keep it open in case you want or need to change some options for the build process.
-
-**Note:** When compiling FreeCAD 0.19, the CMake variable **BUILD_ENABLE_CXX_STD** will be set to **C++14** while for FreeCAD 0.20 it will be set to **C++17**. This is because FreeCAD 0.20 requires at least the C++ language standard version 17. So when you compiled the last time FreeCAD 0.19 it is necessary to re-run CMake for FreeCAD 0.20 to change the C++ language standard.
 
 ### Options for the build process 
 
@@ -182,7 +184,7 @@ To compile a ready-to use FreeCAD, compile the target *INSTALL*, see the section
 
 If you don\'t get any errors you are done. **Congratulations!** You can exit MSVC or keep it open.
 
-**Note:** FreeCAD 0.20 requires at least the C++ language standard version 17 but the 3rd-party component *flann* from the LibPack is not yet ready for this. Therefore you will get compilation errors for the target *ReverseEngineering*. To fix this, right-click on this target in the MSVC solution explorer and select in the context menu the last entry *Properties*. In the appearing dialog change the **C++ Language Standard** to **ISO C++14**. Finally build the target **ALL_BUILD** again.
+**Important:** Since Visual Studio 17.4 you cannot use the code optimization that is on by default for the target **SketcherGui**. If you do, angle constraints will be misplaced in sketches. To fix this, right-click on this target in the MSVC solution explorer and select the last entry **Properties** in the context menu. In the appearing dialog go to C/C++ → Optimization and there disable the setting **Optimization**. Finally build the target **ALL_BUILD** again.
 
 #### Debug Build 
 
@@ -204,7 +206,9 @@ Now you can compile:
 2.  In the toolbar of the MSVC IDE assure that you use for the first compilation *Debug*.
 3.  There is a window called *Solution Explorer*. It lists all possible compilation targets. To start a full compilation, right-click on the target **ALL_BUILD** and then choose **Build** in the context menu.
 
-This will now take quite a long time. If there were no compilation errors, you can start the debug build:
+This will now take quite a long time.
+
+If there were no compilation errors, and if the **FREECAD_COPY\_\*** options mentioned in the [CMake Configuration step](#CMake.md) above were enabled, you can start the debug build:
 
 1.  Right-click on the target **FreeCADMain** and then choose **Set as Startup Project** in the context menu.
 2.  Finally click in the toolbar on the button with the green triangle named **Local Windows Debugger**.
@@ -325,13 +329,7 @@ There are 2 methods to run the compiled FreeCAD:
 
 Method 2 is the simpler one because it automatically assures that all libraries needed to run the FreeCAD.exe are in the correct folder. The FreeCAD.exe and the libraries will be output in the folder you specified in the CMake variable *CMAKE_INSTALL_PREFIX*.
 
-For Method 1 you need to put the libraries into the *bin* folder of your build folder (where the FreeCAD.exe is). This can easily be done:
-
-1.  Open the CMake GUI.
-2.  Search there for the variable option *FREECAD_COPY_DEPEND_DIRS_TO_BUILD* and check it. If there is no such option, the libraries were already copied, see the [description of the options](#Options_for_the_build_process.md).
-3.  Search there for the variable option *FREECAD_COPY_LIBPACK_BIN_TO_BUILD* and check it.
-4.  Search there for the variable option *FREECAD_COPY_PLUGINS_BIN_TO_BUILD* and check it.
-5.  Click on **Configure**. At the end of the configuration CMake will automatically copy the necessary libraries from the LibPack folder.
+For Method 1 you need to enable the **FREECAD_COPY\_\*** options mentioned in the [CMake Configuration step](#CMake.md) above.
 
 ### Troubleshooting
 
@@ -360,7 +358,7 @@ FreeCAD is very actively developed. Therefore its source code changes almost dai
 
 When using the [Git frontend](https://en.wikipedia.org/wiki/Comparison_of_Git_GUIs) TortoiseGit:
 
-1.  Right-click on your FreeCAD source code folder in the Windows file explorer and select in the context menu **Pull**.
+1.  Right-click on your FreeCAD source code folder in the Windows file explorer and select **Pull** in the context menu.
 2.  A dialog will appear. Select there what development branch you want to get. **master** is the main branch. Therefore use this unless you want to compile a special new feature from a branch that has not yet been merged to *master*. (For more about Git branches, see [Git development process](Source_code_management#Git_development_process.md).)
 
 Finally click **OK**.
@@ -413,9 +411,9 @@ As result you will get the plugin file *\'FreeCAD_widgets.dll* in the folder*\~\
 
 #### Installation
 
-To install the plugin, copy it to either:
+To install the plugin, copy the DLL either to:
 
--   If you use the LibPack: to the folder*\~\\FreeCADLibs_12.5.4_x64_VC17\\bin\\designer*Since there will only be a *bin* folder and you must first create the *designer* subfolder.
+-   If you use the LibPack: to the folder*\~\\FreeCADLibs_2\_8_x64_VC2019\\plugins\\designer*
 -   If you have a full Qt installation: you can choose between the folder*C:\\Qt\\5.15.2\\msvc2019_64\\plugins\\designer*or*C:\\Qt\\5.15.2\\msvc2019_64\\bin\\designer* (you must first create the *designer* subfolder.)(adapt the paths to your installation!).
 
 Finally (re)start Qt Designer and check its menu **Help → Plugins**. If the plugin **FreeCAD_widgets.dll** is listed as being loaded, you can now design and change FreeCAD\'s .ui files. If not, you must [compile](#Compilation.md) the DLL by yourself.

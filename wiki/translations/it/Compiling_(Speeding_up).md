@@ -7,13 +7,33 @@
 
 FreeCAD è una grande applicazione che può richiedere da 10 minuti a un\'ora per essere compilata completamente dal sorgente. Ciò dipende principalmente dalla CPU in uso e dal numero di core utilizzati nel processo di compilazione. Ecco alcuni suggerimenti per abbreviare tale processo e ridurre i tempi di costruzione.
 
-### CCache
+## CCache
+
+
+<div class="mw-translate-fuzzy">
+
+### CCache 
 
 Installare `ccache` per la costruzione cache
+
+
+</div>
+
+[Ccache](https://ccache.dev/) speeds up recompilation by caching previous compilations and detecting when the same compilation is done again. Ccache is free software, released under GPLv3 or later.
+
+On most systems ccache will be automatically detected and enabled, you can use the `FREECAD_USE_CCACHE` `cmake` option to control this behavior.
+
+## Disable modules 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Disabilitare i moduli 
 
 Quando si utilizza `cmake` per configurare la build, è possibile disabilitare la compilazione di alcuni ambienti che al momento potrebbero non essere necessari. Questo è utile se si vuole solo testare alcuni ambienti di lavoro.
+
+
+</div>
 
 Ad esempio, per evitare di costruire i banchi di lavoro FEM e Mesh:
 
@@ -24,9 +44,17 @@ cmake -DBUILD_FEM=OFF -DBUILD_MESH=OFF ../freecad-source
 
 Utilizzare `cmake-gui`, `cmake-curses-gui` o `cmake-qt-gui` per visualizzare tutte le possibili variabili che possono essere modificate nella configurazione; utilizzando queste interfacce è possibile attivare o disattivare facilmente diversi banchi di lavoro.
 
+## Number of jobs in parallel 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Numero di lavori in parallelo 
 
 Dopo la configurazione fatta con `cmake`, il programma `make` avvia il compilatore C++ effettivo per lavorare sui file del codice sorgente. Si può velocizzare la compilazione lavorando su vari file contemporaneamente. Ciò si ottiene con l\'opzione `-j` di `make`, che indica il numero di \"lavori\" o comandi di compilazione eseguiti contemporaneamente. Questa opzione è un numero intero.
+
+
+</div>
 
 Esegui quattro comandi di compilazione in parallelo:
 
@@ -49,9 +77,21 @@ Compilare contemporaneamente più file quanti sono i core della CPU nel sistema,
 make -j$(nproc --ignore=2)
 }}
 
-### distcc
+## distcc
+
+
+<div class="mw-translate-fuzzy">
+
+### distcc 
 
 Il programma `distcc` può essere utilizzato per eseguire compilazioni distribuite di codice C e C++ su più macchine in una rete.
+
+
+</div>
+
+[Distcc](https://www.distcc.org/) should always generate the same results as a local compilation. It is free, simple to install and use, and often two or more times faster than compiling locally.
+
+FreeCAD dev \'etrombly\' has published a short explanation on [how to install distcc to compile FreeCAD on a network of computers using Docker](https://forum.freecadweb.org/viewtopic.php?f=4&t=50810&p=459142#p458614).
 
 
 

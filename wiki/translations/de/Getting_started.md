@@ -15,15 +15,10 @@ Um zu wachsen, neue Funktionen zu erhalten und Fehler zu beheben ist FreeCAD wie
 
 Siehe auch:
 
-
-<div class="mw-translate-fuzzy">
-
--   [Umstieg auf FreeCAD von Fusion360](Migrating_to_FreeCAD_from_Fusion360/de.md)
+-   [Umstieg von Fusion360 auf FreeCAD](Migrating_to_FreeCAD_from_Fusion360/de.md)
+-   [Welchen Arbeitsbereich soll ich auswählen?](Which_workbench_should_I_choose/de.md)
 -   [Tutorien](Tutorials/de.md)
--   [Video Tutorien](Video_tutorials/de.md)
-
-
-</div>
+-   [Video-Anleitungen](Video_tutorials/de.md)
 
 
 
@@ -77,7 +72,7 @@ Es stehen mehrere Ansichtsvoreinstellungen (beispielsweise Draufsicht, Frontansi
 
 ## Erste Schritte mit FreeCAD 
 
-Das Hauptaugenmerk von FreeCAD besteht darin, Ihnen zu ermöglichen, hochpräzise 3D Modelle zu erstellen, deren Eigenschaften Sie weiterhin genau kontrollieren (durch die Möglichkeit, in der Modellhistorie zurück zu gehen, und Parameter anpassen zu können) und gegebenenfalls auch die Fertigung dieser Modelle (mittels 3D Druck, CNC Fräsen oder sogar bei Bauwerken). Es unterscheidet sich daher sehr von einigen anderen 3D Anwendungen, die für andere Einsatzzwecke wie z.B. Erstellen von Animationsfilmen oder Spielen programmiert wurden. Die Lernkurve von FreeCAD kann sehr steil sein, besonders wenn es Ihr erster Kontakt mit dem 3D Modellieren ist. Falls Sie an einigen Stellen nicht mehr weiter kommen, vergessen Sie nicht, dass es eine freundliche Community von Nutzern unter [FreeCAD forum](http://forum.freecadweb.org/index.php) gibt, welche Ihnen schnell weiter helfen kann.
+Das Hauptaugenmerk von FreeCAD besteht darin, Ihnen zu ermöglichen, hochpräzise 3D-Modelle zu erstellen, deren Eigenschaften Sie weiterhin genau kontrollieren (durch die Möglichkeit, in der Modellhistorie zurück zu gehen, und Parameter anpassen zu können) und gegebenenfalls auch die Fertigung dieser Modelle (mittels 3D-Druck, CNC-Fräsen oder sogar bei Bauwerken). Es unterscheidet sich daher sehr von einigen anderen 3D-Anwendungen, die für andere Einsatzzwecke wie z.B. Erstellen von Animationsfilmen oder Spielen programmiert wurden. Die Lernkurve von FreeCAD kann sehr steil sein, besonders wenn es Ihr erster Kontakt mit dem 3D-Modellieren ist. Falls Sie an einigen Stellen nicht mehr weiterkommen, vergessen Sie nicht, dass es eine freundliche Gemeinschaft von Nutzern unter [FreeCAD forum](http://forum.freecadweb.org/index.php) gibt, welche Ihnen schnell weiterhelfen kann.
 
 Welchen Arbeitsbereich du in FreeCAD anfängst zu verwenden, hängt von der Art der Arbeit ab, die du erledigen musst: Wenn du an mechanischen Modellen arbeitest oder ganz allgemein an Miniaturobjekten arbeitest, dann wirst du wahrscheinlich den Arbeitsbereich [PartDesign](PartDesign_Workbench/de.md) verwenden wollen. Wenn du in 2D arbeiten möchtest, dann wechsle zum [Entwurf Arbeitsbereich](Draft_Workbench/de.md) oder zum [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) wenn du Beschränkungen benötigst. Wenn du [Gebäudedatenmodellierung](https://de.wikipedia.org/wiki/Building_Information_Modeling) machen möchtest, starte den [Arch Arbeitsbereich](Arch_Workbench/de.md). Und wenn du aus der OpenSCAD Welt kommst, versuche den [OpenSCAD Arbeitsbereich](OpenSCAD_Workbench/de.md). Es gibt auch viele von der Gemeinschaft entwickelte,verfügbare [Externe Arbeitsbereiche](External_workbenches/de.md).
 

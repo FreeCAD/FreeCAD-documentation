@@ -1,140 +1,186 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign Pocket
-   MenuLocation:Part Design → Create a substractive feature → Pocket
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[PartDesign Pad](PartDesign_Pad.md)
+   Name/pl:Projekt Części: Kiezeń
+   MenuLocation:Projekt części → Utwórz cechę przez odjęcie → Kieszeń
+   Workbenches:[Projekt części](PartDesign_Workbench/pl.md)
+   SeeAlso:[Wyciągnięcie](PartDesign_Pad/pl.md)
 ---
 
 # PartDesign Pocket/pl
 
-## Description
 
-The **Pocket** tool cuts solids by extruding a sketch or a face of a solid along a straight path.
 
-![](images/PartDesign_Pocket_example.svg ) *Sketch profile (A) was mapped to the top face of base solid (B); result after pocketing through on the right.*
+## Opis
 
-## Usage
+Narzędzie **Kieszeń** wycina bryły poprzez wyciągnięcie szkicu lub ściany bryły wzdłuż prostej ścieżki.
 
-1.  Select the sketch or face to be pocketed. <small>(v0.20)</small> : Alternatively you can select several sketches or faces.
-2.  Press the **<img src="images/PartDesign_Pocket.svg" width=16px> '''Pocket'''** button.
-3.  Set the Pocket parameters, see the [Options](#Options.md) below.
-4.  Click **OK**.
+![](images/PartDesign_Pocket_example.svg ) *Profil szkicu (A) został odwzorowany na górnej ścianie bryły bazowej (B). Wynik po przebiciu kieszeni po prawej stronie.*
 
-When selecting a single sketch, it can have multiple enclosed profiles inside a larger one, for example a rectangle with two circles inside it. But the profiles may not intersect each other. <small>(v0.20)</small> 
 
-## Options
 
-When creating a pocket, the the **Pocket parameters** dialog will be shown. It offers the following settings:
+## Użycie
+
+1.  Wybierz szkic lub ścianę do wykonania kieszeni. {{Version/pl|0.20}}: Alternatywnie można wybrać kilka szkiców lub ścian.
+2.  Naciśnij przycisk **<img src="images/PartDesign_Pocket.svg" width=16px> '''Kieszeń'''**.
+3.  Ustaw parametry kieszeni, patrz [Opcje](#Opcje.md) poniżej.
+4.  Kliknij **OK**.
+
+Podczas wybierania pojedynczego szkicu może on mieć wiele profili zamkniętych wewnątrz większego, na przykład prostokąt z dwoma okręgami w środku. Profile te nie mogą się jednak przecinać. {{Version/pl|0.20}}
+
+
+
+## Opcje
+
+Podczas tworzenia kieszeni zostanie wyświetlone okno dialogowe **Parametry kieszeni**. Oferuje ono następujące ustawienia:
 
 ![](images/pocket_parameters_cropped.png )
 
-### Type
-
-Type offers five different ways of specifying the length to which the pocket will be extruded:
-
-#### Dimension
-
-Enter a numeric value for the length of the pocket. The default direction for extrusion is into the support, but it can be changed by ticking the **Reversed** option. Extrusions occur by default [normal](http://en.wikipedia.org/wiki/Surface_normal) to the defining sketch plane. This can be changed by specifying another **Direction** <small>(v0.20)</small> . With the option **Symmetric to plane** the pocket will extend half of the given length to either side of the plane. Negative dimensions are not possible. Use the **Reversed** option instead.
-
-#### Through all 
-
-The pocket will extrude through all objects in the extrusion direction. With the option **Symmetric to plane** the pad will cut through all material in both directions.**Note:** For technical reasons, *Through All* is actually a 10 meter deep pocket. If you need deeper pockets, use the type **Dimension**.
-
-#### To first 
-
-The pocket will extrude up to the first face of the support in the extrusion direction. In other words, it will cut through all material until it reaches an empty space.
-
-#### Up to face 
-
-The pocket will extrude up to a face in the model that can be chosen by clicking on it.
-
-#### Two dimensions 
-
-This allows to enter a second length in which the pocket should extend in the opposite direction (into the support). The directions can be switched by ticking the **Reversed** option.
-
-### Length
-
-Defines the length of the pocket. Multiple units can be used independently of the user\'s units preferences (m, cm, mm, nm, ft or \', in or \"). This option is only available when **Type** is either **Dimension** or **Two dimensions**.
-
-### Offset to face 
-
-Offset from face at which the pocket will end. This option is only available when **Type** is either **Through all**, **To first** or **Up to face**.
-
-### Direction
 
 
-<small>(v0.20)</small> 
+### Typ
 
-#### Direction/edge
-
-You can select the direction of the extrusion:
-
--   **Face/Sketch normal** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
--   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion.
--   **Custom direction** The sketch is extruded along a direction that can be specified via vector values.
-
-#### Show direction 
-
-If checked, the pocket direction will be shown. In case the pocket uses a **Custom direction**, it can be changed.
-
-#### Length along sketch normal 
-
-If checked, the pocket length is measured along the sketch normal, otherwise along the custom direction.
-
-### Symmetric to plane 
-
-Tick the checkbox to extrude half of the given length to either side of the sketch or plane.
-
-### Reversed
-
-Reverses the direction of the pocket.
-
-### Taper angle 
+Opcja Typ oferuje pięć różnych sposobów określania długości, na jaką kieszeń będzie wytłaczana:
 
 
-<small>(v0.20)</small> 
 
-Tapers the pocket in the extrusion direction by the given angle. A positive angle means the outer pocket border gets wider. This option is only available if **Type** is either **Dimension** or **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
+#### Wymiar
 
-Limitations:
-
--   Sketches containing [B-Splines](B-Splines.md) often cannot be properly tapered. This is a limitation of the [OpenCASCADE](OpenCASCADE.md) kernel that FreeCAD uses.
--   For larger angles tapering will fail if the end face of the pocket would have fewer edges than the start face/sketch.
-
-### 2nd length 
-
-Defines the length of the pocket in the opposite extrusion direction. Multiple units can be used independently of the user\'s units preferences (m, cm, mm, nm, ft or \', in or \"). This option is only available if **Type** is **Two dimensions**.
-
-### 2nd taper angle 
+Wprowadź wartość liczbową długości kieszeni. Domyślnym kierunkiem wyciągnięcia jest podpora, ale można go zmienić, zaznaczając opcję *Odwrócony*. Wyciągnięcia są domyślnie [normalne](http://en.wikipedia.org/wiki/Surface_normal) do definiującej płaszczyzny szkicu. Można to zmienić, określając inny **Kierunek** {{Version/pl|0.20}}. Z opcją **Symetrycznie do płaszczyzny** kieszeń będzie rozciągać się na połowę podanej długości po obu stronach płaszczyzny. Wymiary ujemne nie są możliwe. Zamiast tego należy użyć opcji **Odwrócony**.
 
 
-<small>(v0.20)</small> 
 
-Tapers the pocket in the opposite extrusion direction by the given angle. A positive angle means the outer pocket border gets wider. This option is only available if **Type** is **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
+#### Przez wszystkie 
 
-## Properties
+Kieszeń będzie przechodzić przez wszystkie obiekty w kierunku wytłaczania. Po wybraniu opcji **Symetrycznie do płaszczyzny**, kieszeń będzie przecinać wszystkie materiały w obu kierunkach.
+**Uwaga:** Z przyczyn technicznych, **Przez wszystkie\'\' jest w rzeczywistości kieszenią o głębokości 10 m\' Jeżeli potrzebujesz głębszych kieszeni, użyj opcji**Wymiar\'\'\'.
 
--    **Type**: Type of ways how the pocket will be extruded, see [Options](#Options.md).
 
--    **Length**: Defines the length of the pocket, see [Options](#Options.md).
 
--    **Length2**: Second pocket length in case the **Type** is **TwoLengths**, see [Options](#Options.md).
+#### Do pierwszego 
 
--    **Use Custom Vector**: <small>(v0.20)</small>  If checked, the pocket direction will not be the normal vector of the sketch but the given vector, see [Options](#Options.md).
+Kieszeń będzie rozciągać się aż do pierwszej ściany podpory w kierunku wytłaczania. Innymi słowy, będzie przecinać cały materiał aż do osiągnięcia pustej przestrzeni.
 
--    **Direction**: <small>(v0.20)</small>  Vector of the pocket direction if **Use Custom Vector** is used.
 
--    **Along Sketch Normal**: <small>(v0.20)</small>  If *true*, the pocket length is measured along the sketch normal. Otherwise and if **Use Custom Vector** is used, it is measured along the custom direction.
 
--    **Up To Face**: A face the pocket will extrude up to, see [Options](#Options.md).
+#### Do ściany 
 
--    **Refine**: True or false. Cleans up residual edges left after the operation. This property is initially set according to the user\'s settings (found in **Preferences → Part design → General → Model settings**). It can be manually changed afterwards. This property will be saved with the FreeCAD document.
+Kieszeń zostanie wycięta aż do ściany w modelu, którą można wybrać klikając na nią.
 
-## Limitations
 
--   Use the type **Dimension** or **Through All** wherever possible because the other types sometimes give trouble when they are being patterned
--   Otherwise, the pocket feature has the same [limitations](PartDesign_Pad#Limitations.md) as the Pad feature.
+
+#### Dwa wymiary 
+
+Umożliwia wprowadzenie drugiej długości, w której kieszeń powinna rozciągać się w przeciwnym kierunku *(do podpory)*. Kierunki można przełączać, zaznaczając opcję **Odwrócony**.
+
+
+
+### Długość
+
+Określa głębokość kieszeni. Może być używanych wiele jednostek, niezależnie od ustawionych w programie preferencji użytkownika *(m, cm, mm, nm, ft lub \', in lub \")*. Opcja ta jest dostępna tylko wtedy, gdy opcja **Typ** ma wartość **Wymiar** lub **Dwa wymiary**.
+
+
+
+### Odsunięcie od ściany 
+
+Odsunięcie od powierzchni, na której ma się kończyć kieszeń. Opcja ta jest dostępna tylko gdy **Typ** jest ustawiony na **Przez wszystkie**, **Do pierwszego** lub **Do ściany**.
+
+
+
+### Kierunek
+
+
+{{Version/pl|0.20}}
+
+
+
+#### Kierunek / krawędź 
+
+Można wybrać kierunek wyciągania:
+
+-   **Wektor normalny ściany** Szkic lub ściana zostanie wyciągnięty wzdłuż swojego wektora normalnego. Jeśli wybrałeś kilka szkiców lub ścian do wyciągnięcia, użyty zostanie wektor normalnej pierwszego z nich. {{Version/pl|0.20}}
+-   **Wybierz odniesienie \...** Szkic zostanie wyciągnięty wzdłuż krawędzi modelu 3D. Gdy ta metoda jest wybrana, można wybrać dowolną krawędź w modelu 3D. Stanie się ona wtedy wektorem kierunku dla wytłoczenia. {{Version/pl|0.20}}
+-   **Kierunek niestandardowy** Szkic jest wyciskany wzdłuż kierunku, który można określić za pomocą wartości wektorowych.
+
+
+
+#### Pokaż kierunek 
+
+Jeśli opcja jest zaznaczona, kierunek kieszeni zostanie wyświetlony. W przypadku, gdy kieszeń używa **Niestandardowego kierunku**, można go zmienić.
+
+
+
+#### Długość wzdłuż wektora normalnego szkicu 
+
+Jeśli opcja jest zaznaczona, długość kieszeni jest mierzona wzdłuż kierunku wektora normalnego szkicu, w przeciwnym razie wzdłuż kierunku niestandardowego.
+
+
+
+### Symetrycznie do płaszczyzny 
+
+Zaznacz pole wyboru, aby rozmieścić pośrodku zadaną długość wyciągnięcia, po obu stronach płaszczyzny szkicu.
+
+
+
+### Odwrócony
+
+Odwraca kierunek wykonania kieszeni.
+
+
+
+### Kąt zwężenia 
+
+
+{{Version/pl|0.20}}
+
+Zwęża kieszeń w kierunku wytłaczania o podany kąt. Dodatni kąt oznacza, że zewnętrzna krawędź bryły staje się szersza. Opcja ta jest dostępna tylko gdy **Typ** jest ustawiony na **Wymiar** lub **Dwa wymiary**. Należy pamiętać, że konstrukcje wewnętrzne otrzymują przeciwny kąt zwężenia. Ma to na celu ułatwienie projektowania form i elementów formowanych.
+
+Ograniczenia:
+
+-   Szkice zawierające [krzywe złożone](B-Splines/pl.md) często nie mogą być poprawnie zwężone. Jest to ograniczenie jądra [OpenCASCADE](OpenCASCADE/pl.md), którego używa FreeCAD.
+-   Dla większych kątów zwężanie nie powiedzie się, jeżeli końcowa powierzchnia kieszeni będzie miała mniej krawędzi niż powierzchnia / szkic początkowy.
+
+
+
+### Druga długość 
+
+Określa długość kieszeni w przeciwnym kierunku wycinania. Można użyć wielu jednostek niezależnie od preferencji użytkownika dotyczących jednostek *(m, cm, mm, nm, ft lub \', in lub \")*. Opcja ta jest dostępna tylko gdy **Typ** jest ustawiony na **Dwa wymiary**.
+
+
+
+### Kąt drugiego zwężenia 
+
+
+{{Version/pl|0.20}}
+
+Zwęża kieszeń w przeciwnym kierunku wycinania o podany kąt. Dodatni kąt oznacza, że zewnętrzna powierzchnia bryły staje się szersza. Opcja ta jest dostępna tylko gdy **Typ** jest ustawiony na **Dwa wymiary**. Należy pamiętać, że struktury wewnętrzne otrzymują przeciwny kąt zwężenia. Robi się to w celu ułatwienia projektowania form i wyprasek.
+
+
+
+## Właściwości
+
+-    **Typ**: Rodzaje, w jaki sposób kieszeń będzie wytłaczana, patrz sekcja [Opcje](#Opcje.md).
+
+-    **Długość**: Określa długość kieszeni, patrz [Opcje](#Opcje.md).
+
+-    **Długość2**: Druga długość kieszeni w przypadku, gdy **Typ** ma wartość **Dwa wymiary**, patrz [Opcje](#Opcje.md).
+
+-    **Kierunek niestandardowy**: {{Version/pl|0.20}}. Jeśli opcja jest zaznaczona, kierunek kieszeni nie będzie wektorem normalnym szkicu, ale wektorem wskazanym, patrz sekcja [Opcje](#Opcje.md).
+
+-    **Kierunek**: {{Version/pl|0.20}}. Wektor kierunku kieszeni, jeśli użyto **Kierunek niestandardowy**.
+
+-    **Wzdłuż normalnej szkicu**: {{Version/pl|0.20}}. Jeśli wartość ta zostanie ustawiona na {{true/pl}}, długość kieszeni będzie mierzona wzdłuż normalnej szkicu. W przeciwnym razie i jeśli użyto **Kierunek niestandardowy**, jest ona mierzona wzdłuż niestandardowego kierunku.
+
+-    **Do ściany**: Ściana, do której kieszeń będzie wytłaczana, patrz [Opcje](#Opcje.md).
+
+-    **Ulepsz**: przyjmuje wartości {{true/pl}} lub {{false/pl}}. Czyści pozostałe krawędzie po operacji. Ta właściwość jest początkowo ustawiana zgodnie z ustawieniami użytkownika *(w **Preferencje → Część / Projekt Części → Ogólne → Ustawienia modelu**)*. Można ją potem zmienić samodzielnie. Właściwość ta zostanie zapisana wraz z dokumentem FreeCAD.
+
+
+
+## Ograniczenia
+
+-   Używaj typu **Wymiar** lub **Przez wszystkie**, gdy tylko jest to możliwe, ponieważ inne typy czasami sprawiają problemy, gdy są modelowane.
+-   W przeciwnym razie cecha kieszeni ma takie same [ograniczenia](PartDesign_Pad/pl#Ograniczenia.md) jak cecha Wyciągnięcie.
 
 
 

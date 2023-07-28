@@ -29,7 +29,9 @@ brew install freecad
 
 If there are any issues with the HomeBrew Cask or Formula you may report them to [here](https://github.com/FreeCAD/homebrew-freecad).
 
-This page describes the usage and features of the FreeCAD installer. It also includes uninstallation instructions. Once installed, you can [get started](Getting_started.md)!
+This page describes the usage and features of the FreeCAD installer. It also includes uninstallation instructions. Head to [Getting started](Getting_started.md) once installation is complete.
+
+
 
 ### Instalação simples 
 
@@ -41,7 +43,15 @@ Pode fazer o download do instalador mais recente [aqui](Download/pt.md). Depois 
 
 ![](images/mac_installer_1.png )
 
+
+<div class="mw-translate-fuzzy">
+
 O instalador vai apresentar um ecran **Personalise a Insralação** que lista os pacotes que vão ser instalados. Se souber que já tem alguns dos pacotes, clique nas caixas para as des-selecionar. Se não tive a certeza, deixe todos os items selecionados.
+
+
+</div>
+
+
 
 ### Desinstalação
 

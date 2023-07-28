@@ -9,6 +9,11 @@
 
 # TechDraw GeometricHatch/ru
 
+
+</div>
+
+
+
 ## Описание
 
 
@@ -22,15 +27,19 @@
 <img alt="" src=images/TechDraw_GeomHatch_example.png  style="width:300px;"> 
 *Геометрический узор штриховки на грани*
 
+
+
 ## Применение
 
 1.  Select a closed region in a View.
 2.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_GeometricHatch.svg" width=16px> [TechDraw GeometricHatch](TechDraw_GeometricHatch.md)** button.
-    -   Select the **TechDraw → <img src="images/TechDraw_GeometricHatch.svg" width=16px> Apply Geometric Hatch to Face** option from the menu.
+    -   Select the **TechDraw → Hatching → <img src="images/TechDraw_GeometricHatch.svg" width=16px> Apply Geometric Hatch to Face** option from the menu.
 3.  The **Apply Geometric Hatch to Face** task panel opens.
 4.  Optionally change the **Pattern File**, the **Pattern Name**, the **Pattern Scale**, the **Line Weight** and the **Line Color**.
 5.  Press the **OK** button.
+
+
 
 ## Примечания
 
@@ -53,6 +62,8 @@ is the directory where FreeCAD was installed, for example
 /usr/share/freecad/data/Mod/TechDraw/PAT/FCPAT.pat
 ```
 
+
+
 ## Свойства
 
 -    **Source**: The View and Face to receive the hatch pattern.
@@ -67,6 +78,8 @@ is the directory where FreeCAD was installed, for example
 
 -    **Color Pattern**: The color for the pattern lines.
 
+
+
 ## Программирование
 
 
@@ -74,15 +87,15 @@ is the directory where FreeCAD was installed, for example
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The GeometricHatch tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+A GeometricHatch can be created with [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 
 
 ```python
-hatch = FreeCAD.ActiveDocument.addObject('TechDraw::DrawGeomHatch','GeomHatch')
-hatch.Source = (view1,["Face0"])
+hatch = FreeCAD.ActiveDocument.addObject("TechDraw::DrawGeomHatch", "GeomHatch")
+hatch.Source = (view1, ["Face0"])
 hatch.FilePattern = "path/to/myPATfile.pat"
 hatch.NamePattern = "Diamond"
-rc = page.addView(hatch)
+page.addView(hatch)
 ```
 
 It is also possible to use TechDraw\'s geometric hatch engine to produce a compound object in the 3D space. One must take care that the base face lies on the XY plane, as the algorithm is not tailored yet for other cases:
@@ -90,7 +103,7 @@ It is also possible to use TechDraw\'s geometric hatch engine to produce a compo
 
 ```python
 import TechDraw
-face = Part.makePlane(10,10)
+face = Part.makePlane(10, 10)
 patfile = "path/to/myPATfile.pat"
 pattern = "Diamond"
 scale = 10

@@ -1,9 +1,15 @@
-# Std ViewScreenShot/it
 ---
-- GuiCommand:/it   Name:Std_ViewScreenShot   Name/it:Cattura Schermata   MenuLocation:Strumenti → Salva immagine...   Workbenches:Tutti   SeeAlso:[Stampa](Std_Print/it.md), [Esporta Pdf](Std_PrintPdf/it.md)---
+- GuiCommand:/it
+   Name:Std_ViewScreenShot
+   Name/it:Cattura Schermata
+   MenuLocation:Strumenti → Salva immagine...
+   Workbenches:Tutti
+   SeeAlso:[Stampa](Std_Print/it.md), [Esporta Pdf](Std_PrintPdf/it.md), [Macro Copia la vista 3D negli appunti](Macro_Copy3DViewToClipboard/it.md), [Macro Screen Wiki](Macro_Screen_Wiki/it.md), [Macro Snip](Macro_Snip/it.md)
+---
+
+# Std ViewScreenShot/it
 
 
-</div>
 
 ## Descrizione
 
@@ -12,89 +18,105 @@ Il comando **Salva immagine** apre una finestra di dialogo per salvare il conten
 <img alt="" src=images/Save_picture.png  style="width:800px;"> 
 *La finestra di dialogo Salva immagine dopo aver premuto il pulsante Esteso*
 
+
+
 ## Utilizzo
 
-1.  Select the **Tools → <img src="images/Std_ViewScreenShot.svg" width=16px> Save picture...** option from the menu.
-2.  The Save picture dialog box opens.
-3.  Optionally press the **Extended** button to reveal an additional panel in the dialog box. For more information see [Options](#Options.md).
-4.  Optionally browse to the correct folder.
-5.  Enter a filename and select the file type.
-6.  Press the **Save** button to create the image file and close the dialog box.
+1.  Selezionare l\'opzione **Strumenti → <img src="images/Std_ViewScreenShot.svg" width=16px> Salva immagine...** dal menu.
+2.  Si apre la finestra di dialogo Salva immagine.
+3.  Facoltativamente, premere il pulsante **Esteso** per visualizzare un pannello aggiuntivo nella finestra di dialogo. Per maggiori informazioni vedere [Opzioni](#Opzioni.md).
+4.  Facoltativamente, sfogliare fino alla cartella corretta.
+5.  Immettere un nome file e selezionare il tipo di file.
+6.  Premere il pulsante **Salva** per creare il file immagine e chiudere la finestra di dialogo.
 
-## Options
 
-### Image dimensions 
 
-1.  Select a standard size from the **Standard sizes** dropdown list. Or specify the **Width** and **Height** for a custom size.
-2.  Optionally press an **Aspect ratio** button to set the width-to-height ratio of the image. If the **Width** input box has the focus the height of the image will change and vice versa.
+## Opzioni
 
-### Image properties 
 
-1.  Select an option from the **Background** dropdown list:
+
+### Dimensioni immagine 
+
+1.  Selezionare una dimensione standard dall\'elenco a discesa **Dimensioni standard**. Oppure specificare **Larghezza** e **Altezza** per una dimensione personalizzata.
+2.  Facoltativamente, premere un pulsante **Proporzioni** per impostare il rapporto larghezza-altezza dell\'immagine. Se la casella di input **Larghezza** ha il focus, l\'altezza dell\'immagine cambierà e viceversa.
+
+
+
+### Proprietà immagine 
+
+1.  Selezionare un\'opzione dall\'elenco a discesa **Sfondo**:
     -   
-        {{Value|Current}}
+        {{Value|Corrente}}
         
-        This option uses the background of the 3D view.
-
-    -   
-        {{Value|White}}
-        
-
-    -   
-        {{Value|Black}}
-        
+        Questa opzione utilizza lo sfondo della vista 3D.
 
     -   
-        {{Value|Transparent}}
+        {{Value|Bianco}}
         
-        Not all image formats support transparency.
-2.  Select an option from the **Creation method** dropdown list:
+
+    -   
+        {{Value|Nero}}
+        
+
+    -   
+        {{Value|Transparente}}
+        
+        Non tutti i formati immagine supportano la trasparenza.
+2.  Selezionare un\'opzione dall\'elenco a discesa **Metodo di creazione**:
     -   
         {{Value|Offscreen (New)}}
         
-        This is the default method. This method supports [anti-aliasing](https://en.wikipedia.org/wiki/Multisample_anti-aliasing). *Technical information: The most important classes for this method are Qt\'s QOffscreenSurface and QOpenGLFramebufferObject.*
+        Questo è il metodo predefinito. Questo metodo supporta l\'[anti-aliasing](https://en.wikipedia.org/wiki/Multisample_anti-aliasing). *Informazioni tecniche: le classi più importanti per questo metodo sono QOffscreenSurface e QOpenGLFramebufferObject di Qt.*
 
     -   
         {{Value|Offscreen (Old)}}
         
-        This method does not work on many modern Linux systems as it relies on the graphics driver. This method does not support anti-aliasing. *Technical information: This is a real off-screen rendering method that only uses functions from the Coin3d library.*
+        Questo metodo non funziona su molti sistemi Linux moderni in quanto si basa sul driver grafico. Questo metodo non supporta l\'anti-aliasing. *Informazioni tecniche: questo è un vero e proprio metodo di rendering off-screen che utilizza solo le funzioni della libreria Coin3d.*
 
     -   
         {{Value|Framebuffer (custom)}}
         
-        This method supports anti-aliasing. *Technical information: If anti-aliasing is off, this method reads the image directly from the graphics renderer, else it renders to a framebuffer and gets the image from there. The key part of this method is Qt\'s QOpenGLFramebufferObject class.*
+        Questo metodo supporta l\'anti-aliasing. *Informazioni tecniche: se l\'anti-aliasing è disattivato, questo metodo legge l\'immagine direttamente dal renderer grafico, altrimenti esegue il rendering in un framebuffer e ottiene l\'immagine da lì. La parte fondamentale di questo metodo è la classe QOpenGLFramebufferObject di Qt.*
 
     -   
         {{Value|Framebuffer (as is)}}
         
-        This method uses the same techniques as **Framebuffer (custom)**. It also supports anti-aliasing but has some limitations related to custom sizes and always uses the current background of the 3D view.
+        Questo metodo usa le stesse tecniche di **Framebuffer (custom)**. Supporta anche l\'anti-aliasing ma presenta alcune limitazioni relative alle dimensioni personalizzate e utilizza sempre lo sfondo corrente della vista 3D.
 
-### Image comment 
 
-1.  Select the {{RadioButton|TRUE|Insert MIBA}} option to add [MIBA](MIBA.md) information to the file. Not all image formats support this.
-2.  Or select the {{RadioButton|TRUE|Insert comment}} option and type a comment in the text field to embed a comment in the file. Not all image formats support this.
-3.  Check the {{CheckBox|TRUE|Add watermark}} checkbox to add a watermark. The watermark is placed in the lower left corner of the image and consists of the FreeCAD logo and name above the main FreeCAD URL: [www.freecadweb.org](http://www.freecadweb.org).
 
-## Notes
+### Commento immagine 
 
--   The number of available image file formats may vary depending on your OS.
--   Some OpenGL drivers don\'t allow renderings above a certain maximum size.
+1.  Selezionare l\'opzione {{RadioButton|TRUE|Inserisci MIBA}} per aggiungere le informazioni [MIBA](MIBA/it.md) al file. Non tutti i formati immagine lo supportano.
+2.  Oppure selezionare l\'opzione {{RadioButton|TRUE|Inserisci commento}} e digitare un commento nel campo di testo per incorporare un commento nel file. Non tutti i formati immagine lo supportano.
+3.  Selezionare la casella di controllo {{CheckBox|TRUE|Aggiungi filigrana}} per aggiungere una filigrana. La filigrana si trova nell\'angolo in basso a sinistra dell\'immagine ed è costituita dal logo e dal nome di FreeCAD sopra l\'URL principale di FreeCAD: [www.freecadweb.org](http://www.freecadweb.org).
 
-## Preferences
 
--   The 3D view background can be changed in the preferences: **Edit → Preferences... → Display → Colors → Background color**. See [Preferences Editor](Preferences_Editor#Colors.md).
--   To change the 3D view anti-aliasing: **Edit → Preferences... → Display → 3D view → Rendering → Anti-Aliasing**. See [Preferences Editor](Preferences_Editor#3D_View.md).
 
-## Scripting
+## Note
 
-It is possible to create screenshots with python code.
+-   Il numero di formati di file immagine disponibili può variare a seconda del sistema operativo.
+-   Alcuni driver OpenGL non consentono rendering al di sopra di una certa dimensione massima.
+
+
+
+## Preferenze
+
+-   Lo sfondo della vista 3D può essere modificato nelle preferenze: **Modifica → Preferenze... → Visualizzazione → Colori → Colore di sfondo**. Vedi [Editor delle preferenze](Preferences_Editor/it#Colori.md).
+-   Per cambiare l\'anti-aliasing della vista 3D: **Modifica → Preferenze... → Visualizzazione → Vista 3D → Rendering → Anti-Aliasing**. Vedi [Editor delle preferenze](Preferences_Editor/it#Vista_3D.md).
+
+
+
+## Script
+
+È possibile creare screenshot con codice Python.
 
 
 ```python
 Gui.ActiveDocument.ActiveView.saveImage('C:/temp/test.png',1656,783,'Current')
 ```
 
-This script saves a series of screenshots of different sizes and from different directions. The camera type, orthographic or perspective, is also changed.
+Questo script salva una serie di screenshot di diverse dimensioni e da diverse direzioni. Anche il tipo di fotocamera, ortogonale o prospettica, viene modificato.
 
 
 ```python
@@ -117,13 +139,7 @@ App.closeDocument(App.ActiveDocument.Name)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

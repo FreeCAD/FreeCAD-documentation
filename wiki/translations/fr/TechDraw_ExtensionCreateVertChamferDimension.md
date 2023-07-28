@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionCreateVertChamferDimension.svg  style="width:24px;"> **TechDraw Cote verticale chanfrein** crée une cote verticale de la dimension et de l\'angle pour un chanfrein.
+L\'outil **TechDraw Cote verticale chanfrein** crée une cote verticale de la dimension et de l\'angle pour un chanfrein.
 
 <img alt="" src=images/TechDraw_ExtensionCreateVertChamferDimensionExample.png  style="width:450px;"> 
 *A droite, la cote créée*
+
+
 
 ## Utilisation
 

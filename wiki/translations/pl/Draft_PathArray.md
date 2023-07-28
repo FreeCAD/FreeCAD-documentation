@@ -10,6 +10,8 @@
 
 # Draft PathArray/pl
 
+
+
 ## Opis
 
 Polecenie <img alt="" src=images/Draft_PathArray.svg  style="width:24px;"> **Szyk po ścieżce** tworzy zwykły szyk z wybranego obiektu przez umieszczenie kopii wzdłuż ścieżki. Zamiast tego użyj polecenia [Szyk powiązań po ścieżce](Draft_PathLinkArray/pl.md), aby utworzyć bardziej wydajny szyk [powiązań](App_Link.md). Z wyjątkiem typu utworzonych szyków *(szyk powiązań lub zwykły szyk)*, polecenie [Szyk powiązań po ścieżce](Draft_PathLinkArray/pl.md) jest identyczne z tym poleceniem.
@@ -18,6 +20,8 @@ Oba polecenia mogą być używane na obiektach 2D utworzonych za pomocą środow
 
 <img alt="" src=images/Draft_PathArray_Example.png  style="width:400px;"> 
 *Szyk po ścieżce*
+
+
 
 ## Użycie
 
@@ -108,9 +112,13 @@ The properties in this group are only available for Link arrays. See [Std LinkMa
 
 -    **Align Mode|Enumeration**: specifies the align mode, which can be {{Value|Original}}, {{Value|Frenet}} or {{Value|Tangent}}.
 
+-    **End Offset|Length**: specifies the length from the end of the path to the last copy. Must be smaller than the length of the path minus the **Start Offset**. <small>(v0.21)</small> 
+
 -    **Extra Translation|VectorDistance**: specifies an additional displacement for each element along the path.
 
 -    **Force Vertical|Bool**: specifies whether to override the default normal direction with the value of **Vertical Vector**. Only used if **Align Mode** is {{Value|Original}} or {{Value|Tangent}}.
+
+-    **Start Offset|Length**: specifies the length from the start of the path to the first copy. Must be smaller than the length of the path. <small>(v0.21)</small> 
 
 -    **Tangent Vector|Vector**: specifies the alignment vector. Only used if **Align Mode** is {{Value|Tangent}}.
 

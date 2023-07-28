@@ -1,16 +1,20 @@
 ---
-- GuiCommand:
-   Name:Sketcher MirrorSketch
-   MenuLocation:Sketch → Mirror sketch
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+- GuiCommand:/zh-cn
+   Name:镜像草图
+   MenuLocation:Sketch → 镜像草图
+   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md)
    Version:0.16
 ---
 
 # Sketcher MirrorSketch/zh-cn
 
+
+
 ## 描述
 
 沿x轴、y轴或原点镜像草图。
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -35,7 +39,13 @@
 -   Multiple sketches can be selected before applying the operation.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher Tools navi

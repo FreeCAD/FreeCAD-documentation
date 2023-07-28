@@ -17,10 +17,10 @@
 
 ## Einleitung
 
-This example is meant to show how to simulate the 6th example of [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf), **Electrostatic equation -- Capacitance of two balls**, using the new [FEM Examples](FEM_Examples.md). It illustrates how to setup the example, study it\'s various parts, solve it using the [Elmer Solver](FEM_SolverElmer.md) and visualize the results using [Clip Filter](FEM_PostFilterClipRegion.md).
+Dieses Beispiel soll zeigen, wie das 6. Beispiel der [Elmer-GUI-Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf), **Electrostatic equation -- Capacitance of two balls**, unter Verwendung der neuen [FEM Beispiele](FEM_Examples/de.md) simuliert wird. Es zeigt, wie das Beispiel aufgebaut wird, beschreibt verschiedene Bestandteile, zeigt die Berechnung mit [Elmer](FEM_SolverElmer/de.md) und wie die Ergebnisse mit [Ausschnittfiltern](FEM_PostFilterClipRegion/de.md) dargestellt werden.
 
 <img alt="" src=images/Two_balls_result_2.png  style="width:1000px;"> 
-*The final result of this tutorial*
+*Das Endergebnis dieser Anleitung*
 
 
 
@@ -70,7 +70,7 @@ This case presents the solution of the capacitance of perfectly conducting balls
 -   The two smaller spheres are fused together and then that fusion is is cut from the bigger sphere.
 
 <img alt="" src=images/Two_balls_model_full.png  style="width:1000px;"> 
-*The initial model*
+*Das Ausgangsmodell*
 
 
 
@@ -88,7 +88,7 @@ The objects used in this electrostatic analysis:
 8.  <img alt="" src=images/FEM_MeshRegion.svg  style="width:24px;"> MeshRegion, a mesh region for the smaller spheres
 
 ![](images/Two_balls_analysis.png ) 
-*The objects as they appear in the [Tree view](Tree_view.md)*
+*Die Objekte, wie sie in der [Baumansicht](Tree_view/de.md) dargestellt werden*
 
 
 
@@ -151,9 +151,11 @@ Note that when <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:24p
 -   Here, our desired result is C~12~ = 1.69328. This value is close to the `1.691` given in the [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf). We can get an even closer value by making a finer [Mesh Region](FEM_MeshRegion.md) but this activity is left for the user. Also, the user is advised to play with the [Clip Filter](FEM_PostFilterClipRegion.md) to get a visual result similar to the first picture of this tutorial.
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM Example Capacitance Two Balls/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Example Capacitance Two Balls/de

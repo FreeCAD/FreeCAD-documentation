@@ -2,6 +2,8 @@
 ---
 - GuiCommand:/it   Name:Surface CurveOnMesh   Name/it:CurveOnMesh   MenuLocation:Surface → Curve on mesh...   Workbenches:[Surface](Surface_Workbench/it.md)|---
 
+
+
 ## Descrizione
 
 
@@ -20,6 +22,8 @@ These edges created on top of the mesh may be further used to re-create the surf
 
 
 *Above left: mesh object with selected points on the surface. Above right: splines created by picking several points on the mesh. Lower left: a parametric surface reconstructed from the approximated splines, using [Surface Sections](Surface_Sections.md).*
+
+
 
 ## Utilizzo
 
@@ -40,6 +44,8 @@ After pressing **Start**, the context menu (right-click) in the [3D view](3D_vie
 -    **Clear**: it will erase the tentative points that have been picked on the mesh, and will allow you to pick new ones.
 
 -    **Cancel**: it will erase the tentative points that have been picked, and will stop the picking operation. Press **Start** again to pick points once more.
+
+
 
 ## Opzioni
 
@@ -65,6 +71,8 @@ section:
 -    **Continuity**: it defaults to {{Value|C2}}. It determines the continuity of the spline; it can be {{Value|C0}} (touching), {{Value|C1}} (tangent), {{Value|C2}} (curvature), and {{Value|C3}} (acceleration curvature).
 
 -    **Maximum curve degree**: it defaults to {{Value|5}}. It determines the maximum degree of the spline to approximate the surface; it can be a value from {{Value|1}} to {{Value|8}}.
+
+
 
 ## Proprietà
 

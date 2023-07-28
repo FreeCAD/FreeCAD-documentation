@@ -12,10 +12,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:24px;"> **TechDraw Filetage** ajoute des filetages cosmétiques à la vue de dessus ou de dessous des boulons/vis/tiges.
+L\'outil **TechDraw Filetage** ajoute des filetages cosmétiques à la vue de dessus ou de dessous des boulons/vis/tiges.
 
 <img alt="" src=images/TechDraw_ExtensionThreadBoltBottomExample.png  style="width:200px;"> 
 *À droite, une tige avec un filetage cosmétique.*
+
+
 
 ## Utilisation
 

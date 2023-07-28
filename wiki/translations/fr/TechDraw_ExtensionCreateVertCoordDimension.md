@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionCreateVertCoordDimension.svg  style="width:24px;"> **TechDraw Cotes parallèles verticales** crée des cotes de coordonnées verticales : plusieurs cotes régulièrement espacées partant de la même ligne de base.
+L\'outil **TechDraw Cotes parallèles verticales** crée des cotes de coordonnées verticales : plusieurs cotes régulièrement espacées partant de la même ligne de base.
 
 <img alt="" src=images/TechDraw_ExtensionCreateVertCoordDimensionExample.png  style="width:400px;"> 
 *A droite, les cotes créées*
+
+
 
 ## Utilisation
 

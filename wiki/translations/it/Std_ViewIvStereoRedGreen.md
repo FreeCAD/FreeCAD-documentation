@@ -13,19 +13,19 @@
 
 ## Descrizione
 
-The **Std ViewIvStereoRedGreen** command changes the active [3D view](3D_view.md) to red/cyan, [anaglyph](https://en.wikipedia.org/wiki/Anaglyph_3D), stereo view mode. To use this stereo mode glasses with colored lenses are required.
+Il comando **Stereo rosso/ciano** cambia la [Vista 3D](3D_view/it.md) attiva in rosso/ciano, [anaglyph](https://en.wikipedia.org/wiki/Anaglyph_3D), modalità di visualizzazione stereo. Per utilizzare questa modalità stereo sono necessari occhiali con lenti colorate.
 
 
 
 ## Utilizzo
 
-1.  Select the **View → Stereo → <img src="images/Std_ViewIvStereoRedGreen.svg" width=16px> Stereo red/cyan** option from the menu.
+1.  Selezionare l\'opzione **Visualizza → Stereo → <img src="images/Std_ViewIvStereoRedGreen.svg" width=16px> Stereo rosso/ciano** dal menu.
 
 
 
 ## Preferenze
 
--   The eye to eye distance can be changed in the preferences: **Edit → Preferences... → Display → 3D View → Eye to eye distance for stereo modes**. See [Preferences Editor](Preferences_Editor#3D_View.md).
+-   La distanza occhio-occhio può essere modificata nelle preferenze: **Modifica → Preferenze... → Visualizzazione → Vista 3D → Distanza tra gli occhi per le modalità stereo**. Vedi [Editor delle preferenze](Preferences_Editor/it#Vista_3D.md).
 
 
 
@@ -36,7 +36,7 @@ The **Std ViewIvStereoRedGreen** command changes the active [3D view](3D_view.md
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
-To change the view to red/cyan stereo use the `setStereoType` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Per modificare la visualizzazione in stereo rosso/ciano utilizzare il metodo `setStereoType` dell\'oggetto ActiveView. Questo metodo non è disponibile se FreeCAD è in modalità console.
 
 
 ```python
@@ -47,13 +47,7 @@ FreeCADGui.ActiveDocument.ActiveView.getStereoType()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -35,7 +37,11 @@ Los muros también pueden tener adiciones o sustracciones. Las adiciones son otr
 
 Cuando varios muros deberían intersecar, tienes que ubicarlos en un [piso](Arch_Floor/es.md) para tener su geometría intersecada.
 
+
+
 ## Utilización
+
+
 
 ### Dibujar un muro desde cero 
 
@@ -49,13 +55,20 @@ Cuando varios muros deberían intersecar, tienes que ubicarlos en un [piso](Arch
 
 </div>
 
+
+
 ### Dibujar un muro sobre los objetos seleccionados 
 
 1.  Selecciona uno o más objetos de geometría base (objeto de borrador, croquis, etc.)
 2.  Pulse el botón **<img src="images/Arch_Wall.svg" width=16px> [Arquitectura Muro](Arch_Wall/es.md)**, o pulse las teclas **W** y luego **A**.
 3.  Ajuste las propiedades necesarias, como la altura o la anchura.
 
+
+
 ## Opciones
+
+
+<div class="mw-translate-fuzzy">
 
 -   Los muros comparten las propiedades y comportamientos comunes de todos los [Arquitectura Componentes](Arch_Component/es.md)
 -   La altura, ancho y alineación de un muro se pueden definir mientras se dibuja, por medio del panel de tareas
@@ -71,6 +84,11 @@ Cuando varios muros deberían intersecar, tienes que ubicarlos en un [piso](Arch
 -   Los Muros también puede hacer uso de [Multimateriales](Arch_MultiMaterial/es.md). Cuando se utiliza un material múltiple, la pared se convertirá en multicapa, utilizando los espesores especificados por el material múltiple. Cualquier capa con un espesor de cero tendrá su espesor definido automáticamente por el espacio restante definido por el valor de Ancho del muro, después de restar las otras capas.
 -   Los muros se pueden mostrar bloques, en lugar de un solo sólido, al activar su propiedad **Make Blocks** . El tamaño y el desplazamiento de los bloques se pueden configurar con diferentes propiedades, y la cantidad de bloques se calcula automáticamente. {{Version/es|0.18}}
 
+
+</div>
+
+
+
 ## Ajuste
 
 El ajuste funciona un poco diferente con los muros de Arquitectura que con otros objetos de Arquitectura y Borrador. Si un muro tiene un objeto base, el ajuste se anclará al objeto base, en lugar de a la geometría del muro, lo que permite alinear fácilmente los muros por su línea base. Sin embargo, si quiere ajustarse específicamente a la geometría del muro, pulsando **Ctrl** cambiará el ajuste al objeto muro.
@@ -78,7 +96,46 @@ El ajuste funciona un poco diferente con los muros de Arquitectura que con otros
 <img alt="" src=images/Arch_wall_snap.jpg  style="width:780px;"> 
 *Segunda muro que se ajuste perpendicularmente a la primera*
 
+
+
 ## Propiedades
+
+Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and also have the following extra properties:
+
+### Data
+
+
+{{TitleProperty|Blocks}}
+
+
+<div class="mw-translate-fuzzy">
+
+-    {{PropertyData/es|Make Blocks}}: Habilita esto para hacer que el muro genere bloques
+
+-    {{PropertyData/es|Block Length}}: La longitud de cada bloque
+
+-    {{PropertyData/es|Block Height}}: La altura de cada bloque
+
+-    {{PropertyData/es|Offset First}}: El desplazamiento horizontal de la primera línea de bloques
+
+-    {{PropertyData/es|Offset Second}}: El desplazamiento horizontal de la segunda línea de bloques
+
+-    {{PropertyData/es|Joint}}: El tamaño de las juntas entre cada bloque
+
+-    {{PropertyData/es|Count Entire}}: La cantidad de bloques enteros (solo lectura)
+
+-    {{PropertyData/es|Count Broken}}: La cantidad de bloques rotos (solo lectura)
+
+
+</div>
+
+
+{{TitleProperty|Component}}
+
+-    **Base**: The base object this wall is built on
+
+
+{{TitleProperty|Wall}}
 
 
 <div class="mw-translate-fuzzy">
@@ -105,25 +162,6 @@ Los objetos de muro heredan las propiedades de los objetos [Pieza](Part_Workbenc
 
 
 </div>
-
-
-{{Version/es|0.18}}
-
--    {{PropertyData/es|Make Blocks}}: Habilita esto para hacer que el muro genere bloques
-
--    {{PropertyData/es|Block Length}}: La longitud de cada bloque
-
--    {{PropertyData/es|Block Height}}: La altura de cada bloque
-
--    {{PropertyData/es|Offset First}}: El desplazamiento horizontal de la primera línea de bloques
-
--    {{PropertyData/es|Offset Second}}: El desplazamiento horizontal de la segunda línea de bloques
-
--    {{PropertyData/es|Joint}}: El tamaño de las juntas entre cada bloque
-
--    {{PropertyData/es|Count Entire}}: La cantidad de bloques enteros (solo lectura)
-
--    {{PropertyData/es|Count Broken}}: La cantidad de bloques rotos (solo lectura)
 
 ## Scripting
 

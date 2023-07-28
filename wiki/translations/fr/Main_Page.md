@@ -1,7 +1,7 @@
 # Main Page/fr
 ## Introduction
 
-Ceci est la documentation wiki de [FreeCAD](http://www.freecadweb.org/?lang=fr_FR). Il existe plusieurs façons d\'utiliser cette documentation : en explorant les hubs ou documentations, en suivant le manuel ou en utilisant les entrées du menu Aide depuis FreeCAD. Il s\'agit d\'un travail en continu, rédigé par la communauté des utilisateurs et des développeurs de FreeCAD. Si vous trouvez une information erronée ou manquante, merci [d\'aider FreeCAD](Special:MyLanguage/help_FreeCAD.md)! 
+Ceci est la documentation wiki de [FreeCAD](http://www.freecadweb.org/?lang=fr_FR). Il existe plusieurs façons d\'utiliser cette documentation : en explorant les hubs ou documentations, en suivant le manuel ou en utilisant les entrées du menu Aide depuis FreeCAD. Il s\'agit d\'un travail en continu, rédigé par la communauté des utilisateurs et des développeurs de FreeCAD. Si vous trouvez une information erronée ou manquante, merci [d\'aider FreeCAD](Special:MyLanguage/help_FreeCAD.md) ! 
 
 
 
@@ -56,7 +56,7 @@ Il y a pas mal à faire dans le projet FreeCAD. Si vous êtes intéressé pour n
 -   aider à l\'empaquetage de la dernière version de FreeCAD pour votre système d\'exploitation préféré
 -   aider d\'autres personnes de votre entourage à découvrir FreeCAD.
 
-La page [Contribuer à FreeCAD](help_FreeCAD/fr.md) décrit tout cela avec plus de détails. Depuis 2016, FreeCAD participe aussi au [Google Summer of Code](Google_Summer_of_Code.md). Le [Carrefour des contributeurs](Contributors_hub/fr.md) est une autre initiative pour rassembler les façons possibles d\'aider et contribuer au projet FreeCAD.
+La page [Contribuer à FreeCAD](help_FreeCAD/fr.md) décrit tout cela avec plus de détails. Depuis 2016, FreeCAD participe aussi au [Google Summer of Code](Google_Summer_of_Code.md).
 
 
 

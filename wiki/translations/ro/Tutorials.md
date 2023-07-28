@@ -21,6 +21,8 @@ Please notice the version of FreeCAD used in the tutorial as some tutorials may 
 
 See also [video tutorials](Video_tutorials.md) and [books](Books.md).
 
+
+
 ## Architectura și Construcții Civile și industriale 
 
 
@@ -33,6 +35,8 @@ Cum se face un model de casă mică și produce planul.
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -101,6 +105,8 @@ The Raspberry Pi project has made simple tutorials that are easy to follow, part
 -   [freecad-chess-set](https://projects.raspberrypi.org/en/projects/freecad-chess-set), model and entire chess set in Bauhaus modernist style.
 -   [raspberrypilearning](https://github.com/raspberrypilearning?utf8=%E2%9C%93&q=freecad&type=source&language=) repository (CC-BY 4.0) with other examples.
 
+
+
 ## Desen 2 D și Sketching 
 
 
@@ -113,6 +119,8 @@ Introducere în Sketcher. Constrain3.png\|link=[Sketcher Micro Tutorial - Constr
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -131,6 +139,8 @@ Instructions to create a new page template in Inkscape for using with the TechDr
 
 
 </div>
+
+
 
 ## MEF
 
@@ -168,6 +178,8 @@ Prezentarea rapidă a Atelierului Traiectorie (Path module). Exercise meshing 03
 
 
 </div>
+
+
 
 ## Randare
 
@@ -270,10 +282,6 @@ Here are listed all the tutorials that are not in the manual **regardless of the
 | [Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)                                                        | Product Design          | Beginner              | 0:30                   | r-frank and vocx                                                                               | 0.17 or above       | [Draft_Shapestring_Text](https://github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true)                                                                                                                                                                  |
 ++++++++
 | [Draft tutorial](Draft_tutorial.md)                                                                                | Draft Workbench         | Beginner              | 0:30                   | [Drei](User_Drei.md) and vocx                                                          | 0.19                | [Draft tutorial updated](https://forum.freecadweb.org/viewtopic.php?f=36&t=43651)                                                                                                                                                                                                                                             |
-++++++++
-| [Drawing Template HowTo (obsolete)](Drawing_Template_HowTo.md)                                                     | Drawing Workbench       | Intermediate          | 1:00                   | [Mark Stephen (Quick61)](User_Quick61.md)                                              | 0.14.3700 or above  | None                                                                                                                                                                                                                                                                                                                          |
-++++++++
-| [Drawing tutorial (obsolete)](Drawing_tutorial.md)                                                                 | Drawing Workbench       | Beginner              | 0:15                   | [Drei](User_Drei.md)                                                                   | 0.16 or above       |                                                                                                                                                                                                                                                                                                                               |
 ++++++++
 | [Dxf Importer Install](Dxf_Importer_Install.md)                                                                    | Import                  | Intermediate          | 0:05                   | [Mario52](User_Mario52.md)                                                             | Any                 | None                                                                                                                                                                                                                                                                                                                          |
 ++++++++

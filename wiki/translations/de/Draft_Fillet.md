@@ -1,30 +1,26 @@
 ---
 - GuiCommand:/de
    Name:Draft Fillet
-   Name/de:Entwurf Verrundung
+   Name/de:Draft Verrundung
    MenuLocation:Entwurf → Verrundung
-   Workbenches:[Arbeitsbereich Entwurf](Draft_Workbench/de.md)
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut:**F** **I**
    Version:0.19
-   SeeAlso:[Entwurf Linie](Draft_Line/de.md), [Entwurf Draht](Draft_Wire/de.md)
+   SeeAlso:[Draft Linie](Draft_Line/de.md), [Draft Polylinie](Draft_Wire/de.md)
 ---
 
 # Draft Fillet/de
 
 
-</div>
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das [Entwurf Verrundungswerkzeug](Draft_Fillet/de.md) erstellt eine Verrundung, eine abgerundete Ecke, zwischen zwei [Entwurf Linien](Draft_Line/de.md). Alternativ kann es auch eine Fase, eine gerade Kante, zwischen diesen beiden Linien erzeugen.
-
-
-</div>
+Der Befehl <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Draft Verrundung** erstellt eine Verrundung (eine abgerundete Ecke) oder eine Fase (eine gerade Kante zwischen zwei [Draft Linien](Draft_Line/de.md)).
 
 <img alt="" src=images/Draft_Fillet_example.png  style="width:400px;"> 
-*Mehrere Verrundungen und Fasen, die zwischen zwei Linien entstehen*
+*Mehrere Verrundungen und Fasen, die zwischen zwei Linien erstellt wurden*
+
+
 
 ## Anwendung
 
@@ -38,17 +34,13 @@ Das [Entwurf Verrundungswerkzeug](Draft_Fillet/de.md) erstellt eine Verrundung, 
 
 </div>
 
+
+
 ## Optionen
 
-
-<div class="mw-translate-fuzzy">
-
--   Aktivieredas Kontrollkästchen \"Originalobjekte löschen\", wenn du die beiden Originalzeilen löschen möchtest und nur das neue Verrundungsobjekt übrig lässt.
--   Aktivieredas Kontrollkästchen \"Fase erzeugen\", wenn du eine gerade Kante anstelle einer abgerundeten Kante zwischen den beiden Linien erzeugen möchtest.
--   Drücke **Esc** oder die Taste **Close**, um den aktuellen Befehl abzubrechen.
+-    **Esc**oder die Schaltfläche **Schließen** drücken, um den Befehl abzubrechen.
 
 
-</div>
 
 ## Anmerkungen
 
@@ -62,11 +54,15 @@ Das [Entwurf Verrundungswerkzeug](Draft_Fillet/de.md) erstellt eine Verrundung, 
 
 </div>
 
+
+
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-A Draft Fillet object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
+Ein Draft-Verrundungs-Objekt wird von einem [Part Part2DObject](Part_Part2DObject/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
 
@@ -87,6 +83,8 @@ A Draft Fillet object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 </div>
 
+
+
 ### Ansicht
 
 
@@ -106,26 +104,13 @@ A Draft Fillet object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 </div>
 
+
+
 ## Skripten
 
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-<div class="mw-translate-fuzzy">
-
-
-**Siehe auch:**
-
-[Draft API](Draft_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das Kreis Werkzeug kann sowohl in [Makros](Macros/de.md) als auch aus der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden:
-
-
-</div>
+Zum Erstellen einer Draft-Verrundung wird die Methode `make_fillet` des Draft-Moduls verwendet:
 
 
 ```python
@@ -158,15 +143,6 @@ fillet = Draft.make_fillet([line1, line2], radius=500)
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

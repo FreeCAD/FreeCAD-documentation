@@ -66,9 +66,15 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 
 
-### Contraintes électrostatiques 
+### Contraintes électromagnétiques 
 
--   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Contrainte potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md) : utilisé pour définir le potentiel électrostatique.
+-   <img alt="" src=images/FEM_CompEmConstraints.png  style="width:48px;"> [Contraintes électromagnétiques](FEM_CompEmConstraints/fr.md) : il s\'agit d\'un menu d\'icônes dans la barre d\'outils contraintes FEM, qui contient les contraintes suivantes :
+
+  - <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Contrainte potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md) : utilisé pour définir le potentiel électrostatique.
+
+  - <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:32px;"> [Contrainte de densité de courant](FEM_ConstraintCurrentDensity/fr.md) : utilisé pour définir une densité de courant. {{Version/fr|0.21}}
+
+  - <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:32px;"> [Contrainte de magnétisation](FEM_ConstraintMagnetization/fr.md) : utilisé pour définir une magnétisation. {{Version/fr|0.21}}
 
 
 
@@ -76,7 +82,7 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 -   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Contrainte de vitesse initiale d\'écoulement](FEM_ConstraintInitialFlowVelocity/fr.md) : utilisé pour définir une vitesse d\'écoulement initiale pour un corps (volume).
 
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Contrainte de pression initiale](FEM_ConstraintInitialPressure/fr.md) : utilisé pour définir une pression initiale pour un corps (volume). {{Version/fr|1.0}}
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Contrainte de pression initiale](FEM_ConstraintInitialPressure/fr.md) : utilisé pour définir une pression initiale pour un corps (volume). {{Version/fr|0.21}}
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Contrainte de vitesse d\'écoulement](FEM_ConstraintFlowVelocity/fr.md) : utilisé pour définir une vitesse d\'écoulement comme condition aux limites sur une arête (2D) ou une face (3D).
 
@@ -86,7 +92,7 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 -   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Contrainte de rotation du plan](FEM_ConstraintPlaneRotation/fr.md) : permet de définir une contrainte de rotation plane sur une face plane.
 
--   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Contrainte d\'affichage de la section](FEM_ConstraintSectionPrint/fr.md) : permet d\'afficher les variables de sortie prédéfinies du modèle (forces et moments) dans un fichier de données. {{Version/fr|0.19}}
+-   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Contrainte d\'affichage de la section](FEM_ConstraintSectionPrint/fr.md) : permet d\'afficher les variables de sortie prédéfinies du modèle (forces et moments) dans un fichier de données.
 
 -   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Contrainte de transformation](FEM_ConstraintTransform/fr.md) : utilisé pour définir une contrainte de transformation sur une face.
 
@@ -100,7 +106,7 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 -   <img alt="" src=images/FEM_ConstraintContact.svg  style="width:32px;"> [Contrainte de contact](FEM_ConstraintContact/fr.md) : utilisé pour définir une contrainte de contact entre deux faces.
 
--   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Contrainte de liaison](FEM_ConstraintTie/fr.md) : utilisé pour définir une contrainte de liaison (\"contact lié\") entre deux faces. {{Version/fr|0.19}}
+-   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Contrainte de liaison](FEM_ConstraintTie/fr.md) : utilisé pour définir une contrainte de liaison (\"contact lié\") entre deux faces.
 
 -   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Contrainte de ressort](FEM_ConstraintSpring/fr.md) : utilisé pour définir un ressort. {{Version/fr|0.20}}
 
@@ -140,7 +146,7 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 ### Écraser des constantes 
 
--   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Constante de permittivité du vide](FEM_ConstantVacuumPermittivity/fr.md) : permet de remplacer la [permittivité du vide](https://fr.wikipedia.org/wiki/Permittivit%C3%A9_du_vide) par une valeur personnalisée. {{Version/fr|0.19}}
+-   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Constante de permittivité du vide](FEM_ConstantVacuumPermittivity/fr.md) : permet de remplacer la [permittivité du vide](https://fr.wikipedia.org/wiki/Permittivit%C3%A9_du_vide) par une valeur personnalisée.
 
 
 
@@ -162,23 +168,33 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 
 
-## Menu : Solveur 
+## Menu : Résolution 
 
--   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solveur Calculix standard](FEM_SolverCalculixCxxtools/fr.md) : crée un nouveau solveur pour cette analyse. Dans la plupart des cas, le solveur est créé avec l\'analyse.
+-   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solveur Calculix standard](FEM_SolverCalculixCxxtools/fr.md) : crée un nouveau solveur pour cette analyse.
 
--   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Solveur CalculiX (nouveau modèle)](FEM_SolverCalculiX/fr.md) :
+-   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Solveur CalculiX (nouveau modèle)](FEM_SolverCalculiX/fr.md) : identique au modèle original <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solveur Calculix standard](FEM_SolverCalculixCxxtools/fr.md) avec des vérifications supplémentaires.
 
--   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solveur Elmer](FEM_SolverElmer/fr.md) : crée le contrôleur de solveur pour Elmer. Il est indépendant des autres objets du solveur.
+-   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solveur Elmer](FEM_SolverElmer/fr.md) : crée le contrôleur de solveur pour Elmer.
 
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solveur Mystran](FEM_SolverMystran/fr.md) : {{Version/fr|0.20}}
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solveur Mystran](FEM_SolverMystran/fr.md) : crée le contrôleur de solveur pour le solveur MYSTRAN. {{Version/fr|0.20}}
 
--   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Solveur Z88](FEM_SolverZ88/fr.md) : crée le contrôleur de solveur pour Z88. Il est indépendant des autres objets du solveur.
+-   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Solveur Z88](FEM_SolverZ88/fr.md) : crée le contrôleur de solveur pour Z88.
 
--   <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Équation d\'élasticité](FEM_EquationElasticity/fr.md) : équation pour le <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solveur Elmer](FEM_SolverElmer/fr.md) pour effectuer des analyses mécaniques.
+-   <img alt="" src=images/FEM_CompMechEquations.png  style="width:48px;"> [Équations mécaniques](FEM_CompMechEquations/fr.md) : menu d\'icônes dans la barre d\'outils d\'équations FEM qui contient les équations suivantes : {{Version/fr|0.21}}
 
--   <img alt="" src=images/FEM_EquationElectricforce.svg  style="width:32px;"> [Équation force électrique](FEM_EquationElectricforce/fr.md) : équation pour le <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solveur Elmer](FEM_SolverElmer/fr.md) pour calculer la force électrique sur les surfaces. {{Version/fr|0.19}}
+  - <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Équation d\'élasticité](FEM_EquationElasticity/fr.md) : équation pour le <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solveur Elmer](FEM_SolverElmer/fr.md) pour effectuer des analyses linéaires mécaniques.
 
--   <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:32px;"> [Équation électrostatique](FEM_EquationElectrostatic/fr.md) : équation pour le <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solveur Elmer](FEM_SolverElmer/fr.md) pour effectuer des analyses électrostatiques.
+  - <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [Équation de déformation](FEM_EquationDeformation/fr.md) : équation pour le <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solveur Elmer](FEM_SolverElmer/fr.md) permettant de réaliser des analyses mécaniques non linéaires (déformations). {{Version/fr|0.21}}
+
+-   <img alt="" src=images/FEM_CompEmEquations.png  style="width:32px;"> [Équations électromagnétiques](FEM_CompEmEquations/fr.md) : menu d\'icônes dans la barre d\'outils d\'équations FEM qui contient les équations suivantes : {{Version/fr|0.21}}
+
+  - <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:32px;"> [Équation électrostatique](FEM_EquationElectrostatic/fr.md) : équation pour le <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solveur Elmer](FEM_SolverElmer/fr.md) pour effectuer des analyses électrostatiques.
+
+  - <img alt="" src=images/FEM_EquationElectricforce.svg  style="width:32px;"> [Équation force électrique](FEM_EquationElectricforce/fr.md) : équation pour le <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solveur Elmer](FEM_SolverElmer/fr.md) pour calculer la force électrique sur les surfaces.
+
+  - <img alt="" src=images/FEM_EquationMagnetodynamic.svg  style="width:32px;"> [Équation magnétodynamique](FEM_EquationMagnetodynamic/fr.md) : équation pour le <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solveur Elmer](FEM_SolverElmer/fr.md) pour calculer la magnétodynamique. {{Version/fr|0.21}}
+
+  - <img alt="" src=images/FEM_EquationMagnetodynamic2D.svg  style="width:32px;"> [Équation magnétodynamique 2D](FEM_EquationMagnetodynamic2D/fr.md) : équation pour le <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solveur Elmer](FEM_SolverElmer/fr.md) pour calculer la magnétodynamique en 2D. {{Version/fr|0.21}}
 
 -   <img alt="" src=images/FEM_EquationFlow.svg  style="width:32px;"> [Équation d\'écoulement](FEM_EquationFlow/fr.md) : équation pour le <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solveur Elmer](FEM_SolverElmer/fr.md) pour effectuer des analyses d\'écoulement.
 
@@ -196,7 +212,7 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 -   <img alt="" src=images/FEM_ResultsPurge.svg  style="width:32px;"> [Purger les résultats](FEM_ResultsPurge/fr.md) : supprime les résultats de l\'analyse active.
 
--   <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> [Afficher les résultats](FEM_ResultShow/fr.md) : utilisé pour afficher les résultats d\'une analyse.
+-   <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> [Afficher les résultats](FEM_ResultShow/fr.md) : utilisé pour afficher le résultat d\'une analyse. Cette boîte de dialogue n\'est pas disponible pour le [solveur Elmer](FEM_SolverElmer/fr.md) car ce solveur visualise en utilisant uniquement l\'objet [Pipeline de résultats](FEM_PostPipelineFromResult/fr.md).
 
 -   <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:32px;"> [Appliquer les modifications au pipeline](FEM_PostApplyChanges/fr.md) : active l\'application immédiate des modifications apportées aux pipelines et aux filtres.
 
@@ -210,6 +226,8 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 -   <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:32px;"> [Filtre d\'écrêtage selon une région](FEM_PostFilterClipRegion/fr.md) : utilisé pour écrêter un champ avec une sphère ou un plan traversant le modèle.
 
+-   <img alt="" src=images/FEM_PostFilterContours.svg  style="width:32px;"> [Filtre par contours](FEM_PostFilterContours/fr.md) : permet d\'afficher des iso-lignes (pour des analyses en 2D) ou des iso-contours. {{Version/fr|0.21}}
+
 -   <img alt="" src=images/FEM_PostFilterDataAlongLine.svg  style="width:32px;"> [Filtre d\'écrêtage selon une ligne](FEM_PostFilterDataAlongLine/fr.md) : utilisé pour tracer les valeurs d\'un champ le long d\'une ligne spécifiée.
 
 -   <img alt="" src=images/FEM_PostFilterLinearizedStresses.svg  style="width:32px;"> [Graphique de linéarisation des contraintes](FEM_PostFilterLinearizedStresses/fr.md) : crée un graphique de linéarisation des contraintes.
@@ -218,9 +236,13 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 -   <img alt="" src=images/FEM_CompPostCreateFunctions.png  style="width:48px;"> [Fonctions de filtrage](FEM_PostCreateFunctions/fr.md) : il s\'agit d\'un menu d\'icônes dans la barre d\'outils Résultats de FEM qui contient les commandes suivantes :
 
-  - <img alt="" src=images/Fem-post-geo-plane.svg  style="width:32px;"> [Filtre fonction plan](FEM_PostCreateFunctionPlane/fr.md) : fait que le maillage résultant est coupé avec un plan.
+  - <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:32px;"> [Filtre fonction plan](FEM_PostCreateFunctionPlane/fr.md) : coupe le maillage résultant selon un plan.
 
-  - <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:32px;"> [Filtre fonction sphère](FEM_PostCreateFunctionSphere/fr.md) : fait que le maillage résultant est coupé avec une sphère.
+  - <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:32px;"> [Filtre fonction sphère](FEM_PostCreateFunctionSphere/fr.md) : coupe le maillage résultant selon une sphère.
+
+  - <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:32px;"> [Filtre fonction cylindre](FEM_PostCreateFunctionCylinder/fr.md) : coupe le maillage résultant selon un cylindre. {{Version/fr|0.21}}
+
+  - <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:32px;"> [Filtre fonction boîte](FEM_PostCreateFunctionBox/fr.md) : coupe le maillage résultant selon une boîte. {{Version/fr|0.21}}
 
 
 
@@ -254,13 +276,13 @@ Les pages suivantes décrivent différents sujets de l\'atelier FEM.
 
 [FEM Installation des composants requis](FEM_Install/fr.md) : une description détaillée de la configuration des programmes externes utilisés dans l\'atelier.
 
-[FEM Maillage](FEM_Mesh/fr.md) : des informations complémentaires sur l\'obtention d\'un maillage pour l\'analyse par éléments finis.
+[FEM Maillage](FEM_Mesh/fr.md) : informations complémentaires sur l\'obtention d\'un maillage pour l\'analyse par éléments finis.
 
-[FEM Solveur](FEM_Solver/fr.md) : des informations supplémentaires sur les différents solveurs disponibles dans l'atelier et sur ceux qui pourraient être utilisés à l'avenir.
+[FEM Solveur](FEM_Solver/fr.md) : informations supplémentaires sur les différents solveurs disponibles dans l'atelier et sur ceux qui pourraient être utilisés à l'avenir.
 
-[FEM CalculiX](FEM_CalculiX/fr.md) : pour plus d'informations sur CalculiX, le solveur par défaut utilisé dans l\'atelier pour l\'analyse des structures.
+[FEM CalculiX](FEM_CalculiX/fr.md) : plus d'informations sur CalculiX, le solveur par défaut utilisé dans l\'atelier pour l\'analyse des structures.
 
-[FEM Béton](FEM_Concrete/fr.md) : des informations intéressantes sur le thème de la simulation des structures en béton.
+[FEM Béton](FEM_Concrete/fr.md) : informations intéressantes sur le thème de la simulation des structures en béton.
 
 
 

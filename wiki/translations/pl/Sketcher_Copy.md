@@ -1,27 +1,33 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher Copy
-   MenuLocation:Sketch → Sketcher tools → Copy
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Kopiuj
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Kopiuj
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**Z** **C**
    Version:0.16
-   SeeAlso:[Sketcher Clone](Sketcher_Clone.md), [Sketcher Move](Sketcher_Move.md)
+   SeeAlso:[Klonuj](Sketcher_Clone/pl.md), [Przesuń](Sketcher_Move/pl.md)
 ---
 
 # Sketcher Copy/pl
 
-## Description
 
-Copies the selected sketch elements from one point to another, using the last selected point as reference. When a copy is made, there is no link established between the copy and the original, see **[<img src=images/Sketcher_Clone.svg style="width:16px"> [Sketcher Clone](Sketcher_Clone.md)**.
 
-## Usage
+## Opis
 
-1.  Select sketcher element for copy operation.
-2.  Click on the **[<img src=images/Sketcher_Copy.svg style="width:16px"> [Copy](Sketcher_Copy.md)** button in the toolbar or choose **Sketch → Sketcher tools → [<img src=images/Sketcher_Copy.svg style="width:16px"> Copy** from the Sketch menu.
-3.  Move the mouse in the [3D view](3D_view.md) to the desired location for the copy.By keeping **Shift** pressed, the angle to the location point can be fixed in steps of 5°. <small>(v0.20)</small> 
-4.  Left-click in the 3D view to create the copy.
+Kopiuje wybrane elementy szkicu z jednego punktu do drugiego, używając ostatnio wybranego punktu jako odniesienia. Podczas wykonywania kopii nie jest tworzone żadne połączenie między kopią a oryginałem, patrz opis polecenia **[<img src=images/Sketcher_Clone.svg style="width:16px"> [Klonuj](Sketcher_Clone/pl.md)**.
 
-No extra constraints are added.
+
+
+## Użycie
+
+1.  Zaznacz element szkicownika do operacji kopiowania.
+2.  Kliknij na przycisk **[<img src=images/Sketcher_Copy.svg style="width:16px"> [Kopiuj](Sketcher_Copy/pl.md)** na pasku narzędzi lub wybierz **Szkic → Narzędzia szkicownika → [<img src=images/Sketcher_Copy.svg style="width:16px"> Kopiuj** z menu głownego.
+3.  Przesuń kursor myszki w oknie [widoku 3D](3D_view/pl.md) do żądanej lokalizacji dla kopii.
+    Przez przytrzymanie klawisza **Shift**, kąt do punktu lokalizacji może być ustalony w krokach co 5°. {{Version/pl|0.20}}
+4.  Kliknięcie lewym przyciskiem myszki w oknie widoku 3D powoduje utworzenie kopii.
+
+Nie są dodawane żadne dodatkowe wiązania.
 
 
 

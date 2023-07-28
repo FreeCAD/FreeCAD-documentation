@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -16,6 +18,8 @@ Questo vincolo forza il valore del raggio di un cerchio o di un arco a un valore
 </div>
 
 ![](images/Sketcher_ConstrainRadius_example.png )
+
+
 
 ## Utilizzo
 

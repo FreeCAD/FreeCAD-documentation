@@ -9,6 +9,8 @@
 
 # Part RefineShape/ru
 
+
+
 ## Определение
 
 
@@ -25,6 +27,8 @@ After certain boolean operations, like [Part Fuse](Part_Fuse.md), some lines fro
 ![](images/PartRefineShape_it.png ) 
 *Original boolean result with 11 faces (left), and refined shape copy with 7 faces (right).*
 
+
+
 ## Применение
 
 1.  Select an object that you wish to clean and copy.
@@ -40,17 +44,29 @@ This behavior can be changed in the <img alt="" src=images/Std_DlgParameter.svg 
 
 See other parameters in [Fine-tuning](Fine-tuning.md).
 
+
+
 ## Примечания
+
+
+<div class="mw-translate-fuzzy">
 
 -   Эту функцию можно использовать в качестве завершающего шага для очистки форма, в процессе моделирования [конструктивной сплошной геометрии](constructive_solid_geometry/ru.md).
 -   Эта функция может помочь очистить модель от нежелательных швов перед применением функций для создания кромок например таких, как [Фаска](Part_Fillet/ru.md).
 -   Такая \"очистка\" формы может улучшить качество печати на 3D-принтере, т.к. перед экспортом в формат сетки у твердого тела будут отсутствовать нежелательные швы.
 -   Эта функция также может быть использована после преобразования сетки в форму ([Shape From Mesh](Part_ShapeFromMesh/ru.md)) для удаления ребер которые лежат в одной плоскости на плоских гранях.
 
+
+</div>
+
+
+
 ## Ограничения
 
 -   The refinement algorithm only works on shells. Therefore it iterates over the shells of the input shape and then for each shell it creates a new shell with joined faces wherever possible. This means that if your input shape is only a face, wire, edge or vertex then the algorithm does nothing.
 -   Unlike the <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width:24px;"> [OpenSCAD RefineShapeFeature](OpenSCAD_RefineShapeFeature.md) command, <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Part RefineShape](Part_RefineShape.md) won\'t update when the preceding shapes are changed.
+
+
 
 ## Программирование
 

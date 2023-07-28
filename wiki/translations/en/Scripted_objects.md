@@ -306,6 +306,7 @@ The property types that can be set at last parameter of the addProperty function
  4 -- Prop_Hidden, Property won't appear in the editor
  8 -- Prop_Output, Modified property doesn't touch its parent container
  16 -- Prop_NoRecompute, Modified property doesn't touch its container for recompute
+ 32 -- Prop_NoPersist, Property won't be saved to file at all
 
 You can find these different property types defined in the [source code C++ header for PropertyContainer](https://github.com/FreeCAD/FreeCAD/blob/master/src/App/PropertyContainer.h).
 

@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande **Mesh Harmoniser les normales‎** harmonise les normales des objets maillés.
+La commande **Harmoniser les normales‎** harmonise les normales des objets maillés.
 
 
 

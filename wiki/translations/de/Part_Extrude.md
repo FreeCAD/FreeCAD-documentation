@@ -9,8 +9,6 @@
 
 # Part Extrude/de
 
-![600px](images/Part_Extrude_demo.png)
-
 
 
 ## Beschreibung
@@ -28,62 +26,40 @@ In den meisten üblichen Szenarien wird im Folgenden der erwartete Ausgabeformty
 -   extrudieren eines **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Entwurf Form Zeichenfolge](Draft_ShapeString.md)** wird einen Verbund von Festkörpern (die Zeichenfolge ist ein Verbund der Buchstaben, die ebenfalls Festkörper sind) erzeugen
 -   extrudieren einer Hülle von Flächen wird ein Verbundfestkörper erzeugt
 
+![600px](images/Part_Extrude_demo.png)
+
+
+
+*Beispiele für Extrusionen*
+
 
 
 ## Anwendung
 
+1.  Die Formen in der [3D-Ansicht](3D_view/de.md) oder in der [Baumansicht](Tree_view/de.md) auswählen.
 
-<div class="mw-translate-fuzzy">
+2.  Die Schaltfläche **<img src="images/Part_Extrude.svg" width=16px> [Extrudieren](Part_Extrude/de.md)** in der Symbolleiste drücken oder den Menüeintrag **Part → Extrudieren** auswählen.
 
-## Anwendung 
+3.  Richtung, Länge und wahlweise weitere Parameter einstellen (siehe den folgenden Abschnitt [Parameter](#Parameter.md) für weitere Einzelheiten).
 
-1.  Wähle die Form(en) in der 3D Ansicht oder im Modell [Baumansicht](tree_view/de.md)
-2.  Klicke auf das **<img src="images/Part_Extrude.svg" width=16px> '''Extrudieren'''** Symbol in der Werkzeugleiste oder gehe zum **Part → Extrudieren** Menü
-3.  Setze die Richtung und Länge und wahlweise andere Parameter (siehe den folgenden [Parameter](#Parameters/de.md) Abschnitt für weitere Einzelheitenn).
-4.  Klicke OK.
+4.  
+    **OK**klicken.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Alternativ kann die Auswahl auch nach dem Start des Werkzeugs erfolgen, durch Wahl einer oder mehrerer Formen aus der Liste im [Aufgabenpaneel](Task_panel/de.md).
-
-
-</div>
+Alternativ kann die Auswahl auch nach dem Start des Werkzeugs erfolgen, durch Auswahl einer oder mehrerer Formen aus der Liste im [Aufgabenbereich](Task_panel/de.md).
 
 Der Modellbaum zeigt so viele Extrusionsobjekte wie vorher ausgewählte Formen. Jede Eingabeform wird unterhalb des jeweiligen Extrusionsobjekte abgelegt.
 
-## Parameters
 
-
-<div class="mw-translate-fuzzy">
 
 ## Parameter
 
-Die Extrusionsform wird durch die folgenden Parameter festgelegt, die nach ihrer Erstellung auf dem Datenreiter bearbeitet werden können.
+Die Extrusionsform wird durch die folgenden Parameter festgelegt, die nach ihrer Erstellung im [Eigenschafteneditor](Property_editor/de.md) bearbeitet werden können.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   **Basis**: Die Eingabeform (die Form, auf die Part Extrudieren angewendet wurde)
-
-
-</div>
+-   **Basis**: Die Eingangsform (die Form, auf die Part Extrudieren angewendet wurde).
 
 -   **Dir**: Die Richtung, in die die Form extrudiert werden soll. Falls **Dir Mode** auf \'Custom\' gesetzt ist, kann **Dir** geändert werden. Andernfalls ist **Dir** nur-lesen und wird aus der verbundenen Form berechnet.
 
-
-<div class="mw-translate-fuzzy">
-
--   **Dir Link**: Parametrische Verbindung zu einer Kante (Linie), die die Extrusionsrichtung setzt. Seit v0.17 wird diese Eigenschaft nicht mehr vom Eigenschafteneditor unterstützt.
-
-
-</div>
+-   **Dir Link**: Parametrische Verbindung zu einer Kante (Linie), die die Extrusionsrichtung festlegt.
 
 -   **Dir Mode**: legt fest, wie **Dir** kontrolliert wird. \'Custom\' bedeutet, **Dir** ist änderbar. \'Edge\' bedeutet, Dir wird aus einer über **Dir Link** verbundenen Kante (Linie) ermittelt. \'Normal\' bedeutet, Dir ist senkrecht zur Ebene der Eingabeform.
 
@@ -97,31 +73,22 @@ Die Extrusionsform wird durch die folgenden Parameter festgelegt, die nach ihrer
 
 -   **Symmetric**: wenn True, ist die Extrusion an der Eingangsform zentriert, und die Gesamtlänge ist **Länge Fwd**. **Länge Rev**\' wird ignoriert.
 
+-   **Neigungswinkel**\' und **Neigungswinkel Rev**\': wendet einen Winkel auf die Extrusion an, so dass die Seiten der Extrusion um den angegebenen Winkel verzogen werden. Positiver Winkel bedeutet, dass sich der Querschnitt ausdehnt. **Neigungswinkel Rev**: legt die Verjüngung für den entgegengesetzten Teil der Extrusion fest (der Teil aus **Länge Rev**).
+    -   
+        {{Version/de|0.20}}
+        
+        Innere Strukturen erhalten einen gegenläufigen Schrägungswinkel. Dies dient dazu, die Konstruktion von Gussformen und Gussteilen zu unterstützen.
 
-<div class="mw-translate-fuzzy">
-
--   **Neigungswinkel**\' und **Neigungswinkel Rev**\': wendet einen Winkel auf die Extrusion an, so dass die Seiten der Extrusion um den angegebenen Winkel verzogen werden. Positiver Winkel bedeutet, dass sich der Querschnitt ausdehnt. **Neigungswinkel Rev**: legt die Verjüngung für den umgekehrten Teil der Extrusion fest (der Teil aus **Länge Rev**). Ab v0.17 wird die geneigte Extrusion nur noch für Drähte ohne Löcher unterstützt. Neigung funktioniert nicht gut, wenn die extrudierte Form B-Splines enthält.
-
-
-</div>
+    -   
+        {{VersionMinus/de|0.19}}
+        
+        Abgeschrägte Extrusion wird nur für Formen ohne innere Strukturen unterstützt. Abschrägen funktioniert nicht gut, wenn die extrudierte Form B-Splines enthält.
 
 -   **Flächer Hersteller Klasse**\': legt den C++ Klassennamen des Flächen Hersteller Codes fest, der bei der Herstellung von Festkörpern aus Drähten verwendet wird. Diese Eigenschaft dient hier hauptsächlich der Aufrechterhaltung der Abwärtskompatibilität. Nicht antasten, es sei denn, du weißt, was du tust.
 
+-   **Placement**: Die Standard-[Positionierungsparameter](Placement/de.md).
 
-<div class="mw-translate-fuzzy">
-
--   **Placement**: Die Standard-[placement](Placement.md)-Parameter
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   **Label**: Bezeichnung die im Modell [Baumansicht](tree_view/de.md) angezeigt wird (nicht verfügbar bei der Extrusionserstellung)
-
-
-</div>
+-   **Label**: Bezeichnung die in der [Baumansicht](Tree_view/de.md) angezeigt wird (nicht verfügbar bei der Erstellung der Extrusion).
 
 
 
@@ -137,13 +104,7 @@ Die Extrusionsform wird durch die folgenden Parameter festgelegt, die nach ihrer
 
 -   \'Richtung\' Radioknöpfe: Legt den Weg fest, wie die Extrusionsrichtung berechnet wird.
 
-
-<div class="mw-translate-fuzzy">
-
--    **Select**Schaltfläche: Klicke ihn und greife dann eine Kante in der [3D Ansicht](3D_view/de.md). Diese Kante wird im Textfeld neben dem Button erscheinen im Format \"ObjectName:EdgeN\". Du kannst auch den Link manuell eintippen. Die X, Y und Z Werte werden entsprechend der Kantenrichtung gefüllt.
-
-
-</div>
+-   Schaltfläche **Select**: anklicken und danach eine Kante in der [3D-Ansicht](3D_view/de.md) auswählen. Diese Kante wird im Textfeld neben der Schaltfläche im Format \"ObjectName:EdgeN\" erscheinen. Der Link kann auch manuell eingetippt werden. Die X-, Y- und Z-Werte werden entsprechend der Kantenrichtung eingetragen.
 
 -    **X**, **Y**, **Z** Schaltflächen: Klicke *x* Schaltfläche, um die Extrusionsrichtung auf +*x* Achse zu setzen. Erneutes klicken setzt sie auf -*x* Achse.
 
@@ -163,40 +124,20 @@ Die Extrusionsform wird durch die folgenden Parameter festgelegt, die nach ihrer
 
 ## Hinweise
 
--   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles and to specify the direction. <small>(v0.20)</small> 
+-   [App-Link](App_Link/de.md)-Objekte, die auf geeignete Objektarten verweisen und [App-Part](App_Part/de.md)-Container, die geeignete sichtbare Objekte enthalten, können auch als Profile und zum Feslegen der Richtung verwendet werden. {{Version/de|0.20}}
 
-
-<div class="mw-translate-fuzzy">
-
-## Hab Dichs 
-
-Der Part Extrudieren Dialog bietet noch keine Vorschau. **Anwenden** erzeugt jedes Mal, wenn du darauf klickst, ein Extrusionsobjekt, das als Vorschau nützlich sein kann; sie bleiben jedoch erhalten und ein weiteres wird erzeugt, wenn du auf **OK** klickst. [Rückgängig](Std_Undo/de.md) kann nützlich sein, um sie vor dem **OK** Klicken zu bereinigen.
-
-
-</div>
+-   Der Aufgaben-Dialog bietet noch keine Vorschau. **Anwenden** erzeugt mit jedem Klick darauf ein Extrusionsobjekt, das als Vorschau nützlich sein kann; sie bleiben jedoch erhalten und ein weiteres wird erzeugt, wenn **OK** angeklickt wird. [Rückgängig](Std_Undo/de.md) kann nützlich sein, um sie zu bereinigen, bevor **OK** geklickt wird.
 
 
 
+## Vergleich mit PartDesign Aufpolsterung 
 
-<div class="mw-translate-fuzzy">
+[PartDesign Aufpolsterung](PartDesign_Pad/de.md) ist auch eine Extrusionsfunktion, aber es gibt wichtige Unterschiede:
 
-## Vergleich mit [PartDesign Polster](PartDesign_Pad/de.md) 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-PartDesign Polster ist ebenfalls ein Extrusionsmerkmal, aber es gibt wichtige Unterschiede.
-
-
-</div>
-
--   Part Extrude always creates a standalone shape. PartDesign Pad fuses the extrusion result to the rest of the Body.
--   Part Extrude doesn\'t care where it is in model tree. PartDesign Pad can only live inside a [PartDesign Body](PartDesign_Body.md).
--   Part Extrude can extrude any object that has a Part geometry ([OpenCASCADE](OpenCASCADE.md) shape), except for solids and CompSolids.
--   Part Extrude can extrude individual faces of other objects. PartDesign Pad will only accept either Sketch or faces of PartDesign objects as a profile.
+-   Part Extrudieren erstellt immer eine eigenständige Form. PartDesign Aufpolsterung vereinigt das Ergebnis immer mit dem Rest des Körpers.
+-   Part Extrudieren ist es egal, wo es sich im Baum befindet. PartDesign Aufpolsterung kann nur innerhalb eines [PartDesign Körpers](PartDesign_Body/de.md) existieren.
+-   Part Extrudieren kann jedes Objekt, das eine Part-Geometrie enhält extrudieren ([OpenCASCADE](OpenCASCADE/de.md)-Form), Außer Festkörper und Verbundkörper.
+-   Part Extrudieren kann einzelne Flächen von anderen Objekten Extrudieren. PartDesign Aufpolsterung akzeptiert nur entweder Skizzen-Objekte oder Flächen von PartDesign-Objekten als Profil.
 
 
 

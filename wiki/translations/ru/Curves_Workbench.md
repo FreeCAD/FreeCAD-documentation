@@ -7,14 +7,28 @@
 
 <img alt="Иконка Внешнего верстака Curves" src=images/Curves_workbench_icon.svg  style="width:128px;"> {{TOCright}}
 
+
+<div class="mw-translate-fuzzy">
+
 Верстак Curves это [Внешний верстак](external_workbenches/ru.md), основанный на python, с набором инструментов для кривых и поверхностей NURBS. Этот верстак разработан с использованием FreeCAD Master и OCC 7.4. Примечание: Некоторые инструменты могут не работать с более ранними версиями.
+
+
+</div>
+
+Note: Some tools may not work with earlier versions.
 
 
 
 ## Установка
 
+
+<div class="mw-translate-fuzzy">
+
 Загрузите верстак Curves через <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Менеджер Дополнений](Std_AddonMgr/ru.md) 
 **Инструменты → Менеджер дополнений**
+
+
+</div>
 
 
 

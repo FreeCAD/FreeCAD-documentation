@@ -1,11 +1,28 @@
-# <img alt="Ícone da bancada de trabalho de imagem" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench/pt-br
+# Image Workbench/pt-br
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+**The '''Image Workbench''' is no longer included after version 0.20.<br>
+It functionality has been integrated in [Std Base](Std_Base.md). See [Std Import](Std_Import.md) and [Std ViewLoadImage](Std_ViewLoadImage.md).**
+
+<img alt="Ícone da bancada de trabalho de imagem" src=images/Workbench_Image.svg  style="width:128px;">
 
 
 {{TOCright}}
 
+
+
 ## Introdução
 
 A <img alt="" src=images/Workbench_Image.svg  style="width:24px;"> [Bancada de trabalho Imagem](Image_Workbench/pt-br.md) controla diferentes tipos de imagens [bitmap](bitmap/pt-br.md) e permite que você as abra no FreeCAD.
+
+
 
 ## Ferramentas
 
@@ -18,6 +35,8 @@ A <img alt="" src=images/Workbench_Image.svg  style="width:24px;"> [Bancada de t
 
 
 </div>
+
+
 
 ## Recursos
 
@@ -42,7 +61,13 @@ Traçar uma imagem funciona melhor se a imagem tem um deslocamento negativo pequ
 O deslocamento da imagem pode ser configurado durante a importação ou alterada posteriormente por meio de suas propriedades.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Image Tools navi
@@ -52,4 +77,4 @@ O deslocamento da imagem pode ser configurado durante a importação ou alterada
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Image](Category_Image.md) > Image Workbench/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/pt-br

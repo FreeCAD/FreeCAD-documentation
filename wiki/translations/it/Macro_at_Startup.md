@@ -25,12 +25,16 @@ Prima di iniziare, bisogna considerare le seguenti cose :
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 # Come fare 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -50,17 +54,20 @@ Prendere in considerazione la macro sottostante, memorizzata nella propria carte
 
 </div>
 
-    ## Import section ##
-    from PySide import QtGui
 
-    ## Definition section (classes, functions, ...)
-    class MyMsgBox(QtGui.QMessageBox):
+```python
+## Import section ##
+from PySide import QtGui
 
-        def __init__(self):
-            super(MyMsgBox, self).information(None, "MyTitle", "MyText")
+## Definition section (classes, functions, ...)
+class MyMsgBox(QtGui.QMessageBox):
 
-    ## Main instruction section
-    MyMsgBox()
+    def __init__(self):
+        super(MyMsgBox, self).information(None, "MyTitle", "MyText")
+
+## Main instruction section
+MyMsgBox()
+```
 
 
 <div class="mw-translate-fuzzy">
@@ -70,25 +77,30 @@ Tutte le macro presentano generalmente una struttura simile con prima sezione di
 
 </div>
 
-    from PySide import QtGui
-    ## The 2 below lines shall be added if not already present to ensure FreeCAD modules are imported
-    import FreeCAD as App
-    import FreeCADGui as Gui
 
-    class MyMsgBox(QtGui.QMessageBox):
+```python
+from PySide import QtGui
+## The 2 below lines shall be added if not already present to ensure FreeCAD modules are imported
+import FreeCAD as App
+import FreeCADGui as Gui
 
-        def __init__(self):
-            super(MyMsgBox, self).information(None, "MyTitle", "MyText")
+class MyMsgBox(QtGui.QMessageBox):
 
-    ## Enclose the main instructions in a function
-    def run():
-        MyMsgBox()
+    def __init__(self):
+        super(MyMsgBox, self).information(None, "MyTitle", "MyText")
 
-    ## Ensure main instructions are still called in case of manual run
-    if __name__ == '__main__':
-        run()
+## Enclose the main instructions in a function
+def run():
+    MyMsgBox()
+
+## Ensure main instructions are still called in case of manual run
+if __name__ == '__main__':
+    run()
+```
 
 Ovviamente se la funzione \'run()\' esiste già nella macro, si può usare qualsiasi altro nome. Ora la macro è pronta per essere integrata nell\'avvio di FreeCAD.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -106,27 +118,30 @@ Innanzitutto creare una nuova cartella nella cartella \"Mod\" dell\'utente, ad e
 
 </div>
 
-    def runStartupMacros(name):
-        # Do not run when NoneWorkbench is activated because UI isn't yet completely there
-        if name != "NoneWorkbench":
-            # Run macro only once by disconnecting the signal at first call
-            FreeCADGui.getMainWindow().workbenchActivated.disconnect(runStartupMacros)
 
-            # Following 2 lines shall be duplicated for each macro to run
-            import MySuperMacro
-            MySuperMacro.run()
+```python
+def runStartupMacros(name):
+    # Do not run when NoneWorkbench is activated because UI isn't yet completely there
+    if name != "NoneWorkbench":
+        # Run macro only once by disconnecting the signal at first call
+        FreeCADGui.getMainWindow().workbenchActivated.disconnect(runStartupMacros)
 
-            # Eg. if a second macro shall be launched at startup
-            # import MyWonderfulMacro
-            # MyWonderfulMacro.run()
+        # Following 2 lines shall be duplicated for each macro to run
+        import MySuperMacro
+        MySuperMacro.run()
 
-    # The following 2 lines are important because InitGui.py files are passed to the exec() function...
-    # ...and the runMacro wouldn't be visible outside. So explicitly add it to __main__
-    import __main__
-    __main__.runStartupMacros = runStartupMacros
+        # Eg. if a second macro shall be launched at startup
+        # import MyWonderfulMacro
+        # MyWonderfulMacro.run()
 
-    # Connect the function that runs the macro to the appropriate signal
-    FreeCADGui.getMainWindow().workbenchActivated.connect(runStartupMacros)
+# The following 2 lines are important because InitGui.py files are passed to the exec() function...
+# ...and the runMacro wouldn't be visible outside. So explicitly add it to __main__
+import __main__
+__main__.runStartupMacros = runStartupMacros
+
+# Connect the function that runs the macro to the appropriate signal
+FreeCADGui.getMainWindow().workbenchActivated.connect(runStartupMacros)
+```
 
 Notare che viene eseguita solo una volta. Se si vuole eseguire più di una macro, bisogna semplicemente aggiungere le altre nello stesso file (guardare i commenti sul codice precedente).
 

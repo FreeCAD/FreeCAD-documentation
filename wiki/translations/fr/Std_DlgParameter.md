@@ -18,14 +18,18 @@ Travailler avec l\'éditeur de paramètres nécessite une certaine expérience. 
 ![](images/Std_DlgParameter_dialog.png ) 
 *La boîte de dialogue de l'Editeur de paramètres*
 
+
+
 ## Utilisation
 
-1.  Sélectionnez l\'option **Outils → <img src="images/Std_DlgParameter.svg" width=16px>  Éditer paramètres...** dans le menu.
+1.  Sélectionnez l\'option **Outils → <img src="images/Std_DlgParameter.svg" width=16px>  Éditer les paramètres...** dans le menu.
 2.  La boîte de dialogue Editeur de paramètres s\'ouvre. Pour plus d\'informations, voir [Options](#Options.md).
 3.  Appuyez sur le bouton **Sauvegarder sur le disque** pour mettre à jour immédiatement le fichier **user.cfg**. Cela n\'est pas nécessaire car FreeCAD mettra automatiquement à jour ce fichier à la fermeture de l\'application.
 4.  Appuyez sur le bouton **Fermer** pour fermer l\'éditeur de paramètres.
 
 ## Options
+
+
 
 ### Panneau gauche 
 
@@ -33,9 +37,13 @@ Le panneau de gauche montre une arborescence avec des groupes de paramètres et 
 
 *Les options suivantes sont disponibles dans le menu contextuel du panneau :*
 
+
+
 #### Développer/Réduire
 
 1.  Si un groupe sélectionné possède un ou plusieurs sous-groupes, il peut être développé ou réduit en choisissant cette option dans le menu contextuel. Mais vous pouvez également développer et réduire l\'arbre de la manière habituelle.
+
+
 
 #### Ajouter un sous-groupe 
 
@@ -44,11 +52,15 @@ Le panneau de gauche montre une arborescence avec des groupes de paramètres et 
 3.  Entrez un nom pour le nouveau sous-groupe dans la boîte de dialogue qui s\'ouvre.
 4.  Appuyez sur le bouton **OK**.
 
+
+
 #### Supprimer un groupe 
 
 1.  Sélectionnez un groupe.
 2.  Sélectionnez l\'option **Enlever le groupe** dans le menu contextuel.
 3.  Appuyez sur le bouton **Oui** dans la boîte de dialogue qui s\'ouvre pour confirmer que vous souhaitez supprimer le groupe (y compris tous ses sous-groupes et tous les paramètres du groupe et de ses sous-groupes).
+
+
 
 #### Renommer un groupe 
 
@@ -57,12 +69,16 @@ Le panneau de gauche montre une arborescence avec des groupes de paramètres et 
 3.  Saisissez un nouveau nom.
 4.  Un groupe peut également être renommé en double-cliquant dessus.
 
+
+
 #### Exporter un paramètre 
 
 1.  Sélectionnez un groupe.
 2.  Sélectionnez l\'option **Exporter le paramètre** dans le menu contextuel.
 3.  Entrez un nom de fichier dans la boîte de dialogue.
 4.  Appuyez sur le bouton **Sauvegarder**.
+
+
 
 #### Importer un paramètre 
 
@@ -71,11 +87,15 @@ Le panneau de gauche montre une arborescence avec des groupes de paramètres et 
 3.  Sélectionnez un fichier \*.FCParam dans la boîte de dialogue.
 4.  Appuyez sur le bouton **Ouvrir**.
 
+
+
 ### Panneau droit 
 
 Le panneau droit affiche les paramètres du groupe sélectionné dans le panneau gauche. Si ce groupe ne contient que des sous-groupes, le panneau de droite sera vide.
 
 *Les options suivantes sont disponibles dans le menu contextuel du panneau :*
+
+
 
 #### Modifier une valeur 
 
@@ -85,10 +105,14 @@ Le panneau droit affiche les paramètres du groupe sélectionné dans le panneau
 4.  Appuyez sur le bouton **OK**.
 5.  La valeur d\'un paramètre peut également être modifiée en double-cliquant sur son champ \'Type\' ou \'Valeur\'.
 
+
+
 #### Supprimer une clé 
 
 1.  Sélectionnez un paramètre.
 2.  Sélectionnez l\'option **Enlevé la clé** dans le menu contextuel.
+
+
 
 #### Renommer une clé 
 
@@ -96,6 +120,8 @@ Le panneau droit affiche les paramètres du groupe sélectionné dans le panneau
 2.  Sélectionnez l\'option **Renommé la clé** dans le menu contextuel.
 3.  Saisissez un nouveau nom.
 4.  Un paramètre peut également être renommé en double-cliquant sur son champ \'Nom\'.
+
+
 
 #### Nouvel article chaîne 
 
@@ -105,33 +131,47 @@ Le panneau droit affiche les paramètres du groupe sélectionné dans le panneau
 4.  Entrez une valeur dans la boîte de dialogue suivante.
 5.  Appuyez sur le bouton **OK**.
 
+
+
 #### Nouvel article flottant 
 
 1.  Sélectionnez l\'option **Nouvel article flottant** ou **Nouveau → Nouvel article flottant** dans le menu contextuel.
 2.  Les étapes suivantes sont similaires à celles d\'un [Nouvel article chaîne](#Nouvel_article_chaîne.md)
+
+
 
 #### Nouvel article entier 
 
 1.  Sélectionnez l\'option **Nouvel article entier** ou **Nouveau → Nouvel article entier** dans le menu contextuel.
 2.  Les étapes suivantes sont similaires à celles d\'un [Nouvel article chaîne](#Nouvel_article_chaîne.md)
 
+
+
 #### Nouvel article non signé 
 
 1.  Sélectionnez l\'option **Nouvel article non signé** ou **Nouveau → Nouvel article non signé** dans le menu contextuel.
 2.  Les étapes suivantes sont similaires à celles d\'un [Nouvel article flottant](#Nouvel_article_chaîne.md)
+
+
 
 #### Nouvel article booléen 
 
 1.  Sélectionnez l\'option **Nouvel article booléen** ou **Nouveau → Nouvel article booléen** dans le menu contextuel.
 2.  Les étapes suivantes sont similaires à celles d\'un [Nouvel article chaîne](#Nouvel_article_chaîne.md)
 
+
+
 ### Tri
 
 Par défaut, les groupes de chaque niveau d\'arborescence du panneau de gauche sont triés par ordre alphabétique et les paramètres du panneau de droite sont également triés par ordre alphabétique. Mais l\'ordre dans chaque panneau peut être inversé en cliquant respectivement sur l\'en-tête \'Groupe\' ou \'Nom\'.
 
+
+
 ### Recherche rapide 
 
 La saisie d\'une chaîne (partielle) dans cette zone de saisie développera complètement l\'arborescence dans le panneau de gauche et mettra en surbrillance tous les groupes dont les noms correspondent à la valeur entrée. Si aucune correspondance n\'est trouvée, l\'arrière-plan de la zone de saisie devient rouge.
+
+
 
 ### Rechercher
 
@@ -144,9 +184,13 @@ La saisie d\'une chaîne (partielle) dans cette zone de saisie développera comp
 7.  Il est possible de lancer une nouvelle recherche sans fermer la boîte de dialogue. Une fois encore, la sélection du groupe à partir duquel commencer la recherche est généralement requise.
 8.  Utilisez le bouton **Annuler** pour fermer la boîte de dialogue.
 
+
+
 ## Remarques
 
 -   La page [Réglage fin](Fine-tuning/fr.md) répertorie un certain nombre de paramètres qui peuvent être intéressants.
+
+
 
 ## Script
 

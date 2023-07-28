@@ -31,18 +31,18 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 | [PartDesign tutorial](PartDesign_tutorial.md) | [Path Walkthrough for the Impatient](Path_Walkthrough_for_the_Impatient.md) | [Plot Basic tutorial](Plot_Basic_tutorial.md) |
 | [Plot MultiAxes tutorial](Plot_MultiAxes_tutorial.md) | [Post-Processing of FEM Results with Paraview](Post-Processing_of_FEM_Results_with_Paraview.md) | [Private Preference Packs](Private_Preference_Packs.md) |
 | [Raytracing tutorial](Raytracing_tutorial.md) | [Robot 6-Axis](Robot_6-Axis.md) | [Robot tutorial](Robot_tutorial.md) |
-| [Sandbox:Add FEM Solver Tutorial](Sandbox_Add_FEM_Solver_Tutorial.md) | [Sandbox:Hollow Cylinder Tutorial](Sandbox_Hollow_Cylinder_Tutorial.md) | [Sandbox:Simbioz](Sandbox_Simbioz.md) |
-| [Sandbox:TechDraw template creation tutorial](Sandbox_TechDraw_template_creation_tutorial.md) | [Sandbox:TutorialArchBIM](Sandbox_TutorialArchBIM.md) | [Sandbox:TutorialBIMannex](Sandbox_TutorialBIMannex.md) |
-| [Scripted Parts: Ball Bearing - Part 1](Scripted_Parts__Ball_Bearing_-_Part_1.md) | [Scripted Parts: Ball Bearing - Part 2](Scripted_Parts__Ball_Bearing_-_Part_2.md) | [Scripts](Scripts.md) |
-| [Sketcher Micro Tutorial - Constraint Practices](Sketcher_Micro_Tutorial_-_Constraint_Practices.md) | [Sketcher reference](Sketcher_reference.md) | [Sketcher requirement for a sketch](Sketcher_requirement_for_a_sketch.md) |
-| [Sketcher Tutorial](Sketcher_Tutorial.md) | [TechDraw HowTo Page](TechDraw_HowTo_Page.md) | [TechDraw Pitch Circle Tutorial](TechDraw_Pitch_Circle_Tutorial.md) |
-| [TechDraw TemplateGenerator](TechDraw_TemplateGenerator.md) | [TechDraw TemplateHowTo](TechDraw_TemplateHowTo.md) | [Thread for Screw Tutorial](Thread_for_Screw_Tutorial.md) |
-| [Toothbrush Head Stand](Toothbrush_Head_Stand.md) | [Transient FEM analysis](Transient_FEM_analysis.md) | [Tutorial custom placing of windows and doors](Tutorial_custom_placing_of_windows_and_doors.md) |
-| [Tutorial for open windows](Tutorial_for_open_windows.md) | [Tutorial FreeCAD POV ray](Tutorial_FreeCAD_POV_ray.md) | [Tutorial guidelines](Tutorial_guidelines.md) |
-| [Tutorial KinematicAssembly](Tutorial_KinematicAssembly.md) | [Tutorial KinematicController](Tutorial_KinematicController.md) | [Tutorial KinematicSkeleton](Tutorial_KinematicSkeleton.md) |
-| [Tutorial Render with Blender](Tutorial_Render_with_Blender.md) | [Template:TutorialInfo](Template_TutorialInfo.md) | [Tutorials](Tutorials.md) |
-| [Video tutorials for architectural design](Video_tutorials_for_architectural_design.md) | [Video tutorials for product design](Video_tutorials_for_product_design.md) | [VRML Preparation for Robot Simulation](VRML_Preparation_for_Robot_Simulation.md) |
-| [Whiffle Ball tutorial](Whiffle_Ball_tutorial.md) | [Wikihouse porting tutorial](Wikihouse_porting_tutorial.md) |
+| [Sandbox:Simbioz](Sandbox_Simbioz.md) | [Sandbox:TechDraw template creation tutorial](Sandbox_TechDraw_template_creation_tutorial.md) | [Sandbox:TutorialArchBIM](Sandbox_TutorialArchBIM.md) |
+| [Sandbox:TutorialBIMannex](Sandbox_TutorialBIMannex.md) | [Scripted Parts: Ball Bearing - Part 1](Scripted_Parts__Ball_Bearing_-_Part_1.md) | [Scripted Parts: Ball Bearing - Part 2](Scripted_Parts__Ball_Bearing_-_Part_2.md) |
+| [Scripts](Scripts.md) | [Sketcher Micro Tutorial - Constraint Practices](Sketcher_Micro_Tutorial_-_Constraint_Practices.md) | [Sketcher reference](Sketcher_reference.md) |
+| [Sketcher requirement for a sketch](Sketcher_requirement_for_a_sketch.md) | [Sketcher Tutorial](Sketcher_Tutorial.md) | [TechDraw HowTo Page](TechDraw_HowTo_Page.md) |
+| [TechDraw Pitch Circle Tutorial](TechDraw_Pitch_Circle_Tutorial.md) | [TechDraw TemplateGenerator](TechDraw_TemplateGenerator.md) | [TechDraw TemplateHowTo](TechDraw_TemplateHowTo.md) |
+| [Thread for Screw Tutorial](Thread_for_Screw_Tutorial.md) | [Toothbrush Head Stand](Toothbrush_Head_Stand.md) | [Transient FEM analysis](Transient_FEM_analysis.md) |
+| [Tutorial custom placing of windows and doors](Tutorial_custom_placing_of_windows_and_doors.md) | [Tutorial for open windows](Tutorial_for_open_windows.md) | [Tutorial FreeCAD POV ray](Tutorial_FreeCAD_POV_ray.md) |
+| [Tutorial guidelines](Tutorial_guidelines.md) | [Tutorial KinematicAssembly](Tutorial_KinematicAssembly.md) | [Tutorial KinematicController](Tutorial_KinematicController.md) |
+| [Tutorial KinematicSkeleton](Tutorial_KinematicSkeleton.md) | [Tutorial Render with Blender](Tutorial_Render_with_Blender.md) | [Template:TutorialInfo](Template_TutorialInfo.md) |
+| [Tutorials](Tutorials.md) | [Video tutorials for architectural design](Video_tutorials_for_architectural_design.md) | [Video tutorials for product design](Video_tutorials_for_product_design.md) |
+| [VRML Preparation for Robot Simulation](VRML_Preparation_for_Robot_Simulation.md) | [Whiffle Ball tutorial](Whiffle_Ball_tutorial.md) | [Wikihouse porting tutorial](Wikihouse_porting_tutorial.md) |
+|
 
 
 

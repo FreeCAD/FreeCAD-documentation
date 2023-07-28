@@ -1,16 +1,9 @@
-# Surface Workbench/pt-br
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-<img alt="Surface workbench icon" src=images/Workbench_Surface.svg  style="width:128px;">
+# <img alt="Surface workbench icon" src=images/Workbench_Surface.svg  style="width:64px;"> Surface Workbench/pt-br
 
 
 {{TOCright}}
+
+
 
 ## Introdução
 
@@ -26,6 +19,8 @@ Alguns dos recursos disponíveis são:
 
 <img alt="" src=images/Surface_example.png  style="width:350px;">
 
+
+
 ## Uso
 
 A bancada de trabalho Superfície tem por objetivo criar faces com formas, o que não é possível fazer com as ferramentas padrões em outras bancadas. O OCCT kernel dá como exemplo uma caixa retangular com cantos arredondados de diferentes raios.
@@ -40,6 +35,8 @@ A bancada Superfície se integra com outras bancadas do FreeCAD. O exemplo acima
 
 The generated surface cannot be placed inside a **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**. However, the generated surface can be contained inside a **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)** together with the associated **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)** that holds the datum planes and sketches. The non-parametric **[<img src=images/Part_Builder.svg style="width:16px"> [Part Builder](Part_Builder.md)** tool can then be used in order to create a [shell](Glossary#Shell.md) and finally a [solid](Glossary#Solid.md).
 
+
+
 ## Ferramentas da bancada Superfície 
 
 -   <img alt="" src=images/Filling.svg  style="width:32px;"> [Enchimento](Surface_Filling/pt-br.md): enche uma série de curvas limite com uma superfície. A superfície pode ser modificada pela adição de curvas de restrição e vértices. A superfície muda de forma para que a superfície passe pelos elementos de restrição adicionados.
@@ -47,11 +44,13 @@ The generated surface cannot be placed inside a **[<img src=images/PartDesign_Bo
 
 -   <img alt="" src=images/Surface_GeomFillSurface.svg  style="width:32px;"> [Fill boundary curves](Surface_GeomFillSurface.md): creates a surface from two, three or four boundary edges.
 
--   <img alt="" src=images/Surface_Sections.svg  style="width:32px;"> [Sections](Surface_Sections.md): creates a surface from edges that represent transversal sections of surface. <small>(v0.19)</small> 
+-   <img alt="" src=images/Surface_Sections.svg  style="width:32px;"> [Sections](Surface_Sections.md): creates a surface from edges that represent transversal sections of surface.
 
 -   <img alt="" src=images/Surface_ExtendFace.svg  style="width:32px;"> [Extend face](Surface_ExtendFace.md): extrapolates the surface at the boundaries with its local U parameter and V parameter.
 
--   <img alt="" src=images/Surface_CurveOnMesh.svg  style="width:32px;"> [Curve on mesh](Surface_CurveOnMesh.md): create approximated spline segments on top of a selected [mesh](Mesh_Workbench.md).
+-   <img alt="" src=images/Surface_CurveOnMesh.svg  style="width:32px;"> [Curve on mesh](Surface_CurveOnMesh.md): creates approximated spline segments on top of a selected [mesh](Mesh_Workbench.md).
+
+-   <img alt="" src=images/Surface_BlendCurve.svg  style="width:32px;"> [Blend Curve](Surface_BlendCurve.md): creates a Bezier curve between two edges, with desired continuity.
 
 
 <div class="mw-translate-fuzzy">

@@ -66,6 +66,7 @@ Il [Packaging](Packaging/it.md) consiste nel prendere i binari compilati e i fil
 -   [Google Summer of Code](Google_Summer_of_Code.md) get involved via Google\'s student support program
 -   [Fine-tuning](Fine-tuning/it.md) Mostra varie regolazioni e impostazioni che è possibile utilizzare per perfezionare l\'installazione di FreeCAD o per risolvere determinati problemi
 -   [Wrapping a C++ class in Python](Wrapping_a_Cplusplus_class_in_Python.md) mostra come creare il wrapper Python per una classe C++
+-   [Lista di controllo per l\'aggiunta di una caratteristica ad un ambiente C++](NewFeatureCheckList_C++.md) fornisce un aiuto per i contributori.
 
 -   [Traduzione di un ambiente esterno](Translating_an_external_workbench/it.md)
 
@@ -135,14 +136,8 @@ Serve ancora molto lavoro prima che possa competere con i software commerciali.
 
 ## Community
 
-
-<div class="mw-translate-fuzzy">
-
--   [IRC channel](irc://chat.freenode.net/freecad) ,synchronized with [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
--   [Development forum](https://forum.freecadweb.org/viewforum.php?f=6)
-
-
-</div>
+-   [IRC channel](ircs://irc.libera.chat:6697/freecad) ,synchronized with [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
+-   [Development forum](https://forum.freecad.org/viewforum.php?f=6)
 
 -   [Piano di sviluppo](Development_roadmap/it.md)
 

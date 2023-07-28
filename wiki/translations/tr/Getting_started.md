@@ -125,7 +125,13 @@ Ayrıca Görünüm menüsünde, Görünüm araç çubuğunda ve sayı kısayol t
 
 ## FreeCAD\'le İlk Adımlar 
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD\'in odak noktası, yüksek hassasiyete sahip 3D modeller yapmanız, bu modellerin üzerinde sıkı bir kontrole sahip olmanız (modelleme geçmişine geri dönebilme ve parametreleri değiştirebilme) ve sonuç olarak bu modelleri (3D baskı alma, CNC ile işleme ve hatta inşaat şantiyesinde kullanım) yapmanızdır. Bu nedenle, animasyon filmi veya oyun gibi başka amaçlar için yapılmış diğer 3D uygulamalardan çok farklıdır. İlk defa 3D modelleme yapmaya başlıyorsanız, programı kullanmayı öğrenmek biraz karmaşık gelebilir. Kafanız karıştığında veya zorlandığınızda, unutmayın, zaman kaybetmeden dostça karşılanacağınız kullanıcı topluluğundan oluşan [FreeCAD forum\'dan](http://forum.freecadweb.org/index.php) yardım isteyebilirsiniz.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

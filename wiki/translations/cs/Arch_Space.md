@@ -35,6 +35,8 @@ Nástroj Prostor umožňuje definovat prázdný objem, který je buď založen n
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Použití
@@ -53,6 +55,8 @@ Nástroj Prostor umožňuje definovat prázdný objem, který je buď založen n
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Omezení
@@ -62,6 +66,8 @@ Nástroj Prostor umožňuje definovat prázdný objem, který je buď založen n
 
 -   The boundaries properties is currently not editable via GUI.
 -   See the [forum announcement](http://forum.freecadweb.org/viewtopic.php?f=9&t=4275).
+
+
 
 ## Vlastnosti
 
@@ -98,7 +104,7 @@ Nástroj Prostor umožňuje definovat prázdný objem, který je buď založen n
 ## Options
 
 -   To create zones that group several spaces, use a [Arch BuildingPart](Arch_BuildingPart.md) and set its IFC type to \"Spatial Zone\"
--   The space object has the same display modes as other Arch and Part objects, with one more, called **Footprint**, that displays only the bottom face of the space. <small>(v0.19)</small> 
+-   The space object has the same display modes as other Arch and Part objects, with one more, called **Footprint**, that displays only the bottom face of the space.
 
 
 <div class="mw-translate-fuzzy">

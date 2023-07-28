@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Arch Rebar Helical
    Name/fr:Arch Rebar Armature hélicoïdale
-   MenuLocation:Arch → Rebar tools → Helical Rebar<br>3D/BIM → Reinforcement tools → Helical Rebar
+   MenuLocation:Arch → Outils pour les armatures → Armature hélicoïdale<br>3D/BIM → Reinforcement tools → Armature hélicoïdale
    Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
    Version:0.17
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Rebar Armature en étrier](Arch_Rebar_Stirrup/fr.md), [Arch Rebar Armature en colonnes](Arch_Rebar_ColumnReinforcement/fr.md)
@@ -14,7 +14,7 @@
 
 L\'outil [Armature hélicoïdale](Arch_Rebar_Helical/fr.md) permet à l\'utilisateur de créer une armature hélicoïdale continue dans l\'élément structurel [Arch Structure](Arch_Structure/fr.md).
 
-L\'outil [Helical Rebar](Arch_Rebar_BentShape/fr.md) est également intégré dans l\'[atelier BIM](BIM_Workbench/fr.md).
+L\'outil [Armature hélicoïdale](Arch_Rebar_Helical/fr.md) est également intégré dans l\'[atelier BIM](BIM_Workbench/fr.md).
 
 Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire des extensions → Reinforcement**.
 
@@ -24,27 +24,29 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 *Une barre de renforcement hélicoïdale continue à l'intérieur d'une [Arch Structure](Arch_Structure/fr.md)*
 
+
+
 ## Utilisation
 
 1.  Sélectionnez n'importe quelle face d'un objet créé précédemment **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md)**.
 
-2.  Puis sélectionnez **<img src="images/_Arch_Rebar_Helical.svg" width=16px> [Rebar Helical](Arch_Rebar_Helical/fr.md)** dans les outils pour barres d\'armature.
+2.  Puis sélectionnez **<img src="images/Arch_Rebar_Helical.svg" width=16px> [Armature hélicoïdale](Arch_Rebar_Helical/fr.md)** dans les outils pour barres d\'armature.
 
-3.  Un [Panneau des tâches](Task_Panel/fr.md) apparaîtra sur le côté gauche de l\'écran, comme indiqué ci-dessous.
+3.  Un [panneau des tâches](Task_Panel/fr.md) apparaîtra sur le côté gauche de l\'écran, comme indiqué ci-dessous.
 
 4.  Sélectionnez l\'orientation souhaitée.
 
-5.  Remplissez les entrées telles que \'Left Cover\', Right Cover, Top Cover, \'Bottom Cover\', \'Front Cover\', \'Bent Angle\', \'Bent Factor\', \'Rounding\' et \'Diameter\' de l\'armature.
+5.  Remplissez les entrées telles que \"Face gauche\", \"Face droite\", \"Face supérieure\", \"Face inférieure\", \"Face avant\", \"Angle de flexion\", \"Facteur de courbure\", \"Arrondi\" et \"Diamètre\" de l\'armature.
 
-6.  Sélectionnez le mode de distribution \'Amount\' ou \'Spacing\'.
-    -   Si \'Spacing\' est sélectionné, un utilisateur peut également opter pour [espacement personnalisé](Custom_Spacing/fr.md).
+6.  Sélectionnez le mode de distribution \"Quantité\" ou \"Écartement\".
+    -   Si \"Écartement\" est sélectionné, l\'utilisateur peut également opter pour [espacement personnalisé](Custom_Spacing/fr.md).
 
 7.  
-    **Pick Selected Face**(choisir la face sélectionnée) est utilisé pour vérifier ou modifier la face pour la distribution des barres.
+    **Choisir la face sélectionnée**est utilisé pour vérifier ou modifier la face pour la distribution des barres.
 
-8.  Cliquez sur **OK** ou **Apply** pour générer les barres d'arceau.
+8.  Cliquez sur **OK** ou **Appliquer** pour générer les barres.
 
-9.  Cliquez sur **Cancel** pour quitter le panneau de tâches.
+9.  Cliquez sur **Annuler** pour quitter le panneau de tâches.
 
 :   <img alt="" src=images/HelicalRebarDialog.png  style="width:250px;">
 
@@ -52,17 +54,21 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 *Panneau de tâches pour l'outil Arch Armature hélicoïdale*
 
+
+
 ## Propriétés
 
--    {{PropertyData/fr|SideCover}}: La distance entre l\'armature et la face incurvée.
+-    **SideCover**: distance entre l\'armature et la face incurvée.
 
--    {{PropertyData/fr|Top Cover}}: La distance entre l\'armature et la face supérieure de la structure.
+-    **Top Cover**: distance entre l\'armature et la face supérieure de la structure.
 
--    {{PropertyData/fr|Bottom Cover}}: La distance entre l\'armature et la face inférieure de la structure.
+-    **Bottom Cover**: distance entre l\'armature et la face inférieure de la structure.
 
--    {{PropertyData/fr|Pitch}}: Le pas d\'une hélice est la hauteur d\'un tour d\'hélice complet, mesuré parallèlement à l\'axe de l\'hélice.
+-    **Pitch**: pas d\'une hélice est la hauteur d\'un tour d\'hélice complet, mesuré parallèlement à l\'axe de l\'hélice.
 
--    {{PropertyData/fr|Diameter}}: Diamètre de l\'armature.
+-    **Diameter**: diamètre de l\'armature.
+
+
 
 ## Script
 
@@ -71,7 +77,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 [Arch API](Arch_API/fr.md), [API de renforts](Reinforcement_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Armature hélicoïdale peut être utilisé dans [macro](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante:
+L\'outil Armature hélicoïdale peut être utilisé dans [macro](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante:
 
 
 ```python
@@ -87,6 +93,8 @@ Rebar = makeHelicalRebar(s_cover, b_cover, diameter, t_cover, pitch, structure=N
 
 -    `pitch`est le paramètre qui détermine la proximité ou l\'éloignement de chaque boucle en spirale.
 
+
+
 ### Exemple
 
 
@@ -101,9 +109,9 @@ FreeCAD.ActiveDocument.recompute()
 Rebar = HelicalRebar.makeHelicalRebar(10, 50, 8, 50, 50, structure, "Face2")
 ```
 
-### Édition de la barre d'armement 
+### Modification de l\'armature 
 
-Vous pouvez changer les propriétés de la barre d'armement avec la fonction suivante.
+Vous pouvez changer les propriétés de l\'armature avec la fonction suivante.
 
 
 ```python

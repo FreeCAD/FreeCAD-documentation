@@ -11,12 +11,16 @@
 
 # TechDraw ExtensionCircleCenterLines/fr
 
+
+
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:24px;"> **TechDraw Axes de centrage** ajoute des lignes de centre aux cercles et aux arcs.
+L\'outil **TechDraw Axes de centrage** ajoute des lignes de centre aux cercles et aux arcs.
 
 <img alt="" src=images/TechDraw_ExtensionCircleCenterLinesExample.png  style="width:200px;"> 
 *A droite, un cercle avec ses axes de centrage*
+
+
 
 ## Utilisation
 

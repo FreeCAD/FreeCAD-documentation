@@ -1,72 +1,84 @@
 # Part Loft Technical Details/pl
-This page explains the details of how the [Loft](Part_Loft.md) surface is created. This is also relevant to [Part Sweep](Part_Sweep.md) done along a straight path, although there are differences.
+Ta strona wyjaśnia szczegóły tworzenia powierzchni funkcją [wyciągnięcie przez profile](Part_Loft/pl.md). Jest to również istotne dla funkcji [wyciągnięcie po ścieżce](Part_Sweep/pl.md) wykonywanego wzdłuż prostej ścieżki, chociaż istnieją różnice.
 
-The information provided is implementation specific, and may change. Current state is relevant to FreeCAD 0.15.4119, OCC version: 6.7.0.
+Podane informacje są specyficzne dla implementacji i mogą ulec zmianie. Obecny stan dotyczy programu FreeCAD 0.15.4119, wersja OCC: 6.7.0.
 
-## Stages of the Loft creation 
 
-To explain the process of loft, it is convenient to divide it into stages:
 
-1.  make number of segments in the profiles equal (if they are not already)
-2.  establish correspondence between segments
-3.  make the loft surface
+## Etapy powstawania wyciągnięcia 
 
-### Step 1. Making numbers of segment in profiles match 
+Aby wyjaśnić proces wyciągnięcia przez profile, wygodnie jest podzielić go na etapy:
 
-The Loft needs the number of segments to match in order to create surfaces between corresponding segments. If the numbers of segments match in all profiles, this step is skipped.
+1.  wyrównać liczbę segmentów w profilach *(jeśli jeszcze nie są)*,
+2.  ustalić zgodność między segmentami,
+3.  wykonanie powierzchni wyciągnięcia.
 
-If at least one of the profiles has a different number of segments, the following procedure is applied. The procedure is explained here for the case of only two profiles for simplicity.
 
-1.  the profiles are temporarily aligned so that they are coplanar and their centers of masses\* match.
-2.  (see the picture) for every vertex in one profile, the second profile is sliced at the same polar angle (the polar center is the center of mass). If there is more than one slice possible or no slice possible at all (it can happen on very convex profiles), the Loft typically fails.
-3.  the same is done in the opposite direction.
 
-The operation is extended to all profiles, to yield the equal number of segments. The total number of segments in each profile would be equal to the sum of all numbers of segments of all profiles (provided none of the vertices happen to be at the same polar angle).
+## Krok 1. Dopasowanie liczby segmentów w profilach 
+
+Operacja ta wymaga dopasowania liczby segmentów, aby utworzyć powierzchnie pomiędzy odpowiadającymi im segmentami. Jeśli ilość segmentów zgadza się we wszystkich profilach, ten krok jest pomijany.
+
+Jeśli przynajmniej jeden z profili ma inną liczbę segmentów, stosuje się następującą procedurę. Dla uproszczenia procedura została tu wyjaśniona dla przypadku tylko dwóch profili.
+
+1.  Profile są tymczasowo wyrównane tak, że są współpłaszczyznowe, a ich środki mas\* są zgodne.
+2.  *(patrz rysunek)* dla każdego wierzchołka w jednym profilu, drugi profil jest krojony pod tym samym kątem biegunowym *(środek biegunowy to środek masy)*. Jeśli jest więcej niż jeden plasterek możliwy lub nie jest możliwy żaden plasterek w ogóle *(może się to zdarzyć na bardzo wypukłych profilach)*, wyciągnięcie zazwyczaj się nie udaje.
+3.  to samo jest wykonywane w przeciwnym kierunku.
+
+Operację tę rozszerzamy na wszystkie profile, by uzyskać równą liczbę odcinków. Całkowita liczba odcinków w każdym profilu będzie równa sumie wszystkich liczb odcinków wszystkich profili *(pod warunkiem, że żaden z wierzchołków nie znajdzie się pod tym samym kątem polarnym)*.
 
    
-  <img alt="The process of slicing profile2 (white crescent-like shape) to create joints corresponding to vertices of profile1 (purple pentagon). The inserted joints are marked by yellow arrows." src=images/Loft-vertex-insertion.png  style="width:300px;">   <img alt="The result of loft relevant to the picture on the left." src=images/Loft_crescent_pentagon.png  style="width:300px;">
+  <img alt="Proces krojenia profilu2 *(biały półksiężyc)* w celu utworzenia połączeń odpowiadających wierzchołkom profilu1 *(fioletowy pięciokąt)*. Wstawione złącza są oznaczone żółtymi strzałkami." src=images/Loft-vertex-insertion.png  style="width:300px;">   <img alt="Wynik wyciągnięcia odpowiedni dla rysunku po lewej stronie." src=images/Loft_crescent_pentagon.png  style="width:300px;">
    
 
-### Step 2. Establishing correspondence between segments 
 
-<img alt="Demonstration of Loft keeping the number of segments in profiles when they match. Note how 3 edges of the top square \"collapse\" into a small polygonal piece of the bottom profile." src=images/Loft_Number_of_verts_match.png  style="width:300px;"> In case numbers of segments in all profiles were not equal, slicing was done in Step 1, and the correspondence is trivial. In case numbers of segments in all profiles were equal, existing segments are used (see the picture), and this is when the correspondence must be established.
 
-The exact algorithm to find corresponding segments is complex, but generally it tends to minimize the twisting of the resulting Loft. This means that if one is doing a loft between two squares, the maximum twist possible is \<45°. Further rotation of one of the squares will cause the Loft to jump to other vertices.
+### Krok 2. Ustalenie zależności między segmentami 
 
-The correspondence between neighboring profiles is made independently. This means that additional twisting can be obtained by adding more profiles.
+<img alt="Demonstracja wyciągnięcia przez profile zachowującego liczbę segmentów w profilach, gdy są one dopasowane. Zauważ jak 3 krawędzie górnego kwadratu \"zapadają się\" w mały wielokątny kawałek dolnego profilu." src=images/Loft_Number_of_verts_match.png  style="width:300px;"> W przypadku, gdy liczby segmentów we wszystkich profilach nie były równe, krojenie zostało wykonane w kroku 1, a korespondencja jest trywialna. W przypadku, gdy liczby odcinków we wszystkich profilach były równe, wykorzystano istniejące odcinki *(patrz rysunek)* i wtedy należy ustalić zgodność.
 
-Another thing to note is that when numbers of segments in profiles are equal, the resulting Loft is substantially more robust with respect to complex profiles, especially for non-convex ones. 
+Dokładny algorytm znajdowania odpowiednich segmentów jest skomplikowany, ale generalnie dąży do zminimalizowania skręcenia wynikowego wyciągnięcia przez profile. Oznacza to, że jeśli ktoś robi wyciągnięcie pomiędzy dwoma kwadratami, maksymalny możliwy skręt to \<45°. Dalszy obrót jednego z kwadratów spowoduje, że wyciągnięcie będzie przeskakiwało do innych wierzchołków.
 
-### Step 3. Making the loft surface. 
+Korespondencja pomiędzy sąsiednimi profilami odbywa się niezależnie. Oznacza to, że dodatkowe skręcenie można uzyskać poprzez dodanie kolejnych profili.
 
-<img alt="A spline interpolation curve (red) that follows the loft surface. The points to interpolate through are shown as red squares." src=images/Loft_B-spline.png  style="width:400px;"> If there are only two profiles, the surfaces created are ruled surfaces between corresponding segments of the profiles. Straight edges are created to connect corresponding vertices of the profiles.
+Kolejną rzeczą, którą należy zauważyć jest to, że gdy liczby segmentów w profilach są równe, otrzymane wyciągnięcie jest znacznie bardziej wytrzymałe w odniesieniu do złożonych profili, zwłaszcza tych niewypukłych. 
 
-If there are more than two profiles, the surfaces are made of splines in the same manner as straight lines form ruled surfaces. The imaginary splines the surface is \"made of\" are drawn through corresponding points of the corresponding segments of the profiles.
 
-The splines are B-spline interpolation.
 
--   If the number of profiles is below 10, interpolation is done with by a B-spline with a maximum possible degree (i.e. degree = number_of_profiles - 1).
--   If the number of profiles exceeds 10, the interpolation is switched to 3rd degree B-splines.
+### Krok 3. Wykonanie powierzchni wyciągnięcia 
 
-The knotting method used is \"approximate chord length\". Approximate stands for the fact that the knot vector is exactly the same for every spline in a loft. For more info on what is B-spline interpolation, knot vector, chord length method, see, for example, [cs.mtu.edu Curve Global Interpolation](http://www.cs.mtu.edu/~shene/COURSES/cs3621/NOTES/INT-APP/CURVE-INT-global.html).
+<img alt="Krzywa interpolacji spline *(czerwona)*, która podąża za powierzchnią wyciągnięcia. Punkty, przez które należy interpolować, są pokazane jako czerwone kwadraty." src=images/Loft_B-spline.png  style="width:400px;"> Jeśli istnieją tylko dwa profile, utworzone powierzchnie są powierzchniami rządzonymi pomiędzy odpowiadającymi im segmentami profili. Krawędzie proste są tworzone w celu połączenia odpowiednich wierzchołków profili.
 
-Note that Loft has a \"Ruled\" property. If it is set to true, ruled surfaces are made between neighboring profiles even when there\'s more than one profile. That is, B-spline interpolation is replaced by piecewise linear interpolation. 
+Jeśli istnieją więcej niż dwa profile, powierzchnie są tworzone przez krzywe złożone w taki sam sposób, w jaki linie proste tworzą powierzchnie regulowane. Wyimaginowane krzywe złożone, z których \"zbudowana\" jest powierzchnia, są rysowane przez odpowiednie punkty odpowiednich odcinków profili.
 
-## The essence 
+Krzywe są interpolacją krzywych złożonych.
 
--   The loft is doing B-spline interpolation between the provided profiles. The interpolation is switched to piecewise linear when \"Ruled\" property is set to true.
--   When number of profiles exceeds 9, interpolation degree is dropped to 3. This switchover can substantially reduce wiggling.
--   Matching the number of segments (aka number of vertices) in the profiles allows one to give the loft a slight twist, and typically permits using more complex profiles.
--   When numbers of segments are not matched, it\'s best to keep the profiles to be representable by a proper r(phi) function in polar coordinates.
+-   Jeśli liczba profili jest mniejsza niż 10, interpolacja odbywa się za pomocą krzywej złożonej o maksymalnym możliwym stopniu *(tj. stopień = number_of_profiles - 1)*.
+-   Jeśli liczba profili przekracza 10, interpolacja jest przełączana na krzywą złożoną 3 stopnia.
 
-## Additional remarks 
+Stosowana metoda węzłów to \"approximate chord length\". Approximate oznacza, że wektor węzłów jest dokładnie taki sam dla każdej krzywej w wyciągnięciu. Więcej informacji o tym, czym jest interpolacja krzywej złozonej, wektor węzłów, metoda długości cięciwy, można znaleźć na przykład w poradniku [cs.mtu.edu Curve Global Interpolation](http://www.cs.mtu.edu/~shene/COURSES/cs3621/NOTES/INT-APP/CURVE-INT-global.html).
 
--   It is not required that the profiles are parallel (see a picture below).
--   For Loft, it is not required that the profiles are separated (see a picture below). They can be coplanar, but they should not intersect.
--   When \"closed\" property of the Loft is \"true\", there is a cusp joint in all the splines forming the Loft (see a picture below). There is no reliable way to close the loft smoothly now.
+Zauważ, że Wyciągnięcie ma właściwość \"Prostokreślnie\". Jeśli jest ona ustawiona na wartość {{True/pl}}, to pomiędzy sąsiednimi profilami tworzone są powierzchnie regulowane, nawet jeśli jest więcej niż jeden profil. Oznacza to, że interpolacja krzywej złożonej jest zastępowana przez interpolację liniową kawałkową. 
+
+
+
+## Główny punkt 
+
+-   Wyciągnięcie wykonuje interpolację krzywej złożonej między dostarczonymi profilami. Interpolacja jest przełączana na liniową, gdy właściwość \"Prostokreślnie\" jest ustawiona na {{True/pl}}.
+-   Gdy liczba profili przekracza 9, stopień interpolacji spada do 3. To przełączenie może znacznie zmniejszyć drgania.
+-   Dopasowanie liczby segmentów *(względem liczby wierzchołków)* w profilach pozwala na lekkie skręcenie wyciągnięcia i zwykle pozwala na użycie bardziej złożonych profili.
+-   Kiedy liczba segmentów nie jest dopasowana, najlepiej jest zachować profile, aby były reprezentowane przez odpowiednią funkcję r*(phi)* we współrzędnych biegunowych.
+
+
+
+## Uwagi dodatkowe 
+
+-   Nie jest wymagane, aby profile były równoległe *(patrz zdjęcie poniżej)*.
+-   W przypadku wyciągnięcia nie jest wymagane, aby profile były rozdzielone *(patrz zdjęcie poniżej)*. Mogą być koplanarne, ale nie powinny się przecinać.
+-   Gdy właściwość \"zamknięty\" wyciągnięcia ma wartość {{True/pl}}, we wszystkich krzywych tworzących wyciągnięcie po profilach znajduje się połączenie wierzchołkowe *(patrz rysunek poniżej)*. Nie ma teraz niezawodnego sposobu na płynne zamknięcie wyciągnięcia.
 
     
-  <img alt="It is not required that the profiles are parallel." src=images/Loft_nonparallel.png  style="width:300px;">   <img alt="In Loft, the profiles can be coplanar. In this example, two of three profiles are coplanar." src=images/Loft_Coplanar.png  style="width:300px;">   <img alt="An example of a closed loft between three pentagonal profiles (white). Note the non-smooth joint at the outermost profile. This is the first profile in the closed loft." src=images/Loft-closed.png  style="width:300px;">
+  <img alt="Nie jest wymagane, aby profile były równoległe." src=images/Loft_nonparallel.png  style="width:300px;">   <img alt="W wyciągnięciu, profile mogą być współosiowe. W tym przykładzie dwa z trzech profili są współpłaszczyznowe." src=images/Loft_Coplanar.png  style="width:300px;">   <img alt="Przykład zamkniętego wyciągnięcia pomiędzy trzema pięciokątnymi profilami (biały). Należy zwrócić uwagę na niezbyt gładką spoinę na skrajnym profilu. Jest to pierwszy profil w zamkniętym poddaszu." src=images/Loft-closed.png  style="width:300px;">
 
 
 

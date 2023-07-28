@@ -18,7 +18,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questo strumento accorcia, rifila una linea fino al primo punto di intersezione, all\'interno o all\'esterno di una sagoma.
+
+
+</div>
 
 ![](images/SketcherTrimExample1.png ) ![](images/SketcherTrimExample2.png ) ![](images/SketcherTrimExample3.png )
 

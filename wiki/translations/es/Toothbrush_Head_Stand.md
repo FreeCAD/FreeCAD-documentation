@@ -20,6 +20,8 @@
 
 </div>
 
+
+
 ## Un problema de la vida diaria 
 
 Los cepillos de dientes eléctricos rara vez vienen con un soporte para el cabezal, mientras que en una familia a menudo se ven varios cabezales utilizados con un solo cuerpo. Muchas personas que se enfrentan a un problema común nos llevan a una variedad de soluciones, como se puede ver en Thingiverse (200-800 proyectos están relacionados con eso). Aquí está la primera respuesta y cómo diseñarla.
@@ -529,9 +531,11 @@ Perfect !
 -   Print it instead of the first version or to replace it if it eventually broke ;-)
 
 
- {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+{{PartDesign Tools navi
+
+}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Toothbrush Head Stand/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Toothbrush Head Stand/es

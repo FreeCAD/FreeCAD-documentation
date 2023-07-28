@@ -5,8 +5,8 @@ This category lists pages related to the [Drawing Workbench/hr](Drawing_Workbenc
 
 |     |     |     |
 | --- | --- | --- |
-| [Drawing Workbench/hr](Drawing_Workbench/hr.md) | [Category:Drawing/hr](Category_Drawing/hr.md) | [Category:Obsolete Workbenches/hr](Category_Obsolete_Workbenches/hr.md) |
-|
+| [Drawing Workbench/hr](Drawing_Workbench/hr.md) | [Image Workbench/hr](Image_Workbench/hr.md) | [Raytracing Workbench/hr](Raytracing_Workbench/hr.md) |
+| [Category:Drawing/hr](Category_Drawing/hr.md) | [Category:Obsolete Workbenches/hr](Category_Obsolete_Workbenches/hr.md) |
 
 
 

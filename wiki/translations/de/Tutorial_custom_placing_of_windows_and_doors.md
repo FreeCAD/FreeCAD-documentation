@@ -8,6 +8,8 @@
    Files:keine
 }}
 
+
+
 ## Einleitung
 
 Dieses Tutorial zeigt, wie man benutzerdefinierte [Fenster](Arch_Window/de.md) und [Türen](Arch_Door/de.md) in einem Gebäudemodell platziert. Es verwendet die Arbeitsbereiche [Entwurf (Draft)](Draft_Workbench/de.md), [Architektur (Arch)](Arch_Workbench/de.md) und [Skizze (Sketcher)](Sketcher_Workbench/de.md).
@@ -27,6 +29,8 @@ Siehe auch die folgende Seite für einige Videos über das Ausrichten von Fenste
 
 -   [Der Arbeitsbereich, der zum Erstellen von Architekturprojekten verwendet wird, heißt Arch](http://help-freecad-jpg87.fr/04_arch_ind.php)
 
+
+
 ## Einrichtung
 
 1\. Öffne FreeCAD, erstelle ein neues, leeres Dokument und wechsel zum [Architektur-Arbeitsbereich](Arch_Workbench/de.md).
@@ -38,6 +42,8 @@ Siehe auch die folgende Seite für einige Videos über das Ausrichten von Fenste
 4\. [Zoome im 3D-Ansichtsfenster heraus](Std_ViewZoomOut/de.md), wenn Du zu nahe am Raster bist.
 
 Jetzt sind wir bereit, um eine einfache Wand zu erstellen, in welcher wir Fenster und Türen positionieren können.
+
+
 
 ## Wände erstellen 
 
@@ -88,6 +94,8 @@ w = Draft.makeWire(p, closed=False)
 
 *align=center|Die aus dem Linienzug konstruierten Wände*
 
+
+
 ## vordefinierte Türen und Fenster erstellen 
 
 7\. Klicke auf das Werkzeug [Arch:Fenster](Arch_Window/de.md), wähle die Voreinstellung (preset) `Simple door` aus und ändere die Höhe auf 2 m.
@@ -103,7 +111,9 @@ w = Draft.makeWire(p, closed=False)
 
 
 :   
-    **Hinweis:**Die `Sill height` (Brüstungshöhe) ist der Abstand vom Fußboden bis zur unteren Fensterkante. Für Türen ist die `Sill height` gewöhnlich 0 m weil Türen normalerweise bis zum Fußboden reichen; andererseits haben Fenster üblicherweise einen Abstand von 0,5 m bis 1,5 m zum Fußboden. Der Parameter `Sill height` (Brüstungshöhe) kann nur während des ursprünglichen Erzeugens eines Fensters oder einer Tür mittels Voreinstellung (preset) eingegeben werden. Ist das Fenster oder die Tür erst einmal eingefügt, lässt sich seine Lage durch Editieren der Eigenschaft **Position** `[x, y, z]` der zugrundeliegenden [Skizze](Sketcher_Sketch.md) modifizieren.
+    **Hinweis:**Die `Sill height` (Brüstungshöhe) ist der Abstand vom Fußboden bis zur unteren Fensterkante. Für Türen ist die `Sill height` gewöhnlich 0 m weil Türen normalerweise bis zum Fußboden reichen; andererseits haben Fenster üblicherweise einen Abstand von 0,5 m bis 1,5 m zum Fußboden. Der Parameter `Sill height` (Brüstungshöhe) kann nur während des ursprünglichen Erzeugens eines Fensters oder einer Tür mittels Voreinstellung (preset) eingegeben werden. Ist das Fenster oder die Tür erst einmal eingefügt, lässt sich seine Lage durch Editieren der Eigenschaft **Position** `[x, y, z]` der zugrundeliegenden [Skizze](Sketcher_Workbench.md) modifizieren.
+
+
 
 ## benutzerdefinierte Türen und Fenster erstellen 
 
@@ -152,6 +162,8 @@ w = Draft.makeWire(p, closed=False)
 
 
 *align=center|Benutzerdefiniertes Fenster, erzeugt aus einer Skizze; noch hat es weder einen echten Rahmen noch eine Glasscheibe*
+
+
 
 ## Einrichtung des benutzerdefinierten Fensters 
 
@@ -209,6 +221,8 @@ w = Draft.makeWire(p, closed=False)
 
 *align=center|fertiges Fenster mit zugehörigen Komponenten, eingefügt in die Wand*
 
+
+
 ## Vervielfältigung eines benutzdefinierten Fensters 
 
 14\. Wähle `Window` und den zugrundeliegenden `Sketch002` im Modellbaum aus. Gehe dann zu **Bearbeiten → Auswahl duplizieren** und beantworte die Frage, ob nicht ausgewählte Abhängigkeiten dupliziert werden sollen, mit **No**. Ein neues `Window001` mit `Sketch003` wird an derselben Stelle wie die Original-Elemente erscheinen.
@@ -233,6 +247,8 @@ w = Draft.makeWire(p, closed=False)
 
 
 *align=center|Falsche Öffnung in der Wand wegen eines falschen Normalenvektors des Fensters*
+
+
 
 ## Normalenvektoren von Türen und Fenstern 
 
@@ -323,6 +339,8 @@ Nach Erledigung dieser Änderungen berechne das Modell mit **Ctrl**+**R** neu. W
 
 *align=center|Korrekte Öffnung in der Wand, genau passend zur Normalen des Fensters*
 
+
+
 ## Schlußbemerkungen
 
 20\. Wie demonstriert ist die anfängliche Platzierung der [Arch: Fenster](Arch_Window/de.md) sehr wichtig. Der Anwender sollte entweder
@@ -346,11 +364,11 @@ abs(N) = 1 = sqrt(sin^2(angle) + cos^2(angle) + z^2)
 ```
 
 
-{{Tutorials navi
+{{Arch Tools navi
 
-}}   {{Sketcher Tools navi}}
+}}  {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > Tutorial custom placing of windows and doors/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > Tutorial custom placing of windows and doors/de

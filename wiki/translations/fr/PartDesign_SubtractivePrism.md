@@ -18,6 +18,8 @@ Insère un Prisme soustractif dans le corps actif. Sa forme est soustraite du so
 
 À Gauche : le Corps actif est en gris et le prisme soustractif est en rouge transparent ; le résultat final est à droite.
 
+
+
 ## Utilisation
 
 1.  Pressez le bouton **<img src="images/PartDesign_SubtractivePrism.svg" width=24px> '''Prisme soustractif'''**. **Remarque** : Le Prisme soustractif fait partie du menu d\'icônes appelé *Créer une primitive soustractive*. Après le lancement de FreeCAD, le cube soustractif est affiché par défaut dans la barre d\'outils. Pour obtenir le Prisme soustractif, cliquez sur la flèche vers le bas et choisissez Prisme soustractif dans le menu.
@@ -27,12 +29,14 @@ Insère un Prisme soustractif dans le corps actif. Sa forme est soustraite du so
 
 ## Options
 
-Il est possible de créer des prismes biaisés en spécifiant des angles par rapport au vecteur normal de l\'ancrage choisi. {{Version/fr|0.19}}
+Il est possible de créer des prismes biaisés en spécifiant des angles par rapport au vecteur normal de l\'ancrage choisi.
 
 Le Prisme peut être éditée après sa création de deux façons :
 
 -   Double-cliquez le dans l\'arborescence ou faire un clic droit dessus et sélectionnez **Éditer la primitive** dans le menu contextuel. Cela fait apparaître les paramètres des Primitives.
 -   Via l\'[Éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ## Propriétés
 
@@ -46,9 +50,9 @@ Le Prisme peut être éditée après sa création de deux façons :
 
 -    **Height**: hauteur du prisme.
 
--    **First Angle**: angle dans la première direction. {{Version/fr|0.19}}
+-    **First Angle**: angle dans la première direction.
 
--    **Second Angle**: angle dans la deuxième direction. {{Version/fr|0.19}}
+-    **Second Angle**: angle dans la deuxième direction.
 
 
 

@@ -34,6 +34,8 @@ La herramienta Espacio le permite definir un volumen vacío, ya sea basado en un
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Utilización
@@ -49,6 +51,8 @@ La herramienta Espacio le permite definir un volumen vacío, ya sea basado en un
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -67,6 +71,8 @@ La herramienta Espacio le permite definir un volumen vacío, ya sea basado en un
 
 
 </div>
+
+
 
 ## Propiedades
 
@@ -103,7 +109,7 @@ La herramienta Espacio le permite definir un volumen vacío, ya sea basado en un
 ## Options
 
 -   To create zones that group several spaces, use a [Arch BuildingPart](Arch_BuildingPart.md) and set its IFC type to \"Spatial Zone\"
--   The space object has the same display modes as other Arch and Part objects, with one more, called **Footprint**, that displays only the bottom face of the space. <small>(v0.19)</small> 
+-   The space object has the same display modes as other Arch and Part objects, with one more, called **Footprint**, that displays only the bottom face of the space.
 
 
 <div class="mw-translate-fuzzy">

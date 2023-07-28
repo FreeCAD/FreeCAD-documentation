@@ -13,6 +13,8 @@ Voir [Part TopoShape](Part_TopoShape.md) pour plus d\'informations sur ce type d
 
 *A gauche: une [shape](Shape/fr.md) paramétrique définie par les propriétés. A droite: un [mesh](Mesh/fr.md) défini par des sommets et des surfaces triangulaires.*
 
+
+
 ## Utilisation
 
 Les formes sont normalement créées par des fonctions internes de l\'[Atelier Part](Part_Workbench/fr.md) et sont finalement définies par le noyau de technologie [OpenCASCADE Technology](OpenCASCADE/fr.md) (OCCT).
@@ -20,6 +22,10 @@ Les formes sont normalement créées par des fonctions internes de l\'[Atelier P
 Une fois qu\'une forme est créée, elle peut être utilisée et modifiée par tous les [ateliers](Workbenches/fr.md) en créant [objets scriptés](scripted_objects/fr.md) autour de cette forme.
 
 Essentiellement, chaque objet dérivé d\'une [Part Feature](Part_Feature/fr.md) (classe `Part::Feature`) devrait contenir et manipuler une forme.
+
+Toute forme OpenCascade possède une tesselation qui permet principalement de visualiser la forme à l\'écran. Vous trouverez plus d\'informations à ce sujet dans [ce message du forum allemand](https://forum.freecad.org/viewtopic.php?t=77521&start=10#p674947) et dans la [documentation OpenCascad Mesh](https://dev.opencascade.org/doc/overview/html/occt_user_guides__mesh.html).
+
+
 
 ## Remarques
 

@@ -1,17 +1,19 @@
 # <img alt="" src=images/MOOC_workbench_icon.svg  style="width:240px;">  MOOC Workbench/pl
-*align=center|The FreeCAD MOOC External Workbench Icon*
+*align=center|Ikonka FreeCAD dla zewnętrznego środowiska pracy MOOC*
 
-## Overview
+
+
+## Informacje ogólne 
 
 
 {{TOCright}}
 
-The MOOC Workbench is an [external workbench](External_workbenches.md) with which you can follow interactive tutorials and make evaluation of your work directly within the FreeCAD interface. The MOOC workbench offers 2 tools: interactive tutorials and evaluations.
+Środowisko pracy MOOC to [zewnętrzne środowisko pracy](External_workbenches/pl.md), za pomocą którego można śledzić interaktywne poradniki i dokonywać oceny swojej pracy bezpośrednio w interfejsie FreeCAD. Środowisko pracy MOOC oferuje 2 narzędzia: interaktywne poradniki i oceny.
 
--   Currently only in French (and hard-coded).
--   Only compatible with FreeCAD Py3 and Qt5 (PySide2)
--   LGPLv2 (or similar) code funded by Europe through IMT and EESAB.
--   Modular: This workbench was created with the intention that the addition of tutorials and evaluations was modular. In other words, one has to add a tutorial in the **lessons** folder or an evaluation in the **exercises** folder to show up in the respective tool.
+-   Obecnie tylko w języku francuskim *(i zakodowane na stałe)*.
+-   Kompatybilny tylko z FreeCAD Py3 i Qt5 *(PySide2)*
+-   Kod LGPLv2 *(lub podobny)* finansowany przez Europę za pośrednictwem IMT i EESAB.
+-   Modułowy: Ten workbench został stworzony z zamiarem, aby dodawanie poradników i ocen było modułowe. Innymi słowy, należy dodać poradnik w folderze **lessons** lub ewaluację w folderze **exercises**, aby pojawiły się w odpowiednim narzędziu.
 
 ### Interactive
 

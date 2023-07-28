@@ -3,6 +3,8 @@
 
 {{BIMTutorialAction/pl|descr=To jest samouczek dotyczący obsługi środowiska pracy [BIM](BIM_Workbench/pl.md). Nie należy go czytać tutaj na wiki, ale należy go uruchomić z poziomu programu FreeCAD, w środowisku pracy BIM, w menu '''Pomoc -> samouczek BIM'''. Zawiera serię kroków do wykonania przez użytkownika. Każdy krok kończy się wystąpieniem szablonu [<nowiki>{{BIMTutorialAction|descr|goal1|test1|goal2|test2}}</nowiki>](Template_BIMTutorialAction.md), który informuje o warunku, który musi być spełniony. Obrazy powinny mieć szerokość 300px. Na tej stronie nie powinny być używane żadne obrazy SVG, ponieważ nie są one obsługiwane przez widżet QTextBrowser.}}
 
+
+
 ### Witamy w środowisku pracy BIM! 
 
 <img alt="" src=images/BIM_Tutorial_title.jpg  style="width:300px;">
@@ -13,9 +15,13 @@ Można go przerwać w dowolnym momencie i wznowić później, wybierając z menu
 
 Niektóre kroki w tym poradniku wymagają podjęcia działań. Zostaną one wskazane poniżej tego pola tekstowego, z ikoną pokazującą, czy zadanie zostało wykonane, czy nie. Ale ponieważ jesteśmy dobrymi ludźmi, we FreeCAD, nie jest obowiązkowe wykonywanie czynności, aby przejść dalej przez te strony. Możesz po prostu przeglądać samouczek i pomijać zadania w dogodnym dla siebie czasie.
 
+
+
 #### Informacje o wersjach FreeCAD 
 
 Ten poradnik jest napisany dla [najnowszej dostępnej wersji rozwojowej FreeCAD](Download/pl.md) *(obecnie 0.19)*. Program BIM jest jednak tak skonstruowany, aby był kompatybilny z każdą wersją programu FreeCAD. Jeśli używasz wersji FreeCAD starszej niż podana tutaj, niektóre narzędzia BIM mogą wyglądać inaczej, działać inaczej lub nawet być niedostępne. W razie wątpliwości zapoznaj się z [dokumentacją](BIM_Workbench/pl.md), aby dowiedzieć się więcej.
+
+
 
 #### Uwagi
 
@@ -23,6 +29,8 @@ Ten tutorial jest ciągle w trakcie opracowywania, dlatego jest **niekompletny**
 
 
 {{BIMTutorialAction/pl|descr=Brak działań do wykonania dla tego etapu}}
+
+
 
 ### Skonfiguruj FreeCAD 
 
@@ -45,6 +53,8 @@ W tym poradniku będziemy pracować z zastosowaniem centymetrów. Proponujemy za
 
 {{BIMTutorialAction/pl|goal1=Otwórz ekran konfiguracji BIM|test1=True if hasattr(FreeCADGui, "BIMSetupDialog") else False|goal2=Ustaw jednostki na centymetry i rozmiar siatki na 10cm|test2=True if ((FreeCAD. ParamGet("User parameter:BaseApp/Preferences/Units").GetInt("UserSchema",0) == 4) and (FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetFloat("gridSpacing",10) == 100)) else False}}
 
+
+
 ### Utwórz nowy dokument 
 
 Jeśli właśnie zainstalowałeś FreeCAD, prawdopodobnie właśnie patrzysz na **Stronę startową FreeCAD**:
@@ -62,6 +72,8 @@ Znajdziesz się wtedy w przestrzeni 3D programu FreeCAD, gotowy do pracy:
 
 {{BIMTutorialAction/pl|goal1=Utwórz nowy dokument|test1=True if FreeCAD.ActiveDocument else False}}
 
+
+
 ### Nawigacja w przestrzeni 3D 
 
 Istnieje kilka sposobów używania myszki w programie FreeCAD. Nazywane są one [Profilami nawigacji myszką](Mouse_navigation/pl.md). Możesz zmienić bieżący styl nawigacji w dowolnym momencie, klikając przycisk stylu nawigacji na pasku stanu. Po umieszczeniu kursora myszki nad tym przyciskiem zobaczysz również, do czego służy każdy przycisk myszki. Kilka z nich zostało stworzonych tak, aby pasowały do innych znanych aplikacji. Wybierz taki, z którym czujesz się komfortowo.
@@ -74,6 +86,8 @@ Kontrolowanie sposobu patrzenia na model w widoku 3D może być wykonane na wiel
 
 
 {{BIMTutorialAction/pl|goal1=Wybierz styl nawigacji|test1=True|goal2=Set yourself in Top view|test2=True if FreeCADGui.ActiveDocument.ActiveView.getViewDirection().getAngle(FreeCAD.Vector(0,0,-1)) < 0.01 else False}}
+
+
 
 ### Reorganizacja interfejsu 
 
@@ -90,15 +104,21 @@ Paski narzędzi i panele można również włączać i wyłączać z menu **Wido
 
 {{BIMTutorialAction/pl|descr=Brak działań do wykonania dla tego etapu}}
 
+
+
 ### Narzędzia środowiska pracy BIM 
 
 Środowisko [BIM](BIM_Workbench/pl.md) zawiera narzędzia zapożyczone z innych środowisk pracy, takich jak [Architektura](Arch_Workbench/pl.md), [Rysunek Roboczy](Draft_Workbench/pl.md) czy [Część](Part_Workbench/pl.md), jak również kilka własnych narzędzi. Są one zorganizowane w kilku kategoriach. Każda kategoria ma swoje menu i pasek narzędziowy. Poświęć chwilę na zapoznanie się z zawartością menu opisanych poniżej.
+
+
 
 #### Rysunki 2D 
 
 Narzędzia te pozwalają na rysowanie płaskich obiektów, takich jak linie, polilinie, prostokąty, łuki, itd\..., które staną się podstawą obiektów BIM. Na przykład, możesz użyć polilinii do zdefiniowania śladu bazowego dla ściany lub prostokąta jako profilu dla belki. Wszystkie obiekty 2D są tworzone w bieżącej [płaszczyźnie robocza](Draft_SelectPlane/pl.md).
 
 <img alt="" src=images/BIM_Tutorial_35.jpg  style="width:300px;">
+
+
 
 #### Modelowanie 3D oraz BIM 
 
@@ -110,19 +130,27 @@ Typowym przykładem jest wciśnięcie przycisku [ściana](Arch_Wall/pl.md) z wyb
 
 Obiekty spoza BIM, w tym obiekty wykonane w innych środowiskach pracy, można w każdej chwili zamienić w obiekty BIM, zaznaczając je i naciskając dowolny przycisk narzędzia BIM.
 
+
+
 #### Adnotacje
 
 Narzędzia te tworzą obiekty opisu, takie jak wymiary, teksty, etykiety lub siatki, które nie są używane do modelowania, ale do dodawania adnotacji do modeli i tworzenia dobrze czytelnych rysunków.
 
 <img alt="" src=images/BIM_Tutorial_34.jpg  style="width:300px;">
 
+
+
 #### Przyciąganie
 
 Te narzędzia włączają / wyłączają pozycje [przyciągania](Draft_Snap/pl.md). Podobnie jak w większości aplikacji BIM, każda dodatkowa pozycja przyciągania wydłuża czas obliczeń podczas rysowania, więc najlepiej jest mieć włączone tylko te, które są potrzebne.
 
+
+
 #### Modyfikacja
 
 Narzędzia te modyfikują istniejące obiekty. Zawierają one zwykłe narzędzia transformacji, takie jak Przesunięcie czy Obrót, a także szereg innych, które działają tylko dla określonych typów obiektów.
+
+
 
 #### Zarządzanie
 
@@ -132,6 +160,8 @@ Każde narzędzie zawarte w tych menu ma swoją stronę z dokumentacją, która 
 
 
 {{BIMTutorialAction/pl|descr=Brak działań do wykonania dla tego etapu}}
+
+
 
 ### Przygotowanie przestrzeni roboczej 
 
@@ -154,9 +184,11 @@ Zwróć szczególną uwagę na ostatnie narzędzie, **przyciąganie do płaszczy
 
 {{BIMTutorialAction/pl|goal1=Ustawienie płaszczyzny roboczej w trybie "od góry" ''(XY)''|test1=True if ((FreeCAD.DraftWorkingPlane.axis.getAngle(FreeCAD.Vector(0,0,1)) < 0.01) and (FreeCAD.DraftWorkingPlane.weak == False)) else False|goal2=Review the different snapping tools|test2=True}}
 
+
+
 ### Rysujemy pierwszą ścianę 
 
-Zacznijmy budować nasz pawilon od stworzenia ścian. Ściany można rysować albo bezpośrednio za pomocą narzędzia [ściana](Arch_Wall/pl.md), albo najpierw rysując obiekty 2D, takie jak [linia](Draft_Line/pl.md), [linia łamana](Draft_Wire/pl.md) *(polilinie)* lub [szkice](Sketcher_NewSketch.md), które zdefiniują linię bazową naszych ścian. Gdy mamy zaznaczony taki obiekt bazowy, użycie narzędzia Ściana spowoduje automatyczne przekształcenie go w ściany.
+Zacznijmy budować nasz pawilon od stworzenia ścian. Ściany można wykonać albo bezpośrednio za pomocą narzędzia [ściana](Arch_Wall/pl.md), albo najpierw rysując obiekty 2D, takie jak [linia](Draft_Line/pl.md), [linia łamana](Draft_Wire/pl.md) *(polilinie)* lub [szkice](Sketcher_NewSketch/pl.md), które zdefiniują linię bazową naszych ścian. Gdy mamy zaznaczony taki obiekt bazowy, użycie narzędzia Ściana spowoduje automatyczne przekształcenie go w ściany.
 
 Po pierwsze, powiększ obraz do momentu, gdy widoczna będzie odpowiednia część lub całość siatki. To znacznie ułatwi nam zorientowanie się w tym, co robimy:
 
@@ -170,6 +202,8 @@ Jeśli utworzyłeś nieprawidłową ścianę, nie martw się! Po prostu usuń j�
 
 
 {{BIMTutorialAction/pl|goal1=Utwórz ścianę|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "MakeBlocks" in o.PropertiesList]) == 1)}}
+
+
 
 ### Rysujemy drugą ścianę 
 
@@ -185,6 +219,8 @@ Zawsze można skorygować lub zmienić właściwości po utworzeniu ściany lub 
 
 <img alt="" src=images/BIM_tutorial_12.jpg  style="width:300px;">
 
+
+
 #### Istotne uwagi 
 
 Zauważysz, że niektóre zmiany właściwości w FreeCAD nie są natychmiast odzwierciedlane na obiekcie w widoku 3D. Zamiast tego, obiekt jest oznaczony w drzewie niebieskim znakiem \"do ponownego obliczenia\":
@@ -196,6 +232,8 @@ Powodem tego jest fakt, że dokument FreeCAD może być bardzo złożonym łańc
 
 {{BIMTutorialAction/pl|goal1=Utwórz dwa prostopadłe obiekty ścian|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "MakeBlocks" in o.PropertiesList]) == 2)|goal2=Ustaw ich wysokość na wartość 2,50 metra, a szerokość na 20 centymetrów.|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "MakeBlocks" in o.PropertiesList and o.Height.Value == 2500 and o.Width.Value == 200]) == 2)}}
 
+
+
 ### Nie zapomnij o regularnym zapisywaniu pliku! 
 
 Jak każda inna aplikacja komputerowa, FreeCAD jest podatny na awarie i zawieszanie się, szczególnie gdy mamy z nim mało doświadczenia. Częste zapisywanie plików jest bardzo dobrym nawykiem w tych pierwszych chwilach. FreeCAD posiada również mechanizm automatycznego zapisywania, który można ustawić w menu **Edycja → Preferencje \... → Ogólne → Dokument**.
@@ -205,9 +243,13 @@ Zapisz teraz swój plik za pomocą opcji z menu **Plik → Zapisz**.
 
 {{BIMTutorialAction/pl|goal1=Zapisz swój plik|test1=bool(FreeCAD.ActiveDocument.FileName)}}
 
+
+
 ### Narysuj płytę dachu 
 
 Umieścimy teraz płytę dachową na szczycie naszych ścian. Zamiast rysować płytę bezpośrednio, jak to zrobiliśmy w przypadku ścian, narysujemy najpierw prostokąt, a następnie przekształcimy go w płytę. Obydwie metody są przydatne, więc sugerujemy, abyś najpierw wypróbował jedną z nich, następnie anulował ją *(lub ponownie załadował plik)* i wypróbował drugą.
+
+
 
 #### Metoda 1: Narysuj płytę na podłożu, a następnie przenieś ją na miejsce 
 
@@ -232,9 +274,11 @@ Teraz musimy przesunąć naszą nową płytę dachową do jej właściwej pozycj
 
 <img alt="" src=images/BIM_Tutorial_21.jpg  style="width:300px;">
 
-Innym sposobem na przesunięcie naszej płyty na właściwą pozycję, jest użycie <img alt="" src=images/Draft_Move.png  style="width:16px;"> narzędzia **Przesunięcie** z menu **Modyfikacja**. W tym celu musimy najpierw ustawić naszą płaszczyznę roboczą w płaszczyźnie pionowej, naciskając przycisk <img alt="" src=images/Draft_SelectPlane.png  style="width:16px;"> **płaszczyzna robocza** *(upewnij się, że nie masz wybranej żadnej ściany)*, i ustawiając ją na **XY \'\'(Od przodu)***. Ustawiając się w widoku z przodu*(wciśnij klawisz **1**)\'\', możemy teraz wybrać płytę, wcisnąć przycisk <img alt="" src=images/Draft_Move.png  style="width:16px;"> **Przesuń**, **Shift**, aby ograniczyć ruch w pionie, kliknij na jeden z punktów na szczycie ścian:
+Innym sposobem na przesunięcie naszej płyty na właściwą pozycję, jest użycie <img alt="" src=images/Draft_Move.png  style="width:16px;"> narzędzia **Przesunięcie** z menu **Modyfikacja**. W tym celu musimy najpierw ustawić naszą płaszczyznę roboczą w płaszczyźnie pionowej, naciskając przycisk <img alt="" src=images/Draft_SelectPlane.png  style="width:16px;"> **płaszczyzna robocza** *(upewnij się, że nie masz wybranej żadnej ściany)*, i ustawiając ją na **XZ \'\'(Od przodu)***. Ustawiając się w widoku z przodu*(wciśnij klawisz **1**)\'\', możemy teraz wybrać płytę, wcisnąć przycisk <img alt="" src=images/Draft_Move.png  style="width:16px;"> **Przesuń**, **Shift**, aby ograniczyć ruch w pionie, kliknij na jeden z punktów na szczycie ścian:
 
 <img alt="" src=images/BIM_Tutorial_23.jpg  style="width:300px;">
+
+
 
 #### Metoda 2: Narysuj płytę bezpośrednio na właściwej płaszczyźnie 
 
@@ -249,13 +293,15 @@ Gdy nasz prostokątny *profil* jest już narysowany, możemy postępować tak sa
 
 {{BIMTutorialAction/pl|goal1=Utwórz prostokąt|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Rectangle" in o.Name]) == 1)|goal2=Utwórz płytę o grubości 20cm|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "IfcType" in o.PropertiesList and o.IfcType == "Slab" and o.Height.Value == 200]) == 1)}}
 
+
+
 ### Tworzenie metalowej kolumny 
 
 Dodajmy metalową kolumnę, aby zapewnić lepsze podparcie dla naszej płyty. Upewnijmy się, że płaszczyzna robocza jest w trybie widoku Od góry, zacznijmy od ustawienia się w widoku z góry *(naciśnij klawisz **2**)* i wyłączmy widoczność płyty, aby lepiej widzieć co jest pod spodem. Zaznacz płytę i wciśnij klawisz **Spacja** aby wyłączyć jej wyświetlanie.
 
 W programie FreeCAD bardzo łatwo jest włączać i wyłączać obiekty lub grupy, a drzewo pokazuje wyraźnie, co jest pokazane, a co ukryte. Pamiętaj, aby często z tego korzystać!
 
-Narzędzie **Kolumna** *(podobnie jak narzędzie **Belka**)* posiada kilka wbudowanych profili, z których będziemy teraz korzystać. Upewnij się, że nic nie jest wybrane, a następnie naciśnij przycisk Kolumna. W **Opcjach konstrukcji** wybierz **CTH**:
+Narzędzie **Kolumna** *(podobnie jak narzędzie **Belka**)* posiada kilka wbudowanych profili, z których będziemy teraz korzystać. Upewnij się, że nic nie jest wybrane, a następnie naciśnij przycisk Kolumna. W **Opcjach konstrukcji** wybierz **CHS** *(dla \"okrągłego przekroju drążonego\"; RHS to \"prostokątny przekrój drążony\", HEA, HEB itp. to różne przekroje \"H\" itp.)*:
 
 <img alt="" src=images/BIM_Tutorial_24.jpg  style="width:300px;">
 
@@ -263,7 +309,9 @@ Kliknij na punkt, aby umieścić kolumnę mniej więcej w tej pozycji. Upewnij s
 
 <img alt="" src=images/BIM_Tutorial_25.jpg  style="width:300px;">
 
-Niestety, wstępne ustawienia CTH mają tylko jedną opcję średnicy 42mm, która jest bardzo cienka, aby podeprzeć naszą betonową płytę dachową. Na szczęście, ponieważ wszystko jest parametryczne, można łatwo zmienić średnicę. Rozwiń nowy obiekt konstrukcyjny w widoku drzewa, a znajdziesz jego obiekt profilowy o nazwie CTH423. Zmień jego średnicę na 12cm, a grubość na 8mm. Teraz mamy wystarczająco mocny słup. Zauważ, że możesz określać jednostki w locie i przełączać się pomiędzy 0,8cm a 8mm bez problemu. FreeCAD zajmie się konwersją.
+Niestety, wstępne ustawienia CHS mają tylko jedną opcję średnicy 42mm, która jest bardzo cienka, aby podeprzeć naszą betonową płytę dachową. Na szczęście, ponieważ wszystko jest parametryczne, można łatwo zmienić średnicę. Rozwiń nowy obiekt konstrukcyjny w widoku drzewa, a znajdziesz jego obiekt profilowy o nazwie CHS423. Zmień jego średnicę na 12cm, a grubość na 8mm. Teraz mamy wystarczająco mocny słup. Zauważ, że możesz określać jednostki w locie i przełączać się pomiędzy 0,8cm a 8mm bez problemu. FreeCAD zajmie się konwersją.
+
+
 
 #### Dodaj płytę podporową 
 
@@ -285,6 +333,8 @@ Zaczynając od prostych kształtów jak *profile* i dodając lub odejmując obie
 
 
 {{BIMTutorialAction/pl|goal1=Utwórz słup rurowy CTH|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "CTH" in o.Label]) == 1)|goal2=Dodaj do kolumny płytkę o wymiarach 20cm x 20cm|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Shape" in o.PropertiesList and (abs(o.Shape.Volume - 7409000) < 10000)]) == 1)}}
+
+
 
 ### Dodanie drzwi 
 
@@ -311,6 +361,8 @@ Kiedy wszystko jest gotowe, powinieneś otrzymać drzwi prawidłowo osadzone w �
 
 {{BIMTutorialAction/pl|goal1=Stwórz szklane drzwi|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Window" in o.Name]) == 1)}}
 
+
+
 ### Organizacja naszego modelu 
 
 Mamy teraz w naszym modelu rosnącą kolekcję obiektów BIM. Nadszedł czas, aby wszystko uporządkować. Tworzenie dobrze zorganizowanych modeli, łatwych do zrozumienia przez innych, jest bardzo ważną częścią budowania wysokiej jakości modeli BIM.
@@ -336,6 +388,8 @@ Zauważ, że ponieważ Części budowlane są ogólnymi komponentami budynku, ni
 
 {{BIMTutorialAction/pl|goal1=Utwórz kondygnację|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "BuildingPart" in o.Name]) == 1)|goal2=Dodaj do niego cztery pozostałe obiekty główne BIM|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "BuildingPart" in o.Name and (len(o.Group) == 4)]) == 1)}}
 
+
+
 ### Dodawanie płaszczyzn przekroju 
 
 Jedną z najczęściej wykonywanych operacji na modelu BIM jest wyodrębnienie z niego rysunków 2D, takich jak plany czy elewacje. Istnieje kilka sposobów, aby to zrobić w programie FreeCAD, w zależności od wyniku, jaki chcesz uzyskać. Zasadniczo możesz wybrać pomiędzy produkcją rezultatu 2D wewnątrz przestrzeni 3D, co jest przydatne jeśli chcesz go tam przerobić, rozbudować lub lepiej kontrolować jak jest eksportowany do formatów takich jak [DXF](Draft_DXF/pl.md) lub [DWG](FreeCAD_and_DWG_Import/pl.md), lub na arkuszu [Rysunku Technicznego](TechDraw_Workbench/pl.md), który lepiej nadaje się do tworzenia widoków lub eksportu do PDF. W obu przypadkach zaczyna się to od umieszczenia [płaszczyzny przekroju](Arch_SectionPlane/pl.md) w modelu:
@@ -351,6 +405,8 @@ Domyślnie nowa płaszczyzna przekroju zostanie umieszczona w środku wybranego 
 
 
 {{BIMTutorialAction/pl|goal1=Wybierz główną część Budowli|test1=bool(len([o for o in FreeCADGui.Selection.getSelection() if "BuildingPart" in o.Name]) == 1)|goal2=Utwórz płaszczyznę przekroju|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Section" in o.Name and (len(o.Objects) == 1) and ("BuildingPart" in o.Objects[0].Name)]) == 1)}}
+
+
 
 ### Wyodrębnianie widoków 2D jako geometrii 
 
@@ -370,6 +426,8 @@ Aby utworzyć grubsze linie dla obszarów cięcia, możesz utworzyć kolejny wid
 
 
 {{BIMTutorialAction/pl|goal1=Wybierz płaszczyznę przekroju|test1=bool(len([o for o in FreeCADGui.Selection.getSelection() if "Section" in o.Name]) == 1)|goal2=Utwórz widok kształtu 2D|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Shape2DView" in o.Name]) == 1)}}
+
+
 
 ### Sporządzanie adnotacji i eksport do formatów CAD 2D 
 
@@ -406,6 +464,8 @@ Dobrym pomysłem jest stworzenie **Grup** dla różnych zestawów adnotacji (pla
 1.  Utwórz grupę klikając prawym przyciskiem myszy na korzeń dokumentu i wybierz **Utwórz grupę**, zmień jej nazwę na \"Adnotacje\".
 2.  Wybierz adnotacje, które utworzyliśmy powyżej w drzewie i przeciągnij je do grupy.
 
+
+
 #### Eksport do formatu DXF 
 
 Obiekty 2D takie jak linie lub okręgi lub widoki 2D jak te stworzone powyżej, lub adnotacje, są bardzo odpowiednie do eksportu do tradycyjnych formatów 2D CAD takich jak [DXF lub DWG](Draft_DXF/pl.md). Format DWG wymaga zainstalowania w systemie dodatkowego oprogramowania, sprawdź [instrukcje](Draft_DXF/pl.md), aby to zrobić, jeżeli zachodzi taka potrzeba.
@@ -422,6 +482,8 @@ Jeśli nie używasz żadnego programu CAD 2D, istnieje kilka darmowych i otwarty
 
 {{BIMTutorialAction/pl|goal1=Utwórz wymiar|test1=bool(len([obj for obj in FreeCAD.ActiveDocument.Objects if "Dimension" in obj.Name]))|goal2=Utwórz opis|test2=bool(len([obj for obj in FreeCAD.ActiveDocument.Objects if "Text" in obj.Name]))}}
 
+
+
 ### Tworzenie geometrii 2D na stronie do wydruku 
 
 Arkusze do druku tworzy się i zarządza nimi za pomocą środowiska pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md). Utwórzmy nowy arkusz i umieśćmy na nim widok naszego modelu:
@@ -435,6 +497,8 @@ Arkusze do druku tworzy się i zarządza nimi za pomocą środowiska pracy [Rysu
 
 
 {{BIMTutorialAction/pl|descr=Brak działań do wykonania dla tego etapu}}
+
+
 
 ### Eksport do formatu IFC 
 
@@ -451,6 +515,8 @@ Aby sprawdzić strukturę i poprawność modelu do eksportu IFC należy uruchomi
 
 {{BIMTutorialAction|goal1=Otwórz narzędzie BIM Kontrola wstępna i przeprowadź wszystkie testy|test1=True if (hasattr(FreeCADGui,"BIMPreflightDone") and (FreeCADGui.BIMPreflightDone == True)) else False}}
 
+
+
 ### Zarządzanie własnościami BIM 
 
 Ogromną częścią tego, co czyni dobrym model BIM są właściwości niegeometryczne, które możesz nadać swoim obiektom, takie jak typ, materiał lub właściwości specyficzne dla danego typu. Na przykład, ściana może być oznaczona jako nośna lub nie. Albo jako zewnętrzną lub wewnętrzną. Format [IFC](https://en.wikipedia.org/wiki/Industry_Foundation_Classes) jest bardzo bogaty pod tym względem. Ilość specyfikacji i właściwości, które chcesz nadać swoim obiektom, zależy głównie od twoich potrzeb oraz od tego, jak pracujesz z innymi i czego oczekują od twojego modelu BIM.
@@ -459,9 +525,13 @@ Należy pamiętać o jednej ważnej rzeczy: wszystkie obiekty BIM / Arch w FreeC
 
 Najważniejsze dane, które możesz przekazać swoim obiektom, to:
 
+
+
 #### Nazwa i opis 
 
 Wydaje się to oczywiste, ale najprostszym sposobem, aby Twój model był bardziej zrozumiały dla innych, jest właściwe nazwanie każdego z obiektów i, jeśli to istotne, dodanie opisu. Można to zrobić po prostu wybierając obiekt i naciskając klawisz **F2** lub zmieniając jego właściwość **Etykieta** aby zmienić jego nazwę. Opis będzie można znaleźć wśród właściwości obiektu.
+
+
 
 #### Typ BIM / IFC 
 
@@ -469,13 +539,19 @@ Jest to najbardziej podstawowa informacja. W programie FreeCAD, obiekt utworzony
 
 Można również zarządzać zbiorczo nazwami, typami i materiałami kilku obiektów jednocześnie używając menadżera elementów IFC znajdującego się w menu **Zarządzanie → Zarządzaj elementami IFC**.
 
+
+
 #### Materiał
 
 Każdy obiekt w konstrukcji ma swój materiał. Sensowne jest więc nadanie każdemu obiektowi w Twoim modelu odpowiedniego materiału, takiego jak beton czy drewno. Aby przypisać materiał do obiektu, wybierz go i użyj [menadzera materiału](Arch_SetMaterial/pl.md) z menu **Zarządzanie → Materiał**.
 
+
+
 #### Właściwości
 
 Każdy obiekt BIM może również otrzymać dodatkowe właściwości, na przykład w celu wskazania, czy ściana jest nośną czy nie. IFC pozwala na dodawanie własnych właściwości do wszystkiego, ale większość typów takich jak Ściana czy Belka posiada również specjalne, predefiniowane zestawy właściwości, zwykle nazwane Pset_WallCommon lub Pset_BeamCommon. Możesz dodać te zestawy do swoich obiektów, zmodyfikować wartości właściwości zawartych w zestawie lub dodać swoje własne właściwości. Zarządzanie właściwościami IFC dla wybranego obiektu lub masowa edycja właściwości kilku obiektów na raz odbywa się za pomocą menedżera właściwości w menu **Zarządzanie → Edytuj właściwości IFC**.
+
+
 
 #### Ilości
 
@@ -485,6 +561,8 @@ Format IFC ma wiele cech szczególnych i czasami aplikacja, w której otwierasz 
 
 
 {{BIMTutorialAction/pl|descr=Brak działań do wykonania dla tego etapu}}
+
+
 
 ### Poznaj pozostałe narzędzia BIM i inne środowiska pracy 
 
@@ -496,6 +574,8 @@ Więcej samouczków na temat BIM i innych grup roboczych można znaleźć w sekc
 
 
 {{BIMTutorialAction/pl|descr=Brak działań do wykonania dla tego etapu}}
+
+
 
 ### Pomóż programowi FreeCAD stać się lepszym narzędziem! 
 

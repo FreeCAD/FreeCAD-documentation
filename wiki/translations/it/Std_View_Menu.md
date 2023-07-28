@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introduzione
 
 Il menu **Visualizza** è uno dei sette sottomenu del [menu standard](Standard_Menu/it.md):
@@ -25,7 +27,9 @@ Il menu **Visualizza** è uno dei sette sottomenu del [menu standard](Standard_M
 [Aiuto](Std_Help_Menu/it.md)
 }}
 
-Il menu standard **Visualizza** offre strumenti per modificare la [vista 3D](3D_view/it.md) e le proprietà di visualizzazione degli oggetti del modello e gli strumenti relativi alla visualizzazione dei componenti dell\'interfaccia.
+Il menu Visualizza offre strumenti per modificare la [vista 3D](3D_view/it.md) e le proprietà di visualizzazione degli oggetti del modello e gli strumenti relativi alla visualizzazione dei componenti dell\'interfaccia.
+
+
 
 ## Strumenti
 
@@ -46,7 +50,7 @@ In questo menu sono disponibili i seguenti strumenti:
         -   <img alt="" src=images/Std_ViewIsometric.svg  style="width:32px;"> [Isometrica](Std_ViewIsometric/it.md): passa alla vista isometrica.
         -   <img alt="" src=images/Std_ViewDimetric.svg  style="width:32px;"> [Dimetrica](Std_ViewDimetric/it.md): passa alla vista dimetrica.
         -   <img alt="" src=images/Std_ViewTrimetric.svg  style="width:32px;"> [Trimetrica](Std_ViewTrimetric/it.md): passa alla vista trimetrica.
-    -   <img alt="" src=images/Std_ViewHome.svg  style="width:32px;"> [Iniziale](Std_ViewHome/it.md): passa alla vista iniziale. <small>(v0.19)</small> 
+    -   <img alt="" src=images/Std_ViewHome.svg  style="width:32px;"> [Home](Std_ViewHome/it.md): passa alla vista predefinita Home.
     -   <img alt="" src=images/Std_ViewFront.svg  style="width:32px;"> [Di fronte](Std_ViewFront/it.md): passa alla vista frontale.
     -   <img alt="" src=images/Std_ViewTop.svg  style="width:32px;"> [Dall\'alto](Std_ViewTop/it.md): passa alla vista dall\'alto.
     -   <img alt="" src=images/Std_ViewRight.svg  style="width:32px;"> [Da destra](Std_ViewRight/it.md): passa alla vista laterale destra.
@@ -55,8 +59,8 @@ In questo menu sono disponibili i seguenti strumenti:
     -   <img alt="" src=images/Std_ViewLeft.svg  style="width:32px;"> [Da sinistra](Std_ViewLeft/it.md): passa alla vista laterale sinistra.
     -   <img alt="" src=images/Std_RotateLeft.png  style="width:32px;"> [Ruota a sinistra](Std_ViewRotateLeft/it.md): ruota la vista a sinistra.
     -   <img alt="" src=images/Std_RotateRight.png  style="width:32px;"> [Ruota a destra](Std_ViewRotateRight/it.md): ruota la vista a destra.
-    -   [Memorizza vista attiva](Std_StoreWorkingView/it.md): memorizza le impostazioni della telecamera della vista 3D attiva nella sua vista di lavoro. <small>(v1.0)</small> 
-    -   [Richiama vista](Std_RecallWorkingView/it.md): Richiama la vista di lavoro memorizzata della vista 3D attiva. <small>(v1.0)</small> 
+    -   [Memorizza vista attiva](Std_StoreWorkingView/it.md): memorizza le impostazioni della telecamera della vista 3D attiva nella sua vista di lavoro. {{Version/it|0.21}}
+    -   [Richiama vista](Std_RecallWorkingView/it.md): Richiama la vista di lavoro memorizzata della vista 3D attiva. {{Version/it|0.21}}
 
 -   [Viste bloccate](Std_FreezeViews/it.md)
     -   [Salva le viste\...](Std_FreezeViews/it#Salva_le_viste....md): salva le viste fissate in un file.
@@ -73,7 +77,7 @@ In questo menu sono disponibili i seguenti strumenti:
     -   <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:32px;"> [Ombreggiato](Std_DrawStyle/it#Ombreggiato.md): cambia lo stile di disegno in \"Ombreggiato\".
     -   <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:32px;"> [Facce piene](Std_DrawStyle/it#Facce_piene.md): cambia lo stile di disegno in \"Facce piene\".
 
--   <img alt="" src=images/Std_SelBoundingBox.svg  style="width:32px;"> [Box contenitore](Std_SelBoundingBox/it.md): attiva o disattiva la visualizzazione del parallelepipedo contenitore. {{Version/it|0.19}}
+-   <img alt="" src=images/Std_SelBoundingBox.svg  style="width:32px;"> [Box contenitore](Std_SelBoundingBox/it.md): attiva o disattiva la visualizzazione del parallelepipedo contenitore.
 
 -   Stereo
     -   <img alt="" src=images/Std_ViewIvStereoRedGreen.svg  style="width:32px;"> [Stereo rosso/ciano](Std_ViewIvStereoRedGreen/it.md): passa alla visualizzazione stereo rosso/ciano.
@@ -97,7 +101,7 @@ In questo menu sono disponibili i seguenti strumenti:
 
 -   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:32px;"> [Piano di taglio](Std_ToggleClipPlane/it.md): taglia temporaneamente gli oggetti.
 
--   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Tagli persistenti](Part_SectionCut/it.md): Crea tagli persistenti di oggetti e assiemi. <small>(v0.20)</small> 
+-   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Taglio sezione persistente](Part_SectionCut/it.md): Crea tagli persistenti di oggetti e assiemi. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/Std_TextureMapping.svg  style="width:32px;"> [Mappa una trama\...](Std_TextureMapping/it.md): mappa temporaneamente una trama su tutti gli oggetti.
 
@@ -113,8 +117,6 @@ In questo menu sono disponibili i seguenti strumenti:
     -   <img alt="" src=images/View_Measure_Toggle_All.svg  style="width:32px;"> [Attiva/disattiva le misure](View_Measure_Toggle_All/it.md): attiva o disattiva la visualizzazione delle misurazioni di Part.
     -   <img alt="" src=images/View_Measure_Clear_All.svg  style="width:32px;"> [Cancella le misure](View_Measure_Clear_All/it.md): cancella le misure di Part.
 
--   <img alt="" src=images/Std_ToggleVisibility.svg  style="width:32px;"> [Mostra/Nascondi](Std_ToggleVisibility/it.md): attiva o disattiva la visibilità degli oggetti selezionati.
-
 -   <img alt="" src=images/Std_ToggleNavigation.svg  style="width:32px;"> [Attiva/disattiva modalità modifica](Std_ToggleNavigation/it.md): alterna tra la modalità di navigazione e la modalità di modifica.
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Aspetto\...](Std_SetAppearance/it.md): apre il pannello dellle azioni per le proprietà di visualizzazione degli oggetti.
@@ -125,10 +127,13 @@ In questo menu sono disponibili i seguenti strumenti:
 
 -   Barre degli strumenti **Ogni barra degli strumenti può essere attivata o disattivata nel sottomenu. Alcuni ambienti di lavoro aggiungono delle proprie barre degli strumenti.**
     -   File
+    -   Modifica {{Version/it|0.21}}
+    -   Clipboard {{Version/it|0.21}}
     -   Ambienti
     -   Macro
     -   Vista
     -   Struttura
+    -   Aiuto {{Version/it|0.21}}
 
 -   Pannelli **Ogni pannello può essere attivato o disattivato nel sottomenu.**
     -   [Report](Report_view/it.md)
@@ -140,16 +145,16 @@ In questo menu sono disponibili i seguenti strumenti:
     -   [Vista DAG](DAG_view/it.md)
 
 -   Azioni della vista ad albero
-    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sincronizza la vista](Std_TreeSyncView/it.md): attiva o disattiva la modalità Sincronizza la vista della [vista ad albero](Tree_view/it.md). {{Version/it|0.19}}
-    -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Sincronizza la selezione](Std_TreeSyncSelection/it.md): attiva o disattiva la modalità Sincronizza la selezione della vista ad albero. {{Version/it|0.19}}
-    -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Sincronizza la posizione](Std_TreeSyncPlacement/it.md): attiva o disattiva la modalità Sincronizza la posizione della vista ad albero. {{Version/it|0.19}}
-    -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Pre-selezione](Std_TreePreSelection/it.md): attiva o disattiva la modalità di preselezione della vista ad albero. {{Version/it|0.19}}
-    -   <img alt="" src=images/Std_TreeRecordSelection.svg  style="width:32px;"> [Registra la selezione](Std_TreeRecordSelection/it.md): attiva o disattiva la modalità Registra la selezione della vista ad albero. {{Version/it|0.19}}
-    -   <img alt="" src=images/Std_TreeSingleDocument.svg  style="width:32px;"> [Documento singolo](Std_TreeSingleDocument/it.md): commuta la vista ad albero nella modalità Documento singolo. {{Version/it|0.19}}
-    -   <img alt="" src=images/Std_TreeMultiDocument.svg  style="width:32px;"> [Multi documento](Std_TreeMultiDocument/it.md): commuta la vista ad albero nella modalità Multi documento. {{Version/it|0.19}}
-    -   <img alt="" src=images/Std_TreeCollapseDocument.svg  style="width:32px;"> [Comprimi/espandi](Std_TreeCollapseDocument/it.md): commuta la vista ad albero nella modalità Comprimi documento. {{Version/it|0.19}}
-    -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Avvia il trascinamento](Std_TreeDrag/it.md): avvia un\'operazione di trascinamento per gli oggetti selezionati nella vista ad albero. {{Version/it|0.19}}
-    -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Vai alla selezione](Std_TreeSelection/it.md): scorre la vista ad albero fino al primo oggetto creato in una selezione della vista 3D. {{Version/it|0.19}}
+    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sincronizza la vista](Std_TreeSyncView/it.md): attiva o disattiva la modalità Sincronizza la vista della [vista ad albero](Tree_view/it.md).
+    -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Sincronizza la selezione](Std_TreeSyncSelection/it.md): attiva o disattiva la modalità Sincronizza la selezione della vista ad albero.
+    -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Sincronizza la posizione](Std_TreeSyncPlacement/it.md): attiva o disattiva la modalità Sincronizza la posizione della vista ad albero.
+    -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Pre-selezione](Std_TreePreSelection/it.md): attiva o disattiva la modalità di preselezione della vista ad albero.
+    -   <img alt="" src=images/Std_TreeRecordSelection.svg  style="width:32px;"> [Registra la selezione](Std_TreeRecordSelection/it.md): attiva o disattiva la modalità Registra la selezione della vista ad albero.
+    -   <img alt="" src=images/Std_TreeSingleDocument.svg  style="width:32px;"> [Documento singolo](Std_TreeSingleDocument/it.md): commuta la vista ad albero nella modalità Documento singolo.
+    -   <img alt="" src=images/Std_TreeMultiDocument.svg  style="width:32px;"> [Multi documento](Std_TreeMultiDocument/it.md): commuta la vista ad albero nella modalità Multi documento.
+    -   <img alt="" src=images/Std_TreeCollapseDocument.svg  style="width:32px;"> [Comprimi/espandi](Std_TreeCollapseDocument/it.md): commuta la vista ad albero nella modalità Comprimi documento.
+    -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Avvia il trascinamento](Std_TreeDrag/it.md): avvia un\'operazione di trascinamento per gli oggetti selezionati nella vista ad albero.
+    -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Vai alla selezione](Std_TreeSelection/it.md): scorre la vista ad albero fino al primo oggetto creato in una selezione della vista 3D.
 
 -   [Barra di stato](Std_ViewStatusBar/it.md): attiva o disattiva la visualizzazione della [Barra di stato](Status_bar/it.md).
 

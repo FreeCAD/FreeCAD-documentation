@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimension.svg  style="width:24px;"> **TechDraw Aligner horizontalement** aligne les cotes horizontales pour créer une chaîne de cotes.
+L\'outil **TechDraw Aligner horizontalement** aligne les cotes horizontales pour créer une chaîne de cotes.
 
 <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimensionExample.png  style="width:400px;"> 
 *A droite, les cotes alignées*
+
+
 
 ## Utilisation
 
@@ -26,6 +28,8 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimension.svg  st
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionPosHorizChainDimension.svg" width=16px> [Aligner horizontalement](TechDraw_ExtensionPosHorizChainDimension/fr.md)**.
     -   Sélectionnez l\'option **TechDraw → Extensions : attributs/modifications → <img src="images/TechDraw_ExtensionPosHorizChainDimension.svg" width=16px> Aligner horizontalement** à partir du menu.
 4.  Les cotes sont alignées et leurs textes sont centrés.
+
+
 
 ## Remarques
 

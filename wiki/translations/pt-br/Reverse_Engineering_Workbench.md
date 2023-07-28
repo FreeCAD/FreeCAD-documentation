@@ -1,4 +1,13 @@
-# <img alt="ícone da bancada de trabalho Reverse Engineering" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> Reverse Engineering Workbench/pt-br
+# Reverse Engineering Workbench/pt-br
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+<img alt="ícone da bancada de trabalho Reverse Engineering" src=images/Workbench_Reverse_Engineering.svg  style="width:128px;">
 
 ## Introduction
 
@@ -14,6 +23,8 @@ A <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:24px;">
 
 No momento não há funcionalidade presente nesta bancada de trabalho. É utilizada como sandbox pelos programadores.
 
+
+
 ## Ferramentas
 
 
@@ -26,9 +37,20 @@ As ferramentas de Engenharia Reversa (RE) estão todas localizadas no menu RE e 
 
 -   <img alt="" src=images/FitSurface.svg  style="width:32px;"> Aproximação de uma superfície de linha B:
 
+
+
 ## Em desenvolvimento 
 
 Link para os tópicos apropriados discutindo esta bancada de trabalho
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

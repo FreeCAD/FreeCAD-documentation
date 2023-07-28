@@ -11,9 +11,11 @@ Le **problème de dénomination topologique** dans FreeCAD fait référence au c
 
 Le problème de la dénomination topologique est un problème complexe en modélisation CAO qui découle de la façon dont les routines internes FreeCAD traitent les mises à jour des formes géométriques créées avec le [noyau OCCT](OpenCASCADE/fr.md). Depuis FreeCAD 0.19, des efforts sont en cours pour améliorer la gestion des formes afin de réduire ou d'éliminer ces problèmes.
 
--   Fil du forum: [Topological Naming, My Take (Dénomination topologique, mon point de vue)](https://forum.freecadweb.org/viewtopic.php?t=27278)
+-   Fil du forum : [Topological Naming, My Take (Dénomination topologique, mon point de vue)](https://forum.freecadweb.org/viewtopic.php?t=27278)
 
 Le problème de dénomination topologique affecte et trouble le plus souvent les nouveaux utilisateurs de FreeCAD. Dans PartDesign, il est conseillé à l\'utilisateur de suivre les meilleures pratiques décrites dans la page [Édition de fonctions](feature_editing/fr.md). L\'utilisation d\'objets de référence pris en charge, tels que les [plans](PartDesign_Plane/fr.md) et les [systèmes de coordonnées locaux](PartDesign_CoordinateSystem/fr.md), est fortement recommandée pour produire des modèles qui ne sont pas facilement sujets à de telles erreurs topologiques. Dans TechDraw, il est conseillé à l\'utilisateur d\'ajouter des cotes uniquement lorsque le modèle 3D est terminé et ne sera plus modifié.
+
+
 
 ## Exemple
 
@@ -100,6 +102,8 @@ Comme expliqué sur la page d\'[édition de fonctions](Feature_editing/fr.md), u
 
 <img alt="" src=images/FreeCAD_topological_problem_21_independent_solids_all.png  style="width:" height="400px;">
 
+
+
 ## Remarques finales 
 
 Ajouter des objets de référence demande plus de travail à l\'utilisateur, mais produit finalement des modèles plus stables et moins sujets au problème de dénomination topologique.
@@ -110,6 +114,8 @@ Les plans de référence peuvent également être basés sur d'autres plans de r
 
 Les objets de référence, [points](PartDesign_Point/fr.md), [lignes](PartDesign_Line/fr.md), [plans](PartDesign_Plane/fr.md), et [systèmes de coordonnées](PartDesign_CoordinateSystem/fr.md) peuvent également être utiles en tant que géométrie de référence, c'est-à-dire en tant qu'aide visuelle pour montrer les caractéristiques importantes du modèle, même si aucune esquisse n'y est directement attachée.
 
+
+
 ## Liens
 
 -   [PartDesign Congé - Nom topologique](PartDesign_Fillet/fr#D.C3.A9nomination_topologique.md)
@@ -117,6 +123,8 @@ Les objets de référence, [points](PartDesign_Point/fr.md), [lignes](PartDesign
 -   [Topological Naming Project](Topological_Naming_Project.md) : idée pour résoudre le problème, par ickby.
 -   [Script pour création topologique](Topological_data_scripting/fr.md)
 -   [Édition de fonctions](Feature_editing/fr.md) : contient des conseils complémentaires sur les techniques de modélisation stables.
+
+
 
 ## Vidéos
 

@@ -10,6 +10,8 @@
 
 # Arch Rebar LShape/ru
 
+
+
 ## Описание
 
 
@@ -33,6 +35,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 
 </div>
+
+
 
 ## Применение
 
@@ -62,6 +66,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 *Taskview panel for the Arch Rebar LShape tool*
 
+
+
 ## Свойства
 
 -    **Orientation**: It decides the orientation of the rebar (like a bottom, top, right and left).
@@ -89,7 +95,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 [Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The LShape Rebar tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The LShape Rebar tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 Rebar = makeLShapeRebar(f_cover, b_cover, l_cover, r_cover,
                         diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom Left",
@@ -110,6 +116,8 @@ Rebar = makeLShapeRebar(f_cover, b_cover, l_cover, r_cover,
 -    `amount_spacing_value`specifies the number of reinforcement bars, or the value of the separation between them, depending on amount_spacing_check.
 
 -    `orientation`specifies the orientation of the rebar; it can be `"Bottom Right"`, `"Bottom Left"`, `"Top Right"`, or `"Top Left"`.
+
+
 
 ### Пример
 

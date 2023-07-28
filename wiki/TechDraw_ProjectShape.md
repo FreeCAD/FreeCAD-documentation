@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ProjectShape
-   MenuLocation:TechDraw → Project shape...
+   MenuLocation:TechDraw → TechDraw Views → Project shape...
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20
@@ -12,20 +12,23 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_ProjectShape.svg  style="width:24px;"> **TechDraw ProjectShape** tool creates projections of shapes. The projections are created in the [3D view](3D_view.md), and not on a [TechDraw Page](TechDraw_PageDefault.md).
+The **TechDraw ProjectShape** tool creates projections of shapes. The projections are created in the [3D view](3D_view.md), and not on a [TechDraw Page](TechDraw_PageDefault.md).
 
  ![](images/ProjectShape1_it.png ) 
 
 ## Usage
 
-1.  Select one or more objects. For each object a separate projection will be created.
-2.  There are several ways to invoke the tool:
+1.  Optionally rotate the [3D view](3D_view.md). The objects will be projected onto a plane parallel to the screen i.e. along the 3D view\'s camera direction, which is used as the default **Direction** property.
+2.  Select one or more objects. For each object a separate projection will be created.
+3.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_ProjectShape.svg" width=16px> [Project shape...](TechDraw_ProjectShape.md)** button.
-    -   Select the **TechDraw → <img src="images/TechDraw_ProjectShape.svg" width=16px> Project shape...** option from the menu.
-3.  The **Project shapes** task panel opens. See [Properties](#Properties.md).
-4.  Set the desired options.
-5.  The selected options should not result in an empty projection as this will cause an error. For example, for an object with only sharp edges such as a [Part Box](Part_Box.md), the **Visible sharp edges** and/or **Hidden sharp edges** option must be checked.
-6.  Press the **OK** button.
+    -   Select the **TechDraw → TechDraw Views → <img src="images/TechDraw_ProjectShape.svg" width=16px> Project shape...** option from the menu.
+4.  The **Project shapes** task panel opens. See [Properties](#Properties.md).
+5.  Set the desired options.
+6.  The selected options should not result in an empty projection as this will cause an error. For example, for an object with only sharp edges such as a [Part Box](Part_Box.md), the **Visible sharp edges** and/or **Hidden sharp edges** option must be checked.
+7.  Press the **OK** button.
+8.  The projection is placed on the XY plane.
+9.  Optionally change the **Placement** property and/or **Direction** property of the projection.
 
 ## Properties
 

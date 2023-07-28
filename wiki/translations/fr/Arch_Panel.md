@@ -23,6 +23,8 @@ Depuis la version {{VersionPlus/fr|0.17}}, Arch Panneau peut également être ut
 
 <img alt="" src=images/Arch_panel_wave.jpg  style="width:700px;">
 
+
+
 ## Utilisation
 
 1.  Sélectionnez une forme 2D (objet Draft, face ou esquisse)
@@ -42,6 +44,8 @@ Depuis la version {{VersionPlus/fr|0.17}}, Arch Panneau peut également être ut
 -   Un double-clic sur le panneau dans la vue enarborescence après sa création permet d\'entrer en mode édition et d\'accéder et de modifier ses ajouts et soustractions.
 -   Il est possible de créer automatiquement des panneaux composés de plus d\'une feuille d\'un matériau, en augmentant sa propriété Sheets.
 -   Les panneaux peuvent faire appel à <img alt="" src=images/Arch_MultiMaterial.svg  style="width:24px;"> [Arch Matériaux multiples](Arch_MultiMaterial/fr.md). Lorsqu\'on utilise un multi-matériau, le panneau devient multi-couche, en utilisant les épaisseurs spécifiées par le multi-matériau. Toute couche dont l\'épaisseur est égale à zéro verra son épaisseur définie automatiquement par l\'espace restant défini par la valeur Thickness du panneau, après soustraction des autres couches.
+
+
 
 ## Propriétés
 
@@ -65,10 +69,12 @@ Depuis la version {{VersionPlus/fr|0.17}}, Arch Panneau peut également être ut
 
 -    **Bottom Wave**: Si l\'ondulation du fond du panneau est plate ou non.
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
@@ -88,6 +94,8 @@ import FreeCAD, Draft, Arch
 Rect = Draft.makeRectangle(1000, 400)
 Panel = Arch.makePanel(Rect, thickness=36)
 ```
+
+
 
 ## Tutoriels
 

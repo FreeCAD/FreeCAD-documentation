@@ -9,9 +9,13 @@
 
 # Sketcher LeaveSketch/de
 
+
+
 ## Beschreibung
 
 Mit dem Befehl **SkizzeVerlassen** wird der Skizzenbearbeitungsmodus verlassen und der [Aufgabenbereich](Task_panel/de.md) freigegeben.
+
+
 
 ## Anwendung
 

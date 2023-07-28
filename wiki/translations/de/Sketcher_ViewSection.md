@@ -10,12 +10,16 @@
 
 # Sketcher ViewSection/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug **SchnittAnzeigen** erzeugt eine Schnittebene, die vorübergehend alles vor der Skizzenebene befindliche ausblendet.
 
 <img alt="" src=images/Sketcher_ViewSection1.png  style="width:300px;"> <img alt="" src=images/Sketcher_ViewSection2.png  style="width:320px;"> 
 *Teilweise verborgene Skizze und vollständig sichtbare Skizze*
+
+
 
 ## Anwendung
 

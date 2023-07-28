@@ -1,23 +1,28 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher SelectVerticalAxis
-   MenuLocation:Sketch → Sketcher tools → Select vertical axis
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Wybierz oś pionową
+   MenuLocation:Szkic → Narzędzia szkicownika → Wybierz oś pionową
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**Z** **V**
    Version:0.15
 ---
 
 # Sketcher SelectVerticalAxis/pl
 
-## Description
 
-Selects the vertical axis of a sketch.
 
-## Usage
+## Opis
 
-1.  Enter edit mode of sketch.
-2.  Choose **Sketch → Sketcher tools → [<img src=images/Sketcher_SelectVerticalAxis.png style="width:16px"> Select vertical axis** from the top menu.
-3.  The vertical axis of the sketch will be selected.
+Zaznacza oś pionową szkicu.
+
+
+
+## Użycie
+
+1.  Wejdź w tryb edycji szkicu.
+2.  Wybierz z menu głównego **Szkic → Narzędzia szkicownika → [<img src=images/Sketcher_SelectVerticalAxis.png style="width:16px"> Wybierz oś pionową**.
+3.  Zostanie zaznaczona pionowa oś szkicu.
 
 
 

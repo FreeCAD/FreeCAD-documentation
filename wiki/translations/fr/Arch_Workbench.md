@@ -9,9 +9,9 @@ L\'<img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [atelier Arch
 
 L\'atelier Arch importe tous les outils de l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) car il utilise ses objets 2D pour créer des objets architecturaux paramétriques 3D. Néanmoins, Arch peut également utiliser des formes solides créées avec d\'autres ateliers tels que <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/fr.md) et <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/fr.md).
 
-La fonctionnalité BIM de FreeCAD est maintenant progressivement divisée en cet atelier Arch qui contient des outils architecturaux de base et l\'<img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [Atelier BIM](BIM_Workbench/fr.md), disponible depuis le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Cet atelier BIM ajoute une nouvelle couche d\'interface en plus des outils Arch dans le but de rendre le flux de travail BIM plus intuitif et convivial. Voir [FreeCAD BIM migration guide](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide).
+La fonctionnalité BIM de FreeCAD est progressivement divisée en cet atelier Arch, qui contient des outils d\'architecture de base, et l\'<img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [Atelier BIM](BIM_Workbench/fr.md), disponible depuis le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Cet atelier BIM ajoute une nouvelle couche d\'interface en plus des outils Arch dans le but de rendre le flux de travail BIM plus intuitif et convivial. Voir [FreeCAD BIM migration guide](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide).
 
-Les développeurs de Draft, Arch et BIM collaborent également avec la [communauté OSArch](https://osarch.org) dans le but ultime d\'améliorer la conception des bâtiments en utilisant un logiciel entièrement gratuit.
+Les développeurs de Draft, Arch et BIM collaborent également avec la [communauté OSArch](https://osarch.org) dans le but d\'améliorer la conception des bâtiments en utilisant un logiciel entièrement gratuit.
 
 <img alt="" src=images/Screenshot_arch_window.jpg  style="width:600px;">
 
@@ -49,7 +49,7 @@ Ces outils permettent la création d\'objets architecturaux.
 
   -<img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Armature personnalisée](Arch_Rebar/fr.md) : crée une barre de ferraillage personnalisée dans un élément de structure sélectionné à l\'aide d\'une esquisse.
 
--   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Mur-rideau](Arch_CurtainWall/fr.md) : crée un mur-rideau à partir de rien ou en utilisant un objet sélectionné comme base. {{Version/fr|0.19}}
+-   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Mur-rideau](Arch_CurtainWall/fr.md) : crée un mur-rideau à partir de rien ou en utilisant un objet sélectionné comme base.
 
 -   <img alt="" src=images/Arch_BuildingPart.svg  style="width:32px;"> [Partie de bâtiment](Arch_BuildingPart/fr.md) : crée une partie de bâtiment incluant les objets sélectionnés.
 
@@ -95,11 +95,11 @@ Ces outils permettent la création d\'objets architecturaux.
 
 -   <img alt="" src=images/Arch_Frame.svg  style="width:32px;"> [Ossature](Arch_Frame/fr.md) : crée un objet ossature à partir d\'une mise en page sélectionnée.
 
--   <img alt="" src=images/Arch_Fence.svg  style="width:32px;"> [Clôture](Arch_Fence/fr.md) : crée un objet clôture à partir d\'un poteau et d\'un chemin sélectionnés. {{Version/fr|0.19}}
+-   <img alt="" src=images/Arch_Fence.svg  style="width:32px;"> [Clôture](Arch_Fence/fr.md) : crée un objet clôture à partir d\'un poteau et d\'un chemin sélectionnés.
 
--   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Treillis](Arch_Truss/fr.md) : crée un treillis à partir d\'une ligne sélectionnée ou de zéro. {{Version/fr|0.19}}
+-   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Treillis](Arch_Truss/fr.md) : crée un treillis à partir d\'une ligne sélectionnée ou de zéro.
 
--   <img alt="" src=images/Arch_Profile.svg  style="width:32px;"> [Profilé](Arch_Profile/fr.md) : crée un profilé 2D paramétrique. {{Version/fr|0.19}}
+-   <img alt="" src=images/Arch_Profile.svg  style="width:32px;"> [Profilé](Arch_Profile/fr.md) : crée un profilé 2D paramétrique.
 
 -   <img alt="" src=images/Arch_CompSetMaterial.png  style="width:48px;"> [Outils pour les matériaux](Arch_CompSetMaterial/fr.md)
 
@@ -123,7 +123,7 @@ Ce sont des outils de modification d\'objets architecturaux.
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Couper suivant un plan](Arch_CutPlane/fr.md) : découpe un objet en fonction d\'un plan.
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Couper suivant une ligne](Arch_CutLine/fr.md) : découpe un objet en fonction d\'une ligne. {{Version/fr|0.19}}
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Couper suivant une ligne](Arch_CutLine/fr.md) : découpe un objet en fonction d\'une ligne.
 
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Ajouter](Arch_Add/fr.md) : ajoute des objets à un composant.
 

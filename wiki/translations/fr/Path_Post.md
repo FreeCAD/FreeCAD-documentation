@@ -9,42 +9,46 @@
 
 # Path Post/fr
 
+
+
 ## Description
 
-Le bouton **<img src="images/Path_Post.svg" width=16px> [Post-traitement](Path_Post/fr.md)** exporte la **<img src="images/Path_Job.svg" width=16px> [Path Tâche](Path_Job/fr.md)** sélectionnée vers un fichier G-code.
+L\'outil <img alt="" src=images/Path_Post.svg  style="width:16px;"> [Post-traitement](Path_Post/fr.md) exporte la <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Path Tâche](Path_Job/fr.md) sélectionnée vers un fichier G-code.
 
-**Chaque contrôleur CNC utilise un langage G-Code spécifique, nécessitant un Post-processeur correcteur de langage pour traduire la sortie finale du langage G-Code FreeCAD interne agnostique.**
+**Chaque contrôleur CNC parle un dialecte G-code spécifique, nécessitant un post-processeur à correction dialectale pour traduire la sortie finale à partir du dialecte G-code interne agnostique de FreeCAD**.
+
+
 
 ### Fonctions typiques du post-processeur 
 
-Les fonctions typiques du Post-processeur incluent:
+-   L\'utilisation d\'une extension de fichier G-code correcte pour la sortie de la tâche.
+-   Sélection des commandes G-code. Les commandes numériques prennent généralement en charge un sous-ensemble de commandes G-code disponibles. Le super-ensemble de commandes G-code contient des commandes puissantes et spécialisées qui doivent être traitées à l\'aide de plusieurs commandes plus simples. Les post-processeurs sont écrits pour sélectionner le meilleur G-code pour une opération, disponible sur la cible.
+-   Formatage de la syntaxe du G-code en réordonnant les entrées Feed (avance), X, Y, Z, A et B ainsi que la précision.
+-   Insertion d\'un préambule pour définir les unités, le format des unités, le plan de travail, le système de coordonnées, etc\...
+-   Insertion d\'un post-amble pour stationner la machine, l\'arrêter, traiter les arguments.
+-   Insérer des changements d\'outils, ou les supprimer entre les opérations suivantes utilisant le même outil.
+-   Formatage des informations relatives à l\'avance et à la vitesse en tours par minute ou par seconde.
+-   Formatage de l\'appellation et de l\'appel des fonctions.
 
--   Utilisation d\'une extension de fichier G-code de sortie de travail correcte.
--   Sélection des commandes G-code. Les contrôleurs CNC prennent généralement en charge un sous-ensemble de commandes G-code disponibles. Le super-ensemble de commandes G-code contient des commandes puissantes et spécialisées qui, autrement, doivent être traitées en utilisant plusieurs commandes plus simples. Les post-processeurs sont écrits pour sélectionner le meilleur G-code pour une opération, disponible sur la cible.
--   Formatage de la syntaxe G-code en réorganisant les entrées Feed (avance), X, Y, Z, A et B et la précision.
--   Insertion d\'un préambule pour régler les unités, le format des unités, le plan de travail, le système de coordonnées, etc \...
--   Insérer un post-amble pour garer la machine, l\'arrêter, traiter tous les arguments.
--   Insérer des changements d\'outil, ou les supprimer entre les opérations suivantes utilisant le même outil.
--   Formatage des informations d\'avance et de vitesse en tours par minute ou par seconde.
--   Fonction de mise en forme du nom d\'appel et appel.
+
 
 ### Personnalisation du post-processeur 
 
-Si vous souhaitez écrire votre propre postprocesseur, consultez la page [Path Personnalisation du post-processeur](Path_Postprocessor_Customization/fr.md).
+Si vous souhaitez écrire votre propre post-processeur, consultez la page [Path Personnalisation du post-processeur](Path_Postprocessor_Customization/fr.md).
 
-**Remarque:** plusieurs Post-processeurs fournis génèrent un code approprié pour de nombreux contrôleurs CNC, ou peuvent être utilisés comme modèles pour la modification
+**Remarque :** plusieurs post-processeurs fournis génèrent un code adapté à de nombreux contrôleurs CNC ou peuvent être utilisés comme modèles pour des modifications.
 
-Les post-processeurs contiennent des indicateurs de configuration et sont conçus pour être ajustés en ajoutant des G-codes et M-Codes aux définitions fournies pour:
+Les post-processeurs contiennent des indicateurs de configuration et sont conçus pour être ajustés en ajoutant des G-codes et M-codes aux définitions fournies pour :
 
 -   Initialisation de la machine
--   Finalisation de l\'emploi
+-   Finalisation de la tâche
 -   Changements d\'outils
--   Refroidissement activé / désactivé
+-   Refroidissement activé/désactivé
 -   Etc\...
 
-Les post-processeurs utilisent le [langage G-Code des opérations de travail Path de FreeCAD](https://www.freecadweb.org/wiki/Path_scripting/fr#Format_G-Code_interne_de_FreeCAD), en conjonction avec les définitions de configuration du Post-processeur, pour générer le G-Code corrigé pour les machines cibles. Cela permet à l\'atelier Path de générer un G-code correct pour cibler divers contrôleurs de machine CNC en appelant différents Post-processeurs.
+Les post-processeurs utilisent le \[Path_scripting/fr#Le_format_G-code_interne_de_FreeCAD\|dialecte G-code interne de FreeCAD\] en conjonction avec les définitions de configuration du post-processeur, afin de générer un G-code correct du point de vue dialectal pour les machines cibles. Cela permet à l\'atelier Path de générer du G-code correct pour cibler différents contrôleurs de machines CNC en appelant différents post-processeurs.
 
-Les types de contrôleur de machine CNC comprennent:
+Les types de contrôleur de machine CNC comprennent :
 
 -   Fraiseuses CNC
 -   Tours CNC
@@ -54,46 +58,50 @@ Les types de contrôleur de machine CNC comprennent:
 -   Graveurs
 -   Découpeurs à torche plasma
 -   Cintreuses
--   Coupeurs EDM
+-   Usinage par décharge électrique
 -   Etc\...
 
-Si une seule machine CNC est utilisée ou si toutes les machines CNC partagent un Post-processeur commun, l\'atelier Path ne doit inclure qu\'un seul Post-processeur. Si un seul Post-processeur est insuffisant pour générer un G-code pour tous les contrôleurs CNC cibles, plusieurs Post-processeurs doivent être installés.
+Si une seule machine CNC est utilisée ou si toutes les machines CNC partagent un post-processeur commun, l\'atelier Path ne doit inclure qu\'un seul post-processeur. Si un seul post-processeur est insuffisant pour générer un G-code pour tous les contrôleurs CNC cibles, plusieurs post-processeurs doivent être installés.
+
+
 
 ## Utilisation
 
-1.  Sélectionnez une <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Path Tâche](Path_Job/fr.md) dans la [Vue en arborescence](Tree_view/fr.md).
+1.  Sélectionnez une <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Path Tâche](Path_Job/fr.md) dans la [vue en arborescence](Tree_view/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Path_Post.svg" width=16px> [Post-traitement](Path_Post/fr.md)**.
     -   Sélectionnez l\'option **Path → <img src="images/Path_Post.svg" width=16px> Post-traitement ** dans le menu.
     -   Utilisez le raccourci clavier : **P** puis **P**.
-3.  Confirmez le nom et le répertoire de **Output File**.
+3.  Confirmez le nom et le répertoire de **Fichier de sortie**.
+
+
 
 ## Options
 
-Les propriétés du fichier de sortie et du post-processeur peuvent être définies dans la [Tâche](Path_Job/fr.md) à tout moment, avant d\'appeler le Post-processeur.
+Les propriétés du fichier de sortie et du post-processeur peuvent être définies dans la [tâche](Path_Job/fr.md) à tout moment, avant d\'appeler le post-processeur.
 
-Les post-processeurs fournis sont écrits avec des commentaires indiquant les zones contenant des Balises, des Variables de configuration et des Sections de G-codes et de M-codes qui doivent être utilisés par le post-processeur pour configurer la sortie.
+Les post-processeurs fournis sont écrits avec des commentaires indiquant les zones contenant des balises, des variables de configuration et des sections de G-codes et de M-codes qui doivent être utilisés par le post-processeur pour configurer la sortie.
 
-Les indicateurs True/False de la configuration type incluent:
+Les indicateurs True/False de la configuration type incluent :
 
--   OUTPUT_COMMENTS (True=Autoriser, False=Supprimer), Utilisé pour insérer des commentaires texte dans le fichier G-Code de sortie.
--   OUTPUT_HEADER (True=Autoriser, False=Supprimer), Utilisé pour insérer des en-têtes de texte dans le fichier G-Code de sortie.
--   OUTPUT_LINE_NUMBERS (True=Autoriser, False=Supprimer), Utilisé pour insérer des numéros de ligne dans le fichier G-Code de sortie.
--   SHOW_EDITOR (True=Autoriser, False=Supprimer), Utilisé pour afficher le G-code de sortie dans une fenêtre contextuelle lors de l\'appel du Post-processeur.
--   MODAL (True=Autoriser, False=Supprimer), Utilisé pour réduire le nombre de lignes G-Code en sortie en supprimant les informations de Mode lorsque le Mode ne change pas.
+-   **OUTPUT_COMMENTS** (True=Autoriser, False=Supprimer) : utilisé pour insérer des commentaires texte dans le fichier G-code de sortie.
+-   **OUTPUT_HEADER** (True=Autoriser, False=Supprimer) : utilisé pour insérer des en-têtes de texte dans le fichier G-code de sortie.
+-   **OUTPUT_LINE_NUMBERS** (True=Autoriser, False=Supprimer) : utilisé pour insérer des numéros de ligne dans le fichier G-code de sortie.
+-   **SHOW_EDITOR** (True=Autoriser, False=Supprimer) : utilisé pour afficher le G-code de sortie dans une fenêtre contextuelle lors de l\'appel du Post-processeur.
+-   **MODAL** (True=Autoriser, False=Supprimer) : utilisé pour réduire le nombre de lignes G-code en sortie en supprimant les informations dU Mode lorsque le Mode ne change pas.
 
 Les variables de configuration typiques incluent:
 
--   LINENR (numéro de ligne), utilisé pour définir l\'index du numéro de ligne.
--   UNITS (G20 ou G21), Utilisé pour communiquer explicitement au contrôleur CNC cible quelles unités utiliser pour interpréter le fichier de sortie final.
--   MACHINE_NAME (nom de la fraiseuse CNC cible), utilisé pour insérer une étiquette de nom de machine dans le fichier de sortie final.
--   PRECISION, Utilisé pour définir le nombre de chiffres à inclure après la décimale dans le fichier de sortie final
+-   **LINENR** (numéro de ligne) : utilisé pour définir l\'index du numéro de ligne.
+-   **UNITS** (G20 ou G21) : utilisé pour communiquer explicitement au contrôleur CNC cible quelles unités utiliser pour interpréter le fichier de sortie final.
+-   **MACHINE_NAME** (nom de la fraiseuse CNC cible) : utilisé pour insérer une étiquette de nom de machine dans le fichier de sortie final.
+-   **PRECISION** : utilisé pour définir le nombre de chiffres à inclure après la décimale dans le fichier de sortie final
 
 Les sections de configuration typiques incluent:
 
--   PREAMBULE (Configuration du code insérée au début du Travail)
--   POSTAMBLE (Configuration du code annexée au Travail, permettant de stationner la machine, etc \...)
--   TOOL_CHANGE (code inséré avec chaque changement d\'outil dans le Travail)
+-   **PREAMBULE** : configuration du code insérée au début de la tâche.
+-   **POSTAMBLE** : configuration du code annexée à la tâche, permettant de stationner la machine, etc\...
+-   **TOOL_CHANGE** : code inséré avec chaque changement d\'outil dans la tâche.
 
 
 **Édition**
@@ -119,7 +127,7 @@ Les post-processeurs inclus sont enregistrés dans le fichier **FreeCAD.Mod.Path
 
 ## Limitations
 
-N\'utilisez **pas** le menu **Fichier** → **Exporter**\'\'\' pour exporter vers le G-code, cela produirait un G-code endommagé!
+N\'utilisez **pas** le menu **Fichier** → **Exporter** pour exporter vers le G-code, cela produirait un G-code endommagé!
 
 
 

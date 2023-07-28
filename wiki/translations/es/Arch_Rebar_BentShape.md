@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -37,6 +39,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 
 </div>
+
+
 
 ## Como utilizar 
 
@@ -65,6 +69,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 *Taskview panel for the Arch Rebar BentShape tool*
 
+
+
 ## Propiedades
 
 -    {{PropertyData/es | Orientation}}: Decide la orientación de la barra de refuerzo (como una parte inferior, superior, derecha e izquierda).
@@ -88,12 +94,19 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 -    {{PropertyData/es | Spacing}}: la distancia entre los ejes de cada barra.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Programación
 
 
 </div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">

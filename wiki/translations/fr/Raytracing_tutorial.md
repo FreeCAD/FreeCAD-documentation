@@ -12,6 +12,8 @@
 
 
 
+
+
 ## Atelier Raytracing 
 
 
@@ -34,6 +36,8 @@ Ce tutoriel est destiné à présenter au lecteur le fonctionnement de base de l
 -   Dans le cas de POV-Ray, il ne suffit pas d\'avoir l\'exécutable binaire en place, cela ***demande***aussi l\'installation des***fichiers de support***. Dans Ubuntu, ceux-ci sont fournis par le paquet Recommends-flagged [povray-includes](https://packages.ubuntu.com/search?keywords=povray-includes). Des problèmes potentiels ont également été constatés lors d\'installations de Linux nécessitant la création manuelle de fichiers de configuration locaux dans le dossier personnel de l\'utilisateur, comme nous l\'avons vu [ici](https://forum.freecadweb.org/viewtopic.php?f=3&t=27548&start=10#p224576).
 -   Dans le cas de POV-Ray, l\'installation de [macro de psicofil](https://github.com/psicofil/Macros_FreeCAD) est recommandée.
 -   Le lecteur a les connaissances de base pour utiliser les ateliers Part et PartDesign.
+
+
 
 ## Procédure
 
@@ -84,9 +88,14 @@ Maintenant nous avons un modèle pour travailler.
 
 FreeCAD ouvrira immédiatement l\'image après que le rendu soit fini.
 
-Nous en avons maintenant terminé avec le processus de base pour l\'[atelier Raytracing](Raytracing_Workbench/fr.md).  {{Raytracing Tools navi}}
+Nous en avons maintenant terminé avec le processus de base pour l\'[atelier Raytracing](Raytracing_Workbench/fr.md).
+
+
+{{Raytracing Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/fr

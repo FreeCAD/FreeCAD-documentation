@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionPosVertChainDimension.svg  style="width:24px;"> **TechDraw Aligner verticalement** aligne les cotes verticales pour créer une chaîne de cotes.
+L\'outil **TechDraw Aligner verticalement** aligne les cotes verticales pour créer une chaîne de cotes.
 
 <img alt="" src=images/TechDraw_ExtensionPosVertChainDimensionExample.png  style="width:400px;"> 
 *A droite, les cotes alignées*
+
+
 
 ## Utilisation
 
@@ -26,6 +28,8 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionPosVertChainDimension.svg  sty
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionPosVertChainDimension.svg" width=16px> [Aligner verticalement](TechDraw_ExtensionPosVertChainDimension/fr.md)**.
     -   Sélectionnez l\'option **TechDraw → Extensions : attributs/modifications → <img src="images/TechDraw_ExtensionPosVertChainDimension.svg" width=16px> Aligner verticalement** à partir du menu.
 4.  Les cotes sont alignées et leurs textes sont centrés.
+
+
 
 ## Remarques
 

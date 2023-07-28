@@ -30,7 +30,7 @@ The axis cross consists of three arrows representing the positive X, Y and Z axi
 
 ## Preferences
 
--   The default for the axis cross can be changed in the preferences: **Edit → Preferences... → Display → 3D view → Show axis cross by default**. See [Preferences Editor](Preferences_Editor#3D_View.md). <small>(v0.19)</small> 
+-   The default for the axis cross can be changed in the preferences: **Edit → Preferences... → Display → 3D view → Show axis cross by default**. See [Preferences Editor](Preferences_Editor#3D_View.md).
 
 ## Scripting
 

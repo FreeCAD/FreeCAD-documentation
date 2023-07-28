@@ -17,18 +17,22 @@ La **Std Vue de gauche** place la caméra dans la [vue 3D](3D_view/fr.md) dans l
 ![](images/FreeCAD_views_rear.svg ) 
 *La flèche 6 pointe dans le sens de la vue de gauche*
 
+
+
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande:
+1.  Il existe plusieurs façons d\'appeler la commande :
     -   Appuyez sur le bouton **<img src="images/Std_ViewLeft.svg" width=16px> [Gauche](Std_ViewLeft/fr.md)**.
     -   Sélectionnez l\'option **Affichage → Vues standards → <img src="images/Std_ViewLeft.svg" width=16px> Gauche** dans le menu.
     -   Sélectionnez l\'option **Vues standard → <img src="images/Std_ViewLeft.svg" width=16px> Gauche** dans le menu contextuel de la [Vue 3D](3D_view/fr.md).
-    -   Utilisez le raccourci clavier: **6**.
+    -   Utilisez le raccourci clavier : **6**.
+
+
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

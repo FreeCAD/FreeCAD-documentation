@@ -5,7 +5,7 @@
    MenuLocation:Affichage → Vues standards → Stocker la vue de travail
    Workbenches:Tous
    Shortcut:**Maj**+**Fin**
-   Version:1.0
+   Version:0.21
    SeeAlso:[Std Rappel de la vue de travail](Std_RecallWorkingView/fr.md), [Std Figer l'affichage](Std_FreezeViews/fr.md)
 ---
 

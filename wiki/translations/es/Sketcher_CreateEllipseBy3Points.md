@@ -46,7 +46,7 @@ Al iniciar la herramienta, el puntero del ratón cambia a una cruz blanca con un
 
 </div>
 
--   Después del tercer clic, se crea la elipse, junto con un conjunto de geometría de construcción alineada con ella (diámetro mayor, diámetro menor, dos focos). La geometría de construcción puede eliminarse manualmente si no se necesita, y volver a crearse más tarde. Ver [Restricción de alineación interna](Sketcher_ConstrainInternalAlignment/es.md) y [Croquizador Mostrar Ocultar Geometría Interna](Sketcher_RestoreInternalAlignmentGeometry/es.md).
+-   Después del tercer clic, se crea la elipse, junto con un conjunto de geometría de construcción alineada con ella (diámetro mayor, diámetro menor, dos focos). La geometría de construcción puede eliminarse manualmente si no se necesita, y volver a crearse más tarde. Ver [Croquizador Mostrar Ocultar Geometría Interna](Sketcher_RestoreInternalAlignmentGeometry/es.md).
 -   Pulsar **ESC** o hacer clic con el botón derecho del ratón cancela la función.
 
 ## Peculiarities

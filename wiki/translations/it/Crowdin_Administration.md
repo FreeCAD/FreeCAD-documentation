@@ -14,6 +14,8 @@
     -   Report to devs any relevant issues that require changes to the source code etc..
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Filtraggio delle stringhe 
@@ -30,6 +32,8 @@
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -74,6 +78,8 @@ If you notice a string in the FreeCAD UI that is not translated do the following
             1.  Check in the source file if the original string is handled by {{Incode|translate()}} or {{Incode|QT_TRANSLATE_NOOP()}}.
             2.  Verify that the context matches what is on Crowdin.
             3.  In case of {{Incode|QT_TRANSLATE_NOOP()}}, there are several particular cases. For commands, the context must be the exact command name, the same as used in {{Incode|FreeCADGui.runCommand()}}. For properties it must be {{Incode|"App::Property"}}. For the names of menus and toolbars it must be {{Incode|"Workbench"}}.
+
+
 
 
 <div class="mw-translate-fuzzy">

@@ -1,13 +1,13 @@
 # Debian Unstable/it
-[Debian Unstable](https://wiki.debian.org/DebianUnstable) is a rolling distribution used for [Debian development](Debian_development.md) and recommended for advanced users in FreeCAD development and packaging. New packages are ready as soon as they are uploaded and built, unless the uploader has marked them for [Debian Experimental](https://wiki.debian.org/DebianExperimental) which requires explicit installation (after some setup to enable the extra distribution) via .
+[Debian Unstable](https://wiki.debian.org/DebianUnstable) è una distribuzione \"rolling\" usata per lo [sviluppo di Debian](Debian_development/it.md) e raccomandata per utenti avanzati nello sviluppo e nella creazione di pacchetti di FreeCAD. I nuovi pacchetti sono pronti non appena vengono caricati e compilati, a meno che l\'autore del caricamento non li abbia contrassegnati per [Debian Experimental](https://wiki.debian.org/DebianExperimental) che richiede l\'installazione esplicita (dopo alcune impostazioni per abilitare la distribuzione extra) tramite .
 
-Frequently, people using Debian Testing should actually use Debian Unstable; Debian Testing should only be considered a \"QA release pocket\", since, while it may appear to be more stable than Unstable, there\'s actually a downside. New packages are uploaded to Debian Unstable and migrate to Testing after some time, and so security fixes and important packaging changes can be inappropriately delayed.
+Spesso, le persone che usano Debian Testing dovrebbero effettivamente usare Debian Unstable; Debian Testing dovrebbe essere considerato solo una \"QA release pocket\", poiché, sebbene possa sembrare più stabile di Unstable, in realtà c\'è uno svantaggio. I nuovi pacchetti vengono caricati su Debian Unstable e migrano su Testing dopo un po\' di tempo, quindi correzioni di sicurezza e importanti modifiche al pacchetto possono essere ritardate in modo inappropriato.
 
-There are two key things to a good user experience in Unstable. The first is to never blindly run sudo apt full-upgrade or its equivalents without first checking the results of the operation. If it\'s saying you\'ll free up hundreds of MB of space, there\'s a package transition underway which will remove a good portion of your system. Instead, one can safely run sudo apt upgrade and get new packages. Sometimes, this will result in packages being held back, which means it may be appropriate to run full-upgrade as package uninstallation may actually be necessary.
+Ci sono due cose fondamentali per una buona esperienza utente in Unstable. La prima è non eseguire mai alla cieca sudo apt full-upgrade o i suoi equivalenti senza prima controllare i risultati dell\'operazione. Se sta dicendo che libererai centinaia di MB di spazio, è in corso una transizione del pacchetto che rimuoverà una buona parte del tuo sistema. Invece, si può tranquillamente eseguire sudo apt upgrade e ottenere nuovi pacchetti. A volte, ciò comporterà il blocco dei pacchetti, il che significa che potrebbe essere appropriato eseguire full-upgrade poiché la disinstallazione dei pacchetti potrebbe essere effettivamente necessaria.
 
-The second key is to embrace that you\'re taking part in Debian development, and use the appropriate tools and methods. For example, that may mean installing packages like apt-listbugs or apt-listchanges or subscribing to Debian mailing lists like [debian-devel-announce@lists.debian.org](https://lists.debian.org/debian-devel-announce/).
+La seconda è accettare che si sta prendendo parte allo sviluppo di Debian e utilizzare gli strumenti e i metodi appropriati. Ad esempio, ciò potrebbe significare installare pacchetti come apt-listbugs o apt-listchanges o iscriversi a mailing list Debian come [1](https://lists.debian.org/debian-devel-announce/debian-devel-announce@lists.debian.org).
 
-While Debian Unstable is perfectly suitable as a long-term daily driver, it\'s also very easy to run in a virtual machine, where breakages won\'t be such a big deal. Simply download a Debian Testing ISO, install it into a VM and update it, and then edit /etc/apt/sources.list to contain something like:
+Sebbene Debian Unstable sia perfettamente adatta per l\'uso quotidiano a lungo termine, è anche molto facile da eseguire in una macchina virtuale, dove le rotture non saranno un grosso problema. Basta scaricare una ISO di Debian Testing, installarla in una VM e aggiornarla, quindi modificare /etc/apt/sources.list in modo che contenga qualcosa come:
 
 deb [http://ftp.us.debian.org/debian/](http://ftp.us.debian.org/debian/) testing main contrib non-free
 # deb-src [http://ftp.us.debian.org/debian/](http://ftp.us.debian.org/debian/) testing main contrib non-free
@@ -16,7 +16,7 @@ deb [http://security.debian.org/debian-security](http://security.debian.org/deb
 deb [http://ftp.us.debian.org/debian/](http://ftp.us.debian.org/debian/) unstable main contrib non-free
 # deb-src [http://ftp.us.debian.org/debian/](http://ftp.us.debian.org/debian/) unstable main contrib non-free
 
-If you want to enable packages from Experimental, put this into /etc/apt/sources.list.d/experimental.list:
+Se si vuole abilitare i pacchetti da Experimental, inserire questo in /etc/apt/sources.list.d/experimental.list:
 
 deb [http://deb.debian.org/debian](http://deb.debian.org/debian) experimental main contrib non-free
 # deb-src [http://deb.debian.org/debian](http://deb.debian.org/debian) experimental main contrib non-free

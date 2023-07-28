@@ -8,12 +8,16 @@
 
 # Draft Snap Dimensions/pl
 
+
+
 ## Opis
 
 Opcja <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:24px;"> **Przyciągnij do wymiaru** pokazuje tymczasowe wymiary X i Y. Wyświetlają one odległość X i Y między kursorem a poprzednim punktem w układzie współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). Wymiary są tworzone na [płaszczyźnie roboczej](Draft_SelectPlane/pl.md).
 
 <img alt="" src=images/Draft_Snap_Dimensions_example.png  style="width:400px;"> 
 *Wymiary tymczasowe pokazują położenie kursora*
+
+
 
 ## Użycie
 
@@ -28,6 +32,8 @@ Ogólne informacje na temat przyciągania można znaleźć na stronie [Przyciąg
 5.  Zauważ, że możesz zmieniać opcje przyciągania także wtedy, gdy polecenie jest aktywne.
 6.  Wybierz pierwszy punkt. Ta opcja przyciągania wymaga poprzedniego punktu.
 7.  Podczas przesuwania kursora wokół wyświetlane są tymczasowe wymiary.
+
+
 
 ## Ustawienia
 

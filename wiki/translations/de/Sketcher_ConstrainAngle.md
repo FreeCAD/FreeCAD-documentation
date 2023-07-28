@@ -10,49 +10,66 @@
 
 # Sketcher ConstrainAngle/de
 
+
+
 ## Beschreibung
 
-Die Winkelbeschränkung ist eine [Bezugsbeschränkung](Sketcher_Workbench/de#Skizzierer_Beschränkungen.md), die dazu dient, Winkel in der Skizze festzulegen. Sie ist in der Lage, die Neigungen einzelner Linien, Winkel zwischen den Linien, Winkel der Schnittpunkte von Kurven und Winkelbereiche von Kreisbögen festzulegen.
+Die Randbedingung Winkel festlegen ist eine [maßliche Randbedingung](Sketcher_Workbench/de#Sketcher-Randbedingungen.md), die dazu dient, Winkel in der Skizze festzulegen. Sie ist in der Lage, die Neigungen einzelner Linien, Winkel zwischen den Linien, Winkel der Schnittpunkte von Kurven und Winkelbereiche von Kreisbögen festzulegen.
+
+
 
 ## Anwendung
 
-Es gibt vier verschiedene Möglichkeiten, wie die Beschränkung angewendet werden kann:
+Es gibt vier verschiedene Möglichkeiten, wie die Randbedingung angewendet werden kann:
 
 -   auf einzelne Linien
 -   zwischen Linien
--   zu Schnittpunkten von Kurven
--   zu Kreisbögen
+-   auf Schnittpunkten von Kurven
+-   auf Kreisbögen
 
-Um die Winkelbeschränkung anzuwenden, sollte man den Schritten folgen:
+Um die Randbedingung Winkel festlegen anzuwenden, sollte man diesen Schritten folgen:
 
-1.  Wähle ein, zwei oder drei Elemente in der Skizze aus. Der Modus wird abhängig von der Auswahl gewählt.
-2.  Rufe die Beschränkung mit verschiedenen Methoden auf:
-    -   Drücken der **[<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Winkel festlegen](Sketcher_ConstrainAngle/de.md)** Schaltfläche in der Werkzeugleiste.
-    -   Verwendung der **K** dann **A** Tastaturkürzel.
-    -   Verwendung des **Sketch → Skizzen-Beschränkungen → [<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Winkel festlegen** aus dem obersten Menüeintrag
-3.  Ein Bezugs Bezugsbearbeitungsdialogfeld klappt auf.
-4.  Ändere den Winkel, falls erforderlich. **Hinweis:** Der Winkel kann als Ausdruck eingegeben werden, der ausgewertet und als Ergebnis gespeichert wird.
-5.  Klicke **OK**
+1.  Ein, zwei oder drei Elemente in der Skizze auswählen. Der Modus wird abhängig von der Auswahl gewählt.
 
-Wie bei jeder Bezugsbeschränkung ist es möglich, den Winkelwert später zu ändern, durch Doppelklick der Beschränkung in der Beschränkungsliste oder der 3D Ansicht. Die Eingabe eines negativen Wertes führt zum Umkippen der Winkelrichtung.
+2.  Die Randbedingung kann mit verschiedenen Methoden aufgerufen werden:
+    -   Die Schaltfläche **[<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Winkel festlegen](Sketcher_ConstrainAngle/de.md)** in der Werkzeugleiste drücken.
+    -   Das Tastaturkürzel **K** dann **A**.
+    -   Den Menüeintrag **Skizze → Skizzen-Beschränkungen → [<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Winkel festlegen** auswählen.
 
-## Beschränkungsmodi
+3.  Ein Dialogfenster zum Ändern des (Winkel-) Wertes wird geöffnet.
 
-### Linienneigungswinkel
+4.  Falls erforderlich, den Winkel ändern. **Hinweis:** Der Winkel kann als Ausdruck eingegeben werden, der ausgewertet und als Ergebnis gespeichert wird.
+
+5.  
+    **OK**klicken.
+
+Wie bei jeder maßlichen Randbedingung ist es möglich, den Winkelwert später zu ändern, durch Doppelklick der Randbedingung in der Liste unter Einschränkungen oder der 3D-Ansicht. Die Eingabe eines negativen Wertes führt zum Umklappen der Winkelrichtung.
+
+
+
+## Varianten der Randbedingung 
+
+
+
+### Neigungswinkel einer Linie 
 
 **Akzeptierte Auswahl:** Linie
 
 <img alt="" src=images/Sketcher_ConsraintAngle_mode1.png  style="width:600px;">
 
-Die Beschränkung legt den Polwinkel der Linienrichtung fest. Es ist der Winkel zwischen der Linie und der X Achse der Skizze.
+Die Randbedingung legt den polaren Winkel der Linienrichtung fest. Es ist der Winkel zwischen der Linie und der X-Achse der Skizze.
+
+
 
 ### Winkel eines Kreisbogens 
 
-**akzeptierte Auswahl:** Kreisbogen
+**Akzeptierte Auswahl:** Kreisbogen
 
 <img alt="" src=images/Sketcher_ConsraintAngle_mode2.png  style="width:600px;">
 
-In diesem Modus fixiert die Beschränkung die Winkelspannweite eines Kreisbogens.
+In diesem Modus fixiert die Randbedingung die Winkelspannweite eines Kreisbogens.
+
+
 
 ### Zwischen Linien 
 
@@ -60,17 +77,21 @@ In diesem Modus fixiert die Beschränkung die Winkelspannweite eines Kreisbogens
 
 <img alt="" src=images/Sketcher_ConsraintAngle_mode3.png  style="width:600px;">
 
-In diesem Modus legt die Beschränkung den Winkel zwischen zwei Linien fest. Es ist nicht erforderlich, dass sich die Linien schneiden.
+In diesem Modus legt die Randbedingung den Winkel zwischen zwei Linien fest. Es ist nicht erforderlich, dass sich die Linien schneiden.
 
-### Zwischen Kurven am Schnittpunkt (Winkel-über-Punkt) 
 
-**Akzeptierte Auswahl:** jede Linie/Kurve + jede Linie/Kurve + jeder Punkt
+
+### Zwischen Kurven im Schnittpunkt (Winkel-über-Punkt) 
+
+**Akzeptierte Auswahl:** beliebige Linie/Kurve + beliebige Linie/Kurve + beliebiger Punkt
 
 <img alt="" src=images/Sketcher_ConsraintAngle_mode4.png  style="width:600px;">
 
-In diesem Modus wird der Winkel zwischen zwei Kurven an ihrem Schnittpunkt beschränkt. Der Schnittpunkt kann auf der Verlängerung der Kurven liegen. Der Punkt sollte explizit angegeben werden, da sich Kurven typischerweise in mehr als einem Punkt schneiden.
+In diesem Modus wird der Winkel zwischen zwei Kurven in ihrem Schnittpunkt festgelegt. Der Schnittpunkt kann auf der Verlängerung der Kurven liegen. Der Punkt sollte explizit angegeben werden, da sich Kurven üblicherweise in mehr als einem Punkt schneiden.
 
-Damit die Beschränkung korrekt funktioniert, muss der Punkt auf beiden Kurven liegen. Wenn die Beschränkung aufgerufen wird, wird der Punkt automatisch auf beiden Kurven beschränkt ([Hilfsbeschränkungen](Sketcher_helper_constraint/de.md) wird hinzugefügt, falls erforderlich), und der Winkel zwischen den Kurven wird an dem Punkt beschränkt. Diese [Hilfsbeschränkungen](Sketcher_helper_constraint/de.md) sind einfache, gewöhnliche Beschränkungen. Sie können manuell hinzugefügt oder gelöscht werden. Auf dem obigen Beispielbild gibt es keine Hilfsbeschränkungen, da der ausgewählte Punkt bereits der Schnittpunkt von Kurven ist.
+Damit die Randbedingung korrekt funktioniert, muss der Punkt auf beiden Kurven liegen. Wenn die Randbedingung aufgerufen wird, wird der Punkt automatisch auf beiden Kurven festgelegt (bei Bedarf werden [Hilfsrandbedingungen](Sketcher_helper_constraint/de.md) hinzugefügt), und der Winkel zwischen den Kurven wird in dem Punkt festgelegt. Diese [Hilfsrandbedingungen](Sketcher_helper_constraint/de.md) sind einfach normale Randbedingungen. Sie können manuell hinzugefügt oder gelöscht werden. Auf dem obigen Beispielbild gibt es keine Hilfsrandbedingungen, da der ausgewählte Punkt bereits der Schnittpunkt der Kurven ist.
+
+
 
 ## Skripten
 
@@ -93,13 +114,13 @@ Sketch.addConstraint(Sketcher.Constraint('AngleViaPoint',icurve1,icurve2,geoidpo
 
   - `iline, iline1, iline2` sind ganze Zahlen, die die Zeilen durch ihre Ordnungszahlen in `Sketch` angeben.
 
-  - `pointpos1, pointpos2` sollte 1 für den Startpunkt und 2 für den Endpunkt sein. Die Wahl der Endpunkte ermöglicht die Einstellung des internen (oder externen) Winkels, und sie beeinflusst die Art und Weise, wie die Beschränkung auf dem Bildschirm gezeichnet wird.
+  - `pointpos1, pointpos2` sollte 1 für den Startpunkt und 2 für den Endpunkt sein. Die Wahl der Endpunkte ermöglicht die Einstellung des internen (oder externen) Winkels, und sie beeinflusst die Art und Weise, wie die Randbedingung auf dem Bildschirm dargestellt wird.
 
   - `geoidpoint` und `pointpos` in `AngleViaPoint` sind die Indizes, die den Schnittpunkt angeben.
 
-  - `angle` ist der Winkelwert im Bogenmaß. Der Winkel wird zwischen Tangentenvektoren im Gegenuhrzeigersinn gezählt. Tangentenvektoren zeigen für die Linien von Anfang bis Ende (oder umgekehrt, wenn der Endpunkt im Modus Winkel zwischen den Linien angegeben wird) und für Kreise, Bögen und Ellipsen entlang der Richtung entgegen dem Uhrzeigersinn. Die Menge wird auch als Winkel akzeptiert (z.B. `App.Units.Quantity('45 deg'))`
+  - `angle` ist der Winkelwert im Bogenmaß. Der Winkel wird zwischen Tangentenvektoren im Gegenuhrzeigersinn gezählt. Tangentenvektoren zeigen für die Linien von Anfang bis Ende (oder umgekehrt, wenn der Endpunkt im Modus Winkel zwischen Linien angegeben wird) und für Kreise, Bögen und Ellipsen entlang der Richtung entgegen dem Uhrzeigersinn. Die Größe wird auch als Winkel akzeptiert (z.B. `App.Units.Quantity('45 deg'))`
 
-Die [Skizzierer Skripten](Sketcher_scripting/de.md)-Seite erklärt die Werte, die für `iline`, `iline1`, `iline2`, `pointpos1`, `pointpos2`, `geoidpoint` und `pointpos` verwendet werden können und enthält weitere Beispiele, wie man Beschränkungen aus Python-Skripten erstellt.
+Die Seite [Sketcher Skripten](Sketcher_scripting/de.md) erklärt die Werte, die für `iline`, `iline1`, `iline2`, `pointpos1`, `pointpos2`, `geoidpoint` und `pointpos` verwendet werden können und enthält weitere Beispiele, wie man Randbedingungen mit Python-Skripten erstellt.
 
 
 

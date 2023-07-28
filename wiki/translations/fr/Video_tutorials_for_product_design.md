@@ -7,9 +7,13 @@ Les tutoriels listés ici sont ceux qui traitent de la conception de produits ph
 
 Consultez la page [tutoriels](tutorials/fr.md) pour des tutoriels écrits de haute qualité. Vous trouverez une liste complète et non triée de didacticiels dans la [:Category:Tutorials](:Category_Tutorials.md).
 
+
+
 ## Conception de produit 
 
 Les vidéos qui passent par la modélisation de divers objets solides à l\'aide d\'ateliers tels que <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/fr.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign ](PartDesign_Workbench/fr.md) et <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/fr.md).
+
+
 
 ### En anglais 
 
@@ -46,9 +50,13 @@ Les vidéos qui passent par la modélisation de divers objets solides à l\'aide
 
 -   [FreeCAD Beginners Tutorials](https://www.youtube.com/watch?v=VEk4RuNIlRY&list=PL1Fv0Kg44dc0WbIB_OoFnEqzanDI7nRQi) : FreeCAD 0.17, une série de 5 vidéos d\'Eklavya Self Learning Tutorials, en anglais, explique les bases de FreeCAD, telles que l\'installation, l\'interface et présente des ateliers de base tels que [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md), [Part](Part_Workbench/fr.md) et [Sketcher](Sketcher_Workbench/fr.md).
 
+
+
 ### Français
 
 -   [jp willm playlists](https://www.youtube.com/channel/UCJwHW5GwrK1fq16cxUoBOUw/videos) : pour les débutants comme pour les utilisateurs plus expérimentés, jp willm produit de nombreuses vidéos sur la modélisation 3D avec des outils provenant principalement de [Part](Part_Workbench/fr.md) et [PartDesign](PartDesign_Workbench/fr.md), mais explorant aussi [TechDraw](TechDraw_Workbench/fr.md) et bien sûr [Sketcher](Sketcher_Workbench/fr.md).
+
+
 
 ### En allemand 
 
@@ -70,6 +78,7 @@ Bien que cette liste se concentre sur le contenu allemand, bon nombre de ces cha
         ** [https://www.youtube.com/watch?v=JOtCL11UAUI&list=PLugsaCAoG3EmYbYuLSU8cz80gBXDeJ6QL FreeCAD Deutsch 2019]: une série de 53 vidéos en allemand traitant des formes de construction et de leur préparation pour la fabrication CNC. Certains sujets incluent: la préparation d'un travail, la simulation, le post-traitement, le fraisage des profils, le perçage, le perçage, la gravure et l'édition des outils.
         ** [https://www.youtube.com/watch?v=CPjvnY8hOwY&list=PLugsaCAoG3EnW3SwdM6a-aml_WT1eS6s6 FreeCAD English]: une série de 4 vidéos en anglais avec quelques astuces pour travailler avec FreeCAD.
 
+        <span id="Spanish"></span>
         ===En espagnol===
 
         * [https://www.youtube.com/channel/UCZOXUOIsWt3YAigw6viuvJQ/playlists Listes de lecture Mecatrónica LATAM]: diverses vidéos sur l'utilisation des modélisateurs 3D, dont FreeCAD, en espagnol.
@@ -79,12 +88,12 @@ Bien que cette liste se concentre sur le contenu allemand, bon nombre de ces cha
         ** [https://www.youtube.com/watch?v=cBA7EJyrLkQ&list=PLfv54N1Sqk4zFGrn6mVU5kTSpfyfN2GyW FREECAD 0.17 - 0.18]: une série de 15 vidéos montrant comment modéliser divers objets: connecteurs mécaniques, turbines, pinces, tubings, jantes de pneus vis, un bouchon à vis, un embout de vis, un engrenage hélicoïdal, un pneu de vélo, et d'autres.
 
 
-        {{Tutorials navi**
+        [[Category:Tutorials\]\]
 
 
 {{Userdocnavi
 
-}}
+**
 
 
 

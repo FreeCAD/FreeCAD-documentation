@@ -134,10 +134,10 @@ Etykieta na twoim przycisku może być różna, w zależności od twojej wersji,
 Powyższe instrukcje będą działać, bez względu na to, jaką etykietę posiada Twój przycisk.
 
 
-  {{Userdocnavi
+ {{Userdocnavi
 ---
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Basic modeling tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Basic modeling tutorial/pl

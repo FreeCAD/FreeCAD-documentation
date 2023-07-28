@@ -15,6 +15,8 @@ L\'option <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:24px;">
 <img alt="" src=images/Draft_Snap_Dimensions_example.png  style="width:400px;"> 
 *Les dimensions temporaires indiquent la position du curseur.*
 
+
+
 ## Utilisation
 
 Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Draft_Snap/fr.md).
@@ -28,6 +30,8 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
 5.  Notez que vous pouvez également modifier les options d\'aimantation lorsqu\'une commande est active.
 6.  Choisissez un premier point. Cette option d\'aimantation nécessite un point précédent.
 7.  Lorsque vous déplacez le curseur, des dimensions temporaires sont affichées.
+
+
 
 ## Préférences
 

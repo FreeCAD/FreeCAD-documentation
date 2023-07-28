@@ -13,6 +13,8 @@
 
 Cet outil convertit les surfaces des éléments 3D d\'un maillage FEM sélectionné en maillage, ou convertit un maillage FEM 2D en maillage. En pratique, il sélectionne les faces des éléments du maillage FEM qui sont uniques (non partagées par deux éléments) et les utilise pour créer les faces d\'un maillage. En outre, il permet de créer un maillage déformé par l\'action des forces définies. Ceci est fait en ajoutant le déplacement des résultats de la FEM aux nœuds du maillage (l\'échelle du déplacement peut être définie par Python).
 
+
+
 ## Utilisation
 
 1.  Sélectionnez un objet FEM maillage.
@@ -21,9 +23,11 @@ Cet outil convertit les surfaces des éléments 3D d\'un maillage FEM sélection
     -   Appuyez sur le bouton **<img src="images/FEM_FemMesh2Mesh.svg" width=16px> [Maillage FEM à maillage](FEM_FemMesh2Mesh/fr.md)**.
     -   Sélectionnez l\'option **Maillage → <img src="images/FEM_FemMesh2Mesh.svg" width=16px> Maillage FEM à maillage** dans le menu.
 
+
+
 ## Script
 
-**Remarque** : le paramètre *scale* est {{Version/fr|1.0}}. Pour les anciennes versions de FreeCAD, il faut l\'omettre de votre code.
+**Remarque** : le paramètre *scale* est {{Version/fr|0.21}}. Pour les anciennes versions de FreeCAD, il faut l\'omettre de votre code.
 
 Si vous avez seulement besoin du facteur d\'échelle de déplacement, vérifiez le nom de votre objet de maillage et le facteur d\'échelle dans le code suivant :
 

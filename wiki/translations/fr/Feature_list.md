@@ -4,6 +4,8 @@ Il s\'agit d\'une liste étendue, mais non complète, des fonctionnalités que F
 
 {{TOCright}}
 
+
+
 ## Notes de versions 
 
 -   [Notes de version 0.20](Release_notes_0.20/fr.md) - Juin 2022
@@ -17,6 +19,8 @@ Il s\'agit d\'une liste étendue, mais non complète, des fonctionnalités que F
 -   [Notes de version 0.12](Release_notes_0.12/fr.md) - Décembre 2011
 -   [Notes de version 0.11](Release_notes_0.11/fr.md) - Mars 2011
 
+
+
 ## Fonctions principales 
 
 -   ![](images/_Feature1.jpg ) Un **noyau géométrique** complet basé sur [Open CASCADE Technology](https://fr.wikipedia.org/wiki/Open_CASCADE_Technology) permettant des opérations 3D complexes sur des formes complexes, avec prise en charge native de concepts tels que les [B-Rep](https://fr.wikipedia.org/wiki/B-Rep), les [NURBS](https://fr.wikipedia.org/wiki/NURBS) (courbes et surfaces), un large éventail de modules géométriques, d\'opérations booléennes, des [arrondis et congés](https://fr.wikipedia.org/wiki/Arrondi_et_cong%C3%A9) ainsi que la prise en charge des formats [STEP](https://fr.wikipedia.org/wiki/Standard_pour_l%27%C3%A9change_de_donn%C3%A9es_de_produit) et [IGES](https://fr.wikipedia.org/wiki/Initial_Graphics_Exchange_Specification)
@@ -29,11 +33,13 @@ Il s\'agit d\'une liste étendue, mais non complète, des fonctionnalités que F
 -   ![](images/Feature5.jpg ) L\'importation/exportation de **formats standards** tels que [STEP](https://fr.wikipedia.org/wiki/Standard_pour_l%27%C3%A9change_de_donn%C3%A9es_de_produit), [IGES](https://fr.wikipedia.org/wiki/Initial_Graphics_Exchange_Specification), [OBJ](https://fr.wikipedia.org/wiki/Obj), [STL](https://fr.wikipedia.org/wiki/Fichier_de_st%C3%A9r%C3%A9olithographie), [DXF](https://fr.wikipedia.org/wiki/Drawing_eXchange_Format), [SVG](http://fr.wikipedia.org/wiki/Scalable_Vector_Graphics), [DAE](https://fr.wikipedia.org/wiki/Collaborative_Design_Activity), [SFI](https://fr.wikipedia.org/wiki/Industry_Foundation_Classes) ou [OFF](https://people.sc.fsu.edu/~jburkardt/data/off/off.html), [NASTRAN](https://fr.wikipedia.org/wiki/Nastran), [VRML](https://fr.wikipedia.org/wiki/Virtual_Reality_Markup_Language), outre le format de fichier originaire de FreeCAD****[FCStd](File_Format_FCStd/fr.md)****. Le niveau de compatibilité entre FreeCAD et un format de fichier donné peut varier car cela dépend du module qui l\'implémente.
 -   ![](images/Feature7.jpg ) Le module [Sketcher](Sketcher_Workbench/fr.md) est un solveur de contraintes qui permet de faire des esquisses des formes 2D géométriques contraintes. L\'esquisse 2D contrainte avec Sketcher permet aujourdh\'ui de construire plusieurs types de contraintes géométriques et de les utiliser comme la base de construction d\'autres objets tout au long de l\'utilisation de FreeCAD.
 -   ![](images/Feature9.jpg ) Le module [Robot](Robot_Workbench/fr.md) permet d\'étudier les mouvements de type robot dans un environnement graphique.
--   ![](images/_Feature8.jpg ) Le module [TechDraw](TechDraw_Workbench/fr.md) avec les options telles que vue détaillée, coupes, cotations et autres permet de générer des vues 2D sur feuille à partir de vos modèles 3D. Ce module produit des feuilles au format SVG ou PDF prêtes à être exportées. Il existe toujours l\'ancien module [Drawing](Drawing_Workbench/fr.md) avec quelques commandes par interface graphique mais présente de puissantes fonctionnalités en [Python](http://www.python.org/).
+-   ![](images/_Feature8.jpg ) Le module [TechDraw](TechDraw_Workbench/fr.md) avec les options telles que vue détaillée, coupes, cotations et autres permet de générer des vues 2D sur feuille à partir de vos modèles 3D. Ce module produit des feuilles au format SVG ou PDF prêtes à être exportées.
 -   ![](images/Feature-raytracing.jpg ) Le module [Raytracing](Raytracing_Workbench/fr.md) peut exporter des objets 3D pour obtenir des **rendus** avec des convertisseurs externes. Actuellement seuls [Povray](https://fr.wikipedia.org/wiki/Povray) et [LuxRender](https://fr.wikipedia.org/wiki/LuxRender) sont pris en charge. A l\'avenir cela devrait être étendu à d\'autres convertisseurs.
 -   ![](images/Feature-arch.jpg ) Le module [Arch](Arch_Workbench/fr.md) permet d\'utiliser [BIM](http://fr.wikipedia.org/wiki/Building_Information_Modeling) comme processus de travail et est compatible avec le format [IFC](http://fr.wikipedia.org/wiki/Industry_Foundation_Classes).
 -   ![](images/Feature-CAM.jpg ) Le module [Path](Path_Workbench/fr.md) est dédié à l\'usinage mécanique [Fabrication assistée par ordinateur](https://fr.wikipedia.org/wiki/Fabrication_assist%C3%A9e_par_ordinateur) (FAO). Avec le module Path, vous êtes en mesure d\'afficher et de modifier le [G code](https://fr.wikipedia.org/wiki/Programmation_de_commande_num%C3%A9rique) contrôlant votre machine. 
 -   ![](images/_Feature_spreadsheet.png ) Une [Feuille de calcul intégrée](Spreadsheet_Workbench/fr.md) et un [analyseur d\'expression](Expressions/fr.md) permettent de piloter des feuilles basées sur des formules ou de récupérer des données à partir de modèles. 
+
+
 
 
 ## Fonctions générales 
@@ -56,7 +62,7 @@ Il s\'agit d\'une liste étendue, mais non complète, des fonctionnalités que F
 
 -   **Opérations de modification** graphiques. Freecad permet d\'effectuer des translations, rotations, mises à l\'échelle, symétries axiale, décalage (soit simple soit comme ici [Jung/Shin/Choi](https://www.researchgate.net/publication/240754626_Self-intersection_Removal_in_Triangular_Mesh_Offsetting)) ou la conversion de forme dans n\'importe quel plan de l\'espace 3D.
 
--   **[Géométrie Solide Constructive](Constructive_solid_geometry/fr.md) (opérations booléennes)** comme **union**, **différence** et **intersection**.
+-   **[Géométrie de construction de solides ](Constructive_solid_geometry/fr.md) (opérations booléennes)** comme **union**, **différence** et **intersection**.
 
 -   **Création graphique de géométrie planaire**. Des lignes, des polylignes, des rectangles, des B-splines et des arcs circulaires ou elliptiques peuvent être créés graphiquement dans n\'importe quel plan de l\'espace 3D.
 
@@ -87,6 +93,8 @@ Il s\'agit d\'une liste étendue, mais non complète, des fonctionnalités que F
 -   **Créateur de miniatures**. (actuellement seul le système Linux le permet) les icônes des documents FreeCAD représentent le contenu du fichier dans la plupart des gestionnaires de fichiers, comme par exemple Nautilus sous GNOME.
 
 -   **Un installeur modulaire MSI**. L\'installeur de Freecad permet une installation flexible sur les systèmes Windows. Les paquets pour les systèmes Ubuntu sont également maintenus.
+
+
 
 ## Ateliers externes 
 

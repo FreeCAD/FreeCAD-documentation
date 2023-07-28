@@ -5,6 +5,8 @@ Preferencje dla środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) możn
 
 Dostępne jest tam pięć zakładek: [Ustawienia ogólne](#Ustawienie_og.C3.B3lne.md), [Ustawienia interfejsu użytkownika](#Ustawienia_interfejsu_u.C5.BCytkownika.md), [Siatka i przyciąganie](#Siatka_i_przyci.C4.85ganie.md), [Ustawienia wyglądu](#Ustawienia_wygl.C4.85du.md) oraz [Teksty i wymiary](#Teksty_i_wymiary.md).
 
+
+
 ## Ustawienie ogólne 
 
 W zakładce *Ustawienia ogólne* można zdefiniować następujące parametry:
@@ -88,6 +90,8 @@ W zakładce *Ustawienia ogólne* można zdefiniować następujące parametry:
 
 ![](images/Preferences_Draft_Tab_General_settings.png )
 
+
+
 ## Ustawienia interfejsu użytkownika 
 
 W zakładce *Ustawienia interfejsu użytkownika* można zdefiniować następujące parametry:
@@ -157,7 +161,7 @@ W zakładce *Ustawienia interfejsu użytkownika* można zdefiniować następują
 | **Globalnie**                                |                                                                                                                                                                                                                                                                                              |
 |                                                       |                                                                                                                                                                                                                                                                                              |
 +++
-|                                           | Skrót do naciśnięcia przycisku **Cofnij**. Niedostępne w FreeCAD {{VersionMinus/pl|0.19}}.                                                                                                                                                                |
+|                                           | Skrót do naciśnięcia przycisku **Cofnij**.                                                                                                                                                                                                                              |
 | **Cofnij**                                   |                                                                                                                                                                                                                                                                                              |
 |                                                       |                                                                                                                                                                                                                                                                                              |
 +++
@@ -199,6 +203,8 @@ W zakładce *Ustawienia interfejsu użytkownika* można zdefiniować następują
 +++
 
 ![](images/Preferences_Draft_Tab_User_interface_settings.png )
+
+
 
 ## Siatka i przyciąganie 
 
@@ -306,6 +312,8 @@ W zakładce *Siatka i przyciąganie* można zdefiniować następujące parametry
 
 ![](images/Preferences_Draft_Tab_Grid_and_snapping.png )
 
+
+
 ## Ustawienia wyglądu 
 
 W zakładce *Ustawienia wyglądu* można zdefiniować następujące parametry:
@@ -340,10 +348,6 @@ W zakładce *Ustawienia wyglądu* można zdefiniować następujące parametry:
 +++
 |                                                                       | Jeżeli opcja ta jest zaznaczona, to podczas operacji rysowania pojawi się widżet wskazujący aktualną orientację płaszczyzny roboczej.                                                                                                                                       |
 | **Wyświetlaj śledzenie płaszczyzny roboczej**                            |                                                                                                                                                                                                                                                                             |
-|                                                                                   |                                                                                                                                                                                                                                                                             |
-+++
-|                                                                       | Przestarzałe. Szablon używany przez polecenie [Projekt rysunku](Draft_Drawing/pl.md).                                                                                                                                                                               |
-| **Domyślny szablon arkusza**                                             |                                                                                                                                                                                                                                                                             |
 |                                                                                   |                                                                                                                                                                                                                                                                             |
 +++
 |                                                                       | Katalog z niestandardowymi wzorami SVG. Wybierz plik w katalogu, a następnie usuń nazwę pliku w polu wprowadzania preferencji, pozostawiając tylko ścieżkę.                                                                                                                 |
@@ -382,6 +386,8 @@ W zakładce *Ustawienia wyglądu* można zdefiniować następujące parametry:
 +++
 
 ![](images/Preferences_Draft_Tab_Visual_settings.png )
+
+
 
 ## Teksty i wymiary 
 

@@ -20,11 +20,15 @@
 
 </div>
 
+
+
 ## Введение
 
 Данный пример предназначен для того, чтобы показать, как выглядит простой анализ методом конечных элементов (МКЭ/FEA) в [верстаке FEM](FEM_Workbench/ru.md) в интерфейсе FreeCAD, и как можно визуализировать результаты. Показывается, как запустить (МКЭ) и как изменить значение нагрузки и направление нагрузки. Более того, поскольку файл примера предоставляется при любой установке FreeCAD, это полезная и простая проверка, позволяющая убедиться в правильности настройки верстака FEM.
 
 <img alt="" src=images/FEM_example01_pic10.png  style="width:700px;">
+
+
 
 ## Требования
 
@@ -39,7 +43,11 @@
 
 </div>
 
+
+
 ## Настройка файла примера 
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -60,6 +68,8 @@
 
 <img alt="" src=images/FEM_example01_pic11.png  style="width:700px;">
 
+
+
 ### Активация контейнера для анализа 
 
 
@@ -72,6 +82,8 @@
 </div>
 
 <img alt="" src=images/FEM_example01_pic12.png  style="width:700px;">
+
+
 
 ### Контейнер для анализа и его объекты 
 
@@ -93,6 +105,8 @@
 
 </div>
 
+
+
 ### Визуализация результатов 
 
 
@@ -112,10 +126,14 @@
 
 <img alt="" src=images/FEM_example01_pic13.png  style="width:400px;">
 
+
+
 ### Удаление результатов расчета 
 
 -   Убедитесь, что анализ активирован.
 -   Чтобы удалить результаты, выберите значок на панели инструментов <img alt="" src=images/FEM_PurgeResults.png  style="width:32px;"> [Purge results](FEM_ResultsPurge/ru.md).
+
+
 
 ### Запуск анализа конечных элементов 
 
@@ -137,6 +155,8 @@
 
 <img alt="" src=images/FEM_example01_pic14.png  style="width:400px;">
 
+
+
 ### Быстрый запуск анализа конечных элементов 
 
 
@@ -148,6 +168,8 @@
 
 
 </div>
+
+
 
 ### Изменение прилагаемой силы и направления нагрузки 
 
@@ -182,6 +204,8 @@
 
 <img alt="" src=images/FEM_example01_pic16.png  style="width:400px;">
 
+
+
 ## Что дальше? 
 
 
@@ -195,9 +219,11 @@
 </div>
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM CalculiX Cantilever 3D/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CalculiX Cantilever 3D/ru

@@ -45,7 +45,8 @@ Feel free to signal any errors or problems in this forum thread: [New Part Desig
 -   The color mentioned above is a default color, it can be changed in the preferences. The same applies to the other colors mentioned in this tutorial.
 -   You exit a Sketcher drawing tool by pressing the **Esc** key or by right-clicking an empty area of the [3D view](3D_view.md). The mouse cursor will change to the standard arrow cursor. If you press **Esc** an additional time you will exit sketch edit mode. To return to the editor, click the Model tab, then either double-click the Sketch element in the [Tree view](Tree_view.md), or right-click it and select **Edit sketch** from the context menu. To avoid leaving edit mode when pressing **Esc** too often, change the **Esc can leave sketch edit mode** preference, see [Sketcher Preferences](Sketcher_Preferences#General.md).
 -   It\'s possible that some elements in a task panel, for instance the **OK** button, are not visible if the panel is not wide enough. You can make it wider by dragging its right border. Place your mouse pointer over the border, when the pointer changes to a two-way arrow, hold down the left mouse button and drag.
--   During the v0.21/v1.0 development cycle a new icon was introduced for the [Sketcher Create polyline](Sketcher_CreatePolyline.md) tool: <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:24px;">. The old icon looks like this: <img alt="" src=images/Sketcher_CreatePolyline_rel_0.20.svg  style="width:24px;">. In this tutorial we will use the new icon.
+-   A **&gt;&gt;** button in a toolbar indicates that the toolbar is truncated. You can either use the mentioned button to expand it, or move the toolbar to a position where more room is available. To move a toolbar place your mouse pointer over the grip before the first icon in the toolbar, hold down the left mouse button and drag.
+-   During the v0.21 development cycle a new icon was introduced for the [Sketcher Create polyline](Sketcher_CreatePolyline.md) tool: <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:24px;">. The old icon looks like this: <img alt="" src=images/Sketcher_CreatePolyline_rel_0.20.svg  style="width:24px;">. In this tutorial we will use the new icon.
 -   See [Part Design Workbench Concepts](Part_and_PartDesign#PartDesign_Workbench_Concepts.md) for some conceptual background.
 -   See the [Sketcher WorkBench](Sketcher_Workbench.md) for a more detailed explanation of some of the terminology used here.
 
@@ -82,7 +83,7 @@ The master sketch contains the model\'s rectangular base shape and two **named c
     -   The dimensions of the rectangle are unimportant at this point. They will be assigned using constraints in a later step.
 4.  Once done, press **Esc** or right-click to exit the tool.
 
-**Step C: Assign a horizontal constraint**
+**Step C: Assign a horizontal distance constraint**
 
 1.  Select the line defined by **P2** and **P3** in **Fig: MS3**.
 2.  Click <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Horizontal distance constraint](Sketcher_ConstrainDistanceX.md):
@@ -101,7 +102,7 @@ The master sketch contains the model\'s rectangular base shape and two **named c
 3.  Click <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> [Symmetrical constraint](Sketcher_ConstrainSymmetric.md).
 4.  You will end up with something that resembles **Fig: MS5**.
 
-**Step E: Assign a vertical constraint**
+**Step E: Assign a vertical distance constraint**
 
 :   Assign a vertical distance constraint following the same procedure as used for the previous horizontal distance constraint:
 
@@ -227,7 +228,7 @@ For the corner cutouts two features are added to the model. A [pocket](PartDesig
 3.  Click <img alt="" src=images/Sketcher_External.svg  style="width:24px;"> [External geometry](Sketcher_External.md).
 4.  While the tool is active the cursor has this appearance:
     ![](images/Pd_tut_eg_cursor.png )
-5.  Select point **P1** in **Fig: CC2**. The selected point is added to the sketch as external geometry. In the **Elements** section of the task panel it will appear with a purple X icon or, <small>(v1.0)</small> , a purple dot icon.
+5.  Select point **P1** in **Fig: CC2**. The selected point is added to the sketch as external geometry. In the **Elements** section of the task panel it will appear with a purple X icon or, <small>(v0.21)</small> , a purple dot icon.
 6.  With the tool still active select point **P2** in **Fig: CC2**. This external geometry should also appear in the **Elements** section.
 7.  Exit the tool.
 8.  Select point **P1** and point **P3** and apply a <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> [Vertical constraint](Sketcher_ConstrainVertical.md). The rectangle will be aligned with the X position of **P1**.

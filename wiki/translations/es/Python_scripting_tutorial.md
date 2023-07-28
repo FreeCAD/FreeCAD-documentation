@@ -1,6 +1,8 @@
 # Python scripting tutorial/es
 {{TOCright}}
 
+
+
 ## Introducción
 
 [Python](http://es.wikipedia.org/wiki/Python) es un lenguaje de programación relativamente fácil de aprender y comprender. Es de código abierto y multiplataforma, y puede utilizarse para muchos fines: desde simples scripts de shell hasta programas muy complejos. Pero su uso más extendido es como lenguaje de scripting incrustado en otras aplicaciones. Así es como se utiliza dentro de FreeCAD. Desde la [Consola de Python](Python_console/es.md), o desde scripts personalizados, puedes controlar FreeCAD y hacer que realice operaciones muy complejas.
@@ -30,6 +32,8 @@ Luego vaya a **Vista → Paneles** y compruebe:
 
 -    **Vista de informe**.
 
+
+
 ## Escribiendo código en Python 
 
 Existen dos modos sencillos de escribir código de Python en FreeCAD: Desde la consola de Python (disponible en el menú Vista -\> Vistas -\> Consola de Python) o desde el editor de macros (Herramientas -\> Macros). En la consola, escribes comandos de Python uno a uno, que son ejecutados al presionar Enter, mientras que las macros pueden contener archivos de guión más completos formados por varias líneas, que se ejecutan sólo cuando la macro es ejecutada.
@@ -37,7 +41,7 @@ Existen dos modos sencillos de escribir código de Python en FreeCAD: Desde la c
 ![](images/Screenshot_pythoninterpreter.jpg ) 
 *La consola FreeCAD Python*
 
-En este tutorial se pueden utilizar ambos métodos. Puede copiar-pegar cada línea en la consola Python y luego presionar **Enter**, o copiar-pegar todo el código en una nueva ventana de Macro. {{Top}}
+En este tutorial se pueden utilizar ambos métodos. Puede copiar-pegar cada línea en la consola Python y luego presionar 
 
 ## Explorando FreeCAD 
 
@@ -59,7 +63,13 @@ Si escribe esto en la consola de FreeCAD Python, notará que en cuanto teclee `F
 ![](images/Screenshot_classbrowser.jpg ) 
 *El mecanismo de autocompletar de la consola Python de FreeCAD*
 
+
+<div class="mw-translate-fuzzy">
+
 Ahora nuestro nuevo documento se creará. Esto es similar a presionar el botón \"Nuevo documento\" en la barra de herramientas. En realidad, la mayoría de botones en FreeCAD no hacen nada más que ejecutar una línea o dos de código en Python. Aún mejor, puedes establecer una opción en Editar -\> Preferencias -\> General -\> Macro para \"mostrar los comandos de los archivos de guión en la consola de Python\". Esto mostrará en la consola todo el código de Python ejecutado cuando presionas los botones. Muy útil para aprender como reproducir acciones en Python.
+
+
+</div>
 
 Ahora volvamos a nuestro documento y veamos qué podemos hacer con él:
 
@@ -130,6 +140,8 @@ Traducción realizada con la versión gratuita del traductor www.DeepL.com/Trans
 
 {{Top}}
 
+
+
 ## Vectores y ubicaciones 
 
 Los [vectores](http://es.wikipedia.org/wiki/Vector) son un concepto muy fundamental en cualquier aplicación 3D. Son una lista de 3 números (X, Y y Z), describiendo un punto o posición en el espacio 3D. Un montón de cosas se pueden hacer con los vectores, como sumas, restas, proyecciones y [mucho más](http://es.wikipedia.org/wiki/Espacio_vectorial). En FreeCAD los vectores funcionan así:
@@ -155,7 +167,7 @@ otherpla = FreeCAD.Placement()
 box.Placement = otherpla
 ```
 
-Ahora deberías comprender varios conceptos importantes antes de continuar avanzando. {{Top}}
+Ahora deberías comprender varios conceptos importantes antes de continuar avanzando. 
 
 ## App y Gui 
 
@@ -177,7 +189,7 @@ vo.hide()
 vo.show()
 ```
 
-Cuando se inicia FreeCAD, la consola de Python ya carga dos módulos base: `FreeCAD` y `FreeCADGui` (a los que también se puede acceder por sus accesos directos `App` y `Gui`). Contienen todo tipo de funcionalidades genéricas para trabajar con documentos y sus objetos. Para ilustrar nuestro concepto, veamos que tanto `FreeCAD` como `FreeCADGui` contienen un atributo `ActiveDocument`, que es el documento actualmente abierto. `FreeCAD.ActiveDocument` y `FreeCADGui.ActiveDocument` no son el mismo objeto. Son los dos componentes de un documento de FreeCAD, y contienen diferentes atributos y métodos. Por ejemplo, `FreeCADGui.ActiveDocument` contiene `ActiveView`, que es la [Vista 3D](3D_view/es.md) actualmente abierta. {{Top}}
+Cuando se inicia FreeCAD, la consola de Python ya carga dos módulos base: 
 
 ## Módulos
 
@@ -200,7 +212,7 @@ import Part
 Part.
 ```
 
-Pero ya hablaremos más adelante del módulo de Piezas. {{Top}}
+Pero ya hablaremos más adelante del módulo de Piezas. 
 
 
 <div class="mw-translate-fuzzy">
@@ -230,7 +242,7 @@ doc.recompute()
 
 Este es un ejemplo estándar que utiliza el método `createSphere()` para crear una esfera, pero también puedes crear mallas personalizadas desde cero definiendo sus vértices y caras.
 
-[Leer más sobre guionización de malla\...](Mesh_Scripting/es.md) {{Top}}
+[Leer más sobre guionización de malla\...](Mesh_Scripting/es.md) 
 
 
 <div class="mw-translate-fuzzy">
@@ -267,7 +279,7 @@ Part.show(myshape)
 
 Al explorar el contenido de myshape, notarás muchos subcomponentes interesantes como `Faces`, `Edges`, `Vertexes`, `Solids` y `Shells`, y una amplia gama de operaciones de geometría como `cut` (sustracción), `common` (intersección) o `fuse` (unión). En la página [Guionización de topología de datos](Topological_data_scripting/es.md) se explica todo esto en detalle.
 
-[ Leer más sobre guionización pieza\...](Topological_data_scripting/es.md) {{Top}}
+[ Leer más sobre guionización pieza\...](Topological_data_scripting/es.md) 
 
 
 <div class="mw-translate-fuzzy">
@@ -293,6 +305,8 @@ Draft.move(box, mvec)
 
 {{Top}}
 
+
+
 ## Interfaz
 
 La interfaz de usuario de FreeCAD está creada con [Qt](http://es.wikipedia.org/wiki/Qt_(biblioteca)), un poderoso sistema de interfaces gráficas, responsable de dibujar y manejar todos los controles, menús, barras de herramientas y botones en toda la vista 3D. Qt proporciona un módulo, denominado PyQt, que permite a Python acceder y modificar interfaces Qt, como la de FreeCAD. Vamos a tratar de lidiar con la interfaz de Qt y producir un letrero de diálogo simple:
@@ -307,13 +321,30 @@ Observa que el diálogo que aparece tiene el icono de FreeCAD en su barra de her
 
 Qt es un sistema de interfaz muy potente que permite hacer cosas muy complejas. También tiene algunas herramientas fáciles de usar como el Qt Designer con el que puedes diseñar diálogos gráficamente y luego añadirlos a la interfaz de FreeCAD con unas pocas líneas de código Python.
 
-[Lee más sobre PySide aquí\...](PySide/es.md) {{Top}}
+[Lee más sobre PySide aquí\...](PySide/es.md) 
 
 ## Macros
 
 Ahora que tienes una buena comprensión de los conceptos básicos, a dónde vamos para mantener nuestros archivos de guión en Python, y cómo vamos a ejecutarlos fácilmente desde FreeCAD? Existe un sencillo mecanismo para ello, denominado [Macros](Macros/es.md). Una macro es simplemente un archivo de guión en Python, que puede ser añadida a una barra de herramientas y lanzada desde un simple clic de ratón. FreeCAD proporciona un simple editor de textos (Macro -\> Macros -\> Crear) donde puedes escribir o pegar archivos de guión. Una vez esté terminado, Herramientas -\> Personalizar -\> Macros te permite definir un botón para ella, que se puede añadir a las barras de herramientas.
 
-Ahora estás listo para profundizar en guionización FreeCAD. Así que dirígete al [Centro usuarios avanzados](Power_users_hub/es.md)! {{Top}}
+## External scripts 
+
+An alternative method for creating, saving, and running your own Python scripts is to create them outside FreeCAD, using an editor of your choice (for example, Vim). To run your Python script inside FreeCAD, be sure to save it with the **.py** extension.
+
+Then use **File → Open** to open your script. It will load into a new tab in the [Main view area](Main_view_area.md). You can run your script by clicking the **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Execute macro](Std_DlgMacroExecuteDirect.md)** button. Any errors or script output will be shown in the [Report view](Report_view.md).
+
+When you make and save any modifications to your already-loaded script, a dialog box will appear asking whether you want to reload the modified script into FreeCAD.
+
+
+<div class="mw-translate-fuzzy">
+
+Ahora estás listo para profundizar en guionización FreeCAD. Así que dirígete al [Centro usuarios avanzados](Power_users_hub/es.md)!
+
+
+</div>
+
+
+{{Top}}
 
 
 

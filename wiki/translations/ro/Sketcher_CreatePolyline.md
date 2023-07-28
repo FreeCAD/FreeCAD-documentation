@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -24,6 +26,8 @@ Această unealtă funcționează ca un instrument [Sketcher CreateLine](Sketcher
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

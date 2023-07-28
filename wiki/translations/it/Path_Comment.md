@@ -5,9 +5,19 @@
 
 </div>
 
+
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questo strumento inserisce un commento. Quando si esporta un progetto di codice G, i commenti sono inseriti nel programma di codice G, e possono essere letti da chi legge il file. Alcuni controller della macchina mostrano anche i commenti sullo schermo.
+
+
+</div>
+
+
 
 ## Utilizzo
 
@@ -20,6 +30,8 @@ Questo strumento inserisce un commento. Quando si esporta un progetto di codice 
 
 
 </div>
+
+
 
 ## Proprietà
 

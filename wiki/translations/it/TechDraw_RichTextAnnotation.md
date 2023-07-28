@@ -13,14 +13,36 @@
 
 </div>
 
+
+
 ## Descrizione
+
+
+<div class="mw-translate-fuzzy">
 
 Lo strumento Blocco di testo aggiunge un blocco di annotazione formattato a una [Linea guida](TechDraw_LeaderLine/it.md) o ad una vista.
 
-<img alt="" src=images/TechDraw_RichTextBlock_sample.png  style="width:220px;"> 
+
+</div>
+
+<img alt="" src=images/TechDraw_RichTextBlock_sample.png  style="width:220px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Blocco di testo indipendente*
 
+
+</div>
+
+
+
 ## Utilizzo
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Premere il pulsante **<img src="images/TechDraw_RichTextAnnotation.svg" width=16px> [Blocco di testo](TechDraw_RichTextAnnotation/it.md)**.
 2.  Si apre una finestra di dialogo delle azioni che consente l\'immissione rapida del testo.
@@ -28,7 +50,27 @@ Lo strumento Blocco di testo aggiunge un blocco di annotazione formattato a una 
 4.  Dopo aver creato il blocco, è possibile modificarlo facendo doppio clic su RichTextBlock nella struttura.
 5.  Per collegare il blocco a una [Linea guida](TechDraw_LeaderLine/it.md), selezionare la linea prima di avviare lo strumento Blocco di testo.
 
+
+</div>
+
+
+
+## Note
+
+
+<div class="mw-translate-fuzzy">
+
+-   È possibile modificare il Blocco di testo facendo doppio clic su di esso nella vista ad albero. Il doppio clic nell\'area grafica non è ancora supportato.
+
+
+</div>
+
+
+
 ## Proprietà
+
+
+<div class="mw-translate-fuzzy">
 
 -    **X,Y**: la posizione del blocco. Relativa alla fine della linea se collegato a una [Linea guida](TechDraw_LeaderLine/it.md), altrimenti questa è la posizione sulla pagina.
 
@@ -37,6 +79,11 @@ Lo strumento Blocco di testo aggiunge un blocco di annotazione formattato a una 
 -    **MaxWidth**: limita la dimensione orizzontale del blocco. Il valore di -1 è per larghezza illimitata.
 
 -    **AnnoText**: il testo HTML del blocco.
+
+
+</div>
+
+
 
 ## Script
 
@@ -69,10 +116,6 @@ blockObj.X = 5
 blockObj.Y = 5
 blockObj.AnnoText = myHTMLText
 ```
-
-## Note
-
--   È possibile modificare il Blocco di testo facendo doppio clic su di esso nella vista ad albero. Il doppio clic nell\'area grafica non è ancora supportato.
 
 
 <div class="mw-translate-fuzzy">

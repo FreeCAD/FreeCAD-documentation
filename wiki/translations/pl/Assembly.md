@@ -1,50 +1,58 @@
 # Assembly/pl
-## Introduction
+## Wprowadzenie
 
 
 {{TOCright}}
 
-In FreeCAD the word \"[Assembly](Assembly.md)\" is normally used to refer to a [3D model](model.md) that is composed of several distinguishable parts, that are put together in some way to create a functional object, just like real life products are made.
+W FreeCAD słowo **Złożenie** jest zwykle używane w odniesieniu do modelu [3D](Model/pl.md), który składa się z kilku rozróżnialnych części, które są połączone ze sobą w jakiś sposób, aby stworzyć funkcjonalny obiekt, tak jak powstają prawdziwe produkty.
 
-For example, a bolt, a washer and a nut are three separate bodies that when put together comprise an assembly.
+Na przykład śruba, podkładka i nakrętka to trzy oddzielne elementy, które po połączeniu tworzą złożenie.
 
 <img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width:" height="200px;">
 
 
 
-*Left: three individual contiguous solids, each of them modelled by a [PartDesign Body](PartDesign_Body.md). Right: the individual Bodies put together inside a [Std Part](Std_Part.md) to create an assembly.*
+*Z lewej: trzy pojedyncze przylegające bryły, każda z nich modelowana przez [Zawartość](PartDesign_Body/pl.md) środowiska Projekt Części. Z prawej: poszczególne bryły zestawione razem w [Część](Std_Part/pl.md), aby stworzyć złożenie.*
 
-## Usage
 
-### Manual assembly 
 
-In general terms, you don\'t need special tools to create assemblies, you just need to have many different [bodies](Body.md) arranged in some way.
+## Użycie
 
-To position the bodies where you want them, you can
 
--   use the [Std TransformManip](Std_TransformManip.md) tool,
--   use the <img alt="" src=images/Std_Placement.svg  style="width:16px;"> [Std Placement](Std_Placement.md) dialog, or
--   modify the [placement](Placement.md) property directly in the [property editor](Property_editor.md).
 
-You may use one of the pseudo-assembly [external workbenches](external_workbenches.md), like Lattice2, Manipulator, Part-o-magic, or WorkFeature, to help you find intersections, measure distances, and distribute your objects in the desired way.
+### Montaż manualny 
 
-In general, the **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)** object was designed to serve as the basic building block to create assemblies. This object is used to group several [bodies](body.md) and move them together as a unit, that is, as a sub-assembly. Then this sub-assembly can be placed next to, or used inside of other sub-assemblies in order to create the final assembly.
+Ogólnie rzecz biorąc, nie potrzebujesz specjalnych narzędzi do tworzenia złożeń, wystarczy, że będziesz miał wiele różnych [Zawartości](Body/pl.md) poukładanych w określony sposób.
 
-### Constrained assembly 
+Aby ustawić ciała tam, gdzie chcesz, możesz
 
-You can also use a dedicated assembly workbench, like <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench.md), <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench.md), or <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench.md). Please note that [Assembly2](Assembly2_Workbench.md) is unmaintained, so it is not recommended for new models.
+-   użyć narzędzia [Przemieszczenie](Std_TransformManip/pl.md),
+-   użyć narzędzia <img alt="" src=images/Std_Placement.svg  style="width:16px;"> [Umiejscowienie](Std_Placement/pl.md) okna dialogowego, lub.
+-   zmodyfikować właściwość [Umiejscowienie](Placement/pl.md) bezpośrednio w [edytorze właściwości](Property_editor/pl.md).
 
-The assembly workbenches use constraints and expressions to create relationships between the objects in your model, in order to mathematically tie the objects in place, for example, \"this face should stick to this other face\", \"this cylinder should be concentric to that circle\", \"this point should follow this edge\", etc.
+Możesz użyć jednego z pseudo-montaży [środowisk zewnętrznych](External_workbenches/pl.md), takich jak Lattice2, Manipulator, Part-o-magic lub WorkFeature, aby pomóc Ci znaleźć przecięcia, zmierzyć odległości i rozmieścić obiekty w pożądany sposób.
 
-This is an advanced usage of the software that is normally used in complex mechanical systems. If your [model](model.md) is not very complex, then using an assembly workbench may not be necessary.
+Ogólnie rzecz biorąc, obiekt **[<img src=images/Std_Part.svg style="width:16px"> [Część](Std_Part/pl.md)** został zaprojektowany tak, aby służył jako podstawowy budulec do tworzenia złożeń. Obiekt ten służy do grupowania kilku [Zawartości](Body/pl.md) i przenoszenia ich razem jako jednostki, czyli jako podzespołu. Następnie ten podzespół może być umieszczony obok lub użyty wewnątrz innych podzespołów, aby stworzyć ostateczne złożenie.
 
-## Notes
 
-As of FreeCAD 0.19, there is no official assembly workbench included by default with the system. Assembly workbenches are difficult to program because many problems need to be solved regarding the efficient use of [bodies](Body.md) and [parts](Part.md) in your model. Nevertheless, the introduction of the [App Link](App_Link.md) object has improved the situation.
 
-Please note that assembly workbenches are generally incompatible with each other. If you create an assembly with one of these workbenches, you should stick to it, and not use another assembly workbench to work with the same document.
+### Złożenie z więzami 
 
-The assembly workbenches continue development, and it is expected that at some point one assembly workbench will emerge as the \"official\" one. This could happen by promoting one of the current assembly workbenches, or by combining them to produce a more complete solution.
+Można też użyć dedykowanego środowiska pracy do złożeń, jak <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench/pl.md), <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Złożenie 3](Assembly3_Workbench/pl.md), czy <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Złożenie 4](Assembly4_Workbench/pl.md). Należy pamiętać, że [Złożenie 2](Assembly2_Workbench/pl.md) nie jest utrzymywany, więc nie jest zalecany dla nowych modeli.
+
+Środowiska pracy złożeń wykorzystują wiązania i wyrażenia do tworzenia relacji między obiektami w modelu, aby matematycznie powiązać obiekty w miejscu, na przykład: \"ta ściana powinna przylegać do tej drugiej ściany\", \"ten walec powinien być współśrodkowy z tym okręgiem\", \"ten punkt powinien podążać za tą krawędzią\" itp.
+
+Jest to zaawansowane wykorzystanie oprogramowania, które jest zwykle używane w złożonych systemach mechanicznych. Jeśli twój [model](Model/pl.md) nie jest bardzo skomplikowany, to użycie środowiska do złożeń może nie być konieczne.
+
+
+
+## Uwagi
+
+Od wersji FreeCAD 0.19 nie ma oficjalnego środowiska pracy dla złożeń, które byłoby domyślnie dołączone do systemu. Środowiska pracy złożeń są trudne do zaprogramowania, ponieważ trzeba rozwiązać wiele problemów dotyczących efektywnego wykorzystania obiektu [Zawartości](Body/pl.md) i [Części](Part/pl.md) w modelu. Niemniej jednak, wprowadzenie obiektu [App Link](App_Link/pl.md) poprawiło sytuację.
+
+Zauważ, że środowiska złożeń są z reguły niekompatybilne między sobą. Jeśli stworzysz złożenie w jednym z nich, powinieneś trzymać się oryginalnego środowiska, i nie używać innego w tym samym dokumencie.
+
+Środowiska pracy złożeń wciąż się rozwijają i oczekuje się, że w pewnym momencie jedno z nich pojawi się jako \"oficjalne\". Mogłoby się to stać poprzez promocję jednego z obecnych stanowisk do tworzenia złożeń, lub poprzez ich połączenie w celu stworzenia bardziej kompletnego rozwiązania.
 
 
 {{Std Base navi

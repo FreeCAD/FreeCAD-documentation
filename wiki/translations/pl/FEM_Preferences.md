@@ -7,12 +7,43 @@ Obecnie obsługiwane są następujące solvery zewnętrzne:
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [CalculiX](FEM_SolverCalculixCxxtools/pl.md)
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Elmer](FEM_SolverElmer/pl.md)
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Mystran](FEM_SolverMystran/pl.md) {{Version/pl|0.20}}
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Mystran](FEM_SolverMystran/pl.md) 
+*({{Version/pl|0.20}})*
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Z88](FEM_SolverZ88/pl.md)
+
+
 
 ## Ogólne
 
 W zakładce *Ogólne* można wybrać następujące opcje:
+
++++
+| Nazwa                                                                  | Opis                                                                                                                                                  |
++========================================================================+=======================================================================================================================================================+
+|                                                         | Miejsce w systemie plików gdzie powinny być przechowywane pliki siatki i solvera.                                                                     |
+| **Katalog roboczy**                                        |                                                                                                                                                       |
+|                                                                     |                                                                                                                                                       |
++++
+|                                                         | Jeśli istnieje kilka siatek, zostaną one pogrupowane.                                                                                                 |
+| **Utwórz grupy siatek**                                    |                                                                                                                                                       |
+|                                                                     |                                                                                                                                                       |
++++
+|                                                         | Istniejące obiekty [wyników](FEM_ResultShow/pl.md) zostaną zachowane, w przeciwnym razie zostaną nadpisane przez nowy przebieg solvera.       |
+| **Zachowanie wyników przy ponownym uruchomieniu obliczeń** |                                                                                                                                                       |
+|                                                                     |                                                                                                                                                       |
++++
+|                                                         | Jeżeli opcja jest zaznaczona, to okno dialogowe [Pokaż wyniki](FEM_ResultShow/pl.md) zostanie otwarte z ostatnio używanymi ustawieniami okna. |
+| **Przywróć ustawienia okna dialogowego wyników**           |                                                                                                                                                       |
+|                                                                     |                                                                                                                                                       |
++++
+|                                                         | Wiązania zostaną ukryte w widoku modelu, gdy otwarte zostanie okno dialogowe [Pokaż wyniki](FEM_ResultShow/pl.md).                            |
+| **Ukryj wiązania przy otwartym oknie dialogowym wyników**  |                                                                                                                                                       |
+|                                                                     |                                                                                                                                                       |
++++
+|                                                         | Domyślne użyty solver podczas dodawania nowej [Analizy](FEM_Analysis/pl.md). ({{Version/pl|0.21}})                              |
+| **Ustawienia domyślne solvera**                            |                                                                                                                                                       |
+|                                                                     |                                                                                                                                                       |
++++
 
 ![](images/Preference_Fem_Tab_01.png )
 
@@ -45,23 +76,36 @@ W zakładce *CalculiX* można wybrać następujące opcje:
 W zakładce *Elmer* można wybrać następujące opcje:
 
 +++
-| Nazwa                                                              | Opis                                                                                                                                                                        |
-+====================================================================+=============================================================================================================================================================================+
-|                                                     | Jeśli opcja ta jest zaznaczona, FreeCAD będzie szukał plików binarnych narzędzia do zapisu siatki [Elmer](FEM_SolverElmer/pl.md) w znanych *(zwykłych)* katalogach. |
-| **ElmerGrid: Szukaj w znanych katalogach binarnych**   |                                                                                                                                                                             |
-|                                                                 |                                                                                                                                                                             |
+| Nazwa                                                              | Opis                                                                                                                                                                                                                                                                                          |
++====================================================================+===============================================================================================================================================================================================================================================================================================+
+|                                                     | Jeśli opcja ta jest zaznaczona, FreeCAD będzie szukał plików binarnych narzędzia do zapisu siatki [Elmer](FEM_SolverElmer/pl.md) w znanych *(zwykłych)* katalogach.                                                                                                                   |
+| **ElmerGrid: Szukaj w znanych katalogach binarnych**   |                                                                                                                                                                                                                                                                                               |
+|                                                                 |                                                                                                                                                                                                                                                                                               |
 +++
-|                                                     | Ścieżka do pliku binarnego narzędzia do tworzenia siatki [Elmer](FEM_SolverElmer/pl.md).                                                                            |
-| **Ścieżka pliku binarnego ElmerGrid**                  |                                                                                                                                                                             |
-|                                                                 |                                                                                                                                                                             |
+|                                                     | Ścieżka do pliku binarnego narzędzia do tworzenia siatki [Elmer](FEM_SolverElmer/pl.md).                                                                                                                                                                                              |
+| **Ścieżka pliku binarnego ElmerGrid**                  |                                                                                                                                                                                                                                                                                               |
+|                                                                 |                                                                                                                                                                                                                                                                                               |
 +++
-|                                                     | Jeśli opcja ta jest zaznaczona, FreeCAD będzie szukał plików binarnych solvera [Elmer](FEM_SolverElmer/pl.md) w znanych *(zwykłych)* katalogach.                    |
-| **ElmerSolver: Szukaj w znanych katalogach binarnych** |                                                                                                                                                                             |
-|                                                                 |                                                                                                                                                                             |
+|                                                     | Jeśli opcja ta jest zaznaczona, FreeCAD będzie szukał plików binarnych solvera [Elmer](FEM_SolverElmer/pl.md) w znanych *(zwykłych)* katalogach.                                                                                                                                      |
+| **ElmerSolver: Szukaj w znanych katalogach binarnych** |                                                                                                                                                                                                                                                                                               |
+|                                                                 |                                                                                                                                                                                                                                                                                               |
 +++
-|                                                     | Ścieżka do binarnego solvera [Elmer](FEM_SolverElmer/pl.md).                                                                                                        |
-| **Ścieżka pliku binarnego ElmerSolver**                |                                                                                                                                                                             |
-|                                                                 |                                                                                                                                                                             |
+|                                                     | Ścieżka do binarnego solvera [Elmer](FEM_SolverElmer/pl.md).                                                                                                                                                                                                                          |
+| **Ścieżka pliku binarnego ElmerSolver**                |                                                                                                                                                                                                                                                                                               |
+|                                                                 |                                                                                                                                                                                                                                                                                               |
++++
+|                                                     | Liczba rdzeni CPU, które zostaną użyte do wykonania rozwiązania. *\'Ważne:* Elmer dzieli siatkę na porcje. Liczba porcji jest równa liczbie używanych rdzeni procesora. Może to skutkować efektami ubocznymi:                                                                                 |
+| **Liczba rdzeni procesora, do użycia**                 |                                                                                                                                                                                                                                                                                               |
+|                                                                 | -   W zależności od złożoności Twojej siatki mniejsza liczba rdzeni procesora może działać szybciej niż użycie większej liczby rdzeni.                                                                                                                                                        |
+|                                                                    | -   W niektórych przypadkach użycie np. 12 rdzeni nie zapewnia zbieżności, podczas gdy 8 rdzeni będzie działać dobrze. Powodem jest to, że w pewnym momencie części siatki stają się zbyt małe.                                                                                               |
+|                                                                    |                                                                                                                                                                                                                                                                                               |
+|                                                                    | Tak więc często konieczne jest dostosowanie liczby rdzeni, w zależności od siatki.                                                                                                                                                                                                            |
+|                                                                    |                                                                                                                                                                                                                                                                                               |
+|                                                                    | **Znane ograniczenia:** Dla niektórych typów symulacji trzeba najpierw zainstalować moduły Elmera, aby umożliwić wielowątkowość. Sprawdź raport Elmera, aby uzyskać informacje na ten temat. Typowym przypadkiem jest to, że do rozwiązywania bezpośredniego trzeba zainstalować moduł MUMPS. |
++++
+|                                                     | Regiony objętości siatki przetwarzane przez każdy rdzeń procesora zostaną połączone, aby uczynić granice objętości niewidocznymi.                                                                                                                                                             |
+| **Wyniki filtrowania**                                 |                                                                                                                                                                                                                                                                                               |
+|                                                                 |                                                                                                                                                                                                                                                                                               |
 +++
 
 ![](images/Preference_Fem_Tab_05.png )
@@ -113,6 +157,8 @@ W zakładce *Z88* można wybrać następujące opcje:
 +++
 
 ![](images/Preference_Fem_Tab_04.png )
+
+
 
 ## Materiał
 

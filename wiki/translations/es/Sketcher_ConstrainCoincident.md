@@ -14,7 +14,7 @@
 
 ## Description
 
-Affixes a point onto (coincident with) one or more other points. <small>(v1.0)</small> : It acts as a concentric constraint if two or more circles, arcs, ellipses or arcs of ellipses are selected.
+Affixes a point onto (coincident with) one or more other points. <small>(v0.21)</small> : It acts as a concentric constraint if two or more circles, arcs, ellipses or arcs of ellipses are selected.
 
 ## Usage
 

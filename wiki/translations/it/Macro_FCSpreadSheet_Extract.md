@@ -1,7 +1,4 @@
 # Macro FCSpreadSheet Extract/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro_FCSpreadsheet_Extract
 |Icon=Macro_FCSpreadsheet_Extract.png
@@ -15,37 +12,20 @@
 }}
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Questa macro salva i dati di una tabella con le formule in file csv o in un file xml.
+Questa macro salva i dati del foglio di calcolo in file csv con la formula o in un file xml.
 
 
-</div>
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
 Lanciare la macro
-
-
-</div>
 
 ## Script
 
-
-<div class="mw-translate-fuzzy">
-
 L\'icona per la ToolBar da salvare nella stessa cartella della macro ![](images/Macro_FCSpreadsheet_Extract.png )
-
-
-</div>
 
 **Macro_FCSpreadSheet_Extract.FCMacro**
 

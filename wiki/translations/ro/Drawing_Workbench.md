@@ -1,7 +1,10 @@
 # Drawing Workbench/ro
-**Development of the [[Drawing Workbench]]  Elaborarea modulului de desenare a fost oprită și un nou modul  [[TechDraw Workbench]] care intenționează să-l înlocuiască va fi introdus în versiunea 0.17. Ambele module vor fi furnizate în v0.17, dar modulul Desenare poate fi eliminat în versiunile viitoare.**
+**The '''Drawing Workbench''' is no longer included after version 0.20.<br>
+The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement.**
 
 <img alt="Drawing workbench icon" src=images/Workbench_Drawing.svg  style="width:128px;">
+
+
 
 ## Introducere
 
@@ -11,6 +14,8 @@ Modulul de desenare vă permite să puneți lucrul 3D pe hârtie. Adică, pentru
 {{TOCright}}
 
 <img alt="" src=images/Drawing_extraction.png  style="width:600px;">
+
+
 
 ## Instrumente
 
@@ -50,31 +55,62 @@ Documentul conține un obiect 3D (Schenkel) din care dorim să realizăm un dese
 
 În această pagină putem introduce una sau mai multe vizualizări. Fiecare vizualizare are o poziție pe pagină (Proprietăți X, Y), un factor de scară (Scala proprietății) și proprietăți suplimentare. De fiecare dată când pagina sau vizualizarea sau obiectul referință se modifică, pagina este regenerată și actualizarea paginii este actualizată.
 
+
+
 ## Scrip-Programare 
 
 În prezent, fluxul de lucru al interfeței grafice cu utilizatorul este foarte limitat, astfel încât API-ul de scripting este mai interesant.
 
 Consultați pagina [Drawing API example](Drawing_API_example.md) pentru o descriere a funcțiilor utilizate pentru a crea pagini de desen și vizualizări.
 
-Macrocomanda [CartoucheFC](Macro_CartoucheFC.md) vă permite să creați o casetă informativă personalizată pe o pagină A3 landscape.
+
 
 ## Șabloane
 
 FreeCAD este livrat împreună cu un set de șabloane implicite, dar puteți găsi mai multe în pagina [Drawing templates](Drawing_templates.md) .
 
+
+
 ## Extensii la Atelierul de Desen 3D 
 
 Unele note despre partea de programare a modulului de desen vor fi adăugate la pagina [Drawing Documentation](Drawing_Documentation.md) . Acest lucru va ajuta să intelegeți rapid modul în care funcționează modulul de desen, permițând programatorilor sa înceapă rapid programarea pentru aceasta.
+
+
+<div class="mw-translate-fuzzy">
 
 ## Tutoriale
 
 -   [Drawing tutorial](Drawing_tutorial.md)
 
+
+</div>
+
+## Macros
+
+-    <img style="width:16px;" src="images/Macro_Automatic_drawing.png"> [Macro Automatic drawing](Macro_Automatic_drawing.md): Allows the user to get the view of his object in a drawing with 4 different position (front,top,iso,right). Needs some modification to be perfectly effective.
+
+-    <img style="width:16px;" src="images/Macro_CartoucheFC.png"> [Macro CartoucheFC](Macro_CartoucheFC.md): This GUI macro to fill simply all fields of the cartridge of the plan implementation worksheet FreeCAD, the format of the date and the symbol of the projection mode adapt to the EU region or US selected.
+
+-    <img style="width:16px;" src="images/Macro_CartoucheFC_2.png"> [Macro CartoucheFC 2](Macro_CartoucheFC_2.md): This GUI macro to fill simply all fields of the cartridge **model 2** of the plan implementation worksheet FreeCAD.
+
+-    <img style="width:16px;" src="images/Macro_CartoucheFC_Full.png"> [Macro CartoucheFC Full](Macro_CartoucheFC_Full.md): This GUI macro to fill simply all fields of the cartridge [Misc templates Full](Misc_templates_Full.md) of the plan implementation worksheet FreeCAD, the format of the date and the symbol of the projection mode adapt to the EU region or US selected.
+
+-    <img style="width:16px;" src="images/Macro_Corner_shapes_wizard.png"> [Macro Corner shapes wizard/update](Macro_Corner_shapes_wizard/update.md): Pops up a dialog asking for the dimensions of your corner piece, then creates the object in the document and creates a page view with top, front and lateral views of the piece.
+
+## External links 
+
+
+<div class="mw-translate-fuzzy">
+
 ## legături Externe 
 
 -   [Intro to mechanical drawing on Youtube - by Normal Universe](https://www.youtube.com/watch?v=1Hm5Zyjmjac)
 
-!!FUZZY!!{{docnav|Part Workbench|Raytracing Workbench}} {{Drawing Tools navi}} 
+
+</div>
+
+
+
 
 
 {{Drawing Tools navi

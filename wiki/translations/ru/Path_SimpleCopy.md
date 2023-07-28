@@ -16,7 +16,7 @@
 
 ## Description
 
-This tool creates a non-parametric copy of a given path.
+The tool <img alt="" src=images/Path_SimpleCopy.svg  style="width:24px;"> [SimpleCopy](Path_SimpleCopy.md) creates a non-parametric copy of a given path.
 
 ## Usage
 

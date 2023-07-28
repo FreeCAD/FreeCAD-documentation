@@ -11,12 +11,16 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Lo strumento **Vista sezione** crea un piano di sezione che nasconde temporaneamente qualsiasi materia davanti al piano dello schizzo.
 
 <img alt="" src=images/Sketcher_ViewSection1.png  style="width:300px;"> <img alt="" src=images/Sketcher_ViewSection2.png  style="width:320px;"> 
 *Schizzo parzialmente nascosto e schizzo completamente visibile*
+
+
 
 ## Utilizzo
 

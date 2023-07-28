@@ -2,20 +2,22 @@
 - GuiCommand:/de
    Name:TechDraw StackDown
    Name/de:TechDraw StapelNachUnten
-   MenuLocation:TechDraw → Stacking → Move view down one level
+   MenuLocation:TechDraw → Stacking → Ansicht um eine Ebene nach unten bewegen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
-   Version:1.0
+   Version:0.21
    SeeAlso:[TechDraw StapelOberseite](TechDraw_StackTop/de.md), [TechDraw StapelUnterseite](TechDraw_StackBottom/de.md), [TechDraw StapelNachOben](TechDraw_StackUp/de.md)
 ---
 
 # TechDraw StackDown/de
 
+
+
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_StackDown.svg  style="width:24px;"> **TechDraw StackDown** Werkzeug senkt die Ansichten im Stapel um eine Stufe tiefer. Die Stapel Reihenfolge bestimmt die Tiefe der Sichtbarkeit von Ansichten auf einer Seite.
+Das Werkzeug **TechDraw StapelNachUnten** bewegt Ansichten im Stapel um eine Ebene nach unten. Die Stapelreihenfolge bestimmt, welche Ansicht auf dem Zeichnungsblatt dargestellt wird (und welche bei Überschneidung verdeckt wird).
 
-Siehe [TechDraw StackTop](TechDraw_StackTop/de.md).
+Siehe [TechDraw StapelOberseite](TechDraw_StackTop/de.md).
 
 
 

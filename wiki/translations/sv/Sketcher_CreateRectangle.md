@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Beskrivning
 
 This tool draws a rectangle by picking two opposite points. When starting the tool, the mouse pointer changes to a white cross with a red rectangle icon. The coordinates of the pointer are shown beside it in blue in real time.

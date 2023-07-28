@@ -4,19 +4,21 @@
 |Icon=Macro_Screen_Wiki.png
 |Description=Special macro for the Wiki user. This macro allows to save the 3D view in the desired format. The 3D view or the full 3D window of FreeCAD takes the desired dimensions. A rotation of the selected object or of the 3D view is possible to give a rotation angle the number of images is calculated automatically it is possible to give a departure angle and an arrival angle. You must use another Gimp example program to assemble the images and create the animated file.
 |Author=Mario52
-|Version=00.05
-|Date=2021/05/21
-|FCVersion=0.19
+|Version=00.06b
+|Date=2023/06/26
+|FCVersion=0.19 and more
 |Download=Download the [https://wiki.freecadweb.org/images/f/f5/Macro_Screen_Wiki.png Macro_Screen_Wiki.png] image and paste it in the same directory of the macro
 |SeeAlso= <img src="images/Macro_Copy3DViewToClipboard.png" width=24px>[Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md)<br/><img src="images/Snip.png" width=24px> [Macro Snip](Macro_Snip.md)
 }}
+
+
 
 ## Descrição
 
 This macro allows the user save the [3D view](3D_view.md) in a desired format. The 3D view or the full 3D window of FreeCAD takes the desired dimensions. A rotation of the selected object or of the 3D view is possible to give a rotation angle the number of images is calculated automatically it is possible to give a departure angle and an arrival angle. You must use another Gimp example program to assemble the images and create the animated file.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/61571ce0bd41af0471995df7c3ea855f/raw/4fdc5b2db7ed3ed062a2575637e035f728b2e40d/Macro_Screen_Wiki.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/61571ce0bd41af0471995df7c3ea855f/raw/2e2f5d1f30acd9fee9ea58596d0bcaa8d19f03f3/Macro_Screen_Wiki.FCMacro}}
 
 ![](images/Macro_Screen_Wiki_00.png )
 
@@ -189,7 +191,17 @@ This macro allows the user save the [3D view](3D_view.md) in a desired format. T
 3.  
     **+**: Increase the value by 10 degrees
 
--   Number images: The number image saved with the values given is calculated (approximation + 1)
+-   Number images
+
+1.  
+    **-**: Decrease the value by 10 images
+
+2.  
+    {{SpinBox|0 Images (+1)}}: Value
+
+3.  
+    **+**: Increase the value by 10 images
+
 -   Angle Begin Rotation
 
 1.  
@@ -223,9 +235,15 @@ This macro allows the user save the [3D view](3D_view.md) in a desired format. T
     {{CheckBox|Reverse}}: Checked, this option reverses the rotation 3D view or Object
 
 3.  
-    {{CheckBox|TRUE|Original position}}: This option restores the original position of the 3D View or the Object rotated. Instead fo the 3D view or the Object staying in the last position of the rotation.
+    **Point center**: Visualize the point center of rotation, if the point is visible the point is include in the image (PS: the point can be hidden by an object)
 
 4.  
+    {{CheckBox|TRUE|Original position}}: This option restores the original position of the 3D View or the Object rotated. Instead fo the 3D view or the Object staying in the last position of the rotation.
+
+5.  
+    **Test Rot.**: Testing the rotation without saving images
+
+6.  
     **Save the animation**: Save the animation
 
 ## Examples
@@ -261,6 +279,22 @@ This macro allows the user save the [3D view](3D_view.md) in a desired format. T
 *The FreeCAD window resized. The dimension may be different from the definition (depending on the Widget, title bar etc... used.)*
 
 ## Versions
+
+Version=00.06: Version=00.06b: 2023/06/26 : adding select number image, button test rotation, button visualize the point rotation, adding code by wmayer center rotation on center screen :
+
+
+```python
+                #https://forum.freecadweb.org/viewtopic.php?f=22&t=10157
+                cam = Gui.ActiveDocument.ActiveView.getCameraNode()
+                position = cam.position.getValue()
+                orient = cam.orientation.getValue()
+                focalDistance = cam.focalDistance.getValue()
+                viewdir = coin.SbVec3f(0, 0, -1)
+                viewdir = orient.multVec(viewdir)
+                pointRotation = position + viewdir * focalDistance
+                pointRotation = pointRotation2 = App.Vector(pointRotation.getValue()[0], pointRotation.getValue()[1], pointRotation.getValue()[2])
+
+```
 
 Version=00.05: 2021/05/21 : adding code in Save file section for Linux Mint QFileDialog ignore the extension. Only the Path+name is displayed
 

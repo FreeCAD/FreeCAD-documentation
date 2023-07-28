@@ -3,11 +3,17 @@
 
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 Środowisko pracy <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> [Statek](Ship_Workbench/pl.md) jest wykorzystywane do tworzenia struktur, które są wspólne dla statków.
 
+
+
 ## Narzędzia
+
+
 
 ### Projekt statku 
 
@@ -17,6 +23,8 @@
 -   <img alt="" src=images/FreeCAD-Ship-AreaCurveIco.png  style="width:32px;"> [Krzywa powierzchni poprzecznych](Ship_Area/pl.md)
 -   <img alt="" src=images/Ship_Hydrostatics.png  style="width:32px;"> [Hydrostatyka](Ship_Hydrostatics/pl.md)
 
+
+
 ### Obciążenia
 
 -   <img alt="" src=images/FreeCAD-Ship-WeightIco.png  style="width:32px;"> [Waga](Ship_Weight/pl.md)
@@ -25,20 +33,37 @@
 -   <img alt="" src=images/Ship_Loading.png  style="width:32px;"> [Warunki obciążenia](Ship_Loading/pl.md)
 -   <img alt="" src=images/Ship_PlotGZ.png  style="width:32px;"> [Wykres krzywej GZ](Ship_PlotGZ/pl.md)
 
+
+
 ## Poradniki
 
 -   [Poradnik: statek seria 60](FreeCAD-Ship_s60_tutorial/pl.md)
 -   [Poradnik II: statek seria 60](FreeCAD-Ship_s60_tutorial_(II)/pl.md)
 
+
+
 ## Historia
 
 Środowisko pracy Statek nie było utrzymywane od wersji 0.17, ale zostało wskrzeszone w wersji 0.19. Od v0.19 jest ono teraz oznaczone jako [zewnętrzne środowisko pracy](External_workbenches/pl.md), więc nie jest już zawarte w podstawowym systemie. Teraz jest dostępne poprzez [Menadżer dodatków](Std_AddonMgr/pl.md).
+
+
 
 ## Bibliografia
 
 -   Developer: Jose Luis Cercós Pita ([\@sanguinariojoe](https://github.com/sanguinariojoe))
 -   Github: <https://github.com/FreeCAD/freecad.ship>
 -   Dyskusja: <https://forum.freecadweb.org/viewtopic.php?f=8&t=60885>
+
+## Acknowledgments
+
+Wielu deweloperów przyczyniło się do rozwoju tego modułu i chcemy wyrazić im naszą wdzięczność.
+
+-   Cały zespół FreeCAD za działania konserwacyjne przez te wszystkie lata.
+-   Jose Luis Cercós Pita jako główny programista.
+-   Juan Manuel Muñoz-Godin za rozwój narzędzi do przewidywania oporu statku *(Holtrop & Amadeo)*, jako część jego pracy licencjackiej.
+-   Antonio Souto-Iglesias i Jose Luis Cercos-Pita jako doradca i współdoradca Juana Manuela Muñoz-Godina.
+
+Jeśli uważasz, że Twojego nazwiska brakuje na tej liście, dodaj je samodzielnie lub wyślij mi prywatną wiadomość.
 
 
 

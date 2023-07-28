@@ -122,6 +122,8 @@ The slice is created and each piece of it is united in a Compound.
 ̈Noteː Properties are accessible on the slices inner object, not on the result level.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Exemple: making puzzle 
@@ -150,7 +152,7 @@ The slice is created and each piece of it is united in a Compound.
     -   Close the sketch.
         ![320px](images/slice_example_step1.png)
 2.  Switch to <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part workbench](Part_Workbench.md).
-    -   Select the sketch, and pick **Part → Create face from sketch** .
+    -   Select the sketch, and pick **Part → <img src="images/Part_MakeFace.svg" width=24px> [Make face from wires](Part_MakeFace.md)**.
         ![320px](images/slice_example_step2.png)
 3.  Switch back to <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md)
     -   Create another sketch on the same plane.
@@ -176,6 +178,8 @@ Acest instrument a fost introdus în FreeCAD v0.17.8053. FreeCAD și necesită c
 
 
 </div>
+
+
 
 ## Scrip-Programare 
 

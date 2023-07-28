@@ -117,8 +117,6 @@ La plupart des fichiers liés à un solveur sont dans un sous-package du package
 -   **femsolver/elmer/tasks.py:** module contenant une classe de tâches par tâche requise pour une implémentation du solveur. Ces tâches divisent le processus de résolution d'une analyse en plusieurs étapes: vérification, préparation, résolution, résultats.
 -   **femcommands/commands.py:** ajoute l\'objet document du solveur au document actif. Il est nécessaire pour accéder à l\'objet solveur à partir de l\'interface graphique.
 
-Il existe un tutoriel sur l\'ajout d\'un nouveau solveur : [Tutoriel Ajouter un solveur FEM](Sandbox:Add_FEM_Solver_Tutorial/fr.md).
-
 ## Equations
 
 Une équation représente une propriété physique particulière qui doit être prise en compte lors de la résolution de l'analyse (par exemple flux, chaleur). Tous les solveurs de FreeCAD ne supportent pas (toutes) les équations. Les équations sont représentées par des objets enfants du solveur correspondant. Dans l\'arborescence, cela ressemble à ceci:

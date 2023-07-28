@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -34,6 +36,8 @@ Instrumentul Acoperiș vă permite să creați un acoperiș înclinat de la o li
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -65,6 +69,8 @@ Instrumentul Acoperiș vă permite să creați un acoperiș înclinat de la o li
 
 </div>
 
+
+
 ## Opţiuni
 
 
@@ -74,6 +80,8 @@ Instrumentul Acoperiș vă permite să creați un acoperiș înclinat de la o li
 
 
 </div>
+
+
 
 ## Proprietăți
 
@@ -94,6 +102,8 @@ Instrumentul Acoperiș vă permite să creați un acoperiș înclinat de la o li
 
 
 </div>
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">

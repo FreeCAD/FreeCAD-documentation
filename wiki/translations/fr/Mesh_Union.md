@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande **Mesh Union** crée un nouvel objet maillé non paramétrique, un [Mesh Feature](Mesh_Feature/fr.md), qui est l\'Union (fusion) de deux objets maillés.
+La commande **Union** crée un nouvel objet maillé non paramétrique, un [Mesh Feature](Mesh_Feature/fr.md), qui est l\'union (fusion) de deux objets maillés.
 
 [OpenSCAD](http://www.openscad.org/) doit être installé pour utiliser cette commande et le chemin d\'accès à son exécutable doit être défini dans les [Préférences d\'OpenSCAD](OpenSCAD_Preferences/fr.md).
 

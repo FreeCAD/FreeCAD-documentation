@@ -1,7 +1,4 @@
 # Macro Fonts Win10 PYMP/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro Fonts Win10 PYMP
 |Icon=Macro_Fonts_Win10_PYMP.png
@@ -14,7 +11,6 @@
 }}
 
 
-</div>
 
 ## Descrizione
 
@@ -22,6 +18,8 @@ Questa piccola macro è dedicata agli utenti di Windows 10. I font dentro explor
 
 ![](images/Macro_Fonts_Win10_PYMP_00.png ) 
 *Macro Fonts Win10 PYMP*
+
+
 
 ## Utilizzo
 
@@ -53,6 +51,8 @@ Lancia la macro cerca la tua font è applica
 -    **Origin**: ritorna al repertorio sistema delle font
 
 -    **Help**: mostra la pagina wiki nel browser FreeCAD
+
+
 
 ## Configurazione
 
@@ -101,7 +101,7 @@ Lancia la macro cerca la tua font è applica
 
 ## Script
 
-ToolBar Icon ![](images/Macro_Fonts_Win10_PYMP.png )
+Icona barra strumenti ![](images/Macro_Fonts_Win10_PYMP.png )
 
 **Macro Fonts Win10 PYMP.FCMacro**
 
@@ -1141,6 +1141,8 @@ MainWindow.show()
 Il foro [TTF Text Font](https://forum.freecadweb.org/viewtopic.php?t=28900)
 
 Le mie macro sopra [mario52a](https://gist.github.com/mario52a) gists
+
+
 
 ## Versione
 

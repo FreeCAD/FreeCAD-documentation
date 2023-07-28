@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:Path ExportTemplate
-   Name/fr:Path Modèle d'exportation
-   MenuLocation:Path → Modèle d'exportation
+   Name/fr:Path Exporter un modèle
+   MenuLocation:Path → Exporter comme modèle
    Workbenches:[Path](Path_Workbench/fr.md)
    SeeAlso:[Path Feuille de configuration](Path_SetupSheet/fr.md)
 ---
@@ -11,19 +11,26 @@
 
 ## Description
 
-L\'exportation des modèles de travail fournit un mécanisme pratique pour enregistrer les définitions de travail couramment utilisées à partir d\'un travail existant. Cela facilite la configuration des futurs travaux, qui sont en grande partie similaires, en permettant l\'importation de modèles de travail pendant le processus de création de travail.
+L\'outil <img alt="" src=images/Path_ExportTemplate.svg  style="width:24px;"> [Exporter un modèle](Path_ExportTemplate/fr.md) constitue un mécanisme pratique permettant de sauvegarder les définitions de tâches couramment utilisées à partir d\'une tâche existante. L\'importation de modèles de tâches au cours de la procédure de création d\'une tâche facilite la mise en place de futures tâches très similaires.
 
-L\'onglet **Édition → Préférences... → Path → Job Preferences, Defaults → Template** définit le modèle par défaut.
 
-## Usage
+**Édition → Préférences... → Path → Préférences des tâches  → Valeurs par défaut → Modèle**
 
-1.  Sélectionnez l\'option **Path → <img src="images/Path_ExportTemplate.svg" width=16px> Modèle d'exportation** dans le menu.
-2.  Sélectionnez les éléments à inclure dans la boîte de dialogue de configuration **Exportation du modèle de travail**.
+définit le modèle par défaut.
+
+
+
+## Utilisation
+
+1.  Sélectionnez l\'option **Path → <img src="images/Path_ExportTemplate.svg" width=16px> Exporter comme modèle** du menu.
+2.  Sélectionnez les éléments à inclure dans la boîte de dialogue de configuration **Exporter comme modèle**.
 3.  Le modèle doit être enregistré dans le répertoire Macro ou le répertoire Path, tel que configuré dans les [Path Préférences](Path_Preferences/fr.md).
-4.  Le nom du modèle doit suivre le modèle **job_<template name>.json**. Dans la liste déroulante de sélection, le préfixe **job_** et l\'extension sont omis.
+4.  Le nom du modèle doit suivre le modèle **job_<template name>.json**. Lorsqu\'il est affiché dans la liste déroulante de la sélection, le préfixe **job_** et l\'extension sont omis.
 5.  Appuyez sur le bouton **OK** et enregistrez le modèle.
 
 ## Options
+
+
 
 ## Post-traitement 
 
@@ -31,16 +38,22 @@ L\'onglet **Édition → Préférences... → Path → Job Preferences, Defaults
 -   Paramètres du post-processeur
 -   Nom du fichier de sortie
 
+
+
 ## Brut
 
--   Extent : Dimensions du brut
--   Placement : Position du brut
+-   Marge : dimensions du brut
+-   Placement : position du brut
+
+
 
 ## Feuille de réglage 
 
 -   Profondeur d\'usinage
 -   Profondeurs de passe
 -   Vitesses de déplacement de l\'outil
+
+
 
 ## Contrôleurs d\'outils 
 

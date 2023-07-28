@@ -1,39 +1,23 @@
 # Scripted objects/de
 {{TOCright}}
 
+
+
 ## Einführung
 
-
-<div class="mw-translate-fuzzy">
-
-Neben den Standard Objekttypen wie Anmerkungen, Netze und Teileobjekte bietet FreeCAD auch die erstaunliche Möglichkeit, 100% in python geschriebene parametrische Objekte zu erstellen, die als Python Funktionen bezeichnet werden. Diese Objekte verhalten sich genau wie jedes andere FreeCAD Objekt und werden beim Speichern/Laden von Dateien automatisch gespeichert und wiederhergestellt.
-
-
-</div>
+Neben den Standard-Objekttypen wie Beschriftungen, Netze und Bauteilobjekte bietet FreeCAD auch die erstaunliche Möglichkeit, 100% mit Python geschriebene parametrische Objekte zu erstellen, die als [Python-Objekt](App_FeaturePython.md) (App FeaturePython-Objekt) bezeichnet werden. Diese Objekte verhalten sich genau wie jedes andere FreeCAD-Objekt und werden beim Speichern/Laden von Dateien automatisch gespeichert und wiederhergestellt.
 
 Eine Besonderheit muss beachtet werden: Aus Sicherheitsgründen enthalten FreeCAD Dateien niemals eingebetteten Code. Der Python Code, den du zum Erstellen von parametrischen Objekten schreibst, wird niemals innerhalb einer Datei gespeichert. Das bedeutet, dass, wenn du eine Datei, die ein solches Objekt enthält, auf einem anderen Rechner öffnest, wenn dieser Python Code auf diesem Rechner nicht verfügbar ist, das Objekt nicht vollständig neu erstellt wird. Wenn du solche Objekte an andere weitergibst, musst du auch dein Python Skript weitergeben, z. B. als [Makro](Macros/de.md).
 
 **Hinweis**: Es ist möglich, Python Code in eine FreeCAD Datei zu packen, indem man json mit einem App::PropertyPythonObject serialisiert, aber dieser Code kann nie direkt ausgeführt werden und hat daher für unseren Zweck hier wenig Nutzen.
 
-
-<div class="mw-translate-fuzzy">
-
-Python Funktionen folgen der gleichen Regel wie alle FreeCAD Funktionen: Sie sind in App- und einen GUI Teile getrennt. Der App Teil, das Dokument Objekt, definiert die Geometrie unseres Objekts, während sein GUI Teil, das View Provider Objekt, definiert, wie das Objekt auf dem Bildschirm gezeichnet wird. Das Ansichtsprovider Objekt ist, wie jede andere FreeCAD Funktion, nur verfügbar, wenn Sie FreeCAD in seiner eigenen GUI ausführen. Es stehen mehrere Eigenschaften und Methoden zur Verfügung, um Ihr Objekt zu erstellen. Die Eigenschaften müssen zu einem der vordefinierten Eigenschaftstypen gehören, die FreeCAD anbietet, und werden im Eigenschaften Ansichtsfenster angezeigt, damit sie vom Benutzer bearbeitet werden können. Auf diese Weise sind FeaturePython Objekte wirklich und vollständig parametrisch. Du kannst Eigenschaften für das Objekt und sein Ansichtsobjekt getrennt definieren.
+[Python-Objekte](App_FeaturePython/de.md) folgen der gleichen Regel wie alle FreeCAD Funktionen: Sie sind in App- und einen GUI-Teile getrennt. Der App-Teil, das Dokument-Objekt, definiert die Geometrie unseres Objekts, während sein GUI-Teil, das View-Provider-Objekt, definiert, wie das Objekt auf dem Bildschirm daegestellt wird. Das Ansichtsprovider-Objekt ist, wie jede andere FreeCAD-Funktion, nur verfügbar, wenn FreeCAD in seiner eigenen GUI ausgeführt wird. Es stehen mehrere Eigenschaften und Methoden zur Verfügung, um ein Objekt zu erstellen. Die Eigenschaften müssen zu einem der vordefinierten Eigenschaftstypen gehören, die FreeCAD anbietet und werden im Eigenschaften Ansichtsfenster angezeigt, damit sie vom Benutzer bearbeitet werden können. Auf diese Weise sind FeaturePython-Objekte wirklich und vollständig parametrisch. Du kannst Eigenschaften für das Objekt und sein Ansichtsobjekt getrennt definieren.
 
 
-</div>
-
-## Basic example 
-
-
-<div class="mw-translate-fuzzy">
 
 ## Grundlegendes Beispiel 
 
-Das folgende Beispiel ist zusammen mit einigen anderen Beispielen in der [src/Mod/TemplatePyMod/FeaturePython.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/TemplatePyMod/FeaturePython.py) Datei zu finden:
-
-
-</div>
+Das folgende Beispiel ist zusammen mit einigen anderen Beispielen in der Datei [src/Mod/TemplatePyMod/FeaturePython.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/TemplatePyMod/FeaturePython.py) zu finden:
 
 
 ```python
@@ -176,29 +160,17 @@ This example produces a number of exception stack traces in the report view wind
 
 Eine Erklärung von `__getstate__` und `__setstate__` findest du im Forumsbeitrag [obj.Proxy.Type ist ein Verzeichnis, keine Zeichenfolge](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009&start=10#p377892).
 
-## Available methods 
 
 
-<div class="mw-translate-fuzzy">
+## Vorhandene Methoden 
 
-## Verfügbare Methoden 
-
-Siehe [FunktionPython Methoden](FeaturePython_methods/de.md) für die vollständige Referenz.
+Siehe [FeaturePython Methoden](FeaturePython_methods/de.md) für eine vollständige Referenz.
 
 
-</div>
 
-## Available properties 
+## Vorhandene Eigenschaften 
 
-
-<div class="mw-translate-fuzzy">
-
-## Verfügbare Eigenschaften 
-
-Eigenschaften sind die wahren Bausteine von FeaturePython-Gegenständen. Durch ist der Benutzer im Stande, mit einem Objekt zu interagieren und es zu ändern. Nach dem Erstellen eines neuen FeaturePython-Objekts in Ihrem Dokument( a=FreeCAD.ActiveDocument.addObject(\"App::FeaturePython\",\"Box\") ), können eine Liste der verfügbaren Eigenschaften bekommen, indem Sie folgendes eingeben:
-
-
-</div>
+Eigenschaften sind die wahren Bausteine von FeaturePython-Objekten. Durch sie ist der Benutzer im Stande, mit einem Objekt zu interagieren und es zu ändern. Nach dem Erstellen eines neuen FeaturePython-Objekts in einem Dokument ( a=FreeCAD.ActiveDocument.addObject(\"App::FeaturePython\",\"Box\") ), kann man eine Liste der vorhandenen Eigenschaften bekommen, indem folgendes eingeben wird:
 
 
 ```python
@@ -308,17 +280,11 @@ A complete list of property attributes can be seen in the [PropertyStandard C++ 
 prop = (value, lower, upper, stepsize)
 ```
 
-## Property Type 
 
 
-<div class="mw-translate-fuzzy">
+## Arten von Eigenschaften 
 
-## Eigenschaftstyp
-
-Standardmäßig können die Eigenschaften aktualisiert werden. Es ist möglich, die Eigenschaften schreibgeschützt zu machen, zum Beispiel für den Fall, dass man das Ergebnis einer Methode anzeigen möchte. Es ist auch möglich, die Eigenschaft auszublenden. Der Eigenschaftstyp kann festgelegt werden mit
-
-
-</div>
+Standardmäßig können die Eigenschaften aktualisiert werden. Es ist möglich, die Eigenschaften schreibgeschützt zu machen, zum Beispiel für den Fall, dass man das Ergebnis einer Methode anzeigen möchte. Es ist auch möglich, die Eigenschaft auszublenden. Die Art der Eigenschaft kann festgelegt werden mit:
 
 
 ```python
@@ -350,20 +316,15 @@ The property types that can be set at last parameter of the addProperty function
  4 -- Prop_Hidden, Property won't appear in the editor
  8 -- Prop_Output, Modified property doesn't touch its parent container
  16 -- Prop_NoRecompute, Modified property doesn't touch its container for recompute
+ 32 -- Prop_NoPersist, Property won't be saved to file at all
 
 You can find these different property types defined in the [source code C++ header for PropertyContainer](https://github.com/FreeCAD/FreeCAD/blob/master/src/App/PropertyContainer.h).
 
-## Other more complex example 
 
-
-<div class="mw-translate-fuzzy">
 
 ## Andere komplexere Beispiele 
 
-Dieses Beispiel macht vom [Part Modul](Part_Workbench/de.md) Gebrauch, um ein Oktaeder zu schaffen, erstellt dann seine coin Darstellung mit pivy.
-
-
-</div>
+Dieses Beispiel verwendet das [Part-Modul](Part_Workbench/de.md), um ein Oktaeder zu erstellen und dann seine Coin-Darstellung mit pivy.
 
 Das Erste ist das Documentobjekt selbst:
 
@@ -564,17 +525,11 @@ Octahedron(a)
 ViewProviderOctahedron(a.ViewObject)
 ```
 
-## Making objects selectable 
 
-
-<div class="mw-translate-fuzzy">
 
 ## Objekte auswählbar machen 
 
-Wenn du dein Objekt oder zumindest einen Teil davon durch Anklicken im Ansichtsfenster auswählbar machen möchtest, musst du seine coin Geometrie in einen SoFCSelection Knoten aufnehmen. Wenn dein Objekt eine komplexe Darstellung hat, mit Widgets, Anmerkungen usw., möchtest du vielleicht nur einen Teil davon in eine SoFCSelection einschließen. Alles, was eine SoFCSelection ist, wird von FreeCAD ständig gescannt, um Auswahl/Vorwahl zu erkennen, daher ist es sinnvoll, es nicht mit unnötigem Scannen zu überlasten.
-
-
-</div>
+Wenn du dein Objekt oder zumindest einen Teil davon durch Anklicken im Ansichtsfenster auswählbar machen möchtest, musst du seine Coin-Geometrie in einen SoFCSelection-Knoten aufnehmen. Wenn dein Objekt eine komplexe Darstellung hat, mit Widgets, Anmerkungen usw., möchtest du vielleicht nur einen Teil davon in eine SoFCSelection einschließen. Alles, was eine SoFCSelection ist, wird von FreeCAD ständig gescannt, um Auswahl/Vorwahl zu erkennen, daher ist es sinnvoll, es nicht mit unnötigem Scannen zu überlasten.
 
 Once the parts of the scenegraph that are to be selectable are inside SoFCSelection nodes, you then need to provide two methods to handle the selection path. The selection path can take the form of a string giving the names of each element in the path, or of an array of scenegraph objects. The two methods you provide are `getDetailPath`, which converts from a string path to an array of scenegraph objects, and `getElementPicked`, which takes an element which has been clicked on in the scenegraph and returns its string name (note, not its string path).
 
@@ -678,15 +633,7 @@ def makeMolecule():
 
 ## Working with simple shapes 
 
-
-<div class="mw-translate-fuzzy">
-
-## Arbeiten mit einfachen Formen 
-
-Erstellen Sie einfach einen SoFCSelection Knoten, dann fügen Sie Ihre Geometrie-Knoten dazu hinzu, dann fügen Sie alles zu Ihrem Hauptknoten hinzu, anstatt Ihre Geometrie-Knoten direkt einzufügen. Die Form wird mittels der FreeCAD Standard-Form-Darstellung angezeigt:
-
-
-</div>
+Wenn ein parametrisches Objekt einfach nur eine Form ausgibt, muss man keinen View-Provider-Objekt verwenden. Die Form wird mit FreeCADs Standard-Form-Darstellung angezeigt.
 
 
 ```python
@@ -748,15 +695,7 @@ App.ActiveDocument.recompute()
 
 ## Scenegraph Structure 
 
-
-<div class="mw-translate-fuzzy">
-
-## Szenegraph Struktur 
-
 Du hast vielleicht bemerkt, dass die obigen Beispiele deine Szenengraphen auf leicht unterschiedliche Weise aufbauen. Einige verwenden `obj.addDisplayMode(node, "modename")`, während andere `obj.SwitchNode.getChild(x).addChild(y)` verwenden.
-
-
-</div>
 
 Each feature in a FreeCAD document is based the following scenegraph structure:
 
@@ -1117,6 +1056,8 @@ else:
         pdtube.PDTubeVP(tube.ViewObject)
         body.addObject(tube) #optionally we can also use body.insertObject() for placing at particular place in tree
 ```
+
+
 
 ## Weitere Informationen 
 

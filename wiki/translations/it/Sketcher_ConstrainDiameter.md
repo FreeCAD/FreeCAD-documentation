@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -20,6 +22,8 @@ Questo vincolo forza il valore del diametro di un cerchio o di un arco a un valo
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

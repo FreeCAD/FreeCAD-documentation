@@ -16,7 +16,7 @@
 |                                                                                                                        |                                                                                                                                    |                                                    |
 | [Install on Windows](Installing_on_Windows.md)                                                                 | [Install on Mac](Installing_on_Mac.md)                                                                                     | [Install on Linux](Installing_on_Linux.md) |
 |                                                                                                                        |                                                                                                                                    |                                                    |
-| [64-bit installer](https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD-0.20.2-WIN-x64-installer-2.exe) | [macOS 64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD_0.20.2-2022-12-27-conda-macOS-x86_64-py310.dmg) | [AppImage 64-bit](AppImage.md)             |
+| [64-bit installer](https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD-0.20.2-WIN-x64-installer-3.exe) | [macOS 64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD_0.20.2-2022-12-27-conda-macOS-x86_64-py310.dmg) | [AppImage 64-bit](AppImage.md)             |
 ++++
 
 ### Примечания для пользователей Windows 
@@ -25,15 +25,9 @@
 -   Портативная версия, не требующая установки доступна на странице [релиза](https://github.com/FreeCAD/FreeCAD/releases/).
 -   Пакет также можно установить из менеджера пакетов [Chocolatey](https://chocolatey.org/packages/freecad).
 
+### Примечания для пользователей macOS 
 
-<div class="mw-translate-fuzzy">
-
-### Примечание для пользователей Mac OS X 
-
-Минимальная поддерживаемая версия Mac OS X: 10.12 Sierra.
-
-
-</div>
+macOS 10.12 Sierra --- минимальная поддерживаемая версия.
 
 
 

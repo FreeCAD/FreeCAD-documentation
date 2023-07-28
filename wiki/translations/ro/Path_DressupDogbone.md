@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -14,6 +16,8 @@ Acest instrument îmbracă o traiectorie existentă în a derula colțurile în 
 
 
 </div>
+
+
 
 ## Utilizare
 
@@ -26,12 +30,20 @@ Acest instrument îmbracă o traiectorie existentă în a derula colțurile în 
 
 </div>
 
+
+
 ## Opţiuni
+
+
+<div class="mw-translate-fuzzy">
 
 -   Side - Care parte a căii va fi schimbată.
 -   Style - Stil de supragrezare (Dogbone, T-Bone orizontal, T-Bone Vertical, T-Bone Long Edge, T-Bone Short Edge).
 -   incision - algoritmul de a utiliza calculul lungimii de frezare
 -   Custom-If Incision este personalizat, proprietatea personalizată este utilizată pentru a seta lungimea.
+
+
+</div>
 
 ## Limitations
 

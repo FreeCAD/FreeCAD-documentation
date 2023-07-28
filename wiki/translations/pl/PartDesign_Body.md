@@ -2,13 +2,15 @@
 - GuiCommand:/pl
    Name:PartDesign Body
    Name/pl:Projekt części: Zawartość
-   MenuLocation:Projekt części → Stwórz zawartość
-   Workbenches:[Projekt części](PartDesign_Workbench/pl.md)
+   MenuLocation:Projekt Części → Stwórz zawartość
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[Std: Część](Std_Part/pl.md), [edycja funkcji](Feature_editing/pl.md)
+   SeeAlso:[Część](Std_Part/pl.md), [Edycja cech](Feature_editing/pl.md)
 ---
 
 # PartDesign Body/pl
+
+
 
 ## Opis
 
@@ -20,6 +22,8 @@ Nie pomyl obiektu <img alt="" src=images/PartDesign_Body.svg  style="width:24px;
 
 ![](images/PartDesign_Body_tree.png ) ![](images/PartDesign_Body_example.png ) 
 *Po lewej: widok drzewa przedstawiający cechy, które kolejno tworzą ostateczny kształt obiektu. </br>Po prawej: zakończony obiekt prezentowany w oknie [widoku 3D](3D_view/pl.md).*
+
+
 
 ## Użycie
 
@@ -33,10 +37,14 @@ Jeśli wybrano obiekt bryły:
 
 1.  Naciśnij przycisk **<img src="images/PartDesign_Body.svg" width=16px> [zawartość](PartDesign_Body/pl.md)**. Tworzone jest nowa zawartość z pojedynczym elementem **właściwości podstawowej**. Ten element Właściwości podstawowej jest prostym odwołaniem do innego obiektu utworzonego wcześniej lub zaimportowanego do dokumentu. Zobacz akapit [właściwość podstawowa](PartDesign_Body/pl#W.C5.82a.C5.9Bciwo.C5.9B.C4.87_podstawowa.md), aby uzyskać więcej informacji. Istniejąca bryła lub [właściwość](PartDesign_Feature/pl.md) nie może być wybrana po naciśnięciu przycisku **<img src="images/PartDesign_Body.svg" width=16px> [zawartość](PartDesign_Body/pl.md)**.
 
+
+
 ### Uwagi
 
 -   Jeśli nie ma obecnie żadnej zawartości, gdy przycisk **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Nowy szkic](PartDesign_NewSketch/pl.md)** zostanie wciśnięty, automatycznie zostanie utworzona nowa zawartość. Jeśli zawartość już istnieje, musi zostać uaktywniona przed użyciem funkcji **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Nowy szkic](PartDesign_NewSketch/pl.md)**.
 -   Kliknij dwukrotnie zawartość w widoku [widoku drzewa](Tree_view/pl.md) lub otwórz menu kontekstowe *(kliknij prawym przyciskiem myszy)* i wybierz **Przełącz aktywną zawartość**, aby aktywować lub dezaktywować zawartość. Jeśli inna zawartość jest aktywna, zostanie ona wyłączona. Zobacz [stan aktywny](PartDesign_Body/pl#Aktywny_status.md), aby uzyskać więcej informacji.
+
+
 
 ## Właściwości
 
@@ -44,10 +52,12 @@ Jeśli wybrano obiekt bryły:
 
 Oprócz właściwości opisanych na stronie [Cecha części](Part_Feature/pl.md), bryła pochodząca ze środowiska Projekt części posiada następujące właściwości w [edytorze właściwości](Property_editor/pl.md).
 
+
+
 ### Dane
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Czubek|Link**: [Cecha](PartDesign_Feature.md) zdefiniowana jako \"Końcówka\", która jest zazwyczaj ostatnią cechą utworzoną w bryle. Końcówka wskazuje ostateczny kształt bryły, który jest wyświetlany w oknie [widoku 3D](3D_view.md), gdy **Tryb wyświetlania zawartości** jest ustawiony na `Czubek`. Zobacz stronę [czubek](PartDesign_Body/pl#Czubek.md), aby uzyskać więcej informacji.
 
@@ -57,6 +67,8 @@ Oprócz właściwości opisanych na stronie [Cecha części](Part_Feature/pl.md)
 
 -    **Grupa|LinkList**: lista [Cech projektu części](PartDesign_Feature/pl.md) w treści.
 
+
+
 #### Ukryte Dane właściwości 
 
 -    **Odniesienie położenia|Link**: obiekt [odniesienia położenia](App_OriginGroupExtension/pl.md), który jest pozycyjnym odniesieniem dla wszystkich elementów wymienionych w **Grupie**.
@@ -65,10 +77,12 @@ Oprócz właściwości opisanych na stronie [Cecha części](Part_Feature/pl.md)
 
 Również ukryte właściwości opisane na stronie [Cecha części](Part_Feature/pl.md).
 
+
+
 ### Widok
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Tryb wyświetlania zawartości|Enumeration**: ustawia tryb wyświetlania specyficzny dla zawartości za pomocą jednego z dwóch typów.
 
@@ -82,7 +96,11 @@ Również ukryte właściwości opisane na stronie [Cecha części](Part_Feature
         
         ujawnia tylko ostateczny kształt bryły, który jest zdefiniowany przez właściwość **Czubek**. Cała reszta, w tym [szkice](Sketch/pl.md), [częściowe cechy](PartDesign_Feature/pl.md), punkty odniesienia itp. nie są wyświetlane, nawet jeśli są widoczne w [widoku drzewa](Tree_view/pl.md). Ten tryb jest zalecany, gdy bryła nie musi być dalej modyfikowana, więc wyświetlany jest ustalony kształt. Ten tryb jest również zalecany, gdy chcemy wybrać podelementy *(wierzchołki, krawędzie i ściany)* ostatecznego kształtu, aby użyć ich do pracy z w innymi narzędziami.
 
+
+
 ## Koncepcja zawartości 
+
+
 
 ### Pojedyncza ciągła bryła 
 
@@ -92,6 +110,8 @@ Gdy te sąsiadujące bryły są umieszczone razem w jakimś układzie, wtedy sta
 
 <img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width:" height="200px;"> 
 *Po lewej: trzy pojedyncze, przylegające do siebie bryły, z których każda jest modelowana przez zawartość Projektu części. </br> Po prawej: poszczególne Zawartości połączone w złożenie.*
+
+
 
 ### Edycja cech 
 
@@ -110,7 +130,11 @@ Zawartość Projektu części wykona automatyczne funkcją [suma](Part_Fuse/pl.m
 
 Inne programy CAD, takie jak Catia pozwalają na tworzenie nieciągłych brył w tej samej \"zawartości\". Od wersji v0.19, FreeCAD nie pozwala na to. Na forum [FreeCAD](https://forum.freecadweb.org/index.php) toczyły się dyskusje na temat zniesienia tego ograniczenia, ale nie podjęto jeszcze żadnej konkretnej decyzji. Jeśli chciałbyś dowiedzieć się więcej lub przedstawić różne punkty widzenia, proszę dyskutuj na [forum](https://forum.freecadweb.org/index.php).
 
+
+
 ## Szczegółowe objaśnienie właściwości 
+
+
 
 ### Aktywny status 
 
@@ -128,6 +152,8 @@ Aktywowanie Zawartości powoduje automatyczne przełączenie do środowiska [Pro
 
 
 *Dokument z dwiema Zawartościami Projektu części, wśród których aktywna jest druga.*
+
+
 
 ### Odniesienie położenia 
 
@@ -155,6 +181,8 @@ Wszystkie elementy składowe Zawartości są powiązane z jej odniesieniem poło
 
 
 *Z lewej: Odniesienie położenia Projekt części w [widoku drzewa](Tree_view/pl.md). <br>Z prawej: reprezentacja Odniesienia położenia w oknie [widoku 3D](3D_view/pl.md).*
+
+
 
 ### Właściwość podstawowa 
 
@@ -201,6 +229,8 @@ Cecha Podstawa jest całkowicie opcjonalna; jest ona obecna tylko wtedy, gdy do�
 
 Jeżeli inna bryła środowiska Projekt Części jest wybrana jako Cecha bazowa, musi zawierać kształt. Jeśli jest pusta *(brak elementów, brak Cechy bazowej, \...)*, spowoduje to błąd.
 
+
+
 ### Czubek
 
 Czubek jest [cechą Projektu części](PartDesign_Feature/pl.md), który jest wystawiony poza Zawartość. To znaczy, jeśli inne narzędzie z dowolnego środowiska pracy *(na przykład **[<img src=images/Part_SimpleCopy.svg style="width:16px"> [Część: Szybka kopia](Part_SimpleCopy/pl.md)** lub **[<img src=images/Part_Cut.svg style="width:16px"> [Część: Wytnij](Part_Cut/pl.md)**)* musi używać kształtu zawartości, użyje kształtu Czubka. Mówiąc inaczej, Czubek jest ostateczną reprezentacją bryły, tak jakby historia parametryczna nie istniała.
@@ -220,6 +250,8 @@ W [widoku drzewa](tree_view.md), Czubek Zawartości jest rozpoznawany przez [cec
 ![](images/PartDesign_Body_Tip_tree.png ) 
 *Dwie zawartości Projektu części, każda z nich posiada [Cechy Projektu części](PartDesign_Feature/pl.md). Czubek jest ostatnią cechą w nich, i jest oznaczony symbolem nakładki.*
 
+
+
 ### Współpraca z innymi środowiskami pracy 
 
 Domyślnie, [cechy Projektu Części](PartDesign_Feature/pl.md) wewnątrz bryły są zaznaczone, ponieważ jest to wymagane do edycji i dodawania kolejnych cech za pomocą narzędzi środowiska [Projekt części](PartDesign_Workbench/pl.md). Nie zaleca się jednak wybierania poszczególnych cech, aby używać ich z narzędziami z innych środowisk, takich jak [Część](Part_Workbench/pl.md) i [Rysunek Roboczy](Draft_Workbench/pl.md), ponieważ wyniki mogą być nieoczekiwane. Jeśli to zrobimy, w widoku [raportu](Report_view/pl.md) może pojawić się komunikat o błędzie, **Powiązania wykraczają poza dozwolony zakres**.
@@ -234,6 +266,8 @@ Po zastosowaniu elementów podrzędnych w innych środowiskach pracy, **Tryb wy�
 
 *Po lewej: gdy "Tryb wyświetlania zawartości" jest ustawiony na wartość `Na wskroś* możliwe jest wybranie i wykonanie operacji z poszczególnymi [cechami Projektu części](PartDesign_Feature/pl.md); generalnie nie jest to zalecane. </br> Po prawej: gdy "Tryb wyświetlania zawartości" jest ustawiony na {{incode|Czubek`, wszystkie zaznaczenia i operacje wykonywane na zawartości będą wykonywane w odniesieniu do Czubka, dzięki czemu widoczny będzie tylko ostateczny kształt bryły.}}
 
+
+
 ### Zarządzanie wyświetlaniem 
 
 Widoczność zawartości jest nadrzędna w stosunku do widoczności wszystkich obiektów, które zawiera. Jeśli zawartość jest ukryta, obiekty, które zawiera, również zostaną ukryte, nawet jeśli ich właściwości **Widoczność** są ustawione na wartość `True`.
@@ -242,6 +276,8 @@ Wiele [Szkiców](Sketch/pl.md) może być widocznych w tym samym czasie, ale tyl
 
 ![](images/PartDesign_Body_Visibility.png ) 
 *Zawartość Projektu części: wiele [Szkiców](Sketch/pl.md) może być widocznych jednocześnie, ale tylko jedna [cecha](PartDesign_Feature/pl.md) bryły może być widoczna w tym samym czasie, niezależnie od tego, czy jest to Czubek, czy nie.*
+
+
 
 ### Przyłączanie
 
@@ -254,6 +290,8 @@ Element [cecha Projektu części](PartDesign_Feature/pl.md), który nie jest do�
 ![](images/PartDesign_Body_Feature_attachment.png ) 
 *Zawartość Projektu części: [Cechy projektu części](PartDesign_Feature/pl.md), które nie są dołączone do płaszczyzny lub układu współrzędnych będą pokazane z symbolem nakładki obok ich ikony w [widok drzewa](Tree_view/pl.md).*
 
+
+
 ### Dziedziczenie
 
 [Zawartość Projektu części](PartDesign_Body/pl.md) jest formalnie instancją klasy `PartDesign::Body`, której rodzicem jest [cecha części](Part_Feature/pl.md) *(klasa `Part::Feature`)* poprzez pośrednią klasę `Part::BodyBase`, i jest uzupełniona o rozszerzenie Odniesienie położenia.
@@ -263,6 +301,8 @@ Element [cecha Projektu części](PartDesign_Feature/pl.md), który nie jest do�
 
 
 *Uproszczony schemat zależności pomiędzy podstawowymi obiektami programu. Obiekt `PartDesign::Body* jest przeznaczony do budowania parametrycznych brył 3D, a więc wywodzi się z podstawowego obiektu {{incode|Part::Feature` i posiada Odniesienie położenia do kontroli rozmieszczenia cech użytych wewnątrz siebie.}}
+
+
 
 ## Tworzenie skryptów 
 

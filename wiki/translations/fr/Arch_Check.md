@@ -13,18 +13,22 @@
 
 Cet outil vérifie le document actif ou les objets sélectionnés pour vérifier des objets non-solides **<img src="images/Workbench_Part.svg" width=16px>[Atelier Part](Part_Workbench/fr.md)** ou **<img src="images/Workbench_Arch.svg" width=16px>[Atelier Arch](Arch_Workbench/fr.md)**, lesquels pourraient créer des problèmes étant donné que la plupart des opérations de l\'ateler Arch nécessitent des objets solides.
 
+
+
 ## Utilisation
 
 1.  Pressez le bouton **<img src="images/Arch_Check.svg" width=16px> [Validation](Arch_Check/fr.md)** ou passez par le menu **Arch** → **Utilitaires** → **<img src="images/Arch_Check.svg" width=16px> [Vérifier](Arch_Check/fr.md)**.
+
+
 
 ## Script
 
 
 **Voir aussi :**
 
-[Arch API](Arch_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-Cet outil peut être utilisé dans des [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante : 
+Cet outil peut être utilisé dans une [macro](Macros/fr.md) et utilisé dans la console [Python](Python/fr.md) en utilisant la fonction : 
 ```python
 list_bad = check(objectslist, includehidden=False)
 ```

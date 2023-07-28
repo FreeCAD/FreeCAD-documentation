@@ -1,6 +1,6 @@
 ---
 - TutorialInfo:/fr
-   Topic:TechDraw
+   Topic:TechDraw Cercle imaginaire
    Level:Débutant
    Time:10 minutes
    Author:Andergrin
@@ -21,6 +21,8 @@ Dans FreeCAD version 0.20 et supérieure, un cercle de trous peut être créé a
 
 <img alt="" src=images/Circle.png  style="width:250px;"> <img alt="" src=images/Pitch_Circle.png  style="width:300px;">
 
+
+
 ## Créer l\'esquisse du cercle 
 
 1.  Activez le <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [PartDesign Corps](PartDesign_Body/fr.md). Cela activera également l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md), si nécessaire.
@@ -32,6 +34,8 @@ Dans FreeCAD version 0.20 et supérieure, un cercle de trous peut être créé a
 7.  Utilisez la commande <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:24px;"> [Sketcher Géométrie externe](Sketcher_External/fr.md). Utilisez la commande [Sketcher Création d\'un cercle par 3 points](Sketcher_Create3PointCircle/fr.md) pour créer un cercle contraint aux points centraux de la géométrie externe.
 8.  L\'esquisse doit maintenant être entièrement contrainte.
 9.  Fermez l\'esquisse.
+
+
 
 ## Créer la vue TechDraw 
 

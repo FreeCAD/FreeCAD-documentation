@@ -1,37 +1,51 @@
 # Extra python modules/de
 {{TOCright}}
 
-## Überblick
 
-Diese Seite listet verschiedene zusätzliche Python Module oder andere Softwarestücke auf, die kostenlos aus dem Internet heruntergeladen werden können und die deiner FreeCAD Installation Funktionalität hinzufügen.
+
+## Übersicht
+
+Diese Seite listet verschiedene zusätzliche Python-Module und andere Software-Elemente auf, die kostenlos aus dem Internet heruntergeladen werden können und deiner FreeCAD-Installation Funktionalität hinzufügen.
+
+
 
 ## PySide (vorher PyQt4) 
 
 -   Homepage (PySide): (http://qt-project.org/wiki/PySide <http://qt-project.org/wiki/PySide> <http://qt-project.org/wiki/PySide>)
 -   Lizenz: LGPL
--   optional, wird aber von mehreren Modulen benötigt: Entwurf, Bogen, Schiff, Druck, OpenSCAD, Kalkulationsblatt
+-   Optional, wird aber von mehreren Modulen benötigt: Draft, Arch, Ship, Plot, OpenSCAD, Spreadsheet
 
 PySide (früher PyQt) wird von mehreren Modulen von FreeCAD benötigt, um auf die Qt-Schnittstelle von FreeCAD zuzugreifen. Es ist bereits in der Windows-Version von FreeCAD enthalten und wird in der Regel automatisch von FreeCAD unter Linux installiert, wenn es aus offiziellen Repositories installiert wird. Wenn diese Module (Draft, Arch, etc.) nach der Installation von FreeCAD aktiviert werden, bedeutet das, dass PySide (früher PyQt) bereits vorhanden ist und nichts mehr getan werden muss.
 
 **Hinweis:** FreeCAD hat sich nach und nach von PyQt ab Version 0.13 zu Gunsten von [PySide](http://qt-project.org/wiki/PySide) entfernt, das genau den gleichen Job macht, aber eine (LGPL) Lizenz hat, die besser mit FreeCAD kompatibel ist.
 
+
+
 ## Installation
+
+
 
 #### Linux
 
-Der einfachste Weg, PySide zu installieren, ist über den Paketmanager Ihrer Distribution. Auf Debian/Ubuntu-Systemen lautet der Paketname im Allgemeinen *python-PySide*, während er auf RPM-basierten Systemen *pyside* genannt wird. Die notwendigen Abhängigkeiten (Qt und SIP) werden automatisch erledigt.
+Der einfachste Weg, PySide zu installieren, ist über den Paketmanager deiner Distribution. Auf Debian/Ubuntu-Systemen lautet der Paketname im Allgemeinen *python-PySide*, während er auf RPM-basierten Systemen *pyside* genannt wird. Die notwendigen Abhängigkeiten (Qt und SIP) werden automatisch erledigt.
+
+
 
 #### Windows
 
 Das Programm kann unter <http://qt-project.org/wiki/Category:LanguageBindings>::PySide::Downloads heruntergeladen werden. Du must die Qt- und SIP-Bibliotheken installieren, bevor Du PySide installieren kannst (zu dokumentieren).
 
-#### MacOSX
 
-PyQt auf Mac kann über Homebrew oder Port installiert werden. Weitere Informationen findet man unter [Install dependencies](Compile_on_MacOS#Install_Dependencies.md).
 
-### Verwendung
+#### macOS
 
-Sobald es installiert ist, kann überprüft werden, ob alles funktioniert, indem in die FreeCAD Python-Konsole eingegeben wird:
+PySide auf dem Mac kann über Homebrew oder Port installiert werden. Weitere Informationen findet man unter [Abhängigkeiten einrichten](Compile_on_MacOS/de#Abhängigkeiten_einrichten.md).
+
+
+
+### Anwendung
+
+Sobald es installiert ist, kann überprüft werden, ob alles funktioniert, indem in die FreeCAD-Python-Konsole eingegeben wird:
 
 
 ```python
@@ -78,6 +92,8 @@ path = FreeCAD.ConfigGet("AppHomePath")
 SaveName, Filter = PySide.QtGui.QFileDialog.getSaveFileName(None, "Save a file txt", path, "*.txt")
 ```
 
+
+
 ### Beispiel für den Übergang von PyQt4 und PySide 
 
 PS: diese Beispiele von Fehlern wurden beim Übergang von PyQt4 zu PySide gefunden und diese Korrekturen wurden vorgenommen, andere Lösungen sind sicherlich mit den obigen Beispielen verfügbar
@@ -114,7 +130,7 @@ try:
     FCmw = app.activeWindow()                     # PyQt4 # the active qt window, = the freecad window since we are inside it
     FCmw.addDockWidget(QtCore.Qt.RightDockWidgetArea,myNewFreeCADWidget) # add the widget to the main window
 except Exception:
-    FCmw = FreeCADGui.getMainWindow()             # PySide # the active qt window, = the freecad window since we are inside it 
+    FCmw = FreeCADGui.getMainWindow()             # PySide # the active qt window, = the freecad window since we are inside it
     FCmw.addDockWidget(QtCore.Qt.RightDockWidgetArea,myNewFreeCADWidget) # add the widget to the main window
 ```
 
@@ -158,7 +174,7 @@ def errorDialog(msg):
     diag = QtGui.QMessageBox(QtGui.QMessageBox.Critical,u"Error Message",msg )
     try:
         diag.setWindowFlags(PyQt4.QtCore.Qt.WindowStaysOnTopHint) # PyQt4 # this function sets the window before
-    except Exception:    
+    except Exception:
         diag.setWindowFlags(PySide.QtCore.Qt.WindowStaysOnTopHint)# PySide # this function sets the window before
 #    diag.setWindowModality(QtCore.Qt.ApplicationModal)       # function has been disabled to promote "WindowStaysOnTopHint"
     diag.exec_()
@@ -168,28 +184,28 @@ Arbeiten mit setProperty (PyQt4) und setValue (PySide)
 
 
 ```python
-self.doubleSpinBox.setProperty("value", 10.0)  # PyQt4
+self.doubleSpinBox.setProperty("value", 10.0) # PyQt4
 ```
 
 ersetzen durch :
 
 
 ```python
-self.doubleSpinBox.setValue(10.0)  # PySide
+self.doubleSpinBox.setValue(10.0) # PySide
 ```
 
 Arbeiten mit setToolTip
 
 
 ```python
-self.doubleSpinBox.setToolTip(_translate("MainWindow", "Coordinate placement Axis Y", None))  # PyQt4
+self.doubleSpinBox.setToolTip(_translate("MainWindow", "Coordinate placement Axis Y", None)) # PyQt4
 ```
 
 ersetzen durch :
 
 
 ```python
-self.doubleSpinBox.setToolTip(_fromUtf8("Coordinate placement Axis Y"))  # PySide 
+self.doubleSpinBox.setToolTip(_fromUtf8("Coordinate placement Axis Y")) # PySide
 ```
 
 oder:
@@ -199,25 +215,25 @@ oder:
 self.doubleSpinBox.setToolTip(u"Coordinate placement Axis Y.")# PySide
 ```
 
+
+
 ### Zusätzliche Dokumentation 
 
-Einige pyQt4-Tutorien (einschließlich der Erstellung von Schnittstellen mit Qt Designer zur Verwendung mit Python):
-
--   <http://pyqt.sourceforge.net/Docs/PyQt4/classes.html> - die PyQt4 API Referenz auf sourceforge
--   <http://www.rkblog.rk.edu.pl/w/p/introduction-pyqt4/> - eine einfache Einführung
--   <http://www.zetcode.com/tutorials/pyqt4/> - sehr komplettes, ausführliches Tutorial
+-   [Qt official documentation site](https://doc.qt.io/qt.html#qtforpython)
 
 ## Pivy
 
 -   Startseite: [<https://bitbucket.org/Coin3D/coin/wiki/Home>](https://bitbucket.org/Coin3D/coin/wiki/Home)
 -   Lizenz: BSD
--   optional, aber von verschiedenen Modulen von FreeCAD benötigt: Entwurf, Bogen
+-   Optional, aber von verschiedenen Modulen von FreeCAD benötigt: Draft, Arch
 
-Pivy wird von mehreren Modulen benötigt, um die 3D Ansicht von FreeCAD zu erreichen. Unter Windows ist Pivy bereits im FreeCAD Installationsprogramm enthalten, unter Linux wird es normalerweise automatisch installiert, wenn Du FreeCAD aus einem offiziellen Repository installierst. Unter MacOSX musst Du Pivy leider selbst kompilieren.
+Pivy wird von mehreren Modulen benötigt, um auf die 3D-Ansicht von FreeCAD zuzugreifen. Unter Windows ist Pivy bereits im FreeCAD Installationsprogramm enthalten, unter Linux wird es normalerweise automatisch installiert, wenn Du FreeCAD aus einem offiziellen Repository installierst. Unter macOSX musst Du Pivy leider selbst kompilieren.
 
 ### Installation 
 
-#### Voraussetzungen
+
+
+### Voraussetzungen
 
 Ich glaube, bevor Du Pivy kompilierst, solltest Du Coin und SoQt installiert haben.
 
@@ -227,9 +243,11 @@ Für Fedora habe ich eine RPM mit Coin3 gefunden.
 
 SoQt kompiliert von [source](http://www.coin3d.org/lib/soqt/releases/1.5.0) gut auf Mac und Linux.
 
-##### Debian & Ubuntu 
 
-Beginnend mit Debian Squeeze und Ubuntu Lucid, wird pivy direkt aus den offiziellen Repositorien verfügbar sein, was uns eine Menge Ärger erspart. In der Zwischenzeit kannst Du entweder eines der Pakete, die wir (für debian und ubuntu karmic) auf den [Download](Download.md) Seiten zur Verfügung gestellt haben, herunterladen oder selbst kompilieren.
+
+#### Debian & Ubuntu 
+
+Beginnend mit Debian Squeeze und Ubuntu Lucid, ist pivy direkt aus den offiziellen Repositorien verfügbar, was uns eine Menge Ärger erspart. In der Zwischenzeit kannst Du entweder eines der Pakete, die wir (für debian und ubuntu karmic) auf den [Download](Download.md) Seiten zur Verfügung gestellt haben, herunterladen oder selbst kompilieren.
 
 Der beste Weg, pivy einfach zu kompilieren, ist, das Debian-Quellpaket für pivy zu holen und ein Paket mit debuild zu erstellen. Es ist derselbe Quellcode von der offiziellen Pivy Seite, aber die Debian Leute haben einige fehlerbereinigende Ergänzungen vorgenommen. Es lässt sich auch gut mit ubuntu karmic kompilieren: <http://packages.debian.org/squeeze/python-pivy> lade die .orig.gz und die .diff.gz Datei herunter, entpacke dann beide und wende dann den . diff auf den Quellcode an: gehe in den entpackten pivy Quellcode-Ordner und wende den .diff Patch an:
 
@@ -247,13 +265,15 @@ debuild
 
 um pivy ordnungsgemäß in ein offizielles installierbares Paket eingebaut zu haben. Dann installiere das Paket einfach mit gdebi.
 
-#### Andere Linux Distributionen 
 
-Hole Dir zuerst die neuesten Quellen aus dem [Projekt Repositorium](http://pivy.coin3d.org/mercurial/):
+
+#### Andere Linux-Distributionen 
+
+Hole Dir zuerst die neuesten Quellen aus dem [Projekt-Repositorium](http://pivy.coin3d.org/mercurial/):
 
 
 ```python
-hg clone http://hg.sim.no/Pivy/default Pivy 
+hg clone http://hg.sim.no/Pivy/default Pivy
 ```
 
 Ab März 2012 ist die neueste Version Pivy-0.5.
@@ -269,13 +289,13 @@ make install (or checkinstall if you use it)
 
 Der Bau dauert nur wenige Sekunden.
 
-Alternativ kannst Du versuchen, mit einer neueren SWIG zu bauen. Ab März 2012 ist eine typische Repositorien Version 2.0.4. Pivy hat ein kleines Kompilierproblem mit SWIG 2.0.4 unter Mac OS (siehe unten), scheint aber auf Fedora Core 15 gut zu bauen.
+Alternativ kannst Du versuchen, mit einer neueren SWIG zu bauen. Ab März 2012 ist eine typische Repositorien Version 2.0.4. Pivy hat ein kleines Kompilierproblem mit SWIG 2.0.4 unter macOS (siehe unten), scheint aber auf Fedora Core 15 gut zu bauen.
 
 Danach gehst du zu den pivy Quellen und rufst
 
 
 ```python
-python setup.py build 
+python setup.py build
 ```
 
 die die Quelldateien erstellt. Beachte, dass der Bau tausende von Warnungen erzeugen kann, aber hoffentlich keine Fehler auftreten werden.
@@ -291,15 +311,17 @@ python setup.py install (or checkinstall python setup.py install)
 
 Das war\'s, pivy ist installiert.
 
-##### Mac OS 
 
-== Diese Anleitungen könnten möglicherweise nicht vollständig sein. Etwas in dieser Art funktionierte für OS 10.7 ab März 2012. Ich verwende MacPorts für Repositorien, aber andere Optionen sollten auch funktionieren.
+
+#### macOS 
+
+Diese Anleitungen könnten möglicherweise nicht vollständig sein. Etwas in dieser Art funktionierte für OS 10.7 ab März 2012. Ich verwende MacPorts für Repositorien, aber andere Optionen sollten auch funktionieren.
 
 Wie für Linux, hole dir die neueste Quelle:
 
 
 ```python
-hg clone http://hg.sim.no/Pivy/default Pivy 
+hg clone http://hg.sim.no/Pivy/default Pivy
 ```
 
 Wenn du kein hg hast, kannst du es von MacPorts holen:
@@ -323,7 +345,7 @@ Ich fand, ich brauche auch:
 port install swig-python
 ```
 
-Seit März 2012 ist die MacPorts SWIG Version 2.0.4. Wie oben für Linux angemerkt, ist es vielleicht besser, eine ältere Version herunterzuladen. SWIG 2.0.4 scheint einen Fehler zu haben, der das Bauen von Pivy verhindert. Siehe erste Meldung in diesem Auszug: <https://sourceforge.net/mailarchive/message.php?msg_id=28114815>
+Seit März 2012 ist die MacPorts SWIG Version 2.0.4. Wie oben für Linux angemerkt, ist es vielleicht besser, eine ältere Version herunterzuladen. SWIG 2.0.4 scheint einen Fehler zu haben, der das Bauen von Pivy verhindert. Siehe erste Meldung in diesem: [Auszug](https://sourceforge.net/mailarchive/message.php?msg_id=28114815)
 
 Dies kann korrigiert werden, indem man die 2 Quellorte bearbeitet, um Dereferenzierungen hinzuzufügen: \*arg4, \*arg5 an Stelle von arg4, arg5. Jetzt sollte Pivy bauen:
 
@@ -333,9 +355,11 @@ python setup.py build
 sudo python setup.py install
 ```
 
-##### Windows 
 
-== Angenommen, du verwendest Visual Studio 2005 oder höher, solltest du eine Eingabeaufforderung mit \'Visual Studio 2005 Command prompt\' aus dem Werkzeugmenü öffnen. Wenn der Python Interpreter noch nicht im Systempfad liegt, mache
+
+#### Windows 
+
+Angenommen, du verwendest Visual Studio 2005 oder höher, solltest du eine Eingabeaufforderung mit \'Visual Studio 2005 Command prompt\' aus dem Werkzeugmenü öffnen. Wenn der Python-Interpreter noch nicht im Systempfad liegt, mache
 
 
 ```python
@@ -346,7 +370,7 @@ Um mit pivy arbeiten zu können, solltest du dir die neuesten Quellen aus dem Re
 
 
 ```python
-svn co https://svn.coin3d.org/repos/Pivy/trunk Pivy 
+svn co https://svn.coin3d.org/repos/Pivy/trunk Pivy
 ```
 
 Dann brauchst Du ein Werkzeug namens SWIG, um den C++ Code für die Python Bindungen zu erzeugen. Es wird empfohlen, die Version 1.3.25 von SWIG zu verwenden, nicht die neueste Version, da Pivy im Moment nur mit 1.3.25 korrekt funktioniert. Lade die Binärdateien für 1.3.25 von [<http://www.swig.org>](http://www.swig.org) herunter. Entpacke sie dann und füge sie von der Kommandozeile aus dem Systempfad hinzu
@@ -369,7 +393,7 @@ Danach gehe zu den pivy Quellen und rufe
 
 
 ```python
-python setup.py build 
+python setup.py build
 ```
 
 was die Quelldateien erstellt. Es kann sein, dass du einen Kompilierer Fehler bekommst, weil mehrere Kopfdateien nicht gefunden wurden. In diesem Fall passe die INCLUDE Variable an
@@ -393,7 +417,7 @@ und schließlich die Qt Kopfzeilen
 set INCLUDE=%INCLUDE%;path_to_qt4\include\Qt
 ```
 
-Wenn du die Express Edition von Visual Studio verwendest, erhälst du möglicherweise eine Python keyerror Ausnahme. In diesem Fall musst Du ein paar Dinge in der msvccompiler.py, die sich in deiner Pythoninstallation befindet, ändern.
+Wenn du die Express Edition von Visual Studio verwendest, erhälst du möglicherweise eine Python-keyerror-Ausnahme. In diesem Fall musst Du ein paar Dinge in der Datei msvccompiler.py, die sich in deiner Pythoninstallation befindet, ändern.
 
 Gehe zur Zeile 122 und ersetze die Zeile
 
@@ -409,7 +433,7 @@ mit
 vsbase = r"Software\Microsoft\VCExpress\%0.1f" % version
 ```
 
-Dann versuche es noch einmal. Wenn du einen zweiten Fehler wie
+Dann versuche es noch einmal. Wenn du einen zweiten Fehler erhältst, wie
 
 
 ```python
@@ -453,9 +477,11 @@ set DISTUTILS_USE_SDK=1
 set MSSDK=1
 ```
 
-Nun kann es zu einem Compilerfehler kommen, bei dem ein \'const char\*\' nicht in ein \'char\*\' umgewandelt werden kann. Um das zu beheben, musst du nur vorher eine \'const\' in die entsprechenden Zeilen schreiben. Es sind sechs Zeilen zu korrigieren. Danach kopiere das generierte Pivy Verzeichnis an einen Ort, wo der Python Interpreter in FreeCAD es finden kann.
+Nun kann es zu einem Compilerfehler kommen, bei dem ein \'const char\*\' nicht in ein \'char\*\' umgewandelt werden kann. Um das zu beheben, musst du nur vorher eine \'const\' in die entsprechenden Zeilen schreiben. Es sind sechs Zeilen zu korrigieren. Danach kopiere das generierte Pivy-Verzeichnis an einen Ort, wo der Python-Interpreter in FreeCAD es finden kann.
 
-### Verwendung 
+
+
+### Anwendung 
 
 Um zu überprüfen, ob Pivy korrekt installiert ist:
 
@@ -469,17 +495,19 @@ Um pivy Zugriff auf den FreeCAD Szenengraphen zu haben, gehe wie folgt vor:
 
 ```python
 from pivy import coin
-App.newDocument() # Open a document and a view 
-view = Gui.ActiveDocument.ActiveView 
+App.newDocument() # Open a document and a view
+view = Gui.ActiveDocument.ActiveView
 FCSceneGraph = view.getSceneGraph() # returns a pivy Python object that holds a SoSeparator, the main "container" of the Coin scenegraph
-FCSceneGraph.addChild(coin.SoCube()) # add a box to scene 
+FCSceneGraph.addChild(coin.SoCube()) # add a box to scene
 ```
 
 Du kannst nun den FCSceneGraph mit dem dir() Befehl untersuchen.
 
+
+
 ### Zusätzliche Dokumentation 
 
-Leider ist die Dokumentation über pivy immer noch fast nicht im Netz vorhanden. Aber du könntest die Coin Dokumentation nützlich finden, da pivy einfach Coin Funktionen, Knoten und Methoden in Python übersetzt, alles behält den gleichen Namen und die gleichen Eigenschaften, wobei der Unterschied in der Syntax zwischen C und Python berücksichtigt wird:
+Leider ist die Dokumentation über pivy im Netz immer noch fast nicht vorhanden. Aber du könntest die Coin-Dokumentation nützlich finden, da pivy einfach Coin Funktionen, Knoten und Methoden in Python übersetzt, alles behält den gleichen Namen und die gleichen Eigenschaften, wobei der Unterschied in der Syntax zwischen C und Python berücksichtigt wird:
 
 -   <https://bitbucket.org/Coin3D/coin/wiki/Documentation> - Coin3D API Referenz
 -   <http://www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/index.html> - Der Inventor Mentor - Die \"Bibel\" der Inventor Szenenbeschreibungssprache.
@@ -490,42 +518,22 @@ Du kannst dir auch die Datei Draft.py im FreeCAD Mod/Draft Ordner ansehen, da si
 
 -   Startseite: <http://pycollada.github.com>
 -   Lizenz: BSD
--   optional, notwendig um den Import und Export von Collada (.DAE) Dateien zu ermöglichen
+-   optional, notwendig um den Import und Export von Collada-Dateien (.DAE) zu ermöglichen
 
-pyCollada ist eine Python Bibliothek, die es Programmen ermöglicht, Dateien [Collada (\*.DAE)](http://en.wikipedia.org/wiki/COLLADA) zu lesen und zu schreiben. Wenn pyCollada auf Ihrem System installiert ist, ist FreeCAD in der Lage, den Import und Export im Collada Dateiformat zu handhaben.
+pyCollada ist eine Python-Bibliothek, die es Programmen ermöglicht, Dateien [Collada (\*.DAE)](http://en.wikipedia.org/wiki/COLLADA) zu lesen und zu schreiben. Wenn pyCollada auf Ihrem System installiert ist, ist FreeCAD in der Lage, den Import und Export im Collada Dateiformat zu handhaben.
 
 ### Installation 
 
-Pycollada ist normalerweise noch nicht in den Repositorien der Linux Distributionen verfügbar, aber da es nur aus Python Dateien besteht, muss es nicht kompiliert werden und ist einfach zu installieren. Es gibt 2 Wege, oder direkt aus dem offiziellen pycollada git Repositorium, oder mit dem easy_install Werkzeug.
+
 
 #### Linux 
 
-In jedem Fall benötigst Du die folgenden Pakete bereits installiert auf Deinem System:
-
 
 ```python
-python-lxml 
-python-numpy
-python-dateutil
+sudo apt-get install python3-collada
 ```
 
-##### Aus dem Git Repositorium 
-
-
-```python
-git clone git://github.com/pycollada/pycollada.git pycollada
-cd pycollada
-sudo python setup.py install
-```
-
-======= Mit easy_install ======= Angenommen, du hast bereits eine komplette Python Installation, sollte das easy_install Hilfsprogramm bereits vorhanden sein:
-
-
-```python
-easy_install pycollada
-```
-
-Du kannst überprüfen, ob pycollada korrekt installiert wurde, indem du in einer Python Konsole eingibst:
+Du kannst überprüfen, ob pycollada korrekt installiert wurde, indem du in einer Python-Konsole eingibst:
 
 
 ```python
@@ -538,7 +546,7 @@ Wenn es nichts zurückgibt (keine Fehlermeldung), dann ist alles OK
 
 Wenn es nichts zurückgibt (keine Fehlermeldung), dann ist alles OK. Unter Windows, da 0.15 pycollada sowohl in der FreeCAD Version als auch in den Entwickler Builds enthalten ist, so dass keine zusätzlichen Schritte notwendig sind.
 
-#### Mac OS 
+#### MacOS 
 
 Wenn du den Homebrew Build von FreeCAD verwendest, kannst du pycollada mit pip in dein System Python installieren.
 
@@ -583,9 +591,11 @@ IFCOpenShell ist eine derzeit in Entwicklung befindliche Bibliothek, die es erla
 
 Da ifcopenshell ziemlich neu ist, wirst du es wahrscheinlich selbst kompilieren müssen.
 
-##### Linux 
 
-== Du brauchst ein paar auf deinem System installierte Entwicklungspakete, um ifcopenshell zu kompilieren:
+
+#### Linux 
+
+Du brauchst ein paar auf deinem System installierte Entwicklungspakete, um ifcopenshell zu kompilieren:
 
 
 ```python
@@ -616,10 +626,10 @@ oder, wenn du oce statt opencascade benutzt:
 
 
 ```python
-cmake -DOCC_INCLUDE_DIR=/usr/include/oce ../ifcopenshell/cmake 
+cmake -DOCC_INCLUDE_DIR=/usr/include/oce ../ifcopenshell/cmake
 ```
 
-Da ifcopenshell hauptsächlich für Blender gemacht ist, verwendet es standardmäßig python3. Um es innerhalb von FreeCAD zu verwenden, musst du es gegen die gleiche Version von Python kompilieren, die auch von FreeCAD verwendet wird. Daher musst du möglicherweise die Python Version mit zusätzlichen cmake Parametern erzwingen (passe die Python Version an Deine an):
+Da ifcopenshell hauptsächlich für Blender gemacht ist, verwendet es standardmäßig Python3. Um es innerhalb von FreeCAD zu verwenden, musst du es gegen die gleiche Version von Python kompilieren, die auch von FreeCAD verwendet wird. Daher musst du möglicherweise die Python-Version mit zusätzlichen cmake-Parametern erzwingen (passe die Python-Version an Deine an):
 
 
 ```python
@@ -634,7 +644,7 @@ make
 sudo make install
 ```
 
-Du kannst überprüfen, ob ifcopenshell korrekt installiert wurde, indem du in einer Python Konsole eingibst:
+Du kannst überprüfen, ob ifcopenshell korrekt installiert wurde, indem du in einer Python-Konsole eingibst:
 
 
 ```python
@@ -649,9 +659,11 @@ Wenn es nichts zurückgibt (keine Fehlermeldung), dann ist alles OK
 
 *Kopiert von der IfcOpenShell README Datei*
 
-Anwendern wird empfohlen, die Visual Studio .sln Datei im Ordner win/ zu verwenden. Für Windows Anwender ist eine vorkompilierte Open CASCADE Version auf der Website <http://opencascade.org> verfügbar. Lade diese Version herunter, installiere sie und stelle die Pfade zu den Open CASCADE Header- und Bibliotheksdateien für MS Visual Studio C++ zur Verfügung.
+Anwendern wird empfohlen, die Visual Studio .sln Datei im Ordner win/ zu verwenden. Für Windows-Anwender ist eine vorkompilierte Open CASCADE Version auf der [OpenCASCADE-Webseite](http://opencascade.org) erhältlich. Lade diese Version herunter, installiere sie und stelle die Pfade zu den OpenCASCADE-Header- und Bibliotheksdateien für MS Visual Studio C++ zur Verfügung.
 
-Um den IfcPython wrapper zu erstellen, muss SWIG installiert werden. Bitte lade die aktuelle swigwin Version von <http://www.swig.org/download.html> herunter. Nach dem Entpacken der .zip Datei füge bitte den entpackten Ordner in die Umgebungsvariable PATH ein. Python muss installiert sein, bitte gib die Include- und Bibliotheks Pfade zu Visual Studio an.
+Um den IfcPython wrapper zu erstellen, muss SWIG installiert werden. Bitte lade die aktuelle swigwin Version von der [SWIG-Webseite](http://www.swig.org/download.html) herunter. Nach dem Entpacken der .zip-Datei füge bitte den entpackten Ordner in die Umgebungsvariable PATH ein. Python muss installiert sein, bitte gib die Include- und Bibliotheks-Pfade in Visual Studio an.
+
+
 
 ### Verweise
 
@@ -659,17 +671,19 @@ Tutorium [Import/Export IFC - compiling IfcOpenShell](Import/Export_IFC_-_compil
 
 ### Installation 
 
-Auf allen Plattformen, nur durch Installation des entsprechenden Pakets von <https://www.opendesign.com/guestfiles/oda_file_converter>. Nach der Installation, wenn das Dienstprogramm nicht automatisch von FreeCAD gefunden wird, musst Du möglicherweise den Pfad zur ausführbaren Konverterdatei manuell einstellen, öffne Bearbeiten → Einstellungen → Import-Export → DWG und fülle \"Pfad zum Teigha File Converter\" entsprechend.
+Auf allen Plattformen, nur durch Installation des entsprechenden Pakets von [ODA DWG-DXF Converter](https://www.opendesign.com/guestfiles/oda_file_converter). Nach der Installation, wenn das Dienstprogramm nicht automatisch von FreeCAD gefunden wird, musst Du möglicherweise den Pfad zur ausführbaren Konverterdatei manuell einstellen; öffne Bearbeiten → Einstellungen → Import-Export → DWG und fülle \"Pfad zum Teigha File Converter\" entsprechend aus.
 
-## TrägerLader (LazyLoader) 
+## LazyLoader
 
-TrägerLader (LazyLoader) ist ein Python Modul, das ein zeitversetztes Laden ermöglicht, während der Import immer noch am Anfang des Skripts erfolgt. Dies ist nützlich, wenn du ein anderes Modul importierst, das langsam ist und im gesamten Skript mehrmals verwendet wird. Die Verwendung von LazyLoader kann die Startzeiten des Arbeitsbereichs verbessern, aber das Modul muss bei der ersten Verwendung immer noch geladen werden.
+LazyLoader ist ein Python-Modul, das ein zeitversetztes Laden ermöglicht, während der Import immer noch am Anfang des Skripts erfolgt. Dies ist nützlich, wenn du ein anderes Modul importierst, das langsam ist und im gesamten Skript mehrmals verwendet wird. Die Verwendung von LazyLoader kann die Startzeiten des Arbeitsbereichs verbessern, aber das Modul muss bei der ersten Verwendung immer noch geladen werden.
 
 ### Installation 
 
 LazyLoader ist in FreeCAD v0.19 enthalten
 
-### Verwendung 
+
+
+### Anwendung 
 
 Du musst LazyLoader importieren und dann den Import des Moduls, das zurückgestellt werden soll, ändern.
 
@@ -691,7 +705,9 @@ You can also import a module from a package.
 utils = LazyLoader('PathScripts', globals(), 'PathScripts.PathUtils')
 ``` Du kannst keine Einzelfunktionen importieren, sondern nur ganze Module.
 
-### Verknüpfungen
+
+
+### Verweise 
 
 -   Originalquelle: <https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/util/lazy_loader.py>
 -   Weitere Erklärung: <https://wil.yegelwel.com/lazily-importing-python-modules/>

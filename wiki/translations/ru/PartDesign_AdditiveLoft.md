@@ -10,6 +10,8 @@
 
 # PartDesign AdditiveLoft/ru
 
+
+
 ## Описание
 
 **Аддитивный профиль** создаёт твёрдое тело в активном Теле путём перехода между двумя или более эскизами (также называемыми поперечными сечениями). Если тело уже содержит элементы, аддитивный профиль будет объединён с ними.
@@ -17,7 +19,11 @@
 ![](images/PartDesign_AddLoft_example.png ) 
 *Слева: поперечные сечения (A), (B) и (C); справа созданный Аддитивный профиль.*
 
+
+
 ## Применение
+
+
 
 ### Применение через диалог 
 
@@ -25,25 +31,34 @@
 2.  In the **Select feature** dialog select a sketch to be used as base profile object and click **OK**.
     -   Alternatively, either a single sketch or the face of a 3D object (<small>(v0.20)</small> ) can be selected prior to pressing the Additive loft button.
 3.  In the **Loft parameters**, press the **Add Section** button.
-4.  Select the next sketch in the [3D view](3D_view.md). Repeat to select more sketches in the order you want them to be lofted through. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.<small>(v0.19)</small> )
+4.  Select the next sketch in the [3D view](3D_view.md). Repeat to select more sketches in the order you want them to be lofted through. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.
 5.  Set options if needed and click **OK**.
+
+
 
 ### Применение в текущем Виде, напрямую 
 
-
-<small>(v0.19)</small> 
-
 1.  Select several sketches. It is hereby important in what order you select them:
     -   The sketch selected at first will become the base profile object in the next step
-    -   The sketches selected after the first one will become the loft sections. Also here the selection order is important: The sketch selected as second will become the first loft section, the one selected as third becomes the second section and so on. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.<small>(v0.19)</small> )
+    -   The sketches selected after the first one will become the loft sections. Also here the selection order is important: The sketch selected as second will become the first loft section, the one selected as third becomes the second section and so on. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.
     -   The first or last selection can also be a face of a 3D object (<small>(v0.20)</small> )
 2.  Press the **[<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Additive loft](PartDesign_AdditiveLoft.md)** button.
 3.  Set options if needed and click **OK**.
 
+
+
 ## Опции
+
+
+<div class="mw-translate-fuzzy">
 
 -   **Управление поверхностью**: делает прямолинейные переходы между поперечными сечениями. Не оказывает никакого эффекта, в случае если профиль формируется только по двум поперечными сечениям. Если пункт не установлен, переходы между сечениями будут плавными.
 -   **Замкнуть форму**: выполняет переход от последнего поперечного сечения к первому, создавая замкнутую форму.
+
+
+</div>
+
+
 
 ## Свойства
 
@@ -81,6 +96,8 @@
 
 
 </div>
+
+
 
 ## Ссылки
 

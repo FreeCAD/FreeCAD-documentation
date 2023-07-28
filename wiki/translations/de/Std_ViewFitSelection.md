@@ -14,7 +14,7 @@
 
 ## Beschreibung
 
-Der Befehl **Std AnsichtAuswahlEinpassen** zoomt und schwenkt die Kamera, so dass alle ausgewählten Objekte in die aktive [3D-Ansicht](3D_view/de.md) passen.
+Der Befehl **Std AnsichtAuswahlEinpassen** zoomt und schwenkt die Kamera, so dass alle ausgewählten Objekte in die aktive [3D-Ansicht](3D_view/de.md) passen. Dieser Befehl ist nützlich, falls sich Objekte außerhalb (der Ränder) der aktuellen 3D-Ansicht befinden oder sich nicht problemlos per [3D-Navigation](Mouse_navigation/de.md) finden lassen.
 
 
 

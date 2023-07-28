@@ -22,6 +22,8 @@ Applies [Coincident constraints](Sketcher_ConstrainCoincident.md) to endpoints w
     -   Use the **Z** then **J** keyboard shortcut.
     -   Use the **Sketch → Sketcher tools → [<img src=images/Sketcher_ConnectLines.svg style="width:16px"> Connect edges** entry from the top menu.
 
+
+
 ## Zabilješke
 
 Before using this command make sure that obvious constraints (horizontal, vertical, tangential) are already applied to the elements. Selecting the elements in a counter-clock-wise order seems to produce better results.

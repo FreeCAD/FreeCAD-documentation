@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Beschreibung
 
 
@@ -23,7 +25,13 @@ Der **<img src="images/Path_PostProcess.svg" width=16px> [Post Prozess](Path_Pos
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 **Jede CNC Steuerung spricht einen spezifischen G-Code Dialekt, was einen Dialekt-korrekten Postprozessor erfordert, um die endgültige Ausgabe aus dem unabhängigen internen FreeCAD G-Code Dialekt zu übersetzen.**
+
+
+</div>
 
 ### Typical functions of the Postprocessor include 
 
@@ -58,6 +66,9 @@ Wenn du einen eigenen Postprozessor schreiben willst, wirf einen Blick auf die [
 
 **Hinweis:** Mehrere mitgelieferte Postprozessoren erzeugen für viele CNC Steuerungen passenden Code oder können als Vorlage für Modifikationen verwendet werden
 
+
+<div class="mw-translate-fuzzy">
+
 Postprozessoren enthalten Konfigurationsflags und sind so konzipiert, dass sie durch Hinzufügen von G-Codes und M-Codes zu den bereitgestellten Definitionen feinabgestimmt werden können für:
 
 -   Maschineninitialisierung
@@ -66,7 +77,16 @@ Postprozessoren enthalten Konfigurationsflags und sind so konzipiert, dass sie d
 -   Kühlung ein/aus
 -   Usw\...
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Postprozessoren verwenden [FreeCADs internen G-Code Dialekt](Path_scripting/de#Das_FreeCAD_interne_GCode_Format.md) in Verbindung mit den Postprozessor Konfigurationsdefinitionen, um dialektkorrekten G-Code für Zielmaschinen zu erzeugen. Dadurch kann der Pfad Arbeitsbereich durch den Aufruf verschiedener Postprozessoren korrekten G-Code für verschiedene CNC Maschinensteuerungen erzeugen.
+
+
+</div>
 
 Die Typen der CNC Maschinensteuerungen umfassen:
 
@@ -81,7 +101,15 @@ Die Typen der CNC Maschinensteuerungen umfassen:
 -   EDM Schneider
 -   Usw\...
 
+
+<div class="mw-translate-fuzzy">
+
 Wenn nur eine CNC Maschine verwendet wird, oder wenn alle CNC Maschinen einen gemeinsamen Postprozessor verwenden, muss der Pfad Arbeitsbereich nur einen einzigen Postprozessor enthalten. Wenn ein einziger Postprozessor nicht ausreicht, um G-Code für alle Ziel CNC Steuerungen auszugeben, dann müssen mehrere Postprozessoren installiert werden.
+
+
+</div>
+
+
 
 ## Anwendung
 
@@ -98,11 +126,16 @@ Wenn nur eine CNC Maschine verwendet wird, oder wenn alle CNC Maschinen einen ge
 
 </div>
 
+
+
 ## Optionen
 
 Die Eigenschaften der Ausgabedatei und des Postprozessors können jederzeit vor dem Aufruf des Postprozessors im [Auftrag](Path_Job/de.md) eingestellt werden.
 
 Die bereitgestellten Postprozessoren sind mit Kommentaren versehen, die Bereiche mit Flags, Konfigurationsvariablen und Abschnitten von G-Codes und M-Codes angeben, die vom Postprozessor zur Konfiguration der Ausgabe verwendet werden sollen.
+
+
+<div class="mw-translate-fuzzy">
 
 Zu den typischen True/False Merkern der Konfiguration gehören:
 
@@ -112,6 +145,12 @@ Zu den typischen True/False Merkern der Konfiguration gehören:
 -   SHOW_EDITOR (True = Zulassen, False = Unterdrücken), Dient zur Anzeige des ausgegebenen G-Codes in einem Aufklappfenster beim Aufruf des Postprozessors.
 -   MODAL (True = Allow, False = Suppress), Reduziert die Anzahl der ausgegebenen G-Code Zeilen, indem die Modusinformationen entfernt werden, wenn sich der Modus nicht ändert.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Typische Konfigurationsvariablen schließen ein:
 
 -   LINENR (Zeilennummer), wird verwendet, um den Zeilennummernindex einzustellen.
@@ -119,13 +158,28 @@ Typische Konfigurationsvariablen schließen ein:
 -   MACHINE_NAME (Name der Ziel CNC Fräse), wird verwendet, um eine Maschinennamen Kennzeichnung in die endgültige Ausgabedatei einzufügen.
 -   PRECISION, wird verwendet, um die Anzahl der Ziffern nach der Dezimalstelle in der endgültigen Ausgabedatei festzulegen.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Typische Konfigurationsabschnitte sind:
 
 -   PREAMBLE (Code Konfiguration, die zu Beginn des Auftrags eingefügt wird)
 -   POSTAMBLE (Code Konfiguration, die an den Auftrag angehängt wird und das Parken der Maschine vorsieht, usw\...)
 -   TOOL_CHANGE (Code, der bei jedem Werkzeugwechsel im Auftrag eingefügt wird)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Der **Bearbeiten** → **Einstellungen...** → **Pfad** → **Auftragseinstellungen Reiter** → **Standardeinstellungen** → **Pfad** wird verwendet, um den bei der Auftragserstellung ausgewählten Standard Postprozessor festzulegen. Dies erlaubt Pfad Arbeitsbereich so konfiguriert zu werden, dass nur die gewünschten Postprozessoren angezeigt werden und ein Standard festgelegt wird.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

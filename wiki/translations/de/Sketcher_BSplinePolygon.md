@@ -10,12 +10,16 @@
 
 # Sketcher BSplinePolygon/de
 
+
+
 ## Beschreibung
 
 Blendet die Darstellung des steuernden Polygons einer B-Spline-Kurve ein oder aus (siehe Seite [B-Splines](B-Splines/de.md) für weitere Informationen über B-Splines).
 
 ![](images/Sketcher_B-spline_example01.png ) 
 *Eine B-Spline-Kurve. Das Kontrollpolygon besteht aus den grünen Geraden, die die Kontrollpunkte verbinden.*
+
+
 
 ## Anwendung
 

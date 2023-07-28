@@ -1,37 +1,46 @@
 ---
 - GuiCommand:
    Name:Std Windows
-   MenuLocation:Windows → Windows...
-   Workbenches:All
-   SeeAlso:[Std ActivateNextWindow](Std_ActivateNextWindow.md), [Std ActivatePrevWindow](Std_ActivatePrevWindow.md)
+   Name/it:Finestre
+   MenuLocation:Finestre → Finestre...
+   Workbenches:Tutti
+   SeeAlso:[Prossima](Std_ActivateNextWindow/it.md), [Precedente](Std_ActivatePrevWindow/it.md)
 ---
 
 # Std Windows/it
 
-## Description
 
-The **Std Windows** command opens a dialog box with a list of [Main view area](Main_view_area.md) windows. From this list a selected window can be activated.
+
+## Descrizione
+
+Il comando **Finestre** apre una finestra di dialogo con un elenco di finestre dell\'[Area della vista principale](Main_view_area/it.md). Da questo elenco può essere attivata una finestra selezionata.
 
 ![](images/Std_Windows_dialog.png ) 
-*The Choose Window dialog box*
+*La finestra di dialogo Scegli finestra*
 
-## Usage
 
-1.  Select the **Windows → <img src="images/Std_Windows.svg" width=16px> Windows...** option from the menu.
-2.  The Choose Window dialog box opens.
-3.  Do one of the following:
-    -   Select a window in the list and press the **Activate** button.
-    -   Double-click a window in the list.
-4.  The dialog box closes.
-5.  The selected window is activated.
 
-## Options
+## Utilizzo
 
--   Press **Esc** or the **Cancel** button to abort the command.
+1.  Selezionare l\'opzione **Finestre → <img src="images/Std_Windows.svg" width=16px> Finestre...** dal menu.
+2.  Si apre la finestra di dialogo Scegli finestra.
+3.  Effettuare una delle seguenti operazioni:
+    -   Selezionare una finestra nell\'elenco e premere il pulsante **Attiva**.
+    -   Fare doppio clic su una finestra nell\'elenco.
+4.  La finestra di dialogo si chiude.
+5.  La finestra selezionata viene attivata.
 
-## Notes
 
--   [Main view area](Main_view_area.md) windows are also listed in the **Windows** menu and can be activated from there.
+
+## Opzioni
+
+-   Premere il tasto **Esc** o il pulsante **Annulla** per annullare il comando.
+
+
+
+## Note
+
+-   Le finestre dell\'[Area della vista principale](Main_view_area.md) sono elencate anche nel menu **Finestre** e possono essere attivate da lì.
 
 
 

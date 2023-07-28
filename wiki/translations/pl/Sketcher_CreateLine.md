@@ -2,13 +2,15 @@
 - GuiCommand:/pl
    Name:Sketcher CreateLine
    Name/pl:Szkicownik: Utwórz linię
-   MenuLocation:Szkic → Elementy geometryczne szkicownika → Tworzenie linii
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz linię
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **L**
    SeeAlso:[Polilinia](Sketcher_CreatePolyline/pl.md)
 ---
 
 # Sketcher CreateLine/pl
+
+
 
 ## Opis
 
@@ -17,6 +19,8 @@ Narzędzie to rysuje linię, wybierając dwa punkty w oknie [widoku 3D](3D_view/
 ![](images/Sketcher_LineExample1.png‎ )
 
 Utworzony obiekt linii zaczyna się i kończy w podanych punktach, ale linia jest nieskończona pod względem wiązań [Utwórz styczną](Sketcher_ConstrainTangent/pl.md), [Utwórz punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md) oraz [Ustaw kąt linii](Sketcher_ConstrainAngle/pl.md). Oznacza to na przykład, że punkt z wiązaniem [Wiązanie kąta](Sketcher_ConstrainAngle/pl.md) może nie znajdować się pomiędzy dwoma podanymi punktami, ale może leżeć poza nimi na przedłużeniu narysowanej linii.
+
+
 
 ## Użycie
 

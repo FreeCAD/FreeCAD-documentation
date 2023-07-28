@@ -14,9 +14,13 @@
 
 
 
+
+
 Dans ce tutoriel, nous allons ajouter la contrainte de vitesse d\'écoulement à FreeCAD et implémenter le support pour le solveur Elmer. Assurez-vous d\'avoir lu et compris [Module d\'extension FEM](Extend_FEM_Module/fr.md) avant de lire ce tutoriel.
 
 Ce tutoriel explique uniquement comment implémenter des contraintes en Python. Contrairement aux solveurs et aux équations, les contraintes suivent la structure classique du module FEM. C\'est-à-dire que tous les modules d\'une contrainte ont leur place soit dans le paquet {{Incode|femobjects}} ou le paquet {{Incode|femviewprovider}}.
+
+
 
 ## Résumé
 
@@ -24,6 +28,8 @@ Ce tutoriel explique uniquement comment implémenter des contraintes en Python. 
 2.  **Créer une commande graphique:** ajoute une commande à l\'atelier FEM laquelle permet d\'ajouter une contrainte de flux à l\'analyse active.
 3.  **Créer un panneau de tâches:** le panneau de tâches est nécessaire pour permettre à l\'utilisateur de définir les limites de la contrainte de vélocité. Cela rend également la saisie des paramètres un peu plus conviviale.
 4.  **Extension du fichier writer du solveur Elmer:** ajoute le support pour la nouvelle contrainte au solveur Elmer en développant son exportateur de fichier sif.
+
+
 
 ## Créer un objet document 
 
@@ -110,6 +116,8 @@ def makeConstraintFlowVelocity(name="FlowVelocity"):
     return obj
 ```
 
+
+
 ## Création d\'une commande graphique 
 
 Dans cette étape, nous allons modifier les fichiers suivants:
@@ -160,6 +168,8 @@ Gui.addCommand('FEM_AddConstraintFlowVelocity', Command())
 Ajoutez le nouveau fichier de commande au système de build comme décrit dans [Module d\'extension FEM](https://www.freecadweb.org/wiki/Extend_FEM_Module/fr). Recherchez la liste appropriée en recherchant les modules de commande existants.
 
 Placez la commande dans Gui/Workbench.cpp pour l'ajouter à la barre d'outils et au menu. Recherchez une contrainte existante de la même catégorie que la nouvelle (par exemple, Flow), faites copier/coller et ajustez l\'ID de la commande. Cela devrait être fait deux fois, une fois pour le menu et une pour la barre d\'outils.
+
+
 
 ## Créer un panneau de tâches 
 
@@ -282,6 +292,8 @@ class ViewProxy(FemConstraint.ViewProxy):
         Gui.ActiveDocument.setEdit(vobj.Object.Name)
         return True
 ```
+
+
 
 ## Extension du fichier writer du solveur Elmer 
 

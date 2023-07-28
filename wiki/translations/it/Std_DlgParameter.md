@@ -9,6 +9,8 @@
 
 # Std DlgParameter/it
 
+
+
 ## Descrizione
 
 Il comando **Modifica parametri** apre l\'editor dei parametri. Nell\'editor dei parametri i parametri che controllano il comportamento di FreeCAD e dei suoi ambienti di lavoro possono essere ispezionati e facoltativamente rimossi, aggiunti o modificati. I parametri sono memorizzati in un file chiamato **user.cfg**, la posizione di questo file dipende dal sistema operativo.
@@ -18,6 +20,8 @@ Lavorare con l\'editor dei parametri richiede una certa esperienza. Per i parame
 ![](images/Std_DlgParameter_dialog.png ) 
 *La finestra di dialogo Editor dei parametri*
 
+
+
 ## Utilizzo
 
 1.  Selezionare l\'opzione **Strumenti → <img src="images/Std_DlgParameter.svg" width=16px> Modifica parametri...** dal menu.
@@ -25,7 +29,11 @@ Lavorare con l\'editor dei parametri richiede una certa esperienza. Per i parame
 3.  Opzionalmente premere il pulsante **Salva nel disco** per aggiornare immediatamente il file **user.cfg**. Ciò non è indispensabile in quanto FreeCAD aggiornerà automaticamente quel file alla chiusura dell\'applicazione.
 4.  Premere il pulsante **Chiudi** per chiudere l\'editor dei parametri.
 
+
+
 ## Opzioni
+
+
 
 ### Pannello di sinistra 
 
@@ -33,49 +41,65 @@ Il pannello di sinistra mostra un albero con gruppi di parametri e sottogruppi.
 
 *Nel menu di scelta rapida del pannello sono disponibili le seguenti opzioni:*
 
+
+
 #### Espandi/Riduci
 
 1.  Se un gruppo selezionato ha uno o più sottogruppi, può essere espanso o compresso scegliendo questa opzione dal menu contestuale. Ma si può anche espandere e comprimere l\'albero nel solito modo.
 
-#### Aggiungere un sottogruppo 
+
+
+#### Aggiungi sottogruppo 
 
 1.  Selezionare un gruppo.
 2.  Selezionare l\'opzione **Aggiungi sottogruppo** nel menu contestuale.
 3.  Immettere un nome per il nuovo sottogruppo nella finestra di dialogo che si apre.
 4.  Premere il pulsante **OK**.
 
-#### Rimuovere un gruppo 
+
+
+#### Rimuovi gruppo 
 
 1.  Selezionare un gruppo.
 2.  Selezionare l\'opzione **Rimuovi gruppo** nel menu contestuale.
 3.  Premere il pulsante **Sì** nella finestra di dialogo che si apre per confermare che si desidera rimuovere il gruppo (inclusi tutti i suoi sottogruppi e tutti i parametri del gruppo e dei suoi sottogruppi).
 
-#### Rinominare un gruppo 
+
+
+#### Rinomina gruppo 
 
 1.  Selezionare un gruppo.
 2.  Selezionare l\'opzione **Rinomina gruppo** nel menu contestuale.
 3.  Inserire un nuovo nome
 4.  Un gruppo può anche essere rinominato facendo doppio clic su di esso.
 
-#### Esportare un parametro 
+
+
+#### Esporta parametro 
 
 1.  Selezionare un gruppo.
 2.  Selezionare l\'opzione **Esporta parametro** nel menu contestuale.
 3.  Immettere un nome file nella finestra di dialogo.
 4.  Premere il pulsante **Salva**.
 
-#### Importare un parametro 
+
+
+#### Importa parametro 
 
 1.  Selezionare un gruppo che non contiene alcun sottogruppo o rimuoverli prima. Tutti i parametri esistenti nel gruppo andranno persi.
 2.  Selezionare l\'opzione **Importa parametro** nel menu contestuale.
 3.  Selezionare un file \*.FCParam nella finestra di dialogo.
 4.  Premere il pulsante **Apri**.
 
+
+
 ### Pannello di destra 
 
 Il pannello di destra mostra i parametri nel gruppo selezionato nel pannello di sinistra. Se questo gruppo contiene solo sottogruppi, il pannello di destra è vuoto.
 
 *Nel menu di scelta rapida del pannello sono disponibili le seguenti opzioni:*
+
+
 
 #### Cambia valore 
 
@@ -85,17 +109,23 @@ Il pannello di destra mostra i parametri nel gruppo selezionato nel pannello di 
 4.  Premere il pulsante **OK**.
 5.  Il valore di un parametro può anche essere modificato facendo doppio clic sul suo campo \"Tipo\" o \"Valore\".
 
-#### Rimuovere una chiave 
+
+
+#### Rimuovi la chiave 
 
 1.  Selezionare un parametro.
-2.  Selezionare l\'opzione **Rimuovi chiave** nel menu contestuale.
+2.  Selezionare l\'opzione **Rimuovi la chiave** nel menu contestuale.
 
-#### Rinominare una chiave 
+
+
+#### Rinomina la chiave 
 
 1.  Selezionare un gruppo.
-2.  Selezionare l\'opzione **Rinomina gruppo** nel menu contestuale.
+2.  Selezionare l\'opzione **Rinomina la chiave** nel menu contestuale.
 3.  Inserire un nuovo nome
-4.  Un gruppo può anche essere rinominato facendo doppio clic sul suo campo \"Nome\".
+4.  Un parametro può anche essere rinominato facendo doppio clic sul suo campo \"Nome\".
+
+
 
 #### Nuovo elemento string 
 
@@ -105,54 +135,66 @@ Il pannello di destra mostra i parametri nel gruppo selezionato nel pannello di 
 4.  Immettere un valore nella finestra di dialogo successiva.
 5.  Premere il pulsante **OK**.
 
+
+
 #### Nuovo elemento float 
 
-1.  Select the **New float item** or **New → New float item** option from the context menu.
-2.  The next steps are similar to those for a [New string item](#New_string_item.md)
+1.  Selezionare l\'opzione **Nuovo elemento float** o **Nuovo → Nuovo elemento float** dal menu contestuale.
+2.  I passaggi successivi sono simili a quelli per un [Nuovo elemento string](#Nuovo_elemento_string.md)
+
+
 
 #### Nuovo elemento integer 
 
-1.  Select the **New integer item** or **New → New integer item** option from the context menu.
-2.  The next steps are similar to those for a [New string item](#New_string_item.md)
+1.  Seleziona l\'opzione **Nuovo elemento integer** o **Nuovo → Nuovo elemento integer** dal menu contestuale.
+2.  I passaggi successivi sono simili a quelli per un [Nuovo elemento string](#New_string_item/it.md)
 
-#### New unsigned item 
 
-1.  Select the **New unsigned item** or **New → New unsigned item** option from the context menu.
-2.  The next steps are similar to those for a [New string item](#New_string_item.md)
 
-#### New Boolean item 
+#### Nuovo elemento unsigned 
 
-1.  Select the **New Boolean item** or **New → New Boolean item** option from the context menu.
-2.  The next steps are similar to those for a [New string item](#New_string_item.md)
+1.  Seleziona l\'opzione **Nuovo elemento unsigned** o **Nuovo → Nuovo elemento unsigned** dal menu contestuale.
+2.  I passaggi successivi sono simili a quelli per un [Nuovo elemento string](#Nuovo_elemento_string.md)
 
-### Sorting
 
-By default the groups in each tree level in the left panel are sorted alphabetically, and the parameters in the right panel are sorted alphabetically as well. But the order in each panel can be reversed by clicking the \'Group\' or \'Name\' header respectively.
 
-### Quick search 
+#### Nuovo elemento Boolean 
 
-Typing a (partial) string in this input box will fully expand the tree in the left panel and highlight all groups with names that match the entered value. If no matches are found the background of the input box will turn red.
+1.  Selezionare l\'opzione **Nuovo elemento Boolean** o **Nuovo → Nuovo elemento Boolean** dal menu contestuale.
+2.  I passaggi successivi sono simili a quelli per un [Nuovo elemento string](#Nuovo_elemento_string.md)
 
-### Find
 
-1.  In the left panel select the group where you want to start your search. The search direction is down. The search is not restricted to the group and its sub-groups, but rather the selected group and everything below it in the tree will be searched.
-2.  Press the **Find...** button.
-3.  Enter a string in the **Find what** input box. The search is case-insensitive.
-4.  Check one or more of the {{CheckBox|TRUE|Groups}}, {{CheckBox|TRUE|Names}} and {{CheckBox|TRUE|Values}} checkboxes. Note that only string values will be searched.
-5.  Optionally (un)check the {{CheckBox|TRUE|Match whole string only}} checkbox.
-6.  Press the **Find Next** button to select the first group with a match. Matching parameters are not individually highlighted. Optionally repeat this until no further matches can be found.
-7.  It is possible to start a new search without closing the dialog box. Again selecting the group from which to start searching is then usually required.
-8.  Use the **Cancel** button to close the dialog box.
+
+### Ordinamento
+
+Per impostazione predefinita, i gruppi in ogni livello dell\'albero nel pannello di sinistra sono ordinati alfabeticamente e anche i parametri nel pannello di destra sono ordinati alfabeticamente. Ma l\'ordine in ciascun pannello può essere invertito facendo clic rispettivamente sull\'intestazione \"Gruppo\" o \"Nome\".
+
+
+
+### Ricerca veloce 
+
+La digitazione di una stringa (parziale) in questa casella di immissione espanderà completamente l\'albero nel pannello di sinistra ed evidenzierà tutti i gruppi con nomi che corrispondono al valore immesso. Se non vengono trovate corrispondenze, lo sfondo della casella di input diventerà rosso.
+
+
+
+### Trova
+
+1.  Nel pannello di sinistra selezionare il gruppo dal quale iniziare la ricerca. La direzione di ricerca è verso il basso. La ricerca non è ristretta al gruppo e ai suoi sottogruppi, ma verrà effettuata nel gruppo selezionato e in tutto ciò che si trova sotto di esso nell\'albero.
+2.  Premere il pulsante **Trova...**.
+3.  Inserire una stringa nella casella di input **Trova**. La ricerca non fa distinzione tra maiuscole e minuscole.
+4.  Selezionare una o più caselle di controllo {{CheckBox|TRUE|Gruppi}}, {{CheckBox|TRUE|Nomi}} e {{CheckBox|TRUE|Valori}}. Si noti che verranno cercati solo i valori stringa.
+5.  Facoltativamente (de)selezionare la casella di controllo {{CheckBox|TRUE|Controlla solo stringa intera}}.
+6.  Premere il pulsante **Trova successivo** per selezionare il primo gruppo con una corrispondenza. I parametri corrispondenti non sono evidenziati individualmente. Se lo si desidera, ripetere l\'operazione fino a quando non è possibile trovare ulteriori corrispondenze.
+7.  È possibile iniziare una nuova ricerca senza chiudere la finestra di dialogo. Anche in questo caso, di solito è necessario selezionare il gruppo da cui iniziare la ricerca.
+8.  Usare il pulsante **Annulla** per chiudere la finestra di dialogo.
+
+
 
 ## Note
-
-
-<div class="mw-translate-fuzzy">
 
 -   La pagina [Ottimizzare l\'installazione](Fine-tuning/it.md) elenca una serie di parametri che potrebbero essere di interesse.
 
 
-</div>
 
 ## Script
 
@@ -161,7 +203,7 @@ Typing a (partial) string in this input box will fully expand the tree in the le
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
-Preferences can be accessed from Python scripts using their corresponding path in the [Parameter Editor](Std_DlgParameter.md). For example, the **Edit → Preferences → Import-Export → DXF → Import options → Join geometry** preference appears in **Tools → Edit parameters → BaseApp → Preferences → Mod → Draft → dxfCreatePart** and has type `Boolean`. It can therefore be accessed in Python using the following code: 
+È possibile accedere alle preferenze dagli script Python utilizzando il percorso corrispondente in [Modifica parametri](Std_DlgParameter/it.md). Ad esempio, la preferenza **Modifica → Preferenze → Importa-Esporta → DXF → Opzioni di importazione → Unisci geometria** appare in **Strumenti → Modifica parametri → BaseApp → Preferences → Mod → Draft → dxfCreatePart** che ha impostazione `Boolean`. È quindi possibile accedervi in ​​Python utilizzando il seguente codice: 
 ```python
 # get:
 App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetBool('dxfCreatePart')
@@ -169,18 +211,12 @@ App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetBool('dxfCreateP
 App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").SetBool('dxfCreatePart', True)
 ```
 
-Finding which parameter is used to store which option from the Preferences editor can require searching a bit, but the [Parameter Editor](Std_DlgParameter.md) offers a search facility, which should help.
+Trovare quale parametro viene utilizzato per memorizzare quale opzione dall\'editor delle preferenze può richiedere un po\' di ricerca, ma l\'[Modifica parametri](Std_DlgParameter/it.md) offre una funzione di ricerca, che dovrebbe essere d\'aiuto.
 
-It is likely a bad idea to modify the preferences of other parts of FreeCAD unless doing so at the user\'s request. The setter can however be used to set parameters for your own workbench, and the getter can be used to obey existing parameters.
-
-
-<div class="mw-translate-fuzzy">
+Probabilmente è una cattiva idea modificare le preferenze di altre parti di FreeCAD a meno che non lo si faccia su richiesta dell\'utente. Il setter può tuttavia essere utilizzato per impostare i parametri per il proprio ambiente di lavoro e il getter può essere utilizzato per obbedire ai parametri esistenti.
 
 
 
-
-
-</div>
 
 
 {{Std Base navi

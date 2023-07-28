@@ -1,30 +1,37 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher ConnectLines
-   MenuLocation:Sketch → Sketcher tools → Connect edges
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Połącz linie
+   MenuLocation:Szkic → Narzędzia szkicownika → Połącz linie
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**Z** **J**
    Version:0.15
-   SeeAlso:[Sketcher ConstrainCoincident](Sketcher_ConstrainCoincident.md)
+   SeeAlso:[Wiązanie zbieżności punktów](Sketcher_ConstrainCoincident/pl.md)
 ---
 
 # Sketcher ConnectLines/pl
 
-## Description
 
-Applies [Coincident constraints](Sketcher_ConstrainCoincident.md) to endpoints with the same coordinates of the selected elements.
 
-## Usage
+## Opis
 
-1.  Select the unconnected elements in the [3D view](3D_view.md) or in the [Task panel](Task_panel.md) on the left side of the screen
-2.  Invoke the command using several methods:
-    -   Press the **[<img src=images/Sketcher_ConnectLines.svg style="width:16px"> [Connect edges](Sketcher_ConnectLines.md)** button.
-    -   Use the **Z** then **J** keyboard shortcut.
-    -   Use the **Sketch → Sketcher tools → [<img src=images/Sketcher_ConnectLines.svg style="width:16px"> Connect edges** entry from the top menu.
+Narzędzie to stosuje [Wiązanie zbieżności punktów](Sketcher_ConstrainCoincident/pl.md) do punktów końcowych o tych samych współrzędnych wybranych elementów.
 
-## Notes
 
-Before using this command make sure that obvious constraints (horizontal, vertical, tangential) are already applied to the elements. Selecting the elements in a counter-clock-wise order seems to produce better results.
+
+## Użycie
+
+1.  Wybierz niepołączone elementy w okinie [Widoku 3D](3D_view/pl.md) lub w [Panelu zadań](Task_panel/pl.md) po lewej stronie ekranu.
+2.  Wywołaj polecenie za pomocą jednej z kilku metod:
+    -   Naciśnij przycisk **[<img src=images/Sketcher_ConnectLines.svg style="width:16px"> '''Połącz krawędzie'''**.
+    -   Użyj skrótu klawiaturowego **Z**, a następnie **J**.
+    -   Użyj opcji **Szkic → Narzędzia szkicownika → [<img src=images/Sketcher_ConnectLines.svg style="width:16px"> Połącz krawędzie** z menu głównego.
+
+
+
+## Uwagi
+
+Przed użyciem tego polecenia upewnij się, że oczywiste wiązania *(poziome, pionowe, styczne)* są już zastosowane do elementów. Wybieranie elementów w kolejności przeciwnej do wskazówek zegara wydaje się dawać lepsze rezultaty.
 
 
 

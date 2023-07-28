@@ -23,6 +23,8 @@ La herramienta **<img src="images/Part_CheckGeometry.svg" width=16px> [Pieza Com
 
 </div>
 
+
+
 ## Utilización
 
 
@@ -62,7 +64,7 @@ La función ComprobarGeometría comprueba si la [Representación del límite](ht
 
 ### Log errors 
 
-If ticked, any errors found are also logged in the [report view](Report_view.md). <small>(v0.19)</small> 
+If ticked, any errors found are also logged in the [report view](Report_view.md).
 
 ## Shape Content 
 

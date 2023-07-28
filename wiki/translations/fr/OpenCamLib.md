@@ -9,6 +9,8 @@ Github : <https://github.com/aewallin/opencamlib>
 
 Site web : <http://www.anderswallin.net/CAM/>
 
+
+
 ## Installation
 
 ### Windows
@@ -44,6 +46,8 @@ Le dépôt est [ici](https://github.com/aewallin/opencamlib) et contient des ins
 
 Avant de commencer l\'installation ou pendant le processus d\'installation, vous constaterez probablement que vous devez installer des packages supplémentaires :
 
+#### Ubuntu/Debian
+
 Par exemple : {{Code|lang=bash|code=
 sudo apt install cmake
 sudo apt install libboost-program-options-dev
@@ -55,6 +59,20 @@ sudo apt-get install texlive-full
 Remarque: \"libboost-program-options-dev\" peut être remplacé par \"libboost-all-dev\".
 
 Si vous avez des difficultés, examinez attentivement tous les messages d\'erreur que vous obtenez pendant les phases de cmake et de make, car vous devrez peut-être installer des paquets supplémentaires.
+
+
+
+#### Arch Linux 
+
+1.  Installez OpenCamLib à partir du [package AUR](https://aur.archlinux.org/packages/opencamlib-git).
+2.  Exécutez ensuite le code suivant dans la [console Python](Python_console/fr.md) de FreeCAD
+
+
+{{Code|lang=bash|code=
+import sys
+sys.path.append('/usr/opencamlib/')
+import ocl
+}}
 
 #### Python 3 
 
@@ -137,12 +155,16 @@ En cas d\'erreur, la valeur de retour sera :
 
 Pour cmake, l\'option Release est très importante, lorsque vous utilisez Debug area et ocl vont entrer en collision et l\'une ou l\'autre des bibliothèques ne sera pas chargée (en fonction de ce qui a été chargé en premier).
 
+
+
 ## Plus d\'aide 
 
 Si vous rencontrez des difficultés, vous pouvez trouver de l\'aide supplémentaire sur ces messages du forum :
 
 -   [Windows](https://forum.freecadweb.org/viewtopic.php?t=19205)
 -   [Linux](https://forum.freecadweb.org/viewtopic.php?t=18017)
+
+
 
 ## Remerciements
 

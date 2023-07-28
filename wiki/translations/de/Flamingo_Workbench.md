@@ -1,11 +1,7 @@
 # Flamingo Workbench/de
-<div class="mw-translate-fuzzy">
+**Der Arbeitsbereich Flamingo (Python2/Qt4) wurde durch den Arbeitsbereich Dodo (Python3/Qt5) abgelöst. Diese Wiki-Seite hebt die Unterschiede zwischen den beiden Arbeitsbereichen hervor. Zurzeit wird der Arbeitsbereich [Dodo](Dodo_Workbench.md) hierher verlinkt.**
 
 
-**Flamingo Arbeitsbereich (Python2/Qt4) wurde durch die Dodo Arbeitsbereich (Python3/Qt5) abgelöst. Diese Wiki Seite wird die Unterschiede zwischen den einzelnen Arbeitsbereichen hervorheben.**
-
-
-</div>
 
 ## Einleitung
 
@@ -485,16 +481,13 @@ To move quickly any part, to access the underlying objects for instance, this to
 
 Opens one dialog to calculate the pressure losses across the pype-parts selected in the viewport or across one PypeBranch. The friction coefficient is calculated for each straight tube and elbow. For other objects the concentrated pressure loss is calculated through the flow factor, provided that the attribute Kv is available and set to a positive value.
 
+
+
 ## Verknüpfungen
 
-
-<div class="mw-translate-fuzzy">
-
--   FreeCAD Forum: [Neue Arbeitsbereich für Metallkonstruktionen](http://forum.freecadweb.org/viewtopic.php?f=8&t=17035) (Ankündigung)
+-   Forum: [Neuer Arbeitsbereich für Metallkonstruktionen](http://forum.freecadweb.org/viewtopic.php?f=8&t=17035) (Ankündigung)
+-   Forum: [Arbeitsbereiche Flamingo & Dodo - discussion thread](https://forum.freecadweb.org/viewtopic.php?t=22711)
 -   Tutorien: [flamingo/tutorials](https://github.com/oddtopus/flamingo/tree/master/tutorials)
-
-
-</div>
 
 -   Video Tutorien:
     -   [Einfaches Video-Tutorial zur Rahmenerstellung mit Rohren](https://www.youtube.com/watch?v=_Or91gdBLMU)
@@ -507,17 +500,15 @@ Opens one dialog to calculate the pressure losses across the pype-parts selected
     -   [Flamingo GitHub Problem Warteschlange](https://github.com/oddtopus/flamingo/issues)
     -   [Dodo GitHub Problem Warteschlange](https://github.com/oddtopus/dodo/issues)
 
+
+
 ## Andere nützliche Verknüpfungen 
 
-
-<div class="mw-translate-fuzzy">
-
--   [External workbenches](External_workbenches/de.md): Liste der Arbeitsbereiche in Entwicklung.
+-   [Externe Arbeitsbereiche](External_workbenches/de.md)
 -   [Makro Rezepte](Macros_recipes/de.md)
--   [OSE Rohr Arbeitsbereich: um zusätzliche Rohrverbindungen zu erstellen](https://wiki.opensourceecology.org/wiki/OSE_Piping_Workbench)
+-   [Arbeitsbereich OSE-Rohrleitung: um zusätzliche Rohrverbindungen zu erstellen](https://wiki.opensourceecology.org/wiki/OSE_Piping_Workbench)
 
 
-</div>
 
 ## Externe Arbeitsbereiche 
 

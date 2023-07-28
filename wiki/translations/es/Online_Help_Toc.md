@@ -22,6 +22,9 @@ Alli esta otra tabla de contenidos para el [Manual de FreeCAD](Manual_Introducti
     -   [El Documento de FreeCAD](Document_structure/es.md)
     -   [Editor de Propiedades](Property_editor/es.md)
 
+
+<div class="mw-translate-fuzzy">
+
 -   Los [Ambientes de trabajo](Workbenches/es.md)
     -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Herramientas estándar para todos los ambientes de trabajo](Std_Base/es.md)
     -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;">[El Ambiente de trabajo Arquitectura](Arch_Workbench/es.md)
@@ -46,6 +49,9 @@ Alli esta otra tabla de contenidos para el [Manual de FreeCAD](Manual_Introducti
     -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [El Ambiente de trabajo marco de pruebas](Testing/es.md)
     -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;">[El Ambiente de trabajo Web](Web_Workbench/es.md)
     -   [El Ambiente de trabajo externos](External_workbenches/es.md)
+
+
+</div>
 
 -   [Lista de todos los comandos de FreeCAD](List_of_Commands/es.md)
 

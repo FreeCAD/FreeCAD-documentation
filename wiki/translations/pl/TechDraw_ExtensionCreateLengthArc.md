@@ -1,8 +1,9 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ExtensionCreateLengthArc
-   MenuLocation:TechDraw → Extensions: Dimensions → Create Arc Length Dimension
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Rozszerzenie Dodaj wymiar długości łuku
+   MenuLocation:Rysunek Techniczny → Rozszerzenia: Wymiary → Dodaj wymiar długości łuku
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
    SeeAlso:
@@ -10,20 +11,24 @@
 
 # TechDraw ExtensionCreateLengthArc/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_ExtensionCreateLengthArc.svg  style="width:24px;"> **TechDraw ExtensionCreateLengthArc** tool creates an arc length dimension.
+
+## Opis
+
+Narzędzie **Dodaj wymiar długości łuku** tworzy wymiar długości łuku.
 
 <img alt="" src=images/TechDraw_ExtensionCreateLengthArcExample.png  style="width:300px;"> 
-*On the right the created dimension*
+*Po prawej utworzony wymiar.*
 
-## Usage
 
-1.  Select a single circular arc.
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionCreateLengthArc.svg" width=16px> [TechDraw ExtensionCreateLengthArc](TechDraw_ExtensionCreateLengthArc.md)** button.
-    -   Select the **TechDraw → Extensions: Dimensions → <img src="images/TechDraw_ExtensionCreateLengthArc.svg" width=16px> Create Arc Length Dimension** option from the menu.
-3.  An arc length dimension is created.
+
+## Użycie
+
+1.  Wybierz pojedynczy łuk koła.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionCreateLengthArc.svg" width=16px> '''Dodaj wymiar długości łuku'''**.
+    -   Wybierz z menu **Rysunek Techniczny → Rozszerzenia: Wymiary → <img src="images/TechDraw_ExtensionCreateLengthArc.svg" width=16px> Dodaj wymiar długości łuku**.
+3.  Zostanie utworzony wymiar długości łuku.
 
 
 

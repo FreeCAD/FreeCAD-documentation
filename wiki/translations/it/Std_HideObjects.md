@@ -1,8 +1,7 @@
 ---
 - GuiCommand:/it
    Name:Std HideObjects
-   Name/it:Std HideObjects
-   Empty:1
+   Name/it:Nascondi tutti gli oggetti
    MenuLocation:Visualizza → Visibilità → Nascondi tutti gli oggetti
    Workbenches:Tutti
    SeeAlso:[Mostra/Nascondi](Std_ToggleVisibility/it.md), [Mostra la selezione](Std_ShowSelection/it.md), [Nascondi la selezione](Std_HideSelection/it.md), [Commuta tutti gli oggetti](Std_ToggleObjects/it.md), [Mostra tutti gli oggetti](Std_ShowObjects/it.md)
@@ -11,21 +10,26 @@
 # Std HideObjects/it
 
 
-</div>
 
 ## Descrizione
 
-The **Std HideObjects** command hides all objects belonging to the active document in [3D views](3D_view.md).
+Il comando **Nascondi tutti gli oggetti** nasconde tutti gli oggetti appartenenti al documento attivo nella [Vista 3D](3D_view/it.md).
+
+
 
 ## Utilizzo
 
-1.  Select the **View → Visibility → <img src="images/Std_HideObjects.svg" width=16px> Hide all objects** option from the menu.
+1.  Selezionare l\'opzione **Visualizza → Visibilità → <img src="images/Std_HideObjects.svg" width=16px> Nascondi tutti gli oggetti** dal menu.
+
+
 
 ## Note
 
--   Invisible objects are displayed with a greyed out label and a greyed out icon in the [Tree view](Tree_view.md).
--   The action of this command cannot be undone with [Std Undo](Std_Undo.md).
--   The visibility of an object can also be changed through its related **Visibility** property in the [Property editor](Property_editor.md) or the [Combo view](Combo_view.md).
+-   Gli oggetti invisibili vengono visualizzati con un\'etichetta in grigio e un\'icona in grigio nella [Vista ad albero](Tree_view/it.md).
+-   L\'azione di questo comando non può essere annullata con [Annulla](Std_Undo/it.md).
+-   La visibilità di un oggetto può anche essere modificata tramite la relativa proprietà **Visibility** in [Editor delle proprietà](Property_editor/it.md) o nella [Vista combinata](Combo_view/it.md).
+
+
 
 ## Script
 
@@ -34,16 +38,10 @@ The **Std HideObjects** command hides all objects belonging to the active docume
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
-For a scripting example see [Std ToggleVisibility](Std_ToggleVisibility.md).
-
-
-<div class="mw-translate-fuzzy">
+Per un esempio di script vedere [Commutare la visibilità](Std_ToggleVisibility/it.md).
 
 
 
-
-
-</div>
 
 
 {{Std Base navi

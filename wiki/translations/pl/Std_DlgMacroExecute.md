@@ -123,7 +123,7 @@ Polecenie **Makrodefinicje \...** otwiera okno dialogowe Wykonaj makro. W tym ok
 
 
 
-### Pobierz
+### Pobieranie
 
 1.  Naciśnij przycisk **Pobierz**, aby uruchomić [Menadżer dodatków](Std_AddonMgr/pl.md).
 
@@ -137,7 +137,7 @@ Polecenie **Makrodefinicje \...** otwiera okno dialogowe Wykonaj makro. W tym ok
 
 ## Ustawienia
 
-Lokalizację plików makroinstrukcji użytkownika można również zmienić w preferencjach: **Edycja → Preferencje ... → Ogólne → Makropolecenia → Ścieżka do plików makrodefinicji**. Więcej informacji na ten temat można znaleźć również w [Edytorze ustawień](Preferences_Editor/pl#Makropolecenia.md).
+Lokalizację plików makroinstrukcji użytkownika można również zmienić w preferencjach: **Edycja → Preferencje ... → Python → Makropolecenia → Ścieżka do plików makrodefinicji**. Więcej informacji na ten temat można znaleźć również w [Edytorze ustawień](Preferences_Editor/pl#Makropolecenia.md).
 
 
 

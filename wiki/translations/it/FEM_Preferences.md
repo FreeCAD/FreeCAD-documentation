@@ -21,12 +21,42 @@ The current supported external solvers are:
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [CalculiX](FEM_SolverCalculixCxxtools.md)
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Elmer](FEM_SolverElmer.md)
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Mystran](FEM_SolverMystran.md) <small>(v0.20)</small> 
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Mystran](FEM_SolverMystran.md) (<small>(v0.20)</small> )
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Z88](FEM_SolverZ88.md)
+
+
 
 ## Generale
 
 On the *General* tab you can specify the following:
+
++++
+| Name                                                     | Description                                                                                                               |
++==========================================================+===========================================================================================================================+
+|                                           | In what directory the mesh and solver files should be stored                                                              |
+| **Working directory**                        |                                                                                                                           |
+|                                                       |                                                                                                                           |
++++
+|                                           | If there are several meshes they will be grouped                                                                          |
+| **Create mesh groups**                       |                                                                                                                           |
+|                                                       |                                                                                                                           |
++++
+|                                           | Existing [Result objects](FEM_ResultShow.md) will be kept, otherwise overwritten by a new solver run              |
+| **Keep results on calculation re-run**       |                                                                                                                           |
+|                                                       |                                                                                                                           |
++++
+|                                           | If checked, the [Show result](FEM_ResultShow.md) dialog is opened with the last used dialog settings              |
+| **Restore result dialog settings**           |                                                                                                                           |
+|                                                       |                                                                                                                           |
++++
+|                                           | The constraints will be hidden in the model view when the [Show result](FEM_ResultShow.md) dialog is opened       |
+| **Hide constraints when open result dialog** |                                                                                                                           |
+|                                                       |                                                                                                                           |
++++
+|                                           | Default solver to be added when adding an [Analysis container](FEM_Analysis.md). (<small>(v0.21)</small> ) |
+| **Default solver**                           |                                                                                                                           |
+|                                                       |                                                                                                                           |
++++
 
 ![](images/Preference_Fem_Tab_01.png )
 
@@ -59,23 +89,36 @@ On the *CalculiX* tab you can specify the following:
 On the *Elmer* tab you can specify the following:
 
 +++
-| Name                                                            | Description                                                                                                                                     |
-+=================================================================+=================================================================================================================================================+
-|                                                  | If checked, FreeCAD will look for the binary of the grid writer utility of the [Elmer](FEM_SolverElmer.md) in known (usual) directories |
-| **ElmerGrid: Search in known binary directories**   |                                                                                                                                                 |
-|                                                              |                                                                                                                                                 |
+| Name                                                            | Description                                                                                                                                                                                                                                   |
++=================================================================+===============================================================================================================================================================================================================================================+
+|                                                  | If checked, FreeCAD will look for the binary of the grid writer utility of the [Elmer](FEM_SolverElmer.md) in known (usual) directories                                                                                               |
+| **ElmerGrid: Search in known binary directories**   |                                                                                                                                                                                                                                               |
+|                                                              |                                                                                                                                                                                                                                               |
 +++
-|                                                  | The path to the the binary of the grid writer utility of the [Elmer](FEM_SolverElmer.md)                                                |
-| **ElmerGrid binary path**                           |                                                                                                                                                 |
-|                                                              |                                                                                                                                                 |
+|                                                  | The path to the the binary of the grid writer utility of the [Elmer](FEM_SolverElmer.md)                                                                                                                                              |
+| **ElmerGrid binary path**                           |                                                                                                                                                                                                                                               |
+|                                                              |                                                                                                                                                                                                                                               |
 +++
-|                                                  | If checked, FreeCAD will look for the solver binary of [Elmer](FEM_SolverElmer.md) in known (usual) directories                         |
-| **ElmerSolver: Search in known binary directories** |                                                                                                                                                 |
-|                                                              |                                                                                                                                                 |
+|                                                  | If checked, FreeCAD will look for the solver binary of [Elmer](FEM_SolverElmer.md) in known (usual) directories                                                                                                                       |
+| **ElmerSolver: Search in known binary directories** |                                                                                                                                                                                                                                               |
+|                                                              |                                                                                                                                                                                                                                               |
 +++
-|                                                  | The path to the the solver binary of [Elmer](FEM_SolverElmer.md)                                                                        |
-| **ElmerSolver binary path**                         |                                                                                                                                                 |
-|                                                              |                                                                                                                                                 |
+|                                                  | The path to the the solver binary of [Elmer](FEM_SolverElmer.md)                                                                                                                                                                      |
+| **ElmerSolver binary path**                         |                                                                                                                                                                                                                                               |
+|                                                              |                                                                                                                                                                                                                                               |
++++
+|                                                  | The number of CPU cores that will be used to perform the solving. **Important:** Elmer divides the mesh into portions. The number of portions is equal to the number of CPU cores used. This can result in side-effects:                      |
+| **CPU cores to be used**                            |                                                                                                                                                                                                                                               |
+|                                                              | -   Depending on your mesh a smaller number of CPU cores can run faster than using more cores.                                                                                                                                                |
+|                                                                 | -   In some cases using e.g. 12 cores does not converge while 8 cores will work fine. The reason is that at some point the mesh portions become too small.                                                                                    |
+|                                                                 |                                                                                                                                                                                                                                               |
+|                                                                 | So it is often necessary to adjust the number of cores, depending on the mesh.                                                                                                                                                                |
+|                                                                 |                                                                                                                                                                                                                                               |
+|                                                                 | **Known limitation:** For some simulation types you first need to install Elmer modules to enable multi-threading. Check the Elmer report for info about this. A typical case is that for direct solving one has to install the MUMPS module. |
++++
+|                                                  | The mesh volume regions processed by each CPU core will be merged to make the volume boundaries invisible.                                                                                                                                    |
+| **Filter results**                                  |                                                                                                                                                                                                                                               |
+|                                                              |                                                                                                                                                                                                                                               |
 +++
 
 ![](images/Preference_Fem_Tab_05.png )

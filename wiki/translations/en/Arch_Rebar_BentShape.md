@@ -30,7 +30,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 4.  Select the desired orientation.
 
-5.  Populate the inputs like \'Left Cover\', Right Cover, Top Cover, \'Bottom Cover\', \'Front Cover\', \'Bent Angle\', \'Bent Factor\', \'Rounding\' and \'Diameter\' of the rebar.
+5.  Populate the inputs like \'Left Cover\', \'Right Cover\', \'Top Cover\', \'Bottom Cover\', \'Front Cover\', \'Bent Angle\', \'Bent Factor\', \'Rounding\' and \'Diameter\' of the rebar.
 
 6.  Select the mode of distribution either \'Amount\' or \'Spacing\'.
     -   If \'Spacing\' is selected, a user can also opt for [custom spacing](Custom_Spacing.md).
@@ -77,7 +77,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 [Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The BentShape Rebar tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The BentShape Rebar tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 Rebar = makeBentShapeRebar(f_cover, b_cover, l_cover, r_cover,
                            diameter, t_cover, bentLength, bentAngle, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom",

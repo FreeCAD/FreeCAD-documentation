@@ -1,4 +1,13 @@
-# <img alt="Ícone da Bancada de Trabalho Points" src=images/Workbench_Points.svg  style="width:64px;"> Points Workbench/pt-br
+# Points Workbench/pt-br
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+<img alt="Ícone da Bancada de Trabalho Points" src=images/Workbench_Points.svg  style="width:128px;">
 
 
 
@@ -40,10 +49,13 @@ Todas as ferramentas da Bancada de Trabalho Points podem ser acessadas do menu *
     -   [Schnitte durch Flächen aus Messwerten](http://forum.freecadweb.org/viewtopic.php?f=13&t=16103) (Alemão)
 
 
+<div class="mw-translate-fuzzy">
 
 
 
 
+
+</div>
 
 
 {{Points Tools navi

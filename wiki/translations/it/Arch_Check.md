@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -22,9 +24,16 @@ Questo strumento controlla il documento corrente o gli oggetti selezionati alla 
 
 </div>
 
+
+
 ## Utilizzo
 
 1.  Premere il pulsante **<img src="images/Arch_Check.svg" width=16px> [Controlla](Arch_Check/it.md)**, o **Arch** → **Utilità** → **<img src="images/Arch_Check.svg" width=16px> [Controlla](Arch_Check/it.md)** nel menu principale.
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ## Script
 
@@ -33,7 +42,23 @@ Questo strumento controlla il documento corrente o gli oggetti selezionati alla 
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+
+</div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
+</div>
+
+
 ```python
 list_bad = check(objectslist, includehidden=False)
 ```

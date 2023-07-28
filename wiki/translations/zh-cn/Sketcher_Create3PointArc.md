@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher Create3PointArc
-   MenuLocation:Sketch → Sketcher geometries → Create Arc by three points
+   MenuLocation:Sketch → Sketcher geometries → Create arc by three points
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**G** **3** **A**
    SeeAlso:
@@ -9,9 +9,13 @@
 
 # Sketcher Create3PointArc/zh-cn
 
+
+
 ## 描述
 
 此工具通过用户拾取的3个点：弧上的起始点、终点以及弧上另一点来创建一条弧。
+
+
 
 
 <div class="mw-translate-fuzzy">

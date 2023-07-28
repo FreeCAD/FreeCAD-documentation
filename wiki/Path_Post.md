@@ -10,15 +10,15 @@
 
 ## Description
 
-The **<img src="images/Path_Post.svg" width=16px> [Post](Path_Post.md)** command exports the selected **<img src="images/Path_Job.svg" width=16px> [Path Job](Path_Job.md)** to a G-code file.
+The tool <img alt="" src=images/Path_Post.svg  style="width:16px;"> [Post](Path_Post.md) exports the selected <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Path Job](Path_Job.md) to a G-code file.
 
-**Each CNC Controller speaks a specific G-Code dialect, requiring a Dialect-correct Postprocessor to translate the final output from the agnostic internal FreeCAD G-Code dialect.**
+**Each CNC Controller speaks a specific G-code dialect, requiring a Dialect-correct Postprocessor to translate the final output from the agnostic internal FreeCAD G-code dialect.**
 
 ### Typical functions of the Postprocessor include 
 
--   Using a correct Job output G-Code file extension.
--   Selecting the G-Code commands. CNC controllers typically support a subset of available G-Code commands. The super-set of G-Code commands contains powerful and specialized commands that otherwise must be processed using multiple simpler commands. Postprocessors are written to select the best G-Code for an Operation, available on the target.
--   Formatting the G-Code syntax by reordering the Feed, X, Y, Z, A, and B inputs, and the precision.
+-   Using a correct Job output G-code file extension.
+-   Selecting the G-code commands. CNC controllers typically support a subset of available G-code commands. The super-set of G-code commands contains powerful and specialized commands that otherwise must be processed using multiple simpler commands. Postprocessors are written to select the best G-code for an Operation, available on the target.
+-   Formatting the G-code syntax by reordering the Feed, X, Y, Z, A, and B inputs, and the precision.
 -   Inserting a Pre-amble to set units, units format, Work plane, coordinate system, etc\...
 -   Inserting a Post-amble to park the machine, stop it, process any arguments.
 -   Inserting Tool changes, or suppressing them between subsequent operations using the same tool.
@@ -31,7 +31,7 @@ If you want to write your own postprocessor, have a look at the [Path Postproces
 
 **Note:** Several provided Postprocessors generate suitable code for many CNC controllers, or can be used as templates for modification
 
-Postprocessors contain configuration flags and are designed to be tuned by adding G-Codes and M-Codes to provided definitions for:
+Postprocessors contain configuration flags and are designed to be tuned by adding G-codes and M-codes to provided definitions for:
 
 -   Machine initialization
 -   Job finalization
@@ -39,7 +39,7 @@ Postprocessors contain configuration flags and are designed to be tuned by addin
 -   Cooling on /off
 -   Etc\...
 
-Postprocessors use [FreeCAD\'s internal G-Code dialect](Path_scripting#The_FreeCAD_Internal_GCode_Format.md) in conjunction with the Postprocessor configuration definitions, to generate Dialect-Correct G-Code for target machines. This allows the Path workbench to generate correct G-Code to target various CNC machine controllers by invoking different Postprocessors.
+Postprocessors use [FreeCAD\'s internal G-code dialect](Path_scripting#The_FreeCAD_Internal_G-code_Format.md) in conjunction with the Postprocessor configuration definitions, to generate Dialect-Correct G-code for target machines. This allows the Path workbench to generate correct G-code to target various CNC machine controllers by invoking different Postprocessors.
 
 CNC Machine Controller types include:
 
@@ -54,7 +54,7 @@ CNC Machine Controller types include:
 -   EDM Cutters
 -   Etc\...
 
-If only one CNC machine is used, or if all CNC machines share a common Postprocesor, the Path workbench would need to include only a single Postprocessor. If a single Postprocessor is inadequate to output G-Code for all target CNC controllers, then multiple Postprocessors must be installed.
+If only one CNC machine is used, or if all CNC machines share a common Postprocesor, the Path workbench would need to include only a single Postprocessor. If a single Postprocessor is inadequate to output G-code for all target CNC controllers, then multiple Postprocessors must be installed.
 
 ## Usage
 
@@ -73,24 +73,24 @@ The provided Postprocessors are written with comments indicating areas containin
 
 Typical Configuration True/False Flags include:
 
--   OUTPUT_COMMENTS (True = Allow, False = Suppress), Used to insert Text Comments in the output G-Code file.
--   OUTPUT_HEADER (True = Allow, False = Suppress), Used to insert Text Headers in the output G-Code file.
--   OUTPUT_LINE_NUMBERS (True = Allow, False = Suppress), Used to insert Line Numbers in the output G-Code file.
--   SHOW_EDITOR (True = Allow, False = Suppress), Used to show the output G-Code in a Pop-up window when invoking the Postprocessor.
--   MODAL (True = Allow, False = Suppress), Used to reduce the number of output G-Code lines by stripping Mode information when the Mode is not changing.
+-   **OUTPUT_COMMENTS** (True = Allow, False = Suppress): Used to insert Text Comments in the output G-code file.
+-   **OUTPUT_HEADER** (True = Allow, False = Suppress): Used to insert Text Headers in the output G-code file.
+-   **OUTPUT_LINE_NUMBERS** (True = Allow, False = Suppress): Used to insert Line Numbers in the output G-code file.
+-   **SHOW_EDITOR** (True = Allow, False = Suppress): Used to show the output G-code in a Pop-up window when invoking the Postprocessor.
+-   **MODAL** (True = Allow, False = Suppress): Used to reduce the number of output G-code lines by stripping Mode information when the Mode is not changing.
 
 Typical Configuration Variables include:
 
--   LINENR (Line Number), Used to Set the Line Number index.
--   UNITS (G20 or G21), Used to explicitly communicate to the target CNC controller what Units to use to interpret the final output file.
--   MACHINE_NAME (Name of Target CNC Mill), Used to Insert a machine name label in the final output file.
--   PRECISION, Used to Set the number of digits to include after the decimal place in final output file
+-   **LINENR** (Line Number): Used to Set the Line Number index.
+-   **UNITS** (G20 or G21): Used to explicitly communicate to the target CNC controller what Units to use to interpret the final output file.
+-   **MACHINE_NAME** (Name of Target CNC Mill): Used to Insert a machine name label in the final output file.
+-   **PRECISION**: Used to Set the number of digits to include after the decimal place in final output file
 
 Typical Configuration Sections include:
 
--   PREAMBLE (Code configuration inserted at beginning of the Job)
--   POSTAMBLE (Code configuration appended to the Job, providing for parking the machine, etc\...)
--   TOOL_CHANGE (Code inserted with each tool change in the Job)
+-   **PREAMBLE**: Code configuration inserted at beginning of the Job.
+-   **POSTAMBLE**: Code configuration appended to the Job, providing for parking the machine, etc\...
+-   **TOOL_CHANGE**: Code inserted with each tool change in the Job.
 
 The **Edit** → **Preferences...** → **Path** → **Job Preferences tab** → **Defaults** → **Path** is used to set the default Postprocessor selected on Job creation. This allows Path workbench to be configured to only display desired Postprocessors, and to set a default.
 

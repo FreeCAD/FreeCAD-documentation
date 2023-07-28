@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -21,6 +23,8 @@ Esta herramienta identifica agujeros (secuencia circular de aristas abiertas) in
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -40,12 +44,19 @@ Esta herramienta identifica agujeros (secuencia circular de aristas abiertas) in
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Programación
 
 
 </div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">

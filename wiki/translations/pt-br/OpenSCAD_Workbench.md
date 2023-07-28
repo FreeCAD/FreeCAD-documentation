@@ -1,17 +1,10 @@
-# OpenSCAD Workbench/pt-br
-<div class="mw-translate-fuzzy">
+# <img alt="OpenSCAD workbench icon" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> OpenSCAD Workbench/pt-br
 
 
-
-
-
-</div>
-
-<img alt="OpenSCAD workbench icon" src=images/Workbench_OpenSCAD.svg  style="width:128px;">
 
 ## Introdução
 
-The <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) is intended to offer interoperability with the open source software [OpenSCAD](http://www.openscad.org/). This program is not distributed as part of FreeCAD, but should be installed to make full use of this workbench. OpenSCAD should not be confused with [OpenCASCADE](OpenCASCADE.md), which is the geometrical kernel that FreeCAD uses to build geometry on screen. The OpenCASCADE libraries are always needed to use FreeCAD, while the OpenSCAD executable is entirely optional.
+A <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [Bancada de trabalho OpenSCAD](OpenSCAD_Workbench/pt-br.md) tem como objetivo oferecer interoperabilidade com o software de código aberto [OpenSCAD](http://www.openscad.org/). Esse programa não é distribuído como parte do FreeCAD, mas deve ser instalado para fazer uso total desta bancada de trabalho. O OpenSCAD não deve ser confundido com o [OpenCASCADE](OpenCASCADE/pt-br.md), que é o núcleo geométrico que o FreeCAD utiliza para construir a geometria na tela. As bibliotecas do OpenCASCADE são sempre necessárias para usar o FreeCAD, enquanto o executável do OpenSCAD é totalmente opcional.
 
 Ela contém um importador [CSG](OpenSCAD_CSG.md) para abrir arquivos CSG do OpenSCAD e um exportador para a saída de um CSG baseado em árvore. A geometria que não está baseada em operações CSG serão exportadas como uma malha.
 
@@ -22,7 +15,9 @@ Esta bancada de trabalho contém funções para modificar o recurso de árvore C
 
 ![](images/OpenSCADexamaple1.png )
 
-## Dependencies
+
+
+## Dependências
 
 In FreeCAD 0.19, the Ply (Python-Lex-Yacc) module, which is used to import CSG files, was removed from the FreeCAD source code, as it is a third party library not developed by FreeCAD. As a result, you now need to install Ply before using the OpenSCAD Workbench. When using a pre-packaged, stable version of FreeCAD this dependency should be installed automatically in all platforms; in other cases, for example, when [compiling](Compiling.md) from source, you may have to install it from an online repository.
 
@@ -47,9 +42,13 @@ The general installation in all platforms can be done from the Python package in
 pip3 install --user ply
 ```
 
+
+
 ## A linguagem OpenSCAD e formato de arquivo 
 
 A linguagem OpenSCAD permite o uso de variáveis e laços de repetição. Permite que você especifique submódulos para reutilizar geometria e código. Este alto grau de flexibilidade torna a análise muito complexa. Atualmente a bancada OpenSCAD não pode manipular a linguagem OpenSCAD nativamente. Em vez disso, se o OpenSCAD estiver instalado, pode ser usado para converter a entrada em formato CSG, o qual é um subconjunto da linguagem OpenSCAD e pode ser utilizada como entrada para o OpenSCAD para processamento adicional.
+
+
 
 ## Ferramentas
 
@@ -70,31 +69,23 @@ A linguagem OpenSCAD permite o uso de variáveis e laços de repetição. Permit
 -   <img alt="" src=images/OpenSCAD_Hull.svg  style="width:32px;"> [Casco](OpenSCAD_Hull/pt-br.md): Aplica um casco às formas selecionadas.
 -   <img alt="" src=images/OpenSCAD_Minkowski.svg  style="width:32px;"> [Minkowski](OpenSCAD_Minkowski/pt-br.md): Aplica uma soma minkowski às formas selecionadas.
 
+
+
 ## Preferências
 
 -   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Preferências](OpenSCAD_Preferences/pt-br.md): Preferências disponíveis para as ferramentas do OpenSCAD.
 
-## Limitations
 
-
-<div class="mw-translate-fuzzy">
 
 ## Limitações
 
 O OpenSCAD cria geometria sólida construtiva, além de importar arquivos de malha e extrudir a geometria 2D dos arquivos [ DXF](DXF.md). O FreeCAD também permite que você crie CSG com primitivos. A geometria kernel (OCCT) do FreeCAD funciona usando um representação limite.Portanto, a conversão do CSG para o BREP deve, em teoria, ser possível, enquanto a conversão do BREP para o CSG não é, em geral, possível.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 O OpenSCAD trabalha internamente nas malhas. Algumas operações que são úteis em malhas não são significativas em um modelo BREP e não podem ser totalmente suportadas. Entre estes estão o casco convexo, soma minkowski, glide e subdiv. Atualmente executamos o binário OpenSCAD para realizar operações de casco e minkwoski e importar o resultado. Isso significa que a geometria envolvida será triangulada. No OpenSCAD, o escalonamento não uniforme é frequentemente usado, o que não impõe nenhum problema ao usar malhas. Em nossa geometria, as primitivas geométricas do kernel (linhas, seções circulares, etc) são convertidas para o BSpline antes de executar tais deformações. Esses BSplines são conhecidas por causar problemas em operações booleanas posteriores. Uma solução automática não está disponível no momento. Por favor, sinta-se livre para postar no fórum se você encontrar tais problemas. Muitas vezes, esses problemas podem ser resolvidos por pequenas peças de remodelação. Uma deformação de um cilindro pode ser substituída por uma extrusão de elipses.
 
 
-</div>
 
-## Importing text 
+## Importação de texto 
 
 Importing OpenSCAD code with texts requires that the fonts that are used are properly installed on your system. You can verify this by opening OpenSCAD as a standalone tool and checking the list in **Help → Font List**. The list will also give you the correct font names. If a font does not appear in the list after installing, you may have to manually copy the font file to the appropriate system directory.
 
@@ -111,11 +102,15 @@ The {{Incode|<nowiki>script="Latn"</nowiki>}} parameter can be left out here, bu
 
 Please note that {{Incode|<nowiki>use <FONT>;</nowiki>}} statements in your source files are ignored when importing in FreeCAD. Under OpenSCAD the effect of a {{Incode|use}} statement is that the provided font file is temporarily added to the list of known fonts (although even there the statement does not work when a script is modified interactively).
 
+
+
 ## Dicas
 
 Ao importar [ DXF](DXF.md), defina a precisão do rascunho para uma quantidade razoável, pois isso afetará a detecção das arestas conectadas.
 
 Se o FreeCAD travar ao importar o CSG, é altamente recomendável que você ative a opção \"verificar automaticamente o modelo após a operação booleana\" em {{MenuCommand | Menu → Editar → Preferências → Desenho da Peça → Configuração do Modelo}}.
+
+
 
 ## Tutoriais
 
@@ -134,13 +129,7 @@ Se o FreeCAD travar ao importar o CSG, é altamente recomendável que você ativ
 </div>
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{OpenSCAD Tools navi

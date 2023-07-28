@@ -5,9 +5,13 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Seleziona l\'origine di uno schizzo.
+
+
 
 ## Utilizzo
 

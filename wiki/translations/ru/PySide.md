@@ -1,6 +1,8 @@
 # PySide/ru
 {{TOCright}}
 
+
+
 ## Введение
 
 
@@ -22,6 +24,8 @@ For more information see:
 
 ![](images/PySideScreenSnapshot1.jpg ) ![](images/PySideScreenSnapshot2.jpg ) 
 *Examples created with PySide. Left: a simple dialog. Right: a more complex dialog with graphs.*
+
+
 
 ## PySide в FreeCAD с Qt5 
 
@@ -59,23 +63,17 @@ PySide2.QtUiTools -> PySide.QtUiTools
 Единственный необычный аспект это то, что классы `PySide2.QtWidgets` помещены в пространстве имён `PySide.QtGui`. 
 ```python
 PySide2.QtWidgets.QCheckBox -> PySide.QtGui.QCheckBox
-``` {{Top}}
+```
 
 ## Примеры использования PySide 
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Примеры PySide для начинающих](PySide_Beginner_Examples/ru.md), Hello World, анонсы, ввод текста, ввод чисел.
--   [Примеры PySide среднего уровня](PySide_Intermediate_Examples/ru.md), изменение размеров окон, сокрытие виджетов, всплывающие меню, позиционирование мыши, события мыши
--   [Сложные примеры PySide](PySide_Advanced_Examples/ru.md), много виджетов.
-
-
-</div>
+-   [Примеры PySide среднего уровня сложности](PySide_Intermediate_Examples/ru.md), изменение размеров окон, сокрытие виджетов, всплывающие меню, позиционирование мыши, события мыши.
+-   [Примеры PySide для продвинутых пользователей](PySide_Advanced_Examples/ru.md), много виджетов.
 
 Примеры PySide разделены на 3 части, дифференцированные по уровню воздействия PySide, Python и внутренних компонентов FreeCAD. На первой странице представлен обзор PySide, а на второй и третьей страницах приведены примеры кода на разных уровнях.
 
-Ожидается, что эти примеры полезны для начала, и после этого пользователь может обратиться к другим ресурсам онлайн или официальной документации. {{Top}}
+Ожидается, что эти примеры полезны для начала, и после этого пользователь может обратиться к другим ресурсам онлайн или официальной документации. 
 
 ## Документация
 

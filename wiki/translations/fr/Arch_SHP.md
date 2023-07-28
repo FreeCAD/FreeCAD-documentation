@@ -1,4 +1,10 @@
 # Arch SHP/fr
+{{TOCright}}
+
+
+
+## Description
+
 FreeCAD est capable d\'importer [des shapefiles ou fichier de formes](https://fr.wikipedia.org/wiki/Shapefile)
 
 L\'importateur utilise la bibliothèque shapefile.py de <https://github.com/GeospatialPython/pyshp>. Elle ne se trouve pas sur votre système lors de la première exécution, l\'importateur proposera de la télécharger et de l\'installer pour vous.
@@ -9,7 +15,9 @@ Une forme sera créée à partir de chaque fichier de formes dans FreeCAD.
 
 A noter que toute la question des unités géoréférencées, avec des centaines de systèmes de projection utilisés dans le monde, n\'est pas traitée pour le moment. Les coordonnées du fichier sont utilisées \"telles quelles\".
 
-### Relation
+
+
+## En relation 
 
 -   Annonce du fil de discussion FreeCAD [Importateur de fichiers de formes](https://forum.freecadweb.org/viewtopic.php?f=9&t=46150)
 -   Fil de discussion du forum sur la discussion [OSArch](https://community.osarch.org/discussion/comment/578#Comment_578)

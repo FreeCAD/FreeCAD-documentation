@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -14,6 +16,8 @@ Tento nástroj identifikuje mezery (kruhovité sekvence s otevřenými okraji) v
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -33,12 +37,19 @@ Tento nástroj identifikuje mezery (kruhovité sekvence s otevřenými okraji) v
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Skriptování
 
 
 </div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">

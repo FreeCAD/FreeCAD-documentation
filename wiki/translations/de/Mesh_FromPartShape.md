@@ -1,9 +1,9 @@
 ---
 - GuiCommand:/de
    Name:Mesh FromPartShape
-   Name/de:Netz AusTeilForm
-   MenuLocation:Polygonnetze → Erzeuge Polygonnetz aus Form...
-   Workbenches:[Polygonnetz](Mesh_Workbench/de.md)
+   Name/de:Mesh NetzAusPartForm
+   MenuLocation:Netze → Netz aus Form erstellen...
+   Workbenches:[Mesh](Mesh_Workbench/de.md)
 ---
 
 # Mesh FromPartShape/de
@@ -12,9 +12,9 @@
 
 ## Beschreibung
 
-Der Befehl **Netz_AusTeilForm** erzeugt nicht-parametrische [Polygonnetz](Mesh/de.md) Objekte ([Polygonnetz Formelemente](Mesh_Feature/de.md)) aus [Form](shape/de.md) Objekten ([Part Formelemente](Part_Feature/de.md)).
+Der Befehl **Mesh NetzAusPartForm** erzeugt nicht-parametrische [Netz](Mesh/de.md)-Objekte ([Mesh Formelemente](Mesh_Feature/de.md)) aus [Form](shape/de.md)-Objekten ([Part Formelemente](Part_Feature/de.md)).
 
-Die Umkehrbearbeitung ist [Part FormAusNetz](Part_ShapeFromMesh/de.md) aus dem <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md).
+Die umgekehrte Aktion ist [Part FormAusNetz](Part_ShapeFromMesh/de.md) aus dem Arbeitsbereich <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md).
 
 
 
@@ -38,7 +38,7 @@ Dies sind die verfügbaren Vernetzer und ihre Einstellungen:
 
 
 
-### Standard Vernetzer 
+### Standardvernetzer
 
 -    **Oberflächenabweichung**: die maximale [lineare Abweichung](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) eines Polygonnetzabschnitts von der Oberfläche des Objekts.
 
@@ -52,38 +52,69 @@ Dies sind die verfügbaren Vernetzer und ihre Einstellungen:
 
 
 
-### Mefisto Vernetzer 
+### Vernetzer Mefisto 
 
+-    **Maximale Kantenlänge**: Die maximale Kantenlänge des Netzes. Ein geringerer Wert ergibt ein feineres Netz. Die Eingabe von {{Value|0}} oder das Deaktivieren der Checkbox ergeben ein sehr grobes Netz.
 
-<div class="mw-translate-fuzzy">
-
-Die einzige Einstellung ist:
-
--    **Maximale Kantenlänge**: Wenn diese Zahl kleiner ist, wird das Netz feiner. Der kleinste Wert ist 0.
-
-
-</div>
+    -   Drückt man die Schaltfläche **Schätzung** des Vernetzers, wird ein Schätzwert für **Maximale Kantenlänge** eingegeben. Dieser Wert ist nicht sehr verlässlich, wenn mehrere Objekte ausgewählt wurden.
 
 
 
-### Netgen Vernetzer 
+### Vernetzer Netgen 
+
+-    **Feinheit**: Eine Option für die Feinheit des Netzes auswählen:
+
+    -   
+        **Sehr grob**
+        
+
+    -   
+        **Grob**
+        
+
+    -   
+        **Mittel**
+        
+
+    -   
+        **Fein**
+        
+
+    -   
+        **Sehr fein**
+        
+
+    -   
+        **Benutzerdefiniert**
+        
+        : für diese Option können die folgenden Einstellungen festgelegt werden:
+
+        -   
+            **Mesh Größensortierung**
+            
+            : ein kleinerer Wert ergibt ein feineres Netz. Der Wert muss im Bereich {{Value|0.1}} - {{Value|1.0}} liegen.
+
+        -   
+            **Element pro Kante**
+            
+            : ein größerer Wert ergibt ein feineres Netz. Der Wert muss im Bereich {{Value|0.2}} - {{Value|10.0}} liegen.
+
+        -   
+            **Element pro Krümmungsradius**
+            
+            : ein größerer Wert ergibt ein feineres Netz. Der Wert muss im Bereich {{Value|0.2}} - {{Value|10}} liegen.
+
+-    **Oberfläche optimieren**: wenn aktiviert, wird die Form der Oberfläche optimiert.
+
+-    **Elemente zweiter Ordnung**: wenn aktiviert, werden Elemente zweiter Ordnung erstellt und ergeben ein feineres Netz.
+
+-    **Quad-dominiert**: wenn aktiviert, wird das Netz bevorzugt viereckige Flächen verwenden (siehe [quadrilateral faces](https://en.wikipedia.org/wiki/Types_of_mesh#Two-dimensional)).
 
 
-<div class="mw-translate-fuzzy">
 
-Beispiel:
+### Vernetzer Gmsh 
 
-
-</div>
-
-
-
-### Gmsh Vernetzer 
-
-
-<small>(v0.19)</small> 
-
-Für Linux Anwender: das externe [Gmsh](https://gmsh.info/) Modul ist erforderlich.
+Für Linux Anwender: das externe [Gmsh](https://gmsh.info/)-Modul ist erforderlich.
 
 -    **Meshing**: select a meshing option:
 
@@ -183,13 +214,7 @@ msh.ViewObject.DisplayMode = "Flat Lines"
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Mesh Tools navi

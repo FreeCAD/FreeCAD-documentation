@@ -20,12 +20,9 @@ Ciertas propiedades de la vista, como el color de fondo, el estilo [navegación 
 
 *La [vista 3D](3D_view/es.md) es un componente de la [interfaz](interface/es.md) de FreeCAD. Por defecto muestra un pequeño widget con ejes de coordenadas, y el cubo de navegación también con ejes de coordenadas; la cuadrícula puede ser visualizada y configurada cargando el [ambiente de trabajo de borrador](Draft_Workbench/es.md).*
 
+
+
 ## Acciones
-
-
-**Note:**
-
-link actions <small>(v0.19)</small> .
 
 Since the [tree view](tree_view.md) lists most objects that are visible in the 3D view, many of the actions are the same to those that can be executed from the [tree view](tree_view.md).
 
@@ -75,6 +72,8 @@ Another example, with the [Draft Workbench](Draft_Workbench.md) and one object s
 -    **Draft**: object creation and modification commands from the [Draft Workbench](Draft_Workbench.md).
 
 -    **Utilities**: additional contextual commands provided by the [Draft Workbench](Draft_Workbench.md).
+
+
 
 ## Detalles
 

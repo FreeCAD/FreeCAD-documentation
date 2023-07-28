@@ -10,45 +10,24 @@
 
 # Part Compound/de
 
-## Description
 
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-Dieser Befehl erzeugt einen Verbund aus jeder Art topologischer Formen. Dies können Festkörper oder Polygonnetze oder jede andere Art topologischer Formen sein.
+Dieser Befehl erstellt einen Verbund aus Objekten mit einer topologischen Form wie Festkörper und andere Objekte mit Flächen und/oder Kanten. Er kann keine Netze verarbeiten, da sie keine topologische Form besitzen.
 
 
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
 
 ## Anwendung
 
-1.  Markiere die topologischen Formen, die dem Verbund in der [Baumansicht](Tree_view/de.md)
-
-hinzugefügt werden sollen
-
-1.  Wähle den **Formteil → Verbund → Erzeuge Verbund** Eintrag im Part Menü oder klicke auf die <img alt="" src=images/Part_Compound.svg  style="width:24px;"> Schaltfläche.
+1.  Die topologischen Formen markieren, die dem Verbund in der [Baumansicht](Tree_view/de.md) hinzugefügt werden sollen.
+2.  Den Menüeintrag **Part → Verbund → Erzeuge Verbund** im Part-Menü auswählen oder die Schaltfläche <img alt="" src=images/Part_Compound.svg  style="width:24px;"> drücken.
 
 
-</div>
-
-## Notes
-
-
-<div class="mw-translate-fuzzy">
 
 ## Hinweise
 
-Ein Verbund, der sich berührende oder sich überschneidende Formen enthält, ist **ungültig** für Boolesche Operationen. Aufgrund von möglichen Ausführungsproblemen wird standardmäßig keine Prüfung der Formen auf Überschneidung durchgeführt. Automatische Geometrieprüfung (verfügbar für Boolesche Operationen) ist für den Part Verbund ebenfalls deaktiviert.
-
-
-</div>
+Ein Verbund, der sich berührende oder sich überschneidende Stücke enthält, ist **ungültig** für Boolesche Operationen. Aufgrund von möglichen Problemen mit der Rechenleistung wird standardmäßig nicht geprüft, ob sich die Stücke überschneiden. Eine automatische Geometrieprüfung (verfügbar für Boolesche Operationen) ist für den Part-Verbund ebenfalls deaktiviert.
 
 Um diese Prüfung einzuschalten, gehe zu **Werkzeuge → Parameter bearbeiten → Einstellungen..... → Mod → Teil → PrüfeGeometrie→ RunBOPCheck** und setze den Parameter auf `true`.
 

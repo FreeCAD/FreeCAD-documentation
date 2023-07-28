@@ -1,34 +1,39 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher SelectElementsWithDoFs
-   MenuLocation:Sketch → Sketcher tools → Select unconstrained DoF
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Wybierz elementy bez wiązań
+   MenuLocation:Szkic → Narzędzia szkicownika → Wybierz elementy bez wiązań
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**Z** **F**
    Version:0.18
 ---
 
 # Sketcher SelectElementsWithDoFs/pl
 
-## Description
 
-This tool is meant to aid in fully constraining a sketch by highlighting in green the sketch elements with remaining degrees of freedom (DoF).
 
-## Usage
+## Opis
 
-In the Solver messages box located at the top of the [Tasks tab](Task_panel.md), the following message(s) should be displayed:
+To narzędzie ma na celu pomoc w pełnym związaniu szkicu poprzez podświetlenie na zielono elementów szkicu z pozostałymi stopniami swobody *(DoF)*.
 
--   In case of an **under-constrainend** sketch:
 
-> Under-constrained sketch with X degrees of freedom
 
-where \"X\" is the number of degrees of freedom remaining in the sketch; you will receive more information if you click on the blue link, or if you use the menu.
+## Użycie
 
-1.  The elements which have degrees of freedom are now highlighted in green.
-2.  Click anywhere in the sketch to clear the highlight color.
+W oknie komunikatów solvera znajdującym się w górnej części [Panelu zadań](Task_panel/pl.md), powinien pojawić się następujący komunikat *(komunikaty)*:
 
--   In case of a **fully-constrainend** sketch:
+-   W przypadku szkicu **Niezwiązanego**:
 
-> Fully constrained sketch 
+> Niezwiązany szkic z X  stopniami swobody
+
+gdzie \"X\" to liczba stopni swobody pozostałych w szkicu. Więcej informacji otrzymasz, jeśli klikniesz na niebieski link lub jeśli skorzystasz z menu.
+
+1.  Elementy, które mają stopnie swobody są teraz podświetlone na zielono.
+2.  Kliknij w dowolnym miejscu szkicu, aby pozbyć się podświetlenia.
+
+-   W przypadku szkicu **W pełni związanego**:
+
+> W pełni zawiązany szkic 
 
 
 

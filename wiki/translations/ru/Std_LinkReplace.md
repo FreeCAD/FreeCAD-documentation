@@ -1,13 +1,16 @@
 ---
-- GuiCommand:
-   Name:Std LinkReplace
-   MenuLocation:None
-   Workbenches:All
+- GuiCommand:/ru
+   Name/ru:Заменить ссылкой
+   Name:Std_LinkReplace
+   MenuLocation:Нет
+   Workbenches:Все
    Version:0.19
-   SeeAlso:[Std LinkMake](Std_LinkMake.md), [Std LinkMakeRelative](Std_LinkMakeRelative.md), [Std LinkUnlink](Std_LinkUnlink.md)
+   SeeAlso:[Создать ссылку](Std_LinkMake/ru.md), [Ссылка](Std_LinkMakeRelative/ru.md), [Отвязать](Std_LinkUnlink/ru.md)
 ---
 
 # Std LinkReplace/ru
+
+
 
 ## Описание
 
@@ -19,6 +22,8 @@ replaces an object that is inside another for an [App Link](App_Link.md) version
 This operation acts on the \"children\" of a \"parent\" object as seen in the [tree view](tree_view.md). For example, given two objects (A and B) that participate in a **[<img src=images/Part_Boolean.svg style="width:16px"> [Part Boolean](Part_Boolean.md)** operation, say, C = A + B, the A object can be replaced by a Link, so that C = A_link + B.
 
 This operation can be done to replace nested objects that are in a complex [assembly](assembly.md) for a Link, which may be more efficient if that nested object is used many times in different sub-assemblies. The inverse operation is **[<img src=images/Std_LinkUnlink.svg style="width:16px"> [Std LinkUnlink](Std_LinkUnlink.md)**. To create a generic Link see **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)**.
+
+
 
 ## Применение
 
@@ -41,6 +46,8 @@ This can also be done with objects contained inside {{button|[<img src=images/St
 
 
 *An object inside a container is replaced by a Link; the Link is now inside, and the real object is placed outside.*
+
+
 
 ## Свойства
 

@@ -15,7 +15,7 @@
 
 La commande <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Draft Définir le style** définit le style par défaut des nouveaux objets.
 
-![](images/Draft_SetStyle_Taskpanel.png ) 
+<img alt="" src=images/Draft_SetStyle_Taskpanel.png  style="width:" height="550px;"> 
 *Le panneau de tâches des paramètres de style*
 
 
@@ -39,12 +39,12 @@ La commande <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Dr
     -   
         **Couleur de la ligne**
         
-        . Elle est également utilisée pour les annotations ({{Version/fr|1.0}}) et pour la **Point Color** des objets.
+        . Elle est également utilisée pour les annotations ({{Version/fr|0.21}}) et pour la **Point Color** des objets.
 
     -   
         **Epaisseur de la ligne**
         
-        . Ce paramètre est également utilisé pour les annotations ({{Version/fr|1.0}}) et pour l\'affichage des propriétés des objets (**Point Size**).
+        . Ce paramètre est également utilisé pour les annotations ({{Version/fr|0.21}}) et pour l\'affichage des propriétés des objets (**Point Size**).
 
     -   
         **Style de représentation**
@@ -65,7 +65,7 @@ La commande <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Dr
         **Transparence**
         
         .
--   Dans la section **Annotations**, les paramètres suivants peuvent être spécifiés :
+-   Les paramètres de la section **Annotations** s\'appliquent aux [Draft Textes](Draft_Text/fr.md), [Draft Dimensions](Draft_Dimension/fr.md) et [Draft Etiquettes](Draft_Label/fr.md). Les paramètres suivants peuvent être spécifiés (voir [Draft Texte](Draft_Text/fr#Vue.md) pour plus de détails) :
     -   
         **Police de caractère**
         
@@ -77,11 +77,6 @@ La commande <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Dr
         . Il s\'agit en fait de la hauteur de la ligne, les lettres sont plus petites.
 
     -   
-        **Espacement des caractères**
-        
-        . Ceci est utilisé pour [Draft Dimensions](Draft_Dimension/fr.md). Il s\'agit de la distance entre le texte et la ligne de dimension. {{Version/fr|0.20}}
-
-    -   
         **Couleur du texte**
         
         . Utilisé aussi par **Couleur de ligne** de [Draft Dimensions](Draft_Dimension/fr.md), qui définit la couleur de toute la dimension, y compris le texte.
@@ -89,8 +84,8 @@ La commande <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Dr
     -   
         **Espacement des lignes**
         
-        . Ce facteur d\'échelle est appliqué à la hauteur de la ligne par défaut. {{Version/fr|0.20}}
-
+        . Non utilisé pour les dimensions. {{Version/fr|0.20}}
+-   Dans la section **Dimensions**, les paramètres suivants peuvent être spécifiés (voir [Draft Dimension](Draft_Dimension/fr#Vue.md) pour plus de détails) :
     -   
         **Style de flèche**
         
@@ -102,6 +97,26 @@ La commande <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Dr
         .
 
     -   
+        **Dépassement des lignes de dimension**
+        
+        . {{Version/fr|0.21}}
+
+    -   
+        **Lignes d'extension**
+        
+        . {{Version/fr|0.21}}
+
+    -   
+        **Dépassement des lignes d'extension**
+        
+        . {{Version/fr|0.21}}
+
+    -   
+        **Espacement du texte**
+        
+        . {{Version/fr|0.20}}
+
+    -   
         **Afficher les unités**
         
         .
@@ -111,7 +126,7 @@ La commande <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Dr
         
         .
 -   Appuyez sur le bouton **<img src="images/Draft_SetStyle.svg" width=16px> Sélectionné** pour appliquer les paramètres aux objets ou groupes sélectionnés. Les objets peuvent être sélectionnés lorsque le panneau des tâches est ouvert. {{Version/fr|0.20}}
--   Appuyez sur le bouton **<img src="images/Draft_Text.svg" width=16px> Annotations** pour appliquer les paramètres à tous les [Draft Textes](Draft_Text/fr.md), [Draft Dimensions](Draft_Dimension/fr.md) et [Draft Étiquettes](Draft_Label/fr.md) du document en cours. {{Version/fr|1.0}}
+-   Appuyez sur le bouton **<img src="images/Draft_Text.svg" width=16px> Annotations** pour appliquer les paramètres à tous les [Draft Textes](Draft_Text/fr.md), [Draft Dimensions](Draft_Dimension/fr.md) et [Draft Étiquettes](Draft_Label/fr.md) du document en cours. {{Version/fr|0.21}}
 -   Appuyez sur le bouton **Annuler** pour terminer la commande sans enregistrer les paramètres.
 
 
@@ -132,19 +147,22 @@ Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Pr
 
 Les préférences suivantes sont en jeu :
 
--   Couleur de ligne : **Edition → Préférences... → Part/Part Design → Apparence de la forme → Propriétés par défaut de la vue de la forme → Couleur de la ligne**.
--   Largeur de ligne : **Edition → Préférences... → Part/Part Design → Apparence de la forme → Propriétés par défaut de la vue de la forme → Largeur de ligne**.
+-   Couleur de ligne : **Edition → Préférences... → Part/Part Design → Apparence de la forme → Propriétés par défaut de la vue de la forme → Couleur de la ligne** et **Couleur des points**.
+-   Largeur de ligne : **Edition → Préférences... → Part/Part Design → Apparence de la forme → Propriétés par défaut de la vue de la forme → Largeur de ligne** et **Taille des points**.
 -   Style de dessin : **Outils → Editer paramètres... → BaseApp → Preferences → Mod → Draft → DefaultDrawStyle**.
 -   Mode d\'affichage : **Outils → Editer paramètres... → BaseApp → Preferences → Mod → Draft → DefaultDisplayMode**.
 -   Couleur de la forme : **Edition → Préférences... → Part/Part Design → Apparence de la forme → Propriétés d'affichage par défaut de la forme → Couleur de la forme**.
 -   Transparence : **Edition → Préférences... → Part/Part Design → Apparence de la forme → Transparence de la forme**.
 -   Police du texte : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour le texte → Famille de polices**.
 -   Taille du texte : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour le texte → Taille de police**.
--   Espacement du texte : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour les cotations → Espacement du texte**.
 -   Couleur du texte : **Outils → Editer paramètres... → BaseApp → Preferences → Mod → Draft → DefaultTextColor**.
 -   Espacement des lignes : **Outils → Editer paramètres... → BaseApp → Preferences → Mod → Draft → LineSpacing**.
--   Style de flèche : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour les cotations → Style des flèches**.
--   Taille de la flèche : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour les cotations → Taille des flèches**.
+-   Style de flèche : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour les dimensions → Style des flèches**.
+-   Taille de la flèche : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour les dimensions → Taille des flèches**.
+-   Dépassement des lignes de dimension : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour les dimensions → Dépassement des lignes de dimension**.
+-   Lignes d\'extension : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour les dimensions → Lignes d'extension**.
+-   Dépassement des lignes d\'extension : Lignes d\'extension : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour les dimensions → Dépassement des lignes d'extension**.
+-   Espacement du texte : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour les cotations → Espacement du texte**.
 -   Afficher les unités : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour les cotations → Afficher le suffixe de l'unité aux dimensions**.
 -   Remplacement de l\'unité : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour les cotations → Remplacer l'unité**.
 

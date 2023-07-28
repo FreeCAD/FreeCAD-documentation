@@ -1,18 +1,20 @@
 ---
 - GuiCommand:/de
-   Name:Sketcher Fillets
+   Name:Sketcher CompCreateFillets
    Name/de:Sketcher AuswahlVerrundungErstellen
-   Icon:Sketcher_CompCreateFillets.png
-   MenuLocation:Nur Symbolleiste
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Version:0.19
 ---
 
 # Sketcher CompCreateFillets/de
 
+
+
 ## Beschreibung
 
 **Verrundung** ist eine Symbolschaltfläche in der Sketcher-Symbolleiste Skizzengeometrien, die Werkzeuge zum Erstellen von Verrundungen gruppiert. Auf den Abwärtspfeil auf ihrer rechten Seite klicken, um die Symbole darunter auszuklappen und ein Werkzeug auszuwählen.
+
+
 
 ## Verrundungsarten
 

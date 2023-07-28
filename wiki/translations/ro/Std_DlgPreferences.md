@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -14,6 +16,8 @@ Vă permite să modificați preferințele diferitelor Ateliere de lucru.
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -34,7 +38,7 @@ Alegeți ** Edit** → ** Preferences** din meniul principal.
 ## Notes
 
 -   For more information see [Preferences Editor](Preferences_Editor.md).
--   On MacOS this command may appear in the FreeCAD menu instead of the [Edit](Std_Edit_Menu.md) menu.
+-   On macOS this command may appear in the FreeCAD menu instead of the [Edit](Std_Edit_Menu.md) menu.
 
 
 

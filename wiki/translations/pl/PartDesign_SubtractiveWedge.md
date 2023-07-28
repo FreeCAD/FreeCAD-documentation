@@ -1,51 +1,62 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign SubtractiveWedge
-   MenuLocation:Part Design → Create a subtractive primitive → Subtractive Wedge
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Subtraktywny klin
+   MenuLocation:Projekt Części → Utwórz cechę przez odjęcie → Subtraktywny klin
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign AdditiveWedge](PartDesign_AdditiveWedge.md)
+   SeeAlso:[Komponent bryła pierwotna do odjęcia](PartDesign_CompPrimitiveSubtractive/pl.md), [Addytywny klin](PartDesign_AdditiveWedge/pl.md)
 ---
 
 # PartDesign SubtractiveWedge/pl
 
-## Description
 
-Inserts a subtractive wedge in the active Body. Its shape is subtracted from the existing solid.
 
-![](images/PartDesign_SubtractiveWedge_example.svg ) *On the left: active body (A) shown in grey and subtractive wedge (B) shown in transparent red; result on the right.*
+## Opis
 
-## Usage
+Funkcja ta wstawia pierwotny klin odejmowany od aktywnej Zawartości. Jego kształt jest odejmowany od istniejącej bryły.
 
-1.  Press the **<img src="images/PartDesign_SubtractiveWedge.svg" width=24px> '''Subtractive Wedge'''** button. **Note**: the Subtractive Wedge is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get the Wedge, click on the down arrow besides the visible icon and select Subtractive Wedge in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  A Wedge feature appears under the active Body.
+![](images/PartDesign_SubtractiveWedge_example.svg ) *Po lewej: aktywna zawartość (A) pokazana w kolorze szarym i klin do odjęcia (B) pokazany w kolorze czerwonym z przeźroczystością. Wynik po prawej*.
 
-## Options
 
-The Wedge can be edited after its creation in two ways:
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
+## Użycie
 
-## Properties
+1.  Naciśnij przycisk **<img src="images/PartDesign_SubtractiveWedge.svg" width=24px> '''Subtraktywny klin'''**. **Uwaga**: Subtraktywny klin jest częścią menu narzędzi o nazwie **Utwórz bryłę pierwotną do odjęcia**. Po uruchomieniu programu FreeCAD, na pasku narzędzi domyślnie wyświetlany jest Subtraktywny prostopadłościan. Aby przejść do funkcji Klin, kliknij strzałkę w dół na widocznej ikonce i wybierz z menu opcję Subtraktywny klin.
+2.  Ustaw parametry bryły i [dołączenia](Part_EditAttachment/pl.md).
+3.  Kliknij **OK**.
+4.  Pod aktywnym obiektem Zawartość pojawi się element Klin.
 
-Using the default placement, the below inputs are:
 
--    **X min/max**: Base face X axis span
 
--    **Y min/max**: Wedge height span
+## Opcje
 
--    **Z min/max**: Base face Z axis span
+Klin można edytować po jego utworzeniu na dwa sposoby:
 
--    **X2 min/max**: Top face X axis span
+-   Klikając go dwukrotnie w drzewie modelu lub klikając prawym przyciskiem myszy i wybierając **Edytuj bryłę pierwotną** z menu podręcznego. Spowoduje to wyświetlenie parametrów bryły pierwotnej.
+-   Poprzez [Edytor właściwości](Property_editor/pl.md).
 
--    **Z2 min/max**: Top face Z axis span
 
-## Pyramids
 
-Wedges can be used to create pyramids by setting **X2 min/max** and **Z2 min/max** each so that min = max.
+## Właściwości
+
+Korzystając z domyślnego rozmieszczenia, poniższe dane wejściowe są następujące:
+
+-    **X min/max**: Rozpiętość osi X ściany bazowej.
+
+-    **Y min/max**: Rozpiętość wysokości klina
+
+-    **Z min/max**: rozpiętość osi Z ściany bazowej
+
+-    **X2 min/max**: Rozpiętość osi X ściany górnej
+
+-    **Z2 min/max**: Rozpiętość osi Z górnej ściany
+
+
+
+## Piramidy
+
+Kliny mogą być używane do tworzenia piramid poprzez ustawienie **X2 min/max** i **Z2 min/max** tak, aby wartość min = max.
 
 
 

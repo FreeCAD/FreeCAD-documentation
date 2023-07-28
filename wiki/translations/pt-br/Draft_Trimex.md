@@ -9,6 +9,8 @@
 
 # Draft Trimex/pt-br
 
+
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Trimex.svg  style="width:24px;"> **Draft Trimex** command [trims or extends](#Trim_or_extend.md) a selected object. Intersections with the edge of another object can be used to determine new endpoints. The command can also be used to [extrude](#Extrude.md) a face, in which case it creates a [Part Extrude](Part_Extrude.md) object.
@@ -19,9 +21,11 @@ Bottom: a face extruded into a solid body.*
 
 ## Trim or extend 
 
+
+
 ### Utilização
 
-1.  Optionally select one object. The object must be a [Draft Line](Draft_Line.md), a [Draft Wire](Draft_Wire.md), a [Draft Arc](Draft_Arc.md) or a [Draft Circle](Draft_Line.md) (which can only be trimmed). If the selected object is closed it must have its **Make Face** property set to `False`.
+1.  Optionally select one object. The object must be a [Draft Line](Draft_Line.md), a [Draft Wire](Draft_Wire.md), a [Draft Arc](Draft_Arc.md) or a [Draft Circle](Draft_Circle.md) (which can only be trimmed). If the selected object is closed it must have its **Make Face** property set to `False`.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Trimex.svg" width=16px> [Draft Trimex](Draft_Trimex.md)** button.
     -   Select the **Modification → <img src="images/Draft_Trimex.svg" width=16px> Trimex** option from the menu.
@@ -33,6 +37,8 @@ Bottom: a face extruded into a solid body.*
     -   Pick a point in the [3D view](3D_view.md).
     -   Enter a **Distance** or an **Angle**. The distance is a delta distance. This option does not work if modifier keys are used.
     -   Move the pointer over an edge belonging to another object, and click when this edge is highlighted, to trim or extend the selected object using an intersection with the highlighted edge as the new endpoint. When trimming, the projection of the point where the cutting edge is selected onto the object to be trimmed, determines the default result. Note that [Draft Snaps](Draft_Snap.md) can have an undesirable impact here. In some cases it can be useful to turn them off temporarily.
+
+
 
 ### Opções
 
@@ -56,6 +62,8 @@ Here is an example to explain the modifier keys. The left edge or the bottom edg
 
 ## Extrude
 
+
+
 ### Utilização 
 
 See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
@@ -72,11 +80,15 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
     -   Pick a point in the [3D view](3D_view.md) that does no lie on the same plane as the face.
     -   Make sure the pointer is on the correct side of the face in the [3D view](3D_view.md) and enter a **Distance**.
 
+
+
 ### Opções 
 
 The modifier key mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
 
 -   Hold **Shift** to extrude in a direction that is not parallel to the normal of the face.
+
+
 
 ## Preferências
 

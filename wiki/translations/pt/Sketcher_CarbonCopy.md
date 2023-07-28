@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descrição
 
 The **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Sketcher CarbonCopy](Sketcher_CarbonCopy.md)** tool copies all the geometry and constraints from another sketch into the active sketch.
@@ -21,7 +23,7 @@ Dimensional constraints which exist before the copy function remain linked to th
 ## Usage
 
 1.  Make sure you are in the edit mode of an existing **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketch](Sketcher_NewSketch.md)**. This sketch is the target of the operation.
-2.  Press the **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Carbon copy](Sketcher_CarbonCopy.md)** button.
+2.  Press the **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Create carbon copy](Sketcher_CarbonCopy.md)** button.
 3.  Click on an edge from another sketch. This sketch is the source of the operation.
 4.  Geometry elements as well as constraints are copied into the active sketch.
 5.  Press **Esc** or the right mouse button to terminate the operation.

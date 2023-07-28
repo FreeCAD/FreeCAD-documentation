@@ -39,7 +39,7 @@ Ce sont des outils pour créer des objets primitifs.
 
 -   <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Tore](Part_Torus/fr.md) : dessine un tore.
 
--   <img alt="" src=images/Part_Tube.svg  style="width:32px;"> [Tube](Part_Tube/fr.md) : dessine un tube {{Version/fr|0.19}}.
+-   <img alt="" src=images/Part_Tube.svg  style="width:32px;"> [Tube](Part_Tube/fr.md) : crée un tube.
 
 -   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Créer des primitives\...](Part_Primitives/fr.md) : outil pour créer l\'une des primitives suivantes :
     -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Plan](Part_Plane/fr.md) : crée un plan.
@@ -77,7 +77,7 @@ Il s\'agit d\'outils permettant de créer de nouveaux objets et de modifier des 
 
 -   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Chanfrein](Part_Chamfer/fr.md) : chanfreine les bords d\'un objet.
 
--   <img alt="" src=images/Part_MakeFace.svg  style="width:32px;"> [Face à partir de polylignes](Part_MakeFace/fr.md) : génère une face à partir d\'un ensemble de polylignes (contours). {{Version/fr|0.19}}
+-   <img alt="" src=images/Part_MakeFace.svg  style="width:32px;"> [Face à partir de polylignes](Part_MakeFace/fr.md) : génère une face à partir d\'un ensemble de polylignes (contours).
 
 -   <img alt="" src=images/Part_RuledSurface.svg  style="width:32px;"> [Surface réglée](Part_RuledSurface/fr.md) : crée une surface réglée.
 
@@ -95,7 +95,7 @@ Il s\'agit d\'outils permettant de créer de nouveaux objets et de modifier des 
 
 -   <img alt="" src=images/Part_Thickness.svg  style="width:32px;"> [Evidement](Part_Thickness/fr.md) : creuse un solide pour en faire comme une coque.
 
--   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Projection sur une surface](Part_ProjectionOnSurface/fr.md) : projette un logo, un texte ou une face, un fil ou une arête sur une surface. {{Version/fr|0.19}}
+-   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Projection sur une surface](Part_ProjectionOnSurface/fr.md) : projette un logo, un texte ou une face, un fil ou une arête sur une surface.
 
 -   <img alt="" src=images/Part_EditAttachment.svg  style="width:32px;"> [Ancrage](Part_EditAttachment/fr.md) : rattache un objet à un autre objet.
 
@@ -114,7 +114,7 @@ Ces outils effectuent des opérations booléennes.
 
 -   <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Soustraction](Part_Cut/fr.md) : soustrait un objet d\'un autre.
 
--   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Union](Part_Fuse/fr.md) : union de deux objets.
+-   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Union](Part_Fuse/fr.md) : union de deux ou plus d\'objets.
 
 -   <img alt="" src=images/Part_Common.svg  style="width:32px;"> [Intersection](Part_Common/fr.md) : extrait la partie commune (intersection) de deux objets.
 
@@ -159,7 +159,7 @@ Ces outils effectuent des opérations booléennes.
 
 -   <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:32px;"> [Forme à partir du maillage](Part_ShapeFromMesh/fr.md) : crée un objet de forme à partir d\'un objet de maillage.
 
--   <img alt="" src=images/Part_PointsFromMesh.svg  style="width:32px;"> [Points à partir de maillage](Part_PointsFromMesh/fr.md) : crée un objet de forme constitué de points du maillage. {{Version/fr|0.19}}
+-   <img alt="" src=images/Part_PointsFromMesh.svg  style="width:32px;"> [Points à partir de maillage](Part_PointsFromMesh/fr.md) : crée un objet point à partir d\'un objet géométrique.
 
 -   <img alt="" src=images/Part_MakeSolid.svg  style="width:32px;"> [Convertir en solide](Part_MakeSolid/fr.md) : convertit un objet forme en objet solide.
 
@@ -167,8 +167,8 @@ Ces outils effectuent des opérations booléennes.
 
 -   Créer une copie :
     -   <img alt="" src=images/Part_SimpleCopy‎.svg  style="width:32px;"> [Créer une copie simple](Part_SimpleCopy/fr.md) : crée une copie simple de l\'objet sélectionné.
-    -   <img alt="" src=images/Part_TransformedCopy.svg  style="width:32px;"> [Créer une copie transformée](Part_TransformedCopy/fr.md) : crée une copie transformée de l\'objet sélectionné. {{Version/fr|0.19}}
-    -   <img alt="" src=images/Part_ElementCopy.svg  style="width:32px;"> [Créer une copie d\'élément de la forme](Part_ElementCopy/fr.md) : crée une copie d\'un élément (sommet, arête, face) de l\'objet sélectionné. {{Version/fr|0.19}}
+    -   <img alt="" src=images/Part_TransformedCopy.svg  style="width:32px;"> [Créer une copie transformée](Part_TransformedCopy/fr.md) : crée une copie transformée de l\'objet sélectionné.
+    -   <img alt="" src=images/Part_ElementCopy.svg  style="width:32px;"> [Créer une copie d\'élément de la forme](Part_ElementCopy/fr.md) : crée une copie d\'un élément (sommet, arête, face) de l\'objet sélectionné.
     -   <img alt="" src=images/Part_RefineShape.svg  style="width:32px;"> [Affiner la forme](Part_RefineShape/fr.md) : nettoie les faces en supprimant les lignes inutiles.
 
 -   <img alt="" src=images/Part_CheckGeometry.svg  style="width:32px;"> [Vérifier la géométrie](Part_CheckGeometry/fr.md) : vérifie la géométrie des objets sélectionnés pour en détecter les erreurs.
@@ -195,7 +195,7 @@ Ces outils effectuent des opérations booléennes.
 
 ## Script
 
-Voir [Part Ecrire un script](Part_scripting/fr.md)
+Voir [Part Écrire un script](Part_scripting/fr.md)
 
 
 

@@ -31,7 +31,9 @@ causes the 2 parts of PySide to be loaded - QtGui holds classes for managing the
 
 The import statements are not repeated in the snippets below; it is assumed that it is done at the beginning in each case.
 
-## Simplest Example 
+
+
+## Простейший пример 
 
 The simplest interaction with PySide is to present a message to the user which they can only accept:
 
@@ -42,7 +44,9 @@ reply = QtGui.QMessageBox.information(None,"","Houston, we have a problem")
 
 ![](images/PySideScreenSnapshot5.jpg )
 
-## Yes or No Query 
+
+
+## Запрос ответа: Да или Нет 
 
 The next most simple interaction is to ask for a yes/no answer:
 
@@ -65,7 +69,9 @@ if reply == QtGui.QMessageBox.No:
 
 ![](images/PySideScreenSnapshot6.jpg )
 
-## Enter Text Query 
+
+
+## Текстовый Запрос 
 
 The next code snippet asks the user for a piece of text - note this can be any key on the keyboard really:
 
@@ -91,7 +97,9 @@ anInteger = int(userInput) # to convert to an integer from a string representati
 aFloat = float(userInput) # to convert to a float from a string representation
 ```
 
-## More Than 2 Buttons 
+
+
+## Более чем 2 кнопки 
 
 The final Beginner Level example is of how to build a dialog with an arbitrary number of buttons. This example is programmatically too complex to be invoked from a single Python statement so in some ways it should be on the next page which is [PySide Intermediate Examples](PySide_Intermediate_Examples.md). But on the other hand this is often all that is needed without getting into complex GUI definitions, so the code is placed at the end of this page rather than the beginning of the next.
 

@@ -1,18 +1,21 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher CreatePointFillet
-   MenuLocation:Sketch → Sketcher geometries → Create corner-preserving fillet
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Utwórz zaokrąglenie z zachowaniem narożników
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz zaokrąglenie z zachowaniem narożników
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **F** **P**
    Version:0.19
-   SeeAlso:[Sketcher CreateFillet](Sketcher_CreateFillet.md)
+   SeeAlso:[Utwórz zaokrąglenie](Sketcher_CreateFillet.md)
 ---
 
 # Sketcher CreatePointFillet/pl
 
-## Description
 
-This tool creates a fillet between two lines. The (virtual) intersection of the lines is preserved by adding a [point](Sketcher_CreatePoint.md) that has a [point onto object constraint](Sketcher_ConstrainPointOnObject.md) with both lines. Apart from that this tool is identical to the [Sketcher CreateFillet](Sketcher_CreateFillet.md) tool. See there for more information.
+
+## Opis
+
+To narzędzie tworzy zaokrąglenie pomiędzy dwoma liniami. *(Wirtualne)* przecięcie linii jest zachowane przez dodanie [punktu](Sketcher_CreatePoint/pl.md), który ma wiązanie [punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md) z obiema liniami. Poza tym narzędzie to jest identyczne z narzędziem [Utwórz zaokrąglenie](Sketcher_CreateFillet/pl.md). Zobacz tam, aby uzyskać więcej informacji.
 
 
 

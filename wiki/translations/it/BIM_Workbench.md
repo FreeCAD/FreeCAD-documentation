@@ -6,6 +6,8 @@
 
 {{TOCright}}
 
+
+
 ## Introduzione
 
 L\'ambiente <img alt="" src=images/_Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/it.md) è un [ambiente esterno](External_workbenches/it.md) finalizzato all\'implementazione completa in FreeCAD degli strumenti e del flusso di lavoro[Building Information Modeling](https://en.wikipedia.org/wiki/Building_information_modeling) (BIM). Può essere installato da <img alt="" src=images/_Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/it.md).
@@ -24,6 +26,8 @@ Gli sviluppatori di Draft, Arch e BIM collaborano anche con la più ampia [comun
 
 <img alt="" src=images/BIM_workbench_presentation.png  style="width:800px;">
 
+
+
 ## Installazione
 
 
@@ -39,6 +43,8 @@ Il workbench BIM non è in bundle con il pacchetto FreeCAD predefinito, ma può 
 L\'ambiente BIM è un work in progress e cambierà spesso. Assicurarsi di aggiornarlo regolarmente! Se il modulo [Python-Git](https://github.com/chidimo/python-git) è installato, l\'ambiente BIM cerca automaticamente gli aggiornamenti disponibili all\'avvio e se è disponibile un aggiornamento mosta un\'icona nella barra di stato.
 
 Se la propria versione di FreeCAD non è completamente aggiornata gli strumenti elencati di seguito potrebbero non essere tutti presenti. L\'ambiente BIM dovrebbe comunque funzionare perfettamente su tutte le versioni di FreeCAD, tranne che per gli strumenti non disponibili.
+
+
 
 ## Per iniziare 
 
@@ -72,6 +78,8 @@ Se si è abituati a lavorare con un\'altra applicazione BIM, controllare la nost
 
 The [in-game tutorial](BIM_ingame_tutorial.md) is an easy way to quickly get on track with the BIM workbench.
 
+
+
 ## Strumenti
 
 
@@ -91,6 +99,8 @@ Inoltre, se sono installati degli [addon](External_workbenches/it.md), gli strum
 </div>
 
 L\'ambiente BIM aggiunge anche una serie di elementi nella **barra di stato** di FreeCAD e un paio di **voci nel menu contestuale**, accessibili facendo clic con il tasto destro nella vista 3D o nella vista ad albero .
+
+
 
 ### Disegni 2D 
 
@@ -116,6 +126,8 @@ Gli oggetti 2D sono comunemente usati come strumenti di disegno o per disegnare 
 -   <img alt="" src=images/Draft_BezCurve.svg  style="width:32px;"> [Curva di Bezier](Draft_BezCurve/it.md): Disegna curve di Bezier su una serie di punti.
 -   <img alt="" src=images/Draft_Point.svg  style="width:32px;"> [Punto](Draft_Point/it.md): Inserisce un oggetto punto.
 
+
+
 ### Annotazioni
 
 
@@ -140,6 +152,8 @@ Le annotazioni sono oggetti di aiuto visivo che possono essere inseriti all\'int
 
 
 </div>
+
+
 
 ### Modellazione BIM/3D 
 
@@ -193,6 +207,8 @@ Gli oggetti 3D e BIM sono gli elementi del mondo reale che compongono il progett
 
 </div>
 
+
+
 ### Strumenti di modifica 
 
 
@@ -227,6 +243,8 @@ Gli oggetti 3D e BIM sono gli elementi del mondo reale che compongono il progett
 
 </div>
 
+
+
 ### Strumenti di gestione 
 
 
@@ -248,6 +266,8 @@ Gli oggetti 3D e BIM sono gli elementi del mondo reale che compongono il progett
 
 </div>
 
+
+
 ## Tutorial e apprendimento 
 
 
@@ -260,6 +280,8 @@ Gli oggetti 3D e BIM sono gli elementi del mondo reale che compongono il progett
 
 
 </div>
+
+
 
 ## Ambienti aggiuntivi 
 

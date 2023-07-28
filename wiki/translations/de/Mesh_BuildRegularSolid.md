@@ -1,150 +1,183 @@
 ---
 - GuiCommand:/de
-   Name:Mesh BuildRegularSolid   Name/de:Netze Regelgeometrie
+   Name:Mesh BuildRegularSolid
+   Name/de:Mesh RegelgeometrieErstellen
    MenuLocation:Netze → Regelgeometrie...
-   Workbenches:[Netze](Mesh_Workbench.md)
-   Shortcut:
-   SeeAlso:
+   Workbenches:[Mesh](Mesh_Workbench/de.md)
 ---
 
 # Mesh BuildRegularSolid/de
 
-## Description
 
 
-<div class="mw-translate-fuzzy">
+## Beschreibung
 
-## Einleitung
-
-Erstelle Netz-Körper wie Würfel, Zylinder, Kegel, Kugel, Ellipsoid oder Torus.
+Der Befehl **Mesh RegelgeometrieErstellen** erstellt ein regelmäßiges parametrisches Festkörper-Netzobjekt.
 
 
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
 
 ## Anwendung
 
-Wähle **Netze** → **<img src="images/Mesh_BuildRegularSolid.svg" width=32px> Regelgeometrie...** aus der Menüleiste.
-![](images/Meshes_RegularSolid_Cube.jpg ) ![](images/Meshes_RegularSolid_Cylinder.jpg ) ![](images/Meshes_RegularSolid_Cone.jpg )
-![](images/Meshes_RegularSolid_Sphere.jpg ) ![](images/Meshes_RegularSolid_Ellipsoid.jpg ) ![](images/Meshes_RegularSolid_Torus.jpg )
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Mesh_BuildRegularSolid.svg" width=16px> [Regelgeometrie...](Mesh_BuildRegularSolid/de.md)** drücken.
+    -   Den Menüeintrag **Meshes → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Regelgeometrie...** auswählen.
+2.  Das Dialogfenster **Regelgeometrie** wird geöffnet.
+3.  Zuerst den Typ des Netzobjekts aus der Ausklappliste auswählen:
+    -   
+        **<img src="images/Mesh_Cube.svg" width=16px> Würfel
+**
+        
+
+    -   
+        **<img src="images/Mesh_Cylinder.svg" width=16px> Zylinder
+**
+        
+
+    -   
+        **<img src="images/Mesh_Cone.svg" width=16px> Kegel
+**
+        
+
+    -   
+        **<img src="images/Mesh_Sphere.svg" width=16px> Kugel
+**
+        
+
+    -   
+        **<img src="images/Mesh_Ellipsoid.svg" width=16px> Ellipsoid
+**
+        
+
+    -   
+        **<img src="images/Mesh_Torus.svg" width=16px> Torus
+**
+        
+4.  Die erforderlichen Einstellungen festlegen. Welche Einstellungen angezeigt werden, hängt vom Typ des Netzobjekts ab. Siehe [Eigenschaften](#Eigenschaften.md).
+5.  Für Netze mit geschwungenen oberflächen: ein höherer **Sampling**-Wert ergibt ein feineres Netz.
+6.  Die Schaltfläche {{button|Erstellen}} drücken, um ein Netzobjekt zu erstellen.
+7.  Wahlweise mehr Netzobjekte erstellen.
+8.  Die Schaltfläche {{button|Close}} drücken, um das Dialogfenster zu schließen und den Befehl zu beenden.
 
 
-</div>
 
-## Notes
+## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
-## Anmerkungen
-
-Zur Änderung der Parameter dieser vernetzten Regelgeometrien selektiere sie in der Baumansicht und wechsle zum Daten-Reiter.
+-   Die mit diesem Befehl erstellten Netzobjekte sind parametrisch. Immer wenn sie neu berechnet werden, z.B. nach dem Ändern eines Parameters, wird ihr Netz neu aufgebaut. Das bedeutet, dass die Anwendung von Befehlen wie [Mesh NeuVernetzenGmsh](Mesh_RemeshGmsh/de.md), [Mesh Skalieren](Mesh_Scale.md) usw. bei ihnen normalerweise nicht sinnvoll ist.
 
 
-</div>
 
-## Properties
+## Eigenschaften
 
-Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.md) properties. In addition each mesh object type has a number of properties to control its parametric behavior:
+Netzobjekte, die mit diesem Befehl erstellt werden erben sämtliche Einstellungen eines [Mesh Formelements](Mesh_Feature/de.md). Zusätzlich besitzt jeder Typ der Netzobjekte einige Einstellungen zur Steuerung seines parametrischen Verhaltens:
 
-### <img alt="" src=images/Mesh_Cube.svg  style="width:32px;"> Cube 
 
-#### Data
+
+### <img alt="" src=images/Mesh_Cube.svg  style="width:32px;"> Würfel 
+
+
+
+#### Daten
 
 
 {{TitleProperty|Cube}}
 
--    **Height|FloatConstraint**: the height of the cube.
+-    {{PropertyData/de|Height|FloatConstraint}}: die Höhe des Würfels
 
--    **Length|FloatConstraint**: the length of the cube.
+-    {{PropertyData/de|Length|FloatConstraint}}: die Länge des Würfels
 
--    **Width|FloatConstraint**: the width of the cube.
-
-### <img alt="" src=images/Mesh_Cylinder.svg  style="width:32px;"> Cylinder 
-
-#### Data 
+-    {{PropertyData/de|Width|FloatConstraint}}: die Breite des Würfels
 
 
-{{TitleProperty|Base}}
 
--    **Closed|Bool**: if set to `False`, the planar ends of the cylinder are left open.
-
--    **Edge Length|FloatConstraint**: the edge length of the faces in the mesh.
-
--    **Length|FloatConstraint**: the length of the cylinder.
-
--    **Radius|FloatConstraint**: the radius of the cylinder.
-
--    **Sampling|IntegerConstraint**: the number of faces along the curved surface.
-
-### <img alt="" src=images/Mesh_Cone.svg  style="width:32px;"> Cone 
-
-#### Data 
+### <img alt="" src=images/Mesh_Cylinder.svg  style="width:32px;"> Zylinder 
 
 
-{{TitleProperty|Base}}
 
--    **Closed|Bool**: if set to `False`, the planar end(s) of the cone are left open.
-
--    **Edge Length|FloatConstraint**: the edge length of the faces in the mesh.
-
--    **Length|FloatConstraint**: the length of the cone.
-
--    **Radius 1|FloatConstraint**: the first radius of the cone. Can be {{value|0}}.
-
--    **Radius 2|FloatConstraint**: the second radius of the cone. Can be {{value|0}}.
-
--    **Sampling|IntegerConstraint**: the number of faces along the curved surface.
-
-### <img alt="" src=images/Mesh_Sphere.svg  style="width:32px;"> Sphere 
-
-#### Data 
+#### Daten 
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Basis}}
 
--    **Radius|FloatConstraint**: the radius of the sphere.
+-    {{PropertyData/de|Closed|Bool}}: wenn auf `False`, bleiben die ebenen Enden des Zylinders offen.
 
--    **Sampling|IntegerConstraint**: the number of faces along both directions of the curved surface.
+-    {{PropertyData/de|Edge Length|FloatConstraint}}: die Kantenlänge der Flächen im Netz.
+
+-    {{PropertyData/de|Length|FloatConstraint}}: die Länge des Zylinders.
+
+-    {{PropertyData/de|Radius|FloatConstraint}}: der Radius des Zylinders.
+
+-    {{PropertyData/de|Sampling|IntegerConstraint}}: die Anzahl der Flächen entlang der gekrümmten Oberfläche.
+
+
+
+### <img alt="" src=images/Mesh_Cone.svg  style="width:32px;"> Kegel 
+
+
+
+#### Daten 
+
+
+{{TitleProperty|Basis}}
+
+-    {{PropertyData/de|Closed|Bool}}: wenn auf `False` gesetzt, bleiben ebene Enden von Kegeln offen.
+
+-    {{PropertyData/de|Edge Length|FloatConstraint}}: die Kantenlänge der Flächen im Netz.
+
+-    {{PropertyData/de|Length|FloatConstraint}}: die Länge des Kegels
+
+-    {{PropertyData/de|Radius 1|FloatConstraint}}: der erste Radius des Kegels. Kann {{value|0}} sein.
+
+-    {{PropertyData/de|Radius 2|FloatConstraint}}: der zweite Radius des Kegels. Kann {{value|0}} sein.
+
+-    {{PropertyData/de|Sampling|IntegerConstraint}}: die Anzahl der Flächen entlang der gekrümmten Oberfläche.
+
+
+
+### <img alt="" src=images/Mesh_Sphere.svg  style="width:32px;"> Kugel 
+
+
+
+#### Daten 
+
+
+{{TitleProperty|Basis}}
+
+-    {{PropertyData/de|Radius|FloatConstraint}}: der Radius der Kugel.
+
+-    {{PropertyData/de|Sampling|IntegerConstraint}}: die Anzahl der Flächen entlang beider Richtungen der gekrümmten Oberfläche.
 
 ### <img alt="" src=images/Mesh_Ellipsoid.svg  style="width:32px;"> Ellipsoid 
 
-#### Data 
 
 
-{{TitleProperty|Base}}
+#### Daten 
 
--    **Radius 1|FloatConstraint**: the first radius of the ellipsoid.
 
--    **Radius 2|FloatConstraint**: the second radius of the ellipsoid.
+{{TitleProperty|Basis}}
 
--    **Sampling|IntegerConstraint**: the number of faces along both directions of the curved surface.
+-    {{PropertyData/de|Radius 1|FloatConstraint}}: der erste Radius des Ellipsoids.
+
+-    {{PropertyData/de|Radius 2|FloatConstraint}}: der zweite Radius des Ellipsoids.
+
+-    {{PropertyData/de|Sampling|IntegerConstraint}}: die Anzahl der Flächen entlang beider Richtungen der gekrümmten Oberfläche.
 
 ### <img alt="" src=images/Mesh_Torus.svg  style="width:32px;"> Torus 
 
-#### Data 
 
 
-{{TitleProperty|Base}}
-
--    **Radius 1|FloatConstraint**: the first (main) radius the torus.
-
--    **Radius 2|FloatConstraint**: the second radius of the torus.
-
--    **Sampling|IntegerConstraint**: the number of faces along both directions of the curved surface.
+#### Daten 
 
 
-<div class="mw-translate-fuzzy">
+{{TitleProperty|Basis}}
 
+-    {{PropertyData/de|Radius 1|FloatConstraint}}: der erste (Haupt-) Radius des Torus.
 
+-    {{PropertyData/de|Radius 2|FloatConstraint}}: der zweite Radius des Torus.
+
+-    {{PropertyData/de|Sampling|IntegerConstraint}}: die Anzahl der Flächen entlang beider Richtungen der gekrümmten Oberfläche.
 
 
 
-</div>
 
 
 {{Mesh Tools navi

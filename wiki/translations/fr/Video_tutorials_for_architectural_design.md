@@ -7,6 +7,8 @@ Les tutoriels répertoriés ici sont ceux qui traitent de la conception de pièc
 
 Consultez la page [tutoriels](tutorials/fr.md) pour des tutoriels détaillés. Vous trouverez une liste complète et non triée de didacticiels dans la [catégorie tutoriels](:Category:Tutorials/fr.md).
 
+
+
 ## Conception architecturale 
 
 Vidéos montrant la modélisation de pièces, de maisons, d\'immeubles de bureaux et de structures similaires et de dessin de plans d\'étage, à l\'aide des ateliers tels que <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/fr.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/fr.md) et <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/fr.md).

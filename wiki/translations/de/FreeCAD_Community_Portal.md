@@ -1,6 +1,8 @@
 # FreeCAD Community Portal/de
 Dies ist der Ort, an dem du alle Arten von FreeCAD-bezogenen Sachen ablegen kannst! Wenn Du an etwas arbeitest, das mit FreeCAD zu tun hat, füge es bitte hier ein!
 
+
+
 ## Orte, an denen FreeCAD im Netz erscheint 
 
 -   [Wikipedia](https://en.wikipedia.org/wiki/FreeCAD)
@@ -11,9 +13,13 @@ Dies ist der Ort, an dem du alle Arten von FreeCAD-bezogenen Sachen ablegen kann
 -   [Freshports](http://www.freshports.org/cad/freecad/)
 -   [Packman](http://packman.links2linux.de/package/2776)
 
+
+
 ## FreeCAD bezogene Projekte 
 
 -   [Architekturarbeitsablauf](http://yorik.uncreated.net/guestblog.php?tag=freecad): Ein Beispiel, wie FreeCAD seinen vorbereitenden Platz in einem Arbeitsablauf in der Architektur haben kann\...
+
+
 
 ## FreeCAD Gemeinschafts Erweiterungen 
 
@@ -22,11 +28,17 @@ Dies sind von der FreeCAD Gemeinschaft entwickelte Arbeitsbereiche, Skripte, Mak
 -   [FreeCAD GitHub Erweiterungen Repositorium](https://github.com/FreeCAD/FreeCAD-addons) ist das GitHub Repositorium, das FreeCAD Erweiterungen beherbergt.
 -   [External workbenches/de](External_workbenches/de.md) ist die Wiki Seite, die mehr Details über jede Erweiterung erklärt.
 
+
+
 ## Werbung
+
+
 
 ### Soziale Netzwerke 
 
 -   [yorik](User_Yorik.md) - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
+
+
 
 ### Nachrichten Webseiten 
 
@@ -41,6 +53,8 @@ Dies sind von der FreeCAD Gemeinschaft entwickelte Arbeitsbereiche, Skripte, Mak
 -   <http://www.inside3dp.com/>
 -   <http://diy3dprinting.blogspot.com/>
 
+
+
 ### Andere Webseiten 
 
 -   <http://forum.lulzbot.com/viewforum.php?f=30>
@@ -54,19 +68,27 @@ Dies sind von der FreeCAD Gemeinschaft entwickelte Arbeitsbereiche, Skripte, Mak
 -   <http://opensourcedesigntools.blogspot.de/>
 -   [yorik](User_Yorik.md) - <http://yorik.uncreated.net>
 
+
+
 ### Französisch
 
 -   <http://www.linuxgraphic.org/>
 -   <https://freecad-france.com/>
 -   <https://linuxfr.org/>
 
+
+
 ### Spanisch
 
 -   <http://www.iearobotics.com/blog/>
 
+
+
 ### Italienisch
 
 -   <http://ingegnerialibera.altervista.org/blog/doku.php>
+
+
 
 ### Polnisch
 
@@ -74,9 +96,7 @@ Dies sind von der FreeCAD Gemeinschaft entwickelte Arbeitsbereiche, Skripte, Mak
 -   <http://wkupiesila.blogspot.com>
 -   <http://cadblog.pl>
 
-## Andere Ressourcen 
 
--   [Interessante Verweise](Interesting_links/de.md) enthält einige vielleicht nützliche Verweise zu anderen FLOSS Informationsquellen und Projekten in diesem Bereich.
 
 ## Du auch! 
 

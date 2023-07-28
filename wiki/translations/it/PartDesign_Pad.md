@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -25,6 +27,8 @@ Lo strumento **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Estr
 ![](images/PartDesign_Pad_example.svg )
 
 *A sinistra è mostrato lo Schizzo (A); a destra il risultato finale dopo l\'operazione di estrusione (B).*
+
+
 
 ## Utilizzo
 
@@ -41,6 +45,8 @@ Lo strumento **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Estr
 
 When selecting a single sketch, it can have multiple enclosed profiles inside a larger one, for example a rectangle with two circles inside it. But the profiles may not intersect each other. <small>(v0.20)</small> 
 
+
+
 ## Opzioni
 
 
@@ -53,6 +59,8 @@ Quando si crea un estrusione, la vista combinata passa automaticamente al riquad
 
 ![](images/pad_parameters_cropped_it.png )
 
+
+
 ### Tipo
 
 
@@ -62,6 +70,8 @@ Tipo offre cinque diversi modi per specificare la lunghezza a cui il prisma sar�
 
 
 </div>
+
+
 
 #### Quota
 
@@ -73,13 +83,19 @@ Inserire un valore numerico per la lunghezza dell\'estrusione. La direzione pred
 
 </div>
 
+
+
 #### Fino all\'ultimo 
 
 Il solido viene estruso fino all\'ultima faccia del supporto nella direzione di estrusione. Se non vi è alcun supporto, viene visualizzato un messaggio di errore.
 
+
+
 #### Fino al primo 
 
 Il solido viene estruso fino alla prima faccia del supporto nella direzione di estrusione. Se non vi è alcun supporto, viene visualizzato un messaggio di errore.
+
+
 
 #### Fino alla faccia 
 
@@ -91,6 +107,8 @@ Il solido verrà estruso fino a una faccia del supporto che può essere scelta c
 
 </div>
 
+
+
 #### Due dimensioni 
 
 
@@ -101,6 +119,8 @@ Questo consente di inserire una seconda lunghezza per estendere l\'estrusione in
 
 </div>
 
+
+
 ### Quota 
 
 
@@ -110,6 +130,8 @@ Definisce la lunghezza dell\'estrusione. Si possono utilizzare diverse unità di
 
 
 </div>
+
+
 
 ### Offset dalla faccia 
 
@@ -127,9 +149,11 @@ Offset dalla faccia in cui terminerà l\'estrusione. Questa opzione è disponibi
 
 You can select the direction of the extrusion:
 
--   **Sketch normal** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
--   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion. <small>(v0.20)</small> 
--   **Custom direction** The sketch is extruded along a direction that can be specified via vector values. <small>(v0.19)</small> 
+-   **Sketch normal:** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
+-   **Select reference\...:** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion. <small>(v0.20)</small> 
+-   **Custom direction:** The sketch is extruded along a direction that can be specified via vector values.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -151,6 +175,8 @@ Se spuntato, la direzione del prisma non sarà il vettore normale dello schizzo 
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Lunghezza lungo la normale del disegno 
@@ -159,6 +185,8 @@ Se spuntato, la direzione del prisma non sarà il vettore normale dello schizzo 
 </div>
 
 Se selezionata, la lunghezza del prisma è misurata lungo la normale dello schizzo, altrimenti lungo la direzione personalizzata. {{Version/it|0.20}}
+
+
 
 ### Simmetrica al piano 
 
@@ -169,6 +197,8 @@ Estende la lunghezza data su entrambi i lati del piano di schizzo, simmetricamen
 
 
 </div>
+
+
 
 ### Invertita
 
@@ -197,6 +227,8 @@ Defines the length of the pad in the opposite extrusion direction. Multiple unit
 
 Tapers the pad in the opposite extrusion direction by the given angle. A positive angle means the outer pad border gets wider. This option is only available if **Type** is **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
 
+
+
 ## Proprietà
 
 
@@ -222,6 +254,8 @@ Tapers the pad in the opposite extrusion direction by the given angle. A positiv
 
 
 </div>
+
+
 
 ## Limitazioni
 

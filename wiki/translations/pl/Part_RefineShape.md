@@ -4,10 +4,12 @@
    Name/pl:Część: Udoskonal kształt
    MenuLocation:Część → Utwórz kopię → Udoskonal kształt
    Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Szybka kopia](Part_SimpleCopy/pl.md), [Przekształcona kopia](Part_TransformedCopy/pl.md), [Kopia kształtu elementu](Part_ElementCopy/pl.md), [Udoskonal kształt cechy](OpenSCAD_RefineShapeFeature/pl.md)
+   SeeAlso:[Szybka kopia](Part_SimpleCopy/pl.md), [Utwórz przekształconą kopię](Part_TransformedCopy/pl.md), [Utwórz kopię kształtu elementu](Part_ElementCopy/pl.md), [Udoskonal kształt cechy](OpenSCAD_RefineShapeFeature/pl.md)
 ---
 
 # Part RefineShape/pl
+
+
 
 ## Opis
 
@@ -19,6 +21,8 @@ Po niektórych operacjach logicznych, takich jak [Połączenie](Part_Fuse/pl.md)
 
 ![](images/PartRefineShape_it.png ) 
 *Oryginalny wynik działania funkcji logicznej z 11 ścianami ''(po lewej)'' oraz dopracowana kopia kształtu z 7 ścianami ''(po prawej)''.*
+
+
 
 ## Użycie
 
@@ -35,15 +39,24 @@ To zachowanie można zmienić w <img alt="" src=images/Std_DlgParameter.svg  sty
 
 Zobacz inne parametry na stronie [Dostrajanie parametrów](Fine-tuning/pl.md).
 
+
+
 ## Uwagi
 
 -   Funkcja ta może być używana jako ostatni etap prac nad modelowaniem w celu oczyszczenia kształtów w tradycyjnym przepływie pracy [konstrukcyjnej geometrii bryły](Constructive_solid_geometry/pl.md).
 -   Funkcja ta może pomóc w oczyszczeniu modelu przed zastosowaniem innej funkcji, takiej jak np. [zaokrąglenie](Part_Fillet/pl.md).
+-   To czyszczenie może powstrzymać drukarki 3D od drukowania niechcianych krawędzi, gdy model bryłowy zostanie wyeksportowany do formatu siatki.
+-   Tej funkcji można również użyć po konwersji siatki na kształt *(funkcją [Kształt z siatki](Part_ShapeFromMesh/pl.md))*, aby wyczyścić szczątkowe krawędzie na płaskich ścianach.
+-   Niektóre interesujące informacje o tym, co dzieje się z umiejscowieniem i jak uzyskać dostęp za pośrednictwem środowiska Python, można znaleźć w tym [temacie na forum](https://forum.freecad.org/viewtopic.php?t=77568#p675456).
+
+
 
 ## Ograniczenia
 
 -   Algorytm udoskonalania działa tylko na powłokach. Dlatego wykonuje iterację po powłokach kształtu wejściowego, a następnie dla każdej powłoki tworzy nową powłokę z połączonymi ścianami, jeśli to możliwe. Oznacza to, że jeśli twój kształt wejściowy jest tylko powierzchnią, polilinią , krawędzią lub wierzchołkiem, to algorytm nie zrobi nic.
 -   W przeciwieństwie do narzędzia <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width:24px;"> [OpenSCAD: Udoskonal kształt cechy](OpenSCAD_RefineShapeFeature/pl.md), narzędzie <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Udoskonal kształt](Part_RefineShape/pl.md) środowiska Część nie będzie samoczynnie aktualizować bryły, gdy zostaną zmienione kształty poprzedzające.
+
+
 
 ## Tworzenie skryptów 
 

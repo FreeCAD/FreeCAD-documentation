@@ -8,11 +8,15 @@
 
 # FEM ConstraintPulley/pl
 
-## Description
 
-Not supported by CalculiX Interface!
 
-## Usage
+## Opis
+
+Brak obsługi w interfejsie CalculiX!
+
+
+
+## Użycie
 
 
 

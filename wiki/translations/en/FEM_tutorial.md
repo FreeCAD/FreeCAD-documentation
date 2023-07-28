@@ -21,8 +21,8 @@ This tutorial is meant to introduce the reader to the basic workflow of the FEM 
 ## Requirements
 
 -   FreeCAD version 0.17 or above.
--   [Netgen](http://sourceforge.net/projects/netgen-mesher/) and/or [GMSH](http://geuz.org/gmsh/) is installed on the system (included in the FreeCAD instalation).
--   [Calculix](http://www.calculix.de/) is installed on the system (included in the FreeCAD instalation).
+-   [Netgen](http://sourceforge.net/projects/netgen-mesher/) and/or [GMSH](http://geuz.org/gmsh/) is installed on the system (included in the FreeCAD installation).
+-   [Calculix](http://www.calculix.de/) is installed on the system (included in the FreeCAD installation).
 -   The reader has the basic knowledge to use the [Part](Part_Workbench.md) and [PartDesign](PartDesign_Workbench.md) Workbenches.
 
 ## Procedure
@@ -113,9 +113,11 @@ We have now meshed our object and are ready to add constraints and forces.
 We are now finished with the basic workflow for the [FEM Workbench](FEM_Workbench.md).
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM tutorial/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM tutorial/en

@@ -18,6 +18,8 @@ The bodies created with PartDesign are often subject to the [topological naming 
 <img alt="" src=images/PartDesign_Example.png  style="width:500px;">
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Verktygen
@@ -26,6 +28,8 @@ The bodies created with PartDesign are often subject to the [topological naming 
 </div>
 
 The Part Design tools are all located in the **Part Design** menu and the PartDesign toolbar that appear when you load the Part Design workbench.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -72,7 +76,7 @@ These tools are in fact not part of the PartDesign Workbench. They belong to the
 
 -   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Create a shape binder](PartDesign_ShapeBinder.md): creates a shape binder referencing geometry from a single parent object.
 
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Create a sub-object(s) shape binder](PartDesign_SubShapeBinder.md): creates a shape binder referencing geometry from one or more parent objects. <small>(v0.19)</small> 
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Create a sub-object(s) shape binder](PartDesign_SubShapeBinder.md): creates a shape binder referencing geometry from one or more parent objects.
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Create a clone](PartDesign_Clone.md): creates a clone of the selected body.
 
@@ -88,7 +92,7 @@ These are tools for creating base features or adding material to an existing sol
 
 -   <img alt="" src=images/PartDesign_AdditivePipe.svg  style="width:32px;"> [Additive pipe](PartDesign_AdditivePipe.md): creates a solid by sweeping one or more sketches along an open or closed path.
 
--   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Additive helix](PartDesign_AdditiveHelix.md): creates a solid by sweeping a sketch along a helix. <small>(v0.19)</small> 
+-   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Additive helix](PartDesign_AdditiveHelix.md): creates a solid by sweeping a sketch along a helix.
 
 -   <img alt="" src=images/PartDesign_CompPrimitiveAdditive.png  style="width:48px;"> [Create an additive primitive](PartDesign_CompPrimitiveAdditive.md): adds an additive primitive to the active body.
 
@@ -122,7 +126,7 @@ These are tools for subtracting material from an existing body.
 
 -   <img alt="" src=images/PartDesign_SubtractivePipe.svg  style="width:32px;"> [Subtractive pipe](PartDesign_SubtractivePipe.md): creates a solid shape by sweeping one or more sketches along an open or closed path and subtracts it from the active body.
 
--   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Subtractive helix](PartDesign_SubtractiveHelix.md): creates a solid shape by sweeping a sketch along a helix and subtracts it from the active body. <small>(v0.19)</small> 
+-   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Subtractive helix](PartDesign_SubtractiveHelix.md): creates a solid shape by sweeping a sketch along a helix and subtracts it from the active body.
 
 -   <img alt="" src=images/PartDesign_CompPrimitiveSubtractive.png  style="width:48px;"> [Create a subtractive primitive](PartDesign_CompPrimitiveSubtractive.md): adds a subtractive primitive to the active body.
 
@@ -177,7 +181,7 @@ Some additional functionality found in the Part Design menu:
 
 -   <img alt="" src=images/PartDesign_Migrate.svg  style="width:32px;"> [Migrate](PartDesign_Migrate.md): migrates files created with older FreeCAD versions. If the file is pure PartDesign feature-based, migration should succeed. If the file contains mixed Part/Part Design/Draft objects, the conversion will most likely fail.
 
--   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Sprocket](PartDesign_Sprocket.md): creates a sprocket profile that can be padded. <small>(v0.19)</small> 
+-   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Sprocket](PartDesign_Sprocket.md): creates a sprocket profile that can be padded.
 
 -   <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width:32px;"> [Involute gear](PartDesign_InvoluteGear.md): creates an involute gear profile that can be padded.
 
@@ -209,6 +213,12 @@ Some additional functionality found in the Part Design menu:
 -   [Basic Part Design Tutorial](Basic_Part_Design_Tutorial.md)
 -   [PartDesign Bearingholder Tutorial I](PartDesign_Bearingholder_Tutorial_I.md) (needs updating)
 -   [PartDesign Bearingholder Tutorial II](PartDesign_Bearingholder_Tutorial_II.md) (needs updating)
+
+## Examples
+
+For some ideas of what can be achieved with Part Design tools, have a look at: [PartDesign examples](PartDesign_Examples.md).
+
+<img alt="" src=images/PartDesign_ExampleSphere-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleTorus-01.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExamplePad-09.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-05.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSpring-04.png  style="width:80px;">
 
 
 

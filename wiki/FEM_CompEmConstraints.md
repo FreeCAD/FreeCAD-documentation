@@ -3,7 +3,7 @@
    Name:FEM CompEmConstraints
    MenuLocation:
    Workbenches:[FEM](FEM_Workbench.md)
-   Version:1.0
+   Version:0.21
    SeeAlso:
 ---
 
@@ -18,8 +18,8 @@
 You can choose these constraints:
 
 -   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [Constraint electrostatic potential](FEM_ConstraintElectrostaticPotential.md): Used to define electrostatic potential.
--   <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:24px;"> [Constraint current density](FEM_ConstraintCurrentDensity.md): Used to define a current density. <small>(v1.0)</small> 
--   <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:24px;"> [Constraint magnetization](FEM_ConstraintMagnetization.md): Used to define a magnetization. <small>(v1.0)</small> 
+-   <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:24px;"> [Constraint current density](FEM_ConstraintCurrentDensity.md): Used to define a current density. <small>(v0.21)</small> 
+-   <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:24px;"> [Constraint magnetization](FEM_ConstraintMagnetization.md): Used to define a magnetization. <small>(v0.21)</small> 
 
 
 

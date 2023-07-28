@@ -2,6 +2,8 @@
 ---
 - GuiCommand:/it   Name:Mesh_FromPartShape   Name/it:Mesh da forma‏‎   MenuLocation:Mesh → Crea mesh da una forma...   Workbenches:[Mesh](Mesh_Workbench/it.md)---
 
+
+
 ## Descrizione
 
 
@@ -13,6 +15,8 @@ Il comando **Crea mesh da una forma** crea oggetti mesh non parametrici, [Mesh f
 </div>
 
 The inverse operation is [Part ShapeFromMesh](Part_ShapeFromMesh.md) from the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md).
+
+
 
 ## Utilizzo
 
@@ -26,9 +30,13 @@ The inverse operation is [Part ShapeFromMesh](Part_ShapeFromMesh.md) from the <i
 6.  Specificare le impostazioni richieste. Vedere [Programmi_mesher](Mesh_FromPartShape/it#Programmi_mesher.md).
 7.  Premere il pulsante **OK** per chiudere il pannello delle attività e terminare il comando.
 
+
+
 ## Programmi mesher 
 
 Questi sono i mesher disponibili e le loro impostazioni:
+
+
 
 ### Mesher standard 
 
@@ -42,11 +50,15 @@ Questi sono i mesher disponibili e le loro impostazioni:
 
 -    **Definisci i segmenti con i colori delle facce**: se selezionato, i segmenti di mesh vengono raggruppati in base ai colori delle facce dell\'oggetto. Questi gruppi verranno esportati per i formati di output mesh che supportano questa funzione (ad esempio il formato [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file)).
 
+
+
 ### Mesher Mefisto 
 
 -    **Lunghezza massima dello spigolo**: la lunghezza massima del bordo della maglia. Un valore piccolo genera una mrsh più fine. Specificando {{Value|0}} o deselezionando la casella di controllo, si ottiene una mesh molto grossolana.
 
     -   Se si preme il pulsante **Stima**, il mesher inserirà un valore stimato per la **Lunghezza massima dello spigolo**. Questo valore non è molto affidabile se sono stati selezionati più oggetti.
+
+
 
 ### Mesher Netgen 
 
@@ -98,10 +110,9 @@ Questi sono i mesher disponibili e le loro impostazioni:
 
 -    **Dominato da quadrangoli**: se selezionata, la mesh utilizzerà preferibilmente [facce quadrilatere bidimensionali](https://en.wikipedia.org/wiki/Types_of_mesh#Two-dimensional).
 
+
+
 ### Mesher Gmsh 
-
-
-{{Version/it|0.19}}
 
 Per utenti Linux è richiesto il modulo esterno [Gmsh](https://gmsh.info/).
 
@@ -147,6 +158,8 @@ Per utenti Linux è richiesto il modulo esterno [Gmsh](https://gmsh.info/).
 
 -   Premere il pulsante **Pulisci** per rimuovere le informazioni nell\'area di testo.
 
+
+
 ## Note
 
 
@@ -159,7 +172,11 @@ Per utenti Linux è richiesto il modulo esterno [Gmsh](https://gmsh.info/).
 
 </div>
 
+
+
 ## Preferenze
+
+
 
 ### Mesher standard 
 
@@ -167,13 +184,19 @@ Per utenti Linux è richiesto il modulo esterno [Gmsh](https://gmsh.info/).
 -   L\'impostazione di **Angular deviation** viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → AngularDeflection**.
 -   L\'impostazione di **Relative surface deviation** viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → RelativeLinearDeflection**.
 
+
+
 ### Mesher Gmsh 
 
 -   L\'impostazione di **Path** viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → Mod → Mesh → Meshing → gmshExe**.
 
+
+
 ## Proprietà
 
 Vedere: [Mesh Feature](Mesh_Feature/it.md).
+
+
 
 ## Script
 

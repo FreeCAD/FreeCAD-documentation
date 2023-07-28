@@ -18,7 +18,7 @@ FreeCAD peut importer et exporter vers plusieurs types de fichiers. Voici une li
   SVG      Oui      Oui      Un excellent format graphique 2D
   VRML     Oui      Oui      Un format Web assez ancien.
   GCODE    Oui      Oui      FreeCAD peut déjà importer et exporter vers/depuis plusieurs variantes de GCode, mais seulement un petit nombre de machines sont actuellement prises en charge.
-  CSG      Oui      Non      OpenSCAD\'s [CSG](https://fr.wikipedia.org/wiki/G%C3%A9om%C3%A9trie_de_construction_de_solides) (Constructive Solid Geometry) format. Format [CSG](https://fr.wikipedia.org/wiki/G%C3%A9om%C3%A9trie_de_construction_de_solides) d\'OpenSCAD (géométrie constructive de solides ).
+  CSG      Oui      Non      Format [Géométrie de construction de solides](https://fr.wikipedia.org/wiki/G%C3%A9om%C3%A9trie_de_construction_de_solides) d\'OpenSCAD (Constructive Solid Geometry en anglais).
 
 Certains de ces formats de fichiers ont des options. Celles-ci peuvent être configurées à partir du menu Édition → Préférences → Importer/Exporter :
 

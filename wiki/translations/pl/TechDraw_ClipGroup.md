@@ -1,35 +1,51 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ClipGroup
-   MenuLocation:TechDraw → Insert Clip Group
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw Add Clip Group](TechDraw_ClipGroupAdd.md), [TechDraw Remove Clip Group](TechDraw_ClipGroupRemove.md)
+   Name/pl:Rysunek Techniczny: Wstaw grupę wycinków
+   MenuLocation:Rysunek Techniczny → Wstaw grupę wycinków
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso:[Dodaj widok do grupy wycinków](TechDraw_ClipGroupAdd/pl.md), [Usuń widok z grupy wycinków](TechDraw_ClipGroupRemove/pl.md)
 ---
 
 # TechDraw ClipGroup/pl
 
-## Description
 
-This tool creates a clipping window which can contain Views.
+</div>
+
+
+
+## Opis
+
+Narzędzie **Wstaw grupę wycinków** tworzy okno wycinka, które może zawierać Widoki.
 
 ![](images/TechDraw_Clipview.png ) 
-*Viewport window clipping different existing views*
+*Okno widoku rzutni obejmujące różne istniejące widoki*
 
-## Usage
 
--   Press the **<img src="images/TechDraw_ClipGroup.svg" width=16px> [Insert Clip Group](TechDraw_ClipGroup.md)** button to create a new Clip.
 
-## Properties
+## Użycie
 
--    **Width**: The width of the clipping window in units
 
--    **Height**: The height of the clipping window in units
+<div class="mw-translate-fuzzy">
 
--    **ShowFrame**: When true, show a frame around the clipping window
+-   Naciśnij przycisk **<img src="images/TechDraw_ClipGroup.svg" width=16px> '''Wstaw grupę wycinków'''**, aby utworzyć nowy wycinek.
 
--    **ShowLabels**: When true, show the Labels of the Views within the clipping window. **NOTE:** removed in v0.19.
 
--    **Views**: The Views contained in the clipping window
+</div>
+
+
+
+## Właściwości
+
+-    **Szerokość**: Szerokość okna wycinka w jednostkach.
+
+-    **Wysokość**: Wysokość okna wycinka w jednostkach.
+
+-    **WyświetlRamkę**: Gdy wartość jest ustawiona na {{true/pl}}, pokazuje ramkę wokół okna wycinka.
+
+-    **WyświetlEtykiety**: Gdy wartość jest ustawiona na {{true/pl}}, pokazuje etykiety widoków w oknie przycinania. **UWAGA:** usunięto w wersji 0.19.
+
+-    **Widoki**: Widoki zawarte w oknie przycinania.
 
 
 

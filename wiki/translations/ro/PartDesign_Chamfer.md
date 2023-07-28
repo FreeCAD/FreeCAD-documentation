@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Descriere
@@ -21,6 +23,8 @@ Acest instrument utilizează **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/
 </div>
 
 The <img alt="" src=images/PartDesign_Chamfer.svg  style="width:24px;"> **PartDesign Chamfer** tool creates chamfers on the selected edges of an object. It adds a **Chamfer** object to the document with its corresponding representation in the [Tree view](Tree_view.md).
+
+
 
 +++
 | ![Sélection des arêtes avant de démarrer la commande.](images/PartDesign_Chamfer-01.png ) ![Réglage de la dimension du chanfrein dans les paramètres de chanfrein.](images/PartDesign_Chamfer-02.png ) ![Un élément Chamfer est ajouté dans l\'arborescence Projet.](images/PartDesign_Chamfer-03.png ) | ### Usage                                                                      |
@@ -162,13 +166,13 @@ Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utili
     -   
         **Two distances**
         
-        : Two distances are used to place the chamfer edges. <small>(v0.19)</small> 
+        : Two distances are used to place the chamfer edges.
 
     -   
         **Distance and angle**
         
-        : A distance is used to place one chamfer edge, the placement of the other chamfer edge is defined by the angle of the chamfer. <small>(v0.19)</small> 
--   Press the **<img src="images/PartDesign_Flip_Direction.svg" width=16px> Flip direction** button to flip the direction of the chamfer (deactivated for **Equal distance**). <small>(v0.19)</small> 
+        : A distance is used to place one chamfer edge, the placement of the other chamfer edge is defined by the angle of the chamfer.
+-   Press the **<img src="images/PartDesign_Flip_Direction.svg" width=16px> Flip direction** button to flip the direction of the chamfer (deactivated for **Equal distance**).
 -   Set the **Size** of the chamfer.
 -   Set the **Size2** of the chamfer (only available if **Two distances** is selected).
 -   Set the **Angle** of the chamfer (only available if **Distance and angle** is selected).

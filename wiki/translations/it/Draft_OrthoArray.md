@@ -1,104 +1,86 @@
 ---
 - GuiCommand:/it
    Name:Draft OrthoArray
-   Name/it:Draft OrthoArray
-   MenuLocation:Modifiche → Strumenti serie → Serie
-   Workbenches:[Draft](Draft_Workbench/it.md)
+   Name/it:Serie ortogonale
+   MenuLocation:Modifiche → Strumenti serie → Serie ortogonale
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Version:0.19
-   SeeAlso:[Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie su tracciato](Draft_PathArray/it.md), [Serie di link su tracciato](Draft_PathLinkArray/it.md), [Serie su punti](Draft_PointArray/it.md), [Clone](Draft_Clone/it.md)
+   SeeAlso:[Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie su tracciato](Draft_PathArray/it.md), [Serie di link su tracciato](Draft_PathLinkArray/it.md), [Serie su punti](Draft_PointArray/it.md), [Serie di link su punti](Draft_PointLinkArray/it.md)
 ---
 
 # Draft OrthoArray/it
 
 
-</div>
-
-
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_OrthoArray.svg  style="width:24px;"> **Serie ortogonale** crea una serie (array) ortogonale (3 assi) da un oggetto selezionato. Il comando può facoltativamente creare una Serie di [Link](App_Link/it.md), che è più efficiente di una normale Serie.
 
-<div class="mw-translate-fuzzy">
+Il comando può essere utilizzato su oggetti 2D creati con [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md), ma anche su molti oggetti 3D come quelli creati con gli ambienti [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) o [Arch](Arch_Workbench/it.md).
 
-Lo strumento <img alt="" src=images/Draft_OrthoArray.svg  style="width:16px;"> [Serie](Draft_OrthoArray/it.md) crea una schiera (array) ortogonale (3 assi) o polare utilizzando gli oggetti selezionati.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Questo strumento può essere utilizzato su qualsiasi oggetto che abbia una [Part TopoShape](Part_TopoShape/it.md), che significa forme 2D create con [Draft](Draft_Workbench/it.md), ma anche solidi 3D creati con altri ambienti, ad esempio [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) o [Arch](Arch_Workbench/it.md). Può anche creare [App Link](App_Link/it.md) anziché semplici copie.
-
-
-</div>
-
-<img alt="" src=images/Draft_Array_example.png  style="width:300px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Una serie ortogonale da un oggetto solido, l'oggetto al centro*
-
-
-</div>
+<img alt="" src=images/Draft_Array_example.png  style="width:300px;"> 
+*Serie ortogonale*
 
 
 
 ## Utilizzo
 
-1.  Optionally select one object.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_OrthoArray.svg" width=16px> [Draft OrthoArray](Draft_OrthoArray.md)** button.
-    -   Select the **Modification → Array tools → <img src="images/Draft_OrthoArray.svg" width=16px> Array** option from the menu.
-3.  The **Orthogonal array** task panel opens. See [Options](#Options.md) for more information.
-4.  If you have not yet selected an object: select one object.
-5.  Enter the required parameters in the task panel.
-6.  To finish the command do one of the following:
-    -   Click in the [3D view](3D_view.md).
-    -   Press **Enter**.
-    -   Press the **OK** button.
+1.  Facoltativamente selezionare un oggetto.
+2.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_OrthoArray.svg" width=16px> [Serie ortogonale](Draft_OrthoArray/it.md)**.
+    -   Selezionare l\'opzione **Modifiche → Strumenti serie → <img src="images/Draft_OrthoArray.svg" width=16px> Serie ortogonale** dal menu.
+3.  Si apre il pannello attività **Serie ortogonale**. Vedi [Opzioni](#Opzioni.md) per maggiori informazioni.
+4.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto.
+5.  Immettere i parametri richiesti nel pannello delle attività.
+6.  Per completare il comando, eseguire una delle seguenti operazioni:
+    -   Fare clic nella [Vista 3D](3D_view/it.md).
+    -   Premere **Enter**.
+    -   Premere il pulsante **OK**.
 
 
 
 ## Opzioni
 
--   Enter the **Number of elements** for the X, Y and Z directions. This number must be at least {{Value|1}} for every direction.
--   Enter the **X intervals** to specify the displacement for the elements in the X direction. For a rectangular array the Y and Z values must be {{Value|0}}.
--   Enter the **Y intervals** to specify the displacement for the elements in the Y direction. For a rectangular array the X and Z values must be {{Value|0}}.
--   Enter the **Z intervals** to specify the displacement for the elements in the Z direction. For a rectangular array the X and Y values must be {{Value|0}}.
--   Press the **Reset X, Y or Z** button to reset the displacement in the given direction to the default values.
--   If the **Fuse** checkbox is checked overlapping elements in the array are fused. This does not work for Link arrays.
--   If the **Link array** checkbox is checked a Link array instead of a regular array is created. A Link array is more efficient because its elements are [App Link](App_Link.md) objects.
--   Press **Esc** or the **Cancel** button to abort the command.
+-   Inserire il **Numero di elementi** per le direzioni X, Y e Z. Questo numero deve essere almeno {{Value|1}} per ogni direzione.
+-   Immettere **Intervalli X** per specificare lo spostamento degli elementi nella direzione X. Per una serie rettangolare i valori Y e Z devono essere {{Value|0}}.
+-   Immettere **Intervalli Y** per specificare lo spostamento degli elementi nella direzione Y. Per una serie rettangolare i valori X e Z devono essere {{Value|0}}.
+-   Immettere **Intervalli Z** per specificare lo spostamento degli elementi nella direzione Z. Per una serie rettangolare i valori X e Y devono essere {{Value|0}}.
+-   Premere il pulsante **Reset X, Y o Z** per reimpostare lo spostamento nella direzione data ai valori predefiniti.
+-   Se la casella di controllo **Fusione** è selezionata, gli elementi sovrapposti nella serie vengono fusi. Questo non funziona per le Serie di link.
+-   Se la casella **Serie di link** è spuntata, viene creato una Serie di Link invece di un normale serie. Una Serie di link è più efficiente perché i suoi elementi sono oggetti [App Link](App_Link/it.md).
+-   Premere **Esc** o il pulsante **Annulla** per interrompere il comando.
 
-## Notes
 
--   A Draft OrthoArray can be turned into a [Draft PolarArray](Draft_PolarArray.md) or a [Draft CircularArray](Draft_CircularArray.md) by changing its **Array Type** property.
--   A Link array cannot be turned into a regular array or vice versa. The type of array must be decided at creation time.
 
-## Preferences
+## Note
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+-   Una Serie ortogonale può essere trasformata in una [Serie polare](Draft_PolarArray/it.md) o in una [Serie circolare](Draft_CircularArray/it.md) modificandone la proprietà **Array Type**.
+-   Una Serie di link non può essere trasformata in una serie normale o viceversa. Il tipo di serie deve essere deciso al momento della creazione.
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+
+
+## Preferenze
+
+Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
+
+-   Per modificare il numero di decimali utilizzati per l\'inserimento delle coordinate: **Modifica → Preferenze... → Generale → Unità → Impostazioni unità → Numero di cifre decimali**.
 
 
 
 ## Proprietà
 
-See also: [Property editor](property_editor.md).
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
 
-The Draft OrthoArray command, the [Draft PolarArray command](Draft_PolarArray.md) and the [Draft CircularArray command](Draft_CircularArray.md) create the same object. This object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties (with the exception of some View properties that are not inherited by Link arrays). The following properties are additional unless otherwise stated:
+Il comando Serie ortogonale, il comando [Serie polare](Draft_PolarArray/it.md) e il comando [Serie circolare](Draft_CircularArray/it.md) creano lo stesso oggetto. Questo oggetto è derivato da un oggetto [Part Feature](Part_Feature/it.md) e ne eredita tutte le proprietà (ad eccezione di alcune proprietà della vista che non sono ereditate dagli serie di link). Le seguenti proprietà sono aggiuntive se non diversamente specificato:
 
-### Data
+
+
+### Dati
 
 
 {{TitleProperty|Link}}
 
-The properties in this group are only available for Link arrays. See [Std LinkMake](Std_LinkMake#Properties.md) for more information.
+Le proprietà in questo gruppo sono disponibili solo per le serie di link. Vedere [Crea link](Std_LinkMake/it#Proprietà.md) per ulteriori informazioni.
 
 -    **Scale|Float**
     
@@ -133,74 +115,76 @@ The properties in this group are only available for Link arrays. See [Std LinkMa
 
 {{TitleProperty|Circular array}}
 
-The properties in this group are hidden for orthogonal arrays and polar arrays.
+Le proprietà in questo gruppo sono nascoste per le serie ortogonali e le serie polari.
 
--    **Number Circles|Integer**: specifies the number of circular layers. Must be at least {{Value|2}}.
+-    **Number Circles|Integer**: specifica il numero di strati circolari. Deve essere almeno {{Value|2}}.
 
--    **Radial Distance|Distance**: specifies the distance between circular layers.
+-    **Radial Distance|Distance**: specifica la distanza tra gli strati circolari.
 
--    **Symmetry|Integer**: specifies the number of symmetry lines. This number changes the distribution of the elements in the array.
+-    **Symmetry|Integer**: specifica il numero di linee di simmetria. Questo numero cambia la distribuzione degli elementi nella serie.
 
--    **Tangential Distance|Distance**: specifies the distance between elements in the same circular layer. Must be larger than zero.
+-    **Tangential Distance|Distance**: specifica la distanza tra gli elementi nello stesso strato circolare. Deve essere maggiore di zero.
 
 
 {{TitleProperty|Objects}}
 
--    **Array Type|Enumeration**: specifies the type of array, which can be {{value|ortho}}, {{value|polar}} or {{value|circular}}.
+-    **Array Type|Enumeration**: specifica il tipo di serie, che può essere {{value|ortho}}, {{value|polar}} o {{value|circular}}.
 
--    **Axis Reference|LinkGlobal**: specifies the object and edge to be used instead of the **Axis** and **Center** properties. Not used for orthogonal arrays.
+-    **Axis Reference|LinkGlobal**: specifica l\'oggetto e il bordo da utilizzare al posto delle proprietà **Axis** e **Center**. Non utilizzato per le serie ortogonali.
 
--    **Base|Link**: specifies the object to duplicate in the array.
+-    **Base|Link**: specifica l\'oggetto da duplicare nella serie.
 
--    **Count|Integer**: (read-only) specifies the total number of elements in the array. {{VersionMinus|0.20}}: Only available for Link arrays.
+-    **Count|Integer**: (read-only) specifica il numero totale di elementi nella serie. {{VersionMinus/it|0.20}}: disponibile solo per le serie di link.
 
--    **Expand Array|Bool**: specifies whether to expand the array in the [Tree view](Tree_view.md) to enable the selection of its individual elements. Only available for Link arrays.
+-    **Expand Array|Bool**: specifica se espandere la serie nella [Vista ad albero](Tree_view/it.md) per abilitare la selezione dei suoi singoli elementi. Disponibile solo per le serie di link.
 
--    **Fuse|Bool**: specifies if overlapping elements in the array are fused or not. Not used for Link arrays.
+-    **Fuse|Bool**: specifica se gli elementi sovrapposti nella serie sono fusi o meno. Non utilizzato per le serie di link.
 
 
 {{TitleProperty|Orthogonal array}}
 
-The properties in this group are hidden for circular arrays and polar arrays.
+Le proprietà in questo gruppo sono nascoste per le serie circolari e polari.
 
--    **Interval X|VectorDistance**: specifies the interval between elements in the X direction.
+-    **Interval X|VectorDistance**: specifica l\'intervallo tra gli elementi nella direzione X.
 
--    **Interval Y|VectorDistance**: specifies the interval between elements in the Y direction.
+-    **Interval Y|VectorDistance**: specifica l\'intervallo tra gli elementi nella direzione Y.
 
--    **Interval Z|VectorDistance**: specifies the interval between elements in the Z direction.
+-    **Interval Z|VectorDistance**: specifica l\'intervallo tra gli elementi nella direzione Z.
 
--    **Number X|Integer**: specifies the number of elements in the X direction. Must be at least {{Value|1}}.
+-    **Number X|Integer**: specifica il numero di elementi nella direzione X. Deve essere almeno {{Value|1}}.
 
--    **Number Y|Integer**: specifies the number of elements in the Y direction. Must be at least {{Value|1}}.
+-    **Number Y|Integer**: specifica il numero di elementi nella direzione Y. Deve essere almeno {{Value|1}}.
 
--    **Number Z|Integer**: specifies the number of elements in the Z direction. Must be at least {{Value|1}}.
+-    **Number Z|Integer**: specifica il numero di elementi nella direzione Z. Deve essere almeno {{Value|1}}.
 
 
 {{TitleProperty|Polar array}}
 
-The properties in this group are hidden for circular arrays and orthogonal arrays.
+Le proprietà in questo gruppo sono nascoste per le serie circolari e ortogonali.
 
--    **Angle|Angle**: specifies the aperture of the circular arc. Use {{value|360&#176;}} for a full circle.
+-    **Angle|Angle**: specifica l\'apertura dell\'arco circolare. Usa {{value|360&#176;}} per un cerchio completo.
 
--    **Interval Axis|VectorDistance**: specifies the interval between elements in the **Axis** direction.
+-    **Interval Axis|VectorDistance**: specifica l\'intervallo tra gli elementi nella direzione **Axis**.
 
--    **Number Polar|Integer**: specifies the number of elements in the polar direction.
+-    **Number Polar|Integer**: specifica il numero di elementi nella direzione polare.
 
 
 {{TitleProperty|Polar/circular array}}
 
-The properties in this group are hidden for orthogonal arrays.
+Le proprietà in questo gruppo sono nascoste per le serie ortogonali.
 
--    **Axis|Vector**: specifies the direction of the axis of the array.
+-    **Axis|Vector**: specifica la direzione dell\'asse della serie.
 
--    **Center|VectorDistance**: specifies the center point of the array. The axis of the array passes through this point. For circular arrays it is an offset from the **Placement** of the **Base** object.
+-    **Center|VectorDistance**: specifica il punto centrale della serie. L\'asse della serie passa per questo punto. Per le serie circolari è un offset dal **Placement** dell\'oggetto **Base**.
 
-### View
+
+
+### Vista
 
 
 {{TitleProperty|Link}}
 
-The properties in this group, with the exception of the inherited property, are only available for Link arrays. See [Std LinkMake](Std_LinkMake#Properties.md) for more information.
+Le proprietà in questo gruppo, ad eccezione della proprietà ereditata, sono disponibili solo per le serie di link. Vedere [Crea link](Std_LinkMake/it#Proprietà.md) per ulteriori informazioni.
 
 -    **Draw Style|Enumeration**
     
@@ -214,7 +198,7 @@ The properties in this group, with the exception of the inherited property, are 
 -    **Point Size|FloatConstraint**
     
 
--    **Selectable|Bool**: this is an inherited property that appears in the Selection group for other arrays
+-    **Selectable|Bool**: questa è una proprietà ereditata che appare nel gruppo Selezione per altre serie
 
 -    **Shape Material|Material**
     
@@ -222,7 +206,7 @@ The properties in this group, with the exception of the inherited property, are 
 
 {{TitleProperty|Base}}
 
-The properties in this group, with the exception of the inherited property, are only available for Link arrays. See [Std LinkMake](Std_LinkMake#Properties.md) for more information.
+Le proprietà in questo gruppo, ad eccezione della proprietà ereditata, sono disponibili solo per le serie di link. Vedere [Crea link](Std_LinkMake/it#Proprietà.md) per ulteriori informazioni.
 
 -    **Child View Provider|PersistentObject|Hidden**
     
@@ -236,16 +220,16 @@ The properties in this group, with the exception of the inherited property, are 
 -    **Override Material List|BoolList|Hidden**
     
 
--    **Proxy|PythonObject|Hidden**: this is an inherited property.
+-    **Proxy|PythonObject|Hidden**: questa è una proprietà ereditata.
 
 
 {{TitleProperty|Display Options}}
 
-The properties in this group are inherited properties. See [Part Feature](Part_Feature#Properties.md) for more information.
+Le proprietà in questo gruppo sono proprietà ereditate. Vedere [Part Feature](Part_Feature#Properties.md) per ulteriori informazioni.
 
--    **Bounding Box|Bool**: this property is not inherited by Link arrays.
+-    **Bounding Box|Bool**: questa proprietà non è ereditata dalle serie di link.
 
--    **Display Mode|Enumeration**: for Link arrays it can be {{value|Link}} or {{value|ChildView}}. For other arrays it can be: {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} or {{value|Points}}
+-    **Modalità di visualizzazione|Enumeration**: per le serie di link può essere {{value|Link}} o {{value|ChildView}}. Per altre serie può essere: {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} o {{value|Points}}
 
 -    **Show In Tree|Bool**
     
@@ -263,24 +247,28 @@ The properties in this group are inherited properties. See [Part Feature](Part_F
 
 {{TitleProperty|Object style}}
 
-The properties in this group are not inherited by Link arrays.
+Le proprietà in questo gruppo non vengono ereditate dalle serie di link.
 
-## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-### Parametric array 
+## Script
 
-To create a parametric orthogonal array use the `make_array` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makeArray` method. The `make_array` method can create Draft OrthoArrays, [Draft PolarArrays](Draft_PolarArray.md) and [Draft CircularArrays](Draft_CircularArray.md). For each array type one or more wrappers are available.
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-The main method:
+
+
+### Serie parametrica 
+
+Per creare una serie ortogonale parametrica usare il metodo `make_array` ({{Version/it|0.19}}) del modulo Draft. Questo metodo sostituisce il metodo deprecato `makeArray`. Il metodo `make_array` può creare Serie ortogonali, [Serie polari](Draft_PolarArray/it.md) e [Serie circolari](Draft_CircularArray/it.md). Per ogni tipo di serie sono disponibili uno o più wrapper.
+
+Il metodo principale:
 
 
 ```python
 array = make_array(base_object, arg1, arg2, arg3, arg4=None, arg5=None, arg6=None, use_link=True)
 ```
 
-The wrappers for orthogonal arrays are:
+I wrapper per le serie ortogonali sono:
 
 
 ```python
@@ -298,7 +286,7 @@ array = make_ortho_array2d(base_object,
                            use_link=True)
 ```
 
-The wrappers for rectangular arrays are:
+I wrapper per le serie rettangolari sono:
 
 
 ```python
@@ -316,19 +304,19 @@ array = make_rect_array2d(base_object,
                           use_link=True)
 ```
 
--    `base_object`is the object to be arrayed. It can also be the `Label` (string) of an object in the current document.
+-    `base_object`è l\'oggetto da disporre in serie. Può anche essere la `Label` (string) di un oggetto nel documento corrente.
 
--    `v_x`, `v_y`, and `v_z` are the vectors between the base points of the elements in the respective directions.
+-    `v_x`, `v_y` e `v_z` sono i vettori tra i punti base degli elementi nelle rispettive direzioni.
 
--    `d_x`, `d_y`, and `d_z` are the distances between the base points of the elements in the respective directions.
+-    `d_x`, `d_y` e `d_z` sono le distanze tra i punti base degli elementi nelle rispettive direzioni.
 
--    `n_x`, `n_y`, and `n_z` are the numbers of elements in the respective directions.
+-    `n_x`, `n_y` e `n_z` sono i numeri degli elementi nelle rispettive direzioni.
 
--   If `use_link` is `True` the created elements are [App Links](App_Link.md) instead of regular copies.
+-   Se `use_link` è `True` gli elementi creati sono [App Links](App_Link/it.md) invece di normali copie.
 
--    `array`is returned with the created array object.
+-    `array`viene restituito con l\'oggetto serie creato.
 
-Example:
+Esempio:
 
 
 ```python
@@ -345,9 +333,11 @@ array = Draft.make_ortho_array2d(rect, v_x, v_y, 3, 4)
 doc.recompute()
 ```
 
-### Non-parametric array 
 
-To create a non-parametric orthogonal array use the `array` method of the Draft module. This method returns `None`.
+
+### Serie non parametrica 
+
+Per creare una serie ortogonale non parametrica usare il metodo `array` del modulo Draft. Questo metodo restituisce `None`.
 
 
 ```python
@@ -355,7 +345,7 @@ array(objectslist, xvector, yvector, xnum, ynum)
 array(objectslist, xvector, yvector, zvector, xnum, ynum, znum)
 ```
 
-Example:
+Esempio:
 
 
 ```python
@@ -371,15 +361,6 @@ v_y = App.Vector(0, 600, 0)
 Draft.array(rect, v_x, v_y, 3, 4)
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -53,6 +55,8 @@ L\'azione complessiva dello strumento è molto simile a quella di <img alt="" sr
 
 </div>
 
+
+
 ## Utilizzo
 
 
@@ -95,6 +99,8 @@ Vengono create le fette e tutte le fette sono unite in un composto.
 
 ![](images/Part_SliceTree.png )
 
+
+
 ## Proprietà
 
 
@@ -110,7 +116,11 @@ Vengono create le fette e tutte le fette sono unite in un composto.
 
 ̈Notaː Le proprietà sono accessibili sull\'oggetto interno delle sezioni, non sul livello del risultato.
 
+
+
 ## Esempio
+
+
 
 ## Creare un puzzle 
 
@@ -146,6 +156,8 @@ Vengono create le fette e tutte le fette sono unite in un composto.
 
 </div>
 
+
+
 ## Note
 
 
@@ -155,6 +167,8 @@ Lo strumento è stato introdotto in FreeCAD v0.17.8053. FreeCAD deve essere comp
 
 
 </div>
+
+
 
 ## Script
 

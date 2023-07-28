@@ -8,11 +8,15 @@
 
 # FEM ElementFluid1D/pl
 
-## Description
 
-Creates a FEM fluid section element for pneumatic and hydraulic networks
 
-## Usage
+## Opis
+
+Tworzy element MES przekroju cieczy dla układów pneumatycznych i hydraulicznych.
+
+
+
+## Użycie
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ElementFluid1D.svg" width=16px> [FEM ElementFluid1D](FEM_ElementFluid1D.md)** button.

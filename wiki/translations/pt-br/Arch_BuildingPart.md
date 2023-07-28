@@ -9,31 +9,41 @@
 
 # Arch BuildingPart/pt-br
 
+
+
 ## Descrição
 
 The BuildingPart replaces the old [Arch Floor](Arch_Floor.md) and [Arch Building](Arch_Building.md) with a more capable version that can be used not only to create Floor/Storey/Levels but also all kinds of situations where different Arch/BIM objects need to be grouped and that group might need to be handled as one object or replicated.
+
+
 
 ## Utilização
 
 1.  Optionally, select one or more objects to be included in your new Building Part.
 2.  Press the **<img src="images/Arch_BuildingPart.svg" width=16px> [Arch BuildingPart](Arch_BuildingPart.md)** button.
 
+
+
 ## Notas
 
-BuildingParts have a built-in, implicit [Arch SectionPlane](Arch_SectionPlane.md). <small>(v0.19)</small> 
+BuildingParts have a built-in, implicit [Arch SectionPlane](Arch_SectionPlane.md).
 
 This plane is always parallel to the BuildingPart\'s base plane, but you can specify the offset between them. So all tools that work with a section plane, such as [Draft Shape2DView](Draft_Shape2DView.md) and [TechDraw ArchView](TechDraw_ArchView.md) also work with BuildingParts.
+
+
 
 ## Opções
 
 -   After creating a BuildingPart, you can add more objects to it by dragging and dropping them in the Tree View or by using the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** tool.
 -   You can remove objects from a BuildingPart by dragging and dropping them out of the Tree View or by using the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** tool.
--   By double-clicking the BuildingPart object in the tree view, the [Working Plane](Draft_SelectPlane.md) will be set to its location, and the BuildingPart will become active, which means that new objects will be added automatically to it. Double-clicking the BuildingPart again will deactivate it and set the working plane back to its previous position (in version 0.19, to be available this option needs to be set up as true, in View Property panel - Interaction - Double Click Activates).
+-   By double-clicking the BuildingPart object in the tree view, the [Working Plane](Draft_SelectPlane.md) will be set to its location, and the BuildingPart will become active, which means that new objects will be added automatically to it. Double-clicking the BuildingPart again will deactivate it and set the working plane back to its previous position (to be available this option needs to be set up as true, in View Property panel - Interaction - Double Click Activates).
 -   The BuildingPart can display a mark in the 3D view with a label and level indication.
 -   When a BuildingPart is moved/rotated, all its children that either have no **Move With Host** property, or have it turned on, will move/rotate together.
 -   Building Parts can be [Draft Cloned](Draft_Clone.md).
 -   Building Parts can take any IFC type. Its **IFC Type** property determines its use. If you set it to **Building Storey** it will behave as a level. If you set it to **Building** it behaves as a building, and if you set it to **Element Assembly** it behaves as an assembly. Its icon will change to reflect this setting, but other than that it has no other impact in FreeCAD. However, being exported to IFC as one or another type can have an impact in other BIM applications.
 -   Building Parts allow to define an **Auto-group capture box**. Subsequent Draft and Arch objects, or anything else that uses Draft.autogroup(), will be automatically added to that Building Part if they are fully inside the capture box. <small>(v0.20)</small> 
+
+
 
 ## Propriedades
 

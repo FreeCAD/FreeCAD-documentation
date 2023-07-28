@@ -1,15 +1,23 @@
 # Compiling (Speeding up)/fr
 {{TOCright}}
 
+
+
 ## Présentation
 
 FreeCAD est une application relativement lourde dont la compilation complète à partir des sources peut prendre entre 10 minutes et une heure. Cela dépend principalement du processeur dont vous disposez et du nombre de cœurs utilisés dans le processus de compilation. Voici quelques conseils pour raccourcir ce processus et raccourcir les temps de construction.
 
-### CCache
+## CCache
 
 Installez `ccache` pour mettre en cache les builds.
 
-### Désactiver des modules 
+[Ccache](https://ccache.dev/) accélère la recompilation en mettant en cache les compilations précédentes et en détectant quand la même compilation est effectuée à nouveau. Ccache est un logiciel libre, publié sous licence GPLv3 ou ultérieure.
+
+Sur la plupart des systèmes, ccache sera automatiquement détecté et activé, vous pouvez utiliser l\'option `FREECAD_USE_CCACHE` `cmake` pour contrôler ce comportement.
+
+
+
+## Désactiver des modules 
 
 Lorsque vous utilisez `cmake` pour configurer le build, vous pouvez désactiver la compilation de certains ateliers dont vous n\'avez peut-être pas besoin pour le moment. Ceci est utile si vous n\'avez besoin que de tester quelques ateliers.
 
@@ -21,6 +29,8 @@ cmake -DBUILD_FEM=OFF -DBUILD_MESH=OFF ../freecad-source
 ```
 
 Utilisez `cmake-gui`, `cmake-curses-gui` ou `cmake-qt-gui` pour afficher toutes les variables possibles pouvant être éditées lors de la configuration. En utilisant ces interfaces, vous pouvez facilement activer ou désactiver différents ateliers.
+
+
 
 ## Plusieurs actions en parallèle 
 
@@ -50,6 +60,10 @@ make -j$(nproc --ignore=2)
 ## distcc
 
 Le programme `distcc` peut être utilisé pour effectuer une compilation distribuée de codes C et C ++ sur plusieurs machines d\'un réseau.
+
+[Distcc](https://www.distcc.org/) devrait toujours produire les mêmes résultats qu\'une compilation locale. Il est gratuit, simple à installer et à utiliser, et souvent deux fois ou plus rapide que la compilation locale.
+
+Le développeur FreeCAD \"etrombly\" a publié une courte explication sur [comment installer distcc pour compiler FreeCAD sur un réseau d\'ordinateurs en utilisant Docker](https://forum.freecadweb.org/viewtopic.php?f=4&t=50810&p=459142#p458614).
 
 
 

@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -14,6 +16,8 @@ Il comando **Esci dallo schizzo** esce dalla modalità di modifica dello schizzo
 
 
 </div>
+
+
 
 ## Utilizzo
 

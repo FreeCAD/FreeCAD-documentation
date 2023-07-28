@@ -7,12 +7,16 @@
 
 # Draft Snap Dimensions/pt-br
 
+
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:24px;"> **Draft Snap Dimensions** option shows temporary X and Y dimensions. They display the X and Y distance between the cursor and the previous point in the [working plane](Draft_SelectPlane.md) coordinate system. The dimensions are created on the [working plane](Draft_SelectPlane.md).
 
 <img alt="" src=images/Draft_Snap_Dimensions_example.png  style="width:400px;"> 
 *Temporary dimensions show the position of the cursor*
+
+
 
 ## Utilização
 
@@ -27,6 +31,8 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 5.  Note that you can also change snap options while a command is active.
 6.  Pick a first point. This snap option requires a previous point.
 7.  As you move the cursor around temporary dimensions are displayed.
+
+
 
 ## Preferências
 

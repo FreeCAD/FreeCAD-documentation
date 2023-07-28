@@ -1,50 +1,70 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw SpreadsheetView
-   MenuLocation:TechDraw → Insert Spreadsheet View
-   Workbenches:[TechDraw](TechDraw_Workbench.md), [Spreadsheet](Spreadsheet_Workbench.md)
+   name/pl:Rysunek Techniczny: Wstaw widok Arkusza kalkulacyjnego
+   MenuLocation:Rysunek Techniczny → Wstaw widok Arkusza kalkulacyjnego
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md), [Arkusz kalkulacyjny](Spreadsheet_Workbench/pl.md)
 ---
 
 # TechDraw SpreadsheetView/pl
 
-## Description
 
-This tool allows you to place a view of a selected [spreadsheet](Spreadsheet_Workbench.md) on a [Page](TechDraw_Workbench.md).
+</div>
+
+
+
+## Opis
+
+Narzędzie **Wstaw widok Arkusza kalkulacyjnego** pozwala na umieszczenie widoku wybranego [arkusza kalkulacyjnego](Spreadsheet_Workbench/pl.md) na [stronie](TechDraw_Workbench/pl.md) rysunku.
 
 ![](images/TechDraw_Spreadsheetview.png ) 
-*Spreadsheet element inserted in the TechDraw drawing page*
-
-## Usage
-
-1.  Select a spreadsheet in the [Tree view](Tree_view.md).
-2.  Press the **<img src="images/TechDraw_SpreadsheetView.svg" width=16px> [Insert Spreadsheet View](TechDraw_SpreadsheetView.md)** button.
-
-## Properties
-
-See also [TechDraw View](TechDraw_View#Properties.md).
-
-### Data
+*Element arkusza kalkulacyjnego wstawiony do strony Rysunku Technicznego*
 
 
-{{TitleProperty|Spreadsheet}}
 
--    **Source|Link**: The spreadsheet to be added to the page.
+## Użycie
 
--    **Cell Start|String**: The top left cell of the cell range to be included in this view.
 
--    **Cell End|String**: The bottom right cell of the cell range to be included in this view.
+<div class="mw-translate-fuzzy">
 
--    **Font|Font**: The name of the font used for texts.
+1.  Wybierz arkusz kalkulacyjny w oknie [Widoku drzewa](Tree_view/pl.md).
+2.  Naciśnij przycisk **<img src="images/TechDraw_SpreadsheetView.svg" width=16px> '''Wstaw widok Arkusza kalkulacyjnego'''**.
 
--    **Text Color|Color**: The color of texts and lines that have no color specified in the spreadsheet.
 
--    **Text Size|Float**: The font size of texts.
+</div>
 
--    **Line Width|Float**: The width of the cell borders.
 
-## Notes
 
--   In {{VersionMinus|0.19}} some characters in spreadsheet cells will cause errors when displayed in a Spreadsheet View. These characters have to be XML encoded. Currently known characters are: {{Incode|&}} (replace with {{Incode|&amp;amp;}}) and {{Incode|&lt;}} (replace with {{Incode|&amp;lt;}}). See also this [discussion](https://forum.freecadweb.org/viewtopic.php?p=629853#p629885) in the forum.
+## Uwagi
+
+-   W {{VersionMinus/pl|0.19}} niektóre znaki w komórkach arkusza kalkulacyjnego będą powodować błędy podczas wyświetlania w widoku arkusza kalkulacyjnego. Znaki te muszą być zakodowane w XML. Obecnie znane znaki to: {{Incode|&}} (zamień na {{Incode|&amp;amp;}}) i {{Incode|&lt;}}. (zamień na {{Incode|&amp;lt;}}). Zobacz także tę [dyskusję](https://forum.freecadweb.org/viewtopic.php?p=629853#p629885) na forum.
+
+
+
+## Właściwości
+
+Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw_View/pl#Widok.md) środowiska Rysunek Techniczny.
+
+
+
+### Dane
+
+
+{{TitleProperty|Arkusz kalkulacyjny}}
+
+-    **Żródło|Link**: Arkusz kalkulacyjny, który ma zostać dodany do strony.
+
+-    **Komórka początkowa|String**: Lewa górna komórka zakresu komórek, który ma zostać uwzględniony w tym widoku.
+
+-    **Komórka końcowa|String**: Prawa dolna komórka zakresu komórek, który ma być uwzględniony w tym widoku.
+
+-    **Czcionka|Font**: Nazwa czcionki używanej dla tekstów.
+
+-    **Kolor tekstu|Color**: Kolor tekstów i linii, które nie mają określonego koloru w arkuszu kalkulacyjnym.
+
+-    **Rozmiar tekstu|Float**: Rozmiar czcionki tekstu.
+
+-    **Szerokość linii|Float**: Szerokość obramowania komórki.
 
 
 

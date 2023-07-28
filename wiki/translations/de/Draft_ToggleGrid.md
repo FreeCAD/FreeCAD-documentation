@@ -1,55 +1,40 @@
 ---
 - GuiCommand:/de
    Name:Draft ToggleGrid
-   Name/de:Entwurf UmschaltenGitter
-   MenuLocation:Entwurf → Dienstprogramme → Umschalten Gitter
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Name/de:Draft RasterUmschalten
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**G** **R**
-   SeeAlso:[Entwurf Fang](Draft_Snap/de.md)
+   SeeAlso:[Draft Einrasten](Draft_Snap/de.md), [Draft EinrastenAufRaster](Draft_Snap_Grid/de.md), [Draft EbeneAuswählen](Draft_SelectPlane/de.md)
 ---
 
 # Draft ToggleGrid/de
 
 
-</div>
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug erlaubt dir das Gitter, definiert in den [Entwurf Einstellungen](Draft_Preferences/de.md) oder mit dem [Entwurf WähleEbene](Draft_SelectPlane/de.md) Werkzeug anzuzeigen und auszublenden .
+Der Befehl <img alt="" src=images/Draft_ToggleGrid.svg  style="width:24px;"> **Draft RasterUmschalten** schaltet das Raster ein bzw. aus. Das Raster kann nur dann verwendet werden, wenn die Einstellung **Use grid** ausgewählt wurde. Siehe [Einstellungen](#Einstellungen.md).
 
 
-</div>
 
 ## Anwendung
 
-For general information about snapping see [Draft Snap](Draft_Snap.md).
+Für allgemeine Informationen zum Einrasten (Fangen) siehe [Draft Fangen](Draft_Snap/de.md).
+
+1.  Wahlweise die [Arbeitsebene und/oder das Raster auswählen](Draft_SelectPlane/de.md).
+2.  Zum Aufrufen von **Draft ToggleGrid** gibt es folgende Möglichkeiten:
+    -   Die Schaltfläche **<img src="images/Draft_ToggleGrid.svg" width=16px>** in der Symbolleiste Draft-Einrasten drücken.
+    -   Die Schaltfläche **<img src="images/Draft_ToggleGrid.svg" width=16px>** im [Draft-Widget Einrasten](Draft_snap_widget/de.md) drücken.
+    -   Das Tastaturkürzel **G** then **R**. Dieses Tastaturkürzel kann nur verwendet werden, wenn ein Befehl aktiv ist.
 
 
-<div class="mw-translate-fuzzy">
 
-1.  Definiere das Aussehen des Gitters in den [Entwurfseinstellungen](Draft_Preferences/de.md); gehe zum Menü **Bearbeiten → Einstellungen → Entwurf → Gitter und Fang**; lege die \"Gittergröße\", \"Gitterabstand\" und \"Hauptlinie alle\" Optionen fest und drücke dann **OK**.
-2.  Rechtsklicke dann auf ein Entwurfsobjekt und wähle **Dientsprogramme → <img src="images/Draft_Grid.svg" width=16px> UmschaltenGitter**.
+## Einstellungen
 
+Siehe [Draft-Einrasten](Draft_Snap/de#Einstellungen.md).
 
-
-
-1.  Oder rechtsklicke auf eine leere Stelle in einer Werkzeugleiste, oder gehe zum Menü **Ansicht → Werkzeugleisten**, und klicke auf das [Entwurf Fang](Draft_Snap/de.md) Auswahlkästchen.
-2.  Es gibt mehrere Möglichkeiten, das Gitter sichtbar zu machen:
-    -   Drücke die **<img src="images/Draft_Grid.svg" width=16px> [Entwurf UmschaltenGitter](Draft_ToggleGrid/de.md)** Schaltfläche in der Entwurf Werkzeugleiste
-    -   Verwende **G** dann **R** Tastaturkürzel
-
-
-</div>
-
-## Preferences
-
-See [Draft Snap](Draft_Snap#Preferences.md).
-
--   To use the grid select: **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. After changing this preference you must restart FreeCAD.
--   Several other grid preferences are also available: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
+-   Um das Raster zu verwenden: **Bearbeiten → Einstellungen... → Draft → Raster und einrasten → Raster → Raster verwenden** auswählen. Das Ändern dieser Einstellung erfordert einen Neustart von FreeCAD.
+-   Unter ** Bearbeiten → Einstellungen... → Draft → Raster und einrasten → Raster** sind auch noch andere Raster-Einstellungen vorhanden:.
 
 
 

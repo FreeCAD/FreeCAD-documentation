@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -25,6 +27,8 @@ Esta herramienta crea un redondeo entre dos líneas unidas en un punto. Activa l
 Al iniciar la herramienta, las selecciones se borran y el puntero del ratón cambia a una cruz blanca con un icono de filete rojo. Se mantiene activo para que puedas hacer múltiples redondeos.
 
 ![](images/SketcherCreateFilletExample.png‎ )
+
+
 
 ## Utilización
 

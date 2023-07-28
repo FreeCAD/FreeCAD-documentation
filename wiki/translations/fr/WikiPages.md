@@ -1,7 +1,7 @@
 # WikiPages/fr
 {{TOCright}}
 
-Cette page est une prolongation de la page [Help:Editing](Help_Editing.md) et donne des directives communes pour la rédaction et la mise à jour de la documentation du wiki FreeCAD. Elle résume plusieurs discussions et séances de réflexion.
+Cette page est une prolongation de la page [Help:Editing](Help:Editing/fr.md) et donne des directives communes pour la rédaction et la mise à jour de la documentation du wiki FreeCAD. Elle résume plusieurs discussions et séances de réflexion.
 
 
 
@@ -9,7 +9,7 @@ Cette page est une prolongation de la page [Help:Editing](Help_Editing.md) et do
 
 -   Cette documentation wiki est basée sur [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki), le même logiciel qui alimente [Wikipedia](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal). Si vous avez contribué à Wikipédia, la modification des pages du wiki FreeCAD devrait être facile.
 -   Contrairement à Wikipédia, le wiki FreeCAD est protégé en écriture pour éviter les spams. Vous devez demander un compte [sur le forum](http://forum.freecadweb.org/viewtopic.php?f=21&t=6830).
--   Si vous n\'avez jamais utilisé de logiciel wiki auparavant, veuillez lire [Help:Editing](Help_Editing.md) pour vous familiariser avec le balisage utilisé.
+-   Si vous n\'avez jamais utilisé de logiciel wiki auparavant, veuillez lire [Help:Editing](Help:Editing/fr.md) pour vous familiariser avec le balisage utilisé.
 -   Pour une utilisation avancée du logiciel wiki, voir [MediaWiki Aide:Sommaire](https://www.mediawiki.org/wiki/Help:Contents). Toutes les fonctionnalités de MediaWiki ne sont pas disponibles dans ce wiki FreeCAD, mais beaucoup le sont.
 -   Nous aimons garder la documentation facile à lire, évitez donc d\'utiliser des fonctionnalités complexes. Rester simple.
 -   Utilisez un bac à sable (sandbox) pour tester votre code, par exemple, [FreeCADDocu:Sandbox](FreeCADDocu_Sandbox.md) ou une page particulière avec votre nom [Sandbox:Yourname](Sandbox_Yourname.md). Les pages Sandbox doivent être placées dans la catégorie Sandbox. Cela se fait en ajoutant [[Category:Sandbox]] au bas du code du wiki.
@@ -117,11 +117,11 @@ Mauvais lien
 Bon lien
 :   Pour plus d\'informations sur le dessin d\'objets 2D, consultez l\'[Atelier Draft](Draft_Workbench/fr.md).
 
-Le format préféré pour un lien est:
+Le format préféré pour un lien est :
 
 [Name of Page](Name_of_Page.md)
 
-Traduit en:
+Traduit en :
 
 [Nom de la Page](Name_of_Page/fr.md)
 
@@ -131,15 +131,15 @@ Pour créer un lien vers un certain paragraphe, ajoutez un signe # et ses intitu
 
 [WikiPages](WikiPages#Links.md)
 
-Traduit en:
+Traduit en :
 
 [WikiPages](WikiPages/fr#Liens.md)
 
-Dans la même page, vous pouvez omettre le nom de la page. Exemple:
+Dans la même page, vous pouvez omettre le nom de la page. Exemple :
 
 [Links](#Links.md)
 
-Pour créer un lien vers le haut de la page, vous pouvez utiliser:
+Pour créer un lien vers le haut de la page, vous pouvez utiliser :
 
 </translate>{{Top}}<translate>
 
@@ -249,6 +249,10 @@ Ces modèles acceptent un simple paramètre de texte et le mettent en forme avec
 ++++
 | [ComboBox](Template_ComboBox.md)                                                                      |                         | Utilisez-le pour indiquer une combobox dans l\'interface utilisateur graphique qui doit être modifiée.                                                                                                                                                                                                                      |
 |                                                                                                               | {{ComboBox|Menu 1}}                    |                                                                                                                                                                                                                                                                                                                             |
+|                                                                                                               |                                     |                                                                                                                                                                                                                                                                                                                             |
+++++
+| [LineEdit](Template_LineEdit.md)                                                                      |                         | Utilisez-le pour indiquer un LineEdit dans l\'interface utilisateur graphique qui doit être modifié.                                                                                                                                                                                                                        |
+|                                                                                                               | {{LineEdit|Metal Nickel (Ni)}}         |                                                                                                                                                                                                                                                                                                                             |
 |                                                                                                               |                                     |                                                                                                                                                                                                                                                                                                                             |
 ++++
 | [FALSE](Template_FALSE.md), [false](Template_false.md)                                        |                         | Utilisez-le pour indiquer une valeur booléenne fausse, par exemple, en tant que propriété dans l\'[Éditeur de propriétés](Property_editor/fr.md). Il s\'agit d\'un raccourci. Comme il s\'agit d\'une valeur, préférez Template [Value](Template_Value.md) {{Value|false}}                    |
@@ -457,7 +461,7 @@ Référez-vous à la page [Graphisme](Artwork/fr.md) pour toutes les illustratio
 
 D\'avis général, la page de référence dans le wiki est la page anglaise, qui doit être créée en premier. Si vous souhaitez modifier ou ajouter du contenu à une page, vous devez d\'abord le faire sur la page en anglais et une fois la mise à jour terminée, portez la modification sur la page traduite.
 
-Le wiki FreeCAD prend en charge une extension de traduction qui permet de gérer plus facilement les traductions entre les pages; pour plus de détails, voir [Localisation Traduire le wiki](Localisation/fr#Traduire_le_wiki_FreeCAD.md).
+Le wiki FreeCAD prend en charge une extension de traduction qui permet de gérer plus facilement les traductions entre les pages ; pour plus de détails, voir [Localisation Traduire le wiki](Localisation/fr#Traduire_le_wiki_FreeCAD.md).
 
 D\'autres ressources utiles sont :
 
@@ -482,7 +486,7 @@ D\'autres ressources utiles sont :
     |SeeAlso=[FEM tutorial](FEM_tutorial.md)
     }}
 
-Traduit en:
+Traduit en :
 
     {{GuiCommand/fr
     |Name=FEM EquationFlux
@@ -500,7 +504,7 @@ Traduit en:
 
     {{FEM_Tools_navi}}
 
-Traduit en:
+Traduit en :
 
     {{FEM_Tools_navi/fr}}
 
@@ -510,7 +514,7 @@ Traduit en:
 
     [Part Module](Part_Module.md)
 
-Traduit en:
+Traduit en :
 
     [Atelier Part](Part_Module/fr.md)
 
@@ -520,7 +524,7 @@ Traduit en:
 
     
 
-Traduit en:
+Traduit en :
 
     
 
@@ -528,7 +532,7 @@ Exemple avec des icônes :
 
     
 
-Traduit en:
+Traduit en :
 
     
 

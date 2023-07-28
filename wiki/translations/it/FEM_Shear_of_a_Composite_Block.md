@@ -38,6 +38,8 @@ Nota2: Se si hanno difficoltà a selezionare \"CompoundFilter:Solid2\" può esse
 
 <img alt="" src=images/Pic4.png  style="width:700px;">
 
+
+
 ## Assegnazione del materiale 
 
 Il materiale viene assegnato alle regioni mesh tramite un oggetto SolidMaterial. In questo tutorial assegniamo due materiali; uno per il contenitore e uno per il contenuto.
@@ -48,11 +50,15 @@ Iniziare selezionando il CompoundFilter nell\'albero degli oggetti. Quindi crear
 
 Ripetere la procedura precedente per il contenuto (\"CompoundFilter:Solid2\") con l\'aiuto della macro di selezione. Questa volta assegnare CalculiX-Steel, che è molto più rigido del materiale ABS del contenitore.
 
+
+
 ## Supporto scorrevole 
 
 Per creare una condizione di \"taglio semplice\" per il blocco composito, le deformazioni ai margini devono essere non vincolate. Per ottenere ciò, il blocco viene posizionato su un supporto scorrevole. Questo lascia tre gradi di libertà nel piano del supporto (2 traslazioni e una rotazione) e questi saranno vincolati in seguito. (Nota: poiché il piano impedisce la deformazione della faccia, induce comunque un vincolo minore, che potrebbe essere eliminato da una diversa scelta di condizioni del contorno). Per creare una condizione del contorno scorrevole, aggiungere un oggetto FemConstraintDisplacement (Modello → Vincoli meccanici → Spostamento del vincolo). Con la finestra di dialogo aperta, selezionare prima la faccia a cui applicare le condizioni al contorno e quindi fare clic sul pulsante Aggiungi. Poiché il blocco può scorrere sul piano x-y, selezionare solo il pulsante di opzione \"Fixed\" per \"Displacement z\" e lasciare \"Free\" gli altri pulsanti di opzione.
 
 <img alt="" src=images/Pic6.png  style="width:700px;">
+
+
 
 ## Nodi fissi 
 
@@ -66,6 +72,8 @@ Il passo finale nella definizione dell\'analisi è l\'applicazione dei carichi. 
 
 <img alt="" src=images/Pic8.png  style="width:700px;">
 
+
+
 ## Analisi CalculiX 
 
 Ora sono state definite tutte le regioni di mesh, il materiale e le condizioni al contorno, siamo pronti ad analizzare la deformazione del blocco con CalculiX. Attivare l\'analisi facendo clic con il pulsante destro del mouse su \"Attiva analisi\", aprire la finestra di dialogo CalculiX facendo doppio clic sull\'oggetto CalculiXccxTools e selezionare una directory per i file temporanei creati da FC e CCX. Scrivere il file di input CCX e controllare eventuali avvisi o messaggi di errore.
@@ -75,6 +83,8 @@ Ora sono state definite tutte le regioni di mesh, il materiale e le condizioni a
 Successivamente l\'analisi può essere avviata premendo il pulsante RunCalculiX. Se tutto va bene, la finestra di output CCX dovrebbe mostrare i seguenti messaggi.
 
 <img alt="" src=images/Pic10.png  style="width:700px;">
+
+
 
 ## Risultati di CalculiX 
 
@@ -88,6 +98,8 @@ Per studiare la deformazione del nucleo bisogna tagliare il blocco. Questo può 
 
 Dal risultato è chiaro che il nucleo rimane in gran parte indeformato e aiuta il contenitore morbido a resistere alla deformazione (confrontare l\'angolo di taglio della parte di colore blu con quella della parte di colore verde). Ciò che evidenzia, tuttavia, è che, in condizioni di taglio semplice, le facce del blocco composito si deformano, il che implica che la condizione al contorno scorrevole alla base del cubo fornisce un vincolo eccessivo.
 
+
+
 ## Ulteriori lavori 
 
 Le seguenti sfide possono essere interessanti da svolgere come ulteriore esercizio:
@@ -100,10 +112,15 @@ Il file FC per questo tutorial è riportato sotto, come punto di partenza.
 
 <https://forum.freecadweb.org/viewtopic.php?f=18&t=26517&start=20>
 
-Divertiti !  {{FEM Tools navi}} {{Userdocnavi
+Divertiti !
+
+
+{{FEM Tools navi
+
+}} {{Userdocnavi
 ---
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM Shear of a Composite Block/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Shear of a Composite Block/it

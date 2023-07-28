@@ -1,4 +1,13 @@
-# <img alt="Points workbench icon" src=images/Workbench_Points.svg  style="width:64px;"> Points Workbench/ro
+# Points Workbench/ro
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+<img alt="Points workbench icon" src=images/Workbench_Points.svg  style="width:128px;">
 
 
 
@@ -45,10 +54,13 @@ Utilizarea metodei de ancorare [Endpoint](Draft_Snap_Endpoint.md) va asigura că
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
 
 
 
+
+</div>
 
 
 {{Points Tools navi

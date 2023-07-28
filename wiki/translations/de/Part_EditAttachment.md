@@ -62,7 +62,7 @@ Das Objekt wird senkrecht zur Kante gemacht. Eine optionale Knotenreferenz defin
 :   Kante, Knoten
 :   Knoten, Kante
 
-See [Align O-X-Y type attachment modes](O-X-Y_type_attachment_modes.md) for more details on the following modes:
+Siehe [Align O-X-Y type attachment modes](O-X-Y_type_attachment_modes.md) für weitere Details zu den folgenden Modi:
 
 
 
@@ -350,7 +350,7 @@ Attachment Versatz wird verwendet, um einen linearen oder rotatorischen Versatz 
 
 
 
-## Begrenzungen
+## Einschränkungen
 
 -   [Std Teil](Std_Part/de.md) und [PartDesign Körper](PartDesign_Body/de.md) Behälter werden nicht unterstützt. Während es möglich ist, Befestigungsmodi zu verwenden, um sie auszurichten, wird die Befestigung nicht parametrisch verknüpft.
 -   Falls das Auswählen zweier Linien in einem \"Traceback\" mit der Meldung \"points are collinear. Can\'t make a plane\" endet, versuche stattdessen drei Punkte auszuwählen [1](https://forum.freecadweb.org/viewtopic.php?f=8&t=55088&p=473614#p473594) (engl.).

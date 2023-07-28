@@ -23,9 +23,9 @@ La selezione semplice con il mouse (per impostazione predefinita clic sinistro) 
 
 ### Clic ripetuti 
 
-Il primo clic seleziona un sottoelemento (vertice, bordo o faccia) dell\'oggetto sotto il mouse. Un secondo clic seleziona l\'intero oggetto. {{Version/it|0.18}}
+Il primo clic seleziona un sottoelemento (vertice, bordo o faccia) dell\'oggetto sotto il mouse. Un secondo clic seleziona l\'intero oggetto.
 
-Il terzo clic estende la selezione al suo oggetto contenitore ([Corpo di PartDesign](PartDesign_Body/it.md), [Parte](Std_Part/it.md) e altri). Ulteriori clic espandono la selezione nella catena del contenitore. {{Version/it|0.19}}
+Il terzo clic estende la selezione al suo oggetto contenitore ([Corpo di PartDesign](PartDesign_Body/it.md), [Part](Std_Part/it.md) e altri). Ulteriori clic espandono la selezione nella catena del contenitore.
 
 
 

@@ -1,65 +1,82 @@
 # ANSI templates/pl
-This page lists the templates according to American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standard
+**Szablony na tej stronie są przeznaczone dla starego środowiska pracy [Kreślenie](Drawing_Workbench/pl.md).
+Będą problemy z używaniem ich w środowisku pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md).**
+
+Na tej stronie znajduje się lista szablonów zgodnych ze standardem **A**merican **N**ational **S**tandards **I**nstitute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute).
 
 ### ANSI A 
 
-#### ANSI_A\_Landscape
+#### ANSI A Poziomy 
 
 <img alt="" src=images/ANSI_A_Landscape.svg  style="width:800px;">
 
-#### ANSI_A\_Portrait
+
+
+#### ANSI A Pionowy 
 
 <img alt="" src=images/ANSI_A_Portrait.svg  style="width:800px;">
 
 ### ANSI B 
 
-#### ANSI_B\_Landscape
+#### ANSI B Poziomy 
 
 <img alt="" src=images/ANSI_B_Landscape.svg  style="width:800px;">
 
-#### ANSI_B\_Portrait
+
+
+#### ANSI B Pionowy 
 
 <img alt="" src=images/ANSI_B_Portrait.svg  style="width:800px;">
 
 ### ANSI C 
 
-#### ANSI_C\_Landscape
+#### ANSI C Poziomy 
 
 <img alt="" src=images/ANSI_C_Landscape.svg  style="width:800px;">
 
-#### ANSI_C\_Portrait
+
+
+#### ANSI C Pionowy 
 
 <img alt="" src=images/ANSI_C_Portrait.svg  style="width:800px;">
 
 ### ANSI D 
 
-#### ANSI_D\_Landscape
+#### ANSI D Poziomy 
 
 <img alt="" src=images/ANSI_D_Landscape.svg  style="width:800px;">
 
-#### ANSI_D\_Portrait
+
+
+#### ANSI D Pionowy 
 
 <img alt="" src=images/ANSI_D_Portrait.svg  style="width:800px;">
 
 ### ANSI E 
 
-#### ANSI_E\_Landscape
+#### ANSI E Poziomy 
 
 <img alt="" src=images/ANSI_E_Landscape.svg  style="width:800px;">
 
-#### ANSI_E\_Portrait
+
+
+#### ANSI E Pionowy 
 
 <img alt="" src=images/ANSI_E_Portrait.svg  style="width:800px;">
 
-## Other standards available 
 
--   [Drawing templates](Drawing_templates.md): default FreeCAD templates
--   [Arch templates](Arch_templates.md): according to American National Standards Institute [Arch](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standard
--   [Misc templates](Misc_templates.md): mixed templates
 
-## Credits
+## Inne dostępne standardy 
 
-The templates are drawn by [Quick61](User_Quick61.md) and listed [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates).
+-   [Szablony środowiska Kreślenie](Drawing_templates/pl.md): domyślne szablony FreeCAD.
+-   [Szablony środowiska Architektura](Arch_templates/pl.md): zgodnie ze standardem American National Standards Institute [Arch](http://en.wikipedia.org/wiki/American_National_Standards_Institute).
+-   [Różne szablony](Misc_templates/pl.md): szablony rozmaite
+
+
+
+## Zasłużeni
+
+Szablony są rysowane przez [Quick61](User_Quick61.md) i wymienione na stronie [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates).
 
 
 

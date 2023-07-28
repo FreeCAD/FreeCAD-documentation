@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/fr
    Name:Mesh Evaluation
-   Name/fr:Mesh Evaluation
+   Name/fr:Mesh Évaluation
    MenuLocation:Maillages → Analyser → Évaluer et réparer le maillage...
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
 ---
@@ -10,16 +10,16 @@
 
 ## Description
 
-La commande **Mesh Evaluation** évalue et répare un objet maillé.
+La commande **Évaluation** évalue et répare un objet maillé.
 
 ![](images/Mesh_Evaluation_dialog.png ) 
-*La boîte de dialogue Evaluer et réparer un maillage avec l'option Recherche de plis active sur la surface activée*
+*La boîte de dialogue Evaluer et réparer un maillage avec l'option Recherche de plis sur la surface activée*
 
 
 
 ## Utilisation
 
-1.  Sélectionnez éventuellement un seul objet maillé.
+1.  Sélectionnez un seul objet maillé.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Mesh_Evaluation.svg" width=16px> [Évaluer et réparer un maillage...](Mesh_Evaluation/fr.md)
 **

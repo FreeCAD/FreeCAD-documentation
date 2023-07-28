@@ -1,13 +1,19 @@
 # PartDesign Preferences/pl
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 Środowiska pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) oraz <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt części](PartDesign_Workbench/pl.md) używają tych samych preferencji. Można je znaleźć w <img alt="" src=images/Preferences-part_design.svg  style="width:24px;"> sekcji [Edytora ustawień](Preferences_Editor/pl.md) **Projekt Części**. Sekcja ta będzie dostępna tylko wtedy, gdy w bieżącej sesji programu FreeCAD załadowano jedno z tych środowisk pracy.
 
+
+
 ## Dostępne ustawienia 
 
 Dostępne są cztery zakładki: Ogólne, Widok kształtu, Wygląd kształtu i Wymiarowanie.
+
+
 
 ### Ogólne
 
@@ -31,6 +37,8 @@ W zakładce **Ogólne** można zdefiniować następujące parametry:
 
 ![](images/Preferences_Part_design_Tab_General.png )
 
+
+
 ### Widok kształtu 
 
 W zakładce *Widok kształtu* można zdefiniować następujące parametry:
@@ -49,6 +57,8 @@ W zakładce *Widok kształtu* można zdefiniować następujące parametry:
 
 ![](images/Preferences_Part_design_Tab_Shape_view.png )
 
+
+
 ### Wygląd kształtu 
 
 W zakładce *Wygląd kształtu* można zdefiniować następujące parametry:
@@ -60,7 +70,7 @@ W zakładce *Wygląd kształtu* można zdefiniować następujące parametry:
 | **Kolor kształtu**           |                                                                                                                                                                                                                                                                        |
 |                                       |                                                                                                                                                                                                                                                                        |
 +++
-|                           | Przezroczystość dla nowych kształtów {{Version/pl|1.0}}.                                                                                                                                                                                                 |
+|                           | Przezroczystość dla nowych kształtów {{Version/pl|0.21}}.                                                                                                                                                                                                |
 | **Przezroczystość kształtu** |                                                                                                                                                                                                                                                                        |
 |                                       |                                                                                                                                                                                                                                                                        |
 +++
@@ -97,11 +107,13 @@ W zakładce *Wygląd kształtu* można zdefiniować następujące parametry:
 
 ![](images/Preferences_Part_design_Tab_Shape_appearance.png )
 
+
+
 ### Pomiary
 
 Te preferencje kontrolują wygląd miar utworzonych za pomocą narzędzi [Pomiaru](Part_Module/pl#Pomiary.md) dostępnych w środowiskach pracy [Część](Part_Workbench/pl.md) i [Projekt Części](PartDesign_Workbench/pl.md).
 
-W zakładce **Wymiarowanie** *({{Version/pl|1.0}})* można wybrać następujące narzędzia:
+W zakładce **Wymiarowanie** *({{Version/pl|0.21}})* można wybrać następujące narzędzia:
 
 +++
 | Nazwa                               | Opcje                                                               |
@@ -141,9 +153,11 @@ W zakładce **Wymiarowanie** *({{Version/pl|1.0}})* można wybrać następujące
 
 ![](images/Preferences_Part_design_Tab_Measure.png )
 
-## Tesselacja
 
-W celu efektywnego wyświetlania obiektu jego powierzchnia jest [tesselowana](https://en.wikipedia.org/wiki/Tessellation_(computer_graphics)), tzn. jest wyświetlana z pewnymi niewielkimi odchyleniami od jego rzeczywistej powierzchni. Dotyczy to nie tylko modeli środowiska Projekt Części, ale także innych obiektów w programie FreeCAD.
+
+## Teselacja
+
+W celu efektywnego wyświetlania obiektu jego powierzchnia jest [teselowana](https://pl.wikipedia.org/wiki/Teselacja), tzn. jest wyświetlana z pewnymi niewielkimi odchyleniami od jego rzeczywistej powierzchni. Dotyczy to nie tylko modeli środowiska Projekt Części, ale także innych obiektów w programie FreeCAD.
 
 Dolna granica teselacji wynosi 0,01%. Jeśli naprawdę chcesz poświęcić dodatkowy czas, możesz jeszcze bardziej zmniejszyć dolną granicę, otwierając menu **Przybory → Edycja parametrów ...**. Otworzy to edytor parametrów, gdzie przechodzimy do **BaseApp → Preferences → Mod → Part**.
 

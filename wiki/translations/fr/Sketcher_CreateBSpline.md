@@ -29,15 +29,23 @@ Cet outil trace une courbe B-spline à partir de ses points de contrôle. (Voir 
 5.  Cliquez avec le bouton droit pour terminer la saisie et générer la courbe.
 6.  Selon les préférences, l\'outil peut rester actif pour tracer une nouvelle courbe. Cliquez à nouveau avec le bouton droit pour quitter la commande.
 
--   Il est possible de définir le poids des points de contrôle en modifiant les rayons des cercles. Les contraintes d\'égalité sur les cercles doivent d\'abord être supprimées. La valeur de la contrainte radiale est arbitraire, le poids des points de contrôle sera défini par les rayons relatifs des cercles. Son fonctionnement est similaire à celui de la gravité: plus un cercle est grand par rapport aux autres, plus la courbe sera attirée par le point de contrôle.
--   La visibilité du polygone de contrôle, du peigne de courbure, du degré et de la multiplicité des nœuds peut être activée/désactivée à partir de la barre des [outils B-spline](Sketcher_Workbench/fr#Sketcher_B-spline_tools.md).
--   Consultez les autres outils de la barre des [outils B-spline](Sketcher_Workbench/fr#Sketcher_B-spline_tools.md) pour plus d'outils d'édition des B-splines.
+
+
+## Remarques
+
+-   Après la création d\'une B-spline, il est possible de définir le poids des points de contrôle en modifiant les rayons des cercles de poids. Les contraintes d\'égalité sur les cercles doivent d\'abord être supprimées. La contrainte de rayon est arbitraire, le poids des points de contrôle sera défini par les rayons relatifs des cercles. Le fonctionnement est similaire à celui de la gravité : plus un cercle est grand par rapport aux autres, plus la courbe sera attirée vers le point de contrôle.
+-   La visibilité du polygone de contrôle, du peigne de courbure, du degré et de la multiplicité des nœuds peut être activée/désactivée à partir de la barre des [outils des B-splines](Sketcher_Workbench/fr#Sketcher_B-spline_tools.md).
+-   Consultez les autres outils de la barre des [outils des B-splines](Sketcher_Workbench/fr#Sketcher_B-spline_tools.md) pour plus d'outils d'édition des B-splines.
 
 ## Limitations
 
--   De nombreux types de contraintes ne sont pas pris en charge pour le moment. Seuls les points de contrôle et les points d\'extrémité de la B-spline peuvent être contraints.
--   Les outils [Diviser](Sketcher_Split/fr.md) et [Prolonger l\'arête](Sketcher_Extend/fr.md) ne sont pas pris en charge.
--   La forme d\'une courbe B-spline ne peut être modifiée qu\'en faisant glisser l\'un des points de contrôle. Les nœuds situés sur la courbe ne peuvent pas être sélectionnés.
+-   De nombreux types de contraintes ne sont pas pris en charge pour le moment.
+
+-   L\'outil [Sketcher Prolonger](Sketcher_Extend/fr.md) n\'est pas pris en charge.
+
+-    {{VersionMinus/fr|0.20}}: l\'outil [Sketcher Diviser](Sketcher_Split/fr.md) n\'est pas pris en charge.
+
+-    {{VersionMinus/fr|0.20}}: la forme d\'une courbe B-spline ne peut être modifiée qu\'en faisant glisser l\'un des points de contrôle. Les nœuds situés sur la courbe ne peuvent pas être sélectionnés.
 
 
 

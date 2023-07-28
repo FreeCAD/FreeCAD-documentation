@@ -3,7 +3,7 @@
    Name:Drawing Annotation
    Name/fr:Drawing Annotation
    MenuLocation:Drawing → Annotation
-   Workbenches:[Mise en plan](Drawing_Workbench/fr.md)
+   Workbenches:[Drawing](Drawing_Workbench/fr.md)
 ---
 
 # Drawing Annotation/fr
@@ -12,6 +12,8 @@
 
 Cette commande vous permet de placer un bloc de texte sur une [Feuille A3 paysage](Drawing_Landscape_A3.md).
 
+
+
 ## Utilisation
 
 1.  Créer une [Feuille A3 paysage](Drawing_Landscape_A3.md)
@@ -19,6 +21,8 @@ Cette commande vous permet de placer un bloc de texte sur une [Feuille A3 paysag
 3.  Appuyer sur le bouton **<img src="images/Drawing_Annotation.png" width=16px> [Annotation](Drawing_Annotation/fr.md)
 **
 4.  Ajuster les propriétés souhaitées comme le contenu du texte, la police, la taille et sa position.
+
+
 
 ## Limitations
 

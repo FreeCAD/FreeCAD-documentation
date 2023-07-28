@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -34,6 +36,8 @@ Questo strumento traccia una curva B-spline periodica (chiusa) dai suoi punti di
 
 </div>
 
+
+
 ## Utilizzo
 
 
@@ -51,17 +55,15 @@ Questo strumento traccia una curva B-spline periodica (chiusa) dai suoi punti di
 
 </div>
 
+## Notes
+
+See [Sketcher CreateBSpline](Sketcher_CreateBSpline#Notes.md).
+
+
+
 ## Limitazioni
 
-
-<div class="mw-translate-fuzzy">
-
--   In questo momento molti tipi di vincoli non sono ancora supportati. Possono essere vincolati solo il punto di controllo e i punti finali della B-spline.
--   Gli strumenti [Rifila](Sketcher_Trimming/it.md) e [Estendi](Sketcher_Extend/it.md) non sono supportati.
--   La forma di una curva B-spline può essere modificata solo trascinando uno dei punti di controllo. I nodi che si trovano sulla curva non possono essere selezionati.
-
-
-</div>
+See [Sketcher CreateBSpline](Sketcher_CreateBSpline#Limitations.md).
 
 
 <div class="mw-translate-fuzzy">

@@ -9,6 +9,8 @@ Las dependencias deben ser instaladas en el sistema antes de proceder a la compi
 
 Si está compilando con Windows, considere usar el [LibPack](#LibPack.md) en lugar de intentar instalar las bibliotecas individualmente.
 
+
+
 ## Enlaces
 
 
@@ -71,6 +73,8 @@ Si está compilando con Windows, considere usar el [LibPack](#LibPack.md) en lug
 
 </div>
 
+
+
 ## Detalles
 
 ### Python
@@ -120,6 +124,8 @@ Las bibliotecas Boost C++ son colecciones de bibliotecas de código abierto revi
 Due to their popularity and stability, many Boost libraries have been accepted for incorporation into the C++11 standard, and more are planned for inclusion in subsequent C++ standards.
 
 En orden de asegurar la eficiencia y flexibilidad, Boost hace un uso extensivo de las plantillas. Boost ha sido una fuente de trabajo extensivo e investigación en programación general y meta-programación en C++. Para saber más sobre Boost, visite la página [Boost página inicio](http://www.boost.org/).
+
+
 
 ### OpenCASCADE Tecnología 
 
@@ -173,7 +179,15 @@ Coin3D es compatible con la API Open Inventor 2.1 de SGI. Esta API se ha convert
 
 Coin3D (Open Inventor) se utiliza como visor 3D en FreeCAD porque el visor de OpenCASCADE (AIS y Graphics3D) tiene limitaciones y cuellos de botella en el rendimiento, especialmente con el renderizado de ingeniería a gran escala; otras cosas como las texturas o el renderizado volumétrico no son totalmente compatibles con el visor de OpenCASCADE.
 
+
+<div class="mw-translate-fuzzy">
+
 Coin3D es portátil en una amplia gama de plataformas: Sistemas operativos UNIX, Linux, BSD, MacOS X y Microsoft Windows. Para obtener más información sobre esta biblioteca, visite [Coin3D página de inicio](https://github.com/coin3d/coin).
+
+
+</div>
+
+
 
 #### SoQt (obsoleto) 
 

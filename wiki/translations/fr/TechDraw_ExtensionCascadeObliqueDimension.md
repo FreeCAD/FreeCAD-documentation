@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionCascadeObliqueDimension.svg  style="width:24px;"> **TechDraw Cascade oblique** permet d\'espacer uniformément les cotes obliques.
+L\'outil **TechDraw Cascade oblique** permet d\'espacer uniformément les cotes obliques.
 
 <img alt="" src=images/TechDraw_ExtensionCascadeObliqueDimensionExample.png  style="width:400px;"> 
 *À droite, les cotes obliques régulièrement espacées*
+
+
 
 ## Utilisation
 

@@ -21,9 +21,7 @@ La fonction <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="widt
 
 ### Créer une fonction sphère 
 
-1.  Il y a plusieurs façons de créer une fonction :
-    -   Appuyez sur le bouton **<img src="images/FEM_PostCreateFunctionSphere.svg" width=16px> [Sphère](FEM_PostCreateFunctionSphere/fr.md)**.
-    -   Sélectionnez l\'option **Résultats → Fonctions de filtrage → <img src="images/FEM_PostCreateFunctionSphere.svg" width=16px> Sphère** dans le menu.
+1.  Soit vous appuyez sur le bouton **<img src="images/FEM_PostCreateFunctionSphere.svg" width=16px> [Sphère](FEM_PostCreateFunctionSphere/fr.md)** soit vous sélectionnez l\'option **Résultats → Fonctions de filtrage → <img src="images/FEM_PostCreateFunctionSphere.svg" width=16px> Sphère** du menu.
 2.  Le [panneau des tâches](Task_panel/fr.md) de la fonction Implicit s\'ouvre.
 3.  Vous pouvez définir les valeurs de l\'origine et du rayon de la sphère de section.
 4.  Appuyez sur le bouton **OK** pour terminer.
@@ -46,7 +44,7 @@ Si l\'objet Sphere dans la [vue en arborescence](Tree_view/fr.md) est caché, s�
 
 #### Mise à l\'échelle de la sphère 
 
--   Cliquez et faites glisser l\'un des 8 petits cubes autour de la grille sphérique pour ajuster la taille de la sphère.
+-   Cliquez et faites glisser l\'un des 8 petits cubes pour mettre la sphère à l\'échelle.
 
 
 

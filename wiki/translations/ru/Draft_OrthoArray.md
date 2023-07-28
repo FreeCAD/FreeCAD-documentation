@@ -1,10 +1,11 @@
 ---
-- GuiCommand:
-   Name:Draft OrthoArray
+- GuiCommand:/ru
+   Name/ru:Draft_OrthoArray
+   Name:Draft_OrthoArray
    MenuLocation:Modification → Array tools → Array
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Version:0.19
-   SeeAlso:[Draft PolarArray](Draft_PolarArray.md), [Draft CircularArray](Draft_CircularArray.md), [Draft PathArray](Draft_PathArray.md), [Draft PathLinkArray](Draft_PathLinkArray.md), [Draft PointArray](Draft_PointArray.md), [Draft PointLinkArray](Draft_PointLinkArray.md)
+   SeeAlso:[Массив вращения](Draft_PolarArray/ru.md), [Круговой массив](Draft_CircularArray/ru.md), [Draft PathArray](Draft_PathArray/ru.md), [Draft PathLinkArray](Draft_PathLinkArray/ru.md), [Draft PointArray](Draft_PointArray/ru.md), [Draft PointLinkArray](Draft_PointLinkArray/ru.md)
 ---
 
 # Draft OrthoArray/ru
@@ -47,24 +48,32 @@ The command can be used on 2D objects created with the [Draft Workbench](Draft_W
 -   If the **Link array** checkbox is checked a Link array instead of a regular array is created. A Link array is more efficient because its elements are [App Link](App_Link.md) objects.
 -   Press **Esc** or the **Cancel** button to abort the command.
 
-## Notes
+
+
+## Примечания
 
 -   A Draft OrthoArray can be turned into a [Draft PolarArray](Draft_PolarArray.md) or a [Draft CircularArray](Draft_CircularArray.md) by changing its **Array Type** property.
 -   A Link array cannot be turned into a regular array or vice versa. The type of array must be decided at creation time.
 
-## Preferences
+
+
+## Настройки
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
 -   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
-## Properties
 
-See also: [Property editor](property_editor.md).
+
+## Свойства
+
+Смотрите также: [Редактор свойств](property_editor/ru.md).
 
 The Draft OrthoArray command, the [Draft PolarArray command](Draft_PolarArray.md) and the [Draft CircularArray command](Draft_CircularArray.md) create the same object. This object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties (with the exception of some View properties that are not inherited by Link arrays). The following properties are additional unless otherwise stated:
 
-### Data
+
+
+### Данные
 
 
 {{TitleProperty|Link}}
@@ -166,7 +175,9 @@ The properties in this group are hidden for orthogonal arrays.
 
 -    **Center|VectorDistance**: specifies the center point of the array. The axis of the array passes through this point. For circular arrays it is an offset from the **Placement** of the **Base** object.
 
-### View
+
+
+### Вид
 
 
 {{TitleProperty|Link}}
@@ -236,7 +247,9 @@ The properties in this group are inherited properties. See [Part Feature](Part_F
 
 The properties in this group are not inherited by Link arrays.
 
-## Scripting
+
+
+## Программирование
 
 
 <div class="mw-translate-fuzzy">
@@ -335,7 +348,7 @@ array(objectslist, xvector, yvector, xnum, ynum)
 array(objectslist, xvector, yvector, zvector, xnum, ynum, znum)
 ```
 
-Example:
+Пример:
 
 
 ```python
@@ -351,15 +364,6 @@ v_y = App.Vector(0, 600, 0)
 Draft.array(rect, v_x, v_y, 3, 4)
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

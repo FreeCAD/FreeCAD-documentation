@@ -12,7 +12,7 @@
 
 ## Description
 
-Fixe la distance verticale entre 2 points ou fin de lignes. Si un seul point est sélectionné, la distance sera définie par rapport à l\'origine de l\'esquisse.
+Fixe la distance horizontale entre 2 points ou extrémités de lignes. Si un seul point est sélectionné, la distance sera définie par rapport à l\'origine de l\'esquisse.
 
 ![](images/Constraint_H_Distance.png )
 
@@ -36,7 +36,7 @@ Fixe la distance verticale entre 2 points ou fin de lignes. Si un seul point est
 Distance depuis l\'origine :
 
 
-```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Edge, PointOfEdge, App.Units.Quantity('123.0 mm')))```
+```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Edge, PointOfEdge, -1, 1, App.Units.Quantity('123.0 mm')))```
 
 Distance entre deux sommets :
 

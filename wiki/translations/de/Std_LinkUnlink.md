@@ -10,34 +10,38 @@
 
 # Std LinkUnlink/de
 
+
+
 ## Beschreibung
 
 
-**[<img src=images/Std_LinkUnlink.svg style="width:16px"> [Std LinkUnlink](Std_LinkUnlink.md)**
+**[<img src=images/Std_LinkUnlink.svg style="width:16px"> [Std VerknüpfungAuflösen](Std_LinkUnlink/de.md)**
 
-is essentially the opposite operation to **[<img src=images/Std_LinkReplace.svg style="width:16px"> [Std LinkReplace](Std_LinkReplace.md)**.
+ist im wesentlichen die Umkehrung der Funktion **[<img src=images/Std_LinkReplace.svg style="width:16px"> [Std DurchVerknüpfungErsetzen](Std_LinkReplace/de.md)**.
 
-This operation is used to remove a Link from a container like **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)**, and instead place the real object inside.
+Diese Funktion entfernt eine Verknüpfung aus einem Behälter, wie etwa einem **[<img src=images/Std_Part.svg style="width:16px"> [Standard Teil](Std_Part/de.md)** und fügt statt dessen das reale Objekt ein.
+
+
 
 ## Anwendung
 
-1.  Make sure you have a Link that is inside a container, for example, a Link to a **[<img src=images/Part_Sphere.svg style="width:16px"> [Part Sphere](Part_Sphere.md)** inside a **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)**.
-2.  Select the internal Link in the [tree view](tree_view.md).
-3.  Press **[<img src=images/Std_LinkUnlink.svg style="width:16px"> [Unlink](Std_LinkUnlink.md)**.
+1.  Wir benötigen einen Behälter mit einer Verknüpfung zum Beispiel auf eine **[<img src=images/Part_Sphere.svg style="width:16px"> [Part Kugel](Part_Sphere/de.md)** innerhalb eines **[<img src=images/Std_Part.svg style="width:16px"> [Standard Teil](Std_Part/de.md)**s.
+2.  Wähle eine interne Verknüpfung in der [Baumansicht](tree_view/de.md).
+3.  Klicke auf die Schaltfläche **[<img src=images/Std_LinkUnlink.svg style="width:16px"> [Std VerknüpfungAuflösen](Std_LinkUnlink/de.md)**.
 
-The original <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> [Sphere](Part_Sphere.md) must now be inside the **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)**, and the Link must be outside. Now this Link can be deleted if it\'s no longer needed, and it won\'t break the container.
+Jetzt muß die Original-<img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> [Part Kugel](Part_Sphere/de.md) im **[<img src=images/Std_Part.svg style="width:16px"> [Standard Teil](Std_Part/de.md)** sein und die Verknüpfung muß außerhalb liegen. Jetzt kann auch die Verknüpfung gelöscht werden, sofern sie nicht mehr benötigt wird, ohne den Behälter zu kaputt zu machen.
 
 ![](images/Std_Link_tree_replace_1_example.png ) ![](images/Std_Link_tree_unlink_1_example.png )
 
 
 
-*A Link inside another object is unlinked, and the real object is placed inside instead.*
+*Eine Verknüpfung innerhalt eines anderen Objektes wird gelöst und das reale Objekt wird anstatt dessen eingefügt.*
 
 ![](images/Std_Link_tree_replace_2_example.png ) ![](images/Std_Link_tree_unlink_2_example.png )
 
 
 
-*A Link inside a group is unlinked, and the real object is placed inside instead.*
+*Eine Verknüpfung in einer Gruppe wird gelöst und das reale Objekt wird anstatt dessen eingefügt.*
 
 
 

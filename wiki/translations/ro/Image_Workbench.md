@@ -1,7 +1,13 @@
-# <img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench/ro
+# Image Workbench/ro
+**The '''Image Workbench''' is no longer included after version 0.20.<br>
+It functionality has been integrated in [Std Base](Std_Base.md). See [Std Import](Std_Import.md) and [Std ViewLoadImage](Std_ViewLoadImage.md).**
+
+<img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width:128px;">
 
 
 {{TOCright}}
+
+
 
 ## Introducere
 
@@ -9,6 +15,8 @@
 {{TOCright}}
 
 Atelierul Imagine [Image Workbench](Image_Workbench.md) gestionează diferite tipuri de [bitmap images](http://en.wikipedia.org/wiki/Raster_graphics) și vă permite să le deschideți în FreeCAD.
+
+
 
 ## Instrumente
 
@@ -21,6 +29,8 @@ Atelierul Imagine [Image Workbench](Image_Workbench.md) gestionează diferite ti
 
 
 </div>
+
+
 
 ## Funcționalități
 
@@ -56,7 +66,13 @@ Puteți seta o decalare de -0,1 mm la import sau mai târziu, prin editarea dest
 Decalajul imaginii poate fi setat în timpul importului sau poate fi modificat mai târziu prin proprietățile sale.
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{docnav/ro|Raytracing Workbench/ro|Draft Workbench/ro}}
+
+
+</div>
 
 
 {{Image Tools navi
@@ -66,4 +82,4 @@ Decalajul imaginii poate fi setat în timpul importului sau poate fi modificat m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Image](Category_Image.md) > Image Workbench/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/ro

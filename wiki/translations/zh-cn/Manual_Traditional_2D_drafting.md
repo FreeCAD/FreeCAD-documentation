@@ -1,40 +1,13 @@
 # Manual:Traditional 2D drafting/zh-cn
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{Manual:TOC/zh-cn}}
 
+你会对 FreeCAD 感兴趣，因为你已经有一些技术绘图经验，例如使用 [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD) 等软件。或者你已经了解一些关于设计的知识，或者你更喜欢在建造之前绘制物品。无论哪种情况，FreeCAD 都具有更传统的工作台，其中包含在大多数 2D CAD 应用程序中能找到的工具：[草图工作台](Draft_Workbench.md)。
 
-<div class="mw-translate-fuzzy">
+Draft 工作台虽然继承了传统 2D CAD 的工作方式，但并不局限于 2D 领域。Draft 工作台的所有工具都可以在整个 3D 空间中工作。许多 Draft 工具，例如，<img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Move](Draft_Move/zh-cn.md) 和 <img alt="" src=images/Draft_Rotate.svg  style="width:16px;"> [Rotate在](Draft_Rotate/zh-cn.md) FreeCAD 中使用广泛，因为比起手动更改位置参数，Move 和 Rotate 更直观。
 
-你对 FreeCAD 感兴趣，可能因为你有技术绘图经验，例如使用过 [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD) 等软件。 或者因为你了解设计，更喜欢在实际制造之前先把它们绘制出来。无论哪种情况，FreeCAD 都具有比较传统的工作台：[Draft 工作台](Draft_Workbench/zh-cn.md)，包含大多数 2D CAD 应用程序中都有的工具。
+在 Draft 工作台提供的工具中，你会发现传统的绘图工具，例如<img alt="" src=images/Draft_Line.svg  style="width:16px;"> [线](Draft_Line.md)，<img alt="" src=images/Draft_Circle.svg  style="width:16px;"> [圆或](Draft_Circle.md)<img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [线段](Draft_Wire.md)，修改工具，例如<img alt="" src=images/Draft_Move.svg  style="width:16px;"> [移动](Draft_Move.md)，<img alt="" src=images/Draft_Rotate.svg  style="width:16px;"> [旋转或](Draft_Rotate.md)<img alt="" src=images/Draft_Offset.svg  style="width:16px;"> [偏移](Draft_Offset.md)，一个[工作平面/网格系统](Draft_SelectPlane.md)，它允许你精确定义你正在工作的平面，并且完整的[捕捉系统使得在元素之间精确定位和绘制非常容易](Draft_Snap.md)。
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Draft 工作台虽然继承了传统 2D CAD 的工作方式，但并不局限于 2D 领域。Draft 工作台的所有工具都可以在整个 3D 空间中工作。许多 Draft 工具，例如，<img alt="" src=images/Draft_Move.png  style="width:16px;"> [Move](Draft_Move/zh-cn.md) 和 <img alt="" src=images/Draft_Rotate.png  style="width:16px;"> [Rotate在](Draft_Rotate/zh-cn.md) FreeCAD 中使用广泛，因为比起手动更改位置参数，Move 和 Rotate 更直观。
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-在 Draft 工作台提供的工具中，你会发现传统的绘图工具，像<img alt="" src=images/Draft_Line.png  style="width:16px;"> [Line](Draft_Line/zh-cn.md)， <img alt="" src=images/Draft_Circle.png  style="width:16px;"> [Circle](Draft_Circle/zh-cn.md), or <img alt="" src=images/Draft_Wire.png  style="width:16px;"> [Wire](Draft_Wire/zh-cn.md) (polyline), modification tools like <img alt="" src=images/Draft_Move.png  style="width:16px;"> [Move](Draft_Move/zh-cn.md), <img alt="" src=images/Draft_Rotate.png  style="width:16px;"> [Rotate](Draft_Rotate/zh-cn.md) or <img alt="" src=images/Draft_Offset.png  style="width:16px;"> [Offset](Draft_Offset/zh-cn.md), a [working plane/grid system](Draft_SelectPlane/zh-cn.md)，修改工具之类，像<img alt="" src=images/Draft_Move.png  style="width:16px;"> [Move](Draft_Move/zh-cn.md), <img alt="" src=images/Draft_Rotate.png  style="width:16px;"> [Rotate](Draft_Rotate/zh-cn.md) or <img alt="" src=images/Draft_Offset.png  style="width:16px;"> [Offset](Draft_Offset/zh-cn.md), a [working plane/grid system](Draft_SelectPlane/zh-cn.md)，让你精确定义正在工作的平面，以及一个完整的 [snapping system](Draft_Snap/zh-cn.md) ，使得相对于彼此绘制和定位元素非常容易。
-
-
-</div>
-
-为了展示 Draft 的工作流程和能力范围，我们做一个简单的练习，结果将是这个小图，一个只包含厨房顶部的小房子的平面图（一个非常荒谬的平面图，但我们可以在这里做我们想做的事，不是够了吗？）：
+为了展示 Draft 工作台的工作流程和可能性，我们将通过一个简单的练习来演示，其结果将是这个小图纸，显示一个只包含厨房的小房子的平面图（这是一个相当荒谬的平面图，但是我们在这里可以做我们想做的事情，不是吗？）：
 
 ![](images/Exercise_cabin_01.jpg )
 
@@ -43,29 +16,20 @@ Draft 工作台虽然继承了传统 2D CAD 的工作方式，但并不局限于
 
 ![](images/Freecad_draft_options_01.jpg )
 
--   你可能需要注意一个选项，它很霸道：\"**Fill objects with faces whenever possible**\" 选项。如果选中这个选项，默认情况下 FreeCAD 将用面来填充诸如矩形或圆形这类的闭合对象，这样可能就难以捕捉到底层对象了。你可以立即关闭此选项，或者稍后关闭每个单独对象的 \"**Make Face**\" 属性，以防止它们创建面。
+-   不过，有一个选项可能需要你的注意："**尽可能使用面填充对象**\"选项。如果选择了这个选项，默认情况下，像矩形或圆形这样的封闭对象将被填充为面，这可能会使对底层对象的捕捉变得困难。你现在可以关闭此选项，或者稍后关闭每个单独对象的"**创建面**\"属性，以防止它们创建面。
 
--   Draft 工作台还有两个特殊的工具栏。一个具是 **visual settings**，可以更改当前工作平面，打开/关闭 [construction mode](Draft_ToggleConstructionMode/zh-cn.md)，设置要用于新对象的线条颜色、面的颜色、线宽和文本大小。另一个是**snap locations**，可以打开/关闭网格并设置/取消设置单个 [Snap locations](Draft_Snap/zh-cn.md)。
+-   Draft 工作台还有两个特殊的工具栏：一个是**可视化设置**工具栏，你可以在其中更改当前工作平面，打开/关闭 [构造模式](Draft_ToggleConstructionMode.md)，设置用于新对象的线条颜色、面颜色、线条粗细和文本大小，另一个是**捕捉位置**工具栏。在那里，你可以打开/关闭网格并设置/取消单个[捕捉位置](Draft_Snap.md)：
 
 ![](images/Draft_toolbars.jpg )
 
--   打开所有捕捉按钮是会带来方便，但也会使绘图变慢，因为移动鼠标光标时需要进行更多的计算。通常只保留实际使用的那些就好了。
+-   打开所有捕捉按钮虽然方便，但同时也会使绘图速度变慢，因为移动鼠标时需要进行更多的计算。通常最好只保留你实际使用的捕捉。
 
-
-<div class="mw-translate-fuzzy">
-
--   我们先打开 **construction mode**，这样可以绘制一些引导线，在其基础上绘制最终的几何图形。
--   愿意的话，将 **working plane** 设置为 **XY**。 这样无论当前视图如何，工作平面都不会改变。如果没有设置，工作平面将自动适应当前视图，只要想在 XY（地面）平面上绘图，都应该小心注意保持在顶视图。
--   然后，选择 <img alt="" src=images/Draft_Rectangle.png  style="width:16px;"> [Rectangle](Draft_Rectangle/zh-cn.md) 工具并绘制一个矩形，从点（0,0,0）开始，2 米乘 2 米（将 Z 保持为零）。请注意，大多数 Draft 命令都完全可以使用双字母快捷键从键盘执行，而无需鼠标。我们的第一个 2x2m 的矩形可以这样完成：re 0 **Enter** 0 **Enter** 0 **Enter** 2m **Enter** 2m **Enter** 0 **Enter**。
--   将矩形向内复制 15cm，使用 <img alt="" src=images/Draft_Offset.png  style="width:16px;"> [Offset](Draft_Offset/zh-cn.md) 工具，打开复制模式，并给出距离 15cm。
-
-
-</div>
+-   让我们首先打开**构造模式**，这将允许我们绘制一些指导线，我们将在这些指导线上绘制最终的几何图形。
+-   如果你想的话，把**工作平面**设置为**XY**。如果这样做，无论当前视图如何，工作平面都不会改变。如果没有这样做，工作平面将自动适应当前视图，你应该确保在想要在XY（地面）平面上绘制时保持在俯视视图。
+-   然后，选择<img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> [矩形工具](Draft_Rectangle.md)，并绘制一个 2 米乘 2 米（将 Z 保持为零）的矩形，从点 (0,0,0) 开始。注意，大多数草图命令可以完全使用键盘执行，不需要触摸鼠标，只需使用它们的两个字母的快捷键。我们的第一个 2x2 m 矩形可以这样做：re 0 **Enter** 0 **Enter** 0 **Enter** 2m **Enter** 2m **Enter** 0 **Enter**。
+-   使用<img alt="" src=images/Draft_Offset.svg  style="width:16px;"> [偏移](Draft_Offset.md) 工具，在内部 15cm 处复制该矩形。打开其复制模式，并给它一个距离为 15cm：
 
 ![](images/Exercise_cabin_02.jpg )
-
-
-<div class="mw-translate-fuzzy">
 
 -   接下来，绘制几条垂直的线来定义门窗的位置，使用 <img alt="" src=images/Draft_Line.png  style="width:16px;"> [Line](Draft_Line/zh-cn.md) 工具。 这些线与两个矩形的交叉点为我们提供帮助，来捕捉墙壁的位置。从点（15cm，1m，0）到点（15cm，3m，0）绘制第一条线。
 -   使用 <img alt="" src=images/Draft_Move.png  style="width:16px;"> [Move](Draft_Move/zh-cn.md) 工具，打开 Copy 模式,将这条线复制 5 次。同时打开 **Relative** 模式，定义相对距离的移动，这比计算每条线的确切位置更容易。给每个新副本任意起始点，例如，可以保留在（0,0,0），指定相对终点如下：
@@ -75,107 +39,72 @@ Draft 工作台虽然继承了传统 2D CAD 的工作方式，但并不局限于
     -   line004: x: 80cm
     -   line005: x: 15cm
 
-
-</div>
+-   接下来，我们可以使用<img alt="" src=images/Draft_Line.svg  style="width:16px;"> [线条](Draft_Line.md) 工具绘制一些垂直线，来定义我们的门和窗户的位置（注意，此步骤应取消勾选\"相对\"模式）。这些线与我们的两个矩形的交点将为我们提供有用的交点，以便将我们的墙壁对齐。从点 (15cm, 1m, 0) 到点 (15cm, 3m, 0) 绘制第一条线。
+-   使用<img alt="" src=images/Draft_Move.svg  style="width:16px;"> [移动](Draft_Move.md) 工具复制该线 5 次，并打开复制模式。同时，打开相对模式，这将使我们能够以相对距离定义移动，比计算每条线的确切位置更容易。按顺序在刚刚创建的线上执行每个移动操作。给每个新副本任何起始点，例如可以将其保留为 (0,0,0)，然后设置以下相对终点：
+    -   line001: x: 10cm
+    -   line002: x: 120cm
+    -   line003: x: -55cm, y: -2m
+    -   line004: x: 80cm
+    -   line005: x: 15cm
 
 ![](images/Exercise_cabin_03.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
--   这就是我们现在所需要的，所以我们可以关闭构造模式。检查一下所有构造几何体是否已放入 \"Construction\" 组中，这样可以轻松地将其全部隐藏起来，甚至可以在以后完全删除它。
--   现在用 <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Wire](Draft_Wire/zh-cn.md) 工具绘制两面墙壁。确保 <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:16px;"> [intersection snap](Draft_Snap/zh-cn.md) 已打开，因为我们需要捕捉到线条和矩形的交叉点。绘制如下两条线，单击圈出轮廓的所有点。要使它们闭合，请再次单击第一个点，或触发 **Close** 按钮。
-
-
-</div>
+-   现在我们已经完成了这一步，所以可以关闭构造模式。检查所有构造几何体是否已经被放置在"Construction"组中，这使得一次性隐藏或甚至完全删除它们变得容易。
+-   现在让我们使用<img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [线段工](Draft_Wire.md) 具绘制我们的两个墙壁。确保<img alt="" src=images/Draft_Snap_Intersection.svg  style="width:16px;"> [交点捕捉](Draft_Snap.md) 已打开，因为我们需要对线和矩形的交点进行捕捉。按如下方式绘制两条线段，通过单击它们的轮廓的所有点进行绘制。要关闭它们，可以再次单击第一个点，或者按**Close**按钮：
 
 ![](images/Exercise_cabin_04.jpg )
 
--   可以选择两个墙，将它们的 **Pattern** 属性设置为 **Simple**，并将它们的 **Pattern size** 设置为合适的值，比如 **0.005**，这样便将它们的默认灰色改为了漂亮的阴影图案。
+-   我们可以将它们的默认灰色更改为漂亮的阴影图案，方法是选择两个墙壁，然后将它们的**Pattern**属性设置为**Simple**，将它们的**Pattern size**设置为你喜欢的大小，例如**0.005**。
 
 ![](images/Exercise_cabin_05.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
--   现在，可以右键单击 Construction 组并选择 **Hide Selection** 来隐藏构造几何体。
--   我们现在画窗户和门。 确保<img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:16px;"> [midpoint snap](Draft_Snap/zh-cn.md) 已打开，如下所示，绘制六条线：
-
-
-</div>
+-   现在我们可以通过右键单击构造组并选择**隐藏选定项**来隐藏构造几何体。
+-   现在让我们绘制窗户和门。确保 <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:16px;"> [中点捕捉](Draft_Snap.md) 已打开，并按照以下方式绘制六条线：
 
 ![](images/Exercise_cabin_06.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
--   现在将更改门线，创建一个打开的门的符号。首先使用 <img alt="" src=images/Draft_Rotate.png  style="width:16px;"> [Rotate](Draft_Rotate/zh-cn.md) 工具。单击线的端点作为旋转中心，将其起始角度设置为 *0**，结束角度为**-90*\'。
--   然后用 <img alt="" src=images/Draft_Arc.png  style="width:16px;"> [Arc](Draft_Arc/zh-cn.md) 工具创建开门的弧线。选中与上一步中使用的旋转中心相同的点作为中心，单击该线的另一个点以给出半径，然后选择起点和终点，如下所示。
-
-
-</div>
+-   现在我们将更改门的线来创建一个开着的门的符号。首先使用 <img alt="" src=images/Draft_Rotate.svg  style="width:16px;"> [旋转](Draft_Rotate.md) 工具旋转该线。以该线的端点为旋转中心，将起始角度设置为**0**，结束角度设置为**-90**。
+-   然后使用 <img alt="" src=images/Draft_Arc.svg  style="width:16px;"> [弧线](Draft_Arc.md) 工具创建开口弧线。将旋转中心设置为我们在上一步中使用的相同点，单击线的另一个点以设置半径，然后按如下设置起始点和结束点：
 
 ![](images/Exercise_cabin_07.jpg )
 
--   现在开始摆放一些家具。首先，从左上角绘制一个矩形，放好一个厨房台面，给出 170cm 的宽度和 -60cm 的高度。在下图中，矩形的 **Transparency** 属性设置为 80％，让它看起来像个漂亮的家具。
--   然后，添加一个水槽和一个灶台。手工绘制这些符号可能非常繁琐，通常很容易在互联网上找到它们，例如在http://www.cad-blocks.net。在页面底部的 **Downloads**，为方便起见，我们从这个项目中提取了一个水槽和一个灶台，并将它们保存为 DXF 文件。你可以访问下面的链接来下载这两个文件，右键单击 **Raw** 按钮，然后 **另存为**。
--   将 DXF 文件插入打开的 FreeCAD 文档有两种方法，可以选择 **File → Import** 菜单选项，也可以将 DXF 文件从文件浏览器拖放到 FreeCAD 窗口中来完成。DXF 文件的内容可能不会出现在当前视图的中心，具体取决于它们在DXF 文件中的位置。可以使用菜单 **View → Standard views → Fit all** 适当缩放，看到导入的对象。插入两个 DXF 文件，将它们移动到厨房台面上的适当位置。
+-   现在我们可以开始放置一些家具。首先，让我们通过从内部左上角绘制一个矩形，给它一个宽度为 170cm 和高度为 -60cm 的尺寸来放置一个柜台。在下面的图像中，该矩形的**透明度**属性设置为 80％，以使其具有漂亮的家具外观。
+-   然后让我们添加一个水槽和一个炉灶。手工绘制这些符号可能非常繁琐，通常可以在互联网上轻松找到它们，例如在 [http://www.cad-blocks.net。为方便起见，在下面的](http://www.cad-blocks.net。为方便起见，在下面的)**下载**部分中，我们将从该项目中提取出一个水槽和一个炉灶来，并将它们保存为 DXF 文件。您可以通过访问下面的链接，右键单击**Raw**按钮，然后选择**另存为**来下载这两个文件。
+-   将 DXF 文件插入到已打开的 FreeCAD文 档中可以通过选择**文件→导入**菜单选项或从文件浏览器中将 DXF 文件拖放到 FreeCAD 窗口中来完成。DXF 文件的内容可能不会出现在当前视图的中心，这取决于它们在 DXF 文件中的位置。您可以使用菜单**视图→标准视图→全部适合**来缩放并查找导入的对象。插入这两个 DXF 文件，并将它们移动到桌面上的适当位置：
 
 ![](images/Exercise_cabin_08.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
--   现在使用<img alt="" src=images/Draft_Dimension.png  style="width:16px;"> [Dimension](Draft_Dimension/zh-cn.md) 工具来添加几个尺寸。 绘制尺寸要单击3个点：起点、终点和放置尺寸线的第三个点。即使起点、终点未对齐，在单击第二个点时按住 **Shift** 键，便可以制作水平或垂直尺寸。
--   可以通过双击树视图中的尺寸来更改标注文字的位置。通过控制点，可以用图形方式移动文本。在本练习中，\"0.15\" 文本被移到了尺寸线的外侧，这样更清晰。
--   可以通过编辑其 **Override** 属性来更改标注文本的内容。在本示例中，门和窗口尺寸的文本已经过编辑，指示出了其高度。
-
-
-</div>
+-   现在我们可以使用 <img alt="" src=images/Draft_Dimension.svg  style="width:16px;"> [标注](Draft_Dimension.md) 工具放置一些尺寸标注。标注通过单击 3 个点绘制：起始点、终点和第三个点来放置标注线。即使前两个点没有对齐，也可以按住 **Shift** 键绘制水平或垂直标注。
+-   您可以通过在树视图中双击标注来更改标注文字的位置。控制点将使您可以以图形方式移动文本。在我们的练习中，"0.15" 文字已移开以获得更好的清晰度。
+-   您可以通过编辑它们的 **Override** 属性来更改标注文字的内容。在我们的示例中，已编辑门和窗的标注文字以指示它们的高度：
 
 ![](images/Exercise_cabin_09.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
--   使用 <img alt="" src=images/Draft_Text.png  style="width:16px;"> [Text](Draft_Text/zh-cn.md) 添加一些描述文本。单击一点来定位文本，然后输入文本行。在每行后按 Enter 键，按 Enter 键两次便完成了。
--   将文本链接到它们描述的项目的指示线（也称为 \"leaders\"），只需使用 **Wire** 工具完成。从文本位置开始绘制线到所描述的位置。完成后，可以通过将 **End Arrow** 属性设置为 **True** 来在指示线末尾添加圆点或箭头。
-
-
-</div>
+-   让我们使用 <img alt="" src=images/Draft_Text.svg  style="width:16px;"> [文本](Draft_Text.md) 工具添加一些描述性文本。单击一个点来定位文本，然后输入每行文本，每行结束时按 Enter 键。要结束，请按两次 Enter 键。
+-   将文本与它们描述的项目连接起来的标记线（也称为"引线"）可以使用 Wire 工具完成。从文本位置开始绘制线，到所描述的地方。完成后，您可以通过将它们的 **End Arrow** 属性设置为 **`True`** 来在线的末端添加一个小圆点或箭头。
 
 ![](images/Exercise_cabin_10.jpg )
 
--   这张图纸完成了！由于那里的对象相当多，明智的做法是清理一下，将所有内容重新分到合适的组，以便其他人更容易理解这个文件。
+-   我们的绘图现在已经完成！由于有相当多的对象，因此一个明智的选择是对它们进行一些清理，并将其重新组织成清爽的分组，使文件更易于其他人理解：
 
 ![](images/Exercise_cabin_11.jpg )
 
--   现在将它放在制图图框里，便可以打印我们的工作成果了，这个我们将在本手册的后面部分介绍。或者，将绘图导出到 DXF 文件中，以便将绘图导入其他 CAD 应用程序。只需选中 \"Floor plan\" 组，选择菜单 **File → Export**，然后选中 Autodesk DXF 格式。该文件可以在任何其他 2D CAD 应用程序（如 [LibreCAD](http://www.librecad.org)）中打开。打开后可能会发现一些差异，取决于每个应用程序的配置。
+-   我们现在可以将我们的工作打印到制图图框里，这将稍后在本手册中展示，或通过将其导出为 DXF 文件直接将我们的绘图导出到其他 CAD 应用程序中。只需选择我们的"平面图"组，选择菜单**文件→导出**，并选择 Autodesk DXF 格式。然后可以在任何其他 2D CAD 应用程序（如[LibreCAD](http://www.librecad.org)）中打开该文件。您可能会注意到一些差异，这取决于每个应用程序的配置。
 
 ![](images/Exercise_cabin_12.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
--   然而，使用 Draft 工作台最重要的是要知道，这里创建的几何体可以用作基础，或轻易地拉伸成 3D 对象。你可以使用 [Part 工作台](Part_Workbench/zh-cn.md) 中的<img alt="" src=images/Part_Extrude.png  style="width:16px;">[Part_Extrude](Part_Extrude/zh-cn.md) 工具。或者，留在 Draft 工作台中，用 <img alt="" src=images/Draft_Trimex.png  style="width:16px;"> [Trimex](Draft_Trimex/zh-cn.md) (Trim/Extend/Extrude) 工具。它在面具下执行的是 **Part Extrusion**，但是更符合 \"Draft 方式\"，也就是说，允许用图形的方式指示和捕捉拉伸的长度。尝试一下拉伸本例中做过的墙壁，如下所示。
--   选中对象的一个面后，按下 <img alt="" src=images/Draft_SelectPlane.png  style="width:16px;"> [working plane](Draft_SelectPlane/zh-cn.md) 按钮，可以将工作平面放置在任何位置。因此可以在不同的平面上绘制 Draft 对象，例如在墙面上，之后便可以将它们拉伸成 3D 固体。尝试一下将工作平面设置在墙壁的顶面上，然后就地绘制几个矩形。
-
-
-</div>
+-   然而，Draft工作台最重要的是，您使用它创建的几何图形可以用作基础或轻松地从其中提取 3D 对象，只需使用 [Part 工作台](Part_Workbench.md) 中的 <img alt="" src=images/Part_Extrude.svg  style="width:16px;"> [拉伸](Part_Extrude.md) 工具，或者要来保持在 Draft 工作台中，就使用 <img alt="" src=images/Draft_Trimex.svg  style="width:16px;"> [Trimex](Draft_Trimex.md)（修剪/延伸/拉伸）工具，这会在幕后执行 Part Extrusion，但使用"Draft 方法"执行它，即允许您以图形方式指示并捕捉拉伸长度。尝试按照下面所示的方式拉伸我们的墙壁。
+-   在选择对象的面后，按下 <img alt="" src=images/Draft_SelectPlane.svg  style="width:16px;"> [工作平面](Draft_SelectPlane.md) 按钮，您也可以将工作平面放置在任何位置，并因此在不同的平面上绘制 Draft 对象，例如在墙壁上方。然后可以将它们拉伸以形成其他 3D 实体。尝试将工作平面设置在墙壁顶部面之一上，然后在那里绘制一些矩形。
 
 ![](images/Exercise_cabin_13.jpg )
 
--   在墙面上绘制 Draft 对象，拉伸成实体，然后使用 Part 工作台中的布尔工具从另一个实体中减去它们，便可以轻松完成所有类型的开口，如前一章所述。
+-   同样地，通过在墙壁的面上绘制 Draft 对象，然后将它们拉伸，再使用 Part 工作台中的布尔运算工具从另一个实体中减去它们，可以轻松地完成各种类型的开口，就像我们在前一章中看到的一样。
 
-从根本上说，Draft 工作台所做的，是提供一种图形的方式，来创建基本的 Part 操作。在 Part 工作台中，通常会通过设置其放置参数来定位对象，而在 Draft 工作台中，可以在视窗里执行此操作。有时候这个方式好，有时候另一个方式好。不要忘记，可以在其中一个工作台中创建 [自定义工具栏](Interface_Customization.md)，从另一个工作台中调取工具，充分利用这两个世界的优势资源。
-
-
-<div class="mw-translate-fuzzy">
-
-**下载**
+从根本上说，Draft 工作台所做的就是提供以图形方式创建基本Part操作的方法。在 Part 中，通常会通过设置它们的放置参数来定位对象，而在 Draft 中，您可以在屏幕上完成。有时候一个更好，其他时候另一个更可取。不要忘记，您可以在其中一个工作台中创建 [自定义工具栏](Interface_Customization.md)，添加另一个中的工具，得到两者的优势资源。
 
 
-</div>
+
+## 下载
 
 -   本练习中创建的文件：https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/cabin.FCStd
 -   水槽的 DXF 文件：https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/sink.dxf
@@ -183,31 +112,12 @@ Draft 工作台虽然继承了传统 2D CAD 的工作方式，但并不局限于
 -   本练习中生成的最终DXF文件：https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/cabin.dxf
 
 
-<div class="mw-translate-fuzzy">
 
-**延伸阅读**
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+## 延伸阅读
 
 -   [Draft 工作台](Draft_Workbench/zh-cn.md)
 -   [捕捉](Draft_Snap/zh-cn.md)
 -   [Draft 工作平面](Draft_SelectPlane/zh-cn.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

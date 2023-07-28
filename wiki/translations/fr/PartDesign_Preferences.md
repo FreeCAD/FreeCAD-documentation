@@ -5,9 +5,13 @@
 
 L\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md) et l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md) utilisent les mêmes préférences. Elles se trouvent dans la section <img alt="" src=images/Preferences-part_design.svg  style="width:24px;"> **Part/Part Design** de l\'[éditeur de préférences](Preferences_Editor/fr.md). Cette section ne sera disponible que si l\'un des ateliers a été chargé dans la session FreeCAD en cours.
 
+
+
 ## Préférences disponibles 
 
 Il y a quatre onglets : Général, Vue de la forme, Aspect de la forme et Mesure.
+
+
 
 ### Général
 
@@ -31,6 +35,8 @@ Dans l\'onglet *Général*, vous pouvez spécifier les éléments suivants:
 
 ![](images/Preferences_Part_design_Tab_General.png )
 
+
+
 ### Vue de la forme 
 
 Dans l\'onglet *Vue de la forme*, vous pouvez spécifier les éléments suivants:
@@ -49,6 +55,8 @@ Dans l\'onglet *Vue de la forme*, vous pouvez spécifier les éléments suivants
 
 ![](images/Preferences_Part_design_Tab_Shape_view.png )
 
+
+
 ### Aspect de la forme 
 
 Dans l\'onglet *Aspect de la forme*, vous pouvez spécifier les éléments suivants:
@@ -60,7 +68,7 @@ Dans l\'onglet *Aspect de la forme*, vous pouvez spécifier les éléments suiva
 | **Couleur de la forme**            |                                                                                                                                                                                                                                                                             |
 |                                             |                                                                                                                                                                                                                                                                             |
 +++
-|                                 | Transparence pour les nouvelles formes {{Version/fr|1.0}}.                                                                                                                                                                                                    |
+|                                 | Transparence pour les nouvelles formes {{Version/fr|0.21}}.                                                                                                                                                                                                   |
 | **Transparence des formes**        |                                                                                                                                                                                                                                                                             |
 |                                             |                                                                                                                                                                                                                                                                             |
 +++
@@ -97,11 +105,13 @@ Dans l\'onglet *Aspect de la forme*, vous pouvez spécifier les éléments suiva
 
 ![](images/Preferences_Part_design_Tab_Shape_appearance.png )
 
+
+
 ### Mesure
 
 Ces préférences contrôlent l\'apparence des mesures créées avec les [outils Mesure](PartDesign_Preferences/fr#Mesure.md) disponibles dans l\'[atelier Part ](Part_Workbench/fr.md) et l\'[atelier PartDesign](PartDesign_Workbench/fr.md).
 
-Dans l\'onglet *Mesure* ({{Version/fr|1.0}}), vous pouvez spécifier les éléments suivants :
+Dans l\'onglet *Mesure* ({{Version/fr|0.21}}), vous pouvez spécifier les éléments suivants :
 
 +++
 | Nom                                          | Description                                                                |
@@ -140,6 +150,8 @@ Dans l\'onglet *Mesure* ({{Version/fr|1.0}}), vous pouvez spécifier les éléme
 +++
 
 ![](images/Preferences_Part_design_Tab_Measure.png )
+
+
 
 ## Tesselation
 

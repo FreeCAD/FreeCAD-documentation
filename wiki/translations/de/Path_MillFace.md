@@ -1,17 +1,14 @@
 ---
 - GuiCommand:/de
-   Name:Path Face
-   Name/de:Pfad Fläche
+   Name:Path MillFace
+   Name/de:Pfad Fräsfläche
    MenuLocation:Pfad → Fläche
    Workbenches:[Pfad](Path_Workbench/de.md)
-|Shortcut
-   SeeAlso:
 ---
 
 # Path MillFace/de
 
 
-</div>
 
 ## Beschreibung
 
@@ -24,6 +21,8 @@ The <img alt="" src=images/Path_MillFace.svg  style="width:24px;"> [Mill Face](P
 This operation contains a **BoundaryShape** property that allows for a modified selection area based upon the selected face(s).
 
 <img alt="Sample image of Mill Face operation used to prepare stock surface for subsequent clearing operation." src=images/MillFace_Sample.png  style="width:600px;">
+
+
 
 ## Anwendung
 
@@ -40,16 +39,22 @@ This operation contains a **BoundaryShape** property that allows for a modified 
 
 -   Since the path tools work on the geometry of the selected edges/faces only, and do not relate to the rest of the 3D model, the paths will not go beyond the bounds of the chosen plane, even if it is surrounded by unused stock or air. This will leave unmachined corners. These can sometimes removed with one of the dress-up tools to be found on the *Path* menu.
 
+
+
 ## Vertikalflächenfräsen
 
--   This tool will not work on a **vertical plane** or vertical non planar surface. Vertical operations can be achieved by using the face profile tool or edge profile tool. These will need the selection of a face or closed loop of edges *including the top or bottom edge of the vertical surface desired*). The extent of the path can then be reduced using the *Boundary Dress-up* tool to be found on the *Path* menu. With the Dress-up tool select *Create Box* option and reduce the size to limit the scope of the profile path. These settings will not allow the origin of the boundary box to be moved, however. This must be done by adjusting the Placement settings in the [tree view](Tree_view.md).
+-   This tool will not work on a **vertical plane** or vertical non planar surface. Vertical operations can be achieved by using the [face profile](Path_Profile.md) tool or [edge profile](Path_Profile.md) tool. These will need the selection of a face or closed loop of edges *including the top or bottom edge of the vertical surface desired*). The extent of the path can then be reduced using the [Boundary Dress-up](Path_DressupPathBoundary.md) tool to be found on the *Path* menu. With the Dress-up tool, select *Create Box* option and reduce the size to limit the scope of the profile path. These settings will not allow the origin of the boundary box to be moved, however. This must be done by adjusting the Placement settings in the [tree view](Tree_view.md).
 -   This will work on compound surfaces such as several vertical planes or cylindrical surfaces joined together, so long as they form one continuous surface.
 
-## Options
+
+
+## Optionen
 
 Empty
 
-## Properties
+
+
+## Eigenschaften
 
 ***Note***: The names of some Properties in this list differ a little from the same settings used in the Task Window Editor.
 
@@ -60,7 +65,7 @@ Empty
 
 Note: It is suggested that you do not edit the Placement property of path operations. Rather, move or rotate the Path Job model as needed.
 
--    **Placement**: Overall placement\[position and rotation\] of the object - with respect to the origin (or origin of parent object container)
+-    **Placement**: Overall placement \[position and rotation\] of the object - with respect to the origin (or origin of parent object container)
 
     -   
         **Angle**
@@ -70,42 +75,42 @@ Note: It is suggested that you do not edit the Placement property of path operat
     -   
         **Axis**
         
-        : Axis(one or multiple) around which to rotate the object, set in sub-properties: x, y, z
+        : Axis (one or multiple) around which to rotate the object, set in sub-properties: X, Y, Z
 
         -   
             **X**
             
-            : x axis value
+            : X axis value
 
         -   
             **Y**
             
-            : y axis value
+            : Y axis value
 
         -   
             **Z**
             
-            : z axis value
+            : Z axis value
 
     -   
         **Position**
         
-        : Position of the object, set in sub-properties: x, y, z - with respect to the origin (or origin of parent object container)
+        : Position of the object, set in sub-properties: X, Y, Z - with respect to the origin (or origin of parent object container)
 
         -   
             **X**
             
-            : x distance value
+            : X distance value
 
         -   
             **Y**
             
-            : y distance value
+            : Y distance value
 
         -   
             **Z**
             
-            : z distance value
+            : Z distance value
 
 -    **Label**: User-provided name of the object (UTF-8)
 
@@ -138,7 +143,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 {{TitleProperty|Path}}
 
--    **Active**: make False, to prevent operation from generating code
+-    **Active**: Make False, to prevent operation from generating code
 
 -    **Base**: The base geometry for this operation
 
@@ -192,17 +197,17 @@ Note: It is suggested that you do not edit the Placement property of path operat
     -   
         **X**
         
-        : x distance value
+        : X distance value
 
     -   
         **Y**
         
-        : y distance value
+        : Y distance value
 
     -   
         **Z**
         
-        : z distance value
+        : Z distance value
 
 -    **Use Start Point**: Make True, if manually specifying a Start Point. Set the start point in the property data Start Point field.
 

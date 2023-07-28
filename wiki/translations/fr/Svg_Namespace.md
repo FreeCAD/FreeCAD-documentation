@@ -1,10 +1,12 @@
 # Svg Namespace/fr
-**Le développement de l'[atelier Mise en plan](Drawing_Workbench/fr.md) s'est arrêté, et un nouvel atelier [Techdraw](TechDraw_Workbench/fr.md) visant à le remplacer sera introduit dans la version 0.17. Les deux ateliers seront fournis dans la version v0.17, mais l'atelier Mise en plan peut être supprimé dans les versions ultérieures.**
+**Le développement de l'[atelier Drawing](Drawing_Workbench/fr.md) s'est arrêté, et un nouvel atelier [Techdraw](TechDraw_Workbench/fr.md) visant à le remplacer sera introduit dans la version 0.17. Les deux ateliers seront fournis dans la version v0.17, mais l'atelier Mise en plan peut être supprimé dans les versions ultérieures.**
 
 
 {{TOCright}}
 
 Dans les documents [SVG](https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics) exportés par l\'[atelier Drawing](Drawing_Workbench/fr.md) de FreeCAD et utilisés comme des pages [modèles](Drawing_templates.md), plusieurs [attributs](http://www.w3schools.com/xml/xml_attributes.asp) personnalisés peuvent être utilisés, à l\'origine pour l\'usage interne de FreeCAD, mais pourraient également être utilisés par d\'autres applications compatibles avec FreeCAD dans le futur. Ces attributs utilisent tous le préfixe **freecad:** [namespace](http://www.w3schools.com/xml/xml_namespaces.asp). L\'URL de l\'espace de nom défini dans ces documents SVG fait référence à cette page.
+
+
 
 ## Utilisation
 
@@ -42,7 +44,11 @@ viewBox="0 0 xxx yyy"
 
 Les informations complémentaires pour l\'espace de travail et le bloc du titre peuvent être ajoutées et sont définies sur la page [Drawing Modèles](Drawing_templates/fr.md).
 
+
+
 ## Attributs
+
+
 
 ### [freecad:EditableText](#Exemple_de_code_freecad_EditableText.md)
 
@@ -85,9 +91,13 @@ Définit le point d\'un objet [Draft Dimension](Draft_Dimension/fr.md) par leque
 
 Exemple: voir [freecad:basepoint1](#freecad_basepoint1.md)
 
+
+
 ### Exemple de code freecad:EditableText 
 
 Cet exemple provient du cartouche de la feuille [A3 Paysage](Misc_templates/fr#A3_paysage_texte_US_complet_avec_convention_US.md)
+
+
 
 #### 1 : Titre sans textedit 
 
@@ -107,6 +117,8 @@ Cet exemple provient du cartouche de la feuille [A3 Paysage](Misc_templates/fr#A
          x="220.8476"
          id="tspan3484"
          sodipodi:role="line">AUTHOR NAME :</tspan></text>
+
+
 
 
 #### 2 : Titre avec textedit 
@@ -137,6 +149,8 @@ Cet exemple provient du cartouche de la feuille [A3 Paysage](Misc_templates/fr#A
     ... </text>
   
   </g>
+
+
 
 
 #### Explications
@@ -211,6 +225,8 @@ Exemple:
 
 -   **editable** = \"AuthorName\"
 -   replacer par **freecad:editable** = \"AuthorName\"
+
+
 
 ## Autres attributs disponibles 
 

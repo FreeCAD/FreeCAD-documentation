@@ -1,27 +1,35 @@
 ---
 - GuiCommand:/ru
-   Name:Std ViewIvStereoInterleavedColumns
-   Name/ru:Std ViewIvStereoInterleavedColumns
-   MenuLocation:Вид → Стерео → View → Стерео с чередованием столбцов
-   Workbenches:All
-   SeeAlso:[Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen/ru.md), [Std ViewIvStereoQuadBuff](Std_ViewIvStereoQuadBuff/ru.md), [Std ViewIvStereoInterleavedRows](Std_ViewIvStereoInterleavedRows/ru.md), [Std ViewIvStereoOff](Std_ViewIvStereoOff/ru.md)
+   Name/ru:Стерео с чередованием столбцов
+   Name:Std_ViewIvStereoInterleavedColumns
+   MenuLocation:Вид → Стерео → Stereo interleaved Columns
+   Workbenches:Все
+   SeeAlso:[Стерео красный/голубой](Std_ViewIvStereoRedGreen/ru.md), [Четверная буферизация стерео](Std_ViewIvStereoQuadBuff/ru.md), [Стерео с чередованием строк](Std_ViewIvStereoInterleavedRows/ru.md), [Выключить стерео](Std_ViewIvStereoOff/ru.md)
 ---
 
 # Std ViewIvStereoInterleavedColumns/ru
+
+
 
 ## Описание
 
 The **Std ViewIvStereoInterleavedColumns** command changes the active [3D view](3D_view.md) to interleaved columns stereo view mode. To use this stereo mode a special graphics card, a special display and [glasses with polarized lenses](https://en.wikipedia.org/wiki/Polarized_3D_system) are requires.
 
+
+
 ## Применение
 
 1.  Select the **View → Stereo → <img src="images/Std_ViewIvStereoInterleavedColumns.svg" width=16px> Stereo interleaved Columns** option from the menu.
+
+
 
 ## Настройки
 
 -   Расстояние между глаз может быть изменено в настройках: **Правка → Настройки... → Отображение → Трёхмерный вид → Расстояние между глаз для стерео режима**. Смотри [Редактор настроек](Preferences_Editor/ru#3D_View.md).
 
-## Scripting
+
+
+## Программирование
 
 
 **Смотрите так же:**

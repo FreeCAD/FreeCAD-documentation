@@ -13,20 +13,28 @@
 
 
 
+
+
 ## Einleitung
 
 Dieses Tutorium soll dem Leser den grundlegenden Arbeitsablauf des Arbeitsbereichs FEM sowie die meisten Werkzeuge vorstellen, die zur Durchführung einer statischen Analyse zur Verfügung stehen.
 
 <img alt="" src=images/FEM_tutorial_result.png  style="width:600px;">
 
+
+
 ## Voraussetzungen
 
 -   FreeCAD Version 0.17 oder höher.
--   [Netgen](http://sourceforge.net/projects/netgen-mesher/) und [GMSH](http://geuz.org/gmsh/) sind auf dem System installiert (in der FreeCAD-Installation enthalten).
+-   [Netgen](http://sourceforge.net/projects/netgen-mesher/) und/oder [GMSH](http://geuz.org/gmsh/) ist auf dem System installiert (in der FreeCAD-Installation enthalten).
 -   [Calculix](http://www.calculix.de/) ist auf dem System installiert (in der FreeCAD-Installation enthalten).
--   Der Leser verfügt über Grundkenntnisse zur Verwendung der Arbeitsbereiche [Part](Part_Workbench/de.md) und [PartDesign](PartDesign_Workbench/de.md).
+-   Der Leser verfügt über Grundkenntnisse in der Anwendung der Arbeitsbereiche [Part](Part_Workbench/de.md) und [PartDesign](PartDesign_Workbench/de.md).
+
+
 
 ## Ablauf
+
+
 
 ### Modellieren
 
@@ -42,10 +50,14 @@ In diesem Beispiel wird ein Würfel als Studienobjekt verwendet, aber stattdesse
 
 Wir haben nun ein Modell, mit dem wir arbeiten können.
 
+
+
 ### Analyse erstellen 
 
 1.  Den Arbeitsbereich <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM](FEM_Workbench.md) aktivieren.
 2.  Den Menüeintrag **Modell → <img src="images/FEM_Analysis.svg" width=16px> Analyse-Container‏‎** auswählen.
+
+
 
 ### Randbedingungen und Kräfte 
 
@@ -60,14 +72,20 @@ Wir haben nun ein Modell, mit dem wir arbeiten können.
 
 Wir haben jetzt die Lagerstellen und Kräfte für unsere statische Studie festgelegt.
 
+
+
 ### Material
 
 1.  <img alt="" src=images/FEM_MaterialSolid.svg  style="width:24px;"> [Material für Feststoffe](FEM_MaterialSolid/de.md) auswählen und Calculix-Steel als Material auswählen.
 2.  Auf **OK** klicken.
 
+
+
 ### Netzerstellung
 
 Es wird empfohlen, das Erstellen eines Netzes als letzten Schritt der Analysevorbereitung auszuführen, da dies im Zusammenhang mit einer Geometrie in FreeCAD steht. Abhängig von der FreeCAD-Installation, können Die Vernetzugswerkzeuge Netgen oder GMSH vorhanden sein; beide können verwendet werden.
+
+
 
 #### Netgen
 
@@ -77,6 +95,8 @@ Es wird empfohlen, das Erstellen eines Netzes als letzten Schritt der Analysevor
 
 Man kann auch ein Netz auf eine mechanische Anylyse ziehen und ablegen, die noch kein Netz in der [Baumansicht](Tree_view/de.md) enthält.
 
+
+
 #### GMSH
 
 1.  Model auswählen.
@@ -85,7 +105,11 @@ Man kann auch ein Netz auf eine mechanische Anylyse ziehen und ablegen, die noch
 
 Wir haben unser Objekt nun vernetzt und sind bereit, Randbedingungen und Kräfte hinzuzufügen.
 
+
+
 ### Berechnung
+
+
 
 #### Standardablauf
 
@@ -95,10 +119,14 @@ Wir haben unser Objekt nun vernetzt und sind bereit, Randbedingungen und Kräfte
 4.  **CalculiX ausführen** auswählen.
 5.  Die Schaltfläche **Schließen** drücken.
 
+
+
 #### Schneller Ablauf 
 
 1.  Das Löserobjekt <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> auswählen, das sich im **Analysis**-Container befindet.
 2.  Auf <img alt="" src=images/FEM_SolverRun.svg  style="width:24px;"> [Run solver calculations](FEM_SolverRun/de.md) klicken.
+
+
 
 ### Ergebnisse analysieren 
 
@@ -114,9 +142,11 @@ Wir haben unser Objekt nun vernetzt und sind bereit, Randbedingungen und Kräfte
 Wir sind nun mit dem grundlegenden Arbeitsablauf für den Arbeitsbereich [FEM](FEM_Workbench/de.md) fertig.
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM tutorial/de

@@ -19,6 +19,8 @@ Ce tutoriel devrait servir d\'introduction à [Part Ancrage](Part_EditAttachment
 
 Ancrage est un utilitaire pour attacher un objet à un autre. Cela lie les propriétés de placement des deux objets, l\'objet ancré suivra alors l\'original (si son placement est modifié.) L\'accent est mis sur l\'atelier Part Design et l\'ancrage d\'esquisses à d\'autres esquisses. Il s\'agit d\'une méthode recommandée pour créer des modèles [*stables*](Feature_editing/fr#Conseils_pour_la_cr.C3.A9ation_de_mod.C3.A8les_robustes.md). Écrit pour la V0.19, mais devrait être valide pour toute version V0.17 et ultérieure. Cependant, les choses peuvent différer dans certains détails. Le modèle original a été conçu par Md. Aminul Islam et téléchargé à partir d\'ici : <https://grabcad.com/library/50-cad-exercise-drawing-1>
 
+
+
 ## Prérequis
 
 Avant de démarrer ce tutoriel l\'utilisateur doit :
@@ -29,11 +31,15 @@ Avant de démarrer ce tutoriel l\'utilisateur doit :
 4.  Avoir une connaissance de base de l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Atelier PartDesign](PartDesign_Workbench/fr.md).
 5.  Avoir une connaissance de base des [Expressions](Expressions/fr.md).
 
+
+
 ## Objectifs
 
 Le but de ce tutoriel est de montrer comment un modèle peut être construit en positionnant des esquisses par rapport à d\'autres géométries à l\'aide de certains des différents modes d\'ancrage disponibles.
 
 Bien qu\'il soit possible d\'utiliser la géométrie solide (sommets, arêtes et faces) pour la géométrie de référence, dans l\'intérêt de ce qui est considéré comme une bonne pratique, ce tutoriel s\'abstiendra de le faire. Voir [Édition de fonctions](Feature_editing/fr.md) pour plus d\'explications.
+
+
 
 ## Préliminaires
 
@@ -51,9 +57,11 @@ Nous pourrions faire une esquisse sur n\'importe lequel des grands plans. Nous p
 
 ![centre\|L\'axe commun](images/CommonAxis.png )
 
+
+
 ## Ancrage
 
-Nous allons commencer avec un bloc et couper l\'excédent.
+Nous commencerons par un bloc et nous enlèverons l\'excédent à l\'aide d\'une cavité.
 
 Basculez vers l\'atelier Part Design, ouvrez un nouveau document, créez un corps et une nouvelle esquisse sur le plan XY.
 
@@ -66,6 +74,8 @@ Sélectionner l\'esquisse, presser le bouton **F2** et le renommer \"BaseSketch\
 ![centre\|L\'esquisse de base](images/Sketch1.png )
 
 [En haut](#top.md)
+
+
 
 ### Décalage de l\'ancrage 
 
@@ -95,6 +105,8 @@ Il devrait rester deux degrés de liberté, à savoir la position par rapport à
 
 [En haut](#top.md)
 
+
+
 ### Changer l\'ancrage 
 
 Fermez l\'esquisse. Renommez l\'esquisse en l\'appelant \'IsoscelesSketch\'. L\'origine de l\'esquisse est le point qui sera attaché dans le futur. Il est donc important de choisir comment l\'esquisse est contrainte à l\'origine. L\'origine peut être considérée comme un crochet qui s\'ancre à la référence. Nous pouvons ajuster la position de l\'esquisse à l\'aide de décalages, mais il est préférable de faire un choix judicieux dès le départ.
@@ -121,7 +133,7 @@ Maintenant on voit l\'ancrage où l\'esquisse a été créée (dans la boîte de
 
 Le bouton **Référence 1** est en mode sélection, donc dans la vue 3D, sélectionnez l\'un des côtés longs de l\'esquisse de base.
 
-L\'IsocelesSketch s\'attachera à la ligne que vous avez sélectionnée et la fenêtre du mode d\'ancrage changera pour refléter les modes disponibles.
+L\'IsoscelesSketch s\'attachera à la ligne que vous avez sélectionnée, et la fenêtre du mode d\'attachement changera pour refléter les modes disponibles. Si le triangle pointe dans le mauvais sens, vous pouvez le corriger en cochant la case \"Inverser les côtés\" au bas de la boîte de dialogue (ou plus tard, après avoir fermé la boîte de dialogue, vous pouvez le modifier dans l\'onglet de données des propriétés en réglant \"Map Reversed\" à \"True\").
 
 ![centre\|Normale à l\'arête isocèle](images/NormalToEdgeIsosceles.png )
 
@@ -150,6 +162,8 @@ Vous pouvez maintenant [découper](PartDesign_Pocket/fr.md) l\'esquisse.
 ![centre\|Découpe](images/Pocket.png )
 
 [En haut](#top.md)
+
+
 
 ### Un pas plus loin 
 
@@ -186,6 +200,8 @@ Vous pouvez maintenant effectuer une opération de poche sur l\'esquisse. Cette 
 ![centre\|2ème poche](images/2ndPocket.png )
 
 [En haut](#top.md)
+
+
 
 ### Manipulation de l\'ancrage 
 
@@ -233,6 +249,8 @@ Alors validons et fermons le dialogue pour l\'instant.
 
 [En haut](#top.md)
 
+
+
 ### Paramètre Map Path 
 
 Sélectionnez FinalSketch et regardez dans la vue combinée, le volet des propriétés dans la section attachment, juste en dessous de la propriété Map Mode se trouve le paramètre Map Path.
@@ -250,6 +268,8 @@ Vous pouvez maintenant effectuer une opération de poche sur l\'esquisse. N\'oub
 ![centre\|3ème poche](images/3rdPocket.png )
 
 [En haut](#top.md)
+
+
 
 ### Un mode de sélection différent 
 
@@ -279,6 +299,8 @@ Confirmez et fermez la boîte de dialogue. Nous pouvons maintenant utiliser le p
 
 [En haut](#top.md)
 
+
+
 ### Ancrage temporaire à un plan généré 
 
 Parfois, il est difficile de déterminer comment aligner l\'esquisse ou le plan de référence sur la face générée sans réellement s\'y attacher, ce qui, comme indiqué ci-dessus, peut être problématique. Une solution consiste à attacher à la géométrie générée, puis à modifier l\'ancrage à l\'un des plans de coordonnées. FreeCAD conservera intactes la position et l\'orientation existantes mais la référencera désormais à des plans stables, évitant ainsi les problèmes de renommage topologique. Cependant, le coût de cette opération est que le lien paramétrique avec la géométrie générée est perdu. Si le modèle sous-jacent est modifié, tout ne s\'effondrera pas comme cela arrive souvent lors de l\'ancrage à la géométrie générée mais l\'ancrage ne suivra pas les changements et devra être ajusté en répétant l\'astuce d\'ancrage temporaire.
@@ -298,9 +320,9 @@ Happy Attaching!
 [En haut](#top.md)
 
 
-{{Tutorials_navi
+{{PartDesign_Tools_navi
 
-}} {{PartDesign_Tools_navi}} {{Sketcher_Tools_navi}}
+}} {{Sketcher_Tools_navi}}
 
 
 

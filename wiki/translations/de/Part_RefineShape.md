@@ -31,7 +31,7 @@ Nach bestimmten booleschen Operationen, wie [Part Vereinigen](Part_Fuse/de.md), 
 2.  Den Menüeintrag **Part → Kopie erstellen → <img src="images/Part_RefineShape.svg" width=16px> Form aufbereiten** auswählen.
 3.  Eine bereinigte, unabhängige Kopie des Originalobjekts wird erstellt; das Originalobjekt wird ausgeblendet.
 
-Ab <small>(v0.19)</small>  ist das Ergebnis standardmäßig eine parametrische (verknüpfte) Kopie.
+Ab {{VersionPlus/de|0.19}} ist das Ergebnis standardmäßig eine parametrische (verknüpfte) Kopie.
 
 Dieses Verhalten kann im <img alt="" src=images/Std_DlgParameter.svg  style="width:24px;"> [Parametereditor](Std_DlgParameter/de.md) geändert werden:
 
@@ -48,15 +48,16 @@ Siehe weitere Parameter unter [Feinabstimmung](Fine-tuning/de.md).
 -   Diese Funktion kann helfen, das Modell zu bereinigen, bevor andere Funktionen wie z.B. ein [Part Verrundung](Part_Fillet/de.md) angewendet werden.
 -   Diese Bereinigung kann 3D Drucker davon abhalten, unerwünschte Kanten zu drucken, sobald das Volumenmodell in ein Mesh Format exportiert wird.
 -   Diese Funktion kann auch nach der Umwandlung eines Netzes in eine Form ([ShapeFromMesh](Part_ShapeFromMesh/de.md)) verwendet werden, um die Restkanten auf ebenen Flächen zu bereinigen.
+-   Einige interessante Informationen darüber, was mit Positionierungen passiert und wie man mit Python auf sie zugreift, findet man in diesem [Forum-Post](https://forum.freecad.org/viewtopic.php?t=77568#p675456).
 
 
 
 ## Einschränkungen
 
 -   Der Verfeinerungsalgorithmus funktioniert nur bei Schalen. Daher iteriert er über die Schalen der Eingabeform und erzeugt dann für jede Schale eine neue Schale mit verbundenen Flächen, wo immer möglich. Das bedeutet, dass der Algorithmus nichts tut, wenn Ihre Eingabeform nur eine Fläche, ein Draht, eine Kante oder ein Knoten ist.
--   Im Gegensatz zum <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width:24px;"> [OpenSCAD RefineShapeFeature](OpenSCAD_RefineShapeFeature.md) Befehl
+-   Im Gegensatz zum <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width:24px;"> [OpenSCAD RefineShapeFeature](OpenSCAD_RefineShapeFeature.md)-Anweisung
 
-<img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Part FormVerfeinern](Part_RefineShape/de.md) wird nicht aktualisiert, wenn die vorhergehenden Formen geändert werden.
+<img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Part_FormAufbereiten](Part_RefineShape/de.md) wird nicht aktualisiert, wenn die vorhergehenden Formen geändert werden.
 
 
 

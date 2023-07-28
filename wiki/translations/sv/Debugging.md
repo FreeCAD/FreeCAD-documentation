@@ -2,6 +2,8 @@
 {{TOCright}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Testa först 
@@ -12,6 +14,8 @@ Innan du går igenom avbuggningssmärtan, använd testramverket för att kontrol
 </div>
 
 Before you go through the pain of debugging use the [Test framework](Testing.md) to check if the standard tests work properly. If they do not run complete there is possibly a broken installation.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -42,7 +46,7 @@ Generic options:
 Configuration:
 
  -l [ --write-log ]        Writes a log file to:
-                           $HOME/.FreeCAD/FreeCAD.log (Linux)
+                           $HOME/.local/share/FreeCAD/FreeCAD.log (Linux)
                            $HOME/Library/Application\ Support/FreeCAD/FreeCAD.log (macOS)
                            %APPDATA%\FreeCAD\FreeCAD.log (Windows)
  --log-file arg            Unlike to --write-log this allows to log to an 

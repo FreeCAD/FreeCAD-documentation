@@ -1,10 +1,10 @@
 ---
 - GuiCommand:/ru
-   Name:Std ViewIvStereoRedGreen
-   Name/ru:Std ViewIvStereoRedGreen
+   Name/ru:Стерео красный/голубой
+   Name:Std_ViewIvStereoRedGreen
    MenuLocation:Вид → Стерео → Стерео красный/голубой
-   Workbenches:All
-   SeeAlso:[Std ViewIvStereoQuadBuff](Std_ViewIvStereoQuadBuff/ru.md), [Std ViewIvStereoInterleavedRows](Std_ViewIvStereoInterleavedRows/ru.md), [Std ViewIvStereoInterleavedColumns](Std_ViewIvStereoInterleavedColumns/ru.md), [Std ViewIvStereoOff](Std_ViewIvStereoOff/ru.md)
+   Workbenches:Все
+   SeeAlso:[Четверная буферизация стерео](Std_ViewIvStereoQuadBuff/ru.md), [Стерео с чередованием строк](Std_ViewIvStereoInterleavedRows/ru.md), [Стерео с чередованием столбцов](Std_ViewIvStereoInterleavedColumns/ru.md), [Выключить стерео](Std_ViewIvStereoOff/ru.md)
 ---
 
 # Std ViewIvStereoRedGreen/ru
@@ -27,7 +27,9 @@ The **Std ViewIvStereoRedGreen** command changes the active [3D view](3D_view.md
 
 -   Расстояние между глаз может быть изменено в настройках: **Правка → Настройки... → Отображение → Трёхмерный вид → Расстояние между глаз для стерео режима**. Смотри [Редактор настроек](Preferences_Editor/ru#3D_View.md).
 
-## Scripting
+
+
+## Программирование
 
 
 **Смотрите так же:**

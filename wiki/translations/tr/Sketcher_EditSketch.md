@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Tanım
 
 
@@ -20,6 +22,8 @@ Bu komut, varolan bir eskizi düzenlemenizi sağlar.
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -40,7 +44,7 @@ Bu komut, varolan bir eskizi düzenlemenizi sağlar.
 
 ## Notes
 
--   Choosing [Leave Sketch](Sketcher_LeaveSketch.md) will terminate the edit mode.
+-   Choosing [Sketcher LeaveSketch](Sketcher_LeaveSketch.md) will terminate the edit mode.
 
 
 <div class="mw-translate-fuzzy">

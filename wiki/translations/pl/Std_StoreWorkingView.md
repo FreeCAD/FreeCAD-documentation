@@ -1,36 +1,43 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std StoreWorkingView
-   MenuLocation:View → Standard views → Store working view
-   Workbenches:All
-   Shortcut:**Shift**+**End**
-   Version:1.0
-   SeeAlso:[Std RecallWorkingView](Std_RecallWorkingView.md), [Std FreezeViews](Std_FreezeViews.md)
+   Name/pl:Std: Zachowaj widok
+   MenuLocation:Widok → Widoki standardowe → Przechowaj widok roboczy
+   Workbenches:wszystkie
+   Shortcut:**Shift** + **End**
+   Version:0.21
+   SeeAlso:[Odtwórz widok](Std_RecallWorkingView/pl.md), [Zamroź widok](Std_FreezeViews/pl.md)
 ---
 
 # Std StoreWorkingView/pl
 
-## Description
-
-The **Std StoreWorkingView** command stores the camera settings of the active [3D view](3D_view.md) in its temporary working view. This view can be recalled with the [Std RecallWorkingView](Std_RecallWorkingView.md) command.
-
-Each 3D view has its own working view. Storing a new working view will overwrite the existing working view of the active 3D view. When a 3D view is closed its working view is lost.
-
-## Usage
-
-1.  Make sure a [3D view](3D_view.md) is active.
-2.  There are several ways to invoke the command:
-    -   Select the **View → Standard views → Store working view** option from the menu.
-    -   Use the keyboard shortcut: **Shift**+**End**.
-
-## Scripting
 
 
-**See also:**
+## Opis
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Polecenie **Przechowaj widok roboczy** zapisuje ustawienia ujęcia widoku aktywnego okna [widoku 3D](3D_view/pl.md) w tymczasowym widoku roboczym. Widok ten można przywołać za pomocą polecenia [Odtwórz widok](Std_RecallWorkingView/pl.md).
 
-To store the current camera settings of the active 3D view in a working view:
+Każdy widok 3D ma swój własny widok roboczy. Zapisanie nowego widoku roboczego spowoduje zastąpienie istniejącego widoku roboczego aktywnego okna widoku 3D. Po zamknięciu widoku 3D jego widok roboczy zostaje utracony.
+
+
+
+## Użycie
+
+1.  Upewnij się, że okno [widoku 3D](3D_view/pl.md) jest aktywne.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Wybierz z menu opcję **Widok → Widoki standardowe → Przechowaj widok roboczy**.
+    -   Użyj skrótu klawiaturowego: **Shift** + **End**.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
+
+Zapisywanie bieżących ustawień ujęcia widoku aktywnego okna widoku 3D w widoku roboczym:
 
 
 ```python

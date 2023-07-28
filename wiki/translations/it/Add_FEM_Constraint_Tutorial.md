@@ -18,7 +18,9 @@
 
 In questo tutorial aggiungeremo a FreeCAD il vincolo di velocità del flusso e implementeremo il supporto per il risolutore Elmer. Prima di leggere questo tutorial è necessario aver letto e compreso il tutorial [ Estendere il modulo FEM](Extend_FEM_Module/it.md).
 
-This tutorial only covers how to implement constraints in python. In contrast to solver and equations constraints follow the classic FEM module structure. That is, all modules of a constraint have there place in either the {{Incode|femobjects}} or {{Incode|femviewprovider}} package.
+This tutorial only covers how to implement constraints in python. In contrast to solver and equations constraints follow the classic FEM module structure. That is, all modules of a constraint have their place in either the {{Incode|femobjects}} or {{Incode|femviewprovider}} package.
+
+
 
 ## Sommario
 

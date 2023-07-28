@@ -1,35 +1,37 @@
 # Sphinx/pl
-## Introduction
+## Wprowadzenie
 
-[Sphinx](Sphinx.md) is a documentation system similar to [Doxygen](Doxygen.md), designed primarily to document [Python](Python.md) code. With the use of [\"Breathe\"](https://github.com/michaeljones/breathe) it can also be used to parse C++ code, so it can be used in projects that mix C++ and Python.
+**Sphinx** jest systemem dokumentacji podobnym do [Doxygen](Doxygen/pl.md), zaprojektowanym głównie do dokumentowania kodu [Python](Python.md). Dzięki użyciu [\"Breathe\"](https://github.com/michaeljones/breathe) może być również używany do analizowania kodu C++, więc może być używany w projektach łączących C++ i Python.
 
-Visit the [Sphinx](https://www.sphinx-doc.org/en/master/) website to learn more about the system, and consult the [Sphinx manual](https://www.sphinx-doc.org/en/master/contents.html) for the full information.
+Odwiedź stronę domową [Sphinx](https://www.sphinx-doc.org/en/master/), aby dowiedzieć się więcej o systemie i zapoznaj się z [Podręcznikiem Sphinx](https://www.sphinx-doc.org/en/master/contents.html), aby uzyskać pełne informacje.
 
-## Sphinx and FreeCAD 
 
-This document gives a brief introduction to Sphinx, in particular how it is used in FreeCAD to document its sources. Visit the [source documentation](source_documentation.md) page for instructions on building the FreeCAD documentation, which is also hosted online on the [FreeCAD API website](https://www.freecadweb.org/api/).
+
+## Sphinx i FreeCAD 
+
+Niniejszy dokument zawiera krótkie wprowadzenie do Sphinx, w szczególności w jaki sposób jest on używany w FreeCAD do dokumentowania jego źródeł. Odwiedź stronę [Dokumentacja źródeł](Source_documentation/pl.md), aby uzyskać instrukcje dotyczące tworzenia dokumentacji FreeCAD, która jest również dostępna online na witrynie [FreeCAD API](https://www.freecadweb.org/api/).
 
 <img alt="" src=images/FreeCAD_sphinx_workflow.svg  style="width:800px;">
 
 
 
-*General workflow to produce source code documentation with Sphinx. (Editor's note: update this image)*
+*Ogólny proces tworzenia dokumentacji kodu źródłowego za pomocą oprogramowania Sphinx.*
 
-## Sphinx and FreeCAD Preview 
+## Sphinx i FreeCAD zapowiedź 
 
-Encouraging results from David_D:
+Zachęcające wyniki od David_D:
 
--   [FreeCAD Forum Post](https://forum.freecadweb.org/viewtopic.php?p=411563#p411563)
--   GitHub Repo - <https://github.com/DavidDaish/freecad_sphinx_docs>
+-   [wątek na forum FreeCAD](https://forum.freecadweb.org/viewtopic.php?p=411563#p411563)
+-   repozytorium GitHub - <https://github.com/DavidDaish/freecad_sphinx_docs>
 
 ![](images/Freecad-sphinx-docs-preview.png )
 
-## FreeCAD Forum Discussion 
+## Dyskusja na forum FreeCAD 
 
--   [This is now a thread about documentation](https://forum.freecadweb.org/viewtopic.php?f=23&t=44612#p381168)
--   [Documenting Python Extensions](https://forum.freecadweb.org/viewtopic.php?f=22&t=47132&p=405381#p405379)
--   [Automatic Documentation Generation & Hosting](https://forum.freecadweb.org/viewtopic.php?f=8&t=47229)
--   [FreeCAD Forum Post](https://forum.freecadweb.org/viewtopic.php?p=411563#p411563) - <https://github.com/DavidDaish/freecad_sphinx_docs>
+-   [To jest teraz wątek o dokumentacji](https://forum.freecadweb.org/viewtopic.php?f=23&t=44612#p381168)
+-   [Dokumentowanie rozszerzeń środowiska Python](https://forum.freecadweb.org/viewtopic.php?f=22&t=47132&p=405381#p405379)
+-   [Automatyczne generowanie dokumentacji i hosting](https://forum.freecadweb.org/viewtopic.php?f=8&t=47229)
+-   [wątek z forum FreeCAD](https://forum.freecadweb.org/viewtopic.php?p=411563#p411563) - <https://github.com/DavidDaish/freecad_sphinx_docs>
 
 
 

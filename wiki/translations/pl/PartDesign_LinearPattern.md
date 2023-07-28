@@ -9,6 +9,8 @@
 
 # PartDesign LinearPattern/pl
 
+
+
 ## Opis
 
 Narzędzie <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:24px;"> **Szyk liniowy** tworzy liniowy wzór jednej lub kilku cech.
@@ -16,19 +18,25 @@ Narzędzie <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:24p
 ![](images/PartDesign_LinearPattern_example.svg ) 
 *Powyżej: wyciągnięcie w kształcie litery L ''(B)'' wykonane na bazie bryły ''(A, zwanej również podstawą)'' jest używane do tworzenia liniowego wzoru. Wynik ''(C)'' jest pokazany po prawej stronie*.
 
+
+
 ## Użycie
+
+
 
 ### Tworzenie
 
 1.  Opcjonalnie [aktywuj](PartDesign_Body/pl#Aktywny_status.md) właściwą bryłę.
-2.  Opcjonalnie wybierz jedną lub więcej cech w oknie [widoku](Tree_view/pl.md) lub w [widoku 3D](3D_view/pl.md).
+2.  Opcjonalnie wybierz jedną lub więcej cech w oknie [widoku drzewa](Tree_view/pl.md) lub w [widoku 3D](3D_view/pl.md).
 3.  Istnieje kilka sposobów wywołania narzędzia:
     -   Naciśnij przycisk **<img src="images/PartDesign_LinearPattern.svg" width=16px> [Szyk liniowy](PartDesign_LinearPattern/pl.md)**.
-    -   Wybierz z menu **Projekt Części → Zastosuj wzór → <img src="images/PartDesign_LinearPattern.svg" width=16px> Szyk liniowy**.
-4.  Jeśli nie ma aktywnej Zawartości, a w dokumencie są dwie lub więcej Zawartości, otworzy się okno dialogowe **Wymagana jest aktywna Zawartość** i poprosi o uaktywnienie jednej z nich. Jeśli istnieje jedna Zawartość, zostanie ona aktywowana automatycznie.
+    -   Wybierz z menu **Projekt Części → Zastosuj przekształcenie → <img src="images/PartDesign_LinearPattern.svg" width=16px> Szyk liniowy**.
+4.  Jeśli nie ma aktywnej Zawartości, a w dokumencie są dwie lub więcej Zawartości, otworzy się okno dialogowe **Wymagana jest aktywna Zawartość** i poprosi o uaktywnienie jednej z nich. Jeśli istnieje jedna struktura, zostanie ona aktywowana automatycznie.
 5.  Jeśli nie wybrano żadnych cech, zostanie wyświetlone okno dialogowe **Wybierz cechę** otworzy się [panel zadań](Task_panel/pl.md): wybierz jedną lub więcej *(przytrzymaj klawisz **Ctrl**)* z listy i naciśnij przycisk **OK**.
-6.  Otwórz [panel zadań](Task_panel/pl.md) Parametry **Szyku liniowego**. Więcej informacji na ten temat można znaleźć w sekcji [Opcje](#Opcje.md).
+6.  Otworzy się [panel zadań](Task_panel/pl.md) **Parametry Szyku liniowego**. Więcej informacji na ten temat można znaleźć w sekcji [Opcje](#Opcje.md).
 7.  Naciśnij przycisk **OK**, aby zakończyć.
+
+
 
 ### Edycja
 
@@ -37,6 +45,8 @@ Narzędzie <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:24p
     -   Kliknij prawym przyciskiem myszy obiekt Szyk Liniowy w oknie [widoku drzewa](Tree_view/pl.md) i wybierz opcję **Edytuj Szyk Liniowy** z menu kontekstowego.
 2.  Otworzy się [panel zadań](Task_panel/pl.md) **Parametry Szyku liniowego**. Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
 3.  Naciśnij przycisk **OK**, aby zakończyć.
+
+
 
 ## Opcje
 
@@ -96,6 +106,8 @@ Narzędzie <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:24p
 -   Określ **Długość**, która ma zostać objęta wzorcem.
 -   Określ liczbę **Wystąpień** *(łącznie z cechą oryginalną)*.
 -   Jeśli zaznaczone jest pole wyboru **Aktualizuj widok**, widok będzie aktualizowany w czasie rzeczywistym.
+
+
 
 ## Ograniczenia
 

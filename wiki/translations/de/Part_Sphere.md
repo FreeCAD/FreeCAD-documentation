@@ -9,6 +9,8 @@
 
 # Part Sphere/de
 
+
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Part_Sphere.svg  style="width:24px;"> **Part Kugel** erstellt einen parametrischen Volumenkörper, eine Kugel. Sie ist das Ergebnis der Drehung eines Kreisbogens um eine Achse. Im Koordinatensystem durch ihre {{PropertyData/de|Placement}} festgelegt, liegt ihr Mittelpunkt im Ursprung und Ihre Drehachse ist die Z-Achse.
@@ -17,17 +19,24 @@ Eine Part-Kugel kann oben und/oder unten beschnitten werden, indem man die {{Pro
 
 <img alt="" src=images/Part_Sphere_Example.png  style="width:400px;">
 
+
+
 ## Anwendung
 
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Part_Sphere.svg" width=16px> [Kugel](Part_Sphere.md)** drücken.
+    -   Den Menüeintrag **Part → Grundkörper → <img src="images/Part_Sphere.svg" width=16px> Kugel** auswählen.
+2.  Die Kugel wird erstellt.
+3.  Wahlweise die Abmaße und die {{PropertyData/de|Placement}} der Kugel ändern durch eine der folgenden Möglichkeiten:
+    -   Doppelklick auf das Objekt in der [Baumansicht](Tree_view/de.md):
+        1.  Der Aufgabenbereich **Geometrische Grundelemente** wird geöffnet.
+        2.  Eine oder mehrere Eigenschaften ändern.
+        3.  Das Objekt wird in der [3D-Ansicht](3D_view/de.md) dynamisch aktualisiert.
+        4.  Die Schaltfläche **OK** drücken.
+    -   Die Eigenschaften im [Eigenschafteneditor](Property_editor/de.md) anpassen.
+    -   Die {{PropertyData/de|Placement}} mit dem Befehl <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std Bewegen](Std_TransformManip/de.md) ändern.
 
-<div class="mw-translate-fuzzy">
 
-## Anwendung 
-
-Klicke im Arbeitsbereich [Part](Part_Workbench/de.md) auf das Kugelsymbol <img alt="" src=images/Part_Sphere.svg  style="width:24px;">. Die Kugel wird bei der Erstellung am Ursprung (Punkt 0,0,0) positioniert. Die Winkelparameter erlauben es, einen Teil der Kugel statt einer Vollkugel zu erstellen (sie sind standardmäßig auf 360° eingestellt).
-
-
-</div>
 
 ## Beispiel
 
@@ -35,47 +44,55 @@ Klicke im Arbeitsbereich [Part](Part_Workbench/de.md) auf das Kugelsymbol <img a
 
 Ein Part-Kugel-Objekt, das mit dem [Skriptbeispiel](#Skripten.md) weiter unten erzeugt wurde wird hier dargestellt.
 
+
+
 ## Hinweise
 
--   A Part Sphere can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
+-   Eine Part Kugel kann auch mit dem Befehl <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Grundkörper](Part_Primitives/de.md) erstellt werden. Mit dem Befehl können die Abmaße und die Positionierung zum Zeitpunkt der Erstellung festgelegt werden.
+
+
 
 ## Eigenschaften
 
-See also: [Property editor](Property_editor.md).
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein Part-Kugel-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
 
 
 {{TitleProperty|Attachment}}
 
-The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
+Das Objekt hat dieselben Befestigungseigenschaften wie ein [Part Part2DObject](Part_Part2DObject/de#Daten.md).
 
 
 {{TitleProperty|Kugel}}
 
--    **Radius|Length**: The radius of the sphere. The default is {{Value|5mm}}.
+-    {{PropertyData/de|Radius|Length}}: Der Radius der Kugel. Der Standardwert ist {{Value|5mm}}.
 
--    **Angle1|Angle**: The start angle of the circular arc profile of the sphere. Valid range: {{Value|-90° &lt;&#61; value &lt;&#61; 90°}}. May not be equal to **Angle2**. The default is {{Value|-90°}}.
+-    {{PropertyData/de|Angle1|Angle}}: Der Startwinkel des Kreisbogenprofils der Kugel. Wertebereich: {{Value|-90° &lt;&#61; Wert &lt;&#61; 90°}}. Darf nicht genau so groß sein wie {{PropertyData/de|Angle2}}. Der Standardwert ist {{Value|-90°}}.
 
--    **Angle2|Angle**: The end angle of the circular arc profile of the sphere. Valid range: {{Value|-90° &lt;&#61; value &lt;&#61; 90°}}. May not be equal to **Angle1**. The default is {{Value|90°}}. If the total angle of the arc profile is smaller than {{Value|180°}} the sphere will be truncated and have a flat face at the top and/or bottom.
+-    {{PropertyData/de|Angle2|Angle}}: Der Endwinkel des Kreisbogenprofils der Kugel. Wertebereich: {{Value|-90° &lt;&#61; Wert &lt;&#61; 90°}}. Darf nicht genau so groß sein wie {{PropertyData/de|Angle1}}. Der Standardwert ist {{Value|90°}}. Ist der Gesamtwinkel des Kreisbogenprofils kleiner als {{Value|180°}}, wird die Kugel beschnitten und erhält eine ebene Fläche an ihrer Ober- und/oder Unterseite.
 
--    **Angle3|Angle**: The total angle of revolution of the sphere. Valid range: {{Value|0° &lt; value &lt;&#61; 360°}}. The default is {{Value|360°}}. If it is smaller than {{Value|360°}} the resulting solid will be a segment of a sphere.
+-    {{PropertyData/de|Angle3|Angle}}: Der vollständige Drehwinkel der Kugel. Wertebereich: {{Value|0° &lt; Wert &lt;&#61; 360°}}. Der Standardwert ist {{Value|360°}}. Ist er kleiner als {{Value|360°}}, ist der resultierende Festkörper ein Kugelsegment.
+
+
 
 ## Skripten
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/), [Part Skripten](Part_scripting/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-A Part Sphere can be created with the {{Incode|addObject()}} method of the document:
+Eine Part Kugel wird mit der Methode `addObject()` des Dokuments erstellt.
 
 
 ```python
 sphere = FreeCAD.ActiveDocument.addObject("Part::Sphere", "mySphere")
 ```
 
--   Where {{Incode|"mySphere"}} is the name for the object.
--   The function returns the newly created object.
+-   Wobei {{Incode|"mySphere"}} der Name des Objekts ist.
+-   Die Funktion gibt das neu erstellte Objekt zurück.
 
 Beispiel:
 

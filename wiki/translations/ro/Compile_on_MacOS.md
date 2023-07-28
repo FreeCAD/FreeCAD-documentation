@@ -21,6 +21,8 @@ Această pagină servește ca un început rapid și nu intenționează să fie c
 If you just want to evaluate the latest pre-release build of FreeCAD, you can download pre-built binaries [from here](https://github.com/FreeCAD/FreeCAD/releases).
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Instalați cerințele preliminare 
@@ -31,6 +33,8 @@ Următorul software trebuie instalat pentru a sprijini procesul de construire.
 </div>
 
 The following software must be installed to support the build process.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -45,6 +49,8 @@ Homebrew este un manager de pachete de linie de comandă pentru MacOS. The [Home
 Homebrew is a command line based package manager for macOS. The [Homebrew main page](https://brew.sh/) provides an installation command line that you simply paste into a terminal window.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### CMake
@@ -55,6 +61,8 @@ CMake este un instrument de complilare care construiește o configurație de com
 </div>
 
 CMake is a build tool that generates a build configuration based on variables you specify. You then issue the \'make\' command to actually build that configuration. The command-line version of CMake is automatically installed as part of the Homebrew installation, above. If you prefer to use a GUI version of CMake, you can download it from [here](https://www.cmake.org/downloadDownload).
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -161,6 +169,8 @@ cmake \
 ```
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Get the source 
@@ -241,6 +251,8 @@ Note: Command line to generate CMAKE_PREFIX_PATH:
 ls -d $(brew list -1 | grep qt | tail -1 | xargs brew --cellar)/*/lib/cmake
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### CMake GUI 
@@ -255,6 +267,8 @@ Open the CMake app, and fill in the source and build folder fields. In this exam
 Next, click the **Configure** button to populate the list of configuration options. This will display a dialog asking you to specify what generator to use. Leave it at the default **Unix Makefiles.** Configuring will fail the first time because there are some options that need to be changed. Note: You will need to check the **Advanced** checkbox to get all of the options.
 
 Set options from the table above, then click **Configure** again and then **Generate**.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -296,6 +310,8 @@ $cmake \
 ```
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Run make 
@@ -320,6 +336,8 @@ A se vedea și [Compiling - Speeding up](Compiling_(Speeding_up).md).
 Dacă ați finalizat fără erori, puteți lansa FreeCAD făcând dublu clic pe executabilul din Finder
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Updating după Github 
@@ -330,6 +348,8 @@ Dezvoltarea FreeCAD are loc rapid; aproape în fiecare zi sunt bug fixe sau noi 
 </div>
 
 FreeCAD development happens fast; every day or so there are bug fixes or new features. To get the latest changes, use git to update the source directory (see [Source code management](Source_code_management.md)), then re-run the CMake and make steps above. It is not usually necessary to start with a clean build directory in this case, and subsequent compiles will generally go much faster than the first one.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -343,7 +363,11 @@ FreeCAD a trecut de la Qt 4 la Qt 5. Dacă trebuie să complilați cu Qt4, sunt 
 
 FreeCAD has transitioned from Qt 4 to Qt 5 as well as homebrew. Qt 4 is no longer available as an option for new build on macOS following Qt 5 transition. Python 2.7 has been deprecated within homebrew and upcoming macOS and we do not support it anymore for macOS build either.
 
+
+
 ## Depanare
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -363,6 +387,8 @@ brew uninstall --ignore-dependencies --force cartr/qt4/shiboken@1.2 cartr/qt4/py
 ```
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Fortran
@@ -373,6 +399,8 @@ brew uninstall --ignore-dependencies --force cartr/qt4/shiboken@1.2 cartr/qt4/py
 </div>
 
 *\"No CMAKE_Fortran_COMPILER could be found.\"* during configuration - Older versions of FreeCAD will need a fortran compiler installed. With Homebrew, do \"brew install gcc\" and try configuring again, giving cmake the path to Fortran ie -DCMAKE_Fortran_COMPILER=/opt/local/bin/gfortran-mp-4.9 . Or, preferably use a more current version of FreeCAD source!
+
+
 
 
 <div class="mw-translate-fuzzy">

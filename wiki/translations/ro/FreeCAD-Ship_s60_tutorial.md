@@ -454,6 +454,8 @@ Hydrostatics curves.
 </center>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Continuă să înveți FreeCAD-Ship 

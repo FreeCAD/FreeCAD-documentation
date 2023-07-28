@@ -14,6 +14,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Descriere
@@ -28,6 +30,8 @@ BuildingPart intenționează să înlocuiască [Arch Floor](Arch_Floor.md) cu o 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -49,9 +53,11 @@ BuildingPart intenționează să înlocuiască [Arch Floor](Arch_Floor.md) cu o 
 
 ### Notes
 
-BuildingParts have a built-in, implicit [Arch SectionPlane](Arch_SectionPlane.md). <small>(v0.19)</small> 
+BuildingParts have a built-in, implicit [Arch SectionPlane](Arch_SectionPlane.md).
 
 This plane is always parallel to the BuildingPart\'s base plane, but you can specify the offset between them. So all tools that work with a section plane, such as [Draft Shape2DView](Draft_Shape2DView.md) and [TechDraw ArchView](TechDraw_ArchView.md) also work with BuildingParts.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -74,6 +80,8 @@ This plane is always parallel to the BuildingPart\'s base plane, but you can spe
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

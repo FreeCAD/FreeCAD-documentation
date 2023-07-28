@@ -1,14 +1,14 @@
 # Artwork Guidelines/pl
-## Introduction
+## Wprowadzenie
 
 
-**Note:**
+**Uwaga:**
 
-for all icons in the source tree, see [Artwork](Artwork.md).
+wszystkie ikony w drzewie źródłowym, zobacz na stronie [Wytyczne dotyczące grafiki](Artwork/pl.md).
 
-A FreeCAD icon is composed of 6 elements which can be remembered by the acronym SALCHO: **S**troke, **A**lignment, **L**ighting, **C**olor, **H**ighlighting, **O**utline.
+Ikona FreeCAD składa się z 6 elementów, które można zapamiętać za pomocą akronimu SALCHO: **S**troke, **A**lignment, **L**ighlighting, **C**olor, **H**ighlighting, **O**utline.
 
-Here\'s a concrete, yet arbitrary example:
+Oto konkretny, aczkolwiek dowolny przykład:
 
 ![](images/FreeCAD_icon_example_details.svg )
 

@@ -86,7 +86,7 @@ The following label types are available:
 ## Notes
 
 -   The direction of the second segment of the leader determines the alignment of the text. If the segment is horizontal and pointing to the right the text is aligned to the left and vice versa. If the second segment goes vertically up, the text is aligned to the left. If it goes vertically down, the text is aligned to the right.
--   Draft Labels created or saved with [FreeCAD version 1.0](Release_notes_1.0.md) are not backward compatible.
+-   Draft Labels created or saved with [FreeCAD version 0.21](Release_notes_0.21.md) are not backward compatible.
 
 ## Properties
 
@@ -135,7 +135,7 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|World}} the text will be displayed on a plane defined by the **Placement** of the label. If it is {{value|Screen}} the text will always face the screen. This is an inherited property. The mentioned options are the renamed options (<small>(v1.0)</small> ).
+-    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|World}} the text will be displayed on a plane defined by the **Placement** of the label. If it is {{value|Screen}} the text will always face the screen. This is an inherited property. The mentioned options are the renamed options (<small>(v0.21)</small> ).
 
 
 {{TitleProperty|Graphics}}
@@ -155,9 +155,9 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 {{TitleProperty|Text}}
 
--    **Font Name|Font**: specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial:Bold}}. If the given font is not found on the system, a default font is used instead. <small>(v1.0)</small> 
+-    **Font Name|Font**: specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial:Bold}}. If the given font is not found on the system, a default font is used instead. <small>(v0.21)</small> 
 
--    **Font Size|Length**: specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small. <small>(v1.0)</small> 
+-    **Font Size|Length**: specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small. <small>(v0.21)</small> 
 
 -    **Justification|Enumeration**: specifies the horizontal alignment of the text: {{value|Left}}, {{value|Center}} or {{value|Right}}. Only used if **Straight Direction** is {{Value|Custom}}. Otherwise the horizontal alignment is based on the sign (positive or negative) of **Straight Distance**.
 

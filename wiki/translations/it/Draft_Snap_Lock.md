@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -21,6 +23,8 @@ Attiva o disattiva la funzione di [aggancio](Draft_Snap/it.md) (snap) agli ogget
 
 
 </div>
+
+
 
 ## Utilizzo
 

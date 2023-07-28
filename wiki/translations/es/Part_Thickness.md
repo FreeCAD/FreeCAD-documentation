@@ -81,10 +81,16 @@ Puede ver un buen ejemplo de como usar esta herramienta en el foro: [Re: Help de
 2.  Seleccionar las caras superior e inferior del cilindro.
 3.  Pulsar sobre el botón **<img src="images/Part_Thickness.svg" width=16px> Espesor** (no es necesario cambiar los ajustes por defecto) y confirmar **OK**.
 
+
+<div class="mw-translate-fuzzy">
+
 Notas:
 
 -   Para conseguir este mismo objeto, considere usar la herramienta**<img src="images/Part_Tube.svg" width=16px> [Tubo](Part_Tube.md)** en vez de la de espesor. {{Version/es|0.19}}
 -   Seleccionar solamente la superficie superior del cilindro para crear un contenedor.
+
+
+</div>
 
 -   Creación de un contenedor:
 

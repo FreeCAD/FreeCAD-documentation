@@ -2,7 +2,7 @@
 - GuiCommand:/pl
    Name:TechDraw ProjectShape
    Name/pl:Rysunek Techniczny: Rzutowanie kształtów
-   MenuLocation:Rysunek Techniczny → Rzutowanie kształtów ...
+   MenuLocation:Rysunek Techniczny → Widoki → Rzutowanie kształtów ...
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
@@ -15,7 +15,7 @@
 
 ## Opis
 
-Narzędzie <img alt="" src=images/TechDraw_ProjectShape.svg  style="width:24px;"> **Rzut kształtu** tworzy rzuty kształtów. Rzuty tworzone są w oknie [widoku 3D](3D_view/pl.md), a nie na [stronie rysunku technicznego](TechDraw_PageDefault/pl.md).
+Narzędzie **Rzutowanie kształtów** tworzy rzuty kształtów. Rzuty tworzone są w oknie [widoku 3D](3D_view/pl.md), a nie na [stronie rysunku technicznego](TechDraw_PageDefault/pl.md).
 
 ![](images/ProjectShape1_it.png )
 
@@ -23,20 +23,23 @@ Narzędzie <img alt="" src=images/TechDraw_ProjectShape.svg  style="width:24px;"
 
 ## Użycie
 
-1.  Wybierz jeden lub więcej obiektów. Dla każdego obiektu zostanie utworzona osobny rzut.
-2.  Istnieje kilka sposobów na wywołanie narzędzia:
+1.  Opcjonalnie obróć [3D view](3D_view/pl.md). Obiekty będą rzutowane na płaszczyznę równoległą do ekranu, tj. wzdłuż kierunku kamery widoku 3D, który jest używany jako domyślna właściwość **kierunek**.
+2.  Wybierz jeden lub więcej obiektów. Dla każdego obiektu zostanie utworzona osobny rzut.
+3.  Istnieje kilka sposobów na wywołanie narzędzia:
     -   Naciśnij przycisk **<img src="images/TechDraw_ProjectShape.svg" width=16px> '''Rzutowanie kształtów ...'''**.
-    -   Wybierz z menu opcję **Rysunek Techniczny → <img src="images/TechDraw_ProjectShape.svg" width=16px> Rzutowanie kształtów ...**.
-3.  Otwiera się panel zadań **Rzutowanie kształtów**. Zobacz też sekcję [właściwości](#Właściwości.md).
-4.  Ustawić żądane opcje.
-5.  Wybrane opcje nie powinny skutkować pustym rzutem, ponieważ spowodują błąd. Na przykład dla obiektu posiadającego tylko ostre krawędzie, takiego jak [prostopadłościan](Part_Box/pl.md), należy zaznaczyć opcję **Widoczne ostre krawędzie** i/lub **Ukryte ostre krawędzie**.
-6.  Naciśnij przycisk **OK**.
+    -   Wybierz z menu opcję **Rysunek Techniczny → Widoki → <img src="images/TechDraw_ProjectShape.svg" width=16px> Rzutowanie kształtów ...**.
+4.  Otwiera się panel zadań **Rzutowanie kształtów**. Zobacz też sekcję [właściwości](#Właściwości.md).
+5.  Ustawić żądane opcje.
+6.  Wybrane opcje nie powinny skutkować pustym rzutem, ponieważ spowodują błąd. Na przykład dla obiektu posiadającego tylko ostre krawędzie, takiego jak [prostopadłościan](Part_Box/pl.md), należy zaznaczyć opcję **Widoczne ostre krawędzie** i/lub **Ukryte ostre krawędzie**.
+7.  Naciśnij przycisk **OK**.
+8.  Rzut zostaje umieszczony na płaszczyźnie XY.
+9.  Opcjonalnie zmień właściwość rzutu **Umiejscowienie** i / lub **Kierunek**.
 
 
 
 ## Właściwości
 
-Obiekt Rzutu wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+Obiekt **Rzutowanie kształtów** wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
 

@@ -20,6 +20,8 @@ Dans ce tutoriel, nous allons travailler avec un bateau de la série 60, de l\'U
 
 En savoir plus sur l\'<img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> [atelier Ship](Ship_Workbench/fr.md).
 
+
+
 ## Charger la forme de base 
 
 ### Contexte
@@ -207,7 +209,7 @@ Sections résultantes
 
 </center>
 
-Pour tracer ces sections, vous pouvez utiliser l\'[Atelier Drawing](Drawing_Workbench/fr.md):
+Pour tracer ces sections, vous pouvez utiliser l\'[atelier TechDraw](TechDraw_Workbench/fr.md) :
 
 ![ centre \| Plan de traçage des contours.](images/_FreeCAD-Ship-S60OutlinePlot.png )
 
@@ -303,6 +305,8 @@ Courbes Hydrostatiques.
 
 
 </center>
+
+
 
 ## Continuer à apprendre 
 

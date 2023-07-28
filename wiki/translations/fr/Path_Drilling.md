@@ -8,17 +8,21 @@
 
 # Path Drilling/fr
 
+
+
 ## Description
 
-La commande Perçage génère une opération de perçage durant l\'opération.
+L\'outil <img alt="" src=images/Path_Drilling.svg  style="width:16px;"> [Perçage](Path_Drilling/fr.md) génère une opération de perçage durant l\'opération.
 
 <img alt="" src=images/Path_Drilling_Sample.png  style="width:400px;"> 
-*Ci-dessus: exemple d'opérations de perçage*
+*Ci-dessus : exemple d'opérations de perçage*
+
+
 
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le Button **<img src="images/Path_Drilling.svg" width=16px> [Perçage](Path_Drilling/fr.md)**.
+    -   Appuyez sur le bouton **<img src="images/Path_Drilling.svg" width=16px> [Perçage](Path_Drilling/fr.md)**.
     -   Sélectionnez l\'option **Path → <img src="images/Path_Drilling.svg" width=16px> Perçage** dans le menu.
 2.  Dans la section **Opération** :
     -   Sélectionnez un **Contrôleur d'outil**.
@@ -41,14 +45,18 @@ La commande Perçage génère une opération de perçage durant l\'opération.
 3.  Dans la section **Géométrie de base**, vérifiez que la liste correspond aux trous destinés à être traités, et ajustez l\'ajout, l\'activation ou la désactivation, si nécessaire. Les trous peuvent être ajoutés en sélectionnant les faces des murs des Trous.
 4.  Dans la section **Profondeurs**, vérifiez et ajustez si nécessaire les **Profondeur initiale** et **Profondeur finale**.
 5.  Dans la section **Hauteurs**, vérifiez et, si nécessaire, ajustez les **Hauteur de sécurité** et **Hauteur de dégagement**.
-6.  Appuyez sur le bouton **OK** pour générer le(s) chemin(s) de perçage.
+6.  Appuyez sur le bouton **OK** pour générer le(s) parcours(s) de perçage.
+
+
 
 ## Remarques
 
 -   Lorsque vous utilisez des arêtes pour la géométrie de base, sélectionnez toujours le bord inférieur du trou.
 -   Vérifiez toujours que l\'outil choisi est le bon diamètre pour le(s) trou(s) sélectionné(s).
--   **Perçage désactivé** génère (cycles de forage pré-programmés G81). **Perçage activé** génère (cycles de forage prédéfinis G83).
--   **Temporisation activé** est actuellement non pris en charge, mais il est destiné à générer (cycles de forage fixes G82).
+-   **Perçage par coupe interrompue désactivé** génère des cycles de forage pré-programmés G81. **Perçage par coupe interrompue activé** génère des cycles de forage prédéfinis G83.
+-   **Temporisation activé** n\'est pas actuellement prise en charge, mais est destiné à générer des cycles de forage fixes G82.
+
+
 
 ## Propriétés
 
@@ -57,7 +65,7 @@ La commande Perçage génère une opération de perçage durant l\'opération.
 
 {{TitleProperty|Base}}
 
-Remarque: il est conseillé de ne pas modifier la propriété Placement des opérations de chemin. Déplacez ou faites pivoter le modèle de tâche de chemin selon vos besoins.
+Remarque : il est conseillé de ne pas modifier la propriété Placement des opérations de parcours. Il convient plutôt de déplacer ou de faire pivoter le modèle Path Tâche selon les besoins.
 
 -    **Placement**: emplacement global \[position et rotation\] de l\'objet - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
 
@@ -69,42 +77,42 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
     -   
         **Axis**
         
-        : axe (un ou plusieurs) autour duquel faire pivoter l\'objet, défini dans les sous-propriétés: x, y, z.
+        : axe (un ou plusieurs) autour duquel faire pivoter l\'objet, défini dans les sous-propriétés: X, Y, Z.
 
         -   
             **X**
             
-            : valeur de l\'axe x.
+            : valeur de l\'axe X.
 
         -   
             **Y**
             
-            : valeur de l\'axe y.
+            : valeur de l\'axe Y.
 
         -   
             **Z**
             
-            : valeur de l\'axe z.
+            : valeur de l\'axe Z.
 
     -   
         **Position**
         
-        : position de l\'objet, définie dans les sous-propriétés: x, y, z - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
+        : position de l\'objet, définie dans les sous-propriétés: X, Y, Z - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
 
         -   
             **X**
             
-            : valeur de distance x.
+            : valeur de distance X.
 
         -   
             **Y**
             
-            : valeur de distance y.
+            : valeur de distance Y.
 
         -   
             **Z**
             
-            : valeur de distance z.
+            : valeur de distance Z.
 
 -    **Label**: nom de l\'objet fourni par l\'utilisateur (UTF-8).
 
@@ -117,7 +125,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Final Depth**: profondeur finale de l\'outil - valeur la plus basse de Z.
 
--    **Safe Height**: hauteur au-dessus de laquelle les mouvements rapides sont autorisés. (Hauteur de sécurité rapide entre les sites).
+-    **Safe Height**: hauteur au-dessus de laquelle les mouvements rapides sont autorisés. (hauteur de sécurité rapide entre les sites).
 
 -    **Start Depth**: profondeur initiale de l\'outil - *profondeur de la première coupe en Z*.
 
@@ -130,9 +138,9 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Dwell Time**: le temps de pause entre les cycles de perçage.
 
--    **Peck Depth**: profondeur de perçage incrémental avant de se rétracter pour nettoyer les copeaux.
+-    **Peck Depth**: profondeur de perçage par coupe interrompue incrémental avant de se rétracter pour nettoyer les copeaux.
 
--    **Peck Enabled**: active le perçage.
+-    **Peck Enabled**: active le perçage par coupe interrompue.
 
 -    **Retract Height**: hauteur à laquelle commence l\'avance de l\'outil et la hauteur pendant laquelle l\'outil est rétracté lorsque la trajectoire est terminée.
 
@@ -145,7 +153,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Comment**: commentaire facultatif pour cette opération.
 
--    **User Label**: identifiant attribuée par l\'utilisateur.
+-    **User Label**: étiquette attribuée par l\'utilisateur.
 
 -    **Tool Controller**: définit le contrôleur d\'outil utilisé dans l\'opération.
 
@@ -163,48 +171,62 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Reverse Direction**: inverse l\'orientation de l\'opération de 180 degrés.
 
-## Disposition de l\'éditeur de fenêtre de tâches 
+
+
+## Disposition de l\'éditeur de la fenêtre des tâches 
 
 *Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.*
 
 Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
 
+
+
 ### Géométrie de base 
 
--   **Ajouter** : ajoute le(s) élément(s) sélectionné(s) qui doit(vent) être la(les) base(s) pour le(s) trajectoire(s).
+-   **Ajouter** : ajoute le(s) élément(s) sélectionné(s) qui doit(vent) être la(les) base(s) pour le(s) parcours.
 -   **Enlever** : supprime le ou les éléments sélectionnés dans la liste de la géométrie de base.
 -   **Réinitialiser** : efface tous les éléments de la liste de la géométrie de base.
 
+
+
 ### Emplacement de base 
 
--   **Ajouter** : ajoute un emplacement de coordonnées (X, Y) à l\'opération de forage en cours.
--   **Enlever** : supprime le(s) élément(s) de localisation sélectionné(s) de la liste de Emplacement de base.
+-   **Ajouter** : ajoute un emplacement de coordonnées (X, Y) à l\'opération de perçage en cours.
+-   **Enlever** : supprime le(s) élément(s) de localisation sélectionné(s) de la liste des emplacements de base.
 -   **Éditer** : modifie l\'élément l\'emplacement sélectionné.
+
+
 
 ### Profondeurs
 
 -   **Profondeur initiale** :
 -   **Profondeur finale** :
 
+
+
 ### Hauteurs
 
 -   **Hauteur de sécurité** :
 -   **Hauteur de dégagement** :
 
+
+
 ### Opération
 
 -   **Contrôleur d\'outil** :
 -   **Hauteur de rétraction** :
--   **Perçage** :
--   **Profondeur de perçage** :
+-   **Perçage par coupe interrompue** :
+-   **Profondeur du perçage par coupe interrompue** :
 -   **Temporisation** :
 -   **Temps de temporisation** :
 -   **Longueur de la pointe utilisée** :
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

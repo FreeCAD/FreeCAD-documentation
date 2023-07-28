@@ -131,6 +131,8 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 
 ### Sechskantschrauben und -Bolzen 
 
+-   <img alt="" src=images/Fasteners_DIN933.svg  style="width:32px;"> **DIN 933** Sechskantschraube.
+
 -   <img alt="" src=images/Fasteners_ISO4017.svg  style="width:32px;"> 
 **ISO 4017** Sechskantschrauben. *Produktklassen A und B.*
 
@@ -256,6 +258,10 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 
 -   <img alt="" src=images/Fasteners_DIN603.svg  style="width:32px;"> **DIN 603** Round head square neck bolt.
 
+-   <img alt="" src=images/Fasteners_DIN478.svg  style="width:32px;"> **DIN 478** Square head bolt with collar.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.1.1.svg  style="width:32px;"> **ASME B18.2.1.1** UNC square head bolt.
+
 -   <img alt="" src=images/Fasteners_ASMEB18.5.2.svg  style="width:32px;"> **ASME B18.5** UNC Round head square neck bolt.
 
 
@@ -275,9 +281,21 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 
 -   <img alt="" src=images/Fasteners_DIN917.svg  style="width:32px;"> **DIN 917** Cap nut, low form.
 
+-   <img alt="" src=images/Fasteners_DIN928.svg  style="width:32px;"> **DIN 928** Square weld nut.
+
+-   <img alt="" src=images/Fasteners_DIN929.svg  style="width:32px;"> **DIN 929** Hexagon weld nut.
+
+-   <img alt="" src=images/Fasteners_DIN935.svg  style="width:32px;"> **DIN 935** Hexagon castle nut.
+
+-   <img alt="" src=images/Fasteners_DIN6334.svg  style="width:32px;"> **DIN 6334** Hexagon coupling nut.
+
+-   <img alt="" src=images/Fasteners_DIN7967.svg  style="width:32px;"> **DIN 7967** Self-locking counter nut.
+
 -   <img alt="" src=images/Fasteners_DIN1587.svg  style="width:32px;"> **DIN 1587** Cap nut.
 
 -   <img alt="" src=images/Fasteners_GOST11860-1.svg  style="width:32px;"> **GOST 11860-1** Cap nut.
+
+-   <img alt="" src=images/Fasteners_DIN315.svg  style="width:32px;"> **DIN 315** Wing nut.
 
 -   <img alt="" src=images/Fasteners_DIN557.svg  style="width:32px;"> **DIN 557** Vierkantmuttern.
 
@@ -285,17 +303,37 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 
 -   <img alt="" src=images/Fasteners_DIN985.svg  style="width:32px;"> **DIN 985** Sechskantsicherungsmuttern mit Kunststoffring.
 
--   <img alt="" src=images/Fasteners_ASMEB18.2.2.1A.svg  style="width:32px;"> **ASME B18.2.2.1A** UNC Machine screw nut.
+-   <img alt="" src=images/Fasteners_DIN1624.svg  style="width:32px;"> **DIN 1624** Tee nut.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.1A.svg  style="width:32px;"> **ASME B18.2.2.1A** UNC Hexagon machine screw nut.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.1B.svg  style="width:32px;"> **ASME B18.2.2.1B** UNC Square machine screw nut.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.2.svg  style="width:32px;"> **ASME 18.2.2.2** UNC Square nut.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4A.svg  style="width:32px;"> **ASME B18.2.2.4A** UNC Hexagon nut.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4B.svg  style="width:32px;"> **ASME B18.2.2.4B** UNC Hexagon thin nut.
 
-### T-slot nuts 
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.5.svg  style="width:32px;"> **ASME 18.2.2.5** UNC Hexagon castle nut.
 
--   <img alt="" src=images/Fasteners_DIN508.svg  style="width:32px;"> **DIN 508** T-slot nut.
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.12.svg  style="width:32px;"> **ASME 18.2.2.12** UNC Hexagon nut with flange.
 
--   <img alt="" src=images/Fasteners_GN507.svg  style="width:32px;"> **GN 507** T-slot nut.
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.13.svg  style="width:32px;"> **ASME 18.2.2.13** UNC Hexagon coupling nut.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.6.9A.svg  style="width:32px;"> **ASME 18.6.9A** Wing nut, type A.
+
+-   <img alt="" src=images/Fasteners_SAEJ483a1.svg  style="width:32px;"> **SAE J483a 1** Low cap nut.
+
+-   <img alt="" src=images/Fasteners_SAEJ483a2.svg  style="width:32px;"> **SAE J483a 2** High cap nut.
+
+
+
+### Muttern für T-Nuten (T-Nutensteine) 
+
+-   <img alt="" src=images/Fasteners_DIN508.svg  style="width:32px;"> **DIN 508** Mutter für T-Nut.
+
+-   <img alt="" src=images/Fasteners_GN507.svg  style="width:32px;"> **GN 507** Mutter für T-Nut.
 
 
 
@@ -307,24 +345,14 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 -   <img alt="" src=images/Fasteners_ISO7090.svg  style="width:32px;"> 
 **ISO 7090** Scheiben mit Fase, Form B. *Produktklasse A.*
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Fasteners_ISO7092.svg  style="width:32px;"> **ISO 7092** Scheiben, kleine Reihe.
-
-
-</div>
+-   <img alt="" src=images/Fasteners_ISO7092.svg  style="width:32px;"> 
+**ISO 7092** Scheiben, kleine Reihe. *Produktklasse A.*
 
 -   <img alt="" src=images/Fasteners_ISO7093-1.svg  style="width:32px;"> 
 **ISO 7093-1** Flache Scheiben, große Reihe. *Produktklasse A.*
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Fasteners_ISO7094.svg  style="width:32px;"> **ISO 7094** Scheiben, extra große Reihe.
-
-
-</div>
+-   <img alt="" src=images/Fasteners_ISO7094.svg  style="width:32px;"> 
+**ISO 7094** Scheiben, extra große Reihe. *Produktklasse C.*
 
 -   <img alt="" src=images/Fasteners_NFE27-619.svg  style="width:32px;"> **NFE27-619** Countersunk washer.
 
@@ -334,81 +362,43 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width:32px;"> **ASME B18.21.1.12C** UN Scheibe, breite Reihe.
 
-### Retaining rings 
 
--   <img alt="" src=images/Fasteners_DIN471.svg  style="width:32px;"> **DIN 471** External retaining ring.
 
--   <img alt="" src=images/Fasteners_DIN472.svg  style="width:32px;"> **DIN 472** Internal retaining ring.
+### Sicherungsringe
 
--   <img alt="" src=images/Fasteners_DIN6799.svg  style="width:32px;"> **DIN 6799** E-clip retaining ring.
+-   <img alt="" src=images/Fasteners_DIN471.svg  style="width:32px;"> **DIN 471** Sicherungsring für Wellen.
+
+-   <img alt="" src=images/Fasteners_DIN472.svg  style="width:32px;"> **DIN 472** Sicherungsring für Bohrungen.
+
+-   <img alt="" src=images/Fasteners_DIN6799.svg  style="width:32px;"> **DIN 6799** Sicherungsscheibe.
 
 
 
 ### Verschiedenes
 
+-   <img alt="" src=images/Fasteners_ScrewTap.svg  style="width:32px;"> Gewindestange beliebiger Länge für das Gewindeschneiden von Bohrungen.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Fasteners_ScrewTapInch.svg  style="width:32px;"> Gewindestange beliebiger Länge für das Gewindeschneiden von Bohrungen.
 
--   <img alt="" src=images/Fasteners_ScrewTap.svg  style="width:32px;"> Gewindestange beliebiger Länge für das Gewindeschneiden von Bohrungen (metrisch).
+-   <img alt="" src=images/Fasteners_ScrewDie.svg  style="width:32px;"> Gewinderohr beliebiger Länge zum Schneiden von Außengewinden.
 
+-   <img alt="" src=images/Fasteners_ScrewDieInch.svg  style="width:32px;"> Gewinderohr beliebiger Länge zum Schneiden von Außengewinden.
 
-</div>
+-   <img alt="" src=images/Fasteners_ThreadedRod.svg  style="width:32px;"> Gewindestange **DIN 975** beliebiger Länge.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Fasteners_ScrewTapInch.svg  style="width:32px;"> Gewindestange beliebiger Länge für das Gewindeschneiden von Bohrungen (Zoll).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Fasteners_ScrewDie.svg  style="width:32px;"> Gewinderohr beliebiger Länge zum Schneiden von Außengewinden (metrisch).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Fasteners_ScrewDieInch.svg  style="width:32px;"> Gewinderohr beliebiger Länge zum Schneiden von Außengewinden (Zoll).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Fasteners_ThreadedRod.svg  style="width:32px;"> Gewindestange **DIN 975** beliebiger Länge (metrisch).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Fasteners_ThreadedRodInch.svg  style="width:32px;"> Gewindestange beliebiger Länge **UNC** (Zoll).
-
-
-</div>
+-   <img alt="" src=images/Fasteners_ThreadedRodInch.svg  style="width:32px;"> Gewindestange beliebiger Länge **UNC**.
 
 
 
 ## Referenzen
 
-
-<div class="mw-translate-fuzzy">
-
 -   Autor: (http://theseger.com/projects/author/shaise/ shaise)
     -   SchraubenErsteller: Ulrich Brammer
     -   Arbeitsbereichsumgebung: Shai Seger
 -   Heimseite: <http://theseger.com/projects/2015/06/fasteners-workbench-for-freecad/>
--   Quellcode auf github: <https://github.com/shaise/FreeCAD_FastenersWB>
-
-
-</div>
+-   Quellcode: <https://github.com/shaise/FreeCAD_FastenersWB>
+-   Bug-Reports und Feature-Requests: <https://github.com/shaise/FreeCAD_FastenersWB/issues>
+-   Forumsbeitrag: <https://forum.freecadweb.org/viewtopic.php?t=11429>
 
 
 

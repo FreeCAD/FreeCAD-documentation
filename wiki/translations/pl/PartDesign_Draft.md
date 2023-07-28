@@ -2,15 +2,17 @@
 - GuiCommand:/pl
    Name:PartDesign Draft
    Name/pl:Projekt części: Pochylenie ścian
-   MenuLocation:Projekt Części → Zastosuj funkcje ulepszenia → Pochylenie ścian
+   MenuLocation:Projekt Części → Zastosuj funkcjeę ulepszenia → Pochylenie ścian
    Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
 ---
 
 # PartDesign Draft/pl
 
+
+
 ## Opis
 
-Narzędzie <img alt="" src=images/PartDesign_Draft.svg  style="width:24px;"> **Pochylenie ścian** tworzy pochylenie kątowe wybranych ścian obiektu. Dodaje on do dokumentu obiekt **Draft** wraz z jego reprezentacją w oknie [widoku drzewa](Tree_view/pl.md).
+Narzędzie <img alt="" src=images/PartDesign_Draft.svg  style="width:24px;"> **Pochylenie ścian** tworzy pochylenie kątowe wybranych ścian obiektu. Dodaje on do dokumentu obiekt **Pochylenie ścian** wraz z jego reprezentacją w oknie [widoku drzewa](Tree_view/pl.md).
 
    --
   ![Wybierz jedną lub więcej ścian na obiekcie przed uruchomieniem narzędzia. Tutaj zostały wybrane 2 ściany.](images/PartDesign_Draft-01.png ) ![Wyświetlanie parametrów funkcji w Panelu zadań.](images/PartDesign_Draft-02.png ) ![Dodano 2 ściany i zastosowano 10 stopniowe pochylenie. Dolna płaszczyzna pozostała wymiarowo niezmienna, podczas gdy pochylenie spowodowało zmniejszenie górnej płaszczyzny.](images/PartDesign_Draft-03.png ) ![Płaszczyzna neutralna została zmieniona na górną. Teraz górna płaszczyzna pozostała stabilna wymiarowo, podczas gdy szkic powiększył dolną płaszczyznę..](images/PartDesign_Draft-04.png ) ![Kierunek ścinania jest ustawiony na dolną prawą krawędź, co powoduje, że projekt jest ścinany w lewo..](images/PartDesign_Draft-05.png ) ![Zaznaczenie pola wyboru Kierunek odwrotny spowodowało zastosowanie zanurzenia do wewnątrz zamiast na zewnątrz..](images/PartDesign_Draft-06.png )   
@@ -19,7 +21,11 @@ Narzędzie <img alt="" src=images/PartDesign_Draft.svg  style="width:24px;"> **P
 
 
 
+
+
 ## Użycie
+
+
 
 ### Dodanie pochylenia ścian 
 
@@ -27,13 +33,15 @@ Narzędzie <img alt="" src=images/PartDesign_Draft.svg  style="width:24px;"> **P
 2.  Wybierz jedną lub więcej powierzchni bryły.
 3.  Narzędzie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/PartDesign_Draft.svg" width=16px> [Pochylenie ścian](PartDesign_Draft/pl.md)**.
-    -   Wybierz z menu opcję **Projekt Części → Zastosuj funkcje ulepszenia → <img src="images/PartDesign_Draft.svg" width=16px> Pochylenie ścian**.
+    -   Wybierz z menu opcję **Projekt Części → Zastosuj funkcję ulepszenia → <img src="images/PartDesign_Draft.svg" width=16px> Pochylenie ścian**.
 4.  Jeśli nie ma aktywnej bryły, a w dokumencie znajdują się dwie lub więcej brył, zostanie otwarte okno dialogowe **Wymagana jest aktywna zawartość** z prośbą o uaktywnienie jednej z nich. Jeśli jest tylko jedna zawartość, zostanie ona uaktywniona automatycznie.
 5.  Zostanie otwarty [panel zadań](Task_panel/pl.md) funkcji **Parametry funkcji pochylenie ścian**. Więcej informacji na ten temat znajdziesz w sekcji [Opcje](#Opcje.md).
 6.  Naciśnij przycisk **OK**, aby zakończyć.
 
 :   *Pamiętaj*\':
     -   Ponieważ dla danej cechy musi istnieć przynajmniej jedna ściana, ostatnia pozostała na liście ściana nie może zostać usunięta.
+
+
 
 ### Edycja pochylenia ścian 
 
@@ -42,6 +50,8 @@ Narzędzie <img alt="" src=images/PartDesign_Draft.svg  style="width:24px;"> **P
     -   Kliknij obiekt Szkic prawym przyciskiem myszy w oknie [Widok drzewa](Tree_view.md) i wybierz **Edytuj Pochylenie ścian** z menu kontekstowego.
 2.  Otworzy się panel [Panel zadań](Task_panel.md) **Parametry funkcji pochylenia ścian**. Więcej informacji można znaleźć w punkcie [Opcje](#Opcje.md).
 3.  Naciśnij przycisk **OK**, aby zakończyć.
+
+
 
 ## Opcje
 
@@ -60,15 +70,21 @@ Narzędzie <img alt="" src=images/PartDesign_Draft.svg  style="width:24px;"> **P
 
 -    **Odwróć kierunek wyciągnięcia**: Odwróć kierunek wyciągnięcia, zaznaczając pole wyboru **Odwróć kierunek wyciągnięcia**. Spowoduje to przełączenie pochylenia między kątami dodatnimi i ujemnymi.
 
+
+
 ## Uwagi
 
 Narzędzie Pochylenie ścian działa tylko na powierzchniach, które nie są styczne z innymi powierzchniami. Często popełnianym błędem jest próba zastosowania funkcji do powierzchni, na którą nałożono już zaokrąglenie. Aby rozwiązać ten problem, należy usunąć zaokrąglenie, zastosować pochylenie ścian, a następnie ponownie zastosować zaokrąglenie.
+
+
 
 ## Właściwości
 
 Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
 
 Obiekt Pochylenie ścian środowiska Projekt Części wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
 
 ### Dane
 

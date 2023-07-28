@@ -21,21 +21,9 @@ Das `Part::Part2DObject` ist von dem [Part Formelement](Part_Feature/de.md) abge
 
 ## Anwendung
 
+Das [Part2DObject](Part_Part2DObject/de.md) ist ein internes Objekt, kann also nicht von der grafischen Oberfläche aus erzeugt werden, sondern nur von der [Python-Konsole](Python_console/de.md), wie im Abschnitt [Scripten](#Scripten.md) beschrieben.
 
-<div class="mw-translate-fuzzy">
-
-Das [Part2DObject](Part_Part2DObject/de.md) ist ein internes Objekt, kann also nicht von der grafischen Oberfläche aus erzeugt werden, sondern nur von der [Python Konsole](Python_console/de.md), wie im Abschnitt [Scripting](Part_Part2DObject#Scripting.md) beschrieben.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das `Part::Part2DObject` ist im [Part Arbeitsbereich](Part_Workbench/de.md) festgelegt, kann aber als Basisklasse für [geskriptete Objekte](scripted_objects/de.md) in allen [Arbeitsbereichen](Workbenches/de.md) die geometrische 2D Formen erzeugen, verwendet werden. Beispielsweise ist sie das Basisobjekt für Skizzen ([Skizzierer SkizzeObjekt](Sketcher_SketchObject/de.md)), und für die meisten Objekte, die mit der [Draft Workbench](Draft_Workbench/de.md) erstellt werden.
-
-
-</div>
+Das `Part::Part2DObject` ist im Arbeitsbereich [Part](Part_Workbench/de.md) festgelegt, kann aber als Basisklasse für [skriptgenerierte Objekte](scripted_objects/de.md) in allen [Arbeitsbereichen](Workbenches/de.md) die geometrische 2D-Formen erzeugen, verwendet werden. Beispielsweise ist sie das Basisobjekt für Skizzen ([Sketcher SketchObjekt](Sketcher_SketchObject/de.md)), und für die meisten Objekte, die mit dem Arbeitsbereich [Draft](Draft_Workbench/de.md) erstellt werden.
 
 Arbeitsbereiche können diesem Grundelement weitere Eigenschaften hinzufügen, um ein Objekt mit komplexem Verhalten zu erzeugen.
 
@@ -45,21 +33,9 @@ Arbeitsbereiche können diesem Grundelement weitere Eigenschaften hinzufügen, u
 
 Siehe [Eigenschaft](Property/de.md) für alle Eigenschaftstypen, die geskriptete Objekte haben können.
 
+Das [Part Part2DObjekt](Part_Part2DObject/de.md) (Klasse `Part:: Part2DObject`) wird von einem [Part Formelement](Part_Feature/de.md) (Klasse`Part::Feature`) abgeleitet und erbt alle seiner Eigenschaften.
 
-<div class="mw-translate-fuzzy">
-
-Ein [Part Teil2DObjekt](Part_Part2DObject/de.md) (`PartDesign::Body` Klasse) wird von einem [Part Formelement](Part_Feature/de.md) (`Part::Feature` Klasse) abgeleitet, daher teilt sie alle Eigenschaften der letzteren.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Zusätzlich zu den in [Part Formelement](Part_Feature/de.md) beschriebenen Eigenschaften hat das Part Teil2DObjekt im [Eigenschaftseditor](property_editor/de.md) die folgenden Eigenschaften. Ausgeblendete Eigenschaften können unter Verwendung des **Alles anzeigen** Befehl im Kontextmenü des [Eigenschaftseditor](property_editor/de.md) angezeigt werden.
-
-
-</div>
+Das Part Part2DObjekt hat außerdem die folgenden zusätzlichen Eigenschaften im [Eigenschafteneditor](property_editor/de.md). Ausgeblendete Eigenschaften können unter Verwendung des Befehls **Alles anzeigen** im Kontextmenü des [Eigenschaftseditors](Property_editor/de.md) angezeigt werden.
 
 
 
@@ -97,15 +73,9 @@ Zusätzlich zu den in [Part Formelement](Part_Feature/de.md) beschriebenen Eigen
 ## Skripten
 
 
-<div class="mw-translate-fuzzy">
-
-
 **Siehe auch:**
 
-[FreeCAD Skripten Grundlagen](FreeCAD_Scripting_Basics/de.md), und [geskriptete Objekte](scripted_objects/de.md).
-
-
-</div>
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md) und [Skriptgenerierte Objekte](Scripted_objects/de.md).
 
 Siehe [Part Formelemente](Part_Feature/de.md) zu allgemeinen Informationen über das Hinzufügen von Objekten zum Dokument.
 
@@ -120,13 +90,7 @@ obj = App.ActiveDocument.addObject("Part::Part2DObject", "Name")
 obj.Label = "Custom label"
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Daher solltest du für [Python](Python/de.md) subclassing das Objekt `Part::Part2DObjectPython` erstellen.
-
-
-</div>
+Für [Python](Python/de.md)-Subclassing sollte ein `Part::Part2DObjectPython`-Objekt erstellt werden.
 
 
 ```python

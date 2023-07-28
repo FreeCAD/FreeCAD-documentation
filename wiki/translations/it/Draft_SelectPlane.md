@@ -1,142 +1,136 @@
 ---
 - GuiCommand:/it
    Name:Draft SelectPlane
-   Name/it:Seleziona il piano
-   MenuLocation:Draft → Utilità → Seleziona il piano
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   Name/it:Seleziona Piano
+   MenuLocation:Utilità → Seleziona Piano
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**W** **P**
-   SeeAlso:[Piano proxy](Draft_SetWorkingPlaneProxy/it.md), [Mostra la griglia](Draft_ToggleGrid/it.md)
+   SeeAlso:[Piano di lavoro proxy](Draft_WorkingPlaneProxy/it.md)
 ---
 
 # Draft SelectPlane/it
 
 
-</div>
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_SelectPlane.svg  style="width:24px;"> **Draft Seleziona Piano** seleziona il piano di lavoro Draft corrente. Questo è il piano nella [Vista 3D](3D_view/it.md) dove vengono creati i nuovi oggetti [Draft](Draft_Workbench/it.md). Un nuovo piano di lavoro può essere basato su una delle diverse [preimpostazioni](#Utilizzo_con_preimpostazioni.md) o su una selezione. La selezione può essere creata prima ([pre-selezione](#Utilizzo_con_pre-selezion.md)) o dopo ([post-selezione](#Utilizzo_wcon_post-selezione.md)) l\'avvio del comando.
 
-<div class="mw-translate-fuzzy">
-
-Il modulo Draft dispone di un sistema di Piani di lavoro, questo consente di specificare un piano personalizzato nello spazio 3D nel quale viene eseguito il comando successivo di Draft.
-
-Esistono diversi metodi per definire il piano di lavoro:
-
--   Da una faccia selezionata
--   Da tre vertici selezionati
--   Dalla vista corrente.
--   Da una preimpostazione: dall\'altoe, anteriore o laterale.
--   Nessuna, nel qual caso il piano di lavoro viene adattato automaticamente alla vista corrente quando si avvia un comando o a una faccia se si inizia a disegnare su una faccia esistente.
-
-
-</div>
-
-<img alt="" src=images/WorkingPlane_example.png  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
+<img alt="" src=images/WorkingPlane_example.png  style="width:400px;"> 
+*Forme create su diversi piani di lavoro*
 
 
 
-*È possibile impostare diversi piani di lavoro su cui disegnare forme*
+## Utilizzo con pre-selezione 
+
+1.  Effettuare una delle seguenti operazioni:
+    -   Selezionare un singolo oggetto. Sono supportati i seguenti oggetti:
+        -   [Draft Piano di lavoro proxy](Draft_WorkingPlaneProxy/it.md): la **View Data** (la posizione della telecamera) e la **Visibility Map** (la visibilità salvata degli oggetti) del piano di lavoro proxy sono anche ripristinati.
+        -   [Arch Parti di edificio](Arch_BuildingPart/it.md).
+        -   [Arch Piani di sezione](Arch_SectionPlane/it.md).
+        -   [Oggetti Part](Std_Part/it.md): per evitare di selezionare sottoelementi si consiglia di selezionarli nella [Vista ad albero](Tree_view/it.md).
+        -   [Funzioni Part](Part_Feature/it.md) oggetti che hanno una sola faccia. [Part Piani](Part_Plane/it.md) ad esempio.
+        -   Oggetti che non sono [Funzioni Part](Part_Feature/it.md) e hanno una proprietà **Placement**.
+    -   Selezionare uno o più sottoelementi. E\' possibile selezionare:
+        -   Una faccia piatta.
+        -   Tre vertici.
+        -   Un bordo circolare.
+        -   Due spigoli diritti che sono co-planari ma non co-lineari.
+        -   Un bordo dritto e un vertice che non giace sul bordo (esteso).
+2.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft Seleziona Piano](Draft_SelectPlane/it.md)** nella [Barra Draft](Draft_Tray/it.md). A seconda del piano di lavoro corrente, questo pulsante può avere un aspetto diverso.
+    -   Seleziona l\'opzione **Utilità → <img src="images/Draft_SelectPlane.svg" width=16px> Seleziona Piano** dal menu.
+    -   Usare la scorciatoia da tastiera: **W** poi **P**.
+3.  Il piano di lavoro e il pulsante nella [Barra Draft](Draft_Tray/it.md) vengono aggiornati.
 
 
-</div>
 
-## Usage with pre-selection 
+## Utilizzo con post-selezione 
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare una faccia di un oggetto esistente nella vista 3D o tenere premuto **Ctrl** e selezionare tre vertici di qualsiasi oggetto. {{Version/it|0.17}}
-2.  Premere il pulsante **<img src="images/Draft_SelectPlane.svg" width=16px> [Seleziona il piano](Draft_SelectPlane/it.md)**, oppure fare clic con il tasto destro e selezionare **Utilità → <img src="images/Draft_SelectPlane.svg" width=16px> [Seleziona il piano](Draft_SelectPlane/it.md)**.
-
-
-</div>
-
-## Usage with post-selection 
-
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft SelectPlane](Draft_SelectPlane.md)** button in the [Draft Tray](Draft_Tray.md). Depending on the current working plane this button can look different.
-    -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane** option from the menu.
-    -   Use the keyboard shortcut: **W** then **P**.
-2.  The **Working plane setup** task panel opens. See [Options](#Options.md) for more information.
-3.  Do one of the following:
-    -   Select a single object. See the [previous paragraph](#Usage_with_pre-selection.md) for the supported objects.
-    -   Select one or more subelements. You can select:
-        -   A flat face.
-        -   Three vertices.
-4.  Click anywhere in the [3D view](3D_view.md) to confirm the selection and finish the command.
-5.  The working plane and the button in the [Draft Tray](Draft_Tray.md) are updated.
-
-## Usage with presets 
+1.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft Seleziona Piano](Draft_SelectPlane/it.md)** nella [Barra Drft](Draft_Tray/it.md). A seconda del piano di lavoro corrente, questo pulsante può avere un aspetto diverso.
+    -   Selezionare l\'opzione **Utilità → <img src="images/Draft_SelectPlane.svg" width=16px> Seleziona Piano** dal menu.
+    -   Usare la scorciatoia da tastiera: **W** poi **P**.
+2.  Si apre il pannello attività **Impostazione piano di lavoro**. Vedi [Opzioni](#Opzioni.md) per maggiori informazioni.
+3.  Effettuare una delle seguenti operazioni:
+    -   Selezionare un singolo oggetto. Vedere il [paragrafo precedente](#Utilizzo_con_pre-selezione.md) per gli oggetti supportati.
+    -   Selezionare uno o più sottoelementi. E\' possibile selezionare:
+        -   Una faccia piatta.
+        -   Tre vertici.
+4.  Fare clic in un punto qualsiasi della [Vista 3D](3D_view/it.md) per confermare la selezione e terminare il comando.
+5.  Il piano di lavoro e il pulsante nella [Barra Draft](Draft_Tray/it.md) vengono aggiornati.
 
 
-<div class="mw-translate-fuzzy">
 
-1.  Premere il pulsante **<img src="images/Draft_SelectPlane.svg" width=16px> [Seleziona il piano](Draft_SelectPlane/it.md)**, o usare **Draft** → **Utilità** → **<img src="images/Draft_SelectPlane.svg" width=16px> [Seleziona il piano](Draft_SelectPlane/it.md)** dal menu principale, o la scorciatoia **W** **P**.
-2.  Selezionare l\'offset, la spaziatura della griglia e delle linee principali
-3.  Selezionare uno dei preset: **<img src="images/View-top.svg" width=16px> XY (dall'alto)**, **<img src="images/View-front.svg" width=16px> XZ (frontale)**, **<img src="images/View-right.svg" width=16px> YZ (laterale)**, **<img src="images/View-isometric.svg" width=16px> Vista**, o **<img src="images/View-axonometric.svg" width=16px> Auto**.
+## Utilizzo con preimpostazioni 
+
+1.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft Seleziona Piano](Draft_SelectPlane/it.md)** nella [Barra Draft](Draft_Tray.md). A seconda del piano di lavoro corrente, questo pulsante può avere un aspetto diverso.
+    -   Selezionare l\'opzione **Utilità → <img src="images/Draft_SelectPlane.svg" width=16px> Seleziona Piano** dal menu.
+    -   Usare la scorciatoia da tastiera: **W** poi **P**.
+2.  Si apre il pannello attività **Impostazione piano di lavoro**. Vedere [Opzioni](#Opzioni.md) per maggiori informazioni.
+3.  Premere uno qualsiasi dei pulsanti per terminare il comando.
+4.  Il piano di lavoro e il pulsante nella [Barra Draft](Draft_Tray/it.md) vengono aggiornati.
 
 
-</div>
 
 ## Opzioni
 
+-   Premere il pulsante **<img src="images/View-top.svg" width=16px> Dall'alto (XY)** per allineare il piano di lavoro con il piano XY del sistema di coordinate globale.
 
-<div class="mw-translate-fuzzy">
+-   Premere il pulsante **<img src="images/View-front.svg" width=16px> Frontale (XZ)** per allineare il piano di lavoro con il piano XZ del sistema di coordinate globale.
 
--   Premere il pulsante **<img src="images/View-top.svg" width=16px> XY (dall'alto)** per impostare il piano di lavoro sul piano XY. Per disegnare facilmente su questo piano, è necessario impostare la vista dall\'alto o dal basso (la normale è nella direzione Z positiva o negativa). Premere **2** o **5** per passare rapidamente a queste viste.
--   Premere il pulsante **<img src="images/View-front.svg" width=16px> XZ (frontale)** per impostare il piano di lavoro sul piano XZ. Per disegnare facilmente su questo piano, è necessario impostare la vista anteriore o posteriore (la normale è nella direzione Y negativa o positiva). Premere **1** o **4** per passare rapidamente a queste viste.
--   Premere il pulsante **<img src="images/View-right.svg" width=16px> YZ (laterale)** per impostare il piano di lavoro sul piano YZ. Per disegnare facilmente su questo piano, è necessario impostare la vista sul lato sinistro o destro (la normale è nella direzione X positiva o negativa). Premere **3** o **6** per passare rapidamente a queste viste.
--   Premere il pulsante **<img src="images/View-isometric.svg" width=16px> Vista** per impostare il piano di lavoro sulla vista 3D corrente, perpendicolare all\'asse della telecamera e passante attraverso l\'origine (0,0,0).
--   Premere il pulsante **<img src="images/View-axonometric.svg" width=16px> Auto** per annullare l\'impostazione di qualsiasi piano di lavoro corrente e impostare automaticamente un piano di lavoro quando viene utilizzato uno strumento. Quando viene selezionato uno strumento di disegno, la griglia verrà automaticamente aggiornata alla vista corrente; quindi, se la vista viene ruotata e viene selezionato un altro strumento, la griglia viene ridisegnata nella nuova vista. Questo equivale a premere automaticamente **<img src="images/View-isometric.svg" width=16px> Vista** prima di usare uno strumento.
--   Impostare il valore \"Offset\" per impostare il piano di lavoro a una certa distanza perpendicolare dal piano selezionato.
--   Impostare il valore \"Spaziatura griglia\" per definire lo spazio tra ciascuna linea nella griglia.
--   Impostare il valore \"Linea principale ogni\" per tracciare una linea leggermente più spessa nella griglia al valore impostato. Ad esempio, se la spaziatura della griglia è di 0,5 m, e c\'è una linea principale ogni 20 linee, ci sarà una linea leggermente più spessa ogni 10 m.
--   Fare clic sulla casella di controllo \"Centra il piano nella vista\" per disegnare il piano e la griglia più vicino alla vista della telecamera nella vista 3D.
--   Premere **Esc** o il pulsante {{button|Chiudi}} per interrompere il comando corrente.
--   \* La griglia visualizza un bordo aggiuntivo con la spaziatura delle linee principali indicata nell\'angolo in basso a sinistra {{Version/it|0.19}}. Questo può essere disabilitato tramite Modifica-\> Preferenze-\> Draft-\> Griglia e snap-\> Mostra il bordo della griglia
+-   Premere il pulsante **<img src="images/View-right.svg" width=16px> Laterale (YZ)** per allineare il piano di lavoro con il piano YZ del sistema di coordinate globale.
 
+-   Premere il pulsante **<img src="images/View-isometric.svg" width=16px> Allinea alla vista** per allineare il piano di lavoro con la [Vista 3D](3D_view/it.md) corrente. Se la casella di controllo **Centra piano sulla vista** non è selezionata, l\'origine del piano di lavoro corrisponderà all\'origine del sistema di coordinate globali, altrimenti corrisponderà al centro dell\'attuale [Vista 3D](3D_view/it.md).
 
-</div>
+-   Premere il pulsante **<img src="images/View-axonometric.svg" width=16px> Automatica** per allineare automaticamente il piano di lavoro con la [Vista 3D](3D_view/it.md) corrente ogni volta che un comando Draft o [Arch](Arch_Workbench/it.md) richiede l\'inserimento di un punto. Ciò equivale a premere il pulsante **<img src="images/View-isometric.svg" width=16px> Allinea alla vista** prima di utilizzare il comando.
 
-## Notes
+-    **Offset**definisce la distanza perpendicolare tra il piano calcolato e il piano di lavoro effettivo.
 
--   It can be useful to align the [3D view](3D_view.md) with the selected Draft working plane. For example after switching the working plane to Front you may want to switch to the [Front view](Std_ViewFront.md) as well.
--   The grid can be toggled with the [Draft ToggleGrid](Draft_ToggleGrid.md) command.
--   By double-clicking [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md) in the [Tree view](Tree_view.md) you can quickly switch between working planes.
+-   Selezionare la casella **Centra piano su vista corrente** per mettere l\'origine del piano di lavoro al centro della [Vista 3D](3D_view/it.md) corrente. Questa opzione ha davvero senso solo se viene utilizzato il pulsante **<img src="images/View-isometric.svg" width=16px> Allinea alla vista**.
 
-## Preferences
+-   Selezionare un vertice nella [Vista 3D](3D_view/it.md) e premere il pulsante **<img src="images/Draft_Move.svg" width=16px> Sposta piano di lavoro** per spostare il piano di lavoro in modo che la sua origine corrisponda alla posizione del vertice selezionato.
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+-    **Spaziatura della griglia**definisce la distanza tra le linee della griglia.
 
--   The grid settings in the task panel as well as several other grid settings are available as preferences: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
--   To use the grid the **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid** option must be selected. After changing this preference you must restart FreeCAD.
--   The Snapping radius can also be changed on-the-fly (see [Draft Snap](Draft_Snap#Preferences.md)) or by changing: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → snapRange**.
+-   Il valore **Linea principale ogni** determina dove vengono disegnate le linee principali della griglia. Le linee della griglia principale sono leggermente più spesse delle normali linee della griglia. Ad esempio, se la spaziatura della griglia è {{Value|0.5 m}} e c\'è una linea principale ogni {{Value|10 linee}}, tale linea si verificherà ogni {{Value|5 m}}.
 
-## Scripting
+-   Il valore **Estensione griglia** determina il numero di linee della griglia nelle direzioni X e Y della griglia.
+
+-   Il **Raggio di aggancio** è la distanza massima alla quale [Draft Snap Grid](Draft_Snap_Grid/it.md) rileva le intersezioni delle linee della griglia.
+
+-   Premere il pulsante **<img src="images/view-fullscreen.svg" width=16px> Centra la vista** per utilizzare l\'origine del piano di lavoro corrente come centro della [Vista 3D](3D_view/it.md).
+
+-   Premere il pulsante **<img src="images/edit-undo.svg" width=16px> Precedente** per reimpostare il piano di lavoro nella posizione precedente.
+
+-   Premere **Esc** o il pulsante **Chiudi** per interrompere il comando.
 
 
-<div class="mw-translate-fuzzy">
+
+## Note
+
+-   Può essere utile allineare la [Vista 3D](3D_view/it.md) con il piano di lavoro Draft selezionato. Ad esempio, dopo aver impostato il piano di lavoro su Frontale, si potrebbe voler passare anche alla [Vista frontale](Std_ViewFront/it.md).
+-   La griglia può essere commutata con il comando [Draft Attiva Griglia](Draft_ToggleGrid/it.md).
+-   Facendo doppio clic su [Draft Piano di lavoro proxy](Draft_WorkingPlaneProxy/it.md) nella [Vista ad albero](Tree_view/it.md) è possibile passare rapidamente da un piano di lavoro all\'altro.
+
+
+
+## Preferenze
+
+Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
+
+-   Le impostazioni della griglia nel pannello delle attività così come molte altre impostazioni della griglia sono disponibili come preferenze: **Modifica → Preferenze... → Draft → Griglia e snap → Griglia**.
+-   Per utilizzare la griglia è necessario selezionare l\'opzione **Modifica → Preferenze... → Draft → Griglia e snap → Griglia → Usa griglia**. Dopo aver modificato questa preferenza è necessario riavviare FreeCAD.
+-   Il raggio di Aggancio può anche essere modificato al volo (vedi [Draft Snap](Draft_Snap/it#Preferenze.md)) o modificando: **Strumenti → Modifica parametri... → BaseApp → Preferences → Mod → Draft → snapRange**.
+
+
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-{{emphasis|Vedere anche:}}
-
-[Draft API](Draft_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md). Vedere le [WorkingPlane API](http://www.freecadweb.org/api/DraftWorkingPlane.html).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-È possibile accedere al corrente piano di lavoro di Draft e applicare delle trasformazioni:
-
-
-</div>
+Se ,\'ambiente [Draft](Draft_Workbench/it.md) è attivo, l\'oggetto dell\'applicazione FreeCAD ha una proprietà `DraftWorkingPlane` che memorizza il piano di lavoro Draft corrente. E\' possibile accedere a questa proprietà e applicarvi delle trasformazioni:
 
 
 ```python
@@ -155,13 +149,7 @@ Gui.Snapper.toggleGrid()
 Gui.Snapper.toggleGrid()
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-È possibile creare un proprio piano e utilizzarlo indipendentemente dal piano di lavoro corrente di Draft. Ciò è utile se è necessario eseguire calcoli o proiezioni in questi altri piani.
-
-
-</div>
+È anche possibile creare piani indipendentemente dal piano di lavoro Draft. Questo può essere utile per calcoli e proiezioni:
 
 
 ```python
@@ -176,15 +164,6 @@ my_plane.alignToPointAndAxis(v1, v2, 17)
 projection = my_plane.projectPoint(App.Vector(10, 15, 2))
 print(projection)
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

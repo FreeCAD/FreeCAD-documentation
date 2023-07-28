@@ -3,14 +3,18 @@
    Name:Drawing_Annotation
    Name/it:Annotazione
    MenuLocation:Drawing → Annotazione
-   Workbenches:[Drawing](Drawing_Workbench/it.md), [Completa](Complete_Workbench.md)
+   Workbenches:[Drawing](Drawing_Workbench/it.md)
 ---
 
 # Drawing Annotation/it
 
+
+
 ### Descrizione
 
 Questo comando consente di posizionare un blocco di testo in una [pagina di disegno](Drawing_Landscape_A3/it.md).
+
+
 
 ## Utilizzo
 
@@ -19,6 +23,8 @@ Questo comando consente di posizionare un blocco di testo in una [pagina di dise
 3.  Premere il pulsante **<img src="images/Drawing_Annotation.png" width=16px> [Annotazione](Drawing_Annotation/it.md)
 **
 4.  Regolare le proprietà desiderate, come il contenuto del testo, il font, la dimensione e la posizione.
+
+
 
 ### Limitazioni
 

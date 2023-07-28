@@ -5,9 +5,13 @@
 
 </div>
 
+
+
 ## Descriere
 
 Acest instrument desenează un arc de cerc definit prin 3 puncte: punctul de start, punctul final și un alt punct de pe arcul de cerc.
+
+
 
 
 <div class="mw-translate-fuzzy">

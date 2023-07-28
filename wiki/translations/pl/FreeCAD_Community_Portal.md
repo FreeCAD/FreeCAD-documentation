@@ -74,10 +74,6 @@ These are FreeCAD community developed workbenches, scripts, macros, and addons f
 -   <http://wkupiesila.blogspot.com>
 -   <http://cadblog.pl>
 
-## Other resources 
-
--   [Interesting links](Interesting_links.md) containing some maybe useful links to other FLOSS resources and project in this area.
-
 ## You too! 
 
 -   See what you can do to [Help FreeCAD](Help_FreeCAD.md)\...

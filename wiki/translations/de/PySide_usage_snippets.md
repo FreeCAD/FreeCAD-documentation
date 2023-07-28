@@ -3,7 +3,9 @@
 
 Dies sind Codeschnipsel, die bei [Erstellen von Oberflächen](Dialog_creation/de.md) mit [PySide](PySide/de.md) nützlich sind.
 
-## Some useful commands 
+
+
+## Einige hilfreiche Befehle 
 
 
 ```python
@@ -66,6 +68,8 @@ self.lineEdit.setText(str(val_X)) # Displays the value in the lineEdit (convert 
 
 ## Encoding problems 
 
+
+
 ### UTF8
 
 By using the characters with accents, where you get the error: 
@@ -106,17 +110,17 @@ def iso8859(encoder):
     return unicode(encoder).encode('iso-8859-1')
 ```
 
-or 
+oder 
 ```python
 iso8859(unichr(176))
 ```
 
-or 
+oder 
 ```python
 unichr(ord(176))
 ```
 
-or 
+oder 
 ```python
 uniteSs = "mm"+iso8859(unichr(178))
 print(unicode(uniteSs, 'iso8859'))

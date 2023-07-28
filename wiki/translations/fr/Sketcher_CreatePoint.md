@@ -23,7 +23,7 @@ L\'outil Point crée un point dans l\'esquisse en cours, qui peut être utilisé
 
 ## Options
 
--   Par défaut, les points sont créés en tant que géométrie de construction et ne sont donc pas visibles en dehors du mode d\'édition Sketch. Utilisez l\'outil <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:16px;"> [Basculer en géométrie de construction](Sketcher_ToggleConstruction/fr.md) pour les transformer en géométrie normale. {{Version/fr|0.19}}
+-   Par défaut, les points sont créés en tant que géométrie de construction et ne sont donc pas visibles en dehors du mode d\'édition Sketch. Utilisez l\'outil <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:16px;"> [Basculer en géométrie de construction](Sketcher_ToggleConstruction/fr.md) pour les transformer en géométrie normale.
 -   Un mode d\'accrochage à la grille peut être défini dans le menu [Sketcher Préférences](Sketcher_Preferences/fr.md). Le point s\'accroche alors à la grille, s\'il a moins de 25% de distance à une ligne de la grille. Le mode d\'accrochage ne fixe pas le point sur la grille. Il possède toujours deux degrés de liberté et peut être déplacé avec la souris ou contraint à d\'autres emplacements.
 
 

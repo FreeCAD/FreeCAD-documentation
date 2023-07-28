@@ -10,6 +10,8 @@
 
 # Arch Rebar Stirrup/ru
 
+
+
 ## Описание
 
 
@@ -33,6 +35,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 
 </div>
+
+
 
 ## Применение
 
@@ -61,6 +65,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 *Taskview panel for the Arch Rebar Stirrup tool*
 
+
+
 ## Свойства
 
 -    **Front Cover**:
@@ -84,12 +90,19 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 -    **Spacing**:Расстояние между осями каждого стержня.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Сценарии
 
 
 </div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -120,6 +133,8 @@ Rebar = makeStirrup(l_cover, r_cover, t_cover, b_cover, f_cover,
 -    `amount_spacing_check`if it is `True` it will create as many reinforcement loops as given by `amount_spacing_value`; if it is `False` it will create reinforcement loops separated by the numerical value of `amount_spacing_value`.
 
 -    `amount_spacing_value`specifies the number of reinforcement loops, or the value of the separation between them, depending on `amount_spacing_check`.
+
+
 
 ### Пример
 

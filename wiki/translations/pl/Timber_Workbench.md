@@ -1,75 +1,86 @@
 # Timber Workbench/pl
-**This workbench is no longer developed or maintained.**
+**To środowisko pracy nie jest już rozwijane ani utrzymywane.**
 
-## Introduction
+
+
+## Wprowadzenie
 
 
 {{TOCright}}
 
-A complementary workbench for FreeCAD whose main goal is to provide tools to facilitate the modeling of wooden constructions (frame, timber frame, etc \...).
+Komplementarne środowisko pracy dla FreeCAD, którego głównym celem jest dostarczenie narzędzi ułatwiających modelowanie konstrukcji drewnianych *(szkieletów, ram drewnianych itp.)*.
 
-## References
 
--   Author: Jonathan Wiedemann wood-galaxy
--   Home page: <https://github.com/wood-galaxy>
--   Source code on github: <https://github.com/wood-galaxy/FreeCAD-Timber>
 
-## Tools
+## Bibliografia
 
-Detailed description <http://forum.freecadweb.org/viewtopic.php?t=12559>
+-   Autor: Jonathan Wiedemann wood-galaxy
+-   Strona główna: <https://github.com/wood-galaxy>
+-   Kod źródłowy na GitHub: <https://github.com/wood-galaxy/FreeCAD-Timber>
 
-Toolbar
+
+
+## Przybory
+
+Szczegółowy opis <https://forum.freecadweb.org/viewtopic.php?t=12559>
+
+Pasek narzędzi
 
 ![](images/Timber-menu-orizz.png )
 
-Timber Tools
+Narzędzia środowiska pracy Drewno
 
--   <img alt="" src=images/Timber-Repartition.svg  style="width:32px;"> **Repartition**: Make axis or structural system along a line
--   <img alt="" src=images/Timber-Tag.svg  style="width:32px;"> **Tag**: Add a tag to selected object(s)
+-   <img alt="" src=images/Timber-Repartition.svg  style="width:32px;"> **Repartition**: Utwórz oś lub układ strukturalny wzdłuż linii.
+-   <img alt="" src=images/Timber-Tag.svg  style="width:32px;"> **Tag**: Dodaj znacznik do wybranych obiektów.
 
-Timber Listining
+Zestawienie środowiska pracy Drewno
 
--   <img alt="" src=images/Timber-Listing.svg  style="width:32px;"> **Listing**: List objects
+-   <img alt="" src=images/Timber-Listing.svg  style="width:32px;"> **Listing**: Lista obiektów
 
-Timber Beam
+Belki środowiska pracy Drewno
 
--   <img alt="" src=images/Timber-Beam.svg  style="width:32px;"> **Timber Beam**: Creates a structure object from scratch or from a selected object (sketch, wire, face or solid)
--   <img alt="" src=images/Timber-MachiningCut.svg  style="width:32px;"> **Machining Cut**: Creates a cut machining to a Timber Beam object, relative to a plane (face)
+-   <img alt="" src=images/Timber-Beam.svg  style="width:32px;"> **Timber Beam**: Tworzy obiekt konstrukcji od podstaw lub z wybranego obiektu *(szkic, linia, ściana lub bryła)*.
+-   <img alt="" src=images/Timber-MachiningCut.svg  style="width:32px;"> **Obróbka skrawaniem**: Tworzy obróbkę skrawaniem obiektu Belka drewniana względem płaszczyzny *(ściany)*.
 
-Other
 
--   <img alt="" src=images/Timber-BeamTree.svg  style="width:32px;">
--   <img alt="" src=images/Timber_Timber.png  style="width:32px;"> Timber icon
 
-## Installation
+## Instalacja
 
-### Automatic installation 
 
-This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
 
-### From GitHub 
+### Instalacja automatyczna 
 
-See [How to install macros](How_to_install_macros.md)
+To środowisko pracy można zainstalować za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md).
 
-## Links to Timber WB 
 
--   Workbench Wiki:
--   FreeCAD Wiki:
--   FreeCAD Forum: <http://forum.freecadweb.org/viewtopic.php?t=12559>
--   Tutorials:
--   Videos:
--   Files:
--   Report bugs: Please report bugs at [FreeCAD forum](http://forum.freecadweb.org/index.php) or <https://github.com/wood-galaxy/FreeCAD-Timber/issues>
 
-## Other useful links 
+### Z repozytorium GitHub 
 
--   [Wood Library](https://github.com/wood-galaxy/FC-Library)
--   [External workbenches](External_workbenches.md)
--   [Macros recipes](Macros_recipes.md)
--   [FreeCAD Download](Download.md)
--   [FreeCAD Community Portal](FreeCAD_Community_Portal.md)
+Zapoznaj się z informacjami na stronie [Jak zainstalować makrodefinicje](How_to_install_macros/pl.md)
+
+
+
+## Odnośniki internetowe 
+
+-   środowiska pracy w Wiki:
+-   FreeCAD w Wiki:
+-   Forum programu FreeCAD: <https://forum.freecadweb.org/viewtopic.php?t=12559>
+-   Poradniki:
+-   Filmy:
+-   Pliki:
+-   Zgłaszanie błędów: Prosimy o zgłaszanie błędów na [FreeCAD forum](http://forum.freecadweb.org/index.php) lub repozytorium [GitHub](https://github.com/wood-galaxy/FreeCAD-Timber/issues)
+
+
+
+## Inne przydatne odnośniki 
+
+-   [Biblioteka Wood](https://github.com/wood-galaxy/FC-Library)
+-   [Zewnętrzne środowiska pracy](External_workbenches/pl.md)
+-   [Przepisy na makrodefinicje](Macros_recipes/pl.md)
+-   [FreeCAD Download](Download/pl.md)
+-   [Portal społeczności FreeCAD](FreeCAD_Community_Portal/pl.md)
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Timber Workbench/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Timber Workbench/pl

@@ -319,6 +319,8 @@ La herramienta le muestra un listado de todos los elementos disponibles para ser
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Guardar gráfico 
@@ -331,9 +333,9 @@ En este momento puede usted guardar su trabajo. Acúda al [anterior tutorial](Pl
 Now you can save your work. See the [previous tutorial](Plot_Basic_tutorial.md) if you don\'t remember how to do it.
 
 
-{{Tutorials_navi
+{{Plot_Tools_navi
 
-}} {{Plot_Tools_navi}}
+}}
 
 
 

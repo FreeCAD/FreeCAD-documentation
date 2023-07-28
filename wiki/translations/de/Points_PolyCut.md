@@ -1,25 +1,30 @@
 ---
 - GuiCommand:/de
-   Name/de:Punkte PolySchnitt
+   Name:Points PolyCut
+   Name/de:Points PolySchnitt
    MenuLocation:Punkte → Punktwolke schneiden
-   Workbenches:[Punkte](Points_Workbench/de.md)
+   Workbenches:[Points](Points_Workbench/de.md)
 ---
 
 # Points PolyCut/de
 
+
+
 ## Beschreibung
 
-Der **Punkte PolySchnitt** Befehl schneidet Punkte aus Punktwolken aus.
+Der Befehl **Points PolySchnitt** schneidet Punkte aus Punktwolken aus.
+
+
 
 ## Anwendung
 
-1.  Während des Befehls kann die [3D Ansicht](3D_view/de.md) nicht verändert werden. Es ist ratsam, die 3D Ansicht zuerst richtig auszurichten.
-2.  Wähle eine oder mehrere Punktwolken aus.
+1.  Während des Befehls kann die [3D-Ansicht](3D_view/de.md) nicht verändert werden. Es ist ratsam, die 3D-Ansicht zuerst richtig auszurichten.
+2.  Eine oder mehrere Punktwolken auswählen.
 3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Drücke die **<img src="images/Points_PolyCut.svg" width=16px> [Punkte PolySchnitt](Points_PolyCut/de.md)** Schaltfläche.
-    -   Wähle den **Punkte → <img src="images/Points_PolyCut.svg" width=16px> Punktwolke schneiden** aus dem Menü.
-4.  Definiere ein Polygon in der 3D Ansicht.
-5.  Wähle eine Option aus dem Kontextmenü der 3D Ansicht:
+    -   Die Schaltfläche **<img src="images/Points_PolyCut.svg" width=16px> [Punktwolke schneiden](Points_PolyCut/de.md)** drücken.
+    -   Den Menüeintrag **Punkte → <img src="images/Points_PolyCut.svg" width=16px> Punktwolke schneiden** auswählen.
+4.  Ein Polygon in der 3D-Ansicht definieren.
+5.  Eine Option aus dem Kontextmenü der 3D-Ansicht auswählen:
     -   
         **Beenden**
         

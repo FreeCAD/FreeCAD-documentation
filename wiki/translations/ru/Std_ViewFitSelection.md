@@ -10,18 +10,30 @@
 
 # Std ViewFitSelection/ru
 
+
+
 ## Описание
 
-The **Std ViewFitSelection** command zooms and pans the camera so that all selected objects fit inside the active [3D view](3D_view.md).
+
+<div class="mw-translate-fuzzy">
+
+Команда **Уместить выделенное** масштабирует и перемещает камеру так, чтобы все выбранные объекты уместились внутри активного [3D Вида](3D_view/ru.md). Данная команда крайне востребована в случаях если по каким-то причинам (сбой программы или в результате действий пользователя) ваш объект ушел далеко за границы текущего 3Д Вида, так что его не возможно отыскать используя обычную навигацию.
+
+
+</div>
+
+
 
 ## Применение
 
-1.  Select one or more objects.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_ViewFitSelection.svg" width=16px> [Std ViewFitSelection](Std_ViewFitSelection.md)** button.
-    -   Select the **View → Standard views → <img src="images/Std_ViewFitSelection.svg" width=16px>Fit selection** option from the menu.
-    -   Select the **<img src="images/Std_ViewFitSelection.svg" width=16px> Fit selection** option from the [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut: **V** then **S**.
+1.  Выберите один или несколько объектов.
+2.  Существует несколько способов вызова команды:
+    -   Через нажатие кнопки **<img src="images/Std_ViewFitSelection.svg" width=16px> [Уместить выделенное](Std_ViewFitSelection/ru.md)**.
+    -   Через пункт меню **Вид → Стандартные виды → <img src="images/Std_ViewFitSelection.svg" width=16px>Уместить выделенное**.
+    -   Через пункт **<img src="images/Std_ViewFitSelection.svg" width=16px> Уместить выделенное** контекстного меню [3D Вида](3D_view/ru.md).
+    -   Последовательностью клавиш клавиатуры: **V** и **S**.
+
+
 
 ## Программирование
 
@@ -30,7 +42,7 @@ The **Std ViewFitSelection** command zooms and pans the camera so that all selec
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-To change the view to \'fit selection\' the `SendMsgToActiveView` method of the FreeCADGui object can be used. This method is not available if FreeCAD is in console mode.
+Чтобы применить команду «Уместить выбранное» к активному 3D Виду, можно также использовать метод `SendMsgToActiveView` объекта FreeCADGui. Этот метод недоступен, если FreeCAD находится в режиме консоли.
 
 
 ```python

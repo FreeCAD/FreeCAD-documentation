@@ -6,6 +6,8 @@
 
 Doxygen jest popularnym narzędziem do generowania dokumentacji z adnotacji w źródłach C++; obsługuje również inne popularne języki programowania, takie jak C#, PHP, Java i Python. Odwiedź stronę [Doxygen](http://www.doxygen.nl/), aby dowiedzieć się więcej o systemie, i zapoznaj się z [Podręcznikiem Doxygen](http://www.doxygen.nl/manual/index.html), aby uzyskać pełne informacje.
 
+
+
 ## Doxygen i FreeCAD 
 
 This document gives a brief introduction to Doxygen, in particular how it is used in FreeCAD to document its sources. Visit the [source documentation](source_documentation.md) page for instructions on building the FreeCAD documentation, which is also hosted online on the [FreeCAD API website](https://www.freecadweb.org/api/).
@@ -206,7 +208,9 @@ A class to store a collection of coordinates is defined in a C++ header file. Th
 -   Source code of [vtkArrayCoordinates.h](https://github.com/Kitware/VTK/blob/master/Common/Core/vtkArrayCoordinates.h).
 -   Doxygen produced documentation for the [vtkArrayCoordinates class](http://www.vtk.org/doc/nightly/html/classvtkArrayCoordinates.html).
 
-## Compiling the documentation 
+
+
+## Kompilacja dokumentacji 
 
 <img alt="" src=images/FreeCAD_doxygen_workflow.svg  style="width:800px;">
 
@@ -291,7 +295,9 @@ If you are writing new classes, functions or an entire new workbench, it is reco
 
 When generating the complete FreeCAD documentation, you don\'t run `doxygen` directly. Instead, the project uses `cmake` to configure the build environment, and then `make` triggers compilation of the FreeCAD sources and of the Doxygen documentation; this is explained in the [source documentation](source_documentation.md) page.
 
-## Doxygen markup 
+
+
+## Znaczniki Doxygen 
 
 All Doxygen [documentation commands](http://www.doxygen.nl/manual/commands.html) start with a backslash `\` or an at-symbol `@`, at your preference. Normally the backslash `\` is used, but occasionally the `@` is used to improve readability.
 
@@ -336,7 +342,9 @@ Some of the most common keywords used in the FreeCAD documentation are presented
 
 </div>
 
-## Obsługa Markdown 
+
+
+## Obsługa znaczników Markdown 
 
 Od wersji Doxygen 1.8 rozpoznawana jest składnia Markdown w blokach dokumentacji. Markdown to minimalistyczny język formatowania inspirowany zwykłym tekstem e-mail, który, podobnie jak składnia Wiki, ma być prosty i czytelny, nie wymagając skomplikowanego kodu, jaki można znaleźć w HTML-u, LaTeX-u czy własnych komendach Doxygen. Markdown zyskał popularność wśród wolnego oprogramowania, zwłaszcza w platformach internetowych takich jak Github, ponieważ umożliwia tworzenie dokumentacji bez użycia skomplikowanego kodu. Zobacz sekcję [Obsługa Markdown](http://www.doxygen.nl/manual/markdown.html) w podręczniku Doxygen, aby dowiedzieć się więcej. Odwiedź [Strona Markdown](https://daringfireball.net/projects/markdown/), aby dowiedzieć się więcej o pochodzeniu i filozofii Markdown.
 
@@ -893,6 +901,8 @@ While Sphinx can natively parse Python docstrings, it requires a bit more work t
 See the [Quick start guide](https://breathe.readthedocs.io/en/latest/quickstart.html) in the Breathe documentation to know more about this process.
 
 See this answer in [Stackoverflow](https://stackoverflow.com/a/35377654) for other alternatives to documenting C++ and Python code together in the same project.
+
+
 
 ## Powiązane
 

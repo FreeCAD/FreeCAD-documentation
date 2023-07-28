@@ -1,30 +1,28 @@
 ---
 - GuiCommand:/de
    Name:Draft Arc
-   Name/de:Entwurf Bogen
-   MenuLocation:Entwurf → Bogen
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Name/de:Draft Bogen
+   MenuLocation:Entwurf → Bogenwerkzeuge → Kreisbogen
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Version:0.7
    Shortcut:**A** **R**
-   SeeAlso:[Entwurf Bogen 3Punkte](Draft_Arc_3Points/de.md), [Entwurf Kreis](Draft_Circle/de.md)
+   SeeAlso:[Draft Bogen 3Punkte](Draft_Arc_3Points/de.md), [Draft Kreis](Draft_Circle/de.md)
 ---
 
 # Draft Arc/de
 
+
+
 ## Beschreibung
 
+Das Werkzeug <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> **Draft Bogen** erstellt einen Kreisbogen auf der aktuellen [Arbeitsebene](Draft_SelectPlane/de.md) aus Mittelpunkt, Radius, Anfangswinkel und Öffnungswinkel. Der Radius und die Winkel können durch Indizieren der Punkte festgelegt werden.
 
-<div class="mw-translate-fuzzy">
-
-Das Bogen Werkzeug erstellt einen Kreisbogen in der aktuellen [Arbeitsebene](Draft_SelectPlane/de.md) durch Eingabe von vier Punkten, dem Mittelpunkt, dem Radius, dem ersten und letzten Punkt oder durch Auswahl von Tangenten oder einer Kombination von diesen. Es benutzt den [Entwurf Linienstil](Draft_Linestyle/de.md) auf den [Entwurf Tray](Draft_Tray/de.md) gesetzt.
-
-
-</div>
-
-A Draft Arc is in fact a [Draft Circle](Draft_Circle.md) with a **First Angle** that is not the same as its **Last Angle**.
+Ein Draft-Bogen ist eigentlich ein [Draft-Kreis](Draft_Circle/de.md) mit einer {{PropertyData/de|First Angle}} die nicht identisch ist mir der {{PropertyData/de|Last Angle}}.
 
 <img alt="" src=images/Draft_Arc_example.jpg  style="width:400px;"> 
-*Bogen definiert durch vier Punkte, Mittelpunkt, Radius, Startpunkt und letzter Punkt des Bogens*
+*Ein durch vier Punkte festgelegter Bogen aus Mittelpunkt, Radius, Startpunkt und letztem Punkt des Bogens*
+
+
 
 ## Anwendung
 
@@ -44,6 +42,8 @@ Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md)
 
 
 </div>
+
+
 
 ## Optionen
 
@@ -67,9 +67,13 @@ Die im Aufgabenpaneel verfügbaren Einzelzeichen-Tastaturkürzel können geände
 
 </div>
 
+
+
 ## Hinweise
 
 -   Ein Bogen kann mit dem [Bearbeiten](Draft_Edit/de.md)-Befehl geändert werden.
+
+
 
 ## Einstellungen
 
@@ -78,15 +82,19 @@ Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstell
 -   To change the number of decimals used for the input of coordinates, radii and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
 
+
+
 ## Eigenschaften
 
 Siehe [Draft Kreis](Draft_Circle/de#Properties.md).
+
+
 
 ## Skripten
 
 Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Um einen Entwurf Bogen zu erstellen, verwende die Methode `make_circle` (<small>(v0.19)</small> ) des Entwurfmoduls. Diese Methode ersetzt die veraltete Methode `makeCircle`.
+Zum Erstellen eines Draft-Bogens wird die Methode `make_circle` des Draft-Moduls verwendet ({{Version/de|0.19}}). Diese Methode ersetzt die veraltete Methode `makeCircle`.
 
 Beispiel:
 

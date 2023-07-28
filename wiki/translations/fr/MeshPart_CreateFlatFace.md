@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande **Mesh Développer une face** crée une représentation à plat d\'une face d\'un objet de forme. Le contour créé est une [Part Feature](Part_Feature/fr.md). À ce stade, la commande crée presque toujours un contour rectangulaire.
+La commande **Développer une face** crée une représentation à plat d\'une face d\'un objet de forme. Le contour créé est une [Part Feature](Part_Feature/fr.md). À ce stade, la commande crée presque toujours un contour rectangulaire.
 
 
 

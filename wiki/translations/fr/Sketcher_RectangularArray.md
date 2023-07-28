@@ -38,7 +38,7 @@ Le **Réseau rectangulaire** a les options suivantes :
 -   **Rangées** : nombre de rangées du réseau.
 -   **Espacement vertical/horizontal égal** : si la distance verticale entre les éléments du réseau doit être la même que la distance horizontale.
 -   **Contraindre la séparation entre éléments** : lorsque cette option est cochée, la distance entre les éléments du réseau sera contrainte.Si vous savez par exemple seulement que vous avez besoin d\'un réseau de 23 x 15 mm, utilisez cette option pour pouvoir ensuite modifier ces contraintes aux dimensions dont vous avez besoin.
--   **Clone** : ??
+-   **Clone** : si cette option est sélectionnée, les contraintes dimensionnelles sont remplacées par des contraintes géométriques dans les copies, de sorte que toute modification de l\'élément original se reflète également dans les copies.
 
 
 

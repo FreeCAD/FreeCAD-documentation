@@ -9,6 +9,8 @@
 
 # Std ToggleClipPlane/pl
 
+
+
 ## Opis
 
 Polecenie przełącz *Płaszczyznę przecinającą* tymczasowo ukrywa obiekty i ich części po jednej stronie maksymalnie trzech wirtualnych płaszczyzn w aktywnym [widoku 3D](3D_view/pl.md).
@@ -16,13 +18,15 @@ Polecenie przełącz *Płaszczyznę przecinającą* tymczasowo ukrywa obiekty i 
 ![](images/Std_ToggleClipPlane_example.png ) 
 *Przycięty pusty obiekt.*
 
-![](images/Std_ToggleClipPlane_taskpanel.png ) 
-*Panel zadań funkcji przycinania*
+![](images/Std_ToggleClipPlane_Dialog.png ) 
+*Okienko dialogowe funkcji przycinania*
+
+
 
 ## Użycie
 
 1.  Wybierz z menu opcję **Widok → <img src="images/Std_ToggleClipPlane.svg" width=16px> Płaszczyzna tnąca**.
-2.  W panelu zadań Przycinania wykonaj jedną z poniższych czynności:
+2.  W okienku dialogowym Przycinania wykonaj jedną z poniższych czynności:
     -   Zaznacz jedno lub więcej pól wyboru {{CheckBox|TRUE|Utnij względem X}} do {{CheckBox|TRUE|Utnij względem Z}}.
         -   Opcjonalnie zmień odległość *(odległości)* przesunięcia.
         -   Opcjonalnie wciśnij przycisk*(i)* **Obróć**, aby zmienić bok płaszczyzny przycinania obiekty są ukryte.
@@ -34,6 +38,8 @@ Polecenie przełącz *Płaszczyznę przecinającą* tymczasowo ukrywa obiekty i 
             -   Określ kierunek, wprowadzając współrzędne X, Y i Z wektora normalnego.
 3.  Opcjonalnie zmień widok, aby sprawdzić model.
 4.  Wciśnij przycisk **Zamknij**, aby zamknąć panel zadań i zakończyć polecenie.
+
+
 
 ## Uwagi
 

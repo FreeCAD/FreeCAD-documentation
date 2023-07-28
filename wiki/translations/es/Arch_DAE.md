@@ -12,6 +12,11 @@
 </div>
 
 
+{{TOCright}}
+
+## Description
+
+
 <div class="mw-translate-fuzzy">
 
 El formato [Collada (DAE)](http://en.wikipedia.org/wiki/COLLADA) es un formato de archivo estándar para el intercambio de datos de mallas. El [Módulo de Arquitectura](Arch_Workbench/es.md) puede importar mallas desde archivos .dae, y exportar objetos de Arquitectura y otros objetos basados en [formas](Part_Workbench/es.md) al formato .dae.

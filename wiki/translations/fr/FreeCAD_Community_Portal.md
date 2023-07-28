@@ -1,6 +1,8 @@
 # FreeCAD Community Portal/fr
 C\'est l\'endroit où mettre toutes sortes de choses liées à FreeCAD! Si vous travaillez sur quelque chose lié à FreeCAD, veuillez l\'inclure ici!
 
+
+
 ## Endroits où FreeCAD apparaît sur le net 
 
 -   [Wikipedia](https://en.wikipedia.org/wiki/FreeCAD)
@@ -11,9 +13,13 @@ C\'est l\'endroit où mettre toutes sortes de choses liées à FreeCAD! Si vous 
 -   [Freshports](http://www.freshports.org/cad/freecad/)
 -   [Packman](http://packman.links2linux.de/package/2776)
 
+
+
 ## Projets liés à FreeCAD 
 
 -   [Développement en architecture](http://yorik.uncreated.net/guestblog.php?tag=freecad): un exemple de la façon dont FreeCAD peut commencer à avoir sa place préliminaire dans un développement en architecture \...
+
+
 
 ## Les Addons de la communauté FreeCAD 
 
@@ -22,11 +28,17 @@ Ce sont des ateliers, scripts, macros et extensions développés par la communau
 -   [Dépôt des extensions de FreeCAD sous GitHub](https://github.com/FreeCAD/FreeCAD-addons) est le dépôt GitHub qui héberge les extensions de FreeCAD.
 -   [Ateliers externes](External_workbenches/fr.md) est la page wiki dédiée à expliquer plus de détails sur chaque extension.
 
+
+
 ## Publicité
+
+
 
 ### Réseaux sociaux 
 
 -   [yorik](User_Yorik.md) - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
+
+
 
 ### Sites d\'information 
 
@@ -41,6 +53,8 @@ Ce sont des ateliers, scripts, macros et extensions développés par la communau
 -   <http://www.inside3dp.com/>
 -   <http://diy3dprinting.blogspot.com/>
 
+
+
 ### Autres sites 
 
 -   <http://forum.lulzbot.com/viewforum.php?f=30>
@@ -54,19 +68,27 @@ Ce sont des ateliers, scripts, macros et extensions développés par la communau
 -   <http://opensourcedesigntools.blogspot.de/>
 -   [yorik](User_Yorik.md) - <http://yorik.uncreated.net>
 
+
+
 ### Français
 
 -   <http://www.linuxgraphic.org/>
 -   <https://freecad-france.com/>
 -   <https://linuxfr.org/>
 
+
+
 ### Espagnol
 
 -   <http://www.iearobotics.com/blog/>
 
+
+
 ### Italien
 
 -   <http://ingegnerialibera.altervista.org/blog/doku.php>
+
+
 
 ### Polonais
 
@@ -74,9 +96,7 @@ Ce sont des ateliers, scripts, macros et extensions développés par la communau
 -   <http://wkupiesila.blogspot.com>
 -   <http://cadblog.pl>
 
-## Autres ressources 
 
--   [Liens intéressants](Interesting_links/fr.md) contenant des liens peut-être utiles vers d\'autres ressources et projets FLOSS dans ce domaine.
 
 ## Vous aussi! 
 

@@ -9,14 +9,22 @@
 
 # TechDraw Symbol/fr
 
+
+</div>
+
 ## Description
 
-L\'outil Symbole insère un fichier [SVG](SVG/fr.md) dans la page. Ce symbole peut être tout ce qui peut aider à annoter votre dessin et ne nécessite aucune modification supplémentaire.
+L\'outil **TechDraw Symbole** insère un fichier [SVG](SVG/fr.md) dans la page. Ce symbole peut être tout ce qui peut aider à annoter votre dessin et ne nécessite aucune modification supplémentaire.
 
 <img alt="" src=images/TechDraw_SymbolSVG_sample.png  style="width:250px;"> 
 *Rose des vents ajoutée à la page de dessin. Ce symbole est disponible en installant le module complémentaire "symbols_library" avec le [Gestionnaire des extensions](Std_AddonMgr/fr.md)*
 
+
+
 ## Utilisation
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Appuyez sur le bouton **<img src="images/TechDraw_Symbol.svg" width=16px> [Insérer un symbole SVG](TechDraw_Symbol/fr.md)
 **
@@ -24,11 +32,16 @@ L\'outil Symbole insère un fichier [SVG](SVG/fr.md) dans la page. Ce symbole pe
 3.  Sélectionnez un emplacement et un nom de fichier.
 4.  Appuyez sur **OK**
 
-Si le symbole semble plus grand que prévu, utilisez la propriété scale (échelle) pour ajuster sa taille.
+
+</div>
+
+
 
 ## Remarques
 
 -    **Scale Type**pour les symboles est toujours défini sur *Personnalisé* lors de la création. C\'est pour plus de commodité, car les symboles sont presque toujours mis à l\'échelle différemment du reste des objets de la page.
+
+
 
 ## Propriétés
 
@@ -38,6 +51,8 @@ Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
 {{TitleProperty|Drawing view}}
 
 -    **Editable Texts**: Liste des textes modifiables, le cas échéant.
+
+
 
 ## Script
 

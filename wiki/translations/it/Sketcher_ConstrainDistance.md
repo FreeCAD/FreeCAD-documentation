@@ -27,6 +27,8 @@ Il vincolo **Distanza** impone alla lunghezza di una linea, alla distanza perpen
 
 ![](images/Sketcher_ConstrainDistance_example.png )
 
+
+
 ## Utilizzo
 
 
@@ -67,7 +69,7 @@ Quando sono applicabili conviene usare il vincolo **[<img src=images/Sketcher_Co
 Distance from origin:
 
 
-```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Edge, PointOfEdge, App.Units.Quantity('123.0 mm')))```
+```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Edge, PointOfEdge, -1, 1, App.Units.Quantity('123.0 mm')))```
 
 Distance between two vertices:
 
@@ -79,12 +81,17 @@ Length of line (the GUI allows selecting the edge itself, but it is just a short
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Line, 1, Line, 2, App.Units.Quantity('123.0 mm')))```
 
-Distance from point (`Edge, PointOfEdge`) to nearest point on line (`Line`):
+Distance from point (`Edge, PointOfEdge`) to perpendicular point on line (`Line`):
 
 
-```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Edge, PointOfEdge, Line, App.Units.Quantity('123.0 mm')))```
+```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Edge, PointOfEdge, Line, 0, App.Units.Quantity('123.0 mm')))```
 
-The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Edge1`, `Edge2`, `Edge`, `PointOfEdge1`, `PointOfEdge2`, `PointOfEdge` and `Line`, and contains further examples on how to create constraints from Python scripts.
+Distance between the edges of two circles:
+
+
+```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Circle1, 0, Circle2, 0, App.Units.Quantity('123.0 mm')))```
+
+The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Edge`, `Edge1`, `Edge2`, `PointOfEdge`, `PointOfEdge1`, `PointOfEdge2`, `Line`, `Circle1` and `Circle2`, and contains further examples on how to create constraints from Python scripts.
 
 
 <div class="mw-translate-fuzzy">

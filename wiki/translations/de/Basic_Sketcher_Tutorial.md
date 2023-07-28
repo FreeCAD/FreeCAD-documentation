@@ -14,6 +14,8 @@
 
 
 
+
+
 ## Einführung
 
 Dieses Tutorium wurde ursprünglich von Drei geschrieben, und es wurde von vocx neu geschrieben und illustriert.
@@ -35,6 +37,8 @@ Für eine genauere Beschreibung des Skizzierers, lese die [Skizzierer Referenz](
 ![](images/00_Sk01_Sketcher_fully_constrained_final.png ) 
 *Endergebnis der Skizze, wobei die gesamte Geometrie vollständig beschränkt ist, einschließlich der Konstruktionsgeometrie zur Unterstützung.*
 
+
+
 ## Einrichtung
 
 1\. Öffne FreeCAD, erstelle ein neues leeres Dokument mit **Datei → [<img src=images/Std_New.svg style="width:16px"> [Neu](Std_New/de.md)**.
@@ -46,6 +50,8 @@ Einige Aktivitäten zum Erinnern:
 -   Drücke die rechte Maustaste, oder drücke **Esc** einmal auf der Tastatur, um das aktive Werkzeug im Bearbeitungsmodus abzuwählen.
 -   Um den Skizzenbearbeitungsmodus zu verlassen, drücke die **Schließen** Schaltfläche im [Aufgabenpaneel](task_panel/de.md) oder drücke **Esc** zweimal auf der Tastatur.
 -   Um den Bearbeitungsmodus erneut aufzurufen, doppelklicke auf die Skizze in der [Baumansicht](tree_view/de.md) oder wähle sie aus und klicke dann auf **[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [Skizze bearbeiten](Sketcher_EditSketch/de.md)**.
+
+
 
 ## Erstellen einer Skizze 
 
@@ -67,6 +73,8 @@ Die [Baumansicht](tree_view/de.md) wechselt zum [Aufgabenpaneel](task_panel/de.m
 
 
 *Oberer Teil des [Aufgabenpaneel](task_panel/de.md) des Skizzierers.*
+
+
 
 ## Konstruktionsgeometrie
 
@@ -99,11 +107,15 @@ Schaue dir die Abschnitte **Beschränkungen** und **Elemente** an, um die neu au
 
 *Konstruktionslinien, die eine Sternform mit dem Zentrum im Ursprung bilden.*
 
+
+
 ## Reale Geometrie 
 
 Die reale Geometrie muss eine geschlossene Form aufweisen, wenn sie als Profil verwendet werden soll, das mit Werkzeugen wie **[<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Polster](PartDesign_Pad/de.md)** extrudiert werden kann.
 
 Vergewissere dich, dass du dich nicht im Konstruktionsmodus befindest, durch klicken auf **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Konstruktion umschalten](Sketcher_ToggleConstruction/de.md)**, wenn du diesen Modus zuvor noch nicht verlassen hast.
+
+
 
 ### Äußere Bögen 
 
@@ -127,6 +139,8 @@ Vergewissere dich, dass du dich nicht im Konstruktionsmodus befindest, durch kli
 
 *Kreisbögen hinzugefügt an den Endpunkten der Konstruktionslinien. Ebenso ein zentraler Kreis.*
 
+
+
 ### Innere Bögen 
 
 6\. Erzeuge einen Bogen zwischen jedem Paar der vorherigen O-Bögen.
@@ -143,6 +157,8 @@ Zusammenfassend lässt sich sagen, dass die Krümmung der O-Bögen nach außen u
 
 *Kreisbögen, die zwischen dem ersten Satz von Bögen hinzugefügt wurden.*
 
+
+
 ## Beschränkungen
 
 Wirf noch einmal einen Blick auf das [Aufgabenpaneel](task_panel/de.md). Aufgrund der neuen geometrischen Elemente, die wir gezeichnet haben, weist der **Lösermeldungen** Abschnitt noch mehr **Freiheitsgrade** auf. Ein **Freiheitsgrad** (DOF) zeigt eine mögliche Bewegung eines Elements an. Beispielsweise kann ein Punkt sowohl in horizontaler als auch in vertikaler Richtung bewegt werden, so dass er zwei Freiheitsgrade hat. Eine Linie wird durch zwei Punkte definiert, daher hat sie insgesamt vier Freiheitsgrade. Wenn wir einen dieser Punkte fixieren, dann hat das gesamte System nur zwei Freiheitsgrade zur Verfügung; wenn wir zusätzlich die horizontale Bewegung des verbleibenden Punktes fixieren, dann haben wir nur noch einen Freiheitsgrad; und wenn wir auch die vertikale Bewegung dieses Punktes fixieren, dann verschwindet der letzte Freiheitsgrad, und die Linie kann sich nicht mehr von ihrer Position wegbewegen.
@@ -155,7 +171,11 @@ Es gibt zwei Haupttypen von Beschränkungen:
 
 -    **Bezugsbeschränkungen**definieren Merkmale der Formen durch Angabe von Abmessungen, z.B. eine numerische Länge oder einen Winkel.
 
+
+
 ## Geometrische Beschränkungen 
+
+
 
 ### Gleiche Länge und gleicher Radius 
 
@@ -201,6 +221,8 @@ Wenn du die Beschränkung vorübergehend deaktivieren möchtest, kannst du sie a
 
 *Skizze mit Gleichheitsbeschränkungen, die auf die Konstruktionslinien und die beiden Bogensätze angewendet werden.*
 
+
+
 ### Tangentialität
 
 8\. Wende Tangentialität auf die Bögen an.
@@ -222,9 +244,13 @@ Ab diesem Schritt haben wir nun ein geschlossenes Profil erstellt, da alle Böge
 
 *Skizze mit tangentialen Beschränkungen, die auf die Bögen angewendet werden, wodurch die Form geschlossen wird.*
 
+
+
 ## Bezugspunktbeschränkungen
 
 Diese Beschränkungen geben die numerischen Abstände zwischen zwei Punkten und die Winkel zwischen zwei Linien an.
+
+
 
 ### Abstände und Winkel 
 
@@ -292,6 +318,8 @@ Wir sollten am Ende eine völlig beschränkte Skizze erhalten. Dies kann bestät
 
 *Links: vollständig beschränkte Skizze, in der nur die wichtigsten Beschränkungen gezeigt werden. Rechts: Volumenextrusion erzeugt mit [PartDesign Polster](PartDesign_Pad/de.md).*
 
+
+
 ## Zusätzliche Informationen 
 
 Für eine eingehendere Beschreibung des Skizzierers besuche die [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) Dokumentation und lies auch die [Skizzierer Referenz](Sketcher_reference/de.md).
@@ -304,9 +332,11 @@ Die Beschränkung einer Skizze kann auf viele verschiedene Arten erfolgen. Im Al
 -   Versuche, eine andere Konstruktionsgeometrie zu verwenden.
 
 
- {{Sketcher Tools navi}}
+{{Sketcher Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/de

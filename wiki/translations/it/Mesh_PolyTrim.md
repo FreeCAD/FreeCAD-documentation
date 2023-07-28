@@ -46,11 +46,13 @@ Il comando **Rifila con un poligono** taglia facce e parti di facce da oggetti m
         
         : annulla il comando.
 
-## Scripting
 
-See also: [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-To trim a mesh with a polygon use its `trim` method.
+## Script
+
+Vedere anche: [Script di base per FreeCAD](FreeCAD̠_Scripting_Basics/it.md)
+
+Per tagliare una mesh con un poligono usare il suo metodo `trim`.
 
 
 ```python

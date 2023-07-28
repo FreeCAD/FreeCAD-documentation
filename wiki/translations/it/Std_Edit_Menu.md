@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introduzione
 
 Il menu **Modifica** è uno dei sette sottomenu del [menu standard](Standard_Menu/it.md):
@@ -25,7 +27,9 @@ Il menu **Modifica** è uno dei sette sottomenu del [menu standard](Standard_Men
 [Aiuto](Std_Help_Menu/it.md)
 }}
 
-Il menu **Modifica** contiene gli strumenti relativi alla modifica del modello.
+Il menu Modifica contiene gli strumenti relativi alla modifica del modello.
+
+
 
 ## Strumenti
 
@@ -41,13 +45,7 @@ In questo menu sono disponibili i seguenti strumenti:
 
 -   <img alt="" src=images/Std_Paste.svg  style="width:32px;"> [Incolla](Std_Paste/it.md): incolla il contenuto degli appunti nel documento corrente.
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Std_DuplicateSelection.svg  style="width:32px;"> [Duplica la selezione](Std_DuplicateSelection/it.md): duplica gli oggetti all\'interno del documento.
-
-
-</div>
 
 -   <img alt="" src=images/Std_Refresh.svg  style="width:32px;"> [Aggiorna](Std_Refresh/it.md): ricalcola il documento.
 
@@ -59,31 +57,20 @@ In questo menu sono disponibili i seguenti strumenti:
 
 -   <img alt="" src=images/Std_Delete.svg  style="width:32px;"> [Elimina](Std_Delete/it.md): cancella gli oggetti selezionati.
 
--   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> [Invia alla console Python](Std_SendToPythonConsole/it.md): crea delle variabili nella [console Python](Python_console/it.md) in riferimento a un oggetto {{Version/it|0.19}}
+-   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> [Invia alla console Python](Std_SendToPythonConsole/it.md): crea delle variabili nella [console Python](Python_console/it.md) in riferimento a un oggetto.
 
 -   <img alt="" src=images/Std_Placement.svg  style="width:32px;"> [Posizionamento\...](Std_Placement/it.md): apre il dialogo per il Posizionamento di un oggetto.
 
--   <img alt="" src=images/Std_TransformManip.svg  style="width:32px;"> [Transform](Std_TransformManip.md): Transforms an object in the [3D view](3D_view.md).
+-   <img alt="" src=images/Std_TransformManip.svg  style="width:32px;"> [Trasforma](Std_TransformManip/it.md): trasforma un oggetto nella [Vista 3D](3D_view/it.md).
 
+-   <img alt="" src=images/Std_Alignment.svg  style="width:32px;"> [Allineamento\...](Std_Alignment/it.md): allinea un oggetto in relazione ad un oggetto di riferimento fisso.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Std_Edit.svg  style="width:32px;"> [Modalità modifica](Std_Edit/it.md): attiva o disattiva la modalità di modifica degli oggetti.
 
--   [Allineamento\...](Std_Alignment/it.md): apre il dialogo per allineare gli oggetti selezionati.
+-   <img alt="" src=images/Std_UserEditMode.svg  style="width:32px;"> [Impostazione Modalità modifica](Std_UserEditMode/it.md): definisce la modalità di modifica da utilizzare quando si fa doppio clic su un oggetto nella [Vista albero](Tree_view/it.md). {{Version/it|0.20}}
 
-
-</div>
-
--   <img alt="" src=images/Std_Edit.svg  style="width:32px;"> [Attiva o disattiva modalità modifica](Std_Edit/it.md): attiva o disattiva la modalità di modifica degli oggetti.
-
--   <img alt="" src=images/Std_UserEditMode.svg  style="width:32px;"> [Edit mode](Std_UserEditMode.md): Defines the edit mode to be used when an object is double-clicked in the [Tree view](Tree_view.md). <small>(v0.20)</small> 
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Preferenze](Std_DlgPreferences/it.md): apre la finestra di dialogo per l[editor delle preferenze](Preferences_Editor/it.md). **Nota:** Su MacOS questa opzione può apparire nel menu di FreeCAD invece che nel menu Modifica.
-
-
-</div>
+-   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Preferenze](Std_DlgPreferences/it.md): apre la finestra di dialogo per l[editor delle preferenze](Preferences_Editor/it.md). 
+**-- In MacOS questa opzione di menu potrebbe trovarsi nel menu di FreeCAD invece che nel menu Modifica.**
 
 
 

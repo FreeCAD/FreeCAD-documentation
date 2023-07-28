@@ -3,76 +3,31 @@
 
 
 
-## Einführung
+## Einleitung
 
 <img alt="" src=images/Part_3D_object.svg  style="width:32px;">
 
+Ein [Part Formelement](Part_Feature/de.md)-Objekt, oder formal ein `Part:: Feature`, ist ein einfaches Element mit einer [topologischen Form](Part_TopoShape/de.md), das in der [3D-Ansicht](3D_view/de.md) angezeigt werden kann.
 
-<div class="mw-translate-fuzzy">
-
-Ein [Part Formelement](Part_Feature/de.md) Objekt, oder formal ein `Part::Feature`, ist ein einfaches Element mit einer [topologische Form](Part_TopoShape/de.md) verbunden mit ihm, das in der [3D Ansicht](3D_view/de.md) angezeigt werden kann.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Ein Part Formelement ist die Elternklasse der meisten 2D (Entwurf, Skizzierer) und 3D (Part, Part Design) Objekte, mit Ausnahme von Polygonnetzen, die normalerweise auf [Polygonnetz Formelemente](Mesh_Feature/de.md), oder [Fem FemPolygonnetzObjekt](FEM_Mesh/de.md) für FEM Objekte basieren.
-
-
-</div>
+Das Part-Formelement ist die Elternklasse der meisten 2D-(Draft-, Sketcher-) und 3D- (Part-, PartDesign-) Objekte, mit Ausnahme von Polygonnetzen, die normalerweise auf dem[Mesh Formelement](Mesh_Feature/de.md) oder dem [FEM Polygonnetz](FEM_Mesh/de.md)-Objekt für FEM-Objekte basieren.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-*Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Die `Part::Feature* Klasse ist der Ursprung der meisten 2D  (Entwurf, Skizzierer) und 3D (Part, PartDesign) Objekte, die eine [Part TopoForm](Part_TopoShape/de.md) haben.`
-
-
-</div>
+*Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten in FreeCAD*
 
 
 
 ## Anwendung
 
+Das [Part-Formelement](Part_Feature/de.md) ist ein internes Objekt, kann also nicht von der grafischen Oberfläche aus erstellt werden, sondern nur von der [Python-Konsole](Python_console/de.md) aus, wie im Abschnitt [Skripten](#Skripten.md) beschrieben.
 
-<div class="mw-translate-fuzzy">
+Das `Part::Feature` wird im Arbeitsbereich [Part](Part_Workbench/de.md) definiert, kann aber als Basisklasse für [skriptgenerierte Objekte](scripted_objects/de.md) in allen [Arbeitsbereichen](Workbenches/de.md) verwendet werden, die 2D- und 3D-Geometrieformen erstellen. Im Wesentlichen sind alle im Arbeitsbereich [Part](Part_Workbench/de.md) erstellten Objekte Instanzen eines `Part::Feature`s.
 
-Das [Part Formelement](Part_Feature/de.md) ist ein internes Objekt, daher kann es nicht von der grafischen Oberfläche aus erstellt werden, sondern nur von der [Python Konsole](Python_console/de.md) aus, wie im Abschnitt [Skripten](Part_Feature#Scripting/de.md) beschrieben.
+Das `Part::Feature` ist auch die Elternklasse des [PartDesign Körpers](PartDesign_Body/de.md), der [PartDesign Formelemente](PartDesign_Feature/de.md) und der [Part Part2DObjekte](Part_Part2DObject/de.md), die auf 2D-(planare) Formen spezialisiert ist.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Der `Part::Feature` wird im [Part Arbeitsbereich](Part_Workbench/de.md) definiert, kann aber als Basisklasse für [skriptierte Objekte](scripted_objects/de.md) in allen [Arbeitsbereichen](Workbenches/de.md) verwendet werden, die 2D und 3D Geometrieformen erzeugen. Im Wesentlichen sind alle im [Part Arbeitsbereich](Part_Workbench/de.md) erzeugten Objekte Instanzen eines `Part::Feature`. Festkörperobjekte, die aus STEP oder BREP Dateien importiert werden, werden mit dem [Part Arbeitsbereich](Part_Workbench/de.md) importiert, so dass sie auch als `Part::Feature` Elemente importiert werden, wenn auch ohne parametrische Historie.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-`Part::Feature`
-
-ist auch die Elternklasse des [PartDesign Körper](PartDesign_Body/de.md), der [PartDesign Formelemente](PartDesign_Feature/de.md) und der [Part Part2DObjekt](Part_Part2DObject/de.md), die auf 2D (planare) Formen spezialisiert ist.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Ein `Part::Feature` hat einfache Eigenschaften wie eine [Platzierung](Placement/de.md) und visuelle Eigenschaften, um das Aussehen seiner Knoten, Kanten und Flächen zu definieren. Arbeitsbereiche können diesem Grundelement weitere Eigenschaften hinzufügen, um ein Objekt mit komplexem Verhalten zu erzeugen.
-
-
-</div>
+Arbeitsbereiche können diesem Grundelement weitere Eigenschaften hinzufügen, um ein Objekt mit komplexem Verhalten zu erzeugen.
 
 
 
@@ -80,21 +35,9 @@ Ein `Part::Feature` hat einfache Eigenschaften wie eine [Platzierung](Placement/
 
 Siehe [Eigenschaft](Property/de.md) für alle Eigenschaftstypen, die geskriptete Objekte haben können.
 
+Das [Part-Formelement](Part_Feature/de.md) (Klasse `Part::Feature`) wird von dem Grundelement [App GeoFeature](App_GeoFeature/de.md) (Klasse `App::GeoFeature`) abgeleitet, und erbt alle seine Eigenschaften. Es besitzt auch einige zusätzliche Eigenschaften. Hervorzuheben ist eine {{PropertyData/de|Shape}}, die die [Part TopoForm](Part_TopoShape/de.md) des Objekts speichert. Dies ist die Geometrie, die in der [3D-Ansicht](3D_view/de.md) gezeigt wird. Andere Eigenschaften die dieses Objekt besitzt, sind solche die die Darstellung der [TopoForm](Part_TopoShape/de.md) beeinflussen.
 
-<div class="mw-translate-fuzzy">
-
-Eine [Part Formelement](Part_Feature/de.md) (`Part::Feature` Klasse) wird von der Basis [App GeoFormelement](App_GeoFeature/de.md) (`App::GeoFeature` Klasse) abgeleitet, daher teilt sie alle Eigenschaften der letzteren.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Dies sind die im [Eigenschaftseditor](property_editor/de.md) verfügbaren Eigenschaften. Ausgeblendete Eigenschaften können mit dem **Alle anzeigen** Befehl im Kontextmenü des [Eigenschaftseditor](property_editor/de.md) angezeigt werden.
-
-
-</div>
+Diese sind die im [Eigenschafteneditor](Property_editor/de.md) enthaltenen Eigenschaften. Ausgeblendete Eigenschaften können mit dem Befehl **Alle anzeigen** im Kontextmenü des [Eigenschafteneditors](Property_editor/de.md) angezeigt werden.
 
 
 
@@ -200,18 +143,12 @@ Most objects in FreeCAD have what is called a \"[viewprovider](viewprovider.md)\
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-### Abweichungswert
-
-
-</div>
+### Verdrehwinkel und Winkelabweichung 
 
 <img alt="" src=images/View_property_Deviation.svg  style="width:500px;"> 
-*Angular Deflection and deviation parameters; d < linear deflection, α < angular deflection.*
+*Parameter für Verdrehwinkel und Winkelabweichung: d < lineare Abweichung, α < Winkelabweichung.*
 
-The deviation is a value in percentage that is related to the dimensions in millimeters of the bounding box of the object. The deviation in millimeters can be calculated as follows:
+Die Abweichung ist ein Wert in Prozent, der mit den Abmaßen in mm der Bounding-Box des Objekts zusammenhängt. Die Abweichung in mm kann wie folgt berechnet werden:
 
 
 ```python
@@ -225,15 +162,9 @@ wobei {{value|w}}, {{value|h}}, {{value|d}} die Begrenzungsrahmen Abmessungen si
 ## Skripten
 
 
-<div class="mw-translate-fuzzy">
-
-
 **Siehe auch:**
 
-[FreeCAD Skripten Grundlagen](FreeCAD_Scripting_Basics/de.md), und [geskriptete Objekte](scripted_objects/de.md).
-
-
-</div>
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md) und [Skriptgenerierte Objekte](Scripted_objects/de.md).
 
 Ein Part Formelement wird mit der `addObject()` Methode des Dokuments erstellt.
 
@@ -246,7 +177,7 @@ obj = App.ActiveDocument.addObject("Part::Feature", "Name")
 obj.Label = "Custom label"
 ```
 
-For [Python](Python.md) subclassing, you should create a `Part::FeaturePython` object.
+Für [Python](Python/de.md)-Subclassing sollte ein `Part::FeaturePython`-Objekt erstellt werden.
 
 
 ```python

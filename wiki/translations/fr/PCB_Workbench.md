@@ -15,11 +15,15 @@ Le module vous permet d\'importer/créer des cartes PCB dans FreeCAD. Portée du
 -   il vous permet d\'importer des modèles IGES/STP avec des couleurs,
 -   possible de montrer les trous/vias indépendants.
 
+
+
 ## Références
 
 -   Auteur: marmni
 -   Page d\'accueil: <https://sourceforge.net/projects/eaglepcb2freecad/>
 -   Code source sur github: <https://github.com/marmni/FreeCAD-PCB>
+
+
 
 ## Outils
 
@@ -35,9 +39,13 @@ Menu déroulant
 
 ## Installation
 
+
+
 ### Installation Automatique 
 
 Cet atelier peut être installé à partir du [Gestionnaire des extensions](Std_AddonMgr/fr.md).
+
+
 
 ### Depuis GitHub 
 
@@ -87,6 +95,8 @@ C:/Program Files/FreeCAD-0.18/Mod
 
 **Instructions d\'installation MacOS** (Depuis GitHub)
 
+
+
 ## Liens avec l\'atelier FreeCAD-PCB 
 
 -   Workbench Wiki : [Ensembles d\'ateliers externes](https://wiki.freecadweb.org/External_workbenches)
@@ -96,6 +106,8 @@ C:/Program Files/FreeCAD-0.18/Mod
 -   Vidéos : [EaglePCB_2\_FreeCAD - FreeCAD odczyt plików brd z programu Eagle](https://www.youtube.com/watch?v=81NsljRJx8c&feature=youtu.be)
 -   Fichiers : [PCB library](https://github.com/marmni/FreeCAD-PCB-library)
 -   Signaler les bogues : Veuillez signaler les bogues à <https://github.com/marmni/FreeCAD-PCB/issues>
+
+
 
 ## Autres liens intéressants 
 
@@ -107,4 +119,4 @@ C:/Program Files/FreeCAD-0.18/Mod
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > PCB Workbench/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > PCB Workbench/fr

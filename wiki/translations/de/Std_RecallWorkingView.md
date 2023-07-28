@@ -1,34 +1,41 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:Std RecallWorkingView
-   MenuLocation:View → Standard views → Recall working view
-   Workbenches:All
+   Name/de:Std ArbeitsansichtWiederherstellen
+   MenuLocation:Ansicht → Standardansichten → Arbeitsansicht wiederherstellen
+   Workbenches:Alle
    Shortcut:**End**
-   Version:1.0
-   SeeAlso:[Std StoreWorkingView](Std_StoreWorkingView.md), [Std FreezeViews](Std_FreezeViews.md)
+   Version:0.21
+   SeeAlso:[Std ArbeitsansichtSpeichern](Std_StoreWorkingView/de.md), [Std AnsichtenEinfrieren](Std_FreezeViews/de.md)
 ---
 
 # Std RecallWorkingView/de
 
-## Description
-
-The **Std RecallWorkingView** recalls the active [3D view](3D_view.md)\'s stored working view. For more information see [Std StoreWorkingView](Std_StoreWorkingView.md).
-
-## Usage
-
-1.  Make sure a [3D view](3D_view.md) is active for which the [Std StoreWorkingView](Std_StoreWorkingView.md) command has been used at least once.
-2.  There are several ways to invoke the command:
-    -   Select the **View → Standard views → Recall working view** option from the menu.
-    -   Use the keyboard shortcut: **End**.
-
-## Scripting
 
 
-**See also:**
+## Beschreibung
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Der Befehl **Std ArbeitsansichtWiederherstellen** stellt die gespeicherte Arbeitsansicht der aktiven [3D-Ansicht](3D_view.md) wieder her. Für weitere Informationen siehe [Std ArbeitsansichtSpeichern](Std_StoreWorkingView/de.md).
 
-To recall the stored working view of the active 3D view:
+
+
+## Anwendung
+
+1.  Sicherstellen, dass eine [3D-Ansicht](3D_view/de.md) aktiv ist, für die der Befehl [Std ArbeitsansichtSpeichern](Std_StoreWorkingView.md) wenigstens einmal verwendet wurde.
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Den Menüeintrag **Ansicht → Standardansichten → Arbeitsansicht wiederherstellen** auswählen.
+    -   Das Tastaturkürzel **End**.
+
+
+
+## Skripten
+
+
+**Siehe auch:**
+
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+
+Wiederherstellen der gespeicherten Arbeitsansicht der aktiven 3D-Ansicht:
 
 
 ```python

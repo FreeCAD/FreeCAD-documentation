@@ -70,7 +70,7 @@ Dosta je toga za napraviti unutar projekta FreeCAD, ako ste zainteresirani za po
 
 <div class="mw-translate-fuzzy">
 
-Stranica[help FreeCAD](Special:MyLanguage/help_FreeCAD/hr.md) opisuje sve to s više pojedinosti. Od 2016. godine, FreeCAD također sudjeluje u [Google Summer of Code](Google_Summer_of_Code.md). Stranica [Suradničko okruženje](Contributors_hub.md) još je jedan napor od mogućih načina prikupljanja pomoći i doprinosa projektu FreeCAD.
+Stranica[help FreeCAD](Special:MyLanguage/help_FreeCAD/hr.md) opisuje sve to s više pojedinosti. Od 2016. godine, FreeCAD također sudjeluje u [Google Summer of Code](Google_Summer_of_Code.md).
 
 
 </div>

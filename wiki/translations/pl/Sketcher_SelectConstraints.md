@@ -1,26 +1,31 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher SelectConstraints
-   MenuLocation:Sketch → Sketcher tools → Select associated constraints
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Wybierz powiązane więzy
+   MenuLocation:Szkic → Narzędzia szkicownika → Wybierz powiązane więzy
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**Z** **K**
    Version:0.15
 ---
 
 # Sketcher SelectConstraints/pl
 
-## Description
 
-Selects the constraints of a sketcher element.
 
-## Usage
+## Opis
 
-1.  Select one or more objects in the active sketch.
-2.  There are several ways to invoke the command:
-    -   Click on the **[<img src=images/Sketcher_SelectConstraints.svg style="width:16px"> [Select associated constraints](Sketcher_SelectConstraints.md)** button.
-    -   Choose the **Sketch → Sketcher tools → [<img src=images/Sketcher_SelectConstraints.svg style="width:16px"> Select associated constraints** from the menu.
-    -   Use the **Z** then **K** keyboard shortcut.
-3.  The associated constraints will be highlighted in the [task panel](Task_panel.md) and the [3D view](3D_view.md).
+Wybiera wiązania elementu szkicu.
+
+
+
+## Użycie
+
+1.  Wybierz jeden lub więcej obiektów w aktywnym szkicu.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Kliknij przycisk **[<img src=images/Sketcher_SelectConstraints.svg style="width:16px"> '''Wybierz powiązane więzy'''**.
+    -   Wybierz polecenie **Szkic → Narzędzia szkicownika → [<img src=images/Sketcher_SelectConstraints.svg style="width:16px"> Wybierz powiązane więzy** z menu.
+    -   Użyj skrótu klawiaturowego **Z**, a następnie **K**.
+3.  Powiązane wiązania zostaną podświetlone w oknie [panelu zadań](Task_panel/pl.md) i [widoku 3D](3D_view/pl.md).
 
 
 

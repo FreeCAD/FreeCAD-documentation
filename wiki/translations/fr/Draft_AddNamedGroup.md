@@ -15,6 +15,8 @@
 
 La commande <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:24px;"> **Draft Nommer un groupe** crée un [Std Groupe](Std_Group/fr.md) nommé et déplace les objets sélectionnés vers ce groupe.
 
+
+
 ## Utilisation
 
 1.  En option, sélectionnez un ou plusieurs objets.
@@ -24,6 +26,8 @@ La commande <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:24px;">
 3.  Le panneau de tâches **Ajouter un groupe** s\'ouvre.
 4.  Saisissez **Nom du groupe**.
 5.  Appuyez sur le bouton **OK**.
+
+
 
 ## Remarques
 

@@ -9,6 +9,8 @@
    Files:
 }}
 
+
+
 ## Contexte
 
 L\'atelier FEM offre la possibilité d\'estimer le niveau de ferraillage requis dans une structure en béton afin d\'éviter une rupture fragile sous tension ou par cisaillement.
@@ -177,15 +179,19 @@ Enfin, un graphique des contraintes principales de compression et de traction mo
 
 Le modèle de contrainte de traction suggère un concept alternatif utilisant des câbles de précontrainte (superposés en blanc). Ce concept est développé dans le post suivant : <https://forum.freecadweb.org/viewtopic.php?f=18&t=33049>
 
+
+
 ## En relation 
 
 -   [FEM et béton](FEM_Concrete/fr.md)
 
 
- {{FEM Tools navi}} {{Userdocnavi
+{{FEM Tools navi
+
+}} {{Userdocnavi
 ---
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > Analysis of reinforced concrete with FEM/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > Analysis of reinforced concrete with FEM/fr

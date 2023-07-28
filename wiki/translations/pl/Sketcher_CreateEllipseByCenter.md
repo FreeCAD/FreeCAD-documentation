@@ -1,35 +1,42 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher CreateEllipseByCenter
-   MenuLocation:Sketch → Sketcher geometries → Create ellipse by center
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Utwórz elipsę przez środek
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz elipsę przez środek
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **E** **E**
    Version:0.15
-   SeeAlso:[Sketcher Ellipse by 3 Points](Sketcher_CreateEllipseBy3Points.md), [Sketcher Circle](Sketcher_CreateCircle.md), [Sketcher Arc of Ellipse](Sketcher_CreateArcOfEllipse.md)
+   SeeAlso:[Utwórz elipsę przez trzy punkty](Sketcher_CreateEllipseBy3Points/pl.md), [Utwórz okrąg](Sketcher_CreateCircle/pl.md), [Utwórz łuk na podstawie elipsy](Sketcher_CreateArcOfEllipse/pl.md)
 ---
 
 # Sketcher CreateEllipseByCenter/pl
 
-## Description
 
-This tool draws an ellipse by picking three points: the center, the end of major radius, the minor radius. When starting the tool, the mouse pointer changes to a white cross with a red ellipse icon. Besides are coordinates shown in real time.
+
+## Opis
+
+Narzędzie to rysuje elipsę wybierając trzy punkty: środek, koniec promienia głównego, promień mniejszy. Po uruchomieniu narzędzia kursor myszki przybiera kształt białego krzyża z czerwoną ikoną elipsy. Poza tym wyświetlane są współrzędne w czasie rzeczywistym.
 
 <img alt="" src=images/Sketcher_EllipseExample1.png‎  style="width:500px;"> 
-*The sequence of clicks is indicated by yellow arrows with numbers.<br>
-C is the center, a the major diameter, b the minor diameter, F1 and F2 are foci.*
+*Kolejność kliknięć wskazują żółte strzałki z numerami.<br>
+'''C''' to środek, '''a''' średnica główna, '''b''' średnica mała, '''F1''' i '''F2''' to punkty centralne.*
 
-## Usage
 
--   Invoke the command by clicking a toolbar button, picking the menu item, or by using keyboard shortcut (needs to be assigned first in [Interface Customization](Interface_Customization.md)).
--   First click in 3D view sets ellipse center. Second click sets the first radius and orientation of the ellipse. Third click sets the other radius (the distance from the line defined by first two clicks is the second radius).
--   After the third click, the ellipse is created, together with a set of construction geometry aligned to it (major diameter, minor diameter, two foci). The construction geometry can be manually deleted if not needed, and recreated later. See [Internal Alignment Constraint](Sketcher_ConstrainInternalAlignment.md) and [Sketcher Show Hide Internal Geometry](Sketcher_RestoreInternalAlignmentGeometry.md).
--   Pressing **ESC** or clicking the right mouse button cancels the function.
 
-## Peculiarities
+## Użycie
 
--   Major and minor axes of ellipses are strict and cannot be swapped by resizing the ellipse. This is a consequence of the solver parametrization used (center (x,y), focus1 (x,y) and minor radius length (b)) and the same strict behavior of OpenCascade. The ellipse must be rotated to swap the axes.
--   Ellipse can function as a circle when its major and minor diameter lines are deleted, and one of the foci is constrained to coincide with the center. But radius constraint won\'t work on such a circle.
--   Moving the ellipse by edge is the same as moving ellipse\'s center.
+-   Wywołaj polecenie klikając przycisk na pasku narzędzi, wybierając pozycję menu lub używając skrótu klawiaturowego *(musi być przypisany najpierw w [Dostosowanie interfejsu użytkownika](Interface_Customization/pl.md))*.
+-   Pierwsze kliknięcie w oknie widoku 3D wyznacza środek elipsy. Drugie kliknięcie określa pierwszy promień i orientację elipsy. Trzecie kliknięcie określa drugi promień *(odległość od linii zdefiniowanej przez dwa pierwsze kliknięcia to drugi promień)*.
+-   Po trzecim kliknięciu tworzona jest elipsa wraz z zestawem geometrii konstrukcyjnych do niej dopasowanych *(średnica główna, średnica mniejsza, dwa ogniska)*. Geometria konstrukcyjna może być ręcznie usunięta, jeśli nie jest potrzebna, i odtworzona później. Zobacz [Pokaż / ukryj geometrię wewnętrzną](Sketcher_RestoreInternalAlignmentGeometry/pl.md).
+-   Naciśnięcie **ESC** lub kliknięcie prawym przyciskiem myszy powoduje przerwanie funkcji.
+
+
+
+## Szczególe cechy 
+
+-   Osie główne i mniejsze elipsy są sztywno określone i nie mogą być zamienione przez zmianę rozmiaru elipsy. Jest to konsekwencją zastosowanej parametryzacji solwera *(środek (x,y), ogniskowa1 (x,y) i długość promienia mniejszego (b))* oraz tego samego zachowania ścisłego OpenCascade. Elipsa musi być obrócona, aby zamienić osie.
+-   Elipsa może funkcjonować jako koło, gdy jej linie średnicy głównej i mniejszej są usuwane, a jedno z ognisk jest związane, aby pokryć się ze środkiem. Ale wiązanie promienia nie będzie działać na takim okręgu.
+-   Przesuwanie elipsy po krawędzi jest takie samo jak przesuwanie jej środka.
 
 
 

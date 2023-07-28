@@ -11,6 +11,8 @@
 {{TOCright}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 **Yerelleştirme** genel olarak bir Yazılımın çok dilli bir kullanıcı arayüzüne sahip olma sürecidir. FreeCAD\'de kullanıcı arayüzünün dilini *Düzenle → Seçenekler → Uygulama* altında ayarlayabilirsiniz. FreeCAD çoklu dil desteğini etkinleştirmek için [Qt](wikipedia:Qt(toolkit).md) kullanır. Unix / Linux sistemlerinde, FreeCAD sisteminizin mevcut yerel ayarlarını varsayılan olarak kullanır.
@@ -19,6 +21,8 @@
 </div>
 
 **Localisation** is in general the process of providing a Software with a multiple language user interface. In FreeCAD you can set the language of the user interface under **Edit → Preferences → General**. FreeCAD uses [Qt](wikipedia:Qt_(toolkit).md) to enable multiple language support. On Unix/Linux systems, FreeCAD uses the current locale settings of your system by default.
+
+
 
 ## FreeCAD\'i çevirme de yardım 
 
@@ -29,6 +33,8 @@ Kullanıcıların FreeCAD\'e katkıda bulunabilecekleri çok önemli şeylerden 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -44,7 +50,7 @@ FreeCAD utilizes a third party collaborative on-line translation system called [
 
 <img alt="" src=images/Logo-crowdin.png  style="width:320px;">
 
-It is proprietary software but free to FOSS projects. Below are instructions on how to use it:
+It is proprietary software but free to [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) projects. Below are instructions on how to use it:
 
 
 <div class="mw-translate-fuzzy">
@@ -81,6 +87,8 @@ Starting with FreeCAD 0.20, the following variables can be manually added to the
 
     <FCText Name="AdditionalTranslationsDirectory">C:/Users/FreeCADUser/TestTranslations</FCText>
 
+
+
 ## FreeCAD wiki\'sini çevirin 
 
 
@@ -106,6 +114,8 @@ Ayrıca, wiki işaretlemesi hakkında yeterli bilgiye sahip olmalı ve [WikiPage
 
 
 </div>
+
+
 
 ### Mediawiki Çeviri Uzantısı 
 
@@ -145,6 +155,8 @@ Yeni içerik eklerken, önce İngilizce sayfa oluşturulmalı, sonra başka bir 
 
 </div>
 
+
+
 ### Önemli notlar 
 
 
@@ -168,6 +180,8 @@ Sol kenar çubuğu da çevrilebilir ancak sitenin bu öğesini yalnızca Yöneti
 Bir sayfayı yeni çeviri sistemine ilk kez çevirdiğinizde, eski \"manuel\" çevirilerinin tümünü kaybeder. Bir çeviriyi kurtarmak için, eski metnin çevrimdışı bir kopyasını geçiş yapmadan önce kaydetmelisiniz. Daha sonra bu eski çevrilmiş metni, yeni sistemdeki çeviri birimlerini doldurmak için kullanabilirsiniz. Ayrıca tarihin önceki bir sürümünü açabilir ve eski metni bu şekilde alabilirsiniz. Bu, çevrilmiş bir sayfa olan her dil için yapılmalıdır.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## FreeCAD belgelerini çevirin 
@@ -176,6 +190,8 @@ Bir sayfayı yeni çeviri sistemine ilk kez çevirdiğinizde, eski \"manuel\" ç
 </div>
 
 As per general consensus, the reference page in the wiki is the English page, which should be created first. If you want to change or add content to a page, you should do it to the English page first, and only once the update is completed, port the modification to the translated page.
+
+
 
 ### Eski çeviri talimatları 
 
@@ -217,6 +233,8 @@ As per general consensus, the reference page in the wiki is the English page, wh
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## FreeCAD web sitesini çevirin 
@@ -229,6 +247,8 @@ FreeCAD web sitesinin çevirisi şimdi [Crowdin](https://crowdin.com/translate/f
 Translation of the FreeCAD website is now done through [Crowdin](https://crowdin.com/translate/freecad/561/en-en). The file is named **homepage.po**.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Geliştirme - Yerelleştirme Ekleme 
@@ -239,6 +259,8 @@ Bu bölüm, kodlarına yerelleştirme eklemek isteyen geliştiriciler içindir.
 </div>
 
 This section is for developers who want to add localisation to their code.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -293,6 +315,8 @@ Bundan sonraki her şey bir geliştirici için otomatiktir. Yönetici metin dize
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### 3. parti modülünüzü veya makronuzu çeviri için hazırlama 
@@ -307,6 +331,8 @@ Bundan sonraki her şey bir geliştirici için otomatiktir. Yönetici metin dize
 Update: see [Translating an external workbench](Translating_an_external_workbench.md)
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Eski modül çeviri teknikleri 
@@ -319,6 +345,8 @@ Update: see [Translating an external workbench](Translating_an_external_workbenc
 [Localization Older Methods](Localization_Older_Methods.md) describes the use of translation tools such as Qt Linguist, lupdate, lrelease, pylupdate4, etc in detail. Most of this is no longer required for FreeCAD/master modules, but may be helpful preparing and updating 3rd party modules.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Crowdin Çeviri Güncellemelerini Otomatikleştirme 
@@ -329,6 +357,8 @@ Update: see [Translating an external workbench](Translating_an_external_workbenc
 </div>
 
 Currently FreeCAD maintainers use the Crowdin API via [Crowdin Scripts](Crowdin_Scripts.md) to pull and push translations in to Crowdin and back in to the Github repo. The Crowdin API gives FreeCAD maintainers the ability to automate aspects of the project\'s translation workflow, for more info refer to the [Crowdin API documentation](https://support.crowdin.com/api/api-integration-setup/).
+
+
 
 
 <div class="mw-translate-fuzzy">

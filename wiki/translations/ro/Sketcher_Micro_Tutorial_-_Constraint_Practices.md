@@ -15,6 +15,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Bine ați venit 
@@ -129,6 +131,8 @@ This is a better constrained sketch than the first one. The horizontal and verti
 This is the best way to constrain this sketch, as we only used one datum (dimensional) constraint.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Additional Resources 
@@ -145,9 +149,11 @@ This is the best way to constrain this sketch, as we only used one datum (dimens
 </div>
 
 
- {{Sketcher Tools navi}}
+{{Sketcher Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/ro

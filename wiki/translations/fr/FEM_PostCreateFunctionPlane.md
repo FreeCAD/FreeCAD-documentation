@@ -21,9 +21,7 @@ La fonction <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width
 
 ### Créer une fonction plan 
 
-1.  Il y a plusieurs façons de créer une fonction :
-    -   Appuyez sur le bouton **<img src="images/FEM_PostCreateFunctionPlane.svg" width=16px> [Plan](FEM_PostCreateFunctionPlane/fr.md)**.
-    -   Sélectionnez l\'option **Résultats → Fonctions de filtrage → <img src="images/FEM_PostCreateFunctionPlane.svg" width=16px> Plan** dans le menu.
+1.  Soit vous appuyez sur le bouton **<img src="images/FEM_PostCreateFunctionPlane.svg" width=16px> [Plan](FEM_PostCreateFunctionPlane/fr.md)** soit vous sélectionnez l\'option **Résultats → Fonctions de filtrage → <img src="images/FEM_PostCreateFunctionPlane.svg" width=16px> Plan** du menu.
 2.  Le [panneau des tâches](Task_panel/fr.md) de la fonction Implicit s\'ouvre.
 3.  Vous pouvez définir les valeurs de l\'origine et de la direction du plan de coupe.
 4.  Appuyez sur le bouton **OK** pour terminer.
@@ -53,7 +51,7 @@ Si l\'objet Plan dans la [vue 3D](3D_view/fr.md) est caché, sélectionnez l\'ob
 
 #### Mise à l\'échelle du plan 
 
--   Cliquez et faites glisser l\'un des 6 petits cubes sont des poignées pour ajuster la taille à l\'échelle du plan. Cependant, comme l\'objet est un plan infini, la taille n\'a pas d\'importance.
+-   Cliquez sur l\'un des 6 petits cubes et faites-le glisser pour mettre le plan à l\'échelle. Cependant, comme l\'objet est un plan infini, la taille n\'a pas d\'importance.
 
 
 

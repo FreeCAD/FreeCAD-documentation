@@ -4,30 +4,28 @@
 
 {{TOCright}}
 
-
-<div class="mw-translate-fuzzy">
-
 Alle Objekte im Programm haben einen [Objektnamen](Object_name/de.md), der sie in einem bestimmten Dokument eindeutig identifiziert.
 
+Diese Informationen gelten für alle Objekte, die von einem Dokumentobjekt ([App DocumentObject](App_DocumentObject/de.md), d.h. der Klasse {{Incode|App::DocumentObject}})abgeleitet sind, die im Wesentlichen alle Objekte umfasst, die in einem Dokument erstellt werden können.
 
-</div>
 
-Diese Informationen gelten für alle Objekte, die von [App DokumentObjekt](App_DocumentObject/de.md) abgeleitet sind. ({{Incode|App::DocumentObject}} Klasse), die im Wesentlichen alle Objekte umfasst, die in einem Dokument erstellt werden können.
 
 ## Namen
 
-There are various properties for Names:
+Namen besitzen verschiedene Eigenschaften:
 
--   The `Name` can only include simple alphanumeric characters, and the underscore, `[_0-9a-zA-Z]`.
--   The `Name` cannot start with a number; it must start with a letter or the underscore, `[_a-zA-Z]`.
--   The `Name` is assigned at the creation time of the object; afterwards it is no longer editable. The object can never be renamed.
--   The `Name` must be unique in the entire document. It doesn\'t matter if two objects are of completely different types, for example, one is a [PartDesign Pocket](PartDesign_Pocket.md) and the other is an [Arch Wall](Arch_Wall.md). They must have different names.
--   When creating an object of the same type, normally the name is increased with a sequential number, thus `Box`, `Box001`, `Box002`, etc. This prevents naming collision.
--   Once the object is deleted, its `Name` becomes available to be used by a newly created object. This means that if `Box`, `Box001`, and `Box002` exist, and we delete the first item, the next box created with [Part Box](Part_Box.md) will not be `Box003`, it will be `Box` again, because this string is available to be used once more. Notice that it is not possible to rename `Box001` or `Box002` to `Box` since their names are fixed.
+-   Der `Name` darf nur einfache alphanumerische Zeichen, und den Unterstrich enthalten, `[_0-9a-zA-Z]`.
+-   Der `Name` darf nicht mit einer Zahl beginnen; er muss mit mit einem Buchstaben oder Unterstrich beginnen, `[_a-zA-Z]`.
+-   Der `Name` wird zum Zeitpunkt der Erstellung des Objekts vergeben und kann danach nicht mehr verändert werden. Der Name kann nie geändert werden.
+-   Der `Name` darf im gesamten Dokument nur ein einziges Mal vorkommen. Dabei ist es egal, ob zwei Objekte komplett unterschiedlich sind wie z.B. eine [PartDesign Tasche](PartDesign_Pocket/de.md) und eine [Arch Wand](Arch_Wall/de.md); sie müssen unterschiedliche Namen besitzen.
+-   Werden Objekte der gleichen Art erstellt, wird der Name mit einer fortlaufenden Zahl ergänzt; ds ergibt `Box`, `Box001`, `Box002` usw. Das verhindert doppelte Namen.
+-   Sobald ein Objekt gelöscht wurde, kann sein `Name` wieder für ein neu erstelltes Objekt verwendet werden. Das heißt, wenn die Objekte `Box`, `Box001` und `Box002` vorhanden sind und das erste gelöscht wird, bekommt das nächste Objekt [Part Box](Part_Box.md) nicht den Namen `Box003`, sondern wieder `Box`, da diese Zeichenkette erneut verwendet werden kann. Es ist zu beachten, dass die Namen `Box001` oder `Box002` nicht in `Box` geändert werden können, da sie unveränderlich sind.
 
-In summary, the `Name` essentially acts like a unique identifier (UID) for an object. Since a unique `Name` is very restrictive, all objects also have a `Label` property which allows \"renaming\" the object to something more descriptive. The internal `Name` actually remains fixed, but the user editable `Label` can be used in most situations where the `Name` would be used. In common usage in the program and the documentation, \"renaming\" means changing the `Label` and not the actual `Name` of the object.
+Zusammengefasst stellt der `Name` einen eindeutigen Identifikator (unique identifier, UID) eines Objekts dar. Da ein eindeutiger `Name` sehr eingeschränkt ist, besitzen Objekte auch noch die Eigenschaft `Label`, die ermöglicht, das Objekt \"umzubenennen\", also eine besser beschreibende Benennung hinzuzufügen. Der interne `Name` bleibt tatsächlich unverändert, aber die vom Benutzer editierbare Benennung `Label` kann in den meisten Fällen an Stelle des `Namens` verwendet werden. In der üblichen Verwendung im Programm bezieht sich \"umbenennen\" auf das `Label` (Benennung) und nicht auf den wirklichen `Namen` des Objekts.
 
-## Labels
+
+
+## Benennungen
 
 There are various properties for Labels:
 
@@ -44,20 +42,22 @@ There are various properties for Labels:
 <<Label may use UTF8 characters>>.Width
 ```
 
-### Label2 <small>(v0.19)</small> 
+### Label2
 
-This property was introduced in v0.19. It is a simple string that can contain arbitrary text, and therefore can be used for documenting (describing with more detail) the created object.
+It is a simple string that can contain arbitrary text, and therefore can be used for documenting (describing with more detail) the created object.
 
 -   In the [tree view](Tree_view.md) edit the field next to the icon, under \"Description\", by clicking on it and pressing **F2** (or rather **Return** on macOS).
 -   You can also change this property by modifying the `Label2` attribute from the [Python console](Python_console.md).
 -   The **Label2** attribute is normally hidden in the [property editor](Property_editor.md) but can be made visible by opening the context menu (right click) and selecting **Show all**.
 
-## Scripting
 
 
-**See also:**
+## Skripten
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md), and [scripted objects](Scripted_objects.md).
+
+**Siehe auch:**
+
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md) und [Skriptgenerierte Objekte](Scripted_objects/de.md).
 
 Any object in the software is internally created with the `addObject()` method of the document. The majority of 2D and 3D objects that the user will see in the [3D view](3D_view.md) are derived from a [Part Feature](Part_Feature.md). In the following example, the object created is a [Part Box](Part_Box.md).
 
@@ -81,7 +81,9 @@ The `addObject` function has two basic string arguments.
     -   The `Name` is fixed at creation time; it cannot be modified afterwards.
     -   The `Name` must be unique in the entire document. If the same `"Name"` is used, a sequential number will be appended automatically so that the resulting names are unique; for example, if `"Name"` already exists, then new objects will be called `"Name001"`, `"Name002"`, `"Name003"`, etc.
 
-### Label
+
+
+### Benennung
 
 The `Label` is a property of the created object and can be changed to a more meaningful text.
 
@@ -89,7 +91,9 @@ The `Label` is a property of the created object and can be changed to a more mea
 -   However, unlike the `Name`, the `Label` can accept any UTF8 string, including accents and spaces.
 -   The `Label` can be changed at any point in time just by assigning the desired string, obj.Label = "New label"
 
-### Getting an object by Name or Label 
+
+
+### Ein Objekt mit Namen oder Benennung aufrufen 
 
 All objects in a document are data attributes of the corresponding [Document](App_DocumentObject.md) object. The attribute\'s name correspond to the internal `Name` of the object.
 

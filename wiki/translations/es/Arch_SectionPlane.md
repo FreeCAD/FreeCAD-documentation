@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -31,6 +33,8 @@ El plano de sección por sí solo no creará ninguna vista de sus objetos establ
 </div>
 
 <img alt="" src=images/Arch_SectionPlane_example.jpg  style="width:600px;">
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -53,6 +57,8 @@ El plano de sección por sí solo no creará ninguna vista de sus objetos establ
 
 
 </div>
+
+
 
 ## Opciones
 
@@ -88,6 +94,8 @@ El plano de sección por sí solo no creará ninguna vista de sus objetos establ
 
 <img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width:600px;">
 
+
+
 ## Propiedades
 
 
@@ -114,7 +122,9 @@ El plano de sección por sí solo no creará ninguna vista de sus objetos establ
 
 ## Tweaks
 
--   Adding manually a property named **RotateSolidRender** of type **App::PropertyAngle** to the section plane\'s **View** properties (right-click the properties view -\> show all, right-click again -\> add property) allows to rotate the render when using Solid mode. This is useful when a rendered view has for example both Arch and Draft elements, and the rendering of the Arch elements is rotated in relation to the Draft elements. <small>(v0.19)</small> 
+-   Adding manually a property named **RotateSolidRender** of type **App::PropertyAngle** to the section plane\'s **View** properties (right-click the properties view -\> show all, right-click again -\> add property) allows to rotate the render when using Solid mode. This is useful when a rendered view has for example both Arch and Draft elements, and the rendering of the Arch elements is rotated in relation to the Draft elements.
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">

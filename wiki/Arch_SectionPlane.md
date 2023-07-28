@@ -30,11 +30,11 @@ The Section Plane alone won\'t create any view of its objects set. For that, you
 
 -   The Section plane object will only consider a certain set of objects, not all the objects of the document. Objects can be added or removed from a SectionPlane object by using the [Arch Add](Arch_Add.md) and [Arch Remove](Arch_Remove.md) tools, or by double-clicking the Section Plane in the tree view, selecting objects either in the list of in the 3D scene, and pressing the **add** or **remove** buttons.
 
--   With a section plane object selected, use the [Draft Shape2DView](Draft_Shape2DView.md) tool to create a shape object representing the section view in the document
+-   With a section plane object selected, use the [Draft Shape2DView](Draft_Shape2DView.md) tool to create a shape object representing the section view in the document.
 
 <img alt="" src=images/Arch_Section_example2.jpg  style="width:600px;">
 
--   Create [Drawing DraftViews](Draft_Drawing.md) if you are working with the [Drawing Workbench](Drawing_Workbench.md), or [TechDraw ArchView](TechDraw_ArchView.md) if you are using the [TechDraw Workbench](TechDraw_Workbench.md).
+-   Create [TechDraw ArchView](TechDraw_ArchView.md).
 
 <img alt="" src=images/Arch_Section_example3.jpg  style="width:600px;">
 
@@ -54,7 +54,7 @@ The Section Plane alone won\'t create any view of its objects set. For that, you
 
 -    **Cut View**: If this is `True`, the whole 3D view will be cut at the location of this section plane.
 
--    **Clip view**: if this is `True`, it will clip the view to the display height and length of the section plane. This effectively turns the section plane into an orthographic camera, limiting the field of view. <small>(v0.19)</small> 
+-    **Clip view**: if this is `True`, it will clip the view to the display height and length of the section plane. This effectively turns the section plane into an orthographic camera, limiting the field of view.
 
 <img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width:600px;">
 
@@ -64,7 +64,7 @@ The Section Plane alone won\'t create any view of its objects set. For that, you
 
 ## Tweaks
 
--   Adding manually a property named **RotateSolidRender** of type **App::PropertyAngle** to the section plane\'s **View** properties (right-click the properties view -\> show all, right-click again -\> add property) allows to rotate the render when using Solid mode. This is useful when a rendered view has for example both Arch and Draft elements, and the rendering of the Arch elements is rotated in relation to the Draft elements. <small>(v0.19)</small> 
+-   Adding manually a property named **RotateSolidRender** of type **App::PropertyAngle** to the section plane\'s **View** properties (right-click the properties view -\> show all, right-click again -\> add property) allows to rotate the render when using Solid mode. This is useful when a rendered view has for example both Arch and Draft elements, and the rendering of the Arch elements is rotated in relation to the Draft elements.
 
 ## Scripting
 
@@ -73,7 +73,7 @@ The Section Plane alone won\'t create any view of its objects set. For that, you
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The SectionPlane tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
+The SectionPlane tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
  
 ```python

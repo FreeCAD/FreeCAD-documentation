@@ -4,24 +4,28 @@
 |Icon=FCInfoToolBar.png
 |Description=Fornisce informazioni sulla forma selezionata e può visualizzare una conversione di raggio, diametro, lunghezza, area, volume ... in diverse unità (metriche e imperiali) in una barra degli strumenti in real tempo. Le informazioni da visualizzare sono parametrizzabili nel parametro di FreeCAD.
 |Author=Mario52
-|Version=00.03
-|Date=2022/03/29
+|Version=00.04
+|Date=2023/06/28
 |FCVersion=0.18 and more
 |Download=[https://wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png The toolBar icon]
 |SeeAlso=[Arch Survey](Arch_Survey.md) <img src="images/Arch_Survey.svg" width=32px></br>[Macro FCInfo](Macro_FCInfo.md) <img src="images/FCInfo.png" width=32px></br>[Macro FCInfoGlass](Macro_FCInfoGlass.md) <img src="images/Macro_FCInfoGlass.png" width=32px>
 }}
+
+
 
 ## Descrizione
 
 Fornisce informazioni sulla forma selezionata e può visualizzare una conversione di raggio, diametro, lunghezza, area, volume \... in diverse unità (metriche e imperiali) in una barra degli strumenti. Le informazioni da visualizzare sono parametrizzabili nel parametro di FreeCAD.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/45da6835214d570588244705d2c0f37f97320874/FCInfo_ToolBar.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/40ca52f49edb1e29c70f0eaef42934aec19ca594/FCInfo_ToolBar.FCMacro}}
 
 ![FCInfo_ToolBar](images/Macro_FCInfo_ToolBar_00.png ) 
 *FCInfo_ToolBar*
 
-## Usare
+
+
+## Utilizzo
 
 Dopo aver eseguito la macro, andare a Menu → Strumenti → Modifica parametri \... :BaseApp/Preferences/Macros/FCMmacros/FCInfo_ToolBar
 
@@ -35,6 +39,8 @@ L\'unità delle dimensione può essere selezionata: km, hm, dam, m, dm, cm, mm, 
 
 ![FCInfo_ToolBar the info toolTip](images/Macro_FCInfo_ToolBar_01.png ) 
 *FCInfo_ToolBar the info toolTip*
+
+
 
 ## Opzioni
 
@@ -141,7 +147,11 @@ Le opzioni si trovano nel parametro di FreeCAD:
 -   ***seT_User_UnitSymbolMicro***
     -   dare il simbolo micro (Predefinito **u**)
 
+
+
 ## Per l\'esecuzione automatica 
+
+
 
 #### in linea di comando 
 
@@ -155,6 +165,8 @@ esempio:
 ```python
 "C:/FreeCAD_0.20.26858_Win-LPv12.5.4_vc17.x-x86-64/bin/FreeCAD.exe" "C:/Users/User/AppData/Roaming/FreeCAD/Macro/FCInfo_ToolBar.FCMacro"
 ```
+
+
 
 #### nella directory Mod 
 
@@ -196,11 +208,27 @@ if switch_User_NotRunAuto == False:
 
 enjoy
 
+
+
 ## Collegamento
 
 Discussioni sul forum [Feature request: coordinates display](https://forum.freecadweb.org/viewtopic.php?f=8&t=66294)
 
+
+
 ## Versione
+
+versione 00.04 28/06/2023 : correzione fogli di stile e:
+
+
+```python
+                        sommeEdgesSTR = str(sommeEdges)
+```
+
+sostituito da: 
+```python
+                        sommeEdgesSTR = str(round(sommeEdges * uniteM, seT_User_DecimalValue)) + " " + uniteMs
+```
 
 version: (00.02 +) 00.03 2022/03/22 : add somme all edges
 

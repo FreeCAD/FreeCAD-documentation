@@ -1,9 +1,17 @@
 # Path scripting/it
 {{TOCright}}
 
+
+
 ## Introduzione
 
+
+<div class="mw-translate-fuzzy">
+
 L\'ambiente Path offre strumenti per importare, creare, manipolare e esportare [percorsi delle macchine utensili](http://en.wikipedia.org/wiki/G-code) in FreeCAD. Con esso, l\'utente è in grado di importare, visualizzare e modificare i programmi GCode esistenti, generare percorsi di forme 3D, ed esportare questi percorsi utensile in Gcode.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -12,6 +20,8 @@ Allo stato attuale, però, lo sviluppo dell\'ambiente Path è appena iniziato, e
 
 
 </div>
+
+
 
 ## Avvio rapido 
 
@@ -22,12 +32,14 @@ Gli oggetti Path (percorso) di FreeCAD sono fatti di una sequenza di comandi di 
 >>> import Path
 >>> c1 = Path.Command("g1x1")
 >>> c2 = Path.Command("g1y4")
->>> c3 = Path.Command("g1 x2 y2") # spaces end newlines are not considered
+>>> c3 = Path.Command("g1 x2 y2") # spaces end newlines are ignored
 >>> p = Path.Path([c1,c2,c3])
 >>> o = App.ActiveDocument.addObject("Path::Feature","mypath")
 >>> o.Path = p
->>> print p.toGCode()
+>>> print (p.toGCode())
 ```
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -37,11 +49,31 @@ Gli oggetti Path (percorso) di FreeCAD sono fatti di una sequenza di comandi di 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Un concetto preliminare che importante da afferrare. La maggior parte della realizzazione sottostanti si basa prevalentemente sui comandi di movimento che hanno gli stessi nomi dei comandi GCode, ma non sono destinati ad avvicinarsi all\'implementazione di un particolare controller. Abbiamo scelto nomi come \'G0\' per rappresentare i movimento in \'rapida\' o \'G1\' per rappresentare i movimenti di \'alimentazione\' per motivi di prestazioni (efficienza nel salvataggio dei file) e per ridurre al minimo il lavoro necessario per tradurre in/da altri formati GCode. Dal momento che il mondo CNC parla migliaia di dialetti GCode, abbiamo scelto di iniziare con un sottoinsieme molto semplificato di esso. Si potrebbe descrivere il formato GCode di FreeCAD come una forma \"macchina-agnostica\" di GCode.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 All\'interno dei file .FCStd, i dati Path vengono salvati direttamente in quella forma di GCode.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Tutte le traduzioni dai/nei dialetti del GCode di FreeCAD vengono effettuate tramite pre e post script. Ciò significa che, se si desidera lavorare con una macchina che utilizza uno specifico controller LinuxCNC, Fanuc, Mitusubishi o HAAS, ecc, si deve usare (o scrivere se è inesistente) un post processore per quel particolare controllo (vedere più avanti la sezione \"Importare ed esportare GCode).
+
+
+</div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -51,9 +83,21 @@ Tutte le traduzioni dai/nei dialetti del GCode di FreeCAD vengono effettuate tra
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Le seguenti regole e linee guida definiscono il sottoinsieme di GCode utilizzato all\'interno di FreeCAD:
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   I dati GCode, all\'interno degli oggetti Path di FreeCAD, sono separati in \"Commands\" (comandi). Un comando è definito dal nome del comando, che deve iniziare con G o M, e da argomenti(opzionali), che sono nella forma Lettera = Float (flottante), ad esempio X 0.02 o Y 3.5 o F 300. Questi sono esempi di tipici comandi Gcode in FreeCAD:
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -79,6 +123,9 @@ G90 (Il nome del comando è G90, non ci sono argomentis)
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   Per la parte numerica di un comando G o M, sono supportate sia la forma \"G1\" sia \"G01\" .
 -   In questo momento sono supportati solo i comandi che iniziano per G o M.
 -   Per ora, sono accettati solo i millimetri. G20/G21 non sono considerati.
@@ -89,7 +136,18 @@ G90 (Il nome del comando è G90, non ci sono argomentis)
 -   X, Y, o Z (e A, B, C) possono essere omessi. In questo caso, sono mantenuti le precedenti coordinate X, Y o Z.
 -   I comandi GCode diversi da quelli elencati nella seguente tabella sono supportati, cioè, vengono salvati all\'interno dei dati del percorso ( naturalmente, a patto che siano conformi alle regole di cui sopra), ma non producono alcun risultato visibile sullo schermo. Ad esempio, è possibile aggiungere un comando G81, esso viene memorizzato, ma non visualizzato.
 
+
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
+
 ### Elenco dei comandi Gcode attualmente supportati 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -108,9 +166,17 @@ G90 (Il nome del comando è G90, non ci sono argomentis)
 
 </div>
 
+
+
 ## L\'oggetto Command 
 
+
+<div class="mw-translate-fuzzy">
+
 L\'oggetto Command rappresenta un comando Gcode. Ha tre attributi: Name, Parameters e Placement (Nome,Parametri e posizione), e due metodi: toGCode() e setFromGCode(). Internamente, contiene solo un nome e un dizionario di parametri. Il resto (posizionamento e gcode) viene calcolato da/a questi dati.
+
+
+</div>
 
 
 ```python
@@ -171,6 +237,8 @@ Command G1 [ X:10 ]
 Command G1 [ X:10 Y:2 ]
 ```
 
+
+
 ## L\'oggetto Path 
 
 L\'oggetto Path contiene un elenco di comandi
@@ -211,14 +279,20 @@ for line in slines:
 o = App.ActiveDocument.addObject("Path::Feature","mypath")
 o.Path = p
 
-# but you can also create a path directly form a piece of gcode.
+# but you can also create a path directly form a piece of G-code.
 # The commands will be created automatically:
 
 p = Path.Path()
 p.setFromGCode(lines)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Come scorciatoia, un oggetto Path può anche essere creato direttamente da una sequenza completa di GCode. Sarà diviso automaticamente in una sequenza di comandi.
+
+
+</div>
 
 
 ```python
@@ -226,6 +300,8 @@ Come scorciatoia, un oggetto Path può anche essere creato direttamente da una s
 >>> p
 Path [ size:2 length:2 ]
 ```
+
+
 
 ## La funzione Path 
 
@@ -244,6 +320,8 @@ Path [ size:2 length:2 ]
 La funzione Path detiene inoltre una proprietà Placement. Cambiando il valore del posizionamento si cambia la posizione della funzionalità nella vista 3D, anche se le informazioni sul percorso sono invariate. La trasformazione è puramente visiva. Ciò consente, ad esempio, di creare un percorso attorno a una faccia che ha un particolare orientamento nel modello, e che non è lo stesso orientamento che il materiale da tagliare avrà sulla macchina CNC.
 
 Tuttavia, i Path Compounds possono usufruire del Placement (posizionamento) dei propri figli (vedi sotto).
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -294,7 +372,11 @@ Tooltable containing 2 tools
 >>> 
 ```
 
+
+
 ## Funzioni
+
+
 
 ### La funzione Path Compound 
 
@@ -317,9 +399,17 @@ Una caratteristica importante di Path Compounds è la possibilità di tenere con
 
 Creating a compound with just one child path allows you therefore to turn the child path\'s Placement \"real\" (it affects the Path data).
 
+
+
 ### La funzione Path Project 
 
+
+<div class="mw-translate-fuzzy">
+
 Il progetto Path è un tipo di Compound esteso, che ha un paio di ulteriori proprietà correlate alla macchina, come una tooltable. È fatto principalmente per essere il principale tipo di oggetto che si desidera esportare in Gcode quando la configurazione dell\'intero percorso è pronta. L\'oggetto Project è codificato in python, per cui il suo meccanismo di creazione è un po \'diverso:
+
+
+</div>
 
 
 ```python
@@ -331,13 +421,21 @@ Il progetto Path è un tipo di Compound esteso, che ha un paio di ulteriori prop
 Tooltable containing 0 tools
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Il modulo Path dispone anche di un editor GUI per la tooltable che può essere chiamato in python, dandogli un oggetto che ha una proprietà ToolTable:
+
+
+</div>
 
 
 ```python
 >>> from PathScripts import TooltableEditor
 >>> TooltableEditor.edit(o4)
 ```
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -371,19 +469,55 @@ Questa funzione è un normale oggetto Path con una proprietà Shape aggiuntiva. 
 >>> print(p.toGCode())
 ```
 
+
+
 ### Funzioni Python 
+
+
+<div class="mw-translate-fuzzy">
 
 Le funzioni Path::Feature e Path::FeatureShape hanno una versione Python, chiamate rispettivamente, Path::FeaturePython e Path::FeatureShapePython, che possono essere utilizzate nel codice python per creare oggetti parametrici avanzati derivati da esse.
 
+
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Importare e esportare GCode 
+
+
+</div>
+
+
 
 ### Formato nativo 
 
+
+<div class="mw-translate-fuzzy">
+
 I file gcode possono essere importati ed esportati direttamente tramite l\'interfaccia grafica, utilizzandole voci \"Esporta\", \"Apri\" o \"Inserisci\" del menu. Quando il nome del file è acquisito, si apre una finestra che chiede quale script di elaborazione deve utilizzare. Può anche essere fatto in python:
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Le informazioni sul Percorso vengono memorizzate in oggetti Path utilizzando un sottoinsieme di gcode descritto nella sezione \"Formato del GCode all\'interno di FreeCAD\" di cui sopra. Questo sottoinsieme può essere importato o esportato \"come è\", o convertito in/da una particolare versione di GCode adatto alla vostra macchina.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Se si dispone di un programma di GCode molto semplice e standard, che compila le regole descritte nella sezione \"Formato del GCode all\'interno di FreeCAD\" di cui sopra, per esempio, il boomerang da <http://www.cnccookbook.com/GWESampleFiles.html> , esso può essere importato direttamente in un oggetto Path, senza traduzione (questo equivale a utilizzare l\'opzione \"None\" della finestra GUI):
+
+
+</div>
 
 
 ```python
@@ -395,7 +529,13 @@ o = App.ActiveDocument.addObject("Path::Feature","boomerang")
 o.Path = p
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Allo stesso modo, è possibile ottenere le informazioni sul percorso come gcode \"agnostico\", e memorizzarle manualmente in un file:
+
+
+</div>
 
 
 ```python
@@ -406,13 +546,33 @@ myfile.write(text)
 myfile.close()
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Se serve un output diverso, però, è necessario convertire questo GCode agnostico in un formato adatto alla macchina. Questo è compito dello script di post-processing.
+
+
+</div>
+
+
 
 ### Utilizzare gli script di pre e post-elaborazione 
 
+
+<div class="mw-translate-fuzzy">
+
 Se si dispone di un file gcode scritto per una macchina particolare, che non è conforme alle regole interne utilizzate dai FreeCAD, descritte nella sezione \"Formato GCode interno a FreeCAD\" di cui sopra, si potrebbe non riuscire a importarlo e/o renderlo correttamente nella 3D vista. Per rimediare a questo, è necessario utilizzare uno script di pre-elaborazione, che converte dal formato di una specifica macchina al formato di FreeCAD.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Se si conosce il nome dello script di pre-elaborazione da utilizzare, è possibile importare il file usando, dalla console python questo:
+
+
+</div>
 
 
 ```python
@@ -420,7 +580,13 @@ import example_pre
 example_pre.insert("/path/to/myfile.ncc","DocumentName")
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Allo stesso modo, è possibile emettere un oggetto tracciato per GCode, utilizzando uno script post_processor in questo modo:
+
+
+</div>
 
 
 ```python
@@ -428,11 +594,19 @@ import example_post
 example_post.export (myObjectName,"/path/to/outputFile.ncc")
 ```
 
+
+
 ### Scrivere script di elaborazione 
 
 Gli script di pre e post-elaborazione si comportano come gli altri comuni importatori e esportatori di FreeCAD. Quando si sceglie uno script di /post elaborazione dalla finestra di dialogo, il processo di import/export viene reindirizzato allo script specificato. Gli script di pre-elaborazione devono contenere almeno i seguenti metodi open(nome del file) e insert(nome del file, nome del documento). Gli script di post-elaborazione devono implementare export(objectslist,filename).
 
+
+<div class="mw-translate-fuzzy">
+
 Gli script vengono inseriti nella cartella Mod/Path/PathScripts o nella directory delle macro definita dell\'utente. Si può dare loro un nome a piacere, ma per convenzione, e per essere scelti dalla finestra di dialogo GUI, i nomi degli script di pre-elaborazione devono terminare con \"\_pre\", gli script di post-elaborazione con \"\_post\" (assicuratevi di usare il carattere sottolineato, non il trattino, altrimenti python non può importarli). Questo è un esempio molto, molto semplice di preprocessore. Esempi più complessi si trovano nella cartella Mod/Path/PathScripts:
+
+
+</div>
 
 
 ```python
@@ -460,7 +634,13 @@ def open(filename):
     FreeCAD.ActiveDocument.recompute()
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Pre e post-processori funzionano esattamente allo stesso modo. Fanno solo il contrario: Gli script pre convertono da un GCode specifico al GCode \"agnostico\" di FreeCAD, mentre gli script post convertono dal GCode \"agnostico\" di FreeCAD al GCode specifico della macchina.
+
+
+</div>
 
 ## Adding all faces of a ShapeString to the BaseFeature\'s list of a ProfileFromFaces operation 
 

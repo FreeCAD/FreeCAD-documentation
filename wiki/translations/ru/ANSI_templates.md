@@ -1,4 +1,7 @@
 # ANSI templates/ru
+**The templates on this page are for the old [Drawing Workbench](Drawing_Workbench.md).<br>
+ There will be issues when using them with the [TechDraw Workbench](TechDraw_Workbench.md).**
+
 Эта страница перечисляет шаблоны, соответствующие стандартам Америка́нского национа́льного институ́та станда́ртов [ANSI](https://ru.wikipedia.org/wiki/Американский_национальный_институт_стандартов)
 
 ### ANSI A 
@@ -16,6 +19,8 @@
 #### ANSI_A\_Landscape 
 
 <img alt="" src=images/ANSI_B_Landscape.svg  style="width:800px;">
+
+
 
 #### ANSI_A\_Portrait 
 
@@ -51,11 +56,15 @@
 
 <img alt="" src=images/ANSI_E_Portrait.svg  style="width:800px;">
 
+
+
 ## Другие доступные стандарты 
 
 -   [Чертёжные шаблоны](Drawing_templates/ru.md): шаблоны FreeCAD по умолчанию
 -   [Архитектурные шаблоны](Arch_templates/ru.md): в соответствии с архитектурными стандартами [ANSI](https://ru.wikipedia.org/wiki/Американский_национальный_институт_стандартов)
 -   [Misc templates](Misc_templates/ru.md): различные шаблоны
+
+
 
 ## Авторы
 

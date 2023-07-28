@@ -37,6 +37,8 @@ The bodies created with PartDesign are often subject to the [topological naming 
 
 <img alt="" src=images/PartDesign_Example.png  style="width:500px;">
 
+
+
 ## Araçlar
 
 
@@ -46,6 +48,8 @@ Parça Tasarım tezgahının araçlarının tümü , Parça tasarım tezgahını
 
 
 </div>
+
+
 
 ### Yapı araçları 
 
@@ -67,6 +71,8 @@ Bu araçlar, Model ağacını düzenlemek için kullanılan araçlardır.
 </div>
 
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Group](Std_Group.md): adds a Group container in the active document, which allows organizing the objects in the [tree view](Tree_view.md).
+
+
 
 ### Parça Tasarım Yardım Araçları 
 
@@ -104,7 +110,11 @@ Bu araçlar, Model ağacını düzenlemek için kullanılan araçlardır.
 
 -   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Validate sketch](Sketcher_ValidateSketch.md): verifies the tolerance of different points and adjusts them.
 
+
+
 ### Parça Tasarım modelleme araçları 
+
+
 
 #### Referans araçları 
 
@@ -148,7 +158,7 @@ Bu araçlar, Model ağacını düzenlemek için kullanılan araçlardır.
 
 </div>
 
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Create a sub-object(s) shape binder](PartDesign_SubShapeBinder.md): creates a shape binder referencing geometry from one or more parent objects. <small>(v0.19)</small> 
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Create a sub-object(s) shape binder](PartDesign_SubShapeBinder.md): creates a shape binder referencing geometry from one or more parent objects.
 
 
 <div class="mw-translate-fuzzy">
@@ -157,6 +167,8 @@ Bu araçlar, Model ağacını düzenlemek için kullanılan araçlardır.
 
 
 </div>
+
+
 
 #### Ekleme araçları 
 
@@ -194,7 +206,7 @@ Bunlar, temel özellikler oluşturmak veya mevcut bir katı gövdeye malzeme ekl
 
 </div>
 
--   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Additive helix](PartDesign_AdditiveHelix.md): creates a solid by sweeping a sketch along a helix. <small>(v0.19)</small> 
+-   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Additive helix](PartDesign_AdditiveHelix.md): creates a solid by sweeping a sketch along a helix.
 
 
 <div class="mw-translate-fuzzy">
@@ -268,6 +280,8 @@ Bunlar, temel özellikler oluşturmak veya mevcut bir katı gövdeye malzeme ekl
 
 </div>
 
+
+
 #### Çıkarma araçları 
 
 Bunlar, mevcut bir gövdeden materyal çıkarmak için kullanılan araçlardır.
@@ -312,7 +326,7 @@ Bunlar, mevcut bir gövdeden materyal çıkarmak için kullanılan araçlardır.
 
 </div>
 
--   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Subtractive helix](PartDesign_SubtractiveHelix.md): creates a solid shape by sweeping a sketch along a helix and subtracts it from the active body. <small>(v0.19)</small> 
+-   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Subtractive helix](PartDesign_SubtractiveHelix.md): creates a solid shape by sweeping a sketch along a helix and subtracts it from the active body.
 
 
 <div class="mw-translate-fuzzy">
@@ -386,6 +400,8 @@ Bunlar, mevcut bir gövdeden materyal çıkarmak için kullanılan araçlardır.
 
 </div>
 
+
+
 #### Dönüştürme araçları 
 
 
@@ -427,6 +443,8 @@ Bunlar mevcut özellikleri dönüştürmek için kullanılan araçlardır. Hangi
 
 
 </div>
+
+
 
 #### Süsleme araçları 
 
@@ -480,6 +498,8 @@ Bu araçlar seçilen kenarlara veya yüzlere bir işlem uygular.
 
 </div>
 
+
+
 #### Ekstralar
 
 Parça Tasarım menüsünde bulunan bazı ek işlevler:
@@ -492,7 +512,7 @@ Parça Tasarım menüsünde bulunan bazı ek işlevler:
 
 </div>
 
--   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Sprocket](PartDesign_Sprocket.md): creates a sprocket profile that can be padded. <small>(v0.19)</small> 
+-   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Sprocket](PartDesign_Sprocket.md): creates a sprocket profile that can be padded.
 
 
 <div class="mw-translate-fuzzy">
@@ -511,6 +531,8 @@ Parça Tasarım menüsünde bulunan bazı ek işlevler:
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Bağlamsal menü araçları 
@@ -525,6 +547,8 @@ Parça Tasarım menüsünde bulunan bazı ek işlevler:
 -   <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:32px;"> [Move object after other object](PartDesign_MoveFeatureInTree.md): allows reordering of the Body tree by moving the selected sketch, datum geometry or feature to another position in the list of features.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/PartDesign_MoveTip.png  style="width:32px;"> [Uç Ayarla](PartDesign_MoveTip/tr.md): Gövde dışında açık kalmış uç kısmı yeniden tanımlar.
@@ -535,6 +559,8 @@ Parça Tasarım menüsünde bulunan bazı ek işlevler:
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Appearance](Std_SetAppearance.md): determines appearance of the whole part (color transparency etc.).
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Set colors](Part_FaceColors.md): assigns colors to part faces.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -552,6 +578,8 @@ Parça Tasarım menüsünde bulunan bazı ek işlevler:
 
 </div>
 
+
+
 ## Kılavuz
 
 
@@ -565,6 +593,12 @@ Parça Tasarım menüsünde bulunan bazı ek işlevler:
 
 
 </div>
+
+## Examples
+
+For some ideas of what can be achieved with Part Design tools, have a look at: [PartDesign examples](PartDesign_Examples.md).
+
+<img alt="" src=images/PartDesign_ExampleSphere-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleTorus-01.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExamplePad-09.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-05.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSpring-04.png  style="width:80px;">
 
 
 <div class="mw-translate-fuzzy">

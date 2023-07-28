@@ -1,18 +1,20 @@
 ---
 - GuiCommand:/pl
-   Name:Sketcher Fillets
-   Name/pl:Szkicownik: Zaokrąglenie
-   Icon:Sketcher_CompCreateFillets.png
-   MenuLocation:
+   Name:Sketcher CompCreateFillets
+   Name/pl:Szkicownik: Komponent Utwórz zaokrąglenie
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Version:0.19
 ---
 
 # Sketcher CompCreateFillets/pl
 
+
+
 ## Opis
 
 **Utwórz zaokrąglenie** to przycisk z ikoną na pasku narzędziowym geometrii szkicownika, który grupuje narzędzia do tworzenia zaokrągleń. Kliknij na strzałkę w dół po jego prawej stronie, aby wyświetlić znajdujące się pod nim ikony i wybrać narzędzie.
+
+
 
 ## Rodzaje zaokrągleń 
 

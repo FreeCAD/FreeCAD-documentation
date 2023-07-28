@@ -10,11 +10,15 @@
 
 # Sketcher ConstrainDistanceY/de
 
+
+
 ## Beschreibung
 
 Legt den vertikalen Abstand zwischen zwei Punkten oder Linienenden fest. Falls nur ein Punkt ausgewählt ist, wird der (vertikale) Abstand zum Ursprung (0,0) festgelegt.
 
 ![](images/Sketcher_ConstraintDistanceY_example.png )
+
+
 
 ## Anwendung
 
@@ -27,12 +31,14 @@ Legt den vertikalen Abstand zwischen zwei Punkten oder Linienenden fest. Falls n
 
 **Hinweis**: Das Werkzeug kann auch ohne vorherige Auswahl gestartet werden, erfordert aber die Auswahl von zwei Punkten oder einer Linie. Um den Abstand zum Ursprung zu setzen, muss der Ursprungspunkt der Skizze ebenfalls ausgewählt werden. Standardmäßig ist der Befehl im Fortsetzungsmodus, um neue Randbedingungen zu erstellen; ein Druck auf die rechte Maustaste oder auf **Esc** beendet den Befehl.
 
+
+
 ## Skripten
 
 Abstand vom Ursprung:
 
 
-```pythonSketch.addConstraint(Sketcher.Constraint('DistanceY', Edge, PointOfEdge, App.Units.Quantity('123.0 mm')))```
+```pythonSketch.addConstraint(Sketcher.Constraint('DistanceY', Edge, PointOfEdge, -1, 1, App.Units.Quantity('123.0 mm')))```
 
 Abstand zwischen zwei Endpunkten:
 

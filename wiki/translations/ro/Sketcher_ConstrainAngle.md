@@ -25,6 +25,8 @@ Constrângerea de unghi este o [datum constraint](Sketcher_Workbench#Sketcher_Co
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Cum se folosește 
@@ -59,6 +61,8 @@ Pentru a aplica constrângerea de unghi, trebuie urmați următorii pași:
 </div>
 
 Ca și în cazul oricărei constrângeri de referință, este posibil să modificați unghiul prin lista constrângerilor. Introducerea unei valori negative va determina unghiul să se răstoarne.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -135,6 +139,8 @@ Pentru ca constrângerea să funcționeze corect, punctul trebuie să fie pe amb
 
 
 </div>
+
+
 
 ## Script
 

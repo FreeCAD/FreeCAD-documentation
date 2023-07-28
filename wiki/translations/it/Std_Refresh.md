@@ -9,9 +9,13 @@
 
 # Std Refresh/it
 
+
+
 ## Descrizione
 
 Il comando **Aggiorna** ricalcola il documento attivo. Il comando è disabilitato se il documento non richiede un nuovo calcolo.
+
+
 
 ## Utilizzo
 
@@ -20,20 +24,20 @@ Il comando **Aggiorna** ricalcola il documento attivo. Il comando è disabilitat
     -   Selezionare l\'opzione **Modifica → <img src="images/Std_Refresh.svg" width=16px> Aggiorna** dal menu.
     -   Usare la scorciatoia da tastiera: **F5**.
 
+
+
 ## Opzioni
 
-
-<div class="mw-translate-fuzzy">
-
--   Per forzare un ricalcolo selezionare il documento o uno o più oggetti nella [vista ad albero](Tree_view/it.md), selezionare l\'opzione **Segna da ricalcolare** dal menu contestuale e richiamare il comando.
--   Per gli oggetti, ma non per i documenti, si può anche scegliere **Ricalcola l'oggetto** dallo stesso menu contestuale ({{Version/it|0.19}}).
+-   Per forzare un ricalcolo selezionare il documento o uno o più oggetti nella [vista ad albero](Tree_view/it.md), selezionare l\'opzione **<img src="images/Std_MarkToRecompute.svg" width=16px> Segna da ricalcolare** dal menu contestuale e richiamare il comando.
+-   Per gli oggetti, ma non per i documenti, si può anche scegliere **Ricalcola l'oggetto** dallo stesso menu contestuale.
 
 
-</div>
 
 ## Note
 
 -   Per una macro che ricalcola il documento attivo, consultare: [Macro ForceRecompute](Macro_ForceRecompute/it.md).
+
+
 
 ## Script
 
@@ -53,13 +57,7 @@ doc.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

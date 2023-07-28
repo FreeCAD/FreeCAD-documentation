@@ -28,6 +28,7 @@ Lo strumento <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:16px;
     -   L\'utilizzo di 1 o 2 lettere maiuscole seguite da 1 a 5 numeri, ad esempio `AB123`, non è consentito poiché questo è considerato un indirizzo di cella.
     -   Le sequenze di caratteri che sono unità di misura non sono consentite. Ad esempio `W` è un alias non valido in quanto è l\'unità di misura del [Watt](https://en.wikipedia.org/wiki/Watt). Poiché FreeCAD supporta molte unità di misura, è meglio evitare alias brevi. Vedere [Espressioni](Expressions/it#Unità.md).
     -   L\'uso delle costanti matematiche `pi` e `e` come alias può portare ad errori e dovrebbe essere evitato.
+    -   Non utilizzare spazi negli alias poiché porteranno anche a errori.
 
 
 

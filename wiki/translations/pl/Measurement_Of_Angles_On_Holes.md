@@ -13,11 +13,15 @@
 
 
 
+
+
 ## Wprowadzenie
 
 Ten poradnik wyjaśnia, jak tworzyć środkowe linie otworów przy pomocy środowiska pracy <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Rysunek Techniczny](TechDraw_Workbench/pl.md) z dokładnie pozycjonowanymi otworami.
 
 Tworząc kąty dla otworów, nie jest możliwe użycie pionowych lub poziomych linii środkowych *(fałsz / prawda)* we właściwościach widoku. W związku z tą koniecznością tworzone są linie pomocnicze i / lub punkty pomocnicze.
+
+
 
 ## Sposób postępowania 
 
@@ -52,4 +56,4 @@ Punkty czworokąta wybierz za pomocą narzędzia <img alt="" src=images/TechDraw
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Measurement Of Angles On Holes/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Measurement Of Angles On Holes/pl

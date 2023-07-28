@@ -74,7 +74,7 @@ Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 t
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Rebar tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The Rebar tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 Rebar = makeRebar(baseobj=None, sketch=None, diameter=None, amount=1, offset=None, name="Rebar")
 ```

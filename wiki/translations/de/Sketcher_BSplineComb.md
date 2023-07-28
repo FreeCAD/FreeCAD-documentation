@@ -10,6 +10,8 @@
 
 # Sketcher BSplineComb/de
 
+
+
 ## Beschreibung
 
 Blendet die Darstellung des Krümmungskamms einer B-Spline-Kurve ein oder aus (siehe Seite [B-Splines](B-Splines/de.md) für weitere Informationen über B-Splines).
@@ -18,6 +20,8 @@ Der Krümmungskamm zeigt die Krümmung (Wert der zweiten Ableitung ) der B-Splin
 
 ![](images/sketcher_BSplineCurvatureShow.png ) 
 *B-Spline mit einem Sattelpunkt an seiner mittleren Position - Der Krümmungskamm zeigt hier Null an.*
+
+
 
 ## Anwendung
 

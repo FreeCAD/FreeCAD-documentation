@@ -49,6 +49,8 @@
 
 Если Вы не знакомы с осями XYZ, то поиграйте с числами в полях Translation (перемещение). Когда закончите играть, кликните на кнопке **Отмена**.
 
+
+
 ## Следующие шаги 
 
 <img alt="" src=images/HTCaeroplane02.png  style="width:400px;">
@@ -99,6 +101,8 @@
 
 
 
+
+
 ## Вращения
 
 
@@ -143,4 +147,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Aeroplane/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Aeroplane/ru

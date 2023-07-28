@@ -11,13 +11,7 @@ Der TechDraw Arbeitsbereich ermöglicht es dir, Blätter zu erstellen, die leer 
 
 Sobald die Zeichnungsblätter vollständig sind, können sie gedruckt oder als [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics), PDF oder [DXF](https://en.wikipedia.org/wiki/AutoCAD_DXF) Dateien exportiert werden.
 
-
-<div class="mw-translate-fuzzy">
-
-In der folgenden Übung werden wir sehen, wie eine einfache Zeichnung eines Stuhlmodells aus der [FreeCAD Bibliothek](https://github.com/FreeCAD/FreeCAD-library) (Möbel → Stühle → IkeaÄhnlicherStuhl) erstellt wird. Die FreeCAD Bibliothek kann einfach zu Deiner FreeCAD Installation hinzugefügt werden (siehe das [FreeCAD installieren](Installing/de.md) Kapitel dieses Handbuchs), oder Du kannst einfach das Modell auf der Bibliothekswebseite oder über die direkten Verknüpfung am Ende dieses Kapitels herunterladen.
-
-
-</div>
+In der folgenden Übung werden wir sehen, wie eine einfache Zeichnung eines Stuhlmodells aus der [FreeCAD-Bibliothek](https://github.com/FreeCAD/FreeCAD-library) (Industrial Design → Chairs → IkeaLikeChair) erstellt wird. Die FreeCAD-Bibliothek kann einfach zu Deiner FreeCAD-Installation hinzugefügt werden (siehe das [FreeCAD installieren](Installing/de.md) Kapitel dieses Handbuchs), oder Du kannst einfach das Modell auf der Bibliothekswebseite oder über die direkten Verknüpfung am Ende dieses Kapitels herunterladen.
 
 ![](images/Exercise_TechDraw_01.svg )
 
@@ -62,15 +56,9 @@ Wir werden nun Bemaßungen und Hinweise auf unserer Zeichnung platzieren. Es gib
 
 ![](images/Exercise_TechDraw_05.png )
 
-
-<div class="mw-translate-fuzzy">
-
--   Wiederhole den Vorgang, bis alle Abmessungen, die du angeben möchtest, platziert sind. Verwende die <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:16px;"> [Vertike Abmessung](TechDraw_VerticalDimension/de.md) und <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:16px;"> [Horizontale Abmessung](TechDraw_HorizontalDimension/de.md) Werkzeuge nach Bedarf.
--   Nimm dir eine Minute Zeit, um dir die [Eigenschaften](TechDraw_LengthDimension/de#Properties.md) des Bemaßungsobjekts in der Combo-Ansicht anzusehen.
--   Bitte beachte, dass bei der Bemaßung einer [axonometrischen](https://en.wikipedia.org/wiki/Axonometric_projection) Ansicht (z.B. isometrische Ansicht) anstelle einer [Mehrfachansicht](https://en.wikipedia.org/wiki/Multiview_projection) Ansicht (z.B. Vorderansicht), wie wir es hier getan haben, du das <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:16px;"> [Dimension Link](TechDraw_LinkDimension.md) Werkzeug verwenden musst, um eine genaue Bemaßung zu erhalten.
-
-
-</div>
+-   Wiederhole den Vorgang, bis alle Maße, die du angeben möchtest, platziert sind. Verwende die Werkzeuge <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:16px;"> [TechDraw MaßVertikal](TechDraw_VerticalDimension/de.md) und <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:16px;"> [TechDraw MaßHorizontal](TechDraw_HorizontalDimension/de.md) nach Bedarf.
+-   Nimm dir eine Minute Zeit, um dir die [Eigenschaften](TechDraw_LengthDimension/de#Eigenschaften.md) des Dimension-Objekts in der Combo-Ansicht anzusehen.
+-   Bitte beachte, dass bei dem Bemaßen einer [axonometrischen](https://en.wikipedia.org/wiki/Axonometric_projection) Ansicht (z.B. isometrische Ansicht) anstelle einer Ansicht der [Mehrfachansicht](https://en.wikipedia.org/wiki/Multiview_projection) (z.B. Vorderansicht), wie wir es hier getan haben, du das Werkzeug <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:16px;"> [MaßVerknüpfen](TechDraw_LinkDimension/de.md) verwenden musst, um die wahre Länge (anstatt der projizierten Länge) als Maß(zahl) zu erhalten.
 
 ![](images/Exercise_TechDraw_07.png )
 

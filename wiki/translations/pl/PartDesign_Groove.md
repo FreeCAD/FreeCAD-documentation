@@ -1,75 +1,88 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign Groove
-   MenuLocation:Part Design → Create a substractive feature → Groove
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[PartDesign Revolution](PartDesign_Revolution.md)
+   Name/pl:Projekt Części: Rowek
+   MenuLocation:Projekt części → Utwórz cechę przez odjęcie → Kieszeń
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
+   SeeAlso:[Wyciągnij przez obrót](PartDesign_Revolution/pl.md)
 ---
 
 # PartDesign Groove/pl
 
-## Description
 
-The **Groove** tool revolves a selected sketch or profile about a given axis, cutting out material from the support .
+
+## Opis
+
+Narzędzie **Rowek** obraca wybrany szkic lub profil wokół danej osi, wycinając materiał z podpory.
 
 ![](images/PartDesign_Groove_example.svg )
 
 
 
-*Above: sketch (A) is revolved around axis (B); resulting groove on solid (C) is shown right.*
+*Powyżej: szkic ''(A)'' jest obracany wokół osi ''(B)''. Wynikowy rowek na bryle ''(C)'' jest pokazany po prawej stronie.*
 
-## Usage
 
-1.  Select the sketch to be revolved.
 
-    :   A face on the existing solid can alternatively be used. <small>(v0.17)</small> 
-    :   The sketch must be mapped to the planar face of an existing solid or Part Design feature, or an error message will appear. {{VersionMinus|0.16}}
-2.  Press the **<img src="images/PartDesign_Groove.svg" width=24px> '''Groove'''** button.
-3.  Set the Groove parameters (see next section).
-4.  Press **OK**.
+## Użycie
 
-## Options
+1.  Wybierz szkic, który ma zostać obrócony.
 
-When creating a groove, the **Groove parameters** dialogue offers several parameters specifying how the sketch should be revolved.
+    :   Alternatywnie można użyć ściany na istniejącej bryle. {{VersionPlus/pl|0.17}}
+2.  Szkic musi być zmapowany do płaskiej ściany istniejącej bryły lub elementu środowiska Projekt Części, w przeciwnym razie zostanie wyświetlony komunikat o błędzie. {{VersionMinus/pl|0.16}}
+3.  Naciśnij przycisk **<img src="images/PartDesign_Groove.svg" width=24px> '''Rowek'''**.
+4.  Ustaw parametry rowka *(patrz następna sekcja)*.
+5.  Naciśnij przycisk **OK**.
+
+
+
+## Opcje
+
+Podczas tworzenia rowka okno dialogowe **Parametry wyciągnica przez obrót** oferuje kilka parametrów określających sposób obracania szkicu.
 
 +++
-| ![](images/partdesign_groove_parameters.png ) | ### Axis                                                                                                                                                                                                                                                                                                |
-|                                                                          |                                                                                                                                                                                                                                                                                                         |
-|                                                                          | This option specifies the axis about which the sketch is to be revolved.                                                                                                                                                                                                                                |
-|                                                                          |                                                                                                                                                                                                                                                                                                         |
-|                                                                          | -   **Vertical sketch axis**: selects the vertical sketch axis .                                                                                                                                                                                                                                        |
-|                                                                          | -   **Horizontal sketch axis**: selects the horizontal sketch axis.                                                                                                                                                                                                                                     |
-|                                                                          | -   **Sketch axis**: selects a construction line contained in the sketch used by the Groove. The first construction line created in the sketch will be labelled *Sketch axis 0*. The drop down list will contain one custom sketch axis for each construction line. {{VersionMinus|0.16}} |
-|                                                                          | -   **Construction line**: selects a construction line contained in the sketch used by the Groove. The drop down list will contain an entry for each construction line. The first construction line created in the sketch will be labelled *Construction line 1*. <small>(v0.17)</small>     |
-|                                                                          | -   **Base (X/Y/Z) axis**: selects the X, Y or Z axis of the Body\'s Origin; <small>(v0.17)</small>                                                                                                                                                                                          |
-|                                                                          | -   **Select reference\...**: allows selection in the 3D view of an edge on the Body, or a [datum line](PartDesign_Line.md). <small>(v0.17)</small>                                                                                                                                  |
-|                                                                          |                                                                                                                                                                                                                                                                                                         |
-|                                                                          | ### Angle                                                                                                                                                                                                                                                                                               |
-|                                                                          |                                                                                                                                                                                                                                                                                                         |
-|                                                                          | This controls the angle through which the groove is to be formed, e.g. 360° would be a full, contiguous revolution. It is not possible to specify negative angles (use the **Reversed** option instead) or angles greater than 360° .                                                                   |
-|                                                                          |                                                                                                                                                                                                                                                                                                         |
-|                                                                          | ### Symmetric to plane                                                                                                                                                                                                                                                             |
-|                                                                          |                                                                                                                                                                                                                                                                                                         |
-|                                                                          | If checked, the groove will extend half of the specified angle in both directions from the sketch plane .                                                                                                                                                                                               |
-|                                                                          |                                                                                                                                                                                                                                                                                                         |
-|                                                                          | ### Reversed                                                                                                                                                                                                                                                                                            |
-|                                                                          |                                                                                                                                                                                                                                                                                                         |
-|                                                                          | If checked, the direction of revolution is reversed from default clockwise to counterclockwise .                                                                                                                                                                                                        |
+| ![](images/partdesign_groove_parameters.png ) | ### Oś                                                                                                                                                                                                                                                                                                            |
+|                                                                          |                                                                                                                                                                                                                                                                                                                   |
+|                                                                          | -   **Pionowa oś szkicu**: wybiera pionową oś szkicu.                                                                                                                                                                                                                                                             |
+|                                                                          | -   **Pozioma oś szkicu**: wybiera poziomą oś szkicu.                                                                                                                                                                                                                                                             |
+|                                                                          | -   **Oś szkicu**: wybiera linię konstrukcyjną zawartą w szkicu używanym przez Rowek. Pierwsza linia konstrukcyjna utworzona w szkicu będzie oznaczona jako *Oś szkicu 0*. Lista rozwijana będzie zawierać jedną niestandardową oś szkicu dla każdej linii konstrukcyjnej. {{VersionMinus/pl|0.16}} |
+|                                                                          | -   **Linia konstrukcyjna**: wybiera linię konstrukcyjną zawartą w szkicu używanym przez Rowek. Lista rozwijana będzie zawierać pozycję dla każdej linii konstrukcyjnej. Pierwsza linia konstrukcyjna utworzona w szkicu będzie oznaczona jako *Linia konstrukcyjna 1*. {{VersionPlus/pl|0.17}}     |
+|                                                                          | -   **Oś bazowa (X/Y/Z)**: wybiera oś X, Y lub Z położenia początkowego bryły. {{VersionPlus/pl|0.17}}.                                                                                                                                                                                             |
+|                                                                          | -   **Wybierz odniesienie\...**: umożliwia wybór w oknie widoku 3D krawędzi na bryle lub [linii odniesienia](PartDesign_Line/pl.md). {{VersionPlus/pl|0.17}}.                                                                                                                               |
+|                                                                          |                                                                                                                                                                                                                                                                                                                   |
+|                                                                          |                                                                                                                                                                                                                                                                         |
+|                                                                          |                                                                                                                                                                                                                                                                                                                   |
+|                                                                          | ### Kąt                                                                                                                                                                                                                                                                                                           |
+|                                                                          |                                                                                                                                                                                                                                                                                                                   |
+|                                                                          | Określa kąt, przez który ma zostać utworzony rowek, np. 360° oznacza pełny, ciągły obrót. Nie jest możliwe określenie ujemnych kątów *(zamiast tego należy użyć opcji **Odwrócony**)* lub kątów większych niż 360°.                                                                                               |
+|                                                                          |                                                                                                                                                                                                                                                                                                                   |
+|                                                                          |                                                                                                                                                                                                                                                            |
+|                                                                          |                                                                                                                                                                                                                                                                                                                   |
+|                                                                          | ### Symetrycznie do płaszczyzny                                                                                                                                                                                                                                                     |
+|                                                                          |                                                                                                                                                                                                                                                                                                                   |
+|                                                                          | Jeśli opcja ta jest zaznaczona, rowek będzie rozciągał się o połowę określonego kąta w obu kierunkach od płaszczyzny szkicu.                                                                                                                                                                                      |
+|                                                                          |                                                                                                                                                                                                                                                                                                                   |
+|                                                                          |                                                                                                                                                                                                                                                                      |
+|                                                                          |                                                                                                                                                                                                                                                                                                                   |
+|                                                                          | ### Odwrócony                                                                                                                                                                                                                                                                                                     |
+|                                                                          |                                                                                                                                                                                                                                                                                                                   |
+|                                                                          | Jeśli opcja zostanie zaznaczona, kierunek wykonania rowka ulegnie odwróceniu z domyślnego zgodnego z ruchem wskazówek zegara na przeciwny.                                                                                                                                                                        |
 +++
 
-## Properties
 
-Below are properties which can be defined after creation of the feature. Data properties *Base* and *Axis* are uneditable .
 
--    **Angle**: angle of rotation. See [Angle](#Angle.md) .
+## Właściwości
 
--    **Label**: label given to the operation, can be changed at convenience.
+Poniżej znajdują się właściwości, które można zdefiniować po utworzeniu elementu. Właściwości danych \"Podstawowe\" i \"Oś\" nie można edytować.
 
--    **Midplane**: true or false. See [Symmetric to plane](#Symmetric_to_plane.md).
+-    **Kąt**: kąt obrotu. Patrz sekcja [Kąt](#Kąt.md).
 
--    **Reversed**: true or false. See [Reversed](#Reversed.md).
+-    **Etykieta**: etykieta nadana operacji, może zostać zmieniona w dogodny sposób.
 
--    **Refine**: true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details. <small>(v0.17)</small> 
+-    **Midplane**: przyjmuje wartość {{true/pl}} lub {{false/pl}}. Zobacz sekcję [Symetrycznie do płaszczyzny](#Symetrycznie_do_płaszczyzny.md).
+
+-    **Odwrócony**: przyjmuje wartość prawda lub fałsz. Zobacz sekcję [Odwrócony](#Odwrócony.md).
+
+-    **Ulepsz**: przyjmuje wartość {{true/pl}} lub {{false/pl}}. Ustawienie na prawda powoduje oczyszczenie bryły z resztek krawędzi pozostawionych przez elementy. Zobacz stronę [Udoskonal kształt](Part_RefineShape/pl.md) aby uzyskać więcej szczegółów. {{VersionPlus/pl|0.17}}
 
 
 

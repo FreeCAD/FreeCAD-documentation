@@ -5,11 +5,15 @@
 
 </div>
 
+
+
 ## Descriere
 
 Inserează o primitivă geometrică tip prismă în corpul activ ca prima funcție(onalitate) sau se conectează la funcționalitățile existente.
 
 <img alt="" src=images/PartDesign_AdditivePrism_example.png  style="width:200px;">
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -30,9 +34,11 @@ Inserează o primitivă geometrică tip prismă în corpul activ ca prima funcț
 
 </div>
 
+
+
 ## Opţiuni
 
-It is possible to create skewed prisms by specifying angles in respect to the normal vector of the chosen attachment. <small>(v0.19)</small> 
+It is possible to create skewed prisms by specifying angles in respect to the normal vector of the chosen attachment.
 
 
 <div class="mw-translate-fuzzy">
@@ -44,6 +50,8 @@ Prisma pote fi editată după crearea sa în două moduri:
 
 
 </div>
+
+
 
 ## Proprietăți
 

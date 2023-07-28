@@ -9,6 +9,8 @@
 
 # Part Torus/pl
 
+
+
 ## Opis
 
 Narzędzie <img alt="" src=images/Part_Torus.svg  style="width:24px;"> **Torus** środowiska Część, tworzy parametryczną bryłę torusa, kształt zbliżony do pierścienia. Powstaje ona w wyniku przeciągnięcia profilu kolistego wokół okrągłej ścieżki. W układzie współrzędnych zdefiniowanym przez właściwość **Umiejscowienie** kolista ścieżka torusa leży na płaszczyźnie XY, a jej środek znajduje się w punkcie odniesienia położenia.
@@ -16,6 +18,8 @@ Narzędzie <img alt="" src=images/Part_Torus.svg  style="width:24px;"> **Torus**
 Torus środowiska Część można przekształcić w fragment torusa, zmieniając jego właściwość **Kąt3**. Zmieniając właściwości **Kąt1** i / lub **Kąt2**, profil pochylony może stać się fragmentem okręgu.
 
 <img alt="" src=images/Part_Torus_Example.png  style="width:400px;">
+
+
 
 ## Użycie
 
@@ -32,21 +36,29 @@ Torus środowiska Część można przekształcić w fragment torusa, zmieniając
     -   Zmień właściwości w [Edytor właściwości](Property_editor/pl.md).
     -   Zmień **Umiejscowienie** za pomocą narzędzia <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std: Przemieszczenie](Std_TransformManip/pl.md).
 
+
+
 ## Przykład
 
 ![Torus środowiska pracy Część na przykładzie skryptu](images/Part_Torus_Scripting_Example.png )
 
 Poniżej pokazano obiekt Torusa utworzony za pomocą [przykładowego skryptu](#Tworzenie_skrypt.C3.B3w.md).
 
+
+
 ## Uwagi
 
--   Torus środowiska pracy Część można również utworzyć za pomocą narzędzia <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Geometrie pierwotne](Part_Primitives/pl.md). Za jego pomocą można określić wymiary i umiejscowienie w czasie tworzenia.
+-   Torus środowiska pracy Część można również utworzyć za pomocą narzędzia <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Utwórz geometrie pierwotne](Part_Primitives/pl.md). Za jego pomocą można określić wymiary i umiejscowienie w czasie tworzenia.
+
+
 
 ## Właściwości
 
 Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
 
 Obiekt Torus wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
 
 ### Dane
 
@@ -67,6 +79,8 @@ Obiekt ten ma takie same właściwości dołączania jak [Part: Part2DObject](Pa
 -    **Kąt 2|Kąt **: Kąt zakończenia profilu kołowego. Prawidłowy zakres: {{Value|-180° &lt;&#61; wartość &lt;&#61; 180°}}. Wartość domyślna to {{Value|180°}}. Jeśli całkowity kąt profilu kołowego jest mniejszy niż {{Value|360°}}, profil będzie miał kształt tortu.
 
 -    **Kąt 3|Kąt **: Kąt ścieżki kołowej torusa. Poprawny zakres: {{Value|0° &lt; wartość &lt;&#61; 360°}}. Domyślnie jest to {{Value|360°}}. Jeśli wartość jest mniejsza niż {{Value|360°}}, to bryła wynikowa będzie odcinkiem torusa.
+
+
 
 ## Tworzenie skryptów 
 

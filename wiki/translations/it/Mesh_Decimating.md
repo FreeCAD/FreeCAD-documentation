@@ -4,13 +4,18 @@
    Name/it:Decima
    MenuLocation:Mesh → Decima...
    Workbenches:[Mesh](Mesh_Workbench/it.md)
+   Version:0.19
 ---
 
 # Mesh Decimating/it
 
+
+
 ## Descrizione
 
 Il comando **Decima** riduce il numero di facce negli oggetti mesh.
+
+
 
 ## Utilizzo
 

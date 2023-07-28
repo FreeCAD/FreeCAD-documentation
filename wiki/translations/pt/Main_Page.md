@@ -83,7 +83,7 @@ Há muito que fazer dentro do projeto FreeCAD, se estiver interessado em ajudar.
 
 <div class="mw-translate-fuzzy">
 
-A página [Ajuda o FreeCAD](help_FreeCAD/pt.md) descreve tudo com mais detalhes. A partir de 2016, o FreeCAD também participa do [Google Summer of Code](Google_Summer_of_Code.md). A página [Contributors hub](Contributors_hub.md) é outro esforço para reunir as possíveis maneiras de ajudar e contribuir com o projeto FreeCAD.
+A página [Ajuda o FreeCAD](help_FreeCAD/pt.md) descreve tudo com mais detalhes. A partir de 2016, o FreeCAD também participa do [Google Summer of Code](Google_Summer_of_Code.md).
 
 
 </div>

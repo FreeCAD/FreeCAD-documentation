@@ -3,8 +3,8 @@
    Name:Part Fillet
    Name/pl:Część: Zaokrąglenie
    MenuLocation:Część → Zaokrąglenie ...
-   Workbenches:[Część](Part_Workbench/pl.md), [Complete](Complete_Workbench/pl.md)
-   SeeAlso:[Fazka](Part_Chamfer/pl.md)
+   Workbenches:[Część](Part_Workbench/pl.md)
+   SeeAlso:[Sfazowanie](Part_Chamfer/pl.md)
 ---
 
 # Part Fillet/pl
@@ -42,7 +42,7 @@ Narzędzie do zaokrąglania czasem zawodzi przy próbie zaokrąglenia złożonyc
 -   Tam, gdzie to możliwe, pozostawić wypełnianie części do czasu, aż część zostanie całkowicie wygenerowana. Zminimalizuje to interakcję pomiędzy operacjami zaokrąglania a kolejnymi operacjami logicznymi.
 -   Użyj polecenia **Część → Sprawdź geometrię**, aby sprawdzić, czy geometria kształtu nie zawiera błędów i skorygować ją.
 -   Użyj polecenia **Część → Utwórz kopię → Udoskonal kształt** aby usunąć wszelkie artefakty wprowadzone przez poprzednie operacje logiczne przed wypełnieniem *(a w niektórych przypadkach pomiędzy kolejnymi operacjami wypełniania)*.
--   Rozważyć zastosowanie funkcji **Edycja → Preferencje → Projekt Części → Automatycznie ...**, aby umożliwić automatyczne sprawdzanie i udoskonalanie modelu po operacjach logicznych i szkicowych \'(wydajność może ulec zmianie, jeśli opcje te pozostaną włączone)\'\'.
+-   Rozważyć zastosowanie funkcji **Edycja → Preferencje ... → Część / Projekt Części → Automatycznie sprawdź model po wykonaniu operacji logicznej**, aby umożliwić automatyczne sprawdzanie i udoskonalanie modelu po operacjach logicznych i szkicowych *(wydajność może ulec zmianie, jeśli opcje te pozostaną włączone)*.
 
 Zwróć również uwagę, że na funkcję zaokrąglania części wpływa [Topologiczny problem nazewnictwa](Topological_naming_problem/pl.md), gdy jakakolwiek zmiana jest dokonywana na wcześniejszym etapie modelowania w łańcuchu, który wpływa na liczbę powierzchni lub wierzchołków. Może to powodować nieprzewidywalne rezultaty. Dopóki problem ten nie zostanie rozwiązany, zaleca się stosowanie operacji fazowania i zaokrąglania jako ostatnich kroków w łańcuchu modelowania.
 

@@ -1,7 +1,13 @@
-# <img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench/zh-cn
+# Image Workbench/zh-cn
+**The '''Image Workbench''' is no longer included after version 0.20.<br>
+It functionality has been integrated in [Std Base](Std_Base.md). See [Std Import](Std_Import.md) and [Std ViewLoadImage](Std_ViewLoadImage.md).**
+
+<img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width:128px;">
 
 
 {{TOCright}}
+
+
 
 ## 简介
 
@@ -9,6 +15,8 @@
 {{TOCright}}
 
 [图像工作台用于管理不同类型的](Image_Workbench.md)[位图图像](bitmap.md)，用户可借此在FreeCAD中打开这些图像。
+
+
 
 ## 工具
 
@@ -21,6 +29,8 @@
 
 
 </div>
+
+
 
 ## 特性
 
@@ -55,4 +65,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Image](Category_Image.md) > Image Workbench/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/zh-cn

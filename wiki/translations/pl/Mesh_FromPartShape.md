@@ -8,11 +8,15 @@
 
 # Mesh FromPartShape/pl
 
+
+
 ## Opis
 
 Polecenie **Utwórz siatkę z kształtu** tworzy nieparametryczne obiekty [siatek](Mesh/pl.md) *([Siatka: Cecha](Mesh_Feature/pl.md))* z obiektów [kształtu](Shape/pl.md) *([Część: Cecha](Part_Feature/pl.md))*.
 
 Operacją odwrotną jest [Kształt z siatki](Part_ShapeFromMesh/pl.md) ze środowiska <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md).
+
+
 
 ## Użycie
 
@@ -26,9 +30,13 @@ Operacją odwrotną jest [Kształt z siatki](Part_ShapeFromMesh/pl.md) ze środo
 6.  Określ wymagane ustawienia. Zobacz akapit [generator siatki](#Generator_siatki.md) aby uzyskać więcej informacji.
 7.  Naciśnij przycisk **OK**, aby zamknąć panel zadań i zakończyć polecenie.
 
+
+
 ## Generator siatki 
 
 Oto dostępne generatory siatki i ich ustawienia:
+
+
 
 ### Generator standardowy 
 
@@ -42,11 +50,15 @@ Oto dostępne generatory siatki i ich ustawienia:
 
 -    **Zdefiniuj segmenty według kolorów ścian**: jeżeli opcja jest zaznaczona, segmenty siatki zostaną pogrupowane według kolorów powierzchni obiektu. Grupy te zostaną wyeksportowane do formatów wyjściowych siatki obsługujących tę funkcję *(na przykład format [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file))*.
 
+
+
 ### Generator Mefisto 
 
 -    **Maksymalna długość krawędzi**: maksymalna długość krawędzi siatki. Mniejsza wartość powoduje, że siatka jest drobniejsza. Podanie wartości {{Value|0}} lub usunięcie zaznaczenia pola wyboru powoduje powstanie bardzo grubej siatki.
 
     -   Jeśli naciśniesz przycisk **Szacunkowo**, generator siatki wprowadzi szacunkową wartość dla parametru **Maksymalna długość krawędzi**. Wartość ta nie jest zbyt wiarygodna, jeśli wybrano wiele obiektów.
+
+
 
 ### Generator Netgen 
 
@@ -98,10 +110,9 @@ Oto dostępne generatory siatki i ich ustawienia:
 
 -    **Dominujące czworokąty**: jeśli opcja jest zaznaczona, siatka będzie preferowała [czworoboczne ściany](https://en.wikipedia.org/wiki/Types_of_mesh#Two-dimensional).
 
+
+
 ### Generator Gmsh 
-
-
-{{Version/pl|0.19}}
 
 Dla użytkowników systemu Linux: wymagany jest zewnętrzny moduł [Gmsh](https://gmsh.info/).
 
@@ -147,13 +158,19 @@ Dla użytkowników systemu Linux: wymagany jest zewnętrzny moduł [Gmsh](https:
 
 -   Naciśnij przycisk **Wyczyść**, aby usunąć informacje w obszarze tekstowym.
 
+
+
 ## Uwagi
 
 -   To narzędzie nie jest ograniczone jedynie do obiektów utworzonych za pomocą środowiska [Część](Part_Workbench/pl.md). Może ono utworzyć siatkę z dowolnego obiektu posiadającego kształt, w tym obiektów utworzonych za pomocą środowiska pracy [Projekt Części](PartDesign_Workbench/pl.md).
 -   Polecenie [Ekport](Std_Export/pl.md) może eksportować obiekty kształtu bezpośrednio do formatu siatki.
 -   Zobacz także poradnik: [Eksport do formatu STL lub OBJ](Export_to_STL_or_OBJ/pl.md).
 
+
+
 ## Ustawienia
+
+
 
 ### Standardowy
 
@@ -161,13 +178,19 @@ Dla użytkowników systemu Linux: wymagany jest zewnętrzny moduł [Gmsh](https:
 -   Ustawienie **Odchylenie kątowe** jest zapisywane: **Przybory → Edycja parametrów ... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → AngularDeflection**
 -   Ustawienie **Względne odchylenie powierzchni** jest zapisywane: **Przybory → Edycja parametrów ... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → RelativeLinearDeflection**.
 
+
+
 ### Gmsh
 
 -   Ustawienie **Ścieżka** jest zapisywane: **Przybory → Edycja parametrów ... → BaseApp → Preferences → Mod → Mesh → Meshing → gmshExe**.
 
+
+
 ## Właściwości
 
 Zapoznaj się z informacjami na stronie: [cecha siatki](Mesh_Feature/pl.md).
+
+
 
 ## Tworzenie skryptów 
 

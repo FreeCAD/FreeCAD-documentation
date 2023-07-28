@@ -49,6 +49,8 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 </div>
 
+
+
 ## Impostare il file di esempio 
 
 ### Load the example file 
@@ -222,9 +224,11 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 </div>
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM CalculiX Cantilever 3D/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CalculiX Cantilever 3D/it

@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 **Menu Widok** jest jednym z siedmiu pozycji w [Menu głównym](Standard_Menu/pl.md):
@@ -27,6 +29,8 @@
 
 W menu Widok znajdują się narzędzia do zmiany [widok 3D](3D_view/pl.md) oraz właściwości widoków obiektów w modelu, a także narzędzia związane z wyświetlaniem komponentów interfejsu.
 
+
+
 ## Przybory
 
 W tym menu dostępne są następujące narzędzia:
@@ -46,7 +50,7 @@ W tym menu dostępne są następujące narzędzia:
         -   <img alt="" src=images/Std_ViewIsometric.svg  style="width:32px;"> [Izometryczny](Std_ViewIsometric/pl.md): Przełącza do widoku izometrycznego.
         -   [Dimetryczny](Std_ViewDimetric/pl.md): Przełącza na widok aksonometryczny dwumiarowy.
         -   [Trimetryczny](Std_ViewTrimetric/pl.md): Przełącza na widok aksonometryczny trójwymiarowy.
-    -   <img alt="" src=images/Std_ViewHome.svg  style="width:32px;"> [Widok domyślny](Std_ViewHome/pl.md): Przełącza do domyślnego widoku głównego. {{Version/pl|0.19}}
+    -   <img alt="" src=images/Std_ViewHome.svg  style="width:32px;"> [Widok domyślny](Std_ViewHome/pl.md): Przełącza do domyślnego widoku głównego.
     -   <img alt="" src=images/Std_ViewFront.svg  style="width:32px;"> [Od przodu](Std_ViewFront/pl.md): Przełącz na widok z przodu.
     -   <img alt="" src=images/Std_ViewTop.svg  style="width:32px;"> [Od góry](Std_ViewTop/pl.md): Przełącz na widok z góry.
     -   <img alt="" src=images/Std_ViewRight.svg  style="width:32px;"> [Od Prawej](Std_ViewRight/pl.md): Przełącz na widok z prawej strony.
@@ -55,8 +59,8 @@ W tym menu dostępne są następujące narzędzia:
     -   <img alt="" src=images/Std_ViewLeft.svg  style="width:32px;"> [Od lewej](Std_ViewLeft/pl.md): Przełącz na widok z lewej strony.
     -   <img alt="" src=images/Std_RotateLeft.png  style="width:32px;"> [Obróć w lewo](Std_ViewRotateLeft/pl.md): Obraca widok na lewo.
     -   <img alt="" src=images/Std_RotateRight.png  style="width:32px;"> [Obróć w prawo](Std_ViewRotateRight/pl.md): Obraca widok na prawo.
-    -   [Zachowaj widok](Std_StoreWorkingView/pl.md): Zapisuje ustawienia ujęcia aktywnego widoku 3D w swoim widoku roboczym. {{Version/pl|1.0}}
-    -   [Przywróć widok](Std_RecallWorkingView/pl.md): Przywołuje zapisany widok roboczy aktywnego widoku 3D. {{Version/pl|1.0}}
+    -   [Zachowaj widok](Std_StoreWorkingView/pl.md): Zapisuje ustawienia ujęcia aktywnego widoku 3D w swoim widoku roboczym. {{Version/pl|0.21}}
+    -   [Przywróć widok](Std_RecallWorkingView/pl.md): Przywołuje zapisany widok roboczy aktywnego widoku 3D. {{Version/pl|0.21}}
 
 -   [Przechwyć aktualny obraz](Std_FreezeViews/pl.md)
     -   [Zapisz widok \...](Std_FreezeViews/pl#Zapisz_widok.md): Zapisuje w pliku zamrożony widok.
@@ -73,7 +77,7 @@ W tym menu dostępne są następujące narzędzia:
     -   <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:32px;"> [Cieniowany](Std_DrawStyle/pl#Cieniowany.md): Przełącza styl rysowania na: Cieniowany.
     -   <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:32px;"> [Cieniowany z krawędziami](Std_DrawStyle/pl#Cieniowany_z_kraw.C4.99dziami.md): Przełącza styl rysowania na: Linie krawędzi.
 
--   <img alt="" src=images/Std_SelBoundingBox.svg  style="width:32px;"> [Zaznaczenie](Std_SelBoundingBox/pl.md): Przełącza tryb podświetlania pola ograniczającego. {{Version/pl|0.19}}
+-   <img alt="" src=images/Std_SelBoundingBox.svg  style="width:32px;"> [Zaznaczenie](Std_SelBoundingBox/pl.md): Przełącza tryb podświetlania pola ograniczającego.
 
 -   Widok przestrzenny
     -   <img alt="" src=images/Std_ViewIvStereoRedGreen.svg  style="width:32px;"> [Czerwień i zielononiebieski *(cyjan)*](Std_ViewIvStereoRedGreen/pl.md): Przełącza na widok stereo czerwony/cyan.
@@ -102,8 +106,7 @@ W tym menu dostępne są następujące narzędzia:
 -   <img alt="" src=images/Std_TextureMapping.svg  style="width:32px;"> [Odwzorowanie tekstury](Std_TextureMapping/pl.md): Tymczasowo umieszcza teksturę na wszystkich obiektach.
 
 -   Widoczność
-
--   -   <img alt="" src=images/Std_ToggleVisibility.svg  style="width:32px;"> [Pokaż / ukryj](Std_ToggleVisibility/pl.md): Przełącza widoczność wybranych obiektów.
+    -   <img alt="" src=images/Std_ToggleVisibility.svg  style="width:32px;"> [Pokaż / ukryj](Std_ToggleVisibility/pl.md): Przełącza widoczność wybranych obiektów.
     -   <img alt="" src=images/Std_ShowSelection.svg  style="width:32px;"> [Pokaż zaznaczone](Std_ShowSelection/pl.md): Prezentuje wybrane obiekty.
     -   <img alt="" src=images/Std_HideSelection.svg  style="width:32px;"> [Ukryj zaznaczone](Std_HideSelection/pl.md): Ukrywa wybrane obiekty.
     -   <img alt="" src=images/Std_SelectVisibleObjects.svg  style="width:32px;"> [Wybierz widoczne obiekty](Std_SelectVisibleObjects/pl.md): Zaznacza wszystkie widoczne obiekty.
@@ -113,8 +116,6 @@ W tym menu dostępne są następujące narzędzia:
     -   <img alt="" src=images/Std_ToggleSelectability.svg  style="width:32px;"> [Toggle selectability](Std_ToggleSelectability/pl.md): Przełącza możliwość wyboru obiektów.
     -   <img alt="" src=images/View_Measure_Toggle_All.svg  style="width:32px;"> [Przełącz widoczność pomiarów](View_Measure_Toggle_All/pl.md): Przełącza widoczność wymiarów części.
     -   <img alt="" src=images/View_Measure_Clear_All.svg  style="width:32px;"> [Wyczyść pomiary](View_Measure_Clear_All/pl.md): Kasuje wymiary części.
-
--   <img alt="" src=images/Std_ToggleVisibility.svg  style="width:32px;"> [Przełącz widoczność](Std_ToggleVisibility/pl.md): Przełącza widoczność wybranych obiektów.
 
 -   <img alt="" src=images/Std_ToggleNavigation.svg  style="width:32px;"> [Przełącz tryb nawigacji / edycji](Std_ToggleNavigation/pl.md): Przełącza pomiędzy trybem nawigacji a trybem edycji.
 
@@ -140,17 +141,17 @@ W tym menu dostępne są następujące narzędzia:
     -   [Konsola Python](Python_console/pl.md).
     -   [Widok DAG](DAG_view/pl.md), funkcja eksperymentalna dla programistów.
 
--   Działania w zakresie widoku drzewa. {{Version/pl|0.19}}
-    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Widok synchroniczny](Std_TreeSyncView/pl.md): Przełącza [TWidok drzewa](Tree_view/pl.md) w tryb Widok synchroniczny. {{Version/pl|0.19}}
-    -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Wybór synchroniczny](Std_TreeSyncSelection/pl.md) {{Version/pl|0.19}}
-    -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Umieszczenie synchroniczne](Std_TreeSyncPlacement/pl.md): Przełącza tryb Umieszczenie synchroniczne w widoku drzewa. {{Version/pl|0.19}}
-    -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Wybór wstępny](Std_TreePreSelection/pl.md): Przełącza tryb wyboru wstępnego w widoku drzewa. {{Version/pl|0.19}}
-    -   <img alt="" src=images/Std_TreeRecordSelection.svg  style="width:32px;"> [Wybór rekordu](Std_TreeRecordSelection/pl.md): Przełącza tryb Wybór rekordu w widoku drzewa. {{Version/pl|0.19}}
+-   Działania w zakresie widoku drzewa.
+    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Widok synchroniczny](Std_TreeSyncView/pl.md): Przełącza [TWidok drzewa](Tree_view/pl.md) w tryb Widok synchroniczny.
+    -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Wybór synchroniczny](Std_TreeSyncSelection/pl.md).
+    -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Umieszczenie synchroniczne](Std_TreeSyncPlacement/pl.md): Przełącza tryb Umieszczenie synchroniczne w widoku drzewa.
+    -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Wybór wstępny](Std_TreePreSelection/pl.md): Przełącza tryb wyboru wstępnego w widoku drzewa.
+    -   <img alt="" src=images/Std_TreeRecordSelection.svg  style="width:32px;"> [Wybór rekordu](Std_TreeRecordSelection/pl.md): Przełącza tryb Wybór rekordu w widoku drzewa.
     -   <img alt="" src=images/Std_TreeSingleDocument.svg  style="width:32px;"> [Pojedynczy dokument](Std_TreeSingleDocument/pl.md): Przełącza widok drzewa do trybu Pojedynczy dokument.
     -   <img alt="" src=images/Std_TreeMultiDocument.svg  style="width:32px;"> [Wiele dokumentów](Std_TreeMultiDocument/pl.md): Przełącza widok drzewa do trybu Wiele dokumentów.
     -   <img alt="" src=images/Std_TreeCollapseDocument.svg  style="width:32px;"> [Zwiń / rozwiń](Std_TreeCollapseDocument/pl.md): Przełącza widok drzewa Zwiń / rozwiń.
-    -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Rozpocznij przeciąganie](Std_TreeDrag/pl.md): Inicjuje operację przeciągania dla wybranych obiektów w widoku drzewa. {{Version/pl|0.19}}
-    -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Przejdź do wyboru](Std_TreeSelection/pl.md): Przewija widok drzewa do pierwszego utworzonego obiektu wybranego w widoku 3D. {{Version/pl|0.19}}
+    -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Rozpocznij przeciąganie](Std_TreeDrag/pl.md): Inicjuje operację przeciągania dla wybranych obiektów w widoku drzewa.
+    -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Przejdź do wyboru](Std_TreeSelection/pl.md): Przewija widok drzewa do pierwszego utworzonego obiektu wybranego w widoku 3D.
 
 -   [Pasek stanu](Std_ViewStatusBar/pl.md): Przełącza wyświetlenie [paska statusu](Status_bar/pl.md).
 

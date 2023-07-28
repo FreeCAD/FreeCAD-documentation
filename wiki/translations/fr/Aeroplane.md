@@ -14,6 +14,8 @@
 
 
 
+
+
 ## Premiers pas 
 
 Nous travaillerons dans l\'<img alt="" src=images/_Workbench_Part.svg  style="width:24px;"> [Atelier Part](Part_Workbench/fr.md) - sélectionnez-le dans les menus via **Affichage → Atelier → Part** ou depuis le [sélecteur d\'ateliers](Std_Workbench/fr.md).
@@ -34,6 +36,8 @@ Cliquez sur [Placement](Placement/fr.md) (notez le petit **[+]**) et un bouton a
 <img alt="" src=images/HTCaeroplane01.png  style="width:300px;">
 
 Si vous n\'êtes pas familiarisé avec les axes X Y Z, alors faites des essais avec les nombres dans le tableau de Translation. Lorsque vous avez terminé de faire vos tests, cliquez sur le bouton **Reset** (réinitialisation).
+
+
 
 ## Seconde étape 
 
@@ -105,4 +109,4 @@ J\'espère, que ce petit tutoriel vous a aidé, à comprendre les rotations.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Aeroplane/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Aeroplane/fr

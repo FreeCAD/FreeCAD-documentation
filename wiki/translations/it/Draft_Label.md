@@ -2,7 +2,7 @@
 - GuiCommand:/it
    Name:Draft Label
    Name/it:Etichetta
-   MenuLocation:Draft → Etichetta
+   MenuLocation:Annotazione → Etichetta
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**D** **L**
    Version:0.17
@@ -12,266 +12,187 @@
 # Draft Label/it
 
 
-</div>
-
-
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_Label.svg  style="width:24px;"> **Etichetta** crea un testo su più righe con una linea guida a 2 segmenti e una freccia.
 
-<div class="mw-translate-fuzzy">
+Se un oggetto o un sottoelemento (faccia, bordo o vertice) viene selezionato all\'avvio del comando, il testo può visualizzare uno o due attributi dell\'elemento selezionato, tra cui posizione, lunghezza, area, volume e materiale. Il testo sarà quindi collegato a detti attributi e si aggiornerà se i loro valori cambiano.
 
-Lo strumento Etichetta inserisce una casella di testo su più righe con una linea guida a 2 segmenti e una freccia. Se si seleziona un oggetto o un sottoelemento (faccia, bordo o vertice) all\'avvio del comando, è possibile creare un\'etichetta per visualizzare un determinato attributo dell\'elemento selezionato, tra cui posizione, lunghezza, area, volume o materiale.
+Per inserire un elemento di testo senza una freccia usare invece il comando [Testo](Draft_Text/it.md).
 
-
-</div>
-
-If an object or a sub-element (face, edge or vertex) is selected when starting the command, the text can be made to display one or two attributes of the selected element, including position, length, area, volume and material. The text will then be linked to the attributes and will update if their values change.
-
-
-<div class="mw-translate-fuzzy">
-
-Per inserire un elemento di testo più semplice senza una freccia usare [Testo](Draft_Text/it.md). Per creare forme di testo solido usare [Forma da testo](Draft_ShapeString/it.md) con [Estrusione](Part_Extrude/it.md).
-
-
-</div>
-
-<img alt="" src=images/Draft_Label_example.jpg  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Varie etichette con diversi orientamenti, simboli terminali e informazioni*
-
-
-</div>
+<img alt="" src=images/Draft_Label_example.jpg  style="width:400px;"> 
+*Varie etichette con diversi orientamenti, frecce ed informazioni*
 
 
 
 ## Utilizzo
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Premere il pulsante **<img src="images/Draft_Label.svg" width=16px> [Etichetta](Draft_Label/it.md)**, o premere i tasti **D** e poi **L**.
-2.  Selezionare un primo punto nella vista 3D, oppure digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Aggiungi punto**. Questo punto indica l\'obiettivo (punta della freccia) che può essere ovunque, non è necessario che sia un elemento.
-3.  Fare clic su un secondo punto nella vista 3D o digitare una coordinata e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**. Questo punto indica l\'inizio di una linea guida orizzontale o verticale.
-4.  Fare clic su un terzo punto nella vista 3D o digitare una coordinata e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**. Questo punto indica il punto base del testo.
-
-
-</div>
+1.  Facoltativamente selezionare un oggetto o un sottoelemento (vertice, bordo o faccia) di cui si desidera visualizzare gli attributi.
+2.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_Label.svg" width=16px> [Etichetta](Draft_Label/it.md)**.
+    -   Selezionare l\'opzione **Annotazione → <img src="images/Draft_Label.svg" width=16px> Etichetta** dal menu.
+    -   Usare la scorciatoia da tastiera: **D** poi **L**.
+3.  Si apre il pannello attività **Etichetta**. Vedere [Opzioni](#Options.md) per maggiori informazioni.
+4.  Se si ha selezionato un elemento: selezionare un\'opzione dall\'elenco a discesa **Tipo di etichetta**. Vedere [Tipi di etichette](#Tipi_di_etichette.md) di seguito.
+5.  Scegliere il primo punto nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**. Questo punto indica il bersaglio (punta della freccia). Questo può essere ovunque, non deve essere su un elemento.
+6.  Scegliere il secondo punto nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**. Questo punto indica l\'inizio del segmento orizzontale o verticale della direttrice.
+7.  Scegliere il terzo punto nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**. Questo punto indica il punto base del testo.
 
 
 
 ## Opzioni
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+Le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività possono essere modificate. Vedere [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md). Le scorciatoie menzionate qui sono le scorciatoie predefinite.
 
-
-<div class="mw-translate-fuzzy">
-
--   Cliccare su **Label type** per selezionare il tipo di informazioni da visualizzare, incluso \"Custom\", \"Name\", \"Label\", \"Position\", \"Length\", \"Area\", \"Volume\", \"Tag\", e \"Material\". (Vedere le spiegazioni sotto, in [Tipi di etichette](Draft_Label/it#Tipi_di_etichette.md))
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando si hanno i valori desiderati per inserire il punto.
--   Tenere premuto **Ctrl** mentre si posiziona l\'etichetta per forzare lo [snap](Draft_Snap.md) al punto di aggancio più vicino, indipendentemente dalla distanza.
--   Premere il tasto **Esc** o il pulsante **Chiudi** per interrompere il comando corrente.
-
-
-</div>
+-   Per inserire manualmente le coordinate, inserire le componenti X, Y e Z e premere **Enter** dopo ognuna di esse. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando si hanno i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
+-   Premere **R** o fare clic sulla casella di controllo **Relativo** per attivare o disattivare la modalità relativa. Se la modalità relativa è attiva, le coordinate sono relative all\'ultimo punto, se disponibile, altrimenti sono relative all\'origine del sistema di coordinate.
+-   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **S** per attivare o disattivare [Aggancia](Draft_Snap/it.md).
+-   Premere **Esc** o il pulsante **Chiudi** per interrompere il comando.
 
 
 
+## Tipi di etichette 
 
-<div class="mw-translate-fuzzy">
+Sono disponibili i seguenti tipi di etichette:
 
-#### Tipi di etichette 
+-    {{Value|Custom}}: visualizza il contenuto di **Custom Text**.
 
+-    {{Value|Name}}: visualizza il nome interno dell\'oggetto target. Il nome interno viene assegnato quando viene creato un oggetto e rimane fisso per tutta l\'esistenza dell\'oggetto.
 
-</div>
+-    {{Value|Label}}: visualizza l\'etichetta dell\'oggetto target. L\'etichetta di un oggetto può essere modificata dall\'utente.
 
-The following label types are available:
+-    {{Value|Position}}: visualizza le coordinate del punto base dell\'oggetto target, del vertice target o del centro di massa del sottoelemento target, se applicabile.
 
+-    {{Value|Length}}: visualizza la lunghezza dell\'oggetto o del sottoelemento di destinazione, se applicabile.
 
-<div class="mw-translate-fuzzy">
+-    {{Value|Area}}: visualizza l\'area dell\'oggetto o sottoelemento di destinazione, se applicabile.
 
--    **Custom:**visualizza il contenuto di **Custom Text**.
+-    {{Value|Volume}}: visualizza il volume dell\'oggetto target, se applicabile.
 
--    **Name:**visualizza il nome interno dell\'oggetto destinatario; il nome interno viene assegnato all\'oggetto al momento della sua creazione e rimane fisso per tutta l\'esistenza dell\'oggetto.
+-    {{Value|Tag}}: visualizza l\'attributo `Tag` dell\'oggetto target, se applicabile. Gli oggetti creati con [Arch Workbench](Arch_Workbench.md) possono avere questo attributo.
 
--    **Label:**visualizza l\'etichetta dell\'oggetto destinatario; l\'etichetta dell\'oggetto può essere modificata dall\'utente in qualsiasi momento.
+-    {{Value|Material}}: visualizza l\'etichetta del materiale dell\'oggetto target, se applicabile.
 
--    **Position:**visualizza le coordinate del punto base dell\'oggetto, del vertice o del centro di massa del sottoelemento destinatari, se applicabile.
+-    {{Value|Label + Position}}
+    
 
--    **Length:**mostra la lunghezza del sottoelemento di destinazione, se possibile.
+-    {{Value|Label + Length}}
+    
 
--    **Area:**mostra l\'area del sottoelemento di destinazione, se possibile.
+-    {{Value|Label + Area}}
+    
 
--    **Volume:**mostra il volume dell\'oggetto di destinazione, se possibile.
+-    {{Value|Label + Volume}}
+    
 
--    **Tag:**mostra l\'attributo `Tag` dell\'oggetto di destinazione, se l\'oggetto di destinazione ha tale proprietà, come nel caso di tutti gli oggetti[Arch](Arch_Workbench/it.md).
-
--    **Material:**mostra l\'etichetta del materiale dell\'oggetto di destinazione, se l\'oggetto di destinazione ha tale proprietà.
-
-
-</div>
-
-## Notes
-
-
-<div class="mw-translate-fuzzy">
+-    {{Value|Label + Material}}
+    
 
 
-{{emphasis|Nota:}}
 
-la direzione del segmento retto orizzontale, a destra o a sinistra, allinea automaticamente il testo nella direzione opposta. Se la linea guida sale verticalmente, il testo è allineato a sinistra; se scende verticalmente, è allineato a destra.
+## Note
 
-
-</div>
+-   La direzione del secondo segmento della direttrice determina l\'allineamento del testo. Se il segmento è orizzontale e punta a destra il testo è allineato a sinistra e viceversa. Se il secondo segmento va verticalmente verso l\'alto, il testo è allineato a sinistra. Se va verticalmente verso il basso, il testo è allineato a destra.
+-   Le Etichette create o salvate con [FreeCAD versione 0.21](Release_notes_0.21/it.md) non sono compatibili con le versioni precedenti.
 
 
 
 ## Proprietà
 
-See also: [Property editor](Property_editor.md).
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
 
-A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated:
+Un oggetto Draft Etichetta deriva da un oggetto [App FeaturePython](App_FeaturePython/it.md) e ne eredita tutte le proprietà. Le seguenti proprietà sono aggiuntive se non diversamente specificato.
 
-### Data
+
+
+### Dati
 
 
 {{TitleProperty|Label}}
 
+-    **Custom Text|StringList**: specifica il contenuto del testo se **Label Type** è {{Value|Custom}}. Ciascun elemento nell\'elenco rappresenta una nuova riga di testo.
 
-<div class="mw-translate-fuzzy">
+-    **Label Type|Enumeration**: specifica il tipo di informazioni visualizzate dall\'etichetta. Vedi [Tipi di etichette](#Tipi_di_etichette.md).
 
-### Dati
+-    **Placement|Placement**: specifica la posizione del testo nella [Vista 3D](3D_view/it.md) e, a meno che **Straight Direction** sia {{Value|Custom}}, anche di il primo segmento della direttrice, che è il segmento in cui è allegato il testo. Vedere [Posizionamento](Placement/it.md).
 
--    **Label Type**: specifica il tipo di informazioni mostrate da questa etichetta (vedere sotto).
-
--    **Custom Text**: specifica il blocco di testo da visualizzare quando **Label Type** è impostato su \"Custom\", o l\'etichetta non è parametrica. Il testo è dato come una lista di stringhe; ogni elemento dell\'elenco, separato da una virgola, indica una nuova riga di testo.
-
--    **Text**: (sola lettura) indica il testo effettivo visualizzato dall\'etichetta, secondo **Label Type**.
-
--    **Target Point**: specifica la posizione della punta della linea guida.
-
--    **Straight Direction**: specifica la direzione del segmento retto della linea guida, orizzontale o verticale.
-
--    **Straight Distance**: specifica la lunghezza del segmento retto della linea guida, partendo dal punto base del testo. Se la distanza è positiva, la linea guida inizia dal lato destro del testo e il testo si allinea a destra; altrimenti, la linea guida inizia dal lato sinistro del testo e il testo si allinea a sinistra.
-
--    **Position**: specifica il punto base della prima riga del blocco di testo; influenza anche come viene disegnata la linea guida.
-
--    **Angle**: specifica la rotazione della linea di base della prima riga del blocco di testo; influenza anche come viene disegnata la linea guida, poiché non è più orizzontale o verticale.
-
--    **Axis**: specifica l\'asse da utilizzare per la rotazione.
-
-
-</div>
+-    **Text|StringList**: (read-only) specifica il contenuto del testo che viene effettivamente visualizzato. Ciascun elemento nell\'elenco rappresenta una nuova riga di testo.
 
 
 {{TitleProperty|Leader}}
 
--    **Points|VectorList**: specifies the points of the leader.
+-    **Points|VectorList**: specifica i punti della direttrice.
 
--    **Straight Direction|Enumeration**: specifies the direction of the first leader segment: {{Value|Custom}}, {{Value|Horizontal}} or {{Value|Vertical}}.
+-    **Straight Direction|Enumeration**: specifica la direzione del primo segmento della direttrice: {{Value|Custom}}, {{Value|Horizontal}} o {{Value|Vertical}}.
 
--    **Straight Distance|Distance**: specifies the length of the first leader segment. Only used if **Straight Direction** is {{Value|Horizontal}} or {{Value|Vertical}}. If the distance is positive, the leader starts from the right side of the text and the text aligns to the right. Otherwise the leader starts from the left side of the text and the text aligns to the left.
+-    **Straight Distance|Distance**: specifica la lunghezza del primo segmento della direttrice. Utilizzato solo se **Straight Direction** è {{Value|Horizontal}} o {{Value|Vertical}}. Se la distanza è positiva, la direttrice inizia dal lato destro del testo e il testo si allinea a destra. Altrimenti la direttrice inizia dal lato sinistro del testo e il testo si allinea a sinistra.
 
 
 {{TitleProperty|Target}}
 
--    **Target|LinkSub**: specifies the object and optional subelement the label is linked to.
+-    **Target|LinkSub**: specifica l\'oggetto e il sottoelemento facoltativo a cui è collegata l\'etichetta.
 
--    **Target Point|Vector**: specifies the position of the tip of the leader, which is where the arrow is attached.
+-    **Target Point|Vector**: specifica la posizione della punta della direttrice, ovvero dove è attaccata la freccia.
 
-### View
+
+
+### Vista
 
 
 {{TitleProperty|Annotation}}
 
--    **Annotation Style|Enumeration**: specifies the annotation style applied to the label. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
+-    **Annotation Style|Enumeration**: specifica lo stile di annotazione applicato all\'etichetta. Vedere [Stile delle annotazioni](Draft_AnnotationStyleEditor/it.md).
 
--    **Scale Multiplier|Float**: specifies the general scaling factor applied to the label.
+-    **Scale Multiplier|Float**: specifica il fattore di scala generale applicato all\'etichetta.
 
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|World}} the text will be displayed on a plane defined by the **Placement** of the label. If it is {{value|Screen}} the text will always face the screen. This is an inherited property. The mentioned options are the renamed options (<small>(v1.0)</small> ).
+-    **Display Mode|Enumeration**: specifica come viene visualizzato il testo. Se è {{value|World}} il testo verrà visualizzato su un piano definito dal **Placement** dell\'etichetta. Se è {{value|Screen}} il testo sarà sempre rivolto verso lo schermo. Questa è una proprietà ereditata. Le opzioni menzionate sono le opzioni rinominate ({{Version/it|0.21}}).
 
 
 {{TitleProperty|Graphics}}
 
+-    **Arrow Size|Length**: specifica la dimensione del simbolo visualizzato sulla punta della direttrice.
 
-<div class="mw-translate-fuzzy">
+-    **Arrow Type|Enumeration**: specifica il tipo di simbolo visualizzato sulla punta della direttrice, che può essere {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} o {{value|Tick-2}}.
 
-### Vista
+-    **Frame|Enumeration**: specifica quale tipo di cornice viene disegnata attorno al testo. Le opzioni correnti sono {{value|None}} o {{value|Rectangle}}.
 
--    **Text Font**: specifica il carattere da utilizzare per disegnare il testo. Può essere il nome di un carattere, ad esempio \"Arial\", uno stile predefinito come \"sans\", \"serif\" o \"mono\", una famiglia come \"Arial,Helvetica,sans\" o un nome con uno stile come \"Arial:Bold\". Se nel sistema non trova il font specificato, ne utilizza uno generico.
+-    **Line|Bool**: specifica se visualizzare la linea guida. Se è `False` vengono visualizzati solo la freccia e il testo.
 
--    **Text Size**: specifica la dimensione delle lettere. Se l\'oggetto testo viene creato nella vista ad albero ma non è visibile alcun testo, aumentare la dimensione del testo fino a renderlo visibile.
+-    **Line Color|Color**: specifica il colore della direttrice e della freccia. Viene utilizzato anche per la cornice ({{Version/it|0.20}}).
 
--    **Text Alignment**: specifica l\'allineamento verticale della linea di base del testo rispetto alla linea guida. Può essere in alto, in mezzo o in basso.
-
--    **Text Color**: specifica il colore del testo in una tupla RGB (R, G, B).
-
--    **Line Width**: specifica la larghezza della linea guida.
-
--    **Line Color**: specifica il colore della linea guida.
-
--    **Arrow Size**: specifica la dimensione del simbolo visualizzato alla fine della linea guida.
-
--    **Arrow Type**: specifica il tipo di simbolo visualizzato alla fine della linea guida, che può essere dot, circle, arrow, o tick.
-
--    **Frame**: se è \"Rectangle\" disegna una cornice attorno al testo.
-
--    **Line**: se è `True` visualizza la linea guida; altrimenti visualizza solo il testo e il simbolo finale.
-
--    **Display Mode**: se è \"3D text\" il testo è allineato agli assi della scena, inizialmente situati sul piano XY; se è \"2D text\", il testo è sempre rivolto verso la fotocamera.
-
-
-</div>
+-    **Line Width|Float**: specifica la larghezza della direttrice. Viene utilizzato anche per la cornice ({{Version/it|0.20}}).
 
 
 {{TitleProperty|Text}}
 
--    **Font Name|Font**: specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial:Bold}}. If the given font is not found on the system, a default font is used instead. <small>(v1.0)</small> 
+-    **Font Name|Font**: specifica il font utilizzato per disegnare il testo. Può essere un nome di font, come {{value|Arial}}, uno stile predefinito come {{value|sans}}, {{value|serif}} o {{value|mono}}, una famiglia come {{value|Arial,Helvetica,sans}}, o un nome con uno stile come {{value|Arial:Bold}}. Se il carattere specificato non viene trovato nel sistema, viene utilizzato un carattere predefinito. {{Version/it|0.21}}
 
--    **Font Size|Length**: specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small. <small>(v1.0)</small> 
+-    **Font Size|Length**: specifica la dimensione del carattere. Il testo può essere invisibile nella [Vista 3D](3D_view/it.md) se questo valore è molto piccolo. {{Version/it|0.21}}
 
--    **Justification|Enumeration**: specifies the horizontal alignment of the text: {{value|Left}}, {{value|Center}} or {{value|Right}}. Only used if **Straight Direction** is {{Value|Custom}}. Otherwise the horizontal alignment is based on the sign (positive or negative) of **Straight Distance**.
+-    **Justification|Enumeration**: specifica l\'allineamento orizzontale del testo: {{value|Left}}, {{value|Center}} o {{value|Right}}. Utilizzato solo se **Straight Direction** è {{Value|Custom}}. Altrimenti l\'allineamento orizzontale si basa sul segno (positivo o negativo) di **Straight Distance**.
 
--    **Line Spacing|Float**: specifies the factor applied to the default line height of the text.
+-    **Interlinea|Float**: specifica il fattore applicato all\'altezza di riga predefinita del testo.
 
--    **Max Chars|Integer**: specifies the maximum number of characters on each line of the text.
+-    **Max Chars|Integer**: specifica il numero massimo di caratteri su ogni riga del testo.
 
--    **Text Alignment|Enumeration**: specifies the vertical alignment of the text: {{value|Top}}, {{value|Middle}} or {{value|Bottom}}.
+-    **Text Alignment|Enumeration**: specifica l\'allineamento verticale del testo: {{value|Top}}, {{value|Middle}} o {{value|Bottom}}.
 
--    **Text Color|Color**: specifies the color of the text.
-
-## Scripting
+-    **Text Color|Color**: specifica il colore del testo.
 
 
-<div class="mw-translate-fuzzy">
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-**Vedere anche:**
-
-[Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Etichetta può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
+Per creare un\'Etichetta Draft usare il metodo `make_label` ({{Version/it|0.19}}) del modulo Draft. Questo metodo sostituisce il metodo deprecato `makeLabel`.
 
 
 ```python
@@ -316,15 +237,6 @@ label3.ViewObject.TextSize = 200
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

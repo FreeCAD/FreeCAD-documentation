@@ -12,12 +12,22 @@
 
 </div>
 
+
+
 ## Descrizione
+
+
+<div class="mw-translate-fuzzy">
 
 Lo strumento Dettaglio crea una vista che contiene l\'ingrandimento di un\'area di una vista esistente.
 
+
+</div>
+
 ![](images/ViewDetail.png ) 
 *Vista di dettaglio con casella di visualizzazione circolare di una vista esistente*
+
+
 
 ## Utilizzo
 
@@ -81,6 +91,8 @@ Una vista Dettaglio eredita tutte le proprietà applicabili della vista specific
 
 
 </div>
+
+
 
 ## Script
 

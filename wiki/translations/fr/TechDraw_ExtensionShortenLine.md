@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionShortenLine.svg  style="width:24px;"> **TechDraw Raccourcir** raccourcit une ligne cosmétique ou une ligne centrale à ses deux extrémités.
+L\'outil **TechDraw Raccourcir** raccourcit une ligne cosmétique ou une ligne centrale à ses deux extrémités.
 
 <img alt="" src=images/TechDraw_ExtensionShortenLineExample.png  style="width:300px;"> 
 *À droite, une ligne centrale raccourcie aux deux extrémités*
+
+
 
 ## Utilisation
 

@@ -1,27 +1,32 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher CreateRectangle Center
-   MenuLocation:Sketch → Sketcher geometries → Create centered rectangle
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Utwórz wyśrodkowany prostokąt
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz wyśrodkowany prostokąt
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **V**
    Version:0.20
-   SeeAlso:[Sketcher Rectangle](Sketcher_CreateRectangle.md)
+   SeeAlso:[Utwórz prostokąt](Sketcher_CreateRectangle/pl.md)
 ---
 
 # Sketcher CreateRectangle Center/pl
 
-## Description
 
-This tool draws a rectangle by first picking a point that will become the center point, then by picking an edge point. The result is a rectangle like with the [Rectangle](Sketcher_CreateRectangle.md) tool, only the definition points are different.
 
-When starting the tool, the mouse pointer changes to a white cross with a red rectangle icon. The coordinates of the pointer are shown beside it in blue in real time.
+## Opis
+
+Narzędzie to rysuje prostokąt, wybierając najpierw punkt, który będzie punktem środkowym, a następnie punkt na krawędzi. Rezultatem jest prostokąt jak w przypadku narzędzia [Utwórz protokąt](Sketcher_CreateRectangle/pl.md), tylko punkty definicyjne są inaczej zdefiniowane.
+
+Podczas uruchamiania narzędzia kursor myszki zmienia wygląd na biały krzyżyk z czerwoną ikoną prostokąta. Współrzędne kursora są wyświetlane obok niego, w czasie rzeczywistym w kolorze niebieskim.
 
 ![](images/SketcherCreateCenteredRectangleExample.png‎ )
 
-## Usage
 
--   After pressing the <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:24px;"> **Create centered rectangle** toolbar button, click once to set the center point, then move the mouse and click a second time to set a corner point.
--   Pressing **Esc** or clicking the right mouse button cancels the function.
+
+## Użycie
+
+-   Po naciśnięciu przycisku na pasku narzędzi **[<img src=images/Sketcher_CreateRectangle_Center.svg style="width:24px"> '''Utwórz zaokrąglony prostokąt'''**, kliknij raz, aby ustawić pierwszy narożnik, a następnie przesuń kursor myszki i kliknij drugi raz, aby ustawić przeciwległy narożnik.
+-   Naciśnięcie klawisza **Esc** lub kliknięcie prawym przyciskiem myszy anuluje tę funkcję.
 
 
 

@@ -47,9 +47,9 @@ The object has the same attachment properties as a [Part Part2DObject](Part_Part
 
 -    **Height|Length**: The height of the prism. The default is {{Value|10mm}}.
 
--    **First Angle|Angle**: The angle between the extrusion direction of the prism and its positive Z axis, measured around its Y axis. The angle is positive towards its positive X axis. Valid range: {{Value|0° &lt;&#61; value &lt; 90°}}. The default is {{Value|0°}}. <small>(v0.19)</small> 
+-    **First Angle|Angle**: The angle between the extrusion direction of the prism and its positive Z axis, measured around its Y axis. The angle is positive towards its positive X axis. Valid range: {{Value|0° &lt;&#61; value &lt; 90°}}. The default is {{Value|0°}}.
 
--    **Second Angle|Angle**: The angle between the extrusion direction of the prism and its positive Z axis, measured around its X axis. The angle is positive towards its positive Y axis. Valid range: {{Value|0° &lt;&#61; value &lt; 90°}}. The default is {{Value|0°}}. <small>(v0.19)</small> 
+-    **Second Angle|Angle**: The angle between the extrusion direction of the prism and its positive Z axis, measured around its X axis. The angle is positive towards its positive Y axis. Valid range: {{Value|0° &lt;&#61; value &lt; 90°}}. The default is {{Value|0°}}.
 
 ## Scripting
 

@@ -18,6 +18,8 @@ A module-workbench combo that adds a CadQuery editor to FreeCAD. Please see the 
 -   Author: Jeremy Wright
 -   Home page: <https://github.com/jmwright/cadquery-freecad-module>
 
+
+
 ## Alati
 
 ![](images/CadQuery-menu-vert.png )
@@ -57,4 +59,4 @@ The latest version of CadQuery is no longer using FreeCAD and is not compatible 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > CadQuery Workbench/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > CadQuery Workbench/hr

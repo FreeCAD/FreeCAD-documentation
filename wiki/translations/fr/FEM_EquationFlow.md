@@ -2,9 +2,9 @@
 - GuiCommand:/fr
    Name:FEM EquationFlow
    Name/fr:FEM Equation d'écoulement
-   MenuLocation:Solveur → Équation d'écoulement
+   MenuLocation:Résolution → Équation d'écoulement
    Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:0.19
+   Version:0.17
    SeeAlso:
 ---
 
@@ -19,14 +19,14 @@ Pour plus d\'informations sur les mathématiques de l\'équation, voir [Elmer mo
 ## Utilisation
 
 1.  Après avoir ajouté un solveur Elmer comme décrit [ici](FEM_SolverElmer/fr#.C3.89quations.md), sélectionnez-le dans la [Vue en arborescence](Tree_view/fr.md)
-2.  Utilisez maintenant le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationFlow.svg  style="width:24px;"> ou le menu **Solveur → Équation d'écoulement**.
+2.  Utilisez maintenant le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationFlow.svg  style="width:24px;"> ou le menu **Résolution → Équation d'écoulement**.
 3.  Modifiez les [paramètres du solveur de l\'équation](#Param.C3.A8tres_du_solveur.md) ou les [paramètres généraux du solveur](FEM_SolverElmer_SolverSettings/fr.md) si nécessaire.
 
 
 
 ## Paramètres du solveur 
 
-Pour les paramètres généraux du solveur, voir les [Paramètres du solveur Elmer](FEM_SolverElmer_SolverSettings/fr.md).
+Pour les paramètres généraux du solveur, voir les [paramètres du solveur Elmer](FEM_SolverElmer_SolverSettings/fr.md).
 
 L\'équation d\'écoulement fournit ces paramètres spéciaux :
 
@@ -34,7 +34,7 @@ L\'équation d\'écoulement fournit ces paramètres spéciaux :
 
 -    **Flow Model**: modèle d\'écoulement à utilisé. La valeur par défaut *Full* inclut la convection et les termes de la dérivée temporelle dans le modèle. Le modèle *No convection* désactive les termes de convection et le modèle *Stokes* désactive les termes de convection et les termes de dérivée temporelle (explicite).
 
--    **Gradp Discretization**: Si défini à *true*, les [conditions aux limites de Dirichlet](https://fr.wikipedia.org/wiki/Condition_aux_limites_de_Dirichlet) de la pression peuvent être utilisées. Le flux de masse est également disponible comme condition limite naturelle.
+-    **Gradp Discretization**: si défini à *true*, les [conditions aux limites de Dirichlet](https://fr.wikipedia.org/wiki/Condition_aux_limites_de_Dirichlet) de la pression peuvent être utilisées. Le flux de masse est également disponible comme condition limite naturelle.
 
 -    **Variable**: optionnel uniquement pour les calculs en 2D : vous pouvez changer la valeur par défaut de *3* à *2*.**Remarque** : dans ce cas, aucune des contraintes de vitesse d\'écoulement ne peut avoir une composante z spécifiée.
 
@@ -46,6 +46,17 @@ L\'équation d\'écoulement fournit ces paramètres spéciaux :
 
 
 
+### Remarques à propos de convergence 
+
+Si les résultats du solveur ne convergent pas, vous pouvez essayer les choses suivantes (dans l\'ordre donné) :
+
+1.  Réduire la valeur de **Relaxation Factor**, voir les [réglages de systèmes non linéaires](FEM_SolverElmer_SolverSettings/fr#Facteur_de_relaxation.md).
+2.  Augmenter la valeur de **Nonlinear Newton After Iterations**, voir [réglages de systèmes non linéaires](FEM_SolverElmer_SolverSettings/fr#Système_non_linéaire.md).
+3.  Réduire le nombre de cœurs CPU utilisés, voir les [FEM Préférences](FEM_Preferences/fr#Elmer.md).
+4.  Augmenter la densité du maillage (le rendre plus fin).
+
+
+
 ## Informations sur les contraintes 
 
 L\'équation électrostatique prend en compte les contraintes suivantes si elles sont définies :
@@ -53,7 +64,7 @@ L\'équation électrostatique prend en compte les contraintes suivantes si elles
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Contrainte de vitesse d\'écoulement](FEM_ConstraintFlowVelocity/fr.md)
 -   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Contrainte de vitesse initiale d\'écoulement](FEM_ConstraintInitialFlowVelocity/fr.md)
 -   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Contrainte de pression](FEM_ConstraintPressure/fr.md)
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Contrainte de pression initiale](FEM_ConstraintInitialPressure/fr.md) ({{Version/fr|1.0}})
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Contrainte de pression initiale](FEM_ConstraintInitialPressure/fr.md) ({{Version/fr|0.21}})
 
 
 

@@ -10,6 +10,8 @@
 
 # PartDesign ShapeBinder/es
 
+
+
 ## Descripción
 
 
@@ -26,6 +28,8 @@ The referenced geometry can either be a single object (for example a [Part Box](
 
 <img alt="" src=images/Shapebinder_flow.png  style="width:600px;"> 
 *From two selected faces a ShapeBinder is created in a still empty Body. Geometry from the Shapebinder can then be used as external geometry in a sketch in that Body.*
+
+
 
 ## Utilización
 
@@ -51,6 +55,8 @@ The referenced geometry can either be a single object (for example a [Part Box](
     3.  The **Remove geometry** button has to be pressed for every subelement you want to remove.
 8.  Press the **OK** button.
 
+
+
 ## Opciones
 
 To edit a ShapeBinder double-click it in the [Tree view](Tree_view.md), or right-click it and select **Edit shape binder** from the [Tree view](Tree_view.md) context menu.
@@ -63,6 +69,8 @@ To edit a ShapeBinder double-click it in the [Tree view](Tree_view.md), or right
 ## PartDesign SubShapeBinder vs. PartDesign ShapeBinder 
 
 See [PartDesign SubShapeBinder](PartDesign_SubShapeBinder#PartDesign_SubShapeBinder_vs._PartDesign_ShapeBinder.md).
+
+
 
 ## Propiedades
 
@@ -88,18 +96,18 @@ Here is how you use the ShapeBinder Feature to achieve it:
 
     :   Now the image should look as above. When you hide the first cube (select and press space) you can see that the hole does not reach the second cube. It will not, even when you select **Through All**, or when you enter a really large distance in the [Hole](PartDesign_Hole.md) task panel. The hole is always limited to a single body.
     :   Here is where our ShapeBinder comes in.
-7.  First select the back cube. This is the target where the ShapeBinder will be added. It must be [actived](PartDesign_Body#Active_status.md) before, so be sure it has been double-clicked.
+7.  First select the back cube. This is the target where the ShapeBinder will be added. It must be [activated](PartDesign_Body#Active_status.md) before, so be sure it has been double-clicked.
 8.  In the tree select the sketch we used for the hole. It\'s important to not activate the first body.
 9.  Select the shapeBinder function.
 
-    :   A task panel should open. In the line **Object** the name of our sketch should be visible. If you had selected the function without selecting the sketch, you could press **Object** and then select the sketch from the list. It\'s recommended to select it first in order to get the right one, especially if you have many sketches with automatically generated names Sketch001,.. **Add Geometry** is not useful for us, because we want to select the whole sketch. **Add Geometry** is used if only parts should be selected.
+    :   A task panel should open. In the line **Object** the name of our sketch should be visible. If you had selected the function without selecting the sketch, you could press **Object** and then select the sketch from the list. It\'s recommended to select it first in order to get the right one, especially if you have many sketches with automatically generated names such as Sketch001 and following. **Add Geometry** is not useful for us, because we want to select the whole sketch. **Add Geometry** is used if only parts should be selected.
 10. Press **OK** to close the task panel and check that a new item has been added to the tree of the second cube.
 
     :   When you toggle the visibility of the ShapeBinder it is shown yellow in the [3D view](3D_view.md). However it\'s on the wrong position, just as the white circle in the image above. That is because of the default setting for the Trace parameter.
 11. In the PropertyView of the ShapeBinder in the Data tab set the **Trace Support** parameter to true. The default was false.
 
-    :   With **Trace Support** true, the ShapeBinder in not affected by local transformations of the target body, e.g. our translations. The shape remains exactly where the original front object shape has been. Try moving the front object around and you can see that the ShapeBinder always follows to the new position.
-12. Select the ShapeBinder in the tree and press press the **<img src="images/PartDesign_Hole.svg" width=16px> [PartDesign Hole](PartDesign_Hole.md)** button. If you enter the same values as for the initial hole you will notice that no hole is created in the second cube. This is because a ShapeBinder in some cases has an opposite \"tool direction\" compared to the referenced sketch. To solve this check the Reverse checkbox. Press **OK** to finish.
+    :   With **Trace Support** true, the ShapeBinder is not affected by local transformations of the target body, e.g. our translations. The shape remains exactly where the original front object shape has been. Try moving the front object around and you can see that the ShapeBinder always follows to the new position.
+12. Select the ShapeBinder in the tree and press the **<img src="images/PartDesign_Hole.svg" width=16px> [PartDesign Hole](PartDesign_Hole.md)** button. If you enter the same values as for the initial hole you will notice that no hole is created in the second cube. This is because a ShapeBinder in some cases has an opposite \"tool direction\" compared to the referenced sketch. To solve this check the Reverse checkbox. Press **OK** to finish.
 13. You now have linked holes in two different bodies. If you change the position of the circle in the sketch, both holes will adapt. You can even add new circles in the sketch to create additional linked holes.
 
 

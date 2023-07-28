@@ -129,7 +129,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 [Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The ColumnReinforcement tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
+The ColumnReinforcement tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
 ### Create Single Tie Four Rebars 
 

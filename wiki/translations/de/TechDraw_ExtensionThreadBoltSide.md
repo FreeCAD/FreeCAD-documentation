@@ -11,14 +11,27 @@
 
 # TechDraw ExtensionThreadBoltSide/de
 
+
+
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Das Werkzeug <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:24px;"> **TechDraw ErgänzungAußengewindeSeitlich** ergänzt ein von der Seite gesehenes Außengewinde (Schraube, Bolzen, Gewindestange) mit 2 Gewindelinien (Hilfslinien - Cosmetic lines).
+
+
+</div>
 
 <img alt="" src=images/TechDraw_ExtensionThreadBoltSideExample.png  style="width:300px;"> 
 *Rechts ein Bolzen mit Gewindedarstellung*
 
+
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Optional: definiere die Eigenschaften der Linien mit dem <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) Werkzeug.
 2.  Wähle zwei parallele Linien.
@@ -26,6 +39,9 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style=
     -   Drücke die **<img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> [TechDraw ExtensionThreadBoltSide](TechDraw_ExtensionThreadBoltSide.md)** Schaltfläche.
     -   Wähle die **TechDraw → Extensions: Centerlines/Threading → <img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> Add Cosmetic Thread Bolt Side View** Option aus dem Menü.
 4.  Ein symbolisches Gewinde wird eingefügt.
+
+
+</div>
 
 
 

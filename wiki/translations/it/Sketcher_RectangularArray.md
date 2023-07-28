@@ -39,7 +39,7 @@ Le opzioni per la serie
 -   **Rows**: The number of rows for the array.
 -   **Equal vertical/horizontal spacing**: If the vertical distance between the array elements should be the same as the horizontal distance.
 -   **Constrain inter-element separation**: When this is checked, the distance between the array elements will be constrained.If you for example only know that you need a 23 x 15 mm array, use this option to later be able to change these constraints to the dimensions you need.
--   **Clone**: ??
+-   **Clone**: If selected, dimensional constraints are replaced by geometric constraints in the copies, so that any change in the original element is also reflected in the copies.
 
 
 <div class="mw-translate-fuzzy">

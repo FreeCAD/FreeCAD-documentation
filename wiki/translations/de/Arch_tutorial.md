@@ -14,6 +14,8 @@
 
 ![](images/Arch_tutorial_00.jpg )
 
+
+
 ## Einleitung
 
 Dieses Tutorial zeigt Ihnen die Grundlagen für das Arbeiten mit dem Arbeitsbereich [Arch](Arch_Workbench/de.md). Ich werde versuchen alles so einfach zu beschreiben, sodass keine Vorkenntnisse in FreeCAD notwendig sind. Vorliegende Erfahrungen mit 3D oder [Gebäudedatenmodellierung](https://de.wikipedia.org/wiki/Building_Information_Modeling) sind jedoch von Vorteil. Unabhängig davon sollten Sie bei Bedarf weitere Informationen über FreeCAD im dazugehörigen [Wiki](Main_Page/de.md) nachschlagen. Besonders wichtig ist die Seite [Erste Schritte](Getting_started/de.md), die sich FreeCAD-Anfänger unbedingt durchlesen sollten. Weiterhin empfehlenswert sind die [Tutorien](tutorials/de.md) und die dazu passenden Videos auf [Youtube](http://www.youtube.com/results?search_query=freecad).
@@ -45,6 +47,8 @@ Zum momentanen Zeitpunkt, zu dem ich das Tutorial schreibe, besitzen FreeCAD und
 
 {{Note|FreeCAD Version 0.14 oder neuer erfordert|Beim Erstellen dieses Tutorials wurde [FreeCAD version 0.14](Release_notes_0.14.md) verwendet. Sie werden entweder diese oder eine neuere Version des Programms benötigen, um alle Schritte des Tutorials nachvollziehen zu können.}}
 
+
+
 ## Typische Vorgehensweise 
 
 Der [Arch-Arbeitsbereich](Arch_Workbench/de.md) ist hauptsächlich für zwei Vorgehensweisen ausgelegt:
@@ -56,6 +60,8 @@ Der [Arch-Arbeitsbereich](Arch_Workbench/de.md) ist hauptsächlich für zwei Vor
 ![](images/Arch_tutorial_01.jpg )
 
 In diesem Tutorial werden wir ein Haus dreidimensional modellieren, basierend auf zweidimensionalen Zeichnungen, die wir aus dem Internet herunterladen.
+
+
 
 ## Vorbereitung
 
@@ -70,6 +76,8 @@ So sah die Datei nach dem anschließenden Öffnen in FreeCAD aus. Ich habe zudem
 ![](images/Arch_tutorial_02.jpg )
 
 Die [Importfunktion](Draft_DXF/de.md) für dxf-Dateien, die auch beim Importieren von dwg-Dateien zur Anwendung kommt, gruppiert die importierten Objekte nach Ebenen. Es gibt zwar keine Ebenen in FreeCAD, aber es gibt [Gruppen](Std_Group/de.md). [Gruppen](Std_Group/de.md) bieten eine ähnliche Form der Organisation von Objekten, haben jedoch keine spezifischen Eigenschaften, die auf alle enthaltenen Objekte angewandt werden (wie bei Ebenen in [AutoCAD](https://de.wikipedia.org/wiki/AutoCAD)). Gruppen lassen sich jedoch innerhalb anderer Gruppen platzieren, was sehr hilfreich sein kann. Was wir nun als Erstes tun möchten, ist das Erstellen einer neuen [Gruppe](Std_Group/de.md) im [Modellbaum](Document_structure/de.md), indem wir per Rechtsklick das Dokument \"artigas\" anklicken und dann auf *Gruppe erstellen* klicken. Die neue Gruppe sollte in \"base 2D plans\" umbenannt werden und alle anderen Gruppen im Modellbaum sollte in diese Gruppe hinein verschoben werden.
+
+
 
 ## Einfügen der Wände 
 
@@ -117,6 +125,8 @@ Jetzt verschieben wir die Wände horizontal an ihre richtige Position. Da wir Pu
 
 Schließlich habe ich die Farbe einiger Wände in eine backsteinähnliche Farbe geändert (damit sie einfacher zu unterscheiden sind) und eine kleine Korrektur durchgeführt: Einige Wände gehen nicht bis zum Dach, sondern enden in einer Höhe von 2,60 m. Ich habe die Höhe dieser Wände korrigiert.
 
+
+
 ## Anheben der Struktur 
 
 Jetzt, da wir unsere Wände mit Hilfe eines Differenzkörpers abschneiden wollen, können wir auch nachsehen, ob es nicht weitere Objekte gibt, die auf diese Weise behandelt werden müssen. Bei einigen Säulen ist das so. Dies ist eine gute Gelegenheit, ein zweites Arch-Objekt einzuführen: die [Struktur](Arch_Structure/de.md). Strukturobjekte verhalten sich mehr oder weniger wie Wände, aber sie sind nicht gemacht, um einer Grundlinie zu folgen. Stattdessen basieren sie auf einem Profil, das extrudiert wird (entlang einer Profillinie oder nicht). Jedes flache Objekt kann ein Profil für eine Struktur sein, mit nur einer Voraussetzung: Sie müssen eine geschlossene Form bilden.
@@ -130,6 +140,8 @@ Nachdem alle Kreise zu Flächen konvertiert wurden, benutzen wir das [Struktur](
 Auf dem obigen Bild sehen Sie zwei Säulen, die immer noch so sind wie in der DWG-Datei, zwei, die zu Flächen wurden, und zwei, die zu strukturellen Objekten mit einer Höhe von 6 m bzw. 2,25 m wurden.
 
 Beachten Sie, dass all diese verschiedenen Arch-Objekte (Wände, Strukturen, und die anderen, die wir noch entdecken werden) eine Vielzahl von Dingen gemeinsam haben (z.B. können alle zusammengefügt werden, wie wir das bereits bei den Wänden gesehen haben, und jedes von ihnen kann zu einem anderen konvertiert werden). So ist es mehr eine Frage des Geschmacks, wir hätten unsere Säulen auch mit dem Wand-Werkzeug erstellen und sie bei Bedarf konvertieren können. Tatsächlich sind einige Wände aus Beton, wir könnten sie daher später zu Strukturen konvertieren.
+
+
 
 ## Subtraktionen
 
@@ -160,6 +172,8 @@ Denken Sie daran, dass sowohl für [Komponente hinzufügen](Arch_Add/de.md) als 
 
 {{Note|Eine Anmerkung zu Additionen und Subtraktionen|Arch-Objekte, die solche Additionen und Subtraktionen unterstützen (alle von ihnen außer den "visuellen" Hilfsobjekten wie etwa Achsen), behalten solche Objekte im Auge durch zwei Eigenschaften, nämliche "Additions" und "Subtractions", die eine Liste von Verweisen auf andere zu addierende oder subtrahierende Objekte enthalten. Das gleiche Objekt kann in den Listen verschiedener anderer Objekte sein, wie es der Fall bei unserem Differenzkörper ist. Jeder der Väter versucht, es in der Baumansicht zu verschlucken, aber es wird normalerweise nur im letzten "leben". Aber Sie können immer die Listen jedes Objekts editieren, indem Sie in der Baumansicht darauf doppelklicken, wodurch in FreeCAD der Änderungsmodus aufgerufen wird. Drücken von **Esc** beendet den Änderungsmodus.}}
 
+
+
 ## Die Dächer erstellen 
 
 Um die Struktur zu vollenden, müssen wir jetzt nur noch das Dach und die kleineren inneren Decken erstellen. Wieder ist der einfachste Weg, die Profile mit dem [Polygonzug](Draft_Wire/de.md)-Werkzeug auf der Schnittansicht zu zeichnen. Hier habe ich drei Profile übereinander gezeichnet (ich habe sie im folgenden Bild voneinander getrennt, damit man sie besser sehen kann). Das grüne wird für die seitlichen Begrenzungen der Decken benutzt, dann das blaue für die Seitenteile und das rote für das Mittelteil, das über dem Badezimmerblock sitzt:
@@ -180,15 +194,21 @@ Nun muss noch ein letztes Teil korrigiert werden, eine kleine Decke im Badezimme
 
 <img alt="" src=images/Arch_tutorial_16.jpg  style="width:1024px;">
 
+
+
 ## Fußböden, Treppe und Kamin 
 
 Nachdem unsere Struktur vollständig ist, müssen wir nun eine Reihe kleinerer Objekte erstellen.
+
+
 
 ### Der Kamin 
 
 Lassen Sie uns mit dem Kamin beginnen. Inzwischen wissen Sie, wie es funktioniert, oder? Zeichnen Sie eine Reihe von [Polygonzügen](Draft_Wire/de.md), verschieben diese mit dem [Verschieben](Draft_Move/de.md)-Werkzeug auf die korrekte Höhe, extrudieren sie mit dem [Trimex](Draft_Trimex/de.md)-Werkzeug, konvertieren den größeren in eine [Struktur](Arch_Structure/de.md), und subtrahieren die kleineren. Beachten Sie, dass der Kaminabzug nicht auf dem Boden gezeichnet wurde, aber ich habe die Position durch Ziehen von blauen Linien aus der Schnittzeichnung ermittelt.
 
 <img alt="" src=images/Arch_tutorial_17.jpg  style="width:1024px;">
+
+
 
 ### Die Fußböden 
 
@@ -199,6 +219,8 @@ Die Fußböden sind in den Zeichnungen nicht gut dargestellt. Beim Blick auf die
 Sobald die Polygonzüge gezeichnet sind, können diese in [Strukturen](Arch_Structure/de.md) umgewandelt werden und eine Höhe von 0,15 m erhalten:
 
 <img alt="" src=images/Arch_tutorial_19.jpg  style="width:1024px;">
+
+
 
 ### Die Treppe 
 
@@ -222,6 +244,8 @@ Vergessen Sie nicht, auch die Säulen zu kürzen, die die Treppe schneiden, denn
 
 Gut! All die schwere Arbeit ist nun getan, machen wir mit der sehr schweren Arbeit weiter!
 
+
+
 ## Türen und Fenster 
 
 [Fenster](Arch_Window/de.md) sind ziemlich komplexe Objekte. Sie werden benutzt, um alle Arten von \"eingefügten\" Objekten, wie etwa Fenster oder Türen. Ja, in FreeCAD sind Türen einfach nur eine spezielle Art von Fenstern. Im echten Leben auch, wenn Sie darüber nachdenken, oder? Das [Fenster](Arch_Window/de.md)-Werkzeug kann immer noch ein wenig schwierig zu benutzen sein, aber betrachten Sie das als Kompromiss, da es für maximale Leistung gemacht wurde. Fast jede Art von Fenster, die Sie sich vorstellen können, kann damit erstellt werden. Weil das Werkzeug noch weitere Voreinstellungen bekommen wird, verbessert sich dieser Zustand in der Zukunft sicherlich.
@@ -229,6 +253,8 @@ Gut! All die schwere Arbeit ist nun getan, machen wir mit der sehr schweren Arbe
 Das [Fenster](Arch_Window/de.md)-Objekt arbeitet wie folgt: Es basiert auf einem 2D-Layout, einem beliebiges beliebigem 2D-Objekt, aber vorzugsweise einer [Skizze](Sketcher_Workbench/de.md), die Polygonzüge (Polylinien) enthält. Diese Polygonzüge definieren die verschiedenen Teile des Fensters: Außenrahmen, Innenrahmen, Glasscheiben, feste Bestandteile (solid panels), etc. Die Fenster-Objekte haben eine Eigenschaft, in der gespeichert wird, was mit dem jeweiligen Polygonzug zu tun ist: extrudieren, in einem bestimmten Abstand platzieren, etc. Schließlich kann ein Fenster in ein Host-Objekt wie etwa eine Wand oder eine Struktur eingefügt werden, und erstellt automatisch ein Loch darin. Die Größe des Lochs wird aufgrund des größten im 2D-Layout gefundenen Polygonzugs berechnet.
 
 Es gibt zwei Wege, um solch ein Objekt in FreeCAD zu erstellen: Durch Nutzung einer Voreinstellung oder zeichnen der Fensterausführung von Grund auf. Wir werden uns beide Methoden ansehen. Denken Sie aber daran, dass die Voreinstellungsmethode nichts anderes tut, als für Sie das Layout-Objekt zu erstellen und die notwendigen Extrusionen zu definieren.
+
+
 
 ### Voreinstellungen verwenden 
 
@@ -243,6 +269,8 @@ Da unser Fenster nicht in irgendeine Wand eingefügt wird (die Öffnung war bere
 Es gibt ein bisschen weiter links eine zweite, genau gleiche, Tür. Anstatt eine neue Tür von Grund auf zu erstellen, gibt es zwei Wege, um eine Kopie der ersten zu machen: Durch Nutzung des [Verschieben](Draft_Move/de.md)-Werkzeugs mit gedrückter **Alt**-Taste, was, wie Sie bereits wissen, eine Kopie eines Objekts macht anstatt es zu verschieben. Oder sogar noch besser das [Klonen](Draft_Clone/de.md)-Werkzeug. Das Klonen-Werkzeug erstellt einen Klon eines gewählten Objekts, das Sie herumschieben können, das aber die Form des ursprünglichen Objekts beibehält. Falls sich das Original ändert, ändert sich auch der Klon.
 
 Nun bleibt noch, die Tür zu wählen, [Klonen](Draft_Clone/de.md) zu drücken und den Klon mit dem [Verschieben](Draft_Move/de.md)-Werkzeug an die richtige Stelle zu verschieben.
+
+
 
 ### Ihr Modell organisieren 
 
@@ -270,6 +298,8 @@ Nach ein wenig Arbeit sind alle Türen vorhanden:
 Bei einem genaueren Blick auf die Draufsicht? habe ich einen weiteren Fehler entdeckt: Die Oberkante der Ziegelwand ist nicht 2,60 m, sondern 17,5 cm tiefer, also 2,425 m. Glücklicherweise haben Fenster, die auf Voreinstellungen basieren, eine Möglichkeit, die allgemeinen Abmessungen (Breite und Höhe) durch die Eigenschaften anzupassen. Lassen Sie uns die Höhe auf 2,425 - 0,15, also 2,275 ändern. Das zweite Fenster, als ein Klon des ersten, wird sich ebenfalls anpassen. Das ist im Grunde genommen, wo sich die wahre Magie von parametrischem Design zeigt.
 
 Nun können wir uns mit dem richtig interessanten Zeug befassen: wie man eigene maßgeschneiderte Fenster entwirft.
+
+
 
 ### Maßgeschneiderte Fenster erstellen 
 
@@ -309,6 +339,8 @@ Als letztes fehlendes Stück gibt es noch ein Wandsegment, das nicht im Plan auf
 
 Fertig? Nicht ganz. Auf dem obigen Bild sehen Sie, dass wir unsere Türen mit einem 5 cm Rahmen erstellt haben, erinnern Sie sich (das war der Standard der Voreinstellung)? Aber die anderen Fenster haben 2,5 cm Rahmen. Das müssen wir korrigieren.
 
+
+
 ### Fenster ändern 
 
 Wir haben bereits gesehen, wie mit dem Fensteränderungsmodus Fensterkomponenten erstellt und aktualisiert werden können, aber man kann auch die darunterliegende Skizze ändern. Fenster mit Voreinstellungen unterscheiden sich nicht von maßgeschneiderten Fenster, das [Fenster](Arch_Window/de.md)-Werkzeug erstellt nur die darunterliegende Skizze für Sie. Wählen Sie das Türobjekt (das Original, nichr die Kopie, Sie erinnern sich, dass wir einen Klon erstellt haben) und expandieren Sie es in der Baumansicht. Das ist unsere Skizze. Doppelklicken Sie es, um den Änderungsmodus aufzurufen.
@@ -320,6 +352,8 @@ Wenn wir unsere Türskizze ändern, können wir sehen, dass sie aus einer vollst
 <img alt="" src=images/Arch_tutorial_32.jpg  style="width:1024px;">
 
 Jetzt müssen wir nur den 5 cm Abstand zwischen der äußeren und der inneren Linie ändern, indem wir sie doppelklicken und den Wert aus 2,5 cm ändern. Nach Klicken des *OK*-Buttons sind unsere Tür und ihr Klon aktualisiert.
+
+
 
 ## Arbeiten ohne 2D-Unterstützung 
 
@@ -361,6 +395,8 @@ Nachdem das Fenster gedreht und an den Platz geschoben wurde, ist das Atrium fer
 
 <img alt="" src=images/Arch_tutorial_40.jpg  style="width:1024px;">
 
+
+
 ## Bearbeitungen und Korrekturen 
 
 Wenn wir jetzt auf die Rückseite sehen und mit dem Plan vergleichen, dann stellen wir fest, dass noch einige Unterschiede korrigiert werden müssen. Das Schlafzimmerfenster ist nämlich kleiner als ich zuerst dachte und wir müssen noch einige Wände hinzufügen. Um das ordentlich zu tun, müssen zuerst einige Fußböden aufgeschnitten werden:
@@ -381,15 +417,21 @@ Beachten Sie das Kaminrohr, das aus einem Kreis entstanden ist, den ich benutzt 
 {{Note|Probleme in Objekten|Manchmal gibt es Probleme bei Objekten, die Sie erstellt haben. Beispielsweise wurde die Basis des Objekts gelöscht und das Objekt kann daher die Form
 nicht erneut berechnen. Dies wird Ihnen durch ein kleines rotes Zeichen am Objekt und eine Warnung im Ausgabefenster angezeigt. Es gibt kein allgemeingültiges Rezept zum Reparieren dieser Probleme, da es vielfältige Gründe haben kann. Der einfachste Weg zur Lösung ist oftmals, es zu löschen und erneut zu erstellen, falls das Basisobjekt noch existiert.}}
 
+
+
 ## Ausgabe
 
 Nachdem wir die ganze schwere Arbeit hinter uns haben, um dieses Modell zu erstellen, kommt die Belohnung: Was können wir damit tun? Das ist im Grunde genommen der große Vorteil von Gebäudedatenmodellierung, dass alle unsere traditionellen Architekturbedürfnisse, wie etwa 2D-Zeichnungen (Pläne, Schnitte, etc), Renderings und Berechnungen (Massenermittlung, etc.), aus dem Modell ermittelt werden können. Und besser noch, sie werden nach jeder Änderung am Modell wieder erneut generiert. Ich werde Ihnen zeigen, wie Sie diese verschiedenen Dokumente erhalten.
+
+
 
 ### Vorbereitungen
 
 Bevor wir mit dem Export beginnen, gibt es eine interessante Überlegung: Wie Sie gesehen haben, wurde unser Modell zunehmend komplex, mit vielen Beziehungen zwischen Objekten. Dies kann bei folgenden Operationen, wie etwa Schnitte durch das Modell, zu umfangreichen Berechnungen führen. Ein schneller Weg, um Ihr Modell auf magische Weise drastisch zu \"vereinfachen\" besteht darin, diese Komplexität durch Export ins [STEP](https://de.wikipedia.org/wiki/Standard_for_the_exchange_of_product_model_data)-Format zu entfernen. Das Format wird Ihre komplette Geometrie erhalten, aber alle Beziehungen und Konstruktionen entfernen, so dass nur die endgültige Form übrigbleibt. Nach dem Reimport dieser STEP-Datei in FreeCAD erhalten Sie ein Modell ohne Beziehungen und einer viel geringeren Größe. Betrachten Sie es als eine \"Ausgabe\"-Datei, die Sie jederzeit aus Ihrer \"Master\"-Datei wieder erstellen können:
 
 <img alt="" src=images/Arch_tutorial_44.jpg  style="width:1024px;">
+
+
 
 ### Export nach IFC und anderen Anwendungen 
 
@@ -420,6 +462,8 @@ Für ein schnelles Rendering ist der Raytracing-Arbeitsbereich bereits geeignet,
 
 Der Raytracing-Arbeitsbereich bietet Ihnen noch eine sehr eingeschränkte Kontrolle über die Materialien, aber Beleuchtung und Umgebung sind in Vorlagen definiert, so dass sie umfassend anpassbar sind.
 
+
+
 ### 2D-Zeichnungen 
 
 Sicherlich die wichtigste Nutzung von Gebäudedatenmodellierung ist die automatische Erstellung von 2D-Zeichnungen. Das passiert in FreeCAD mit dem [Ebene markieren](Arch_SectionPlane/de.md)-Werkzeug. Dieses Werkzeug erlaubt Ihnen, ein Schnittebenen-Objekt in der 3D-Ansicht zu platzieren, die Sie ausrichten können, um Pläne, Schnitte und Ansichten zu erstellen. Schnitte müssen wissen, welche Objekte zu berücksichtigen sind, so dass Sie nach der Erstellung eines Schnittebenen-Objekts Elemente mit dem [Komponente hinzufügen](Arch_Add/de.md)-Werkzeug hinzufügen müssen. Sie können einzelne Objekte, oder bequemer, eine Gruppe, ein Geschoss oder ein komplettes Gebäude hinzufügen. Das erlaubt es Ihnen, später durch hinzufügen oder entfernen von Objekten den Umfang einer bestimmten Schnittebene zu verändern. Jede Änderung an diesen Objekten wirkt sich auf die von dieser Schnittebene erzeugten Ansichten aus.
@@ -428,7 +472,13 @@ Die Schnittebene erstellt automatisch Schnitte von den Objekten, die sie schneid
 
 <img alt="" src=images/Arch_tutorial_49.jpg  style="width:1024px;">
 
+
+<div class="mw-translate-fuzzy">
+
 Die Schnittebenen können zwei verschiedene Ausgaben erzeugen: [Formteil](Part_Workbench/de.md)-Objekte, die im gleichen Dokument wie Ihr 3D-Modell entstehen, oder [Zeichenansichten](Drawing_Workbench/de.md), die erzeugt werden, um ein Zeichenblatt zu erstellen, das mit dem [Drawing-Arbeitsbereich](Drawing_Workbench/de.md) verwendet werden kann. Jedes verhält sich anders und hat seine eigenen Vorteile.
+
+
+</div>
 
 **Formteilansichten**
 
@@ -442,15 +492,23 @@ Auf dem obigen Bild wurden zwei [Draft Form zu 2D-Ansichten](Draft_Shape2DView/d
 
 Beachten Sie, dass einige Merkmale noch nicht vom [DXF/DWG-Exporter](Draft_DXF/de.md) unterstützt werden, so dass das Ergebnis in Ihrer 2D-Anwendung ein wenig abweichen kann. Beispielsweise musste ich im obigen Bild die Schraffur neu erstellen und die Position einiger Bemaßungstext korrigieren. Wenn Sie Ihre Objekte in FreeCAD in verschiedenen Gruppen ablegen, dann werden diese in Ihrer 2D-Anwendung zu Ebenen (layers).
 
-**Zeichenansichten**
+**ArchViews**
 
-[Zeichenansichten](Drawing_Workbench/de.md) sind die zweite Möglichkeit der Ausgabe, die mit [Ebene markieren](Arch_SectionPlane/de.md) erzeugt werden können. Diese werden bei ausgewählter Schnittebene mit dem [Draft Zeichnung](Draft_Drawing/de.md)-Arbeitsbereich erstellt. Diese Methode hat eine große Einschränkung im Vergleich zur vorigen: Sie haben begrenzte Möglichkeiten zur Änderung der Ergebnisse und momentan werden Dinge wie Bemaßungen oder Schraffuren nicht nativ unterstützt.
+The other kind of output that can be produced from [section planes](Arch_SectionPlane.md) are [TechDraw ArchViews](TechDraw_ArchView.md). This method has one big limitation compared to the previous one: you have limited possibilities to edit the results, and at the moment, things like dimensioning or hatching are still not natively supported.
 
 Auf der anderen Seite ist das endgültige Ergebnis einfacher zu handhaben und die grafischen Möglichkeiten des SVG-Formats sind riesig, so dass dies in Zukunft die bevorzugte Methode sein wird. Momentan bekommen Sie allerdings mit der ersten die besseren Ergebnisse.
 
 <img alt="" src=images/Arch_tutorial_52.jpg  style="width:1024px;">
 
+
+<div class="mw-translate-fuzzy">
+
 Im obigen Bild ist die Geometrie die direkte Ausgabe der Schnittebene, aber einige andere Draft-Objekte wie Bemaßungen und Schraffur-Polygone wurden hinzugefügt und ein anderes Ansichtsobjekt mit gleichem Maßstab und Abstandswerten wurde mit dem [Draft-Zeichnung](Draft_Drawing/de.md)-Werkzeug erstellt. Zukünftig werden solchen Operationen direkt auf der Zeichenseite möglich sein, so dass das Modell davon frei sein wird.
+
+
+</div>
+
+
 
 ### Mengenermittlung
 
@@ -468,6 +526,8 @@ Ein weiterer Weg, Ihr Modell zu überprüfen und Werte zu ermitteln, ist der [Ü
 
 <img alt="" src=images/Arch_tutorial_54.jpg  style="width:1024px;">
 
+
+
 ## Abschluss
 
 Ich hoffe, dies gibt Ihnen einen guten Überblick über die verfügbaren Werkzeuge. Sehen Sie sich auch die Dokumentation zum [Arch](Arch_Workbench/de.md)- und [Draft](Draft_Workbench/de.md)-Arbeitsbereich und anderen an (es gibt weitere Werkzeuge, die ich hier nicht erwähnt habe), und allgemein den Rest der [FreeCAD-Dokumentation](Main_Page/de.md). Besuchen Sie auch das [Forum](http://forum.freecadweb.org), denn viele Probleme können dort umgehend gelöst werden und folgen Sie meinem [Blog](http://yorik.uncreated.net/guestblog.php?tag=freecad), um Neuigkeiten über die Arch-Arbeitsbereich-Entwicklung zu erfahren.
@@ -477,4 +537,4 @@ Die in diesem Tutorial erzeugten Dateien finden Sie [hier](http://yorik.uncreate
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Arch_Workbench.md) > Arch tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/de

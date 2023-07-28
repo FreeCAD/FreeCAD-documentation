@@ -12,14 +12,18 @@
 
 ## Description
 
-La commande **Std Précédente** ne fonctionne pas correctement [1](https://forum.freecadweb.org/viewtopic.php?f=3&t=45157).
+La commande **Std Précédente** active la fenêtre précédente dans la [zone de vue principale](Main_view_area/fr.md). La fenêtre précédente est déterminée par l\'ordre des onglets dans la zone d\'affichage principale.
+
+
 
 ## Utilisation
 
 1.  La zone de vue principale doit contenir au moins deux fenêtres.
-2.  Il existe plusieurs façons d\'appeler la commande:
-    -   Sélectionnez l\'option **Fenêtre → <img src="images/Std_ActivatePrevWindow.svg" width=16px> Précédente** dans le menu.
-    -   Utilisez le raccourci clavier: **Ctrl**+**Shift**+**Tab**.
+2.  Il existe plusieurs façons de lancer la commande :
+    -   Sélectionnez l\'option **Fenêtre → <img src="images/Std_ActivatePrevWindow.svg" width=16px> Précédente** du menu.
+    -   Utilisez le raccourci clavier : **Ctrl**+**Shift**+**Tab**.
+
+
 
 ## Remarques
 

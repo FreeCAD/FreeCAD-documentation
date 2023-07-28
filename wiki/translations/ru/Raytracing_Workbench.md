@@ -1,10 +1,19 @@
 # Raytracing Workbench/ru
-**Верстак Raytracing по сути устарел. Ведётся новая разработка  [https://github.com/FreeCAD/FreeCAD-render Верстака Render], который планируется как замена. Этот верстак полностью программируется на Python, поэтому его легче расширить.
+<div class="mw-translate-fuzzy">
 
-Тем не менее, информация на этой странице в целом полезна для нового верстака, поскольку оба модуля работают в основном одинаково.
-**
+
+
+
+
+</div>
+
+
+**The '''Raytracing Workbench''' is no longer included after version 0.20.<br>
+ The external [https://github.com/FreeCAD/FreeCAD-render Render Workbench] should be used instead.**
 
 <img alt="Логотип верстака Raytracing" src=images/Workbench_Raytracing.svg  style="width:128px;">
+
+
 
 ## Введение
 
@@ -17,7 +26,13 @@
 
 В настоящее время поддерживаются два визуализатора: [POV-Ray](POV-Ray/ru.md) и [LuxRender](LuxRender/ru.md). Чтобы иметь возможность визуализации из FreeCAD, нужна хотя бы одна из этих программ, установленная и сконфигурированная в Вашей системе. Но даже если ни одного визуализатора не установлено, Вы можете экспортировать файл проекта для визуализации впоследствии.
 
+
+<div class="mw-translate-fuzzy">
+
 Верстак Raytracing по сути устарел. Ведётся новая разработка [верстака Render](https://github.com/FreeCAD/FreeCAD-render), который предназначен для его замены. Этот верстак полностью запрограммирован на Python, поэтому его гораздо проще расширить, чем текущий верстак, который запрограммирован на C ++. Тем не менее, информация на этой странице в целом полезна для нового верстака, так как оба модуля работают в основном одинаково.
+
+
+</div>
 
 <img alt="" src=images/Raytracing_example.jpg  style="width:1024px;">
 
@@ -34,7 +49,11 @@
 
 *Работа верстака Raytracing; верстак готовит файл проекта из данного шаблона, затем вызывает внешнюю программу для визуализации сцены. Внешний визуализатор может использоваться независимо от FreeCAD.*
 
+
+
 ## Инструменты
+
+
 
 ### Инструменты проекта 
 
@@ -47,6 +66,8 @@
 -   <img alt="" src=images/Raytracing_ExportProject.svg  style="width:32px;"> [Экспортировать проект](Raytracing_ExportProject/ru.md): Экспортирует проект визуализации в файл сцены для отрисовки во внешнем визуализаторе
 -   <img alt="" src=images/Raytracing_Render.svg  style="width:32px;"> [Визуализировать](Raytracing_Render/ru.md): Визуализирует проект трассировки лучей во внешнем визуализаторе
 
+
+
 ### Утилиты
 
 Это вспомогательные инструменты для ручного выполнения особых задач.
@@ -54,6 +75,8 @@
 -   <img alt="" src=images/Raytracing_WriteView.svg  style="width:32px;"> [Экспорт вида в POV-Ray](Raytracing_WriteView/ru.md): Записывает активный трёхмерный вид с камерой и содержимым в файл povray
 -   <img alt="" src=images/Raytracing_WriteCamera.svg  style="width:32px;"> [Экспорт вида в POV-Ray](Raytracing_WriteCamera/ru.md): Экспортирует позицию камеры активного трёхмерного вида в формате POV-Ray в файл
 -   <img alt="" src=images/Raytracing_WritePart.svg  style="width:32px;"> [Экспортировать деталь в POV-Ray](Raytracing_WritePart/ru.md): Записывает выделенный объект Part как файл povray
+
+
 
 ## Настройки
 
@@ -74,9 +97,13 @@
 
 Как обычно, в визуализаторе Вы сможете сделать большие и красивые картинки: <img alt="" src=images/Scharniergreifer_render.jpg  style="width:800px;">
 
+
+
 ## Программирование
 
 Смотрите [Примеры программного интерфейса Raytracing](Raytracing_API_example/ru.md) для информации о создании сцен через программирование.
+
+
 
 ## Ссылки
 
@@ -123,6 +150,8 @@ Although direct export to the Kerkythea XML-File-Format is not supported yet, yo
 
 -   if importing multiple objects in Kerkythea you can use the \"File → Merge\" command in Kerkythea
 
+
+
 ## Разработка
 
 Эти страницы ссылаются на новую рабочую среду, запрограммированную на Python, предназначенную для замены текущей Raytracing Workbench.
@@ -132,7 +161,13 @@ Although direct export to the Kerkythea XML-File-Format is not supported yet, yo
 -   [FreeCAD Renderer Workbench improvements](https://forum.freecadweb.org/viewtopic.php?t=39168)
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Raytracing Tools navi
@@ -142,4 +177,4 @@ Although direct export to the Kerkythea XML-File-Format is not supported yet, yo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/ru

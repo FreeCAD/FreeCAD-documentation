@@ -10,6 +10,8 @@
 
 # Arch Wall/de
 
+
+
 ## Beschreibung
 
 Dieses Werkzeug erzeugt neue Wände oder baut Wände basierend auf einem anderen [Form](Part_Workbench/de.md)-basierten oder [Polygonnetz](Mesh_Workbench/de.md)-basierten Objekt. Eine Wand kann ohne ein Basisobjekt erstellt werden, wobei es sich dann wie ein räumliches Objekt verhält, mit Länge-, Breite- und Höhe-Eigenschaften. Wird auf einem existierenden Objekt aufgebaut, kann eine Wand aufgesetzt werden auf:
@@ -26,7 +28,11 @@ Wände können auch Ergänzungen oder Aussparungen erhalten. Ergänzungen sind a
 
 Wenn sich mehrere Wände überschneiden sollen, musst du diese in eine [Etage](Arch_Floor/de.md) platziert werden, damit sich ihre Geometrien überschneiden.
 
+
+
 ## Anwendung
+
+
 
 ### Zeichnen einer neuen Wand 
 
@@ -34,13 +40,20 @@ Wenn sich mehrere Wände überschneiden sollen, musst du diese in eine [Etage](A
 2.  Klicke einen ersten Punkt in der 3D-Ansicht oder gib eine Koordinate ein.
 3.  Klicke einen zweiten Punkt in der 3D-Ansicht oder gib eine weitere Koordinate ein.
 
+
+
 ### Zeichnen einer Wand auf einem ausgewählten Objekt 
 
 1.  Wähle ein oder mehrere Basisgeometrieobjekte (Entwurfsobjekt, Skizze, usw.)
 2.  Drücke die **<img src="images/Arch_Wall.svg" width=16px> [Architektur Wand](Arch_Wall/de.md)** Schaltfläche, oder drücke die **W** und dann **A** Tasten
 3.  Passe die benötigten Eigenschaften wie Höhe oder Breite an.
 
+
+
 ## Optionen
+
+
+<div class="mw-translate-fuzzy">
 
 -   Wände haben die gemeinsamen Eigenschaften und Verhaltensweisen aller [Architektur Komponenten](Arch_Component/de.md).
 -   Die Höhe, Dicke und Ausrichtung einer Wand können während des Zeichnens über das Aufgabenpaneel festgelegt werden.
@@ -55,6 +68,11 @@ Wenn sich mehrere Wände überschneiden sollen, musst du diese in eine [Etage](A
 -   Wände können auch [Multimaterialien](Arch_MultiMaterial/de.md) verwenden. Wenn ein Multimaterial verwendet wird, wird die Wand mehrschichtig, wobei die durch das Multimaterial vorgegebenen Dicken verwendet werden. Bei jeder Schicht mit einer Dicke von Null wird die Dicke automatisch durch den verbleibenden Raum definiert, der durch den Wert für die Wandbreite definiert ist, nachdem die anderen Schichten abgezogen wurden.
 -   Wände können zur Anzeige von Blöcken anstelle eines einzelnen Festkörpers gemacht werden, indem ihre Eigenschaft **Blöcke machen** eingeschaltet wird. Die Größe und der Versatz von Blöcken kann mit verschiedenen Eigenschaften konfiguriert werden, und die Anzahl der Blöcke wird automatisch berechnet. <small>(v0.18)</small> 
 
+
+</div>
+
+
+
 ## Fangen
 
 Fangen funktioniert etwas anders mit Architektur Wänden als andere Architektur und Entwurf Objekte. Wenn eine Wand ein Grundlinienobjekt hat, verankert sich das Fangen am Basisobjekt und nicht an der Wandgeometrie, so dass Wände leicht an ihrer Grundlinie ausgerichtet werden können. Wenn du jedoch speziell an der Wandgeometrie fangen möchtest, drücken von **Strg** schaltet das Fangen auf das Wandobjekt um.
@@ -62,7 +80,49 @@ Fangen funktioniert etwas anders mit Architektur Wänden als andere Architektur 
 <img alt="" src=images/Arch_wall_snap.jpg  style="width:780px;"> 
 *Zweite Wand gefangen senkrecht zur ersten*
 
+
+
 ## Eigenschaften
+
+Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and also have the following extra properties:
+
+### Data
+
+
+{{TitleProperty|Blocks}}
+
+
+<div class="mw-translate-fuzzy">
+
+-    {{PropertyData/de|Make Blocks}}: Aktiviere dies, damit die Wand aus Bausteinen (blocks) erzeugt wird
+
+-    {{PropertyData/de|Block Length}}: Die Länge jedes Bausteins
+
+-    {{PropertyData/de|Block Height}}: Die Höhe jedes Bausteins
+
+-    {{PropertyData/de|Offset First}}: Der horizontale Abstand der erste Reihe von Bausteinen
+
+-    {{PropertyData/de|Offset Second}}: Der horizontale Abstand der zweiten Reihe von Bausteinen
+
+-    {{PropertyData/de|Joint}}: Die Größe der Fugen zwischen jedem Baustein
+
+-    {{PropertyData/de|Count Entire}}: Die Anzahl von ganzen Bausteinen (read-only)
+
+-    {{PropertyData/de|Count Broken}}: Die Anzahl von geschnittenen (broken) Bausteinen (read-only)
+
+
+</div>
+
+
+{{TitleProperty|Component}}
+
+-    **Base**: The base object this wall is built on
+
+
+{{TitleProperty|Wall}}
+
+
+<div class="mw-translate-fuzzy">
 
 Wand-Objekte erben die Eigenschaften von [Part](Part_Workbench/de.md)-Objekten und haben außerdem die folgenden zusätzlichen Eigenschaften:
 
@@ -85,23 +145,9 @@ Wand-Objekte erben die Eigenschaften von [Part](Part_Workbench/de.md)-Objekten u
 -    {{PropertyData/de|Offset}}: Dies legt den Abstand zwischen der Wand und ihrer Basislinie fest. Das funktioniert nur, wenn die Align-Eigenschaft auf Right (rechts) oder Left (links) gesetzt ist.
 
 
-<small>(v0.18)</small> 
+</div>
 
--    {{PropertyData/de|Make Blocks}}: Aktiviere dies, damit die Wand aus Bausteinen (blocks) erzeugt wird
 
--    {{PropertyData/de|Block Length}}: Die Länge jedes Bausteins
-
--    {{PropertyData/de|Block Height}}: Die Höhe jedes Bausteins
-
--    {{PropertyData/de|Offset First}}: Der horizontale Abstand der erste Reihe von Bausteinen
-
--    {{PropertyData/de|Offset Second}}: Der horizontale Abstand der zweiten Reihe von Bausteinen
-
--    {{PropertyData/de|Joint}}: Die Größe der Fugen zwischen jedem Baustein
-
--    {{PropertyData/de|Count Entire}}: Die Anzahl von ganzen Bausteinen (read-only)
-
--    {{PropertyData/de|Count Broken}}: Die Anzahl von geschnittenen (broken) Bausteinen (read-only)
 
 ## Skripten
 

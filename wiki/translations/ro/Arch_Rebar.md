@@ -31,6 +31,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -55,6 +57,8 @@ Imaginea de mai sus prezintă un obiect structural, în care sunt desenate două
 
 </div>
 
+
+
 ## Extensii disponibile 
 
 
@@ -64,6 +68,8 @@ Instrumentul Rebar a fost mult îmbunătățit în timpul ediției din 2017 a [G
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -92,6 +98,8 @@ Instrumentul Rebar a fost mult îmbunătățit în timpul ediției din 2017 a [G
 
 Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 the rebar can be created outside of any host object. To host a rebar inside an object, you just need to set its **Host**.
 
+
+
 ## Opţiuni
 
 -   Barele partajează proprietățile și comportamentele comune ale tuturor [Arch Components](Arch_Component.md)
@@ -99,6 +107,8 @@ Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 t
 -   Default values for new rebars can be set in the Arch preferences settings.
 -   If a direction vector is not specified, the direction and distance along which the bars will spread is calculated automatically from the host structural object, by taking the normal direction of the base sketch, and taking its intersection with the structural object. If you specify a direction vector, the length of that vector will also be taken into account.
 -   Valoarea distanței este calculată din cantitatea curentă de bare și reprezintă distanța dintre axele fiecărei bare. Prin urmare, trebuie să scădeți diametrul barei pentru a obține dimensiunea spațiului liber dintre bare.
+
+
 
 ## Proprietăți
 
@@ -117,12 +127,19 @@ Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 t
 -    **Spacing**: Distanța dintre axele fiecărei bare.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Scrip-Programare 
 
 
 </div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">

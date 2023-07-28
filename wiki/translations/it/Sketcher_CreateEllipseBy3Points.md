@@ -52,14 +52,8 @@ Premere il pulsante **[<img src=images/Sketcher_CreateEllipse_3points.png style=
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
--   Dopo il terzo clic, viene creata l\'ellisse, insieme ad un gruppo di geometrie costruttive allineate ad esso (diametro maggiore, diametro minore, due fuochi). La geometria della costruzione può essere cancellata manualmente se non è necessaria e ricreata in seguito. Vedere il vincolo [Allineamento interno](Sketcher_ConstrainInternalAlignment/it.md) e come [Mostrare o nascondere la geometria interna](Sketcher_RestoreInternalAlignmentGeometry/it.md).
+-   Dopo il terzo clic, viene creata l\'ellisse, insieme ad un gruppo di geometrie costruttive allineate ad esso (diametro maggiore, diametro minore, due fuochi). La geometria della costruzione può essere cancellata manualmente se non è necessaria e ricreata in seguito. Vedere [Mostrare o nascondere la geometria interna](Sketcher_RestoreInternalAlignmentGeometry/it.md).
 -   Premere **Esc** o fare clic con il tasto destro del mouse per annullare la funzione.
-
-
-</div>
 
 ## Peculiarities
 

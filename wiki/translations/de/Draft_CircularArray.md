@@ -2,41 +2,30 @@
 - GuiCommand:/de
    Name:Draft CircularArray
    Name/de:Draft KreisAnordnung
-   MenuLocation:Entwurf → Kreis Anordnung
-   Workbenches:[Entwurf](Draft_Workbench/de.md)
+   MenuLocation:Änderung → Array tools → Kreis-Anordnung
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Version:0.19
-   SeeAlso:[Anordnung](Draft_Array/de.md), [PolarAnordnung](Draft_PolarArray/de.md), [PfadAnordnung](Draft_PathArray/de.md), [Punkt Anordnung](Draft_PointArray/de.md), [Klonen](Draft_Clone/de.md)
+   SeeAlso:[Draft RechtwinkligeAnordnung](Draft_OrthoArray/de.md), [Draft PolareAnordnung](Draft_PolarArray/de.md), [Draft PfadAnordnung](Draft_PathArray/de.md), [Draft PfadVerknüpfungsanordnung](Draft_PathLinkArray/de.md), [Draft PunktAnordnung](Draft_PointArray/de.md), [Draft PunktVerknüpfungsanordnung](Draft_PointLinkArray/de.md)
 ---
 
 # Draft CircularArray/de
 
 
-</div>
 
 ## Beschreibung
 
+Der Befehl <img alt="" src=images/Draft_CircularArray.svg  style="width:24px;"> **Draft KreisAnordnung** erstellt eine Anordnung aus einem ausgewählten Objekt, indem er Kopien auf konzentrischen Kreisringen positioniert. Der Befehl kann wahlweise eine Verknüpfungsanordnung ([Link](App_Link.md)-Array) erstellen, die effizienter ist als eine normale Anordnung.
 
-<div class="mw-translate-fuzzy">
-
-Das **[<img src=images/Draft_CircularArray.svg style="width:16px"> [Entwurf KreisAnordnung](Draft_CircularArray/de.md)** erstellt eine Anordnung aus einem ausgewählten Objekt und platziert die Kopien entlang konzentrischer Umfänge. Dies entspricht der Verwendung des <img alt="" src=images/Draft_PolarArray.svg  style="width:16px;"> [Draft PolarArray](Draft_PolarArray.md) mit einem Polarwinkel von 360 Grad und die Schaffung mehrerer solcher konzentrischen Anordnungen.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug kann für 2D Formen verwendet werden, die mit dem <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Entwurf Arbeitsbereich](Draft_Workbench/de.md) erstellt wurden, kann aber auch für viele Arten von 3D Objekten verwendet werden, wie z.B. solche, die mit dem <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Arbeitsbereich](Part_Workbench/de.md) oder <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) erstellt wurden.
-
-
-</div>
+Dieser Befehl kann für 2D-Objekte verwendet werden, die mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench/de.md) erstellt wurden, aber auch für viele 3D-Objekte, die mit anderen Arbeitsbereichen wie [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md) oder [Arch](Arch_Workbench/de.md) erstellt wurden.
 
 <img alt="" src=images/Draft_CircularArray_example.png  style="width:400px;"> 
-*Draft CircularArray*
+*Draft Kreis-Anordnung*
 
-## Usage
 
-See also: [Draft Snap](Draft_Snap.md).
+
+## Anwendung
+
+Siehe auch: [Draft Fangen](Draft_Snap/de.md).
 
 1.  Optionally select one object.
 2.  There are several ways to invoke the command:
@@ -50,7 +39,9 @@ See also: [Draft Snap](Draft_Snap.md).
     -   Press **Enter**.
     -   Press the **OK** button.
 
-## Options
+
+
+## Optionen
 
 -   Enter the **Radial distance** to specify the distance between the circular layers, and between the center and the first circular layer.
 -   Enter the **Tangential distance** to specify the distance between the elements on the same circular layer. Must be larger than zero.
@@ -62,29 +53,37 @@ See also: [Draft Snap](Draft_Snap.md).
 -   If the **Link array** checkbox is checked a Link array instead of a regular array is created. A Link array is more efficient because its elements are [App Link](App_Link.md) objects.
 -   Press **Esc** or the **Cancel** button to abort the command.
 
-## Notes
+
+
+## Hinweise
 
 -   The default rotation axis for the array is the positive Z axis. This can be changed by editing its **Axis** property.
 -   A Draft CircularArray can be turned into a [Draft OrthoArray](Draft_OrthoArray.md) or a [Draft PolarArray](Draft_PolarArray.md) by changing its **Array Type** property.
 -   A Link array cannot be turned into a regular array or vice versa. The type of array must be decided at creation time.
 
-## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and distances: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+## Einstellungen
 
-## Properties
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
 
-See [Draft OrthoArray](Draft_OrthoArray#Properties.md).
+-   Um die Anzahl der Dezimalstellen für die Eingabe der Koordinaten und Abstände zu ändern: **Bearbeiten → Eigenschaften... → Allgemein → Einheiten → Einheiten-Einstellungen → Anzahl der Nachkommastellen**
 
-## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-To create a circular array use the `make_array` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makeArray` method. The `make_array` method can create [Draft OrthoArrays](Draft_OrthoArray.md), [Draft PolarArrays](Draft_PolarArray.md) and Draft CircularArrays. For each array type one or more wrappers are available.
+## Eigenschaften
 
-The main method:
+Siehe [Draft RechtwinkligeAnordnung](Draft_OrthoArray/de#Eigenschaften.md).
+
+
+
+## Skripten
+
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+
+Zum Erstellen einer Kreis-Anordnung wird die Methode `make_array` des Draft-Moduls verwendet ({{Version/de|0.19}}). Diese Methode ersetzt die veraltete Methode `makeArray`. Die Methode `make_array` kann [Draft RechtwinkligeAnordnungen](Draft_OrthoArray/de.md), [Draft PolareAnordnungen](Draft_PolarArray.md) und Draft Kreis-Anordnungen erstellen. Für jede Anordnungsart stehen eine oder mehrere Wrapper-Methoden zur Verfügung.
+
+Die Hauptmethode:
 
 
 ```python
@@ -130,15 +129,6 @@ tri = Draft.make_polygon(3, 600)
 array = Draft.make_circular_array(tri, 1800, 1200, 4, 1)
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

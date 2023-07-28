@@ -1,11 +1,12 @@
 ---
 - TutorialInfo:/ru
-   Topic:Modeling
-   Level:Beginner
+   Topic:Моделирование
+   Level:Для начинающих
    Author:GlouGlou
-   Time:1 hour
-   FCVersion:0.17 or above
-   Files:[https://github.com/FreeCAD/Examples/blob/master/Creating_a_simple_PartDesign_Body.FCStd Creating a simple PartDesign Body.FCStd]
+   Time:1 час
+   FCVersion:0.17 и выше
+   Files:
+   SeeAlso:[Создание простой детали в верстаке Part](Creating_a_simple_part_with_Part_WB/ru.md), [Создание простой детали в верстаках Draft и Part](Creating_a_simple_part_with_Draft_and_Part_WB/ru.md)
 ---
 
 # Creating a simple part with PartDesign/ru
@@ -13,12 +14,6 @@
 
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-
-</div>
 
 ![](images/GGTuto1_Vue.PNG )
 
@@ -36,214 +31,222 @@
 
 ### Using [Part Design workbench](PartDesign_Workbench.md), tracing the sketch 
 
-Create a new document and switch to the **[<img src=images/Workbench_PartDesign.svg style="width:24px"> '''Part Design workbench'''** using either the [workbench selector](Getting_started#Exploring_the_interface.md) (labelled 10 in the linked image) or by going to the *View → Workbench* menu. FreeCAD will start with toolbars at the top, the combo view to the left and the 3D view at the right.
+Создайте новый документ и включите верстак **[<img src=images/Workbench_PartDesign.svg style="width:24px"> '''Part Design'''** используя либо [переключатель верстаков](Getting_started/ru#Exploring_the_interface.md) (помечен числом 10 на картинке по ссылке), либо через главное меню **Вид → Верстак**. FreeCAD запустится с панелями инструментов вверху, комбинированным видом слева и 3D видом справа.
 
-**Create body:**
+**Создайте тело:**
 
-Press <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Create body](PartDesign_Body.md). ***Note:** do not confuse the Body, which icon is blue, with the Part container which icon is yellow.* In the Model tab under the Combo View sidebar, a new object labelled \"Body\" appears under the document label, which is currently \"Unnamed\" since we haven\'t saved our document yet. The Body is a container in which Part Design features are sequentially arranged to form a single solid. It contains its own reference axes and planes. It will be highlighted in light blue in the Model tree, which means that it is active, that is to say that we can edit the elements it contains as well as add new elements to it. If it\'s not highlighted, double-click it or right-click and select *Toggle active body* in the contextual menu. In front of the Body label, there is a blue icon identical to the one above, and an arrow or a plus sign, depending on your operating system. Clicking on the arrow or plus sign in front of Body expands its content. At this point, it only contains an element labelled *Origin*. In front of this *Origin* is also an arrow or plus sign. Click on it to expand its content. It reveals the aforementioned reference axes and planes as shown in the image below:
+Нажмите <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Создать тело](PartDesign_Body/ru.md). ***Примечание:** не путайте тело, иконка у которого голубая, с телом в верстаке Part, иконка которого желтая.* Во вкладке *Модель* Комбо панели появится новый объект под названием \"Body\", который является частью нового документа без названия (\"Unnamed\"). Документ не имеет названия, т.к. мы его пока не сохранили. Тело - это контейнер, в котором элементы верстака Part Design последовательно выстроены образуя единое твердое тело. Оно содержит свои собственные оси и плоскости. Его наименование будет выделено голубым цветом в дереве модели, что означает, что оно активно, то есть мы можем редактировать содержащиеся в нем элементы, а также добавлять в него новые элементы. Если оно не выделено, дважды щелкните на нем или щелкните правой кнопкой мыши и выберите «Переключить активное тело» в контекстном меню. Слева от надписи \"Body\" есть синий ярлычок, идентичный приведенному выше, и стрелка или знак плюса, в зависимости от вашей операционной системы. Щелчок по стрелке или знаку плюса перед \"Body\" расширяет его содержимое. На данный момент он содержит только элемент с надписью *Origin*. Перед этим *Origin* также есть стрелка или знак плюса. Нажмите на него, чтобы развернуть его содержимое. Он покажет вышеупомянутые опорные оси и плоскости, как показано на изображении ниже:
 
-![](images/PartDesign_Body_tree_Unnamed.png ) *The newly created active Body with its content expanded.*
+![](images/PartDesign_Body_tree_Unnamed.png ) *Вновь созданное активное тело с его содержимым.*
 
-The *Origin* is greyed out, which indicates that its content is not visible in the 3D view. You can make *Origin*\'s content visible in the 3D view by selecting *Origin* and pressing the spacebar on your keyboard. *Origin* will now show black in the tree. Press the spacebar again to hide its content in the 3D view. Click again on the arrow or plus sign in front of *Origin* to collapse its content in the Model tree.
+Свойство *Origin* прикрыто серым цветом, что означает, что его содержимое не видимо в 3D виде. Вы можете сделать его видимым выбрав его мышью и нажав клавишу Пробел. Свойство *Origin* теперь будет подсвечено черным цветом. Нажмите Пробел еще раз и его содержимое снова исчезнет. Кликните мышью на значке стрелки или плюсика перед значком *Origin* и его содержимое свернется в дереве проекта.
 
-Before we continue, let\'s take the opportunity to rename the Body.
+Перед тем как мы продолжим, давайте переименуем объект \"Body\".
 
-**Rename body:**
+**Переименование тела:**
 
-In the Model tree, click on the Body with the right mouse button. Select Rename and type a name, for example \"Body part1\" and press **Enter** to validate.
+В дереве проекта нажмите правую кнопку на объекте \"Body\". В появившемся меню выберите строчку *Переименовать*, введите новое имя, например \"Body part1\" и нажмите клавишу **Enter**.
 
-**Create sketch:**
+**Создание эскиза/скетча:**
 
-We will now trace the sketch which defines the general shape of the part. A sketch is a diagram describing a profile to be applied to a feature in order to produce a shape. It can be either \"positive\" or \"additive\", like a pad for example; or \"negative\" or \"subtractive\", like a pocket.
+Теперь создадим эскиз/скетч, который определяет общую форму детали. Скетч --- это чертеж, описывающий сечение детали в выбранной нами плоскости. На нем могут быть отображены, например, приливы и выемки, которые имеются по всей длине детали.
 
-Here, since the part\'s general shape is regular along the Y axis, we will create the Pad along this axis.
+Пусть деталь располагается вдоль оси Y, создадим сечение детали в перпендикулярной оси Y плоскости.
 
-Press <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [New sketch](Sketcher_NewSketch.md). The Combo View now switches to the **Tasks** tab and displays the *Select feature* dialog. This dialog expects the selection of a plane to which to attach our sketch, and lists the available planes. Select *XZ_Plane (Base plane)* and press **OK**. The interface now changes, the Sketcher now takes over and its toolbars appear above the 3D view. We find ourselves on the XZ plane of the body to trace the sketch.
+Нажмите на <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Создать новый эскиз](Sketcher_NewSketch/ru.md). Комбо панель переключится на вкладку **Задачи**, в которой появится диалоговое окно *Выбор элементов операции*. В этом окне нужно задать плоскость на которой будет отображаться наш эскиз/скетч. Выберите плоскость *XZ_Plane (Базовая плоскость)* и нажмите **OK**. Вместо 3D вида появится конструктор создания эскизов/скетчей со всем своим набором инструментов. Конструктор отображает плоскость XZ, в которой мы будем создавать скетч.
 
-To aid with sketching, set the following options in \"Edit controls\" in the Tasks panel to the left:
+Чтобы упростить создание эскиза/скетча, на панели задач в окне \"Настройки\" установите следующие параметры:
 
--   Show grid: checked
--   Grid size: 10 mm
--   Auto constraints: checked
+-   Показывать сетку: включено
+-   Размер сетки: 10 мм
+-   Автоматические ограничения: включено
 
-We will trace the following sketch:
+Создадим следующий эскиз/скетч:
 
 ![](images/GGTuto1_0.PNG )
 
-**Let\'s start with the first segments:**
+**Давайте начнем с первого элемента:**
 
-Select the <img alt="" src=images/Sketcher_Line.svg  style="width:24px;"> [Line](Sketcher_CreateLine.md) tool. Click on the origin point, first making sure that a small red dot appears besides and to the right of the mouse pointer. Click next on the X axis about 10 squares to the right or at about 100 mm. If the segment is not exactly 100 mm at this point, it does not matter, we will later give it a fixed dimension that will constrain this length.
+Выберите инструмент <img alt="" src=images/Sketcher_Line.svg  style="width:24px;"> [Создать линию на эскизе](Sketcher_CreateLine/ru.md). Поставьте мышью исходную точку, убедитесь, что справа от указателя мыши появляется маленькая красная точка. Переместите указатель мыши на 10 шагов или примерно 100 мм вправо вдоль оси X и снова мышью поставьте точку. Пока не важно, что линия получилась не точно 100 мм длиной, позднее мы это исправим.
 
-Do the same for the other segments, try to aim at the points that you have created which must light up in yellow. Which means that these points will be coincident. You should get pretty much this:
+Проделайте то же самое с другими элементами эскиза. Соединяя элементы, старайтесь совместить их концы, которые при совмещении загораются желтым цветом. Это означает, что концы элементов совпадают. У вас должно получиться примерно так:
 
 ![](images/GGTuto1_1.PNG )
 
-Note the small red lines above and beside the segments you have drawn: these are horizontal and vertical constraints. Your lines are forced to stay either horizontal or vertical. Note also the symbol in the form of a small arc on the left: it means that the point is fixed to the Z axis.
+Обратите внимание на маленькие красные линии около элементов - это горизонтальные и вертикальные ограничители. Они помогают нарисовать линию строго горизонтально или строго вертикально. Так же обратите внимание на маленькие символы в виде дуги. Они означают, что соответствующая точка зафиксирована на Z оси.
 
-Now pick different line segments with the left mouse button and while keeping the left button pressed, drag the mouse to try to move them: some are free, others not.
+Попробуйте сейчас нажатием левой кнопкой мыши выделить один из элементов, а затем с нажатой кнопкой передвинуть его. Для некоторых элементов это удается сделать, а для других нет.
 
-**Applying constraints:**
+**Использование ограничителей:**
 
-At the top of the combo box, in the Tasks panel, you can read the number of degrees of freedom of the already sketched elements: it must be about 6, the objective of the constraints is to reduce the number of degrees of freedom to 0.
+В верхней части комбо панели, во вкладке \"Задачи\" имеется окно \"Состояние эскиза\", в котором отображено количество степеней свободы элементов эскиза/скетча. Сейчас их около 6, но необходимо уменьшить их количество до 0.
 
-The slanted line should be free to rotate at this time: we will give it an angle constraint to fix it.
+Наклонная линия у нас сейчас может вращаться. Зададим ей угол наклона, чтобы зафиксировать ее и уменьшить число степеней свободы.
 
-Click on the slanted line, then the bottom line; once selected these lines will turn dark green; then click the <img alt="" src=images/Constraint_InternalAngle.svg  style="width:24px;"> [Constrain internal angle](Sketcher_ConstrainAngle.md) icon.
+Мышью выберите наклонную линию и нижнюю горизонтальную линию. Они окрасятся в зеленый цвет. Затем нажмите на иконку<img alt="" src=images/Constraint_InternalAngle.svg  style="width:24px;"> [Фиксировать угол отрезка или угол между двумя отрезками](Sketcher_ConstrainAngle/ru.md).
 
 ![](images/GGTuto1_2.PNG )
 
-Enter a value of 30°. Both lines have a fixed angle now. The constraint was created to the left of the sketch; with the mouse, move it inside the profile.
+Введите значение угла 30°. Угол между двумя линиями теперь станет фиксированным. Угловой размер слева от эскиза профиля перенесите с помощью мыши внутрь профиля.
 
-We will now constrain the bottom line with a dimension: select it then click on <img alt="" src=images/Constraint_HorizontalDistance.svg  style="width:24px;"> [Constrain horizontal distance](Sketcher_ConstrainDistanceX.md).
+Сейчас установим точную длину нижней горизонтальной линии. Щелкните на ней мышью и нажмите <img alt="" src=images/Constraint_HorizontalDistance.svg  style="width:24px;"> [Фиксировать расстояние по горизонтали между двумя точками или концами отрезка](Sketcher_ConstrainDistanceX/ru.md).
 
-Enter a value of 100 mm. The vertical line on the right now aligns exactly with the grid\'s 10th square to the right of the origin.
+Введите значение 100 мм. Вертикальная линия справа теперь точно совпадает с 10-м квадратом сетки справа от начала координат.
 
-Let\'s set the overall height to the profile by selecting the highest point on the left then the origin point. Click on <img alt="" src=images/Constraint_VerticalDistance.svg  style="width:24px;"> [constrain vertical distance](Sketcher_ConstrainDistanceY.md), enter a value of 50 mm.
+Установим общую высоту профиля, выбрав мышью самую высокую точку слева и точку начала координат. Затем нажмите на иконку <img alt="" src=images/Constraint_VerticalDistance.svg  style="width:24px;"> [Фиксировать расстояние по вертикали между двумя точками или концами отрезка](Sketcher_ConstrainDistanceY/ru.md) и введите значение 50 мм.
 
-Do the same for the horizontal length of the sloped line with another 50 mm horizontal distance constraint.
+Так же установите ограничение длины проекции наклонной линии в 50мм.
 
-Move the dimensions away from the profile for better visibility. You should now have something like this:
+Чтобы не загромождать чертеж, вынесите линии размеров за пределы профиля. Ваш скетч теперь должен выглядеть примерно так:
 
 ![](images/GGTuto1_3.PNG )
 
-Notice that the number of degrees of freedom reduced to 2. These are the ends still open.
+Обратите внимание, что количество степеней свободы уменьшилось до 2, у нас еще остаются свободные концы отрезков.
 
-**Tracing the arc**
+**Создание дуги**
 
-Click on <img alt="" src=images/Sketcher_Arc.svg  style="width:24px;"> [Arc](Sketcher_CreateArc.md), position the center at approximately x = 80 y = 30; then click to define the first starting point of the arc on the upper horizontal line\'s right end point; then click to define the end of the arc to the right vertical line\'s upper end point (make sure the points are highlighted in yellow before clicking).
+Кликните на иконке <img alt="" src=images/Sketcher_Arc.svg  style="width:24px;"> [Создать дугу на эскизе](Sketcher_CreateArc/ru.md), установите указатель мыши в центр с координатами примерно x = 80 y = 30, затем мышью укажите начало дуги на правом конце верхней горизонтальной линии, потом ее конец на верхнем конце правой вертикальной линии. Убедитесь, что концы линий подсвечиваются желтым цветом перед нажатием кнопки мыши.
 
-Give the radius a radius constraint: select the arc, then click on <img alt="" src=images/Constraint_Radius.svg  style="width:24px;"> [Constrain radius](Sketcher_ConstrainRadius.md) then enter a value of 20 mm.
+Установите точный размер радиуса дуги: выберите дугу, затем кликните мышью на иконке <img alt="" src=images/Constraint_Radius.svg  style="width:24px;"> [Ограничить дугу или окружность](Sketcher_ConstrainRadius/ru.md) и установите значение 20 мм.
 
-Now let\'s make the arc tangent to the lines it\'s connected to: select the arc, then the top line, then click on <img alt="" src=images/Constraint_Tangent.svg  style="width:24px;"> [Constrain tangent](Sketcher_ConstrainTangent.md). A *Constraint substitution* message appears, click **OK**. Do the same for the tangent constraint on the other side of the arc.
+Теперь соединим дугу с линиями: мышью выберите дугу и вернюю линию, затем кликните <img alt="" src=images/Constraint_Tangent.svg  style="width:24px;"> [Создать ограничение касательности между двумя объектами](Sketcher_ConstrainTangent/ru.md). Появится сообщение *Замена ограничения*, нажмите **OK**. Сделайте то же самое на другом конце дуги.
 
-We proceeded in two stages to create the sketch, but we could also have traced the profile completely before constraining it fully.
+Мы создали эскиз в два этапа. Но мы также могли бы сначала полностью прорисовать профиль, а потом только создать ограничения.
 
-**Fully constrained sketch:**
+**Полностью завершенный эскиз:**
 
-If you worked well, you should get this:
+Если все нормально, то у вас должно получиться это:
 
 ![](images/GGTuto1_4.PNG )
 
-The sketch has become green, which means that it is fully constrained. There is no longer any ambiguity, everything is perfectly defined. This is confirmed by the solver message at the top left. Also note that the center of the arc has moved slightly, indeed giving these last three constraints, FreeCAD has calculated the true position of the center.
+Эскиз стал зеленым, что означает, что он полностью зафиксирован. Больше нет никаких неопределенностей, все размеры точно заданы. Это подтверждается надписью \"Эскиз не содержит степеней свободы\" на комбо панели. Заметьте, что центр дуги слегка сдвинулся, это получилось в результате трех последних ограничений. FreeCAD вычислил правильное положение центра дуги.
 
-If your sketch is not yet green, one or more points are not coincident (2 points can be superimposed yet not be coincident). Make a small window (capture window) around a point to select, and create a <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:24px;"> [Coincident constraint](‎Sketcher_ConstrainCoincident.md). 
-*Note: don\'t mistake the Coincident constraint for the Sketcher Point; while their icons are very similar, the latter has a larger icon; it adds a lone point in the sketch.*
+Если ваш эскиз еще не окрасился в зеленый цвет, то, скорее всего, одна или несколько точек не совпадают (2 точки могут быть наложены друг на друга, но не совпадать). Выделите мышью эти 2 точки (окном захвата) и нажмите <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:24px;"> [Создать ограничение совпадения для выбранных элементов](‎Sketcher_ConstrainCoincident/ru.md). 
+*Примечание: не перепутайте иконки \"Создать ограничение совпадения\...\" с \"Создать точку на эскизе\", они хотя очень похожи, последняя имеет более крупную иконку и она добавляет одинокую точку в эскиз.*
 
-Proceed in the same way with all the points.
+Пройдите так по всем не совпадающим точкам.
 
-If your sketch is still not green, verify that all lines (but the slanted one) have either a <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> [Horizontal](Sketcher_ConstrainHorizontal.md) or <img alt="" src=images/Constraint_Vertical.svg  style="width:24px;"> [Vertical](Sketcher_ConstrainVertical.md) constraint, and add if necessary.
+Если ваш эскиз все еще не окрасился в зеленый цвет, убедитесь, что все линии, кроме наклонных, имеют значки <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> [Горизонтального](Sketcher_ConstrainHorizontal/ru.md) or <img alt="" src=images/Constraint_Vertical.svg  style="width:24px;"> [Вертикального](Sketcher_ConstrainVertical/ru.md) ограничения. Если такого значка нет, поправьте положение линии.
 
-### Using Pad and Pocket features 
 
-Click on **Close** in the Tasks tab, at the top left corner. We automatically exit the Sketcher workbench, and the Part Design workbench is activated again. The Combo View switches back to the Model tab. If you left your *Body part1* expanded, you will see a new **Sketch** element below *Origin*, and nested under the Body.
 
-At this point, let\'s save our document. Give it a name (for example \"tutorial1\", or any name that you find relevant). It is good practice to save your document often, for example after completing a sketch or a feature.
+### Использование возможностей выдавливания и вырезов 
 
-Click on <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> **Isometric view** then <img alt="" src=images/Std_ViewFitAll.svg  style="width:24px;"> [Fit all](Std_ViewFitAll.md), which gives a centered 3D isometric view.
+Нажмите **Close** на вкладке задач в верхнем левом углу. Верстак **Sketcher** закроется, и мы вернемся на верстак **Part Design**, а комбо панель переключится на вкладку *Модель*. Если на ней вы оставляли объект *Body part1* развернутым, вы увидите новый элемент **Sketch** под элементом *Origin*, вложенный в объект *Body*.
 
-Click on <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [Pad](PartDesign_Pad.md), enter a length of 30 mm. Click **OK**, the shape is completed. In the Model tree, a **Pad** object (that we call feature) appears instead of the Sketch. In fact, it has claimed Sketch, since it is based on it; clicking on the arrow or plus sign in front of *Pad* to expand it will reveal the Sketch underneath, which was automatically made hidden (its label is grayed out).
+Теперь давайте сохраним наш документ. Дайте ему новое имя, например \"tutorial1\" или любое другое, которое вы сочтете подходящим. Хорошая привычка почаще сохранять документ, например сразу после создания эскиза/скетча или после каких-либо изменений.
 
-Note that the shape created forms a solid.
+Кликните мышью на иконке <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> **Установить изометрический вид**, затем на <img alt="" src=images/Std_ViewFitAll.svg  style="width:24px;"> [Уместить все содержимое на экране](Std_ViewFitAll/ru.md). Наша модель отобразится посередине окна 3D вида и будет полностью видна.
+
+Выберите <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [Выдавить выбранный эскиз](PartDesign_Pad/ru.md) и введите значение длины 30 мм. Нажмите **OK**, деталь получит объем. В дереве проекта появится объект **Pad** (его также называют свойством) вместо объекта *Sketch*. На самом деле его можно считать объектом *Sketch*, т.к. он основан на нем. Нажмите мышкой значок стрелки или плюсика перед объектом *Pad* чтобы развернуть его и вы увидите, что он основан на объекте *Sketch*, который скрыт (помечен серым цветом).
+
+У нас получилась вот такая деталь.
 
 ![](images/GGTuto1_5.PNG )
 
-**Creating the hole**
+**Создание отверстия**
 
-Click on the top (square) side of the part and click the <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> icon to create a new sketch. FreeCAD creates a new sketch attached to this face. So we are on a plane parallel to the absolute plane XY, but offset in height from the height of the piece, i.e. 50 mm.
+Кликните мышью на верхней (квадратной) поверхности детали, а затем кликните на иконке <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> чтобы создать новый эскиз/скетч. FreeCAD создаст новый эскиз, прикрепленный к этой поверхности. Итак, мы сейчас на плоскости, параллельной плоскости XY, но выше ее на высоту детали, т.е. на 50 мм.
 
-You can switch the 3D window to an isometric view <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> or stay in top view <img alt="" src=images/Std_ViewTop.svg  style="width:24px;">. At any time, you can return to Sketch view (the view is oriented to face the sketch plane) using the <img alt="" src=images/Sketcher_ViewSketch.svg  style="width:24px;"> [Sketcher ViewSketch](Sketcher_ViewSketch.md) icon.
+Вы можете переключиться окно 3D вида на изометрический вид <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> или оставить вид сверху <img alt="" src=images/Std_ViewTop.svg  style="width:24px;">. В любой момент вы можете вернуться в просмотр скетча (вернуться в плоскость скетча) используя иконку <img alt="" src=images/Sketcher_ViewSketch.svg  style="width:24px;"> [Просмотр эскиза](Sketcher_ViewSketch/ru.md).
 
-Note that the origin of this new sketch is that of the body. They may be different, but here are confounded with the absolute origin.
+Обратите внимание, что основой для нового скетча теперь служит само твердое тело. Основа может быть разной, но здесь используется именно твердое тело.
 
-With the <img alt="" src=images/Sketcher_Circle.svg  style="width:24px;"> [Circle](Sketcher_CreateCircle.md) tool, click roughly in the center of the face and make a circle of any radius.
+Используя инструмент <img alt="" src=images/Sketcher_Circle.svg  style="width:24px;"> [Создать окружность в эскизе](Sketcher_CreateCircle/ru.md) кликните мышкой примерно посередине поверхности и создайте круг любого радиуса.
 
-Select the circle then create a <img alt="" src=images/Constraint_Radius.svg  style="width:24px;"> [Radius constraint](Sketcher_ConstrainRadius.md), enter a value of 5 mm.
+Выберите круг и инструментом <img alt="" src=images/Constraint_Radius.svg  style="width:24px;"> [Ограничить дугу или окружность](Sketcher_ConstrainRadius/ru.md) создайте для него ограничение радиуса, введите значение 5 мм.
 
-Select the center of the circle then create a <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Lock constraint](Sketcher_ConstrainLock.md); double-click on the horizontal dimension and enter -65 mm (here we indicate a position relative to the origin of the sketch). Do the same for the vertical dimension (15 mm). The circle takes its correct position and the sketch becomes green, indicating it is fully constrained:
+Мышью укажите центр круга и нажмите на иконку <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Ограничение положения](Sketcher_ConstrainLock/ru.md). Затем щелкните дважды на горизонтальной размерной линии и введите -65 мм (здесь мы указываем позицию центра круга относительно начала координат в эскизе). Сделайте то же самое с вертикальной размерной линией, введите там значение 15мм. Центр круга займет правильное положение и эскиз окрасится в зеленый цвет, это значит, что в нем больше нет неопределенностей:
 
 ![](images/GGTuto1_6.PNG )
 
-Close the sketch; in the Model tree, a new **Sketch001** object has appeared below Pad. While Sketch001 is still selected, click on <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [Pocket](PartDesign_Pocket.md).
+Закройте эскиз. В дереве проекта ниже объекта \"Pad\" появится новый объект **Sketch001**. Пока Sketch001 выбран, нажмите на <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [Создать вырез на основе выбранного эскиза](PartDesign_Pocket/ru.md).
 
-Pocket is a feature called \"subtractive\", it removes material from our part, here in the form of a cylinder since the sketch is a circle. Set \"Through all\" to completely cut the part. Press **OK** to complete. In the Model tree, a new element labelled **Pocket** appears at the bottom of the Body part1, and claims Sketch001.
+Вырез - это инструмент, который позволяет удалить часть детали. С его помощью мы удаляем часть в виде цилиндра, поскольку на эскизе у нас нарисован круг. В окне параметров выреза установите тип \"Насквозь\" и нажмите **OK**. В дереве проекта к объекту \"Body\" добавится дочерний объект **Pocket**, основанный на объекте \"Sketch001\".
 
-### Changing color and transparency 
 
-It is possible to change the color of the part, it is often useful to distinguish a part among others. The transparency of the piece can also be modified, which is useful for visualizing its internals.
 
-Select the **Body part1** body; make sure that the Model tab of the Combo View is selected and go to the lower part of the Combo View, then click on the View tab; locate the *Shape Color* property; you may need to use the vertical scroll bar to the right to find it. *You can also widen the Property column: hover your mouse pointer over the separating line between the*Property*and*Value*headers; when the pointer turns into a double-sided arrow, press and hold your left mouse button and drag sideways, then release.* In the right column, click on the gray square, which opens the **Select Color** dialog. Pick another color then click OK. Next, again in the View tab, change the value of Transparency, for example to 50 and press **Enter** to complete (0 = totally opaque, 100 = totally transparent).
+### Изменение цвета и прозрачности 
 
-The hole is now visible inside the part. This is often useful for seeing the hidden or internal faces of the model.
+Есть возможность изменить цвет детали, часто бывает полезно выделить деталь среди других. Также можно изменить прозрачность изделия, что бывает полезно для визуализации его внутренних частей.
 
-You can also vary \"Line Color\" and \"Line Width\" to change the line thickness and the color of the part outline.
+Выберите твердое тело **Body part1** на вкладке \"Модель\" комбо панели. В ее нижней части откройте вкладку \"Вид\" и выберите свойство *Shape Color* (Цвет фигуры). Возможно, вам потребуется использовать вертикальный скроллбар справа, чтобы найти его. *Вы также можете расширить столбец «Свойство»: наведите указатель мыши на разделительную линию между заголовками «Свойство» и «Значение»; когда указатель превратится в двустороннюю стрелку, нажмите и удерживайте левую кнопку мыши и перетащите ее в сторону, затем отпустите.* В колонке \"Значение\" кликните на сером прямоугольнике, откроется диалог **Выбор цвета**. Выберите другой цвет и нажмите кнопку OK. Затем, снова во вкладке \"Вид\" измените значение *Transparency* (Прозрачность), например на 50 и нажмите **Enter**. Ноль означает полностью непрозначный, 100 - полностью прозрачный.
 
-### Manually move the part 
+Теперь мы можем видеть отверстие внутри детали. Это часто бывает полезно, чтобы видеть скрытые или внутренние поверхности модели.
 
-Go to the *View* menu and select *Toggle axis cross*. These are the absolute axes. You should see in the 3D view, the 3 axes X, Y, Z in red, green and blue. This landmark will help us to orient ourselves in space. This landmark is fixed and immutable, it is either the view that rotates or the object that rotates in this space.
+Вы также можете изменить свойства \"Line Color\" (Цвет линии) и \"Line Width\" (Толщина линии) чтобы изменить цвет и толщину линий контуров детали.
 
-Select the Body; at the bottom of the Combo View on the left, you can see this (the *Data* tab needs to be on the foreground, you may need to click on the *Data* tab to make it visible):
+### Перемещение детали 
+
+Войдите в меню *Вид* и выберите *Показать/скрыть оси координат*. Это глобальные оси координат. Вы должны увидеть в окне 3D вида оси координат X, Y и Z красного, зеленого и синего цвета соответственно. Они всегда остаются на месте и помогут нам ориентироваться в пространстве, когда мы будем перемещаться в нем или перемещать деталь.
+
+В дереве проекта кликните на объекте \"Body\". В нижней части комбо панели слева вы увидите то, что изображено ниже (необходимо, чтобы была включена вкладка *Данные*):
 
 ![](images/GGTuto1_10.PNG )
 
-Click on the three small dots, i.e., the ellipsis (if they don\'t appear, click on the Value section of the **Placement** field); this opens a new dialog in the Tasks panel. Using the arrows you can vary the position and angles of the part. It is actually the position of the body (so its origin) that moves in space, the orientation of the 3D view does not change.
+Кликните на маленькой кнопке с тремя точками, многоточием. Если эту кнопку не видно, кликните в столбце \"Значение\" свойства \"Placement\" (Место размещения). В панели задач откроется новое диалоговое окно. С помощью стрелок вы можете изменить положение и углы наклона детали. При этом ракурс 3D вида остается неизменным.
 
-Another method: in the Combo View, select the Body and click on the right button of the mouse, then select *Transform*. A view like this appears:
+Другой способ: в комбо панели выберите объект \"Body\" и нажмите на нем правую кнопку мыши, затем выберите *Преобразовать*. Вы увидите такую картинку:
 
 ![](images/GGTuto1_11.PNG )
 
-Hold and drag the cones along the axes or the spheres to move the body in all directions.
+Нажмите левую кнопку мыши на конусе или кружочке цвета нужной вам оси и не отпуская кнопку перемещайте деталь вдоль или вокруг выбранной оси.
 
-Validate. Then reset angles and coordinates to 0.
+Верните углы и координаты в исходные значения.
 
-### Displaying reference dimensions in the sketch 
 
-It may be useful to know the dimensions of some parts of the sketch, from the internal calculation of FreeCAD. It can be used just for reference, or use them later to set other dimensions for example.
 
-In the Model tree, if necessary expand *Body part1* then *Pad* to show the first Sketch. Double-click on it (or right-click and select *Edit sketch* in the contextual menu) then click on <img alt="" src=images/Sketcher_ToggleConstraint.svg  style="width:24px;"> [Toggle Constraint](Sketcher_ToggleDrivingConstraint.md). (**Note:** depending on your computer display resolution, this icon may not be visible. At the right end of the Constraints toolbar, you may find a **»** button. Click on it to expand and access collapsed icons.) From now on, we can create reference dimensions rather than dimensional constraints: they will be blue and will have no influence on the shapes of the sketch from which they come, they are calculated automatically.
+### Отображение размеров на эскизе 
 
-You can display these dimensions for example:
+Иногда полезно знать размеры некоторых деталей эскиза, особенно расчетных. Их можно показать для справки или использовать для установки других размеров.
+
+В дереве проекта раскройте объект *Body part1*, затем дочерний проект *Pad*, чтобы было видно исходный эскиз \"Sketch\". Дважды щелкните на нем (или нажмите правую кнопку мыши и выберите *Редактировать эскиз* в контекстном меню), затем кликните <img alt="" src=images/Sketcher_ToggleConstraint.svg  style="width:24px;"> [Переключить ограничения в построительные/основные](Sketcher_ToggleDrivingConstraint/ru.md). (**Примечание:** в зависимости от разрешения экрана вашего компьютера этот значок может быть не виден. Если его не видно, с правой стороны панели инструментов \"Ограничения эскиза\" есть кнопка **»**. Нажмите её, чтобы увидеть скрытые иконки.). Теперь мы можем создавать справочные размеры, а не ограничения размеров. Они будут синими и не будут влиять на формы эскиза, из которого они взяты, они рассчитываются автоматически.
+
+Например, вы можете показать эти размеры:
 
 ![](images/GGTuto1_7.PNG )
 
-We can see for example that the arc has a length of 20 since it\'s tangent with the edges.
+Мы можем видеть, например, что дуга имеет длину 20, так как она касается ребер.
 
-We can also see that FreeCAD calculates the left face (50-50xTAN 30 °), as well as the distance dimension of the axis of the arc with the origin.
+Также видно, что FreeCAD вычисляет левую грань (50-50xTAN 30°) и расстояние от центра дуги до начала координат.
 
-### Editing one or more dimensions 
 
-During modeling, you can vary the dimensions of the model. It\'s very simple: for the thickness of the piece, double-click Pad, then enter a new value, 40mm for example. In the lower part of the combo view, you can change this value as well. Validate, the shape of the object has changed.
 
-Do the same for the total length of the piece: double-click on Sketch, then double-click on the 100 mm dimensional constraint, change it to 110 mm then validate.
+### Изменение одного или нескольких размеров 
 
-We can see that the piece was enlarged, but the hole is no longer centered in the middle of the top face. That\'s because it has been constrained to the sketch origin. Which does not necessarily correspond to what one would like, the hole should remain in the center, whatever the size of the face.
+В процессе моделирования вы можете варьировать размеры модели. Это очень просто: для толщины детали дважды щелкните Pad, затем введите новое значение, например, 40 мм. В нижней части комбо панели вы также можете изменить это значение. Подтвердите изменения и форма объекта изменится.
 
-### Center the hole 
+Так же можно изменить длину детали: щелкните дважды мышью на объекте \"Sketch\", затем дважды на ограничителе длины в 100 мм, и введите новое значение 110 мм. Затем подтвердите.
 
-**First method using external geometry.**
+Мы видим, что деталь увеличилась, но отверстие больше не находится в центре верхней грани. Это потому, что его положение было задано на исходном эскизе. Не обязательно, но скорее всего нам нужно, чтобы отверстие всегда оставалось бы в центре грани, даже если её размеры изменятся.
 
-Edit again the sketch of the hole and erase its horizontal and vertical distance constraints.
+### Центрирование отверстия 
 
-Then click on <img alt="" src=images/Sketcher_External.svg  style="width:24px;"> [External Geometry](Sketcher_External.md).
+**Первый способ с использованием внешней геометрии.**
 
-We will now create two lines in the sketch, but extracted from a shape (or feature) external to this one and previously defined: that of the Pad.
+Перейдите снова в режим редактирования эскиза верхней грани и удалите ограничения положения отверстия по горизонтали и вертикали.
 
-Click on a vertical edge at the top of the part. For example, the edge slope side.
+Затем кликните на иконке <img alt="" src=images/Sketcher_External.svg  style="width:24px;"> [Добавить внешнюю геометрию](Sketcher_External/ru.md).
 
-A new magenta line will appear above the edge. Repeat for the other edge, on the rounded side.
+Создадим на эскизе две линии. Они будут внешними по отношению к модели.
 
-We can now use these lines (and especially their end points) to centre the circle, however we must add two construction lines: for example the diagonals.
+Выделите мышью ребро верхней грани детали. Например, ребро со стороны фаски.
 
-Click on <img alt="" src=images/Sketcher_AlterConstruction.svg  style="width:24px;"> [Construction Mode](Sketcher_ToggleConstruction.md), we switch to construction mode: the lines will be blue and will be discarded outside of the sketch editing mode. They will allow to fix the center of the circle. Create the diagonals in the same way that you drew the first lines. Make sure all points are coincident.
+Над ребром появится линия пурпурного цвета. Теперь так же выделите ребро со стороны скругления.
 
-Then select the center of the circle, then the two blue diagonal lines and click on <img alt="" src=images/Constraint_PointOnObject.svg  style="width:24px;"> [Point on object](Sketcher_ConstrainPointOnObject.md), the circle must be centred at the intersection of the diagonals, that is at the center of the face. The sketch must be green, completely constrained (it is essential). Note that besides the radius of the circle, it is no longer necessary to create dimensional constraints.
+Теперь можно использовать эти вспомогательные линии, точнее их конечные точки, для центрирования круга. Но сначала нужно добавить еще две вспомогательные линии по диагонали.
 
-Please note that in addition to switching the the toolbar to construction mode, the <img alt="" src=images/Sketcher_AlterConstruction.svg  style="width:24px;"> [Construction Mode](Sketcher_ToggleConstruction.md) button can also switch individual Sketcher elements to construction mode if they have been selected. If you accidentally switch an element to construction mode, you may get an error when you exit the sketch.
+Кликнув мышкой на иконке <img alt="" src=images/Sketcher_AlterConstruction.svg  style="width:24px;"> [Переключить панель инструментов или выбранную геометрию в/из режим конструктора](Sketcher_ToggleConstruction/ru.md), мы перейдем в режим дополнительной геометрии: линии, которые мы будем рисовать будут голубого цвета и будут видны только в режиме редактирования эскиза. С помощью таких диагональных линий мы определим центр отверстия. Создайте их так, как делали это раньше. Убедитесь, что все концы линий совпадают.
+
+Затем выберите центр круга, обе диагональные линии, и кликните на иконке <img alt="" src=images/Constraint_PointOnObject.svg  style="width:24px;"> [Привязать точку к объекту](Sketcher_ConstrainPointOnObject/ru.md), центр круга переместится в точку пересечения диагональных линий, которая и является центром верхней грани. Эскиз станет зеленым, т.е. полностью зафиксированным. Это важно. Обратите внимание, что помимо радиуса окружности больше не нужно создавать никаких размерных ограничений.
+
+Обратите внимание, что кнопка <img alt="" src=images/Sketcher_AlterConstruction.svg  style="width:24px;"> [Переключить панель инструментов или выбранную геометрию в/из режим конструктора](Sketcher_ToggleConstruction/ru.md) может переключать в режим дополнительной геометрии и отдельные элементы эскиза, если они были выбраны. Если вы случайно переключите элемент эскиза в режим дополнительной геометрии, вы можете получить ошибку при выходе из эскиза.
 
 ![](images/GGTuto1_8.PNG )
 
-Leave the sketch, we see that the circle is well centred. (The pocket feature was not deleted, but modified). If you change the dimensions of the part again, the thickness or the length, the circle will remain centered on the face.
+Выйдем из эскиза. Теперь мы видим, что отверстие центрировано на верхней грани детали. Если вы снова измените размеры детали, толщину или длину, отверстие останется в центре грани.
 
-**Avoid construction lines:**
+**Сокрытие вспомогательных линий:**
 
 It is often possible to avoid creating construction lines. You can edit the sketch again, erase the construction lines and use a <img alt="" src=images/Constraint_Symmetric.svg  style="width:24px;"> [Symmetric constraint](Sketcher_ConstrainSymmetric.md) between the two opposite vertices of the external geometry lines and the centre of the circle (select points in this order):
 
@@ -274,9 +277,11 @@ You can also continue with this other tutorial of a slightly more complicated pa
 [Basic Part Design Tutorial](Basic_Part_Design_Tutorial.md)
 
 
- {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+{{PartDesign Tools navi
+
+}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Creating a simple part with PartDesign/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Creating a simple part with PartDesign/ru

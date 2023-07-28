@@ -15,12 +15,27 @@
 
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Инструмент [Лестница](Arch_Stairs/ru.md) позволяет автоматически создавать несколько типов лестниц. инструмент позволяет автоматически создавать несколько типов лестниц. На данный момент поддерживаются только прямые лестницы (лестничной площадкой или без нее). Лестница может быть построена с нуля или вдоль [Линии (верстак Draft)](Draft_Line/ru.md). Если линия не горизонтальна, а имеет наклон по вертикали, лестница также будет иметь наклон.
+
+
+</div>
 
 Смотрите [статью о лестницах на википедии](https://en.wikipedia.org/wiki/Stairs) для определения значения различных терминов, используемых при описании частей лестницы.
 
-<img alt="" src=images/Arch_Stairs_example.jpg  style="width:640px;"> 
+<img alt="" src=images/Arch_Stairs_example.jpg  style="width:600px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Изображение двух сконструированных лестниц, одна с массивной конструкцией и лестничной площадкой, а другая с одним косоуром.*
+
+
+</div>
 
 
 
@@ -32,8 +47,20 @@
 
 ## Применение
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Нажмите кнопку **<img src="images/Arch_Stairs.svg" width=16px> [Лестница](Arch_Stairs.md)** или нажмите клавиши **S**, **R**.
 2.  Настройте нужные свойства. Некоторые части лестницы, такие как конструкция, могут изначально отсутствовать, если какое-либо из свойств делает это невозможным, например, толщина конструкции равна 0.
+
+
+</div>
+
+<img alt="" src=images/Arch_Stairs_Complex_Example.png  style="width:600px;"> 
+*Complex stairs based on a selection of lines and wired as shown on the left.<br>
+In red the wires used for the landings at Z&equals;1500mm, Z&equals;3000mm and Z&equals;4500mm.<br>
+In black the lines connecting them used for the flights.
+*
 
 
 
@@ -90,6 +117,9 @@
 
 (Ступени)
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Blondel Ratio|Float**: (только для чтения) Рассчитанный коэффициент Блонделя. Это соотношение позволяет определить наиболее удобную для человека лестницу и должно составлять от 62 до 64 см или от 24,5 до 25,5 дюйма.
 
 -    **Landing Depth|Length**: Длина лестничной площадки находящейся по ходу лестницы, указывается только если площадка **Landings** добавлена. По умолчанию значение **Width** равно 0.
@@ -109,6 +139,9 @@
 -    **Tread Depth Enforce|Length**: Принудительная длина ступеней
 
 -    **Tread Thickness|Length**: Толщина ступеней.
+
+
+</div>
 
 
 {{TitleProperty|Structure}}

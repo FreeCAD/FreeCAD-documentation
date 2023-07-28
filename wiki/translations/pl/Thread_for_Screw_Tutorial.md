@@ -278,9 +278,9 @@ ISO i inne gwinty zostały uelastycznione, czyli płaskie, wewnętrzne i zewnęt
 Ta metoda produkuje wysoce stabilne bryły, które prawidłowo działają z funkcjami logicznymi. Chociaż nie wytwarza ona \"parametrycznych\" gwintów śrubowych w standardowych rozmiarach w sensie prostego dostępu do kształtu poprzez rozmiar łącznika, jest to łatwy sposób na stworzenie wiarygodnej biblioteki do ponownego użycia. Modele o specjalnych kształtach, takich jak ACME czy śruby z serii Archimedian, są również nieskomplikowane do modelowania jako rozwiązania jednorazowe.
 
 
-  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+ {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Thread for Screw Tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Thread for Screw Tutorial/pl

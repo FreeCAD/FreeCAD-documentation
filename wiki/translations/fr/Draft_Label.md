@@ -92,7 +92,7 @@ Les types d\'étiquettes suivants sont disponibles :
 ## Remarques
 
 -   La direction du deuxième segment de l\'amorce détermine l\'alignement du texte. Si le segment est horizontal et pointe vers la droite, le texte est aligné sur la gauche et vice versa. Si le deuxième segment va verticalement vers le haut, le texte est aligné sur la gauche. S\'il va verticalement vers le bas, le texte est aligné sur la droite.
--   Les Draft Étiquettes créées ou enregistrées avec la \[\[Release_notes_1.0/fr\|version 1.0\] de FreeCAD\] ne sont pas rétrocompatibles.
+-   Les Draft Étiquettes créées ou enregistrées avec la \[\[Release_notes_0.21/fr\|version 0.21\] de FreeCAD\] ne sont pas rétrocompatibles.
 
 
 
@@ -147,7 +147,7 @@ Un objet Draft Etiquette est dérivé d\'un objet [App FeaturePython](App_Featur
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: spécifie comment le texte est affiché. S\'il s\'agit de {{value|World}}, le texte sera affiché sur un plan défini par la **Placement** de l\'étiquette. S\'il s\'agit de {{value|Screen}}, le texte sera toujours tourné vers l\'écran. Il s\'agit d\'une propriété héritée. Les options mentionnées sont les options renommées ({{Version/fr|1.0}}).
+-    **Display Mode|Enumeration**: spécifie comment le texte est affiché. S\'il s\'agit de {{value|World}}, le texte sera affiché sur un plan défini par la **Placement** de l\'étiquette. S\'il s\'agit de {{value|Screen}}, le texte sera toujours tourné vers l\'écran. Il s\'agit d\'une propriété héritée. Les options mentionnées sont les options renommées ({{Version/fr|0.21}}).
 
 
 {{TitleProperty|Graphics}}
@@ -167,9 +167,9 @@ Un objet Draft Etiquette est dérivé d\'un objet [App FeaturePython](App_Featur
 
 {{TitleProperty|Text}}
 
--    **Text Name|Font**: spécifie la police utilisée pour dessiner le texte. Il peut s\'agir d\'un nom de police, tel que {{value|Arial}}, d\'un style par défaut tel que {{value|sans}}, {{value|serif}} ou {{value|mono}}, d\'une famille telle que {{value|Arial,Helvetica,sans}}, ou d\'un nom avec un style tel que {{value|Arial:Bold}}. Si la police donnée n\'est pas trouvée sur le système, une police par défaut est utilisée à la place. {{Version/fr|1.0}}
+-    **Text Name|Font**: spécifie la police utilisée pour dessiner le texte. Il peut s\'agir d\'un nom de police, tel que {{value|Arial}}, d\'un style par défaut tel que {{value|sans}}, {{value|serif}} ou {{value|mono}}, d\'une famille telle que {{value|Arial,Helvetica,sans}}, ou d\'un nom avec un style tel que {{value|Arial:Bold}}. Si la police donnée n\'est pas trouvée sur le système, une police par défaut est utilisée à la place. {{Version/fr|0.21}}
 
--    **Font Size|Length**: spécifie la taille des lettres. Le texte peut être invisible dans la [Vue 3D](3D_view/fr.md) si cette valeur est très petite. {{Version/fr|1.0}}
+-    **Font Size|Length**: spécifie la taille des lettres. Le texte peut être invisible dans la [Vue 3D](3D_view/fr.md) si cette valeur est très petite. {{Version/fr|0.21}}
 
 -    **Justification|Enumeration**: spécifie l\'alignement horizontal du texte : {{value|Left}}, {{value|Center}} ou {{value|Right}}. Utilisé uniquement si **Straight Direction** est {{Value|Custom}} (personnalisée). Sinon, l\'alignement horizontal est basé sur le signe (positif ou négatif) de **Straight Distance**.
 

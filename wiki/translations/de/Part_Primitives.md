@@ -26,86 +26,66 @@ Der Befehl <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> **Pa
 
 ### Erstellung
 
-
-<div class="mw-translate-fuzzy">
-
-Um ein Grundelement zu erstellen, entweder
-
-#\* drücke die **<img src="images/Part_Primitives.svg" width=24px> '''Erstelle Grundelement'''** Schaltfläche in der Werkzeugleiste.
-
-#\* wähle den {**Part → Grundelement erstellen...**} in der Menüleiste.
-
-#\* Wähle im erscheinenden Dialogfeld den Grundelementtyp, stelle seine Parameter und seinen Speicherort ein und drücke schließlich **Erstellen**. Der Dialog bleibt offen, so dass du anschließend weitere Grundelemente erstellen kannst.
-
-
-</div>
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Part_Primitives.svg" width=16px> [ Grundkörper erstellen...](Part_Primitives/de.md)** drücken.
+    -   Den Menüeintrag **Part → <img src="images/Part_Primitives.svg" width=16px> Grundkörper erstellen...** auswählen.
+2.  Der Aufgabenbereich **Geometrische Grundkörper** wird geöffnet.
+3.  Einen Typ Grundkörper aus der Aufklappliste auswählen.
+4.  Die Eigenschaften festlegen.
+5.  Die Schaltfläche **Erstellen** drücken.
+6.  Das Grundkörper-Objekt wird erstellt.
+7.  Man beachte, dass der Aufgabenbereich geöffnet bleibt.
+8.  Wahlweise weitere Grundkörper erstellen.
+9.  Die Schaltfläche **Schließen** drücken, um den Aufgabenbereich zu schließen und den Befehl fertigzustellen.
 
 
 
 ### Bearbeiten
 
+1.  Auf das Grundkörperobjekt in der [Baumansicht](Tree_view/de.md) doppelklicken.
+2.  Der Aufgabenbereich **Geometrische Grundkörper** wird geöffnet.
+3.  Eine oder mehrere Eingenschaften ändern.
+4.  Das Objekt wird in der [3D-Ansicht](3D_view/de.md) dynamisch aktualisiert.
+5.  Die Schaltfläche **OK** drücken.
 
-<div class="mw-translate-fuzzy">
-
-Verwendung des Dialogs: <small>(v0.19)</small> 
-
-1.  Wähle das Grundelement im Baum aus und doppelklicke darauf.
-2.  Das gleiche Dialogfeld wird geöffnet, das auch zum Erstellen des Grundelements verwendet wurde. Ändere dort die Parameter und du erhältst eine Live Vorschau des geänderten Grundelements.
-3.  Um die Bearbeitung abzuschließen, drücke **OK**.
-
-
-</div>
-
-The properties of a Part Primitive can also be changed in the [Property editor](Property_editor.md), and its **Placement** can also be changed with the <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std TransformManip](Std_TransformManip.md) command.
+Die Eigenschaften eines Part-Grundkörpers können auch im [Eigenschafteneditor](Property_editor/de.md) geändert werden und seine {{PropertyData/de|Placement}} kann auch mit dem Befehl <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std Bewegen](Std_TransformManip/de.md) geändert werden.
 
 
 
 ## Geometrische Grundelemente 
 
+Die folgenden Grundelemente können erstellt werden:
 
-<div class="mw-translate-fuzzy">
-
-Einige der verfügbaren (parametrischen) geometrischen Grundelemente, die möglich sind:
-
-:   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Ebene](Part_Plane/de.md): fügt eine einfache parametrische Ebene 10 x 10 mm mit den Parametern Position, Länge und Breite ein.
-:   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Kasten/Würfel](Part_Box/de.md): fügt einen parametrischen, [rechteckiger Quader](http://en.wikipedia.org/wiki/Cuboid#Rectangular_cuboid), geometrisches Grundelement in das aktive Dokument ein.
-:   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Zylinder](Part_Cylinder/de.md): Fügt einen einfachen parametrischen Zylinder mit den Parametern Position, Winkel, Radius und Höhe in das aktive Dokument ein.
-:   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Kegel](Part_Cone/de.md): Fügt einen parametrischen abgeschnittenen Kegel in das aktive Dokument ein.
-:   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Kugel](Part_Sphere/de.md): Fügt eine parametrische Kugel ein, mit den Parametern Position, Winkel1, Winkel2, Winkel3 und Radius.
-:   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Ellipsoid](Part_Ellipsoid/de.md): Fügt einen parametrischen Ellipsoid Volumenkörper in das aktive Dokument ein.
-:   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Torus](Part_Torus/de.md): Fügt einen einfachen parametrischen Torus mit Position, Winkel1, Winkel2, Winkel3, Radius1 und Radius2 als Parameter in das aktive Dokument ein.
-:   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Prisma](Part_Prism/de.md): Fügt einen Volumenkörper, der durch einen regelmäßigen Polygonquerschnitt und eine Höhe definiert ist, in das aktive Dokument ein. <small>(v0.14)</small> 
-:   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Keil](Part_Wedge/de.md): Fügt ein parametrisches Keilobjekt in das aktive Dokument ein.
-:   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Helix](Part_Helix/de.md): Fügt ein geometrisches Helix Grundelement in das aktive Dokument ein. Übliche Verwendung für Helix ist die Erstellung von [Gewinde](Thread_for_Screw_Tutorial/de.md).
-:   <img alt="" src=images/Part_Spiral.svg  style="width:32px;"> [Spirale](Part_Spiral/de.md): Fügt ein geometrisches Spiral Grundelement in den aktiven Arbeitsbereich ein. <small>(v0.14)</small> 
-:   <img alt="" src=images/Part_Circle.svg  style="width:32px;"> [Kreis](Part_Circle/de.md): Fügt eine kreisförmig gekrümmte Kante in das aktive Dokument ein.
-:   <img alt="" src=images/Part_Ellipse.svg  style="width:32px;"> [Ellipse](Part_Ellipse/de.md): Fügt eine elliptisch gekrümmte Kante in das aktive Dokument ein.
-:   <img alt="" src=images/Part_Point.svg  style="width:32px;"> [Punkt](Part_Point.md) (Knoten): Fügt ein geometrisches Punkt (Knoten) Grundelement in das aktive Dokument ein.
-:   <img alt="" src=images/Part_Line.svg  style="width:32px;"> [Linie](Part_Line/de.md) (Kante): erzeugt ein einfaches Liniensegment, das von zwei Eckpunkten begrenzt wird.
-:   <img alt="" src=images/Part_RegularPolygon.svg  style="width:32px;"> [Regelmäßiges Polygon](Part_RegularPolygon/de.md): Fügt ein geometrisches RegelmäßigesPolygon Grundelement in das aktive Dokument ein. <small>(v0.14)</small> 
-
-
-</div>
+-   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Ebene](Part_Plane/de.md): Erstellt eine Ebene.
+-   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Quader](Part_Box/de.md): Erstellt einen Quader. Dieses Objekt kann auch mit dem Werkzeug <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Würfel](Part_Box/de.md) erstellt werden.
+-   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Cylinder](Part_Cylinder/de.md): Erstellt einen Zylinder. Dieses Objekt kann auch mit dem Werkzeug <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Zylinder](Part_Cylinder/de.md) erstellt werden.
+-   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Kegel](Part_Cone/de.md): Erstellt einen Kegel. Dieses Objekt kann auch mit dem Werkzeug <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Kegel](Part_Cone/de.md) erstellt werden.
+-   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Kugel](Part_Sphere/de.md): Erstellt eineKugel. Dieses Objekt kann auch mit dem Werkzeug <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Kugel](Part_Sphere/de.md) erstellt werden.
+-   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Ellipsoid](Part_Ellipsoid/de.md): Erstellt ein Ellipsoid.
+-   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Torus](Part_Torus/de.md): Erstellt einen Torus. Dieses Objekt kann auch mit dem Werkzeug <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Torus](Part_Torus/de.md) erstellt werden.
+-   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Prisma](Part_Prism/de.md): Erstellt ein Prisma.
+-   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Keil](Part_Wedge/de.md): Erstellt einen Keil.
+-   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Helix](Part_Helix/de.md): Erstellt eine Wendel.
+-   <img alt="" src=images/Part_Spiral.svg  style="width:32px;"> [Spirale](Part_Spiral/de.md): Erstellt eine Spirale.
+-   <img alt="" src=images/Part_Circle.svg  style="width:32px;"> [Kreis](Part_Circle/de.md): Erstellt einen Kreisbogen.
+-   <img alt="" src=images/Part_Ellipse.svg  style="width:32px;"> [Ellipse](Part_Ellipse/de.md): Erstellt einen Ellipsenbogen.
+-   <img alt="" src=images/Part_Point.svg  style="width:32px;"> [Point](Part_Point/de.md): Erstellt einen Punkt.
+-   <img alt="" src=images/Part_Line.svg  style="width:32px;"> [Line](Part_Line/de.md): Erstellt eine Linie.
+-   <img alt="" src=images/Part_RegularPolygon.svg  style="width:32px;"> [Regelmäßiges Polygon](Part_RegularPolygon/de.md): Erstellt ein regelmäßiges Vieleck.
 
 
 
 ## Hinweise
 
--   The Part Primitives command cannot create a <img alt="" src=images/Part_Tube.svg  style="width:16px;"> [Part Tube](Part_Tube.md).
+-   Der Befehl Part Grundkörper kann keinen <img alt="" src=images/Part_Tube.svg  style="width:16px;"> [Part Hohlzylinder erstellen](Part_Tube.md).
 
 
 
 ## Skripten
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Teste die Erstellung der Grundkörper mit einem Skript. <small>(v0.19)</small> 
-
-
-</div>
+Es gibt ein Python-Skript, um die Erstellung von Grundkörpern zu testen. Es kann von der [Python-Konsole](Python_console/de.md) gestartet werden:
 
 
 ```python
@@ -113,26 +93,14 @@ import parttests.part_test_objects as pto
 pto.create_test_file("example_file")
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Dieses Skript befindet sich im Installationsverzeichnis des Programms und kann untersucht werden, um zu sehen, wie die Basisgrundelemente aufgebaut sind.
-
-
-</div>
+Dieses Skript befindet sich im Installationsverzeichnis des Programms und kann untersucht werden, um zu sehen, wie die einfachsten Grundelemente aufgebaut werden:
 
 
 ```python
 $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Es kann auch als Eingabe in das Programm verwendet werden.
-
-
-</div>
+Es kann auch als Eingabe für das Programm verwendet werden:
 
 
 ```python

@@ -4,7 +4,7 @@ Here is a rough roadmap of areas to be addressed in the [TechDraw Workbench](Tec
 
 ### Current Activity 
 
--   investigation of geometry conversion
+-   preparation for v0.21 release
 
 ### Primary Focus for 2023 
 
@@ -15,6 +15,8 @@ There are 2 main areas of work to address in 2023:
     -   the most visible impact is the difficulty in specifying cosmetic geometry
 -   the \"lesser topological naming problem\"
     -   primarily making dimensions survive the renaming of reference geometry
+        -   Phase1 (reference geometry has a new name, but still exists) implemented by [PR #8989](https://github.com/FreeCAD/FreeCAD/pull/8989)
+        -   First attempt at Phase2 (handling situation where reference geometry has legitimately changed) stalled. Rethinking.
     -   also affects face hatching
     -   also affects edge appearance attributes
 
@@ -24,7 +26,9 @@ These items would be nice to address in 2023:
 
 -   drawing overlay
     -   allow graphics to be added to a drawing page as on a transparent overlay in traditional drafting. This will build on the [SymbolsAndTraces](https://github.com/WandererFan/FreeCAD/tree/SymbolsAndTraces) research project and \@Evgeniy\'s schematic workbench.
--   ???
+-   Replacement for Qt XMLPatterns
+    -   the XMLPatterns component will be removed in Qt6. It will need to be replaced by another XML parsing library. This functionality is used in Templates and Symbol views.
+        -   implemented by [PR #9104](https://github.com/FreeCAD/FreeCAD/pull/9104) (Thanks Werner!)
 
 ### Work Completed in 2022 
 

@@ -1,20 +1,13 @@
 # Manual:Using spreadsheets/de
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{Manual:TOC/de}}
 
-FreeCAD features another interesting workbench to explore: the [Spreadsheet Workbench](Spreadsheet_Workbench.md). This workbench allows you to create [spreadsheets](https://en.wikipedia.org/wiki/Spreadsheet) such as those made with [Excel](https://en.wikipedia.org/wiki/Microsoft_Excel) or [Calc from LibreOffice](https://en.wikipedia.org/wiki/LibreOffice_Calc) directly in FreeCAD. These spreadsheets can then be populated with data extracted from your model, and can also perform a series of calculations between values. Spreadsheets can be exported as CSV files, which can be imported in any other spreadsheet application.
+FreeCAD enthält einen weiteren interessanten Arbeitsbereich zum Erforschen: Der Arbeitsbereich [Spreadsheet](Spreadsheet_Workbench/de.md). Dieser Arbeitsbereich erlaubt, [Kalkulationstabellen](https://de.wikipedia.org/wiki/Tabellenkalkulation), wie sie mit [Excel](https://en.wikipedia.org/wiki/Microsoft_Excel) oder [Calc von LibreOffice](https://en.wikipedia.org/wiki/LibreOffice_Calc) erstellt werden, direkt in FreeCAD zu erstellen. Diese Kalkulationstabellen können dann mit aus dem Modell extrahierten Daten befüllt werden und eine Reihe von Berechnungen zwischen den Werten ausführen. Kalkulationstabellen können als CSV-Dateien exportiert und dann in jeder anderen Tabellenkalkulationsanwendung importiert werden.
 
 In FreeCAD, however, spreadsheets have an additional utility: Their cells can receive a name, and can then be referenced by any field supported by the [expressions engine](Expressions.md). This turns spreadsheets into powerful control structures, where the values inserted in specific cells can drive dimensions of the model. There is only one thing to keep in mind, as FreeCAD prohibits circular dependencies between objects, the same spreadsheet cannot be used to set a property of an object and at the same time retrieve a property value from the same object. That would mean the spreadsheet and the object depend on one other.
 
 In the following example, we will create a couple of objects, retrieve some of their properties in a spreadsheet, then use the spreadsheet to directly drive properties of other objects.
+
+
 
 ### Leseeigenschaften
 
@@ -45,6 +38,8 @@ In FreeCAD, on top of these common features, there is a new interesting one: The
 ![](images/Exercise_spreadsheet_04.jpg )
 
 The [Spreadsheet Workbench](Spreadsheet_Workbench.md) page will describe in more detail all the possible operations and functions available in spreadsheets.
+
+
 
 ### Schreibeigenschaften
 
@@ -86,23 +81,8 @@ You can also give aliases to dimensional constraints (horizontal, vertical or di
 
 **Mehr lesen**
 
-
-<div class="mw-translate-fuzzy">
-
--   [Der Arbeitsbereich Kalkulationstabellen](Spreadsheet_Workbench/de.md)
--   [Der Ausdrucksantrieb](Expressions/de.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+-   [Der Arbeitsbereich Tabellenkalkulation](Spreadsheet_Workbench/de.md)
+-   [Ausdrücke anwenden](Expressions/de.md)
 
 
 

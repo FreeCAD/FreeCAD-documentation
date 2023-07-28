@@ -1,18 +1,14 @@
 ---
 - GuiCommand:/it
    Name/it:Sposta
-   Icon:Sketcher_Move.svg
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
    MenuLocation:Sketch → Strumenti → Sposta
-   Shortcut:**Ctrl** + **M**
+   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
+   Shortcut:**Z** **M**
    Version:0.18
-   SeeAlso:[Clona](Sketcher_Clone/it.md), [Copia](Sketcher_Copy/it.md)
+   SeeAlso:[Sketcher Clona](Sketcher_Clone/it.md), [Sketcher Copia](Sketcher_Copy/it.md)
 ---
 
 # Sketcher Move/it
-
-
-</div>
 
 
 
@@ -27,25 +23,17 @@ Sposta da un punto a un altro gli elementi dello schizzo selezionati, utilizzand
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Selezionare gli elementi dello schizzo per l\'operazione di spostamento.
-2.  Premere il pulsante **<img src="images/Sketcher_Move.svg" width=24px> Sposta**.
-3.  Fare clic su un punto o una posizione nello spazio vuoto per spostare gli elementi nella loro nuova posizione. Si muovono anche i vincoli esistenti.
-4.  Se si vuole separare un elemento e muoverlo liberamente, eliminare i suoi vincoli di blocco e trascinarlo con il mouse.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
+2.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **[<img src=images/Sketcher_Move.svg style="width:16px"> [Sposta](Sketcher_Move/it.md)** nella barra degli strumenti.
+    -   Usare la scorciatoia da tastiera **Z** poi **M**.
+    -   Usare la voce **Sketch → Strumenti Sketcher → [<img src=images/Sketcher_Move.svg style="width:16px"> Sposta** nel menu.
+3.  Spostare il mouse nella [Vista 3D](3D_view/it.md) nella posizione desiderata.Tenendo premuto **Ctrl** (**Cmd** su macOS), l\'angolo rispetto alla posizione può essere fissato in passi di 5°. {{Version/it|0.20}}
+4.  Fare clic con il pulsante sinistro del mouse nella vista 3D per terminare lo spostamento. Anche i vincoli esistenti si spostano.
+5.  Se si vuole staccare un elemento e spostarlo liberamente, eliminare i suoi vincoli di blocco e trascinarlo con il mouse.
 
 
 
-
-</div>
 
 
 {{Sketcher_Tools_navi

@@ -9,44 +9,38 @@
 
 # Part CrossSections/de
 
+
+
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das Dienstprogramm \"Querschnitte\" erstellt einen oder mehrere Querschnitte durch die ausgewählte Form.
+Das Dienstprogramm \"Querschnitte\" erstellt einen oder mehrere Schnitte durch die ausgewählte Form, parallel zu einer der globalen (Koordinaten-)Ebenen (XY, XZ oder YZ).
 
 
-</div>
 
 ## Kurzanleitung
 
+1.  Eine Form auswählen.
 
-<div class="mw-translate-fuzzy">
+2.  Die Schaltfläche **[24px|link=Part_CrossSections/de](File:Part_CrossSections.svg.md) '''Schnitte'''** drücken.
 
-1.  Wähle eine Form aus.
-2.  Drücke die **[<img src=images/Part_SectionCross.png style="width:24px"> '''Querschnitte'''** Taste .
-3.  Definiere die Führungsebene.
-4.  Definiere die Position (Höhe des Querschnitts).
-5.  Aktiviere optional **Schnitte**, um mehr als einen Querschnitt zu erstellen:
-    -   Das Anhaken von *Auf beiden Seiten* verteilt die Querschnitte auf jeder Seite der Führungsebenenposition.
-    -   Lege die Anzahl fest.
-6.  Drücke **OK**.
+3.  Die leitende Ebene festlegen.
 
+4.  Die Position (Höhe des Schnittes) festlegen.
 
-</div>
+5.  Wahlweise **Schnitte** aktivieren, um mehr als einen Querschnitt zu erstellen:
+    -   Wird *Beidseitig* aktiviert, werden die Querschnitte auf beide Seiten der leitenden Ebene verteilt.
+    -   Die Anzahl festlegen.
 
+6.  
+    **OK**drücken.
 
-{{Part Tools navi/de}}
+ {{Part Tools navi/de}}
 
-
-<div class="mw-translate-fuzzy">
-
+-   [App-Link](App_Link/de.md)-Objekte, die mit geeigneten Objektarten verknüpft sind und [App-Part](App_Part/de.md)-Container, die geeignete sichtbare Objekte beinhalten, können auch als Ausgangsobjekte verwendet werden. {{Version/de|0.20}}
 -   Das resultierende Objekt ist nicht parametrisch, d.h. es ist nicht mit der ursprünglichen Form verbunden.
--   Es wird ein einziges Objekt erzeugt, auch mit mehr als einem Querschnitt.
+-   Es wird ein einziges Objekt erstellt, sogar bei mehr als einem Querschnitt.
 
 
-</div>
 
 ## Beispiel
 

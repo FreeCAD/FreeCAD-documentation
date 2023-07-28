@@ -29,7 +29,15 @@ brew install freecad
 
 If there are any issues with the HomeBrew Cask or Formula you may report them to [here](https://github.com/FreeCAD/homebrew-freecad).
 
+
+<div class="mw-translate-fuzzy">
+
 Тази страница описва употребата на FreeCAD инсталаторът. Също включва инструкции за деинсталиране. След като инсталирате FreeCAD вижте страницата [първи стъпки](Getting_started/bg.md)!
+
+
+</div>
+
+
 
 ### Проста Инсталация 
 
@@ -41,7 +49,15 @@ The FreeCAD installer is provided as a app package (.app) enclosed in a disk ima
 
 ![](images/mac_installer_1.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Инсталаторът ще ви предложи списък от компоненти които можете да инсталирате (екранът **Customize Installation**). Ако имате някои от тези компоненти вече инсталирани можете да ги деселектирате. Ако не сте сигурни, оставте всички опции селектирани.
+
+
+</div>
+
+
 
 ### Деинсталация
 

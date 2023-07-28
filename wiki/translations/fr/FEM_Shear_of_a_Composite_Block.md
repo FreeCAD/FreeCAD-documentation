@@ -38,6 +38,8 @@ Remarque2 : si vous avez des difficultés à choisir \"CompoundFilter:Solid2\" c
 
 <img alt="" src=images/Pic4.png  style="width:700px;">
 
+
+
 ## Affectation des matériaux 
 
 Un matériau est attribué aux régions Mesh via un objet SolidMaterial. Dans ce tutoriel, nous affectons deux matériaux : un pour la matrice et un pour le noyau.
@@ -48,11 +50,15 @@ Commencez par sélectionner le CompoundFilter dans l\'arborescence des objets. C
 
 Répétez la procédure ci-dessus pour le noyau (\"CompoundFilter:Solid2\") à l\'aide de la macro de sélection. Cette fois, nous assignons l\'acier CalculiX-Steel, qui est beaucoup plus rigide que le matériau ABS pour la matrice.
 
+
+
 ## Support coulissant 
 
 Pour créer une condition de \"cisaillement simple\" pour le bloc composite, les déformations aux limites ne doivent pas être contraintes. Pour ce faire, le bloc est placé sur un support coulissant. Cela laisse trois degrés de liberté dans le plan du support (2 translations et une rotation) et ceux-ci seront contraints plus tard. (Remarque : comme le plan empêche la déformation de la face, il induit toujours une contrainte mineure, qui pourrait être éliminée par un choix différent des conditions limites). Pour créer une condition limite de glissement, ajoutez un objet FemConstraintDisplacement (Model → Mechanical Constraints → Constraint displacement). La boîte de dialogue étant ouverte, sélectionnez d\'abord la face à laquelle les conditions limites doivent être appliquées, puis cliquez sur le bouton Ajouter. Comme le bloc est autorisé à glisser dans le plan x-y, seul le bouton radio \"Fixe\" pour \"Displacement z\" est sélectionné et les autres boutons radio sont tous laissés à \"Libre\".
 
 <img alt="" src=images/Pic6.png  style="width:700px;">
+
+
 
 ## Noeuds fixes 
 
@@ -66,6 +72,8 @@ L\'étape finale de la définition de l\'analyse est l\'application des charges.
 
 <img alt="" src=images/Pic8.png  style="width:700px;">
 
+
+
 ## Analyse CalculiX 
 
 Maintenant que toutes les régions maillées, le matériau et les conditions aux limites ont été définis, nous sommes prêts à analyser la déformation du bloc avec CalculiX. Activez l\'analyse en faisant un clic droit sur \"Activate analysis\", ouvrez la boîte de dialogue de CalculiX en double-cliquant sur l\'objet CalculiXccxTools et sélectionnez un répertoire pour les fichiers temporaires créés par FC et CCX. Écrivez le fichier d\'entrée CCX et vérifiez s\'il y a des messages d\'avertissement ou d\'erreur.
@@ -75,6 +83,8 @@ Maintenant que toutes les régions maillées, le matériau et les conditions aux
 Ensuite, l\'analyse peut être lancée en appuyant sur le bouton RunCalculiX. Si tout se passe bien, la fenêtre de sortie CCX devrait afficher les messages suivants.
 
 <img alt="" src=images/Pic10.png  style="width:700px;">
+
+
 
 ## Résultats CalculiX 
 
@@ -88,6 +98,8 @@ Pour étudier la déformation du noyau, nous devons découper le bloc. Ceci peut
 
 D\'après le résultat, il est clair que le noyau reste largement indéformé et aide à résister à la déformation de la matrice souple (comparez l\'angle de cisaillement de la partie colorée en bleu à celui de la partie colorée en vert). Ce qui est également mis en évidence, c\'est que dans des conditions de cisaillement simple, les faces du bloc composite se déforment, ce qui implique que la condition de limite de glissement à la base du cube fournit une contrainte excessive.
 
+
+
 ## Travaux complémentaires 
 
 Les défis suivants peuvent être intéressants à relever à titre d\'exercice supplémentaire :
@@ -100,10 +112,15 @@ Le fichier FC pour ce tutoriel est joint ci-dessous comme point de départ.
 
 <https://forum.freecadweb.org/viewtopic.php?f=18&t=26517&start=20>
 
-Amusez-vous bien!  {{FEM Tools navi}} {{Userdocnavi
+Amusez-vous bien!
+
+
+{{FEM Tools navi
+
+}} {{Userdocnavi
 ---
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM Shear of a Composite Block/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Shear of a Composite Block/fr

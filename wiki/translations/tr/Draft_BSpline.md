@@ -110,6 +110,8 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 -   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 -   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 
+
+
 ## Özellikler
 
 See also: [Property editor](Property_editor.md).

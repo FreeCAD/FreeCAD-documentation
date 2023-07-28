@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 This constraint constrains the value of the diameter of a circle or arc to have a specific value. If more than one circle or arc is selected before launching the command :
@@ -26,6 +28,8 @@ This constraint constrains the value of the diameter of a circle or arc to have 
         are applied sequentially between all real/construction geometry objects and a dimensional constrain is applied to the first selected object according above rules
 
 NB : B-spline poles can\'t be mixed with other object type in the selection
+
+
 
 
 <div class="mw-translate-fuzzy">

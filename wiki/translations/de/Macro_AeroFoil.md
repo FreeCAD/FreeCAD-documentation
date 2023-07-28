@@ -11,19 +11,17 @@
 |Links=[https://github.com/melwyncarlo/AeroFoil Persönliches Github - AeroFoil]<br>[https://github.com/FreeCAD/FreeCAD-macros/tree/master/ObjectCreation FC Github - AeroFoil]<br>[https://forum.freecadweb.org/viewtopic.php?f=22&t=56162 FC Forum - AeroFoil]
 }}
 
+
+
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-**\'Tragflächenprofil**\' ist ein vom anwendererstelltes Makro, das innerhalb der FreeCAD Anwendung verwendet werden kann. Tragflächenprofil erstellt Tragflächenkurven und -flächen unter Verwendung vordefinierter Modelle, algebraischer Funktionen sowie importierter DAT oder CSV Dateien.
-
-
-</div>
+**AeroFoil** (Tragflächenprofil) ist ein vom Anwender erstelltes Makro, das innerhalb der FreeCAD-Anwendung verwendet werden kann. AeroFoil erstellt Tragflächenkurven und -flächen unter Verwendung vordefinierter Modelle, algebraischer Funktionen sowie importierter DAT- oder CSV-Dateien.
 
 ![](images/AeroFoil-reduced.png )    Dies ist das **Tragflächenprofil Makro** Symbol.
 
 Das AeroFoil Makro kann über den integrierten [Erweiterungsverwalter](Std_AddonMgr/de.md) innerhalb der FreeCAD Software heruntergeladen werden.
+
+
 
 ####  Schlüsselfunktionen
 
@@ -38,6 +36,8 @@ Das AeroFoil Makro kann über den integrierten [Erweiterungsverwalter](Std_Addon
 -   Symmetric and asymmetric curve functions parser
 -   DAT text file and CSV spreadsheet data parser
 -   Chord length input in mm, cm, m, in., ft, and yards
+
+
 
 ####  Zusatzfunktionen {{VersionPlus/de|0.19}}
 
@@ -80,6 +80,7 @@ Caption : AeroFoil Macro Input Types
 
 \]\]
 
+
 ## Einrichtung
 
 ####  Linux
@@ -100,6 +101,8 @@ Tragflächenprofil kann mit Hilfe der folgenden zwei Schritte installiert werden
 By default, the FreeCAD User Macro directory should be located at :
 
 C:/Users/User_Name/AppData/Roaming/FreeCAD/Macro
+
+
 
 ## Anwendung
 
@@ -157,6 +160,8 @@ Caption : Preset Characters and Functions
 
 \]\]
 
+
+
 ## Skript
 
 
@@ -213,6 +218,8 @@ AeroFoil_UI_Files/AeroFoil_mfb_img.gif, AeroFoil_UI_Files/AeroFoil.svg"
 
 
 {{Codeextralink|https://raw.githubusercontent.com/melwyncarlo/AeroFoil/main/AeroFoil.FCMacro}}
+
+
 
 ## Verweise
 

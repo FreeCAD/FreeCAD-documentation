@@ -1,123 +1,142 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign Chamfer
-   MenuLocation:Part Design → Apply a dress-up feature → Chamfer
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[PartDesign Fillet](PartDesign_Fillet.md)
+   Name/pl:Projekt Części: Sfazowanie
+   MenuLocation:Projekt Części → Zastosuj funkcję ulepszenia → Sfazowanie
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
+   SeeAlso:[Zaokrąglenie](PartDesign_Fillet/pl.md)
 ---
 
 # PartDesign Chamfer/pl
 
-## Description
 
-The <img alt="" src=images/PartDesign_Chamfer.svg  style="width:24px;"> **PartDesign Chamfer** tool creates chamfers on the selected edges of an object. It adds a **Chamfer** object to the document with its corresponding representation in the [Tree view](Tree_view.md).
 
-## Usage
+## Opis
 
-### Add a chamfer 
+Narzędzie <img alt="" src=images/PartDesign_Chamfer.svg  style="width:24px;"> **Sfazowanie** tworzy fazki na wybranych krawędziach obiektu. Dodaje ono obiekt **Sfazowanie** do dokumentu z odpowiadającą mu reprezentacją w oknie [Widoku drzewa](Tree_view/pl.md).
 
-1.  Optionally [activate](PartDesign_Body#Active_status.md) the Body to chamfer.
-2.  There are several ways to select edges to chamfer:
-    -   Select one or more edges of the Body individually.
-    -   Select one or more faces of the Body to select all their edges.
-    -   Select a feature (usually the last feature) of the Body to select all its edges. <small>(v0.20)</small> 
-3.  For a chain of tangentially connected edges only a single edge needs to be selected, the chamfer will propagate along the chain.
-4.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/PartDesign_Chamfer.svg" width=16px> [Chamfer](PartDesign_Chamfer.md)** button.
-    -   Select the **Part Design → Apply a dress-up feature → <img src="images/PartDesign_Chamfer.svg" width=16px> Chamfer** option from the menu.
-5.  If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
-6.  The **Chamfer parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
-7.  Press the **OK** button to finish.
 
-### Edit a chamfer 
 
-1.  Do one of the following:
-    -   Double-click the Chamfer object in the [Tree view](Tree_view.md)
-    -   Right-click the Chamfer object in the [Tree view](Tree_view.md) and select **Edit Chamfer** from the context menu.
-2.  The **Chamfer parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
-3.  Press the **OK** button to finish.
+## Użycie
 
-## Options
 
--   To add edges do one of the following:
-    -   Press the **Add** button to start selecting edges and/or faces in the [3D view](3D_view.md).
-    -   To select all remaining edges do the following:
-        1.  If required press the **Add** button.
-        2.  Use the **Ctrl**+**Shift**+**A** keyboard shortcut, or right-click the list and select **Add all edges** from the context menu. <small>(v0.20)</small> 
--   To remove edges do one of the following:
-    -   Press the **Remove** button to start deselecting edges and/or faces in the [3D view](3D_view.md). Selected elements are highlighted in purple.
-    -   Select one or more elements in the list and press the **Del** key, or right-click the list and select **Remove** from the context menu.
--   Specify a chamfer **Type**:
+
+### Dodanie fazki 
+
+1.  Opcjonalnie [zaznacz](PartDesign_Body/pl#Aktywny_status.md) bryłę do fazowania.
+2.  Istnieje kilka sposobów wyboru krawędzi do fazowania:
+    -   Wybierz jedną lub więcej krawędzi bryły indywidualnie.
+    -   Wybierz jedną lub więcej ścian bryły, aby wybrać wszystkie ich krawędzie.
+    -   Wybierz element *(zwykle ostatni)* bryły, aby wybrać wszystkie jej krawędzie. {{Version/pl|0.20}}
+3.  W przypadku łańcucha stycznie połączonych krawędzi należy wybrać tylko jedną krawędź, a fazowanie będzie propagowane wzdłuż łańcucha.
+4.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/PartDesign_Chamfer.svg" width=16px> Sfazowanie**.
+    -   Wybierz z menu opcję **Projekt Części → Zastosuj funkcję ulepszenia → <img src="images/PartDesign_Chamfer.svg" width=16px> Sfazowanie**.
+5.  Jeśli nie ma aktywnej Zawartości, a w dokumencie znajdują się dwie lub więcej, otworzy się okno dialogowe **Wymagana jest aktywna zawartość** z monitem o aktywację jednej z nich. Jeśli w dokumencie znajduje się tylko jedna Zawartość, zostanie ona aktywowana automatycznie.
+6.  Otworzy się [Panel zadań](Task_panel/pl.md) **Parametry sfazowania**. Więcej informacji można znaleźć w akapicie [Opcje](#Opcje.md).
+7.  Naciśnij przycisk **OK**, aby zakończyć.
+
+
+
+### Edycja sfazowania 
+
+1.  Wykonaj jedną z poniższych czynności:
+    -   Kliknij dwukrotnie obiekt Sfazowania w oknie [Widoku drzewa](Tree_view/pl.md).
+    -   Kliknij obiekt Sfazowania prawym przyciskiem myszy w oknie [Widok drzewa](Tree_view/pl.md) i wybierz **Edycja funkcji sfazowania** z menu kontekstowego.
+2.  Otworzy się panel [Panel zadań](Task_panel/pl.md) **Parametry sfazowania**. Więcej informacji można znaleźć w punkcie [Opcje](#Opcje.md).
+3.  Naciśnij przycisk **OK**, aby zakończyć.
+
+
+
+## Opcje
+
+-   Aby dodać krawędzie, wykonaj jedną z poniższych czynności:
+    -   Naciśnij przycisk **Dodaj**, aby rozpocząć zaznaczanie krawędzi i / lub ścian w oknie [Widoku 3D](3D_view/pl.md).
+    -   Aby zaznaczyć wszystkie pozostałe krawędzie, wykonaj następujące czynności:
+        1.  W razie potrzeby naciśnij przycisk **Dodaj**.
+        2.  Użyj skrótu klawiaturowego **Ctrl** + **Shift** + **A** lub kliknij listę prawym przyciskiem myszy i wybierz **Dodaj wszystkie krawędzie** z menu podręcznego. {{Version/pl|0.20}}
+-   Aby usunąć krawędzie, wykonaj jedną z następujących czynności:
+    -   Naciśnij przycisk **Usuń**, aby rozpocząć odznaczanie krawędzi i / lub ścian w oknie [Widoku 3D](3D_view/pl.md). Wybrane elementy są podświetlone na fioletowo.
+    -   Zaznacz jeden lub więcej elementów na liście i naciśnij klawisz **Del** lub kliknij listę prawym przyciskiem myszki i wybierz **Usuń** z menu podręcznego.
+-   Określ **Typ** fazowania:
     -   
-        **Equal distance**
+        **Wymiary równe**
         
-        : One distance is used to place both chamfer edges.
+        : Jedna odległość jest używana do umieszczenia obu krawędzi fazowania.
 
     -   
-        **Two distances**
+        **Dwa wymiary**
         
-        : Two distances are used to place the chamfer edges. <small>(v0.19)</small> 
+        : Do umieszczenia krawędzi fazowania używane są dwie odległości.
 
     -   
-        **Distance and angle**
+        **Wymiar i kąt**
         
-        : A distance is used to place one chamfer edge, the placement of the other chamfer edge is defined by the angle of the chamfer. <small>(v0.19)</small> 
--   Press the **<img src="images/PartDesign_Flip_Direction.svg" width=16px> Flip direction** button to flip the direction of the chamfer (deactivated for **Equal distance**). <small>(v0.19)</small> 
--   Set the **Size** of the chamfer.
--   Set the **Size2** of the chamfer (only available if **Two distances** is selected).
--   Set the **Angle** of the chamfer (only available if **Distance and angle** is selected).
--   Check the **Use all edges** checkbox to select all edges of the previous feature. This deactivates the selection list and the related buttons. <small>(v0.20)</small> 
-
-## Notes
-
--   PartDesign Chamfer should not be confused with [Part Chamfer](Part_Chamfer.md). Unless you know what you are doing, [Part Chamfer](Part_Chamfer.md) should not be used on a PartDesign Body. See [Part and PartDesign](Part_and_PartDesign.md).
--   Chamfers cannot completely consume the adjacent faces.
-
-## Properties
-
-See also: [Property editor](Property_editor.md).
-
-A PartDesign Chamfer object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
-
-### Data
+        : Do umieszczenia jednej krawędzi fazowania używana jest odległość, a umieszczenie drugiej krawędzi fazowania jest definiowane przez kąt sfazowania.
+-   Naciśnij przycisk **<img src="images/PartDesign_Flip_Direction.svg" width=16px> Odwróć kierunek**, aby odwrócić kierunek fazowania *(nieaktywne dla **Wymiary równe**)*.
+-   Ustaw **Rozmiar** fazowania.
+-   Ustaw **Rozmiar 2** fazowania *(dostępne tylko po wybraniu opcji **Dwa wymiary**)*.
+-   Ustaw **Kąt** fazowania *(dostępne tylko po wybraniu opcji **Wymiar i kąt**)*.
+-   Wyznacz **Promień** zaokrąglenia.
+-   Zaznacz pole wyboru **Użyj wszystkich krawędzi**, aby wybrać wszystkie krawędzie poprzedniego elementu. Spowoduje to dezaktywację listy wyboru i powiązanych przycisków. {{Version/pl|0.20}}
 
 
-{{Properties_Title|Base}}
 
--    **Base|LinkSub**: Link to the selected edges and faces of the parent feature. Can be a link to only the parent feature if **Use All Edges** is `True`.
+## Uwagi
 
--    **Support Transform|Bool**: If `True` the chamfered shape of the additive/subtractive parent feature will be used when the chamfer object is included in a [pattern](PartDesign_Workbench#Transformation_tools.md), else only the shape of the chamfer itself will be used. The default is `False`.
-
--    **Add Sub Shape|PartShape|hidden**
-    
-
--    **Base Feature|Link|hidden**: Link to the parent feature.
-
--    **_ Body|LinkHidden|hidden**: Link to the parent body.
+-   Sfazowanie środowiska pracy Projekt Części nie należy mylić z [Sfazowanie](Part_Fillet/pl.md) środowiska Część. Jeśli nie wiesz, co robisz [Część: Sfazowanie](Part_Chamfer/pl.md) nie powinno być używane na Zawartości środowiska Projekt Części. Zobacz stronę [Część i Projekt Części](Part_and_PartDesign/pl.md).
+-   Sfazowania nie mogą całkowicie wchłonąć sąsiednich ścian.
 
 
-{{Properties_Title|Chamfer}}
 
--    **Chamfer Type|Enumeration**: The chamfer type: {{value|Equal distance}} (default), {{value|Two distances}} or {{value|Distance and Angle}}.
+## Właściwości
 
--    **Size|QuantityConstraint**: The first chamfer distance. The default is {{value|1 mm}}.
+Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
 
--    **Size2|QuantityConstraint**: The second chamfer distance. Only used if **Chamfer Type** is {{Value|Two distances}}. The default is {{value|1 mm}}.
-
--    **Angle|Angle**: The chamfer angle. Only used if **Chamfer Type** is {{Value|Distance and Angle}}. The default is {{value|45 °}}.
-
--    **Flip Direction|Bool**: If `True` the direction of the chamfer is flipped. Not used if **Chamfer Type** is {{Value|Equal distance}}. The default is `False`.
-
--    **Use All Edges|Bool**: If `True` all edges of the feature are chamfered, and the edges specified by **Base** are ignored. The default is `False`.
+Obiekt Sfazowanie środowiska Projekt Części wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
-{{Properties_Title|Part Design}}
 
--    **Refine|Bool**: If `True` redundant edges are removed from the result of the operation. The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+### Dane
 
-## Known issues 
 
-See [PartDesign Fillet](PartDesign_Fillet#Known_issues.md).
+{{Properties_Title|Podstawowe}}
+
+-    **Baza|LinkSub**: Powiązanie z wybranymi krawędziami i ścianami elementu nadrzędnego. Może być linkiem tylko do elementu nadrzędnego, jeśli parametr **Użyj wszystkich krawędzi** ma wartość {{TRUE/pl}}.
+
+-    **Wsparcie przekształcenia|Bool**: Jeśli wartość jest ustawiona na {{TRUE/pl}} zostanie użyty sfazowany kształt addytywnego / subtraktywnego elementu nadrzędnego, gdy sfazowany obiekt zostanie włączony do [szyku](PartDesign_Workbench/pl#Narzędzia_do_przekształcania.md), w przeciwnym razie zostanie użyty tylko kształt samej fazy. Domyślną wartością jest {{FALSE/pl}}.
+
+-    **Dodaj kształt podrzędny|PartShape|ukryty**.
+
+-    **Cecha podstawowa|Link|ukryty**: Odnośnik do elementu nadrzędnego.
+
+-    **_ Body|LinkHidden|ukryty**: Link do elementu nadrzędnego.
+
+
+{{Properties_Title|Sfazowanie}}
+
+-    **Typ sfazowania|Enumeration**: Typ fazowania: {{value|Wymiary równe}} *(domyślnie)*, {{value|Dwa wymiary}} lub {{value|Wymiar i kąt}}.
+
+-    **Rozmiar|QuantityConstraint**: Pierwsza odległość fazowania. Domyślnie {{value|1 mm}}.
+
+-    **Rozmiar2|QuantityConstraint**: Druga odległość fazowania. Używane tylko jeśli **Typ sfazowania** to {{Value|Dwa wymiary}}. Wartość domyślna to {{value|1 mm}}.
+
+-    **Kąt|Angle**: Kąt fazowania. Używany tylko jeśli **Typ sfazowania** to {{Value|Wymiar i kąt}}. Wartość domyślna to {{value|45 °}}.
+
+-    **Odwróć kierunek|Bool**: Jeśli ustawiono wartość {{TRUE/pl}}, kierunek fazowania zostanie odwrócony. Nie używane, jeśli **Typ sfazowania** to {{Value|Wymiary równe}}. Domyślnia wartość to {{FALSE/pl}}.
+
+-    **Użyj wszystkich krawędzi|Bool**: Jeśli wartość to {{TRUE/pl}} wszystkie krawędzie elementu są fazowane, a krawędzie określone przez **Bazę** są ignorowane. Domyślną wartością jest {{FALSE/pl}}.
+
+
+{{Properties_Title|Projekt Części}}
+
+-    **Ulepsz|Bool**: Jeśli ma wartość {{TRUE/pl}}, nadmiarowe krawędzie są usuwane z wyniku operacji. Wartość domyślna jest określona przez preferencję **Automatycznie udoskonal model po wykonaniu operacji opartej na szkicu**. Zobacz stronę [Projekt Części: Ustawienia](PartDesign_Preferences/pl#Ogólne.md).
+
+
+
+## Znane problemy 
+
+Zobacz stronę [Zaokrąglenie](PartDesign_Fillet/pl#Znane_problemy.md).
 
 
 

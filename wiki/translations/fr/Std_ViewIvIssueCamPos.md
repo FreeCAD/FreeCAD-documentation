@@ -9,6 +9,8 @@
 
 # Std ViewIvIssueCamPos/fr
 
+
+
 ## Description
 
 La commande **Std Position de la caméra** affiche les paramètres de la caméra de la [vue 3D](3D_view/fr.md) active dans la [Vue rapport](Report_view/fr.md) et la [console Python](Python_console/fr.md).
@@ -19,20 +21,26 @@ La commande **Std Position de la caméra** affiche les paramètres de la caméra
 
 
 
-*Exemple de sortie: paramètres de la caméra après être passé à [vue isométrique](Std_ViewIsometric/fr.md) dans un nouveau document*
+*Exemple de sortie : paramètres de la caméra après être passé à [vue isométrique](Std_ViewIsometric/fr.md) dans un nouveau document*
+
+
 
 ## Utilisation
 
 1.  Sélectionnez l\'option **Affichage → Stéréo → <img src="images/Std_ViewIvIssueCamPos.svg" width=16px> Récupérer la position de la caméra** dans le menu.
 
+
+
 ## Remarques
 
 -   Les paramètres de la caméra peuvent être utilisés pour ajouter des vues figées à un fichier \*.cam. Voir [Std Figer l\'affichage](Std_FreezeViews/fr.md).
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

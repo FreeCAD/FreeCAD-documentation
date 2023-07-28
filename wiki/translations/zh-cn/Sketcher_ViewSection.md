@@ -1,16 +1,15 @@
 ---
 - GuiCommand:/zh-cn
-   Name/zh-cn:查看截面
-   Name:Sketcher_ViewSection
+   Name:查看截面
    MenuLocation:Sketch → 查看截面
-   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md), [PartDesign](PartDesign_Workbench/zh-cn.md) 
+   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md), [PartDesign](PartDesign_Workbench/zh-cn.md)
+   Shortcut:**Q** **S**
    Version:0.18
 ---
 
 # Sketcher ViewSection/zh-cn
 
 
-</div>
 
 ## 描述
 
@@ -20,12 +19,8 @@
 *部分隐藏草图与完全可视草图*
 
 
-<div class="mw-translate-fuzzy">
 
-## 如何使用
-
-
-</div>
+## 用法
 
 
 <div class="mw-translate-fuzzy">

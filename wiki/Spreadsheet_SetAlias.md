@@ -23,6 +23,7 @@ The **[<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Spreadsheet
     -   Using 1 or 2 capital letters followed by 1 to 5 numbers, for example `AB123`, is not allowed as this is considered a cell address.
     -   Character sequences that are units are not allowed. For example `W` is an invalid alias as it is the unit for [Watt](https://en.wikipedia.org/wiki/Watt). Since FreeCAD supports many units it is best to avoid short aliases. See [Expressions](Expressions#Units.md).
     -   Using the mathematical constants `pi` and `e` as aliases will lead to errors and should be avoided.
+    -   Do not use spaces in aliases as they will also lead to errors.
 
 
 

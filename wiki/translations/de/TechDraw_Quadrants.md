@@ -10,26 +10,50 @@
 
 # TechDraw Quadrants/de
 
+
+</div>
+
+
+
 ## Beschreibung
 
-Das Quadranten Werkzeug fügt [kosmetische Knoten](TechDraw_CosmeticVertex/de.md) an den 90/180/270° Punkten einer Kreiskante hinzu. Der 0° Knoten sollte bereits als geometrischer Knoten vorhanden sein.
+
+<div class="mw-translate-fuzzy">
+
+Das Werkzeug **TechDraw Quadranten** fügt einer oder mehreren ausgewählten Kanten der Länge nach drei [Hilfspunkte](TechDraw_CosmeticVertex/de.md) hinzu. Die Punkte werden bei 25%, 50% und 75% der Länge positioniert. für eine Kreiskante ergeben sich so Hilfspunkte bei 90°, 180° and 270°, zusätzlich zu ihrem geometrischen Knotenpunkt bei 0°.
+
+
+</div>
 
 <img alt="" src=images/TechDraw_CosmeticQuadrant_Sample.png  style="width:250px;"> 
 *Kosmetische Knoten an Quadrantenpunkten eines Kreises*
 
+
+
 ## Anwendung
 
-1.  Wähle eine oder mehrere (kreisförmige) Kanten in einer Ansicht aus.
-2.  Drücke die **<img src="images/TechDraw_Quadrants.svg" width=16px> Quadrantenknoten hinzufügen** Taste.
-3.  Kosmetischen Knoten werden an den Viertelpunkten der Kanten hinzugefügt.
 
-**Anmerkung:**Dieses Werkzeug kann an jeder Kante verwendet werden, nicht nur an Kreisen.
+<div class="mw-translate-fuzzy">
 
-Um einen Quadrantenknoten zu löschen, wähle ihn aus und verwende die Werkzeugleistenschaltfläche **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Kosmetikobjekt entfernen](TechDraw_CosmeticEraser/de.md)**.
+1.  Eine oder mehrere Kanten in einer Ansicht auswählen. Jede Kante kann ausgewählt werden, nicht nur Kreise.
+2.  Die Schaltfläche **<img src="images/TechDraw_Quadrants.svg" width=16px> Quadrantengrenzpunkte hinzufügen** drücken.
+3.  Hilfspunkte werden an den Viertelpunkten der Kanten hinzugefügt.
+
+
+</div>
+
+## Notes
+
+-   The created cosmetic vertices are not parametrically linked to the selected edges.
+-   To delete a cosmetic vertex use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
+
+
 
 ## Eigenschaften
 
 Quadrantenknoten haben keine eigenen Eigenschaften, da sie keine Dokumentobjekte sind. Sie teilen Farb- und Größeneinstellungen mit regulären Geometrieknoten.
+
+
 
 ## Skripten
 
@@ -39,9 +63,9 @@ Kosmetische Knoten sind zur Zeit nicht über [Makros](Macros/de.md) oder die [Py
 
 
 ```python
->>> v = App.ActiveDocument.View
->>> v.clearCV()
->>> App.activeDocument().recompute()
+v = App.ActiveDocument.View
+v.clearCV()
+App.ActiveDocument.recompute()
 ```
 
 

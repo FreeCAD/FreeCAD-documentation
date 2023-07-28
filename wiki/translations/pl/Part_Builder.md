@@ -4,7 +4,7 @@
    Name/pl:Część: Konstruktor
    MenuLocation:Część → Konstruktor kształtu ...
    Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Utwórz bryłę pierwotną](Part_CreatePrimitives/pl.md)
+   SeeAlso:[Utwórz geometrie pierwotne](Part_CreatePrimitives/pl.md)
 ---
 
 # Part Builder/pl

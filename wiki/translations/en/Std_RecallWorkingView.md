@@ -4,7 +4,7 @@
    MenuLocation:View → Standard views → Recall working view
    Workbenches:All
    Shortcut:**End**
-   Version:1.0
+   Version:0.21
    SeeAlso:[Std StoreWorkingView](Std_StoreWorkingView.md), [Std FreezeViews](Std_FreezeViews.md)
 ---
 

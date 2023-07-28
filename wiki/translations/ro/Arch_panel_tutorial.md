@@ -16,6 +16,8 @@
 
 Acesta este un cross-post(duplicat) al tutorialului [1](http://opensourceecology.org/wiki/FreeCAD_Architecture_Tutorial) inițial scris pentru [Open-Source Ecology](http://opensourceecology.org).
 
+
+
 ## Prezentarea FreeCAD 
 
 <img alt="" src=images/Arch_panel_tutorial_01.jpg  style="width:800px;">
@@ -29,6 +31,8 @@ FreeCAD este un modelator 3D parametric. Modelarea parametrică vă permite să 
 -   Getting started with FreeCAD: <http://www.freecadweb.org/wiki/index.php?title=Getting_started>
 -   Architecture tutorial: <http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial>
 
+
+
 ## Instalarea FreeCAD 
 
 Aveți posibilitatea de a instala cea mai recentă versiune stabilă (de astăzi, mai 2015: versiunea 0.15) sau o versiune de dezvoltare (în prezent 0.16). De fapt, versiunile de dezvoltare ale FreeCAD sunt, de obicei, destul de stabile și sunteți puternic încurajați să încercați o versiune de dezvoltare, cu excepția cazului în care aveți un anumit motiv să nu faceți acest lucru. Deoarece dezvoltarea FreeCAD este destul de rapidă, asigurați-vă că, dacă îl descărcați manual, verificați din când în când și reinstalați / actualizați pentru a beneficia de ultimele îmbunătățiri.
@@ -38,17 +42,23 @@ Aveți posibilitatea de a instala cea mai recentă versiune stabilă (de astăzi
 -   Pe Ubuntu: Versiunea FreeCAD furnizată de Ubuntu este de obicei depășită, deci vă recomandăm să utilizați în schimb PPA menținut de comunitatea FreeCAD. Pentru a instala, deschideți aplicația \"Sursa de software\" a Ubuntu și adăugați ppa: freecad-maintainers / freecad-stable pentru versiunea stabilă sau ppa: freecad-maintainers / freecad-daily pentru versiunea de dezvoltare pentru sursele software.
 -   Pe alte platforme: În majoritatea distribuțiilor mainstream Linux (Debian, Fedora, etc), FreeCAD este inclus în depozitele oficiale de software. S-ar putea să nu fie totuși cea mai actualizată versiune. Dacă versiunea de care aveți nevoie nu este disponibilă, singura opțiune este să compilați gratuit FreeCAD (instrucțiuni de pe site-ul FreeCAD)
 
+
+
 ## Conținut opțional Adițional 
 
 -   Activarea importului / exportului IFC: Pentru a importa și a exporta proiecte în / din formatul fișierului IFC, FreeCAD se bazează pe importatorul IfcOpenShell, pe care trebuie să îl instalați separat de la <http://ifcopenshell.org/python.html>. Asigurați-vă că alegeți o versiune bazată pe python2.7, aceeași versiune Python folosită de FreeCAD.
 -   Baza de lucru pentru dimensionarea desenelor: Un Atelier de lucru suplimentar pentru FreeCAD, care oferă multe instrumente convenabile pentru a adăuga dimensiuni și adnotări la foile de desen 2D ale FreeCAD: <https://github.com/hamish2014/FreeCAD_drawing_dimensioning> (Instalați instrucțiunile de pe pagina web)
 -   Workbench Assembly2: Un Atelier de lucru suplimentar pentru FreeCAD, care oferă o serie de instrumente de asamblare de bază: <https://github.com/hamish2014/FreeCAD_assembly2> (Instalați instrucțiuni de pe pagina web)
 
+
+
 ## Sfaturi pentru startup rapid 
 
 Colecția de tutoriale disponibile pe wiki-ul FreeCAD este încă foarte redusă. Cu toate acestea, mulți membri ai comunității FreeCAD folosesc youtube pentru a publica tutoriale video. Asigurați-vă că ați căutat conținut FreeCAD pe YouTube, care este cu siguranță cea mai bună sursă de materiale de învățare.
 
 FreeCAD este o aplicație foarte tehnică, iar curba de învățare poate fi abruptă. Asigurați-vă că vă bazați pe tutoriale, documentația wiki și nu ezitați să adresați întrebări pe forum dacă întâlniți o problemă specifică. Întrebările care sunt clar enunțate primesc de obicei răspunsuri rapide și extinse.
+
+
 
 ### O listă foarte aproximativă de lucruri pe care trebuie să le știi 
 
@@ -63,6 +73,8 @@ FreeCAD este o aplicație foarte tehnică, iar curba de învățare poate fi abr
 -   Deși FreeCAD poate importa și lucra cu obiecte tip plasă (mesh workbench), este proiectat în primul rând pentru a lucra cu un tip de obiect mai avansat, denumit "brep", utilizat de majoritatea atelierelor de lucru (Part, PartDesign, Draft, Sketcher, Arch). Când importați fișiere bazate pe fișiere (.dae, .orb, .stl \...), va trebui de obicei să transformați aceste obiecte în brep, înainte de a putea face ceva interesant cu ele. Formatele de fișier pe bază de solide (.step, .iges), atunci când sunt importate în FreeCAD, produc direct obiecte brep. Formatele 2D (.dxf, .svg) produc, de asemenea, conținut brep.
 
 -   FreeCAD are căi diferite, sau modalități, pentru a folosi butoanele mouse-ului. Aceste moduri pot fi setate în preferințe sau în modificările efectuate, făcând clic dreapta pe fundalul vizualizării 3D. Acestea sunt descrise pe <http://www.freecadweb.org/wiki/index.php?title=Mouse_Model>. Cele mai potrivite moduri pentru lucrul în FreeCAD sunt CAD sau gesturi.
+
+
 
 ## Exercițiu: modelarea unui panou de acoperiș 
 
@@ -170,6 +182,8 @@ We can now create another component based on the same Wire, in order to place an
 
 ![](images/Arch_panel_tutorial_16.jpg )
 
+
+
 ### 13. Comutarea ferestrei în alt tip de componentă Arch 
 
 Acest lucru nu este cu adevărat necesar în acest moment, dar ar putea deveni important mai târziu când exportăm sau lucrăm la alte aplicații orientate spre construcții, de exemplu prin IFC, nu dorim ca panoul nostru să fie identificat ca o fereastră.
@@ -180,6 +194,8 @@ The Arch workbench of FreeCAD provides an easy way to handle that, which is that
 
 Notice that the color of the resulting panel has changed, that is because materials support in FreeCAD and the Arch module is still incomplete. When it is finished, this will be properly handled.
 
+
+
 ### 14. Duplicarea panourilor 
 
 Panoul nostru poate fi apoi duplicat și copiat în mai multe moduri, de exemplu prin copiere / lipire. Dar o modalitate mai interesantă este să folosiți instrumentul Draft Clone (prezentat și în Atelierul Arch, la fel ca toate celelalte instrumente Draft). Instrumentul de clonare menține relația dintre obiectul de bază și clona, astfel încât orice modificare a obiectului de bază se va reflecta în toate clonele acestuia.
@@ -187,6 +203,8 @@ Panoul nostru poate fi apoi duplicat și copiat în mai multe moduri, de exemplu
 ![](images/Arch_panel_tutorial_18.jpg )
 
 În versiunea actuală de dezvoltare a FreeCAD, clonele obiectelor Arch sunt acum tot obiecte Arch.
+
+
 
 ### 15. Rotirea și poziționarea panourilor. 
 
@@ -199,9 +217,9 @@ Atât instrumentele Draft Rotire cât și Move utilizează sistemul de ancorare 
 ![](images/Arch_panel_tutorial_20.jpg )
 
 
-   {{Sketcher Tools navi}}
+  {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/ro

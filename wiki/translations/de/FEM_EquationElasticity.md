@@ -2,29 +2,33 @@
 - GuiCommand:/de
    Name:FEM EquationElasticity
    Name/de:FEM Elastizitätsgleichung
-   MenuLocation:Lösen → Elastizitätsgleichung
+   MenuLocation:Lösen → Mechanical equations → Elasticity equation
    Workbenches:[FEM](FEM_Workbench/de.md)
-   SeeAlso:[FEM Tutorial](FEM_tutorial/de.md)
+   Version:0.17
+   SeeAlso:[Verformungsgleichung equation](FEM_EquationDeformation/de.md), [FEM Anleitung](FEM_tutorial/de.md)
 ---
 
 # FEM EquationElasticity/de
 
 
-</div>
-
-
 
 ## Beschreibung
 
-This equation describes the mechanical properties of rigid bodies.
+Diese Gleichung beschreibt die mechanischen Eigenschaften starrer Körper.
 
 For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Linear Elasticity*.
 
-## Usage
+
+
+## Anwendung
 
 1.  After adding an Elmer solver as described [here](FEM_SolverElmer#Equations.md), select it in the [tree view](Tree_view.md).
-2.  Now either use the toolbar button <img alt="" src=images/FEM_EquationElasticity.svg  style="width:24px;"> or the menu **Solve → Elasticity equation**.
+2.  Now either use the toolbar button <img alt="" src=images/FEM_EquationElasticity.svg  style="width:24px;"> or the menu **Solve → Mechanical equations → Elasticity equation**.
 3.  Change the [equation\'s solver settings](#Solver_Settings.md) or the [general solver settings](FEM_SolverElmer_SolverSettings.md) if necessary.
+
+**Note**: For analyses of nonlinear deformation you must use the <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [Deformation equation](FEM_EquationDeformation.md) (<small>(v0.21)</small> ). The Elasticity equation is only for linear deformations.
+
+**Note**: If you use more than one CPU core for the solver (<small>(v0.21)</small> ), you cannot use the default solver settings. However, using just one CPU and the default solver settings is in many cases faster than using several CPUs because the elasticity solver is only fast when **Linear Solver Type** is set to *Direct* (the default, described [here](FEM_SolverElmer_SolverSettings#Linear_System.md)). For multi-CPU solving one can only use the **Linear Direct Method** *MUMPS*. However, MUMPS is not freely available as a direct download.
 
 ## Solver Settings 
 
@@ -89,13 +93,16 @@ The elasticity equation takes the following constraints into account if they are
 -   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Constraint fixed](FEM_ConstraintFixed.md)
 -   <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Constraint displacement](FEM_ConstraintDisplacement.md)
 -   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Constraint force](FEM_ConstraintForce.md)
+-   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Constraint initial temperature](FEM_ConstraintInitialTemperature.md)
 -   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Constraint pressure](FEM_ConstraintPressure.md)
 -   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Constraint self weight](FEM_ConstraintSelfWeight.md)
--   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Constraint initial temperature](FEM_ConstraintInitialTemperature.md)
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md)
 
-### Note
 
-Except for calculations in 2D, for all above constraints it is important that they act on a face. Constraints for 3D set to lines or vertices are not recognized by the Elmer solver.
+
+### Hinweis
+
+-   Except for calculations in 2D, for all above constraints it is important that they act on a face. Constraints for 3D set to lines or vertices are not recognized by the Elmer solver.
 
 ## Eigenmode Analysis 
 
@@ -107,7 +114,7 @@ To perform an eigenmode analysis (calculation if the eigenmodes and eigenfrequen
 4.  Add a [constraint fixed](FEM_ConstraintFixed.md) and set at least one face of the body as fixed.
 5.  Run the solver.
 
-**Note**: If you use more than one CPU core for the solver (Also note that iterative solving is not recommended for eigenmode analysis. Therefore either only use one CPU core or install the *MUMPS* module to Elmer.
+It is highly recommended to use **Linear Solver Type** set to *Direct* (the default) because this is much faster and the results are more accurate.
 
 ## Buckling Analysis 
 
@@ -115,7 +122,9 @@ To perform a buckling analysis, you need to do the same as for an [Eigenmode Ana
 
 -   Set **Stability Analysis** to *true*
 
-## Results
+
+
+## Ergebnisse
 
 The available results depend on the [solver settings](#Solver_Settings.md). If none of the **Calculate *** settings was set to *true*, only the displacement is calculated. Otherwise also the corresponding results will be available. If **Eigen Analysis** was set to *true* all results will be available for every calculated eigenmode.
 

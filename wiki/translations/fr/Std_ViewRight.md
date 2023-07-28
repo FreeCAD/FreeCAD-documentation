@@ -17,18 +17,22 @@ La **Std Vue de droite** place la caméra dans la [vue 3D](3D_view/fr.md) dans l
 ![](images/FreeCAD_views_front.svg ) 
 *La flèche 3 pointe dans le sens de la vue de droite*
 
+
+
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande:
+1.  Il existe plusieurs façons d\'appeler la commande :
     -   Appuyez sur le bouton **<img src="images/Std_ViewRight.svg" width=16px> [Droite](Std_ViewRight/fr.md)**.
     -   Sélectionnez l\'option **Affichage → Vues standards → <img src="images/Std_ViewRight.svg" width=16px> Droite** dans le menu.
     -   Sélectionnez l\'option **Vues standard → <img src="images/Std_ViewRight.svg" width=16px> Droite** dans le menu contextuel de la [Vue 3D](3D_view/fr.md).
-    -   Utilisez le raccourci clavier: **3**.
+    -   Utilisez le raccourci clavier : **3**.
+
+
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

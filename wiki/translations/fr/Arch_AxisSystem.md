@@ -18,6 +18,8 @@ Ceci est utile pour définir les points d\'intersection entre les différents ax
 <img alt="" src=images/Arch_AxisSystem_example.jpg  style="width:600px;"> 
 *Trois objets [Arch Axes](Arch_Axis/fr.md) combinés en un [Système d'axes](Arch_AxisSystem/fr.md). Un objet [Arch Structure](Arch_Structure/fr.md) utilise ce système comme propriété **Axis* pour que sa forme soit dupliquée à chaque point d'intersection.**
 
+
+
 ## Utilisation
 
 1.  En option, sélectionnez les objets [Arch Axes](Arch_Axis/fr.md) que vous souhaitez inclure dans ce système.
@@ -31,10 +33,12 @@ Ceci est utile pour définir les points d\'intersection entre les différents ax
 -   Un même objet [Arch Axes](Arch_Axis/fr.md) peut faire partie de plus d\'un système
 -   Tout objet basé sur une forme peut également être utilisé comme propriété **Axis** des objets Arch. Dans ce cas, la forme de l\'objet sera dupliquée le long des sommets de l\'objet Axe
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 

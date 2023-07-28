@@ -20,6 +20,8 @@ This macro creates a red outline of the BoundingBox (6 Faces with 6 rectangles) 
 *BoundingBox Tracing macro in action*
     
 
+
+
 ## Применение
 
 1.  Select an object
@@ -37,6 +39,8 @@ This macro creates a red outline of the BoundingBox (6 Faces with 6 rectangles) 
 *Info container*
     
 
+
+
 ## Примечания
 
 Конфигурирование: смотри строки с 61 по 84.
@@ -48,6 +52,8 @@ Download the file image and copy in to your macro directory.
 Click the image, in the new window position the mouse over the image, click the right mouse and do \"Save target as \...\"
 
 ToolBar Icon ![](images/BoundBoxTracing.png )
+
+
 
 ## Скрипт
 
@@ -422,9 +428,11 @@ else:
     App.Console.PrintMessage("Select an object !"+"\n")
 }}
 
+
+
 ## Версия
 
-Version: 0.12 Date 2021/07/10: upgrade by edwilliams16 to handle objects in nested part containers [FCInfo CG of assemblies](https://forum.freecadweb.org/viewtopic.php?f=22&t=59852) corrected the global placement, thanks edwilliams16
+Version: 0.12 Date 2021/07/10: upgrade by edwilliams16 to handle objects in nested part containers. [FCInfo CG of assemblies](https://forum.freecadweb.org/viewtopic.php?f=22&t=59852) corrected the global placement, thanks edwilliams16
 
 
 ```python
@@ -442,11 +450,11 @@ def adjustedGlobalPlacement(obj, locVector):
 
 ```
 
-Version: 0.11 le Date: 2019/05/29: \"nameLabel = str(unicodedata.normalize(\'NFKD\', nameLabel).encode(\'ascii\',\'ignore\'))\" instead \"def()\"
+Version: 0.11 Date: 2019/05/29: \"nameLabel = str(unicodedata.normalize(\'NFKD\', nameLabel).encode(\'ascii\',\'ignore\'))\" instead \"def()\"
 
-ver 0.10 le 2019/05/23 upgrade \> 0.19 and supp the \"éçà..\" with def() not encode()\....
+Version: 0.10 Date: 2019/05/23 upgrade \> 0.19 and supp the \"éçà..\" with def() not encode()\....
 
-ver 0.9 le 2018-10-12: add test \> 17 
+Version: 0.9 le 2018-10-12: add test \> 17 
 ```python
 if int(FreeCAD.Version()[1]) > 17:      # Version de FreeCAD
     DisplayModeText   = str(u"2D text") # available : u"2D text" or u"3D text" 
@@ -454,15 +462,15 @@ else:
     DisplayModeText   = str(u"Screen")  # available : u"Screen" or u"World" 
 ```
 
-ver 0.8 le 05/10/2018: upgrade the ver 0.8 compatible with FC 0.17 (getGlobalPlacement)
+Version: 0.8 Date: 05/10/2018: upgrade the ver 0.8 compatible with FC 0.17 (getGlobalPlacement)
 
-ver 0.7 le 28/01/2018: correct error with label accent \"nameLabel = unicodedata.normalize(\'NFKD\', nameLabel).encode(\'ascii\',\'ignore\')\"
+Version: 0.7 Date: 28/01/2018: correct error with label accent \"nameLabel = unicodedata.normalize(\'NFKD\', nameLabel).encode(\'ascii\',\'ignore\')\"
 
-ver 0.6 le 08/08/2017: add text info dimension , contener for rectangles, info rectangles, info volume, add section configuration color , label object selected
+Version: 0.6 Date: 08/08/2017: add text info dimension , contener for rectangles, info rectangles, info volume, add section configuration color , label object selected
 
-ver 0.5 le 08/05/2017 : upgrade now accept the \"mesh\" and \"Points\" thanks wmayer [Makro Bounding-Box für STL importierte Teile und für Punktewolken](http://forum.freecadweb.org/viewtopic.php?f=13&t=22331)
+Version: 0.5 Date: 08/05/2017 : upgrade now accept the \"mesh\" and \"Points\" thanks wmayer [Makro Bounding-Box für STL importierte Teile und für Punktewolken](http://forum.freecadweb.org/viewtopic.php?f=13&t=22331)
 
-ver 0.4 le 04/06/2016 : test if value = 0 then not create boundbox (ex: object Draft)
+Version: 0.4 Date: 04/06/2016 : test if value = 0 then not create boundbox (ex: object Draft)
 
 
 

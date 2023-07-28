@@ -1,17 +1,22 @@
 ---
-- GuiCommand:
-   Name:Std LinkSelectLinked
-   MenuLocation:''None''
-   Workbenches:All
+- GuiCommand:/ru
+   Name/ru:Перейти к связанному объекту
+   Name:Std_LinkSelectLinked
+   MenuLocation:''Нет''
+   Workbenches:Все
    Version:0.19
-   SeeAlso:[Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelBack](Std_SelBack.md), [Std SelForward](Std_SelForward.md)
+   SeeAlso:[Перейти на самый глубокий связанный объект](Std_LinkSelectLinkedFinal/ru.md), [Выбрать все ссылки](Std_LinkSelectAllLinks/ru.md), [Назад](Std_SelBack/ru.md), [Вперёд](Std_SelForward/ru.md)
 ---
 
 # Std LinkSelectLinked/ru
 
+
+
 ## Описание
 
 The **Std LinkSelectLinked** command selects the **Linked Object**, the source object, of an [App Link](App_Link.md) object, a link.
+
+
 
 ## Применение
 

@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Modeling
-   Level:Experienced User
+- TutorialInfo:/pl
+   Topic:Modelowanie
+   Level:Użytkownik zaawansowany
    Author:NormandC
-   Time:
-   FCVersion:0.19.23300 or higher
-   Files:
+   Time: nieokreślony
+   FCVersion:0.19.23300 lub nowszy
+   Files:brak
 ---
 
 # PartDesign Bearingholder Tutorial I/pl
@@ -19,23 +20,24 @@
 
 
 
-![Bearing Holder Tutorial - Finished bearing holder (top)\|thumb\|right\|400px](images/HolderTop1-1.jpg )
+![Poradnik dotyczący oprawki łożyska - Gotowa oprawka łożyska *(góra)*\|thumb\|right\|400px](images/HolderTop1-1.jpg )
 
-## Purpose in Brief 
+## Cel w skrócie 
 
-The purpose of the tutorial is to introduce you to two different work flows for creating a cast part with drafts and fillets. Depending on what other CAD programs you have been using, one or the other might be familiar to you. As a working example we will be modeling a simple bearing holder.
+Celem tego poradnika jest zapoznanie użytkownika z dwoma różnymi przebiegami pracy dla tworzenia części odlewanej z pochyleniami i zaokrągleniami. W zależności od tego, z jakich innych programów CAD korzystałeś, jeden lub drugi może być ci znany. Jako przykład roboczy będziemy modelować prostą oprawkę łożyska.
 
-This is the first part of the tutorial. It will use what might be called the \'single body\' work flow, using the (simpler) top part of the holder as an example.
+To jest pierwsza część poradnika. Wykorzysta on coś, co można nazwać przepływem pracy **pojedynczej zawartości**, używając *(prostszej)* górnej części uchwytu jako przykładu.
 
-Obviously, to follow through this tutorial you must activate the PartDesign workbench.
+Oczywiście, aby przejść przez ten poradnik należy aktywować środowisko pracy Projekt Części.
 
-~~You can find my version of the part created by this tutorial [http://ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa here](http://ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa_here.md).~~ *The file is no longer available, a new one will be provided at some later date*.
+~~Moją wersję części stworzonej za pomocą tego poradnika można znaleźć [http://ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa tutaj](http://ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa_tutaj.md).~~ *Plik nie jest już dostępny, nowy zostanie udostępniony w późniejszym terminie*.
 
-## Design data 
 
-The holder should be able to hold a diameter 90mm bearing with a width of up to 33mm (e.g. DIN 630 type 2308). The bearing requires a shoulder height of at least 4.5mm in the holder (and on the shaft). The top part of the holder will be bolted to the bottom with two 12mm bolts. There should be a groove on both sides of the bearing able to hold a standard shaft sealing ring DIN 3760: 38x55x7 or 40x55x7 on one side, 50x68x8 on the other side.
+## Założenia projektowe 
 
-The holder will be a sand cast with a minimum wall thickness of 5mm, a draft angle of 2 degrees, and a minimum fillet radius of 3mm.
+Oprawka powinna być w stanie utrzymać łożysko o średnicy 90 mm i szerokości do 33 mm *(np. DIN 630 typ 2308)*. Łożysko wymaga kołnierza o wysokości co najmniej 4,5 mm w oprawie *(i na wale)*. Górna część oprawy zostanie przykręcona do dolnej za pomocą dwóch śrub 12 mm. Po obu stronach łożyska powinien znajdować się rowek umożliwiający zamocowanie standardowego pierścienia uszczelniającego wał DIN 3760: 38x55x7 lub 40x55x7 z jednej strony i 50x68x8 z drugiej strony.
+
+Uchwyt będzie odlewem piaskowym o minimalnej grubości ścianki 5 mm, kącie zanurzenia 2° i minimalnym promieniu zaokrąglenia 3 mm.
 
 == Setting up the skeleton geometry ==
 

@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Einführung
 
 Der Arbeitsbereich <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;">[Mesh](Mesh_Workbench/de.md) (Polygonnetz) behandelt [Dreiecksnetze](http://en.wikipedia.org/wiki/Triangle_mesh). Netze sind eine besondere Art von 3D-Objekten, die aus dreieckigen Flächen bestehen, die durch ihre Knoten und Kanten miteinander verbunden sind.
@@ -12,6 +14,8 @@ Viele 3D-Anwendungen, wie [Sketchup](http://de.wikipedia.org/wiki/SketchUp_%28So
 Im technischen Bereich stellen Polygonnetze allerdings eine große Begrenzung dar: Sie können gekrümmte Flächen nicht präzise definieren. Deshalb setzt FreeCAD stattdessen auf [Brep](wikipedia_Boundary_representation.md). Der Arbeitsbereich Mesh bietet einige Befehle zur direkten Änderung von Polygonnetzen, wird aber am häufigsten verwendet, um 3D-Netzdaten zu importieren und in einen Volumenkörper umzuwandeln, zur Verwendung mit den Arbeitsbereichen <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) oder <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md).
 
 <img alt="" src=images/Mesh_example.jpg  style="width:500px;">
+
+
 
 ## Werkzeuge
 
@@ -23,7 +27,7 @@ Auf alle Werkzeuge des Arbeitsbereichs Mesh kann über das Menü **Netze** zugeg
 
 -   <img alt="" src=images/Mesh_FromPartShape.svg  style="width:32px;"> [Netz aus Form erstellen\...](Mesh_FromPartShape/de.md): Erstellt Netzobjekte aus Formobjekten.
 
--   <img alt="" src=images/Mesh_RemeshGmsh.svg  style="width:32px;">[Verfeinerung\...](Mesh_RemeshGmsh/de.md): Wiedervernetzt ein Netzobjekt. <small>(v0.19)</small> 
+-   <img alt="" src=images/Mesh_RemeshGmsh.svg  style="width:32px;">[Verfeinerung\...](Mesh_RemeshGmsh/de.md): Vernetzt ein Netzobjekt erneut.
 
 -   Analysieren
     -   <img alt="" src=images/Mesh_Evaluation.svg  style="width:32px;">[Netz auswerten und reparieren\...](Mesh_Evaluation/de.md): Bewertet und repariert ein Netzobjekt.
@@ -54,7 +58,7 @@ Auf alle Werkzeuge des Arbeitsbereichs Mesh kann über das Menü **Netze** zugeg
 
 -   <img alt="" src=images/Mesh_Smoothing.svg  style="width:32px;">[Glätten\...](Mesh_Smoothing/de.md): Glättet Netzobjekte.
 
--   <img alt="" src=images/Mesh_Decimating.svg  style="width:32px;">[Dezimierung\...](Mesh_Decimating/de.md): Reduziert die Anzahl der Flächen in Netzobjekten. <small>(v0.19)</small> 
+-   <img alt="" src=images/Mesh_Decimating.svg  style="width:32px;">[Dezimierung\...](Mesh_Decimating/de.md): Reduziert die Anzahl der Flächen in Netzobjekten.
 
 -   <img alt="" src=images/Mesh_Scale.svg  style="width:32px;"> [Skalieren\...](Mesh_Scale/de.md): Skaliert Netzobjekte.
 
@@ -70,15 +74,17 @@ Auf alle Werkzeuge des Arbeitsbereichs Mesh kann über das Menü **Netze** zugeg
     -   <img alt="" src=images/Mesh_PolyTrim.svg  style="width:32px;">[Netz stutzen](Mesh_PolyTrim/de.md): Stutzt Flächen und Teile von Flächen aus Netzobjekten.
     -   <img alt="" src=images/Mesh_TrimByPlane.svg  style="width:32px;">[Netz mit einer Ebene stutzen](Mesh_TrimByPlane/de.md): Stutzt Flächen und Teile von Flächen auf einer Seite einer Ebene aus einem Netzobjekt.
     -   <img alt="" src=images/Mesh_SectionByPlane.svg  style="width:32px;">[Schnitt aus Netz und Ebene erzeugen](Mesh_SectionByPlane/de.md): Erzeugt einen Querschnitt über ein Netzobjekt.
-    -   <img alt="" src=images/Mesh_CrossSections.svg  style="width:32px;">[Querschnitte\...](Mesh_CrossSections/de.md): Erstellt mehrere Querschnitte über Netzobjekte. <small>(v0.19)</small> 
+    -   <img alt="" src=images/Mesh_CrossSections.svg  style="width:32px;">[Querschnitte\...](Mesh_CrossSections/de.md): Erstellt mehrere Querschnitte durch Netzobjekte.
 
 -   <img alt="" src=images/Mesh_Merge.svg  style="width:32px;">[Zusammenführen](Mesh_Merge/de.md): Erstellt ein Netzobjekt, indem die Netze von zwei oder mehr Netzobjekten kombiniert werden.
 
--   <img alt="" src=images/Mesh_SplitComponents.svg  style="width:32px;"> [Nach Komponenten aufgeteilt](Mesh_SplitComponents/de.md): Zerlegt ein Mesh Objekt in seine Komponenten. <small>(v0.19)</small> 
+-   <img alt="" src=images/Mesh_SplitComponents.svg  style="width:32px;"> [Nach Komponenten teilen](Mesh_SplitComponents/de.md): Zerlegt ein Mesh-Objekt in seine Komponenten.
 
--   <img alt="" src=images/MeshPart_CreateFlatMesh.svg  style="width:32px;">[Netze auspacken](MeshPart_CreateFlatMesh/de.md): Erstellt eine flache Darstellung eines Netzobjekts. <small>(v0.19)</small> 
+-   <img alt="" src=images/MeshPart_CreateFlatMesh.svg  style="width:32px;">[Netze entpacken](MeshPart_CreateFlatMesh/de.md): Erstellt eine flache Darstellung eines Netzobjekts.
 
--   <img alt="" src=images/MeshPart_CreateFlatFace.svg  style="width:32px;">[Fläche auspacken](MeshPart_CreateFlatFace/de.md): Erstellt eine flache Darstellung einer Fläche eines Formobjekts. <small>(v0.19)</small> 
+-   <img alt="" src=images/MeshPart_CreateFlatFace.svg  style="width:32px;">[Fläche entpacken](MeshPart_CreateFlatFace/de.md): Erstellt eine flache Darstellung einer Fläche eines Formobjekts.
+
+
 
 ## Einstellungen
 
@@ -88,6 +94,8 @@ Netz Arbeitsbereichseinstellungen können in den folgenden Kategorien des [Vorei
 
 -   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Anzeige](Preferences_Editor/de#Anzeige_Einstellungen.md): Auf dem [ Netzansicht](Preferences_Editor/de#Netzansicht.md)-Reiter können verschiedene Einstellungen vorgenommen werden.
 -   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences/de.md): Die Befehle [Mesh Vereinigung](Mesh_Union/de.md), [Mesh Schnitt](Mesh_Intersection/de.md) und [Mesh Differenz](Mesh_Difference/de.md) erfordern [OpenSCAD](http://www.openscad.org/) und verwenden die Einstellung **OpenSCAD executable**, um die ausführbare Datei zu finden.
+
+
 
 ## Hinweise
 

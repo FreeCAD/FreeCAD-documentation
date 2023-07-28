@@ -1,18 +1,28 @@
 ---
 - GuiCommand:
    Name:Path Inspect
-   MenuLocation:Path → Inspect G-code
+   MenuLocation:Path → Inspect Path Commands
    Workbenches:[Path](Path_Workbench.md)
    Shortcut:**P** **I**
 ---
 
 # Path Inspect/zh
 
+
+
 ## 描述
+
+
+<div class="mw-translate-fuzzy">
 
 这个工具可以用来检查刀路操作项目的内部Freecad G-code代码内容。
 
+
+</div>
+
 ![](images/Path_inspector.jpg )
+
+
 
 ## 使用
 
@@ -24,6 +34,8 @@
 
 
 </div>
+
+
 
 ## 选项
 

@@ -16,26 +16,26 @@ This category contains articles and categories about wiki administrative subject
 | [Template:FALSE](Template_FALSE.md) | [Template:False](Template_False.md) | [Template:FALSE/pl](Template_FALSE/pl.md) |
 | [Template:False/pl](Template_False/pl.md) | [Template:FEM Tools navi](Template_FEM_Tools_navi.md) | [Template:FileName](Template_FileName.md) |
 | [Template:Hello](Template_Hello.md) | [Template:Image Tools navi](Template_Image_Tools_navi.md) | [Template:Incode](Template_Incode.md) |
-| [Template:Interface navi](Template_Interface_navi.md) | [Template:KEY](Template_KEY.md) | [Template:MacroCode](Template_MacroCode.md) |
-| [Template:MenuCommand](Template_MenuCommand.md) | [Template:Mesh Tools navi](Template_Mesh_Tools_navi.md) | [Template:Message](Template_Message.md) |
-| [Template:Navigation menu 2](Template_Navigation_menu_2.md) | [Template:OpenSCAD Tools navi](Template_OpenSCAD_Tools_navi.md) | [Template:Optional](Template_Optional.md) |
-| [Organization chart](Organization_chart.md) | [Template:Parameter](Template_Parameter.md) | [Template:Part Tools navi](Template_Part_Tools_navi.md) |
-| [Template:PartDesign Tools navi](Template_PartDesign_Tools_navi.md) | [Template:Path Tools navi](Template_Path_Tools_navi.md) | [Template:Plot Tools navi](Template_Plot_Tools_navi.md) |
-| [Template:Points Tools navi](Template_Points_Tools_navi.md) | [Template:Powerdocnavi](Template_Powerdocnavi.md) | [Template:Properties Title](Template_Properties_Title.md) |
-| [Template:Properties Title/pl](Template_Properties_Title/pl.md) | [Template:PropertyData](Template_PropertyData.md) | [Template:PropertyTasks](Template_PropertyTasks.md) |
-| [Template:PropertyView](Template_PropertyView.md) | [Template:Raytracing Tools navi](Template_Raytracing_Tools_navi.md) | [Release process](Release_process.md) |
-| [Template:Robot Tools navi](Template_Robot_Tools_navi.md) | [Template:Sketcher Tools navi](Template_Sketcher_Tools_navi.md) | [Template:Spreadsheet Tools navi](Template_Spreadsheet_Tools_navi.md) |
-| [Template:Start Tools navi](Template_Start_Tools_navi.md) | [Template:Std Base navi](Template_Std_Base_navi.md) | [Template:StdMenu](Template_StdMenu.md) |
-| [Template:Surface Tools navi](Template_Surface_Tools_navi.md) | [Template:SystemInput](Template_SystemInput.md) | [Template:SystemOutput](Template_SystemOutput.md) |
-| [Template:TasksTag](Template_TasksTag.md) | [Template:TechDraw Tools navi](Template_TechDraw_Tools_navi.md) | [Template:TitleTasks](Template_TitleTasks.md) |
-| [Template:Top](Template_Top.md) | [Tracker](Tracker.md) | [Template:TRUE](Template_TRUE.md) |
-| [Template:True](Template_True.md) | [Template:TRUE/pl](Template_TRUE/pl.md) | [Template:True/pl](Template_True/pl.md) |
-| [Template:UnfinishedDocu](Template_UnfinishedDocu.md) | [Template:URL](Template_URL.md) | [Template:URLn](Template_URLn.md) |
-| [Template:Userdocnavi](Template_Userdocnavi.md) | [Template:Value](Template_Value.md) | [Template:Variable](Template_Variable.md) |
-| [Template:VeryImportantMessage](Template_VeryImportantMessage.md) | [Template:Web Tools navi](Template_Web_Tools_navi.md) | [WikiPages](WikiPages.md) |
-| [WikiRobots](WikiRobots.md) | [Category:Disambiguation](Category_Disambiguation.md) | [Category:HouseKeeping](Category_HouseKeeping.md) |
-| [Category:Pages to delete](Category_Pages_to_delete.md) | [Category:UnfinishedDocu](Category_UnfinishedDocu.md) | [Category:Wiki](Category_Wiki.md) |
-| [Category:Work in progress](Category_Work_in_progress.md) |
+| [Template:Interface navi](Template_Interface_navi.md) | [Template:KEY](Template_KEY.md) | [Template:LineEdit](Template_LineEdit.md) |
+| [Template:MacroCode](Template_MacroCode.md) | [Template:MenuCommand](Template_MenuCommand.md) | [Template:Mesh Tools navi](Template_Mesh_Tools_navi.md) |
+| [Template:Message](Template_Message.md) | [Template:Navigation menu 2](Template_Navigation_menu_2.md) | [Template:OpenSCAD Tools navi](Template_OpenSCAD_Tools_navi.md) |
+| [Template:Optional](Template_Optional.md) | [Organization chart](Organization_chart.md) | [Template:Parameter](Template_Parameter.md) |
+| [Template:Part Tools navi](Template_Part_Tools_navi.md) | [Template:PartDesign Tools navi](Template_PartDesign_Tools_navi.md) | [Template:Path Tools navi](Template_Path_Tools_navi.md) |
+| [Template:Plot Tools navi](Template_Plot_Tools_navi.md) | [Template:Points Tools navi](Template_Points_Tools_navi.md) | [Template:Powerdocnavi](Template_Powerdocnavi.md) |
+| [Template:Properties Title](Template_Properties_Title.md) | [Template:Properties Title/pl](Template_Properties_Title/pl.md) | [Template:PropertyData](Template_PropertyData.md) |
+| [Template:PropertyTasks](Template_PropertyTasks.md) | [Template:PropertyView](Template_PropertyView.md) | [Template:Raytracing Tools navi](Template_Raytracing_Tools_navi.md) |
+| [Release process](Release_process.md) | [Template:Robot Tools navi](Template_Robot_Tools_navi.md) | [Template:Sketcher Tools navi](Template_Sketcher_Tools_navi.md) |
+| [Template:Spreadsheet Tools navi](Template_Spreadsheet_Tools_navi.md) | [Template:Start Tools navi](Template_Start_Tools_navi.md) | [Template:Std Base navi](Template_Std_Base_navi.md) |
+| [Template:StdMenu](Template_StdMenu.md) | [Template:Surface Tools navi](Template_Surface_Tools_navi.md) | [Template:SystemInput](Template_SystemInput.md) |
+| [Template:SystemOutput](Template_SystemOutput.md) | [Template:TasksTag](Template_TasksTag.md) | [Template:TechDraw Tools navi](Template_TechDraw_Tools_navi.md) |
+| [Template:TitleTasks](Template_TitleTasks.md) | [Template:Top](Template_Top.md) | [Tracker](Tracker.md) |
+| [Template:TRUE](Template_TRUE.md) | [Template:True](Template_True.md) | [Template:TRUE/pl](Template_TRUE/pl.md) |
+| [Template:True/pl](Template_True/pl.md) | [Template:UnfinishedDocu](Template_UnfinishedDocu.md) | [Template:URL](Template_URL.md) |
+| [Template:URLn](Template_URLn.md) | [Template:Userdocnavi](Template_Userdocnavi.md) | [Template:Value](Template_Value.md) |
+| [Template:Variable](Template_Variable.md) | [Template:VeryImportantMessage](Template_VeryImportantMessage.md) | [Template:Web Tools navi](Template_Web_Tools_navi.md) |
+| [WikiPages](WikiPages.md) | [WikiRobots](WikiRobots.md) | [Category:Disambiguation](Category_Disambiguation.md) |
+| [Category:HouseKeeping](Category_HouseKeeping.md) | [Category:Pages to delete](Category_Pages_to_delete.md) | [Category:UnfinishedDocu](Category_UnfinishedDocu.md) |
+| [Category:Wiki](Category_Wiki.md) | [Category:Work in progress](Category_Work_in_progress.md) |
 
 
 

@@ -1,42 +1,53 @@
 # Lattice2 Workbench/pl
 } <img alt="" src=images/Lattice2_Lattice2.svg  style="width:240px;"> 
-*align=center|The FreeCAD Lattice2 External Workbench Icon*
-
-## Introduction
+*align=center|Ikonka FreeCAD dla zewnętrznego środowiska pracy Lattice 2*
 
 
-**Lattice2 is stable. New features may be added, but no breaking changes are supposed to happen.**
+
+## Wprowadzenie
+
+
+**Lattice 2 jest stabilny. Nowe funkcje mogą być dodawane, ale nie spodziewaj się żadnych przełomowych zmian.**
 
 
 {{TOCright}}
 
-The Lattice2 Workbench is a FreeCAD [external workbench](External_workbenches.md) that serves the purpose of working with placements and arrays of placements. It is a sort of Assembly workbench, but with emphasis on arrays. There are no constraints and relations, there are just arrays of placements that can be generated, combined, transformed, superimposed, and populated with shapes.
+Środowisko pracy Lattice2 to pracy [zewnętrzne środowisko](External_workbenches/pl.md) FreeCAD, które służy do pracy z umiejscowieniem i szykami umiejscowień. Jest to rodzaj środowiska montażowego, ale z naciskiem na szyki. Nie ma ograniczeń i relacji, są tylko układy miejsc docelowych, które mogą być generowane, łączone, przekształcane, nakładane i wypełniane kształtami.
 
-Ever wondered how to create a protractor with FreeCAD? That\'s the aim of the workbench (including tick labeling). Also, exploded assemblies can be made with the workbench.
+Czy zastanawiałeś się kiedyś, jak stworzyć kątomierz za pomocą FreeCAD? To właśnie jest celem środowiska roboczego *(w tym etykietowania zaznaczeń)*. Za pomocą tego środowiska pracy można również tworzyć rozłożone zespoły.
 
-Additionally, the workbench features a few general-purpose tools, such as parametric downgrade, bounding boxes, shape info tool, and tools for working with collections of shapes (compounds).
+Dodatkowo, środowisko pracy zawiera kilka narzędzi ogólnego przeznaczenia, takich jak parametryczne zmniejszanie, obwiednie, narzędzie informacji o kształcie i narzędzia do pracy ze zbiorami kształtów *(złożeniami)*.
 
-One of the big design goals of the workbench is being as parametric as possible.
+Jednym z głównych celów projektowych środowiska jest bycie tak sparametryzowanym, jak to tylko możliwe.
 
-## References
 
--   Author: DeepSOIC
--   Home page: <https://github.com/DeepSOIC/Lattice2>
--   Source code on github: <https://github.com/DeepSOIC/Lattice2>
 
-## Tools
+## Bibliografia
 
-Detailed description on the [Lattice2 Github wiki](https://github.com/DeepSOIC/Lattice2/wiki)
+-   Autor: DeepSOIC
+-   Strona główna: <https://github.com/DeepSOIC/Lattice2>
+-   Kod źródłowy na GitHub: <https://github.com/DeepSOIC/Lattice2>
 
-### Toolbar
+
+
+## Przybory
+
+Szczegółowy opis znajduje się na stronie GitHub [Lattice 2 Wiki](https://github.com/DeepSOIC/Lattice2/wiki).
+
+
+
+### Pasek narzędzi 
 
 ![](images/Lattice2-menu-orizz.png ) 
-*Lattice2 Toolbar*
+*Pasek narzędzi Lattice 2*
 
-### Commands
 
--   <img alt="" src=images/Lattice2_Placement.svg  style="width:32px;"> [Placement](Lattice2_Placement.md)
-    -   <img alt="" src=images/Lattice2_Placement.svg  style="width:24px;"> [Single Placement: Custom](Lattice2_Placement.md)
+
+### Polecenia
+
+<img alt="Lattice2_Placement.svg" src=images/Lattice2_Placement.svg  style="width:32px;"> [Placement](Lattice2_Placement.md)
+
+-   -   <img alt="" src=images/Lattice2_Placement.svg  style="width:24px;"> [Single Placement: Custom](Lattice2_Placement.md)
     -   <img alt="" src=images/Lattice2_Placement.svg  style="width:24px;"> [Single Placement: XY plane](Lattice2_Placement.md)
     -   <img alt="" src=images/Lattice2_Placement.svg  style="width:24px;"> [Single Placement: XZ plane](Lattice2_Placement.md)
     -   <img alt="" src=images/Lattice2_Placement.svg  style="width:24px;"> [Single Placement: YZ plane](Lattice2_Placement.md)
@@ -48,32 +59,45 @@ Detailed description on the [Lattice2 Github wiki](https://github.com/DeepSOIC/L
     -   <img alt="" src=images/Lattice2_PlacementFromShape.svg  style="width:32px;"> [Placement of shape: Center of bounding box](Lattice2_PlacementFromShape.md)
     -   <img alt="" src=images/Lattice2_PlacementFromShape.svg  style="width:32px;"> [Placement of shape: Center of mass](Lattice2_PlacementFromShape.md)
     -   <img alt="" src=images/Lattice2_PlacementFromShape.svg  style="width:32px;"> [Placement of shape: Inertial axis system](Lattice2_PlacementFromShape.md)
--   <img alt="" src=images/Lattice2_AttachablePlacement.svg  style="width:32px;"> [Attachable Placement](Lattice2_AttachablePlacement.md)
+
+-   <img alt="" src=images/Lattice2_AttachablePlacement.svg  style="width:32px;"> [Dołączone umiejscowienie](Lattice2_AttachablePlacement/pl.md)
+
 -   <img alt="" src=images/Lattice2_LinearArray.svg  style="width:32px;"> [Generate linear array](Lattice2_LinearArray.md)
+
 -   <img alt="" src=images/Lattice2_PolarArray.svg  style="width:32px;"> [Generate polar array](Lattice2_PolarArray.md)
+
 -   <img alt="" src=images/Lattice2_ArrayFromShape.svg  style="width:32px;"> [Array from shape](Lattice2_ArrayFromShape.md)
     -   <img alt="" src=images/Lattice2_ArrayFromShape.svg  style="width:32px;"> [Internal placements](Lattice2_ArrayFromShape.md)
     -   <img alt="" src=images/Lattice2_ArrayFromShape.svg  style="width:32px;"> [Center of bounding box](Lattice2_ArrayFromShape.md)
     -   <img alt="" src=images/Lattice2_ArrayFromShape.svg  style="width:32px;"> [Center of mass](Lattice2_ArrayFromShape.md)
     -   <img alt="" src=images/Lattice2_ArrayFromShape.svg  style="width:32px;"> [Inertial axis system](Lattice2_ArrayFromShape.md)
+
 -   <img alt="" src=images/Lattice2_InvertLattice.svg  style="width:32px;"> [Invert lattice](Lattice2_InvertLattice.md)
+
 -   <img alt="" src=images/Lattice2_JoinArrays.svg  style="width:32px;"> [Join arrays](Lattice2_JoinArrays.md)
+
 -   <img alt="" src=images/Lattice2_ArrayFilter.svg  style="width:32px;"> [Array filter](Lattice2_ArrayFilter.md)
     -   <img alt="" src=images/Lattice2_ArrayFilter.svg  style="width:32px;"> [Selected items](Lattice2_ArrayFilter.md)
     -   <img alt="" src=images/Lattice2_ArrayFilter.svg  style="width:32px;"> [Touching](Lattice2_ArrayFilter.md)
     -   <img alt="" src=images/Lattice2_ArrayFilter.svg  style="width:32px;"> [Within distance window](Lattice2_ArrayFilter.md)
     -   <img alt="" src=images/Lattice2_ArrayFilter.svg  style="width:32px;"> [Pointing at shape](Lattice2_ArrayFilter.md)
+
 -   <img alt="" src=images/Lattice2_ExplodeArray.svg  style="width:32px;"> [Explode array](Lattice2_ExplodeArray.md)
+
 -   <img alt="" src=images/Lattice2_ProjectArray.svg  style="width:32px;"> [Project array](Lattice2_ProjectArray.md)
+
 -   <img alt="" src=images/Lattice2_ResampleArray.svg  style="width:32px;"> [Resample array](Lattice2_ResampleArray.md)
+
 -   <img alt="" src=images/Lattice2_PopulateCopiesNormal.svg  style="width:32px;"> [Populate with copies](Lattice2_PopulateCopiesNormal.md)
     -   <img alt="" src=images/Lattice2_PopulateCopiesNormal.svg  style="width:32px;"> [Populate with copies](Lattice2_PopulateCopiesNormal.md)
     -   <img alt="" src=images/Lattice2_PopulateCopiesArray.svg  style="width:32px;"> [Populate with copies: Build array](Lattice2_PopulateCopiesArray.md)
     -   <img alt="" src=images/Lattice2_PopulateCopiesMove.svg  style="width:32px;"> [Moved object](Lattice2_PopulateCopiesMove.md)
+
 -   <img alt="" src=images/Lattice2_PopulateChildrenNormal.svg  style="width:32px;"> [Populate with children](Lattice2_PopulateChildrenNormal.md)
     -   <img alt="" src=images/Lattice2_PopulateChildrenNormal.svg  style="width:32px;"> [Populate with children](Lattice2_PopulateChildrenNormal.md)
     -   <img alt="" src=images/Lattice2_PopulateChildrenArray.svg  style="width:32px;"> [Populate with children: Build array](Lattice2_PopulateChildrenArray.md)
     -   <img alt="" src=images/Lattice2_PopulateChildrenMove.svg  style="width:32px;"> [Moved children](Lattice2_PopulateChildrenMove.md)
+
 -   <img alt="" src=images/Lattice2_ParametricDowngrade.svg  style="width:24px;"> [Parametric downgrade](Lattice2_ParametricDowngrade.md)
     -   <img alt="" src=images/Lattice2_ParametricDowngrade.svg  style="width:24px;"> [Downgrade to ](Lattice2_ParametricDowngrade.md)
     -   <img alt="" src=images/Lattice2_ParametricDowngrade.svg  style="width:24px;"> [Downgrade to Leaves](Lattice2_ParametricDowngrade.md)
@@ -86,24 +110,34 @@ Detailed description on the [Lattice2 Github wiki](https://github.com/DeepSOIC/L
     -   <img alt="" src=images/Lattice2_ParametricDowngrade.svg  style="width:24px;"> [Downgrade to Seam edges](Lattice2_ParametricDowngrade.md)
     -   <img alt="" src=images/Lattice2_ParametricDowngrade.svg  style="width:24px;"> [Downgrade to Non-seam edges](Lattice2_ParametricDowngrade.md)
     -   <img alt="" src=images/Lattice2_ParametricDowngrade.svg  style="width:24px;"> [Downgrade to Vertices](Lattice2_ParametricDowngrade.md)
+
 -   <img alt="" src=images/Lattice2_SubLink.svg  style="width:32px;"> [Sub link](Lattice2_SubLink.md)
+
 -   <img alt="" src=images/Lattice2_MakeCompound.svg  style="width:32px;"> [Make compound](Lattice2_MakeCompound.md)
+
 -   <img alt="" src=images/Lattice2_ExplodeCompound.svg  style="width:32px;"> [Explode compound](Lattice2_ExplodeCompound.md)
+
 -   <img alt="" src=images/Lattice2_FuseCompound.svg  style="width:32px;"> [Fuse compound](Lattice2_FuseCompound.md)
+
 -   <img alt="" src=images/Lattice2_BoundingBox.svg  style="width:32px;"> [Bounding box](Lattice2_BoundingBox.md)
     -   <img alt="" src=images/Lattice2_BoundingBox.svg  style="width:32px;"> [Whole](Lattice2_BoundingBox.md)
     -   <img alt="" src=images/Lattice2_BoundingBoxCompound.svg  style="width:32px;"> [Children](Lattice2_BoundingBoxCompound.md)
+
 -   <img alt="" src=images/Lattice2_ShapeString.svg  style="width:32px;"> [Shape string for array](Lattice2_ShapeString.md)
+
 -   <img alt="" src=images/Lattice2_ParaSeries.svg  style="width:32px;"> [Para series](Lattice2_ParaSeries.md)
+
 -   <img alt="" src=images/Lattice2_Inspect.svg  style="width:32px;"> [Inspect](Lattice2_Inspect.md)
     -   <img alt="" src=images/Lattice2_InspectSelection.svg  style="width:32px;"> [Inspect seletion](Lattice2_InspectSelection.md)
     -   <img alt="" src=images/Lattice2_InspectShape.svg  style="width:32px;"> [Shape info (feature)](Lattice2_InspectShape.md)
+
 -   <img alt="" src=images/Lattice2_SubstituteObject.svg  style="width:32px;"> [Substitute object](Lattice2_SubstituteObject.md)
--   Expose links to subelements
 
-Other
+-   Eksponowanie łączy do elementów podrzędnych
 
--   Recomputes
+Inne
+
+-   Obliczenia
     -   <img alt="" src=images/Lattice2_RecomputeMakeFeature.svg  style="width:32px;"> [Make recompute locher object](Lattice2_RecomputeMakeFeature.md):
     -   <img alt="" src=images/Lattice2_RecomputeLock.svg  style="width:32px;"> [Lock recomputes](Lattice2_RecomputeLock.md):
     -   <img alt="" src=images/Lattice2_RecomputeUnlock.svg  style="width:32px;"> [Unlock recomputes](Lattice2_RecomputeUnlock.md):
@@ -113,45 +147,56 @@ Other
     -   <img alt="" src=images/Lattice2_RecomputeTouch.svg  style="width:32px;"> [Touch selected feature](Lattice2_RecomputeTouch.md):
 -   <img alt="" src=images/Lattice2_Lattice2.svg  style="width:32px;"> Lattice2 Workbench icon
 
-## Installation
 
-**Prerequisites** Lattice2 Workbench requires FreeCAD \>= v0.16.5155.
 
-### Automatic installation 
+## Instalacja
 
-As of v0.17 one can use the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) to install the <img alt="" src=images/Lattice2_Lattice2.svg  style="width:24px;"> Lattice2 Workbench. Use 
-**Tools → Addon Manager**
+**Wymagania wstępne**: Lattice2 {{VersionPlus/pl|0.16.5155}}
 
-### Manual Install 
 
--   Scroll to the top of the page, and click \'download zip\' button
--   Unpack the contents into a \"Lattice2\" folder created in \\Path\\to\\FreeCAD\\Mod, and restart FreeCAD.
--   Note that InitGui.py (and the rest of .py files) should end up directly under Mod\\Lattice2 (not under nested directory like Mod\\Lattice2\\Lattice2).
 
-After you install the workbench, it should appear at the bottom of list of workbench selector in FreeCAD.
+### Instalacja automatyczna 
 
-## Tutorials
+Od wersji v0.17 można użyć <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md) do zainstalowania <img alt="" src=images/Lattice2_Lattice2.svg  style="width:24px;"> Lattice2. Użyj opcji **Przybory → Menadżer dodatków**.
 
--   Tutorials: [Gallery](https://github.com/DeepSOIC/Lattice2/wiki/Gallery)
--   [Basic Tutorial](https://github.com/DeepSOIC/Lattice2/wiki/Basic-Tutorial)
--   [Lattice2 in PartDesign](https://github.com/DeepSOIC/Lattice2/wiki/PartDesign-Pattern-Tutorial)
--   [Making a Cogset](https://github.com/DeepSOIC/Lattice2/wiki/Cogset-Tutorial)
--   [Feature Patterns in Lattice2 Workbench](https://www.youtube.com/watch?v=BXmeEGnhszo) by \@sliptonic
 
-## Links to Lattice2 WB 
+
+### Instalacja samodzielna 
+
+-   Przewiń do góry strony i kliknij przycisk \"pobierz zip\".
+-   Rozpakuj zawartość do folderu \"Lattice2\" utworzonego w \\Path\\to\\FreeCAD\\Mod i uruchom ponownie FreeCAD.
+-   Należy pamiętać, że InitGui.py *(i reszta plików .py)* powinny znaleźć się bezpośrednio w katalogu Mod\\Lattice2 *(nie w katalogu zagnieżdżonym, takim jak Mod\\Lattice2\\Lattice2)*.
+
+Po zainstalowaniu środowiska roboczego powinno ono pojawić się na dole listy wyboru środowiska roboczego w programie FreeCAD.
+
+
+
+## Poradniki
+
+-   Poradniki: [Galeria](https://github.com/DeepSOIC/Lattice2/wiki/Gallery)
+-   [Podstawowy poradnik](https://github.com/DeepSOIC/Lattice2/wiki/Basic-Tutorial)
+-   [Lattice2 w PartDesign](https://github.com/DeepSOIC/Lattice2/wiki/PartDesign-Pattern-Tutorial)
+-   [Wykonanie zestawu zębatego](https://github.com/DeepSOIC/Lattice2/wiki/Cogset-Tutorial)
+-   [Wzorce cech w Lattice2 Workbench](https://www.youtube.com/watch?v=BXmeEGnhszo) autorstwa \@sliptonic
+
+
+
+## Odnośniki internetowe do Lattice2 
 
 -   Lattice2 Wiki: <https://github.com/DeepSOIC/Lattice2/wiki>
 -   FreeCAD Wiki: <https://www.freecadweb.org/wiki/Lattice2_Workbench>
--   FreeCAD Forum: [Lattice workbench - v2.0 is becoming stable](http://forum.freecadweb.org/viewtopic.php?t=12464)
--   Gallery: <https://github.com/DeepSOIC/Lattice2/wiki/Gallery>
--   Report bugs: Please report bugs at <https://github.com/DeepSOIC/Lattice2/issues>
+-   Forum FreeCAD: [Stół roboczy Lattice - v2.0 staje się stabilny](http://forum.freecadweb.org/viewtopic.php?t=12464)
+-   Galeria: <https://github.com/DeepSOIC/Lattice2/wiki/Gallery>
+-   Zgłaszanie błędów: Prosimy o zgłaszanie błędów na <https://github.com/DeepSOIC/Lattice2/issues>
 
-## Other useful links 
 
--   [Lattice aka Lattice1 Workbench (obsolete)](https://github.com/DeepSOIC/Lattice)
--   [External Workbenches](External_workbenches.md): List of FreeCAD workbenches.
--   [Macros recipes](Macros_recipes.md)
--   [FreeCAD Community Portal](FreeCAD_Community_Portal.md)
+
+## Inne użyteczne odnośniki 
+
+-   [Lattice znany również jako Lattice1 *(przestarzały)*](https://github.com/DeepSOIC/Lattice).
+-   [Zewnętrzne środowiska pracy](External_workbenches/pl.md): Lista środowisk pracy FreeCAD.
+-   [Przepisy na makropolecenia](Macros_recipes/pl.md)
+-   [Portale społeczności FreeCAD](FreeCAD_Community_Portal/pl.md).
 
 
 

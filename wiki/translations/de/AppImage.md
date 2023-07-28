@@ -107,7 +107,7 @@ Anmerkungen:
 -   Führen Sie `./appimageupdatetool-x86_64.AppImage --help` aus, um mehr über Funktionen wie `--remove-old`, `--overwrite` und `--self-update` zu erfahren.
 -   Es gibt auch eine i386-Version; siehe die Seite [AppImageUpdate release](https://github.com/AppImage/AppImageUpdate/releases).
 
-Zu erledigen: Teile ein Skript, das als Alias oder \[<https://de.wikipedia.org/wiki/Cron%7CCron%5D-> Job hinzugefügt werden kann.
+Zu erledigen: Teile ein Skript, das als Alias oder [Cron](https://de.wikipedia.org/wiki/Cron)-Job hinzugefügt werden kann.
 
 
 

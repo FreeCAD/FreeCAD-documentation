@@ -3,39 +3,43 @@
 
 {{TOCright}}
 
+
+
 ## Einführung
 
-Der <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Architektur Arbeitsbereich](Arch_Workbench/de.md) stellt einen modernen [Bauwerksdatenmodellierung](http://de.wikipedia.org/wiki/Building_Information_Modeling) (BIM) Arbeitsablauf für FreeCAD zur Verfügung mit Unterstützung für Funktionen wie vollständig parametrische Architektur Entitäten wie Wände, Balken, Dächer, Fenster, Treppen, Rohre und Möbel. Er unterstützt [1](http://de.wikipedia.org/wiki/Industry_Foundation_Classes) ([IFC](Arch_IFC.md)) Dateien und die Erstellung von 2D Geschossplänen in Kombination mit dem <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;">[TechDraw Arbeitsbereich](TechDraw_Workbench/de.md).
+Der Arbeitsbereich <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/de.md) (Architektur) stellt einen modernen Arbeitsablauf zur [Bauwerksdatenmodellierung](http://de.wikipedia.org/wiki/Building_Information_Modeling) (**B**uilding **I**nformation **M**odelling, kurz BIM) für FreeCAD zur Verfügung, mit Unterstützung für vollständig parametrische Architekturelemente wie Wände, Balken, Dächer, Fenster, Treppen, Rohre und Möbel. Er unterstützt [IFC-](Arch_IFC/de.md) ([**I**ndustry **F**oundation **C**lasses](http://de.wikipedia.org/wiki/Industry_Foundation_Classes)) Dateien und die Erstellung von 2D-Grundrissen in Kombination mit dem Arbeitsbereich <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;">[TechDraw](TechDraw_Workbench/de.md).
 
-Der Arch-Arbeitsbereich importiert alle Werkzeuge des <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Entwurf Arbeitsbereichs](Draft_Workbench/de.md), weil er 2D-Objekte zur Erstellung von 3D parametrischen Architekturobjekten benutzt. Trotzdem kann Arch auch Volumenkörper aus Arbeitsbereichen wie <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) und <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md) verwenden.
+Der Arbeitsbereich Arch importiert alle Werkzeuge des Arbeitsbereichs <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md), weil er dessen 2D-Objekte zur Erstellung von parametrischen 3D-Architekturobjekten benutzt. Trotzdem kann Arch auch Festkörperformen aus Arbeitsbereichen wie <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) und <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md) verwenden.
 
-Die BIM Funktionalität von FreeCAD ist nun nach und nach aufgeteilt in diesen Arch Arbeitsbereich, der grundlegende Architekturwerkzeuge enthält, und die <img alt="" src=images/Workbench_BIM.svg  style="width:24px;">[BIM Arbeitsbereich](BIM_Workbench/de.md), die du über den <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/de.md) installieren kannst. Dieser Arbeitsbereich fügt eine neue Schnittstellenschicht über die Arch Werkzeuge hinzu, mit dem Ziel, den BIM Arbeitsablauf in FreeCAD intuitiver und benutzerfreundlicher zu gestalten. Siehe [FreeCAD BIM Migrationsanleitung](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide).
+Die BIM-Funktionalität von FreeCAD ist nun dem (Konstruktions-) Ablauf entsprechend aufgeteilt in diesen Arbeitsbereich Arch, der grundlegende Architekturwerkzeuge enthält, und dem Arbeitsbereich <img alt="" src=images/Workbench_BIM.svg  style="width:24px;">[BIM](BIM_Workbench/de.md), den der <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) zur Verfügung stellt. Dieser Arbeitsbereich BIM fügt eine neue Schnittstellenebene, zusätzlich zu den Arch-Werkzeugen, hinzu, mit dem Ziel, den BIM-Arbeitsablauf in FreeCAD intuitiver und benutzerfreundlicher zu gestalten. Siehe [FreeCAD BIM Migrationsanleitung](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide).
 
-Die Entwickler von Draft, Arch und BIM arbeiten auch mit der größeren [OSArch Gemeinschaft](https://osarch.org) zusammen, mit dem letztendlichen Ziel, den Gebäudeentwurf durch den Einsatz völlig freier Software zu verbessern.
+Die Entwickler von Draft, Arch und BIM arbeiten auch mit der größeren [OSArch-Gemeinschaft](https://osarch.org) zusammen, mit dem letztendlichen Ziel, den Gebäudeentwurf durch den Einsatz völlig freier Software zu verbessern.
 
 <img alt="" src=images/Screenshot_arch_window.jpg  style="width:600px;">
+
+
 
 ## Werkzeuge
 
 Dies sind Werkzeuge zum Erstellen von Architekturobjekten.
 
--   <img alt="" src=images/Arch_Wall.svg  style="width:32px;"> [Wand](Arch_Wall/de.md): Erstellt eine Wand aus dem Nichts oder unter Verwendung eines ausgewählten Objekts als Basis.
+-   <img alt="" src=images/Arch_Wall.svg  style="width:32px;"> [Wand](Arch_Wall/de.md): Erstellt eine Wand von Grund auf oder unter Verwendung eines ausgewählten Objekts als Basis.
 
--   <img alt="" src=images/Arch_Structure.svg  style="width:32px;"> [Structure](Arch_Structure.md): Creates a structural element from scratch or using a selected object as a base.
+-   <img alt="" src=images/Arch_Structure.svg  style="width:32px;"> [Struktur](Arch_Structure/de.md): Erstellt ein Strukturelement von Grund auf oder unter Verwendung eines ausgewählten Objekts als Basis.
 
--   <img alt="" src=images/Arch_CompRebarStraight.png  style="width:48px;"> [Rebar tools](Arch_CompRebarStraight.md): These tools are only available if the [Reinforcement Workbench](Reinforcement_Workbench.md) has been installed.
+-   <img alt="" src=images/Arch_CompRebarStraight.png  style="width:48px;"> [AuswahlBewehrung](Arch_CompRebarStraight/de.md): Diese Werkzeuge stehen nur zur Verfügung, wenn der Arbeitsbereich [Reinforcement](Reinforcement_Workbench/.md) (Bewehrung)installiert wurde.
 
-  - <img alt="" src=images/Arch_Rebar_Straight.svg  style="width:32px;"> [Straight Rebar](Arch_Rebar_Straight.md): Creates a straight reinforcement bar in a selected structural element.
+  - <img alt="" src=images/Arch_Rebar_Straight.png  style="width:32px;"> [Gerader Bewehrungsstab](Arch_Rebar_Straight/de.md): Erstellt einen geraden Bewehrungsstab in einem ausgewählten Strukturelement.
 
-  - <img alt="" src=images/Arch_Rebar_UShape.svg  style="width:32px;"> [U-Shape Rebar](Arch_Rebar_UShape.md): Creates a U-shape reinforcement bar in a selected structural element.
+  - <img alt="" src=images/Arch_Rebar_UShape.png  style="width:32px;"> [U-förmiger Bewehrungsstab](Arch_Rebar_UShape/de.md): Erstellt einen U-förmigen Bewehrungsstab in einem ausgewählten Strukturelement.
 
-  - <img alt="" src=images/Arch_Rebar_LShape.svg  style="width:32px;"> [L-Shape Rebar](Arch_Rebar_LShape.md): Creates an L-shape reinforcement bar in a selected structural element.
+  - <img alt="" src=images/Arch_Rebar_LShape.png  style="width:32px;"> [L-förmiger Bewehrungsstab](Arch_Rebar_LShape/de.md): Erstellt einen L-förmigen Bewehrungsstab in einem ausgewählten Strukturelement
 
   - <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Stirrup](Arch_Rebar_Stirrup.md): Creates a stirrup reinforcement bar in a selected structural element.
 
   - <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width:32px;"> [Bent-Shape Rebar](Arch_Rebar_BentShape.md): Creates a bent-shape reinforcement bar in a selected structural element.
 
-  - <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Helical Rebar](Arch_Rebar_Helical.md): Creates a helical reinforcement bar in a selected structural element.
+-   <img alt="" src=images/Arch_Rebar_Helical.png  style="width:32px;"> [Wendelförmiger Bewehrungsstab](Arch_Rebar_Helical/de.md): Erstellt einen wendelförmigen Bewehrungsstab in einem ausgewählten Strukturelement
 
   - <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Column Reinforcement](Arch_Rebar_ColumnReinforcement.md): Creates reinforcement bars in a selected rectangular column.
 
@@ -47,15 +51,15 @@ Dies sind Werkzeuge zum Erstellen von Architekturobjekten.
 
   - <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Custom Rebar](Arch_Rebar.md): Creates a custom reinforcement bar in a selected structural element using a sketch.
 
--   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Curtain Wall](Arch_CurtainWall.md): Creates a curtain wall from scratch or using a selected object as a base. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Curtain Wall](Arch_CurtainWall.md): Creates a curtain wall from scratch or using a selected object as a base.
 
--   <img alt="" src=images/Arch_BuildingPart.svg  style="width:32px;"> [Building Part](Arch_BuildingPart.md): Creates a building part including selected objects.
+-   <img alt="" src=images/Arch_BuildingPart.svg  style="width:32px;"> [Gebäudeteil](Arch_BuildingPart/de.md): Erstellt einen Gebäudeteil inklusive der ausgewählten Objekte.
 
--   <img alt="" src=images/Arch_Project.svg  style="width:32px;"> [Project](Arch_Project.md): Creates a project including selected objects.
+-   <img alt="" src=images/Arch_Project.svg  style="width:32px;"> [Projekt](Arch_Project/de.md): Erstellt ein Projekt inklusive der ausgewählten Objekte.
 
--   <img alt="" src=images/Arch_Site.svg  style="width:32px;"> [Site](Arch_Site.md): Creates a site including selected objects.
+-   <img alt="" src=images/Arch_Site.svg  style="width:32px;"> [Grundstück](Arch_Site/de.md): Erstellt ein Grundstück inklusive der ausgewählten Objekte.
 
--   <img alt="" src=images/Arch_Building.svg  style="width:32px;"> [Building](Arch_Building.md): Creates a building including selected objects.
+-   <img alt="" src=images/Arch_Building.svg  style="width:32px;"> [Building](Arch_Building.md): Erstellt ein Gebäude inklusive der ausgewählten Objekte.
 
 -   <img alt="" src=images/Arch_Floor.svg  style="width:32px;"> [Level](Arch_Floor.md): Creates a floor including selected objects.
 
@@ -93,11 +97,11 @@ Dies sind Werkzeuge zum Erstellen von Architekturobjekten.
 
 -   <img alt="" src=images/Arch_Frame.svg  style="width:32px;"> [Frame](Arch_Frame.md): Creates a frame object from a selected layout.
 
--   <img alt="" src=images/Arch_Fence.svg  style="width:32px;"> [Fence](Arch_Fence.md): Creates a fence object from a selected post and path. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_Fence.svg  style="width:32px;"> [Fence](Arch_Fence.md): Creates a fence object from a selected post and path.
 
--   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Truss](Arch_Truss.md): Creates a truss from a selected line or from scratch. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Truss](Arch_Truss.md): Creates a truss from a selected line or from scratch.
 
--   <img alt="" src=images/Arch_Profile.svg  style="width:32px;"> [Profile](Arch_Profile.md): Creates a parametric 2D profile. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_Profile.svg  style="width:32px;"> [Profile](Arch_Profile.md): Creates a parametric 2D profile.
 
 -   <img alt="" src=images/Arch_CompSetMaterial.png  style="width:48px;"> [Material tools](Arch_CompSetMaterial.md)
 
@@ -113,19 +117,23 @@ Dies sind Werkzeuge zum Erstellen von Architekturobjekten.
 
   - <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Connector](Arch_PipeConnector.md): Creates a corner or T-connection between 2 or 3 selected pipes.
 
+
+
 ### Änderungswerkzeuge
 
 Hier die Werkzeuge zur Änderung von Architekturobjekten:
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Cut with plane](Arch_CutPlane.md): Cuts an object according to a plane.
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line.
 
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Add component](Arch_Add.md): Adds objects to a component.
 
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Remove component](Arch_Remove.md): Subtracts or removes objects from a component.
 
 -   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Survey](Arch_Survey.md): Enters or leaves surveying mode.
+
+
 
 ### Hilfsmittel
 
@@ -157,31 +165,28 @@ Hier sind zusätzliche Hilfsmittel für spezifische Aufgaben:
 
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Toggle subcomponents](Arch_ToggleSubs.md): Shows or hides the subcomponents of an Arch object.
 
+
+
 ### Einstellungen
 
 -   <img alt="" src=images/Preferences-arch.svg  style="width:32px;"> [Einstellungen](Arch_Preferences/de.md): Einstellungen für das Standard-Aussehen von Wänden, Strukturen, Bewehrungen, Fenstern, Treppen, Paneelen, Rastern und Achsen.
 
+
+
 ### Dateiformate
 
-
-<div class="mw-translate-fuzzy">
-
--   [IFC](Arch_IFC/de.md) : Industrie Fundament Klassen
--   [DAE](Arch_DAE/de.md) : Collada Netz Format
--   [OBJ](Arch_OBJ/de.md) : Obj Netz Format (nur Export)
--   [JSON](Arch_JSON/de.md) : JavaScript JavaScript Objekt Notationsformat
-
-(nur Export)
-
--   [3DS](Arch_3DS/de.md) : 3DS Format (nur Import)
--   [SHP](Arch_SHP.md): GIS Formdateien (nur Import)
-
-
-</div>
+-   [IFC](Arch_IFC/de.md) : Industrie-Fundament-Klassen
+-   [DAE](Arch_DAE/de.md) : Collada-Netz-Format
+-   [OBJ](Arch_OBJ/de.md) : OBJ-Netz-Format (nur Export)
+-   [JSON](Arch_JSON/de.md) : JavaScript-Object-Notation-Format (nur Export)
+-   [3DS](Arch_3DS/de.md) : 3DS-Format (nur Import)
+-   [SHP](Arch_SHP.md): GIS-Formdateien (nur Import)
 
 ## API
 
 Der Arbeitsbereich Arch kann mit den Funktionen der [Arch Python API](http://www.freecadweb.org/api/Arch.html) in [Python](Python/de.md)-Skripten und [Makros](macros/de.md) verwendet werden.
+
+
 
 ## Übungen
 

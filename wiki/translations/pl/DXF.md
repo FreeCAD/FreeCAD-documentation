@@ -1,43 +1,55 @@
 # DXF/pl
 {{TOCright}}
 
-## Background history 
 
-The Drawing Exchange Format (DXF) is a proprietary CAD data format developed by Autodesk to enable file exchange between their flagship AutoCAD product and other software. There are a number of good software libraries for reading/writing the DXF format.
 
-There are many versions of the DXF format. You will hear of certain key versions, such as R12 (from 1992) or R14 (from 1997 which had splines). Later versions of DXF have 3D elements, but these are rarely used or implemented. How you use DXF to share CAD data between programs depends mainly on the limitations and bugs in the corresponding readers/importers and writers/exporters. These are rarely fully documented and can be a great source of frustration.
+## Tło historyczne 
 
-If you are editing DXF files and want them to remain almost the same when you save them, we recommend you use [LibreCAD](https://en.wikipedia.org/wiki/LibreCAD) or [QCad](https://en.wikipedia.org/wiki/QCad) because these programs\' internal data structures are compatible with the objects in the DXF file.
+Drawing Exchange Format *(DXF)* to zastrzeżony format danych CAD opracowany przez Autodesk w celu umożliwienia wymiany plików między ich flagowym produktem AutoCAD a innym oprogramowaniem. Istnieje wiele dobrych bibliotek oprogramowania do odczytu/zapisu formatu DXF.
 
-In FreeCAD the DXF readers must translate the geometry (e.g., spline shapes) from the DXF file into the specific internal representations of the Workbench.
+Istnieje wiele wersji formatu DXF. Można usłyszeć o niektórych kluczowych wersjach, takich jak R12 *(z 1992 r.)* lub R14 *(z 1997 r., która miała splajny)*. Późniejsze wersje DXF mają elementy 3D, ale są one rzadko używane lub wdrażane. Sposób wykorzystania DXF do udostępniania danych CAD między programami zależy głównie od ograniczeń i błędów w odpowiednich czytnikach / importerach i programach zapisujących / eksporterach. Rzadko są one w pełni udokumentowane i mogą być źródłem frustracji.
 
-## Methods for importing DXF to FreeCAD 
+Jeśli edytujesz pliki DXF i chcesz, aby pozostały prawie takie same po ich zapisaniu, zalecamy użycie [LibreCAD](https://en.wikipedia.org/wiki/LibreCAD) lub [QCad](https://en.wikipedia.org/wiki/QCad), ponieważ wewnętrzne struktury danych tych programów są kompatybilne z obiektami w pliku DXF.
 
-If you intend to review the settings frequently, we recommend you go to Edit → Preferences → Import-Export → DXF and tick the box \"\[ \] Show this dialog when importing and exporting\".
+W programie FreeCAD czytniki DXF muszą przetłumaczyć geometrię *(np. kształty splajnu)* z pliku DXF na określone wewnętrzne reprezentacje środowiska pracy.
 
-More information is on the pages [Draft DXF](Draft_DXF.md) and [FreeCAD and DXF Import](FreeCAD_and_DXF_Import.md).
 
-If you are using the imported geometry to build 3D shapes in the Part Design Workbench, try the [Sketcher Validate](Sketcher_ValidateSketch.md) after you have imported the DXF into a sketch.
 
-### C++ DXF importer 
+## Metody importowania DXF 
 
-This implementation of fast, but skips features it doesn\'t recognize, such as DXF splines. It also can only import geometry into the Draft Workbench as individual entries in the Model tree. These can have the colors read from the file if you tick to enable this option. For further information, see [this forum post](https://forum.freecadweb.org/viewtopic.php?f=3&t=32493).
+Jeśli zamierzasz często sprawdzać ustawienia, zalecamy przejście do menu **Edycja → Preferencje ...→ Import-Eksport → DXF** i zaznaczenie pola {{CheckBox|TRUE|}} Pokaż okno dialogowe podczas importowania i eksportowania.
 
-### Python DXF importer 
+Więcej informacji znajduje się na stronach [Rysunek Roboczy: DXF](Draft_DXF/pl.md) i [FreeCAD i import DXF](FreeCAD_and_DXF_Import/pl.md).
 
-This importer has to be downloaded and installed before it can be used. See [Dxf Importer Install](Dxf_Importer_Install.md), or use the \"\[ \] Allow FreeCAD to automatically download and update the DXF libraries\" option.
+Jeśli zaimportowana geometria jest używana do tworzenia kształtów 3D w środowisku pracy Projekt Części, po zaimportowaniu pliku DXF do szkicu należy użyć opcji [Sprawdź poprawność szkicu](Sketcher_ValidateSketch/pl.md).
 
-This importer has more features (such as implementing splines), and has the option of loading the DXF shapes into the Sketcher Workbench. However, be warned that all the elements of the sketch will appear individually a second time in the model tree, which can be confusing. You can delete all these individual objects and retain the single sketch (which appears as the second entry in the list of new elements).
 
-Unfortunately, the Sketcher Workbench does not implement colors, so all the geometry will appear on the same level, which is a problem if the file contains many construction lines. One work-around is to open your drawing in LibreCAD, and delete all the geometry you don\'t want to appear before saving a file that contains exactly the geometry that you want to load.
 
-### Macros
+### Importer C++ DXF 
 
-Keep an eye out on the FreeCAD forum or in the [Macros recipes](Macros_recipes.md) for alternative implementations of DXF importing and cleaning up as they develop.
+Ta implementacja jest szybka, ale pomija funkcje, których nie rozpoznaje, takie jak splajny DXF. Może również importować geometrię do środowiska pracy Rysunek Roboczy tylko jako pojedyncze wpisy w drzewie modelu. Kolory mogą być odczytywane z pliku po zaznaczeniu tej opcji. Aby uzyskać więcej informacji, zobacz [ten post na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=32493).
 
-## Saving DXF 
 
-In addition to the options under the Edit → Preferences, the [TechDraw Workbench](TechDraw_Workbench.md) can also export drawing pages to DXF using the [TechDraw ExportPageDXF](TechDraw_ExportPageDXF.md) function.
+
+### Importer DXF w Pythonie 
+
+Ten importer musi zostać pobrany i zainstalowany, zanim będzie można z niego korzystać. Zobacz stronę [Instalacja importera Dxf](Dxf_Importer_Install/pl.md) lub użyj opcji {{CheckBox|TRUE|}} Pozwól programowi FreeCAD na automatyczne pobieranie i aktualizację bibliotek DXF.
+
+Ten importer ma więcej funkcji *(takich jak implementacja splajnów)* i ma opcję ładowania kształtów DXF do środowiska pracy Szkicownik. Należy jednak pamiętać, że wszystkie elementy szkicu pojawią się pojedynczo po raz drugi w drzewie modelu, co może być mylące. Możesz usunąć wszystkie te pojedyncze obiekty i zachować pojedynczy szkic *(który pojawi się jako drugi wpis na liście nowych elementów)*.
+
+Niestety, Szkicownik nie implementuje kolorów, więc cała geometria pojawi się na tym samym poziomie, co stanowi problem, jeśli plik zawiera wiele linii konstrukcyjnych. Jednym z obejść jest otwarcie rysunku w LibreCAD i usunięcie całej geometrii, której nie chcesz wyświetlać, przed zapisaniem pliku zawierającego dokładnie tę geometrię, którą chcesz załadować.
+
+
+
+### Makrodefinicje
+
+Miej oko na forum FreeCAD lub [Przepisy na makropolecenia](Macros_recipes/pl.md) na alternatywne implementacje importowania i czyszczenia DXF w miarę ich rozwoju.
+
+
+
+## Zapis DXF 
+
+Oprócz opcji w menu **Edycja → Preferencje ...**, środowisko pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) może również eksportować strony rysunku do DXF za pomocą funkcji [Eksport strony do DXF](TechDraw_ExportPageDXF/pl.md).
 
 
 

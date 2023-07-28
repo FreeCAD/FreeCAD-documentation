@@ -1,7 +1,4 @@
 # Qt Example/de
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/de
 |Name=Makro Qt Beispiel
 |Icon=MEPlan.png
@@ -10,7 +7,8 @@
 |Version=0.4
 |Date=2019-06-19
 |FCVersion=Alle
-|Download=[https://www.freecadweb.org/wiki/images/a/a7/MEpipe01.png MEpipe01]<br />
+|Download=<br />
+[https://www.freecadweb.org/wiki/images/a/a7/MEpipe01.png MEpipe01]<br />
 [https://www.freecadweb.org/wiki/images/5/5b/MEpipe02.png MEpipe02]<br />
 [https://www.freecadweb.org/wiki/images/e/e4/MEPlan.png MEPlan]<br />
 [https://www.freecadweb.org/wiki/images/3/30/MEPlanD.png MEPlanD]<br />
@@ -19,38 +17,14 @@
 [https://www.freecadweb.org/wiki/images/f/f2/MEPlanI.png MEPlanI]<br />
 [https://www.freecadweb.org/wiki/images/e/e6/MEPlanFC.png MEPlanFC]<br />
 [https://www.freecadweb.org/wiki/images/d/d2/MEPlanPY.png MEPlanPY]
-|SeeAlso=[Dialog_Erstellung](Dialog_creation/de.md)
+|SeeAlso=[Dialogerstellung](Dialog_creation/de.md)
 }}
-
-
-</div>
 
 Dieses Makro ist ein Beispiel für die Verwendung von Qt Befehlen, deren Verbindungen, Extraktion und Datenzuweisung.
 
-
-<div class="mw-translate-fuzzy">
-
-
-<center>
-
 Image:Qt_Example_00.png\|Qt Beispiel Image:Qt_Example_01.png\|Qt Beispiel Details
 
-
-</center>
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Werden behandelt :
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Werden behandelt:
 
 1.  **icon for window** : Das im Hauptfenster angezeigte Symbol
 2.  **horizontalSlider** : horizontaler Schieberegler seine Verbindung und Datenextraktion / Zuweisung
@@ -62,23 +36,14 @@ Werden behandelt :
 8.  **doubleSpinBox** : doubleSpinBox seine Verbindung und Datenextraktion / Zuweisung
 9.  **doubleSpinBox** :
 10. **doubleSpinBox** :
-11. **buttom** : buttom seine Verbindung
-12. **buttom** :
+11. **button** : button seine Verbindung
+12. **button** :
 13. **radioButton** : Drehknoppf mit Symbolen seine Verbindung und angehakt
 14. **checkBox** : Kontrollkästchen mit Symbol seine Verbindung angehakt und nicht angehakt
 15. **textEdit** : Textbearbeitung seiner Verbindung und Datenextraktion / Zuweisung
 16. **graphicsView** : graphische Ansicht mit 2 Diagrammen und Methode zur Änderung des Bildes
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Die verwendeten Werkzeuge sind :
-
-
-</div>
+Die verwendeten Werkzeuge sind:
 
 [python-2.7.8](https://www.python.org/downloads/)
 
@@ -86,13 +51,7 @@ Die verwendeten Werkzeuge sind :
 
 Um die Datei .ui in .py zu konvertieren, musst du **pyuic.py** verwenden, befindet sich in \"C:\\Python27\\Lib\\site-packages\\PyQt4\\uic\\pyuic.py\" (für Windows)
 
-
-<div class="mw-translate-fuzzy">
-
-Du kannst eine Datei convertuitopy.bat erstellen, um den Prozess zu automatisieren
-
-
-</div>
+Du kannst eine Datei convertuitopy.bat erstellen, um den Prozess zu automatisieren:
 
 **1:** Erstelle eine neue Datei in deinem Qt Arbeitsverzeichnis und nenne sie **convertuitopy.bat**
 
@@ -104,27 +63,25 @@ Du kannst eine Datei convertuitopy.bat erstellen, um den Prozess zu automatisier
 
 **4:** monprojet.py Deine Datei wird erstellt
 
+
+
 ### Die verwendeten Symbole 
 
 ![](images/MEpipe01.png ) ![](images/MEpipe02.png ) ![](images/MEPlan.png ) ![](images/MEPlanD.png ) ![](images/MEPlanF.png ) ![](images/MEPlanT.png ) ![](images/MEPlanI.png )
 
 ![](images/MEPlanFC.png ) ![](images/MEPlanPY.png )
 
-
-<div class="mw-translate-fuzzy">
-
-Du musst die Bilder in dasselbe Verzeichnis wie das Makro kopieren und einfügen, hier :
-
-
-</div>
+Du musst die Bilder in dasselbe Verzeichnis wie das Makro kopieren und einfügen, hier:
 
 Linux : \"**home/user/.FreeCAD/Macro**\"
 
 Windows : \"**C:\\Users\\UserName\\AppData\\Roaming\\FreeCAD\\Macro**\"
 
+
+
 ## Skript
 
-The contents of the file **Qt_Example.FCMacro** are given below:
+Der Inhalt der Datei **Qt_Example.FCMacro** ist hierunter angegeben:
 
 
 {{MacroCode|code=

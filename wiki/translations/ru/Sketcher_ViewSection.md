@@ -12,12 +12,16 @@
 
 </div>
 
+
+
 ## Описание
 
 Инструмент **Обзор сечения** создает плоскость сечения, которая временно скрывает любые материалы перед плоскостью эскиза.
 
 <img alt="" src=images/Sketcher_ViewSection1.png  style="width:300px;"> <img alt="" src=images/Sketcher_ViewSection2.png  style="width:320px;"> 
 *Частично скрытый эскиз и полностью видимый эскиз*
+
+
 
 ## Применение
 
@@ -30,7 +34,13 @@
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher_Tools_navi

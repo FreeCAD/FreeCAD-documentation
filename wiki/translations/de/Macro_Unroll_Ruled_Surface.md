@@ -1,106 +1,56 @@
 # Macro Unroll Ruled Surface/de
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/de
 |Name=Macro Unroll Ruled Surface
 |Translate=Makro Abwickeln Regelfläche
-|Description=Das Makro ermöglicht das Abrollen von Regelflächen und das Zeichnen auf einer Seite.
-|Author=Hervé B.
-|Version=1.0
-|Date=2013-09-14
+|Description=Das Makro ermöglicht das Abwickeln von Regelflächen und das Darstellung uf einer Zeichnung.
+|Author=Hervé B., heda
+|Version=1.1
+|Date=2022-07-24
 |Download=[https://www.freecadweb.org/wiki/images/b/ba/Macro_Unroll_Ruled_Surface.png ToolBar-Icon]
 }}
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-Das Makro ermöglicht es, die Flächen auszurollen und sie auf die Seite zu zeichnen.
-
-
-</div>
-
-<img alt="" src=images/Macro_unrollRuledSurface_00.png  style="width:480px;">
-
-
-<div class="mw-translate-fuzzy">
+Das Makro ermöglicht es, die Flächen abzuwickeln und sie auf einer Zeichnung abzubilden.
 
 <img alt="" src=images/Macro_unrollRuledSurface_00.png  style="width:480px;"> 
-*Macro_unrollRuledSurface*
-
-
-</div>
+*Macro Unroll Ruled Surface*
 
 ## Installation
 
+Erhältlich im [Addon-Manager](Std_AddonMgr.md).
 
-<div class="mw-translate-fuzzy">
-
-### Installation 
-
-Kopieren Sie die Datei in das Makroverzeichnis:
-
--   **Linux & Mac** : \$home/.Freecad/Mod/UnrollRuledSurface.
--   **Windows** : C:\\Program Files\\FreeCAD0.13
-
-Add templates : A3_Landscape_Empty.svg A3_Landscape.svg A4_Landscape_Empty.svg A4_Landscape.svg
-Cf [Macro for unrolling ruled surfaces](http://forum.freecadweb.org/viewtopic.php?f=17&t=4563&p=35737#p35737)
+Siehe auch: [Macro for unrolling ruled surfaces](http://forum.freecadweb.org/viewtopic.php?f=17&t=4563&p=35737#p35737).
 
 
-</div>
-
-See also: [Macro for unrolling ruled surfaces](http://forum.freecadweb.org/viewtopic.php?f=17&t=4563&p=35737#p35737).
-
-## Options
-
-
-<div class="mw-translate-fuzzy">
 
 ## Optionen
 
--   Anzahl der Generatoren
--   Manuelle oder automatische Skalierung
--   Format Seite: a3/a4, Cartridge (siehe FreeCAD Vorlagen)
--   Gruppieren der Zeichnungen auf derselben Seite ist möglich.
-
-
-</div>
+-   Anzahl der Mantellinien
+-   Manuell oder automatisch Skalieren
+-   Blattformat: A4/A3, Cartridge (siehe FreeCAD-Vorlagen)
+-   Gruppierte Zeichnungen auf demselben Blatt sind möglich.
 
 ![Macro_unrollRuledSurface](images/Macro_UnrollRuledSurface_start_form.png )
 
-## Usage
 
 
-<div class="mw-translate-fuzzy">
+## Anwendung
 
-## Verwenden
-
-1.  Wählen Sie die zu entrollende Oberfläche aus
-2.  Explodiere das Gesicht in einem einfachen Objekt (siehe Menü Entwurf)
-3.  Wählen Sie die Oberflächen aus
-4.  Führe das Makro aus
+1.  Regelflächen auswählen.
+2.  Diese mit [Draft Herabstufen](Draft_Downgrade/de.md) (in Flächen) umwandeln.
+3.  Die Flächen auswählen.
+4.  Das Makro ausführen
 
 
-</div>
 
 ## Script
 
+Die neueste Version des Makros ist hier im Wiki zu finden. Eine ältere Version findet man unter [UnrollRuledSurface.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro), aber der einfachste Weg zur Installation dieses Makros ist die Verwendung des <img alt="Std_AddonMgr/de" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Managers](Std_AddonMgr/de.md).
 
-<div class="mw-translate-fuzzy">
-
-Die neueste Version des Makros ist zu finden auf [UnrollRuledSurface.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro), aber der einfachste Weg zur Installation dieses Makros ist die Nutzung des [Addon-Managers](Std_AddonMgr/de.md) <img alt="Std_AddonMgr/de" src=images/Std_AddonMgr.svg  style="width:24px;">.
-
-
-</div>
-
-ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
+Werkzeugleistensymbol ![](images/Macro_Unroll_Ruled_Surface.png )
 
 **Macro_unrollRuledSurface.py**
 

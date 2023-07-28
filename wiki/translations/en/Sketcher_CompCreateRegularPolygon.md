@@ -1,8 +1,6 @@
 ---
 - GuiCommand:
-   Name:Sketcher Regular Polygons
-   Icon:Sketcher_CompCreateRegularPolygon.png
-   MenuLocation:
+   Name:Sketcher CompCreateRegularPolygon
    Workbenches:[Sketcher](Sketcher_Workbench.md)
 ---
 
@@ -10,7 +8,7 @@
 
 ## Description
 
-**Create a regular polygon** is an icon button in the Sketcher geometries toolbar that groups tools to create a regular polygon. Click on the down arrow to its right to expand the icons below it and select a tool.
+**Create regular polygon** is an icon button in the Sketcher geometries toolbar that groups tools to create a regular polygon. Click on the down arrow to its right to expand the icons below it and select a tool.
 
 ## Types of regular polygons 
 

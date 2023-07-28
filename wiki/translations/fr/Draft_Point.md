@@ -15,6 +15,8 @@ La commande <img alt="" src=images/Draft_Point.svg  style="width:24px;"> **Draft
 
 <img alt="" src=images/Draft_point_example.jpg  style="width:400px;">
 
+
+
 ## Utilisation
 
 Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
@@ -35,9 +37,13 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour interrompre la commande.
 
+
+
 ## Remarques
 
--   Utilisez <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Draft Aimantation Le plus proche](Draft_Snap_Near/fr.md) ({{VersionMinus/fr|0.20}}) ou <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:16px;"> [Draft Draft Aimantation Terminaison](Draft_Snap_Endpoint/fr.md) ({{VersionPlus/fr|1.0}}) pour s\'aimanter aux Draft points.
+-   Utilisez <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Draft Aimantation Le plus proche](Draft_Snap_Near/fr.md) ({{VersionMinus/fr|0.20}}) ou <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:16px;"> [Draft Draft Aimantation Terminaison](Draft_Snap_Endpoint/fr.md) ({{VersionPlus/fr|0.21}}) pour s\'aimanter aux Draft points.
+
+
 
 ## Préférences
 
@@ -45,11 +51,15 @@ Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Pr
 
 -   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : **Edition → Préférences... → Général → Unités → Systèmes d'unités → Nombre de décimales**.
 
+
+
 ## Propriétés
 
 Voir aussi: [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet Draft Point est dérivé d\'un [Part Part2DObject](Part_Part2DObject/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 
@@ -62,6 +72,8 @@ Un objet Draft Point est dérivé d\'un [Part Part2DObject](Part_Part2DObject/fr
 
 -    **Z|Distance**: spécifie la coordonnée Z du point.
 
+
+
 ### Vue
 
 
@@ -70,6 +82,8 @@ Un objet Draft Point est dérivé d\'un [Part Part2DObject](Part_Part2DObject/fr
 -    **Pattern|Enumeration**: non utilisé.
 
 -    **Pattern Size|Float**: non utilisé.
+
+
 
 ## Script
 

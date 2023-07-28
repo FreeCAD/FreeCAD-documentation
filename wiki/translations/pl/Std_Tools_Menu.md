@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 **Menu Przybory** jest jednym z siedmiu pozycji w [Menu głównym](Standard_Menu/pl.md):
@@ -27,13 +29,17 @@
 
 Menu Przybory dostarcza narzędzi do diagnozowania modeli, dostosowywania zachowania programu FreeCAD, a także narzędzi pomocniczych.
 
+
+
 ## Przybory
 
 W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_DlgParameter.svg  style="width:32px;"> [Edycja parametrów \...](Std_DlgParameter/pl.md): Otwiera okno dialogowe dające dostęp do parametrów sterujących programem.
 
--   <img alt="" src=images/Std_ViewScreenShot.svg  style="width:32px;"> [Zapisz obrazek \...](Std_ViewScreenShot/pl.md): Zapisuje zrzut bieżącego [widoku okna 3D](3D_view.md).
+-   <img alt="" src=images/Std_ViewScreenShot.svg  style="width:32px;"> [Zapisz obrazek \...](Std_ViewScreenShot/pl.md): Zapisuje zrzut bieżącego [widoku okna 3D](3D_view/pl.md).
+
+-   <img alt="" src=images/Std_ViewLoadImage.svg  style="width:32px;"> [Podgląd obrazka \...](Std_ViewLoadImage/pl.md): Wczytuje grafikę. {{Version/pl|0.21}}
 
 -   <img alt="" src=images/Std_SceneInspector.svg  style="width:32px;"> [Inspektor sceny \...](Std_SceneInspector/pl.md): Wyświetla przegląd węzłów scenograficznych aktywnego widoku 3D.
 

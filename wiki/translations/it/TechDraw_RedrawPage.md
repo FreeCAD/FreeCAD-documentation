@@ -12,11 +12,19 @@
 
 </div>
 
+
+
 ## Descrizione
+
+
+<div class="mw-translate-fuzzy">
 
 Lo strumento Ridisegna impone un aggiornamento della Pagina nonostante le impostazioni contrarie di KeepUpdated (proprietà Pagina), Aggiorna con 3D (parametro) o Consenti sostituzione pagina (parametro).
 
-Questo strumento è stato rimosso nella versione 0.18, ma reimplementato nella versione 0.19.
+
+</div>
+
+
 
 ## Utilizzo
 
@@ -28,10 +36,6 @@ Questo strumento è stato rimosso nella versione 0.18, ma reimplementato nella v
 
 
 </div>
-
-## Script
-
-Il comando Ridisegna non è direttamente disponibile negli script.
 
 
 <div class="mw-translate-fuzzy">

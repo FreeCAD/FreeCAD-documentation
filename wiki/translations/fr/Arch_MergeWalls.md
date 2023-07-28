@@ -13,23 +13,29 @@
 
 L\'outil [Fusionner des Murs](Arch_MergeWalls/fr.md) fusionne deux ou plusieurs **<img src="images/Arch_Wall.svg" width=16px>[Arch Murs](Arch_Wall/fr.md)** sélectionnés.
 
+
+
 ## Utilisation
 
 1.  Sélectionnez deux ou plusieurs murs.
 2.  Appuyez sur le bouton **<img src="images/Arch_MergeWalls.svg" width=16px>** ou utilisez le **Arch** → **Utilitaires** → **<img src="images/Arch_MergeWalls.svg" width=16px> [Fusionner des murs](Arch_MergeWalls/fr.md)** dans le menu supérieur.
 
+
+
 ## Propriétés
 
 ## Limitations
+
+
 
 ## Script
 
 
 **Voir aussi :**
 
-[Arch API](Arch_API.md) et [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-Cet outil peut être utilisé dans des [macros](macros.md) et à partir de la console [Python](Python.md) à l\'aide de la fonction suivante : 
+Cet outil peut être utilisé dans une [macro](Macros/fr.md) et utilisé dans la console [Python](Python/fr.md) en utilisant la fonction : 
 ```python
 base = joinWalls(walls, delete=False)
 ```

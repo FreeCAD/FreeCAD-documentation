@@ -13,11 +13,15 @@
 
 
 
+
+
 ## Einführung
 
 Dieses Tutorium erklärt, wie man Mittellinien unter Verwendung des <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) an ausgerichteten Bohrungen erstellt.
 
 Beim Erstellen von Bohrungswinkeln ist es nicht möglich, vertikale oder horizontale Mittellinien (false/true) aus den Ansichtseigenschaften zu verwenden. Für diese Notwendigkeit werden Hilfslinien und/oder Hilfspunkte erstellt.
+
+
 
 ## Vorgehensweise
 
@@ -51,4 +55,4 @@ Quadrantenpunkte wähle mit <img alt="" src=images/TechDraw_Quadrants.svg  style
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Measurement Of Angles On Holes/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Measurement Of Angles On Holes/de

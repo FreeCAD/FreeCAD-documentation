@@ -17,6 +17,8 @@ Comanda SelectLoop completează o selecție de margini care formează o buclă.
 
 </div>
 
+
+
 ## Utilizare
 
 

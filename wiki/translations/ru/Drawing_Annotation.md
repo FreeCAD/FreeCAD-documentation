@@ -12,9 +12,13 @@
 
 </div>
 
+
+
 ## Описание
 
 Эта команда позволяет поместить текстовый блок на [чертёжный лист](Drawing_Landscape_A3/ru.md).
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -28,6 +32,8 @@
 2.  [Refresh](Std_Refresh.md) the view if a Drawing view wasn\'t opened
 3.  Press the **<img src="images/Drawing_Annotation.png" width=16px> [Drawing Annotation](Drawing_Annotation.md)** button
 4.  Adjust the desired properties, such as text contents, font, size and position.
+
+
 
 ## Ограничения
 

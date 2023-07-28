@@ -17,6 +17,8 @@
 
 
 
+
+
 ## Introduzione
 
 Questo tutorial mostra come produrre un\'immagine renderizzata in FreeCAD, usando il renderizzatore POV-Ray. Si presuppone che l\'utente abbia già creato una parte o un assieme in FreeCAD o ne abbia importato una in esso. Usa l\'ambiente [Raytracing](Raytracing_Workbench/it.md) per produrre il file per il rendering.
@@ -877,9 +879,11 @@ The user is advised to read the POV-Ray documentation and more tutorials or exam
 -   [POV-Ray Reference](http://www.povray.org/documentation/3.7.0/r3_0.html)
 
 
- {{Raytracing Tools navi}}
+{{Raytracing Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Raytracing](Category_Raytracing.md) > Tutorial FreeCAD POV ray/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Tutorial FreeCAD POV ray/it

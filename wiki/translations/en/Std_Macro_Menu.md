@@ -37,7 +37,7 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:32px;"> [Macros\...](Std_DlgMacroExecute.md): Opens a dialog box to manage and execute macros.
 
--   Recent macros: shows a list of macros recently used, which can be called with a key combination, for example, **Ctrl**+**Shift**+**1**. This can be configured in the [Preferences](Preferences_Editor.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Std_RecentMacros.svg  style="width:32px;"> Recent macros: shows a list of macros recently used, which can be called with a key combination, for example, **Ctrl**+**Shift**+**1**. This can be configured in the [Preferences](Preferences_Editor.md).
 
 -   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:32px;"> [Execute macro](Std_DlgMacroExecuteDirect.md): Executes the macro currently in the Python editor.
 

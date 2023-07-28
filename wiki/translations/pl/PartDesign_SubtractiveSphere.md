@@ -1,47 +1,56 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign SubtractiveSphere
-   MenuLocation:Part Design → Create a subtractive primitive → Subtractive Sphere
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Subtraktywna sfera
+   MenuLocation:Projekt Części → Utwórz cechę przez odjęcie → Subtraktywna sfera
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign AdditiveSphere](PartDesign_AdditiveSphere.md)
+   SeeAlso:[Komponent bryła pierwotna do odjęcia](PartDesign_CompPrimitiveSubtractive/pl.md), [Addytywna sfera](PartDesign_AdditiveSphere/pl.md)
 ---
 
 # PartDesign SubtractiveSphere/pl
 
-## Description
 
-Inserts a subtractive sphere in the active Body. Its shape is subtracted from the existing solid.
 
-![](images/PartDesign_SubtractiveSphere_example.svg ) *On the left: active body (A) shown in grey and subtractive sphere (B) shown in transparent red; result on the right.*
+## Opis
 
-## Usage
+Funkcja ta wstawia pierwotną sferę odejmowaną od aktywnej Zawartości. Jej kształt jest odejmowany od istniejącej bryły.
 
-1.  Press the **<img src="images/PartDesign_SubtractiveSphere.svg" width=24px> '''Subtractive Sphere'''** button. **Note**: the Subtractive Sphere is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get the Sphere, click on the down arrow besides the visible icon and select Subtractive Sphere in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  A Sphere feature appears under the active Body.
+![](images/PartDesign_SubtractiveSphere_example.svg ) *Po lewej: aktywna zawartość (A) pokazana w kolorze szarym i sfera do odjęcia (B) pokazana w kolorze czerwonym z przeźroczystością. Wynik po prawej*.
 
-## Options
 
-The Sphere can be edited after its creation in two ways:
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
+## Użycie
 
-## Properties
+1.  Naciśnij przycisk **<img src="images/PartDesign_SubtractiveSphere.svg" width=24px> '''Subtraktywna sfera'''**. **Uwaga**: Subtraktywna sfera jest częścią menu narzędzi o nazwie **Utwórz bryłę pierwotną do odjęcia**. Po uruchomieniu programu FreeCAD, Subtraktywny prostopadłościan wyświetlany jest na pasku narzędzi domyślnie. Aby przejść do funkcji Sfera, kliknij strzałkę w dół na widocznej ikonce i wybierz z menu opcję Addytywny walec.
+2.  Ustaw parametry bryły i [dołączenia](Part_EditAttachment/pl.md).
+3.  Kliknij **OK**.
+4.  Pod aktywnym obiektem Zawartość pojawi się element Sfera.
 
--    **Attachment**: defines the attachment mode as well as the Attachment Offset. See [Part EditAttachment](Part_EditAttachment.md).
 
--    **Label**: Label given to the Sphere object. Change to suit your needs.
 
--    **Radius**: Radius of the sphere.
+## Opcje
 
--    **Angle1**: (labelled *V parameter* in the Primitive parameters) lower truncation of the sphere, parallel to the circular cross section (-90 degrees in a full sphere)
+Sferę można edytować po jej utworzeniu na dwa sposoby:
 
--    **Angle2**: (unlabelled in the Primitive parameters) upper truncation of the sphere, parallel to the circular cross section (90 degrees in a full sphere).
+-   Klikając go dwukrotnie w drzewie modelu lub klikając prawym przyciskiem myszy i wybierając **Edytuj bryłę pierwotną** z menu podręcznego. Spowoduje to wyświetlenie parametrów bryły pierwotnej.
+-   Poprzez [Edytor właściwości](Property_editor/pl.md).
 
--    **Angle3**: (labelled *U parameter* in the Primitive parameters) angle of rotation of the cross section (360 degrees in a full sphere).
+
+
+## Właściwości
+
+-    **Dołączenie**: definiuje tryb dołączania, a także przesunięcie dołączania. Zobacz też [Część: Edycja mocowania](Part_EditAttachment/pl.md).
+
+-    **Etykieta**: Etykieta nadana obiektowi Sfery. Zmień zgodnie z własnymi potrzebami.
+
+-    **Promień**: Promień sfery.
+
+-    **Kąt1**: *(oznaczony jako **parametr V** w parametrach Primitywu)* dolne obcięcie kuli, równoległe do przekroju kołowego *(-90° w pełnej kuli)*.
+
+-    **Kąt2**: *(nieoznaczony w parametrach Primitywu)* górne obcięcie sfery, równoległe do przekroju kołowego *(90° w pełnej sferze)*.
+
+-    **Kąt3**: *(oznaczony jako **parameter U** w parametrach Primitywu)* kąt obrotu przekroju poprzecznego *(360° w pełnej kuli)*.
 
 
 

@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrição
 
 This tool draws a line by picking two points in the [3D view](3D_view.md). When starting the tool, the mouse pointer changes to a white cross with a red line icon. Besides are coordinates shown in real time.

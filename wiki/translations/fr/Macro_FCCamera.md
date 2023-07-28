@@ -2,7 +2,7 @@
 {{Macro/fr
 |Name=Macro FCCamera
 |Icon=FCCamera_00.png
-|Description={{ColoredText|#ff0000|#ffffff|New version GUI modifyed for the HD dpi (QGridLayout) run only FC version 0.18 and more (PySide2 Qt5)}}<br/>For the precedent version see [https://gist.githubusercontent.com/mario52a/4aa545c23b323cf68824/raw/42dc3ef73dc8db463a03b175f5a7f1f6978e3293/Macro%2520FCCamera.FCMacro FCCamera] and install it manually.<br/><br/>
+|Description={{ColoredText|#ff0000|#ffffff|Nouvelle version de l'interface modifiée pour HD dpi (QGridLayout) fonctionnant uniquement avec FC version 0.18 et plus (PySide2 Qt5)}}<br/>Pour les versions précédentes, voir [https://gist.githubusercontent.com/mario52a/4aa545c23b323cf68824/raw/42dc3ef73dc8db463a03b175f5a7f1f6978e3293/Macro%2520FCCamera.FCMacro FCCamera] et l'installer manuellement.<br/><br/>
 Cette macro peut faire pivoter l'écran selon un angle défini et l'axe défini et crée un plan pour faire face à l'écran afin de créer un formulaire dans les positions du plan spécifiées : la face sélectionnée faisant face à l'écran, pour détecter la position de la caméra, aligner la vue sur la face ou sur l'axe, aligner l'objet à voir.
 |Author=Mario52
 |Version=0.14
@@ -13,53 +13,61 @@ Cette macro peut faire pivoter l'écran selon un angle défini et l'axe défini 
 
 ## Description
 
-Cette macro peut faire pivoter l\'écran dans un angle et axe défini et crée un plan face à l\'écran pour créer un objet dans les positions réglées, positionner la face sélectionnée face à l\'écran, peut détecter la position de la caméra, aligner la vue de la face ou de l\'axe face à l\'écran et de modifier les paramètres (Lacet, Tangage, Roulis) de l\'objet pour l\'aligner dans la position de la camera.
+Cette macro permet de faire pivoter l\'écran selon un angle et un axe définis et de créer un plan face à l\'écran pour créer une forme dans le plan spécifié, de positionner la face sélectionnée face à l\'écran, de détecter la position de la caméra, d\'aligner la vue sur la face ou sur l\'axe, d\'aligner l\'objet sur la vue.
 
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/4aa545c23b323cf68824/raw/98d90ee303e9fa5d6aed6e9f2e36e7ca1a18ca19/Macro%2520FCCamera.FCMacro}}
 
+
+
 ## Utilisation
 
-![FCCamera](images/Macro_FCCamera_00.png )
+<img alt="FCCamera" src=images/Macro_FCCamera_00.png  style="width:250px;">
 
-**Camera of Axis**: Boîte de dialogue pour entrer les valeurs de rotation en degrés (la rotation se fait sur un angle à la fois).
+**Camera of Axis** : boîte de dialogue pour entrer les valeurs de rotation en degrés (la rotation se fait sur un angle à la fois).
 
-**Angle de rotation de l\'axe en degrés**: sélectionneé l\'axe de rotation **X, Y,** ou **Z**.
+**Angle de rotation de l\'axe en degrés** : sélectionner l\'axe de rotation **X**, **Y** ou **Z**.
 
 **Axe of rotation**
 
--   <img alt="" src=images/FCCamera_01.png  style="width:24px;"> **Accept the rotation** : Effectue la rotation dans l\'angle donné.
+-   <img alt="" src=images/FCCamera_01.png  style="width:24px;"> **Accept the rotation** : effectue la rotation selon l\'angle donné.
 
 **Virtual**
 
--   <img alt="" src=images/FCCamera_02.png  style="width:24px;"> **Detect camera orientation** : Detecte l\'orientation de la camera et affiche les résultats dans la vue rapport. Les valeurs retournées proviennent de la fonction **getCameraOrientation()**.
+-   <img alt="" src=images/FCCamera_02.png  style="width:24px;"> **Detect camera orientation** : détecte l\'orientation de la camera et affiche les résultats dans la vue rapport. Les valeurs retournées proviennent de la fonction **getCameraOrientation()**.
 
 **Align view to face selected**
 
--   <img alt="" src=images/FCCamera_03.png  style="width:24px;"> **To Face.** : Aligne la face sélectionnée sur la vue 3D (face à l\'écran). Chaque clic change la vue de l\'objet sélectionné pour **NormalAt** : \"(0,0,1) (0,0,-1) (0,1,0) (0,-1,0) (1,0,0) (-1,0,0)\"
+-   <img alt="" src=images/FCCamera_03.png  style="width:24px;"> **To Face.** : aligne la face sélectionnée sur la vue 3D (face à l\'écran). Chaque clic change la vue de l\'objet sélectionné pour **NormalAt** : \"(0,0,1) (0,0,-1) (0,1,0) (0,-1,0) (1,0,0) (-1,0,0)\"
 
--   <img alt="" src=images/FCCamera_04.png  style="width:24px;"> **To Axis.** : Aligne sur la vue 3D l\'axe de la face sélectionnée (face à l\'écran). Chaque clic change la vue de l\'objet sélectionné pour **Surface Axis** : \"(0,0,1) (0,0,-1) (0,1,0) (0,-1,0) (1,0,0) (-1,0,0)\"
+-   <img alt="" src=images/FCCamera_04.png  style="width:24px;"> **To Axis.** : aligne la vue sur la face de l\'axe sélectionnée. (face à l\'écran). Chaque clic change la vue de l\'objet sélectionné pour **Surface Axis** : \"(0,0,1) (0,0,-1) (0,1,0) (0,-1,0) (1,0,0) (-1,0,0)\"
 
--   <img alt="" src=images/FCCamera_05.png  style="width:24px;"> **Align object to view.** : Aligne l\'objet sélectionné à la vue actuelle. Les valeurs modifiées sont : Rotation Axis((X, Y, Z), Angle) même que Euler angles : Lacet (Yaw), Tangage (Pitch), Roulis (Roll), la translation n\'est pas modifiée.
+-   <img alt="" src=images/FCCamera_05.png  style="width:24px;"> **Align object to view.** : aligne l\'objet sélectionné à la vue en cours. Les valeurs modifiées sont : Rotation Axis((X, Y, Z), Angle), Euler angles identiques : Lacet (Yaw), Tangage (Pitch), Roulis (Roll), la translation n\'est pas modifiée.
 
--   <img alt="" src=images/FCCamera_06.png  style="width:24px;"> **Create plane of view.** : Un plan circulaire est créé face à l\'écran aux coordonnées du clic de souris sur l\'objet. Le rayon du plan circulaire est égal à la plus grande dimension du BoundBox. Si aucun objet n\'est sélectionné le plan est créé aux coordonnées 0, 0, 0 avec un rayon de 20 mm. Le rayon du plan par défaut peut être modifié à la ligne 515:
+-   <img alt="" src=images/FCCamera_06.png  style="width:24px;"> **Create plane of view.** : un plan circulaire est créé face à l\'écran aux coordonnées du clic de souris sur l\'objet. Le rayon du plan circulaire est égal à la plus grande dimension du boîte englobante. Si aucun objet n\'est sélectionné le plan est créé aux coordonnées 0, 0, 0 avec un rayon de 20 mm. Le rayon du plan par défaut peut être modifié à la ligne 515 :
 
 
 ```python
         rayon = 20                            # Radius of plane
 ```
 
--   <img alt="" src=images/FCCamera_07.png  style="width:24px;"> **Reset.** : Reset toutes les valeurs.
--   <img alt="" src=images/FCCamera_08.png  style="width:24px;"> **Quit.** : Quitte FCCamera.
+-    **[<img src=images/FCCamera_07.png style="width:24px"> Reset.**: réinitialise toutes les valeurs
+
+-    **[<img src=images/FCCamera_00.png style="width:24px"> Photo.**: section enregistrant la rotation de l\'écran d\'une image en valeur d\'angle
+
+-    **[<img src=images/FCCamera_08.png style="width:24px"> Quit.**: quitter FCCamera
+
+
+
 
 ## Section Photo 
 
-![FCCamera](images/Macro_FCCamera_00b.png ) 
+<img alt="FCCamera" src=images/Macro_FCCamera_00b.png  style="width:250px;"> 
 
--    **ComboBox Actual **: choisissez votre définition d\'écran qui déterminera les dimensions de l\'image
+-    **ComboBox Actual **: choisir la définition de l\'écran déterminera les dimensions de l\'image
 
-    -   Available (pre-defined):
-        -   \"Actual\" (definition actual of screen)
+    -   Available (pre-defined) :
+        -   \"Actual\" (définition en cours de l\'écran)
         -   \"Icon 16 x 16\"
         -   \"Icon 32 x 32\"
         -   \"Icon 64 x 64\"
@@ -91,27 +99,29 @@ Cette macro peut faire pivoter l\'écran dans un angle et axe défini et crée u
         -   \"XBM \*.xbm\"
         -   \"XPM \*.xpm\"
 
--   Line 1 : Nombre d\'images calculées avec l\'angle donné (ex: angle 60 degrés = 360 (rotation complete) / 60 (angle) = 6 images
+-   Line 1 : nombre d\'images calculées avec l\'angle donné (ex : angle 60 degrés = 360 (rotation complete) / 60 (angle) = 6 images
 
--   Line 2 : Définition de l\'écran utilisé
+-   Line 2 : définition de l\'écran utilisé
 
 -   Background image :
     -   Actual : sauve l\'image avec écran et couleurs actuels
     -   White : sauve l\'image avec écran fond blanc
     -   Black : sauve l\'image avec écran fond noir
 
--    **[<img src=images/FCCamera_00.png style="width:24px"> Launch**: Ouvre un fichier donner le nom et le chemin
+-    **[<img src=images/FCCamera_00.png style="width:24px"> Launch**: ouvrir la fenêtre du fichier, donner le nom et le chemin d\'accès.
 
--    **[<img src=images/FCCamera_07.png style="width:24px"> Reset**: Reset les valeurs par défaut
+-    **[<img src=images/FCCamera_07.png style="width:24px"> Reset**: réinitialiser la valeur par défaut
 
--    **[<img src=images/FCCamera_00.png style="width:24px"> Return**: Quitte la fenêtre de photo et retourne au panneau FCCamera
+-    **[<img src=images/FCCamera_00.png style="width:24px"> Return**: quitter le panneau photo et revenir au panneau FCCamera
+
+
 
 
 
 
 ## Liens
 
-Liens en rapport avec FCCamera et codes originaux ayants servi dans la macro
+Liens en rapport avec FCCamera
 
 -   [Macro Rotate View](Macro_Rotate_View/fr.md),
 -   [Macro Align Object to View](Macro_Align_Object_to_View/fr.md),
@@ -126,15 +136,19 @@ Téléchargez le paquet d\'icons [FCCamera_Icones.zip](https://forum.freecadweb.
 
 Téléchargez la macro sur Gist [**Macro FCCamera.FCMacro**](https://gist.github.com/mario52a/4aa545c23b323cf68824)
 
+
+
 ## Exemples
+
+
 
 ### Comment créer un forage dans un angle défini 
 
 
 <center>
 
-<File:FCCamera> 09.png\|Créez votre objet <File:FCCamera> 10.png\|Créez votre cylindre et positionnez le
-Donnez votre axes, angle et cliquez sur le bouton <img alt="" src=images/FCCamera_01.png  style="width:24px;"> 
+<File:FCCamera> 09.png\|Créez votre objet <File:FCCamera> 10.png\|Créez votre cylindre et positionnez le ainsi.
+Donnez votre axe, angle et cliquez sur le bouton <img alt="" src=images/FCCamera_01.png  style="width:24px;"> 
 **Accept the rotation**
 
 
@@ -143,7 +157,7 @@ Donnez votre axes, angle et cliquez sur le bouton <img alt="" src=images/FCCamer
 
 <center>
 
-<File:FCCamera> 11.png\|Sélectionnez le cylindre qui servira de forage <File:FCCamera> 12.png\|dans FCCamera cliquez sur le bouton <img alt="" src=images/FCCamera_05.png  style="width:24px;"> 
+<File:FCCamera> 11.png\|Sélectionnez le cylindre qui servira de forage <File:FCCamera> 12.png\|Dans FCCamera, cliquez sur le bouton <img alt="" src=images/FCCamera_05.png  style="width:24px;"> 
 **Align Object to View**
 
 
@@ -152,18 +166,17 @@ Donnez votre axes, angle et cliquez sur le bouton <img alt="" src=images/FCCamer
 
 <center>
 
-<File:FCCamera> 13.png\|le cylindre est incliné de 15 degrés (suivant la position de la camera)
-faites votre opération booléenne <File:FCCamera> 14.png\|Votre forage effectué à 15 degrés
+<File:FCCamera> 13.png\|Le cylindre se déplace de 15 degrés (il prend la position de la caméra). Effectuez votre opération booléenne. <File:FCCamera> 14.png\|Votre perçage est à 15 degrés
 
 
 </center>
 
-Le même résultat peut être obtenu en créant un plan à la position du clic de la souris puis cliquez sur <img alt="" src=images/FCCamera_06.png  style="width:24px;"> **Create plane of view.**.
+Le même résultat peut être obtenu en créant un plan dans le coin donné par la position du clic de la souris et une esquisse.
 
 
 <center>
 
-<File:Macro_FCCamera_Align_To_Face.gif%7CExemple> de placement d\'un ressort sur une face d\'après son axe
+<File:Macro_FCCamera_Align_To_Face.gif%7CExemple> du positionnement d\'un ressort sur un axe d\'une face
 
 
 </center>
@@ -175,6 +188,8 @@ Le même résultat peut être obtenu en créant un plan à la position du clic d
 
 
 </center>
+
+
 
 ## Versions
 

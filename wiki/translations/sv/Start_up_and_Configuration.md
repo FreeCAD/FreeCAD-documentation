@@ -15,6 +15,8 @@ Denna sida visar olika sätt att starta FreeCAD och de viktigaste konfigurations
 
 </div>
 
+
+
 ## Starta FreeCAD från Kommandoraden 
 
 FreeCAD kan startas normalt, genom att dubbelklicka på dess skrivbordsikon eller genom att välja den från startmenyn, men det kan också startas direkt från kommandoraden. Detta tillåter dig att ändra några av standard uppstartsalternativen.
@@ -23,6 +25,8 @@ FreeCAD kan startas normalt, genom att dubbelklicka på dess skrivbordsikon elle
 
 -   On Ubuntu you can create a desktop icon and edit its properties. Add the command line options separated by spaces behind the program name in the \"Command\" field.
 -   On Windows create a shortcut and edit the properties. Add the command line options separated by spaces to \"Target\" field.
+
+
 
 ### Kommandoradsalternativ
 
@@ -82,6 +86,8 @@ In the following table, selected options are described in more detail:
 
 Options can written in two forms: `--long-option arg` and `--long-option<nowiki>=</nowiki>arg`.
 
+
+
 ### Respons och konfigurationsfiler 
 
 
@@ -104,6 +110,8 @@ or:
 
     FreeCAD --response-file ResponseFile.txt
 
+
+
 ### Gömda alternativ 
 
 Det finns en del alternativ som inte visas för användaren. Dessa alternativ är egentligen X-fönsterparametrar som läses av fönstersystemet:
@@ -119,6 +127,8 @@ Det finns en del alternativ som inte visas för användaren. Dessa alternativ ä
 -   -visual TrueColor, tvingar applikationen att använda TrueColor på en 8-bits skärm.
 -   -ncols count, Begränsar antalet färger som allokeras i färgkuben på en 8-bitars skärm, om applikationen använder QApplication::ManyColor färgspecifikationen. Om antalet är 216 så används en 6x6x6 färgkub (d.v.s. 6 nivåer på rött, 6 på grönt, och 6 på blått); för andra värden, så används en kub som är ungefärligt proportionell till en 2x3x1 kub.
 -   -cmap, får applikationen att installera en privat färgkarta på en 8-bitars skärm.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -261,6 +271,8 @@ En del bibliotek behöver anropa systemmiljövariabler. ibland när det är ett 
 -   CSF_STEPDefaults
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Konfigurationssetet
@@ -275,6 +287,8 @@ Vid varje uppstart så undersöker FreeCAD sin omgivning och kommandoradsparamet
 
 
 </div>
+
+
 
 ### Användarrelaterad information 
 
@@ -294,6 +308,8 @@ Vid varje uppstart så undersöker FreeCAD sin omgivning och kommandoradsparamet
 </div>
 
 Note: For Linux distributions, an additional configuration file that relates to [Qt](Third_Party_Tools#Qt-Toolkit.md) may exist at path **/home/username/.config/FreeCAD/FreeCAD.conf**.
+
+
 
 ### Kommandoradsargument
 
@@ -316,6 +332,8 @@ Note: For Linux distributions, an additional configuration file that relates to 
 
 </div>
 
+
+
 ### Systemrelaterat
 
 
@@ -330,6 +348,8 @@ Note: For Linux distributions, an additional configuration file that relates to 
 
 
 </div>
+
+
 
 ### Bygga relaterad information 
 
@@ -359,6 +379,8 @@ Tabellen nedan visar tillgänglig information om Byggversionen. Det flesta av de
 
 
 </div>
+
+
 
 ### Märkningsrelaterat
 
@@ -439,9 +461,6 @@ The following assumes that your desktop is configured such that you can launch F
 4.  As a result, an additional entry in your start menu/application launcher is available. This way, you can have multiple FreeCAD entries with various launch options.
 
 ## Starting FreeCAD from a portable USB medium 
-
-
-<small>(v0.19)</small> 
 
 **Windows**
 

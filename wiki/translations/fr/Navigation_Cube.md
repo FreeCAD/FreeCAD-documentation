@@ -45,23 +45,19 @@ En cliquant sur le bouton rond dans le coin supérieur droit du cube de navigati
 
 En cliquant sur le petit cube dans le coin inférieur droit du cube de navigation, un menu s\'affiche avec les options suivantes :
 
--    **[Orthographique](Std_OrthographicCamera/fr.md)**: passe à une vue orthographique.
+-    **<img src="images/Std_OrthographicCamera.svg" width=16px> [Orthographique](Std_OrthographicCamera/fr.md)**: passe à une vue orthographique.
 
--    **[Perspective](Std_PerspectiveCamera/fr.md)**: permet d\'obtenir une vue en perspective.
+-    **<img src="images/Std_PerspectiveCamera.svg" width=16px> [Perspective](Std_PerspectiveCamera/fr.md)**: permet d\'obtenir une vue en perspective.
 
--    **[Isometrique](Std_ViewIsometric/fr.md)**: permet de passer à une vue isométrique.
+-    **<img src="images/Std_ViewIsometric.svg" width=16px> [Isométrique](Std_ViewIsometric/fr.md)**: permet de passer à une vue isométrique.
 
--    **[Ajuster le zoom](Std_ViewFitAll/fr.md)**: effectue un zoom et un panoramique de la caméra de façon à ce que tous les objets visibles tiennent dans la vue.
+-    **<img src="images/Std_ViewFitAll.svg" width=16px> [Ajuster le zoom](Std_ViewFitAll/fr.md)**: effectue un zoom et un panoramique de la caméra de façon à ce que tous les objets visibles tiennent dans la vue.
+
+-    **Cube de navigation mobile**: si cette case ({{Version/fr|0.21}}) est cochée, l\'ensemble du cube de navigation peut être déplacé en maintenant le bouton gauche de la souris enfoncé n\'importe où sur le cube principal et en le faisant glisser. Cela permet de déplacer temporairement le cube. Les [paramètres avancés](#Paramètres_avancés.md) OffsetX et OffsetY peuvent être utilisés pour repositionner le cube de façon permanente, voir ci-dessous.
 
 
 
 ## Personnalisation
-
-
-
-### Déplacement du cube de navigation 
-
-L\'ensemble du cube de navigation peut être déplacé en appuyant sur la souris n\'importe où sur le cube principal et en la faisant glisser. La structure ne commencera à se déplacer que lorsque le curseur aura dépassé l\'un des bords du cube principal.
 
 
 
@@ -73,50 +69,93 @@ Le cube de navigation est contrôlé par plusieurs préférences : **Édition �
 
 ### Paramètres avancés 
 
-Certains paramètres avancés du cube de navigation ne peuvent pas être modifiés dans l\'[éditeur de préférences](Preferences_Editor/fr#Navigation.md). Ces paramètres peuvent être définis manuellement dans l\'[éditeur de paramàtres](Std_DlgParameter/fr.md) ou via l\'[atelier externe CubeMenu](Interface_Customization/fr#Menu_Cube.md). Les modifications seront visibles lorsqu\'une nouvelle vue 3D sera créée (avec [Std Nouveau](Std_New/fr.md), [Std Ouvrir](Std_Open/fr.md) ou [Std Créer une nouvelle vue](Std_ViewCreate/fr.md)).
+Certains paramètres avancés du cube de navigation ne peuvent pas être modifiés dans l\'[éditeur de préférences](Preferences_Editor/fr#Navigation.md). Ces paramètres peuvent être définis manuellement dans l\'[éditeur de paramètres](Std_DlgParameter/fr.md).
 
 Pour définir manuellement les couleurs :
 
-1.  Démarrez l\'<img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> l\'[éditeur de paramàtres](Std_DlgParameter/fr.md).
+1.  Démarrez l\'<img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> [éditeur de paramètres](Std_DlgParameter/fr.md).
 2.  Dans le panneau de gauche, allez dans **BaseApp → Preferences → NaviCube**.
-3.  Cliquez avec le bouton droit de la souris sur le panneau de droite et sélectionnez **New unsigned item** dans le menu contextuel.
+3.  Cliquez avec le bouton droit de la souris sur le panneau de droite et sélectionnez **Nouvel élément type non signé** dans le menu contextuel.
 4.  Saisissez le nom de l\'une de ces couleurs :
     -   
-        **BorderColor**
+        **BaseColor**
         
-        : les lignes séparant les faces du cube, la valeur par défaut est {{Value|4281479730}} (hex: {{Value|ff323232}}).
+        : la couleur de base de tous les éléments, la valeur par défaut est {{Value|3806916544}} (hex : {{Value|e2e8efc0}}). Cette couleur peut également être définie dans l\'[éditeur de préférences](Preferences_Editor/fr#Navigation.md). {{Version/fr|0.21}}
 
     -   
-        **ButtonColor**
+        **EmphaseColor**
         
-        : tous les éléments autour du cube, la valeur par défaut est {{Value|2162354671}} (hex: {{Value|80e2e9ef}}).
-
-    -   
-        **FrontColor**
-        
-        : toutes les faces du cube, la valeur par défaut est {{Value|3236096495}} (hex: {{Value|c0e2e9ef}}).
+        : la couleur des textes et des lignes, la valeur par défaut dépend de la **BaseColor**. Elle est soit noire : {{Value|255}} (hex : {{Value|000000ff}}), soit blanc : {{Value|4294967295}} (hex : {{Value|ffffff}}). {{Version/fr|0.21}}
 
     -   
         **HiliteColor**
         
-        : la face du cube ou de la flèche qui est actuellement en surbrillance, la valeur par défaut est {{Value|4289389311}} (hex: {{Value|ffaae2ff}}).
-
-    -   
-        **TextColor**
-        
-        : le texte sur les faces du cube, la valeur par défaut est {{Value|4278190080}} (hex: {{Value|ff000000}}).
-5.  La valeur de la couleur doit être saisie sous la forme d\'un nombre entier non signé de 32 bits. Traduit au format hexadécimal, ce nombre entier a la forme {{Value|AARRGGBB}}. Où {{Value|AA}} représente le canal alpha (une mesure de la transparence) et les trois autres paires de chiffres représentent le rouge, le vert et le bleu. Pour convertir une valeur hexadécimale en un nombre entier non signé, vous pouvez utiliser la [console Python](Python_console/fr.md) en entrant par exemple {{Incode|int("ff323232", 16)}}, ou un service en ligne tel que [celui-ci](https://cryptii.com/pipes/integer-encoder).
-6.  Définissez éventuellement d\'autres couleurs.
+        : la couleur utilisée pour mettre en évidence les faces et les boutons, la valeur par défaut est {{Value|2867003391}} (hex : {{Value|aae2ff}}).
+5.  La valeur de la couleur doit être saisie sous la forme d\'un nombre entier non signé de 32 bits. Traduit au format hexadécimal, ce nombre entier a la forme {{Value|RRGGBBAA}}. Où {{Value|AA}} représente le canal alpha (une mesure de la transparence) et les trois autres paires de chiffres représentent le rouge, le vert et le bleu. Pour convertir une valeur hexadécimale en un nombre entier non signé, vous pouvez utiliser la [console Python](Python_console/fr.md) en entrant par exemple {{Incode|int("323232ff", 16)}} ou un service en ligne tel que [celui-ci](https://cryptii.com/pipes/integer-encoder).
+6.  Vous pouvez définir d\'autres couleurs.
 7.  Appuyez sur le bouton **Fermer**.
 
-Pour définir manuellement la largeur de la bordure :
+Le tableau ci-dessous énumère les autres paramètres avancés du cube de navigation qui peuvent être définis de la même manière. Utilisez les informations de la colonne **Type** pour créer un nouvel élément correct à l\'étape 3.
 
-1.  Démarrez l\'<img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> l\'[éditeur de paramàtres](Std_DlgParameter/fr.md).
-2.  Dans le panneau de gauche, allez dans **BaseApp → Preferences → NaviCube**.
-3.  Cliquez avec le bouton droit de la souris sur le panneau de droite et sélectionnez **New float item** dans le menu contextuel.
-4.  Saisissez le nom **BorderWidth**, {{Value|default is 1.1}}.
-5.  Saisissez la largeur.
-6.  Appuyez sur le bouton **Fermer**.
++++++
+| Nom         | Description                                                                                                                              | Type     | Défaut  |
++=============+==========================================================================================================================================+==========+=========+
+| BorderWidth | La largeur des bords du cube et des bordures autour des boutons en pixels.                                                               | Flottant | 1.1     |
++++++
+| ChamferSize | La taille des arêtes et des coins en tant que facteur de la taille du cube. Les valeurs doivent être comprises entre 0.05 et 0.18.       | Flottant | 0.12    |
+|             |                                                                                                                                          |          |         |
+|             |                                                                                                                           |          |         |
+|             | {{Version/fr|0.21}}                                                                                                                      |          |         |
+|             |                                                                                                                                       |          |         |
++++++
+| FontStretch | La largeur de la police est exprimée en pourcentage de la largeur par défaut. Utilisez 0 ou 100 pour la largeur de police par défaut.    | Entier   | 0       |
++++++
+| FontWeight  | Le poids de la police. Des valeurs élevées rendent la police plus gras. L\'effet peut dépendre de la police. La valeur par défaut est 0. | Entier   | 0       |
++++++
+| FontZoom    | La taille des étiquettes :                                                                                                               | Flottant | 0.3     |
+|             |                                                                                                                                          |          |         |
+|             | -                                                                                                                         |          |         |
+|             |     {{Value|FontZoom &#61; 1.0}}                                                                                                         |          |         |
+|             |                                                                                                                                       |          |         |
+|             |     : chaque étiquette doit être aussi grande que possible.                                                                              |          |         |
+|             |                                                                                                                                          |          |         |
+|             | -                                                                                                                         |          |         |
+|             |     {{Value|0.0 < FontZoom < 1.0}}                                                                                                       |          |         |
+|             |                                                                                                                                       |          |         |
+|             |     : idem mais en limitant la taille maximale de la police.                                                                             |          |         |
+|             |                                                                                                                                          |          |         |
+|             | -                                                                                                                         |          |         |
+|             |     {{Value|FontZoom &#61; 0.0}}                                                                                                         |          |         |
+|             |                                                                                                                                       |          |         |
+|             |     : idem mais en utilisant la même taille de police pour tout.                                                                         |          |         |
+|             |                                                                                                                                          |          |         |
+|             | -                                                                                                                         |          |         |
+|             |     {{Value|FontZoom < 0.0}}                                                                                                             |          |         |
+|             |                                                                                                                                       |          |         |
+|             |     : la même taille de police pour tout, mais à échelle réduite.                                                                        |          |         |
+|             |                                                                                                                                          |          |         |
+|             |                                                                                                                           |          |         |
+|             | {{Version/fr|0.21}}                                                                                                                      |          |         |
+|             |                                                                                                                                       |          |         |
++++++
+| OffsetX     | Le décalage du cube dans la direction des X par rapport à la position de son coin en pixels.                                             | Entier   | 0       |
++++++
+| OffsetY     | Le décalage du cube dans la direction des Y par rapport à la position de son coin en pixels.                                             | Entier   | 0       |
++++++
+| ShowCS      | Affiche le système de coordonnées (les indicateurs des axes X, Y et Z).                                                                  | Booléen  | Vrai    |
++++++
+| TextBottom  | Le texte sur la face inférieure du cube. La valeur par défaut doit être traduite.                                                        | Chaîne   | DESSOUS |
++++++
+| TextFront   | Le texte de la face avant du cube. Idem.                                                                                                 | Chaîne   | DEVANT  |
++++++
+| TextLeft    | Le texte de la face gauche du cube. Idem.                                                                                                | Chaîne   | GAUCHE  |
++++++
+| TextRear    | Le texte de la face arrière du cube. Idem.                                                                                               | Chaîne   | ARRIÈRE |
++++++
+| TextRight   | Le texte de la face droite du cube. Idem.                                                                                                | Chaîne   | DROITE  |
++++++
+| TextTop     | Le texte de la face supérieure du cube. Idem                                                                                             | Chaîne   | DESSUS  |
++++++
 
 
 

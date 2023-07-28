@@ -17,6 +17,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -28,7 +30,7 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 </div>
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/61571ce0bd41af0471995df7c3ea855f/raw/4fdc5b2db7ed3ed062a2575637e035f728b2e40d/Macro_Screen_Wiki.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/61571ce0bd41af0471995df7c3ea855f/raw/2e2f5d1f30acd9fee9ea58596d0bcaa8d19f03f3/Macro_Screen_Wiki.FCMacro}}
 
 ![](images/Macro_Screen_Wiki_00.png )
 
@@ -42,7 +44,11 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 
 *Finestra Rotazione Wiki schermo macro*
 
+
+
 ## Uso
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -140,6 +146,8 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
     **Restore**
     
 
+
+
 #### Commando
 
 
@@ -208,6 +216,9 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 
 #### Angles
 
+
+<div class="mw-translate-fuzzy">
+
 -   Angle Rotation
 
 1.  
@@ -242,7 +253,13 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 3.  
     **+**: Aumenta il valore di 10 gradi
 
+
+</div>
+
 #### Command
+
+
+<div class="mw-translate-fuzzy">
 
 -   Delay between 2 images
 
@@ -257,6 +274,11 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 
 4.  
     **Save the animation**: Salva l\'animazione
+
+
+</div>
+
+
 
 ## Esempio immagini 
 
@@ -296,7 +318,25 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 
 *La finestra di FreeCAD ridimensionata. La dimensione può essere diversa dalla definizione (dipende dal Widget, dalla barra del titolo ... utilizzata)*
 
+
+
 ## Versione
+
+Version=00.06: Version=00.06b: 2023/06/26 : adding select number image, button test rotation, button visualize the point rotation, adding code by wmayer center rotation on center screen :
+
+
+```python
+                #https://forum.freecadweb.org/viewtopic.php?f=22&t=10157
+                cam = Gui.ActiveDocument.ActiveView.getCameraNode()
+                position = cam.position.getValue()
+                orient = cam.orientation.getValue()
+                focalDistance = cam.focalDistance.getValue()
+                viewdir = coin.SbVec3f(0, 0, -1)
+                viewdir = orient.multVec(viewdir)
+                pointRotation = position + viewdir * focalDistance
+                pointRotation = pointRotation2 = App.Vector(pointRotation.getValue()[0], pointRotation.getValue()[1], pointRotation.getValue()[2])
+
+```
 
 Version=00.05: 2021/05/21 : adding code in Save file section for Linux Mint QFileDialog ignore the extension. Only the Path+name is displayed
 

@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -15,6 +17,8 @@ Instrumentul **Hole** găurește una sau mai multe găuri dintr-o schiță selec
 
 </div>
 
+The centers of the circles and arcs are used to position the holes, but please note that their radii are not taken into account. The generated holes will be identical even if the radii vary.
+
 <img alt="" src=images/Countersunk_and_counterbored_holes_cross-section1.png  style="width:600px;">
 
 
@@ -24,6 +28,8 @@ Instrumentul **Hole** găurește una sau mai multe găuri dintr-o schiță selec
 
 
 </div>
+
+
 
 ## Cum se folosește 
 
@@ -38,11 +44,15 @@ Instrumentul **Hole** găurește una sau mai multe găuri dintr-o schiță selec
 
 </div>
 
+
+
 ## Opţiuni
 
 Depending on which selection is made, some fields will activate or stay disabled.
 
 ![](images/PartDesign_Hole_parameters.png )
+
+
 
 ### Filetarea și mărime 
 
@@ -60,6 +70,8 @@ Depending on which selection is made, some fields will activate or stay disabled
 
 
 </div>
+
+
 
 ### Găurirea
 
@@ -84,6 +96,8 @@ Depending on which selection is made, some fields will activate or stay disabled
 
 </div>
 
+
+
 ### Diverse
 
 
@@ -93,6 +107,8 @@ Depending on which selection is made, some fields will activate or stay disabled
 
 
 </div>
+
+
 
 ## Proprietăți
 
@@ -110,6 +126,8 @@ Much of the Data properties are the same as those shown in [Options](#Options.md
 
 </div>
 
+
+
 ## Limite
 
 
@@ -123,7 +141,7 @@ Much of the Data properties are the same as those shown in [Options](#Options.md
 
 ## Cut Type Definitions 
 
-Cut types (screw-types) are defined in [json](https://de.wikipedia.org/wiki/JavaScript_Object_Notation) files since version 0.19. There is a set of files distributed with FreeCAD, but users can create their own definitions. Files are searched in <UserAppDataDir>/PartDesign/Hole. The `UserAppDataDir` can be found by typing `App.getUserAppDataDir()` in the [Python console](Python_console.md).
+Cut types (screw-types) are defined in [json](https://de.wikipedia.org/wiki/JavaScript_Object_Notation) files. There is a set of files distributed with FreeCAD, but users can create their own definitions. Files are searched in <UserAppDataDir>/PartDesign/Hole. The `UserAppDataDir` can be found by typing `App.getUserAppDataDir()` in the [Python console](Python_console.md).
 
 The file should contain:
 

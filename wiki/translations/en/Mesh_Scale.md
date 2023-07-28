@@ -21,6 +21,36 @@ The **Mesh Scale** command scales mesh objects.
 4.  Specify a scaling factor, the value must be larger than {{Value|0}}.
 5.  Press the {{button|OK}} button to finish the command.
 
+## Scripting
+
+See also: [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+To scale a mesh use its `transformGeometry` method.
+
+
+```python
+import FreeCAD as App
+import Mesh
+
+# Create a non-parametric box-shaped mesh:
+msh = App.ActiveDocument.addObject("Mesh::Feature", "Mesh")
+msh.Mesh = Mesh.createBox(10, 10, 10)
+msh.ViewObject.DisplayMode = "Flat Lines"
+
+# Create and scale a matrix:
+mat = App.Matrix()
+mat.scale(2.0, 3.0, 4.0) # Unequal scaling.
+
+# We need to work on a copy of the msh.Mesh object:
+new_msh = msh.Mesh.copy()
+
+# Transform that copy:
+new_msh.transformGeometry(mat)
+
+# Update msh.Mesh:
+msh.Mesh = new_msh
+```
+
 
 
 

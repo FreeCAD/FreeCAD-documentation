@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introducción
 
 El <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Ambiente de trabajo Mallas](Mesh_Workbench.md) maneja [triangle mesh](http://en.wikipedia.org/wiki/Triangle_mesh). Mallas son un tipo especial de objeto 3D, compuesto por areas triangulares conectadas por sus vértices y aristas.
@@ -12,6 +14,8 @@ Muchas aplicaciones 3D, como [Sketchup](https://es.wikipedia.org/wiki/SketchUp),
 Sin embargo, en el campo de la ingeniería las mallas presentan una gran limitación: no pueden definir con precisión las superficies curvas. Por eso FreeCAD se basa en [Brep](wikipedia_Boundary_representation.md) en su lugar. El Mesh Workbench ofrece algunos comandos para manipular directamente las mallas, pero se utiliza más a menudo para importar datos de malla 3D y convertirlos en un sólido para su uso con el <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Ambiente de trabajo Piezas](Part_Workbench/es.md) o <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente de trabajo DiseñoPiezas](PartDesign_Workbench/es.md).
 
 <img alt="" src=images/Mesh_example.jpg  style="width:500px;">
+
+
 
 ## Herramientas
 
@@ -23,7 +27,13 @@ Todas las herramientas del ambiente de trabajo Malla se puede acceder a desde el
 
 -   ![ 32px](images/_Mesh_MeshFromShape.png ) [ Create Mesh from shape](Mesh_MeshFromShape.md): convierte objetos [ Part](Part_Workbench/es.md) en mallas
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Mesh_RemeshGmsh.svg  style="width:32px;"> [Refinamiento\...](Mesh_RemeshGmsh/rs.md): Refina un objeto de malla. {{Version/es|0.19}}
+
+
+</div>
 
 -   Analizar
     -   <img alt="" src=images/Mesh_Evaluation.svg  style="width:32px;"> [Evaluar y reparar malla\...](Mesh_Evaluation/es.md): Evalúa y repara un objeto de malla.
@@ -54,7 +64,7 @@ Todas las herramientas del ambiente de trabajo Malla se puede acceder a desde el
 
 -   <img alt="" src=images/Mesh_Smoothing.svg  style="width:32px;"> [Smooth\...](Mesh_Smoothing.md): Smooths mesh objects.
 
--   <img alt="" src=images/Mesh_Decimating.svg  style="width:32px;"> [Decimation\...](Mesh_Decimating.md): Reduces the number of faces in mesh objects. <small>(v0.19)</small> 
+-   <img alt="" src=images/Mesh_Decimating.svg  style="width:32px;"> [Decimation\...](Mesh_Decimating.md): Reduces the number of faces in mesh objects.
 
 -   <img alt="" src=images/Mesh_Scale.svg  style="width:32px;"> [Scale\...](Mesh_Scale.md): Scales mesh objects.
 
@@ -70,15 +80,17 @@ Todas las herramientas del ambiente de trabajo Malla se puede acceder a desde el
     -   <img alt="" src=images/Mesh_PolyTrim.svg  style="width:32px;"> [Trim mesh](Mesh_PolyTrim.md): Trims faces and parts of faces from mesh objects.
     -   <img alt="" src=images/Mesh_TrimByPlane.svg  style="width:32px;"> [Trim mesh with a plane](Mesh_TrimByPlane.md): Trims faces and parts of faces on one side of a plane from a mesh object.
     -   <img alt="" src=images/Mesh_SectionByPlane.svg  style="width:32px;"> [Create section from mesh and plane](Mesh_SectionByPlane.md): Creates a cross section across a mesh object.
-    -   <img alt="" src=images/Mesh_CrossSections.svg  style="width:32px;"> [Cross-sections\...](Mesh_CrossSections.md): Creates multiple cross sections across mesh objects. <small>(v0.19)</small> 
+    -   <img alt="" src=images/Mesh_CrossSections.svg  style="width:32px;"> [Cross-sections\...](Mesh_CrossSections.md): Creates multiple cross sections across mesh objects.
 
 -   <img alt="" src=images/Mesh_Merge.svg  style="width:32px;"> [Merge](Mesh_Merge.md): Creates a mesh object by combining the meshes of two or more mesh objects.
 
--   <img alt="" src=images/Mesh_SplitComponents.svg  style="width:32px;"> [Split by components](Mesh_SplitComponents.md): Splits a mesh object into its components. <small>(v0.19)</small> 
+-   <img alt="" src=images/Mesh_SplitComponents.svg  style="width:32px;"> [Split by components](Mesh_SplitComponents.md): Splits a mesh object into its components.
 
--   <img alt="" src=images/MeshPart_CreateFlatMesh.svg  style="width:32px;"> [Unwrap Mesh](MeshPart_CreateFlatMesh.md): Creates a flat representation of a mesh object. <small>(v0.19)</small> 
+-   <img alt="" src=images/MeshPart_CreateFlatMesh.svg  style="width:32px;"> [Unwrap Mesh](MeshPart_CreateFlatMesh.md): Creates a flat representation of a mesh object.
 
--   <img alt="" src=images/MeshPart_CreateFlatFace.svg  style="width:32px;"> [Unwrap Face](MeshPart_CreateFlatFace.md): Creates a flat representation of a face of a shape object. <small>(v0.19)</small> 
+-   <img alt="" src=images/MeshPart_CreateFlatFace.svg  style="width:32px;"> [Unwrap Face](MeshPart_CreateFlatFace.md): Creates a flat representation of a face of a shape object.
+
+
 
 ## Preferencias
 
@@ -88,6 +100,8 @@ Mesh Workbench preferences can be found in the following categories of the [Pref
 
 -   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Display](Preferences_Editor#Display.md): On the [Mesh view](Preferences_Editor#Mesh_view.md) tab several preferences can be set.
 -   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences.md): The [Mesh Union](Mesh_Union.md), [Mesh Intersection](Mesh_Intersection.md) and [Mesh Difference](Mesh_Difference.md) commands require [OpenSCAD](http://www.openscad.org/) and use the **OpenSCAD executable** preference to find its executable.
+
+
 
 ## Notas
 

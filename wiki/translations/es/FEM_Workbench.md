@@ -1,13 +1,26 @@
-# <img alt="El icono del Ambiente de trabajo MEF" src=images/Workbench_FEM.svg  style="width:64px;"> FEM Workbench/es
+# FEM Workbench/es
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+<img alt="El icono del Ambiente de trabajo MEF" src=images/Workbench_FEM.svg  style="width:128px;">
 
 
 {{TOCright}}
+
+
 
 ## Introducción
 
 El [Ambiente de trabajo MEF](FEM_Workbench/es.md) provee un moderno [Método de los elementos finitos](https://es.wikipedia.org/wiki/M%C3%A9todo_de_los_elementos_finitos) flujo de Análisis de Elementos Finitos (AEF) para FreeCAD. Principalmente estoy significa que todas las herramientas para hacer un Analisis de Elementos Finitos estan combinadas en una (GUI) Interface Grafica de Usuario.
 
 <img alt="" src=images/FemWorkbench.jpg  style="width:300px;">
+
+
 
 ## Flujo de Trabajo 
 
@@ -37,9 +50,13 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 *Flujo de trabajo del ambiente de trabajo MEF; el ambiente de trabajo llama a dos programas externos para realizar el mallado de un objeto sólido, y realizar la solución real del problema de elementos finitos*
 
+
+
 ## Menú: Modelo 
 
 -   <img alt="" src=images/FEM_Analysis.svg  style="width:32px;"> [Contenedor Análisis](FEM_Analysis/es.md): Crea un nuevo contenedor para un análisis mecánico. Si se selecciona un sólido en la vista de árbol antes de hacer clic en él, se abrirá a continuación el diálogo de malla.
+
+
 
 ### Materiales
 
@@ -59,6 +76,8 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 </div>
 
+
+
 ### Geometría Elementos 
 
 -   <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Corte transversal de viga](FEM_ElementGeometry1D/es.md):
@@ -75,7 +94,17 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 </div>
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ### Restricciones electrostáticas 
+
+
+</div>
+
+-   <img alt="" src=images/FEM_CompEmConstraints.png  style="width:" height="32px;"> [Electromagnetic constraints](FEM_CompEmConstraints.md): This is an icon menu in the FEM Constraints toolbar that holds the following constraints:
 
 
 <div class="mw-translate-fuzzy">
@@ -84,6 +113,12 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 
 </div>
+
+  - <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:32px;"> [Constraint current density](FEM_ConstraintCurrentDensity.md): Used to define a current density. <small>(v0.21)</small> 
+
+  - <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:32px;"> [Constraint magnetization](FEM_ConstraintMagnetization.md): Used to define a magnetization. <small>(v0.21)</small> 
+
+
 
 ### Restricciones Fluido 
 
@@ -95,9 +130,11 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 </div>
 
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for a body (volume). <small>(v1.0)</small> 
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for a body (volume). <small>(v0.21)</small> 
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Restricción de velocidad de flujo](FEM_ConstraintFlowVelocity/es.md): Utilizada para definir una velocidad de flujo como condición de contorno en un borde (2D) o cara (3D).
+
+
 
 ### Restricciones Geométricas 
 
@@ -113,6 +150,8 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 -   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Restricción de transformación](FEM_ConstraintTransform/es.md): Utilizada para definir una restricción de transformación en una cara.
 
+
+
 ### Restricciónes Mecánicas 
 
 -   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Restricción fija](FEM_ConstraintFixed/es.md): Utilizada para definir una restricción fija de un punto/arista/cara.
@@ -121,7 +160,13 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 -   <img alt="" src=images/FEM_ConstraintContact.svg  style="width:32px;"> [Restricción de contacto](FEM_ConstraintContact/es.md): Utilizada para definir una restricción de contacto entre dos caras.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Empate de restricciones](FEM_ConstraintTie/es.md): {{Version/es|0.19}}
+
+
+</div>
 
 -   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a spring. <small>(v0.20)</small> 
 
@@ -133,6 +178,8 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 -   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Restricción de peso propio](FEM_ConstraintSelfWeight/es.md): Utilizado para definir una aceleración de gravedad actuando sobre un modelo.
 
+
+
 ### Restricciónes Térmicas 
 
 -   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Restricción inicial de temperatura](FEM_ConstraintInitialTemperature/es.md): Utilizado para definir una restricción inicial de temperatura de un cuerpo.
@@ -142,6 +189,8 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 -   <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Restricción de temperatura](FEM_ConstraintTemperature/es.md): Utilizado para definir una restricción de temperatura sobre un punto/arista/cara(s).
 
 -   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Restricción de cuerpo de fuente de calor](FEM_ConstraintBodyHeatSource/es.md):
+
+
 
 ### Restricciones sin solucionador 
 
@@ -159,6 +208,8 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 -   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Restricción de polea](FEM_ConstraintPulley/es.md): Utilizado para definir una restricción de polea.
 
+
+
 ### Sobrescribir Constantes 
 
 
@@ -168,6 +219,8 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 
 </div>
+
+
 
 ## Menú de Malla 
 
@@ -199,9 +252,17 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 -   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [Malla MEF a malla](FEM_FemMesh2Mesh/es.md): Convierte la superficie de una malla MEF a una malla.
 
+
+
 ## Menú: Solve 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Herramientas del Solucionador CalculiX Estándar](FEM_SolverCalculixCxxtools/es.md): Crea un nuevo solucionador para este analisis. En la mayoria de los casos el solucionador es creado junto con el analisis.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -211,9 +272,15 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solucionador Elmer](FEM_SolverElmer/es.md): Crea el controlador del Solucionador para Elmer. Es independiente de otros objetos solucionadores.
 
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md): <small>(v0.20)</small> 
+
+</div>
+
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md): Creates the solver controller for the MYSTRAN solver. <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -223,10 +290,24 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 </div>
 
+-   <img alt="" src=images/FEM_CompMechEquations.png  style="width:" height="32px;"> [Mechanical equations](FEM_CompMechEquations.md): This is an icon menu in the FEM Equations toolbar that holds the following equations: <small>(v0.21)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Ecuación de elasticidad](FEM_EquationElasticity/es.md):
+
+
+</div>
+
+  - <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [Deformation equation](FEM_EquationDeformation.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform nonlinear mechanical analyses (deformations). <small>(v0.21)</small> 
+
+-   <img alt="" src=images/FEM_CompEmEquations.png  style="width:" height="32px;"> [Electromagnetic equations](FEM_CompEmEquations.md): This is an icon menu in the FEM Equations toolbar that holds the following equations: <small>(v0.21)</small> 
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:32px;"> [Ecuación electrostatica](FEM_EquationElectrostatic/es.md):
 
 
 </div>
@@ -239,13 +320,9 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 </div>
 
+  - <img alt="" src=images/FEM_EquationMagnetodynamic.svg  style="width:32px;"> [Magnetodynamic equation](FEM_EquationMagnetodynamic.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to calculate magnetodynamics. <small>(v0.21)</small> 
 
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:32px;"> [Ecuación electrostatica](FEM_EquationElectrostatic/es.md):
-
-
-</div>
+  - <img alt="" src=images/FEM_EquationMagnetodynamic2D.svg  style="width:32px;"> [Magnetodynamic 2D equation](FEM_EquationMagnetodynamic2D.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to calculate magnetodynamics in 2D. <small>(v0.21)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -275,11 +352,19 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 -   <img alt="" src=images/FEM_SolverRun.svg  style="width:32px;"> [Ejecutar calculo de solucionador](FEM_SolverRun/es.md): Ejecuta el solucionador seleccionado del análisis activo.
 
+
+
 ## Menú de Resultados 
 
 -   <img alt="" src=images/FEM_ResultsPurge.svg  style="width:32px;"> [Purga de resultados](FEM_ResultsPurge/es.md): Elimina los resultados del análisis activos.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> [Mostrar resultados](FEM_ResultShow/es.md): Used to display the result of an analysis.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -329,6 +414,8 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 </div>
 
+-   <img alt="" src=images/FEM_PostFilterContours.svg  style="width:32px;"> [Contours filter](FEM_PostFilterContours.md): Used to display iso-lines (for analyses in 2D) or iso-contours. <small>(v0.21)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -363,9 +450,15 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 </div>
 
-  - <img alt="" src=images/Fem-post-geo-plane.svg  style="width:32px;"> [Filter function plane](FEM_PostCreateFunctionPlane.md): Defines that the result mesh is cut with a plane.
+  - <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:32px;"> [Filter function plane](FEM_PostCreateFunctionPlane.md): Cuts the result mesh with a plane.
 
-  - <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:32px;"> [Filter function sphere](FEM_PostCreateFunctionSphere.md): Defines that the result mesh is cut with a sphere.
+  - <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:32px;"> [Filter function sphere](FEM_PostCreateFunctionSphere.md): Cuts the result mesh with a sphere.
+
+  - <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:32px;"> [Filter function cylinder](FEM_PostCreateFunctionCylinder.md): Cuts the result mesh with a cylinder. <small>(v0.21)</small> 
+
+  - <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:32px;"> [Filter function box](FEM_PostCreateFunctionBox.md): Cuts the result mesh with a box. <small>(v0.21)</small> 
+
+
 
 ## Menú: Utilidades 
 
@@ -387,15 +480,21 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 -   <img alt="" src=images/FEM_Examples.svg  style="width:32px;"> [Abrir ejemplos MEF](FEM_Examples/es.md): Abre la interfaz gráfica de usuario para acceder a los ejemplos de MEF.
 
+
+
 ## Menú de contexto 
 
 -   <img alt="" src=images/FEM_MeshClear.svg  style="width:32px;"> [Limpiar malla MEF](FEM_MeshClear/es.md): Elimina el archivo de malla del archivo de FreeCAD. Útil para aligerar un archivo de FreeCAD.
 
 -   <img alt="" src=images/FEM_MeshDisplayInfo.svg  style="width:32px;"> [Mostrar información de la malla MEF](FEM_MeshDisplayInfo/es.md):
 
+
+
 ## Preferencias
 
 -   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Preferencias\...](FEM_Preferences/es.md): Preferencias disponibles en las herramientas MEF.
+
+
 
 ## Información
 
@@ -461,6 +560,8 @@ Video Tutorial 2 [Vídeo de MEF para principiantes](https://forum.freecadweb.org
 
 Más video Tutoriales [anisim Software de ingeniería de código abierto](https://www.youtube.com/channel/UCnvFCm2BbXOVI3ObfXcxXhw) (en alemán)
 
+
+
 ## Extendiendo el Ambiente de trabajo MEF 
 
 The FEM Workbench is under constant development. An objective of the project is to find ways to easily interact with various FEM solvers, so that the end user can streamline the process of creating, meshing, simulating, and optimizing an engineering design problem, all within FreeCAD.
@@ -484,12 +585,20 @@ A developer\'s guide has been written to help power users in understanding the c
 -   [Early preview of ebook: Module developer\' guide to FreeCAD source](https://forum.freecadweb.org/viewtopic.php?t=17581) forum thread.
 -   [FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide) github repository.
 
+
+
 ## Extender la documentación de Ambiente de trabajo MEF 
 
 -   Se puede encontrar más información sobre la ampliación o la falta de documentación de MEF en el foro: [Documentación MEF que falta en la Wiki](https://forum.freecadweb.org/viewtopic.php?f=18&t=20823)
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{FEM Tools navi

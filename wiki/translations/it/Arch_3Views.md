@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Crea le classiche tre viste in proiezioni ortogonali di un oggetto mesh selezionato.
@@ -26,6 +28,8 @@ Esso servirà a generare delle viste piatte, di un oggetto [Mesh](Mesh_Workbench
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -44,6 +48,8 @@ Notare che le viste prodotte sono degli oggetti indipendenti, non hanno legami t
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Script
@@ -56,7 +62,20 @@ Notare che le viste prodotte sono degli oggetti indipendenti, non hanno legami t
 
 </div>
 
-Questo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione: 
+
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
+<div class="mw-translate-fuzzy">
+
+Questo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
+
+
+</div>
+
+
 ```python
 shape = createMeshView(obj, direction=FreeCAD.Vector(0, 0, -1), outeronly=False, largestonly=False)
 ```

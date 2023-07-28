@@ -1,9 +1,10 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:FEM ConstraintElectrostaticPotential
-   MenuLocation: Model → Electrostatic Constraints → Constraint Electrostatic Potential
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM capacitance example](FEM_Example_Capacitance_Two_Balls.md), [FEM tutorial](FEM_tutorial.md)
+   Name/de:FEM RandbedingungElektrostatischesPotential
+   MenuLocation: Model → Electromagnetic Constraints → Constraint Electrostatic Potential
+   Workbenches:[FEM](FEM_Workbench/de.md)
+   SeeAlso:[FEM Beispiel Kapazität Zweier Kugeln](FEM_Example_Capacitance_Two_Balls/de.md), [FEM Anleitung](FEM_tutorial/de.md)
 ---
 
 # FEM ConstraintElectrostaticPotential/de
@@ -12,7 +13,7 @@
 
 ## Beschreibung
 
-Creates a FEM constraint for the electrostatic potential. To be used together with the [Electrostatic](FEM_EquationElectrostatic.md) or [Electricforce](FEM_EquationElectricforce.md) equation.
+Erstellt eine FEM-Randbedingung für das elektrostatische Potential, zur Verwendung mit der [ElektrostatischenGleichung](FEM_EquationElectrostatic/de.md) oder der [ElectricforceGleichung](FEM_EquationElectricforce/de.md).
 
 
 

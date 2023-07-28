@@ -1,11 +1,11 @@
 ---
 - GuiCommand:/de
    Name:Draft OrthoArray
-   Name/de:Entwurf AnordnungRechtwinklig
-   MenuLocation:Modifikation → Anordnung Werkzeuge → Anordnung
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   Name/de:Draft RechtwinkligeAnordnung
+   MenuLocation:Änderung → Array tools → Anordnung
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Version:0.19
-   SeeAlso:[Entwurf PolarAnordnung](Draft_PolarArray/de.md), [Entwurf KreisAnordnung](Draft_CircularArray/de.md), [verknüpfte Pfadanordnung](Draft_PathArray/de.md), [Entwurf Punkteanordnung](Draft_PointArray/de.md), [verknüpfte Punkteanordnung](Draft_PointLinkArray/de.md)
+   SeeAlso:[Draft PolareAnordnung](Draft_PolarArray/de.md), [Draft Kreisanordnung](Draft_CircularArray/de.md), [Draft Pfadanordnung](Draft_PathArray/de.md), [Draft PathLinkArray](Draft_PathLinkArray/de.md), [Draft PunktAnordnung](Draft_PointArray/de.md), [Draft PointLinkArray](Draft_PointLinkArray/de.md)
 ---
 
 # Draft OrthoArray/de
@@ -14,28 +14,33 @@
 
 ## Beschreibung
 
-Die <img alt="" src=images/Draft_OrthoArray.svg  style="width:24px;"> **Draft OrthoArray**-Anweisung erstellt eine orthogonale (3-Achsen) Anordnung aus einem ausgewählten Objekt. Die Anweisung kann auch ein [Verknüpungsmuster](App_Link/de.md) erzeugen. Dies ist effizienter, als eine rechtwinklige Feldanordnung (orthogonale Anordnung).
+Der Befehl <img alt="" src=images/Draft_OrthoArray.svg  style="width:24px;"> **Draft RectwinkligeAnordnung** erstellt eine (in 3 Achsen) rechtwinklige Anordnung von einem ausgewählten Objekt. Der Befehl kann wahlweise auch eine Verknüpfungsanordnung ([Link](App_Link/de.md)-Array) erstellen, die effizienter ist, als eine normale Anordnung.
 
-Diese Anweisung kann für 2D-Objekte angewendet werden, die mit der [Arbeitsbereich Entwurf](Draft_Workbench/de.md) oder mit dem [Arbeitsbereich Skizzierer](Sketcher_Workbench/de.md) erstellt wurden, aber auch auf viele 3D-Objekte, die mit anderenArbeitsbereichen erstellt wurden, wie dem [Arbeitsbereich Part](Part_Workbench/de.md), [Arbeitsbereich PartDesign](PartDesign_Workbench/de.md) oder dem [Arbeitsbereich Architektur](Arch_Workbench/de.md).
+Dieser Befehl kann für 2D-Objekte verwendet werden, die mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench/de.md) erstellt wurden, aber auch für viele 3D-Objekte, die mit anderen Arbeitsbereichen wie [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md) oder [Arch](Arch_Workbench/de.md) erstellt wurden.
 
 <img alt="" src=images/Draft_Array_example.png  style="width:300px;"> 
-*Entwurf orthogonale Anordnung*
+*Rechtwinklige Draft-Anordnung*
 
 
 
 ## Anwendung
 
 1.  Wahlweise ein Objekt auswählen.
-2.  Es gibt mehrere Wege, die Anweisung aufzurufen:
-    -   Die Schaltfläche **<img src="images/Draft_OrthoArray.svg" width=16px> [Draft OrthoArray](Draft_OrthoArray.md)** anzuklicken.
-    -   Den Menüpunkt **Modification → Array tools → <img src="images/Draft_OrthoArray.svg" width=16px> Array** wählen.
-3.  Die **Orthogonal array**-Aufgabenansicht wird geöffnet. Siehe auch [Options](#Options.md).
-4.  Objekt auswählen, wenn noch keines ausgewählt wurde.
-5.  Die erforderlichen Parameter in die Ansicht Aufgaben eingeben.
-6.  Beenden der Auswührung der Anweisung:
-    -   In die [3DAnsicht](3D_view/de.md) klicken.
-    -   Drücke **Enter**.
-    -   Die Schaltfläche **OK** anklicken.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_OrthoArray.svg" width=16px> [Anordnung](Draft_OrthoArray.md)** drücken.
+    -   Den Menüeintrag **Änderung → Array tools → <img src="images/Draft_OrthoArray.svg" width=16px> Anordnung** wählen.
+3.  Der Aufgabenbereich **Rechtwinklige Anordnung** wird geöffnet. Siehe auch [Optionen](#Optionen.md).
+4.  Ein Objekt auswählen, wenn noch keins ausgewählt wurde.
+5.  Die erforderlichen Parameter im Aufgabenbereich eingeben.
+6.  Eine der folgenden Möglichkeiten zum Fertigstellen auswählen:
+    -   In die [3D-Ansicht](3D_view/de.md) klicken.
+
+    -   
+        **Enter**
+        
+        drücken.
+
+    -   Die Schaltfläche **OK** drücken.
 
 
 
@@ -54,14 +59,14 @@ Diese Anweisung kann für 2D-Objekte angewendet werden, die mit der [Arbeitsbere
 
 ## Hinweise
 
--   Ein Entwurfs-OrthoFeld kann in ein [Entwurf Polares Feld](Draft_PolarArray/de.md) oder ein [Kreisfeld](Draft_CircularArray/de.md) durch die Änderung seiner **Feldtyp**-Eigenschaft umgewandelt werden.
--   Ein Verknüpfungsfeld (Link array) kann nicht in ein reguläres Feld und umgekehrt umgewandelt werden. Die Feldart wird zum Erstellungszeitpunkt bestimmt.
+-   Eine Draft RechtwinkligeAnordnung kann in eine [Draft PolareAnordnung](Draft_PolarArray/de.md) oder eine [Draft KreisAnordnung](Draft_CircularArray/de.md) umgewandelt werden, indem ihre {{PropertyData/de|Array Type}} verändert wird.
+-   Eine Verknüpfungsanordnung (Link-Array) kann nicht in eine normale Anordnung oder zurück umgewandelt werden. Diese Auswahl der Anordnungsart muss zum Erstellungszeitpunkt erfolgen.
 
 
 
 ## Einstellungen
 
-Siehe auch: [Eigenschaftseditor](Preferences_Editor/de.md) und [Entwurfseigenschaften](Draft_Preferences/de.md).
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
 
 -   Um die Anzahl der Dezimalstellen für die Eingabe der Koordinaten zu ändern: **Bearbeiten → Eigenschaften... → Allgemein → Einheiten → Einheiten-Einstellungen → Anzahl der Nachkommastellen**
 
@@ -71,7 +76,7 @@ Siehe auch: [Eigenschaftseditor](Preferences_Editor/de.md) und [Entwurfseigensch
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-Die Entwurfs-OrthoFeld Anweisung, die [Entwurf PolarAnordnungsanweisung](Draft_PolarArray/de.md) und die [Entwurf KreisAnordnungsanweisung](Draft_CircularArray/de.md) erstellen das gleiche Objekt. Dieses Objekt ist von einem [Part Formelement](Part_Feature/de.md)-Objekt abgeleitet und erbt alle Eigenschaften, mit Ausnahme einiger Ansichtseigenschaften, die nicht von Verknüpfungsfeldern geerbt wurden. Die folgenden Eigenschaften gibt es zusätzlich, wenn nicht anders angegeben:
+Der Befehle Draft RechtwinkligeAnordnung, [Draft PolareAnordnung](Draft_PolarArray/de.md) und [Draft KreisAnordnung](Draft_CircularArray/de.md) erstellen dasselbe Objekt. Dieses Objekt ist von einem [Part-Formelement](Part_Feature/de.md)-Objekt abgeleitet und erbt alle seine Eigenschaften (mit Ausnahme einiger Ansicht-Eigenschaften die nicht an die Verknüpfungsanordnungen vererbt werden). Außerdem sind, wenn nicht anders angegeben, die folgenden zusätzlichen Eigenschaften vorhanden:
 
 
 
@@ -80,7 +85,7 @@ Die Entwurfs-OrthoFeld Anweisung, die [Entwurf PolarAnordnungsanweisung](Draft_P
 
 {{TitleProperty|Verknüpfung}}
 
-Die Eigenschaften dieser Gruppe gibt es nur für Vernüpfte Felder (link arrays). Siehe auch [Std VernüpfungMachen](Std_LinkMake/de#Eigenschaften.md).
+Die Eigenschaften dieser Gruppe gibt es nur für Vernüpfungsanordnungen (Link-Arrays). Siehe auch [Std VerknüpfungErstellen](Std_LinkMake/de#Eigenschaften.md).
 
 -    **Scale|Float**
     
@@ -115,7 +120,7 @@ Die Eigenschaften dieser Gruppe gibt es nur für Vernüpfte Felder (link arrays)
 
 {{TitleProperty|Kreisanordnung}}
 
-Die Eigenschaften dieser Gruppe sind vor ortogonalen und polaren Feldern verborgen.
+Die Eigenschaften dieser Gruppe werden für rechtwinklige und polare Anordnungen verborgen.
 
 -    **Number Circles|Integer**: specifies the number of circular layers. Must be at least {{Value|2}}.
 
@@ -143,7 +148,7 @@ Die Eigenschaften dieser Gruppe sind vor ortogonalen und polaren Feldern verborg
 
 {{TitleProperty|Orthogonales Feld}}
 
-The properties in this group are hidden for circular arrays and polar arrays.
+Die Eigenschaften dieser Gruppe werden für Kreis-Anordnungen verborgen.
 
 -    **Interval X|VectorDistance**: specifies the interval between elements in the X direction.
 
@@ -160,7 +165,7 @@ The properties in this group are hidden for circular arrays and polar arrays.
 
 {{TitleProperty|Polares Feld}}
 
-The properties in this group are hidden for circular arrays and orthogonal arrays.
+Die Eigenschaften dieser Gruppe werden für Kreis-Anordnungen und rechtwinklige Anordnungen verborgen.
 
 -    **Angle|Angle**: specifies the aperture of the circular arc. Use {{value|360&#176;}} for a full circle.
 
@@ -171,7 +176,7 @@ The properties in this group are hidden for circular arrays and orthogonal array
 
 {{TitleProperty|Polar/circular array}}
 
-Die Eigenschaften dieser Gruppe sind vor orthogonalen Feldern verborgen.
+Die Eigenschaften dieser Gruppe werden für rechtwinklige Anordnungen verborgen.
 
 -    **Axis|Vector**: specifies the direction of the axis of the array.
 
@@ -184,7 +189,7 @@ Die Eigenschaften dieser Gruppe sind vor orthogonalen Feldern verborgen.
 
 {{TitleProperty|Verknüpfung}}
 
-The properties in this group, with the exception of the inherited property, are only available for Link arrays. See [Std LinkMake](Std_LinkMake#Properties.md) for more information.
+Die Eigenschaften dieser Gruppe, mit Ausnahme der ererbten Eigenschaften, stehen nur für Verknüpfungsanordnungen zur Verfügung. Siehe [Std VerknüpfungErstellen](Std_LinkMake/de#Eigenschaften.md) für weitere Informationen.
 
 -    **Draw Style|Enumeration**
     
@@ -206,7 +211,7 @@ The properties in this group, with the exception of the inherited property, are 
 
 {{TitleProperty|Basis}}
 
-Die Eigenschaften dieser Gruppe, mit Ausnahme der vererbten Eigenschaft, gibt es nur für verknüpfte Anordnungen.Siehe auch [Std LinkMake](Std_LinkMake#Properties.md).
+Die Eigenschaften dieser Gruppe, mit Ausnahme der ererbten Eigenschaften, stehen nur für Verknüpfungsanordnungen zur Verfügung. Siehe [Std VerknüpfungErstellen](Std_LinkMake/de#Eigenschaften.md) für weitere Informationen.
 
 -    **Child View Provider|PersistentObject|Hidden**
     
@@ -225,7 +230,7 @@ Die Eigenschaften dieser Gruppe, mit Ausnahme der vererbten Eigenschaft, gibt es
 
 {{TitleProperty|Zeige Auswahlmöglichkeiten}}
 
-Die Eigenschaften in dieser Gruppe sind vererbte Eigenschaften. Siehe auch [Part Formelement](Part_Feature/de#Eigenschaften.md).
+Die Eigenschaften in dieser Gruppe sind ererbte Eigenschaften. Siehe auch [Part Formelement](Part_Feature/de#Eigenschaften.md).
 
 -    **Bounding Box|Bool**: diese Eigenschaft ist nicht durch Verknüpfungsfelder vererbt.
 
@@ -247,7 +252,7 @@ Die Eigenschaften in dieser Gruppe sind vererbte Eigenschaften. Siehe auch [Part
 
 {{TitleProperty|Objectstil}}
 
-Die Eigenschaften dieser Gruppe sind nicht durch Verknüpfungsfelder vererbt.
+Die Eigenschaften dieser Gruppe werden nicht an Verknüpfungsanordnungen vererbt.
 
 
 
@@ -259,9 +264,9 @@ Siehe auch: [Autogenerated API documentation](https://freecad.github.io/SourceDo
 
 ### Parametrische Anordnung 
 
-Um ein parametrisches rechteckiges Feld zu erstellen, wird die `make_array`-Methode (<small>(v0.19)</small> ) des Entwurfmodules verwendet. Diese Methode ersetzt die veraltete `makeArray`-Methode. Die `make_array`-Methode kann Entwurfs-OrthoFelder, [Entwurf PolarAnordnung](Draft_PolarArray/de.md) und [Entwurf Kreisanordnung](Draft_CircularArray/de.md) erstellen. Für jeden Feldtyp gibt es ein oder mehrere Verbinder (wrappers).
+Zum Erstellen einer parametrischen rechteckigen Anordnung wird die Methode `make_array` des Draft-Moduls verwendet ({{Version/de|0.19}}). Diese Methode ersetzt die veraltete Methode `makeArray`. Die Methode `make_array` kann rechteckige Draft-Anordnungen, [Draft PolareAnordnungen](Draft_PolarArray/de.md) und [Draft KreisAnordnungen](Draft_CircularArray/de.md) erstellen. Für jede Anordnungsart stehen eine oder mehrere Wrapper-Methoden zur Verfügung.
 
-Die main Methode:
+Die Hauptmethode:
 
 
 ```python

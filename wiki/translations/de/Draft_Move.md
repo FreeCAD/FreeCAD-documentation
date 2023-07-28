@@ -45,19 +45,19 @@ Siehe auch: [Draft Fangen](Draft_Snap/de.md) and [Draft Beschränken](Draft_Cons
 
 Das jeweilige Verhalten eines Tastaturkürzels, das hier genannt wird kann geändert sein. Siehe [Entwurf Einstellungen](Draft_Preferences/de.md).
 
--   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   To use polar coordinates enter a value for the **Length** and a value for the **Angle**, and press **Enter** after each.
--   Check the **Angle** checkbox to constrain the pointer to the specified angle.
--   Press **H** to change the focus from the **X** input box to the **Length** input box and back. Depending on the input box that receives the focus the **Angle** checkbox is checked or unchecked.
--   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, the coordinates of the second point are relative to the first point, else they are relative to the coordinate system origin.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing. This mode really only makes sense if copy mode is switched on. Depending on the **Select base objects after copying** preference, either the original objects are selected for the next command call or the copies that were created last. See [Preferences](#Preferences.md).
--   Press **P** or click the **Copy** checkbox to toggle copy mode. If copy mode is on, the command will create moved copies instead of moving the original objects.
--   Press **D** or click the **Modify subelements** checkbox to toggle subelement mode. If subelement mode is on, the command will use the selected subelements instead of the whole objects. The subelements must belong to [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md).
--   If copy mode and subelement mode are both on, and edges of [Draft Wires](Draft_Wire.md) are selected, new wires will be created from those edges.
--   Holding down **Alt** after picking the base point will also toggle copy mode. While **Alt** is held down multiple target points can be picked. Release **Alt** to finish the command and see the created copies.
--   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
--   Press **Esc** or the **Close** button to abort the command.
+-   Um manuell x, y und z - Koordinaten einzugeben, jeweils die Werte eingeben und die **Enter**-Taste drücken oder die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** klicken, wenn die gewünschten Werte eingegeben sind. Man sollte aber vorher den Mauszeiger aus der [3D-Ansicht](3D_view.md) herausziehen.
+-   Zur Verwendung von Polarkoordinaten gibt man einen Wert für die **Länge** und einen Wert für den **Winkel** ein und drückt jeweils die **Enter**-Taste.
+-   Ein Häckchen in **Winkel**-Kästchen eintragen, um den Cursor auf den jeweiligen Winkel zu setzen.
+-   Mit der **H**-Taste den Fokus vom **X**-Eingabefeld auf das to the **Länge**-Eingabefeld und umgekehrt zu setzen. Abhängig davon, auf welchem Eingabefeld der Fokus liegt ist das Häckchen im **Winkel**-Kästchen gesetzt oder nicht.
+-   Mit der **R**-Taste oder durch Klicken auf das **Relativ**-Kästchen wird in den entsprechenden Modus geschaltet. Ist der Modus für die Eingabe relativer Werte eingeschaltet, werden die Koordinaten des zweiten Punktes relativ zum ersten verwendet. Ansonsten werden sie bezoden auf das Ursprungskoordinatensystem verwendet.
+-   Mit der **G**-Taste oder durch Klicken auf das **Global**-Kästchen wird in den Modus global geschaltet. Wenn der Modus global eingeschaltet ist, werden die Koordinaten bezogen auf das globale Koordinatensystem verwendet. Ansonsten werden sie bezogen auf das [EntwurfWähleEbene](Draft_SelectPlane/de.md) Koordinatensystem verwendet. {{Version/de|0.20}}
+-   Mit der **T**-Taste oder durch Klicken auf das **Fortsetzen**-Kästchen wird auf den Modus Fortfahren geschaltet. Ist der Modus Fortfahren eingeschaltet, beginnt das Bearbeiten der Anweisung erneut nach dem Abschluss der Arbeit. Dieser Modus ist nur sinnvoll, wenn der Kopiermodus eingeschaltet ist. Abhängig von der **Wähle ursprüngliche Objekte nach dem Kopieren aus**-Eigenschaft, wird entweder das Ursprungsobjekt oder die zuletzt erstellte Kopie für die nächste Ausführung der Anweisung ausgewählt. Siehe [Einstellungen](#Preferences.md).
+-   Mit der **P**-Taste oder durch Klicken auf das **Kopieren**-Kästchen wird auf den Kopiermodus geschaltet. Ist der Kopiermodus eingeschaltet, wird das Ausführen der Anweisung Kopien erstellen und verschieben anstatt die Ursprungsobjekte zu verschieben.
+-   Mit der **D**-Taste oder durch Klicken auf das **Subelemente ändern**-Kästchen wird auf den Modus \"Subelemente ändern\" geschaltet. Ist dieser Modus \"Subelemente ändern\" eingeschaltet, verwendet die Anweisung Subelemente anstatt der ganzen Objekte. Die Subelemente müssen den Elementen [Draft Linie](Draft_Line/de.md) oder [Draft Polylinie](Draft_Wire/de.md) angehören.
+-   Sind sowohl der Kopiermodus als auch der Modus Subelemente eingeschaltet und die Kanten von [Draft Polylinie](Draft_Wire.md) sind ausgewählt, werden neue Linien aus diesen Kanten erstellt.
+-   Wird die **Alt**-Taste gedrückt und gehalten, nachdem der Basispunkt angeklickt wurde, wird ebenfalls der Kopiermodus eingeschaltet. Wenn die **Alt**-Taste gedrückt ist, können mehrere Zielpunkte angewählt werden. Das Lösen der **Alt**Taste beendet die Anweisung und die erstellten Kopien werden angezeigt.
+-   Mit der **S**-Taste wird über [Draft Fangen](Draft_Snap/de.md) die Fangfunktion ein- oder ausgeschaltet.
+-   Mit der **Esc**-Taste oder der **Close**-Schaltfläche wird die Anweisung abgebrochen.
 
 
 
@@ -71,10 +71,10 @@ Das jeweilige Verhalten eines Tastaturkürzels, das hier genannt wird kann geän
 
 Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstellungen](Draft_Preferences/de.md).
 
--   Um die Anzahl der Dezimalstellen für die Eingabe der Koordinaten, wie Längen und Winkel zu ändern, ist die Eigenschaft: **Edit → Preferences... → General → Units → Units settings → Number of decimals** einzustellen.
--   Um den Fokus beim Öffnen der Aufgabenansicht auf **Length** zu legen, ist die Eigenschaft: **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate** anzupassen. Beachte, dass der Zeiger in der [3D Ansicht](3D_view/de.md) bewegt werden muss, um die Auswirkung sehen zu können.
--   Um die gleiche Kopiermethode über alle Anweisungen zu speichern und wieder zu verwenden, ist die Eigenschaft: **Edit → Preferences... → Draft → General settings → Draft tools options → Global copy mode** einzustellen.
--   Um die Origialobjekte nach dem Kopieren zu markieren, ist die Eigenschaft: **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying** einzustellen.
+-   Um die Anzahl der Dezimalstellen für die Eingabe der Koordinaten, wie Längen und Winkel zu ändern, ist die Eigenschaft: **Bearbeiten→ Eigenschaften... → Allgemein → Einheiten → Einheiten-Einstellungen → Anzahl der Nachkommastellen** einzustellen.
+-   Um den Fokus beim Öffnen der Aufgabenansicht auf **Länge** zu legen, ist die Eigenschaft: **Bearbeiten → Eigenschaften... → Draft → Allgemeine Einstellungen → Entwurfswerkzeuge Optionen → Fokusierung auf Länge statt auf X-Koordinate setzen** anzupassen. Beachte, dass der Zeiger in der [3D Ansicht](3D_view/de.md) bewegt werden muss, um die Auswirkung sehen zu können.
+-   Um die gleiche Kopiermethode über alle Anweisungen zu speichern und wieder zu verwenden, ist die Eigenschaft: **Bearbeiten → Eigenschaften... → Draft → Allgemeine Einstellungen → Entwurfswerkzeuge Optionen → Globaler Kopiermodus** einzustellen.
+-   Um die Origialobjekte nach dem Kopieren zu markieren, ist die Eigenschaft: **Bearbeiten → Eigenschaften... → Draft → Allgemeine Einstellungen → Entwurfswerkzeuge Optionen → Wähle ursprüngliche Objekte nach dem Kopieren aus** einzustellen.
 
 
 

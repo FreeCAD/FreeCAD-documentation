@@ -1,31 +1,23 @@
 # File Format FCStd/it
 {{TOCright}}
 
-## Overview
 
-
-<div class="mw-translate-fuzzy">
 
 ## Introduzione
 
 Il **Formato nativo dei file di FreeCAD** (FreeCAD Standard file format) **.FCStd** è il formato principale dei file di FreeCAD. Si tratta di un formato composto che supporta la compressione e l\'incorporamento di diversi tipi di dati.
 
 
-</div>
 
 ## Contenuto di un file .FCStd 
 
-
-<div class="mw-translate-fuzzy">
-
-FCStd è un [file zip standard contenente uno o più file](#Contenuto.md) in una [determinata struttura](#Struttura.md). Come tale, è possibile decomprimere un file **.FCStd** utilizzando un normale strumento di decompressione zip, mentre invece si deve stare attenti a impacchettare il contenuto di un file **.FCStd**. FreeCAD contiene una \"Project Utility\" per \'ripacchettare\' i file **.FCStd**, il suo uso è descritto nel paragrafo sootttostante [Modificare il codice sorgente del file .FCStd](#Modificare_il_codice_sorgente_del_file_.FCStd.md).
-
-
-</div>
+FCStd è un [file zip standard contenente uno o più file in una struttura specifica](#Struttura_tipica.md). Come tale, è possibile decomprimere un file **.FCStd** utilizzando un normale strumento di decompressione zip, mentre invece si deve stare attenti a impacchettare il contenuto di un file **.FCStd**. FreeCAD contiene una \"Project Utility\" per \'ripacchettare\' i file **.FCStd**, il suo uso è descritto nel paragrafo sootttostante [Modificare il codice sorgente del file .FCStd](#Modificare_il_codice_sorgente_del_file_.FCStd.md).
 
 ### Document.xml
 
 Questo è il file **.xml** principale che descrive tutti gli oggetti contenuti in un documento di FreeCAD. Descrive solo la definizione geometrica e parametrica degli oggetti, ma non la loro rappresentazione visiva. Se FreeCAD viene eseguito in modalità console (senza GUI), viene utilizzato solo questo **Document.xml**.
+
+
 
 #### Esempio di Document.xml 
 
@@ -134,21 +126,11 @@ Si tratta di un\'immagine di anteprima di 128x128 pixel del documento, che è un
 
 Queste sono le forme [B-rep](wikipedia_Boundary_representation.md) di tutti gli oggetti che hanno una forma Parte in **Document.xml**. Ogni oggetto, anche se è parametrico, ha la sua forma memorizzata in un file **.brep** individuale, in modo che si può accedere ai suoi componenti senza la necessità di ricalcolarne la forma.
 
+### \*.svg
 
-<div class="mw-translate-fuzzy">
-
-### Templates/\*.svg
-
-
-</div>
+Questi sono i file svg modello utilizzati nelle pagine di [TechDraw](TechDraw_Workbench/it.md).
 
 
-<div class="mw-translate-fuzzy">
-
-Nella cartella Templates vengono memorizzati i file dei modelli svg utilizzati nelle pagine di [Disegno tecnico](Drawing_Workbench/it.md).
-
-
-</div>
 
 ### Struttura tipica 
 
@@ -167,23 +149,13 @@ Struttura di un tipico file **.FCStd**. L\'estensione può essere modificata in 
       :--MyPage.svg
       :--etc.
 
+
+
 ## Incorporare altri file 
 
+Per incorporare altri tipi di file all\'interno di un file FCStd, bisogna prima creare un [oggetto da script](Scripted_objects/it.md) dalla [console Python](Python_console/it.md) e assegnargli una proprietà `App::PropertyFileIncluded`.
 
-<div class="mw-translate-fuzzy">
-
-Per incorporare altri tipi di file all\'interno di un file FCStd, bisogna prima creare un [oggetto da script](scripted_objects/it.md) dalla [console Python](Python_console/it.md) e assegnargli una proprietà `App::PropertyFileIncluded`.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Quindi nell\'[editor delle proprietà](property_editor/it.md) si può andare alla proprietà aggiunta e scegliere un file nel computer. Una volta salvato il file FCStd, il file assegnato alla proprietà **PropertyFileIncluded** verrà compresso all\'interno di `.FCStd`. Quando il documento viene ripristinato, lo stesso file verrà ripristinato con la proprietà **PropertyFileIncluded**.
-
-
-</div>
+Quindi nell\'[editor delle proprietà](Property_editor/it.md) si può andare alla proprietà aggiunta e scegliere un file nel computer. Una volta salvato il file FCStd, il file assegnato alla proprietà **PropertyFileIncluded** verrà compresso all\'interno di `.FCStd`. Quando il documento viene ripristinato, lo stesso file verrà ripristinato con la proprietà **PropertyFileIncluded**.
 
 
 ```python
@@ -193,9 +165,13 @@ custom_obj.addProperty("App::PropertyFileIncluded", "AttachedFile")
 
 Vedere nel forum la discussione [PDF inside the project](https://forum.freecadweb.org/viewtopic.php?t=38201).
 
+
+
 ## Modificare il codice sorgente del file .FCStd 
 
 -   Vedere [Utilità di progetto](Std_ProjectUtil/it.md).
+
+
 
 ## Altri link 
 

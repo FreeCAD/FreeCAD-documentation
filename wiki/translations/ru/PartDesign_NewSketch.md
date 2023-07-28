@@ -10,11 +10,15 @@
 
 # PartDesign NewSketch/ru
 
+
+
 ## Описание
 
 Данный инструмент создает новый эскиз. Создает новое [PartDesign Тело](PartDesign_Body/ru.md) чтобы разместить в нем эскиз если такового не существует и автоматически открывает [верстак Sketcher](Sketcher_Workbench/ru.md).
 
 When creating models using the [PartDesign workbench](PartDesign_Workbench.md), this tool should be preferred to the **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher NewSketch](Sketcher_NewSketch.md)** tool found in the [Sketcher workbench](Sketcher_Workbench.md).
+
+
 
 ## Применение
 
@@ -23,6 +27,8 @@ When creating models using the [PartDesign workbench](PartDesign_Workbench.md), 
 3.  Press **OK**.
 4.  The interface automatically switches to the Sketcher workbench and the sketch can be edited. Once the sketch is exited, the interface is brought back to the PartDesign workbench and the 3D view is restored to the view orientation prior to creating the sketch.
 5.  Alternatively, a plane or a face on the existing active body can be selected before creating the sketch, in which case the sketch is instantly created.
+
+
 
 ## Опции
 
@@ -33,12 +39,12 @@ When creating models using the [PartDesign workbench](PartDesign_Workbench.md), 
 :   
 
     :   <img alt="" src=images/PartDesign.CreateSketch.SelectFeatureDialog.jpeg  style="width:300px;">
-    :   *Select feature* dialog. These settings create a sketch on the XY plane and allow cross-references from other items of the same body\'\'
+    :   *Select feature* dialog. These settings create a sketch on the XY plane and allow cross-references from other items of the same body
 
 Dialog settings
 
 -   Coordinate system box: defines the orientation of the sketch plane
--   Allow Used Features checkbox: *TBD*
+-   Allow Used Features: *TBD*
 
 :   Allow external features options
 
@@ -49,6 +55,8 @@ Dialog settings
 -   Create cross-reference: the linked elements will not be copies, but point to the original elements, e.g. a master sketch. Any changes are reflected to this sketch
 
 To reference any items in the [Workbench Sketcher](Sketcher_Workbench.md) use the **<img src="images/Sketcher_External.svg" width=16px> [External Geometry](Sketcher_External.md)** and **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [CarbonCopy](Sketcher_CarbonCopy.md)** tools. Generally it is recommended to use other sketches as source for references rather than faces or edges, because they are less affected by the Topological Naming Issue.
+
+
 
 ## Свойства
 

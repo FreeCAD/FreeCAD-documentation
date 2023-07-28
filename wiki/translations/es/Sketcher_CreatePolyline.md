@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -22,6 +24,8 @@ Cuando se inicia la herramienta, el puntero del ratón cambia a una cruz blanca 
 
 
 *Polyline started with a line, a tangent arc, a perpendicular arc then a tangent line.*
+
+
 
 
 <div class="mw-translate-fuzzy">

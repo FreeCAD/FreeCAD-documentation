@@ -1,180 +1,76 @@
 # Third Party Tools/it
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it|[Librerie di terze parti](Third_Party_Libraries/it.md)|[Avvio e configurazione](Start_up_and_Configuration/it.md)}}
-
-
-</div>
-
-
 {{TOCright}}
 
-## Tool Page 
 
 
-<div class="mw-translate-fuzzy">
+## Pagina degli strumenti 
 
-### Strumenti
-
-Per sviluppare seriamente qualsiasi software servono degli strumenti. Ecco un elenco di quelli che usiamo per sviluppare FreeCAD:
+Per sviluppare seriamente qualsiasi software servono degli strumenti. Ecco un elenco di quelli che si usa per sviluppare FreeCAD:
 
 
-</div>
 
-### Platform independent tools 
+### Strumenti indipendenti dalla piattaforma 
 
 #### Qt-Toolkit 
 
-
-<div class="mw-translate-fuzzy">
-
-#### Strumenti indipendenti dalla piattaforma 
-
-##### Qt-Toolkit 
-
 Qt-toolkit è uno strumento avanzato per il disegno di interfacce utente indipendente dalla piattaforma. Esso è contenuto in [LibPack](Third_Party_Libraries/it#LibPack.md) di FreeCAD, ma può anche essere scaricato da [Qt project](http://qt-project.org/downloads).
-
-
-</div>
 
 #### Inkscape
 
-
-<div class="mw-translate-fuzzy">
-
-##### Inkscape 
-
-Grande programma di disegno vettoriale. Aderisce allo standard SVG e viene utilizzato per disegnare icone e immagini. E\' scaricabile da [www.inkscape.org](http://www.inkscape.org).
-
-
-</div>
+Questo è un ottimo programma di disegno vettoriale. Aderisce allo standard SVG e viene utilizzato per disegnare icone e immagini. Inkscape è un software libero e open source concesso in licenza con GPL. Puoi scaricarlo su [www.inkscape.org](http://www.inkscape.org).
 
 #### Doxygen
 
-
-<div class="mw-translate-fuzzy">
-
-##### Doxygen 
-
 Uno strumento molto buono e stabile per generare la documentazione del codice partendo da file .h e .cpp.
-
-
-</div>
 
 #### Gimp
 
-
-<div class="mw-translate-fuzzy">
-
-##### Gimp 
-
-Non c\'è molto da dire su **GNU Image Manipulation Program** (Programma di manipolazione di immagini di GNU). Può anche gestire i file .xpm che sono un modo molto pratico per gestire le icone nei programmi di QT. XPM è sostanzialmente un codice C compilabile in un programma. Gimp produce il formato .png libero utilizzato nella wiki.
-
-
-</div>
+Non c\'è molto da dire sul **GNU Image Manipulation Program**. Può manipolare file .xpm che è un modo molto efficace per gestire le icone nei programmi QT. XPM è fondamentalmente un codice C che può essere compilato in un programma. Gimp supporta il formato di file .png gratuito utilizzato nel wiki.
 
 GIMP è scaricabile da: [www.gimp.org](http://www.gimp.org/)
 
 #### Gitkraken
 
+Questa è una GUI git proprietaria che è molto utile per imparare come funziona git nel caso si sia interessati a contribuire a FreeCAD. Pagine rilevanti da ricercare:
 
-<div class="mw-translate-fuzzy">
-
-#### Gitkraken 
-
-Questa è una GUI git proprietaria che è molto utile per imparare come funziona git se si è interessati a voler contribuire a FreeCAD. Pagine rilevanti da ricercare:
-
--   [Gitkraken](Gitkraken.md)
--   [Github](Github.md)
-
-
-</div>
-
-#### OBS Studio 
-
-
-<div class="mw-translate-fuzzy">
+-   [Sviluppo di FreeCAD con GitKraken](Developing_FreeCAD_with_GitKraken/it.md)
+-   [Gestione del codice sorgente](Source_code_management/it.md)
 
 #### OBS Studio 
 
 Software gratuito e open source per registrazione video e live streaming. Maggiori dettagli sul sito ufficiale: [obsproject.com](https://obsproject.com/)
 
-
-</div>
-
 #### OpenCamLib
 
-[OpenCamLib](OpenCamLib.md) (OCL) is an open source library aiming to provide computer aided manufacturing (CAM) algorithms. FreeCAD uses OCL in the experimental 3D surface path operations and other experimental features.
+[OpenCamLib](OpenCamLib.md) (OCL) è una libreria open source che mira a fornire algoritmi di produzione assistita da computer (CAM). FreeCAD utilizza OCL nelle operazioni sperimentali del percorso della superficie 3D e in altre funzionalità sperimentali.
 
 #### StarUML
 
+Un programma UML completo ma proprietario. Ha molte caratteristiche importanti, incluso il reverse engineering del codice sorgente C++.
 
-<div class="mw-translate-fuzzy">
-
-##### StarUML 
-
-Un programma UML open source completo di funzionalità. Ha un sacco di funzioni importanti, tra cui la generazione inversa del codice sorgente C++ codice \.... (Permette, ad esempio, di generare codice C++ in automatico partendo da grafici).
+Si può scaricare da: [staruml.io](http://staruml.io)
 
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Scaricarlo da: [staruml.sourceforge.net](http://staruml.sourceforge.net/en/)
-
-
-</div>
 
 #### Strumenti in Windows 
 
 #### Visual Studio Community 
 
+Visual Studio Community è gratuito per progetti open source e piccole strutture. L\'installazione è modulare. Si può aggiungere il supporto per un gran numero di linguaggi tra cui C++ e Python.
 
-<div class="mw-translate-fuzzy">
-
-##### Visual Studio 8 Express 
-
-Anche se VC8 è per lo sviluppo in C++ non è migliorato molto da VisualStudio 6 (a mio parere è stato un bel passo indietro), è un sistema di sviluppo gratuito su Windows. Per le applicazioni native Win32 è necessario scaricare il PlatformSDK da M\$.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-L\'edizione Express è difficile da trovare. Si può provare a [questo link](http://msdn.microsoft.com/vstudio/express/visualc/default.aspx)
-
-
-</div>
+Si può scaricare da [Visual Studio Community](https://visualstudio.microsoft.com/fr/vs/community).
 
 #### CamStudio
 
-
-<div class="mw-translate-fuzzy">
-
-##### CamStudio 
-
-È uno strumento Open Source per registrare Screencast (Webcast) (registrazione digitale dell\'output dello schermo). È un ottimo strumento per creare tutorial registrandoli. Non è così noioso come scrivere la documentazione.
-
-
-</div>
+È uno strumento Open Source per registrare Screen-cast (Webcast). È un ottimo strumento per creare tutorial registrandoli. Non è così noioso come scrivere documentazione.
 
 Vedere [camstudio.org](http://camstudio.org/) per avere maggiori informazioni.
+
+
 
 #### Strumenti in Linux 
 
 Da Fare
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it|[Librerie di terze parti](Third_Party_Libraries/it.md)|[Avvio e configurazione](Start_up_and_Configuration/it.md)}}
-
-
-</div>
 
 
 

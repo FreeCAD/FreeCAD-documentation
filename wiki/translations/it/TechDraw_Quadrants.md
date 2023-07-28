@@ -13,27 +13,48 @@
 
 </div>
 
+
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Quadrante aggiunge dei [vertici cosmetici](TechDraw_CosmeticVertex/it.md) nei punti a 90/180/270° di un bordo circolare. Il vertice di 0° dovrebbe già essere presente come vertice geometrico.
+
+
+</div>
 
 <img alt="" src=images/TechDraw_CosmeticQuadrant_Sample.png  style="width:250px;"> 
 *Vertici cosmetici nei punti del quadrante di un cerchio
 *
 
+
+
 ## Utilizzo
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Selezionare uno o più bordi circolari in una vista.
 2.  Premere il pulsante **<img src="images/TechDraw_Quadrants.svg" width=16px> Quadrante**.
 3.  I vertici cosmetici vengono aggiunti nei punti quarti del bordo.
 
-**Nota:** Questo strumento può essere utilizzato su qualsiasi bordo, non solo sui cerchi.
 
-Per eliminare un vertice di un quadrante, selezionarlo e utilizzare il pulsante della barra degli strumenti **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Rimuovi oggetto cosmetico](TechDraw_CosmeticEraser/it.md)**.
+</div>
+
+## Notes
+
+-   The created cosmetic vertices are not parametrically linked to the selected edges.
+-   To delete a cosmetic vertex use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
+
+
 
 ## Proprietà
 
 I vertici cosmetici non hanno proprietà proprie, in quanto non sono dei Document Objects. Condividono le impostazioni di colore e dimensione con i normali vertici della geometria.
+
+
 
 ## Script
 
@@ -58,9 +79,9 @@ In questo momento i vertici cosmetici non sono accessibili dalle [macro](macros/
 
 
 ```python
->>> v = App.ActiveDocument.View
->>> v.clearCV()
->>> App.activeDocument().recompute()
+v = App.ActiveDocument.View
+v.clearCV()
+App.ActiveDocument.recompute()
 ```
 
 

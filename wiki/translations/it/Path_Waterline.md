@@ -16,7 +16,7 @@
 
 ## Description
 
-This tool creates a new Waterline operation. As of 0.19_pre, the Waterline operation works on the entire model to generate G-Code for the Job. Currently, within the operation\'s settings there is no functionality to select specific areas, faces, or regions of the model.
+The tool <img alt="" src=images/Path_Waterline.svg  style="width:24px;"> [Waterline](Path_Waterline.md) creates a new Waterline operation. As of 0.19_pre, the operation works on the entire model to generate G-code for the Job. Currently, within the operation\'s settings there is no functionality to select specific areas, faces, or regions of the model.
 
 The Waterline operation has two algorithms: OCL Drop Cutter and Experimental.
 
@@ -59,11 +59,11 @@ To achieve different, or more complex, effects, adjust additional operation prop
 -   It does not handle overhangs correctly.
 -   It only returns paths for an End Mill type cutter (tool bit).
 -   It might not correctly catch all interior features.
--   It is just that, experimental, and not ready for mainstream integration. Please inspect paths with the built-in **<img src="images/Path_Simulator.svg" width=16px> [CAM Simulator](Path_Simulator.md)**, or other 3rd-party g-code inspection tools, before cutting with your machine.
+-   It is just that, experimental, and not ready for mainstream integration. Please inspect paths with the built-in **<img src="images/Path_Simulator.svg" width=16px> [CAM Simulator](Path_Simulator.md)**, or other 3rd-party G-code inspection tools, before cutting with your machine.
 
 #### Available Tool (Cutter) Shapes 
 
-When using the ***OCL Dropcutter*** algorithm, the Waterline operation uses OpenCamLib \[OCL\] to extract paths from the part base. As such, a tool translation is required between the FreeCAD tool controller and OCL in order to complete the scan with your chosen tool(cutter) shape. These tool shapes are(should be) respected and available for the OCL Dropcutter so long as the built-in tool shapes are used, whether Legacy or ToolBit tools:
+When using the ***OCL Dropcutter*** algorithm, the Waterline operation uses OpenCamLib \[OCL\|OCL\] to extract paths from the part base. As such, a tool translation is required between the FreeCAD tool controller and OCL in order to complete the scan with your chosen tool(cutter) shape. These tool shapes are(should be) respected and available for the OCL Dropcutter so long as the built-in tool shapes are used, whether Legacy or ToolBit tools:
 
 -   End mill
 -   Ball end mill
@@ -95,42 +95,42 @@ Note: It is suggested that you do not edit the Placement property of path operat
     -   
         **Axis**
         
-        : Axis(one or multiple) around which to rotate the object, set in sub-properties: x, y, z
+        : Axis (one or multiple) around which to rotate the object, set in sub-properties: X, Y, Z
 
         -   
             **X**
             
-            : x axis value
+            : X axis value
 
         -   
             **Y**
             
-            : y axis value
+            : Y axis value
 
         -   
             **Z**
             
-            : z axis value
+            : Z axis value
 
     -   
         **Position**
         
-        : Position of the object, set in sub-properties: x, y, z - with respect to the origin (or origin of parent object container)
+        : Position of the object, set in sub-properties: X, Y, Z - with respect to the origin (or origin of parent object container)
 
         -   
             **X**
             
-            : x distance value
+            : X distance value
 
         -   
             **Y**
             
-            : y distance value
+            : Y distance value
 
         -   
             **Z**
             
-            : z distance value
+            : Z distance value
 
 -    **Label**: User-provided name of the object (UTF-8)
 
@@ -143,7 +143,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Clear Last Layer**: Set to clear last layer in \Multi-pass\ operation.
 
--    **Cut Mode**: The direction that the toolpath should go around the part: Climb(ClockWise) or Conventional(CounterClockWise)
+-    **Cut Mode**: The direction that the toolpath should go around the part: Climb (ClockWise) or Conventional (CounterClockWise)
 
 -    **Cut Pattern**: Clearing pattern to use
 
@@ -171,7 +171,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 {{TitleProperty|Path}}
 
--    **Active**: make False, to prevent operation from generating code
+-    **Active**: Make False, to prevent operation from generating code
 
 -    **Base**: The base geometry for this operation
 
@@ -193,29 +193,31 @@ Note: It is suggested that you do not edit the Placement property of path operat
     -   
         **X**
         
-        : x distance value
+        : X distance value
 
     -   
         **Y**
         
-        : y distance value
+        : Y distance value
 
     -   
         **Z**
         
-        : z distance value
+        : Z distance value
 
 -    **Use Start Point**: Make True, if specifying a Start Point
 
 ## Tasks Window Editor Layout 
 
-*Descriptions for the settings are provided in the Properties list above.* This section is simply a layout map of the settings in the window editor for the Operation.
+*Descriptions for the settings are provided in the Properties list above.*
+
+This section is simply a layout map of the settings in the window editor for the Operation.
 
 ### Base Location 
 
--   **Add**: adds selected element(s) which should be the base(s) for the path(s)
--   **Remove**: remove the selected item(s) in the Base Location list
--   **Edit**: clear all items in the Base Location list
+-   **Add**: Adds selected element(s) which should be the base(s) for the path(s).
+-   **Remove**: Remove the selected item(s) in the Base Location list.
+-   **Edit**: Clear all items in the Base Location list.
 
 ### Depths
 

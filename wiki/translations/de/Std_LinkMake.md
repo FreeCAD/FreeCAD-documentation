@@ -5,25 +5,33 @@
    MenuLocation:Keine
    Workbenches:Alle
    Version:0.19
-   SeeAlso:[Std Part](Std_Part/de.md), [Std Group](Std_Group/de.md), [PartDesign Body](PartDesign_Body/de.md)
+   SeeAlso:[Standard Teil](Std_Part/de.md), [Std Gruppe](Std_Group/de.md), [PartDesign Körper](PartDesign_Body/de.md)
 ---
 
 # Std LinkMake/de
+
+
 
 ## Beschreibung
 
 
 **[<img src=images/Std_LinkMake.svg style="width:16px"> [Verknüpfung erstellen](Std_LinkMake/de.md)**
 
-erstellt ein [App-Link](App_Link.md)-Objekt (`App::Link` class), das auf ein anderes Objekt innerhalb desselben Dokuments oder in einem anderen Dokument verweist oder eine Verknüpfung zu ihm erzeugt. Es ist speziell dafür entwickelt worden einzelne Objekte effizient zu vervielfältigen, was bei der Erstellung komplexer [Baugruppen](assembly/de.md) aus kleineren Unterbaugruppen und vielen Wiederholteilen wie Schrauben, Muttern und ähnlichen Befestigungselementen hilft.
+erstellt ein [App Link](App_Link.md)-Objekt (`App::Link` class), das auf ein anderes Objekt innerhalb desselben Dokuments oder in einem anderen Dokument verweist oder eine Verknüpfung zu ihm erzeugt. Es ist speziell dafür entwickelt worden einzelne Objekte effizient zu vervielfältigen, was bei der Erstellung komplexer [Baugruppen](assembly/de.md) aus kleineren Unterbaugruppen und vielen Wiederholteilen wie Schrauben, Muttern und ähnlichen Befestigungselementen hilft.
 
-Das [App-Link](App_Link/de.md)-Object wurde mit der Version 0.19 neu eingeführt; in der Vergangenheit wurde das einfache Duplizieren von Objekten durch **[<img src=images/Draft_Clone.svg style="width:16px"> [Draft Clone](Draft_Clone/de.md)** erreicht, aber das ist eine weniger effiziente Lösung, da sie entsprechend ihrer Implementierung zwingend eine Kopie der internen [Form](Part_TopoShape/de.md) des Quellobjekts erzeugt. Dagegen referenziert ein App-Link direkt auf die originale Form und ist dadurch speichereffizienter.
+Das [App-Link](App_Link/de.md)-Object wurde mit der Version 0.19 neu eingeführt; in der Vergangenheit wurde das einfache Duplizieren von Objekten durch **[<img src=images/Draft_Clone.svg style="width:16px"> [Draft Klonen](Draft_Clone/de.md)** erreicht, aber das ist eine weniger effiziente Lösung, da sie entsprechend ihrer Implementierung zwingend eine Kopie der internen [Form](Part_TopoShape/de.md) des Quellobjekts erzeugt. Dagegen referenziert ein App-Link direkt auf die originale Form und ist dadurch speichereffizienter.
 
 Das [App-Link](App_Link.md)-Objekt allein kann schon wie ein Array genutzt werden um das Basisobjekt zu vervielfältigen; das kann erreicht werden, durch das Ändern der {{PropertyData/de|Element Count}} auf {{Value|1}} oder größer. Dieses \"[Link-Array](#Link_Array.md)\"-Object kann auch mit den verschiedenen Array-Werkzeugen des <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft-Arbeitsbereichs](Draft_Workbench/de.md) erzeugt werden, z.B. **[<img src=images/Draft_OrthoArray.svg style="width:16px"> [Draft Rechtwinklige Anordnung](Draft_OrthoArray/de.md)**, **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Draft Polare Anordnung](Draft_PolarArray/de.md)**, and **[<img src=images/Draft_CircularArray.svg style="width:16px"> [Draft Kreisanordnung](Draft_CircularArray/de.md)**.
 
-When used with the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md), Links are intended to be used with **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Bodies](PartDesign_Body.md)**, so it is recommended to set **Display Mode Body** to {{Value|Tip}} to select the features of the entire Body, and not the individual features. To create arrays of the internal [PartDesign Features](PartDesign_Feature.md), use **[<img src=images/PartDesign_LinearPattern.svg style="width:16px"> [PartDesign LinearPattern](PartDesign_LinearPattern.md)**, **[<img src=images/PartDesign_PolarPattern.svg style="width:16px"> [PartDesign PolarPattern](PartDesign_PolarPattern.md)**, and **[<img src=images/PartDesign_MultiTransform.svg style="width:16px"> [PartDesign MultiTransform](PartDesign_MultiTransform.md)**.
+Im <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) sind Verknüpfungen zur Verwendung mit 
+**[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Körper](PartDesign_Body/de.md)** vorgesehen. Es empfiehlt sich daher **Display Mode Body** auf {{Value|Tip}} zu setzen, um Eigenschaften des gesamten Körpers und nicht einzelner Eigenschaften auszuwählen. Um Muster interner [PartDesign Formelemente](PartDesign_Feature/de.md) zu erstellen, verwendet man **[<img src=images/PartDesign_LinearPattern.svg style="width:16px"> [PartDesign Lineares Muster](PartDesign_LinearPattern/de.md)**, **[<img src=images/PartDesign_PolarPattern.svg style="width:16px"> [PartDesign Polares Muster](PartDesign_PolarPattern/de.md)**, and **[<img src=images/PartDesign_MultiTransform.svg style="width:16px"> [PartDesign MultiTransform](PartDesign_MultiTransform.md)**
 
-The **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)** tool is not defined by a particular workbench, but by the base system, thus it is found in the **structure toolbar** that is available in all [workbenches](Workbenches.md). The Link object, used in conjunction with **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)** to group various objects, forms the basis of the <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench.md) and <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4 Workbenches](Assembly4_Workbench.md).
+
+**[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake/de.md)**
+
+ist nicht für einen speziellen Arbeitsbereich vorgesehen, sondern für das grundlegende System. Deshalb kann es aus der **Strukturellen Werkzeugleiste** verwendet werden, die in allen [Arbeitsbereichen](Workbenches/de.md) enthalten ist. Das Verknüpfungsobjekt (link object) zusammen mit **[<img src=images/Std_Part.svg style="width:16px"> [Std Teil](Std_Part/de.md)** zur Gruppierung verschiedener Objekte, stellt die Grundlage der <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Arbeitsbereich Assembly3](Assembly3_Workbench/de.md) und <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Arbeitsbereich Assembly4](Assembly4_Workbench/de.md) Arbeitsbereiche dar.
+
+
 
 ## Anwendung
 
@@ -42,150 +50,164 @@ Ohne Auswahl:
 
 
 
-*(1) An object, (2) an empty Link, (3) a full Link to the first object (with overriding material), and (4) a Link to only some subelements of the object. The empty Link is not tied to the real object so it is not displayed in the [3D view](3D_view.md).*
-
-## Usage: external documents 
-
-1.  Start with a document that has at least one object which will be the source of the Link.
-2.  Open a new document or an existing document. For easier handling, use **[<img src=images/Std_TreeMultiDocument.svg style="width:16px"> [Std TreeMultiDocument](Std_TreeMultiDocument.md)** to show both documents in the [tree view](tree_view.md). Before you proceed, [save](Std_Save.md) both documents. The Link won\'t be able to find its source and target unless both documents are saved on disk.
-3.  In the first document, select the object that you wish to link; then switch tabs in the [main view area](main_view_area.md) to switch to the second document.
-4.  Press **[<img src=images/Std_LinkMake.svg style="width:16px"> [Make link](Std_LinkMake.md)**. The produced object has the same icon as the original object, but has an additional arrow overlay indicating it is a Link coming from an external document.
+*(1) Ein Objekt, (2) eine leere Verknüpfung, (3) eine vollständige Verknüpfung zum ersten Objekt (mit überlagerndem Material) und (4) eine Verknüpfung nur mit einzelnen Unterelementen des Objektes. Die leere Verknüpfung ist nicht an das reale Objekt gebunden und wird daher nicht in der [3D Ansicht](3D_view/de.md) angezeigt.*
 
 
-**Notes:**
 
--   When saving the document with the Link, it will also ask to [save](Std_Save.md) the source document which contains the original object.
+## Verwendung externer Dokumente 
 
--   To include the original object in the document with the Link, use **[<img src=images/Std_LinkImport.svg style="width:16px"> [Std LinkImport](Std_LinkImport.md)** or **[<img src=images/Std_LinkImportAll.svg style="width:16px"> [Std LinkImportAll](Std_LinkImportAll.md)**.
+1.  Wir beginnen mit einem Dokument, das mindestens ein Objekt enthält, das die Quelle der Verknüpfung darstellt.
+2.  Wir öffnen ein neues oder bereits existierendes Dokument. Zur Vereinfachung nutzen wir die Schaltfläche **[<img src=images/Std_TreeMultiDocument.svg style="width:16px"> [Std BaumMehrfachdokument](Std_TreeMultiDocument/de.md)**, um beide Dokumente in der [Baumansicht](tree_view/de.md) anzuzeigen. Wir [Speichern](Std_Save/de.md) beide Dokumente, bevor wir weitergehen. Das Verknüpfungswerkzeug kann seine Quelle und sein Ziel nicht finden, wenn die Dokumente nicht gespeichert wurden.
+3.  Im ersten Dokument wählen wir das Objekt, das wir verknüpfen wollen. Dann wählen wir den Reiter im [Hauptansichtsbereich](main_view_area/de.md), um zum zweiten Dokument zu wechseln.
+4.  Nun die Schaltfläche **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std VerknüpfungErstellen](Std_LinkMake/de.md)** anklicken. Das erstellte Ojekt hat dasselbe Icon, wie das Originalobjekt, hat aber einen zusätzlichen, überlagernden Pfeil, der es als Verknüpfung aus einem externen Dokument anzeigt.
 
--    **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)**can be used on an existing Link object, in order to create a Link to a Link which ultimately resolves to the original object in the source document. This can be used with **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> [Std LinkMakeRelative](Std_LinkMakeRelative.md)** to pick only certain subelements as well.
+
+**Hinweise:**
+
+-   Wenn das Dokument mit der Verknüpfung gespeichert wird, wird ebenfalls gebeten, das Quelldokument mit dem Originalobjekt zu [Std Speichern](Std_Save/de.md).
+-   Um das Originalobjekt in das Dokument mit der Verknüpfung einzufügen, betätigen wir die Schaltfläche **[<img src=images/Std_LinkImport.svg style="width:16px"> [Std VerknüpfungImportieren](Std_LinkImport/de.md)** oder **[<img src=images/Std_LinkImportAll.svg style="width:16px"> [Std AlleVerknüpfungenImportieren](Std_LinkImportAll/de.md)**.
+-   Die Schaltfläche **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std VerknüpfungErstellen](Std_LinkMake/de.md)** kann auf eine existierende Verknüpfung angewendet werden, um eine Verknüpfung auf eine Verknüpfung zu erstellen, die sich letztendlich in eine Verknüpfung auf das Originalobjekt im Quelldokument auflöst. Das kann auch mit der Schaltfläche **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> [Std UnterverknüpfungErstellen](Std_LinkMakeRelative.md)** verwendet werden, um nur einzelne Unterelemente zu verknüpfen.
 
 ![](images/Std_Link_tree_documents_example.png ) ![](images/Std_Link_documents_example.png )
 
 
 
-*(1, 2) Two objects from a source document linked into a target document, (3) a Link to the second Link (with overriding material), and (4) a Link to the subelements of the second Link.*
-
-### Dragging and dropping 
-
-Instead of switching document tabs, you can create Links by performing a drag and drop operation in the [tree view](Tree_view.md): select the source object from the first document, drag it, then drop it into the second document\'s name while holding the **Alt** key in the keyboard.
-
-Dragging and dropping results in different actions depending on the modifier key that is held.
-
--   Without modifier key it simply moves the object from one document to the other; an inclined arrow is shown in the cursor.
--   Holding the **Ctrl** key copies the object; a plus sign is shown in the cursor.
--   Holding the **Alt** key creates a Link; a pair of chain links is shown in the cursor.
-
-For the **Ctrl** and **Alt** modifiers, dragging and dropping can also be done with a single document. That is, dragging an object and dropping it into the same document\'s name can be used to create multiple copies or multiple Links to it.
-
-## Groups
+*(1, 2) Zwei Objekte eines Quelldokumentes verknüpft mit einem Zieldokument, (3) eine Verknüpfung auf eine zweite Verknüpfung (mit überlagerndem Material) und (4) eine Verknüpfung zu einem Unterelement der zweiten Verknüpfung.*
 
 
-**[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)**
 
-can be used on **[<img src=images/Std_Part.svg style="width:16px"> [Std Parts](Std_Part.md)** in order to quickly duplicate groups of objects positioned in space, that is, [assemblies](assembly.md).
+### Ziehen und Loslassen (dragging and dropping) 
+
+Anstatt zwischen den Dokumentenreitern hin und her zu schalten, können Verknüpfungen auch durch Ziehen und Loslassen in der [Baumansicht](Tree_view/de.md) erstellt werden: das Quellobjekt des ersten Dokumentes wählen, die **Alt**-Taste gedrückt halten, ziehen und auf dem Namen des zweiten Dokumentes loslassen.
+
+Abhängig von der gedrückten Zusatztaste werden unterschiedliche Aktionen beim Ziehen und Loslassen aufgerufen.
+
+-   Ohne die Zusatztaste wird das Objekt von einem Dokument in das andere nur verschoben. Dabei wird ein geneigter Pfeil im Cursor gezeigt.
+-   Mit der gedrückten **strg**-Taste wird das Objekt kopiert. Dabei wird ein Pluszeichen im Cursor gezeigt.
+-   Mit der gedrückten **Alt**-Taste wird eine Verknüpfung erstellt. Zwei Kettenglieder werden im Cursor angeigt.
+
+Ziehen und Loslassen mit den Zusatztasten **Ctrl** und **Alt** kann auch in einem einzelnen Dokument gearbeitet werden. Ziehen und Loslassen im selben Dokument erstellen damit mehrere Kopien oder mehrere Verknüpfungen.
+
+
+
+## Gruppen
+
+
+**[<img src=images/Std_LinkMake.svg style="width:16px"> [Std VerknüpfungErstellen](Std_LinkMake/de.md)**
+
+kann auf **[<img src=images/Std_Part.svg style="width:16px"> [Standard Teil](Std_Part/de.md)** angewendet werden, um schnell Objektgruppen im Raum zu vervielfältigen, wie z.B. [Zusammenbauten](assembly.md).
 
 ![](images/Std_Link_tree_Std_Part_example.png )
 
 
 
-*Link created from a [Std Part](Std_Part.md); the objects are not duplicated but they are listed under the original container and under the Link container.*
+*Eine Verknüpfung, die aus einem [Standard Teil](Std_Part/de.md) erstellt wurde. Die Objekte wurden nicht kopiert, sondern sie werden unter der Originalgruppierung und unter der verknüpften Gruppierung angezeigt.*
 
-A regular **[<img src=images/Std_Group.svg style="width:16px"> [Std Group](Std_Group.md)** does not possess a **Placement** property, so it cannot control the position of the objects inside of it. However, when **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)** is used with **[<img src=images/Std_Group.svg style="width:16px"> [Std Group](Std_Group.md)**, the resulting Link behaves essentially like a **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)**, and can also be moved in space.
+Ein normale **[<img src=images/Std_Group.svg style="width:16px"> [Std Gruppe](Std_Group/de.md)** besitzt keine **Positionierungs**-Eigenschaft. Daher kann es die Position der Objekte darin nicht steuern. Wenn jedoch **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std VerknüpfungErstellen](Std_LinkMake/de.md)** mit **[<img src=images/Std_Group.svg style="width:16px"> [Std Gruppe](Std_Group/de.md)** verwendet wird, verhält sich die daraus entstandene Verknüpfung wie ein **[<img src=images/Std_Part.svg style="width:16px"> [Standard Teil](Std_Part/de.md)** und kann ebenso im Raum bewegt werden.
 
 ![](images/Std_Link_tree_Std_Group_example.png ) ![](images/Std_Link_Std_Group_example.png )
 
 
 
-*Link created from a [Std Group](Std_Group.md); the objects are not duplicated but they are listed under the original container and under the Link container. The Link (with overriding material) can be moved in space, just like a [Std Part](Std_Part.md).*
+*Eine Verknüpfung, erstellt aus [Std Grupppe](Std_Group/de.md); die Objekte sind nicht vervielfältigt, werden aber sowohl im Ursprungsbehälter als auch im verknüpften Behälter angezeigt. Die Verknüpfung (mit überlagerndem Material) kann im Raum bewegt werden, ebenso wie [Standardd Teil](Std_Part/de.md).*
 
-A Link to a **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)** will keep the visibility of the objects synchronized with the original Part; so if you hide one object in a Link, it will be hidden in all Links and in the original object. On the other hand a Link to a **[<img src=images/Std_Group.svg style="width:16px"> [Std Group](Std_Group.md)** will allow independent control of the visibilities.
+Eine Verknüpfung auf ein **[<img src=images/Std_Part.svg style="width:16px"> [Standard Teil](Std_Part/de.md)** hält die Sichtbarkeit der Objekte synchron zum Originalteil. Wird also ein Objekt in einer Verknüpfung verborgen, so wird es in allen dazugehörigen Verknüpfungen und dem Originalteil verborgen. Dem gegenüber erlaubt eine Verknüpfung auf eine **[<img src=images/Std_Group.svg style="width:16px"> [Std Gruppe](Std_Group/de.md)** unabhängige Kontrolle auf die Sichtbarkeit.
 
 ![](images/Std_Link_tree_Std_Part_visibility.png ) ![](images/Std_Link_tree_Std_Group_visibility.png )
 
 
 
-*Left: [Std Part](Std_Part.md) with two objects, and two Links to the Part; the visibility of the objects is synchronized. Right: [Std Group](Std_Group.md) with two objects, and two Links to the Group; the visibility of the objects is independently controlled in each group.*
-
-## Overriding appearance 
-
-When a Link is created, by default the **Override Material** is `False`, so the Link will have the same appearance as the original **Linked Object**.
-
-When **Override Material** is set to `True`, the **Shape Material** property will now control the appearance of the Link.
-
-Regardless of the state of **Override Material**, it is possible to individually set the appearance of the subelements (vertices, edges, faces) of a Link.
-
-1.  Select the Link in the [tree view](tree_view.md). Open the context menu (right-click), and pick **Override colors**.
-2.  Now pick the individual subelements that you want in the [3D view](3D_view.md), press **Edit**, and change the properties including transparency.
-3.  To remove the custom attributes, select the elements in the list, and press **Remove**.
-4.  When you are satisfied with the result, press **OK** to close the dialog.
+*Links: ein [Standard Teil](Std_Part/de.md) mit zwei Objekten und zwei Verknüpfungen auf das Teil; die Sichtbarkeit der Objekte ist synchron. Rechts: [Std Gruppe](Std_Group/de.md) mit zwei Objekten und zwei Verknüpfungen auf die Gruppe; die Sichtbarkeit der Objekte ist unabhängig in jeder Gruppe einstellbar.*
 
 
-**Note:**
 
-as of v0.19, the coloring of the subelements is subject to the [topological naming problem](topological_naming_problem.md) so it should be done as the last modelling step, when the model is not subject to change any more.
+## Darstellung der Überlagerung 
+
+Wenn eine Verknüpfung erstellt wird, ist die Eigenschaft **Override Material** mit `False` voreingestellt. Daher wird die Verknüpfung genauso aussehen, wie das originale **Linked Object**.
+
+Wenn die Eigenschaft **Override Material** auf `True` gesetzt ist, wird die Eigenschaft **Shape Material** nun das Erscheinungsbild der Verknüpfung steuern.
+
+Unabhängig vom Status der Eigenschaft **Override Material** ist es möglich, das Erscheinungsbild der Unterelemente, wie Punkte, Kanten oder Oberflächen einer Verknüpfung individuell zu bestimmen.
+
+1.  Die Verknüpfung in der [Baumansicht](tree_view/de.md) wählen. Das Kontextmenü mit einem Rechtsklick öffnen und **Override colors** wählen.
+2.  Nun die einzelnen Unterelemente in der [3D Ansicht](3D_view/de.md) wählen, die Schaltfläche **Edit** anklicken und die Eigenschaften einschließlich der Transparenz ändern.
+3.  Um geänderte Attribute wieder zu entfernen, werden die Elemente in der Liste gewählt und die Schaltfläche **Remove** angeklickt.
+4.  Mit dem Betätigen der Schaltfläche **OK** wird der Vorgang abgeschlossen.
+
+
+**Hinweis:**
+
+da in Version v0.19 die Färbung der Unterelemente Teil des [Topologisches Benennungsproblems](topological_naming_problem/de.md) ist, sollte dies der letzte Schritt der Gestaltung des Models sein, wenn nichts mehr am Modell geändert werden soll.
 
 <img alt="" src=images/Std_Link_override_color_example.png  style="width:500px;">
 
 
 
-*(1) An original object, (2) a Link with overriding material, and (3) a second Link with individual modified subelements.*
-
-## Link Array 
+*(1) das Original, (2) eine Verknüpfung mit überlagerndem Material und (3) eine weitere Verknüpfung mit individuell angepaßten Unterelementen.*
 
 
-**See also:**
 
-[Draft OrthoArray](Draft_OrthoArray.md).
+## Muster aus Verknüpfungen 
 
-When a Link is created, by default its **Element Count** is {{Value|0}}, so only a single Link object will be visible in the [tree view](tree_view.md).
 
-Given that **Show Element** is `True` by default, when **Element Count** is set to {{Value|1}} or more, automatically more Links will be created below the first one; each new Link can be placed in the desired position by changing its own **Placement** property.
+**Siehe auch:**
 
-In similar way, each element of the array can have its own appearance changed, either by the **Override Material** and **Shape Material** properties, or by using the **Override colors** menu on the entire array and then selecting individual faces; this is described in [Overriding appearance](#Overriding_appearance.md).
+[Draft RechtwinkligeAnordnung](Draft_OrthoArray/de.md).
+
+Wenn eine Verknüpfung erstellt wird, ist seine Eigenschaft **Element Count** mit {{Value|0}} voreingestellt. Daher wird nur eine Verknüpfung in der [Baumansicht](tree_view/de.md) angezeigt.
+
+Wenn, wie voreingestellt die Eigenschaft **Show Element** `True` ist und der Wert der Eigenschaft **Element Count** auf {{Value|1}} oder mehr gesetzt ist, werden automatisch mehrere Verknüpfungen unter der ersten erstellt. Jede neue Verknüpfung kann in die gewünschte Position über ihre eigene Eigenschaft **Placement** verschoben werden.
+
+In gleicher Weise kann die Erscheinung jedes Elementes des Musters verändert werden, entweder über die Eigenschaften **Override Material** und **Shape Material** oder über das Menü **Override colors** auf das ganze Muster und anschließender Wahl einzelner Oberflächen. Das ist in [Darstellung der Überlagerung](#Overriding_appearance.md) beschrieben.
 
 <img alt="" src=images/Std_Link_tree_array_example.png ) ![](images/Std_Link_array_example.png  style="width:500px;">
 
 
 
-*(1) Original object, and (2, 3, 4) a Link array with three elements, each in a different position. The first Link has overridden material and transparent faces, the other two have custom face colors.*
+*(1) das Original und (2, 3, 4) ein Muster mit drei Verknüpfungen als deren Elemente, jede in einer anderen Position. Die erste Verknüpfung hat ein überlagerndes Material und transparente Oberflächen. Die beiden anderen haben selbst geänderte Oberflächenfarben.*
 
-Once you are satisfied with the placement and properties of the Link elements in the array, you may change **Show Element** to `False` in order hide the individual Links in the [tree view](tree_view.md); this has the benefit of making the system more responsive, particularly if you have many objects in the document.
+Wenn Position und Eigenschaften der Verküpfungen im Muster passen, kann die Eigenschaft **Show Element** auf `False` gesetzt werden, um die einzelnen Verknüpfungen in der [Baumansicht](tree_view/de.md) auszublenden. Dadurch reagiert das System schneller, vor allem, wenn es viele Objekte im Dokument gibt.
 
-When creating this type of Link array, you must place each of the elements manually; however, if you would like to use specific patterns to place the copies, you may use the array tools of the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md), like **[<img src=images/Draft_OrthoArray.svg style="width:16px"> [Draft OrthoArray](Draft_OrthoArray.md)**, **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Draft PolarArray](Draft_PolarArray.md)**, and **[<img src=images/Draft_CircularArray.svg style="width:16px"> [Draft CircularArray](Draft_CircularArray.md)**; these commands can create normal copies or Link copies depending on the options at creation time.
+Bei diesem Muster mit Verknüpfungen muß jedes Element manuell positioniert werden. Soll aber ein spezielles Muster der Verknüpfungen entstehen, können die Werkzeuge des <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Arbeitsbereiches Draft](Draft_Workbench/de.md), wie **[<img src=images/Draft_OrthoArray.svg style="width:16px"> [Draft RechtwinkligeAnordnung](Draft_OrthoArray/de.md)**, **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Draft PolareAnordnung](Draft_PolarArray/de.md)** und **[<img src=images/Draft_CircularArray.svg style="width:16px"> [Draft KreisAnordnung](Draft_CircularArray/de.md)** verwendet werden. Diese Anweisungen erstellen normale Kopien oder Kopien der Verknüpfungen, abhängig von den eingestellten Optionen während der Erstellung.
 
-## Visibility
 
-When **Show Element** is `True` and individual elements are listed in the [tree view](Tree_view.md) in a [Link Array](#Link_Array.md), each Link can be shown or hidden by pressing the **Space** bar in the keyboard.
 
-Another way to hide the individual elements is using the **Override colors** menu.
+## Sichtbarkeit
 
-1.  Select the array, open the **Override colors** menu (right click).
-2.  In the [3D view](3D_view.md), pick any subelement from any Link in the array.
-3.  Press **Hide**. An icon of an eye <img alt="" src=images/Invisible.svg  style="width:24px;"> should appear, indicating that this element has been hidden from the [3D view](3D_view.md). The object will temporarily show itself when the cursor hovers over the <img alt="" src=images/Invisible.svg  style="width:24px;"> icon.
-4.  You can click **OK** to confirm the operation and close the dialog. The Link will remain hidden even if it is shown as visible in the [tree view](tree_view.md).
+Wenn die Eigenschaft **Show Element** `True` ist und einzelne Elemente eines [Musters aus Verknüpfungen](#Link_Array.md) in der [Baumansicht](Tree_view/de.md) angezeigt werden, kann jede Verknüpfung durch die **Leertaste** gezeigt oder verborgen werden.
+
+Ein anderer Weg einzelne Elemente zu verbergen ist die Verwendung des **Override colors**-Menüs.
+
+1.  Das Muster wählen und mit einem Rechtsklick das **Override colors**-Menü öffnen.
+2.  In der [3D Ansicht](3D_view/de.md) ein Unterelement einer Verknüpfung im Musters anklicken.
+3.  Die Schaltfläche **Hide** klicken. Ein Icon eines Auges <img alt="" src=images/Invisible.svg  style="width:24px;"> erscheint und zeigt an, daß dieses Element in der [3D Ansicht](3D_view/de.md) verborgen ist. Das Element wird kurz angezeigt, wenn der Cursor über das Icon <img alt="" src=images/Invisible.svg  style="width:24px;"> gezogen wird.
+4.  Mit einem Klick auf die Schaltfläche **OK** wird die Ausführung bestätigt und der Vorgang verlassen. Die Verknüpfung bleibt verborgen, auch wenn sie in der [Baumansicht](tree_view/de.md) als sichtbar angezeigt wird.
 
 ![](images/Std_Link_array_visibility_example.png )
 
 
 
-*Element color dialog that is available when opening the context menu of a Link object in the tree view.*
+*Die Elementenfarbwahl zeigt sich beim Öffnen des Kontextmenüs zu einer Verknüpfung in der Baumansicht.*
 
-If you wish to restore the visibility of this array element, enter the dialog once more, pick the eye icon, then click on **Remove** to remove the hidden status, and click **OK** to confirm and close the dialog. The element will be visible in the [3D view](3D_view.md) again.
+Soll die Sichtbarkeit des Elementes in einem Muster wiederhergestellt werden, dann muß das Kontextmenü wieder geöffnet werden und das Augenicon angeklickt werden. Danach auf die Schaltfläche **Remove** klicken, um das Verbergen abzuschalten, und auf die Schaltfläche **OK** klicken, um den Vorgang zu bestätigen und zu abzuschließen. Das Element zeigt sich in der [3D Anischt](3D_view/de.md) wieder.
 
-When the Link is for a **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)** or a **[<img src=images/Std_Group.svg style="width:16px"> [Std Group](Std_Part.md)**, the **Override colors** menu works in similar way as with arrays; it allows controlling the face color, entire object color, and visibility of the objects in the group.
+Weist die Verknüpfung auf ein **[<img src=images/Std_Part.svg style="width:16px"> [Standard Teil](Std_Part/de.md)** oder eine **[<img src=images/Std_Group.svg style="width:16px"> [Std Gruppe](Std_Group/de.md)**, verhält sich das **Override colors**-Menü ähnlich zu den Mustern. Es ermöglicht die Einstellung einer Oberflächenfarbe, der Farbe des ganzen Objektes und die Sichtbarkeit des Objektes in der Gruppe.
 
 ![](images/Std_Link_Std_Part_visibility_example.png ) ![](images/Std_Link_Std_Part_visibility_example_3D.png )
 
 
 
-*A [Std Part](Std_Part.md) containing three objects, and a Link to that Part; in the Link, (1) the first object is made invisible, (2) the second object has some subelements with different colors, (3) the entire third object has a different color and level of transparency.*
+*Ein [Standard Teil](Std_Part/de.md) enthält drei Objekte und eine Verknüpfung zu diesem Teil. In der Verknüpfung (1) ist das erste Objekt unsichtbar. (2) das zweite Objekt hat einige Unterelemente mit unterschiedlichen Farben. (3) das ganze dritte Objekt hat unterschiedliche Farben und einen gewissen Grad an Transparenz.*
+
+
 
 ## Eigenschaften
 
-An [App Link](App_Link.md) (`App::Link` class) is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class), therefore it has the latter\'s basic properties like **Label** and **Label2**.
+Eine [Anwendung Verknüpfung](App_Link/de.md) (`App::Link` Klasse) ist aus der zugrunde liegenden [App DocumentObject](App_DocumentObject/de.md) (`App::DocumentObject` Klasse) abgeleitet. Deshalb hat es die grundlegenden Eigenschaften, wie **Label** und **Label2**.
 
-The following are the specific properties available in the [property editor](Property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](Property_editor.md).
+Das Folgende sind die speziellen Eigenschaften, die im [Eigenschafteneditor](Property_editor/de.md) eingestellt werden können. Verborgene Eigenschaften können mit der Anweisung **Show all** aus dem Kontextmenü im [Eigenschafteneditor](Property_editor/de.md) eingestellt werden.
+
+
 
 ### Daten
 
@@ -230,6 +252,8 @@ The following are the specific properties available in the [property editor](Pro
 -    **Proxy|PythonObject|Hidden**: a custom class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](Std_LinkMake#Scripting.md).
 
 The [App Link](App_Link.md) object will additionally show the properties of the original **Linked Object**, so the [property editor](property_editor.md) may have groups of properties like {{TitleProperty|Attachment}}, {{TitleProperty|Box}}, {{TitleProperty|Draft}}, etc.
+
+
 
 ### Ansicht
 
@@ -307,7 +331,9 @@ The [App Link](App_Link.md) object will additionally show the properties of the 
 
 It will additionally show the view properties of the original **Linked Object**.
 
-## Inheritance
+
+
+## Vererbung
 
 An [App Link](App_Link.md) is formally an instance of the class `App::Link`, whose parent is the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class). It is a very low level object, which can be used with most other document objects.
 
@@ -317,14 +343,16 @@ An [App Link](App_Link.md) is formally an instance of the class `App::Link`, who
 
 *Simplified diagram of the relationships between the core objects in the program. The `App::Link* object is a core component of the system, it does not depend on any workbench, but it can be used with most objects created in all workbenches.`
 
-## Scripting
 
 
-**See also:**
+## Skripten
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md), and [scripted objects](scripted_objects.md).
 
-See [Part Feature](Part_Feature.md) for the general information.
+**Siehe auch:**
+
+[Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md) und [Skriptgenerierte Objekte](scripted_objects/de.md).
+
+Für allgemeine Informationen, siehe [Part Formelement](Part_Feature/de.md).
 
 An App Link is created with the `addObject()` method of the document. It can define its **Linked Object** by overriding its `LinkedObject` attribute, or by using its `setLink` method. 
 ```python
@@ -360,9 +388,11 @@ obj = App.ActiveDocument.addObject("App::LinkPython", "Link")
 obj.Label = "Custom label"
 ```
 
-## Further reading 
 
-The [App Link](App_Link.md) object was introduced after 2 years of development and prototyping. This component was thought and developed almost single-handedly by user **realthunder**. The motivations and design implementations behind this project are described in his GitHub page, [Link](https://github.com/realthunder/FreeCAD_assembly3/wiki/Link). In order to accomplish this feature, several core changes to FreeCAD were made; these were also extensively documented in [Core-Changes](https://github.com/realthunder/FreeCAD_assembly3/wiki/Core-Changes).
+
+## Weiterführende Literatur 
+
+Das Objekt [Anwendung Verknüpfung](App_Link/de.md) wurde nach 2 Jahren Entwicklung und Prototypenfertigung eingeführt. Diese Komponente wurde fast im Alleingang vom Benutzer **realthunder** ausgedacht und entwickelt. Die Motivationen und Entwurfsimplementierungen hinter diesem Projekt sind in seiner GitHub Seite [Link](https://github.com/realthunder/FreeCAD_assembly3/wiki/Link) beschrieben. Um dieses Feature zu erreichen, wurden einige Kernänderungen an FreeCAD vorgenommen; diese wurden auch ausführlich dokumentiert in [Core-Changes](https://github.com/realthunder/FreeCAD_assembly3/wiki/Core-Changes).
 
 The App Link project started after the redesign of the [PartDesign Workbench](PartDesign_Workbench.md) was complete in v0.17. The history of App Link can be traced to some essential forum threads:
 

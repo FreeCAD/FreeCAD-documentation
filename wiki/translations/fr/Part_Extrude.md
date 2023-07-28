@@ -9,8 +9,6 @@
 
 # Part Extrude/fr
 
-![600px](images/Part_Extrude_demo.png)
-
 ## Description
 
 **Part Extrusion** prolonge une forme dans une distance et une direction spécifiées. Le type de la forme résultante pourra varier selon le type de la forme initiale et des options sélectionnées.
@@ -25,6 +23,12 @@ Dans les scénarios les plus courants, la liste suivante détaille les formes r�
 -   Extrusion d\'une face (ex. plane) produit un solide (par ex. un cube)
 -   Extrusion d\'un objet **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Formes à partir texte](Draft_ShapeString/fr.md)** produit un composé de solides (la chaîne de texte est un composé de lettres et chacune d\'elle forme un solide)
 -   Extrusion d\'une coque de faces produira un Compsolid.
+
+![600px](images/Part_Extrude_demo.png)
+
+
+
+*Exemples d'extrusion*
 
 
 
@@ -65,11 +69,15 @@ La forme extrudée est définie par les paramètres suivants qui peuvent être �
 -   **Symmetric** : si True, l\'extrusion est centrée par rapport à la forme d\'entrée et la longueur totale est **Length Fwd**. **Length Rev** est ignoré.
 
 -   **Taper Angle** et **Taper Angle Rev** : applique un angle de dépouille à l\'extrusion, de sorte que les côtés de l\'extrusion soient dessinés selon l\'angle spécifié. Un angle positif signifie que la section transversale se dilate. **Taper Angle Rev** définit l\'angle de dépouille de la partie inversée de l\'extrusion (la partie de **Length Rev**).
+    -   
+        {{Version/fr|0.20}}
+        
+        Les structures internes reçoivent l\'angle de conicité opposé. Ceci est fait pour faciliter la conception des moules et des pièces moulées.
 
-
-{{Version/fr|0.20}}
-
-Les structures internes reçoivent l\'angle de conicité opposé. Ceci est fait pour faciliter la conception des moules et des pièces moulées. {{VersionMinus/fr|0.19}}L\'extrusion conique n\'est prise en charge que pour les formes sans structure interne. L\'extrusion conique ne fonctionne pas bien si la forme contient des B-splines.
+    -   
+        {{VersionMinus/fr|0.19}}
+        
+        L\'extrusion conique n\'est prise en charge que pour les formes sans structure interne. L\'extrusion conique ne fonctionne pas bien si la forme contient des B-splines.
 
 -   **Face Maker Class** : définit le nom de classe en C++ du code de création d\'une face, utilisé lors de la création de solides à partir de filaires. Cette propriété est là pour prendre en charge la compatibilité ascendante. Ne pas y touchez sauf si vous savez ce que vous faites.
 

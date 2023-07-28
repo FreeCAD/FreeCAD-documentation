@@ -24,6 +24,8 @@ Specchia la geometria dello schizzo rispetto a una linea scelta o all\'asse dell
 
 </div>
 
+
+
 ## Utilizzo
 
 

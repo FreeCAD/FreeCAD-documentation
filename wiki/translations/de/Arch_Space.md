@@ -17,6 +17,8 @@ Mit dem Raum Werkzeug kannst du ein leeres Volumen festlegen, entweder indem du 
 <img alt="" src=images/Arch_Space_example.jpg  style="width:640px;"> 
 *Raumobjekt, das aus einem vorhandenen Volumenobjekt erstellt wird, dann werden zwei Wandflächen als Begrenzungen hinzugefügt.*
 
+
+
 ## Anwendung
 
 1.  Wähle ein vorhandenes Volumenkörperobjekt oder Flächen auf Begrenzungsobjekten aus.
@@ -25,10 +27,14 @@ Mit dem Raum Werkzeug kannst du ein leeres Volumen festlegen, entweder indem du 
     -   Verwenden der **S**, dann **P** Tastaturkürzel
     -   Verwenden des **Arch → Raum** Eintrags aus dem oberen Menü
 
+
+
 ### Begrenzungen
 
 -   Die Grenzeigenschaften können momentan nicht über die GUI bearbeitet werden.
 -   Siehe die [Forumsankündigung](http://forum.freecadweb.org/viewtopic.php?f=9&t=4275).
+
+
 
 ## Eigenschaften
 
@@ -84,10 +90,18 @@ Mit dem Raum Werkzeug kannst du ein leeres Volumen festlegen, entweder indem du 
 
 anzeigen oder nicht
 
+
+
 ## Optionen
+
+
+<div class="mw-translate-fuzzy">
 
 -   Um Zonen zu erstellen, die mehrere Räume gruppieren, verwende ein [Arch GebäudeTeil](Arch_BuildingPart/de.md) und setze dessen IFC Typ auf \"Räumliche Zone\".
 -   Das Raumobjekt hat dieselben Anzeigemodi wie andere Arch- und Teilobjekte, mit einem weiteren, **Fußabdruck** benannten, der nur die Unterseite des Raumes anzeigt. <small>(v0.19)</small> 
+
+
+</div>
 
 ## Skripten
 

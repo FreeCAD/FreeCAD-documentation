@@ -10,37 +10,58 @@
 
 # TechDraw DecorateLine/de
 
+
+</div>
+
+
+
 ## Beschreibung
+
+
+<div class="mw-translate-fuzzy">
 
 Das Werkzeug Liniendarstellung ändern ändert die Darstellung von Kanten.
 
+
+</div>
+
 <img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width:180px;">
+
+
+<div class="mw-translate-fuzzy">
 
 
 
 *Beispielkanten vor der Änderung*
 
+
+</div>
+
 <img alt="" src=images/TechDrawLineDecorSampleAfter.png  style="width:180px;">
+
+
+<div class="mw-translate-fuzzy">
 
 
 
 *Beispielkanten nach der Änderung*
 
+
+</div>
+
+
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Eine oder mehrere Linien in einer Ansicht auswählen.
 2.  Die Schalfläche **<img src="images/TechDraw_DecorateLine.svg" width=16px> [Liniendarstellung ändern](TechDraw_DecorateLine/de.md)** drücken.
 3.  Es öffnet sich Dialog zum Ändern von Farbe, Linienart, Strichstärke und Sichtbarkeit der ausgewählten Kanten.
 
-## Eigenschaften
 
-Das Werkzeug Liniendarstellung hat keine Eigenschaften, da es kein Dokumentobjekt (App DocumentObject) ist.
-
-## Skripten
-
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-Liniendarstellung ändern ist zur Zeit noch nicht aus [Makros](Macros/de.md) oder der [Python](Python/de.md)-Konsole zu erreichen.
+</div>
 
 
 

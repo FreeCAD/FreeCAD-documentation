@@ -10,7 +10,7 @@
 
 ## Description
 
-La commande **Mesh Échelle** met à l\'échelle les objets maillés.
+La commande **Échelle** met à l\'échelle les objets maillés.
 
 
 
@@ -24,6 +24,38 @@ La commande **Mesh Échelle** met à l\'échelle les objets maillés.
 3.  La boîte de dialogue **Mettre à l'échelle** s\'ouvre.
 4.  Spécifiez un facteur de mise à l\'échelle, la valeur doit être supérieure à {{Value|0}}.
 5.  Appuyez sur le bouton {{button|OK}} pour terminer la commande.
+
+
+
+## Script
+
+Voir aussi : [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+
+Pour mettre à l\'échelle un maillage, utilisez sa méthode `transformGeometry`.
+
+
+```python
+import FreeCAD as App
+import Mesh
+
+# Create a non-parametric box-shaped mesh:
+msh = App.ActiveDocument.addObject("Mesh::Feature", "Mesh")
+msh.Mesh = Mesh.createBox(10, 10, 10)
+msh.ViewObject.DisplayMode = "Flat Lines"
+
+# Create and scale a matrix:
+mat = App.Matrix()
+mat.scale(2.0, 3.0, 4.0) # Unequal scaling.
+
+# We need to work on a copy of the msh.Mesh object:
+new_msh = msh.Mesh.copy()
+
+# Transform that copy:
+new_msh.transformGeometry(mat)
+
+# Update msh.Mesh:
+msh.Mesh = new_msh
+```
 
 
 

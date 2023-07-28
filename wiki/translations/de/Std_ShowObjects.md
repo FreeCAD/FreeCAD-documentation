@@ -9,27 +9,35 @@
 
 # Std ShowObjects/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std ObjekteEinblenden** zeigt alle Objekte, die zum aktiven Dokument gehören, in den [3D-Ansichten](3D_view.md) an. Der Befehl sollte mit Vorsicht verwendet werden, da auch die Sichtbarkeit der Unterelemente von [PartDesign-Körpern](PartDesign_Body/de.md) und Objekten, die für [Part BoolescheOperationen](Part_Boolean/de.md) verwendet werden, umgeschaltet wird. In den meisten Fällen sollten diese unsichtbar bleiben.
+
+
 
 ## Anwendung
 
 1.  Menüeintrag **Ansicht → Sichtbarkeit → <img src="images/_Std_ShowObjects.svg_" width=16px> Alle Objekte einblenden** auswählen.
 
+
+
 ## Hinweise
 
--   The action of this command cannot be undone with [Std Undo](Std_Undo.md).
--   The visibility of an object can also be changed through its related **Visibility** property in the [Property editor](Property_editor.md) or the [Combo view](Combo_view.md).
+-   Die Ausführung dieses Befehls kann nicht mit [Std Rückgängig](Std_Undo/de.md) rückgängig gemacht werden.
+-   Die Sichtbarkeit eines Objekts kann auch mit der zugehörigen {{PropertyData/de|Visibility}} im [Eigenschafteneditor](Property_editor/de.md) oder in der [Combo-Ansicht](Combo_view/de.md) geändert werden.
+
+
 
 ## Skripten
 
 
-**See also:**
+**Siehe auch:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-For a scripting example see [Std ToggleVisibility](Std_ToggleVisibility.md).
+Für ein Beispiel-Skript siehe [Std SichbarkeitUmschalten](Std_ToggleVisibility/de.md).
 
 
 

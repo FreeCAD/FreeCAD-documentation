@@ -51,15 +51,17 @@ Facendo clic sul pulsante rotondo nell\'angolo in alto a destra del Cubo di navi
 
 ### Menu Mini-Cubo 
 
-Facendo clic sul cubo nell\'angolo inferiore destro del Cubo di Navigazione verrà visualizzato un menu con le seguenti opzioni:
+Facendo clic sul cubo nell\'angolo inferiore destro del Cubo di Navigazione viene visualizzato un menu con le seguenti opzioni:
 
--    **[Ortografica](Std_OrthographicCamera/it.md)**: passa a una vista ortogonale.
+-    **<img src="images/Std_OrthographicCamera.svg" width=16px>[Vista ortografica](Std_OrthographicCamera/it.md)**: passa a una vista ortogonale.
 
--    **[Prospettica](Std_PerspectiveCamera/it.md)**: passa a una vista prospettica.
+-    **<img src="images/Std_PerspectiveCamera.svg" width=16px>[Vista in prospettiva](Std_PerspectiveCamera/it.md)**: passa a una vista prospettica.
 
--    **[Isometrica](Std_ViewIsometric/it.md)**: passa a una vista isometrica.
+-    **<img src="images/Std_ViewIsometric.svg" width=16px>[Isometrica](Std_ViewIsometric/it.md)**: passa a una vista isometrica.
 
--    **[Adatta alla finestra](Std_ViewFitAll/it.md)**: esegue lo zoom e lo spostamento della telecamera in modo che tutti gli oggetti visibili rientrino nella vista.
+-    **<img src="images/Std_ViewFitAll.svg" width=16px> [Visualizza tutto](Std_ViewFitAll.md)**: esegue lo zoom e lo spostamento della telecamera in modo che tutti gli oggetti visibili rientrino nella vista.
+
+-    **Cubo di navigazione mobile**: se questa casella di controllo ({{Version/it|0.21}}) è selezionata, l\'intero Cubo di navigazione può essere spostato tenendo premuto il pulsante sinistro del mouse in qualsiasi punto del cubo principale e trascinandolo. Questo ha lo scopo di spostare temporaneamente il cubo fuori ingombro. I [parametri avanzati](#Advanced_parameters.md) OffsetX e OffsetY possono essere usati per riposizionare permanentemente il cubo, vedi sotto.
 
 
 
@@ -67,62 +69,101 @@ Facendo clic sul cubo nell\'angolo inferiore destro del Cubo di Navigazione verr
 
 
 
-### Muovere il Cubo di Navigazione 
-
-L\'intero cubo di navigazione può essere spostato cliccando col mouse in un punto qualsiasi del cubo principale e trascinandolo. La struttura non inizierà a muoversi finché il cursore non si sposta oltre uno dei bordi del cubo principale.
-
-
-
 ### Preferenze
 
 Il Cubo di navigazione è controllato da diverse preferenze: **Modifica → Preferenze... → Visualizzazione → Navigazione → Cubo di navigazione**. Vedere [Impostare le Preferenze](Preferences_Editor/it#Navigazione.md).
 
-### Advanced parameters 
 
-Some advanced Navigation Cube parameters cannot be changed in the [Preferences Editor](Preferences_Editor#Navigation.md). These parameters can be set manually in the [Parameter editor](Std_DlgParameter.md) or via the [CubeMenu external workbench](Interface_Customization#CubeMenu.md). Changes will become visible when a new 3D view is created (with [Std New](Std_New.md), [Std Open](Std_Open.md) or [Std ViewCreate](Std_ViewCreate.md)).
 
-To manually set colors:
+### Parametri avanzati 
 
-1.  Start the <img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> [Parameter editor](Std_DlgParameter.md).
-2.  In the panel on the left browse to **BaseApp → Preferences → NaviCube**.
-3.  Right-click the panel on the right and select **New unsigned item** from the context menu.
-4.  Enter the name of one of these colors:
+Alcuni parametri avanzati del Cubo di navigazione non possono essere modificati nell\'[Impostazione delle preferenze](Preferences_Editor/it#Navigazione.md). Questi parametri possono essere impostati manualmente in [Modifica parametri](Std_DlgParameter/it.md).
+
+Per impostare manualmente i colori:
+
+1.  Avviare <img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> [Modifica parametri](Std_DlgParameter/it.md).
+2.  Nel pannello a sinistra selezionare **Strumenti → Modifica parametri... → NaviCube**.
+3.  Fare clic con il pulsante destro del mouse sul pannello a destra e selezionare **Nuovo elemento unsigned** dal menu contestuale.
+4.  Inserire il nome di uno di questi colori:
     -   
-        **BorderColor**
+        **BaseColor**
         
-        : the lines separating the cube faces, default is {{Value|4281479730}} (hex: {{Value|ff323232}}).
-
-    -   
-        **ButtonColor**
-        
-        : all elements around the cube, default is {{Value|2162354671}} (hex: {{Value|80e2e9ef}}).
+        : il colore di base di tutti gli elementi, il valore predefinito è {{Value|3806916544}} (hex: {{Value|e2e8efc0}}). Questo colore può essere impostato anche nell\'[Editor delle preferenze](Preferences_Editor/it#Navigazione.md). {{Version/it|0.21}}
 
     -   
-        **FrontColor**
+        **EmphaseColor**
         
-        : all cube faces, default is {{Value|3236096495}} (hex: {{Value|c0e2e9ef}}).
+        : il colore del testo e delle linee, il default dipende dal **BaseColor**. È nero: {{Value|255}} (hex: {{Value|000000ff}}) o bianco: {{Value|4294967295}} (hex: {{Value|ffffffff}}). {{Version/it|0.21}}
 
     -   
         **HiliteColor**
         
-        : the cube or arrow face that is currently highlighted, default is {{Value|4289389311}} (hex: {{Value|ffaae2ff}}).
+        : il colore utilizzato per evidenziare le facce e i pulsanti, il valore predefinito è {{Value|2867003391}} (hex: {{Value|aae2ffff}}).
+5.  Il valore del colore deve essere immesso come numero intero senza segno a 32 bit. Tradotto nel formato esadecimale questo numero intero ha la forma {{Value|RRGGBBAA}}. Dove {{Value|AA}} sta per il canale alfa (una misura della trasparenza), e le altre coppie di tre cifre stanno per rosso, verde e blu. Per convertire un valore esadecimale in un intero senza segno puoi usare la [Console Python](Python_console/it.md), inserire ad esempio {{Incode|int("323232ff", 16)}}.
+6.  Facoltativamente si possono impostare più colori.
+7.  Premere il pulsante **Chiudi**.
 
-    -   
-        **TextColor**
-        
-        : the text on the cube faces, default is {{Value|4278190080}} (hex: {{Value|ff000000}}).
-5.  The color value must be entered as a 32-bit unsigned integer. Translated to the hexadecimal format this integer has the form {{Value|AARRGGBB}}. Where {{Value|AA}} stands for the alpha channel (a measure for the transparency), and the other three digit pairs stand for red, green and blue. To convert a hexadecimal value to an unsigned integer you can use the [Python console](Python_console.md), enter for example {{Incode|int("ff323232", 16)}}, or an online service such as [this one](https://cryptii.com/pipes/integer-encoder).
-6.  Optionally set more colors.
-7.  Press the **Close** button.
+La tabella seguente elenca gli altri parametri avanzati del Cubo di navigazione che possono essere impostati in modo simile. Utilizzare le informazioni dalla colonna **Tipo** per creare un nuovo elemento corretto nel passaggio 3.
 
-To manually set the border width:
-
-1.  Start the <img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> [Parameter editor](Std_DlgParameter.md).
-2.  In the panel on the left browse to **BaseApp → Preferences → NaviCube**.
-3.  Right-click the panel on the right and select **New float item** from the context menu.
-4.  Enter the name **BorderWidth**, {{Value|default is 1.1}}.
-5.  Enter the width.
-6.  Press the **Close** button.
++++++
+| Nome        | Descrizione                                                                                                                                                                       | Tipo    | Default |
++=============+===================================================================================================================================================================================+=========+=========+
+| BorderWidth | La larghezza dei bordi del cubo e dei bordi attorno ai pulsanti in pixel.                                                                                                         | Float   | 1.1     |
++++++
+| ChamferSize | Dimensione dei bordi e degli angoli come fattore dimensionale del cubo. I valori dovrebbero essere compresi tra 0,05 e 0,18.                                                      | Float   | 0.12    |
+|             |                                                                                                                                                                                   |         |         |
+|             |                                                                                                                                                                    |         |         |
+|             | {{Version/it|0.21}}                                                                                                                                                               |         |         |
+|             |                                                                                                                                                                                |         |         |
++++++
+| FontStretch | La larghezza del carattere come percentuale della larghezza predefinita. Utilizzare 0 o 100 per la larghezza predefinita del carattere.                                           | Integer | 0       |
++++++
+| FontWeight  | Il peso del carattere. Valori più alti rendono il carattere più grande. L\'effetto può dipendere dal carattere. Utilizzare 0 per lo spessore del carattere predefinito.\| Integer | 0       |         |
++++++
+| FontZoom    | La dimensione delle etichette:                                                                                                                                                    | Float   | 0.3     |
+|             |                                                                                                                                                                                   |         |         |
+|             | -                                                                                                                                                                  |         |         |
+|             |     {{Value|FontZoom &#61; 1.0}}                                                                                                                                                  |         |         |
+|             |                                                                                                                                                                                |         |         |
+|             |     : Rende le etichette il più grande possibile individualmente.                                                                                                                 |         |         |
+|             |                                                                                                                                                                                   |         |         |
+|             | -                                                                                                                                                                  |         |         |
+|             |     {{Value|0.0 < FontZoom < 1.0}}                                                                                                                                                |         |         |
+|             |                                                                                                                                                                                |         |         |
+|             |     : Idem ma limita la dimensione massima del carattere.                                                                                                                         |         |         |
+|             |                                                                                                                                                                                   |         |         |
+|             | -                                                                                                                                                                  |         |         |
+|             |     {{Value|FontZoom &#61; 0.0}}                                                                                                                                                  |         |         |
+|             |                                                                                                                                                                                |         |         |
+|             |     : Idem ma usa la stessa dimensione del carattere per tutti.                                                                                                                   |         |         |
+|             |                                                                                                                                                                                   |         |         |
+|             | -                                                                                                                                                                  |         |         |
+|             |     {{Value|FontZoom < 0.0}}                                                                                                                                                      |         |         |
+|             |                                                                                                                                                                                |         |         |
+|             |     : Usa la stessa dimensione del carattere per tutti, ma ridimensionato.                                                                                                        |         |         |
+|             |                                                                                                                                                                                   |         |         |
+|             |                                                                                                                                                                    |         |         |
+|             | {{Version/it|0.21}}                                                                                                                                                               |         |         |
+|             |                                                                                                                                                                                |         |         |
++++++
+| OffsetX     | L\'offset del cubo nella direzione X rispetto alla sua posizione d\'angolo in pixel.                                                                                              | Integer | 0       |
++++++
+| OffsetY     | L\'offset del cubo nella direzione Y rispetto alla sua posizione d\'angolo in pixel.                                                                                              | Integer | 0       |
++++++
+| ShowCS      | Alterna la visualizzazione del sistema di coordinate (gli indicatori degli assi X, Y e Z).                                                                                        | Boolean | true    |
++++++
+| TextBottom  | Il testo sulla faccia inferiore del cubo. Il valore predefinito dovrebbe essere tradotto.                                                                                         | String  | BOTTOM  |
++++++
+| TextFront   | Il testo sulla faccia anteriore del cubo. Idem.                                                                                                                                   | String  | FRONT   |
++++++
+| TextLeft    | Il testo sulla faccia sinistra del cubo. Idem.                                                                                                                                    | String  | LEFT    |
++++++
+| TextRear    | Il testo sulla faccia posteriore del cubo. Idem.                                                                                                                                  | String  | REAR    |
++++++
+| TextRight   | Il testo sulla faccia destra del cubo. Idem.                                                                                                                                      | String  | RIGHT   |
++++++
+| TextTop     | Il testo sulla faccia superiore del cubo. Idem.                                                                                                                                   | String  | TOP     |
++++++
 
 
 {{docnav/it

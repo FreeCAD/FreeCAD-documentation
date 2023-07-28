@@ -12,11 +12,15 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Sketcher_CarbonCopy.svg  style="width:16px;"> **Copia carbone** copia tutta la geometria e i vincoli di un altro schizzo nello schizzo attivo.
 
 I vincoli dimensionali che esistono prima della funzione di copia rimangono collegati ai vincoli dimensionali dello schizzo originale attraverso le [espressioni](expressions/it.md).
+
+
 
 ## Utilizzo
 
@@ -38,6 +42,8 @@ I vincoli dimensionali che esistono prima della funzione di copia rimangono coll
 -   Normally, the sketch to select should be in a plane that is parallel to the currently active sketch. If the sketch to be copied is not parallel to the currently active sketch, hold **Ctrl**+**Alt** to allow selection of non-parallel sketches. The object will then be adjusted to the active sketch\'s plane. Noteː as of this writing this needs a save and reload of the document to make it visible. This works for sketches located outside of the currently active [Body](PartDesign_Body.md) as well.
 -   Since carbon-copied dimensional constraints use expressions they are rendered in a different color. The color can be customized with the [Preferences Editor](Preferences_Editor.md) at **Edit → Preferences → Sketcher → Colors → Expression dependent constraint color**.
 -   If the Sketcher mode has been changed to construction mode using **[<img src=images/Sketcher_ToggleConstruction.svg style="width:24px"> [Toggle construction geometry](Sketcher_ToggleConstruction.md)** all copied geometry will be created in construction mode.
+
+
 
 ## Limitazioni
 

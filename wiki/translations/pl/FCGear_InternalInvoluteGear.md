@@ -1,14 +1,16 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:FCGear InternalInvoluteGear
-   MenuLocation:Gear → Internal Involute Gear
-   Workbenches:[FCGear](FCGear_Workbench.md)
-   Shortcut:None
-   Version:1.0
-   SeeAlso:[FCGear InvoluteGear](FCGear_InvoluteGear.md)
+   Name/pl:FCGear: Wewnętrzna zębatka ewolwentowa
+   MenuLocation:Gear → Wewnętrzna zębatka ewolwentowa
+   Workbenches:[FCGear](FCGear_Workbench/pl.md)
+   Version:0.21
+   SeeAlso:[Koło zębate ewolwentowe](FCGear_InvoluteGear/pl.md)
 ---
 
 # FCGear InternalInvoluteGear/pl
+
+
 
 ## Opis
 
@@ -16,106 +18,118 @@
 
 
 
-*Internal involute gears from left to right: Spur gearing, helical gearing, double helical gearing*
-
-## Usage
-
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  There are several ways to invoke the command:
-    -   Press the **[<img src=images/FCGear_InternalInvoluteGear.svg style="width:16px"> [Internal Involute Gear](FCGear_InternalInvoluteGear.md)** button in the toolbar.
-    -   Select the **Gear → [<img src=images/FCGear_InternalInvoluteGear.svg style="width:16px"> Internal Involute Gear** option from the menu.
-3.  Change the gear parameter to the required conditions (see [Properties](#Properties.md)).
-
-## Properties
-
-An FCGear InternalInvoluteGear object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
-
-### Data
+*Wewnętrzne przekładnie ewolwentowe od lewej do prawej: Przekładnia czołowa, przekładnia walcowa, podwójna przekładnia walcowa.*
 
 
-{{Properties_Title|accuracy}}
 
--    **numpoints|Integer**: Default is {{value|6}}. Change of the involute profile. Changing the value can lead to unexpected results.
+## Użycie
 
-
-{{Properties_Title|base}}
-
--    **height|Length**: Default is {{value|5 mm}}. Value of the gear width.
-
--    **module|Length**: Default is {{value|1 mm}}. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see [Notes](FCGear_InvoluteGear#Notes.md)).
-
--    **teeth|Integer**: Default is {{value|15}}. Number of teeth (see [Notes](FCGear_InvoluteGear#Notes.md)).
-
--    **thickness|Length**: Default is {{value|5 mm}}. Thickness of the uncut outer part of the gear.
+1.  Przejdź do środowiska pracy <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear](FCGear_Workbench/pl.md).
+2.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk **[<img src=images/FCGear_InternalInvoluteGear.svg style="width:16px"> '''Wewnętrzna zębatka ewolwentowa'''** na pasku narzędzi.
+    -   Wybierz z menu opcję **Gear → [<img src=images/FCGear_InvoluteGear.svg style="width:16px"> Wewnętrzna zębatka ewolwentowa**.
+3.  Zmień parametry zębatki na wymagane *(patrz [Właściwości](#Właściwości.md))*.
 
 
-{{Properties_Title|computed}}
 
--    **angular_backlash|Angle**: (read-only)
+## Właściwości
 
--    **da|Length**: (read-only) Inside diameter, measured at the addendum (the tip of the teeth).
-
--    **df|Length**: (read-only) Root diameter, measured at the foot of the teeth.
-
--    **dw|Length**: (read-only) Working pitch diameter.
-
--    **outside_diameter|Length**: (read-only) Outside diameter.
-
--    **transverse_pitch|Length**: (read-only) Pitch in the plane of rotation.
+Obiekt InternalInvoluteGear wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
-{{Properties_Title|fillets}}
 
--    **head_fillet|Float**: Default is {{value|0 mm}}.
-
--    **root_fillet|Float**: Default is {{value|0 mm}}.
+### Dane
 
 
-{{Properties_Title|helical}}
+{{Properties_Title|Dokładność}}
 
--    **beta|Angle**: Default is {{value|0 °}}. With the helix angle β a helical gear is created -- positive value → rotation direction right, negative value → rotation direction left (see [Notes](FCGear_InvoluteGear#Notes.md)).
-
--    **double_helix|Bool**: Default is {{false}}, {{true}} creates a double helix gear (see [Notes](FCGear_InvoluteGear#Notes.md)).
-
--    **properties_from_tool|Bool**: Default is {{false}}. If {{true}} and **beta** is not zero, gear parameters are recomputed internally for the rotated gear.
+-    **numpoints|Integer**: Wartość domyślna to {{value|6}}. Zmiana profilu ewolwentowego. Zmiana wartości może prowadzić do nieoczekiwanych rezultatów.
 
 
-{{Properties_Title|involute}}
+{{Properties_Title|Podstawowe}}
 
--    **pressure_angle|Angle**: Default is {{value|20 °}} (see [Notes](FCGear_InvoluteGear#Notes.md)).
+-    **wysokość|Length**: Domyślnie {{value|5 mm}}. Wartość szerokości koła zębatego.
 
--    **shift|Float**: Default is {{value|0}}. Generates a positive and negative profile shift (see [Notes](FCGear_InvoluteGear#Notes.md)).
+-    **moduł|Length**: Domyślnie {{value|1 mm}}. Moduł jest stosunkiem średnicy referencyjnej koła zębatego podzielonej przez liczbę zębów *(patrz [Uwagi](FCGear_InvoluteGear/pl#Uwagi.md))*.
 
+-    **zęby|Integer**: Domyślnie {{value|15}}. Liczba zębów *(patrz [Uwagi](FCGear_InvoluteGear/pl#Uwagi.md))*.
 
-{{Properties_Title|precision}}
-
--    **simple|Bool**: Default is {{false}}, {{true}} generates a simplified display (without teeth and only a cylinder in pitch diameter).
-
-
-{{Properties_Title|tolerance}}
-
--    **backlash|Length**: Default is {{value|0 mm}}. Backlash, also called lash or play, is the distance between the teeth at a gear pair.
-
--    **clearance|Float**: Default is {{value|0.25}} (see [Notes](FCGear_InvoluteGear#Notes.md)).
-
--    **head|Float**: Default is {{value|-0.4 mm}}. This value is used to change the tooth height.
-
--    **reversed_backlash|Bool**: {{true}} backlash decrease or {{false}} (default) backlash increase (see [Notes](FCGear_InvoluteGear#Notes.md)).
+-    **grubość|Length**: Domyślnie {{value|5 mm}}. Grubość nieobciętej zewnętrznej części koła zębatego.
 
 
-{{Properties_Title|version}}
+{{Properties_Title|Obliczone}}
 
--    **version|String**:
+-    **angular_backlash|Angle**: *(tylko do odczytu)*.
 
-## Notes
+-    **da|Length**: *(tylko do odczytu)* Średnica wewnętrzna, mierzona na wierzchołku zęba *(końcówki zębów)*.
 
-See [FCGear InvoluteGear](FCGear_InvoluteGear#Notes.md).
+-    **df|Length**: *(tylko do odczytu)* Średnica korzenia, mierzona u podstawy zębów.
 
-## Useful formulas 
+-    **dw|Length**: *(tylko do odczytu)* Średnica podziałki roboczej.
 
-See [FCGear InvoluteGear](FCGear_InvoluteGear#Useful_formulas.md).
+-    **outside_diameter|Length**: *(tylko do odczytu)* Średnica zewnętrzna.
 
-## Scripting
+-    **transverse_pitch|Length**: *(tylko do odczytu)* Podziałka w płaszczyźnie obrotu.
+
+
+{{Properties_Title|Zaokrąglenia}}
+
+-    **head_fillet|Float**: Domyślnie {{value|0 mm}}.
+
+-    **root_fillet|Float**: Domyślnie {{value|0 mm}}.
+
+
+{{Properties_Title|Śrubowy}}
+
+-    **beta|Angle**: Domyślnie {{value|0 °}}. Z kątem helisy β tworzone jest koło zębate śrubowe - wartość dodatnia → kierunek obrotu w prawo, wartość ujemna → kierunek obrotu w lewo *(patrz [Uwagi](FCGear_InvoluteGear/pl#Uwagi.md))*.
+
+-    **double_helix|Bool**: Domyślną wartością jest {{False/pl}}, wartość {{True/pl}} pozwala utworzyć podwójną helisę *(patrz [Uwagi](FCGear_InvoluteGear/pl#Uwagi.md))*.
+
+-    **properties_from_tool|Bool**: Domyślną wartością jest {{False/pl}}. Jeśli parametr przyjmie wartość {{True/pl}} i **beta** nie jest równy zero, parametry koła zębatego są ponownie obliczane wewnętrznie dla obróconego koła zębatego.
+
+
+{{Properties_Title|Ewolwenta}}
+
+-    **kąt_natarcia|Angle**: Domyślnie {{Value|20 °}} *(patrz [Uwagi](FCGear_InvoluteGear/pl#Uwagi.md))*.
+
+-    **przesunięcie|Float**: Domyślnie {{Value|0}}. Generuje dodatnie i ujemne przesunięcie profilu *(patrz [Uwagi](FCGear_InvoluteGear/pl#Uwagi.md))*.
+
+
+{{Properties_Title|Precyzja}}
+
+-    **simple|Bool**: Domyślną wartością jest {{false/pl}}, wartość {{true/pl}} generuje uproszczony obraz *(bez zębów i tylko cylinder o średnicy podziałowej)*.
+
+
+{{Properties_Title|Tolerancja}}
+
+-    **backlash|Length**: Domyślnie {{Value|0}}. Luz zwrotny, zwany również lagiem lub swobodnym biegiem, to odległość między zębami w parze kół zębatych.
+
+-    **prześwit|Float**: Domyślnie {{Value|0.25}}. *(patrz [Uwagi](FCGear_InvoluteGear/pl#Uwagi.md))*.
+
+-    **head|Float**: Domyślnie {{Value|0}}. Wartość ta jest używana do zmiany wysokości zęba.
+
+-    **reversed_backlash|Bool**: Wartość {{True/pl}} zmniejsza luz lub {{False/pl}} *(domyślnie)* i właściwość backslash zwiększa luz *(patrz [Uwagi](FCGear_InvoluteGear/pl#Uwagi.md))*.
+
+
+{{Properties_Title|Wersja}}
+
+-    **Wersja|String**:
+
+
+
+## Uwagi
+
+Zobacz stronę [Koło zębate ewolwentowe](FCGear_InvoluteGear/pl#Uwagi.md).
+
+
+
+## Przydatne wzory 
+
+Zobacz stronę [Koło zębate ewolwentowe](FCGear_InvoluteGear/pl#Przydatne_wzory.md).
+
+
+
+## Tworzenie skryptów
 
 
 

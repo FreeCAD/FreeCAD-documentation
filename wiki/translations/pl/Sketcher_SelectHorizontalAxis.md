@@ -1,23 +1,28 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher SelectHorizontalAxis
-   MenuLocation:Sketch → Sketcher tools → Select horizontal axis
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Wybierz oś poziomą
+   MenuLocation:Szkic → Narzędzia szkicownika → Wybierz oś poziomą
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**Z** **H**
    Version:0.15
 ---
 
 # Sketcher SelectHorizontalAxis/pl
 
-## Description
 
-Selects the horizontal axis of a sketch.
 
-## Usage
+## Opis
 
-1.  Enter edit mode of sketch.
-2.  Choose **Sketch → Sketcher tools → [<img src=images/Sketcher_SelectHorizontalAxis.svg style="width:16px"> Select horizontal axis** from the top menu.
-3.  The horizontal axis of the sketch will be selected.
+Zaznacza oś poziomą szkicu.
+
+
+
+## Użycie
+
+1.  Wejdź w tryb edycji szkicu.
+2.  Wybierz z menu głównego **Szkic → Narzędzia szkicownika → [<img src=images/Sketcher_SelectHorizontalAxis.png style="width:16px"> Wybierz oś poziomą**.
+3.  Zostanie zaznaczona pozioma oś szkicu.
 
 
 

@@ -1,9 +1,13 @@
 # Debugging/fr
 {{TOCright}}
 
+
+
 ## Premier test 
 
 Avant de passer à la douloureuse phase de débogage, utilisez l\'[Atelier test](Testing/fr.md) pour vérifier si les tests standards fonctionnent correctement. Si ce n\'est pas le cas, c\'est peut-être dû a une installation défectueuse.
+
+
 
 ## Ligne de commande 
 
@@ -23,7 +27,7 @@ Options génériques :
 Configuration :
 
  -l [ --write-log ]           Ecrit un fichier log dans :
-                              $HOME/.FreeCAD/FreeCAD.log (Linux)
+                              $HOME/.local/share/FreeCAD/FreeCAD.log (Linux)
                               $HOME/Library/Application\ Support/FreeCAD/FreeCAD.log (macOS)
                               %APPDATA%\FreeCAD\FreeCAD.log (Windows)
  --log-file arg               Contrairement à --write-log cela permet de se connecter à un fichier arbitraire
@@ -34,9 +38,13 @@ Configuration :
  -P [ --python-path ] arg     Autres chemins Python
  --single-instance            Autoriser à exécuter une seule instance de l'application
 
+
+
 ## Générer un Backtrace 
 
 Si vous exécutez une version de FreeCAD à partir de l\'extrémité saillante de la courbe de développement, il se peut qu\'il se \"bloque\". Vous pouvez aider à résoudre ces problèmes en fournissant aux développeurs une \"backtrace\". Pour ce faire, vous devez exécuter une \"version de débogage\" du logiciel. \"Debug build\" est un paramètre qui est défini au moment de la compilation, donc vous devrez soit compiler vous-même FreeCAD, soit obtenir une version \"debug\" précompilée.
+
+
 
 ### Pour Linux 
 
@@ -97,6 +105,8 @@ Affiche également les valeurs des variables locales. Ceci peut être combiné a
 
 </div>
 
+
+
 ### Pour macOS 
 
 
@@ -143,6 +153,8 @@ Cela va générer une longue liste de ce que le programme faisait quand il s\'es
 
 </div>
 
+
+
 ## Liste des bibliothèques chargées par FreeCAD 
 
 (Applicable à Linux et macOS)
@@ -161,6 +173,8 @@ Cela affiche une longue liste de ressources chargées. Ainsi, par exemple, si vo
 
 
 `lsof -p process_id &#124; grep Coin`
+
+
 
 ## Débogage Python 
 
@@ -226,6 +240,8 @@ Draft.makeWire(points,closed=False,face=False,support=None)
 
 
 </div>
+
+
 
 ### Code Visual Studio (VS Code) 
 
@@ -328,6 +344,8 @@ dans la console Python de FreeCAD.
 
 </div>
 
+
+
 ### Avec LiClipse et AppImage 
 
 
@@ -410,6 +428,8 @@ squashfs-root> ./usr/bin/freecad
 
 
 </div>
+
+
 
 ## Débogage d\'OpenCasCade 
 

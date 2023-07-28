@@ -2,19 +2,23 @@
 - GuiCommand:/pl
    Name:Sketcher ValidateSketch
    Name/pl:Szkicownik: Sprawdź poprawność szkicu
-   MenuLocation:Sketch → Sprawdź poprawność szkicu ...
+   MenuLocation:Szkic → Sprawdź poprawność szkicu ...
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md), [Projekt części](PartDesign_Workbench/pl.md)
-   SeeAlso:[Szkicownik: Wiązanie zbieżności punktów](Sketcher_ConstrainCoincident/pl.md), [Topological naming problem](Topological_naming_problem.md)
+   SeeAlso:[Szkicownik: Wiązanie zbieżności punktów](Sketcher_ConstrainCoincident/pl.md), [Problem nazwenictwa topologicznego](Topological_naming_problem/pl.md)
 ---
 
 # Sketcher ValidateSketch/pl
 
+
+
 ## Opis
 
-Narzędzie **Sprawdzanie poprawności szkicu** może być używane do analizowania i naprawiania szkicu, który nie jest już edytowalny lub ma nieprawidłowe wiązania, lub do dodawania brakujących [zbieżności punktów](Sketcher_ConstrainCoincident/pl.md) do szkicu utworzonego z importowanej geometrii, takiej jak pliki DXF. Może być również przydatny do zlokalizowania brakującej zbieżności w rodzimym szkicu, który generuje błąd **nie można zatwierdzić uszkodzonej powierzchni** podczas próby zastosowania elementu ze środowiska Projekt części.
+Narzędzie **Sprawdź poprawność szkicu** może być używane do analizowania i naprawiania szkicu, który nie jest już edytowalny lub ma nieprawidłowe wiązania, lub do dodawania brakujących [zbieżności punktów](Sketcher_ConstrainCoincident/pl.md) do szkicu utworzonego z importowanej geometrii, takiej jak pliki DXF. Może być również przydatny do zlokalizowania brakującej zbieżności w rodzimym szkicu, który generuje błąd **nie można zatwierdzić uszkodzonej powierzchni** podczas próby zastosowania elementu ze środowiska Projekt Części.
 
 ![](images/Sketcher_ValidateSketch_taskpanel.png ) 
 *Panel zadań sprawdzania poprawności w środowisku pracy Szkicownik*
+
+
 
 ## Użycie
 
@@ -29,7 +33,11 @@ Narzędzie **Sprawdzanie poprawności szkicu** może być używane do analizowan
 4.  Zobacz [Opcje](#Opcje.md) poniżej, aby zapoznać się z dostępnymi operacjami.
 5.  Po zakończeniu naciśnij przycisk **Zamknij**.
 
+
+
 ## Opcje
+
+
 
 ### Brakujące zbieżności 
 
@@ -43,6 +51,8 @@ Tolerancja ta jest również używana przez proces **Znajdź** / **Napraw**.
 
 Pozostaw pole wyboru \"Ignoruj geometrię konstrukcji\" zaznaczone, aby w analizie nie uwzględniać geometrii konstrukcyjnej.
 
+
+
 ### Nieprawidłowe wiązania 
 
 Sprawdza obecność zniekształconych wiązań.
@@ -53,6 +63,8 @@ Na przykład, jeśli istnieje wiązanie Okrąg-Linia-Styczna, ale odwołuje się
 
 Dokonuje również dodatkowych weryfikacji, np. pod kątem występowania nieważnych linków.
 
+
+
 ### Zdegenerowana geometria 
 
 Zdegenerowana geometria może być wynikiem działania solvera w szkicu.
@@ -61,11 +73,15 @@ Na przykład, jeśli linia jest zmuszona do skrócenia długości, tak aby stał
 
 Inne przykłady: linia o zerowej długości lub okrąg/łuk o zerowym promieniu.
 
+
+
 ### Odwrócona geometria zewnętrzna 
 
 Odwrócona geometria zewnętrzna może się pojawić, ponieważ obsługa odwróconej geometrii została zmieniona mniej więcej w wersji 0.15.
 
 Ten proces może być pomocny, jeśli szkice z zewnętrzną geometrią nie dają się rozwiązać z powodu tych zmian.
+
+
 
 ### Blokowanie orientacji wiązania 
 

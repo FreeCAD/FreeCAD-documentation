@@ -10,9 +10,13 @@
 
 # Std Undo/it
 
+
+
 ## Descrizione
 
 Il comando **Annulla** annulla l\'ultima azione.
+
+
 
 ## Utilizzo
 
@@ -21,20 +25,20 @@ Il comando **Annulla** annulla l\'ultima azione.
     -   Selezionare l\'opzione **Modifica → <img src="images/Std_Undo.svg" width=16px> Annulla** dal menu.
     -   Usare la scorciatoia da tastiera: **Ctrl**+**Z**.
 
+
+
 ## Opzioni
 
-
-<div class="mw-translate-fuzzy">
-
--   Per annullare più azioni, fare clic sulla freccia nera a destra del pulsante **<img src="images/Std_Undo.svg" width=16px> Annulla** e selezionare dall\'elenco.
+-   Per annullare più azioni, fare clic sulla piccola freccia nera a destra del pulsante **<img src="images/Std_Undo.svg" width=16px> Annulla** e selezionare dall\'elenco.
 
 
-</div>
 
 ## Preferenze
 
 -   La funzione Annulla o Ripristina può essere disabilitata impostando **Strumenti → Modifica parametri ... → BaseApp → Preferenze → Documento → UsingUndo** su `False`, ma questo non è raccomandato. Questa impostazione può anche essere modificata nell\'[editor delle preferenze](Preferences_Editor/it#Documento.md).
 -   Il numero massimo di passaggi di Annulla o Ripristina è controllato da **Strumenti → Modifica parametri ... → BaseApp → Preferenze → Documento → MaxUndoSize**. Questa impostazione può anche essere modificata nell\'[editor delle preferenze](Preferences_Editor/it#Documento.md).
+
+
 
 ## Script
 
@@ -52,7 +56,7 @@ import FreeCAD
 FreeCAD.ActiveDocument.undo()
 ```
 
-When running FreeCAD in pure console mode (CLI), the undo/redo mechanism isn\'t enabled by default. It must be explicitly activated for each document.
+Quando si esegue FreeCAD in modalità console pura (CLI), il meccanismo di annullamento/ripristino non è abilitato per impostazione predefinita. Deve essere esplicitamente attivato per ogni documento.
 
 
 ```python
@@ -62,13 +66,7 @@ FreeCAD.ActiveDocument.UndoMode = 1
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

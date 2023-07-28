@@ -12,6 +12,8 @@
 
 Cette simple macro génère la liste des propriétés de l\'objet sélectionné. La liste des paramètres est imprimée dans la [Vue rapport](Report_view/fr.md) de FreeCAD. Cet exemple est de nature plus pédagogique et n\'est pas applicable pour une utilisation sans édition après génération, puisqu\'il inclut absolument tous les paramètres de l\'objet. Les listes de propriétés qui sont publiées dans ce wiki ne contiennent, en règle générale, que des paramètres uniques. Les paramètres hérités des objets parents ne sont pas publiés.
 
+
+
 ## Utilisation
 
 -   Préparation :
@@ -29,6 +31,8 @@ Cette simple macro génère la liste des propriétés de l\'objet sélectionné.
 
 Ne supprimez pas les espaces entre les lignes. Cela est nécessaire pour simplifier la traduction. Chaque ligne séparée par un espace sera considérée comme une partie distincte pour la traduction. Lorsque vous créez des textes, n\'oubliez jamais que les grands fragments monolithiques de texte sont difficiles à traduire pour les traducteurs.
 
+
+
 ## Exemples d\'utilisation 
 
 -   Par exemple, ouvrez l\'atelier Arch
@@ -36,6 +40,8 @@ Ne supprimez pas les espaces entre les lignes. Cela est nécessaire pour simplif
 -   Sélectionnez l\'objet Structure créé.
 -   Exécutez la macro.
 -   Copiez le texte de la vue du rapport et collez-le dans une page wiki et vérifiez le résultat.
+
+
 
 ## Résultats de l\'utilisation 
 
@@ -257,6 +263,8 @@ obj = FreeCAD.activeDocument().ActiveObject
 print_obj_properties(obj,"Data")
 </nowiki>
 }}
+
+
 
 ## Liens
 

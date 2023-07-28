@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Beschreibung
 
 Das [Bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md)-Werkzeug erlaubt es dem Anwender, einen Satz von bügelförmigen Bewehrungsstäben in einem [Struktur](Arch_Structure/de.md)-Objekt zu erstellen.
@@ -23,7 +25,12 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 <img alt="" src=images/Arch_Rebar_Stirrup_example.png  style="width:400px;"> 
 *Ein Satz von bügelförmigen Bewehrungsstäben in einem [Struktur](Arch_Structure/de.md)*-Objekt
 
+
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Wähle eine beliebige Fläche eines vorher erstellten **<img src="images/Arch_Structure.svg" width=16px> [Struktur](Arch_Structure/de.md)**-Objekts.
 2.  Wähle dann **<img src="images/Arch_Rebar_Stirrup.svg" width=16px> [Bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md)** aus den Bewehrungsstab-Werkzeugen.
@@ -36,11 +43,17 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 9.  Klicke **OK** oder **Anwenden** zur Erzeugung der Bewehrungsstäbe.
 10. Klicke **Abbrechen** zum Verlassen des Aufgaben-Paneels.
 
+
+</div>
+
+
 :   <img alt="" src=images/StirrupDialog.png  style="width:250px;">
 
 
 
 *Aufgaben-Ansicht für das Arch Bewehrungsstab bügelförmig-Werkzeug*
+
+
 
 ## Eigenschaften
 
@@ -62,6 +75,11 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 -    {{PropertyData/de|Spacing}}: Der Abstand zwischen den Achsen jedes Bewehrungsstabs.
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Scripten
 
 
@@ -69,7 +87,23 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 [Arch API](Arch_API/de.md),[Reinforcement-API](Reinforcement_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Bügelförmiger Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden: 
+
+</div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
+<div class="mw-translate-fuzzy">
+
+Das Bügelförmiger Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden:
+
+
+</div>
+
+
 ```python
 Rebar = makeStirrup(l_cover, r_cover, t_cover, b_cover, f_cover,
                     bentAngle, bentFactor, diameter, rounding, amount_spacing_check, amount_spacing_value,
@@ -90,6 +124,8 @@ Rebar = makeStirrup(l_cover, r_cover, t_cover, b_cover, f_cover,
 -    `amount_spacing_check`, falls `True` werden soviele Windungen erzeugt wie durch `amount_spacing_value` angegeben; falls `False` werden Windungen im Abstand des numerischen Werts von `amount_spacing_value` erzeugt.
 
 -    `amount_spacing_value`gibt die Anzahl der Verstärkungswindungen an oder den Wert des Abstand zwischen ihnen, abhängig von `amount_spacing_check`.
+
+
 
 ### Beispiel
 

@@ -56,9 +56,9 @@ L\'objet a les mêmes propriétés d\'attachement qu\'un [Part Part2DObject](Par
 
 -    **Height|Length**: hauteur du prisme. La valeur par défaut est {{Value|10mm}}.
 
--    **First Angle|Angle**: angle entre la direction d\'extrusion du prisme et son axe Z positif, mesuré autour de son axe Y. L\'angle est positif vers son axe X positif. L\'angle est positif vers son axe X positif. Plage valide : {{Value|0° &lt;&#61; value &lt; 90°}}. La valeur par défaut est {{Value|0°}}. {{Version/fr|0.19}}
+-    **First Angle|Angle**: angle entre la direction d\'extrusion du prisme et son axe Z positif, mesuré autour de son axe Y. L\'angle est positif vers son axe X positif. L\'angle est positif vers son axe X positif. Plage valide : {{Value|0° &lt;&#61; value &lt; 90°}}. La valeur par défaut est {{Value|0°}}.
 
--    **Second Angle|Angle**: angle entre la direction d\'extrusion du prisme et son axe Z positif, mesuré autour de son axe X. L\'angle est positif vers son axe Y positif. L\'angle est positif vers son axe Y positif. Plage valide : {{Value|0° &lt;&#61; value &lt; 90°}}. La valeur par défaut est {{Value|0°}}. {{Version/fr|0.19}}
+-    **Second Angle|Angle**: angle entre la direction d\'extrusion du prisme et son axe Z positif, mesuré autour de son axe X. L\'angle est positif vers son axe Y positif. L\'angle est positif vers son axe Y positif. Plage valide : {{Value|0° &lt;&#61; value &lt; 90°}}. La valeur par défaut est {{Value|0°}}.
 
 
 

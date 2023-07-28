@@ -11,7 +11,7 @@
 
 ## Description
 
-L\'outil Cote étendue verticale ajoute une cote linéaire à une vue. La cote s\'étend du point le plus bas sur les objets sélectionnés au point le plus haut. Un CosmeticVertex (point cosmétique) sera placé à chaque point.
+L\'outil **TechDraw Cote étendue verticale** ajoute une cote linéaire à une vue. La cote s\'étend du point le plus bas sur les objets sélectionnés au point le plus haut. Un CosmeticVertex (point cosmétique) sera placé à chaque point.
 
 <img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
 *Cote étendue verticale d'une surface B-spline*

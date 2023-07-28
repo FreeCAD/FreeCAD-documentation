@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/pl
    Name:Sketcher CreatePolyline
-   Name/pl:Szkicownik: Utwórz linię łamaną
-   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz linię łamaną
+   Name/pl:Szkicownik: Utwórz polilinię
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz polilinię
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **M**
    SeeAlso:[Szkicownik: Linia](Sketcher_CreateLine/pl.md)
@@ -10,34 +10,38 @@
 
 # Sketcher CreatePolyline/pl
 
-## Description
 
-This tool works like the [Sketcher Line](Sketcher_CreateLine.md) tool, but creates continuous line and arc segments connected by their vertices. When starting the tool, the mouse pointer changes to a white cross with a red polyline icon. The coordinates of the pointer are shown beside it in blue in real time.
+
+## Opis
+
+To narzędzie działa podobnie jak narzędzie [Utwórz linię](Sketcher_CreateLine/pl.md), ale tworzy ciągłe odcinki linii i łuków połączone wierzchołkami. Po uruchomieniu narzędzia kursor myszki zmienia kształt na biały krzyż z czerwoną ikoną polilinii. Oprócz niego na niebiesko w czasie rzeczywistym wyświetlane są współrzędne kursora.
 
 ![](images/Sketcher_PolylineExample1.png )
 
 
 
-*Polyline started with a line, a tangent arc, a perpendicular arc then a tangent line.*
+*Polilinia zaczynała się od linii, łuku stycznego, łuku prostopadłego następnie linii stycznej.*
 
-## Usage
 
-The polyline always starts with a straight line segment: click - move the mouse - click. Move the mouse again. After placing the first line segment, the Sketcher polyline tool has multiple modes that can be toggled with the **M** key. For example you can draw tangent or perpendicular arcs following a line or arc segment. Repeatedly pressing the **M** key toggles through these different modes:
 
-1.  Press the **M** key: the new segment is a line which is perpendicular to the previous segment.
-2.  Press the **M** key again: the new segment is a line which is tangential to the previous segment.
-3.  Press the **M** key again: the new segment is an arc which is tangential to the previous segment.
-4.  Press the **M** key again: the new segment is an arc which is perpendicular (left) to the previous segment.
-5.  Press the **M** key again: the new segment is an arc which is perpendicular(right) to the previous segment.
-6.  Press the **M** key again: You are again in the state where you started; the line is only connected with a coincidence to the previous segment.
+## Użycie
 
--    <small>(v0.18)</small> While in any of the arc modes, holding down the **Ctrl** key (MacOS: **CMD** key) and moving the cursor causes the arc to snap by increments of 45 degrees, relative to the previously created polyline segment.
+Polilinia zawsze zaczyna się od odcinka prostego: kliknij - przesuń kursor myszki - kliknij. Przesuń kursor ponownie. Po umieszczeniu pierwszego segmentu linii, narzędzie polilinia Szkicownika posiada wiele trybów, które można przełączać za pomocą klawisza **M**. Można na przykład rysować łuki styczne lub prostopadłe do linii lub segmentu łuku. Powtórne naciśnięcie klawisza **M** przełącza te różne tryby:
 
--   Pick points on an empty area of the 3D view, or on an existing object (auto constraints must be active in TaskView).
+1.  Naciśnij klawisz **M**: nowy odcinek jest prostą prostopadłą do poprzedniego odcinka.
+2.  Naciśnij ponownie klawisz **M**: nowy odcinek jest linią styczną do poprzedniego odcinka.
+3.  Naciśnij ponownie klawisz **M**: nowy odcinek jest łukiem, który jest styczny do poprzedniego odcinka.
+4.  Naciśnij ponownie klawisz **M**: nowy odcinek jest łukiem prostopadłym (w lewo) do poprzedniego odcinka.
+5.  Naciśnij ponownie klawisz **M**: nowy odcinek jest łukiem prostopadłym (w prawo) do poprzedniego odcinka.
+6.  Naciśnij ponownie klawisz **M**: Znów znajdujesz się w stanie, w którym zacząłeś. Linia jest połączona tylko przypadkiem z poprzednim odcinkiem.
 
--   Pressing **Esc** or clicking the right mouse button *before* closing the polyline to a loop ends the current polyline and you can continue with a new one. Pressing **Esc** or clicking the right mouse button again ends the polyline function.
+-    {{VersionPlus/pl|0.18}}Podczas pracy w dowolnym trybie łuku, przytrzymanie klawisza **Ctrl** *(MacOS: **CMD**)* i przesuwanie kursora powoduje, że łuk jest przyciągany co 45 stopni, względem wcześniej utworzonego odcinka polilinii.
 
--   Pressing **Esc** or clicking the right mouse button *after* closing the polyline to a loop ends the polyline function.
+-   Wybierz punkty na pustym obszarze okna widoku 3D lub na istniejącym obiekcie *(automatyczne wiązania muszą być aktywne w TaskView)*.
+
+-   Naciśnięcie klawisza **Esc** lub kliknięcie prawym przyciskiem myszki *przed* zamknięciem polilinii w pętlę kończy bieżącą polilinię i można kontynuować z nową. Naciśnięcie klawisza **Esc** lub ponowne kliknięcie prawego przycisku myszy kończy działanie narzędzia polilinii.
+
+-   Naciśnięcie klawisza **Esc** lub kliknięcie prawego przycisku myszy *po* zamknięciu polilinii do pętli kończy działanie narzędzia polilinii.
 
 
 

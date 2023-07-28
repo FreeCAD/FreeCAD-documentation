@@ -9,7 +9,7 @@
 
 # TechDraw LinkDimension/fr
 
-Il est prévu que **TechDraw Lier une cote** soit déprécié dans le futur. L\'outil [TechDraw Réparer une cote](TechDraw_DimensionRepair/fr.md) peut être utilisé pour modifier les références 2D et 3D.
+L\'outil **TechDraw Lier une cote** doit déprécié dans le futur. L\'outil [TechDraw Réparer une cote](TechDraw_DimensionRepair/fr.md) peut être utilisé pour modifier les références 2D et 3D.
 
 ## Description
 
@@ -23,12 +23,18 @@ Le lien indique à Dimension de calculer sa valeur directement à partir de la g
 
 ## Utilisation
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Créez une cote appropriée sur la page de dessin en utilisant l\'un des outils [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md), [TechDraw Cote horizontale](TechDraw_HorizontalDimension/fr.md) etc\... Cette cote sera au bon endroit sur la page mais affichera la dimension de la valeur projetée.
 2.  Sélectionnez la géométrie dans la vue 3D, par exemple une arête, qui correspond à la géométrie projetée de votre cote.
 3.  Appuyez sur le bouton **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Lier une cote à une géométrie 3D](TechDraw_LinkDimension/fr.md)
 **
-4.  Une boîte de dialogue va s\'ouvrir. Sélectionnez 1 ou plusieurs dimensions à associer à la géométrie 3D sélectionnée.
+4.  Une boîte de dialogue va s\'ouvrir. Sélectionnez une ou plusieurs dimensions à associer à la géométrie 3D sélectionnée.
 5.  Appuyer sur **OK**.
+
+
+</div>
 
 L\'opération de liaison change la propriété **MeasureType** de la cote de `Projected` à `True`.
 

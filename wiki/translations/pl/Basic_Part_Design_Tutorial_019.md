@@ -50,7 +50,8 @@ Zapraszamy do sygnalizowania wszelkich błędów i problemów w tym wątku na fo
 -   Kolor wymieniony powyżej jest kolorem domyślnym, można go zmienić w preferencjach. To samo dotyczy innych kolorów wymienionych w tym poradniku.
 -   Z narzędzia do rysowania Szkicownik wychodzimy naciskając klawisz **Esc** lub klikając prawym przyciskiem myszy pusty obszar okna [widoku 3D](3D_view/pl.md). Kursor myszki zmieni swój wygląd na standardowy kursor ze strzałką. Jeśli naciśniesz **Esc** jeszcze raz, wyjdziesz z trybu edycji szkicu. Aby powrócić do edytora, kliknij zakładkę Model, a następnie kliknij dwukrotnie element Szkic w [Widoku drzewa](Tree_view/pl.md) lub kliknij go prawym przyciskiem myszki i wybierz **Edycja szkicu** z menu kontekstowego. Aby uniknąć opuszczania trybu edycji po zbyt częstym naciskaniu klawisza **Esc**, zmień preferencje **Klawisz Esc umożliwia wyjście z trybu edycji szkicu**, zobacz stronę [Ustawienia szkicownika](Sketcher_Preferences/pl#Og.C3.B3lne.md).
 -   Możliwe jest, że niektóre elementy w panelu zadań, na przykład przycisk **OK**, nie są widoczne, jeśli panel nie jest wystarczająco szeroki. Możesz go poszerzyć, przeciągając jego prawy brzeg. Umieść kursor myszki nad krawędzią, gdy kursor zmieni wygląd na dwukierunkową strzałkę, przytrzymaj lewy przycisk myszki i przeciągnij.
--   W trakcie cyklu rozwoju v0.21/v1.0 wprowadzono nową ikonę dla narzędzia [Utwórz polilinię](Sketcher_CreatePolyline/pl.md): <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:24px;">. Stara ikona wygląda tak: <img alt="" src=images/Sketcher_CreatePolyline_rel_0.20.svg  style="width:24px;">. W tym poradniku będziemy używać nowej ikony.
+-   Przycisk **&gt;&gt;** na pasku narzędzi wskazuje, że pasek narzędzi jest skrócony. Możesz użyć wspomnianego przycisku, aby rozwinąć, lub przenieść pasek narzędzi w miejsce, gdzie jest więcej miejsca. Aby przesunąć pasek narzędziowy umieść kursor myszki nad uchwytem przed pierwszą ikoną na pasku narzędziowym, przytrzymaj lewy przycisk myszki i przeciągnij.
+-   W trakcie cyklu rozwoju v0.21 wprowadzono nową ikonę dla narzędzia [Utwórz polilinię](Sketcher_CreatePolyline/pl.md): <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:24px;">. Stara ikona wygląda tak: <img alt="" src=images/Sketcher_CreatePolyline_rel_0.20.svg  style="width:24px;">. W tym poradniku będziemy używać nowej ikony.
 -   Zapoznaj się z informacjami na stronie [Koncepcje środowiska Projekt Części](Part_and_PartDesign/pl#Koncepcje_.C5.9Brodowiska_Projekt_Cz.C4.99.C5.9Bci.md), aby zapoznać się z pewnymi podstawami koncepcyjnymi.
 -   Zapoznaj się z informacjami na stronie [środowisko pracy Szkicownik](Sketcher_Workbench/pl.md), aby uzyskać bardziej szczegółowe wyjaśnienie niektórych terminów używanych tutaj.
 
@@ -152,101 +153,111 @@ Profil główny jest tworzony przez [wyciągnięcie](PartDesign_Pad/pl.md) noweg
 
 **Krok B: Dodaj geometrię**
 
-1.  Click <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:24px;"> [Create polyline](Sketcher_CreatePolyline.md) and make a shape like in **Fig: MP1**.
-2.  The labels P1, P2 etc. will not appear in the sketch. They were added for reference.
-3.  For the last point of the final segment make sure to pick the first point of the shape. The point will change color and you will see the symbol for a <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Coincident constraint](Sketcher_ConstrainCoincident.md) appear near the cursor. Coincident constraints have to be explicit. Just having two points visually coincident is not sufficient.
-4.  Press **Esc** or right-click to exit the tool.
+1.  Kliknij <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:24px;"> [Utwórz polilinię](Sketcher_CreatePolyline/pl.md) i utwórz kształt jak na **Rys: MP1**.
+2.  Etykiety P1, P2 itd. nie pojawią się w szkicu. Zostały one dodane w celach informacyjnych.
+3.  Dla ostatniego punktu końcowego odcinka upewnij się, że wybierasz pierwszy punkt kształtu. Punkt zmieni kolor i zobaczysz symbol <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [wiązania zbieżności](Sketcher_ConstrainCoincident/pl.md) w pobliżu kursora. Wiązania zbieżności muszą być jawne. Nie wystarczy, że dwa punkty pokrywają się wizualnie.
+4.  Naciśnij klawisz **Esc** lub kliknij prawym przyciskiem myszy, aby opuścić narzędzie.
 
-**Step C: Assign constraints**
+**Krok C: Przypisz wiązania**
 
-1.  The three vertical and horizontal constraints you see in the image should have been added automatically provided you drew those lines that way. If you didn\'t you need to add them.
-2.  Select the point **P2** and the **Y axis** and apply a <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [Point onto object constraint](Sketcher_ConstrainPointOnObject.md).
-3.  Select the **origin** and the point **P1** and apply a <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> [Horizontal constraint](Sketcher_ConstrainHorizontal.md). Why not a <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Coincident constraint](Sketcher_ConstrainCoincident.md)? you might ask. Try it (and undo). The sketch will turn orange and a solver message **Redundant constraints** will appear. Because the line P1 to P2 has already been constrained to be vertical, the only remaining degree of freedom is P1\'s Y coordinate. The coincidence constraint sets both the X and Y coordinates to zero, but the X coordinate is already determined. The horizontal constraint, on the other hand, only sets the Y coordinate to zero, which is sufficient.
-4.  Select the line defined by the points **P2** and **P3**, apply a <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Horizontal distance constraint](Sketcher_ConstrainDistanceX.md), and assign **Length = 5 mm**.
-5.  Select the line defined by the points **P1** and **P2**, apply a <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Vertical distance constraint](Sketcher_ConstrainDistanceY.md), and assign **Length = 26 mm**.
-6.  Select the line defined by the points **P1** and **P4** and apply a <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Horizontal distance constraint](Sketcher_ConstrainDistanceX.md):
-    1.  For this value you will use a **named constraint** using [Expressions](Expressions.md). To do so you have to click the little button in the **Length** input field: <img alt="" src=images/Bound-expression.svg  style="width:24px;">.
-    2.  You will be presented with a new dialog named **Formula editor** that contains an input field and a **Result:** label, similar to the image below:
+1.  Trzy pionowe i poziome wiązania, które widzisz na obrazku, powinny zostać dodane automatycznie, o ile narysowałeś te linie w ten sposób. Jeśli tego nie zrobiłeś, musisz je dodać.
+2.  Wybierz punkt **P2** oraz oś **Y** i zastosuj <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [wiązanie punktu na obiekcie](Sketcher_ConstrainPointOnObject/pl.md).
+3.  Wybierz *punkt odniesienia położenia* i punkt *P1* i zastosuj <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> [wiązanie poziome](Sketcher_ConstrainHorizontal/pl.md). Możesz zapytać dlaczego nie <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [wiązanie zbieżności](Sketcher_ConstrainCoincident/pl.md)?. Więc spróbuj *(i cofnij)*. Szkic zmieni kolor na pomarańczowy i pojawi się komunikat solvera **Wiązania nadmiarowe**. Ponieważ linia od P1 do P2 została już związana w pionie, jedynym pozostałym stopniem swobody jest współrzędna Y linii P1. Wiązanie zbieżności ustawia zarówno współrzędną X jak i Y na zero, ale współrzędna X jest już określona. Z kolei wiązanie poziome ustawia na zero tylko współrzędną Y, co jest wystarczające.
+4.  Wybierz linię zdefiniowaną przez punkty **P2** i **P3**, zastosuj <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [zwiąż odległość poziomą](Sketcher_ConstrainDistanceX/pl.md), i przypisz jej **Długość = 5 mm**.
+5.  Wybierz linię zdefiniowaną przez punkty **P1** i **P2**, zastosuj <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [zwiąż odległość pionową](Sketcher_ConstrainDistanceY/pl.md), i przypisz jej **Długość = 26 mm**.
+6.  Wybierz linię zdefiniowaną przez punkty **P1** i **P4** i zastosuj <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [zwiąż odległość poziomą](Sketcher_ConstrainDistanceX/pl.md):
+    1.  Dla tej wartości użyjesz *wiązania z określeniem nazwy* za pomocą [wyrażeń](Expressions/pl.md).
+
+Aby to zrobić, kliknij mały przycisk w polu tekstowym „Długość": <img alt="" src=images/Bound-expression.svg  style="width:24px;">.
+
+1.  1.  Zostanie wyświetlone nowe okno dialogowe o nazwie „Edytor formuł" zawierające pole wprowadzania i etykietę „Wynik:", podobne do poniższego obrazka:
         ![](images/Pd_tut_expressions.png )
-        When you start typing in the input field, you will be presented with some autocompletions.
-    3.  Select the label of the sketch. In our case we want **>.**. Note the period after the label.
-    4.  To select the **named constraint** \"width\", you first have to enter **Constraints.** with the period. Here autocomplete works.
-    5.  To add \"width\", as yet autocompletion is not available, so complete the cell to read **>.Constraints.width**. If all went well the red error message after **Result:** has been replaced by the correct value as in the image below:
+        Kiedy zaczniesz pisać w polu wejściowym, zobaczysz kilka automatycznych uzupełnień.
+    2.  Wybierz etykietę szkicu. W naszym przypadku potrzebujemy **>.**. Zwróć uwagę na kropkę po etykiecie.
+    3.  Aby wybrać **wiązanie z określeniem nazwy** \"szerokość\", należy najpierw wpisać **Constraints.** z kropką.
+
+Tutaj działa automatyczne uzupełnianie.
+
+1.  1.  Aby dodać \"szerokość\", automatyczne upełnianie nie jest jeszcze dostępne, więc wypełnij komórkę, aby przeczytać **>.Constraints.szerokość**. Jeśli wszystko poszło dobrze, czerwony komunikat o błędzie po **Wynik:** został zastąpiony poprawną wartością, jak na poniższym obrazku:
         ![](images/Pd_tut_expression_end.png )
-    6.  Click **OK** to close the **Formula editor** dialog.
-    7.  Click **OK** to close the **Insert length** dialog.
-7.  You should have a fully constrained sketch similar to **Fig: MP2**.
-8.  Note the different colors used for distance constraints assigned using expressions, and those assigned specifying a length.
+    2.  Kliknij **OK**, aby zamknąć okno dialogowe **Edytor formuł**.
+    3.  Kliknij **OK**, aby zamknąć okno dialogowe **Wstaw długość**.
 
-**Step D: Close the sketch**
+2.  Powinieneś mieć w pełni związany szkic podobny do tego na **Rys.: MP2**.
 
-:   Click **Close** at the top of the [tasks panel](Task_panel.md) to leave sketch edit mode.
+3.  Zwróć uwagę na różne kolory używane dla wiązań odległości przypisywanych za pomocą wyrażeń oraz te przypisywane z podaniem długości.
+
+**Krok D: Zamknij szkic**
+
+:   Kliknij **Zamknij** u góry panelu [Zadań](Task_panel/pl.md), aby wyjść z trybu edycji szkicu.
 
 **Wyciągnięcie**
 
 <img alt="Fig: MP3" src=images/Pd_tut_pad1.png  style="width:240px;">
 
-1.  Make sure **Sketch001** is selected.
-2.  Click <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [Pad](PartDesign_Pad.md):
-    1.  The **Pad parameters** task panel opens.
-    2.  For **Type** select {{ComboBox|Dimension}}.
-    3.  For **Length** again use an expression, but this time enter **>.Constraints.length**. This should evaluate to 53 mm.
-    4.  Select {{CheckBox|TRUE|Symmetric to plane}}.
-    5.  Click **OK** to close the task panel.
-3.  You should now have a solid as shown in **Fig: MP3**.
+1.  Upewnij się, że wybrano **Sketch001**.
+2.  Kliknij <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [Wyciągnij](PartDesign_Pad/pl.md):
+    1.  Otworzy się panel zadań **Parametry wyciągnięcia**.
+    2.  Aby określić **Typ** wybierz {{ComboBox|Wymiar}}.
+    3.  Dla okreśenia parametru **Długość** ponownie użyj wyrażenia, ale tym razem wpisz **>.Constraints.długość**. To powinno dać wynik 53 mm.
+    4.  Zaznacz {{CheckBox|TRUE|Symetrcznie do płaszczyzny}}.
+    5.  Kliknij **OK**, aby zamknąć panel zadań.
+3.  Powinieneś teraz otrzymać bryłę jak pokazano na **Rys: MP3**.
 
 
 
 
 
-## Corner cutouts 
 
-For the corner cutouts two features are added to the model. A [pocket](PartDesign_Pocket.md), based on another sketch, is used to create the first cutout, and this feature is then [mirrored](PartDesign_Mirrored.md).
+
+## Wycięcia w narożnikach 
+
+W przypadku wycięć narożnych do modelu dodawane są dwa elementy. Do utworzenia pierwszego wycięcia użyto funkcji [kieszeń](PartDesign_Pocket/pl.md), opartej na innym szkicu, a następnie cecha ta jest modyfikowana [odbiciem lustrzanym](PartDesign_Mirrored/pl.md).
 
 **Sketch002**
 
 <img alt="Fig: CC1" src=images/Pd_tut_sk2_start.png  style="width:300px;"> <img alt="Fig: CC2" src=images/Pd_tut_sk2_eg01.png  style="width:300px;"> <img alt="Fig: CC3" src=images/Pd_tut_sk2_end.png  style="width:300px;">
 
-**Step A: Hide the solid**
+**Krok A: Ukryj bryłę**
 
-:   Hide the just created solid: Select **Pad** and click the **Spacebar**.
+:   Ukryj właśnie utworzoną bryłę: Wybierz obiekt **Pad** i kliknij klawisz **Spacja**.
 
-**Step B: Create the sketch**
+**Krok B: Utwórz szkic**
 
-:   Click <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Create sketch](PartDesign_NewSketch.md) and create a sketch attached to the **XZ_Plane**. The sketch will be named **Sketch002**.
+:   Kliknij <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Utwórz szkic](PartDesign_NewSketch/pl.md) i utwórz szkic dołączony do płaszcyzny **XZ_Plane**. Szkic będzie nosił nazwę **Sketch002**.
 
-**Step C: Add geometry**
+**Krok C: Dodaj geometrię**
 
-1.  Select <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:24px;"> [Create rectangle](Sketcher_CreateRectangle.md), and create a rectangle. Do not create it too near an axis, to avoid any automatic constraints that would make it difficult to move it into the correct position later.
-2.  Exit the tool.
+1.  Wybierz <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:24px;"> [Utwórz prostokąt](Sketcher_CreateRectangle/pl.md), i narysuj prostokąt. Nie twórz go zbyt blisko osi, aby uniknąć wygenerowania automatycznych więzów, które utrudniałyby późniejsze przesunięcie go do właściwej pozycji.
+2.  Zakończ pracę z narzędziem.
 
-**Step D: Assign dimensional constraints**
+**Krok D: Przypisanie więzów wymiarowych**
 
-1.  Select one of the horizontal lines, apply a <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Horizontal distance constraint](Sketcher_ConstrainDistanceX.md), and assign a value of **11 mm**.
-2.  Select one of the vertical lines, apply a <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Vertical distance constraint](Sketcher_ConstrainDistanceY.md), and assign a value of **5 mm**.
-3.  You should obtain something similar to **Fig: CC1**.
+1.  Wybierz jedną z poziomych linii, zastosuj <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [zwiąż odległość poziomą](Sketcher_ConstrainDistanceX/pl.md), i przypisz wartość **11 mm**.
+2.  Wybierz jedną z pionowych linii, zastosuj <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [zwiąż odległość pionową](Sketcher_ConstrainDistanceY/pl.md), i przypisz wartość **5 mm**.
+3.  Powinieneś otrzymać rozwiązanie podobne jak na **Rys: CC1**.
 
-**Step E: Close the sketch**
+**Krok E: Zamknij szkic**
 
-:   Click **Close**. **Sketch002** is not fully constrained at this stage.
+:   Kliknij **Zamknij**. **Sketch002** na tym etapie nie jest w pełni związany.
 
-**Step F: Make previous sketches visible**
+**Krok F: Wyświetl poprzednie szkice**
 
-:   To use [external geometry](Sketcher_External.md), the sketches whose elements we want to reference must be visible. Make sure **Sketch** and **Sketch001** are both visible. Use the **Spacebar** to toggle visibility if needed. Expand the **Pad** node in the [Tree view](Tree_view.md) to access **Sketch001**.
+:   Aby skorzystać z narzędzia [geometria zewnętrzna](Sketcher_External/pl.md), szkice, do których elementów chcemy się odwołać, muszą być widoczne. Upewnij się, że **Sketch** i **Sketch001** są widoczne. Użyj klawisza **Spacja** do przełączania widoczności w razie potrzeby. Rozwiń węzeł *Pad* w [Widoku drzewa](Tree_view/pl.md), aby uzyskać dostęp do obiektu*Sketch001*.
 
-**Step G: Add external geometry and fully constrain the sketch**
+**Krok G: Dodaj geometrię zewnętrzną i w pełni zwiąż szkic**
 
-1.  Double click **Sketch002** to enter edit mode.
-2.  Rotate the view so you can clearly see the points as shown in **Fig: CC2**. This will ease subsequent steps. Note that the rectangle\'s initial position may be different in your sketch.
-3.  Click <img alt="" src=images/Sketcher_External.svg  style="width:24px;"> [External geometry](Sketcher_External.md).
-4.  While the tool is active the cursor has this appearance:
+1.  Kliknij dwukrotnie **Sketch002**, aby wejść w tryb edycji.
+2.  Obróć widok tak, aby wyraźnie widzieć punkty, jak pokazano na **Rys: CC2**. Ułatwi to kolejne kroki. Zauważ, że początkowe położenie prostokąta może być inne w Twoim szkicu.
+3.  Kliknij narzędzie <img alt="" src=images/Sketcher_External.svg  style="width:24px;"> [Geometria zewnętrzna](Sketcher_External/pl.md).
+4.  Podczas gdy narzędzie jest aktywne kursor ma następujący wygląd:
     ![](images/Pd_tut_eg_cursor.png )
-5.  Select point **P1** in **Fig: CC2**. The selected point is added to the sketch as external geometry. In the **Elements** section of the task panel it will appear with a purple X icon or, <small>(v1.0)</small> , a purple dot icon.
-6.  With the tool still active select point **P2** in **Fig: CC2**. This external geometry should also appear in the **Elements** section.
-7.  Exit the tool.
-8.  Select point **P1** and point **P3** and apply a <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> [Vertical constraint](Sketcher_ConstrainVertical.md). The rectangle will be aligned with the X position of **P1**.
-9.  Select point **P2** and point **P3** and apply a <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> [Horizontal constraint](Sketcher_ConstrainHorizontal.md). The rectangle will be aligned with the Y position of **P2**.
-10. You should have a fully constrained sketch similar to **Fig: CC3**.
+5.  Wybierz punkt **P1** w **Rys: CC2**. Wybrany punkt zostaje dodany do szkicu jako geometria zewnętrzna. Będzie on wyświetlany w sekcji **Elementy** w panelu zadań z fioletową ikoną X lub, {{Version/pl|0.21}}, ikoną fioletowej kropki.
+6.  Mając wciąż aktywne narzędzie wybierz punkt **P2** na **Rys: CC2**. Ta zewnętrzna geometria powinna również pojawić się w sekcji **Elementy**.
+7.  Zakończ pracę z narzędziem.
+8.  Wybierz punkt **P1** i punkt **P3** i zastosuj <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> [zwiąż odległość pionową](Sketcher_ConstrainVertical/pl.md). Prostokąt zostanie wyrównany do pozycji X punktu **P1**.
+9.  Wybierz punkt **P2** i punkt **P3** i zastosuj <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> [zwiąż odległość poziomą](Sketcher_ConstrainHorizontal/pl.md). Prostokąt zostanie wyrównany do pozycji Y **P2**.
+10. Twój szkic powinien być w pełni związany, tak jak na **Rys. CC3**.
 
 **Krok H: Zamknij szkic**
 
@@ -256,26 +267,26 @@ For the corner cutouts two features are added to the model. A [pocket](PartDesig
 
 <img alt="Fig: CC4" src=images/Pd_tut_pck01.png  style="width:300px;"> <img alt="Fig: CC5" src=images/Pd_tut_pck02-mir.png  style="width:300px;">
 
-To create the cutouts we will use the <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [Pocket](PartDesign_Pocket.md) tool. This tool is the opposite of the Pad tool. Whereas the Pad tool adds material, the Pocket tool removes material.
+Do stworzenia wycięcia użyjemy narzędzia <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [Kieszeń](PartDesign_Pocket/pl.md). Narzędzie to jest przeciwieństwem narzędzia Wyciągnij. Podczas gdy narzędzie Wyciągnij dodaje materiał, narzędzie Kieszeń usuwa materiał.
 
-1.  Select **Sketch002**.
-2.  Click <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [Pocket](PartDesign_Pocket.md):
-    1.  The **Pocket parameters** task panel opens.
-    2.  Select **Type** {{ComboBox|Through all}}.
-    3.  Check {{CheckBox|TRUE|Reversed}}
-    4.  Click **OK**.
-3.  You should have something that resembles **Fig: CC4**
+1.  Wybierz **Sketch002**.
+2.  Kliknij <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [Kieszeń](PartDesign_Pocket/pl.md):
+    1.  Otworzy się panel zadań **Parametry kieszeni**.
+    2.  Wybierz **Typ** {{ComboBox|Przez wszystkie}}.
+    3.  Zaznacz opcję {{CheckBox|TRUE|Zaznaczony}}
+    4.  Kliknij **OK**.
+3.  Powinieneś uzyskać efekt przypominający ten z **Rys: CC4**
 
 **Odbicie lustrzane**
 
-Instead of creating another sketch and pocketing it, we take advantage of the model\'s symmetry about the YZ plane and use <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> [Mirrored](PartDesign_Mirrored.md) to create the second cutout.
+Zamiast tworzyć kolejny szkic i kieszeń, wykorzystujemy symetrię modelu względem płaszczyzny YZ i użyjemy narzędzia <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> [odbicie lustrzane](PartDesign_Mirrored/pl.md) do stworzenia drugiego wycięcia.
 
-1.  Select **Pocket**.
-2.  Click <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> [Mirrored](PartDesign_Mirrored.md):
-    1.  The **Mirrored parameters** task panel opens.
-    2.  Select **Plane** {{ComboBox|Vertical sketch axis}} from the pulldown menu. The plane will be defined by this axis (the Y axis) and also by the Z axis of the sketch. Note that selecting **Base YZ Plane** would have the same result.
-    3.  Click **OK**.
-3.  You should now have a part that looks like **Fig: CC5**.
+1.  Wybierz **Kieszeń**.
+2.  Kliknij narzędzie <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> [odbicie lustrzane](PartDesign_Mirrored/pl.md):
+    1.  Otwiera się panel zadań **Parametry odbicia lustrzanego**.
+    2.  Z menu rozwijanego wybierz **Płaszczyznę** {{ComboBox|Pionowa oś szkicu}}. Płaszczyzna zostanie zdefiniowana przez tę oś *(oś Y)*, a także przez oś Z szkicu. Zauważ, że wybranie **Płaszczyzny bazowej YZ** dałoby ten sam efekt.
+    3.  Kliknij **OK**.
+3.  Powinieneś mieć teraz część, która wygląda jak ta na **Rys: CC5**.
 
 
 
@@ -285,51 +296,51 @@ Instead of creating another sketch and pocketing it, we take advantage of the mo
 
 ## Boki
 
-The sides are created in a similar manner, but instead of removing material we will add material with a [pad](PartDesign_Pad.md) feature.
+Boki tworzymy w podobny sposób, ale zamiast usuwać materiał będziemy dodawać materiał za pomocą funkcji [wyciągnij](PartDesign_Pad/pl.md).
 
 **Sketch003**
 
 <img alt="Fig: SD1" src=images/Pd_tut_sk3_1.png  style="width:300px;"> <img alt="Fig: SD2" src=images/Pd_tut_pad001.png  style="width:300px;"> <img alt="Fig: SD3" src=images/Pd_tut_pad02-mir.png  style="width:300px;">
 
-1.  Make sure **Sketch** is visible, and **Mirrored** is hidden.
-2.  Click <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Create sketch](PartDesign_NewSketch.md) and create a new sketch attached to the **XY_Plane**. The sketch will be named **Sketch003**.
-3.  Click <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:24px;"> [Create rectangle](Sketcher_CreateRectangle.md) and create a rectangle similar to the smaller rectangle in **Fig: SD1**. Because the rectangle is offset from the X axis this should not trigger an automatic <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [Point onto object constraint](Sketcher_ConstrainPointOnObject.md).
-4.  Exit the tool.
-5.  Click <img alt="" src=images/Sketcher_External.svg  style="width:24px;"> [External geometry](Sketcher_External.md).
-6.  Select the point **P1** as shown in **Fig: CC2**.
-7.  Exit the tool.
-8.  Apply these constraints:
-    1.  Select one of the horizontal lines, apply a <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Horizontal distance constraint](Sketcher_ConstrainDistanceX.md), and assign a value of **7 mm**.
-    2.  Select one of the vertical lines, apply a <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Vertical distance constraint](Sketcher_ConstrainDistanceY.md), and assign this expression: **>.Constraints.width**.
-    3.  Select the **top-left** point of the created rectangle (marked **TL** in **Fig: SD1**) and the newly added **external geometry point** and apply a <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Coincident constraint](Sketcher_ConstrainCoincident.md).
-9.  The sketch should be fully constrained now.
-10. Click **Close**.
+1.  Upewnij się, że **Szkic** jest widoczny, a obiekt **Mirrored** jest ukryty.
+2.  Kliknij narzędzie <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [utwórz szkic](PartDesign_NewSketch/pl.md) i wygeneruj nowy szkic dołączony do płaszczyzny **XY_Plane**. Szkic będzie nosił nazwę **Sketch003**.
+3.  Kliknij <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:24px;"> [utwórz prostokąt](Sketcher_CreateRectangle/pl.md) i utwórz prostokąt podobny do mniejszego prostokąta na **Rys: SD1**. Ponieważ prostokąt jest przesunięty względem osi X, nie powinno to wywołać automatycznego <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [dowiązania punktu na obiekcie](Sketcher_ConstrainPointOnObject/pl.md).
+4.  Zamknij narzędzie.
+5.  Kliknij narzędzie <img alt="" src=images/Sketcher_External.svg  style="width:24px;"> [geometria zewnętrzna](Sketcher_External/pl.md).
+6.  Wybierz punkt **P1** jak pokazano na **Rys: CC2**.
+7.  Zamknij narzędzie.
+8.  Zastosuj następujące wiązania:
+    1.  Wybierz jedną z poziomych linii, zastosuj narzędzie <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [zwiąż odległość poziomą](Sketcher_ConstrainDistanceX/pl.md), i przypisz wartość **7 mm**.
+    2.  Wybierz jedną z pionowych linii, zastosuj narzędzie <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [zwiąż odległość pionową](Sketcher_ConstrainDistanceY/pl.md) i przypisz to wyrażenie: **\<\>.Constraints.szerokosc**.
+    3.  Wybierz punkt **lewy górny** utworzonego prostokąta *(oznaczony **TL** na **Rys.: SD1**)* i nowo dodany **punkt geometrii zewnętrznej** i zastosuj narzędzie <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [wiązanie zbieżności](Sketcher_ConstrainCoincident/pl.md).
+9.  Szkic powinien być teraz w pełni związany.
+10. Kliknij **Zamknij**.
 
 **Pad001**
 
-1.  Select **Sketch003**.
-2.  Click <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [Pad](PartDesign_Pad.md):
-    1.  Assign **Type =** {{ComboBox|Dimension}}.
-    2.  Assign **Length = 16.7 mm**
-    3.  Click **OK**.
-3.  You should have a result as shown in **Fig: SD2**
+1.  Wybierz **Sketch003**\'.
+2.  Kliknij <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [Pad](PartDesign_Pad.md):
+    1.  Przypisz **Typ =** {{ComboBox|Wymiar}}.
+    2.  Przypisz **Długość = 16.7 mm**.
+    3.  Kliknij **OK**.
+3.  Powinieneś uzyskać wynik jak pokazano na **Rys: SD2**.
 
 **Mirrored001**
 
-1.  Select **Pad001**.
-2.  Click <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> [Mirrored](PartDesign_Mirrored.md):
-    1.  Make sure **Plane** {{ComboBox|Vertical sketch axis}} is selected.
-    2.  Click **OK**.
-3.  You should now have a part that looks like **Fig: SD3**.
+1.  Wybierz obiekt **Pad001**.
+2.  Kliknij narzędzie<img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> [odbicie lustrzane](PartDesign_Mirrored/pl.md):
+    1.  Upewnij się, że **Płaszczyzna** {{ComboBox|Pionowa oś szkicu}} jest zaznaczona.
+    2.  Kliknij **OK**.
+3.  Powinieneś teraz mieć część, która wygląda jak na **Rys: SD3**.
 
 **Uwaga**
 
-Our two mirror operations have a common symmetry plane, so we could have made our model a little simpler by combining them. We would:
+Nasze dwie operacje odbicia lustrzanego mają wspólną płaszczyznę symetrii, więc moglibyśmy nieco uprościć nasz model łącząc je. W tym celu:
 
-1.  Omit the first **Mirror** operation.
-2.  Select both **Pad001** and **Pocket** in step 1 of the above **Mirrored001** operation.
+1.  Pomiń pierwszą operację **odbicia lustrzanego**.
+2.  Wybierz zarówno **Pad001** jak i **Pocket** w kroku 1 powyższej operacji **Mirrored001**.
 
-This emphasizes the important concept that we are mirroring the selected features (the operations we performed on the body, in the selected order), not the body itself.
+Podkreśla to ważną koncepcję, że odzwierciedlamy wybrane cechy *(operacje, które wykonaliśmy na bryle, w wybranej kolejności)*, a nie samą bryłę.
 
 
 
@@ -339,46 +350,46 @@ This emphasizes the important concept that we are mirroring the selected feature
 
 ## Środkowy otwór 
 
-Now it is time for the most challenging part of our modeling, a challenge that arises because some of the dimensions of the center hole are defined along the slanted face. If you use this face, created by padding **Sketch001**, as a reference for the next sketch, you expose yourself to the [Topological Naming Problem](Topological_naming_problem.md). A better solution is to reference **Sketch001** itself.
+Teraz czas na najtrudniejszą część naszego modelowania, wyzwanie, które pojawia się, ponieważ niektóre wymiary otworu centralnego są zdefiniowane wzdłuż skośnej ściany. Jeśli użyjesz tej ściany, powstałej w wyniku wyciągnięcia obiektu **Sketch001**, jako odniesienia dla następnego szkicu, narazisz się na [problem nazewnictwa topologicznego](Topological_naming_problem/pl.md). Lepszym rozwiązaniem jest odwołanie się do samego obiektu **Sketch001**.
 
 **Sketch004**
 
 <img alt="Fig: CH1" src=images/Pd_tut_cen01.png  style="width:240px;"> <img alt="Fig: CH2" src=images/Pd_tut_cen02.png  style="width:240px;">
 
-1.  Make **Sketch001** visible, and hide **Sketch** and **Mirrored001**.
-2.  Click <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Create sketch](PartDesign_NewSketch.md) and create a new sketch attached to the **YZ_Plane**. The sketch will be named **Sketch004**.
-3.  Click <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:24px;"> [Create polyline](Sketcher_CreatePolyline.md) and trace a polyline like that indicated by the points **P1**, **P2**, **P3** and **P4** in **Fig: CH1**.
-4.  Remember to close the polyline by picking the first point. This will create the required <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Coincident constraint](Sketcher_ConstrainCoincident.md).
-5.  Exit the tool.
-6.  Check the applied constraints:
-    -   Delete the redundant <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> [Vertical constraint](Sketcher_ConstrainVertical.md) applied to the line defined by **P1** and **P2**.
-    -   Make sure a <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> [Horizontal constraint](Sketcher_ConstrainHorizontal.md) has been applied to the lines defined by **P1** and **P4**, and **P2** and **P3**.
-    -   Make sure a <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [Point onto object constraint](Sketcher_ConstrainPointOnObject.md) has been applied to **P1** and the **Y axis**, and to **P2** and the **Y axis**.
-7.  Click <img alt="" src=images/Sketcher_External.svg  style="width:24px;"> [External geometry](Sketcher_External.md)
-8.  Select the line defined by **EGP1** and **EGP2** in **Sketch001**, indicated by the purple color in **Fig: CH2**.
-9.  Exit the tool.
-10. Apply a <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [Point onto object constraint](Sketcher_ConstrainPointOnObject.md) to **P3** and the **external geometry**, and repeat this for **P4**. This will make the line defined by **P3** and **P4** coincident with the line defined by **EGP1** and **EGP2**.
-11. Select the line **P3** to **P4**, apply a <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:24px;"> [Distance constraint](Sketcher_ConstrainDistance.md), and assign 
-**Length = 17 mm**
-12. Select the points **EGP2** and **P4**, apply a <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:24px;"> [Distance constraint](Sketcher_ConstrainDistance.md), and assign **Length = 7 mm**.
-13. This will result in a fully constrained sketch like **Fig: CH2**.
-14. Click **Close**.
-15. Hide **Sketch001**.
+1.  Spraw, aby **Sketch001** był widoczny, a ukryj **Sketch** i **Mirrored001**.
+2.  Kliknij <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [utwórz szkic](PartDesign_NewSketch/pl.md) i utwórz nowy szkic dołączony do **YZ_Plane**. Szkic będzie nosił nazwę **Sketch004**.
+3.  Kliknij <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:24px;"> [utwórz polilinie](Sketcher_CreatePolyline/pl.md) i wyznacz polilinię taką, jaką wskazują punkty **P1**, **P2**, **P3** i **P4** na **Rys: CH1**.
+4.  Pamiętaj, aby zamknąć polilinię wybierając pierwszy punkt. Dzięki temu powstanie wymagane <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [wiązanie zbieżności](Sketcher_ConstrainCoincident/pl.md).
+5.  Zamknij narzędzie.
+6.  Sprawdź zastosowane wiązania:
+    -   Usuń zbędne <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> [więzy pionowe](Sketcher_ConstrainVertical/pl.md) zastosowane do linii zdefiniowanej przez **P1** i **P2**.
+    -   Upewnij się, że <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> [więz poziomy](Sketcher_ConstrainHorizontal/pl.md) został zastosowany do linii zdefiniowanych przez **P1** i **P4** oraz **P2** i **P3**.
+    -   Upewnij się, że wiązanie <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [punktu na obiekcie](Sketcher_ConstrainPointOnObject/pl.md) zostało zastosowane do **P1** i **osi Y** oraz do **P2** i **osi Y**.
+7.  Kliknij narzędzie <img alt="" src=images/Sketcher_External.svg  style="width:24px;"> [geometria zewnętrzna](Sketcher_External/pl.md)
+8.  Wybierz linię zdefiniowaną przez **EGP1** i **EGP2** w **Sketch001**, wskazaną przez fioletowy kolor na **Rys: CH2**.
+9.  Zamknij narzędzie.
+10. Zastosuj wiązanie <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md) do **P3** i **geometrii zewnętrznej**, a następnie powtórz tę operację dla **P4**. To sprawi, że linia zdefiniowana przez **P3** i **P4** będzie pokrywać się z linią zdefiniowaną przez **EGP1** i **EGP2**.
+11. Wybierz linię **P3** do **P4**, zastosuj <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:24px;"> [wiązanie odległości](Sketcher_ConstrainDistance/pl.md), i przypisz 
+**Długość = 17 mm**
+12. Wybierz punkty **EGP2** i **P4**, zastosuj <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:24px;"> [wiązanie odległości](Sketcher_ConstrainDistance/pl.md), i przypisz **Długość = 7 mm**.
+13. W ten sposób powstanie w pełni związany szkic, taki jak na **Rys: CH2**.
+14. Kliknij **Close**.
+15. Ukryj **Sketch001**.
 
 **Pocket001**
 
-1.  Select **Sketch004**.
-2.  Click <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [Pocket](PartDesign_Pocket.md):
-    1.  Select **Type** {{ComboBox|Two Dimensions}}.
-    2.  Assign **8.5 mm** to **Length** and **2nd length**.
-    3.  Click **OK**.
-3.  Select the newly created **Pocket001**.
-4.  Change its **Refine** property to **True**.
+1.  Wybierz obiekt **Sketch004**.
+2.  Kliknij <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [kieszeń](PartDesign_Pocket/pl.md):
+    1.  Wybierz **Typ** {{ComboBox|Dwa wymiary}}.
+    2.  Przypisz **8,5 mm** do **długości** i **drugiej długości**.
+    3.  Kliknij **OK**.
+3.  Wybierz nowo utworzony **Pocket001**.
+4.  Zmień wartość jego właściwości **ulepsz** na {{True/pl}}.
 
 **Uwagi**
 
-1.  For **Pocket001** we could have alternatively used **Type** {{ComboBox|Dimension}}, checked **Symmetric to Plane**, and entered **17 mm** for the **Length** value.
-2.  **Refine** will try to remove seams left by previous operations. It is advisable to only refine the final solid, as some operations can fail if a previous feature has been refined. However, there are also cases where refine can make an operation succeed. So in case of problems check this property and test. Unfortunately there is not yet a general rule to follow.
+1.  Dla **Pocket001** mogliśmy alternatywnie użyć opcji **Typ** {{ComboBox|Wymiar}}, zaznaczyć **Symetrycznie do płaszczyzny** i wpisać wartość **17 mm** dla **Długości**.
+2.  **Udoskonal** spróbuje usunąć szwy pozostawione przez poprzednie operacje. Zaleca się, aby dopracować tylko bryłę ostateczną, ponieważ niektóre operacje mogą się nie powieść, jeśli poprzednia cecha została dopracowana. Jednakże są też przypadki, w których funkcja ulepsz może sprawić, że operacja się powiedzie. Dlatego w razie problemów należy sprawdzić tę właściwość i przetestować. Niestety nie ma jeszcze ogólnej zasady, którą należałoby się kierować.
 
 
 

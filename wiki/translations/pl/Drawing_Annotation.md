@@ -2,15 +2,19 @@
 - GuiCommand:/pl
    Name:Drawing Annotation
    Name/pl:Kreślenie: Adnotacja
-   Workbenches:[Kreślenie](Drawing_Workbench/pl.md), [Complete](Complete_Workbench/pl.md)
    MenuLocation:Kreślenie → Adnotacja
+   Workbenches:[Kreślenie](Drawing_Workbench/pl.md)
 ---
 
 # Drawing Annotation/pl
 
+
+
 ## Opis
 
 To polecenie pozwala na umieszczenie bloku tekstu na [stronie rysunku](Drawing_Landscape_A3.md).
+
+
 
 ## Użycie
 
@@ -18,6 +22,8 @@ To polecenie pozwala na umieszczenie bloku tekstu na [stronie rysunku](Drawing_L
 2.  [Odświerz](Std_Refresh.md) widok, jeśli widok rysunku nie został otworzony,
 3.  Naciśnij przycisk **<img src="images/Drawing_Annotation.png" width=16px>** [Wstaw widok Adnotacji](Drawing_Annotation.md),
 4.  Dostosuj pożądane właściwości, takie jak zawartość tekstu, czcionka, rozmiar i położenie.
+
+
 
 ## Ograniczenia
 

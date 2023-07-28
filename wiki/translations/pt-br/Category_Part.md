@@ -29,9 +29,10 @@ This category lists pages related to the [Part Workbench/pt-br](Part_Workbench/p
 | [Part RuledSurface/pt-br](Part_RuledSurface/pt-br.md) | [Part scripting/pt-br](Part_scripting/pt-br.md) | [Part Section/pt-br](Part_Section/pt-br.md) |
 | [Part ShapeFromMesh/pt-br](Part_ShapeFromMesh/pt-br.md) | [Part SimpleCopy/pt-br](Part_SimpleCopy/pt-br.md) | [Part Slice/pt-br](Part_Slice/pt-br.md) |
 | [Part SliceApart/pt-br](Part_SliceApart/pt-br.md) | [Part Sphere/pt-br](Part_Sphere/pt-br.md) | [Part Spiral/pt-br](Part_Spiral/pt-br.md) |
-| [Part Sweep/pt-br](Part_Sweep/pt-br.md) | [Part Thickness/pt-br](Part_Thickness/pt-br.md) | [Part Torus/pt-br](Part_Torus/pt-br.md) |
-| [Part TransformedCopy/pt-br](Part_TransformedCopy/pt-br.md) | [Part Tube/pt-br](Part_Tube/pt-br.md) | [Part Wedge/pt-br](Part_Wedge/pt-br.md) |
-| [Part XOR/pt-br](Part_XOR/pt-br.md) | [Topological naming problem/pt-br](Topological_naming_problem/pt-br.md) |
+| [Part Sweep/pt-br](Part_Sweep/pt-br.md) | [Part Thickness/pt-br](Part_Thickness/pt-br.md) | [Part TopoShape/pt-br](Part_TopoShape/pt-br.md) |
+| [Part Torus/pt-br](Part_Torus/pt-br.md) | [Part TransformedCopy/pt-br](Part_TransformedCopy/pt-br.md) | [Part Tube/pt-br](Part_Tube/pt-br.md) |
+| [Part Wedge/pt-br](Part_Wedge/pt-br.md) | [Part XOR/pt-br](Part_XOR/pt-br.md) | [Topological naming problem/pt-br](Topological_naming_problem/pt-br.md) |
+|
 
 
 

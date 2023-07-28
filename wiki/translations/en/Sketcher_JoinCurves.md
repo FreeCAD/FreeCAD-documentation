@@ -3,7 +3,7 @@
    Name:Sketcher JoinCurves
    MenuLocation:Sketch → Sketcher B-spline tools → Join curves
    Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Version:1.0
+   Version:0.21
    SeeAlso:
 ---
 
@@ -11,7 +11,7 @@
 
 ## Description
 
-Joins two B-spline curves at selected end points.
+Joins two curves at selected end points.
 
 ## Usage
 

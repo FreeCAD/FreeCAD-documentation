@@ -8,7 +8,9 @@
 
 # FEM ConstraintHeatflux/pl
 
-## Description
+
+
+## Opis
 
 This constraint specifies film heat transfer of a surface at temperature *T* and with a film coefficient *h* to the environment or sink at temperature *T~0~*. The convective heat flux *q* will satisfy: ***q = h(T -T~0~)***
 

@@ -14,6 +14,8 @@ Tutti gli oggetti nel programma hanno un [nome dell\'oggetto](Object_name/it.md)
 
 Queste informazioni si applicano a tutti gli oggetti derivati da un oggetto [App DocumentObject](App_DocumentObject/it.md) (classe `App::DocumentObject`), che essenzialmente comprende tutti gli oggetti che è possibile creare in un documento.
 
+
+
 ## Nomi
 
 There are various properties for Names:
@@ -26,6 +28,8 @@ There are various properties for Names:
 -   Once the object is deleted, its `Name` becomes available to be used by a newly created object. This means that if `Box`, `Box001`, and `Box002` exist, and we delete the first item, the next box created with [Part Box](Part_Box.md) will not be `Box003`, it will be `Box` again, because this string is available to be used once more. Notice that it is not possible to rename `Box001` or `Box002` to `Box` since their names are fixed.
 
 In summary, the `Name` essentially acts like a unique identifier (UID) for an object. Since a unique `Name` is very restrictive, all objects also have a `Label` property which allows \"renaming\" the object to something more descriptive. The internal `Name` actually remains fixed, but the user editable `Label` can be used in most situations where the `Name` would be used. In common usage in the program and the documentation, \"renaming\" means changing the `Label` and not the actual `Name` of the object.
+
+
 
 ## Etichette
 
@@ -44,13 +48,15 @@ There are various properties for Labels:
 <<Label may use UTF8 characters>>.Width
 ```
 
-### Label2 <small>(v0.19)</small> 
+### Label2
 
-This property was introduced in v0.19. It is a simple string that can contain arbitrary text, and therefore can be used for documenting (describing with more detail) the created object.
+It is a simple string that can contain arbitrary text, and therefore can be used for documenting (describing with more detail) the created object.
 
 -   In the [tree view](Tree_view.md) edit the field next to the icon, under \"Description\", by clicking on it and pressing **F2** (or rather **Return** on macOS).
 -   You can also change this property by modifying the `Label2` attribute from the [Python console](Python_console.md).
 -   The **Label2** attribute is normally hidden in the [property editor](Property_editor.md) but can be made visible by opening the context menu (right click) and selecting **Show all**.
+
+
 
 ## Script
 
@@ -76,6 +82,8 @@ obj = doc.addObject("Part::Box", "Name")
 obj.Label = "Custom label"
 ```
 
+
+
 ### Nome
 
 The `addObject` function has two basic string arguments.
@@ -86,6 +94,8 @@ The `addObject` function has two basic string arguments.
     -   The `Name` cannot start with a number; it must start with a letter or the underscore, `[_a-zA-Z]`. For example, `"123ABC"` is converted to `"_23ABC"`.
     -   The `Name` is fixed at creation time; it cannot be modified afterwards.
     -   The `Name` must be unique in the entire document. If the same `"Name"` is used, a sequential number will be appended automatically so that the resulting names are unique; for example, if `"Name"` already exists, then new objects will be called `"Name001"`, `"Name002"`, `"Name003"`, etc.
+
+
 
 ### Etichetta
 

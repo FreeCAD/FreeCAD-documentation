@@ -1,4 +1,3 @@
-# Basic TechDraw Tutorial/ru
 ---
 - TutorialInfo:/ru
    Topic:Моделирование
@@ -7,23 +6,68 @@
    Time:Меньше часа
    FCVersion:0.17 и выше
    Files:[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Разработка простой детали Basic в v0.17 Пример]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd Простое TechDraw руководство Пример]
-}}
+---
+
+# Basic TechDraw Tutorial/ru
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+</div>
+
+## Introduction
+
+
+<div class="mw-translate-fuzzy">
 
 ## Введение
 
-Это руководство для ознакомления начинающих пользователей с некоторыми инструментами и методами, используемыми в **![](images/)**. Это руководство не является полным и исчерпывающим, и многие инструменты и возможности в нем не рассматриваются. Данное руководство проведет пользователя по шагам, необходимым для создания технических чертежей из детали которая была спроектирована в [руководстве к PartDesign для начинающих](Basic_Part_Design_Tutorial/ru.md).
+Это руководство для ознакомления начинающих пользователей с некоторыми инструментами и методами, используемыми в **<img src="images/Workbench_TechDraw.svg" width=24px> [верстаке технического черчения (TechDraw)](TechDraw_Workbench/ru.md)**. Это руководство не является полным и исчерпывающим, и многие инструменты и возможности в нем не рассматриваются. Данное руководство проведет пользователя по шагам, необходимым для создания технических чертежей из детали которая была спроектирована в [руководстве к PartDesign для начинающих](Basic_Part_Design_Tutorial/ru.md).
+
+
+</div>
+
+## Before You Begin 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Прежде чем начать 
 
 Скачайте [файл содержащий 3D модель](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd) из руководства к верстаку Part Design.
 
+
+</div>
+
+## The Task 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Задание
 
 В этом руководстве вы будете использовать верстак TechDraw для создания 2D-чертежей из 3D-детали. Мы создадим несколько видов детали и добавим ключевые размеры. В этом учебном пособии не будут использоваться все функции и инструменты, доступные в верстаке TechDraw, но этого должно быть достаточно, чтобы дать пользователю этого учебного пособия базовую основу, из которой можно будет развивать свои знания и навыки.
 
+
+</div>
+
+
+
 ## Деталь
 
 ![](images/Tut17_final_refined.png )
+
+## Creating a Drawing 
+
+### Startup
+
+
+<div class="mw-translate-fuzzy">
 
 ## Создание чертежа 
 
@@ -32,6 +76,11 @@
 -   Вы можете изменить [настройки](TechDraw_Preferences/ru.md) перед началом. Смотрите примечание 1.
 -   Сначала откройте файл, содержащий нашу 3D деталь. Затем убедитесь, что вы находитесь в верстаке TechDraw.
 -   Вы будете выбирать элементы в окне Drawing и/или на панели Combo. Выбор в TechDraw работает так же, как в 3D окне. Элементы становятся желтыми, когда курсор наводится на них, чтобы выбрать, и становятся зелеными, когда они выбраны. Чтобы выбрать несколько элементов, используйте клавишу **Ctrl** при нажатии.
+
+
+</div>
+
+### Views and Dimensions 
 
 
 <div class="mw-translate-fuzzy">
@@ -77,6 +126,8 @@
 
 ![](images/TDTut_TopView2Dims.png )
 
+
+
 ### Заполнение основной надписи 
 
 Основная надпись (или штамп) содержит совокупность сведений о проектном документе. Чтобы её заполнить требуется сделать следующие действия:
@@ -113,9 +164,17 @@
 
 ![](images/TDTut_Toggle.png )
 
+### Multiple Views of a Single Part 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Несколько проекций детали 
 
 Давайте создадим чертеж с несколькими проекциями, используя другой шаблон рамки в качестве основы. Мы будем использовать First Angle, но вы можете перейти на Third Angle, если это ваше местное соглашение.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -141,9 +200,17 @@
 
 </div>
 
+### Linking Dimensions to 3D Model 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Связывание размеров с 3D-моделью 
 
 Вы заметили проблему с размером, который мы только что создали?
+
+
+</div>
 
 ![](images/TDTut_NewLengthDim.png )
 
@@ -167,6 +234,8 @@
 
 </div>
 
+
+
 ## Идём дальше 
 
 В этом руководстве вы узнали достаточно о TechDraw, чтобы создать рисунок, подобный этому (by [NormandC](User_Normandc.md)). Смотрите примечание 2.
@@ -175,20 +244,37 @@
 
 В TechDraw имеется гораздо больше функциональных возможностей, которые вы можете изучить: сечения Видов, Виды частей детали, технические знаки SVG, возможность добавления растровых изображений, штриховка областей.
 
+## Notes
+
+
+<div class="mw-translate-fuzzy">
+
 ## Примечания
 
 1.  Существует отличный набор предлагаемых предпочтений в этом [сообщении Форума](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=30083#p248189).
 2.  Этот рисунок был создан в версии v0.18. Он показывает размеры в правильном формате для изометрической проекции. В версии v0.17 выносные линии будут перпендикулярны краю, а не выровнены с осями.
 
+
+</div>
+
+
+
 ## Дополнительные ресурсы 
+
+
+<div class="mw-translate-fuzzy">
 
 -   FreeCAD файл этого упражнения для сравнения (создан в версии 0.17) [Скачать](https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd)
 
 
- {{TechDraw Tools navi}} {{Userdocnavi
----
+</div>
+
+
+{{TechDraw Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial/ru

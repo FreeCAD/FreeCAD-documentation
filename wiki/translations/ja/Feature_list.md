@@ -9,6 +9,8 @@
 
 {{TOCright}}
 
+
+
 ## リリースノート
 
 
@@ -25,6 +27,8 @@
 
 
 </div>
+
+
 
 ## 一般的な機能
 
@@ -49,6 +53,8 @@
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

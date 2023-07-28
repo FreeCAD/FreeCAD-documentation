@@ -6,7 +6,7 @@
 
 ## Overview
 
-This page describes how to compile the FreeCAD source code on MacOS X. For other platforms, see [Compiling](Compiling.md).
+This page describes how to compile the FreeCAD source code on macOS. For other platforms, see [Compiling](Compiling.md).
 
 These instructions have been tested on macOS Catalina with standard XCode 11.6. It is known to work on macOS BigSur Beta with XCode 12.0 beta. If you plan to use XCode Beta, please be sure to download Command Line Tools add on through a dmg package to workaround some libz dependency issues.
 

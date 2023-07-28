@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -24,6 +26,8 @@ Lo strumento <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;">
 
 ![](images/TechDraw_DraftView_example.png ) 
 *Elementi di Draft, cerchi e schiere, importati in una pagina di disegno TechDraw*
+
+
 
 ## Utilizzo
 
@@ -39,6 +43,8 @@ Lo strumento <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;">
 
 </div>
 
+
+
 ## Opzioni
 
 
@@ -52,6 +58,26 @@ Lo strumento <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;">
 
 
 </div>
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+### Limitazioni
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Poiché la Vista di Draft è resa all\'interno del modulo [Draft](Draft_Workbench/it.md), TechDraw ha un controllo limitato sul suo aspetto. Potrebbe essere necessario apportare delle modifiche all\'interno di Draft per ottenere la rappresentazione desiderata.
+
+
+</div>
+
+
 
 ## Proprietà
 
@@ -83,20 +109,6 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 </div>
 
 
-<div class="mw-translate-fuzzy">
-
-### Limitazioni
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Poiché la Vista di Draft è resa all\'interno del modulo [Draft](Draft_Workbench/it.md), TechDraw ha un controllo limitato sul suo aspetto. Potrebbe essere necessario apportare delle modifiche all\'interno di Draft per ottenere la rappresentazione desiderata.
-
-
-</div>
 
 ## Script
 

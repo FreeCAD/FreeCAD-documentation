@@ -142,6 +142,8 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 -   about FEM history: <https://forum.freecadweb.org/viewtopic.php?f=18&t=48646#p416389>
 -   about FEM mesher history: <https://forum.freecadweb.org/viewtopic.php?f=18&t=48733#p417627>
 
+
+
 ## Istoricul edițiilor 
 
 
@@ -175,7 +177,7 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 
 </div>
 
-\|- \| style=\"background-color: #C1E6F5;\"\| 1.0 \| - \| in development \| [Release notes 1.0](Release_notes_1.0.md) \| [head master](https://github.com/FreeCAD/FreeCAD/commits/master) \|
+\|- \| style=\"background-color: #C1E6F5;\"\| 0.21 \| - \| in development \| [Release notes 0.21](Release_notes_0.21.md) \| [head master](https://github.com/FreeCAD/FreeCAD/commits/master) \|
 
 \|- \| style=\"background-color: #D4F4B4;\"\| 0.20 \| - \| 2022-06-14 \| [Release notes 0.20](Release_notes_0.20.md) \| [release commit 0.20](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-20) \| [branch bugfixes 0.20](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-20)
 
@@ -220,6 +222,8 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 \|- \| style=\"background-color: #FDB3AB;\"\| 0.0.1 \| - \| 2002-10-29 \| Initial Upload of a version \| \|
 
 \|}
+
+
 
 
 <div class="mw-translate-fuzzy">

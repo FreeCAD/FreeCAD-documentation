@@ -10,6 +10,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -41,6 +43,8 @@ This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md
 
 
 </div>
+
+
 
 ## Utilizzo
 

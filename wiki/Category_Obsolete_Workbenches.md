@@ -5,8 +5,8 @@ This category lists obsolete workbenches, that is, workbenches that are old and 
 
 |     |     |     |
 | --- | --- | --- |
-| [Drawing Workbench](Drawing_Workbench.md) | [Drawing Workbench/ro](Drawing_Workbench/ro.md) | [Category:Drawing](Category_Drawing.md) |
-|
+| [Drawing Workbench](Drawing_Workbench.md) | [Image Workbench](Image_Workbench.md) | [Raytracing Workbench](Raytracing_Workbench.md) |
+| [Category:Drawing](Category_Drawing.md) |
 
 
 

@@ -1,104 +1,110 @@
 # Bug Triage/it
 {{TOCright}}
 
-## Why
+## Perchè
 
 
 {{ColoredParagraph|Triageː
 
-1a :  the sorting of and allocation of treatment to patients and especially battle and disaster victims according to a system of priorities designed to maximize the number of survivors
+1a: lo smistamento e l'assegnazione delle cure ai pazienti e in particolare alle vittime di battaglie e disastri secondo un sistema di priorità è progettato per massimizzare il numero di sopravvissuti
 
-1b :  the sorting of patients (as in an emergency room) according to the urgency of their need for care
+1b : lo smistamento dei pazienti (come in un pronto soccorso) è in base all'urgenza del loro bisogno di cure
 
-2:  the assigning of priority order to projects on the basis of where funds and other resources can be best used, are most needed, or are most likely to achieve success
+2: l'assegnazione di un ordine di priorità ai progetti sulla base di dove i fondi e le altre risorse possono essere utilizzati al meglio o sono più necessari o hanno maggiori probabilità di ottenere successo
 }}
 
-Bug triage is important to organize and prioritize bugs/features/patches in respect to the FreeCAD [Bug Tracker](Tracker.md). If this task is neglected a project can suffer from what is called \'Bugtracker Bloat\' which is essentially neglected tickets accumulating and rotting. Triage also helps to identify duplicate tickets that have a tendency to accumulate especially if there is a long standing unresolved issue that the FC team is well aware of but doesn\'t have the resources for whatever reason to fix at the time.
+La valutazione dei bug è importante per organizzare e dare priorità a bug/funzionalità/patch rispetto al [Bug Tracker](Tracker/it.md) di FreeCAD. Se questa attività viene trascurata, un progetto può soffrire di quello che viene chiamato \"Bugtracker Bloat\", che è essenzialmente l\'accumulo e la decomposizione dei ticket trascurati. Il triage aiuta anche a identificare i ticket duplicati che hanno la tendenza ad accumularsi, soprattutto se c\'è un problema irrisolto di lunga data di cui il team FC è ben consapevole ma non ha le risorse per qualsiasi motivo per risolverlo in quel momento.
 
-## How to Triage 
 
-### Ticket Status 
+
+## Come eseguire il triage 
+
+
+
+### Stato del Ticket 
 
 #### New
 
-Per MantisBT docsː {{ColoredText|This is the landing status for new issues. Issues stay in this status until they areː assigned, acknowledged, confirmed or resolved. }}
+Per documenti MantisBTː {{ColoredText|Questo è lo stato di atterraggio per i nuovi problemi. I problemi rimangono in questo stato finché non vengono assegnati, riconosciuti, confermati o risolti. }}
 
-In other words, **NEW** status indicates several thingsː
+In altre parole, lo stato **NEW** indica diverse coseː
 
-1.  Ticket hasn\'t been confirmed.
-2.  Ticket is still in process, i.e. Triage/Devs still evaluating/clarifying details of ticket from OP.
-3.  FreeCAD team hasn\'t decided what to do with this ticket yet.
+1.  Il ticket non è stato confermato.
+2.  Il ticket è ancora in corso, ovvero Triage/Sviluppatori stanno ancora valutando/chiarendo i dettagli del ticket dall\'OP.
+3.  Il team di FreeCAD non ha ancora deciso cosa fare con questo ticket.
 
-All current [open FreeCAD tickets with **NEW** status](https://freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=10&hide_status=80).
+Tutti i [ticket di FreeCAD vengono aperti con lo stato **NEW**](https://freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=10&hide_status=80).
 
 #### Acknowledged
 
 #### Feedback
 
-Tickets get designated this status when OP is being requested to provide more information.
+I ticket vengono contrassegnati con questo stato quando all\'OP viene richiesto di fornire ulteriori informazioni.
 
-The ticket is pending based on the participation of OP. For exampleː the ticket is missing FC version info; or perhaps a certain 3rd party library name or version is required etc\... Devs need to set this status whenever replying to OP in order to indicate that the ticket is pending. This is important due to the possibilit that OP neglects to respond which has a high probability for the ticket to \'rot\' in the tracker.
+Il ticket è in sospeso in base alla partecipazione di OP. Ad esempioː nel ticket mancano le informazioni sulla versione FC; o forse è richiesto un nome o una versione di una libreria di terze parti ecc \... Gli sviluppatori devono impostare questo stato ogni volta che rispondono a OP per indicare che il ticket è in sospeso. Questo è importante a causa della possibilità che OP trascuri di rispondere, il che ha un\'alta probabilità che il ticket \"marcisca\" nel tracker.
 
-When OP responds the ticket status changes back to **New** automatically. Then ticket needs to be re-examined to decide what is needed.
+Quando l\'OP risponde, lo stato del ticket torna automaticamente a **Nuovo**. Quindi il ticket deve essere riesaminato per decidere cosa è necessario.
 
-Further discussion on this topic in the [FreeCAD forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=23005).
+Ulteriori discussioni su questo argomento nel [forum di FreeCAD](https://forum.freecadweb.org/viewtopic.php?f=10&t=23005).
 
-All current [open FreeCAD tickets with **FEEDBACK** status](https://freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=20&hide_status=80) in the FC bugtracker.
+Tutti gli attuali [ticket FreeCAD aperti con stato **FEEDBACK**](https://freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=20&hide_status=80) nel bugtracker FC.
 
 #### Confirmed
 
-When a ticket is confirmed it has been eitherː
+Quando un ticket è confermato significa cheː
 
--   a bug that has been reproduced
--   a feature that has been greenlit to be considered valid.
+-   è un bug che è stato riprodotto
+-   è una caratteristica che è stata approvata per essere considerata valida.
 
-It is now ready to be assigned to or by a dev.
+Ora è pronto per essere assegnato ad uno sviluppatore.
 
-All current [open FreeCAD tickets with **CONFIRMED** status](https://freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=40&hide_status=80) in the FC tracker.
+Tutti gli attuali [ticket FreeCAD aperti con lo stato **CONFIRMED**](https://freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=40&hide_status=80) nel tracker FC.
 
 #### Assigned
 
-Self-explanatory, these tickets that have been assigned to a specific developer.
+Autoesplicativo, questi sono i ticket che sono stati assegnati ad uno sviluppatore specifico.
 
-All current [open FreeCAD tickets with **ASSIGNED** status](https://freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=50&hide_status=80) in the FC tracker.
+Tutti i [ticket aperti di FreeCAD con lo stato **ASSIGNED**](https://freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=50&hide_status=80) nel tracker FC.
 
 #### Resolved
 
-These tickets have been resolved but not closed yet, most likely because they need confirmation that the ticket has been fixed.
+Questi ticket sono stati risolti ma non ancora chiusi, molto probabilmente perché necessitano di conferma che il ticket sia stato corretto.
 
 
 
-### Ticket Resolutioɲ 
+
+
+### Risoluzione del ticket 
 
 #### Open
 
-Self-explanatory, all tickets remain as \'open\' if they are still relevant at the discretion of the FC team.
+Si spiega da sé, tutti i ticket rimangono \"aperti\" se sono ancora rilevanti a discrezione della squadra FC.
 
 #### Fixed
 
-Tickets that have been fixed.
+Ticket che sono stati sistemati.
 
 #### Unable to reproduce 
 
-Tickets deemed un-reproducible
+Ticket ritenuti non riproducibili.
 
 #### Duplicate
 
-Tickets that are or have a duplicate ticket.
+Ticket che sono o hanno un ticket duplicato.
 
 #### No change required 
 
-Tickets were it has been ascertained that no modifications are necessary.
+Ticket dove è stato accertato che non sono necessarie modifiche.
 
 #### Won\'t fix 
 
-FC team has rejected the ticket request for whatever reason stated.
+La squadra FC ha rifiutato la richiesta del ticket per un qualsiasi motivo indicato.
 
 #### Not fixable 
 
 #### Reopened
 
-Tickets that have been closed me then re-opened for a relevant reason. Most likely that the issue has resurfaced or wasn\'t totally fixed.
+Ticket che sono stati chiusi ma che sono stati poi riaperti per un motivo rilevante. Molto probabilmente il problema si è ripresentato o non è stato completamente risolto.
 
 #### Suspended
 
@@ -136,11 +142,11 @@ Tickets that have been closed me then re-opened for a relevant reason. Most like
 
 ## Tagging Tickets 
 
-An important methodology to track tickets by a certain subject/theme/category. It\'s important that **Existing Tags** be used to tag issues **before** new tags are created. If duplicate or superfluous tags are created the bug tracker admin is responsible to remove them and if possible retag said tickets.
+Una metodologia importante per tenere traccia dei ticket in base ad un determinato argomento/tema/categoria. È importante che vengano utilizzati **Tag esistenti** per taggare i problemi **prima** che vengano creati nuovi tag. Se vengono creati tag duplicati o superflui, l\'amministratore del bug tracker è responsabile della rimozione e, se possibile, ritaggare detti ticket.
 
-## Related
+## Pagine correlate 
 
-[Bugtracker](Tracker.md)
+[Bugtracker](Tracker/it.md)
 
 
 

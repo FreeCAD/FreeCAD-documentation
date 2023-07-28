@@ -9,6 +9,8 @@
 
 # Arch 3Views/de
 
+
+
 ## Beschreibung
 
 
@@ -16,10 +18,17 @@
 
 Er dient dazu, flache, formbasierte Ansichten aus einem [Mesh](Mesh_Workbench/de.md) basierten Objekt zu erzeugen, die von der **<img src="images/Arch_Equipment.svg" width=24px> [Arch Ausrüstung](Arch_Equipment/de.md)** Werkzeug.
 
+
+
 ## Anwendung
 
 1.  Wähle ein Netzobjekt aus.
 2.  Wähle die **<img src="images/Arch_3Views.svg" width=16px>** Schaltfläche oder **Arch** → **Utilities** → **<img src="images/Arch_3Views.svg" width=16px> [3Ansichten](Arch_3Views.md)** aus dem oberen Menü.
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -28,7 +37,23 @@ Er dient dazu, flache, formbasierte Ansichten aus einem [Mesh](Mesh_Workbench/de
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Dieses Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit der folgenden Funktion verwendet werden: 
+
+</div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
+<div class="mw-translate-fuzzy">
+
+Dieses Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit der folgenden Funktion verwendet werden:
+
+
+</div>
+
+
 ```python
 shape = createMeshView(obj, direction=FreeCAD.Vector(0, 0, -1), outeronly=False, largestonly=False)
 ```
@@ -70,15 +95,6 @@ Part.show(s3)
 Wall.ViewObject.Visibility = False
 mesh_obj.ViewObject.Visibility = False
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

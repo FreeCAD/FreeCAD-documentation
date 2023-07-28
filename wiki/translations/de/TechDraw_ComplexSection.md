@@ -2,9 +2,9 @@
 - GuiCommand:/de
    Name:TechDraw ComplexSection
    Name/de:TechDraw KomplexerSchnitt
-   MenuLocation:TechDraw → Komplexe Schnittansicht einfügen
+   MenuLocation:TechDraw → TechDraw Ansichten → Komplexe Schnittansicht einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:1.0
+   Version:0.21
    SeeAlso:[TechDraw Schnittansicht](TechDraw_SectionView/de.md), [TechDraw Ansicht](TechDraw_View/de.md), [TechDraw Ansichtengruppe](TechDraw_ProjectionGroup/de.md)
 ---
 
@@ -14,7 +14,7 @@
 
 ## Beschreibung
 
-Das Werkzeug <img alt="" src=images/TechDraw_ComplexSection.svg  style="width:24px;"> **TechDraw KomplexerSchnitt** fügt einem Zeichnungsblatt eine Schnittansicht hinzu, die auf einer vorhandenen Bauteilansicht und einem Schnittprofil basiert.
+Das Werkzeug **TechDraw KomplexerSchnitt** fügt einem Zeichnungsblatt eine Schnittansicht hinzu, die auf einer vorhandenen Bauteilansicht und einem Schnittprofil basiert.
 
 <img alt="" src=images/TechDraw_QuarterSection_example.png  style="width:350px;"> 
 *Halbschnitt, mit dem Werkzeug Komplexe Schnittansicht erstellt*
@@ -32,7 +32,7 @@ Das Werkzeug <img alt="" src=images/TechDraw_ComplexSection.svg  style="width:24
 1.  Eine Bauteilansicht und ein Profilobjekt in der [3D-Ansicht](3D_view/de.md) oder der [Baumansicht](Tree_view/de.md) auswählen. Profile sind normalerweise Skizzen, aber jedes Objekt, dessen Form in einen Draht (wire) umgewandelt werden kann, funktioniert.
 2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
     -   Die Schaltfläche **<img src="images/TechDraw_ComplexSection.svg" width=16px> [Komplexe Schnittansicht](TechDraw_ComplexSection/de.md)** drücken.
-    -   Den Menüeintrag **TechDraw → <img src="images/TechDraw_ComplexSection.svg" width=16px> Komplexe Schnittansicht** auswählen.
+    -   Den Menüeintrag **TechDraw → TechDraw Ansichten → <img src="images/TechDraw_ComplexSection.svg" width=16px> Komplexe Schnittansicht einfügen** auswählen.
 3.  Im Aufgabenbereich wird ein Dialog geöffnet, der bei der Berechnung verschiedener Eigenschaften hilft. Für die Blickrichtung werden sinnvolle Werte ermittelt, diese können aber verändert werden.
 
 <img alt="" src=images/TechDraw_ComplexSection_Taskview1.png  style="width:" height="380px;"> <img alt="" src=images/TechDraw_ComplexSection_Taskview2.png  style="width:" height="380px;">
@@ -81,7 +81,7 @@ Siehe [TechDraw Schnittansicht](TechDraw_SectionView/de#Hinweise.md)
 
 Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Werkzeug KomplexerSchnitt kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
+Eine komplexe Schnittansicht kann mit [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen erstellt werden:
 
 
 ```python
@@ -93,15 +93,23 @@ page = doc.Page
 view = doc.addObject("TechDraw::DrawViewPart", "View")
 page.addView(view)
 view.Source = box
-view.Direction = (0.0, 0.0, 1.0)
+view.Direction = (0, 0, 1)
 
 section = doc.addObject("TechDraw::DrawComplexSection", "ComplexSection")
 page.addView(section)
 section.BaseView = view
 section.CuttingToolWireObject = profile
-section.Direction = (0.0, 1.0, 0.0)
-section.SectionNormal = (-1.0, 0.0, 0.0)
+section.Direction = (0, 1, 0)
+section.SectionNormal = (-1, 0, 0)
 ```
+
+
+
+## Beispiele
+
+Für weitere Information über Schnittansichten und einige Beispiele siehe: [TechDraw Schnittbeispiele](TechDraw_Section_Examples/de.md).
+
+<img alt="" src=images/TechDraw_ExampleSection-10.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-13.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-15.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-17.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-34.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-35.png  style="width:80px;">
 
 
 

@@ -25,7 +25,7 @@ Bottom: a face extruded into a solid body.*
 
 ### Usage
 
-1.  Optionally select one object. The object must be a [Draft Line](Draft_Line.md), a [Draft Wire](Draft_Wire.md), a [Draft Arc](Draft_Arc.md) or a [Draft Circle](Draft_Line.md) (which can only be trimmed). If the selected object is closed it must have its **Make Face** property set to `False`.
+1.  Optionally select one object. The object must be a [Draft Line](Draft_Line.md), a [Draft Wire](Draft_Wire.md), a [Draft Arc](Draft_Arc.md) or a [Draft Circle](Draft_Circle.md) (which can only be trimmed). If the selected object is closed it must have its **Make Face** property set to `False`.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Trimex.svg" width=16px> [Draft Trimex](Draft_Trimex.md)** button.
     -   Select the **Modification → <img src="images/Draft_Trimex.svg" width=16px> Trimex** option from the menu.

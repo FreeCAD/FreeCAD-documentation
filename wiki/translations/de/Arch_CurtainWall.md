@@ -21,25 +21,13 @@ Dieses Werkzeug erstellt eine [Vorhangfassade](https://de.wikipedia.org/wiki/Vor
 
 Vorhangwände können aus jeder Art von bestehendem Objekt erstellt werden, wobei alle Flächen des Objekts unterteilt werden. Es funktioniert daher am besten, wenn es mit einem Objekt verwendet wird, das nur eine Fläche hat. Typischerweise würdest du zuerst eine Fläche erstellen, vorzugsweise mit genau 4 Kanten, die den Bereich repräsentiert, den du mit einer Vorhangwand füllen möchtest, und dann das Werkzeug anwenden.
 
-
-<div class="mw-translate-fuzzy">
-
 Vorhangwände können auch aus einem linearen Objekt, wie z. B. einer Linie, einem Bogen oder einer Polylinie, aufgebaut werden, wie das normale Werkzeug [Wand](Arch_Wall/de.md).
-
-
-</div>
 
 Flächen, die eine doppelte Krümmung haben, oder Flächen mit mehr als 4 Kanten funktionieren auch, aber das Ergebnis ist weniger vorhersehbar.
 
 Die Flächen werden in viereckige Facetten aufgeteilt. Wenn die 4 Punkte der Facette koplanar sind, wird eine quadratische Facette erzeugt. Wenn nicht, wird sie in zwei Dreiecke geteilt und ein diagonaler Pfosten wird hinzugefügt.
 
-
-<div class="mw-translate-fuzzy">
-
-Falls Sie eine unregelmäßige Unterteilung benötigen, ist es auch möglich, ein eigenes unterteiltes Objekt zu bauen, z. B. mit [Arch Grid/de](Arch_Grid/de.md), und die vertikale und horizontale Unterteilung der Vorhangfassade auf 1 zu setzen.
-
-
-</div>
+Falls Sie eine unregelmäßige Unterteilung benötigen, ist es auch möglich, ein eigenes unterteiltes Objekt zu bauen, z. B. mit [Arch Gitter](Arch_Grid/de.md), und die vertikale und horizontale Unterteilung der Vorhangfassade auf 1 zu setzen.
 
 Du kannst das Vorhangwand Werkzeug auch ohne ein ausgewähltes Objekt verwenden. In diesem Fall kannst du eine Grundlinie zeichnen, die dann vertikal extrudiert wird, um die Fläche zu bilden, auf der die Vorhangwand aufgebaut wird.
 
@@ -51,32 +39,20 @@ Du kannst das Vorhangwand Werkzeug auch ohne ein ausgewähltes Objekt verwenden.
 
 ### Zeichnung einer Vorhangwand von Grund auf 
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Stelle sicher, dass nichts ausgewählt ist
-2.  Drücke die Schaltfläche **<img src="images/Arch_CurtainWall.svg" width=16px> [[Arch CurtainWall/de]]
+2.  Drücke die Schaltfläche **<img src="images/Arch_CurtainWall.svg" width=16px> [Arch Vorhangfassade](Arch_CurtainWall/de.md)
 ** oder drücke die Tasten **C** und dann **W**
-3.  Klicke auf einen ersten Punkt in der 3D Ansicht oder gib eine Koordinate ein
-4.  Klicke auf einen zweiten Punkt in der 3D Ansicht oder gib eine Koordinate ein
+3.  Klicke auf einen ersten Punkt in der 3D-Ansicht oder gib eine Koordinate ein
+4.  Klicke auf einen zweiten Punkt in der 3D-Ansicht oder gib eine Koordinate ein
 5.  Stelle die benötigten Eigenschaften ein
-
-
-</div>
 
 
 
 ### Erstellung einer Vorhangwand aus einem gewählten Objekt 
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Wähle ein oder mehrere Basisgeometrieobjekte (Entwurfsobjekt, Skizze, usw.).
-2.  Drücke die **<img src="images/Arch_CurtainWall.svg" width=16px> [[Arch CurtainWall/de]]**, oder drücke die Tasten **C** und dann **W**.
+2.  Drücke die **<img src="images/Arch_CurtainWall.svg" width=16px> [Arch Vorhangfassade](Arch_CurtainWall/de.md)**, oder drücke die Tasten **C** und dann **W**.
 3.  Stelle die benötigten Eigenschaften ein.
-
-
-</div>
 
 
 

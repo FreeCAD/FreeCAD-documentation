@@ -15,19 +15,25 @@
 
 ## Introduction
 
-Cet exemple est destiné à montrer à quoi ressemble une simple analyse par éléments finis (**FEA**) dans l\'[atelier FEM](FEM_Workbench/fr.md) de FreeCAD et comment les résultats peuvent être visualisés. Il illustre comment déclencher un FEA et comment changer la valeur et la direction de la charge. De plus, étant donné que le fichier d\'exemple est fourni avec toute installation de FreeCAD, c\'est une vérification utile et facile à exécuter dans le but de vérifier si l\'Atelier FEM est correctement configuré.
+Cet exemple est destiné à montrer à quoi ressemble une simple analyse par éléments finis (**FEA**) dans l\'[atelier FEM](FEM_Workbench/fr.md) de FreeCAD et comment les résultats peuvent être visualisés. Il illustre comment déclencher une FEA et comment changer la valeur et la direction de la charge. De plus, étant donné que le fichier d\'exemple est fourni avec toute installation de FreeCAD, c\'est une vérification utile et facile à exécuter dans le but de vérifier que l\'atelier FEM est correctement configuré.
 
 <img alt="" src=images/FEM_example01_pic10.png  style="width:700px;">
+
+
 
 ## Conditions
 
 -   Une version compatible de FreeCAD désignée dans l\'aperçu du tutoriel.
 
-    :   Utilisez la **Aide → À propos de FreeCAD** pour voir la version de FreeCAD installée
+    :   Utilisez **Aide → À propos de FreeCAD** pour voir la version de FreeCAD installée
 -   Aucun logiciel externe n\'est nécessaire pour charger le fichier d\'exemple, afficher le maillage et la géométrie ainsi que pour visualiser les résultats.
--   Pour relancer le FEA, le logiciel Solver CalculiX doit être installé sur votre ordinateur. Probablement le solveur a déjà été installé avec FreeCAD. Si le solveur CalculiX n\'est pas installé, voir [FEM Installation des composants requis](FEM_Install/fr.md).
+-   Pour relancer la FEA, le solveur CalculiX doit être installé sur votre ordinateur. Probablement le solveur a déjà été installé avec FreeCAD. Si le solveur CalculiX n\'est pas installé, voir [FEM Installation des composants requis](FEM_Install/fr.md).
 
-## Configurer le fichier d\'exemple 
+
+
+## Configurer le fichier exemple 
+
+
 
 ### Charger le fichier exemple 
 
@@ -37,6 +43,8 @@ Cet exemple est destiné à montrer à quoi ressemble une simple analyse par él
 
 <img alt="" src=images/FEM_example01_pic11.png  style="width:700px;">
 
+
+
 ### Activer le conteneur d\'analyse 
 
 -   Pour travailler avec une analyse, l\'analyse doit être activée.
@@ -45,11 +53,13 @@ Cet exemple est destiné à montrer à quoi ressemble une simple analyse par él
 
 <img alt="" src=images/FEM_example01_pic12.png  style="width:700px;">
 
+
+
 ### Conteneur d\'analyse et ses objets 
 
 -   Si l\'analyse est activée, FreeCAD de lui-même basculera vers l\'atelier FEM.
 -   Il faut au moins 5 objets pour faire une analyse mécanique statique.
--   <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> conteneur d\'analyse
+-   <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> Conteneur d\'analyse
 
 1.  <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> un solveur
 2.  <img alt="" src=images/FEM_MaterialSolid.svg  style="width:24px;"> un matériau
@@ -59,7 +69,9 @@ Cet exemple est destiné à montrer à quoi ressemble une simple analyse par él
 
 -   Dans cet exemple, les résultats <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> sont déjà inclus.
 
-### Visualisation des résultats 
+
+
+### Visualiser des résultats 
 
 1.  Vérifiez que l\'analyse est activée.
 2.  Vérifiez que l\'analyse contient toujours l\'objet résultat, sinon rechargez simplement le fichier exemple.
@@ -71,10 +83,14 @@ Cet exemple est destiné à montrer à quoi ressemble une simple analyse par él
 
 <img alt="" src=images/FEM_example01_pic13.png  style="width:400px;">
 
+
+
 ### Purger les résultats 
 
 1.  Assurez-vous que l\'analyse est activée.
 2.  Pour supprimer les résultats : sélectionnez dans la barre d\'outils l\'icône <img alt="" src=images/FEM_ResultsPurge.svg  style="width:24px;"> [Purger les résultats](FEM_ResultsPurge/fr.md).
+
+
 
 ### Exécuter l\'analyse par éléments finis 
 
@@ -90,13 +106,17 @@ Cet exemple est destiné à montrer à quoi ressemble une simple analyse par él
 
 <img alt="" src=images/FEM_example01_pic14.png  style="width:400px;">
 
-### Exécuter l\'analyse par éléments finis rapidement 
+
+
+### Exécuter l\'analyse rapide par éléments finis 
 
 -   Dans l\'arborescence, sélectionnez l\'objet solveur <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> de l\'analyse <img alt="" src=images/FEM_Analysis.svg  style="width:24px;">.
 -   Dans la barre d\'outils de l\'icône, cliquez sur <img alt="" src=images/FEM_SolverRun.svg  style="width:24px;"> [Lancer les calculs du solveur](FEM_SolverRun/fr.md).
 -   Le fichier de saisie Calculix sera écrit, CalculiX sera déclenché et l\'objet résultant devrait être créé.
 
-### Modification de la direction de la charge et de sa valeur 
+
+
+### Modifier la direction de la charge et la valeur de la charge 
 
 -   Dans la [vue en arborescence](Tree_view/fr.md), développez <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> CCX_Results et sélectionnez l\'objet <img alt="" src=images/FEM_MeshResult.svg  style="width:24px;"> ResultMesh et appuyez sur la touche **Espace**.
     -   **Résultat :** la visibilité du maillage FEM est désactivée. Le modèle géométrique est toujours visible.
@@ -116,16 +136,20 @@ Cet exemple est destiné à montrer à quoi ressemble une simple analyse par él
 
 <img alt="" src=images/FEM_example01_pic16.png  style="width:400px;">
 
-## Et ensuite? 
+
+
+## Et ensuite ? 
 
 -   Nous avons maintenant terminé avec le flux de travail de base pour l\'[atelier FEM](FEM_Workbench/fr.md).
 -   Vous êtes maintenant prêt à faire le deuxième [FEM Tutoriel](FEM_tutorial/fr.md).
 -   Nous allons créer le cantilever de CalculiX par nous-mêmes et comparer les résultats avec la théorie des poutres.
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM CalculiX Cantilever 3D/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CalculiX Cantilever 3D/fr

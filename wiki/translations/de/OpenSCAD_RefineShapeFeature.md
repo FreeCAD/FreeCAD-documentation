@@ -1,57 +1,45 @@
 ---
 - GuiCommand:/de
    Name:OpenSCAD RefineShapeFeature
-   Name/de:OpenSCAD RefineShapeFeature
-   MenuLocation:OpenSCAD → Form Feature verfeinern
+   Name/de:OpenSCAD FormelementAufbereiten
+   MenuLocation:OpenSCAD → Formelement aufbereiten
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
 ---
 
 # OpenSCAD RefineShapeFeature/de
 
+
+
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Entfernt unnötige Linien. Nach einer Booleschen Operation bleiben einige Linien sichtbar, die zur vorigen Form gehören. Dieses Werkzeug erstellt eine Kopie des bereinigten Körpers.
-
-
-</div>
+Entfernt unnötige Linien. Nach einer Booleschen Operation bleiben einige Linien sichtbar, die zu den vorherigen Formen gehören. Dieses Werkzeug erstellt eine Kopie des Aufbereiteten Körpers.
 
 ![](images/PartRefineShape_it.png )
 
+
+
 ## Anwendung
 
-1.  Wähle die zu bereinigende Form.
-2.  Klicke **OpenSCAD → Form Feature verfeinern** im Top-Menü.
+1.  Die zu bereinigende Form auswählen.
+2.  Den Menüeintrag **OpenSCAD → Formelement aufbereiten** auswählen.
 
--   Ein Eltern-Objekt wird erstellt und komplett bereinigt, das Original-Objekt wird verborgen gerendert.
+-   Ein Eltern-Objekt wird erstellt und komplett aufbereitet, das Original-Objekt wird ausgeblendet gerendert.
+
+
 
 ## Einschränkungen
 
-
-<div class="mw-translate-fuzzy">
-
-## Beschränkungen
-
--   Der Bereinigungsalgorithmus arbeitet nur mit Hüllen. Dazu iteriert er über die Hüllen des ausgewählten Objektes und erstellt für jede Hülle eine neue Hülle mit zusammengelegten Flächen, wo immer es möglich ist. Das bedeutet, wenn das ausgewählte Objekt nur eine Fläche, ein Kantenzug, eine Kante oder ein Punkt ist, macht der Algorithmus nichts.
--   Anders als das [Form Feature verfeinern](OpenSCAD_RefineShapeFeature/de.md) im Arbeitsbereich OpenSCAD **wird** diese Funktion die erzeugte Hülle ändern, wenn sich die Elternhülle ändert.
+-   Der Aufbereitungsalgorithmus arbeitet nur mit Hüllflächen. Dazu iteriert er über die Hüllflächen der Eingangsform und erstellt für jede Hüllfläche eine neue Hüllfläche mit verbundenen Flächen, wo immer es möglich ist. Das bedeutet, wenn das ausgewählte Objekt nur eine Fläche, ein Kantenzug, eine Kante oder ein Punkt ist, macht der Algorithmus nichts.
+-   Im Gegensatz zum <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Part FormAufbereiten](Part_RefineShape/de.md) im Arbeitsbereich <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) **wird** dieses Element aktualisiert, wenn sich die zugrundeliegenden Formen ändern.
 
 
-</div>
 
 ## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
--   die Funktion wird nicht die existierende Form verändern, sondern eine neue Form erstellen
--   die Funktion wird normalerweise als letzter Schritt in der Modellierungshistorie verwendet
--   die Funktion kann helfen, schwierige Rundungen zu erstellen
--   die Funktion ist gedacht, um bei 3D-Druckern das Drucken unerwünschte Kanten zu vermeiden
-
-
-</div>
+-   Die Funktion wird nicht die vorhandene Form verändern, sondern eine neue Form erstellen.
+-   Die Funktion wird normalerweise als letzter Schritt im Modellierungsablauf verwendet.
+-   Die Funktion kann helfen, schwierige Rundungen zu erstellen.
+-   Die Funktion ist dafür gedacht, bei 3D-Druckern das Drucken unerwünschte Kanten zu vermeiden.
 
 
 

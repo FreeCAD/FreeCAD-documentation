@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionAreaAnnotation.svg  style="width:24px;"> **TechDraw Surface** calcule la surface des faces sélectionnées et insère une annotation de surface. L\'outil ne peut pas gérer les faces avec des bords courbes.
+L\'outil **TechDraw Surface** calcule la surface des faces sélectionnées et insère une annotation de surface. L\'outil ne peut pas gérer les faces avec des bords courbes.
 
 <img alt="" src=images/TechDraw_ExtensionAreaAnnotationExample.png  style="width:400px;"> 
 *A droite, l'annotation de la zone insérée*
+
+
 
 ## Utilisation
 

@@ -8,12 +8,16 @@
 
 # Std CascadeWindows/ru
 
+
+
 ## Описание
 
 The **Std CascadeWindows** command rearranges the windows in the [Main view area](Main_view_area.md) so that they are all visible but do overlap. The result is determined by the order in which the windows were last activated.
 
 <img alt="" src=images/Std_CascadeWindows_example.png  style="width:600px;"> 
 *Main view area with three cascaded windows*
+
+
 
 ## Применение
 

@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Описание
 
 This constraint constrains the value of the radius of a circle or arc to have a specific value. If more than one circle or arc is selected before launching the command :
@@ -29,6 +31,8 @@ NB : B-spline poles can\'t be mixed with other object type in the selection
 
 ![](images/Sketcher_ConstrainRadius_example.png )
 
+
+
 ## Применение
 
 1.  Pick one or more circles or arcs.
@@ -37,6 +41,8 @@ NB : B-spline poles can\'t be mixed with other object type in the selection
 4.  Optionally the dimension label and line can be moved and rotated in the 3D view by clicking on the value and dragging while keeping the left mouse button pressed.
 
 **Note:** the constraint tool can also be started with no prior selection. By default the command will be in continue mode to create new constraints; press the right mouse button or **Esc** once to quit the command.
+
+
 
 ## Программирование
 

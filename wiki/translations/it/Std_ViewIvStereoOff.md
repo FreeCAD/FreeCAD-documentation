@@ -9,13 +9,19 @@
 
 # Std ViewIvStereoOff/it
 
+
+
 ## Descrizione
 
-The **Std ViewIvStereoOff** command switches off stereo mode in the active [3D view](3D_view.md).
+Il comando **Stereo off** disattiva la modalità stereo nella [Vista 3D](3D_view/it.md) attiva.
+
+
 
 ## Utilizzo
 
-1.  Select the **View → Stereo → <img src="images/Std_ViewIvStereoOff.svg" width=16px> Stereo Off** option from the menu.
+1.  Selezionare l\'opzione **Visualizza → Stereo → <img src="images/Std_ViewIvStereoOff.svg" width=16px> Stereo off** dal menu.
+
+
 
 ## Script
 
@@ -24,7 +30,7 @@ The **Std ViewIvStereoOff** command switches off stereo mode in the active [3D v
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
-To change the view to non-stereo use the `setStereoType` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Per modificare la visualizzazione in stereo off utilizzare il metodo `setStereoType` dell\'oggetto ActiveView. Questo metodo non è disponibile se FreeCAD è in modalità console.
 
 
 ```python
@@ -35,13 +41,7 @@ FreeCADGui.ActiveDocument.ActiveView.getStereoType()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

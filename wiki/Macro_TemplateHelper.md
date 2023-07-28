@@ -3,8 +3,9 @@
 |Name=Macro TemplateHelper
 |Description=This macro generates a template to use with the TechDraw workbench and adds a new page with a new template object to the active dokument, ready to place views on it. And it can supply a bill of material (BOM), if wanted.
 |Author=FBXL5
-|Date=2021-06-25
+|Date=2023-06-13
 |Version=00.01
+|SeeAlso=[TechDraw TemplateGenerator](TechDraw_TemplateGenerator.md)
 }}
 
 ## Description
@@ -136,17 +137,17 @@ I have tried to follow this naming rule:
 __Name__= "Template Helper"
 __Comment__ = "Template generator, Page adder, BOM provider"
 __Author__ = "FBXL5"
-__Version__ = "00.01.00"
-__Date__    = "2021-06-20"
+__Version__ = "00.01.02"
+__Date__    = "2023-06-13"
 __License__ = "LGPL-2.0-or-later as FreeCAD"
 __Web__ = ""
-__Wiki__ = "http://www.freecadweb.org/wiki/index.php?title=Macro_TemplateHelper"
+__Wiki__ = "http://www.freecad.org/wiki/index.php?title=Macro_TemplateHelper"
 __Icon__  = ""
 __IconW__  = ""
 __Help__ = "Start the macro and see what happens"
 __Status__ = "Alpha"
 __Requires__ = "FreeCAD >= 0.19 + Python3 "
-__Communication__ = "http://www.freecadweb.org/wiki/index.php?title=User: FBXL5"
+__Communication__ = "http://www.freecad.org/wiki/index.php?title=User: FBXL5"
 __Files__ = ""
 
 # imports and constants
@@ -605,14 +606,16 @@ def FCeditext(entryName,posX,posY,strValue):
 
 #- Create a file and insert a header line
 def createSvgFile(file_path):
-    t=open(file_path,"w") # w = write, overwrites existing files
+    t=open(file_path, "w") # w = write, overwrites existing files
     t.write("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>")
     t.close
 
 #- Create opening svg-tag
 #   Namespace section
 def startSvg(file_path):
-    t=open(file_path,"a") # a = append, new lines are added at the end of an existing file
+    t=open(file_path, "a", encoding="utf-8")
+    # a = append, new lines are added at the end of an existing file
+    # encoding="utf-8", helps with special characters if the Python interpreter is in ASCII mode
     t.write("\n"+"\n")
     t.write("<svg\n")
     t.write("  xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"\n")
@@ -623,7 +626,7 @@ def createSheet(file_path):
     #- set sheet dimensions
     sWidth  = sheet_format.width
     sHeight = sheet_format.height
-    t=open(file_path,"a")
+    t=open(file_path, "a", encoding="utf-8")
     t.write("  width =\""+sWidth+"mm\"\n")
     t.write("  height=\""+sHeight+"mm\"\n")
     t.write("  viewBox=\"0 0 "+sWidth+" "+sHeight+"\">\n")
@@ -632,13 +635,13 @@ def createSheet(file_path):
 
 #- Create closing svg-tag
 def endSvg(file_path):
-    t=open(file_path,"a")
+    t=open(file_path, "a", encoding="utf-8")
     t.write("</svg>")
     t.close
 
 #- Frame creation
 def createFrame(file_path):
-    t=open(file_path,"a")
+    t=open(file_path, "a", encoding="utf-8")
     t.write("    <g id=\"drawing-frame\"\n")
     t.write("      style=\"fill:none;stroke:#000000;stroke-width:0.5;\
 stroke-linecap:round\">\n")
@@ -685,7 +688,7 @@ stroke-linecap:round\">\n")
 
 #- Indexes and folding marks creation
 def createDecoration(file_path):
-    t = open(file_path,"a")
+    t = open(file_path, "a", encoding="utf-8")
     t.write("    <g id=\"index-separators\"\n")
     t.write("      style=\"fill:none;stroke:#000000;stroke-width:0.25;\
 stroke-linecap:round\">\n")
@@ -897,7 +900,7 @@ def createTitleBlock(file_path):
     tbX=str(int(sWidth)-dAR-180) # 180 according to DIN EN ISO 7200
     tbY=str(int(sHeight)-dAB)
     #- group to move allelements in one step
-    t=open(file_path,"a")
+    t=open(file_path, "a", encoding="utf-8")
     t.write("    <g id=\"titleblock\"\n")
     t.write("      transform=\"translate("+tbX+","+tbY+")\">\n")
     t.write("      \n\n")
@@ -971,7 +974,7 @@ def createEditableText(file_path):
     edX=int(sWidth)-dAR-180 # 180 according to DIN EN ISO 7200
     edY=int(sHeight)-dAB
 
-    t=open(file_path,"a")
+    t=open(file_path, "a", encoding="utf-8")
     t.write("    <g id=\"titleblock-editable-owner\"\n")
     t.write("      style=\"font-size:3.5;text-anchor:start;fill:#0000d0;\
 font-family:osifont\">\n")
@@ -1034,7 +1037,7 @@ def createFreecadLogo(file_path):
     dAB = borders.drawing_area_bottom
     dAR = borders.drawing_area_right
 
-    t=open(file_path,"a")
+    t=open(file_path, "a", encoding="utf-8")
     t.write("    <g id=\"freecad-logo-F\"\n")
     t.write("      style=\"display:inline\"\n")
     t.write("      stroke=\"#000000\"\n")
@@ -1092,7 +1095,7 @@ def createProjectionSymbol(file_path):
         top_offset  =  "3.5"
         side_offset = "-3.5"
 
-    t=open(file_path,"a")
+    t=open(file_path, "a", encoding="utf-8")
     t.write("    <g id=\"Projection-symbol\"\n")
     t.write("      stroke=\"#000000\"\n")
     t.write("      stroke-width=\"0.18\"\n")
@@ -1148,7 +1151,7 @@ def createBOMLines(file_path,bom_rows):
     stX=int(sWidth)-dAR-180
     stY=int(sHeight)-dAB-63
 
-    t=open(file_path,"a")
+    t=open(file_path, "a", encoding="utf-8")
     t.write("    <g id=\"bill-of-material\">\n")
     # BOM base line
     t.write("      <g style=\"stroke:#000000;stroke-width:0.35;stroke-linecap:round\">\n")

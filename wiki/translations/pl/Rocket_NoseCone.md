@@ -8,9 +8,13 @@
 
 # Rocket NoseCone/pl
 
+
+
 ## Opis
 
 Zakończenia czubka mają różne kształty i rozmiary, a większość z nich trudno jest modelować bez programowania. Dla wielu konstruktorów rakiet jest to proces niewykonalny. To polecenie umożliwia tworzenie stożków czołowych za pomocą prostych właściwości w połączeniu z wyspecjalizowanym oknem dialogowym zadań.
+
+
 
 ## Użycie
 

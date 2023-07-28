@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -44,6 +46,8 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -80,6 +84,8 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 
 *Pannello Azioni per lo strumento Armatura ad U di Arch*
+
+
 
 ## Proprietà
 
@@ -151,6 +157,8 @@ Rebar = makeUShapeRebar(f_cover, b_cover, r_cover, l_cover,
 
 
 </div>
+
+
 
 ### Esempio
 

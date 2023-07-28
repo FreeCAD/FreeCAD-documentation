@@ -23,7 +23,7 @@ Generic options:
 Configuration:
 
  -l [ --write-log ]        Writes a log file to:
-                           $HOME/.FreeCAD/FreeCAD.log (Linux)
+                           $HOME/.local/share/FreeCAD/FreeCAD.log (Linux)
                            $HOME/Library/Application\ Support/FreeCAD/FreeCAD.log (macOS)
                            %APPDATA%\FreeCAD\FreeCAD.log (Windows)
  --log-file arg            Unlike to --write-log this allows to log to an 
@@ -38,6 +38,8 @@ Configuration:
 ## Generating a Backtrace 
 
 If you are running a version of FreeCAD from the bleeding edge of the development curve, it may \"crash\". You can help solve such problems by providing the developers with a \"backtrace\". To do this, you need to be running a \"debug build\" of the software. \"Debug build\" is a parameter that is set at compile time, so you\'ll either need to compile FreeCAD yourself, or obtain a pre-compiled \"debug\" version.
+
+
 
 ### Za Linux 
 

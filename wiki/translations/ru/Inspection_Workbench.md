@@ -1,4 +1,13 @@
-# <img alt="Логотип верстака Inspection" src=images/Workbench_Inspection.svg  style="width:64px;"> Inspection Workbench/ru
+# Inspection Workbench/ru
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+<img alt="Логотип верстака Inspection" src=images/Workbench_Inspection.svg  style="width:128px;">
 
 ## Introduction
 
@@ -13,6 +22,8 @@
 </div>
 
 <img alt="Результат использования верстака" src=images/InspectionEx.png  style="width:500px;">
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -31,6 +42,15 @@
 -   You will get a colored image showing the deviation between the two shapes.
 
 В качестве альтернативы, для сравнения двух фигур можно использовать макрос <img alt="" src=images/HighlightDifference.png  style="width:24px;"> [HighlightDifference](Macro_HighlightDifference.md).
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

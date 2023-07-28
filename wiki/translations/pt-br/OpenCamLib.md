@@ -1,6 +1,8 @@
 # OpenCamLib/pt-br
 {{TOCright}}
 
+
+
 ## Descrição
 
 OpenCamLib (OCL) is an open source library aiming to provide computer aided manufacturing (CAM) algorithms. FreeCAD uses OCL in the experimental **<img src="images/Path_Surface.svg" width=24px> [3D Surface](Path_Surface.md)** path operations and other experimental features.
@@ -8,6 +10,8 @@ OpenCamLib (OCL) is an open source library aiming to provide computer aided manu
 Github: <https://github.com/aewallin/opencamlib>
 
 Website: <http://www.anderswallin.net/CAM/>
+
+
 
 ## Instalando
 
@@ -44,6 +48,8 @@ The repository is [here](https://github.com/aewallin/opencamlib) and contains ba
 
 Before beginning installation, or during the installation process, you will probably find you need to install some additional packages:
 
+#### Ubuntu/Debian
+
 For example: {{Code|lang=bash|code=
 sudo apt install cmake
 sudo apt install libboost-program-options-dev
@@ -55,6 +61,18 @@ sudo apt-get install texlive-full
 Note: the \"libboost-program-options-dev\" may be substituted with \"libboost-all-dev\".
 
 If you are struggling, carefully review any error messages you get during the cmake and make phases as you may need to install additional packages.
+
+#### Archlinux
+
+1.  Install OpenCamLib from the [AUR package](https://aur.archlinux.org/packages/opencamlib-git).
+2.  Then run the following code snippet inside FreeCAD\'s [Python console](Python_console.md)
+
+
+{{Code|lang=bash|code=
+import sys
+sys.path.append('/usr/opencamlib/')
+import ocl
+}}
 
 #### Python 3 
 

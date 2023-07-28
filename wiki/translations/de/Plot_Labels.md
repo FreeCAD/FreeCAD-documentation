@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/de
    Name:Plot Labels
-   Name/de:Plot Labels
+   Name/de:Plot Bezeichnungen
    MenuLocation:Plot → Set Labels‏‎
    Workbenches:[Plot](Plot_Workbench/de.md)
 ---
@@ -9,13 +9,14 @@
 # Plot Labels/de
 
 
-</div>
 
 ## Beschreibung
 
-This tool allows the user to edit the title and axes labels, as well as their font sizes.
+Dieses Werkzeug ermöglicht dem Anwender die Benennung und die Bezeichnungen der Achsen sowie deren Schrifthöhen zu bearbeiten.
 
 <img alt="" src=images/Plot_MultiAxes_Example.png  style="width:600px;">
+
+
 
 ## Anwendung
 
@@ -23,6 +24,8 @@ Select the plot tab that you want to edit, and run this tool. In case of multi-a
 
 ![Plot axes selector](images/Plot_Axes_Active.png ) 
 *Selector for the set of axes to de edited*
+
+
 
 ## Optionen
 

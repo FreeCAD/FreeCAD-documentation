@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name:TechDraw PageDefault
-   Name/pl:Rysunek Techniczny: Wstaw nową domyślna stronę rysunku
-   MenuLocation:Rysunek Techniczny → Wstaw nową domyślna stronę rysunku
+   Name/pl:Rysunek Techniczny: Wstaw nową domyślną stronę rysunku
+   MenuLocation:Rysunek Techniczny → Strona → Wstaw nową domyślną stronę rysunku
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso:[Wstaw nową domyślna stronę rysunku](TechDraw_PageTemplate/pl.md), [Szablony](TechDraw_Templates/pl.md)
+   SeeAlso:[Wstaw nową stronę przy użyciu szablonu](TechDraw_PageTemplate/pl.md), [Szablony](TechDraw_Templates/pl.md)
 ---
 
 # TechDraw PageDefault/pl
@@ -16,19 +16,22 @@
 Narzędzie **Wstaw nową domyślna stronę rysunku** tworzy nowy obiekt Strony używając pliku szablonu określonego w [Ustawieniach](TechDraw_Preferences/pl.md) dla środowiska pracy Rysunek Techniczny.
 
 <img alt="" src=images/A4_LandscapeTD.svg  style="width:400px;"> 
-*Domyślny szablon dołączony do środowiska pracy Rysunek Techniczny: Strona A4 w orientacji poziomej, z edytowalnymi polami tekstowymi*
+*Domyślny szablon dołączony do środowiska pracy Rysunek Techniczny: Strona A4 w orientacji poziomej, A4_LandscapeTD.svg*
 
 
 
 ## Użycie
 
--   Naciśnij przycisk **<img src="images/TechDraw_PageDefault.svg" width=16px> [Wstaw nową domyślna stronę rysunku](TechDraw_PageDefault/pl.md)** *(Musi istnieć aktywny dokument)*.
+1.  Wymagany jest aktywny dokument.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_PageDefault.svg" width=16px> [Wstaw nową domyślna stronę rysunku](TechDraw_PageDefault/pl.md)**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Strona → <img src="images/TechDraw_PageDefault.svg" width=16px> Wstaw nową domyślna stronę rysunku**.
 
 
 
 ## Uwagi
 
--   Jeśli strona jest oznaczona jako \"nie aktualizuj\" poprzez właściwość K*Utrzymuj aktualizację* lub ustawienie w Preferencjach, będzie ona ignorować zmiany w modelu 3D. Możesz zauważyć anomalie *(brakująca geometria, brakujące wartości wymiarów, itp.)* w wyglądzie strony. Poprawią się one po aktualizacji Strony za pomocą narzędzia [Przerysuj stronę](TechDraw_RedrawPage/pl.md). Strona będzie miała tę ikonę <img alt="" src=images/TechDraw_Tree_Page_Unsync.svg  style="width:24px;"> w drzewie podczas zawieszenia aktualizacji. To ustawienie wpływa również na proces uruchamiania. Jeśli strona jest zaznaczona jako \"nie aktualizuj\" nie będzie rysowana przy starcie programu.
+-   Jeśli strona jest oznaczona jako \"nie aktualizuj na bieżąco\" za pomocą właściwości **Aktualizuj na bieżąco**, opcji **Włącz / wyłącz automatyczną aktualizację** z menu kontekstowego okna lub ustawienia w Preferencjach, będzie ona ignorować zmiany w modelu 3D. Możesz zauważyć anomalie (brakująca geometria, brakujące wartości wymiarów itp.) w wyglądzie strony. Zostaną one skorygowane, gdy strona zostanie zaktualizowana za pomocą narzędzia [Przerysuj stronę](TechDraw_RedrawPage/pl.md). Strona będzie miała tę ikonę <img alt="" src=images/TechDraw_Tree_Page_Unsync.svg  style="width:24px;"> w [Widoku drzewa](Tree_view/pl.md) podczas wstrzymania aktualizacji. To ustawienie wpływa również na proces uruchamiania. Jeśli strona jest oznaczona jako \"nie aktualizuj\", nie zostanie ona rysowana podczas uruchamiania programu.
 
 -   Jeśli domyślny szablon nie został określony w pliku konfiguracyjnym użytkownika `user.cfg`, narzędzie spróbuje:
 
@@ -59,7 +62,7 @@ Narzędzie **Wstaw nową domyślna stronę rysunku** tworzy nowy obiekt Strony u
 ### Dane
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Typ projekcji**: Domyślny typ projekcji *(kąt pierwszy lub trzeci)* dla tej strony.
 
@@ -85,48 +88,13 @@ Narzędzie **Wstaw nową domyślna stronę rysunku** tworzy nowy obiekt Strony u
 
 -    **Pokaż siatkę**: Pokaż siatkę na Stronie. {{Version/pl|0.20}}
 
--    **Rozstaw siatki**: Odległość między liniami siatki w mm. {{Version/pl|0.20}}
+-    **Rozstaw siatki**: Odległość między liniami siatki. {{Version/pl|0.20}}
 
 
 
 ## Tworzenie skryptów 
 
-Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
-
-Narzędzie Wstaw nową domyślna stronę rysunku może być używane w [makrodefinicjach](macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
-
-
-```python
-page = FreeCAD.ActiveDocument.addObject('TechDraw::DrawPage','Page')
-template = FreeCAD.ActiveDocument.addObject('TechDraw::DrawSVGTemplate','Template')
-template.Template = templateFileSpec
-page.Template = FreeCAD.ActiveDocument.Template
-```
-
--   Tworzy nową stronę w bieżącym dokumencie
-
-
-
-### Pola tekstowe do edycji 
-
-
-**Zobacz również:**
-
-[Rysunek Techniczny: Szablony](TechDraw_Templates/pl.md) aby uzyskać więcej informacji na temat tworzenia szablonów.
-
-Po utworzeniu nowej strony, jej atrybut `Template` przechowuje słownik `EditableTexts` zawierający nazwy edytowalnych pól *(klucze)* i ich wartości tekstowe. Skopiuj ten słownik do zmiennej, wprowadź zmiany, a następnie ponownie przypisz słownik do atrybutu `EditableTexts`, aby zobaczyć zmiany.
-
-
-```python
-page = FreeCAD.ActiveDocument.Page
-texts = page.Template.EditableTexts
-
-for key, value in texts.items():
-    print("{0} = {1}".format(key, value))
-
-texts["FC-Title"] = "The title of my page"
-page.Template.EditableTexts = texts
-```
+Zobacz informacje na stronie [Wstaw nową stronę przy użyciu szablonu](TechDraw_PageTemplate/pl#Tworzenie_skryptów.md)
 
 
 

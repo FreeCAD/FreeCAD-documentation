@@ -32,17 +32,16 @@ This page lists external addon workbenches that have a page in this wiki. Addons
 | [Rocket FinCan](Rocket_FinCan.md) | [Rocket LaunchLug](Rocket_LaunchLug.md) | [Rocket NoseCone](Rocket_NoseCone.md) |
 | [Rocket Parachute Size Calculator](Rocket_Parachute_Size_Calculator.md) | [Rocket RailButton](Rocket_RailButton.md) | [Rocket RailGuide](Rocket_RailGuide.md) |
 | [Rocket Thrust To Weight Calculator](Rocket_Thrust_To_Weight_Calculator.md) | [Rocket Transition](Rocket_Transition.md) | [Rocket Vent Hole Size Calculator](Rocket_Vent_Hole_Size_Calculator.md) |
-| [Rocket Workbench](Rocket_Workbench.md) | [Sandbox:Assembly3 Elements](Sandbox_Assembly3_Elements.md) | [Sandbox:Kinagaki](Sandbox_Kinagaki.md) |
-| [SearchBar Mod](SearchBar_Mod.md) | [SheetMetal AddBase](SheetMetal_AddBase.md) | [SheetMetal AddBend](SheetMetal_AddBend.md) |
-| [SheetMetal AddCornerRelief](SheetMetal_AddCornerRelief.md) | [SheetMetal AddFoldWall](SheetMetal_AddFoldWall.md) | [SheetMetal AddJunction](SheetMetal_AddJunction.md) |
-| [SheetMetal AddRelief](SheetMetal_AddRelief.md) | [SheetMetal AddWall](SheetMetal_AddWall.md) | [SheetMetal Examples](SheetMetal_Examples.md) |
-| [SheetMetal Extrude](SheetMetal_Extrude.md) | [SheetMetal Forming](SheetMetal_Forming.md) | [SheetMetal SketchOnSheet](SheetMetal_SketchOnSheet.md) |
-| [SheetMetal UnattendedUnfold](SheetMetal_UnattendedUnfold.md) | [SheetMetal Unfold](SheetMetal_Unfold.md) | [SheetMetal Workbench](SheetMetal_Workbench.md) |
-| [Ship Workbench](Ship_Workbench.md) | [Silk Workbench](Silk_Workbench.md) | [Stemfie Workbench](Stemfie_Workbench.md) |
-| [Symbols Library Workbench](Symbols_Library_Workbench.md) | [ThreadProfile Workbench](ThreadProfile_Workbench.md) | [Timber Workbench](Timber_Workbench.md) |
-| [WebTools Workbench](WebTools_Workbench.md) | [Wood Frame Workbench](Wood_Frame_Workbench.md) | [Workfeature Workbench](Workfeature_Workbench.md) |
-| [Category:External Workbenches](Category_External_Workbenches.md) | [Category:FCGear](Category_FCGear.md) | [Category:Macros](Category_Macros.md) |
-|
+| [Rocket Workbench](Rocket_Workbench.md) | [Sandbox:Assembly3 Elements](Sandbox_Assembly3_Elements.md) | [SearchBar Mod](SearchBar_Mod.md) |
+| [SheetMetal AddBase](SheetMetal_AddBase.md) | [SheetMetal AddBend](SheetMetal_AddBend.md) | [SheetMetal AddCornerRelief](SheetMetal_AddCornerRelief.md) |
+| [SheetMetal AddFoldWall](SheetMetal_AddFoldWall.md) | [SheetMetal AddJunction](SheetMetal_AddJunction.md) | [SheetMetal AddRelief](SheetMetal_AddRelief.md) |
+| [SheetMetal AddWall](SheetMetal_AddWall.md) | [SheetMetal Examples](SheetMetal_Examples.md) | [SheetMetal Extrude](SheetMetal_Extrude.md) |
+| [SheetMetal Forming](SheetMetal_Forming.md) | [SheetMetal SketchOnSheet](SheetMetal_SketchOnSheet.md) | [SheetMetal UnattendedUnfold](SheetMetal_UnattendedUnfold.md) |
+| [SheetMetal Unfold](SheetMetal_Unfold.md) | [SheetMetal Workbench](SheetMetal_Workbench.md) | [Ship Workbench](Ship_Workbench.md) |
+| [Silk Workbench](Silk_Workbench.md) | [Stemfie Workbench](Stemfie_Workbench.md) | [Symbols Library Workbench](Symbols_Library_Workbench.md) |
+| [ThreadProfile Workbench](ThreadProfile_Workbench.md) | [Timber Workbench](Timber_Workbench.md) | [WebTools Workbench](WebTools_Workbench.md) |
+| [Wood Frame Workbench](Wood_Frame_Workbench.md) | [Workfeature Workbench](Workfeature_Workbench.md) | [Category:External Workbenches](Category_External_Workbenches.md) |
+| [Category:FCGear](Category_FCGear.md) | [Category:Macros](Category_Macros.md) |
 
 
 

@@ -30,9 +30,13 @@ Dans l\'image, vous pouvez voir le résultat que nous obtiendrons approximativem
 -   Comment éditer les styles des séries.
 -   Comment sauvegarder votre tracé.
 
+
+
 ## Traçage des données 
 
 Pour tracer les données, vous n\'avez pas besoin de créer un nouveau document FreeCAD, allez dans la [console Python](Python_console/fr.md) et entrez les commandes ou utilisez les [macros](Macros/fr.md).
+
+
 
 ### Création d\'un document Plot 
 
@@ -54,6 +58,8 @@ Plot.figure("TrigonometricTest")
 ```
 
 Dans FreeCAD version 0.19 il est nécessaire d\'installer l\'<img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [atelier Plot](Plot_Workbench/fr.md) avec le [Gestionnaire des extensions](Std_AddonMgr/fr.md), alors qu\'à partir de la version 0.20 de FreeCAD, l\'extension externe n\'est plus nécessaire pour réaliser des tracés. Les commandes ci-dessus vont créer un nouvel onglet dans la [Zone de vue principale](Main_view_area/fr.md) appelé **TrigonometricTest**. Le document nouvellement créé possède déjà un ensemble d\'axes. Chaque document de tracé possède au moins un jeu d\'axes.
+
+
 
 ### Fonctions de dessin 
 
@@ -84,7 +90,11 @@ Plot.plot(t,c)
 
 La commande **plot** permet d\'utiliser l\'étiquette de la série comme argument, mais comme nous la modifierons plus tard à l\'aide des outils de l\'atelier Plot, nous ne transmettons pas encore cette donnée.
 
+
+
 ## Configurez Plot 
+
+
 
 ### Affichage de la grille et de la légende 
 
@@ -99,6 +109,8 @@ Vous pouvez répéter l\'action pour masquer la grille. Utilisez l\'outil [Lége
 *Afficher/masquer l'icône de l'outil de légende*
 
 Comme vous pouvez le voir, la légende est très petite et vide car nous n\'avons pas encore défini d\'étiquette de série. Dans l\'[atelier Plot](Plot_Workbench/fr.md), les séries sans étiquette ne sont pas affichées dans la légende.
+
+
 
 ### Définir l\'étiquette de la série 
 
@@ -121,9 +133,13 @@ Puisque [matplotlib](http://matplotlib.org/) prend en charge [LaTeX](http://www.
 $y = \cos \left( 2 \pi t \right)$
 ```
 
+
+
 ### Définir le style de la série 
 
 Vous pouvez définir de nombreuses propriétés de la série. Essayez de définir les propriétés montrées dans l\'image d\'exemple, en changeant les couleurs et le style de dessin de la deuxième série.
+
+
 
 ### Définir les étiquettes des axes 
 
@@ -140,6 +156,8 @@ Définir ces données :
 
 Modifiez également la taille de la police du titre et de toutes les étiquettes à 20.
 
+
+
 ## Sauvegarder le tracé 
 
 Avec l\'outil [Sauvegarde](Plot_Save/fr.md), vous pouvez enregistrer votre tracé sous forme de fichier image dans plusieurs formats.
@@ -152,9 +170,9 @@ Sélectionnez d\'abord le chemin et le nom du fichier de sortie.
 Définissez la taille de l\'image de sortie en pouces, par exemple, utilisez 11,7x8,3 pour obtenir un format **DIN A4**. DPI (Dots per inch) contrôlera la résolution de l\'image, par exemple, utilisez 100 dpi. En combinaison avec les dimensions données, vous obtiendrez une image de 1170x830 pixels.
 
 
-{{Tutorials_navi
+{{Plot_Tools_navi
 
-}} {{Plot_Tools_navi}}
+}}
 
 
 

@@ -1,18 +1,22 @@
 ---
 - GuiCommand:/ru
-   Name/ru:Ограничение коинциндентности
+   Name/ru:Ограничение наложения точек
    Name:Sketcher_ConstrainCoincident
-   MenuLocation:Sketch → Ограничения эскиза → Ограничение коинциндентности
+   MenuLocation:Sketch → Ограничения эскиза → Ограничение наложения точек
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**C**
-   SeeAlso:[Ограничение положения](Sketcher_ConstrainLock/ru.md), [Зафиксировать точку на объекте](Sketcher_ConstrainPointOnObject/ru.md)
+   SeeAlso:[Ограничение положения](Sketcher_ConstrainLock/ru.md), [Ограничить точку на объекте](Sketcher_ConstrainPointOnObject/ru.md)
 ---
 
 # Sketcher ConstrainCoincident/ru
 
+
+
 ## Описание
 
-Affixes a point onto (coincident with) one or more other points. <small>(v1.0)</small> : It acts as a concentric constraint if two or more circles, arcs, ellipses or arcs of ellipses are selected.
+Affixes a point onto (coincident with) one or more other points. <small>(v0.21)</small> : It acts as a concentric constraint if two or more circles, arcs, ellipses or arcs of ellipses are selected.
+
+
 
 ## Применение
 
@@ -34,6 +38,8 @@ The two constrained items of a [Coincident](Sketcher_ConstrainCoincident.md) con
 -   A collinear placement of two straight lines can be obtained by applying a <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> [Tangent](Sketcher_ConstrainTangent.md) constraint to them, or by combining a <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [PointOnObject](Sketcher_ConstrainPointOnObject.md) constraint and a <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> [Parallel](Sketcher_ConstrainParallel.md) constraint.
 -   Two edges can be made identical by using two <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Coincident](Sketcher_ConstrainCoincident.md) constraints, one for each pair of extremities.
 -   Two circles can be made identical by using a <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Coincident](Sketcher_ConstrainCoincident.md) constraint to merge the centers, and applying an <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> [Equal](Sketcher_ConstrainEqual.md) constraint to their edges. For arcs, this will ensure both arcs are part of the same circle, while allowing them to have different start and end points.
+
+
 
 ## Программирование
 
@@ -60,13 +66,7 @@ As the names `LineFixed` and `LineMoving` indicate, if both constrained vertices
 The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `LineFixed`, `PointOfLineFixed`, `LineMoving` and `PointOfLineMoving`, and contains further examples on how to create constraints from Python scripts.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

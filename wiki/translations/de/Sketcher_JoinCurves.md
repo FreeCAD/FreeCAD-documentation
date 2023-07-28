@@ -4,7 +4,7 @@
    Name/de:Sketcher KurvenVerbinden
    MenuLocation:Skizze → B-Spline-Werkzeuge → Kurven verbinden
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Version:1.0
+   Version:0.21
    SeeAlso:
 ---
 
@@ -14,7 +14,7 @@
 
 ## Beschreibung
 
-Verbindet zwei B-Spline-Kurven an ausgewählten Endpunkten.
+Verbindet zwei Kurven an ausgewählten Endpunkten.
 
 
 

@@ -38,7 +38,7 @@ C is the center, a the major diameter, b the minor diameter, F1 and F2 are foci.
 
 -   Apelați comanda făcând clic pe butonul unei bare de instrumente, selectând elementul de meniu sau utilizând comanda rapidă de la tastatură (trebuie să fie atribuită mai întâi în [Interface Customization](Interface_Customization.md)).
 -   Primul clic în vizualizarea 3D stabilește centrul de elipsă. Al doilea clic stabilește prima rază/semiaxă și orientarea elipsei. Al treilea clic stabilește cealaltă rază (distanța de la linia definită de primele două clicuri este a doua rază).
--   După al treilea clic, elipsa este creată, împreună cu un set de geometrie de construcție aliniată la ea (diametrul major, diametrul minor, două focare). Geometria construcției poate fi ștearăs manual dacă nu mai este necesară și este recreată mai târziu. A se vedea [Internal Alignment Constraint](Sketcher_ConstrainInternalAlignment.md) and [Sketcher Show Hide Internal Geometry](Sketcher_RestoreInternalAlignmentGeometry.md).
+-   După al treilea clic, elipsa este creată, împreună cu un set de geometrie de construcție aliniată la ea (diametrul major, diametrul minor, două focare). Geometria construcției poate fi ștearăs manual dacă nu mai este necesară și este recreată mai târziu. A se vedea [Sketcher Show Hide Internal Geometry](Sketcher_RestoreInternalAlignmentGeometry.md).
 -   Apăsând **ESC** sau făcând click pe butonul din dreapta al mouse-lui se părăsește această funcție.
 
 

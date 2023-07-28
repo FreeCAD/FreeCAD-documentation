@@ -21,6 +21,8 @@ La géométrie référencée peut être soit un objet unique (par exemple un [Pa
 <img alt="" src=images/Shapebinder_flow.png  style="width:600px;"> 
 *À partir de deux faces sélectionnées, une Forme liée est créée dans un corps encore vide. La géométrie de la Forme liée peut ensuite être utilisée comme géométrie externe dans une esquisse de ce corps.*
 
+
+
 ## Utilisation
 
 1.  [Activer le corps](PartDesign_Body/fr#Statut_actif.md), la Forme liée doit être imbriquée dedans.
@@ -49,20 +51,28 @@ La géométrie référencée peut être soit un objet unique (par exemple un [Pa
 
 Pour modifier un classeur de formes, double-cliquez dessus dans l\'arborescence, ou cliquez dessus avec le bouton droit de la souris et sélectionnez **Modifier la forme liée** dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md)
 
+
+
 ## Remarques
 
 -   Une Forme liée peut être retirée du corps dans lequel elle est imbriquée et déposée sur le nœud de document <img alt="" src=images/Document.svg  style="width:16px;"> dans l\'arborescence. Une telle Forme liée non imbriquée peut être utilisée comme une [fonction de base](PartDesign_Body/fr#Base_Feature.md) pour un nouveau corps.
 -   Une Forme liée créée à partir d\'une esquisse peut avoir une \"direction d\'outil\" opposée. Par exemple, une [Protrusion](PartDesign_Pad/fr.md) créée à partir de l\'esquisse peut s\'étendre dans la direction +Y, tandis qu\'une [Protrusion](PartDesign_Pad/fr.md), ayant les mêmes propriétés, créé à partir d\'une Forme liée s\'étend dans la direction -Y. L\'activation de la propriété (ou de la case à cocher) **Reversed** résoudra ce problème.
 
+
+
 ## PartDesign Sous forme liée vs. PartDesign Forme liée 
 
 Voir [PartDesign Sous forme liée](PartDesign_SubShapeBinder/fr#PartDesign_Sous_forme_li.C3.A9e_vs._PartDesign_Forme_li.C3.A9e.md).
+
+
 
 ## Propriétés
 
 -    **Support|LinkSubListGlobal**: support pour la géométrie.
 
 -    **Trace Support|Bool**: valeur par défaut est {{False}}. Lorsque {{True}}, la forme liée respecte les placements relatifs des pièces et des corps (en manipulant les valeurs de sa propriété cachée **Placement**).
+
+
 
 ## Exemple
 
@@ -88,7 +98,7 @@ Sélectionnez l\'esquisse dans la vue en arborescence et appuyez sur le bouton *
 3.  Dans l\'arborescence, sélectionnez l\'esquisse que nous avons utilisée pour le trou. Il est important de ne pas activer le premier corps.
 4.  Sélectionnez la fonction Forme liée.
 
-    :   Un panneau de tâches devrait s\'ouvrir. A la ligne **Objet**, le nom de notre esquisse devrait être visible. Si vous aviez sélectionné la fonction sans sélectionner l\'esquisse, vous pourriez appuyer sur **Objet** et sélectionner ensuite l\'esquisse dans la liste. Il est recommandé de la sélectionner en premier afin d\'obtenir la bonne, surtout si vous avez plusieurs esquisses avec des noms générés automatiquement Sketch001,\... La fonction **Ajouter une géométrie** n\'est pas utile pour nous, car nous voulons sélectionner toute l\'esquisse. L\'option **Ajouter une géométrie** est utilisée si seules certaines parties doivent être sélectionnées.
+    :   Un panneau de tâches devrait s\'ouvrir. A la ligne **Objet**, le nom de notre esquisse devrait être visible. Si vous aviez sélectionné la fonction sans sélectionner l\'esquisse, vous pourriez appuyer sur **Objet** et sélectionner ensuite l\'esquisse dans la liste. Il est recommandé de la sélectionner en premier afin d\'obtenir la bonne, surtout si vous avez de nombreux esquisses avec des noms générés automatiquement tels que Sketch001 et suivants. La fonction **Ajouter une géométrie** n\'est pas utile pour nous, car nous voulons sélectionner toute l\'esquisse. L\'option **Ajouter une géométrie** est utilisée si seules certaines parties doivent être sélectionnées.
 5.  Appuyez sur **OK** pour fermer le panneau des tâches et vérifier qu\'un nouvel élément a été ajouté à la vue en arborescence du second cube.
 
     :   Lorsque vous basculez la visibilité de la Forme liée, elle apparaît en jaune dans la [Vue 3D](3D_view/fr.md). Cependant, elle est sur la mauvaise position, tout comme le cercle blanc dans l\'image ci-dessus. Cela est dû au réglage par défaut du paramètre Trace.

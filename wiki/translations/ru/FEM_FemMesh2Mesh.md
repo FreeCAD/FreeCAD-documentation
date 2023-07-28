@@ -27,7 +27,7 @@ This tool converts surfaces of 3D elements of a selected FEM mesh to mesh, or co
 
 ## Scripting
 
-**Note**: The parameter *scale* was <small>(v1.0)</small> . For older versions of FreeCAD omit it from your code.
+**Note**: The parameter *scale* was <small>(v0.21)</small> . For older versions of FreeCAD omit it from your code.
 
 When you just require the displacement scale factor, check your mesh object name and the scale factor in the following code:
 

@@ -1,90 +1,84 @@
 ---
 - GuiCommand:/de
    Name:PartDesign SubtractiveLoft
-   Name/de:PartDesign Subtraktive Ausformung
+   Name/de:PartDesign Ausformung
+   MenuLocation:Part Design → Objekte abziehen → Ausformung
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   MenuLocation:Part Design → Subtraktive Ausformung
    Version:0.17
-   SeeAlso:[Additive Ausformung](PartDesign_AdditiveLoft/de.md), [Abziehbares Rohr](PartDesign_SubtractivePipe/de.md)
+   SeeAlso:[PartDesign AdditiveAusformung](PartDesign_AdditiveLoft/de.md), [PartDesign SubtraktivesRohr](PartDesign_SubtractivePipe/de.md)
 ---
 
 # PartDesign SubtractiveLoft/de
 
 
-</div>
 
 ## Beschreibung
 
 **Abziehbare Ausformung** erstellt einen abziehbaren Volumenkörper in dem aktiven Körper indem ein Übergang zwischen zwei oder mehreren Skizzen (auch als Querschnitte bezeichnet) erzeugt wird. Seine geometrische Form wird dann von der bestehenden Form abgezogen.
 
+
+
 ## Anwendung
+
+
 
 ### Dialog-basierter Arbeitsablauf 
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Drücke die **[<img src=images/PartDesign_SubtractiveLoft.svg style="width:24px"> [Subtractive loft](PartDesign_SubtractiveLoft.md)** Schaltfläche.
-2.  Wähle im Dialog **Formelement auswählen** eine Skizze, die als Basisprofilobjekt verwendet werden soll, und klicke auf **OK**.
-    -   Alternativ kann eine einzelne Skizze ausgewählt werden, bevor die Schaltfläche Subtraktive Ausformung gedrückt wird.
-3.  Drücke in den **Ausformungsparametern** die Schaltfläche **Abschnitt hinzufügen**.
-4.  Wähle die nächste Skizze in der [3D Ansicht](3D_view/de.md). Wiederhole diesen Vorgang, um weitere Skizzen in der Reihenfolge auszuwählen, in der sie ausgeformt werden sollen. (Du kannst die Abschnittsreihenfolge jederzeit später im Ausformungsdialog ändern, indem du Abschnitte in der Liste an die gewünschte Position ziehst.<small>(v0.19)</small> )
-5.  Stelle bei Bedarf Optionen ein und klicke auf **OK**.
+1.  Die Schaltfläche (subtraktive) **[<img src=images/PartDesign_SubtractiveLoft.svg style="width:24px"> [Ausformung](PartDesign_SubtractiveLoft/de.md)** drücken.
+2.  Im Dialogfeld **Element auswählen** eine Skizze auswählen, die als Basisprofilobjekt verwendet werden soll, und auf **OK** klicken.
+    -   Alternativ kann entweder eine einzelne Skizze oder die Fläche eines 3D-Objekts ({{Version/de|0.20}}) ausgewählt werden, bevor die Schaltfläche Ausformung gedrückt wird.
+3.  In den **Ausformungsparametern** die Schaltfläche **Schnitt hinzufügen**.
+4.  Die nächste Skizze in der [3D-Ansicht](3D_view/de.md) auswählen. Diesen Vorgang wiederholen, um weitere Skizzen in der Reihenfolge auszuwählen, in der sie eingefügt werden sollen. (Die Schnittreihenfolge kann irgendwann später im Dialogfeld der Ausformung geändert werden, indem die Schnitte in der Liste an die gewünschte Position gezogen werden.
+5.  Wenn nötig Optionen festlegen und auf **OK** klicken.
 
 
-</div>
 
 ### Auswahlbasierter Arbeitsablauf 
 
+1.  Mehrere Skizzen auswählen. Dabei ist die Reihenfolge wichtig, in der sie ausgewählt werden:
+    -   Die zuerst ausgewählte Skizze wird im nächsten Schritt das Basisprofil (-Objekt).
+    -   Mit den danach ausgewählten Skizzen werden die Ausformungsabschnitte (loft sections) erstellt. Auch hier ist die Auswahlreihenfolge wichtig: Der erste Ausformungsabschnitt endet an der zweiten Skizze, der zweite Abschnitt an der dritten Skizze und so weiter. (Die Reihenfolge der Querschnitte kann später im Dialog Ausformung geändert werden, indem die Querschnitte in der Liste an die gewünschten Positionen gezogen werden.)
+    -   Die erste oder die letzte Auswahl kann auch eine Fläche eines 3D-Objekts sein. ({{Version/de|0.20}})
+2.  Die Schaltflache (abzuziehende) **[<img src=images/PartDesign_SubtractiveLoft.svg style="width:24px"> [Ausformung](PartDesign_SubtractiveLoft/de.md)** drücken.
+3.  Bei Bedarf Optionen anpassen und **OK** klicken.
 
-<small>(v0.19)</small> 
 
-1.  Select several sketches. It is hereby important in what order you select them:
-    -   The sketch selected at first will become the base profile object in the next step
-    -   The sketches selected after the first one will become the loft sections. Also here the selection order is important: The sketch selected as second will become the first loft section, the one selected as third becomes the second section and so on. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.<small>(v0.19)</small> )
-    -   The first or last selection can also be a face of a 3D object (<small>(v0.20)</small> )
-2.  Press the **[<img src=images/PartDesign_SubtractiveLoft.svg style="width:24px"> [Subtractive loft](PartDesign_SubtractiveLoft.md)** button.
-3.  Set options if needed and click **OK**.
 
 ## Optionen
 
-
-<div class="mw-translate-fuzzy">
-
--   **Geregelte Oberfläche**: generiert gerade Übergänge zwischen den Querschnitten. Gilt nicht für eine Ausformung mit zwei Querschnitten. Wenn nicht angehakt, werden die Übergänge glatt sein.
--   **Geschlossen** macht einen Übergang vom letzten Querschnitt zum ersten, wodurch ein Umlauf entsteht.
+-   **Regelfläche**: erstellt gerade Übergänge zwischen Querschnitten. Wird nicht auf eine Ausformung mit zwei Querschnitten angewendet. Wenn nicht angekreuzt, werden die Übergänge glatt sein.
+-   **Geschlossen**: erstellt einen Übergang vom letzten zum ersten Querschnitt, wodurch ein Ring entsteht. {{Version/de|0.21}}
 
 
-</div>
 
 ## Eigenschaften
 
--    **Kennzeichnung**: Ein Name für die Operation, kann bei Bedarf geändert werden.
+-    **Label**: Eine Benennung für die Operation, kann bei Bedarf geändert werden.
 
--    **Schnitte**: listet die verwendeten Abschnitte auf.
+-    **Sections**(Schnitte): listet die verwendeten Querschnitte auf.
 
--    **Geregelt**: siehe [Optionen](#Options.md).
+-    **Ruled**(Regelfläche): siehe [Optionen](#Optionen.md).
 
--    **Geschlossen**: siehe [Optionen](#Options.md).
+-    **Closed**(Geschlossen): siehe [Optionen](#Optionen.md).
 
--    **Mittelebene**: N/A
+-    **Midplane**: nicht verwendet.
 
--    **Umgekehrt**: N/A
+-    **Reversed**: nicht verwendet.
 
--    **Verfeinern**: \"true\" oder \"false\". Wenn auf \"true\" gesetzt, wird der Festkörper von Restkanten gereinigt, die durch Formelemente hinterlassen wurden. Siehe [Part FormVerfeinern](Part_RefineShape/de.md) für weitere Einzelheiten.
-
-## Notes
+-    **Refine**(Aufbereiten): \"true\" oder \"false\". Wenn auf \"true\" gesetzt, wird der Festkörper von Restkanten bereinigt, die durch Formelemente hinterlassen wurden. Siehe [Part FormAufbereiten](Part_RefineShape/de.md) für weitere Einzelheiten.
 
 
-<div class="mw-translate-fuzzy">
 
--   Skizzen müssen geschlossene Konturen bilden.
--   Es ist nicht möglich, an einen Knoten auszuformen.
--   Ein Querschnitt kann nicht auf der gleichen Ebene liegen wie die unmittelbar vorausgehende.
--   Um die Form des Ausformung besser kontrollieren zu können, wird empfohlen, dass alle Querschnitte die gleiche Anzahl von Segmenten haben. Zum Beispiel kann bei einer Ausformung zwischen einem Rechteck und einem Kreis der Kreis in 4 zusammenhängende Bögen zerlegt werden.
+## Hinweise
+
+-   Um die Form der Ausformung besser steuern zu können, wird empfohlen, dass alle Querschnitte mit derselben Anzahl von Abschnitten erstellt werden. Beispielsweise sollte für eine Ausformung zwischen einem Rechteck und einem Kreis der Kreis in vier verbundene Bögen aufgebrochen werden.
+-   Die Ausformung kann in einem Knotenpunkt ([Vertex](Glossary/de#Vertex.md)) einer Skizze oder eines Körpers beginnen oder enden. {{Version/de|0.20}}
+-   [Knotenpunkte](Glossary/de#Vertices.md) können in den meisten Fällen nur (entweder) der Anfang oder das Ende der Ausformung sein.
+-   Ein Querschnitt kann nicht mit dem unmittelbar vorhergehenden Querschnitt auf derselben Ebene liegen.
+-   Hat eine Skizze innere Geometrien, d.h. die Ausformung soll Löcher enthalten, dann sollte die Reihenfolge, in der die Skizzengeometrie erstellt wird, für alle Querschnitte dieselbe sein: Entweder startet man alle Querschnitte mit den inneren Geometrien oder mit den äußeren. Andernfalls kann eine ungültige Ausformung entstehen, bei der sich innere und äußere Wände überschneiden.
+-   Es ist nicht möglich aufgetrennte oder sich kreuzende Schlaufen auszuformen.
 
 
-</div>
 
 ## Verweise
 

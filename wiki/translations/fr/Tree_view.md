@@ -29,13 +29,31 @@ De nombreuses opérations créent des objets qui dépendent d\'un objet déjà e
 
 *L'objet au sommet est créé en effectuant des opérations paramétriques sur des objets qui ont eux-mêmes été créés par des opérations précédentes. L'élargissement de l'arbre à plusieurs niveaux révèle les éléments originaux qui ont été utilisés pour créer les solides partiels.*
 
+
+
+### Étiquettes et attributs 
+
+Dans la colonne Étiquettes et attributs, les étiquettes et les icônes des objets sont affichées.
+
+En sélectionnant un objet dans cette colonne et en appuyant sur **F2** (sous Windows et Linux), ou **Entrée** (sous macOS), cela permet d\'éditer la propriété **Label** de l\'objet in situ sans détour par l\'action du menu contextuel décrite ci-dessous ou par l\'[éditeur de propriétés](Property_editor/fr.md).
+
+### Description
+
+La colonne Description affiche des informations supplémentaires sur les objets, si elles sont disponibles.
+
+Ces informations sont enregistées dans la propriété **Label2** d\'un objet, qui peut être modifiée in situ en sélectionnant l\'objet dans cette colonne et en appuyant sur **F2** (sous Windows et Linux), ou **Entrée** (sous macOS), ou via l\'[éditeur de propriétés](Property_editor/fr.md).
+
 ## Actions
 
-Étant donné que l\'arborescence répertorie les objets pouvant être visibles dans la [vue 3D](3D_view/fr.md), de nombreuses actions sont identiques comme celles qui peuvent être exécutées à partir de la [vue 3D](3D_view/fr.md).
+Étant donné que la vue en arborescence répertorie les objets pouvant être visibles dans la [vue 3D](3D_view/fr.md), de nombreuses actions sont identiques comme celles qui peuvent être exécutées à partir de la [vue 3D](3D_view/fr.md).
 
-Lorsque l\'application démarre, l\'[atelier Start](Start_Workbench/fr.md) par défaut est actif et aucun document n\'a été créé, un clic droit sur la [vue en arborescence](Tree_view/fr.md) affiche un sous-menu avec quatre commandes :
 
--    **Actions sur les expressions**:
+
+### Lancement de l\'application 
+
+Lorsque l\'application démarre, que l\'[atelier Start](Start_Workbench/fr.md) par défaut est actif et qu\'aucun document n\'a été créé, le menu contextuel de la [vue en arborescence](Tree_view/fr.md) ne comporte qu\'une seule entrée :
+
+-    **Actions sur les expressions**. Lorsque le curseur est déplacé sur cette entrée, un sous-menu contenant quatre commandes s\'ouvre :
 
     -   [Copier la sélection](Std_Expressions/fr.md)
     -   [Copier le document actif](Std_Expressions/fr.md)
@@ -44,25 +62,27 @@ Lorsque l\'application démarre, l\'[atelier Start](Start_Workbench/fr.md) par d
 
 Elles permettent de travailler avec divers documents, mais sont désactivées si aucun document n\'est présent.
 
-Une fois un nouveau document créé, les éléments suivants deviennent actifs :
 
--    **Actions sur les expressions**:
+
+### Nouveau document 
+
+Une fois qu\'un nouveau document a été créé, un clic droit sur l\'arrière-plan ouvre le menu contextuel qui contient désormais deux entrées :
+
+-    **Actions sur les expressions**comme ci-dessus mais avec ces deux entrées activées :
 
     -   [Copier le document actif](Std_Expressions/fr.md)
     -   [Copier tous les documents](Std_Expressions/fr.md)
 
-De plus, les actions [Liens](Std_LinkMake/fr.md) sont disponibles.
-
--    **Actions sur les liens**:
+-    **Actions sur les liens**\- un sous-menu avec deux entrées :
 
     -   
-        **Créer un groupe de liens**
+        **Faire un groupe de liens**
         
-        :
+        \- un autre sous-menu contenant trois commandes :
 
         -   [Groupe simple](Std_LinkMakeGroup/fr.md)
-        -   [Groupe avec des liens](Std_LinkMakeGroup/fr.md)
-        -   [Groupe avec des liens transformés](Std_LinkMakeGroup/fr.md)
+        -   [Groupe avec liens](Std_LinkMakeGroup/fr.md)
+        -   [Groupe avec liens de transformation](Std_LinkMakeGroup/fr.md)
 
     -   [Créer un lien](Std_LinkMake/fr.md)
 
@@ -70,20 +90,19 @@ De plus, les actions [Liens](Std_LinkMake/fr.md) sont disponibles.
 
 ### Sélection du document 
 
-Si vous sélectionnez le document actif et cliquez avec le bouton droit, en plus de **Actions sur les expressions** et **Actions de liens**, les commandes suivantes apparaissent :
+Si vous sélectionnez le document et cliquez avec le bouton droit, en plus de **Actions sur les expressions** et **Actions sur les liens**, le menu contextuel contient les commandes suivantes :
 
--    **Montrer les objets cachés**: si elle est active, l\'arborescence affichera les éléments masqués.
+-    **Afficher les éléments masqués dans la vue en arborescence**: si elle est active, la vue en arborescence affichera les éléments masqués.
 
 -    **Rechercher...**: affiche un champ de saisie pour rechercher des objets à l\'intérieur du document sélectionné.
 
 -    **Fermer le document**: ferme le document sélectionné.
 
--    **Abandonner le recalcul**: si actif, les objets du document ne seront pas [recalculés](Std_Refresh/fr.md) automatiquement.
+-    **Ajouter tous les objets dépendants à la sélection**: tous les objets dépendants seront ajoutés à la sélection. De cette manière, il est possible de voir les dépendances et, par exemple, de supprimer tous les objets dépendants en une seule fois. Disponible uniquement pour les objets avec des liens et pour les documents.
 
-    -   
-        **Permettre un recalcul partiel**
-        
-        : si actif, le document n\'autorisera le [recalcul](Std_Refresh/fr.md) que pour certains objets.
+-    **Sauter les recalculs**: si actif, les objets du document ne seront pas [recalculés](Std_Refresh/fr.md) automatiquement.
+
+-    **Permettre un recalcul partiel**: si actif, le document n\'autorisera le [recalcul](Std_Refresh/fr.md) que pour certains objets. Uniquement disponible si **Sauter les recalculs** est activé.
 
 -    **Marquer pour recalculer**: marque tous les objets du document comme touchés et prêts pour [recalcul](Std_Refresh/fr.md).
 
@@ -103,13 +122,11 @@ Une fois que les objets ont été ajoutés au document, un clic droit sur ceux-c
 
 -    **[Copier](Std_Copy/fr.md)**: copie un objet en mémoire.
 
--    **[Coller](Std_Paste/fr.md)**: colle l\'objet copié dans le document ; la copie est ajoutée à la fin de l\'arborescence.
+-    **[Coller](Std_Paste/fr.md)**: colle l\'objet copié dans le document. La copie est ajoutée à la fin de l\'arborescence.
 
 -    **[Supprimer](Std_Delete/fr.md)**: supprime l\'objet du document.
 
--    **[Cacher l'élément](#Symbole_de_l'oeil.md)**: si cette case est cochée, l\'objet sera masqué dans l\'arborescence.
-
--    **Ajouter des objets dépendants à la sélection**: tous les objets dépendants seront ajoutés à la sélection. De cette façon, vous pouvez voir les dépendances et, par exemple, supprimer tous les objets dépendants en une seule fois. {{Version/fr|0.20}}
+-    **[Activer/désactiver la visibilité dans l'arborescence](#Symbole_de_l'oeil.md)**: permet d\'activer la visibilité des objets dans l\'arborescence.
 
 -    **Marquer pour recalculer**: marque l\'objet sélectionné comme pris en compte, et prêt pour le [recalcul](Std_Refresh/fr.md).
 
@@ -137,13 +154,13 @@ Comme exemple d\'extension du menu contextuel, si un [Part Cube](Part_Box/fr.md)
 
 -    **[Sélectionner tous les cas](Std_TreeSelectAllInstances/fr.md)**: sélectionne toutes les instances de cet objet dans l\'arborescence.
 
--    **[Envoyer la console Python](Std_SendToPythonConsole/fr.md)**: crée une variable dans la [console Python](Python_console/fr.md) faisant référence à l\'objet
+-    **[Envoyer vers la console Python](Std_SendToPythonConsole/fr.md)**: crée une variable dans la [console Python](Python_console/fr.md) faisant référence à l\'objet.
 
 
 
 ### Actions du clavier 
 
-Les actions clavier suivantes sont disponibles lorsque le curseur est sur l\'arborescence :
+Les actions clavier suivantes sont disponibles lorsque le curseur est sur la vue en arborescence :
 
 -    **Ctrl**\+**F** : ouvre une boîte de recherche au bas de l\'arbre, permettant de rechercher et d\'atteindre des objets en utilisant leurs noms ou leurs étiquettes.
 
@@ -172,7 +189,7 @@ Les actions clavier suivantes sont disponibles lorsque le curseur est sur l\'arb
 
 ## Icônes de superposition 
 
-Une ou plusieurs petites icônes de superposition peuvent être affichées au-dessus de l\'icône par défaut d\'un objet dans l\'arborescence. Les icônes superposées disponibles et leur signification sont énumérées ci-dessous. {{Version/fr|0.19}}
+Une ou plusieurs petites icônes de superposition peuvent être affichées au-dessus de l\'icône par défaut d\'un objet dans l\'arborescence. Les icônes superposées disponibles et leur signification sont énumérées ci-dessous.
 
 
 
@@ -210,7 +227,7 @@ Cela indique que l\'objet présente une erreur qui doit être corrigée. Après 
 
 ### ![](images/FreeCAD_Tree_view_hidden.png ) Symbole de l\'oeil 
 
-Cela indique que l\'objet sera masqué dans la vue en arborescence parce que son option **Cacher l'élément** du menu contextuel est cochée. Cocher puis décocher l\'option **Montrer les éléments cachés** du menu contextuel du document, ou reouvrir le document, permet de mettre à jour la vue en arborescence.
+Ceci indique que l\'objet sera caché dans la vue en arborescence si l\'option du menu contextuel **Afficher les éléments masqués dans la vue en arborescence** n\'est pas cochée.
 
 
 {{Interface navi

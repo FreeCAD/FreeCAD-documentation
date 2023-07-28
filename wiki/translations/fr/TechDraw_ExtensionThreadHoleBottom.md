@@ -11,12 +11,16 @@
 
 # TechDraw ExtensionThreadHoleBottom/fr
 
+
+
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:24px;"> **TechDraw Taraudage** ajoute des taraudages cosmétiques à la vue de dessus ou de dessous des perçages.
+L\'outil **TechDraw Taraudage** ajoute des taraudages cosmétiques à la vue de dessus ou de dessous des perçages.
 
 <img alt="" src=images/TechDraw_ExtensionThreadHoleBottomExample.png  style="width:200px;"> 
 *À droite, un perçage avec un taraudage*
+
+
 
 ## Utilisation
 

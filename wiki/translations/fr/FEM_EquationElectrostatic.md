@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:FEM EquationElectrostatic
    Name/fr:FEM Equation électrostatique
-   MenuLocation:Solveur → Équations électromagnétiques → Equation électrostastique
+   MenuLocation:Résolution → Équations électromagnétiques → Équation électrostastique
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Version:0.19
    SeeAlso:[FEM Équation de force électrique](FEM_EquationElectricforce/fr.md), [FEM Exemple calcul capacité de deux sphères](FEM_Example_Capacitance_Two_Balls/fr.md)
@@ -19,14 +19,14 @@ Pour plus d\'informations sur les mathématiques de l\'équation, voir [Elmer mo
 ## Utilisation
 
 1.  Après avoir ajouté un solveur Elmer comme décrit [ici](FEM_SolverElmer/fr#.C3.89quations.md), sélectionnez-le dans la [vue en arborescence](Tree_view/fr.md)
-2.  Utilisez maintenant le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> ou le menu **Solveur → Équations électromagnétiques → Equation électrostastique**.
+2.  Utilisez maintenant le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> ou le menu **Résolution → Équations électromagnétiques → Équation électrostastique**.
 3.  Modifiez les [paramètres du solveur de l\'équation](#Param.C3.A8tres_du_solveur.md) ou les [paramètres généraux du solveur](FEM_SolverElmer_SolverSettings/fr.md) si nécessaire.
 
 
 
 ## Paramètres du solveur 
 
-Pour les paramètres généraux du solveur, voir les [Paramètres du solveur Elmer](FEM_SolverElmer_SolverSettings/fr.md).
+Pour les paramètres généraux du solveur, voir les [paramètres du solveur Elmer](FEM_SolverElmer_SolverSettings/fr.md).
 
 L\'équation électrostatique fournit ces paramètres spéciaux :
 

@@ -112,9 +112,9 @@ We are now finished with the basic workflow for the [Drawing Workbench](Drawing_
 -   To learn how to create custom templates see [Drawing Template HowTo](Drawing_Template_HowTo.md)
 -   For more information about the tools available check out the [Drawing Workbench](Drawing_Workbench.md) page
 
-  {{Drawing Tools navi}}
+ {{Drawing Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Drawing](Category_Drawing.md) > Drawing tutorial
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing tutorial

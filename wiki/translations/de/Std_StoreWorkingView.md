@@ -5,24 +5,30 @@
    MenuLocation:View → Standardansichten → Arbeitsansicht speichern
    Workbenches:Alle
    Shortcut:**Shift**+**End**
-   Version:1.0
+   Version:0.21
    SeeAlso:[Std ArbeitsansichtWiederherstellen](Std_RecallWorkingView/de.md), [Std AnsichtenEinfrieren](Std_FreezeViews/de.md)
 ---
 
 # Std StoreWorkingView/de
 
+
+
 ## Beschreibung
 
-The **Std StoreWorkingView** command stores the camera settings of the active [3D view](3D_view.md) in its temporary working view. This view can be recalled with the [Std RecallWorkingView](Std_RecallWorkingView.md) command.
+Der Befehl **Std ArbeitsansichtSpeichern** speichert die Kameraeinstellungen der aktiven [3D-Ansicht](3D_view/de.md) als temporäre Arbeitsansicht. Diese Ansicht kann mit dem Befehl [Std ArbeitsansichtWiederherstellen](Std_RecallWorkingView/de.md) wiederhergestellt werden.
 
-Each 3D view has its own working view. Storing a new working view will overwrite the existing working view of the active 3D view. When a 3D view is closed its working view is lost.
+Jede 3D-Ansicht hat ihre eigene Arbeitsansicht. Eine neue Arbeitsansicht überschreibt die vorhandene Arbeitsansicht der aktiven 3D-Ansicht. Wird eine 3D-Ansicht geschlossen, geht ihre Arbeitsansicht verloren.
+
+
 
 ## Anwendung
 
-1.  Make sure a [3D view](3D_view.md) is active.
-2.  There are several ways to invoke the command:
-    -   Select the **View → Standard views → Store working view** option from the menu.
-    -   Use the keyboard shortcut: **Shift**+**End**.
+1.  Sicherstellen, dass eine [3D-Ansicht](3D_view/de.md) aktiv ist.
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Den Menüeintrag **Ansicht → Standardansichten → Arbeitsansicht speichern** auswählen.
+    -   Das Tastaturkürzel **Shift**+**End**.
+
+
 
 ## Skripten
 
@@ -31,7 +37,7 @@ Each 3D view has its own working view. Storing a new working view will overwrite
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-To store the current camera settings of the active 3D view in a working view:
+Speichern der aktuellen Kameraeinstellungen der aktiven 3D-Ansicht als Arbeitsansicht:
 
 
 ```python

@@ -17,10 +17,12 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 {{glossend}}
 
+## A
+
 
 <div class="mw-translate-fuzzy">
 
-## A
+## A 
 
 
 {{gloss}}
@@ -58,10 +60,12 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 </div>
 
+## B
+
 
 <div class="mw-translate-fuzzy">
 
-## B
+## B 
 
 
 {{gloss}}
@@ -138,10 +142,12 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 </div>
 
+## C
+
 
 <div class="mw-translate-fuzzy">
 
-## C
+## C 
 
 
 {{gloss}}
@@ -242,10 +248,12 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 </div>
 
+## D
+
 
 <div class="mw-translate-fuzzy">
 
-## D
+## D 
 
 
 {{gloss}}
@@ -285,10 +293,12 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 </div>
 
+## E
+
 
 <div class="mw-translate-fuzzy">
 
-## E
+## E 
 
 
 {{gloss}}
@@ -320,10 +330,12 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 </div>
 
+## F
+
 
 <div class="mw-translate-fuzzy">
 
-## F
+## F 
 
 
 {{gloss}}
@@ -418,10 +430,12 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 </div>
 
+## G
+
 
 <div class="mw-translate-fuzzy">
 
-## G
+## G 
 
 
 {{gloss}}
@@ -465,6 +479,11 @@ Salt la literă: {{CompactTOC|center=yes}}
 ## H
 
 
+<div class="mw-translate-fuzzy">
+
+## H 
+
+
 {{gloss}}
 
 
@@ -477,9 +496,14 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 
 
-<div class="mw-translate-fuzzy">
+</div>
 
 ## I
+
+
+<div class="mw-translate-fuzzy">
+
+## I 
 
 
 {{gloss}}
@@ -502,10 +526,12 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 </div>
 
+## J
+
 
 <div class="mw-translate-fuzzy">
 
-## J
+## J 
 
 
 {{gloss}}
@@ -522,10 +548,12 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 </div>
 
+## K
+
 
 <div class="mw-translate-fuzzy">
 
-## K
+## K 
 
 
 {{gloss}}
@@ -548,10 +576,12 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 </div>
 
+## L
+
 
 <div class="mw-translate-fuzzy">
 
-## L
+## L 
 
 
 {{gloss}}
@@ -601,6 +631,11 @@ Salt la literă: {{CompactTOC|center=yes}}
 ## M
 
 
+<div class="mw-translate-fuzzy">
+
+## M 
+
+
 {{gloss}}
 
 
@@ -643,9 +678,14 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 
 
-<div class="mw-translate-fuzzy">
+</div>
 
 ## N
+
+
+<div class="mw-translate-fuzzy">
+
+## N 
 
 
 {{gloss}}
@@ -674,10 +714,12 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 </div>
 
+## O
+
 
 <div class="mw-translate-fuzzy">
 
-## O
+## O 
 
 
 {{gloss}}
@@ -733,10 +775,12 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 </div>
 
+## P
+
 
 <div class="mw-translate-fuzzy">
 
-## P
+## P 
 
 
 {{gloss}}
@@ -879,6 +923,11 @@ Salt la literă: {{CompactTOC|center=yes}}
 ## Q
 
 
+<div class="mw-translate-fuzzy">
+
+## Q 
+
+
 {{gloss}}
 
 
@@ -891,9 +940,14 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 
 
-<div class="mw-translate-fuzzy">
+</div>
 
 ## R
+
+
+<div class="mw-translate-fuzzy">
+
+## R 
 
 
 {{gloss}}
@@ -928,10 +982,12 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 </div>
 
+## S
+
 
 <div class="mw-translate-fuzzy">
 
-## S
+## S 
 
 
 {{gloss}}
@@ -1032,10 +1088,12 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 </div>
 
+## T
+
 
 <div class="mw-translate-fuzzy">
 
-## T
+## T 
 
 
 {{gloss}}
@@ -1097,10 +1155,12 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 </div>
 
+## U
+
 
 <div class="mw-translate-fuzzy">
 
-## U
+## U 
 
 
 {{gloss}}
@@ -1129,10 +1189,12 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 </div>
 
+## V
+
 
 <div class="mw-translate-fuzzy">
 
-## V
+## V 
 
 
 {{gloss}}
@@ -1155,10 +1217,12 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 </div>
 
+## W
+
 
 <div class="mw-translate-fuzzy">
 
-## W
+## W 
 
 
 {{gloss}}
@@ -1193,6 +1257,11 @@ Salt la literă: {{CompactTOC|center=yes}}
 ## X
 
 
+<div class="mw-translate-fuzzy">
+
+## X 
+
+
 {{gloss}}
 
 
@@ -1204,7 +1273,15 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 {{glossend}}
 
+
+</div>
+
 ## Y
+
+
+<div class="mw-translate-fuzzy">
+
+## Y 
 
 
 {{gloss}}
@@ -1218,7 +1295,15 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 {{glossend}}
 
+
+</div>
+
 ## Z
+
+
+<div class="mw-translate-fuzzy">
+
+## Z 
 
 
 {{gloss}}
@@ -1231,6 +1316,9 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 
 {{glossend}}
+
+
+</div>
 
 
 

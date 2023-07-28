@@ -30,12 +30,12 @@ La commande **Std Style de représentation** peut remplacer l\'effet de la [prop
 
 
 
-### <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:24px;"> Comme c\'est 
+### <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:24px;"> Comme actuellement 
 
-Le style **Comme c\'est** ne supplante pas **Display Mode** des objets.
+Le style **Comme actuellement** ne supplante pas **Display Mode** des objets.
 
 ![](images/Std_DrawStyleAsIs_example.png ) 
-*4 objets identiques chacun avec un mode d'affichage différent (de gauche à droite: "Points", "Filaire", "Ombré" et "Filaire ombré") avec le style de représentation '''Comme c'est'''*
+*4 objets identiques chacun avec un mode d'affichage différent (de gauche à droite: "Points", "Filaire", "Ombré" et "Filaire ombré") avec le style de représentation '''Comme actuellement'''*
 
 ### <img alt="" src=images/Std_DrawStylePoints.svg  style="width:24px;"> Points 
 

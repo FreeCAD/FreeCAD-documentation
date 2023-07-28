@@ -12,6 +12,8 @@
 
 {{TOCright}}
 
+
+
 ## Introducción
 
 Las sólidas capacidades de modelado de FreeCAD se basan en la [OpenCASCADE](OpenCASCADE/es.md) (OCCT), un sistema CAD de calidad profesional que presenta una creación y manipulación avanzada de geometría 3D. El <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Ambiente de trabajo pieza](Part_Workbench/es.md) es una capa que se encuentra en la parte superior de las bibliotecas de la OCCT, que da al usuario acceso a las primitivas y funciones geométricas de la OCCT. Esencialmente todas las funciones de dibujo 2D y 3D en cada ambiente de trabajo (<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Borrador](Draft_Workbench/es.md), <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Croquizador](Sketcher_Workbench/es.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [DiseñoPieza](PartDesign_Workbench/es.md), etc.), se basan en estas funciones expuestas por el ambiente de trabajo DiseñoPieza. Por lo tanto, el Ambiente de trabajo DiseñoPieza se considera el componente central de las capacidades de modelado de FreeCAD.
@@ -28,9 +30,13 @@ Los objetos de las partes son más complejos que los objetos de malla creados co
 
 *El ambiente de trabajo de pieza es la capa básica que expone las funciones de dibujo de la OCCT a todos los ambientes de trabajo de FreeCAD.*
 
+
+
 ## Herramientas
 
 Las herramientas se encuentran en el menú **Pieza** o en el menú **Medida**.
+
+
 
 ### Primitivas
 
@@ -46,7 +52,7 @@ Estas son las herramientas para crear primitivas de objetos.
 
 -   <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Torus](Part_Torus.md): Creates a torus.
 
--   <img alt="" src=images/Part_Tube.svg  style="width:32px;"> [Tube](Part_Tube.md): Creates a tube. <small>(v0.19)</small> 
+-   <img alt="" src=images/Part_Tube.svg  style="width:32px;"> [Tube](Part_Tube.md): Creates a tube.
 
 -   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Create primitives\...](Part_Primitives.md): A tool to create one of the following primitives:
     -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Plane](Part_Plane.md): Creates a plane.
@@ -68,6 +74,8 @@ Estas son las herramientas para crear primitivas de objetos.
 
 -   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Shape builder\...](Part_Builder.md): Creates shapes from various primitives.
 
+
+
 ### Creación y modificación 
 
 Estas son herramientas para crear nuevos objetos y modificar los existentes.
@@ -82,7 +90,13 @@ Estas son herramientas para crear nuevos objetos y modificar los existentes.
 
 -   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Chamfer](Part_Chamfer.md): Chamfers edges of an object.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_MakeFace.svg  style="width:32px;"> [Hacer cara a partir de alambres](Part_MakeFace/es.md): Hace una cara a partir de un conjunto de hilos (contornos).{{Version/es|0.19}}
+
+
+</div>
 
 -   <img alt="" src=images/Part_RuledSurface.svg  style="width:32px;"> [Ruled Surface](Part_RuledSurface.md): Creates a ruled surface.
 
@@ -100,9 +114,17 @@ Estas son herramientas para crear nuevos objetos y modificar los existentes.
 
 -   <img alt="" src=images/Part_Thickness.svg  style="width:32px;"> [Espesor](Part_Thickness/es.md): Ahueca un sólido.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Proyección sobre superficie](Part_ProjectionOnSurface/es.md): Proyecta un logo, texto o cualquier cara, cable, borde a una superficie. <small>(v0.19)</small> 
 
+
+</div>
+
 -   <img alt="" src=images/Part_EditAttachment.svg  style="width:32px;"> [Attachment](Part_EditAttachment/es.md): Adjunta un objeto a otro objeto.
+
+
 
 ### Booleano
 
@@ -117,7 +139,7 @@ Estas herramientas realizan operaciones booleanas.
 
 -   <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Cut](Part_Cut.md): Cuts (subtracts) one object from another.
 
--   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Fuse](Part_Fuse.md): Fuses (unions) two objects.
+-   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Fuse](Part_Fuse.md): Fuses (unions) two or more objects.
 
 -   <img alt="" src=images/Part_Common.svg  style="width:32px;"> [Común](Part_Common/es.md): Extrae la parte común (intersección) de dos objetos.
 
@@ -137,6 +159,8 @@ Estas herramientas realizan operaciones booleanas.
 
 
 </div>
+
+
 
 ### Medida
 
@@ -160,6 +184,8 @@ Estas herramientas realizan operaciones booleanas.
 
 -   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width:32px;"> [Alternar Delta](Part_Measure_Toggle_Delta/es.md): Muestra u oculta las medidas delta.
 
+
+
 ### Otras herramientas 
 
 -   <img alt="" src=images/Part_Import.svg  style="width:32px;"> [Importar](Part_Import/es.md): Importa desde archivos \*.IGES, \*.STEP o \*.BREP.
@@ -174,13 +200,28 @@ Estas herramientas realizan operaciones booleanas.
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:32px;"> [Forma a partir malla](Part_ShapeFromMesh/es.md): Crea un objeto de forma a partir de un objeto de malla.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_PointsFromMesh.svg  style="width:32px;"> [Puntos desde malla](Part_PointsFromMesh/es.md): Crea un objeto de forma hecho de puntos a partir de un objeto de malla. <small>(v0.19)</small> 
+
+
+</div>
 
 -   <img alt="" src=images/Part_MakeSolid.svg  style="width:32px;"> [Convertir en sólido](Part_MakeSolid/es.md): Convierte un objeto de forma en un objeto sólido.
 
 -   <img alt="" src=images/Part_ReverseShapes.svg  style="width:32px;"> [Invertir formas](Part_ReverseShapes/es.md): Invierte las normales de todas las caras de los objetos seleccionados.
+
+
+<div class="mw-translate-fuzzy">
 
 -   Crear una copia:
     -   <img alt="" src=images/Part_SimpleCopy.svg  style="width:32px;"> [Crear copia simple](Part_SimpleCopy/es.md): Crea una copia simple de un objeto seleccionado.
@@ -188,9 +229,14 @@ Estas herramientas realizan operaciones booleanas.
     -   <img alt="" src=images/Part_ElementCopy.svg  style="width:32px;"> [Crear copia de elemento de forma](Part_ElementCopy/es.md): Crea una copia de un elemento (vértice, arista, cara) de un objeto seleccionado. {{Version/es|0.19}}
     -   <img alt="" src=images/Part_RefineShape.svg  style="width:32px;"> [Refinar forma](Part_RefineShape/es.md): Limpia las caras eliminando las líneas innecesarias.
 
+
+</div>
+
 -   <img alt="" src=images/Part_CheckGeometry.svg  style="width:32px;"> [Comprobar geometría](Part_CheckGeometry/es.md): Comprueba la geometría de los objetos seleccionados en busca de errores.
 
 -   <img alt="" src=images/Part_Defeaturing.svg  style="width:32px;"> [Derrotar](Part_Defeaturing/es.md): Elimina las características de un objeto.
+
+
 
 ### Elementos del menú contextual 
 
@@ -200,15 +246,21 @@ Estas herramientas realizan operaciones booleanas.
 
 [Establecer colores](Part_FaceColors/es.md): Asigna colores a las caras individuales de los objetos.
 
+
+
 ## Preferencias
 
 -   <img alt="" src=images/Preferences-part_design.svg  style="width:32px;"> [Preferencias](PartDesign_Preferences/es.md): Preferencias disponibles para las Herramientas de Pieza (el ambiente de trabajo de Pieza también utiliza las Preferencias de PartDesign).
 -   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Preferencias de importación-exportación](Import_Export_Preferences/es.md): Preferencias disponibles para importar desde y exportar a diferentes formatos de archivo.
 -   [Ajuste fino](Fine-tuning/es.md): Algunos parámetros extra para afinar el comportamiento de la Parte.
 
+
+
 ## Guión
 
 Ver [Guiones Pieza](Part_scripting/es.md).
+
+
 
 ## Tutoriales
 

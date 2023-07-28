@@ -1,17 +1,8 @@
 # Tracker/it
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it|[Licenze](Licence/it.md)|[Smistamento dei bug](Bug_Triage/it.md)}}
-
-
-</div>
-
-
 {{TOCright}}
 
 
-**In February 2022 FreeCAD bug tracking was migrated to [https://github.com/FreeCAD/FreeCAD/issues GitHub Issues]. The Mantis bug tracker described below is now in read-only mode.**
+**Nel febbraio 2022 il monitoraggio dei bug di FreeCAD è stato migrato a [https://github.com/FreeCAD/FreeCAD/issues GitHub Issues]. Il bug tracker Mantis descritto di seguito è ora in modalità di sola lettura.**
 
 ![](images/Mantis_logo_262x90.png )
 
@@ -22,6 +13,8 @@ Il [FreeCAD BugTracker](https://www.freecadweb.org/tracker) è il posto dove seg
 ![](images/Bugreport-workflow.png )
 
 Come mostrato nel diagramma di flusso sopra, prima di creare i ticket, cercare sempre prima nei forum e nel bugtracker per scoprire se il problema è già noto. Ciò consente di far risparmiare un sacco di tempo e di lavoro agli sviluppatori ed ai volontari che possono perciò dedicare più tempo per rendere FreeCAD ancora più fantastico.
+
+
 
 ## Segnalare i bug 
 
@@ -44,6 +37,8 @@ Prima di segnalare un bug, si prega di verificare i seguenti punti:
 -   Si prega di inviare un rapporto separato per ogni bug.
 -   Se il proprio bug causa un arresto anomalo in FreeCAD e si è su un sistema che lo supporta, si può provare a eseguire un **backtrace di debug** e allegare detta traccia al ticket. Questo può far risparmiare molto tempo agli sviluppatori nell\'individuare la fonte del crash. Vedere [Debugging](Debugging/it.md) per maggiori dettagli.
 
+
+
 ## Richiedere delle nuove funzioni 
 
 Se desiderate qualcosa che in FreeCAD che non è ancora implementato, it is not a bug but a feature request questo non è un bug, ma una richiesta di nuove funzionalità.
@@ -57,21 +52,25 @@ Se desiderate qualcosa che in FreeCAD che non è ancora implementato, it is not 
 
 ![Pagina di segnalazione Bugtracker di FreeCAD: utilizzare il menu a discesa per designare correttamente il tipo di ticket](images/MantisBT-setting-Feature-Request.jpg )
 
+
+
 ## Inviare patch 
 
+Nel caso in cui si programmi una correzione di un bug, un\'estensione o qualcos\'altro che può essere di uso pubblico in FreeCAD, inviare la patch come \"Pull Request\" a [GitHub](https://github.com/FreeCAD/FreeCAD).
 
-<div class="mw-translate-fuzzy">
+1.  Per una richiesta ampia, complessa o che cambia il comportamento, aprire un thread del forum nel [Developer subforum](https://forum.freecadweb.org/viewforum.php?f=10) per annunciare e discutere la tua patch. Per piccole correzioni di bug questo non è necessario.
+2.  Inviare la Pull Request (PR) al [FreeCAD GitHub repo](http://github.com/FreeCAD/FreeCAD). Il messaggio di invio della PR sarà precompilato con una lista di controllo da seguire per garantire che il tuo invio abbia le migliori possibilità di una rapida accettazione. Se non si è mai lavorato con `git` prima o non si ha familiarità con l\'invio di una PR a github, leggere la nostra introduzione alla pagina wiki [github](Source_code_management/it.md).
+3.  Si deve essere presenti alla discussione, sia nel forum che nella richiesta della pull di GitHub, in modo che il codice possa potenzialmente essere unito in modo più efficace.
 
-Se avete creato il programma di correzione a un bug, una estensione o altro che può essere di uso pubblico in FreeCAD, create una patch utilizzando lo strumento Git diff e presentatela utilizzando il medesimo tracker (il file è una patch).
 
-
-</div>
 
 ## Richiedere la fusione 
 
 (Stesse linee guida di come [Inviare delle patches](https://www.freecadweb.org/wiki/Tracker#Submitting_patches))
 
 Se avete creato un ramo git contenente delle modifiche che desiderate far confluire nel codice di FreeCAD, potete fare la richiesta di avere la recensione e la fusione del vostro ramo, se ​​gli sviluppatori di FreeCAD sono d\'accordo. È necessario pubblicare prima il ramo in un repository git pubblico (github, bitbucket, sourceforge \...) e poi fornire l\'URL del vostro ramo nella richiesta di unione.
+
+
 
 ## Suggerimenti e trucchi per MantisBT 
 
@@ -103,7 +102,7 @@ MantisBT (Mantis Bug Tracker) ha il proprio markup.
 
 ### MantisBT BBCode 
 
-In addition to the above [MantisBT Markup](Tracker#MantisBT_Markup.md) one also has the possibility to use BBCode format. For a comprehensive list see the [BBCode plus plugin page](https://github.com/mantisbt-plugins/BBCodePlus#supported-bbcode-tags). Here is a list of supported BBCode tagsː 
+Oltre al suddetto [Markup di MantisBT](Tracker/it#Markup_di_MantisBT.md) si ha anche la possibilità di utilizzare il formato BBCode. Per un elenco completo, vedere la [pagina del plug-in BBCode plus](https://github.com/mantisbt-plugins/BBCodePlus#supported-bbcode-tags). Ecco un elenco di tag BBCode supportatiː 
 [img][/img] - Images
 [url][/url] - Links
 [email][/email] - Email addresses
@@ -135,23 +134,23 @@ In addition to the above [MantisBT Markup](Tracker#MantisBT_Markup.md) one also 
 [quote=name][/quote] - Quote by *name*
 
 
-=== MantisBT \<=\> GitHub Markup === Below are special MantisBT Source-Integration plugin keywords which will link to the FreeCAD GitHub repo. See [GitHub and MantisBT](Tracker#GitHub_and_MantisBT.md).
+=== MantisBT \<=\> GitHub Markup === Di seguito sono riportate parole chiave speciali del plug-in MantisBT Source-Integration che si collegheranno al repository GitHub di FreeCAD. Vedere [GitHub and MantisBT](Tracker/it#GitHub_and_MantisBT.md).
 
--   **c:FreeCAD:git commit hash:** - **c** stands for \'commit\'. FreeCAD stands for the FreeCAD GitHub repo. \'git commit hash\' is the specific git commit hash to reference. Note: the trailing colon is necessary. Exampleː cːFreeCADː709d2f325db0490016807b8fa6f49d1c867b6bd8ː
--   **d:FreeCAD:git commit hash:** - similar to the above, **d** stands for \'diff\' which will provide a Diff view of the commit. Exampleː dːFreeCADː709d2f325db0490016807b8fa6f49d1c867b6bd8ː
--   **p:FreeCAD:pullrequest:** - similar to the above, **p** stands for Pull Request. Exampleː pːFreeCADː498ː
+-   **c:FreeCAD:git commit hash:** - **c** sta per \'commit\'. FreeCAD sta per il repository GitHub di FreeCAD. \'git commit hash\' è l\'hash git commit specifico a cui fare riferimento. Nota: i due punti finali sono necessari. Esempioː cːFreeCADː709d2f325db0490016807b8fa6f49d1c867b6bd8ː
+-   **d:FreeCAD:git commit hash:** - simile a quanto sopra, **d** sta per \'diff\' che fornirà una vista Diff del commit. Esempioː dːFreeCADː709d2f325db0490016807b8fa6f49d1c867b6bd8ː
+-   **p:FreeCAD:pullrequest:** - simile a quanto sopra, **p** sta per Pull Request. Esempioː pːFreeCADː498ː
 
 <img alt="" src=images/mantisbt-source-integration-markup.jpg  style="width:600px;"> 
 
-## GitHub and MantisBT 
+## GitHub e MantisBT 
 
-The FreeCAD bugtracker has a plug-in called [Source Integration](https://github.com/mantisbt-plugins/source-integration) which essentially ties both the FreeCAD GitHub repo to our MantisBT tracker. It makes it easier to track and associate git commits with their respective MantisBT tickets. **The Source Integration plugin scans the git commit messages for specific keywords in order to execute the following actions:**
+Il bugtracker di FreeCAD ha un plug-in chiamato [Source Integration](https://github.com/mantisbt-plugins/source-integration) che essenzialmente collega il repository GitHub di FreeCAD al nostro tracker MantisBT. Rende più facile tracciare e associare i commit git ai rispettivi ticket MantisBT. **Il plug-in Source Integration scansiona i messaggi di git commit alla ricerca di parole chiave specifiche per eseguire le seguenti azioni:**
 
-**Note** The below keywords need to be added in the git commit message and not the PR subject
+**Nota** Le seguenti parole chiave devono essere aggiunte nel messaggio git commit e non nell\'oggetto PR
 
-### Remotely referencing a ticket 
+### Riferimento remoto a un ticket 
 
-Using this pattern will automagically associate a git commit to a ticket (**Note:** this will not close the ticket.) The format MantisBT will recognize:
+L\'utilizzo di questo modello assocerà automaticamente un commit git a un ticket (**Nota:** questo non chiuderà il ticket.) Il formato MantisBT riconoscerà:
 
 -   bug #1234
 -   bugs #1234, #5678
@@ -160,12 +159,12 @@ Using this pattern will automagically associate a git commit to a ticket (**Note
 -   report #1234
 -   reports #1234, #5678
 
-For the inquisitive here is the regex MantisBT uses for this operation:
+Per i curiosi ecco la regex che MantisBT utilizza per questa operazione:
 
 
-### Remotely resolving a ticket 
+### Risoluzione remota di un ticket 
 
-The format MantisBT will recognize:
+Il formato MantisBT riconoscerà:
 
 -   fix #1234
 -   fixed #1234
@@ -178,28 +177,13 @@ The format MantisBT will recognize:
 -   resolved #1234, #5678
 -   resolves #1234, #5678
 
-For the inquisitive here is the regex MantisBT uses for this operation:
+Per i curiosi ecco la regex che MantisBT utilizza per questa operazione:
 
-
-
-<div class="mw-translate-fuzzy">
 
 ## Pagine correlate 
 
 -   [Smistamento dei bug](Bug_Triage/it.md)
 -   [Gestione del codice sorgente](Source_code_management/it.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it|[Licenze](Licence/it.md)|[Smistamento dei bug](Bug_Triage/it.md)}}
-
-
-</div>
 
 
 

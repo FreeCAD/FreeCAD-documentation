@@ -17,6 +17,8 @@ Les fonctionnalités fournies sont :
 
 <img alt="" src=images/Surface_example.png  style="width:350px;">
 
+
+
 ## Utilisation
 
 L\'objectif de l\'atelier Surface est de créer des faces avec des formes qui ne sont pas disponibles avec les outils standard des autres ateliers.
@@ -31,17 +33,21 @@ L\'atelier Surface s\'intègre à d\'autres ateliers de FreeCAD. L\'exemple ci-d
 
 La surface générée ne peut pas être placée dans un **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Corps](PartDesign_Body/fr.md)**. Cependant, la surface générée peut être contenue dans un **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/fr.md)** avec le **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Corps](PartDesign_Body/fr.md)** associé qui contient les plans de référence et les esquisses. L\'outil non paramétrique **[<img src=images/Part_Builder.svg style="width:16px"> [Part Générateur de formes](Part_Builder/fr.md)** peut ensuite être utilisé pour créer une [coque](Glossary/fr#Shell.md) et enfin un [solide](Glossary/fr#Solid.md).
 
+
+
 ## Outils
 
 -   <img alt="" src=images/Surface_Filling.svg  style="width:32px;"> [Remplissage](Surface_Filling/fr.md) : remplit une série de courbes limites avec une surface.
 
 -   <img alt="" src=images/Surface_GeomFillSurface.svg  style="width:32px;"> [Remplir entre les courbes limites](Surface_GeomFillSurface/fr.md) : crée une surface à partir de deux, trois ou quatre arêtes limites.
 
--   <img alt="" src=images/Surface_Sections.svg  style="width:32px;"> [Sections](Surface_Sections/fr.md) : crée une surface à partir d\'arêtes qui représentent des sections transversales de surface. {{Version/fr|0.19}}
+-   <img alt="" src=images/Surface_Sections.svg  style="width:32px;"> [Sections](Surface_Sections/fr.md) : crée une surface à partir d\'arêtes qui représentent des sections transversales de surface.
 
 -   <img alt="" src=images/Surface_ExtendFace.svg  style="width:32px;"> [Extension de surface](Surface_ExtendFace/fr.md) : extrapole la surface aux limites avec ses paramètres U et V locaux.
 
 -   <img alt="" src=images/Surface_CurveOnMesh.svg  style="width:32px;"> [Courbe sur maillage](Surface_CurveOnMesh/fr.md) : crée des segments de courbe approximatifs par dessus un [maillage](Mesh_Workbench/fr.md) sélectionné.
+
+-   <img alt="" src=images/Surface_BlendCurve.svg  style="width:32px;"> [Fusion de courbes](Surface_BlendCurve/fr.md) : crée une courbe de Bézier entre deux arêtes, avec la continuité souhaitée.
 
 
 

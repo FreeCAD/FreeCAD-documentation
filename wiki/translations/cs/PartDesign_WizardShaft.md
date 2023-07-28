@@ -7,7 +7,11 @@
 
 ## Description
 
-This tool allows you to create a shaft from a table of values, and to analyse forces and moments. You can start the wizard from the Part Design menu **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Shaft design wizard...**.
+This tool allows you to create a shaft from a table of values, and to analyse forces and moments.
+
+## Usage
+
+You can start the wizard from the Part Design menu **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Shaft design wizard...**.
 
 The wizard will start and show a default table, the corresponding shaft part and force/moment graphs.
 

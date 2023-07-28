@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introduction
 
 Le **Std Menu Outils** est l\'un des 7 sous-menus du [menu standard](Standard_Menu/fr.md) :
@@ -12,7 +14,7 @@ Le **Std Menu Outils** est l\'un des 7 sous-menus du [menu standard](Standard_Me
 |
 [Fichier](Std_File_Menu/fr.md)
 &nbsp;&nbsp;&nbsp;
-[Edition](Std_Edit_Menu/fr.md)
+[Édition](Std_Edit_Menu/fr.md)
 &nbsp;&nbsp;&nbsp;
 [Affichage](Std_View_Menu/fr.md)
 &nbsp;&nbsp;&nbsp;
@@ -27,6 +29,8 @@ Le **Std Menu Outils** est l\'un des 7 sous-menus du [menu standard](Standard_Me
 
 Le menu Outils fournit des outils pour le débogage des modèles, la personnalisation du comportement de FreeCAD, ainsi que des outils auxiliaires.
 
+
+
 ## Outils
 
 Les outils suivants sont disponibles dans ce menu :
@@ -34,6 +38,8 @@ Les outils suivants sont disponibles dans ce menu :
 -   <img alt="" src=images/Std_DlgParameter.svg  style="width:32px;"> [Éditeur des paramètres\...](Std_DlgParameter/fr.md) : ouvre une boîte de dialogue donnant accès aux paramètres qui contrôlent le programme.
 
 -   <img alt="" src=images/Std_ViewScreenShot.svg  style="width:32px;"> [Enregistrer l\'image\...](Std_ViewScreenShot/fr.md) : enregistre une capture d\'écran de la [vue 3D](3D_view/fr.md) active.
+
+-   <img alt="" src=images/Std_ViewLoadImage.svg  style="width:32px;"> [Charger une image\...](Std_ViewLoadImage/fr.md) : charge une image. {{Version/fr|0.21}}
 
 -   <img alt="" src=images/Std_SceneInspector.svg  style="width:32px;"> [Inspecteur de Scène\...](Std_SceneInspector/fr.md) : affiche une vue d\'ensemble des nœuds scénographiques de la vue 3D active.
 

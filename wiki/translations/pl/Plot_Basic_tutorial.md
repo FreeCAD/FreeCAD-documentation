@@ -30,9 +30,13 @@ Na poprzednim obrazku możesz zobaczyć rezultat, jaki w przybliżeniu uzyskamy.
 -   Jak edytować style serii.
 -   Jak zapisać swój wykres.
 
+
+
 ## Wykreślanie danych 
 
 Aby wykreślić dane nie musisz tworzyć nowego dokumentu FreeCAD, wystarczy, że uruchomisz konsolę [Python](Python_console/pl.md) i zaczniesz wysyłać komendy, lub użyjesz [makrodefinicji](Macros/pl.md).
+
+
 
 ### Tworzenie dokumentu wykresu 
 
@@ -54,6 +58,8 @@ Plot.figure("TrigonometricTest")
 ```
 
 W wersji FreeCAD 0.19 wymagane jest zainstalowanie środowiska pracy <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Wykres](Plot_Workbench/pl.md) za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md), natomiast od wersji 0.20 FreeCAD nie wymaga już zewnętrznego dodatku do wykonywania wykresów. Powyższe polecenia utworzą nową zakładkę w [głównym oknie](Main_view_area/pl.md) o nazwie **TrigonometricTest**. Nowo utworzony dokument posiada już zestaw osi. Każdy dokument wykresu posiada co najmniej jeden zestaw osi.
+
+
 
 ### Funkcje rysowania 
 
@@ -84,7 +90,11 @@ Plot.plot(t,c)
 
 Spowoduje to wykreślenie naszych funkcji. Polecenie **plot** dopuszcza jako argument etykietę serii, ale ponieważ będziemy ją później edytować za pomocą narzędzi środowiska pracy Wykres, nie przekazujemy jeszcze tych danych.
 
+
+
 ## Konfiguracja wykresu 
+
+
 
 ### Wyświetlanie siatki i legendy 
 
@@ -99,6 +109,8 @@ Możesz powtórzyć tę czynność, aby ukryć siatkę. Możesz również wyświ
 *Ikonka narzędzia Pokaż / ukryj legendę*
 
 Jak widzisz, legenda jest pusta, ponieważ nie ustawiliśmy jeszcze żadnej etykiety serii. W środowisku pracy [Wykres](Plot_Workbench/pl.md) serie bez etykiety nie są wyświetlane w legendzie.
+
+
 
 ### Ustawianie etykiet serii 
 
@@ -121,9 +133,13 @@ Ponieważ [matplotlib](http://matplotlib.org/) obsługuje [LaTeX](http://www.lat
 $y = \cos \left( 2 \pi t \right)$
 ```
 
+
+
 ### Ustawianie stylu serii 
 
 Seria pozwala na ustawienie wielu różnych właściwości. Spróbuj ustawić właściwości pokazane na przykładowym obrazku, zmieniając kolory serii i styl rysowania drugiej serii.
+
+
 
 ### Ustawianie etykiet osi 
 
@@ -140,6 +156,8 @@ Ustaw te dane:
 
 Zmień również rozmiar czcionki w tytule i wszystkich etykietach na {{Value|20}}.
 
+
+
 ## Zapisywanie wykresu 
 
 Za pomocą narzędzia do [zapisywania](Plot_Save/pl.md) wykresu możesz zapisać swój wykres jako plik graficzny w kilku formatach.
@@ -152,9 +170,9 @@ Najpierw należy wybrać ścieżkę dostępu do pliku wyjściowego.
 Możesz ustawić rozmiar obrazu wyjściowego w calach, na przykład możemy ustawić 11.7x8.3, który jest rozmiarem papieru **DIN A4**. DPI *(Dots per inch)* będzie kontrolować rozdzielczość obrazu, na przykład 100 dpi. W połączeniu z podanymi wymiarami da to obraz o wymiarach 1170x830 pikseli.
 
 
-{{Tutorials_navi
+{{Plot_Tools_navi
 
-}} {{Plot_Tools_navi}}
+}}
 
 
 

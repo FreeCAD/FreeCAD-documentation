@@ -10,27 +10,40 @@
 
 # TechDraw CosmeticVertex/ru
 
+
+
 ## Описание
 
-The Cosmetic Vertex tool adds a [Vertex](Glossary#V.md), which is not part of the source geometry, to a View. This Vertex behaves like any other vertex and can be used for dimensioning.
+The **TechDraw CosmeticVertex** tool adds a [vertex](Glossary#V.md), which is not part of the source geometry, to a view. This vertex behaves like any other vertex and can be used for dimensioning.
 
 <img alt="" src=images/TechDraw_CosmeticVertex_Sample.png  style="width:300px;"> 
-*Cosmetic Vertex used to create an otherwise impossible Dimension*
+*Cosmetic vertices used to create an otherwise impossible dimension*
+
+
 
 ## Применение
 
-1.  Select a view in the drawing.
-2.  Press the **<img src="images/TechDraw_CosmeticVertex.svg" width=16px> Add Cosmetic Vertex** button
-3.  A task dialog will open. It allows to set location of the Cosmetic Vertex either by picking a point or by entering an x,y-offset from the center of the selected view.
-4.  To pick a position, press the button **Point Picker**. Click to a position in the view and subsequently press **OK** to create the point. To exit the point picking without creating a Cosmetic Vertex, press the **Escape picking** button in the dialog.
+1.  Select a view.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_CosmeticVertex.svg" width=16px> [Add Cosmetic Vertex](TechDraw_CosmeticVertex.md)** button.
+    -   Select the **TechDraw → Add Vertices → <img src="images/TechDraw_CosmeticVertex.svg" width=16px> Add Cosmetic Vertex** option from the menu.
+3.  A task panel opens.
+4.  Optionally press the **Point Picker** button and pick a point on the page. Press the **Escape picking** button to cancel this operation.
+5.  Optionally change or specify the X and Y coordinates of the point. The coordinates are relative to the center of the view.
+6.  Press the **OK** button.
 
-To delete a Cosmetic Vertex, select it and use the toolbar button **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Remove Cosmetic Object](TechDraw_CosmeticEraser.md)**.
+## Notes
 
-**Note:** You cannot change the location of the Cosmetic Vertex after it has been created. At the moment there is no other way than to delete it and creating a new one.
+-   You cannot change the position of an existing cosmetic vertex. At the moment there is no other way than to delete it and create a new one.
+-   To delete a cosmetic vertex use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
+
+
 
 ## Свойства
 
-Cosmetic Vertices have no properties of their own, as they are no document objects. They share color and size settings with regular geometry vertices.
+Cosmetic vertices have no properties of their own, as they are not document objects. They share color and size settings with regular geometry vertices.
+
+
 
 ## Программирование
 
@@ -39,7 +52,7 @@ Cosmetic Vertices have no properties of their own, as they are no document objec
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-Cosmetic Vertices are available to [macros](Macros.md) or the [Python](Python.md) console.
+Cosmetic vertices are available to [macros](Macros.md) or the [Python](Python.md) console.
 
 
 ```python

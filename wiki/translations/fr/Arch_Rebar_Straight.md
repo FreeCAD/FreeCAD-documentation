@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Arch Rebar Straight
    Name/fr:Arch Rebar Armature droite
-   MenuLocation:Arch → Rebar tools → Straight Rebar<br>3D/BIM → Reinforcement tools → Straight Rebar
+   MenuLocation:Arch → Outils pour les armatures → Armature droite<br>3D/BIM → Reinforcement tools → Armature droite
    Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
    Version:0.17
    SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Rebar Nomenclature](Arch_Rebar_BOM/fr.md)
@@ -10,52 +10,69 @@
 
 # Arch Rebar Straight/fr
 
+
+
 ## Description
 
 L\'outil [Armature droite](Arch_Rebar_Straight/fr.md) permet à l\'utilisateur de créer un ensemble de barres d\'armature droites à l\'intérieur d\'un objet [Arch Structure](Arch_Structure/fr.md).
 
-L\'outil [Straight Rebar](Arch_Rebar_Straight/fr.md) est également intégré dans l\'[atelier BIM](BIM_Workbench/fr.md).
+L\'outil [Armature droite](Arch_Rebar_Straight/fr.md) est également intégré à l\'[atelier BIM](BIM_Workbench/fr.md).
 
 Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire des extensions → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_Straight_example.png  style="width:400px;"> 
-*Deux jeux d'armatures droites à l'intérieur d'une [Structure](Arch_Structure/fr.md)*
+*Deux jeux d'armatures droites à l'intérieur d'une [Arch Structure](Arch_Structure/fr.md)*
 
-## Comment faire 
+
+
+## Utilisation
 
 1.  Sélectionnez n'importe quelle face d'un objet créé précédemment **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md)**.
+
 2.  Puis sélectionnez **<img src="images/Arch_Rebar_Straight.svg" width=16px> [Armature droite](Arch_Rebar_Straight/fr.md)** dans les outils pour barres d\'armature.
-3.  Un panneau de tâches apparaîtra sur le côté gauche de l\'écran comme indiqué ci-dessous.
+
+3.  Un [panneau des tâches](Task_Panel/fr.md) apparaîtra sur le côté gauche de l\'écran comme indiqué ci-dessous.
+
 4.  Sélectionnez l\'orientation souhaitée.
-5.  Indiquez les entrées telles que la face avant, la face latérale droite, la face latérale gauche, la face inférieure et le diamètre de la barre.
-6.  Sélectionnez le mode de distribution soit en montant ou en espacement.
-7.  Si l\'espacement est sélectionné, un utilisateur peut également opter pour [custom spacing](Custom_Spacing.md).
-8.  Choisir la face sélectionnée est utilisé pour vérifier ou modifier la face pour la distribution des barres.
-9.  Cliquez sur **OK** ou **Appliquer** pour générer les barres d'arceau.
-10. Cliquez sur **Annuler** pour quitter le panneau de tâches.
+
+5.  Remplissez les entrées telles que \"Face avant\", \"Face droite\", \"Face gauche\", \"Face inférieure\" et \"Diamètre\" de l\'armature.
+
+6.  Sélectionnez le mode de distribution \"Quantité\" ou \"Écartement\".
+    -   Si \"Écartement\" est sélectionné, l\'utilisateur peut également opter pour [espacement personnalisé](Custom_Spacing/fr.md).
+
+7.  
+    **Choisir la face sélectionnée**est utilisé pour vérifier ou modifier la face pour la distribution des barres.
+
+8.  Cliquez sur **OK** ou **Appliquer** pour générer les barres.
+
+9.  Cliquez sur **Annuler** pour quitter le panneau de tâches.
 
 <img alt="" src=images/StraightRebarDialog.png  style="width:250px;"> 
 *Panneau de tâches pour l'outil Armature droite*
 
+
+
 ## Propriétés
 
--    {{PropertyData/fr|Orientation}}: Il définit l\'orientation de la barre d\'armature (comme fond, haut, droite et gauche).
+-    **Orientation**: définit l\'orientation de la barre d\'armature (comme fond, haut, droite et gauche).
 
--    {{PropertyData/fr|Front Cover}}: La distance entre l\'armature et la face sélectionnée.
+-    **Front Cover**: distance entre l\'armature et la face sélectionnée.
 
--    {{PropertyData/fr|Right Cover}}: La distance entre l\'extrémité droite de l\'armature et la face droite de la structure.
+-    **Right Cover**: distance entre l\'extrémité droite de l\'armature et la face droite de la structure.
 
--    {{PropertyData/fr|Left Cover}}: La distance entre l\'extrémité gauche de l\'armature et la face gauche de la structure.
+-    **Left Cover**: distance entre l\'extrémité gauche de l\'armature et la face gauche de la structure.
 
--    {{PropertyData/fr|Cover along}}: Ces propriétés permettent à l\'utilisateur de spécifier la couverture supérieure ou inférieure.
+-    **Cover along**: ces propriétés permettent à l\'utilisateur de spécifier la couverture supérieure ou inférieure.
 
--    {{PropertyData/fr|Bottom Cover}}: La distance entre l\'armature et la face inférieure de la structure.
+-    **Bottom Cover**: distance entre l\'armature et la face inférieure de la structure.
 
--    {{PropertyData/fr|Top Cover}}: La distance entre l\'armature et la face supérieure de la structure.
+-    **Top Cover**: distance entre l\'armature et la face supérieure de la structure.
 
--    {{PropertyData/fr|Amount}}: La quantité de barres d\'armature.
+-    **Amount**: quantité de barres d\'armature.
 
--    {{PropertyData/fr|Spacing}}: La distance entre les axes de chaque barre.
+-    **Spacing**: distance entre les axes de chaque barre.
+
+
 
 ## Script
 
@@ -108,6 +125,8 @@ Rebar = makeStraightRebar(f_cover, coverAlong, rt_cover, lb_cover,
 
 En fonction de l\'orientation de la barre, la fonction peut être appelée de deux manières générales en définissant `coverAlong` de manière appropriée.
 
+
+
 ### L\'armature est horizontale 
 
 
@@ -120,6 +139,8 @@ Rebar = makeStraightRebar(f_cover, ("Bottom Side", value), right_cover, left_cov
 
 -   Dans ce cas, `rt_cover` fait référence à l\'offset `right_cover` et `lb_cover` à l\'attente `left_cover`.
 
+
+
 ### L\'armature est verticale 
 
 
@@ -131,6 +152,8 @@ Rebar = makeStraightRebar(f_cover, ("Right Side", value), top_cover, bottom_cove
 -    `coverAlong`est un tuple avec un `"Left Side"` (Côté gauche)or a `"Right Side"` (Côté droit) d\'offset {{incode | valeur}}.
 
 -   Dans ce cas, `rt_cover` fait référence à l\'offset `top_cover` et `lb_cover` à l\'offset `bottom_cover`.
+
+
 
 ### Exemple horizontal 
 
@@ -150,6 +173,8 @@ Rebar2 = StraightRebar.makeStraightRebar(50, ("Bottom Side", 50), 100, 100,
                                          12, True, 5, "Horizontal", Structure, "Face6")
 Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9)
 ```
+
+
 
 ### Exemple vertical 
 
@@ -171,9 +196,9 @@ Rebar4 = StraightRebar.makeStraightRebar(50, ("Left Side", 50), 100, 100,
 Rebar4.ViewObject.ShapeColor = (0.0, 0.5, 0.5)
 ```
 
-### Édition de la barre d'armement 
+### Modification de l\'armature 
 
-Vous pouvez changer les propriétés de la barre d'armement avec la fonction suivante. 
+Vous pouvez changer les propriétés de l\'armature avec la fonction suivante. 
 ```python
 editStraightRebar(Rebar, f_cover, coverAlong, rt_cover, lb_cover,
                   diameter, amount_spacing_check, amount_spacing_value, orientation,

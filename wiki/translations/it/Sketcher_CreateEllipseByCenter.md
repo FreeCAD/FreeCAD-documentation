@@ -28,16 +28,10 @@ C is the center, a the major diameter, b the minor diameter, F1 and F2 are foci.
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
 -   Richiamare il comando facendo clic sul pulsante nella barra degli strumenti, scegliendo la voce nel menu, oppure usando la scorciatoia da tastiera che però deve essere assegnata prima in [Personalizza l\'interfaccia](Interface_Customization/it.md).
 -   Il primo clic nella vista 3D imposta il centro dell\'ellisse. Il secondo clic imposta il primo raggio e l\'orientamento dell\'ellisse. Il terzo clic imposta l\'altro raggio (il secondo raggio è la distanza dalla linea definita dai primi due clic).
--   Dopo il terzo clic, viene creata l\'ellisse, insieme ad una serie di geometrie di costruzione allineate ad essa (diametro maggiore, diametro minore, due fuochi). La geometria di costruzione può essere cancellata manualmente se non è necessaria, e ricreata in seguito. Vedere [Vincoli di allineamento interni](Sketcher_ConstrainInternalAlignment/it.md) e [Mostra/Nascondi la geometria interna](Sketcher_RestoreInternalAlignmentGeometry/it.md).
+-   Dopo il terzo clic, viene creata l\'ellisse, insieme ad una serie di geometrie di costruzione allineate ad essa (diametro maggiore, diametro minore, due fuochi). La geometria di costruzione può essere cancellata manualmente se non è necessaria, e ricreata in seguito. Vedere [Mostra/Nascondi la geometria interna](Sketcher_RestoreInternalAlignmentGeometry/it.md).
 -   Premere **Esc** o cliccare sul tasto destro del mouse per annullare la funzione.
-
-
-</div>
 
 ## Peculiarities
 

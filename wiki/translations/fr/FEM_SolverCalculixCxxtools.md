@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:FEM SolverCalculixCxxtools
    Name/fr:FEM Solveur CalculiX standard
-   MenuLocation:Solveur → Solveur CalculiX standard
+   MenuLocation:Résolution → Solveur CalculiX standard
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Shortcut:**S** **X**
    SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
@@ -18,11 +18,13 @@
 2.  sélectionner le répertoire de travail
 3.  lancer le solveur CalculiX
 
+
+
 ## Utilisation
 
 1.  Un <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> Solveur CalculiX standard est créé automatiquement lors de la création d\'un <img alt="" src=images/FEM_Analysis.svg  style="width:16px;"> [Conteneur d\'analyse](FEM_Analysis/fr.md).
     Pour le créer manuellement, utilisez l\'une des alternatives suivantes :
-    -   Sélectionnez **Solveur → <img src="images/FEM_SolverCalculixCxxtools.svg" width=16px> Solveur standard CalculiX** dans le menu.
+    -   Sélectionnez **Résolution → <img src="images/FEM_SolverCalculixCxxtools.svg" width=16px> Solveur standard CalculiX** dans le menu.
     -   Appuyez sur les touches de raccourci **S** puis **X**.
 2.  Vous pouvez modifier les propriétés de <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> CalculiXcxxTools dans l\'[Éditeur de propriétés](Property_editor/fr.md).
 3.  Double-cliquez sur l\'<img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> objet solveur CalculiXcxxTools.
@@ -34,6 +36,8 @@
 
 Cliquez sur le bouton **Editer le fichier .inp** pour afficher et éditer manuellement le fichier d\'entrée de CalculiX avant d\'exécuter l\'analyse. Dans ce cas, il peut être utile de définir la propriété **Split Input Writer** à {{True}}.
 
+
+
 ## Propriétés
 
 Les valeurs par défaut peuvent être définies dans le menu **Édition → Préférences → FEM → CalculiX**.
@@ -43,7 +47,7 @@ Les valeurs par défaut peuvent être définies dans le menu **Édition → Pré
     -   static
     -   frequency
     -   thermomech - pour les charges mécaniques et thermiques
-    -   check - pour vérifier uniquement le maillage {{Version/fr|0.19}}
+    -   check - pour vérifier uniquement le maillage
     -   buckling - pour les analyses de flambage {{Version/fr|0.20}}
 
 -    **Beam Shell Result Output 3D**: notez que CalculiX développe en interne les éléments 1D et 2D en éléments 3D pour réaliser l\'analyse FE.
@@ -53,7 +57,7 @@ Les valeurs par défaut peuvent être définies dans le menu **Édition → Pré
 
 -    **Eigenmode High Limit**: les valeurs propres supérieures à cette limite ne seront pas calculées. **Remarque** : si les valeurs propres du modèle sont supérieures à la limite haute, CalculiX se terminera sans sortie.
 
--    {{PropertyData/fr|Eigenmode Low Limit}}: Les valeurs propres inférieures à cette limite ne seront pas calculées
+-    **Eigenmode Low Limit**: les valeurs propres inférieures à cette limite ne seront pas calculées
 
 -    **Eigenmodes Count**: nombre de modes propres les plus bas à calculer
 
@@ -112,14 +116,18 @@ Les valeurs par défaut peuvent être définies dans le menu **Édition → Pré
 
 ## Limitations
 
-Lorsque vous exécutez un CalculiX, vous pouvez rencontrer l\'erreur **4294977295**. Cela signifie que vous n\'avez pas assez de RAM. Vous avez alors 2 options :
+Lorsque vous exécutez un CalculiX, vous pouvez rencontrer l**\'erreur 4294977295**. Cela signifie que vous n\'avez pas assez de RAM. Vous avez alors 2 options :
 
 1.  réduire le nombre de nœuds du maillage, de préférence en omettant la géométrie qui n\'est pas absolument nécessaire à votre analyse.
 2.  acheter plus de RAM pour votre PC
 
+
+
 ## Remarques
 
 La documentation originale de CalculiX se trouve à l\'adresse <http://dhondt.de/> dans le paragraphe \"ccx\".
+
+
 
 ## Script
 

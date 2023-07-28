@@ -15,7 +15,11 @@ Die Kompilierung der API Dokumentation folgt den gleichen allgemeinen Schritten 
 
 *Allgemeiner Arbeitsablauf zur Erstellung der Programmierdokumentation von FreeCAD. Die Pakete Doxygen und Graphviz müssen sich im System befinden, ebenso wie der FreeCAD Quellcode selbst. CMake konfiguriert das System so, dass mit einer einzigen make Anweisung die Dokumentation für das gesamte Projekt in vielen HTML Dateien mit Diagrammen zusammengefasst wird.*
 
+
+
 ## Quelldokumentation erstellen 
+
+
 
 ### Komplette Dokumentation 
 
@@ -24,18 +28,12 @@ Wenn du Doxygen installiert hast, ist es sehr einfach, die Dokumentation zu erst
 sudo apt install doxygen graphviz
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Folge dann den gleichen Schritten, die Du bei der Kompilierung von FreeCAD durchführen würdest, wie auf der Seite [Kompilieren auf Unix](Compile_on_Linux/Unix/de.md) beschrieben, und hier aus Gründen der Übersichtlichkeit zusammengefasst.
+Folge dann den gleichen Schritten, die Du bei der Kompilierung von FreeCAD durchführen würdest, wie auf der Seite [Kompilieren auf Linux](Compile_on_Linux/de.md) beschrieben, und hier aus Gründen der Übersichtlichkeit zusammengefasst.
 
 -   Hole Dir den Quellcode von FreeCAD und lege ihn in ein eigenes Verzeichnis `freecad-source`.
 -   Erstelle ein anderes Verzeichnis `freecad-build`, in dem Du FreeCAD und seine Dokumentation kompilieren wirst.
 -   Konfiguriere die Quellen mit `cmake`, stelle sicher, dass Du das Quellverzeichnis angibst und die erforderlichen Optionen für Dein Build angibst .
 -   Triggere die Erstellung der Dokumentation mit `make`.
-
-
-</div>
 
 
 ```python
@@ -59,6 +57,8 @@ xdg-open freecad-build/doc/SourceDocu/html/index.html
 ```
 
 Das `DevDoc` Ziel erzeugt eine beträchtliche Datenmenge, etwa 5 GB neue Dateien, insbesondere aufgrund der von Graphviz erstellten Diagramme.
+
+
 
 ### Gekürzte Dokumentation 
 
@@ -95,6 +95,8 @@ git push
 
 [FreeCAD 0.19 development](https://iesensor.com/FreeCADDoc/0.19/) Dokumentation erstellt von [qingfeng.xia](http://forum.freecadweb.org/viewtopic.php?t=12613).
 
+
+
 ## Coin3D Dokumentation integrieren 
 
 Auf Unix Systemen ist es möglich, die Coin3D Quelldokumentation mit der von FreeCAD zu verknüpfen. Dies ermöglicht eine einfachere Navigation und vollständige Vererbungsdiagramme für Coin abgeleitete Klassen.
@@ -104,6 +106,8 @@ Auf Unix Systemen ist es möglich, die Coin3D Quelldokumentation mit der von Fre
 -   Erzeuge die Quelldokumentation erneut.
 
 Wenn du das Dokumentationspaket für Coin nicht installierst, werden die Verknüpfungen generiert, um auf die Online Dokumentation unter [BitBucket](https://coin3d.bitbucket.io/Coin/) zuzugreifen. Dies geschieht, wenn eine Doxygen Kennzeichendatei zur Konfigurationszeit mit `wget` heruntergeladen werden kann.
+
+
 
 ## Doxygen Anwenden 
 

@@ -15,11 +15,15 @@ Il modulo permette di importare/creare schede PCB in FreeCAD. Portata del modulo
 -   il modulo permette di importare modelli IGES/STP con colori,
 -   possibile mostrare fori/vie indipendenti.
 
+
+
 ## Riferimenti
 
 -   Autore: marmni
 -   Pagina principale: <https://sourceforge.net/projects/eaglepcb2freecad/>
 -   Codice sorgente su github: <https://github.com/marmni/FreeCAD-PCB>
+
+
 
 ## Strumenti
 
@@ -33,11 +37,17 @@ Menu a discesa
 
 ![](images/PCB-export-BOM.png ) ![](images/PCB-export-hole.png ) ![](images/PCB-create-new.png ) ![](images/PCB-explode.png ) ![](images/PCB-bounding-box.png )
 
+
+
 ## Installazione
+
+
 
 ### Installazione automatica 
 
 Questo ambiente può essere installato dal [Addon Manager](Std_AddonMgr/it.md).
+
+
 
 ### Da GitHub 
 
@@ -89,6 +99,8 @@ Security → Edit → Users and mark all checkboxes under \'Allow\' option.
 
 **Istruzioni per l\'installazione di MacOS** (Da GitHub)
 
+
+
 ## Riferimento a FreeCAD-PCB Ambiente 
 
 -   Wiki del Ambiente: [Ambienti esterni](https://wiki.freecadweb.org/External_workbenches)
@@ -98,6 +110,8 @@ Security → Edit → Users and mark all checkboxes under \'Allow\' option.
 -   Video: [EaglePCB_2\_FreeCAD - FreeCAD odczyt plików brd z programu Eagle](https://www.youtube.com/watch?v=81NsljRJx8c&feature=youtu.be)
 -   Archivio: [PCB biblioteca](https://github.com/marmni/FreeCAD-PCB-library)
 -   Segnalazione di bug: Si prega di segnalare i bug a <https://github.com/marmni/FreeCAD-PCB/issues>
+
+
 
 ## Altri riferimento utili 
 
@@ -109,4 +123,4 @@ Security → Edit → Users and mark all checkboxes under \'Allow\' option.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > PCB Workbench/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > PCB Workbench/it

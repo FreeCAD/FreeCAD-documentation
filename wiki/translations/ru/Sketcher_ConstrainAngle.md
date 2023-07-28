@@ -13,9 +13,13 @@
 
 </div>
 
+
+
 ## Описание
 
 Angle constraint is a [datum constraint](Sketcher_Workbench#Sketcher_Constraints.md) intended to fix angles in sketch. It is capable of setting slopes of individual lines, angles between lines, angles of intersections of curves, and angle spans of circular arcs.
+
+
 
 ## Применение
 
@@ -74,6 +78,8 @@ In this mode, the constraint sets the angle between two lines. It is not require
 In this mode, angle between two curves is constrained at the point of their intersection. The intersection point can be on curves\' extensions. The point should be specified explicitly, since curves typically intersect in more than one point.
 
 For the constraint to work correctly, the point must be on both curves. So, as the constraint is invoked, the point will be automatically constrained onto both curves ([helper constraints](Sketcher_helper_constraint.md) will be added, if necessary), and the angle between curves will be constrained at the point. These [helper constraints](Sketcher_helper_constraint.md) are plain regular constraints. They can be added manually, or deleted. There are no helper constraints on the example picture above, because the point selected is already the intersection of curves.
+
+
 
 ## Программирование
 

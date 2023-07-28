@@ -14,7 +14,7 @@
 
 ## Beschreibung
 
-Verbindet einen Punkt deckungsgleich (koinzident) mit einem oder mehreren anderen Punkten. Neu in {{Version/de|1.0}}: Werden zwei oder mehr Kreise, Bögen, Ellipsen oder Ellipsenbögen ausgewählt, stellt dies eine Randbedingung \"Konzentrisch festlegen\" dar.
+Verbindet einen Punkt deckungsgleich (koinzident) mit einem oder mehreren anderen Punkten. Neu in {{Version/de|0.21}}: Werden zwei oder mehr Kreise, Bögen, Ellipsen oder Ellipsenbögen ausgewählt, stellt dies eine Randbedingung \"Konzentrisch festlegen\" dar.
 
 
 

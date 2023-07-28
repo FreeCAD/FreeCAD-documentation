@@ -12,13 +12,19 @@
 
 {{TOCright}}
 
+
+
 ## Introdução
 
 A Base Padrão não é uma bancada de trabalho, mas sim uma categoria de comandos e ferramentas \'padrão\' que podem ser usadas em todas as bancadas de trabalho.
 
+
+
 ## Ferramentas
 
 A maioria das ferramentas **Base Padrão** podem ser acessadas a partir do [menu padrão](Standard_Menu/pt-br.md). Aqueles que estão disponíveis apenas por meio de uma barra de ferramentas ou menu de contexto estão listados em [Ferramentas adicionais](#Additional_tools.md).
+
+
 
 ### Ferramentas do menu padrão 
 
@@ -41,6 +47,8 @@ O menu padrão é composto de 7 sub-menus. Cada sub-menu tem uma página dedicad
 &nbsp;&nbsp;&nbsp;
 [Ajuda](Std_Help_Menu/pt-br.md)
 }}
+
+
 
 ### Ferramentas adicionais 
 

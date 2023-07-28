@@ -29,9 +29,21 @@ A seleção simples com o mouse (por padrão, clique com o botão esquerdo do mo
 
 ### Cliques repetidos 
 
+
+<div class="mw-translate-fuzzy">
+
 O primeiro clique seleciona um sub-elemento (vértice, borda ou face) do objeto sob o mouse. Um segundo clique seleciona o objeto inteiro. <small>(v0.18)</small> 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 O terceiro clique estende a seleção a seu objeto \'container\' ([PartDesign Body](PartDesign_Body.md), [Std Part](Std_Part.md), e outros). Outros cliques expandem a seleção até a cadeia de \'contêineres\'. <small>(v0.19)</small> 
+
+
+</div>
 
 
 

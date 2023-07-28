@@ -1,64 +1,45 @@
 ---
 - GuiCommand:/de
-   Name:Draft Angle
-   Name/de:Draft Angle
-   MenuLocation:Entwurf → [Objektfang](Draft_Snap/de.md) → Winkel
+   Name:Draft Snap Angle
+   Name/de:Draft EinrastenAufWinkel
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso:[Objektfang](Draft_Snap/de.md), [Objektfang umschalten](Draft_Snap_Lock/de.md)
+   SeeAlso:[Draft Einrasten](Draft_Snap/de.md), [Draft EinrastenSperren](Draft_Snap_Lock/de.md)
 ---
 
 # Draft Snap Angle/de
 
 
-</div>
-
-
-{{Draft Tools navi/de}}
-
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-Diese Methode rastet an den Punkten von Kreisen und Kreisbögen in Schritten von 30° und 45° an Kreisbögen ein; das umfasst 0°, 60°, 90°, 180°, 210°, 270° und andere ganzzahlige Vielfache.
+Die Option <img alt="" src=images/Draft_Snap_Angle.svg  style="width:24px;"> **Draft EinrastenAufWinkel** rastet auf besonderen Hauptpunkten auf kreisförmigen Kanten ein, auf Winkeln, die ein Vielfaches von 30° and 45° sind. Die Kanten können zu [Draft](Draft_Workbench.md)- oder [Arch](Arch_Workbench.md)-Objekten gehören, aber auch zu Objekten, die mit anderen [Arbeitsbereichen](Workbenches/de.md) erstellt wurden.
 
-
-</div>
-
-![](images/Draft_Snap_Angle_example.png )
-
-
-<div class="mw-translate-fuzzy">
+![](images/Draft_Snap_Angle_example.png ) 
+*Einrasten des zweiten Punktes einer Linie auf den Punkt bei -30° auf einer kreisförmigen Kante. Die kleinen magentefarbenen Kreise weisen auf alle zur Verfügung stehenden Hauptpunkte an.*
 
 
 
-*Rastet am zweiten Punkt einer Linie am Kreis ein, am 45°-Winkel des Keisbogens; kleine Kreise zeigen alle möglichen Rastpositionen*
+## Anwendung
+
+Für allgemeine Informationen zum Einrasten (Fangen) siehe [Draft Fangen](Draft_Snap/de.md).
+
+1.  Einrasten sollte aktiviert sein. Siehe <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft EinrastenSperren](Draft_Snap_Lock/de.md).
+2.  Ist **Draft EinrastenAufWinkel** nicht aktiv, gibt es folgende Möglichkeiten:
+    -   Die Schaltfläche **<img src="images/Draft_Snap_Angle.svg" width=16px>** in der Symbolleiste Draft-Einrasten drücken.
+    -   Die Schaltfläche **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** im [Draft-Widget Einrasten](Draft_snap_widget/de.md) gedrückt halten und im Ausklappmenü die Option **<img src="images/Draft_Snap_Angle.svg" width=16px> Winkel fangen** auswählen.
+3.  Einen [Draft](Draft_Workbench.md)- oder [Arch](Arch_Workbench.md)-Befehl auswählen, um die gewünschte Geometrie zu erstellen.
+4.  Man beachte, dass die Einrast-Optionen auch dann geändert werden können, wenn ein Befehl aktiv ist.
+5.  Den Mauszeiger auf eine kreisförmige Kante bewegen.
+6.  Die Kante wird hervorgehoben.
+7.  Wurde ein Hauptpunkt ermittelt, wird der Punkt markiert und das Symbol <img alt="" src=images/Draft_Snap_Angle.svg  style="width:16px;"> wird neben dem Mauszeiger angezeigt.
+8.  Wahlweise den Mauszeiger näher an einen anderen Hauptpunkt heran bewegen, um diesen Punkt stattdessen auszuwählen.
+9.  Klicken, um den Punkt zu bestätigen.
 
 
-</div>
 
+## Einstellungen
 
-{{Userdocnavi/de}}
-
-For general information about snapping see [Draft Snap](Draft_Snap.md).
-
-
-<div class="mw-translate-fuzzy">
-
-### Anwendung
-
-1.  Stelle sicher, dass **<img src="images/Draft_Snap_Lock.svg" width=16px> [Draft Umschalten Ein/Aus](Draft_Snap_Lock/de.md)** und **<img src="images/Draft_Snap_Angle.svg" width=16px> [Snap Winkel](Draft_Snap_Angle/de.md)** eingeschaltet sind.
-2.  Wähle ein Draft-Werkzeug zum Zeichnen einer Form.
-3.  Bewege den Cursor über ein Kreis- oder Kreisbogenobjekt.
-4.  Der Kreis oder Kreisbogen wird gelb hervorgehoben und ein kleiner weißer Kreis wird den Punkt des Kreisbogens anzeigen, an dem der neue Punkt verbunden wird; dieser Punkt wird im Winkel von 30° oder 45° oder einem Vielfachen zur Horizontalen angezeigt.
-5.  Klicke, um den neuen Punkt zu verbinden.
-
-
-</div>
-
-## Preferences
-
-See [Draft Snap](Draft_Snap#Preferences.md).
+Siehe [Draft-Einrasten](Draft_Snap/de#Einstellungen.md).
 
 
 

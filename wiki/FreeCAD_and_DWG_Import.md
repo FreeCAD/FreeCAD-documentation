@@ -17,7 +17,7 @@ GNU LibreDWG is a free C library to handle DWG files. It aims to be a free repla
 
 #### Installation Windows 
 
-Downloading and unzip the appropriate [pre-compiled Windows binary](https://github.com/LibreDWG/libredwg/releases) and then set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
+Downloading and unzip the appropriate [pre-compiled Windows binary](https://github.com/LibreDWG/libredwg/releases). Place the executable in the OS search path, {{Incode|os.getenv("PATH")}}, for automatic detection (<small>(v0.21)</small> ), or set the path manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
 
 #### Installation Linux/Unix systems 
 
@@ -33,7 +33,7 @@ make install # or use checkinstall, or simply locate & copy the dwg2dxf
              # utility to your executables path, it will be then autodetected by FreeCAD
 }}
 
-You need to set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
+Place the executable in the OS search path, {{Incode|os.getenv("PATH")}}, for automatic detection (<small>(v0.21)</small> ), or set the path manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
 
 #### Installation openSUSE 
 
@@ -52,7 +52,7 @@ In any terminal/console (root rights required) the installation will be carried 
 zypper install libredwg0 libredwg-tools
 ```
 
-You need to set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
+Place the executable in the OS search path, {{Incode|os.getenv("PATH")}}, for automatic detection (<small>(v0.21)</small> ), or set the path manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
 
 ### ODA File Converter 
 
@@ -79,7 +79,7 @@ QCAD is a well-known open-source DXF-based 2D CAD platform. It also offers a pai
 
 #### Installation 
 
-You need to set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
+If the utility is not found automatically by FreeCAD after installation (<small>(v0.21)</small> ), you need to set the path to the bash file (Linux and macOS) or batch file (Windows) manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
 
 ### CADExchanger Workbench 
 

@@ -6,6 +6,8 @@ The preferences for the [Draft Workbench](Draft_Workbench.md) can be found in th
 There are five tabs: [General settings](#General_settings.md), [User interface settings](#User_interface_settings.md), [Grid and snapping](#Grid_and_snapping.md), [Visual settings](#Visual_settings.md) and [Texts and dimensions](#Texts_and_dimensions.md).
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ![](images/Draft_Preferences.jpg )
@@ -163,7 +165,7 @@ On the *User interface settings* tab you can specify the following:
 | **Global**                  |                                                                                                                                                                                                                                               |
 |                                      |                                                                                                                                                                                                                                               |
 +++
-|                          | Shortcut to press the **Undo** button. Not available in {{VersionMinus|0.19}}.                                                                                                                             |
+|                          | Shortcut to press the **Undo** button.                                                                                                                                                                                   |
 | **Undo**                    |                                                                                                                                                                                                                                               |
 |                                      |                                                                                                                                                                                                                                               |
 +++
@@ -346,10 +348,6 @@ On the *Visual settings* tab you can specify the following:
 +++
 |                                                    | If checked, a widget indicating the current working plane orientation appears during drawing operations.                                                                                                            |
 | **Show Working Plane tracker**                        |                                                                                                                                                                                                                     |
-|                                                                |                                                                                                                                                                                                                     |
-+++
-|                                                    | Obsolete. The template used by the [Draft Drawing](Draft_Drawing.md) command.                                                                                                                               |
-| **Default template sheet**                            |                                                                                                                                                                                                                     |
 |                                                                |                                                                                                                                                                                                                     |
 +++
 |                                                    | A directory with custom SVG patterns. Select a file in the directory and then remove the filename in the preferences input box, leaving only the path.                                                              |

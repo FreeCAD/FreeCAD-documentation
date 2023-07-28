@@ -98,7 +98,7 @@ The <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:24px;"> **P
 
 ## Ordering features 
 
-If some of the selected features are additive and others subtractive, their order can have have an impact on the final result. You can change the order by dragging individual features in the list. <small>(v0.19)</small> 
+If some of the selected features are additive and others subtractive, their order can have have an impact on the final result. You can change the order by dragging individual features in the list.
 
 ![](images/PartDesign_feature-order.gif ) 
 *Effect of the feature order*

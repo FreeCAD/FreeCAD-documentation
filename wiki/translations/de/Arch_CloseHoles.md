@@ -1,16 +1,13 @@
 ---
 - GuiCommand:/de
    Name:Arch CloseHoles
-   Name/de:Arch SchließeLöcher
-   MenuLocation:Arch → Dienstprogramme → Schließt Löcher
+   Name/de:Arch LöcherSchließen
+   MenuLocation:Arch → Dienstprogramme → Löcher schließen
    Workbenches:[Arch](Arch_Workbench/de.md)
-   SeeAlso:[Arch Überprüfung](Arch_Check/de.md)
+   SeeAlso:[Arch Überprüfen](Arch_Check/de.md)
 ---
 
 # Arch CloseHoles/de
-
-
-</div>
 
 
 
@@ -22,8 +19,13 @@ Dieses Werkzeug identifiziert Löcher (ringförmige Folge von offenen Kanten) in
 
 ## Anwendung
 
-1.  Wähle ein [Form](Part_Workbench/de.md)-Objekt.
-2.  Drücke den **<img src="images/Arch_CloseHoles.svg" width=16px> [Löcher schließen](Arch_CloseHoles/de.md)**-Eintrag in **Arch → Dienstprogramme → Schließe Löcher**.
+1.  Ein [Form](Part_Workbench/de.md)-Objekt auswählen.
+2.  Die Schaltfläche **<img src="images/Arch_CloseHoles.svg" width=16px> [Löcher schließen](Arch_CloseHoles/de.md)** drücken oder den Menüeintrag **Arch → Dienstprogramme → Löcher schließen** auswählen.
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -32,7 +34,23 @@ Dieses Werkzeug identifiziert Löcher (ringförmige Folge von offenen Kanten) in
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Dieses Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit der folgenden Funktion verwendet werden: 
+
+</div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
+<div class="mw-translate-fuzzy">
+
+Dieses Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit der folgenden Funktion verwendet werden:
+
+
+</div>
+
+
 ```python
 solid = closeHole(shape)
 ```
@@ -60,15 +78,6 @@ FreeCAD.ActiveDocument.recompute()
 
 solid = Arch.closeHole(Wall.Shape)
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

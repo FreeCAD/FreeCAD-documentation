@@ -10,9 +10,13 @@
 
 # Sketcher Create3PointCircle/de
 
+
+
 ## Beschreibung
 
 Dieses Werkzeug <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:16px;"> zeichnet einen Kreis durch Anwahl dreier Punkte auf dem Kreisbogen. Wenn das Werkzeug gestartet wird, verwandelt sich der Mauszeiger in ein weisses Kreuz mit einem roten Kreissymbol. Die Koordinaten werden neben dem Kreuz in blau in Echtzeit angezeigt.
+
+
 
 ## Anwendung
 

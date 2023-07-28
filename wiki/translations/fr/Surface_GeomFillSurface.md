@@ -26,6 +26,8 @@ crée une surface paramétrique à partir de deux, trois ou quatre arêtes de li
 
 *A gauche: arêtes utilisées pour générer une surface avec l'outil [Remplir entre les courbes limites](Surface_GeomFillSurface/fr.md), 4 arêtes connectées, 3 arêtes connectées et 2 arêtes déconnectées. A droite: surface résultante de l'utilisation des 4, 3 et 2 arêtes respectivement.*
 
+
+
 ## Utilisation
 
 1.  Appuyez sur la touche **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [Fill boundary curves](Surface_GeomFillSurface/fr.md)**.
@@ -44,11 +46,15 @@ une fois créée, il n\'est pas possible d\'appliquer des contraintes supplémen
 
 : {{RadioButton|TRUE|Stretch}}, {{RadioButton|TRUE|Coons}} ou {{RadioButton|TRUE|Curved}}.
 
+
+
 ## Propriétés
 
 [Surface Remplir entre les courbes limites](Surface_GeomFillSurface/fr.md) (classe `Surface::GeomFillSurface`) est dérivée de la classe de base [Part Feature](Part_Feature/fr.md) (classe `Part::Feature` via la sous-classe `Part::Spline`), elle partage donc toutes les propriétés de cette dernière.
 
 Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surface Remplissage a les propriétés suivantes dans l\'[éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ### Données
 
@@ -61,12 +67,16 @@ Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surfac
 
 -    {{PropertyData/fr|Reversed List|BoolList|(hidden)}}:
 
+
+
 ### Vue
 
 
 {{TitleProperty|Base}}
 
--    {{PropertyView/fr|Control Points|Bool}}: la valeur par défaut est `False`. Mis à `True`, elle affichera une superposition avec les points de contrôle de la surface.
+-    **Control Points|Bool**: par défaut `False`. Mis à `True`, elle affichera une superposition avec les points de contrôle de la surface.
+
+
 
 ## Torsion de la surface 
 
@@ -96,6 +106,8 @@ Lorsque la propriété {{PropertyView/fr|Lighting}} de la surface est {{Value|On
 
 <img alt="" src=images/Surface_twisting_example_smooth.png  style="width:330px;"> <img alt="" src=images/Surface_twisting_example_twisted.png  style="width:330px;"> 
 *A gauche: les arêtes limites sont orientées dans la même direction et ainsi la surface générée est lisse. A droite: les arêtes limites ont des directions opposées et donc la surface générée se tord sur elle-même, ce qui entraîne des auto-intersections.*
+
+
 
 ## Script
 

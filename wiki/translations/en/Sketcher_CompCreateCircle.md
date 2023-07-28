@@ -1,8 +1,6 @@
 ---
 - GuiCommand:
-   Name:Sketcher Circles
-   Icon:Sketcher_CompCreateCircle.png
-   MenuLocation:
+   Name:Sketcher CompCreateCircle
    Workbenches:[Sketcher](Sketcher_Workbench.md)
 ---
 
@@ -10,7 +8,7 @@
 
 ## Description
 
-**Create a circle** is an icon button in the Sketcher geometries toolbar that groups tools to create a circle. Click on the down arrow to its right to expand the icons below it and select a tool.
+**Create circle** is an icon button in the Sketcher geometries toolbar that groups tools to create a circle. Click on the down arrow to its right to expand the icons below it and select a tool.
 
 ## Types of circles 
 

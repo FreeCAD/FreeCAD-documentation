@@ -7,12 +7,16 @@
 
 # Draft Snap Near/pt-br
 
+
+
 ## Descrição
 
-The <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> **Draft Snap Near** option snaps to the nearest point on faces and edges. The faces and edges can belong to [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) objects but also to objects created with other [workbenches](Workbenches.md).
+The <img alt="" src=images/Draft_Snap_Near.svg  style="width:24px;"> **Draft Snap Near** option snaps to the nearest point on faces and edges. The faces and edges can belong to [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) objects but also to objects created with other [workbenches](Workbenches.md).
 
 ![](images/Draft_Snap_Near_example.png ) 
 *Snapping the second point of a line to the nearest point on an edge*
+
+
 
 ## Utilização
 
@@ -30,10 +34,14 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 8.  Optionally move the cursor along the face or edge to select a different nearest point.
 9.  Click to confirm the point.
 
+
+
 ## Notas
 
 -   It is not a good idea to have [Draft Snap Near](Draft_Snap_Near.md) permanently active as it takes precedence over many other snap options.
 -   In {{VersionMinus|0.20}} when snapping to curves, [Draft Snap Near](Draft_Snap_Near.md) snaps to their segmented representation in the [3D view](3D_view.md) which results in an inaccuracy. To get an exact on-curve point draw a [Draft Line](Draft_Line.md) across the curve and then cut the line with [Draft Trimex](Draft_Trimex.md) using the curve as a cutting tool.
+
+
 
 ## Preferências
 

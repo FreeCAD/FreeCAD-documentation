@@ -9,11 +9,15 @@
 
 # Sketcher NewSketch/ru
 
+
+
 ## Описание
 
 Этот инструмент создает новый [эскиз](Sketcher_Workbench/ru.md).
 
-Обратите внимание на то, что <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Верстак PartDesign](PartDesign_Workbench/ru.md) имеет свой собственный инструмент [новый эскиз](PartDesign_NewSketch/ru.md), при работе с [телом из PartDesign](PartDesign_Body/ru.md) лучше использовать его.
+Обратите внимание на то, что <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Верстак PartDesign](PartDesign_Workbench/ru.md) имеет свой собственный инструмент [Создать эскиз](PartDesign_NewSketch/ru.md), при работе с [телом PartDesign](PartDesign_Body/ru.md) предпочтительнее использовать этот инструмент.
+
+
 
 ## Применение
 
@@ -27,15 +31,11 @@
 
 Нажатие на значок с (предварительно выбранной) гранью приведет к тому, что эскиз будет размещен на выбранной грани.
 
+
+
 ## Примечания
 
-
-<div class="mw-translate-fuzzy">
-
-Эскиз может быть перенесен на другую уже существующую грань, используя команду [Связать эскиз с гранью](Sketcher_MapSketch/ru.md).
-
-
-</div>
+Эскиз может быть перенесен на другую уже существующую грань, используя команду [Разместить эскиз на грани](Sketcher_MapSketch/ru.md).
 
 Эскиз может быть перемещен в [трёхмерном пространстве](3D_view/ru.md) с помощью [Размещения](Placement/ru.md).
 

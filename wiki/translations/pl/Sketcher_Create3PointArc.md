@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/pl
    Name:Sketcher Create3PointArc
-   Name/pl:Szkicownik: Utwórz łuk przez 3 punkty
-   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz łuk przez 3 punkty
+   Name/pl:Szkicownik: Utwórz łuk przez trzy punkty
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz łuk przez trzy punkty
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **3** **A**
    SeeAlso:
@@ -10,9 +10,13 @@
 
 # Sketcher Create3PointArc/pl
 
+
+
 ## Opis
 
 To narzędzie rysuje łuk przez wybranie trzech punktów: punktu początkowego, punktu końcowego i punktu na łuku.
+
+
 
 ## Użycie
 

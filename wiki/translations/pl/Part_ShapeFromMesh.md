@@ -1,39 +1,48 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Part ShapeFromMesh‏‎
-   MenuLocation:Part → Create shape from mesh...
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part ConvertToSolid](Part_MakeSolid.md), [Part RefineShape](Part_RefineShape.md), [Part PointsFromMesh](Part_PointsFromMesh.md)
+   Name/pl:Część: Utwórz kształt z siatki
+   MenuLocation:Part → Utwórz kształt z siatki ...
+   Workbenches:[Część](Part_Workbench/pl.md)
+   SeeAlso:[Utwórz bryłę](Part_MakeSolid/pl.md), [Udoskonal kształt](Part_RefineShape/pl.md), [Utwórz obiekt punktów z siatki](Part_PointsFromMesh/pl.md)
 ---
 
 # Part ShapeFromMesh/pl
 
-## Introduction
 
-The **<img src="images/Part_ShapeFromMesh.svg" width=16px> [Part ShapeFromMesh](Part_ShapeFromMesh.md)** command creates a shape from a [mesh object](Mesh.md). Mesh objects have limited editing capabilities in FreeCAD, converting them to [shapes](Shape.md) will allow their use with many more boolean and modification tools.
 
-The inverse operation is **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh FromPartShape](Mesh_FromPartShape.md)** from the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md).
+## Wprowadzenie
 
-## Usage
+Polecenie **<img src="images/Part_ShapeFromMesh.svg" width=16px> '''Utwórz kształt z siatki'''** tworzy kształt z [obiektu siatkowego](Mesh/pl.md). Obiekty siatkowe mają ograniczone możliwości edycji w FreeCAD, konwersja ich do [kształtu](Shape/pl.md) pozwoli na ich użycie z wieloma innymi narzędziami logicznymi i modyfikującymi.
 
-1.  Select the mesh object in the [tree view](tree_view.md).
-2.  Go to the menu, **Part → [<img src=images/Part_ShapeFromMesh.svg style="width:16px"> Create shape from mesh**.
-3.  A popup-menu will ask for the tolerance for sewing shape; the default value is {{Value|0.1}}.
-4.  A [shape](Shape.md) from the mesh object is created as a separate new object.
+Operacja odwrotna to **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Siatka z kształtu](Mesh_FromPartShape/pl.md)** ze środowiska pracy <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Siatki](Mesh_Workbench/pl.md).
 
-Analyzing and repairing of the mesh, if needed, should be done manually before launching **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [ShapeFromMesh](Part_ShapeFromMesh.md)**. Appropriate tools for this task are available in the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md).
 
-After creation of a [Shape](Shape.md), it may be useful to use **[<img src=images/Part_MakeSolid.svg style="width:16px"> [Convert to solid](Part_MakeSolid.md)** (necessary for [boolean operations](Part_Boolean.md)) and **[<img src=images/Part_RefineShape.svg style="width:16px"> [Refine shape](Part_RefineShape.md)**.
 
-## Links
+## Użycie
 
--   [Edit STL Files In FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) video by AllVisuals4U.
+1.  Wybierz obiekt siatki w oknie [Widoku drzewa](Tree_view/pl.md).
+2.  Przejdź do menu **Część → [<img src=images/Part_ShapeFromMesh.svg style="width:16px"> Utwórz kształt z siatki ...**
+3.  Pojawi się wyskakujące okienko z pytaniem o tolerancję szycia kształtu, domyślną wartością jest {{Value|0.1}}.
+4.  [Kształt](Shape/pl.md) z obiektu siatki jest tworzony jako oddzielny nowy obiekt.
 
-## Scripting
+Analiza i naprawa siatki, jeśli to konieczne, powinna być wykonana ręcznie przed uruchomieniem narzędzia **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> '''Utwórz kształt z siatki ...'''**. Odpowiednie narzędzia do tego zadania dostępne są w środowisku pracy <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Siatka](Mesh_Workbench/pl.md).
 
-Creating a [Shape](Shape.md) from a [Mesh](Mesh.md) can be done by using the `makeShapeFromMesh` method from a [Part TopoShape](Part_TopoShape.md); you need to specify the source mesh and tolerance, and assign the result to a new [Part Feature](Part_Feature.md) object.
+Po utworzeniu [Kształtu](Shape/pl.md) przydatne może być użycie narzędzia **[<img src=images/Part_MakeSolid.svg style="width:16px"> [Przekształć na bryłę](Part_MakeSolid/pl.md)** *(niezbędne dla operacji [logicznych](Part_Boolean.md))* oraz **[<img src=images/Part_RefineShape.svg style="width:16px"> [Udoskonal kształt](Part_RefineShape/pl.md)**.
 
-Notice that the mesh must be recalculated before it is converted to a Shape, otherwise there won\'t be topology information, and the conversion won\'t be successful.
+
+
+## Odnośniki internetowe 
+
+-   [Edytuj pliki STL w FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) wideo autorstwa AllVisuals4U.
+
+
+
+## Tworzenie skryptów 
+
+Tworzenie [kształtu](Shape/pl.md) z [siatki](Mesh/pl.md) może być wykonane za pomocą metody `makeShapeFromMesh` z [kształtu topologicznego](Part_TopoShape/pl.md). Musisz określić siatkę źródłową i tolerancję, a następnie przypisać wynik do nowego obiektu [Cechy](Part_Feature/pl.md).
+
+Należy zauważyć, że siatka musi zostać ponownie obliczona przed konwersją do Kształtu, w przeciwnym razie nie będzie informacji o topologii, a konwersja nie powiedzie się.
 
 
 ```python

@@ -1,8 +1,9 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ExtensionVertexAtIntersection
-   MenuLocation:TechDraw → Extensions: Centerlines/Threading → Add Cosmetic Intersection Vertex(es)
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Rozszerzenie Dodaj wierzchołek kosmetyczny na przecięciu
+   MenuLocation:Rysunek Techniczny → Rozszerzenia: Linie środka / Gwinty → Dodaj wierzchołek kosmetyczny na przecięciu
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
    SeeAlso:
@@ -10,20 +11,24 @@
 
 # TechDraw ExtensionVertexAtIntersection/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:24px;"> **TechDraw ExtensionVertexAtIntersection** tool adds cosmetic vertex(es) at the intersection(s) of selected edges.
+
+## Opis
+
+Narzędzie *Dodaj wierzchołek kosmetyczny na przecięciu* dodaje geometrie pomocnicze wierzchołka *(wierzchołków)* na przecięciu *(przecięciach)* wybranych krawędzi.
 
 <img alt="" src=images/TechDraw_ExtensionVertexAtIntersectionExample.png  style="width:200px;"> 
-*On the right two added cosmetic vertexes*
+*Po prawej stronie dodano dwa kosmetyczne wierzchołki*
 
-## Usage
 
-1.  Select two edges. Straight edges will be considered as infinite lines, and arcs will be considered as full circles.
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionVertexAtIntersection.svg" width=16px> [TechDraw ExtensionVertexAtIntersection](TechDraw_ExtensionVertexAtIntersection.md)** button.
-    -   Select the **TechDraw → Extensions: Centerlines/Threading → <img src="images/TechDraw_ExtensionVertexAtIntersection.svg" width=16px> Add Cosmetic Intersection Vertex(es)** option from the menu.
-3.  A cosmetic vertex is added at each intersection.
+
+## Użycie
+
+1.  Wybierz dwie krawędzie. Proste krawędzie będą traktowane jako nieskończone linie, a łuki jako pełne okręgi.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionVertexAtIntersection.svg" width=16px> '''Dodaj wierzchołek kosmetyczny na przecięciu'''**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Rozszerzenia: Linie środka / Gwinty → <img src="images/TechDraw_ExtensionVertexAtIntersection.svg" width=16px> Dodaj wierzchołek kosmetyczny na przecięciu**.
+3.  Na każdym przecięciu zostanie dodany wierzchołek kosmetyczny.
 
 
 

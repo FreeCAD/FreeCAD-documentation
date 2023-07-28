@@ -57,4 +57,4 @@ Once installed go to **Edit → Preferences → General**, find the preference p
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Private Preference Packs/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Private Preference Packs/en

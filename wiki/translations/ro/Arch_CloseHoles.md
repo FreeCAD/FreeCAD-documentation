@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -21,6 +23,8 @@ Acest instrument identifică găuri/orificii (secvența circulară a marginilor 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -41,12 +45,19 @@ Acest instrument identifică găuri/orificii (secvența circulară a marginilor 
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Scrip-Programare 
 
 
 </div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">

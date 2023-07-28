@@ -1,7 +1,22 @@
-# <img alt="Логотип верстака Image" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench/ru
+# Image Workbench/ru
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+**The '''Image Workbench''' is no longer included after version 0.20.<br>
+It functionality has been integrated in [Std Base](Std_Base.md). See [Std Import](Std_Import.md) and [Std ViewLoadImage](Std_ViewLoadImage.md).**
+
+<img alt="Логотип верстака Image" src=images/Workbench_Image.svg  style="width:128px;">
 
 
 {{TOCright}}
+
+
 
 ## Введение
 
@@ -9,6 +24,8 @@
 {{TOCright}}
 
 [Верстак Image](Image_Workbench/ru.md) обрабатывает различные типы [растровых](bitmap/ru.md) изображений, и позволяет открыть их в FreeCAD.
+
+
 
 ## Инструменты
 
@@ -21,6 +38,8 @@
 
 
 </div>
+
+
 
 ## Особенности
 
@@ -45,7 +64,13 @@
 Смещение может быть установлено при импорте, или позднее, редактированием положения изображения.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Image Tools navi
@@ -55,4 +80,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Image](Category_Image.md) > Image Workbench/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/ru

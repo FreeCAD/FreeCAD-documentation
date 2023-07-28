@@ -45,13 +45,7 @@ The **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)*
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-### Примечания
-
-
-</div>
+## Примечания
 
 -   An object can only belong to a single Part.
 -   3D operations like [Part Boolean](Part_Boolean.md) cannot be applied to Parts. For example, you cannot select two Parts, and perform a [Part Fuse](Part_Fuse.md) or [Part Cut](Part_Cut.md).

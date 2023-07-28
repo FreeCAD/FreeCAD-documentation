@@ -10,7 +10,13 @@
 
 ## Description
 
-Cet outil vous permet de créer un arbre à partir d\'un tableau de valeurs et d\'analyser les forces et les moments. Vous pouvez démarrer l\'assistant par la commande **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Conception d'arbre...**.
+Cet outil vous permet de créer un arbre à partir d\'un tableau de valeurs et d\'analyser les forces et les moments.
+
+
+
+## Utilisation
+
+Vous pouvez démarrer l\'assistant par la commande **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Conception d'arbre...**.
 
 L\'assistant démarre et affiche un tableau par défaut, la partie de l\'arbre correspondante et les graphiques des forces/moments.
 

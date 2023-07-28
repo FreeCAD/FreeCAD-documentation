@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 Środowisko pracy <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh](Mesh_Workbench.md) obsługuje [sieci trójkątnych oczek](http://en.wikipedia.org/wiki/Triangle_mesh). Siatki są specjalnym rodzajem obiektu 3D, złożonym z trójkątnych ścian połączonych ich wierzchołkami i krawędziami.
@@ -12,6 +14,8 @@ Wiele aplikacji 3D, takich jak [Sketchup](http://en.wikipedia.org/wiki/Sketchup)
 **Jednak w dziedzinie siatek inżynieryjnych istnieje jedno duże ograniczenie:** nie mogą one dokładnie określać zakrzywionych powierzchni. Dlatego FreeCAD polega na [Brep](wikipedia_Boundary_representation.md). Środowisko pracy Mesh oferuje kilka poleceń do bezpośredniego manipulowania siatkami, ale najczęściej jest używane do importu danych o siatkach 3D i konwertowania ich na bryłę, do użycia w Środowisku pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/pl.md) lub <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md).
 
 <img alt="" src=images/Mesh_example.jpg  style="width:500px;">
+
+
 
 ## Przybory
 
@@ -25,7 +29,7 @@ Wszystkie narzędzia Środowiska pracy Siatka są dostępne w menu **Siatki**. P
 
 Utwórz siatkę z kształtu \...\]\]: Tworzy obiekty siatkowe z obiektów kształtu.
 
--   <img alt="" src=images/Mesh_RemeshGmsh.svg  style="width:32px;"> [Doskonalenie..](Mesh_RemeshGmsh.md): Ulepsza obiekty siatkowe. {{Version/pl|0.19}}
+-   <img alt="" src=images/Mesh_RemeshGmsh.svg  style="width:32px;"> [Ulepsz przez Gmsh](Mesh_RemeshGmsh/pl.md): Ulepsza obiekty siatkowe.
 
 -   Analiza
     -   <img alt="" src=images/Mesh_Evaluation.svg  style="width:32px;"> [Oceń i napraw siatkę\...](Mesh_Evaluation.md) Ocenia i naprawia obiekt siatkowy.
@@ -56,7 +60,7 @@ Utwórz siatkę z kształtu \...\]\]: Tworzy obiekty siatkowe z obiektów kszta�
 
 -   <img alt="" src=images/Mesh_Smoothing.svg  style="width:32px;"> [Wygładź\...](Mesh_Smoothing.md): Wygładza obiekt siatki.
 
--   <img alt="" src=images/Mesh_Decimating.svg  style="width:32px;"> [Decymacja\...](Mesh_Decimating.md): Zmniejsza liczbę powierzchni w obiektach siatkowych. {{Version/pl|0.19}}
+-   <img alt="" src=images/Mesh_Decimating.svg  style="width:32px;"> [Uprość \...](Mesh_Decimating/pl.md): Zmniejsza liczbę ścianek w obiektach siatkowych.
 
 -   <img alt="" src=images/Mesh_Scale.svg  style="width:32px;"> [Skala\...](Mesh_Scale.md): Skaluje obiekt siatki.
 
@@ -68,19 +72,21 @@ Utwórz siatkę z kształtu \...\]\]: Tworzy obiekty siatkowe z obiektów kszta�
     -   <img alt="" src=images/Mesh_Difference.svg  style="width:32px;"> [Różnica](Mesh_Difference.md): Tworzy obiekt siatki, który jest różnicą dwóch obiektów siatki.
 
 -   Przycinanie
-    -   <img alt="" src=images/Mesh_PolyCut.svg  style="width:32px;"> [Przytnij siatkę linia łamaną](Mesh_PolyCut.md): Wycina całe powierzchnie z obiektów siatkowych.
-    -   <img alt="" src=images/Mesh_PolyTrim.svg  style="width:32px;"> [Przytnij siatkę](Mesh_PolyTrim.md): Przycina powierzchnie i części ścian z obiektów siatki.
-    -   <img alt="" src=images/Mesh_TrimByPlane.svg  style="width:32px;"> [Przytnij siatkę płaszczyzną](Mesh_TrimByPlane.md): Przycina powierzchnie i części powierzchni po jednej stronie płaszczyzny z obiektu siatkowego.
-    -   <img alt="" src=images/Mesh_SectionByPlane.svg  style="width:32px;"> [Tworzenie przekroju z siatki i płaszczyzny](Mesh_SectionByPlane.md): Tworzy przekrój poprzeczny przez obiekt siatkowy.
-    -   <img alt="" src=images/Mesh_CrossSections.svg  style="width:32px;"> [Przekrój\...](Mesh_CrossSections.md): Tworzy wiele przekrojów poprzecznych na obiektach siatkowych.. {{Version/pl|0.19}}
+    -   <img alt="" src=images/Mesh_PolyCut.svg  style="width:32px;"> [Przytnij siatkę linia łamaną](Mesh_PolyCut/pl.md): Wycina całe powierzchnie z obiektów siatkowych.
+    -   <img alt="" src=images/Mesh_PolyTrim.svg  style="width:32px;"> [Przytnij siatkę](Mesh_PolyTrim/pl.md): Przycina powierzchnie i części ścian z obiektów siatki.
+    -   <img alt="" src=images/Mesh_TrimByPlane.svg  style="width:32px;"> [Przytnij siatkę płaszczyzną](Mesh_TrimByPlane/pl.md): Przycina powierzchnie i części powierzchni po jednej stronie płaszczyzny z obiektu siatkowego.
+    -   <img alt="" src=images/Mesh_SectionByPlane.svg  style="width:32px;"> [Tworzenie przekroju z siatki i płaszczyzny](Mesh_SectionByPlane/pl.md): Tworzy przekrój poprzeczny przez obiekt siatkowy.
+    -   <img alt="" src=images/Mesh_CrossSections.svg  style="width:32px;"> [Przekrój\...](Mesh_CrossSections/pl.md): Tworzy wiele przekrojów poprzecznych na obiektach siatkowych.
 
 -   <img alt="" src=images/Mesh_Merge.svg  style="width:32px;"> [Połącz](Mesh_Merge.md): Tworzy obiekt siatki poprzez połączenie dwóch lub więcej obiektów siatkowych.
 
--   <img alt="" src=images/Mesh_SplitComponents.svg  style="width:32px;"> [Podziel według komponentów](Mesh_SplitComponents.md): Dzieli obiekt siatkowy na jego komponenty. {{Version/pl|0.19}}
+-   <img alt="" src=images/Mesh_SplitComponents.svg  style="width:32px;"> [Podziel według komponentów](Mesh_SplitComponents/pl.md): Dzieli obiekt siatkowy na jego komponenty.
 
--   <img alt="" src=images/MeshPart_CreateFlatMesh.svg  style="width:32px;"> [Rozwiń siatkę](MeshPart_CreateFlatMesh.md): Tworzy płaską reprezentację obiektu siatkowego. {{Version/pl|0.19}}
+-   <img alt="" src=images/MeshPart_CreateFlatMesh.svg  style="width:32px;"> [Rozwiń siatkę](MeshPart_CreateFlatMesh/pl.md): Tworzy płaską reprezentację obiektu siatkowego.
 
--   <img alt="" src=images/MeshPart_CreateFlatFace.svg  style="width:32px;"> [Rozwiń powierzchnię](MeshPart_CreateFlatFace.md): Tworzy płaską reprezentację powierzchni obiektu kształtu. {{Version/pl|0.19}}
+-   <img alt="" src=images/MeshPart_CreateFlatFace.svg  style="width:32px;"> [Rozwiń powierzchnię](MeshPart_CreateFlatFace/pl.md): Tworzy płaską reprezentację powierzchni obiektu kształtu.
+
+
 
 ## Ustawienia
 
@@ -90,6 +96,8 @@ Preferencje środowiska pracy Mesh można znaleźć w następujących kategoriac
 
 -   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Wyświetlanie](Preferences_Editor/pl#Ustawienia_wy.C5.9Bwietlania.md): Na karcie [widoku siatki](Preferences_Editor/pl#Widok_siatki.md) można ustawić kilka parametrów.
 -   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences/pl.md): Polecenia [Siatka: Połączenie](Mesh_Union/pl.md), [Siatka: Przecięcie](Mesh_Intersection/pl.md) oraz [Siatka: Różnica](Mesh_Difference/pl.md) wymagają [OpenSCAD](http://www.openscad.org/) i użyj preferencji **OpenSCAD executable**, aby znaleźć plik wykonywalny.
+
+
 
 ## Uwagi
 

@@ -303,6 +303,8 @@ We will now create two more Draft Views, one for each group of dimensions.
 Our page is now ready, and we can export it to SVG or DXF formats, or print it. The SVG format allows you to open the file using illustration applications such as [Inkscape](http://www.inkscape.org), with which you can quickly enhance technical drawings and turn them into much nicer presentation drawings. It offers many more possibilities than the DXF format.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 **Downloads**
@@ -313,6 +315,8 @@ Our page is now ready, and we can export it to SVG or DXF formats, or print it. 
 -   The file produced during this exercise: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/house.FCStd>
 -   The IFC file exported from the above file: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/house.ifc>
 -   The SVG file exported from the above file: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/house.svg>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -340,4 +344,4 @@ Our page is now ready, and we can export it to SVG or DXF formats, or print it. 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > Manual:BIM modeling/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > Manual:BIM modeling/ro

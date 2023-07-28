@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  style="width:24px;"> **TechDraw Ligne perpendiculaire** ajoute une ligne cosmétique perpendiculaire à une autre ligne passant par un sommet.
+L\'outil **TechDraw Ligne perpendiculaire** ajoute une ligne cosmétique perpendiculaire à une autre ligne passant par un sommet.
 
 <img alt="" src=images/TechDraw_ExtensionLinePerpendicularExample.png  style="width:250px;"> 
 *A droite, une ligne perpendiculaire cosmétique a été ajoutée*
+
+
 
 ## Utilisation
 

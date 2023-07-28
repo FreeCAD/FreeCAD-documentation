@@ -7,6 +7,8 @@
 
 # Sketcher StopOperation/hr
 
+
+
 ## Opis
 
 
@@ -15,6 +17,8 @@
 stops a currently active command while a sketch is being edited; this may mean a drawing operation, a constraining operation, a B-spline operation, etc.
 
 This is similar to pressing the **Esc** key.
+
+
 
 ## Upotreba
 

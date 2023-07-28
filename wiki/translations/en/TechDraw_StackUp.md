@@ -4,7 +4,7 @@
    MenuLocation:TechDraw → Stacking → Move view up one level
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
-   Version:1.0
+   Version:0.21
    SeeAlso:[TechDraw StackTop](TechDraw_StackTop.md), [TechDraw StackBottom](TechDraw_StackBottom.md), [TechDraw StackDown](TechDraw_StackDown.md)
 ---
 
@@ -12,7 +12,7 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_StackUp.svg  style="width:24px;"> **TechDraw StackUp** tool moves Views up one level in the stacking order. The stacking order controls the apparent depth of Views on a page.
+The **TechDraw StackUp** tool moves Views up one level in the stacking order. The stacking order controls the apparent depth of Views on a page.
 
 See [TechDraw StackTop](TechDraw_StackTop.md).
 

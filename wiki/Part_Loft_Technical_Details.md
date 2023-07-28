@@ -37,7 +37,7 @@ The correspondence between neighboring profiles is made independently. This mean
 
 Another thing to note is that when numbers of segments in profiles are equal, the resulting Loft is substantially more robust with respect to complex profiles, especially for non-convex ones.  
 
-### Step 3. Making the loft surface. 
+### Step 3. Making the loft surface 
 
 <img alt="A spline interpolation curve (red) that follows the loft surface. The points to interpolate through are shown as red squares." src=images/Loft_B-spline.png  style="width:400px;"> If there are only two profiles, the surfaces created are ruled surfaces between corresponding segments of the profiles. Straight edges are created to connect corresponding vertices of the profiles.
 
@@ -52,7 +52,7 @@ The knotting method used is \"approximate chord length\". Approximate stands for
 
 Note that Loft has a \"Ruled\" property. If it is set to true, ruled surfaces are made between neighboring profiles even when there\'s more than one profile. That is, B-spline interpolation is replaced by piecewise linear interpolation.  
 
-## The essence 
+## The main point 
 
 -   The loft is doing B-spline interpolation between the provided profiles. The interpolation is switched to piecewise linear when \"Ruled\" property is set to true.
 -   When number of profiles exceeds 9, interpolation degree is dropped to 3. This switchover can substantially reduce wiggling.

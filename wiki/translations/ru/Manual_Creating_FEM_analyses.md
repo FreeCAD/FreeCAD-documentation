@@ -13,6 +13,8 @@
 
 <img alt="" src=images/Exercise_fem_01.jpg  style="width:600px;">
 
+
+
 ### Подготовка FreeCAD 
 
 
@@ -22,6 +24,8 @@
 
 
 </div>
+
+
 
 ### Подготовка геометрии 
 
@@ -46,6 +50,8 @@
 
 
 :   <img alt="" src=images/Exercise_fem_03.jpg  style="width:600px;">
+
+
 
 ### Создание анализа 
 

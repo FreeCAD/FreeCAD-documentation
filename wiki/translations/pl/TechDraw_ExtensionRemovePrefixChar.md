@@ -1,8 +1,9 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ExtensionRemovePrefixChar
-   MenuLocation:TechDraw → Extensions: Dimensions → Remove Prefix
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Rozszerzenie Usuń przedrostek
+   MenuLocation:Rysunek Techniczny → Rozszerzenia: Wymiary → Usuń prefiks
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
    SeeAlso:
@@ -10,20 +11,24 @@
 
 # TechDraw ExtensionRemovePrefixChar/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_ExtensionRemovePrefixChar.svg  style="width:24px;"> **TechDraw ExtensionRemovePrefixChar** tool removes all prefix symbols from the dimension text.
+
+## Opis
+
+Narzędzie **Usuń przedrostek** usuwa wszystkie symbole prefiksów z tekstu wymiaru.
 
 <img alt="" src=images/TechDraw_ExtensionRemovePrefixCharExample.png  style="width:500px;"> 
-*On the right dimensions without prefix symbols*
+*Po prawej wymiary bez przedrostków*
 
-## Usage
 
-1.  Select one or more dimensions.
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionRemovePrefixChar.svg" width=16px> [TechDraw ExtensionRemovePrefixChar](TechDraw_ExtensionRemovePrefixChar.md)** button.
-    -   Select the **TechDraw → Extensions: Dimensions → <img src="images/TechDraw_ExtensionRemovePrefixChar.svg" width=16px> Remove Prefix** option from the menu.
-3.  All prefix symbols are removed from the dimension text of the selected dimensions.
+
+## Użycie
+
+1.  Wybierz jeden lub więcej wymiarów.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionRemovePrefixChar.svg" width=16px> '''Usuń przedrostek'''**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Rozszerzenia: Wymiary → <img src="images/TechDraw_ExtensionRemovePrefixChar.svg" width=16px> Usuń przedrostek**.
+3.  Wszystkie symbole prefiksów zostaną usunięte z tekstu wybranych wymiarów.
 
 
 

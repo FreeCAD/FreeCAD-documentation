@@ -4,10 +4,12 @@
    Name/pl:Część: Walec
    MenuLocation:Część → Bryła pierwotna → Walec
    Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Bryły pierwotne](Part_CreatePrimitives/pl.md)
+   SeeAlso:[Utwórz geometrie pierwotne](Part_CreatePrimitives/pl.md)
 ---
 
 # Part Cylinder/pl
+
+
 
 ## Opis
 
@@ -16,6 +18,8 @@ Narzędzie <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> **Wale
 Walec środowiska pracy Część można przekształcić w fragment walca, zmieniając jego właściwość **Kąt**.
 
 <img alt="" src=images/Part_Cylinder_Example.png  style="width:400px;">
+
+
 
 ## Użycie
 
@@ -32,21 +36,29 @@ Walec środowiska pracy Część można przekształcić w fragment walca, zmieni
     -   Zmień właściwości w [Edytorze właściwości](Property_editor/pl.md).
     -   Zmień **Umiejscowienie** za pomocą <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std: Przemieszczenie](Std_TransformManip/pl.md).
 
+
+
 ## Przykład
 
 ![Walec środowiska pracy Część na przykładzie skryptu](images/Part_Cylinder_Scripting_Example.png )
 
 Poniżej pokazano obiekt Walca utworzony za pomocą [przykładowego skryptu](#Tworzenie_skrypt.C3.B3w.md).
 
+
+
 ## Uwagi
 
--   Walec środowiska pracy Część można również utworzyć za pomocą narzędzia <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Geometrie pierwotne](Part_Primitives/pl.md). Za jego pomocą można określić wymiary i umiejscowienie w czasie tworzenia.
+-   Walec środowiska pracy Część można również utworzyć za pomocą narzędzia <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Utworz geometrie pierwotne](Part_Primitives/pl.md). Za jego pomocą można określić wymiary i umiejscowienie w czasie tworzenia.
+
+
 
 ## Właściwości
 
-Zobacz również: [Edytor właściwości](Property_editor/pl.md).
+Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
 
 Obiekt Walec wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
 
 ### Dane
 
@@ -70,6 +82,8 @@ Obiekt ten ma takie same właściwości dołączania jak [Part: Part2DObject](Pa
 -    **Kąt pierwszy|kąt**: Kąt między kierunkiem wyciągania walca a jego dodatnią osią Z, mierzony wokół jego osi Y. Kąt jest dodatni w kierunku dodatniej osi X. Poprawny zakres: {{Value|0° &lt;&#61; wartość &lt; 90°}}. Wartość domyślna to {{Value|0°}}. <small>(v0.20)</small> 
 
 -    **Kąt drugi|kąt**: Kąt między kierunkiem wyciągania walca a jego dodatnią osią Z, mierzony wokół jego osi X. Kąt jest dodatni w kierunku dodatniej osi Y. Poprawny zakres: {{Value|0° &lt;&#61; wartość &lt; 90°}}. Wartość domyślna to {{Value|0°}}. {{Version/pl|0.20}}
+
+
 
 ## Tworzenie skryptów 
 

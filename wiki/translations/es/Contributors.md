@@ -6,6 +6,8 @@
 FreeCAD no sería lo que es sin las generosas contribuciones de muchas personas. Aquí hay un resumen de las personas y empresas que han contribuido a FreeCAD a lo largo del tiempo. Para ver los créditos de las librerías de terceros vea la página [Librerías de terceros](Third_Party_Libraries/es.md).
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Desarrollo

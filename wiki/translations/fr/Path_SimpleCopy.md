@@ -11,7 +11,9 @@
 
 ## Description
 
-Cet outil crée une copie non-paramétrique d\'un parcours donné.
+L\'outil <img alt="" src=images/Path_SimpleCopy.svg  style="width:24px;"> [Copie simple](Path_SimpleCopy/fr.md) crée une copie non-paramétrique d\'un parcours donné.
+
+
 
 ## Utilisation
 
@@ -19,9 +21,11 @@ Cet outil crée une copie non-paramétrique d\'un parcours donné.
 2.  Pressez le bouton **<img src="images/Path_SimpleCopy.svg" width=16px> [Copie simple](Path_SimpleCopy/fr.md)
 **
 
+
+
 ## Options
 
--   La simple copie ne lie plus le parcours qui a été utilisé pour la copie et n\'est pas paramétrique. Par conséquent, lors de l\'édition avec l\'outil [Path Inspection du G-code](Path_Inspect/fr.md), tout changement fait à son G-code sera gardé.
+-   La simple copie ne lie plus le parcours qui a été utilisé pour la copie et n\'est pas paramétrique. Par conséquent, lors de l\'édition avec l\'outil [Path Inspecter des commandes](Path_Inspect/fr.md), tout changement fait à son G-code sera gardé.
 
 
 

@@ -10,6 +10,8 @@
 
 # Arch Rebar UShape/ru
 
+
+
 ## Описание
 
 
@@ -34,6 +36,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 </div>
 
+
+
 ## Применение
 
 1.  Select any face of a previously created **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object.
@@ -44,7 +48,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 4.  Select the desired orientation.
 
-5.  Populate the inputs like \'Left Cover\', Right Cover, Top Cover, \'Bottom Cover\', \'Front Cover\', \'Bent Angle\', \'Bent Factor\', \'Rounding\' and \'Diameter\' of the rebar.
+5.  Populate the inputs like \'Left Cover\', \'Right Cover\', \'Top Cover\', \'Bottom Cover\', \'Front Cover\', \'Bent Angle\', \'Bent Factor\', \'Rounding\' and \'Diameter\' of the rebar.
 
 6.  Select the mode of distribution either \'Amount\' or \'Spacing\'.
     -   If \'Spacing\' is selected, a user can also opt for [custom spacing](Custom_Spacing.md).
@@ -61,6 +65,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 
 *Taskview panel for the Arch Rebar UShape tool*
+
+
 
 ## Свойства
 
@@ -81,6 +87,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 -    **Amount**: The amount of rebars.
 
 -    **Spacing**: The distance between the axes of each bar.
+
+
 
 ## Программирование
 
@@ -121,6 +129,8 @@ Rebar = makeUShapeRebar(f_cover, b_cover, r_cover, l_cover,
 -    `amount_spacing_value`specifies the number of reinforcement bars, or the value of the separation between them, depending on `amount_spacing_check`.
 
 -    `orientation`specifies the orientation of the rebar; it can be `"Bottom"`, `"Top"`, `"Right"`, or `"Left"`.
+
+
 
 ### Пример
 

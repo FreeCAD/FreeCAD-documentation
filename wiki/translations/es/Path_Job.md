@@ -15,7 +15,7 @@
 
 ## Description
 
-The Job tool creates a new Job object in the active document. The Job object contains the following information:
+The <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Job](Path_Job.md) tool creates a new Job object in the active document. The Job object contains the following information:
 
 1.  A list of Tool-Controller definitions, specifying the geometry, Feeds, and Speeds for the Path Operations Tools.
 2.  A Workflow sequential list of Path Operations.
@@ -41,6 +41,8 @@ The Job GUI dialog box has five horizontal aligned tabs: **General**, **Output**
 -   **Model**: The Base Object which defines by its shape the paths of the job. If it is a Part Design object it is usually the Body which you select here. If you have an element selected in the tree *before* you click the \"Add Job\" icon that element is already entered here. You can change it by selecting a different element from the dropdown menu.
 -   **Description**: You can add some notes to the job here. Notes are only for your information and have no effect on the path.
 
+
+
 ## Resultado
 
 ![](images/Job_2.jpg )
@@ -54,6 +56,8 @@ The Job GUI dialog box has five horizontal aligned tabs: **General**, **Output**
 -   **Processor**: Select the [postprocesser](Path_Post.md) for your machine.
 -   **Arguments**: Add arguments for the [postprocesser](Path_Post.md) as needed.
 
+
+
 ## Configuración
 
 ![](images/Job_3.jpg )
@@ -61,6 +65,8 @@ The Job GUI dialog box has five horizontal aligned tabs: **General**, **Output**
 -   **Stock**: set the size and shape of the raw material.
 -   **Orientation**: Selected Edge or Face is used to orient Base or Stock accordingly.
 -   **Alignment**: select a Vertex to set origin or move Base or Stock
+
+
 
 ## Herramientas
 
@@ -71,6 +77,8 @@ Add the tool(s) from your [Tooltable](Path_ToolLibraryEdit.md) which you need fo
 After adding a tool, you can set/change the feedrate and spindle speed if you need a different feedrate in this job. A change here doesn\'t change the parameters stored in the tooltable.
 
 The default tool you can delete if you have a own tool added.
+
+
 
 ## Programa de trabajo 
 

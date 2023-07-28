@@ -1,4 +1,7 @@
 # ANSI templates/cs
+**The templates on this page are for the old [Drawing Workbench](Drawing_Workbench.md).<br>
+ There will be issues when using them with the [TechDraw Workbench](TechDraw_Workbench.md).**
+
 Tato stránka obsahuje seznam šablon podle American National Standards Institute (ANSI) [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standardů
 
 ### ANSI A 
@@ -51,11 +54,15 @@ Tato stránka obsahuje seznam šablon podle American National Standards Institut
 
 <img alt="" src=images/ANSI_E_Portrait.svg  style="width:800px;">
 
+
+
 ## Ostatní dostupné standardy 
 
 -   [Výkresové šablony](Drawing_templates.md): default šablony FreeCADu
 -   [Stavební šablony](Arch_templates.md): podle American National Standards Institute (ANSI) [Stavební](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standardy
 -   [Různé šablony](Misc_templates.md): šablony různých typů
+
+
 
 ## Poděkování
 

@@ -119,7 +119,7 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 ## Remarques
 
 -   Les Draft Dimensions linéaires et radiales peuvent être modifiées avec la commande [Draft Editer](Draft_Edit/fr.md).
--   Les Draft Dimensions créées ou enregistrées avec la [version 1.0 de FreeCAD](Release_notes_1.0/fr.md) ne sont pas rétrocompatibles.
+-   Les Draft Dimensions créées ou enregistrées avec la [version 0.21 de FreeCAD](Release_notes_0.21/fr.md) ne sont pas rétrocompatibles.
 
 
 
@@ -200,7 +200,7 @@ Un objet Draft Dimension est dérivé d\'un objet [App FeaturePython](App_Featur
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: spécifie comment le texte est affiché. S\'il s\'agit de {{value|World}}, le texte sera affiché sur un plan défini par la **Normal** de la mesure. S\'il s\'agit de {{value|Screen}}, le texte sera toujours tourné vers l\'écran. Il s\'agit d\'une propriété héritée. Les options mentionnées sont les options renommées ({{Version/fr|1.0}}).
+-    **Display Mode|Enumeration**: spécifie comment le texte est affiché. S\'il s\'agit de {{value|World}}, le texte sera affiché sur un plan défini par la **Normal** de la mesure. S\'il s\'agit de {{value|Screen}}, le texte sera toujours tourné vers l\'écran. Il s\'agit d\'une propriété héritée. Les options mentionnées sont les options renommées ({{Version/fr|0.21}}).
 
 
 {{TitleProperty|Graphics}}
@@ -234,7 +234,7 @@ Un objet Draft Dimension est dérivé d\'un objet [App FeaturePython](App_Featur
 
 -    **Override|String**: spécifie un texte personnalisé à afficher à la place de la mesure réelle. Utilisez la chaîne {{value|$dim}} à l\'intérieur du texte pour inclure la mesure.
 
--    **Text Color|Color**: spécifie la couleur du texte. {{Version/fr|1.0}}
+-    **Text Color|Color**: spécifie la couleur du texte. {{Version/fr|0.21}}
 
 -    **Text Position|VectorDistance**: spécifie la position du texte en coordonnées absolues. {{Value|[0, 0, 0]}} affichera le texte dans sa position par défaut près de la ligne ou de l\'arc de dimension.
 

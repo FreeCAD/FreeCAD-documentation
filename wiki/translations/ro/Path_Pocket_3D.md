@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -15,7 +17,14 @@ Acest instrument crează o operație tip un buzunar 3D. Un buzunare 3 D ia în c
 
 </div>
 
+<img alt="" src=images/Path_3D_Pocket_Sample.png  style="width:600px;"> 
+*Sample image of 3D Pocket operation used to clear cylindrical battery holder.*
+
+
+
 ## Utilizare
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -49,7 +58,8 @@ Acest instrument crează o operație tip un buzunar 3D. Un buzunare 3 D ia în c
 -   Use the **Adaptive Pocket Finish** property to attempt to minimize air milling below a 3D Pocket in cases where the pocket is a hole through the model.
 -   Use the **Adaptive Pocket Start** property to attempt to minimize air milling upon entry to the pocket. For example, look at the sample image above in the [Description](Path_Pocket_3D#Description.md) section of this page. In order to reduce the air milling above that 3D Pocket, toggle this property to True and the paths will begin closer to the pocket, much nearer to where the pocket actually begins. See the following image and note the difference in the path start height. The air milling is reduced.
 
-<img alt="Sample image of 3D Pocket operation used to clear cylindrical battery holder with the Adaptive Pocket Start enabled in order to reduce air milling upon entry." src=images/3D_Pocket_Sample_Adaptive_Start.png  style="width:600px;">
+<img alt="" src=images/3D_Pocket_Sample_Adaptive_Start.png  style="width:600px;"> 
+*Sample image of 3D Pocket operation used to clear cylindrical battery holder with the Adaptive Pocket Start enabled in order to reduce air milling upon entry.*
 
 -   If you wish to process the entire model and stock as a whole, use the **Process Stock Area** property set to True with no Base Geometry selected.
 
@@ -72,42 +82,42 @@ Note: It is suggested that you do not edit the Placement property of path operat
     -   
         **Axis**
         
-        : Axis(one or multiple) around which to rotate the object, set in sub-properties: x, y, z
+        : Axis (one or multiple) around which to rotate the object, set in sub-properties: X, Y, Z
 
         -   
             **X**
             
-            : x axis value
+            : X axis value
 
         -   
             **Y**
             
-            : y axis value
+            : Y axis value
 
         -   
             **Z**
             
-            : z axis value
+            : Z axis value
 
     -   
         **Position**
         
-        : Position of the object, set in sub-properties: x, y, z - with respect to the origin (or origin of parent object container)
+        : Position of the object, set in sub-properties: X, Y, Z - with respect to the origin (or origin of parent object container)
 
         -   
             **X**
             
-            : x distance value
+            : X distance value
 
         -   
             **Y**
             
-            : y distance value
+            : Y distance value
 
         -   
             **Z**
             
-            : z distance value
+            : Z distance value
 
 -    **Label**: User-provided name of the object (UTF-8)
 
@@ -134,7 +144,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 {{TitleProperty|Path}}
 
--    **Active**: make False, to prevent operation from generating code
+-    **Active**: Make False, to prevent operation from generating code
 
 -    **Base**: The base geometry for this operation
 
@@ -188,17 +198,17 @@ Note: Rotation is not available for 3D Pocket as of 0.19.
     -   
         **X**
         
-        : x distance value
+        : X distance value
 
     -   
         **Y**
         
-        : y distance value
+        : Y distance value
 
     -   
         **Z**
         
-        : z distance value
+        : Z distance value
 
 -    **Use Start Point**: Make True, if manually specifying a Start Point. Set the start point in the property data Start Point field.
 

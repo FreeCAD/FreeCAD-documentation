@@ -10,9 +10,9 @@
 
 ## Description
 
-Exporting Job templates provides a convenient mechanism to save commonly used Job definitions from within an existing Job. This facilitates the setup of future Jobs, that are largely similar, by allowing Job template import during the Job creation process.
+The <img alt="" src=images/Path_ExportTemplate.svg  style="width:24px;"> [Export Template](Path_ExportTemplate.md) tool provides a convenient mechanism to save commonly used Job definitions from within an existing Job. This facilitates the setup of future Jobs, that are largely similar, by allowing Job template import during the Job creation process.
 
-The **Edit → Preferences... → Path → Job Preferences tab, Defaults → Template** sets the default template.
+The **Edit → Preferences... → Path → Job Preferences → Defaults → Template** sets the default template.
 
 ## Usage
 

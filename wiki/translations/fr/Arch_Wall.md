@@ -14,7 +14,7 @@
 
 Cet outil crée un objet mur à partir de zéro ou sur la base de n\'importe quel objet basé sur une [forme de Part](Part_Workbench/fr.md) ou sur une [forme de Mesh](Mesh_Workbench/fr.md). Un mur peut être construit sans objet de base, il se comportera alors comme un volume cubique, il sera construit à l\'aide des propriétés de longueur, largeur et hauteur. Lorsque qu\'il est construit sur une forme existante, le mur peut être basé sur :
 
--   Un **objet linéaire 2D**, tel que ligne, fil, arc ou croquis, dans ce cas, vous pouvez modifier l\'épaisseur, l\'alignement (droite, gauche ou centré) et la hauteur. La propriété de longueur n\'a pas d\'effet.
+-   Un **objet linéaire 2D**, tel que des lignes, polylignes, arcs ou esquisses, dans ce cas, vous pouvez modifier l\'épaisseur, l\'alignement (droite, gauche ou centré) et la hauteur. La propriété de longueur n\'a pas d\'effet.
 -   Une **face plane**, dans ce cas, vous ne pouvez pas changer la hauteur. La propriété length (longueur) n\'a pas d\'effet. Si le base de la face est verticale, le mur utilisera la propriété largeur au lieu de la propriété hauteur, vous permettant de construire des murs à partir d\'objets en forme d\'espace ou d\'étude de masse.
 -   Un **solide**, les propriétés de longueur, de largeur et de hauteur n\'ont aucun effet. Le mur utilise simplement le solide sous-jacent comme forme.
 -   Un **maillage**, dans ce cas, sous-jacente doit être un solide fermé, solide manifold.
@@ -40,7 +40,7 @@ Lorsque plusieurs murs doivent se croiser, vous devez les placer sur un [niveau]
 
 
 
-### Dessinez un mur sur un objet sélectionné 
+### Dessiner un mur sur un objet sélectionné 
 
 1.  Sélectionnez un ou plusieurs objets géométriques de base (objet Draft, esquisse, etc)
 2.  Cliquez sur le bouton **<img src="images/Arch_Wall.svg" width=16px> [Mur](Arch_Wall/fr.md)** ou pressez les touches **W** et **A**.
@@ -59,7 +59,7 @@ Lorsque plusieurs murs doivent se croiser, vous devez les placer sur un [niveau]
 -   Double-cliquer sur le mur dans l\'arborescence après sa création vous permet d\'entrer en mode édition et d\'accéder et de modifier ses ajouts et soustractions
 -   Les murs multicouches peuvent être facilement créés en construisant plusieurs murs à partir de la même ligne de base. En définissant leur propriété Align sur la gauche ou la droite et en spécifiant une valeur de décalage, vous pouvez créer efficacement plusieurs couches de murs. Placer une fenêtre dans un tel calque de mur propage l\'ouverture vers les autres calques de mur en fonction de la même ligne de base.
 -   Les murs peuvent également utiliser [Arch Matériaux multiples](Arch_MultiMaterial/fr.md). Lors de l\'utilisation d\'un multi-matériau, le mur deviendra multi-couche, en utilisant les épaisseurs spécifiées par le multi-matériau. Toute couche d\'épaisseur zéro verra son épaisseur définie automatiquement par l\'espace restant défini par la valeur Largeur du mur, après avoir soustrait les autres couches.
--   Les murs peuvent être conçus pour afficher des blocs, au lieu d\'un seul solide, en activant leur propriété **Make Blocks**. La taille et le décalage des blocs peuvent être configurés avec différentes propriétés, et la quantité de blocs est automatiquement calculée. {{Version/fr|0.18}}
+-   Les murs peuvent être conçus pour afficher des blocs, au lieu d\'un seul solide, en activant leur propriété **Make Blocks**. La taille et le décalage des blocs peuvent être configurés avec différentes propriétés, et la quantité de blocs est automatiquement calculée.
 
 
 
@@ -74,44 +74,58 @@ L\'aimantation fonctionne un peu différemment avec les murs Arch par rapport au
 
 ## Propriétés
 
-Les objets mur héritent des propriétés de [Part](Part_Workbench/fr.md), et ont également les propriétés supplémentaires suivantes :
-
--    **Align**: alignement de la base du mur sur la base de référence : Gauche, Droite ou Centre
-
--    **Base**: objet de base sur lequel ce mur est construit
-
--    **Face**: index de la face de l\'objet de base utilisée. Si la valeur n\'est pas définie ou est 0, l\'objet entier est utilisé
-
--    **Force Wire**: si la valeur est True le mur est basé sur une face, seul le bord de la face est utilisée, résultant en un mur bordant la face
-
--    **Length**: longueur du mur (non utilisé lorsque le mur est basé sur une face)
-
--    **Width**: largeur du mur. (non utilisé lorsque le mur est basé sur une face)
-
--    **Height**: hauteur du mur (non utilisé lorsque le mur est basé sur une face). Si aucune hauteur n\'est donnée et que le mur est à l\'intérieur d\'un objet [Niveau](Arch_Floor/fr.md) avec sa hauteur définie, le mur prendra automatiquement la valeur de la hauteur de l\'étage.
-
--    **Normal**: donne une direction pour l\'extrusion du mur. Si la valeur est à (0,0,0), la direction d\'extrusion est automatique.
-
--    **Offset**: spécifie la distance entre le mur et le niveau de référence. Fonctionne uniquement si la propriété Align est à droite ou à gauche (Right ou Left).
+Les objets Mur héritent des propriétés des objets [Part](Part_Workbench.md) et ont également des propriétés supplémentaires suivantes :
 
 
-{{Version/fr|0.18}}
 
--    **Make Blocks**: propriété pour créer les blocs
+### Données
+
+
+{{TitleProperty|Blocks}}
+
+-    **Block Height**: hauteur de chaque bloc
 
 -    **Block Length**: longueur de chaque bloc
 
--    **Block Height**: hauteur de chaque bloc
+-    **Count Broken**: nombre de blocs coupés (lecture seule)
+
+-    **Count Entire**: nombre de blocs entiers (lecture seule)
+
+-    **Joint**: taille des joints entre chaque bloc
+
+-    **Make Blocks**: propriété pour créer les blocs
 
 -    **Offset First**: décalage horizontal de la première ligne de blocs
 
 -    **Offset Second**: décalage horizontal de la deuxième ligne de blocs
 
--    **Joint**: taille des joints entre chaque bloc
 
--    **Count Entire**: nombre de blocs entiers (lecture seule)
+{{TitleProperty|Component}}
 
--    **Count Broken**: nombre de blocs coupés (lecture seule)
+-    **Base**: objet de base sur lequel le mur est construit
+
+
+{{TitleProperty|Wall}}
+
+-    **Align**: alignement de la base du mur sur la base de référence : Gauche, Droite ou Centre
+
+-    **Area**:
+
+-    **Face**: index de la face de l\'objet de base utilisée. Si la valeur n\'est pas définie ou est 0, l\'objet entier est utilisé
+
+-    **Height**: hauteur du mur (non utilisé lorsque le mur est basé sur une face). Si aucune hauteur n\'est donnée et que le mur est à l\'intérieur d\'un objet [Niveau](Arch_Floor/fr.md) avec sa hauteur définie, le mur prendra automatiquement la valeur de la hauteur de l\'étage.
+
+-    **Length**: longueur du mur (non utilisé lorsque le mur est basé sur une face)
+
+-    **Normal**: donne une direction pour l\'extrusion du mur. Si la valeur est à (0,0,0), la direction d\'extrusion est automatique.
+
+-    **Offset**: spécifie la distance entre le mur et le niveau de référence. Fonctionne uniquement si la propriété Align est à droite ou à gauche.
+
+-    **Override Align**:
+
+-    **Override Width**:
+
+-    **Width**: largeur du mur. (non utilisé lorsque le mur est basé sur une face)
 
 
 

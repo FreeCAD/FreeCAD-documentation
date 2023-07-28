@@ -1,32 +1,45 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Part BoxSelection
-   MenuLocation:Part → Box selection
-   Workbenches:[Part](Part_Workbench.md)
+   Name/pl:Część: Zaznacz obszarem
+   MenuLocation:Część → Zaznacz obszarem
+   Workbenches:[Część](Part_Workbench/pl.md)
    Version:0.18
-   SeeAlso:[Std BoxSelection](Std_BoxSelection.md), [Std BoxElementSelection](Std_BoxElementSelection.md), [Std SelectAll](Std_SelectAll.md)
+   SeeAlso:[Zaznacz obszar](Std_BoxSelection/pl.md), [Wybór elementów ramką zaznaczenia](Std_BoxElementSelection/pl.md), [Zaznacz wszystko](Std_SelectAll/pl.md)
 ---
 
 # Part BoxSelection/pl
 
-## Description
 
-The **<img src="images/Part_BoxSelection.svg" width=16px> [Part BoxSelection](Part_BoxSelection.md)** tool allows you to select the faces of the objects on the screen that are touched by the rectangular selection.
 
-**Alternatively**, if there is a need to select **only the vertices** of an object then **<img src="images/Std_BoxElementSelection.svg" width=16px> [Std BoxElementSelection](Std_BoxElementSelection.md)** can be used. Use **<img src="images/Std_BoxSelection.svg" width=16px> [Std BoxSelection](Std_BoxSelection.md)** if the need is to select the **entire** shape.
+## Opis
 
-## Usage
+Narzędzie **<img src="images/Part_BoxSelection.svg" width=16px> '''Zaznacz obszarem'''** pozwala wybrać ściany obiektów na ekranie, znajdujące się w zasięgu prostokątnego zaznaczenia.
 
-1.  Go to **Part → <img src="images/Part_BoxSelection.svg" width=16px> Box selection**.
-2.  Click and drag the pointer in the viewport creating a rectangle that touches one or more shapes.
+**Alternatywnie**, jeśli istnieje potrzeba wybrania **tylko wierzchołków** obiektu, wówczas może zostać zastosowana funkcja **<img src="images/Std_BoxElementSelection.svg" width=16px> [Wybór elementów ramką zaznaczenia](Std_BoxElementSelection/pl.md)**. Użyj **<img src="images/Std_BoxSelection.svg" width=16px> [Zaznacz obszar](Std_BoxSelection/pl.md)**, jeśli zachodzi potrzeba zaznaczenia **całego** kształtu.
 
-## Notes
 
-## Properties
 
-## Limitations
+## Użycie
 
-## Scripting
+1.  Przejdź do menu **Część → <img src="images/Part_BoxSelection.svg" width=16px> Zaznacz obszarem**.
+2.  Kliknij i przeciągnij wskaźnik w rzutni, tworząc prostokąt, który dotyka jednego lub więcej kształtów.
+
+
+
+## Uwagi
+
+
+
+## Właściwości
+
+
+
+## Ograniczenia
+
+
+
+## Tworzenie skryptów
 
 
 

@@ -14,40 +14,24 @@ Aber FreeCAD scheint sie nicht zu erkennen.
 }}
 
 
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-Manchmal, wenn ein Benutzer Änderungen am Modell vornimmt, scheint FreeCAD diese nicht zu erkennen und zu integrieren. Zusätzlich dazu bleibt die blaue **<img src="images/Std_Refresh.svg" width=24px> [Aktualisieren/Neuberechnen](Std_Refresh/de.md)** Taste ausgegraut. Daher wurde dieses kleine Makro entwickelt, um eine manuelle Neuberechnung des Modells zu erzwingen.
+Manchmal, wenn ein Benutzer Änderungen am Modell vornimmt, scheint FreeCAD diese nicht zu erkennen und zu integrieren. Zusätzlich dazu bleibt die blaue Schaltfläche **<img src="images/Std_Refresh.svg" width=24px> [Aktualisieren/Neuberechnen](Std_Refresh/de.md)** ausgegraut. Daher wurde dieses kleine Makro entwickelt, um eine manuelle Neuberechnung des Modells zu erzwingen.
+
+**Hinweis:** Ab {{VersionPlus/de|0.17}} kann die Wirkung dieses Makros über die GUI erreicht werden. Rechtsklicke auf das Projekt in der [Baumansicht](Tree_view/de.md) und wähle **Zum Neuberechnen markieren** aus dem Kontextmenü. Dadurch wird das Symbol Aktualisieren/Neuberechnen wieder aktiv. Drücke nun auf die Schaltfläche <img alt="" src=images/Std_Refresh.svg  style="width:24px;"> [Aktualisieren/Neuberechnen](Std_Refresh/de.md), um eine Neuberechnung auszulösen.
 
 
-</div>
-
-Sometimes when a user applies changes to the model, FreeCAD does not seem to recognize/integrate them. In addition to that, the blue **<img src="images/Std_Refresh.svg" width=24px> [Refresh/Recompute](Std_Refresh.md)** button remains greyed out. Hence this small macro was designed to force a manual recompute of the model.
-
-
-<div class="mw-translate-fuzzy">
-
-**Hinweis:** Ab {{VersionPlus/de|0.17}} kann die Wirkung dieses Makros über die GUI erreicht werden. Rechtsklicke auf das Projekt in der [Modellbaumansicht](Tree_view/de.md) und wähle **Zum Neuberechnen markieren** aus dem Kontextmenü. Dadurch wird das Symbol Aktualisieren/Neuberechnen wieder aktiv. Drücke nun auf die <img alt="" src=images/Std_Refresh.svg  style="width:24px;"> [Aktualisieren/Neuberechnen](Std_Refresh/de.md) Taste, um eine Neuberechnung auszulösen.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 ## Anwendung
 
-Führe das Makro bei Bedarf aus.
+Bei Bedarf das Makro ausführen.
 
 
-</div>
-
-Run the macro when necessary.
 
 ## Skript
 
-ToolBar Icon <img alt="" src=images/Force_Recompute.png  style="width:24px;">
+Werkzeugleisten-Symbol <img alt="" src=images/Force_Recompute.png  style="width:24px;">
 
 **Macro Force_Recompute.py**
 

@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande **Mesh Ajouter un triangle** ajoute des faces le long d\'une limite d\'un objet maillé ouvert. Elle peut être utilisée pour remplir des trous.
+La commande **Ajouter un triangle** ajoute des faces le long d\'une limite d\'un objet maillé ouvert. Elle peut être utilisée pour remplir des trous.
 
 
 

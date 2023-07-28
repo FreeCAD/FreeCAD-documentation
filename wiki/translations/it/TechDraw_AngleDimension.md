@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -23,8 +25,19 @@ Lo strumento Angolo aggiunge una dimensione angolare ad una Vista. La dimensione
 
 </div>
 
-<img alt="" src=images/TechDraw_Dimension_Angle_example.png  style="width:200px;"> 
+<img alt="" src=images/TechDraw_Dimension_Angle_example.png  style="width:200px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Misurazione dell'angolo tra due linee rette*
+
+
+</div>
+
+
 
 ## Utilizzo
 
@@ -39,7 +52,15 @@ Lo strumento Angolo aggiunge una dimensione angolare ad una Vista. La dimensione
 
 </div>
 
-To change the properties of a dimension object either double-clicking it in the drawing or in the [Tree view](Tree_view.md). This will open the [dimension dialog](TechDraw_LengthDimension#Dimension_dialog.md).
+### Display 3D measurement 
+
+See [TechDraw LengthDimension](TechDraw_LengthDimension#Display_3D_measurement.md).
+
+### Change properties 
+
+To change the properties of a dimension object either double-click it in the drawing or in the [Tree view](Tree_view.md). This will open the [Dimension dialog](TechDraw_LengthDimension#Dimension_dialog.md).
+
+
 
 ## Limitazioni
 
@@ -51,6 +72,12 @@ Gli oggetti dimensione sono vulnerabili ai problemi di \"denominazione topologic
 
 </div>
 
+## Notes
+
+See [TechDraw LengthDimension](TechDraw_LengthDimension#Notes.md).
+
+
+
 ## Proprietà
 
 
@@ -60,6 +87,8 @@ Questo oggetto ha le stesse proprietà dello strumento [Lunghezza](TechDraw_Leng
 
 
 </div>
+
+
 
 ## Script
 

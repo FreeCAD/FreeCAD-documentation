@@ -91,7 +91,7 @@ Lo strumento Spazio consente di definire un volume vuoto, basato su una forma so
 ## Opzioni
 
 -   Per creare zone che raggruppano più spazi, utilizzare [Parte di edificio](Arch_BuildingPart/it.md) e impostare il tipo di IFC su \"Spatial Zone\"
--   L\'oggetto spazio ha le stesse modalità di visualizzazione degli altri oggetti Arch e Part, con una modalità in più chiamata **Footprint**, che visualizza solo la faccia inferiore dello spazio. {{Version/it|0.19}}
+-   L\'oggetto spazio ha le stesse modalità di visualizzazione degli altri oggetti Arch e Part, con una modalità in più chiamata **Footprint**, che visualizza solo la faccia inferiore dello spazio.
 
 ## Script
 

@@ -10,6 +10,8 @@
 
 # Sketcher ConstrainSnellsLaw/de
 
+
+
 ## Beschreibung
 
 Beschränkt zwei Linien, um dem Gesetz der Lichtbrechung zu folgen, wenn es durch eine Grenzfläche dringt, in der sich zwei Materialien mit unterschiedlichen Brechungsindizes treffen. Siehe [1](https://de.wikipedia.org/wiki/Snelliussches_Brechungsgesetz) auf Wikipedia für weitere Informationen.
@@ -19,6 +21,8 @@ Beschränkt zwei Linien, um dem Gesetz der Lichtbrechung zu folgen, wenn es durc
 
 
 *Snelliussches Gesetz*
+
+
 
 ## Anwendung
 
@@ -37,6 +41,8 @@ Beachte, dass mehrere [Hilfsbeschränkungen](Sketcher_helper_constraint/de.md) a
 
 Durch Verwenden der **[<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Polylinie](Sketcher_CreatePolyline/de.md)** ist es möglich, die Zeichnung von Lichtstrahlen zu beschleunigen. In diesem Fall kann man zwei deckungsgleiche Endpunkte durch Kastenauswahl auswählen.
 
+
+
 ## Anmerkungen
 
 -   Die eigentliche Beschränkung nach Snelliussches Brechungsgesetz erzwingt die einfachgesetzliche Gleichung n1\*sin(theta1) = n2\*sin(theta2). Es ist notwendig, dass die Linienenden durch andere Zwangsbeschränkungen zufällig und auf der Schnittfläche gemacht werden. Die notwendigen Hilfsbeschränkungen werden automatisch auf der Grundlage der aktuellen Koordinaten der Elemente hinzugefügt.
@@ -45,6 +51,8 @@ Durch Verwenden der **[<img src=images/Sketcher_CreatePolyline.svg style="width:
 -   Im Gegensatz zur Realität sind Brechungsindizes mit Lichtstrahlen verknüpft, aber nicht entsprechend der Grenzseiten. Dies ist nützlich, um die Doppelbrechung zu emulieren, Pfade verschiedener Wellenlängen aufgrund der Brechung zu konstruieren und den Winkel des Auftretens der Totalreflexion leicht zu konstruieren.
 -   Beide Strahlen können sich auf der gleichen Seite der Grenzfläche befinden und erfüllen damit die Randbedingung. Dies ist physikalischer Unfug, es sei denn, das Verhältnis n2/n1 ist 1,0, in diesem Fall emuliert die Einschränkung eine Reflexion.
 -   Kreis- und Ellipsenbögen werden auch als Strahlen (physikalischer Unfug) akzeptiert.
+
+
 
 ## Skripten
 

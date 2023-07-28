@@ -5,18 +5,26 @@ Siehe [Versionshinweise 0.20](Release_notes_0.20/de#Kernsystem.md) für weitere 
 
 {{TOCright}}
 
+
+
 ## Übersicht
 
 Diese Seite zeigt die verschiedene Wege FreeCAD zu starten und die wichtigsten Konfigurationsmöglichkeiten.
+
+
 
 ## FreeCAD von der Kommandozeile starten 
 
 FreeCAD kann ganz normal durch einen Doppelklick auf das Desktop-Symbol oder durch Auswahl aus dem Startmenü gestartet werden, aber es kann auch direkt über die Befehlszeile gestartet werden. Dies erlaubt dir einige der Standard-Startoptionen zu ändern.
 
+
+
 ### Nutzen von Kommandozeilen-Optionen ohne eine Kommandozeilen-Shell 
 
 -   Unter Ubuntu kannst du ein Desktop-Symbol erstellen und dessen Eigenschaften bearbeiten. Füge die Kommandozeilenoptionen durch Leerzeichen getrennt hinter dem Programmnamen in das Feld \"Befehl\" ein.
 -   Unter Windows erstelle einen Tastenkürzel und bearbeite die Eigenschaften. Füge die Befehlszeilenoptionen durch Leerzeichen getrennt in das Feld \"Ziel\" ein.
+
+
 
 ### Befehlszeilen-Optionen 
 
@@ -70,6 +78,8 @@ In der nachfolgenden Tabelle werden ausgewählte Optionen ausführlicher beschri
 
 Optionen können in zwei Formen geschrieben werden: `--long-option arg` und `--long-option<nowiki>=</nowiki>arg`.
 
+
+
 ### Antwort und Konfigurationsdateien 
 
 FreeCAD kann einige dieser Optionen aus einer Konfigurationsdatei lesen. Diese Datei muss sich im bin Pfad befinden und den Namen **FreeCAD.cfg** tragen. Beachte, dass Optionen, die in der Kommandozeile angegeben werden, die Konfigurationsdatei aufheben!
@@ -85,6 +95,8 @@ oder:
 oder:
 
     FreeCAD --response-file ResponseFile.txt
+
+
 
 ### Versteckte Optionen 
 
@@ -102,6 +114,8 @@ Es gibt eine Reihe von Optionen, die nicht für den Benutzer sichtbar sind. Dies
 -   \"-ncols\" - begrenzt die Anzahl der im Farbwürfel verwendeten Farben auf einer 8-Bit-Anzeige, wenn die Anwendung die QApplication::ManyColor-Angabe verwendet. Wenn die Anzahl 216 ist, dann wird ein 6x6x6-Farbwürfel (d.h. 6 Stufen für Rot, 6 Stufen für Grün und 6 Stufen für Blau); bei anderen Werten wird ein Quader annähernd zu einem 2x3x1-Quader verwendet.
 -   \"-cmap\" - führt dazu, dass die Anwendung eine eigene Farbpalette für eine 8-Bit-Anzeige installiert.
 
+
+
 ### FreeCAD ohne grafische Benutzeroberfläche ausführen (kopflos) 
 
 FreeCAD wird normalerweise mit zwei ausführbaren Dateien gebaut: eine GUI-fähige mit dem Namen **FreeCAD** oder **freecad**, und eine kopflose mit dem Namen **FreeCADCmd** oder **freecadcmd**. FreeCAD kann im Konsolenmodus mit dem Schalter `--console` verwendet werden (dies ist das Standardverhalten von **FreeCADCmd**):
@@ -111,6 +125,8 @@ FreeCAD --console
 Im Konsolenmodus wird keine grafische Benutzeroberfläche angezeigt, sondern eine Eingabeaufforderung des Python Interpreters: `>>>`. Von dieser Eingabeaufforderung aus hast du die gleiche Funktionalität wie der Python Interpreter, der innerhalb der FreeCAD GUI läuft, und Zugriff auf alle Module und Plugins von FreeCAD, ausser dem FreeCADGui Modul. Sei dir bewusst, dass Module, die von FreeCADGui abhängen, ebenfalls nicht verfügbar sein könnten.
 
 Um mehr über den Konsolen- oder Headlessmodus zu erfahren, schaue dir [Headless FreeCAD](Headless_FreeCAD.md) an.
+
+
 
 ### Ausführen von Modulen, Makros und Skripten 
 
@@ -146,6 +162,8 @@ Um mehr über den Konsolen- oder Headlessmodus zu erfahren, schaue dir [Headless
 
 Siehe [Makro beim Start](Macro_at_Startup/de.md), wie man ein Makro einrichtet, das automatisch beim Start von FreeCAD ausgeführt wird.
 
+
+
 ## Umgebungsvariablen
 
 FreeCAD unterstützt die folgenden Umgebungsvariablen, die zum Konfigurieren von Verzeichnissen genutzt werden können: <small>(v0.19)</small> 
@@ -180,6 +198,8 @@ FreeCad selbst berücksichtigt die Umgebungsvariable `HOME` nicht (weil es das B
 
 Das Standard-tmp-Verzeichnis ist **/tmp/**. Die Umgebungsvariable `TMPDIR` kann benutzt werden, um die Standardvorgabe zu überschreiben. (*Editor: Rangfolge?*).
 
+
+
 ### Bibliotheken
 
 Einige Bibliotheken müssen Systemumgebungsvariablen aufrufen. Manchmal, wenn es ein Problem mit einer FreeCAD Installation gibt, liegt es daran, dass eine Umgebungsvariable fehlt oder nicht korrekt ist. Daher werden einige wichtige Variablen in der Konfig dupliziert und in der Log Datei gespeichert.
@@ -206,51 +226,55 @@ Einige Bibliotheken müssen Systemumgebungsvariablen aufrufen. Manchmal, wenn es
 -   CSF_IGESDefaults
 -   CSF_STEPDefaults
 
+
+
 ## Konfigurationssatz
 
 Bei jedem Start prüft FreeCAD seine Umgebung und die Kommandozeilenparameter. Es baut einen **Konfigurationssatz** auf, der das Wesentliche der Laufzeitinformationen enthält. Diese Informationen werden später verwendet, um den Ort zu bestimmen, an dem Benutzerdaten oder Protokolldateien gespeichert werden sollen. Sie sind auch für Postmortem-Analysen sehr wichtig. Deshalb wird sie in der Protokolldatei gespeichert.
 
+
+
 ### Benutzerbezogene Informationen 
 
 +++++
-| Konfig.-Variable | Beschreibung                                                 | Beispiel Windows                                                           | Beispiel Posix (Linux)                                         |
-+==================+==============================================================+============================================================================+================================================================+
-| UserAppData      | Pfad, wo FreeCAD benutzerbezogene Anwendungsdaten speichert  |                                                             |                                                 |
-|                  |                                                              | **C:\Documents and Settings\username\AppData\FreeCAD**            | **/home/username/.FreeCAD**                           |
-|                  |                                                              |                                                                         |                                                             |
-|                  |                                                              |                                                                  |                                                      |
-|                  |                                                              | <hr />                                                                     | <hr />                                                         |
-|                  |                                                              |                                                                         |                                                             |
-|                  |                                                              | *Short path :***%APPDATA%\FreeCAD**                 | *Short path :***~/.FreeCAD**            |
+| Konfig.-Variable | Beschreibung                                                 | Beispiel Windows                                                           | Beispiel Linux                                                                                                                     |
++==================+==============================================================+============================================================================+====================================================================================================================================+
+| UserAppData      | Pfad, wo FreeCAD benutzerbezogene Anwendungsdaten speichert. |                                                             |                                                                                                                     |
+|                  |                                                              | **C:\Documents and Settings\username\AppData\FreeCAD**            | **/home/username/.FreeCAD**                                                                                               |
+|                  |                                                              |                                                                         |                                                                                                                                 |
+|                  |                                                              |                                                                  |                                                                                                                          |
+|                  |                                                              | <hr />                                                                     | <hr />                                                                                                                             |
+|                  |                                                              |                                                                         |                                                                                                                                 |
+|                  |                                                              | *Short path :***%APPDATA%\FreeCAD**                 | *Short path :***~/.FreeCAD**                                                                                |
 +++++
-| UserParameter    | Datei, wo FreeCAD benutzerbezogene Anwendungsdaten speichert |                                                             |                                                 |
-|                  |                                                              | **C:\Documents and Settings\username\AppData\FreeCAD\user.cfg**   | **/home/username/.FreeCAD/user.cfg**                  |
-|                  |                                                              |                                                                         |                                                             |
-|                  |                                                              |                                                                  |                                                      |
-|                  |                                                              | <hr />                                                                     | <hr />                                                         |
-|                  |                                                              |                                                                         |                                                             |
-|                  |                                                              | *Short path :***%APPDATA%\FreeCAD\user.cfg**        | *Short path :***~/.FreeCAD/user.cfg**   |
+| UserParameter    | Datei, wo FreeCAD benutzerbezogene Anwendungsdaten speichert |                                                             |                                                                                                                     |
+|                  |                                                              | **C:\Documents and Settings\username\AppData\FreeCAD\user.cfg**   | **/home/username/.config/FreeCAD/user.cfg**                                                                               |
+|                  |                                                              |                                                                         |                                                                                                                                 |
+|                  |                                                              |                                                                  |                                                                                                                          |
+|                  |                                                              | <hr />                                                                     | <hr />                                                                                                                             |
+|                  |                                                              |                                                                         |                                                                                                                                 |
+|                  |                                                              | *Short path :***%APPDATA%\FreeCAD\user.cfg**        | *Short path :***~/.config/FreeCAD/user.cfg** oder **$HOME/.config/FreeCAD/user.cfg** |
 +++++
-| SystemParameter  | Datei, wo FreeCAD anwendungsbezogene Daten speichert         |                                                             |                                                 |
-|                  |                                                              | **C:\Documents and Settings\username\AppData\FreeCAD\system.cfg** | **/home/username/.FreeCAD/system.cfg**                |
-|                  |                                                              |                                                                         |                                                             |
-|                  |                                                              |                                                                  |                                                      |
-|                  |                                                              | <hr />                                                                     | <hr />                                                         |
-|                  |                                                              |                                                                         |                                                             |
-|                  |                                                              | *Short path :***%APPDATA%\FreeCAD\system.cfg**      | *Short path :***~/.FreeCAD/system.cfg** |
+| SystemParameter  | Datei, wo FreeCAD anwendungsbezogene Daten speichert         |                                                             |                                                                                                                     |
+|                  |                                                              | **C:\Documents and Settings\username\AppData\FreeCAD\system.cfg** | **/home/username/.config/FreeCAD/system.cfg**                                                                             |
+|                  |                                                              |                                                                         |                                                                                                                                 |
+|                  |                                                              |                                                                  |                                                                                                                          |
+|                  |                                                              | <hr />                                                                     | <hr />                                                                                                                             |
+|                  |                                                              |                                                                         |                                                                                                                                 |
+|                  |                                                              | *Short path :***%APPDATA%\FreeCAD\system.cfg**      | *Short path :***~/.FreeCAD/system.cfg** oder **$HOME/.FreeCAD/system.cfg**           |
 +++++
-| UserHomePath     | Home-Verzeichnis des aktuellen Benutzers                     |                                                             |                                                 |
-|                  |                                                              | **C:\Documents and Settings\username**                            | **/home/username**                                    |
-|                  |                                                              |                                                                         |                                                             |
-|                  |                                                              |                                                                  |                                                      |
-|                  |                                                              | <hr />                                                                     | <hr />                                                         |
-|                  |                                                              |                                                                         |                                                             |
-|                  |                                                              | *Short path :***%USERPROFILE%**                     | *Short path :***~**                     |
+| UserHomePath     | Home-Verzeichnis des aktuellen Benutzers                     |                                                             |                                                                                                                     |
+|                  |                                                              | **C:\Documents and Settings\username**                            | **/home/username**                                                                                                        |
+|                  |                                                              |                                                                         |                                                                                                                                 |
+|                  |                                                              |                                                                  |                                                                                                                          |
+|                  |                                                              | <hr />                                                                     | <hr />                                                                                                                             |
+|                  |                                                              |                                                                         |                                                                                                                                 |
+|                  |                                                              | *Short path :***%USERPROFILE%**                     | *Short path :***~**                                                                                         |
 +++++
-
-: Benutzerkonfigurationseinträge
 
 Hinweis: Bei Linux-Distributionen kann es eine weitere Konfigurationsdatei geben, die in Verbindung mit [Qt](Third_Party_Tools#Qt-Toolkit.md) steht und unter **/home/username/.config/FreeCAD/FreeCAD.conf** zu finden ist.
+
+
 
 ### Befehlszeilenargumente
 
@@ -276,6 +300,8 @@ Hinweis: Bei Linux-Distributionen kann es eine weitere Konfigurationsdatei geben
 | AdditionalModulePaths | Enthält die zusätzlichen Modul-Pfade, die auf der Kommandozeile angegeben wurden                                                                                                                                                                                                                                                          | \"extraModules/\"                                                           |
 ++++
 
+
+
 ### Systembezogen
 
 +++++
@@ -293,6 +319,8 @@ Hinweis: Bei Linux-Distributionen kann es eine weitere Konfigurationsdatei geben
 |                  |                                                                                                                                                                                                                                                                                                                                                                    |                                           | (default)                             |
 +++++
 
+
+
 ### Baubezogene Informationen 
 
 Die folgende Tabelle zeigt die verfügbaren Informationen über die Bau Version. Das meiste davon stammt aus dem Subversion Repositorium. Dieses Zeug wird benötigt, um eine Version genau nachzubauen!
@@ -307,6 +335,8 @@ Die folgende Tabelle zeigt die verfügbaren Informationen über die Bau Version.
   BuildRevisionDate    Datum der obigen Revision                                                                                       2007/02/03 22:21:18
   BuildScrClean        Zeigt an, ob die Source nach dem Checkout verändert wurde                                                       Src modified
   BuildScrMixed                                                                                                                        Src not mixed
+
+
 
 ### Markenbezogenes
 
@@ -335,6 +365,8 @@ Diese Konfig Einträge beziehen sich auf den Markenmechanismus von FreeCAD. Sieh
 ++++
 | HiddenDockWindow | Liste von Andockfenstern (getrennt durch Semikolon), die versteckt werden                                                                  | \"Property editor\"      |
 ++++
+
+
 
 ### Abfrage der Konfiguration 
 
@@ -373,7 +405,11 @@ Bei Linux (bash shell) kannst du die folgenden Befehlszeile an deine Bedürfniss
  exit()
  EOF
 
+
+
 ## FreeCAD vom Schreibtisch aus starten 
+
+
 
 ### Linux: Erstellen einer zusätzlichen Startoption 
 
@@ -384,10 +420,9 @@ Im folgenden wird angenommen, dass dein Desktop so konfiguriert ist, dass du von
 3.  Öffne die Datei mit einem Texteditor und ändere, wie FreeCAD aufgerufen wird durch ändern der Zeile, die mit `Exec` beginnt.
 4.  Als Ergebnis gibt es einen zusätzlichen Eintrag in deinem Startmenü/Programmstart. Auf diese Weise kannst du mehrere FreeCAD-Einträge mit unterschiedliche Startoptionen haben.
 
+
+
 ## FreeCAD von einem USB Wechseldatenträger starten 
-
-
-{{Version/de|0.19}}
 
 **Windows**
 

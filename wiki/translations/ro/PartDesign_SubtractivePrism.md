@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 Inserați o prismă substractivă în Corpul activ. Forma sa este scăzută/extrasă din solidul existent.
@@ -12,6 +14,8 @@ Inserați o prismă substractivă în Corpul activ. Forma sa este scăzută/extr
 ![](images/PartDesign_SubtractivePrism_example.svg )
 
 *În partea stângă: corpul activ (A) afișat în gri și prisma substractivă (B) prezentată în roșu transparent; rezultatul este în partea dreaptă.*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -32,9 +36,11 @@ Inserați o prismă substractivă în Corpul activ. Forma sa este scăzută/extr
 
 </div>
 
+
+
 ## Opţiuni
 
-It is possible to create skewed prisms by specifying angles in respect to the normal vector of the chosen attachment. <small>(v0.19)</small> 
+It is possible to create skewed prisms by specifying angles in respect to the normal vector of the chosen attachment.
 
 
 <div class="mw-translate-fuzzy">
@@ -46,6 +52,8 @@ Prisma poate fi definită după crearea sa în două moduri:
 
 
 </div>
+
+
 
 ## Proprietăți
 

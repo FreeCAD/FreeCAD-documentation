@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionPosObliqueChainDimension.svg  style="width:24px;"> **TechDraw Aligner obliquement** aligne les cotes obliques pour créer une chaîne de cotes.
+L\'outil **TechDraw Aligner obliquement** aligne les cotes obliques pour créer une chaîne de cotes.
 
 <img alt="" src=images/TechDraw_ExtensionPosObliqueChainDimensionExample.png  style="width:400px;"> 
 *A droite, les cotes alignées*
+
+
 
 ## Utilisation
 

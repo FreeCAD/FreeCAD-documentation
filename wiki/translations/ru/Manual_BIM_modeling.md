@@ -276,11 +276,15 @@ BIM расшифровывается как [Building Information Modeling (Ин
 
 Наш лист теперь готов, и мы можем экспортировать его в формат SVG или DXF, или распечатать. Формат SVG вы можете открыть используя приложение для иллюстраций вроде [Inkscape](http://www.inkscape.org), где можно быстро преобразовать чертёж в презентационный рисунок. Он позволяет больше возможностей, чем DXF.
 
+
+
 ## Загрузки
 
 -   Созданный в ходе упражнения файл: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/house.FCStd>
 -   Файл IFC, экспортированный из этого файла: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/house.ifc>
 -   Файл SVG, экспортированный из этого файла: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/house.svg>
+
+
 
 ## Сопутствующее
 
@@ -312,4 +316,4 @@ BIM расшифровывается как [Building Information Modeling (Ин
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > Manual:BIM modeling/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > Manual:BIM modeling/ru

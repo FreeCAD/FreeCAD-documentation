@@ -9,6 +9,8 @@
 
 # FEM SolverZ88/de
 
+
+
 ## Beschreibung
 
 The [SolverZ88](FEM_SolverZ88.md) command enables usage of the [Z88](https://en.wikipedia.org/wiki/Z88_FEM_software) solver. It may be used for:
@@ -25,6 +27,8 @@ To use the Z88 solver, the OpenSource version of Z88 (Z88OS) needs to be install
 2.  Extract the ZIP to a folder of your choice.
 3.  In the [FEM preferences](FEM_Preferences.md) go to the Z88 tab and there set the path to the **z88r** binary. If you are on Windows this would be the path to the file **z88r.exe** that is in the subfolder **~\bin\win64** of the folder where your extracted the ZIP.
 
+
+
 ## Anwendung
 
 1.  After the creation of an <img alt="" src=images/FEM_Analysis.svg  style="width:16px;"> [Analysis container](FEM_Analysis.md), use one of the following alternatives:
@@ -36,6 +40,8 @@ To use the Z88 solver, the OpenSource version of Z88 (Z88OS) needs to be install
 5.  Click the **Run** button.
 
 As a result you get an object called *Z88_xxx_results* (depending on the run simulation) in the [Tree view](Tree_view.md). This is the same kind of result object one gets when running the [CalculiX solver](FEM_SolverCalculixCxxtools.md). Starting from this, you can visualize the results using [Post Pipeline](FEM_PostPipelineFromResult.md) and [Clip Filters](FEM_Workbench#Menu__Results.md).
+
+
 
 ## Einstellungen
 

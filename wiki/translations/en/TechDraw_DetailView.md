@@ -10,7 +10,7 @@
 
 ## Description
 
-The Detail tool creates a view of small area of an existing view.
+The **TechDraw DetailView** tool creates a view of small area of an existing view.
 
 ![](images/ViewDetail.png ) 
 *Detail view with circular viewbox of an existing view*

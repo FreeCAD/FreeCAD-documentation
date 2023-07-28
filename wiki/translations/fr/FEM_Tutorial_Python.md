@@ -19,6 +19,8 @@ Ce tutoriel est destiné à montrer comment une simple analyse par éléments fi
 
 <img alt="" src=images/FEM_example01_pic00.jpg  style="width:700px;">
 
+
+
 ## Conditions
 
 -   La version compatible de FreeCAD comme indiqué dans l\'aperçu du tutoriel.
@@ -27,7 +29,11 @@ Ce tutoriel est destiné à montrer comment une simple analyse par éléments fi
 -   **Remarque importante:** En raison du développement continu de l\'<img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [Atelier FEM](FEM_Workbench/fr.md), il est recommandé d\'utiliser la dernière version de FreeCAD, spécialement pour les analyses FEM écrites en Python.
 -   Un atelier FEM fonctionnel. Exécutez l\'analyse [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/fr.md) pour vérifier cela.
 
+
+
 ## Commençons
+
+
 
 ### Nouveau document et la partie à analyser 
 
@@ -49,6 +55,8 @@ FreeCADGui.SendMsgToActiveView("ViewFit")
 
 #
 ```
+
+
 
 ### Analysis et l\'analyse des objets 
 
@@ -97,6 +105,8 @@ analysis_object.addObject(force_constraint)
 
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:750px ">
+
+
 
 ### Maillage FEM (manuel) 
 
@@ -436,6 +446,8 @@ analysis_object.addObject(femmesh_obj)
 
 </div>
 
+
+
 ### Maillage MEF (gmsh) 
 
 
@@ -453,6 +465,8 @@ print(error)
 analysis_object.addObject(femmesh_obj)
 ```
 
+
+
 ### Maillage MEF (netgen) 
 
 
@@ -468,6 +482,8 @@ doc.recompute()
 analysis_object.addObject(mesh)
 ```
 
+
+
 ### Recalculer
 
 
@@ -477,6 +493,8 @@ doc.recompute()
 
 ###
 ```
+
+
 
 ## Lancement de l\'analyse 
 
@@ -498,6 +516,8 @@ FemGui.setActiveAnalysis(doc.Analysis)
 ###
 ```
 
+
+
 #### Tout en une fois 
 
 
@@ -510,6 +530,8 @@ fea.run()
 
 ###
 ```
+
+
 
 #### Pas à pas 
 
@@ -537,6 +559,8 @@ else:
 ###
 ```
 
+
+
 ## Montrer les résultats 
 
 
@@ -553,7 +577,11 @@ femmesh_obj.ViewObject.applyDisplacement(10)
 ###
 ```
 
+
+
 ### Informations supplémentaires 
+
+
 
 #### Script des objets de maillage MEF 
 
@@ -568,11 +596,17 @@ Au contraire, l\'objet maillé GMSH prend entièrement en charge les scripts Pyt
 -   <https://forum.freecadweb.org/viewtopic.php?f=22&t=42922#p365042>
 -   sujet du forum <http://forum.freecadweb.org/viewtopic.php?f=18&t=20087>
 
+
+
 #### Script d\'analyses multiple 
 
 Voir la publication du forum: <http://forum.freecadweb.org/viewtopic.php?f=18&t=19549#p151385>
 
+
+
 #### Script des résultats 
+
+
 
 ###### Objet Résultat standard de FreeCAD 
 
@@ -585,24 +619,32 @@ Voir les publications du forum :
 -   <https://forum.freecadweb.org/viewtopic.php?f=18&t=31123&p=258761#p258761> → colorier un seul élément
 -   <https://forum.freecadweb.org/viewtopic.php?f=18&t=41951&p=357687#p357685> → réinitialiser tout le maillage des résultats, afficher l\'amplitude de déplacement colorée
 
+
+
 ##### Objet Résultat Vtk 
 
 Voir les messages du forum :
 
 -   <https://forum.freecadweb.org/viewtopic.php?f=18&t=47227#p405406>
 
+
+
 #### Mode console 
 
 L\'écriture du fichier d\'entrée en mode console FreeCAD (sans interface graphique) peut être effectuée en mode test. Voir ce [post du forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=25852&p=208897#p208897) pertinent pour plus de détails et d\'expérimentation.
+
+
 
 ## Appendice
 
 Amusez-vous! Aussi, si vous avez des commentaires ou des améliorations, n\'hésitez pas à participer sur le [sous-forum FreeCAD FEM](https://forum.freecadweb.org/viewforum.php?f=18).
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Python Code](Category_Python Code.md) > [FEM](Category_FEM.md) > FEM Tutorial Python/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Python Code](Category_Python Code.md) > [FEM](Category_FEM.md) > FEM Tutorial Python/fr

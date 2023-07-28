@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -25,6 +27,8 @@ CalculiXccxTools permite usar el solucionador [CalculiX](http://dhondt.de/). Pue
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -56,6 +60,8 @@ CalculiXccxTools permite usar el solucionador [CalculiX](http://dhondt.de/). Pue
 
 </div>
 
+
+
 ## Opciones
 
 
@@ -65,6 +71,8 @@ Al usar **Edit.inp file** puede mostrar y editar el archivo de entrada de Calcul
 
 
 </div>
+
+
 
 ## Propiedades
 
@@ -205,6 +213,8 @@ tenga en cuenta que CalculiX expande internamente los elementos 1D y 2D en eleme
 
 -    **Working Dir**: Ruta al directorio de trabajo que se utilizará para los archivos de análisis de CalculiX.
 
+
+
 ## Limitaciones
 
 When running a CalculiX, you might end up with **error 4294977295**. This means you don\'t have enough RAM space. You have then 2 options:
@@ -212,9 +222,13 @@ When running a CalculiX, you might end up with **error 4294977295**. This means 
 1.  reduce the number of mesh nodes, preferably by omitting geometry that is not absolutely necessary for your analysis
 2.  buy more RAM for your PC
 
+
+
 ## Notas
 
 La documentación original de CalculiX se puede encontrar en <http://dhondt.de/> in the \"ccx\" paragraph.
+
+
 
 ## Programación
 

@@ -3,6 +3,7 @@
    Name:Sketcher Extend
    Name/ru:Продлить
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut:**G** **Q**
    MenuLocation:Эскиз → Геометрия эскиза → Продлить
    Version:0.17
    SeeAlso:[Обрезать](Sketcher_Trimming/ru.md)
@@ -11,27 +12,15 @@
 # Sketcher Extend/ru
 
 
-</div>
 
 ## Описание
 
+Инструмент **Продлить** позволяет продлить отрезок на эскизе до указанной грани или точки указанной указателем мыши.
 
-<div class="mw-translate-fuzzy">
-
-Инструмент **Продлить** произвольно продлевает ребро на эскизе, или до другого ребра.
-
-
-</div>
-
-<img alt="" src=images/Sketcher_Extend_example_01.png  style="width:600px;">
-
-
-<div class="mw-translate-fuzzy">
-
+<img alt="" src=images/Sketcher_Extend_example_01.png  style="width:600px;"> 
 *Слева показано (1), два элемента эскиза перед операцией; в середине (2), линия продлена до дуги; справа (3), конечный результат.*
 
 
-</div>
 
 ## Применение
 
@@ -47,19 +36,15 @@
 
 </div>
 
-## Notes
+
+
+## Примечания
 
 -   Only arcs and lines can be extended at this time.
 -   The target edge or point object may be modified as well if it is not fully constrained.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

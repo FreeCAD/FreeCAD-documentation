@@ -14,6 +14,8 @@
 
 
 
+
+
 ### Wprowadzenie
 
 Ten poradnik ma na celu zapoznanie czytelnika z podstawowym przepływem pracy środowiska <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Szkicownik](Sketcher_Workbench/pl.md).
@@ -33,6 +35,8 @@ Aby uzyskać bardziej szczegółowy opis szkicownika, przeczytaj stronę [Szkico
 ![](images/00_Sk01_Sketcher_fully_constrained_final.png ) 
 *Wynik końcowy szkicu, z geometrią w pełni ograniczoną w całości, łącznie z geometrią konstrukcji pomocniczej.*
 
+
+
 ## Sposób postępowania 
 
 1\. Uruchom program FreeCAD, utwórz nowy pusty dokument przez menu **Plik → [<img src=images/Std_New.svg style="width:16px"> [Nowy](Std_New/pl.md)**.
@@ -44,6 +48,8 @@ Kilka działań do zapamiętania:
 -   Naciśnij prawy przycisk myszy, lub naciśnij jeden raz klawisz **Esc** na klawiaturze, aby wyłączyć aktywne narzędzie w trybie edycji.
 -   Aby wyjść z trybu edycji szkicu, naciśnij przycisk **Zamknij** w [panelu zadań](task_panel.md), lub naciśnij dwukrotnie klawisz **Esc** na klawiaturze.
 -   Aby ponownie wejść w tryb edycji, kliknij dwukrotnie na obiekt szkicu w [widoku drzewa](Tree_view/pl.md), lub wybierz go, a następnie kliknij na przycisk **[<img src=images/Sketcher_EditSketch.svg style="width:16px">. [Edycja szkicu](Sketcher_EditSketch/pl.md)**.
+
+
 
 ## Utwórz szkic 
 
@@ -65,6 +71,8 @@ w [panelu zadań](Task_panel/pl.md) widoku połączonego należy rozwinąć sekc
 
 
 *Górna część [panelu zadań](Task_panel/pl.md) szkicownika.*
+
+
 
 ## Geometrie konstrukcyjne 
 
@@ -97,11 +105,15 @@ Spójrz na sekcje **Wiązania** i **Elementy**, aby zobaczyć nowo utworzone wi�
 
 *Linie konstrukcyjne tworzące kształt gwiazdy ze środkiem w miejscu początku układu współrzędnych.*
 
+
+
 ## Geometria detalu 
 
 Geometria właściwa musi mieć kształt zamknięty, jeśli ma być użyta jako profil, który może być wytłaczany za pomocą takich narzędzi jak **[<img src=images/PartDesign_Pad.svg style="width:16px"> [Projekt Części: Wyciągnij wybrany szkic](PartDesign_Pad/pl.md)**.
 
 Jeśli wcześniej nie opuściłeś tego trybu, upewnij się, że nie jesteś w trybie konstrukcji, klikając na przycisk **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Przełącz tryb konstrukcji](Sketcher_ToggleConstruction/pl.md)**.
+
+
 
 ### Łuki zewnętrzne 
 
@@ -125,6 +137,8 @@ Jeśli wcześniej nie opuściłeś tego trybu, upewnij się, że nie jesteś w t
 
 *Łuki dodane w punktach końcowych linii konstrukcyjnych. Dodatkowo okrąg centralny.*
 
+
+
 ### Łuki wewnętrzne 
 
 6\. Rysujemy łuk pomiędzy każdą parą łuków zewnętrznych.
@@ -142,6 +156,8 @@ Jeśli wcześniej nie opuściłeś tego trybu, upewnij się, że nie jesteś w t
 
 *Łuki dodawane pomiędzy pierwszym zestawem umieszczonych łuków zewnętrznych.*
 
+
+
 ## Wiązania
 
 Spójrz raz jeszcze na [panel zadań](Task_panel/pl.md). Ze względu na nowe elementy geometryczne, które narysowaliśmy, sekcja **Komunikaty solwera** wskazuje jeszcze więcej **stopni swobody**. **Stopień swobody** *(DOF)* wskazuje na możliwy ewentualny ruch jednego elementu. Na przykład, punkt może być przesuwany zarówno w kierunku poziomym jak i pionowym, a więc ma dwa stopnie swobody. Linia jest zdefiniowana przez dwa punkty, a więc w sumie posiada cztery stopnie swobody. Jeżeli zwiążemy jeden z tych punktów, to cały system ma tylko dwa stopnie swobody. Jeżeli dodatkowo zwiążemy ruch poziomy pozostałego punktu, to mamy tylko jeden stopień swobody. Jeżeli natomiast zwiążemy również ruch pionowy tego punktu, to ostatni stopień swobody zniknie, a linia nie będzie mogła być już przemieszczana.
@@ -154,7 +170,11 @@ Istnieją dwa główne rodzaje wiązań:
 
 -    **Wiązania danych**definiują charakterystykę kształtów poprzez określenie wymiarów, na przykład wymiar długości lub kąta.
 
+
+
 ## Wiązania geometrii 
+
+
 
 ### Jednakowa długość i promień 
 
@@ -200,6 +220,8 @@ jeśli chcesz tymczasowo wyłączyć wiązanie, możesz zaznaczyć je i nacisną
 
 *Szkic z wiązaniami równości stosowanymi do linii konstrukcyjnych oraz do dwóch zestawów łuków.*
 
+
+
 ### Zbieżność
 
 8\. Nakładamy wiązanie zbieżności na łuki.
@@ -222,9 +244,13 @@ Na tym etapie stworzyliśmy zamknięty profil, ponieważ końce wszystkich łuk�
 
 *Szkic z wiązaniami zbieżności nałożonymi na łuki, które powodują zamknięcie kształtu.*
 
+
+
 ## Wiązania wymiarów 
 
 Wiązania te definiują liczbowe odległości między dwoma punktami, oraz kąty między dwoma liniami.
+
+
 
 ### Odległości i kąty 
 
@@ -248,6 +274,8 @@ Wiązania te definiują liczbowe odległości między dwoma punktami, oraz kąty
 
 
 *Szkic z wiązaniem długości nakładanym na jedną pionową linię konstrukcyjną ''(po lewej)'', oraz wiązaniem kątowym na trzy pary linii konstrukcyjnych ''(po prawej)''.*
+
+
 
 ### Promień
 
@@ -277,6 +305,8 @@ Powinieneś zakończyć swoją pracę szkicem całkowicie związanym. Można to 
 
 *Szkic z zastosowanymi wszystkimi wiązaniami geometrycznymi i dotyczącymi układu odniesienia.*
 
+
+
 ## Wytłaczanie
 
 12\. Teraz, gdy mamy już całkowicie związany szkic, można go wykorzystać do stworzenia jednolitej bryły.
@@ -292,6 +322,8 @@ Powinieneś zakończyć swoją pracę szkicem całkowicie związanym. Można to 
 
 *Po lewej: szkic w pełni związany, z zaznaczonymi tylko najważniejszymi z wiązań. Po prawej: wyciągnięcie wykonane z [Projekt Części: Wyciągnij wybrany szkic](PartDesign_Pad/pl.md).*
 
+
+
 ## Informacje dodatkowe 
 
 Aby uzyskać bardziej szczegółowy opis szkicownika, przejdź do dokumentacji [Środowiska pracy Szkicownik](Sketcher_Workbench/pl.md), a także przeczytaj dokumentację [Informator do szkicownika](Sketcher_reference/pl.md).
@@ -304,9 +336,11 @@ Ograniczenie szkicu może być wykonane na wiele różnych sposobów. Ogólnie r
 -   Spróbuj użyć innej geometrii konstrukcji.
 
 
- {{Sketcher Tools navi}}
+{{Sketcher Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/pl

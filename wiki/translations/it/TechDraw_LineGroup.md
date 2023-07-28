@@ -10,11 +10,25 @@
 
 {{TOCright}}
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 I gruppi di linee vengono utilizzati per controllare l\'aspetto di vari tipi di linee.
 
-### Usage
+
+</div>
+
+## Usage
 
 1.  Go to the preferences tab *[Annotation](TechDraw_Preferences#Annotation.md)*.
 2.  Select in the field **Line Width Group** a LineGroup. These are the groups defined in the LineGroup definition csv file.
@@ -24,7 +38,7 @@ To change the LineGroups definition file
 1.  Go to the preferences tab *[General](TechDraw_Preferences#General.md)*.
 2.  Select in the field **Line Group File** a LineGroup definition file.
 
-### Customizing LineGroups 
+## Customizing LineGroups 
 
 
 <div class="mw-translate-fuzzy">
@@ -51,6 +65,8 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 ```
 
 È possibile specificare i valori predefiniti preferiti nelle [Preferenze di TechDraw](TechDraw_Preferences/it.md).
+
+
 
 ## Prcorso del file LineGroup 
 
@@ -79,6 +95,8 @@ Nota: È stata aggiunta una nuova preferenza per consentire all\'utente di utili
 *FC 0.70mm,0.35,0.50,0.70,1.4
 *FC 1.00mm,0.50,0.70,1.00,2.00
 ```
+
+
 
 
 <div class="mw-translate-fuzzy">

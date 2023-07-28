@@ -23,14 +23,24 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 ## Usage
 
 1.  Select any face of a previously created **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object.
+
 2.  Then select **<img src="images/Arch_Rebar_Straight.svg" width=16px> [Straight Rebar](Arch_Rebar_Straight.md)** from the rebar tools.
+
 3.  A task panel will pop-out on the left side of the screen as shown below.
+
 4.  Select the desired orientation.
-5.  Give the inputs like front cover, right side cover, left side cover, bottom cover and diameter of the rebar.
-6.  Select the mode of distribution either amount or spacing.
+
+5.  Give the inputs like \'Front cover\', \'Right side cover\', \'Left side cover\', \'Bottom cover\' and \'Diameter\' of the rebar.
+
+6.  Select the mode of distribution either \'Amount\' ou \'Spacing\'.
+
 7.  If spacing is selected, a user can also opt for [custom spacing](Custom_Spacing.md).
-8.  Pick selected face is used to verify or change the face for rebar distribution.
+
+8.  
+    **Pick Selected Face**is used to verify or change the face for rebar distribution.
+
 9.  Click **OK** or **Apply** to generate the rebars.
+
 10. Click **Cancel** to exit the task panel.
 
 <img alt="" src=images/StraightRebarDialog.png  style="width:250px;"> 

@@ -1,24 +1,28 @@
 ---
 - GuiCommand:/de
-   Name:Sketcher constrain arc or circle
-   Name/de:Sketcher AuswahlRadDiaFestlegen
+   Name:Sketcher constrain radius or diameter
+   Name/de:Sketcher Radius oder Durchmesser festlegen
    MenuLocation:
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
 ---
 
 # Sketcher CompConstrainRadDia/de
 
+
+
 ## Beschreibung
 
-**Beschränke einen Bogen oder Kreis** ist eine Symbolschaltfläche in der Skizzierer Beschränkungswerkzeugleiste, die Werkzeuge zum Beschränken eines Bogens oder Kreises gruppiert. Klicke auf den Abwärtspfeil auf der rechten Seite, um die darunter befindlichen Symbole zu erweitern und ein Werkzeug auszuwählen.
+**Radius oder Durchmesser festlegen** ist eine Symbolschaltfläche in der Sketcher-Werkzeugleiste Sketcher-Randbedingungen, die Werkzeuge zum Festlegen des Radius oder Durchmessers eines Bogens, Kreises oder des Gewichts eines B-Spline-Pols gruppiert. Ein Klick auf den Abwärtspfeil auf der rechten Seite zeigt die darunter befindlichen Symbole, um daraus ein Werkzeug auszuwählen.
 
-## Randbedingungen für Bögen oder Kreise 
 
--   <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [RadiusFestlegen](Sketcher_ConstrainRadius/de.md): Legt den Radius eines ausgewählten Kreisbogens oder Kreises fest.
 
--   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Durchmesser festlegen](Sketcher_ConstrainDiameter/de.md): Legt den Durchmesser eines ausgewählten Kreissbogens oder Kreises fest.
+## Randbedingungsarten
 
--   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Automatisch Radius/Durchmesser einschränken](Sketcher_ConstrainRadiam/de.md) (RadiamFestlegen): Legt automatisch den Radius bzw. Durchmesser eines ausgewählten Kreisbogens oder Kreises fest (Gewicht für einen B-Spline-Pol, Durchmesser für einen vollständigen Kreis, Radius für einen Bogen) {{Version/de|0.20}}
+-   <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [Radius oder Gewicht festlegen](Sketcher_ConstrainRadius/de.md): Legt den Radius eines Kreisbogens oder Kreises fest oder das Gewicht eines B-Spline-Pols.
+
+-   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Durchmesser festlegen](Sketcher_ConstrainDiameter/de.md): Legt den Durchmesser eines Kreissbogens oder Kreises fest.
+
+-   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Automatisch Radius oder Durchmesser festlegen](Sketcher_ConstrainRadiam/de.md): Legt den Radius eines Kreisbogens, den Durchmesser eines Kreises oder das Gewicht eines B-Spline-Pols fest.
 
 
 

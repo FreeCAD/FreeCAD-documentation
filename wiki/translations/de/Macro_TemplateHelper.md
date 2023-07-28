@@ -3,62 +3,78 @@
 |Name=Macro TemplateHelper
 |Description=Dieses Makro generiert eine Vorlage (Template) zur verwendung im Arbeitsbereich TechDraw und fügt dem aktiven Dokument ein neues Blatt mit einem neuen Template-Objekt hinzu, bereit darauf Ansichten zu plazieren. Und es kann, wenn gewünscht, eine Stückliste erstellen.
 |Author=FBXL5
-|Date=2021-06-25
+|Date=2023-06-13
 |Version=00.01
+|SeeAlso=[TechDraw Vorlagengenerator](TechDraw_TemplateGenerator/de.md)
 }}
+
+
 
 ## Beschreibung
 
-If you are tired of retyping information whenever you insert another page into your FreeCAD document or if you prefer a \"drawn\" bill of material (BOM) over an inserted spread sheet this macro is for you.
+Wenn es nervt, ständig dieselben Informationen einzutippen, wenn ein neues Zeichnungsblatt in ein FreeCAD-Dokument eingefügt wird oder weil man eine \"gezeichnete\" Stückliste einer eingefügten Kalkulationstabelle bevorzugt, dann kann dieses Makro helfen.
 
-This macro generates a TechDraw template on the fly and inserts it into the active document, ready to get new views added.
+Dieses Makro erstellt im Nu eine TechDraw-Vorlage und fügt sie in das aktive Dokument ein, bereit dafür, neue Ansichten aufzunehmen.
 
-If you wish, you can fill the space between the title block and the upper border of the drawing area with a BOM. You choose how many lines you need or if you fill the whole space.
+Bei Bedarf kann der Bereich zwischen dem Schriftfeld und dem oberen Rand der Zeichnung mit einer Stückliste gefüllt werden. Dabei kann man wählen, wieviele Zeilen eingefügt werden oder ob der ganze Bereich ausgefüllt wird.
 
 <img alt="" src=images/Macro_TemplateHelper_A3+BOM.png  style="width:480px;"> 
-*Page with macro generated template, ISO A3 + bill of material*
+*Zeichnungsblatt mit makrogenerierter Vorlage, ISO A3 + Stückliste*
+
+
 
 ## Anwendung
 
-1.  Open a FreeCAD file or add a new one.
-2.  Find the macro file in your macro directory using <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Macros\...](Std_DlgMacroExecute.md) and select it.
+1.  Eine FreeCAD-Datei öffnen oder eine neue hinzufügen.
 
-    :   (The Script section below describes how to put it there.)
-3.  Press **Execute** to start the macro.
-4.  Select the page format.
-5.  Select the language for the title block.
-6.  If you need a BOM change the number of rows:
+2.  Das Makro befindet sich im Makro-Verzeichnis und wird mit <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Makros\...](Std_DlgMacroExecute/de.md) angezeigt und im Anschluss ausgewählt.
 
-    :   You can use the right mouse button to reset to 0 or
-    :   to set the maximum number of rows that fits on your chosen page size.
-7.  Click **OK** to finish.
+    :   (Der Abschnitt Skript weiter unten beschreibt, wie es dort eingefügt wird.)
 
-## Dialogue window 
+3.  
+    **Ausführen**drücken, um das Makro zu starten.
+
+4.  Blattformat auswählen.
+
+5.  Die Sprache des Schriftfeldes auswählen.
+
+6.  Wird eine Stückliste gewünscht, ändert man die Anzahl der Zeilen.
+
+    :   Mit der rechten Mauste kann der Wert wieder auf 0 gesetzt werden oder
+    :   auf die maximale Anzahl von Zeilen für das jeweilige Zeichnungsformat.
+
+7.  Zum Fertigstellen **OK** klicken.
+
+
+
+## Dialogfenster
 
 <img alt="" src=images/Macro_TemplateHelper_DiaWin.png  style="width:240px;"> 
-*Dialogue window on launch*
+*Dialogfenster beim Start*
 
 <img alt="" src=images/Macro_TemplateHelper_DiaLang.png  style="width:240px;"> 
-*Language options*
+*Spracheinstellung*
 
-English is default and just one version, but maybe someone likes to distinguish \'merican and bri\'ish English in the future\... :-D
+Englisch ist voreingestellt und es gibt nur die eine Version, aber vielleicht möchte ja jemand in Zukunft zwischen Ami- und richtigem Englisch unterscheiden\... :-D
 
 <img alt="" src=images/Macro_TemplateHelper_DiaSize.png  style="width:240px;"> 
-*Format options*
+*Formateinstellungen*
 
 <img alt="" src=images/Macro_TemplateHelper_DiaBOM.png  style="width:240px;"> 
-*BOM options*
+*Stücklisteneinstellungen*
 
-## Script
 
-The Macro should be found in the macro directory. To put it there, you need to:
 
-1.  Select the macro below (from **#! pyth\...** to **\...main()**).
-2.  Copy the selection.
-3.  Create a new macro file using <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Macros\...](Std_DlgMacroExecute.md) and select **Create**.
-4.  Type in the name (TemplateHelper) and select **OK**. (*.FCMacro* is added automatically.)
-5.  Paste the clipboard content into the Editor window.
-6.  Press <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:16px;"> [Execute macro](Std_DlgMacroExecuteDirect.md) to start the macro.
+## Skript
+
+Das Makro sollte sich im Makro-Verzeichnis befinden. Um es dort abzulegen, muss man:
+
+1.  Das folgende Macro auswählen (von **#! pyth\...** bis **\...main()**).
+2.  Die Auswahl kopieren.
+3.  Eine neue Makro-Datei erstellen durch Auswahl von <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Makros\...](Std_DlgMacroExecute/de.md) und anschließend **Erstellen**.
+4.  Den Namen eingeben (TemplateHelper) und **OK** auswählen. (*.FCMacro* wird automatisch angefügt)
+5.  Den Inhalt der Zwischenablage in das Editorfenster einfügen.
+6.  Die Schaltfläche <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:16px;"> [Ausführen](Std_DlgMacroExecuteDirect/de.md) drücken, um das Makro zu starten.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -134,17 +150,17 @@ I have tried to follow this naming rule:
 __Name__= "Template Helper"
 __Comment__ = "Template generator, Page adder, BOM provider"
 __Author__ = "FBXL5"
-__Version__ = "00.01.00"
-__Date__    = "2021-06-20"
+__Version__ = "00.01.02"
+__Date__    = "2023-06-13"
 __License__ = "LGPL-2.0-or-later as FreeCAD"
 __Web__ = ""
-__Wiki__ = "http://www.freecadweb.org/wiki/index.php?title=Macro_TemplateHelper"
+__Wiki__ = "http://www.freecad.org/wiki/index.php?title=Macro_TemplateHelper"
 __Icon__  = ""
 __IconW__  = ""
 __Help__ = "Start the macro and see what happens"
 __Status__ = "Alpha"
 __Requires__ = "FreeCAD >= 0.19 + Python3 "
-__Communication__ = "http://www.freecadweb.org/wiki/index.php?title=User: FBXL5"
+__Communication__ = "http://www.freecad.org/wiki/index.php?title=User: FBXL5"
 __Files__ = ""
 
 # imports and constants
@@ -603,14 +619,16 @@ def FCeditext(entryName,posX,posY,strValue):
 
 #- Create a file and insert a header line
 def createSvgFile(file_path):
-    t=open(file_path,"w") # w = write, overwrites existing files
+    t=open(file_path, "w") # w = write, overwrites existing files
     t.write("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>")
     t.close
 
 #- Create opening svg-tag
 #   Namespace section
 def startSvg(file_path):
-    t=open(file_path,"a") # a = append, new lines are added at the end of an existing file
+    t=open(file_path, "a", encoding="utf-8")
+    # a = append, new lines are added at the end of an existing file
+    # encoding="utf-8", helps with special characters if the Python interpreter is in ASCII mode
     t.write("\n"+"\n")
     t.write("<svg\n")
     t.write("  xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"\n")
@@ -621,7 +639,7 @@ def createSheet(file_path):
     #- set sheet dimensions
     sWidth  = sheet_format.width
     sHeight = sheet_format.height
-    t=open(file_path,"a")
+    t=open(file_path, "a", encoding="utf-8")
     t.write("  width =\""+sWidth+"mm\"\n")
     t.write("  height=\""+sHeight+"mm\"\n")
     t.write("  viewBox=\"0 0 "+sWidth+" "+sHeight+"\">\n")
@@ -630,13 +648,13 @@ def createSheet(file_path):
 
 #- Create closing svg-tag
 def endSvg(file_path):
-    t=open(file_path,"a")
+    t=open(file_path, "a", encoding="utf-8")
     t.write("</svg>")
     t.close
 
 #- Frame creation
 def createFrame(file_path):
-    t=open(file_path,"a")
+    t=open(file_path, "a", encoding="utf-8")
     t.write("    <g id=\"drawing-frame\"\n")
     t.write("      style=\"fill:none;stroke:#000000;stroke-width:0.5;\
 stroke-linecap:round\">\n")
@@ -683,7 +701,7 @@ stroke-linecap:round\">\n")
 
 #- Indexes and folding marks creation
 def createDecoration(file_path):
-    t = open(file_path,"a")
+    t = open(file_path, "a", encoding="utf-8")
     t.write("    <g id=\"index-separators\"\n")
     t.write("      style=\"fill:none;stroke:#000000;stroke-width:0.25;\
 stroke-linecap:round\">\n")
@@ -895,7 +913,7 @@ def createTitleBlock(file_path):
     tbX=str(int(sWidth)-dAR-180) # 180 according to DIN EN ISO 7200
     tbY=str(int(sHeight)-dAB)
     #- group to move allelements in one step
-    t=open(file_path,"a")
+    t=open(file_path, "a", encoding="utf-8")
     t.write("    <g id=\"titleblock\"\n")
     t.write("      transform=\"translate("+tbX+","+tbY+")\">\n")
     t.write("      \n\n")
@@ -969,7 +987,7 @@ def createEditableText(file_path):
     edX=int(sWidth)-dAR-180 # 180 according to DIN EN ISO 7200
     edY=int(sHeight)-dAB
 
-    t=open(file_path,"a")
+    t=open(file_path, "a", encoding="utf-8")
     t.write("    <g id=\"titleblock-editable-owner\"\n")
     t.write("      style=\"font-size:3.5;text-anchor:start;fill:#0000d0;\
 font-family:osifont\">\n")
@@ -1032,7 +1050,7 @@ def createFreecadLogo(file_path):
     dAB = borders.drawing_area_bottom
     dAR = borders.drawing_area_right
 
-    t=open(file_path,"a")
+    t=open(file_path, "a", encoding="utf-8")
     t.write("    <g id=\"freecad-logo-F\"\n")
     t.write("      style=\"display:inline\"\n")
     t.write("      stroke=\"#000000\"\n")
@@ -1090,7 +1108,7 @@ def createProjectionSymbol(file_path):
         top_offset  =  "3.5"
         side_offset = "-3.5"
 
-    t=open(file_path,"a")
+    t=open(file_path, "a", encoding="utf-8")
     t.write("    <g id=\"Projection-symbol\"\n")
     t.write("      stroke=\"#000000\"\n")
     t.write("      stroke-width=\"0.18\"\n")
@@ -1146,7 +1164,7 @@ def createBOMLines(file_path,bom_rows):
     stX=int(sWidth)-dAR-180
     stY=int(sHeight)-dAB-63
 
-    t=open(file_path,"a")
+    t=open(file_path, "a", encoding="utf-8")
     t.write("    <g id=\"bill-of-material\">\n")
     # BOM base line
     t.write("      <g style=\"stroke:#000000;stroke-width:0.35;stroke-linecap:round\">\n")

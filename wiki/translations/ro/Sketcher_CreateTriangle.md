@@ -5,11 +5,15 @@
 
 </div>
 
+
+
 ## Descriere
 
 Desenează un triunghi echilateral înscris într-un cerc . La pornirea instrumentului, indicatorul mouse-ului se schimbă într-o cruce albă cu o pictogramă cu un hexagon roșu. Coordonatele indicatorului sunt afișate lângă acesta în albastru și în timp real.
 
 ![](images/SketcherCreateTriangleExample.png‎ )
+
+
 
 
 <div class="mw-translate-fuzzy">

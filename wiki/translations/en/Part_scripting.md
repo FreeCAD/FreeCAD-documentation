@@ -16,7 +16,7 @@ Another simple object used in 2D geometrical objects is the [Part Part2DObject](
 
 ## Test script 
 
-Test the creation of [Part Primitives](Part_Primitives.md) with a script. <small>(v0.19)</small> 
+Test the creation of [Part Primitives](Part_Primitives.md) with a script.
 
 
 ```python

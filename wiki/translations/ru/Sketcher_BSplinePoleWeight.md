@@ -13,12 +13,16 @@
 
 </div>
 
+
+
 ## Описание
 
-Shows or hides the display of the **weights** for the control points of a B-spline curve (see [below](#Weight_Explanation.md) for an explanation of weights).
+Shows or hides the display of the weights for the control points of a B-spline curve (see [below](#Weight_Explanation.md) for an explanation of weights).
 
 <img alt="" src=images/sketcher_BSplineWeightShow.png  style="width:468px;"> 
 *B-spline with control point weights displayed in brackets*
+
+
 
 ## Применение
 

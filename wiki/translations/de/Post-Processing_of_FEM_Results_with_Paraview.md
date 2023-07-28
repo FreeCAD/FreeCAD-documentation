@@ -1,6 +1,6 @@
 ---
 - TutorialInfo:/de
-   Topic: PNachbearbeitung von FEM Ergebnissen mit ParaView
+   Topic:Nachbearbeitung von FEM-Ergebnissen mit ParaView
    Level: Aufsteiger
    Time: 120 Minuten
    Author:[http://www.freecadweb.org/wiki/index.php?title=User: HarryvL]
@@ -13,22 +13,14 @@
 
 
 
-<div class="mw-translate-fuzzy">
 
 
-
-
-</div>
 
 ## Einführung
 
-
-<div class="mw-translate-fuzzy">
-
-Einige Forenbeiträge und Tutorien verwenden Paraview (PV) zur Überprüfung und Analyse von FreeCAD <img alt="" src=images/_Workbench_FEM.svg  style="width:24px;"> [FEM Arbeitsbereich](FEM_Workbench/de.md) (FEMWB) Ergebnisse. Dieses Tutorial erklärt die Grundlagen des Datentransfers von FEMWB zu PV und zeigt einige der Optionen und Einstellungen für die Anzeige von Daten.
+Einige Forenbeiträge und Tutorien verwenden Paraview (PV) zur Überprüfung und Analyse von Ergebnissen des FreeCAD-Arbeitsbereichs <img alt="" src=images/_Workbench_FEM.svg  style="width:24px;"> [FEM](FEM_Workbench/de.md). Dieses Tutorial erklärt die Grundlagen des Datentransfers vom Arbeitsbereich FEM zu PV und zeigt einige der Optionen und Einstellungen für die Anzeige von Daten.
 
 
-</div>
 
 ## Voraussetzungen
 
@@ -38,20 +30,12 @@ Einige Forenbeiträge und Tutorien verwenden Paraview (PV) zur Überprüfung und
     -   Die für dieses Tutorial verwendeten FreeCAD Dateien sind in [this](https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734) und [diesem](https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&p=368315#p368315) FC Forumsbeitrag verfügbar.
 
 
-<div class="mw-translate-fuzzy">
 
-## Datentransfer vom FEM Arbeitsbereich 
+## Datentransfer vom Arbeitsbereich FEM 
 
-
-</div>
+Im Arbeitsbereich FEM wird das Objekt CCX_Results hervorgehoben. Danach wird die Menüoption **Datei > Export > FEM Ergebnis VTK (*.vtk *.vtu)** ausgewählt, um die VTK-Daten zu exportieren.
 
 
-<div class="mw-translate-fuzzy">
-
-In der FEMWB hebe das Objekt CCX_Results hervor. Verwende dann die Menüoption **Datei > Export > FEM Ergebnis VTK (*.vtk *.vtu)**, um die VTK Daten zu exportieren.
-
-
-</div>
 
 ## Datenimport in Paraview 
 
@@ -69,7 +53,7 @@ Press **Apply** on the properties tab. By default, this will show a top view (lo
 
 The gray geometry can be inspected by rotating the view. The left mouse button makes the geometry swivel, but unfortunately in a difficult-to-control way (compared to FreeCAD). To get a predictable rotation hold the **X**, **Y** or **Z** key while dragging the mouse with left mouse button pressed to rotate the model around the X, Y or Z axis, respectively
 
-<img alt="" src=images/PVPic5.png  style="width:500px;">
+<img alt="" src=images/PVPic5.png  style="width:500px;"> 
 
 ## Speicher/Ladezustand
 
@@ -78,14 +62,12 @@ Rather than saving data, Paraview stores the status (state) of the actions perfo
 To continue where you left off in the previous session use **File > Load State**. This prompts the user to specify a VTK file, which means that the actions performed in the last session can also be applied to a new VTK file. In this way, data from different FEM Workbench analyses can be displayed in exactly the same way, without any additional effort.
 
 
-<div class="mw-translate-fuzzy">
 
-## Visualisieren der FEM Arbeitsbereich Ergebnisse 
-
-
-</div>
+## Ergebnisse des Arbeitsbereichs FEM visualisieren 
 
 Paraview has many options and settings for displaying results. We will first have a look at displaying base import data on the original geometry and thereafter see how to apply filters to modify the geometry. Finally, we will use the calculator and integration filters to derive new results by combining base import data.
+
+
 
 ## Auf Originalgeometrie angezeigte Basisdaten 
 
@@ -127,15 +109,9 @@ The coloring of the iso map can be controlled through the Color Map Editor, whic
 
 The setting for Color Discretization is useful to limit the number of iso values, thus creating more practical ranges for design. The default number of ranges is 256, but here the number is set at 10.
 
-<img alt="" src=images/PVPic16.png  style="width:700px;">
+<img alt="" src=images/PVPic16.png  style="width:700px;"> 
 
-
-<div class="mw-translate-fuzzy">
-
-## Anwenden von Filtern auf FEM Arbeitsbereich Ergebnissen 
-
-
-</div>
+## Filter auf Ergebnisse des Arbeitsbereichs FEM anwenden 
 
 To modify the base data or geometry imported from FEM Workbench, filters can be applied.
 
@@ -164,6 +140,8 @@ To show the deformed geometry superimposed on the undeformed geometry, simply ma
 <img alt="" src=images/PVPic22.png  style="width:700px;">
 
 **NOTE**: As more objects are added to the Pipeline Browser and more display windows are open, it becomes increasingly important to ensure that the right object is selected in the Pipeline Browser and the right Window has focus when making changes to the Properties Tab. Otherwise much time can be spent on finding the right property or changes to properties may not seem to take effect.
+
+
 
 ## Anwenden von Filtern zur Ableitung von Verbund Ergebnissen aus Basis Importdaten 
 
@@ -216,6 +194,8 @@ For example, we can now apply the integration filter to the new variable Total R
 <img alt="" src=images/PVPic31.png  style="width:700px;">
 
 This shows how the total reinforcement requirement compares to those in the individual coordinate directions.
+
+
 
 ## Integration über eine Scheibe 
 
@@ -270,6 +250,8 @@ Finally the Center of Gravity can be calculated from the above results as:
 CoG_y = 55744.2 / 556.277 = 100.2 mm (exact value: 100 mm)
 
 CoG_z = 187144 / 556.277 = 336.4 mm (exact value: 5/6 \* 400 mm)
+
+
 
 ## Integration über eine Linie 
 
@@ -349,6 +331,8 @@ The result for the top 400 mm of the wall is thus 8.436 mm2 / mm. So the top 10%
 
 This procedure could be repeated to divide the wall in zones of constant reinforcement.
 
+
+
 ## Darstellung der Vektorergebnisse mit dem Glyphen 3D Filter 
 
 So far we have only dealt with Scalar values, like reinforcement ratio and displacement magnitude. Visualization of vector results, like Principal Stress vectors, is done with Glyphs.
@@ -393,11 +377,18 @@ Next add another Glyph Filter with the following settings for the Minor Principa
 
 The final result shows the major and minor principal stress vectors superimposed on the beam with ReinforcementRatio_x.
 
+
+
 ## Export grafischer Ergebnisse 
 
-To export a RenderView window highlight the window and use menu option **File > Save Screenshot**  {{FEM Tools navi}}
+To export a RenderView window highlight the window and use menu option **File > Save Screenshot**
+
+
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > Post-Processing of FEM Results with Paraview/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > Post-Processing of FEM Results with Paraview/de

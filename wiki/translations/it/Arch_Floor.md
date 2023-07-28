@@ -2,22 +2,23 @@
 - GuiCommand:/it
    Name:Arch Floor
    Name/it:Piano
-   Workbenches:[Architettura](Arch_Workbench/it.md)
    MenuLocation:Arch → Piano
+   Workbenches:[Arch](Arch_Workbench/it.md)
    Shortcut:**L** **V**
-   SeeAlso:[Edificio](Arch_Building/it.md), [Sito](Arch_Site/it.md)
+   SeeAlso:[Arch Edificio](Arch̞_Building/it.md), [Arch Parte di edificio](Arch_BuildingPart/it.md), [Arch Sito](Arch_Site/it.md)
 ---
 
 # Arch Floor/it
 
 
-</div>
 
 ## Descrizione
 
 Il [Piano](Arch_Floor/it.md) del modulo Arch è un gruppo speciale di oggetti di FreeCAD che possiede alcune proprietà aggiuntive particolarmente utili nella costruzione dei piani. In particolare, possiede la proprietà di altezza, che i suoi oggetti figli, i muri ([muri](Arch_Wall/it.md) e le [strutture](Arch_Structure/it.md)), possono utilizzare per impostare automaticamente la loro altezza. I piani sono prevalentemente utilizzati per organizzare il modello.
 
 A partire da FreeCAD 0.18, il Piano è derivato interamente dall\'oggetto [Parte di edificio](Arch_BuildingPart/it.md), che è un contenitore generale per organizzare un modello di edificio non limitato a piani o pavimenti. Gli oggetti Piano creati con versioni precedenti di FreeCAD possono essere convertiti nel nuovo tipo facendo clic con il pulsante destro del mouse su di essi e scegliendo `Convert to BuildingPart`.
+
+
 
 ## Utilizzo
 
@@ -27,20 +28,18 @@ A partire da FreeCAD 0.18, il Piano è derivato interamente dall\'oggetto [Parte
     -   Usare la scorciatoia **L** **V** da tastiera.
     -   Usare **Arch → Piano** dal menu principale.
 
+
+
 ## Opzioni
 
 -   Dopo aver creato un piano, è possibile aggiungere ad esso altri oggetti con il drag-and-drop nella struttura ad albero o utilizzando lo strumento **<img src="images/Arch_Add.svg" width=16px> [Aggiungi](Arch_Add/it.md)**.
 -   È possibile rimuovere gli oggetti da un piano trascinandoli fuori con il drag-and-drop nella vista ad albero o utilizzando lo strumento **<img src="images/Arch_Remove.svg" width=16px> [Rimuovi](Arch_Remove/it.md)**.
 
+
+
 ## Proprietà
 
-
-<div class="mw-translate-fuzzy">
-
-Un oggetto Piano condivide tutte le proprietà di una [Parte di edificio](Arch_BuildingPart/it.md), con la proprietà**Ifc Role** impostata su `"Building Storey"`.
-
-
-</div>
+Un oggetto Piano condivide tutte le proprietà di una [Parte di edificio](Arch_BuildingPart/it.md), con la proprietà **Ifc Type** impostata su `"Building Storey"`.
 
 ## Script
 
@@ -77,15 +76,6 @@ Building = Arch.makeBuilding([Floor])
 Site = Arch.makeSite(Building)
 FreeCAD.ActiveDocument.recompute() 
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

@@ -1,7 +1,19 @@
 # Drawing Workbench/es
-**El desarrollo del [Ambiente de Trabajo Dibujo](Drawing_Workbench/es.md) se detuvo en FreeCAD 0.16, y el nuevo [Ambiente de Trabajo DibujoTécnico](TechDraw_Workbench/es.md) que pretendía reemplazarlo fue introducido en la v0.17. Ambos ambientes de trabajo todavía se proporcionan en la v0.17, pero el ambiente de Trabajo de Dibujo puede ser eliminado en futuras versiones.**
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+**The '''Drawing Workbench''' is no longer included after version 0.20.<br>
+The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement.**
 
 <img alt="El icono del Ambiente de trabajo Dibujar" src=images/Workbench_Drawing.svg  style="width:128px;">
+
+
 
 ## Introducción
 
@@ -11,6 +23,8 @@ El módulo de Dibujo le permite poner su trabajo 3D en papel. Es decir, poner vi
 {{TOCright}}
 
 <img alt="" src=images/Drawing_extraction.png  style="width:600px;">
+
+
 
 ## Herramientas
 
@@ -51,32 +65,68 @@ El documento contiene un objeto de forma 3D (pierna) del que queremos producir u
 
 En esta página podemos insertar una o varias vistas. Cada vista tiene una posición en la página, un factor de escala y propiedades adicionales. Cada vez que la página o la vista o el objeto referenciado cambian, la página se regenera y la visualización de la página se actualiza.
 
+
+
 ## Guión
 
 Por el momento, el flujo de trabajo de la interfaz gráfica de usuario es muy limitado, por lo que la API de scripting es más interesante.
 
 See the [Drawing API example](Drawing_API_example.md) page for a description of the functions used to create drawing pages and views.
 
-La macro [CartoucheFC](Macro_CartoucheFC/es.md) permite crear un cuadro de información personalizado en una página A3 apaisada.
+
 
 ## Plantillas
 
 FreeCAD viene con un juego de plantillas básico, pero se pueden obtener más en la página [Drawing templates/es](Drawing_templates/es.md).
 
+
+
 ## Ampliación del módulo dibujo 
 
 Some notes on the programming side of the drawing module will be added to the [Drawing Documentation](Drawing_Documentation.md) page. This is to help quickly understand how the drawing module works, enabling programmers to rapidly start programming for it.
 
+
+<div class="mw-translate-fuzzy">
+
 ## Tutoriales
 
 [Tutorial de dibujo](Drawing_tutorial/es.md)
+
+
+</div>
+
+## Macros
+
+-    <img style="width:16px;" src="images/Macro_Automatic_drawing.png"> [Macro Automatic drawing](Macro_Automatic_drawing.md): Allows the user to get the view of his object in a drawing with 4 different position (front,top,iso,right). Needs some modification to be perfectly effective.
+
+-    <img style="width:16px;" src="images/Macro_CartoucheFC.png"> [Macro CartoucheFC](Macro_CartoucheFC.md): This GUI macro to fill simply all fields of the cartridge of the plan implementation worksheet FreeCAD, the format of the date and the symbol of the projection mode adapt to the EU region or US selected.
+
+-    <img style="width:16px;" src="images/Macro_CartoucheFC_2.png"> [Macro CartoucheFC 2](Macro_CartoucheFC_2.md): This GUI macro to fill simply all fields of the cartridge **model 2** of the plan implementation worksheet FreeCAD.
+
+-    <img style="width:16px;" src="images/Macro_CartoucheFC_Full.png"> [Macro CartoucheFC Full](Macro_CartoucheFC_Full.md): This GUI macro to fill simply all fields of the cartridge [Misc templates Full](Misc_templates_Full.md) of the plan implementation worksheet FreeCAD, the format of the date and the symbol of the projection mode adapt to the EU region or US selected.
+
+-    <img style="width:16px;" src="images/Macro_Corner_shapes_wizard.png"> [Macro Corner shapes wizard/update](Macro_Corner_shapes_wizard/update.md): Pops up a dialog asking for the dimensions of your corner piece, then creates the object in the document and creates a page view with top, front and lateral views of the piece.
+
+## External links 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Enlaces externos 
 
 -   [Introducción al dibujo mecánico en Youtube - por el Universo Normal](https://www.youtube.com/watch?v=1Hm5Zyjmjac)
 
 
+</div>
 
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 {{Drawing Tools navi

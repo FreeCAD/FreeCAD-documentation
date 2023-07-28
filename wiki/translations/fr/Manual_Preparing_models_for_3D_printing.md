@@ -11,11 +11,15 @@ Si vous avez été précautionneux lors de la modélisation, la plupart des diff
 
 Ci-dessous, nous supposerons que les deux premiers critères sont respectés, et que maintenant, vous êtes en mesure de produire des objets solides avec des dimensions correctes. Nous allons maintenant voir comment traiter le troisième point.
 
+
+
 ### Exportation vers des trancheuses 
 
 C\'est la technique la plus utilisée pour l\'impression en 3D. L\'objet 3D est exporté vers un autre programme (la trancheuse) qui générera le G-code à partir de l\'objet en le découpant en couches minces (d\'où le nom)et qui définira les mouvements que l\'imprimante 3D fera. Pas mal de ces imprimantes sont des faites maison et par conséquent il y a souvent de petites différences de l\'une à l\'autre. Les programmes offrent généralement des possibilités de configuration avancée qui permettent d'adapter exactement la sortie aux particularités de votre imprimante 3D.
 
 L\'impression 3D réelle, cependant, est un sujet trop vaste pour ce manuel. Mais nous verrons comment exporter et utiliser ces trancheuses pour vérifier que la sortie est correcte.
+
+
 
 ### Conversion d\'objets en mailles 
 
@@ -46,6 +50,8 @@ Dans la plupart des cas, les valeurs par défaut donneront un résultat satisfai
 
 Si vous ne possédez pas d\'imprimante 3D, il est généralement très facile de trouver des services commerciaux qui vont imprimer et vous envoyer les objets imprimés par courrier. Parmi les plus célèbres, on trouve [Shapeways](http://www.shapeways.com/) et [Sculpteo](http://www.sculpteo.com/), mais vous en trouverez généralement beaucoup d\'autres dans votre propre ville. Dans toutes les grandes villes, vous trouverez également aujourd\'hui des [Fab labs](https://en.wikipedia.org/wiki/Fab_lab), qui sont des laboratoires ou ateliers équipés d\'une gamme de machines de fabrication 3D, incluant presque toujours au moins une imprimante 3D. Les FabLabs sont habituellement des espaces communautaires, qui vous permettront d\'utiliser leurs machines, moyennant des frais ou gratuitement selon le FabLab, mais aussi vous apprendre à les utiliser et à promouvoir d\'autres activités autour de la fabrication 3D.
 
+
+
 ### Utilisation de Slic3r 
 
 [Slic3r](http://slic3r.org/) est une application qui convertit des objets STL en G-code pouvant être envoyé directement vers les imprimantes 3D. Comme FreeCAD, il est gratuit, open-source et s\'exécute sous Windows, Mac OS et Linux. La configuration correcte des paramètres pour l\'impression 3D est un processus compliqué, où vous devez avoir une bonne connaissance de votre imprimante 3D ; il n\'est donc pas très utile de générer du G-code avant de pouvoir effectivement imprimer (votre fichier de G-code peut ne pas fonctionner correctement sur une autre imprimante), mais c\'est utile pour nous de toute façon, pour vérifier que notre fichier STL sera imprimable sans problème.
@@ -53,6 +59,8 @@ Si vous ne possédez pas d\'imprimante 3D, il est généralement très facile de
 Ceci est notre fichier STL exporté ouvert dans Slic3r. En utilisant l\'onglet **Aperçu**, et en déplaçant le curseur droit, nous pouvons visualiser le chemin que la tête d\'imprimante 3D suivra pour construire notre objet.
 
 ![](images/Exercise_meshing_03.jpg )
+
+
 
 ### Utilisation de l\'extension Cura 
 
@@ -82,10 +90,10 @@ La génération des parcours d'outils en G-code dans FreeCAD se fait avec l'atel
 
 La génération de parcours de fraisage CNC est un autre sujet qui est trop vaste pour être adapté à ce manuel, nous allons donc montrer comment construire un projet de cheminement simple, sans se soucier de la plupart des détails de l\'usinage CNC réel.
 
--   Chargez le fichier contenant notre pièce de lego, et passez à l'([atelier Path](Path_Workbench/fr.md)).
--   Puisque la pièce finale ne contient plus une face supérieure rectangulaire, cachez la dernière étape de la pièce de lego, et montrez le premier bloc parallélipipédique que nous avons fait, qui a une face supérieure rectangulaire.
--   Sélectionnez la face supérieure et appuyez sur le bouton <img alt="" src=images/Path_Profile.svg  style="width:16px;"> [Profilage](Path_Profile/fr.md).
--   Définissez sa propriété **Offset** (décalage) à 1mm, ce qui correspond au rayon de la fraise.
+-   Chargez le fichier contenant notre pièce de lego, et passez à l'[atelier Path](Path_Workbench/fr.md).
+-   Puisque la pièce finale ne contient plus une face supérieure rectangulaire, cachez la dernière étape de la pièce de lego et montrez le premier bloc parallélipipédique que nous avons fait, qui a une face supérieure rectangulaire.
+-   Sélectionnez la face supérieure et appuyez sur le bouton <img alt="" src=images/Path_Profile.svg  style="width:16px;"> [Contournage](Path_Profile/fr.md).
+-   Définissez sa propriété **Offset** (décalage) à 1mm.
 
 ![](images/Exercise_path_01.jpg )
 
@@ -125,6 +133,8 @@ Il existe de nombreuses applications disponibles pour simuler l'usinage réel, l
 -   [L'atelier Cura](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin)
 -   [L'atelier Path](Path_Workbench/fr.md)
 -   [Camotics](http://camotics.org/)
+
+
 
 ### Vidéos
 

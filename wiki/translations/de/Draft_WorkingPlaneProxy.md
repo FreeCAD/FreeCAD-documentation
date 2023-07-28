@@ -1,83 +1,77 @@
 ---
 - GuiCommand:/de
    Name:Draft WorkingPlaneProxy
-   Name/de:Entwurf ArbeitsEbeneProxy
-   MenuLocation:Entwurf → Dienstprogramme → Erstelle Arbeitsebenen Proxy
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
-   SeeAlso:[Entwurf WähleEbene](Draft_SelectPlane/de.md)
+   Name/de:Draft ArbeitsebenenProxy
+   MenuLocation: Dienstprogramme → Arbeitsebenen-Proxy erstellen
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso:[Draft EbeneAuswählen](Draft_SelectPlane/de.md)
 ---
 
 # Draft WorkingPlaneProxy/de
 
 
-</div>
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Dieser Befehl platziert ein Ebenen Proxy Objekt, ausgerichtet auf die aktuelle [Arbeitsebene](Draft_SelectPlane/de.md).
-
-
-</div>
+Der Befehl <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24px;"> **Draft ArbeitsebenenProxy** erstellt einen Stellvertreter der Arbeitsebene, um die aktuelle [Draft Arbeitsebene](Draft_SelectPlane/de.md) zu sichern. Ein Arbeitsebenen-Proxy kann zum schnellen wiederherstellen einer Arbeitsebene verwendet werden. Kameraposition und Sichtbarkeit der Objekte in der [3D-Ansicht](3D_view/de.md) werden auch im Arbeitsebenen-Proxy gespeichert und können, [wahlweise](#Eigenschaften.md), auch wiederhergestellt werden.
 
 <img alt="" src=images/Draft_WPProxy_example.png  style="width:400px;"> 
 *Drei Proxies der Bearbeitungsebene mit unterschiedlichen Ausrichtungen und Versätzen*
 
+
+
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Stelle sicher, dass die [Arbeitsebene](Draft_SelectPlane/de.md) so eingestellt ist, wie Du willst.
-2.  Dann gehe zum Menü **Draft → Dienstprogramme → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> [Arbeitsebenen Proxy erstellen](Draft_WorkingPlaneProxy/de.md)**.
-
-
-</div>
-
-## Context menu 
-
-For a Draft WorkingPlaneProxy these additional options are available in the [Tree view](Tree_view.md) context menu:
-
--    **<img src="images/Draft_SelectPlane.svg" width=16px> Write camera position**: updates the **View Data** property of the working plane proxy with the current [3D view](3D_view.md) camera settings.
-
--    **<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state**: updates the **Visibility Map** property of the working plane proxy with the current visibility state of objects in the document.
-
-## Notes
+1.  Wahlweise die [Arbeitsebene](Draft_SelectPlane/de.md) wechseln.
+2.  Wahlweise die [3D-Ansicht](3D_view/de.md) wechseln.
+3.  Wahlweise die Sichtbarkeit von Objekten im Dokument ändern.
+4.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_WorkingPlaneProxy.svg" width=16px> [Arbeitsebenen-Proxy erstellen](Draft_WorkingPlaneProxy/de.md)** drücken.
+    -   Den Menüeintrag **Dienstprogramme → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Arbeitsebenen-Proxy erstellen** auswählen.
+5.  Ein Arbeitsebenen-Proxy wird erstellt.
+6.  Zum Ausrichten einer [Arbeitsebene](Draft_SelectPlane/de.md) an einem Arbeitsebenen-Proxy klickt man doppelt auf den Arbeitsebenen-Proxy in der [Baumansicht](Tree_view/de.md) oder verwendet ihn mit dem Befehl [Draft EbeneAuswählen](Draft_SelectPlane/de.md).
 
 
-<div class="mw-translate-fuzzy">
+
+## Kontextmenü
+
+Für ein Draft Arbeitsebenen-Proxy sind diese zusätzlichen Optionen im Kontextmenü der [Baumansicht](Tree_view/de.md) vorhanden:
+
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Write camera position**: aktualisiert die {{PropertyView/de|View Data}} des Arbeitsebenen-Proxys mit den aktuellen Kameraeinstellungen der [3D-Ansicht](3D_view/de.md).
+
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state**: aktualisiert die {{PropertyView/de|Visibility Map}} des Arbeitsebenen-Proxys mit den aktuellen Sichtbarkeiten der Objekte im Dokument.
+
+
 
 ## Hinweise
 
--   Die im Proxy Objekt gespeicherte Arbeitsebene kann durch einen Doppelklick auf das Objekt in der Strukturansicht oder durch Auswahl des Proxy Objekts und Verwendung der **<img src="images/Draft_SelectPlane.svg" width=16px> [Entwurf WähleEbene](Draft_SelectPlane/de.md)** klicken.
--   Die Position der Kamera wird bei der Erstellung im Proxy Objekt gespeichert. Diese Position kann jederzeit aktualisiert werden: zoomen, schwenke und drehe die Ansicht nach Belieben, klicke dann mit der rechten Maustaste auf das Proxy Objekt in der Baumansicht und wähle **<img src="images/Draft_SelectPlane.svg" width=16px> Kameraposition schreiben**.
--   Der Sichtbarkeitsstatus aller Objekte wird bei der Erstellung ebenfalls im Proxy Objekt gespeichert. Dieser Zustand kann jederzeit aktualisiert werden: Setze die Eigenschaft **Sichtbarkeit** der Objekte je nach Wunsch auf `True` oder `False`, klicke dann mit der rechten Maustaste auf das Proxy Objekt in der Baumansicht und wähle **<img src="images/Draft_SelectPlane.svg" width=16px> Objektzustand schreiben**.
--   Ebenen Proxys können wie jedes andere Objekt verschoben und gedreht werden, so dass sie die gewünschte Arbeitsebene definieren. Ihr optisches Erscheinungsbild kann auch im [Eigenschafteneditor](Property_editor/de.md) verändert werden.
+-   Arbeitsebenen-Proxies können [verschoben](Draft_Move/de.md) und [gedreht](Draft_Rotate/de.md) werden, wie jedes andere Objekt auch. Mit aktiviertem <img alt="" src=images/Draft_Snap_Center.svg  style="width:16px;"> [Draft MittelpunktEinrasten](Draft_Snap_Center/de.md) wird auf dem Punkt seiner {{PropertyData/de|Placement}} eingerastet.
 
 
-</div>
 
 ## Eigenschaften
 
-See also: [Property editor](Property_editor.md).
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. It also has the following additional properties:
-
-### Data
+Ein Draft ArbeitsebenenProxy wird von einem [App FeaturePython](App_FeaturePython.md)-Objekt abgeleitet und erbt alle seine Eigenschaften. Außerdem besitzt es die folgenden zusätzlichen Eigenschaften:
 
 
-{{TitleProperty|Base}}
+
+### Daten
+
+
+{{TitleProperty|Basis}}
 
 -    **Placement|Placement**: specifies the position of the working plane proxy in the [3D view](3D_view.md). See [Placement](Placement.md).
 
 -    **Shape|Shape|Hidden**: specifies the shape of the working plane proxy.
 
-### View
 
 
-{{TitleProperty|Base}}
+### Ansicht
+
+
+{{TitleProperty|Basis}}
 
 -    **Line Color|Color**: specifies the color of all elements of the working plane proxy.
 
@@ -100,35 +94,15 @@ A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_Feat
 
 -    **Display Size|Length**: specifies the length and width of the working plane proxy.
 
+
+
 ## Skripten
 
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-<div class="mw-translate-fuzzy">
+Zum Erstellen eines Draft Arbeitsebenen-Proxys verwendet man die Methode `make_workingplaneproxy` des Draft-Moduls.
 
-
-**Siehe auch:**
-
-[Entwurf API](Draft_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Arbeitsebenen Proxyobjekte können in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole aus mit der folgenden Funktion benutzt werden:
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   Erzeugt ein `WPProxy` Objekt aus der gegebenen `Platzierung`, die ein `FreeCAD.Placement` ist.
-    -   Eine Platzierung wird durch einen Basispunkt, gegeben durch seinen `FreeCAD.Vector`, und eine `FreeCAD.Rotation` definiert.
-
-
-</div>
+Ist der Arbeitsbereich [Draft](Draft_Workbench/de.md) aktiv, besitzt FreeCADs Anwendungsobjekt (application object) eine Eigenschaft `DraftWorkingPlane`, die die aktuelle Arbeitsebene speichert. Die Positionierung {{Incode|Placement}} aus der Methode {{Incode|getPlacement}} des `DraftWorkingPlane`-Objekts kann zur Erstellung eines ausgerichteten Arbeitsebenen-Proxys verwendet werden. Die Positionierung {{Incode|Placement}} kann wiederum zu erneuten Ausrichten der Arbeitsebene verwendet werden.
 
 
 ```python
@@ -160,15 +134,6 @@ Gui.Snapper.setGrid()
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

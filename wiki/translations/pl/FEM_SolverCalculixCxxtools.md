@@ -42,7 +42,7 @@ Default values can be set in the menu **Edit → Preferences → FEM → Calculi
     -   static
     -   frequency
     -   thermomech - for mechanical and thermal loads
-    -   check - to check only the mesh <small>(v0.19)</small> 
+    -   check - to check only the mesh
     -   buckling - for buckling analyses <small>(v0.20)</small> 
 
 -    **Beam Shell Result Output 3D**: note that CalculiX internally expands 1D and 2D elements into 3D elements to accomplish FE analysis

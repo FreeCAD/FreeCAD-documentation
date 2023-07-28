@@ -12,6 +12,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Descriere
@@ -37,6 +39,8 @@ After certain boolean operations, like [Part Fuse](Part_Fuse.md), some lines fro
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -66,6 +70,8 @@ This behavior can be changed in the <img alt="" src=images/Std_DlgParameter.svg 
 See other parameters in [Fine-tuning](Fine-tuning.md).
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Note
@@ -83,6 +89,9 @@ See other parameters in [Fine-tuning](Fine-tuning.md).
 -   This function may help to clean up the model before applying another feature, such as a [Fillet](Part_Fillet.md).
 -   This clean up may stop 3D printers from printing unwanted edges once the solid model is exported to a mesh format.
 -   This function can also be used after converting a mesh to a shape ([ShapeFromMesh](Part_ShapeFromMesh.md)) to clean up the residual edges on flat faces.
+-   Some interesting information about what is happening with placement and how to access by Python can be found in this [forum post](https://forum.freecad.org/viewtopic.php?t=77568#p675456).
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -97,6 +106,8 @@ See other parameters in [Fine-tuning](Fine-tuning.md).
 
 -   The refinement algorithm only works on shells. Therefore it iterates over the shells of the input shape and then for each shell it creates a new shell with joined faces wherever possible. This means that if your input shape is only a face, wire, edge or vertex then the algorithm does nothing.
 -   Unlike the <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width:24px;"> [OpenSCAD RefineShapeFeature](OpenSCAD_RefineShapeFeature.md) command, <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Part RefineShape](Part_RefineShape.md) won\'t update when the preceding shapes are changed.
+
+
 
 
 <div class="mw-translate-fuzzy">

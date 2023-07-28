@@ -9,30 +9,38 @@
 
 # Std ToggleObjects/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std ObjekteUmschalten** schaltet die Sichtbarkeit aller Objekte, die zum aktiven Dokument gehören, in den [3D-Ansichten](3D_view.md) um. Der Befehl sollte mit Vorsicht verwendet werden, da auch die Sichtbarkeit der Unterelemente von [PartDesign-Körpern](PartDesign_Body/de.md) und Objekten, die für [Part BoolescheOperationen](Part_Boolean/de.md) verwendet werden, umgeschaltet wird. In den meisten Fällen sollten diese unsichtbar bleiben.
+
+
 
 ## Anwendung
 
 1.  Menüeintrag **Ansicht → Sichtbarkeit → <img src="images/Std_ToggleObjects.svg" width=16px> Alle Objekte umkehren** auswählen.
 
+
+
 ## Hinweise
 
--   Invisible objects are displayed with a greyed out label and a greyed out icon in the [Tree view](Tree_view.md).
--   Objects nested in a [Std Part](Std_Part.md), or a [Std Link](Std_LinkMake.md) to a [Std Group](Std_Group.md), or a LinkGroup, and [features](PartDesign_Feature.md) of a [PartDesign Body](PartDesign_Body.md) will only be visible in [3D views](3D_view.md) if their parent is visible as well. This means that a feature in a PartDesign Body that is nested in a Std Part will only be visible in 3D views if the feature itself, the PartDesign Body, and the Std Part are all visible. And if the Std Part is in turn nested in another Std Part, then that last object must also be visible.
--   If the visibility of a [Std Group](Std_Group.md) (or an object derived from it such as an [Arch BuildingPart](Arch_BuildingPart.md)) is changed, the visibility of its nested objects will change accordingly. But their visibility can be changed independently as well.
--   The action of this command cannot be undone with [Std Undo](Std_Undo.md).
--   The visibility of an object can also be changed through its related **Visibility** property in the [Property editor](Property_editor.md) or the [Combo view](Combo_view.md).
+-   Ausgeblendete Objekte werden mit ausgegrauter Benennung und ausgegrautem Symbol in der [Baumansicht](Tree_view/de.md).
+-   Objekte, die in einem [Std Part](Std_Part/de.md) eingebettet sind oder einem [Std Link](Std_LinkMake/de.md) zu einer [Std Gruppe](Std_Group/de.md) oder einer LinkGroup und [Formelemente](PartDesign_Feature/de.md) eines [PartDesign Körpers](PartDesign_Body/de.md) sind nur in der [3D-Ansicht](3D_view/de.md) sichtbar, wenn ihr übergeordnetes Objekt auch sichtbar ist. Das heißt, dass ein Formelement in einem PartDesign-Körper, der in einem Std-Part eingebettet ist, nur dann sichtbar ist, wenn sowohl das Formelement selbst als auch der PartDesign-Körper und das Std-Part sichtbar sind. Wenn das Std-Part wiederum in einem anderen Std-Part eingebettet ist, muss auch das letztgenannte sichtbar sein.
+-   Wird die Sichtbarkeit einer [Std Gruppe](Std_Group/de.md) (oder eines Objekts, das davon abgeleitet ist, wie ein [Arch Gebäudeteil](Arch_BuildingPart/de.md)) geändert, ändert sich auch die Sichtbarkeit der eingebetteten Objekte entsprechend. Aber ihre Sichtbarkeit kann auch separat geändert werden.
+-   Das Ergebnis dieses Befehls kann nicht mit [Std Rückgängig](Std_Undo/de.md) rückgängig gemacht werden.
+-   Die Sichtbarkeit eines Objekts kann auch durch die zugehörige {{PropertyData/de|Visibility}} im [Eigenschafteneditor](Property_editor/de.md) oder in der [Combo-Ansicht](Combo_view/de.md) geändert werden.
+
+
 
 ## Skripten
 
 
-**See also:**
+**Siehe auch:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-For a scripting example see [Std ToggleVisibility](Std_ToggleVisibility.md).
+Für ein Beispiel-Skript siehe [Std SichbarkeitUmschalten](Std_ToggleVisibility/de.md).
 
 
 

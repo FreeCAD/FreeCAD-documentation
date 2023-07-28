@@ -57,6 +57,9 @@ Quando più muri devono essere intersecati, è necessario inserirli in un [piano
 
 ## Opzioni
 
+
+<div class="mw-translate-fuzzy">
+
 -   Gli elementi Muro condividono le proprietà e i comportamenti comuni di tutti i [Componenti Arch](Arch_Component/it.md)
 -   L\'altezza, la larghezza e l\'allineamento di un muro può essere impostato durante il disegno, tramite il pannello delle Azioni.
 -   Quando aggancia una parete di una parete esistente, entrambe le pareti si uniscono in una sola. Il modo in cui sono unite le due pareti dipende dalle loro proprietà. Se hanno la stessa larghezza, altezza e orientamento, la parete risultante sarà un oggetto basato su uno schizzo composto da più segmenti. Altrimenti, l\'ultima parete verrà unita alla prima come oggetto aggiunta.
@@ -71,6 +74,9 @@ Quando più muri devono essere intersecati, è necessario inserirli in un [piano
 -   I muri possono essere fatti per mostrare blocchi, invece di un singolo solido, attivando la proprietà **Make Blocks**. La dimensione e l\'offset dei blocchi possono essere configurati con proprietà diverse e la quantità di blocchi viene calcolata automaticamente. {{Version/it|0.18}}
 
 
+</div>
+
+
 
 ## Aggancio
 
@@ -82,6 +88,46 @@ Con i muri dell\'ambiente Arch l\'aggancio funziona un po\' diversamente da come
 
 
 ## Proprietà
+
+Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and also have the following extra properties:
+
+### Data
+
+
+{{TitleProperty|Blocks}}
+
+
+<div class="mw-translate-fuzzy">
+
+-    {{PropertyData/it|Make Blocks}}: Abilita questo per far sì che il muro generi blocchi
+
+-    {{PropertyData/it|Block Length}}: La lunghezza di ciascun blocco
+
+-    {{PropertyData/it|Block Height}}: L\'altezza di ogni blocco
+
+-    {{PropertyData/it|Offset First}}: L\'offset orizzontale della prima riga di blocchi
+
+-    {{PropertyData/it|Offset Second}}: L\'offset orizzontale della seconda riga di blocchi
+
+-    {{PropertyData/it|Joint}}: La dimensione delle articolazioni tra ciascun blocco
+
+-    {{PropertyData/it|Count Entire}}: Il numero di interi blocchi (sola lettura)
+
+-    {{PropertyData/it|Count Broken}}: Il numero di blocchi interrotti (sola lettura)
+
+
+</div>
+
+
+{{TitleProperty|Component}}
+
+-    **Base**: The base object this wall is built on
+
+
+{{TitleProperty|Wall}}
+
+
+<div class="mw-translate-fuzzy">
 
 Gli oggetti Muro ereditano le proprietà degli oggetti [Part](Part_Workbench/it.md), e hanno anche le seguenti proprietà supplementari:
 
@@ -104,23 +150,7 @@ Gli oggetti Muro ereditano le proprietà degli oggetti [Part](Part_Workbench/it.
 -    {{ProprietaDati|Offset}}: Specifica la distanza tra il muro e la sua linea base. Funziona solo se la proprietà Align è impostata a destra o a sinistra.
 
 
-{{Version/it|0.18}}
-
--    {{PropertyData/it|Make Blocks}}: Abilita questo per far sì che il muro generi blocchi
-
--    {{PropertyData/it|Block Length}}: La lunghezza di ciascun blocco
-
--    {{PropertyData/it|Block Height}}: L\'altezza di ogni blocco
-
--    {{PropertyData/it|Offset First}}: L\'offset orizzontale della prima riga di blocchi
-
--    {{PropertyData/it|Offset Second}}: L\'offset orizzontale della seconda riga di blocchi
-
--    {{PropertyData/it|Joint}}: La dimensione delle articolazioni tra ciascun blocco
-
--    {{PropertyData/it|Count Entire}}: Il numero di interi blocchi (sola lettura)
-
--    {{PropertyData/it|Count Broken}}: Il numero di blocchi interrotti (sola lettura)
+</div>
 
 ## Scripting
 

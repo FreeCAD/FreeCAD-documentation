@@ -1,6 +1,8 @@
 # Upgrade the documentation system
 This page is dedicated to the description of the [Google Summer of Code 2023](Google_Summer_of_Code.md) project idea of upgrading the documentation system of FreeCAD.
 
+**Obsolete**: This page has been moved to <https://github.com/FreeCAD/FreeCAD/issues/8558>
+
 ## Outline
 
 FreeCAD already possesses a vast documentation, written by its users and hosted on this very wiki. On each FreeCAD release, the contents of the wiki get packed into a offline documentation package which is bundled with FreeCAD. When using the \"what\'s this?\" feature, FreeCAD users can quickly get documentation about a specific tool

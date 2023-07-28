@@ -12,9 +12,17 @@
 
 </div>
 
+
+
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Acest instrument stabilește dispozitivul de decalare a lucrării de la controlerul CNC al mașinii.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -36,6 +44,8 @@ Fixarea G59 este utilizată pentru a extinde dispozitivele disponibile. Gradul d
 
 </div>
 
+
+
 ## Utilizare
 
 
@@ -47,6 +57,8 @@ Fixarea G59 este utilizată pentru a extinde dispozitivele disponibile. Gradul d
 
 
 </div>
+
+
 
 ## Proprietăți
 

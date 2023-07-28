@@ -12,11 +12,15 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Fissa una distanza orizzontale tra due punti. È applicabile tra tutti i punti dello schizzo. Quando viene selezionato un solo punto la distanza è riferita all\'origine.
 
 ![](images/Constraint_H_Distance.png )
+
+
 
 ## Utilizzo
 
@@ -46,7 +50,7 @@ Fissa una distanza orizzontale tra due punti. È applicabile tra tutti i punti d
 Distance from origin:
 
 
-```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Edge, PointOfEdge, App.Units.Quantity('123.0 mm')))```
+```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Edge, PointOfEdge, -1, 1, App.Units.Quantity('123.0 mm')))```
 
 Distance between two vertices:
 
@@ -58,7 +62,7 @@ Horizontal span of line (the GUI allows selecting the edge itself, but it is jus
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Line, 1, Line, 2, App.Units.Quantity('123.0 mm')))```
 
-The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Edge1`, `Edge2`, `Edge`, ` PointOfEdge1`, ` PointOfEdge2`, `PointOfEdge` and `Line`, and contains further examples on how to create constraints from Python scripts.
+The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Edge`, `Edge1`, `Edge2`, `PointOfEdge`, ` PointOfEdge1`, ` PointOfEdge2` and `Line`, and contains further examples on how to create constraints from Python scripts.
 
 
 <div class="mw-translate-fuzzy">

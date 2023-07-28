@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -55,12 +57,16 @@ Toate informațiile aplicabile unui [Arch Window](Arch_Window.md) se aplică și
 *Complex window being constructed on top of a [Sketch](Sketcher_Workbench.md). When entering the window's edit mode you can create different components, set their thickness, and select and assign wires from the sketch to them.*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Cum se folosește 
 
 
 </div>
+
+
 
 ### Utilizarea predefinitelor 
 
@@ -91,6 +97,8 @@ If you install the [Parts Library](Parts_Library_Workbench.md) from the [Addon M
     -   On Mac OSX it is usually **/Users/username/Library/Preferences/FreeCAD/**
 -   The subdirectory name **Custom** is just a suggestion, any name can be used. But the files must be placed in one or more subdirectories inside the **Doors** or **Windows** directories.
 
+
+
 ### Crearea de la zero 
 
 
@@ -108,17 +116,31 @@ If you install the [Parts Library](Parts_Library_Workbench.md) from the [Addon M
 
 </div>
 
-When creating the sketch, pay close attention to the creation order of the loops; the numbering of the \"wires\" in the [task panel](task_panel.md) (\"Window elements\") depends on this.
+
 
 ## Setări prealabile 
 
 Sunt disponibile următoarele presetări:
 
+
+<div class="mw-translate-fuzzy">
+
 Image:ParametersDoorGlass.svg\|Glass door Image:ParametersDoorSimple.svg\|Simple door Image:ParametersWindowDouble.svg\|Double-opening window Image:ParametersWindowFixed.svg\|Fixed window Image:ParametersWindowSimple.svg\|Single-opening window Image:ParametersWindowStash.svg\|Sash-opening window
+
+
+</div>
+
+
 
 ## Construcția de componente 
 
+
+<div class="mw-translate-fuzzy">
+
 Ferestrele pot include 3 tipuri de componente: panouri, cadre și jaluzele. Panourile și jaluzele sunt realizate dintr-un fir închis, care este extrudat, în timp ce cadrele sunt realizate din 2 sau mai multe fire închise,where each one is extruded, then the smaller ones are subtracted from the biggest one. You can access, create, modify and delete components of a window in edit mode (double-click the window in the Tree view). The components have the following properties:
+
+
+</div>
 
 -   **Name**: Un nume al componentului
 -   **Type**: The type of component. Can be \"Frame\", \"Glass panel\", \"Solid panel\" or \"Louvres\"
@@ -129,6 +151,8 @@ Ferestrele pot include 3 tipuri de componente: panouri, cadre și jaluzele. Pano
 -   **Opening mode**: If you defined a hinge in this component or any other earlier in the list, setting the opening mode will allow the window to appear open or to display 2D opening symbols in plan or elevation.
 
 <img alt="" src=images/Arch_Window_options.jpg  style="width:600px;">
+
+
 
 ## Opţiuni
 
@@ -145,6 +169,8 @@ Ferestrele pot include 3 tipuri de componente: panouri, cadre și jaluzele. Pano
 
 
 </div>
+
+
 
 ## Deschideri
 
@@ -211,6 +237,8 @@ You can use any other kind of workflow than the one described above, the importa
 -   The type object must have a \"Subvolume\" property (linked to the window\'s Subvolume property) for openings in host objects to work
 -   The type object must have a \"Group\" property with different children with same names as multi-material items for multi-materials to work
 
+
+
 ## Proprietăți
 
 -    **Height**: Înălțimea acestei ferestre
@@ -260,7 +288,7 @@ Window = makeWindow(baseobj=None, width=None, height=None, parts=None, name="Win
 <div class="mw-translate-fuzzy">
 
 -   Toate argumentele sunt opționale
--   Creează un  Window \</ code\> bazat pe  baseobj \</ code\>, care ar trebui să fie un [Draft Wire](Draft_Wire.md) sau [Sketcher Sketch](Sketcher_Sketch.md)
+-   Creează un  Window \</ code\> bazat pe  baseobj \</ code\>, care ar trebui să fie un [Draft Wire](Draft_Wire.md) sau [Sketcher Sketch](Sketcher_Workbench.md).
 -   Dacă este disponibil, setează  width \</ code\>,  height \</ code\> și  name \</ code\>
 -   Dacă  baseobj \</ code\> nu este o formă închisă, este posibil ca instrumentul să nu creeze o figură solidă adecvată
 

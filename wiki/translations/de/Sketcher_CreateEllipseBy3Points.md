@@ -32,7 +32,7 @@ Die blauen Linien sind Konstruktionslinien zur Veranschaulichung.*
 -   Die Schaltfläche **[<img src=images/Sketcher_CreateEllipseBy3Points.svg style="width:16px"> [Ellipse durch 3 Punkte erstellen](Sketcher_CreateEllipseBy3Points/de.md)** drücken.
 -   Der erste Klick in die 3D-Ansicht setzt einen Scheitelpunkt, der den Schnittpunkt des Hauptdurchmessers mit der Ellipse (Periapsis) definiert. Der zweite Klick in die 3D-Ansicht legt den gegenüberliegenden Scheitelpunkt fest, die Kreuzung des Hauptdurchmessers mit der Ellipse auf der gegenüberligenden Seite des Mittelpunktes (Apoapsis). Der dritte Klick legt einen Punkt auf der Ellipse fest, der den Nebenradius definiert.
 
--   Nach dem dritten Klick wird die Ellipse zusammen mit darauf ausgerichteter Konstruktionsgeometrie erstellt (großer Durchmesser, kleiner Durchmesser, zwei Brennpunkte). Die Konstruktionsgeometrie kann manuell gelöscht werden, wenn sie nicht benötigt wird, und später wiederhergestellt werden. Siehe [InterneAusrichtungFestlegen](Sketcher_ConstrainInternalAlignment/de.md) und [InterneAusrichtungsgeometrieWiederherstellen](Sketcher_RestoreInternalAlignmentGeometry/de.md).
+-   Nach dem dritten Klick wird die Ellipse zusammen mit darauf ausgerichteter Konstruktionsgeometrie erstellt (großer Durchmesser, kleiner Durchmesser, zwei Brennpunkte). Die Konstruktionsgeometrie kann manuell gelöscht werden, wenn sie nicht benötigt wird, und später wiederhergestellt werden. Siehe [InterneAusrichtungsgeometrieWiederherstellen](Sketcher_RestoreInternalAlignmentGeometry/de.md).
 -   Das Drücken von **ESC** oder Klicken mit der rechten Maustaste bricht die Funktion ab.
 
 

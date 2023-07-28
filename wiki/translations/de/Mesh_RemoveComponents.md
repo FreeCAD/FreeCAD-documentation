@@ -1,40 +1,26 @@
 ---
 - GuiCommand:/de
-   Name:Mesh RemoveComponents   Name/de:Netze Komponenten entfernen
-‏‎   MenuLocation:Netze → Komponenten entfernen
-   Workbenches:[Netze](Mesh_Workbench/de.md)
+   Name:Mesh_RemoveComponents
+   Name/de:Mesh KomponentenEntfernen
+   MenuLocation:Netze → Komponenten entfernen...
+   Workbenches:[Mesh](Mesh_Workbench/de.md)
+   SeeAlso:[Mesh KomponentenVonHandEntfernen](Mesh_RemoveCompByHand/de.md), [Arch NetzAufteilen](Arch_SplitMesh/de.md)
 ---
 
 # Mesh RemoveComponents/de
 
 
-</div>
 
-## Description
+## Beschreibung
 
+Der Befehl \"Mesh KomponentenEntfernen\" entfernt Flächen aus Netzobjekten.
 
-<div class="mw-translate-fuzzy">
-
-## Einleitung
-
-Entfernt Komponenten aus Netzen.
+![](images/Meshes_RemoveComponents.jpg ) 
+*Der Aufgaben-Bereich Komponenten entfernen*
 
 
-</div>
-
-![](images/Meshes_RemoveComponents.jpg )
-
-
-<div class="mw-translate-fuzzy">
 
 ## Anwendung
-
-![](images/_Meshes_RemoveComponents.jpg )
-
-
-</div>
-
-## Usage
 
 1.  The command uses the color red to mark selected faces. To see them properly:
     -   The **Display Mode** of the mesh objects ideally should be {{Value|Flat lines}}, but should at least show faces. If necessary use the [Std DrawStyle](Std_DrawStyle.md) command to override this property.

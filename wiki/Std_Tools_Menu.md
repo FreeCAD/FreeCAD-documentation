@@ -32,7 +32,9 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_DlgParameter.svg  style="width:32px;"> [Edit parameters\...](Std_DlgParameter.md): Opens a dialog box giving access to the parameters that control the program.
 
--   <img alt="" src=images/Std_ViewScreenShot.svg  style="width:32px;"> [Save picture\...](Std_ViewScreenShot.md): Saves a screenshot of the active [3D view](3D_view.md).
+-   <img alt="" src=images/Std_ViewScreenShot.svg  style="width:32px;"> [Save image\...](Std_ViewScreenShot.md): Saves a screenshot of the active [3D view](3D_view.md).
+
+-   <img alt="" src=images/Std_ViewLoadImage.svg  style="width:32px;"> [Load image\...](Std_ViewLoadImage.md): Loads an image. <small>(v0.21)</small> 
 
 -   <img alt="" src=images/Std_SceneInspector.svg  style="width:32px;"> [Scene inspector\...](Std_SceneInspector.md): Displays an overview of scenegraph nodes of the active 3D view.
 

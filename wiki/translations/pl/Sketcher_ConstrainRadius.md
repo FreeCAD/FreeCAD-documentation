@@ -10,6 +10,8 @@
 
 # Sketcher ConstrainRadius/pl
 
+
+
 ## Opis
 
 To wiązanie powoduje, że wartość promienia okręgu lub łuku jest ściśle określona. Jeśli przed uruchomieniem polecenia zostanie wybrany więcej niż jeden okrąg lub łuk:
@@ -27,6 +29,8 @@ Uwaga: Bieguny linii złożonej nie mogą być mieszane z innymi typami obiektó
 
 ![](images/Sketcher_ConstrainRadius_example.png )
 
+
+
 ## Użycie
 
 1.  Wybierz jeden lub więcej okręgów lub łuków.
@@ -35,6 +39,8 @@ Uwaga: Bieguny linii złożonej nie mogą być mieszane z innymi typami obiektó
 4.  Opcjonalnie, etykietę wymiaru i linię można przesuwać i obracać w widoku 3D klikając na wartość i przeciągając, jednocześnie trzymając wciśnięty lewy przycisk myszy.
 
 **Uwaga:** Narzędzie wiązania może być również uruchomione bez wcześniejszego zaznaczenia obiektu. Domyślnie polecenie będzie w trybie kontynuacji, aby utworzyć nowe wiązanie. Naciśnij prawy przycisk myszy lub klawisz **Esc** raz, aby zakończyć wykonywanie polecenia.
+
+
 
 ## Tworzenie skryptów 
 

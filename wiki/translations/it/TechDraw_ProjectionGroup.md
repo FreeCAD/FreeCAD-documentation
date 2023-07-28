@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -34,6 +36,8 @@ Se si desidera produrre una sola vista, non conviene utilizzare Gruppo di proiez
 
 <img alt="" src=images/TechDraw_ProjGroup_example.png  style="width:400px;"> 
 *Tre viste ortogonali e una vista isometrica di un oggetto solido*
+
+
 
 ## Utilizzo
 
@@ -59,6 +63,8 @@ Se si desidera produrre una sola vista, non conviene utilizzare Gruppo di proiez
 
 </div>
 
+
+
 ## Proprietà
 
 ### Data
@@ -68,7 +74,7 @@ Se si desidera produrre una sola vista, non conviene utilizzare Gruppo di proiez
 
 -    **Source|LinkList**: Links to the drawable objects to be depicted.
 
--    **XSource|XLinkList**: Links to the drawable objects in an external file. <small>(v0.19)</small> 
+-    **XSource|XLinkList**: Links to the drawable objects in an external file.
 
 -    **Anchor|Link**: The central view in the group. Normally the Front view.
 
@@ -107,6 +113,8 @@ La proprietà RotationVector delle singole viste all\'interno del gruppo è obso
 
 Notare che la casella centrale visualizza la direzione di proiezione corrente della vista principale. Non può essere utilizzata per cambiare la direzione.
 
+
+
 ## Script
 
 
@@ -120,45 +128,41 @@ Notare che la casella centrale visualizza la direzione di proiezione corrente de
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Proiezioni può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md). Uno script completo è disponibile nel codice sorgente in \"source-dir/src/Mod/TechDraw/TDTest/DProjGroupTest.py\".
-
-
-</div>
+A Projection Group can be created with [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 
 
 ```python
-    #make a page
-    print("making a page")
-    page = FreeCAD.ActiveDocument.addObject('TechDraw::DrawPage','Page')
-    FreeCAD.ActiveDocument.addObject('TechDraw::DrawSVGTemplate','Template')
-    FreeCAD.ActiveDocument.Template.Template = templateFileSpec
-    FreeCAD.ActiveDocument.Page.Template = FreeCAD.ActiveDocument.Template
+import FreeCAD as App
 
-    #make projection group
-    group = FreeCAD.ActiveDocument.addObject('TechDraw::DrawProjGroup','ProjGroup')
-    rc = page.addView(group)
-    group.Source = [fusion]
+doc = App.ActiveDocument
+cyl = doc.addObject("Part::Cylinder", "Cylinder")
+doc.recompute()
 
-    #add Front(Anchor) view
-    frontView = group.addProjection("Front")               ##need an Anchor
+page = doc.addObject("TechDraw::DrawPage", "Page")
+template = doc.addObject("TechDraw::DrawSVGTemplate", "Template")
+template.Template = App.getResourceDir() + "Mod/TechDraw/Templates/A4_LandscapeTD.svg"
+page.Template = template
 
-    #update group
-    group.Anchor.Direction = FreeCAD.Vector(0,0,1)
-    group.Anchor.RotationVector = FreeCAD.Vector(1,0,0)
+# Toggle the visibility of the page to ensure its width and height are updated (hack):
+page.Visibility = False
+page.Visibility = True
 
-    #add more projections
-    leftView = group.addProjection("Left")
-    topView = group.addProjection("Top")
-    rightView = group.addProjection("Right")
-    rearView = group.addProjection("Rear")
-    BottomView = group.addProjection("Bottom")
+group = doc.addObject("TechDraw::DrawProjGroup", "ProjGroup")
+page.addView(group)
+group.Source = [cyl]
+group.ProjectionType = "Third Angle"
 
-    #remove a view from projection group
-    iv = group.removeProjection("Left")
+front_view = group.addProjection("Front") # First projection will become the Anchor.
+group.Anchor.Direction = (0, 1, 0)
+group.Anchor.RotationVector = (1, 0, 0)
 
+left_view = group.addProjection("Left")
+top_view = group.addProjection("Top")
+
+group.X = page.PageWidth / 2
+group.Y = page.PageHeight / 2
+
+doc.recompute()
 ```
 
 

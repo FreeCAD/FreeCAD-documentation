@@ -1,5 +1,5 @@
 # Timber Workbench/fr
-**Cet établi n'est plus développé ni maintenu.**
+**Cet atelier n'est plus développé ni maintenu.**
 
 
 
@@ -14,7 +14,7 @@ Un atelier complémentaire à FreeCAD dont le but principal est de fournir des o
 
 ## Références
 
--   Auteur : Jonathan Wiedemann bois-galaxie
+-   Auteur : Jonathan Wiedemann wood-galaxy
 -   Page d\'accueil : <https://github.com/wood-galaxy>
 -   Code source sur github : <https://github.com/wood-galaxy/FreeCAD-Timber>
 
@@ -30,8 +30,8 @@ Barre d\'outils
 
 Outils de Timber
 
--   <img alt="" src=images/Timber-Repartition.svg  style="width:32px;"> *\'Repartition* : crée un axe ou un système structurel le long d\'une ligne.
--   <img alt="" src=images/Timber-Tag.svg  style="width:32px;"> *\'Tag* : ajoute un tag à un ou plusieurs objets sélectionnés.
+-   <img alt="" src=images/Timber-Repartition.svg  style="width:32px;"> **Repartition** : crée un axe ou un système structurel le long d\'une ligne.
+-   <img alt="" src=images/Timber-Tag.svg  style="width:32px;"> **Tag** : ajoute un tag à un ou plusieurs objets sélectionnés.
 
 Énumération de Timber
 
@@ -41,11 +41,6 @@ Poutre de Timber
 
 -   <img alt="" src=images/Timber-Beam.svg  style="width:32px;"> **Timber Beam** : crée un objet structure à partir de rien ou d\'un objet sélectionné (esquisse, polyligne, face ou solide).
 -   <img alt="" src=images/Timber-MachiningCut.svg  style="width:32px;"> **Machining Cut** : crée une coupe d\'usinage sur un objet Timber Beam, par rapport à un plan (face).
-
-Autres
-
--   <img alt="" src=images/Timber-BeamTree.svg  style="width:32px;">
--   <img alt="" src=images/Timber_Timber.svg  style="width:32px;"> Icône de Timber
 
 ## Installation
 
@@ -86,4 +81,4 @@ Voir [Comment installer des Macros](How_to_install_macros/fr.md)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Timber Workbench/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Timber Workbench/fr

@@ -146,6 +146,8 @@ To read more about console or headless mode, refer to [Headless FreeCAD](Headles
 
 See [Macro at Startup](Macro_at_Startup.md) on how to set up a macro to automatically run at FreeCAD startup.
 
+
+
 ## Variáveis de ambiente 
 
 FreeCAD supports the following environment variables, which can be used to configure directories: <small>(v0.19)</small> 
@@ -213,39 +215,39 @@ On every startup FreeCAD examines its surrounding and the command line parameter
 ### User related information 
 
 +++++
-| Config var name | Synopsis                                                 | Example Windows                                                            | Example Linux                                                  |
-+=================+==========================================================+============================================================================+================================================================+
-| UserAppData     | Path where FreeCAD stores User Related application data. |                                                             |                                                 |
-|                 |                                                          | **C:\Documents and Settings\username\AppData\FreeCAD**            | **/home/username/.FreeCAD**                           |
-|                 |                                                          |                                                                         |                                                             |
-|                 |                                                          |                                                                  |                                                      |
-|                 |                                                          | <hr />                                                                     | <hr />                                                         |
-|                 |                                                          |                                                                         |                                                             |
-|                 |                                                          | *Short path :***%APPDATA%\FreeCAD**                 | *Short path :***~/.FreeCAD**            |
+| Config var name | Synopsis                                                 | Example Windows                                                            | Example Linux                                                                                                                    |
++=================+==========================================================+============================================================================+==================================================================================================================================+
+| UserAppData     | Path where FreeCAD stores User Related application data. |                                                             |                                                                                                                   |
+|                 |                                                          | **C:\Documents and Settings\username\AppData\FreeCAD**            | **/home/username/.FreeCAD**                                                                                             |
+|                 |                                                          |                                                                         |                                                                                                                               |
+|                 |                                                          |                                                                  |                                                                                                                        |
+|                 |                                                          | <hr />                                                                     | <hr />                                                                                                                           |
+|                 |                                                          |                                                                         |                                                                                                                               |
+|                 |                                                          | *Short path :***%APPDATA%\FreeCAD**                 | *Short path :***~/.FreeCAD**                                                                              |
 +++++
-| UserParameter   | File where FreeCAD stores User Related application data. |                                                             |                                                 |
-|                 |                                                          | **C:\Documents and Settings\username\AppData\FreeCAD\user.cfg**   | **/home/username/.FreeCAD/user.cfg**                  |
-|                 |                                                          |                                                                         |                                                             |
-|                 |                                                          |                                                                  |                                                      |
-|                 |                                                          | <hr />                                                                     | <hr />                                                         |
-|                 |                                                          |                                                                         |                                                             |
-|                 |                                                          | *Short path :***%APPDATA%\FreeCAD\user.cfg**        | *Short path :***~/.FreeCAD/user.cfg**   |
+| UserParameter   | File where FreeCAD stores User Related application data. |                                                             |                                                                                                                   |
+|                 |                                                          | **C:\Documents and Settings\username\AppData\FreeCAD\user.cfg**   | **/home/username/.config/FreeCAD/user.cfg**                                                                             |
+|                 |                                                          |                                                                         |                                                                                                                               |
+|                 |                                                          |                                                                  |                                                                                                                        |
+|                 |                                                          | <hr />                                                                     | <hr />                                                                                                                           |
+|                 |                                                          |                                                                         |                                                                                                                               |
+|                 |                                                          | *Short path :***%APPDATA%\FreeCAD\user.cfg**        | *Short path :***~/.config/FreeCAD/user.cfg** or **$HOME/.config/FreeCAD/user.cfg** |
 +++++
-| SystemParameter | File where FreeCAD stores Application Related data.      |                                                             |                                                 |
-|                 |                                                          | **C:\Documents and Settings\username\AppData\FreeCAD\system.cfg** | **/home/username/.FreeCAD/system.cfg**                |
-|                 |                                                          |                                                                         |                                                             |
-|                 |                                                          |                                                                  |                                                      |
-|                 |                                                          | <hr />                                                                     | <hr />                                                         |
-|                 |                                                          |                                                                         |                                                             |
-|                 |                                                          | *Short path :***%APPDATA%\FreeCAD\system.cfg**      | *Short path :***~/.FreeCAD/system.cfg** |
+| SystemParameter | File where FreeCAD stores Application Related data.      |                                                             |                                                                                                                   |
+|                 |                                                          | **C:\Documents and Settings\username\AppData\FreeCAD\system.cfg** | **/home/username/.config/FreeCAD/system.cfg**                                                                           |
+|                 |                                                          |                                                                         |                                                                                                                               |
+|                 |                                                          |                                                                  |                                                                                                                        |
+|                 |                                                          | <hr />                                                                     | <hr />                                                                                                                           |
+|                 |                                                          |                                                                         |                                                                                                                               |
+|                 |                                                          | *Short path :***%APPDATA%\FreeCAD\system.cfg**      | *Short path :***~/.FreeCAD/system.cfg** or **$HOME/.FreeCAD/system.cfg**           |
 +++++
-| UserHomePath    | Home path of the current user                            |                                                             |                                                 |
-|                 |                                                          | **C:\Documents and Settings\username**                            | **/home/username**                                    |
-|                 |                                                          |                                                                         |                                                             |
-|                 |                                                          |                                                                  |                                                      |
-|                 |                                                          | <hr />                                                                     | <hr />                                                         |
-|                 |                                                          |                                                                         |                                                             |
-|                 |                                                          | *Short path :***%USERPROFILE%**                     | *Short path :***~**                     |
+| UserHomePath    | Home path of the current user                            |                                                             |                                                                                                                   |
+|                 |                                                          | **C:\Documents and Settings\username**                            | **/home/username**                                                                                                      |
+|                 |                                                          |                                                                         |                                                                                                                               |
+|                 |                                                          |                                                                  |                                                                                                                        |
+|                 |                                                          | <hr />                                                                     | <hr />                                                                                                                           |
+|                 |                                                          |                                                                         |                                                                                                                               |
+|                 |                                                          | *Short path :***%USERPROFILE%**                     | *Short path :***~**                                                                                       |
 +++++
 
 Note: For Linux distributions, an additional configuration file that relates to [Qt](Third_Party_Tools#Qt-Toolkit.md) may exist at path **/home/username/.config/FreeCAD/FreeCAD.conf**.
@@ -383,9 +385,6 @@ The following assumes that your desktop is configured such that you can launch F
 4.  As a result, an additional entry in your start menu/application launcher is available. This way, you can have multiple FreeCAD entries with various launch options.
 
 ## Starting FreeCAD from a portable USB medium 
-
-
-<small>(v0.19)</small> 
 
 **Windows**
 

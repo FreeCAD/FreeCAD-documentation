@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/pl
    Name:Part Primitives
-   Name/pl:Część: Bryła pierwotna
-   MenuLocation:Część → Bryła pierwotna
+   Name/pl:Część: Utwórz geometrie pierwotne
+   MenuLocation:Część → Utwórz geometrie pierwotne ...
    Workbenches:[Część](Part_Workbench/pl.md), [OpenSCAD](OpenSCAD_Workbench/pl.md)
    SeeAlso:[Konstruktor kształtu](Part_Builder/pl.md)
 ---
@@ -57,12 +57,12 @@ Właściwości elementu pierwotnego można również zmienić w [Edytorze właś
 Można utworzyć następujące elementy pierwotne:
 
 -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Płaszczyzna](Part_Plane/pl.md): Tworzy płaszczyznę.
--   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Prostopadłościan](Part_Box/pl.md): Tworzy prostopadłościan. Ten obiekt może być również utworzony za pomocą narzędzia <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Prostopadłościan](Part_Box/pl.md).
--   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Walec](Part_Cylinder/pl.md): Tworzy walec. Ten obiekt może być również utworzony za pomocą <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Walec](Part_Cylinder/pl.md).
--   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Stożek](Part_Cone/pl.md): Tworzy stożek. Ten obiekt może być również utworzony za pomocą narzędzia <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Stożek](Part_Cone/pl.md).
--   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Sfera](Part_Sphere/pl.md): Tworzy sferę. Ten obiekt może być również utworzony za pomocą <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Sfera](Part_Sphere/pl.md).
+-   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Sześcian](Part_Box/pl.md): Tworzy prostopadłościan regularny. Ten obiekt może być również utworzony za pomocą narzędzia <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Utwórz sześcian](Part_Box/pl.md).
+-   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Walec](Part_Cylinder/pl.md): Tworzy walec. Ten obiekt może być również utworzony za pomocą <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Utwórz walec](Part_Cylinder/pl.md).
+-   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Stożek](Part_Cone/pl.md): Tworzy stożek. Ten obiekt może być również utworzony za pomocą narzędzia <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Utwórz stożek](Part_Cone/pl.md).
+-   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Sfera](Part_Sphere/pl.md): Tworzy sferę. Ten obiekt może być również utworzony za pomocą <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Utwórz sferę](Part_Sphere/pl.md).
 -   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Elipsoida](Part_Ellipsoid/pl.md): Tworzy elipsoidę.
--   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;">. [Torus](Part_Torus/pl.md): Tworzy torus. Ten obiekt może być również utworzony za pomocą <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Torus](Part_Torus/pl.md).
+-   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Torus](Part_Torus/pl.md): Tworzy torus. Ten obiekt może być również utworzony za pomocą <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Utwórz torus](Part_Torus/pl.md).
 -   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Graniastosłup](Part_Prism/pl.md): Tworzy graniastosłup.
 -   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Klin](Part_Wedge/pl.md): Tworzy klin.
 -   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Helisa](Part_Helix/pl.md): Tworzy helisę.

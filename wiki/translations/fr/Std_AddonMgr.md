@@ -71,7 +71,7 @@ Voir [Extension](Addon/fr#Informations_pour_les_d.C3.A9veloppeurs.md)
 ## Script
 
 
-{{Version/fr|1.0}}
+{{Version/fr|0.21}}
 
 Certaines fonctionnalités du gestionnaire des extensions sont conçues pour être accessibles via l\'API Python de FreeCAD. En particulier, une extension peut être installée, mise à jour et supprimée via l\'interface Python. La plupart des utilisations de cette API nécessitent de créer un objet avec au moins trois attributs : {{Incode|name}}, {{Incode|branch}} et {{Incode|url}}. Par exemple :
 

@@ -5,9 +5,13 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Seleziona l\'asse verticale di uno schizzo.
+
+
 
 ## Utilizzo
 

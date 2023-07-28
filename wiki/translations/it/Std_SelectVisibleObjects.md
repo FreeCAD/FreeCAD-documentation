@@ -1,8 +1,7 @@
 ---
 - GuiCommand:/it
    Name:Std SelectVisibleObjects
-   Name/it:Std SelectVisibleObjects
-   Empty:1
+   Name/it:Seleziona gli oggetti visibili
    MenuLocation:Visualizza → Visibilità → Seleziona gli oggetti visibili
    Workbenches:Tutti
 ---
@@ -10,24 +9,19 @@
 # Std SelectVisibleObjects/it
 
 
-</div>
 
 ## Descrizione
 
-The **Std SelectVisibleObjects** command selects all visible objects. Note that for each [PartDesign body](PartDesign_Body.md) typically two objects will be selected: the body itself and its **Tip** object.
+Il comando **Seleziona gli oggetti visibili** seleziona tutti gli oggetti visibili. Si noti che per ogni [corpo di PartDesign](PartDesign_Body/it.md) in genere verranno selezionati due oggetti: il corpo stesso e il relativo oggetto **Tip**.
+
+
 
 ## Utilizzo
 
-1.  Select the **View → Visibility → <img src="images/Std_SelectVisibleObjects.svg" width=16px> Select visible objects** option from the menu.
-
-
-<div class="mw-translate-fuzzy">
+1.  Selezionare l\'opzione **Visualizza → Visibilità → <img src="images/Std_SelectVisibleObjects.svg" width=16px> Seleziona gli oggetti visibili** dal menu.
 
 
 
-
-
-</div>
 
 
 {{Std Base navi

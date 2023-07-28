@@ -131,13 +131,15 @@ En avril 2019, l\'équipe de développeurs principaux a été élargie: Jürgen,
 -   à propos de l\'histoire de la MEF : <https://forum.freecadweb.org/viewtopic.php?f=18&t=48646#p416389>
 -   à propos de l\'histoire du mailleur MEF : <https://forum.freecadweb.org/viewtopic.php?f=18&t=48733#p417627>
 
+
+
 ## Historique des versions 
 
 #### Vue d\'ensemble 
 
   Version   Nom de version   Date de sortie              Notes de version                                            Version de validation                                                                            Branches avec corrections de bogues
        
-  1.0                        en cours de développement   [Notes de version 1.0](Release_notes_1.0/fr.md)     [head master](https://github.com/FreeCAD/FreeCAD/commits/master)                                 
+  0.21                       en cours de développement   [Notes de version 0.21](Release_notes_0.21/fr.md)   [head master](https://github.com/FreeCAD/FreeCAD/commits/master)                                 
   0.20      \-               2022-06-14                  [Notes de version 0.20](Release_notes_0.20/fr.md)   [Version de validation 0.20](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-20)   [Branches avec corrections de bogues 0.20](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-20)
   0.19      \-               2021-03-20                  [Notes de version 0.19](Release_notes_0.19/fr.md)   [Version de validation 0.19](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-19)   [Branches avec corrections de bogues 0.19](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-19)
   0.18      \-               2019-03-12                  [Notes de version 0.18](Release_notes_0.18/fr.md)   [Version de validation 0.18](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-18)   [Branches avec corrections de bogues 0.18](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-18)
@@ -159,6 +161,8 @@ En avril 2019, l\'équipe de développeurs principaux a été élargie: Jürgen,
   0.2       \-               2005-08-09                                                                                                                                                                               
   0.1       \-               2003-01-27                                                                                                                                                                               
   0.0.1     \-               2002-10-29                  Première version                                                                                                                                             
+
+
 
 #### Légende
 

@@ -10,6 +10,8 @@
 
 # Std LinkMake/it
 
+
+
 ## Descrizione
 
 
@@ -20,33 +22,20 @@ crea un [App Link](App_Link/it.md) (classe `App::Link`), che è un tipo di ogget
 
 L\'oggetto [App Link](App_Link/it.md) è stato introdotto di recente nella versione 0.19; in passato, si poteva ottenere una semplice duplicazione di oggetti con **[<img src=images/Draft_Clone.svg style="width:16px"> [Clona](Draft_Clone/it.md)** di Draft, ma questa è una soluzione meno efficiente a causa della sua implementazione che essenzialmente crea una copia della [Forma (Shape)](Part_TopoShape/it.md) interna dell\'oggetto sorgente. Invece, un link fa riferimento direttamente alla forma originale, quindi è più efficiente in termini di memoria.
 
-
-<div class="mw-translate-fuzzy">
-
-Di per sé l\'oggetto [Link](App_Link/it.md) può comportarsi come un array, duplicando più volte il suo oggetto base; questo può essere fatto impostando la sua proprietà **Element Count** su {{Value|1}} o più grande. Questo oggetto \"[Link_Array](Std_LinkMake/it#Link_Array.md)\" può essere creato anche con i diversi strumenti dell\'array <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Ambiente Draft](Draft_Workbench/it.md), per esempio, **[<img src=images/Draft_OrthoArray.svg style="width:16px"> [Draft Serie ortogonale](Draft_OrthoArray/it.md)**, **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Draft Serie polare](Draft_PolarArray/it.md)**, and **[<img src=images/Draft_CircularArray.svg style="width:16px"> [Draft Serie circolare](Draft_CircularArray/it.md)**.
-
-
-</div>
+Di per sé l\'oggetto [Link](App_Link/it.md) può comportarsi come una serie (array), duplicando più volte il suo oggetto base; questo può essere fatto impostando la sua proprietà **Element Count** su {{Value|1}} o più grande. Questo oggetto \"[Link_Array](Std_LinkMake/it#Link_Array.md)\" può essere creato anche con i diversi strumenti dell\'array <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Ambiente Draft](Draft_Workbench/it.md), per esempio, **[<img src=images/Draft_OrthoArray.svg style="width:16px"> [Draft Serie ortogonale](Draft_OrthoArray/it.md)**, **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Draft Serie polare](Draft_PolarArray/it.md)**, and **[<img src=images/Draft_CircularArray.svg style="width:16px"> [Draft Serie circolare](Draft_CircularArray/it.md)**.
 
 Quando si lavora con l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente Part Design](PartDesign_Workbench/it.md), i link sono destinati ad essere utilizzati con i **[<img src=images/PartDesign_Body.svg style="width:16px"> [Corpo di Part Design](PartDesign_Body/it.md)**, quindi si consiglia di impostare la modalità {{PropertyView/it|Display Mode Body}} su {{Value|Tip}} per selezionare le caratteristiche dell\'intero corpo, e non le singole caratteristiche. Per creare array di elementi interni [Funzioni di PartDesign](PartDesign_Feature/it.md), utilizzare **[<img src=images/PartDesign_LinearPattern.svg style="width:16px"> [PartDesign Serie lineare](PartDesign_LinearPattern/it.md)**, **[<img src=images/PartDesign_PolarPattern.svg style="width:16px"> [PartDesign Serie polare](PartDesign_PolarPattern/it.md)**, e **[<img src=images/PartDesign_MultiTransform.svg style="width:16px"> [PartDesign Multitransformazione](PartDesign_MultiTransform/it.md)**.
 
 Lo strumento **[<img src=images/Std_LinkMake.svg style="width:16px"> [Crea link](Std_LinkMake/it.md)** non è definito da un particolare banco di lavoro, ma dal sistema di base, quindi si trova nella **Struttura della barra degli strumenti** che è disponibile in tutti gli [ambienti di lavoro](Workbenches/it.md). L\'oggetto Link, usato insieme a **[<img src=images/Std_Part.svg style="width:16px"> [Parte](Std_Part/it.md)** per raggruppare vari oggetti, costituisce la base di <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/it.md) e <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4 Workbenches](Assembly4_Workbench/it.md).
 
+
+
 ## Utilizzo
-
-
-<div class="mw-translate-fuzzy">
 
 Con selezione:
 
 1.  Selezionare un oggetto nella [vista ad albero](tree_view/it.md) o nella [vista 3D](3D_view/it.md) per il quale si desidera creare un link.
 2.  Premere il pulsante **[<img src=images/Std_LinkMake.svg style="width:16px"> [Crea link](Std_LinkMake/it.md)**. L\'oggetto prodotto ha la stessa icona dell\'oggetto originale, ma ha una freccia sovrapposta che indica che è un collegamento.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 Senza selezione:
 
@@ -54,27 +43,20 @@ Senza selezione:
 2.  Vai all\'[editor delle proprietà](property_editor/it.md), quindi clicca sulla proprietà {{PropertyData/it|Linked Object}} per aprire [metodi di selezione](Selection_methods/it.md) e scegliere un oggetto, poi premi **OK**.
 3.  Invece di scegliere un intero oggetto nella [vista ad albero](tree_view/it.md), è anche possibile scegliere i sottoelementi (vertici, bordi o facce) di un singolo oggetto nella [vista 3D](3D_view/it.md). In questo caso, il Link duplicherà solo questi sottoelementi, e la sovrapposizione delle frecce sarà diversa. Questo può essere fatto anche con **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> [crea un link relativo](Std_LinkMakeRelative/it.md)**.
 
-
-</div>
-
 ![](images/Std_Link_tree_example.png ) ![](images/Std_Link_example.png )
 
 
 
 *(1) Un oggetto, (2) Un Link vuoto, (3) un Link completo del primo oggetto (con materiale di rivestimento), (4) un collegamento solo ad alcuni sottoelementi dell'oggetto. Il Link vuoto non è legato all'oggetto reale, quindi non viene visualizzato nella [vista 3D](3D_view/it.md).*
 
+
+
 ## Utilizzo: documenti esterni 
-
-
-<div class="mw-translate-fuzzy">
 
 1.  Iniziare con un documento che ha almeno un oggetto che sarà la fonte del Link.
 2.  Aprire un nuovo documento o un documento esistente. Per una più facile gestione, usare **[<img src=images/Std_TreeMultiDocument.svg style="width:16px"> [Visualizza Multi documento](Std_TreeMultiDocument/it.md)** per mostrare entrambi i documenti nella [vista ad albero](tree_view/it.md). Prima di procedere, [salva](Std_Save/it.md) entrambi i documenti. Il Link non sarà in grado di trovare la sua fonte e la sua destinazione a meno che entrambi i documenti non siano salvati su disco.
 3.  Nel primo documento, selezionare l\'oggetto che si desidera collegare; poi passare alle schede nell\'[area della vista principale](main_view_area/it.md) per passare al secondo documento.
 4.  Premere **[<img src=images/Std_LinkMake.svg style="width:16px"> [Crea link](Std_LinkMake/it.md)**. L\'oggetto prodotto ha la stessa icona dell\'oggetto originale, ma ha una freccia aggiuntiva che indica che si tratta di un link proveniente da un documento esterno.
-
-
-</div>
 
 
 **Notes:**
@@ -91,6 +73,8 @@ Senza selezione:
 
 *(1, 2) Due oggetti di un documento sorgente collegati in un documento di destinazione, (3) un Link al secondo Link (con materiale di sovrascrittura), e (4) un Link ai sotto elementi del secondo Link.*
 
+
+
 ### Drag and drop 
 
 Invece di passare da una scheda all\'altra del documento, è possibile creare dei Links eseguendo un\'operazione di drag and drop nella [vista ad albero](tree_view/it.md): selezionare l\'oggetto sorgente dal primo documento, trascinarlo, quindi rilasciarlo nel nome del secondo documento tenendo premuto il tasto **Alt** della tastiera.
@@ -102,6 +86,8 @@ Il trascinamento porta ad azioni diverse a seconda della tasto di modifica che s
 -   Tenendo premuto il tasto **Alt** si crea un collegamento; una coppia di maglie di catena viene mostrata nel cursore.
 
 Per i modificatori **Ctrl** e **Alt**, il trascinamento può essere fatto anche con un singolo documento. Ovvero, trascinando un oggetto e rilasciandolo nel nome dello stesso documento si possono creare più copie o più link ad esso.
+
+
 
 ## Gruppi
 
@@ -131,6 +117,8 @@ Un collegamento a una **[<img src=images/Std_Part.svg style="width:16px"> [Parte
 
 
 *Sinistra: [Parte](Std_Part/it.md) con due oggetti, e due Links alla Parte; la visibilità degli oggetti è sincronizzata. Destra: [Gruppo](Std_Group/it.md) con due oggetti, e due Links al Gruppo; la visibilità degli oggetti è controllata indipendentemente in ogni gruppo.*
+
+
 
 ## Aspetto dominante 
 
@@ -177,13 +165,9 @@ In modo simile, ogni elemento dell\'array può avere il proprio aspetto modifica
 
 Una volta che si è soddisfatti del posizionamento e delle proprietà degli elementi di collegamento nell\'array, si può cambiare {{PropertyData/it|Show Element}} in `False` per nascondere i singoli collegamenti nella [vista ad albero](tree_view/it.md); questo ha il vantaggio di rendere il sistema più reattivo, soprattutto se si hanno molti oggetti nel documento.
 
-
-<div class="mw-translate-fuzzy">
-
 Quando si crea questo tipo di array Link, è necessario posizionare manualmente ciascuno degli elementi; tuttavia, se si desidera utilizzare modelli specifici per posizionare le copie, è possibile utilizzare gli strumenti di array del <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Ambiente Draft](Draft_Workbench/it.md), come **[<img src=images/Draft_OrthoArray.svg style="width:16px"> [Draft: Serie ortogonale](Draft_OrthoArray/it.md)**, **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Draft: Serie Polare](Draft_PolarArray/it.md)**, e **[<img src=images/Draft_CircularArray.svg style="width:16px"> [Draft: Serie circolare](Draft_CircularArray/it.md)**; questi comandi possono creare copie normali o copie Link a seconda delle opzioni al momento della creazione.
 
 
-</div>
 
 ## Visibilità
 
@@ -212,11 +196,15 @@ Quando il Link è per una **[<img src=images/Std_Part.svg style="width:16px"> [P
 
 *Una [Parte](Std_Part/it.md) contenente tre oggetti e un Link a quella Parte; nel Link, (1) il primo oggetto è reso invisibile, (2) il secondo oggetto ha alcuni sotto-elementi con colori diversi, (3) l'intero terzo oggetto ha un diverso colore e livello di trasparenza.*
 
+
+
 ## Proprietà
 
 Un [App Link](App_Link/it.md) (`App::Link` class) è derivato dall\'[App DocumentObject](App_DocumentObject/it.md) (`App::DocumentObject` class) di base quindi ha le proprietà di base di quest\'ultimo come {{PropertyData/it|Label}} e {{PropertyData/it|Label2}}.
 
 Di seguito sono riportate le proprietà specifiche disponibili nell\'[editor delle proprietà](Property_editor/it.md). Le proprietà nascoste possono essere mostrate utilizzando il comando **Show all** nel menu contestuale dell\'[editor delle proprietà](Property_editor/it.md).
+
+
 
 ### Dati
 
@@ -261,6 +249,8 @@ Di seguito sono riportate le proprietà specifiche disponibili nell\'[editor del
 -    {{PropertyData/it|Proxy|PythonObject|Hidden}}: una classe personalizzata associata a questo oggetto. Questa esiste solo per la versione [Python](Python/it.md). Vedi [Scripting](Std_LinkMake/it#Scripting.md).
 
 L\'oggetto [App Link](App_Link/it.md) mostra inoltre le proprietà del **Linked Object** originale, quindi l\'[editor delle proprietà](property_editor/it.md) può avere gruppi di proprietà come {{TitleProperty|Attachment}} , {{TitleProperty|Box}}, {{TitleProperty|Draft}} e così via.
+
+
 
 ### Vista
 
@@ -338,6 +328,8 @@ L\'oggetto [App Link](App_Link/it.md) mostra inoltre le proprietà del **Linked 
 
 Mostra inoltre le proprietà Vista dell\'originale **Linked Object**.
 
+
+
 ## Eredità
 
 Un [App Link](App_Link/it.md) è formalmente un\'istanza della classe `App::Link`, il cui genitore è il genitore di base [App DocumentObject](App_DocumentObject/it.md). (`App::DocumentObject` class). È un oggetto di livello molto basso, che può essere usato con la maggior parte degli altri oggetti documento.
@@ -347,6 +339,8 @@ Un [App Link](App_Link/it.md) è formalmente un\'istanza della classe `App::Link
 
 
 *Diagramma semplificato delle relazioni tra gli oggetti principali del programma. L'oggetto `App::Link* è un componente principale del sistema, non dipende da alcun ambiente, ma può essere utilizzato con la maggior parte degli oggetti creati in tutti gli ambienti.`
+
+
 
 ## Script
 
@@ -391,6 +385,8 @@ obj = App.ActiveDocument.addObject("App::LinkPython", "Link")
 obj.Label = "Custom label"
 ```
 
+
+
 ## Ulteriori letture 
 
 L\'oggetto [App Link](App_Link/it.md) è stato introdotto dopo 2 anni di sviluppo e prototipazione. Questo componente è stato pensato e sviluppato quasi da solo dall\'utente **realthunder**. Le motivazioni e le implementazioni progettuali alla base di questo progetto sono descritte nella sua pagina GitHub, [Link](https://github.com/realthunder/FreeCAD_assembly3/wiki/Link). Per realizzare questa funzione, sono state apportate diverse modifiche fondamentali a FreeCAD; anche queste sono state ampiamente documentati in [Core-Changes](https://github.com/realthunder/FreeCAD_assembly3/wiki/Core-Changes).
@@ -413,9 +409,9 @@ Infine, la richiesta di pull e il merge sono avvenuti:
 -   [A simple path description of Link, 019, Link stage, Asm3, merge?](https://forum.freecadweb.org/viewtopic.php?p=329054#p329054) (Agosto 2019)
 -   [PR#2559: expose link and navigation actions](https://forum.freecadweb.org/viewtopic.php?f=17&t=39672), un\'introduzione alla funzione Link in 0.19 (Settembre 2019).
 
-Other miscellaneous \"links\" about Link include:
+Altri \"link\" vari su Link includono:
 
--   [Dynamic linked object](Dynamic_linked_object.md) - A pattern with Link and assemblies that aims to reduce duplication of assembly related logic such as orientation, positioning, or number of instances.
+-   [Dynamic linked object](Dynamic_linked_object.md) - Un pattern con Link e assembly che mira a ridurre la duplicazione della logica correlata all\'assembly come l\'orientamento, il posizionamento o il numero di istanze.
 
 
 

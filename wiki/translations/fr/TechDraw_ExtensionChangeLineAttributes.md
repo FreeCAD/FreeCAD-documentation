@@ -11,12 +11,16 @@
 
 # TechDraw ExtensionChangeLineAttributes/fr
 
+
+
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionChangeLineAttributes.svg  style="width:24px;"> **TechDraw Modification des attributs** modifie les attributs (style, largeur et couleur) des lignes cosmétiques et des lignes centrales.
+L\'outil **TechDraw Modification des attributs** modifie les attributs (style, largeur et couleur) des lignes cosmétiques et des lignes centrales.
 
 <img alt="" src=images/TechDraw_ExtensionChangeLineAttributesExample.png  style="width:300px;"> 
 *Sur les lignes centrales de droite, les attributs de ligne ont été mis à jour : style&#61;DashDot, largeur&#61;Thin et couleur&#61;Blue*.
+
+
 
 ## Utilisation
 

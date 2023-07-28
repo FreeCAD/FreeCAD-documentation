@@ -9,7 +9,7 @@
 
 ## Description
 
-This tool inserts a comment. When exporting a project to G-code, the comments will be inserted in the G-code program, and can be read by people reading the file. Some machine controllers will also display comments on their display screens.
+The tool <img alt="" src=images/Path_Comment.svg  style="width:24px;"> [Comment](Path_Comment.md) inserts a comment. When exporting a project to G-code, the comments will be inserted in the G-code program, and can be read by people reading the file. Some machine controllers will also display comments on their display screens.
 
 ## Usage
 

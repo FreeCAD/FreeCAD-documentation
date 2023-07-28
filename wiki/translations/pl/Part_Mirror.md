@@ -1,50 +1,59 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Part Mirror
-   MenuLocation:Part → Mirror
-   Workbenches:[Part](Part_Workbench.md)
+   Name/pl:Część: Odbicie lustrzane
+   MenuLocation:Część → Odbicie lustrzane ...
+   Workbenches:[Część](Part_Workbench/pl.md)
 ---
 
 # Part Mirror/pl
 
-## Description
 
-**Part Mirror** creates a new object (image) which is a reflection of the original object (source). The image object is created behind a mirror plane. The mirror plane may be standard plane (**XY**, **YZ**, or **XZ**), or any plane parallel to a standard plane.
 
-An example:
+## Opis
 
-![Before](images/PARTMirrorBeforev11.png )
+**Odbicie lustrzane** tworzy nowy obiekt *(obraz)*, który jest odbiciem oryginalnego obiektu *(źródła)*. Obiekt obrazu jest tworzony za płaszczyzną lustrzaną. Płaszczyzna lustrzana może być płaszczyzną standardową *(**XY**, **YZ** lub **XZ**)* lub dowolną płaszczyzną równoległą do płaszczyzny standardowej.
 
-![After (mirrored through **YZ** plane)](images/PARTMirrorAfterv11.png ) 
+Dla przykładu:
 
-## Usage
+![Wcześniej](images/PARTMirrorBeforev11.png )
+
+![Po *(odbicie lustrzane przez płaszczyznę **YZ**)*](images/PARTMirrorAfterv11.png ) 
+
+
+
+## Użycie
 
 ![](images/PARTMirrorDialogv11.png )
 
-1.  Select the source object from the Mirroring Panel list.
-2.  Select a standard **Mirror plane** from the dropdown menu.
-3.  Press **OK** to create the image object.
+1.  Wybierz obiekt źródłowy z listy Panelu Odbicie lustrzane.
+2.  Wybierz standardową **płaszczyznę odbicia lustrzanego** z menu rozwijanego.
+3.  Naciśnij **OK**, aby utworzyć obiekt obrazu.
 
 
 
 
-## Options
 
-The **Base point** boxes can be used to move the mirror plane parallel to the selected standard mirror plane. Only one of the **X**, **Y**, or **Z** boxes is effective for a given standard plane.
 
-  Standard Plane   Base Point Box   Effect
+## Opcje
+
+Pola **Punkt odniesienia** można użyć do przesunięcia płaszczyzny lustra równolegle do wybranej standardowej płaszczyzny lustra. Tylko jedno z pól **X**, **Y** lub **Z** może być użyte dla danej płaszczyzny standardowej.
+
+  Standardowa płaszczyzna   Pole punktu bazowego   Efekt
     
-  **XY**           **Z**            Move mirror plane along **Z** axis.
-  **XY**           **X**, **Y**     No effect.
-  **XZ**           **Y**            Move mirror plane along **Y** axis.
-  **XZ**           **X**, **Z**     No effect.
-  **YZ**           **X**            Move mirror plane along **X** axis.
-  **YZ**           **Y**, **Z**     No effect.
+  **XY**                    **Z**                  Przesuń płaszczyznę lustra wzdłuż osi **Z**.
+  **XY**                    **X**, **Y**           Nie ma żadnego efektu.
+  **XZ**                    **Y**                  Przesuń płaszczyznę lustra wzdłuż osi **Y**.
+  **XZ**                    **X**, **Z**           Nie ma żadnego efektu.
+  **YZ**                    **X**                  Przesuń płaszczyznę lustra wzdłuż osi **X**.
+  **YZ**                    **Y**, **Z**           Nie ma żadnego efektu.
 
-## Notes
 
--   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as source objects. <small>(v0.20)</small> 
--   Arbitrary mirror planes (ie not parallel to a standard plane) are not supported.
+
+## Uwagi
+
+-   Obiekty [Odnośników](App_Link/pl.md) powiązane z odpowiednimi typami obiektów i kontenery [Część: App](App_Part/pl.md) z odpowiednimi widocznymi obiektami wewnątrz mogą być również używane jako obiekty źródłowe. {{Version/pl|0.20}}
+-   Arbitralne płaszczyzny lustrzane *(tj. nie równoległe do standardowej płaszczyzny)* nie są obsługiwane.
 
 
 

@@ -14,19 +14,27 @@
 
 La commande **Std Zoom avant** effectue un zoom avant dans la [vue 3D](3D_view/fr.md) active.
 
+
+
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande :
-    -   Sélectionnez l\'option **affichage → Zoom → <img src="images/Std_ViewZoomIn.svg" width=16px> Zoom avant** dans le menu.
+    -   Sélectionnez l\'option **Affichage → Zoom → <img src="images/Std_ViewZoomIn.svg" width=16px> Zoom avant** dans le menu.
     -   Utilisez le raccourci clavier: **Ctrl**+**+**.
+
+
 
 ## Remarques
 
 -   Il est également possible de zoomer avec la molette de défilement de la souris.
 
+
+
 ## Préférences
 
--   Le facteur de zoom peut être modifié dans les préférences : **Édition → Préférences... → Affichage → Navigation → Zoom step**. Ce paramètre affecte également le zoom de la molette de défilement. Voir [Éditeur de préférences](Preferences_Editor/fr#Navigation.md).
+-   Le facteur de zoom peut être modifié dans les préférences : **Édition → Préférences... → Affichage → Navigation → Pas du zoom**. Ce paramètre affecte également le zoom de la molette de défilement. Voir [Éditeur de préférences](Preferences_Editor/fr#Navigation.md).
+
+
 
 ## Script
 

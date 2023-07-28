@@ -8,6 +8,8 @@ Bitmaps are different from vector images like [SVG](SVG.md), in that their pixel
 Bitmap images are usually compressed to reduce their file size. This results in common file types such as PNG (Portable Network Graphics), TIFF (Tagged Image File Format), and JPEG (Joint Photographic Experts Group), which all use different types of compression.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Использование
@@ -15,7 +17,7 @@ Bitmap images are usually compressed to reduce their file size. This results in 
 
 </div>
 
-FreeCAD can import bitmap images using the [Image Workbench](Image_Workbench.md). Other workbenches can also insert bitmaps, like the [TechDraw Image](TechDraw_Image.md) tool from the [TechDraw Workbench](TechDraw_Workbench.md).
+FreeCAD can import bitmap images using the [Image Workbench](Image_Workbench.md) ({{VersionMinus|0.20}}), or using the [Std Import](Std_Import.md) tool (<small>(v0.21)</small> ). Other workbenches can also insert bitmaps, like the [TechDraw Image](TechDraw_Image.md) tool from the [TechDraw Workbench](TechDraw_Workbench.md).
 
 
 

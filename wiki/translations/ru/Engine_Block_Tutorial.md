@@ -28,13 +28,7 @@
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-Это вводный урок моделирования в FreeCAD. Цель данного урока представить Вам первичные типы данных для параметризуемых объектов, двоичные операции, двумерное рисование и процесс преобразование двумерных набросков в трехмерные модели. В качестве рабочего примера мы будем моделировать простейший блок цилиндров и картер, показанный справа.
-
-
-</div>
+Это вводный урок моделирования в FreeCAD. Цель данного урока представить Вам простые типы данных для параметризованных объектов, двоичные операции, двумерное проектирование и процесс преобразование двумерных набросков в трехмерные модели. В качестве рабочего примера мы будем моделировать простейший блок цилиндров и картер, показанный выше.
 
 
 <div class="mw-translate-fuzzy">
@@ -67,13 +61,7 @@
 </div>
 
 
-<div class="mw-translate-fuzzy">
-
-
-:   *Читать далее: [ Навигация в трёхмерном пространстве](Mouse_Model/ru.md)*
-
-
-</div>
+:   *Сопутствующие материалы: [Навигация в трёхмерном пространстве](Mouse_navigation/ru.md)*
 
 
 <div class="mw-translate-fuzzy">
@@ -84,15 +72,9 @@
 </div>
 
 
-<div class="mw-translate-fuzzy">
-
-
 :   {\| class=wikitable border=1
 
-\|- \| X: 0.0 mm \|\| Length: 140.0 mm \|- \| Y: -40.0 mm \|\| Width: 80.0 mm \|- \| Z: 0.0 mm \|\| Height: 110.0 mm \|- \|}
-
-
-</div>
+\|- \| X: 0,0 мм \|\| Длина: 140,0 мм \|- \| Y: -40,0 мм \|\| Ширина: 80,0 мм \|- \| Z: 0,0 мм \|\| Высота: 110,0 мм \|- \|}
 
 
 <div class="mw-translate-fuzzy">
@@ -115,7 +97,7 @@
 
 :   {\| class=wikitable border=1
 
-\|- \| X: 40.0 mm \|\| Height: 110.0 mm \|- \| Y: 0.0 mm \|\| Radius: 25.0 mm \|- \| Z: 0.0 mm \|\| \|- \|}
+\|- \| X: 40,0 мм \|\| Высота: 110,0 мм \|- \| Y: 0,0 мм \|\| Радиус: 25,0 мм \|- \| Z: 0,0 мм \|\| \|- \|}
 
 
 <div class="mw-translate-fuzzy">
@@ -135,6 +117,8 @@
 
 </div>
 
+
+
 ### Высверливание цилиндров 
 
 <img alt="" src=images/_Engine_Block_Tutorial_-_Bored_Block.png  style="width:300px;">
@@ -151,18 +135,15 @@
 
 Теперь, когда оба наших цилиндра высверлены, мы можем уделить минутку, чтобы поглядеть преимущества этой системы. Допустим, на каком-нибудь этапе проектирования окажется, что цилиндры надо сделать чуть больше. Поскольку выполненные операции объединения и обрезания были зафиксированы в древе проекта, мы можем изменить размер цилиндров и FreeCAD просто переделает объединение и обрезание и придёт к новому размеру двигателя. Поиграйте с радиусом и позицией цилиндра и вернитесь к предыдущим параметрам перед возвращения к уроку.
 
+
+
 ## Картер
+
+
 
 ### Заготовка и крышки подшипников 
 
-
-<div class="mw-translate-fuzzy">
-
-Далее мы будем работать над картером под блоком цилиндров. Добавьте новый блок, назвав его \"Заготовка Картера\'\', и установите следующие пропорции:
-
-
-</div>
-
+Далее мы будем работать над картером под блоком цилиндров. Добавьте новый куб (параллелепипед), назвав его **Заготовка Картера**, и установите следующие пропорции:
 
 :   {\| class=wikitable border=1
 
@@ -212,6 +193,8 @@ Add another box called **Bearing carve**, give it the following properties, and 
 
 
 </div>
+
+
 
 ### Завершение картера 
 
@@ -309,6 +292,8 @@ Now that we have our guide polygons in place we are ready to draw in the spline 
 <img alt="" src=images/_Engine_Block_Tutorial_-_Spline_Edit_Mode.png  style="width:300px;">
 
 The control points are not shown in that picture so I have added a second screenshot showing the finished spline in edit mode (click the *Edit mode* button to turn editing on or off for the selected object, make sure to turn it off when you are done editing it or just skip over this step if you are satisfied with your engine block shape). Also, note that there is a discontinuity on the leftmost edge of the spline curve, even though it is closed properly, this is a bug in the program behavior and is currently being fixed, as a result your spline curve may look slightly different if you are running a newer version of the software than is available at this time.
+
+
 
 ### Выдавливание двумерного дизайна головок в объемную модель для завершения проекта 
 

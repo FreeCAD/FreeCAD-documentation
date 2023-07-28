@@ -54,7 +54,7 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 ## Uwagi
 
 -   Tekst może być edytowany poprzez dwukrotne kliknięcie na nim w [Widoku drzewa](Tree_view/pl.md). <small>(v0.20)</small> 
--   Teksty utworzone lub zapisane za pomocą funkcji [z wydania 1.0](Release_notes_1.0/pl.md) nie są wstecznie kompatybilne.
+-   Teksty utworzone lub zapisane za pomocą funkcji [z wydania 0.21](Release_notes_0.21/pl.md) nie są wstecznie kompatybilne.
 
 
 
@@ -69,7 +69,7 @@ Obiekt Adnotacja wieloliniowa wywodzi się z obiektu [App: FeaturePython](App_Fe
 ### Dane
 
 
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Podstawa}}
 
 -    **Umieszczenie|Placement**: określa położenie tekstu w oknie [widoku 3D](3D_view/pl.md). Zobacz [Umiejscowienie](Placement/pl.md).
 
@@ -89,7 +89,7 @@ Obiekt Adnotacja wieloliniowa wywodzi się z obiektu [App: FeaturePython](App_Fe
 
 {{TitleProperty|Opcje wyświetlania}}
 
--    **Tryb wyświetlania|Enumeration**: określa sposób wyświetlania tekstu. Jeśli wartością jest {{value|World}}, tekst będzie wyświetlany na płaszczyźnie zdefiniowanej przez jego **Uniejscowienie**. Jeśli jest to {{value|Screen}}, tekst będzie zawsze skierowany w stronę ekranu. To jest dziedziczona własność. Wspomniane opcje to opcje o zmienionych nazwach ({{Version/pl|1.0}}).
+-    **Tryb wyświetlania|Enumeration**: określa sposób wyświetlania tekstu. Jeśli wartością jest {{value|World}}, tekst będzie wyświetlany na płaszczyźnie zdefiniowanej przez jego **Uniejscowienie**. Jeśli jest to {{value|Screen}}, tekst będzie zawsze skierowany w stronę ekranu. To jest dziedziczona własność. Wspomniane opcje to opcje o zmienionych nazwach *({{Version/pl|0.21}})*.
 
 
 {{TitleProperty|Grafika}}

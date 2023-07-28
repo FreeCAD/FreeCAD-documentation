@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Popis
@@ -29,6 +31,8 @@ This constraint constrains the value of the radius of a circle or arc to have a 
 NB : B-spline poles can\'t be mixed with other object type in the selection
 
 ![](images/Sketcher_ConstrainRadius_example.png )
+
+
 
 
 <div class="mw-translate-fuzzy">

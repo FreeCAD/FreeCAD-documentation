@@ -32,7 +32,7 @@ Cela ajoute également trois lignes dans l\'esquisse juste créée.
 
 ## Créer une contrainte en Python 
 
-Une contrainte géométrique, <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:24px;">, et les contraintes spéciales <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> [d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) peuvent être créées à partir de macros et de la console Python en utilisant la commande suivante :
+Une contrainte géométrique, <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> et <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:24px;"> peuvent être créées à partir de macros et de la console Python en utilisant la commande suivante :
 
 
 ```pythonsketch.addConstraint(Sketcher.Constraint(ConstraintType, EdgeOrPartOfEdge…)) 
@@ -102,28 +102,6 @@ Pour les contraintes géométriques, le premier argument est l\'un des suivants.
 |             | <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:24px;">                 | [Contrainte de blocage](Sketcher_ConstrainBlock/fr.md)              |
 | `"Block"`         |                                                                                            |                                                                             |
 |                         |                                                                                            |                                                                             |
-++++
-
-Les <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> [contraintes d\'alignement internes](Sketcher_ConstrainInternalAlignment/fr.md) se comportent comme des contraintes géométriques pour les besoins du script. Là encore, consultez la page de caractéristiques correspondante pour connaître les combinaisons possibles d\'arguments autorisées pour chaque contrainte.
-
-++++
-| Code                                                | Icône                                                                                              | Fonction                                                                              |
-+=====================================================+====================================================================================================+=======================================================================================+
-|                                      | <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> | [Contrainte d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) |
-| `"InternalAlignment:EllipseMajorDiameter"` |                                                                                                    |                                                                                       |
-|                                                  |                                                                                                    |                                                                                       |
-++++
-|                                      | <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> | [Contrainte d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) |
-| `"InternalAlignment:EllipseMinorDiameter"` |                                                                                                    |                                                                                       |
-|                                                  |                                                                                                    |                                                                                       |
-++++
-|                                      | <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> | [Contrainte d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) |
-| `"InternalAlignment:EllipseFocus1"`        |                                                                                                    |                                                                                       |
-|                                                  |                                                                                                    |                                                                                       |
-++++
-|                                      | <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> | [Contrainte d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) |
-| `"InternalAlignment:EllipseFocus2"`        |                                                                                                    |                                                                                       |
-|                                                  |                                                                                                    |                                                                                       |
 ++++
 
 Pour les contraintes dimensionnelles, le premier argument est l\'un des suivants. Voir la page de fonctionnalités correspondante pour les combinaisons d\'arguments possibles autorisées pour chaque contrainte.

@@ -1,125 +1,156 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign AdditiveHelix
-   MenuLocation:Part Design → Create an additive feature → Additive helix
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Addytywna helisa
+   MenuLocation:Projekt Części → Utwórz cechę przez dodanie → Addytywna helisa
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.19
-   SeeAlso:[PartDesign SubtractiveHelix](PartDesign_SubtractiveHelix.md)
+   SeeAlso:[Komponent bryła pierwotna do odjęcia](PartDesign_SubtractiveHelix/pl.md)
 ---
 
 # PartDesign AdditiveHelix/pl
 
-## Description
 
-The **AdditiveHelix** tool creates a solid by sweeping a selected sketch or 2D object along a helix path.
+
+## Opis
+
+Narzędzie **Addytywna helisa** utworzy bryłę poprzez przeciągnięcie wybranego szkicu lub obiektu 2D po ścieżce spiralnej.
 
 <img alt="" src=images/PartDesign_AdditiveHelix_example_overview.png  style="width:650px;">
 
-*The profile (B), is swept around axis (A) in order to produce the solid helix (C)*
+*Profil (B) jest obracany wokół osi (A) w celu wytworzenia bryły spiralnej (C)*.
 
-## Usage
 
-1.  Select the sketch to be swept into a helix. A face on the existing solid can alternatively be used.
-2.  Press the **<img src="images/PartDesign_AdditiveHelix.svg" width=16px> [PartDesign AdditiveHelix](PartDesign_AdditiveHelix.md)** button.
-3.  Set the Helix parameters (see next section).
-4.  Inspect the Helix in the view window, to ensure that the parameters do not result in a self intersecting helix.
-5.  Press **OK**.
 
-## Options
+## Użycie
 
-When creating an Additive Helix, the **Helix parameters** dialogue offers several parameters specifying how the sketch should be swept.
+1.  Wybierz szkic, który ma zostać przekształcony w helisę. Alternatywnie można użyć ściany na istniejącej bryle.
+2.  Naciśnij przycisk **<img src="images/PartDesign_AdditiveHelix.svg" width=16px> '''Addytywna helisa'''**.
+3.  Ustaw parametry helisy *(patrz następna sekcja)*.
+4.  Sprawdź helisę w oknie widoku, aby upewnić się, że parametry nie powodują samo przecinającej się helisy.
+5.  Naciśnij **OK**.
+
+
+
+## Opcje
+
+Podczas tworzenia helisy okno dialogowe **Parametry helisy** oferuje kilka różnych właściwości określających sposób wyciągnięcia szkicu.
 
 ![](images/PartDesign_AdditiveHelix_taskpanel.png )
 
-### Axis
 
-This option specifies the axis about which the sketch is to be swept.
 
--   **Normal sketch axis**: selects the normal of the sketch that runs through the sketch origin as axis. <small>(v0.20)</small> 
--   **Vertical sketch axis**: selects the vertical sketch axis. This is the default for new helices.
--   **Horizontal sketch axis**: selects the horizontal sketch axis.
--   **Construction line**: selects a construction line contained in the sketch used by the Helix. The drop down list will contain an entry for each construction line. The first construction line created in the sketch will be labelled *Construction line 1*.
--   **Base (X/Y/Z) axis**: selects the X, Y or Z axis of the Body\'s Origin;
--   **Select reference\...**: allows selection in the 3D view of an edge on the Body, or a [datum line](PartDesign_Line.md).
+### Oś
 
-### Mode
+Ta opcja określa oś, wokół której szkic ma być obracany.
 
-This controls what parameters will be used to define the helix. The choices are:
+-   **Oś normalna do szkicu**: wybiera normalną szkicu, która przechodzi przez początek szkicu jako oś. {{Version/pl|0.20}}.
+-   **Pionowa oś szkicu**: wybiera pionową oś szkicu. Jest to ustawienie domyślne dla nowych helis.
+-   **Pozioma oś szkicu**: wybiera poziomą oś szkicu.
+-   **Linia konstrukcyjna**: wybiera linię konstrukcyjną zawartą w szkicu używanym przez helisę. Lista rozwijana będzie zawierać pozycję dla każdej linii konstrukcyjnej. Pierwsza linia konstrukcyjna utworzona w szkicu będzie oznaczona jako *Linia konstrukcyjna 1*.
+-   **Oś bazowa (X/Y/Z)**: wybiera oś X, Y lub Z punktu położenia odniesienia bryły.
+-   **Wybierz odniesienie \...**: umożliwia wybór w oknie widoku 3D krawędzi na bryle lub [linii odniesienia](PartDesign_Line/pl.md).
 
--   **Pitch-Height-Angle**: definition via the height per turn and the overall height
--   **Pitch-Turns-Angle**: definition via the height per turn and the number of turns
--   **Height-Turns-Angle**: definition via the overall height and the number of turns
--   **Height-Turns-Growth** <small>(v0.20)</small> : definition via the overall height, the number of turns and the growth of the helical radius. So a Height of zero leads to a path in form of a spiral. A Height and Growth of zero to leads to a path in form of a circle.
 
-### Pitch
 
-The distance between turns in the helix.
+### Tryb
 
-### Height
+Określa, jakie parametry zostaną użyte do zdefiniowania helisy. Dostępne opcje to:
 
-The height of the helix (center-center).
+-   **Skok - wysokość - kąt**: definicja poprzez wysokość na obrót i wysokość całkowitą.
+-   **Skok - liczba obrotów - kąt**: definicja poprzez wysokość na obrót i liczbę obrotów
+-   **Wysokość - liczba obrotów - kąt**: definicja poprzez wysokość całkowitą i liczbę obrotów
+-   **Wysokość - liczba obrotów - przyrost** {{Version/pl|0.20}}: definicja poprzez całkowitą wysokość, liczbę zakrętów i przyrost promienia spirali. Wysokość równa zero prowadzi do ścieżki w formie spirali. Wysokość i przyrost równe zero prowadzą do ścieżki w kształcie okręgu.
 
-### Turns
 
-The number of turns in the helix. Define as Height/Pitch
 
-### Cone Angle 
+### Skok
 
-Angle of the cone that forms a hull around the helix. Allowable range: \[-89°, +89°\].
+Odległość między zwojami w spirali.
 
-### Left handed 
 
-If checked, the turning direction of helix is reversed from default clockwise to counterclockwise.
 
-### Reversed
+### Wysokość
 
-If checked, the axis direction of helix is reversed from default.
+Wysokość spirali *(środek-środek)*.
 
-### Update view 
 
-If checked, the helix will be shown in the view, and updated automatically on every change of the parameters.
 
-## Preferences
+### Obroty
 
--   An additive helix that does not intersect the body will be visible in the preview if **Tools → Edit parameters... → BaseApp → Preferences → Mod → PartDesign → AdditiveHelixPreview** is set to `True`. The default for this preference is `False`. <small>(v0.20)</small> 
+Liczba zwojów w spirali. Definiowana jako wysokość / skok
 
-## Properties
 
--    **Pitch**: The axial distance between two turns.
 
--    **Height**: The total length of the helix (not accounting for the extent of the profile)
+### Kąt stożka 
 
--    **Turns**: The number of turns (does not need to be a whole number)
+Kąt stożka tworzącego kształt spirali Dopuszczalny zakres: \[-89°, +89°\].
 
--    **Left Handed**: See [Left Handed](#Left_handed.md).
 
--    **Reversed**: See [Reversed](#Reversed.md).
 
--    **Angle**: The rate at which the radius of the helix increase along the axis. Allowable range: \[-89°, +89°\].
+### Lewostronnie
 
--    **Reference axis**: The helix axis
+Jeśli opcja zostanie zaznaczona, kierunek tworzenia helisy ulegnie odwróceniu z domyślnego zgodnego z ruchem wskazówek zegara na przeciwny.
 
--    **Mode**: The helix input mode (pitch-height, pitch-turns, turns-height)
 
--    **Outside**: Not used (Used in SubtractiveHelix)
 
--    **Has Been Edited**: If false, the tool will propose an initial value for pitch based on the profile bounding box, so that self intersection is avoided.
+### Odwrócony
 
--    **Refine**: true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details.
+Jeżeli opcja ta jest zaznaczona, kierunek osi helisy jest odwrócony w stosunku do domyślnego.
 
--    **Profile**: Either a sketch containing a closed contour, or a face.
 
--    **Midplane**: Not used.
 
--    **Up to face**: Not used.
+### Aktualizuj widok 
 
--    **Allow multiple face**: Not used.
+Jeśli opcja ta jest zaznaczona, helisa będzie wyświetlana w oknie widoku w trakcie tworzenia i automatycznie aktualizowana przy każdej zmianie parametrów.
 
-## Examples
 
-![Example helix using a [B-spline](images/Sketcher_CreateBSpline.md) in the sketch](PartDesign_AdditiveHelix_example_bspline.png )
 
-![Example helix where the helix axis is normal to the sketch plane resulting in a \"Pad with twist\" effect.](images/PartDesign_AdditiveHelix_example_twisting_pad.png )
+## Ustawienia
+
+-   Helisa addytywna, która nie przecina bryły, będzie widoczna w podglądzie, jeśli parametr **Przybory → Edycja parameterów... → BaseApp → Preferencje → Mod → PartDesign → AdditiveHelixPreview** jest ustawiony na {{TRUE/pl}}. Domyślną wartością dla tej preferencji jest {{FALSE/pl}}. {{Version/pl|0.20}}.
+
+
+
+## Właściwości
+
+-    **Skok**: Odległość osiowa między dwoma zwojami.
+
+-    **Wysokość**: Całkowita długość spirali *(bez uwzględnienia zasięgu profilu)*.
+
+-    **Obroty**: Liczba obrotów *(nie musi być liczbą całkowitą)*.
+
+-    **Lewostronnie**: Zobacz akapit [Lewostronnie](#Lewostronnie.md).
+
+-    **Odwrócony**: Zobacz akapit [Odwrócony](#Odwrócony.md).
+
+-    **Kąt**: Szybkość, z jaką promień spirali zwiększa się wzdłuż osi. Dozwolony zakres: \[-89°, +89°\].
+
+-    **Oś odniesienia**: Oś helisy.
+
+-    **Tryb**: Tryb wejściowy helisy *(skok-wysokość, skok-obrót, obrót-wysokość)*.
+
+-    **Zewnętrzny**: Nieużywane *(używane w funkcji Subtraktywna helisa)*
+
+-    **Został edytowany**: Jeśli wartość tego parametru to {{false/pl}}, narzędzie zaproponuje początkową wartość nachylenia w oparciu o obwiednię profilu, aby uniknąć samoczynnego przecięcia.
+
+-    **Ulepsz**: Przyjmuje wartość {{true/pl}} lub {{false/pl}}. Jeśli ustawiona jest wartość true, czyści bryłę z resztkowych krawędzi pozostawionych przez elementy. Zobacz stronę [Część: Udoskonal kształt](Part_RefineShape/pl.md) aby uzyskać więcej szczegółów.
+
+-    **Profil**: Albo szkic zawierający zamknięty kontur, albo ściana.
+
+-    **Płaszczyzna środkowa**: Nieużywane.
+
+-    **Aż do ściany**: Nieużywane.
+
+-    **Zezwalaj na wiele ścian**: Nieużywane.
+
+
+
+## Przykłady
+
+![Przykładowa helisa wykorzystująca [krzywą złożoną](images/Sketcher_CreateBSpline/pl.md) w szkicu](PartDesign_AdditiveHelix_example_bspline.png )
+
+![Przykładowa helisa, w której oś helisy jest normalna do płaszczyzny szkicu, co daje efekt \"skręconego wyciągnięcia\".](images/PartDesign_AdditiveHelix_example_twisting_pad.png )
 
 
 

@@ -31,19 +31,27 @@ Le système de coordonnées par défaut est *Cartésien 3D*. Pour certaines équ
 
 
 
-### Pas de temps 
+### Pas de temps (analyses transitoires) 
 
-Pour les simulations transitoires, les pas de temps doivent être définis. Ceci est fait par les paramètres suivants :
+**Remarque** : FreeCAD 0.20.x fournit déjà les paramètres suivants mais seul le résultat de la dernière étape est affiché. A partir de FreeCAD 0.21, vous obtiendrez un résultat pour les différents temps.
 
--    **BDFOrder**: ordre pour la méthode *BDF* ([Backward Differentiation Formula](https://en.wikipedia.org/wiki/Backward_differentiation_formula)). Elle n\'est actuellement utilisée que pour l\'<img alt="" src=images/FEM_EquationHeat.svg  style="width:24px;"> [équation de chaleur](FEM_EquationHeat/fr.md). Il est recommandé d\'utiliser la valeur par défaut de *2*.
+Pour les analyses transitoires, les pas de temps doivent être définis. Ceci est fait par les paramètres suivants :
 
--    **Timestep Intervals**: tableau de calculs par intervalle de temps. Le solveur effectuera un intervalle de temps après l\'autre. Par exemple, si le solveur doit calculer les 10 premières secondes par pas de 0,1 seconde, puis 50 secondes par pas de 1 seconde et enfin s\'arrêter, vous devez définir les intervalles de temps \[100, 50\] et les intervalles de taille de pas de temps \[0.1, 1.0\].
+-    **BDFOrder**: ordre pour la méthode *BDF* ([Backward Differentiation Formula](https://en.wikipedia.org/wiki/Backward_differentiation_formula)). Il est recommandé d\'utiliser la valeur par défaut de *2*.
 
--    **Timestep Sizes**: tableau de pas de temps. L\'unité de temps est la seconde. Le tableau correspond aux **Timestep Intervals**.
+-    **Output Intervals**: tableau d\'intervalles. Un fichier de résultats du solveur sera produit à chaque intervalle de temps. Par exemple, si un fichier de résultat doit être produit tous les trois pas de temps, définissez-le à *3*. Le tableau correspond à **Remarque :** le premier résultat dans chaque cas sera créé pour le premier pas de temps. Pour obtenir par exemple des résultats après 25 % du temps total et si le dernier résultat doit être le temps final, définissez **Output Intervals** à *5* et **Timestep Intervals** à *21*. {{Version/fr|0.21}}
+
+-    **Timestep Intervals**: tableau d\'intervalles de temps. Le solveur effectuera un intervalle de temps après l\'autre. Par exemple, si le solveur doit calculer les 10 premières secondes par pas de 0.1 seconde, puis 50 secondes par pas de 1 seconde et enfin s\'arrêter, vous devez définir les intervalles de pas de temps \[100, 50\] et les intervalles de taille de pas de temps \[0.1, 1.0\].
+
+-    **Timestep Sizes**: tableau de tailles de pas de temps. L\'unité de temps est la seconde. Le tableau correspond à **Timestep Intervals**.
+
+**Remarque :** bien que les termes \"heures\" et \"secondes\" soient utilisés, les heures sont en fait des progressions du solveur si l\'analyse n\'est pas dépendante du temps.
+
+Pour savoir comment visualiser les résultats, voir l\'info [Visualisation d\'Elmer](FEM_SolverElmer/fr#Visualisation.md).
 
 ### Type
 
--    **Simulation type**: si la simulation est *Steady state*, *Transient* ou simplement *Scanning*. Transitoire signifie que l\'évolution dans le temps est calculée. Voir la section [Pas de temps](#Pas_de_temps.md) pour les paramètres nécessaires.
+-    **Simulation type**: si la simulation est *Steady state*, *Transient* ou simplement *Scanning*. Transitoire signifie que l\'évolution sur la durée du solveur est calculée. Voir la section [Pas de temps (analyses transitoires)](#Pas_de_temps_(analyses_transitoires).md) pour les paramètres nécessaires.
 
 -    **Steady State Max Iterations**: nombre maximum d\'exécutions du solveur en régime stationnaire.
 
@@ -73,7 +81,7 @@ Ce système a les propriétés suivantes :
 
 -    **Idrs Parameter**: paramètre pour la méthode du solveur itératif *Idrs*. Ceci n\'a un effet que si **Linear Solver Type** est *Iterative* et **Linear Iterative Method** est *Idrs*. Il est recommandé de commencer avec la valeur par défaut de 2. Le réglage du paramètre à 3 peut augmenter un peu la vitesse de résolution. Pour les analyses de flux, la méthode *Idrs* est jusqu\'à 30 % plus rapide que la méthode par défaut *BiCGStab*.
 
--    **Linear Direct Method**: méthode utilisée pour la résolution directe. Ceci n\'a un effet que si Les méthodes possibles sont *Banded*, *MUMPS* et *Umpfpack*. Notez que *MUMPS* doit généralement être installé avant que vous puissiez l\'utiliser.Remarque : lorsque vous utilisez plus d\'un noyau CPU pour le solveur ({{Version/fr|1.0}}), seul *MUMPS* peut être utilisé.
+-    **Linear Direct Method**: méthode utilisée pour la résolution directe. Ceci n\'a un effet que si Les méthodes possibles sont *Banded*, *MUMPS* et *Umpfpack*. Notez que *MUMPS* doit généralement être installé avant que vous puissiez l\'utiliser.Remarque : lorsque vous utilisez plus d\'un noyau CPU pour le solveur ({{Version/fr|0.21}}), seul *MUMPS* peut être utilisé. [MUMPS](https://mumps-solver.org/) doit être installé manuellement sur Elmer. Il n\'est disponible en téléchargement que sur demande par courrier électronique.
 
 -    **Linear Iterations**: nombre maximal d\'itérations pour une exécution itérative du solveur. Ceci n\'a un effet que si **Linear Solver Type** est *Iterative*.
 
@@ -95,9 +103,9 @@ Ce système est itératif et possède les propriétés suivantes :
 
 -    **Nonlinear Iterations**: nombre maximal d\'itérations.
 
--    **Nonlinear Newton After Iterations**:
+-    **Nonlinear Newton After Iterations**: le solveur non linéaire démarre avec l\'algorithme robuste *Picard*. Après quelques itérations, l\'algorithme est remplacé par l\'algorithme *Newton* qui converge plus rapidement mais est moins robuste si les résultats divergent temporairement (des oscillations peuvent se produire). Ce paramètre définit le nombre d\'itérations après lesquelles le passage de l\'algorithme *Picard* à l\'algorithme *Newton* est effectué.**Remarque** : le passage se fait selon ce qui est atteint en premier, **Nonlinear Newton After Iterations** ou **Nonlinear Newton After Tolerance**.
 
--    **Nonlinear Newton After Tolerance**:
+-    **Nonlinear Newton After Tolerance**: identique à **Nonlinear Newton After Iterations** mais une tolérance est définie. La tolérance est la norme du résidu non linéaire. Si elle est atteinte, le passage de l\'algorithme *Picard* à l\'algorithme *Newton* est effectué.
 
 -    **Nonlinear Newton After Tolerance**: la tolérance pour l\'arrêt du solveur. Si l\'erreur est inférieure à la tolérance, l\'exécution du solveur est terminée. Sinon, le nombre total d\'itérations Dans la réponse d\'Elmer, vous voyez comment l\'erreur est minimisée pendant l\'exécution du solveur. Au cas où elle ne descendrait pas en dessous d\'une certaine valeur acceptable mais supérieure à la tolérance actuelle, vous pouvez augmenter la tolérance.
 

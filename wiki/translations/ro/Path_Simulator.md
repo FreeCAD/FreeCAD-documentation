@@ -5,9 +5,17 @@
 
 </div>
 
+
+
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Acest instrument simulează lucrarea de desen prin scanarea modelelor 3D ale instrumentelor folosite în fiecare operație, de-a lungul căilor de cod G, prin scăderea materialelor din stoc/semifabricat, unde se suprapun stocul și instrumentul, asigurând vizualizarea. de muncă. Acest lucru face posibilă detectarea și izolarea erorilor înainte de a efectua lucrul la o freză/CNC
+
+
+</div>
 
 ![](images/Path-Simulation.gif )
 
@@ -32,6 +40,8 @@ Acest instrument simulează lucrarea de desen prin scanarea modelelor 3D ale ins
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Proprietăți
@@ -41,6 +51,9 @@ Acest instrument simulează lucrarea de desen prin scanarea modelelor 3D ale ins
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Playback Speed**: The speed of the simulation playback, in G-Code lines/second
 
 -    **Accuracy**: The accuracy of the simulation expressed as a percentage indicating the simulations deviation from the Job. For interactive simulation, reducing accuracy to 0.3 works much faster.
@@ -48,6 +61,9 @@ Acest instrument simulează lucrarea de desen prin scanarea modelelor 3D ale ins
 -    **Job**: The Job used as the basis of the simulation
 
 -    **Operation List**: The list of Operations selected for inclusion in the simulation.
+
+
+</div>
 
 
 

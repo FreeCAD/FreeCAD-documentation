@@ -34,6 +34,8 @@ Instrumentul Spațiu vă permite să definiți un volum gol, fie bazându-l pe o
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Cum se folosește 
@@ -52,6 +54,8 @@ Instrumentul Spațiu vă permite să definiți un volum gol, fie bazându-l pe o
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Limite
@@ -68,6 +72,8 @@ Instrumentul Spațiu vă permite să definiți un volum gol, fie bazându-l pe o
 
 
 </div>
+
+
 
 ## Proprietăți
 
@@ -104,7 +110,7 @@ Instrumentul Spațiu vă permite să definiți un volum gol, fie bazându-l pe o
 ## Options
 
 -   To create zones that group several spaces, use a [Arch BuildingPart](Arch_BuildingPart.md) and set its IFC type to \"Spatial Zone\"
--   The space object has the same display modes as other Arch and Part objects, with one more, called **Footprint**, that displays only the bottom face of the space. <small>(v0.19)</small> 
+-   The space object has the same display modes as other Arch and Part objects, with one more, called **Footprint**, that displays only the bottom face of the space.
 
 
 <div class="mw-translate-fuzzy">

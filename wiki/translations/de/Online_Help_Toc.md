@@ -27,7 +27,6 @@ Es gibt ein weiteres Inhaltsverzeichnis für das [FreeCAD HANDBUCH](Manual:Intro
     -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;">[Arbeitsbereich Arch](Arch_Workbench/de.md) (Architektur)
     -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;">[Arbeitsbereich Draft](Draft_Workbench/de.md) (Zeichnungsbasiertes Entwerfen)
     -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;">[Arbeitsbereich FEM](FEM_Workbench/de.md)
-    -   <img alt="" src=images/Workbench_Image.svg  style="width:32px;">[Arbeitsbereich Image](Image_Workbench/de.md) (Bildebenen/Hintergrundbilder)
     -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;">[Arbeitsbereich Inspection](Inspection_Workbench/de.md) (Formen vergleichen)
     -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;">[Arbeitsbereich Mesh](Mesh_Workbench/de.md) (Polygonnetze bearbeiten)
     -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;">[Arbeitsbereich OpenSCAD](OpenSCAD_Workbench/de.md)
@@ -35,7 +34,6 @@ Es gibt ein weiteres Inhaltsverzeichnis für das [FreeCAD HANDBUCH](Manual:Intro
     -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;">[Arbeitsbereich PartDesign](PartDesign_Workbench/de.md) (Konstruktion mit skizzenbasierten Festkörperobjekten)
     -   <img alt="" src=images/Workbench_Path.svg  style="width:32px;">[Arbeitsbereich Path](Path_Workbench/de.md) (Erstellung von CNC-Bewegungsbahnen)
     -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;">[Arbeitsbereich Points](Points_Workbench/de.md) (Bearbeitung von Punktwolken)
-    -   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;">[Arbeitsbereich Raytracing](Raytracing_Workbench/de.md) (Erzeugung fotorealistischer Bilder - veraltet)
     -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;">[Arbeitsbereich Reverse Engineering](Reverse_Engineering_Workbench/de.md)
     -   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;">[Arbeitsbereich Roboter](Robot_Workbench/de.md) (Robotersimulation)
     -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;">[Arbeitsbereich Sketcher](Sketcher_Workbench/de.md) (Bearbeitung offener und geschlossener 2D-Konturen)
@@ -53,7 +51,7 @@ Es gibt ein weiteres Inhaltsverzeichnis für das [FreeCAD HANDBUCH](Manual:Intro
 
 -   [Häufig gestellte Fragen (HGF)](Frequently_asked_questions/de.md)
 
--   [Workarounds](Workarounds.md)
+-   [Fehlerumgehung](Workarounds/de.md)
 
 -   [Tutorien](Tutorials/de.md)
 

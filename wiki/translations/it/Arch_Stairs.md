@@ -34,8 +34,17 @@ Vedere in [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) la de
 
 </div>
 
-<img alt="" src=images/Arch_Stairs_example.jpg  style="width:640px;"> 
+<img alt="" src=images/Arch_Stairs_example.jpg  style="width:600px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Due scale, uno con una struttura massiccia e un pianerottolo, e un'altra con un solo montante.*
+
+
+</div>
 
 
 
@@ -62,6 +71,12 @@ Vedere in [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) la de
 
 
 </div>
+
+<img alt="" src=images/Arch_Stairs_Complex_Example.png  style="width:600px;"> 
+*Complex stairs based on a selection of lines and wired as shown on the left.<br>
+In red the wires used for the landings at Z&equals;1500mm, Z&equals;3000mm and Z&equals;4500mm.<br>
+In black the lines connecting them used for the flights.
+*
 
 
 

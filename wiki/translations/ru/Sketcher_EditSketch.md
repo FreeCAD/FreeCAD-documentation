@@ -9,11 +9,24 @@
 
 # Sketcher EditSketch/ru
 
+
+
 ## Описание
+
+
+<div class="mw-translate-fuzzy">
 
 Эта команда позволяет редактировать существующий эскиз. Она открывает [Sketcher Dialog](Sketcher_Dialog/ru.md).
 
+
+</div>
+
+
+
 ## Применение
+
+
+<div class="mw-translate-fuzzy">
 
 Есть несколько способов вызвать команду Edit Sketch:
 
@@ -22,18 +35,23 @@
 -   Просто дважды щелкнув левой кнопкой мыши на эскизе.
 -   Кликнув на кнопке <img alt="" src=images/Sketcher_EditSketch.svg  style="width:24px;"> панели инструментов Sketcher.
 
-## Примечания
 
--   Выбор [Leave Sketch](Sketcher_LeaveSketch/ru.md) завершит режим редактирования.
+</div>
+
+
+
+## Примечания
 
 
 <div class="mw-translate-fuzzy">
 
-
-
+-   Выбор [Покинуть эскиз](Sketcher_LeaveSketch/ru.md) завершит режим редактирования.
 
 
 </div>
+
+
+
 
 
 {{Sketcher_Tools_navi

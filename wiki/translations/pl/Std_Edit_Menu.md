@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 **Menu Edycja** jest jednym z siedmiu pozycji w [Menu głównym](Standard_Menu/pl.md):
@@ -26,6 +28,8 @@
 }}
 
 W menu Edycja znajdują się narzędzia do modyfikacji modelu.
+
+
 
 ## Przybory
 
@@ -53,7 +57,7 @@ W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_Delete.svg  style="width:32px;"> [Usuń](Std_Delete/pl.md): Usuwa aktualnie zaznaczony obiekt.
 
--   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> [Wyślij do konsoli Python](Std_SendToPythonConsole/pl.md): W [konsoli Python](Python_console/pl.md) tworzy zmienne odnoszące się do obiektu. {{Version/pl|0.19}}
+-   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> [Wyślij do konsoli Python](Std_SendToPythonConsole/pl.md): W [konsoli Python](Python_console/pl.md) tworzy zmienne odnoszące się do obiektu.
 
 -   <img alt="" src=images/Std_Placement.svg  style="width:32px;"> [Położenie \...](Std_Placement/pl.md): Otwiera panel zadań **Umieszczenie** dla wybranego obiektu.
 

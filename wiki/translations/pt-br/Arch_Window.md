@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrição
 
 An [Arch Window](Arch_Window.md) is a base object for all kinds of \"embeddable\" objects, such as windows and doors. It is designed to be either independent, or \"hosted\" inside another component such as an [Arch Wall](Arch_Wall.md), [Arch Structure](Arch_Structure.md), or [Arch Roof](Arch_Roof.md). It has its own geometry, that can be made of several solid components (commonly a frame and inner panels), and also defines a volume to be subtracted from the host objects, in order to create an opening.
@@ -28,6 +30,8 @@ All information applicable to an [Arch Window](Arch_Window.md) also applies to a
 
 <img alt="" src=images/Arch_Window_example2.jpg  style="width:600px;"> 
 *Complex window being constructed on top of a [Sketch](Sketcher_Workbench.md). When entering the window's edit mode you can create different components, set their thickness, and select and assign wires from the sketch to them.*
+
+
 
 ## Utilização
 
@@ -59,23 +63,24 @@ If you install the [Parts Library](Parts_Library_Workbench.md) from the [Addon M
 1.  Optionally, select a face on the Arch object where you want the window to be included.
 2.  Switch to the [Sketcher Workbench](Sketcher_Workbench.md).
 3.  Create a new sketch.
-4.  Draw one or more closed wires (loops).
+4.  Draw one or more closed wires (loops). Pay close attention to the creation order of these loops, the numbering of the \"wires\" in the [task panel](task_panel.md) (\"Window elements\") depends on this.
 5.  Close the sketch.
 6.  Switch back to the [Arch Workbench](Arch_Workbench.md).
 7.  Press the **<img src="images/Arch_Window.svg" width=16px> [Arch Window](Arch_Window.md)** button, or press **W** then **I** keys.
 8.  To adjust the window components and various properties, enter the window [task panel](task_panel.md) by double-clicking on the created object in the [tree view](tree_view.md).
+9.  Note that since components following a hinged component will also hinge, all fixed components must be created first.
 
-When creating the sketch, pay close attention to the creation order of the loops; the numbering of the \"wires\" in the [task panel](task_panel.md) (\"Window elements\") depends on this.
+
 
 ## Predefinições
 
 The following presets are available:
 
-Image:ParametersDoorGlass.svg\|Glass door Image:ParametersDoorSimple.svg\|Simple door Image:ParametersWindowDouble.svg\|Double-opening window Image:ParametersWindowFixed.svg\|Fixed window Image:ParametersWindowSimple.svg\|Single-opening window Image:ParametersWindowStash.svg\|Sash-opening window
+Image:ParametersWindowFixed.svg\|Fixed Image:ParametersWindowSimple.svg\|Open 1-pane Image:ParametersWindowDouble.svg\|Open 2-pane Image:ParametersWindowStash.svg\|Sash 2-pane Image:ParametersWindowDouble.svg\|Sliding 2-pane Image:ParametersDoorSimple.svg\|Simple door Image:ParametersDoorGlass.svg\|Glass door Image:ParametersWindowDouble.svg\|Sliding 4-pane Image:ParametersWindowSimple.svg\|Awning
 
 ## Building components 
 
-Windows can include 3 types of components: panels, frames and louvres. Panels and louvres are made from one closed wire, which gets extruded, while frames are made from 2 or more closed wire, where each one is extruded, then the smaller ones are subtracted from the biggest one. You can access, create, modify and delete components of a window in edit mode (double-click the window in the Tree view). The components have the following properties:
+Windows can include 4 types of components: frames, solid panels, glass panels and louvres. Panels and louvres are made from one closed wire, which gets extruded, while frames are made from 2 or more closed wire, where each one is extruded, then the smaller ones are subtracted from the biggest one. You can access, create, modify and delete components of a window in edit mode (double-click the window in the Tree view). The components have the following properties:
 
 -   **Name**: A name for the component
 -   **Type**: The type of component. Can be \"Frame\", \"Glass panel\", \"Solid panel\" or \"Louvres\"
@@ -87,6 +92,8 @@ Windows can include 3 types of components: panels, frames and louvres. Panels an
 
 <img alt="" src=images/Arch_Window_options.jpg  style="width:600px;">
 
+
+
 ## Opções
 
 -   Windows share the common properties and behaviours of all [Arch Components](Arch_Component.md)
@@ -97,6 +104,8 @@ Windows can include 3 types of components: panels, frames and louvres. Panels an
 -   The hole created by a window in its host object is determined by two properties: **Hole Depth** and **Hole Wire** (<small>(v0.17)</small> ). The Hole Wire number can be picked in the 3D view from the window\'s task panel available when double-clicking the window in the tree view
 -   Windows can make use of [Multi-Materials](Arch_MultiMaterial.md). The window will search in the attached Multi-Material for material layers with a same name for each of its window component, and use it if any is found. For example, a component named \"OuterFrame\" will search in the attached Multi-Material, for a material layer named \"OuterFrame\". If such material layer is found, its material will be attributed to the OuterFrame component. The thickness value of the material layer is disregarded.
 
+
+
 ## Aberturas
 
 
@@ -104,7 +113,7 @@ Windows can include 3 types of components: panels, frames and louvres. Panels an
 
 [Tutorial for open windows](Tutorial_for_open_windows.md)
 
-Doors and windows can appear partially or fully open in the 3D model, or can display opening symbols both in plan and/or elevation. Consequently, these will also appear in extracted 2D views generated by [Draft Shape2DView](Draft_Shape2DView.md) or [TechDraw Workbench](TechDraw_Workbench.md) or [Drawing Workbench](Drawing_Workbench.md). To obtain this, at least one of the window components must have a hinge and an opening mode defined (see the [Building components](#Building_components.md) above). Then, using the **Opening**, **Symbol Plan** or **Symbol Elevation** properties, you can configure the appearance of the window:
+Doors and windows can appear partially or fully open in the 3D model, or can display opening symbols both in plan and/or elevation. Consequently, these will also appear in extracted 2D views generated by [Draft Shape2DView](Draft_Shape2DView.md) or [TechDraw Workbench](TechDraw_Workbench.md). To obtain this, at least one of the window components must have a hinge and an opening mode defined (see the [Building components](#Building_components.md) above). Then, using the **Opening**, **Symbol Plan** or **Symbol Elevation** properties, you can configure the appearance of the window:
 
 <img alt="" src=images/Arch_window_openings.png  style="width:600px;"> 
 *A door showing the symbol plan, symbol elevation and opening properties at work*
@@ -130,6 +139,8 @@ Windows can also take advantage of other tools, specifically [PartDesign](PartDe
     -   **Subvolume** as a PropertyLink and link it to the volume to be subtracted that we created above
     -   **Tag** as a PropertyString
 
+
+
 ### Materiais
 
 Our window type is now ready. We can create window objects from it, simply by selecting the App Part and pressing the window button. The \"Height\", \"Width\", \"Subvolume\" and \"Tag\" properties of the window will be linked to the corresponding property of the App Part, if existing.
@@ -145,6 +156,8 @@ You can use any other kind of workflow than the one described above, the importa
 -   The type object must be one object, no matter the type (App Part, PartDesign Body, Part Compound, or even another Arch Window)
 -   The type object must have a \"Subvolume\" property (linked to the window\'s Subvolume property) for openings in host objects to work
 -   The type object must have a \"Group\" property with different children with same names as multi-material items for multi-materials to work
+
+
 
 ## Propriedades
 
@@ -182,7 +195,7 @@ The Window tool can be used in [macros](macros.md) and from the [Python](Python.
 Window = makeWindow(baseobj=None, width=None, height=None, parts=None, name="Window")
 ```
 
--   Creates a `Window` object based on `baseobj`, which should be a well formed, closed [Draft Wire](Draft_Wire.md) or [Sketcher Sketch](Sketcher_Sketch.md).
+-   Creates a `Window` object based on `baseobj`, which should be a well formed, closed [Draft Wire](Draft_Wire.md) or [Sketcher Sketch](Sketcher_Workbench.md).
 -   If available, sets the `width`, `height`, and `name` (label) of the Window.
 -   If the `baseobj` is not a closed shape, the tool may not create a proper solid figure.
 

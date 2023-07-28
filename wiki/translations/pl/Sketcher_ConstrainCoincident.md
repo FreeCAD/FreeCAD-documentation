@@ -1,18 +1,22 @@
 ---
 - GuiCommand:/pl
    Name:Sketcher ConstrainCoincident
-   Name/pl:Wiązanie zbieżności punktów
-   MenuLocation:Sketch → Wiązania szkicownika → Wiązanie zbieżności
+   Name/pl:Szkicownik: Wiązanie zbieżności punktów
+   MenuLocation:Szkic → Wiązania szkicownika → Wiązanie zbieżności
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**C**
-   SeeAlso:[Wiązanie blokady odległości](Sketcher_ConstrainLock/pl.md), [wiązanie punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md)
+   SeeAlso:[Wiązanie blokady odległości](Sketcher_ConstrainLock/pl.md), [Wiązanie punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md)
 ---
 
 # Sketcher ConstrainCoincident/pl
 
+
+
 ## Opis
 
-Przypisuje punkt do jednego lub kilku innych punktów *(pokrywa się z nimi)*. {{Version/pl|1.0}}: Działa jako wiązanie punktów środka, jeśli wybrane są dwa lub więcej okręgów, łuków, elips lub łuków elips.
+Przypisuje punkt do jednego lub kilku innych punktów *(pokrywa się z nimi)*. {{Version/pl|0.21}}: Działa jako wiązanie punktów środka, jeśli wybrane są dwa lub więcej okręgów, łuków, elips lub łuków elips.
+
+
 
 ## Użycie
 
@@ -20,9 +24,11 @@ Przypisuje punkt do jednego lub kilku innych punktów *(pokrywa się z nimi)*. {
     -   Wybierz dwa lub więcej punktów.
     -   Wybierz dwie lub więcej krawędzi okręgów, łuków, elips lub łuków elips.
 2.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **[<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> [Wiązanie zbieżności punktów](Sketcher_ConstrainCoincident/pl.md)** na pasku narzędzi.
+    -   Naciśnij przycisk **[<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> '''Wiązanie zbieżności'''** na pasku narzędzi.
     -   Użyj skrótu klawiaturowego **C**.
-    -   Użyj pozycji w menu głównym **Sketch → Ograniczenia szkicownika → [<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> Wiązanie zbieżności punktów**.
+    -   Użyj pozycji w menu głównym **Szkic → Ograniczenia szkicownika → [<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> Wiązanie zbieżności**.
+
+
 
 ## Alternatywy dla wiązania zbieżności 
 
@@ -34,6 +40,8 @@ Dwa ograniczone elementy wiązania [zbieżności](Sketcher_ConstrainCoincident/p
 -   Współliniowe umieszczenie dwóch prostych można uzyskać przez zastosowanie wiązania <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> [styczności](Sketcher_ConstrainTangent/pl.md), lub przez połączenie wiązań <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [Punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md) i <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> [równoległości](Sketcher_ConstrainParallel/pl.md).
 -   Dwie krawędzie mogą być identyczne poprzez użycie dwóch wiązań <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [zbieżności](Sketcher_ConstrainCoincident/pl.md), po jednym dla każdej pary końców.
 -   Dwa okręgi można uczynić identycznymi za pomocą wiązania <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [zbieżności](Sketcher_ConstrainCoincident/pl.md), aby połączyć środki, i stosując wiązanie <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;">. [równości](Sketcher_ConstrainEqual/pl.md) w stosunku do ich krawędzi. W przypadku łuków, zapewni to, że oba łuki będą częścią tego samego okręgu, ale pozwoli im mieć różne punkty początkowe i końcowe.
+
+
 
 ### Ogólne zasady tworzenia skryptów 
 
@@ -57,7 +65,7 @@ gdzie:
 
 Jak wskazują nazwy `LineFixed` i `LineMoving`, jeśli oba związane wierzchołki mogą się poruszać w dowolnym kierunku, pierwszy z nich (wybrany jako pierwszy w Gui) pozostanie nieruchomy, a drugi będzie się poruszał. Jednak w obecności istniejących wiązań, obie krawędzie mogą się poruszać.
 
-Strona [skrypty w środowiszku szkicownika](Sketcher_scripting.md) opisuje wartości, których można użyć dla `LineFixed`, `PointOfLineFixed`, `LineMoving` i `PointOfLineMoving`, a także zawiera dalsze przykłady tworzenia wiązań przy użyciu skryptów języka Python.
+Strona [skrypty w środowisku szkicownika](Sketcher_scripting/pl.md) opisuje wartości, których można użyć dla `LineFixed`, `PointOfLineFixed`, `LineMoving` i `PointOfLineMoving`, a także zawiera dalsze przykłady tworzenia wiązań przy użyciu skryptów języka Python.
 
 
 

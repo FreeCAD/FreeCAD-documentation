@@ -8,12 +8,16 @@
 
 # Std Windows/de
 
+
+
 ## Beschreibung
 
 Der **Std Fenster**-Befehl öffnet eine Dialog-Box mit einer Liste der Fenster des [Hauptansichtsbereichs](Main_view_area/de.md). Aus dieser Liste kann ein ausgewähltes Fenster aktiviert werden.
 
 ![](images/Std_Windows_dialog.png ) 
 *Die Fenster auswählen Dialog-Box*
+
+
 
 ## Anwendung
 
@@ -25,9 +29,13 @@ Der **Std Fenster**-Befehl öffnet eine Dialog-Box mit einer Liste der Fenster d
 4.  Die Dialog-Box schließt sich.
 5.  Das gewählte Fenster ist aktiviert.
 
+
+
 ## Optionen
 
 -   Drücke **Esc** oder die Taste **Cancel**, um den Befehl abzubrechen.
+
+
 
 ## Hinweise
 

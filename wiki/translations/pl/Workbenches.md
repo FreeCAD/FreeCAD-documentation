@@ -1,5 +1,5 @@
 # Workbenches/pl
-FreeCAD, podobnie jak wiele nowoczesnych aplikacji projektowych, takich jak [Revit](wikipedia_Revit.md) lub [CATIA](wikipedia_CATIA.md), opiera się na koncepcji [Środowisk pracy](wikipedia_Workbench.md). Środowisko pracy może być traktowane jako zestaw narzędzi specjalnie pogrupowanych dla potrzeb realizacji konkretnego zadania. W tradycyjnym warsztacie meblowym miałbyś stół roboczy dla osoby pracującej z drewnem, inny dla osoby pracującej z metalowymi elementami, a może trzeci dla faceta, który montuje wszystkie elementy razem.
+FreeCAD, podobnie jak wiele nowoczesnych aplikacji projektowych, takich jak [Revit](https://en.wikipedia.org/wiki/Autodesk_Revit) lub [CATIA](https://en.wikipedia.org/wiki/CATIA), opiera się na koncepcji [Środowisk pracy](https://en.wikipedia.org/wiki/Workbench). Środowisko pracy może być traktowane jako zestaw narzędzi specjalnie pogrupowanych dla potrzeb realizacji konkretnego zadania. W tradycyjnym warsztacie meblowym miałbyś stół roboczy dla osoby pracującej z drewnem, inny dla osoby pracującej z metalowymi elementami, a może trzeci dla faceta, który montuje wszystkie elementy razem.
 
 W programie **FreeCAD** stosuje się tę samą koncepcję. Narzędzia są pogrupowane w **Środowiska pracy** według zadań, które są z nimi związane.
 
@@ -11,6 +11,10 @@ Należy pamiętać, że czasami środowisko pracy jest nazywane **modułem**. Je
 
 ## Wbudowane Środowiska pracy 
 
+
+
+### Aktualne
+
 Poniższe środowiska pracy są dostępne w każdej instalacji FreeCAD:
 
 -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Std: Base](Std_Base/pl.md). To nie jest tak naprawdę środowisko pracy, ale raczej kategoria \"standardowych\" poleceń i narzędzi, które mogą być używane we wszystkich środowiskach pracy.
@@ -21,27 +25,23 @@ Poniższe środowiska pracy są dostępne w każdej instalacji FreeCAD:
 
 -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [MES](FEM_Workbench/pl.md) zapewnia przepływ pracy w zakresie analizy elementów skończonych *(Finite Element Analysis FEA)*.
 
--   <img alt="" src=images/Workbench_Image.svg  style="width:32px;"> [Obraz](Image_Workbench/pl.md) do pracy z obrazami bitmapowymi.
-
-<img alt="" src=images/_Workbench_Inspection.svg  style="width:32px;"> [Inspekcja](Inspection_Workbench/pl.md) ma na celu udostępnienie narzędzi do badania kształtów. Nadal jest w fazie rozwoju.
+-   <img alt="" src=images/_Workbench_Inspection.svg  style="width:32px;"> [Inspekcja](Inspection_Workbench/pl.md) ma na celu udostępnienie narzędzi do badania kształtów. Nadal jest w fazie rozwoju.
 
 -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> [Siatka](Mesh_Workbench/pl.md) do pracy z siatkami o trójkątnych oczkach.
 
 -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Workbench/pl.md) dla interoperacyjności z OpenSCAD i naprawiania historii modeli typu [konstrukcyjnej geometrii bryły](Constructive_solid_geometry/pl.md) *(CSG)*.
 
--   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Część](Part_Workbench/pl.md) do pracy z częściami CAD.
+-   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Część](Part_Workbench/pl.md) do pracy z pierwotnymi obiektami geometrycznymi i operacjami logicznymi.
 
 -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Projekt Części](PartDesign_Workbench/pl.md) do budowy kształtów części ze szkiców.
 
--   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Path](Path_Workbench/pl.md) jest używany do tworzenia operacji G-Code. Jest on nadal w fazie rozwoju.
+-   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Path](Path_Workbench/pl.md) jest używany do tworzenia operacji G-Code.
 
 -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> [Punkty](Points_Workbench/pl.md) do pracy z chmurami punktów.
 
--   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> [Raytracing](Raytracing_Workbench/pl.md) do pracy z ray-tracingiem (renderingiem).
+-   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> [Inżynieria Wsteczna](Reverse_Engineering_Workbench/pl.md) ma na celu dostarczenie specyficznych narzędzi do konwersji kształtów/brył/siatek na parametryczne elementy kompatybilne z FreeCAD.
 
--   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> [Inżynieria Wsteczna](Reverse_Engineering_Workbench/pl.md) ma na celu dostarczenie specyficznych narzędzi do konwersji kształtów/brył/siatek na parametryczne elementy kompatybilne z FreeCAD. Jest nadal w fazie rozwoju.
-
--   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> [Robot](Robot_Workbench/pl.md) do badania ruchów robotów.
+-   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> [Robot](Robot_Workbench/pl.md) do badania ruchów robotów. Obecnie nie jest utrzymywany.
 
 -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [Szkicownik](Sketcher_Workbench/pl.md) do pracy na szkicach z zachowaniem wiązań geometrii.
 
@@ -61,13 +61,15 @@ Poniższe środowiska pracy są dostępne w każdej instalacji FreeCAD:
 
 ### Przestarzałe
 
-Następujące środowiska pracy są nadal objęte zakresem instalacji podstawowej w celu zapewnienia kompatybilności, ale nie powinny być dłużej używane.
+Następujące środowiska pracy nie są już zawarte w instalacji podstawowej po wersji 0.20:
 
--   <img alt="" src=images/Workbench_Complete.svg  style="width:32px;"> [Complete](Complete_Workbench/pl.md) posiada wszystkie polecenia i funkcje ze wszystkich modułów i stołów warsztatowych, które spełniały określone kryteria jakości. 
-**{{Obsolete/pl|0.17}}**
+-   <img alt="" src=images/Workbench_Drawing.svg  style="width:32px;"> [Kreślenie](Drawing_Workbench/pl.md) został stworzony do przygotowania rysunku technicznego. Zobacz środowisko [Rysunek Techniczny](TechDraw_Workbench/pl.md), które jest bardziej zaawansowanym zamiennikiem.
 
--   <img alt="" src=images/Workbench_Drawing.svg  style="width:32px;"> [Kreślenie](Drawing_Workbench/pl.md) został stworzony do prezentacji projektów 3D na kartce papieru, ale teraz został usunięty. Jednak nadal konieczne jest odczytanie starych plików FreeCAD, które zawierają obiekt rysunkowy wykonany pierwotnie w tym Środowisku pracy. Zobacz [Rysunek Techniczny](TechDraw_Workbench/pl.md), który jest bardziej zaawansowanym zamiennikiem. 
-**{{Obsolete/pl|0.17}}**
+-   <img alt="" src=images/Workbench_Image.svg  style="width:32px;"> [Obraz](Image_Workbench/pl.md) służyło do pracy z grafikami bitmapowymi. Jego funkcjonalność została zintegrowana w [Narzędziach standardowych](Std_Base/pl.md).
+
+Zobacz strony [Std: Import](Std_Import/pl.md) i [Std: Otwórz widok obrazu](Std_ViewLoadImage/pl.md).
+
+-   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> [Raytracing](Raytracing_Workbench/pl.md) do pracy z ray-tracingiem *(renderingiem)*. Zamiast tego należy użyć zewnętrznego środowiska [Render](https://github.com/FreeCAD/FreeCAD-render).
 
 
 
@@ -76,8 +78,6 @@ Następujące środowiska pracy są nadal objęte zakresem instalacji podstawowe
 Środowiska pracy FreeCAD są łatwe do zaprogramowania w [Python](Python.md). Dlatego też, wiele osób opracowuje dodatkowe stoły robocze wykraczające poza główny obszar rozwoju programu FreeCAD.
 
 Strona [zewnętrzne środowiska pracy](External_workbenches/pl.md) zawiera listę wszystkich, które są znane tej społeczności. Większość z nich można łatwo zainstalować z poziomu FreeCAD, używając [Menadżera dodatków](Std_AddonMgr/pl.md), znajdującego się w menu **Narzędzia → <img src="images/Std_AddonMgr.svg" width=24px> Menadżer dodatków**.
-
-Wciąż powstają kolejne środowiska pacy, obserwuj zmiany i bądź na bieżąco!
 
 
 

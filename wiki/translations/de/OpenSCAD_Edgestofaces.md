@@ -1,7 +1,8 @@
 ---
 - GuiCommand:/de
-   Name/de:OpenSCAD Kanten zu Flächen
-   MenuLocation:OpenSCAD → Kanten zu Flächen umwandeln
+   Name:OpenSCAD Edgestofaces
+   Name/de:OpenSCAD KantenZuFlächen
+   MenuLocation:OpenSCAD → Kanten in Flächen umwandeln
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
    SeeAlso:[Draft Hochstufen](Draft_Upgrade/de.md)
 ---
@@ -9,24 +10,23 @@
 # OpenSCAD Edgestofaces/de
 
 
-</div>
 
 ## Beschreibung
 
 Wandelt Kanten in Flächen um. Nützlich, um importierte DXF-Geometrien für die Extrusion vorzubereiten.
 
+
+
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selektiere umzuwandelnde Kanten in der [3D-Ansicht](3D_view/de.md).
-2.  Wähle **OpenSCAD** → **<img src="images/OpenSCAD_Edgestofaces.svg" width=32px> Kanten zu Flächen umwandeln** aus dem Top-Menü.
+1.  Umzuwandelnde Kanten in der [3D-Ansicht](3D_view/de.md) auswählen.
+2.  Den Menüeintrag **OpenSCAD** → **<img src="images/OpenSCAD_Edgestofaces.svg" width=32px> Kanten in Flächen umwandeln** auswählen.
 
 
-</div>
 
 ## Beschränkungen
+
+
 
 ## Hinweise
 

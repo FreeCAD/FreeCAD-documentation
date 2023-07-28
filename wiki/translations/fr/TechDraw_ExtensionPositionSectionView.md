@@ -13,10 +13,12 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionPositionSectionView.svg  style="width:24px;"> **TechDraw Position d\'une vue en coupe** aligne orthogonalement une vue en coupe avec sa vue source.
+L\'outil **TechDraw Position d\'une vue en coupe** aligne orthogonalement une vue en coupe avec sa vue source.
 
 <img alt="" src=images/TechDraw_ExtensionPositionSectionViewExample.png  style="width:400px;"> 
 *A droite, une vue de section alignée*
+
+
 
 ## Utilisation
 

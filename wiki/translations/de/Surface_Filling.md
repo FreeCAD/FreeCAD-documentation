@@ -9,6 +9,8 @@
 
 # Surface Filling/de
 
+
+
 ## Beschreibung
 
 
@@ -20,6 +22,8 @@ The base geometry can belong to curves created with the [Draft Workbench](Draft_
 
 <img alt="" src=images/Surface_Filling_example.png  style="width:600px;"> 
 *Two filled surfaces delimited by four edges located on the XY plane. The surface on the right is additionally controlled by a non-boundary edge.*
+
+
 
 ## Anwendung
 
@@ -36,6 +40,8 @@ The base geometry can belong to curves created with the [Draft Workbench](Draft_
 6.  Optionally select one or more **Edge constraints**.
 7.  Optionally select one or more **Vertex constraints**.
 8.  Press **OK** button.
+
+
 
 ## Optionen
 
@@ -56,6 +62,8 @@ The base geometry can belong to curves created with the [Draft Workbench](Draft_
 
 -   Press **Esc** or the **Cancel** button to abort the operation.
 
+
+
 ## Beispiel
 
 Die **Stützfläche** Stellt eine weitere Randbedingung für die Oberfläche dar. Das folgende einfache Beispiel gibt einen Eindruck davon, wie dies funktioniert:
@@ -67,11 +75,15 @@ Die **Stützfläche** Stellt eine weitere Randbedingung für die Oberfläche dar
 5.  Edit the Surface object and for the **Support surface** select the cylindrical face.
 6.  The modified shape matches the cylindrical face much more closely.
 
+
+
 ## Eigenschaften
 
 A [Surface Filling](Surface_Filling.md) (`Surface::Filling` class) is derived from the basic [Part Feature](Part_Feature.md) (`Part::Feature` class, through the `Part::Spline` subclass), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [Part Feature](Part_Feature.md), the Surface Filling has the following properties in the [property editor](Property_editor.md).
+
+
 
 ### Daten
 
@@ -118,12 +130,16 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 
 -    **Maximum Segments|Integer**: maximum number of segments, it defaults to {{Value|9}}.
 
+
+
 ### Ansicht
 
 
 {{TitleProperty|Base}}
 
 -    **Control Points|Bool**: it defaults to `False`; if set to `True`, it will show an overlay with the control points of the surface.
+
+
 
 ## Skripten
 

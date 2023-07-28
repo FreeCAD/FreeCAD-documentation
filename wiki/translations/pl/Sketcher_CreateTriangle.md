@@ -1,30 +1,37 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher CreateTriangle
-   MenuLocation:Sketch → Sketcher geometries → Create equilateral triangle
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Utwórz trójkąt równoboczny
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz trójkąt równoboczny
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **P** **3**
    Version:0.15
 ---
 
 # Sketcher CreateTriangle/pl
 
-## Description
 
-Draws a equilateral triangle inscribed in a construction geometry circle. When starting the tool, the mouse pointer changes to a white cross with a red hexagon icon. The coordinates of the pointer are shown beside it in blue in real time.
+
+## Opis
+
+Rysuje trójkąt równoboczny wpisany w okrąg z geometrii konstrukcyjnej. Po uruchomieniu narzędzia kursor myszki zmienia kształt na biały krzyż z czerwoną ikoną sześciokąta. W czasie rzeczywistym wyświetlane są obok niego współrzędne wskaźnika w kolorze niebieskim.
 
 ![](images/SketcherCreateTriangleExample.png‎ )
 
-## Usage
 
-1.  Press the **[<img src=images/Sketcher_CreateTriangle.svg style="width:16px"> [Create equilateral triangle](Sketcher_CreateTriangle.md)** button.
-2.  Click once to set the center.
-3.  Move the mouse and click a second time to set one of the vertices.
-4.  Pressing **Esc** or clicking the right mouse button cancels the function.
 
-## Notes
+## Użycie
 
-The circumscribed circle is construction geometry, which is only visible when editing the sketch.
+1.  Naciśnij przycisk **[<img src=images/Sketcher_CreateTriangle.svg style="width:16px"> [Trójkąt](Sketcher_CreateTriangle/pl.md)**.
+2.  Kliknij raz, aby ustawić środek.
+3.  Przesuń kursor i kliknij drugi raz, aby ustawić jeden z wierzchołków.
+4.  Naciśnięcie klawisza **Esc** lub kliknięcie prawym przyciskiem myszki powoduje zakończenie działania narzędzia.
+
+
+
+## Uwagi
+
+Wyznaczony okrąg to geometria konstrukcyjna, która jest widoczna tylko podczas edycji szkicu.
 
 
 

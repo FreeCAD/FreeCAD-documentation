@@ -16,7 +16,7 @@ La commande <img alt="" src=images/Draft_PointArray.svg  style="width:24px;"> **
 
 L\'objet de base peut être un objet 2D créé avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi un objet 3D tel que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier Arch](Arch_Workbench/fr.md).
 
-L\'objet Point peut être n\'importe quel objet ayant une forme et des sommets (y compris un [Std Part](Std_Part/fr.md) contenant un ou plusieurs de ces objets), ainsi qu\'un [maillage](Mesh_Workbench/fr.md) et un [nuage de point](Points_Workbench/fr.md). Les points en double dans l\'objet point sont filtrés. {{Version/fr|1.0}}
+L\'objet Point peut être n\'importe quel objet ayant une forme et des sommets (y compris un [Std Part](Std_Part/fr.md) contenant un ou plusieurs de ces objets), ainsi qu\'un [maillage](Mesh_Workbench/fr.md) et un [nuage de point](Points_Workbench/fr.md). Les points en double dans l\'objet point sont filtrés. {{Version/fr|0.21}}
 
 Dans {{VersionMinus|0.20}}, seuls trois types d\'objets Point sont pris en charge ; voir [Objet Point version 0.20 et inférieure](#Objet_Point_version_0.20_et_inf.C3.A9rieure.md).
 

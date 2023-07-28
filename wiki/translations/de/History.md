@@ -94,13 +94,15 @@ Im April 2019 wurde das Team der Kernentwickler erweitert: Zu Jürgen, Werner un
 -   über die FEM Geschichte: <https://forum.freecadweb.org/viewtopic.php?f=18&t=48646#p416389>
 -   über die Geschichte der FEM Polygonnetzbildner: <https://forum.freecadweb.org/viewtopic.php?f=18&t=48733#p417627>
 
+
+
 ## Veröffentlichungshistorie
 
 #### Überblick
 
   Version   Veröffentlichungsname   Veröffentlichungsdatum   Veröffentlichungsverpflichtung                              Veröffentlichungszweig
       
-  1.0       \-                      in Entwicklung           [Versionshinweise 1.0](Release_notes_1.0/de.md)     [head master](https://github.com/FreeCAD/FreeCAD/commits/master)
+  0.21      \-                      in Entwicklung           [Versionshinweise 0.21](Release_notes_0.21/de.md)   [head master](https://github.com/FreeCAD/FreeCAD/commits/master)
   0.20      \-                      2022-06-14               [Versionshinweise 0.20](Release_notes_0.20/de.md)   [release commit 0.20](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-20)
   0.19      \-                      2021-03-20               [Versionshinweise 0.19](Release_notes_0.19/de.md)   [release commit 0.19](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-19)
   0.18      \-                      2019-03-12               [Versionshinweise 0.18](Release_notes_0.18/de.md)   [release commit 0.18](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-18)
@@ -122,6 +124,8 @@ Im April 2019 wurde das Team der Kernentwickler erweitert: Zu Jürgen, Werner un
   0.2       \-                      2005-08-09                                                                           
   0.1       \-                      2003-01-27                                                                           
   0.0.1     \-                      2002-10-29               Initial Upload of a version                                 
+
+
 
 #### Legende
 

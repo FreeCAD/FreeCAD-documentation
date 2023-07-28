@@ -1,22 +1,27 @@
 ---
-- GuiCommand:
-   Name:Std LinkUnlink
-   MenuLocation:None
-   Workbenches:All
+- GuiCommand:/ru
+   Name/ru:Отвязать
+   Name:Std_LinkUnlink
+   MenuLocation:Нет
+   Workbenches:Все
    Version:0.19
-   SeeAlso:[Std LinkMake](Std_LinkMake.md), [Std LinkMakeRelative](Std_LinkMakeRelative.md), [Std LinkReplace](Std_LinkReplace.md)
+   SeeAlso:[Создать ссылку](Std_LinkMake/ru.md), [Ссылка](Std_LinkMakeRelative/ru.md), [Заменить ссылкой](Std_LinkReplace/ru.md)
 ---
 
 # Std LinkUnlink/ru
 
+
+
 ## Описание
 
 
-**[<img src=images/Std_LinkUnlink.svg style="width:16px"> [Std LinkUnlink](Std_LinkUnlink.md)**
+**[<img src=images/Std_LinkUnlink.svg style="width:16px"> [Отвязать](Std_LinkUnlink/ru.md)**
 
-is essentially the opposite operation to **[<img src=images/Std_LinkReplace.svg style="width:16px"> [Std LinkReplace](Std_LinkReplace.md)**.
+является по существу операцией, противоположной **[<img src=images/Std_LinkReplace.svg style="width:16px"> [Заменить ссылкой](Std_LinkReplace/ru.md)**.
 
 This operation is used to remove a Link from a container like **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)**, and instead place the real object inside.
+
+
 
 ## Применение
 

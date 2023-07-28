@@ -10,6 +10,8 @@
 
 # Std PerspectiveCamera/pl
 
+
+
 ## Opis
 
 Polecenie **Widok perspektywy** przełącza ujęcie widoku w aktywnym oknie [widoku 3D](3D_view/pl.md) w tryb widoku perspektywy. W tym trybie obiekty znajdujące się dalej od kamery wydają się mniejsze niż te znajdujące się bliżej.
@@ -17,19 +19,22 @@ Polecenie **Widok perspektywy** przełącza ujęcie widoku w aktywnym oknie [wid
 ![](images/Std_PerspectiveCamera_example.svg ) 
 *Dwa sześciany o tych samych wymiarach w widoku perspektywy*
 
+
+
 ## Użycie
 
 1.  Istnieje kilka sposobów wywołania tego polecenia:
     -   Wybierz z menu opcję **Widok → <img src="images/Std_PerspectiveCamera.svg" width=16px> Widok perspektywy**.
+    -   Wybierz opcję **<img src="images/Std_PerspectiveCamera.svg" width=16px> Widok perspektywy** z menu mini kostki [Kostki nawigacyjnej](Navigation_Cube/pl.md).
     -   Użyj skrótu klawiaturowego: **V** kolejnie **P**.
 
-## Uwagi
 
--   Można również przełączyć się do trybu widoku perspektywy za pomocą menu Mini-sześcianu [kostki nawigacyjnej](Navigation_Cube/pl.md).
 
 ## Ustawienia
 
 -   Typ ujęcia widoku można zmienić w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Typ projekcji**. Wybrany typ będzie używany dla wszystkich widoków 3D wszystkich otwartych dokumentów, a także dla nowych dokumentów. Zobacz dodatkowe informacje o [konfiguracji](Preferences_Editor/pl#Widok_3D.md).
+
+
 
 ## Tworzenie skryptów 
 

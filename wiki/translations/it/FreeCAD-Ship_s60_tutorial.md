@@ -32,6 +32,8 @@ Potete trovare altre informazioni nella pagina [FreeCAD-Ship](Ship_Workbench/it.
 
 </div>
 
+
+
 ## Caricare la geometria 
 
 
@@ -454,6 +456,8 @@ Curve Idrostatiche.
 
 
 </center>
+
+
 
 
 <div class="mw-translate-fuzzy">

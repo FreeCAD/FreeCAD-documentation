@@ -1,9 +1,10 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw LengthDimension
-   MenuLocation:TechDraw → Dimensions → Insert Length Dimension
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw HorizontalDimension](TechDraw_HorizontalDimension.md), [TechDraw VerticalDimension](TechDraw_VerticalDimension.md)
+   Name/pl:Rysunek Techniczny: Wstaw wymiar długości
+   MenuLocation:Rysunek Techniczny → Wymiary → Wstaw wymiar długości
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso:[Wstaw wymiar poziomy](TechDraw_HorizontalDimension/pl.md), [Wstaw wymiar pionowy](TechDraw_VerticalDimension/pl.md)
 ---
 
 # TechDraw LengthDimension/pl
@@ -12,83 +13,131 @@
 
 ## Opis
 
-The <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:24px;"> **TechDraw LengthDimension** tool adds a linear dimension to a View. The dimension may be the distance between two vertices, the length of one edge or the distance between 2 edges. The dimension will initially display the projected distance (ie as shown on the drawing). If the dimension is based on 3D references, it can be changed to the actual 3D distance by changing its **Measure Type** property to {{Value|True}}.
+Narzędzie **Wstaw wymiar długości** dodaje wymiar liniowy do widoku. Wymiar może być odległością między dwoma punktami, długością prostej krawędzi, prostopadłą odległością między dwiema krawędziami lub prostopadłą odległością między punktem a krawędzią.
 
 <img alt="" src=images/TechDraw_Dimension_Length_example.png  style="width:220px;"> 
-*Length dimension taken from two arbitrary nodes of the view*
+*Wymiar długości pobrany z dwóch punktów.*
 
 
 
 ## Użycie
 
-1.  Select the points or edge which define your measurement. The geometry may be selected in the drawing or the [3D view](3D_view.md).
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Insert Length Dimension](TechDraw_LengthDimension.md)** button.
-    -   Select the **TechDraw → Dimensions → <img src="images/TechDraw_LengthDimension.svg" width=16px> Insert Length Dimension** option from the menu.
-3.  A dimension will be added to the View. The dimension may be dragged to the desired position.
-4.  If needed, add tolerances as described in [this page](TechDraw_Geometric_dimensioning_and_tolerancing#Tolerances.md).
+1.  Wybierz punkty i / lub krawędzie, które definiują pomiar. Geometria może zostać wybrana w oknie [widoku 3D](3D_view/pl.md) *(pierwsze dwie opcje)* lub na rysunku *(wszystkie opcje)*:
+    -   Wybierz dwa punkty.
+    -   Wybierz pojedynczą krawędź prostą.
+    -   Wybierz dwie krawędzie. Jeśli obie krawędzie są proste, muszą być równoległe. Spowoduje to utworzenie wymiaru prostopadłego, jeśli punkt końcowy jednej z krawędzi ma rzut prostopadły na drugą krawędź *(punkt wynikowy musi leżeć na rzeczywistej krawędzi)*. Jeśli możliwych jest wiele rozwiązań, używany jest punkt końcowy najbliższy rzutowanemu punktowi. Jeśli nie ma prawidłowego rzutowania prostopadłego, wymiar będzie odległością między najbliższymi punktami końcowymi krawędzi.
+    -   Wybierz punkt i krawędź. Spowoduje to utworzenie wymiaru prostopadłego, jeśli punkt ma rzut prostopadły na rzeczywistą krawędź. W przeciwnym razie wymiar będzie odległością między punktem a najbliższym punktem końcowym krawędzi.
+2.  Jeśli geometria została wybrana w widoku 3D: dodaj prawidłowy widok do zaznaczenia, wybierając go w oknie [widoku 3D](3D_view/pl.md).
+3.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_LengthDimension.svg" width=16px> '''Wstaw wymiar długości'''**.
+    -   Wybierz z menu opcję **Rysunek Techniczny → Wymiary → <img src="images/TechDraw_LengthDimension.svg" width=16px> Wstaw wymiar długości**.
+4.  Wymiar zostanie dodany do widoku.
+5.  Wymiar można przeciągnąć do wybranej pozycji.
+6.  W razie potrzeby dodaj tolerancje zgodnie z opisem na stronie [Wymiarowanie geometrii i tolerancja](TechDraw_Geometric_dimensioning_and_tolerancing/pl#Tolerancja.md).
 
-To change the properties of a dimension object either double-clicking it in the drawing or in the [Tree view](Tree_view.md). This will open the dimension dialog:
+
+
+### Wyświetlanie pomiarów 3D 
+
+Wymiar będzie początkowo wyświetlał rzutowany pomiar *(tj. taki, jak pokazano na rysunku)*. W razie potrzeby i jeśli wymiar jest oparty na odniesieniach 3D, można go zmienić na rzeczywisty pomiar 3D, zmieniając jego właściwość **Typ pomiaru** na wartość {{Value|True}}. Aby oprzeć wymiar na odniesieniach 3D, wybierz geometrię z okna [widoku 3D](3D_view/pl.md) w czasie tworzenia lub użyj narzędzia <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:16px;">. [Napraw odniesienia do wymiarów](TechDraw_DimensionRepair/pl.md), aby zaktualizować istniejące wymiary.
+
+
+
+### Zmiana właściwości 
+
+Aby zmienić właściwości obiektu wymiaru, kliknij go dwukrotnie na rysunku lub w oknie [widoku Drzewa](Tree_view/pl.md). Spowoduje to otwarcie okna [dialogowego wymiaru](#Okno_dialogowe.md):
 
 
 
 ## Okno dialogowe 
 
-The dimension dialog offers the following settings:
-
 ![](images/TechDraw_DimensionDialog.png )
+
+Okno dialogowe wymiaru oferuje następujące ustawienia:
 
 
 
 ### Tolerancja
 
--   **Theoretically Exact**: If checked, is specifies the dimension as theoretically exact dimension. As such, it shall not bear any tolerances. The dimension will be displayed by a frame around the value: <img alt="" src=images/TechDraw_theoretically_exact.png  style="width:100px;">
+-   **W teorii dokładnie**: Jeśli to pole jest zaznaczone, wymiar jest określony jako teoretycznie dokładny. W związku z tym nie powinien mieć żadnych tolerancji. Wymiar będzie wyświetlany z ramką wokół wartości: <img alt="" src=images/TechDraw_theoretically_exact.png  style="width:100px;">.
 
--   **Equal Tolerance**: If checked, the over- and undertolerance are equal and the negated value of the overtolerance is used as undertolerance. The display will be <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">, otherwise it will be <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">.
+-   **Tolerancja symetryczna**: Jeśli to pole jest zaznaczone, tolerancja nadmierna i tolerancja niedostateczna są równe, a zanegowana wartość tolerancji nadmiernej jest używana jako tolerancja niedostateczna. Wyświetlany będzie symbol <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">, w przeciwnym razie będzie to <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">.
 
--   **Overtolerance**: The amount by which the dimension may be larger.
+-   **Powyżej tolerancji:**: Wielkość, o jaką wymiar może być większy.
 
--   **Undertolerance**: The amount by which the dimension may be smaller.
+-   **Poniżej tolerancji:**: Wielkość, o jaką wymiar może być mniejszy.
 
 
 
 ### Formatowanie
 
--   **Format Specifier**: How the dimension value will be formatted. By default the specifier is {{Value|%.xf}} whereby {{Value|x}} is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string). There is also an additional {{Value|%w}} format that prints the specified number of digits after the decimal separator and removes trailing zeros. For example, {{Value|%.2w}} means that at most 2 decimals will be printed and any trailing zeros will be cut off.
+-   **Określenie formatu**: sposób formatowania wartości wymiaru. Domyślnie specyfikatorem jest {{Value|%.xf}}, gdzie {{Value|x}} to liczba miejsc dziesiętnych. Składnia formatowania znajduje się na stronie [tej strony Wikipedii](https://en.wikipedia.org/wiki/Printf_format_string). Istnieje również dodatkowy format {{Value|%w}}, który wyświetla określoną liczbę cyfr po separatorze dziesiętnym i usuwa końcowe zera. Na przykład {{Value|%.2w}} oznacza, że wypisane zostaną co najwyżej 2 cyfry po przecinku, a końcowe zera zostaną odcięte.
 
--   **Arbitrary Text**: If checked, the dimension is replaced by the content of the **Format Specifier** field.
+-   **Dowolny tekst**: Jeśli to pole jest zaznaczone, wymiar jest zastępowany zawartością pola \"Określenie formatu\".
 
--   **OverTolerance Format Specifier**: How the overtolerance value will be formatted. By default the specifier is {{Value|%.xf}} whereby {{Value|x}} is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string).
+-   **Określenie formatu górnej granicy tolerancji:**: Sposób formatowania wartości powyżej tolerancji. Domyślnie specyfikatorem jest {{Value|%.xf}}, gdzie {{Value|x}} to liczba miejsc po przecinku. Składnia formatowania znajduje się na stronie [tej strony Wikipedii](https://en.wikipedia.org/wiki/Printf_format_string).
 
--   **UnderTolerance Format Specifier**: How the undertolerance value will be formatted. By default the specifier is {{Value|%.xf}} whereby {{Value|x}} is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string).
+-   **Określenie formatu dolnej granicy tolerancji:**: Sposób formatowania wartości Poniżej tolerancji. Domyślnie specyfikatorem jest {{Value|%.xf}}, gdzie {{Value|x}} to liczba miejsc po przecinku. Składnia formatowania znajduje się na stronie [tej strony Wikipedii](https://en.wikipedia.org/wiki/Printf_format_string).
 
--   **Arbitrary Tolerance Text**: If checked, the tolerances are replaced by the content of the **OverTolerance Format Specifier** **UnderTolerance Format Specifier** fields.
+-   **Dowolne sformułowanie tolerancji**: Jeśli opcja ta jest zaznaczona, tolerancje są zastępowane zawartością pól **Określenie formatu górnej granicy tolerancji** **Określenie formatu dolnej granicy tolerancji**.
 
-### Display Style 
 
--   **Flip Arrowheads**: Flips the direction in which the dimension line arrows are pointing. By default they are inside the dimension line/arc and pointing outwards.
 
--   **Color**: The color for lines and text.
+### Styl wyświetlania 
 
--   **Font Size**: The dimension text size.
+-   **Odwróć groty**: Odwraca kierunek strzałek linii wymiarowej. Domyślnie znajdują się one wewnątrz linii wymiarowej / łuku i są skierowane na zewnątrz.
 
--   **Drawing Style**: The standard (and its style) according to which the dimension is drawn. See the property [**Standard And Style**](#View.md) for details.
+-   **Kolor**: Barwa dla linii i tekstu.
 
-### Lines
+-   **Rozmiar czcionki**: Określa rozmiar tekstu.
 
--   **Override Angles**: If checked, the usual angles for the dimension line and extension lines will be overridden by the specified values.
+-   **Styl rysunku**: Standard *(i jego styl)*, zgodnie z którym wymiar jest rysowany. Zobacz właściwość [**Standard i styl**](#Widok.md), aby uzyskać szczegółowe informacje.
 
--   **Dimension line angle**: Override value for angle of dimension line with view X axis (in degrees).
 
--   **Use default**: Set dimension line angle to the usual angle.
 
--   **Use selection**: Set dimension line angle to match the angle of the selected edge (or 2 vertices) in the view.
+### Linia
 
--   **Extension line angle**: Override value for angle of extension lines with view X axis (in degrees).
+-   **Zastąp kąty**: Jeśli opcja jest zaznaczona, zwykłe kąty dla linii wymiarowej i linii przedłużenia zostaną zastąpione określonymi wartościami.
 
--   **Use default**: Set extension line angle to the usual angle.
+-   **Kąt linii wymiarowej**: Zastępuje wartość kąta linii wymiarowej względem osi X widoku *(w stopniach)*.
 
--   **Use selection**: Set extension line angle to match the angle of the selected edge (or 2 vertices) in the view.
+-   **Użyj wartości domyślnych**: Ustaw kąt linii wymiarowej na zwykły kąt.
+
+-   **Użyj z wyboru**: Ustaw kąt linii wymiarowej tak, aby odpowiadał kątowi wybranej krawędzi *(lub 2 wierzchołków)* w widoku.
+
+-   **Kąt linii przedłużenia**: Zastąp wartość kąta linii przedłużenia z osią X widoku *(w stopniach)*.
+
+-   **Użyj wartości domyślnych**: Ustaw kąt linii przedłużającej na zwykły kąt.
+
+-   **Użyj z wyboru**: Ustaw kąt linii rozszerzenia tak, aby odpowiadał kątowi wybranej krawędzi *(lub 2 wierzchołków)* w widoku.
+
+
+
+## Ograniczenia
+
+Obiekty wymiarów są podatne na \"[problem z nazewnictwem topologicznym](Topological_naming_problem/pl.md)\". Oznacza to, że jeśli zmodyfikujesz geometrię 3D, ściany i krawędzie modelu mogą zostać wewnętrznie przemianowane. Jeśli wymiar jest dołączony do krawędzi, która jest następnie modyfikowana, wymiar może zostać uszkodzony. Ogólnie rzecz biorąc, nie jest możliwe zsynchronizowanie rzutowanych wymiarów 2D z rzeczywistymi obiektami 3D.
+
+Dlatego zaleca się dodawanie wymiarów, gdy model 3D nie jest już modyfikowany.
+
+
+
+### Obejście
+
+Jeśli chcesz zachować widok Rysunku Technicznego z wymiarami, które nie ulegną uszkodzeniu, musisz zwymiarować obiekt, który się nie zmieni:
+
+-   Utwórz nieparametryczną kopię obiektu, który chcesz rzutować za pomocą narzędzia <img alt="" src=images/Part_SimpleCopy.svg  style="width:16px;"> [Utwórz prostą kopię](Part_SimpleCopy/pl.md).
+-   Wybierz tę kopię, a następnie użyj narzędzia [Wstaw widok](TechDraw_View/pl.md) i dodaj żądane wymiary.
+-   Jeśli oryginalny model 3D zostanie zmodyfikowany, modyfikacje nie wpłyną na prostą kopię, ani na wymiary w widoku rysunku technicznego.
+
+Zobacz [Wymiar przestrzenny](TechDraw_LandmarkDimension/pl.md) aby zapoznać się z innym podejściem do ominięcia problemu nazewnictwa topologicznego.
+
+
+
+## Uwagi
+
+-   **Wybór krawędzi**. Krawędzie mogą być trudne do zaznaczenia. Obszar zaznaczenia krawędzi można dostosować, zmieniając preferencję [Wykrywanie krawędzi](TechDraw_Preferences/pl#Zaawansowane.md).
+-   **Miejsca dziesiętne**. Wymiary domyślnie używają globalnego ustawienia miejsc dziesiętnych. Można to zmienić poprzez [ustawienia](TechDraw_Preferences/pl#Wymiary.md) lub zmieniając właściwość Określenie formatu.
+-   **Wiele obiektów**. Widoki mogą zawierać wiele obiektów 3D jako źródło. Wymiary mogą być stosowane do geometrii z dowolnych obiektów w widoku *(np. od Object1.Vertex0 do Object2.Vertex3)*.
 
 
 
@@ -101,201 +150,203 @@ The dimension dialog offers the following settings:
 
 {{Properties_Title|Podstawowe}}
 
--    **References 2D|LinkSubList**: The 2D drawing View object(s) on which the measurement is based. Used if **Measure Type** is {{Value|Projected}}.
+-    **Odniesienie 2D|LinkSubList**: Obiekt*(y)* widoku rysunku 2D, na którym oparty jest pomiar. Używane, jeśli parametr **Typ pomiaru** ma wartość {{Value|Projekcja}}.
 
--    **References 3D|LinkSubList**: The 3D object(s) on which the measurement is based. Used if **Measure Type** is {{Value|True}}.
+-    **Odniesienie 3D|LinkSubList**: Obiekt(y) 3D, na których oparty jest pomiar. Używane, jeśli parametr **Typ pomiaru** ma wartość {{True/pl}}.
 
--    **Type|Enumeration**: Length, radius, diameter, etc. Not normally manipulated by the end user.
+-    **Typ|Enumeration**: Długość, promień, średnica itp. Zwykle nie są używane przez użytkownika końcowego.
 
--    **Measure Type|Enumeration**: How the measurement is performed.
+-    **Typ pomiaru|Wyliczenie**: Sposób wykonania pomiaru.
 
 :   
 
-    :   True - based on 3D geometry.
-    :   Projected - based on 2D drawing View geometry.
+    :   True - w oparciu o geometrię 3D.
+    :   Projected - na podstawie rysunku 2D Widok geometrii.
 
--    **Theoretical Exact|Bool**: Specifies a theoretically exact (or basic) dimension.
+-    **W teorii dokładnie|Bool**: Określa teoretycznie dokładny *(lub podstawowy)* wymiar.
+
+:   
+
+    :   
+        {{FALSE/pl}}
+        
+        \- domyślnie wspólny wymiar, ewentualnie z tolerancjami.
+
+    :   
+        {{TRUE/pl}}
+        
+        \- jest to wartość teoretyczna. Jako taka, nie powinna zawierać żadnych tolerancji. Wymiar będzie wyświetlany w ramce otaczającej wartość: <img alt="" src=images/TechDraw_theoretically_exact.png  style="width:100px;">
+
+-    **Tolerancja symetryczna|Bool**: Jeżeli tolerancja nadmiarowa i niedomiarowa są równe. Wtedy zanegowana wartość tolerancji nadmiarowej jest używana jako tolerancja niedomiarowa.
+
+:   
+
+    :   
+        {{TRUE/pl}}
+        
+        \- zanegowana wartość **Powyżej tolerancji:** jest używana jako **Poniżej tolerancji:**. Wyświetlana wartość to <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">.
+
+    :   
+        {{FALSE/pl}}
+        
+        \- the **Poniżej tolerancji:** zostaje wzięty pod uwagę. Wyświetlany będzie <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">.
+
+-    **Powyżej tolerancji|QuantityConstraint**: Wartość, o jaką wymiar może być większy.
+
+-    **Poniżej tolerancji|QuantityConstraint**: Wartość, o jaką wymiar może być mniejszy.
+
+-    **Odwrotny|Bool**: Określa, czy wymiar reprezentuje wartość zwykłą czy odwróconą.
 
 :   
 
     :   
         `False`
         
-        \- a common dimension by default, possibly with tolerances.
+        \- używana jest zwykła wartość. Dla długości jest to liczba dodatnia, dla kąta wartość skośna *(0° - 180°)*.
 
     :   
         `True`
         
-        \- a theoretical value. As such, it shall not bear any tolerances. The dimension will be displayed by a frame around the value: <img alt="" src=images/TechDraw_theoretically_exact.png  style="width:100px;">
+        \- używana jest wartość odwrócona. W przypadku długości jest to liczba ujemna, w przypadku kąta wartość odbicia *(180° - 360°)*.
 
--    **Equal Tolerance|Bool**: If over- and undertolerance are equal. Then the negated value of the overtolerance is used as undertolerance.
+-    **X|Distance**: Poziome położenie tekstu wymiaru względem widoku.
 
-:   
+-    **Y|Distance**: Pionowe położenie tekstu wymiaru względem widoku.
 
-    :   
-        `True`
-        
-        \- the negated value of the **Over Tolerance** is used as **Under Tolerance**. The display will be <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">
+-    **Zablokuj pozycję|Bool|Ukryte**: Blokuje pozycję tekstu wymiaru, gdy opcja ta ma wartość `True`.
 
-    :   
-        `False`
-        
-        \- the **Under Tolerance** is taken into account. The display will be <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">
+-    **Obrót|Angle|Ukryte**: Tylko do odczytu.
 
--    **Over Tolerance|QuantityConstraint**: The amount by which the dimension may be larger.
+-    **Typ skali Type|Enumeration|Ukryte**: Tylko do odczytu.
 
--    **Under Tolerance|QuantityConstraint**: The amount by which the dimension may be smaller.
+-    **Skala|FloatConstant|Ukryte**: Tylko do odczytu.
 
--    **Inverted|Bool**: Marks whether the dimension represents a common or an inverted value.
-
-:   
-
-    :   
-        `False`
-        
-        \- the ordinary value is used. For length it is a positive number, for angle the oblique value (0° - 180°).
-
-    :   
-        `True`
-        
-        \- the inverted value is used. For length a negative number, for angle the reflex value (180° - 360°).
-
--    **X|Distance**: Horizontal position of the dimension text relative to the View.
-
--    **Y|Distance**: Vertical position of the dimension text relative to the View.
-
--    **Lock Position|Bool|Hidden**: Locks the position of the dimension text when `True`.
-
--    **Rotation|Angle|Hidden**: Read only.
-
--    **Scale Type|Enumeration|Hidden**: Read only.
-
--    **Scale|FloatConstant|Hidden**: Read only.
-
--    **Caption|String|Hidden**: Not used.
+-    **Podpis|String|Ukryte**: Nieużywane.
 
 
 {{Properties_Title|Format}}
 
--    **Format Spec|String**: How the dimension value will be formatted. See [Formatting](#Formatting.md).
+-    **Określenie formatu|String**: Sposób formatowania wartości wymiaru. Zobacz [Formatowanie](#Formatowanie.md).
 
--    **Format Spec Over Tolerance|String**: Like **Format Spec**, but for overtolerances.
+-    **Określenie formatu górnej granicy tolerancji|String**: Podobnie jak **Określenie formatu**, ale dla przekroczenia tolerancji.
 
--    **Format Spec Under Tolerance|String**: Like **Format Spec**, but for undertolerances.
+-    **Określenie formatu dolnej granicy tolerancji|String**: Jak **Określenie formatu**, ale dla zaniżonych tolerancji.
 
--    **Arbitrary|Bool**: Whether the dimension is replaced by the content of the **Format Spec** field.
+-    **Dowolny|Bool**: Czy wymiar jest zastępowany zawartością pola **Określenie formatu**.
+
+:   
+
+    :   
+        {{FALSE/pl}}
+        
+        \- zawartość pola **Określenie formatu** jest używana do formatowania rzeczywistej wartości wymiaru.
+
+    :   
+        {{TRUE/pl}}
+        
+        \- zawartość pola **Określenie formatu** będzie wyświetlana jako tekst zamiast wartości wymiaru.
+
+-    **Dowolne sformuowanie tolerancji|Bool**: Podobnie jak **Dowolny**, ale dla tolerancji.
+
+
+{{Properties_Title|Zastąp}}
+
+-    **Zastąp kąty|Bool**: Czy kierunek linii wymiarowych i przedłużających jest nadpisywany.
 
 :   
 
     :   
         `False`
         
-        \- the content of the **Format Spec** is used to format the actual dimensional value.
+        \- kierunki są obliczane jak zwykle.
 
     :   
         `True`
         
-        \- the content of the **Format Spec** will be displayed as text instead if the dimension value.
+        \- kierunki są nadpisywane przez wartości właściwości LineAngle i ExtensionAngle.
 
--    **Arbitrary Tolerances|Bool**: Like **Arbitrary**, but for the tolerance.
+-    **Kąt linii|Angle**: kąt linii wymiarowej z osią X widoku *(w stopniach)*.
+
+-    **Kąt linii pomocniczej|Angle**: kąt linii przedłużenia z osią X widoku *(w stopniach)*.
 
 
-{{Properties_Title|Override}}
+{{Properties_Title|Odniesienia}}
 
--    **AngleOverride|Bool**: Whether the direction of dimension and extension lines is overridden.
-
-:   
-
-    :   
-        `False`
-        
-        \- the directions are computed as usual.
-
-    :   
-        `True`
-        
-        \- the directions are overridden by LineAngle and ExtensionAngle property values.
-
--    **LineAngle|Angle**: angle of dimension line with view X axis (in degrees).
-
--    **ExtensionAngle|Angle**: angle of extension line(s) with view X axis (in degrees).
+-    **Zapisana geometria|TopoShapeList|Hidden**: Geometria odniesienia. {{Version/pl|0.21}}
 
 
 
 ### Widok
 
 
-{{Properties_Title|Dimension Format}}
+{{TitleProperty|Podstawa}}
 
--    **Color|Color**: Color for lines and text.
+-    **Zachowaj etykietę|Bool**: Nieużywane.
 
--    **Flip Arrowheads|Bool**: By default the value *inside* the dimension line/arc means the arrows pointing *outwards*. If placed *outside* the dimension line/arc, the arrows point *inwards* the dimension line/arc.
+-    **Kolejność na stosie|Integer**: Nakładanie się lub niedopasowanie względem innych obiektów rysunku. {{Version/pl|0.21}}
+
+
+{{Properties_Title|Format wymiaru}}
+
+-    **Rozmiar grotu|Length**: Rozmiar strzałek wymiaru. {{Version/pl|0.21}}
+
+-    **Kolor|Color**: Kolor linii i tekstu.
+
+-    **Odwróć groty|Bool**: Wartością domyślną jest *wewnątrz* linii wymiarowej / łuku, co oznacza strzałki skierowane *na zewnątrz*. Jeśli strzałki są umieszczone *na zewnątrz* linii wymiarowej/łuku, strzałki są skierowane *do wewnątrz* linii wymiarowej/łuku.
 
 :   
 
     :   
-        `False`
+        {{FALSE/pl}}
         
-        \- Let the direction of arrows to be selected automatically according to the rule above.
+        \- Umożliwia automatyczne wybieranie kierunku strzałek zgodnie z powyższą regułą.
 
     :   
-        `True`
+        {{TRUE/pl}}
         
-        \- Override the automatically chosen direction and force the opposite one.
+        \- Nadpisuje automatycznie wybrany kierunek i wymusza kierunek przeciwny.
 
--    **Font|Font**: The name of the font to use for the dimension text.
+-    **Czcionka|Font**: Nazwa czcionki używanej dla tekstu wymiaru.
 
--    **Font Size|Length**: Dimension text size.
+-    **Rozmiar czcionki|Length**: Określa rozmiar tekstu.
 
--    **Gap Factor ASME|Float**: Adjusts the gap between the dimension points and the start of the extension lines. The gap is this value times the line width. <small>(v1.0)</small> 
+-    **Współczynnik odstępu ASME|Float**: Umożliwia dostosowanie odstępu między punktami wymiaru a początkiem linii rozszerzenia. Wartość odstępu jest pomnożona przez szerokość linii. {{Version/pl|0.21}}
 
--    **Gap Factor ISO|Float**: Adjusts the gap between the dimension points and the start of the extension lines. The gap is this value times the line width. <small>(v1.0)</small> 
+-    **Współczynnik odstępu  ISO|Float**: Umożliwia dostosowanie odstępu między punktami wymiaru a początkiem linii rozszerzenia. Wartość odstępu jest pomnożona przez szerokość linii. {{Version/pl|0.21}}
 
--    **Line Width|Length**: Dimension line weight.
+-    **Współczynnik odstępu między wierszami|Float**: Dostosowuje odstęp między tekstem wymiaru a linią wymiaru. Odstęp jest równy tej wartości pomnożonej przez szerokość linii. {{Version/pl|0.21}}
 
--    **Rendering Extent|Enumeration**: Rather universal property specifying how much space the dimension drawing may take up:
+-    **Szerokość linii|Length**: Określa grubość linii wymiarowej.
 
-:   
-
-    :   None - no lines or arrows are drawn, only the bare dimension value is displayed.
-    :   Minimal - for lengths and angles a single headed line connecting the dimensional value and the end point\'s *virtual extension line* is drawn. The extension line itself is not added.
-    :   Diameters are rendered following Confined extent, radii following Reduced extent.
-    :   Confined - for lengths and angles a double headed line (or arc) connecting the start and end point\'s *virtual extension lines* is drawn, though the extension lines themselves are not added.
-    :   Diameters are drawn with a minimal single headed line from dimensional value to the closest point on circle, radii as with Reduced extent.
-    :   Reduced - for lengths and angles a single headed line connecting the dimensional value and the end point\'s *extension line* is drawn along with the extension line itself.
-    :   Diameters are drawn with a single headed line from the center to the closest point on circle, radii with a minimal single headed line from dimensional value to the closest arc point.
-    :   Normal - the default value. For lengths and angles a double headed line (or arc) connecting the start and end point\'s *extension lines* is drawn, the extension lines themselves as well.
-    :   Diameters are drawn as double headed lines striking the center and connecting the closest and farthest points on the circle.
-    :   Radii are drawn as a single headed line from center to the closest arc point.
-    :   Expanded - Only diameters support this value, rendering them in a horizontal or vertical length-like way. Other dimension types are rendered as with Normal extent.
-
--    **Standard And Style|Enumeration**: Specifies the standard (and its style) according to which the dimension is drawn:
+-    **Zakres renderowania|Enumeration**: Właściwość raczej uniwersalna określająca ile miejsca może zająć rysunek wymiarowy:
 
 :   
 
-    :   <img alt="Differences between the supported standards" src=images/TechDraw_Dimension_standardization.png  style="width:500px;">
-    :   ISO Oriented - drawn according to the standard ISO 129-1, text is rotated to be parallel with the dimension line tangent.
-    :   ISO Referencing - drawn in compliance with ISO 129-1, text is always horizontal, above the shortest possible reference line.
-    :   ASME Inlined - drawn according to the standard ASME Y14.5M, text is horizontal, inserted in a break within the dimension line or arc.
-    :   ASME Referencing - drawn in compliance with ASME Y14.5M, text is horizontal, short reference line is attached to one side\'s vertical center.
+    :   None - żadne linie ani strzałki nie są rysowane, wyświetlana jest tylko sama wartość wymiaru.
+    :   Minimal - dla długości i kątów rysowana jest pojedyncza linia łącząca wartość wymiaru i wirtualną linię przedłużenia punktu końcowego. Sama linia pomocnicza nie jest dodawana.
+    :   Średnice są renderowane w zgodnie z zakresem Confined, promienie następujące po Reduced zasięgu.
+    :   Confined -dla długości i kątów rysowana jest dwukierunkowa linia *(lub łuk)* łącząca \"wirtualne linie pomocnicze\" punktu początkowego i końcowego, chociaż same linie pomocnicze nie są dodawane.
 
+Średnice są rysowane za pomocą minimalnej pojedynczej linii od wartości wymiaru do najbliższego punktu na okręgu, promienie jak w przypadku Reduced.
 
+:   
 
-## Ograniczenia
+    :   Reduced - dla długości i kątów rysowana jest pojedyncza linia łącząca wartość wymiarową i linię przedłużenia punktu końcowego wraz z samą linią przedłużenia.
+    :   Średnice są rysowane za pomocą linii pojedynczej od środka do najbliższego punktu na okręgu, promienie za pomocą minimalnej linii pojedynczej od wartości wymiarowej do najbliższego punktu łuku.
+    :   Normal - jest to wartość domyślna. Dla długości i kątów rysowana jest podwójna linia *(lub łuk)* łącząca \"linie przedłużające\" punktu początkowego i końcowego, a także same linie przedłużające.
+    :   Średnice są rysowane jako podwójne linie przechodzące przez środek i łączące najbliższe i najdalsze punkty na okręgu.
+    :   Promienie są rysowane jako pojedyncza linia prowadząca od środka do najbliższego punktu łuku.
+    :   Expanded - Tylko średnice obsługują tę wartość, renderując je w sposób podobny do długości w poziomie lub w pionie. Inne typy wymiarów są renderowane jak w przypadku zakresu Normal.
 
-Dimension objects are vulnerable to the \"[topological naming problem](Topological_naming_problem.md)\". This means that if you modify the 3D geometry the faces and edges of the model may be renamed internally; if a dimension is attached to an edge that is then modified, the dimension may break. In general, it is not possible to keep the projected 2D dimensions synchronized with the actual 3D objects.
+-    **Standard i styl|Enumeration**: Określa standard *(i jego styl)*, zgodnie z którym wymiar jest rysowany:
 
-Therefore, it is recommended that dimensions be added when the 3D model is no longer being modified.
+:   
 
-### Workaround
-
-If you want to keep a TechDraw view with dimensions that won\'t break, you need to dimension an object that won\'t change.
-
--   Select the object that you want to project, then switch to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) and use **Part → <img src="images/Part_SimpleCopy.svg" width=16px> [Create simple copy](Part_SimpleCopy.md)**. This will create a single object that is not parametric, that is, no longer editable.
--   Select this copy, then use [TechDraw View](TechDraw_View.md), and add the desired dimensions.
--   If the original 3D model is modified, the modifications won\'t affect the simple copy, nor the dimensions in the TechDraw view.
-
-See [Landmark Dimensions](TechDraw_LandmarkDimension.md) for another approach to circumventing the topological naming issue.
+    :   <img alt="Różnice między obsługiwanymi standardami" src=images/TechDraw_Dimension_standardization.png  style="width:500px;">
+    :   ISO Oriented - obiekty są rysowane zgodnie z normą ISO 129-1, tekst jest obrócony tak, aby był równoległy do stycznej linii wymiarowej.
+    :   ISO Referencing - obiekty są rysowane zgodnie z normą ISO 129-1, tekst jest zawsze poziomy, nad najkrótszą możliwą linią odniesienia.
+    :   ASME Inlined - obiekty są rysowane zgodnie ze standardem ASME Y14.5M, tekst jest poziomy, wstawiany w przerwie w obrębie linii wymiarowej lub łuku.
+    :   ASME Referencing - obiekty są rysowane zgodnie z ASME Y14.5M, tekst jest poziomy, krótka linia odniesienia jest dołączona do pionowego środka jednej strony.
 
 
 
@@ -312,14 +363,6 @@ dim1.Type = "Distance"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)
 ```
-
-
-
-## Uwagi
-
--   **Edge selection**. Edges can be difficult to select. You can adjust the selection area for edges using the parameter \"/Mod/TechDraw/General/EdgeFuzz\" (see [Std_DlgParameter](Std_DlgParameter.md)). This is a dimension-less number. The default is 10.0. Values in the 20-30 range will make it noticeably easier to select edges. Large numbers will cause overlaps with other drawing elements.
--   **Decimal places**. Dimensions use the global decimal places setting by default. This can be changed via [preferences](TechDraw_Preferences#Dimensions.md) or by changing the FormatSpec property.
--   **Multiple objects**. Views may contain multiple 3D objects as Source. Dimensions may be applied to geometry from any object(s) in the View (ex from Object1.Vertex0 to Object2.Vertex3).
 
 
 

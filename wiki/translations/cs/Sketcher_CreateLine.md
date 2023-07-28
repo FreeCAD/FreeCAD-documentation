@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -18,6 +20,8 @@ Tento nástroj nakreslí přímku zadáním dvou bodů ve 3D pohledu. Při spuš
 ![](images/Sketcher_LineExample1.png‎ )
 
 The created line object starts and ends at the given points, but the line is infinite regarding the constraints [Tangent](Sketcher_ConstrainTangent.md), [Point On Object](Sketcher_ConstrainPointOnObject.md) and [Internal Angle](Sketcher_ConstrainAngle.md). This means for example, that a point with the constraint [Point On Object](Sketcher_ConstrainPointOnObject.md) may not be located between the two given points but can lie outside of the two points on the extension of the drawn line.
+
+
 
 
 <div class="mw-translate-fuzzy">

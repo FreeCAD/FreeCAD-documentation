@@ -8,15 +8,9 @@
 
 {{TOCright}}
 
+Die [Python-Konsole](Python_console/de.md) ist ein Feld, das Teil der FreeCAD-[Benutzerschnittstelle](interface/de.md) ist. Es führt eine Instanz des [Python](Python/de.md)-Interpreters aus, mit dem FreeCAD-Prozesse gesteuert sowie Objekte und deren Eigenschaften erstellt und geändert werden können.
 
-<div class="mw-translate-fuzzy">
-
-Die [Python Konsole](Python_console/de.md) ist ein Feld, das eine Instanz des [Python](Python/de.md) Interpreters ausführt, mit dem FreeCAD Prozesse gesteuert, Objekte und deren Eigenschaften erstellt und geändert werden können.
-
-
-</div>
-
-It can be made visible/hidden through the **View → Panels → Python console** drop-down menu.
+Sie kann über den Menüeintrag **Ansicht → Paneele → Python-Konsole** eingeblendet werden.
 
 Die Python-Konsole in FreeCAD verfügt über eine grundlegende Syntaxhervorhebung, die es ermöglicht, mit verschiedenen Stilen und Farben, Kommentaren, Zeichenketten, numerischen Werten, eingebauten Funktionen, gedruckter Textausgabe und Trennzeichen wie Klammern und Kommata zu unterscheiden. Diese Eigenschaften der Konsole können im [Voreinstellungseditor](Preferences_Editor/de.md) konfiguriert werden.
 
@@ -97,12 +91,12 @@ Ein Rechtsklick auf die Python Konsole zeigt einige Befehle an:
 
 ## Hinweise
 
--   One has the ability to scroll the API in the Python console. Example:
-    1.  In the console type: `FreeCAD.`
-    2.  A dialog box will display with optional classes/functions to choose from
-    3.  Scroll through the list to read the description of each class/function
-    4.  By choosing a function and following it with a `.` one can repeat steps 2 and 3 to traverse deeper in to the API
--   Tab/Word completion is supported using the **Ctrl**+**Space** shortcut
+-   Es ist möglich in der Python-Konsole durch die API zu scrollen. Beispiel:
+    1.  In der Konsole tippt man: `FreeCAD.`
+    2.  Ein Dialogfenster zur Auswahl optionaler Klassen oder Funktionen erscheint.
+    3.  Beim Scrollen durch die Liste können die Beschreibungen jeder Klasse bzw. Funktion gelesen werden.
+    4.  Wird eine Funktion ausgewählt und mit einem `.` ergänzt, können die Schritte 2 und 3 wiederholt werden, um tiefer in die API vorzudringen.
+-   Tab-/Wortergänzung wird unterstützt, wenn das Tastaturkürzel **Ctrl**+**Space** verwendet wird.
 
 
 {{Interface navi

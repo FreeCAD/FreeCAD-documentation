@@ -10,12 +10,14 @@
 
 ## Description
 
-L\'option <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:24px;"> **Draft Aimantation Perpendiculaire** permet de s\'aimanter aux points perpendiculaires sur les faces ({{Version/fr|1.0}}) et les arêtes. Les faces et les arêtes peuvent appartenir à des objets [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) mais aussi à des objets créés avec d\'autres [ateliers](Workbenches/fr.md).
+L\'option <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:24px;"> **Draft Aimantation Perpendiculaire** permet de s\'aimanter aux projections perpendiculaires d\'un point précédent sur les faces. ({{Version/fr|0.21}}) et les arêtes. Les faces et les arêtes peuvent appartenir à des objets [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) mais aussi à des objets créés avec d\'autres [ateliers](Workbenches/fr.md).
 
 Cette option d\'aimantation permet également de trouver des points sur des faces et des arêtes étendues.
 
 ![](images/Draft_Snap_Perpendicular_example.png ) 
 *Aimantation du deuxième point d'une ligne au point perpendiculaire sur une arête étendue*
+
+
 
 ## Utilisation
 
@@ -31,8 +33,10 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
 6.  Déplacez le curseur sur une face ou un bord.
 7.  La face ou l\'arête est mise en évidence.
 8.  Si un point perpendiculaire est trouvé, le point est marqué et l\'icône <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:16px;"> est affichée près du curseur.
-9.  S\'il y a plusieurs points perpendiculaires : déplacez éventuellement le curseur vers un autre point perpendiculaire. {{Version/fr|1.0}}
+9.  S\'il y a plusieurs points perpendiculaires : déplacez éventuellement le curseur vers un autre point perpendiculaire. {{Version/fr|0.21}}
 10. Cliquez pour confirmer le point.
+
+
 
 ## Préférences
 

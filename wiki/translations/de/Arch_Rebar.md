@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Beschreibung
 
 Das [Architektur Bewehrung](Arch_Rebar/de.md) Werkzeug erlaubt es, [Bewehrungsstäbe](https://de.wikipedia.org/wiki/Bewehrungsstahl) in [Struktur](Arch_Structure/de.md) Objekten zu platzieren.
@@ -24,6 +26,8 @@ Bewehrungsobjekte basieren auf 2D Profilen wie [Entwurfsobjekten](Draft_Workbenc
 <img alt="" src=images/Arch_Rebar_example.jpg  style="width:400px;"> 
 *Strukturobjekt mit zwei auf seinen Flächen gezeichneten Skizzen, die dann in zwei Sätze von Bewehrungsobjekten umgewandelt werden*
 
+
+
 ## Verfügbare Erweiterung 
 
 Das Bewehrungswerkzeug wird durch den Arbeitsbereich [Reinforcement](Reinforcement_Workbench/de.md) erweitert, der über den [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert wird. Die zusätzlich verfügbaren Bewehrungstypen der Erweiterung sind:
@@ -34,6 +38,8 @@ Das Bewehrungswerkzeug wird durch den Arbeitsbereich [Reinforcement](Reinforceme
 -   <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width:32px;"> [Gebogener Formstab](Arch_Rebar_BentShape/de.md)
 -   <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md)
 -   <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Spiralförmiger Bewehrungsstab](Arch_Rebar_Helical/de.md)
+
+
 
 ## Anwendung
 
@@ -51,6 +57,8 @@ Das Bewehrungswerkzeug wird durch den Arbeitsbereich [Reinforcement](Reinforceme
 
 Obwohl ein Bewehrungsstab normalerweise in einem Architekturelement verwendet wird, kann er seit FreeCAD v0.19 auch außerhalb eines Host-Objekts erstellt werden. Um einen Bewehrungsstab in einem Objekt zu platzieren, muss einfach nur dessen **Host** gesetzt werden.
 
+
+
 ## Optionen
 
 -   Bewehrungsstäbe haben die gleichen Eigenschaften und das gleiche Verhalten aller [Arch-Komponenten](Arch_Component/de.md)
@@ -58,6 +66,8 @@ Obwohl ein Bewehrungsstab normalerweise in einem Architekturelement verwendet wi
 -   Standardwerte für neue Bewehrungsstäbe können in den Arch-Einstellungsdialogen gesetzt werden.
 -   Falls ein Richtungsvektor nicht angegeben wurde, werden die Werte für Richtung und Abstand zwischen den Stäben automatisch abhängig vom Strukturobjekt berechnet, indem die normale Ausrichtung der Basisskizze und der Schnittpunkt mit dem Strukturobjekt genommen werden. Wenn Du einen Richtungsvektor angibst, wird die Länge des Vektor ebenfalls berücksichtigt.
 -   Der Abstandswert wird aus der aktuellen Anzahl von Stäben berechnet und stellt den Abstand zwischen den Achsen der Stäbe dar. Du musst daher den Stabdurchmesser subtrahieren, um die Größe des freien Raums zwischen den Stäben zu erhalten.
+
+
 
 ## Eigenschaften
 
@@ -75,6 +85,11 @@ Obwohl ein Bewehrungsstab normalerweise in einem Architekturelement verwendet wi
 
 -    {{PropertyData/de|Leerraum}}: Der Abstand zwischen den Achsen jedes Stabs.
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Skripten
 
 
@@ -82,7 +97,23 @@ Obwohl ein Bewehrungsstab normalerweise in einem Architekturelement verwendet wi
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Bewehrungsstabwerkzeug kann in [Makros](macros/de.md) und aus der [PythonKonsole](Python/de.md) aus mit folgender Funktion verwendet werden: 
+
+</div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
+<div class="mw-translate-fuzzy">
+
+Das Bewehrungsstabwerkzeug kann in [Makros](macros/de.md) und aus der [PythonKonsole](Python/de.md) aus mit folgender Funktion verwendet werden:
+
+
+</div>
+
+
 ```python
 Rebar = makeRebar(baseobj=None, sketch=None, diameter=None, amount=1, offset=None, name="Rebar")
 ```

@@ -13,6 +13,8 @@
 
 {{TOCright}}
 
+## Overview
+
 
 <div class="mw-translate-fuzzy">
 
@@ -21,33 +23,75 @@ Această pagină afișează câteva module suplimentare de tip python sau alte p
 
 </div>
 
+## PySide (previously PyQt) 
+
+
+<div class="mw-translate-fuzzy">
+
 ## PySide (previously PyQt4) 
 
 -   homepage (PySide): [<http://qt-project.org/wiki/PySide>](http://qt-project.org/wiki/PySide)
 -   license: LGPL
 -   opțional, dar necesare sunt câteva module: Draft, Arch, Ship, Plot, OpenSCAD, Spreadsheet
 
+
+</div>
+
 PySide (anterior numit PyQt) este solicitat de mai multe module ale FreeCAD pentru a accesa interfața Qt a FreeCAD. Acesta este deja inclus în versiunea Windows a FreeCAD și, de obicei, este instalat automat de FreeCAD pe Linux, când se instalează din depozitele oficiale. Dacă aceste module (Draft, Arch etc.) sunt activate după ce FreeCAD este instalat, înseamnă că PySide (anterior PyQt) este deja acolo și nu mai trebuie să mai faceți nimic.
 
 **Notă:** FreeCAD sa mutat progresiv de la PyQt după versiunea 0.13, în favoarea[PySide](http://qt-project.org/wiki/PySide), care face exact același lucru, dar are o licență (LGPL) mai compatibilă cu FreeCAD.
+
+
 
 ### Instalarea
 
 #### Linux
 
+
+<div class="mw-translate-fuzzy">
+
+#### Linux 
+
 Cea mai simplă modalitate de a instala PySide este prin managerul de pachete al distribuției. Pe sistemele Debian / Ubuntu, numele pachetului este în general \"python-PySide\", în timp ce în sistemele bazate pe RPM se numește \"pyside\". Dependentele necesare (Qt și SIP) vor fi luate în considerare automat.
+
+
+</div>
 
 #### Windows
 
+
+<div class="mw-translate-fuzzy">
+
+#### Windows 
+
 Programul poate fi descărcat de la <http://qt-project.org/wiki/Category:LanguageBindings>::PySide::Downloads. Va trebui să instalați bibliotecile Qt și SIP înainte de a instala PySide (pentru a fi documentate).
+
+
+</div>
+
+#### MacOS
+
+
+<div class="mw-translate-fuzzy">
 
 #### MacOSX
 
 PyQt on Mac can be installed via homebrew or port. See [Compile on MacOS/ro#Install_Dependencies](Compile_on_MacOS/ro#Install_Dependencies.md) for more information.
 
+
+</div>
+
+### Usage
+
+
+<div class="mw-translate-fuzzy">
+
 ### Utilizare
 
 Odată ce este instalat, puteți verifica dacă totul funcționează prin tastarea în consolă Python FreeCAD:
+
+
+</div>
 
 
 ```python
@@ -130,7 +174,7 @@ try:
     FCmw = app.activeWindow()                     # PyQt4 # the active qt window, = the freecad window since we are inside it
     FCmw.addDockWidget(QtCore.Qt.RightDockWidgetArea,myNewFreeCADWidget) # add the widget to the main window
 except Exception:
-    FCmw = FreeCADGui.getMainWindow()             # PySide # the active qt window, = the freecad window since we are inside it 
+    FCmw = FreeCADGui.getMainWindow()             # PySide # the active qt window, = the freecad window since we are inside it
     FCmw.addDockWidget(QtCore.Qt.RightDockWidgetArea,myNewFreeCADWidget) # add the widget to the main window
 ```
 
@@ -174,7 +218,7 @@ def errorDialog(msg):
     diag = QtGui.QMessageBox(QtGui.QMessageBox.Critical,u"Error Message",msg )
     try:
         diag.setWindowFlags(PyQt4.QtCore.Qt.WindowStaysOnTopHint) # PyQt4 # this function sets the window before
-    except Exception:    
+    except Exception:
         diag.setWindowFlags(PySide.QtCore.Qt.WindowStaysOnTopHint)# PySide # this function sets the window before
 #    diag.setWindowModality(QtCore.Qt.ApplicationModal)       # function has been disabled to promote "WindowStaysOnTopHint"
     diag.exec_()
@@ -184,28 +228,28 @@ Working with setProperty (PyQt4) and setValue (PySide)
 
 
 ```python
-self.doubleSpinBox.setProperty("value", 10.0)  # PyQt4
+self.doubleSpinBox.setProperty("value", 10.0) # PyQt4
 ```
 
 înlocuiți cu :
 
 
 ```python
-self.doubleSpinBox.setValue(10.0)  # PySide
+self.doubleSpinBox.setValue(10.0) # PySide
 ```
 
 Working with setToolTip
 
 
 ```python
-self.doubleSpinBox.setToolTip(_translate("MainWindow", "Coordinate placement Axis Y", None))  # PyQt4
+self.doubleSpinBox.setToolTip(_translate("MainWindow", "Coordinate placement Axis Y", None)) # PyQt4
 ```
 
 înlocuiți la :
 
 
 ```python
-self.doubleSpinBox.setToolTip(_fromUtf8("Coordinate placement Axis Y"))  # PySide 
+self.doubleSpinBox.setToolTip(_fromUtf8("Coordinate placement Axis Y")) # PySide
 ```
 
 ori :
@@ -215,27 +259,47 @@ ori :
 self.doubleSpinBox.setToolTip(u"Coordinate placement Axis Y.")# PySide
 ```
 
-### Documentație Suplimentară 
+### Additional documentation 
 
-Some pyQt4 tutorials (including how to build interfaces with Qt Designer to use with python):
-
--   <http://pyqt.sourceforge.net/Docs/PyQt4/classes.html> - the PyQt4 API Reference on sourceforge
--   <http://www.rkblog.rk.edu.pl/w/p/introduction-pyqt4/> - a simple introduction
--   <http://www.zetcode.com/tutorials/pyqt4/> - very complete in-depth tutorial
+-   [Qt official documentation site](https://doc.qt.io/qt.html#qtforpython)
 
 ## Pivy
+
+
+<div class="mw-translate-fuzzy">
+
+## Pivy 
 
 -   homepage: [<https://bitbucket.org/Coin3D/coin/wiki/Home>](https://bitbucket.org/Coin3D/coin/wiki/Home)
 -   license: BSD
 -   optional, but needed by several modules of FreeCAD: Draft, Arch
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Pivy is a needed by several modules to access the 3D view of FreeCAD. On windows, Pivy is already bundled inside the FreeCAD installer, and on Linux it is usually automatically installed when you install FreeCAD from an official repository. On MacOSX, unfortunately, you will need to compile pivy yourself.
 
+
+</div>
+
+
+
 ### Instalare
+
+#### Prerequisites
+
+
+<div class="mw-translate-fuzzy">
 
 #### Cerințe preliminare 
 
 Cred că înainte de a compila Pivy, veți dori să instalați Coin și SoQt.
+
+
+</div>
 
 Am găsit că pentru construirea pe Mac a fost suficient pentru a instala [Coin3 binary package](http://www.coin3d.org/lib/plonesoftwarecenter_view). Încercarea de a instala coin de la MacPorts a fost problematică: a încercat să adauge o mulțime de pachete X Windows și în cele din urmă s-a prăbușit cu o eroare de script.
 
@@ -245,7 +309,15 @@ SoQt compiled from [source](http://www.coin3d.org/lib/soqt/releases/1.5.0) fine 
 
 #### Debian & Ubuntu 
 
+
+<div class="mw-translate-fuzzy">
+
+#### Debian & Ubuntu 
+
 Începând cu Debian Squeeze și Ubuntu Lucid, pivy va fi disponibil direct din depozitele oficiale, economisind astfel o mulțime de bătăi de cap. Între timp, puteți să descărcați unul dintre pachetele pe care le-am făcut (pentru debian și karmic ubuntu) disponibile în paginile [Download](Download.md) sau să le compilați singur.
+
+
+</div>
 
 Cea mai bună modalitate de a compila pivy cu ușurință este să luați pachetul sursă debian pentru pivy și să faceți un pachet cu debuild. Este același cod sursă de pe site-ul oficial pivy, dar oamenii de la debian au făcut mai multe adăugări de fixare a bug-urilor. De asemenea, compilează bine karmicul ubuntu: <http://packages.debian.org/squeeze/python-pivy> descărcați fișierul .orig.gz și .diff.gz, apoi dezarhivați ambele, apoi aplicați .diff la sursă: mergeți la directorul sursă de pivy dezarhivate și aplicați patch-ul .diff:
 
@@ -263,13 +335,21 @@ debuild
 
 to have pivy properly built into an official installable package. Then, just install the package with gdebi.
 
+#### Other linux distributions 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Alte distribuții linux 
 
 First get the latest sources from the [project\'s repository](http://pivy.coin3d.org/mercurial/):
 
 
+</div>
+
+
 ```python
-hg clone http://hg.sim.no/Pivy/default Pivy 
+hg clone http://hg.sim.no/Pivy/default Pivy
 ```
 
 As of March 2012, the latest version is Pivy-0.5.
@@ -285,13 +365,19 @@ make install (or checkinstall if you use it)
 
 Ia doar câteva secunde compilarea.
 
+
+<div class="mw-translate-fuzzy">
+
 Alternativ, puteți încerca construirea cu un SWIG mai recent. Începând cu luna martie 2012, o versiune tipică pentru depozit este 2.0.4. Pivy are o problemă minoră de compilare cu SWIG 2.0.4 pe Mac OS (vezi mai jos), dar pare să construiască bine pe Fedora Core 15.
+
+
+</div>
 
 După aceea, mergeți la sursele de pivy și sunați
 
 
 ```python
-python setup.py build 
+python setup.py build
 ```
 
 which creates the source files. Note that build can produce thousands of warnings, but hopefully there will be no errors.
@@ -307,15 +393,23 @@ python setup.py install (or checkinstall python setup.py install)
 
 Et voila, pivy este instalat.
 
+#### MacOS 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Mac OS 
 
 Este posibil ca aceste instrucțiuni să nu fie complete. Ceva aproape de acest lucru a funcționat pentru OS 10.7 în martie 2012. Eu folosesc MacPorts pentru depozite, dar ar trebui să funcționeze și alte opțiuni.
+
+
+</div>
 
 În ceea ce privește linux, obțineți cea mai recentă sursă:
 
 
 ```python
-hg clone http://hg.sim.no/Pivy/default Pivy 
+hg clone http://hg.sim.no/Pivy/default Pivy
 ```
 
 Dacă nu aveți hg, îl puteți obține de la MacPorts:
@@ -339,7 +433,13 @@ I found I needed also:
 port install swig-python
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Începând cu luna martie 2012, MacPorts SWIG este la versiunea 2.0.4. După cum s-a menționat mai sus pentru linux, este posibil să fie mai bine să descărcați o versiune mai veche. SWIG 2.0.4 pare să aibă un bug care oprește clădirea Pivy. Vedeți primul mesaj din acest rezumat:<https://sourceforge.net/mailarchive/message.php?msg_id=28114815>
+
+
+</div>
 
 Acest lucru poate fi corectat prin editarea celor două locații sursă pentru a adăuga dereferențe: \*arg4, \*arg5 in place of arg4, arg5. Now Pivy should build:
 
@@ -351,7 +451,15 @@ sudo python setup.py install
 
 #### Windows 
 
+
+<div class="mw-translate-fuzzy">
+
+#### Windows 
+
 Presupunând că utilizați Visual Studio 2005 sau o versiune ulterioară, ar trebui să deschideți un prompt de comandă cu \"Visual Studio 2005 Command prompt\" din meniul Instrumente. Dacă interpretul Python nu este încă în calea sistemului, faceți acest lucru
+
+
+</div>
 
 
 ```python
@@ -362,7 +470,7 @@ Pentru a obține o pivă de lucru, ar trebui să obțineți cele mai recente sur
 
 
 ```python
-svn co https://svn.coin3d.org/repos/Pivy/trunk Pivy 
+svn co https://svn.coin3d.org/repos/Pivy/trunk Pivy
 ```
 
 Apoi aveți nevoie de un instrument numit SWIG pentru a genera codul C++ pentru legăturile Python. Se recomandă utilizarea versiunii 1.3.25 a SWIG, nu cea mai recentă versiune, deoarece în acest moment pivy va funcționa corect numai cu 1.3.25. Descărcați binarele pentru 1.3.25 de la [<http://www.swig.org>](http://www.swig.org). Apoi despachetați-l și din linia de comandă adăugați-l pe calea sistemului
@@ -385,7 +493,7 @@ After that go to the pivy sources and call
 
 
 ```python
-python setup.py build 
+python setup.py build
 ```
 
 care creează fișierele sursă. S-ar putea să întâlniți o eroare de compilator că nu au putut fi găsite mai multe fișiere antet. În acest caz, ajustați variabila INCLUDE
@@ -409,7 +517,13 @@ set INCLUDE=%INCLUDE%;path_to_soqt_include_dir
 set INCLUDE=%INCLUDE%;path_to_qt4\include\Qt
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Dacă utilizați Express Edition din Visual Studio, puteți obține o excepție python keyerror. În acest caz, trebuie să modificați câteva lucruri în msvccompiler.py localizate în instalarea dvs. python.
+
+
+</div>
 
 Mergeți la linia 122 și înlocuiți linia de cod
 
@@ -425,7 +539,13 @@ cu
 vsbase = r"Software\Microsoft\VCExpress\%0.1f" % version
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Apoi încercați din nou. Dacă primiți o a doua eroare cum ar fi
+
+
+</div>
 
 
 ```python
@@ -469,11 +589,25 @@ set DISTUTILS_USE_SDK=1
 set MSSDK=1
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Acum, puteți întâlni o eroare de compilator în care un \'const char \*\' nu poate fi convertit într-un \'char \*\'. Pentru a repara că trebuie doar să scrieți un \"const\" înainte în liniile corespunzătoare. Există șase linii de rezolvat. Dupa ce copiați directorul generat pivy într-un loc in care interpretul python din FreeCAD îl poate gasi.
+
+
+</div>
+
+### Usage 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Utilizare 
 
 Pentru a verifica dacă Pivy este instalat corect:
+
+
+</div>
 
 
 ```python
@@ -485,17 +619,25 @@ To have Pivy access the FreeCAD scenegraph do the following:
 
 ```python
 from pivy import coin
-App.newDocument() # Open a document and a view 
-view = Gui.ActiveDocument.ActiveView 
+App.newDocument() # Open a document and a view
+view = Gui.ActiveDocument.ActiveView
 FCSceneGraph = view.getSceneGraph() # returns a pivy Python object that holds a SoSeparator, the main "container" of the Coin scenegraph
-FCSceneGraph.addChild(coin.SoCube()) # add a box to scene 
+FCSceneGraph.addChild(coin.SoCube()) # add a box to scene
 ```
 
 You can now explore the FCSceneGraph with the dir() command.
 
+### Additonal Documentation 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Documentație suplimentară 
 
 Din păcate, documentația despre pivu este încă aproape inexistentă pe net. Dar s-ar putea să găsiți documentația Coin utilă, deoarece pivy pur și simplu traduce funcții de coin, noduri și metode în Python, totul păstrează același nume și proprietăți, ținând cont de diferența de sintaxă dintre C și python:
+
+
+</div>
 
 -   <https://bitbucket.org/Coin3D/coin/wiki/Documentation> - Coin3D API Reference
 -   <http://www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/index.html> - The Inventor Mentor - The \"bible\" of Inventor scene description language.
@@ -504,46 +646,42 @@ You can also look at the Draft.py file in the FreeCAD Mod/Draft folder, since it
 
 ## pyCollada
 
+
+<div class="mw-translate-fuzzy">
+
+## pyCollada 
+
 -   homepage: <http://pycollada.github.com>
 -   license: BSD
 -   optional, needed to enable import and export of Collada (.DAE) files
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 pyCollada is a python library that allow programs to read and write [Collada (\*.DAE)](http://en.wikipedia.org/wiki/COLLADA) files. When pyCollada is installed on your system, FreeCAD will be able to handle importing and exporting in the Collada file format.
 
-### Instalare 
 
-Pycollada, de obicei, nu este încă disponibilă în arhivele distribuțiilor linux, dar deoarece este făcută numai din fișiere Python, nu necesită compilare și este ușor de instalat. Aveți 2 moduri sau direct de la depozitul oficial pycollada git sau cu instrumentul easy_install.
+</div>
+
+### Installation
 
 #### Linux 
 
-În ambele cazuri, veți avea nevoie de următoarele pachete deja instalate în sistemul dvs.:
-
 
 ```python
-python-lxml 
-python-numpy
-python-dateutil
+sudo apt-get install python3-collada
 ```
 
-##### From the git repository 
 
-
-```python
-git clone git://github.com/pycollada/pycollada.git pycollada
-cd pycollada
-sudo python setup.py install
-```
-
-##### With easy_install 
-
-Presupunând că aveți deja o instalare python completă, utilitarul easy_install ar trebui să fie deja prezent:
-
-
-```python
-easy_install pycollada
-```
+<div class="mw-translate-fuzzy">
 
 You can check if pycollada was correctly installed by issuing in a python console:
+
+
+</div>
 
 
 ```python
@@ -556,7 +694,15 @@ If it returns nothing (no error message), then all is OK
 
 Pe Windows, de la 0.15 pycollada este inclus atât în versiunea FreeCAD, cât și în versiunea dezvoltatorului, deci nu sunt necesare pași suplimentari.
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 #### Mac OS 
+
+
+</div>
 
 Dacă utilizați buildul Homebrew al FreeCAD, puteți instala pycollada în sistemul dvs. Python folosind pip.
 
@@ -603,13 +749,29 @@ IFCOpenShell este o bibliotecă în curs de dezvoltare, care permite importul fi
 
 </div>
 
+### Installation 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Instalare 
 
 Din moment ce ifcopenshell este destul de nou, probabil că va trebui să-l compilați singur.
 
+
+</div>
+
+#### Linux 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Linux 
 
 Veți avea nevoie de câteva pachete de dezvoltare instalate pe sistemul dvs. pentru a compila ifcopenshell:
+
+
+</div>
 
 
 ```python
@@ -640,10 +802,16 @@ or, if you are using oce instead of opencascade:
 
 
 ```python
-cmake -DOCC_INCLUDE_DIR=/usr/include/oce ../ifcopenshell/cmake 
+cmake -DOCC_INCLUDE_DIR=/usr/include/oce ../ifcopenshell/cmake
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Deoarece ifcopenshell este făcut în primul rând pentru Blender, el folosește în mod implicit python3. Pentru a o folosi în interiorul FreeCAD, trebuie să o compilați împotriva aceleiași versiuni de Python care este folosită de FreeCAD. Deci este posibil să trebuiască să forțați versiunea python cu parametri suplimentari de tip cmake (ajustați versiunea python la a ta):
+
+
+</div>
 
 
 ```python
@@ -658,7 +826,13 @@ make
 sudo make install
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 You can check that ifcopenshell was correctly installed by issuing in a python console:
+
+
+</div>
 
 
 ```python
@@ -673,27 +847,55 @@ If it returns nothing (no error message), then all is OK
 
 *Copied from the IfcOpenShell README file*
 
+
+<div class="mw-translate-fuzzy">
+
 Users are advised to use the Visual Studio .sln file in the win/ folder. For Windows users a prebuilt Open CASCADE version is available from the <http://opencascade.org> website. Download and install this version and provide the paths to the Open CASCADE header and library files to MS Visual Studio C++.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Pentru a construi învelișul IfcPython, trebuie instalat SWIG. Descărcați cea mai recentă versiune swigwin de la <http://www.swig.org/download.html>. După extragerea fișierului .zip, adăugați dosarul extras la variabila de mediu PATH. Python trebuie să fie instalat, vă rugăm să furnizați căile de includere și bibliotecă la Visual Studio.
 
+
+</div>
+
 ### Links
 
+
+<div class="mw-translate-fuzzy">
+
+### Links 
+
 Tutorial [Import/Export IFC - compiling IfcOpenShell](Import/Export_IFC_-_compiling_IfcOpenShell.md)
+
+
+</div>
+
+### Installation 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Instalare 
 
 Pe toate platformele, numai prin instalarea pachetului corespunzător de la <https://www.opendesign.com/guestfiles/oda_file_converter>. După instalare, dacă utilitarul nu este găsit automat de FreeCAD, poate fi necesar să setați manual calea spre executabilul convertorului, Schimbați tabelul de lucru la \"Draft\", numai în meniul Editare → Preferinţe → Import-Export → DWG completați \"Calea către Teigha File Converter\" corespunzător.
 
+
+</div>
+
 ## LazyLoader
 
-LazyLoader is a python module that allows deferred loading, while still importing at the top of the script. This is useful if you are importing another module that is slow, and it is used several times throughout the script. Using LazyLoader can improve workbench startup times, but the module will still need to be loaded on first use.
+LazyLoader is a Python module that allows deferred loading, while still importing at the top of the script. This is useful if you are importing another module that is slow, and it is used several times throughout the script. Using LazyLoader can improve workbench startup times, but the module will still need to be loaded on first use.
 
-### Installation
+### Installation 
 
 LazyLoader is included with FreeCAD v0.19
 
-### Usage
+### Usage 
 
 You will need to import LazyLoader, then change the import of whatever module you want to be deferred.
 

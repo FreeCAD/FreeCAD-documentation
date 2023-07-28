@@ -24,6 +24,8 @@ Cette commande fait partie de l\'[Atelier Reinforcement](Reinforcement_Workbench
 
 *Renfort 2x6 de colonne à l'intérieur d'une colonne [Arch Structure](Arch_Structure/fr.md)*
 
+
+
 ## Utilisation
 
 1\. Sélectionnez n\'importe quelle face d\'un objet **<img src="images/_Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md) précédemment créé.**.
@@ -54,49 +56,52 @@ Cette commande fait partie de l\'[Atelier Reinforcement](Reinforcement_Workbench
 8. Cliquez sur **OK** ou **Apply** pour générer un renforcement de colonne.
 9. Cliquez sur **Cancel** pour quitter la boîte de dialogue.
 
+
 ## Propriétés
 
 **Ties:**
 
--    {{PropertyData/fr|Left Cover}}: La distance entre l\'extrémité gauche de l\'attache et la face gauche de la structure.
+-    **Left Cover**: distance entre l\'extrémité gauche de l\'attache et la face gauche de la structure.
 
--    {{PropertyData/fr|Right Cover}}: La distance entre l\'extrémité droite de l\'attache et la face droite de la structure.
+-    **Right Cover**: distance entre l\'extrémité droite de l\'attache et la face droite de la structure.
 
--    {{PropertyData/fr|Top Cover}}: La distance entre l\'attache et la face supérieure de la structure.
+-    **Top Cover**: distance entre l\'attache et la face supérieure de la structure.
 
--    {{PropertyData/fr|Bottom Cover}}: La distance entre l\'attache et la face inférieure de la structure.
+-    **Bottom Cover**: distance entre l\'attache et la face inférieure de la structure.
 
--    {{PropertyData/fr|Offset}}: La distance entre l\'attache et la face supérieure / inférieure de la structure.
+-    **Offset**: distance entre l\'attache et la face supérieure / inférieure de la structure.
 
--    {{PropertyData/fr|Diameter}}: Diamètre de l\'attache.
+-    **Diameter**: diamètre de l\'attache.
 
--    {{PropertyData/fr|Bent Angle}}: L\'angle plié définit l\'angle aux extrémités d\'une attache .
+-    **Bent Angle**: angle plié définit l\'angle aux extrémités d\'une attache .
 
--    {{PropertyData/fr|Extension Factor}}: Le facteur d\'extension définit la longueur de la fin de l\'attache, exprimée en diamètre.
+-    **Extension Factor**: facteur d\'extension définit la longueur de la fin de l\'attache, exprimée en diamètre.
 
--    {{PropertyData/fr|Number}}: Le nombre d\'attache.
+-    **Number**: nombre d\'attaches.
 
--    {{PropertyData/fr|Spacing}}: La distance entre les axes de chaque attache.
+-    **Spacing**: distance entre les axes de chaque attache.
 
--    {{PropertyData/fr|Ties Sequence}}: La séquence des attaches de haut en bas par rapport à la vue de face.
+-    **Ties Sequence**: séquence des attaches de haut en bas par rapport à la vue de face.
 
 **Main Rebars :** Les barres d\'armature sont présentes aux coins de l\'attache
 
--    {{PropertyData/fr|Rebar Type}}: Type d\'armature principale.
+-    **Rebar Type**: type d\'armature principale.
 
--    {{PropertyData/fr|Hook Orientation}}: Orientation des crochets en forme de L.
+-    **Hook Orientation**: orientation des crochets en forme de L.
 
--    {{PropertyData/fr|Hook Extend Along}}: Direction pour l\'extension du crochet.
+-    **Hook Extend Along**: direction pour l\'extension du crochet.
 
--    {{PropertyData/fr|Hook Extension}}: Longueur du crochet des barres d\'armature.
+-    **Hook Extension**: longueur du crochet des barres d\'armature.
 
--    {{PropertyData/fr|Rounding}}: Une valeur d\'arrondi à appliquer aux coins des barres d\'armature en forme de L, exprimée en fois le diamètre.
+-    **Rounding**: valeur d\'arrondi à appliquer aux coins des barres d\'armature en forme de L, exprimée en fois le diamètre.
 
--    {{PropertyData/fr|Top Offset}}: La distance entre les barres d\'armature de la face supérieure de la structure.
+-    **Top Offset**: distance entre les barres d\'armature de la face supérieure de la structure.
 
--    {{PropertyData/fr|Bottom Offset}}: La distance entre les barres d\'armature de la face inférieure de la structure.
+-    **Bottom Offset**: distance entre les barres d\'armature de la face inférieure de la structure.
 
--    {{PropertyData/fr|Diameter}}: Diamètre des armatures principales.
+-    **Diameter**: diamètre des armatures principales.
+
+
 
 ## Script
 
@@ -107,7 +112,9 @@ Cette commande fait partie de l\'[Atelier Reinforcement](Reinforcement_Workbench
 
 L'outil ColumnReinforcement peut être utilisé dans une [macros](macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante :
 
-### Créer deux attaches Six Rebars 
+
+
+### Créer une Armature 2 cadres 6 barres 
 
 
 ```python
@@ -167,6 +174,8 @@ RebarGroup = makeTwoTiesSixRebars(
 -    `hook_extension`est la longueur du hook des barres d\'armature en LShaped .
 
 -    `ties_sequence`est la séquence d\'attaches de haut en bas par rapport à la vue de face ; il peut s\'agir de `("Tie1", "Tie2")` ou de `("Tie2", "Tie1")`.
+
+
 
 #### Exemple
 
@@ -265,9 +274,9 @@ RebarGroup = TwoTiesSixRebars.makeTwoTiesSixRebars(
 
 ```
 
-### Édition de Two Ties Six Rebars 
+### Modifier une Armature 2 cadres 6 barres 
 
-Vous pouvez modifier les propriétés des liens et des barres d'arceau avec la fonction suivante
+Vous pouvez modifier les propriétés des attaches et des armatures avec la fonction suivante
 
 
 ```python
@@ -303,6 +312,8 @@ rebar_group = editTwoTiesSixRebars(
 -   Les autres paramètres sont les mêmes que ceux requis par la fonction `makeSingleTieFourRebars()`.
 
 -    `structure`et `facename` peuvent être omis afin que l\'armature reste dans la structure d\'origine.
+
+
 
 #### Exemple 
 

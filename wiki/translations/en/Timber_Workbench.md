@@ -27,7 +27,7 @@ Timber Tools
 -   <img alt="" src=images/Timber-Repartition.svg  style="width:32px;"> **Repartition**: Make axis or structural system along a line
 -   <img alt="" src=images/Timber-Tag.svg  style="width:32px;"> **Tag**: Add a tag to selected object(s)
 
-Timber Listining
+Timber Listing
 
 -   <img alt="" src=images/Timber-Listing.svg  style="width:32px;"> **Listing**: List objects
 
@@ -35,11 +35,6 @@ Timber Beam
 
 -   <img alt="" src=images/Timber-Beam.svg  style="width:32px;"> **Timber Beam**: Creates a structure object from scratch or from a selected object (sketch, wire, face or solid)
 -   <img alt="" src=images/Timber-MachiningCut.svg  style="width:32px;"> **Machining Cut**: Creates a cut machining to a Timber Beam object, relative to a plane (face)
-
-Other
-
--   <img alt="" src=images/Timber-BeamTree.svg  style="width:32px;">
--   <img alt="" src=images/Timber_Timber.png  style="width:32px;"> Timber icon
 
 ## Installation
 
@@ -72,4 +67,4 @@ See [How to install macros](How_to_install_macros.md)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Timber Workbench/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Timber Workbench/en

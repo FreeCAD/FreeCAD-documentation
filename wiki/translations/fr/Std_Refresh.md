@@ -13,6 +13,8 @@
 
 La commande **Std Rafraîchir** recalcule le document actif. La commande est désactivée si le document ne nécessite pas de recalcul.
 
+
+
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande Rafraîchir :
@@ -22,12 +24,16 @@ La commande **Std Rafraîchir** recalcule le document actif. La commande est dé
 
 ## Options
 
--   Pour forcer un recalcul, sélectionnez le document ou un ou plusieurs objets dans la [Vue en arborescence](Tree_view/fr.md), choisissez l\'option **<img src="images/Std_MarkToRecompute.svg" width=16px> Marquer pour recalculer** dans le menu contextuel et appelez la commande.
--   Pour les objets, mais pas pour les documents, vous pouvez également choisir **Marquer pour recalculer** dans le même menu contextuel ({{Version/fr|0.19}}).
+-   Pour forcer un recalcul, sélectionnez le document ou un ou plusieurs objets dans la [vue en arborescence](Tree_view/fr.md), choisissez l\'option **<img src="images/Std_MarkToRecompute.svg" width=16px> Marquer pour recalculer** dans le menu contextuel et appelez la commande.
+-   Pour les objets, mais pas pour les documents, vous pouvez également choisir **Marquer pour recalculer** dans le même menu contextuel.
+
+
 
 ## Remarques
 
 -   Pour une macro qui recalculera le document actif, voir : [Macro ForceRecompute](Macro_ForceRecompute/fr.md).
+
+
 
 ## Script
 

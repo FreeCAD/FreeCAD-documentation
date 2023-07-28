@@ -10,9 +10,13 @@
 
 # Std ActivateNextWindow/de
 
+
+
 ## Beschreibung
 
-Der **Std NächstesFensterAktivieren**-Befehl aktiviert das nächste Fenster im [Hauptansichtsbereich](Main_view_area/de.md). Das nächste Fenster wird durch die Reihenfolge festgelegt, in der die Fenster im Hauptansichtsbereich das letzte Mal aktiviert wurden.
+Der Befehl **Std NächstesFensterAktivieren** aktiviert das nächste Fenster im [Hauptansichtsbereich](Main_view_area.md). Das nachfolgende Fenster wird aus der Reihenfolge der Reiter im Hauptansichtsbereich abgeleitet.
+
+
 
 ## Anwendung
 
@@ -20,6 +24,8 @@ Der **Std NächstesFensterAktivieren**-Befehl aktiviert das nächste Fenster im 
 2.  Es gibt mehrere Wege, den Befehl aufzurufen:
     -   Wähle die **Fenster → <img src="images/Std_ActivateNextWindow.svg" width=16px> Nächstes Fenster**-Option aus dem Menü.
     -   Benutze den Tastaturkurzbefehl: **Strg**+**Tab**.
+
+
 
 ## Hinweise
 

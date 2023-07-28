@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -23,6 +25,8 @@ Acest instrument îmbracă o cale existentă pentru a adăuga acțiuni de colț 
 
 </div>
 
+
+
 ## Utilizare
 
 
@@ -33,6 +37,8 @@ Acest instrument îmbracă o cale existentă pentru a adăuga acțiuni de colț 
 
 
 </div>
+
+
 
 ## Opţiuni
 

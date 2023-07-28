@@ -14,6 +14,8 @@
 
 
 
+
+
 ## Introduction
 
 Ce tutoriel a été écrit à l\'origine par Roland Frank († 2017, r-frank). Il a été réécrit et illustré par vocx.
@@ -35,6 +37,8 @@ L\'[atelier Sketcher](Sketcher_Workbench/fr.md) est utilisé brièvement pour tr
 -   le [Tutoriel d\'introduction à Sketcher](Basic_Sketcher_Tutorial/fr.md)
 -   le [Manuel de référence pour Sketcher](Sketcher_reference/fr.md)
 
+
+
 ## Installation
 
 1\. Lancez FreeCAD, créez un nouveau document vide avec **Fichier → [<img src=images/Std_New.svg style="width:16px"> [Nouveau](Std_New/fr.md)** et sélectionnez l\'[atelier Part](Part_Workbench/fr.md).
@@ -42,6 +46,8 @@ L\'[atelier Sketcher](Sketcher_Workbench/fr.md) est utilisé brièvement pour tr
 :   1.1. Appuyez sur le bouton **[<img src=images/Std_ViewIsometric.svg style="width:16px"> [Vue isométrique](Std_ViewIsometric/fr.md)** ou appuyez sur **0** dans le pavé numérique de votre clavier, pour changer la vue à isométrique pour mieux visualiser les solides 3D.
 :   1.2. Appuyez sur le bouton **[<img src=images/Std_ViewFitAll.svg style="width:16px"> [Tout afficher](Std_ViewFitAll/fr.md)** chaque fois que vous ajoutez des objets afin de faire un panoramique et un zoom sur [Vue 3D](3D_view/fr.md) afin que tous les éléments soient visibles dans la vue.
 :   1.3. Maintenez **Ctrl** pendant que vous cliquez pour sélectionner plusieurs éléments. Si vous avez sélectionné quelque chose de mal ou souhaitez tout désélectionner, cliquez simplement sur un espace vide dans la [Vue 3D](3D_view/fr.md).
+
+
 
 ## Création de la forme de base 
 
@@ -61,6 +67,8 @@ L\'[atelier Sketcher](Sketcher_Workbench/fr.md) est utilisé brièvement pour tr
 
 ![](images/01_T04_Part_Cube_base_long.png ) 
 *Objet de base créé à partir d'un cube et d'une opération de chanfrein.*
+
+
 
 ## Insertion du texte avec l\'outil Dessin de ShapeString 
 
@@ -93,6 +101,8 @@ L\'[atelier Sketcher](Sketcher_Workbench/fr.md) est utilisé brièvement pour tr
 ![](images/02_T04_Part_ShapeString.png ) 
 *Texte créé en tant que ShapeString, c'est-à-dire en tant que collection d'arêtes dans un plan.*
 
+
+
 ## Créer un texte 3D 
 
 6\. Retour à l\'[atelier Part](Part_Workbench/fr.md).
@@ -104,6 +114,8 @@ L\'[atelier Sketcher](Sketcher_Workbench/fr.md) est utilisé brièvement pour tr
 
 ![](images/03_T04_Part_ShapeString_Extrude.png ) 
 *Texte créé comme un ShapeString et transformé en solide par extrusion.*
+
+
 
 ## Insérer l\'esquisse pour le positionnement 
 
@@ -128,6 +140,8 @@ Nous allons maintenant dessiner une simple esquisse qui sera utilisée comme gé
 
 <img alt="" src=images/05_T04_Part_ShapeString_support_sketch_3D.png  style="width:500px;"> 
 *Ligne d'esquisse créée au-dessus de la face solide, à utiliser comme guide de référence pour positionner le texte extrudé.*
+
+
 
 ## Positionnement du texte 3D dans l\'espace 3D 
 
@@ -160,6 +174,8 @@ Nous allons maintenant dessiner une simple esquisse qui sera utilisée comme gé
 ![](images/07_T04_Part_ShapesString_Extrude_in_place.png ) 
 *Chaîne de forme extrudée positionnée dans le `Fillet*.`
 
+
+
 ## Création de texte gravé 
 
 14\. Revenez à l\'[Atelier Part](Part_Workbench/fr.md).
@@ -177,6 +193,8 @@ Nous allons maintenant dessiner une simple esquisse qui sera utilisée comme gé
 ![](images/08_T04_Part_ShapesString_Extrude_final_cut.png ) 
 *Modèle terminé d'un cube avec filet avec du texte gravé créé à partir des opérations ShapeString, extrusion et soustraction bouléenne.*
 
+
+
 ## Gravure de texte 3D avec l\'atelier PartDesign 
 
 Un processus similaire à celui décrit ci-dessus peut être effectué avec l\'[Atelier PartDesign](PartDesign_Workbench/fr.md).
@@ -189,15 +207,17 @@ Un processus similaire à celui décrit ci-dessus peut être effectué avec l\'[
 
 Voir le fil du forum [How to use ShapeStrings in PartDesign](https://forum.freecadweb.org/viewtopic.php?f=3&t=36623).
 
+
+
 ## Remarques
 
 -   pour créer un texte courbé, vous pouvez utiliser <img alt="" src=images/FCCircularTextButtom.png  style="width:32px;"> [Macro FCCircularText](Macro_FCCircularText/fr.md).
 -   pour importer du texte depuis Inkscape, regardez l\' [Importation de texte à partir du tutoriel Inkscape](Import_text_and_geometry_from_Inkscape/fr.md).
 
 
-  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+ {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Draft](Draft_Workbench.md) > Draft ShapeString tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Draft](Draft_Workbench.md) > Draft ShapeString tutorial/fr

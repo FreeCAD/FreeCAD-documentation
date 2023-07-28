@@ -11,7 +11,9 @@
 
 ## Description
 
-La commande **<img src="images/Path_SelectLoop.svg" width=16px> [Terminer une boucle](Path_SelectLoop/fr.md)** complète une sélection d\'arêtes formant une boucle.
+L\'outil <img alt="" src=images/Path_SelectLoop.svg  style="width:16px;"> [Terminer une boucle](Path_SelectLoop/fr.md) complète une sélection d\'arêtes formant une boucle.
+
+
 
 ## Utilisation
 
@@ -21,6 +23,8 @@ La commande **<img src="images/Path_SelectLoop.svg" width=16px> [Terminer une bo
     -   Sélectionnez la commande **Path → <img src="images/Path_SelectLoop.svg" width=16px> Terminer la boucle de sélection** dans le menu.
     -   Utilisez le raccourci clavier : **P** puis **L**.
 3.  Les bords restants de la boucle sont ajoutés à la sélection.
+
+
 
 ## Remarques
 

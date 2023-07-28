@@ -5,9 +5,19 @@
 
 </div>
 
+
+
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Acest instrument introduce un comentariu. Când exportați un proiect în codul G, comentariile vor fi inserate în programul G-code și pot fi vizualizate de către cititori. Unele controlorele de mașină CNC vor afișa, de asemenea, comentarii pe ecranele lor de afișare.
+
+
+</div>
+
+
 
 ## Utilizare
 
@@ -20,6 +30,8 @@ Acest instrument introduce un comentariu. Când exportați un proiect în codul 
 
 
 </div>
+
+
 
 ## Proprietăți
 

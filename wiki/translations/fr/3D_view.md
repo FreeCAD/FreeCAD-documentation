@@ -16,11 +16,6 @@ Certaines propriétés de la vue, telles que la couleur d\'arrière-plan, le sty
 
 ## Actions
 
-
-**Remarque :**
-
-les actions de lien ont été ajoutées. {{Version/fr|0.19}}.
-
 Comme la [vue arborescente](tree_view/fr.md) répertorie la plupart des objets visibles dans la vue 3D, la plupart des actions sont identiques à celles pouvant être exécutées à partir de la [vue arborescente](tree_view/fr.md).
 
 Lorsque l\'[atelier Start](Start_Workbench/fr.md) par défaut est actif, un clic droit sur la vue 3D n'affiche qu'une commande :
@@ -69,6 +64,8 @@ Un autre exemple, avec l\'[atelier Draft](Draft_Workbench/fr.md) et un objet sé
 -    **Draft**: commandes de création et de modification d\'objets à partir de l\'[atelier Draft](Draft_Workbench/fr.md).
 
 -    **Utilitaires**: commandes contextuelles supplémentaires fournies par l\'[atelier Draft](Draft_Workbench/fr.md).
+
+
 
 ## Détails
 

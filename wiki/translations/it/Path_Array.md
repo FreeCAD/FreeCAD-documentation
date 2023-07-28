@@ -5,9 +5,19 @@
 
 </div>
 
+
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questo strumento crea un nuovo percorso duplicando più volte un altro percorso ad una determinato intervallo di distanza.
+
+
+</div>
+
+
 
 ## Utilizzo
 
@@ -23,6 +33,8 @@ Questo strumento crea un nuovo percorso duplicando più volte un altro percorso 
 
 
 </div>
+
+
 
 ## Proprietà
 

@@ -10,39 +10,41 @@
 
 # Std SendToPythonConsole/ru
 
+
+
 ## Описание
 
 The **Std SendToPythonConsole** command creates variables in the [Python console](Python_console.md) referencing a selected object and its selected subshapes, along with some other useful references. The variables and the code involved can be used in the development of Python code.
 
-Depending on the selected object and its selected subshapes, if any, the following variables are created:
+В зависимости от выбранного объекта и входящих в его состав выбранных форм, создаются следующие переменные:
 
 +++
-| Variable name   | Referenced object(s)                                                                                                                                    |
-+=================+=========================================================================================================================================================+
-|  | The document containing the selected object                                                                                                             |
-| {{Incode|doc}}  |                                                                                                                                                         |
-|              |                                                                                                                                                         |
+| Название переменной | Пояснение                                                                                                                                           |
++=====================+=====================================================================================================================================================+
+|      | Документ в котором содержится вбранный объект                                                                                                       |
+| {{Incode|doc}}      |                                                                                                                                                     |
+|                  |                                                                                                                                                     |
 +++
-|  | The selected Link object (only created if the selected object is a Link)                                                                                |
-| {{Incode|lnk}}  |                                                                                                                                                         |
-|              |                                                                                                                                                         |
+|      | Выбранный объект ссылки (создается только в том случае, если выбранный объект является ссылкой)                                                     |
+| {{Incode|lnk}}      |                                                                                                                                                     |
+|                  |                                                                                                                                                     |
 +++
-|  | Depending on the selected object:                                                                                                                       |
-| {{Incode|obj}}  | The selected object itself (if the selected object is not a Link)                                                                                       |
-|              | The Linked object (if the selected object is a Link)                                                                                                    |
+|      | В зависимости от выбранного объекта:                                                                                                                |
+| {{Incode|obj}}      | Сам выбранный объект (если выбранный объект не является ссылкой)                                                                                    |
+|                  | Связанный объект (если выбранный объект является ссылкой)                                                                                           |
 +++
-|  | Depending on the type of {{Incode|obj}}:                                                                                                  |
-| {{Incode|shp}}  | The {{Incode|Shape}} property of {{Incode|obj}} (for objects derived from the {{Incode|Part::Feature}} class) |
-|              | The {{Incode|Mesh}} property of {{Incode|obj}} (for Mesh objects)                                                           |
-|                 | The {{Incode|Points}} property of {{Incode|obj}} (for Points objects)                                                       |
+|      | Зависит от типа {{Incode|obj}}:                                                                                                       |
+| {{Incode|shp}}      | {{Incode|Shape}} свойство {{Incode|obj}} (для объектов унаследованных от {{Incode|Part::Feature}} класса) |
+|                  | {{Incode|Mesh}} свойство {{Incode|obj}} (для Mesh объектов)                                                             |
+|                     | {{Incode|Points}} свойство {{Incode|obj}} (для Points объектов)                                                         |
 +++
-|  | The first selected subshape (only created if at least one subshape is selected)                                                                         |
-| {{Incode|sub}}  |                                                                                                                                                         |
-|              |                                                                                                                                                         |
+|      | Первая выбранная вложенная фигура (создается только в том случае, если выбрана хотя бы одна вложенная фигура)                                       |
+| {{Incode|sub}}      |                                                                                                                                                     |
+|                  |                                                                                                                                                     |
 +++
-|  | A list containing all subshapes (only created if two or more subshapes are selected)                                                                    |
-| {{Incode|subs}} |                                                                                                                                                         |
-|              |                                                                                                                                                         |
+|      | Список, содержащий все вложенные фигуры (создается только в том случае, если выбраны две или более вложенных фигур)                                 |
+| {{Incode|subs}}     |                                                                                                                                                     |
+|                  |                                                                                                                                                     |
 +++
 
 >>> ### Begin command Std_SendToPythonConsole
@@ -63,6 +65,8 @@ Depending on the selected object and its selected subshapes, if any, the followi
 
 *Example output: an edge, a face, and a vertex of a [Link](Std_LinkMake.md) to a [Part Box](Part_Box.md) were selected*
 
+
+
 ## Применение
 
 1.  Select a single object or one or more subshapes belonging to a single object.
@@ -73,9 +77,11 @@ Depending on the selected object and its selected subshapes, if any, the followi
 3.  If required the [Python console](Python_console.md) opens.
 4.  The [Python console](Python_console.md) receives the keyboard focus.
 
-## Notes
 
--   All previously created variables are deleted each time the command is run.
+
+## Примечания
+
+-   Все ранее созданные переменные удаляются (перезаписываются новыми значениями) при каждом запуске команды.
 
 -   If the selected object is a Link ({{Incode|App::Link}}) and the Linked object is derived from the {{Incode|Part::Feature}} class, the {{Incode|shp}} variable will be the shape of the Linked object. If the Link has been transformed or scaled and you want to access the scaled/transformed shape, you can do so with this code:
 

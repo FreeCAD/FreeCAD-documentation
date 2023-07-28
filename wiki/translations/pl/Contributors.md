@@ -5,7 +5,11 @@
 
 FreeCAD nie byłby tym, czym jest bez hojnego wkładu wielu ludzi. Oto przegląd osób i firm, które przyczyniły się do powstania FreeCAD na przestrzeni czasu. Informacje na temat zasobów dla bibliotek zewnętrznych znajdują się na stronie [Biblioteki zewnętrzne](Third_Party_Libraries/pl.md).
 
+
+
 ## Opracowanie i rozwój 
+
+
 
 ### Menadżerowie projektu 
 
@@ -14,6 +18,8 @@ Główni twórcy projektu FreeCAD:
 -   [Jürgen Riegel](User_Jriegel.md)
 -   [Werner Mayer](User_Wmayer.md)
 -   [Yorik van Havre](User_Yorikvanhavre.md)
+
+
 
 ### Główni programiści 
 
@@ -42,6 +48,8 @@ Osoby, które regularnie pracują nad kodem FreeCAD *(otrzymano z <https://githu
 -   [vejmarie](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=7506)
 -   [Victor Titov (DeepSOIC)](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3888)
 -   [wandererfan](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1375)
+
+
 
 ### Inni koderzy 
 
@@ -82,6 +90,8 @@ Inne osoby, które przyczyniły się do budowy kodu w projekcie FreeCAD:
 -   triplus
 -   usakhelo
 
+
+
 ## Firmy
 
 Firmy, które przekazały kod, zasoby lub udostępniły czas pracy developera:
@@ -90,6 +100,8 @@ Firmy, które przekazały kod, zasoby lub udostępniły czas pracy developera:
 -   Imetric 3D
 -   [KiCad Services Corporation](https://www.kipro-pcb.com/)
 -   [OpeningDesign](https://openingdesign.com)
+
+
 
 ## Moderatorzy Forum 
 
@@ -112,9 +124,11 @@ Osoby odpowiedzialne za [forum FreeCAD](http://forum.freecadweb.org) *(otrzymano
 -   [wmayer](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=69)
 -   [yorik](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68)
 
+
+
 ## Społeczność
 
-Ludzie pochodzący ze społeczności, którzy włożyli wiele wysiłku w pomoc projektowi FreeCAD albo poprzez aktywność na forum, prowadzenie bloga o FreeCAD, tworzenie samouczków wideo, pakowanie FreeCAD dla Linux/MacOS X/Windows, pisanie książki o FreeCAD\... *(w kolejności alfabetycznej) (dostępne na stronie <http://forum.freecadweb.org/memberlist.php?mode=&sk=d&sd=d#memberlist>)*.
+Ludzie pochodzący ze społeczności, którzy włożyli wiele wysiłku w pomoc projektowi FreeCAD albo poprzez aktywność na forum, prowadzenie bloga o FreeCAD, tworzenie samouczków wideo, pakowanie FreeCAD dla Linux / MacOS / Windows, pisanie książki o FreeCAD\... *(w kolejności alfabetycznej) (dostępne na stronie <http://forum.freecadweb.org/memberlist.php?mode=&sk=d&sd=d#memberlist>)*.
 
 -   [bejant](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1940)
 -   [Brad Collette](http://www.packtpub.com/freecad-solid-modeling-with-python/book)
@@ -139,6 +153,8 @@ Ludzie pochodzący ze społeczności, którzy włożyli wiele wysiłku w pomoc p
 -   [triplus](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=782)
 -   [ulrich1a](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1928)
 
+
+
 ## Twórcy dokumentacji 
 
 Ludzie, którzy napisali dokumentację na tej [Wiki](Main_Page/pl.md):
@@ -154,6 +170,8 @@ Ludzie, którzy napisali dokumentację na tej [Wiki](Main_Page/pl.md):
 -   [Roland Frank](User:R-Frank.md) (r-frank)
 -   [Vocx](User_Vocx.md)
 -   [Wurstwasser](User_Wurstwasser.md)
+
+
 
 ## Tłumacze
 
@@ -220,6 +238,8 @@ Osoby, które pomogły w tłumaczeniu aplikacji FreeCAD *(otrzymano z <https://c
 -   [Марко Пејовић](User_Марко_Пејовић.md)
 -   [Николай Матвеев](User_Николай_Матвеев.md)
 -   [Федір](User_Федір.md)
+
+
 
 ## Programiści tworzący dodatki 
 

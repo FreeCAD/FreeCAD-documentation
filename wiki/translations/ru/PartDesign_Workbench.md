@@ -67,7 +67,7 @@
 
 -   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Создать связующую форму](PartDesign_ShapeBinder/ru.md): создаёт привязку формы, ссылающуюся на геометрию из одного родительского объекта.
 
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Создать новую под-объектную связующую форму](PartDesign_SubShapeBinder/ru.md): создаёт геометрию привязки формы из одного или нескольких родительских объектов. {{Version/ru|0.19}}
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Создать новую под-объектную связующую форму](PartDesign_SubShapeBinder/ru.md): создаёт геометрию привязки формы из одного или нескольких родительских объектов.
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Создать клон](PartDesign_Clone/ru.md): клонирует выбранное тело.
 
@@ -85,7 +85,7 @@
 
 -   <img alt="" src=images/PartDesign_AdditivePipe.svg  style="width:32px;"> [Аддитивный профиль по траектории](PartDesign_AdditivePipe/ru.md): создаёт твёрдое тело путем протягивания одного или нескольких эскизов вдоль открытой или замкнутой траектории.
 
--   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Аддитивная спираль](PartDesign_AdditiveHelix/ru.md): создает сплошное тело, перемещая эскиз по спирали. {{Version/ru|0.19}}
+-   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Аддитивная спираль](PartDesign_AdditiveHelix/ru.md): создает сплошное тело, перемещая эскиз по спирали.
 
 -   <img alt="" src=images/PartDesign_CompPrimitiveAdditive.png  style="width:48px;"> [Создать аддитивный примитив](PartDesign_CompPrimitiveAdditive/ru.md): добавляет аддитивный примитив к активному телу.
 
@@ -121,7 +121,7 @@
 
 -   <img alt="" src=images/PartDesign_SubtractivePipe.svg  style="width:32px;"> [Субтрактивный профиль по траектории](PartDesign_SubtractivePipe/ru.md): создает твердое тело, перемещая один или несколько эскизов по конечному или замкнутому контуру, и вычитает созданное тело из активного тела.
 
--   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Субтрактивная спираль](PartDesign_SubtractiveHelix/ru.md): создает сплошную форму, перемещая эскиз вдоль спирали и вычитает его из активного тела. {{Version/ru|0.19}}
+-   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Субтрактивная спираль](PartDesign_SubtractiveHelix/ru.md): создает сплошную форму, перемещая эскиз вдоль спирали и вычитает его из активного тела.
 
 -   <img alt="" src=images/PartDesign_CompPrimitiveSubtractive.png  style="width:48px;"> [Создать субтрактивный примитив](PartDesign_CompPrimitiveSubtractive/ru.md): создает субтрактивный примитив и отнимает его от активного тела.
 
@@ -184,7 +184,7 @@
 
 -   <img alt="" src=images/PartDesign_Migrate.svg  style="width:32px;"> [Миграция](PartDesign_Migrate/ru.md): переносит файлы, созданные с помощью более старых версий FreeCAD. Если файл полностью основан на функциях PartDesign, миграция должна пройти успешно. Если файл содержит смешанные объекты Part/Part Design/Draft объекты, преобразование, скорее всего, завершится неудачно.
 
--   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Цепное колесо (звездочка)](PartDesign_Sprocket/ru.md): создает профиль цепного колеса (звездочки), который можно далее сделать объемным. {{Version/ru|0.19}}
+-   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Цепное колесо (звездочка)](PartDesign_Sprocket/ru.md): создает профиль цепного колеса (звездочки), который можно далее сделать объемным.
 
 -   <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width:32px;"> [Шестерня с эвольвентным профилем](PartDesign_InvoluteGear/ru.md): создает внутренний или наружный эвольвентный профиль шестерни, который далее можно сделать объемным.
 
@@ -224,6 +224,14 @@
 -   [Базовый учебник Part Design](Basic_Part_Design_Tutorial/ru.md)
 -   [Учебник PartDesign Bearingholder I](PartDesign_Bearingholder_Tutorial_I/ru.md) (требует обновления)
 -   [Учебник PartDesign Bearingholder II](PartDesign_Bearingholder_Tutorial_II/ru.md) (требует обновления)
+
+
+
+## Примеры
+
+Некоторые идеи о том, чего можно достичь с помощью инструментов проектирования деталей, см. в: [Примеры проектирования деталей](PartDesign_Examples.md).
+
+<img alt="" src=images/PartDesign_ExampleSphere-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleTorus-01.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExamplePad-09.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-05.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSpring-04.png  style="width:80px;">
 
 
 

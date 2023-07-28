@@ -1,34 +1,41 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ExtensionPosHorizChainDimension
-   MenuLocation:TechDraw → Extensions: Attributes/Modifications → Position Horizontal Chain Dimensions
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Ułóż poziomą serię wymiarów
+   MenuLocation:Rysunek Techniczny → Rozszerzenia: Atrybuty / Modyfikatory → Ułóż poziomą serię wymiarów
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionPosVertChainDimension](TechDraw_ExtensionPosVertChainDimension.md), [TechDraw ExtensionPosObliqueChainDimension](TechDraw_ExtensionPosObliqueChainDimension.md)
+   SeeAlso:[Ułóż pionową serię wymiarów](TechDraw_ExtensionPosVertChainDimension/pl.md), [Ułóż ukośną serię wymiarów](TechDraw_ExtensionPosObliqueChainDimension/pl.md)
 ---
 
 # TechDraw ExtensionPosHorizChainDimension/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimension.svg  style="width:24px;"> **TechDraw ExtensionPosHorizChainDimension** tool aligns horizontal dimensions to create a chain dimension.
+
+## Opis
+
+Narzędzie **Ułóż poziomą serię wymiarów** wyrównuje wymiary poziome w celu utworzenia układu ciągłego wymiarów.
 
 <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimensionExample.png  style="width:400px;"> 
-*On the right the aligned dimensions*
+*Po prawej wyrównane wymiary*
 
-## Usage
 
-1.  Select two or more horizontal dimensions.
-2.  The first dimension defines the position. This dimension will not be move.
-3.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionPosHorizChainDimension.svg" width=16px> [TechDraw ExtensionPosHorizChainDimension](TechDraw_ExtensionPosHorizChainDimension.md)** button.
-    -   Select the **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionPosHorizChainDimension.svg" width=16px> Position Horizontal Chain Dimensions** option from the menu.
-4.  The dimensions are aligned and their dimension texts are centered.
 
-## Notes
+## Użycie
 
--   The tool can also be used to center the dimension text of a single dimension.
+1.  Wybierz dwa lub więcej wymiarów poziomych.
+2.  Wymiar wybrany jako pierwszy definiuje położenie całego ciągu. Wymiar ten nie będzie przemieszczany.
+3.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionPosHorizChainDimension.svg" width=16px> '''Ułóż poziomą serię wymiarów'''**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Rozszerzenia: Atrybuty / Modyfikatory → <img src="images/TechDraw_ExtensionPosHorizChainDimension.svg" width=16px> Ułóż poziomą serię wymiarów**.
+4.  Wymiary zostaną wyrównane, a ich teksty wyśrodkowane.
+
+
+
+## Uwagi
+
+-   Narzędzie to może być również używane do wyśrodkowania tekstu wymiaru pojedynczego.
 
 
 

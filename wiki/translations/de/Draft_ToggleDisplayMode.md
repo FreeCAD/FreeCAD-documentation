@@ -1,32 +1,34 @@
 ---
 - GuiCommand:/de
    Name:Draft ToggleDisplayMode
-   Name/de:Anzeige-Modus unschalten
-   MenuLocation:Draft → Utilities → Anzeige-Modus unschalten
+   Name/de:Draft DarstellungsartUmschalten
+   MenuLocation:Hilfsprogramme → Normal-/Wireframe-Anzeige umschalten
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**Shift**+**Space**
+   SeeAlso:[Std SichtbarkeitUmschalten](Std_ToggleVisibility/de.md)
 ---
 
 # Draft ToggleDisplayMode/de
 
 
-</div>
 
 ## Beschreibung
 
-The <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:24px;"> **Draft ToggleDisplayMode** command switches the **Display Mode** property of selected objects between {{Value|Flat Lines}} and {{Value|Wireframe}}. When this property of is set to {{Value|Wireframe}} only the vertices and edges of an object are visible making it possible to view and select objects behind it.
+Der Befehl <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:24px;"> **Draft DarstellungsartUmschalten** schaltet die {{PropertyView/de|Display Mode}} eines ausgewählten Objekts zwischen {{Value|Flat Lines}} und {{Value|Wireframe}} um. Ist diese Eigenschaft auf {{Value|Wireframe}} gesetzt, sind nur Knotenpunkte und Kanten eines Objekts sichtbar, und ermöglicht so, dahinter befindliche Objekte zu sehen und auszuwählen.
 
 <img alt="" src=images/Draft_ToggleDisplayMode_example.png  style="width:400px;"> 
-*On the left the larger cube obstructs the cube behind it. On the right the Display Mode of the larger cube is set to Wireframe making it possible to select a face belonging to the smaller cube.*
+*Links verdeckt der größere Würfel den Würfel dahinter. Rechts ist die Darstellungsart des größeren Würfels auf Wireframe gesetzt und ermöglicht so die vordere Fläche des kleineren Würfels auszuwählen.*
+
+
 
 ## Anwendung
 
-1.  Select one or more objects.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_ToggleDisplayMode.svg" width=16px> [Draft ToggleDisplayMode](Draft_ToggleDisplayMode.md)** button.
-    -   Select the **Utilities → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Toggle normal/wireframe display** option from the menu.
-    -   Select the **Utilities → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Toggle normal/wireframe display** option from the [Tree view](Tree_view.md) or [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut: **Shift**+**Space**.
+1.  Ein oder mehrere Objekte auswählen.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_ToggleDisplayMode.svg" width=16px> [Draft Normal-/Wireframe-Anzeige umschalten](Draft_ToggleDisplayMode/de.md)** drücken.
+    -   Den Menüeintrag **Dienstprogramme → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Normal-/Wireframe-Anzeige umschalten** auswählen.
+    -   Die Menüoption **Dienstprogramme → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Normal-/Wireframe-Anzeige umschalten** im Kontextmenü der [Baumansicht](Tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md).
+    -   Das Tastaturkürzel **Shift**+**Space**.
 
 
 

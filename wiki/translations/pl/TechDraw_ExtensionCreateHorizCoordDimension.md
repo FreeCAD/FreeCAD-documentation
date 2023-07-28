@@ -1,31 +1,36 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ExtensionCreateHorizCoordDimension
-   MenuLocation:TechDraw → Extensions: Dimensions → Create Horizontal Coordinate Dimensions
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Rozszerzenie Seria wymiarów kaskadowych poziomo
+   MenuLocation:Rysunek Techniczny → Rozszerzenia: Wymiary → Seria wymiarów poziomo
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionCreateVertCoordDimension](TechDraw_ExtensionCreateVertCoordDimension.md), [TechDraw ExtensionCreateObliqueCoordDimension](TechDraw_ExtensionCreateObliqueCoordDimension.md)
+   SeeAlso:[Seria wymiarów kaskadowych pionowo](TechDraw_ExtensionCreateVertCoordDimension/pl.md), [Seria wymiarów kaskadowych ukośnie](TechDraw_ExtensionCreateObliqueCoordDimension/pl.md)
 ---
 
 # TechDraw ExtensionCreateHorizCoordDimension/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_ExtensionCreateHorizCoordDimension.svg  style="width:24px;"> **TechDraw ExtensionCreateHorizCoordDimension** tool creates horizontal coordinate dimensions: multiple evenly spaced dimensions starting from the same baseline.
+
+## Opis
+
+Narzędzie **Seria wymiarów kaskadowych poziomo** tworzy poziome wymiary współrzędnych: wiele równomiernie rozmieszczonych wymiarów zaczynających się od tej samej linii bazowej.
 
 <img alt="" src=images/TechDraw_ExtensionCreateHorizCoordDimensionExample.png  style="width:400px;"> 
-*On the right the created dimensions*
+*Po prawej utworzony ciąg wymiarów*
 
-## Usage
 
-1.  Optionally specify the cascade spacing with the <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) tool.
-2.  Select three or more vertexes.
-3.  The selection order of the first two vertexes determines the position of the baseline. If the vertex that is selected first is to the left of the second, the baseline is created at the leftmost vertex, else it is created at the rightmost vertex.
-4.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionCreateHorizCoordDimension.svg" width=16px> [TechDraw ExtensionCreateHorizCoordDimension](TechDraw_ExtensionCreateHorizCoordDimension.md)** button.
-    -   Select the **TechDraw → Extensions: Dimensions → <img src="images/TechDraw_ExtensionCreateHorizCoordDimension.svg" width=16px> Create Horizontal Coordinate Dimensions** option from the menu.
-5.  Coordinate dimensions with centered dimension texts are created.
+
+## Użycie
+
+1.  Opcjonalnie określ odstęp kaskadowy za pomocą narzędzia <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [Wybierz atrybuty linii](TechDraw_ExtensionSelectLineAttributes.md).
+2.  Wybierz trzy lub więcej wierzchołków.
+3.  Kolejność wyboru pierwszych dwóch wierzchołków określa położenie linii bazowej. Jeśli wierzchołek wybrany jako pierwszy znajduje się na lewo od drugiego, linia bazowa jest tworzona w wierzchołku najbardziej wysuniętym na lewo, w przeciwnym razie jest tworzona w wierzchołku najbardziej wysuniętym na prawo.
+4.  Narzędzie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionCreateHorizCoordDimension.svg" width=16px> '''Seria wymiarów kaskadowych poziomo'''**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Rozszerzenia: Wymiary → <img src="images/TechDraw_ExtensionCreateHorizCoordDimension.svg" width=16px> Seria wymiarów kaskadowych poziomo**.
+5.  Tworzone są wymiary współrzędnych z wyśrodkowanymi tekstami wymiarowania.
 
 
 

@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introducere
 
 Atelierul**Surface**oferă instrumente pentru crearea și modificarea suprafețelor. Are o funcționalitate foarte asemănătoare cu [Part Shape builder](Part_Shapebuilder/ro.md) *Face from edges*, dar este parametrică și oferă opțiuni suplimentare. Funcționalile sale sunt:
@@ -37,6 +39,8 @@ Atelierul suprafețe este integrat cu alte atelierele FreeCAD. Exemplul de mai s
 
 Versiunea actuală a FreeCAD (v0.17) nu permite plasarea unor suprațfete în corpul din atelierul PartDesign . Dar suprafețele pot fi plasat în interiorul unei piese [Part](Std_Part/ro.md) împreună cu corpul care deține toate plaenel și schițele de referință. Piesa non parametrică [Part Shape builder](Part_Shapebuilder/ro.md) trebuie încă utilizată pentru a crea o [shell](Glossary/ro#Shell.md) și un solid regular [solid](Glossary/ro#Solid.md) dincol de suprafețe.
 
+
+
 ## Instrumentul Surface 
 
 -   <img alt="" src=images/Filling.svg  style="width:32px;"> [Filling\...](Surface_Filling/ro.md): umple o serie de curbe de graniță cu o suprafață. Suprafața poate fi modificată prin adăugarea curbelor de constrângeri și a vârfurilor. Suprafața își schimbă forma astfel încât suprafața să treacă prin elementele de constrângere adăugate.
@@ -46,11 +50,13 @@ creează o suprafață de la două, trei sau patru margini de graniță. Sunt di
 
 -   <img alt="" src=images/Surface_GeomFillSurface.svg  style="width:32px;"> [Fill boundary curves](Surface_GeomFillSurface.md): creates a surface from two, three or four boundary edges.
 
--   <img alt="" src=images/Surface_Sections.svg  style="width:32px;"> [Sections](Surface_Sections.md): creates a surface from edges that represent transversal sections of surface. <small>(v0.19)</small> 
+-   <img alt="" src=images/Surface_Sections.svg  style="width:32px;"> [Sections](Surface_Sections.md): creates a surface from edges that represent transversal sections of surface.
 
 -   <img alt="" src=images/Surface_ExtendFace.svg  style="width:32px;"> [Extend face](Surface_ExtendFace.md): extrapolates the surface at the boundaries with its local U parameter and V parameter.
 
--   <img alt="" src=images/Surface_CurveOnMesh.svg  style="width:32px;"> [Curve on mesh](Surface_CurveOnMesh.md): create approximated spline segments on top of a selected [mesh](Mesh_Workbench.md).
+-   <img alt="" src=images/Surface_CurveOnMesh.svg  style="width:32px;"> [Curve on mesh](Surface_CurveOnMesh.md): creates approximated spline segments on top of a selected [mesh](Mesh_Workbench.md).
+
+-   <img alt="" src=images/Surface_BlendCurve.svg  style="width:32px;"> [Blend Curve](Surface_BlendCurve.md): creates a Bezier curve between two edges, with desired continuity.
 
 
 <div class="mw-translate-fuzzy">

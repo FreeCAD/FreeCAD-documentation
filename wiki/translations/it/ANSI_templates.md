@@ -1,4 +1,7 @@
 # ANSI templates/it
+**I modelli in questa pagina sono per il vecchio ambiente [Drawing](Drawing_Workbench/it.md).<br>
+ Potrebbero verificarsi problemi durante l'utilizzo con l'ambiente [TechDraw](TechDraw_Workbench/it.md).**
+
 Questa pagina propone i modelli standard [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute) secondo il American National Standards Institute
 
 ### ANSI A 
@@ -51,11 +54,15 @@ Questa pagina propone i modelli standard [ANSI](http://en.wikipedia.org/wiki/Ame
 
 <img alt="" src=images/ANSI_E_Portrait.svg  style="width:800px;">
 
+
+
 ## Altri modelli standard disponibili 
 
 -   [Modelli Drawing](Drawing_templates/it.md): modelli default di FreeCAD
 -   [Modelli Arch](Arch_templates/it.md): modelli secondo lo standard [Arch](http://en.wikipedia.org/wiki/American_National_Standards_Institute) del American National Standards Institute
 -   [Modelli misti](Misc_templates/it.md)
+
+
 
 ## Contributi
 

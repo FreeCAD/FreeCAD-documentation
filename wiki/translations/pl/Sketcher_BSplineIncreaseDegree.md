@@ -1,43 +1,48 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher BSplineIncreaseDegree
-   MenuLocation:Sketch → Sketcher B-spline tools → Increase B-spline degree
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Zwiększ stopień krzywej złożonej
+   MenuLocation:Szkic → Narzędzia szkicownika krzywej złożonej → Zwiększ stopień krzywej złożonej
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[Sketcher Show/hide B-spline degree](Sketcher_BSplineDegree.md), [Sketcher Decrease B-spline degree](Sketcher_BSplineDecreaseDegree.md)
+   SeeAlso:[Pokaż / ukryj stopień krzywej złożonej](Sketcher_BSplineDegree/pl.md), [Zmniejsz stopień krzywej złożonej](Sketcher_BSplineDecreaseDegree/pl.md)
 ---
 
 # Sketcher BSplineIncreaseDegree/pl
 
-## Description
 
-Increases the degree (order) of a B-spline (see [this page](B-Splines.md) for more info about B-splines).
 
-B-splines are basically a combination of [Bézier curves](https://en.wikipedia.org/wiki/Bezier_curve#Constructing_B%C3%A9zier_curves) (nicely explained in [this](https://www.youtube.com/watch?v=bE1MrrqBAl8) and [this](https://www.youtube.com/watch?v=xXJylM2S72s) video).
+## Opis
 
-In this cubic spline (degree 3) there are 3 segments, meaning 3 curves are connected at 2 knots
-(degree is indicated by the number, indication can be changed using the toolbar button **[<img src=images/Sketcher_BSplineDegree.svg style="width:24px"> [Show/hide B-spline degree](Sketcher_BSplineDegree.md)**):
+Zwiększa stopień *(kolejność)* krzywej złożonej *(zobacz stronę [Krzywe złożone](B-Splines/pl.md) aby uzyskać więcej informacji)*.
+
+Krzywe złożone są w zasadzie kombinacją [Krzywych Béziera](B-Splines/pl#Krzywe_Béziera.md) *(ładnie wyjaśnione w filmie [From Bézier curves to B-spline curves](https://www.youtube.com/watch?v=bE1MrrqBAl8) oraz [Properties of B-spline curves](https://www.youtube.com/watch?v=xXJylM2S72s))*.
+
+W tej sześciennej krzywej *(3 stopnia)* są 3 segmenty, co oznacza, że 3 krzywe są połączone w 2 węzłach
+*(stopień jest oznaczony liczbą, wskazanie można zmienić za pomocą przycisku na pasku narzędzi **[<img src=images/Sketcher_BSplineDegree.svg style="width:24px"> [Pokaż / ukryj stopień krzywej złożonej](Sketcher_BSplineDegree/pl.md)**)*:
 
 <img alt="" src=images/Sketcher_BSplineDegree3.png  style="width:400px;"> 
-*B-spline with degree 3 and 2 knots that each have the multiplicity 1.*
+*Krzywa złożona o stopniu 3 i 2 węzłach, z których każdy ma krotność 1.*
 
-The outer segments have each 2 control points, the inner one none to fulfill the constraint that the knots have multiplicity 1. (see [this page](Sketcher_BSplineDecreaseKnotMultiplicity#Description.md) for an explanation of the multiplicity)
+Zewnętrzne odcinki mają po 2 punkty kontrolne, wewnętrzne żadnego, aby spełnić warunek, że węzły mają krotność 1. *(zobacz stronę opisującą [krotność](Sketcher_BSplineDecreaseKnotMultiplicity/pl#Opis.md))*.
 
-Increasing the degree will add control points and the shape of the spline is not changed:
+Zwiększenie stopnia powoduje dodanie punktów kontrolnych, a kształt krzywej nie ulega zmianie:
 
 <img alt="" src=images/Sketcher_BSplineDegree4.png  style="width:400px;"> 
-*Same B-spline where the degree was changed from 3 to 4. Note that also the knot multiplicity was increased.*
+*Ta sama krzywa, w której stopień został zmieniony z 3 na 4. Zauważ, że zwiększono również krotność węzłów.*
 
-If you take this result and decrease the degree, you cannot get the initial state of the spline information will be lost by this operation. For our example decreasing the degree again leads to this:
+Jeśli weźmiesz ten wynik i zmniejszysz stopień, nie będziesz w stanie uzyskać stanu początkowego krzywej. W wyniku tej operacji informacje zostaną utracone. W naszym przykładzie zmniejszenie stopnia ponownie prowadzi do:
 
 <img alt="" src=images/Sketcher_BSplineDegree3from4.png  style="width:400px;"> 
-*Same B-spline where the degree was changed back from 4 to 3. Note that the knot multiplicity was increased. Depending on the spline, the algorithm to decrease the degree may add a lot of knots to preserve the spline shape as happened in this example.*
+*Ta sama splajna B, w której stopień został zmieniony z powrotem z 4 na 3. Zauważ, że zwiększono krotność węzłów. W zależności od krzywej, algorytm zmniejszania stopnia może dodać wiele węzłów, aby zachować kształt krzywej, jak to się stało w tym przykładzie.*
 
-You can see that now each segment has 2 control points and the knots are coincident with each a further control point. The knots have now *C*^0^ continuity so that the spline will get \"edges\" when you move a control point. So the information of a higher continuity is lost. (see [this page](Sketcher_BSplineDecreaseKnotMultiplicity#Description.md) to for an explanation of the continuity)
+Możesz zobaczyć, że teraz każdy segment ma 2 punkty kontrolne, a węzły pokrywają się z każdym kolejnym punktem kontrolnym. Węzły mają teraz ciągłość „C"^0^, dzięki czemu krzywa uzyska „krawędzie", gdy przesuniesz punkt kontrolny. Tak więc informacja o wyższej ciągłości zostaje utracona. *(zobacz stronę [krotność węzła](Sketcher_BSplineDecreaseKnotMultiplicity/pl#Opis.md), aby uzyskać wyjaśnienie ciągłości)*
 
-## Usage
 
-1.  Select an edge from an existing B-spline, and press **[<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> '''Increase B-spline degree'''**.
+
+## Użycie
+
+1.  Wybierz krawędź z istniejącej krzywej złożonej i naciśnij przycisk **[<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> '''Zwiększ stopień krzywej złożonej'''**.
 
 
 

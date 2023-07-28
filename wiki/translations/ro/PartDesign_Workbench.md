@@ -37,6 +37,8 @@ The bodies created with PartDesign are often subject to the [topological naming 
 
 <img alt="" src=images/PartDesign_Example.png  style="width:500px;">
 
+
+
 ## Instrumente
 
 
@@ -67,6 +69,8 @@ These are tools to organize the Model tree.
 </div>
 
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Group](Std_Group.md): adds a Group container in the active document, which allows organizing the objects in the [tree view](Tree_view.md).
+
+
 
 ### Instrumente Help pentru Part Design 
 
@@ -105,6 +109,8 @@ These are tools to organize the Model tree.
 -   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Validate sketch](Sketcher_ValidateSketch.md): verifies the tolerance of different points and adjusts them.
 
 ### Part Design Modeling tools 
+
+
 
 #### Instrumente de referință 
 
@@ -148,7 +154,7 @@ These are tools to organize the Model tree.
 
 </div>
 
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Create a sub-object(s) shape binder](PartDesign_SubShapeBinder.md): creates a shape binder referencing geometry from one or more parent objects. <small>(v0.19)</small> 
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Create a sub-object(s) shape binder](PartDesign_SubShapeBinder.md): creates a shape binder referencing geometry from one or more parent objects.
 
 
 <div class="mw-translate-fuzzy">
@@ -157,6 +163,8 @@ These are tools to organize the Model tree.
 
 
 </div>
+
+
 
 #### Instrumente Aditive 
 
@@ -194,7 +202,7 @@ Acestea sunt instrumente pentru crearea de caracteristici de bază sau adăugare
 
 </div>
 
--   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Additive helix](PartDesign_AdditiveHelix.md): creates a solid by sweeping a sketch along a helix. <small>(v0.19)</small> 
+-   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Additive helix](PartDesign_AdditiveHelix.md): creates a solid by sweeping a sketch along a helix.
 
 
 <div class="mw-translate-fuzzy">
@@ -268,6 +276,8 @@ Acestea sunt instrumente pentru crearea de caracteristici de bază sau adăugare
 
 </div>
 
+
+
 #### Instrumente substractive 
 
 Acestea sunt instrumente pentru îndepărtarea materialului dintr-un corp existent.
@@ -314,7 +324,7 @@ creează o formă solidă făcând o tranziție/extrudere între două sau mai m
 
 </div>
 
--   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Subtractive helix](PartDesign_SubtractiveHelix.md): creates a solid shape by sweeping a sketch along a helix and subtracts it from the active body. <small>(v0.19)</small> 
+-   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Subtractive helix](PartDesign_SubtractiveHelix.md): creates a solid shape by sweeping a sketch along a helix and subtracts it from the active body.
 
 
 <div class="mw-translate-fuzzy">
@@ -388,6 +398,8 @@ creează o formă solidă făcând o tranziție/extrudere între două sau mai m
 
 </div>
 
+
+
 #### instrumente de Transformare 
 
 
@@ -429,6 +441,8 @@ Acestea sunt instrumente pentru transformarea caracteristicilor existente. Acest
 
 
 </div>
+
+
 
 #### Instrumente pentru traiectorie suplimentară 
 
@@ -484,6 +498,8 @@ creează o cochilie/coajă groasă din corpul activ și deschide fațeta(ele) se
 
 </div>
 
+
+
 #### Suplimentar
 
 Unele funcționalități suplimentare găsite în meniul PartDesign:
@@ -496,7 +512,7 @@ Unele funcționalități suplimentare găsite în meniul PartDesign:
 
 </div>
 
--   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Sprocket](PartDesign_Sprocket.md): creates a sprocket profile that can be padded. <small>(v0.19)</small> 
+-   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Sprocket](PartDesign_Sprocket.md): creates a sprocket profile that can be padded.
 
 
 <div class="mw-translate-fuzzy">
@@ -515,6 +531,8 @@ Unele funcționalități suplimentare găsite în meniul PartDesign:
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Meniu Contextual de Instrumente 
@@ -529,6 +547,8 @@ Unele funcționalități suplimentare găsite în meniul PartDesign:
 -   <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:32px;"> [Move object after other object](PartDesign_MoveFeatureInTree.md): allows reordering of the Body tree by moving the selected sketch, datum geometry or feature to another position in the list of features.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/PartDesign_MoveTip.png  style="width:32px;"> [Set tip](PartDesign_MoveTip.md): redefinește vârful, care este caracteristica expusă în afara corpului.
@@ -539,6 +559,8 @@ Unele funcționalități suplimentare găsite în meniul PartDesign:
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Appearance](Std_SetAppearance.md): determines appearance of the whole part (color transparency etc.).
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Set colors](Part_FaceColors.md): assigns colors to part faces.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -556,6 +578,8 @@ Unele funcționalități suplimentare găsite în meniul PartDesign:
 
 </div>
 
+
+
 ## Tutoriale
 
 
@@ -569,6 +593,12 @@ Unele funcționalități suplimentare găsite în meniul PartDesign:
 
 
 </div>
+
+## Examples
+
+For some ideas of what can be achieved with Part Design tools, have a look at: [PartDesign examples](PartDesign_Examples.md).
+
+<img alt="" src=images/PartDesign_ExampleSphere-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleTorus-01.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExamplePad-09.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-05.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSpring-04.png  style="width:80px;">
 
 
 <div class="mw-translate-fuzzy">

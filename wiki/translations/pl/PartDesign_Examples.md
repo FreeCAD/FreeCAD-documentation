@@ -1,11 +1,15 @@
 # PartDesign Examples/pl
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 Czasami potrzebna jest wskazówka, jak potężne jest dane narzędzie, bez zbyt wielu wyjaśnień.
 
 Jest to zbiór przykładów, które można osiągnąć za pomocą określonych narzędzi. Szczegółowe objaśnienia można znaleźć w opisach narzędzi oraz w Internecie, gdzie można znaleźć odpowiednie poradniki.
+
+
 
 ## Wyciągnięcie
 
@@ -24,6 +28,8 @@ Domyślnie jest to normalny kierunek płaszczyzny zawierającej kontur *(płaszc
 
 <div class="mw-collapsible-content toccolours">
 
+
+
 ### Bryły pierwotne oparte o kształt wielokąta 
 
 ++++
@@ -39,13 +45,33 @@ Domyślnie jest to normalny kierunek płaszczyzny zawierającej kontur *(płaszc
 | **Klin**                  | <img alt="Klin" src=images/PartDesign_ExamplePad-05.png  style="width:200px;">                                   | -   Kontur: **trójkąt**.                                    |
 ++++
 
+
+
 ### Profile oparte o kształt graniastosłupa 
 
+++++
+| **profil L**          | <img alt="L-profile" src=images/PartDesign_ExamplePad-06.png  style="width:200px;">               | -   Kontur: kształt litery **L**.                                                  |
+|                       |                                                                                   |                                                                                    |
+|                       |                                                                                   | :                                                                                  |
+++++
+| **profil C**          | <img alt="C-profile" src=images/PartDesign_ExamplePad-07.png  style="width:200px;">               | -   Kontur: kształt litery **C**.                                                  |
+++++
+| **profil Z**          | <img alt="Z-profile" src=images/PartDesign_ExamplePad-11.png  style="width:200px;">               | -   Kontur: kształt litery **Z**.                                                  |
+++++
+| **profil T**          | <img alt="T-profile" src=images/PartDesign_ExamplePad-09.png  style="width:200px;">               | -   Kontur: kształt litery **T**.                                                  |
+++++
+| **profil dwuteownik** | <img alt="Double-T-profile" src=images/PartDesign_ExamplePad-10.png  style="width:200px;"> | -   Kontur: kształt litery **H**, z szerokością kołnierza \< odsunięcia kołnierza. |
+++++
+| **profil H**          | <img alt="H-profile" src=images/PartDesign_ExamplePad-08.png  style="width:200px;">               | -   Kontur: kształt litery *H*, gdzie szerokość = wysokość.                        |
+++++
+
 
 </div>
 
 
 </div>
+
+
 
 ## Wyciągnięcie po ścieżce 
 
@@ -65,6 +91,8 @@ Nietrudno się zorientować, że niektóre obiekty można tworzyć także za pom
 
 
 <div class="mw-collapsible-content toccolours">
+
+
 
 ### Obiekty koliste 
 
@@ -95,6 +123,8 @@ Proste obiekty utworzone przeciąganiem przez obrót
 | wydrążony walec   |                                                                                                   | -   Ścieżka: pełny **okrąg**.                                                                                                                                    |
 ++++
 
+
+
 ### Obiekty graniastosłupowe 
 
 Proste obiekty utworzone przeciąganiem
@@ -122,6 +152,8 @@ Proste obiekty utworzone przeciąganiem
 |                             |                                                                                                         | -   Ścieżka: prosta **linia**.                                           |
 ++++
 
+
+
 ### Obiekty stożkowe 
 
 ++++
@@ -140,6 +172,8 @@ Proste obiekty utworzone przeciąganiem
 |                       |                                                                                               |                                                                    |
 |                       |                                                                                               | :   *(Punkt wierzchołka jest punktem końcowym ścieżki)*.           |
 ++++
+
+
 
 ### Obiekty zakrzywione 
 
@@ -160,6 +194,8 @@ Proste obiekty utworzone przeciąganiem
 | **Klucz sześciokątny** |                                                                                         | -   Ścieżka: zakrzywiona **linia**.                             |
 ++++
 
+
+
 ### Obiekty spiralne i walcowate 
 
 ++++
@@ -172,6 +208,8 @@ Proste obiekty utworzone przeciąganiem
 | **Sprężyna spiralna**, | <img alt="Sprężyna spiralna" src=images/PartDesign_ExampleSpring-04.png  style="width:200px;">   | -   Kontur: **prostokąt**.                                                                                                            |
 | Sprężyna stożkowa      |                                                                                          | -   Ścieżka: <img alt="" src=images/Part_Helix.svg  style="width:16px;"> [Helisa](Part_Helix/pl.md) środowiska Część z kątem nachylenia. |
 ++++
+
+
 
 ### Obiekty przejściowe 
 
@@ -186,7 +224,11 @@ Proste obiekty utworzone przeciąganiem
 |                          |                                                                                                       | -   Ścieżka: prosta **linia**.                               |
 ++++
 
+
+
 ### Opcje
+
+
 
 #### Przejścia narożników 
 
@@ -209,6 +251,8 @@ Transformowany wymaga szczególnej uwagi, ponieważ może wytwarzać płaskie ob
 |                          |                                                                                                                          |                                                                                                                                |
 |                          | :   Narożniki leżące poza ścieżką są zaokrąglone.                                                                        | :   Podstawowy kształt jest zgodny z orientacją linii.                                                                         |
 ++++
+
+
 
 #### Tryb orientacji 
 

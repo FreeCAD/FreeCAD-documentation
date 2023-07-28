@@ -22,6 +22,9 @@
     -   [Документ FreeCAD](Document_structure/ru.md)
     -   [Редактор свойств](Property_editor/ru.md)
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Верстаки](Workbenches/ru.md)
 
 -   -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Стандартные инструменты для всех Верстаков](Std_Base/ru.md)
@@ -47,6 +50,9 @@
     -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [Верстак Тестирования (для разработчиков)](Testing/ru.md)
     -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> [Встроенный браузер](Web_Workbench/ru.md)
     -   [Внешние верстаки](External_workbenches/ru.md)
+
+
+</div>
 
 -   [Список команд FreeCAD](List_of_Commands/ru.md)
 

@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Inserisce un prisma sottrattivo nel corpo attivo. La sua forma viene sottratta dal solido esistente.
@@ -12,6 +14,8 @@ Inserisce un prisma sottrattivo nel corpo attivo. La sua forma viene sottratta d
 ![](images/PartDesign_SubtractivePrism_example.svg )
 
 *A sinistra il corpo attivo (A) mostrato in grigio e il prisma sottrattivo (B) mostrato in rosso trasparente; a destra il risultato.*
+
+
 
 ## Utilizzo
 
@@ -26,9 +30,11 @@ Inserisce un prisma sottrattivo nel corpo attivo. La sua forma viene sottratta d
 
 </div>
 
+
+
 ## Opzioni
 
-It is possible to create skewed prisms by specifying angles in respect to the normal vector of the chosen attachment. <small>(v0.19)</small> 
+It is possible to create skewed prisms by specifying angles in respect to the normal vector of the chosen attachment.
 
 
 <div class="mw-translate-fuzzy">
@@ -40,6 +46,8 @@ Dopo la sua creazione il Prisma può essere modificato in due modi:
 
 
 </div>
+
+
 
 ## Proprietà
 

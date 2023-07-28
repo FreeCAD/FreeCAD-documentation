@@ -40,7 +40,7 @@ Il sistema di assi è composto da tre frecce che rappresentano gli assi X, Y e Z
 
 ## Preferenze
 
--   L\'impostazione predefinita per l\'origine degli assi può essere modificata nelle preferenze: **Modifica → Preferenze... → Visualizza → Vista 3D → Mostra di default il sistema di assi**. Vedi [Editor delle preferenze](Preferences_Editor/it#Vista_3D.md). {{Version/it|0.19}}
+-   L\'impostazione predefinita per l\'origine degli assi può essere modificata nelle preferenze: **Modifica → Preferenze... → Visualizza → Vista 3D → Mostra di default il sistema di assi**. Vedi [Editor delle preferenze](Preferences_Editor/it#Vista_3D.md).
 
 
 

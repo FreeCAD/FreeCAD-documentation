@@ -13,9 +13,9 @@ Simple selection with the mouse (by default left-click) and pre-selection (hover
 
 ### Repeated clicks 
 
-The first click selects a sub-element (vertex, edge or face) of the object under the mouse. A second click selects the whole object. <small>(v0.18)</small> 
+The first click selects a sub-element (vertex, edge or face) of the object under the mouse. A second click selects the whole object.
 
-The third click extends the selection to its container object ([PartDesign Body](PartDesign_Body.md), [Std Part](Std_Part.md), and others). Further clicks expand the selection up the container chain. <small>(v0.19)</small> 
+The third click extends the selection to its container object ([PartDesign Body](PartDesign_Body.md), [Std Part](Std_Part.md), and others). Further clicks expand the selection up the container chain.
 
 ### Selection commands 
 

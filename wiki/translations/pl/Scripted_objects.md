@@ -1,6 +1,8 @@
 # Scripted objects/pl
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 Oprócz standardowych typów obiektów, takich jak adnotacje, siatki i obiekty części, FreeCAD oferuje również niesamowitą możliwość tworzenia obiektów parametrycznych w 100% napisanych w języku Python, zwanych [właściwościami Python](App_FeaturePython/pl.md). Obiekty te zachowują się dokładnie tak, jak każdy inny obiekt programu FreeCAD i są zapisywane i przywracane automatycznie podczas zapisywania/wczytywania pliku.
@@ -10,6 +12,8 @@ Należy pamiętać o jednej szczególnej kwestii: Ze względów bezpieczeństwa 
 **Uwaga**: Możliwe jest spakowanie kodu Python wewnątrz pliku FreeCAD za pomocą serializacji json z obiektem App::PropertyPythonObject, ale ten kod nigdy nie może być bezpośrednio uruchomiony i dlatego jest mało przydatny w naszym przypadku.
 
 [Funkcje Python](App_FeaturePython.md) działają według tej samej zasady, co wszystkie funkcje programu FreeCAD. Są podzielone na część aplikacji i część GUI. Część aplikacji, Obiekt Dokumentu, definiuje geometrię naszego obiektu, podczas gdy jego część GUI, Obiekt Dostawcy Widoku, definiuje sposób, w jaki obiekt będzie rysowany na ekranie. Obiekt View Provider, jak każda inna funkcja programu FreeCAD, jest dostępny tylko wtedy, gdy uruchamiamy program FreeCAD w jego własnym GUI. Istnieje kilka właściwości i metod dostępnych w celu zbudowania obiektu. Właściwości muszą należeć do jednego z predefiniowanych typów właściwości, które oferuje FreeCAD, i będą wyświetlane w oknie widoku właściwości, tak aby użytkownik mógł je edytować. W ten sposób obiekty FeaturePython są prawdziwie i całkowicie parametryczne. Możesz zdefiniować właściwości osobno dla obiektu i osobno dla jego obiektu ViewObject.
+
+
 
 ## Przykład podstawowy 
 
@@ -148,6 +152,8 @@ def makeBox():
 makeBox()
 ```
 
+
+
 ### Warto wiedzieć 
 
 Jeśli twój obiekt wymaga ponownego obliczenia zaraz po utworzeniu, musisz to zrobić ręcznie w funkcji `__init__`, ponieważ nie jest ona wywoływana automatycznie. W tym przykładzie nie jest to wymagane, ponieważ metoda `onChanged` klasy `Box` wywołuje ten sam rezultat, co funkcja `execute`, ale w poniższych przykładach wymagane jest ponowne obliczenie, zanim cokolwiek zostanie wyświetlone w widoku 3D. W przykładach jest to wykonywane ręcznie za pomocą funkcji `ActiveDocument.recompute()`, ale w bardziej złożonych scenariuszach należy zdecydować, w którym miejscu ponownie obliczyć cały dokument lub obiekt FeaturePython.
@@ -156,9 +162,13 @@ Ten przykład powoduje powstanie wielu śladów stosu wyjątków w oknie widoku 
 
 Wyjaśnienie działania funkcji `__getstate__` i `__setstate__` znajduje się w wątku na forum [obj.Proxy.Type jest wartością typu dict, a nie string](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009&start=10#p377892).
 
+
+
 ## Dostępne metody 
 
 Zobacz stronę [Metody FeaturePython](FeaturePython_methods.md), aby zapoznać się z pełnym opisem.
+
+
 
 ## Dostępne własności 
 
@@ -272,6 +282,8 @@ Pełną listę atrybutów właściwości można znaleźć w pliku nagłówkowym 
 prop = (value, lower, upper, stepsize)
 ```
 
+
+
 ## Typy właściwości 
 
 Domyślnie właściwości mogą być aktualizowane. Możliwe jest nadanie właściwościom statusu tylko do odczytu, na przykład w sytuacji, gdy chcemy pokazać wynik działania metody. Możliwe jest także ukrycie właściwości. Typ właściwości można ustawić za pomocą:
@@ -307,7 +319,11 @@ Typy właściwości, które można ustawić w ostatnim parametrze funkcji addPro
  8 -- Prop_Output, Zmodyfikowana właściwość nie dotyka swojego kontenera nadrzędnego
  16 -- Prop_NoRecompute, Zmodyfikowana właściwość nie dotyka swojego kontenera do rekompilacji
 
+32 \-- Prop_NoPersist, właściwość nie zostanie zapisana do pliku
+
 Te różne typy właściwości można znaleźć w [source code C++ header for PropertyContainer](https://github.com/FreeCAD/FreeCAD/blob/master/src/App/PropertyContainer.h).
+
+
 
 ## Inny, bardziej złożony przykład 
 
@@ -512,6 +528,8 @@ Octahedron(a)
 ViewProviderOctahedron(a.ViewObject)
 ```
 
+
+
 ## Robienie obiektów wybieralnymi 
 
 Jeśli chcesz, aby Twój obiekt był wybieralny, lub przynajmniej jego część, przez kliknięcie na nim w rzutni, musisz umieścić jego geometrię coin w węźle SoFCSelection. Jeśli obiekt ma złożoną reprezentację, z widżetami, adnotacjami itp, możesz chcieć zawrzeć tylko jego część w węźle SoFCSelection. Wszystko, co jest węzłem SoFCSelection, jest stale skanowane przez FreeCAD w celu wykrycia zaznaczenia/poprzedzenia zaznaczenia, więc warto spróbować nie przeciążać go niepotrzebnym skanowaniem.
@@ -616,6 +634,8 @@ def makeMolecule():
     FreeCAD.ActiveDocument.recompute()
 ```
 
+
+
 ## Praca z prostymi kształtami 
 
 Jeśli obiekt parametryczny po prostu wyprowadza kształt, nie trzeba używać obiektu dostawcy widoku. Kształt zostanie wyświetlony przy użyciu standardowej reprezentacji kształtu programu FreeCAD:
@@ -677,6 +697,8 @@ Line(a)
 ViewProviderLine(a.ViewObject)
 App.ActiveDocument.recompute()
 ```
+
+
 
 ## Struktura scenograficzna 
 
@@ -862,6 +884,8 @@ def makeMolecule():
 a,b = makeMolecule()
 ```
 
+
+
 ## Obiekty skryptowe środowiska pracy Projekt Części 
 
 Podczas tworzenia obiektów skryptowych w środowisku pracy Projekt Części proces jest podobny do tworzenia obiektów skryptowych omówionych powyżej, ale z kilkoma dodatkowymi uwagami. Musimy obsługiwać dwie właściwości kształtu, jedną dla kształtu, który widzimy w oknie widoku 3D, a drugą dla kształtu używanego przez narzędzia wzorca, takie jak cechy wzoru biegunowego. Kształty obiektów muszą również zostać połączone z istniejącym materiałem już znajdującym się w zawartości *(lub wycięte z niego w przypadku cech typu Subtractive)*. Musimy także w nieco inny sposób uwzględniać umieszczanie i mocowanie naszych obiektów.
@@ -1041,6 +1065,8 @@ else:
         pdtube.PDTubeVP(tube.ViewObject)
         body.addObject(tube) #optionally we can also use body.insertObject() for placing at particular place in tree
 ```
+
+
 
 ## Informacje dodatkowe 
 

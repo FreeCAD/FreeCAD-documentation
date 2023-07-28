@@ -14,11 +14,15 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Questo strumento crea un arco di parabola da fuoco, vertice e punti finali.
 
 ![](images/Sketcher_Arc_of_Parabola_01.png )
+
+
 
 ## Utilizzo
 

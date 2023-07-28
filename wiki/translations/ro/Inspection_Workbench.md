@@ -19,6 +19,8 @@ Atelierul Inspectare Vizuală a fost creat ca să vă ofere instrumente specific
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 **Procesul de lucru intenționat:**

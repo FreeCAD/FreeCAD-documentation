@@ -2,147 +2,100 @@
 - GuiCommand:/it
    Name:Draft_Move
    Name/it:Sposta
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation:Draft → Sposta
+   MenuLocation:Modifiche → Sposta
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**M** **V**
-   SeeAlso:[Schiera](Draft_Array/it.md), [Copie su tracciato](Draft_PathArray/it.md)
    Version:0.7
+   SeeAlso:[Evidenzia i sottoelementi](Draft_SubelementHighlight/it.md)
 ---
 
 # Draft Move/it
 
 
-</div>
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_Move.svg  style="width:24px;"> **Sposta** sposta o copia gli oggetti selezionati da un punto all\'altro. In modalità sottoelemento il comando sposta i punti e gli spigoli selezionati, o copia gli spigoli selezionati, di [Linee](Draft_Line/it.md) e [Polilinee](Draft_Wire/it.md).
 
-<div class="mw-translate-fuzzy">
+Il comando può essere utilizzato su oggetti 2D creati con [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md), ma anche su molti oggetti 3D come quelli creati con gli ambienti [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) o [Arch](Arch_Workbench/it.md).
 
-Questo strumento sposta o copia gli oggetti selezionati da un punto ad un altro punto.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Sposta può essere utilizzato su forme 2D create con [Draft](Draft_Workbench/it.md) o [Schizzo](Sketcher_Workbench/it.md), ma può anche essere utilizzato su molti tipi di oggetti 3D come quelli creati con [Part](Part_Workbench/it.md) o [Arch](Arch_Workbench/it.md).
+<img alt="" src=images/Draft_Move_example.jpg  style="width:400px;"> 
+*Spostare un oggetto da un punto a un altro punto*
 
 
-</div>
-
-<img alt="" src=images/Draft_Move_example.jpg  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Spostare un oggetto da un punto a un altro*
-
-
-</div>
 
 ## Utilizzo
 
-See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
+
+1.  Opzionalmente selezionare uno o più oggetti, o uno o più sottoelementi di [Linee](Draft_Line/it.md) o [Polilinee](Draft_Wire/it.md).
+2.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_Move.svg" width=16px> [Sposta](Draft_Move.md)**.
+    -   Selezionare l\'opzione **Modifica → <img src="images/Draft_Move.svg" width=16px> Sposta** dal menu.
+    -   Usare la scorciatoia da tastiera: **M** poi **V**.
+3.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto nella [Vista 3D](3D_view/it.md).
+4.  Si apre il pannello delle attività **Sposta**. Vedere [Opzioni](#Opzioni.md) per maggiori informazioni.
+5.  Se i sottoelementi sono stati selezionati: selezionare la casella **Modifica i sottoelementi** per attivare la modalità sottoelemento.
+6.  Scegliere il primo punto, il punto base, nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
+7.  Scegliere il secondo punto, il punto di destinazione, nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
 
 
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare gli oggetti che si desidera spostare o copiare
-2.  Premere il pulsante **<img src="images/Draft_Move.svg" width=16px> [Sposta](Draft_Move/it.md)**, o premere i tasti **M** e poi **V**. Se nessun oggetto è selezionato, viene chiesto di selezionarne uno.
-3.  Selezionare un primo punto nella vista 3D, oppure digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**. Questo punto serve come punto base dell\'operazione.
-4.  Fare clic su un altro punto nella vista 3D o digitare una coordinata e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**. Questo punto è la nuova posizione del punto base.
-
-
-</div>
 
 ## Opzioni
 
-The single character keyboard shortcuts mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
+Le scorciatoie da tastiera a carattere singolo menzionate qui possono essere modificate. Vedere [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
+
+-   Per inserire manualmente le coordinate, inserire le componenti X, Y e Z e premere **Enter** dopo ognuna di esse. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
+-   Per usare le coordinate polari inserire un valore per **Lunghezza** e un valore per **Anglo**, e premere **Enter** dopo ciascuno.
+-   Selezionare la casella **Anglo** per vincolare il puntatore all\'angolo specificato.
+-   Premere **H** per cambiare il focus dalla casella di input **X** alla casella di input **Lunghezza** e viceversa. A seconda della casella di input che riceve il focus, la casella di controllo **Anglo** è selezionata o deselezionata.
+-   Premere **R** o fare clic sulla casella di controllo **Relativo** per attivare o disattivare la modalità relativa. Se la modalità relativa è attiva, le coordinate del secondo punto sono relative al primo punto, altrimenti sono relative all\'origine del sistema di coordinate.
+-   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **T** o fare clic sulla casella di controllo **Continua** per attivare o disattivare la modalità continua. Se la modalità continua è attiva, il comando verrà riavviato al termine. Questa modalità ha davvero senso solo se la modalità di copia è attivata. A seconda della preferenza **Seleziona gli oggetti di base dopo la copia**, per la successiva chiamata al comando vengono selezionati gli oggetti originali o le copie create per ultime. Vedi [Preferenze](#Preferenze.md).
+-   Premere **P** o fare clic sulla casella di controllo **Copia** per attivare o disattivare la modalità di copia. Se la modalità copia è attiva, il comando creerà copie spostate invece di spostare gli oggetti originali.
+-   Premere **D** o fare clic sulla casella di controllo **Modifica sottoelementi** per attivare o disattivare la modalità sottoelemento. Se la modalità sottoelemento è attiva, il comando utilizzerà i sottoelementi selezionati invece degli oggetti interi. I sottoelementi devono appartenere a [Linee](Draft_Line/it.md) o [Polilinee](Draft_Wire/it.md).
+-   Se la modalità copia e la modalità sottoelemento sono entrambe attive e sono selezionati i bordi di [Polilinee](Draft_Wire/it.md), verranno creati nuove polilinee da quei bordi.
+-   Tenendo premuto **Alt** dopo aver scelto il punto base si attiverà anche la modalità di copia. Mentre **Alt** viene tenuto premuto, è possibile selezionare più punti bersaglio. Rilasciare **Alt** per terminare il comando e vedere le copie create.
+-   Premere **S** per attivare o disattivare [Aggancia](Draft_Snap/it.md).
+-   Premere **Esc** o il pulsante **Chiudi** per interrompere il comando.
 
 
-<div class="mw-translate-fuzzy">
 
--   Premere **X**, **Y** o **Z** dopo il primo punto per vincolare il secondo punto su un dato asse.
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** tra ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto** quando si hanno i valori desiderati per inserire il punto.
--   Premere **R** o fare clic sulla casella di controllo per attivare la modalità \"relativa\". Se la modalità relativa è attiva, le coordinate del secondo punto sono relative alla prima; altrimenti sono assolute, prese dall\'origine (0,0,0).
--   Premere **T** oppure fare clic sulla casella di controllo per attivare la modalità \"continua\". Se la modalità continua è attiva, lo strumento Sposta verrà riavviato al termine dell\'operazione, consentendo di spostare o copiare nuovamente gli oggetti senza premere nuovamente il pulsante dello strumento.
--   Premere **P** oppure fare clic sulla casella di controllo per attivare la modalità *Copia*. Se la modalità copia è attiva, lo strumento Sposta mantiene la forma originale al suo posto e crea una copia nel secondo punto.
+## Note
 
-:   Si possono usare sia **T** che **P** per posizionare più copie in sequenza. In questo caso, l\'elemento che viene duplicato è l\'ultima copia posizionata.
-
--   Tenere premuto **Alt** dopo il secondo punto per attivare o disattivare la modalità di copia. Tenendo premuto **Alt** dopo aver cliccato sul secondo punto, si può continuare a posizionare altre copie; rilasciare **Alt** per terminare l\'operazione e vedere tutte le copie.
--   Tenere premuto **Ctrl** mentre si sposta per forzare lo [snap](Draft_Snap.md) al punto di aggancio più vicino, indipendentemente dalla distanza.
--   Tenere premuto **Maiusc** mentre si ruota per [vincolare](Draft_Constrain.md) il secondo punto in orizzontale o in verticale rispetto al primo.
--   Premere il pulsante **Esc** o il pulsante **Chiudi** per interrompere il comando corrente; le copie già posizionate rimangono.
+-   Un Oggetto che è [allegato](Part_EditAttachment/it.md) non può essere spostato con il comando Sposta. Per spostarlo è necessario spostare il suo oggetto **Support** o modificare il suo **Attachment Offset**.
 
 
-</div>
 
-## Notes
+## Preferenze
 
--   An Object that is [attached](Part_EditAttachment.md) cannot be moved with the Draft Move command. To move it either its **Support** object has to be moved, or its **Attachment Offset** has to be changed.
+Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
 
-## Preferences
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of coordinates, lengths and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial focus of the task panel to the **Length** input box: **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
--   To store and reuse the same copy mode setting across commands: **Edit → Preferences... → Draft → General settings → Draft tools options → Global copy mode**.
--   To reselect the base objects after copying objects: **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
-
-## Scripting
+-   Per modificare il numero di decimali utilizzati per l\'inserimento di coordinate, lunghezze e angoli: **Modifica → Preferenze... → Generale → Unità → Impostazioni unità → Numero di cifre decimali**.
+-   Per modificare il focus iniziale del pannello delle attività nella casella di immissione **Lunghezza**: **Modifica → Preferenze... → Draft → Impostazioni generali → Opzioni strumenti di Draft → Imposta il focus sulla Lunghezza invece che sulla coordinata X**. Tenere presente che si deve spostare il puntatore nella [Vista 3D](3D_view/it.md) affinché la modifica abbia effetto.
+-   Per memorizzare e riutilizzare la stessa impostazione della modalità di copia tra i comandi: **Modifica → Preferenze... → Draft → Impostazioni generali → Opzioni strumenti di Draft → Modalità di copia globale**.
+-   Per riselezionare gli oggetti di base dopo averli copiati: **Modifica → Preferenze... → Draft → Impostazioni generali → Opzioni strumenti di Draft → Seleziona gli oggetti di base dopo la copia**.
 
 
-<div class="mw-translate-fuzzy">
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-**Vedere anche:**
-
-[Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Sposta può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
+Per spostare gli oggetti usare il metodo `move` del modulo Draft.
 
 
 ```python
 moved_list = move(objectslist, vector, copy=False)
 ```
 
+-    `objectslist`contiene gli oggetti da spostare. È un singolo oggetto o un elenco di oggetti.
 
-<div class="mw-translate-fuzzy">
-
--   Sposta il punto base degli oggetti della `objectslist` di una distanza e nella direzione indicati da `vector`.
-    -   
-        `objectslist`
-        
-        può essere un singolo oggetto o un elenco di oggetti.
-
-:   Il vettore di spostamento è relativo al punto base dell\'oggetto, il che significa che se un oggetto viene spostato di 2 unità e poi di altre 2 unità, in totale viene spostato di 4 unità dalla sua posizione originale.
+-    `vector`è lo spostamento.
 
 -   Se `copy` è `True` vengono create delle copie invece di spostare gli oggetti originali.
--   Viene restituita una `movedlist` con gli oggetti originali spostati o con le nuove copie..
-    -   
-        `movedlist`
-        
-        è un singolo oggetto o un elenco di oggetti, a seconda dell\'input di `objectslist`.
 
-
-</div>
+-    `moved_list`viene restituito con gli oggetti spostati originali o con le nuove copie. È un singolo oggetto o un elenco di oggetti, a seconda di `objectslist`.
 
 Esempio:
 
@@ -170,15 +123,6 @@ list3 = Draft.move(list1, -2*vector, copy=True)
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

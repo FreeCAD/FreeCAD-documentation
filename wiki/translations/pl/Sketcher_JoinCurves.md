@@ -1,62 +1,33 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher JoinCurves
-   MenuLocation:Sketch → Sketcher B-spline tools → Join curves
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Version:1.0
-   SeeAlso:
+   Name/pl:Szkicownik: Połącz krzywe
+   MenuLocation:Szkic → Narzędzia szkicownika krzywej złożonej → Połącz krzywe
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
+   Version:0.21
 ---
 
 # Sketcher JoinCurves/pl
 
 
-</div>
 
+## Opis
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-## Description
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-Joins two B-spline curves at selected end points.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-## Usage
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-1.  Do one of the following:
-    -   Select an end point of two B-splines.
-    -   Select the [coincident point](Sketcher_ConstrainCoincident.md) connecting two B-splines.
-2.  There are several ways to invoke the command:
-    -   Press the **[<img src=images/Sketcher_JoinCurves.svg style="width:16px"> [Join curves](Sketcher_JoinCurves.md)** button in the toolbar.
-    -   Use the **Sketch → Sketcher B-spline tools → [<img src=images/Sketcher_JoinCurves.svg style="width:16px"> Join curves** entry in the top menu.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
+Łączy dwie krzywe złożone w wybranych punktach końcowych.
 
 
 
+## Użycie
+
+1.  Wykonaj jedną z następujących czynności:
+    -   Wybierz punkt końcowy dwóch krzywych.
+    -   Wybierz punkt [zbieżności](Sketcher_ConstrainCoincident/pl.md) łączący dwie krzywe.
+2.  Istnieje kilka sposobów wywołania polecenia:
+    -   Naciśnij przycisk **[<img src=images/Sketcher_JoinCurves.svg style="width:16px"> '''Połącz krzywe'''** na pasku narzędzi.
+    -   Użyj pozycji z menu głównego **Szkic → Narzędzia szkicownika krzywej złożonej → [<img src=images/Sketcher_JoinCurves.svg style="width:16px"> Połącz krzywe**.
 
 
-</div>
+
 
 
 {{Sketcher_Tools_navi

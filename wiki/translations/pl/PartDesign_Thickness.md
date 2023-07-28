@@ -10,6 +10,8 @@
 
 # PartDesign Thickness/pl
 
+
+
 ## Opis
 
 Narzędzie <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> **Grubość** przekształca bryłę w pusty obiekt z przynajmniej jedną otwartą ścianą, nadając każdej z pozostałych ścian jednolitą grubość. Dodaje do dokumentu obiekt **Grubość** wraz z jego odpowiednią reprezentacją w [widoku drzewa](Tree_view/pl.md).
@@ -17,7 +19,11 @@ Narzędzie <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;">
 <img alt="" src=images/PartDesign_Thickness_example.svg  style="width:600px;"> 
 *Bryła bazowa ''(A)'' → Bryła z wybraną ścianą do otwarcia ''(B)'' → Powstały pusty obiekt ''(C)''.*
 
+
+
 ## Użycie
+
+
 
 ### Dodanie funkcji grubość 
 
@@ -33,6 +39,8 @@ Narzędzie <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;">
 :   *Pamiętaj*:
     -   Ponieważ dla danej cechy musi istnieć przynajmniej jedna ściana, ostatnia pozostała na liście ściana nie może zostać usunięta.
 
+
+
 ### Edycja funkcji grubość 
 
 1.  Wykonaj jedną z poniższych czynności:
@@ -40,6 +48,8 @@ Narzędzie <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;">
     -   Kliknij obiekt Grubość prawym przyciskiem myszy w oknie [Widok drzewa](Tree_view/pl.md) i wybierz **Edytuj Grubość** z menu kontekstowego.
 2.  Otworzy się panel [Panel zadań](Task_panel/pl.md) **Parametry funkcji Grubość**. Więcej informacji można znaleźć w punkcie [Opcje](#Opcje.md).
 3.  Naciśnij przycisk **OK**, aby zakończyć.
+
+
 
 ## Opcje
 
@@ -85,6 +95,8 @@ Narzędzie <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;">
 
 -    **Stwórz grubość do wewnątrz**: Gdy opcja jest zaznaczona, ściany są przesunięte do wewnątrz.
 
+
+
 ## Uwagi
 
 -   Jeśli grubość idzie do wewnątrz, wartość musi być mniejsza niż najmniejsza wysokość bryły.
@@ -94,11 +106,15 @@ Narzędzie <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;">
     -   BRep_Tool: brak parametru na krawędzi.
     -   Cichy błąd.
 
+
+
 ## Właściwości
 
 Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
 
 Obiekt Grubość wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
 
 ### Dane
 

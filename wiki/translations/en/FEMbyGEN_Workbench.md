@@ -11,15 +11,15 @@ FEMbyGEN is a FreeCAD addon. It provides a simple interface to choose the best s
 
 ### Intended work-flow 
 
-1.  Click initiate button to create parameters for parametric analysis.
-2.  By alias button please match size and name of the parameters.
-3.  Associate the spreadsheet and your model. ([Spreadsheet Workbench](Spreadsheet_Workbench.md)).
-4.  Set up analysis model(s) by [FEM_Workbench](FEM_Workbench.md).
-5.  Switch again to the workbench **FEMbyGEN** and by **Generate** button, create all generations.
-6.  Click on the button **FEA** and Start FEA to run simulations.
+1.  Click the **Initiate** button to create the parameters for the parametric analysis.
+2.  Using the **Alias** button please match the size and name of the parameters.
+3.  Associate the [Spreadsheet](Spreadsheet_Workbench.md) and your model.
+4.  Set up analysis model(s) with the [FEM Workbench](FEM_Workbench.md).
+5.  Switch back to the **FEMbyGEN Workbench** and with the **Generate** button, create all generations.
+6.  Click on the **FEA** button and Start FEA to run simulations.
 7.  You can check simulation files by clicking rows of the related generation.
-8.  Click on the button **Results** to get results to the master file.
-9.  Summotion of all loadcases results also will be under Results in tree view.
+8.  Click on the **Results** button to get results into the master file.
+9.  Summation of all load case results will also be under Results in the [tree view](Tree_view.md).
 
 ### Features
 
@@ -27,7 +27,7 @@ FEMbyGEN is a FreeCAD addon. It provides a simple interface to choose the best s
 -   Supports multiple loadcases
 -   Summarize all the results in a table
 -   Sort results by your output weight
--   Summation of all loadcases
+-   Summation of all load cases
 
 ### Features to be supported in the future 
 
@@ -36,7 +36,7 @@ FEMbyGEN is a FreeCAD addon. It provides a simple interface to choose the best s
 
 ### Limitations
 
--   Works only for Calculix Solver
+-   Works only with Calculix Solver
 
 ## Installation
 
@@ -66,4 +66,4 @@ See [How to install additional workbenches](How_to_install_additional_workbenche
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > FEMbyGEN Workbench/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > FEMbyGEN Workbench/en

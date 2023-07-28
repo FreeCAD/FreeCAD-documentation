@@ -1,16 +1,9 @@
-# Part Module/pt-br
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-<img alt="Ícone da bancada de trabalho Part" src=images/Workbench_Part.svg  style="width:128px;">
+# <img alt="Ícone da bancada de trabalho Part" src=images/Workbench_Part.svg  style="width:64px;"> Part Module/pt-br
 
 
 {{TOCright}}
+
+
 
 ## Introdução
 
@@ -28,9 +21,13 @@ Os objetos das peças são mais complexos que os objetos de malha criados com a 
 
 *A bancada de trabalho é a camada básica que expõe as funções de desenho do OCCT a todas as bancadas de trabalho do FreeCAD.*
 
+
+
 ## Ferramentas
 
 As ferramentas estão localizadas no menu **Part** ou no menu **Medida**.
+
+
 
 ### Primitivas
 
@@ -44,29 +41,31 @@ Essas são ferramentas para criar objetos primitivos.
 
 -   <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Cone](Part_Cone/pt-br.md): Cria um cone sólido especificando suas dimensões.
 
--   <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Torus](Part_Torus.md): Creates a torus.
+-   <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Toro](Part_Torus.md): Cria um toro.
 
--   <img alt="" src=images/Part_Tube.svg  style="width:32px;"> [Tube](Part_Tube.md): Creates a tube. <small>(v0.19)</small> 
+-   <img alt="" src=images/Part_Tube.svg  style="width:32px;"> [Tubo](Part_Tube.md): Cria um tubo.
 
--   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Create primitives\...](Part_Primitives.md): A tool to create one of the following primitives:
-    -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Plane](Part_Plane.md): Creates a plane.
-    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Box](Part_Box.md): Creates a box. This object can also be created with the <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Box](Part_Box.md) tool.
-    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Cylinder](Part_Cylinder.md): Creates a cylinder. This object can also be created with the <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Cylinder](Part_Cylinder.md) tool.
-    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Cone](Part_Cone.md): Creates a cone. This object can also be created with the <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Cone](Part_Cone.md) tool.
-    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Sphere](Part_Sphere.md): Creates a sphere. This object can also be created with the <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Sphere](Part_Sphere.md) tool.
-    -   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Ellipsoid](Part_Ellipsoid.md): Creates a ellipsoid.
-    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Torus](Part_Torus.md): Creates a torus. This object can also be created with the <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Torus](Part_Torus.md) tool.
-    -   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Prism](Part_Prism.md): Creates a prism.
-    -   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Wedge](Part_Wedge.md): Creates a wedge.
-    -   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Helix](Part_Helix.md): Creates a helix.
-    -   <img alt="" src=images/Part_Spiral.svg  style="width:32px;"> [Spiral](Part_Spiral.md): Creates a spiral.
-    -   <img alt="" src=images/Part_Circle.svg  style="width:32px;"> [Circle](Part_Circle.md): Creates a circular arc.
-    -   <img alt="" src=images/Part_Ellipse.svg  style="width:32px;"> [Ellipse](Part_Ellipse.md): Creates an elliptical arc.
-    -   <img alt="" src=images/Part_Point.svg  style="width:32px;"> [Point](Part_Point.md): Creates a point.
-    -   <img alt="" src=images/Part_Line.svg  style="width:32px;"> [Line](Part_Line.md): Creates a line.
-    -   <img alt="" src=images/Part_RegularPolygon.svg  style="width:32px;"> [Regular polygon](Part_RegularPolygon.md): Creates a regular polygon.
+-   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Criar primitivas\...](Part_Primitives.md): Uma ferramenta para criar uma das seguintes primitivas:
+    -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Plano](Part_Plane.md): Cria um plano.
+    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Caixa](Part_Box.md): Cria uma caixa. Este objeto também pode ser criado com a ferramenta <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Cubo](Part_Box.md).
+    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Cilindro](Part_Cylinder.md): Cria um cilindro. Este objeto também pode ser criado com a ferramenta <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Cilindro](Part_Cylinder.md).
+    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Cone](Part_Cone.md): Cria um cone. Este objeto também pode ser criado com a ferramenta <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Cone](Part_Cone.md).
+    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Esfera](Part_Sphere.md): Cria uma esfera. Este objeto também pode ser criado com a ferramenta <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Esfera](Part_Sphere.md).
+    -   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Elipsóide](Part_Ellipsoid.md): Cria um elipsóide.
+    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Toro](Part_Torus.md): Cria um toro. Este objeto também pode ser criado com a ferramenta <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Toro](Part_Torus.md).
+    -   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Prisma](Part_Prism.md): Cria um prisma.
+    -   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Cunha](Part_Wedge.md): Cria uma cunha.
+    -   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Helix](Part_Helix.md): Cria uma hélice.
+    -   <img alt="" src=images/Part_Spiral.svg  style="width:32px;"> [Espiral](Part_Spiral.md): Cria uma espiral.
+    -   <img alt="" src=images/Part_Circle.svg  style="width:32px;"> [Círculo](Part_Circle.md): Cria um arco circular.
+    -   <img alt="" src=images/Part_Ellipse.svg  style="width:32px;"> [Elipse](Part_Ellipse.md): Cria um arco elíptico.
+    -   <img alt="" src=images/Part_Point.svg  style="width:32px;"> [Ponto](Part_Point.md): Cria um ponto.
+    -   <img alt="" src=images/Part_Line.svg  style="width:32px;"> [Linha](Part_Line.md): Cria uma linha.
+    -   <img alt="" src=images/Part_RegularPolygon.svg  style="width:32px;"> [Polígono regular](Part_RegularPolygon.md): Cria um polígono regular.
 
--   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Shape builder\...](Part_Builder.md): Creates shapes from various primitives.
+-   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Construtor de formas\...](Part_Builder.md): Cria formas a partir de vários formas primitivas.
+
+
 
 ### Criação e modificação 
 
@@ -74,21 +73,21 @@ Estas são ferramentas para criar novos objetos e modificar os existentes.
 
 -   <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> [Extrusão](Part_Extrude/pt-br.md): Faz a extrusão de faces planas de um objeto.
 
--   <img alt="" src=images/Part_Revolve.svg  style="width:32px;"> [Revolve](Part_Revolve.md): Creates a solid by revolving an object (not a solid) around an axis.
+-   <img alt="" src=images/Part_Revolve.svg  style="width:32px;"> [Revolver](Part_Revolve/pt-br.md): Cria um sólido através da revolução de outro objeto (não sólido) ao redor de um eixo.
 
--   <img alt="" src=images/Part_Mirror.svg  style="width:32px;"> [Mirror](Part_Mirror.md): Mirrors the selected object across a mirror plane.
+-   <img alt="" src=images/Part_Mirror.svg  style="width:32px;"> [Espelho](Part_Mirror/pt-br.md): Cria uma peça simétrica de uma selecionada através de um plano de simetria.
 
--   <img alt="" src=images/Part_Fillet.svg  style="width:32px;"> [Fillet](Part_Fillet.md): Fillets (rounds) edges of an object.
+-   <img alt="" src=images/Part_Fillet.svg  style="width:32px;"> [Filete](Part_Fillet/pt-br.md): Arredonda as arestas de um objeto.
 
--   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Chamfer](Part_Chamfer.md): Chamfers edges of an object.
+-   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Chanfro](Part_Chamfer/pt-br.md): Cria um chanfro nas arestas de um objeto.
 
--   <img alt="" src=images/Part_MakeFace.svg  style="width:32px;"> [Fazer face a partir de fios](Part_MakeFace/pt-br.md): Faz uma face a partir de um conjunto de fios (contornos). <small>(v0.19)</small> 
+-   <img alt="" src=images/Part_MakeFace.svg  style="width:32px;"> [Fazer face a partir de fios](Part_MakeFace/pt-br.md): Faz uma face a partir de um conjunto de fios (contornos).
 
--   <img alt="" src=images/Part_RuledSurface.svg  style="width:32px;"> [Ruled Surface](Part_RuledSurface.md): Creates a ruled surface.
+-   <img alt="" src=images/Part_RuledSurface.svg  style="width:32px;"> [Superfície regrada](Part_RuledSurface/pt-br.md): Cria uma superfície a partir de duas arestas ou dois arames.
 
--   <img alt="" src=images/Part_Loft.svg  style="width:32px;"> [Loft](Part_Loft.md): Lofts from one profile to another.
+-   <img alt="" src=images/Part_Loft.svg  style="width:32px;"> [Loft](Part_Loft/pt-br.md): Cria uma superfície (ou sólido) de um perfil a outro.
 
--   <img alt="" src=images/Part_Sweep.svg  style="width:32px;"> [Sweep](Part_Sweep.md): Sweeps one or more profiles along a path.
+-   <img alt="" src=images/Part_Sweep.svg  style="width:32px;"> [Varredura](Part_Sweep/pt-br.md): Varre um ou mais perfis ao longo de um caminho.
 
 -   <img alt="" src=images/Part_Section.svg  style="width:32px;"> [Seção](Part_Section/pt-br.md): Cria uma seção cruzando um objeto com um plano de seção.
 
@@ -100,9 +99,11 @@ Estas são ferramentas para criar novos objetos e modificar os existentes.
 
 -   <img alt="" src=images/Part_Thickness.svg  style="width:32px;"> [Espessura](Part_Thickness/pt-br.md): Utilitário para gerar uma espessura em um sólido ao selecionar faces.
 
--   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Projeção na superfície](Part_ProjectionOnSurface/pt-br.md): Projeta um logotipo, texto ou qualquer face, fio ou borda em uma superfície. <small>(v0.19)</small> 
+-   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Projeção na superfície](Part_ProjectionOnSurface/pt-br.md): Projeta um logotipo, texto ou qualquer face, fio ou borda em uma superfície.
 
 -   <img alt="" src=images/Part_EditAttachment.svg  style="width:32px;"> [Anexo](Part_EditAttachment/pt-br.md): Prende um objeto a outro objeto.
+
+
 
 ### Booleano
 
@@ -115,9 +116,9 @@ Estas ferramentas realizam operações booleanas.
 
 -   <img alt="" src=images/Part_Booleans.svg  style="width:32px;"> [Operações booleanas](Part_Boolean/pt-br.md): Realiza operações Booleanas sobre os objetos.
 
--   <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Cut](Part_Cut.md): Cuts (subtracts) one object from another.
+-   <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Recortar](Part_Cut/pt-br.md): Corta (subtrai) um objeto de outro.
 
--   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Fuse](Part_Fuse.md): Fuses (unions) two objects.
+-   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [União](Part_Fuse/pt-br.md): Faz a união de dois objetos.
 
 -   <img alt="" src=images/Part_Common.svg  style="width:32px;"> [Interseção](Part_Common/pt-br.md): Extrai a parte comum de dois objetos.
 
@@ -126,17 +127,13 @@ Estas ferramentas realizam operações booleanas.
     -   <img alt="" src=images/Part_JoinEmbed.svg  style="width:32px;"> [Embutir](Part_JoinEmbed/pt-br.md): Incorpora um objeto murado dentro de outro objeto murado.
     -   <img alt="" src=images/Part_JoinCutout.svg  style="width:32px;"> [Corte](Part_JoinCutout/pt-br.md): Cria um corte em uma parede de um objeto para outro objeto murado.
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Part_CompSplittingTools.png  style="width:48px;"> [Ferramentas de divisão](Part_CompSplittingTools/pt-br.md):Este é um ícone-menu na barra de ferramentas da bancada Part que contém os seguintes comandos:
     -   <img alt="" src=images/Part_BooleanFragments.svg  style="width:32px;"> [Fragmentos booleanos](Part_BooleanFragments/pt-br.md): Cria todas as peças que podem ser obtidas por meio das operações booleanas entre objetos. Divide os objetos onde eles se interceptam.
     -   <img alt="" src=images/Part_SliceApart.svg  style="width:32px;"> [Fatiar uma peça](Part_SliceApart/pt-br.md): Ferramenta para dividir formas através da intersecção com outras formas.
     -   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Fatiar](Part_Slice/pt-br.md): Divide um objeto em pedaços através da interseção com outro objeto.
-    -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [XOR](Part_XOR/pt-br.md): Remove o espaço compartilhado por um número par de objetos (versão simétrica da [Diferença](Part_Cut/pt-br.md)).
+    -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [XOR](Part_XOR/pt-br.md): Remove o espaço compartilhado por um número par de objetos (versão simétrica da [Recortar](Part_Cut/pt-br.md)).
 
 
-</div>
 
 ### Medida
 
@@ -150,15 +147,11 @@ Estas ferramentas realizam operações booleanas.
 
 -   <img alt="" src=images/Part_Measure_Toggle_All.svg  style="width:32px;"> [Alternar tudo](Part_Measure_Toggle_All/pt-br.md): Mostra ou oculta todas as medidas.
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Part_Measure_Toggle_3D.svg  style="width:32px;"> [Alternar 3D](Part_Measure_Toggle_3D/pt-br.md): Mostra ou oculta medidas 3D.
 
-
-</div>
-
 -   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width:32px;"> [Alternar o Delta](Part_Measure_Toggle_Delta/pt-br.md): Mostra ou esconde medidas delta.
+
+
 
 ### Outras ferramentas 
 
@@ -166,17 +159,11 @@ Estas ferramentas realizam operações booleanas.
 
 -   <img alt="" src=images/Part_Export.svg  style="width:32px;"> [Exportar](Part_Export/pt-br.md): Esta ferramenta te permite exportar um objeto como arquivo \*.IGES, \*.STEP ou \*.BREP.
 
+-   <img alt="" src=images/Part_BoxSelection.svg  style="width:32px;"> [Caixa de seleção](Part_BoxSelection/pt-br.md): Seleciona faces a partir de uma área retangular.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Part_ShapeFromMesh.png  style="width:32px;"> [Forma a partir de malha](Part_ShapeFromMesh/pt-br.md): Cria uma forma a partir de um objeto de malha.
 
--   <img alt="" src=images/Part_BoxSelection.svg  style="width:32px;"> [CaixaSeleção](Part_BoxSelection/pt-br.md): Seleciona faces a partir de uma área retangular.
-
-
-</div>
-
--   <img alt="" src=images/Part_ShapeFromMesh.png  style="width:32px;"> [Forma a partir de uma malha](Part_ShapeFromMesh/pt-br.md): Cria uma forma a partir de um objeto de malha.
-
--   <img alt="" src=images/Part_PointsFromMesh.svg  style="width:32px;"> [Pontos da malha](Part_PointsFromMesh/pt-br.md): Cria um objeto de forma feito de pontos a partir de um objeto de malha. <small>(v0.19)</small> 
+-   <img alt="" src=images/Part_PointsFromMesh.svg  style="width:32px;"> [Pontos da malha](Part_PointsFromMesh/pt-br.md): Cria um objeto feito de pontos a partir de um objeto geométrico.
 
 -   <img alt="" src=images/Part_MakeSolid.svg  style="width:32px;"> [Converter em sólido](Part_MakeSolid/pt-br.md): Converte uma forma em um sólido.
 
@@ -184,7 +171,7 @@ Estas ferramentas realizam operações booleanas.
 
 -   Criar uma cópia:
     -   <img alt="" src=images/Part_SimpleCopy‎.svg  style="width:32px;"> [Criar uma cópia simples](Part_SimpleCopy/pt-br.md): Cria uma cópia simples de um objeto selecionado.
-    -   <img alt="" src=images/Part_TransformedCopy.svg  style="width:32px;"> [Criar cópia transformada](Part_TransformedCopy/pt-br.md): Cria uma cópia transformada de um objeto selecionado. <small>(v0.19)</small> 
+    -   <img alt="" src=images/Part_TransformedCopy.svg  style="width:32px;"> [Criar cópia transformada](Part_TransformedCopy/pt-br.md): Cria uma cópia transformada de um objeto selecionado.
     -   <img alt="" src=images/Part_ElementCopy.svg  style="width:32px;"> [Criar uma cópia do elemento forma](Part_ElementCopy/pt-br.md): Cria uma cópia a partir de um elemento (vértice, borda, face) de um objeto selecionado. <small>(v0.19)</small> 
     -   <img alt="" src=images/Part_RefineShape.svg  style="width:32px;"> [Refinar a forma](Part_RefineShape/pt-br.md): Limpa as faces removendo linhas desnecessárias.
 
@@ -192,11 +179,15 @@ Estas ferramentas realizam operações booleanas.
 
 -   <img alt="" src=images/Part_Defeaturing.svg  style="width:32px;"> [Desnaturalização](Part_Defeaturing/pt-br.md): Remove recursos de um objeto.
 
+
+
 ### Itens do menu de contexto 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Aparência](Std_SetAppearance/pt-br.md): Determina a aparência de um objeto inteiro (cor, transparência, etc.).
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Cores definidas](Part_FaceColors/pt-br.md): Atribui cores a faces individuais de objetos.
+
+
 
 ## Preferências
 
@@ -208,20 +199,13 @@ Estas ferramentas realizam operações booleanas.
 
 Veja [Script(roteiro) da peça](Part_scripting/pt-br.md).
 
+
+
 ## Tutoriais
 
 -   [Importação de STL ou OBJ](Import_from_STL_or_OBJ/pt-br.md) : Como importar arquivos STL/OBJ no FreeCAD
 -   [Exportação para STL ou OBJ](Export_to_STL_or_OBJ/pt-br.md) : Como exportar arquivos STL/OBJ do FreeCAD
 -   [Whiffle Ball tutorial](Whiffle_Ball_tutorial/pt-br.md) : Como usar o módulo de peças
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

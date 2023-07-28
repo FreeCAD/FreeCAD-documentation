@@ -7,14 +7,18 @@
 
 # Draft Snap Perpendicular/pt-br
 
+
+
 ## Descrição
 
-The <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:24px;"> **Draft Snap Perpendicular** option snaps to the perpendicular points on faces (<small>(v1.0)</small> ) and edges. The faces and edges can belong to [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) objects but also to objects created with other [workbenches](Workbenches.md).
+The <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:24px;"> **Draft Snap Perpendicular** option snaps to the perpendicular projections of a previous point on faces (<small>(v0.21)</small> ) and edges. The faces and edges can belong to [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) objects but also to objects created with other [workbenches](Workbenches.md).
 
 This snap option will also find points on extended faces and edges.
 
 ![](images/Draft_Snap_Perpendicular_example.png ) 
 *Snapping the second point of a line to the perpendicular point on an extended edge*
+
+
 
 ## Utilização
 
@@ -30,8 +34,10 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 6.  Move the cursor over a face or edge.
 7.  The face or edge is highlighted.
 8.  If a perpendicular point is found the point is marked and the <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:16px;"> icon is displayed near the cursor.
-9.  If there are multiple perpendicular points: optionally move the cursor closer to another perpendicular point. <small>(v1.0)</small> 
+9.  If there are multiple perpendicular points: optionally move the cursor closer to another perpendicular point. <small>(v0.21)</small> 
 10. Click to confirm the point.
+
+
 
 ## Preferências
 

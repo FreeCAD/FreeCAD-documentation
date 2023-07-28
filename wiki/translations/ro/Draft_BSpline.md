@@ -94,6 +94,8 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 -   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Proprietăți

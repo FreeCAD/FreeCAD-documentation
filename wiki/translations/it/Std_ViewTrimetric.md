@@ -2,17 +2,14 @@
 - GuiCommand:/it
    Name:Std_ViewTrimetric
    Name/it:Vista trimetrica
-   Empty:1
-   MenuLocation:[Visualizza](Std_View_Menu/it.md) → Viste standard → Assonometria → Trimetrica
+   MenuLocation:Visualizza → Viste standard → Assonometria → Trimetrica
    Workbenches:Tutti
    SeeAlso:[Assonometria isometrica](Std_ViewIsometric/it.md), [Assonometria dimetrica](Std_ViewDimetric/it.md)
-
 ---
 
 # Std ViewTrimetric/it
 
 
-</div>
 
 ## Descrizione
 
@@ -21,15 +18,13 @@ Il comando **Vista trimetrica** orienta la camera della [vista 3D](3D_view/it.md
 ![](images/Std_ViewTrimetric_example.svg ) 
 *Il [sistema di assi](Std_AxisCross.md) e un cubo in vista trimetrica.*
 
+
+
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
--   Selezionare l\'opzione **Visualizza → Viste standard → Assonometria → Trimetrica** dal menu.
+-   Selezionare l\'opzione **Visualizza → Viste standard → Assonometria → <img src="images/Std_ViewTrimetric.svg" width=16px> Trimetrica** dal menu.
 
 
-</div>
 
 ## Script
 
@@ -49,13 +44,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

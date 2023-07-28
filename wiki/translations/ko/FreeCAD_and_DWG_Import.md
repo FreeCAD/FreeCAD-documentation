@@ -5,6 +5,8 @@
 {{Fake heading|sub=4|< Back to [[FreeCAD Howto Import Export]]}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## 왜 DWG 파일을 FreeCAD 안으로 import 할 수 없나요? 
@@ -15,6 +17,8 @@ DWG 형식은 닫힌 소스 이진 파일 형식이며 FreeCAD에서 직접 지�
 </div>
 
 The DWG format is a closed source binary file format that is not directly supported by FreeCAD. It requires an external 3rd party file converter to convert DWG files to DXF files, and vice-versa.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -34,7 +38,7 @@ GNU LibreDWG is a free C library to handle DWG files. It aims to be a free repla
 
 #### Installation Windows 
 
-Downloading and unzip the appropriate [pre-compiled Windows binary](https://github.com/LibreDWG/libredwg/releases) and then set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
+Downloading and unzip the appropriate [pre-compiled Windows binary](https://github.com/LibreDWG/libredwg/releases). Place the executable in the OS search path, {{Incode|os.getenv("PATH")}}, for automatic detection (<small>(v0.21)</small> ), or set the path manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
 
 #### Installation Linux/Unix systems 
 
@@ -50,7 +54,7 @@ make install # or use checkinstall, or simply locate & copy the dwg2dxf
              # utility to your executables path, it will be then autodetected by FreeCAD
 }}
 
-You need to set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
+Place the executable in the OS search path, {{Incode|os.getenv("PATH")}}, for automatic detection (<small>(v0.21)</small> ), or set the path manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
 
 #### Installation openSUSE 
 
@@ -69,7 +73,9 @@ In any terminal/console (root rights required) the installation will be carried 
 zypper install libredwg0 libredwg-tools
 ```
 
-You need to set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
+Place the executable in the OS search path, {{Incode|os.getenv("PATH")}}, for automatic detection (<small>(v0.21)</small> ), or set the path manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -88,6 +94,8 @@ You need to set the path to the executable manually. See [Import Export Preferen
 -   optional, used to enable import and export of DWG files
 
 The ODA File Converter is a small freely available utility that allows to convert between several versions of DWG and DXF files. FreeCAD can use it to offer DWG import and export, by converting DWG files to the DXF format under the hood, then using its standard DXF importer to import the file contents. The restrictions of the [DXF importer](Draft_DXF.md) apply.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -114,13 +122,15 @@ QCAD is a well-known open-source DXF-based 2D CAD platform. It also offers a pai
 
 #### Installation
 
-You need to set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
+If the utility is not found automatically by FreeCAD after installation (<small>(v0.21)</small> ), you need to set the path to the bash file (Linux and macOS) or batch file (Windows) manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
 
 ### CADExchanger Workbench 
 
 Installing the CADExchanger Workbench allows for working with DWG files through integration with the paid commercial file converter product [CADExchanger](https://cadexchanger.com/). Just follow the instructions in the [GitHub repository](https://github.com/yorikvanhavre/CADExchanger). You can discuss this workbench on [its forum thread](https://forum.freecadweb.org/viewtopic.php?f=9&t=22227&p=462421).
 
 At the moment, the CADExchanger way is the only one that allows to work with 3D DWG files, by converting them to other 3D formats.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -139,6 +149,8 @@ There is also DoubleCAD XT (https://www.turbocad.com/content/doublecad-xt-v5). T
 There is also nanoCAD 5.0 (https://nanocad.com/products/nanoCAD/download/). The program is free for personal and commercial use. It requires a free sign-up to receive an activation code via E-Mail. This Program is windows-only.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### AutoCAD 파일을 친근한 형식으로 내보내기 
@@ -153,12 +165,16 @@ Exporting your AutoCAD files in a more FreeCAD friendly format, like DXF R12 or 
 It is important to note that there is no difference between the contents of a file saved in DWG or DXF formats, provided it is the same version (ex. DWG 2014 vs. DXF 2014). Both formats are maintained by Autodesk, and they both support exactly the same features. The difference is that DWG is closed (machine-encoded) while DXF is open.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## 도우려면 무엇을 할 수 있나요? 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

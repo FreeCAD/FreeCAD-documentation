@@ -13,9 +13,13 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Questo strumento può essere usato in Sketcher per chiudere un contorno selezionato impostando un punto finale di un elemento coincidente con il punto finale del successivo elemento selezionato.
+
+
 
 ## Utilizzo
 
@@ -30,6 +34,8 @@ Questo strumento può essere usato in Sketcher per chiudere un contorno selezion
 
 
 </div>
+
+
 
 ## Note
 

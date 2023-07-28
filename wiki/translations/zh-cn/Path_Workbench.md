@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## 简介
 
 
@@ -179,13 +181,13 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_OpActiveToggle.svg  style="width:32px;"> [Toggle the Active State of the Operation](Path_OpActiveToggle.md): Activates or de-activates a path operation.
 
--   <img alt="" src=images/Path_ToolBitLibraryOpen.svg  style="width:32px;"> [ToolBit Library editor](Path_ToolBitLibraryOpen.md): Opens an editor to manage ToolBit libraries. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_ToolBitLibraryOpen.svg  style="width:32px;"> [ToolBit Library editor](Path_ToolBitLibraryOpen.md): Opens an editor to manage ToolBit libraries.
 
--   <img alt="" src=images/Path_ToolBitDock.svg  style="width:32px;"> [ToolBit Dock](Path_ToolBitDock.md): Toggles the ToolBit Dock. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_ToolBitDock.svg  style="width:32px;"> [ToolBit Dock](Path_ToolBitDock.md): Toggles the ToolBit Dock.
 
 ### Basic Operations 
 
--   <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profile](Path_Profile.md): Creates a profile operation of the entire model, or from one or more selected faces or edges. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profile](Path_Profile.md): Creates a profile operation of the entire model, or from one or more selected faces or edges.
 
 -   <img alt="" src=images/Path_Pocket_Shape.svg  style="width:32px;"> [Pocket Shape](Path_Pocket_Shape.md): Creates a pocketing operation from one or more selected pocket(s).
 
@@ -197,13 +199,13 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
--   <img alt="" src=images/Path_Face.svg  style="width:32px;"> [Face](Path_MillFace.md): Creates a surfacing path.
+-   <img alt="" src=images/Path_MillFace.svg  style="width:32px;"> [Face](Path_MillFace.md): Creates a surfacing path.
 
 -   <img alt="" src=images/Path_Helix.svg  style="width:32px;"> [Helix](Path_Helix.md): Creates a helical path.
 
 -   <img alt="" src=images/Path_Adaptive.svg  style="width:32px;"> [Adaptive](Path_Adaptive.md): Creates an adaptive clearing and profiling operation.
 
--   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> [Slot](Path_Slot.md): Creates a slotting operation from selected features or custom points. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> [Slot](Path_Slot.md): Creates a slotting operation from selected features or custom points. [**Experimental**](Path_experimental.md).
 
 -   <img alt="" src=images/Path_Engrave.svg  style="width:32px;"> [Engrave](Path_Engrave.md): Creates an engraving path.
 
@@ -219,7 +221,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 ### 3D Operations 
 
--   <img alt="" src=images/Path_3DPocket.svg  style="width:32px;"> [3D Pocket](Path_Pocket_3D.md): Creates a path for a 3D pocket.
+-   <img alt="" src=images/Path_Pocket_3D.svg  style="width:32px;"> [3D Pocket](Path_Pocket_3D.md): Creates a path for a 3D pocket.
 
 
 <div class="mw-translate-fuzzy">
@@ -229,11 +231,13 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
--   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Waterline](Path_Waterline.md): Creates a waterline path for a 3D surface. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Waterline](Path_Waterline.md): Creates a waterline path for a 3D surface. [**Experimental**](Path_experimental.md).
 
 ### Path Dressup 
 
--   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:32px;"> [Boundary Dressup](Path_DressupPathBoundary.md): Adds a boundary dressup modification to a selected path.
+-   <img alt="" src=images/Path_DressupAxisMap.svg  style="width:32px;"> [Axis Map](Path_DressupAxisMap.md): Remaps one axis to another.
+
+-   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:32px;"> [Boundary](Path_DressupPathBoundary.md): Adds a boundary dressup modification to a selected path.
 
 
 <div class="mw-translate-fuzzy">
@@ -243,13 +247,17 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
--   <img alt="" src=images/Path_DressupDragKnife.svg  style="width:32px;"> [DragKnife Dressup](Path_DressupDragKnife.md): Adds a dragknife dressup modification to a selected path.
+-   <img alt="" src=images/Path_DressupDragKnife.svg  style="width:32px;"> [DragKnife](Path_DressupDragKnife.md): Adds a dragknife dressup modification to a selected path.
 
--   <img alt="" src=images/Path_DressupLeadInOut.svg  style="width:32px;"> [LeadInOut Dressup](Path_DressupLeadInOut.md): Adds a lead-in and/or lead-out point to a selected path.
+-   <img alt="" src=images/Path_DressupLeadInOut.svg  style="width:32px;"> [LeadInOut](Path_DressupLeadInOut.md): Adds a lead-in and/or lead-out point to a selected path.
 
--   <img alt="" src=images/Path_DressupRampEntry.svg  style="width:32px;"> [RampEntry Dressup](Path_DressupRampEntry.md): Adds ramp entry dressup modification to a selected path.
+-   <img alt="" src=images/Path_DressupRampEntry.svg  style="width:32px;"> [RampEntry](Path_DressupRampEntry.md): Adds ramp entry dressup modification to a selected path.
 
--   <img alt="" src=images/Path_DressupTag.svg  style="width:32px;"> [Tag Dressup](Path_DressupTag.md): Adds a holding tag dressup modification to a selected path.
+-   <img alt="" src=images/Path_DressupTag.svg  style="width:32px;"> [Tag](Path_DressupTag.md): Adds a holding tag dressup modification to a selected path.
+
+-   <img alt="" src=images/Path_DressupZCorrect.svg  style="width:32px;"> [Z Depth Correction](Path_DressupZCorrect.md): Corrects the Z depth using Probe Map.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -291,7 +299,11 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
+-   <img alt="" src=images/Path_Probe.svg  style="width:32px;"> [Probe](Path_Probe.md): Creates a Probing Grid from a job stock.
+
 -   <img alt="" src=images/Path_Shape.svg  style="width:32px;"> [From Shape](Path_Shape/zh-cn.md): Creates a path object from a selected Part object. [**Experimental**](Path_experimental.md).
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -325,6 +337,10 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
+### Specialty Operations 
+
+-   <img alt="" src=images/Path_ThreadMilling.svg  style="width:32px;"> [Thread Milling](Path_ThreadMilling.md): Creates a Path Thread Milling operation from features of a base object. [**Experimental**](Path_experimental.md).
+
 ### Miscellaneous
 
 
@@ -355,7 +371,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 ## ToolBit architecture 
 
-Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <small>(v0.19)</small> 
+Manage tools, bits, and the Tool Library. Based on the ToolBit architecture.
 
 -   [Path Tools](Path_Tools.md)
 -   [Path ToolShape](Path_ToolShape.md)
@@ -376,6 +392,8 @@ Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <sm
 ## Preferences
 
 -   <img alt="" src=images/Preferences-path.svg  style="width:32px;"> [Preferences\...](Path_Preferences.md): Preferences available for the Path Workbench.
+
+
 
 ## 脚本
 

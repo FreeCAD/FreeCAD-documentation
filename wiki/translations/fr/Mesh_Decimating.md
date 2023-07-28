@@ -10,7 +10,7 @@
 
 ## Description
 
-La commande **Mesh Décimation** réduit le nombre de faces dans les objets maillés.
+La commande **Décimation** réduit le nombre de faces des objets maillés.
 
 
 

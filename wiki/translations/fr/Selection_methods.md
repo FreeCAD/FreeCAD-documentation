@@ -23,9 +23,9 @@ La sélection simple avec la souris (par défaut clic gauche) et la présélecti
 
 ### Clics répétés 
 
-Le premier clic sélectionne un sous-élément (sommet, arête ou face) de l\'objet sous la souris. Un deuxième clic sélectionne tout l\'objet. {{Version/fr|0.18}}
+Le premier clic sélectionne un sous-élément (sommet, arête ou face) de l\'objet sous la souris. Un deuxième clic sélectionne tout l\'objet.
 
-Le troisième clic étend la sélection à son objet conteneur ([PartDesign Corps](PartDesign_Body/fr.md), [Std Part](Std_Part/fr.md) et autres). Des clics supplémentaires développent la sélection dans la chaîne de conteneurs. {{Version/fr|0.19}}
+Le troisième clic étend la sélection à son objet conteneur ([PartDesign Corps](PartDesign_Body/fr.md), [Std Part](Std_Part/fr.md) et autres). Des clics supplémentaires développent la sélection dans la chaîne de conteneurs.
 
 
 

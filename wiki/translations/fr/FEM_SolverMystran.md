@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:FEM SolverMystran
    Name/fr:FEM Solveur Mystran
-   MenuLocation:Solveur → Solveur Mystran
+   MenuLocation:Résolution → Solveur Mystran
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Shortcut:**S** **M**
    Version:0.20
@@ -19,9 +19,13 @@ La commande [Solveur Mystran](FEM_SolverMystran/fr.md) permet d\'utiliser le sol
 2.  Sélectionner le répertoire de travail
 3.  Exécuter le solveur MYSTRAN
 
+
+
 ## Utilisation
 
-A faire
+À faire
+
+
 
 ## Fonction du fichier 
 

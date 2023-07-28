@@ -1,81 +1,87 @@
 # Tasks Placement/pl
 ## Opis
 
-Command for modifying **Placement**. These options relate only to the position and orientation of the object in space, they do not affect other attributes of the shape. The placement is stored internally as a position, and a rotation (rotation axis and angle transformed into a [quaternion](https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation)). While there are several methods to specify a rotation, for instance with a rotation center, this is only used to affect the rotation computation and is not stored for later operations. Similarly, if a rotation axis of (1,1,1) is specified, it may be normalized when stored in the quaternion and appear as (0.58, 0.58, 0.58) when browsing the object later.
+Polecenie modyfikujące **Umiejscowienie**. Opcje te odnoszą się tylko do położenia i orientacji obiektu w przestrzeni, nie wpływają na inne atrybuty kształtu. Umiejscowienie jest przechowywane wewnętrznie jako pozycja i obrót *(oś obrotu i kąt przekształcone w [kwaternion](https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation))*. Chociaż istnieje kilka metod określania obrotu, na przykład za pomocą środka obrotu, jest on używany tylko do wpływania na obliczenia obrotu i nie jest przechowywany do późniejszych operacji. Podobnie, jeśli określono oś obrotu *(1,1,1)*, może ona zostać znormalizowana po zapisaniu w kwaternionie i pojawić się jako *(0,58, 0,58, 0,58)* podczas późniejszego przeglądania parametrów obiektu.
 
-## Usage
 
-The function **Placement** can be accessed in several ways:
 
--   via [script](Python_scripting_tutorial#Vecteurs_et_Positions.md) Python in the console and its [API](Placement_API.md).
+## Użycie
 
-:   ![Scripting Placement as y/p/r and Matrix](images/PlacePyConv10.png )
+Dostęp do funkcji **Umiejscowienie** można uzyskać na kilka sposobów:
 
--   or, in the window **Combo View → Properties → Data → Placement → **...****,
+-   poprzez [skrypty](Python_scripting_tutorial#Vecteurs_et_Positions.md) Python w konsoli i jego [API](Placement_API.md).
 
-:   ![Task_Placement](images/Tache_Placement_fr_01.png )
+:   ![Tworzenie skryptów Umiejscowienie jako y/p/r i macierz](images/PlacePyConv10.png )
 
--   or by the menu **Edit → Placement\...**.
+-   lub w oknie **Widoku połączonego → Właściwości → Dane → Umiejscowienie → **...****,
 
-### Enable Placement in Combo View 
+:   ![Task_Placement/pl](images/Tache_Placement_fr_01.png )
 
--   Click a shape to select it.
--   Click **Placement** (the title, not the little arrow), and a button with an ellipsis **...** appears: <img alt="Tache_Placement" src=images/Tache_Placement_01_fr_00.png  style="width:256px;">
--   Click on the ellipsis, and the **Placement Dialog** is displayed:
+-   lub przez menu **Edycja → Umiejscowienie ...**.
+
+
+
+### Włączenie umiejscowienia w Widoku połączonym 
+
+-   Kliknij kształt, aby go zaznaczyć.
+-   Kliknij Umiejscowienie*\'*(tytuł, nie małą strzałkę)\'\', a pojawi się przycisk z wielokropkiem **…**: <img alt="Rozmieszczenie detali" src=images/Tache_Placement_01_fr_00.png  style="width:256px;">
+-   Kliknięcie wielokropka spowoduje wyświetlenie okna dialogowego **Umiejscowienie**:
 
 :   ![](images/Tache_Placement_en_02.png )
 
-### Options
 
 
-{{TitleProperty|Translation}}
-
--    {{TasksTag|X}}<img alt="Translation in X direction (Click to enlarge)" src=images/Tache_Placement_Translation_X_fr.gif  style="width:150px;"> Moves the coordinate system of the object in the **X** direction in relation to the axis coordinates of origin 0, 0, 0.
-
--    {{TasksTag|Y}}<img alt="Translation in the Y direction (Click to enlarge)" src=images/Tache_Placement_Translation_Y_fr.gif  style="width:150px;"> Moves the coordinate system of the object in the **Y** direction in relation to the axis coordinates of origin 0, 0, 0.
-
--    {{TasksTag|Z}}<img alt="Translation in the Z direction (Click to enlarge)" src=images/Tache_Placement_Translation_Z_fr.gif  style="width:150px;"> Moves the coordinate system of the object in the **Z** direction in relation to the axis coordinates of origin 0, 0, 0.
+### Opcje
 
 
-{{TitleProperty|Center}}
+{{TitleProperty|Przesunięcie}}
 
--    {{TasksTag|X}}: Move the center of rotation in the direction **X**, from the coordinates of the selected object. (default: 0,0,0).
+-    {{TasksTag|X}}<img alt="Przemieszczenie w kierunku X *(kliknij, aby powiększyć)*" src=images/Tache_Placement_Translation_X_fr.gif  style="width:150px;"> Przesuwa układ współrzędnych obiektu w kierunku **X** w odniesieniu do współrzędnych początku osi 0, 0, 0.
 
--    {{TasksTag|Y}}: Move the center of rotation in the direction **Y**, from the coordinates of the selected object. (default: 0,0,0).
+-    {{TasksTag|Y}}<img alt="Przemieszczenie w kierunku Y *(kliknij, aby powiększyć)*" src=images/Tache_Placement_Translation_Y_fr.gif  style="width:150px;"> Przesuwa układ współrzędnych obiektu w kierunku **Y** w odniesieniu do współrzędnych początku osi 0, 0, 0.
 
--    {{TasksTag|Z}}: Move the center of rotation in the direction **Z**, from the coordinates of the selected object. (default: 0,0,0).
-
--    {{TasksTag|User Defined...}}: Allows you to change the three axes (**X, Y, Z**) in a single operation <img alt="User Defined" src=images/Part_Revolve_fr_06.png  style="width:96px;">.
+-    {{TasksTag|Z}}<img alt="Przemieszczenie w kierunku Z *(kliknij, aby powiększyć)*" src=images/Tache_Placement_Translation_Z_fr.gif  style="width:150px;"> Przesuwa układ współrzędnych obiektu w kierunku **Z** w odniesieniu do współrzędnych początku osi 0, 0, 0.
 
 
-{{TitleProperty|Rotation}}
+{{TitleProperty|Środek}}
 
-To adjust our **rotation parameters** we have two methods available.
+-    {{TasksTag|X}}: Przesuwa środek obrotu w kierunku **X**, od współrzędnych wybranego obiektu. *(domyślnie: 0,0,0)*
 
--   First option. Select **Rotation axis with angle**<img alt="Tache_Placement Option rotation axis and angle" src=images/Tache_Placement_fr_05.png  style="width:256px;"> (Default).
+-    {{TasksTag|Y}}: Przesuwa środek obrotu w kierunku **Y**, od współrzędnych wybranego obiektu. *(domyślnie: 0,0,0)*
+
+-    {{TasksTag|Z}}: Przesuwa środek obrotu w kierunku **Z**, od współrzędnych wybranego obiektu. *(domyślnie: 0,0,0)*
+
+-    {{TasksTag|User Defined...}}: Umożliwia modyfikację wartości współrzędnych trzech osi *(**X, Y, Z**)* w jednej operacji <img alt="Określony przez użytkownika" src=images/Part_Revolve_fr_06.png  style="width:96px;">.
+
+
+{{TitleProperty|Obrót}}
+
+Aby dostosować nasze **parametry obrotu**, mamy do dyspozycji dwie metody.
+
+-   Pierwsza opcja. Wybierz **Oś obrotu z zadanym kątem**<img alt="Detale umiejscowienia. Opcja osi obrotu i kąta" src=images/Tache_Placement_fr_05.png  style="width:256px;"> *(Domyślnie)*.
     -   
-        {{TasksTag|Axis: X}}
+        {{TasksTag|Oś: X}}
         
-        : The rotation will be on the **X** axis.
-
-    -   
-        {{TasksTag|Axis: Y}}
-        
-        : The rotation will be on the **Y** axis.
+        : Obrót nastąpi na osi **X**.
 
     -   
-        {{TasksTag|Axis: Z}}
+        {{TasksTag|Oś: Y}}
         
-        : The rotation will be on the **Z** axis. (Default axis).
+        : Obrót będzie na osi *Y*.
 
     -   
-        {{TasksTag|Angle:}}
+        {{TasksTag|Oś: Z}}
         
-        Angle of rotation in degrees from **-360.00 °** to **360.00 °**. (Default: **0.00°**).
+        : Obrót nastąpi na osi *Z*. (Oś domyślna).
 
--   Second option. Select **Euler Angles** <img alt="Tache_Placement Option Euler angles" src=images/Tache_Placement_fr_04.png  style="width:256px;">.
+    -   
+        {{TasksTag|Oś:}}
+        
+        . Kąt obrotu w stopniach od **-360.00°** do **360.00°** *(Domyślnie: **0.00°**)*.
 
-This option may be easier to work with, however, even in this mode, there are important things to remember: Positive rotations are in the **clockwise** direction, looking **out** from the origin along a positive axis. Or to put it differently, the rotations are positive in the **counterclockwise** direction, looking **in** to the origin along a positive axis.
+-   Druga opcja. Wybierz **Kąty Eulera** <img alt="Detale umiejscowienia. Opcja kątów Eulera" src=images/Tache_Placement_fr_04.png  style="width:256px;">.
+
+Ta opcja może być łatwiejsza w użyciu, jednak nawet w tym trybie należy pamiętać o ważnych rzeczach: Dodatnie obroty są w kierunku zgodnym z **ruchem wskazówek zegara**, patrząc **na zewnątrz** od początku wzdłuż dodatniej osi. Mówiąc inaczej, obroty są dodatnie w kierunku **przeciwnym do ruchu wskazówek zegara**, patrząc **do środka** do początku wzdłuż dodatniej osi.
 
   -
 
@@ -85,7 +91,7 @@ This option may be easier to work with, however, even in this mode, there are im
 
 </div>
 
-**[Yaw](https://en.wikipedia.org/wiki/Flight_dynamics_(fixed-wing_aircraft))** : is a horizontal rotation of a body about a vertical axis. (The symbol **ψ** is often used for yaw.)
+**[Yaw](https://en.wikipedia.org/wiki/Flight_dynamics_(fixed-wing_aircraft))** : to poziomy obrót Zawartości wokół osi pionowej. *(Symbol **ψ**\' jest często używany dla odchylenia)*.
 
   -
 
@@ -95,43 +101,45 @@ This option may be easier to work with, however, even in this mode, there are im
 
 </div>
 
-**[Pitch](https://en.wikipedia.org/wiki/Flight_dynamics_(fixed-wing_aircraft))** : is defined as an oscillating movement of a vessel fore and aft.
+**[Pitch](https://en.wikipedia.org/wiki/Flight_dynamics_(fixed-wing_aircraft))** : definiuje się jako oscylacyjny ruch statku do przodu i do tyłu.
 
   -
 
 
-<div id="Obrót">
+<div id="Roll">
 
 
 </div>
 
-**[Obrót](https://en.wikipedia.org/wiki/Flight_dynamics_(fixed-wing_aircraft))** : jest to ruch obrotowy ciała wokół jego osi wzdłużnej *(osi obrotu)*.
+**[Roll](https://en.wikipedia.org/wiki/Flight_dynamics_(fixed-wing_aircraft))** : jest to ruch obrotowy ciała wokół jego osi wzdłużnej *(osi obrotu)*.
 
-Yaw, pitch and roll refer to the **attitude** of an object in 3D space. These terms are commonly used in aviation. The angles are the **Tait-Bryan angles**. If you want more information, read [Euler angles](https://en.wikipedia.org/wiki/Euler_angles).
+Odchylenie *(yaw)*, wychylenie *(pitch)* i przechylenie *(roll)* odnoszą się do \"położenia\" obiektu w przestrzeni 3D. Terminy te są powszechnie używane w lotnictwie. Kąty te są **kątami Taita-Bryana**. Więcej informacji można znaleźć na stronie [Kąty Eulera](https://en.wikipedia.org/wiki/Euler_angles).
 
-![None\|Option Euler angles](images/Tache_Placement_en_03.png )
+![None\|Opcja Kąty Eulera](images/Tache_Placement_en_03.png )
 
 ![None\|Yaw](images/Tache_Placement_Lacet_fr_Mini.gif )
 
--    {{TasksTag|yaw axis}}**Yaw is the rotation about the Z axis**, that is to say a rotation from left to right. (The Yaw angle is the **Psi ψ**). Value **-360.00 °** to **360, 00 °**(Default, **0.00 °**).
+-    {{TasksTag|oś yaw}}**Yaw to obrót wokół osi Z**, czyli obrót od lewej do prawej. *(Kąt odchylenia to*Psi ψ*)*. Wartość **-360,00°** do **360, 00°** *(domyślnie, **0,00°**)*.
 
 ![None\|Pitch](images/Tache_Placement_Tangage_fr_Mini.gif )
 
--    {{TasksTag|pitch axis}}**Pitch is rotation about the Y axis**, that is to say nose-up and nose-down. (The Pitch angle is the **Phi φ**). Value **-360.00 °** to **360, 00 °**(Default, **0.00 °**).
+-    {{TasksTag|oś pitch}}**Pitch to obrót wokół osi Y**, czyli nos w górę i nos w dół. *(Kąt nachylenia to **Phi φ**)*. Wartość **-360,00°** do **360, 00°** *(domyślnie **0,00°**)*.
 
 ![None\|Obrót](images/Tache_Placement_Roulis_fr_Mini.gif )
 
--    {{TasksTag|roll axis}}**Obrót oznacza obrót wokół osi X**, czyli inaczej mówiąc skrzydło w górę i w dół. *(Kąt obrotu to **Thêta θ**)*. Przyjmuje wartość **-360.00 °** do **360, 00 °** *(Domyślnie, **0.00 °**)*.
+-    {{TasksTag|oś roll}}**Roll oznacza obrót wokół osi X**, czyli inaczej mówiąc skrzydło w górę i w dół. *(Kąt obrotu to **Thêta θ**)*. Przyjmuje wartość **-360.00°** do **360, 00°** *(domyślnie, **0.00°**)*.
 
--    {{TasksTag|Apply incremental changes}}to the placement of the object: Once selected, this option **virtually** sets all parameters to zero, to allow you to enter your values ​​without having to calculate with the original parameters of the form. Once you have confirmed with **OK**, the entered values ​​will be added to the values ​​on the form.
+-    {{TasksTag|Zastosuj zmiany przyrostowe}}do umieszczenia obiektu: Po wybraniu, ta opcja **wirtualnie** ustawia wszystkie parametry na zero, aby umożliwić wprowadzenie wartości bez konieczności obliczania z oryginalnymi parametrami formularza. Po potwierdzeniu przyciskiem **OK**, wprowadzone wartości zostaną dodane do wartości w formularzu.
 
--   The **Reset** returns all values ​​to **0,0,0**.
+-   Przycisk **Reset** przywraca wszystkie wartości do **0,0,0**.
 
-## Links and Example 
 
-A practical example of using this command is in the tutorial [Aeroplane](Aeroplane.md).
 
-Other explanation on [Placement](Placement.md).
+## Odnośniki internetowe i przykłady 
+
+Praktyczny przykład użycia tego polecenia znajduje się w poradniku [Samolot](Aeroplane/pl.md).
+
+Inne wyjaśnienie dotyczące [Umiejscowienie](Placement/pl.md).
 
 
 

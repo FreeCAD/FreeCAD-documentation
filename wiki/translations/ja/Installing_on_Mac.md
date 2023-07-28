@@ -29,7 +29,15 @@ brew install freecad
 
 If there are any issues with the HomeBrew Cask or Formula you may report them to [here](https://github.com/FreeCAD/homebrew-freecad).
 
+
+<div class="mw-translate-fuzzy">
+
 このページではFreeCADインストーラーの使い方と機能を説明しています。またアンインストール方法も記載されています。 インストールが終わると[使い始めることができます](Getting_started/jp.md)！
+
+
+</div>
+
+
 
 ### 簡単なインストール
 
@@ -41,9 +49,17 @@ The FreeCAD installer is provided as a app package (.app) enclosed in a disk ima
 
 ![](images/mac_installer_1.png )
 
+
+<div class="mw-translate-fuzzy">
+
 インストールされるパッケージのリストが記載された**Customize Installation**画面をインストーラーが表示します。もし既にこれらのパッケージのどれかがインストールされている場合はチェックボックスを使ってインストール選択を外すことができます。インストールされているかどうかわからない場合は全てのアイテムにチェックをいれたままにしておいてください。
 
 ![](images/mac_installer_2.png )
+
+
+</div>
+
+
 
 ### アンインストール
 

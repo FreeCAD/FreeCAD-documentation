@@ -13,7 +13,7 @@
 
 The **ResultShow** command opens the dialog for a FEM results object. A Result object is automatically created when a FEM analysis was performed using either the solver [Calculix](FEM_SolverCalculixCxxtools.md) or [Z88](FEM_SolverZ88.md).
 
-A Result object holds the resulting mesh and allows to visualize results. It is designed and therefore limited to thermomechanical results. For these result types the Result object can be used as alternative to a [result pipeline](FEM_PostPipelineFromResult.md). A result pipeline can be used to visualize any kind of results (also electrical etc.).
+A Result object holds the resulting mesh and allows to visualize results. It is designed and therefore limited to thermomechanical results. Except for the [Solver Elmer](FEM_SolverElmer.md), it can be used as alternative to a [result pipeline](FEM_PostPipelineFromResult.md). A result pipeline can be used to visualize any kind of results (also electrical etc.).
 
 The units used for the Result object are those of the set [unit system](Preferences_Editor#Units.md) while for a result pipelines, the units are [SI](https://en.wikipedia.org/wiki/International_System_of_Units).
 

@@ -17,6 +17,8 @@
 
 
 
+
+
 ## Wprowadzenie
 
 Ten poradnik pokazuje jak stworzyć wyrenderowany obraz w programie FreeCAD, używając renderera POV-Ray. Zakłada on, że użytkownik stworzył już część lub złożenie w FreeCAD, lub zaimportował je do niego. Do wytworzenia pliku do renderowania użyto środowiska pracy [Raytracing](Raytracing_Workbench/pl.md).
@@ -31,21 +33,25 @@ Ten poradnik jest oparty na poście forum autorstwa schupin [FreeCAD / pov ray t
 
 The files used in this tutorial are in post #8 [in the same thread](https://forum.freecadweb.org/viewtopic.php?f=36&t=32745#p305169).
 
+
+
 ## Konfiguracja podstawowa 
 
 Follow the basic workflow outlined in the [Raytracing Workbench](Raytracing_Workbench.md) documentation.
 
 For direct rendering to work, the `povray` executable must be set in **Edit → Preferences → Raytracing → Render → POV-Ray executable**; set it to its location in your system, for example, `/usr/bin/povray`. Other options used by the renderer can be defined here as well, including the width `+W` and height `+H` of the image, and the use of antialiasing `+A`.
 
-## Setup the .pov file 
 
-1\. Create an assembly using bodies from the [Part](Part_Workbench.md) or [PartDesign Workbenches](PartDesign_Workbench.md), or any other workbench that produces solid objects, for example, the [Arch Workbench](Arch_Workbench.md). Assign colors or materials to the individual bodies that make the assembly, approximately matching the color that you want in your render.
+
+## Przygotowanie pliku .pov 
+
+1\. Stwórz projekt korzystając z części wytworzonych za pomocą środowisk[Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) czy dowolnego innego które pozwoli na stworzenie bryły jak na przykład środowisko [Architektura](Arch_workbench/pl.md). Następnie przypisz elementom kolory lub materiały tak by w przybliżeniu przypominały ostateczny docelowy wygląd.
 
 <img alt="" src=images/01_T04_FreeCAD_POVray_model.png  style="width:600px;">
 
 
 
-*align=center|Assembly of three bodies created in FreeCAD, and with colors or materials assigned.*
+*align=center|Złożenie trzech elementów w FreeCAD, z wstępnie przypisanymi kolorami lub/i materiałami.*
 
 2\. If your model is very detailed, make sure the **Deviation** of the body is set to a low value, between `0.1` and `0.01`, or even smaller. The lower this value is, the more detailed the exported mesh will be, and thus the better the quality of the render will be.
 
@@ -109,6 +115,8 @@ Once again double click the `PovProject` object and now choose the `RadiosityOut
 If the rendered image is good enough, then it can be saved, and there is nothing more to do. However, in order to control precisely the appearance of the materials and produce even better results, the `.pov` file needs to be edited manually.
 
 In the following sections, we edit the basic `.pov` file produced with the `ProjectStd` template.
+
+
 
 ## Edycja pliku .pov 
 
@@ -877,9 +885,11 @@ The user is advised to read the POV-Ray documentation and more tutorials or exam
 -   [POV-Ray Reference](http://www.povray.org/documentation/3.7.0/r3_0.html)
 
 
- {{Raytracing Tools navi}}
+{{Raytracing Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Raytracing](Category_Raytracing.md) > Tutorial FreeCAD POV ray/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Tutorial FreeCAD POV ray/pl

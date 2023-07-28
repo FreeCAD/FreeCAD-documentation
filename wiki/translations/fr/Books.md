@@ -1,6 +1,27 @@
 # Books/fr
 Cette page liste les livres sur FreeCAD que nous connaissons :
 
+
+
+## FreeCAD kit de démarrage pour débutants 
+
+Par Aleksander Sadowski, publié en mai 2023, ebook/livre de poche
+
+<img alt="" src=images/Freecad_book_aleks.jpg  style="width:240px;">
+
+FreeCAD est généralement connu pour sa courbe d\'apprentissage abrupte qui découle d\'une quantité écrasante de possibilités offertes au débutant. Ce livre simplifie l\'utilisation de FreeCAD en vous fournissant un flux de travail facile, tout en donnant le contexte des fonctions dont vous avez besoin. Vous apprendrez à créer des projets amusants, à concevoir des gadgets utiles pour votre maison ou même à partir à l\'aventure et à concevoir vos propres produits. Ce livre s\'efforce de condenser les connaissances des cours pour débutants dans un guide tangible que tout le monde peut prendre en main pour apprendre à créer des dessins en 3D avec FreeCAD. Vous surmonterez votre frustration de casser des modèles ou de ne pas savoir comment les récupérer et vous serez suffisamment confiant pour pouvoir créer vos propres conceptions du début à la fin - de la première idée au modèle imprimable en 3D.
+
+Vous apprendrez les concepts de base de la modélisation 3D solide et comment les appliquer à l\'aide de FreeCAD. Vous construirez ensuite un projet complet à partir de zéro et transformerez une idée en pièces de CAO 3D avec Part Design et Sketcher, assemblerez toutes les pièces numériquement avec A2Plus, préparerez et exporterez les modèles de CAO 3D pour l\'impression 3D. Vous apprendrez également à partager vos modèles à l\'aide de fcprint.
+
+À la fin de ce livre, vous serez en mesure de concevoir les petits gadgets imprimables en 3D dont vous rêvez et de les partager avec vos amis et le monde entier.
+
+**<https://www.packtpub.com/product/freecad-beginners-starter-kit/9781801810463>**
+
+
+
+
+
+
 ## FreeCAD pour makers 
 
 Par Jo Hinchliffe, publié en septembre 2022, ebook gratuit
@@ -12,6 +33,8 @@ FreeCAD est le logiciel gratuit numéro un de la conception 3D, et ce guide PDF 
 FreeCAD étant un logiciel libre, ses utilisateurs peuvent le compléter, en écrivant des extensions du logiciel pour répondre à leurs besoins. Ces extensions, connues sous le nom d\'ateliers, couvrent un large éventail d\'utilisations, notamment la conception de circuits imprimés, les tuyaux, la charpente en bois, la conception architecturale\... la liste des cas d\'utilisation pratique est longue. Ainsi, quel que soit l\'objet que vous souhaitez construire, vous trouverez un atelier FreeCAD pour le réaliser.
 
 **<https://hackspace.raspberrypi.com/books/freecad>**
+
+
 
 
 
@@ -35,6 +58,8 @@ Vous n\'avez pas besoin d\'avoir une expérience préalable de FreeCAD, puisque 
 
 
 
+
+
 ## FreeCAD pour les inventeurs 
 
 Par Brad Collette, publié en septembre 2018, ebook/livre broché.
@@ -44,6 +69,8 @@ Par Brad Collette, publié en septembre 2018, ebook/livre broché.
 Ce livre présente aux utilisateurs novices et intermédiaires les outils et techniques les plus fréquemment utilisés dans FreeCAD. La première partie présente aux nouveaux utilisateurs les concepts de FreeCAD et l\'interface utilisateur. La deuxième partie enseigne diverses techniques de modélisation à l\'aide de quelques exemples. La troisième partie utilise les exemples pour explorer la capacité de FreeCAD à générer : des dessins techniques, du Gcode pour les machines à commande numérique, des images à suivi de rayon et plus encore.
 
 **<https://forum.freecadweb.org/viewtopic.php?t=30959>**
+
+
 
 
 

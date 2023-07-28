@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Описание
 
 The **Std ToggleClipPlane** command temporarily hides objects and parts of objects on one side of up to three virtual planes in the active [3D view](3D_view.md).
@@ -18,13 +20,24 @@ The **Std ToggleClipPlane** command temporarily hides objects and parts of objec
 ![](images/Std_ToggleClipPlane_example.png ) 
 *Сечение полой фигуры*
 
-![](images/Std_ToggleClipPlane_taskpanel.png ) 
+![](images/Std_ToggleClipPlane_Dialog.png )
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Внешний вид панели "Плоскость сечения"*
+
+
+</div>
+
+
 
 ## Применение
 
 1.  Select the **View → <img src="images/Std_ToggleClipPlane.svg" width=16px> Clipping plane** option from the menu.
-2.  In the Clipping task panel do one of the following:
+2.  In the Clipping dialog box do one of the following:
     -   Check one or more of the {{CheckBox|TRUE|Clipping X}} to {{CheckBox|TRUE|Clipping Z}} checkboxes.
         -   Optionally change the offset distance(s).
         -   Optionally press the **Flip** button(s) to change the side of the clipping plane objects are hidden on.
@@ -36,6 +49,8 @@ The **Std ToggleClipPlane** command temporarily hides objects and parts of objec
             -   Specify the direction by entering the X, Y and Z coordinates of a normal vector.
 3.  Optionally change the view to inspect the model.
 4.  Press the **Close** button to close the task panel and finish the command.
+
+
 
 ## Примечания
 

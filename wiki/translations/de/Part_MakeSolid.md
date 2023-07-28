@@ -8,15 +8,21 @@
 
 # Part MakeSolid/de
 
+
+
 ## Beschreibung
 
 Dieser Befehl erstellt einen Festkörper aus einem Formobjekt.
+
+
 
 ## Anwendung
 
 1.  Wähle das Formobjekt.
 2.  Wähle **Part → <img src="images/Part_MakeSolid.svg" width=16px> Umwandeln in Festkörper** aus dem Menü.
 3.  Ein Festkörper aus dem Formobjekt wird als separates neues Objekt erstellt.
+
+
 
 ## Begrenzungen
 

@@ -10,12 +10,16 @@
 
 # Sketcher BSplineDegree/de
 
+
+
 ## Beschreibung
 
 Blendet die Darstellung des Grades einer B-Spline-Kurve ein oder aus (siehe Seite [B-Splines](B-Splines/de.md) für weitere Informationen über B-Splines).
 
 ![](images/Sketcher_B-spline_example01.png ) 
 *Eine B-Spline-Kurve. Die grüne Ziffer "3" in der Mitte entspricht dem Grad der B-Spline-Kurve.*
+
+
 
 ## Anwendung
 

@@ -1,30 +1,37 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ExtensionDecreaseDecimal
-   MenuLocation:TechDraw → Extensions: Dimensions → Decrease Decimal Places
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Rozszerzenie Zmniejsz ilość cyfr po przecinku
+   MenuLocation:Rysunek Techniczny → Rozszerzenia: Wymiary → Zmniejsz ilość cyfr po przecinku
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionIncreaseDecimal](TechDraw_ExtensionIncreaseDecimal.md)
+   SeeAlso:[Zwiększ ilość cyfr po przecinku](TechDraw_ExtensionIncreaseDecimal/pl.md)
 ---
 
 # TechDraw ExtensionDecreaseDecimal/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width:24px;"> **TechDraw ExtensionDecreaseDecimal** tool decreases the number of decimal places of the dimension text.
 
-## Usage
+## Opis
 
-1.  Select one or more dimensions.
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionDecreaseDecimal.svg" width=16px> [TechDraw ExtensionDecreaseDecimal](TechDraw_ExtensionDecreaseDecimal.md)** button.
-    -   Select the **TechDraw → Extensions: Dimensions → <img src="images/TechDraw_ExtensionDecreaseDecimal.svg" width=16px> Decrease Decimal Places** option from the menu.
-3.  The number of decimal places of the selected dimensions is decreased by one.
+Narzędzie **Zmniejsz ilość cyfr po przecinku** zmniejsza liczbę miejsc dziesiętnych tekstu wymiaru.
 
-## Notes
 
--   The minimum number of decimal places is 0.
+
+## Użycie
+
+1.  Wybierz jeden lub więcej wymiarów.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionDecreaseDecimal.svg" width=16px> '''Zmniejsz ilość cyfr po przecinku'''**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Rozszerzenia: Wymiary → <img src="images/TechDraw_ExtensionDecreaseDecimal.svg" width=16px> Zmniejsz ilość cyfr po przecinku**.
+3.  Liczba miejsc dziesiętnych wybranych wymiarów zostanie zmniejszona o jeden.
+
+
+
+## Uwagi
+
+-   Najmniejsza liczba miejsc po przecinku wynosi 0.
 
 
 

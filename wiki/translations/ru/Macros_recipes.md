@@ -206,34 +206,6 @@
 
 
 
-### <img alt="" src=images/Drawing-orthoviews.svg  style="width:32px;"> Верстак Drawing 
-
-[Верстак Drawing](Drawing_Workbench/ru.md) устарел с версии FreeCAD 0.17. Вместо него рассмотрите возможность использования [верстака TechDraw](TechDraw_Workbench/ru.md).
-
-
-<div class="mw-collapsible-content">
-
--    <img style="width:16px;" src="images/Macro_Automatic_drawing.png"> [Macro Automatic drawing](Macro_Automatic_drawing.md): Allows the user to get the view of his object in a drawing with 4 different position (front,top,iso,right). Needs some modification to be perfectly effective.
-
--    <img style="width:16px;" src="images/Macro_CartoucheFC.png"> [Macro CartoucheFC](Macro_CartoucheFC.md): This GUI macro to fill simply all fields of the cartridge of the plan implementation worksheet FreeCAD, the format of the date and the symbol of the projection mode adapt to the EU region or US selected.
-
--    <img style="width:16px;" src="images/Macro_CartoucheFC_2.png"> [Macro CartoucheFC 2](Macro_CartoucheFC_2.md): This GUI macro to fill simply all fields of the cartridge **model 2** of the plan implementation worksheet FreeCAD.
-
--    <img style="width:16px;" src="images/Macro_CartoucheFC_Full.png"> [Macro CartoucheFC Full](Macro_CartoucheFC_Full.md): This GUI macro to fill simply all fields of the cartridge [Misc templates Full](Misc_templates_Full.md) of the plan implementation worksheet FreeCAD, the format of the date and the symbol of the projection mode adapt to the EU region or US selected.
-
--    <img style="width:16px;" src="images/Macro_Normal_Vector.png"> [Macro Normal Vector](Macro_Normal_Vector.md): Get the normal vector of a preselected face for creating a drawing view normal to that face.
-
-
-</div>
-
-
-</div>
-
-
-<div class="toccolours mw-collapsible mw-collapsed">
-
-
-
 ### <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> Верстак Fem 
 
 
@@ -314,6 +286,8 @@
 -    <img style="width:16px;" src="images/Macro_MeasureCircle.png"> [Macro MeasureCircle](Macro_MeasureCircle.md): Compute the radius of a circle by 3 points or a circular edge.
 
 -    <img style="width:16px;" src="images/Macro_Mouse_over_cb.png"> [Macro Mouse over cb](Macro_Mouse_over_cb.md): This macro display all elements below cursor (elements covered by other elements will also be displayed).
+
+-    <img style="width:16px;" src="images/Macro_Normal_Vector.png"> [Macro Normal Vector](Macro_Normal_Vector.md): Get the normal vector of a preselected face.
 
 -    <img style="width:16px;" src="images/Macro_ObjectInfo.png"> [Macro ObjectInfo](Macro_ObjectInfo.md): User-friendly \"Info\" module created by a FreeCAD user.
 
@@ -647,6 +621,8 @@
 
 -    <img style="width:16px;" src="images/Macro_FCSpreadsheet_Extract.png"> [Macro FCSpreadSheet Extract](Macro_FCSpreadSheet_Extract.md): This macro save the data in a csv file with the formula or in a xml file.
 
+-    <img style="width:16px;" src="images/Macro_Sketch_Constraint_From_Spreadsheet.svg"> [Macro Sketch Constraint From Spreadsheet](Macro_Sketch_Constraint_From_Spreadsheet.md): Quickly add a length constraint to a line or between 2 points using a spreadsheet cell alias or address.
+
 -    <img style="width:16px;" src="images/Macro_SpreadsheetTools.png"> [Macro Spreadsheet Tools](Macro_SpreadsheetTools.md): This macro helps managing cells inside FreeCAD Spreadsheet workbench.
 
 -    <img style="width:16px;" src="images/Applications-python.svg"> [Macro Spreadsheet2html](Macro_Spreadsheet2html.md): Exports a spreadsheet as styled html. Intended as support in transfering data to office suits.
@@ -724,8 +700,6 @@
 
 
 <div class="mw-collapsible-content">
-
--    <img style="width:16px;" src="images/Macro_Corner_shapes_wizard.png"> [Macro Corner shapes wizard/update](Macro_Corner_shapes_wizard/update.md): Pops up a dialog asking for the dimensions of your corner piece, then creates the object in the document and creates a page view with top, front and lateral views of the piece.
 
 -    <img style="width:16px;" src="images/Gearworkbech.png"> [Macro FCGear](Macro_FCGear.md): Additional Workbench to create different types of gears, involute gear, involute rack, cycloide gear, bevel gear.
 

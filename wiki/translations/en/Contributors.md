@@ -114,7 +114,7 @@ People in charge of the [FreeCAD forum](http://forum.freecadweb.org) (retrieved 
 
 ## Community
 
-People from the community who put a lot of efforts in helping the FreeCAD project either by being active on the forum, keeping a blog about FreeCAD, making video tutorials, packaging FreeCAD for Windows/Linux/MacOS X, writing a FreeCAD book\... (listed by alphabetical order) (retrieved from <http://forum.freecadweb.org/memberlist.php?mode=&sk=d&sd=d#memberlist>).
+People from the community who put a lot of efforts in helping the FreeCAD project either by being active on the forum, keeping a blog about FreeCAD, making video tutorials, packaging FreeCAD for Windows/Linux/macOS, writing a FreeCAD book\... (listed by alphabetical order) (retrieved from <http://forum.freecadweb.org/memberlist.php?mode=&sk=d&sd=d#memberlist>).
 
 -   [bejant](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1940)
 -   [Brad Collette](http://www.packtpub.com/freecad-solid-modeling-with-python/book)

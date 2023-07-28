@@ -1,18 +1,22 @@
 # Transportation Workbench/pl
-## Description
+## Opis
 
-A subset of the [Civil Engineering Workbench](Civil_Engineering_Workbench.md)
+Środowisko to jest częścią środowiska pracy [inżynierii lądowej](Civil_Engineering_Workbench/pl.md)
 
-## Related Forum Threads 
 
--   Civil engineering feature implementation (Transportation Engineering) [thread](https://forum.freecadweb.org/viewtopic.php?f=8&t=22277)
--   Civil Engineering Design functions [thread](https://forum.freecadweb.org/viewtopic.php?f=8&t=6973)
--   Thread tracking FreeCAD & QGIS integration [thread](https://forum.freecadweb.org/viewtopic.php?f=8&t=22390)
 
-## Related Links 
+## Powiązane wątki na forum 
 
--   [External workbenches](External_workbenches.md)
--   [Workbenches](Workbenches.md)
+-   Implementacja funkcji inżynierii lądowej *(Inżynieria Transportu)* [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=22277)
+-   Funkcje projektowe inżynierii lądowej i wodnej [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=6973)
+-   Śledzenie wątków dotyczących integracji FreeCAD & QGIS [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=22390)
+
+
+
+## Powiązane strony 
+
+-   [Zewnętrzne środowiska pracy](External_workbenches/pl.md)
+-   [Środowiska pracy](Workbenches/pl.md)
 
 
 

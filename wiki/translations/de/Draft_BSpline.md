@@ -11,6 +11,8 @@
 
 # Draft BSpline/de
 
+
+
 ## Beschreibung
 
 Der <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> **Entwurf BSpline** Befehl erstellt eine [B-Spline Kurve](https://de.wikipedia.org/wiki/Spline#B-Splines) aus mehreren Punkten.
@@ -19,6 +21,8 @@ Der Entwurf BSpline Befehl legt die **exakten Punkte** fest, durch die die Kurve
 
 <img alt="" src=images/Draft_bspline_example.jpg  style="width:400px;"> 
 *Spline festgelegt durch mehrere Punkte*
+
+
 
 ## Anwendung
 
@@ -32,6 +36,8 @@ Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md)
 4.  Nimm den ersten Punkt in der in der [3D Ansicht](3D_view/de.md) oder gib Koordinaten ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** Schaltfläche.
 5.  Nimm weitere Punkte in der [3D Ansicht](3D_view/de.md) oder gib Koordinaten ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** Schaltfläche.
 6.  Drücke **Esc** oder die **Schließen** Schaltfläche zum Beenden des Befehls.
+
+
 
 ## Optionen
 
@@ -56,10 +62,14 @@ Die im Aufgabenpaneel verfügbaren Einzelzeichen Tastaturkürzel können geände
 
 </div>
 
+
+
 ## Hinweise
 
 -   Ein Entwurf BSpline kann mit dem Befehl [Entwurf Editieren](Draft_Edit/de.md) bearbeitet werden.
 -   Ein Entwurf BSpline kann mit dem Befehl [Entwurf Draht](Draft_Wire/de.md) in eine [Entwurf DrahtZuBSpline](Draft_WireToBSpline/de.md) umgewandelt werden.
+
+
 
 ## Einstellungen
 
@@ -68,11 +78,15 @@ Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstell
 -   Um die Anzahl der Dezimalstellen zu ändern, die bei der Eingabe von Koordinaten verwendet werden: **Bearbeiten → Einstellungen... → Allgemein → Einheiten → Einheiteneinstellungen → Anzahl der Dezimalstellen**.
 -   Um den Anfangswert des Füllmodus zu ändern: **Bearbeiten → Einstellungen... → Entwurf → Allgemeine Einstellungen → Entwurf Werkzeuge Optionen → Objekte mit Flächen füllen, wann immer möglich**. Ändern des Füllmodus in einem Aufgabenpaneel, wird diese Voreinstellung für die aktuelle FreeCAD Sitzung überschreiben.
 
+
+
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein Entwurf BSpline Objekt wird von einem [Part Part2DObject](Part_Part2DObject/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
 
@@ -89,6 +103,8 @@ Ein Entwurf BSpline Objekt wird von einem [Part Part2DObject](Part_Part2DObject/
 
 -    **Points|VectorList**: gibt die Punkte des Splines in seinem lokalen Koordinatensystem an.
 
+
+
 ### Ansicht
 
 
@@ -103,6 +119,8 @@ Ein Entwurf BSpline Objekt wird von einem [Part Part2DObject](Part_Part2DObject/
 -    **Muster|Nummerierung**: legt das [Entwurf Muster](Draft_Pattern/de.md) fest, mit dem die Fläche des geschlossenen Splines gefüllt werden soll. Diese Eigenschaft funktioniert nur, wenn **Make Face** `True` ist und wenn **Display Mode** {{value|Flat Lines}} ist.
 
 -    **Muster Größe|Float**: gibt die Größe des [Entwurf Muster](Draft_Pattern/de.md) an.
+
+
 
 ## Skripten
 

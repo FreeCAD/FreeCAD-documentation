@@ -9,6 +9,8 @@ Etant donné que SetupSheets fait partie du travail de chemin, les valeurs ne mo
 
 Les Feuilles de configuration sont particulièrement utiles lorsqu'ils sont enregistrés avec [Path Exporter comme modèle](Path_ExportTemplate/fr.md).
 
+
+
 ## Propriétés
 
 -    {{PropertyData/fr|VertRapid}}: définit le taux de rotation rapide vertical dans les nouveaux contrôleurs d\'outil. (Utilisé dans les post-processeurs prenant en charge les taux rapides personnalisables).
@@ -29,6 +31,8 @@ Les Feuilles de configuration sont particulièrement utiles lorsqu'ils sont enre
 
 -    {{PropertyData/fr|StepDownExpression}}: le résultat de cette expression sera utilisé pour définir la propriété StepDown des opérations.
 
+
+
 ## Paramètres de l\'opération 
 
 Les suivants sont tirés de:
@@ -36,6 +40,8 @@ Les suivants sont tirés de:
 -   OpFinalDepth - La valeur de la propriété FinalDepth.
 -   OpStartDepth - La valeur de la propriété FinalDepth.
 -   OpToolDiameter - Valeur de la propriété Tool Diameter du contrôleur d\'outil référencé par l\'opération.
+
+
 
 ## Valeurs de la Feuille de configuration 
 

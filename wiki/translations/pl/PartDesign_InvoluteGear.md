@@ -3,7 +3,7 @@
    Name:PartDesign InvoluteGear
    Name/pl:Projekt Części: Koło zębate ewolwentowe
    Icon:PartDesign_InternalExternalGear.svg
-   MenuLocation:Projekt części → Koło zębate ewolwentowe ...
+   MenuLocation:Projekt Części → Koło zębate ewolwentowe ...
    Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    SeeAlso:[FCGear](FCGear_Workbench/pl.md)
 ---
@@ -18,7 +18,7 @@ Narzędzie to pozwala na utworzenie dwuwymiarowego profilu koła zębatego lub k
 
 Bardziej szczegółowe informacje można znaleźć również na stronach Wiki: [przekładnie](https://en.wikipedia.org/wiki/Gear) oraz [Zarys ewolwentowy](https://en.wikipedia.org/wiki/Involute_gear)
 
-![](images/PartDesign_Involute_Gear_01.png )
+<img alt="" src=images/PartDesign_Involute_Gear_01.png  style="width:200px;">
 
 
 
@@ -46,9 +46,6 @@ Bardziej szczegółowe informacje można znaleźć również na stronach Wiki: [
 
 
 ### Utworzenie koła zębatego walcowego 
-
-
-{{Version/pl|0.19}}
 
 1.  Wybierz profil koła zębatego w [widoku drzewa](Tree_view/pl.md).
 2.  Naciśnij przycisk **<img src="images/PartDesign_AdditiveHelix.svg" width=24px> [Addytywna helisa](PartDesign_AdditiveHelix/pl.md)**.
@@ -80,48 +77,53 @@ Wskazówka: Aby uczynić kąt skrętu dostępnym parametrem, użyj \"właściwo�
 ### Wycięcie piasty dla wału wielowypustowego ewolwentowego 
 
 
-{{Version/pl|1.0}}
+{{Version/pl|0.21}}
 
-1.  Activate the correct body.
-2.  Create an internal involute gear profile with the required number of grooves and adapt the values of pressure angle, addendum-, dedendum- and root fillet coefficient. See also the table in [Notes](#Notes.md) below for feasible values. For example:
+1.  Aktywuj właściwą Zawartość.
+2.  Utwórz profil wewnętrznego koła zębatego ewolwentowego z wymaganą liczbą rowków i dostosuj wartości kąta natarcia, współczynnika wysokości głowy zęba, wysokości stopy zęba i główny współczynnik zaokrąglenia. Zobacz również tabelę w [Uwagi](#Uwagi.md) poniżej dla wartości wykonalnych. Na przykład:
     -   
-        **External Gear**
+        **Zębatka zewnętrzna**
         
-        : False
+        : {{False/pl}}
 
     -   
-        **Number Of Teeth**
+        **Liczba zębów**
         
         : 12
 
     -   
-        **Pressure Angle**
+        **Kąt natarcia**
         
         : 37.5°
 
     -   
-        **Addendum Coefficient**
+        **Współczynnik wysokości głowy zęba**
         
         : 0.45
 
     -   
-        **Dedendum Coefficient**
+        **Współczynnik wysokości stopy zęba**
         
         : 0.7
 
     -   
-        **Root Fillet Coefficient**
+        **Główny współczynnik zaokrąglenia**
         
         : 0.3
-3.  Select the gear profile in the [Tree view](Tree_view.md).
-4.  Press the **<img src="images/PartDesign_Pocket.svg" width=16px> '''Pocket'''** button.
-5.  Set the pocket\'s **Type** to **Through All**.
-6.  Check the pocket\'s **Symmetric To Plane** option.
-7.  Click **OK**.
+3.  Wybierz profil koła zębatego w [Widoku drzewa](Tree_view/pl.md)
+4.  Naciśnij przycisk **<img src="images/PartDesign_Pocket.svg" width=16px> '''Kieszeń'''
+**
+5.  Ustaw **Typ** kieszeni na **Przez wszystkie**.
+6.  Zaznacz opcję kieszeni **Symetrycznie do płaszczyzny**.
+7.  Kliknij **OK**.
 
 
 
 ## Właściwości
+
+-    **Współczynnik wysokości głowy zęba**: Wysokość zęba od koła podziałowego aż do jego wierzchołka, znormalizowana przez moduł. Domyślnie wynosi 1.0 dla standardowego systemu pełnej głębokości. {{Version/pl|0.21}}
+
+-    **Współczynnik wysokości stopy zęba**: Wysokość zęba od koła podziałowego w dół do jego korzenia, znormalizowana przez moduł. Domyślnie wynosi 1,25 dla standardowego systemu pełnej głębokości. {{Version/pl|0.21}}
 
 -    **Zarys zewnętrzny**: przyjmuje wartość {{True/pl}} lub {{False/pl}}
 
@@ -135,29 +137,31 @@ Wskazówka: Aby uczynić kąt skrętu dostępnym parametrem, użyj \"właściwo�
 
 . Zobacz stronę [koło zębate ewolwentowe](https://en.wikipedia.org/wiki/Involute_gear) aby uzyskać więcej informacji.
 
--    **Addendum Coefficient**: The height of the tooth from the pitch circle up to its tip, normalized by the module. Default is 1.0 for the standard full-depth system. <small>(v1.0)</small> 
+-    **Przesunięcie profilu zęba**: Odległość, o jaką profil referencyjny jest przesunięty na zewnątrz, znormalizowana przez moduł. Domyślnie zero. Przesunięcie profilu może być dodatnie lub ujemne. {{Version/pl|0.21}}
 
--    **Dedendum Coefficient**: The height of the tooth from the pitch circle down to its root, normalized by the module. Default is 1.25 for the standard full-depth system. <small>(v1.0)</small> 
+-    **Zaokrąglenie korzenia zęba**: Promień zaokrąglenia u korzenia zęba, znormalizowany przez moduł. Domyślnie 0,38 zgodnie z definicją statywu ISO. {{Version/pl|0.21}}
 
--    **Root Fillet Coefficient**: The radius of the fillet at the root of the tooth, normalized by the module. Default is 0.38 as defined by the ISO rack. <small>(v1.0)</small> 
 
-## Notes
 
--   In order for two gears to mesh they need to share the same module and pressure angle. [Expressions](Expressions.md) may help to ensure consistency. Their center distance needs to be `(NumberOfTeeth + OtherGear.NumberOfTeeth) * Modules / 2` (subtract the number of teeth in case of an internal gear).
+## Uwagi
 
--   When visually checking for proper meshing or interferences a much lower value for **Deviation** is helpful, e.g. 0.05 instead of the default 0.5. Otherwise the representation in the [3D view](3D_view.md) may be too coarse.
+-   Aby dwa koła zębate mogły się zazębić, muszą mieć ten sam moduł i kąt nacisku. [Wyrażenia](Expressions/pl.md) mogą pomóc w zapewnieniu spójności. Ich odległość środkowa musi wynosić `(NumberOfTeeth + OtherGear.NumberOfTeeth) * Modules / 2` *(czyli w przypadku, gdy suma przesunięcia profilu wynosi zero)*. Odejmij liczbę zębów w przypadku przekładni wewnętrznej.
 
--   For standard gears the most common pressure angle is 20 °, followed by 14,5 °. Other applications, notably [splines](https://en.wikipedia.org/wiki/Spline_(mechanical)), use higher angles.
+-   Przesunięcie profilu może być stosowane do zapobiegania podcięciu na kołach zębatych o małej liczbie zębów. Innym zastosowaniem jest regulacja odległości środkowej dwóch kół zębatych o danej liczbie zębów i module.
 
--   The standard full-depth system uses an addendum coefficient of 1.0 and a dedendum coefficient of 1.25, resulting in a clearance of 0.25 (the difference between the addendum of the one gear and the dedendum of the other). The actual tooth length is the sum of both coefficients, multiplied by the module.
+-   Podczas wizualnego sprawdzania poprawności siatki lub zakłóceń pomocna jest znacznie niższa wartość dla **Odchylenia**, np. 0.05 zamiast domyślnego 0.5. W przeciwnym razie reprezentacja w oknie [widoku 3D](3D_view.md) może być zbyt zgrubna.
 
--   Tooth length reduction may be required to prevent undercut or to strengthen the teeth (see [stub teeth](https://khkgears.net/new/gear_knowledge/gear-nomenclature/stub-teeth.html)). For internal gears the addendum (here pointing inwards) may need shortening to avoid certain interferences or non-involute flanks; when indicated in combination with longer teeth of the pinion.
+-   Dla standardowych kół zębatych najbardziej powszechnym kątem nacisku jest 20 °, a następnie 14,5 °. Inne zastosowania, zwłaszcza [wielowypusty](https://en.wikipedia.org/wiki/Spline_(mechanical)), wykorzystują wyższe kąty.
 
--   For splined shafts and hubs ISO 4156 defines the following parameters:
+-   W standardowym układzie pełnej głębokości stosuje się współczynnik addytywny 1,0 i dedytywny 1,25, co daje luz 0,25 *(różnica między addytywnością jednego biegu a dedytywnością drugiego)*. Rzeczywista długość zęba to suma obu współczynników, pomnożona przez moduł.
+
+-   Zmniejszenie długości zębów może być wymagane, aby zapobiec podcięciu lub wzmocnić zęby *(patrz [zęby czopowe](https://khkgears.net/new/gear_knowledge/gear-nomenclature/stub-teeth.html))*. W przypadku przekładni wewnętrznych uzupełnienie *(tutaj skierowane do wewnątrz)* może wymagać skrócenia, aby uniknąć pewnych zakłóceń lub nieobrotowych boków; gdy jest to wskazane w połączeniu z dłuższymi zębami zębnika.
+
+-   Dla wałów i piast z wielowypustem ISO 4156 definiuje następujące parametry:
 
 :   {\| class=\"wikitable\"
 
-\|- ! Pressure Angle !! 30 ° (flat root) !! 30 ° (fillet root) !! 37,5 ° !! 45 ° \|- \| Addendum Coefficient \|\| 0.5 \|\| 0.5 \|\| 0.45 \|\| 0.4 \|- \| Dedendum Coefficient \|\| 0.75 \|\| 0.9 \|\| 0.7 \|\| 0.6 \|- \| Root Fillet Coefficient \|\| 0.2 \|\| 0.4 \|\| 0.3 \|\| 0.25 \|}
+\|- ! Kąt natarcia !! 30 ° (flat root) !! 30 ° (fillet root) !! 37,5 ° !! 45 ° \|- \| Współczynnik wysokości głowy zęba \|\| 0.5 \|\| 0.5 \|\| 0.45 \|\| 0.4 \|- \| Współczynnik wysokości stopy zęba \|\| 0.75 \|\| 0.9 \|\| 0.7 \|\| 0.6 \|- \| Współczynnik zaokrąglenia korzenia zęba \|\| 0.2 \|\| 0.4 \|\| 0.3 \|\| 0.25 \|}
 
 
 

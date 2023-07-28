@@ -1,17 +1,13 @@
 # Pivy/de
 {{TOCright}}
 
+
+
 ## Einführung
 
 [Pivy](Pivy/de.md) ist eine [Python](Python/de.md) Bindungsbibliothek für [Coin](https://github.com/coin3d), die 3D Rendering Bibliothek, die in FreeCAD verwendet wird, um Dinge in einer [3D Ansicht](3D_view/de.md) anzuzeigen. Coin ist eine quelloffene Implementierung der \"Open Inventor\" Spezifikation zur Handhabung von Grafiken. Daher beziehen sich in FreeCAD die Begriffe \"Pivy\", \"Coin\" oder \"Open Inventor\" im Wesentlichen auf die gleiche Sache.
 
-
-<div class="mw-translate-fuzzy">
-
-Wenn in einen laufenden Python Interpreter importiert wird, erlaubt Pivy direkt mit jeder laufenden Coin zu kommunizieren [Szenengraph](Scenegraph/de.md), wie z.B. der [3D Ansicht](3D_view/de.md), oder sogar neue zu erstellen. Pivy ist nicht erforderlich, um FreeCAD zu kompilieren, aber es wird zur Laufzeit benötigt, wenn Python basierte Arbeitsbereiche ausgeführt werden, die Formen auf dem Bildschirm erstellen, wie [Entwurf Arbeitsbereich](Draft_Workbench/de.md) und [Architektur](Arch_Workbench/de.md). Aus diesem Grund wird Pivy normalerweise installiert, wenn eine Distribution von FreeCAD installiert wird.
-
-
-</div>
+Wenn in einen laufenden Python-Interpreter importiert, erlaubt Pivy direkt mit jedem laufenden Coin-[Szenengraph](Scenegraph/de.md), wie z.B. der [3D-Ansicht](3D_view/de.md) zu kommunizieren, oder sogar neue zu erstellen. Pivy ist nicht erforderlich, um FreeCAD zu kompilieren, aber es wird zur Laufzeit benötigt, wenn auf Python basierende Arbeitsbereiche ausgeführt werden, die Formen auf dem Bildschirm erstellen, wie die Arbeitsbereiche [Draft](Draft_Workbench/de.md) und [Arch](Arch_Workbench/de.md). Aus diesem Grund wird Pivy normalerweise installiert, wenn eine Distribution von FreeCAD installiert wird.
 
 Die Coin Bibliothek ist in mehrere Teile unterteilt, Coin selbst zur Manipulation von Szenegraphen und Bindungen für verschiedene GUI Systeme wie Windows und Qt. Falls auf dem System vorhanden, sind diese Module auch für Pivy verfügbar. Das Coin Modul ist immer vorhanden, und wir werden es sowieso verwenden, da wir uns nicht darum kümmern müssen, unsere 3D Darstellung in irgendeiner Schnittstelle zu verankern, was bereits von FreeCAD getan wird. Alles, was wir tun müssen, ist dies:
 
@@ -19,6 +15,8 @@ Die Coin Bibliothek ist in mehrere Teile unterteilt, Coin selbst zur Manipulatio
 ```python
 from pivy import coin
 ```
+
+
 
 ## Szenengraph
 
@@ -104,6 +102,8 @@ sg.removeChild(myCustomNode)
 
 {{Top}}
 
+
+
 ## Rückrufe
 
 Ein [callback mechanism](http://en.wikipedia.org/wiki/Callback_%28computer_science%29) ist ein System, das es einer Bibliothek, wie z.B. unserer Coin Bibliothek, erlaubt, Sie zurückzurufen, d.h. eine bestimmte Funktion von deinem aktuell laufenden Python Objekt aus aufzurufen. Auf diese Weise kann Coin dich darüber informieren, dass ein bestimmtes Ereignis in der Szene aufgetreten ist. Coin kann sehr unterschiedliche Dinge beobachten, wie z.B. Mausposition, Mausklicks, das Drücken von Tasten auf der Tastatur und vieles mehr.
@@ -128,16 +128,7 @@ class ButtonTest:
 ButtonTest()
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Der Rückruf muss von einem Objekt initiiert werden, da dieses Objekt zum Zeitpunkt des Rückrufs noch laufen muss. Siehe auch eine [complete list](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md) von möglichen Ereignissen und deren Parameter, oder die offizielle Coin Dokumentation.
-
-
-</div>
-
-
-{{Top}}
+Die Rückmeldung muss von einem Objekt initiiert werden, da dieses Objekt zum Zeitpunkt der Rückmeldung noch laufen muss. Siehe auch die [komplette Liste](Code_snippets#Observe_mouse_events_in_the_3D_viewer_via_Python.md) von möglichen Ereignissen und deren Parametern, oder die offizielle Coin-Dokumentation. 
 
 ## Dokumentation
 
@@ -157,19 +148,16 @@ In Pivy:
 SoFile.getClassId()
 ```
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Coin3D](https://github.com/coin3d) Startseite.
 -   [Pivy](https://github.com/coin3d/pivy) Startseite.
--   [Coin3D Dokumentation](https://grey.colorado.edu/coin3d/index.html), der Universität von Colorado.
--   [Coin3D Dokumentation](https://coin3d.bitbucket.io/Coin/index.html), auf BitBucket.
--   [Open Inventor Referenz Dokumentation](https://mevislabdownloads.mevis.de/docs/current/MeVis/ThirdParty/Documentation/Publish/OpenInventorReference/index.html), von MeVisLab.
+-   [Coin3D wiki](https://github.com/coin3d/coin/wiki), auf GitHub.
+-   [Coin3D wiki documentation](https://github.com/coin3d/coin/wiki/Documentation), auf GitHub.
+-   [Coin3D Documentation](https://coin3d.github.io/Coin/html/), die neueste automatisch generierte Doxygen-Dokumentation.
+-   [(Open)Inventor Mentor](https://webdocs.cs.ualberta.ca/~graphics/books/mentor.pdf) - empfohlen.
 
 
-</div>
 
-### Older
+### Ältere
 
 These links provide reference documentation for Coin v3.x. The differences with v4.x are minimal, so they may still be useful.
 

@@ -9,27 +9,27 @@
 
 # Part RuledSurface/de
 
+
+
 ## Beschreibung
 
 Erstellt eine Regelfläche
 
 ![links](images/PartRuledSurface_it.png ) 
 
+
+
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Rufe den Befehl \"Geregelte Oberfläche\" auf mehrere Arten aufː
-    -   Drücke die <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;"> [Part RuledSurface](Part_RuledSurface.md) Schaltfläche
-    -   Verwende den **Part → Geregelte Oberfläche** Eintrag im Part Menü
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufenː
+    -   Die Schaltfläche <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;"> [Part Regelfläche erzeugen](Part_RuledSurface/de.md) drücken
+    -   Den Menüeintrag **Part → Regelfläche erzeugen** auswählen
 
 
-</div>
 
-## Notes
+## Hinweise
 
--   [App Link](App_Link.md) objects linked to the appropriate object types can also be used as source objects. <small>(v0.20)</small>
+-   [App-Link](App_Link/de.md)-Objekte, die auf passende Objektarten verweisen, können auch als Quellobjekt verwendet werden. {{Version/de|0.20}}
 
 
 

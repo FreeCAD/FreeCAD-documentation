@@ -17,9 +17,9 @@
 Das **<img src="images/Draft_AnnotationStyleEditor.svg" width=24px> [Anmeldungsstileditor](Draft_AnnotationStyleEditor/de.md)**-Werkzeug ermöglicht es dir, Stile zu definieren, die die visuellen Eigenschaften von anmerkungsähnlichen Objekten beeinflussen, wie z.B. jene, die durch [Text](Draft_Text/de.md)-, [Abmessung](Draft_Dimension/de.md)- und [Beschriftung](Draft_Label/de.md)-Befehle erstellten.
 
 
-<small>(v1.0)</small> 
+{{Version/de|0.21}}
 
-: Several bugs have been fixed and a separate Text color button has been added.
+: Die Eigenschaften Textfarbe und Textabstand wurden hinzugefügt.
 
 ![](images/Draft_AnnotationStyleEditor_Dialog.png ) 
 *Die AnmerkungsStileditor-Dialog-Box.*
@@ -47,16 +47,16 @@ Das **<img src="images/Draft_AnnotationStyleEditor.svg" width=24px> [Anmeldungss
 Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 
-<small>(v1.0)</small> 
+{{Version/de|0.21}}
 
-: The information in this paragraph has been updated and reflects FreeCAD version 1.0.
+: Die Information in diesem Abschnitt wurde aktualisiert und entspricht FreeCAD Version 0.21.
 
 Die Anmerkungsstile werden als serialisierte Wörterbücher im `Meta` Attribut des Dokuments gespeichert. Dieses Attribut wird vom Anmerkungsstileditor überprüft, wenn er geöffnet wird.
 
 
 ```python
 >>> print(App.ActiveDocument.Meta["Draft_Style_Text red"])
-{"FontName": "DejaVu Sans", "FontSize": 10.0, "LineSpacing": 1.0, "TextColor": 4278190335, "ScaleMultiplier": 1.0, "ShowUnit": false, "UnitOverride": "", "Decimals": 2, "ShowLine": true, "LineWidth": 2, "ArrowType": 0, "ArrowSize": 2.0, "LineColor": 255, "DimOvershoot": 0.0, "ExtLines": 0.0, "ExtOvershoot": 4.0}
+{"ArrowSize": 2.0, "ArrowType": 0, "Decimals": 2, "DimOvershoot": 4.0, "ExtLines": 0.0, "ExtOvershoot": 4.0, "FontName": "DejaVu Sans", "FontSize": 10.0, "LineColor": 255, "LineSpacing": 1.0, "LineWidth": 2, "ScaleMultiplier": 1.0, "ShowLine": true, "ShowUnit": false, "TextColor": 4278190335, "TextSpacing": 3.0, "UnitOverride": ""}
 ```
 
 Jeder Stil, der im Editor angezeigt wird, wird intern mit dem Stilnamen mit dem Präfix `Draft_Style_` gespeichert; dies verhindert Namenskonflikte mit anderen Schlüsseln, die in `Meta` gespeichert sein können, die beliebige Informationen enthalten können.
@@ -68,18 +68,12 @@ Du könntest jeden neuen Stil festlegen, durch hinzufügen der notwendigen Infor
 import json
 
 meta = App.ActiveDocument.Meta
-props = {"LineWidth": 6, "ArrowSize": 7.0}
+props = {"ArrowSize": 7.0, "LineWidth": 6}
 meta["Draft_Style_Thick_lines"] = json.dumps(props)
 App.ActiveDocument.Meta = meta
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Die nicht eingegebenen Werte werden automatisch ausgefüllt, wenn dieser Stil im Stileditor ausgewählt wird.
-
-
-</div>
+Die nicht eingegebenen Werte werden automatisch ausgefüllt, wenn dieser Stil im Stileditor ausgewählt ist und die Schaltfläche **OK** gedrückt wird.
 
 Auf ähnliche Weise kann jedes serialisierte Wörterbuch für die Ausgabe entpackt werden.
 
@@ -91,7 +85,7 @@ meta = App.ActiveDocument.Meta
 new_dict = json.loads(meta["Draft_Style_Thick_lines"])
 ```
 
-The properties must have the following types:
+Die Eigenschaften müssen folgenden Typen entsprechen:
 
 Zeichenfolgen:
 
@@ -103,55 +97,44 @@ props = {
 }
 ```
 
-Floats (must be supplied with a decimal point):
+Fließkommazahlen (müssen mit einer Nachkommastelle angegeben werden):
 
 
 ```python
 props = {
+    "ArrowSize": 2.0,
+    "DimOvershoot": 4.0,
+    "ExtLines": 0.0,
+    "ExtOvershoot": 4.0
     "FontSize": 10.0,
     "LineSpacing": 1.0,
     "ScaleMultiplier": 1.0,
-    "ArrowSize": 2.0,
-    "DimOvershoot": 0.0,
-    "ExtLines": 0.0,
-    "ExtOvershoot": 4.0
+    "TextSpacing": 3.0
 }
 ```
 
-Integers:
+Integer (Ganzzahlen):
 
 
 ```python
 props = {
-    "TextColor": 4278190335,
-    "Decimals": 2,
-    "LineWidth": 2,
     "ArrowType": 0,
-    "LineColor": 255
+    "Decimals": 2,
+    "LineColor": 255,
+    "LineWidth": 2,
+    "TextColor": 4278190335
 }
 ```
 
+Die {{Incode|TextColor}} und {{Incode|LineColor}} entsprechen einer 32-Bit Ganzzahl, aus der die einzelnen RGBA Werte entnommen werden können. Der {{Incode|ArrowType}} ist ein Zähler.
 
-<div class="mw-translate-fuzzy">
-
-Die Linienfarbe entspricht der 32-Bit Ganzzahl, aus der die einzelnen RGBA Werte extrahiert werden können.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Boolesch:
-
-
-</div>
+Boolesche Werte:
 
 
 ```python
 props = {
-    "ShowUnit": false,
     "ShowLine": true
+    "ShowUnit": false,
 }
 ```
 

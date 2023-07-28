@@ -1,9 +1,13 @@
 # Debugging/pl
 {{TOCright}}
 
+
+
 ## Najpierw przetestuj 
 
 Zanim przejdziesz przez ból debugowania użyj [środowiska pracy Test](Testing/pl.md) aby sprawdzić czy standardowe testy działają poprawnie. Jeśli testy nie są kompletne, prawdopodobnie instalacja jest uszkodzona.
+
+
 
 ## Wiersz poleceń 
 
@@ -23,7 +27,7 @@ Opcje ogólne:
 Konfiguracja:
 
  -l [ --write-log ]        Zapisuje plik dziennika do:
-                           $HOME/.FreeCAD/FreeCAD.log (Linux)
+                           $HOME/.local/share/FreeCAD.log (Linux)
                            $HOME/Library/Application\ Support/FreeCAD/FreeCAD.log (macOS)
                            %APPDATA%FreeCAD/FreeCAD.log (Windows)
  --log-file arg            W przeciwieństwie do --write-log pozwala na logowanie do
@@ -37,9 +41,13 @@ Konfiguracja:
  -P [ --python-path ] arg  Dodatkowe ścieżki dostępu do Pythona
  --single-instance         Pozwala na uruchomienie pojedynczej instancji aplikacji
 
+
+
 ## Generowanie śladu wstecznego 
 
 Jeżeli używasz wersji FreeCAD z ostatniej fazy rozwoju, może ona ulec awarii. Możesz pomóc w rozwiązaniu takich problemów poprzez dostarczenie deweloperom *śladów wstecz*. Aby to zrobić, musisz mieć uruchomiony *debug build* oprogramowania. *Debug build* jest parametrem, który jest ustawiany w czasie kompilacji, więc albo będziesz musiał skompilować FreeCAD samodzielnie, albo zdobyć prekompilowaną wersję *debug*.
+
+
 
 ### Dla systemu Linux 
 
@@ -100,6 +108,8 @@ Wypisuje również wartości zmiennych lokalnych. Może to być połączone z li
 
 </div>
 
+
+
 ### Dla systemu macOS 
 
 
@@ -146,6 +156,8 @@ Spowoduje to wygenerowanie długiej listy tego, co dokładnie robił program, ki
 
 </div>
 
+
+
 ## Lista bibliotek załadowanych przez FreeCAD 
 
 *(Dotyczy systemów Linux i macOS)*
@@ -164,6 +176,8 @@ Wyświetli to długą listę załadowanych zasobów. Tak więc, na przykład, je
 
 
 `lsof -p process_id &#124; grep Coin`
+
+
 
 ## Debugowanie w Python 
 
@@ -229,6 +243,8 @@ Draft.makeWire(points,closed=False,face=False,support=None)
 
 
 </div>
+
+
 
 ### Kod Visual Studio *(VS Code)* 
 
@@ -331,6 +347,8 @@ w konsoli Python programu FreeCAD.
 
 </div>
 
+
+
 ### Z LiClipse i AppImage 
 
 
@@ -413,6 +431,8 @@ squashfs-root> ./usr/bin/freecad
 
 
 </div>
+
+
 
 ## Debugowanie OpenCasCade 
 

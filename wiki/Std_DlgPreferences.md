@@ -19,7 +19,7 @@ The **Std DlgPreferences** command opens the [Preferences Editor](Preferences_Ed
 ## Notes
 
 -   For more information see [Preferences Editor](Preferences_Editor.md).
--   On MacOS this command may appear in the FreeCAD menu instead of the [Edit](Std_Edit_Menu.md) menu.
+-   On macOS this command may appear in the FreeCAD menu instead of the [Edit](Std_Edit_Menu.md) menu.
 
 
 

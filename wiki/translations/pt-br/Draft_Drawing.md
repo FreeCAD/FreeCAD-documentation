@@ -7,6 +7,8 @@
 
 # Draft Drawing/pt-br
 
+
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Drawing.svg  style="width:24px;"> **Draft Drawing** command inserts views of selected objects into a [drawing](Drawing_Workbench.md) page.
@@ -17,6 +19,8 @@ This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md
 
 <img alt="" src=images/Draft_drawing_example.jpg  style="width:640px;"> 
 *On the left the selected Draft objects. On the right the created drawing views.*
+
+
 
 ## Utilização
 

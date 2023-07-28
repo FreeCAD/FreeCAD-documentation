@@ -9,9 +9,13 @@
 
 # PartDesign Sprocket/pl
 
+
+
 ## Opis
 
 To narzędzie pozwala na stworzenie profilu 2D koła łańcuchowego. Może on być wypełniony za pomocą funkcji [wyciągnięcia](PartDesign_Pad/pl.md).
+
+
 
 ## Użycie
 
@@ -20,6 +24,8 @@ To narzędzie pozwala na stworzenie profilu 2D koła łańcuchowego. Może on by
 3.  Ustaw **Liczbę zębów** i **Oznaczenie koła łańcuchowego**.
 4.  Kliknij w przycisk **OK**
 5.  Jeśli koło zębate znajduje się poza aktywną zawartością: przeciągnij go i upuść do zawartości, aby zastosować dalsze funkcje, takie jak wyciągnięcie.
+
+
 
 ## Właściwości
 

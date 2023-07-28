@@ -4,10 +4,13 @@
    Name/pl:Projekt Siatki: Rozwiń siatkę
    MenuLocation:Siatki → Rozwiń siatkę
    Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   Version:0.19
    SeeAlso:[Rozwiń powierzchnię](MeshPart_CreateFlatFace/pl.md)
 ---
 
 # MeshPart CreateFlatMesh/pl
+
+
 
 ## Opis
 
@@ -16,10 +19,14 @@ Polecenie **Rozwiń powierzchnię** tworzy płaską reprezentację obiektu siatk
 ![](images/MeshPart_CreateFlatMesh_example.png ) 
 *Obiekt siatkowy i w kolorze czerwonym, jego płaska reprezentacja.*
 
+
+
 ## Użycie
 
 1.  Wybierz pojedynczy obiekt siatki. Siatka musi być \"rozpakowalna\". Na przykład, aby rozwinąć siatkę cylindryczną musi ona mieć otwarte końce i otwarty szew. Również zakrzywione powierzchnie muszą mieć stosunkowo drobną siatkę. Użyj polecenia [Ulepsz przez Gmsh](Mesh_RemeshGmsh/pl.md) jeśli to konieczne.
 2.  Wybierz z menu opcję **Siatki → <img src="images/MeshPart_CreateFlatMesh.svg" width=16px> Rozwiń siatkę**.
+
+
 
 ## Właściwości
 

@@ -110,8 +110,6 @@ Most files related to a solver reside in a sub-package of the `femsolver` packag
 -   **femsolver/elmer/tasks.py:** Module containing one task class per task required for a solver implementation. Those tasks divide the process of solving a analysis into the following steps: check, prepare, solve, results.
 -   **femcommands/commands.py:** Adds the solver document object to the active document. Required to access the solver object from the GUI.
 
-There is a tutorial of adding a new solver: [Add FEM Solver Tutorial](Sandbox_Add_FEM_Solver_Tutorial.md)
-
 ## Equations
 
 An equation represents a particular physics that shall be considered when solving the analysis (e.g. Flow, Heat). Not all solver in FreeCAD support (all) equations. Equations are represented by child objects of the corresponding solver object. In the tree-view this looks like this:

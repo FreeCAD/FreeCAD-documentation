@@ -13,15 +13,23 @@
 
 </div>
 
+
+
 ## Введение
 
-FreeCAD can store camera settings in up to 50 \'frozen views\'. The menu options that deal with frozen views can be found in the **View → Freeze display** submenu. Frozen views are not stored in the document and, if not saved with the **[Save views\...](#Save_views.md)** menu option, will be lost when the FreeCAD application closes.
+FreeCAD имеет возможность сохранять положение камеры текущего активного вида. Положения записываются в специальный список в виде пунктов меню, который ограничен 50-ю значениями. Пункты меню, относящиеся к возможности сохранения состояния камеры, можно найти в подменю **Вид → Положение камеры**. Положение камеры не сохраняется в самом документе и, если они не были сохранены с помощью пункта меню **[Сохранить в файл\...](#Save_views.md)**, то они будут потеряны после закрытия приложения FreeCAD.
 
-## Сохранить виды в файл\... 
+
+
+## Сохранить в файл\... 
+
+
 
 ### Описание
 
-The **Save views\...** menu option saves all existing frozen views in a file with the \*.cam extension.
+Пункт меню **Сохранить в файл\...** сохраняет все положения камеры из списка в файл с \*.cam расширением.
+
+
 
 ### Применение
 
@@ -30,15 +38,23 @@ The **Save views\...** menu option saves all existing frozen views in a file wit
 3.  Enter a filename in the dialog box.
 4.  Press the **Save** button.
 
+
+
 ### Опции
 
--   Нажмите **Esc** или кнопку **Отмена**, чтобы прервать выполнение команды.
+-   Нажмите клавишу **Esc** или кнопку **Отмена**, чтобы прервать выполнение команды.
 
-## Загрузить виды из файла\... 
+
+
+## Загрузить из файла\... 
+
+
 
 ### Описание 
 
-The **Load views\...** menu option loads frozen views from a file with the \*.cam extension. All existing frozen views will be deleted.
+Пункт меню **Загрузить из файла\...** загружает положения камер из файла с \*.cam расширением в список, при этом все значения, которые были до этого в списке будут утеряны.
+
+
 
 ### Применение 
 
@@ -47,16 +63,24 @@ The **Load views\...** menu option loads frozen views from a file with the \*.ca
 3.  Select a file.
 4.  Press the **Open** button.
 
+
+
 ### Опции 
 
 -   If the Restore views dialog box is displayed: press **Esc** or the **No** button to abort the command.
 -   If the file dialog box is displayed: press **Esc** or the **Cancel** button to abort the command.
 
-## Запомнить вид 
+
+
+## Запомнить
+
+
 
 ### Описание 
 
-The **Freeze view** menu option saves the current camera settings (direction, zoom, etc.) of the [3D view](3D_view.md) in a new entry in the frozen view list. The frozen view list can contain up to 50 frozen views.
+Пункт меню **Запомнить** сохраняет текущее состояние камеры (направление, положение, масштаб и т.д.) активного [3D вида](3D_view/ru.md) в список в виде нового пункта меню. Список положений камеры может содержать в себе до 50-ти записей.
+
+
 
 ### Применение 
 
@@ -65,11 +89,17 @@ The **Freeze view** menu option saves the current camera settings (direction, zo
     -   Use the keyboard shortcut: **Shift**+**F**.
 2.  The new frozen view can be selected in the **View → Freeze display** submenu.
 
-## Забыть все виды 
+
+
+## Отчистить список 
+
+
 
 ### Описание 
 
 The **Clear views** menu option deletes all existing frozen views.
+
+
 
 ### Применение 
 
@@ -77,9 +107,13 @@ The **Clear views** menu option deletes all existing frozen views.
 
 ## Restore view 
 
+
+
 ### Описание 
 
 For each frozen view a **Restore view** option is added with which it can be restored. The options are numbered: **Restore view 1** - **Restore view 50**.
+
+
 
 ### Применение 
 

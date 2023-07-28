@@ -1,8 +1,6 @@
 ---
 - GuiCommand:
-   Name:Sketcher Rectangles
-   Icon:Sketcher_CompCreateRectangles.png
-   MenuLocation:
+   Name:Sketcher CompCreateRectangles
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Version:0.20
 ---
@@ -11,7 +9,7 @@
 
 ## Description
 
-**Create a rectangle** is an icon button in the Sketcher geometries toolbar that groups tools to create rectangles. Click on the down arrow to its right to expand the icons below it and select a tool.
+**Create rectangle** is an icon button in the Sketcher geometries toolbar that groups tools to create rectangles. Click on the down arrow to its right to expand the icons below it and select a tool.
 
 ## Types of rectangles 
 

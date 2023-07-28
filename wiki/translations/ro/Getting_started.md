@@ -125,7 +125,13 @@ Exista moduri de vizualizare predefinite (de sus, din fata, etc) ce se schimba f
 
 ## Primii paşi în FreeCAD 
 
+
+<div class="mw-translate-fuzzy">
+
 Aplicația FreeCAD este de a vă permite să realizați modele 3D de înaltă precizie, să păstrați controlul strict al acestor modele (să reveniți la istoricul de modelare și să modificați parametrii) și să construiți aceste modele (prin imprimare 3D, prelucrare CNC sau chiar în construcții civile). Prin urmare, este foarte diferit de alte aplicații 3D realizate în alte scopuri, cum ar fi filmul de animație sau jocurile de noroc. Curba de învățare poate fi abruptă, mai ales dacă acesta este primul dvs. contact cu modelarea 3D. Dacă vă înpotmoliți într-un anumit moment, nu uitați că există o comunitate prietenoasă a utilizatorilor de pe forumul [FreeCAD](http://forum.freecadweb.org/index.php) care ar putea să vă aducă în cel mai scurt timp pe linia de plutire.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

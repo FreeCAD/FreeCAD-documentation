@@ -6,8 +6,6 @@ L\'atelier <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [
 
 Des dimensions, des sections, des zones hachurées, des annotations et des symboles [SVG](SVG/fr.md) peuvent être ajoutés à la page, qui peuvent ensuite être exportés vers différents formats tels que [DXF](DXF/fr.md), [SVG](SVG/fr.md) et [PDF](PDF/fr.md).
 
-TechDraw a été officiellement inclus dans FreeCAD à partir de la version 0.17; il est destiné à remplacer l\'[atelier Drawing](Drawing_Workbench/fr.md) non supporté. L\'atelier Drawing est toujours fourni dans la version 0.20, mais ne sera plus disponible dans les futures versions ({{VersionPlus/fr|1.0}}). Pour suivre les plans et les développements de TechDraw, visitez la [Feuille de route TechDraw](TechDraw_Roadmap.md).
-
 Si votre objectif principal est la production de dessins 2D complexes et de fichiers [DXF](DXF/fr.md) et que vous n\'avez pas besoin de modélisation 3D, FreeCAD n\'est peut-être pas le bon choix pour vous. Vous pouvez envisager d\'utiliser un logiciel dédié au dessin technique, tel que [LibreCAD](https://fr.wikipedia.org/wiki/LibreCAD) ou [QCad](https://fr.wikipedia.org/wiki/QCad).
 
 
@@ -25,9 +23,9 @@ Ce sont les outils pour créer des objets Pages.
 
 -   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [Page selon un modèle](TechDraw_PageTemplate/fr.md) : ajoute une nouvelle page en utilisant un [modèle](TechDraw_Templates/fr.md) sélectionné.
 
--   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Rafraîchir](TechDraw_RedrawPage/fr.md) : force la mise à jour de la page. {{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Rafraîchir](TechDraw_RedrawPage/fr.md) : force la mise à jour de la page.
 
--   <img alt="" src=images/TechDraw_PrintAll.svg  style="width:32px;"> [Tout imprimer](TechDraw_PrintAll/fr.md) : imprime toutes les pages d\'un document. {{Version/fr|1.0}}
+-   <img alt="" src=images/TechDraw_PrintAll.svg  style="width:32px;"> [Tout imprimer](TechDraw_PrintAll/fr.md) : imprime toutes les pages d\'un document. {{Version/fr|0.21}}
 
 
 
@@ -37,7 +35,7 @@ Ce sont les outils pour créer des objets Vues.
 
 -   <img alt="" src=images/TechDraw_View.svg  style="width:32px;"> [Vue](TechDraw_View/fr.md) : ajoute une vue en projection 2D d\'un objet.
 
--   <img alt="" src=images/TechDraw_ActiveView.svg  style="width:32px;"> [Vue active](TechDraw_ActiveView/fr.md) : insère une vue de la vue 3D active. {{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw_ActiveView.svg  style="width:32px;"> [Vue active](TechDraw_ActiveView/fr.md) : insère une vue de la vue 3D active.
 
 -   <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:32px;"> [Groupe de projections](TechDraw_ProjectionGroup/fr.md) : ouvre une boîte de dialogue pour créer plusieurs vues d\'un objet depuis différentes directions.
 
@@ -45,7 +43,7 @@ Ce sont les outils pour créer des objets Vues.
 
   - <img alt="" src=images/TechDraw_SectionView.svg  style="width:32px;"> [Vue en coupe](TechDraw_SectionView/fr.md) : insère une vue en coupe à partir d\'une vue existante.
 
-  - <img alt="" src=images/TechDraw_ComplexSection.svg  style="width:32px;"> [Vue en coupe complexe](TechDraw_ComplexSection/fr.md) : insère une vue en coupe d\'une vue existante en fonction d\'un profil. {{Version/fr|1.0}}
+  - <img alt="" src=images/TechDraw_ComplexSection.svg  style="width:32px;"> [Vue en coupe complexe](TechDraw_ComplexSection/fr.md) : insère une vue en coupe d\'une vue existante en fonction d\'un profil. {{Version/fr|0.21}}
 
 -   <img alt="" src=images/TechDraw_DetailView.svg  style="width:32px;"> [Vue détaillée](TechDraw_DetailView/fr.md) : ajoute une vue détaillée d\'une partie d\'une vue existante.
 
@@ -69,13 +67,13 @@ Il s\'agit d\'outils permettant de modifier l\'ordre d\'empilement qui contrôle
 
 -   <img alt="" src=images/TechDraw_StackTop.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Ajuster l'ordre d'empilage des vues :
 
-  - <img alt="" src=images/TechDraw_StackTop.svg  style="width:32px;"> [Empiler en haut](TechDraw_StackTop/fr.md) : déplace les vues au sommet de l\'ordre d\'empilement. {{Version/fr|1.0}}
+  - <img alt="" src=images/TechDraw_StackTop.svg  style="width:32px;"> [Empiler en haut](TechDraw_StackTop/fr.md) : déplace les vues au sommet de l\'ordre d\'empilement. {{Version/fr|0.21}}
 
-  - <img alt="" src=images/TechDraw_StackBottom.svg  style="width:32px;"> [Empiler en bas](TechDraw_StackBottom.md) : déplace les vues au bas de l\'ordre d\'empilement. {{Version/fr|1.0}}
+  - <img alt="" src=images/TechDraw_StackBottom.svg  style="width:32px;"> [Empiler en bas](TechDraw_StackBottom.md) : déplace les vues au bas de l\'ordre d\'empilement. {{Version/fr|0.21}}
 
-  - <img alt="" src=images/TechDraw_StackUp.svg  style="width:32px;"> [Empiler vers le haut](TechDraw_StackUp/fr.md) : déplace les vues d\'un niveau supérieur dans l\'ordre d\'empilement. {{Version/fr|1.0}}
+  - <img alt="" src=images/TechDraw_StackUp.svg  style="width:32px;"> [Empiler vers le haut](TechDraw_StackUp/fr.md) : déplace les vues d\'un niveau supérieur dans l\'ordre d\'empilement. {{Version/fr|0.21}}
 
-  - <img alt="" src=images/TechDraw_StackDown.svg  style="width:32px;"> [Empiler vers le bas](TechDraw_StackDown/fr.md) : déplace les vues vers le bas d\'un niveau dans l\'ordre d\'empilement. {{Version/fr|1.0}}
+  - <img alt="" src=images/TechDraw_StackDown.svg  style="width:32px;"> [Empiler vers le bas](TechDraw_StackDown/fr.md) : déplace les vues vers le bas d\'un niveau dans l\'ordre d\'empilement. {{Version/fr|0.21}}
 
 
 
@@ -129,17 +127,19 @@ Les cotes linéaires peuvent être basées sur deux points, sur une ligne ou sur
 
 -   <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Insérer des cotes étendues :
 
-  - <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:32px;"> [Cote étendue horizontale](TechDraw_HorizontalExtentDimension/fr.md) : ajoute une cote étendue horizontale. {{Version/fr|0.19}}
+  - <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:32px;"> [Cote étendue horizontale](TechDraw_HorizontalExtentDimension/fr.md) : ajoute une cote étendue horizontale.
 
-  - <img alt="" src=images/TechDraw_VerticalExtentDimension.svg  style="width:32px;"> [Cote étendue verticale](TechDraw_VerticalExtentDimension/fr.md) : ajoute une cote étendue verticale. {{Version/fr|0.19}}
+  - <img alt="" src=images/TechDraw_VerticalExtentDimension.svg  style="width:32px;"> [Cote étendue verticale](TechDraw_VerticalExtentDimension/fr.md) : ajoute une cote étendue verticale.
 
 -   <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [Lier une cote](TechDraw_LinkDimension/fr.md) : lie une cote existante à la géométrie 3D.
 
--   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Infobulle](TechDraw_Balloon/fr.md) : ajoute une \"infobulle\" dans la page. {{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Infobulle](TechDraw_Balloon/fr.md) : ajoute une \"infobulle\" dans la page.
 
--   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Cote à partir des points du repère - EXPÉRIMENTAL](TechDraw_LandmarkDimension/fr.md) : ajoute une cote linéaire à partir des points du repère. {{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw_AxoLengthDimension.svg  style="width:32px;"> [Cote axonométrique](TechDraw_AxoLengthDimension/fr.md) : ajoute une cote axonométrique. {{Version/fr|0.21}}
 
--   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Réparation des cotes](TechDraw_DimensionRepair/fr.md) : permet d\'ajuster les références géométriques 2D ou 3D d\'une cote. <small>(v1.0)</small> 
+-   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Cote à partir des points du repère - EXPÉRIMENTAL](TechDraw_LandmarkDimension/fr.md) : ajoute une cote linéaire à partir des points du repère.
+
+-   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Réparation des cotes](TechDraw_DimensionRepair/fr.md) : permet d\'ajuster les références géométriques 2D ou 3D d\'une cote. {{Version/fr|0.21}}
 
 ## Annotations
 
@@ -147,37 +147,39 @@ Les outils d\'annotation permettent de \"marquer\" un dessin avec des informatio
 
 -   <img alt="" src=images/TechDraw_Annotation.svg  style="width:32px;"> [Annotation](TechDraw_Annotation/fr.md) : ajoute un bloc de texte pour servir d\'annotation.
 
--   <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:32px;"> [Ligne de référence](TechDraw_LeaderLine/fr.md) : ajoute une ligne de référence à une vue. {{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:32px;"> [Ligne de référence](TechDraw_LeaderLine/fr.md) : ajoute une ligne de référence à une vue.
 
--   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:32px;"> [Annotation texte enrichi](TechDraw_RichTextAnnotation/fr.md) : ajoute un bloc d'annotation en texte enrichi à une ligne de référence ou à une vue. {{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:32px;"> [Annotation texte enrichi](TechDraw_RichTextAnnotation/fr.md) : ajoute un bloc d'annotation en texte enrichi à une ligne de référence ou à une vue.
 
 -   <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Ajouter des sommets cosmétiques :
 
-  - <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:32px;"> [Point cosmétique](TechDraw_CosmeticVertex/fr.md) : ajoute un sommet qui ne fait pas partie de la géométrie principale. {{Version/fr|0.19}}
+  - <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:32px;"> [Point cosmétique](TechDraw_CosmeticVertex/fr.md) : ajoute un sommet qui ne fait pas partie de la géométrie principale.
 
-  - <img alt="" src=images/TechDraw_Midpoints.svg  style="width:32px;"> [Points médians](TechDraw_Midpoints/fr.md) : ajoute des points cosmétiques aux points médians d\'une ou de plusieurs arêtes sélectionnées. {{Version/fr|0.19}}
+  - <img alt="" src=images/TechDraw_Midpoints.svg  style="width:32px;"> [Points médians](TechDraw_Midpoints/fr.md) : ajoute des points cosmétiques aux points médians d\'une ou de plusieurs arêtes sélectionnées.
 
-  - <img alt="" src=images/TechDraw_Quadrants.svg  style="width:32px;"> [Quadrant](TechDraw_Quadrants/fr.md) : ajoute des points cosmétiques tous les quarts de points d\'un ou de plusieurs bords sélectionnés (circulaires). {{Version/fr|0.19}}
+  - <img alt="" src=images/TechDraw_Quadrants.svg  style="width:32px;"> [Quadrant](TechDraw_Quadrants/fr.md) : ajoute des points cosmétiques tous les quarts de points d\'un ou de plusieurs bords sélectionnés (circulaires).
 
 -   <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Ajouter des lignes centrales :
 
-  - <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width:32px;"> [Ligne centrale à une face](TechDraw_FaceCenterLine/fr.md) : ajoute une ligne centrale aux face(s) sélectionnée(s). {{Version/fr|0.19}}
+  - <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width:32px;"> [Ligne centrale à une face](TechDraw_FaceCenterLine/fr.md) : ajoute une ligne centrale aux face(s) sélectionnée(s).
 
-  - <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:32px;"> [Ligne centrale entre 2 lignes](TechDraw_2LineCenterLine/fr.md) : ajoute une ligne centrale entre 2 arêtes. {{Version/fr|0.19}}
+  - <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:32px;"> [Ligne centrale entre 2 lignes](TechDraw_2LineCenterLine/fr.md) : ajoute une ligne centrale entre 2 arêtes.
 
-  - <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:32px;"> [Ligne centrale entre 2 points](TechDraw_2PointCenterLine/fr.md) : ajoute une ligne centrale entre 2 points. {{Version/fr|0.19}}
+  - <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:32px;"> [Ligne centrale entre 2 points](TechDraw_2PointCenterLine/fr.md) : ajoute une ligne centrale entre 2 points.
 
--   <img alt="" src=images/TechDraw-line2points.svg  style="width:32px;"> [Ligne cosmétique par 2 points](TechDraw_2PointCosmeticLine/fr.md) : ajoute une ligne cosmétique reliant 2 points. {{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw-line2points.svg  style="width:32px;"> [Ligne cosmétique par 2 points](TechDraw_2PointCosmeticLine/fr.md) : ajoute une ligne cosmétique reliant 2 points.
 
--   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Gomme](TechDraw_CosmeticEraser/fr.md) : supprime les objets cosmétiques d\'une page. {{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Gomme](TechDraw_CosmeticEraser/fr.md) : supprime les objets cosmétiques d\'une page.
 
--   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:32px;"> [Apparence des lignes](TechDraw_DecorateLine/fr.md) : modifie l\'apparence des lignes. {{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:32px;"> [Apparence des lignes](TechDraw_DecorateLine/fr.md) : modifie l\'apparence des lignes.
 
--   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:32px;"> [Montrer tout](TechDraw_ShowAll/fr.md) : affiche/masque les bords invisibles dans une vue. {{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:32px;"> [Montrer tout](TechDraw_ShowAll/fr.md) : affiche/masque les bords invisibles dans une vue.
 
--   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Soudure](TechDraw_WeldSymbol/fr.md) : ajoute des spécifications de soudage à une ligne de référence existante. {{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Soudure](TechDraw_WeldSymbol/fr.md) : ajoute des spécifications de soudage à une ligne de référence existante.
 
--   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:32px;"> [Symbole d\'état de surface](TechDraw_SurfaceFinishSymbol/fr.md) : ajoute un symbole de finition de surface à une page. {{Version/fr|1.0}}
+-   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:32px;"> [Symbole d\'état de surface](TechDraw_SurfaceFinishSymbol/fr.md) : ajoute un symbole de finition de surface à une page. {{Version/fr|0.21}}
+
+-   <img alt="" src=images/TechDraw_HoleShaftFit.svg  style="width:32px;"> [Tolérance de trou/d\'arbre](TechDraw_HoleShaftFit/fr.md) : ajoute les tolérances de trous ou d\'arbres selon la norme ISO 286 à une cote. {{Version/fr|0.21}}
 
 ## Extensions
 
@@ -185,7 +187,7 @@ Ce sont des outils pour améliorer vos dessins TechDraw.
 
 
 
-### Caractéristiques et modifications 
+### Attributs et modifications 
 
 -   <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:32px;"> [Sélection des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md) : sélectionne les attributs (style, largeur et couleur) des nouvelles lignes cosmétiques et des lignes centrales, et spécifie l\'espacement en cascade et la distance delta. {{Version/fr|0.20}}
 
@@ -336,11 +338,8 @@ Les outils de TechDraw peuvent être utilisés dans des [macros](Macros/fr.md) e
 
 ## Limitations
 
--   Les dessins TechDraw et son API Python ne sont pas interchangeables avec l\'[atelier Drawing](Drawing_Workbench/fr.md) et son API. Il est possible de convertir des pages de dessin en pages TechDraw en utilisant un script Python (`moveViews.py`).
--   Il est possible d\'avoir à la fois des Pages TechDraw et Drawing dans le même document FreeCAD, chaque page étant complètement indépendante l'une de l'autre.
--   Il existe des différences mineures dans la spécification des textes modifiables dans les modèles [SVG](SVG/fr.md) par rapport au module Dessin. Dans TechDraw, la mise à l\'échelle du document SVG affecte la position des champs de texte modifiables. Voir la discussion du forum [échelle des modèles TechDraw](https://forum.freecadweb.org/viewtopic.php?f=3&t=24981&p=196271#p196271) pour plus de détails.
--   Ne coupez pas, ne copiez pas et ne collez pas d\'objets TechDraw dans la [Vue en arborescence](Tree_view/fr.md) car cela ne fonctionne généralement pas bien.
--   Ne faites pas glisser les objets TechDraw dans la [Vue en arborescence](Tree_view/fr.md) avec la souris.
+-   Ne pas couper, copier et coller des objets TechDraw dans la [vue en arborescence](Tree_view/fr.md) car cela ne fonctionne généralement pas bien.
+-   Ne pas faire glisser les objets TechDraw dans la [vue en arborescence](Tree_view/fr.md) avec la souris.
 
 
 
@@ -360,6 +359,12 @@ Tutoriels video par sliptonic
 
 -   Atelier TechDraw [Part 1 (Basics)](https://www.youtube.com/watch?v=7LbOmSGW9F0), [Part 2 (Dimensions)](https://www.youtube.com/watch?v=z3w84RfvqaE), [Part 3 (Multivues)](https://www.youtube.com/watch?v=uNjXg-m38aI)
 -   Atelier TechDraw [Part 4 (Sections et Details)](https://www.youtube.com/watch?v=3zSdeFV6I5o), [Part 5 (Création de feuilles de dessin)](https://www.youtube.com/watch?v=kcmdJ7xa7gg)
+
+
+
+## Développement
+
+Voulez-vous en savoir plus sur l\'avenir de l\'atelier TechDraw ? Visitez [la page TechDraw Roadmap (en)](TechDraw_Roadmap.md) pour en savoir plus.
 
 
 

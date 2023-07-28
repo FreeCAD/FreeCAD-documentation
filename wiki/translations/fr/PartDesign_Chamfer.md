@@ -13,7 +13,11 @@
 
 L\'outil <img alt="" src=images/PartDesign_Chamfer.svg  style="width:24px;"> **PartDesign Chanfrein** crée des chanfreins sur les bords sélectionnés d\'un objet. Il ajoute un objet **Chamfer** au document avec sa représentation correspondante dans la [Vue en arborescence](Tree_view/fr.md).
 
+
+
 ## Utilisation
+
+
 
 ### Ajouter un chanfrein 
 
@@ -29,6 +33,8 @@ L\'outil <img alt="" src=images/PartDesign_Chamfer.svg  style="width:24px;"> **P
 5.  S\'il n\'y a pas de corps actif, et qu\'il y a deux corps ou plus dans le document, la boîte de dialogue **Corps actif requis** s\'ouvrira et vous invitera à en activer un. S\'il n\'y a qu\'un seul corps, il sera activé automatiquement.
 6.  Le [Panneau des tâches](Task_panel/fr.md) des **Paramètres du chanfrein** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 7.  Appuyez sur le bouton **OK** pour terminer.
+
+
 
 ### Modifier un chanfrein 
 
@@ -46,39 +52,45 @@ L\'outil <img alt="" src=images/PartDesign_Chamfer.svg  style="width:24px;"> **P
         1.  Si nécessaire, appuyez sur le bouton **Ajouter**.
         2.  Utilisez le raccourci clavier **Ctrl**+**Shift**+**A**, ou cliquez avec le bouton droit de la souris sur la liste et sélectionnez **Ajouter toutes les arêtes** dans le menu contextuel. {{Version/fr|0.20}}
 -   Pour supprimer des bords, effectuez l\'une des opérations suivantes :
-    -   Appuyez sur le bouton **Supprimer** pour commencer à désélectionner les arêtes et/ou les faces dans la [Vue 3D](3D_view/fr.md). Les éléments sélectionnés sont surlignés en violet.
-    -   Sélectionnez un ou plusieurs éléments dans la liste et appuyez sur la touche **Suppr**, ou cliquez avec le bouton droit de la souris sur la liste et sélectionnez **Enlever** dans le menu contextuel.
+    -   Appuyez sur le bouton **Supprimer** pour commencer à désélectionner les arêtes et/ou les faces dans la [vue 3D](3D_view/fr.md). Les éléments sélectionnés sont surlignés en violet.
+    -   Sélectionnez un ou plusieurs éléments dans la liste et appuyez sur la touche **Suppr** ou cliquez avec le bouton droit de la souris sur la liste et sélectionnez **Enlever** dans le menu contextuel.
 -   Spécifier un chanfrein **Type** :
     -   
-        **Equal distance**
+        **Distance égale**
         
-        : Une distance est utilisée pour placer les deux bords du chanfrein.
+        : distance utilisée pour placer les deux bords du chanfrein.
 
     -   
-        **Two distances**
+        **Deux distances**
         
-        : Deux distances sont utilisées pour placer les bords du chanfrein. {{Version/fr|0.19}}
+        : deux distances sont utilisées pour placer les bords du chanfrein.
 
     -   
-        **Distance and angle**
+        **Distance et angle**
         
-        : Une distance est utilisée pour placer un bord de chanfrein, le placement de l\'autre bord de chanfrein est défini par l\'angle du chanfrein. {{Version/fr|0.19}}
--   Appuyez sur le bouton **<img src="images/PartDesign_Flip_Direction.svg" width=16px> Inverser la direction** pour inverser la direction du chanfrein (désactivé pour **Equal distance**). <small>(v0.19)</small> 
--   Définissez la **Size** du chanfrein.
--   Définissez le **Size2** du chanfrein (disponible uniquement si **Two distances** est sélectionné).
--   Définissez le **Angle** du chanfrein (disponible uniquement si **Distance and angle** est sélectionné).
+        : distance utilisée pour placer un bord de chanfrein, le placement de l\'autre bord du chanfrein est défini par l\'angle du chanfrein.
+-   Appuyez sur le bouton **<img src="images/PartDesign_Flip_Direction.svg" width=16px> Inverser la direction** pour inverser la direction du chanfrein (désactivé pour **Equal distance**).
+-   Définissez la **Taille** du chanfrein.
+-   Définissez le **Taille2** du chanfrein (disponible uniquement si **Deux distances** est sélectionné).
+-   Définissez le **Angle** du chanfrein (disponible uniquement si **Distance et angle** est sélectionné).
 -   Cochez la case **Ajouter toutes les arêtes** pour sélectionner tous les arêtes de l\'élément précédent. Ceci désactive la liste de sélection et les boutons associés. {{Version/fr|0.20}}
+
+
 
 ## Remarques
 
 -   Le PartDesign Chanfrein ne doit pas être confondu avec le [Part Chanfrein](Part_Chamfer/fr.md). À moins que vous ne sachiez ce que vous faites, [Part Chanfrein](Part_Chamfer/fr.md) ne doit pas être utilisé sur un corps PartDesign. Voir [Part et PartDesign](Part_and_PartDesign/fr.md).
 -   Les chanfreins ne peuvent pas entièrement épouser les faces adjacentes.
 
+
+
 ## Propriétés
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet Part Chanfrein est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 
@@ -115,6 +127,8 @@ Un objet Part Chanfrein est dérivé d\'un [Part Feature](Part_Feature/fr.md) et
 {{Properties_Title|Part Design}}
 
 -    **Refine|Bool**: Si `True`, les arêtes redondantes sont supprimées du résultat de l\'opération. La valeur par défaut est déterminée par la préférence **Automatically refine model after sketch-based operation**. Voir [PartDesign Préférences](PartDesign_Preferences/fr#G.C3.A9n.C3.A9ral.md).
+
+
 
 ## Problèmes connus 
 

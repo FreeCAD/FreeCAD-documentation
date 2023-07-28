@@ -1,71 +1,52 @@
 ---
 - GuiCommand:/de
    Name:Draft PathArray
-   Name/de:Entwurf PfadAnordnung
-   MenuLocation:Modifikation → Anordnung Werkzeuge → Pfad Anordnung
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Name/de:Draft PfadAnordnung
+   MenuLocation:Änderung → Array tools → Pfad-Anordnung
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Version:0.14
-   SeeAlso:[Entwurf OrthoAnordnung](Draft_OrthoArray/de.md), [Entwurf PolarArray](Draft_PolarArray/de.md), [Entwurf CircularArray](Draft_CircularArray/de.md), [Entwurf PfadVerknüpfeAnordnung](Draft_PathLinkArray/de.md), [Entwurf PunktAnordnung](Draft_PointArray/de.md), [Entwurf Klonen](Draft_Clone/de.md)
+   SeeAlso:[Draft RechtwinkligeAnordnung](Draft_OrthoArray/de.md), [Draft PolareAnordnung](Draft_PolarArray/de.md), [Draft KreisAnordnung](Draft_CircularArray/de.md), [Draft PfadVerknüpfungsanordnung](Draft_PathLinkArray/de.md), [Draft PunktAnordnung](Draft_PointArray/de.md), [Draft PunktVerknüpfungsanordnung](Draft_PointLinkArray/de.md)
 ---
 
 # Draft PathArray/de
 
 
-</div>
 
 ## Beschreibung
 
+Der Befehl <img alt="" src=images/Draft_PathArray.svg  style="width:24px;"> **Draft PfadAnordnung** erstellt eine regelmäßige Anordnung aus einem ausgewählten Objekt, indem er Kopien entlang eines Pfades positioniert. Der Befehl [Draft PfadVerknüpfungsanordnung](Draft_PathLinkArray/de.md) erstellt alternativ eine effizientere Verknüpfungsanordnung ([Link](App_Link.md)-Array). Außer der Art der Anordnung die erstellt wird, normale Anordnung oder Verknüpfungsanordnung, ist der Befehl [Draft PfadVerknüpfungsanordnung](Draft_PathLinkArray/de.md) identisch mit diesem Befehl.
 
-<div class="mw-translate-fuzzy">
+Beide Befehle können für 2D-Objekte verwendet werden, die mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench/de.md) erstellt wurden, aber auch für viele 3D-Objekte, die mit anderen Arbeitsbereichen wie [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md) oder [Arch](Arch_Workbench/de.md) erstellt wurden.
 
-Das **<img src="images/Draft_PathArray.svg" width=16px> [Entwurf PfadAnordnung](Draft_PathArray/de.md)** Werkzeug platziert Kopien einer ausgewählten Form entlang eines ausgewählten Pfades, der ein [Entwurf Draht](Draft_Wire/de.md), ein [Entwurf BSpline](Draft_BSpline.md) und ähnliche Kanten sein kann.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das PfadAnordnungswerkzeug kann auf jedes Objekt verwendet werden das eine [Part TopoForm](Part_TopoShape/de.md) hat, bedeutet 2D Formen, die mit dem [Entwurf Arbeitsbereich](Draft_Workbench/de.md) erstellt wurden, aber auch 3D Festkörper, die mit anderen Arbeitsbereichen erstellt wurden, z.B. [Part Arbeitsbereich](Part_Workbench/de.md), [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) oder [Arch Arbeitsbereich](Arch_Workbench/de.md).
+<img alt="" src=images/Draft_PathArray_Example.png  style="width:400px;"> 
+*Draft PfadAnordnung*
 
 
-</div>
-
-<img alt="" src=images/Draft_PathArray_Example.png  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Objekt entlang eines Pfades angeordnet*
-
-
-</div>
 
 ## Anwendung
 
+1.  Ein Objekt auswählen, das angeordnet werden soll.
+2.  Ein Pfadobjekt zur Auswahl hinzufügen. Es ist auch möglich stattdessen Kanten auszuwählen. Die Kanten müssen zu demselben Objekt gehören und miteinander verbunden sein.
+3.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_PathArray.svg" width=16px> [Pfad-Anordnung](Draft_PathArray.md)** drücken.
+    -   Den Menüeintrag **Änderung → Array tools → <img src="images/Draft_PathArray.svg" width=16px> Pfad-Anordnung** auswählen.
+4.  Die Anordnung wird erstellt.
+5.  Wahlweise die [Eigenschaften](#Eigenschaften.md) der Anordnung im [Eigenschafteneditor](property_editor/de.md) ändern.
 
-<div class="mw-translate-fuzzy">
-
-1.  Wähle das Objekt aus, das du verteilen möchtest.
-2.  Wähle das Pfadobjekt oder die Kanten, entlang derer das Objekt verteilt werden soll.
-3.  Drücke die **<img src="images/Draft_PathArray.svg" width=16px> [PfadAnordnung](Draft_PathArray/de.md)** Schaltfläche.
-4.  Das Anordnungsobjekt wird sofort erzeugt. Du musst die Eigenschaften der Anordnung ändern, um die Anzahl und Richtung der erstellten Kopien zu ändern.
 
 
-</div>
-
-## Alignment
+## Ausrichtung
 
 The alignment of the elements in a Draft PathArray depends on the properties of the array and the orientation of the source object. The position of the source object is ignored: for the purpose of the array the {{Value|x}}, {{Value|y}} and {{Value|z}} are set to {{Value|0}}. If the **Align** property of the array is set to `False` the orientation of the array elements is identical to that of the source object. If it is set to `True` the X axis of the local coordinate system of each element placement is tangent to the path. The Y and Z axes of the local coordinate systems depend on the **Align Mode** property of the array. Other array properties involved in the alignment include **Tangent Vector**, **Force Vertical** and **Vertical Vector**.
 
 <img alt="" src=images/Draft_PathArray_example2.png  style="width:600px;"> 
-*3 arrays based on the same non-planar path. From left to right: Align is false, Align is true with Align Mode Original and Align is true with Align Mode Frenet*.
+*3 Anordnungen die auf demselben nicht ebenen Pfad basieren. Von links nach rechts:  '''Align''' ist ''false'', '''Align''' ist ''true'' mit '''Align Mode''' ''Original'' und '''Align''' ist ''true'' mit '''Align Mode''' ''Frenet''*.
 
-### Align Mode 
 
-Three modes are available:
+
+### Ausrichtungsmodus
+
+Es gibt drei Ausrichtungsmodi
 
 #### Original
 
@@ -75,7 +56,9 @@ This mode comes closest to the single **Align Mode** available in version 0.18. 
 
 This mode uses the local normal vector derived from the path at each element placement. If this vector cannot be determined (for example in the case of a straight segment) a default vector, again the positive Z axis, is used instead. With this vector and the local tangent vector the local coordinate system is determined using the same procedure as in the previous paragraph.
 
-#### Tangent
+
+
+#### Tangente
 
 This mode is similar to **Align Mode** {{Value|Original}} but includes the possibility to pre-rotate the source object by specifying a **Tangent Vector**.
 
@@ -85,24 +68,20 @@ These properties are only available if **Align Mode** is {{Value|Original}} or {
 
 Using these properties can be required if one of the edged of the path is (almost) parallel to the default normal of the path.
 
+
+
 ## Eigenschaften
 
-See also: [Property editor](property_editor.md).
+Siehe auch: [Eigenschafteneditor](property_editor/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Eine [PfadAnordnung](Draft_PathArray/de.md) wird abgeleitet von einer [Part Formelement](Part_Feature/de.md) (`Part::Feature` Klasse), daher teilt sie alle Eigenschaften der letzteren. Zusätzlich zu den in [Part Formelement](Part_Feature/de.md) beschriebenen Eigenschaften hat die PfadAnordnung die folgenden Eigenschaften im [Eigenschaftseditor](property_editor/de.md) .
-
-
-</div>
+Eine [Pfad-Anordnung](Draft_PathArray/de.md) (Path-Array-Objekt) ist von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften (mit Ausnahme einiger Ansicht-Eigenschaften, die nicht an die Verknüpfungsanordnungen vererbt werden). Außerdem sind, wenn nicht anders angegeben, die folgenden zusätzlichen Eigenschaften vorhanden:
 
 ### Data
 
 
 {{TitleProperty|Link}}
 
-The properties in this group are only available for Link arrays. See [Std LinkMake](Std_LinkMake#Properties.md) for more information.
+Die Eigenschaften dieser Gruppe stehen nur für Verknüpfungsanordnungen zur Verfügung. Siehe [Std VerknüpfungErstellen](Std_LinkMake/de#Eigenschaften.md) für weitere Informationen.
 
 -    **Scale|Float**
     
@@ -174,12 +153,14 @@ The properties in this group are only available for Link arrays. See [Std LinkMa
 
 -    **Path Subelements|LinkSubListGlobal**: specifies a list of edges of the **Path Object**. If supplied only these edges are used for the path.
 
-### View
+
+
+### Ansicht
 
 
 {{TitleProperty|Link}}
 
-The properties in this group, with the exception of the inherited property, are only available for Link arrays. See [Std LinkMake](Std_LinkMake#Properties.md) for more information.
+Die Eigenschaften dieser Gruppe, mit Ausnahme der ererbten Eigenschaften, stehen nur für Verknüpfungsanordnungen zur Verfügung. Siehe [Std VerknüpfungErstellen](Std_LinkMake/de#Eigenschaften.md) für weitere Informationen.
 
 -    **Draw Style|Enumeration**
     
@@ -220,7 +201,7 @@ The properties in this group, with the exception of the inherited property, are 
 
 {{TitleProperty|Display Options}}
 
-The properties in this group are inherited properties. See [Part Feature](Part_Feature#Properties.md) for more information.
+Die Eigenschaften in dieser Gruppe sind ererbte Eigenschaften. Siehe auch [Part Formelement](Part_Feature/de#Eigenschaften.md).
 
 -    **Bounding Box|Bool**: this property is not inherited by Link arrays.
 
@@ -242,30 +223,15 @@ The properties in this group are inherited properties. See [Part Feature](Part_F
 
 {{TitleProperty|Object style}}
 
-The properties in this group are not inherited by Link arrays.
-
-## Scripting
+Die Eigenschaften dieser Gruppe werden nicht an Verknüpfungsanordnungen vererbt.
 
 
-<div class="mw-translate-fuzzy">
 
 ## Skripten
 
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-**Siehe auch:**
-
-[Draft API](Draft_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das Pfadanordnungswerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden:
-
-
-</div>
+Zum Erstellen einer Pfad-Anordnung wird die Methode `make_path_array` des Draft-Moduls verwendet ({{Version/de|0.19}}). Diese Methode ersetzt die veraltete Methode `makePathArray`.
 
 
 ```python
@@ -310,15 +276,6 @@ wire = Draft.make_wire([p1, -p2, -p3, -p4])
 path_array2 = Draft.make_path_array(obj, wire, count=3, extra=App.Vector(0, -500, 0), subelements=["Edge2", "Edge3"], align=True, force_vertical=True)
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

@@ -1,6 +1,6 @@
 # Macro Rotate View
 {{Macro
-|Name=Rotate View by 90°
+|Name=Macro Rotate View by 90°
 |Icon=Macro Rotate View view 90 Degrees.png
 |Description=This macro rotates the current view by 90° to the left. Only works if you are in [Top view](Std_ViewTop.md).
 |Author=Yorik
@@ -21,9 +21,9 @@ Only works if you are in Top view: ![Std_ViewTop\|16px\|link=Std_ViewTop](images
 
 ## Script
 
- ToolBar Icon ![](images/Macro_Rotate_View_view_90_Degrees.png )
+ToolBar Icon ![](images/Macro_Rotate_View_view_90_Degrees.png )
 
-**Macro_Rotate_View_90_Degrees.FCMacro**
+ **Macro_Rotate_View_90_Degrees.FCMacro**
 
 
 {{MacroCode|code=

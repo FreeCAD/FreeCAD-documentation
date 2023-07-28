@@ -4,7 +4,7 @@
    Name/fr:Sketcher Joindre des courbes
    MenuLocation:Esquisse → Outils d'esquisse des B-splines → Joindre des courbes
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Version:1.0
+   Version:0.21
    SeeAlso:
 ---
 
@@ -12,7 +12,7 @@
 
 ## Description
 
-Réunit deux courbes B-spline aux points d\'extrémité sélectionnés.
+Réunit deux courbes aux points d\'extrémité sélectionnés.
 
 
 

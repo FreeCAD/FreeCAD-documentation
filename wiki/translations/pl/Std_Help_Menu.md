@@ -39,6 +39,8 @@ W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_FreeCADWebsite.svg  style="width:32px;"> [Witryna FreeCAD](Std_FreeCADWebsite/pl.md): Otwiera internetową stronę domową projektu FreeCAD.
 
+-   <img alt="" src=images/Std_FreeCADDonation.svg  style="width:32px;"> [Przekaż darowiznę](Std_FreeCADDonation/pl.md): Otwiera stronę Wiki dla FreeCAD Przekaż darowiznę.
+
 -   <img alt="" src=images/Std_FreeCADUserHub.svg  style="width:32px;"> [Dokumentacja użytkownika](Std_FreeCADUserHub/pl.md): Otwiera stronę Wiki dokumentacji użytkowników FreeCAD.
 
 -   <img alt="" src=images/Std_FreeCADPowerUserHub.svg  style="width:32px;"> [Dokumentacja skryptów Python](Std_FreeCADPowerUserHub/pl.md): Otwiera stronę Wiki z dokumentacją Power użytkowników dla programu FreeCAD.
@@ -48,6 +50,8 @@ W tym menu dostępne są następujące narzędzia:
 -   <img alt="" src=images/Std_FreeCADForum.svg  style="width:32px;"> [Forum FreeCAD](Std_FreeCADForum/pl.md): Otwiera forum FreeCAD.
 
 -   <img alt="" src=images/Std_FreeCADFAQ.svg  style="width:32px;"> [Często zadawane pytania dotyczące FreeCAD](Std_FreeCADFAQ/pl.md): Otwiera witrynę Wiki dla FreeCAD z często zadawanymi pytaniami *(FAQ)*.
+
+-   <img alt="" src=images/Std_ReportBug.svg  style="width:32px;"> [Zgłoś błąd](Std_ReportBug/pl.md): Otwiera stronę w serwisie GitHub FreeCAD do zgłaszania błędów.
 
 -   <img alt="" src=images/Std_About.svg  style="width:32px;"> [Informacje o FreeCAD](Std_About/pl.md): Otwiera okno wyświetlające informacje dotyczące zainstalowanej wersji programu FreeCAD.
 

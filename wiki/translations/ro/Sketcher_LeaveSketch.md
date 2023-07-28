@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Descriere
@@ -16,6 +18,8 @@ Ieșiți și închideți schița curentă.
 </div>
 
 The **Leave sketch** command exits the sketch editing mode and frees up the [Task panel](Task_panel.md).
+
+
 
 #### Utilizare
 

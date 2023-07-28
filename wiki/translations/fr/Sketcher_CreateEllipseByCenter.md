@@ -27,7 +27,7 @@ C est le centre, a - diamètre principal, b - diamètre mineur, F1, F2 sont les 
 
 -   Cliquer sur le bouton de la barre d\'outils, en choisissant l\'élément de menu, ou en utilisant le raccourci clavier (il faut d\'abord attribuer la touche dans [Personnalisation de l\'interface](Interface_Customization/fr.md)).
 -   Le premier clic dans la vue 3D, définit le centre de l\'ellipse. Le deuxième clic définit le premier rayon et l\'orientation de l\'ellipse. Le troisième clic définit l\'autre rayon (la distance de la ligne définie par les deux premiers clics est le deuxième rayon).
--   Après le troisième clic, l\'ellipse est créée, ainsi que l\' ensemble de géométrie de construction (en traits bleu) aligné (diamètre principal, diamètre mineur, deux foyers). La géométrie de la construction peut être supprimée manuellement si elle n\'est pas nécessaire et recréée ultérieurement. Voir [contrainte d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) et [Afficher/masquer la géométrie interne](Sketcher_RestoreInternalAlignmentGeometry/fr.md).
+-   Après le troisième clic, l\'ellipse est créée, ainsi que l\' ensemble de géométrie de construction (en traits bleu) aligné (diamètre principal, diamètre mineur, deux foyers). La géométrie de la construction peut être supprimée manuellement si elle n\'est pas nécessaire et recréée ultérieurement. Voir [Afficher/masquer la géométrie interne](Sketcher_RestoreInternalAlignmentGeometry/fr.md).
 -   En appuyant sur **Echap** ou en cliquant sur le bouton droit de la souris, vous annulez la fonction.
 
 

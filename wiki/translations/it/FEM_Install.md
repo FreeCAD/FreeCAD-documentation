@@ -1,12 +1,16 @@
 # FEM Install/it
 {{TOCright}}
 
+
+
 ## Introduzione
 
 Per eseguire l\'analisi agli elementi finiti (FEA) all\'interno di <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM](FEM_Workbench/it.md), FreeCAD usa due programmi esterni: uno è utilizzato per generare la [Mesh FEM](FEM_Mesh/it.md) e l\'altro per risolvere numericamente l\'analisi attuale. È possibile verificare se l\'installazione di FreeCAD è pronta per FEA eseguendo l\'esempio [FEM CalculiX - Trave a sbalzo 3D](FEM_CalculiX_Cantilever_3D/it.md) che è incluso in ogni installazione di FreeCAD dalla versione 0.17.
 
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;"> 
 *Flusso di lavoro del Workbench FEM; il workbench chiama due programmi esterni per eseguire il meshing di un oggetto solido e risolvere il problema degli elementi finiti*
+
+
 
 ### Il solutore FEM 
 
@@ -79,27 +83,15 @@ Se il mesher è installato, assicurarsii che FEM sia in grado di trovare il bina
 
 ### Netgen
 
-
-**Nota: Il mesher Netgen è stato disattivato a marzo 2017, quando FreeCAD è passato a utilizzare OCCT 7.1. Si prega di modificare queste informazioni se Netgen è di nuovo utilizzabile con la versione stabile di FreeCAD.**
-
-Nelle versioni precedenti di FreeCAD, [Netgen](https://sourceforge.net/projects/netgen-mesher/) era il mesher di default. Per funzionare con FEM, FreeCAD doveva essere collegato alle librerie di Netgen in fase di compilazione. Mentre FreeCAD passava da OCE 0.17 a OCCT 7.1, Netgen 4.9.13 non riusciva a collegarsi a questa versione di OCCT, quindi si è deciso di eliminare il supporto Netgen in [FEM](FEM_Workbench/it.md) (il [pulsante Netgen](FEM_MeshNetgenFromShape/it.md) è stato rimosso). Tuttavia, poco dopo alcuni utenti hanno segnalato un successo con la patch di Netgen 5.3.1, che funziona con OCCT 7.x e FreeCAD.
-
-Come riferimento storico, vedere le discussioni:
-
--   [(Ubuntu Daily PPA) Transitioning to OCCT7, VTK7\...](https://forum.freecadweb.org/viewtopic.php?f=4&t=17501)
--   [Ubuntu Daily Builds PPA now using OCC 7.1.0](https://forum.freecadweb.org/viewtopic.php?t=21246)
--   [patching Netgen 5.3.1](https://forum.freecadweb.org/viewtopic.php?f=4&t=17501&start=200#p165769) to work with OCCT 7.1
--   [Troubles with gmsh in FEM wb (netgen nostalgy)](https://forum.freecadweb.org/viewtopic.php?t=28368)
+In order to create a FEM Mesh, you can use *Netgen* as an alternative to *Gmsh*. Depending on your operating system and your FreeCAD installation Netgen may be bundled with the FreeCAD installation binaries.
 
 
 <div class="mw-translate-fuzzy">
 
-Nonostante Netgen non sia più disponibile all\'interno di [FEM](FEM_Workbench/it.md), può ancora essere utilizzato da solo per produrre mesh che possono essere importate.
+Se il programma è installato correttamente, è possibile eseguire il comando `netgen` nel terminale per avviare l\'interfaccia grafica del programma.
 
 
 </div>
-
-Se il programma è installato correttamente, è possibile eseguire il comando `netgen` nel terminale per avviare l\'interfaccia grafica del programma.
 
 
 {{SystemInput|User@PC:~$ netgen -V}}
@@ -136,6 +128,8 @@ I pacchetti di FreeCAD disponibili dalla pagina [download](download/it.md) inclu
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 ## Installazione in Linux 
 
@@ -256,6 +250,8 @@ linux-vdso.so.1 (0x00007fffbabdc000)
  libltdl.so.7 => /usr/lib/x86_64-linux-gnu/libltdl.so.7 (0x00007fe9b79ff000)
 ```
 
+
+
 ### Compilare CalculiX 
 
 Since CalculiX is a standalone application, you can either install a binary packaged for your distribution, or compile it yourself. Any CalculiX version from 2.7.x onwards should work with FreeCAD, and since the code hasn\'t changed much in years, lower versions than 2.7.x may work as well.
@@ -265,6 +261,8 @@ Compiling CalculiX is a task for experienced users, requiring editing the Makefi
 -   Debian: [Debian source package for Calculix](http://forum.freecadweb.org/viewtopic.php?f=4&t=5975&start=10), [Gmsh 4 package available for testing in Community Extras PPA](https://forum.freecadweb.org/viewtopic.php?f=18&t=31360&start=10#p260506), [Compiling CalculiX ccx on fedora, ubuntu and debian](https://forum.freecadweb.org/viewtopic.php?f=18&t=34024).
 -   Fedora 27, 28, 29: [Compiling CalculiX ccx on fedora, ubuntu and debian](https://forum.freecadweb.org/viewtopic.php?f=18&t=34024).
 -   There is a CMake version of the source package in a [github repository](https://github.com/ricortiz/CalculiX-cmake), but at the FreeCAD forums no one has reported if this package works.
+
+
 
 ### Compilare Netgen 
 
@@ -277,6 +275,8 @@ Since then some success has been achieved patching and linking newer versions of
 
 
 </div>
+
+
 
 ## Installazione in MacOSX 
 
@@ -295,6 +295,8 @@ The following posts may be outdated:
 
 -   [FEM on Mac OSX, post 1](http://forum.freecadweb.org/viewtopic.php?f=18&t=10979)
 -   [MacPorts users: CalculiX port test request](http://forum.freecadweb.org/viewtopic.php?f=8&t=14497)
+
+
 
 ## Ulteriori informazioni 
 

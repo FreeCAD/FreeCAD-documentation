@@ -10,6 +10,8 @@
 
 # Arch Window/de
 
+
+
 ## Beschreibung
 
 Ein [Arch Fenster](Arch_Window/de.md) ist ein Basisobjekt für alle Arten von \"einbettbaren\" Objekten, wie z.B. Fenster und Türen. Es ist so konzipiert, dass es entweder unabhängig ist oder in einer anderen Komponente \"untergebracht\" wird, wie z.B. einem [Arch Wänden](Arch_Wall/de.md), [Arch Strukturen](Arch_Structure/de.md) oder [Arch Dächern](Arch_Roof/de.md). Es hat eine eigene Geometrie, die aus mehreren festen Komponenten bestehen kann (üblicherweise aus einem Rahmen und inneren Platten), und definiert auch ein Volumen, das von den aufnehmenden Objekten abgezogen wird, um eine Öffnung zu erzeugen.
@@ -26,7 +28,11 @@ Jede auf ein [Arch Fenster](Arch_Window/de.md) zutreffende Information gilt auch
 <img alt="" src=images/Arch_Window_example2.jpg  style="width:600px;"> 
 *Komplexes Fenster, das auf einer [Skizze](Sketcher_Workbench/de.md) konstruiert wird. Wenn du in den Bearbeitungsmodus des Fensters eintritts, kannst du verschiedene Komponenten erstellen, ihre Dicke einstellen und Drähte aus der Skizze auswählen und ihnen zuweisen.*
 
+
+
 ## Anwendung
+
+
 
 ### Eine Voreinstellung verwenden 
 
@@ -35,6 +41,8 @@ Jede auf ein [Arch Fenster](Arch_Window/de.md) zutreffende Information gilt auch
 3.  Fülle die gewünschten Parameter aus.
 4.  In der [3D Ansicht](3D_view/de.md), Bewege das Fenster an die Stelle, an der du es platzieren möchtest. Wenn du den Mauszeiger über eine [Arch Wand](Arch_Wall/de.md) bewegst, sollte sich der Umriss des Fensters an der Fläche dieses Objekts ausrichten.
 5.  Klick auf die [3D Ansicht](3D_view/de.md) mit der Maus oder drücke die **Eingabe** Taste dreimal, um die X, Y, Z Koordinaten der Platzierung zu bestätigen.
+
+
 
 #### Zusätzliche Voreinstellungen 
 
@@ -66,7 +74,12 @@ Das `$ROOT_DIR` ist das Benutzerverzeichnis, wo die FreeCAD-Konfiguration, Makro
 
 </div>
 
+
+
 ### Erzeugung von Anfang an 
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Wählen Sie (optional) eine Fläche des Arch-Objekts, wo Sie das Fenster einfügen möchten.
 2.  Wechseln Sie zum [Sketcher-Arbeitsbereich](Sketcher_Workbench/de.md).
@@ -78,25 +91,33 @@ Das `$ROOT_DIR` ist das Benutzerverzeichnis, wo die FreeCAD-Konfiguration, Makro
 8.  Um die Fensterkomponenten und verschiedene Eigenschaften anzupassen, aktivieren Sie das [Aufgaben-Paneel](Task_panel/de.md) durch Doppelklick auf das erstellte Objekt in der [Baumansicht](Tree_view/de.md).
 
 
-<div class="mw-translate-fuzzy">
-
-
-**Hinweis:**
-
-Achten Sie bei der Erstellung der Skizze genau auf die Erstellungsreihenfolge der Schleifen; die Nummerierung der \"Linienzüge\" in der [Baumansicht](Tree_view/de.md) (\"Windows elements\") hängt hiervon ab.
-
-
 </div>
+
+
 
 ## Voreinstellungen
 
 Die folgenden Voreinstellungen sind verfügbar:
 
+
+<div class="mw-translate-fuzzy">
+
 Image:ParametersDoorGlass.svg\|Glastür Image:ParametersDoorSimple.svg\|Einfache Tür Image:ParametersWindowDouble.svg\|Doppelfenster Image:ParametersWindowFixed.svg\|Festes Fenster Image:ParametersWindowSimple.svg\|Einzelfenster Image:ParametersWindowStash.svg\|Schiebefenster
+
+
+</div>
+
+
 
 ## Teilkomponenten
 
+
+<div class="mw-translate-fuzzy">
+
 Fenster können drei Arten von Komponenten enthalten: Rahmen, Füllungen und Lüftungsschlitze. Füllungen und Lüftungsschlitze werden aus einer geschlossenen Linie extrudiert, während Rahmen aus zwei oder mehr geschlossenen Kantenzügen bestehen, welche jeder extrudiert und anschließend die kleineren vom größten subtrahiert werden. Im Editiermodus (Doppelklick auf die Baumansicht) können Fensterkomponenten erzeugt, geändert und gelöscht werden. Die Komponenten besitzen folgende Eigenschaften:
+
+
+</div>
 
 -   **Name**: der Komponentenname
 -   **Type**: der Komponententyp. Dies kann \"Frame\" (Rahmen), \"Glass panel\" (Glasfüllung), \"Solid panel\" (massive Füllung) oder \"Louvres\" (Lüftungsschlitz) sein.
@@ -108,6 +129,8 @@ Fenster können drei Arten von Komponenten enthalten: Rahmen, Füllungen und Lü
 
 <img alt="" src=images/Arch_Window_options.jpg  style="width:600px;">
 
+
+
 ## Optionen
 
 -   Fenster teilen die gemeinsamen Eigenschaften und Verhaltensweisen aller [Arch-Komponenten](Arch_Component/de.md)
@@ -118,6 +141,8 @@ Fenster können drei Arten von Komponenten enthalten: Rahmen, Füllungen und Lü
 -   Das durch ein Fenster erzeugte Loch in einem Host-Objekt wird durch zwei Eigenschaften festgelegt: {{PropertyData/de|Hole Depth}} and {{PropertyData/de|Hole Wire}} ({{Version/de|0.17}}). Die Hole Wire-Nummer ist in der 3D-Ansicht des Fenster-Aufgabenpaneels sichtbar nach einem Doppelklick auf das Fenster in der Baumansicht
 -   Fenster können [MehrfachMaterial](Arch_MultiMaterial/de.md) verwenden. Das Fenster wird im beigefügten Mehrfachmaterial für jede Fenster-Komponente nach Materialebenen mit gleichem Namen suchen und sie benutzen. Bspw. wird eine Komponente namens \"OuterFrame\" in dem beigefügten Mehrfachmaterial nach einer Materialebene namens \"OuterFrame\" suchen. Wenn solch eine Materialebene gefunden wird, wird dieses Material der OuterFrame-Komponente zugeordnet. Der \"Thickness\"-Wert der Materialebene wird nicht beachtet.
 
+
+
 ## Öffnungen
 
 
@@ -125,10 +150,18 @@ Fenster können drei Arten von Komponenten enthalten: Rahmen, Füllungen und Lü
 
 [Tutorium für offene Fenster](Tutorial_for_open_windows/de.md)
 
+
+<div class="mw-translate-fuzzy">
+
 Türen und Fenster können im 3D-Modell teilweise oder vollständig geöffnet erscheinen oder mit \"zu öffnend\"-Symbolen sowohl in Drauf- und/oder Seitenansichten dargestellt werden. Deshalb werden diese auch in \"extrahierten\" 2D-Ansichten angezeigt, die durch [Form in 2D-Ansicht](Draft_Shape2DView/de.md) oder [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) oder [Zeichnung-Arbeitsbereich](Drawing_Workbench/de.md) generiert werden. Um dies zu erreichen, muss für wenigstens eine der Fensterkomponenten ein Scharnier und ein Öffnungsmodus definiert sein (siehe [Teilkomponenten](#Building_components/de.md) oben). Dann kann mit Hilfe der **Opening**-, **Symbol Plan**- oder **Symbol Elevation**-Eigenschaften das Aussehen des Fensters konfiguriert werden.
+
+
+</div>
 
 <img alt="" src=images/Arch_window_openings.png  style="width:600px;"> 
 *Eine Tür, die den Symbolplan, die Symbolhöhe und die Öffnungseigenschaften bei der Arbeit zeigt*
+
+
 
 ## Festlegen von Fenstertypen 
 
@@ -137,6 +170,8 @@ Fenster kann auch andere Werkzeuge nutzen, insbesondere [PartDesign](PartDesign_
 <img alt="" src=images/Arch_window_type_example.png  style="width:800px;">
 
 [Lade die oben gezeigte Beispieldatei herunter](https://github.com/FreeCAD/Examples/blob/master/Arch_Example_Files/Window_Type.FCStd)
+
+
 
 ### Beispiel Arbeitsablauf 
 
@@ -150,6 +185,8 @@ Fenster kann auch andere Werkzeuge nutzen, insbesondere [PartDesign](PartDesign_
     -   **Width** als PropertyLength und verbinde sie z.B. mit einer horizontalen Beschränkung deiner Basisskizze
     -   **Subvolume** als PropertyLink und verbinde sie z.B. mit dem Volumenkörper, den wir oben erstellt haben
     -   **Tag** als PropertyString
+
+
 
 ### Werkstoffe
 
@@ -166,6 +203,8 @@ Du kannst einen beliebig anderen Arbeitsablauf verwenden, solange du folgende wi
 -   Das Typ-Objekt muss ein Objekt sein, ungeachtet des Typs ([App Teil](App_Part/de.md), [Körper](PartDesign_Body/de.md), [Verbund](Part_Compound/de.md) oder auch ein weiteres [Fenster](Arch_Window/de.md))
 -   Das Typ-Objekt muss eine \"Subvolume\"-Eigenschaft (verbunden mit der Fenster-Subvolume-Eigenschaft) für Öffnungen in Host-Objekten haben, um zu funktionieren
 -   Das Typ-Objekt muss eine \"Group\"-Eigenschaft mit unterschiedlichen \"Kindern\" haben, deren Namen mit den Namen von Mehrfachmaterial-Elementen übereinstimmen, um zu funktionieren
+
+
 
 ## Eigenschaften
 
@@ -189,6 +228,8 @@ Du kannst einen beliebig anderen Arbeitsablauf verwenden, solange du folgende wi
 
 -    {{PropertyData/de|Symbol Elevation}}: Zeigt 2D-Symbole für \"zu öffnend\" in Seitenansichten
 
+
+
 ## Skripten
 
 
@@ -203,9 +244,15 @@ Das Fensterwerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/d
 Window = makeWindow(baseobj=None, width=None, height=None, parts=None, name="Window")
 ```
 
--   Erzeugt ein `Window`-Objekt basierend auf einem `baseobj`, das ein(e) wohlgeformte(r), geschlossene(r) [Linienzug](Draft_Wire/de.md) oder [Skizze](Sketcher_Sketch/de.md) sein sollte.
+
+<div class="mw-translate-fuzzy">
+
+-   Erzeugt ein `Window`-Objekt basierend auf einem `baseobj`, das ein(e) wohlgeformte(r), geschlossene(r) [Linienzug](Draft_Wire/de.md) oder [Skizze](Sketcher_Workbench/de.md) sein sollte.
 -   Falls verfügbar, sollten `width`, `height` und `name` des Fensters gesetzt werden.
 -   Falls `baseobj` keine geschlossene Form ist, kann das Werkzeug keinen korrekten Volumenkörper erzeugen.
+
+
+</div>
 
 Beispiel: 
 ```python

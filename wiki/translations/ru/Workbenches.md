@@ -1,5 +1,10 @@
 # Workbenches/ru
+<div class="mw-translate-fuzzy">
+
 FreeCAD, подобно многим современным приложениям для проектирования, таким как \[//ru.wikipedia.org/wiki/Revit Revit\] или \[//ru.wikipedia.org/wiki/CATIA CATIA\], базируется на концепции \[//ru.wikipedia.org/wiki/Верстак верстаков\]. Верстаки можно рассматривать как набор инструментов, специально сгруппированных под определенные задачи. В традиционных мебельных мастерских, вы имели бы рабочий стол для человека работающего с деревом, другой для работающего с металлическими частями, и, возможно, третий для того, который монтирует все это вместе.
+
+
+</div>
 
 Тоже самое относится и к FreeCAD. Инструменты сгруппированы в верстаки в соответствии с задачами, к которым они относятся.
 
@@ -7,7 +12,11 @@ FreeCAD, подобно многим современным приложения
 
 Следует отметить, что иногда верстаки называют *модулями*. Однако, стоит отметить, что верстаки и модули это разные понятия. Модуль - это любое расширение FreeCAD, в то время как Верстак - это специальный тип модуля со своей собственной конфигурацией графического интерфейса (панели инструментов и меню).
 
+
+
 ## Встроенные верстаки 
+
+### Current
 
 Следующие верстаки идут в комплекте с каждой установкой FreeCAD:
 
@@ -19,27 +28,65 @@ FreeCAD, подобно многим современным приложения
 
 -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [Верстак FEM](FEM_Workbench/ru.md) обеспечивает рабочий процесс анализа Методом Конечных Элементов (МКЭ).
 
--   <img alt="" src=images/Workbench_Image.svg  style="width:32px;"> [Верстак Image](Image_Workbench/ru.md) для работы с растровыми изображениями.
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> [Верстак Inspection](Inspection_Workbench/ru.md) сделан для того, чтобы дать вам специфические инструменты для осмотра форм. Он всё ещё находится в стадии разработки.
 
+
+</div>
+
 -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> [Верстак Mesh](Mesh_Workbench/ru.md) для работы с триангулярными (разбитыми на треугольники) сетками.
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> [Верстак OpenSCAD](OpenSCAD_Workbench/ru.md) обеспечивает совместимость с OpenSCAD и восстановление истории модели [конструктивной твердотельной геометрии](constructive_solid_geometry/ru.md) (CSG).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [ Верстак Part](Part_Workbench/ru.md) для работы с деталями САПР.
+
+
+</div>
 
 -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [ Верстак Part Design](PartDesign_Workbench/ru.md) для построения фигур деталей из эскизов.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Верстак Path](Path_Workbench/ru.md) используется для создания инструкций G-Code. Он всё ещё находится в стадии разработки.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> [Верстак Points](Points_Workbench/ru.md) для работы с облаками точек.
 
--   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> [Верстак Raytracing](Raytracing_Workbench/ru.md) для работы с трассировкой лучей (рендеринг).
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> [Верстак Reverse Engineering](Reverse_Engineering_Workbench/ru.md) предназначен для предоставления специальных инструментов для преобразования форм/тел/сеток в параметрические элементы, совместимые с FreeCAD. Он все ещё находится в стадии разработки.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> [Верстак Robot](Robot_Workbench/ru.md) для изучения движений робота.
+
+
+</div>
 
 -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [Верстак Sketcher](Sketcher_Workbench/ru.md) для работы с геометрически ограниченными эскизами.
 
@@ -55,21 +102,47 @@ FreeCAD, подобно многим современным приложения
 
 -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> [Верстак Web](Web_Workbench/ru.md) предоставляет окно браузера вместо [3D вида](3D_view/ru.md) FreeCAD.
 
-### Устаревшие
+### Obsolete
 
-Следующие верстаки по-прежнему входят в базовую установку в целях совместимости, но их больше не следует использовать.
+The following workbenches are no longer included after version 0.20:
 
--   <img alt="" src=images/Workbench_Complete.svg  style="width:32px;"> [Верстак Complete](Complete_Workbench/ru.md) содержит все команды и функции со всех верстаков, которые соответствуют определенным критериям качества. {{Obsolete|0.17}}
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Workbench_Drawing.svg  style="width:32px;"> [Верстак Drawing](Drawing_Workbench/ru.md) использовался для изготовления технических чертежей, но в настоящее время устарел. По-прежнему необходимо читать старые файлы FreeCAD, содержащие объекты, созданные с помощью этого верстака. [Верстак TechDraw](TechDraw_Workbench/ru.md) является его более продвинутой заменой. {{Obsolete|0.17}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Workbench_Image.svg  style="width:32px;"> [Верстак Image](Image_Workbench/ru.md) для работы с растровыми изображениями.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> [Верстак Raytracing](Raytracing_Workbench/ru.md) для работы с трассировкой лучей (рендеринг).
+
+
+</div>
+
+
 
 ## Внешние верстаки 
 
 Верстаки FreeCAD легко программируются в [Python](Python/ru.md), поэтому многие разрабатывают дополнительные верстаки вне кодовой базы FreeCAD.
 
+
+<div class="mw-translate-fuzzy">
+
 Страница [внешние верстаки](External_workbenches/ru.md) перечисляет все известные сообществу. Большинство из них легко устанавливается из FreeCAD, используя [Addon Manager](Std_AddonMgr/ru.md) через меню **Инструменты → <img src="images/Std_AddonMgr.svg" width=24px> Addon manager**.
 
-Новые верстаки всегда в разработке, следите за обновлениями!
+
+</div>
 
 
 

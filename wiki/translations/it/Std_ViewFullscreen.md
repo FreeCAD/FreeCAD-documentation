@@ -10,31 +10,31 @@
 
 # Std ViewFullscreen/it
 
-## Description
-
-The **Std ViewFullscreen** command switches [3D views](3D_view.md) to and from fullscreen mode. 3D views are automatically [undocked](Std_ViewDockUndockFullscreen.md) for fullscreen mode.
-
-## Usage
-
-1.  Activate the correct 3D view.
-2.  There are several ways to invoke the command:
-    -   Select the **View → Document window → <img src="images/Std_ViewFullscreen.svg" width=16px> Fullscreen** option from the menu. This option does not work if you want to switch off fullscreen mode and there are other docked 3D views.
-    -   Select the **Document window → <img src="images/Std_ViewFullscreen.svg" width=16px> Fullscreen** option from the 3D view context menu.
-    -   Use the keyboard shortcut: **F11**.
-
-## Notes
-
--   Multiple 3D views for the same document can be created with the [Std ViewCreate](Std_ViewCreate.md) command.
--   3D views can also be docked and undocked with the [Std ViewDockUndockFullscreen](Std_ViewDockUndockFullscreen.md) command.
 
 
-<div class="mw-translate-fuzzy">
+## Descrizione
+
+Il comando **Vista 3D a schermo intero** commuta la [Vista 3D](3D_view/it.md) da e verso la modalità a schermo intero. Le viste 3D sono automaticamente [sganciate](Std_ViewDockUndockFullscreen/it.md) per la modalità a schermo intero.
 
 
 
+## Utilizzo
+
+1.  Attivare la vista 3D corretta.
+2.  Esistono diversi modi per invocare il comando:
+    -   Selezionare l\'opzione **Visualizza → Finestra del documento → <img src="images/Std_ViewFullscreen.svg" width=16px> Schermo intero** dal menu. Questa opzione non funziona se si desidera disattivare la modalità a schermo intero e sono presenti altre visualizzazioni 3D agganciate.
+    -   Selezionare l\'opzione **Finestra del documento → <img src="images/Std_ViewFullscreen.svg" width=16px> Schermo intero** dal menu contestuale della vista 3D.
+    -   Usare la scorciatoia da tastiera: **F11**.
 
 
-</div>
+
+## Note
+
+-   È possibile creare più viste 3D per lo stesso documento con il comando [Crea una nuova vista](Std_ViewCreate/it.md).
+-   Le viste 3D possono anche essere agganciate e sganciate con il comando [Finestra del documento](Std_ViewDockUndockFullscreen/it.md).
+
+
+
 
 
 {{Std Base navi

@@ -12,9 +12,13 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Riflette uno schizzo lungo l\'asse x, l\'asse Y o l\'origine. Questo comando viene invocato mentre *non* si modifica uno schizzo. Crea un nuovo schizzo che contiene la geometria specchiata.
+
+
 
 ## Utilizzo
 

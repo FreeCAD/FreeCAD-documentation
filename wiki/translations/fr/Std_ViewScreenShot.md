@@ -9,12 +9,16 @@
 
 # Std ViewScreenShot/fr
 
+
+
 ## Description
 
 La commande **Std Capture d\'écran** ouvre une boîte de dialogue pour créer un fichier image, une capture d\'écran, à partir de la [vue 3D](3D_view/fr.md) active.
 
 <img alt="" src=images/Save_picture.png  style="width:800px;"> 
 *La boîte de dialogue Enregistrer l'image après avoir appuyé sur le bouton avancé*
+
+
 
 ## Utilisation
 
@@ -27,10 +31,14 @@ La commande **Std Capture d\'écran** ouvre une boîte de dialogue pour créer u
 
 ## Options
 
+
+
 ### Tailles de l\'image 
 
 1.  Sélectionnez une taille standard dans la liste déroulante **Tailles standards** ou spécifiez la **Largeur** et la **Hauteur** pour une taille personnalisée.
 2.  En option, appuyez sur un bouton **Rapport d\'aspect** pour définir le rapport largeur/hauteur de l\'image. Si la zone de saisie **Largeur** est choisie, la hauteur de l\'image changera et vice versa.
+
+
 
 ### Propriétés de l\'image 
 
@@ -73,21 +81,29 @@ La commande **Std Capture d\'écran** ouvre une boîte de dialogue pour créer u
         
         Cette méthode utilise les mêmes techniques que **Framebuffer (personnalisé)**. Il prend également en charge l\'anticrénelage, mais présente certaines limitations liées aux tailles personnalisées et utilise toujours l\'arrière-plan actuel de la vue 3D.
 
+
+
 ### Commentaire de l\'image 
 
 1.  Sélectionnez l\'option {{RadioButton|TRUE|Insérer MIBA}} pour ajouter des informations [MIBA](MIBA.md) au fichier. Tous les formats d\'image ne le prennent pas en charge.
 2.  Ou sélectionnez l\'option {{RadioButton|TRUE|Insérer un commentaire}} et tapez un commentaire dans le champ de texte pour incorporer un commentaire dans le fichier. Tous les formats d\'image ne le prennent pas en charge.
 3.  Cochez la case {{CheckBox|TRUE|Ajouter un filigrane}} pour ajouter un filigrane. Le filigrane est placé dans le coin inférieur gauche de l\'image et se compose du logo et du nom FreeCAD au-dessus de l\'URL principale de FreeCAD : [www.freecadweb.org](http://www.freecadweb.org).
 
+
+
 ## Remarques
 
 -   Le nombre de formats de fichier image disponibles peut varier selon votre système d\'exploitation.
 -   Certains pilotes OpenGL n\'autorisent pas les rendus au-dessus d\'une certaine taille maximale.
 
+
+
 ## Préférences
 
 -   L\'arrière-plan de la vue 3D peut être modifié dans les préférences : **Édition → Préférences → Affichage → Couleurs → Couleur d'arrière plan**. Voir [Réglage des préférences](Preferences_Editor/fr#Couleurs.md).
 -   Pour modifier l\'anticrénelage de la vue 3D : **Édition → Préférences → Affichage → Vue 3D → Rendering → Anticrénelage**. Voir [Réglage des préférences](Preferences_Editor/fr#Vue_3D.md).
+
+
 
 ## Script
 

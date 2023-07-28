@@ -14,13 +14,17 @@
 
 La commande **Std Plein écran** bascule la [vue 3D](3D_view/fr.md) vers et depuis le mode plein écran. Les vues 3D sont automatiquement [détachée](Std_ViewDockUndockFullscreen/fr.md) dans le mode plein écran.
 
+
+
 ## Utilisation
 
 1.  Activez la vue 3D correcte.
-2.  Il existe plusieurs façons d\'appeler la commande:
+2.  Il existe plusieurs façons d\'appeler la commande :
     -   Sélectionnez l\'option **Affichage → Fenêtre de document → <img src="images/Std_ViewFullscreen.svg" width=16px> Plein écran** dans le menu. Cette option ne fonctionne pas si vous souhaitez désactiver le mode plein écran et qu\'il existe d\'autres vues 3D ancrées.
     -   Sélectionnez l\'option **Fenêtre de document → <img src="images/Std_ViewFullscreen.svg" width=16px> Plein écran** dans le menu contextuel de la vue 3D.
     -   Utilisez le raccourci clavier: **F11**.
+
+
 
 ## Remarques
 

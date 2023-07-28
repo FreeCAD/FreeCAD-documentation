@@ -1,29 +1,34 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ExtensionInsertDiameter
-   MenuLocation:TechDraw → Extensions: Dimensions → Insert '⌀' Prefix
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Rozszerzenie Dodaj przedrostek "⌀"
+   MenuLocation:Rysunek Techniczny → Rozszerzenia: Wymiary → Dodaj przedrostek "⌀"
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionInsertSquare](TechDraw_ExtensionInsertSquare.md)
+   SeeAlso:[Dodaj przedrostek "〼"](TechDraw_ExtensionInsertSquare/pl.md)
 ---
 
 # TechDraw ExtensionInsertDiameter/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_ExtensionInsertDiameter.svg  style="width:24px;"> **TechDraw ExtensionInsertDiameter** tool inserts a \'⌀\' symbol at the beginning of the dimension text.
+
+## Opis
+
+Narzędzie **Rysunek Techniczny: Rozszerzenie Dodaj przedrostek \"⌀\"** wstawia symbol \"⌀\" na początku tekstu wymiaru.
 
 <img alt="" src=images/TechDraw_ExtensionInsertDiameterExample.png  style="width:600px;"> 
-*On the right dimensions with the inserted symbol*
+*Po prawej wymiary z wstawionym symbolem*
 
-## Usage
 
-1.  Select one or more dimensions.
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionInsertDiameter.svg" width=16px> [TechDraw ExtensionInsertDiameter](TechDraw_ExtensionInsertDiameter.md)** button.
-    -   Select the **TechDraw → Extensions: Dimensions → <img src="images/TechDraw_ExtensionInsertDiameter.svg" width=16px> Insert '⌀' Prefix** option from the menu.
-3.  The \'⌀\' symbol is inserted in the dimension text of the selected dimensions.
+
+## Użycie
+
+1.  Wybierz jeden lub więcej wymiarów.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionInsertDiameter.svg" width=16px> '''Dodaj przedrostek "⌀"'''**.
+    -   Wybierz z menu opcję **Rysunek Techniczny → Rozszerzenia: Wymiary → <img src="images/TechDraw_ExtensionInsertDiameter.svg" width=16px> Dodaj przedrostek "⌀"** .
+3.  Symbol \"⌀\" zostanie wstawiony do tekstu wymiaru wybranych wymiarów.
 
 
 

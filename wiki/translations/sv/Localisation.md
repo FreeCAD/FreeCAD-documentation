@@ -2,6 +2,8 @@
 {{TOCright}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 **Lokalisering** är i allmänhet den process som ger användargränssnittet i ett program flera språk. I FreeCAD så kan du ställa in användargränssnittets språk under *Redigera?Alternativ?Allmänt*. FreeCAD använder [http://sv.wikipedia.org/wiki/Qt Qt](http://sv.wikipedia.org/wiki/Qt_Qt.md) för att aktivera flerspråkssupport. På Unix/Linux system så använder FreeCAD som standard de gällande locale-inställningarna för systemet.
@@ -10,6 +12,8 @@
 </div>
 
 **Localisation** is in general the process of providing a Software with a multiple language user interface. In FreeCAD you can set the language of the user interface under **Edit → Preferences → General**. FreeCAD uses [Qt](wikipedia:Qt_(toolkit).md) to enable multiple language support. On Unix/Linux systems, FreeCAD uses the current locale settings of your system by default.
+
+
 
 ## Hjälpa till med att översätta FreeCAD 
 
@@ -20,6 +24,8 @@ En av de mycket viktiga saker du kan göra för FreeCAD, om du inte är en progr
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -33,7 +39,7 @@ FreeCAD utilizes a third party collaborative on-line translation system called [
 
 <img alt="" src=images/Logo-crowdin.png  style="width:320px;">
 
-It is proprietary software but free to FOSS projects. Below are instructions on how to use it:
+It is proprietary software but free to [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) projects. Below are instructions on how to use it:
 
 
 <div class="mw-translate-fuzzy">
@@ -78,6 +84,8 @@ Starting with FreeCAD 0.20, the following variables can be manually added to the
 **AdditionalTranslationsDirectory** - add an additional directory for FreeCAD to search for \*.qm files. This location will take precedence over \$userAppDataDir/translations and \$resourceDir/translations. For example:
 
     <FCText Name="AdditionalTranslationsDirectory">C:/Users/FreeCADUser/TestTranslations</FCText>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -176,6 +184,8 @@ Translation of the FreeCAD website is now done through [Crowdin](https://crowdin
 This section is for developers who want to add localisation to their code.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Förbereda dina egna moduler/applikationer för översättning 
@@ -200,6 +210,8 @@ Preparing your module for translation is quite easy. First, you need to ensure t
 This creates an empty translation file. Once this is done, you need to ensure that the translation scripts are updated as in this [pull request](https://github.com/FreeCAD/FreeCAD/pull/810).
 
 Everything after this is automatic as far as a developer is concerned. The administrator will extract the text strings, the translators will translate them, then the administrator will extract the translations and update FreeCAD/master.
+
+
 
 
 <div class="mw-translate-fuzzy">

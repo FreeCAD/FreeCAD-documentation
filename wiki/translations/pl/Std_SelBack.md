@@ -1,27 +1,34 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std SelBack
+   Name/pl:Std: Przywróć wybór
    MenuLocation:
-   Workbenches:All
+   Workbenches:wszystkie
    Version:0.19
-   SeeAlso:[Std LinkSelectLinked](Std_LinkSelectLinked.md), [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelForward](Std_SelForward.md)
+   SeeAlso:[Przejdź do połączonego obiektu](Std_LinkSelectLinked/pl.md), [Przejdź do najgłębiej połączonego obiektu](Std_LinkSelectLinkedFinal/pl.md),  [Wybierz wszystkie łącza](Std_LinkSelectAllLinks/pl.md), [Ponów wybór](Std_SelForward/pl.md)
 ---
 
 # Std SelBack/pl
 
-## Description
 
-The **Std SelBack** command restores the previous recorded [Tree view](Tree_view.md) selection. Note that selections are only recorded if [Tree RecordSelection mode](Std_TreeRecordSelection.md) is switched on.
 
-## Usage
+## Opis
 
-1.  There has to be a previous Tree view selection.
-2.  Press the **<img src="images/Std_SelBack.svg" width=16px> [Back](Std_SelBack.md)** button.
-3.  The previous selection is restored.
+Polecenie **Przywróć wybór** przywraca poprzedni zarejestrowany wybór z [Widoku drzewa](Tree_view/pl.md). Należy pamiętać, że zaznaczenia są zapisywane tylko wtedy, gdy włączony jest tryb [Zapisz zaznaczenie](Std_TreeRecordSelection/pl.md).
 
-## Notes
 
--   Only [Tree view](Tree_view.md) selections are recorded. To record a selection made in the [3D view](3D_view.md) a final object has to be added in the Tree view.
+
+## Użycie
+
+1.  Musi istnieć poprzedni wybór widoku Drzewa.
+2.  Naciśnij przycisk **<img src="images/Std_SelBack.svg" width=16px> [Przywróć wybór](Std_SelBack/pl.md)**.
+3.  Poprzedni wybór zostanie przywrócony.
+
+
+
+## Uwagi
+
+-   Rejestrowane są tylko wybory dokonane w [Widoku Drzewa](Tree_view/pl.md). Aby zapisać wybór dokonany w oknie [Widoku 3D](3D_view/pl.md), obiekt końcowy musi zostać dodany w widoku Drzewa.
 
 
 

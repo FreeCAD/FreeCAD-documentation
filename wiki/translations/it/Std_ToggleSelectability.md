@@ -8,21 +8,29 @@
 
 # Std ToggleSelectability/it
 
+
+
 ## Descrizione
 
-The **Std ToggleSelectability** command toggles the selectability of objects in [3D views](3D_view.md).
+Il comando **Commuta la selezionabilità** commuta la selezionabilità degli oggetti nella [Vista 3D](3D_view/it.md).
+
+
 
 ## Utilizzo
 
-1.  Select one or more objects.
-2.  There are several ways to invoke the command:
-    -   Select the **View → Visibility → <img src="images/Std_ToggleSelectability.svg" width=16px> Toggle selectability** option from the menu.
-    -   Select the **<img src="images/Std_ToggleSelectability.svg" width=16px> Toggle selectability** option from the [Tree view](Tree_view.md) context menu. This option is not available in the [PartDesign Workbench](PartDesign_Workbench.md).
-    -   Select the **<img src="images/Std_ToggleSelectability.svg" width=16px> Toggle selectability** option from the 3D view context menu.
+1.  Selezionare uno o più oggetti.
+2.  Esistono diversi modi per invocare il comando:
+    -   Selezionare l\'opzione **Visualizza → Visibilità → <img src="images/Std_ToggleSelectability.svg" width=16px> Commuta la selezionabilità** dal menu.
+    -   Selezionare l\'opzione **<img src="images/Std_ToggleSelectability.svg" width=16px> Commuta la selezionabilità** dal menu contestuale [Vista ad albero](Tree_view/it.md). Questa opzione non è disponibile in [PartDesign](PartDesign_Workbench/it.md).
+    -   Selezionare l\'opzione **<img src="images/Std_ToggleSelectability.svg" width=16px> Commuta la selezionabilità** dal menu contestuale della vista 3D.
+
+
 
 ## Note
 
--   The selectability of an object can also be changed through its related **Selectable** property in the [Property editor](Property_editor.md) or the [Combo view](Combo_view.md).
+-   La selezionabilità di un oggetto può anche essere modificata tramite la relativa proprietà **Selectable** nel [Editor delle proprietà](Property_editor/it.md) o nella [Vista combinata](Combo_view/it.md).
+
+
 
 ## Script
 
@@ -31,7 +39,7 @@ The **Std ToggleSelectability** command toggles the selectability of objects in 
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
-The `Selectable` property of an object determines its selectability.
+La proprietà `Selectable` di un oggetto ne determina la selezionabilità.
 
 
 ```python
@@ -46,13 +54,7 @@ else:
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

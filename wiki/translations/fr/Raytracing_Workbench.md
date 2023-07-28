@@ -1,8 +1,6 @@
 # Raytracing Workbench/fr
-**L'atelier Raytracing est quasiment obsolète. De nouveaux développements sont en cours avec l'[https://github.com/FreeCAD/FreeCAD-render atelier Render], qui est destiné à le remplacer. Cet atelier est entièrement programmé en Python et il est donc beaucoup plus facile de le faire évoluer.
-
-Néanmoins, les informations de cette page sont généralement utiles pour le nouvel atelier, car les deux modules fonctionnent essentiellement de la même manière.
-**
+**L''''atelier Raytracing''' n'est plus inclus depuis la version 0.20.<br>
+L'atelier externe [https://github.com/FreeCAD/FreeCAD-render Render] peut être utilisé à la place.**
 
 <img alt="Icône de l\'atelier Raytracing" src=images/Workbench_Raytracing.svg  style="width:128px;">
 
@@ -17,7 +15,7 @@ L\'atelier Raytracing fonctionne avec des [modèles](Raytracing_templates/fr.md)
 
 Actuellement, deux moteurs de rendu sont pris en charge : [POV-Ray](POV-Ray/fr.md) et [LuxRender](LuxRender/fr.md). Pour être en mesure d\'effectuer un rendu à partir de FreeCAD, au moins un de ces programmes doit être installé et configuré dans votre système. Cependant, si aucun programme de rendu n\'est installé, vous pourrez toujours exporter un fichier de projet pour le rendre à un autre moment.
 
-L\'atelier Raytracing est quasiment obsolète. De nouveaux développements sont en cours avec l\'[atelier Render](https://github.com/FreeCAD/FreeCAD-render), qui est destiné à le remplacer. Cet atelier est entièrement programmé en Python et il est donc beaucoup plus facile de le faire évoluer que l\'actuel qui est programmé en C ++. Néanmoins, les informations de cette page sont généralement utiles pour le nouvel atelier car les deux modules fonctionnent essentiellement de la même manière.
+L\'atelier Raytracing est obsolète, l\'atelier externe [Render](https://github.com/FreeCAD/FreeCAD-render) le remplace. Néanmoins, les informations contenues dans cette page sont généralement utiles pour le nouvel atelier car les deux fonctionnent basiquement de la même manière.
 
 <img alt="" src=images/Raytracing_example.jpg  style="width:1024px;">
 
@@ -34,7 +32,11 @@ L\'atelier Raytracing est quasiment obsolète. De nouveaux développements sont 
 
 *Le flux de travail de l'atelier Raytracing; l'atelier prépare un fichier de projet à partir d'un modèle donné, puis appelle un programme externe pour produire le rendu réel de la scène. Le rendu externe peut être utilisé indépendamment de FreeCAD.*
 
+
+
 ## Outils
+
+
 
 ### Outils de projet 
 
@@ -47,6 +49,8 @@ Ce sont les principaux outils d'exportation de votre travail 3D vers des rendus 
 -   <img alt="" src=images/Raytracing_ExportProject.svg  style="width:32px;"> [Exporter un projet](Raytracing_ExportProject/fr.md): Exporte un projet de lancer de rayons dans un fichier de scène pour le rendu dans un rendu externe
 -   <img alt="" src=images/Raytracing_Render.svg  style="width:32px;"> [Rendu](Raytracing_Render/fr.md): Rend un projet de lancer de rayons avec un moteur de rendu externe
 
+
+
 ### Utilitaires
 
 Ce sont des outils auxiliaires pour effectuer manuellement des tâches spécifiques.
@@ -54,6 +58,8 @@ Ce sont des outils auxiliaires pour effectuer manuellement des tâches spécifiq
 -   <img alt="" src=images/Raytracing_WriteView.svg  style="width:32px;"> [Exporter la vue vers Pov-Ray](Raytracing_WriteView/fr.md): Exporte la vue 3D active avec la caméra et tout son contenu dans un fichier povray.
 -   <img alt="" src=images/Raytracing_WriteCamera.svg  style="width:32px;"> [Exporter la caméra vers Pov-Ray](Raytracing_WriteCamera/fr.md): Exporte la position de la caméra de la vue 3D active au format POV-Ray dans un fichier.
 -   <img alt="" src=images/Raytracing_WritePart.svg  style="width:32px;"> [Export de la pièce vers Pov-Ray](Raytracing_WritePart/fr.md): Exporte la partie sélectionnée (objet) en tant que fichier povray.
+
+
 
 ## Préférences
 
@@ -74,9 +80,13 @@ Donnez un emplacement pour enregistrer le fichier \*.pov. Après cela vous pouve
 
 Comme d\'habitude dans un rendu vous pouvez faire de grandes et belles photos : <img alt="" src=images/Scharniergreifer_render.jpg  style="width:800px;">
 
+
+
 ## Script
 
 Voir [Raytracing API exemples](Raytracing_API_example/fr.md) pour plus d\'informations sur l\'écriture de scènes par programmation.
+
+
 
 ## Liens
 
@@ -123,6 +133,8 @@ Bien que l\'exportation directe vers le format de fichier XML Kerkythea ne soit 
 
 -   Si vous importez plusieurs objets dans Kerkythea, vous pouvez utiliser la commande \"Fichier → Fusionner\" dans Kerkythea
 
+
+
 ## Développement
 
 Ces pages font référence au nouveau plan de travail, programmé en Python, destiné à remplacer le plan de travail Raytracing actuel.
@@ -142,4 +154,4 @@ Ces pages font référence au nouveau plan de travail, programmé en Python, des
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/fr

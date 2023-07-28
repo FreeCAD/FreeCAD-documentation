@@ -515,7 +515,15 @@ Se puede acceder al eje de rotación con:
 
 where often one of these values is 1 while the others are 0.
 
+You can also use the whole Placement in a single expression:
+
+
+<div class="mw-translate-fuzzy">
+
 Se puede usar también la Ubicación al completo en una única expresión. Para ello: Pinchar con el botón derecho del ratón sobre la propiedad Placement en el Editor de propiedades, seleccionar \"Mostrar todo\" y aparecerán más propiedades adicionales. Si se vuelve a pinchar con el botón derecho otra vez sobre Placement, el menú contextual incluirá \"Expresión\...\". Seleccionando Expresión se abrirá su caja de diálogo y lo que se introduzca irá a la propiedad de Placement en vez de a las propiedades hijas.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -568,12 +576,6 @@ Para hacer que la ubicación del \"Boceto\" sea la misma que la del \"Cilindro\"
   Part.Cone                        center of bottom face (or apex if bottom radius is 0)
   Part.Torus                       center of the torus
   Features derived from Sketches   the Feature inherits the Position of the underlying Sketch. Sketches always start with Position = (0,0,0). This position corresponds to the origin in the sketch.
-
-
-
-## Otros
-
--   La Ubicación relativa de los objetos será tratada con posterioridad en el banco de trabajo Assembly (Ensamblaje).
 
 
 

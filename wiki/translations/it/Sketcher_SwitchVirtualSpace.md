@@ -13,9 +13,13 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Sketcher ha due spazi virtuali su cui è possibile impostare i vincoli. Di solito tutti i vincoli vengono impostati su un solo spazio virtuale. È possibile spostare alcuni vincoli nello spazio virtuale due. Questo può aiutare a ispezionare solo su alcuni vincoli alla volta.
+
+
 
 ## Utilizzo
 

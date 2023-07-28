@@ -212,34 +212,6 @@ Jeśli napisałeś makro i chcesz umieścić je w kategoriach na tej stronie, zo
 
 
 
-### <img alt="" src=images/Drawing-orthoviews.svg  style="width:32px;"> Środowisko pracy Kreślenie 
-
-Środowisko pracy [Kreślenie](Drawing_Workbench/pl.md) jest uważane za przestarzałe od wersji FreeCAD 0.17. Rozważ użycie środowiska [Rysunek Techniczny](TechDraw_Workbench/pl.md) zamiast niego.
-
-
-<div class="mw-collapsible-content">
-
--    <img style="width:16px;" src="images/Macro_Automatic_drawing.png"> [Makro Automatic drawing](Macro_Automatic_drawing/pl.md): Umożliwia użytkownikowi uzyskanie widoku obiektu na rysunku w 4 różnych pozycjach *(przód, góra, iso, prawo)*. Wymaga pewnych modyfikacji, aby być w pełni efektywnym.
-
--    <img style="width:16px;" src="images/Macro_CartoucheFC.png"> [Makro CartoucheFC](Macro_CartoucheFC/pl.md): To makro GUI wypełnia w prosty sposób wszystkie pola formatki arkusza realizacji planu FreeCAD, format daty i symbol trybu rzutowania dostosowuje się do wybranego regionu UE lub USA.
-
--    <img style="width:16px;" src="images/Macro_CartoucheFC_2.png"> [Makro CartoucheFC 2](Macro_CartoucheFC_2/pl.md): To makro GUI służy do prostego wypełniania wszystkich pól formatki **model 2** arkusza realizacji planu FreeCAD.
-
--    <img style="width:16px;" src="images/Macro_CartoucheFC_Full.png"> [Makro CartoucheFC Full](Macro_CartoucheFC_Full/pl.md): To makro GUI wypełnia w prosty sposób wszystkie pola formatki [Wypełnienie szablonu](Misc_templates_Full/pl.md) arkusza implementacji planu FreeCAD, format daty i symbol trybu rzutowania dostosowuje do wybranego regionu UE lub USA.
-
--    <img style="width:16px;" src="images/Macro_Normal_Vector.png"> [Makro Normal Vector](Macro_Normal_Vector/pl.md): Uzyskaj wektor normalny wybranej powierzchni w celu utworzenia widoku rysunku normalnego do tej powierzchni.
-
-
-</div>
-
-
-</div>
-
-
-<div class="toccolours mw-collapsible mw-collapsed">
-
-
-
 ### <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> środowisko pacy MES 
 
 
@@ -320,6 +292,8 @@ Jeśli napisałeś makro i chcesz umieścić je w kategoriach na tej stronie, zo
 -    <img style="width:16px;" src="images/Macro_MeasureCircle.png"> [Makro MeasureCircle](Macro_MeasureCircle/pl.md): Obliczenie promienia okręgu przez 3 punkty lub krawędź okręgu.
 
 -    <img style="width:16px;" src="images/Macro_Mouse_over_cb.png"> [Makro Mouse over cb](Macro_Mouse_over_cb/pl.md): Ta makrodefinicja powoduje wyświetlenie wszystkich elementów znajdujących się poniżej kursora *(wyświetlane są również elementy zakryte przez inne elementy)*.
+
+-    <img style="width:16px;" src="images/Macro_Normal_Vector.png"> [Makro Normal Vector](Macro_Normal_Vector/pl.md): UUzyskaj wektor normalny wybranej wcześniej powierzchni w celu utworzenia widoku rysunkowego normalnego do tej powierzchni.
 
 -    <img style="width:16px;" src="images/Macro_ObjectInfo.png"> [Makro ObjectInfo](Macro_ObjectInfo/pl.md): Przyjazny dla użytkownika moduł \"Info\" stworzony przez użytkownika programu FreeCAD.
 
@@ -649,6 +623,8 @@ Jeśli napisałeś makro i chcesz umieścić je w kategoriach na tej stronie, zo
 
 -    <img style="width:16px;" src="images/Macro_FCSpreadsheet_Extract.png"> [Makro FCSpreadSheet Extract](Macro_FCSpreadSheet_Extract/pl.md):Ta makrodefinicja zapisuje dane w pliku csv z formułą lub w pliku xml.
 
+-    <img style="width:16px;" src="images/Macro_Sketch_Constraint_From_Spreadsheet.svg"> [Makro Sketch Constraint From Spreadsheet](Macro_Sketch_Constraint_From_Spreadsheet/pl.md): Szybko dodaj wiązanie długości do linii lub między 2 punktami, używając aliasu komórki arkusza kalkulacyjnego lub adresu.
+
 -    <img style="width:16px;" src="images/Macro_SpreadsheetTools.png"> [Makro Spreadsheet Tools](Macro_SpreadsheetTools/pl.md): Ta makrodefinicja pomaga zarządzać komórkami w arkuszu roboczym Arkusz kalkulacyjny FreeCAD.
 
 -    <img style="width:16px;" src="images/Applications-python.svg"> [Makro Spreadsheet2html](Macro_Spreadsheet2html/pl.md): Eksportuje arkusz kalkulacyjny jako stylizowany html. Przeznaczony jako pomoc przy przenoszeniu danych do programów biurowych.
@@ -726,8 +702,6 @@ Jeśli napisałeś makro i chcesz umieścić je w kategoriach na tej stronie, zo
 
 
 <div class="mw-collapsible-content">
-
--    <img style="width:16px;" src="images/Macro_Corner_shapes_wizard.png"> [Makro Corner shapes wizard/update](Macro_Corner_shapes_wizard/update/pl.md): Wyświetla okno dialogowe z prośbą o podanie wymiarów narożnika, a następnie tworzy obiekt w dokumencie i tworzy widok strony z widokiem elementu z góry, z przodu i z boku.
 
 -    <img style="width:16px;" src="images/Gearworkbech.png"> [Makro FCGear](Macro_FCGear/pl.md): Dodatkowe środowisko pracy do tworzenia różnych typów kół zębatych, kół zębatych ewolwentowych, kół zębatych inwolwentowych, kół zębatych cykloidalnych i kół zębatych stożkowych.
 

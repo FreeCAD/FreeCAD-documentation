@@ -13,14 +13,16 @@ L\'atelier Path contient un ensemble de commandes cachées. Elles sont cachées 
 -   Elle est mature mais n\'a pas encore été déplacée vers la liste d\'outils standard.
 -   \... d\'autres raisons.
 
+
+
 ## Activer les commandes expérimentales 
 
-Pour accéder aux commandes expérimentales masquées dans de l\'atelier Path, l\'utilisateur doit les activer dans [Std Editeur des paramètres](Std_DlgParameter/fr.md).
+Pour accéder aux commandes expérimentales masquées dans de l\'atelier Path, l\'utilisateur doit les activer dans l\'[éditeur des paramètres](Std_DlgParameter/fr.md).
 
-1.  Ouvrez le [Editeur des paramètres](Std_DlgParameter/fr.md) via **Outils → Editer Paramètres ...**
+1.  Ouvrez l\'[éditeur des paramètres](Std_DlgParameter/fr.md) via **Outils → Éditer les paramètres...**
 2.  Une fois dans l\'éditeur, le chemin est **BaseApp → Preferences → Mod → Path**
-3.  Pour activer les commandes [Path Zone d\'usinage](Path_Area/fr.md) et [Path Zone de travail plane](Path_Area_Workplane/fr.md) :
-    -   Cliquez bouton droit de la souris dans la zone de liste des paramètres et sélectionnez **Nouveau → Nouvel article booléen** dans le menu contextuel.
+3.  Pour activer les commandes [Path Surface](Path_Area/fr.md) et [Path Plan de travail](Path_Area_Workplane/fr.md) :
+    -   Cliquez avec le bouton droit de la souris dans la zone de la liste des paramètres et sélectionnez **Nouveau → Nouvel article booléen** dans le menu contextuel.
     -   Nommez le nouveau paramètre : `EnableAdvancedOCLFeatures`. (sensible à la casse).
     -   Définissez-le à `True`.
 4.  Pour activer les autres commandes expérimentales :
@@ -30,7 +32,9 @@ Pour accéder aux commandes expérimentales masquées dans de l\'atelier Path, l
 5.  Enregistrez les paramètres.
 6.  Redémarrez FreeCAD.
 
-## Information Supplémentaire 
+
+
+## Informations supplémentaires 
 
 En savoir plus sur les commandes expérimentales spécifiques sur les [pages du wiki qui renvoient à celle-ci](https://www.freecadweb.org/wiki/Special:WhatLinksHere/Path_experimental).
 

@@ -9,6 +9,8 @@
 
 # PartDesign LinearPattern/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:24px;"> **PartDesign LinearesMuster** erstellt ein lineares Muster eines oder mehrerer Formelemente
@@ -16,90 +18,100 @@ Das Werkzeug <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:2
 ![](images/PartDesign_LinearPattern_example.svg ) 
 *Ein L-förmiger Block (B), der auf einer Grundplatte (A, auch als ''Träger'' bezeichnet) angebracht ist, wird für ein lineares Muster verwendet. Das Ergebnis (C) ist rechts dargestellt.''*
 
+
+
 ## Anwendung
+
+
 
 ### Erstellen
 
-1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
-2.  Optionally select one or more features in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-3.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/PartDesign_LinearPattern.svg" width=16px> [LinearPattern](PartDesign_LinearPattern.md)** button.
-    -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_LinearPattern.svg" width=16px> LinearPattern** option from the menu.
-4.  If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
-5.  If no features were selected the **Select feature** [task panel](Task_panel.md) opens: select one or more (hold down the **Ctrl** key) from the list and press the **OK** button.
-6.  The **LinearPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
-7.  Press the **OK** button to finish.
+1.  Optional [aktiviere](PartDesign_Body#Active_status.md) den gewünschten Körper.
+2.  Optional wähle eines oder mehrere Features im [Modellbaum](Tree_view/de.md) oder in der [3D Ansicht](3D_view.md).
+3.  Es gibt mehrere Möglichkeiten um das Werkzeug zu starten:
+    -   Drücke die **<img src="images/PartDesign_LinearPattern.svg" width=16px> [LinearPattern](PartDesign_LinearPattern.md)** Schaltfläche.
+    -   Wähle die **Part Design → Apply a pattern → <img src="images/PartDesign_LinearPattern.svg" width=16px> LinearPattern** Option aus dem Menü.
+4.  Wenn es keinen aktiven Körper gibt, oder mehr als zwei Körper im Dokument vorhanden sind, dann öffnet der **Active Body Required** Dialog und zeigt an, dass einer aktiviert werden muss. Wenn es einen einzelnen Körper gibt, dann wird dieser automatisch aktiviert.
+5.  Wenn keine Features ausgewählt wurden, dann öffnet das **Select feature** [Eingabefenster](Task_panel.md): wähle eine oder mehrere (drücke die **Ctrl** Taste) aus der Liste und wähle die **OK** Schaltfläche.
+6.  Das **LinearPattern parameters** [Eingabefenster](Task_panel.md) öffnet. Siehe [Optionen](#Options.md) für weitere Informationen.
+7.  Wähle die **OK** Schaltfläche um zu beenden.
+
+
 
 ### Bearbeiten
 
-1.  Do one of the following:
-    -   Double-click the LinearPattern object in the [Tree view](Tree_view.md).
-    -   Right-click the LinearPattern object in the [Tree view](Tree_view.md) and select **Edit LinearPattern** from the context menu.
-2.  The **LinearPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
-3.  Press the **OK** button to finish.
+1.  Mache eines aus dem Folgenden:
+    -   Doppel-Klicke das LinearPattern Objekt im [Modellbaum](Tree_view/de.md).
+    -   Rechts-Klicke das LinearPattern Objekt im [Modellbaum](Tree_view/de.md) und wähle **Edit LinearPattern** aus dem Kontextmenü.
+2.  Das **LinearPattern parameters** [Eingabefenster](Task_panel/de.md) öffnet. Siehe [Optionen](#Options.md) für weitere Informationen.
+3.  Drücke die **OK** Schaltfläche um zu beenden.
+
+
 
 ## Optionen
 
--   To add features:
-    1.  Press the **Add feature** button.
-    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-    3.  Repeat to add more features.
--   To remove features:
-    1.  Press the **Remove feature** button.
-    2.  Do one of the following:
-        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-        -   Select a feature in the list and press the **Del** key.
-        -   Right-click a feature in the list and select **Remove** from the context menu.
-    3.  Repeat to remove more features.
--   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
--   Specify the **Direction** of the pattern:
+-   Um Features hinzuzufügen:
+    1.  Betätige die **Add feature** Schaltfläche.
+    2.  Wähle ein Feature im [Modellbaum](Tree_view/de.md) oder in der [3D Ansicht](3D_view.md).
+    3.  Wieder hole alles um weitere Features hinzuzufügen.
+-   Um Features zu entfernen:
+    1.  Betätige die **Remove feature** Schaltfläche.
+    2.  Mache eines der Folgenden:
+        -   Wähle eine Feature im [Modellbaum](Tree_view/de.md) oder in der [3D Ansicht](3D_view.md).
+        -   Wähle eine Feature in der Liste und betätige die **Del** Taste.
+        -   Rechts-Klicke eine Feature in der Liste und wähle **Remove** aus dem Kontextmenü.
+    3.  Wieder hole alles um weitere Features zu entfernen.
+-   Falls es im Muster mehrere Features gibt, kann ihre Reihenfolge wichtig sein. Siehe [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
+-   Lege die **Richtung** des Musters fest:
     -   
-        **Normal sketch axis**
+        **Normal zur Skizzenachse**
         
-        : The Z axis of the sketch (only available for sketch-based features).
+        : Die Z Achse der Skizze (nur bei skizzenbasierten Features möglich).
 
     -   
-        **Vertical sketch axis**
+        **Vertikale Skizzenachse**
         
-        : The Y axis of the sketch (idem).
+        : Die Y Achse der Skizze (idem).
 
     -   
-        **Horizontal sketch axis**
+        **Horizontale Skizzenachse**
         
-        : The X axis of the sketch (idem).
+        : Die X Achse der Skizze (idem).
 
     -   
-        **Construction line #**
+        **Konstruktionslinie**
         
-        : A separate entry for each construction line in the sketch (idem).
+        : Ein eigener Zugang für jede Konstruktionslinie in der Skizze (idem).
 
     -   
-        **Base X axis**
+        **Basis X Achse**
         
-        : The X axis of the Body.
+        : Die X Achse des Körpers.
 
     -   
-        **Base Y axis**
+        **Basis Y Achse**
         
-        : The Y axis of the Body.
+        : Die Y Achse des Körpers.
 
     -   
-        **Base Z axis**
+        **Basis Z Achse**
         
-        : The Z axis of the Body.
+        : Die Z Achse des Körpers.
 
     -   
-        **Select reference...**
+        **Wähle Referenz...**
         
-        : Select a [Datum Line](PartDesign_Line.md) in the [Tree view](Tree_view.md) or a [Datum Line](PartDesign_Line.md) or edge in the [3D view](3D_view.md).
--   Check the **Reverse direction** checkbox to reverse the pattern.
--   Specify the **Length** to be covered by the pattern.
--   Specify the number of **Occurrences** (including the original feature).
--   If the **Update view** checkbox is checked the view will update in real time.
+        : Wähle eine [Datum Linie](PartDesign_Line.md) im [Modellbaum](Tree_view.md) oder eine [Datum Linie](PartDesign_Line.md) oder Kante in der [3D Ansicht](3D_view.md).
+-   Überprüfe die **Richtung umkehren** Checkbox um das Muster umzukehren.
+-   Bestimme die **Länge** die vom Muster überdeckt wird.
+-   Bestimme die Anzahl **Anzahl** (inclusive der original Feature).
+-   Wenn die **Update Ansicht** Checkbox gewählt ist, dann wird die Ansicht in Echtzeit nachgebildet.
+
+
 
 ## Einschränkungen
 
-See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
+Siehe [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
 
 
 

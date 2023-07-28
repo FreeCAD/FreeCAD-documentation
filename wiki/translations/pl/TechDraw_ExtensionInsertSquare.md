@@ -1,29 +1,34 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ExtensionInsertSquare
-   MenuLocation:TechDraw → Extensions: Dimensions → Insert '〼' Prefix
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Rozszerzenie Dodaj przedrostek "〼"
+   MenuLocation:Rysunek Techniczny → Rozszerzenia: Wymiary → Dodaj przedrostek "〼"
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionInsertDiameter](TechDraw_ExtensionInsertDiameter.md)
+   SeeAlso:[Dodaj przedrostek "⌀"](TechDraw_ExtensionInsertDiameter/pl.md)
 ---
 
 # TechDraw ExtensionInsertSquare/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_ExtensionInsertSquare.svg  style="width:24px;"> **TechDraw ExtensionInsertSquare** tool inserts a \'〼\' symbol at the beginning of the dimension text.
+
+## Opis
+
+Narzędzie **Dodaj przedrostek \"〼\"** wstawia symbol \"〼\" na początku tekstu wymiaru.
 
 <img alt="" src=images/TechDraw_extensionInsertSquareExample.png  style="width:500px;"> 
-*On the right a dimension with the inserted symbol*
+*Po prawej wymiary z wstawionym symbolem.*
 
-## Usage
 
-1.  Select one or more dimensions.
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionInsertSquare.svg" width=16px> [TechDraw ExtensionInsertSquare](TechDraw_ExtensionInsertSquare.md)** button.
-    -   Select the **TechDraw → Extensions: Dimensions → <img src="images/TechDraw_ExtensionInsertSquare.svg" width=16px> Insert '〼' Prefix** option from the menu.
-3.  The \'〼\' symbol is inserted in the dimension text of the selected dimensions.
+
+## Użycie
+
+1.  Wybierz jeden lub więcej wymiarów.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionInsertSquare.svg" width=16px> '''Dodaj przedrostek "〼"'''**.
+    -   Wybierz z menu opcję **Rysunek Techniczny → Rozszerzenia: Wymiary → <img src="images/TechDraw_ExtensionInsertSquare.svg" width=16px> Dodaj przedrostek "〼"** .
+3.  Symbol \"〼\" zostanie wstawiony do tekstu wymiaru wybranych wymiarów.
 
 
 

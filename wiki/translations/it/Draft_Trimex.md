@@ -1,9 +1,9 @@
 ---
 - GuiCommand:/it
    Name:Draft Trimex
-   Name/it:Tronca/Estendi
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation:Draft → Tronca/Estendi
+   Name/it:Taglia/Estendi
+   MenuLocation:Modifiche → Taglia/Estendi
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**T** **R**
    SeeAlso:Parte → [Estrudi](Part_Extrude/it.md)
 ---
@@ -11,135 +11,118 @@
 # Draft Trimex/it
 
 
-</div>
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_Trimex.svg  style="width:24px;"> **Taglia/Estendi** [taglia o estende](#Taglia_o_estendi.md) un oggetto selezionato. Le intersezioni con il bordo di un altro oggetto possono essere utilizzate per determinare nuovi punti finali. Il comando può essere utilizzato anche per [estrudere](#Estrusione.md) una faccia, nel qual caso crea un oggetto [Part Estrusione](Part_Extrude/it.md).
 
-<div class="mw-translate-fuzzy">
-
-Lo strumento Tronca/Estendi taglia o estende le [Linee](Draft_Line/it.md) e le [Polilinee](Draft_Wire/it.md) in modo che finiscano in un\'intersezione con un\'altra linea o bordo.
-
-
-</div>
-
-<img alt="" src=images/Draft_trimex_example.jpg  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
+<img alt="" src=images/Draft_trimex_example.jpg  style="width:400px;"> 
+*In alto: una polilinea estesa e poi tagliata.<br>
+In basso: una faccia estrusa in un corpo solido.*
 
 
 
-*Segmento del contorno esteso, poi segmento tagliato; faccia estrusa in un corpo solido*
+## Taglia o estendi 
 
 
-</div>
 
-## Trim or extend 
+### Utilizzo
 
-### Usage
+1.  Facoltativamente selezionare un oggetto. L\'oggetto deve essere una [Linea](Draft_Line/it.md), un [Polilinea](Draft_Wire/it.md), un [Arco](Draft_Arc/it.md) o un [Cerchio](Draft_Circle/it.md) (che può solo essere tagliato) . Se l\'oggetto selezionato è chiuso, deve avere la proprietà **Make Face** impostata su `False`.
+2.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_Trimex.svg" width=16px> [Taglia/Estendi](Draft_Trimex/it.md)**.
+    -   Selezionare l\'opzione **Modifica → <img src="images/Draft_Trimex.svg" width=16px> Taglia/Estendi** dal menu.
+    -   Usare la scorciatoia da tastiera: **T** poi **R**.
+3.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto nella [Vista 3D](3D_view/it.md).
+4.  Si apre il pannello delle attività **Taglia/Estendi**. Vedere [Opzioni](#Opzioni.md) per maggiori informazioni.
+5.  Spostare il puntatore nella [VIsta 3D](3D_view/it.md) in modo che l\'anteprima corrisponda al risultato desiderato. Se necessario utilizzare i tasti modificatori come spiegato nelle [Opzioni](#Opzioni.md).
+6.  Effettuare una delle seguenti operazioni:
+    -   Scegliere un punto nella [Vista 3D](3D_view/it.md).
+    -   Inserire una **Distanza** o un **Angolo**. La distanza è una distanza delta. Questa opzione non funziona se vengono utilizzati i tasti modificatori.
+    -   Spostare il puntatore su un bordo appartenente a un altro oggetto e fare clic quando questo bordo è evidenziato, per tagliare o estendere l\'oggetto selezionato utilizzando un\'intersezione con il bordo evidenziato come nuovo punto finale. Durante il taglio, la proiezione del punto in cui è selezionato il bordo di taglio sull\'oggetto da tagliare determina il risultato predefinito. Notare che gli [Snap](Draft_Snap/it.md) possono avere un impatto indesiderato. In alcuni casi può essere utile disattivarli temporaneamente.
 
 
-<div class="mw-translate-fuzzy">
 
-1.  Selezionare una linea che si desidera accorciare o estendere, oppure selezionare una faccia che si desidera estrudere
-2.  Premere il pulsante **<img src="images/Draft_Trimex.png" width=16px> Tronca/Estendi
-**, o premere i tasti **T** e **R**
-3.  Cliccare un punto nella vista 3D, oppure immettere una distanza e premere **Invio**.
+### Opzioni
 
+Le scorciatoie da tastiera a carattere singolo menzionate qui possono essere modificate. Vedere [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
 
-</div>
+-   Tenere premuto **Alt** per invertire il risultato predefinito del comando.
+-   Tenere premuto **Maiusc** per restringere l\'operazione al segmento corrente di una [Polilinea](Draft_Wire/it.md).
+-   Premere **S** per attivare o disattivare [Aggancia](Draft_Snap/it.md).
 
-### Options
-
-The single character keyboard shortcut and the modifier keys mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
-
--   Hold down **Alt** to invert the default result of the command.
--   Hold down **Shift** to restrict the operation to the current segment of a [Draft Wire](Draft_Wire.md).
--   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
-
-Here is an example to explain the modifier keys. The left edge or the bottom edge of the U-shaped wire was extended. All [Draft Snaps](Draft_Snap.md) were turned off.
+Ecco un esempio per spiegare i tasti modificatori. Il bordo sinistro o il bordo inferiore della polilinea a forma di U è stato esteso. Tutti gli [Snap](Draft_Snap/it.md) sono stati disattivati.
 
 ![](images/Draft_Trimex_example2.png )
 
+1.  L\'arco è stato cliccato vicino all\'angolo in basso a sinistra della polilinea. Questo è il risultato predefinito.
 
-<div class="mw-translate-fuzzy">
+2.  
+    **Alt**è stato tenuto premuto mentre si faceva clic sull\'arco vicino all\'angolo in basso a sinistra del filo.
 
--   Premere il tasto **X**, **Y** o **Z** per vincolare il punto sull\'asse dato.
--   Tenere premuto **Maiusc** per limitare l\'operazione al segmento corrente ed evitare di prenderne un altro.
-    -   Nel caso della modalità estrusione, Tenere premuto **Maiusc** per estrudere una faccia in una direzione che non è la normale.
--   Tenere premuto **Alt** durante il taglio per invertire la direzione dell\'operazione, cioè per tagliare l\'altra estremità del contorno.
-
-
-</div>
-
-## Extrude
-
-### Usage 
-
-See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
-
-1.  It can be helpful to first change the [Draft working plane](Draft_SelectPlane.md) so that it is not coplanar with the face you want to extrude.
-2.  Optionally select a single face or an object with a single face.
-3.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Trimex.svg" width=16px> [Draft Trimex](Draft_Trimex.md)** button.
-    -   Select the **Modification → <img src="images/Draft_Trimex.svg" width=16px> Trimex** option from the menu.
-    -   Use the keyboard shortcut: **T** then **R**.
-4.  If you have not yet selected an object or a face: select an object with a single face in the [3D view](3D_view.md).
-5.  The **Trimex** task panel opens. See [Options](#Options_2.md) for more information.
-6.  To define the extrusion direction and distance do one of the following:
-    -   Pick a point in the [3D view](3D_view.md) that does no lie on the same plane as the face.
-    -   Make sure the pointer is on the correct side of the face in the [3D view](3D_view.md) and enter a **Distance**.
-
-### Options 
-
-The modifier key mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
-
--   Hold **Shift** to extrude in a direction that is not parallel to the normal of the face.
-
-## Preferences
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of the distance: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
-
-## Scripting
+3.  
+    **Y**è stato premuto, e mentre si passava sopra il bordo sinistro **Maiusc** è stato tenuto premuto e quindi è stato fatto clic sull\'arco. La pressione di **Y** è richiesta solo per i bordi che sono più o meno paralleli all\'asse Y.
 
 
-<div class="mw-translate-fuzzy">
+
+## Estrusione
+
+
+
+### Utilizzo 
+
+Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
+
+1.  Può essere utile modificare prima il [piano di lavoro](Draft_SelectPlane/it.md) in modo che non sia complanare con la faccia che si desidera estrudere.
+2.  Facoltativamente, selezionare una faccia singola o un oggetto con una faccia singola.
+3.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Draft_Trimex.svg" width=16px> [Taglia/Estendi](Draft_Trimex/it.md)**.
+    -   Selezionare l\'opzione **Modifiche → <img src="images/Draft_Trimex.svg" width=16px> Taglia/Estendi** dal menu.
+    -   Usare la scorciatoia da tastiera: **T** poi **R**.
+4.  Se non si ha ancora selezionato un oggetto o una faccia: selezionare un oggetto con una sola faccia nella [Vista 3D](3D_view/it.md).
+5.  Si apre il pannello delle attività **Taglia/Estendi**. Vedere [Opzioni](#Opzioni_2.md) per ulteriori informazioni.
+6.  Per definire la direzione e la distanza di estrusione, eseguire una delle seguenti operazioni:
+    -   Scegliere un punto nella [Vista 3D](3D_view/it.md) che non giace sullo stesso piano della faccia.
+    -   Assicurarsi che il puntatore si trovi sul lato corretto della faccia nella [ista 3D](3D_view/it.md) ed inserire una **Distanza**.
+
+
+
+### Opzioni 
+
+Il tasto modificatore menzionato qui può essere modificato. Vedere [Preferenze di Draft](Draft_Preferences/it.md).
+
+-   Tenere premuto **Maiusc** per estrudere in una direzione che non è parallela alla normale della faccia.
+
+
+
+## Preferenze
+
+Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
+
+-   Per modificare il numero di decimali utilizzati per l\'inserimento delle coordinate: **Modifica → Preferenze... → Generale → Unità → Impostazioni unità → Numero di cifre decimali**.
+
+
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-**Vedere anche:**
-
-[Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Non ci sono opzioni per questo strumento. Per l\'estrusione di facce e altre forme consultare lo strumento [Estrudi](Part_Extrude/it.md) del modulo Parte.
-
-
-</div>
+Non esiste un metodo Python per tagliare gli oggetti. Per estrudere oggetti usa il metodo `extrude` del modulo Draft.
 
 
 ```python
 extrusion = extrude(obj, vector, solid=False)
 ```
 
--    `obj`is the object to be extruded.
+-    `obj`è l\'oggetto da estrudere.
 
--    `vector`is the extrusion direction and distance.
+-    `vector`è la direzione e la distanza di estrusione.
 
--   If `solid` is `True` a solid is created instead of a shell.
+-   Se `solid` è `True` viene creato un solido invece di un guscio.
 
--    `extrusion`is returned with the created object.
+-    `extrusion`viene restituito con l\'oggetto creato.
 
-Example:
+Esempio:
 
 
 ```python
@@ -155,15 +138,6 @@ vector = App.Vector(0, 0, 300)
 solid = Draft.extrude(rectangle, vector, solid=True)
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

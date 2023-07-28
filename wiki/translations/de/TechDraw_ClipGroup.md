@@ -9,16 +9,31 @@
 
 # TechDraw ClipGroup/de
 
+
+</div>
+
+
+
 ## Beschreibung
 
-Dieses Werkzeug erstellt ein Ausschnittfenster, das Ansichten enthalten kann.
+Das Werkzeug **TechDraw Ausschnittsgruppe** erstellt ein Ausschnittfenster, das Ansichten enthalten kann.
 
 ![](images/TechDraw_Clipview.png ) 
 *Ausschnittfenster, das verschiedene vorhandene Ansichten beschneidet*
 
+
+
 ## Verwendung
 
+
+<div class="mw-translate-fuzzy">
+
 -   Drücke die Schaltfläche **<img src="images/TechDraw_ClipGroup.svg" width=16px> [Ausschnittsgruppe einfügen](TechDraw_ClipGroup/de.md)**, um einen neuen Ausschnitt zu erstellen.
+
+
+</div>
+
+
 
 ## Eigenschaften
 

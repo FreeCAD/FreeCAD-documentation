@@ -3,7 +3,7 @@
    Name:Part ReverseShapes
    Name/de:Part FormenUmkehren
    MenuLocation:Part → Formen umkehren
-   Workbenches:[Part Arbeitsbereich](Part_Workbench/de.md)
+   Workbenches:[Part Modul](Part_Workbench/de.md)
 ---
 
 # Part ReverseShapes/de
@@ -26,8 +26,8 @@ Kippt die Normalen aller Flächen des ausgewählten Objekts.
 
 ## Hinweise
 
--   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as source objects. <small>(v0.20)</small> 
--   To see the effect of the command change the **Lighting** property of the reversed shape to {{Value|On side}} and if required change **Edit → Preferences... → Display → 3D View → Rendering → Backlight color**.
+-   [App Link](App_Link.md)-Objekte, die mit dem passenden Objekttyp verbunden sind und [App Part](App_Part.md)-Behälter mit den passenden, sichtbaren Objekten darin, können ebenfalls als Quellobjekte verwendet werden. {{Version/de|0.20}}
+-   Die Auswirkung der Anweisung kann man sehen, wenn die **Lighting**eigenschaft der umgekehrten Form nach {{Value|On side}} und gegebenenfalls **Bearbeiten → Einstellungen... → Anzeige → 3D-Viewer → Rendern → Farbe der Hintergrundbeleuchtung** geändert wird.
 
 
 

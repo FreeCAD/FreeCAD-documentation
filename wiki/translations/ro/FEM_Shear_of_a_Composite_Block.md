@@ -81,6 +81,8 @@ Notă2: Dacă aveți dificultăți la selectarea \"CompoundFilter: Solid2\", est
 <img alt="" src=images/Pic4.png  style="width:700px;">
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Material Assignment 
@@ -103,6 +105,8 @@ Materialul este alocat regiunilor Mesh printr-un obiect SolidMaterial. În acest
 Repetați procedura de mai sus pentru Core (\"CompoundFilter: Solid2\") cu ajutorul macrocomenzii de selecție. De data aceasta atribuim CalciX-Steel, care este mult mai rigid decât materialul ABS pentru Matrix.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Sliding Support 
@@ -119,6 +123,8 @@ Pentru a crea o condiție \"Shear Simple\" pentru blocul compozit, deformările 
 </div>
 
 <img alt="" src=images/Pic6.png  style="width:700px;">
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -145,6 +151,8 @@ Ultimul pas în definirea Analizei este aplicarea încărcărilor. Pentru a crea
 <img alt="" src=images/Pic8.png  style="width:700px;">
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### CalculiX Analysis 
@@ -159,6 +167,8 @@ Acum au fost definite toate regiuni ale ochiului de plasă, condițiile material
 După aceea, analiza poate fi pornită apăsând butonul RunCalculiX. Dacă totul merge bine, fereastra de ieșire CCX ar trebui să afișeze următoarele mesaje.
 
 <img alt="" src=images/Pic10.png  style="width:700px;">
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -185,6 +195,8 @@ Pentru a investiga deformarea nucleului, trebuie să alunecăm blocul. Acest luc
 Din rezultat este clar că miezul rămâne în mare parte nedeformat și ajută să reziste la deformarea matricei moi (comparați unghiul de forfecare a părții albastre cu cel al părții verzi). Ceea ce se evidențiază, de asemenea, este faptul că, în condiții de forfecare simplă, fețele blocului compozit se răsucesc, ceea ce implică faptul că starea limită alunecătoare de la baza cubului oferă o constrângere nejustificată.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Further work 
@@ -202,9 +214,14 @@ Fișierul FC pentru acest tutorial este atașat mai jos ca un punct de pornire.
 
 <https://forum.freecadweb.org/viewtopic.php?f=18&t=26517&start=20>
 
-Distracție Plăcută !  {{FEM Tools navi}}
+Distracție Plăcută !
+
+
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM Shear of a Composite Block/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Shear of a Composite Block/ro

@@ -63,19 +63,13 @@ Jetzt müssen wir diese Wände miteinander verbinden, so dass sie sich sauber sc
 
 Die einzelnen Wände sind nach wie vor zugänglich, wenn die Wand in der Baumansicht expandiert wird.
 
-
-<div class="mw-translate-fuzzy">
-
--   Lass uns nun eine Tür platzieren. In FreeCAD werden Türen als ein Sonderfall von Fenstern betrachtet, daher wird dies mit dem [Fenster](Arch_Window/de.md) Werkzeug durchgeführt.
--   Beginne mit der Auswahl der Wand. Dies ist nicht notwendig, sollte aber eine gute Angewohnheit werden. Wenn ein Objekt ausgewählt ist, wenn das Fenster Werkzeug gestartet wird, erzwingst du, dass das Fenster in dieses Objekt eingefügt wird, auch wenn du auf ein anderes Objekt fängst.
+-   Lass uns nun eine Tür platzieren. In FreeCAD werden Türen als ein Sonderfall von Fenstern betrachtet, daher wird dies mit dem Werkzeug [Fenster](Arch_Window/de.md) durchgeführt.
+-   Beginne mit der Auswahl der Wand. Dies ist nicht notwendig, sollte aber eine gute Angewohnheit werden. Wenn ein Objekt ausgewählt ist, wenn das Werkzeug Fenster gestartet wird, erzwingst du, dass das Fenster in dieses Objekt eingefügt wird, auch wenn du auf ein anderes Objekt fängst.
 -   Setze die [Arbeitsebene](Draft_SelectPlane/de.md) auf **auto**, so dass wir nicht auf die Grundebene beschränkt sind.
--   Drücke die <img alt="" src=images/Arch_Window.svg  style="width:16px;"> [Fenster](Arch_Window/de.md) Taste.
--   Wähle im Fenster Erstellungspaneel die \"Simple door\" Vorgabe und setze **Width** auf 0,9 m und **Height** auf 2,1 m
+-   Drücke die Schaltfläche <img alt="" src=images/Arch_Window.svg  style="width:16px;"> [Fenster](Arch_Window/de.md).
+-   Wähle im Fenster Erstellungspaneel die \"Glass door\" Vorgabe und setze **Width** auf 0,9 m und **Height** auf 2,1 m
 -   Stelle sicher, dass die <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Nächste Fang](Draft_Snap_Near/de.md) eingeschaltet ist, damit wir auf Flächen fangen können
 -   Platziere dein Fenster ungefähr in der Mitte der Stirnseite der Wand:
-
-
-</div>
 
 ![](images/Exercise_arch_06.jpg )
 
@@ -144,13 +138,7 @@ Unser Modell ist nun bereit für den Export:
 
 Das [IFC-Format](https://de.wikipedia.org/wiki/Industry_Foundation_Classes) ist einer der wertvollsten Vorzüge in einer freien BIM-Welt, denn es erlaubt den Datenaustausch zwischen jeder Anwendung und jedem Akteur in der Welt des Baugewerbes in einer offenen Weise (das Format ist offen, frei und wird von einem unabhängigen Konsortium gepflegt). Der Export Deines Modells im IFC-Format gewährleistet, dass jeder es ansehen und untersuchen kann, unabhängig von der verwendeten Anwendung.
 
-
-<div class="mw-translate-fuzzy">
-
-In FreeCAD erfolgt der IFC-Im- und Export durch Anbindung an einen anderen Software-Teil namens [IfcOpenShell](http://ifcopenshell.org/). Für den Export nach IFC muss außerdem das [IfcOpenShell-python](http://ifcopenshell.org/python.html)-Paket auf Deinem System installiert sein. Stelle sicher, dass dieses Paket die gleiche Python-Version wie FreeCAD verwendet. Die von FreeCAD benutzte Python-Version kann über **Ansicht -\> Paneele -\> Python-Konsole** ermittelt werden. Wenn das getan ist, können wir nun unser Modell exportieren:
-
-
-</div>
+In FreeCAD erfolgt der IFC-Im- und Export durch Anbindung an einen anderen Software-Teil namens [IfcOpenShell](http://ifcopenshell.org/). Für den Export nach IFC muss außerdem das [IfcOpenShell-python](http://ifcopenshell.org/python)-Paket auf Deinem System installiert sein. Stelle sicher, dass dieses Paket die gleiche Python-Version wie FreeCAD verwendet. Die von FreeCAD benutzte Python-Version kann über **Ansicht -\> Paneele -\> Python-Konsole** ermittelt werden. Wenn das getan ist, können wir nun unser Modell exportieren:
 
 -   Wähle das oberste zu exportierende Objekt, das Gebäude-Objekt.
 -   Wähle aus dem Menü **Datei -\> Export -\> IFC** und speichere Deine Datei.
@@ -173,18 +161,12 @@ Wir werden nun ein paar Bemaßungen platzieren. Wir werden anders als im [vorige
 
 ![](images/Exercise_arch_19.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
 Wir werden nun einen Satz von Ansichten unseres Modells vorbereiten, die auf einem Zeichenblatt platziert werden. Wir können das mit den Werkzeugen des Drawing-Arbeitsbereichs tun, wie wir das im vorigen Kapitel gesehen haben, aber der Arch-Arbeitsbereich bietet auch ein fortgeschrittenes All-in-one-Werkzeug, um Lagepläne, Schnitt- und Draufsichten zu erstellen, genannt [Schnittebenen](Arch_SectionPlane/de.md). Wir werden nun zwei dieser Schnittebenen hinzufügen, um einen Lageplan und eine Draufsicht zu erzeugen.
 
 -   Wähle das Gebäude-Objekt in der Baumansicht
 -   Drücke den <img alt="" src=images/Arch_SectionPlane.svg  style="width:16px;"> [Schnittebene](Arch_SectionPlane/de.md)-Button.
 -   Setze die **Height**-Eigenschaft auf 5 m, die **Display Length** auf 6 m, so dass wir unser Haus erfassen (das ist nicht nötig, aber es sieht besser aus, weil es auf natürliche Weise zeigt, wofür es benutzt wird) und die **Placement**-Position auf x:2m, y:1.5m, z:1.5m.
--   Prüfe die von der Schnittebene vorgeschlagene Objektliste durch Doppelklick in der [Baumansicht](tree_view/de.md). Schnittebenen rendern nur angegebene Objekte des Modells, nicht alle. Die ausgewählten Objekte können hier geändert werden.
-
-
-</div>
+-   Prüfe die von der Schnittebene vorgeschlagene Objektliste durch Doppelklick in der [Baumansicht](Tree_view/de.md). Schnittebenen rendern nur angegebene Objekte des Modells, nicht alle. Die ausgewählten Objekte können hier geändert werden.
 
 ![](images/Exercise_arch_20.jpg )
 
@@ -234,11 +216,15 @@ Wir werden nun zwei weitere Draft-Ansichten erzeugen, für jede Gruppe von Bema�
 
 Unsere Seite ist nun fertig und wir können sie im SVG- oder DXF-Format ausgeben oder sie drucken. Das SVG-Format erlaubt Dir, die Datei in Illustrationsanwendungen wie [Inkscape](http://www.inkscape.org) zu öffnen, mit denen Du technische Zeichnungen schnell aufwerten und sie in schönere Präsentationszeichnungen verwandeln kannst. Es bietet viel mehr Möglichkeiten als das DXF-Format.
 
+
+
 ## Herunterladen
 
 -   Die in dieser Übung erstellte Datei <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/house.FCStd>
 -   Die aus der obigen Datei exportierte IFC Datei: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/house.ifc>
 -   Die aus der obigen Datei exportierte SVG Datei: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/house.svg>
+
+
 
 ## Verwandtes
 
@@ -255,4 +241,4 @@ Unsere Seite ist nun fertig und wir können sie im SVG- oder DXF-Format ausgeben
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > Manual:BIM modeling/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > Manual:BIM modeling/de

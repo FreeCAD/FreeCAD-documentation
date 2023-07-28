@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Введение
 
 Меню \"Инструменты\" это одно из 7-ми меню [стандартного меню](Standard_Menu/ru.md):
@@ -27,13 +29,23 @@
 
 Меню \"Инструменты\" предоставляет инструменты для отладки моделей, настройки поведения FreeCAD, а также вспомогательные инструменты.
 
+
+
 ## Инструменты
 
 В этом меню доступны следующие инструменты:
 
 -   <img alt="" src=images/Std_DlgParameter.svg  style="width:32px;"> [Редактор параметров\...](Std_DlgParameter/ru.md): Открывает диалоговое окно, позволяющее изменять многие установки, которые управляют программой FreeCAD.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Std_ViewScreenShot.svg  style="width:32px;"> [Сохранить изображение\...](Std_ViewScreenShot/ru.md): Сохраняет снимок экрана текущего [3D вида](3D_view/ru.md).
+
+
+</div>
+
+-   <img alt="" src=images/Std_ViewLoadImage.svg  style="width:32px;"> [Load image\...](Std_ViewLoadImage.md): Loads an image. <small>(v0.21)</small> 
 
 -   <img alt="" src=images/Std_SceneInspector.svg  style="width:32px;"> [Инспектор сцены\...](Std_SceneInspector/ru.md): Открывает окно обзора узлов графической сцены активного 3D-вида.
 

@@ -4,13 +4,12 @@
    Name/it:Posizionamento
    MenuLocation:Modifica → Posizionamento...
    Workbenches:Tutti
-   SeeAlso:[Allinea](Std_Alignment/it.md), [Azioni di posizionamento](Tasks_Placement/it.md), [Posizionamento](Placement/it.md)
+   SeeAlso:[Allinea](Std_Alignment/it.md), [Posizionamento](Placement/it.md)
 ---
 
 # Std Placement/it
 
 
-</div>
 
 ## Descrizione
 
@@ -19,33 +18,27 @@ Il comando **Posizionamento** visualizza la [scheda azioni](Task_panel/it.md) pe
 ![](images/Std_Placement_taskpanel.png ) 
 *La scheda di Posizionamento*
 
+
+
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare un singolo oggetto. L\'oggetto deve avere una [proprietà](Property_editor/it.md) **Placement**.
+1.  Seleziona un singolo oggetto che ha una proprietà **Placement** nell\'[editor di proprietà](Property_editor/it.md).
 2.  Selezionare l\'opzione **Modifica → Posizionamento...** dal menu.
 3.  Modificare uno o più parametri di traslazione e rotazione.
 4.  Effettuare una delle seguenti operazioni:
     -   Premere il pulsante **OK** per applicare le modifiche e chiudere il pannello delle azioni.
     -   Premere il pulsante **Applica** per applicare le modifiche, ma tenere aperto il pannello delle azioni per ulteriori modifiche.
+5.  Premere **Esc** o il pulsante **Cancel** per interrompere l\'operazione. Questo annullerà tutte le modifiche che non sono state applicate.
+
+La finestra di dialogo può essere avviata anche facendo clic sul pulsante con i puntini di sospensione **...** che appare nell\'[editor di proprietà](Property_editor/it.md) quando si fa clic sulla proprietà **Placement**.
 
 
-</div>
-
-The dialog can also be launched by clicking on the ellipsis button **...** that appears in the [property editor](Property_editor.md) when you click on the **Placement** property.
 
 ## Note
 
-
-<div class="mw-translate-fuzzy">
-
--   Il pannello delle azioni di posizionamento viene visualizzato anche quando si seleziona un oggetto, fare clic nel campo **Placement** nell\'[editor delle proprietà](Property_editor/it.md) o nella [vista combinata](Combo_view/it.md), quindi premere il pulsante **...**.
--   Per ulteriori informazioni sui parametri di posizionamento, consultare le pagine [Azioni di posizionamento](Tasks_Placement/it.md) e [Posizionamento](Placement/it.md) e il tutorial [Aeroplano](Aeroplane/it.md).
+-   Per ulteriori informazioni sui parametri di posizionamento, vedere la pagina [Posizionamento](Placement/it.md) e il tutorial [Aereo](Aeroplane/it.md).
 
 
-</div>
 
 ## Script
 
@@ -56,7 +49,7 @@ The dialog can also be launched by clicking on the ellipsis button **...** that 
 
 Vedere il [tutorial di script Python](Python_scripting_tutorial/it#Vettori_e_posizionamenti.md).
 
-A placement is internally defined by a matrix; in many cases it is simpler to represent it by means of two components, a `Base` point (vector), and a `Rotation` value. The `Rotation` itself has different representations; it can be entirely defined by the value of a \"[quaternion](https://en.wikipedia.org/wiki/Quaternion)\" `(xi + yj + zk + w)`, but it can also be described by a rotation `Axis` (unit vector) and a rotation `Angle` (radians).
+Un posizionamento è definito internamente da una matrice; in molti casi è più semplice rappresentarlo mediante due componenti, un punto `Base` (vettore), e un valore `Rotazione`. Lo stesso `Rotazione` ha diverse rappresentazioni; può essere interamente definito dal valore di un \"[quaternione](https://en.wikipedia.org/wiki/Quaternion)\" `(xi + yj + zk + w)`, ma può anche essere descritto da una rotazione `Axis` (vettore unità) e da una rotazione `Angle` (radianti).
 
 
 ```python
@@ -80,7 +73,7 @@ print(obj.Placement.Rotation.Q)
 # (0.0, 0.0, 0.0, 1.0)
 ```
 
-Move the base point of the object, then rotate the object 45 degrees around the X axis. 
+Sposta il punto base dell\'oggetto, quindi ruota l\'oggetto di 45 gradi attorno all\'asse X. 
 ```python
 import math
 
@@ -97,13 +90,7 @@ print(obj.Placement.Matrix)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

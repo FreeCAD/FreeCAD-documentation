@@ -11,7 +11,7 @@
 
 ## Description
 
-The **Std ActivateNextWindow** command activates the next window in the [Main view area](Main_view_area.md). The next window is determined by the order in which the Main view area windows were last activated.
+The **Std ActivateNextWindow** command activates the next window in the [Main view area](Main_view_area.md). The next window is determined by the tabs order in Main view area.
 
 ## Usage
 

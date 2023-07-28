@@ -12,6 +12,8 @@
 
 
 
+
+
 ## Środowisko pracy Raytracing 
 
 
@@ -32,6 +34,8 @@ Ten poradnik ma na celu zapoznanie czytelnika z podstawowym przepływem pracy w 
 -   W przypadku POV-Ray, nie wystarczy mieć tylko binarny plik wykonywalny na miejscu, ale również **wymagana** jest instalacja **wspierających plików**. W Ubuntu, są one dostarczane przez pakiet z flagą Recommends [povray-includes](https://packages.ubuntu.com/search?keywords=povray-includes). Potencjalne problemy były również widziane z instalacjami Linuksa wymagającymi lokalnych plików konfiguracyjnych do ręcznego utworzenia w folderze domowym użytkownika, jak omówiono [na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=27548&start=10#p224576).
 -   W przypadku POV-Ray, zalecana jest instalacja [makrodefinicji psicofil\'s](https://github.com/psicofil/Macros_FreeCAD).
 -   Czytelnik posiada podstawową wiedzę do korzystania z środowisk pracy Część i Projekt Części.
+
+
 
 ## Sposób postępowania 
 
@@ -81,9 +85,14 @@ Teraz mamy model, z którym możemy pracować.
 
 FreeCAD natychmiast otworzy obraz po zakończeniu renderowania.
 
-Dzięki temu ćwiczeniu poznaliśmy podstawowy przepływ pracy dla środowiska pracy [Raytracing](Raytracing_Workbench/pl.md).  {{Raytracing Tools navi}}
+Dzięki temu ćwiczeniu poznaliśmy podstawowy przepływ pracy dla środowiska pracy [Raytracing](Raytracing_Workbench/pl.md).
+
+
+{{Raytracing Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/pl

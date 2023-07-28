@@ -11,6 +11,8 @@
 
 # Draft ShapeString/de
 
+
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> **Draft Textform** erstellt eine Verbundform, die eine Zeichenfolge darstellt. Diese Form kann für die Erstellung von 3D-Buchstaben mit dem Befehl [Part Extrudieren](Part_Extrude/de.md) verwendet werden.
@@ -19,6 +21,8 @@ Der Befehl Draft Textform ist nicht für normale Notizen gedacht. Dafür sollten
 
 ![](images/Draft_ShapeString_Example400.png ) 
 *Ein einzelner Punkt wird zur Positionierung einer Textform benötigt*
+
+
 
 ## Anwendung
 
@@ -37,23 +41,25 @@ Für Windows-Anwender: Bitte zuerst den Abschnitt [Auswahl der Schriftdatei unte
     -   Die Schaltfläche **...** drücken und eine Datei auswählen.
 8.  Die Schaltfläche **OK** drücken, um den Befehl abzuschließen.
 
+
+
 ## Optionen
 
 -   Die **Esc**-Taste oder die Schaltfläche **Cancel** drücken, um den Befehl abzubrechen.
 
+
+
 ## Hinweise
 
+-   Eine Draft Textform (ShapeString) kann nach einem Doppelklick auf ihr Symbol in der [Baumansicht](Tree_view/de.md) bearbeitet werden. {{Version/de|0.20}}
+-   Die unterstützten Schriftarten enthalten TrueType- (**.ttf**), OpenType- (**.otf**) und Type-1-Schriftarten (**.pfb**).
+-   Der Befehl unterstützt nur Text mit Schreibrichtung nach rechts. Zurzeit wird Text mit Schreibrichtung nach links und von oben nach unten nicht unterstützt.
+-   Sehr kleine Schrifthöhen können zu verformten Zeichenumrissen führen, da beim Skalieren Details verlorengehen.
+-   Viele Schriftarten erzeugen problematische geometrien. Das liegt daran, dass Schriftkonturen überlappen dürfen, kleine Lücken enthalten dürfen und wechselnde Richtungen innerhalb eines Glyphs besitzen dürfen. Diese Merkmale werden bei Kantenzügen, die zur Erstellung von Flächen dienen, als Fehler angesehen.
+-   Draft Textformen können auch mit dem [Macro Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP.md) erstellt werden.
+-   Um Draft Textformen ringförmig anzuordnen kann das [Macro FCCircularText](Macro_FCCircularText.md) verwendet werden.
 
-<div class="mw-translate-fuzzy">
 
-### Begrenzungen
-
--   Sehr kleine Texthöhen können durch Detailverlust bei der Skalierung zu verzerrten Zeichenformen führen.
--   Die aktuelle Version ist auf die von Links nach Rechts Schreiben begrenzt.
--   Um kreisförmig angeordneten Text zu erstellen, verwende <img alt="" src=images/FCCircularTextButtom.png  style="width:24px;"> [Macro FCCircularText](Macro_FCCircularText/de.md).
-
-
-</div>
 
 ## Auswahl der Schriftdatei unter Windows 
 
@@ -68,10 +74,14 @@ Pressing the **...** button and then selecting a file from the default Windows f
 
 See the [Preferences](#Preferences.md) paragraph below for the location of the mentioned preferences.
 
+
+
 ## Tutorien
 
 -   [Entwurf FormFolge Tutorium](Draft_ShapeString_tutorial/de.md): einen ShapeString extrudieren, im 3D Raum positionieren und eine Gravur in einem anderen Körper erzeugen.
 -   [Anwenden von Formfolgen in PartDesign](https://forum.freecadweb.org/viewtopic.php?f=3&t=36623)
+
+
 
 ## Einstellungen
 
@@ -82,45 +92,41 @@ See also: [Preferences Editor](Preferences_Editor.md), [Draft Preferences](Draft
     -   Set **Tools → Edit parameters... → BaseApp → Preferences → Dialog → DontUseNativeFontDialog** to {{True}} to use the non-native file dialog when selecting a font file from the ShapeString task panel.
     -   Alternatively, set **Tools → Edit parameters... → BaseApp → Preferences → Dialog → DontUseNativeDialog** to {{True}} to always use the non-native file dialog.
 
+
+
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein Draft ShapeString-Objekt (Textform-Objekt) wird von einem [Part Part2DObject](Part_Part2DObject/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
 
+
+
 ### Daten
 
 
 {{TitleProperty|Draft}}
 
+-    {{PropertyData/de|Font File|File}}: gibt den Pfad zur Schriftdatei an, die zum Zeichnen des Textes verwendet wird.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Size|Length}}: legt die allgemeine Höhe des Textes fest.
 
--    {{PropertyData/de|Position}}: gibt die Position des Basispunktes der verbundenen Form an.
+-    {{PropertyData/de|String|String}}: gibt die anzuzeigende Zeichenkette an. Anders als ein [Draft Text](Draft_Text/de.md) kann eine Draft Textform nur eine einzelne Textzeile anzeigen.
 
--    {{PropertyData/de|Winkel}}: gibt die Rotation der Grundlinie der Form an.
-
--    {{PropertyData/de|Achse}}: gibt die Achse an, die für die Rotation verwendet werden soll.
-
--    {{PropertyData/de|Folge}}: gibt die anzuzeigende Textzeichenfolge an; im Gegensatz zum Werkzeug [Entwurf Text](Draft_Text/de.md) kann das Werkzeug [Entwurf FormFolge](Draft_ShapeString/de.md) nur eine einzelne Zeile anzeigen.
-
--    {{PropertyData/de|Größe}}: gibt die allgemeine Höhe der Buchstaben an.
-
--    {{PropertyData/de|Laufweite}}: gibt den zusätzlichen Abstand zwischen den Zeichen in der Zeichenkette an.
-
--    {{PropertyData/de|Schriftartdatei}}: gibt den vollständigen Pfad der Schriftdatei an, die zum Zeichnen der Zeichenkette verwendet wird.
+-    {{PropertyData/de|Tracking|Length}}: legt den zusätzlichen Abstand zwischen den Zeichen des Textes fest.
 
 
-</div>
 
 ### Ansicht
 
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the faces of the text. This property only works if **Display Mode** is {{value|Flat Lines}}.
+-    {{PropertyView/de|Pattern|Enumeration}}: legt das [Draft Muster](Draft_Pattern/de.md) fest, mit dem die Flächen des Textes gefüllt werden. Diese Eigenschaft funktioniert nur, wenn die {{PropertyView/de|Display Mode}} auf {{value|Flat Lines}} gesetzt ist.
 
--    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
+-    {{PropertyView/de|Pattern Size|Float}}: legt die Größe des [Draft Musters](Draft_Pattern/de.md) fest.
+
+
 
 ## Skripten
 
@@ -133,19 +139,13 @@ Um eine Draft Textform zu erstellen, verwendet man die Methode `make_shapestring
 shapestring = make_shapestring(String, FontFile, Size=100, Tracking=0)
 ```
 
+-   Erzeugt eine `shapestring`-Verbund-Form unter Verwendung der angegebenen Zeichenfolge `String` und des vollständigen Pfades einer unterstützten Schriftartdatei `FontFile`.
 
-<div class="mw-translate-fuzzy">
+-    `Size`ist die Höhe des resultierenden Textes in Millimetern.
 
--   Erzeugt eine `Formfolge` verbundene Form unter Verwendung der angegebenen `Folge` und des vollständigen Pfades einer unterstützten `Schriftartdatei`.
+-    `Tracking`ist der zusätzliche Zeichenabstand (Laufweite) in Millimetern.
 
--    `Größe`ist die Höhe des resultierenden Textes in Millimetern.
-
--    `Laufweite`ist der zusätzliche Zeichenabstand in Millimetern.
-
-
-</div>
-
-Die Platzierung der FormFolge kann durch Überschreiben seines `Placement` Attributs oder durch individuelles Überschreiben seiner `Placement.Base` und `Placement.Rotation` Attribute geändert werden.
+Die Positionierung der Textform kann durch Überschreiben ihres Attributs `Placement` oder durch individuelles Überschreiben ihrer Attribute `Placement.Base` und `Placement.Rotation` geändert werden.
 
 Beispiel:
 

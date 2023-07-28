@@ -1,11 +1,28 @@
-# <img alt="El icono del Ambiente de trabajo Imagen" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench/es
+# Image Workbench/es
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+**The '''Image Workbench''' is no longer included after version 0.20.<br>
+It functionality has been integrated in [Std Base](Std_Base.md). See [Std Import](Std_Import.md) and [Std ViewLoadImage](Std_ViewLoadImage.md).**
+
+<img alt="El icono del Ambiente de trabajo Imagen" src=images/Workbench_Image.svg  style="width:128px;">
 
 
 {{TOCright}}
 
+
+
 ## Introducción
 
 El <img alt="" src=images/Workbench_Image.svg  style="width:24px;"> [Ambiente de trabajo Imagen](Image_Workbench/es.md) gestiona diferentes tipos de imágenes [bitmap](bitmap/es.md), y te permite abrirlas en FreeCAD.
+
+
 
 ## Herramientas
 
@@ -18,6 +35,8 @@ El <img alt="" src=images/Workbench_Image.svg  style="width:24px;"> [Ambiente de
 
 
 </div>
+
+
 
 ## Características
 
@@ -42,7 +61,13 @@ Trazar sobre una imagen funciona mejor si la imagen tiene un pequeño relleno ne
 El relleno de la imagen puede establecerse durante la importación, o modificarse posteriormente a través de sus propiedades.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Image Tools navi
@@ -52,4 +77,4 @@ El relleno de la imagen puede establecerse durante la importación, o modificars
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Image](Category_Image.md) > Image Workbench/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/es

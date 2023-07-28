@@ -29,41 +29,29 @@ Hier ist ein Video über [Installieren von FreeCAD Makros in Ubuntu](https://wik
 
 
 
-## Das Makro Menü und die Werkzeugleiste 
-
-### Toolbar
+## Das Menü Makro und die Symbolleiste 
 
 
-<div class="mw-translate-fuzzy">
 
-### Werkzeugleiste
+### Symbolleiste
 
--   <img alt="record" src=images/Std_DlgMacroRecord.svg  style="width:32px;"> [Aufzeichnen](Std_DlgMacroRecord/de.md)
--   <img alt="stop" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Makro Aufzeichnung Beenden](Std_MacroStopRecord/de.md)
+-   <img alt="record" src=images/Std_DlgMacroRecord.svg  style="width:32px;"> [Makro aufzeichnen](Std_DlgMacroRecord/de.md)
+-   <img alt="stop" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Makroaufzeichnung beenden](Std_MacroStopRecord/de.md)
 -   <img alt="open editor" src=images/Std_DlgMacroExecute.svg  style="width:32px;"> [Makros\...](Std_DlgMacroExecute/de.md)
--   <img alt="execute" src=images/Std_DlgMacroExecuteDirect.svg  style="width:32px;"> [Makro Ausführen](Std_DlgMacroExecuteDirect/de.md)
+-   <img alt="execute" src=images/Std_DlgMacroExecuteDirect.svg  style="width:32px;"> [Makro ausführen](Std_DlgMacroExecuteDirect/de.md)
 
 
-</div>
-
-### Menu
-
-
-<div class="mw-translate-fuzzy">
 
 ### Menü
 
-Neben den Werkzeugen in der Werkzeugleiste sind auch die folgenden Funktionen im **Makro** Menü verfügbar.
+Neben den Werkzeugen in der Symbolleiste sind auch die folgenden Funktionen im Menü **Makro** verfügbar.
 
--   [An den entfernten Debugger anhängen](Std_MacroAttachDebugger/de.md)
--   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Fehlersuche Makro](Std_MacroStartDebug/de.md)
--   <img alt="" src=images/Std_MacroStopDebug.svg  style="width:32px;"> [Fehlersuche beenden](Std_MacroStopDebug/de.md)
--   [Schritt weiter](Std_MacroStepOver/de.md)
--   [Schritt nach vorn](Std_MacroStepInto/de.md)
--   [Umschalten Haltepunkt](Std_ToggleBreakpoint/de.md)
-
-
-</div>
+-   [An Remote-Debugger anhängen](Std_MacroAttachDebugger/de.md)
+-   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Makro debuggen](Std_MacroStartDebug/de.md)
+-   <img alt="" src=images/Std_MacroStopDebug.svg  style="width:32px;"> [Debuggen stoppen](Std_MacroStopDebug/de.md)
+-   [Einen Schritt weiter](Std_MacroStepOver/de.md)
+-   [Einzelschritt](Std_MacroStepInto/de.md)
+-   [Haltepunkt an/aus](Std_ToggleBreakpoint/de.md)
 
 
 
@@ -79,17 +67,11 @@ Heruntergeladene Makros sollten ebenfalls in diesem Verzeichnis abgelegt werden.
 
 <div class="mw-collapsible-content">
 
-### Default directory 
 
-
-<div class="mw-translate-fuzzy">
 
 ### Standardverzeichnis
 
-Makros können einfach kopiert werden in
-
-
-</div>
+Makros können einfach in das folgende Verzeichnis kopiert werden:
 
 
 ```python
@@ -98,50 +80,38 @@ $ROOT_DIR/
 
 wobei `$ROOT_DIR` ein Verzeichnis der obersten Ebene ist, das von FreeCAD beim Start durchsucht wird.
 
-Der `$ROOT_DIR` könnte ein systemweites Verzeichnis sein, in diesem Fall wird das Makro für alle Benutzer installiert.
+
+`$ROOT_DIR`
+
+könnte ein systemweites Verzeichnis sein; in dem Fall wird das Makro für alle Benutzer installiert.
 
 -   Unter Linux ist es normalerweise `/usr/share/freecad/`
 -   Unter Windows ist es normalerweise `C:\Program Files\FreeCAD\`
 -   Unter Mac OSX ist es normalerweise `/Applications/FreeCAD/`
 
 
-<div class="mw-translate-fuzzy">
+`$ROOT_DIR`
 
-Der `$ROOT_DIR` könnte das Verzeichnis eines bestimmten Benutzers sein.
+könnte das Verzeichnis eines bestimmten Benutzers sein.
 
--   Unter Linux ist es normalerweise `/home/username/.FreeCAD/`
--   Unter Windows ist es normalerweise `C:\Benutzername\Benutzername\Anwendungsdaten\FreeCAD\`
--   Unter Mac OSX ist es normalerweise `/Benutzer/Benutzername/Bibliothek/Einstellungen/FreeCAD/`
-
-
-</div>
-
-### Configuring the user directory 
+-   Unter Linux ist es normalerweise `/home/Benutzername/.local/share/FreeCAD/` ({{VersionPlus/de|0.20}}) oder `/home/Benutzername/.FreeCAD/` ({{VersionMinus/de|0.19}}).
+-   Unter Windows ist es normalerweise `C:\Users\ Benutzername\AppData\FreeCAD\`
+-   Unter Mac OSX ist es normalerweise `/Users/Benutzername/Library/Preferences/FreeCAD/`
 
 
-<div class="mw-translate-fuzzy">
 
-### Konfigurieren des Benutzerverzeichnisses 
+### Das Benutzerverzeichnis konfigurieren 
 
-1\. Öffne das Menü **Makro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Makros...](Std_DlgMacroExecute/de.md)**, um den [Makrodialog ausführen](Std_DlgMacroExecute/de.md).
-
-
-</div>
+1\. Menüeintrag **Makro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Makros...](Std_DlgMacroExecute/de.md)** auswählen, um den Dialog [Makro ausführen](Std_DlgMacroExecute/de.md) zu öffnen.
 
 ![](images/Dxf_Importer_Install_01.png ) 
 *align=center|Öffnen des Makro ausführen Dialogs*
 
+2\. Den entsprechenden `Speicherort der Benutzermakros` angeben.
 
-<div class="mw-translate-fuzzy">
-
-2\. Setze den entsprechenden `Nutzer Makros Standort`.
-
--   Linux: normalerweise `/home/username/.FreeCAD/`
+-   Linux: normalerweise `/home/username/.local/share/FreeCAD/` ({{VersionPlus/de|0.20}}) oder `/home/username/.FreeCAD/` ({{VersionMinus/de|0.19}})
 -   Windows: normalerweise `C:\Users\username\AppData\Roaming\FreeCAD\`
 -   MacOS: normalerweise `/Users/username/Library/Preferences/FreeCAD/`
-
-
-</div>
 
 ![](images/Dxf_Importer_Install_02.png ) 
 *align=center|Setting of the macros directory*
@@ -207,11 +177,11 @@ Der empfohlene Weg, Zusätze, d.h. [externe Arbeitsbereiche](external_workbenche
 
 
 
-### Manuelle Methode 1. Kopiere den Code in den Makro Editor 
+### Manuelle Methode 1. Den Code in den Makro Editor kopieren 
 
 =
 
-Für Makros, die relativ klein sind, 300 Zeilen oder weniger, kann der Code kopiert und direkt in den FreeCAD Makro-Editor eingefügt werden.
+Für Makros, die relativ klein sind, 300 Zeilen oder weniger, kann der Code kopiert und direkt in den FreeCAD-Makroeditor eingefügt werden.
 
 
 <div class="mw-collapsible-content">
@@ -302,7 +272,7 @@ Erstelle ein neues Dokument mit **Datei → <img src="images/Std_New.svg" width=
 
 
 
-### Manuelle Methode 2. Hinzufügen einer Makrodatei aus einer komprimierten .zip-Datei 
+### Manuelle Methode 2. Eine Makrodatei aus einer komprimierten .zip-Datei hinzufügen 
 
 Einige Makros sind zu groß, als dass es unbequem ist, sie zu kopieren und in den Makro Editor einzufügen, oder sie können nicht im Wiki beherbergt werden. In diesem Fall kann der Code irgendwo anders beherbergt werden, in einem Github Repositorium oder im [FreeCAD Forum](https://forum.freecadweb.org/). Der Code kann auch in eine `.zip` Datei, einen Tarball `.tar.xz` oder eine andere Art von Archiv komprimiert werden, wenn es mehrere Dateien enthält. Wenn der Code auf diese Weise verteilt wird, sollte das Archiv extrahiert und die Dateien im Makro Verzeichnis abgelegt werden.
 
@@ -374,12 +344,12 @@ unzip your_file.zip -d your_directory
 
 
 
-## Ausführen eines Makros in der Kommandozeile 
+## Ein Makro in der Kommandozeile ausführen 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-Kommandozeile ein Makro ausführen (.FCMacro oder .py)
+Ein Makro von der Kommandozeile aus ausführen (.FCMacro oder .py)
 
 
 <div class="mw-collapsible-content">
@@ -509,26 +479,20 @@ Hier wählt die Auswahl auch die Zeilennummern im Codebeispiel aus. Wenn diese A
 
 ### Keine Textausgabe aus Makros 
 
-Makros können Informationen in der Berichtsansicht ausgeben, um zu zeigen, was der Code während der Ausführung tut.
+Makros können Informationen im Ausgabefenster ausgeben, um detailliert zu zeigen, was der Code während der Ausführung tut.
 
-Wenn keine Information angezeigt wird, stelle sicher, dass die Reportansicht und die [Python](Python/de.md) Konsole sichtbar sind und dass die Ausgabe auf die Berichtsansicht gerichtet ist.
+Wenn keine Information angezeigt wird, sollte sichergestellt werden, dass das Ausgabrfenster und die [Python](Python/de.md)-Konsole sichtbar sind und dass die Ausgabe auf das Ausgabrfenster geleitet wird.
 
 
 <div class="mw-collapsible-content">
 
-#### Printing information 
 
 
-<div class="mw-translate-fuzzy">
+#### Informationen ausgeben 
 
-##### Druckinformationen
+FreeCAD-Makros haben zwei Methoden, um Informationen im Ausgabefenster auszugeben.
 
-FreeCAD Makros haben zwei Methoden, um Informationen in die Berichtsansicht zu drucken.
-
-
-</div>
-
-Die FreeCAD Funktionen
+Die FreeCAD-Funktionen
 
 
 ```python
@@ -537,24 +501,18 @@ FreeCAD.Console.PrintError("Hello World! \n")
 FreeCAD.Console.PrintWarning("Hello World! \n")
 ```
 
-Die einfache Python Funktion
+Die einfache Python-Funktion
 
 
 ```python
 print("Hello World!")
 ```
 
-#### Enabling the report view 
 
 
-<div class="mw-translate-fuzzy">
+#### Ausgabefenster aktivieren 
 
-#### Aktivieren der Berichtsansicht 
-
-Um die in der Konsole angezeigten Informationen zu sehen, solltest Du:
-
-
-</div>
+Um die in der Konsole angezeigten Informationen auszugeben, sollte man:
 
 1\. Gehe zum Menü **Ansicht → Paneele**.
 
@@ -563,49 +521,45 @@ Um die in der Konsole angezeigten Informationen zu sehen, solltest Du:
 ![](images/Macro_Install_HowTo_32.png ) 
 *align=center|Sichtbarmachung der Panels im Menü Ansicht → Paneele*
 
-2\. Aktiviere die `Berichtansicht` und die `Python Konsole`.
+2\. Das `Ausgabefenster` und die `Python-Konsole` aktivieren.
 
 ![](images/Macro_Install_HowTo_33.png ) 
-*align=center|Aktivieren der Berichtsansicht und der Python Konsole*
+*align=center|Aktivieren des Ausgabefensters und der Python-Konsole*
 
-3\. Die Bedienfelder sind jetzt sichtbar, und Befehle wie `FreeCAD.Console.PrintMessage()` geben jetzt Informationen aus, die in der `Berichtansicht` angezeigt werden.
+3\. Die Bedienfelder sind jetzt sichtbar, und Befehle wie `FreeCAD.Console.PrintMessage()` geben jetzt Informationen aus, die im `Ausgabefenster` angezeigt werden.
 
 ![](images/Macro_Install_HowTo_34.png ) 
-*align=center|FreeCAD Hauptfenster mit der Berichtsansicht und der Python Konsole*
-
-#### Enabling the print() command 
+*align=center|FreeCAD-Hauptfenster mit dem Ausgabefenster und der Python-Konsole*
 
 
-<div class="mw-translate-fuzzy">
 
-===== Aktivieren des Befehls print() ==== FreeCAD muss möglicherweise so konfiguriert werden, dass die Funktion `print()` von [Python](Python/de.md) seine Ausgabe korrekt in die Berichtsansicht umleitet.
+#### Den Befehl print() aktivieren 
 
+FreeCAD muss möglicherweise so konfiguriert werden, dass die Ausgabe der [Python](Python/de.md)-Funktion `print()` korrekt ins Ausgabefenster umgeleitet wird.
 
-</div>
-
-1\. Gehe in den [Einstellungs Editor](Preferences_Editor/de.md) mit dem Menü **Bearbeiten → Einstellungen**.
+1\. Den Menüeintrag **Bearbeiten → Einstellungen** auswählen, um in den [Voreinstellungseditor](Preferences_Editor/de.md) zu wechseln .
 
 ![](images/Macro_Install_HowTo_35.png ) 
-*align=center|In den Einstellungen Editor gehen*
+*align=center|In den Voreinstellungseditor wechseln*
 
-2\. Gehe zum Abschnitt **Allgemein**, und dann **Ausgabefenster → Python Interpreter**.
+2\. Zum Abschnitt **Allgemein** wechseln, und dann zu **Ausgabefenster → Python Interpreter**.
 
 ![](images/Macro_Install_HowTo_36.png ) 
-*align=center|Ausgabefenster Einstellungen*
+*align=center|Einstellungen des Ausgabefensters*
 
 3\. Beide Kästchen ankreuzen:
 
--   <img alt="" src=images/Case_a_cocher_O.png  style="width:16px;"> Interne Python Ausgabe in die Berichtsansicht umleiten
+-   <img alt="" src=images/Case_a_cocher_O.png  style="width:16px;"> Interne Python-Ausgabe in das Ausgabefenster umleiten
 
--   <img alt="" src=images/Case_a_cocher_O.png  style="width:16px;"> Umleiten interner Python Fehler in die Berichtsansicht
+-   <img alt="" src=images/Case_a_cocher_O.png  style="width:16px;"> Umleiten interner Python-Fehler in das Ausgabefenster
 
-und drücke dann die **OK** Schaltfläche.
+und dann die Schaltfläche **OK** drücken.
 
 ![](images/Macro_Install_HowTo_37.png ) 
-*align=center|Umleitung der Python-Ausgabe in die Berichtsansicht.*
+*align=center|Umleitung der Python-Ausgabe in das Ausgabefenster.*
 
 ![](images/Macro_Install_HowTo_38.png ) 
-*align=center|Python Befehle zum Drucken von Informationen in die Berichtsansicht.*
+*align=center|Python-Befehle zum Ausgeben von Informationen im Ausgabefenster.*
 
 
 </div>

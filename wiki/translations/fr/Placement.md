@@ -1,7 +1,7 @@
 # Placement/fr
 ## Présentation
 
-**Placement** (positionnement en français) est la manière dont FreeCAD spécifie l\'emplacement et la position (orientation) d\'un objet dans l\'espace. Le placement peut être spécifié sous plusieurs formes et manipulé via un [script](Python_scripting_tutorial/fr#Vecteurs_et_placements.md), l\'[Éditeur de propriétés](Property_editor/fr.md) ou en sélectionnant **Édition → Positionnement...** pour ouvrir le [Panneau des tâches de placement](Std_Placement/fr.md).
+**Placement** (**Positionnement** en français) est la manière dont FreeCAD spécifie l\'emplacement et la position (orientation) d\'un objet dans l\'espace. Le placement peut être spécifié sous plusieurs formes et manipulé via un [script](Python_scripting_tutorial/fr#Vecteurs_et_placements.md), l\'[Éditeur de propriétés](Property_editor/fr.md) ou en sélectionnant **Édition → Positionnement...** pour ouvrir le [panneau des tâches de Positionnement](Std_Placement/fr.md).
 
 
 
@@ -13,13 +13,13 @@ Les attributs de la fonction Placement d\'un objet peuvent être accessibles et 
 
 ![Script Placement avec y/p/r, sa matrice et son [API](images/Placement_API/fr.md).](PlacePyConv10.png ) 
 
-![Panneau des tâches de Placement](images/PlacementDialogv10.png ) 
+![Panneau des tâches de Positionnement](images/PlacementDialogv10.png ) 
 
 
 
 ## Formes de Placement 
 
-Le placement est stocké en interne sous la forme d\'une position et d\'une rotation (axe et angle de rotation transformés en un [quaternion](https://fr.wikipedia.org/wiki/Quaternions_et_rotation_dans_l'espace)). Bien qu\'il existe plusieurs façons de spécifier une rotation, par exemple avec un centre de rotation, celui-ci n\'est utilisé que pour affecter le calcul de la rotation et n\'est pas stocké pour des opérations ultérieures. De même, si un axe de rotation de (1,1,1) est spécifié, il peut être normalisé lorsqu\'il est stocké dans le quaternion et apparaître sous la forme (0.58, 0.58, 0.58) lorsque l\'on parcourt l\'objet ultérieurement.
+Le positionnement est enregistré en interne sous la forme d\'une position et d\'une rotation (axe et angle de rotation transformés en un [quaternion](https://fr.wikipedia.org/wiki/Quaternions_et_rotation_dans_l'espace)). Bien qu\'il existe plusieurs façons de spécifier une rotation, par exemple avec un centre de rotation, celui-ci n\'est utilisé que pour affecter le calcul de la rotation et n\'est pas stocké pour des opérations ultérieures. De même, si un axe de rotation de (1,1,1) est spécifié, il peut être normalisé lorsqu\'il est enregistré dans le quaternion et apparaître sous la forme (0.58, 0.58, 0.58) lorsque l\'on parcourt l\'objet ultérieurement.
 
 
 
@@ -27,9 +27,9 @@ Le placement est stocké en interne sous la forme d\'une position et d\'une rota
 
 **Placement = \[Angle, Axe, Position\]**
 
-La première forme de **Placement** fixe l\'emplacement d\'un objet dans l\'espace avec une position, et décrit son orientation comme une rotation unique autour d\'un axe.
+La première forme de **Placement** fixe le positionnement d\'un objet dans l\'espace avec une position et décrit son orientation comme une rotation unique autour d\'un axe.
 
-**Angle = r** est un scalaire indiquant la quantité de rotation de l\'objet autour de l**\'Axe**. Saisi en degrés, mais stocké en interne en radians.
+**Angle = r** est un scalaire indiquant la quantité de rotation de l\'objet autour de l**\'Axe**. Saisi en degrés, mais enregistré en interne en radians.
 
 **Axe = (ax,ay,az)** est un vecteur décrivant l\'axe de rotation (voir la note sur l\'axe de rotation). Les exemples sont:
 
@@ -48,7 +48,7 @@ Notez qu\'il est également possible de translater (déplacer) un objet le long 
 
 ![Panneau des tâches de placement: {{ComboBox|Angles d'Euler}} sélectionné](images/PlacementDialogv10b.png ) 
 
-**Placement = \[Position, Lacet-Tangage-Roulis\]**
+**Placement = \[Position, Yaw-Pitch-Roll\]**
 
 La deuxième forme de **Placement** fixe l\'emplacement d\'un objet dans l\'espace avec une **Position** (comme dans la première forme), mais décrit son orientation en utilisant [Angles de lacet, de tangage et de roulis (Yaw, Pitch et Roll)](https://fr.wikipedia.org/wiki/Axes_de_rotation_d%27un_a%C3%A9ronef). Ces angles sont parfois appelés [angles d\'Euler](https://fr.wikipedia.org/wiki/Angles_d%27Euler) ou angles de Tait-Bryan. Lacet, Tangage et Roulis sont des termes courants de l\'aviation pour l\'orientation (ou l\'attitude) d\'un corps.
 
@@ -98,9 +98,9 @@ La troisième forme de **Placement**, décrit la position de l\'objet et l\'orie
 
 
 
-## Boîte de dialogue Placement 
+## Boîte de dialogue Positionnement 
 
-La boîte de dialogue placement est accessible par le menu **Édition**. Il est utilisé pour faire pivoter et positionner les objets avec précision. Il est également utilisé lorsque nous avons besoin de créer une esquisse sur un plan \"non standard\" ou changer l\'orientation d\'une esquisse dans un nouveau plan.
+La boîte de dialogue Positionnement est accessible par le menu **Édition**. Elle est utilisée pour faire pivoter et positionner les objets avec précision. Elle est également utilisée lorsque nous avons besoin de créer une esquisse sur un plan \"non standard\" ou changer l\'orientation d\'une esquisse dans un nouveau plan.
 
 -   La section **Translation** déplace l\'objet dans l\'espace.
 -   La section **Centre** permet d\'ajuster l\'axe de rotation qui ne passe pas par le point de référence de l\'objet.
@@ -238,9 +238,9 @@ obj.Placement = newplace                            # spin the box
 
 
 
-## Utilisation du placement dans les expressions 
+## Utilisation du positionnement dans les expressions 
 
-Dans les expressions, il est possible d\'utiliser les composants du placement par exemple pour accéder au composant x de l\'objet nommé \"Cube\" :
+Dans les expressions, il est possible d\'utiliser les composants du positionnement par exemple pour accéder au composant x de l\'objet nommé \"Cube\" :
 
 
 ```python
@@ -265,7 +265,9 @@ L\'axe de rotation est accessible par
 
 où souvent une de ces valeurs vaut 1 alors que les autres valent 0.
 
-Vous pouvez également utiliser tout le Placement dans une seule expression: Faites un clic droit sur la propriété Placement dans l\'éditeur de propriétés, sélectionnez \"show all\" puis des propriétés supplémentaires s\'afficheront. Si vous cliquez à nouveau avec le bouton droit sur Placement, le menu contextuel comprendra Expression, sélectionnez Expression puis la boîte de dialogue Expression s\'ouvrira et tout ce que vous tapez ira dans la propriété Placement plutôt que dans ses propriétés enfants.
+Vous pouvez également utiliser l\'ensemble Placement dans une seule expression :
+
+Faites un clic droit sur la propriété de Placement dans l\'éditeur de propriétés, sélectionnez \"montrer tout\" puis les propriétés supplémentaires s\'afficheront. Si vous cliquez à nouveau avec le bouton droit sur Placement, le menu contextuel comprendra Expression, sélectionnez Expression puis la boîte de dialogue Expression s\'ouvrira et tout ce que vous tapez ira dans la propriété Placement plutôt que dans ses propriétés enfants.
 
 Pour rendre le placement de \"Sketch\" égal à celui de \"Cylinder\", vous devez entrer de cette manière pour Sketch l\'expression
 
@@ -276,7 +278,7 @@ Pour rendre le placement de \"Sketch\" égal à celui de \"Cylinder\", vous deve
 
 ![Définition du Placement entier dans une seule expression](images/PlacementInExpression.png ) 
 
-**REMARQUE :** Il est également possible de *créer* des objets Placement dans les expressions. Voir la page [Expressions](Expressions/fr#Placement.md) pour plus de détails.
+**REMARQUE :** il est également possible de *créer* des objets Placement dans les expressions. Voir la page [Expressions](Expressions/fr#Placement.md) pour plus de détails.
 
 
 
@@ -294,12 +296,6 @@ Pour rendre le placement de \"Sketch\" égal à celui de \"Cylinder\", vous deve
   Part.Cone                               centre de la base de la face (ou apex si le rayon de base du est 0)
   Part.Torus                              centre du tore
   Fonctionnalités dérivées d\'esquisses   la fonction hérite de la position de l\'esquisse sous-jacente. Les esquisses commencent toujours par Position = (0,0,0). Cette position correspond à l\'origine dans l\'esquisse.
-
-
-
-## Limitations
-
--   Le placement relatif des objets sera éventuellement traité dans l\'atelier Assembly.
 
 
 

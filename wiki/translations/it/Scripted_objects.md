@@ -1,6 +1,8 @@
 # Scripted objects/it
 {{TOCright}}
 
+
+
 ## Introduzione
 
 Oltre ai tipi di oggetti standard, come le Annotazioni, gli oggetti Mesh e gli oggetti Parte, FreeCAD offre anche la straordinaria possibilità di costruire al 100% oggetti parametrici in script di Python, chiamati [Python Features](App_FeaturePython/it.md) (*Caratteristiche* Python). Questi oggetti si comportano esattamente come un qualsiasi altro oggetto di FreeCAD, e sono salvati e ripristinati automaticamente con salva/apri il file.
@@ -10,6 +12,8 @@ Una particolarità deve essere compresa: per motivi di sicurezza, i file di Free
 **Nota**: è possibile impacchettare il codice Python all\'interno di un file FreeCAD utilizzando la serializzazione json con un App::PropertyPythonObject, ma quel codice non può mai essere eseguito direttamente, e quindi ha poca utilità per il nostro scopo qui.
 
 Le [Python Features](App_FeaturePython/it.md) seguono le stesse regole di tutte le altre funzionalità di FreeCAD: sono divise in una parte App e una parte GUI. La parte App, cioè il Document Object (oggetto del documento), definisce la geometria dell\'oggetto, mentre la sua parte grafica, cioè il View Provider Object (fornitore della vista dell\'oggetto), definisce come l\'oggetto viene disegnato sullo schermo. Il View Provider Object, come qualsiasi altro elemento di FreeCAD, è disponibile solo quando si esegue FreeCAD nella sua GUI (interfaccia grafica). Per costruire il proprio oggetto, sono disponibili diversi metodi e proprietà. La Proprietà deve essere una qualsiasi dei tipi di proprietà predefinite che FreeCAD mette a disposizione. Le proprietà disponibili sono quelle che appaiono nella finestra di visualizzazione delle proprietà per consentire all\'utente di modificarle. Con questa procedura, gli oggetti FeaturePython sono realmente e totalmente parametrici. E\' possibile definire separatamente le proprietà per l\'oggetto e per la sua ViewObject (rappresentazione).
+
+
 
 ## Esempio di base 
 
@@ -148,6 +152,8 @@ def makeBox():
 makeBox()
 ```
 
+
+
 ### Cose da notare 
 
 Se il tuo oggetto si basa sul ricalcolo non appena viene creato, devi farlo manualmente nella funzione `__init__` poiché non viene chiamato automaticamente. Questo esempio non lo richiede, perché il metodo `onChanged` della classe `Box` ha lo stesso effetto della funzione `execute`, ma gli esempi seguenti si basano sull\'essere ricalcolati prima che qualsiasi cosa venga visualizzata nella vista 3D. Negli esempi, questo viene fatto manualmente con `ActiveDocument.recompute()`, ma in scenari più complessi devi decidere dove ricalcolare l\'intero documento o l\'oggetto FeaturePython.
@@ -156,9 +162,13 @@ Questo esempio produce una serie di analisi dello stack di eccezioni nella fines
 
 Una spiegazione di `__getstate__` e `__setstate__` è nel thread del forum [obj.Proxy.Type è un dizionario, non una stringa](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009&start=10#p377892).
 
+
+
 ## Metodi disponibili 
 
 Vedi [Metodi FeaturePython](FeaturePython_methods/it.md) per i riferimenti completi.
+
+
 
 ## Proprietà disponibili 
 
@@ -272,6 +282,8 @@ Un elenco completo degli attributi delle proprietà può essere visualizzato nel
 prop = (value, lower, upper, stepsize)
 ```
 
+
+
 ## Tipi di proprietà 
 
 Di default, le proprietà possono essere aggiornate. È possibile creare delle proprietà di sola lettura, per esempio nel caso si vuole mostrare il risultato di un metodo. È anche possibile nascondere una proprietà. Il tipo di proprietà può essere impostata usando
@@ -306,8 +318,11 @@ I tipi di proprietà che possono essere impostati all\'ultimo parametro della fu
   4 -- Prop_Hidden, la proprietà non apparirà nell'editor
   8 -- Prop_Output, la proprietà modificata non tocca il suo contenitore principale
   16 -- Prop_NoRecompute, la proprietà modificata non tocca il suo contenitore per il ricalcolo
+  32 -- Prop_NoPersist, la proprietà non verrà affatto salvata nel file
 
 È possibile trovare questi diversi tipi di proprietà definiti nell\'intestazione del codice sorgente C++ per [PropertyContainer](https://github.com/FreeCAD/FreeCAD/blob/master/src/App/PropertyContainer.h).
+
+
 
 ## Un altro esempio più complesso 
 
@@ -512,6 +527,8 @@ Octahedron(a)
 ViewProviderOctahedron(a.ViewObject)
 ```
 
+
+
 ## Rendere gli oggetti selezionabili 
 
 Se volete rendere il vostro oggetto selezionabile, o almeno una parte di esso, facendo clic su di esso nella finestra, è necessario includere la sua geometria Coin all\'interno di un nodo SoFCSelection. Se l\'oggetto ha una rappresentazione complessa, con widget, annotazioni, etc, si potrebbe voler includere solo una parte di esso in un SoFCSelection. Tutto quello che compone un SoFCSelection viene costantemente analizzato da FreeCAD per rilevare selezioni/preselezioni, quindi non ha senso sovraccaricarlo con delle scansioni non necessarie.
@@ -616,6 +633,8 @@ def makeMolecule():
     FreeCAD.ActiveDocument.recompute()
 ```
 
+
+
 ## Lavorare con forme semplici 
 
 Se l\'oggetto parametrico produce semplicemente una forma, non è necessario utilizzare un fornitore di vista dell\'oggetto (view provider object). La forma viene visualizzata utilizzando la rappresentazione della forma standard di FreeCAD:
@@ -677,6 +696,8 @@ Line(a)
 ViewProviderLine(a.ViewObject)
 App.ActiveDocument.recompute()
 ```
+
+
 
 ## Struttura di Scenegraph 
 
@@ -865,6 +886,8 @@ def makeMolecule():
 a,b = makeMolecule()
 ```
 
+
+
 ## Oggetti con script di Part Design 
 
 Quando si creano oggetti con script in Part Design, il processo è simile agli oggetti con script discussi sopra, ma con alcune considerazioni aggiuntive. Dobbiamo gestire 2 proprietà della forma, una per la forma, che vediamo nella vista 3D e un\'altra per la forma utilizzata dagli strumenti del modello, come le caratteristiche del modello polare. Le forme dell\'oggetto devono anche essere fuse con qualsiasi materiale esistente già nel Corpo (o tagliate da esso nel caso di funzioni sottrattive). E dobbiamo tenere conto della collocazione e dell\'attaccamento dei nostri oggetti in modo un po\' diverso.
@@ -1044,6 +1067,8 @@ else:
         pdtube.PDTubeVP(tube.ViewObject)
         body.addObject(tube) #optionally we can also use body.insertObject() for placing at particular place in tree
 ```
+
+
 
 ## Ulteriori informazioni 
 

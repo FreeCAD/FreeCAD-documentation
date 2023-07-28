@@ -7,9 +7,21 @@
 
 ## Introducción
 
+
+<div class="mw-translate-fuzzy">
+
 El FreeCAD <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Ambiente de trabajo Croquizador](Sketcher_Workbench/es.md) se utiliza para crear geometrías 2D destinadas a ser utilizadas en el <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> y otros Ambiente de trabajo. Generalmente, un dibujo 2D se considera el punto de partida para la mayoría de los modelos CAD, ya que un boceto 2D puede ser \"extruido\" para crear una forma 3D; otros bocetos 2D pueden ser utilizados para crear otras características como bolsas, crestas o extrusiones sobre las formas 3D previamente construidas. Junto con las operaciones booleanas definidas en el <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Ambiente de trabajo piezas](Part_Workbench/es.md), el Croquis forma la base de la [geometría sólida constructiva](constructive_solid_geometry/es.md) (CSG) método de construcción de sólidos. Además, junto con el <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md) operaciones, el Sketcher también forma la base de la [edición de características](feature_editing/es.md) metodología de la creación de sólidos.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 El ambiente de trabajo Croquizador presenta \"restricciones\", que permiten que las formas 2D sigan definiciones geométricas precisas en términos de longitud, ángulos y relaciones (horizontalidad, verticalidad, perpendicularidad, etc.). Un solucionador de restricciones calcula el alcance de las restricciones de la geometría 2D y permite la exploración interactiva de los grados de libertad del croquis.
+
+
+</div>
 
 <img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;"> 
 *Un croquis completamente restringido‎*
@@ -94,6 +106,8 @@ Si sólo necesitas producir vistas 2D para imprimir, y no quieres crear modelos 
 
 </div>
 
+The tool [Draft2Sketch](Draft_Draft2Sketch.md) converts a Draft object to a Sketch object, and vice versa. Many tools that require a 2D element as input work with either type of object as an internal conversion is done automatically.
+
 
 
 ## Flujo de trabajo del Croquizado 
@@ -142,7 +156,14 @@ Todas las herramientas del Ambiente de Trabajo Croquiz se encuentran en el menú
 
 </div>
 
+
+<small>(v0.21)</small> 
+
+: If a sketch is in edit mode the Structure toolbar is hidden as none of its tools can then be used.
+
 ### General
+
+#### Sketcher toolbar 
 
 
 <div class="mw-translate-fuzzy">
@@ -160,12 +181,6 @@ Todas las herramientas del Ambiente de Trabajo Croquiz se encuentran en el menú
 
 </div>
 
--   <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:32px;"> [Abandonar el croquis](Sketcher_LeaveSketch/es.md): Abandona el modo de edición del croquis.
-
--   <img alt="" src=images/Sketcher_ViewSketch.svg‎  style="width:32px;"> [Vista de croquis](Sketcher_ViewSketch/es.md): Establece la vista del modelo perpendicular al plano del croquis.
-
--   <img alt="" src=images/Sketcher_ViewSection.svg  style="width:32px;"> [Ver sección](Sketcher_ViewSection/es.md): Crea un plano de sección que oculta temporalmente cualquier materia delante del plano de dibujo.
-
 -   <img alt="" src=images/Sketcher_MapSketch.svg‎  style="width:32px;"> [Fijar croquis a cara](Sketcher_MapSketch/es.md): Traza un boceto de la cara previamente seleccionada de un sólido.
 
 -   <img alt="" src=images/Sketcher_ReorientSketch.svg  style="width:32px;">[Reorientar croquis](Sketcher_ReorientSketch/es.md): Permite adjuntar el boceto a uno de los planos principales.
@@ -177,6 +192,24 @@ Todas las herramientas del Ambiente de Trabajo Croquiz se encuentran en el menú
 -   <img alt="" src=images/Sketcher_MirrorSketch.svg‎  style="width:32px;"> [Reflejar croquis](Sketcher_MirrorSketch/es.md):
 
 Reflejar un boceto a lo largo del eje X, el eje Y o el origen.
+
+#### Sketcher Edit Mode toolbar 
+
+-   <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:32px;"> [Abandonar el croquis](Sketcher_LeaveSketch/es.md): Abandona el modo de edición del croquis.
+
+-   <img alt="" src=images/Sketcher_ViewSketch.svg‎  style="width:32px;"> [Vista de croquis](Sketcher_ViewSketch/es.md): Establece la vista del modelo perpendicular al plano del croquis.
+
+-   <img alt="" src=images/Sketcher_ViewSection.svg  style="width:32px;"> [Ver sección](Sketcher_ViewSection/es.md): Crea un plano de sección que oculta temporalmente cualquier materia delante del plano de dibujo.
+
+#### Sketcher edit tools toolbar 
+
+-   <img alt="" src=images/Sketcher_Grid.svg  style="width:32px;"> [Toggle grid](Sketcher_Grid.md): Toggles the grid in the sketch currently being edited. Settings can be changed in the related menu. <small>(v0.21)</small> 
+
+-   <img alt="" src=images/Sketcher_Snap.svg  style="width:32px;"> [Toggle snap](Sketcher_Snap.md): Toggles snapping in all sketches. Settings can be changed in the related menu. <small>(v0.21)</small> 
+
+-   <img alt="" src=images/Sketcher_RenderingOrder.svg  style="width:32px;"> [Configure rendering order](Sketcher_RenderingOrder.md): The rendering order of all sketches can be changed in the related menu. <small>(v0.21)</small> 
+
+#### Other
 
 
 <div class="mw-translate-fuzzy">
@@ -244,9 +277,13 @@ A diferencia de las líneas B, pueden utilizarse con todo tipo de restricciones 
 
 </div>
 
-  - <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline](Sketcher_CreateBSpline.md): Draws a B-spline curve by its control points.
+  - <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline by control points](Sketcher_CreateBSpline.md): Draws a B-spline curve by its control points.
 
-  - <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Periodic B-spline](Sketcher_CreatePeriodicBSpline.md): Draws a periodic (closed) B-spline curve by its control points.
+  - <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Periodic B-spline by control points](Sketcher_CreatePeriodicBSpline.md): Draws a periodic (closed) B-spline curve by its control points.
+
+  - <img alt="" src=images/Sketcher_CreateBSplineByInterpolation.svg  style="width:32px;"> [B-spline by knots](Sketcher_CreateBSplineByInterpolation.md): Draws a B-spline curve by its knots. <small>(v0.21)</small> 
+
+  - <img alt="" src=images/Sketcher_CreatePeriodicBSplineByInterpolation.svg  style="width:32px;"> [Periodic B-spline by knots](Sketcher_CreatePeriodicBSplineByInterpolation.md): Draws a periodic (closed) B-spline curve by its knots. <small>(v0.21)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -312,7 +349,7 @@ A diferencia de las líneas B, pueden utilizarse con todo tipo de restricciones 
 
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [Ranura](Sketcher_CreateSlot/es.md): Dibuja un óvalo seleccionando el centro de un semicírculo y un punto final del otro semicírculo.
 
--   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width:48px;"> [Create a fillet](Sketcher_CompCreateFillets.md): This is an icon menu in the Sketcher toolbar that holds the following commands:
+-   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width:48px;"> [Create fillet](Sketcher_CompCreateFillets.md): This is an icon menu in the Sketcher toolbar that holds the following commands:
 
 
 <div class="mw-translate-fuzzy">
@@ -434,9 +471,15 @@ Se trata de restricciones asociadas a los datos numéricos, para los cuales se p
 
 -   <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:32px;">[Distancia Vertical](Sketcher_ConstrainDistanceY/es.md): Fija la distancia vertical entre dos puntos o puntos finales de líneas. Si solo se selecciona uno, la distancia se define respecto al origen.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:32px;"> [Distancia](Sketcher_ConstrainDistance/es.md): Define la distancia de una línea seleccionada limitando su longitud, o define la distancia entre dos puntos limitando la distancia entre ellos.
 
--   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width:48px;"> [Arc or circle](Sketcher_CompConstrainRadDia.md): This is an icon menu in the Sketcher constraints toolbar that holds the following commands:
+
+</div>
+
+-   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width:48px;"> [Constrain radius or diameter](Sketcher_CompConstrainRadDia.md): This is an icon menu in the Sketcher constraints toolbar that holds the following commands:
 
 
 <div class="mw-translate-fuzzy">
@@ -449,9 +492,9 @@ Se trata de restricciones asociadas a los datos numéricos, para los cuales se p
 
 </div>
 
-  - <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Diameter](Sketcher_ConstrainDiameter.md): Defines the diameter of a selected arc or circle by constraining the diameter.
+  - <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Diameter](Sketcher_ConstrainDiameter.md): Defines the diameter of an arc or circle.
 
-  - <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Radiam](Sketcher_ConstrainRadiam.md): Automatically defines radius/diameter of a selected arc or circle (weight for a B-spline pole, diameter for a complete circle, radius for an arc). <small>(v0.20)</small> 
+  - <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Auto radius/diameter](Sketcher_ConstrainRadiam.md): Defines the radius of an arc, the diameter of a circle or the weight of a B-spline pole. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle.md): Defines the internal angle between two selected lines.
 
@@ -472,8 +515,6 @@ Se trata de restricciones asociadas a los datos numéricos, para los cuales se p
 
 
 </div>
-
--   <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:32px;"> [Alineación interna](Sketcher_ConstrainInternalAlignment/es.md): Alinea los elementos seleccionados con la forma seleccionada (por ejemplo, una línea para convertirse en el eje principal de una elipse).
 
 #### Constraint tools 
 
@@ -505,22 +546,6 @@ Las siguientes herramientas pueden utilizarse para cambiar el efecto de las rest
 <div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Selecciona los DOF del solucionador](Sketcher_SelectElementsWithDoFs/es.md): Resalta en verde la geometría con grados de libertad (DOFs), es decir, no totalmente restringida.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CloseShape.svg  style="width:32px;"> [Forma cercana](Sketcher_CloseShape/es.md): Crea una forma cerrada aplicando restricciones coincidentes a los puntos finales
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_ConnectLines.svg  style="width:32px;"> [Conecta los bordes](Sketcher_ConnectLines/es.md): Conectar los elementos del esbozo aplicando restricciones coincidentes a los puntos finales
 
 
 </div>
@@ -576,7 +601,7 @@ Las siguientes herramientas pueden utilizarse para cambiar el efecto de las rest
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:32px;"> [Seleccionar el eje vertical](Sketcher_SelectVerticalAxis/es.md): Selecciona el eje vertical del croquis
+-   <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="width:32px;"> [Seleccionar el eje horizontal](Sketcher_SelectHorizontalAxis/es.md): Selecciona el eje horizontal del croquis
 
 
 </div>
@@ -584,7 +609,7 @@ Las siguientes herramientas pueden utilizarse para cambiar el efecto de las rest
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="width:32px;"> [Seleccionar el eje horizontal](Sketcher_SelectHorizontalAxis/es.md): Selecciona el eje horizontal del croquis
+-   <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:32px;"> [Seleccionar el eje vertical](Sketcher_SelectVerticalAxis/es.md): Selecciona el eje vertical del croquis
 
 
 </div>
@@ -651,29 +676,89 @@ Las siguientes herramientas pueden utilizarse para cambiar el efecto de las rest
 
 ### Herramientas B-spline de Croquizador 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Mostrar/ocultar el grado de B-spline](Sketcher_BSplineDegree/es.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [Mostrar/ocultar el polígono de control de la B-spline](Sketcher_BSplinePolygon/es.md)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [Mostrar/ocultar peine de curvatura B-spline](Sketcher_BSplineComb/es.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Mostrar/ocultar multiplicidad de nudos B-spline](Sketcher_BSplineKnotMultiplicity/de.md)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Mostrar/ocultar el peso del punto de control de la B-spline](Sketcher_BSplinePoleWeight/es.md), <small>(v0.19)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_BSplineApproximate.svg  style="width:32px;"> [Convertir la geometría en B-spline](Sketcher_BSplineApproximate/es.md)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_BSplineIncreaseDegree.svg  style="width:32px;"> [Aumentar el grado de B-spline](Sketcher_BSplineIncreaseDegree/es.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_BSplineDecreaseDegree.svg  style="width:32px;"> [Disminuir el grado de la B-spline](Sketcher_BSplineDecreaseDegree/es.md), <small>(v0.19)</small> 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg  style="width:32px;"> [Aumentar la multiplicidad de nudos](Sketcher_BSplineIncreaseKnotMultiplicity/es.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Disminuir la multiplicidad de nudos](Sketcher_BSplineDecreaseKnotMultiplicity/es.md)
 
--   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Insert knot](Sketcher_BSplineInsertKnot.md), <small>(v0.20)</small> 
 
--   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md), <small>(v1.0)</small> 
+</div>
+
+-   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Insert knot](Sketcher_BSplineInsertKnot.md): Inserts a knot into an existing B-spline. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md): Joins two curves at selected end points. <small>(v0.21)</small> 
 
 
 
@@ -683,6 +768,24 @@ Las siguientes herramientas pueden utilizarse para cambiar el efecto de las rest
 <div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Cambiar el espacio virtual](Sketcher_SwitchVirtualSpace/es.md): Permite ocultar todas las restricciones de un boceto y hacerlas visibles de nuevo.
+
+
+</div>
+
+### Obsolete tools 
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_CloseShape.svg  style="width:32px;"> [Forma cercana](Sketcher_CloseShape/es.md): Crea una forma cerrada aplicando restricciones coincidentes a los puntos finales
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConnectLines.svg  style="width:32px;"> [Conecta los bordes](Sketcher_ConnectLines/es.md): Conectar los elementos del esbozo aplicando restricciones coincidentes a los puntos finales
 
 
 </div>
@@ -697,7 +800,13 @@ Las siguientes herramientas pueden utilizarse para cambiar el efecto de las rest
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Preferencias](Sketcher_Preferences/es.md): Preferencias para el ambiente de trabajo *Croquis*.
+
+
+</div>
 
 ## Best Practices 
 
@@ -753,6 +862,12 @@ Cada usuario de CAD desarrolla su propia forma de trabajar a lo largo del tiempo
 ## Guión
 
 La página [Croquizador Guión](Sketcher_scripting/es.md) contiene ejemplos sobre cómo crear restricciones a partir de scripts de Python.
+
+## Examples
+
+For some ideas of what can be achieved with Sketcher tools, have a look at: [Sketcher examples](Sketcher_Examples.md).
+
+<img alt="" src=images/Sketcher_ExampleHinge-01.gif  style="width:80px;"> <img alt="" src=images/Sketcher_ExampleHinge-15.png  style="width:90px;">
 
 
 

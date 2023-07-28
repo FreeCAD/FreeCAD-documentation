@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -14,6 +16,8 @@ Aplicați [Coincident constraints](Sketcher_ConstrainCoincident.md) pentru punct
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -30,6 +34,8 @@ Selectați elementele din vizualizarea 3D sau din caseta de listă din partea st
 
 
 </div>
+
+
 
 ## Note
 

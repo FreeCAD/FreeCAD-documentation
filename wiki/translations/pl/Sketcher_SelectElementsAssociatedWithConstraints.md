@@ -1,23 +1,28 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher SelectElementsAssociatedWithConstraints
-   MenuLocation:Sketch → Sketcher tools → Select associated geometry
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Wybierz powiązaną geometrię
+   MenuLocation:Szkic → Narzędzia szkicownika → Wybierz powiązaną geometrię
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**Z** **E**
    Version:0.15
 ---
 
 # Sketcher SelectElementsAssociatedWithConstraints/pl
 
-## Description
 
-Select Sketcher Elements associated with constraints.
 
-## Usage
+## Opis
 
-1.  Select constraint in the [task panel](Task_panel.md) or in the [3D view](3D_view.md).
-2.  Click on **[<img src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg style="width:16px"> [Select associated geometry](Sketcher_SelectElementsAssociatedWithConstraints.md)** or choose **Sketch → Sketcher tools → [<img src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg style="width:16px"> Select associated geometry** from the top menu.
-3.  The associated sketcher elements will be highlighted in the [task panel](Task_panel.md).
+Zaznacza elementy szkicu mające wiązania.
+
+
+
+## Użycie
+
+1.  Wybierz wiązanie w oknie [panelu zadań](Task_panel/pl.md) lub [widoku 3D](3D_view/pl.md)
+2.  Kliknij na **[<img src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg style="width:16px"> '''Wybierz powiązaną geometrię'''** lub wybierz **Szkic → Narzędzia szkicownika → [<img src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg style="width:16px"> Wybierz powiązaną geometrię** z menu głównego.
+3.  Połączone elementy szkicownika zostaną podświetlone w oknie [panelu zadań](Task_panel/pl.md).
 
 
 

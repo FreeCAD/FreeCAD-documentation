@@ -1,24 +1,67 @@
-# Basic TechDraw Tutorial/it
 ---
-- TutorialInfo:/it   Topic:Modellazione   Level:Base   Author:[[User:WandererFan   WandererFan]]|Time:Meno di un'ora   FCVersion:0.17 o superiore   Files:[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd  Basic Part Design for v0.17 Sample]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd Basic TechDraw Tutorial Sample]}}
+- TutorialInfo:/it   Topic:Modellazione   Level:Base   Author:[[User:WandererFan   WandererFan]]|Time:Meno di un'ora   FCVersion:0.17 o superiore   Files:[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd  Basic Part Design for v0.17 Sample]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd Basic TechDraw Tutorial Sample]
+---
+
+# Basic TechDraw Tutorial/it
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+</div>
+
+## Introduction
+
+
+<div class="mw-translate-fuzzy">
 
 ## Introduzione
 
 Questo tutorial introduce il nuovo utente ad alcuni degli strumenti e delle tecniche utilizzate nell\'ambiente di <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Disegno tecnico (TechDraw)](TechDraw_Workbench/it.md). Questo tutorial non è una guida completa e esaustiva all\'ambiente TechDraw e molti dei suoi strumenti e delle sue funzionalità non sono trattati. Questo tutorial guida l\'utente attraverso i passaggi necessari per produrre i disegni tecnici della Parte descritta nel tutorial [Basi di Part Design 017](Basic_Part_Design_Tutorial_017/it.md).
 
+
+</div>
+
+## Before You Begin 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Prima di iniziare 
 
 Scaricare il [file di esempio](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd) dal tutorial di Part Design.
+
+
+</div>
+
+## The Task 
+
+
+<div class="mw-translate-fuzzy">
 
 ## L\'obiettivo
 
 In questo tutorial, si utilizzerà TechDraw per creare i disegni 2D della parte 3D sottostante. Creeremo più viste della parte e aggiungeremo le dimensioni chiave. Questo tutorial non userà tutte le funzionalità e gli strumenti disponibili all\'interno di TechDraw, ma dovrebbe essere sufficiente per fornire all\'utente una base su cui costruire le proprie conoscenze e abilità.
 
 
+</div>
+
+
 
 ## La Parte 
 
 ![](images/Tut17_final_refined.png )
+
+## Creating a Drawing 
+
+### Startup
+
+
+<div class="mw-translate-fuzzy">
 
 ## Creare un disegno 
 
@@ -28,6 +71,14 @@ In questo tutorial, si utilizzerà TechDraw per creare i disegni 2D della parte 
 -   Per prima cosa aprire il file contenente la parte 3D. Quindi assicurarsi di essere nell\'ambiente TechDraw.
 -   Selezionare gli elementi nella finestra Drawing o nella vista combinata. La selezione in TechDraw funziona come nella finestra 3D. Gli oggetti diventano gialli quando il cursore è in posizione per selezionarli e diventano verdi quando vengono selezionati. Per selezionare più elementi usare il tasto **Ctrl** mentre si fa clic.
 
+
+</div>
+
+### Views and Dimensions 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Viste e dimensioni 
 
 In TechDraw tutti i lavori iniziano con una Pagina. Le pagine sono basate sui modelli e contengono le viste.
@@ -35,6 +86,9 @@ In TechDraw tutti i lavori iniziano con una Pagina. Le pagine sono basate sui mo
 1.  Per creare una nuova pagina cliccare su <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Nuovo disegno standard](TechDraw_PageDefault/it.md).
 2.  Fare clic sul Corpo nella [vista 3D](3D_view/it.md) o nella [vista combinata](Combo_view/it.md).
 3.  Cliccare su <img alt="" src=images/TechDraw_View.svg  style="width:32px;"> [Vista TechDraw](TechDraw_View/it.md). Questo aggiunge la vista alla pagina, che è appena stata creata.
+
+
+</div>
 
 Ora nella pagina c\'è una vista dall\'alto del corpo, però è un po\' piccola.
 
@@ -80,9 +134,17 @@ Prima di lasciare questa pagina, vediamo come sarà quando la stamperemo.
 
 ![](images/TDTut_Toggle.png )
 
+### Multiple Views of a Single Part 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Viste multiple di una singola parte 
 
 Creiamo un disegno a vista multipla utilizzando un modello diverso come punto di partenza. Useremo la convenzione del primo angolo, ma potete passare al terzo angolo se questa è la convenzione locale che volete utilizzare.
+
+
+</div>
 
 1.  Cliccare su <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [Nuovo disegno da modello](TechDraw_PageTemplate/it.md). Appare una finestra di selezione dei file. Selezionare un file modello. Usare \"ANSIB.SVG\". Appare una nuova scheda.
 2.  Selezionare \"Body\" e \"Page001\" (se nel documento ci sono più pagine, bisogna dire a TechDraw quale deve usare).
@@ -96,9 +158,17 @@ Creiamo un disegno a vista multipla utilizzando un modello diverso come punto di
 1.  Nella vista denominata \"TopLeftFront\", selezionare i due vertici all\'estremità del bordo anteriore del pezzo.
 2.  Cliccare su <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:32px;"> [Nuova lunghezza](TechDraw_LengthDimension/it.md). Trascinare il testo della quota lontano dal corpo.
 
+### Linking Dimensions to 3D Model 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Collegare le quote al modello 3D 
 
 Notate un problema con la dimensione che è appena stata creata?
+
+
+</div>
 
 ![](images/TDTut_NewLengthDim.png )
 
@@ -120,22 +190,37 @@ In questo tutorial si dovrebbe aver imparato abbastanza su TechDraw per produrre
 
 TechDraw offre molte altre funzionalità da esplorare: viste di sezione, viste di dettagli, simboli Svg, immagini, tratteggio di facce.
 
+## Notes
+
+
+<div class="mw-translate-fuzzy">
+
 ## Note
 
 1.  C\'è un eccellente set di preferenze suggerite in questa [discussione nel Forum](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=30083#p248189).
 2.  Questo disegno è stato prodotto con la versione 0.18. Mostra le dimensioni nel formato corretto per una vista isometrica. Nella versione 0.17 le linee di estensione sono perpendicolari al bordo invece che allineate con gli assi.
 
 
+</div>
+
+
 
 ## Risorse aggiuntive 
+
+
+<div class="mw-translate-fuzzy">
 
 -   File FreeCAD di questo esercizio per il confronto (realizzato con 0.17) [Download](https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd)
 
 
- {{TechDraw Tools navi}} {{Userdocnavi
----
+</div>
+
+
+{{TechDraw Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial/it

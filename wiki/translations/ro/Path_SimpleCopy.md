@@ -5,9 +5,19 @@
 
 </div>
 
+
+
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 This tool creates a non-parametric copy of a given path.
+
+
+</div>
+
+
 
 ## Utilizare
 
@@ -19,6 +29,8 @@ This tool creates a non-parametric copy of a given path.
 
 
 </div>
+
+
 
 ## Opţiuni
 

@@ -5,9 +5,17 @@
 
 </div>
 
+
+
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Acest instrument introduce o comandă Stop (M1). Această comandă va întrerupe un program(pause) care rulează pe controlerul CNC, așteptând continuarea interacțiunii cu utilizatorul.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -16,6 +24,8 @@ Rețineți că acest lucru nu oprește axul.
 
 
 </div>
+
+
 
 ## Utilizare
 
@@ -27,6 +37,8 @@ Rețineți că acest lucru nu oprește axul.
 
 
 </div>
+
+
 
 ## Proprietăți
 

@@ -13,14 +13,34 @@
 
 </div>
 
+
+
 ## Descrizione
+
+
+<div class="mw-translate-fuzzy">
 
 Lo strumento Linea a centro faccia aggiunge una linea centrale alle facce selezionate
 
-<img alt="" src=images/TechDraw_FaceCenterLine_Sample.png  style="width:400px;"> 
+
+</div>
+
+<img alt="" src=images/TechDraw_FaceCenterLine_Sample.png  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Linea centrale aggiunta alla faccia*
 
-## Utilizzo
+
+</div>
+
+## Usage create 
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Selezionare una o più facce in una vista.
 2.  Premere il pulsante **<img src="images/TechDraw_FaceCenterLine.svg" width=16px> Linea a centro faccia
@@ -28,26 +48,42 @@ Lo strumento Linea a centro faccia aggiunge una linea centrale alle facce selezi
 3.  Si apre una finestra di dialogo in cui è possibile specificare gli attributi della nuova linea centrale.
 4.  Viene aggiunta una linea centrale nel punto medio del riquadro di delimitazione delle facce selezionate.
 
-Per eliminare una linea centrale, selezionarla e utilizzare il pulsante della barra degli strumenti **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Rimuovi oggetto cosmetico](TechDraw_CosmeticEraser/it.md)**.
 
-## Modificare le linee centrali 
+</div>
+
+## Usage edit 
+
+
+<div class="mw-translate-fuzzy">
 
 Per modificare qualsiasi linea centrale si può usare qualsiasi pulsante di comando delle linee centrali (**<img src="images/TechDraw_FaceCenterLine.svg" width=16px> Linea a centro faccia**, **<img src="images/TechDraw_2LineCenterLine.svg" width=16px> [Linea a centro linee](TechDraw_2LineCenterLine/it.md)**, **<img src="images/TechDraw_2PointCenterLine.svg" width=16px> [Linea a centro punti](TechDraw_2PointCenterLine/it.md)**).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Selezionare una linea centrale.
 2.  Premere qualsiasi pulsante di comando di linea centrale.
 3.  Si apre una finestra di dialogo in cui è possibile modificare gli attributi della linea centrale.
 4.  Premere **OK** per vedere le modifiche applicate.
 
-## Proprietà
+
+</div>
+
+
 
 
 <div class="mw-translate-fuzzy">
 
-Le linee centrali cosmetiche non hanno proprietà proprie, in quanto non sono Document Objects. Hanno attributi che possono essere modificati nella finestra di dialogo di modifica della linea centrale.
+## Proprietà
 
 
 </div>
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Mode (pulsanti di opzione):
     -   **Vertical**: Forza una linea centrale verticale
@@ -61,28 +97,15 @@ Le linee centrali cosmetiche non hanno proprietà proprie, in quanto non sono Do
 7.  **Weight**: Spessore della linea centrale
 8.  **Style**: <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Continua, <img alt="" src=images/Dash-line.svg  style="width:20px;"> A tratti, <img alt="" src=images/Dot-line.svg  style="width:20px;"> Punti, <img alt="" src=images/DashDot-line.svg  style="width:20px;"> Tratto e punto, <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> Tratto e due punti
 
-## Script
-
-
-<div class="mw-translate-fuzzy">
-
-
-**Vedere anche:**
-
-[API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
 
 </div>
 
 
-<div class="mw-translate-fuzzy">
-
-In questo momento la Linea centrale non è accessibile dalle [macro](macros/it.md) o dalla console [Python](Python/it.md).
-
-
-</div>
 
 ## Note
+
+
+<div class="mw-translate-fuzzy">
 
 -   FaceCenterLine sostituisce eventualmente due proprietà vista:
     -   
@@ -94,6 +117,13 @@ In questo momento la Linea centrale non è accessibile dalle [macro](macros/it.m
         **VertCenterLine**
         
         : Mostra una linea centrale verticale attraverso la vista.
+
+
+</div>
+
+## Properties
+
+Centerlines have no properties of their own, as they are not document objects.
 
 
 <div class="mw-translate-fuzzy">

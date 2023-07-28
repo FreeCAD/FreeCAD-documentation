@@ -14,6 +14,8 @@
 
 </div>
 
+## Introduction
+
 
 <div class="mw-translate-fuzzy">
 
@@ -22,13 +24,29 @@ Acest tutorial introduce noul utilizator la unele dintre instrumentele și tehni
 
 </div>
 
+## Before You Begin 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Înainte de a începe 
 
 Descărcați din Part Design tutorial:[sample file](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd)
 
+
+</div>
+
+## The Task 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Scopul
 
 În acest tutorial, veți folosi TechDraw Workbench pentru a crea un desen 2D al piesei 3D de mai jos. Vom crea mai multe vederi ale piesei și vom adăuga cotele/dimensiunile cheie. Acest tutorial nu va folosi toate funcțiile și instrumentele disponibile în cadrul TechDraw Workbench, dar ar trebui să utilizeze suficient pentru a oferi utilizatorului acestui tutorial o bază fundamentală pe care să-și construiască cunoștințele și abilitățile.
+
+
+</div>
 
 ## The Part 
 
@@ -130,10 +148,20 @@ In this tutorial you have learned enough about TechDraw to produce a drawing lik
 
 There is much more functionality in TechDraw for you to explore - Section Views, Detail Views, Svg Symbols, Images, face hatching.
 
+## Notes
+
+
+<div class="mw-translate-fuzzy">
+
 ## Note
 
 1.  Există un set excelent de preferințe sugerate în acest sens [Forum post](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=30083#p248189).
 2.  This drawing was produced in v0.18. It shows dimensions in the proper format for an isometric view. In v0.17 the extension lines will be perpendicular to the edge rather than aligned with the axes.
+
+
+</div>
+
+
 
 ### Resurse suplimentare 
 
@@ -147,9 +175,11 @@ There is much more functionality in TechDraw for you to explore - Section Views,
 </div>
 
 
- {{TechDraw Tools navi}}
+{{TechDraw Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial/ro

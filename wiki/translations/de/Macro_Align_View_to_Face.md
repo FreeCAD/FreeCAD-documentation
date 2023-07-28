@@ -1,7 +1,4 @@
 # Macro Align View to Face/de
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/de
 |Name=Macro Align View to Face
 |Icone=Macro_Align_View_to_Face.png
@@ -9,22 +6,18 @@
 |Description=Dieses Makro richtet die aktuelle Ansicht an einer ausgewählten Fläche aus
 |Author=Rockn
 |Version=1.0
-|Date=2014-03-12
+|Date=08.10.2022
 |FCVersion=All
 |Download=[https://www.freecadweb.org/wiki/images/d/d7/Macro_Align_View_to_Face.png ToolBar Icon]
 }}
 
 
-</div>
 
 ## Beschreibung
 
 Dieses Makro dreht die aktuelle Ansicht, um senkrecht auf eine ausgewählte Fläche eines vorhandenen Objekts zu zeigen.
 
-## Usage
 
-
-<div class="mw-translate-fuzzy">
 
 ## Anwendung
 
@@ -32,11 +25,10 @@ Dieses Makro dreht die aktuelle Ansicht, um senkrecht auf eine ausgewählte Flä
 2.  Führe das Makro aus
 
 
-</div>
 
 ## Skript
 
-ToolBar Icon ![](images/Macro_Align_View_to_Face.png )
+Werkzeugleiste Icon ![](images/Macro_Align_View_to_Face.png )
 
 **Macro_Align_View_to_Face.FCMacro** {{MacroCode|code=
 

@@ -1,7 +1,7 @@
 # Report view/ru
 ## Введение
 
-The [Report view](Report_view.md) is a panel that shows text messages from FreeCAD processes and tools. It is available in the menu **{{StdMenu|[View](Std_View_Menu.md)** → Panels → Report view}}.
+[Просмотр отчёта](Report_view.md) это панель, на которой отображаются текстовые сообщения от процессов и инструментов FreeCAD. Она доступна в меню **{{StdMenu|[Вид](Std_View_Menu.md)** → Панели → Просмотр отчёта}}.
 
 Certain properties of this panel, like color of the text and whether to display it automatically on warnings or errors, can be configured in the **General → Output window** tab of the [Preferences Editor](Preferences_Editor#Output_window.md).
 
@@ -9,7 +9,9 @@ Certain properties of this panel, like color of the text and whether to display 
 
 
 
-*The report view showing messages when FreeCAD has just started.*
+*Просмотр отчёта, показывающий сообщения, когда FreeCAD только что запустился.*
+
+
 
 ## Сообщения
 
@@ -35,6 +37,8 @@ These functions can be used from the [Python console](Python_console.md) directl
 
 
 *Example messages in the report view: a general message, a warning, an error, and a logged message.*
+
+
 
 ## Действия
 

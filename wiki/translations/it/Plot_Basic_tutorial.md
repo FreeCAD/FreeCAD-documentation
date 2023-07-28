@@ -170,6 +170,8 @@ Questi comandi tracciano le funzioni. Il comando **plot** ammette anche l\'etich
 
 </div>
 
+
+
 ## Configurazione del grafico 
 
 ### Showing grid and legend 
@@ -403,9 +405,9 @@ Dpi (punti per pollice) controlla la risoluzione delle immagini, ad esempio util
 </div>
 
 
-{{Tutorials_navi
+{{Plot_Tools_navi
 
-}} {{Plot_Tools_navi}}
+}}
 
 
 

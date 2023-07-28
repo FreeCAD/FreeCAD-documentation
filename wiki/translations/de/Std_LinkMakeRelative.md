@@ -10,12 +10,16 @@
 
 # Std LinkMakeRelative/de
 
+
+
 ## Beschreibung
 
 
 **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> [Std UnterverknüpfungErstellen](Std_LinkMakeRelative/de.md)**
 
-erstellt ein [App-Link](App_Link.md)-Objekt (`App::Link` class), so wie **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std VerknüpfungErstellen](Std_LinkMake/de.md)**, wird aber in erster Linie auf ausgewählte Unterelemente angewendet und setzt die {{PropertyData/de|Link Transform}} auf `True`.
+erstellt ein [App Link](App_Link.md)-Objekt (`App::Link` class), so wie **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std VerknüpfungErstellen](Std_LinkMake/de.md)**, wird aber in erster Linie auf ausgewählte Unterelemente angewendet und setzt die {{PropertyData/de|Link Transform}} auf `True`.
+
+
 
 ## Anwendung
 
@@ -35,17 +39,21 @@ Ohne Auswahl:
 
 *Originaler Körper und drei Verknüpfungen, die von seinen Unterelementen erstellt wurden, inklusive Kanten und Flächen.*
 
+
+
 ## Eigenschaften
 
-This command creates a new [App Link](App_Link.md); its properties are described in **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)**.
+Diese Anwendung erstellt eine neue [Anwendung Verknüpfung](App_Link/de.md). Seine Eigenschaften sind in **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std VerknüpfungErstellen](Std_LinkMake/de.md)** beschrieben.
 
-In particular, **Link Transform** is set to `True`, so **Placement** becomes hidden, and instead **Link Placement** controls the position of the Link with respect to the position of **Linked Object**.
+Vor allem **Link Transform** ist auf `True` gesetzt. Damit wird **Placement** versteckt und an dessen statt steuert **Link Placement** die Position der Verknüpfung, bezogen auf die Position **Linked Object**.
+
+
 
 ## Skripten
 
-See [Std LinkMake](Std_LinkMake.md) for the general information.
+Zu allgemeinen Informationen, siehe [Std VerknüpfungErstellen](Std_LinkMake/de.md).
 
-An App Link is created with the `addObject()` method of the document. To define a relative link, its `setLink` method is used to pick the source object, and one or more of its subelements. Then the `LinkTransform` attribute is set to `True`.
+Die Anwendung Link wurde mit der `addObject()`-Methode des Dokumentes erstellt. Um eine relative Verknüpfung zu erstellen, wird seine `setLink`-Methode verwendet, um das Quellobjekt und eines oder mehrerer seiner Unterelemente aufzunehmen. Dann wird das `LinkTransform`-Attribut auf `True` gesetzt.
 
 
 ```python

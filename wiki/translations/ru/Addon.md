@@ -1,9 +1,13 @@
 # Addon/ru
 {{TOCright}}
 
+
+
 ## Введение
 
 В FreeCAD и в этой документации [Дополнения](Addon/ru.md) - это любой компонент, который не является частью базовой установки, но который может быть добавлен в систему определенными методами.
+
+
 
 ## Различные типы 
 
@@ -19,6 +23,8 @@
 
 </div>
 
+
+
 ## Установка
 
 
@@ -29,18 +35,14 @@
 
 </div>
 
+Однако для макросов и верстаков доступна ручная установка.
 
-<div class="mw-translate-fuzzy">
-
-Однако ручная установка остаётся возможной.
-
--   [Как установить макрос](How_to_install_macros/ru.md)
+-   [Как установить макросы](How_to_install_macros/ru.md)
 -   [Установка дополнительных верстаков](Installing_more_workbenches/ru.md)
 
 
-</div>
 
-## Information for developers 
+## Информация для разработчиков 
 
 If you have developed a macro or workbench, and want to see it included in the Addon manager, read how to do so on the repository pages: ([FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) and [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/)). If you add your macro to the [Macros recipes](Macros_recipes.md) page, there is nothing else to do, it will automatically be picked up by the Addon manager.
 

@@ -13,6 +13,8 @@
 
 *Слева: параметрическая [форма](Shape/ru.md), определяемая свойствами. Справа: [сетка](Mesh/ru.md), определяемая вершинами и треугольными поверхностями.*
 
+
+
 ## Применение
 
 Формы обычно создаются внутренними функциями [Верстака Part](Part_Workbench/ru.md) и в конечном счёте определяются ядром [OpenCASCADE Технологии](OpenCASCADE/ru.md) (OCCT).
@@ -20,6 +22,10 @@
 Как только фигура создана, она может быть использована и изменена всеми [верстаками](Workbenches/ru.md) путём создания [скриптовых объектов](scripted_objects/ru.md) вокруг этой фигуры.
 
 По сути, каждый объект, производный от [Функций Part (Feature)](Part_Feature/ru.md) (`Part::Feature` класса), содержит и манипулирует Формой.
+
+Any OpenCascade Shape has a tesselation mainly to view the Shape on screen. More information about this can be found in this German [forum post](https://forum.freecad.org/viewtopic.php?t=77521&start=10#p674947) and in the [OpenCascad Mesh documentation](https://dev.opencascade.org/doc/overview/html/occt_user_guides__mesh.html).
+
+
 
 ## Примечания
 

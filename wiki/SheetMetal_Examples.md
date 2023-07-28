@@ -359,7 +359,7 @@ Switch **Use Relief Factor** from `False` (default) to `True` to set the values 
 
 :   In this case the round option is useless, since the relief depth is as large as the relief width. (See above)
 
-A new property **Length Spec** <small>(v1.0)</small>  enables us to choose how to measure the length of the Bend object:
+A new property **Length Spec** <small>(v0.21)</small>  enables us to choose how to measure the length of the Bend object:
 
  <img alt="" src=images/SheetMetal_Example-09t.png  style="width:500px;">  
 *Side view of four 120° flanges with default length (10 mm) and different **Length Spec* values: <br> {{value|Leg** (default), {{value|Outer Sharp}}, {{value|Inner Sharp}}, {{value|Tangential}}}}

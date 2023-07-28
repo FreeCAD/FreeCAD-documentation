@@ -2,9 +2,9 @@
 - GuiCommand:/fr
    Name:FEM EquationMagnetodynamic2D
    Name/fr:FEM Équation magnétodynamique 2D
-   MenuLocation:Solveur → Équations électromagnétiques → Équation magnétodynamique 2D
+   MenuLocation:Résolution → Équations électromagnétiques → Équation magnétodynamique 2D
    Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:1.0
+   Version:0.21
    SeeAlso:[FEM Équation magnétodynamique](FEM_EquationMagnetodynamic/fr.md)
 ---
 
@@ -21,14 +21,14 @@ Pour des analyses plus générales en 3D utilisant les équations de Maxwell, Fr
 ## Utilisation
 
 1.  Après avoir ajouté un solveur Elmer comme décrit [ici](FEM_SolverElmer/fr#.C3.89quations.md), sélectionnez-le dans la [vue en arborescence](Tree_view/fr.md)
-2.  Utilisez maintenant le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationMagnetodynamic2D.svg  style="width:24px;"> ou le menu **Solveur → Équations électromagnétiques → Equation magnétodynamique 2D**.
+2.  Utilisez maintenant le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationMagnetodynamic2D.svg  style="width:24px;"> ou le menu **Résolution → Équations électromagnétiques → Équation magnétodynamique 2D**.
 3.  Modifiez les [paramètres du solveur de l\'équation](#Param.C3.A8tres_du_solveur.md) ou les [paramètres généraux du solveur](FEM_SolverElmer_SolverSettings/fr.md) si nécessaire.
 
 
 
 ## Paramètres du solveur 
 
-Pour les paramètres généraux du solveur, voir les [Paramètres du solveur Elmer](FEM_SolverElmer_SolverSettings/fr.md).
+Pour les paramètres généraux du solveur, voir les [paramètres du solveur Elmer](FEM_SolverElmer_SolverSettings/fr.md).
 
 L\'équation magnétodynamique 2D fournit ces paramètres spéciaux :
 

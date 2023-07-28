@@ -11,11 +11,15 @@
 
 # Sketcher CreateOblong/de
 
+
+
 ## Beschreibung
 
 Dieses Werkzeug zeichnet ein abgerundetes Rechteck, indem zwei gegenüberliegende Punkte gegriffen werden. Wenn das Werkzeug gestartet wird, ändert sich der Mauszeiger in ein weißes Kreuz mit einem roten abgerundeten Rechtecksymbol. Die Koordinaten des Mauszeigers werden daneben in Echtzeit blau angezeigt.
 
 ![](images/SketcherCreateRoundedRectangleExample.png‎ )
+
+
 
 ## Anwendung
 

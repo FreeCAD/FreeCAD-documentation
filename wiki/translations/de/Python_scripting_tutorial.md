@@ -58,7 +58,7 @@ Wenn du dies in der FreeCAD Python Konsole eingibst, wirst du feststellen, dass 
 ![](images/Screenshot_classbrowser.jpg ) 
 *Autovervollständigungsmechanismus der FreeCAD Pythonkonsole*
 
-Nun wird unser neues Dokument erstellt. Dies ist ähnlich wie das Drücken der **<img src="images/Std_New.svg" width=16px> [Std Neu](Std_New/de.md)** Schaltfläche in der Werkzeugleiste. Tatsächlich tun die meisten Schaltflächen in FreeCAD nichts anderes, als eine oder mehrere Zeilen Python Code auszuführen. Noch besser, du kannst eine Option in **Bearbeiten → Einstellungen → Allgemein → Makro** auf **Zeige Skriptbefehle in der Python konsole** setzen. Dadurch wird in der Konsole der gesamte Python Code ausgegeben, der ausgeführt wird, wenn fu Tasten drückst. Sehr nützlich, um zu lernen, wie man Aktionen in Python reproduziert.
+Nun wird unser neues Dokument erstellt. Dies ist ähnlich wie das Drücken der Schaltfläche **<img src="images/Std_New.svg" width=16px> [Neu](Std_New/de.md)** in der Werkzeugleiste. Tatsächlich tun die meisten Schaltflächen in FreeCAD nichts anderes, als eine oder mehrere Zeilen Python-Code auszuführen. Noch besser, du kannst die Option **Skript-Befehle in der Python-Konsole anzeigen** unter **Bearbeiten → Einstellungen → Allgemein → Makro** aktivieren. Dadurch wird in der Konsole der gesamte Python-Code ausgegeben, der ausgeführt wird, wenn du Tasten drückst. Sehr nützlich, um zu lernen, wie man Aktionen in Python reproduziert.
 
 Lass uns nun zu unserem Dokument zurückkehren und sehen, was wir mit ihm machen können:
 
@@ -273,7 +273,17 @@ Qt ist ein sehr mächtiges Schnittstellensystem, das es dir erlaubt, sehr komple
 
 Nun, da Du ein gutes Verständnis der Grundlagen hast, wo werden wir unsere Python Skripte aufbewahren und wie werden wir sie einfach von FreeCAD aus starten? Dafür gibt es einen einfachen Mechanismus, genannt [Makros](Macros/de.md). Ein Makro ist einfach ein Python Skript, das zu einer Werkzeugleiste hinzugefügt und per Mausklick gestartet werden kann. FreeCAD bietet dir einen einfachen Texteditor (**Makro → Makros → Erstellen**), in dem du Skripte schreiben oder einfügen kannst. Sobald das Skript fertig ist, verwende **Werkzeuge → Anpassung → Makros**, um eine Schaltfläche dafür zu definieren, die zu den Werkzeugleisten hinzugefügt werden kann.
 
-Jetzt bist Du bereit für eine vertieftere FreeCAD Skripterstellung. Gehe weiter zum [Verteiler für Erfahrene Anwender](Power_users_hub/de.md)! {{Top}}
+
+
+## Externe Skripte 
+
+An alternative method for creating, saving, and running your own Python scripts is to create them outside FreeCAD, using an editor of your choice (for example, Vim). To run your Python script inside FreeCAD, be sure to save it with the **.py** extension.
+
+Then use **File → Open** to open your script. It will load into a new tab in the [Main view area](Main_view_area.md). You can run your script by clicking the **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Execute macro](Std_DlgMacroExecuteDirect.md)** button. Any errors or script output will be shown in the [Report view](Report_view.md).
+
+When you make and save any modifications to your already-loaded script, a dialog box will appear asking whether you want to reload the modified script into FreeCAD.
+
+Jetzt kannst Du zur Seite [FreeCAD Grundlagen der Skripterstellung](FreeCAD_Scripting_Basics/de.md) fortfahren, oder Du kannst diese und andere zugehörige Seiten über das [Hauptanwenderzentrum](Power_users_hub/de.md) erreichen. {{Top}}
 
 
 

@@ -13,12 +13,9 @@ Certas propriedades da visualização, como cor de fundo, estilo [ de navegaçã
 
 {{Caption | A [ Draft](visualização_3D]]_é_um_componente_do_FreeCAD_[[interface]]. Por padrão, ele mostra um pequeno widget com eixos de coordenadas e o cubo de navegação, que também tem eixos de coordenadas; a grade pode ser exibida e configurada carregando a bancada de trabalho [[Draft Workbench .md).}}
 
+
+
 ## Ações
-
-
-**Note:**
-
-links para as ações da <small>(v0.19)</small> .
 
 Uma vez que a [ vista hierárquica de objetos](tree_view.md) lista a maioria dos objetos que estão visíveis na área de modelagem 3D, é possível realizar, direto nesta área, muitas ações que normalmente são executadas pela [ vista hierárquica de objetos](tree_view.md).
 
@@ -68,6 +65,8 @@ Outro exemplo: com a bancada [Draft](Draft_Workbench.md) ativa e um objeto selec
 -    **Draft**: comandos para a criação e a modificação de objetos da bancada [Draft](Draft_Workbench.md).
 
 -    **Utilities**: comandos contextuais adicionais, que fazem parte da bancada[Draft](Draft_Workbench.md).
+
+
 
 ## Detalhes
 

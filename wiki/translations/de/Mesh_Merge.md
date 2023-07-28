@@ -1,43 +1,34 @@
-# Mesh Merge/de
 ---
 - GuiCommand:/de
-   Name:Mesh Merge   Name/de:Netze zusammenführen
-‏‎   MenuLocation:Netze → Zusammenführen
-   Workbenches:[Netze](Mesh_Workbench/de.md)
-   Shortcut:
-   SeeAlso:[Boolean Vereinigung](Mesh_Union/de.md)---
+   Name:Mesh Merge
+   Name/de:Mesh Zusammenführen
+   MenuLocation:Netze → Zusammenführen
+   Workbenches:[Mesh](Mesh_Workbench/de.md)
+   SeeAlso:[Mesh KomponentenTeilen](Mesh_SplitComponents/de.md)
+---
+
+# Mesh Merge/de
 
 
-</div>
 
-## Description
+## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-## Einleitung
-
-Vereinigt zwei oder mehr Netze zu einem neuen Netz.
+Der Befehl **Mesh Zusammenführen** erstellt ein neues nicht parametrisches Netzobjekt, ein [Mesh Formelement](Mesh_Feature/de.md) durch Kombination von zwei oder mehr Netzobjekten. Der Befehl führt keine boolesche Vereinigung aus; das neue Objekt wird separate Netzkomponenten enthalten. Für eine boolesche Vereinigung wird stattdessen der Befehl [Mesh Vereinigung](Mesh_Union/de.md) verwendet. Dieser Befehl ist das Gegenstück zum Befehl [Mesh KomponentenTeilen](Mesh_SplitComponents/de.md).
 
 
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
 
 ## Anwendung
 
-1.  Wähle Netze in der Baumansicht
-2.  Wähle **Netze** → **Zusammenführen** aus der Menüleiste. Das resultierende Netz wird als neues und separates Objekt erstellt.
+1.  Zwei oder Mehr Netzobjekt auswählen.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Mesh_Merge.svg" width=16px> [Mesh Zusammenführen](Mesh_Merge/de.md)** drücken.
+    -   Den Menüeintrag **Netze → <img src="images/Mesh_Merge.svg" width=16px> Zusammenführen** auswählen.
 
 
-</div>
 
-## Properties
+## Eigenschaften
 
-See: [Mesh Feature](Mesh_Feature.md).
+Siehe: [Mesh Formelement](Mesh_Feature/de.md).
 
 
 

@@ -5,9 +5,17 @@
 
 </div>
 
+
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questo strumento consente di simulare il percorso della lavorazione. Spazza i modelli 3D degli strumenti utilizzati in ciascuna operazione lungo i percorsi del codice G. Dove il pezzo e lo strumento si sovrappongono sottrae del materiale dal pezzo, e fornisce la visualizzazione della lavorazione. Ciò consente il rilevamento e l\'isolamento degli errori prima di eseguire il lavoro su una fresatrice.
+
+
+</div>
 
 ![](images/Path-Simulation.gif )
 
@@ -32,12 +40,17 @@ Questo strumento consente di simulare il percorso della lavorazione. Spazza i mo
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Proprietà
 
 
 </div>
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Playback Speed**: La velocità di riproduzione della simulazione, in linee di codice G al secondo
 
@@ -46,6 +59,9 @@ Questo strumento consente di simulare il percorso della lavorazione. Spazza i mo
 -    **Job**: La lavorazione usata come base della simulazione
 
 -    **Operation List**: L\'elenco delle operazioni selezionate per l\'inclusione nella simulazione.
+
+
+</div>
 
 
 

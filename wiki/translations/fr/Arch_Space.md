@@ -18,6 +18,8 @@ L\'outil Espace vous permet de définir un volume vide, soit en le basant sur un
 <img alt="" src=images/Arch_Space_example.jpg  style="width:640px;"> 
 *L'objet Espace créé à partir d'un objet solide existant, deux faces de mur sont ajoutées en tant que limites.*
 
+
+
 ## Utilisation
 
 1.  Sélectionnez un objet solide existant ou des faces sur des objets de contour.
@@ -26,10 +28,14 @@ L\'outil Espace vous permet de définir un volume vide, soit en le basant sur un
     -   En utilisant les touches **S** puis **P**
     -   En utilisant l\'entrée **Arch → Espace** dans le menu supérieur
 
+
+
 ### Limitations
 
 -   Les propriétés des bords ne sont actuellement pas modifiables via l\'interface graphique.
 -   Voir sur le forum [forum announcement](http://forum.freecadweb.org/viewtopic.php?f=9&t=4275).
+
+
 
 ## Propriétés
 
@@ -86,7 +92,7 @@ L\'outil Espace vous permet de définir un volume vide, soit en le basant sur un
 ## Options
 
 -   Pour créer des zones regroupant plusieurs espaces, utilisez [Arch Partie de bâtiment](Arch_BuildingPart/fr.md) et définissez son type IFC sur \"Spatial Zone\".
--   L\'objet spatial a les mêmes modes d\'affichage que les autres objets d\'Arch et Part, avec un mode en plus appelé **Footprint** qui n\'affiche que la face inférieure de l\'espace. {{Version/fr|0.19}}
+-   L\'objet spatial a les mêmes modes d\'affichage que les autres objets d\'Arch et Part, avec un mode en plus appelé **Footprint** qui n\'affiche que la face inférieure de l\'espace.
 
 ## Script
 

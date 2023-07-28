@@ -1,7 +1,7 @@
 # Macro Rotate View/fr
 {{Macro/fr
 |Name=Rotate View by 90°
-|Translate=Vue Rotation à 90°
+|Name/fr=Macro Rotate View by 90°
 |Icon=Macro Rotate View view 90 Degrees.png
 |Description=Cette macro fait pivoter l'affichage actuel de 90 ° vers la gauche. Ne fonctionne que si vous êtes en [vue de dessus](Std_ViewTop/fr.md).
 |Author=Yorik

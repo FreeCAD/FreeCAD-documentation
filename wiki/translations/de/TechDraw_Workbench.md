@@ -8,8 +8,6 @@ Der Arbeitsbereich <img alt="" src=images/Workbench_TechDraw.svg  style="width:2
 
 Maße, Schnittansichten, schraffierte Bereiche, Beschriftungen und Symbole im Dateiformat[SVG](SVG/de.md) können dem Blatt hinzugefügt werden. Das Blatt (die Zeichnung) kann später in verschiedene Formate wie [DXF](DXF/de.md), [SVG](SVG/de.md) und [PDF](PDF/de.md) exportiert werden.
 
-TechDraw ist seit Version 0.17 offiziell in FreeCAD enthalten; es soll den nicht mehr unterstützten Arbeitsbereich [Drawing](Drawing_Workbench/de.md) ersetzen. Der Arbeitsbereich Drawing ist in Version 0.20 noch vorhanden, wird aber in zukünftigen Veröffentlichungen nicht mehr enthalten sein ({{VersionPlus/de|1.0}}). Um mit den Plänen und Entwicklungen von TechDraw Schritt zu halten, siehe [TechDraw-Roadmap](TechDraw_Roadmap.md) (engl.).
-
 Wenn das Hauptziel die Erstellung komplexer 2D-Zeichnungen und [DXF](DXF/de.md)-Dateien ist und keine 3D-Modelle benötigt werden, ist FreeCAD möglicherweise nicht die richtige Wahl. Stattdessen sollte man eine spezielle (Software-)Anwendung für technisches Zeichnen in Betracht ziehen, wie [LibreCAD](https://de.wikipedia.org/wiki/LibreCAD) oder [QCad](https://de.wikipedia.org/wiki/QCad).
 
 
@@ -27,9 +25,9 @@ Diese Werkzeuge sind zum Erstellen von Zeichnungsblättern (Page-Objekte).
 
 -   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [Neues Zeichnungsblatt aus einer Vorlage erstellen](TechDraw_PageTemplate/de.md): Fügt ein neues Zeichnungsblatt unter Verwendung einer frei wählbaren [Vorlage](TechDraw_Templates/de.md) hinzu.
 
--   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Seite neu zeichnen](TechDraw_RedrawPage/de.md): Erzwingt eine Aktualisierung des ausgewählten Zeichnungsblattes. {{Version/de|0.19}}
+-   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Seite neu zeichnen](TechDraw_RedrawPage/de.md): Erzwingt eine Aktualisierung des ausgewählten Zeichnungsblattes.
 
--   <img alt="" src=images/TechDraw_PrintAll.svg  style="width:32px;"> [Alle Seiten drucken](TechDraw_PrintAll/de.md): Druckt alle Zeichnungsblätter eines Dokuments. {{Version/de|1.0}}
+-   <img alt="" src=images/TechDraw_PrintAll.svg  style="width:32px;"> [Alle Seiten drucken](TechDraw_PrintAll/de.md): Druckt alle Zeichnungsblätter eines Dokuments. {{Version/de|0.21}}
 
 
 
@@ -37,9 +35,9 @@ Diese Werkzeuge sind zum Erstellen von Zeichnungsblättern (Page-Objekte).
 
 Dies sind Werkzeuge zum Erstellen von Ansichten (View-Objekten).
 
--   <img alt="" src=images/TechDraw_View.svg  style="width:32px;"> [Ansicht einfügen](TechDraw_View/de.md): Fügt eine ausgewählte Ansicht eines 3D-Objekts ein.
+-   <img alt="" src=images/TechDraw_View.svg  style="width:32px;"> [Ansicht einfügen](TechDraw_View/de.md): Fügt eine projizierte 2D-Ansicht eines Objekts hinzu.
 
--   <img alt="" src=images/TechDraw_ActiveView.svg  style="width:32px;"> [Aktive (3D-)Ansicht einfügen](TechDraw_ActiveView/de.md): Fügt eine Ansicht des aktiven 3D-Fensters ein. {{Version/de|0.19}}
+-   <img alt="" src=images/TechDraw_ActiveView.svg  style="width:32px;"> [Aktive (3D-)Ansicht einfügen](TechDraw_ActiveView/de.md): Fügt eine Ansicht des aktiven 3D-Fensters ein.
 
 -   <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:32px;"> [Projektionsgruppe einfügen](TechDraw_ProjectionGroup/de.md): Ruft einen Dialog auf, um mehrere (zusammenhängende) Ansichten eines Objekts aus verschiedenen Richtungen zu erstellen (Seitenansicht, Draufsicht usw.).
 
@@ -47,7 +45,7 @@ Dies sind Werkzeuge zum Erstellen von Ansichten (View-Objekten).
 
   - <img alt="" src=images/TechDraw_SectionView.svg  style="width:32px;"> [Schnittansicht einfügen](TechDraw_SectionView/de.md): Fügt eine Schnittansicht zu einer vorhandenen Ansicht ein.
 
-  - <img alt="" src=images/TechDraw_ComplexSection.svg  style="width:32px;"> [Zusammengesetzte Schnittansicht einfügen](TechDraw_ComplexSection/de.md): Fügt eine auf einem (Schnitt-) Profil basierende Schnittansicht zu einer vorhandenen Ansicht ein. <small>(v1.0)</small> 
+  - <img alt="" src=images/TechDraw_ComplexSection.svg  style="width:32px;"> [Zusammengesetzte Schnittansicht einfügen](TechDraw_ComplexSection/de.md): Fügt eine auf einem (Schnitt-) Profil basierende Schnittansicht zu einer vorhandenen Ansicht ein. {{Version/de|0.21}}
 
 -   <img alt="" src=images/TechDraw_DetailView.svg  style="width:32px;"> [Detailansicht einfügen](TechDraw_DetailView/de.md): Fügt eine Detailansicht eines Teils einer vorhandenen Ansicht ein.
 
@@ -71,13 +69,13 @@ Diese Werkzeuge ändern die Stapel Reihenfolge welche die Tiefe der Sichtbarkeit
 
 -   <img alt="" src=images/TechDraw_StackTop.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Reihenfolge im Stapel einstellen:
 
-  - <img alt="" src=images/TechDraw_StackTop.svg  style="width:32px;"> [Bewege die Ansicht auf die Oberseite des Stapels](TechDraw_StackTop/de.md): bewegt die Ansicht auf die Oberseite des Stapels. {{Version/de|1.0}}
+  - <img alt="" src=images/TechDraw_StackTop.svg  style="width:32px;"> [Bewege die Ansicht auf die Oberseite des Stapels](TechDraw_StackTop/de.md): bewegt die Ansicht auf die Oberseite des Stapels. {{Version/de|0.21}}
 
-  - <img alt="" src=images/TechDraw_StackBottom.svg  style="width:32px;"> [Bewege die Ansicht auf die Unterseite des Stapels](TechDraw_StackBottom/de.md): bewegt die Ansicht auf die Unterseite des Stapels. {{Version/de|1.0}}
+  - <img alt="" src=images/TechDraw_StackBottom.svg  style="width:32px;"> [Bewege die Ansicht auf die Unterseite des Stapels](TechDraw_StackBottom/de.md): bewegt die Ansicht auf die Unterseite des Stapels. {{Version/de|0.21}}
 
-  - <img alt="" src=images/TechDraw_StackUp.svg  style="width:32px;"> [Hebe die Ansichten um eine Stufe](TechDraw_StackUp/de.md): hebt die Ansichten um eine Stufe. {{Version/de|1.0}}
+  - <img alt="" src=images/TechDraw_StackUp.svg  style="width:32px;"> [Hebe die Ansichten um eine Stufe](TechDraw_StackUp/de.md): hebt die Ansichten um eine Stufe. {{Version/de|0.21}}
 
-  - <img alt="" src=images/TechDraw_StackDown.svg  style="width:32px;"> [Senke die Ansichten um eine Stufe](TechDraw_StackDown/de.md): senkt die Ansichten um eine Stufe. {{Version/de|1.0}}
+  - <img alt="" src=images/TechDraw_StackDown.svg  style="width:32px;"> [Senke die Ansichten um eine Stufe](TechDraw_StackDown/de.md): senkt die Ansichten um eine Stufe. {{Version/de|0.21}}
 
 
 
@@ -131,23 +129,19 @@ Lineare Maße können auf zwei Punkten, auf einer Linie oder auf zwei Linien bas
 
 -   <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Maß für Ausdehnung hinzufügen:
 
-  - <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:32px;"> [Maß für die horizontale Ausdehnung einfügen](TechDraw_HorizontalExtentDimension/de.md): fügt ein Maß für die horizontale Ausdehnung hinzu. {{Version/de|0.19}}
+  - <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:32px;"> [Maß für die horizontale Ausdehnung einfügen](TechDraw_HorizontalExtentDimension/de.md): fügt ein Maß für die horizontale Ausdehnung hinzu.
 
-  - <img alt="" src=images/TechDraw_VerticalExtentDimension.svg  style="width:32px;"> [Maß für die vertikale Ausdehnung einfügen](TechDraw_VerticalExtentDimension/de.md): fügt ein Maß für die vertikale Ausdehnung hinzu. {{Version/de|0.19}}
+  - <img alt="" src=images/TechDraw_VerticalExtentDimension.svg  style="width:32px;"> [Maß für die vertikale Ausdehnung einfügen](TechDraw_VerticalExtentDimension/de.md): fügt ein Maß für die vertikale Ausdehnung hinzu.
 
 -   <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [Maß mit 3D-Geometrie verknüpfen](TechDraw_LinkDimension/de.md): Verknüpft ein vorhandenes Maß mit der 3D-Geometrie.
 
--   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Ballon-Anmerkung einfügen](TechDraw_Balloon/de.md): fügt einer Zeichnung eine \"Ballon\"-Anmerkung hinzu. {{Version/de|0.19}}
+-   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Hinweisfeld einfügen](TechDraw_Balloon/de.md): fügt einer Zeichnung ein Hinweisfeld (Balloon) hinzu.
 
+-   <img alt="" src=images/TechDraw_AxoLengthDimension.svg  style="width:32px;"> [Axonometrisches Längenmaß](TechDraw_AxoLengthDimension/de.md): fügt ein axonometrisches Längenmaß hinzu. {{Version/de|0.21}}
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Maß zwischen Orientierungspunkten einfügen - EXPERIMENTELL](TechDraw_LandmarkDimension/de.md): fügt ein Maß zwischen zwei Orientierungspunkten hinzu.
 
--   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Neue Leitbemaßung](TechDraw_LandmarkDimension/de.md): fügt eine Leitbemaßung hinzu. <small>(v0.19)</small> 
-
-
-</div>
-
--   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Dimension Repair](TechDraw_DimensionRepair.md): can adjust the 2D or 3D geometry references of a dimension. <small>(v1.0)</small> 
+-   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Maßreferenzen Reparieren](TechDraw_DimensionRepair/de.md): kann die 2D- oder 3D-Geometriereferenzen eines Maßes anpassen. {{Version/de|0.21}}
 
 
 
@@ -157,37 +151,39 @@ Die Anmerkungswerkzeuge dienen dazu, eine Zeichnung mit zusätzlichen Informatio
 
 -   <img alt="" src=images/TechDraw_Annotation.svg  style="width:32px;"> [Anmerkung einfügen](TechDraw_Annotation/de.md): fügt einen reinen Textblock als Anmerkung hinzu.
 
--   <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:32px;"> [Hinweislinie zur Ansicht hinzufügen](TechDraw_LeaderLine/de.md): fügt einer Ansicht eine Hinweislinie hinzu. {{Version/de|0.19}}
+-   <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:32px;"> [Hinweislinie zur Ansicht hinzufügen](TechDraw_LeaderLine/de.md): fügt einer Ansicht eine Hinweislinie hinzu.
 
--   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:32px;"> [Rich-Text-Anmerkung einfügen](TechDraw_RichTextAnnotation/de.md): fügt einen Formatierten Text Block als Hinweistext einer Hinweislinie oder einer Ansicht hinzu. {{Version/de|0.19}}
+-   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:32px;"> [Rich-Text-Anmerkung einfügen](TechDraw_RichTextAnnotation/de.md): fügt einen formatierten Textblock als Hinweistext einer Hinweislinie oder einer Ansicht hinzu.
 
 -   <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Cosmetische Hilfspunkte einfügen:
 
-  - <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:32px;"> [Hilfspunkt hinzufügen](TechDraw_CosmeticVertex/de.md): fügt einen Knoten hinzu, der nicht Teil der Quellgeometrie ist. {{Version/de|0.19}}
+  - <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:32px;"> [Hilfspunkt hinzufügen](TechDraw_CosmeticVertex/de.md): fügt einen Knoten hinzu, der nicht Teil der Quellgeometrie ist.
 
-  - <img alt="" src=images/TechDraw_Midpoints.svg  style="width:32px;"> [Kantenmittelpunkte hinzufügen](TechDraw_Midpoints/de.md): fügt Hilfspunkte an den Mittenpunkten der ausgewählten Kanten hinzu. {{Version/de|0.19}}
+  - <img alt="" src=images/TechDraw_Midpoints.svg  style="width:32px;"> [Kantenmittelpunkte hinzufügen](TechDraw_Midpoints/de.md): fügt Hilfspunkte an den Mittenpunkten der ausgewählten Kanten hinzu.
 
-  - <img alt="" src=images/TechDraw_Quadrants.svg  style="width:32px;"> [Quadrantengrenzpunkte hinzufügen](TechDraw_Quadrants/de.md): fügt Hilfspunkte an Viertelpunkten ausgewählter (kreisförmiger) Kanten hinzu. {{Version/de|0.19}}
+  - <img alt="" src=images/TechDraw_Quadrants.svg  style="width:32px;"> [Quadrantengrenzpunkte hinzufügen](TechDraw_Quadrants/de.md): fügt Hilfspunkte an Viertelpunkten ausgewählter (kreisförmiger) Kanten hinzu.
 
 -   <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Mittellinien einfügen:
 
-  - <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width:32px;"> [Mittellinie zu Fläche(n) hinzufügen](TechDraw_FaceCenterLine/de.md): fügt der/den ausgewählten Fläche(n) eine Mittellinie hinzu. {{Version/de|0.19}}
+  - <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width:32px;"> [Mittellinie zu Fläche(n) hinzufügen](TechDraw_FaceCenterLine/de.md): fügt der/den ausgewählten Fläche(n) eine Mittellinie hinzu.
 
-  - <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:32px;"> [Mittellinie zwischen 2 Linien hinzufügen](TechDraw_2LineCenterLine/de.md): fügt eine Mittellinie zwischen 2 Linien hinzu. {{Version/de|0.19}}
+  - <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:32px;"> [Mittellinie zwischen 2 Linien hinzufügen](TechDraw_2LineCenterLine/de.md): fügt eine Mittellinie zwischen 2 Linien hinzu.
 
-  - <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:32px;"> [Mittellinie zwischen 2 Punkten hinzufügen](TechDraw_2PointCenterLine/de.md): fügt eine Mittellinie zwischen 2 Punkten hinzu. {{Version/de|0.19}}
+  - <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:32px;"> [Mittellinie zwischen 2 Punkten hinzufügen](TechDraw_2PointCenterLine/de.md): fügt eine Mittellinie zwischen 2 Punkten hinzu.
 
--   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:32px;"> [Hilfslinie durch 2 Punkte hinzufügen](TechDraw_2PointCosmeticLine/de.md): fügt eine Hilfslinie hinzu, die 2 Knoten verbindet. {{Version/de|0.19}}
+-   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:32px;"> [Hilfslinie durch 2 Punkte hinzufügen](TechDraw_2PointCosmeticLine/de.md): fügt eine Hilfslinie hinzu, die 2 Knoten verbindet
 
--   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Hilfsobjekt entfernen](TechDraw_CosmeticEraser/de.md): Entfernt Hilfsobjekte von einer Seite. {{Version/de|0.19}}
+-   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Hilfsobjekt entfernen](TechDraw_CosmeticEraser/de.md): Entfernt Hilfsobjekte von einem Zeichnungsblatt.
 
--   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:32px;"> [Liniendarstellung ändern](TechDraw_DecorateLine/de.md): ändert das Aussehen der ausgewählten Linie(n). {{Version/de|0.19}}
+-   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:32px;"> [Liniendarstellung ändern](TechDraw_DecorateLine/de.md): ändert das Aussehen der ausgewählten Linie(n).
 
--   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:32px;"> [Verdeckte Kanten ein-/ausblenden](TechDraw_ShowAll/de.md): zeigt/verbirgt unsichtbare Linien/Kanten in einer Ansicht. {{Version/de|0.19}}
+-   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:32px;"> [Verdeckte Kanten ein-/ausblenden](TechDraw_ShowAll/de.md): zeigt/verbirgt unsichtbare Linien/Kanten in einer Ansicht.
 
--   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Hinzufügen von Schweißinformationen zur Hinweislinie](TechDraw_WeldSymbol/de.md): fügt Schweißspezifikationen zu einer vorhandenen Hinweislinie hinzu. {{Version/de|0.19}}
+-   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Hinzufügen von Schweißinformationen zur Hinweislinie](TechDraw_WeldSymbol/de.md): fügt Schweißspezifikationen zu einer vorhandenen Hinweislinie hinzu.
 
--   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:32px;"> [Füge Oberflächen Fertigungssymbol ein](TechDraw_SurfaceFinishSymbol/de.md): fügt ein Oberflächen Fertigungssymbol ein. {{Version/de|1.0}}
+-   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:32px;"> [Füge Oberflächen Fertigungssymbol ein](TechDraw_SurfaceFinishSymbol/de.md): fügt ein Oberflächen Fertigungssymbol ein. {{Version/de|0.21}}
+
+-   <img alt="" src=images/TechDraw_HoleShaftFit.svg  style="width:32px;"> [Füge Bohrung/Welle Toleranz ein](TechDraw_HoleShaftFit/de.md): fügt Bohrungs- oder Wellentoleranzen nach ISO 286 an eine Bemaßung. {{Version/de|0.21}}
 
 
 
@@ -350,11 +346,8 @@ Die TechDraw-Werkzeuge können in [Makros](Macros/de.md) oder von der [Python](P
 
 ## Einschränkungen
 
--   TechDraw Zeichnungen und ihre API sind nicht mit dem [Drawing Arbeitsbereich](Drawing_Workbench/de.md) austauschbar. Es ist möglich, Zeichnungsseiten mit einem Pythonskript (`moveViews.py`) in TechDraw Seiten umzuwandeln.
--   Es ist möglich, sowohl TechDraw Seiten als auch Drawing Seiten im selben FreeCAD Dokument zu verwenden, weil die Seiten vollständig unabhängig voneinander sind.
--   Es gibt geringfügige Unterschiede bei der Angabe editierbarer Texte in [SVG](SVG/de.md)-Vorlagen im Vergleich zum Zeichnungsmodul. In TechDraw beeinflusst die Skalierung des SVG-Dokuments die Position der editierbaren Textfelder. Weitere Einzelheiten findet man in der Forumsdiskussion [TechDraw templates scale](https://forum.freecadweb.org/viewtopic.php?f=3&t=24981&p=196271#p196271).
--   TechDraw Objekte dürfen in der [Baumansicht](Tree_view/de.md) nicht ausgeschnitten, kopiert und eingefügt werden, da dies im Allgemeinen nicht gut funktioniert.
--   TechDraw Objekte dürfen in der [Baumansicht](Tree_view/de.md) nicht mit der Maus bewegt werden.
+-   TechDraw-Objekte sollten nicht in der [Baumansicht](Tree_view/de.md) kopiert und eingefügt werden, da dies im Allgemeinen nicht gut funktioniert.
+-   TechDraw-Objekte sollten nicht mit der Maus in die (der?) [Baumansicht](Tree_view/de.md) gezogen werden.
 
 
 
@@ -374,6 +367,12 @@ Video Tutorien von sliptonic
 
 -   TechDraw Arbeitsbereich [Part 1 (Grundlagen)](https://www.youtube.com/watch?v=7LbOmSGW9F0),[Part 2 (Abmessungen)](https://www.youtube.com/watch?v=z3w84RfvqaE),[Part 3 (Multiview)](https://www.youtube.com/watch?v=uNjXg-m38aI).
 -   TechDraw Arbeitsbereich [Part 4 (Abschnitt und Detail)](https://www.youtube.com/watch?v=3zSdeFV6I5o), [Part 5 (Vorlagen anpassen)](https://www.youtube.com/watch?v=kcmdJ7xa7gg).
+
+
+
+## Entwicklung
+
+Wie sieht die Zukunft von TechDraw aus? Siehe [TechDraw Roadmap](TechDraw_Roadmap.md), um mehr zu erfahren.
 
 
 

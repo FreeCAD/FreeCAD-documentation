@@ -9,11 +9,15 @@
 
 # Std FreeCADWebsite/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std FreeCADWebseite** öffnet die Hauptwebseite des FreeCAD-Projekts im Standard-Browser des Betriebssystems. Der Befehl erfordert eine funktionierende Internet-Verbindung.
 
 Aktuell verweist der Befehl auf die Seite [<https://www.freecad.org>](https://www.freecad.org/).
+
+
 
 ## Anwendung
 

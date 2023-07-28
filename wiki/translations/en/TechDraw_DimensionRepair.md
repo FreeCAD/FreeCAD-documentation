@@ -3,7 +3,7 @@
    Name:TechDraw DimensionRepair
    MenuLocation:TechDraw → Dimensions → Repair Dimension References
    Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:1.0
+   Version:0.21
    SeeAlso:[TechDraw LengthDimension](TechDraw_LengthDimension.md)
 ---
 
@@ -11,13 +11,13 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:24px;"> **TechDraw DimensionRepair** tool can adjust the 2D or 3D geometry references of a dimension. These references may become incorrect due to the \"[topological naming problem](Topological_naming_problem.md)\" or Hidden Line Removal.
+The **TechDraw DimensionRepair** tool can adjust the 2D or 3D geometry references of a dimension. These references may become incorrect due to the \"[topological naming problem](Topological_naming_problem.md)\" or Hidden Line Removal.
 
 See [TechDraw LengthDimension](TechDraw_LengthDimension#Limitation.md) for more on dimensions and the topological naming problem.
 
 ## Usage
 
-1.  Select the dimension to be corrected and, optionally, the new geometry references, vertices or edges, in the TechDraw View or in the [3D view](3D_view.md).
+1.  Select the dimension to be corrected and, optionally, the new geometry references, points or edges, in the TechDraw View or in the [3D view](3D_view.md).
 2.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_DimensionRepair.svg" width=16px> [Repair Dimension References](TechDraw_DimensionRepair.md)** button.
     -   Select the **TechDraw → Dimensions → <img src="images/TechDraw_DimensionRepair.svg" width=16px>Repair Dimension References** option from the menu.
@@ -25,6 +25,7 @@ See [TechDraw LengthDimension](TechDraw_LengthDimension#Limitation.md) for more 
 4.  Select new geometry references if you have not done so already.
 5.  Press the **Replace References with Current Selection** button.
 6.  Press the **OK** button to update the dimension.
+7.  If 3D references have been selected: optionally change the **Measure Type** property of the dimension to {{Value|True}}.
 
 ## Scripting
 

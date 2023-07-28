@@ -14,6 +14,8 @@
 
 <img alt="" src=images/GordonSurf-1.png  style="width:800px;">
 
+
+
 ## Utilisation
 
 1.  Une surface Gordon nécessite un réseau de lignes ou de courbes qui créent un réseau de support pour la surface.
@@ -35,6 +37,8 @@
 12. Pour appeler la commande, effectuez l\'une des opérations suivantes:
     -   Appuyez sur le bouton <img alt="" src=images/Curves_GordonSurface.svg  style="width:24px;">
     -   Utilisez **Surfaces → Gordon surface**
+
+
 
 ## Propriétés
 
@@ -63,6 +67,8 @@
 
 <img alt="" src=images/GordonSurf-wireframe.png  style="width:600px;">
 
+
+
 ## Remarques
 
 -   Les courbes de chaque groupe (nervures et rails) doivent toucher toutes les courbes de l\'autre groupe.
@@ -79,11 +85,13 @@ Sur la droite, les nervures sont dessinées de -Y à +Y, ce qui donne la surface
 
 -   [Part Extrusion](Part_Extrude/fr.md) peut être utilisé pour créer un solide à partir de la surface.
 
--   [PartDesign Protrusion](PartDesign_Pad/fr.md) peut également créer un produit vendu à partir de la surface. Faire glisser la surface dans un corps crée un [Fonction de base](PartDesign_Body/fr#Fonction_de_base.md) qui peut ensuite être protusée.
+-   [PartDesign Protrusion](PartDesign_Pad/fr.md) peut également créer un solide à partir de la surface. Faire glisser la surface dans un corps crée une [Fonction de base](PartDesign_Body/fr#Fonction_de_base.md) qui peut ensuite être protusée.
 
 ## Limitations
 
 A faire
+
+
 
 ## Script
 

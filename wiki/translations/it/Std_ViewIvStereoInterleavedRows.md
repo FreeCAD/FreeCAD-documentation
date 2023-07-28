@@ -9,17 +9,25 @@
 
 # Std ViewIvStereoInterleavedRows/it
 
+
+
 ## Descrizione
 
-The **Std ViewIvStereoInterleavedRows** command changes the active [3D view](3D_view.md) to interleaved rows stereo view mode. To use this stereo mode a special graphics card, a special display and [glasses with polarized lenses](https://en.wikipedia.org/wiki/Polarized_3D_system) are requires.
+Il comando **Stereo a righe interlacciate** cambia la [Vista 3D](3D_view/it.md) attiva in modalità di visualizzazione stereo a righe interlacciate. Per utilizzare questa modalità stereo sono necessari una scheda grafica speciale, un display speciale e [occhiali con lenti polarizzate](https://en.wikipedia.org/wiki/Polarized_3D_system).
+
+
 
 ## Utilizzo
 
-1.  Select the **View → Stereo → <img src="images/Std_ViewIvStereoInterleavedRows.svg" width=16px> Stereo interleaved Rows** option from the menu.
+1.  Selezionare l\'opzione **Visualizza → Stereo → <img src="images/Std_ViewIvStereoInterleavedRows.svg" width=16px> Stereo a  righe interlacciate** dal menu.
+
+
 
 ## Preferenze
 
--   The eye to eye distance can be changed in the preferences: **Edit → Preferences... → Display → 3D View → Eye to eye distance for stereo modes**. See [Preferences Editor](Preferences_Editor#3D_View.md).
+-   La distanza occhio-occhio può essere modificata nelle preferenze: **Modifica → Preferenze... → Visualizzazione → Vista 3D → Distanza tra gli occhi per le modalità stereo**. Vedere [Editor delle preferenze](Preferences_Editor/it#Vista_3D.md).
+
+
 
 ## Script
 
@@ -28,7 +36,7 @@ The **Std ViewIvStereoInterleavedRows** command changes the active [3D view](3D_
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
-To change the view to interleaved rows stereo use the `setStereoType` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Per modificare la visualizzazione in stereo a righe interlacciate utilizzare il metodo `setStereoType` dell\'oggetto ActiveView. Questo metodo non è disponibile se FreeCAD è in modalità console.
 
 
 ```python
@@ -39,13 +47,7 @@ FreeCADGui.ActiveDocument.ActiveView.getStereoType()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

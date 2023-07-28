@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -37,6 +39,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 
 </div>
+
+
 
 ## Cum se folosește 
 
@@ -64,6 +68,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 
 *Taskview panel for the Arch Rebar UShape tool*
+
+
 
 ## Proprietăți
 
@@ -124,6 +130,8 @@ Rebar = makeUShapeRebar(f_cover, b_cover, r_cover, l_cover,
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

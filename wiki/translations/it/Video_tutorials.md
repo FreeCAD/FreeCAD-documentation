@@ -20,6 +20,8 @@ Se desiderate contribuire alla stesura di documentazione e tutorial wiki, consul
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Part Design 
@@ -45,6 +47,8 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 
 -   [Go further with Asm 3 WB](http://help-freecad-jpg87.fr/025c_ass_ex_creat.php) by jpg87 is website with step by step instructions and videos to demonstrate usage of the [Assembly3 Workbench](Assembly3_Workbench.md).
 -   [FreeCAD Tutorial - Assembly 4 Workbench](https://www.youtube.com/watch?v=n04M6nFvdxs) by Martham Engineering. It showcases the [Assembly4 Workbench](Assembly4_Workbench.md).
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -76,6 +80,8 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Rendering
@@ -94,6 +100,8 @@ Una serie di video \"Render Solidworks and FreeCAD Models in Blender\", da Joko 
 
 </div>
 
+
+
 ## Progettazione architettonica 
 
 Videos that go through modeling of rooms, houses, office buildings, and similar structures, and drawing floor plans, using workbenches such as <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench.md), and <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench.md).
@@ -107,6 +115,8 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 -   [How To Use FreeCAD FEM](https://www.youtube.com/watch?v=dhrynRdBOIg) \[12:15\] FreeCAD v0.19, Intro to using the FEM workbench. Very well done, by Joko Engineering
 
 -   [FreeCAD FEM VS SolidWorks FEA Simulation - How Do They Compare?](https://www.youtube.com/watch?v=qWtMJagDoRk) \[12:22\] - A side-by-side comparison of FreeCAD 0.19.x FEM and Solidworks 2017 FEA, by Joko Engineering
+
+
 
 ## Altro
 
@@ -131,46 +141,6 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 -   [Evgeniy Ivanov](https://www.youtube.com/c/CFDIntech/videos) by Evgeniy Ivanov in English: a nice series of videos concerning FreeCAD 0.19, from basic to intermediate level.
 
 
-<div class="mw-translate-fuzzy">
-
-## Video obsoleti 
-
-
-</div>
-
-
-**In FreeCAD 0.17 the [PartDesign Workbench](PartDesign_Workbench.md) received important updates that change the way solids are created with respect to previous versions. New users should watch videos for versions 0.17 and above to understand the concept of working with a [PartDesign Body](PartDesign_Body.md) and datum objects.**
-
-
-**These videos are considered obsolete because they use v0.16 or earlier versions of the program.**
-
-
-<div class="mw-translate-fuzzy">
-
-Questi video sono stati realizzati molti anni fa e potrebbero non essere più pertinenti.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   [BPLRFE\'s introduction to FreeCAD in German](http://youtu.be/m49z0weonog): this is the first in a series of German tutorials by Roland Frank. They pre-date the Learn FreeCAD channel videos.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   [Learn FreeCAD - FreeCAD Lessons for Beginners](https://www.youtube.com/watch?v=_HEvhclR4-o&list=PL6fZ68Cq3L8k0JhxnIVjZQN26cn9idJrj) del nostro caro amico defunto Roland Frank.
-
-
-</div>
-
-For more see [Video tutorials obsolete](Video_tutorials_obsolete.md).
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Common Questions](Category_Common Questions.md) > Video tutorials/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Video tutorials/it

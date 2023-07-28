@@ -4,7 +4,7 @@
    Name:FEM Contraintes électromagnétiques
    MenuLocation:
    Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:1.0
+   Version:0.21
    SeeAlso:
 ---
 
@@ -21,8 +21,8 @@
 Vous pouvez choisir ces contraintes :
 
 -   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [Contrainte de potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md) : utilisé pour définir le potentiel électrostatique.
--   <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:24px;"> [Contrainte de densité de courant](FEM_ConstraintCurrentDensity/fr.md) : utilisé pour définir une densité de courant. {{Version/fr|1.0}}
--   <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:24px;"> [Contrainte de magnétisation](FEM_ConstraintMagnetization/fr.md) : utilisé pour définir une magnétisation. {{Version/fr|1.0}}
+-   <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:24px;"> [Contrainte de densité de courant](FEM_ConstraintCurrentDensity/fr.md) : utilisé pour définir une densité de courant. {{Version/fr|0.21}}
+-   <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:24px;"> [Contrainte de magnétisation](FEM_ConstraintMagnetization/fr.md) : utilisé pour définir une magnétisation. {{Version/fr|0.21}}
 
 
 

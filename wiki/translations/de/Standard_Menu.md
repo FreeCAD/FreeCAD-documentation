@@ -5,13 +5,7 @@
 
 ## Einführung
 
-
-<div class="mw-translate-fuzzy">
-
-Das Standardmenü bietet Zugriff auf Werkzeuge, die in allen Arbeitsbereichen verwendet werden können. Das Menü kann je nach Desktop-Umgebung (KDE, Gnome, Windows, OS X usw.) etwas anders aussehen. Arbeitsbereiche können auch Untermenüs hinzufügen, je nachdem, wie sie sich entscheiden, ihre Werkzeuge zu strukturieren.
-
-
-</div>
+Das Standardmenü bietet Zugriff auf Werkzeuge, die in allen Arbeitsbereichen verwendet werden können. Das Menü kann je nach Desktop-Umgebung (KDE, Gnome, Windows, macOS usw.) etwas anders aussehen. Arbeitsbereiche können auch Untermenüs hinzufügen, je nachdem, wie sie sich entscheiden, ihre Werkzeuge zu strukturieren.
 
 
 {{StdMenu

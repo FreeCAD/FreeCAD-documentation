@@ -12,6 +12,8 @@
 
 Vide
 
+
+
 ## Utilisation
 
 Vide
@@ -20,7 +22,11 @@ Vide
 
 Vide
 
+
+
 ## Propriétés
+
+
 
 ### Données
 
@@ -134,7 +140,9 @@ Vide
 
 -    **ClipperScale**: -
 
-#### Hidden
+
+
+#### Caché
 
 -    **ExpressionEngine**: -
 
@@ -146,9 +154,13 @@ Vide
 
 -    **WorkPlane**: -
 
+
+
 ### Vue
 
 Vide
+
+
 
 ## Script
 
@@ -157,7 +169,7 @@ Vide
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-Exemple:
+Exemple :
 
 
 ```python

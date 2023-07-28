@@ -20,9 +20,9 @@ Les caractéristiques des objets en tôle sont :
 L\'outil de dépliage, dans ses deux versions, n\'est pas limité aux pièces fabriquées à l\'aide des outils de cet atelier mais peut également traiter les objets des ateliers [Part](Part_Workbench/fr.md) et [PartDesign](PartDesign_Workbench/fr.md), pour autant qu\'ils répondent aux caractéristiques ci-dessus.
 
 <img alt="" src=images/SheetMetal_Example.png  style="width:600px;"> 
-*Le modèle en tôle est construit avec l'extension Sheet Metal (arrière plan); devant, le solide déplié; au premier plan, l'esquisse déplier avec des lignes de pliage pour l'exportation au format DXF.*
+*Le modèle en tôle est construit avec l'extension Sheet Metal (arrière plan); devant, le solide déplié; au premier plan, l'esquisse dépliée avec des lignes de pliage pour l'exportation au format DXF.*
 
-Si l\'exportation au format DXF est utilisée pour contrôler des machines (Lasercut par exemple), vous devez modifier le DXF pour supprimer les lignes indiquant les plis, ces lignes pouvant être utilisées pour la découpe par la machine.
+Si l\'export au format DXF est utilisée pour contrôler des machines (Lasercut par exemple), vous devez modifier le DXF pour supprimer les lignes indiquant les plis, ces lignes risquant d\'être utilisées pour la découpe par la machine.
 
 ## Installation
 

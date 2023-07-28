@@ -10,10 +10,12 @@
 
 ## Description
 
-L\'option <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> **Draft Aimantation Le plus proche** permet de s\'aimanter au point le plus proche sur les faces et les arêtes. Les faces et les arêtes peuvent appartenir à des objets [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) mais aussi à des objets créés avec d\'autres [ateliers](Workbenches/fr.md).
+L\'option <img alt="" src=images/Draft_Snap_Near.svg  style="width:24px;"> **Draft Aimantation Le plus proche** permet de s\'aimanter au point le plus proche sur les faces et les arêtes. Les faces et les arêtes peuvent appartenir à des objets [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) mais aussi à des objets créés avec d\'autres [ateliers](Workbenches/fr.md).
 
 ![](images/Draft_Snap_Near_example.png ) 
 *Aimantation du deuxième point d'une ligne au point le plus proche d'une arête*
+
+
 
 ## Utilisation
 
@@ -31,10 +33,14 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
 8.  Vous pouvez également déplacer le curseur le long de la face ou de l\'arête pour sélectionner un autre point le plus proche.
 9.  Cliquez pour confirmer le point.
 
+
+
 ## Remarques
 
 -   Ce n\'est pas une bonne idée d\'avoir [Draft Aimantation Le plus proche](Draft_Snap_Near/fr.md) actif en permanence car il est prioritaire sur de nombreuses autres options d\'aimantation.
 -   Dans la {{VersionMinus/fr|0.20}}, lors d\'aimantation à des courbes, [Draft Aimantation Le plus proche](Draft_Snap_Near/fr.md) s\'aimante à leur représentation segmentée dans la [Vue 3D](3D_view/fr.md), ce qui entraîne une imprécision. Pour obtenir un point exact sur la courbe, tracez une [Draft Ligne](Draft_Line/fr.md) à travers la courbe, puis coupez la ligne avec [Draft Ajuster ou prolonger](Draft_Trimex/fr.md) en utilisant la courbe comme outil de coupe.
+
+
 
 ## Préférences
 

@@ -13,6 +13,8 @@ Zobacz stronę [Część: Kształt topologiczny](Part_TopoShape/pl.md) aby uzysk
 
 *Po lewej: [Kształt](Shape/pl.md) parametryczny zdefiniowany przez właściwości. <br>Po prawej: [Siatka](Mesh/pl.md), zdefiniowana przez wierzchołki i powierzchnie trójkątne.*
 
+
+
 ## Użycie
 
 Kształty są zwykle tworzone przez wewnętrzne funkcje środowiska pracy [Część](Part_Workbench/pl.md), i są ostatecznie definiowane przez kernel *(OCCT)* w technologii [OpenCASCADE](OpenCASCADE/pl.md).
@@ -20,6 +22,10 @@ Kształty są zwykle tworzone przez wewnętrzne funkcje środowiska pracy [Czę�
 Raz utworzony Kształt może być używany i modyfikowany przez wszystkie [środowiska pracy](Workbenches/pl.md) poprzez [obiekty tworzone skryptami](Scripted_objects/pl.md) wokół tego Kształtu.
 
 Zasadniczo, każdy obiekt wywodzący się z [Część: Cecha](Part_Feature/pl.md) *(klasa `Part::Feature`)* ma za zadanie trzymać i manipulować Kształtem.
+
+Każdy Kształt OpenCascade posiada możliwość teselacji głównie po to, by zobaczyć Kształt na ekranie. Więcej informacji na ten temat można znaleźć w tym niemieckim [temacie na forum](https://forum.freecad.org/viewtopic.php?t=77521&start=10#p674947) oraz w [dokumentacji OpenCascad Mesh](https://dev.opencascade.org/doc/overview/html/occt_user_guides__mesh.html).
+
+
 
 ## Uwagi
 

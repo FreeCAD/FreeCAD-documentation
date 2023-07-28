@@ -1,140 +1,162 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw SectionView
-   MenuLocation:TechDraw → Insert Section View
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw ComplexSection](TechDraw_ComplexSection.md), [TechDraw View](TechDraw_View.md), [TechDraw Projection Group](TechDraw_ProjectionGroup.md)
+   Name/pl:Rysunek Techniczny: Wstaw widok przekroju
+   MenuLocation:Rysunek Techniczny → Widoki → Wstaw widok przekroju
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso:[Przekrój złożony](TechDraw_ComplexSection/pl.md), [Wstaw widok](TechDraw_View/pl.md), [Wstaw grupę rzutów](TechDraw_ProjectionGroup/pl.md)
 ---
 
 # TechDraw SectionView/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_SectionView.svg  style="width:24px;"> **TechDraw SectionView** tool inserts a cross-section view based on an existing part view.
+
+## Opis
+
+Narzędzie **Wstaw widok przekroju** wstawia widok przekroju na podstawie istniejącego widoku części.
 
 <img alt="" src=images/TechDraw_section_ANSI.png  style="width:350px;">
 <img alt="" src=images/TechDraw_section_ISO.png  style="width:350px;"> 
-*Sectioning an already placed view, which shows the internal holes and a hatched cut surface.<br>
-The top image shows the ANSI arrow format.<br>
-The bottom image shows the ISO arrow format.
+*Przekrój już umieszczonego widoku, który pokazuje wewnętrzne otwory i zakreskowaną powierzchnię cięcia.<br>
+Górny obraz pokazuje format strzałki ANSI.<br>
+Dolny obraz pokazuje format strzałki ISO.
 *
 
-## Usage
 
-1.  Select a part view in the [3D view](3D_view.md) or [Tree view](Tree_view.md).
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_SectionView.svg" width=16px> [Insert Section View](TechDraw_SectionView.md)** button.
-    -   Select the **TechDraw → <img src="images/TechDraw_SectionView.svg" width=16px> Insert Section View** option from the menu.
-3.  A task panel will open which will help calculate the various properties. Reasonable values for the view Direction are calculated, but these can be changed.
+
+## Użycie
+
+1.  Wybierz widok części w oknie [widoku 3D](3D_view/pl.md) lub [widoku drzewa](Tree_view/pl.md).
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_SectionView.svg" width=16px> '''Wstaw widok przekroju'''**.
+    -   Wybierz z menu opcję **Rysunek Techniczny → Widoki → <img src="images/TechDraw_SectionView.svg" width=16px> Wstaw widok przekroju**.
+3.  Otworzy się panel zadań, który pomoże obliczyć różne właściwości. Rozsądne wartości dla widoku Kierunek są obliczane, ale można je zmienić.
 
 ![](images/TechDraw_Section_Taskview.png ) 
-*Taskview to define the sectional cut of a view*
-
-## Properties Section View 
-
-See also [TechDraw View](TechDraw_View#Properties.md).
-
-### Data
+*Widok panelu zadania do definiowania widoku przekroju*
 
 
-{{TitleProperty|Cut Operation}}
 
--    **Fuse Before Cut|Bool**: Fuse the source shapes before performing the section cut.
+## Właściwości widoku przekroju 
 
--    **Trim After Cut|Bool**: Additionally trim the resulting shape after the section cut to remove any unwanted pieces.
+Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw_View/pl#Widok.md) środowiska Rysunek Techniczny.
 
 
-{{TitleProperty|Cut Surface Format}}
 
--    **Cut Surface Display|Enumeration**: Appearance of the cut surface. Options:
+### Dane
+
+
+{{TitleProperty|Operacja cięcia}}
+
+-    **Połącz przed przecięciem|Bool**: Łączenie kształtów źródłowych przed wykonaniem cięcia przekroju.
+
+-    **Przytnij po przecięciu|Bool**: Dodatkowo przycina wynikowy kształt po wycięciu przekroju w celu usunięcia niechcianych fragmentów.
+
+
+{{TitleProperty|Format powierzchni cięcia}}
+
+-    **Widok powierzchni cięcia|Enumeration**: Wygląd powierzchni cięcia. Opcje:
 
     -   
-        {{Value|Hide}}
+        {{Value|Ukryj}}
         
-        : Hides the cut surface, only the outline will be displayed.
+        : Ukrywa powierzchnię cięcia, wyświetlany jest tylko kontur.
 
     -   
-        {{Value|Color}}
+        {{Value|Kolor}}
         
-        : Colors the cut surface using the setting of **Cut Surface Color** in the [TechDraw preferences](TechDraw_Preferences.md).
+        : Koloruje powierzchnię cięcia przy użyciu ustawienia **Kolor powierzchni cięcia** w [ustawieniach](TechDraw_Preferences/pl.md).
 
     -   
         {{Value|SvgHatch}}
         
-        : Hatches the section cut using a [hatch](TechDraw_Hatch.md)
+        : Wycina przekrój za pomocą [kreskowania](TechDraw_Hatch/pl.md).
 
     -   
         {{Value|PatHatch}}
         
-        : Hatches the section cut using a [geometric hatch](TechDraw_GeometricHatch.md)
+        : Kreskowanie przekroju przy użyciu [kreskowanie geometryczne](TechDraw_GeometricHatch/pl.md).
 
--    **File Hatch Pattern|File**: Full path to SVG hatch pattern file.
+    -   
+        {{Value|PatHatch}}
+        
+        : Kreskuje wyciętą sekcję za pomocą [kreskowania geometrycznego](TechDraw_GeometricHatch/pl.md).
 
--    **File Geom Pattern|File**: Full path to PAT pattern file.
+-    **Plik wzoru kreskowania|File**: Pełna ścieżka do pliku wzoru kreskowania SVG.
 
--    **Svg Included|FileIncluded**: Full path to the included SVG hatch pattern file.
+-    **Plik kreskowania geometrycznego|File**: Pełna ścieżka do pliku wzoru PAT.
 
--    **Pat Included|FileIncluded**: Full path to the included PAT pattern file.
+-    **Dołączony plik Svg|FileIncluded**: Pełna ścieżka do dołączonego pliku wzorca kreskowania SVG.
 
--    **Name Geom Pattern|String**: Name of the PAT pattern to use.
+-    **Dołączony plik Pat|FileIncluded**: Pełna ścieżka do dołączonego pliku wzoru PAT.
 
--    **Hatch Scale|Float**: Hatch pattern size adjustment.
+-    **Nazwa wzoru kreskowania geometrycznego|String**: Nazwa używanego wzorca PAT.
 
-
-{{TitleProperty|Section}}
-
--    **Section Symbol|String**: The identifier for this section.
-
--    **Base View|Link**: The view on which this section is based.
-
--    **Section Normal|Vector**: A vector describing the direction normal to the cutting plane.
-
--    **Section Origin|Vector**: A vector describing a point on the cutting plane. Typically the centroid of the original part.
-
--    **Section Direction|Enumeration**: The direction in the Base View for this section. Options: {{Value|Aligned}}, {{Value|Right}}, {{Value|Left}}, {{Value|Up}} or {{Value|Down}}.
-
-### View
+-    **Skala kreskowania|Float**: Dostosowanie rozmiaru wzorca kreskowania.
 
 
-{{TitleProperty|Cut Surface}}
+{{TitleProperty|Przekrój}}
 
--    **Cut Surface Color|Color**: Solid color for surface highlight. Used if **Cut Surface Display** is set to {{Value|Color}}.
+-    **Symbol Przekroju|String**: Identyfikator dla tego przekroju.
 
--    **Show Cut Surface|Bool|Hidden**: Show/hide the cut surface.
+-    **Widok Bazowy View|Link**: Widok, na którym opiera się przekrój.
+
+-    **Normalna przekroju|Vector**: Wektor opisujący kierunek normalny do płaszczyzny cięcia.
+
+-    **Punkt odniesienia przekroju|Vector**: Wektor opisujący punkt na płaszczyźnie przecięcia. Zazwyczaj jest to środek ciężkości oryginalnej części.
+
+-    **Kierunek przekroju|Enumeration**: Kierunek w widoku podstawowym dla tego przekroju. Opcje: {{Value|Wyrównaj}}, {{Value|Z prawej}}, {{Value|Z lewej}}, {{Value|Z góry}} lub {{Value|Z dołu}}.
 
 
-{{TitleProperty|Surface Hatch}}
 
--    **Geom Hatch Color|Color**: The color of the Geometric hath pattern.
+### Widok
 
--    **Hatch Color|Color**: The color of the Svg hatch pattern.
 
--    **Hatch Cut Surface|Bool|Hidden**: Hatch the cut surface.
+{{TitleProperty|Płaszczyzna cięcia}}
 
--    **Weight Pattern|Float**: Line weight of the Geometric hatch pattern.
+-    **Kolor płaszczyzny przekroju|Color**: Stały kolor podświetlenia powierzchni. Używany, jeśli **Wyświetl płaszczyznę przekroju** jest ustawione na {{Value|Kolor}}.
 
-## Properties Base View 
+-    **Wyświetl płaszczyznę przekroju|Bool|Hidden**: Pokaż / ukryj powierzchnię cięcia.
 
-A Section view inherits all applicable properties of the view specified as **Base View**. In the properties of this view you can change the appearance of the section line:
 
--    **Section Line Color**: The section line color.
+{{TitleProperty|Kreskowanie powierzchni}}
 
--    **Section Line Style**: The section line style.
+-    **Kolor kreskowania geometrycznego|Color**: Kolor wzoru kreskowania geometrycznego.
 
-The default settings for these parameters are set via the settings **Section Line** and **Section Line Style** in the [TechDraw preferences](TechDraw_Preferences.md).
+-    **Kolor kreskowania|Color**: Kolor wzoru kreskowania Svg.
 
-## Notes
+-    **Kreskowanie powierzchni przekroju|Bool|Hidden**: Kreskowanie powierzchni cięcia.
 
--   **Section Line Format**: two section line formats are supported (as depicted above) and controlled by the Preference setting \"Section Line Standard\" on the Annotation tab. The {{Value|ANSI}} option uses \"pulling arrows\" (known as the \"traditional format\" in some areas) and the {{Value|ISO}} option uses \"pushing arrows\" (also known as the \"reference arrow format\").
--   **Fuse Before Cut**: the section operation sometimes fails to cut the source shapes. If **Fuse Before Cut** is true, the source shapes are merged into a single shape before the section operation is attempted. If you encounter problems with the section operation, try flipping this value.
--   **Trim After Cut**: the section cut operation sometimes leaves behind a portion of the source shape. If **Trim After Cut** is true, an additional cut operation is performed on the result of the first cut which should remove any unwanted pieces.
--   **Cut Surface Display**: the cut surface can be hidden, painted in a solid color, hatched using an Svg pattern (default) or hatched using a PAT pattern. See [Hatching](TechDraw_Hatching.md).
+-    **Waga kreskowania|Float**: Waga linii geometrycznego wzoru kreskowania.
 
-## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The SectionView tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+## Właściwości widoku bazowego 
+
+Obiekt **Widok przekroju** dziedziczy wszystkie odpowiednie właściwości widoku określonego jako **Widok bazowy**. We właściwościach tego widoku można zmienić wygląd linii przekroju:
+
+-    **Kolor linii przekroju**: Kolor linii w przekroju.
+
+-    **Styl linii przekroju**: Styl linii w przekroju.
+
+Domyślne ustawienia tych parametrów są konfigurowane za pomocą ustawień **Linia przekroju** i **Styl linii przekroju** w [ustawieniach](TechDraw_Preferences/pl.md).
+
+
+
+## Uwagi
+
+-   **Format linii przekroju**: obsługiwane są dwa formaty linii przekroju (jak pokazano powyżej) i kontrolowane przez ustawienie preferencji \"Standard linii przekroju\" na karcie Adnotacja. Opcja {{Value|ANSI}} używa \"ciągnących strzałek\" *(znanych jako \"tradycyjny format\" w niektórych obszarach)*, a opcja {{Value|ISO}} używa \"pchających strzałek\" *(znanych również jako \"format strzałki odniesienia\")*.
+-   \"Połącz przed wycięciem\": operacja przekroju czasami nie wycina kształtów źródłowych. Jeśli parametr \"Połącz przed wycięciem\" ma wartość true, kształty źródłowe są łączone w jeden kształt przed próbą wykonania operacji przekroju. Jeśli wystąpią problemy z operacją przekroju, należy spróbować zmienić tę wartość.
+-   **Przytnij po wycięciu**: operacja przekroju czasami pozostawia część kształtu źródłowego. Jeśli parametr *Przytnij po cięciu* ma wartość true, na wyniku pierwszego cięcia wykonywana jest dodatkowa operacja cięcia, która powinna usunąć wszelkie niechciane elementy.
+-   **Wyświetlanie powierzchni cięcia**: powierzchnia cięcia może być ukryta, pomalowana na jednolity kolor, zakreskowana przy użyciu wzoru Svg *(domyślnie)* lub zakreskowana przy użyciu wzoru PAT. Zobacz temat [kreskowanie](TechDraw_Hatching/pl.md).
+
+
+
+## Tworzenie skryptów 
+
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie Wstaw widok przekroju może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
 
 
 ```python
@@ -145,17 +167,25 @@ page = doc.Page
 view = doc.addObject("TechDraw::DrawViewPart", "View")
 page.addView(view)
 view.Source = box
-view.Direction = (0.0, 0.0, 1.0)
+view.Direction = (0, 0, 1)
 
 section = doc.addObject("TechDraw::DrawViewSection", "Section")
 page.addView(section)
 section.Source = box
 section.BaseView = view
-section.Direction = (0.0, 1.0, 0.0)
-section.SectionNormal = (-1.0, 0.0, 0.0)
+section.Direction = (0, 1, 0)
+section.SectionNormal = (-1, 0, 0)
 
 doc.recompute()
 ```
+
+
+
+## Przykłady
+
+Więcej informacji na temat widoków przekrojów i niektórych przypadków użycia można znaleźć na stronie [Przykłady przekrojów](TechDraw_Section_Examples/pl.md).
+
+<img alt="" src=images/TechDraw_ExampleSection-10.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-13.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-15.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-17.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-34.png  style="width:80px;"> <img alt="" src=images/TechDraw_ExampleSection-35.png  style="width:80px;">
 
 
 

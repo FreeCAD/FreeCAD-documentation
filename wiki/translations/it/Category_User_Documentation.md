@@ -86,96 +86,96 @@ E\' anche la lista centrale di download per la documentazione in linea di FreeCA
 | [Draft PointLinkArray/it](Draft_PointLinkArray/it.md) | [Draft PolarArray/it](Draft_PolarArray/it.md) | [Draft Polygon/it](Draft_Polygon/it.md) |
 | [Draft Preferences/it](Draft_Preferences/it.md) | [Draft Rectangle/it](Draft_Rectangle/it.md) | [Draft Rotate/it](Draft_Rotate/it.md) |
 | [Draft Scale/it](Draft_Scale/it.md) | [Draft SelectGroup/it](Draft_SelectGroup/it.md) | [Draft SelectPlane/it](Draft_SelectPlane/it.md) |
-| [Draft Shape2DView/it](Draft_Shape2DView/it.md) | [Draft ShapeString tutorial/it](Draft_ShapeString_tutorial/it.md) | [Draft ShapeString/it](Draft_ShapeString/it.md) |
-| [Draft ShowSnapBar/it](Draft_ShowSnapBar/it.md) | [Draft Slope/it](Draft_Slope/it.md) | [Draft Snap Angle/it](Draft_Snap_Angle/it.md) |
-| [Draft Snap Center/it](Draft_Snap_Center/it.md) | [Draft Snap Dimensions/it](Draft_Snap_Dimensions/it.md) | [Draft Snap Endpoint/it](Draft_Snap_Endpoint/it.md) |
-| [Draft Snap Extension/it](Draft_Snap_Extension/it.md) | [Draft Snap Grid/it](Draft_Snap_Grid/it.md) | [Draft Snap Intersection/it](Draft_Snap_Intersection/it.md) |
-| [Draft Snap Lock/it](Draft_Snap_Lock/it.md) | [Draft Snap Midpoint/it](Draft_Snap_Midpoint/it.md) | [Draft Snap Near/it](Draft_Snap_Near/it.md) |
-| [Draft Snap Ortho/it](Draft_Snap_Ortho/it.md) | [Draft Snap Parallel/it](Draft_Snap_Parallel/it.md) | [Draft Snap Perpendicular/it](Draft_Snap_Perpendicular/it.md) |
-| [Draft Snap Special/it](Draft_Snap_Special/it.md) | [Draft Snap WorkingPlane/it](Draft_Snap_WorkingPlane/it.md) | [Draft Snap/it](Draft_Snap/it.md) |
-| [Draft Split/it](Draft_Split/it.md) | [Draft Stretch/it](Draft_Stretch/it.md) | [Draft SubelementHighlight/it](Draft_SubelementHighlight/it.md) |
-| [Draft SVG/it](Draft_SVG/it.md) | [Draft Text/it](Draft_Text/it.md) | [Draft ToggleConstructionMode/it](Draft_ToggleConstructionMode/it.md) |
-| [Draft ToggleContinueMode/it](Draft_ToggleContinueMode/it.md) | [Draft ToggleDisplayMode/it](Draft_ToggleDisplayMode/it.md) | [Draft ToggleGrid/it](Draft_ToggleGrid/it.md) |
-| [Draft Tray/it](Draft_Tray/it.md) | [Draft Trimex/it](Draft_Trimex/it.md) | [Draft tutorial/it](Draft_tutorial/it.md) |
-| [Draft Upgrade/it](Draft_Upgrade/it.md) | [Draft Wire/it](Draft_Wire/it.md) | [Draft WireToBSpline/it](Draft_WireToBSpline/it.md) |
-| [Draft Workbench/it](Draft_Workbench/it.md) | [Draft WorkingPlaneProxy/it](Draft_WorkingPlaneProxy/it.md) | [Drawing Annotation/it](Drawing_Annotation/it.md) |
-| [Drawing Clip/it](Drawing_Clip/it.md) | [Drawing Dimensioning Addon/it](Drawing_Dimensioning_Addon/it.md) | [Drawing Landscape A3/it](Drawing_Landscape_A3/it.md) |
-| [Drawing Open SVG/it](Drawing_Open_SVG/it.md) | [Drawing Openbrowser/it](Drawing_Openbrowser/it.md) | [Drawing Orthoviews/it](Drawing_Orthoviews/it.md) |
-| [Drawing ProjectShape/it](Drawing_ProjectShape/it.md) | [Drawing Save/it](Drawing_Save/it.md) | [Drawing SpreadsheetView/it](Drawing_SpreadsheetView/it.md) |
-| [Drawing Symbol/it](Drawing_Symbol/it.md) | [Drawing Template HowTo/it](Drawing_Template_HowTo/it.md) | [Drawing templates/it](Drawing_templates/it.md) |
-| [Drawing tutorial/it](Drawing_tutorial/it.md) | [Drawing View/it](Drawing_View/it.md) | [Drawing Workbench/it](Drawing_Workbench/it.md) |
-| [Drawing/it](Drawing/it.md) | [DXF/it](DXF/it.md) | [DynamicData Workbench/it](DynamicData_Workbench/it.md) |
-| [EM FHEquiv/it](EM_FHEquiv/it.md) | [EM FHInputFile/it](EM_FHInputFile/it.md) | [EM FHNode/it](EM_FHNode/it.md) |
-| [EM FHPath/it](EM_FHPath/it.md) | [EM FHPlane/it](EM_FHPlane/it.md) | [EM FHPlaneAddRemoveNodeHole/it](EM_FHPlaneAddRemoveNodeHole/it.md) |
-| [EM FHPlaneHole/it](EM_FHPlaneHole/it.md) | [EM FHPort/it](EM_FHPort/it.md) | [EM FHSegment/it](EM_FHSegment/it.md) |
-| [EM FHSolver/it](EM_FHSolver/it.md) | [EM Workbench/it](EM_Workbench/it.md) | [Export to STL or OBJ/it](Export_to_STL_or_OBJ/it.md) |
-| [External workbenches/it](External_workbenches/it.md) | [Extra python modules/it](Extra_python_modules/it.md) | [Fasteners BOM/it](Fasteners_BOM/it.md) |
-| [Fasteners Workbench/it](Fasteners_Workbench/it.md) | [FCGear BevelGear/it](FCGear_BevelGear/it.md) | [FCGear CrownGear/it](FCGear_CrownGear/it.md) |
-| [FCGear CycloidGear/it](FCGear_CycloidGear/it.md) | [FCGear InvoluteGear/it](FCGear_InvoluteGear/it.md) | [FCGear InvoluteRack/it](FCGear_InvoluteRack/it.md) |
-| [FCGear LanternGear/it](FCGear_LanternGear/it.md) | [FCGear TimingGear/it](FCGear_TimingGear/it.md) | [FCGear Workbench/it](FCGear_Workbench/it.md) |
-| [FCGear WormGear/it](FCGear_WormGear/it.md) | [Feature editing/it](Feature_editing/it.md) | [Feature list/it](Feature_list/it.md) |
-| [Feature/it](Feature/it.md) | [FeaturePython Custom Properties/it](FeaturePython_Custom_Properties/it.md) | [FEM Analysis/it](FEM_Analysis/it.md) |
-| [FEM CalculiX Cantilever 3D/it](FEM_CalculiX_Cantilever_3D/it.md) | [FEM ClippingPlaneAdd/it](FEM_ClippingPlaneAdd/it.md) | [FEM ClippingPlaneRemoveAll/it](FEM_ClippingPlaneRemoveAll/it.md) |
-| [FEM Concrete/it](FEM_Concrete/it.md) | [FEM ConstantVacuumPermittivity/it](FEM_ConstantVacuumPermittivity/it.md) | [FEM ConstraintBearing/it](FEM_ConstraintBearing/it.md) |
-| [FEM ConstraintBodyHeatSource/it](FEM_ConstraintBodyHeatSource/it.md) | [FEM ConstraintContact/it](FEM_ConstraintContact/it.md) | [FEM ConstraintDisplacement/it](FEM_ConstraintDisplacement/it.md) |
-| [FEM ConstraintElectrostaticPotential/it](FEM_ConstraintElectrostaticPotential/it.md) | [FEM ConstraintFixed/it](FEM_ConstraintFixed/it.md) | [FEM ConstraintFlowVelocity/it](FEM_ConstraintFlowVelocity/it.md) |
-| [FEM ConstraintFluidBoundary/it](FEM_ConstraintFluidBoundary/it.md) | [FEM ConstraintForce/it](FEM_ConstraintForce/it.md) | [FEM ConstraintGear/it](FEM_ConstraintGear/it.md) |
-| [FEM ConstraintHeatflux/it](FEM_ConstraintHeatflux/it.md) | [FEM ConstraintInitialFlowVelocity/it](FEM_ConstraintInitialFlowVelocity/it.md) | [FEM ConstraintInitialTemperature/it](FEM_ConstraintInitialTemperature/it.md) |
-| [FEM ConstraintPlaneRotation/it](FEM_ConstraintPlaneRotation/it.md) | [FEM ConstraintPressure/it](FEM_ConstraintPressure/it.md) | [FEM ConstraintPulley/it](FEM_ConstraintPulley/it.md) |
-| [FEM ConstraintSectionPrint/it](FEM_ConstraintSectionPrint/it.md) | [FEM ConstraintSelfWeight/it](FEM_ConstraintSelfWeight/it.md) | [FEM ConstraintTemperature/it](FEM_ConstraintTemperature/it.md) |
-| [FEM ConstraintTie/it](FEM_ConstraintTie/it.md) | [FEM ConstraintTransform/it](FEM_ConstraintTransform/it.md) | [FEM CreateNodesSet/it](FEM_CreateNodesSet/it.md) |
-| [FEM Element Types/it](FEM_Element_Types/it.md) | [FEM ElementFluid1D/it](FEM_ElementFluid1D/it.md) | [FEM ElementGeometry1D/it](FEM_ElementGeometry1D/it.md) |
-| [FEM ElementGeometry2D/it](FEM_ElementGeometry2D/it.md) | [FEM ElementRotation1D/it](FEM_ElementRotation1D/it.md) | [FEM EquationElasticity/it](FEM_EquationElasticity/it.md) |
-| [FEM EquationElectrostatic/it](FEM_EquationElectrostatic/it.md) | [FEM EquationFlow/it](FEM_EquationFlow/it.md) | [FEM EquationFlux/it](FEM_EquationFlux/it.md) |
-| [FEM EquationHeat/it](FEM_EquationHeat/it.md) | [FEM Example Capacitance Two Balls/it](FEM_Example_Capacitance_Two_Balls/it.md) | [FEM Examples/it](FEM_Examples/it.md) |
-| [FEM FemMesh2Mesh/it](FEM_FemMesh2Mesh/it.md) | [FEM Install/it](FEM_Install/it.md) | [FEM MaterialEditor/it](FEM_MaterialEditor/it.md) |
-| [FEM MaterialFluid/it](FEM_MaterialFluid/it.md) | [FEM MaterialMechanicalNonlinear/it](FEM_MaterialMechanicalNonlinear/it.md) | [FEM MaterialReinforced/it](FEM_MaterialReinforced/it.md) |
-| [FEM MaterialSolid/it](FEM_MaterialSolid/it.md) | [FEM Mesh CalculiX/it](FEM_Mesh_CalculiX/it.md) | [FEM Mesh/it](FEM_Mesh/it.md) |
-| [FEM MeshBoundaryLayer/it](FEM_MeshBoundaryLayer/it.md) | [FEM MeshClear/it](FEM_MeshClear/it.md) | [FEM MeshDisplayInfo/it](FEM_MeshDisplayInfo/it.md) |
-| [FEM MeshGmshFromShape/it](FEM_MeshGmshFromShape/it.md) | [FEM MeshGroup/it](FEM_MeshGroup/it.md) | [FEM MeshNetgenFromShape/it](FEM_MeshNetgenFromShape/it.md) |
-| [FEM MeshRegion/it](FEM_MeshRegion/it.md) | [FEM PostApplyChanges/it](FEM_PostApplyChanges/it.md) | [FEM PostCreateFunctions/it](FEM_PostCreateFunctions/it.md) |
-| [FEM PostFilterClipRegion/it](FEM_PostFilterClipRegion/it.md) | [FEM PostFilterClipScalar/it](FEM_PostFilterClipScalar/it.md) | [FEM PostFilterCutFunction/it](FEM_PostFilterCutFunction/it.md) |
-| [FEM PostFilterDataAlongLine/it](FEM_PostFilterDataAlongLine/it.md) | [FEM PostFilterDataAtPoint/it](FEM_PostFilterDataAtPoint/it.md) | [FEM PostFilterLinearizedStresses/it](FEM_PostFilterLinearizedStresses/it.md) |
-| [FEM PostFilterWarp/it](FEM_PostFilterWarp/it.md) | [FEM PostPipelineFromResult/it](FEM_PostPipelineFromResult/it.md) | [FEM Preferences/it](FEM_Preferences/it.md) |
-| [FEM ResultShow/it](FEM_ResultShow/it.md) | [FEM ResultsPurge/it](FEM_ResultsPurge/it.md) | [FEM Shear of a Composite Block/it](FEM_Shear_of_a_Composite_Block/it.md) |
-| [FEM Solver/it](FEM_Solver/it.md) | [FEM SolverCalculiX/it](FEM_SolverCalculiX/it.md) | [FEM SolverCalculixCxxtools/it](FEM_SolverCalculixCxxtools/it.md) |
-| [FEM SolverControl/it](FEM_SolverControl/it.md) | [FEM SolverElmer/it](FEM_SolverElmer/it.md) | [FEM SolverRun/it](FEM_SolverRun/it.md) |
-| [FEM SolverZ88/it](FEM_SolverZ88/it.md) | [FEM Tutorial Python/it](FEM_Tutorial_Python/it.md) | [FEM tutorial/it](FEM_tutorial/it.md) |
-| [FEM Workbench/it](FEM_Workbench/it.md) | [File Format FCStd/it](File_Format_FCStd/it.md) | [Fine-tuning/it](Fine-tuning/it.md) |
-| [Flamingo Workbench/it](Flamingo_Workbench/it.md) | [FreeCAD and DWG Import/it](FreeCAD_and_DWG_Import/it.md) | [FreeCAD and DXF Import/it](FreeCAD_and_DXF_Import/it.md) |
-| [FreeCAD and Mesh Import/it](FreeCAD_and_Mesh_Import/it.md) | [FreeCAD API/it](FreeCAD_API/it.md) | [FreeCAD Build Tool/it](FreeCAD_Build_Tool/it.md) |
-| [FreeCADGui API/it](FreeCADGui_API/it.md) | [Frequently asked questions/it](Frequently_asked_questions/it.md) | [Getting started/it](Getting_started/it.md) |
-| [Git buildpackage/it](Git_buildpackage/it.md) | [Glossary/it](Glossary/it.md) | [GuiCommand model/it](GuiCommand_model/it.md) |
-| [Template:GuiCommand/it](Template_GuiCommand/it.md) | [Help FreeCAD/it](Help_FreeCAD/it.md) | [Help/it](Help/it.md) |
-| [How to install additional workbenches/it](How_to_install_additional_workbenches/it.md) | [IfcOpenShell/it](IfcOpenShell/it.md) | [IfcPlusPlus/it](IfcPlusPlus/it.md) |
-| [Image CreateImagePlane/it](Image_CreateImagePlane/it.md) | [Image Open/it](Image_Open/it.md) | [Image Scaling/it](Image_Scaling/it.md) |
-| [Image Workbench/it](Image_Workbench/it.md) | [Import Export Preferences/it](Import_Export_Preferences/it.md) | [Import Export/it](Import_Export/it.md) |
-| [Import from STL or OBJ/it](Import_from_STL_or_OBJ/it.md) | [Import/Export IFC - compiling IfcOpenShell/it](Import/Export_IFC_-_compiling_IfcOpenShell/it.md) | [Important information/it](Important_information/it.md) |
-| [Importing From Sketchup/it](Importing_From_Sketchup/it.md) | [Inspection Workbench/it](Inspection_Workbench/it.md) | [Installing additional components/it](Installing_additional_components/it.md) |
-| [Installing Helpfile/it](Installing_Helpfile/it.md) | [Installing on Linux/it](Installing_on_Linux/it.md) | [Installing on Mac/it](Installing_on_Mac/it.md) |
-| [Installing on Windows/it](Installing_on_Windows/it.md) | [Interface Customization/it](Interface_Customization/it.md) | [Interface/it](Interface/it.md) |
-| [KicadStepUp Workbench/it](KicadStepUp_Workbench/it.md) | [Lattice2 AttachablePlacement/it](Lattice2_AttachablePlacement/it.md) | [Lattice2 Workbench/it](Lattice2_Workbench/it.md) |
-| [Licence/it](Licence/it.md) | [Linux packaging/it](Linux_packaging/it.md) | [Localisation/it](Localisation/it.md) |
-| [Localization Older Methods/it](Localization_Older_Methods/it.md) | [Macro 3D Parametric Curve/it](Macro_3D_Parametric_Curve/it.md) | [Macro 3d Printer Slicer Individual Parts/it](Macro_3d_Printer_Slicer_Individual_Parts/it.md) |
-| [Macro 3d Printer Slicer/it](Macro_3d_Printer_Slicer/it.md) | [Macro Airfoil Import & Scale/it](Macro_Airfoil_Import_&_Scale/it.md) | [Macro Alias Manager/it](Macro_Alias_Manager/it.md) |
-| [Macro Align Camera to Working Plane/it](Macro_Align_Camera_to_Working_Plane/it.md) | [Macro Align Face Object to View/it](Macro_Align_Face_Object_to_View/it.md) | [Macro Align Object to View/it](Macro_Align_Object_to_View/it.md) |
-| [Macro Align View to Face/it](Macro_Align_View_to_Face/it.md) | [Macro Align Working Plane to Camera/it](Macro_Align_Working_Plane_to_Camera/it.md) | [Macro Animated Constrain/it](Macro_Animated_Constrain/it.md) |
-| [Macro Apothem Based Prism GUI/it](Macro_Apothem_Based_Prism_GUI/it.md) | [Macro Arch Axis System Repartition/it](Macro_Arch_Axis_System_Repartition/it.md) | [Macro ArrayCopy/it](Macro_ArrayCopy/it.md) |
-| [Macro Assemblage Imprimante 3D/it](Macro_Assemblage_Imprimante_3D/it.md) | [Macro Assembly/it](Macro_Assembly/it.md) | [Macro Automatic drawing/it](Macro_Automatic_drawing/it.md) |
-| [Macro BOLTS/it](Macro_BOLTS/it.md) | [Macro BoundingBox Tracing/it](Macro_BoundingBox_Tracing/it.md) | [Macro Build Utility/it](Macro_Build_Utility/it.md) |
-| [Macro Cabinets32/it](Macro_Cabinets32/it.md) | [Macro CartoucheFC 2/it](Macro_CartoucheFC_2/it.md) | [Macro CartoucheFC Full/it](Macro_CartoucheFC_Full/it.md) |
-| [Macro CartoucheFC/it](Macro_CartoucheFC/it.md) | [Macro Center Align Objects with Faces or Edges/it](Macro_Center_Align_Objects_with_Faces_or_Edges/it.md) | [Macro CenterFace/it](Macro_CenterFace/it.md) |
-| [Macro CenterOfMass/it](Macro_CenterOfMass/it.md) | [Macro Circle/it](Macro_Circle/it.md) | [Macro CirclePlus/it](Macro_CirclePlus/it.md) |
-| [Macro CloneConvert/it](Macro_CloneConvert/it.md) | [Macro Compound Plus/it](Macro_Compound_Plus/it.md) | [Macro Connect And Sweep/it](Macro_Connect_And_Sweep/it.md) |
-| [Macro Constraint Draft/it](Macro_Constraint_Draft/it.md) | [Macro Copy3DViewToClipboard/it](Macro_Copy3DViewToClipboard/it.md) | [Macro Corner shapes wizard/it](Macro_Corner_shapes_wizard/it.md) |
-| [Macro Corner shapes wizard/update/it](Macro_Corner_shapes_wizard/update/it.md) | [Macro crank simul/it](Macro_crank_simul/it.md) | [Macro Creating faces from a DXF file/it](Macro_Creating_faces_from_a_DXF_file/it.md) |
-| [Macro cross section/it](Macro_cross_section/it.md) | [Macro Cut Circle/it](Macro_Cut_Circle/it.md) | [Macro Cut Line/it](Macro_Cut_Line/it.md) |
-| [Macro DeepCopy/it](Macro_DeepCopy/it.md) | [Macro Delta xyz/it](Macro_Delta_xyz/it.md) | [Macro documentation/it](Macro_documentation/it.md) |
-| [Macro Draft Circle 3 Points 3D/it](Macro_Draft_Circle_3_Points_3D/it.md) | [Macro Draft Circle 3 Points/it](Macro_Draft_Circle_3_Points/it.md) | [Macro Draw 2D Function/it](Macro_Draw_2D_Function/it.md) |
-| [Macro Draw Parametric 2D Function/it](Macro_Draw_Parametric_2D_Function/it.md) | [Macro Dump Objects/it](Macro_Dump_Objects/it.md) | [Macro Duplicate Selection/it](Macro_Duplicate_Selection/it.md) |
-| [Macro DXF to Face and Sketch/it](Macro_DXF_to_Face_and_Sketch/it.md) | [Macro Easy cutouts for Enclosure Design/it](Macro_Easy_cutouts_for_Enclosure_Design/it.md) | [Macro EdgesToArc/it](Macro_EdgesToArc/it.md) |
-| [Macro Ellipse-Center+2Points/it](Macro_Ellipse-Center+2Points/it.md) | [Macro ExpandTreeItem/it](Macro_ExpandTreeItem/it.md) | [Macro export transient FEM results/it](Macro_export_transient_FEM_results/it.md) |
-| [Macro Extract Wires from Mesh/it](Macro_Extract_Wires_from_Mesh/it.md) | [Macro FaceToSketch/it](Macro_FaceToSketch/it.md) |
+| [Draft SetStyle/it](Draft_SetStyle/it.md) | [Draft Shape2DView/it](Draft_Shape2DView/it.md) | [Draft ShapeString tutorial/it](Draft_ShapeString_tutorial/it.md) |
+| [Draft ShapeString/it](Draft_ShapeString/it.md) | [Draft ShowSnapBar/it](Draft_ShowSnapBar/it.md) | [Draft Slope/it](Draft_Slope/it.md) |
+| [Draft Snap Angle/it](Draft_Snap_Angle/it.md) | [Draft Snap Center/it](Draft_Snap_Center/it.md) | [Draft Snap Dimensions/it](Draft_Snap_Dimensions/it.md) |
+| [Draft Snap Endpoint/it](Draft_Snap_Endpoint/it.md) | [Draft Snap Extension/it](Draft_Snap_Extension/it.md) | [Draft Snap Grid/it](Draft_Snap_Grid/it.md) |
+| [Draft Snap Intersection/it](Draft_Snap_Intersection/it.md) | [Draft Snap Lock/it](Draft_Snap_Lock/it.md) | [Draft Snap Midpoint/it](Draft_Snap_Midpoint/it.md) |
+| [Draft Snap Near/it](Draft_Snap_Near/it.md) | [Draft Snap Ortho/it](Draft_Snap_Ortho/it.md) | [Draft Snap Parallel/it](Draft_Snap_Parallel/it.md) |
+| [Draft Snap Perpendicular/it](Draft_Snap_Perpendicular/it.md) | [Draft Snap Special/it](Draft_Snap_Special/it.md) | [Draft Snap WorkingPlane/it](Draft_Snap_WorkingPlane/it.md) |
+| [Draft Snap/it](Draft_Snap/it.md) | [Draft Split/it](Draft_Split/it.md) | [Draft Stretch/it](Draft_Stretch/it.md) |
+| [Draft SubelementHighlight/it](Draft_SubelementHighlight/it.md) | [Draft SVG/it](Draft_SVG/it.md) | [Draft Text/it](Draft_Text/it.md) |
+| [Draft ToggleConstructionMode/it](Draft_ToggleConstructionMode/it.md) | [Draft ToggleContinueMode/it](Draft_ToggleContinueMode/it.md) | [Draft ToggleDisplayMode/it](Draft_ToggleDisplayMode/it.md) |
+| [Draft ToggleGrid/it](Draft_ToggleGrid/it.md) | [Draft Tray/it](Draft_Tray/it.md) | [Draft Trimex/it](Draft_Trimex/it.md) |
+| [Draft tutorial/it](Draft_tutorial/it.md) | [Draft Upgrade/it](Draft_Upgrade/it.md) | [Draft Wire/it](Draft_Wire/it.md) |
+| [Draft WireToBSpline/it](Draft_WireToBSpline/it.md) | [Draft Workbench/it](Draft_Workbench/it.md) | [Draft WorkingPlaneProxy/it](Draft_WorkingPlaneProxy/it.md) |
+| [Drawing Annotation/it](Drawing_Annotation/it.md) | [Drawing Clip/it](Drawing_Clip/it.md) | [Drawing Dimensioning Addon/it](Drawing_Dimensioning_Addon/it.md) |
+| [Drawing Landscape A3/it](Drawing_Landscape_A3/it.md) | [Drawing Open SVG/it](Drawing_Open_SVG/it.md) | [Drawing Openbrowser/it](Drawing_Openbrowser/it.md) |
+| [Drawing Orthoviews/it](Drawing_Orthoviews/it.md) | [Drawing ProjectShape/it](Drawing_ProjectShape/it.md) | [Drawing Save/it](Drawing_Save/it.md) |
+| [Drawing SpreadsheetView/it](Drawing_SpreadsheetView/it.md) | [Drawing Symbol/it](Drawing_Symbol/it.md) | [Drawing Template HowTo/it](Drawing_Template_HowTo/it.md) |
+| [Drawing templates/it](Drawing_templates/it.md) | [Drawing tutorial/it](Drawing_tutorial/it.md) | [Drawing View/it](Drawing_View/it.md) |
+| [Drawing Workbench/it](Drawing_Workbench/it.md) | [Drawing/it](Drawing/it.md) | [DXF/it](DXF/it.md) |
+| [DynamicData Workbench/it](DynamicData_Workbench/it.md) | [EM FHEquiv/it](EM_FHEquiv/it.md) | [EM FHInputFile/it](EM_FHInputFile/it.md) |
+| [EM FHNode/it](EM_FHNode/it.md) | [EM FHPath/it](EM_FHPath/it.md) | [EM FHPlane/it](EM_FHPlane/it.md) |
+| [EM FHPlaneAddRemoveNodeHole/it](EM_FHPlaneAddRemoveNodeHole/it.md) | [EM FHPlaneHole/it](EM_FHPlaneHole/it.md) | [EM FHPort/it](EM_FHPort/it.md) |
+| [EM FHSegment/it](EM_FHSegment/it.md) | [EM FHSolver/it](EM_FHSolver/it.md) | [EM Workbench/it](EM_Workbench/it.md) |
+| [Export to STL or OBJ/it](Export_to_STL_or_OBJ/it.md) | [External workbenches/it](External_workbenches/it.md) | [Extra python modules/it](Extra_python_modules/it.md) |
+| [Fasteners BOM/it](Fasteners_BOM/it.md) | [Fasteners Workbench/it](Fasteners_Workbench/it.md) | [FCGear BevelGear/it](FCGear_BevelGear/it.md) |
+| [FCGear CrownGear/it](FCGear_CrownGear/it.md) | [FCGear CycloidGear/it](FCGear_CycloidGear/it.md) | [FCGear InvoluteGear/it](FCGear_InvoluteGear/it.md) |
+| [FCGear InvoluteRack/it](FCGear_InvoluteRack/it.md) | [FCGear LanternGear/it](FCGear_LanternGear/it.md) | [FCGear TimingGear/it](FCGear_TimingGear/it.md) |
+| [FCGear Workbench/it](FCGear_Workbench/it.md) | [FCGear WormGear/it](FCGear_WormGear/it.md) | [Feature editing/it](Feature_editing/it.md) |
+| [Feature list/it](Feature_list/it.md) | [Feature/it](Feature/it.md) | [FeaturePython Custom Properties/it](FeaturePython_Custom_Properties/it.md) |
+| [FEM Analysis/it](FEM_Analysis/it.md) | [FEM CalculiX Cantilever 3D/it](FEM_CalculiX_Cantilever_3D/it.md) | [FEM ClippingPlaneAdd/it](FEM_ClippingPlaneAdd/it.md) |
+| [FEM ClippingPlaneRemoveAll/it](FEM_ClippingPlaneRemoveAll/it.md) | [FEM Concrete/it](FEM_Concrete/it.md) | [FEM ConstantVacuumPermittivity/it](FEM_ConstantVacuumPermittivity/it.md) |
+| [FEM ConstraintBearing/it](FEM_ConstraintBearing/it.md) | [FEM ConstraintBodyHeatSource/it](FEM_ConstraintBodyHeatSource/it.md) | [FEM ConstraintContact/it](FEM_ConstraintContact/it.md) |
+| [FEM ConstraintDisplacement/it](FEM_ConstraintDisplacement/it.md) | [FEM ConstraintElectrostaticPotential/it](FEM_ConstraintElectrostaticPotential/it.md) | [FEM ConstraintFixed/it](FEM_ConstraintFixed/it.md) |
+| [FEM ConstraintFlowVelocity/it](FEM_ConstraintFlowVelocity/it.md) | [FEM ConstraintFluidBoundary/it](FEM_ConstraintFluidBoundary/it.md) | [FEM ConstraintForce/it](FEM_ConstraintForce/it.md) |
+| [FEM ConstraintGear/it](FEM_ConstraintGear/it.md) | [FEM ConstraintHeatflux/it](FEM_ConstraintHeatflux/it.md) | [FEM ConstraintInitialFlowVelocity/it](FEM_ConstraintInitialFlowVelocity/it.md) |
+| [FEM ConstraintInitialTemperature/it](FEM_ConstraintInitialTemperature/it.md) | [FEM ConstraintPlaneRotation/it](FEM_ConstraintPlaneRotation/it.md) | [FEM ConstraintPressure/it](FEM_ConstraintPressure/it.md) |
+| [FEM ConstraintPulley/it](FEM_ConstraintPulley/it.md) | [FEM ConstraintSectionPrint/it](FEM_ConstraintSectionPrint/it.md) | [FEM ConstraintSelfWeight/it](FEM_ConstraintSelfWeight/it.md) |
+| [FEM ConstraintTemperature/it](FEM_ConstraintTemperature/it.md) | [FEM ConstraintTie/it](FEM_ConstraintTie/it.md) | [FEM ConstraintTransform/it](FEM_ConstraintTransform/it.md) |
+| [FEM CreateNodesSet/it](FEM_CreateNodesSet/it.md) | [FEM Element Types/it](FEM_Element_Types/it.md) | [FEM ElementFluid1D/it](FEM_ElementFluid1D/it.md) |
+| [FEM ElementGeometry1D/it](FEM_ElementGeometry1D/it.md) | [FEM ElementGeometry2D/it](FEM_ElementGeometry2D/it.md) | [FEM ElementRotation1D/it](FEM_ElementRotation1D/it.md) |
+| [FEM EquationElasticity/it](FEM_EquationElasticity/it.md) | [FEM EquationElectrostatic/it](FEM_EquationElectrostatic/it.md) | [FEM EquationFlow/it](FEM_EquationFlow/it.md) |
+| [FEM EquationFlux/it](FEM_EquationFlux/it.md) | [FEM EquationHeat/it](FEM_EquationHeat/it.md) | [FEM Example Capacitance Two Balls/it](FEM_Example_Capacitance_Two_Balls/it.md) |
+| [FEM Examples/it](FEM_Examples/it.md) | [FEM FemMesh2Mesh/it](FEM_FemMesh2Mesh/it.md) | [FEM Install/it](FEM_Install/it.md) |
+| [FEM MaterialEditor/it](FEM_MaterialEditor/it.md) | [FEM MaterialFluid/it](FEM_MaterialFluid/it.md) | [FEM MaterialMechanicalNonlinear/it](FEM_MaterialMechanicalNonlinear/it.md) |
+| [FEM MaterialReinforced/it](FEM_MaterialReinforced/it.md) | [FEM MaterialSolid/it](FEM_MaterialSolid/it.md) | [FEM Mesh CalculiX/it](FEM_Mesh_CalculiX/it.md) |
+| [FEM Mesh/it](FEM_Mesh/it.md) | [FEM MeshBoundaryLayer/it](FEM_MeshBoundaryLayer/it.md) | [FEM MeshClear/it](FEM_MeshClear/it.md) |
+| [FEM MeshDisplayInfo/it](FEM_MeshDisplayInfo/it.md) | [FEM MeshGmshFromShape/it](FEM_MeshGmshFromShape/it.md) | [FEM MeshGroup/it](FEM_MeshGroup/it.md) |
+| [FEM MeshNetgenFromShape/it](FEM_MeshNetgenFromShape/it.md) | [FEM MeshRegion/it](FEM_MeshRegion/it.md) | [FEM PostApplyChanges/it](FEM_PostApplyChanges/it.md) |
+| [FEM PostCreateFunctions/it](FEM_PostCreateFunctions/it.md) | [FEM PostFilterClipRegion/it](FEM_PostFilterClipRegion/it.md) | [FEM PostFilterClipScalar/it](FEM_PostFilterClipScalar/it.md) |
+| [FEM PostFilterCutFunction/it](FEM_PostFilterCutFunction/it.md) | [FEM PostFilterDataAlongLine/it](FEM_PostFilterDataAlongLine/it.md) | [FEM PostFilterDataAtPoint/it](FEM_PostFilterDataAtPoint/it.md) |
+| [FEM PostFilterLinearizedStresses/it](FEM_PostFilterLinearizedStresses/it.md) | [FEM PostFilterWarp/it](FEM_PostFilterWarp/it.md) | [FEM PostPipelineFromResult/it](FEM_PostPipelineFromResult/it.md) |
+| [FEM Preferences/it](FEM_Preferences/it.md) | [FEM ResultShow/it](FEM_ResultShow/it.md) | [FEM ResultsPurge/it](FEM_ResultsPurge/it.md) |
+| [FEM Shear of a Composite Block/it](FEM_Shear_of_a_Composite_Block/it.md) | [FEM Solver/it](FEM_Solver/it.md) | [FEM SolverCalculiX/it](FEM_SolverCalculiX/it.md) |
+| [FEM SolverCalculixCxxtools/it](FEM_SolverCalculixCxxtools/it.md) | [FEM SolverControl/it](FEM_SolverControl/it.md) | [FEM SolverElmer/it](FEM_SolverElmer/it.md) |
+| [FEM SolverRun/it](FEM_SolverRun/it.md) | [FEM SolverZ88/it](FEM_SolverZ88/it.md) | [FEM Tutorial Python/it](FEM_Tutorial_Python/it.md) |
+| [FEM tutorial/it](FEM_tutorial/it.md) | [FEM Workbench/it](FEM_Workbench/it.md) | [File Format FCStd/it](File_Format_FCStd/it.md) |
+| [Fine-tuning/it](Fine-tuning/it.md) | [Flamingo Workbench/it](Flamingo_Workbench/it.md) | [FreeCAD and DWG Import/it](FreeCAD_and_DWG_Import/it.md) |
+| [FreeCAD and DXF Import/it](FreeCAD_and_DXF_Import/it.md) | [FreeCAD and Mesh Import/it](FreeCAD_and_Mesh_Import/it.md) | [FreeCAD API/it](FreeCAD_API/it.md) |
+| [FreeCAD Build Tool/it](FreeCAD_Build_Tool/it.md) | [FreeCADGui API/it](FreeCADGui_API/it.md) | [Frequently asked questions/it](Frequently_asked_questions/it.md) |
+| [Getting started/it](Getting_started/it.md) | [Git buildpackage/it](Git_buildpackage/it.md) | [Glossary/it](Glossary/it.md) |
+| [GuiCommand model/it](GuiCommand_model/it.md) | [Template:GuiCommand/it](Template_GuiCommand/it.md) | [Help FreeCAD/it](Help_FreeCAD/it.md) |
+| [Help/it](Help/it.md) | [How to install additional workbenches/it](How_to_install_additional_workbenches/it.md) | [IfcOpenShell/it](IfcOpenShell/it.md) |
+| [IfcPlusPlus/it](IfcPlusPlus/it.md) | [Image CreateImagePlane/it](Image_CreateImagePlane/it.md) | [Image Open/it](Image_Open/it.md) |
+| [Image Scaling/it](Image_Scaling/it.md) | [Image Workbench/it](Image_Workbench/it.md) | [Import Export Preferences/it](Import_Export_Preferences/it.md) |
+| [Import Export/it](Import_Export/it.md) | [Import from STL or OBJ/it](Import_from_STL_or_OBJ/it.md) | [Import/Export IFC - compiling IfcOpenShell/it](Import/Export_IFC_-_compiling_IfcOpenShell/it.md) |
+| [Important information/it](Important_information/it.md) | [Importing From Sketchup/it](Importing_From_Sketchup/it.md) | [Inspection Workbench/it](Inspection_Workbench/it.md) |
+| [Installing additional components/it](Installing_additional_components/it.md) | [Installing Helpfile/it](Installing_Helpfile/it.md) | [Installing on Linux/it](Installing_on_Linux/it.md) |
+| [Installing on Mac/it](Installing_on_Mac/it.md) | [Installing on Windows/it](Installing_on_Windows/it.md) | [Interface Customization/it](Interface_Customization/it.md) |
+| [Interface/it](Interface/it.md) | [KicadStepUp Workbench/it](KicadStepUp_Workbench/it.md) | [Lattice2 AttachablePlacement/it](Lattice2_AttachablePlacement/it.md) |
+| [Lattice2 Workbench/it](Lattice2_Workbench/it.md) | [Licence/it](Licence/it.md) | [Linux packaging/it](Linux_packaging/it.md) |
+| [Localisation/it](Localisation/it.md) | [Localization Older Methods/it](Localization_Older_Methods/it.md) | [Macro 3D Parametric Curve/it](Macro_3D_Parametric_Curve/it.md) |
+| [Macro 3d Printer Slicer Individual Parts/it](Macro_3d_Printer_Slicer_Individual_Parts/it.md) | [Macro 3d Printer Slicer/it](Macro_3d_Printer_Slicer/it.md) | [Macro Airfoil Import & Scale/it](Macro_Airfoil_Import_&_Scale/it.md) |
+| [Macro Alias Manager/it](Macro_Alias_Manager/it.md) | [Macro Align Camera to Working Plane/it](Macro_Align_Camera_to_Working_Plane/it.md) | [Macro Align Face Object to View/it](Macro_Align_Face_Object_to_View/it.md) |
+| [Macro Align Object to View/it](Macro_Align_Object_to_View/it.md) | [Macro Align View to Face/it](Macro_Align_View_to_Face/it.md) | [Macro Align Working Plane to Camera/it](Macro_Align_Working_Plane_to_Camera/it.md) |
+| [Macro Animated Constrain/it](Macro_Animated_Constrain/it.md) | [Macro Apothem Based Prism GUI/it](Macro_Apothem_Based_Prism_GUI/it.md) | [Macro Arch Axis System Repartition/it](Macro_Arch_Axis_System_Repartition/it.md) |
+| [Macro ArrayCopy/it](Macro_ArrayCopy/it.md) | [Macro Assemblage Imprimante 3D/it](Macro_Assemblage_Imprimante_3D/it.md) | [Macro Assembly/it](Macro_Assembly/it.md) |
+| [Macro Automatic drawing/it](Macro_Automatic_drawing/it.md) | [Macro BOLTS/it](Macro_BOLTS/it.md) | [Macro BoundingBox Tracing/it](Macro_BoundingBox_Tracing/it.md) |
+| [Macro Build Utility/it](Macro_Build_Utility/it.md) | [Macro Cabinets32/it](Macro_Cabinets32/it.md) | [Macro CartoucheFC 2/it](Macro_CartoucheFC_2/it.md) |
+| [Macro CartoucheFC Full/it](Macro_CartoucheFC_Full/it.md) | [Macro CartoucheFC/it](Macro_CartoucheFC/it.md) | [Macro Center Align Objects with Faces or Edges/it](Macro_Center_Align_Objects_with_Faces_or_Edges/it.md) |
+| [Macro CenterFace/it](Macro_CenterFace/it.md) | [Macro CenterOfMass/it](Macro_CenterOfMass/it.md) | [Macro Circle/it](Macro_Circle/it.md) |
+| [Macro CirclePlus/it](Macro_CirclePlus/it.md) | [Macro CloneConvert/it](Macro_CloneConvert/it.md) | [Macro Compound Plus/it](Macro_Compound_Plus/it.md) |
+| [Macro Connect And Sweep/it](Macro_Connect_And_Sweep/it.md) | [Macro Constraint Draft/it](Macro_Constraint_Draft/it.md) | [Macro Copy3DViewToClipboard/it](Macro_Copy3DViewToClipboard/it.md) |
+| [Macro Corner shapes wizard/it](Macro_Corner_shapes_wizard/it.md) | [Macro Corner shapes wizard/update/it](Macro_Corner_shapes_wizard/update/it.md) | [Macro crank simul/it](Macro_crank_simul/it.md) |
+| [Macro Creating faces from a DXF file/it](Macro_Creating_faces_from_a_DXF_file/it.md) | [Macro cross section/it](Macro_cross_section/it.md) | [Macro Cut Circle/it](Macro_Cut_Circle/it.md) |
+| [Macro Cut Line/it](Macro_Cut_Line/it.md) | [Macro DeepCopy/it](Macro_DeepCopy/it.md) | [Macro Delta xyz/it](Macro_Delta_xyz/it.md) |
+| [Macro documentation/it](Macro_documentation/it.md) | [Macro Draft Circle 3 Points 3D/it](Macro_Draft_Circle_3_Points_3D/it.md) | [Macro Draft Circle 3 Points/it](Macro_Draft_Circle_3_Points/it.md) |
+| [Macro Draw 2D Function/it](Macro_Draw_2D_Function/it.md) | [Macro Draw Parametric 2D Function/it](Macro_Draw_Parametric_2D_Function/it.md) | [Macro Dump Objects/it](Macro_Dump_Objects/it.md) |
+| [Macro Duplicate Selection/it](Macro_Duplicate_Selection/it.md) | [Macro DXF to Face and Sketch/it](Macro_DXF_to_Face_and_Sketch/it.md) | [Macro Easy cutouts for Enclosure Design/it](Macro_Easy_cutouts_for_Enclosure_Design/it.md) |
+| [Macro EdgesToArc/it](Macro_EdgesToArc/it.md) | [Macro Ellipse-Center+2Points/it](Macro_Ellipse-Center+2Points/it.md) | [Macro ExpandTreeItem/it](Macro_ExpandTreeItem/it.md) |
+| [Macro export transient FEM results/it](Macro_export_transient_FEM_results/it.md) | [Macro Extract Wires from Mesh/it](Macro_Extract_Wires_from_Mesh/it.md) |
 
 
 

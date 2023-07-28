@@ -19,6 +19,8 @@ Ce tutoriel est une présentation d\'utilisation destiné au lecteur le flux de 
 
 <img alt="" src=images/FEM_tutorial_result.png  style="width:600px;">
 
+
+
 ## Conditions
 
 -   FreeCAD version 0.17 ou supérieure.
@@ -26,7 +28,11 @@ Ce tutoriel est une présentation d\'utilisation destiné au lecteur le flux de 
 -   [Calculix](http://www.calculix.de/) est installé sur le système (inclus dans l\'installation de FreeCAD).
 -   Le lecteur possède les connaissances de base pour utiliser les ateliers [Part](Part_Workbench/fr.md) et [PartDesign](PartDesign_Workbench/fr.md).
 
+
+
 ## Procédure
+
+
 
 ### Modélisation
 
@@ -42,10 +48,14 @@ Dans cet exemple, un cube est utilisé comme objet d\'étude, mais tout modèle 
 
 Maintenant, nous avons un modèle avec lequel travailler.
 
+
+
 ### Créer l\'analyse 
 
 1.  Lancez l\'<img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [atelier FEM](FEM_Workbench/fr.md).
 2.  Sélectionnez l\'option **Modèle → <img src="images/FEM_Analysis.svg" width=16px> Conteneur d'analyse** dans le menu.
+
+
 
 ### Contraintes et forces 
 
@@ -60,10 +70,14 @@ Maintenant, nous avons un modèle avec lequel travailler.
 
 Nous venons d\'établir les restrictions et les forces pour notre étude statique.
 
+
+
 ### Matériau
 
 1.  Sélectionnez <img alt="" src=images/FEM_MaterialSolid.svg  style="width:24px;"> [Matériau pour solide](FEM_MaterialSolid/fr.md) puis choisir Calculix-Steel comme matériau.
 2.  Cliquez sur **OK**.
+
+
 
 ### Maillage
 
@@ -85,7 +99,11 @@ Vous pouvez également faire glisser et déposer un maillage pour une analyse m�
 
 Nous avons maintenant créé un maillage de notre objet et nous sommes prêt à ajouter des contraintes et des forces.
 
+
+
 ### Exécution du solveur 
+
+
 
 #### Procédure régulière 
 
@@ -95,10 +113,14 @@ Nous avons maintenant créé un maillage de notre objet et nous sommes prêt à 
 4.  Sélectionnez **Run CalculiX**.
 5.  Cliquez sur **OK**.
 
+
+
 #### Procédure rapide 
 
 1.  Sélectionnez l\'objet solveur <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> contenu dans le conteneur **Analysis**.
 2.  Cliquez sur <img alt="" src=images/FEM_SolverRun.svg  style="width:24px;"> [Lancer les calculs du solveur](FEM_SolverRun/fr.md).
+
+
 
 ### Analyse des résultats 
 
@@ -114,9 +136,11 @@ Nous avons maintenant créé un maillage de notre objet et nous sommes prêt à 
 Nous avons complété la procédure de base de l\'[atelier FEM](FEM_Workbench/fr.md).
 
 
- {{FEM Tools navi}}
+{{FEM Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM tutorial/fr

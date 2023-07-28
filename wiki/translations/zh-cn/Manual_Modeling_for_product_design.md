@@ -1,18 +1,9 @@
 # Manual:Modeling for product design/zh-cn
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{Manual:TOC/zh-cn}}
 
-[产品设计](https://en.wikipedia.org/wiki/Product_design)最初是商业术语，但在 3D 领域，通常意味着建模的时候，心里想着将来 [3D 打印](https://en.wikipedia.org/wiki/3D_printing)，或更一般地说，由机器（例如 3D 打印机或 [CNC 机床](https://en.wikipedia.org/wiki/Numerical_control)）制造出来。
+[产品设计](https://en.wikipedia.org/wiki/Product_design) 原本是商业术语，但在 3D 领域，通常意味着建模的时候，心里想着将来 [3D 打印](https://en.wikipedia.org/wiki/3D_printing)，或更一般地说，由机器（例如 3D 打印机或 [CNC 机床](https://en.wikipedia.org/wiki/Numerical_control)）制造出来。
 
-在 3D 世界打印物体时，最重要的是保证你的对象是 **实体** 的，因为它们将成为真实的，坚固的物体，这是显而易见的。当然，没有什么阻止它们在里面有空洞。但是总要明确哪个点在材料的里面，哪个点在外面。因为 3D 打印机或 CNC 机床需要确切地知道什么地方是填充/有材料，什么地方不填充/没有材料。因此，在 FreeCAD 中，[PartDesign Workbench](PartDesign_Workbench.md) 是构建此类作品的完美工具，因为它会始终保证对象的实体性和可构建。
+在进行 3D 打印时，确保对象是"实体"的非常重要。因为它们将成为真实的、实体的物体，这是显而易见的。当然，它们可以为空心的。但是，您始终需要清楚地知道哪些点在材料内部，哪些点在材料外部，因为 3D 打印机或数控机床需要准确地知道哪些地方填充了材料，哪些没有填充。因此，在 FreeCAD 中，[PartDesign Workbench](PartDesign_Workbench.md) 是构建这些零件的完美工具，因为它将始终为您保证，你的物体是实体，可构建。
 
 为了说明 PartDesign 的工作方式，我们练习建模著名的 [Lego](https://en.wikipedia.org/wiki/Lego) 玩具的这款模型。
 

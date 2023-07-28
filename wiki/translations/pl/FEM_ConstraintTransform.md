@@ -9,9 +9,13 @@
 
 # FEM ConstraintTransform/pl
 
+
+
 ## Opis
 
 Przekształca układ współrzędnych powierzchni na określony układ współrzędnych --- prostokątny lub cylindryczny.
+
+
 
 ## Użycie
 
@@ -23,9 +27,13 @@ Przekształca układ współrzędnych powierzchni na określony układ współrz
 4.  Wybierz powierzchnię, do której wcześniej zastosowano wiązanie przekształcenia. Naciśnij przycisk **Dodaj**.
 5.  W przypadku transformacji prostokątnej należy określić obrót wokół każdej z trzech osi.
 
+
+
 ## Ograniczenia
 
 -   Transformacja cylindryczna może być stosowana tylko do powierzchni cylindrycznych.
+
+
 
 ## Uwagi
 

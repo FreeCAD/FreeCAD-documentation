@@ -41,9 +41,6 @@ Tous les outils de l\'atelier Points sont accessibles depuis le menu **Points**.
 
 
 
-
-
-
 {{Points Tools navi
 
 }}

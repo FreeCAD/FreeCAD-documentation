@@ -86,7 +86,7 @@ Următorul tabel enumeră toate articolele din acest ghid wiki care formează co
 
 <div class="mw-translate-fuzzy">
 
-Pagina [help FreeCAD/ro](help_FreeCAD/ro.md) descrie asta mult mai detaliat. Începând cu 2016, FreeCAD participă de asemenea la [Google Summer of Code](Google_Summer_of_Code.md). Pagina [Contributors hub](Contributors_hub.md) este un alt efort pentru a pune împreună posibilele căi de a ajuta și acontribui la proiectul FreeCAD.
+Pagina [help FreeCAD/ro](help_FreeCAD/ro.md) descrie asta mult mai detaliat. Începând cu 2016, FreeCAD participă de asemenea la [Google Summer of Code](Google_Summer_of_Code.md).
 
 
 </div>

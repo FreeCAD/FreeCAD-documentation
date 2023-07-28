@@ -95,23 +95,23 @@ Il nuovo ambiente **TechDraw** mira a sostituire il workbench Drawing e fornisce
 ## Ambiente FEM 
 
 -   FEM Mesh
-    -   **Gmsh object** is a mesh object, which allows using the [Gmsh](http://gmsh.info/) meshing tool inside FreeCAD. Various options of Gmsh are supported.
-    -   **Boundary layer object for gmsh** makes it possible to create boundary layer.
-    -   **Mesh group object for gmsh** makes it possible to create nodes and element groups. The names can be changed by the user.
-    -   **Mesh region object for gmsh** makes it possible to define mesh regions with different mesh element sizes for nodes, edges, faces and volumes.
-    -   **GUI clear mesh tool** clears the mesh but keeps all mesh adjustments. This is very handy if files should be shared.
-    -   **GUI print mesh info tool** print all kinds of mesh information.
-    -   **GUI mesh view provider** is able to display quad face mesh as well as hexahedron, pentahedron and pyramid mesh elements.
-    -   **Mesh data model** was updated to use [SMESH](http://salome-platform.org) version 7.7.1 <https://github.com/FreeCAD/FreeCAD/commit/666a3e5a>
-    -   **Mesh API** was extended to allow Python to read mesh group data out of the FreeCAD SMESH FEM mesh data. This was the base for the Gmsh group object.
-    -   **Mesh API** was extended to export mesh groups to Abaqus and CalculiX inp file format.
-    -   **FEM mesh 2 mesh tool** converts a surface of a volume mesh into a mesh for FreeCAD\'s mesh module.
-    -   **Mesh problems:** Non-positive Jacobians are an often seen problem in FEM meshes. Elements which have non-positive Jacobians in CalculiX solver are colored in FreeCAD.
-    -   **Fenics** Import and export of Fenics mesh format has been added.
+    -   **Gmsh object** è un oggetto mesh, che consente di utilizzare lo strumento di meshing [1](http://gmsh.info/Gmsh) all\'interno di FreeCAD. Sono supportate varie opzioni di Gmsh.
+    -   **Boundary layer object for gmsh** consente di creare uno strato limite.
+    -   **Mesh group object for gmsh** permette di creare nodi e gruppi di elementi. I nomi possono essere modificati dall\'utente.
+    -   **Mesh region object for gmsh** consente di definire regioni mesh con diverse dimensioni degli elementi mesh per nodi, spigoli, facce e volumi.
+    -   **GUI clear mesh tool** cancella la mesh ma mantiene tutte le regolazioni della mesh. Questo è molto utile se i file devono essere condivisi.
+    -   **GUI print mesh info tool** stampa tutti i tipi di informazioni sulla mesh.
+    -   **GUI mesh view provider** è in grado di visualizzare mesh quadrupla così come elementi mesh esaedri, pentaedri e piramidali.
+    -   **Mesh data model** è stato aggiornato per utilizzare [SMESH](http://salome-platform.org) versione 7.7.1 <https://github.com/FreeCAD/FreeCAD/commit/666a3e5a>
+    -   **API mesh** è stata estesa per consentire a Python di leggere i dati del gruppo mesh dai dati mesh FEM SMESH di FreeCAD. Questa era la base per l\'oggetto di gruppo Gmsh.
+    -   **Mesh API** è stato esteso per esportare i gruppi di mesh nel formato di file Abaqus e CalculiX inp.
+    -   **FEM mesh 2 mesh tool** converte una superficie di una mesh di volume in una mesh per il modulo mesh di FreeCAD.
+    -   **Mesh problems:** Jacobiani non positivi sono un problema spesso riscontrato nelle mesh FEM. Gli elementi che hanno Jacobiani non positivi nel risolutore di CalculiX sono colorati in FreeCAD.
+    -   **Fenics** È stata aggiunta l\'importazione e l\'esportazione del formato mesh Fenics.
 
--   Objects
-    -   **Beam rotation object** enables the analysis of beams rotated around their main axis.
-    -   **Nonlinear material object** adds nonlinear material behavior to FreeCAD FEM. It supports linear change of stress strain curve.
+-   Oggetti
+    -   **Beam rotation object** consente l\'analisi di travi ruotate intorno al loro asse principale.
+    -   **Nonlinear material object** aggiunge il comportamento del materiale non lineare a FreeCAD FEM. Supporta il cambiamento lineare della curva di sollecitazione e deformazione.
     -   **Fluid material** \...
     -   **Constraint initial flow velocity** \...
     -   **Constraint fluid boundary**
@@ -123,43 +123,43 @@ Il nuovo ambiente **TechDraw** mira a sostituire il workbench Drawing e fornisce
     -   **Constraint plane rotation** \...
     -   **Constraint self weight** \...
 
--   Solver
-    -   **Solver frame work** was written from scratch during a Google Summer of Code project.
-    -   Support for FEM solver software **ElmerFEM**, <https://www.csc.fi/web/elmer>, was added.
-    -   Inside the solver frame work the analysis type can be chosen by an **equation object** (Elmer solver only, ATM.)
-    -   Basic support for FEM solver software **Z88**, <https://en.z88.de/z88os/>, was added.
-    -   **CalculiX** was ported to the solver frame work. The ccxtools solver object remains in FreeCAD FEM because it is very well tested and has extended pre checks.
+-   Risolutore
+    -   **Solver frame work** è stato scritto da zero durante un progetto Google Summer of Code.
+    -   È stato aggiunto il supporto per il software di risoluzione FEM **ElmerFEM**, <https://www.csc.fi/web/elmer>.
+    -   All\'interno del frame del risolutore il tipo di analisi può essere scelto da un **oggetto equazione** (solo risolutore Elmer, ATM.)
+    -   È stato aggiunto il supporto di base per il software risolutore FEM **Z88**, <https://en.z88.de/z88os/>.
+    -   **CalculiX** è stato portato nel frame work del risolutore. L\'oggetto risolutore ccxtools rimane in FreeCAD FEM perché è molto ben testato e dispone di controlli preliminari estesi.
 
 -   Calculix analysis
     -   **Coupled Thermal Structural Analysis** \...
     -   **1D pipe Flow analysis Analysis** \...
     -   **Coupled Beam Shell Solid models** \...
 
--   Standard Post Processing
-    -   **Shell and beam 3D output** Make it possible to output shell and beam analysis as 3D solid output to see stresses in sections.
-    -   **Peeq strain** Support for equivalent plastic strain has been added to the result object, result reader and vtk post processing.
+-   Post-elaborazione standard
+    -   **Shell and beam 3D output** Rende possibile l\'output dell\'analisi di shell e trave come output solido 3D per vedere le sollecitazioni nelle sezioni.
+    -   **Peeq strain** Il supporto per la deformazione plastica equivalente è stato aggiunto all\'oggetto risultato, al lettore di risultati e alla post-elaborazione vtk.
 
--   Extended Post Processing
-    -   **VTK** An extended post processing based on [VTK](https://www.vtk.org/) has been added.
+-   Post-elaborazione estesa
+    -   **VTK** È stata aggiunta una post-elaborazione estesa basata su [2](https://www.vtk.org/VTK).
     -   **Clip filter** \...
     -   **Scalar clip filter** \...
     -   **Cut filter** \...
     -   **Wrap vector filter** \...
     -   **Linearized stresses** \...
-    -   **Data at point** A tool to get the result data for a specific point.
-    -   **Data along line** A tool to get the result data for a specific line printed as a diagram.
+    -   **Data at point** Uno strumento per ottenere i dati dei risultati per un punto specifico.
+    -   **Data along line** Uno strumento per ottenere i dati dei risultati per una linea specifica stampati come diagramma.
 
--   Fixes, code and other stuff
-    -   The **unit tests suite** for FEM work bench has been extended.
-    -   The **code basis** has been massively improved.
-    -   Most of FEM code has been ported to **Python3**.
-    -   Furthermore there have been **tons of bugs** found and fixed.
-    -   All **icons** have been nicely redrawn and in conjunction with guidelines.
-    -   **Code formating** There should be no more tabs and white spaces in all FEM source code.
-    -   Python code complies with most rules of **flake8**.
-    -   Dozens of **typos** inside source code have been fixed (AFAIK this applies to all FreeCAD, luzpaz finds all of them like finding a needle in the haystack).
+-   Correzioni, codice e altre cose
+    -   La **unit test suite** per l\'ambiente FEM è stata estesa.
+    -   La **base del codice** è stata notevolmente migliorata.
+    -   La maggior parte del codice FEM è stata trasferita su **Python3**.
+    -   Inoltre sono stati trovati e corretti **tonnellate di bug**.
+    -   Tutte le **icone** sono state piacevolmente ridisegnate e in combinazione con le linee guida.
+    -   **Formazione del codice** Non dovrebbero esserci più tabulazioni e spazi bianchi in tutto il codice sorgente FEM.
+    -   Il codice Python è conforme alla maggior parte delle regole di **flake8**.
+    -   Dozzine di **refusi** all\'interno del codice sorgente sono stati corretti (AFAIK questo vale per tutti i FreeCAD, luzpaz li trova tutti come trovare un ago nel pagliaio).
 
--   Some Pictures
+-   Alcune Immagini
 
 <img alt="" src=images/bridge-all.png  style="width:640px;"> <img alt="" src=images/bridge-detail.png  style="width:640px;"> 
 
@@ -179,13 +179,7 @@ Il nuovo ambiente **TechDraw** mira a sostituire il workbench Drawing e fornisce
 
 -   Miglioramenti: [Rivoluziona](Part_Revolve/it.md) ora supporta il collegamento parametrico all\'asse di rivoluzione.
 
-
-<div class="mw-translate-fuzzy">
-
 -   La nuova utility [Associazione](Part_EditAttachment/it.md) accessibile dal menu *Part → Attachment...* può essere usata per collegare parametricamente la maggior parte dei tipi di oggetti ad altre geometrie.
-
-
-</div>
 
 -   Il nuovo [contenitore Part](Std_Part/it.md) può essere usato per raggruppare la maggior parte di tipi di forme e spostarle come una unità. Contiene inoltre piani e assi standard a cui allegare oggetti. Servirà come base per il futuro ambiente di Assemblaggio fornendo un modo per spostare le parti. È disponibile in tutti i workbench da una barra degli strumenti insieme a [Gruppo](Std_Group/it.md).
 
@@ -209,13 +203,7 @@ Il workbench PartDesign ha ricevuto enormi cambiamenti, frutto degli sforzi cong
 
 Il workbench Path è stato ampiamente revisionato nella versione 0.17. La revisione ha visto la rimozione di tutti i vecchi codici HeeksCNC e la sostituzione del wrapper libarea python con il nuovo modulo Path-Area. Di conseguenza le operazioni sono diventate molto più potenti, più veloci, con una base di codice semplificata.
 
-
-<div class="mw-translate-fuzzy">
-
 -   Il supporto per le operazioni 2.5D è completo e include [contour](Path_Profile/it.md), [face-milling](Path_MillFace/it.md), [pocketing](Path_Pocket_Shape/it.md), [profiling](Path_Profile/it.md), e [drilling](Path_Drilling/it.md)
-
-
-</div>
 
 -   Supporto limitato per le operazioni [3D pocketing](Path_Pocket_3D/it.md).
 
@@ -291,13 +279,7 @@ Il workbench Path è stato ampiamente revisionato nella versione 0.17. La revisi
 
 ## Ambiente TechDraw 
 
-
-<div class="mw-translate-fuzzy">
-
 [TechDraw](TechDraw_Workbench/it.md) è un nuovo workbench per la creazione dei disegni tecnici che mira a sostituire il workbench Drawing obsoleto. FreeCAD v0.17 è ancora fornito con il workbench Drawing in modo che si possa ancora aprire e modificare i file contenenti le pagine di Drawing, ma Drawing verrà eliminato gradualmente in una versione futura. Alcune delle interessanti novità che TechDraw offre:
-
-
-</div>
 
 -   La maggior parte degli strumenti di Drawing ha una controparte in TechDraw.
 -   La creazione e manipolazione delle viste è più facile. Le viste possono essere afferrate dal loro bordo con il mouse e trascinate sulla pagina. L\'allineamento delle viste ortogonali può essere bloccato.
@@ -319,7 +301,7 @@ Alcuni dei nuovi moduli che sono stati creati dalla comunità.
 
 -   [Nurbs](https://github.com/microelly2/freecad-nurbs), una raccolta di script per la gestione di superfici e curve libere.
 
--   [Silk](https://github.com/edwardvmills/Silk), a collection of NURBS surface modeling tools focused on low degree and seam continuity.
+-   [Silk](https://github.com/edwardvmills/Silk), una raccolta di strumenti di modellazione di superfici NURBS focalizzata su curve di basso livello e continuità delle giunzioni.
 
 -   [Flamingo Workbench](Flamingo_Workbench/it.md) una serie di comandi e di oggetti FreeCAD personalizzati che consentono di velocizzare il disegno di strutture e tubazioni.
 

@@ -10,12 +10,16 @@
 
 # FEM MaterialSolid/de
 
+
+
 ## Beschreibung
 
 Fügt einem Teil Materialeigenschaften hinzu.
 
 ![](images/FEMMaterialSolidProperties.png ) 
 *Der Aufgabenbereich FEM-Material*
+
+
 
 ## Anwendung
 
@@ -30,6 +34,8 @@ Fügt einem Teil Materialeigenschaften hinzu.
 6.  Die Materialeigenschaften wie density (Dichte), young\'s modulus (Elastizitätsmodul), poisson ratio (Querkontraktionszahl) usw. können angepasst werden, dabei sind die gängigsten Werkstoffe schon in den Voreinstellungen vorhanden und brauchen keine Feinabstimmung.
 7.  Wurden Einstellungen geändert, kann das angepasste Material gespeichert werden.
 8.  Aut die Schaltfläche **OK** klicken, um den Aufgabenbereich zu schließen.
+
+
 
 ## Hinweise
 

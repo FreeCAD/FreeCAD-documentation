@@ -1,6 +1,8 @@
 # Mouse navigation/de
 {{TOCright}}
 
+
+
 ## Überblick
 
 Die FreeCAD **Mausnavigation** besteht aus den verwendeten Befehlen zur visuellen Navigation im 3D Raum und zur Interaktion mit den angezeigten Objekten. FreeCAD unterstützt mehrere Mausnavigationsstile. Der standardmäßige Navigationsstil wird als [CAD Navigation](#CAD_navigation.md) bezeichnet und ist sehr einfach und praktisch, jedoch bietet FreeCAD auch alternative Navigationsstile, die du nach deinen Vorlieben auswählen kannst. Der ausgewählte Navigationsstil wird in allen Arbeitsbereichen verwendet.
@@ -9,24 +11,23 @@ Für mehr Information über das Auswählen von Objekten siehe [Auswahlmethoden](
 
 Für mehr Informationen zum Bearbeiten von Objekten siehe [Std Transformieren](Std_TransformManip/de.md).
 
+
+
 ## Navigationsstil auswählen 
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Führe eine von folgenden Aktionen aus
-    -   Drücke die **[<img src=images/NavigationCAD_dark.svg style="width:16px">** Schaltfläche in der [Status bar](Status_bar/de.md).
-    -   Rechtsklick auf einen lehren Bereich in der [3D Ansicht](3D_view/de.md), wähle anschließend **Navigation styles** im Kontextmenü.
-    -   Benutzen den [Voreinstellungseditor](Preferences_Editor/de#Navigation.md). Wähle dafür im Menü **Edit → Preferences** und dann **Display → Navigation → 3D Navigation**.
-2.  Wähle einen Stil von der List.
-3.  Ändere optional den **Orbit style**: drücke die **[<img src=images/NavigationCAD_dark.svg style="width:16px">** Schaltfläche in der [Status bar](Status_bar/de.md) und Wähle **Settings → Orbit style**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
-4.  Verändere optional den **Rotation mode**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
-5.  Fals der **CAD** Navigationsstil ausgewählt ist: Ändere optional die **Enable animation** Einstellung. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
+1.  Führe eine von folgenden Aktionen aus:
+    -   Drücke die **[<img src=images/NavigationCAD_dark.svg style="width:16px">**-Schaltfläche in der [Statusleiste](Status_bar/de.md).
+    -   Rechtsklick auf einen leeren Bereich in der [3D Ansicht](3D_view/de.md) und wähle anschließend **Navigationsstile** im Kontextmenü.
+    -   Wähle aus dem Menü den [Voreinstellungseditor](Preferences_Editor/de#Navigation.md) und dort **Bearbeiten → Einstellungen** und dann aus **Anzeige → Navigation → 3D Navigation** einen Stil aus der Liste.
+2.  Ändere gegebenenfalls den **Orbit Stil**: drücke die **[<img src=images/NavigationCAD_dark.svg style="width:16px">**-Schaltfläche in der [Statusleiste](Status_bar/de.md) und wähle **Einstellungen → Orbit Stil**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
+3.  Verändere gegebenenfalls die **Art der Drehung**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
+4.  Falls der **CAD** Navigationsstil ausgewählt ist: ändere gegebenenfalls die **Animation zulassen**-Einstellung. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
 
 
-</div>
 
 ## Verfügbare Navigationsstile 
+
+
 
 ### Blender Navigation 
 
@@ -47,6 +48,8 @@ Alternativ kann auch die linke und rechte Maustaste gedrückt gehalten und der M
 |Rotate_view_text=Halte die mittlere Maustaste gedrückt und bewege den Mauszeiger.
 }}
 
+
+
 ### CAD Navigation 
 
 Dies ist der Standard Navigationsstil. Er ermöglicht dem Benutzer eine einfache Steuerung der Ansicht und erfordert keine Verwendung von Tastaturtasten, außer um Mehrfachauswahlen zu treffen.
@@ -62,31 +65,27 @@ Dies ist der Standard Navigationsstil. Er ermöglicht dem Benutzer eine einfache
 |Shift=**Shift**
 |Select_text=Drücke die linke Maustaste über einem Objekt das du auswählen möchtest.
 
-<div class="mw-translate-fuzzy">
-Niederhalten von **Strg** ermöglicht die Auswahl mehrerer Objekte.
+**Strg** gedrückt halten, um die Auswahl mehrerer Objekte zu ermöglichen.
 |Pan_text=Halte die mittlere Maustaste gedrückt und bewege den Mauszeiger.
-|Pan_mode_text=Pan Modus: Halte die **Strg** Taste gedrückt, drücke einmal die rechte Maustaste und bewege dann den Mauszeiger.
-|Zoom_text=Verwende das Mausrad, um ein- und auszuzoomen.
-</div>
+|Pan_mode_text=Pan Modus: **Strg** gedrückt halten und einmal die rechte Maustaste drücken und dann den Mauszeiger bewegen.
+|Zoom_text=Verwende das Mausrad, um herein- und hinausaus zu zoomen.
 
 Ein Klick auf die mittlere Maustaste zentriert die Sicht wieder auf die Position der Cursors.
 |Zoom_mode_text=Zoom Modus: Halte die **Strg** und **Shift** Tasten gedrückt, drücke einmal die rechte Maustaste und bewege dann den Zeiger.
 |Rotate_view_text=Halte die mittlere Maustaste gedrückt, dann drücke und halte die linke Maustaste, dann bewege den Mauszeiger.
 
-<div class="mw-translate-fuzzy">
-Die Cursorposition beim Drücken der mittleren Maustaste bestimmt den Drehmittelpunkt. Die Drehung funktioniert wie das Drehen einer Kugel, die sich um ihr Zentrum dreht. Wenn die Tasten losgelassen werden, bevor du die Mausbewegung stoppst, wird die Ansicht [Std DemoModus](spinning/de.md) fortgesetzt, sofern dies aktiviert ist.
-</div>
+Werden die Tasten losgelassen, bevor die Mausbewegung gestoppt ist, wird die Drehung der Ansicht fortgesetzt, sofern dies aktiviert ist.
 
-<div class="mw-translate-fuzzy">
 Ein Doppelklick mit der mittleren Maustaste setzt einen neuen Drehmittelpunkt.
-|Rotate_view_mode_text=Dreh-Modus: Halte die Taste **Shift** gedrückt, drücke einmal die rechte Maustaste und bewege den Mauszeiger. {{Version/de|0.17}}
-|Rotate_view_alt_text=Halte die mittlere Maustaste gedrückt, dann drücke und halte die rechte Maustaste und bewege den Mauszeiger.
-</div>
+|Rotate_view_mode_text=Dreh-Modus: **Shift** gedrückt halten, einmal die rechte Maustaste drücken und den Mauszeiger bewegen.
+|Rotate_view_alt_text=Die mittlere Maustaste gedrückt halten, die rechte Maustaste drücken und halten und dann bewege den Mauszeiger.
 
 Mit dieser Methode kann die mittlere Maustaste losgelassen werden, nachdem die rechte Maustaste gedrückt gehalten wird.
 
 Anwender, die die Maus mit der rechten Hand benutzen, finden diese Methode möglicherweise einfacher als die erste Methode.
 }}
+
+
 
 ### Gestennavigation
 
@@ -120,15 +119,11 @@ Im [Skizzierer](Sketcher_Workbench/de.md) die **Alt**-Taste halten.
 In der Version 0.18 ist diese Methode per Voreinstellung deaktiviert. Im **Bearbeiten → Einstellungen → Anzeige**, das Häckchen bei "Deaktiviere die Touchscreen Neige Geste" entfernen, um sie zu aktivieren.
 }}
 
+
+
 ### Maya-Gestennavigation 
 
-
-<div class="mw-translate-fuzzy">
-
-In der Maya-Gestennavigation werden Schwenken, Zoomen und Drehen durch Drücken der **ALT**- und einer Maustaste aktiviert. Daher wird eine 3-Tasten-Maus benötigt. Es ist auch möglich, Gesten zu verwenden, da dieser Modus über den [Gestennavigationsmodus](#Gestennavigation.md) entwickelt wurde.
-
-
-</div>
+In der Maya-Gestennavigation werden Schwenken, Zoomen und Drehen der Ansicht durch Drücken der **ALT**- zusammen mit einer Maustaste aktiviert. Daher wird eine 3-Tasten-Maus benötigt. Es ist auch möglich, Gesten zu verwenden, da dieser Modus über den [Gestennavigationsmodus](#Gestennavigation.md) entwickelt wurde.
 
 
 {{MayaGesture Navigation
@@ -146,14 +141,10 @@ Oder mit dem Mausrad hinein- oder hinauszoomen.
 }}
 
 
-<div class="mw-translate-fuzzy">
 
-### OpenCascade
+### OpenCascade - Navigation 
 
-
-</div>
-
-The OpenCascade navigation style was modeled after [OpenCascade](https://www.opencascade.com/).
+Der OpenCascade - Navigationsstil wurde gemäß [OpenCascade](https://www.opencascade.com/) gestaltet.
 
 
 {{OpenCascade Navigation
@@ -170,26 +161,13 @@ Oder die **Strg**-Taste und die linke Maustaste halten und den Mauszeiger bewege
 |Rotate_view_text=Die **Strg**- und die rechte Maustaste drücken und den Mauszeiger bewegen.
 }}
 
+
+
 ### OpenInventor Navigation 
 
-
-<div class="mw-translate-fuzzy">
-
-Die OpenInventor Navigation (ehemals Inventor) wurde nach dem Vorbild von [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor) gestaltet. Um Objekte auszuwählen, muss du die **Strg** Taste gedrückt halten.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Die OpenInventor - Navigation (ehemals Inventor) wurde gemäß [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor) gestaltet. Um Objekte auszuwählen, muss **Hochstellen (Shift)** oder **strg** gedrückt gehalten werden.
 
 Dieser Modus basiert nicht auf Autodesk Inventor.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 
 {{OpenInventor Navigation
@@ -197,40 +175,41 @@ Dieser Modus basiert nicht auf Autodesk Inventor.
 |Pan_name=Schwenken
 |Zoom_name=Zoom
 |Rotate_view_name=Ansicht drehen
-|Ctrl=**Strg**
-|Select_text=Halte die Taste **Strg** gedrückt und drücke dann die linke Maustaste über einem Objekt, das ausgewählt werden soll.
-|Pan_text=Halte die mittlere Maustaste gedrückt und bewege den Mauszeiger.
-|Zoom_text=Verwende das Mausrad, um ein- und auszuzoomen.
-</div>
+|Hochsetzen (Shift)=**Shift**
+|Select_text=**Shift** gedrückt halten und dann die linke Maustaste drücken und über das Objekt fahren, das ausgewählt werden soll.
 
-Hold down **Ctrl** instead to select multiple objects.
-|Pan_text=Hold the middle mouse button, then move the pointer.
-|Zoom_text=Use the mouse wheel to zoom in and out.
+Statt dessen **Strg** gedrückt halten, um mehrere Objekte zu markieren.
+|Pan_text=Die mittlere Maustaste gedrückt halten und den Mauszeiger bewegen.
+|Zoom_text=Mit der mittleren Maustaste hinein- und herauszoomen.
 
 Alternativ halte die mittlere Maustaste, dann drücke und halte die linke Maustaste, dann bewege den Mauszeiger. 
 |Rotate_view_text=Halte die linke Maustaste, dann bewege den Mauszeiger.
 }}
 
-### OpenSCAD navigation 
 
-The OpenSCAD navigation style was modeled after [OpenSCAD](https://openscad.org/).
+
+### OpenSCAD Navigation 
+
+Die OpenSCAD Navigation wurde gemäß [OpenSCAD](https://openscad.org/) gestaltet.
 
 
 <small>(v0.20)</small> 
 
 
 {{OpenSCAD_Navigation
-|Select_name=Select
-|Pan_name=Pan
+|Select_name=Auswählen
+|Pan_name=Schwenken
 |Zoom_name=Zoom
-|Rotate_view_name=Rotate view
+|Rotate_view_name=Ansicht drehen
 |Shift=**Shift**
-|Select_text=Press the left mouse button over an object you want to select.
-|Pan_text=Hold the right mouse button, then move the pointer.
-|Zoom_text=Hold the middle mouse button, then move the pointer.
-Alternatively, hold **Shift** and the right mouse button, then move the pointer.
-|Rotate_view_text=Hold the left mouse button, then move the pointer.
+|Select_text=Die linke Maustaste drücken und über das Objekt fahren, das markiert werden soll.
+|Pan_text=Die rechte Maustaste drücken und den Mauszeiger bewegen.
+|Zoom_text=Die mittlere Maustaste drücken und den Mauszeiger bewegen.
+Alternativ **Hochstellen (Shift)** und die rechte Maustaste halten und den Mauszeiger bewegen.
+|Rotate_view_text=Die linke Maustaste drücken und den Mauszeiger bewegen.
 }}
+
+
 
 ### Revit Navigation 
 
@@ -254,6 +233,8 @@ Oder die linke und rechte Maustaste halten und den Mauszeiger bewegen.
 Oder die mittlere und die rechte Maustaste drücken und den Mauszeiger bewegen.
 }}
 
+
+
 ### TinkerCAD Navigation 
 
 Der TinkerCAD Navigationsstil basiert auf [TinkerCAD](https://en.wikipedia.org/wiki/Tinkercad).
@@ -263,67 +244,60 @@ Der TinkerCAD Navigationsstil basiert auf [TinkerCAD](https://en.wikipedia.org/w
 
 
 {{TinkerCAD Navigation
-|Select_name=Select
-|Pan_name=Pan
-|Zoom_name=Zoom
-|Rotate_view_name=Rotate view
-|Select_text=Press the left mouse button over an object you want to select.
-|Pan_text=Hold the middle mouse button, then move the pointer.
-|Zoom_text=Use the mouse wheel to zoom in and out.
-|Rotate_view_text=Press the right mouse button, then move the pointer.
-}}
-
-### Touchpad Navigation 
-
-In Touchpad Navigation, panning, zooming, and rotating the view require a modifier key together with the touchpad.
-
-
-<div class="mw-translate-fuzzy">
-
-In der Touchpad-Navigation erfordern das Schwenken, Zoomen und Drehen der Ansicht eine Modifizierungstaste zusammen mit dem Touchpad. {{Touchpad Navigation
 |Select_name=Auswählen
 |Pan_name=Schwenken
 |Zoom_name=Zoom
 |Rotate_view_name=Ansicht drehen
-|Shift=**Shift**
-|Ctrl=**Strg**
-|Alt=**Alt**
-|PageUp=**PageUp**
-|PageDown=**PageDown**
-|Select_text=Drücke die linke Maustaste über einem Objekt, das ausgewählt werden soll.
-|Pan_text=Halte **Shift**, und bewege dann den Mauszeiger.
-|Zoom_text=Verwende **PageUp** und **PageDown** um hinein- und herauszuzoomen.
-|Zoom_alt_text=Alternativ kann **Shift** und **Strg** gedrückt gehalten und dann der Mauszeiger bewegt werden.
-|Rotate_view_text=Halte **Alt** gedrückt und bewege dann den Mauszeiger.
-|Rotate_view_alt_text=Alternativ kann **Shift** und die linke Taste gedrückt gehalten und dann der Mauszeiger bewegt werden.
+|Select_text=Die linke Maustaste drücken und über das Objekt fahren, das ausgewählt werden soll.
+|Pan_text=Die mittlere Maustaste halten und den Mauszeiger bewegen.
+|Zoom_text=Mit dem Mausrad hinein- und herauszoomen.
+|Rotate_view_text=Die rechte Maustaste drücken und den Mauszeiger bewegen.
 }}
 
 
-</div>
+
+### Touchpad Navigation 
+
+Bei der Navigation mit einer Tastfläche (touchpad) erfordert das Schwenken, Zoomen und Drehen der Ansicht das Drücken einer zusätzlichen Erweiterungstaste.
+
+
+{{Touchpad Navigation
+|Select_name=Auswählen
+|Pan_name=Schwenken
+|Zoom_name=Zoom
+|Rotate_view_name=Ansicht drehen
+|Ctrl=**Strg**
+|Shift=**Shift**
+|Alt=**Alt**
+|PageUp=**PageUp**
+|PageDown=**PageDown**
+|Select_text=Die linke Maustaste drücken und über ein Objekt fahren, das ausgewählt werden soll.
+|Pan_text=Halte **Shift**, und dann den Mauszeiger bewegen.
+|Zoom_text=Verwende **PageUp** und **PageDown**, um hinein- und heraus zu zoomen.
+|Zoom_alt_text=Alternativ kann **Strg** und **Shift** gedrückt gehalten und dann der Mauszeiger bewegt werden.
+|Rotate_view_text=**Alt** gedrückt halten und dann dann den Mauszeiger bewegen.
+|Rotate_view_alt_text=Alternativ kann **Shift** und die linke Taste gedrückt gehalten und dann der Mauszeiger bewegt werden.
+}}
 
 ## Hardware support 
 
 FreeCAD unterstützt auch einige [3D Eingabegeräte](3D_input_devices/de.md).
 
 
-<div class="mw-translate-fuzzy">
 
-## Mac OS X Probleme 
+## Empfohlene Navigation unter macOS 
 
+Auf MacBooks mit einer Tastfläche (trackpad) funktioniert die Gesture Navigation sehr gut, jedoch haben die Gesten eine besondere Bedeutung:
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Vor kurzem erhielten wir Berichte von Mac Anwendern [im Forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0), dass diese Maustaste und Tastenkombination nicht wie erwartet funktionieren. Leider besitzt keiner der Entwickler einen Mac, ebenso wenig wie die anderen regelmäßigen Mitwirkenden. Wir benötigen Eure Hilfe, um festzustellen, welche Maustasten und Tastenkombinationen funktionieren, damit wir dieses Wiki aktualisieren können.
+-   Zoom: mit zwei Fingern ziehen.
+-   Drehen: mit drei Fingern ziehen.
+-   Schwenken: **strg** drücken und drei Finger verwenden.
 
 
-</div>
 
 ## Einen eigenen Navigationsstil entwickeln 
 
-The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD.md) orients developers who want to develop a custom mouse navigation option. Familiarity with the C++ syntax is required.
+Die Beschreibung [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD.md) zeigt Entwicklern, die eine Möglichkeit zur Erstellung benutzereigener Mausnavigationen entwickeln wollen, einen Weg dazu. Kenntnisse zur C++ - Entwicklung sind hierzu erforderlich.
 
 
 

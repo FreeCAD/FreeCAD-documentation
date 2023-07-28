@@ -4,6 +4,8 @@
 
 {{Fake heading|sub=4|< Back to [[FreeCAD Howto Import Export]]}}
 
+
+
 ## ¿Por qué es difícil soportar archivos DWG en FreeCAD? 
 
 
@@ -15,12 +17,16 @@ El formato **DWG es un formato de archivo binario de código cerrado** que no es
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## ¿Qué necesito para poder importar archivos DWG? 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -78,7 +84,9 @@ make install (o usa checkinstall, o simplemente localiza y copia la u
 
 </div>
 
-You need to set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
+Place the executable in the OS search path, {{Incode|os.getenv("PATH")}}, for automatic detection (<small>(v0.21)</small> ), or set the path manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -115,7 +123,9 @@ En cualquier terminal/consola (se requieren derechos de root) la instalación se
 zypper install libredwg0 libredwg-tools
 ```
 
-You need to set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
+Place the executable in the OS search path, {{Incode|os.getenv("PATH")}}, for automatic detection (<small>(v0.21)</small> ), or set the path manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -136,6 +146,8 @@ El ODA Conversor es una pequeña utilidad de libre acceso que permite convertir 
 
 
 </div>
+
+
 
 #### Instalación
 
@@ -160,13 +172,17 @@ QCAD is a well-known open-source DXF-based 2D CAD platform. It also offers a pai
 
 #### Installation
 
-You need to set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
+If the utility is not found automatically by FreeCAD after installation (<small>(v0.21)</small> ), you need to set the path to the bash file (Linux and macOS) or batch file (Windows) manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
+
+
 
 ### CADExchanger Ambiente de trabajo 
 
 La instalación de CADExchanger Workbench permite trabajar con archivos DWG a través de la integración con el producto comercial de pago de conversión de archivos [CADExchanger](https://cadexchanger.com/). Sólo tienes que seguir las instrucciones en el [repositorio GitHub](https://github.com/yorikvanhavre/CADExchanger). Puedes discutir este ambiente de trabajo en [su hilo del foro](https://forum.freecadweb.org/viewtopic.php?f=9&t=22227&p=462421).
 
 Por el momento, el modo CADExchanger es el único que permite trabajar con archivos DWG 3D, convirtiéndolos a otros formatos 3D.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -183,6 +199,8 @@ También existe DoubleCAD XT (https://www.turbocad.com/content/doublecad-xt-v5).
 ### NanoCAD 5.0 
 
 También existe nanoCAD 5.0 (https://nanocad.com/products/nanoCAD/download/). El programa es gratuito para uso personal y comercial. Requiere un registro gratuito para recibir un código de activación por correo electrónico. Este programa es sólo para Windows.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -203,6 +221,8 @@ Es importante saber que, contrariamente a la creencia popular, no hay ninguna di
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## ¿Qué puedo hacer para ayudar? 
@@ -210,9 +230,13 @@ Es importante saber que, contrariamente a la creencia popular, no hay ninguna di
 
 </div>
 
+
+
 ### Promover el uso de formatos alternativos 
 
 En pocas palabras, deje de aceptar trabajos realizados en formato DWG. En la práctica, esto es a menudo más fácil de decir que de hacer. Aún así, no sería una mala práctica para los usuarios y partidarios de FreeCAD evitar y rechazar el formato DWG siempre que sea posible.
+
+
 
 ### Utilizar la biblioteca LibreDWG y presentar informes de errores 
 

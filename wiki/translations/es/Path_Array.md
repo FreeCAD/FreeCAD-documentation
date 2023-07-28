@@ -13,9 +13,13 @@
 
 </div>
 
+
+
 ## Descripción
 
-This tool creates a new path by duplicating another path several times at a certain interval distance.
+The tool <img alt="" src=images/Path_Array.svg  style="width:24px;"> [Array](Path_Array.md) creates a new path by duplicating another path several times at a certain interval distance.
+
+
 
 ## Utilización
 
@@ -24,6 +28,8 @@ This tool creates a new path by duplicating another path several times at a cert
 3.  Press **Apply**
 4.  Adjust the desired properties at the data box
 
+
+
 ## Propiedades
 
 -    **Type**: The type array (polar, linear one ore two directions)
@@ -31,6 +37,8 @@ This tool creates a new path by duplicating another path several times at a cert
 -    **Offset**: The spacing between the array copies for each direction
 
 -    **Copies**: The number of copies (not counting the original) for each direction
+
+
 
 ## Guión
 

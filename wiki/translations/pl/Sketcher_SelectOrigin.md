@@ -1,23 +1,28 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher SelectOrigin
-   MenuLocation:Sketch → Sketcher tools → Select origin
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Wybierz odniesienie położenia
+   MenuLocation:Szkic → Narzędzia szkicownika → Wybierz odniesienie położenia
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**Z** **O**
    Version:0.15
 ---
 
 # Sketcher SelectOrigin/pl
 
-## Description
 
-Selects the origin of a sketch.
 
-## Usage
+## Opis
 
-1.  Enter edit mode of sketch.
-2.  Choose **Sketch → Sketcher tools → [<img src=images/Sketcher_SelectOrigin.svg style="width:16px"> Select origin** from the top menu.
-3.  The origin of the sketch will be selected.
+Zaznacza punkt początkowy szkicu *(odniesienie położenia)*.
+
+
+
+## Użycie
+
+1.  Wejdź w tryb edycji szkicu.
+2.  Wybierz opcję menu głównego **Szkic → Narzędzia szkicownika → [<img src=images/Sketcher_SelectOrigin.svg style="width:16px"> Wybierz odniesienie położenia**.
+3.  Zostanie wybrany punkt odniesienia położenia szkicu.
 
 
 

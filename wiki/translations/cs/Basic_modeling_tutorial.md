@@ -205,10 +205,10 @@ Označení na tlačítku Vašeho FreeCADu může být jiné v závislosti na ver
 Instrukce uvedené výše budou fungovat bez ohledu na to co je tlačítku.
 
 
-  {{Userdocnavi
+ {{Userdocnavi
 ---
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Basic modeling tutorial/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Basic modeling tutorial/cs

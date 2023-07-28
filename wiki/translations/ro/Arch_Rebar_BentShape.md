@@ -8,6 +8,8 @@
 ---
 - GuiCommand:Addon   Name:Arch Rebar BentShape   Workbenches:[Addon:Reinforcement   MenuLocation:Arch → Rebar tools   Shortcut:None   SeeAlso:[[Arch_Rebar_Stirrup|Stirrup](Arch_Workbench/ro___Arch]].md)---
 
+
+
 ## Descriere
 
 
@@ -31,6 +33,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 
 </div>
+
+
 
 ## Cum se folosește 
 
@@ -59,6 +63,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 *Taskview panel for the Arch Rebar BentShape tool*
 
+
+
 ## Proprietăți
 
 -    **Orientation**: Acesta decide orientarea armăturii (de ex. jos, sus, drepta și stânga).
@@ -82,12 +88,19 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 -    **Spacing**: Distanța între acele fiecărei bare.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Scrip-Programare 
 
 
 </div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">

@@ -14,32 +14,18 @@
 
 ## Descrizione
 
+Il comando **Addon manager** apre il gestore Addon. Con Addon Manager è possibile installare e gestire [Ambienti complementari](external_workbenches/it.md), [macro](macros/it.md) e [Pacchetti di Preferenze](Preference_Packs/it.md) forniti dalla community di FreeCAD. Per impostazione predefinita, i componenti aggiuntivi disponibili sono presi da due repository, [1](https://github.com/FreeCAD/FreeCAD-addons/FreeCAD-addons) e dalla pagina [Raccolta di macro](Macros_recipes/it.md). Se GitPython e git sono installati sul proprio sistema, macro aggiuntive verranno caricate da [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/). I repository personalizzati possono essere aggiunti nelle [Preferenze di Addon manager](Preferences_Editor#Addon_Manager/it.md).
 
-<div class="mw-translate-fuzzy">
-
-Il comando **Std AddonMgr** apre Addon manager. Con il gestore degli addon è possibile installare e gestire gli [ambienti esterni](external_workbenches/it.md) e le [macro](macros/it.md) forniti dalla comunità di FreeCAD. Gli ambienti e le macro disponibili sono presi da due repository, [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) e [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/), e dalla pagina [Raccolta di macro](Macros_recipes/it.md).
-
-
-</div>
-
-Due to changes to the GitHub platform in the year 2020 the Addon manager no longer works if you use FreeCAD version 0.17 or earlier. You need to upgrade to version [0.18.5](https://github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) or later. Alternatively you can install addons manually, see [Notes](#Notes.md) below.
+A causa delle modifiche alla piattaforma GitHub nell\'anno 2020, il gestore Addon non funziona più se si utilizza FreeCAD versione 0.17 o precedente. È necessario eseguire l\'aggiornamento alla versione [0.18.5](https://github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) o successiva. In alternativa è possibile installare i componenti aggiuntivi manualmente, vedi [Note](#Note.md) di seguito.
 
 
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Selezionare l\'opzione **Strumenti → <img src="images/Std_AddonMgr.svg" width=16px> Addon manager** dal menu principale.
-2.  La prima volta che si usa il gestore Addon si apre una finestra di dialogo che avverte che i componenti aggiuntivi nel gestore Addon non fanno ufficialmente parte di FreeCAD. Premere il pulsante **OK** per confermare e continuare.
+2.  La prima volta che si usa il gestore Addon si apre una finestra di dialogo che avverte che i componenti aggiuntivi nel gestore Addon non fanno ufficialmente parte di FreeCAD. Presenta inoltre diverse opzioni relative all\'utilizzo dei dati da parte del gestore Addon. Regolare queste opzioni a proprio piacimento e premere il pulsante **OK** per confermare e continuare.
 3.  Viene visualizzata la finestra di dialogo Addon manager. Per ulteriori informazioni, vedere le [Opzioni](Std_AddonMgr/it#Opzioni.md).
-4.  Il pulsante **<img src="images/Button_valid.svg" width=16px> Aggiorna tutto** non funziona al momento.
-5.  Premere il pulsante **<img src="images/Process-stop.svg" width=16px> Chiudi** per chiudere la finestra di dialogo.
-6.  Se è stato installato o aggiornato un ambiente di lavoro, si aprirà una nuova finestra di dialogo per informare che si deve riavviare FreeCAD affinché le modifiche abbiano effetto.
-
-
-</div>
+4.  Se è stato installato o aggiornato un ambiente di lavoro, si aprirà una nuova finestra di dialogo per informare che si deve riavviare FreeCAD affinché le modifiche abbiano effetto.
 
 
 
@@ -47,58 +33,51 @@ Due to changes to the GitHub platform in the year 2020 the Addon manager no long
 
 <img alt="" src=images/AddonManager_Main.png  style="width:600px;">
 
-1.  The Addon manager provides two view layouts: \"Condensed\" and \"Expanded\". In \"Condensed\" view, each addon takes a single line, and its description is truncated to fit the available space. \"Expanded\" shows additional details, including more of the description text as well as maintainer information, more installation details, etc.
-2.  Three different types of addons are supported: [workbenches](external_workbenches.md), [macros](macros.md), and [preference packs](Preference_Packs.md). You can choose to show just one type, or all of them in a single list.
-3.  The list can be limited to show just installed packages, just packages with available updates, or just packages that are not yet installed.
-4.  The list can be filtered, searching for a keyword in the title, description, and tags (description and tags must be specified by the addon developer in their addon\'s metadata). The filter can even be a regular expression, for fine-grained control of the exact search term.
-5.  The expanded view shows available version information, description, maintainer information, and installation version information, for packages that provide a [package metadata](Package_Metadata.md) file (or for macros with embedded metadata).
-6.  Addon data is cached locally, with a variable cache update frequency set in the user preferences.
-7.  At any time you can choose to manually update your local cache to see the latest updates available for each addon.
-8.  Update checks may be set up to be automatic, or done manually via a button click (configured in user preferences). If GitPython and git are installed on your system then update information is fetched using git. If not, then update information is obtained from any present metadata file.
+1.  Il gestore Addon fornisce due layout di visualizzazione: \"Condensato\" ed \"Espanso\". Nella vista \"Condensata\", ogni componente aggiuntivo occupa una singola riga e la sua descrizione viene troncata per adattarsi allo spazio disponibile. \"Espanso\" mostra dettagli aggiuntivi, tra cui più testo descrittivo, informazioni sul manutentore, ulteriori dettagli sull\'installazione, ecc.
+2.  Sono supportati tre diversi tipi di componenti aggiuntivi: [Ambienti di lavoro](external_workbenches/it.md), [Macro](macros/it.md) e [Pacchetti Preferenze](Preference_Packs/it.md). E\' possibile scegliere di mostrare solo un tipo o tutti in un unico elenco.
+3.  L\'elenco può essere limitato per mostrare solo i pacchetti installati, solo i pacchetti con aggiornamenti disponibili o solo i pacchetti che non sono ancora installati.
+4.  L\'elenco può essere filtrato, cercando una parola chiave nel titolo, nella descrizione e nei tag (descrizione e tag devono essere specificati dallo sviluppatore dell\'addon nei metadati dell\'addon). Il filtro può anche essere un\'espressione regolare, per un controllo granulare dell\'esatto termine di ricerca.
+5.  La vista espansa mostra le informazioni sulla versione disponibili, la descrizione, le informazioni sul manutentore e le informazioni sulla versione dell\'installazione, per i pacchetti che forniscono un file [Metadati pacchetto](Metadati_pacchetto/it.md) (o per macro con metadati incorporati).
+6.  I dati del componente aggiuntivo vengono memorizzati nella cache locale, con una frequenza di aggiornamento della cache variabile impostata nelle preferenze dell\'utente.
+7.  In qualsiasi momento è possibile scegliere di aggiornare manualmente la propria cache locale per vedere gli ultimi aggiornamenti disponibili per ogni componente aggiuntivo.
+8.  I controlli degli aggiornamenti possono essere impostati per essere automatici o eseguiti manualmente tramite un clic del pulsante (configurato nelle preferenze dell\'utente). Se GitPython e git sono installati sul proprio sistema, le informazioni di aggiornamento vengono recuperate utilizzando git. In caso contrario, le informazioni di aggiornamento vengono ottenute da qualsiasi file di metadati presente.
 
-Clicking on an addon in this view brings up the addon\'s Details page:
+Facendo clic su un componente aggiuntivo in questa visualizzazione viene visualizzata la pagina dei dettagli del componente aggiuntivo:
 
 <img alt="" src=images/AddonManager_Details.png  style="width:600px;">
 
-The details page shows buttons allowing installing, uninstalling, updating, and temporarily disabling an addon. For installed addons it lists the currently installed version and the installation date, and whether that is the most recent version available. Below is an embedded web browser window showing the addon\'s README page (for workbenches and preference packs), or Wiki page (for macros).
+La pagina dei dettagli mostra i pulsanti che consentono di installare, disinstallare, aggiornare e disabilitare temporaneamente un componente aggiuntivo. Per i componenti aggiuntivi installati elenca la versione attualmente installata e la data di installazione e se si tratta della versione più recente disponibile. Di seguito è riportata una finestra del browser Web incorporata che mostra la pagina README dell\'addon (per Ambiente di lavoro e Pacchetti di preferenze) o la pagina Wiki (per le macro).
 
-## Preferences
 
-The preferences for the Addon manager can be found in the [Preferences Editor](Preferences_Editor#Addon_Manager.md). <small>(v0.20)</small> 
+
+## Preferenze
+
+Le preferenze per Addon Manager si trovano nell\'[Editor delle Preferenze](Preferences_Editor/it#Addon_Manager.md). {{Version/it|0.20}}
 
 
 
 ## Note
 
-
-<div class="mw-translate-fuzzy">
-
+-   L\'uso dei componenti aggiuntivi non è limitato alla versione di FreeCAD da cui sono stati installati. Si potrà anche usarli in qualsiasi altra versione di FreeCAD, supportata dall\'addon, presente sul proprio sistema.
 -   I componenti aggiuntivi disponibili in Addon manager non fanno parte del programma ufficiale FreeCAD e non sono supportati dal team di sviluppo principale di FreeCAD. Bisogna leggere attentamente le informazioni fornite per assicurarsi di sapere cosa si sta installando.
 -   Segnalazioni di bug e richieste di funzionalità devono essere inviate direttamente al creatore del componente aggiuntivo visitando il sito Web indicato. Molti sviluppatori di componenti aggiuntivi sono utenti regolari del [FreeCAD forum](https://forum.freecadweb.org), e possono anche essere contattato lì.
 -   Se sul computer è installato il pacchetto [GitPython](https://github.com/gitpython-developers/GitPython), il gestore Addon lo utilizza, rendendo i download più veloci.
 -   È inoltre possibile installare i componenti aggiuntivi manualmente. Vedere [Come installare gli ambienti aggiuntivi](How_to_install_additional_workbenches/it.md) and [Come installare le macro](How_to_install_macros/it.md).
 
 
-</div>
+
+## Informazioni per gli sviluppatori di addon 
+
+Vedere [Addon](Addon/it#Informazioni_per_sviluppatori.md).
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-## Informazioni per gli sviluppatori 
+## Script
 
 
-</div>
+{{Version/it|0.21}}
 
-See [Addon](Addon#Information_for_developers.md).
-
-## Scripting
-
-
-<small>(v1.0)</small> 
-
-Some features of the Addon manager are designed for access via FreeCAD\'s Python API. In particular an addon can be installed, updated, and removed via the Python interface. Most uses of this API require you to create an object with at least three attributes: {{Incode|name}}, {{Incode|branch}} and {{Incode|url}}. For example:
+Alcune funzionalità del gestore Addon sono progettate per l\'accesso tramite l\'API Python di FreeCAD. In particolare un componente aggiuntivo può essere installato, aggiornato e rimosso tramite l\'interfaccia Python. La maggior parte degli usi di questa API richiede la creazione di un oggetto con almeno tre attributi: {{Incode|name}}, {{Incode|branch}} e {{Incode|url}}. Per esempio:
 
 
 ```python
@@ -110,11 +89,13 @@ class MyAddonClass:
 my_addon = MyAddonClass()
 ```
 
-Your object {{Incode|my_addon}} is now ready for use with the Addon manager API.
+Il proprio oggetto {{Incode|my_addon}} è ora pronto per essere utilizzato con l\'API Addon Manager.
 
-### Commandline (non-GUI) use 
 
-If your code needs to install or update an addon synchronously (e.g. without a GUI) the code can be very simple:
+
+### Utilizzo da riga di comando (non-GUI) 
+
+Se il proprio codice deve installare o aggiornare un componente aggiuntivo in modo sincrono (ad esempio senza una GUI), il codice può essere molto semplice:
 
 
 ```python
@@ -123,9 +104,9 @@ installer = AddonInstaller(my_addon)
 installer.run()
 ```
 
-Note that this code blocks until complete, so you shouldn\'t run it on the main GUI thread. To the Addon manager, \"install\" and \"update\" are the same call: if this addon is already installed, and git is available, it will be updated via \"git pull\". If it is not installed, or was installed via a non-git installation method, it is downloaded from scratch (using git if available).
+Notare che questo codice si blocca fino al completamento, quindi non lo si dovrebbe eseguire sul thread della GUI principale. Per il gestore Addon, \"install\" e \"update\" sono la stessa chiamata: se questo addon è già installato e git è disponibile, verrà aggiornato tramite \"git pull\". Se non è installato o è stato installato tramite un metodo di installazione diverso da git, viene scaricato da zero (utilizzando git se disponibile).
 
-To uninstall, use:
+Per disinstallare, utilizzare:
 
 
 ```python
@@ -134,9 +115,11 @@ uninstaller = AddonUninstaller(my_addon)
 uninstaller.run()
 ```
 
-### GUI use 
 
-If you plan on your code running in a GUI, or supporting running in the full version of FreeCAD, it\'s best to run your installation in a separate non-GUI thread, so the GUI remains responsive. To do this, first check to see if the GUI is running, and if it is, spawn a {{Incode|QThread}} (don\'t try to spawn a {{Incode|QThread}} if the GUI is not up: they require an active event loop to function).
+
+### Utilizzo con GUI 
+
+Se si prevede di eseguire il codice in una GUI o di supportare l\'esecuzione nella versione completa di FreeCAD, è meglio eseguire l\'installazione in un thread non GUI separato, in modo che la GUI rimanga reattiva. Per fare ciò, controllare prima se la GUI è in esecuzione e, in tal caso, generare un {{Incode|QThread}} (non provare a generare un {{Incode|QThread}} se la GUI non è attiva: richiedono un ciclo di eventi attivo per funzionare).
 
 
 ```python
@@ -153,16 +136,10 @@ worker_thread.started.connect(installer.run)
 worker_thread.start() # Returns immediately
 ```
 
-Then define the functions {{Incode|installation_succeeded}} and {{Incode|installation_failed}} to be run in each case. For uninstallation you can use the same technique, though it is usually much faster and will not block the GUI for very long, so in general it\'s safe to use the uninstaller directly, as shown above.
-
-
-<div class="mw-translate-fuzzy">
+Quindi definire le funzioni {{Incode|installation_succeeded}} e {{Incode|installation_failed}} da eseguire in ciascun caso. Per la disinstallazione è possibile usare la stessa tecnica, anche se di solito è molto più veloce e non bloccherà la GUI per molto tempo, quindi in generale è sicuro usare direttamente il programma di disinstallazione, come mostrato sopra.
 
 
 
-
-
-</div>
 
 
 {{Std Base navi

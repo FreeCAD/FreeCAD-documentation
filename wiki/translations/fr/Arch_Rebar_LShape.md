@@ -2,46 +2,48 @@
 - GuiCommand:/fr
    Name:Arch Rebar LShape
    Name/fr:Arch Rebar Armature en L
-   MenuLocation:Arch → Rebar tools → LShape Rebar<br>3D/BIM → Reinforcement tools → L-Shape Rebar
+   MenuLocation:Arch → Outils pour les armatures → Armature en forme de L<br>3D/BIM → Reinforcement tools → Armature en forme de L
    Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
    Version:0.17
-   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature cintrée](Arch_Rebar_BentShape/fr.md)
+   SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature cintrée](Arch_Rebar_BentShape/fr.md)
 ---
 
 # Arch Rebar LShape/fr
 
 ## Description
 
-L\'outil [LShape Rebar](Arch_Rebar_LShape.md) permet à l\'utilisateur de créer un ensemble de barres d\'armature en forme de L à l\'intérieur d\'un objet [Arch Structure](Arch_Structure/fr.md).
+L\'outil [Armature en L](Arch_Rebar_LShape/fr.md) permet à l\'utilisateur de créer un ensemble de barres d\'armature en forme de L à l\'intérieur d\'un objet [Arch Structure](Arch_Structure/fr.md).
 
-L\'outil [LShape Rebar](Arch_Rebar_LShape/fr.md) est également intégré dans l\'[atelier BIM](BIM_Workbench/fr.md).
+L\'outil [Armature en L](Arch_Rebar_LShape/fr.md) est également intégré dans l\'[atelier BIM](BIM_Workbench/fr.md).
 
 Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire des extensions → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_LShape_example.png  style="width:400px;"> 
 *Quatre jeux de barres de renforcement en forme de L à l’intérieur d’une [Arch Structure](Arch_Structure/fr.md)*
 
-## Comment faire 
 
-1.  Sélectionnez n'importe quelle face d'un objet créé précédemment **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md)**.
 
-2.  Ensuite, sélectionnez **<img src="images/_Arch_Rebar_LShape.svg" width=16px> [LShape Rebar](Arch_Rebar_LShape/fr.md)** à partir des outils pour barres d\'armature.
+## Utilisation
 
-3.  Un [Panneau des tâches](Task_Panel/fr.md) apparaîtra sur le côté gauche de l\'écran, comme indiqué ci-dessous.
+1.  Sélectionnez n'importe quelle face d'un objet **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md)** créé précédemment.
+
+2.  Ensuite, sélectionnez **<img src="images/_Arch_Rebar_LShape.svg" width=16px> [Armature en forme de L](Arch_Rebar_LShape/fr.md)** à partir des outils pour barres d\'armature.
+
+3.  Un [panneau des tâches](Task_Panel/fr.md) apparaîtra sur le côté gauche de l\'écran, comme indiqué ci-dessous.
 
 4.  Sélectionnez l\'orientation souhaitée.
 
-5.  Remplissez les entrées telles que \'Left Cover\', Right Cover, Top Cover, \'Bottom Cover\', \'Front Cover\', \'Bent Angle\', \'Bent Factor\', \'Rounding\' et \'Diameter\' of the rebar.
+5.  Remplissez les entrées telles que \"Face gauche\", \"Face droite\", \"Face supérieure\", \"Face inférieure\", \"Face avant\", \"Angle de flexion\", \"Facteur de courbure\", \"Arrondir\" et \'Diamètre\' de l\'armature.
 
-6.  Sélectionnez le mode de distribution \'Amount\' ou \'Spacing\'.
-    -   Si \'Spacing\' est sélectionné, un utilisateur peut également opter pour [espacement personnalisé](Custom_Spacing/fr.md).
+6.  Sélectionnez le mode de distribution \"Quantité\" ou \"Écartement\".
+    -   Si \"Écartement\" est sélectionné, un utilisateur peut également opter pour [espacement personnalisé](Custom_Spacing/fr.md).
 
 7.  
-    **Pick Selected Face**(choisir la face sélectionnée) est utilisé pour vérifier ou modifier la face pour la distribution des barres.
+    **Choisir la face sélectionnée**est utilisé pour vérifier ou modifier la face pour la distribution des barres.
 
-8.  Cliquez sur **OK** ou **Apply** pour générer l\'armature
+8.  Cliquez sur **OK** ou **Appliquer** pour générer l\'armature.
 
-9.  Cliquez sur **Cancel** pour quitter le panneau des tâches
+9.  Cliquez sur **Annuler** pour quitter le panneau des tâches.
 
 :   <img alt="" src=images/LShapeDialog.png  style="width:250px;">
 
@@ -49,34 +51,38 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 *Panneau d'affichage des tâches de l'outil Armature en L Arch*
 
+
+
 ## Propriétés
 
--    {{PropertyData/fr|Orientation}}: Il définit l\'orientation de l\'armature (comme fond, haut, droite et gauche).
+-    **Orientation**: définit l\'orientation de l\'armature (comme bas, haut, droite et gauche).
 
--    {{PropertyData/fr|Front Cover}}: La distance entre l\'armature et la face sélectionnée.
+-    **Front Cover**: distance entre l\'armature et la face sélectionnée.
 
--    {{PropertyData/fr|Right Cover}}: La distance entre l\'extrémité droite de l\'armature et la face droite de la structure.
+-    **Right Cover**: distance entre l\'extrémité droite de l\'armature et la face droite de la structure.
 
--    {{PropertyData/fr|Left Cover}}: La distance entre l\'extrémité gauche de l\'armature et la face gauche de la structure.
+-    **Left Cover**: distance entre l\'extrémité gauche de l\'armature et la face gauche de la structure.
 
--    {{PropertyData/fr|Bottom Cover}}: La distance entre l\'armature et la face inférieure de la structure.
+-    **Bottom Cover**: distance entre l\'armature et la face inférieure de la structure.
 
--    {{PropertyData/fr|Top Cover}}: La distance entre l\'armature et la face supérieure de la structure.
+-    **Top Cover**: distance entre l\'armature et la face supérieure de la structure.
 
--    {{PropertyData/fr|Rounding}}: Valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le diamètre.
+-    **Rounding**: valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le diamètre.
 
--    {{PropertyData/fr|Amount}}: La quantité de barres d\'armature.
+-    **Amount**: quantité de barres d\'armature.
 
--    {{PropertyData/fr|Spacing}}: La distance entre les axes de chaque barre.
+-    **Spacing**: distance entre les axes de chaque barre.
+
+
 
 ## Script
 
 
-**Voir aussi :**
+**Voir aussi:**
 
 [Arch API](Arch_API/fr.md), [API de renforts](Reinforcement_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Armature en L peut être utilisé dans les [macro](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante : 
+L\'outil Armature en L peut être utilisé dans les [macro](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante : 
 ```python
 Rebar = makeLShapeRebar(f_cover, b_cover, l_cover, r_cover,
                         diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom Left",
@@ -103,6 +109,8 @@ Rebar = makeLShapeRebar(f_cover, b_cover, l_cover, r_cover,
 
 (En bas à droite), `"Bottom Left"` (En bas à gauche), `"Top Right"` (En haut à droite), or `"Top Left"` (en haut à gauche).
 
+
+
 ### Exemple
 
 
@@ -122,9 +130,9 @@ Rebar2 = LShapeRebar.makeLShapeRebar(50, 50, 20, 20,
 Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9) 
 ```
 
-### Édition de la barre d'armement 
+### Modification de l\'armature 
 
-Vous pouvez changer les propriétés de la barre d'armement avec la fonction suivante. 
+Vous pouvez changer les propriétés de l\'armature avec la fonction suivante. 
 ```python
 editLShapeRebar(Rebar, f_cover, b_cover, l_cover, r_cover,
                 diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation,

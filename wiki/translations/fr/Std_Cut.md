@@ -12,14 +12,20 @@
 
 ## Description
 
-La commande **Std Couper** est limitée: elle ne peut être utilisée que pour [Cellules de tableur](Spreadsheet_Workbench/fr.md). La commande copie le contenu et les propriétés des cellules dans le presse-papiers puis les efface.
+La commande **Std Couper** est limitée : elle ne peut être utilisée que pour les [Cellules du tableur](Spreadsheet_Workbench/fr.md). La commande copie le contenu et les propriétés des cellules dans le presse-papiers puis les efface.
 
 Pour couper d\'autres objets, vous pouvez utiliser la commande [Std Copier](Std_Copy/fr.md) suivie d\'une opération de suppression.
+
+
 
 ## Utilisation
 
 1.  Sélectionnez une ou plusieurs cellules dans la feuille de calcul.
-    -   Sélectionnez l\'option **Edition → <img src="images/Std_Cut.svg" width=16px> Couper** dans le menu.
+2.  Il y a plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/Std_Cut.svg" width=16px> [Couper](Std_Cut/fr.md)**.
+    -   Sélectionnez l\'option **Édition → <img src="images/Std_Cut.svg" width=16px> Couper** dans le menu.
+
+
 
 ## Remarques
 

@@ -7,7 +7,7 @@
 |Version=0.14c
 |Date=2021/01/16
 |FCVersion=0.18 and more
-|Download=[https://www.freecadweb.org/wiki/images/9/90/FCTexture.png ToolBar Icon], [https://www.freecadweb.org/wiki/Macro_Loft Macro Loft] [16px|FCCreaLoft](File:FCCreaLoft.png.md)
+|Download=[https://www.freecadweb.org/wiki/images/9/90/FCTexture.png ToolBar Icon]
 |SeeAlso=[32px|FCCreaLoft](File:FCCreaLoft.png.md) [Macro Loft](Macro_Loft.md)
 }}
 
@@ -19,13 +19,15 @@ I hope that this macro will revolutionize the way we think when modeling with CA
 
 Everything becomes possible regardless of the complexity of the image!
 
-The macro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft.md) is used to automate the multi loft operation.
+The <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft.md) is used to automate the multi loft operation.
 
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/262317bc7d8555885b0e/raw/3ec2ab127d8ad01a6b657aa5df9a6127ff07c7c0/Macro%2520FCTexture.FCMacro}}
 
 <img alt="" src=images/Texture_004_Honda.png  style="width:480px;"> 
 *Texture 004 Honda*
+
+
 
 ## Применение
 
@@ -233,6 +235,7 @@ Image:Texture_003_napperon.png\|A portion of a tablecloth. Image:Texture_005_lar
 
 
 </center>
+
 
 
 ## Ссылки

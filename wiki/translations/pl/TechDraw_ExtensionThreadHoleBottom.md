@@ -1,30 +1,35 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ExtensionThreadHoleBottom
-   MenuLocation:TechDraw → Extensions: Centerlines/Threading → Add Cosmetic Thread Hole Bottom View
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rozszerzenie Geometria pomocnicza dla otworu gwintowanego, widok od dołu
+   MenuLocation:Rysunek Techniczny → Rozszerzenia: Linie środka / Gwinty → Geometria pomocnicza dla otworu gwintowanego, widok od dołu
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionThreadBoltBottom](TechDraw_ExtensionThreadBoltBottom.md)
+   SeeAlso:[Geometria pomocnicza dla gwintu śruby, widok od dołu](TechDraw_ExtensionThreadBoltBottom/pl.md)
 ---
 
 # TechDraw ExtensionThreadHoleBottom/pl
 
-## Description
 
-The <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:24px;"> **TechDraw ExtensionThreadHoleBottom** tool adds a cosmetic thread to the top or bottom view of holes.
+
+## Opis
+
+Narzędzie **Geometria pomocnicza dla otworu gwintowanego, widok od dołu** dodaje geometrię pomocniczą gwintu do widoku górnego lub dolnego otworów.
 
 <img alt="" src=images/TechDraw_ExtensionThreadHoleBottomExample.png  style="width:200px;"> 
-*On the right a hole with a cosmetic thread*
+*Po prawej stronie otwór z geometrią pomocniczą gwintu*
 
-## Usage
 
-1.  Optionally specify the line attributes with the <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) tool.
-2.  Select one or more circles.
-3.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionThreadHoleBottom.svg" width=16px> [TechDraw ExtensionThreadHoleBottom](TechDraw_ExtensionThreadHoleBottom.md)** button.
-    -   Select the **TechDraw → Extensions: Centerlines/Threading → <img src="images/TechDraw_ExtensionThreadHoleBottom.svg" width=16px> Add Cosmetic Thread Hole Bottom View** option from the menu.
-4.  Cosmetic threads are added.
+
+## Użycie
+
+1.  Opcjonalnie określ atrybuty linii za pomocą narzędzia <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [Wybierz atrybuty linii](TechDraw_ExtensionSelectLineAttributes/pl.md).
+2.  Wybierz jeden lub więcej okręgów.
+3.  Narzędzie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionThreadHoleBottom.svg" width=16px> '''Geometria pomocnicza dla otworu gwintowanego, widok od dołu'''**.
+    -   Wybierz opcja z menu **Rysunek Techniczny → Rozszerzenia: Linie środka  / Gwinty → <img src="images/TechDraw_ExtensionThreadHoleBottom.svg" width=16px> Geometria pomocnicza dla otworu gwintowanego, widok od dołu**.
+4.  Zostaną dodane gwinty kosmetyczne.
 
 
 

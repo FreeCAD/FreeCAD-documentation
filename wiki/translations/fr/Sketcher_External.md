@@ -2,26 +2,28 @@
 - GuiCommand:/fr
    Name:Sketcher External
    Name/fr:Sketcher Géométrie externe
-   MenuLocation:Sketch → Géométries d'esquisse → Géométrie externe
+   MenuLocation:Esquisse → Géométries d'esquisse → Créer une géométrie externe
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **X**
-   SeeAlso:[Sketcher Basculer en géométrie de construction](Sketcher_ToggleConstruction/fr.md)
+   SeeAlso:[Sketcher Géométrie de construction](Sketcher_ToggleConstruction/fr.md)
 ---
 
 # Sketcher External/fr
 
 ## Description
 
-L\'outil **<img src="images/Sketcher_External.svg" width=16px> [Géométrie externe](Sketcher_External/fr.md)** est utile lorsque vous avez besoin de créer une contrainte entre un élément de l\'esquisse et un élément hors de l\'esquisse. Il fonctionne en insérant une géométrie de construction liée dans l\'esquisse. La couleur par défaut des arêtes externes liés est magenta. Comme pour les géométries de construction non liée (bleu), la géométrie externe liée est visible uniquement lorsque l\'esquisse est en mode d\'édition, et n\'est pas utilisée directement dans le résultat subséquent. Les deux types de géométrie de construction sont utilisés en tant que référence pour les contraintes dans l\'esquisse.
+L\'outil **<img src="images/Sketcher_External.svg" width=16px> [Créer une géométrie externe](Sketcher_External/fr.md)** est utile lorsque vous avez besoin de créer une contrainte entre un élément de l\'esquisse et un élément hors de l\'esquisse. Il fonctionne en insérant une géométrie de construction liée dans l\'esquisse. La couleur par défaut des arêtes externes liés est magenta. Comme pour les géométries de construction non liée (bleu), la géométrie externe liée est visible uniquement lorsque l\'esquisse est en mode d\'édition, et n\'est pas utilisée directement dans le résultat subséquent. Les deux types de géométrie de construction sont utilisés en tant que référence pour les contraintes dans l\'esquisse.
 
 Attention, l\'utilisation de cet outil pour créer un lien vers une géométrie (solide) créée peut conduire à des résultats inattendus en raison du [Problème de dénomination topologique](Topological_naming_problem/fr.md). Voir également [Conseils pour des modèles stables](Feature_editing/fr#Conseils_pour_la_cr.C3.A9ation_de_mod.C3.A8les_robustes.md).
 
 <FILE:Sketcher_ExternalEsempio1.png>
 
+
+
 ## Utilisation
 
 -   Créer une nouvelle esquisse, ou ouvrir une esquisse existante.
--   Cliquer sur le bouton **[<img src=images/Sketcher_External.svg style="width:16px"> [Géométrie externe](Sketcher_External/fr.md)**.
+-   Cliquer sur le bouton **[<img src=images/Sketcher_External.svg style="width:16px"> [Créer une géométrie externe](Sketcher_External/fr.md)**.
 -   Sélectionner une arête ou un sommet que vous voulez lier dans l\'esquisse.
 -   Appuyer sur **Echap** ou sélectionner un autre outil pour quitter l\'outil.
 
@@ -47,15 +49,21 @@ Une ligne de couleur (magenta par défaut) sera surimposée sur une arête si ce
 
 Les lignes de géométrie externe magenta sont semblables aux [lignes de construction](Sketcher_ToggleConstruction/fr.md) bleues sauf que les premières sont liées de façon paramétrique à un élément solide à laquelle l\'esquisse est attachée. Les lignes de construction sont des lignes de travail internes à l\'esquisse et seront uniquement utilisées pour la construction de la géométrie, et non pour les opérations sur le solide, comme les protrusions et les cavités.
 
+
+
 ### Utilisation de géométrie externe dans l\'atelier PartDesign 
 
 Pendant le travail dans PartDesign, l\'outil de géométrie externe est utilisé pour faciliter la mise en place d\'un élément solide de votre construction, par rapport à la construction de l\'étape précédente. L\'atelier PartDesign est destiné à la production d\'un seul solide, par conséquent, les esquisses créées avec la géométrie externe sont utilisés pour créer une nouvelle entité pour ce solide.
 
 L\'outil de géométrie externe peut, par exemple, être utilisé comme référence pour une contrainte utilisée pour positionner un trou dans un objet, à un emplacement spécifique relatif à une arête ou un sommet.
 
+
+
 ### Utilisation de géométrie externe dans l\'atelier Part 
 
 Vous pouvez utiliser n\'importe quelle géométrie Part située dans le système de coordonnées de l\'esquisse. Il est conseillé de lier à la première fonction possible, car cela forme un lien plus stable.
+
+
 
 ## Exemple
 
