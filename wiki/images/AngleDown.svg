@@ -1,0 +1,16 @@
+<svg id="TipDown.svg"
+  xmlns="http://www.w3.org/2000/svg"
+  width="25mm"
+  height="64mm"
+  viewBox="0 0 25.0 64.0"
+  version="1.1">
+    <g id="lineLower"
+      style="stroke-linecap:round"
+      transform="scale(1,1)">
+      <path
+        d="m 4,32.0
+        l 6.0, 6.0
+        l 6.0,-6.0"
+        style="stroke:#000000;stroke-width:2;fill:none" />
+    </g>
+</svg>

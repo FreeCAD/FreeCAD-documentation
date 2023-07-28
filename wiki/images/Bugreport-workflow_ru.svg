@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg97"
+   width="871"
+   height="83"
+   viewBox="0 0 871 83"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs101">
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path43028" />
+    </marker>
+    <linearGradient
+       id="linearGradient59347">
+      <stop
+         style="stop-color:#61bb77;stop-opacity:1"
+         offset="0"
+         id="stop59343" />
+      <stop
+         style="stop-color:#f2f8f3;stop-opacity:1"
+         offset="1"
+         id="stop59345" />
+    </linearGradient>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path42219" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path42201" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleOutL"
+       refX="0.0"
+       refY="0.0"
+       orient="auto">
+      <path
+         transform="scale(0.8)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path42340" />
+    </marker>
+    <rect
+       x="322.34207"
+       y="15.057884"
+       width="84.538147"
+       height="50.995872"
+       id="rect23132" />
+    <linearGradient
+       id="linearGradient1602">
+      <stop
+         style="stop-color:#257ca8;stop-opacity:1;"
+         offset="0"
+         id="stop1600" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1526">
+      <stop
+         style="stop-color:#87e4eb;stop-opacity:1"
+         offset="0"
+         id="stop1524" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1460">
+      <stop
+         style="stop-color:#47e4eb;stop-opacity:1"
+         offset="0"
+         id="stop1458" />
+    </linearGradient>
+    <rect
+       x="322.34207"
+       y="15.057884"
+       width="68.974485"
+       height="23.373124"
+       id="rect23132-6" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-5"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path42219-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-5-6"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path42219-3-2" />
+    </marker>
+    <radialGradient
+       xlink:href="#linearGradient59347"
+       id="radialGradient64535"
+       cx="725.72192"
+       cy="24.301781"
+       fx="725.72192"
+       fy="24.301781"
+       r="36.294418"
+       gradientTransform="matrix(0.0233915,-1.0433919,2.5067115,0.05619704,642.20187,813.14276)"
+       gradientUnits="userSpaceOnUse" />
+    <rect
+       x="322.34207"
+       y="15.057884"
+       width="71.8377"
+       height="29.544587"
+       id="rect23132-6-2" />
+    <radialGradient
+       xlink:href="#linearGradient59347"
+       id="radialGradient64535-0"
+       cx="725.72192"
+       cy="24.301781"
+       fx="725.72192"
+       fy="24.301781"
+       r="36.294418"
+       gradientTransform="matrix(0.0233915,-1.0433919,2.5067115,0.05619704,764.31307,812.97905)"
+       gradientUnits="userSpaceOnUse" />
+    <rect
+       x="322.34207"
+       y="15.057884"
+       width="60.17039"
+       height="30.569427"
+       id="rect23132-6-2-0" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path42219-1" />
+    </marker>
+    <rect
+       x="322.34207"
+       y="15.057884"
+       width="100.18912"
+       height="47.213461"
+       id="rect23132-9" />
+    <rect
+       x="322.34207"
+       y="15.057884"
+       width="118.63236"
+       height="47.911292"
+       id="rect23132-9-6" />
+    <rect
+       x="322.34207"
+       y="15.057884"
+       width="35.91221"
+       height="14.050262"
+       id="rect23132-6-5" />
+    <rect
+       x="322.34207"
+       y="15.057884"
+       width="35.912209"
+       height="14.050262"
+       id="rect23132-6-5-5" />
+    <rect
+       x="322.34207"
+       y="15.057884"
+       width="105.87958"
+       height="53.334204"
+       id="rect23132-6-29" />
+  </defs>
+  <g
+     id="g103">
+    <rect
+       style="opacity:1;fill:#f0f2ff;fill-opacity:1;fill-rule:nonzero;stroke:#257ba8;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect209"
+       width="85"
+       height="50"
+       x="320"
+       y="15"
+       ry="6.579926" />
+    <rect
+       style="fill:#f0f2ff;fill-opacity:1;fill-rule:nonzero;stroke:#257ba8;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect209-7"
+       width="120"
+       height="50"
+       x="5"
+       y="15"
+       ry="6.579926" />
+    <rect
+       style="fill:#f0f2ff;fill-opacity:1;fill-rule:nonzero;stroke:#257ba8;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect209-7-3"
+       width="120"
+       height="50"
+       x="160"
+       y="15"
+       ry="6.579926" />
+    <rect
+       style="fill:#f0f2ff;fill-opacity:1;fill-rule:nonzero;stroke:#257ba8;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect209-2"
+       width="110"
+       height="50"
+       x="495"
+       y="15"
+       ry="6.579926" />
+    <rect
+       style="opacity:1;fill:url(#radialGradient64535);fill-opacity:1;fill-rule:nonzero;stroke:#378237;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect209-1"
+       width="79.868958"
+       height="32.107788"
+       x="650"
+       y="25"
+       ry="5.8130565" />
+    <rect
+       style="fill:url(#radialGradient64535-0);fill-opacity:1;fill-rule:nonzero;stroke:#378237;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect209-1-6"
+       width="80.362595"
+       height="32.571583"
+       x="771.61755"
+       y="24.372498"
+       ry="5.8130565" />
+    <text
+       xml:space="preserve"
+       id="text23130"
+       style="font-size:10.6667px;line-height:1.25;font-family:sans-serif;text-align:center;word-spacing:0px;white-space:pre;shape-inside:url(#rect23132)"
+       x="10.599609"
+       y="0"
+       transform="translate(-2.4016923,4.6602364)"><tspan
+         x="344.66335"
+         y="24.496124"
+         id="tspan75830">Начать
+</tspan><tspan
+         x="329.96278"
+         y="37.829499"
+         id="tspan75832">обсуждение
+</tspan><tspan
+         x="334.49144"
+         y="51.162875"
+         id="tspan75834">на форуме</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text23130-2"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;white-space:pre;shape-inside:url(#rect23132-9)"
+       x="10.599609"
+       y="0"
+       transform="translate(-306.3863,2.6919454)"><tspan
+         x="321.33791"
+         y="23.316403"
+         id="tspan75836">Проверить трекер и 
+</tspan><tspan
+         x="323.7077"
+         y="34.983066"
+         id="tspan75838">форум. Существует
+</tspan><tspan
+         x="328.98276"
+         y="46.649728"
+         id="tspan75840">ли уже подобный </tspan><tspan
+         x="353.18425"
+         y="58.316388"
+         id="tspan75842">запрос?</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text23130-2-7"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;white-space:pre;shape-inside:url(#rect23132-9-6)"
+       x="10.599609"
+       y="0"
+       transform="translate(-162.3763,1.9889537)"><tspan
+         x="324.27508"
+         y="23.316403"
+         id="tspan75844">Добавить информацию </tspan><tspan
+         x="330.55275"
+         y="34.983066"
+         id="tspan75846">на форум в тему где
+</tspan><tspan
+         x="328.56349"
+         y="46.649728"
+         id="tspan75848">ведется обсуждение 
+</tspan><tspan
+         x="345.70802"
+         y="58.316388"
+         id="tspan75850">и в Баг трекер</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text23130-7"
+       style="font-size:9.33333px;line-height:1.25;font-family:sans-serif;text-align:center;word-spacing:0px;white-space:pre;shape-inside:url(#rect23132-6)"
+       x="10.599609"
+       y="0"
+       transform="translate(91.281781,-0.04434407)"><tspan
+         x="324.03484"
+         y="23.316403"
+         id="tspan75852">уведомление
+</tspan><tspan
+         x="328.49871"
+         y="34.983066"
+         id="tspan75854">о проблеме</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text23130-7-1"
+       style="font-size:9.33333px;line-height:1.25;font-family:sans-serif;text-align:center;word-spacing:0px;white-space:pre;shape-inside:url(#rect23132-6-29)"
+       x="10.599609"
+       y="0"
+       transform="translate(174.23668,2.4050151)"><tspan
+         x="329.48504"
+         y="23.316403"
+         id="tspan75856">Создайте запрос в </tspan><tspan
+         x="331.73406"
+         y="34.983066"
+         id="tspan75858">трекере с сылкой
+</tspan><tspan
+         x="333.33595"
+         y="46.649728"
+         id="tspan75860">на обсуждение в </tspan><tspan
+         x="356.32064"
+         y="58.316388"
+         id="tspan75862">форуме </tspan></text>
+    <text
+       xml:space="preserve"
+       id="text23130-7-3"
+       style="font-size:10.6667px;line-height:1.25;font-family:sans-serif;text-align:center;word-spacing:0px;white-space:pre;shape-inside:url(#rect23132-6-5)"
+       x="10.599609"
+       y="0"
+       transform="translate(-199.52591,-4.5734811)"><tspan
+         x="330.42282"
+         y="24.496124"
+         id="tspan75864">нет</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text23130-7-3-6"
+       style="font-size:10.6667px;line-height:1.25;font-family:sans-serif;text-align:center;word-spacing:0px;white-space:pre;shape-inside:url(#rect23132-6-5-5)"
+       x="10.599609"
+       y="0"
+       transform="translate(-200.39268,27.768026)"><tspan
+         x="333.3421"
+         y="24.496124"
+         id="tspan75866">да</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text23130-7-7"
+       style="font-size:9.33333px;line-height:1.25;font-family:sans-serif;text-align:center;word-spacing:0px;white-space:pre;shape-inside:url(#rect23132-6-2)"
+       x="10.599609"
+       y="0"
+       transform="translate(330.85983,15.895519)"><tspan
+         x="325.77182"
+         y="23.316403"
+         id="tspan75868">Исправление </tspan><tspan
+         x="339.37305"
+         y="34.983066"
+         id="tspan75870">ошибки</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text23130-7-7-6"
+       style="font-size:9.33333px;line-height:1.25;font-family:sans-serif;text-align:center;word-spacing:0px;white-space:pre;shape-inside:url(#rect23132-6-2-0)"
+       x="10.599609"
+       y="0"
+       transform="translate(460.96915,14.864506)"><tspan
+         x="328.48731"
+         y="23.316403"
+         id="tspan75872">Закрытие
+</tspan><tspan
+         x="332.79167"
+         y="34.983066"
+         id="tspan75874">запроса</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="m 405,40 h 89"
+       id="path42116" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6)"
+       d="m 125,40 h 35"
+       id="path42116-8" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6)"
+       d="m 605,35 h 45"
+       id="path42116-5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-5-6)"
+       d="m 730.31106,40.318969 40.08308,-0.09775"
+       id="path42116-5-9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-5-6)"
+       d="M 100,15 V 5 h 185 c -1,0 5.7381,0.1208497 7.79174,2.4719138 C 295,10 295,15 295,15 v 15 c 0,0 -0.30326,4.696186 2.50948,7.123709 C 300.06296,39.327476 305,40 305,40 h 15"
+       id="path83503" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-5-6)"
+       d="m 280,50 h 5 c 0,0 5,0 7.40547,2.453186 C 294.81095,54.906372 295,60 295,60 v 5 c 0,0 0.0177,4.68143 2.50886,7.340715 C 300,75 305,75 305,75 l 309,-1 c 0,0 1.82608,-0.0433 3.91304,-2.021651 C 620,70 620,68.016378 620,68 V 55 c 0,0 0.44811,-1.25022 2.43609,-3.328156 C 624.35965,49.661291 625,50 625,50 h 25"
+       id="path88118" />
+  </g>
+</svg>

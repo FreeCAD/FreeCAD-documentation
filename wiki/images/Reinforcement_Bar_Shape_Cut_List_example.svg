@@ -1,0 +1,183 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace" version="1.1" width="180.0mm" height="120.0mm" viewBox="0 0 180.0 120.0">
+  <g id="RebarShapeCutList">
+    <g transform="translate(0.0 0.0)">
+      <rect x="0" y="0" width="60.0" height="40.0" style="fill:none;stroke-width:0.35;stroke:#000000;" id="row_1_column_1"/>
+      <g transform="translate(0.0 17.5)">
+        <g id="Rebar005" transform="scale(0.010953346855983774) translate(1736 2929)">
+          <g>
+            <line x1="-1462" y1="-2655" x2="-1462" y2="-2435" style="stroke:#abffff;" stroke-width="31.9537037037037" stroke="#abffff"/>
+            <path style="stroke:#abffff;fill:none" d="M-1462 -2435 A80 80 0 0 0 -1382 -2355" stroke-width="31.9537037037037" stroke="#abffff"/>
+            <line x1="-1382" y1="-2355" x2="3468" y2="-2355" style="stroke:#abffff;" stroke-width="31.9537037037037" stroke="#abffff"/>
+          </g>
+          <g>
+            <text x="-1462" y="-2609" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="182.59259259259255" text-anchor="middle" dominant-baseline="baseline" xml:space="preserve" transform="rotate(-90 -1462 -2545)">300</text>
+            <g/>
+            <text x="1043" y="-2419" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="182.59259259259255" text-anchor="middle" dominant-baseline="baseline" xml:space="preserve" transform="rotate(1.0744372763113046e-14 1043 -2355)">4930</text>
+          </g>
+        </g>
+      </g>
+      <text x="2" y="4" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="3.0" text-anchor="start" dominant-baseline="baseline" xml:space="preserve">cb</text>
+    </g>
+    <g transform="translate(60.0 0.0)">
+      <rect x="0" y="0" width="60.0" height="40.0" style="fill:none;stroke-width:0.35;stroke:#000000;" id="row_1_column_2"/>
+      <g transform="translate(0.0 18.5)">
+        <g id="Rebar004" transform="scale(0.010946663348559016) translate(2172 2829)">
+          <g>
+            <line x1="-1898" y1="-2455" x2="2995" y2="-2455" style="stroke:#ffab00;" stroke-width="31.973213102061177" stroke="#ffab00"/>
+            <path style="stroke:#ffab00;fill:none" d="M2995 -2455 A40 40 0 0 0 3035 -2497" stroke-width="31.973213102061177" stroke="#ffab00"/>
+            <line x1="3035" y1="-2497" x2="3032" y2="-2555" style="stroke:#ffab00;" stroke-width="31.973213102061177" stroke="#ffab00"/>
+          </g>
+          <g>
+            <text x="548" y="-2519" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="182.70407486892103" text-anchor="middle" dominant-baseline="baseline" xml:space="preserve" transform="rotate(-5.324921424674918e-15 548 -2455)">4935</text>
+            <g>
+              <path style="stroke:black;fill:none" d="M3030 -2601 A146 146 0 0 0 2890 -2455" stroke-width="18.270407486892104" stroke="black"/>
+              <text x="2931" y="-2556" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="146.16325989513683" text-anchor="end" dominant-baseline="baseline" xml:space="preserve">87°</text>
+            </g>
+            <text x="3033" y="-2590" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="182.70407486892103" text-anchor="middle" dominant-baseline="baseline" xml:space="preserve" transform="rotate(87.45519562018686 3033 -2526)">100</text>
+          </g>
+        </g>
+      </g>
+      <text x="2" y="4" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="3.0" text-anchor="start" dominant-baseline="baseline" xml:space="preserve">cf</text>
+    </g>
+    <g transform="translate(120.0 0.0)">
+      <rect x="0" y="0" width="60.0" height="40.0" style="fill:none;stroke-width:0.35;stroke:#000000;" id="row_1_column_3"/>
+      <g transform="translate(0.0 15.5)">
+        <g id="Rebar008" transform="scale(0.03751109525740805) translate(-155 682)">
+          <g>
+            <line x1="235" y1="-603" x2="386" y2="-438" style="stroke:#ff00ff;" stroke-width="9.330572663854134" stroke="#ff00ff"/>
+            <path style="stroke:#ff00ff;fill:none" d="M386 -438 A60 60 0 0 0 430 -418" stroke-width="9.330572663854134" stroke="#ff00ff"/>
+            <line x1="430" y1="-418" x2="1473" y2="-418" style="stroke:#ff00ff;" stroke-width="9.330572663854134" stroke="#ff00ff"/>
+            <path style="stroke:#ff00ff;fill:none" d="M1473 -418 A60 60 0 0 0 1515 -436" stroke-width="9.330572663854134" stroke="#ff00ff"/>
+            <line x1="1515" y1="-436" x2="1674" y2="-595" style="stroke:#ff00ff;" stroke-width="9.330572663854134" stroke="#ff00ff"/>
+          </g>
+          <g>
+            <text x="310" y="-539" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="53.31755807916648" text-anchor="middle" dominant-baseline="baseline" xml:space="preserve" transform="rotate(47.54480437980501 310 -520)">250</text>
+            <g>
+              <path style="stroke:black;fill:none" d="M464 -418 A60 60 0 0 0 363 -462" stroke-width="5.3317558079166485" stroke="black"/>
+              <text x="428" y="-473" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="42.65404646333319" text-anchor="start" dominant-baseline="baseline" xml:space="preserve">132°</text>
+            </g>
+            <text x="951" y="-437" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="53.31755807916648" text-anchor="middle" dominant-baseline="baseline" xml:space="preserve" transform="rotate(0.0 951 -418)">1094</text>
+            <g>
+              <path style="stroke:black;fill:none" d="M1540 -460 A60 60 0 0 0 1438 -418" stroke-width="5.3317558079166485" stroke="black"/>
+              <text x="1475" y="-473" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="42.65404646333319" text-anchor="end" dominant-baseline="baseline" xml:space="preserve">135°</text>
+            </g>
+            <text x="1595" y="-534" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="53.31755807916648" text-anchor="middle" dominant-baseline="baseline" xml:space="preserve" transform="rotate(-45.00000000000811 1595 -515)">250</text>
+          </g>
+        </g>
+      </g>
+      <text x="2" y="4" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="3.0" text-anchor="start" dominant-baseline="baseline" xml:space="preserve">cs</text>
+    </g>
+    <g transform="translate(0.0 40.0)">
+      <rect x="0" y="0" width="60.0" height="40.0" style="fill:none;stroke-width:0.35;stroke:#000000;" id="row_2_column_1"/>
+      <g transform="translate(0.0 19.0)">
+        <g id="Rebar001" transform="scale(0.006818181818181818) translate(400 488)">
+          <g>
+            <line x1="40" y1="-48" x2="7960" y2="-48" style="stroke:#abff00;" stroke-width="51.333333333333336" stroke="#abff00"/>
+          </g>
+          <g>
+            <text x="4000" y="-151" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="293.33333333333337" text-anchor="middle" dominant-baseline="baseline" xml:space="preserve" transform="rotate(0.0 4000 -48)">7920</text>
+          </g>
+        </g>
+      </g>
+      <text x="2" y="4" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="3.0" text-anchor="start" dominant-baseline="baseline" xml:space="preserve">fil</text>
+    </g>
+    <g transform="translate(60.0 40.0)">
+      <rect x="0" y="0" width="60.0" height="40.0" style="fill:none;stroke-width:0.35;stroke:#000000;" id="row_2_column_2"/>
+      <g transform="translate(0.0 14.5)">
+        <g id="Rebar" transform="scale(0.02101167315175098) translate(103 603)">
+          <g>
+            <line x1="40" y1="-460" x2="40" y2="-80" style="stroke:#ffab00;" stroke-width="16.6574074074074" stroke="#ffab00"/>
+            <path style="stroke:#ffab00;fill:none" d="M40 -80 A40 40 0 0 0 80 -40" stroke-width="16.6574074074074" stroke="#ffab00"/>
+            <line x1="80" y1="-40" x2="2570" y2="-40" style="stroke:#ffab00;" stroke-width="16.6574074074074" stroke="#ffab00"/>
+            <path style="stroke:#ffab00;fill:none" d="M2570 -40 A40 40 0 0 0 2610 -80" stroke-width="16.6574074074074" stroke="#ffab00"/>
+            <line x1="2610" y1="-80" x2="2610" y2="-460" style="stroke:#ffab00;" stroke-width="16.6574074074074" stroke="#ffab00"/>
+          </g>
+          <g>
+            <text x="40" y="-303" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="95.18518518518515" text-anchor="middle" dominant-baseline="baseline" xml:space="preserve" transform="rotate(-90 40 -270)">420</text>
+            <g/>
+            <text x="1325" y="-73" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="95.18518518518515" text-anchor="middle" dominant-baseline="baseline" xml:space="preserve" transform="rotate(4.904951797919642e-16 1325 -40)">2570</text>
+            <g/>
+            <text x="2610" y="-303" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="95.18518518518515" text-anchor="middle" dominant-baseline="baseline" xml:space="preserve" transform="rotate(-90 2610 -270)">420</text>
+          </g>
+        </g>
+      </g>
+      <text x="2" y="4" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="3.0" text-anchor="start" dominant-baseline="baseline" xml:space="preserve">fit</text>
+    </g>
+    <g transform="translate(120.0 40.0)">
+      <rect x="0" y="0" width="60.0" height="40.0" style="fill:none;stroke-width:0.35;stroke:#000000;" id="row_2_column_3"/>
+      <g transform="translate(0.0 19.0)">
+        <g id="Rebar003" transform="scale(0.006818181818181818) translate(400 886)">
+          <g>
+            <line x1="40" y1="-446" x2="7960" y2="-446" style="stroke:#abff00;" stroke-width="51.333333333333336" stroke="#abff00"/>
+          </g>
+          <g>
+            <text x="4000" y="-549" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="293.33333333333337" text-anchor="middle" dominant-baseline="baseline" xml:space="preserve" transform="rotate(0.0 4000 -446)">7920</text>
+          </g>
+        </g>
+      </g>
+      <text x="2" y="4" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="3.0" text-anchor="start" dominant-baseline="baseline" xml:space="preserve">fsl</text>
+    </g>
+    <g transform="translate(0.0 80.0)">
+      <rect x="0" y="0" width="60.0" height="40.0" style="fill:none;stroke-width:0.35;stroke:#000000;" id="row_3_column_1"/>
+      <g transform="translate(0.0 18.0)">
+        <g id="Rebar002" transform="scale(0.021011673151750974) translate(2753 700)">
+          <g>
+            <line x1="-2610" y1="-557" x2="-2610" y2="-522" style="stroke:#00ffff;" stroke-width="16.657407407407405" stroke="#00ffff"/>
+            <path style="stroke:#00ffff;fill:none" d="M-2610 -522 A70 70 0 0 0 -2540 -452" stroke-width="16.657407407407405" stroke="#00ffff"/>
+            <line x1="-2540" y1="-452" x2="-110" y2="-452" style="stroke:#00ffff;" stroke-width="16.657407407407405" stroke="#00ffff"/>
+            <path style="stroke:#00ffff;fill:none" d="M-110 -452 A70 70 0 0 0 -40 -522" stroke-width="16.657407407407405" stroke="#00ffff"/>
+            <line x1="-40" y1="-522" x2="-40" y2="-557" style="stroke:#00ffff;" stroke-width="16.657407407407405" stroke="#00ffff"/>
+          </g>
+          <g>
+            <text x="-2610" y="-573" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="95.18518518518518" text-anchor="middle" dominant-baseline="baseline" xml:space="preserve" transform="rotate(-90 -2610 -540)">105</text>
+            <g/>
+            <text x="-1325" y="-485" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="95.18518518518518" text-anchor="middle" dominant-baseline="baseline" xml:space="preserve" transform="rotate(9.381981875197732e-15 -1325 -452)">2570</text>
+            <g/>
+            <text x="-40" y="-573" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="95.18518518518518" text-anchor="middle" dominant-baseline="baseline" xml:space="preserve" transform="rotate(-90 -40 -540)">105</text>
+          </g>
+        </g>
+      </g>
+      <text x="2" y="4" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="3.0" text-anchor="start" dominant-baseline="baseline" xml:space="preserve">fst</text>
+    </g>
+    <g transform="translate(60.0 80.0)">
+      <rect x="0" y="0" width="60.0" height="40.0" style="fill:none;stroke-width:0.35;stroke:#000000;" id="row_3_column_2"/>
+      <g transform="translate(0.0 19.0)">
+        <g id="Rebar006" transform="scale(0.006801007556675153) translate(3557 4441)">
+          <g>
+            <line x1="-3116" y1="-4000" x2="4824" y2="-4000" style="stroke:#abff00;" stroke-width="51.46296296296227" stroke="#abff00"/>
+          </g>
+          <g>
+            <text x="854" y="-4103" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="294.07407407407015" text-anchor="middle" dominant-baseline="baseline" xml:space="preserve" transform="rotate(1.3125996952417873e-14 854 -4000)">7940</text>
+          </g>
+        </g>
+      </g>
+      <text x="2" y="4" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="3.0" text-anchor="start" dominant-baseline="baseline" xml:space="preserve">wbft</text>
+    </g>
+    <g transform="translate(120.0 80.0)">
+      <rect x="0" y="0" width="60.0" height="40.0" style="fill:none;stroke-width:0.35;stroke:#000000;" id="row_3_column_3"/>
+      <g transform="translate(2.0 4.0)">
+        <g id="Rebar009" transform="scale(0.1970255461623989) translate(968 4967)">
+          <g>
+            <line x1="-953" y1="-4800" x2="-732" y2="-4800" style="stroke:#ff00ff;" stroke-width="1.776419387319" stroke="#ff00ff"/>
+            <path style="stroke:#ff00ff;fill:none" d="M-732 -4800 A30 30 0 0 0 -702 -4829" stroke-width="1.776419387319" stroke="#ff00ff"/>
+            <line x1="-702" y1="-4829" x2="-698" y2="-4911" style="stroke:#ff00ff;" stroke-width="1.776419387319" stroke="#ff00ff"/>
+            <path style="stroke:#ff00ff;fill:none" d="M-698 -4911 A30 30 0 0 0 -727 -4942" stroke-width="1.776419387319" stroke="#ff00ff"/>
+            <line x1="-727" y1="-4942" x2="-946" y2="-4952" style="stroke:#ff00ff;" stroke-width="1.776419387319" stroke="#ff00ff"/>
+          </g>
+          <g>
+            <text x="-842" y="-4803" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="10.150967927537144" text-anchor="middle" dominant-baseline="baseline" xml:space="preserve" transform="rotate(0.0 -842 -4800)">250</text>
+            <g>
+              <path style="stroke:black;fill:none" d="M-702 -4830 A30 30 0 0 0 -733 -4800" stroke-width="1.0150967927537144" stroke="black"/>
+              <text x="-724" y="-4822" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="8.120774342029716" text-anchor="end" dominant-baseline="baseline" xml:space="preserve">93°</text>
+            </g>
+            <text x="-700" y="-4873" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="10.150967927537144" text-anchor="middle" dominant-baseline="baseline" xml:space="preserve" transform="rotate(-87.45519562018713 -700 -4870)">141</text>
+            <g/>
+            <text x="-836" y="-4951" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="10.150967927537144" text-anchor="middle" dominant-baseline="baseline" xml:space="preserve" transform="rotate(2.544804379813165 -836 -4947)">250</text>
+          </g>
+        </g>
+      </g>
+      <text x="2" y="4" style="white-space:pre;" fill="#000000" font-family="DejaVu Sans" font-size="3.0" text-anchor="start" dominant-baseline="baseline" xml:space="preserve">wt</text>
+    </g>
+  </g>
+</svg>
