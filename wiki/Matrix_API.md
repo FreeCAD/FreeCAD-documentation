@@ -36,109 +36,109 @@ vector4 : Base.Vector
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> A
+#### <img src="images/BIM_Column.svg" style="width:16px;"> A
 
 The matrix elements.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> A11
+#### <img src="images/BIM_Column.svg" style="width:16px;"> A11
 
 The (1,1) matrix element.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> A12
+#### <img src="images/BIM_Column.svg" style="width:16px;"> A12
 
 The (1,2) matrix element.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> A13
+#### <img src="images/BIM_Column.svg" style="width:16px;"> A13
 
 The (1,3) matrix element.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> A14
+#### <img src="images/BIM_Column.svg" style="width:16px;"> A14
 
 The (1,4) matrix element.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> A21
+#### <img src="images/BIM_Column.svg" style="width:16px;"> A21
 
 The (2,1) matrix element.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> A22
+#### <img src="images/BIM_Column.svg" style="width:16px;"> A22
 
 The (2,2) matrix element.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> A23
+#### <img src="images/BIM_Column.svg" style="width:16px;"> A23
 
 The (2,3) matrix element.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> A24
+#### <img src="images/BIM_Column.svg" style="width:16px;"> A24
 
 The (2,4) matrix element.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> A31
+#### <img src="images/BIM_Column.svg" style="width:16px;"> A31
 
 The (3,1) matrix element.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> A32
+#### <img src="images/BIM_Column.svg" style="width:16px;"> A32
 
 The (3,2) matrix element.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> A33
+#### <img src="images/BIM_Column.svg" style="width:16px;"> A33
 
 The (3,3) matrix element.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> A34
+#### <img src="images/BIM_Column.svg" style="width:16px;"> A34
 
 The (3,4) matrix element.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> A41
+#### <img src="images/BIM_Column.svg" style="width:16px;"> A41
 
 The (4,1) matrix element.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> A42
+#### <img src="images/BIM_Column.svg" style="width:16px;"> A42
 
 The (4,2) matrix element.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> A43
+#### <img src="images/BIM_Column.svg" style="width:16px;"> A43
 
 The (4,3) matrix element.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> A44
+#### <img src="images/BIM_Column.svg" style="width:16px;"> A44
 
 The (4,4) matrix element.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> analyze
+#### <img src="images/BIM_Column.svg" style="width:16px;"> analyze
 
 analyze() -> str
 
@@ -146,7 +146,7 @@ Analyzes the type of transformation.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> col
+#### <img src="images/BIM_Column.svg" style="width:16px;"> col
 
 col(index) -> Base.Vector
 
@@ -158,7 +158,7 @@ index : int
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> determinant
+#### <img src="images/BIM_Column.svg" style="width:16px;"> determinant
 
 determinant() -> float
 
@@ -166,7 +166,7 @@ Compute the determinant of the matrix.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> hasScale
+#### <img src="images/BIM_Column.svg" style="width:16px;"> hasScale
 
 hasScale(tol=0) -> ScaleType
 
@@ -178,7 +178,7 @@ tol : float
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> inverse
+#### <img src="images/BIM_Column.svg" style="width:16px;"> inverse
 
 inverse() -> Base.Matrix
 
@@ -186,7 +186,7 @@ Compute the inverse matrix, if possible.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> invert
+#### <img src="images/BIM_Column.svg" style="width:16px;"> invert
 
 invert() -> None
 
@@ -194,7 +194,7 @@ Compute the inverse matrix in-place, if possible.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isNull
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isNull
 
 isNull() -> bool
 
@@ -202,7 +202,7 @@ Check if this is the null matrix.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isOrthogonal
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isOrthogonal
 
 isOrthogonal(tol=1e-6) -> float
 
@@ -214,7 +214,7 @@ tol : float
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isUnity
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isUnity
 
 isUnity() -> bool
 
@@ -222,7 +222,7 @@ Check if this is the unit matrix (4D identity matrix).
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> move
+#### <img src="images/BIM_Column.svg" style="width:16px;"> move
 
 move(vector) -> None
 move(x, y, z) -> None
@@ -240,7 +240,7 @@ z : float
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> multVec
+#### <img src="images/BIM_Column.svg" style="width:16px;"> multVec
 
 multVec(vector) -> Base.Vector
 
@@ -250,7 +250,7 @@ vector : Base.Vector
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> multiply
+#### <img src="images/BIM_Column.svg" style="width:16px;"> multiply
 
 multiply(matrix) -> Base.Matrix
 multiply(vector) -> Base.Vector
@@ -263,7 +263,7 @@ vector : Base.Vector
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> nullify
+#### <img src="images/BIM_Column.svg" style="width:16px;"> nullify
 
 nullify() -> None
 
@@ -271,7 +271,7 @@ Make this the null matrix.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> rotateX
+#### <img src="images/BIM_Column.svg" style="width:16px;"> rotateX
 
 rotateX(angle) -> None
 
@@ -282,7 +282,7 @@ angle : float
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> rotateY
+#### <img src="images/BIM_Column.svg" style="width:16px;"> rotateY
 
 rotateY(angle) -> None
 
@@ -293,7 +293,7 @@ angle : float
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> rotateZ
+#### <img src="images/BIM_Column.svg" style="width:16px;"> rotateZ
 
 rotateZ(angle) -> None
 
@@ -304,7 +304,7 @@ angle : float
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> row
+#### <img src="images/BIM_Column.svg" style="width:16px;"> row
 
 row(index) -> Base.Vector
 
@@ -316,7 +316,7 @@ index : int
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> scale
+#### <img src="images/BIM_Column.svg" style="width:16px;"> scale
 
 scale(vector) -> None
 scale(x, y, z) -> None
@@ -336,7 +336,7 @@ factor : float
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setCol
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setCol
 
 setCol(index, vector) -> None
 
@@ -349,7 +349,7 @@ vector : Base.Vector
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setRow
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setRow
 
 setRow(index, vector) -> None
 
@@ -362,7 +362,7 @@ vector : Base.Vector
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setTrace
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setTrace
 
 setTrace(vector) -> None
 
@@ -372,7 +372,7 @@ vector : Base.Vector
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> submatrix
+#### <img src="images/BIM_Column.svg" style="width:16px;"> submatrix
 
 submatrix(dim) -> Base.Matrix
 
@@ -385,7 +385,7 @@ dim : int
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> trace
+#### <img src="images/BIM_Column.svg" style="width:16px;"> trace
 
 trace() -> Base.Vector
 
@@ -393,7 +393,7 @@ Return the diagonal of the 3x3 leading principal submatrix as vector.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> transform
+#### <img src="images/BIM_Column.svg" style="width:16px;"> transform
 
 transform(vector, matrix2) -> None
 
@@ -408,7 +408,7 @@ matrix2 : Base.Matrix
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> transpose
+#### <img src="images/BIM_Column.svg" style="width:16px;"> transpose
 
 transpose() -> None
 
@@ -416,7 +416,7 @@ Transpose the matrix in-place.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> transposed
+#### <img src="images/BIM_Column.svg" style="width:16px;"> transposed
 
 transposed() -> Base.Matrix
 
@@ -424,7 +424,7 @@ Returns a transposed copy of this matrix.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> unity
+#### <img src="images/BIM_Column.svg" style="width:16px;"> unity
 
 unity() -> None
 
@@ -439,4 +439,4 @@ Make this matrix to unity (4D identity matrix).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Matrix API
+![](images/Button_right.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Matrix API

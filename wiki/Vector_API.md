@@ -22,13 +22,13 @@ seq : sequence of float.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Length
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Length
 
 Gets or sets the length of this vector.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> add
+#### <img src="images/BIM_Column.svg" style="width:16px;"> add
 
 add(vector2) -> Base.Vector
 
@@ -38,7 +38,7 @@ vector2 : Base.Vector
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> cross
+#### <img src="images/BIM_Column.svg" style="width:16px;"> cross
 
 cross(vector2) -> Base.Vector
 
@@ -48,7 +48,7 @@ vector2 : Base.Vector
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> distanceToLine
+#### <img src="images/BIM_Column.svg" style="width:16px;"> distanceToLine
 
 distanceToLine(base, dir) -> float
 
@@ -61,7 +61,7 @@ dir : Base.Vector
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> distanceToLineSegment
+#### <img src="images/BIM_Column.svg" style="width:16px;"> distanceToLineSegment
 
 distanceToLineSegment(point1, point2) -> Base.Vector
 
@@ -74,7 +74,7 @@ point2 : Base.Vector
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> distanceToPlane
+#### <img src="images/BIM_Column.svg" style="width:16px;"> distanceToPlane
 
 distanceToPlane(base, normal) -> float
 
@@ -86,7 +86,7 @@ normal : Base.Vector
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> distanceToPoint
+#### <img src="images/BIM_Column.svg" style="width:16px;"> distanceToPoint
 
 distanceToPoint(point2) -> float
 
@@ -96,7 +96,7 @@ point : Base.Vector
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> dot
+#### <img src="images/BIM_Column.svg" style="width:16px;"> dot
 
 dot(vector2) -> float
 
@@ -106,7 +106,7 @@ vector2 : Base.Vector
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getAngle
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getAngle
 
 getAngle(vector2) -> float
 
@@ -116,7 +116,7 @@ vector2 : Base.Vector
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isEqual
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isEqual
 
 isEqual(vector2, tol=0) -> bool
 
@@ -128,7 +128,7 @@ tol : float
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isOnLineSegment
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isOnLineSegment
 
 isOnLineSegment(vector1, vector2) -> bool
 
@@ -139,7 +139,7 @@ vector2 : Base.Vector
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> multiply
+#### <img src="images/BIM_Column.svg" style="width:16px;"> multiply
 
 multiply(factor) -> Base.Vector
 
@@ -150,7 +150,7 @@ factor : float
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> negative
+#### <img src="images/BIM_Column.svg" style="width:16px;"> negative
 
 negative() -> Base.Vector
 
@@ -158,7 +158,7 @@ Returns the negative (opposite) of this vector.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> normalize
+#### <img src="images/BIM_Column.svg" style="width:16px;"> normalize
 
 normalize() -> Base.Vector
 
@@ -166,7 +166,7 @@ Normalizes in-place this vector to the length of 1.0.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> projectToLine
+#### <img src="images/BIM_Column.svg" style="width:16px;"> projectToLine
 
 projectToLine(point, dir) -> Base.Vector
 
@@ -182,7 +182,7 @@ dir : Base.Vector
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> projectToPlane
+#### <img src="images/BIM_Column.svg" style="width:16px;"> projectToPlane
 
 projectToPlane(base, normal) -> Base.Vector
 
@@ -194,7 +194,7 @@ normal : Base.Vector
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> scale
+#### <img src="images/BIM_Column.svg" style="width:16px;"> scale
 
 scale(x, y, z) -> Base.Vector
 
@@ -209,7 +209,7 @@ z : float
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> sub
+#### <img src="images/BIM_Column.svg" style="width:16px;"> sub
 
 sub(vector2) -> Base.Vector
 
@@ -219,19 +219,19 @@ vector2 : Base.Vector
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> x
+#### <img src="images/BIM_Column.svg" style="width:16px;"> x
 
 Gets or sets the X component of this vector.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> y
+#### <img src="images/BIM_Column.svg" style="width:16px;"> y
 
 Gets or sets the Y component of this vector.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> z
+#### <img src="images/BIM_Column.svg" style="width:16px;"> z
 
 Gets or sets the Z component of this vector.
 
@@ -244,4 +244,4 @@ Gets or sets the Z component of this vector.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Vector API
+![](images/Button_right.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Vector API

@@ -11,7 +11,7 @@ logging interfaces.
 
 ### Functions
 
-#### <img src="images/type_method.svg" style="width:16px;"> GetObservers
+#### <img src="images/Arrow-right.svg" style="width:16px;"> GetObservers
 
 GetObservers() -> list of str
 
@@ -19,7 +19,7 @@ Get the names of the current logging interfaces.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> GetStatus
+#### <img src="images/Arrow-right.svg" style="width:16px;"> GetStatus
 
 GetStatus(observer, type) -> bool or None
 
@@ -33,7 +33,7 @@ type : str
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> PrintCritical
+#### <img src="images/Arrow-right.svg" style="width:16px;"> PrintCritical
 
 PrintCritical(obj) -> None
 
@@ -44,7 +44,7 @@ obj : object
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> PrintDeveloperError
+#### <img src="images/Arrow-right.svg" style="width:16px;"> PrintDeveloperError
 
 PrintDeveloperError(obj) -> None
 
@@ -55,7 +55,7 @@ obj : object
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> PrintDeveloperWarning
+#### <img src="images/Arrow-right.svg" style="width:16px;"> PrintDeveloperWarning
 
 PrintDeveloperWarning(obj) -> None
 
@@ -66,7 +66,7 @@ obj : object
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> PrintError
+#### <img src="images/Arrow-right.svg" style="width:16px;"> PrintError
 
 PrintError(obj) -> None
 
@@ -77,7 +77,7 @@ obj : object
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> PrintLog
+#### <img src="images/Arrow-right.svg" style="width:16px;"> PrintLog
 
 PrintLog(obj) -> None
 
@@ -88,7 +88,7 @@ obj : object
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> PrintMessage
+#### <img src="images/Arrow-right.svg" style="width:16px;"> PrintMessage
 
 PrintMessage(obj) -> None
 
@@ -99,7 +99,7 @@ obj : object
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> PrintNotification
+#### <img src="images/Arrow-right.svg" style="width:16px;"> PrintNotification
 
 PrintNotification(obj) -> None
 
@@ -110,7 +110,7 @@ obj : object
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> PrintTranslatedNotification
+#### <img src="images/Arrow-right.svg" style="width:16px;"> PrintTranslatedNotification
 
 PrintTranslatedNotification(obj) -> None
 
@@ -121,7 +121,7 @@ obj : object
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> PrintTranslatedUserError
+#### <img src="images/Arrow-right.svg" style="width:16px;"> PrintTranslatedUserError
 
 PrintTranslatedUserError(obj) -> None
 
@@ -132,7 +132,7 @@ obj : object
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> PrintTranslatedUserWarning
+#### <img src="images/Arrow-right.svg" style="width:16px;"> PrintTranslatedUserWarning
 
 PrintTranslatedUserWarning(obj) -> None
 
@@ -143,7 +143,7 @@ obj : object
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> PrintUserError
+#### <img src="images/Arrow-right.svg" style="width:16px;"> PrintUserError
 
 PrintUserError(obj) -> None
 
@@ -154,7 +154,7 @@ obj : object
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> PrintUserWarning
+#### <img src="images/Arrow-right.svg" style="width:16px;"> PrintUserWarning
 
 PrintUserWarning(obj) -> None
 
@@ -165,7 +165,7 @@ obj : object
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> PrintWarning
+#### <img src="images/Arrow-right.svg" style="width:16px;"> PrintWarning
 
 PrintWarning(obj) -> None
 
@@ -176,7 +176,7 @@ obj : object
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> SetStatus
+#### <img src="images/Arrow-right.svg" style="width:16px;"> SetStatus
 
 SetStatus(observer, type, status) -> None
 
@@ -197,4 +197,4 @@ status : bool
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Console API
+![](images/Button_right.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Console API

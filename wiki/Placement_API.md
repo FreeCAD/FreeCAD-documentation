@@ -37,25 +37,25 @@ angle : float
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> [Base](Base_API.md)
+#### <img src="images/BIM_Column.svg" style="width:16px;"> [Base](Base_API.md)
 
 Vector to the Base Position of the Placement.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> [Matrix](Matrix_API.md)
+#### <img src="images/BIM_Column.svg" style="width:16px;"> [Matrix](Matrix_API.md)
 
 Set/get matrix representation of the placement.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Rotation
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Rotation
 
 Orientation of the placement expressed as rotation.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> copy
+#### <img src="images/BIM_Column.svg" style="width:16px;"> copy
 
 copy() -> Base.Placement
 
@@ -63,7 +63,7 @@ Returns a copy of this placement.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> inverse
+#### <img src="images/BIM_Column.svg" style="width:16px;"> inverse
 
 inverse() -> Base.Placement
 
@@ -71,7 +71,7 @@ Compute the inverse placement.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isIdentity
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isIdentity
 
 isIdentity([tol=0.0]) -> bool
 
@@ -83,7 +83,7 @@ tol : float
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isSame
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isSame
 
 isSame(Base.Placement, [tol=0.0]) -> bool
 
@@ -92,7 +92,7 @@ The default tolerance is set to 0.0
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> move
+#### <img src="images/BIM_Column.svg" style="width:16px;"> move
 
 move(vector) -> None
 
@@ -103,7 +103,7 @@ vector : Base.Vector
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> multVec
+#### <img src="images/BIM_Column.svg" style="width:16px;"> multVec
 
 multVec(vector) -> Base.Vector
 
@@ -114,7 +114,7 @@ vector : Base.Vector
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> multiply
+#### <img src="images/BIM_Column.svg" style="width:16px;"> multiply
 
 multiply(placement) -> Base.Placement
 
@@ -126,7 +126,7 @@ placement : Base.Placement
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> pow
+#### <img src="images/BIM_Column.svg" style="width:16px;"> pow
 
 pow(t, shorten=True) -> Base.Placement
 
@@ -141,7 +141,7 @@ shorten : bool
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> rotate
+#### <img src="images/BIM_Column.svg" style="width:16px;"> rotate
 
 rotate(center, axis, angle, comp) -> None
 
@@ -161,7 +161,7 @@ behave like TopoShape.rotate() (i.e. the resulting placements are interchangeabl
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> sclerp
+#### <img src="images/BIM_Column.svg" style="width:16px;"> sclerp
 
 sclerp(placement2, t, shorten=True) -> Base.Placement
 
@@ -181,7 +181,7 @@ shorten : bool
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> slerp
+#### <img src="images/BIM_Column.svg" style="width:16px;"> slerp
 
 slerp(placement2, t) -> Base.Placement
 
@@ -197,7 +197,7 @@ t : float
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> toMatrix
+#### <img src="images/BIM_Column.svg" style="width:16px;"> toMatrix
 
 toMatrix() -> Base.Matrix
 
@@ -205,7 +205,7 @@ Compute the matrix representation of the placement.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> translate
+#### <img src="images/BIM_Column.svg" style="width:16px;"> translate
 
 translate(vector) -> None
 
@@ -223,4 +223,4 @@ vector : Base.Vector
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Placement API
+![](images/Button_right.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Placement API

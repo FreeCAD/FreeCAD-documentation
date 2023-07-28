@@ -13,79 +13,79 @@ Part.Point(Vector)
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Content
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Content
 
 Content of the object in XML representation.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> MemSize
+#### <img src="images/BIM_Column.svg" style="width:16px;"> MemSize
 
 Memory size of the object in bytes.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Module
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Module
 
 Module in which this class is defined
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Tag
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Tag
 
 Gives the tag of the geometry as string.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> TypeId
+#### <img src="images/BIM_Column.svg" style="width:16px;"> TypeId
 
 Is the type of the FreeCAD object with module domain
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> X
+#### <img src="images/BIM_Column.svg" style="width:16px;"> X
 
 X component of this point.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Y
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Y
 
 Y component of this point.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Z
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Z
 
 Z component of this point.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> clone
+#### <img src="images/BIM_Column.svg" style="width:16px;"> clone
 
 Create a clone of this geometry with the same Tag
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> copy
+#### <img src="images/BIM_Column.svg" style="width:16px;"> copy
 
 Create a copy of this geometry
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> deleteExtensionOfName
+#### <img src="images/BIM_Column.svg" style="width:16px;"> deleteExtensionOfName
 
 Deletes all extensions of the indicated name.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> deleteExtensionOfType
+#### <img src="images/BIM_Column.svg" style="width:16px;"> deleteExtensionOfType
 
 Deletes all extensions of the indicated type.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> dumpContent
+#### <img src="images/BIM_Column.svg" style="width:16px;"> dumpContent
 
 dumpContent(Compression=3) -> bytearray
 
@@ -97,55 +97,55 @@ Compression : int
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getAllDerivedFrom
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getAllDerivedFrom
 
 Returns all descendants
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getExtensionOfName
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getExtensionOfName
 
 Gets the first geometry extension of the name indicated by the string.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getExtensionOfType
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getExtensionOfType
 
 Gets the first geometry extension of the type indicated by the string.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getExtensions
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getExtensions
 
 Returns a list with information about the geometry extensions.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> hasExtensionOfName
+#### <img src="images/BIM_Column.svg" style="width:16px;"> hasExtensionOfName
 
 Returns a boolean indicating whether a geometry extension with the name indicated as a string exists.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> hasExtensionOfType
+#### <img src="images/BIM_Column.svg" style="width:16px;"> hasExtensionOfType
 
 Returns a boolean indicating whether a geometry extension of the type indicated as a string exists.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isDerivedFrom
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isDerivedFrom
 
 Returns true if given type is a father
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> mirror
+#### <img src="images/BIM_Column.svg" style="width:16px;"> mirror
 
 Performs the symmetrical transformation of this geometric object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> restoreContent
+#### <img src="images/BIM_Column.svg" style="width:16px;"> restoreContent
 
 restoreContent(obj) -> None
 
@@ -157,37 +157,37 @@ obj : buffer
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> rotate
+#### <img src="images/BIM_Column.svg" style="width:16px;"> rotate
 
 Rotates this geometric object at angle Ang (in radians) about axis
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> scale
+#### <img src="images/BIM_Column.svg" style="width:16px;"> scale
 
 Applies a scaling transformation on this geometric object with a center and scaling factor
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setExtension
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setExtension
 
 Sets a geometry extension of the indicated type.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> toShape
+#### <img src="images/BIM_Column.svg" style="width:16px;"> toShape
 
 Create a vertex from this point.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> transform
+#### <img src="images/BIM_Column.svg" style="width:16px;"> transform
 
 Applies a transformation to this geometric object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> translate
+#### <img src="images/BIM_Column.svg" style="width:16px;"> translate
 
 Translates this geometric object
 
@@ -200,4 +200,4 @@ Translates this geometric object
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Point API
+![](images/Button_right.png) [documentation index](../README.md) > [API](Category_API.md) > Point API

@@ -13,7 +13,7 @@ defined in `DraftTools.py`.
 
 ### Functions
 
-#### <img src="images/type_method.svg" style="width:16px;"> argb_to_rgba <small>(color)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> argb_to_rgba <small>(color)</small>
 
 Change byte order of a 4 byte color int from ARGB (Qt) to RGBA (FreeCAD).
 
@@ -39,7 +39,7 @@ Change byte order of a 4 byte color int from ARGB (Qt) to RGBA (FreeCAD).
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> array <small>(objectslist, arg1, arg2, arg3, arg4=None, arg5=None, arg6=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> array <small>(objectslist, arg1, arg2, arg3, arg4=None, arg5=None, arg6=None)</small>
 
 This function creates an array of independent objects.
     Use make_array() to create a parametric array object.
@@ -65,7 +65,7 @@ This function creates an array of independent objects.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> autogroup <small>(obj)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> autogroup <small>(obj)</small>
 
 Add a given object to the defined Draft autogroup, if applicable.
 
@@ -87,7 +87,7 @@ Add a given object to the defined Draft autogroup, if applicable.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> clone <small>(obj, delta=None, forcedraft=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> clone <small>(obj, delta=None, forcedraft=False)</small>
 
 clone(obj,[delta,forcedraft])
 
@@ -108,7 +108,7 @@ clone(obj,[delta,forcedraft])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> compareObjects <small>(obj1, obj2)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> compareObjects <small>(obj1, obj2)</small>
 
 Print the differences between 2 objects.
 
@@ -129,7 +129,7 @@ Print the differences between 2 objects.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> compare_objects <small>(obj1, obj2)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> compare_objects <small>(obj1, obj2)</small>
 
 Print the differences between 2 objects.
 
@@ -150,13 +150,13 @@ Print the differences between 2 objects.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> convertDraftTexts <small>(textslist=[])</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> convertDraftTexts <small>(textslist=[])</small>
 
 Convert Text. DEPRECATED. Use 'convert_draft_texts'.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> convert_draft_texts <small>(textslist=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> convert_draft_texts <small>(textslist=None)</small>
 
 Convert the given Annotation to a Draft text.
 
@@ -176,49 +176,49 @@ Convert the given Annotation to a Draft text.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> copyMovedEdges <small>(arguments)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> copyMovedEdges <small>(arguments)</small>
 
 Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> copyRotatedEdges <small>(arguments)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> copyRotatedEdges <small>(arguments)</small>
 
 Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> copyScaledEdges <small>(arguments)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> copyScaledEdges <small>(arguments)</small>
 
 Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> copy_moved_edges <small>(arguments)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> copy_moved_edges <small>(arguments)</small>
 
 Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> copy_rotated_edges <small>(arguments)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> copy_rotated_edges <small>(arguments)</small>
 
 Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> copy_scaled_edges <small>(arguments)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> copy_scaled_edges <small>(arguments)</small>
 
 Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> cut <small>(object1, object2)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> cut <small>(object1, object2)</small>
 
 Return a cut object made from the difference of the 2 given objects.
 
@@ -240,7 +240,7 @@ Return a cut object made from the difference of the 2 given objects.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> dimDash <small>(p1, p2)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> dimDash <small>(p1, p2)</small>
 
 Return a SoSeparator with a line used to make dimension dashes.
 
@@ -263,7 +263,7 @@ Return a SoSeparator with a line used to make dimension dashes.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> dimSymbol <small>(symbol=None, invert=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> dimSymbol <small>(symbol=None, invert=False)</small>
 
 Return the specified dimension symbol.
 
@@ -295,7 +295,7 @@ Return the specified dimension symbol.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> dim_dash <small>(p1, p2)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> dim_dash <small>(p1, p2)</small>
 
 Return a SoSeparator with a line used to make dimension dashes.
 
@@ -318,7 +318,7 @@ Return a SoSeparator with a line used to make dimension dashes.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> dim_symbol <small>(symbol=None, invert=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> dim_symbol <small>(symbol=None, invert=False)</small>
 
 Return the specified dimension symbol.
 
@@ -350,7 +350,7 @@ Return the specified dimension symbol.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> downgrade <small>(objects, delete=False, force=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> downgrade <small>(objects, delete=False, force=None)</small>
 
 Downgrade the given objects.
 
@@ -388,7 +388,7 @@ Downgrade the given objects.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> draftify <small>(objectslist, makeblock=False, delete=True)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> draftify <small>(objectslist, makeblock=False, delete=True)</small>
 
 draftify(objectslist,[makeblock],[delete])
 
@@ -409,7 +409,7 @@ draftify(objectslist,[makeblock],[delete])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> epsilon <small>()</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> epsilon <small>()</small>
 
 Return a small number based on the tolerance for use in comparisons.
 
@@ -426,7 +426,7 @@ Return a small number based on the tolerance for use in comparisons.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> extrude <small>(obj, vector, solid=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> extrude <small>(obj, vector, solid=False)</small>
 
 extrude(object, vector, [solid])
 
@@ -444,49 +444,19 @@ extrude(object, vector, [solid])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> filterObjectsForModifiers <small>(objects, isCopied=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> filterObjectsForModifiers <small>(objects, isCopied=False)</small>
 
 
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> filter_objects_for_modifiers <small>(objects, isCopied=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> filter_objects_for_modifiers <small>(objects, isCopied=False)</small>
 
 
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> formatObject <small>(target, origin=None)</small>
-
-Apply visual properties from the Draft toolbar or another object.
-
-    This function only works if the graphical interface is available
-    as the visual properties are attributes of the view provider
-    (`obj.ViewObject`).
-
-    Parameters
-     
-    target: App::DocumentObject
-        Any type of scripted object.
-
-        This object will adopt the applicable visual properties,
-        `FontSize`, `TextColor`, `LineWidth`, `PointColor`, `LineColor`,
-        and `ShapeColor`, defined in the Draft toolbar
-        (`Gui.draftToolBar`) or will adopt
-        the properties from the `origin` object.
-
-        The `target` is also placed in the construction group
-        if the construction mode in the Draft toolbar is active.
-
-    origin: App::DocumentObject, optional
-        It defaults to `None`.
-        If it exists, it will provide the visual properties to assign
-        to `target`, with the exception of `BoundingBox`, `Proxy`,
-        `RootNode` and `Visibility`.
-
-
-
-#### <img src="images/type_method.svg" style="width:16px;"> format_object <small>(target, origin=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> formatObject <small>(target, origin=None)</small>
 
 Apply visual properties from the Draft toolbar or another object.
 
@@ -516,7 +486,37 @@ Apply visual properties from the Draft toolbar or another object.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> fuse <small>(object1, object2)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> format_object <small>(target, origin=None)</small>
+
+Apply visual properties from the Draft toolbar or another object.
+
+    This function only works if the graphical interface is available
+    as the visual properties are attributes of the view provider
+    (`obj.ViewObject`).
+
+    Parameters
+     
+    target: App::DocumentObject
+        Any type of scripted object.
+
+        This object will adopt the applicable visual properties,
+        `FontSize`, `TextColor`, `LineWidth`, `PointColor`, `LineColor`,
+        and `ShapeColor`, defined in the Draft toolbar
+        (`Gui.draftToolBar`) or will adopt
+        the properties from the `origin` object.
+
+        The `target` is also placed in the construction group
+        if the construction mode in the Draft toolbar is active.
+
+    origin: App::DocumentObject, optional
+        It defaults to `None`.
+        If it exists, it will provide the visual properties to assign
+        to `target`, with the exception of `BoundingBox`, `Proxy`,
+        `RootNode` and `Visibility`.
+
+
+
+#### <img src="images/Arrow-right.svg" style="width:16px;"> fuse <small>(object1, object2)</small>
 
 fuse(oject1, object2)
 
@@ -526,7 +526,7 @@ fuse(oject1, object2)
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> get3DView <small>()</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> get3DView <small>()</small>
 
 Return the current 3D view.
 
@@ -540,7 +540,7 @@ Return the current 3D view.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> getCloneBase <small>(obj, strict=False, recursive=True)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> getCloneBase <small>(obj, strict=False, recursive=True)</small>
 
 Return the object cloned by this object, if any.
 
@@ -580,31 +580,31 @@ Return the object cloned by this object, if any.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> getDXF <small>(obj, direction=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> getDXF <small>(obj, direction=None)</small>
 
 Return DXF string of the object. DEPRECATED. Use 'get_dxf'.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> getGroupContents <small>(objectslist, walls=False, addgroups=False, spaces=False, noarchchild=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> getGroupContents <small>(objectslist, walls=False, addgroups=False, spaces=False, noarchchild=False)</small>
 
 Return a list of objects from groups. DEPRECATED.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> getGroupNames <small>()</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> getGroupNames <small>()</small>
 
 Return a list of group names. DEPRECATED.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> getMovableChildren <small>(objectslist, recursive=True)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> getMovableChildren <small>(objectslist, recursive=True)</small>
 
 Return a list of objects with child objects. DEPRECATED.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> getObjectsOfType <small>(objects, typ)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> getObjectsOfType <small>(objects, typ)</small>
 
 Return only the objects that match the type in the list of objects.
 
@@ -624,7 +624,7 @@ Return only the objects that match the type in the list of objects.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> getParam <small>(param, default=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> getParam <small>(param, default=None)</small>
 
 Return a parameter value from the current parameter database.
 
@@ -658,7 +658,7 @@ Return a parameter value from the current parameter database.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> getParamType <small>(param)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> getParamType <small>(param)</small>
 
 Return the type of the parameter entered.
 
@@ -676,7 +676,7 @@ Return the type of the parameter entered.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> getRealName <small>(name)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> getRealName <small>(name)</small>
 
 Strip the trailing numbers from a string to get only the letters.
 
@@ -694,13 +694,13 @@ Strip the trailing numbers from a string to get only the letters.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> getSVG <small>(obj, scale=1, linewidth=0.35, fontsize=12, fillstyle='shape color', direction=None, linestyle=None, color=None, linespacing=None, techdraw=False, rotation=0, fillSpaces=False, override=True)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> getSVG <small>(obj, scale=1, linewidth=0.35, fontsize=12, fillstyle='shape color', direction=None, linestyle=None, color=None, linespacing=None, techdraw=False, rotation=0, fillSpaces=False, override=True)</small>
 
 Return SVG string of the object. DEPRECATED. Use 'get_svg'.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> getSelection <small>(gui=0)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> getSelection <small>(gui=0)</small>
 
 Return the current selected objects.
 
@@ -728,7 +728,7 @@ Return the current selected objects.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> getSelectionEx <small>(gui=0)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> getSelectionEx <small>(gui=0)</small>
 
 Return the current selected objects together with their subelements.
 
@@ -771,7 +771,7 @@ Return the current selected objects together with their subelements.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> getType <small>(obj)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> getType <small>(obj)</small>
 
 Return a string indicating the type of the given object.
 
@@ -795,7 +795,7 @@ Return a string indicating the type of the given object.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> get_3d_view <small>()</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> get_3d_view <small>()</small>
 
 Return the current 3D view.
 
@@ -809,7 +809,7 @@ Return the current 3D view.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> get_bbox <small>(obj, debug=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> get_bbox <small>(obj, debug=False)</small>
 
 Return a BoundBox from any object that has a Coin RootNode.
 
@@ -839,7 +839,7 @@ Return a BoundBox from any object that has a Coin RootNode.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> get_clone_base <small>(obj, strict=False, recursive=True)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> get_clone_base <small>(obj, strict=False, recursive=True)</small>
 
 Return the object cloned by this object, if any.
 
@@ -879,7 +879,7 @@ Return the object cloned by this object, if any.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> get_diffuse_color <small>(objs)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> get_diffuse_color <small>(objs)</small>
 
 Get a (cumulative) diffuse color from one or more objects.
 
@@ -899,7 +899,7 @@ Get a (cumulative) diffuse color from one or more objects.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> get_dxf <small>(obj, direction=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> get_dxf <small>(obj, direction=None)</small>
 
 Return a DXF entity from the given object.
 
@@ -907,7 +907,7 @@ Return a DXF entity from the given object.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> get_group_contents <small>(objectslist, walls=False, addgroups=False, spaces=False, noarchchild=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> get_group_contents <small>(objectslist, walls=False, addgroups=False, spaces=False, noarchchild=False)</small>
 
 Return a list of objects from expanding the input groups.
 
@@ -952,7 +952,7 @@ Return a list of objects from expanding the input groups.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> get_group_names <small>(doc=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> get_group_names <small>(doc=None)</small>
 
 Return a list of names of existing groups in the document.
 
@@ -973,7 +973,7 @@ Return a list of names of existing groups in the document.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> get_movable_children <small>(objectslist, recursive=True)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> get_movable_children <small>(objectslist, recursive=True)</small>
 
 Return a list of objects with child objects that move with a host.
 
@@ -1001,7 +1001,7 @@ Return a list of objects with child objects that move with a host.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> get_objects_of_type <small>(objects, typ)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> get_objects_of_type <small>(objects, typ)</small>
 
 Return only the objects that match the type in the list of objects.
 
@@ -1021,7 +1021,7 @@ Return only the objects that match the type in the list of objects.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> get_param <small>(param, default=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> get_param <small>(param, default=None)</small>
 
 Return a parameter value from the current parameter database.
 
@@ -1055,7 +1055,7 @@ Return a parameter value from the current parameter database.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> get_param_type <small>(param)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> get_param_type <small>(param)</small>
 
 Return the type of the parameter entered.
 
@@ -1073,7 +1073,7 @@ Return the type of the parameter entered.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> get_real_name <small>(name)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> get_real_name <small>(name)</small>
 
 Strip the trailing numbers from a string to get only the letters.
 
@@ -1091,7 +1091,7 @@ Strip the trailing numbers from a string to get only the letters.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> get_rgb <small>(color, testbw=True)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> get_rgb <small>(color, testbw=True)</small>
 
 Return an RRGGBB value #000000 from a FreeCAD color.
 
@@ -1104,7 +1104,7 @@ Return an RRGGBB value #000000 from a FreeCAD color.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> get_selection <small>(gui=0)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> get_selection <small>(gui=0)</small>
 
 Return the current selected objects.
 
@@ -1132,7 +1132,7 @@ Return the current selected objects.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> get_selection_ex <small>(gui=0)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> get_selection_ex <small>(gui=0)</small>
 
 Return the current selected objects together with their subelements.
 
@@ -1175,7 +1175,7 @@ Return the current selected objects together with their subelements.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> get_svg <small>(obj, scale=1, linewidth=0.35, fontsize=12, fillstyle='shape color', direction=None, linestyle=None, color=None, linespacing=None, techdraw=False, rotation=0, fillspaces=False, override=True)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> get_svg <small>(obj, scale=1, linewidth=0.35, fontsize=12, fillstyle='shape color', direction=None, linestyle=None, color=None, linespacing=None, techdraw=False, rotation=0, fillspaces=False, override=True)</small>
 
 Return a string containing an SVG representation of the object.
 
@@ -1225,7 +1225,7 @@ Return a string containing an SVG representation of the object.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> get_type <small>(obj)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> get_type <small>(obj)</small>
 
 Return a string indicating the type of the given object.
 
@@ -1249,7 +1249,7 @@ Return a string indicating the type of the given object.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> get_windows <small>(obj)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> get_windows <small>(obj)</small>
 
 Return the windows and rebars inside a host.
 
@@ -1275,7 +1275,7 @@ Return the windows and rebars inside a host.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> getrgb <small>(color, testbw=True)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> getrgb <small>(color, testbw=True)</small>
 
 Return an RRGGBB value #000000 from a FreeCAD color.
 
@@ -1288,7 +1288,7 @@ Return an RRGGBB value #000000 from a FreeCAD color.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> heal <small>(objlist=None, delete=True, reparent=True)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> heal <small>(objlist=None, delete=True, reparent=True)</small>
 
 heal([objlist],[delete],[reparent])
 
@@ -1309,7 +1309,7 @@ heal([objlist],[delete],[reparent])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> isClone <small>(obj, objtype=None, recursive=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> isClone <small>(obj, objtype=None, recursive=False)</small>
 
 Return True if the given object is a clone of a certain type.
 
@@ -1357,13 +1357,13 @@ Return True if the given object is a clone of a certain type.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> isClosedEdge <small>(edge_index, object)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> isClosedEdge <small>(edge_index, object)</small>
 
 
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> is_clone <small>(obj, objtype=None, recursive=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> is_clone <small>(obj, objtype=None, recursive=False)</small>
 
 Return True if the given object is a clone of a certain type.
 
@@ -1411,13 +1411,13 @@ Return True if the given object is a clone of a certain type.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> is_closed_edge <small>(edge_index, object)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> is_closed_edge <small>(edge_index, object)</small>
 
 
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> is_group <small>(obj)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> is_group <small>(obj)</small>
 
 Return True if the given object is considered a group.
 
@@ -1442,35 +1442,35 @@ Return True if the given object is considered a group.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> joinTwoWires <small>(wire1, wire2)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> joinTwoWires <small>(wire1, wire2)</small>
 
 join_two_wires(object, object): joins two wires if they share a common
     point as a start or an end.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> joinWires <small>(wires, joinAttempts=0)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> joinWires <small>(wires, joinAttempts=0)</small>
 
 join_wires(objects): merges a set of wires where possible, if any of those
     wires have a coincident start and end point
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> join_two_wires <small>(wire1, wire2)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> join_two_wires <small>(wire1, wire2)</small>
 
 joins two wires if they share a common
     point as a start or an end.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> join_wires <small>(wires, joinAttempts=0)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> join_wires <small>(wires, joinAttempts=0)</small>
 
 merges a set of wires where possible, if any of those
     wires have a coincident start and end point
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> loadSvgPatterns <small>()</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> loadSvgPatterns <small>()</small>
 
 Load the default Draft SVG patterns and user defined patterns.
 
@@ -1479,7 +1479,7 @@ Load the default Draft SVG patterns and user defined patterns.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> loadTexture <small>(filename, size=None, gui=0)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> loadTexture <small>(filename, size=None, gui=0)</small>
 
 Return a Coin.SoSFImage to use as a texture for a 2D plane.
 
@@ -1524,7 +1524,7 @@ Return a Coin.SoSFImage to use as a texture for a 2D plane.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> load_svg_patterns <small>()</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> load_svg_patterns <small>()</small>
 
 Load the default Draft SVG patterns and user defined patterns.
 
@@ -1533,7 +1533,7 @@ Load the default Draft SVG patterns and user defined patterns.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> load_texture <small>(filename, size=None, gui=0)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> load_texture <small>(filename, size=None, gui=0)</small>
 
 Return a Coin.SoSFImage to use as a texture for a 2D plane.
 
@@ -1578,19 +1578,19 @@ Return a Coin.SoSFImage to use as a texture for a 2D plane.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makeAngularDimension <small>(center, angles, p3, normal=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makeAngularDimension <small>(center, angles, p3, normal=None)</small>
 
 Create an angle dimension. DEPRECATED. Use 'make_angular_dimension'.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makeArray <small>(baseobject, arg1, arg2, arg3, arg4=None, arg5=None, arg6=None, name='Array', use_link=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makeArray <small>(baseobject, arg1, arg2, arg3, arg4=None, arg5=None, arg6=None, name='Array', use_link=False)</small>
 
 Create an Array. DEPRECATED. Use 'make_array'.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makeBSpline <small>(pointslist, closed=False, placement=None, face=None, support=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makeBSpline <small>(pointslist, closed=False, placement=None, face=None, support=None)</small>
 
 make_bspline(pointslist, [closed], [placement])
 
@@ -1619,7 +1619,7 @@ make_bspline(pointslist, [closed], [placement])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makeBezCurve <small>(pointslist, closed=False, placement=None, face=None, support=None, degree=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makeBezCurve <small>(pointslist, closed=False, placement=None, face=None, support=None, degree=None)</small>
 
 make_bezcurve(pointslist, [closed], [placement])
 
@@ -1651,7 +1651,7 @@ make_bezcurve(pointslist, [closed], [placement])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makeBlock <small>(objectslist)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makeBlock <small>(objectslist)</small>
 
 make_block(objectslist)
 
@@ -1664,7 +1664,7 @@ make_block(objectslist)
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makeCircle <small>(radius, placement=None, face=None, startangle=None, endangle=None, support=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makeCircle <small>(radius, placement=None, face=None, startangle=None, endangle=None, support=None)</small>
 
 make_circle(radius, [placement, face, startangle, endangle])
     or make_circle(edge,[face]):
@@ -1696,7 +1696,7 @@ make_circle(radius, [placement, face, startangle, endangle])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makeCopy <small>(obj, force=None, reparent=False, simple_copy=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makeCopy <small>(obj, force=None, reparent=False, simple_copy=False)</small>
 
 make_copy(object, [force], [reparent], [simple_copy])
 
@@ -1719,13 +1719,13 @@ make_copy(object, [force], [reparent], [simple_copy])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makeDimension <small>(p1, p2, p3=None, p4=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makeDimension <small>(p1, p2, p3=None, p4=None)</small>
 
 Create a dimension. DEPRECATED. Use 'make_dimension'.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makeEllipse <small>(majradius, minradius, placement=None, face=None, support=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makeEllipse <small>(majradius, minradius, placement=None, face=None, support=None)</small>
 
 make_ellipse(majradius, minradius, [placement], [face], [support])
 
@@ -1752,7 +1752,7 @@ make_ellipse(majradius, minradius, [placement], [face], [support])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makeFacebinder <small>(selectionset, name='Facebinder')</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makeFacebinder <small>(selectionset, name='Facebinder')</small>
 
 make_facebinder(selectionset, [name])
 
@@ -1768,19 +1768,19 @@ make_facebinder(selectionset, [name])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makeLabel <small>(targetpoint=None, target=None, direction=None, distance=None, labeltype=None, placement=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makeLabel <small>(targetpoint=None, target=None, direction=None, distance=None, labeltype=None, placement=None)</small>
 
 Create a Label. DEPRECATED. Use 'make_label'.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makeLayer <small>(name=None, linecolor=None, drawstyle=None, shapecolor=None, transparency=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makeLayer <small>(name=None, linecolor=None, drawstyle=None, shapecolor=None, transparency=None)</small>
 
 Create a Layer. DEPRECATED. Use 'make_layer'.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makeLine <small>(first_param, last_param=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makeLine <small>(first_param, last_param=None)</small>
 
 makeLine(first_param, p2)
 
@@ -1799,13 +1799,13 @@ makeLine(first_param, p2)
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makePathArray <small>(baseobject, pathobject, count, xlate=None, align=False, pathobjsubs=[], use_link=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makePathArray <small>(baseobject, pathobject, count, xlate=None, align=False, pathobjsubs=[], use_link=False)</small>
 
 Create PathArray. DEPRECATED. Use 'make_path_array'.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makePoint <small>(X=0, Y=0, Z=0, color=None, name='Point', point_size=5)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makePoint <small>(X=0, Y=0, Z=0, color=None, name='Point', point_size=5)</small>
 
 make_point(x, y, z, [color(r, g, b), point_size]) or
         make_point(Vector, color(r, g, b), point_size])
@@ -1834,13 +1834,13 @@ make_point(x, y, z, [color(r, g, b), point_size]) or
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makePointArray <small>(base, ptlst)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makePointArray <small>(base, ptlst)</small>
 
 Create PointArray. DEPRECATED. Use 'make_point_array'.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makePolygon <small>(nfaces, radius=1, inscribed=True, placement=None, face=None, support=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makePolygon <small>(nfaces, radius=1, inscribed=True, placement=None, face=None, support=None)</small>
 
 makePolgon(edges,[radius],[inscribed],[placement],[face])
 
@@ -1869,7 +1869,7 @@ makePolgon(edges,[radius],[inscribed],[placement],[face])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makeRectangle <small>(length, height=0, placement=None, face=None, support=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makeRectangle <small>(length, height=0, placement=None, face=None, support=None)</small>
 
 make_rectangle(length, width, [placement], [face])
 
@@ -1895,7 +1895,7 @@ make_rectangle(length, width, [placement], [face])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makeShape2DView <small>(baseobj, projectionVector=None, facenumbers=[])</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makeShape2DView <small>(baseobj, projectionVector=None, facenumbers=[])</small>
 
 make_shape2dview(object, [projectionVector], [facenumbers])
 
@@ -1914,7 +1914,7 @@ make_shape2dview(object, [projectionVector], [facenumbers])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makeShapeString <small>(String, FontFile, Size=100, Tracking=0)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makeShapeString <small>(String, FontFile, Size=100, Tracking=0)</small>
 
 ShapeString(Text,FontFile,[Height],[Track])
 
@@ -1927,7 +1927,7 @@ ShapeString(Text,FontFile,[Height],[Track])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makeSketch <small>(objects_list, autoconstraints=False, addTo=None, delete=False, name='Sketch', radiusPrecision=-1, tol=0.001)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makeSketch <small>(objects_list, autoconstraints=False, addTo=None, delete=False, name='Sketch', radiusPrecision=-1, tol=0.001)</small>
 
 make_sketch(objects_list, [autoconstraints], [addTo], [delete],
                    [name], [radiusPrecision], [tol])
@@ -1961,13 +1961,13 @@ make_sketch(objects_list, [autoconstraints], [addTo], [delete],
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makeText <small>(stringlist, point=Vector (0.0, 0.0, 0.0), screen=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makeText <small>(stringlist, point=Vector (0.0, 0.0, 0.0), screen=False)</small>
 
 Create Text. DEPRECATED. Use 'make_text'.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makeWire <small>(pointslist, closed=False, placement=None, face=None, support=None, bs2wire=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makeWire <small>(pointslist, closed=False, placement=None, face=None, support=None, bs2wire=False)</small>
 
 make_wire(pointslist, [closed], [placement])
 
@@ -1999,7 +1999,7 @@ make_wire(pointslist, [closed], [placement])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> makeWorkingPlaneProxy <small>(placement)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> makeWorkingPlaneProxy <small>(placement)</small>
 
 make_working_plane_proxy(placement)
 
@@ -2012,7 +2012,7 @@ make_working_plane_proxy(placement)
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_angular_dimension <small>(center=Vector (0.0, 0.0, 0.0), angles=None, dim_line=Vector (10.0, 10.0, 0.0), normal=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_angular_dimension <small>(center=Vector (0.0, 0.0, 0.0), angles=None, dim_line=Vector (10.0, 10.0, 0.0), normal=None)</small>
 
 Create an angular dimension from the given center and angles.
 
@@ -2057,7 +2057,7 @@ Create an angular dimension from the given center and angles.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_arc_3points <small>(points, placement=None, face=False, support=None, map_mode='Deactivated', primitive=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_arc_3points <small>(points, placement=None, face=False, support=None, map_mode='Deactivated', primitive=False)</small>
 
 Draw a circular arc defined by three points in the circumference.
 
@@ -2135,7 +2135,7 @@ Draw a circular arc defined by three points in the circumference.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_array <small>(base_object, arg1, arg2, arg3, arg4=None, arg5=None, arg6=None, use_link=True)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_array <small>(base_object, arg1, arg2, arg3, arg4=None, arg5=None, arg6=None, use_link=True)</small>
 
 Create a Draft Array of the given object.
 
@@ -2172,7 +2172,7 @@ Create a Draft Array of the given object.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_bezcurve <small>(pointslist, closed=False, placement=None, face=None, support=None, degree=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_bezcurve <small>(pointslist, closed=False, placement=None, face=None, support=None, degree=None)</small>
 
 make_bezcurve(pointslist, [closed], [placement])
 
@@ -2204,7 +2204,7 @@ make_bezcurve(pointslist, [closed], [placement])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_block <small>(objectslist)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_block <small>(objectslist)</small>
 
 make_block(objectslist)
 
@@ -2217,7 +2217,7 @@ make_block(objectslist)
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_bspline <small>(pointslist, closed=False, placement=None, face=None, support=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_bspline <small>(pointslist, closed=False, placement=None, face=None, support=None)</small>
 
 make_bspline(pointslist, [closed], [placement])
 
@@ -2246,7 +2246,7 @@ make_bspline(pointslist, [closed], [placement])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_circle <small>(radius, placement=None, face=None, startangle=None, endangle=None, support=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_circle <small>(radius, placement=None, face=None, startangle=None, endangle=None, support=None)</small>
 
 make_circle(radius, [placement, face, startangle, endangle])
     or 
@@ -2278,7 +2278,7 @@ make_circle(radius, [placement, face, startangle, endangle])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_circular_array <small>(base_object, r_distance=100, tan_distance=50, number=3, symmetry=1, axis=Vector (0.0, 0.0, 1.0), center=Vector (0.0, 0.0, 0.0), use_link=True)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_circular_array <small>(base_object, r_distance=100, tan_distance=50, number=3, symmetry=1, axis=Vector (0.0, 0.0, 1.0), center=Vector (0.0, 0.0, 0.0), use_link=True)</small>
 
 Create a circular array from the given object.
 
@@ -2360,7 +2360,7 @@ Create a circular array from the given object.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_clone <small>(obj, delta=None, forcedraft=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_clone <small>(obj, delta=None, forcedraft=False)</small>
 
 clone(obj,[delta,forcedraft])
 
@@ -2381,7 +2381,7 @@ clone(obj,[delta,forcedraft])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_copy <small>(obj, force=None, reparent=False, simple_copy=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_copy <small>(obj, force=None, reparent=False, simple_copy=False)</small>
 
 make_copy(object, [force], [reparent], [simple_copy])
 
@@ -2404,7 +2404,7 @@ make_copy(object, [force], [reparent], [simple_copy])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_dimension <small>(p1, p2, p3=None, p4=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_dimension <small>(p1, p2, p3=None, p4=None)</small>
 
 Create one of three types of dimension objects.
 
@@ -2429,7 +2429,7 @@ Create one of three types of dimension objects.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_ellipse <small>(majradius, minradius, placement=None, face=None, support=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_ellipse <small>(majradius, minradius, placement=None, face=None, support=None)</small>
 
 make_ellipse(majradius, minradius, [placement], [face], [support])
 
@@ -2456,7 +2456,7 @@ make_ellipse(majradius, minradius, [placement], [face], [support])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_facebinder <small>(selectionset, name='Facebinder')</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_facebinder <small>(selectionset, name='Facebinder')</small>
 
 make_facebinder(selectionset, [name])
 
@@ -2472,7 +2472,7 @@ make_facebinder(selectionset, [name])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_fillet <small>(objs, radius=100, chamfer=False, delete=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_fillet <small>(objs, radius=100, chamfer=False, delete=False)</small>
 
 Create a fillet between two lines or Part.Edges.
 
@@ -2502,7 +2502,7 @@ Create a fillet between two lines or Part.Edges.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_hatch <small>(baseobject, filename, pattern, scale, rotation)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_hatch <small>(baseobject, filename, pattern, scale, rotation)</small>
 
 Creates and returns a
     hatch object made by applying the given pattern of the given PAT file to the faces of
@@ -2511,7 +2511,7 @@ Creates and returns a
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_label <small>(target_point=Vector (0.0, 0.0, 0.0), placement=Vector (30.0, 30.0, 0.0), target_object=None, subelements=None, label_type='Custom', custom_text='Label', direction='Horizontal', distance=-10, points=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_label <small>(target_point=Vector (0.0, 0.0, 0.0), placement=Vector (30.0, 30.0, 0.0), target_object=None, subelements=None, label_type='Custom', custom_text='Label', direction='Horizontal', distance=-10, points=None)</small>
 
 Create a Label object containing different types of information.
 
@@ -2654,7 +2654,7 @@ Create a Label object containing different types of information.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_layer <small>(name=None, line_color=None, shape_color=None, line_width=2.0, draw_style='Solid', transparency=0)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_layer <small>(name=None, line_color=None, shape_color=None, line_width=2.0, draw_style='Solid', transparency=0)</small>
 
 Create a Layer object in the active document.
 
@@ -2714,7 +2714,7 @@ Create a Layer object in the active document.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_line <small>(first_param, last_param=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_line <small>(first_param, last_param=None)</small>
 
 makeLine(first_param, p2)
 
@@ -2733,7 +2733,7 @@ makeLine(first_param, p2)
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_linear_dimension <small>(p1, p2, dim_line=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_linear_dimension <small>(p1, p2, dim_line=None)</small>
 
 Create a free linear dimension from two main points.
 
@@ -2767,7 +2767,7 @@ Create a free linear dimension from two main points.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_linear_dimension_obj <small>(edge_object, i1=1, i2=2, dim_line=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_linear_dimension_obj <small>(edge_object, i1=1, i2=2, dim_line=None)</small>
 
 Create a linear dimension from an object.
 
@@ -2824,7 +2824,7 @@ Create a linear dimension from an object.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_ortho_array <small>(base_object, v_x=Vector (10.0, 0.0, 0.0), v_y=Vector (0.0, 10.0, 0.0), v_z=Vector (0.0, 0.0, 10.0), n_x=2, n_y=2, n_z=1, use_link=True)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_ortho_array <small>(base_object, v_x=Vector (10.0, 0.0, 0.0), v_y=Vector (0.0, 10.0, 0.0), v_z=Vector (0.0, 0.0, 10.0), n_x=2, n_y=2, n_z=1, use_link=True)</small>
 
 Create an orthogonal array from the given object.
 
@@ -2919,7 +2919,7 @@ Create an orthogonal array from the given object.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_ortho_array2d <small>(base_object, v_x=Vector (10.0, 0.0, 0.0), v_y=Vector (0.0, 10.0, 0.0), n_x=2, n_y=2, use_link=True)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_ortho_array2d <small>(base_object, v_x=Vector (10.0, 0.0, 0.0), v_y=Vector (0.0, 10.0, 0.0), n_x=2, n_y=2, use_link=True)</small>
 
 Create a 2D orthogonal array from the given object.
 
@@ -2966,7 +2966,7 @@ Create a 2D orthogonal array from the given object.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_path_array <small>(base_object, path_object, count=4, extra=Vector (0.0, 0.0, 0.0), subelements=None, align=False, align_mode='Original', tan_vector=Vector (1.0, 0.0, 0.0), force_vertical=False, vertical_vector=Vector (0.0, 0.0, 1.0), start_offset=0.0, end_offset=0.0, use_link=True)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_path_array <small>(base_object, path_object, count=4, extra=Vector (0.0, 0.0, 0.0), subelements=None, align=False, align_mode='Original', tan_vector=Vector (1.0, 0.0, 0.0), force_vertical=False, vertical_vector=Vector (0.0, 0.0, 1.0), start_offset=0.0, end_offset=0.0, use_link=True)</small>
 
 Make a Draft PathArray object.
 
@@ -3074,13 +3074,13 @@ Make a Draft PathArray object.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_path_twisted_array <small>(base_object, path_object, count=15, rot_factor=0.25, use_link=True)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_path_twisted_array <small>(base_object, path_object, count=15, rot_factor=0.25, use_link=True)</small>
 
 Create a Path twisted array.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_point <small>(X=0, Y=0, Z=0, color=None, name='Point', point_size=5)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_point <small>(X=0, Y=0, Z=0, color=None, name='Point', point_size=5)</small>
 
 make_point(x, y, z, [color(r, g, b), point_size]) or
         make_point(Vector, color(r, g, b), point_size])
@@ -3109,7 +3109,7 @@ make_point(x, y, z, [color(r, g, b), point_size]) or
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_point_array <small>(base_object, point_object, extra=None, use_link=True)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_point_array <small>(base_object, point_object, extra=None, use_link=True)</small>
 
 Make a Draft PointArray object.
 
@@ -3147,7 +3147,7 @@ Make a Draft PointArray object.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_polar_array <small>(base_object, number=5, angle=360, center=Vector (0.0, 0.0, 0.0), use_link=True)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_polar_array <small>(base_object, number=5, angle=360, center=Vector (0.0, 0.0, 0.0), use_link=True)</small>
 
 Create a polar array from the given object.
 
@@ -3203,7 +3203,7 @@ Create a polar array from the given object.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_polygon <small>(nfaces, radius=1, inscribed=True, placement=None, face=None, support=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_polygon <small>(nfaces, radius=1, inscribed=True, placement=None, face=None, support=None)</small>
 
 makePolgon(edges,[radius],[inscribed],[placement],[face])
 
@@ -3232,7 +3232,7 @@ makePolgon(edges,[radius],[inscribed],[placement],[face])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_radial_dimension_obj <small>(edge_object, index=1, mode='radius', dim_line=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_radial_dimension_obj <small>(edge_object, index=1, mode='radius', dim_line=None)</small>
 
 Create a radial or diameter dimension from an arc object.
 
@@ -3278,7 +3278,7 @@ Create a radial or diameter dimension from an arc object.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_rect_array <small>(base_object, d_x=10, d_y=10, d_z=10, n_x=2, n_y=2, n_z=1, use_link=True)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_rect_array <small>(base_object, d_x=10, d_y=10, d_z=10, n_x=2, n_y=2, n_z=1, use_link=True)</small>
 
 Create a rectangular array from the given object.
 
@@ -3322,7 +3322,7 @@ Create a rectangular array from the given object.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_rect_array2d <small>(base_object, d_x=10, d_y=10, n_x=2, n_y=2, use_link=True)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_rect_array2d <small>(base_object, d_x=10, d_y=10, n_x=2, n_y=2, use_link=True)</small>
 
 Create a 2D rectangular array from the given object.
 
@@ -3367,7 +3367,7 @@ Create a 2D rectangular array from the given object.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_rectangle <small>(length, height=0, placement=None, face=None, support=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_rectangle <small>(length, height=0, placement=None, face=None, support=None)</small>
 
 make_rectangle(length, width, [placement], [face])
 
@@ -3393,7 +3393,7 @@ make_rectangle(length, width, [placement], [face])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_shape2dview <small>(baseobj, projectionVector=None, facenumbers=[])</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_shape2dview <small>(baseobj, projectionVector=None, facenumbers=[])</small>
 
 make_shape2dview(object, [projectionVector], [facenumbers])
 
@@ -3412,7 +3412,7 @@ make_shape2dview(object, [projectionVector], [facenumbers])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_shapestring <small>(String, FontFile, Size=100, Tracking=0)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_shapestring <small>(String, FontFile, Size=100, Tracking=0)</small>
 
 ShapeString(Text,FontFile,[Height],[Track])
 
@@ -3425,7 +3425,7 @@ ShapeString(Text,FontFile,[Height],[Track])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_sketch <small>(objects_list, autoconstraints=False, addTo=None, delete=False, name='Sketch', radiusPrecision=-1, tol=0.001)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_sketch <small>(objects_list, autoconstraints=False, addTo=None, delete=False, name='Sketch', radiusPrecision=-1, tol=0.001)</small>
 
 make_sketch(objects_list, [autoconstraints], [addTo], [delete],
                    [name], [radiusPrecision], [tol])
@@ -3459,7 +3459,7 @@ make_sketch(objects_list, [autoconstraints], [addTo], [delete],
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_text <small>(string, placement=None, screen=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_text <small>(string, placement=None, screen=False)</small>
 
 Create a Text object containing the given list of strings.
 
@@ -3497,7 +3497,7 @@ Create a Text object containing the given list of strings.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_wire <small>(pointslist, closed=False, placement=None, face=None, support=None, bs2wire=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_wire <small>(pointslist, closed=False, placement=None, face=None, support=None, bs2wire=False)</small>
 
 make_wire(pointslist, [closed], [placement])
 
@@ -3529,7 +3529,7 @@ make_wire(pointslist, [closed], [placement])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> make_workingplaneproxy <small>(placement)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> make_workingplaneproxy <small>(placement)</small>
 
 make_working_plane_proxy(placement)
 
@@ -3542,7 +3542,7 @@ make_working_plane_proxy(placement)
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> mirror <small>(objlist, p1, p2)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> mirror <small>(objlist, p1, p2)</small>
 
 Create a mirror object from the provided list and line.
 
@@ -3586,7 +3586,7 @@ Create a mirror object from the provided list and line.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> move <small>(objectslist, vector, copy=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> move <small>(objectslist, vector, copy=False)</small>
 
 move(objects,vector,[copy])
 
@@ -3611,35 +3611,35 @@ move(objects,vector,[copy])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> moveEdge <small>(object, edge_index, vector)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> moveEdge <small>(object, edge_index, vector)</small>
 
 Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> moveVertex <small>(object, vertex_index, vector)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> moveVertex <small>(object, vertex_index, vector)</small>
 
 Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> move_edge <small>(object, edge_index, vector)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> move_edge <small>(object, edge_index, vector)</small>
 
 Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> move_vertex <small>(object, vertex_index, vector)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> move_vertex <small>(object, vertex_index, vector)</small>
 
 Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> offset <small>(obj, delta, copy=False, bind=False, sym=False, occ=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> offset <small>(obj, delta, copy=False, bind=False, sym=False, occ=False)</small>
 
 offset(object,delta,[copymode],[bind])
 
@@ -3668,7 +3668,7 @@ offset(object,delta,[copymode],[bind])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> precision <small>()</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> precision <small>()</small>
 
 Return the precision value from the parameter database.
 
@@ -3691,7 +3691,7 @@ Return the precision value from the parameter database.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> printShape <small>(shape)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> printShape <small>(shape)</small>
 
 Print detailed information of a topological shape.
 
@@ -3702,7 +3702,7 @@ Print detailed information of a topological shape.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> print_shape <small>(shape)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> print_shape <small>(shape)</small>
 
 Print detailed information of a topological shape.
 
@@ -3713,7 +3713,7 @@ Print detailed information of a topological shape.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> removeHidden <small>(objectslist)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> removeHidden <small>(objectslist)</small>
 
 Return only the visible objects in the list.
 
@@ -3737,7 +3737,7 @@ Return only the visible objects in the list.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> remove_hidden <small>(objectslist)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> remove_hidden <small>(objectslist)</small>
 
 Return only the visible objects in the list.
 
@@ -3761,13 +3761,13 @@ Return only the visible objects in the list.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> rgba_to_argb <small>(color)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> rgba_to_argb <small>(color)</small>
 
 Change byte order of a 4 byte color int from RGBA (FreeCAD) to ARGB (Qt).
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> rotate <small>(objectslist, angle, center=Vector (0.0, 0.0, 0.0), axis=Vector (0.0, 0.0, 1.0), copy=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> rotate <small>(objectslist, angle, center=Vector (0.0, 0.0, 0.0), axis=Vector (0.0, 0.0, 1.0), copy=False)</small>
 
 rotate(objects,angle,[center,axis,copy])
 
@@ -3796,35 +3796,35 @@ rotate(objects,angle,[center,axis,copy])
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> rotateEdge <small>(object, edge_index, angle, center, axis)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> rotateEdge <small>(object, edge_index, angle, center, axis)</small>
 
 Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> rotateVertex <small>(object, vertex_index, angle, center, axis)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> rotateVertex <small>(object, vertex_index, angle, center, axis)</small>
 
 Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> rotate_edge <small>(object, edge_index, angle, center, axis)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> rotate_edge <small>(object, edge_index, angle, center, axis)</small>
 
 Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> rotate_vertex <small>(object, vertex_index, angle, center, axis)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> rotate_vertex <small>(object, vertex_index, angle, center, axis)</small>
 
 Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> scale <small>(objectslist, scale=Vector (1.0, 1.0, 1.0), center=Vector (0.0, 0.0, 0.0), copy=False)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> scale <small>(objectslist, scale=Vector (1.0, 1.0, 1.0), center=Vector (0.0, 0.0, 0.0), copy=False)</small>
 
 scale(objects, scale, [center], copy)
 
@@ -3851,35 +3851,35 @@ scale(objects, scale, [center], copy)
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> scaleEdge <small>(obj, edge_index, scale, center)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> scaleEdge <small>(obj, edge_index, scale, center)</small>
 
 Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> scaleVertex <small>(obj, vertex_index, scale, center)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> scaleVertex <small>(obj, vertex_index, scale, center)</small>
 
 Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> scale_edge <small>(obj, edge_index, scale, center)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> scale_edge <small>(obj, edge_index, scale, center)</small>
 
 Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> scale_vertex <small>(obj, vertex_index, scale, center)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> scale_vertex <small>(obj, vertex_index, scale, center)</small>
 
 Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> select <small>(objs=None, gui=0)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> select <small>(objs=None, gui=0)</small>
 
 Unselects everything and selects only the given list of objects.
 
@@ -3902,7 +3902,7 @@ Unselects everything and selects only the given list of objects.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> setParam <small>(param, value)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> setParam <small>(param, value)</small>
 
 Set a Draft parameter with the given value.
 
@@ -3930,7 +3930,7 @@ Set a Draft parameter with the given value.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> set_param <small>(param, value)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> set_param <small>(param, value)</small>
 
 Set a Draft parameter with the given value.
 
@@ -3958,7 +3958,7 @@ Set a Draft parameter with the given value.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> shapify <small>(obj)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> shapify <small>(obj)</small>
 
 Transform a parametric object into a static, non-parametric shape.
 
@@ -3986,31 +3986,13 @@ Transform a parametric object into a static, non-parametric shape.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> split <small>(wire, newPoint, edgeIndex)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> split <small>(wire, newPoint, edgeIndex)</small>
 
 
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> string_encode_coin <small>(ustr)</small>
-
-Encode a unicode object to be used as a string in coin.
-
-    Parameters
-     
-    ustr : str
-        A string to be encoded
-
-    Returns
-     
-    str
-        Encoded string. If the coin version is >= 4
-        it will encode the string to `'utf-8'`, otherwise
-        it will encode it to `'latin-1'`.
-
-
-
-#### <img src="images/type_method.svg" style="width:16px;"> stringencodecoin <small>(ustr)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> string_encode_coin <small>(ustr)</small>
 
 Encode a unicode object to be used as a string in coin.
 
@@ -4028,7 +4010,25 @@ Encode a unicode object to be used as a string in coin.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> svg_patterns <small>()</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> stringencodecoin <small>(ustr)</small>
+
+Encode a unicode object to be used as a string in coin.
+
+    Parameters
+     
+    ustr : str
+        A string to be encoded
+
+    Returns
+     
+    str
+        Encoded string. If the coin version is >= 4
+        it will encode the string to `'utf-8'`, otherwise
+        it will encode it to `'latin-1'`.
+
+
+
+#### <img src="images/Arrow-right.svg" style="width:16px;"> svg_patterns <small>()</small>
 
 Return a dictionary with installed SVG patterns.
 
@@ -4041,7 +4041,7 @@ Return a dictionary with installed SVG patterns.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> svgpatterns <small>()</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> svgpatterns <small>()</small>
 
 Return a dictionary with installed SVG patterns.
 
@@ -4054,7 +4054,7 @@ Return a dictionary with installed SVG patterns.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> tolerance <small>()</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> tolerance <small>()</small>
 
 Return the tolerance value from the parameter database.
 
@@ -4072,7 +4072,7 @@ Return the tolerance value from the parameter database.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> type_check <small>(args_and_types, name='?')</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> type_check <small>(args_and_types, name='?')</small>
 
 Check that the arguments are instances of certain types.
 
@@ -4107,7 +4107,7 @@ Check that the arguments are instances of certain types.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> typecheck <small>(args_and_types, name='?')</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> typecheck <small>(args_and_types, name='?')</small>
 
 Check that the arguments are instances of certain types.
 
@@ -4142,7 +4142,7 @@ Check that the arguments are instances of certain types.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> ungroup <small>(obj)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> ungroup <small>(obj)</small>
 
 Remove the object from any group to which it belongs.
 
@@ -4158,7 +4158,7 @@ Remove the object from any group to which it belongs.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> upgrade <small>(objects, delete=False, force=None)</small>
+#### <img src="images/Arrow-right.svg" style="width:16px;"> upgrade <small>(objects, delete=False, force=None)</small>
 
 Upgrade the given objects.
 
@@ -4198,7 +4198,7 @@ Upgrade the given objects.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> AngularDimension <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> AngularDimension <small>(obj)</small>
 
 The angular dimension object.
 
@@ -4207,7 +4207,7 @@ The angular dimension object.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Array <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Array <small>(obj)</small>
 
 The Draft Array object.
 
@@ -4219,43 +4219,43 @@ The Draft Array object.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> BSpline <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> BSpline <small>(obj)</small>
 
 The BSpline object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> BezCurve <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> BezCurve <small>(obj)</small>
 
 The BezCurve object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Block <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Block <small>(obj)</small>
 
 The Block object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> [Circle](Circle_API.md) <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> [Circle](Circle_API.md) <small>(obj)</small>
 
 The Circle object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Clone <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Clone <small>(obj)</small>
 
 The Clone object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> DraftLabel <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> DraftLabel <small>(obj)</small>
 
 The Draft Label object.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> DraftLink <small>(obj, tp)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> DraftLink <small>(obj, tp)</small>
 
 New class to use the App::Link objects in arrays.
 
@@ -4265,7 +4265,7 @@ New class to use the App::Link objects in arrays.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> DraftObject <small>(obj, tp='Unknown')</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> DraftObject <small>(obj, tp='Unknown')</small>
 
 The base class for Draft objects.
 
@@ -4313,43 +4313,43 @@ The base class for Draft objects.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> DraftText <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> DraftText <small>(obj)</small>
 
 The Draft Text object.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> [Ellipse](Ellipse_API.md) <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> [Ellipse](Ellipse_API.md) <small>(obj)</small>
 
 The Circle object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Facebinder <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Facebinder <small>(obj)</small>
 
 The Draft Facebinder object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Fillet <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Fillet <small>(obj)</small>
 
 Proxy class for the Fillet object.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Hatch <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Hatch <small>(obj)</small>
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Label <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Label <small>(obj)</small>
 
 The Draft Label object.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Layer <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Layer <small>(obj)</small>
 
 The Layer object.
 
@@ -4357,7 +4357,7 @@ The Layer object.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> LinearDimension <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> LinearDimension <small>(obj)</small>
 
 The linear dimension object.
 
@@ -4369,7 +4369,7 @@ The linear dimension object.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> PathArray <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> PathArray <small>(obj)</small>
 
 The Draft Path Array object.
 
@@ -4424,49 +4424,49 @@ The Draft Path Array object.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> [Point](Point_API.md) <small>(obj, x=0, y=0, z=0)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> [Point](Point_API.md) <small>(obj, x=0, y=0, z=0)</small>
 
 The Draft Point object.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> PointArray <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> PointArray <small>(obj)</small>
 
 The Draft Point Array object.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Polygon <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Polygon <small>(obj)</small>
 
 The Polygon object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Rectangle <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Rectangle <small>(obj)</small>
 
 The Rectangle object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Shape2DView <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Shape2DView <small>(obj)</small>
 
 The Shape2DView object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> ShapeString <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> ShapeString <small>(obj)</small>
 
 The ShapeString object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Text <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Text <small>(obj)</small>
 
 The Draft Text object.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> ViewProviderDraft <small>(vobj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> ViewProviderDraft <small>(vobj)</small>
 
 The base class for Draft view providers.
 
@@ -4510,7 +4510,7 @@ The base class for Draft view providers.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> ViewProviderDraftAlt <small>(vobj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> ViewProviderDraftAlt <small>(vobj)</small>
 
 A view provider that doesn't absorb its base object in the tree view.
 
@@ -4522,13 +4522,13 @@ A view provider that doesn't absorb its base object in the tree view.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> ViewProviderDraftLink <small>(vobj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> ViewProviderDraftLink <small>(vobj)</small>
 
 A view provider for link type object.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> ViewProviderDraftPart <small>(vobj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> ViewProviderDraftPart <small>(vobj)</small>
 
 A view provider that displays a Part icon instead of a Draft icon.
 
@@ -4538,19 +4538,19 @@ A view provider that displays a Part icon instead of a Draft icon.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> [Wire](Wire_API.md) <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> [Wire](Wire_API.md) <small>(obj)</small>
 
 The Wire object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> WorkingPlaneProxy <small>(obj)</small>
+#### <img src="images/BIM_Column.svg" style="width:16px;"> WorkingPlaneProxy <small>(obj)</small>
 
 The Draft working plane proxy object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> arrowtypes
+#### <img src="images/BIM_Column.svg" style="width:16px;"> arrowtypes
 
 Built-in mutable sequence.
 
@@ -4559,7 +4559,7 @@ The argument must be an iterable if specified.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> gui
+#### <img src="images/BIM_Column.svg" style="width:16px;"> gui
 
 bool(x) -> bool
 
@@ -4571,7 +4571,7 @@ The class bool is a subclass of the class int, and cannot be subclassed.
 
 ### Modules
 
-#### <img src="images/type_module.svg" style="width:16px;"> App
+#### <img src="images/Applications-python.svg" style="width:16px;"> App
 
 The functions in the FreeCAD module allow working with documents.
 The FreeCAD instance provides a list of references of documents which
@@ -4589,4 +4589,4 @@ file the document should be stored to.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Draft](Draft_Workbench.md) > Draft API
+![](images/Button_right.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Draft](Draft_Workbench.md) > Draft API

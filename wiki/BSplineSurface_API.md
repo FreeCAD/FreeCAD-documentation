@@ -4,19 +4,19 @@ Describes a B-Spline surface in 3D space
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Content
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Content
 
 Content of the object in XML representation.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Continuity
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Continuity
 
 Returns the global continuity of the surface.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> FirstUKnotIndex
+#### <img src="images/BIM_Column.svg" style="width:16px;"> FirstUKnotIndex
 
 Returns the index in the knot array associated with the u parametric direction,
                     which corresponds to the first parameter of this B-Spline surface in the specified
@@ -31,7 +31,7 @@ Returns the index in the knot array associated with the u parametric direction,
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> FirstVKnotIndex
+#### <img src="images/BIM_Column.svg" style="width:16px;"> FirstVKnotIndex
 
 Returns the index in the knot array associated with the v parametric direction,
                     which corresponds to the first parameter of this B-Spline surface in the specified
@@ -46,7 +46,7 @@ Returns the index in the knot array associated with the v parametric direction,
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> LastUKnotIndex
+#### <img src="images/BIM_Column.svg" style="width:16px;"> LastUKnotIndex
 
 Returns the index in the knot array associated with the u parametric direction,
                     which corresponds to the last parameter of this B-Spline surface in the specified
@@ -61,7 +61,7 @@ Returns the index in the knot array associated with the u parametric direction,
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> LastVKnotIndex
+#### <img src="images/BIM_Column.svg" style="width:16px;"> LastVKnotIndex
 
 Returns the index in the knot array associated with the v parametric direction,
                     which corresponds to the last parameter of this B-Spline surface in the specified
@@ -76,7 +76,7 @@ Returns the index in the knot array associated with the v parametric direction,
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> MaxDegree
+#### <img src="images/BIM_Column.svg" style="width:16px;"> MaxDegree
 
 Returns the value of the maximum polynomial degree of any
                     B-Spline surface surface in either parametric directions.
@@ -84,99 +84,99 @@ Returns the value of the maximum polynomial degree of any
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> MemSize
+#### <img src="images/BIM_Column.svg" style="width:16px;"> MemSize
 
 Memory size of the object in bytes.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Module
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Module
 
 Module in which this class is defined
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> NbUKnots
+#### <img src="images/BIM_Column.svg" style="width:16px;"> NbUKnots
 
 Returns the number of knots of this B-Spline surface in the u parametric direction.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> NbUPoles
+#### <img src="images/BIM_Column.svg" style="width:16px;"> NbUPoles
 
 Returns the number of poles of this B-Spline surface in the u parametric direction.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> NbVKnots
+#### <img src="images/BIM_Column.svg" style="width:16px;"> NbVKnots
 
 Returns the number of knots of this B-Spline surface in the v parametric direction.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> NbVPoles
+#### <img src="images/BIM_Column.svg" style="width:16px;"> NbVPoles
 
 Returns the number of poles of this B-Spline surface in the v parametric direction.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Rotation
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Rotation
 
 Returns a rotation object to describe the orientation for surface that supports it
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Tag
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Tag
 
 Gives the tag of the geometry as string.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> TypeId
+#### <img src="images/BIM_Column.svg" style="width:16px;"> TypeId
 
 Is the type of the FreeCAD object with module domain
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> UDegree
+#### <img src="images/BIM_Column.svg" style="width:16px;"> UDegree
 
 Returns the degree of this B-Spline surface in the u parametric direction.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> UKnotSequence
+#### <img src="images/BIM_Column.svg" style="width:16px;"> UKnotSequence
 
 Returns the knots sequence of this B-Spline surface in
                         the u direction.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> UPeriod
+#### <img src="images/BIM_Column.svg" style="width:16px;"> UPeriod
 
 Returns the period of this patch in the u parametric direction.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> VDegree
+#### <img src="images/BIM_Column.svg" style="width:16px;"> VDegree
 
 Returns the degree of this B-Spline surface in the v parametric direction.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> VKnotSequence
+#### <img src="images/BIM_Column.svg" style="width:16px;"> VKnotSequence
 
 Returns the knots sequence of this B-Spline surface in
                     the v direction.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> VPeriod
+#### <img src="images/BIM_Column.svg" style="width:16px;"> VPeriod
 
 Returns the period of this patch in the v parametric direction.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> approximate
+#### <img src="images/BIM_Column.svg" style="width:16px;"> approximate
 
 Replaces this B-Spline surface by approximating a set of points.
                     This method uses keywords :
@@ -198,38 +198,38 @@ Replaces this B-Spline surface by approximating a set of points.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> bounds
+#### <img src="images/BIM_Column.svg" style="width:16px;"> bounds
 
 Returns the parametric bounds (U1, U2, V1, V2) of this B-Spline surface.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> buildFromNSections
+#### <img src="images/BIM_Column.svg" style="width:16px;"> buildFromNSections
 
 Builds a B-Spline from a list of control curves
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> buildFromPolesMultsKnots
+#### <img src="images/BIM_Column.svg" style="width:16px;"> buildFromPolesMultsKnots
 
 Builds a B-Spline by a lists of Poles, Mults and Knots
                     arguments: poles (sequence of sequence of Base.Vector), umults, vmults, [uknots, vknots, uperiodic, vperiodic, udegree, vdegree, weights (sequence of sequence of float)]
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> clone
+#### <img src="images/BIM_Column.svg" style="width:16px;"> clone
 
 Create a clone of this geometry with the same Tag
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> copy
+#### <img src="images/BIM_Column.svg" style="width:16px;"> copy
 
 Create a copy of this geometry
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> curvature
+#### <img src="images/BIM_Column.svg" style="width:16px;"> curvature
 
 curvature(u,v,type) -> float
 The value of type must be one of this: Max, Min, Mean or Gauss
@@ -237,7 +237,7 @@ Computes the curvature of parameter (u,v) on this geometry
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> curvatureDirections
+#### <img src="images/BIM_Column.svg" style="width:16px;"> curvatureDirections
 
 curvatureDirections(u,v) -> (Vector,Vector)
 Computes the directions of maximum and minimum curvature
@@ -247,19 +247,19 @@ the second vector corresponds to the minimum curvature.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> deleteExtensionOfName
+#### <img src="images/BIM_Column.svg" style="width:16px;"> deleteExtensionOfName
 
 Deletes all extensions of the indicated name.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> deleteExtensionOfType
+#### <img src="images/BIM_Column.svg" style="width:16px;"> deleteExtensionOfType
 
 Deletes all extensions of the indicated type.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> dumpContent
+#### <img src="images/BIM_Column.svg" style="width:16px;"> dumpContent
 
 dumpContent(Compression=3) -> bytearray
 
@@ -271,7 +271,7 @@ Compression : int
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> exchangeUV
+#### <img src="images/BIM_Column.svg" style="width:16px;"> exchangeUV
 
 Exchanges the u and v parametric directions on this B-Spline surface.
                     As a consequence:
@@ -283,61 +283,61 @@ Exchanges the u and v parametric directions on this B-Spline surface.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getAllDerivedFrom
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getAllDerivedFrom
 
 Returns all descendants
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getD0
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getD0
 
 Returns the point of given parameter
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getDN
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getDN
 
 Returns the n-th derivative
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getExtensionOfName
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getExtensionOfName
 
 Gets the first geometry extension of the name indicated by the string.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getExtensionOfType
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getExtensionOfType
 
 Gets the first geometry extension of the type indicated by the string.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getExtensions
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getExtensions
 
 Returns a list with information about the geometry extensions.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getPole
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getPole
 
 Returns the pole of index (UIndex,VIndex) of this B-Spline surface.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getPoles
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getPoles
 
 Returns the table of poles of this B-Spline surface.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getPolesAndWeights
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getPolesAndWeights
 
 Returns the table of poles and weights in homogeneous coordinates.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getResolution
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getResolution
 
 Computes two tolerance values for this B-Spline surface, based on the
                     given tolerance in 3D space Tolerance3D. The tolerances computed are:
@@ -352,88 +352,88 @@ Computes two tolerance values for this B-Spline surface, based on the
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getUKnot
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getUKnot
 
 Returns, for this B-Spline surface, in the u parametric direction
                     the knot of index UIndex of the knots table.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getUKnots
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getUKnots
 
 Returns, for this B-Spline surface, the knots table
                     in the u parametric direction
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getUMultiplicities
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getUMultiplicities
 
 Returns, for this B-Spline surface, the table of
                     multiplicities in the u parametric direction
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getUMultiplicity
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getUMultiplicity
 
 Returns, for this B-Spline surface, the multiplicity of
                     the knot of index UIndex in the u parametric direction.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getVKnot
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getVKnot
 
 Returns, for this B-Spline surface, in the v parametric direction
                     the knot of index VIndex of the knots table.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getVKnots
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getVKnots
 
 Returns, for this B-Spline surface, the knots table
                     in the v parametric direction
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getVMultiplicities
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getVMultiplicities
 
 Returns, for this B-Spline surface, the table of
                     multiplicities in the v parametric direction
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getVMultiplicity
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getVMultiplicity
 
 Returns, for this B-Spline surface, the multiplicity of
                     the knot of index VIndex in the v parametric direction.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getWeight
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getWeight
 
 Return the weight of the pole of index (UIndex,VIndex)
                     in the poles table for this B-Spline surface.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getWeights
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getWeights
 
 Returns the table of weights of the poles for this B-Spline surface.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> hasExtensionOfName
+#### <img src="images/BIM_Column.svg" style="width:16px;"> hasExtensionOfName
 
 Returns a boolean indicating whether a geometry extension with the name indicated as a string exists.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> hasExtensionOfType
+#### <img src="images/BIM_Column.svg" style="width:16px;"> hasExtensionOfType
 
 Returns a boolean indicating whether a geometry extension of the type indicated as a string exists.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> increaseDegree
+#### <img src="images/BIM_Column.svg" style="width:16px;"> increaseDegree
 
 increase(Int=UDegree, int=VDegree)
                     Increases the degrees of this B-Spline surface to UDegree and VDegree
@@ -446,55 +446,55 @@ increase(Int=UDegree, int=VDegree)
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> increaseUMultiplicity
+#### <img src="images/BIM_Column.svg" style="width:16px;"> increaseUMultiplicity
 
 Increases the multiplicity in the u direction.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> increaseVMultiplicity
+#### <img src="images/BIM_Column.svg" style="width:16px;"> increaseVMultiplicity
 
 Increases the multiplicity in the v direction.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> incrementUMultiplicity
+#### <img src="images/BIM_Column.svg" style="width:16px;"> incrementUMultiplicity
 
 Increment the multiplicity in the u direction
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> incrementVMultiplicity
+#### <img src="images/BIM_Column.svg" style="width:16px;"> incrementVMultiplicity
 
 Increment the multiplicity in the v direction
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> insertUKnot
+#### <img src="images/BIM_Column.svg" style="width:16px;"> insertUKnot
 
 insertUKnote(float U, int Index, float Tolerance) - Insert or override a knot
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> insertUKnots
+#### <img src="images/BIM_Column.svg" style="width:16px;"> insertUKnots
 
 insertUKnote(List of float U, List of float Mult, float Tolerance) - Inserts knots.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> insertVKnot
+#### <img src="images/BIM_Column.svg" style="width:16px;"> insertVKnot
 
 insertUKnote(float V, int Index, float Tolerance) - Insert or override a knot.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> insertVKnots
+#### <img src="images/BIM_Column.svg" style="width:16px;"> insertVKnots
 
 insertUKnote(List of float V, List of float Mult, float Tolerance) - Inserts knots.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> interpolate
+#### <img src="images/BIM_Column.svg" style="width:16px;"> interpolate
 
 interpolate(points)
                     interpolate(zpoints, X0, dX, Y0, dY)
@@ -511,13 +511,13 @@ interpolate(points)
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> intersect
+#### <img src="images/BIM_Column.svg" style="width:16px;"> intersect
 
 Returns all intersection points/curves between the surface and the curve/surface.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> intersectSS
+#### <img src="images/BIM_Column.svg" style="width:16px;"> intersectSS
 
 Returns all intersection curves of this surface and the given surface.
 The required arguments are:
@@ -526,20 +526,20 @@ The required arguments are:
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isDerivedFrom
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isDerivedFrom
 
 Returns true if given type is a father
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isPlanar
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isPlanar
 
 isPlanar([float]) -> Bool
 Checks if the surface is planar within a certain tolerance.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isUClosed
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isUClosed
 
 Checks if this surface is closed in the u parametric direction.
                     Returns true if, in the table of poles the first row and the last
@@ -547,13 +547,13 @@ Checks if this surface is closed in the u parametric direction.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isUPeriodic
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isUPeriodic
 
 Returns true if this surface is periodic in the u parametric direction.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isURational
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isURational
 
 Returns false if the equation of this B-Spline surface is polynomial
                     (e.g. non-rational) in the u or v parametric direction.
@@ -562,7 +562,7 @@ Returns false if the equation of this B-Spline surface is polynomial
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isUmbillic
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isUmbillic
 
 isUmbillic(u,v) -> bool
 Check if the geometry on parameter is an umbillic point,
@@ -570,7 +570,7 @@ i.e. maximum and minimum curvature are equal.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isVClosed
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isVClosed
 
 Checks if this surface is closed in the v parametric direction.
                     Returns true if, in the table of poles the first column and the
@@ -578,13 +578,13 @@ Checks if this surface is closed in the v parametric direction.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isVPeriodic
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isVPeriodic
 
 Returns true if this surface is periodic in the v parametric direction.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isVRational
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isVRational
 
 Returns false if the equation of this B-Spline surface is polynomial
                     (e.g. non-rational) in the u or v parametric direction.
@@ -593,13 +593,13 @@ Returns false if the equation of this B-Spline surface is polynomial
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> mirror
+#### <img src="images/BIM_Column.svg" style="width:16px;"> mirror
 
 Performs the symmetrical transformation of this geometric object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> movePoint
+#### <img src="images/BIM_Column.svg" style="width:16px;"> movePoint
 
 Moves the point of parameters (U, V) of this B-Spline surface to P.
                     UIndex1, UIndex2, VIndex1 and VIndex2 are the indexes in the poles
@@ -616,21 +616,21 @@ Moves the point of parameters (U, V) of this B-Spline surface to P.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> normal
+#### <img src="images/BIM_Column.svg" style="width:16px;"> normal
 
 normal(u,v) -> Vector
 Computes the normal of parameter (u,v) on this geometry
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> parameter
+#### <img src="images/BIM_Column.svg" style="width:16px;"> parameter
 
 Returns the parameter on the curve
 of the nearest orthogonal projection of the point.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> projectPoint
+#### <img src="images/BIM_Column.svg" style="width:16px;"> projectPoint
 
 Computes the projection of a point on the surface
 
@@ -644,7 +644,7 @@ projectPoint(Vector,"Point") -> list of points
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> removeUKnot
+#### <img src="images/BIM_Column.svg" style="width:16px;"> removeUKnot
 
 Reduces to M the multiplicity of the knot of index Index in the given
                 parametric direction. If M is 0, the knot is removed.
@@ -662,7 +662,7 @@ Reduces to M the multiplicity of the knot of index Index in the given
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> removeVKnot
+#### <img src="images/BIM_Column.svg" style="width:16px;"> removeVKnot
 
 Reduces to M the multiplicity of the knot of index Index in the given
                 parametric direction. If M is 0, the knot is removed.
@@ -680,13 +680,13 @@ Reduces to M the multiplicity of the knot of index Index in the given
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> reparametrize
+#### <img src="images/BIM_Column.svg" style="width:16px;"> reparametrize
 
 Returns a reparametrized copy of this surface
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> restoreContent
+#### <img src="images/BIM_Column.svg" style="width:16px;"> restoreContent
 
 restoreContent(obj) -> None
 
@@ -698,19 +698,19 @@ obj : buffer
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> rotate
+#### <img src="images/BIM_Column.svg" style="width:16px;"> rotate
 
 Rotates this geometric object at angle Ang (in radians) about axis
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> scale
+#### <img src="images/BIM_Column.svg" style="width:16px;"> scale
 
 Applies a scaling transformation on this geometric object with a center and scaling factor
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> scaleKnotsToBounds
+#### <img src="images/BIM_Column.svg" style="width:16px;"> scaleKnotsToBounds
 
 Scales the U and V knots lists to fit the specified bounds.
                     The shape of the surface is not modified.
@@ -719,7 +719,7 @@ Scales the U and V knots lists to fit the specified bounds.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> segment
+#### <img src="images/BIM_Column.svg" style="width:16px;"> segment
 
 Modifies this B-Spline surface by segmenting it between U1 and U2 in the
                     u parametric direction and between V1 and V2 in the v parametric direction.
@@ -733,13 +733,13 @@ Modifies this B-Spline surface by segmenting it between U1 and U2 in the
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setExtension
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setExtension
 
 Sets a geometry extension of the indicated type.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setPole
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setPole
 
 Modifies this B-Spline surface by assigning P to the pole of
                     index (UIndex, VIndex) in the poles table.
@@ -751,7 +751,7 @@ Modifies this B-Spline surface by assigning P to the pole of
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setPoleCol
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setPoleCol
 
 Modifies this B-Spline surface by assigning values to all or part
                     of the column of poles of index VIndex, of this B-Spline surface.
@@ -761,7 +761,7 @@ Modifies this B-Spline surface by assigning values to all or part
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setPoleRow
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setPoleRow
 
 Modifies this B-Spline surface by assigning values to all or part
                     of the row of poles of index VIndex, of this B-Spline surface.
@@ -771,7 +771,7 @@ Modifies this B-Spline surface by assigning values to all or part
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setUKnot
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setUKnot
 
 Modifies this B-Spline surface by assigning the value K to the knot of index
                     UIndex of the knots table corresponding to the u parametric direction.
@@ -783,14 +783,14 @@ Modifies this B-Spline surface by assigning the value K to the knot of index
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setUKnots
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setUKnots
 
 Changes all knots of this B-Spline surface in the u parametric
                     direction. The multiplicity of the knots is not modified.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setUNotPeriodic
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setUNotPeriodic
 
 Changes this B-Spline surface into a non-periodic one in the u parametric direction.
                     If this B-Spline surface is already non-periodic in the given parametric direction,
@@ -806,7 +806,7 @@ Changes this B-Spline surface into a non-periodic one in the u parametric direct
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setUOrigin
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setUOrigin
 
 Assigns the knot of index Index in the knots table
                     in the u parametric direction to be the origin of
@@ -815,7 +815,7 @@ Assigns the knot of index Index in the knots table
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setUPeriodic
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setUPeriodic
 
 Modifies this surface to be periodic in the u parametric direction.
                     To become periodic in a given parametric direction a surface must
@@ -833,7 +833,7 @@ Modifies this surface to be periodic in the u parametric direction.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setVKnot
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setVKnot
 
 Modifies this B-Spline surface by assigning the value K to the knot of index
                     VIndex of the knots table corresponding to the v parametric direction.
@@ -845,14 +845,14 @@ Modifies this B-Spline surface by assigning the value K to the knot of index
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setVKnots
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setVKnots
 
 Changes all knots of this B-Spline surface in the v parametric
                     direction. The multiplicity of the knots is not modified.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setVNotPeriodic
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setVNotPeriodic
 
 Changes this B-Spline surface into a non-periodic one in the v parametric direction.
                     If this B-Spline surface is already non-periodic in the given parametric direction,
@@ -868,7 +868,7 @@ Changes this B-Spline surface into a non-periodic one in the v parametric direct
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setVOrigin
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setVOrigin
 
 Assigns the knot of index Index in the knots table
                     in the v parametric direction to be the origin of
@@ -877,7 +877,7 @@ Assigns the knot of index Index in the knots table
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setVPeriodic
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setVPeriodic
 
 Modifies this surface to be periodic in the v parametric direction.
                     To become periodic in a given parametric direction a surface must
@@ -895,7 +895,7 @@ Modifies this surface to be periodic in the v parametric direction.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setWeight
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setWeight
 
 Modifies this B-Spline surface by assigning the value Weight to the weight
                     of the pole of index (UIndex, VIndex) in the poles tables of this B-Spline
@@ -905,7 +905,7 @@ Modifies this B-Spline surface by assigning the value Weight to the weight
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setWeightCol
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setWeightCol
 
 Modifies this B-Spline surface by assigning values to all or part of the
                     weights of the column of poles of index VIndex of this B-Spline surface.
@@ -917,7 +917,7 @@ Modifies this B-Spline surface by assigning values to all or part of the
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setWeightRow
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setWeightRow
 
 Modifies this B-Spline surface by assigning values to all or part of the
                     weights of the row of poles of index UIndex of this B-Spline surface.
@@ -929,14 +929,14 @@ Modifies this B-Spline surface by assigning values to all or part of the
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> tangent
+#### <img src="images/BIM_Column.svg" style="width:16px;"> tangent
 
 tangent(u,v) -> (Vector,Vector)
 Computes the tangent of parameter (u,v) on this geometry
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> toBSpline
+#### <img src="images/BIM_Column.svg" style="width:16px;"> toBSpline
 
 Returns a B-Spline representation of this surface.
 					The optional arguments are:
@@ -951,43 +951,43 @@ Returns a B-Spline representation of this surface.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> toShape
+#### <img src="images/BIM_Column.svg" style="width:16px;"> toShape
 
 Return the shape for the geometry.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> toShell
+#### <img src="images/BIM_Column.svg" style="width:16px;"> toShell
 
 Make a shell of the surface.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> transform
+#### <img src="images/BIM_Column.svg" style="width:16px;"> transform
 
 Applies a transformation to this geometric object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> translate
+#### <img src="images/BIM_Column.svg" style="width:16px;"> translate
 
 Translates this geometric object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> uIso
+#### <img src="images/BIM_Column.svg" style="width:16px;"> uIso
 
 Builds the U isoparametric curve
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> vIso
+#### <img src="images/BIM_Column.svg" style="width:16px;"> vIso
 
 Builds the V isoparametric curve
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> value
+#### <img src="images/BIM_Column.svg" style="width:16px;"> value
 
 value(u,v) -> Point
 Computes the point of parameter (u,v) on this surface
@@ -1001,4 +1001,4 @@ Computes the point of parameter (u,v) on this surface
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > BSplineSurface API
+![](images/Button_right.png) [documentation index](../README.md) > [API](Category_API.md) > BSplineSurface API

@@ -4,37 +4,37 @@ Describes a B-Spline curve in 3D space
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Content
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Content
 
 Content of the object in XML representation.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Continuity
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Continuity
 
 Returns the global continuity of the curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Degree
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Degree
 
 Returns the polynomial degree of this B-Spline curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> EndPoint
+#### <img src="images/BIM_Column.svg" style="width:16px;"> EndPoint
 
 Returns the end point of this B-Spline curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> FirstParameter
+#### <img src="images/BIM_Column.svg" style="width:16px;"> FirstParameter
 
 Returns the value of the first parameter.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> FirstUKnotIndex
+#### <img src="images/BIM_Column.svg" style="width:16px;"> FirstUKnotIndex
 
 Returns the index in the knot array of the knot
 corresponding to the first or last parameter
@@ -42,19 +42,19 @@ of this B-Spline curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> KnotSequence
+#### <img src="images/BIM_Column.svg" style="width:16px;"> KnotSequence
 
 Returns the knots sequence of this B-Spline curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> LastParameter
+#### <img src="images/BIM_Column.svg" style="width:16px;"> LastParameter
 
 Returns the value of the last parameter.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> LastUKnotIndex
+#### <img src="images/BIM_Column.svg" style="width:16px;"> LastUKnotIndex
 
 Returns the index in the knot array of the knot
 corresponding to the first or last parameter
@@ -62,62 +62,62 @@ of this B-Spline curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> MaxDegree
+#### <img src="images/BIM_Column.svg" style="width:16px;"> MaxDegree
 
 Returns the value of the maximum polynomial degree of any
 B-Spline curve curve. This value is 25.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> MemSize
+#### <img src="images/BIM_Column.svg" style="width:16px;"> MemSize
 
 Memory size of the object in bytes.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Module
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Module
 
 Module in which this class is defined
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> NbKnots
+#### <img src="images/BIM_Column.svg" style="width:16px;"> NbKnots
 
 Returns the number of knots of this B-Spline curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> NbPoles
+#### <img src="images/BIM_Column.svg" style="width:16px;"> NbPoles
 
 Returns the number of poles of this B-Spline curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Rotation
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Rotation
 
 Returns a rotation object to describe the orientation for curve that supports it
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> StartPoint
+#### <img src="images/BIM_Column.svg" style="width:16px;"> StartPoint
 
 Returns the start point of this B-Spline curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Tag
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Tag
 
 Gives the tag of the geometry as string.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> TypeId
+#### <img src="images/BIM_Column.svg" style="width:16px;"> TypeId
 
 Is the type of the FreeCAD object with module domain
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> approximate
+#### <img src="images/BIM_Column.svg" style="width:16px;"> approximate
 
 Replaces this B-Spline curve by approximating a set of points.
                     The function accepts keywords as arguments.
@@ -150,14 +150,14 @@ Replaces this B-Spline curve by approximating a set of points.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> approximateBSpline
+#### <img src="images/BIM_Column.svg" style="width:16px;"> approximateBSpline
 
 Approximates a curve of any type to a B-Spline curve
 					approximateBSpline(Tolerance, MaxSegments, MaxDegree, [Order='C2']) -> B-Spline curve
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> buildFromPoles
+#### <img src="images/BIM_Column.svg" style="width:16px;"> buildFromPoles
 
 Builds a B-Spline by a list of poles.
                     arguments: poles (sequence of Base.Vector), [periodic (default is False), degree (default is 3), interpolate (default is False)]
@@ -180,7 +180,7 @@ Builds a B-Spline by a list of poles.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> buildFromPolesMultsKnots
+#### <img src="images/BIM_Column.svg" style="width:16px;"> buildFromPolesMultsKnots
 
 Builds a B-Spline by a lists of Poles, Mults, Knots.
                 arguments: poles (sequence of Base.Vector), [mults , knots, periodic, degree, weights (sequence of float), CheckRational]
@@ -208,49 +208,49 @@ Builds a B-Spline by a lists of Poles, Mults, Knots.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> centerOfCurvature
+#### <img src="images/BIM_Column.svg" style="width:16px;"> centerOfCurvature
 
 Vector = centerOfCurvature(float pos) - Get the center of curvature at the given parameter [First|Last] if defined
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> clone
+#### <img src="images/BIM_Column.svg" style="width:16px;"> clone
 
 Create a clone of this geometry with the same Tag
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> continuityWith
+#### <img src="images/BIM_Column.svg" style="width:16px;"> continuityWith
 
 Computes the continuity of two curves
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> copy
+#### <img src="images/BIM_Column.svg" style="width:16px;"> copy
 
 Create a copy of this geometry
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> curvature
+#### <img src="images/BIM_Column.svg" style="width:16px;"> curvature
 
 Float = curvature(pos) - Get the curvature at the given parameter [First|Last] if defined
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> deleteExtensionOfName
+#### <img src="images/BIM_Column.svg" style="width:16px;"> deleteExtensionOfName
 
 Deletes all extensions of the indicated name.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> deleteExtensionOfType
+#### <img src="images/BIM_Column.svg" style="width:16px;"> deleteExtensionOfType
 
 Deletes all extensions of the indicated type.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> discretize
+#### <img src="images/BIM_Column.svg" style="width:16px;"> discretize
 
 Discretizes the curve and returns a list of points.
 The function accepts keywords as argument:
@@ -286,7 +286,7 @@ Part.show(s)
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> dumpContent
+#### <img src="images/BIM_Column.svg" style="width:16px;"> dumpContent
 
 dumpContent(Compression=3) -> bytearray
 
@@ -298,110 +298,110 @@ Compression : int
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getAllDerivedFrom
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getAllDerivedFrom
 
 Returns all descendants
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getCardinalSplineTangents
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getCardinalSplineTangents
 
 Compute the tangents for a Cardinal spline
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getD0
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getD0
 
 Returns the point of given parameter
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getD1
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getD1
 
 Returns the point and first derivative of given parameter
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getD2
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getD2
 
 Returns the point, first and second derivatives
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getD3
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getD3
 
 Returns the point, first, second and third derivatives
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getDN
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getDN
 
 Returns the n-th derivative
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getExtensionOfName
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getExtensionOfName
 
 Gets the first geometry extension of the name indicated by the string.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getExtensionOfType
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getExtensionOfType
 
 Gets the first geometry extension of the type indicated by the string.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getExtensions
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getExtensions
 
 Returns a list with information about the geometry extensions.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getKnot
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getKnot
 
 Get a knot of the B-Spline curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getKnots
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getKnots
 
 Get all knots of the B-Spline curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getMultiplicities
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getMultiplicities
 
 Returns the multiplicities table M of the knots of this B-Spline curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getMultiplicity
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getMultiplicity
 
 Returns the multiplicity of the knot of index
 from the knots table of this B-Spline curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getPole
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getPole
 
 Get a pole of the B-Spline curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getPoles
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getPoles
 
 Get all poles of the B-Spline curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getPolesAndWeights
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getPolesAndWeights
 
 Returns the table of poles and weights in homogeneous coordinates.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getResolution
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getResolution
 
 Computes for this B-Spline curve the parametric tolerance (UTolerance)
 for a given 3D tolerance (Tolerance3D).
@@ -411,31 +411,31 @@ ensures that:
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getWeight
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getWeight
 
 Get a weight of the B-Spline curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getWeights
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getWeights
 
 Get all weights of the B-Spline curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> hasExtensionOfName
+#### <img src="images/BIM_Column.svg" style="width:16px;"> hasExtensionOfName
 
 Returns a boolean indicating whether a geometry extension with the name indicated as a string exists.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> hasExtensionOfType
+#### <img src="images/BIM_Column.svg" style="width:16px;"> hasExtensionOfType
 
 Returns a boolean indicating whether a geometry extension of the type indicated as a string exists.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> increaseDegree
+#### <img src="images/BIM_Column.svg" style="width:16px;"> increaseDegree
 
 increase(Int=Degree)
 Increases the degree of this B-Spline curve to Degree.
@@ -445,7 +445,7 @@ done if Degree is less than or equal to the current degree.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> increaseMultiplicity
+#### <img src="images/BIM_Column.svg" style="width:16px;"> increaseMultiplicity
 
 increaseMultiplicity(int index, int mult)
                 increaseMultiplicity(int start, int end, int mult)
@@ -457,7 +457,7 @@ increaseMultiplicity(int index, int mult)
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> incrementMultiplicity
+#### <img src="images/BIM_Column.svg" style="width:16px;"> incrementMultiplicity
 
 incrementMultiplicity(int start, int end, int mult)
                 Raises multiplicity of knots by mult.
@@ -466,7 +466,7 @@ incrementMultiplicity(int start, int end, int mult)
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> insertKnot
+#### <img src="images/BIM_Column.svg" style="width:16px;"> insertKnot
 
 insertKnot(u, mult = 1, tol = 0.0)
                 Inserts a knot value in the sequence of knots. If u is an existing knot the
@@ -474,7 +474,7 @@ insertKnot(u, mult = 1, tol = 0.0)
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> insertKnots
+#### <img src="images/BIM_Column.svg" style="width:16px;"> insertKnots
 
 insertKnots(list_of_floats, list_of_ints, tol = 0.0, bool_add = True)
                 Inserts a set of knots values in the sequence of knots.
@@ -493,7 +493,7 @@ insertKnots(list_of_floats, list_of_ints, tol = 0.0, bool_add = True)
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> interpolate
+#### <img src="images/BIM_Column.svg" style="width:16px;"> interpolate
 
 Replaces this B-Spline curve by interpolating a set of points.
                     The function accepts keywords as arguments.
@@ -528,7 +528,7 @@ Replaces this B-Spline curve by interpolating a set of points.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> intersect
+#### <img src="images/BIM_Column.svg" style="width:16px;"> intersect
 
 Returns all intersection points and curve segments between the curve and the curve/surface.
 
@@ -536,44 +536,44 @@ Returns all intersection points and curve segments between the curve and the cur
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> intersect2d
+#### <img src="images/BIM_Column.svg" style="width:16px;"> intersect2d
 
 Get intersection points with another curve lying on a plane.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> intersectCC
+#### <img src="images/BIM_Column.svg" style="width:16px;"> intersectCC
 
 Returns all intersection points between this curve and the given curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> intersectCS
+#### <img src="images/BIM_Column.svg" style="width:16px;"> intersectCS
 
 Returns all intersection points and curve segments between the curve and the surface.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isClosed
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isClosed
 
 Returns true if the distance between the start point and end point of
                     this B-Spline curve is less than or equal to gp::Resolution().
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isDerivedFrom
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isDerivedFrom
 
 Returns true if given type is a father
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isPeriodic
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isPeriodic
 
 Returns true if this BSpline curve is periodic.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isRational
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isRational
 
 Returns true if this B-Spline curve is rational.
                     A B-Spline curve is rational if, at the time of construction,
@@ -581,20 +581,20 @@ Returns true if this B-Spline curve is rational.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> join
+#### <img src="images/BIM_Column.svg" style="width:16px;"> join
 
 Build a new spline by joining this and a second spline.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> length
+#### <img src="images/BIM_Column.svg" style="width:16px;"> length
 
 Computes the length of a curve
 length([uMin,uMax,Tol]) -> Float
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> makeC1Continuous
+#### <img src="images/BIM_Column.svg" style="width:16px;"> makeC1Continuous
 
 makeC1Continuous(tol = 1e-6, ang_tol = 1e-7)
                     Reduces as far as possible the multiplicities of the knots of this BSpline
@@ -606,19 +606,19 @@ makeC1Continuous(tol = 1e-6, ang_tol = 1e-7)
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> makeRuledSurface
+#### <img src="images/BIM_Column.svg" style="width:16px;"> makeRuledSurface
 
 Make a ruled surface of this and the given curves
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> mirror
+#### <img src="images/BIM_Column.svg" style="width:16px;"> mirror
 
 Performs the symmetrical transformation of this geometric object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> movePoint
+#### <img src="images/BIM_Column.svg" style="width:16px;"> movePoint
 
 movePoint(U, P, Index1, Index2)
                 Moves the point of parameter U of this B-Spline curve to P.
@@ -630,34 +630,34 @@ first and last poles which are effectively modified.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> normal
+#### <img src="images/BIM_Column.svg" style="width:16px;"> normal
 
 Vector = normal(pos) - Get the normal vector at the given parameter [First|Last] if defined
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> parameter
+#### <img src="images/BIM_Column.svg" style="width:16px;"> parameter
 
 Returns the parameter on the curve
 of the nearest orthogonal projection of the point.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> parameterAtDistance
+#### <img src="images/BIM_Column.svg" style="width:16px;"> parameterAtDistance
 
 Returns the parameter on the curve of a point at the given distance from a starting parameter.
 parameterAtDistance([abscissa, startingParameter]) -> Float the
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> period
+#### <img src="images/BIM_Column.svg" style="width:16px;"> period
 
 Returns the period of this curve
 or raises an exception if it is not periodic.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> projectPoint
+#### <img src="images/BIM_Column.svg" style="width:16px;"> projectPoint
 
 Computes the projection of a point on the curve
 
@@ -671,7 +671,7 @@ projectPoint(Vector,"Point") -> list of points
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> removeKnot
+#### <img src="images/BIM_Column.svg" style="width:16px;"> removeKnot
 
 removeKnot(Index, M, tol)
 
@@ -690,7 +690,7 @@ removeKnot(Index, M, tol)
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> restoreContent
+#### <img src="images/BIM_Column.svg" style="width:16px;"> restoreContent
 
 restoreContent(obj) -> None
 
@@ -702,32 +702,32 @@ obj : buffer
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> reverse
+#### <img src="images/BIM_Column.svg" style="width:16px;"> reverse
 
 Changes the direction of parametrization of the curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> reversedParameter
+#### <img src="images/BIM_Column.svg" style="width:16px;"> reversedParameter
 
 Returns the parameter on the reversed curve for
 the point of parameter U on this curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> rotate
+#### <img src="images/BIM_Column.svg" style="width:16px;"> rotate
 
 Rotates this geometric object at angle Ang (in radians) about axis
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> scale
+#### <img src="images/BIM_Column.svg" style="width:16px;"> scale
 
 Applies a scaling transformation on this geometric object with a center and scaling factor
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> scaleKnotsToBounds
+#### <img src="images/BIM_Column.svg" style="width:16px;"> scaleKnotsToBounds
 
 Scales the knots list to fit the specified bounds.
                     The shape of the curve is not modified.
@@ -736,39 +736,39 @@ Scales the knots list to fit the specified bounds.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> segment
+#### <img src="images/BIM_Column.svg" style="width:16px;"> segment
 
 segment(u1,u2)
                     Modifies this B-Spline curve by segmenting it.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setExtension
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setExtension
 
 Sets a geometry extension of the indicated type.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setKnot
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setKnot
 
 Set a knot of the B-Spline curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setKnots
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setKnots
 
 Set knots of the B-Spline curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setNotPeriodic
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setNotPeriodic
 
 Changes this B-Spline curve into a non-periodic curve.
 If this curve is already non-periodic, it is not modified.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setOrigin
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setOrigin
 
 Assigns the knot of index Index in the knots table
 as the origin of this periodic B-Spline curve. As a consequence,
@@ -776,84 +776,84 @@ the knots and poles tables are modified.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setPeriodic
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setPeriodic
 
 Changes this B-Spline curve into a periodic curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setPole
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setPole
 
 Modifies this B-Spline curve by assigning P
 to the pole of index Index in the poles table.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setWeight
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setWeight
 
 Set a weight of the B-Spline curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> tangent
+#### <img src="images/BIM_Column.svg" style="width:16px;"> tangent
 
 Computes the tangent of parameter u on this curve
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> toBSpline
+#### <img src="images/BIM_Column.svg" style="width:16px;"> toBSpline
 
 Converts a curve of any type (only part from First to Last)
 					toBSpline([Float=First, Float=Last]) -> B-Spline curve
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> toBezier
+#### <img src="images/BIM_Column.svg" style="width:16px;"> toBezier
 
 Build a list of Bezier splines.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> toBiArcs
+#### <img src="images/BIM_Column.svg" style="width:16px;"> toBiArcs
 
 Build a list of arcs and lines to approximate the B-spline.
                     toBiArcs(tolerance) -> list.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> toNurbs
+#### <img src="images/BIM_Column.svg" style="width:16px;"> toNurbs
 
 Converts a curve of any type (only part from First to Last)
                     toNurbs([Float=First, Float=Last]) -> NURBS curve
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> toShape
+#### <img src="images/BIM_Column.svg" style="width:16px;"> toShape
 
 Return the shape for the geometry.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> transform
+#### <img src="images/BIM_Column.svg" style="width:16px;"> transform
 
 Applies a transformation to this geometric object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> translate
+#### <img src="images/BIM_Column.svg" style="width:16px;"> translate
 
 Translates this geometric object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> trim
+#### <img src="images/BIM_Column.svg" style="width:16px;"> trim
 
 Returns a trimmed curve defined in the given parameter range
                     trim([Float=First, Float=Last]) -> trimmed curve
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> value
+#### <img src="images/BIM_Column.svg" style="width:16px;"> value
 
 Computes the point of parameter u on this curve
 
@@ -866,4 +866,4 @@ Computes the point of parameter u on this curve
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > BSplineCurve API
+![](images/Button_right.png) [documentation index](../README.md) > [API](Category_API.md) > BSplineCurve API

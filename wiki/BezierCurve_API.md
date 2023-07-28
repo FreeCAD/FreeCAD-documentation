@@ -20,142 +20,142 @@
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Content
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Content
 
 Content of the object in XML representation.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Continuity
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Continuity
 
 Returns the global continuity of the curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Degree
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Degree
 
 Returns the polynomial degree of this Bezier curve,
 which is equal to the number of poles minus 1.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> EndPoint
+#### <img src="images/BIM_Column.svg" style="width:16px;"> EndPoint
 
 Returns the end point of this Bezier curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> FirstParameter
+#### <img src="images/BIM_Column.svg" style="width:16px;"> FirstParameter
 
 Returns the value of the first parameter.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> LastParameter
+#### <img src="images/BIM_Column.svg" style="width:16px;"> LastParameter
 
 Returns the value of the last parameter.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> MaxDegree
+#### <img src="images/BIM_Column.svg" style="width:16px;"> MaxDegree
 
 Returns the value of the maximum polynomial degree of any
 Bezier curve curve. This value is 25.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> MemSize
+#### <img src="images/BIM_Column.svg" style="width:16px;"> MemSize
 
 Memory size of the object in bytes.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Module
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Module
 
 Module in which this class is defined
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> NbPoles
+#### <img src="images/BIM_Column.svg" style="width:16px;"> NbPoles
 
 Returns the number of poles of this Bezier curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Rotation
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Rotation
 
 Returns a rotation object to describe the orientation for curve that supports it
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> StartPoint
+#### <img src="images/BIM_Column.svg" style="width:16px;"> StartPoint
 
 Returns the start point of this Bezier curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Tag
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Tag
 
 Gives the tag of the geometry as string.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> TypeId
+#### <img src="images/BIM_Column.svg" style="width:16px;"> TypeId
 
 Is the type of the FreeCAD object with module domain
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> approximateBSpline
+#### <img src="images/BIM_Column.svg" style="width:16px;"> approximateBSpline
 
 Approximates a curve of any type to a B-Spline curve
 					approximateBSpline(Tolerance, MaxSegments, MaxDegree, [Order='C2']) -> B-Spline curve
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> centerOfCurvature
+#### <img src="images/BIM_Column.svg" style="width:16px;"> centerOfCurvature
 
 Vector = centerOfCurvature(float pos) - Get the center of curvature at the given parameter [First|Last] if defined
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> clone
+#### <img src="images/BIM_Column.svg" style="width:16px;"> clone
 
 Create a clone of this geometry with the same Tag
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> continuityWith
+#### <img src="images/BIM_Column.svg" style="width:16px;"> continuityWith
 
 Computes the continuity of two curves
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> copy
+#### <img src="images/BIM_Column.svg" style="width:16px;"> copy
 
 Create a copy of this geometry
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> curvature
+#### <img src="images/BIM_Column.svg" style="width:16px;"> curvature
 
 Float = curvature(pos) - Get the curvature at the given parameter [First|Last] if defined
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> deleteExtensionOfName
+#### <img src="images/BIM_Column.svg" style="width:16px;"> deleteExtensionOfName
 
 Deletes all extensions of the indicated name.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> deleteExtensionOfType
+#### <img src="images/BIM_Column.svg" style="width:16px;"> deleteExtensionOfType
 
 Deletes all extensions of the indicated type.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> discretize
+#### <img src="images/BIM_Column.svg" style="width:16px;"> discretize
 
 Discretizes the curve and returns a list of points.
 The function accepts keywords as argument:
@@ -191,7 +191,7 @@ Part.show(s)
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> dumpContent
+#### <img src="images/BIM_Column.svg" style="width:16px;"> dumpContent
 
 dumpContent(Compression=3) -> bytearray
 
@@ -203,73 +203,73 @@ Compression : int
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getAllDerivedFrom
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getAllDerivedFrom
 
 Returns all descendants
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getD0
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getD0
 
 Returns the point of given parameter
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getD1
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getD1
 
 Returns the point and first derivative of given parameter
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getD2
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getD2
 
 Returns the point, first and second derivatives
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getD3
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getD3
 
 Returns the point, first, second and third derivatives
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getDN
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getDN
 
 Returns the n-th derivative
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getExtensionOfName
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getExtensionOfName
 
 Gets the first geometry extension of the name indicated by the string.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getExtensionOfType
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getExtensionOfType
 
 Gets the first geometry extension of the type indicated by the string.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getExtensions
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getExtensions
 
 Returns a list with information about the geometry extensions.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getPole
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getPole
 
 Get a pole of the Bezier curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getPoles
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getPoles
 
 Get all poles of the Bezier curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getResolution
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getResolution
 
 Computes for this Bezier curve the parametric tolerance (UTolerance)
 for a given 3D tolerance (Tolerance3D).
@@ -279,31 +279,31 @@ ensures that:
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getWeight
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getWeight
 
 Get a weight of the Bezier curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> getWeights
+#### <img src="images/BIM_Column.svg" style="width:16px;"> getWeights
 
 Get all weights of the Bezier curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> hasExtensionOfName
+#### <img src="images/BIM_Column.svg" style="width:16px;"> hasExtensionOfName
 
 Returns a boolean indicating whether a geometry extension with the name indicated as a string exists.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> hasExtensionOfType
+#### <img src="images/BIM_Column.svg" style="width:16px;"> hasExtensionOfType
 
 Returns a boolean indicating whether a geometry extension of the type indicated as a string exists.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> increase
+#### <img src="images/BIM_Column.svg" style="width:16px;"> increase
 
 increase(Int=Degree)
 Increases the degree of this Bezier curve to Degree.
@@ -311,19 +311,19 @@ As a result, the poles and weights tables are modified.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> insertPoleAfter
+#### <img src="images/BIM_Column.svg" style="width:16px;"> insertPoleAfter
 
 Inserts after the pole of index.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> insertPoleBefore
+#### <img src="images/BIM_Column.svg" style="width:16px;"> insertPoleBefore
 
 Inserts before the pole of index.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> interpolate
+#### <img src="images/BIM_Column.svg" style="width:16px;"> interpolate
 
 Interpolates a list of constraints.
 				Each constraint is a list of a point and some optional derivatives
@@ -334,7 +334,7 @@ Interpolates a list of constraints.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> intersect
+#### <img src="images/BIM_Column.svg" style="width:16px;"> intersect
 
 Returns all intersection points and curve segments between the curve and the curve/surface.
 
@@ -342,96 +342,96 @@ Returns all intersection points and curve segments between the curve and the cur
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> intersect2d
+#### <img src="images/BIM_Column.svg" style="width:16px;"> intersect2d
 
 Get intersection points with another curve lying on a plane.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> intersectCC
+#### <img src="images/BIM_Column.svg" style="width:16px;"> intersectCC
 
 Returns all intersection points between this curve and the given curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> intersectCS
+#### <img src="images/BIM_Column.svg" style="width:16px;"> intersectCS
 
 Returns all intersection points and curve segments between the curve and the surface.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isClosed
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isClosed
 
 Returns true if the distance between the start point and end point of
 					this Bezier curve is less than or equal to gp::Resolution().
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isDerivedFrom
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isDerivedFrom
 
 Returns true if given type is a father
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isPeriodic
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isPeriodic
 
 Returns false.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> isRational
+#### <img src="images/BIM_Column.svg" style="width:16px;"> isRational
 
 Returns false if the weights of all the poles of this Bezier curve are equal.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> length
+#### <img src="images/BIM_Column.svg" style="width:16px;"> length
 
 Computes the length of a curve
 length([uMin,uMax,Tol]) -> Float
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> makeRuledSurface
+#### <img src="images/BIM_Column.svg" style="width:16px;"> makeRuledSurface
 
 Make a ruled surface of this and the given curves
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> mirror
+#### <img src="images/BIM_Column.svg" style="width:16px;"> mirror
 
 Performs the symmetrical transformation of this geometric object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> normal
+#### <img src="images/BIM_Column.svg" style="width:16px;"> normal
 
 Vector = normal(pos) - Get the normal vector at the given parameter [First|Last] if defined
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> parameter
+#### <img src="images/BIM_Column.svg" style="width:16px;"> parameter
 
 Returns the parameter on the curve
 of the nearest orthogonal projection of the point.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> parameterAtDistance
+#### <img src="images/BIM_Column.svg" style="width:16px;"> parameterAtDistance
 
 Returns the parameter on the curve of a point at the given distance from a starting parameter.
 parameterAtDistance([abscissa, startingParameter]) -> Float the
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> period
+#### <img src="images/BIM_Column.svg" style="width:16px;"> period
 
 Returns the period of this curve
 or raises an exception if it is not periodic.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> projectPoint
+#### <img src="images/BIM_Column.svg" style="width:16px;"> projectPoint
 
 Computes the projection of a point on the curve
 
@@ -445,14 +445,14 @@ projectPoint(Vector,"Point") -> list of points
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> removePole
+#### <img src="images/BIM_Column.svg" style="width:16px;"> removePole
 
 Removes the pole of index Index from the table of poles of this Bezier curve.
 If this Bezier curve is rational, it can become non-rational.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> restoreContent
+#### <img src="images/BIM_Column.svg" style="width:16px;"> restoreContent
 
 restoreContent(obj) -> None
 
@@ -464,50 +464,50 @@ obj : buffer
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> reverse
+#### <img src="images/BIM_Column.svg" style="width:16px;"> reverse
 
 Changes the direction of parametrization of the curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> reversedParameter
+#### <img src="images/BIM_Column.svg" style="width:16px;"> reversedParameter
 
 Returns the parameter on the reversed curve for
 the point of parameter U on this curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> rotate
+#### <img src="images/BIM_Column.svg" style="width:16px;"> rotate
 
 Rotates this geometric object at angle Ang (in radians) about axis
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> scale
+#### <img src="images/BIM_Column.svg" style="width:16px;"> scale
 
 Applies a scaling transformation on this geometric object with a center and scaling factor
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> segment
+#### <img src="images/BIM_Column.svg" style="width:16px;"> segment
 
 Modifies this Bezier curve by segmenting it.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setExtension
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setExtension
 
 Sets a geometry extension of the indicated type.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setPole
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setPole
 
 Set a pole of the Bezier curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setPoles
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setPoles
 
 Set the poles of the Bezier curve.
 
@@ -515,58 +515,58 @@ Set the poles of the Bezier curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> setWeight
+#### <img src="images/BIM_Column.svg" style="width:16px;"> setWeight
 
 (id, weight) Set a weight of the Bezier curve.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> tangent
+#### <img src="images/BIM_Column.svg" style="width:16px;"> tangent
 
 Computes the tangent of parameter u on this curve
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> toBSpline
+#### <img src="images/BIM_Column.svg" style="width:16px;"> toBSpline
 
 Converts a curve of any type (only part from First to Last)
 					toBSpline([Float=First, Float=Last]) -> B-Spline curve
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> toNurbs
+#### <img src="images/BIM_Column.svg" style="width:16px;"> toNurbs
 
 Converts a curve of any type (only part from First to Last)
                     toNurbs([Float=First, Float=Last]) -> NURBS curve
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> toShape
+#### <img src="images/BIM_Column.svg" style="width:16px;"> toShape
 
 Return the shape for the geometry.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> transform
+#### <img src="images/BIM_Column.svg" style="width:16px;"> transform
 
 Applies a transformation to this geometric object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> translate
+#### <img src="images/BIM_Column.svg" style="width:16px;"> translate
 
 Translates this geometric object
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> trim
+#### <img src="images/BIM_Column.svg" style="width:16px;"> trim
 
 Returns a trimmed curve defined in the given parameter range
                     trim([Float=First, Float=Last]) -> trimmed curve
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> value
+#### <img src="images/BIM_Column.svg" style="width:16px;"> value
 
 Computes the point of parameter u on this curve
 
@@ -579,4 +579,4 @@ Computes the point of parameter u on this curve
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > BezierCurve API
+![](images/Button_right.png) [documentation index](../README.md) > [API](Category_API.md) > BezierCurve API

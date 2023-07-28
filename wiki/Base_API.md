@@ -6,7 +6,7 @@ like vector, matrix, bounding box, placement, rotation, axis, ...
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Axis
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Axis
 
 Base.Axis class.
 
@@ -28,19 +28,19 @@ direction : Base.Vector
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> BadFormatError
+#### <img src="images/BIM_Column.svg" style="width:16px;"> BadFormatError
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> BadGraphError
+#### <img src="images/BIM_Column.svg" style="width:16px;"> BadGraphError
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> BoundBox
+#### <img src="images/BIM_Column.svg" style="width:16px;"> BoundBox
 
 Base.BoundBox class.
 
@@ -87,13 +87,13 @@ max : Base.Vector, tuple
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> CADKernelError
+#### <img src="images/BIM_Column.svg" style="width:16px;"> CADKernelError
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> CoordinateSystem
+#### <img src="images/BIM_Column.svg" style="width:16px;"> CoordinateSystem
 
 Base.CoordinateSystem class.
 
@@ -104,25 +104,25 @@ Empty constructor.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> ExpressionError
+#### <img src="images/BIM_Column.svg" style="width:16px;"> ExpressionError
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> FreeCADAbort
+#### <img src="images/BIM_Column.svg" style="width:16px;"> FreeCADAbort
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> FreeCADError
+#### <img src="images/BIM_Column.svg" style="width:16px;"> FreeCADError
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> [Matrix](Matrix_API.md)
+#### <img src="images/BIM_Column.svg" style="width:16px;"> [Matrix](Matrix_API.md)
 
 Base.Matrix class.
 
@@ -160,13 +160,13 @@ vector4 : Base.Vector
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> ParserError
+#### <img src="images/BIM_Column.svg" style="width:16px;"> ParserError
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> [Placement](Placement_API.md)
+#### <img src="images/BIM_Column.svg" style="width:16px;"> [Placement](Placement_API.md)
 
 Base.Placement class.
 
@@ -205,19 +205,19 @@ angle : float
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Precision
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Precision
 
 This is the Precision class
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> ProgressIndicator
+#### <img src="images/BIM_Column.svg" style="width:16px;"> ProgressIndicator
 
 Progress indicator
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Rotation
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Rotation
 
 Base.Rotation class.
 
@@ -286,7 +286,7 @@ coef : sequence of float
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> TypeId
+#### <img src="images/BIM_Column.svg" style="width:16px;"> TypeId
 
 Base.BaseType class.
 
@@ -297,13 +297,13 @@ Base::BaseClass class and are not abstract classes.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> UnknownProgramOption
+#### <img src="images/BIM_Column.svg" style="width:16px;"> UnknownProgramOption
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> [Vector](Vector_API.md)
+#### <img src="images/BIM_Column.svg" style="width:16px;"> [Vector](Vector_API.md)
 
 Base.Vector class.
 
@@ -327,25 +327,25 @@ seq : sequence of float.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> Vector2d
+#### <img src="images/BIM_Column.svg" style="width:16px;"> Vector2d
 
 Vector2d class
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> XMLAttributeError
+#### <img src="images/BIM_Column.svg" style="width:16px;"> XMLAttributeError
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> XMLBaseException
+#### <img src="images/BIM_Column.svg" style="width:16px;"> XMLBaseException
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> XMLParseException
+#### <img src="images/BIM_Column.svg" style="width:16px;"> XMLParseException
 
 
 
@@ -358,4 +358,4 @@ Vector2d class
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Base API
+![](images/Button_right.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Base API

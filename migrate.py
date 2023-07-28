@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 #***************************************************************************
 #*   Copyright (c) 2021 Yorik van Havre <yorik@uncreated.net>              *
@@ -118,11 +119,11 @@ class MediaWiki:
         self.translationfolder = "translations"
         self.rootpage = "README.md"
         self.workbenches = self.getWorkbenches()
-        self.icon_function = os.path.join(self.imagefolder,"type_method.svg")
-        self.icon_module = os.path.join(self.imagefolder,"type_module.svg")
-        self.icon_type = os.path.join(self.imagefolder,"type_class.svg")
-        self.icon_builtin = os.path.join(self.imagefolder,"Type_enum.svg")
-        self.icon_nav = os.path.join(self.imagefolder,"Right_arrow.png")
+        self.icon_function = os.path.join(self.imagefolder,"Arrow-right.svg")
+        self.icon_module = os.path.join(self.imagefolder,"Applications-python.svg")
+        self.icon_type = os.path.join(self.imagefolder,"A2p_PartLabel.svg")
+        self.icon_builtin = os.path.join(self.imagefolder,"BIM_Column.svg")
+        self.icon_nav = os.path.join(self.imagefolder,"Button_right.svg")
 
 
     ### UTILS
