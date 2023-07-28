@@ -1,10 +1,6 @@
-# TopoShape API
+# Compound API
 
-TopoShape is the OpenCasCade topological shape wrapper.
-Sub-elements such as vertices, edges or faces are accessible as:
-* Vertex#, where # is in range(1, number of vertices)
-* Edge#, where # is in range(1, number of edges)
-* Face#, where # is in range(1, number of faces)
+Create a compound out of a list of shapes
 
 
 
@@ -140,6 +136,13 @@ List of wires in this shape.
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> add
+
+Add a shape to the compound.
+add(shape)
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> ancestorsOfType
 
 For a sub-shape of this shape get its ancestors of a type.
@@ -214,6 +217,16 @@ OCC 6.9.0 or later is required.
 Computes the complement of the orientation of this shape,
 i.e. reverses the interior/exterior status of boundaries of this shape.
 complement()
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> connectEdgesToWires
+
+Build a compound of wires out of the edges of this compound.
+connectEdgesToWires([Shared = True, Tolerance = 1e-7]) -> Compound
+--
+If Shared is True  connection is performed only when adjacent edges share the same vertex.
+If Shared is False connection is performed only when ends of adjacent edges are at distance less than Tolerance.
 
 
 
@@ -1142,4 +1155,4 @@ writeInventor() -> string
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > TopoShape API
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Compound API

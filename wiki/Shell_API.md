@@ -1,10 +1,6 @@
-# TopoShape API
+# Shell API
 
-TopoShape is the OpenCasCade topological shape wrapper.
-Sub-elements such as vertices, edges or faces are accessible as:
-* Vertex#, where # is in range(1, number of vertices)
-* Edge#, where # is in range(1, number of edges)
-* Face#, where # is in range(1, number of faces)
+Create a shell out of a list of faces
 
 
 
@@ -23,6 +19,15 @@ Get the BoundBox of the object
 #### <img src="images/Type_enum.svg" style="width:16px;"> CenterOfGravity
 
 Get the center of gravity
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> CenterOfMass
+
+Returns the center of mass of the current system.
+If the gravitational field is uniform, it is the center of gravity.
+The coordinates returned for the center of mass are expressed in the
+absolute Cartesian coordinate system.
 
 
 
@@ -62,6 +67,33 @@ Total length of the edges of the shape.
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> Mass
+
+Returns the mass of the current system.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> MatrixOfInertia
+
+Returns the matrix of inertia. It is a symmetrical matrix.
+The coefficients of the matrix are the quadratic moments of
+inertia.
+
+ | Ixx Ixy Ixz 0 |
+ | Ixy Iyy Iyz 0 |
+ | Ixz Iyz Izz 0 |
+ | 0   0   0   1 |
+
+The moments of inertia are denoted by Ixx, Iyy, Izz.
+The products of inertia are denoted by Ixy, Ixz, Iyz.
+The matrix of inertia is returned in the central coordinate
+system (G, Gx, Gy, Gz) where G is the centre of mass of the
+system and Gx, Gy, Gz the directions parallel to the X(1,0,0)
+Y(0,1,0) Z(0,0,1) directions of the absolute cartesian
+coordinate system.
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> MemSize
 
 Memory size of the object in bytes.
@@ -86,6 +118,20 @@ Get the current transformation of the object as placement
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> PrincipalProperties
+
+Computes the principal properties of inertia of the current system.
+ There is always a set of axes for which the products
+ of inertia of a geometric system are equal to 0; i.e. the
+ matrix of inertia of the system is diagonal. These axes
+ are the principal axes of inertia. Their origin is
+ coincident with the center of mass of the system. The
+ associated moments are called the principal moments of inertia.
+ This function computes the eigen values and the
+ eigen vectors of the matrix of inertia of the system.
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> ShapeType
 
 Returns the type of the shape.
@@ -101,6 +147,14 @@ List of subsequent shapes in this shape.
 #### <img src="images/Type_enum.svg" style="width:16px;"> Solids
 
 List of subsequent shapes in this shape.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> StaticMoments
+
+Returns Ix, Iy, Iz, the static moments of inertia of the
+ current system; i.e. the moments of inertia about the
+ three axes of the Cartesian coordinate system.
 
 
 
@@ -137,6 +191,13 @@ Total volume of the solids of the shape.
 #### <img src="images/Type_enum.svg" style="width:16px;"> Wires
 
 List of wires in this shape.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> add
+
+Add a face to the shell.
+add(face)
 
 
 
@@ -450,6 +511,13 @@ Returns all descendants
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> getBadEdges
+
+Get bad edges as compound.
+getBadEdges() -> compound
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> getElement
 
 Returns a SubElement
@@ -472,6 +540,13 @@ Return a tuple of points and triangles with a given accuracy
 #### <img src="images/Type_enum.svg" style="width:16px;"> getFacesFromSubElement
 
 Return vertexes and faces from a sub-element
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> getFreeEdges
+
+Get free edges as compound.
+getFreeEdges() -> compound
 
 
 
@@ -676,6 +751,13 @@ Make fillet.
 makeFillet(radius,edgeList) -> Shape
 or
 makeFillet(radius1,radius2,edgeList) -> Shape
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> makeHalfSpace
+
+Make a half-space solid by this shell and a reference point.
+makeHalfSpace(point) -> Solid
 
 
 
@@ -1142,4 +1224,4 @@ writeInventor() -> string
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > TopoShape API
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Shell API

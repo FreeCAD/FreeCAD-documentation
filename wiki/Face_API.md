@@ -1,10 +1,6 @@
-# TopoShape API
+# Face API
 
-TopoShape is the OpenCasCade topological shape wrapper.
-Sub-elements such as vertices, edges or faces are accessible as:
-* Vertex#, where # is in range(1, number of vertices)
-* Edge#, where # is in range(1, number of edges)
-* Face#, where # is in range(1, number of faces)
+TopoShapeFace is the OpenCasCade topological face wrapper
 
 
 
@@ -23,6 +19,15 @@ Get the BoundBox of the object
 #### <img src="images/Type_enum.svg" style="width:16px;"> CenterOfGravity
 
 Get the center of gravity
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> CenterOfMass
+
+Returns the center of mass of the current system.
+If the gravitational field is uniform, it is the center of gravity.
+The coordinates returned for the center of mass are expressed in the
+absolute Cartesian coordinate system.
 
 
 
@@ -62,6 +67,33 @@ Total length of the edges of the shape.
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> Mass
+
+Returns the mass of the current system.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> MatrixOfInertia
+
+Returns the matrix of inertia. It is a symmetrical matrix.
+The coefficients of the matrix are the quadratic moments of
+inertia.
+
+ | Ixx Ixy Ixz 0 |
+ | Ixy Iyy Iyz 0 |
+ | Ixz Iyz Izz 0 |
+ | 0   0   0   1 |
+
+The moments of inertia are denoted by Ixx, Iyy, Izz.
+The products of inertia are denoted by Ixy, Ixz, Iyz.
+The matrix of inertia is returned in the central coordinate
+system (G, Gx, Gy, Gz) where G is the centre of mass of the
+system and Gx, Gy, Gz the directions parallel to the X(1,0,0)
+Y(0,1,0) Z(0,0,1) directions of the absolute cartesian
+coordinate system.
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> MemSize
 
 Memory size of the object in bytes.
@@ -80,9 +112,35 @@ Returns the orientation of the shape.
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> OuterWire
+
+The outer wire of this face
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> ParameterRange
+
+Returns a 4 tuple with the parameter range
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> [Placement](Placement_API.md)
 
 Get the current transformation of the object as placement
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> PrincipalProperties
+
+Computes the principal properties of inertia of the current system.
+ There is always a set of axes for which the products
+ of inertia of a geometric system are equal to 0; i.e. the
+ matrix of inertia of the system is diagonal. These axes
+ are the principal axes of inertia. Their origin is
+ coincident with the center of mass of the system. The
+ associated moments are called the principal moments of inertia.
+ This function computes the eigen values and the
+ eigen vectors of the matrix of inertia of the system.
 
 
 
@@ -104,15 +162,35 @@ List of subsequent shapes in this shape.
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> StaticMoments
+
+Returns Ix, Iy, Iz, the static moments of inertia of the
+ current system; i.e. the moments of inertia about the
+ three axes of the Cartesian coordinate system.
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> SubShapes
 
 List of sub-shapes in this shape.
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> Surface
+
+Returns the geometric surface of the face
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> Tag
 
 Geometry Tag
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Tolerance
+
+Set or get the tolerance of the vertex
 
 
 
@@ -134,9 +212,23 @@ Total volume of the solids of the shape.
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> [Wire](Wire_API.md)
+
+The outer wire of this face
+deprecated -- please use OuterWire
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> Wires
 
 List of wires in this shape.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> addWire
+
+Adds a wire to the face.
+addWire(wire)
 
 
 
@@ -236,9 +328,38 @@ countElement(type) -> int
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> countNodes
+
+Returns the number of nodes of the triangulation.
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> countSubElements
 
 Return the number of elements of a type
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> countTriangles
+
+Returns the number of triangles of the triangulation.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> curvatureAt
+
+Get the curvature at the given parameter [0|Length] if defined
+curvatureAt(u,v) -> Float
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> curveOnSurface
+
+Returns the curve associated to the edge in the parametric space of the face.
+curveOnSurface(Edge) -> (curve, min, max) or None
+--
+If this curve exists then a tuple of curve and parameter range is returned.
+Returns None if this curve  does not exist.
 
 
 
@@ -258,12 +379,33 @@ OCC 6.9.0 or later is required.
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> cutHoles
+
+Cut holes in the face.
+cutHoles(list_of_wires)
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> defeaturing
 
 Remove a feature defined by supplied faces and return a new shape.
 defeaturing(shapeList) -> Shape
 --
 The parameter is a list of faces.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> derivative1At
+
+Get the first derivative at the given parameter [0|Length] if defined
+derivative1At(u,v) -> (vectorU,vectorV)
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> derivative2At
+
+Vector = d2At(pos) - Get the second derivative at the given parameter [0|Length] if defined
+derivative2At(u,v) -> (vectorU,vectorV)
 
 
 
@@ -511,6 +653,15 @@ Shell  : combined Shell + Face, for each face (and containing
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> getUVNodes
+
+Get the list of (u,v) nodes of the tessellation
+getUVNodes() -> list
+--
+An exception is raised if the face is not triangulated.
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> globalTolerance
 
 Returns the computed tolerance according to the mode
@@ -619,6 +770,13 @@ isNull() -> bool
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> isPartOfDomain
+
+Check if a given (u,v) pair is inside the domain of a face
+isPartOfDomain(u,v) -> bool
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> isPartner
 
 Checks if both shapes share the same geometry.
@@ -670,12 +828,34 @@ makeChamfer(radius1,radius2,edgeList) -> Shape
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> makeEvolved
+
+Profile along the spine
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> makeFillet
 
 Make fillet.
 makeFillet(radius,edgeList) -> Shape
 or
 makeFillet(radius1,radius2,edgeList) -> Shape
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> makeHalfSpace
+
+Make a half-space solid by this face and a reference point.
+makeHalfSpace(pos) -> Shape
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> makeOffset
+
+Offset the face by a given amount.
+makeOffset(dist) -> Face
+--
+Returns Compound of Wires. Deprecated - use makeOffset2D instead.
 
 
 
@@ -812,6 +992,13 @@ Supports (OCCT 6.9.0 and above):
 
 Beginning from OCCT 6.8.1 a tolerance value can be specified.
 Deprecated: use fuse() instead.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> normalAt
+
+Get the normal vector at the given parameter [0|Length] if defined
+normalAt(pos) -> Vector
 
 
 
@@ -1055,6 +1242,13 @@ slices(direction, distancesList) --> Wires
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> tangentAt
+
+Get the tangent in u and v isoparametric at the given point if defined
+tangentAt(u,v) -> Vector
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> tessellate
 
 Tessellate the shape and return a list of vertices and face indices
@@ -1128,6 +1322,20 @@ translated(vector) -> shape
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> validate
+
+Validate the face.
+validate()
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> valueAt
+
+Get the point at the given parameter [0|Length] if defined
+valueAt(u,v) -> Vector
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> writeInventor
 
 Write the mesh in OpenInventor format to a string.
@@ -1142,4 +1350,4 @@ writeInventor() -> string
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > TopoShape API
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Face API

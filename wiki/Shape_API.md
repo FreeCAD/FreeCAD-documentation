@@ -1,4 +1,4 @@
-# TopoShape API
+# Shape API
 
 TopoShape is the OpenCasCade topological shape wrapper.
 Sub-elements such as vertices, edges or faces are accessible as:
@@ -1142,4 +1142,4 @@ writeInventor() -> string
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > TopoShape API
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Shape API

@@ -1,10 +1,6 @@
-# TopoShape API
+# Wire API
 
-TopoShape is the OpenCasCade topological shape wrapper.
-Sub-elements such as vertices, edges or faces are accessible as:
-* Vertex#, where # is in range(1, number of vertices)
-* Edge#, where # is in range(1, number of edges)
-* Face#, where # is in range(1, number of faces)
+TopoShapeWire is the OpenCasCade topological wire wrapper
 
 
 
@@ -26,6 +22,15 @@ Get the center of gravity
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> CenterOfMass
+
+Returns the center of mass of the current system.
+If the gravitational field is uniform, it is the center of gravity.
+The coordinates returned for the center of mass are expressed in the
+absolute Cartesian coordinate system.
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> CompSolids
 
 List of subsequent shapes in this shape.
@@ -41,6 +46,12 @@ List of compounds in this shape.
 #### <img src="images/Type_enum.svg" style="width:16px;"> Content
 
 Content of the object in XML representation.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Continuity
+
+Returns the continuity
 
 
 
@@ -62,6 +73,33 @@ Total length of the edges of the shape.
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> Mass
+
+Returns the mass of the current system.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> MatrixOfInertia
+
+Returns the matrix of inertia. It is a symmetrical matrix.
+The coefficients of the matrix are the quadratic moments of
+inertia.
+
+ | Ixx Ixy Ixz 0 |
+ | Ixy Iyy Iyz 0 |
+ | Ixz Iyz Izz 0 |
+ | 0   0   0   1 |
+
+The moments of inertia are denoted by Ixx, Iyy, Izz.
+The products of inertia are denoted by Ixy, Ixz, Iyz.
+The matrix of inertia is returned in the central coordinate
+system (G, Gx, Gy, Gz) where G is the centre of mass of the
+system and Gx, Gy, Gz the directions parallel to the X(1,0,0)
+Y(0,1,0) Z(0,0,1) directions of the absolute cartesian
+coordinate system.
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> MemSize
 
 Memory size of the object in bytes.
@@ -74,6 +112,18 @@ Module in which this class is defined
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> OrderedEdges
+
+List of ordered edges in this shape.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> OrderedVertexes
+
+List of ordered vertexes in this shape.
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> Orientation
 
 Returns the orientation of the shape.
@@ -83,6 +133,20 @@ Returns the orientation of the shape.
 #### <img src="images/Type_enum.svg" style="width:16px;"> [Placement](Placement_API.md)
 
 Get the current transformation of the object as placement
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> PrincipalProperties
+
+Computes the principal properties of inertia of the current system.
+ There is always a set of axes for which the products
+ of inertia of a geometric system are equal to 0; i.e. the
+ matrix of inertia of the system is diagonal. These axes
+ are the principal axes of inertia. Their origin is
+ coincident with the center of mass of the system. The
+ associated moments are called the principal moments of inertia.
+ This function computes the eigen values and the
+ eigen vectors of the matrix of inertia of the system.
 
 
 
@@ -101,6 +165,14 @@ List of subsequent shapes in this shape.
 #### <img src="images/Type_enum.svg" style="width:16px;"> Solids
 
 List of subsequent shapes in this shape.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> StaticMoments
+
+Returns Ix, Iy, Iz, the static moments of inertia of the
+ current system; i.e. the moments of inertia about the
+ three axes of the Cartesian coordinate system.
 
 
 
@@ -140,6 +212,13 @@ List of wires in this shape.
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> add
+
+Add an edge to the wire
+add(edge)
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> ancestorsOfType
 
 For a sub-shape of this shape get its ancestors of a type.
@@ -156,6 +235,13 @@ Apply an additional rotation to the placement
 #### <img src="images/Type_enum.svg" style="width:16px;"> applyTranslation
 
 Apply an additional translation to the placement
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> approximate
+
+Approximate B-Spline-curve from this wire
+approximate([Tol2d,Tol3d=1e-4,MaxSegments=10,MaxDegree=3]) -> BSpline
 
 
 
@@ -264,6 +350,48 @@ Remove a feature defined by supplied faces and return a new shape.
 defeaturing(shapeList) -> Shape
 --
 The parameter is a list of faces.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> discretize
+
+Discretizes the wire and returns a list of points.
+discretize(kwargs) -> list
+--
+The function accepts keywords as argument:
+discretize(Number=n) => gives a list of 'n' equidistant points
+discretize(QuasiNumber=n) => gives a list of 'n' quasi equidistant points (is faster than the method above)
+discretize(Distance=d) => gives a list of equidistant points with distance 'd'
+discretize(Deflection=d) => gives a list of points with a maximum deflection 'd' to the wire
+discretize(QuasiDeflection=d) => gives a list of points with a maximum deflection 'd' to the wire (faster)
+discretize(Angular=a,Curvature=c,[Minimum=m]) => gives a list of points with an angular deflection of 'a'
+                                    and a curvature deflection of 'c'. Optionally a minimum number of points
+                                    can be set which by default is set to 2.
+
+Optionally you can set the keywords 'First' and 'Last' to define a sub-range of the parameter range
+of the wire.
+
+If no keyword is given then it depends on whether the argument is an int or float.
+If it's an int then the behaviour is as if using the keyword 'Number', if it's float
+then the behaviour is as if using the keyword 'Distance'.
+
+Example:
+
+import Part
+V=App.Vector
+
+e1=Part.makeCircle(5,V(0,0,0),V(0,0,1),0,180)
+e2=Part.makeCircle(5,V(10,0,0),V(0,0,1),180,360)
+w=Part.Wire([e1,e2])
+
+p=w.discretize(Number=50)
+s=Part.Compound([Part.Vertex(i) for i in p])
+Part.show(s)
+
+
+p=w.discretize(Angular=0.09,Curvature=0.01,Minimum=100)
+s=Part.Compound([Part.Vertex(i) for i in p])
+Part.show(s)
 
 
 
@@ -393,6 +521,15 @@ ShapeType = Edge   : only edges are set
 ShapeType = Face   : only faces are set
 ShapeType = Wire   : to have edges and their vertices set
 ShapeType = other value : all (vertices,edges,faces) are set
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> fixWire
+
+Fix wire
+fixWire([face, tolerance])
+--
+A face and a tolerance can optionally be supplied to the algorithm:
 
 
 
@@ -670,12 +807,31 @@ makeChamfer(radius1,radius2,edgeList) -> Shape
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> makeEvolved
+
+Profile along the spine
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> makeFillet
 
 Make fillet.
 makeFillet(radius,edgeList) -> Shape
 or
 makeFillet(radius1,radius2,edgeList) -> Shape
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> makeHomogenousWires
+
+Make this and the given wire homogeneous to have the same number of edges
+makeHomogenousWires(wire) -> Wire
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> makeOffset
+
+Offset the shape by a given amount. DEPRECATED - use makeOffset2D instead.
 
 
 
@@ -751,6 +907,22 @@ makeParallelProjection(shape, dir) -> Shape
 
 Perspective projection of an edge or wire on this shape
 makePerspectiveProjection(shape, pnt) -> Shape
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> makePipe
+
+Make a pipe by sweeping along a wire.
+makePipe(profile) -> Shape
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> makePipeShell
+
+Make a loft defined by a list of profiles along a wire.
+makePipeShell(shapeList,[isSolid=False,isFrenet=False,transition=0]) -> Shape
+--
+Transition can be 0 (default), 1 (right corners) or 2 (rounded corners).
 
 
 
@@ -1142,4 +1314,4 @@ writeInventor() -> string
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > TopoShape API
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Wire API
